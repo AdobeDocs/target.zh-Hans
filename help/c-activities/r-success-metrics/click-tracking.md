@@ -1,0 +1,93 @@
+---
+description: Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
+keywords: 点击跟踪;跟踪点击次数;点击次数;AppMeasurement
+seo-description: Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
+seo-title: 点击跟踪
+solution: Target
+subtopic: 入门指南
+title: 点击跟踪
+topic: Standard
+uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# 点击跟踪{#click-tracking}
+
+Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
+
+>[!NOTE]
+>
+>Target 全局 mbox 在用作基于表单的活动中的位置时不支持跟踪点击。
+
+## 设置点击跟踪 {#section_5540C5A533114E57BAE022A600B02E72}
+
+1. 在“[!UICONTROL 目标和设置]”页面上为活动设置目标时，选择**[!UICONTROL 转化]成功量度。**
+1. 在此步操作中，选择**[!UICONTROL 已单击元素]**，然后单击**[!UICONTROL 选择元素]。**
+
+   随即会在[!UICONTROL 可视化体验编辑器] (VEC) 中打开您的页面。
+
+1. 选择要跟踪的任何元素。
+
+   请参阅下面的“注意事项”部分，以获取有关选择元素的提示。
+
+1. 单击屏幕顶部的复选标记，以保存您所做的选择。
+
+当活动参加者点击某个选定元素时，该点击即会被计为一次转化。
+
+## 注意事项 {#considerations}
+
+选择元素时，需注意以下几个事项：
+
+* 设置单击跟踪时，DOM路径功能可用。单击页面上的某个元素时，将显示“CMS选项”菜单。此外，相应的DOM路径显示在页面底部。您可以使用DOM路径快速查看选定元素(类型、ID和类)的信息，并向上或向下移动DOM路径以选择所需元素。
+
+   ![DOM路径插图](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+
+   正如在活动创建工作流中创建步骤中的体验时一样，页面底部的DOM路径选择器允许您选择元素。从DOM路径中选择元素后，CMS中的相应元素将显示为“选定”。要取消选择选定的元素，您可以再次单击DOM路径选择器中的元素或单击CMS中的“已选定”框。
+
+   有关详细信息，请参阅 [在Visual Experience Composer选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 中 *使用DOM路径导航元素*。
+
+* 您可以浏览到其他页面，以跟踪您可能不会更改内容的页面上的点击次数。但前提是该页面必须包含在使用[多页面功能](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)的活动中，且该页面上必须实施了 [!DNL at.js] 或 [!DNL mbox.js]。
+* 如果您选择了多个元素，则当参加者点击任一选定元素时，即会被计为一次点击。要单独对每个项目进行计数，需为每个元素分别设置成功量度。
+* 务必选择要跟踪的元素的级别。例如，指定按钮时，请务必选择链接，而不要选择按钮文本。
+* 点击事件会在发生点击的同一页面上发送到 [!DNL Target]。
+* 如果点击跟踪量度是 A4T 活动的目标量度，则访客必须在页面加载的 60 秒内点击此元素，才能对量度进行跟踪。
+* 如果元素的选择器中包含转义字符（包括以下字符），则无法对这些元素执行点击跟踪：
+
+   | 字符 | 描述 |
+   |---|---|
+   | # | 数字符号或话题标签 |
+   | : | 冒号 |
+   | 。 | 句点 |
+   | $ | 美元符号 |
+   | [ ] | 方括号 |
+
+* 如果您同时使用 [!DNL at.js] 点击跟踪和 Analytics AppMeasurement，则 [!DNL at.js] 点击跟踪会取消所有其他点击事件处理程序。因此，AppMeasurement 点击处理程序将从不会执行。
+
+   当基础元素为 [!DNL at.js]（链接）标记或 `A` 标记时，`FORM` 具有特殊的点击跟踪处理方式。
+
+   将点击跟踪事件附加到 [!DNL at.js]（链接）标记或 `A` 标记后，`FORM` 会执行以下步骤：
+
+   1. 调用 `event.preventDefault()`。
+
+   1. 触发 Target 请求。
+
+   1. Target 请求成功或错误回调时，执行默认行为：
+
+      * `A`（链接）标记：默认行为是导航到由 HREF 属性定义的 URL。
+      * `FORM` 标记：默认行为是提交表单。
+   此默认行为可能会妨碍 Analytics 执行点击跟踪。如果您使用的是 Analytics，则应该依赖 Analytics（而非 Target）来执行点击跟踪。
+
+* 单击跟踪不会记录在页面和活动URL属于不同属性的页面上。Enterprise用户权限是Target Premium功能。有关详细信息，请参阅 [Enterprise用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
+
+## 培训视频 {#section_36607204DAE146E3B8E2C609D244EDB1}
+
+以下视频包含有关创建点击跟踪成功量度的信息。
+
+* 了解“目标”量度
+* 了解和构建“转化”、“收入”及“参与度”量度
+* 构建点击跟踪量度
+
+>[!VIDEO](https://video.tv.adobe.com/v/17380)

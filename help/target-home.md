@@ -1,0 +1,61 @@
+---
+keywords: Target;主页;热门主题
+seo-title: Adobe Target 产品文档
+solution: Target
+title: Adobe Target 产品文档
+topic: Premium
+uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# [!DNL Adobe Target] 产品文档{#adobe-target-product-documentation}
+
+[!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
+
+**上次更新时间：2019年月15日([请参阅更改后的内容](r-release-notes/doc-change.md))**
+
+以下部分指向本指南中的有用链接，由目标受众根据典型工作职能排列：
+
+## 所有 [!DNL Target] 用户 {#section_65FA20BA5BC6461E9E21A1B2FAB6393C}
+
+营销人员、开发人员、管理员、分析员和质量保证工程师。
+
+- [目标发行说明](r-release-notes/release-notes.md)：包含有关当前版本的信息、有关影响的已知问题的信息 [!DNL Target]、对此文档的重要更改列表以及以前发行说明的存档。
+- [Target 简介](c-intro/intro.md)：说明 [!DNL Target] 解决方案的核心概念。
+- 将Target与Adobe Experience Cloud集成：介绍如何与 [!DNL Target] 其他 [!DNL Experience Cloud] 解决方案集成，包括 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、 [Experience Cloud受众](/help/c-integrating-target-with-mac/mmp.md)、 [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)和 [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md)。
+- [Target 故障诊断](r-troubleshooting-target/troubleshooting-target.md)：提供指向本指南中包含的故障诊断信息的链接，包括字符限制和会影响 [!DNL Target] 中活动和其他元素的其他限制的信息（选件大小、受众、配置文件、值、参数等）。
+- [适用于移动设备应用程序的 Target](c-target-mobile-app/target-mobile-app.md)：说明 [!DNL Target] 如何用于移动设备应用程序优化和个性化。
+- [资源和联系信息](cmp-resources-and-contact-information.md)：提供有关其他资源的信息，以帮助您了解 [!DNL Target] 功能以及在需要帮助时如何联系 [!DNL Adobe]。
+
+## 营销人员
+
+- [活动](c-activities/activities.md)：说明如何设置、管理和 QA [!DNL Target] 活动。
+- [受众](c-target/target.md)：说明如何确定谁将会在目标活动中看到内容和体验。
+- [体验和选件](c-experiences/experiences.md)：说明如何指定在访客符合活动的受众标准时显示的内容。
+- [推荐](c-recommendations/recommendations.md)：说明 [!DNL Recommendations] 活动如何根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。
+
+## 开发人员
+
+- [实施 Target](c-implementing-target/implementing-target.md)：说明如何在网站、移动设备应用程序、单页应用程序 (SPA) 和 iOT/OTT 平台上实施 [!DNL Target]。
+
+## Target 和 Adobe Experience Cloud 管理员
+
+- [管理 Target](administrating-target/administrating-target.md)：说明如何添加用户和配置您的 [!DNL Target] 帐户。
+
+## 分析员
+
+- [受众](c-target/target.md)：说明如何确定谁将会在目标活动中看到内容和体验。
+- [报表](c-reports/reports.md)：说明如何解释活动的性能。
+
+## QA 工程师
+
+- [活动](c-activities/activities.md)：说明如何设置、管理和 QA [!DNL Target] 活动。
+
+## 其他资源 {#section_BF207244CECD479F98900F0E11151E31}
+
+| Adobe [!DNL Target] 解决方案帮助 | [!DNL Adobe Experience Cloud] 资源 |
+|--- |--- |
+| <ul><li>[Adobe Target学习和支持](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://marketing.adobe.com/resources/help/en_US/snp/)</li><li>[Target API 文档](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target 社区论坛](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li>[Experience Cloud 帮助主页](https://marketing.adobe.com/resources/help/en_US/home/)</li><li>[Adobe 培训和教程](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |

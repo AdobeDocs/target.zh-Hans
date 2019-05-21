@@ -8,7 +8,7 @@ title: A/B 测试中的多个体验版本
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -33,7 +33,9 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 1. [创建 A/B 活动](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)（按常规步骤操作）。
 
-   配置具有多个版本的体验时，请按照以下步骤所示，为每个版本选择相应的受众。1. 选择体验，然后单击**[!UICONTROL 配置]** &gt; **[!UICONTROL 受众]** &gt; **[!UICONTROL 多个受众]**。
+   配置具有多个版本的体验时，请按照以下步骤所示，为每个版本选择相应的受众。
+
+1. 选择体验，然后单击 **[!UICONTROL 配置]** &gt; **[!UICONTROL 受众]** &gt; **[!UICONTROL 多个受众]**。
 
    ![](assets/multiple-audiences.png)
 
@@ -44,6 +46,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    如果受众尚不存在，请单击[创建受众](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)，然后对其进行设置。
 
    如果访客符合多个受众的条件，则会返回适用于所有受众的内容，但页面上呈现的实际上是适用于列表中最后一个受众的内容。
+
 1. 继续设置活动。
 
 **最佳实践**

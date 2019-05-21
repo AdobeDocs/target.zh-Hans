@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -321,15 +321,11 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 常规页面，例如主页或登陆页面及站外广告。
 
-### 最近查看的项目
+### 最近查看的项目 {#recently-viewed}
 
 使用访客的历史记录（跨会话）根据设计中的版块数量显示访客最近查看过的 *x* 个项目。
 
 “最近查看的项目”标准现在会返回特定于给定[环境](/help/administrating-target/hosts.md)的结果。如果两个网站属于不同的环境，并且访客在两个网站之间切换，则每个网站仅会显示相应网站的最近查看的项目。如果两个网站位于同一环境，并且访客在两个网站之间切换访问，则访客将看到两个网站的最近查看的相同项目。
-
-**逻辑（标准）**
-
-无
 
 **在您网站上的什么位置使用**
 

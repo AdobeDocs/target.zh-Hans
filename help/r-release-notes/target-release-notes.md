@@ -8,7 +8,7 @@ title: Target 发行说明（预发行版本）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 下列发行说明将介绍最新版本或即将发布的 [!DNL Adobe Target] 版本的功能、增强功能、修复信息和已知问题。
 
-**上次更新时间：2019年月17日**
+**上次更新时间：2019年月21日**
 
 >[!NOTE]
 >
@@ -33,8 +33,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| 单页应用程序可视化体验编辑器(SPA CMS) | SPA VEC 包含以下增强功能，可让您更快捷、更高效地完成工作：<ul><li>单击SPA中的某个操作会突出显示要应用此操作的站点上的元素。在View下创建的每个CMS操作都有四个对应图标：信息、编辑、移动和删除。此版本中新增的“移动”功能允许您将操作移至页面加载事件或修改面板中已经存在的任何其他视图。(TGT-33746)</li><li>在 VEC 中加载页面之前，或者即使页面无法完全加载（例如，自定义代码不再可操作），您可以执行许多操。网站加载之前无法编辑的操作会在 Target UI 中禁用。（TGT-33851 和 TGT-34149）</li></ul> |
-| RecommendationSprem<br>![徽章](/help/assets/premium.png) | 在创建“最近查看的项目”逻辑时，您可以使用“推荐以前购买的项目”切换。(TGT-34030) |
+| 单页应用程序可视化体验编辑器(SPA CMS) | SPA VEC 包含以下增强功能，可让您更快捷、更高效地完成工作：<ul><li>单击SPA中的某个操作会突出显示要应用此操作的站点上的元素。在View下创建的每个CMS操作都有四个对应图标：信息、编辑、移动和删除。此版本中新增的“移动”功能允许您将操作移至页面加载事件或修改面板中已经存在的任何其他视图。(TGT-33746)</li><li>在 VEC 中加载页面之前，或者即使页面无法完全加载（例如，自定义代码不再可操作），您可以执行许多操。网站加载之前无法编辑的操作会在 Target UI 中禁用。（TGT-33851 和 TGT-34149）</li></ul>有关更多信息，请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md)。 |
 
 ### 增强功能、修复和更改
 

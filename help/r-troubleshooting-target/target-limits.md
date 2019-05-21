@@ -8,7 +8,7 @@ title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -38,6 +38,10 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 ## 客户属性名称
 
 **限制**：128个字符。
+
+## 客户属性别名ID
+
+**限制** 50个字符。
 
 ## 实体自定义属性
 

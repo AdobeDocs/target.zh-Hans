@@ -11,18 +11,18 @@ topic: Premium
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 配置企业权限{#configure-enterprise-permissions}
 
-此信息介绍了向 Target 实施添加用户，创建工作区、用户组和属性，更新 Target 实施以包含 at_property 参数，以及指定角色和权限时需要执行的任务。
+此信息介绍了向 Target 实施添加用户，创建工作区、用户组和属性，更新 Target 实施以包含 `at_property` 参数，以及指定角色和权限时需要执行的任务。
 
 >[!NOTE]
 >
->“属性和权限”功能作为 [!DNL Target Premium] 解决方案的一部分提供。如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
+>“属性和权限”功能作为 [Target Premium](/help/c-intro/intro.md#premium) 解决方案的一部分提供。如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
 
 下表列出了在创建属性以及分配用户角色和权限时应当执行的任务。有关每项任务的更多信息，请参阅以下部分。
 
@@ -37,11 +37,11 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 对于在企业版 Adobe Admin Console 中执行的任务，请按以下步骤访问该控制台：
 
-1. 如果您尚未登录，请转到 [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/)，然后使用您的 Adobe ID 登录。
+1. 如果尚未登录，请转到 [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) &gt;使用您的Adobe ID登录。
 
    或
 
-   如果您已登录到Experience Cloud，请转到 [https://www.marketing.adobe.com](https://www.marketing.adobe.com/)，然后单击顶部导航栏中的 [!UICONTROL 应用程序] 图标&gt;单击 **[!UICONTROL 右侧的管理]** &gt;然后单击 **[!UICONTROL 启动Admin Console]**。
+   如果您已经登录到Experience Cloud，请转到 [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)，然后单击顶部导航栏中的 [!UICONTROL 应用] 程序图标&gt;单击 **[!UICONTROL 右侧的管理员]** 。
 
 1. （视情况而定）如果您可以访问多个组织的 [!DNL Admin Console for Enterprise]，请单击右上角或顶部导航栏中的用户头像，然后选择所需组织。
 
@@ -49,7 +49,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 当您开始使用新的[!UICONTROL 属性]功能时，必须在 [!DNL Adobe Admin Console for Enterprise] 中执行所有用户管理。但是，[!DNL Target] 中的所有现有用户都将从 [!DNL Target] 迁移到 [!DNL Admin Console for Enterprise]。
 
-1. [在 Admin Console 中](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)，单击页面顶部的**[!UICONTROL 用户]**选项卡 &gt; **用户]，以创建新用户或对现有用户进行编辑。[!UICONTROL **
+1. [在Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)中，单击页面顶部的 **[!UICONTROL “用户]** ”选项卡&gt; **[!UICONTROL “添加用户]** ”以创建新用户或编辑现有用户。
 1. 按照《企业用户指南》**的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/enterprise/help/users.html)中的说明进行操作。
 
 ## 步骤 2. 创建工作区（产品配置文件）{#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -58,13 +58,13 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 组织可以通过以下方式开始利用企业权限功能：在 Admin Console 中创建新工作区，将 Target 属性分配给这些工作区，并将用户从“默认工作区”配置移动到这些新的访问受限工作区。
 
-客户可以使用这些工作区按地区、业务部门、网站区域或通过他们选择的任何其他方法，将访问权限划分给不同的团队。
+客户可以使用这些工作区按区域、按业务单位、站点部分或通过任何其他方式单独访问不同团队。
 
 用户可以包含在多个工作区中，甚至可以在每个工作区拥有不同的角色。
 
 1. 在 Admin Console 中，单击**[!UICONTROL ]产品**，然后选择所需产品的名称。
 
-   ![工作区](/help/administrating-target/c-user-management/c-user-management/assets/workspace.png)
+   ![工作区](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
 1. 创建所需的工作区（产品配置文件）：
 
@@ -90,7 +90,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 1. 在 [Adobe Admin Console](https://adminconsole.adobe.com)中，单击 [!UICONTROL “产品] ”选项卡，然后单击左侧菜单中的产品以显示PLC(工作区)列表。
 1. 单击所需的PLC(工作区)，然后在URL中找到“配置文件”ID，如下所示。
 
-![workspacesID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
+   ![workspacesID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
 ## 步骤 3. 创建用户组（可选）{#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
@@ -114,7 +114,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
    填写以下字段：
 
-   * **渠道：**为属性指定所需的渠道：Web、移动设备应用程序、电子邮件或其他/API（例如机顶盒或 PlayStation 游戏机）。
+   * **渠道：** 为属性选择所需的渠道：Web、移动应用程序、电子邮件或其他/API(例如，机顶盒或PlayStation控制台)。
    * **名称（必填）：**为属性指定一个描述性名称。
    * **描述：**为属性指定可选描述。
 
@@ -149,11 +149,15 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
    您可以通过多种方法来更新 [!DNL Target] 实施。例如，对于网页，可以使用以下方法：
 
-   * **通过[!DNL Dynamic Tag Management]中的“全局参数”（Adobe 激活）：**
+   * **通过以下“全局参数[!DNL Adobe Launch]：**
+
+      有关更多信息，请参阅 [Adobe Experience](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) Platform *Launch* 文档中的添加全局Mbox Params。
+
+   * **通过以下URL中的“全局参数”[!DNL Dynamic Tag Management]：**
 
       ![](assets/property_token_2.png)
 
-      有关更多信息，请参阅“动态标签管理产品文档”**中的[全局参数 - Adobe Target](https://marketing.adobe.com/resources/help/en_US/dtm/target_global_params.html)。
+      有关更多信息，请参阅“动态标签管理产品文档”**中的[全局参数 - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target)。
 
    * **通过 targetPageParams() 函数：**将以下代码置于 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 标记中 at.js 或 mbox.js 引用的上方。
 
@@ -171,16 +175,16 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 1. 在 Admin Console 中，单击**[!UICONTROL ]产品**，然后选择所需产品的名称。
 
-   ![工作区](/help/administrating-target/c-user-management/c-user-management/assets/workspace.png)
+   ![工作区](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
    >[!NOTE]
    >
-   >属性和权限功能仅适用于 [!DNL Target Standard/Premium]。无法在 [!DNL Target Classic] 中使用此功能。
+   >“属性和权限”功能仅适用于 [Target Standard/Premium](/help/c-intro/intro.md#premium) 。无法在 [!DNL Target Classic] 中使用此功能。
 
 1. 单击所需配置文件的名称。
 1. 单击**[!UICONTROL 用户]**。
 
-   “[!UICONTROL 配置用户]”选项卡会显示该工作区中的所有用户。
+   [!UICONTROL “用户] ”选项卡显示该工作区中的所有用户。
 
    ![配置用户](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
 

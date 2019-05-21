@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 # 文档更改{#documentation-changes}
 
 本页列出 [!DNL Adobe Target] 了对文档所做的重要更改。
+
+## Adobe Target Standard/Premium19.5.1(2019年月21日){tgt-19-5-1}
+
+| 页面 | 主题 | 更改 |
+| --- | --- | --- |
+| 2019年月21日 | [单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>更新了有关“移动”选项的信息。</li><li>添加了注意，您可以在页面加载到CMS中之前执行很多操作，或者即使页面完全无法加载也是如此。 </li></ul> |
+|  | [用户](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 生成的文本、更新的图像和添加的培训视频。 |
+|  | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 已处理的文本和图像。 |
+|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 添加了客户属性别名ID的字符限制。 |
+|  | [发行说明](/help/r-release-notes/release-notes.md)：19.5.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe Target Standard/Premium19.4.2(2019年月30日){19-4-2}
 

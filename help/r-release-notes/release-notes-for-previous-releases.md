@@ -8,7 +8,7 @@ title: 以前版本的发行说明
 topic: 推荐
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -22,6 +22,48 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 >请参阅 [Target 发行说明（当前版本）](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2019 {#releases-2019}
+
+## Mobile App Visual Experience Composer(2019年月14日){mobile-vec}
+
+| 功能/增强 | 描述 |
+| --- | --- |
+| 移动应用视觉体验书写器(CMS) | 利用移动App CMS，您无需连续的开发依赖关系和应用程序发布周期，即可在本机移动应用程序上创建活动和个性化内容。<br>有关详细信息，请参阅：<ul><li>[移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[在移动设备 VEC 中设置点击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul> |
+
+## [!DNL Target] Standard/Premium19.4.2(2019年月30日) {#release-19-4-2}
+
+此版本包括以下功能、更改和增强功能：
+
+（括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+### 功能更新
+
+| 功能/增强 | 描述 |
+| --- | --- |
+| [!UICONTROL 可视化体验编辑器] | [!UICONTROL Visual Experience Composer] (CMS)包含以下增强功能，使您的工作更快速、高效：<ul><li>现在，在设置单击跟踪时，DOM路径功能可用。<br>有关详细信息，请参阅 [单击跟踪](/help/c-activities/r-success-metrics/click-tracking.md#considerations)。</li><li>使用样式面板可查看或编辑选定元素的现有样式的值。您还可以添加其他样式。<br>要访问“样式”面板，请在CMS中单击页面元素，然后单击 [!UICONTROL “编辑] ”&gt; [!UICONTROL “样式]”。<br>样式面板显示在CMS的右侧。该面板包含允许您编辑或添加到选定元素的样式列表。实时CSS编辑器可让您查看更改并添加样式(如果您习惯使用层叠样式表(CSS))或从开发人员收到代码。<br>有关更多信息，请参阅 [视觉体验书写器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) 中 *的样式*。</li><li>富文本编辑器现在支持嵌套HTML元素。<br>HTML规范允许嵌套标签的新组合。富文本编辑器的早期版本不支持HTML规范所允许的新标记嵌套。因此，在CMS中选择的任何嵌套元素都无法正确处理，从而导致不需要的HTML更改。(TGT-33618)<br>有关详细信息，请参阅 [](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html)*“视觉体验书写器”选项中的编辑文本/HTML*。</li> |
+
+### 增强功能、修复和更改
+
+* 我们改进了您在使用 VEC 删除资产时的工作流程。删除的资产现在从 [!UICONTROL 选件库] 中删除，并且从中 [!DNL Scene7] 删除(如果适用)。已删除的资产将不会继续出现在搜索结果中。(TGT-31981)
+* 现在，即使资产文件夹包含图像(非空文件夹)，您也可以删除资产文件夹。(TGT-33265)
+
+   以前，您无法从Target图像选件库中删除非空文件夹([!UICONTROL “选件”] &gt; [!UICONTROL “图像选件”])。您会收到“文件夹不是空！”通知。通过此功能，我们将添加允许您执行文件夹删除的功能，以删除包含任意数量的资产和子文件夹的整个文件夹。此功能在目标UI中也可用于Adobe Experience Cloud Assets UI。
+
+   * 可删除图像选件库中的非空文件夹。如果在任何活动中都未引用该文件夹中的所有图像，则会删除整个文件夹及其内容。如果在任何活动中引用该文件夹中的某些图像，则会删除所有未引用的图像，但保留包含这些图像的引用图像和文件夹。
+   * 图像资产选取器中的图像提供渲染速度更快、效率更高。
+   有关详细信息，请参阅 [使用库中的内容](/help/c-experiences/c-manage-content/assets-working.md)。(TGT-32897)
+
+* 我们改进了“资产”选取器中图像选件的呈现方式。现在可以更加快捷、高效地显示和选择图像选件。(TGT-32897)
+* 我们改进了当您在 VEC 中取消载入页面时，对 URL 重定向的处理。(TGT-33815)
+* 从Collections选取器中选择 [!UICONTROL Recommendations] 集合后，您现在必须单击 [!UICONTROL “保存] ”按钮。此工作流与内其他工作流一致 [!DNL Target]。(TGT-33205)
+* 修复了一个问题，该问题导致一组Insights报告可返回0%的转化率，而不是实际的转化率。(TNT-32125)
+
+## [!DNL Target] Standard/Premium19.4.1(2019年月15日) {#release-19-4-1}
+
+这个版本属于维护版本，它包括以下变更：
+
+（括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+* 更新 [!DNL Adobe Experience Cloud] 了UI以反映品牌和产品更改。（TGT-33546、TGT-33272 和 TGT-33331）
 
 ### [!DNL Target] Standard/Premium19.3.1(2019年月29日) {#release-19-3-1}
 

@@ -8,7 +8,7 @@ title: 单页应用程序 (SPA) 可视化体验编辑器
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -198,9 +198,9 @@ VEC 的[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-edit
 
 **操作**
 
-单击某个操作会突出显示将应用此操作的网站上的元素。在视图下创建的每个 VEC 操作都有四个图标，如下所示：“信息”、“编辑”、“移动到‘页面加载’”和“删除”。
+单击某个操作会突出显示将应用此操作的网站上的元素。在View下创建的每个CMS操作都有四个图标，如下所示：信息、编辑、移动和删除。
 
-![“修改”面板](/help/c-experiences/assets/modifications.png)
+![修改](/help/c-experiences/assets/modifications-new.png)
 
 下表对每个操作进行了描述：
 
@@ -208,8 +208,12 @@ VEC 的[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-edit
 | --- | --- |
 | 信息 | 显示操作的详细信息。 |
 | 编辑 | 允许您直接编辑操作的属性。 |
-| 移动到“页面加载” | 将操作移动到页面加载事件。这些操作通常应用于 SPA 中跨页面使用的静态 HTML，例如页眉和页脚。 |
+| 移动 | 将操作移至页面加载事件或修改面板中已经存在的任何其他视图。<br>[!UICONTROL 页面加载事件] -在Web应用程序的初始页面加载上应用与页面加载事件对应的任何操作。<br>**注意** ：完成移动操作后，您需要通过浏览导航到CMS中的视图，以查看移动是否为有效操作。如果操作无法应用到视图，您将看到一个错误 |
 | 删除 | 删除操作。 |
+
+>[!NOTE]
+>
+>您可以在页面加载到CMS中之前执行很多操作，或者即使页面无法完全加载也是如此。网站加载之前无法编辑的操作会在 UI 中禁用。
 
 **示例 1**
 

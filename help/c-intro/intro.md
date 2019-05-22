@@ -8,7 +8,7 @@ title: Target 简介
 topic: 高级
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 23fc2eb4f4f76a903eca55fe1d73d8110c770e94
 
 ---
 
@@ -93,6 +93,12 @@ Target Premium 包含以下高级功能：
 [!DNL Recommendations Classic] 可根据网站上以往的用户活动自动显示客户可能感兴趣的产品或内容。推荐可帮助将用户定向到若没有推荐他们可能无法了解到的项目，从而提高网站所产生的收入。
 
 有关更多信息，请参阅 [Recommendations Classic 文档](../assets/adobe-recommendations-classic.pdf)。
+
+## Experience League：Adobe Target欢迎套件 {#kit}
+
+借助此欢迎套件，在Adobe Target上构建优化和个性化计划！它包含重要的信息、工具和资源，可帮助您准备和启动第一个Adobe Target活动，并通过短期快速赢得和长期优化战略进行准备。
+
+[Adobe Target欢迎套件](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## 培训视频：活动类型 (9:03)
 

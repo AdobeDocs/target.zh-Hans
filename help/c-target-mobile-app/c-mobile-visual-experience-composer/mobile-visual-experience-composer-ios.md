@@ -8,7 +8,7 @@ title: iOS - 设置移动设备应用程序
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 
 ---
 
@@ -277,3 +277,19 @@ ACPTargetVEC.setTargetView("VIEW_NAME", with: TARGET_PARAMS)
 + (void) prefetchOffersBackground;
 ```
 
+## 教程：在Mobile iOS Objective-C和Swift应用程序中实施Experience Cloud {#tutorial}
+
+* [在Mobile iOS Objective-C应用程序中实施Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [在Mobile iOS Swift应用程序中实施Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+
+完成这些教程之后，您可以：
+
+* 创建移动启动项属性
+* 在Objective-C或Swift应用程序中安装Launch属性
+* 实施以下Adobe Experience Cloud解决方案：
+   * Experience Cloud ID 服务
+   * Adobe Target
+   * Adobe Analytics
+   * Adobe Audience Manager
+
+* 通过开发、分步和生产环境发布Launch中的更改

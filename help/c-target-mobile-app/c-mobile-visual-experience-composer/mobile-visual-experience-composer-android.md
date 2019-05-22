@@ -8,7 +8,7 @@ title: Android - 设置移动设备应用程序
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 
 ---
 
@@ -305,3 +305,18 @@ TargetVEC.targetView("SURPRISE_VIEW",
    public static void prefetchOffersBackground();
    ```
 
+## 教程：在Mobile Android应用程序中实施Experience Cloud {#tutorial}
+
+* [在Mobile Android应用程序中实施Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+
+完成本教程后，您将能够：
+
+* 创建移动启动项属性
+* 在Android应用程序中安装启动项属性
+* 实施以下Adobe Experience Cloud解决方案：
+   * Experience Cloud ID 服务
+   * Adobe Target
+   * Adobe Analytics
+   * Adobe Audience Manager
+
+* 通过开发、分步和生产环境发布Launch中的更改

@@ -299,7 +299,7 @@ target/r_release-notes-2018.xml
 * 我们更新了“标准”卡片的外观与风格，让其更加直观和用户友好。(TGT-30469)
 * UI 性能提升加快了页面加载速度。
 
-###  Target Standard/Premium 18.8.1（2018 年 8 月 21 日）{#section_66A0030993D54565BE30E56AC9CAC1DA}
+### Target Standard/Premium 18.8.1（2018 年 8 月 21 日）{#section_66A0030993D54565BE30E56AC9CAC1DA}
 
 此版本包括以下功能和增强功能：
 
@@ -1066,7 +1066,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-###  Target Standard/Premium 17.8.1（2017 年 8 月 22 日）{#section_71A554D072F04B18B359C1626529E5D8}
+### Target Standard/Premium 17.8.1（2017 年 8 月 22 日）{#section_71A554D072F04B18B359C1626529E5D8}
 
 <table id="table_AAC16F89060D4CC09762A370B86C0885"> 
  <thead> 
@@ -1124,7 +1124,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-###  Target Standard/Premium 17.7.3（2017 年 8 月 3 日）{#section_D90CB766679442C7A0642E5D79657674}
+### Target Standard/Premium 17.7.3（2017 年 8 月 3 日）{#section_D90CB766679442C7A0642E5D79657674}
 
 <table id="table_C81EA97B251547169BC9681E5DDB4B8F"> 
  <thead> 
@@ -1944,7 +1944,7 @@ Adobe Target Standard/Premium 16.7.1（2016 年 7 月 21 日）版本包括以�
 下面是已经报告的已知问题：
 
 * 在涉及多个页面的活动中为某一个页面选择“禁用 JavaScript”选项后，JavaScript 在所有页面上都处于禁用状态，即使未在其他页面上选择“禁用 JavaScript”选项也是如此。
-* 包含重定向的体验存在体验预览 URL 问题。此问题的解决方法是，在体验编辑器中单击**[!UICONTROL 配置]**，选择**[!UICONTROL 多个受众]**，然后添加**[!UICONTROL 所有访客]**作为唯一受众。接下来保存您的活动。这样可使预览正常工作，而不会更改活动交付。此问题将在 Adobe Target 的 7 月版中得到修复。
+* 包含重定向的体验存在体验预览 URL 问题。此问题的解决方法是，在体验编辑器中单击&zwnb;**[!UICONTROL 配置]**，选择&zwnb;**[!UICONTROL 多个受众]**，然后添加&zwnb;**[!UICONTROL 所有访客]**&zwnb;作为唯一受众。接下来保存您的活动。这样可使预览正常工作，而不会更改活动交付。此问题将在 Adobe Target 的 7 月版中得到修复。
 
 * 相应文档中介绍了“重定向 URL”复选框的预期行为。但是，由于存在错误，该复选框未在默认情况下显示为选中状态。此缺陷将很快得到修复。
 
@@ -2028,7 +2028,7 @@ Adobe Target Standard/Premium 16.5.1（2016 年 5 月 19 日）版本包括以�
 下面是已经报告的已知问题：
 
 * 在涉及多个页面的活动中为某一个页面选择“禁用 JavaScript”选项后，JavaScript 在所有页面上都处于禁用状态，即使未在其他页面上选择“禁用 JavaScript”选项也是如此。
-* 包含重定向的体验存在体验预览 URL 问题。此问题的解决方法是，在体验编辑器中单击**[!UICONTROL 配置]**，选择**[!UICONTROL 多个受众]**，然后添加**[!UICONTROL 所有访客]**作为唯一受众。接下来保存您的活动。这样可使预览正常工作，而不会更改活动交付。此问题将在 Adobe Target 的 7 月版中得到修复。
+* 包含重定向的体验存在体验预览 URL 问题。此问题的解决方法是，在体验编辑器中单击&zwnb;**[!UICONTROL 配置]**，选择&zwnb;**[!UICONTROL 多个受众]**，然后添加&zwnb;**[!UICONTROL 所有访客]**&zwnb;作为唯一受众。接下来保存您的活动。这样可使预览正常工作，而不会更改活动交付。此问题将在 Adobe Target 的 7 月版中得到修复。
 
 ### 新的 Target 实施库，at.js 0.8.0（2016 年 5 月 5 日） {#section_6A44C277E82D409AB6DCD0901F43794A}
 
@@ -2200,7 +2200,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
 * Chrome 版本 48 更新引入了导致可视化体验编辑器无法在 Chrome 中正常使用的问题。Google 正在寻找解决方案。有关信息，请参阅 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)。要避开此问题，请执行以下操作：
 
    * 使用 Firefox 或 Internet Explorer。
-   * 启用增强型体验编辑器，可在**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**选项卡中配置该工具。
+   * 启用增强型体验编辑器，可在&zwnb;**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**&zwnb;选项卡中配置该工具。
 
 ### Adobe Target Standard/Premium 16.2.1（2016 年 2 月 18 日）{#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -2222,7 +2222,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
 * Chrome 版本 48 更新引入了导致可视化体验编辑器无法在 Chrome 中正常使用的问题。Google 正在寻找解决方案。有关信息，请参阅 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)。要避开此问题，请执行以下操作：
 
    * 使用 Firefox 或 Internet Explorer。
-   * 启用增强型体验编辑器，可在**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**选项卡中配置该工具。
+   * 启用增强型体验编辑器，可在&zwnb;**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**&zwnb;选项卡中配置该工具。
 
 ### Adobe Target Standard/Premium 16.1.1（2016 年 1 月 28 日）{#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -2300,7 +2300,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
 * Chrome 版本 48 更新引入了导致可视化体验编辑器无法在 Chrome 中正常使用的问题。Google 正在寻找解决方案。有关信息，请参阅 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)。要避开此问题，请执行以下操作：
 
    * 使用 Firefox 或 Internet Explorer。
-   * 启用增强型体验编辑器，可在**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**选项卡中配置该工具。
+   * 启用增强型体验编辑器，可在&zwnb;**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**&zwnb;选项卡中配置该工具。
 
 ## 2015 年版 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -2967,7 +2967,7 @@ target/r_release-notes-2014.xml
 **修复**
 
 * 修复了在活动之间导航时未生成报表图表的问题。
-* 修复了在用户单击“**[!UICONTROL 目标和设置]”页面上的**[!UICONTROL 选择链接]时，未将选定的链接标记为已选定的问题。
+* 修复了在用户单击“**[!UICONTROL 目标和设置]”页面上的&zwnb;**[!UICONTROL 选择链接]时，未将选定的链接标记为已选定的问题。
 
 * 修复了新活动在“[!UICONTROL 概述]”页面中被激活后，无法在“[!UICONTROL 活动列表]”中显示的错误。
 
@@ -3218,7 +3218,7 @@ target/r_release-notes-2014.xml
 * 如果在 Target Advanced 中禁用地理位置的同时于 Target Standard 中创建地理受众，会发生同步错误。
 * 无法交换在 CSS 中引用的图像。
 * 点击跟踪不适用于已使用可视化体验编辑器重新排列的元素。在此错误得以修复之前，请避免对重新排列的元素设置点击跟踪。
-* 用户无法为封装在 mbox 中的内容选择**[!UICONTROL 删除]操作。**
+* 用户无法为封装在 mbox 中的内容选择&zwnb;**[!UICONTROL 删除]操作。**
 
 ### Adobe Target Standard 1.2（2013 年 10 月 31 日）{#section_420B5E910D7341AA8DB059C8E1071D53}
 
@@ -3250,7 +3250,7 @@ target/r_release-notes-2014.xml
 
 | 功能 | 描述 |
 |---|---|
-| 从 Target Standard 下载 [!DNL mbox.js] | 现在可以直接从 Target Standard 界面的**[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]**中下载 [!DNL mbox.js] 文件。以前该文件必须从 Target Advanced 中下载，或者由您的帐户代表或顾问提供。 |
+| 从 Target Standard 下载 [!DNL mbox.js] | 现在可以直接从 Target Standard 界面的&zwnb;**[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]**&zwnb;中下载 [!DNL mbox.js] 文件。以前该文件必须从 Target Advanced 中下载，或者由您的帐户代表或顾问提供。 |
 
 此版本包括以下修复和增强功能：
 

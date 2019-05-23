@@ -5,7 +5,7 @@ seo-title: Adobe Target 可视化体验编辑器 (VEC)
 title: 可视化体验编辑器 (VEC)
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -14,7 +14,9 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 有关使用可视化体验编辑器 (VEC) 的信息。
 
-CMS是其中的主要功能 [!DNL Adobe Target]之一。CMS是一个编辑器，营销人员和设计人员使用可视界面创建和更改内容。无需直接编辑代码，便可进行多种设计选择。使用编辑器提供的编辑选项也可以编辑 HTML 和 JavaScript。
+CMS是WYSIWYG用户界面，可让您在站点上下文中轻松创建和测试个性化体验和选件。您可以通过拖放、交换和修改网页(或选件)或移动网页的布局和内容，为Target活动创建体验和选件。
+
+CMS是其中的主要功能 [!DNL Adobe Target]之一。CMS允许营销人员和设计人员使用可视界面创建和更改内容。无需直接编辑代码，便可进行多种设计选择。使用编辑器提供的编辑选项也可以编辑 HTML 和 JavaScript。
 
 在 Target 的**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**选项卡上，您可以输入默认可视化体验编辑器 URL。
 

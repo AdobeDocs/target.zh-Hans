@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -21,6 +21,15 @@ source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
 
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019年月23日 | [服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 更新了介绍中的文本。 |
+|  | [体验和选件](/help/c-experiences/experiences.md) | 更新了介绍中的文本。 |
+|  | [受众](/help/c-target/target.md) | 更新了介绍中的文本。 |
+|  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 更新了介绍中的文本。 |
+|  | [报表](/help/c-reports/reports.md) | 更新了介绍中的文本。 |
+|  | [可视化体验编辑器 (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | 更新了介绍中的文本。 |
+|  | [基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md) | 更新了介绍中的文本。 |
+|  | [企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md) | 更新了介绍中的文本。 |
+|  | [术语表](/help/c-intro/glossary.md) | 添加和更新了多个条目。 |
 | 2019年月22日 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | 添加了培训视频。 |
 |  | [iOS - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | 添加了指向新教程的链接：<ul><li>在Mobile iOS Objective-C应用程序中实施Experience Cloud</li><li>在Mobile iOS Swift应用程序中实施Experience Cloud</li></ul> |
 |  | [Android - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | 添加了指向新教程的链接：<ul><li>在Mobile Android应用程序中实施Experience Cloud</li></ul> |

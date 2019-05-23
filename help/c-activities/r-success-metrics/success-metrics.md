@@ -7,7 +7,7 @@ solution: Target
 title: 成功量度
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -15,6 +15,8 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 # 成功量度{#success-metrics}
 
 在 Target Standard 中，预先配置了一些成功量度，以便用于报表和跟踪。
+
+成功量度是用于衡量活动成功与否的参数。成功量度包括关键业务措施，这些措施使您能够确定给定体验或选件中给定体验的成功与否。例如，您可以确定新选件是否增加了每个访客的收入或向购物车添加物品。成功量度可用于发现注册、订购或购买漏斗的问题，但也只能与访客或客户互动相关。
 
 为实现简化测试创建过程的目标，[!DNL Target Standard] 对一些原先在 [!DNL Target Classic] 中需手动进行的配置做出了改进。例如，使用最优选项预先配置了成功量度。
 

@@ -8,7 +8,7 @@ title: 创建仅限该活动的受众
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: a419672c3e7acffbe5ffea224951cf54bf53e584
 
 ---
 

@@ -8,7 +8,7 @@ title: Target 优化和个性化常见问题解答
 topic: 高级
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 4ba74729accceb48d4325a6755f34a8e9028d1dc
 
 ---
 

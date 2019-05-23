@@ -8,7 +8,7 @@ title: 在相似页面上包含相同体验
 topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
 
 ---
 

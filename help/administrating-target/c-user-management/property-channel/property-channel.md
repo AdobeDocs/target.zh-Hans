@@ -11,14 +11,14 @@ topic: Premium
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8c9da94d7589d54b205c1387d25515a962f98235
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 企业用户权限{#enterprise-user-permissions}
 
-有关创建属性以及使用属性和权限功能的信息；利用该功能，Target 管理员可以在 Target 中创建单独的工作区（产品配置文件），然后根据这些工作区针对各个页面、属性或网站为用户分配不同的角色和权限。
+企业用户权限是对整个企业范围的Target进行正式管理的一种方式。将用户添加到Target，根据角色分配权限，根据不同部门、全局位置、渠道和其他逻辑分组为团队创建工作区。您可以为用户分配观察者、编辑者或审批人的角色。
 
 ## 确定是否有权访问企业用户权限功能
 

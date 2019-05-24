@@ -185,7 +185,7 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 **主机未出现在您帐户的 mbox 列表中。**
 
 * 在浏览器中刷新 [!UICONTROL 主机] 页面。
-* 确认 mbox 代码（包括 [!DNL mbox.js] 引用）正确无误。
+* 确认 mbox 代码包括 [!DNL mbox.js] 引用正确无误。
 * 尝试浏览主机上的某个 mbox。可能是因为主机上的 mbox 从来没有在浏览器中显示。
 
 &zwnb;**[!UICONTROL 主机]**&zwnb;列表中出现随机或未知的域。

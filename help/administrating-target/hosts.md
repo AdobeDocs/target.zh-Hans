@@ -35,7 +35,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当有新的服务器或域出现时，它们可以自动运行（除非您设置了白名单或黑名单）。这也让您能够在不了解或不可预测的各种域中进行广告测试。
 
-要管理主机和环境，请单击&zwnb;**[!UICONTROL 设置]** &gt; **[!UICONTROL 主机]**&zwnb;。
+要管理主机和环境，请单击&zwnb;**[!UICONTROL 设置]**&zwnb; &gt; **[!UICONTROL 主机]**&zwnb;。
 
 ![](assets/hosts_list.png)
 
@@ -61,7 +61,7 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 
 将某个主机添加到“[!UICONTROL 主机]”列表后，请确保该主机已被识别。
 
-1. 单击&zwnb;**[!UICONTROL 设置]** &gt; **[!UICONTROL 主机]**&zwnb;。
+1. 单击&zwnb;**[!UICONTROL 设置]**&zwnb; &gt; **[!UICONTROL 主机]**&zwnb;。
 1. 如果您的主机不在列表中，请刷新浏览器。默认情况下，新识别的主机会被放置在生产环境中。这是最安全的环境，因为该环境不允许从这些主机中查看不活跃的活动。
 1. （视情况而定）将主机移到开发环境或测试环境中。
 
@@ -74,7 +74,7 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 此信息可帮助您管理主机和环境（主机组），包括为报表设置默认主机，创建白名单，更改环境名称，将主机移至其他环境以及删除主机或环境。
 
 
-要访问[!UICONTROL 主机]列表，请单击&zwnb;**[!UICONTROL 设置]** &gt; **[!UICONTROL 主机]**&zwnb;。
+要访问[!UICONTROL 主机]列表，请单击&zwnb;**[!UICONTROL 设置]**&zwnb; &gt; **[!UICONTROL 主机]**&zwnb;。
 
 ![](assets/hosts_list.png)
 

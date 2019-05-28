@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -25,6 +25,8 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 |  | [确定入选者](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 更新的信息邻接p-值。 |
 |  | [对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 添加了有关Target如何处理多级iframe的疑难解答部分。 |
 |  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增了常见问题解答：“推荐操作的预期收录时间范围是什么？” |
+|  | [使用 Adobe Launch 实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 更新了以下“在. js使用目标启动扩展的优势”下的信息。 |
+|  | T[roubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 新增了关于. js的新故障排除部分，如果您使用的是无效的文档类型，则不会触发mbox。 |
 | 2019年月24日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关 at.js 2.1.0 的信息。 |
 | 2019年月23日 | [管理排除项](/help/c-activities/t-automated-personalization/managing-exclusions.md) | 添加了信息和链接，用于限制哪些受众使用定位规则在AP活动中查看特定优惠。 |
 |  | [服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 更新了介绍中的文本。 |

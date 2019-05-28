@@ -33,7 +33,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当有新的服务器或域出现时，它们可以自动运行（除非您设置了白名单或黑名单）。这也让您能够在不了解或不可预测的各种域中进行广告测试。
 
-要管理主机和环境，请单击&zwnb;**[!UICONTROL 设置]**&zwnb; &gt; &zwnb;**[!UICONTROL 主机]**&zwnb;。
+要管理主机和环境，请单击&zwsp;**[!UICONTROL 设置]**&zwsp; &gt; &zwsp;**[!UICONTROL 主机]**&zwsp;。
 
 ![](assets/hosts_list.png)
 
@@ -59,7 +59,7 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 
 将某个主机添加到 [!UICONTROL 主机] 列表后，请确保该主机已被识别。
 
-1. 单击&zwnb;**[!UICONTROL 主机]**&zwnb;。
+1. 单击&zwsp;**[!UICONTROL 主机]**&zwsp;。
 1. 如果您的主机不在列表中，请刷新浏览器。默认情况下，新识别的主机会被放置在生产环境中。这是最安全的环境，因为该环境不允许从这些主机中查看不活跃的活动。
 1.（视情况而定）将主机移到开发环境或测试环境中。
 
@@ -72,13 +72,13 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 此信息可帮助您管理主机和环境（主机组），包括为报表设置默认主机，创建白名单，更改环境名称，将主机移至其他环境以及删除主机或环境。
 
 
-要访问[!UICONTROL 主机]列表，请单击&zwnb;**[!UICONTROL 设置]**&zwnb; &gt; &zwnb;**[!UICONTROL 主机]**&zwnb;。
+要访问[!UICONTROL 主机]列表，请单击&zwsp;**[!UICONTROL 设置]**&zwsp; &gt; &zwsp;**[!UICONTROL 主机]**&zwsp;。
 
 ![](assets/hosts_list.png)
 
 ## 在"主机"列表中进行筛选、排序或搜索 {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-要按环境对 [!UICONTROL 主机] 列表进行筛选，请单击&zwnb;**[!UICONTROL 全部]**&zwnb;下拉列表，然后选择所需的环境（"生产"、"测试"、"开发"或您创建的自定义环境）。
+要按环境对 [!UICONTROL 主机] 列表进行筛选，请单击&zwsp;**[!UICONTROL 全部]**&zwsp;下拉列表，然后选择所需的环境（"生产"、"测试"、"开发"或您创建的自定义环境）。
 
 要对 [!UICONTROL 主机] 列表进行排序，请单击任意列标题（"名称"、"环境"或"上次请求"）以按升序或降序对列表排序。
 
@@ -90,11 +90,11 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 
 ## 创建环境 {#section_32097D0993724DF3A202D164D3F18674}
 
-1. 从[!UICONTROL 主机]列表中，单击&zwnb;**[!UICONTROL 环境]**&zwnb;选项卡。
-1. 单击&zwnb;**[!UICONTROL 创建环境]**&zwnb;。
+1. 从[!UICONTROL 主机]列表中，单击&zwsp;**[!UICONTROL 环境]**&zwsp;选项卡。
+1. 单击&zwsp;**[!UICONTROL 创建环境]**&zwsp;。
 1. 为环境指定一个描述性名称。
 1. 为环境指定所需的活跃模式：[!UICONTROL 活跃活动] 或 [!UICONTROL 活跃和不活跃的活动]。
-1. 单击&zwnb;**[!UICONTROL 保存]**&zwnb;。
+1. 单击&zwsp;**[!UICONTROL 保存]**&zwsp;。
 
 ## 设置默认报表主机 {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
@@ -104,9 +104,9 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 
 要为报表设置默认环境，请执行以下操作：
 
-1. 从[!UICONTROL 主机]列表中，单击&zwnb;**[!UICONTROL 设置]**&zwnb;选项卡。
-1. 从&zwnb;**[!UICONTROL 环境设置]**&zwnb;下拉列表中选择默认主机。
-1. 单击&zwnb;**[!UICONTROL 保存]**&zwnb;。
+1. 从[!UICONTROL 主机]列表中，单击&zwsp;**[!UICONTROL 设置]**&zwsp;选项卡。
+1. 从&zwsp;**[!UICONTROL 环境设置]**&zwsp;下拉列表中选择默认主机。
+1. 单击&zwsp;**[!UICONTROL 保存]**&zwsp;。
 
 >[!NOTE]
 >
@@ -118,13 +118,13 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 
 要创建白名单，请执行以下操作：
 
-1. 从[!UICONTROL 主机]列表中，单击&zwnb;**[!UICONTROL 设置]**&zwnb;选项卡。
-1. 选中&zwnb;**[!UICONTROL 为内容交付启用已授权的主机]**&zwnb;复选框。
-1. 根据需要在&zwnb;**[!UICONTROL 主机包含]**&zwnb;框中添加所需的主机。
+1. 从[!UICONTROL 主机]列表中，单击&zwsp;**[!UICONTROL 设置]**&zwsp;选项卡。
+1. 选中&zwsp;**[!UICONTROL 为内容交付启用已授权的主机]**&zwsp;复选框。
+1. 根据需要在&zwsp;**[!UICONTROL 主机包含]**&zwsp;框中添加所需的主机。
 
    可列出多个主机，每个主机单独占一行。
 
-1. 单击&zwnb;**[!UICONTROL 保存]**&zwnb;。
+1. 单击&zwsp;**[!UICONTROL 保存]**&zwsp;。
 
 如果对未授权的主机进行 mbox 调用，则该调用将做出响应：`/* no display - unauthorized mbox host */`。
 
@@ -138,15 +138,15 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 
 ## 更改环境的名称 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. 从[!UICONTROL 主机]列表中，单击&zwnb;**[!UICONTROL 环境]**&zwnb;选项卡。
-1. 将鼠标悬停在所需的环境上，然后单击&zwnb;**[!UICONTROL 编辑]**&zwnb;图标。
+1. 从[!UICONTROL 主机]列表中，单击&zwsp;**[!UICONTROL 环境]**&zwsp;选项卡。
+1. 将鼠标悬停在所需的环境上，然后单击&zwsp;**[!UICONTROL 编辑]**&zwsp;图标。
 1. 更改环境名称。
-1. 单击&zwnb;**[!UICONTROL 保存]**&zwnb;。
+1. 单击&zwsp;**[!UICONTROL 保存]**&zwsp;。
 
 ## 将主机移到其他环境 {#section_9F52549958BD485EB74FE78C32773D2A}
 
 1. 在 [!UICONTROL 主机] 列表中，将鼠标悬停在要移动的主机上。
-1. 单击&zwnb;**[!UICONTROL 移动]**&zwnb;图标。
+1. 单击&zwsp;**[!UICONTROL 移动]**&zwsp;图标。
 1. 从下拉列表中选择所需的环境，然后单击复选标记图标。
 
 ## 删除主机 {#section_F56355BA4BC54B078A1A8179BC954632}
@@ -154,8 +154,8 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 如果您不再需要某个主机，您可以删除该主机。
 
 1. 在 [!UICONTROL 主机] 列表中，将鼠标悬停在要删除的主机上。
-1. 单击&zwnb;**[!UICONTROL 删除]**&zwnb;图标。
-1. 单击&zwnb;**[!UICONTROL 删除]**&zwnb;以确认删除。
+1. 单击&zwsp;**[!UICONTROL 删除]**&zwsp;图标。
+1. 单击&zwsp;**[!UICONTROL 删除]**&zwsp;以确认删除。
 
 >[!NOTE]
 >
@@ -165,10 +165,10 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 
 如果您不再需要某个环境，您可以删除该环境。
 
-1. 从[!UICONTROL 主机]列表中，单击&zwnb;**[!UICONTROL 环境]**&zwnb;选项卡。
+1. 从[!UICONTROL 主机]列表中，单击&zwsp;**[!UICONTROL 环境]**&zwsp;选项卡。
 1. 将鼠标悬停在要删除的环境上。
-1. 单击&zwnb;**[!UICONTROL 删除]**&zwnb;图标。
-1. 单击&zwnb;**[!UICONTROL 删除]**&zwnb;以确认删除。
+1. 单击&zwsp;**[!UICONTROL 删除]**&zwsp;图标。
+1. 单击&zwsp;**[!UICONTROL 删除]**&zwsp;以确认删除。
 
 >[!NOTE]
 >
@@ -186,7 +186,7 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 * 确认 mbox 代码包括 [!DNL mbox.js] 引用正确无误。
 * 尝试浏览主机上的某个 mbox。可能是因为主机上的 mbox 从来没有在浏览器中显示。
 
-&zwnb;**[!UICONTROL 主机]**&zwnb;列表中出现随机或未知的域。
+&zwsp;**[!UICONTROL 主机]**&zwsp;列表中出现随机或未知的域。
 
 如果从某个域中调用了 [!DNL Target]，则该域会显示在此列表中。您常常可以看到来自蜘蛛引擎、语言翻译网站或者本地磁盘驱动器的域。如果列出的域不是您的团队所使用的域，则可以单击 [!UICONTROL 删除] 将其移除。
 

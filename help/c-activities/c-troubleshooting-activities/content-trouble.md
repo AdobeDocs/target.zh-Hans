@@ -9,7 +9,7 @@ title: 内容交付故障诊断
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -145,6 +145,10 @@ Target 不再支持 IE 8。
 对于远程选件，mbox 响应可以包含 `/* invalid remote offer URL */`
 
 您可以在浏览器中或使用 mboxTrace 检查 mbox 响应。有关有效 URL 的更多信息，请参阅 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66)。
+
+## mbox不在我的网站上触发。
+
+如果使用无效的doc类型，则at. js不会触发Target mbox。at. js需要HTML文档类型。
 
 ## 培训视频
 

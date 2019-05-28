@@ -8,7 +8,7 @@ title: Target 发行说明（预发行版本）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 9f1cab87057a7b8803f795c852a7ffe839dd8f1c
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 下列发行说明将介绍最新版本或即将发布的 [!DNL Adobe Target] 版本的功能、增强功能、修复信息和已知问题。
 
-**上次更新时间：2019年月24日**
+**上次更新时间：2019年月28日**
 
 >[!NOTE]
 >
 >下列发行说明包含预发布的信息。发布日期、功能和其他信息可能会有变动。要查看有关当前版本的信息，请参阅 [目标发行说明](release-notes.md)。这些页面上的信息可能相同，也可能不同，具体取决于发行版的时间。
 
-## at. js version2.1.0(2019年月28日)
+## at. js version2.1.0(2019年月日)
 
 我们很高兴在. js2.1.0上宣布下列激动人心的功能：
 

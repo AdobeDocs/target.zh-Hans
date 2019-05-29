@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 ---
 
@@ -24,6 +24,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 | 2019年月29日 | [类别亲和度](/help/c-target/c-visitor-profile/category-affinity.md) | 更新了文本，以阐明 `user.categoryId` 与 `entity.categoryId`. |
 |  | [从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | 本主题的补充部分：. js的优势。 |
 |  | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 本主题的补充部分：“在页面加载时间，at. js和mbox. js的影响是什么？” |
+|  | [将动态数据传递给选件](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | 更正了过去行为行中的语法。 |
 | 2019年月28日 | [从 Adobe Experience Cloud 访问 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 新增了部分：“更改Target产品文档的语言”。 |
 |  | [确定入选者](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 更新的信息邻接p-值。 |
 |  | [对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 添加了有关Target如何处理多级iframe的疑难解答部分。 |
@@ -238,7 +239,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 |  | [不通过标签管理器实施 Target](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | 更新了所有章节。添加了新章节：at.js 实施。 |
 |  | 版本 18.10.1 [发行说明](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
-## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 26 日） {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
+## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 26 日）{#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
 <table id="table_0348AA29207D48A4BDFFA187F4F845B7"> 
  <thead> 
@@ -412,7 +413,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
  </tbody> 
 </table>
 
-## Adobe Target Standard/Premium 18.8.1（2018 年 8 月 21 日） {#section_6A146EE91FFB49D1BA398B36817CD0A2}
+## Adobe Target Standard/Premium 18.8.1（2018 年 8 月 21 日）{#section_6A146EE91FFB49D1BA398B36817CD0A2}
 
 <table id="table_F09AC99B587A4D6390B1F8AE54F5DC47"> 
  <thead> 

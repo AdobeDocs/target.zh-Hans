@@ -8,7 +8,7 @@ title: 类别亲和度
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 9e491a183b2704a77ffc39a6b44cc763ad9ee232
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 9e491a183b2704a77ffc39a6b44cc763ad9ee232
 
 >[!IMPORTANT]
 >
->用于Adobe Target类别亲和算法的 `user.categoryId` 属性不同于用于Adobe Target Recommendations产品和内容推荐的 `entity.categoryId` 属性。`user.categoryId` 是跟踪用户喜爱的类别所必需的。`entity.categoryId` 要求对当前页面或当前项目的类别进行基础推荐。如果希望同时使用这两个功能，请将这两个值传递给Adobe Target。
+>用于Adobe Target类别亲和算法的 `user.categoryId` 属性不同于用于Adobe Target Recommendations产品和内容推荐的 `entity.categoryId` 属性。`user.categoryId` 是跟踪用户喜爱的类别所必需的。`entity.categoryId` 要求对当前页面或当前项目的类别进行基础推荐。如果要同时使用这两个功能，请将这两个值传递给Adobe Target。
 
 ## 类别亲和度的商业案例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 

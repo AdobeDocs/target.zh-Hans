@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 88d13804e4808d81f0ef1dd4036de9938cd801f2
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -148,7 +148,7 @@ function targetPageParams() {
 
 有关实施 [!DNL mbox.js] 的更多信息，请参阅 [Mbox.js 实施](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
 
-有关两个 Target Javascript 库之间差异的更多信息，请参阅[了解 Target JavaScript 库](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)。
+有关两个Target Javascript库之间差异的更多信息，请参阅 [. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)的优点。
 
 ## 类别页面 {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 

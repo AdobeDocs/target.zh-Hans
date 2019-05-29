@@ -8,7 +8,7 @@ title: Target 优化和个性化常见问题解答
 topic: 高级
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 4ba74729accceb48d4325a6755f34a8e9028d1dc
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 4ba74729accceb48d4325a6755f34a8e9028d1dc
 
 **我应该使用哪个实施 JavaScript 文件，at.js 还是 mbox.js？**
 
-at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本。请参阅[了解 Target JavaScript 库](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)以了解这两个库之间的差异。所有新客户都应使用 at.js。
+at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本。请参阅[. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 的优势用于理解这两个库之间的不同之处。所有新客户都应使用 at.js。
 
 所有现有的 mbox.js 客户都应迁移到 at.js。在进行迁移之前，请详细了解[从 mbox.js 迁移到 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) 中介绍的步骤。
 

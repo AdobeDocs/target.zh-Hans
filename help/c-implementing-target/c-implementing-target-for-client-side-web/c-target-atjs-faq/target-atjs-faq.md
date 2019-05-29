@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: at.js 常见问题解答
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -29,6 +29,44 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 如上图所示，使用 mbox.js 时，在 [!DNL Target] 调用完成后才会开始加载页面内容。使用 at.js 时，在 [!DNL Target] 调用启动后即会开始加载页面内容，而不会等到调用完成才开始加载。
 
+## 页面加载时间，at. js和mbox. js有何影响？ {#page-load}
+
+很多客户和顾问都想了解 [!DNL at.js] 和 [!DNL mbox.js] 对页面加载时间的影响，特别是对于新用户与旧用户的情况。但遗憾的是，由于每位客户的实施不尽相同，因此很难评测 [!DNL at.js] 或 [!DNL mbox.js] 对页面加载时间的影响并给出具体的数字。
+
+但是，如果页面上存在访客 API，我们便可以更好地了解 [!DNL at.js] 和 [!DNL mbox.js] 对页面加载时间有何影响。
+
+>[!NOTE]
+>
+>仅当您使用了全局 mbox 时，访客 API 和 [!DNL at.js] 或 [!DNL mbox.js] 才会对页面加载时间造成影响（由于采用了主体隐藏技术）。区域 mbox 不受访客 API 集成的影响。
+
+下表介绍了为新访客和旧访客执行的一系列操作：
+
+### 新访客
+
+1. 加载、解析并执行访客 API。
+1. 加载、解析并执行 at.js/mbox.js。
+1. 如果已启用全局 mbox 自动创建，则 Target JavaScript 库会执行以下操作：
+
+   * 对访客对象实例化。
+   * Target 库尝试检索 Experience Cloud 访客 ID 数据。
+   * 由于是新访客，访客 API 会触发对 demdex.net 的跨域请求。
+   * 检索 Experience Cloud 访客 ID 数据后，将触发对 Target 的请求。
+
+### 旧访客
+
+1. 加载、解析并执行访客 API。
+1. 加载、解析并执行 at.js/mbox.js。
+1. 如果已启用全局 mbox 自动创建，则 Target JavaScript 库会执行以下操作：
+
+   * 对访客对象实例化。
+   * Target 库尝试检索 Experience Cloud 访客 ID 数据。
+   * 访客 API 从 Cookie 中检索数据。
+   * 检索 Experience Cloud 访客 ID 数据后，将触发对 Target 的请求。
+
+>[!NOTE]
+>
+>对于新访客，如果存在访客 API，则 Target 必须进行多次联网，以确保 Target 请求中包含 Experience Cloud 访客 ID 数据。对于旧访客，Target 只会连接到其自身来检索个性化内容。
+
 ## 为何从以前版本的 at.js 升级到版本 1.0.0 后，响应时间似乎变长了？{#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
 [!DNL at.js] 版本 1.0.0 及更高版本可并行触发所有请求。以前的版本则按顺序执行请求，这意味着请求会被放入队列中，Target 需要等待第一个请求完成后才会执行下一个请求。
@@ -45,10 +83,6 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 </ul>
 
 如您所见，[!DNL at.js] 1.0.0 将会更快地完成请求。另外，[!DNL at.js] 请求是异步执行的，因此 Target 不会阻止页面渲染。即使请求需要几秒钟才能完成，您仍可以看到渲染的页面，在 Target 从其边缘网络获得响应之前，只有页面的某些部分将显示空白。
-
-## at.js 对页面加载时间有何影响？ {#section_90B3B94FE0BF4B369577FCB97B67F089}
-
-有关更多信息，请参阅[了解 Target JavaScript 库](../../../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)。
 
 ## 我能否异步加载 Target 库？{#section_AB9A0CA30C5440C693413F1455841470}
 
@@ -230,9 +264,9 @@ Target 已超时五秒。用户加载的页面具有自定义主页图像的活�
 
 最初，主页图像 DOM 元素处于隐藏状态。收到 Target 的响应后，at.js 会应用 DOM 更改，例如替换 IMG 并显示自定义的主页图像。
 
-## at.js需要什么HTML docype？
+## . js需要什么HTML docype？
 
-at.js需要HTML文档类型。
+at. js需要HTML文档类型。
 
 此语法为：
 

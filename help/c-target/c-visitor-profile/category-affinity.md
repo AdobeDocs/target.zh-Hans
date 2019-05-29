@@ -8,7 +8,7 @@ title: 类别亲和度
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 7e06b77a552749578c487a8f5a6e079c48e0a44e
+source-git-commit: 9e491a183b2704a77ffc39a6b44cc763ad9ee232
 
 ---
 
@@ -19,16 +19,19 @@ source-git-commit: 7e06b77a552749578c487a8f5a6e079c48e0a44e
 
 ## 将类别亲和度信息传递到 Target {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-不论用户何时访问您的网站，都会将特定于访客的配置文件参数记录到 [!DNL Target] 数据库中。该数据将与用户的 Cookie 绑定。一个特别有用的参数是 `categoryId`，它是在产品页面上分配的 mbox 参数。访客持续浏览时，或离开后返回进行另一个会话时，都可以记录特定用户查看的产品类别。您还可以将类别信息作为任何 mbox（包括嵌套 mbox）中的 mbox 参数 `user.categoryId` 或作为 URL 参数 `user.categoryId` 进行传递，或者通过全局 mbox 在 Target 页面参数中进行传递，从而记录类别信息。有关更多详细信息，请咨询您的帐户代表。
+不论用户何时访问您的网站，都会将特定于访客的配置文件参数记录到 [!DNL Target] 数据库中。该数据将与用户的 Cookie 绑定。一个特别有用的参数是 `user.categoryId`，它是在产品页面上分配的 mbox 参数。访客持续浏览时，或离开后返回进行另一个会话时，都可以记录特定用户查看的产品类别。您还可以将类别信息作为任何 mbox（包括嵌套 mbox）中的 mbox 参数 `user.categoryId` 或作为 URL 参数 `user.categoryId` 进行传递，或者通过全局 mbox 在 Target 页面参数中进行传递，从而记录类别信息。有关更多详细信息，请咨询您的帐户代表。
 
-使用逗号分隔类别，以创建多个单独的类别。例如：
+用逗号分隔类别以包含多个类别的项目。例如：
 
-* `categoryId=clothing,shoes,nike,running,shox,nike shox turbo,nike shox turbo VI`
-* `entity.categoryId=clothing,shoes,nike,running,shox,nike shox turbo,nike shox turbo VI`
+* `user.categoryId=clothing,shoes,nike,running,nike clothing,nike shoes,nike running shoes`
 
 根据对您的产品类别进行访问的频率和近期情况，会记录用户所具有的类别亲和度（如果有）。类别亲和度可用于为活动定位访客群体。
 
 您可以在配置文件脚本中使用 `user.categoryAffinities[]` 以返回访客填充的一组喜好。
+
+>[!IMPORTANT]
+>
+>用于Adobe Target类别亲和算法的 `user.categoryId` 属性不同于用于Adobe Target Recommendations产品和内容推荐的 `entity.categoryId` 属性。`user.categoryId` 是跟踪用户喜爱的类别所必需的。`entity.categoryId` 要求对当前页面或当前项目的类别进行基础推荐。如果希望同时使用这两个功能，请将这两个值传递给Adobe Target。
 
 ## 类别亲和度的商业案例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 

@@ -230,9 +230,9 @@ Target 已超时五秒。用户加载的页面具有自定义主页图像的活�
 
 最初，主页图像 DOM 元素处于隐藏状态。收到 Target 的响应后，at.js 会应用 DOM 更改，例如替换 IMG 并显示自定义的主页图像。
 
-## . js需要什么HTML docype？
+## at.js需要什么HTML docype？
 
-at. js需要HTML文档类型。
+at.js需要HTML文档类型。
 
 此语法为：
 

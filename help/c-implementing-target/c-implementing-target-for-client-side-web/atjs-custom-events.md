@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: at.js 自定义事件
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 46e49267ba602a96b45ddb54ff99017423e5bf82
 
 ---
 

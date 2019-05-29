@@ -9,14 +9,14 @@ title: 报表
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # 报表{#reports}
 
-报表提供了有关活动性能的信息。
+报告提供有关活动进度和结果的信息，可帮助您根据数据做出决策。报告数据可帮助您确定何时结束测试，向您展示哪种优惠体验是入选方，并提供洞察或学习，以确定后续行动。
 
 >[!NOTE]
 >

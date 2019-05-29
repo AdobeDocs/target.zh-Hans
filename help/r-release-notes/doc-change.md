@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 23fc2eb4f4f76a903eca55fe1d73d8110c770e94
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -21,6 +21,23 @@ source-git-commit: 23fc2eb4f4f76a903eca55fe1d73d8110c770e94
 
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019年月28日 | [从 Adobe Experience Cloud 访问 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 新增了部分：“更改Target产品文档的语言”。 |
+|  | [确定入选者](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 更新的信息邻接p-值。 |
+|  | [对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 添加了有关Target如何处理多级iframe的疑难解答部分。 |
+|  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增了常见问题解答：“推荐操作的预期收录时间范围是什么？” |
+|  | [使用 Adobe Launch 实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 更新了以下“在. js使用目标启动扩展的优势”下的信息。 |
+|  | T[roubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 新增了关于. js的新故障排除部分，如果您使用的是无效的文档类型，则不会触发mbox。 |
+| 2019年月24日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关 at.js 2.1.0 的信息。 |
+| 2019年月23日 | [管理排除项](/help/c-activities/t-automated-personalization/managing-exclusions.md) | 添加了信息和链接，用于限制哪些受众使用定位规则在AP活动中查看特定优惠。 |
+|  | [服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 更新了介绍中的文本。 |
+|  | [体验和选件](/help/c-experiences/experiences.md) | 更新了介绍中的文本。 |
+|  | [受众](/help/c-target/target.md) | 更新了介绍中的文本。 |
+|  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 更新了介绍中的文本。 |
+|  | [报表](/help/c-reports/reports.md) | 更新了介绍中的文本。 |
+|  | [可视化体验编辑器 (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | 更新了介绍中的文本。 |
+|  | [基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md) | 更新了介绍中的文本。 |
+|  | [企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md) | 更新了介绍中的文本。 |
+|  | [术语表](/help/c-intro/glossary.md) | 添加和更新了多个条目。 |
 | 2019年月22日 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | 添加了培训视频。 |
 |  | [iOS - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | 添加了指向新教程的链接：<ul><li>在Mobile iOS Objective-C应用程序中实施Experience Cloud</li><li>在Mobile iOS Swift应用程序中实施Experience Cloud</li></ul> |
 |  | [Android - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | 添加了指向新教程的链接：<ul><li>在Mobile Android应用程序中实施Experience Cloud</li></ul> |

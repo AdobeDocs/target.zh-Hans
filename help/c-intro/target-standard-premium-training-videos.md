@@ -8,7 +8,7 @@ title: Adobe Target Standard 和 Premium 的培训视频
 topic: 高级
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: df4b2681720b83d967a378733dfc58301b1ca7ee
 
 ---
 

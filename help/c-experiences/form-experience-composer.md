@@ -8,16 +8,14 @@ title: 基于表单的体验编辑器
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # 基于表单的体验编辑器{#form-based-experience-composer}
 
-在基于表单的体验编辑器中，可采用非可视化方式创建体验。
-
-此功能允许通过电子邮件、移动设备应用程序、网亭以及其他不适用于可视化体验编辑器的位置交付 Target Standard A/B 测试、体验定位、自动个性化和“推荐”活动。
+基于表单的Experience Composer是一种非可视体验和选件创建界面，可在视觉体验书写器不提供或实用的情况下创建体验，从而在A/B测试、体验定位、自动个性化和推荐活动中使用。例如，您可以使用基于表单的书写器为电子邮件、自助电话亭和语音助理中的交付创建体验和选件。
 
 如果您创建的是“推荐”活动，则不存在任何体验。需选择您的标准和设计。如果您选择多个标准或设计，则 Target 会自动生成体验。
 

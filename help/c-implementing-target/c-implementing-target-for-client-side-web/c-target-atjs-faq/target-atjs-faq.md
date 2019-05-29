@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: at.js 常见问题解答
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 

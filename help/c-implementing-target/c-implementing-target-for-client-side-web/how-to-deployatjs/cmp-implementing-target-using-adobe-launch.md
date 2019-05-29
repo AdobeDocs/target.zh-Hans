@@ -6,7 +6,7 @@ seo-title: 使用 Adobe Launch 实施 Target
 title: 使用 Adobe Launch 实施 Target
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -31,7 +31,5 @@ Launch 是 Adobe 的下一代标签管理平台，是实施 Adobe Target 的首�
 
 仅当您使用 Adobe Launch 实施 at.js 时，以下优势才适用。为此，我们强烈建议您使用 Adobe Launch 进行实施，而不使用 DTM 进行实施或手动实施 at.js。
 
-* **允许异步部署 Target：**有关详细信息，请参阅[Adobe Target 扩展文档](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension)中的“带有异步部署的 Adobe Target 扩展”。
-* **解决了 Analytics 和 Target 争用情况：**由于可以在 Target 调用之前触发 Analytics 调用，因此 Target 调用不会与 Analytics 调用相拼合，这可能会导致数据不正确。从 Launch 0.6.0 开始，Target Launch 扩展可确保 Analytics 信标调用将等到 Target 调用完成（不论其成功与否）后才触发。这应该可以解决客户可能遇到的数据不一致问题。
-* **阻止错误的重定向选件处理：**如果您在页面上同时具有 Target 和 Analytics，并且 Target 正在执行某个重定向选件，您可能会遇到如下情况：Analytics 跟踪器触发了不应触发的请求，因为用户将被重定向到不同的 URL。如果您通过 Launch 实施 Target 和 Analytics，则不会遇到此问题，因为使用 Launch 时，Target 将指示 Analytics 中止 Analytics 信标请求。
-
+* **解决Analytics和Target竞赛条件：** 由于在Target调用之前可以触发Analytics调用，Target调用不会拼接到Analytics调用中。这会导致数据不正确。从0.6.0开始，Target Launch扩展确保Analytics信标调用一直等待，直到Target调用完成，无论成功与否。这应该可以解决客户可能遇到的数据不一致问题。
+* **防止不正确的重定向选件处理：** 如果页面上有Target和Analytics，并且Target执行了重定向选件，则您可能遇到一个情况，该情况导致Analytics跟踪器在不应时触发请求(因为用户被重定向到其他URL)。如果您通过Launch实施Target和Analytics，则不会遇到此问题。Target会使用Launch指示Analytics中止Analytics信标请求。

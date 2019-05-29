@@ -7,7 +7,7 @@ solution: Target,Analytics
 title: 管理排除项
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 可在自动个性化 (AP) 活动中创建排除组，以确保自动排除具有指定选件的体验。
 
 排除组是一种非常有用的方法，可确保不同位置的相同体验中不会出现不兼容的选件。例如，假设您有两个选件：一个选件是所有商品八折优惠，而另一个选件是所有商品八五折优惠。您一定不希望在同一个体验中同时向访客显示这两个选件。如果您将这两个选件添加到一个排除组，便可以确保永远不会出现这种情况。
+
+您还可以限制哪些受众可以在AP活动中查看特定优惠。有关更多信息，请参阅 [Target自动个性化提供](/help/c-activities/t-automated-personalization/ap-target-offers.md)。
 
 **创建排除组：**
 

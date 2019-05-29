@@ -8,7 +8,7 @@ title: Target 发行说明（预发行版本）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
+source-git-commit: 9f1cab87057a7b8803f795c852a7ffe839dd8f1c
 
 ---
 
@@ -17,11 +17,23 @@ source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 下列发行说明将介绍最新版本或即将发布的 [!DNL Adobe Target] 版本的功能、增强功能、修复信息和已知问题。
 
-**上次更新时间：2019年月21日**
+**上次更新时间：2019年月28日**
 
 >[!NOTE]
 >
 >下列发行说明包含预发布的信息。发布日期、功能和其他信息可能会有变动。要查看有关当前版本的信息，请参阅 [目标发行说明](release-notes.md)。这些页面上的信息可能相同，也可能不同，具体取决于发行版的时间。
+
+## at. js version2.1.0(2019年月日)
+
+我们很高兴在. js2.1.0上宣布下列激动人心的功能：
+
+| 功能/增强 | 描述 |
+| --- | --- |
+| Adobe选择加入支持 | 通过 Adobe 选择加入，可轻松将 Adobe 解决方案与同意管理平台集成。<br>有关Adobe选择加入的详细信息，请参阅 [隐私和一般数据保护规定(GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)。 |
+| 符合行业标准的CSP | at. js不再使用eval()执行JavaScript。 |
+| 客户端分析日志记录 | 无论客户端还是服务器端，都可以完全控制如何将分析数据发送到Adobe Analytics。 |
+| 发送通知 | 允许开发人员在体验呈现的而不是使用 `applyOffer()` 或 `applyOffers()`使用的代码呈现通知时发送通知。 |
+| 文件大小更小 | . js的大小减小了~24%。文件大小较小，可提高页面加载性能并缩短页面上下载. js的时间。 |
 
 ## [!DNL Target] Standard/Premium19.5.1(2019年月21日) {#release-19-5-1-prerelease}
 

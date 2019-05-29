@@ -7,7 +7,7 @@ solution: Target
 title: 对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 # 对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
 有时，在某些情况下，可视化体验编辑器 (VEC) 和增强型体验编辑器 (EEC) 可能会发生显示问题。
+
+## Target是否支持多级iframe？
+
+Target不支持多级iframe。如果您的网站加载有子iframe的iframe，则Target库(at. js和mbox. js)仅与父级iframe交互。Target库不与子iframe交互。
+
+作为解决方法，您可以使用子iframe的URL在体验中添加页面。
 
 ## 我在尝试编辑页面时，看到的只是一个旋转图标而不是我的页面。（VEC 和 EEC）{#section_313001039F79446DB28C70D932AF5F58}
 
@@ -61,7 +67,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ## 我无法编辑防 iFrame 嵌套网站的体验。（VEC 和 EEC）{#section_9FE266B964314F2EB75604B4D7047200}
 
-启用增强型体验编辑器即可解决此问题。单击**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**，然后选中启用增强型体验编辑器的复选框。增强型体验编辑器使用 Adobe 管理的代理来加载页面以进行编辑。这允许在防 iFrame 嵌套的网站，以及尚未添加 Adobe Target 代码的网站和页面上进行编辑。在添加代码之前，活动不会向网站交付内容。有些网站可能无法通过增强型体验编辑器来加载，在这种情况下，您可以取消选中此选项以通过 iFrame 加载可视化体验编辑器。[]
+启用增强型体验编辑器即可解决此问题。单击**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**，然后选中启用增强型体验编辑器的复选框。增强型体验编辑器使用 Adobe 管理的代理来加载页面以进行编辑。这允许在防 iFrame 嵌套的网站，以及尚未添加 Adobe Target 代码的网站和页面上进行编辑。在添加代码之前，活动不会向网站交付内容。有些网站可能无法通过增强型体验编辑器来加载，在这种情况下，您可以取消选中此选项以通过 iFrame 加载可视化体验编辑器。 []
 
 >[!NOTE]
 >

@@ -7,7 +7,7 @@ solution: Target
 title: 定位工作原理
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Adobe Target 通过 at.js 或 mbox.js JavaScript 库与您的网页集成。
 
-[!DNL Target Classic] 在您想要显示目标内容或收集数据的页面上的每个区域都使用了 mbox。[!DNL Target Standard] 不需要使用这些 mbox。而在运行优化活动时，您只需要在每个页面上引用一次 [JavaScript 库](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)。
+[!DNL Target Classic] 在您想要显示目标内容或收集数据的页面上的每个区域都使用了 mbox。[!DNL Target Standard] 不需要使用这些 mbox。而在运行优化活动时，您只需要在每个页面上引用一次 JavaScript 库。
 
 每次在访客请求访问启用了 的页面时，[!DNL Target]Target 都会使用以下流程来提供选件：
 

@@ -9,7 +9,7 @@ title: Target 关键概念
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -50,7 +50,7 @@ Target包括多种活动类型。下表提供了每个活动类型的概述，�
 
 在 [!DNL Target Standard] 中，位置可以是页面上的任何元素，但前提是要跟踪的每个页面的 `<head>` 部分中包含一行用于启用 [!DNL Target] 的代码。这一行代码会调用所需的 JavaScript 库，以便收集信息并将定位体验交付给访客。
 
-请参阅[了解 Target JavaScript 库](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)，以详细了解 [!DNL Target Standard] 中的位置实施与 [!DNL Target Classic] 中的 mbox 实施之间的差异。
+请参阅[. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 的优势，用于详细了解在中实施位置实施 [!DNL Target Standard] 与mbox实施之间的差异 [!DNL Target Classic]。
 
 位置与受众相结合，可提供近乎无限数量的客户定位信息的选项。例如，如果访客以前从未访问过您的网站，您可以向这些新访客显示折扣券。同样，页面也可以更改为向回访客户显示更优化的选件。
 

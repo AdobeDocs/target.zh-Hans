@@ -8,7 +8,7 @@ title: 报表设置
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 此信息可帮助您设置要在报表中显示的元素。可保存报表设置，以供日后使用。
 
-要显示报表，请单击**[!UICONTROL 活动]**，从列表中单击所需的活动，然后单击**报表]选项卡。[!UICONTROL **
+要显示报表，请单击 **[!UICONTROL 活动]**，从列表中单击所需的活动，然后单击 **报表]选项卡。[!UICONTROL **
 
-![](assets/report_ui.png)
+![报告UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Target 预设 {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
@@ -30,23 +30,23 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 **创建预设或默认预设**
 
 1. 根据需要配置活动的报表（量度、日期范围、受众、高级设置等）。
-1. 在 **[!UICONTROL Target 预设]**旁边，单击三个垂直省略号图标 &gt; **[!UICONTROL 另存为新预设]**。
+1. 在 **[!UICONTROL Target 预设]** 旁边，单击三个垂直省略号图标 &gt; **[!UICONTROL 另存为新预设]**。
 
-   ![](assets/report_preset.png)
+   ![报告预设](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
    此时会显示“新建预设”对话框：
 
-   ![](assets/report_preset_dialog.png)
+   ![新预设对话框](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. 查看“筛选器”和“设置”部分中的信息以确保根据需要配置了报表，然后指定**[!UICONTROL 预设名称]**（最多 50 个字符）。
-1. （视情况而定）如果您希望将此预设作为默认/收藏报表视图，请将**[!UICONTROL 设为默认预设]切换开关滑动到“开”位置。**
-1. 单击**[!UICONTROL 保存]**。
+1. 查看“筛选器”和“设置”部分中的信息以确保根据需要配置了报表，然后指定 **[!UICONTROL 预设名称]**（最多 50 个字符）。
+1. （视情况而定）如果您希望将此预设作为默认/收藏报表视图，请将 **[!UICONTROL 设为默认预设]切换开关滑动到“开”位置。**
+1. 单击 **[!UICONTROL 保存]**。
 
 **选择其他预设**
 
 从 **[!UICONTROL Target 预设]下拉列表中选择所需的预设。**
 
-![](assets/report_preset_drop-down.png)
+![预设下拉列表](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
 **编辑预设**
 
@@ -55,7 +55,7 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
    在编辑报表的配置后单击“[!UICONTROL 保存]”，预设名称后面会显示一个星号 ( * )，表示预设已更改，如下所示：
 
-   ![](assets/report_preset_asterisk.png)
+   ![带有星号的报告预设](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
 1. 单击三个垂直省略号图标 &gt; **[!UICONTROL 另存为新预设]以创建新预设。**
 
@@ -63,16 +63,16 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
    单击三个垂直省略号图标 &gt; **[!UICONTROL 更新]以更新当前预设。**
 
-   ![](assets/report_preset_update.png)
+   ![报告默认更新](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **删除预设**
 
 1. 选择要删除的预设。
 1. 单击三个垂直省略号图标 &gt; **[!UICONTROL 删除]**。
 
-   ![](assets/report_preset_delete.png)
+   ![报告默认删除](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. 再次单击**[!UICONTROL 删除]以确认删除操作。**
+1. 再次单击 **[!UICONTROL 删除]以确认删除操作。**
 
 **预设错误处理**
 
@@ -88,7 +88,7 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 ## 报表量度 {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-单击**[!UICONTROL 报表量度]**下拉列表以选择要在图表中显示的其他[成功量度](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)或多个量度。
+单击 **[!UICONTROL 报表量度]** 下拉列表以选择要在图表中显示的其他[成功量度](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)或多个量度。
 
 默认情况下，主量度在创建活动时的成功量度设置中确定。如果您更改该设置并重新保存活动，则报表的主量度会随之更新。
 
@@ -104,11 +104,11 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 “日期范围”框显示报表的当前日期范围。单击下拉图标可显示允许您更改报表日期范围的日历。
 
-![](assets/date_range.png)
+![选项](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-为报表选择新的**[!UICONTROL 开始]**日期和**结束]日期。[!UICONTROL **您还可以使用**[!UICONTROL 从活动开始日期起]**和**到活动结束时止]复选框。[!UICONTROL **
+为报表选择新的 **[!UICONTROL 开始]** 日期和 **结束]日期。[!UICONTROL ** 您还可以使用 **[!UICONTROL 从活动开始日期起]** 和 **到活动结束时止]复选框。[!UICONTROL **
 
-单击**[!UICONTROL 自定义日期]可选择预定义的日期范围：“最近 7 天”、“最近 15 天”或“最近 30 天”。**这些预定义的日期范围是可滚动的范围。如果从开始日期算起的天数少于所选天数，则日历将显示从开始日期起的范围，但是如果随着活动持续时间增加，从开始日期算起的天数多于所选天数，则日期范围会相应滚动。
+单击 **[!UICONTROL 自定义日期]可选择预定义的日期范围：“最近 7 天”、“最近 15 天”或“最近 30 天”。** 这些预定义的日期范围是可滚动的范围。如果从开始日期算起的天数少于所选天数，则日历将显示从开始日期起的范围，但是如果随着活动持续时间增加，从开始日期算起的天数多于所选天数，则日期范围会相应滚动。
 
 报表具有以下日期限制：
 
@@ -118,23 +118,23 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 ## 设置 {#section_D99CE462107D45CABE0960F820E1E972}
 
-单击“齿轮”图标可配置报表设置，完成后，单击**[!UICONTROL 保存设置]。**
+单击“齿轮”图标可配置报表设置，完成后，单击 **[!UICONTROL 保存设置]。**
 
 下图显示了 A/B 活动的“设置”对话框：
 
-![](assets/ab_settings_dialog.png)
+![设置对话框](/help/c-reports/c-report-settings/assets/ab_settings_dialog-new.png)
 
 根据选定的活动类型，选项会有所不同：
 
-* **计数方法：**选择所需的方法：
+* **计数方法：** 选择所需的方法：
 
    * 访客
    * 访问次数
    * 活动展示次数
 
-* **控制：**选择在计算和比较提升度时要使用的控制体验。
-* **环境：**选择要为报表使用的环境（主机组）。有关更多信息，请参阅[主机](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
-* **重置报表数据：**重置报表数据可删除旧数据。当前的访客将保留在活动中。只有具备审批者权限的用户可使用此选项。
+* **控制：** 选择在计算和比较提升度时要使用的控制体验。
+* **环境：** 选择要为报表使用的环境（主机组）。有关更多信息，请参阅[主机](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
+* **重置报表数据：** 重置报表数据可删除旧数据。当前的访客将保留在活动中。只有具备审批者权限的用户可使用此选项。
 
    >[!IMPORTANT]
    >
@@ -156,11 +156,11 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 ## 表格视图 {#section_4E7E75955A964847ADFF2C2314EC0F21}
 
-单击**[!UICONTROL 表格视图]图标可查看表格形式的报表。**
+单击 **[!UICONTROL 表格视图]图标可查看表格形式的报表。**
 
 ## 图形视图 {#section_0D24B902A8D142468ADB7EEF1D941786}
 
-单击**[!UICONTROL 图形视图]图标可查看图形形式的报表。**
+单击 **[!UICONTROL 图形视图]图标可查看图形形式的报表。**
 
 ## 平均提升度、提升度范围和置信区间 {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -175,7 +175,7 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 ## 位置贡献 {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
-单击**[!UICONTROL 位置贡献]图标可将报表切换为按位置显示贡献。**
+单击 **[!UICONTROL 位置贡献]图标可将报表切换为按位置显示贡献。**
 
 ## 体验 {#section_3A450DE1FA7E43F0AAB73165EC3D1C34}
 
@@ -183,9 +183,9 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 在图表的左侧选择或取消选择体验，可在图表中显示或隐藏相应的体验。
 
-下图的报表中仅显示了体验 B 和 C：
+如果下图，则仅体验“默认”、“中东”和“总计”的体验。亚洲体验隐藏在图形中。
 
-![](assets/report_experiences.png)
+![体验](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
 ## 运行平均值 {#section_59066693158C4433B87D07402C2BC6CD}
 
@@ -198,7 +198,7 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 * 每日
 * 每日（提升）
 
-![](assets/report_running_average.png)
+![报告运行平均值](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
@@ -210,17 +210,17 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 您可以为报表中的图形选择计数方法。请注意，自动个性化 (AP) 活动不支持此功能。
 
-在图形模式下查看报表时，要访问“计数方法”选项，请单击**[!UICONTROL 我的主要目标]下拉列表，然后选择计数方法。**
+在图形模式下查看报表时，要访问“计数方法”选项，请单击 **[!UICONTROL 我的主要目标]下拉列表，然后选择计数方法。**
 
 计数方法将与在“[!UICONTROL 设置]”对话框中选择的方法相同，具体如上所述。
 
-![](assets/counting_methodology.png)
+![计数方法](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
 默认情况下，图形会按“[!UICONTROL 每日]”模式进行绘制。
 
 通过单击“[!UICONTROL 每日]”下拉列表，然后选择“[!UICONTROL 累计]”，可更改模式。
 
-![](assets/counting_methodology_2.png)
+![累积](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
 >[!NOTE]
 >

@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 | --- | --- | --- |
 | 2019年月30日 | [从 Adobe Experience Cloud 访问 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 文档现在提供简体中文语言版本。 |
 |  | [将数据下载到 CSV 文件](/help/c-reports/downloading-data-in-csv-file.md) | 在“将订单详细信息导出到CSV”部分中添加了新提示：“在目标报告UI中应用的受众不会传递到下载报告”。 |
+|  | [报表设置](/help/c-reports/c-report-settings/report-settings.md) | 更新了屏幕截图。 |
 | 2019年月29日 | [类别亲和度](/help/c-target/c-visitor-profile/category-affinity.md) | 更新了文本，以阐明 `user.categoryId` 与 `entity.categoryId`. |
 |  | [从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | 本主题的补充部分：. js的优势。 |
 |  | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 本主题的补充部分：“在页面加载时间，at. js和mbox. js的影响是什么？” |

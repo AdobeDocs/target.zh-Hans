@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019年月30日 | [从 Adobe Experience Cloud 访问 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 文档现在提供简体中文语言版本。 |
+|  | [将数据下载到 CSV 文件](/help/c-reports/downloading-data-in-csv-file.md) | 在“将订单详细信息导出到CSV”部分中添加了新提示：“在目标报告UI中应用的受众不会传递到下载报告”。 |
 | 2019年月29日 | [类别亲和度](/help/c-target/c-visitor-profile/category-affinity.md) | 更新了文本，以阐明 `user.categoryId` 与 `entity.categoryId`. |
 |  | [从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | 本主题的补充部分：. js的优势。 |
 |  | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 本主题的补充部分：“在页面加载时间，at. js和mbox. js的影响是什么？” |
@@ -147,7 +149,7 @@ source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 |  | [Target 简介](/help/c-intro/intro.md) | 在“Target Premium”下添加了“推荐作为选件”。 |
 |  | [Target 关键概念](/help/c-intro/target-key-concepts.md) | 更新了“活动类型”表。 |
 | 2019 年 26 月 2 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关Target API中企业权限支持的已知问题。 |
-| 2019 年 25 月 2 日 | [目标发行说明(当前)](/help/r-release-notes/release-notes.md)、 <br>[Target发行说明(预发行)](/help/r-release-notes/target-release-notes.md)和 <br>[TLS(传输层安全)加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新了以下信息：<br>在2019年月20日，在EMEA、日本和APAC区域中升级了Adobe Target基础结构，不再向不支持TLS1.1或更高版本的旧设备或Web浏览器收集最终用户的数据。此次升级计划于2019 **年月日针对北美地区**进行。迁移到 TLS 1.2 可提高安全性。您应务必了解具体细节，并且针对更改做出规划以实现顺利迁移。 |
+| 2019 年 25 月 2 日 | [目标发行说明(当前)](/help/r-release-notes/release-notes.md)、 <br>[Target发行说明(预发行)](/help/r-release-notes/target-release-notes.md)和 <br>[TLS(传输层安全)加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新了以下信息：<br>在2019年月20日，在EMEA、日本和APAC区域中升级了Adobe Target基础结构，不再向不支持TLS1.1或更高版本的旧设备或Web浏览器收集最终用户的数据。此次升级计划于2019 **年月日针对北美地区** 进行。迁移到 TLS 1.2 可提高安全性。您应务必了解具体细节，并且针对更改做出规划以实现顺利迁移。 |
 |  | [从. js1.x升级到. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#payload-mapping) | 新部分：“at. js1.x参数到. js2.x有效负荷映射”。 |
 |  | [对与增强型体验编辑器有关的问题进行故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | 将“主机名”列添加到IP地址到白名单。 |
 | 2019 年 22 月 2 日 | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 添加了“获取您的工作区ID”部分。 |
@@ -225,7 +227,7 @@ source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 | 2018 年 11 月 7 日 | [A/B 测试应该持续多长时间？](../c-activities/t-test-ab/sample-size-determination.md#concept_2801F552DB874C20B8A17C1B774C0383) | 编辑了主题并添加了一些其他信息。 |
 |  | [Target 发行说明（预发行版本）](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34) | 添加了有关 Target 版本 18.11.1 中功能的信息。 |
 | 2018 年 11 月 5 日 | [将“推荐”与电子邮件集成](../c-recommendations/c-recommendations-faq/integrating-recs-email.md#reference_256B16C894864F24AF970E43DC174420) | 更新了选项 3 中的链接。 |
-|  | [客户属性](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8) | 添加了以下注释：<br>**重要信息：**数据源名称和属性名称不得包含句点。 |
+|  | [客户属性](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8) | 添加了以下注释：<br>**重要信息：** 数据源名称和属性名称不得包含句点。 |
 | 2018 年 10 月 31 日 | [系统状态更新](../r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) | 更新了主题。 |
 |  | [Target 基础知识网络研讨会系列](../cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4) | 添加了指向“受众分段最佳实践”录音的链接。 |
 | 2018 年 10 月 29 日 | [TLS（传输层安全性）加密更改](../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) | 添加了新章节：“仅支持 TLS 1.0 的浏览器预期出现的行为”。 |

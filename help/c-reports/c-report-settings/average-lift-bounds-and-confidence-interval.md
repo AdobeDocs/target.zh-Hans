@@ -8,7 +8,7 @@ title: 平均提升度、提升度范围和置信区间
 topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 721571e4257484af843d9ab5214cffc256c827db
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -38,7 +38,7 @@ Target 报表 UI 中的提升度信息包括以下各项：
 
 下图显示了提升度范围和置信水平信息：
 
-![](assets/lift-screenshot.png)
+![平均提升和置信度报告](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
 ## 如何计算提升度范围？ {#section_1D360781D972483693680BE0F07AEAD1}
 
@@ -51,11 +51,11 @@ Target 报表 UI 中的提升度信息包括以下各项：
 还需要额外进行一些计算，才能得出计算提升度范围所需的输入值：
 
 * **t 值：** 95% 置信水平对应的统计量临界值为 1.96。您可以在此处了解更多有关 [t 值](https://en.wikipedia.org/wiki/T-statistic)的信息。
-* **提升度方差：**需要知道体验 N 成功量度的标准误差和控制体验成功量度的标准误差，才能确定提升度方差；可使用下列公式计算此值（下列公式中的成功量度为转化）。
+* **提升度方差：** 需要知道体验 N 成功量度的标准误差和控制体验成功量度的标准误差，才能确定提升度方差；可使用下列公式计算此值（下列公式中的成功量度为转化）。
 
    ![](assets/lift_variance.png)
 
-* **转化率/成功量度标准误差：**可使用下列公式以同样的方式计算体验 N 和控制体验的标准误差（下列公式中的成功量度为转化）。您可以在此处了解更多有关[标准误差](https://en.wikipedia.org/wiki/Standard_error)的信息。
+* **转化率/成功量度标准误差：** 可使用下列公式以同样的方式计算体验 N 和控制体验的标准误差（下列公式中的成功量度为转化）。您可以在此处了解更多有关[标准误差](https://en.wikipedia.org/wiki/Standard_error)的信息。
 
    ![](assets/standard_error.png)
 

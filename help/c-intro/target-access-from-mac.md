@@ -9,7 +9,7 @@ title: 从 Adobe Experience Cloud 访问 Target
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
    ![目标图标](/help/c-intro/assets/appmenu-target-new.png)
 
-1. 在 [!DNL Target] 卡片上单击**[!UICONTROL 启动]**。
+1. 在 [!DNL Target] 卡片上单击 **[!UICONTROL 启动]**。
 
    ![目标启动](/help/c-intro/assets/target-launch-new.png)
 
-1. （可选）要将 [!DNL Target] 设置为登录到 [!DNL Experience Cloud] 后默认显示的应用程序，请在您的个人资料头像下方单击**[!UICONTROL 编辑个人资料]**，然后设置登陆页面首选项。
+1. （可选）要将 [!DNL Target] 设置为登录到 [!DNL Experience Cloud] 后默认显示的应用程序，请在您的个人资料头像下方单击 **[!UICONTROL 编辑个人资料]**，然后设置登陆页面首选项。
 
    ![登陆页面](/help/c-intro/assets/pagepref-new.png)
 
@@ -65,7 +65,7 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
    * 繁体中文
    * 韩语
 
-1. 单击**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL 保存]**。
 
 1. 注销或 [!DNL Adobe Experience Cloud][!DNL Target]重新登录，使更改生效。
 
@@ -90,7 +90,7 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 * 日语
 * 意大利语
 * 巴西葡萄牙语
-* 简体中文(即将推出)
+* 简体中文
 * 繁体中文
 * 韩语
 

@@ -9,7 +9,7 @@ title: 将数据下载到 CSV 文件
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: cb5455fef1d4df32dfe36032df9458b9db401380
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: cb5455fef1d4df32dfe36032df9458b9db401380
 
    如果您拥有多个活动，可以通过从[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 报表源]、[!UICONTROL 体验编辑器]、[!UICONTROL 量度类型]和[!UICONTROL 活动来源]下拉列表中选择相应选项来筛选列表。
 
-1. 单击**[!UICONTROL 报表]选项卡。**
+1. 单击 **[!UICONTROL 报表]选项卡。**
 1. 单击“[!UICONTROL 下载]”图标，然后选择要下载以供在 Excel 和其他工具中进行分析的报表类型。
 
 ## 将报表导出到 CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
@@ -84,4 +84,4 @@ source-git-commit: cb5455fef1d4df32dfe36032df9458b9db401380
 * 对于 A/B、自动个性化、体验定位和多变量测试活动，这两种报表均可下载。但是对于“推荐”活动，您无法下载“成功量度”报表。
 * “下载”选项不适用于在 Target 版本 15.7.1（2015 年 7 月版）之前创建的 A/B 活动和体验定位活动。
 * 下载的报表中不会记录没有关联数据的体验。
-
+* 在Target报告UI中应用的受众不会传递到下载报告。

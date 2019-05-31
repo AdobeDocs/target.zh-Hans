@@ -8,7 +8,7 @@ title: 移动设备
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 可根据移动设备、设备类型、设备供应商、屏幕大小（按像素）等参数定位移动设备。
 
-例如，您可能希望向从手机访问您页面和从计算机访问您页面的用户显示不同的内容。在这种情况下，您可以选择“移动设备”受众，再选择**[!UICONTROL 是移动电话]选项，然后添加任何对您而言重要的特定信息，例如手机类型、屏幕大小（以像素为单位）等等。**
+例如，您可能希望向从手机访问您页面和从计算机访问您页面的用户显示不同的内容。在这种情况下，您可以选择“移动设备”受众，再选择 **[!UICONTROL 是移动电话]选项，然后添加任何对您而言重要的特定信息，例如手机类型、屏幕大小（以像素为单位）等等。**
 
 移动设备定位是由 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 提供的，属于 DotMobi 的一个服务。DeviceAtlas 是一种综合的移动设备数据库，它基于从众多来源收集的数据构建，其中包括制造商和网络运营商。然后，系统对这些数据进行确认、交叉引用和验证，以构建准确的大型移动设备数据库。
 
@@ -41,13 +41,13 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 使用自定义集成（不使用 at.js 或 Mobile SDK）的客户可以自己收集这些参数并将其作为 mbox 参数传递。
 
-1. 在 [!DNL Target] 界面中，单击**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
+1. 在 [!DNL Target] 界面中，单击 **[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
-1. 单击**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 移动设备]**。
+1. 单击 **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 移动设备]**。
 
    ![](assets/target_mobile.png)
 
-1. 单击**[!UICONTROL 选择]**，然后选择以下选项之一：
+1. 单击 **[!UICONTROL 选择]**，然后选择以下选项之一：
 
    * 设备营销名称
    * 设备型号
@@ -60,10 +60,16 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
    * 屏幕宽度（像素）
    >[!NOTE]
    >
+   >由于iOS12.2中引入的新更改，使用指定iPhone型号的设备营销名称和设备模型定义的受众会受到影响。我们不再将装有iOS12.2的iPhone定位到它们。但是，如果这些用户没有iOS12.2，则iPhone型号定位继续正常工作。
+   >
+   >iOS12.2更新不会影响下列型号的识别，因为这些模型不支持升级到iOS12.2：iPhone、iPhone3 G、iPhone3 GS、iPhone4、iPhone4 s、iPhone5、iPhone5 c、iPad、iPad、iPad/Retina显示屏、iPad Retina(4th Generation)、iPod Touch和iPod Touch5。
+
+   >[!NOTE]
+   >
    >您可以使用[地域设置](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)通过移动设备运营商进行定位。
 
-1. （可选）单击**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
-1. 单击**[!UICONTROL 保存]**。
+1. （可选）单击 **[!UICONTROL 添加规则]，然后为受众设置更多规则。**
+1. 单击 **[!UICONTROL 保存]**。
 
 ## 培训视频：创建受众
 
@@ -72,4 +78,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 创建受众
 * 定义受众类别
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hans)

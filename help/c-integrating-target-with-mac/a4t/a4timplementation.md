@@ -8,7 +8,7 @@ title: Analytics for Target 实施
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 1be00210754e8fa3237fdbccf48af625c2aafe65
+source-git-commit: dd23c58ce77a16d620498afb780dae67b1e9e7f7
 
 ---
 
@@ -55,33 +55,116 @@ source-git-commit: 1be00210754e8fa3237fdbccf48af625c2aafe65
 
 如果不替换，则可以将此文件与访客 ID 服务文件和 AppMeasurement for JavaScript 文件一起托管。这些文件必须托管在可从您网站上的所有页面进行访问的 Web 服务器上。下一步需要使用这些文件的路径。
 
-## 步骤 7：在所有网站页面上引用 at.js 或 mbox.js
+## 步骤 7：在所有网站页面上引用 at.js 或 mbox.js {#step7}
 
-通过在每个页面上的 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 标记中添加以下代码行来将 at.js 或 mbox.js 插入到 VisitorAPI.js 下面：
+在itororAPI. js下的. js或mbox. js中包括以下代码行，在每个页面上添加以下代码行：
 
 对于 at.js：
 
 ```
-<script language="JavaScript" type="text/javascript" 
+<script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
 对于 mbox.js：
 
 ```
-<script language="JavaScript" type="text/javascript" 
+<script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 ```
 
-必须先加载 VisitorAPI.js，然后再加载 at.js 或 mbox.js，因此如果您要更新现有的 at.js 或 mbox.js 文件，请务必确认加载顺序。
+必须在. js或mbox. js之前加载VisitorAPI. js。如果要更新现有. js或mbox. js文件中的现有文件，请确保验证加载顺序。
 
-## 步骤 8：验证实施
+现成设置为Target和Analytics集成配置的方式是使用从页面中传递的SSID来将Target和Analytics请求整合在一起，自动为您自动完成后端请求。
+
+但是，如果您希望更多地控制如何和何时将与Target相关的分析数据发送到Analytics进行报告以进行报告，并且您不想选择使用SSID自动缝合分析数据，则您可以通过窗口的sID设置 **AnalyticalLinkLinking= client_ side******。注意：2.1以下的任何版本不支持此方法。
+
+例如：
+
+```
+window.targetGlobalSettings = {
+  analyticsLogging: "client_side"
+};
+```
+
+此设置产生全局效果，这意味着，由at. js发出的每个调用都将具有 **AnalyticElectring：“client_ side”** 发送到Target请求中，并将为每个请求返回一个分析有效负荷。设置此设置后，返回的有效负荷格式如下所示：
+
+```
+"analytics": {
+   "payload": {
+      "pe": "tnt",
+      "tnta": "167169:0:0|0|100,167169:0:0|2|100,167169:0:0|1|100"
+   }
+}
+```
+
+然后，可以通过 [数据插入API将有效负荷转发给Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
+
+如果不需要全局设置并且更好地使用点播方法，则可以使用at. js函数 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 通过 **传入AnalyticElliging实现这一点：“client_ side”**。分析有效负荷将仅返回此调用，Target后端将不会转发到Analytics。通过采用此方法，每个at. js Target请求均不会默认返回有效负荷，但仅在需要和指定时才会返回。
+
+例如：
+
+```
+adobe.target.getOffers({
+      request: {
+        experienceCloud: {
+          analytics: {
+            logging: "client_side"
+          }
+        },
+        prefetch: {
+          mboxes: [{
+            index: 0,
+            name: "a1-serverside-xt"
+          }]
+        }
+      }
+    })
+    .then(console.log)
+```
+
+此调用调用可从中提取分析有效负荷的响应。
+
+响应如下所示：
+
+```
+{
+  "prefetch": {
+    "mboxes": [{
+      "index": 0,
+      "name": "a1-serverside-xt",
+      "options": [{
+        "content": "<img src=\"http://s7d2.scene7.com/is/image/TargetAdobeTargetMobile/L4242-xt-usa?tm=1490025518668&fit=constrain&hei=491&wid=980&fmt=png-alpha\"/>",
+        "type": "html",
+        "eventToken": "n/K05qdH0MxsiyH4gX05/2qipfsIHvVzTQxHolz2IpSCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q==",
+        "responseTokens": {
+          "profile.memberlevel": "0",
+          "geo.city": "bucharest",
+          "activity.id": "167169",
+          "experience.name": "USA Experience",
+          "geo.country": "romania"
+        }
+      }],
+      "analytics": {
+        "payload": {
+          "pe": "tnt",
+          "tnta": "167169:0:0|0|100,167169:0:0|2|100,167169:0:0|1|100"
+        }
+      }
+    }]
+  }
+}
+```
+
+然后，可以通过 [数据插入API将有效负荷转发给Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
+
+## 步骤 8：验证实施 {#step8}
 
 更新 JavaScript 库后，加载您的页面，以确认 Target 调用中的 mboxMCSDID 参数值与 Analytics 页面查看调用中的 sdid 参数值相匹配。
 
 在单页应用程序 (SPA) 中，由于调用顺序并不总是可以预测，因此尤其务必要进行此验证。
 
-**注意：**为使 A4T 能够正常运行，这些值必须匹配。
+**注意：** 为使 A4T 能够正常运行，这些值必须匹配。
 
 ## 步骤 9：（可选）删除之前的集成代码
 

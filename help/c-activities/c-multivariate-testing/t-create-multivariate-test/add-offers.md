@@ -1,11 +1,11 @@
 ---
 description: 可使用可视化体验编辑器创建要包含在测试中的选件。
 seo-description: 可使用可视化体验编辑器创建要包含在测试中的选件。
-seo-title: 创建组合
+seo-title: 在Adobe Target中创建组合
 title: 创建组合
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 >[!NOTE]
 >
->选择页面上的对象时，您可以单击**[!UICONTROL 展开选定内容]**，以便在除了最初选定的元素之外，还选择父元素。选择任意父元素时，该元素的所有子元素均会自动选定。您可以多次展开选定内容。
+>选择页面上的对象时，您可以单击 **[!UICONTROL 展开选定内容]**，以便在除了最初选定的元素之外，还选择父元素。选择任意父元素时，该元素的所有子元素均会自动选定。您可以多次展开选定内容。
 
 使用可视化体验编辑器，可以编辑选件、选件名称以及位置名称。做出更改后，会出现一个叠加图以显示何处发生了更改。
 
@@ -26,11 +26,11 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 可在某个位置测试多个图像选件，以确定哪个图像最为成功。
 
-1. 单击页面上的某个图像，然后选择**[!UICONTROL 更改图像]**。
+1. 单击页面上的某个图像，然后选择 **[!UICONTROL 更改图像]**。
 
    ![](assets/changeimage.png)
 
-1. 选择要包含在测试中的所有图像，然后单击**[!UICONTROL 保存]**。
+1. 选择要包含在测试中的所有图像，然后单击 **[!UICONTROL 保存]**。
 
    ![](assets/addimage.png)
 
@@ -40,11 +40,11 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 可在某个位置测试多个文本/HTML 选件，以确定哪个选件最为成功。
 
-1. 单击页面上的某个文本/HTML 选件，然后单击**[!UICONTROL 更改文本/HTML]**。
+1. 单击页面上的某个文本/HTML 选件，然后单击 **[!UICONTROL 更改文本/HTML]**。
 
    ![](assets/changehtml.png)
 
-1. 单击**[!UICONTROL 添加文本/HTML 选件]，为选件提供名称，然后键入或粘贴该文本/HTML 选件的代码。**
+1. 单击 **[!UICONTROL 添加文本/HTML 选件]，为选件提供名称，然后键入或粘贴该文本/HTML 选件的代码。**
 
    ![](assets/editoffers.png)
 
@@ -54,7 +54,7 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
    重复执行上述步骤以添加任何其他要包含的文本/HTML 选件。
 
-1. 单击**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL 保存]**。
 
 每个文本/HTML 选件会成为该位置的独立体验。
 

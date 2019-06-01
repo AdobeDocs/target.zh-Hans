@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Adobe Target 帮助
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
 
 ---
 
@@ -87,6 +87,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
          + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
          + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
          + [registerExtension() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
+         + [sendNoSear()- at. js2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
          + [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
          + [使用 Adobe Experience Cloud 调试器调试 at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
          + [结合使用基于云的实例和 Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)

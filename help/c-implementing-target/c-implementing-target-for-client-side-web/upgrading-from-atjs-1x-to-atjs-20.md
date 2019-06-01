@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: 从. js1.x升级到. js2.x
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d720980808172fbd49976ecac9406fc2508c06a6
+source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
 
 ---
 
@@ -142,7 +142,7 @@ source-git-commit: d720980808172fbd49976ecac9406fc2508c06a6
 </script>
 ```
 
-**at. js2.x等效**项：
+**at. js2.x等效** 项：
 
 `mboxDefine()` 和 `mboxUpdate` 的替代项是 `getOffer()` 和 `applyOffer()`，`applyOffer()` 中会使用选择器选项。此方法允许您使用任何 CSS 选择器将选件映射到元素，而不仅仅映射到具有 ID 的元素。
 
@@ -189,20 +189,20 @@ source-git-commit: d720980808172fbd49976ecac9406fc2508c06a6
 
 | 方法 | 受支持? | 新的? | 已弃用?<br>（将显示默认内容） |
 | --- | --- | --- | --- |
-| `getOffer()` | 是 |
-| `getOffers()` | 是 |
-| `applyOffer()` | 是 |
-| `applyOffers()` | 是 |
-| `triggerView()` | 是 |
-| `trackEvent()` | 是 |
-| `mboxCreate()` | 是 |
-| `mboxDefine()`<br>`mboxUpdate()` | 是 |
-| `targetGlobalSettings()` | 是 |
-| `Data Providers` | 是 |
-| `targetPageParams()` | 是 |
-| `targetPageParamsAll()` | 是 |
-| `registerExtension()` | 是 |
-| `At.js Custom Events` | 是 |
+| `getOffer()` | 是 |  |  |
+| `getOffers()` |  | 是 |  |
+| `applyOffer()` | 是 |  |  |
+| `applyOffers()` |  | 是 |  |
+| `triggerView()` |  | 是 |  |
+| `trackEvent()` | 是 |  |  |
+| `mboxCreate()` |  |  | 是 |
+| `mboxDefine()`<br>`mboxUpdate()` |  |  | 是 |
+| `targetGlobalSettings()` | 是 |  |  |
+| `Data Providers` | 是 |  |  |
+| `targetPageParams()` | 是 |  |  |
+| `targetPageParamsAll()` | 是 |  |  |
+| `registerExtension()` |  |  | 是 |
+| `At.js Custom Events` | 是 |  |  |
 
 ## 限制和标注
 
@@ -281,7 +281,7 @@ at. js2.x使用新API，我们将其命名为Delivery API。为了调试 at.js �
 | 自动创建全局 Mbox | 是 |
 | 全局 Mbox 名称 | 是 |
 
-**跨域跟踪**不**受支持
+**跨域跟踪**不** 受支持
 
 通过跨域跟踪，可以将在不同域中两个相关的站点上的会话作为单个会话查看。您可以创建一个跨越 `siteA.com` 和 `siteB.com` 的 [!DNL Target] 活动，这样访客在跨域访问时将会保持相同的体验。此功能与 Target 的第三方和第一方 Cookie 行为相关联。
 
@@ -334,7 +334,7 @@ at. js2.x使用新API，我们将其命名为Delivery API。为了调试 at.js �
 >
 >当应用所有修改时，将通过at. js2.x和CMS支持自动Target活动 `Page Load Event`。当修改添加到特定视图时，仅支持A/B测试、自动分配和体验定位(XT)活动。
 
-### 集成
+### 集成 {#integrations}
 
 | 类型 | 受支持? |
 | --- | --- |
@@ -346,7 +346,7 @@ at. js2.x使用新API，我们将其命名为Delivery API。为了调试 at.js �
 | 调试程序 | 是 |
 | 审核 | 尚未更新. js2.x的规则 |
 | 动态标签管理器 (DTM) | 是 |
-| 选择加入 | 否 |
+| 选择加入 | 否。在. js版本2.1.0中支持选择加入 [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)[支持](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。 |
 | 由 Adobe Target 提供支持的 AEM 增强型个性化 | 否 |
 
 ### 功能
@@ -848,6 +848,6 @@ at. js2.x JSON有效负荷：
 
 at. js2.x增强了Adobe Target对SPA的支持并与其他Experience Cloud解决方案集成。该视频介绍了如何将所有内容结合到一起。
 
->[!VIDEO](https://video.tv.adobe.com/v/26250)
+>[!VIDEO](https://video.tv.adobe.com/v/26250?captions=chi_hans)
 
 请参阅 [了解. js2.x的工作](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 原理以了解更多信息。

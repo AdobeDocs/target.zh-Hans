@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
+source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
 
 可使用单值和多值自定义实体属性来对目录中的项目定义其他相关信息。
 
-## 限制{限制}
+## 限制 {#limits}
 
 您最多可以包含 100 个自定义实体属性，来对目录中的项目定义其他相关信息。例如，您可以创建一个名为 `entity.genre` 的自定义属性，用来定义一本书籍或一部电影。或者，票务供应商可以为活动场地创建属性以包括辅助表演，例如体育赛事中的客队或音乐会上的开场表演。
 

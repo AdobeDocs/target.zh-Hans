@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: at.js 版本详细信息
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 76a212d334564379a061e740d9b7a1a92b889a15
+source-git-commit: 4d6bbef9d29e2e9c7043bc90df299c7c73db8923
 
 ---
 
@@ -20,6 +20,24 @@ source-git-commit: 76a212d334564379a061e740d9b7a1a92b889a15
 >[!IMPORTANT]
 >
 >Target 团队仅维护两个版本的 [!DNL at.js]：当前版本和当前版本的上一个版本。请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。
+
+## at. js version2.1.0(要宣布日期)
+
+此版本包括以下功能和增强功能：
+
+* **Adobe选择参与支持**：Adobe选择加入是一种简化与同意管理平台集成的Adobe解决方案。有关Adobe选择加入的详细信息，请参阅 [隐私和一般数据保护规定(GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)。
+
+* **符合行业标准的CSP**：at. js不再使用eval()执行JavaScript。
+
+* **客户端分析日志记录**：无论客户端还是服务器端，都可以完全控制他们如何将分析数据发送到Adobe Analytics。
+
+   有关详细信息，请参阅 [在实现之前](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) 登录 *客户端分析*。
+
+* **发送通知**：允许开发人员在体验呈现的而不是使用 `applyOffer()` 或 `applyOffers()`使用的情况下发送通知。
+
+   有关详细信息，请参阅 [adobe. target. sendNoSearch(选项)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。
+
+* **at. js大小减少了~24%**：. js的大小减小了~24%。文件大小较小，可提高页面加载性能并缩短页面上下载. js的时间。
 
 ## at. js version2.0.1(2019年月19日)
 
@@ -67,7 +85,7 @@ at. js2.x引入了以下新函数：
 
 >[!NOTE]
 >
->如果您需要Adobe选择支持 [一般数据保护规定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)，您当前必须在. js1.7.0中使用。当前不支持参与支持. js2.x。
+>如果您需要Adobe选择支持 [一般数据保护规定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)，您当前必须在. js1.7.0或. js2.1.0中使用。
 
 ## at.js 版本 1.7.0 {#at-js-170}
 
@@ -79,7 +97,7 @@ at.js 1.7.0 提供了 Adobe 选择加入支持。通过 Adobe 选择加入，可
 
 >[! 注意]
 >
->如果您需要Adobe选择支持GDPR，您当前必须在. js1.7.0中使用。当前不支持参与支持. js2.x。<br>有关所有版本的列表，请 [参阅. js版本详细](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)信息。
+>如果您需要Adobe选择支持GDPR，您当前必须在. js1.7.0或2.1.0中使用。<br>有关所有版本的列表，请 [参阅. js版本详细](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)信息。
 
 ## at.js 版本 1.6.4 {#at-js-164}
 

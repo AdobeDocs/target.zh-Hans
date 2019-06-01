@@ -8,7 +8,7 @@ title: Target 发行说明（预发行版本）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 9f1cab87057a7b8803f795c852a7ffe839dd8f1c
+source-git-commit: fe022b641580e33afdac446f71cec85fd232b275
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 9f1cab87057a7b8803f795c852a7ffe839dd8f1c
 
 * 当您在 VEC 中取消载入页面后，系统会正确地显示出工具栏图标。如果某些特定的操作只有在完全载入页面后才能执行，那么相关的工具栏图标将会禁用。(TGT-33811)
 
-## Mobile App Visual Experience Composer(2019年月14日){mobile-vec}
+## Mobile App Visual Experience Composer(2019年月14日){mobile-vec-月14日
 
 | 功能/增强 | 描述 |
 | --- | --- |

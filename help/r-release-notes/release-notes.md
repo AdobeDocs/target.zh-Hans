@@ -8,7 +8,7 @@ title: Target 发行说明（当前版本）
 topic: 推荐
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
+source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 
 ---
 
@@ -21,12 +21,29 @@ source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
 
 请注意以下重要公告：
 
-* 在2019年月20日，在EMEA、日本和APAC区域中升级了Adobe Target基础结构，不再向不支持TLS1.1或更高版本的旧设备或Web浏览器收集最终用户的数据。此相同升级计划于2019 **年月日针对北美地区**进行。迁移到 TLS 1.2 可提高安全性。务必仔细研究具体内容，并与IT团队一起进行更改，实现平稳过渡。有关详细信息，请参阅 [TLS(传输层安全)加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)。
+* 在2019年月20日，在EMEA、日本和APAC区域中升级了Adobe Target基础结构，不再向不支持TLS1.1或更高版本的旧设备或Web浏览器收集最终用户的数据。此相同升级计划于2019 **年月日针对北美地区** 进行。迁移到 TLS 1.2 可提高安全性。务必仔细研究具体内容，并与IT团队一起进行更改，实现平稳过渡。有关详细信息，请参阅 [TLS(传输层安全)加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)。
 * [!DNL Target] 和 [!DNL Adobe Marketing Cloud] 将从 2019 年 3 月开始停止对 Microsoft Internet Explorer 11 的支持。此更改只会影响 [!DNL Target] 创作，而不会影响体验交付。请切换到 Microsoft Edge 或其他浏览器。有关更多信息，请参阅[支持的浏览器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)。
 
-## [!DNL Target] Standard/Premium19.5.1(2019年月21日) {#tgt-19-5-1}
+## at. js version2.1.0(2019年月日)
 
-这个版本包括以下功能、变化和增强功能：
+我们很高兴在. js2.1.0上宣布下列激动人心的功能：
+
+| 功能/增强 | 描述 |
+| --- | --- |
+| Adobe选择加入支持 | 通过 Adobe 选择加入，可轻松将 Adobe 解决方案与同意管理平台集成。<br>有关Adobe选择加入的详细信息，请参阅 [隐私和一般数据保护规定(GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)。 |
+| 符合行业标准的CSP | at. js不再使用eval()执行JavaScript。 |
+| 客户端分析日志记录 | 无论客户端还是服务器端，都可以完全控制如何将分析数据发送到Adobe Analytics。<br>有关详细信息，请参阅 [在实现之前](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) 登录 *客户端分析*。 |
+| 发送通知 | 允许开发人员在体验呈现的而不是使用 `applyOffer()` 或 `applyOffers()`使用的代码呈现通知时发送通知。<br>有关详细信息，请参阅 [adobe. target. sendNoSearch(选项)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。 |
+| 文件大小更小 | . js的大小减小了~24%。文件大小较小，可提高页面加载性能并缩短页面上下载. js的时间。 |
+| at. js文档更新 | 有关由于at. js2.1.0版本而更新的所有文章的完整列表，请参阅 [文档更改](/help/r-release-notes/doc-change.md)中的2019年月日。 |
+
+## 移动应用视觉体验书写器(2019年月14日) {#mobile-app-vec-may14-1}
+
+| 功能/增强 | 描述 |
+| --- | --- |
+| 移动应用视觉体验书写器(CMS) | 利用移动App CMS，您无需连续的开发依赖关系和应用程序发布周期，即可在本机移动应用程序上创建活动和个性化内容。<br>有关详细信息，请参阅：<ul><li>[移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[在移动设备 VEC 中设置点击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul> |
+
+## [!DNL Target] Standard/Premium19.5.1(2019年月21日) {#tgt-19-5-1}
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
@@ -40,7 +57,7 @@ source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
 
 * 当您在 VEC 中取消载入页面后，系统会正确地显示出工具栏图标。如果某些特定的操作只有在完全载入页面后才能执行，那么相关的工具栏图标将会禁用。(TGT-33811)
 
-## Mobile App Visual Experience Composer(2019年月14日){mobile-vec}
+## 移动应用视觉体验书写器(2019年月14日) {#mobile-vec-may14-2}
 
 | 功能/增强 | 描述 |
 | --- | --- |

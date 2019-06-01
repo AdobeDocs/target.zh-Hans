@@ -9,7 +9,7 @@ title: at.js 函数
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: c607b241afb535f324cd1357c8784a88fb183658
+source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
 
 ---
 
@@ -32,4 +32,6 @@ source-git-commit: c607b241afb535f324cd1357c8784a88fb183658
 | [targetpageParams(选项)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) | 此方法允许您从请求代码外部将参数附加到全局 mbox。 |
 | [targetpageParams全部(选项)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) | 此方法允许您从请求代码外部将参数附加到所有 mbox。 |
 | [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at. js1.x) | 可提供用于注册特定扩展的标准方法。<br>**注意：** 此函数可用于. js版本1。*x*。此函数已在. js2.x发布时弃用。如果与at. js2.x一起使用，此函数将返回默认内容。 |
-| [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at. js自定义事件可让您了解mbox请求或选件的成功与否。 |
+| [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at. js自定义事件可让您了解mbox请求或选件失败或成功的时间。 |
+| [adobe. target. sendNoSear(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at. js2.1.0) | 在呈现体验时，此函数将向Target边缘发送通知，而无需使用 `adobe.target.applyOffer()` 或 `adobe.target.applyOffers()`。<br>**注意**：此函数已在. js2.1.0中引入，可用于2.1.0以上的任何版本。 |
+

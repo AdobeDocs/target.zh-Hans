@@ -8,7 +8,7 @@ title: 实施之前
 topic: Premium
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 3b3b8d000f718fc87183e6e26b917ac683a61e72
+source-git-commit: f3d4963da631c668fb53a3939df53c80adff468b
 
 ---
 
@@ -76,3 +76,9 @@ source-git-commit: 3b3b8d000f718fc87183e6e26b917ac683a61e72
 * 已实施支持此集成的 [!DNL mbox.js] 版本。
 
 进行故障诊断时，请务必确认 Analytics 点击中存在补充 ID。
+
+## 客户端分析日志记录 {#client-side}
+
+默认情况下，当页面上包含. js、 [!DNL Experience Cloud Visitor ID Service]和 [!DNL Adobe Analytics] AppMeasurement. js时 [!DNL Target] ，只要在页面中包含正确的补充ID，就可以在后端正确进行报告和分析活动，如上述所述。您无需管理和执行任何其他操作，A4T才能正常运行。
+
+但是，有时您可能希望更多地控制何时和如何发送与用于报告用途相关 [!DNL Target][!DNL Analytics] 的分析数据。您可能有一个内部分析工具，用于内部用途，但还希望通过您的内部分析产品将分析数据发送到 [!DNL Analytics] 内部分析产品，以便组织的其他成员继续用作 [!DNL Analytics] 可视报告源。请参阅 [步骤7：在Analytics for Target实施中](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) 的所有站点页面上引用. *js或mbox. js以* 了解更多信息。

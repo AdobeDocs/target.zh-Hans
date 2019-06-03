@@ -8,7 +8,7 @@ title: 隐私和《通用数据保护条例》(GDPR)
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 6c1b4f26f635eab661ec426f9241b26247e880c3
+source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
 
 ---
 
@@ -55,15 +55,15 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->at.js 版本 1.7.0 支持选择加入功能，但 at.js 版本 2.0.0 当前不支持此功能。
+>在. js版本1.7.0和. js2.1.0中支持选择加入功能。在. js版本2.0.0和2.0.1中不支持选择加入。
 >
 >推荐使用 Adobe Launch 管理选择加入功能。Adobe Launch 中提供了更加精细化的控制，可在触发 Target 标记之前隐藏页面的选定元素，这有助于在您的同意策略中利用此功能。
 
 使用选择加入功能时需要考虑三种情景：
 
 1. **已通过 Adobe Launch 预批准 Target 标记（或者数据主体以前已经批准 Target）：** Target 标记不适用于征求同意，且会发挥预期的作用。
-1. **Target 标记没有获得预批准且`bodyHidingEnabled`设置为 FALSE：**只有在收到客户的同意之后，才会触发 Target 标记。在收到客户同意之前，仅默认内容可用。在收到客户同意之后，将调用 Target 并向数据主体（访客）提供个性化内容。因为在收到同意之前仅默认内容可用，所以利用适当的策略显得尤为重要，例如对可覆盖网页任何区域或内容的醒目页面进行自定义。这可确保数据主体（访客）获得一致的体验。
-1. **Target 标记没有获得预批准且`bodyHidingEnabled`设置为 TRUE：**只有在收到客户的同意之后，才会触发 Target 标记。在收到客户同意之前，仅默认内容可用。但是，因为 `bodyHidingEnabled` 设置为 true，`bodyHiddenStyle` 会指示在触发 Target 标记之前页面上需要隐藏的内容（或者数据主体拒绝使用选择加入功能，这种情况下会显示默认内容）。默认情况下，`bodyHiddenStyle` 设置为 `body { opacity:0;`}，这将隐藏 HTML 主体标记。我们推荐采用下面的页面配置，以便隐藏除同意管理器对话框之外的整个页面正文，方法是将页面内容放在一个容器，而将同意管理器对话框放在另一容器中。配置这种设置之后，Target 仅隐藏页面内容容器。关于如何配置这些设置的信息，请参阅 [Adobe Launch 文档](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
+1. **Target 标记没有获得预批准且`bodyHidingEnabled`设置为 FALSE：** 只有在收到客户的同意之后，才会触发 Target 标记。在收到客户同意之前，仅默认内容可用。在收到客户同意之后，将调用 Target 并向数据主体（访客）提供个性化内容。因为在收到同意之前仅默认内容可用，所以利用适当的策略显得尤为重要，例如对可覆盖网页任何区域或内容的醒目页面进行自定义。这可确保数据主体（访客）获得一致的体验。
+1. **Target 标记没有获得预批准且`bodyHidingEnabled`设置为 TRUE：** 只有在收到客户的同意之后，才会触发 Target 标记。在收到客户同意之前，仅默认内容可用。但是，因为 `bodyHidingEnabled` 设置为 true，`bodyHiddenStyle` 会指示在触发 Target 标记之前页面上需要隐藏的内容（或者数据主体拒绝使用选择加入功能，这种情况下会显示默认内容）。默认情况下，`bodyHiddenStyle` 设置为 `body { opacity:0;`}，这将隐藏 HTML 主体标记。我们推荐采用下面的页面配置，以便隐藏除同意管理器对话框之外的整个页面正文，方法是将页面内容放在一个容器，而将同意管理器对话框放在另一容器中。配置这种设置之后，Target 仅隐藏页面内容容器。关于如何配置这些设置的信息，请参阅 [Adobe Launch 文档](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
 
    适用于情景 3 的推荐页面设置是：
 

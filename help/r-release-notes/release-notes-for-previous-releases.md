@@ -8,7 +8,7 @@ title: 以前版本的发行说明
 topic: 推荐
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 40839ec16544546e566e6eebb2331628de3dc021
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 40839ec16544546e566e6eebb2331628de3dc021
 
 ## 发行说明 - 2019 {#releases-2019}
 
-## Mobile App Visual Experience Composer(2019年月14日){mobile-vec}
+## 移动应用视觉体验书写器(2019年月14日) {#mobile-vec}
 
 | 功能/增强 | 描述 |
 | --- | --- |
@@ -117,7 +117,7 @@ source-git-commit: 40839ec16544546e566e6eebb2331628de3dc021
 | 单页应用程序可视化体验编辑器 | 使用单页应用程序 (SPA) 的可视化体验编辑器 (VEC)，营销人员能够以 DIY（自己动手）方式创建测试并对 SPA 上的内容进行个性化，而无需持续依赖开发。VEC 可用于在大多数常用框架上创建活动，例如 React 和 Angular。(TGT-27916)<br>有关更多信息，请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md)和[单页应用程序集成](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。<br>除了上述文章之外，还有许多与 SPA 和 at.js 相关的主题，这些主题介绍了此功能以及其实施方式。有关更多信息，请参阅[文档更改](/help/r-release-notes/doc-change.md)。 |
 | 可视化体验编辑器 | 可视化体验编辑器 (VEC) 包含以下增强功能，可让您更快、更高效地完成工作：<ul><li>现在，您可以在插入 [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)时使用 VEC 中的“此项前插入”和“此项后插入”选项。请参阅[可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。(TGT-32385)</li><li>借助适用于 Google Chrome 的 [!DNL Adobe Target] VEC 助手浏览器扩展，您可以在 VEC 内可靠地加载网站，以快速创作和 QA Web 体验。请参阅[可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。(TGT-32746)</li></ul> |
 | ![Premium 徽章](/help/assets/premium.png)<br>[!UICONTROL A/B 测试]和[!UICONTROL 体验定位]活动中的推荐 | 现在，您可以在 [!UICONTROL A/B 测试]（包括[!UICONTROL 自动分配]和[!UICONTROL 自动定位]）和[!UICONTROL 体验定位] (XT) 活动中包含推荐。此功能提供了几项全新的功能，例如：<ul><li>可在同一活动中测试和定位推荐和非推荐内容。</li><li>可轻松尝试在页面上放置推荐内容，包括为多个推荐排序。</li><li>可使用[!UICONTROL 自动分配]自动将流量推送到性能最佳的推荐体验。</li><li>可使用[!UICONTROL 自动定位]根据访客的各个配置文件动态地为他们分配量身定制的推荐体验。</li></ul>要开始使用此功能，请使用 VEC 创建 [!UICONTROL A/B 测试]或[!UICONTROL 体验定位]活动，然后执行[!UICONTROL 此项前插入]、[!UICONTROL 此项后插入]或[!UICONTROL 替换为]操作以向体验添加推荐。(RECS-6166)<br>有关更多信息，请参阅[推荐作为选件](/help/c-recommendations/recommendations-as-an-offer.md)。 |
-| ![Premium 徽章](/help/assets/premium.png)<br>Target API 中的企业权限支持 | 现在，[Adobe Target 管理员 API](http://developers.adobetarget.com/api/#admin-apis) 将充分利用 Target UI 中的相同企业权限功能。从 **2019 年 2 月 21 日**开始，系统管理员能够以编程方式访问报表数据，以及在任何工作区内创建和管理活动、选件和受众。以前，这些操作仅可在默认工作区中执行。未来版本中将支持自动个性化 (AP) 活动。<br>**注意：** 关于此功能存在 [已知问题](/help/r-release-notes/known-issues-resolved-issues.md#api) 。 |
+| ![Premium 徽章](/help/assets/premium.png)<br>Target API 中的企业权限支持 | 现在，[Adobe Target 管理员 API](http://developers.adobetarget.com/api/#admin-apis) 将充分利用 Target UI 中的相同企业权限功能。从 **2019 年 2 月 21 日** 开始，系统管理员能够以编程方式访问报表数据，以及在任何工作区内创建和管理活动、选件和受众。以前，这些操作仅可在默认工作区中执行。未来版本中将支持自动个性化 (AP) 活动。<br>**注意：** 关于此功能存在 [已知问题](/help/r-release-notes/known-issues-resolved-issues.md#api) 。 |
 
 **增强功能、修复和更改**
 
@@ -139,8 +139,8 @@ source-git-commit: 40839ec16544546e566e6eebb2331628de3dc021
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| ![Target Premium 徽章](/help/assets/premium.png)<br/>[!DNL Target] API 中的[!UICONTROL 企业权限]支持 | 现在，[Adobe Target 管理员 API](http://developers.adobetarget.com/api/#admin-apis) 将充分利用 Target UI 中的相同企业权限功能。从 **2019 年 2 月 21 日**开始，系统管理员将能够以编程方式访问报表数据，以及在任何工作区内创建和管理活动、选件和受众。以前，这些操作仅可在默认工作区中执行。未来版本中将支持自动个性化 (AP) 活动。 |
-| ![Target Premium 徽章](/help/assets/premium.png)<br/>[!UICONTROL 推荐]：按环境（主机组）筛选收藏集和排除项 | 您现在可以预览选定环境（主机组）的[!UICONTROL 推荐]收藏集和排除项内容。<br/>以前，当您查看收藏集或排除项时，显示的包含项目是默认主机组的结果（在[!UICONTROL 推荐 &gt; 设置 &gt; 默认主机组]中指定）。<br/>现在，在创建或更新收藏集或排除项时，您可以使用[!UICONTROL 环境]选择器选择要预览结果的环境。新的[!UICONTROL 环境]筛选器可以节省您所花的时间和精力，因为在创建或编辑收藏集和排除项之前，您不再需要导航到[!UICONTROL 设置]页面以选择适当的默认主机组。<br/>**注意：**更改选定的环境后，必须单击[!UICONTROL 搜索]以更新返回的结果。<br/>新的[!UICONTROL 环境]筛选器可从 [!DNL Target] UI 中的以下位置访问：<ul><li>[!UICONTROL 目录搜索]（[!UICONTROL 推荐 &gt; 目录搜索]）</li><li>[!UICONTROL 创建收藏集]对话框（[!UICONTROL 推荐 &gt; 收藏集 &gt; 新建]）</li><li>[!UICONTROL 更新收藏集]对话框（[!UICONTROL 推荐 &gt; 收藏集 &gt; 编辑]）</li><li>[!UICONTROL 创建排除项]对话框（[!UICONTROL 推荐 &gt; 排除项 &gt; 新建]）</li><li>[!UICONTROL 更新排除项]对话框（[!UICONTROL 推荐 &gt; 排除项 &gt; 编辑]）</li></ul><br>有关更多信息，请参阅以下主题：<uL><li>[收藏集](/help/c-recommendations/c-products/collections.md)</li><li>[排除项](/help/c-recommendations/c-products/exclusions.md)</li><li>[目录搜索](/help/c-recommendations/c-products/catalog-search.md)</li><li>[设置](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[推荐：按环境（主机组）筛选收藏集和排除项](/help/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
+| ![Target Premium 徽章](/help/assets/premium.png)<br/>[!DNL Target] API 中的[!UICONTROL 企业权限]支持 | 现在，[Adobe Target 管理员 API](http://developers.adobetarget.com/api/#admin-apis) 将充分利用 Target UI 中的相同企业权限功能。从 **2019 年 2 月 21 日** 开始，系统管理员将能够以编程方式访问报表数据，以及在任何工作区内创建和管理活动、选件和受众。以前，这些操作仅可在默认工作区中执行。未来版本中将支持自动个性化 (AP) 活动。 |
+| ![Target Premium 徽章](/help/assets/premium.png)<br/>[!UICONTROL 推荐]：按环境（主机组）筛选收藏集和排除项 | 您现在可以预览选定环境（主机组）的[!UICONTROL 推荐]收藏集和排除项内容。<br/>以前，当您查看收藏集或排除项时，显示的包含项目是默认主机组的结果（在[!UICONTROL 推荐 &gt; 设置 &gt; 默认主机组]中指定）。<br/>现在，在创建或更新收藏集或排除项时，您可以使用[!UICONTROL 环境]选择器选择要预览结果的环境。新的[!UICONTROL 环境]筛选器可以节省您所花的时间和精力，因为在创建或编辑收藏集和排除项之前，您不再需要导航到[!UICONTROL 设置]页面以选择适当的默认主机组。<br/>**注意：** 更改选定的环境后，必须单击[!UICONTROL 搜索]以更新返回的结果。<br/>新的[!UICONTROL 环境]筛选器可从 [!DNL Target] UI 中的以下位置访问：<ul><li>[!UICONTROL 目录搜索]（[!UICONTROL 推荐 &gt; 目录搜索]）</li><li>[!UICONTROL 创建收藏集]对话框（[!UICONTROL 推荐 &gt; 收藏集 &gt; 新建]）</li><li>[!UICONTROL 更新收藏集]对话框（[!UICONTROL 推荐 &gt; 收藏集 &gt; 编辑]）</li><li>[!UICONTROL 创建排除项]对话框（[!UICONTROL 推荐 &gt; 排除项 &gt; 新建]）</li><li>[!UICONTROL 更新排除项]对话框（[!UICONTROL 推荐 &gt; 排除项 &gt; 编辑]）</li></ul><br>有关更多信息，请参阅以下主题：<uL><li>[收藏集](/help/c-recommendations/c-products/collections.md)</li><li>[排除项](/help/c-recommendations/c-products/exclusions.md)</li><li>[目录搜索](/help/c-recommendations/c-products/catalog-search.md)</li><li>[设置](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[推荐：按环境（主机组）筛选收藏集和排除项](/help/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **增强功能、修复和更改**
 
@@ -299,7 +299,7 @@ target/r_release-notes-2018.xml
 * 我们更新了“标准”卡片的外观与风格，让其更加直观和用户友好。(TGT-30469)
 * UI 性能提升加快了页面加载速度。
 
-### Target Standard/Premium 18.8.1（2018 年 8 月 21 日）{#section_66A0030993D54565BE30E56AC9CAC1DA}
+###  Target Standard/Premium 18.8.1（2018 年 8 月 21 日）{#section_66A0030993D54565BE30E56AC9CAC1DA}
 
 此版本包括以下功能和增强功能：
 
@@ -489,7 +489,7 @@ target/r_release-notes-2018.xml
 
 ### Target 下载 API（2018 年 6 月 5 日） {#section_B8729DA10F18433C8D8E01B04F308ED2}
 
-您可以使用推荐下载 API 来下载 .CSV 文件格式的推荐，以便在电子表格或文本编辑器中进行查看。为了提高安全性，从 **2018 年 6 月 5 日**开始，Target 将阻止 HTTP 请求，只允许 HTTPS 请求。
+您可以使用推荐下载 API 来下载 .CSV 文件格式的推荐，以便在电子表格或文本编辑器中进行查看。为了提高安全性，从 **2018 年 6 月 5 日** 开始，Target 将阻止 HTTP 请求，只允许 HTTPS 请求。
 
 ### Target Standard/Premium 18.5.1（2018 年 5 月 22 日） {#section_7C1427793C2A48DBAC39F8290717DC5B}
 
@@ -1066,7 +1066,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.8.1（2017 年 8 月 22 日）{#section_71A554D072F04B18B359C1626529E5D8}
+###  Target Standard/Premium 17.8.1（2017 年 8 月 22 日）{#section_71A554D072F04B18B359C1626529E5D8}
 
 <table id="table_AAC16F89060D4CC09762A370B86C0885"> 
  <thead> 
@@ -1124,7 +1124,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.7.3（2017 年 8 月 3 日）{#section_D90CB766679442C7A0642E5D79657674}
+###  Target Standard/Premium 17.7.3（2017 年 8 月 3 日）{#section_D90CB766679442C7A0642E5D79657674}
 
 <table id="table_C81EA97B251547169BC9681E5DDB4B8F"> 
  <thead> 
@@ -2967,7 +2967,7 @@ target/r_release-notes-2014.xml
 **修复**
 
 * 修复了在活动之间导航时未生成报表图表的问题。
-* 修复了在用户单击“**[!UICONTROL 目标和设置]”页面上的 **[!UICONTROL 选择链接]时，未将选定的链接标记为已选定的问题。
+* 修复了在用户单击“**[!UICONTROL 目标和设置]”页面上的**[!UICONTROL 选择链接]时，未将选定的链接标记为已选定的问题。
 
 * 修复了新活动在“[!UICONTROL 概述]”页面中被激活后，无法在“[!UICONTROL 活动列表]”中显示的错误。
 

@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: at.js 版本详细信息
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 4d6bbef9d29e2e9c7043bc90df299c7c73db8923
+source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 4d6bbef9d29e2e9c7043bc90df299c7c73db8923
 >
 >Target 团队仅维护两个版本的 [!DNL at.js]：当前版本和当前版本的上一个版本。请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。
 
-## at. js version2.1.0(要宣布日期)
+## at. js version2.1.0(2019年月日)
 
 此版本包括以下功能和增强功能：
 

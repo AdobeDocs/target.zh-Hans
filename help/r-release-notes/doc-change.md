@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
 
 ---
 
@@ -29,6 +29,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 |  | [at.js 函数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | 为表格添加了行 `adobe.target.sendNotifications(options)`。 |
 |  | [adobe. target. sendNoSearch(选项)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) | 新主题。 |
 |  | [从. js1.x升级到. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | 在. js2.1.0中新增了有关Adobe选择参与支持的信息。 |
+|  | [隐私和通用数据保护条例](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 有关在. js2.1.0中选择参与支持的更新信息。 |
 | 2019年月31日 | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | 添加了关于针对运行iOS12.2的设备的注释。 |
 |  | [计划和实施推荐](/help/c-recommendations/plan-implement.md) | 更新了代码示例。 |
 | 2019年月30日 | [从 Adobe Experience Cloud 访问 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 文档现在提供简体中文语言版本。 |

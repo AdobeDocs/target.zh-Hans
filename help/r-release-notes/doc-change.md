@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 
 本页列出 [!DNL Adobe Target] 了对文档所做的重要更改。
 
-## Adobe Target Standard/Premium19.5.1(2019年月21日){tgt-19-5-1}
+## Adobe Target Standard/Premium19.5.1(2019年月21日) {#tgt-19-5-1}
 
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 添加了客户属性别名ID的字符限制。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：19.5.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
-## Adobe Target Standard/Premium19.4.2(2019年月30日){19-4-2}
+## Adobe Target Standard/Premium 19.4.2（2019 年 4 月 30 日）{#target-19-4-2}
 
 **注意**：Target Standard/Premium19.4.1发行版是更新Adobe Experience Cloud UI以反映品牌和产品更改的主要版本。
 

@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: 从. js1.x升级到. js2.x
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
+source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
 
 ---
 
@@ -55,13 +55,15 @@ source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
 
 ## 部署到. js2.x {#deploy-atjs-200}
 
-1. 使用目标UI下载. js2.x。
-
-   ![“实施详细信息”对话框](/help/c-experiences/assets/imp-200.png)
+1. 通过 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 扩展部署. js2.x。
 
    >[!NOTE]
    >
-   >尚不支持通过 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 扩展安装. js2.x。
+   > 使用Adobe Launch部署. js是首选方法。
+
+   或
+
+   使用目标UI手动下载. js2.x，并使用您选择 [的方法部署它](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)。
 
 ## 已弃用的 at.js 函数
 
@@ -342,7 +344,7 @@ at. js2.x使用新API，我们将其命名为Delivery API。为了调试 at.js �
 | 受众 | 是 |
 | 客户属性 | 是 |
 | AEM 体验片段 | 是 |
-| Adobe Launch 扩展 | 当前不支持 |
+| Adobe Launch 扩展 | [是](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | 调试程序 | 是 |
 | 审核 | 尚未更新. js2.x的规则 |
 | 动态标签管理器 (DTM) | 是 |

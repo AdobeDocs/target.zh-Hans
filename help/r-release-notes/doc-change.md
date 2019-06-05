@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
+source-git-commit: a0f7dadf9e5c610c19b10bdd6f40e2af57ae6725
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
 | 2019 年 6 月 5 日 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 添加了新 [的疑难解答](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) 部分。 |
+|  | [从. js1.x升级到. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 更新了有关使用Adobe Launch部署. js的信息，这是首选部署方法。 |
 |  | [Target 关键概念](/help/c-intro/target-key-concepts.md) | 对文本进行了细微编辑。 |
 | 2019年月日 | [发行说明(当前版本)](/help/r-release-notes/release-notes.md) | 添加了有关即将发布的. js2.1.0的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关即将发布的. js2.1.0的信息。 |

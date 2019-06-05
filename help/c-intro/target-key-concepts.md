@@ -9,7 +9,7 @@ title: Target 关键概念
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 ---
 
@@ -120,7 +120,7 @@ an *体验*可决定满足特定条件时所显示的内容。
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=chi_hans)
 
 ### 在 Adobe Target 中使用受众 (6:21)
 
@@ -132,4 +132,4 @@ an *体验*可决定满足特定条件时所显示的内容。
 * 将活动定位到受众
 * 在活动中使用受众进行被动报告
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/17398?captions=chi_hans)

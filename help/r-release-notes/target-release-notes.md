@@ -8,7 +8,7 @@ title: Target 发行说明（预发行版本）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e50ae8c95774716ea484f02b276b2d66cb228364
+source-git-commit: 3a498a99e333acc92651eb94592af87cfc34c6e1
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: e50ae8c95774716ea484f02b276b2d66cb228364
 
 * **多个应用程序版本**：您现在可以为移动应用程序的多个版本创作活动。这在版本类似时节省了时间和精力，您无需显著更改应用程序的UI。(TGT-34231)
 
-### ![Premium徽章](/help/assets/premium.png) 自动个性化(AP)和自动定位
+### 自动个性化(AP)和Auto-Target ![Premium徽章](/help/assets/premium.png)
 
 * **特定体验作为控制**：您可以选择要在创建AP或自动Target活动时用作控件的体验。此功能允许您根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据控制流量来评估个性化流量的绩效报告。当前控制选项(随机提供的体验)将继续可用。（TGT-32801 和 TGT-26572）
 

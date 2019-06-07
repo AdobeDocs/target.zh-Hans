@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
+source-git-commit: 2e638171de7028c6222ea2b40556ead720d571e3
 
 ---
 
@@ -21,37 +21,38 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
-| 2019 年 6 月 6 日 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新了 `options > page` 参数的描述。 |
+| 2019 年 6 月 6 日 | [adobe. target. righterView(ViewName，options)- at. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新了 `options > page` 参数的描述。 |
+|  | [管理员首要步骤](/help/administrating-target/start-target.md) | 更新了整个文章。 |
 |  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 为Target19.6.1版本添加了初步发行说明。 |
 | 2019 年 6 月 5 日 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 添加了新 [的疑难解答](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) 部分。 |
-|  | [Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 更新了有关使用Adobe Launch部署. js的信息，这是首选部署方法。 |
+|  | [从. js1.x升级到. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 更新了有关使用Adobe Launch部署. js的信息，这是首选部署方法。 |
 |  | [Target 关键概念](/help/c-intro/target-key-concepts.md) | 对文本进行了细微编辑。 |
-| June 3, 2019 | [Release notes (current)](/help/r-release-notes/release-notes.md) | 添加了有关即将发布的. js2.1.0的信息。 |
+| 2019年月日 | [发行说明(当前版本)](/help/r-release-notes/release-notes.md) | 添加了有关即将发布的. js2.1.0的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关即将发布的. js2.1.0的信息。 |
 |  | [在隐含之前](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 新增了部分：“客户端分析日志记录”。 |
 |  | [Analytics for Target 实施](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | 修改步骤7. |
 |  | [adobe. target. getOffers(options)- at. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 在表格中添加了以下字段名称的行：<ul><li>请求&gt; Experience Cloud</li><li>“请求”&gt;“Experience Cloud”&gt;“分析”</li><li>“请求”&gt;“Experience Cloud”&gt;“分析”&gt;“日志记录”</li></ul> |
 |  | [at.js 函数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | 为表格添加了行 `adobe.target.sendNotifications(options)`。 |
 |  | [adobe. target. sendNoSearch(选项)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) | 新主题。 |
-|  | [Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | 在. js2.1.0中新增了有关Adobe选择参与支持的信息。 |
+|  | [从. js1.x升级到. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | 在. js2.1.0中新增了有关Adobe选择参与支持的信息。 |
 |  | [隐私和通用数据保护条例](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 有关在. js2.1.0中选择参与支持的更新信息。 |
-| May 31, 2019 | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | 添加了关于针对运行iOS12.2的设备的注释。 |
+| 2019年月31日 | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | 添加了关于针对运行iOS12.2的设备的注释。 |
 |  | [计划和实施推荐](/help/c-recommendations/plan-implement.md) | 更新了代码示例。 |
-| May 30, 2019 | [从 Adobe Experience Cloud 访问 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 文档现在提供简体中文语言版本。 |
+| 2019年月30日 | [从 Adobe Experience Cloud 访问 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 文档现在提供简体中文语言版本。 |
 |  | [将数据下载到 CSV 文件](/help/c-reports/downloading-data-in-csv-file.md) | 在“将订单详细信息导出到CSV”部分中添加了新提示：“在目标报告UI中应用的受众不会传递到下载报告”。 |
 |  | [报表设置](/help/c-reports/c-report-settings/report-settings.md) | 更新了屏幕截图。 |
-| May 29, 2019 | [类别亲和度](/help/c-target/c-visitor-profile/category-affinity.md) | 更新了文本，以阐明 `user.categoryId` 与 `entity.categoryId`. |
+| 2019年月29日 | [类别亲和度](/help/c-target/c-visitor-profile/category-affinity.md) | 更新了文本，以阐明 `user.categoryId` 与 `entity.categoryId`. |
 |  | [从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | 本主题的补充部分：. js的优势。 |
 |  | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 本主题的补充部分：“在页面加载时间，at. js和mbox. js的影响是什么？” |
 |  | [将动态数据传递给选件](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | 更正了过去行为行中的语法。 |
-| May 28, 2019 | [从 Adobe Experience Cloud 访问 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 新增了部分：“更改Target产品文档的语言”。 |
+| 2019年月28日 | [从 Adobe Experience Cloud 访问 Target](/help/c-intro/target-access-from-mac.md#doc-lang) | 新增了部分：“更改Target产品文档的语言”。 |
 |  | [确定入选者](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 更新的信息邻接p-值。 |
 |  | [对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 添加了有关Target如何处理多级iframe的疑难解答部分。 |
 |  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 新增了常见问题解答：“推荐操作的预期收录时间范围是什么？” |
 |  | [使用 Adobe Launch 实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 更新了以下“在. js使用目标启动扩展的优势”下的信息。 |
 |  | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 新增了关于. js的新故障排除部分，如果您使用的是无效的文档类型，则不会触发mbox。 |
-| May 24, 2019 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关 at.js 2.1.0 的信息。 |
-| May 23, 2019 | [管理排除项](/help/c-activities/t-automated-personalization/managing-exclusions.md) | 添加了信息和链接，用于限制哪些受众使用定位规则在AP活动中查看特定优惠。 |
+| 2019年月24日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关 at.js 2.1.0 的信息。 |
+| 2019年月23日 | [管理排除项](/help/c-activities/t-automated-personalization/managing-exclusions.md) | 添加了信息和链接，用于限制哪些受众使用定位规则在AP活动中查看特定优惠。 |
 |  | [服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 更新了介绍中的文本。 |
 |  | [体验和选件](/help/c-experiences/experiences.md) | 更新了介绍中的文本。 |
 |  | [受众](/help/c-target/target.md) | 更新了介绍中的文本。 |
@@ -61,13 +62,13 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 |  | [基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md) | 更新了介绍中的文本。 |
 |  | [企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md) | 更新了介绍中的文本。 |
 |  | [术语表](/help/c-intro/glossary.md) | 添加和更新了多个条目。 |
-| May 22 2019 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | 添加了培训视频。 |
+| 2019年月22日 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | 添加了培训视频。 |
 |  | [iOS - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | 添加了指向新教程的链接：<ul><li>在Mobile iOS Objective-C应用程序中实施Experience Cloud</li><li>在Mobile iOS Swift应用程序中实施Experience Cloud</li></ul> |
 |  | [Android - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | 添加了指向新教程的链接：<ul><li>在Mobile Android应用程序中实施Experience Cloud</li></ul> |
 |  | [Target 简介](/help/c-intro/intro.md#kit) | 添加了指向Adobe Target欢迎套件的链接。 |
-| May 21, 2019 | [单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>更新了有关“移动”选项的信息。</li><li>添加了注意，您可以在页面加载到CMS中之前执行很多操作，或者即使页面完全无法加载也是如此。 </li></ul> |
+| 2019年月21日 | [单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>更新了有关“移动”选项的信息。</li><li>添加了注意，您可以在页面加载到CMS中之前执行很多操作，或者即使页面完全无法加载也是如此。 </li></ul> |
 |  | [用户](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 生成的文本、更新的图像和添加的培训视频。 |
-|  | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Udated text and images. |
+|  | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 已处理的文本和图像。 |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 添加了客户属性别名ID的字符限制。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：19.5.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
@@ -77,10 +78,10 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
-| May 15, 2019 | [单页应用程序实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#triggerview) | 添加了注意，您必须触发 `at-view-start` 和 `at-view-end` 事件。 |
-| May 14, 2019 | [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)，<br>[Android-设置移动应用](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)程序，<br>[iOS-设置移动应用](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)程序，在<br>[Mobile CMS中设置单击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 新主题。 |
+| 2019年月15日 | [单页应用程序实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#triggerview) | 添加了注意，您必须触发 `at-view-start` 和 `at-view-end` 事件。 |
+| 2019年月14日 | [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)，<br>[Android-设置移动应用](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)程序，<br>[iOS-设置移动应用](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)程序，在<br>[Mobile CMS中设置单击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 新主题。 |
 |  | [将动态数据传递给选件](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | 更新的文本。 |
-| May 13, 2019 | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md)。 | 将项目添加到有关在多页活动中使用QA模式的注意事项列表。 |
+| 2019年月13日 | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md)。 | 将项目添加到有关在多页活动中使用QA模式的注意事项列表。 |
 |  | [在相似页面上包含相同体验](/help/c-experiences/c-visual-experience-composer/temtest.md) | 更新了与UI匹配的步骤。 |
 |  | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 新增了常见问题解答：“. js需要什么HTML docype？” |
 | 2019 年 5 月 10 日 | [首选项](/help/administrating-target/r-target-account-preferences/target-account-preferences.md) | 更新了文本和图像。 |
@@ -93,7 +94,7 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 | 2019 年 5 月 1 日 | [实体属性](/help/c-recommendations/c-products/entity-attributes.md) | 更正了以下可变名称中的大写：<br>更改 `pageURL``pageUrl`为。<br>更改 `thumbnailURL``thumbnailUrl`为。 |
 | 2019 年 4 月 30 日 | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | <ul><li>新增了部分：“样式”。</li><li>添加了列出可嵌套的HTML标记的表格。</li></ul> |
 |  | [点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md) | 将DOM路径功能的相关信息添加到“注意事项”部分。 |
-|  | [Feed Status and Indicators](/help/c-recommendations/c-products/feeds.md#section_5DDC2DECF70A42FDAFF2235E91371537) | 更新了“Feed Status”表。 |
+|  | [源状态和指示器](/help/c-recommendations/c-products/feeds.md#section_5DDC2DECF70A42FDAFF2235E91371537) | 更新了“Feed Status”表。 |
 |  | [处理库中的内容](/help/c-experiences/c-manage-content/assets-working.md) | 添加了有关从资产库中删除文件夹和图像的信息。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：19.4.2 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
@@ -102,7 +103,7 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
 | 2019 年 4 月 29 日 | [企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md#section_31D3450ADEAE4A29963A34F8E8C19FE0) | 添加了以下常见问题解答：“为什么会出现一条错误消息，指示没有属性与此活动关联，即使分配了属性？” |
-| 2019 年 4 月 24 日 | [Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#types) | 添加了“活动类型”部分的备注。 |
+| 2019 年 4 月 24 日 | [从. js1.x升级到. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#types) | 添加了“活动类型”部分的备注。 |
 |  | [测试电子邮件图像 Adbox](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md) | 格式化的代码范例。 |
 |  | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md)。 | 修复了次要错误。 |
 | 2019 年 4 月 23 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新了发行说明并将日期更改为月30日(月29日)。 |
@@ -112,18 +113,18 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 | 2019 年 4 月 16 日 | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 新增了常见问题解答：“我能否更改活动分配后使用A4T的活动中流量分配的百分比？” |
 | 2019 年 4 月 15 日 | [初始配置 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md) | 新增了常见问题解答：“如何设置多页A4T活动？” |
 |  | [用户权限要求](/help/c-integrating-target-with-mac/a4t/account-reqs.md) | 更新了主题。 |
-|  | [Known Issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md) | 将排除组的已知问题移至已解析的问题表。 |
+|  | [已知问题和解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 将排除组的已知问题移至已解析的问题表。 |
 | 2019 年 4 月 11 日 | [adobe. target. getOffers(options)- at. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 更新的代码范例。 |
 |  | [可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 添加了屏幕截图。 |
 |  | [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 添加了以下常见问题解答：“我应该从自动分配活动中删除一个性能欠佳的体验，以加快确定入选方的过程吗？” |
 | 2019 年 4 月 10 日 | [实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 对“实施要求”部分的次要文本更新(要求重新排序)。 |
-|  | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新了“options&gt; page”参数的文本。 |
-| 2019 年 4 月 8 日 | [使用和不使用 A4T 时，Target 和 Analytics 之间的预期数据差异](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md) | Updated [Expected data variance when using A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md#expected-using-a4t). |
+|  | [adobe. target. righterView(ViewName，options)- at. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新了“options&gt; page”参数的文本。 |
+| 2019 年 4 月 8 日 | [使用和不使用 A4T 时，Target 和 Analytics 之间的预期数据差异](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md) | 更新 [了使用A4T时预期的数据变化](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md#expected-using-a4t)。 |
 |  | [在 A4T 中最大限度地减少夸大的访问和访客计数](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md) | 更新了A4T的相关信息并重定向 [了部分数据的作用？](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#section_C9C906BEAA7D44DAB9D3C03932A2FEB8) |
 |  | [实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md#section_A0D2EF18033D4C3997B08A6EBB34C17A) | 更新了使用A4T进行重定向的要求(在. js版本1.6.2中)。 |
 |  | [重定向选件 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58) | <ul><li>更新了使用A4T进行重定向的要求(在. js版本1.6.2中)。</li><li>添加了描述在Target点击发生时如何计算数据指标的信息，但不会点击分析。 </li> |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md#excludedid) | 添加了 `excludedIDs` mbox参数限制信息。 |
-|  | [Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#response-tokens) | 新增了部分：响应令牌。 |
+|  | [从. js1.x升级到. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#response-tokens) | 新增了部分：响应令牌。 |
 | 2019 年 4 月 5 日 | [Adobe Target基础知识网络研讨会：推荐介绍](/help/c-recommendations/recommendations.md#intro-to-recs) | 添加了指向“推荐推荐”网络研讨会录像的链接。 |
 |  | [活动 QA 书签](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新了活动QA书签的JavaScript代码。 |
 |  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新了Target19.4.1和Target19.4.2版本的初步发行说明，计划于2019年月发布。 |
@@ -131,7 +132,7 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 | 2019 年 3 月 30 日 | [限制](/help/r-troubleshooting-target/target-limits.md#excludedid) | 添加了 `excludedID` mbox参数限制信息。 |
 | 2019 年 3 月 29 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题：“对于单页应用程序(SPA)网站，取消加载不允许您编辑 [!UICONTROL “修改] ”面板下的操作”。<br>将以下已知问题移至已解决的问题部分：“Adobe I/选件的v版本的选件API将通过Target创建的所有选件视为默认工作区”。 |
 | 2019 年 3 月 28 日 | [可视化体验编辑器 (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | 添加了以下新章节：<ul><li>[取消在CMS内的页面加载。](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[在页面加载或页面加载后编辑页面](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading)。</li></ul> |
-|  | [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | 新部分：“[使用DOM路径导航元素](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)”。 |
+|  | [视觉体验书写器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | 新部分：“[使用DOM路径导航元素](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)”。 |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#cancel) | 添加了有关取消CMS中页面加载时的当前已知问题。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：19.3.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
@@ -156,9 +157,9 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 |  | [at.js 的工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 添加了介绍性段落以解释客户端实施。 |
 |  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：“我能否动态排除实体？” |
 | 2019 年 3 月 12 日 | [使用Adobe Experience Cloud调试器从. js1.x升级到. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) 并 [在. js上调试](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md) | 调试器现在支持. js2.x的集成。 |
-| 2019 年 3 月 11 日 | [Target release notes (current)](/help/r-release-notes/release-notes.md),<br>[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md), and <br>[TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新的文本表明TLS更改将于2019 **年月日发生**。 |
+| 2019 年 3 月 11 日 | [目标发行说明(当前)](/help/r-release-notes/release-notes.md)、<br>[Target发行说明(预发行)](/help/r-release-notes/target-release-notes.md)和 <br>[TLS(传输层安全)加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新的文本表明TLS更改将于2019 **年月日发生**。 |
 |  | [adobe. target. getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了以下部分：“通过getOffers()和applyOffers()从多个mbox提取和渲染数据”。 |
-| 2019 年 3 月 6 日 | [Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 将at_ property行添加到. js2.x有效负荷映射“table”的“at. js1.x参数”行。 |
+| 2019 年 3 月 6 日 | [从. js1.x升级到. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 将at_ property行添加到. js2.x有效负荷映射“table”的“at. js1.x参数”行。 |
 |  | [单页应用程序实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md) | 新增了部分：“使用TriggerView确保A4T能正确运行. js2.x和SPAS”。 |
 | 2019 年 3 月 4 日 | [Recommendations Classic文档](/help/c-recommendations/recommendations-classic-documentaton.md) | 新主题。 |
 |  | [Recommendations Classic 与 Target Premium 中的“推荐”活动](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md) | 添加了有关Recommendations的信息作为选件。 |
@@ -166,25 +167,25 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 |  | [Target 简介](/help/c-intro/intro.md) | 在“Target Premium”下添加了“推荐作为选件”。 |
 |  | [Target 关键概念](/help/c-intro/target-key-concepts.md) | 更新了“活动类型”表。 |
 | 2019 年 26 月 2 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关Target API中企业权限支持的已知问题。 |
-| 2019 年 25 月 2 日 | [Target release notes (current)](/help/r-release-notes/release-notes.md), <br>[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md), and <br>[TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新了以下信息：<br>在2019年月20日，在EMEA、日本和APAC区域中升级了Adobe Target基础结构，不再向不支持TLS1.1或更高版本的旧设备或Web浏览器收集最终用户的数据。此次升级计划于2019 **年月日针对北美地区** 进行。迁移到 TLS 1.2 可提高安全性。您应务必了解具体细节，并且针对更改做出规划以实现顺利迁移。 |
-|  | [Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#payload-mapping) | 新部分：“at. js1.x参数到. js2.x有效负荷映射”。 |
+| 2019 年 25 月 2 日 | [目标发行说明(当前)](/help/r-release-notes/release-notes.md)、 <br>[Target发行说明(预发行)](/help/r-release-notes/target-release-notes.md)和 <br>[TLS(传输层安全)加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新了以下信息：<br>在2019年月20日，在EMEA、日本和APAC区域中升级了Adobe Target基础结构，不再向不支持TLS1.1或更高版本的旧设备或Web浏览器收集最终用户的数据。此次升级计划于2019 **年月日针对北美地区** 进行。迁移到 TLS 1.2 可提高安全性。您应务必了解具体细节，并且针对更改做出规划以实现顺利迁移。 |
+|  | [从. js1.x升级到. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#payload-mapping) | 新部分：“at. js1.x参数到. js2.x有效负荷映射”。 |
 |  | [对与增强型体验编辑器有关的问题进行故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | 将“主机名”列添加到IP地址到白名单。 |
 | 2019 年 22 月 2 日 | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 添加了“获取您的工作区ID”部分。 |
 | 2019 年 2 月 20 日 | [类别亲和度](/help/c-target/c-visitor-profile/category-affinity.md) | 更新了“类别亲和度算法”部分。 |
 | 2019 年 2 月 19 日 | [单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md) | 新增了主题和培训视频。 |
 |  | [单页应用程序实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md) | 新增了主题和培训视频。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 版本 1.7.0 和 2.0.0 的信息。 |
-|  | [Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 新增了主题和培训视频。 |
-|  | [at.js 函数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | Updated topic to reflect changes with the introduction of at.js 2.x.<br>There are three new fuctions available for at.js 2.x.<ul><li>adobe.target.getOffers(options)</li><li>adobe.target.applyOffers(options)</li><li>adobe.target.triggerView (viewName, options)</li></ul> |
-|  | [at.js 的工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Updated topic to reflect changes with the introduction of at.js 2.x. and added training video. |
-|  | [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Updated topic to reflect changes with the introduction of at.js 2.x. |
-|  | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Updated topic to reflect changes with the introduction of at.js 2.x. |
-|  | [使用 Adobe Experience Cloud 调试器调试 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md) | Added note explaining that the Adobe Experience Cloud Debugger Network Request and Mbox Trace features are not yet supported for at.js 2.x. |
+|  | [从. js1.x升级到. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 新增了主题和培训视频。 |
+|  | [at.js 函数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | 更新了主题，以反映随着at. js2.x引入<br>的更改。js2.x有三个新增功能可用。<ul><li>adobe.target.getOffers(options)</li><li>adobe.target.applyOffers(options)</li><li>adobe.target.triggerView (viewName, options)</li></ul> |
+|  | [at.js 的工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 更新了主题，以反映在. js2.x中引入的更改并添加了培训视频。 |
+|  | [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | 更新了主题，以反映在. js2.x引入的更改。 |
+|  | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 更新了主题，以反映在. js2.x引入的更改。 |
+|  | [使用 Adobe Experience Cloud 调试器调试 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md) | 添加了说明，说明在. js2.x尚不支持Adobe Experience Cloud调试器网络请求和Mbox Trace功能。 |
 |  | [at.js Cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | 新主题。 |
 |  | [“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md) | 新主题。 |
 |  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | <ul><li>添加了有关使用[!UICONTROL 此项前插入、此项后插入或替换为]操作向 A/B 测试或体验定位活动中的体验添加推荐的信息。</li><li>添加了有关使用[!UICONTROL 此项前插入或此项后插入]操作将 AEM 体验片段添加到体验的信息。</li></ul> |
 |  | [可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 新主题。 |
-|  | [隐私和《通用数据保护条例》](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)(GDPR) | Minor edits and information about Opt-in functionality and at.js 1.7.0 and at.js 2.x. |
+|  | [隐私和《通用数据保护条例》](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)(GDPR) | 对选择功能和. js1.7.0和. js2.x中的选择功能进行少量编辑和信息。 |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关 Target API 的已知问题。 |
 |  | [实体属性](/help/c-recommendations/c-products/entity-attributes.md) | 添加了说明所提供的实体属性值会在 61 天后过期的注释。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：19.2.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |

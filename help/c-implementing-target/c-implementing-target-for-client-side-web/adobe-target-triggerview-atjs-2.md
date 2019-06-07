@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: adobe.target.triggerView (viewName, options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 19834da75f163d6357bc9b986a23f0bc1fea6d8e
+source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 ---
 
@@ -24,16 +24,20 @@ source-git-commit: 19834da75f163d6357bc9b986a23f0bc1fea6d8e
 | 参数 | 类型 | 必需？ | 描述 |
 | --- | --- | --- | --- |
 | viewName | 字符串 | 是 | 将任何名称作为要显示视图的字符串类型传递。此视图名称显示在 VEC 的[!UICONTROL 修改]面板中，供营销人员创建操作并运行其 A/B 和 XT 活动。 |
-| options | 对象 | 否 |
-| options &gt; page | 布尔值 | 否 | **TRUE：** page 的默认值为 true。当 page=true 时，将向 [!DNL Target] 后端发送增加展示次数计数的通知。<br>**FALSE：** 当page= false时，不会发送通知以增加印象计数。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
+| options | 对象 | 否 |  |
+| options &gt; page | 布尔值 | 否 | **TRUE：** page 的默认值为 true。当 page=true 时，将向 [!DNL Target] 后端发送增加展示次数计数的通知。<br>如果没有活动体验或活动量度与视图相关联，则不发送通知。<br>**FALSE:** When page=false, notifications are not sent for incrementing impression count. 当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
 
-## 将向 Target 后端发送增加展示次数计数通知的 `triggerView()` 调用示例
+## 示例：True
+
+`triggerView()` 调用以向Target后端发送通知，以增加活动印象和其他指标。
 
 ```
 adobe.target.triggerView("homeView")
 ```
 
-## 不会向 Target 后端发送增加展示次数计数通知的 `triggerView()` 调用示例
+## 示例：False
+
+`triggerView()` call to not have notifications sent to the Target backend for impression counting.
 
 ```
 adobe.target.triggerView("homeView", {page: false})

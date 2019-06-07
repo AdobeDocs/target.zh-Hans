@@ -8,7 +8,7 @@ title: iOS - 设置移动设备应用程序
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 29e82d6bcb42b0f05b0b175be7df017184358c38
+source-git-commit: 0447ec6a589534ec9ad2da8d809b66900e9b4617
 
 ---
 
@@ -22,14 +22,19 @@ Adobe Target Mobile App Visual Experience Composer(CMS)使开发人员能在其i
 ## 包括Mobile SDK和Target库 {#sdk-library}
 
 1. 通过添加窗格将库添加到您的项目 [!DNL Podfile] 中`ACPTargetVEC`。
+
 1. 在 XCode 中打开您的 Objective-C 应用程序项目。
+
 1. 如果尚未设置，请转到项目构建设置并将“始终嵌入快速标准库”设置为“是”。
+
 1. 在项目构建设置中找到“其他链接器标记”，添加 `$(inherited)`（如果尚未添加）。
+
 1. 对于仅限 Objective-C 项目 - 创建一个 swift 文件以创建桥接标头。此操作将为 Swift 设置您的应用程序环境。
+
 1. 添加深层链接处理程序：
 
-   1. 在您的应用程序项目设置中，单击**[!UICONTROL 信息]**。
-   1. 在 **[!UICONTROL URL类型]**下，单击三角形以将其打开，然后单击加号以添加新字段。
+   1. 在您的应用程序项目设置中，单击 **[!UICONTROL 信息]**。
+   1. 在 **[!UICONTROL URL类型]** 下，单击三角形以将其打开，然后单击加号以添加新字段。
    1. 添加以下信息：
 
       * 标识符: `com.adobe.sdktest`
@@ -46,6 +51,7 @@ Adobe Target Mobile App Visual Experience Composer(CMS)使开发人员能在其i
 
 
 1. 在 XCode 中，打开您的 [!DNL AppDelegate] 文件。
+
 1. 在该文件的顶部，在导入内容的末尾添加以下行：
 
    `#import "ACPTargetVEC.h"`
@@ -57,72 +63,31 @@ Adobe Target Mobile App Visual Experience Composer(CMS)使开发人员能在其i
 1. 在您的 [!DNL AppDelegate] 文件中，将以下行添加到 `AppDelegate::application:didFinishLaunchingWithOptions:`。如果未定义委托函数，请创建此函数，并分别为 Objective-C 或 Swift 应用程序添加以下行：
 
    ```
-   // CONFIGURATION LINE FOR OBJECTIVE C ONLY (Skip any framework which is not applicable for you): 
-   [ACPCore configureWithAppId:@"YOUR_ADOBE_LAUNCH_APP_ID"]; 
-   [ACPCore setLogLevel:ACPMobileLogLevelDebug]; 
-   [ACPLifecycle registerExtension]; 
-   [ACPIdentity registerExtension]; 
-   [ACPUserProfile registerExtension]; 
-   [ACPTarget registerExtension];
-   
-   [ACPTargetVEC registerExtension];
-   [ACPCore start:^{
-        [ACPCore lifecycleStart:nil];
-   }];
+   // CONFIGURATION LINE FOR OBJECTIVE C ONLY
+   - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+     //Other Extensions that you need
+     [ACPCore configureWithAppId:@"YOUR_ADOBE_LAUNCH_APP_ID"];
+     [ACPCore setLogLevel:ACPMobileLogLevelDebug];
+     [ACPTarget registerExtension];
+     [ACPTargetVEC registerExtension];
+     [ACPCore start:^{
+       [ACPCore lifecycleStart:nil];
+     }];
+     // Override point for customization after application launch.
+     return YES;
+   }
    
    // CONFIGURATION LINE FOR SWIFT ONLY: 
-   ACPCore.configure(withAppId: "YOUR_ADOBE_LAUNCH_APP_ID") 
-   ACPCore.setLogLevel(ACPMobileLogLevel.debug) 
-   ACPLifecycle.registerExtension() 
-   ACPIdentity.registerExtension() 
-   ACPUserProfile.registerExtension() 
-   ACPTarget.registerExtension() 
-   
-   ACPTargetVEC.registerExtension() 
-   
-   ACPCore.start {
-     ACPCore.lifecycleStart(nil)
-   }
-   ```
-
-   例如，该方法应类似于以下示例：
-
-   ```
-   // EXAMPLE OVERRIDE METHOD FOR OBJECTIVE C ONLY: 
-   - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 
-        // Override point for customization after application launch. 
-       [ACPCore configureWithAppId:@"YOUR_ADOBE_LAUNCH_APP_ID"]; 
-       [ACPCore setLogLevel:ACPMobileLogLevelDebug]; 
-       [ACPLifecycle registerExtension]; 
-       [ACPIdentity registerExtension]; 
-       [ACPUserProfile registerExtension]; 
-       [ACPTarget registerExtension]; 
-   
-       [ACPTargetVEC registerExtension]; 
-   
-       [ACPCore start:nil]; 
-       [ACPCore lifecycleStart:nil]; 
-   
-      return YES; 
-   } 
-   
-   // EXAMPLE OVERRIDE METHOD FOR SWIFT ONLY: 
-   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) 
-   { 
-       ACPCore.configure(withAppId: "YOUR_ADOBE_LAUNCH_APP_ID") 
-       ACPCore.setLogLevel(ACPMobileLogLevel.debug) 
-       ACPLifecycle.registerExtension() 
-       ACPIdentity.registerExtension() 
-       ACPUserProfile.registerExtension() 
-       ACPTarget.registerExtension() 
-   
-       ACPTargetVEC.registerExtension() 
-   
-       ACPCore.start(nil) 
-       ACPCore.lifecycleStart(nil)
-   
-       return true 
-   
+   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+     //Other Extensions that you need
+     ACPCore.configure(withAppId: "YOUR_ADOBE_LAUNCH_APP_ID")
+     ACPCore.setLogLevel(ACPMobileLogLevel.debug)
+     ACPTarget.registerExtension()
+     ACPTargetVEC.registerExtension()
+     [ACPCore start:^{
+       [ACPCore lifecycleStart:nil];
+     }];
+     return true
    }
    ```
 
@@ -130,29 +95,20 @@ Adobe Target Mobile App Visual Experience Composer(CMS)使开发人员能在其i
 
    ```
    // URL HANDLER LINE FOR OBJECTIVE C ONLY: 
-   [ACPTargetVEC handleDeepLink:url];
+   - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options {
+     [ACPCore collectLaunchInfo:@ {@"adb_deeplink": url.absoluteString}];
+     return YES;
+   }
    
    // URL HANDLER LINE FOR SWIFT ONLY: 
-   ACPTargetVEC.handleDeepLink(url)
-   ```
-
-   例如，该方法应类似于以下示例：
-
-   ```
-   // EXAMPLE OVERRIDE METHOD FOR OBJECTIVE C ONLY:
-   -  (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options {
-    [ACPTargetVEC handleDeepLink:url];
-    return YES;
-   }
-   
-   // EXAMPLE OVERRIDE METHOD FOR SWIFT ONLY:
-   func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-      ACPTargetVEC.handleDeepLink(url)
-      return true;
+   func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+     ACPCore.collectLaunchInfo(["adb_deeplink": url.absoluteString])
+     return true
    }
    ```
 
-1. 构建和运行应用程序，并使用它测试Mobile App CMS功能。
+   构建和运行应用程序，并使用它测试Mobile App CMS功能。
+
 
 ## 在移动应用程序上设置目标视图 {#views}
 
@@ -200,18 +156,18 @@ NSDictionary *profileParams = @{@"profilekey1":@"profilevalue1"}; //profile para
   
 ACPTargetProduct *product = [ACPTargetProduct targetProductWithId:@"1234" categoryId:@"furniture"]; 
 ACPTargetOrder *order = [ACPTargetOrder targetOrderWithId:@"12343" total:@(123.45) purchasedProductIds:@[@"100",@"200"]]; 
-ACPTargetParameters *targetParams = [ACPTargetParameters targetParametersWithParameters:mboxParams 
-                                                                      profileParameters:profileParams 
-                                                                                product:product 
-                                                                                  order:order]; 
+ACPTargetParameters *targetParams = [ACPTargetParameters targetParametersWithParameters: mboxParams
+                      profileParameters: profileParams
+                      product: product
+                      order: order];
 [ACPTargetVEC setGlobalRequestParameters:targetParams];
 
 //For Swift 
 var mboxParams = ["mboxparam1":"mboxvalue1"] 
 var profileParams = ["profilekey1":"profilevalue1"] 
-var product : ACPTargetProduct = ACPTargetProduct.init(id: "1234", categoryId: "furniture") 
-var order : ACPTargetOrder = ACPTargetOrder.init(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"]) 
-var targetParams : ACPTargetParameters = ACPTargetParameters.init(parameters: mboxParams, profileParameters: profileParams, product: product, order: order) 
+var product = ACPTargetProduct(id: "1234", categoryId: "furniture")
+var order = ACPTargetOrder(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"])
+var targetParams = ACPTargetParameters(parameters: mboxParams, profileParameters: profileParams, product: product, order: order)
 ACPTargetVEC.setGlobalRequest(targetParams)
 ```
 
@@ -235,9 +191,9 @@ ACPTargetParameters *targetParams = [ACPTargetParameters targetParametersWithPar
 //For Swift 
 var mboxParams = ["mboxparam1":"mboxvalue1"] 
 var profileParams = ["profilekey1":"profilevalue1"] 
-var product : ACPTargetProduct = ACPTargetProduct.init(id: "1234", categoryId: "furniture") 
-var order : ACPTargetOrder = ACPTargetOrder.init(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"]) 
-var targetParams : ACPTargetParameters = ACPTargetParameters.init(parameters: mboxParams, profileParameters: profileParams, product: product, order: order) 
+var product = ACPTargetProduct(id: "1234", categoryId: "furniture")
+var order = ACPTargetOrder(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"])
+var targetParams = ACPTargetParameters(parameters: mboxParams, profileParameters: profileParams, product: product, order: order)
 ACPTargetVEC.setRequest(targetParams)
 ```
 

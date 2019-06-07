@@ -8,7 +8,7 @@ title: Adobe Target Standard 和 Premium 的培训视频
 topic: 高级
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: df4b2681720b83d967a378733dfc58301b1ca7ee
+source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 ---
 
@@ -37,8 +37,8 @@ source-git-commit: df4b2681720b83d967a378733dfc58301b1ca7ee
 
 ![Experience League Video](/help/c-intro/assets/experience-league.png)
 
-## Adobe Target教程
+## Adobe Target教程 {#tutorials}
 
-Adobe [!DNL Target][Target教程](https://helpx.adobe.com/target/tutorials.html) 页面上提供了对概念和工具的视频介绍。
+Adobe [!DNL Target][Target教程](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) 页面上提供了对概念和工具的视频介绍。
 
-![Adobe Target教程](/help/c-intro/assets/adobe-target-tutorials.png)
+![Adobe Target教程](/help/c-intro/assets/adobe-target-tutorials-new.png)

@@ -6,7 +6,7 @@ title: Adobe Target 产品文档
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
+source-git-commit: a8bb6facffe6ca6779661105aedcd44957187a79
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 营销人员、开发人员、管理员、分析员和质量保证工程师。
 
-- [Target release notes](r-release-notes/release-notes.md): Contains information about the current release, information about known issues that affect [!DNL Target], a list of important changes to this documentation, and an archive of past release notes.
+- [目标发行说明](r-release-notes/release-notes.md)：包含有关当前版本的信息、有关影响的已知问题的信息 [!DNL Target]、对此文档的重要更改列表以及以前发行说明的存档。
 - [Target 简介](c-intro/intro.md)：说明 [!DNL Target] 解决方案的核心概念。
 - 将Target与Adobe Experience Cloud集成：介绍如何与 [!DNL Target] 其他 [!DNL Experience Cloud] 解决方案集成，包括 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、 [Experience Cloud受众](/help/c-integrating-target-with-mac/mmp.md)、 [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)和 [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md)。
 - [Target 故障诊断](r-troubleshooting-target/troubleshooting-target.md)：提供指向本指南中包含的故障诊断信息的链接，包括字符限制和会影响 [!DNL Target] 中活动和其他元素的其他限制的信息（选件大小、受众、配置文件、值、参数等）。

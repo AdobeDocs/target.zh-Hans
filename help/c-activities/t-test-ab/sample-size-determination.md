@@ -7,7 +7,7 @@ solution: Target
 title: A/B 测试应该持续多长时间？
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 Target 提供了一些工具来帮助确保您的活动具有足够的样本量，以满足转化目标：
 
-* **自动分配：**自动分配活动是一种 A/B 测试，可标识两个或多个体验中的入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
+* **自动分配：** 自动分配活动是一种 A/B 测试，可标识两个或多个体验中的入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
 
    标准 A/B 测试具有一定的固有成本。您必须花费流量来衡量每个体验的性能，并通过分析找出入选体验。即使在您认识到某些体验的性能优于其他体验之后，流量分配仍保持不变。此外，要算出样本量也很复杂，并且活动必须运行其整个过程，然后才能对入选者执行操作。在完成所有这些操作之后，确定的入选者仍可能不是真实入选者。
 
@@ -34,13 +34,13 @@ Target 提供了一些工具来帮助确保您的活动具有足够的样本量�
 
    有关更多信息，请参阅[自动分配](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
-* **Target 样本量计算器：**如果您选择使用手动 A/B 测试而不是自动分配，则 Target 样本量计算器可帮助您确定测试取得成功所需的样本量。继续阅读可了解有关如何使用计算器的更多信息。
+* **Target 样本量计算器：** 如果您选择使用手动 A/B 测试而不是自动分配，则 Target 样本量计算器可帮助您确定测试取得成功所需的样本量。继续阅读可了解有关如何使用计算器的更多信息。
 
 ## Adobe Target 样本量计算器 {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 在设置A/B测试之前，请访问Adobe Target [示例大小计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)。
 
-![](assets/sample_size_calculator.png)
+![Adobe Target 样本量计算器](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 在进行任何 A/B 测试之前，确定足够的样本量（访客数量）非常重要，这样可以确定在对结果进行评估之前测试需要运行多长时间。如果只是监控测试直至达到统计意义，则会导致置信区间被大大低估，从而使测试不可靠。此结果的依据是，如果检测到具有统计意义的结果，则停止测试并确定入选者。但是，如果结果不具有统计意义，则允许测试继续。此过程非常容易产生正面的结果，这会增加误报率，并因此扭曲测试的有效显著性水平。
 

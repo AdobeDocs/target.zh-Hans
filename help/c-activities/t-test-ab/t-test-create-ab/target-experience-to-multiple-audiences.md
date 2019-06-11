@@ -8,7 +8,7 @@ title: A/B 测试中的多个体验版本
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -37,9 +37,9 @@ source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
 
 1. 选择体验，然后单击 **[!UICONTROL 配置]** &gt; **[!UICONTROL 受众]** &gt; **[!UICONTROL 多个受众]**。
 
-   ![](assets/multiple-audiences.png)
+   ![多个受众选项](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. 单击**[!UICONTROL 添加受众]**，然后选择要定位的第一个受众。对每个受众重复执行上述步骤。
+1. 单击 **[!UICONTROL 添加受众]**，然后选择要定位的第一个受众。对每个受众重复执行上述步骤。
 
    ![](assets/exp-versions.png)
 

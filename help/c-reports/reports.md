@@ -9,7 +9,7 @@ title: 报表
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -36,27 +36,26 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ## 显示报表 {#section_C4591A32F6D04C95A1AD5A377C27C28B}
 
-1. 单击**[!UICONTROL 活动]**，然后在列表中单击所需的活动。
+1. 单击 **[!UICONTROL 活动]**，然后在列表中单击所需的活动。
 
    如果您拥有多个活动，可以通过从[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 报表源]、[!UICONTROL 体验编辑器]、[!UICONTROL 量度类型]和[!UICONTROL 活动来源]下拉列表中选择相应选项来筛选列表。
 
    例如，您可以从“[!UICONTROL 类型]”下拉列表中选择“[!UICONTROL A/B 测试]”和“[!UICONTROL 体验定位]”，并从“[!UICONTROL 状态]”下拉列表中选择“[!UICONTROL 实时]”，以仅显示处于活跃状态的 A/B 测试活动和体验定位活动。
 
-   下图显示了“[!UICONTROL 类型]”下拉列表，其中选定了两个类型：
+   下图显示了“[!UICONTROL 类型]”下拉列表，其中选定了两个类型：A/B测试和体验定位。请注意，默认情况下会选择三种类型的A/B测试(手动、 [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和 [自动目标](/help/c-activities/auto-target-to-optimize.md))。您可以根据需要取消选择一种或多种类型。
 
-   ![](assets/report_filters.png)
+   ![按类型过滤报告](/help/c-reports/assets/report_filters-new.png)
 
-1. 单击**[!UICONTROL 报表]选项卡。**
+1. 单击 **[!UICONTROL 报表]选项卡。**
 
    每个报表都包含一个图例，以帮助您了解报表。
 
-   ![](assets/report_menu_bar.png)
+   ![报告图例](/help/c-reports/assets/report_menu_bar-new.png)
 
    图例显示了以下信息：
 
    * 活动状态，包括活动运行的日期范围。
-   * 预计的入选体验。
-   * 活动的来源，如 [!DNL Adobe Target] 或 [!DNL Adobe Target Classic]。
+   * 预计的入选体验(如果有)。
    >[!NOTE]
    >
    >至少有一个参加者查看了体验后，才会显示体验结果。
@@ -69,6 +68,6 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
    * [!UICONTROL 将报表导出到 CSV]
    * [!UICONTROL 将订单详细信息导出到 CSV]
 
-1. （可选）单击**[!UICONTROL 表格视图]**图标和**图形视图]图标，以在这两种报表格式之间进行切换。[!UICONTROL **
+1. （可选）单击 **[!UICONTROL 表格视图]** 图标和 **图形视图]图标，以在这两种报表格式之间进行切换。[!UICONTROL **
 
-   （仅限多变量测试）单击**[!UICONTROL 位置贡献]** (![位置贡献图标](assets/icon_location_contribution.png)) 图标，以将报表切换为按位置显示贡献。
+   （仅限多变量测试）单击 **[!UICONTROL 位置贡献]** (![位置贡献图标](assets/icon_location_contribution.png)) 图标，以将报表切换为按位置显示贡献。

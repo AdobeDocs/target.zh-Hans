@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: 从. js1.x升级到. js2.x
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
@@ -222,12 +222,6 @@ source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
 
 可以，系统会使用不同版本和库保留各个页面中的访客配置文件。Cookie 格式是相同的。
 
-**Adobe Experience Cloud调试器不完全支持. js2.x**
-
-[!DNL Adobe Experience Cloud Debugger][!UICONROL 支持“摘要”选项卡] 功能和 [!UICONTROL “禁用”和“控制台日志记录] ”工具，但在. js2.x上不支持网络请求和mboxTrace。
-
-这是因为. js2.x中发送了一个JSON有效负荷，而不是键值对。要检查 [!DNL Target] 请求，请将浏览器开发人员工具的[!UICONTROL 网络]选项卡过滤到“交付”、“`tt.omtrdc.net`”或您的客户端代码。仍可以使用查询字符串参数和授权令牌来检查跟踪数据。有关更多信息，请参阅 [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md)。
-
 **新API在. js2.x中使用**
 
 at. js2.x使用新API，我们将其命名为Delivery API。为了调试 at.js 是否正确调用 [!DNL Target] 边缘服务器，您可以将浏览器开发人员工具的“网络”选项卡过滤到“交付”、“`tt.omtrdc.net`”或您的客户端代码。您还会注意到 [!DNL Target] 发送的是 JSON 有效负载而不是键值对。
@@ -396,7 +390,7 @@ at.js 2.*x*，就像在. js中一样。*x*，使用自定义事件 `at-request-s
 * at. js2.x-客户端代码作为查询字符串参数发送，如：
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-以下部分列出每个. js1。*x* 参数、其描述和对应的2.0.0JSON有效负荷(如果适用)：
+以下部分列出每个. js1.*x* 参数及其描述和对应的2.0.0JSON有效负荷(如果适用)：
 
 ### at_ property
 

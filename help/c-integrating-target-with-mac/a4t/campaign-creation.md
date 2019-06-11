@@ -8,7 +8,7 @@ title: 活动创建
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: b42572e0617c034cda2aed460bbd8e2b5d10cd04
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
@@ -21,14 +21,14 @@ source-git-commit: b42572e0617c034cda2aed460bbd8e2b5d10cd04
 
 创建将 Analytics 用作报表源的 Target Standard 活动的过程与设置常规 Target Standard 活动大体类似，但也有几处重要的差异。例如，在创建活动时，您无法选择报表的区段，因为在查看报表时，可应用 Analytics 中的所有可用区段。
 
-1. 单击**[!UICONTROL 创建活动]**。
+1. 单击 **[!UICONTROL 创建活动]**。
 
    >[!NOTE]
    >
    >如果使用 Analytics 作为报表源，则活动名称中不能包含“%”字符。
 
 1. 选择活动类型并开始设置活动。
-1. 在活动创建流程的**[!UICONTROL 设置]**部分，选择 **[!UICONTROL Adobe Analytics]**，然后指定您的公司。
+1. 在活动创建流程的 **[!UICONTROL 设置]** 部分，选择 **[!UICONTROL Adobe Analytics]**，然后指定您的公司。
 1. 选择一个报表包。
 
    可以选择您在 Adobe Analytics 中可用的任何报表包。报表包定义提供所收集数据的位置。报表包列表中不包含虚拟报表包。
@@ -45,10 +45,6 @@ source-git-commit: b42572e0617c034cda2aed460bbd8e2b5d10cd04
 1. 指定跟踪服务器。
 
    请参阅[使用 Analytics 跟踪服务器](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
-
-   >[!NOTE]
-   >
-   >如果您使用 Adobe Analytics 作为活动的报表源，并且使用的是 mbox.js 版本 61（或更高版本）或者 at.js 版本 0.9.1（或更高版本），则无需在活动创建期间指定跟踪服务器。mbox.js 或 at.js 库会自动将跟踪服务器值发送到 [!DNL Target]。在活动创建期间，您可以将“[!UICONTROL 目标和设置]”页面上的“[!UICONTROL 跟踪服务器]”字段留空。
 
 1. 定义体验。
 1. 指定活动目标。
@@ -67,5 +63,5 @@ source-git-commit: b42572e0617c034cda2aed460bbd8e2b5d10cd04
    >
    >将 Analytics 设置为报表源后，在设置活动时，不会显示用于设置报表受众的选项。Analytics 区段在“目标活动”报表中可用。
 
-1. 单击**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL 保存]**。
 

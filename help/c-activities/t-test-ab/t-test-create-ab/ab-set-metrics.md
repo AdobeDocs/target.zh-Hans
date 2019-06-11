@@ -7,7 +7,7 @@ solution: Target,standard
 title: 设置量度
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 1. 指定活动目标。
 1. 选择[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![](assets/ab_metrics.png)
+   ![选择成功量度](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
    [!UICONTROL 选择量度]页面列出了可以选择用于您的活动的成功量度。这些成功量度分为以下类别：
 
@@ -39,7 +39,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
    有关更多信息，请参阅[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 1. （可选）添加其他量度。
-1. 完成设置量度时，单击**[!UICONTROL 继续]**。
+1. 完成设置量度时，单击 **[!UICONTROL 继续]**。
 
 
 请注意，在命名或重命名量度时，不允许使用以下字符：
@@ -63,4 +63,4 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 * 了解和构建“转化”、“收入”及“参与度”量度
 * 构建点击跟踪量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=chi_hans)

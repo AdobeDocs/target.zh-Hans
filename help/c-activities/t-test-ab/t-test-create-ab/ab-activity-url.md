@@ -8,7 +8,7 @@ title: 活动 URL
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -23,13 +23,15 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 >
 >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。因此，[!DNL `http://www.adobe.com`] 和 [!DNL `https://www.adobe.com`] 均匹配。
 
-默认情况下，[!UICONTROL 可视化体验编辑器]会打开您在帐户首选项中指定的页面。在活动创建过程中，您可以指定其他页面。
+## 指定不同的URL
 
-要在[!UICONTROL 可视化体验编辑器]打开后显示其他页面，请单击**[!UICONTROL 配置]**齿轮图标，然后选择**[!UICONTROL 页面交付]**。在“活动 URL”字段中输入相应的 URL。
+默认情况下 [!UICONTROL ，Visual Experience Composer] 会打开 [Target帐户首选项中指定的页面](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)。在活动创建过程中，您可以指定其他页面。
 
-![](assets/url-config.png)
+要在[!UICONTROL 可视化体验编辑器]打开后显示其他页面，请单击 **[!UICONTROL 配置]** 齿轮图标，然后选择 **[!UICONTROL 页面交付]**。在“活动 URL”字段中输入相应的 URL。
 
-单击**[!UICONTROL 添加模板规则]，为活动添加更多页面和部分。**
+![“页面交付”对话框](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
+
+单击 **[!UICONTROL 添加模板规则]，为活动添加更多页面和部分。**
 
 其他规则可以基于以下任何一项：
 
@@ -42,13 +44,13 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 可以使用 AND 或 OR 将其他规则连接到活动 URL。您添加的所有规则将使用 AND 进行相互评估。
 
-完成后单击**[!UICONTROL 保存]。**
+完成后单击 **[!UICONTROL 保存]。**
 
 >[!NOTE]
 >
 >如果您输入的 URL 所对应的网站不包含 [!DNL Target] Standard JavaScript 代码，则您将无法选择页面元素。
 
-默认情况下，[!UICONTROL 可视化体验编辑器]不允许更改包含 JavaScript 的元素，如旋转横幅。如果您希望能够使用**[!UICONTROL 可视化体验编辑器]**更改这些元素，可以关闭[!UICONTROL 使用 JavaScript 渲染]。
+默认情况下，[!UICONTROL 可视化体验编辑器]不允许更改包含 JavaScript 的元素，如旋转横幅。如果您希望能够使用 **[!UICONTROL 可视化体验编辑器]** 更改这些元素，可以关闭[!UICONTROL 使用 JavaScript 渲染]。
 
 >[!NOTE]
 >

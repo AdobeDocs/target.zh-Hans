@@ -8,7 +8,7 @@ title: 选择受众
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 81731916926250195b0f70124c8dad0912074e77
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 >
 >除了选择现有受众之外，您还可以合并多个受众来创建临时组合受众，而不是创建新受众。有关更多信息，请参阅[合并多个受众](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-在[!UICONTROL 受众]框中，单击“编辑”图标（三个垂直省略号），然后单击**[!UICONTROL 替换受众]**。
+在[!UICONTROL 受众]框中，单击“编辑”图标（三个垂直省略号），然后单击 **[!UICONTROL 替换受众]**。
 
 默认情况下，所有访客都是您的受众。但是，您可以更改受众。您可以从受众库中选择受众，也可以创建仅限该活动的受众。受众库中包含以前定义的受众，其中包括作为 Target 的一部分预先构建的一些常用受众。您可以从库中选择受众、[创建新受众](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)，或[创建仅限该活动的受众](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。对于未定位特定受众的 A/B 测试，请选择默认设置，即“所有访客”。
 
@@ -39,9 +39,9 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 您可以指定要包含在活动中的符合条件的访客百分比。例如，您可以选择将所有访客中 50% 的访客包含在活动中。
 
-![](assets/audperc.png)
+![受众百分比](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-您还可以选择让 Target[自动分配流量](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+您还可以选择让Target [自动分配流量](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
 ## 培训视频
 
@@ -57,7 +57,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 * 将活动定位到受众
 * 在活动中使用受众进行被动报告
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/17398?captions=chi_hans)
 
 ### 活动工作流 - 定位 (2:14)
 
@@ -68,6 +68,6 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 * 选择流量分配方法
 * 在不同的体验之间分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/17385?captions=chi_hans)
 
 有关详细信息，请参阅[受众](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。

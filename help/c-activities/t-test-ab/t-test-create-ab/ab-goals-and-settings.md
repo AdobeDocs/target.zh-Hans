@@ -7,7 +7,7 @@ title: 目标和设置
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 您可以在“目标和设置”页面上输入有关测试目标的信息。
 
-可用的设置取决于您是使用 Target 还是 Analytics 作为数据源。
+可用的设置取决于您使用Target或 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) 作为数据源。
 
-![](assets/ab_settings.png)
+![“活动设置”对话框](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 ## 活动设置 {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -41,16 +41,19 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 高级设置适用于 A/B 测试的目标量度。
 
-![](assets/Menu_AdvancedSettings.png)
+![“高级设置”菜单](/help/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
 
 >[!NOTE]
 >
 >如果您将 Adobe Analytics 用作报表源，则设置会由 Analytics 服务器来管理。此时，高级设置选项将不可用。
 
+![高级设置](/help/c-activities/t-test-ab/t-test-create-ab/assets/advanced-settings.png)
+
 | 设置 | 描述 |
 |--- |--- |
 | 递增此量度之前必须实现哪些成功量度？ | 要仅在访客之前已实现了其他成功量度，然后又实现此量度时对其进行计数，请使用此选项。例如，仅当访客在转化之前先点击了选件或访问了某个特定页面时，测试转化才可能有效。您可以提供对多个量度的依赖关系，并且还可以灵活选择是否应实现指定的量度才能递增计数。在使一个量度依赖于另一个量度之前，您必须定义两个（或多个）成功量度。通过“添加依赖项”选项，可以指定是否要先实现其他成功量度，然后才能递增该成功量度。要添加依赖项，请执行以下操作：<ul><li>添加其他量度后，单击高级设置。</li><li>单击添加依赖项选项：</li><li>将所需量度从左侧窗格拖放到右侧窗格中，然后单击已实现，以在已实现和未实现之间进行切换。</li><li>添加依赖项后，您可以编辑或删除依赖项。</li></ul> |
 | 用户遇到此目标量度后会出现什么情况？ | 对于访客实现此目标量度后会出现的情况，提供了以下三个选项：<ul><li>选择递增计数并保持用户处于活动中，可指定递增计数的方式。</li><li>选择递增计数、释放用户并允许再次进入，可指定用户再次进入活动后看到的体验。</li><li>选择递增计数、释放用户并阻止再次进入，可指定用户将看到的活动内容的替代内容。</li></ul> |
+| 如何对增量进行计数？ | 增加计数的方式有三个选项：<ul><li>每个参加者一次</li><li>在每个印象上(不包括页面refreshes)</li><li>每次展示</li></ul> |
 
 请参阅[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)，以了解有关高级设置的更多信息。
 
@@ -83,4 +86,4 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 * 在 Adobe Target 中创建 A/B 活动
 * 使用手动拆分或自动流量分配来分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/17391?captions=chi_hans)

@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019年月12日 | [Auto-Target（自动定位）](/help/c-activities/auto-target-to-optimize.md) | 更新了文本和图像。 |
+|  | [Adobe Target 的工作原理](/help/c-intro/how-target-works.md) | 添加了有关在中国使用Target的重要说明。 |
 | 2019年月11日 | [活动创建](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 删除了注释声明，如果您使用A4T，则此说明可用于指定跟踪服务器。 |
 |  | [创建 A/B 测试](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | 更新了文本和图像。 |
 |  | A/B测试： [活动URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | 更新了文本和图像。 |

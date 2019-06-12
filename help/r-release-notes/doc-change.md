@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -23,9 +23,14 @@ source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 | --- | --- | --- |
 | 2019年月11日 | [活动创建](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 删除了注释声明，如果您使用A4T，则此说明可用于指定跟踪服务器。 |
 |  | [创建 A/B 测试](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | 更新了文本和图像。 |
+|  | A/B测试： [活动URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | 更新了文本和图像。 |
+|  | A/B测试： [选择受众](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) | 更新了文本和图像。 |
+|  | A/B测试： [目标和设置](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) | 更新了文本和图像。 |
+|  | A/B测试： [设置指标](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md) | 更新了文本和图像。 |
+|  | [A/B 测试中的多个体验版本](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) | 更新了文本和图像。 |
 |  | [活动](/help/c-activities/activities.md) | 强调您无法恢复已删除的活动。作为最佳实践，您可以存档活动，以便在必要时取消存档。 |
 |  | [从. js1.x升级到. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 删除了在. js2.x中不完全支持Experience Cloud调试器的限制。 |
-|  | [报表](/help/c-reports/reports.md) | 文本更新和新图像。 |
+|  | [报表](/help/c-reports/reports.md) | 更新了文本和图像。 |
 | 2019 年 6 月 7 日 | [使用 Velocity 自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 新增了部分：“情景：使用null-check逻辑创建4x默认Recommendations设计”。 |
 |  | [Adobe Target Standard 和 Premium 的培训视频](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 更新了指向新的Adobe Target教程站点的链接。 |
 |  | [iOS - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | 更新了文本和代码片断。 |

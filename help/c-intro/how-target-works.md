@@ -9,7 +9,7 @@ title: Adobe Target 的工作原理
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: bcf09c30147383ab14cdc253285970e0f03be4b7
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
@@ -105,6 +105,10 @@ Adobe Target 可通过两个 JavaScript 库中的任意一个与网站集成：a
 从距离请求点最近的边缘环境来响应请求（而不是从一处位置响应所有定位请求）可以降低网络/Internet 传输时间的影响。
 
 网络也提供故障转移机制。如果一个边缘节点出现故障，则请求会重定向到下一个最近的节点，以确保不向用户提供默认内容（无法完成请求时的典型备用响应）。
+
+>[!IMPORTANT]
+>
+>[!DNL Adobe Target] 当前在中国没有Edge网络，并且在中国 [!DNL Target] 客户的最终用户性能将继续受到限制。由于防火墙中的“防火长城”和缺少边缘节点的问题，部署的 [!DNL Target] 站点体验将会缓慢呈现，并且页面加载会受到影响。此外， [!DNL Target] 用户界面可能还会遇到滞后情况。
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

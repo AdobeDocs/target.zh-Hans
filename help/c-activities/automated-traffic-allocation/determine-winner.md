@@ -8,7 +8,7 @@ title: 确定入选者
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 使用[!UICONTROL 自动分配]功能时，[!DNL Target] 会在活动页面的顶部显示一个标记，在活动达到最低转化次数，且具有足够的置信度之前，该标记会一直指示“还没有入选者”。
 
-![](assets/auto_traffic_no_winner.png)
+![无入选徽章](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
 在宣布明确的入选者后，[!DNL Target] 会显示“入选者: 体验 X。”
 

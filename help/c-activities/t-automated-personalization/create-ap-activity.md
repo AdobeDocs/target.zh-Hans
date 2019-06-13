@@ -10,7 +10,7 @@ topic: 高级
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
@@ -30,6 +30,10 @@ source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 1. 要使用可视化体验编辑器 (VEC)，请单击 **[!UICONTROL 可视（默认）]**。
 
    如果您希望使用基于表单的体验编辑器，请选择 **[!UICONTROL 表单]**。有关这两种编辑器的更多信息，请参阅[体验](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
+
+   >[!NOTE]
+   >
+   >除了CMS和基于表单的Experience Composer之外，Target还提供单页应用程序CMS和CMS for Mobile Apps。有关各种书写器的更多信息，请参阅 [体验和选件](/help/c-experiences/experiences.md)。
 
 1. 验证或输入活动 URL，然后单击 **[!UICONTROL 下一步]**。
 

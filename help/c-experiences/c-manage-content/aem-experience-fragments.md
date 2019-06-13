@@ -8,7 +8,7 @@ title: AEM 体验片段
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -90,7 +90,7 @@ Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（
 
 2. 在显示的对话框中，选择[!UICONTROL 发布]以将体验片段中的所有资产发布到 [!DNL Target]。
 
-## 在 Target 活动中使用体验片段 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## 在Target活动中使用体验片段 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 执行上述任务后，体验片段会显示在 Target 的“[!UICONTROL 选件]”页面中。
 
@@ -114,7 +114,7 @@ Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（
 
 **通过 VEC 使用体验片段：**
 
-1. 在 Target 中，在[可视化体验编辑器](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中创建或编辑体验时，单击要将 AEM 内容插入到的页面位置，然后选择**[!UICONTROL 与体验片段交换]**，以显示“[!UICONTROL 选择体验片段]”列表。
+1. 在 Target 中，在[可视化体验编辑器](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中创建或编辑体验时，单击要将 AEM 内容插入到的页面位置，然后选择 **[!UICONTROL 与体验片段交换]**，以显示“[!UICONTROL 选择体验片段]”列表。
 
    >[!NOTE]
    >
@@ -124,7 +124,7 @@ Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（
 
    ![](assets/experience_fragment_list.png)
 
-1. 选择所需的体验片段，然后单击**[!UICONTROL 保存]**。
+1. 选择所需的体验片段，然后单击 **[!UICONTROL 保存]**。
 1. 完成活动配置。
 
    有关配置各种类型的活动的更多信息，请参阅以下主题：
@@ -139,13 +139,13 @@ Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（
 
 **通过基于表单的体验编辑器使用体验片段：**
 
-1. 在 Target 中，在[基于表单的体验编辑器](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)中创建或编辑体验时，选择要将 AEM 内容插入到的页面位置，然后选择**[!UICONTROL 更改体验片段]**，以显示“[!UICONTROL 选择体验片段]”列表。
+1. 在 Target 中，在[基于表单的体验编辑器](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)中创建或编辑体验时，选择要将 AEM 内容插入到的页面位置，然后选择 **[!UICONTROL 更改体验片段]**，以显示“[!UICONTROL 选择体验片段]”列表。
 
    ![](assets/experience_fragment_list.png)
 
    “[!UICONTROL 体验片段]”列表显示了在 AEM 中创建的所有内容，这些内容现在可从 Target 中以本地方式使用。
 
-1. 选择所需的体验片段，然后单击**[!UICONTROL 保存]**。
+1. 选择所需的体验片段，然后单击 **[!UICONTROL 保存]**。
 1. 完成活动配置。
 
 ## 培训视频：在 Adobe Target 中使用 AEM 体验片段{#section_C0EDC54063464F41A182492D2045BC64}

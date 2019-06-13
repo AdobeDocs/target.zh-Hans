@@ -6,7 +6,7 @@ title: Adobe Target 产品文档
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
+source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 ---
 
@@ -15,17 +15,17 @@ source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2019年月12日([请参阅更改后的内容](r-release-notes/doc-change.md))**
+**上次更新时间：2019年月13日([请参阅更改后的内容](r-release-notes/doc-change.md))**
 
-以下部分指向本指南中的有用链接，由目标受众根据典型工作职能排列：
+以下部分将向您介绍本指南中的有用链接，这些链接按目标读者基于典型工作职能排列：
 
 ## 所有 [!DNL Target] 用户 {#section_65FA20BA5BC6461E9E21A1B2FAB6393C}
 
 营销人员、开发人员、管理员、分析员和质量保证工程师。
 
-- [目标发行说明](r-release-notes/release-notes.md)：包含有关当前版本的信息、有关影响的已知问题的信息 [!DNL Target]、对此文档的重要更改列表以及以前发行说明的存档。
+- [Target 发行说明](r-release-notes/release-notes.md)：包含有关当前版本的信息、有关影响 [!DNL Target] 的已知问题的信息、此文档的重要更改列表以及以前发行说明的存档。
 - [Target 简介](c-intro/intro.md)：说明 [!DNL Target] 解决方案的核心概念。
-- 将Target与Adobe Experience Cloud集成：介绍如何与 [!DNL Target] 其他 [!DNL Experience Cloud] 解决方案集成，包括 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、 [Experience Cloud受众](/help/c-integrating-target-with-mac/mmp.md)、 [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)和 [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md)。
+- 将 Target 与 Adobe Experience Cloud 集成：说明如何将 [!DNL Target] 与其他 [!DNL Experience Cloud] 解决方案集成，其中包括 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud 受众](/help/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) 和 [Experience Cloud 设备协作](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md)。
 - [Target 故障诊断](r-troubleshooting-target/troubleshooting-target.md)：提供指向本指南中包含的故障诊断信息的链接，包括字符限制和会影响 [!DNL Target] 中活动和其他元素的其他限制的信息（选件大小、受众、配置文件、值、参数等）。
 - [适用于移动设备应用程序的 Target](c-target-mobile-app/target-mobile-app.md)：说明 [!DNL Target] 如何用于移动设备应用程序优化和个性化。
 - [资源和联系信息](cmp-resources-and-contact-information.md)：提供有关其他资源的信息，以帮助您了解 [!DNL Target] 功能以及在需要帮助时如何联系 [!DNL Adobe]。

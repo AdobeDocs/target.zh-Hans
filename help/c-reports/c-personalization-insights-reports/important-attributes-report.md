@@ -9,7 +9,7 @@ title-outputclass: premium
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 badge: premium
 translation-type: tm+mt
-source-git-commit: 903ed43be8a3632ae35c95f45d9f3c708e6d06b2
+source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: 903ed43be8a3632ae35c95f45d9f3c708e6d06b2
 
 ## 访问重要属性报表 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 单击**[!UICONTROL 活动]**，然后在列表中单击所需的 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 活动。
+1. 单击 **[!UICONTROL 活动]**，然后在列表中单击所需的 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 活动。
 
    如果您拥有多个活动，可以通过从[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 报表源]、[!UICONTROL 体验编辑器]、[!UICONTROL 量度类型]和[!UICONTROL 活动来源]下拉列表中选择相应选项来筛选列表。
 
-1. 单击**[!UICONTROL 报表]**。
+1. 单击 **[!UICONTROL 报表]**。
 
    此时会显示“[!UICONTROL 摘要]”报表，该报表提供了有关活动性能的信息，由第一个屏幕图标来表示。其他两个图标表示两个个性化分析报表：自动化区段和重要属性。请注意，自动定位还有一个图形图标，表示“[!UICONTROL 摘要]”报表的图形视图。
 
@@ -41,7 +41,7 @@ source-git-commit: 903ed43be8a3632ae35c95f45d9f3c708e6d06b2
    >
    >[!UICONTROL 重要属性]报表只有在您激活活动至少 15 天后才能使用。在此初始阶段，您将无法访问此报表，也无法单击“[!UICONTROL 重要属性]”图标。15 天过后，如果您的活动中有足够的个性化流量，将可以使用“[!UICONTROL 重要属性]”报表。
 
-1. 激活活动 15 天后，您可以单击**[!UICONTROL 重要属性]图标。**
+1. 激活活动 15 天后，您可以单击 **[!UICONTROL 重要属性]图标。**
 
    ![](assets/model_attribute_ranking.png)
 
@@ -79,10 +79,10 @@ source-git-commit: 903ed43be8a3632ae35c95f45d9f3c708e6d06b2
 
 **我的活动还无法使用个性化分析报表。为什么？**
 
-您的活动可能尚不具备 [!UICONTROL 个性化洞察] 报告的若干原因：
+您的活动可能还不能使用[!UICONTROL 个性化分析]报表的原因包括以下几点：
 
 * 激活活动后不满 15 天。在您启动活动至少 15 天后，自动化区段和重要属性报表才可用。在此初始阶段，您将无法访问这些报表，也无法单击“自动化区段”和“重要属性”图标。
-* 您的活动在指定的时间范围内没有足够的流量。15天过后，假定您的活动中有 [](/help/c-activities/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) 足够的个性化流量来构建个性化模型、自动细分和重要属性报告。
+* 您的活动在指定的时间范围内没有足够的流量。15 天过后，如果您的活动中有[足够的个性化流量](/help/c-activities/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)来构建个性化模型，将可以使用自动化区段和重要属性报表。
 * 您的活动包含收入优化目标。目前，“[!UICONTROL 个性化分析]”仅适用于转化优化目标活动。我们将在未来的版本中添加对收入优化目标活动的支持。
 
 **什么是属性？**
@@ -110,6 +110,18 @@ source-git-commit: 903ed43be8a3632ae35c95f45d9f3c708e6d06b2
 **重要属性报表中的属性重要性得分是什么？**
 
 该报表的“属性重要性排名”部分中的重要性得分为以下方面提供了依据：在算法确定如何将所有访客划分到其识别的区段时，算法用于学习的哪些变量最为重要。它为模型使用的排名靠前的 100 个属性分配了百分比得分。
+
+**为什么在特定自动化区段中一些转化率较低的选件/体验接收的流量比其他选件/体验多？**
+
+有几个潜在原因可能会在自动化细分中看到更多访问转化率/体验的访问，包括：
+
+* 对特定自动化区段的部分或全部选件/体验的查看次数较少。
+* 更低的活动，其中某些优惠或体验没有构建模型。
+* 更低的活动，在这些活动中，模型比其他产品/体验更早构建。例如，假设一个附加模型是在第22天构建的，您查看的数据来自第10-24天。
+* 针对特定优惠的定位规则，限制哪些访客可以查看哪些优惠/体验。
+* 分析报告中没有置信区间。但是，如果转化率足够接近，则该模型可能会提供流量，使其在积分量中更高，但并不是“统计不同”的数字。
+
+了解这款服务如何提供流量会有所帮助。每个人都是根据其总档案来提供的。但是，分析报告对此行为进行了归纳，从而使人们更容易理解。因此，细分不是互斥的。这会导致显示此类型的行为的单个区段，因为同一个人可以出现在多个区段中。
 
 **我可以通过哪些不同的方法来利用个性化分析中的信息？**
 

@@ -9,7 +9,7 @@ topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 badge: premium
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 ---
 
@@ -24,9 +24,11 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 请记住，在个性化算法构建完成之前，Target 会一直随机提供体验。如果选件的个性化模型已准备就绪，且 Target 可以开始交付个性化内容，则该选件旁边会显示复选标记图标。由于只有在个性化模型准备就绪后才会出现提升，因此显示的指示标记可帮助您设置正确的预期。在可视化体验编辑器 (VEC) 中使用流量估算器可以在个性化模型准备就绪时获得相关指示。
 
-1. 在体验编辑器中，单击**[!UICONTROL 流量]**。
+1. 在体验编辑器中，单击 **[!UICONTROL 流量]**。
 
-   此时将打开流量估算器。您可以再次单击**[!UICONTROL 流量]以隐藏流量估算器。**
+   ![流量图标](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
+
+   此时将打开流量估算器。您可以再次单击 **[!UICONTROL 流量]以隐藏流量估算器。**
 
    ![](assets/ap_est.png)
 

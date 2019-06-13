@@ -1,6 +1,6 @@
 ---
 description: 使用可视化体验编辑器，可在启用了 Target 的页面上创建体验定位活动，并在 Target 中修改页面的各个部分。
-seo-description: 使用可视化体验编辑器，可在启用了 Target 的页面上创建体验定位活动，并在 Target 中修改页面的各个部分。
+seo-description: 使用视觉体验书写器在启用Target的页面上创建体验定位活动，并在Adobe Target中修改页面部分。
 seo-title: 创建体验定位活动
 solution: Target
 subtopic: 多变量测试
@@ -8,38 +8,48 @@ title: 创建体验定位活动
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
 
 # 创建体验定位活动{#create-an-experience-targeting-activity}
 
-使用可视化体验编辑器，可在启用了 Target 的页面上创建体验定位活动，并在 Target 中修改页面的各个部分。
+使用 [!UICONTROL 视觉体验书写器] (CMS)在启用Target的页面上创建 [!UICONTROL 体验定位] (XT)活动并修改其中 [!DNL Adobe Target]页面的部分。
 
 1. 在[!UICONTROL 活动]**列表中，单击[!UICONTROL 创建活动]&gt;****[!UICONTROL 体验定位]**。
 
-   ![](assets/xt_select.png)
+   ![创建活动&gt;体验定位](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
-   >可用的活动类型取决于您的 Target 帐户。有些活动类型可能不会显示在列表中。
+   >可用的活动类型取决于您的 Target 帐户。有些活动类型可能不会显示在列表中。例如，自动个性化是 [Target Premium功能](/help/c-intro/intro.md#premium)。
 
-   有关活动类型的信息，请参阅[活动](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。
-1. 输入[活动 URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然后单击**[!UICONTROL 下一步]**。
+   有关活动类型的信息，请参阅 [活动](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) 和 [目标活动类型](/help/c-activities/target-activities-guide.md)。
 
-   ![](assets/form_url.png)
+1. 如有必要，请选择 **[!UICONTROL 视觉(默认)]**。
 
-   如果您的帐户配置了默认 URL，则默认情况下将显示该 URL。您可以将默认 URL 更改为其他 URL。
-
-   如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)。
+   ![“创建体验定位活动”对话框](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
    如果您希望使用基于表单的体验编辑器，请选择相应的选项。请参阅[基于表单的体验编辑器](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html)。
 
+   >[!NOTE]
+   >
+   >除了CMS和基于表单的Experience Composer之外，Target还提供单页应用程序CMS和CMS for Mobile Apps。有关各种书写器的更多信息，请参阅 [体验和选件](/help/c-experiences/experiences.md)。
+
+   如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)。
+
+1. 指定 [活动URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然后单击 **[!UICONTROL “下一步]**”。
+
+   如果您的帐户配置了默认 URL，则默认情况下将显示该 URL。您可以将默认 URL 更改为其他 URL。
+
    此时会打开可视化体验编辑器，其中显示了在 URL 中指定的页面。
+
+   ![CMS中的体验定位活动](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
+
 1. 在提供的空白处键入该活动的名称。
 
-   ![](assets/xt_name.png)
+   ![名称字段](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
    活动名称中不允许使用以下字符：
 
@@ -56,7 +66,7 @@ source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
 
 1. [创建任何新体验](../../../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)（通过更改页面上的元素）。
 
-   体验编辑器（请参阅[体验](../../../c-experiences/experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)）将打开您在帐户首选项中指定的页面。要显示其他页面，请在体验编辑器中单击地球图标，在“选择 URL”框中输入 URL，然后单击**[!UICONTROL 继续]**。如果您输入的 URL 所对应的网站不包含 Target Standard JavaScript 代码，则您将无法选择页面元素。
+
 
    默认情况下，可视化体验编辑器不允许更改包含 JavaScript 的元素，如旋转横幅。如果您希望能够使用可视化体验编辑器更改这些元素，则可以选择禁用 JavaScript。
 
@@ -72,14 +82,14 @@ source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
    >
    >如果您交付的图像来自主页以外的其他来源（例如将一个在 akamai.net 上托管的图像交付到 dell.com），则该图像不会出现在流程图中显示的页面缩览图中。
 
-1. 单击**[!UICONTROL 下一步]**。
+1. 单击 **[!UICONTROL 下一步]**。
 
    此时会打开流程图。
 
    ![](assets/xt_diagram.png)
 
    流程图会引导您完成以下步骤：选择活动的受众和设置体验。
-1. 将鼠标悬停在受众上，单击显示的**[!UICONTROL 编辑]**图标（三个垂直省略号），单击**[!UICONTROL 更改受众]**，然后为活动中的首个体验选择受众。
+1. 将鼠标悬停在受众上，单击显示的 **[!UICONTROL 编辑]** 图标（三个垂直省略号），单击 **[!UICONTROL 更改受众]**，然后为活动中的首个体验选择受众。
 
    ![](assets/xt_change_audience.png)
 
@@ -96,19 +106,19 @@ source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
    >打开受众列表时会在后台自动导入受众，导入的受众为 10 分钟之前的受众。
 
    通过单击显示的[!UICONTROL 编辑]图标（三个垂直省略号），然后单击[!UICONTROL 删除受众]，您可以删除现有受众。
-1. 单击**[!UICONTROL 添加体验定位]**。
+1. 单击 **[!UICONTROL 添加体验定位]**。
 
    >[!NOTE]
    >
    >如果您要将体验定位到某个受众，则必须先选择该受众，然后才能添加体验。此时将显示一则消息提醒您选择受众。
 
-1. (可选)单击**[!UICONTROL 添加]**并设置其他定位体验。
+1. (可选)单击 **[!UICONTROL 添加]** 并设置其他定位体验。
 
    ![](assets/xt_add_xt.png)
 
-   完成此步骤后，单击**[!UICONTROL 继续]。**
+   完成此步骤后，单击 **[!UICONTROL 继续]。**
 1. 指定活动的[目标和设置](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
 
    ![](assets/xt_settings.png)
 
-1. 单击**[!UICONTROL 保存并关闭]**。
+1. 单击 **[!UICONTROL 保存并关闭]**。

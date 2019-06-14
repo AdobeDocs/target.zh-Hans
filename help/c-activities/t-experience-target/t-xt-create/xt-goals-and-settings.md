@@ -8,7 +8,7 @@ title: 目标和设置
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 可用的设置取决于您是使用 [!DNL Target] 还是 [!DNL Analytics] 作为数据源。
 
-![](assets/ab_settings.png)
+![“活动设置”页面](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
 
 ## 活动设置 {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -76,7 +76,7 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 >
 >在活动启动后，为保持报表一致，您不能更改报表源。
 
-### 目标
+### 目标量度
 
 选择访客为实现目标而执行的操作。例如，选择一个“转化”量度，然后设置相应参数以确定何时可取得成功。
 
@@ -104,11 +104,15 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 如果选择 Analytics 作为报表解决方案，则此设置不可用。将会应用为 Analytics 报表包定义的受众。
 
+## 其他元数据
+
+键入有关您活动的任何信息，以便您自己或其他团队成员可随时使用这些信息。“注释”窗格的大小可以调整。
+
 ## 高级设置 {#section_E2FE441AFB324E498793ABB025ED9974}
 
 高级设置适用于体验定位的目标量度。
 
-![](assets/Menu_AdvancedSettings.png)
+![高级设置](/help/c-activities/t-experience-target/t-xt-create/assets/Menu_AdvancedSettings-new.png)
 
 >[!NOTE]
 >
@@ -118,7 +122,7 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 ### 递增此量度之前必须实现哪些成功量度？
 
-要仅在访客之前已实现了其他成功量度，然后又实现此量度时对其进行计数，请使用此选项。例如，仅当访客在转化之前先点击了选件或访问了某个特定页面时，测试转化才可能有效。
+要仅在访客之前已实现了其他成功量度，然后又实现此量度时对其进行计数，请使用此选项。例如，如果访客单击选件或在转换前到达特定页面，测试转换可能只有有效。
 
 您可以提供对多个量度的依赖关系，并且还可以灵活选择是否应实现指定的量度才能递增计数。
 
@@ -128,15 +132,14 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 要添加依赖项，请执行以下操作：
 
-1. 添加其他量度后，单击高级设置。
-2. 单击添加依赖项选项：
+1. 添加其他指标后，单击 **[!UICONTROL 高级设置]**。
+2. 单击 **[!UICONTROL 添加依赖关系]**：
 
-   ![](assets/add_dependency.png)
+   ![添加依赖关系链接](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
 3. 将所需量度从左侧窗格拖放到右侧窗格中，然后单击已实现，以在已实现和未实现之间进行切换。
 
-   ![](assets/add_dependency_reached.png)
-
+   ![“添加量度依赖关系”对话框](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
 
 添加依赖项后，您可以编辑或删除依赖项。
 
@@ -150,14 +153,6 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 请参阅[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)，以了解有关高级设置的更多信息。
 
-## 其他元数据 {#section_2E8917BEFB954480A4206B9E9E917F80}
-
-以下设置可供使用：
-
-### 注释
-
-键入有关您活动的任何信息，以便您自己或其他团队成员可随时使用这些信息。“注释”窗格的大小可以调整。
-
 ## 培训视频：活动设置 (3:02)
 
 以下视频包含有关活动设置的信息。
@@ -168,4 +163,4 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 * 添加报表受众以创建报表筛选器
 * 输入活动的注释
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=chi_hans)

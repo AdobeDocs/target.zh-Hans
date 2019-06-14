@@ -1,13 +1,13 @@
 ---
 description: 可在体验定位 (XT) 活动中使用量度来确定访问何时被视为成功。
 keywords: 体验定位;XT;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
-seo-description: 可在体验定位 (XT) 活动中使用量度来确定访问何时被视为成功。
+seo-description: 使用Adobe Target Experience Targeting(XT)活动中的指标确定访问成功的时间。
 seo-title: 设置量度
 solution: Target,standard
 title: 设置量度
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 1. 指定活动目标。
 1. 选择[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![](assets/ab_metrics.png)
+   ![选择成功量度](/help/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)
 
    [!UICONTROL 选择量度]页面列出了可以选择用于您的活动的成功量度。这些成功量度分为以下类别：
 
@@ -39,7 +39,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
    有关更多信息，请参阅[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 1. （可选）添加其他量度。
-1. 完成设置量度时，单击**[!UICONTROL 继续]**。
+1. 完成设置量度时，单击 **[!UICONTROL 继续]**。
 请注意，在命名或重命名量度时，不允许使用以下字符：
 
    | 字符 | 描述 |
@@ -61,4 +61,4 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 * 了解和构建“转化”、“收入”及“参与度”量度
 * 构建点击跟踪量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=chi_hans)

@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,8 +21,13 @@ source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
 
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
-| 2019年月14日 | [创建体验](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | 更新了文本和图像。 |
+| 2019年月14日 | [体验定位](/help/c-activities/t-experience-target/experience-target.md) | 添加了使用案例方案。 |
 |  | [创建体验定位活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | 更新了文本和图像。 |
+|  | XT： [活动URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | 更新了文本。 |
+|  | XT： [创建体验](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | 更新了文本和图像。 |
+|  | [在体验定位中切换体验](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md) | 更新了文本和图像。 |
+|  | XT： [目标和设置](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md) | 更新了文本和图像。 |
+|  | XT： [设置指标](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md) | 更新了文本和图像。 |
 | 2019 年 6 月 13 日 | [重要属性报表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 新增了常见问题解答：“为什么某些优惠/体验比特定自动化区段的其他优惠/体验更低，转化率更低？” |
 |  | [创建自动个性化活动](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 更新了文本和图像。 |
 |  | [估算成功所需流量](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | 添加了新图像。 |

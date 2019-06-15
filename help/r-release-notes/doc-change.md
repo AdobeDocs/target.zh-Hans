@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
 
 ---
 
@@ -21,6 +21,9 @@ source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 6 月 15 日 | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 进行了细微的文本编辑。 |
+|  | [多变量测试最佳实践](/help/c-activities/c-multivariate-testing/best-practices.md) | 进行了细微的文本编辑。 |
+|  | [规划多变量测试](/help/c-activities/c-multivariate-testing/plan-mvt.md) | 进行了细微的文本编辑。 |
 | 2019年月14日 | [体验定位](/help/c-activities/t-experience-target/experience-target.md) | 添加了使用案例方案。 |
 |  | [创建体验定位活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | 更新了文本和图像。 |
 |  | XT： [活动URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | 更新了文本。 |
@@ -216,7 +219,7 @@ source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 |  | [“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md) | 新主题。 |
 |  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | <ul><li>添加了有关使用[!UICONTROL 此项前插入、此项后插入或替换为]操作向 A/B 测试或体验定位活动中的体验添加推荐的信息。</li><li>添加了有关使用[!UICONTROL 此项前插入或此项后插入]操作将 AEM 体验片段添加到体验的信息。</li></ul> |
 |  | [可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 新主题。 |
-|  | [隐私和《通用数据保护条例》](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)(GDPR) | 有关对选择加入功能以及 at.js 1.7.0 和 at.js 2.x 所做的次要编辑及相关信息介绍。 |
+|  | [隐私和《通用数据保护条例》](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR) | 有关对选择加入功能以及 at.js 1.7.0 和 at.js 2.x 所做的次要编辑及相关信息介绍。 |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关 Target API 的已知问题。 |
 |  | [实体属性](/help/c-recommendations/c-products/entity-attributes.md) | 添加了说明所提供的实体属性值会在 61 天后过期的注释。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：19.2.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |

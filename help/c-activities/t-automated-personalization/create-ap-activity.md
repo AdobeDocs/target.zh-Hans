@@ -10,7 +10,7 @@ topic: 高级
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -29,11 +29,17 @@ source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 1. 要使用可视化体验编辑器 (VEC)，请单击 **[!UICONTROL 可视（默认）]**。
 
-   如果您希望使用基于表单的体验编辑器，请选择 **[!UICONTROL 表单]**。有关这两种编辑器的更多信息，请参阅[体验](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
+   如果您希望使用基于表单的体验编辑器，请选择[!UICONTROL 表单]。有关更多信息，请参阅 [基于表单的Experience Composer](/help/c-experiences/form-experience-composer.md) 。
 
    >[!NOTE]
    >
    >除了CMS和基于表单的Experience Composer之外，Target还提供单页应用程序CMS和CMS for Mobile Apps。有关各种书写器的更多信息，请参阅 [体验和选件](/help/c-experiences/experiences.md)。
+   >
+   >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
+   >
+   >前面的插图中的 [!UICONTROL “选择工作场所] ”选项是 [Target Premium](/help/c-intro/intro.md) 功能。如果您看不到此选项，则您的组织有Target Standard许可证。]
+
+1. (视情况而定)如果您是Target Premium客户，请 [选择工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 1. 验证或输入活动 URL，然后单击 **[!UICONTROL 下一步]**。
 
@@ -45,7 +51,6 @@ source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
    ![“创建自动个性化活动”对话框](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)。
 1. 要命名活动，请单击“名称”字段并键入活动名称。
 
    ![名称字段](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)

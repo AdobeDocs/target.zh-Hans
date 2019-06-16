@@ -8,14 +8,14 @@ title: 多变量测试最佳实践
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
 
 # 多变量测试最佳实践{#multivariate-test-best-practices}
 
-帮助您提高性能、避免问题以及纠正在创建和运行Multivariate(MVT) Test活动时可能发生的已知问题的提示 [!DNL Adobe Target]。
+帮助您提高性能、避免问题以及纠正在创建和运行多变量测试(MVT)活动时可能发生的已知问题的提示 [!DNL Adobe Target]。
 
 ## 规划 {#section_4D4A1F6226F042379BF48DB753608579}
 

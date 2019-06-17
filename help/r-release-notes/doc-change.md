@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
-| 2019年月16日 | 创建多变量测试 | 更新了文本和图像。 |
+| 2019年月16日 | [创建多变量测试](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | 更新了文本和图像。 |
 | 2019 年 6 月 15 日 | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 进行了细微的文本编辑。 |
 |  | [多变量测试最佳实践](/help/c-activities/c-multivariate-testing/best-practices.md) | 进行了细微的文本编辑。 |
 |  | [规划多变量测试](/help/c-activities/c-multivariate-testing/plan-mvt.md) | 进行了细微的文本编辑。 |

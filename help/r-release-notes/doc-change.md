@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -21,6 +21,15 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019年月17日 | [Activity URL（活动 URL）](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md) | 更新了文本和图像。 |
+|  | [创建组合](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | 更新了文本和图像。 |
+|  | [预览多变量测试体验](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | 更新了文本和图像。 |
+|  | [目标和设置](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md) | 更新了文本和图像。 |
+|  | [设置量度](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md) | 更新了文本和图像。 |
+|  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 更新了文本和图像。 |
+|  | [编辑活动或另存为草稿](/help/c-activities/edit-activity.md) | 更新了文本和图像。 |
+|  | [活动更改日志](/help/c-activities/change-log.md) | 更新了文本和图像。 |
+|  | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 更新了文本和图像。 |
 | 2019年月16日 | [创建多变量测试](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | 更新了文本和图像。 |
 | 2019 年 6 月 15 日 | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 进行了细微的文本编辑。 |
 |  | [多变量测试最佳实践](/help/c-activities/c-multivariate-testing/best-practices.md) | 进行了细微的文本编辑。 |

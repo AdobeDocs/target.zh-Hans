@@ -9,7 +9,7 @@ title: 内容交付故障诊断
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -30,13 +30,15 @@ source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 要检索授权令牌，请执行以下操作：
 
-1. 单击**[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]**。
+1. 单击 **[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]**。
 1. 选择 **[!UICONTROL mbox.js]** 或 **[!UICONTROL at.js]**。
-1. 单击**[!UICONTROL 生成授权令牌]**。
+1. 单击 **[!UICONTROL 生成授权令牌]**。
 
-   ![](assets/gen-auth-token.png)
+   ![生成授权令牌](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
 
 1. 将生成的令牌作为一个参数添加到 URL 中，以启用任一高级调试工具。
+
+   ![授权令牌](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
@@ -148,7 +150,7 @@ Target 不再支持 IE 8。
 
 ## mbox不在我的网站上触发。
 
-如果使用无效的doc类型，则at. js不会触发Target mbox。at. js需要HTML文档类型。
+如果使用无效的doc类型，则at. js不会触发Target mbox。at.js 需要 HTML 5 doctype。
 
 ## 培训视频
 
@@ -156,12 +158,12 @@ Target 不再支持 IE 8。
 
 ### 添加扩展
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=chi_hans)
 
 ### Target 基本调试
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=chi_hans)
 
 ### Mbox 跟踪
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=chi_hans)

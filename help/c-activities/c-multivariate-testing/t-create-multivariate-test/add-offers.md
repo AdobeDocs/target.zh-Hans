@@ -1,26 +1,26 @@
 ---
-description: 可使用可视化体验编辑器创建要包含在测试中的选件。
-seo-description: 可使用可视化体验编辑器创建要包含在测试中的选件。
-seo-title: 在Adobe Target中创建组合
+description: 使用Adobe Target中的Visual Experience Composer(CMS)创建要包含在Multivariate Test(MVT)中的选件。
+seo-description: 使用Adobe Target中的Visual Experience Composer(CMS)创建要包含在Multivariate Test(MVT)中的选件。
+seo-title: 使用Adobe Target在多变量测试(MVT)中创建组合
 title: 创建组合
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
+source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 ---
 
 
 # 创建组合{#create-combinations}
 
-可使用可视化体验编辑器创建要包含在测试中的选件。
+使用Adobe Target中的Visual Experience Composer(CMS)创建要包含在Multivariate Test(MVT)中的选件。
+
+有关使用CMS创建和编辑选件的详细信息，请参阅 [视觉体验书写器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
 >[!NOTE]
 >
 >选择页面上的对象时，您可以单击 **[!UICONTROL 展开选定内容]**，以便在除了最初选定的元素之外，还选择父元素。选择任意父元素时，该元素的所有子元素均会自动选定。您可以多次展开选定内容。
-
-使用可视化体验编辑器，可以编辑选件、选件名称以及位置名称。做出更改后，会出现一个叠加图以显示何处发生了更改。
-
-![](assets/overlay.png)
+>
+>您还可以使用 [DOM路径](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 导航元素。
 
 ## 图像选件 {#section_A48333211DB149ED926AE467D0032914}
 
@@ -28,11 +28,11 @@ source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
 
 1. 单击页面上的某个图像，然后选择 **[!UICONTROL 更改图像]**。
 
-   ![](assets/changeimage.png)
+   ![更改图像选项](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
 1. 选择要包含在测试中的所有图像，然后单击 **[!UICONTROL 保存]**。
 
-   ![](assets/addimage.png)
+   ![选择用于添加图像的“内容”对话框](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
 每个图像会成为该位置的独立体验。
 
@@ -42,15 +42,11 @@ source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
 
 1. 单击页面上的某个文本/HTML 选件，然后单击 **[!UICONTROL 更改文本/HTML]**。
 
-   ![](assets/changehtml.png)
+   ![更改文本/HTML](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
 
 1. 单击 **[!UICONTROL 添加文本/HTML 选件]，为选件提供名称，然后键入或粘贴该文本/HTML 选件的代码。**
 
-   ![](assets/editoffers.png)
-
-   >[!NOTE]
-   >
-   >Internet Explorer 10 不支持 HTML5 输入占位符。因此，如果您使用的是 IE 10，则在输入内容时“添加内容”占位符文本会一直保留在“文本”字段中。
+   ![编辑选件](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
    重复执行上述步骤以添加任何其他要包含的文本/HTML 选件。
 

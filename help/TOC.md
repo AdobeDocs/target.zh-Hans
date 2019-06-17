@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Adobe Target 帮助
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 990c4fee49fcca4ad52362059259968ef7799183
+source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
 
 ---
 
@@ -133,7 +133,6 @@ source-git-commit: 990c4fee49fcca4ad52362059259968ef7799183
          + [Android - 设置移动设备应用程序](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - 设置移动设备应用程序](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [在移动设备 VEC 中设置点击跟踪](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-         + [Host](/help/c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md)
    + 服务器端：实施 Target {#server-side}
       + [服务器端：实施 Target 概述](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [从 Target 旧版 API 迁移到 Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)

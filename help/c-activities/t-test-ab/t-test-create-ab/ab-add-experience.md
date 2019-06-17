@@ -7,7 +7,7 @@ solution: Target
 title: 添加体验
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -39,7 +39,7 @@ Visual Experience Composer(CMS)提供可视界面，可用于添加和编辑页�
    >
    >如果您交付的图像来自主页以外的其他来源（例如将一个在 akamai.net 上托管的图像交付到 dell.com），则该图像不会出现在流程图中显示的页面缩览图中。
 
-1. 完成设计体验后，单击 **[!S相应的选项]** 。
+1. 完成设计体验后，单击 **[!UICONTROL 保存]** 。
 
 ## 重命名体验
 

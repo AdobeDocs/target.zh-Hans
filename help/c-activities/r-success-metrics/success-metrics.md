@@ -7,7 +7,7 @@ solution: Target
 title: 成功量度
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -54,11 +54,11 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 >
 >如果您将 [!DNL Adobe Analytics] 用作报表源，则设置会由 [!DNL Analytics] 服务器来管理。此时，高级设置选项将不可用。
 
-![](assets/Menu_AdvancedSettings.png)
+![高级设置下拉列表](/help/c-activities/r-success-metrics/assets/Menu_AdvancedSettings.png)
 
 您还可以使用高级设置来创建具有依赖关系的成功量度，即仅当访客先实现某个量度后，另一个量度才会递增。
 
-![](assets/UI_dep_success_metric.png)
+![添加依赖关系](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 例如，仅当访客在转化之前先点击了选件或访问了某个特定页面时，测试转化才可能有效。
 
@@ -87,4 +87,4 @@ A/B 测试活动、自动个性化活动、体验定位活动和多变量测试�
 * 了解和构建“转化”、“收入”及“参与度”量度
 * 构建点击跟踪量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=chi_hans)

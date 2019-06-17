@@ -7,7 +7,7 @@ solution: Target,standard
 title: 设置量度
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 1. 指定活动目标。
 1. 选择[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![](assets/mvt_metrics.png)
+   ![设置指标列表](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
 
    [!UICONTROL 选择量度]页面列出了可以选择用于您的活动的成功量度。这些成功量度分为以下类别：
 
@@ -37,9 +37,9 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
    正确配置成功量度对于确保获得您预期的数据至关重要。
 
-   有关更多信息，请参阅[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+   有关更多信息，请参阅 [成功指标](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 1. （可选）添加其他量度。
-1. 完成设置量度时，单击**[!UICONTROL 继续]**。
+1. 完成设置量度时，单击 **[!UICONTROL 继续]**。
 请注意，在命名或重命名量度时，不允许使用以下字符：
 
    | 字符 | 描述 |
@@ -61,4 +61,4 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 * 了解和构建“转化”、“收入”及“参与度”量度
 * 构建点击跟踪量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=chi_hans)

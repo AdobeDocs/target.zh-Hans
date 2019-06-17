@@ -10,7 +10,7 @@ topic: 高级
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -23,11 +23,9 @@ source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
    ![创建活动：自动个性化](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. 指定所需的渠道：Web。
-
-   您还可以选择“移动设备应用程序”、“电子邮件”或“其他/API”。
-
 1. 要使用可视化体验编辑器 (VEC)，请单击 **[!UICONTROL 可视（默认）]**。
+
+   ![“创建自动个性化活动”对话框](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
    如果您希望使用基于表单的体验编辑器，请选择[!UICONTROL 表单]。有关更多信息，请参阅 [基于表单的Experience Composer](/help/c-experiences/form-experience-composer.md) 。
 
@@ -48,8 +46,6 @@ source-git-commit: c6085fae6428cb837eed6eadd778140687348817
    >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。因此，[!DNL `http://www.adobe.com`] 和 [!DNL `https://wwww.adobe.com`] 均匹配。
 
    此时会在可视化体验编辑器中打开具有指定 URL 的页面。
-
-   ![“创建自动个性化活动”对话框](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
 1. 要命名活动，请单击“名称”字段并键入活动名称。
 

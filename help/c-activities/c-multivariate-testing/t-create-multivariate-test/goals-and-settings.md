@@ -8,7 +8,7 @@ title: 目标和设置
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -104,7 +104,7 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 高级设置适用于多变量测试的目标量度。
 
-![](assets/Menu_AdvancedSettings.png)
+![“高级设置”菜单](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
 >[!NOTE]
 >
@@ -122,15 +122,14 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 要添加依赖项，请执行以下操作：
 
-1. 添加其他量度后，单击高级设置。
+1. 添加其他指标后，单击 **[!UICONTROL 高级设置]**。
 2. 单击添加依赖项选项：
 
-   ![](assets/add_dependency.png)
+   ![添加依赖关系](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
-3. 将所需量度从左侧窗格拖放到右侧窗格中，然后单击已实现，以在已实现和未实现之间进行切换。
+3. 将所需量度从左侧窗格拖放到右侧窗格中，然后单击 **[!UICONTROL 已实现]**，以在已实现和未实现之间进行切换。
 
-   ![](assets/add_dependency_reached.png)
-
+   ![已达到依赖关系](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
 添加依赖项后，您可以编辑或删除依赖项。
 
@@ -166,7 +165,7 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 * 添加报表受众以创建报表筛选器
 * 输入活动的注释
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=chi_hans)
 
 ### 创建多变量测试 (9:25)
 
@@ -175,4 +174,4 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 * 定义和设计多变量测试
 * 创建多变量测试
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/17395?captions=chi_hans)

@@ -7,7 +7,7 @@ solution: Target
 title: 定位库
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -22,22 +22,22 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 >
 >Target Classic 使用定位表达式允许您一次创建多个复杂的目标，然后将其反复用于不同的活动、体验等内容。Target Standard/Premium 中未提供此功能。
 
-1. 在 [!DNL Target] 界面中，单击**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
+1. 在 [!DNL Target] 界面中，单击 **[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
-1. 单击**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 定位库]**。
+1. 单击 **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 定位库]**。
 
-   ![](assets/target_library.png)
+   ![Target 库](assets/target_library.png)
 
-1. 单击**[!UICONTROL 选择]**，然后选择一个预先构建的定位规则。
+1. 单击 **[!UICONTROL 选择]**，然后选择一个预先构建的定位规则。
 
    预先构建的定位规则包括：Windows 操作系统、平板电脑设备、Safari 浏览器、回访访客、从 Google 引荐的访客，等等。
 
-   当用户代理包含以下任一字符串（其中一些字符串代表设备型号）时，用户便已符合预定义受众“平板电脑设备”的条件。您不必为这些设备创建自定义定位规则。
+   预定义的受众“平板电脑设备”在用户代理包含下列字符串之一(某些字符串数量为设备)时已有资格。您不必为这些设备创建自定义定位规则。
 
    Kindle、Silk、iPad、Sony Tablet、TF101、GT-P1000、GT-P1000R、GT-P1000M、SGH-T849、SHW-M180S、GT-I9000T、BNTV250 和 Tablet PC。
 
-1. （可选）单击**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
-1. 单击**[!UICONTROL 保存]**。
+1. （可选）单击 **[!UICONTROL 添加规则]，然后为受众设置更多规则。**
+1. 单击 **[!UICONTROL 保存]**。
 
 ## 培训视频：创建受众
 
@@ -46,4 +46,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 创建受众
 * 定义受众类别
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hans)

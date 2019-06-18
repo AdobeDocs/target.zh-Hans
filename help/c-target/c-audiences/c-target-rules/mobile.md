@@ -1,21 +1,21 @@
 ---
-description: 可根据移动设备、设备类型、设备供应商、屏幕大小（按像素）等参数定位移动设备。
+description: 根据移动设备、设备类型、设备供应商、屏幕尺寸(按像素)等参数创建受众，以定位移动设备。
 keywords: 定位;移动设备;Target 移动设备;DeviceAtlas;iPhone;iPhone 机型;Device Atlas;displaywidth;显示屏宽度;显示屏高度;设备类型;displayheight;手机;平板电脑;设备型号
-seo-description: 可根据移动设备、设备类型、设备供应商、屏幕大小（按像素）等参数定位移动设备。
-seo-title: 移动设备
+seo-description: 在Adobe Target中创建受众，根据移动设备、设备类型、设备供应商、屏幕尺寸(按像素)等参数定位移动设备。
+seo-title: Adobe Target中的移动受众
 solution: Target
 title: 移动设备
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # 移动设备{#mobile}
 
-可根据移动设备、设备类型、设备供应商、屏幕大小（按像素）等参数定位移动设备。
+根据移动设备、设备类型、设备供应商、屏幕尺寸(按像素)等参数创建受众，以定位移动设备。
 
 例如，您可能希望向从手机访问您页面和从计算机访问您页面的用户显示不同的内容。在这种情况下，您可以选择“移动设备”受众，再选择 **[!UICONTROL 是移动电话]选项，然后添加任何对您而言重要的特定信息，例如手机类型、屏幕大小（以像素为单位）等等。**
 
@@ -44,9 +44,6 @@ source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 1. 在 [!DNL Target] 界面中，单击 **[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
 1. 单击 **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 移动设备]**。
-
-   ![](assets/target_mobile.png)
-
 1. 单击 **[!UICONTROL 选择]**，然后选择以下选项之一：
 
    * 设备营销名称
@@ -62,7 +59,7 @@ source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
    >
    >由于iOS12.2中引入的新更改，使用指定iPhone型号的设备营销名称和设备模型定义的受众会受到影响。我们不再将装有iOS12.2的iPhone定位到它们。但是，如果这些用户没有iOS12.2，则iPhone型号定位继续正常工作。
    >
-   >iOS12.2更新不会影响下列型号的识别，因为这些模型不支持升级到iOS12.2：iPhone、iPhone3 G、iPhone3 GS、iPhone4、iPhone4 s、iPhone5、iPhone5 c、iPad、iPad、iPad/Retina显示屏、iPad Retina(4th Generation)、iPod Touch和iPod Touch5。
+   >iOS12.2更新不会影响下列型号的识别，因为这些模型不支持升级到iOS12.2：iPhone、iPhone3G、iPhone3GS、iPhone4、iPhone4s、iPhone5、iPhone5c、iPad、iPad、iPad/Retina显示屏、iPad Retina(4th Generation)、iPod Touch和iPod Touch5。
 
    >[!NOTE]
    >
@@ -70,6 +67,10 @@ source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 1. （可选）单击 **[!UICONTROL 添加规则]，然后为受众设置更多规则。**
 1. 单击 **[!UICONTROL 保存]**。
+
+下图显示了使用由Google制造的移动设备制造的设备的受众。
+
+![瞄准移动设备](assets/target_mobile.png)
 
 ## 培训视频：创建受众
 

@@ -8,7 +8,7 @@ title: 活动 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: af03123e48376532cbbd150b2679eb855a7d6513
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -21,21 +21,21 @@ source-git-commit: af03123e48376532cbbd150b2679eb855a7d6513
 
 通过活动 QA，您能够在启动 Target 活动之前，对其进行全面的测试。活动 QA 具备以下功能：
 
-* 可与团队成员共享链接，不论体验或活动是否进行了更新，这些链接永远不会更改，也不需要重新生成。这使您能够完全测试整个用户旅程中的活动。
+* 可与团队成员共享链接，不论体验或活动是否进行了更新，这些链接永远不会更改，也不需要重新生成。借助此功能，您可以在整个用户历程中全面测试您的活动。
 * 可选择遵守受众条件，在对体验外观进行 QA 时，营销人员可以选择测试定位标准或忽略定位标准，而不一定非要满足受众条件.
-* 获取QA报告，以便营销人员能够确认指标是否按预期递增，QA报告数据与生产报告(非A4T报告)分开。
+* 可捕获 QA 报表，以便营销人员能够确认量度可按预期递增，并且 QA 报表数据可与生产报表（对于非 A4T 报表）分开保存。
 * 能够单独预览体验，或结合其他满足交付标准（页面/mbox/受众）的实时活动一起预览体验。
-* 整个用户旅程的QA的功能。在活动 QA 过程中，只需使用 QA 链接访问网站一次，即可浏览整个网站。您可以一直停留在“活动 QA”模式中，直到您结束会话或使用[Target QA 书签](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)强制自己退出此模式。如果您的活动涉及多个网页，此功能会特别有用。
+* 能够对整个用户历程进行 QA。在活动 QA 过程中，只需使用 QA 链接访问网站一次，即可浏览整个网站。您可以一直停留在“活动 QA”模式中，直到您结束会话或使用[Target QA 书签](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)强制自己退出此模式。如果您的活动涉及多个网页，此功能会特别有用。
 
 ## 访问和共享 QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
 1. 在活动的“[!UICONTROL 概述]”页面（适用于除自动个性化以外的所有其他活动类型）中，单击 **[!UICONTROL 活动 QA]链接。**
 
-   ![](assets/qa_link.png)
+   ![活动QA链接](assets/qa_link.png)
 
 1. 配置以下设置：
 
-   ![](assets/qa_link_config.png)
+   ![QA链接配置选项](assets/qa_link_config.png)
 
    * **匹配受众规则以查看体验：** 有时，您可能想要确认受众匹配是否可以正常工作。在其他时候，您可能只想要检查活动的外观。如果将此设置切换到“开”位置，则测试人员必须满足定位要求，才有资格查看体验。对于体验定位 (XT) 活动，只提供了一个活动 URL。您所看到的体验取决于您符合哪一个定位规则。
 
@@ -55,7 +55,7 @@ source-git-commit: af03123e48376532cbbd150b2679eb855a7d6513
 
    使用每个活动链接 URL（体验 A、体验 B 及其他体验的链接），您可以从相应的体验开启用户历程。您可以单击为某个体验生成的 URL，然后按常规方式浏览网站，以查看多个页面上的体验（如果存在多个页面）。每个体验只会生成一个 URL，即使体验涉及多个页面（模板测试或多页面测试）也是如此。由于活动 QA 具有粘滞性，因此您可以通过浏览网站来查看其他页面。
 
-1. 要查看从活动链接 URL 生成的报表，请单击活动的 **[!UICONTROL 报表]** 页面，单击 **[!UICONTROL 设置]** 图标 (![](assets/icon_gear.png))，然后从 **[!UICONTROL 环境]** 下拉列表中选择 **[!UICONTROL QA 模式]** 。
+1. 要查看从活动链接 URL 生成的报表，请单击活动的 **[!UICONTROL 报表]** 页面，单击 **[!UICONTROL 设置]** 图标 (![](assets/icon_gear.png))，然后从 **[!UICONTROL 环境]** 下拉列表中选择 **[!UICONTROL QA 模式]**。
 
 ## 注意事项 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
@@ -68,9 +68,9 @@ source-git-commit: af03123e48376532cbbd150b2679eb855a7d6513
 
    您也可以手动强制自己退出该模式，方法是在网站上使用具有空值的 `at_preview_token` 参数（例如 `https://www.mysite.com/?at_preview_token=`）来加载页面。
 
-* 如果在](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)基于表单的编辑器[中创建活动细化时指定了“URL is”，或者](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)在可视化体验编辑器中指定了页面交付选项[，则 QA URL 将无效，因为活动 QA 会附加 URL 参数。要解决此问题，请单击 QA URL 以转到您的网站，并从该 URL 中删除附加的参数，然后再加载新的 URL。
+* 如果在创建活动时指定了“URL is”[基于表单的编辑器中的细化](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)或[可视化体验编辑器中的页面交付选项](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，则 QA URL 将无效，因为活动 QA 会附加 URL 参数。要解决此问题，请单击 QA URL 以转到您的网站，并从该 URL 中删除附加的参数，然后再加载新的 URL。
 * 为使活动 QA 正常运行，必须在 Safari 浏览器中启用第三方 Cookie。
-* 如果活动使用多个体验受众(例如，一个包含在同一活动中的美国和英国站点)，则不会为上述四个组合生成QA链接(体验A/US站点、体验A/英国站点、体验B/英国站点、体验B/英国站点)。而是只会创建两个 QA 链接（体验 A 和体验 B），且用户必须符合相应受众条件才能看到相应的页面。例如，英国的 QA 用户将无法看到美国网站。
+* 如果一个活动使用了多个体验受众（例如同一个活动中同时包含一个美国网站和一个英国网站），则不会为存在的四种组合（体验 A/美国网站，体验 A/英国网站，体验 B/美国网站，体验 B/英国网站）各生成一个 QA 链接。而是只会创建两个 QA 链接（体验 A 和体验 B），且用户必须符合相应受众条件才能看到相应的页面。例如，英国的 QA 用户将无法看到美国网站。
 * 所有 `at_preview` 参数和值均已进行 URL 编码。在大多数情况下，一切都会按预期运行；但是，有些客户使用的负载平衡器或 Web 服务器可能会尝试对查询字符串参数再次进行编码。
 
    由于此双重编码过程，我们尝试对 `at_preview_token` 进行解码时，Target 将无法提取正确的令牌值，从而导致无法正常预览。
@@ -86,7 +86,7 @@ source-git-commit: af03123e48376532cbbd150b2679eb855a7d6513
    | `at_preview_listed_activities_only` | 布尔 (true/false) | 默认值：false | 如果为“true”，则会处理 `at_preview_index` 参数中指定的所有营销活动。<br>如果为“false”，则会处理页面中的所有营销活动，即使未在预览令牌中指定这些营销活动也是如此。 |
    | `at_preview_evaluate_as_true_audience_ids` | 字符串 | 留空 | 在 mbox 请求范围内应始终（在定位和报表级别）计算为“true”的 segmentId-s 的下划线（“_”）分隔列表 |
    | `_AT_Debug` | 字符串 | 窗口或控制台 | 控制台日志记录或新窗口。 |
-   | `adobe_mc_ref` | 可将默认页面的引荐 URL 传递到新页面。如果使用了 `AppMeasurement.js` 版本 2.1（或更高版本），则 [!DNL Adobe Analytics] 会将此参数值用作新页面上的引荐 URL。 |
-   | `adobe_mc_sdid` | 可将 [!DNL Supplemental Data Id] (SDID) 和 [!DNL Experience Cloud Org Id] 从默认页面传递到新页面，以便 Analytics for Target (A4T) 能够将默认页面上的 Target 请求与新页面上的 Analytics 请求“拼合”到一起。 |
+   | `adobe_mc_ref` |  |  | 可将默认页面的引荐 URL 传递到新页面。如果使用了 `AppMeasurement.js` 版本 2.1（或更高版本），则 [!DNL Adobe Analytics] 会将此参数值用作新页面上的引荐 URL。 |
+   | `adobe_mc_sdid` |  |  | 可将 [!DNL Supplemental Data Id] (SDID) 和 [!DNL Experience Cloud Org Id] 从默认页面传递到新页面，以便 Analytics for Target (A4T) 能够将默认页面上的 Target 请求与新页面上的 Analytics 请求“拼合”到一起。 |
 
-* Target QA模式UI仅显示多页活动中体验的第一个URL。假设您正在创建旅程测试，您将从URL移动到URL2。但是，如果要独立转至URL2，复制针对URL提供的所有URL参数并在放置“？”后将它们应用到URL2就像在URL中看到的一样。
+* Target QA 模式 UI 仅显示多页面活动中体验的第一个 URL。假设您要创建一个历程测试，并且将从 URL1 移动到 URL2。但是，如果要单独转到 URL2，请复制针对 URL1 提供的所有 URL 参数，并在放置“?”后将其应用于 URL2，正如 URL1 中所看到的一样。

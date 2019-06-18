@@ -8,7 +8,7 @@ title: 自定义参数
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -21,14 +21,28 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 创建基于 mbox 参数的自定义受众时，`mboxParameter` 将不再提示您输入 `mboxName`。mbox 名称现在是可选的。通过这项更改，您可以使用多个 mbox 中的参数或引用尚未记录到 Edge 的参数。
 
-要选择所需的参数，请执行以下操作：
+1. 在 [!DNL Target] 界面中，单击 **[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
+1. 对受众进行命名。
+1. 单击 **[!UICONTROL “添加规则]** ”&gt; **[!UICONTROL “自定义]**”。
 
-* 在创建新受众时，从列表中选择一个参数名称，开始键入所需参数名称的前面几个字符，或键入所需参数名称的全名。
-* 如果您记得 mbox 名称而不记得参数名称，则使用复选框筛选传递所需参数的已知 mbox。
+   要选择所需的参数，请执行以下操作：
 
-无论使用哪种方法，mbox 和参数之间均没有链接。受众的运行将以传递参数的所有 mbox 中的相应参数为基础。
+   * 在创建新受众时，从列表中选择一个参数名称，开始键入所需参数名称的前面几个字符，或键入所需参数名称的全名。
+   * 如果您记得 mbox 名称而不记得参数名称，则使用复选框筛选传递所需参数的已知 mbox。
+   无论使用哪种方法，mbox 和参数之间均没有链接。受众的运行将以传递参数的所有 mbox 中的相应参数为基础。
 
-如果您编辑现有受众，则会显示筛选标准以及在创建期间提供的 mbox 名称。
+   如果您编辑现有受众，则会显示筛选标准以及在创建期间提供的 mbox 名称。
+
+1. 选择评估器：
+
+   * 包含（不区分大小写）
+   * 不包含(区分大小写)
+   * 等于
+   ![自定义参数受众](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
+
+1. 在新行中输入每个值。
+1. （可选）单击 **[!UICONTROL 添加规则]，然后为受众设置更多规则。**
+1. 单击 **[!UICONTROL 保存]**。
 
 受众的[定义详细信息弹出卡片](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)会在“规则”部分中显示参数名称。没有对用于筛选的 mbox 的引用。
 
@@ -43,4 +57,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 创建受众
 * 定义受众类别
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hans)

@@ -8,7 +8,7 @@ title: 活动通知
 topic: Standard
 uuid: eb9b8657-1c8e-4eba-8f6d-612944f917f3
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 可在 [!DNL Target] 中的任意位置（活动创建工作流除外）访问通知。单击页面标题中的铃铛图标可显示或隐藏通知 Widget。
 
-![](assets/notifications-shell.png)
+![通知图标](assets/notifications-shell.png)
 
 [!DNL Target] 会为所有活动类型发送两种通知：
 

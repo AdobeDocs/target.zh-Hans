@@ -8,7 +8,7 @@ title: 在 Target 中构建受众
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -27,17 +27,17 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 您可以将两种布尔运算符混合使用来创建复杂的规则；但是，同一规则级别的运算符必须一致。用户界面会自动应用正确的运算符。
 
-例如，以下规则可定位在 Windows 计算机上使用 Chrome 或 Firefox 浏览器的访客。
+例如，以下规则针对在Windows计算机上使用Chrome *或* Firefox的访客：
 
-![](assets/audience_create.png)
+![创建受众](assets/audience_create.png)
 
 >[!NOTE]
 >
->务必要避免创建会将所有潜在受众成员都排除在外的规则。例如，某个人不可能同时使用浏览器 x 和浏览器 y 来访问页面。
+>务必要避免创建会将所有潜在受众成员都排除在外的规则。例如，某人无法同时使用Chrome *和* Firefox访问页面。
 
 ## 创建新受众
 
-1. 单击顶部菜单栏中的**[!UICONTROL 受众]**。
+1. 单击顶部菜单栏中的 **[!UICONTROL 受众]**。
 
    ![](assets/audiences_list.png)
 
@@ -45,7 +45,7 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
    或
 
-   在[!UICONTROL 受众]列表中，将鼠标悬停在所需受众上，然后单击**[!UICONTROL 复制]图标，以复制现有受众。**然后，您可以对受众进行编辑以创建一个类似的受众。
+   在[!UICONTROL 受众]列表中，将鼠标悬停在所需受众上，然后单击 **[!UICONTROL 复制]图标，以复制现有受众。** 然后，您可以对受众进行编辑以创建一个类似的受众。
 
 1. 键入唯一的描述性受众名称。
 1. 单击 **[!UICONTROL + 添加规则]**。
@@ -55,7 +55,7 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
    每种规则类型都有其自身的参数。请参阅[受众类别](../../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)，以详细了解如何配置每种类型的受众规则。
 1. 定义规则参数。
-1. 单击**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL 保存]**。
 
    新创建的受众需经过几秒钟的处理后才会显示在列表中。如果受众未立即显示在列表中，请尝试搜索该受众或刷新列表。
 
@@ -66,4 +66,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 创建受众
 * 定义受众类别
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hans)

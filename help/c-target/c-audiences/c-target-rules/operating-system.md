@@ -8,7 +8,7 @@ title: 操作系统
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -17,20 +17,21 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 您可以定位使用某种操作系统的访客。
 
-1. 在 [!DNL Target] 界面中，单击**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
+1. 在 [!DNL Target] 界面中，单击 **[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
-1. 单击**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 操作系统]**。
-
-   ![](assets/target_os.png)
-
-1. 单击**[!UICONTROL 选择]**，然后选择以下选项之一：
+1. 单击 **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 操作系统]**。
+1. 单击 **[!UICONTROL 选择]**，然后选择以下选项之一：
 
    * Linux
    * Macintosh
    * Windows
 
-1. （可选）单击**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
-1. 单击**[!UICONTROL 保存]**。
+1. （可选）单击 **[!UICONTROL 添加规则]，然后为受众设置更多规则。**
+1. 单击 **[!UICONTROL 保存]**。
+
+以下插图显示了使用Macintosh OS定位访客的受众。
+
+![](assets/target_os.png)
 
 ## 培训视频：创建受众
 
@@ -39,4 +40,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 创建受众
 * 定义受众类别
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hans)

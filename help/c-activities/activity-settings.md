@@ -9,7 +9,7 @@ title: 活动设置
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 * [多变量测试](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [推荐](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## 培训视频：活动设置**
+## 培训视频：活动设置
 
 以下视频包含有关活动设置的信息。
 
@@ -67,4 +67,4 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 * 添加报表受众以创建报表筛选器
 * 输入活动的注释
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381)
+   >[!VIDEO](https://video.tv.adobe.com/v/17381?captions=chi_hans)

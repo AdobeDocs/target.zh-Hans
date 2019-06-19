@@ -8,7 +8,7 @@ title: 配置文件属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
@@ -81,11 +81,11 @@ if (mbox.name == 'Track_Interest') {
 
 “[!UICONTROL 脚本信息]”选项卡包含以下信息：“名称”、“状态”、“令牌类型”、“脚本 ID”、“更改日志”和“描述”。
 
-![](assets/profile_script_info_card.png)
+![个人资料脚本信息卡](assets/profile_script_info_card.png)
 
 “[!UICONTROL 脚本使用情况]”选项卡列出了引用所选配置文件脚本的活动（及其工作空间）。
 
-![](assets/profile_script_info_card_usage_tab.png)
+![个人资料脚本信息卡&gt;脚本使用选项卡](assets/profile_script_info_card_usage_tab.png)
 
 >[!N注意]
 >

@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
@@ -21,50 +21,16 @@ source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
-| 2019年月17日 | [Activity URL（活动 URL）](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md) | 更新了文本和图像。 |
-|  | [创建组合](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | 更新了文本和图像。 |
-|  | [预览多变量测试体验](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | 更新了文本和图像。 |
-|  | [目标和设置](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md) | 更新了文本和图像。 |
-|  | [设置量度](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md) | 更新了文本和图像。 |
-|  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 更新了文本和图像。 |
-|  | [编辑活动或另存为草稿](/help/c-activities/edit-activity.md) | 更新了文本和图像。 |
-|  | [活动更改日志](/help/c-activities/change-log.md) | 更新了文本和图像。 |
-|  | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 更新了文本和图像。 |
-| 2019年月16日 | [创建多变量测试](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | 更新了文本和图像。 |
-| 2019 年 6 月 15 日 | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 进行了细微的文本编辑。 |
-|  | [多变量测试最佳实践](/help/c-activities/c-multivariate-testing/best-practices.md) | 进行了细微的文本编辑。 |
-|  | [规划多变量测试](/help/c-activities/c-multivariate-testing/plan-mvt.md) | 进行了细微的文本编辑。 |
-| 2019年月14日 | [体验定位](/help/c-activities/t-experience-target/experience-target.md) | 添加了使用案例方案。 |
-|  | [创建体验定位活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | 更新了文本和图像。 |
-|  | XT： [活动URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | 更新了文本。 |
-|  | XT： [创建体验](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | 更新了文本和图像。 |
-|  | [在体验定位中切换体验](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md) | 更新了文本和图像。 |
-|  | XT： [目标和设置](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md) | 更新了文本和图像。 |
-|  | XT： [设置指标](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md) | 更新了文本和图像。 |
+| 2019年月19日 | [添加促销活动](/help/c-recommendations/t-create-recs-activity/adding-promotions.md) | 添加了有关在活动标准推荐的项目中取消复制促销信息的信息。 |
 | 2019 年 6 月 13 日 | [重要属性报表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 新增了常见问题解答：“为什么某些优惠/体验比特定自动化区段的其他优惠/体验更低，转化率更低？” |
-|  | [创建自动个性化活动](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 更新了文本和图像。 |
-|  | [估算成功所需流量](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | 添加了新图像。 |
-|  | [在可视化体验编辑器中预览自动个性化体验](/help/c-activities/t-automated-personalization/ap-preview-experiences.md) | 更新了文本和图像。 |
-|  | [Target 自动个性化选件](/help/c-activities/t-automated-personalization/ap-target-offers.md) | 更新了文本和图像。 |
-|  | [管理排除项](/help/c-activities/t-automated-personalization/managing-exclusions.md) | 更新了文本和图像。 |
-| 2019年月12日 | [Auto-Target（自动定位）](/help/c-activities/auto-target-to-optimize.md) | 更新了文本和图像。 |
 |  | [Adobe Target 的工作原理](/help/c-intro/how-target-works.md) | 添加了有关在中国使用Target的重要说明。 |
 |  | [支持的浏览器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 从“目标标准/高级界面”部分删除了Microsoft Internet Explorer11(IE11)。Target不再支持或保持IE11的兼容性。此更改仅影响目标UI。内容交付不受影响。此更改遵循Adobe Analytics、Adobe Experience Platform和Adobe Audience Manager发出的类似公告。我们建议用户切换到支持的浏览器。 |
 | 2019年月11日 | [活动创建](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 删除了注释声明，如果您使用A4T，则此说明可用于指定跟踪服务器。 |
-|  | [创建 A/B 测试](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | 更新了文本和图像。 |
-|  | A/B测试： [活动URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | 更新了文本和图像。 |
-|  | A/B测试： [选择受众](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) | 更新了文本和图像。 |
-|  | A/B测试： [目标和设置](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) | 更新了文本和图像。 |
-|  | A/B测试： [设置指标](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md) | 更新了文本和图像。 |
-|  | [A/B 测试中的多个体验版本](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) | 更新了文本和图像。 |
 |  | [活动](/help/c-activities/activities.md) | 强调您无法恢复已删除的活动。作为最佳实践，您可以存档活动，以便在必要时取消存档。 |
 |  | [从 at.js 1.x 升级到 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 删除了在. js2.x中不完全支持Experience Cloud调试器的限制。 |
-|  | [报表](/help/c-reports/reports.md) | 更新了文本和图像。 |
 | 2019 年 6 月 7 日 | [使用 Velocity 自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 新增了部分：“情景：使用null-check逻辑创建4x默认Recommendations设计”。 |
 |  | [Adobe Target Standard 和 Premium 的培训视频](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 更新了指向新的Adobe Target教程站点的链接。 |
 |  | [iOS - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | 更新了文本和代码片断。 |
-|  | [访客配置文件生命周期](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) | 进行了细微的文本编辑。 |
-|  | [测试电子邮件图像 Adbox](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md) | 进行了细微的文本编辑。 |
 | 2019 年 6 月 6 日 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新了 `options > page` 参数的描述。 |
 |  | [管理员首要步骤](/help/administrating-target/start-target.md) | 更新了整个文章。 |
 |  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 为Target19.6.1版本添加了初步发行说明。 |

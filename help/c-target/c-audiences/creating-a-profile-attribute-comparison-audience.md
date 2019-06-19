@@ -1,21 +1,21 @@
 ---
-description: 将受众定义为比较受众库或仅限该活动的受众的两个配置文件属性。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
+description: 定义受众，以比较Target受众库或仅限活动的受众的两个档案属性。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
 keywords: 受众;倾向;配置文件属性;比较;对比;创建受众
-seo-description: 将受众定义为比较受众库或仅限该活动的受众的两个配置文件属性。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
-seo-title: 创建配置文件属性比较受众
+seo-description: 定义受众，以比较Target受众库或仅限活动的受众的两个档案属性。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
+seo-title: 创建配置文件属性比较受众在Adobe Target中
 solution: Target
 title: 创建配置文件属性比较受众
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: a419672c3e7acffbe5ffea224951cf54bf53e584
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
 
 # 创建配置文件属性比较受众{#create-a-profile-attribute-comparison-audience}
 
-将受众定义为比较受众库或仅限该活动的受众的两个配置文件属性。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
+定义受众，以比较 [受众库](/help/c-target/c-audiences/audiences.md) 或 [仅限活动的受众的两个档案属性](/help/c-target/creating-activity-only-audience.md)。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
 
 >[!NOTE]
 >
@@ -36,20 +36,20 @@ source-git-commit: a419672c3e7acffbe5ffea224951cf54bf53e584
 
 ## 创建配置文件属性比较受众 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. 单击**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]** &gt; **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 访客配置文件]**。
-1. 从**[!UICONTROL 访客配置文件]下拉列表中选择一个属性：**
+1. 单击 **[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]** &gt; **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 访客配置文件]**。
+1. 从 **[!UICONTROL 访客配置文件]下拉列表中选择一个属性：**
 
-   ![](assets/propensity_score_1.png)
+   ![倾向分数1](assets/propensity_score_1.png)
 
 1. 选择您的计算器：
 
-   ![](assets/propensity_score_2.png)
+   ![倾向得分2](assets/propensity_score_2.png)
 
-1. 从**[!UICONTROL 选择比较类型]**下拉列表中选择**[!UICONTROL 属性]**。
+1. 从 **[!UICONTROL 选择比较类型]** 下拉列表中选择 **[!UICONTROL 属性]**。
 
    “静态值”比较类型允许您将访客配置文件属性与特定值进行比较。
 
-   ![](assets/propensity_score_3.png)
+   ![倾向评分3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
@@ -57,12 +57,10 @@ source-git-commit: a419672c3e7acffbe5ffea224951cf54bf53e584
 
 1. 选择要与初始属性进行比较的其他属性。
 
-   例如，如果特定访客的“Kitchen”属性得分大于“Decor”属性得分，那么该访客将包含在该受众中。
-
    ![](assets/propensity_score_4.png)
 
 ## 培训视频 {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 请观看以下视频，了解更多信息以及可使用此功能的情景：
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/?captions=chi_hans)

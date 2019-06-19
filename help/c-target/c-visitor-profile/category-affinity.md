@@ -1,14 +1,14 @@
 ---
 description: 类别亲和度功能会自动捕捉用户访问的类别，然后计算用户对该类别的喜爱程度，从而可以对用户进行定位和细分。这有助于确保内容会被定位到最有可能对该信息做出回应的访客。
 keywords: 亲和度;类别亲和度
-seo-description: 类别亲和度功能会自动捕捉用户访问的类别，然后计算用户对该类别的喜爱程度，从而可以对用户进行定位和细分。这有助于确保内容会被定位到最有可能对该信息做出回应的访客。
-seo-title: 类别亲和度
+seo-description: Adobe Target中的类别亲和力功能会自动捕获用户访问的类别，然后计算用户对该类别的关联，以便可以定位和分段。这有助于确保内容会被定位到最有可能对该信息做出回应的访客。
+seo-title: 在Adobe Target中使用类别亲和力
 solution: Target
 title: 类别亲和度
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
@@ -45,56 +45,56 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 类别亲和度算法采用如下计算方式：
 
-* 查看的第一个类别的10个积分
+* 第一次查看的类别获得 10 分
 * 第一次查看后所点击的每个类别将各获得 5 分
 * 点击新类别后，之前点击的所有类别都将减去 1 分
 * 如果已点击（已显示）某个类别，则再次点击该类别时，所有其他类别都将不会减去 1 分
 * 如果点击了第六个新类别，则将从计算中删除前五个类别中得分最低的类别
 * 会话结束时将所有值除以 2
 
-### 示例：类别亲和力算法
+### 示例：类别亲和度算法
 
-例如，查看 `mens-clothing` 该类别，然后 `accessories``jewelry``accessories` 在会话中再次产生相似性：
+例如，依次查看会话中 `mens-clothing` 类别、`accessories`、`jewelry`，然后再次查看 `accessories`，这会产生以下亲和度：
 
-* `accessories`: 9 (+5 – 1 + 5)
+* `accessories`：9 (+5 – 1 + 5)
 
-* `mens-clothing`: 8 (+10 – 1 – 1)
+* `mens-clothing`：8 (+10 – 1 – 1)
 
-* `jewelry`: 5 (+5)
+* `jewelry`：5 (+5)
 
-会话结束时，用户返回到站点后，分数将会减半：
+当会话结束，用户稍后返回到站点时，分数将会减半：
 
-* `accessories`: 4.5 (9/2)
+* `accessories`：4.5 (9/2)
 
-* `mens-clothing`: 4 (8/2)
+* `mens-clothing`：4 (8/2)
 
-* `jewelry`: 2.5 (5/2)
+* `jewelry`：2.5 (5/2)
 
-假设用户随后查看、按顺序 `jewelry``accessories``beauty`、 `shoes``womens-clothing`和：
+假设用户随后按顺序查看 `jewelry`、`accessories`、`beauty`、`shoes` 和 `womens-clothing`：
 
-* `accessories`: 6.5 (4.5 + 5 – 1 – 1 - 1)
+* `accessories`：6.5 (4.5 + 5 – 1 – 1 - 1)
 
-* `womens-clothing`: 5 (+5)
+* `womens-clothing`：5 (+5)
 
-* `jewelry`: 4.5 (2.5 + 5 – 1 – 1 - 1)
+* `jewelry`：4.5 (2.5 + 5 – 1 – 1 - 1)
 
-* `shoes`: 4 (+5 – 1)
+* `shoes`：4 (+5 – 1)
 
-* `beauty`: 3 (+5 – 1 - 1)
+* `beauty`：3 (+5 – 1 - 1)
 
-* `mens-clothing` 在最后一次点击 `womens-clothing` 之后被丢弃，得分为1(---1)
+* 最后一次点击 `womens-clothing` 后，`mens-clothing` 将作为得分最低的类别而遭到删除，其得分为 1 (4 – 1 – 1 - 1)
 
-会话结束时，用户返回到站点后，分数将会减半：
+当会话结束，用户稍后返回到站点时，分数将会减半：
 
-* `accessories`: 3.3 (6.5/2)
+* `accessories`：3.3 (6.5/2)
 
-* `womens-clothing`: 2.5 (5/2)
+* `womens-clothing`：2.5 (5/2)
 
-* `jewelry`: 2.3 (4.5/2)
+* `jewelry`：2.3 (4.5/2)
 
-* `shoes`: 2 (4/2)
+* `shoes`：2 (4/2)
 
-* `beauty`: 1.5 (3/2)
+* `beauty`：1.5 (3/2)
 
 ## 使用类别亲和度进行定位 {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
@@ -107,7 +107,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ## 创建要使用类别亲和度的受众 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. 从**[!UICONTROL 受众]**列表中，单击 **[!UICONTROL + 创建受众]**。
+1. 从 **[!UICONTROL 受众]** 列表中，单击 **[!UICONTROL + 创建受众]**。
 
    或
 
@@ -115,11 +115,15 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 1. 键入描述性受众名称。
 1. 单击 **[!UICONTROL + 添加规则]** &gt; **[!UICONTROL 访客配置文件]**。
-1. 从**[!UICONTROL 访客配置文件]**下拉列表中，选择**[!UICONTROL 类别亲和度]**。
+1. 从 **[!UICONTROL 访客配置文件]** 下拉列表中，选择 **[!UICONTROL 类别亲和度]**。
 
-   ![](assets/affinity.png)
+   ![访客配置文件&gt;类别亲和力](assets/affinity.png)
 
 1. 选择所需类别：
+
+   ![类别亲和力&gt;类别](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+
+   类别包括：
 
    * 最喜爱类别
    * 第一类别
@@ -135,7 +139,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
    * 等于
 
 1. 在单独的行中指定每个新值（例如，“鞋子”）。
-1. 单击**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL 保存]**。
 
 ## 在活动中使用类别亲和度受众 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 

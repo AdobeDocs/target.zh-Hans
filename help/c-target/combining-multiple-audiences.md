@@ -8,7 +8,7 @@ title: 合并多个受众
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
@@ -25,11 +25,11 @@ source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 您可以在 [!DNL Target] UI 中的多个位置创建并使用组合受众。
 
-## 创建活动时创建组合受众 {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## 创建活动时创建组合的受众 {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 在三步引导式工作流中，您可以在活动的“[!UICONTROL 定位]”页面上创建临时组合受众。
 
-1. 创建[活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在 **[!UICONTROL Target]** 页面上单击 **[!UICONTROL 编辑受众]** 图标，然后单击 **[!UICONTROL 更改受众]**。
+1. 创建[活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)，在 **[!UICONTROL Target]** 页面上单击三个垂直椭圆，然后单击 **[!UICONTROL 替换受众]**。
 
    ![步骤结果](assets/edit_audience.png)
 
@@ -47,11 +47,11 @@ source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
    1. 您可以使用拖放功能，在现有区域中添加受众作为第 2 级构建基块。要添加第 1 级构建基块，请选中所需受众旁边的复选框，然后单击 **[!UICONTROL 添加到规则中]**。
 
-      例如，假设您现在想要将 Firefox 用户添加到上一示例的组合受众中。为此，可搜索“浏览器：Firefox”受众，并将其拖到右侧的“浏览器：Safari”框中，如以下示例所示：
+      例如，假设在上一个示例中，您现在希望在组合的受众中包含Safari用户。搜索并将“Safari Browser”受众拖放到右侧的“Firefox Browser”框中，如以下示例所示：
 
       ![](assets/combine_multiple_audiences3.png)
 
-      请注意，这两个基于浏览器类型的受众之间使用的运算符为“与”。选择“与”下拉列表，并将其更改为“或”，以便为使用 Safari 或 Firefox 的新访客创建一个新的组合受众。务必要避免创建会将所有潜在受众成员都排除在外的规则。例如，某个人不可能同时使用浏览器 x 和浏览器 y 来访问页面。
+      请注意，这两个基于浏览器类型的受众之间使用的运算符为“与”。选择和下拉列表，然后将其更改为“OR”，以使用Firefox或Safari为新访客创建新的组合受众。务必要避免创建会将所有潜在受众成员都排除在外的规则。例如，某人无法同时使用Firefox和Safari访问页面。
 
       >[!NOTE]
       >
@@ -65,7 +65,7 @@ source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
       ![](assets/combine_multiple_audiences3b.png)
 
-      例如，要从新访客中排除旧金山访客，您可以将旧金山受众拖放到框中，如下所示：
+      例如，要从新访客排除美国访客，您可以拖动市场：美国受众进入此框，如下所示：
 
       ![](assets/combine_multiple_audiences3b2.png)
 
@@ -77,7 +77,7 @@ source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 1. 为组合受众提供一个描述性名称，然后单击 **[!UICONTROL 保存]**。
 
-## 创建用于量度定位的组合受众 {#section_A42E795AFCBD4575809C5942039910F0}
+## 创建组合受众以用于指标定位 {#section_A42E795AFCBD4575809C5942039910F0}
 
 您可以在活动的“[!UICONTROL 目标和设置]”页面上创建一个临时组合受众，以将其用于量度定位。例如，可以使用组合受众创建基于转化的定位：
 
@@ -103,7 +103,7 @@ source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 1. 执行“创建活动时创建组合受众”中的[步骤 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以创建组合受众。
 
-## 编辑活动时创建组合受众 {#section_364A12CE96E04B61B7C18113AA586C2C}
+## 在编辑活动时创建组合的受众 {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 您可以在编辑现有活动时创建临时组合受众。
 
@@ -113,7 +113,12 @@ source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
    单击所需活动以将其打开，然后单击 **[!UICONTROL 编辑活动]**。
 
-1. 单击齿轮图标 &gt; **[!UICONTROL 受众]** &gt; **[!UICONTROL 多个受众]**。
-1. 单击活动的当前受众旁边的更多选项图标（三个垂直省略号），然后单击 **[!UICONTROL 更改受众]**。
-1. 执行“创建活动时创建组合受众”中的[步骤 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以创建组合受众。
+1. 单击 **[!UICONTROL “配置]** ”&gt; **[!UICONTROL “受众]** ”&gt;“ **[!UICONTROL 多个受众]**”。
 
+   ![“配置”&gt;“受众”&gt;“多个受众”](/help/c-target/assets/combine_multiple_audiences7.png)
+
+1. 单击活动的当前受众旁边的更多选项图标（三个垂直省略号），然后单击 **[!UICONTROL 更改受众]**。
+
+   ![更改受众](/help/c-target/assets/combine_multiple_audiences8.png)
+
+1. 执行“创建活动时创建组合受众”中的[步骤 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以创建组合受众。

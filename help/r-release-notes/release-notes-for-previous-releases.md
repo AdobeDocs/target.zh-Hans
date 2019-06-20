@@ -299,7 +299,7 @@ target/r_release-notes-2018.xml
 * 我们更新了“标准”卡片的外观与风格，让其更加直观和用户友好。(TGT-30469)
 * UI 性能提升加快了页面加载速度。
 
-###  Target Standard/Premium 18.8.1（2018 年 8 月 21 日）{#section_66A0030993D54565BE30E56AC9CAC1DA}
+### Target Standard/Premium 18.8.1（2018 年 8 月 21 日）{#section_66A0030993D54565BE30E56AC9CAC1DA}
 
 此版本包括以下功能和增强功能：
 
@@ -1066,7 +1066,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-###  Target Standard/Premium 17.8.1（2017 年 8 月 22 日）{#section_71A554D072F04B18B359C1626529E5D8}
+### Target Standard/Premium 17.8.1（2017 年 8 月 22 日）{#section_71A554D072F04B18B359C1626529E5D8}
 
 <table id="table_AAC16F89060D4CC09762A370B86C0885"> 
  <thead> 
@@ -1124,7 +1124,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-###  Target Standard/Premium 17.7.3（2017 年 8 月 3 日）{#section_D90CB766679442C7A0642E5D79657674}
+### Target Standard/Premium 17.7.3（2017 年 8 月 3 日）{#section_D90CB766679442C7A0642E5D79657674}
 
 <table id="table_C81EA97B251547169BC9681E5DDB4B8F"> 
  <thead> 

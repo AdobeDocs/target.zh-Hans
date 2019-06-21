@@ -8,8 +8,8 @@ subtopic: 多变量测试
 title: 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -30,7 +30,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 
 >[!IMPORTANT]
 >
->在开始使用 A4T 之前，您需要请求对您的帐户进行配置，以便使用该集成。可使用[此表单](https://www.adobe.com/go/audiences)提交配置请求。
+>在开始使用 A4T 之前，您需要请求对您的帐户进行配置，以便使用该集成。使用[此表单](https://www.adobe.com/go/audiences_cn)可请求进行配置。
 >
 >可启用 Adobe Analytics 作为 Adobe Target 数据源 (A4T) 的集成代表了新一代 Test&amp;Target 与 SiteCatalyst 集成插件。虽然此插件已被弃用，但已使用它的客户仍可获得支持。
 
@@ -59,27 +59,27 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 
 | 活动类型 | 是否兼容 A4T？ | 注释（如果适用） |
 |--- |--- |--- |
-| 使用手动流量拆分的 A/B 活动 | 是 |
-| 使用自动分配的 A/B 活动 | 否 |
-| 使用自动定位的 A/B 活动 | 否 |
-| 体验定位 (XT) | 是 |
+| 使用手动流量拆分的 A/B 活动 | 是 |  |
+| 使用自动分配的 A/B 活动 | 否 |  |
+| 使用自动定位的 A/B 活动 | 否 |  |
+| 体验定位 (XT) | 是 |  |
 | 多变量测试 (MVT) | 是 | 需要基于 mbox 的目标量度来获取元素贡献报表。元素贡献报表目前不支持 Analytics 量度。 |
-| 自动个性化 (AP) 活动 | 否 |
-| 推荐 activity（活动） | 是 |
-| 移动设备应用程序 | 是 | 在 Mobile Services SDK 版本 4.13.1 或更高版本中受支持。有关更多信息，请参阅 [Mobile Services 文档](https://marketing.adobe.com/resources/help/en_US/mobile/)。 |
-| 电子邮件 | 否 |
+| 自动个性化 (AP) 活动 | 否 |  |
+| 推荐 activity（活动） | 是 |  |
+| 移动设备应用程序 | 是 | 在 Mobile Services SDK 版本 4.13.1 或更高版本中受支持。有关更多信息，请参阅 [Mobile Services 文档](https://marketing.adobe.com/resources/help/zh_CN/mobile/)。 |
+| 电子邮件 | 否 |  |
 | 服务器端交付 API | 是 | 有关更多信息，请参阅[服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
 | NodeJS SDK | 是 | 有关更多信息，请参阅[服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
-| AEM 6.1（或更低版本）云服务集成 | 否 |
-| AEM 6.2（或更高版本）云服务集成 | 是 | 有关更多信息，请参阅 Adobe Experience Manager 6.2 文档中的[与 Adobe Target 集成](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)。 |
+| AEM 6.1（或更低版本）云服务集成 | 否 |  |
+| AEM 6.2（或更高版本）云服务集成 | 是 | 有关更多信息，请参阅 Adobe Experience Manager 6.2 文档中的[与 Adobe Target 集成](https://helpx.adobe.com/cn/experience-manager/6-2/sites/administering/using/target.html)。 |
 | 任何使用重定向选件的活动 | 是 | 要将重定向选件与 A4T 配合使用，需满足一些较为严格的最低要求。有关更多信息，请参阅[重定向选件 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。 |
-| Node.JS | 是 |
+| Node.JS | 是 |  |
 
 由于所有活动类型尚不支持 A4T，因此建议您保留或实施重要的转化 mbox，例如“orderConfirmPage”mbox。
 
 ## A4T 报表的示例 {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-要在 [!DNL Target]**中查看 A4T 报表，请单击[!UICONTROL 活动]**，在列表中单击使用 [!DNL Analytics] 作为报表源的所需活动，然后单击**[!UICONTROL 报表]选项卡。**
+要在 [!DNL Target]**中查看 A4T 报表，请单击[!UICONTROL 活动]**，在列表中单击使用 [!DNL Analytics] 作为报表源的所需活动，然后单击 **[!UICONTROL 报表]选项卡。**
 
 >[!NOTE]
 >
@@ -99,11 +99,11 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 
 ![](assets/a4t_report_table.png)
 
-要在 [!DNL Analytics] 而不是 [!DNL Target] 中查看报表，请单击报表顶部的**[!UICONTROL ]在 Analytics 中查看**。
+要在 [!DNL Analytics] 而不是 [!DNL Target] 中查看报表，请单击报表顶部的 **[!UICONTROL ]在 Analytics 中查看**。
 
 ## Analytics 与 Target：分析最佳实践教程 {#section_3438E6E77A464424B717A4FD333B84B2}
 
-打开由 Adobe Experience League 提供的 [Analytics 与 Target：分析最佳实践](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教程。
+打开由 Adobe Experience League 提供的 [Analytics &amp; Target：Analysis 最佳实践](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教程。
 
 ## 培训视频：
 

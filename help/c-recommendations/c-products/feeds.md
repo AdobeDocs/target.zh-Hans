@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1ac2baf9d3fe7a84d7e65a0aec99c4bfdef613a4
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -97,7 +97,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 >
 >无需使用 Google 数据。[!DNL Recommendations] 使用与 Google 相同的格式。您可以使用此方法上传您的任何数据，并且还可以使用可用的计划功能。但是，您必须在设置文件时保留 Google 的预定义属性名称。
 
-大多数零售商会将产品上传到 Google，因此当访客使用 Google Product Search 时，他们的产品将会显示出来。[!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。可将实体源发送 [!DNL Recommendations] 到、 [!DNL .xml][!DNL .txt]或 [!DNL .tsv]通过Google定义 [的属性发送](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)。可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
+大多数零售商会将产品上传到 Google，因此当访客使用 Google Product Search 时，他们的产品将会显示出来。[!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。实体源可以通过 [!DNL .xml]、[!DNL .txt] 或 [!DNL .tsv] 发送到 [!DNL Recommendations]，并可以使用 [Google 定义的属性](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)。可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
 
 >[!NOTE]
 >
@@ -188,7 +188,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ## Analytics 产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件的更多信息，请参阅《Analytics 帮助和参考》**指南中的[分类](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)。推荐需要的所有信息并非都可通过当前的实施获得，因此，如果要在分类文件中添加新内容，请按此用户指南操作。
+Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件的更多信息，请参阅 *Analytics 帮助和参考*指南中的[分类](https://marketing.adobe.com/resources/help/zh_CN/reference/classifications.html)。推荐需要的所有信息并非都可通过当前的实施获得，因此，如果要在分类文件中添加新内容，请按此用户指南操作。
 
 >[!IMPORTANT]
 >
@@ -208,12 +208,12 @@ recs/t_feeds_create.xml
 
  -->
 
-1. 在 Target 界面中，单击**[!UICONTROL 推荐]** &gt; **[!UICONTROL 信息源]** &gt; **[!UICONTROL 创建信息源]**。
+1. 在 Target 界面中，单击 **[!UICONTROL 推荐]** &gt; **[!UICONTROL 信息源]** &gt; **[!UICONTROL 创建信息源]**。
 
    ![步骤结果](assets/CreateFeed.png)
 
 1. 为您的信息源指定一个描述性名称。
-1. 选择**[!UICONTROL 源类型]**。
+1. 选择 **[!UICONTROL 源类型]**。
 
    有关 Google 产品信息源和 CSV 信息源类型的信息，请参阅[信息源概述](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。
 1. 指定报表包，或者可以访问信息源的 URL 或 FTP 位置。
@@ -221,7 +221,7 @@ recs/t_feeds_create.xml
    如果您选择 FTP，请提供 FTP 服务器信息、登录凭据、文件名和 FTP 目录。您可以选择使用带有 SSL 的 FTP (FTPS) 进行更安全的上传。
 
    如果您选择 URL，请指定 URL。
-1. 单击**[!UICONTROL 下一步]**箭头以显示[!UICONTROL 计划]选项。
+1. 单击 **[!UICONTROL 下一步]** 箭头以显示[!UICONTROL 计划]选项。
 
    ![步骤结果](assets/CreateFeedSchedule.png)
 
@@ -236,7 +236,7 @@ recs/t_feeds_create.xml
 1. 指定要运行信息源的时间。
 
    此选项基于浏览器中使用的时区。如果您想要使用不同时区的时间，则必须根据您所在的时区计算该时间。
-1. 单击**[!UICONTROL 下一步]**箭头以显示[!UICONTROL 映射]选项，然后指定您希望如何将数据映射到 [!DNL Target] 定义。
+1. 单击 **[!UICONTROL 下一步]** 箭头以显示[!UICONTROL 映射]选项，然后指定您希望如何将数据映射到 [!DNL Target] 定义。
 
    ![步骤结果](assets/CreatFeedMapping.png)
 
@@ -248,7 +248,7 @@ recs/t_feeds_create.xml
    >
    >有关更多信息，请参阅[主机](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
 
-1. 单击**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL 保存]**。
 
 创建或编辑信息源后，该信息源会立即运行，然后将根据您设置的参数进行更新。所有信息需要一段时间才能使用。首先，信息源必须同步，接着必须对其进行处理并将其编入索引，然后才能对其发布并使其可供使用。当前状态显示在“信息源”列表中的[信息源状态](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)下。在该过程完成之前，您可以关闭 [!DNL Target]，该过程会继续执行。
 
@@ -267,23 +267,23 @@ recs/t_feeds_create.xml
 | 状态 | 描述 |
 |--- |--- |
 | 正在同步 | 正在将信息源设置详细信息保存到 Target。 |
-| 同步失败 | 无法将源设置详细信息保存到Target。请重试。 |
+| 同步失败 | 无法将信息源设置详细信息保存到 Target。请重试。 |
 | 未运行信息源 | 您已创建一个信息源，但尚未设置运行计划（频率设置为“从不”）。 |
 | 已计划在 &lt;日期和时间&gt;** 运行 | 信息源尚未运行，但已计划在指定的日期和时间运行。 |
-| 等待下载 | Target准备下载Feed文件。 |
-| 下载Feed File | Target正在下载Feed文件。 |
-| 导入项目 | 目标是从源文件导入项目。注意：完成此步骤并“准备搜索索引更新”后，对项目属性的更改已导入到我们的中央系统中，并且将反映在我们的地理边缘节点在60分钟内返回的推荐内容中。 |
-| 准备搜索索引更新 | Target准备更新目录搜索索引。注意：如果列出此状态，则已经对项目属性做出更改，并将很快反映在提交的推荐中，尽管目录搜索尚未反映它们。 |
-| 更新搜索索引 | Target将更新目录搜索索引。注意：如果列出此状态，则已经对项目属性做出更改，并将很快反映在提交的推荐中，尽管它们可能尚未反映在目录搜索中。 |
-| 已完成更新 | Target已完成与源文件关联的所有更新。 |
-| 无法索引 | 索引操作失败。请重试。 |
+| 正在等待下载 | Target 正准备下载信息源文件。 |
+| 正在下载信息源文件 | Target 正在下载信息源文件。 |
+| 正在导入项目 | Target 正在从信息源文件中导入项目。注意：此步骤完成并且显示“正在准备搜索索引更新”后，对项目属性的更改即已经导入到我们的中心系统中，并将在 60 分钟内反映在地理边缘节点返回的已交付推荐内容中。 |
+| 正在准备搜索索引更新 | Target 正准备更新“目录搜索”索引。注意：如果列出了此状态，则表示已对项目属性做出了更改，并且这种更改将很快地反映在已交付的推荐中，但它们尚未反映在“目录搜索”中。 |
+| 正在更新搜索索引 | Target 正在更新“目录搜索”索引。注意：如果列出了此状态，则表示已对项目属性做出了更改，并且这种更改将很快地反映在已交付的推荐中，但它们可能尚未反映在“目录搜索”中。 |
+| 更新已完成 | Target 已完成与信息源文件相关的所有更新。 |
+| 未能编入索引 | 索引操作失败。请重试。 |
 | 未找到服务器 | FTP 或 URL 位置无效或无法访问。 |
 
-要更新信息源（例如，更改信息源配置或信息源文件），请打开该信息源，进行任何所需更改，然后单击**[!UICONTROL 保存]**。
+要更新信息源（例如，更改信息源配置或信息源文件），请打开该信息源，进行任何所需更改，然后单击 **[!UICONTROL 保存]**。
 
 >[!IMPORTANT]
 >
->上传的实体在61天后过期。这意味着您的供给文件至少每60天上传一次，以避免对推荐活动造成干扰。如果项目在60天内至少不包含在源文件(或其他实体更新方法)中，Adobe Target将不再相关，并将其从目录中删除。
+>上传的实体会在 61 天后过期。这意味着您应该至少每 60 天上传一次信息源文件，以避免对您的推荐活动造成干扰。如果某个项目在 60 天内至少有一次未包含在信息源文件（或其他实体更新方法）中，则 Adobe Target 会推断该项目不再相关，并将其从目录中删除。
 
 ### 信息源状态指示器 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 

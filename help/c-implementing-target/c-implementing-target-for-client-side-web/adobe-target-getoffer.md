@@ -1,14 +1,14 @@
 ---
-description: '有关adobe. target. getOffer(options)函数的信息，请访问. js。 '
+description: '有关 at.js 的 adobe.target.getOffer(options) 函数的信息。 '
 keywords: adobe.target.notification;元素;选择器;通知;扩展
-seo-description: 有关Adobe Target. js JavaScript库的adobe. target. getOffer(选项)函数的信息。
-seo-title: 有关Adobe Target. js JavaScript库的adobe. target. getOffer(选项)函数的信息。
+seo-description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffer(options) 函数的信息。
+seo-title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffer(options) 函数的信息。
 solution: Target
 subtopic: 入门指南
 title: adobe.target.getOffer(options)
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 

@@ -7,8 +7,8 @@ solution: Target
 title: 用户管理故障诊断
 topic: Advanced,Standard,Classic
 uuid: e73fead8-0f7e-4f44-8ddb-6611b17c2e8b
-translation-type: tm+mt
-source-git-commit: 75a9b3f8d462995e7e88683d34d6637553b6e714
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -21,4 +21,4 @@ source-git-commit: 75a9b3f8d462995e7e88683d34d6637553b6e714
 
 新用户使用其 Adobe Experience Cloud 帐户登录，接着通过单击 [!UICONTROL  卡片登录到 ] 之后，您才会看到“[!DNL Target Standard/Premium]用户[!DNL Target]”页面上列出该用户。
 
-![目标卡](/help/administrating-target/assets/target_card_new.png)
+![Target 卡片](/help/administrating-target/assets/target_card_new.png)

@@ -7,8 +7,8 @@ solution: Target
 title: 初始配置 - A4T 常见问题解答
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
-translation-type: tm+mt
-source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,19 +17,19 @@ source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
 
 本主题包含有关将 Analytics 配置为 Target 报表源 (A4T) 的常见问题解答。
 
-## 如何设置多页A4T活动？
+## 如何设置多页面 A4T 活动？
 
-要实施基本的多页A4T用例，请执行以下操作：
+要实施基本的多页面 A4T 用例，请执行以下操作：
 
-* 在活动登陆URL/页面上为目标(at. js或mbox. js)和Analytics实施JavaScript库。实施这两个解决方案将为每个访客的Analytics数据拼接Target数据。此数据保留在Analytics中，直到默认过期期设置为90天。
+* 在活动登陆 URL/页面上为 Target（at.js 或 mbox.js）和 Analytics 实施 JavaScript 库。实施这两个解决方案会将每个访客的 Target 数据与 Analytics 数据拼合在一起。如果默认过期时间设置为 90 天，则在此时间之前，此数据会一直保留在 Analytics。
 
-* 对于网站上的剩余页面，只需跟踪Analytics指标，即可在这些页面上实施Analytics。无需在这些页面上实施Target。在这些页面中捕获的Analytics量度会自动缝合到用户最初符合从先前项目符号附加到该访客的目标信息的“目标”活动。
+* 对于网站上将仅跟踪 Analytics 量度的其余网页，则在这些页面上实施 Analytics。无需在这些页面上实施 Target。根据上一步中附加到该访客的 Targe 信息，在这些页面中捕获的 Analytics 量度会自动拼合到用户最初有资格参加的 Target 活动。
 
 ## 如何判断我的 Target 帐户是否启用了 A4T？{#section_4437D284448F4313BF953D4B6EDBACA6}
 
 您需要具有一个 Analytics 用户帐户和一个 Target 用户帐户，才能在定义 Analytics 活动时选择报表包。必须按照相应文档中的所述来配置您的用户帐户。请参阅[用户权限要求](../../../c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)。
 
-如果您所在的一个或多个 Experience Cloud 组拥有 Analytics 和 Target 访问权限，并且您自己也有权访问所有报表包，则您应会在**[!UICONTROL 创建活动]**下看到用于使用 Analytics 创建 A/B 测试的选项。
+如果您所在的一个或多个 Experience Cloud 组拥有 Analytics 和 Target 访问权限，并且您自己也有权访问所有报表包，则您应会在 **[!UICONTROL 创建活动]** 下看到用于使用 Analytics 创建 A/B 测试的选项。
 
 如果出现配置问题，请检查是否对 A4T 进行了正确配置。
 

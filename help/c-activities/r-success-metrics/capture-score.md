@@ -8,8 +8,8 @@ subtopic: 入门指南
 title: 捕捉分数
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 

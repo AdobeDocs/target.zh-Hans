@@ -6,8 +6,8 @@ seo-title: 对与增强型体验编辑器有关的问题进行故障诊断
 solution: Target
 title: 对与增强型体验编辑器有关的问题进行故障诊断
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
-translation-type: tm+mt
-source-git-commit: 5dbccff982ce59d98b152f24ffa2eec046e4069f
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -36,13 +36,13 @@ source-git-commit: 5dbccff982ce59d98b152f24ffa2eec046e4069f
 
 以下是您可能会看到此错误消息的原因以及相应的补救措施：
 
-* **问题：**您的网站域 (ISP) 正在阻止增强型体验编辑器。
+* **问题：** 您的网站域 (ISP) 正在阻止增强型体验编辑器。
 
-   **补救措施：**将上面列出的 IP 地址加入白名单。
+   **补救措施：** 将上面列出的 IP 地址加入白名单。
 
 * **问题：** IP 地址已列入白名单，但您的网站不支持 TLS 版本 1.2。Target 当前使用的默认配置为 TLS 1.2。在 Target 18.4.1（2018 年 4 月 25 日）之前的版本中，其默认配置支持 TLS 1.0。有关更多信息，请参阅 [TLS（传输层安全性）加密更改](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
 
-   **解决方案：**请参阅下一个问题（增强型可视化体验编辑器无法加载使用 TLS 1.2 的网站上的安全页面）。
+   **解决方案：** 请参阅下一个问题（增强型可视化体验编辑器无法加载使用 TLS 1.2 的网站上的安全页面）。
 
 ## EEC 无法加载使用 TLS 1.0 的网站上的安全页面。（仅 EEC）{#section_C5B31E3D32A844F68E5A8153BD17551F}
 
@@ -51,11 +51,11 @@ source-git-commit: 5dbccff982ce59d98b152f24ffa2eec046e4069f
 要使用 Firefox 检查您网站上的 TLS 版本（使用其他浏览器的步骤相似），请执行以下操作：
 
 1. 在 Firefox 中打开受影响的网站。
-1. 单击浏览器地址栏上的**[!UICONTROL 显示网站信息]图标。**
+1. 单击浏览器地址栏上的 **[!UICONTROL 显示网站信息]图标。**
 
    ![](assets/firefox_more_info.png)
 
-1. 单击**[!UICONTROL 显示连接详细信息]** &gt; **[!UICONTROL 更多信息]**。
+1. 单击 **[!UICONTROL 显示连接详细信息]** &gt; **[!UICONTROL 更多信息]**。
 
    ![](assets/firefox_more_info_2.png)
 

@@ -10,8 +10,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 badge: premium
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -61,9 +61,9 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 ## 报表设置
 
-* **目标：**为目标命名，并选择用于确定活动是否成功的成功量度。
-* **其他量度：**配置要在报表中使用的其他成功量度。
-* **报表的受众：**定义可在筛选报表时使用的受众。
+* **目标：** 为目标命名，并选择用于确定活动是否成功的成功量度。
+* **其他量度：** 配置要在报表中使用的其他成功量度。
+* **报表的受众：** 定义可在筛选报表时使用的受众。
 
 ## 其他元数据
 

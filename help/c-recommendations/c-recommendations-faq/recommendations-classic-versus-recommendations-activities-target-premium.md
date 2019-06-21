@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
 
 ## “推荐”作为选件
 
-您可以在 [!UICONTROL A/B测试] 中包括推荐(包括 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位])和 [!UICONTROL 体验定位] (XT)活动。
+您可以在 [!UICONTROL A/B 测试]（包括[!UICONTROL 自动分配]和[!UICONTROL 自动定位]）和[!UICONTROL 体验定位] (XT) 活动中包含推荐。
 
 此功能提供了几项全新的功能，例如：
 

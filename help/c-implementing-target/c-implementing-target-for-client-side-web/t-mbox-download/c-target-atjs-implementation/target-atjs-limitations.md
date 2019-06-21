@@ -7,8 +7,8 @@ solution: Target
 title: at.js 限制
 topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
-translation-type: tm+mt
-source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,7 +27,7 @@ at.js 与 mbox.js 之间存在一些差异。本节列出了部分差异和限�
 
 [!DNL mbox.js] 中的某些函数在 [!DNL at.js] 中不可用。[!DNL at.js] 已不再支持内部 [mbox.js 对象和方法](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)（例如 `mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories` 等）（示例：`mboxFactoryDefault`）。这是特意设计的，其目的是阻止您“盗用”[!DNL at.js] 来开发不受支持的功能，因为如果长期使用不受支持的功能，可能会损坏实施，并使其无法升级。本文档的 API 页面中只介绍了已公开的方法。因此：
 
-* 旧版、基于页面 [的集成](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) 与其他Adobe解决方案的集成可能不起作用，应升级到更新的服务器端集成。
+* 与其他 Adobe 解决方案的基于页面的旧版[集成](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)可能无法正常运行，应该将其升级到较新版本的服务器端集成。
 * [为 mbox.js 开发的自定义插件](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)可能无法正常使用，除非针对 [!DNL at.js] 对其进行更新。
 
    确保在测试中包含所有[插件](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)。

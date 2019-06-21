@@ -8,8 +8,8 @@ title: 自动化区段报表
 title-outputclass: premium
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 badge: premium
-translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
 
 ## 访问自动化区段报表 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 单击**[!UICONTROL 活动]**，然后在列表中单击所需的 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 活动。
+1. 单击 **[!UICONTROL 活动]**，然后在列表中单击所需的 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 活动。
 
    如果您拥有多个活动，可以通过从[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 报表源]、[!UICONTROL 体验编辑器]、[!UICONTROL 量度类型]和[!UICONTROL 活动来源]下拉列表中选择相应选项来筛选列表。
 
-1. 单击**[!UICONTROL 报表]**。
+1. 单击 **[!UICONTROL 报表]**。
 
    此时会显示“[!UICONTROL 摘要]”报表，该报表提供了有关活动性能的信息，由第一个屏幕图标来表示。其他两个图标表示两个个性化分析报表：自动化区段和重要属性。请注意，自动定位还有一个图形图标，表示“[!UICONTROL 摘要]”报表的图形视图。
 
@@ -41,7 +41,7 @@ source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
    >
    >[!UICONTROL 自动化区段]报表只有在激活活动至少 15 天后才能使用。在此初始阶段，您将无法访问此报表，也无法单击“[!UICONTROL 自动化区段]”图标。15 天过后，如果您的活动中有足够的个性化流量，将可以使用“[!UICONTROL 自动化区段]”报表。
 
-1. 激活活动 15 天后，您可以单击**[!UICONTROL 自动化区段]图标。**
+1. 激活活动 15 天后，您可以单击 **[!UICONTROL 自动化区段]图标。**
 
    ![](assets/model_attribute_ranking.png)
 
@@ -166,6 +166,6 @@ AP 和 AT 活动会为每个选件构建一个模型（对于 AP），以及为�
 * 查看个性化模型中使用的属性，并了解它们的重要性。
 * 确定您可以将其他数据点传递到 Target 的机会，以便为您的个性化提供更多信息。
 
-**对区段卡中出现的属性，是否存在任何逻辑？**
+**区段卡片中所显示属性的顺序是否存在任何逻辑？**
 
-否，卡的顺序仅基于上面描述的排名。卡内属性的顺序不基于任何逻辑。
+不存在，卡片的顺序只是基于上面描述的排名。卡片内属性的顺序并不基于任何逻辑。

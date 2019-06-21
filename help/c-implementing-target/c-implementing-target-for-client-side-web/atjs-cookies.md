@@ -1,23 +1,23 @@
 ---
-description: 有关. js2.x和at. js1.x处理cookie的详细信息
+description: 有关 at.js 2.x 和 at.js 1.x 如何处理 Cookie 的详细信息
 keywords: at.js;2.0;1.x;Cookie
-seo-description: 有关Adobe Target在. js2.x和. js1.x处理cookies的详细信息
+seo-description: 有关 Adobe Target at.js 2.x 和 at.js 1.x 如何处理 Cookie 的详细信息
 seo-title: Adobe Target at.js Cookie
 solution: Target
 subtopic: 入门指南
 title: at.js Cookie
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 3b2b8706ed23dd00fb7d0994e830ab8d4f492384
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # at.js Cookie{#at-js-cookies}
 
-有关. js2.x和at. js的信息。*x* Cookie 行为的信息。
+有关 at.js 2.x 和 at.js 1.*x* Cookie 行为的信息。
 
-## at. js2.x cookie行为
+## at.js 2.x Cookie 行为
 
 对于 at.js 版本 2.0.0，*仅支持第一方 Cookie*。如同在 at.js 1.*x* 中一样，第一方 Cookie“mbox”存储在 `clientdomain.com` 中，其中 `clientdomain` 是您的域。
 
@@ -31,9 +31,9 @@ at.js 会生成一个会话 ID 并将其存储在 Cookie 中。第一个响应�
 
 在 at.js 1.*x* 中，第三方 Cookie 存储在 `[CLIENTCODE].tt.omtrdc.net` 域中，第一方 Cookie 存储在 `clientdomain.com` 中。第一个请求返回尝试设置名为 `mboxSession` 和 `mboxPC` 的第三方 Cookie 的 HTTP 响应标头，而会使用额外的参数 (`mboxXDomainCheck=true`) 发送回重定向请求。如果浏览器接受第三方 Cookie，则该重定向请求将包含这些 Cookie，同时会返回选件。此工作流程是可行的，因为 at.js 1.*x* 使用 HTTP GET 方法。
 
-但是，在. js2.x中，HTTP GET不再使用，而是使用HTTP POST。HTTP POST 现在由 at.js 用来将 JSON 有效负荷（而不是键值参数）发送到 [!DNL Target] 边缘服务器。这意味着检查浏览器是否支持第三方 Cookie 的重定向请求现在会中断。这是因为 HTTP GET 请求是幂等事务，而 HTTP POST 是非幂等事务，不能任意重复。
+但是，在 at.js 2.x 中，不再使用 HTTP GET，而是使用 HTTP POST。HTTP POST 现在由 at.js 用来将 JSON 有效负荷（而不是键值参数）发送到 [!DNL Target] 边缘服务器。这意味着检查浏览器是否支持第三方 Cookie 的重定向请求现在会中断。这是因为 HTTP GET 请求是幂等事务，而 HTTP POST 是非幂等事务，不能任意重复。
 
-因此，在. js2.0.0中不支持第三方cookie和跨域跟踪。
+因此，at.js 2.0.0 中不支持第三方 Cookie 和跨域跟踪。
 
 ## at.js 1.*x* Cookie 行为 {#at-js-1x-cookie-behavior}
 
@@ -147,7 +147,7 @@ Cookie 有多个默认设置。您可以根据需要更改这些设置，但 Coo
 |--- |--- |
 | 智能防跟踪 | 有关更多信息，请参阅 WebKit 开源 Web 浏览器引擎网站上的[智能防跟踪](https://webkit.org/blog/7675/intelligent-tracking-prevention/)。 |
 | Cookie | Safari 如何处理 Cookie：<ul><li>用户直接访问的域中未包含的第三方 Cookie 从不会进行保存。这不是一种新的行为。Safari 中还不支持第三方 Cookie。</li><li>24 小时后会清除在用户直接访问的域中设置的第三方 Cookie。</li><li>如果第一方域被分类为跨站点跟踪用户，则第一方 Cookie 会在 30 天后清除。此问题可能适用于将用户在线发送到不同域的大型公司。Apple 并未明确说明将如何对这些域进行正确分类，或者如何确定域是否已被分类为跨站点跟踪用户。</li></ul> |
-| 机器学习以识别跨站点的域 | 来自 Apple：<br>机器学习分类器：机器学习模型用于根据收集的统计数据，对能够跨站点跟踪用户的顶级私人控制域进行分类。在收集的各种统计数据中，根据当前的跟踪实践，以下三个矢量证明具有强烈的分类信号：唯一域数量下的子资源、唯一域数量下的子框架以及重定向到的唯一域数量。所有数据收集和分类均在设备上进行。<br>但是，如果用户与作为顶级域的（通常称为第一方域）example.com 进行互动，则智能防跟踪会将此视为用户对该网站感兴趣的信号，并且会暂时调整其行为，如此时间轴所示：<br>如果用户在过去 24 小时内与 example.com 进行了交互，则当 `example.com` 是第三方时，其 Cookie 将可用。这允许“使用我的 X 帐户登录到 Y”登录方案。<ul><li>作为顶级域访问的域不会受到影响。例如，OKTA 等网站</li><li>在多个唯一域中识别属于当前页面的子域或子框架的域。</li></ul> |
+| 机器学习以识别跨站点的域 | 来自 Apple：<br>机器学习分类器：机器学习模型用于根据收集的统计数据，对能够跨站点跟踪用户的顶级私人控制域进行分类。在收集的各种统计数据中，根据当前的跟踪实践，以下三个矢量证明具有强烈的分类信号：唯一域数量下的子资源、唯一域数量下的子框架以及重定向到的唯一域数量。所有数据收集和分类均在设备上进行。<br>但是，如果用户与作为顶级域的（通常称为第一方域）example.com 进行互动，则智能防跟踪会将此视为用户对该网站感兴趣的信号，并且会暂时调整其行为，如此时间轴所示：<br>如果用户在过去 24 小时内与 example.com 进行了交互，则当 `example.com` 是第三方时，其 Cookie 将可用。这允许“使用我的 X 帐户登录到 Y”登录方案。<ul><li>作为顶级域访问的域不会受到影响。例如，OKTA 等网站</li><li>在多个唯一域中识别属于当前页面的子域或子框架的域</li></ul> |
 
 ### Adobe 将受到何种影响？
 

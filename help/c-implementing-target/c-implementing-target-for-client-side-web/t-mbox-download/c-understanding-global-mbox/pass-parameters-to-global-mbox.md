@@ -8,8 +8,8 @@ subtopic: 入门指南
 title: 将参数传递到全局 mbox
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
-translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
 * JSON 对象
 * 以与号 (&amp;) 分隔的列表
 
-使用这三种方法可验证参数是否正确传递。您还可以使用 [Adobe Experience Cloud 调试器](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html)来验证参数的传递。
+使用这三种方法可验证参数是否正确传递。您还可以使用 [Adobe Experience Cloud 调试器](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/debugger.html)来验证参数的传递情况。
 
 您必须先定义 JavaScript 函数，然后再向页面中添加全局 mbox。函数名称必须为 `targetPageParams`。
 

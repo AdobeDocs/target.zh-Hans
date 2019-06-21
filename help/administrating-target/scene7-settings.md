@@ -7,8 +7,8 @@ subtopic: 入门指南
 title: Scene7 设置
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,14 +31,14 @@ Target Standard 可与 Adobe Scene7 集成以便在内容库中提供数字资�
 
 要与 Scene7 集成，您需要指定一些 Scene7 信息。
 
-1. 单击**[!UICONTROL 设置]** &gt; **[!UICONTROL Scene7 设置]**。
+1. 单击 **[!UICONTROL 设置]** &gt; **[!UICONTROL Scene7 设置]**。
 1. 指定以下 Scene7 帐户信息：
 
-   **Scene7 地区：**您的 Scene7 帐户所在的地区：北美洲、欧洲或亚洲。
+   **Scene7 地区：** 您的 Scene7 帐户所在的地区：北美洲、欧洲或亚洲。
 
-   **Scene7 临时文件夹：**位于 Target 文件夹以外且手动上传到 Scene7 的内容所在的位置。
+   **Scene7 临时文件夹：** 位于 Target 文件夹以外且手动上传到 Scene7 的内容所在的位置。
 
-   **Scene7 电子邮件地址：**用于登录到 Scene7 的电子邮件地址。
+   **Scene7 电子邮件地址：** 用于登录到 Scene7 的电子邮件地址。
 
-   **Scene7 密码：**用于登录到 Scene7 的密码。
-1. 单击**[!UICONTROL 提交]**。
+   **Scene7 密码：** 用于登录到 Scene7 的密码。
+1. 单击 **[!UICONTROL 提交]**。

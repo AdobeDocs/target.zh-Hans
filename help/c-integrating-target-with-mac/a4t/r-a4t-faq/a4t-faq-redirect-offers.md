@@ -7,8 +7,8 @@ solution: Target
 title: 重定向选件 - A4T 常见问题解答
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
-translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,15 +27,15 @@ source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
 
 * Experience Cloud 访客 ID 服务：[!DNL visitorAPI.js] 版本 2.3.0 或更高版本。
 * Adobe Analytics：[!DNL appMeasurement.js] 版本 2.1。
-* Adobe Target： [!DNL at.js] 版本1.6.2或更高版本。
+* Adobe Target：[!DNL at.js] 版本 1.6.2 或更高版本。
 
    [!DNL mbox.js] 库不支持将重定向选件与 A4T 配合使用。您的实施必须使用 [!DNL at.js]。
 
 具有重定向选件的页面和访客被重定向到的页面都必须包含这三个库。
 
-## 为什么A4T与Analytics之间有时存在数据差异？
+## 为什么 A4T 与 Analytics 之间有时会出现数据差异？
 
-预期存在一些数据差异。有关更多信息，请参阅 [在使用和不使用A4T时Target与Analytics之间的预期数据差异](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)。
+有些数据差异是预期行为。有关更多信息，请参阅[使用和不使用 A4T 时，Target 和 Analytics 之间的预期数据差异](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)。
 
 ## 为何有时会同时计入原始页面和重定向页面上的查看次数？{#section_B8F6CC2190B84CF08D945E797C5AF07B}
 

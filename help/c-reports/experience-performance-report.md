@@ -7,8 +7,8 @@ solution: Target
 title: 体验性能报表 (MVT)
 topic: Premium
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 “体验性能”报表显示了活动中每个体验的表现。此报表包含有关参加者数量、转化率、提升度和置信度的信息。
 
-您可以选择一个或多个体验来进行比较。单击某个体验，然后选择**[!UICONTROL 预览]，以在浏览器选项卡中打开该体验。**
+您可以选择一个或多个体验来进行比较。单击某个体验，然后选择 **[!UICONTROL 预览]，以在浏览器选项卡中打开该体验。**
 
 ![](assets/experienceperformancetable.png)
 

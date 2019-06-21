@@ -4,8 +4,8 @@ seo-description: 有关如何将 at.js 安全地部署到非生产环境的信�
 seo-title: 将 at.js 部署到非生产环境
 title: 将 at.js 部署到非生产环境
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
-translation-type: tm+mt
-source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
 >
 >除了以下信息外，您还可以使用适用于 Google Chrome 的 [Adobe Target VEC 助手浏览器扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
-[Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en) 是一个免费的 Chrome 扩展，可使您将请求重定向到替代 URL。
+[Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en) 是一个免费的 Chrome 扩展，您可以通过它将请求重定向到替代 URL。
 
 您可以先将 at.js 部署到一个 URL，然后使用 Requestly 将当前的 mbox.js 文件 URL 映射到新的 at.js URL。之后，每当网站尝试加载 mbox.js 时，它都会实际加载 at.js。Adobe 也可以通过此方法更加轻松地为您提供支持。
 

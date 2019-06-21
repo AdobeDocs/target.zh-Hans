@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: 高级
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 badge: premium
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -36,24 +36,24 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 **设置报表组：**
 
-1. 在 AP 活动的“体验”页面上，单击**[!UICONTROL 管理内容]图标。**
+1. 在 AP 活动的“体验”页面上，单击 **[!UICONTROL 管理内容]图标。**
 
    ![](assets/ap_manage_content.png)
 
 1. 单击“[!UICONTROL **管理内容]”对话框顶部的**[!UICONTROL 选件]选项卡。
-1. （视情况而定）将特定体验添加到报表组，方法是将鼠标悬停在所需的选件上，然后单击**[!UICONTROL 报表组]文件夹图标。**
+1. （视情况而定）将特定体验添加到报表组，方法是将鼠标悬停在所需的选件上，然后单击 **[!UICONTROL 报表组]文件夹图标。**
 
    ![](assets/ap_manage_content_2.png)
 
-1. （视情况而定）在报表组中批量添加体验，方法是选中相关体验的复选框，然后单击对话框右上角的**[!UICONTROL 报表组]文件夹图标。**
+1. （视情况而定）在报表组中批量添加体验，方法是选中相关体验的复选框，然后单击对话框右上角的 **[!UICONTROL 报表组]文件夹图标。**
 
    ![](assets/ap_reporting_groups.png)
 
-1. 要将所选选件分配到现有报表组，请选择**[!UICONTROL 现有]**，从下拉列表中选择所需的报表组，然后单击**[!UICONTROL 应用]**。
+1. 要将所选选件分配到现有报表组，请选择 **[!UICONTROL 现有]**，从下拉列表中选择所需的报表组，然后单击 **[!UICONTROL 应用]**。
 
    或
 
-   要创建新报表组以将所选选件分配到该报表组，请选择**[!UICONTROL 新建]**，为新报表组命名，然后单击**[!UICONTROL 应用]**。
+   要创建新报表组以将所选选件分配到该报表组，请选择 **[!UICONTROL 新建]**，为新报表组命名，然后单击 **[!UICONTROL 应用]**。
 
    ![](assets/ap_manage_content_3.png)
 

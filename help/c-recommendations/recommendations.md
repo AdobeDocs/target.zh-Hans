@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -59,8 +59,8 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target基础知识网络研讨会：推荐介绍 {#intro-to-recs}
+## Adobe Target 基础知识网络研讨会：Recommendations 简介{#intro-to-recs}
 
-推荐网络研讨会简介包括深入探索如何利用 [!DNL Adobe Target Recommendations]价值。了解这种 [!DNL Target] 活动如何自动显示基于先前访问的实时建议，从而自动显示可能吸引客户的产品或内容。进一步了解 [!DNL Target] UI，以了解如何构建 [!DNL Recommendations] 活动的分步概述。
+“Recommendations 简介”网络研讨会包括对如何利用 [!DNL Adobe Target Recommendations] 价值的深入探讨。了解此 [!DNL Target] 活动如何通过基于先前的访问优化实时建议来自动显示客户可能感兴趣的产品或内容。此外，深入了解 [!DNL Target] UI，获取有关如何构建 [!DNL Recommendations] 活动的分步概述。
 
-[推荐介绍](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Recommendations 简介](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

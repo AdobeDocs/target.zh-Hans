@@ -7,15 +7,15 @@ solution: Target
 title: 全局 mbox 常见问题解答
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # 全局 mbox 常见问题解答{#global-mbox-frequently-asked-questions}
 
-关于全局mbox的常见问题解答(FAQ)列表。
+有关全局 mbox 的常见问题解答 (FAQ) 列表。
 
 ## 如果我设置了跨多个域的 Target 帐户，那么我是否可以拥有多个全局 mbox？{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
@@ -23,7 +23,7 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
 您可以通过向活动中添加 URL 规则来限制活动运行的位置。有关更多信息，请参阅[在相似页面上包含相同体验](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)。
 
-您还可以使用 [targetpageParams在页面上传递参数](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) ，然后在 [!UICONTROL Visual Experience Composer] (CMS)中的“配置URL”部分中选择那些参数，或者在基于表单的Experience Composer中将参数添加为“细化”。
+您还可以在页面上使用 [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 来传递参数，然后在 [!UICONTROL 可视化体验编辑器] (VEC) 的“配置 URL”部分选择这些参数，或者在基于表单的体验编辑器中通过将参数添加为“细化”来选择这些参数。
 
 ## 如何在 Target 全局 mbox 中传递收入数据？{#section_17AEA933BADA4D169CCEDF5833C41306}
 
@@ -43,6 +43,6 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
 上图中的选项包含以下设置：
 
-* **您希望如何衡量此活动：**收入
-* **报表的默认视图：**每位访客带来的收入 (RPV)
+* **您希望如何衡量此活动：** 收入
+* **报表的默认视图：** 每位访客带来的收入 (RPV)
 * **受众采取的哪项操作可指示您的目标已达到？** 已查看 mbox，target-global-mbox

@@ -8,8 +8,8 @@ subtopic: 多变量测试
 title: A4T 报表
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
-translation-type: tm+mt
-source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
 
 在 Analytics 和 Target Standard/Premium 中，均可以查看活动的报表。
 
-有关使用 Analytics for Target 进行报告的最佳做法，请[访问此 Adobe Spark 页面](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
+要了解使用 Analytics for Target 的报表最佳实践，[请访问此 Adobe Spark 页面](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
 
 ## 概述 {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -38,14 +38,14 @@ Analytics 报表和 Target 报表衡量的都是参加者（参加测试的人�
 
 在 Analytics 的左侧菜单中，单击 **[!UICONTROL Target]** &gt; **[!UICONTROL Target 活动]**。在 Target 中，活动的报表会自动显示 Analytics 数据、量度和区段。从网站收集数据大约一小时后，数据便会显示在这些报表中。报表中的所有量度、受众和值都来自您在设置活动时选择的报表包。
 
-在 Analytics 中，可使用“目标活动”报表来查看 Target 活动的结果。Test&amp;Target（旧版）报表提供有关旧版 Test&amp;Target 插件样式页面集成的信息，该报表中不包含 Analytics for Target 数据。在“活动”报表中，可查看有关 Target 体验的信息。单击**[!UICONTROL 量度]**，然后选择**目标]量度类型。[!UICONTROL **您的报表有两个可用的量度：
+在 Analytics 中，可使用“目标活动”报表来查看 Target 活动的结果。Test&amp;Target（旧版）报表提供有关旧版 Test&amp;Target 插件样式页面集成的信息，该报表中不包含 Analytics for Target 数据。在“活动”报表中，可查看有关 Target 体验的信息。单击 **[!UICONTROL 量度]**，然后选择 **目标]量度类型。[!UICONTROL ** 您的报表有两个可用的量度：
 
-* **活动参加：**匹配 Target 报表中的参加者数量。
-* **活动转化：**匹配 Target 报表中的自定义转化数量。
+* **活动参加：** 匹配 Target 报表中的参加者数量。
+* **活动转化：** 匹配 Target 报表中的自定义转化数量。
 
 >[!NOTE]
 >
->Analytics 中还提供了 Target 提升度和置信度详细信息。有关更多信息，请参阅 Adobe Analytics 产品文档中的 [Target 提升度和置信度报表类型](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html)。
+>Analytics 中还提供了 Target 提升度和置信度详细信息。有关更多信息，请参阅 Adobe Analytics 产品文档中的 [Target 提升度和置信度报表类型](https://marketing.adobe.com/resources/help/zh_CN/reference/report_target_lift_confidence.html)。
 
 >[!IMPORTANT]
 >
@@ -66,11 +66,11 @@ Analytics 报表和 Target 报表衡量的都是参加者（参加测试的人�
 
 单击可直接从活动报表页面查看完整的 Analytics 报表。
 
-## Analysis Workspace中的报告 {#reports-in-analysis-workspace}
+## Analysis Workspace 中的报表 {#reports-in-analysis-workspace}
 
-您可以使用 [!DNL Adobe Analysis Workspace] 更深入地挖掘数据，或发现隐藏在表面之下的洞察。
+您可以使用 [!DNL Adobe Analysis Workspace] 来深入挖掘和可视化数据，或揭示隐藏在表面下的洞察。
 
-有关详细信息和示例，请打开 [Analytics&amp; Target：Adobe Experience League提供](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)的分析教程最佳实践。
+有关详细信息和示例，请打开由 Adobe Experience League 提供的 [Analytics &amp; Target：Analysis 最佳实践教程](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
 
 ## 活动创建 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 

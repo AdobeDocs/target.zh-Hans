@@ -8,15 +8,15 @@ subtopic: 入门指南
 title: 将数据导入 Target 的方法
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
-translation-type: tm+mt
-source-git-commit: df0404540bbbcfd537c5869cb78603fc3372ec44
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # 将数据导入 Target 的方法{#methods-to-get-data-into-target}
 
-有关可用于将数据获取到Target中的不同方法的信息，包括页面参数、页面内配置文件属性、脚本配置文件属性、数据提供者、批量配置文件更新API、单个配置文件更新API和客户属性。
+此信息介绍了可用于将数据导入 Target 的不同方法，包括页面参数、页面内配置文件属性、脚本配置文件属性、数据提供程序、批量配置文件更新 API、单个配置文件更新 API 和客户属性。
 
 ## 页面参数（也称为“mbox 参数”）{#section_5A297816173C4FE48DC4FE03860CB42B}
 
@@ -58,7 +58,7 @@ source-git-commit: df0404540bbbcfd537c5869cb78603fc3372ec44
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
-   其他所有字符都必须采用 URL 编码。标准指定以下格式( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) )，如下所示：
+   其他所有字符都必须采用 URL 编码。该标准规定了以下格式 ([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt))，如下图所示：
 
    ![](assets/ietf1.png)
 
@@ -227,8 +227,8 @@ at.js 不会尝试缓存数据。如果数据提供程序仅提取一次数据�
 
 ### 培训视频：
 
-* [在 Adobe Target 中使用数据提供程序](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [在 Adobe Target 中实施数据提供程序](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [在 Adobe Target 中使用数据提供程序](https://helpx.adobe.com/cn/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [在 Adobe Target 中实施数据提供程序](https://helpx.adobe.com/cn/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## 批量配置文件更新 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
@@ -240,11 +240,11 @@ at.js 不会尝试缓存数据。如果数据提供程序仅提取一次数据�
 * 客户属性数据可以与 Analytics 共享。批量配置文件更新只能在 Target 中使用。
 * 客户属性支持为尚未使用 Target 的用户创建配置文件。批量配置文件更新 API 仅更新现有的 Target 配置文件。
 * 客户属性需要使用 Experience Cloud ID (ECID)。批量配置文件更新 API 需要 TNT ID 或 `mbox3rdPartyId`。
-* 不能在以下位置发送以下字符 `mbox3rdPartyID`：加号(+)和正斜杠(/)。
+* 不能在 `mbox3rdPartyID` 中发送下列字符：加号 (+) 和正斜线 (/)。
 
 ### 格式
 
-.csv 文件必须通过访客的 Target PCID 或 mboxThirdPartyId  对每个访客进行引用。不支持 Experience Cloud ID (ECID)。所有配置文件属性/值都可通过 API 创建和更新。格式详细信息可在 API 文档中找到。
+.csv 文件必须通过访客的 Target PCID 或 mboxThirdPartyId 对每个访客进行引用。不支持 Experience Cloud ID (ECID)。所有配置文件属性/值都可通过 API 创建和更新。格式详细信息可在 API 文档中找到。
 
 ### 使用示例
 
@@ -336,8 +336,8 @@ Target Standard 客户可以使用 5 个属性，Target Premium 客户可以使�
 
 ### 代码示例
 
-有关详细信息，请参见[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)。
+有关详细信息可在[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/zh_CN/mcloud/t_crs_usecase.html)中找到。
 
 ### 相关信息链接
 
-[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/zh_CN/mcloud/t_crs_usecase.html)

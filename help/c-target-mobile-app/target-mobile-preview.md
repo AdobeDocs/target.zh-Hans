@@ -7,8 +7,8 @@ solution: Target
 title: Target 移动设备预览
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
-translation-type: tm+mt
-source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,14 +27,14 @@ source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
 
 ## 先决条件 {#section_A763C564C9E84B0EB448237B5B1E4068}
 
-1. **使用受支持的 SDK 版本：**移动设备预览功能要求您在相应的应用程序中下载并安装适当的 Adobe Mobile SDK 4.14（或更高）版本。
+1. **使用受支持的 SDK 版本：** 移动设备预览功能要求您在相应的应用程序中下载并安装适当的 Adobe Mobile SDK 4.14（或更高）版本。
 
    有关下载适当 SDK 的说明，请参阅：
 
-   * **iOS：**《适用于 Experience Cloud 解决方案的 iOS SDK 4.x》[](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html)指南中的*开始之前*部分。
-   * **Android：**《适用于 Experience Cloud 解决方案的 Android SDK 4.x》指南中的[开始之前](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*部分。*
+   * **iOS：***适用于 Experience Cloud 解决方案的 iOS SDK 4.x*指南中的[开始之前](https://marketing.adobe.com/resources/help/zh_CN/mobile/ios/requirements.html)。
+   * **Android：**[适用于 Experience Cloud 解决方案的 Android SDK 4.x](指南中的)开始之前*https://marketing.adobe.com/resources/help/zh_CN/mobile/android/requirements.html*。
 
-1. **设置 URL 方案：**预览链接需使用 URL 方案来打开应用程序。您必须为预览指定一个唯一的 URL 方案。
+1. **设置 URL 方案：** 预览链接需使用 URL 方案来打开应用程序。您必须为预览指定一个唯一的 URL 方案。
 
    下图显示了 iOS 上的一个示例：
 
@@ -46,7 +46,7 @@ source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
 
 1. **跟踪 Adobe 深层链接**
 
-   **iOS：**在应用程序代理中，如果要求代理使用上一步中指定的 URL 方案打开资源，请调用 `[ADBMobile trackAdobeDeepLink:url`。
+   **iOS：** 在应用程序代理中，如果要求代理使用上一步中指定的 URL 方案打开资源，请调用 `[ADBMobile trackAdobeDeepLink:url`。
 
    下面是一个代码片段示例：
 
@@ -62,7 +62,7 @@ source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
    } 
    ```
 
-   **Android：**在应用程序中，如果要求调用方使用上一步中指定的 URL 方案打开资源，请调用 `Config.trackAdobeDeepLink(URL);`。
+   **Android：** 在应用程序中，如果要求调用方使用上一步中指定的 URL 方案打开资源，请调用 `Config.trackAdobeDeepLink(URL);`。
 
    ```
     private Boolean shouldOpenDeeplinkUrl() { 
@@ -85,11 +85,11 @@ source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
 
 ## 生成预览链接 {#section_D9D58173FFF34E9BB75EBF357273F128}
 
-1. 在 Target UI 中，单击**[!UICONTROL 更多选项]**图标（三个垂直省略号），然后选择**[!UICONTROL 创建移动设备预览]**。
+1. 在 Target UI 中，单击 **[!UICONTROL 更多选项]** 图标（三个垂直省略号），然后选择 **[!UICONTROL 创建移动设备预览]**。
 
    ![](assets/mobile-preview-create.png)
 
-1. 选择要预览的活动，然后单击**[!UICONTROL 生成移动设备预览链接]**。
+1. 选择要预览的活动，然后单击 **[!UICONTROL 生成移动设备预览链接]**。
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
 
    ![](assets/mobile-preview-enter-url-scheme.png)
 
-1. 单击**[!UICONTROL 生成移动设备预览链接]**，然后复制该链接。
+1. 单击 **[!UICONTROL 生成移动设备预览链接]**，然后复制该链接。
 
    ![](assets/mobile-preview-generate-and-copy.png)
 
@@ -119,7 +119,7 @@ source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
 
    您的应用程序随即会打开，并启动 Target 移动设备预览模式。
 
-1. 选择要查看的体验组合，然后单击**[!UICONTROL 启动体验]**。
+1. 选择要查看的体验组合，然后单击 **[!UICONTROL 启动体验]**。
 
    |![移动设备预览 1](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-1.png)|![移动设备预览 2](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-france.png)|![移动设备预览 3](/help/c-target-mobile-app/assets/mobile-preview-experience-result-1-shipfree.png)|
 |![移动设备预览 4](/help/c-target-mobile-app/assets/mobile-preview-experience-selection-2.png)|![移动设备预览 5](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-aus.png)|![移动设备预览 6](/help/c-target-mobile-app/assets/mobile-preview-experience-result-2-10off.png)|

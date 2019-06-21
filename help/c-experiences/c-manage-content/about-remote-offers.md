@@ -7,8 +7,8 @@ solution: Target
 title: 创建远程选件
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
-translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
 
 **创建远程选件：**
 
-1. 单击**[!UICONTROL 选件]**，然后选择**代码选件]选项卡。[!UICONTROL **
-1. 单击**[!UICONTROL 创建]** &gt; **[!UICONTROL 远程选件]**。
+1. 单击 **[!UICONTROL 选件]**，然后选择 **代码选件]选项卡。[!UICONTROL **
+1. 单击 **[!UICONTROL 创建]** &gt; **[!UICONTROL 远程选件]**。
 
    ![](assets/remote_offer_ui.png)
 
@@ -49,7 +49,7 @@ source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
    | 已缓存 | 已缓存的远程选件的内容是从 Target 中提供的。<br>[!DNL Target] 每两小时从远程 URL 中提取一次内容，然后将该内容存储到 Target 中。如果访客加载的网站中具有包含远程选件的体验，则该选件会由 Target 交付。<br>已缓存的远程选件可提供增强的安全性，因为用户在登录到 Target 后便无法更改内容。要更改内容，用户需登录到内容管理系统或其他系统并在其中更改内容。<br>您能够为已缓存的远程选件指定绝对 URL 或相对 URL。 |
    | 动态 | 动态远程选件的内容是从内容管理系统或其他系统中提供的，而不是从 Target 中提供。<br>当访客加载的网站具有包含远程选件的体验时，您可能不希望由 Target 定期缓存并交付内容。您而是可能希望调用托管内容的系统，然后传入特定信息，以便能够为每位用户返回动态或不同的选件。<br>例如，如果某位用户登录到一个信用卡网站，且该网站中具有包含动态远程选件的体验，则您能够将相应参数传递到 URL 中，以获取该用户的帐户信息。随后，网站便会提供特定于该用户的信息，例如账户余额。<br>单击“[!UICONTROL 添加参数]”可添加一个或多个 mbox 或者请求参数。 |
 
-1. 单击**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL 保存]**。
 
 ## 使用远程选件的最佳实践 {#section_7718512D08E14121B6F6B8C38134F4BC}
 

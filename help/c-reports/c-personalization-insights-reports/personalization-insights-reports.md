@@ -8,8 +8,8 @@ title: 个性化分析报表
 title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
-translation-type: tm+mt
-source-git-commit: 6cd0179b3fc1df8ec9ae1cbecd10749f751d9cd8
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 6cd0179b3fc1df8ec9ae1cbecd10749f751d9cd8
 在 AP 或自动定位模型中使用的“[!UICONTROL 个性化分析]”中显示有两种类型的属性：
 
 * **Target 自动收集的属性：** Target 使用基础数据集在 AP 和 AT 活动中构建其个性化算法，这些算法将反映在个性化分析中。请参阅[为 Target 个性化算法收集数据](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)，以了解数据类型、示例属性及其[!UICONTROL 个性化分析]命名约定。请注意，这些属性虽然会被考虑在内，但单个活动的模型可能不会在最终模型中使用所有这些属性。
-* **传递给 Target 的属性：**请参阅[为 Target 个性化算法上传数据](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)。
+* **传递给 Target 的属性：** 请参阅[为 Target 个性化算法上传数据](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)。
 
 Target 为您提供了许多方法，用于将其他数据传递给 Target，以丰富用于在 AP 和 AT 活动中构建其个性化算法的基础数据集：
 
@@ -60,4 +60,4 @@ Target 为您提供了许多方法，用于将其他数据传递给 Target，以
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-有关更多信息，请参阅 [使用Adobe Target中的个性化洞察报告](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。
+有关更多信息，请参阅[在 Adobe Target 中使用个性化分析报表](https://helpx.adobe.com/cn/target/kt/using/personalization-insights-report-feature-video-use.html)。

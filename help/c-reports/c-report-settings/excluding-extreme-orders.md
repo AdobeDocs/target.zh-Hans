@@ -7,8 +7,8 @@ solution: Target
 title: 排除极端值
 topic: Premium
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,10 +31,10 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 **要从报表中排除极端值，请执行以下操作：**
 
-1. 打开包含收入或参与度量度类型的活动，然后单击**[!UICONTROL 报表]**选项卡。
+1. 打开包含收入或参与度量度类型的活动，然后单击 **[!UICONTROL 报表]** 选项卡。
 1. 单击齿轮图标，以显示“[!UICONTROL 报表设置]”选项。
 
    ![步骤结果](assets/exclude_extreme_values.png)
 
-1. 根据需要打开或关闭**[!UICONTROL 排除极端值]**选项。
-1. 单击**[!UICONTROL 保存设置]**。
+1. 根据需要打开或关闭 **[!UICONTROL 排除极端值]** 选项。
+1. 单击 **[!UICONTROL 保存设置]**。

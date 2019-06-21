@@ -7,8 +7,8 @@ solution: Target
 title: 旧版 SiteCatalyst 与 Test&Target 集成 - A4T 常见问题解答
 topic: Standard
 uuid: ba7180ba-3919-4427-9bb9-44348b5cda61
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 

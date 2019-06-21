@@ -1,11 +1,11 @@
 ---
 description: “推荐”活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。“推荐”有助于将客户导向到他们可能还不知道的相关项目。
 seo-description: “推荐”活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。“推荐”有助于将客户导向到他们可能还不知道的相关项目。
-seo-title: 推荐 activity（活动）
+seo-title: 推荐活动
 title: “推荐”活动
 uuid: 63bd6640-e8fd-472e-bd42-0fa540a54f11
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 

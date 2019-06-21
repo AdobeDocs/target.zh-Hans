@@ -6,8 +6,8 @@ solution: Target
 title: 删除 Target Cookie
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
-translation-type: tm+mt
-source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -21,14 +21,14 @@ source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
 **要从 Internet Explorer 删除 Target Cookie，请执行以下操作：**
 
 1. 从 Internet Explorer 的“工具”菜单中，选择 **[!UICONTROL Internet 选项]**。
-1. 打开“常规”选项卡，在[!UICONTROL 浏览历史记录]部分，单击**[!UICONTROL 设置]** &gt; **[!UICONTROL 查看文件]**。
+1. 打开“常规”选项卡，在[!UICONTROL 浏览历史记录]部分，单击 **[!UICONTROL 设置]** &gt; **[!UICONTROL 查看文件]**。
 1. 选择 mbox Cookie。
-1. 从“文件”菜单中，选择**[!UICONTROL 删除]**，或选择该文件并按 **[!UICONTROL Delete 键]**。
+1. 从“文件”菜单中，选择 **[!UICONTROL 删除]**，或选择该文件并按 **[!UICONTROL Delete 键]**。
    **要从 Firefox 删除 Target Cookie，请执行以下操作：**
 
-1. 选择**工具** &gt; **选项** &gt; **隐私**。
+1. 选择 **工具** &gt; **选项** &gt; **隐私**。
 
-1. 点击**查看 Cookie**。
+1. 点击 **查看 Cookie**。
 1. 按 Cookie 名称进行排序，以找到 Target Cookie。
-1. 选择与您所预览的站点对应的 Cookie，点击**删除 Cookie**。
+1. 选择与您所预览的站点对应的 Cookie，点击 **删除 Cookie**。
 

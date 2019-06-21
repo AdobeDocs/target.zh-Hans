@@ -7,8 +7,8 @@ solution: Target
 title: 多页面活动
 topic: 高级
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,8 +29,8 @@ source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
 
 要将页面添加到测试，请执行以下操作：
 
-1. 单击**[!UICONTROL 配置]齿轮图标。**
-1. 单击**[!UICONTROL 添加其他页面]**。
+1. 单击 **[!UICONTROL 配置]齿轮图标。**
+1. 单击 **[!UICONTROL 添加其他页面]**。
 
    屏幕左侧会显示一个导航栏。
 
@@ -38,7 +38,7 @@ source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
 
 1. 使用该导航栏指定页面并设置默认页面。
 
-   单击**[!UICONTROL 添加页面]可添加其他页面。**
+   单击 **[!UICONTROL 添加页面]可添加其他页面。**
 
    单击三个垂直省略号图标可显示“操作”菜单：
 

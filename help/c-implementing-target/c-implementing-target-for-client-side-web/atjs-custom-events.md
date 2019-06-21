@@ -1,14 +1,14 @@
 ---
-description: '有关. js的自定义事件的信息。 '
+description: '有关 at.js 自定义事件的信息。 '
 keywords: adobe.target.notification;元素;选择器;通知;扩展
-seo-description: 有关Adobe Target在. js JavaScript库中的自定义事件的信息。
-seo-title: 有关Adobe Target在. js JavaScript库中的自定义事件的信息。
+seo-description: 有关 Adobe Target at.js JavaScript 库自定义事件的信息。
+seo-title: 有关 Adobe Target at.js JavaScript 库自定义事件的信息。
 solution: Target
 subtopic: 入门指南
 title: at.js 自定义事件
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 46e49267ba602a96b45ddb54ff99017423e5bf82
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 

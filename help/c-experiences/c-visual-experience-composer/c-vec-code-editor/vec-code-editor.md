@@ -8,8 +8,8 @@ subtopic: 代码编辑器
 title: 修改
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
-translation-type: tm+mt
-source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
 
    ![](assets/codeeditor_viewchange.png)
 
-* 编辑现有的操作。将鼠标悬停在所需的修改上，然后单击**[!UICONTROL 修改]图标。**
+* 编辑现有的操作。将鼠标悬停在所需的修改上，然后单击 **[!UICONTROL 修改]图标。**
 
    ![](assets/codeeditor_edit.png)
 
@@ -42,11 +42,11 @@ source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
 
    ![](assets/codeeditor_changechange1.png)
 
-* 删除现有的操作。将鼠标悬停在所需的修改上，然后单击**[!UICONTROL 删除]图标。**
+* 删除现有的操作。将鼠标悬停在所需的修改上，然后单击 **[!UICONTROL 删除]图标。**
 
    ![](assets/codeditor_delete.png)
 
-* 添加新修改。单击**[!UICONTROL 添加修改]或“+”图标，然后按照以下所述指定更改。**
+* 添加新修改。单击 **[!UICONTROL 添加修改]或“+”图标，然后按照以下所述指定更改。**
 
    ![](assets/codeeditor_new.png)
 
@@ -62,7 +62,7 @@ source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
 
 ## 添加修改 {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
-1. 要显示所选体验的[!UICONTROL 修改]页面，请在 VEC 中单击**[!UICONTROL 修改]** &lt;/&gt; 图标。
+1. 要显示所选体验的[!UICONTROL 修改]页面，请在 VEC 中单击 **[!UICONTROL 修改]** &lt;/&gt; 图标。
 
    ![](assets/codeeditor_icon_big.png)
 
@@ -86,7 +86,7 @@ source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
 
    ![](assets/codeeditor_page_mods_add.png)
 
-1. 从**[!UICONTROL 修改类型]下拉列表中，选择所需类型：**
+1. 从 **[!UICONTROL 修改类型]下拉列表中，选择所需类型：**
 
    | 修改类型 | 详细信息 |
    |--- |--- |
@@ -108,7 +108,7 @@ source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
 
 ![](assets/codeeditor_custom.png)
 
-使用**[!UICONTROL 自定义代码]选项卡可执行以下操作：**
+使用 **[!UICONTROL 自定义代码]选项卡可执行以下操作：**
 
 * 使用内联 JavaScript，或链接到外部 JavaScript 文件
 

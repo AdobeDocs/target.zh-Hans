@@ -4,7 +4,7 @@ solution: Target
 title: 使用 Experience Cloud 调试器调试 Target
 seo-title: 使用 Experience Cloud 调试器调试 Target
 topic: Standard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
@@ -26,6 +26,6 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ## 其他资源
 
-+ [Chrome Store中的Adobe Experience Cloud调试器](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [Target帮助文档疑难解答](https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshooting_target.html)
-+ [如何使用Experience Cloud调试器视频](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Chrome Store 中的 Adobe Experience Cloud 调试器](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
++ [Target 故障诊断帮助文档](https://marketing.adobe.com/resources/help/zh_CN/target/target/r_troubleshooting_target.html)
++ [“如何使用 Experience Cloud 调试器”视频](https://helpx.adobe.com/cn/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)

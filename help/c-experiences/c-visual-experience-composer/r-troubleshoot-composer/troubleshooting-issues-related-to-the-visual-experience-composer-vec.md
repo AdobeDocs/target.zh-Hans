@@ -6,8 +6,8 @@ seo-title: 对与可视化体验编辑器有关的问题进行故障诊断
 solution: Target
 title: 对与可视化体验编辑器有关的问题进行故障诊断
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
-translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
 
 如果增强型体验编辑器中出现这些问题，请尝试关闭增强型体验编辑器并改用可视化体验编辑器。
 
-要禁用增强型体验编辑器，请转到**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**，然后关闭**[!UICONTROL 启用增强型体验编辑器]**选项。
+要禁用增强型体验编辑器，请转到 **[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**，然后关闭 **[!UICONTROL 启用增强型体验编辑器]** 选项。
 
 某些用户会在控制台中看到以下错误消息：
 
@@ -67,14 +67,14 @@ source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
 1. 关闭增强型体验编辑器。
 1. 在 Chrome 或 Firefox 上安装 Requestly 浏览器扩展程序。
 1. 打开该扩展程序，并执行以下操作以对其进行配置：
-1. 选择**[!UICONTROL 修改标头]**。
+1. 选择 **[!UICONTROL 修改标头]**。
 1. 输入以下内容：
 
    * 规则名称
    * 修改规则
 
-      * 将**[!UICONTROL 添加]**切换为**[!UICONTROL 删除]**。
-      * 将**[!UICONTROL 请求]**切换为**[!UICONTROL 响应]**。
+      * 将 **[!UICONTROL 添加]** 切换为 **[!UICONTROL 删除]**。
+      * 将 **[!UICONTROL 请求]** 切换为 **[!UICONTROL 响应]**。
       * 输入“X-Frame-Options”作为标头名称。
       * 重复执行上述步骤，输入“x-frame-options”作为标头名称。
 
@@ -82,11 +82,11 @@ source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
          >
          >通过 Requestly 处理的标头区分大小写。
 
-      * 将**[!UICONTROL 等于]**更改为**包含]以作为源 URL 的条件，并输入您尝试在 VEC 中加载的活动的 URL。[!UICONTROL **
+      * 将 **[!UICONTROL 等于]** 更改为 **包含]以作为源 URL 的条件，并输入您尝试在 VEC 中加载的活动的 URL。[!UICONTROL **
       ![](assets/chrome_extension.png)
 
 
-1. 单击**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL 保存]**。
 
    ![](assets/requestly.png)
 
@@ -96,12 +96,12 @@ source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
 
 1. 在 Firefox 上安装 Modify Response Headers，然后重新启动浏览器。
 1. 从 Firefox 扩展程序中，选择 Modify Response Headers 扩展程序。
-1. 单击**[!UICONTROL 首选项]**。
-1. 从“操作”下拉菜单中选择**[!UICONTROL 筛选器]。**
+1. 单击 **[!UICONTROL 首选项]**。
+1. 从“操作”下拉菜单中选择 **[!UICONTROL 筛选器]。**
 1. 在“标头名称”字段中，输入：**[!UICONTROL X-Frame-Options]**。
 1. 重复执行步骤 4 和 5，添加一个使用 **[!UICONTROL x-frame-options]** 的筛选器。
-1. 单击**[!UICONTROL 添加]**。
-1. 单击**[!UICONTROL 开始]**。
+1. 单击 **[!UICONTROL 添加]**。
+1. 单击 **[!UICONTROL 开始]**。
 
 ![](assets/firefox_extension.png)
 
@@ -112,7 +112,7 @@ source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
 * 浏览器不受支持。
 * 浏览器阻止安全网站上的不安全页面。
 
-   请单击浏览器地址栏中 URL 左侧的图标，然后再单击**[!UICONTROL 在此页面上禁用保护]**
+   请单击浏览器地址栏中 URL 左侧的图标，然后再单击 **[!UICONTROL 在此页面上禁用保护]**
 * 您输入了无效的 URL。
 * 您尚未在帐户设置页面中输入默认 URL。
 

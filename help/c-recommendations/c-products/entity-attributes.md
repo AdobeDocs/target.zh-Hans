@@ -1,6 +1,6 @@
 ---
 description: 可使用实体属性，将产品或内容信息传递到 Recommendations。
-keywords: 实体；实体属性；将信息传递到Recommendations；行为数据；数据计数器；定义相对URL；显示库存级别；定义价格；定义利润；自定义属性
+keywords: 实体;实体属性;将信息传递到推荐;行为数据;数据计数器;定义相对 URL;显示库存水平;定义价格;定义利润率;自定义属性
 seo-description: 可使用实体属性，将产品或内容信息传递到 Recommendations。
 seo-title: 实体属性
 solution: Target
@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 badge: premium
-translation-type: tm+mt
-source-git-commit: 2051033bd46c45752b62ec0414c2caa50dc4ee35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 2051033bd46c45752b62ec0414c2caa50dc4ee35
 
 此必填参数可识别产品。此字母数字 ID 必须在使用的所有 [DNL Adobe Experience Cloud] 产品（包括 [!DNL Analytics]）中均相同，以便各个产品能够识别该项目并共享与其相关的数据。
 
-`entity.id` 值不能包含在REST API调用中传递时需要URL编码的斜杠、大号、问号、符号、逗号或其他标点符号。允许包含连字符和下划线。在 `entity.id` 值中包含无效标点符号会导致某些 [!DNL Recommendations] 功能失败。
+`entity.id` 值不得包含斜杠、与号、问号、百分比符号、逗号或其他在 REST API 调用中传递时需要 URL 编码的标点字符。允许包含连字符和下划线。在 `entity.id` 值中包含无效标点符号会导致某些 [!DNL Recommendations] 功能失败。
 
 示例: `'entity.id=67833'`
 
@@ -97,7 +97,7 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 仅支持单值。
 
-与推荐中显示的产品相关的消息，例如“打折”或“清仓”。消息通常比产品名称更详细。用于定义要在模板中随产品一起显示的附加信息。。
+与推荐中显示的产品相关的消息，例如“打折”或“清仓”。消息通常比产品名称更详细。用于定义要在模板中随产品一起显示的附加信息。
 
 示例: `'entity.message=Family&nbsp;special'`
 
@@ -109,11 +109,11 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 示例: `'entity.inventory=1'`
 
-**空库存属性处理：**对于交付，如果您具有包含规则、收集规则或标准设置，其中 `entity.inventory` &gt; 0 或 `entity.inventory` = 0，并且产品未设置库存，则 [!DNL Target] 会将此规则计算为 TRUE，并包括未设置库存的产品。这是默认完成的，以便未设置库存的产品会显示在推荐结果中。
+**空库存属性处理：** 对于交付，如果您具有包含规则、收集规则或标准设置，其中 `entity.inventory` &gt; 0 或 `entity.inventory` = 0，并且产品未设置库存，则 [!DNL Target] 会将此规则计算为 TRUE，并包括未设置库存的产品。这是默认完成的，以便未设置库存的产品会显示在推荐结果中。
 
 同样，如果您具有全局排除规则，其中 `entity.inventory` = 0，并且产品未设置 `entity.inventory`，则 [!DNL Target] 会将此规则计算为 TRUE 并排除产品。
 
-**已知问题：**产品搜索与未设置库存值属性的交付不一致。例如，对于设置为 `entity.inventory` = 0 的规则，产品搜索将不显示未设置库存值的产品。
+**已知问题：** 产品搜索与未设置库存值属性的交付不一致。例如，对于设置为 `entity.inventory` = 0 的规则，产品搜索将不显示未设置库存值的产品。
 
 ### `entity.value`
 
@@ -148,7 +148,7 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 `'entity.secondary=Rockies'`
 
-自定义实体属性支持多个值。请参阅 [字符和值限制的自定义实体属性](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) 。
+自定义实体属性支持多个值。有关字符和值限制，请参阅[自定义实体属性](/help/c-recommendations/c-products/custom-entity-attributes.md#limits)。
 
 示例: `'entity.secondary=["band1",&nbsp;"band2"]'`
 

@@ -7,8 +7,8 @@ solution: Target
 title: 将 Target 与 Adobe Campaign 集成
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -46,17 +46,17 @@ Target 可以跟踪以下数据：
 
 * 两个或更多 Target 重定向选件。
 
-   请参阅[创建重定向选件](https://marketing.adobe.com/resources/help/en_US/target/target/t_offer_redirect.html)。
-* 包含每个选件所对应体验的 Target 活动，以及所需的[成功量度](https://marketing.adobe.com/resources/help/en_US/target/target/r_success_metrics.html)。
+   请参阅[创建重定向选件](https://marketing.adobe.com/resources/help/zh_CN/target/target/t_offer_redirect.html)。
+* Target 活动，具有适用于每个选件和所需[成功量度](https://marketing.adobe.com/resources/help/zh_CN/target/target/r_success_metrics.html)的体验。
 
-   请参阅[重定向到 URL](https://marketing.adobe.com/resources/help/en_US/target/target/t_redirect_offer.html)。
+   请参阅[重定向到 URL](https://marketing.adobe.com/resources/help/zh_CN/target/target/t_redirect_offer.html)。
 
 在设置集成的 Campaign 部分之前，请先在 Target 中启动活动。
 
 ## 将 Target 选件包含在 Adobe Campaign 电子邮件中 {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. 在 Adobe Campaign 中创建一个电子邮件。
-1. 在电子邮件属性中，单击**[!UICONTROL 包含]** &gt; **[!UICONTROL 由 Adobe Target 提供的动态图像]**。
+1. 在电子邮件属性中，单击 **[!UICONTROL 包含]** &gt; **[!UICONTROL 由 Adobe Target 提供的动态图像]**。
 1. 从共享的资产中选择默认图像。
 1. 指定位置 (rawbox)。
 1. 添加任何其他决策参数，例如收件人的性别。

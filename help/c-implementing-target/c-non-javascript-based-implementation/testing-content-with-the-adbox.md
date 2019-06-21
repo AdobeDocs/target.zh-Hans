@@ -8,8 +8,8 @@ subtopic: 入门指南
 title: 为图像创建 Adbox
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
-translation-type: tm+mt
-source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -30,18 +30,18 @@ AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 
    mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif
    ```
 
-   * 此处 `myClientCode` 是您的公司的客户代码。您公司的客户端代码全部为小写字母，且不含任何特殊字符。
+   * 其中，`myClientCode` 是您公司的客户端代码。您公司的客户端代码全部为小写字母，且不含任何特殊字符。
 
       * **at.js**：您的客户端代码在以下位置提供：[!UICONTROL  界面的]设置 &gt; 实施 &gt; 编辑 at.js 设置[!DNL Target]页面的顶部。
 
       * **mbox.js**：您的客户端代码在以下位置提供：[!UICONTROL 设置 &gt; 实施 &gt; 编辑 Mbox.js 设置]页面的顶部。
-   * where `image` is the call type.在此例中为图像。
+   * 其中，`image` 是调用类型。在此例中为图像。
 
-   * 此处 `emailHeroImage123_320x200` 是AdBox的名称。
+   * 其中，`emailHeroImage123_320x200` 是 AdBox 的名称。
 
-   * 此处 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` 是mbox的默认内容。该内容必须是图像。
+   * 其中，`http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` 是 mbox 的默认内容。该内容必须是图像。
 
-      这必须是进行了编码的 URL，且必须是绝对引用。您可以使用 [HTML URL编码引用](https://www.w3schools.com/tags/ref_urlencode.asp) 快速对URL进行编码。
+      这必须是进行了编码的 URL，且必须是绝对引用。您可以使用 [HTML URL 编码引用](https://www.w3schools.com/tags/ref_urlencode.asp)来快速对您的 URL 进行编码。
 
 
 1. 为每个替代图像创建[重定向选件](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。

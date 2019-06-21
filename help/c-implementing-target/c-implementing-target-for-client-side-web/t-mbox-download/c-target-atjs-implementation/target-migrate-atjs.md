@@ -7,15 +7,15 @@ solution: Target
 title: 如何从 mbox.js 迁移到 at.js
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # 如何从 mbox.js 迁移到 at.js{#how-to-migrate-to-at-js-from-mbox-js}
 
-从mbox. js迁移到. js [!DNL Adobe Target] 是一个简单的过程。
+在 [!DNL Adobe Target] 中从 mbox.js 迁移到 at.js 是一个简单的过程。
 
 可执行以下步骤以便从 [!DNL mbox.js] 迁移到 [!DNL at.js]，并检查您的迁移：
 
@@ -92,7 +92,7 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
    * 确认所有[集成](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)和[插件](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)均可按预期运行。
    * 确保您可以顺利使用 [!DNL at.js] 提供的方法进行[调试](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)。
 
-**迁移到 at.js 时可能出现的问题**迁移到 at.js 后，有些客户报告了以下问题：
+**迁移到 at.js 时可能出现的问题** 迁移到 at.js 后，有些客户报告了以下问题：
 
 * 之前在具有 [!DNL mbox.js] 的页面上构建的某些 VEC 活动可能需要进行更新，才能与 [!DNL at.js] 配合使用。
 

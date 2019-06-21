@@ -7,8 +7,8 @@ solution: Target
 title: 定位和受众常见问题解答
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
-translation-type: tm+mt
-source-git-commit: 98902870c9949302eecfffc4da31b662651c4f8b
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 98902870c9949302eecfffc4da31b662651c4f8b
 
 ## 为何同一个受众在 Target、Adobe Audience Manager (AAM) 以及核心服务的受众库中具有不同的名称？{#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-受众姓名 [!DNL Target] 独一无二；但是，对于 [!DNL AAM] 多 [!DNL Audience Library]个受众，您可以使用相同的名称(如果它们位于不同的文件夹中)。 [!DNL Target] 遇到与某个 [!DNL AAM] 或 [!DNL Audience Library] 受众对应的受众名称时，将“#&lt; number&gt;” [!DNL Target] 附加到该名称。
+[!DNL Target] 中的受众名称是唯一的；但是，在 [!DNL AAM] 和 [!DNL Audience Library] 中，您可以使用同一个名称来命名多个受众（前提是这些受众位于不同的文件夹中）。如果 [!DNL Target] 中某个受众名称恰巧与 [!DNL AAM] 或 [!DNL Audience Library] 中相应受众的名称相同，则 [!DNL Target] 会将“#&lt;number&gt;”附加到该受众名称。
 
 例如，您可能会看到以下受众：“PC Users”（位于 [!DNL AAM] 中）和“PC Users #1”（位于 [!DNL Target] 中）。
 
@@ -73,7 +73,7 @@ source-git-commit: 98902870c9949302eecfffc4da31b662651c4f8b
 | 2 | 大于 3.0 | false |
 | 045 | 等于 45 | true |
 
-以科学记号编写的数字始终会作为字符串进行比较。
+用科学记数法编写的数字将始终作为字符串进行比较。
 
 例如：
 

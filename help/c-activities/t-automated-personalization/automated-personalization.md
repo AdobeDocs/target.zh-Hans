@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: 高级
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 badge: premium
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 * 多臂老虎机可确保模型经常“消耗”一小部分流量，以便在整个活动的生命周期内不断学习，同时防止过度利用先前已学习过的趋势。
 * 系统会每 24 小时使用最新的访客行为数据重新构建基础模型，以确保 Target 始终利用不断发生更改的访客偏好。
-* 如果该算法无法为单个访客确定入选体验，则会自动切换为显示整体性能最佳的体验，同时仍继续寻找个性化的入选者。性能最佳的体验将使用[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling)来查找。
+* 如果该算法无法为单个访客确定入选体验，则会自动切换为显示整体性能最佳的体验，同时仍继续寻找个性化的入选者。使用[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling)找到性能最佳的体验。
 
 **模型会不断优化单个目标量度。**
 

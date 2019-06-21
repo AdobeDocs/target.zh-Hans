@@ -7,8 +7,8 @@ solution: Target
 title: CNAME 和 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
-translation-type: tm+mt
-source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
 执行以下步骤可在 Target 中请求 CNAME 支持：
 
 1. 打开[客户关怀票证](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，为您的 Adobe Target 调用请求 CNAME 支持。
-1. 在 [Adobe 管理证书 (AMC) 程序](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)中进行注册，然后按照“第一方 Cookie”**指南中提供的实施步骤操作。
+1. 注册 [Adobe 托管的证书 (AMC) 程序](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)并按照*第一方 Cookie* 指南中提供的实施步骤执行操作。
 
    AMC 程序有助于减少客户在实施第一方 Cookie 时所做的工作和产生的困惑。注册此程序后，Adobe 将购买并颁发证书以将其安装在安全的服务器上。
 

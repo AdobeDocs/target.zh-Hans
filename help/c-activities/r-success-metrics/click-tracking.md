@@ -8,8 +8,8 @@ subtopic: 入门指南
 title: 点击跟踪
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
-translation-type: tm+mt
-source-git-commit: 4af5c367d292524d508eae6e535dd0925b2f9013
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -24,8 +24,8 @@ Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
 
 ## 设置点击跟踪 {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. 在“[!UICONTROL 目标和设置]”页面上为活动设置目标时，选择**[!UICONTROL 转化]成功量度。**
-1. 在此步操作中，选择**[!UICONTROL 已单击元素]**，然后单击**[!UICONTROL 选择元素]。**
+1. 在“[!UICONTROL 目标和设置]”页面上为活动设置目标时，选择 **[!UICONTROL 转化]成功量度。**
+1. 在此步操作中，选择 **[!UICONTROL 已单击元素]**，然后单击 **[!UICONTROL 选择元素]。**
 
    随即会在[!UICONTROL 可视化体验编辑器] (VEC) 中打开您的页面。
 
@@ -41,13 +41,13 @@ Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
 
 选择元素时，需注意以下几个事项：
 
-* 设置单击跟踪时，DOM路径功能可用。单击页面上的某个元素时，将显示“CMS选项”菜单。此外，相应的DOM路径显示在页面底部。您可以使用DOM路径快速查看选定元素(类型、ID和类)的信息，并向上或向下移动DOM路径以选择所需元素。
+* 设置点击跟踪时，可使用 DOM 路径功能。单击页面上的某个元素时，将显示 VEC 选项菜单。另外，相应的 DOM 路径将显示在页面底部。您可以使用 DOM 路径快速查看有关所选元素（类型、ID 和类）的信息，并向上或向下移动 DOM 路径以选择所需的元素。
 
-   ![DOM路径插图](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+   ![DOM 路径插图](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   正如在活动创建工作流中创建步骤中的体验时一样，页面底部的DOM路径选择器允许您选择元素。从DOM路径中选择元素后，CMS中的相应元素将显示为“选定”。要取消选择选定的元素，您可以再次单击DOM路径选择器中的元素或单击CMS中的“已选定”框。
+   就像在活动创建工作流的步骤 1 中创建体验一样，可以通过页面底部的 DOM 路径选择器来选择元素。在从 DOM 路径中选择元素时，VEC 中的相应元素将显示为“已选定”。要取消选择已选定的元素，您可以再次单击 DOM 路径选择器中的元素，或单击 VEC 中的“已选定”框。
 
-   有关详细信息，请参阅 [在Visual Experience Composer选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 中 *使用DOM路径导航元素*。
+   有关更多信息，请参阅*可视化体验编辑器选项*中的[使用 DOM 路径浏览元素](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)。
 
 * 您可以浏览到其他页面，以跟踪您可能不会更改内容的页面上的点击次数。但前提是该页面必须包含在使用[多页面功能](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)的活动中，且该页面上必须实施了 [!DNL at.js] 或 [!DNL mbox.js]。
 * 如果您选择了多个元素，则当参加者点击任一选定元素时，即会被计为一次点击。要单独对每个项目进行计数，需为每个元素分别设置成功量度。
@@ -80,7 +80,7 @@ Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
       * `FORM` 标记：默认行为是提交表单。
    此默认行为可能会妨碍 Analytics 执行点击跟踪。如果您使用的是 Analytics，则应该依赖 Analytics（而非 Target）来执行点击跟踪。
 
-* 单击跟踪不会记录在页面和活动URL属于不同属性的页面上。Enterprise用户权限是Target Premium功能。有关详细信息，请参阅 [Enterprise用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
+* 如果页面和活动 URL 属于不同的属性，则不会在该页面上记录点击跟踪。企业用户权限是一种 Target Premium 功能。有关更多信息，请参阅[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 ## 培训视频 {#section_36607204DAE146E3B8E2C609D244EDB1}
 

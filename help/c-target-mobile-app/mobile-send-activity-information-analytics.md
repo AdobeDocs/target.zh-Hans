@@ -4,8 +4,8 @@ seo-description: 本部分介绍了如何将 Target 移动设备应用程序活�
 seo-title: 将活动信息发送到 Adobe Analytics
 title: 将活动信息发送到 Adobe Analytics
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
-translation-type: tm+mt
-source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
 
    解析回调中从 Target 返回的响应。您可以使用 NSJSONSerialization 来解析此响应并将其存储在 dict 或数组中。
 
-   有关更多信息，请参阅 [NSJSOSerialization文档](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) 。
+   有关更多信息，请参阅 [NSJSONSerialization 文档](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error)。
 1. 将数据发送到 Analytics。
 
    将解析后的活动信息（例如上述响应中的 `tntVal`）添加到 Analytics 调用中的上下文数据对象。这个包含上下文数据的 Analytics 调用可以立即触发，也可以等到触发下一个 Analytics 调用时触发。

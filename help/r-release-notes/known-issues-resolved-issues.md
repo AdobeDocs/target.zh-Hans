@@ -7,8 +7,8 @@ solution: Target
 title: 已知问题和已解决的问题
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: tm+mt
-source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,23 +25,23 @@ source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
 
 下面部分列出了 [!DNL Target] 的已知问题：
 
-### 取消在CMS内的页面加载 {#cancel}
+### 在 VEC 中取消页面加载 {#cancel}
 
-* 当取消包含重定向URL的 [!UICONTROL A/B Test] 或 [!UICONTROL Experience Targeting] (XT)活动的加载时，当前存在以下已知问题。
+* 在包含重定向 URL 的 VEC 中取消加载 [!UICONTROL A/B 测试]或[!UICONTROL 体验定位] (XT) 活动时，当前存在以下已知问题。
 
-   在CMS中的三部分引导工作流中，取消页面加载时，将显示CMS中的 [!UICONTROL “修改] ”面板，并对体验应用重定向到URL模板(例如“体验B”)。当您前进到第二步或第三步，然后返回第一步时，会发生以下情况。
+   在 VEC 的三步引导式工作流的第一步中，当您取消页面加载时，将显示 VEC 中的[!UICONTROL 修改]面板，并将对体验（例如，“体验 B”）应用“重定向到 URL”模板。在进入第二步或第三步后，再返回到第一步时，会出现以下情况。
 
-   在“体验B”上，默认情况下，已取消的网站加载模板和 [!UICONTROL “修改”] 面板可访问，这不应是因为此体验应用了重定向到URL模板。应显示重定向到URL模板。
+   在“体验 B”中，默认情况下会呈现已取消的网站加载模板，并且[!UICONTROL 修改]面板将可访问，但不应该出现这种情况，因为此体验已经应用了“重定向到 URL”模板。应显示“重定向到 URL”模板。
 
-   在CMS中显示体验的正确状态：
+   要在 VEC 中显示正确的体验状态，请执行以下操作：
 
-   如果切换到其他体验，然后切换回“体验B” [!DNL Target] ，则显示在此体验上应用的重定向到URL模板， [!UICONTROL 而“修改] ”面板无法访问。(TGT-32138)
+   如果您在切换到其他体验后，再切换回“体验 B”，[!DNL Target] 将显示应用于此体验的“重定向到 URL”模板，并且[!UICONTROL 修改]面板将无法访问。(TGT-32138)
 
-* 对于单页应用程序(SPA)网站，取消加载不允许您编辑 [!UICONTROL “修改] ”面板下的操作。
+* 对于单页应用程序 (SPA) 网站，取消加载将禁止在[!UICONTROL 修改]面板下编辑操作。
 
-### Target API中的企业权限支持 {#api}
+### Target API 中的企业权限支持 {#api}
 
-如果使用GET API拉动选件列表，则从选件库中的Target UI创建的代码提供可能会显示在默认工作区中。此问题将在2019年月的第一周修复。完成此修复后，当从API拉动时，代码选件将显示在适当的工作区中。此问题 *不* 影响从API创建的选件。例如，在创建它们的工作区中创建的代码提供的代码，无论是使用GET API获取还是从Target UI中获取。
+如果使用 GET API 拉取选件列表，则“选件”库中从 Target UI 创建的代码选件将显示在默认工作区中。此问题将在 2019 年 3 月的第一个星期得到修复。完成此修复后，在从 API 拉取时，代码选件将显示在相应的工作区中。此问题*不*会影响从 API 创建的选件。例如，无论是使用 GET API 还是从 Target UI 中获取选件，从 API 创建的代码选件都将显示在创建这些选件的工作区中。
 
 ### 推荐
 
@@ -56,7 +56,7 @@ source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
 
 * 推荐的产品不能显示具有两位小数的值。例如，如果尝试在设计中显示值为 35.00，则推荐将显示 35（无小数位而不是具有两位小数）。(RECS-5972)
 
-   ****解决方法：将实体的值传递到两个 entity.attribute 中。第一个 `entity.value` 是一个应为双精度类型的保留参数。第二个可以是一个自定义 entity.attribute，它将实体的值作为字符串来存储，以便进行适当渲染。
+   **** 解决方法：将实体的值传递到两个 entity.attribute 中。第一个 `entity.value` 是一个应为双精度类型的保留参数。第二个可以是一个自定义 entity.attribute，它将实体的值作为字符串来存储，以便进行适当渲染。
 
    例如：
 
@@ -70,7 +70,7 @@ source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
 
 以下是 at.js 存在的已知问题：
 
-* 将页面加载到可视化体验编辑器 (VEC) 中时，Target 需要确定全局 mbox 设置是处于启用状态还是禁用状态，以及 entityID 或 categoryID 是否存在于用户尝试在 VEC 中应用推荐的位置。标准列表将会根据这些信息进行筛选。默认列表已筛选算法，但[“兼容”复选框](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html)允许您查看完整的算法列表。
+* 将页面加载到可视化体验编辑器 (VEC) 中时，Target 需要确定全局 mbox 设置是处于启用状态还是禁用状态，以及 entityID 或 categoryID 是否存在于用户尝试在 VEC 中应用推荐的位置。标准列表将会根据这些信息进行筛选。虽然默认列表中算法已经过筛选，但您可以使用[兼容复选框](https://marketing.adobe.com/resources/help/zh_CN/target/recs/t_algo_select_recs.html)查看完整的算法列表。
 
    使用 at.js 时，“兼容性”复选框处于隐藏状态，因此您看不到不兼容的算法。
 
@@ -129,13 +129,13 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 * 在创建排除组后应用自动去除重复项功能时，UI 中活动图的计数可能会不正确。
 * 在对具有排除组的现有活动进行编辑后，UI 中可能无法正确反映手动包含项。
 
-这些问题已解决。
+这些问题已得到解决。
 
 ### Target API
 
 Adobe I/O 上的 v1 版选件 API 将通过 Target 创建的所有选件存储在默认工作区中。(TTTEAM-41957)
 
-此问题已解决。
+此问题已得到解决。
 
 ### at.js
 

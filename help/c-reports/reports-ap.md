@@ -8,8 +8,8 @@ title: 自动个性化摘要报表
 title-outputclass: premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 badge: premium
-translation-type: tm+mt
-source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
 >
 >“自动个性化”作为 [!DNL Target Premium] 解决方案的一部分提供。在没有 [!DNL Target Premium] 许可证的情况下，不会包含在 [!DNL Target Standard] 中。
 
-1. 单击**[!UICONTROL 活动]**，从列表中单击所需的[!UICONTROL 自动个性化]活动，然后单击**报表]选项卡。[!UICONTROL **
+1. 单击 **[!UICONTROL 活动]**，从列表中单击所需的[!UICONTROL 自动个性化]活动，然后单击 **报表]选项卡。[!UICONTROL **
 
    如果您有多种活动，则可以对活动列表进行筛选，方法是从“[!UICONTROL 类型]”下拉列表中选择“[!UICONTROL 自动个性化]”。
 

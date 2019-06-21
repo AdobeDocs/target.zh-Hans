@@ -7,8 +7,8 @@ solution: Target
 title: “推荐”作为选件
 title-outputclass: premium
 topic: Premium
-translation-type: tm+mt
-source-git-commit: 9825c8faa6fcd4d74b57ac0d994da35e25d785ea
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 

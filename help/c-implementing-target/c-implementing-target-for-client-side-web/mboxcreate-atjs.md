@@ -1,14 +1,14 @@
 ---
-description: '有关mboxCreate(mbox，params)函数的信息，请访问. js。 '
+description: '有关 at.js 的 mboxCreate(mbox,params) 函数的信息。 '
 keywords: adobe.target.notification;元素;选择器;通知;扩展
-seo-description: 有关Adobe Target在. js JavaScript库中的mboxCreate(mbox、params)函数的信息。
-seo-title: 有关Adobe Target在. js JavaScript库中的mboxCreate(mbox、params)函数的信息。
+seo-description: 有关 Adobe Target at.js JavaScript 库的 mboxCreate(mbox,params) 函数的信息。
+seo-title: 有关 Adobe Target at.js JavaScript 库的 mboxCreate(mbox,params) 函数的信息。
 solution: Target
 subtopic: 入门指南
 title: mboxCreate(mbox,params) - at.js 2.x
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
 
 >[!NOTE]
 >
->此函数仅可用于 at.js 版本 1.*x*。此函数已在. js2.x发布时弃用。如果与at. js2.x一起使用，此函数将返回默认内容。
+>此函数仅可用于 at.js 版本 1.*x*。此函数已在 at.js 2.x 版本中弃用。如果与 at.js 2.x 一起使用，此函数将返回默认内容。
 
 此函数内置于 [!DNL at.js]，主要用于简化从 [!DNL mbox.js] 到 [!DNL at.js] 的转换。`mboxCreate()` 的最新替代方案是 `adobe.target.getOffer()`/`adobe.target.applyOffer()` 或 Angular 指令。
 

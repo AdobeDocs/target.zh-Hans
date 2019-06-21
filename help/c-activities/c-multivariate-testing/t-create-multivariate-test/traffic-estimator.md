@@ -6,8 +6,8 @@ solution: Target
 title: 估算成功测试所需的流量
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
-translation-type: tm+mt
-source-git-commit: ca1b7a3d0f5d093cbafd3d3bac30cc542b3099d6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -32,18 +32,18 @@ source-git-commit: ca1b7a3d0f5d093cbafd3d3bac30cc542b3099d6
 
 流量估算器还可提供反馈，让您了解是否有足够的流量来确保您设计的测试取得成功。
 
-1. 在体验编辑器中，单击**[!UICONTROL 流量]**图标。
+1. 在体验编辑器中，单击 **[!UICONTROL 流量]** 图标。
 
-   此时将打开流量估算器。您可以再次单击**[!UICONTROL 流量]**图标以隐藏流量估算器。
+   此时将打开流量估算器。您可以再次单击 **[!UICONTROL 流量]** 图标以隐藏流量估算器。
 
    ![](assets/estimatorempty.png)
 
-1. 提供典型转化率、每日估计访客数和测试持续时间。
+1. 提供典型转化率、预计每日访客数和测试持续时间。
 
-   * [!UICONTROL 内容组合]数量：根据在任何排除的活动中创建的体验数自动计算得出的体验。
-   * [!UICONTROL 典型转化率]：转化率以百分比表示，基于您的分析系统估计或过去的数据
-   * [!UICONTROL 估计每日访客]人数：这是根据定位条件查看此页面的访客人数。可以基于您的分析数据。
-   * [!UICONTROL 测试持续时间]：您希望活动运行的天数。
+   * [!UICONTROL 内容组合数量]：根据在任何排除后作为活动的一部分创建的体验的数量自动进行计算。
+   * [!UICONTROL 典型转化率]：转化率以百分比表示，根据估算或 Analytics 系统中的以往数据得出
+   * [!UICONTROL 预计每日访客数]：这是指根据定位标准有可能会查看此页面的访客数量。可以基于您的分析数据。
+   * [!UICONTROL 测试持续时间]：您希望该活动运行的天数。
    流量估算器使用这些统计数据来确定运行一个成功的测试需要进行哪些调整。
 
    系统会计算您输入的值并在流量估算器的顶部区域附近显示计算结果。

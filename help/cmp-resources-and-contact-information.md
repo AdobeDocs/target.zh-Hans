@@ -7,8 +7,8 @@ solution: Target
 title: 资源和联系信息
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
-translation-type: tm+mt
-source-git-commit: 77dd9ec5cf97e4f45d40a49f83fe239267d38435
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,28 +27,28 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 * 与您的同行和 Adobe 专家沟通交流
 * 对未来 Target 版本进行投票或提交您自己的想法
 
-访问 [Target 社区论坛](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)以开始。
+访问 [Target 社区论坛](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)以开始使用。
 
 ## Target 基础知识网络研讨会系列 {#concept_11902FAC95C64479AABE020557A7EEE4}
 
 注册信息以及指向以前的 Target 基础知识网络研讨会系列会议的链接，该研讨会系列是由社区为您提供的客户成功网络研讨会系列。
 
-[单击此处观看过去的会话或了解有关即将举办的会议和注册信息](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)的更多信息。
+[单击此处可观看过去举行的会议，或了解有关即将举行的会议的更多信息和注册信息](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)。
 
 
 ## Adobe 客户关怀团队办公时间 {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
 “办公时间”是 Adobe 客户关怀团队发起的一项计划。这些会议旨在告知参与者如何解决问题以及帮助他们解决问题，并且还为成功使用 Adobe Experience Cloud 解决方案（包括 Target）提供提示和技巧。
 
-要注册参加即将举行的会议和观看录制的会议，请参阅 [Adobe 客户关怀团队办公时间](https://helpx.adobe.com/customer-care-office-hours.html)。
+要注册参加即将举行的会议和观看录制的会议，请参阅 [Adobe 客户关怀团队办公时间](https://helpx.adobe.com/cn/customer-care-office-hours.html)。
 
 当前已录制的 Target 会议包括：
 
 | 主题/运行时长/录制日期 | 您将了解的内容 |
 |--- |--- |
-| [Visual Experience Composer(CMS)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50：23<br>2017年12月23日 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>有关本指南中的更多信息，请参阅[体验](/help/c-experiences/experiences.md)。 |
-| [Adobe Target：Analytics/Target集成(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br><br>40：3320：33 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
-| [at. js：优势和实施最佳实践](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26：43<br>2018年月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul>有关本指南中的更多信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
+| [可视化体验编辑器 (VEC)](https://helpx.adobe.com/cn/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017 年 12 月 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>有关本指南中的更多信息，请参阅[体验](/help/c-experiences/experiences.md)。 |
+| [Adobe Target：Analytics/Target 集成 (A4T)](https://helpx.adobe.com/cn/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br>40:33<br>2018 年 1 月 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
+| [at.js：优势和实施最佳实践](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018 年 4 月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul>有关本指南中的更多信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Adobe Target Insider 是针对 Adobe Target 社区成员发布的每月时事通
 
 >[!IMPORTANT]
 >
->[注册以自动在收件箱中接收Adobe Target Insider新闻快讯](https://www.adobe.com/subscription/adobe_target_newsletter.html)。
+>[注册以自动在收件箱接收 Adobe Target Insider 时事通讯](https://www.adobe.com/subscription/adobe_target_newsletter.html)。
 
 如果您错过了先前的时事通讯，请单击下面的链接，以确保不会遗漏任何内容：
 
@@ -75,7 +75,7 @@ Adobe Target Insider 是针对 Adobe Target 社区成员发布的每月时事通
 
 | 问题 | 详细信息 |
 |--- |--- |
-|  |
+|  |  |
 | 2018 年 11 月（第 1 卷，第 11 期） | 在本期中，将随特邀发言人 James McCormick（Forrester 的首席分析师）一起了解我们最近举办的关于体验优化平台的网络研讨会。了解如何开发客户可反复使用的移动设备应用程序。来自 WestJet 的 Matt Ravlich 将提供有关优化成功的建议。探索由 Adobe Sensei 提供支持的两个强大的 AI 功能如何实现大规模个性化。另外，不要忘了为 Adobe Summit 的召开日期预留时间。 |
 | 2018 年 10 月（第 1 卷，第 10 期） | 最近，我们为 Adobe Target 添加了许多出色的新功能和增强功能，包括近期的 TechCrunch 文章特别推荐的一些功能和增强功能。阅读相关的博客文章和最新的“Adobe Target 新增功能”，详细了解我们的新功能。此外，了解 David Parker 及其团队如何帮助一家电信巨头公司优化公司网站上的完整客户体验。 |
 | 2018 年 9 月（第 1 卷，第 9 期） | 在本期 Adobe Target Insider 中，我们的暑期实习生 Leen Habbal 分享她在 Adobe Target 产品营销团队的实习经历。其次，我们还将介绍 Adobe Cloud Platform Auditor，这款工具可帮助您验证您是否正确实施了 Adobe 技术。此外，我们将介绍 AI 可如何提升您的客户体验以及如何使 Adobe Target 获得认证。最后，来自英国电信和媒体公司 Sky 的 Rob McLaughlin 还会向我们介绍关于如何向客户提供大规模个性化服务等方面的信息。 |
@@ -110,9 +110,9 @@ ClientCare 随时准备帮助您解决可能出现的任何问题。此页面包
 
 如果您在使用 Target 时遇到问题或存在疑问，解决办法有以下几种
 
-对于问题，您可以在 [Experience Cloud社区中询问Adobe Target专家](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) 或在 [@ AdobeExpCare](https://twitter.com/adobeexpcare)上询问我们。
+如果存在疑问，您可以通过 [Experience Cloud 社区](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)咨询 Adobe Target 专家，或通过 Twitter [@AdobeExpCare](https://twitter.com/adobeexpcare) 向我们提问。
 
-如果遇到技术问题或要记录错误，您可以联系客户关怀。要通过电话联系客户关怀，请拨打 1-800-497-0335。美国以外的免费电话号码可在 [Adobe数字营销客户关怀区域电话号码](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) 页找到。当要求您选择产品的选项时，请按 3 联系 Target 团队。
+如果遇到技术问题或要记录错误，您可以联系客户关怀。要通过电话联系客户关怀，请拨打 1-800-497-0335。美国以外的免费咨询电话可在 [Adobe Digital Marketing 客户关怀区域电话号码](https://helpx.adobe.com/cn/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)页面上找到。当要求您选择产品的选项时，请按 3 联系 Target 团队。
 
 向客户关怀发送电子邮件，地址是 [!DNL tt-support@adobe.com]。
 
@@ -170,15 +170,15 @@ target/c_contact_and_legal.xml
 
 Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提供了大量的参与机制：
 
-* [查看 Experience Cloud 帮助页面，以获取建议、提示和常见问题解答](https://helpx.adobe.com/marketing-cloud.html)
-* [在 Twitter @AdobeExpCare 上快速提问](https://twitter.com/adobeexpcare)
+* [查看 Experience Cloud 帮助页面，以获取建议、提示和常见问题解答](https://helpx.adobe.com/cn/marketing-cloud.html)
+* [通过 Twitter @AdobeExpCare 向我们快速提问](https://twitter.com/adobeexpcare)
 * [在我们的客户门户中记录事件](https://customers.omniture.com/login.php)
-* [直接联系客户关怀团队](https://helpx.adobe.com/marketing-cloud/contact-support.html)
-* [查看 Experience Cloud 解决方案的可用性和状态](https://status.adobe.com/)
+* [直接联系客户关怀团队](https://helpx.adobe.com/cn/marketing-cloud/contact-support.html)
+* [查看 Experience Cloud 解决方案的可用情况和状态](https://status.adobe.com/)
 
 要收到有关即将推出的产品增强功能的高级通知，请注册 Adobe Priority Product Update（Adobe 优先产品更新）：
 
-[Adobe优先级产品更新](https://www.adobe.com/subscription/priority-product-update.html)
+[Adobe 优先产品更新](https://www.adobe.com/subscription/priority-product-update.html)
 
 ### 服务、职能和账单 {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -186,15 +186,15 @@ Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提
 
 ### 反馈 {#section_8154D6D712054220A90D85FA8E92933E}
 
-我们欢迎您提供有关此解决方案的任何建议或反馈。可以将有关改进 Analytics 包的意见和建议[添加到我们的客户意见交流平台](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3)中。
+我们欢迎您提供有关此解决方案的任何建议或反馈。任何有关 Analytics 包的增强功能和建议，都[可以添加到我们的客户理念交流中心](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3)。
 
 ### 法律 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
 * © 2019 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Privacy Center](https://www.adobe.com/privacy.html)
+[使用条款](https://www.adobe.com/go/marketingcloud_terms_of_use_cn) | [隐私中心](https://www.adobe.com/cn/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_cn](https://www.adobe.com/cn/products/eula/third_party/).

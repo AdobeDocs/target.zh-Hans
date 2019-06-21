@@ -7,29 +7,29 @@ solution: Target
 title: 不使用 A4T 时的预期数据差异
 topic: 高级
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
-translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # 使用和不使用 A4T 时，Target 和 Analytics 之间的预期数据差异{#expected-data-variances-when-not-using-a-t}
 
-有关在使用Analytics作为报表源 [!DNL Target] (A4T) [!DNL Analytics] 时 *与Adobe*** 之间的预期数据差异的信息。A4T 可显著减小数据差异.
+此信息介绍了当*使用*和*不*使用 Analytics 作为报表源 (A4T) 时，[!DNL Target] 和 Adobe [!DNL Analytics] 之间的预期数据差异。A4T 可显著减小数据差异.
 
-## 使用A4T时需要数据变化 {#expected-using-a4t}
+## 使用 A4T 时的预期数据差异 {#expected-using-a4t}
 
 使用 A4T 时，Analytics 和 Target 活动报表都只使用 Analytics 数据，因此 Target 活动报表中的解决方案之间几乎没有差异。但是，在某些情况下，客户可能会将 Target 数据与 A4T 集成范围之外的 Analytics 数据进行比较，这样，就会出现下面所述的差异问题。
 
-以下是可能遇到预期数据变化的少数情况：
+以下是您可以会遇到预期数据差异的几种情况：
 
-* A4T允许发生Target点击(页面顶部)，但不发生Analytics点击(页面底部)。例如，如果用户加载页面，但在触发Analytics调用之前关闭浏览器，则会出现这种情况。在这些情况下，A4T从我们的数据中排除Target。原因在于，允许Target点击(再次、页面顶部)在缺少实际Analytics调用的情况下计算Analytics点击会造成与Analytics中数据集的不一致(访客膨胀等)。
+* A4T 可能发生 Target 点击（页面顶部），但未发生 Analytics 点击（页面底部）。例如，如果用户加载页面，但在触发 Analytics 调用之前关闭了浏览器。在这些情况下，A4T 会从我们的数据中排除 Target 点击。原因在于，在没有实际 Analytics 调用的情况下，如果允许将 Target 点击（同样是页面顶部）计为 Analytics 点击，则会导致与 Analytics 中的数据集不一致（访客计数夸大等）。
 
-   如果在Target中设置重定向测试以拆分流量50/50(或25/25/25等)，则用户行为可能不会平均拆分。如果您看到一个不均匀的拆分，就意味着一组用户在登录页面上无法执行分析调用，该调用比其他用户组更多。这一未能对一个组执行Analytics调用导致Target点击该用户被排除，从而创造不熟悉。
+   如果在 Target 中设置重定向测试以拆分流量 50/50（或 25/25/25/25 等），则可能无法均匀拆分用户行为。如果您看到不均匀的拆分，这仅表示一组用户在登陆页面上未能执行 Analytics 调用的次数多于其他组。由于未能对某组执行 Analytics 调用，导致该用户的 Target 点击被排除，从而造成不均匀性。
 
-   当我们在Adobe Experience Platform上致力于A4T时，我们希望将来能解决这一问题。我们的团队正在了解如何最好地处理页面上不同时间发生的这些不同活动。
+   我们希望将来在 Adobe Experience Platform 上实现 A4T 时可以解决这个问题。我们的团队正在研究如何最好地处理页面上不同时间发生的这些不同事件。
 
-* 假定您为特定页面创建了向所有访客开放的自动分配活动。由于自动分配活动不支持 A4T，因此 [!DNL Target] 会收集所有活动数据。您可能希望同一日期范围内 [!DNL Target] 报表中的活动访客与 [!DNL Analytics] 报表中该页面的访客相匹配。在这种情景中，预期会出现下面所述的差异。
+* 假设您创建了一个将向特定页面的所有访客公开的自动分配活动。由于自动分配活动不支持 A4T，因此 [!DNL Target] 会收集所有活动数据。您可能希望同一日期范围内 [!DNL Target] 报表中的活动访客与 [!DNL Analytics] 报表中该页面的访客相匹配。在这种情景中，预期会出现下面所述的差异。
 
    有关支持 A4T 的活动类型的完整列表，请参阅[支持的活动类型](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)。
 

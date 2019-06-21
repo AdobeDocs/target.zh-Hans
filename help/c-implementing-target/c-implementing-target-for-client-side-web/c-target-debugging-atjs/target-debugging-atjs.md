@@ -6,8 +6,8 @@ seo-title: 使用 Adobe Experience Cloud 调试器调试 at.js
 title: 使用 Adobe Experience Cloud 调试器调试 at.js
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
-translation-type: tm+mt
-source-git-commit: 2dcd42db7ca7d82ea1f90255b9b383542c97c614
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 2dcd42db7ca7d82ea1f90255b9b383542c97c614
 
 您可以快速查看库配置、检查请求以确保正确传递自定义参数、打开控制台日志记录以及禁用所有 Target 请求。在 Experience Cloud 中进行身份验证后，您可以使用功能强大的 Mbox 跟踪工具来检查您的活动和受众资格以及访客配置文件。
 
-有关更多信息，请参阅 [Adobe Experience Cloud 调试器扩展文档](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)。特定于 Target 的信息可在[工具](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html)部分中找到。
+有关更多信息，请参阅 [Adobe Experience Cloud 调试器扩展文档](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)。特定于 Target 的信息可以在[工具](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html)部分找到。
 
 ## 培训视频
 

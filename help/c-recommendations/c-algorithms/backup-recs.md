@@ -9,15 +9,15 @@ title-outputclass: premium
 topic: Premium
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 badge: premium
-translation-type: tm+mt
-source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 使用备用推荐 {#use-a-backup-recommendation}
 
-如果您使用备用推荐功能，任何不具备足够推荐项目的“推荐”将不会显示默认内容。Recommendations 将改为显示备用算法的结果。
+如果您使用备用推荐功能，任何不具备足够推荐项目的“推荐”将不会显示默认内容。“推荐”将改为显示备用算法的结果。
 
 如果您不使用备用推荐并且推荐中的项目不足以填满整个显示区域，则系统会向用户显示默认内容。
 

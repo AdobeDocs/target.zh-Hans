@@ -6,8 +6,8 @@ solution: Target
 title: 上传 Target 个性化算法数据
 topic: Premium
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
-translation-type: tm+mt
-source-git-commit: 3460c3c04ab2260904a239961f07b0a39ea645c9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 3460c3c04ab2260904a239961f07b0a39ea645c9
 
 在构建个性化模型时，离线数据（例如 CRM 信息或客户流失倾向评分）可能会有极大的价值。
 
-可通过多种方式在自动个性化 (AP) 和自动定位个性化算法中输入数据。除了方法中 [的方法才能将数据获取到Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)中，我们还算法中使用了Experience Cloud共享受众(Adobe Analytics、受众管理)和活动中的报告受众。
+可通过多种方式在自动个性化 (AP) 和自动定位个性化算法中输入数据。除了[将数据导入 Target 的方法](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)中的方法之外，我们的算法中还使用了 Experience Cloud 共享受众（Adobe Analytics、Audience Management）和活动中的报表受众。
 
 有关自动个性化和自动定位个性化算法自动收集和使用的数据的信息，请参阅[自动个性化数据收集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)。
 

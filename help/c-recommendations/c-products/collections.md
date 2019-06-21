@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: premium
-translation-type: tm+mt
-source-git-commit: 460ce2990972afa8ff292d75eaf79f165944e971
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -45,21 +45,21 @@ source-git-commit: 460ce2990972afa8ff292d75eaf79f165944e971
 
 可创建收藏集以组织要在推荐中显示的产品。
 
-1. 单击**[!UICONTROL 推荐]** &gt; **[!UICONTROL 收藏集]**以显示现有收藏集列表。
+1. 单击 **[!UICONTROL 推荐]** &gt; **[!UICONTROL 收藏集]** 以显示现有收藏集列表。
 
    [!UICONTROL 收藏集]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数量。请参阅[设置](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)以更改默认主机组。
 
    ![](assets/collections_list.png)
 
-1. 单击**[!UICONTROL 创建收藏集]**。
+1. 单击 **[!UICONTROL 创建收藏集]**。
 
-1. （视情况而定）在创建（或更新）收藏集时从**[!UICONTROL 环境]**筛选器中选择一个环境，以预览该环境中收藏集的内容。默认情况下，会显示默认主机组的结果。
+1. （视情况而定）在创建（或更新）收藏集时从 **[!UICONTROL 环境]** 筛选器中选择一个环境，以预览该环境中收藏集的内容。默认情况下，会显示默认主机组的结果。
 
    ![创建收藏集](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. 键入收藏集的**[!UICONTROL 名称]**。
+1. 键入收藏集的 **[!UICONTROL 名称]**。
 
-   您还可以输入可选**[!UICONTROL 描述]**。
+   您还可以输入可选 **[!UICONTROL 描述]**。
 
 1. 设置用于构建收藏集的规则。
 
@@ -67,7 +67,7 @@ source-git-commit: 460ce2990972afa8ff292d75eaf79f165944e971
 
    您可以添加规则，以使用多个参数来定义收藏集。通过“AND”关系将多个规则结合在一起。必须匹配指定的所有规则，才能应用收藏集。
 
-1. 单击**[!UICONTROL 保存]**。您还可以使用“目录搜索”页面上的“高级搜索”（[!UICONTROL 推荐] &gt; [!UICONTROL 目录搜索] &gt; [!UICONTROL 高级搜索]）来创建收藏集。例如，在使用“ID”&gt;“包含”创建搜索后，您可以单击[!UICONTROL 另存为] &gt; [!UICONTROL 收藏集]。
+1. 单击 **[!UICONTROL 保存]**。您还可以使用“目录搜索”页面上的“高级搜索”（[!UICONTROL 推荐] &gt; [!UICONTROL 目录搜索] &gt; [!UICONTROL 高级搜索]）来创建收藏集。例如，在使用“ID”&gt;“包含”创建搜索后，您可以单击[!UICONTROL 另存为] &gt; [!UICONTROL 收藏集]。
 
 >[!IMPORTANT]
 >

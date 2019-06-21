@@ -7,8 +7,8 @@ solution: Target
 title: 测试摘要
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
-translation-type: tm+mt
-source-git-commit: 4a0731243ab23caf65fc15bc03c7da692b09cb36
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,4 +31,4 @@ source-git-commit: 4a0731243ab23caf65fc15bc03c7da692b09cb36
    当前，唯一可用的算法是全因子算法。提供算法名称是为了供用户参考，以便让用户知道所使用的算法。
 * 包含和排除的体验数量。
 
-如果您对测试配置满意，请单击**[!UICONTROL 继续]。**随即会打开“目标和设置”页面。
+如果您对测试配置满意，请单击 **[!UICONTROL 继续]。** 随即会打开“目标和设置”页面。

@@ -7,8 +7,8 @@ solution: Target
 title: 配置文件和变量一览表
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
-translation-type: tm+mt
-source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,16 +22,16 @@ source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
 | 配置文件 | 注释 |
 |--- |--- |
 | user.activeActivities<br>user.activeCampaigns | 返回用户参与的所有营销活动/活动的 ID，即使用户未在当前会话中与营销活动/活动进行交互。 |
-| user.pcId |
-| user.sessionId |
-| user.categoryAffinity |
+| user.pcId |  |
+| user.sessionId |  |
+| user.categoryAffinity |  |
 | user.categoryAffinities | 返回访客填充的一组喜好。 |
-| user.isFirstSession |
-| user.isNewSession |
-| user.daysSinceLastVisit |
+| user.isFirstSession |  |
+| user.isNewSession |  |
+| user.daysSinceLastVisit |  |
 | user.browser | 用户代理 |
 | user.header | 所有 `user.header` 配置文件均从 mbox 请求标头数据内置 |
-| user.header(&#39;x-cluster-client-ip&#39;) | 访客所在网络连接的公共 IP 地址。<br>您可以通过多种方法获取此地址，例如通过 [whatismyip.com](https://www.whatismyip.com/) / 获取。此 IP 地址不是以 10.、192.168. 或 172. 开头的 NAT 地址（内部地址）。 |
+| user.header(&#39;x-cluster-client-ip&#39;) | 访客所在网络连接的公共 IP 地址。<br>您可以通过多种方法获取此地址，例如通过 [whatismyip.com](https://www.whatismyip.com/) 获取。此 IP 地址不是以 10.、192.168. 或 172. 开头的 NAT 地址（内部地址）。 |
 | user.header(&#39;host&#39;) | 网站主机名 |
 | user.header(&#39;cookie&#39;) | 访客 Cookie 数据 |
 | user.header(&#39;user-agent&#39;) | 访客浏览器用户代理 |
@@ -40,16 +40,16 @@ source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
 | user.header(&#39;accept&#39;) | 访客语言和字符编码 |
 | user.header(&#39;connection&#39;) | 服务器连接。例如：keep-live |
 | user.header(&#39;referrer&#39;) | 访客当前页面的网站 URL。不适用于 Internet Explorer。 |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |
-| user.get(&#39;param_name&#39;) |
+| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.get(&#39;param_name&#39;) |  |
 | user.parameter | 从配置文件脚本创建的永久性配置文件属性。还会引用地理位置、访问计数等“系统”配置文件。 |
-| profile.get(&#39;param_name&#39;) |
-| profile.param(&#39;param_name&#39;); |
+| profile.get(&#39;param_name&#39;) |  |
+| profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | 因带有 profile.   前缀而使其具有持久性的 mbox 参数。 |
 | profile.browserTime | 访客的本地浏览器时间。对于系统时间，在配置文件脚本中创建新的日期对象 |
-| profile.averageDaysBetweenVisits |
-| profile.sessionCount |
+| profile.averageDaysBetweenVisits |  |
+| profile.sessionCount |  |
 | parameter= | 通过 mbox 传递的其他值的统称，通常为名称/值对。不具有持久性，除非使用 `profile.parameter` 或 `user.parameter` 设定了持久性。 |
 
 ## URL 变量 {#section_8F25958273164EBAA6DC659302993FD3}
@@ -80,8 +80,8 @@ source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
 
 | 变量 | 注释 |
 |--- |--- |
-| `mbox.name` |
-| mbox.param(&#39;param_name&#39;) |
+| `mbox.name` |  |
+| mbox.param(&#39;param_name&#39;) |  |
 | 与每个请求一起自动传递的参数：<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | 与订单 mbox 一起传递的参数：<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
 | mbox3rdPartyId | 用于将客户 ID 同步到 Target mboxPCID 的 mbox 参数。客户 ID 是指贵公司用于跟踪访客的 ID，例如 CRM ID、会员 ID 或诸如此类的 ID。此 ID 随后可用于通过配置文件 API 和[客户属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)。 |

@@ -6,8 +6,8 @@ seo-title: iOS - 发送自定义用户数据
 title: iOS - 发送自定义用户数据
 topic: Target
 uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac
-translation-type: tm+mt
-source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 

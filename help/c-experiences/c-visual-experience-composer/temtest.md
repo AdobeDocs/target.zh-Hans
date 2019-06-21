@@ -7,13 +7,13 @@ solution: Target
 title: 在相似页面上包含相同体验
 topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
-translation-type: tm+mt
-source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# 在类似页面上包含相同的体验{#include-the-same-experience-on-similar-pages}
+# 在相似页面上包含相同体验{#include-the-same-experience-on-similar-pages}
 
 如果使用一个页面模板为页面提供结构，或者如果页面包含类似的元素，则此功能可以测试类似结构页面元素中的变体。
 
@@ -35,8 +35,8 @@ source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
 您可以指定包含更改元素的页面，或将所做的更改应用到整个网站。
 
 1. 按照[活动](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)中的说明创建活动。
-1. 要指定将显示体验的页面，请在视觉体验书写器中单击齿轮图标，然后选择 **[!UICONTROL 页面传送]**。
-1. 单击 **[!UICONTROL 添加模板规则]**，然后指定要将体验添加到的页面的标准。
+1. 要指定将显示体验的页面，请在可视化体验编辑器中单击齿轮图标，然后选择 **[!UICONTROL 页面交付]**。
+1. 单击 **[!UICONTROL 添加模板规则]**，然后为要将体验添加到的页面指定标准。
 
 1. 指定页面范围。页面范围可以是以下任一类型：
 
@@ -53,14 +53,14 @@ source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
 
    * 包含
    * 不包含
-   * is(区分大小写)
+   * 是（区分大小写）
    * 不是
    * 开始于
    * 结束于
 
 1. 键入相应的字符串以定义要将体验添加到的位置，例如域或页面名称中包含的字符串。
 
-   例如，如果您选择 **[!UICONTROL “域]** ”和 **[!UICONTROL “是”(区分大小写)]**，请键入要将体验添加到所有页面的域。
+   例如，如果您选择了 **[!UICONTROL 域]** 和 **[!UICONTROL 是（区分大小写）]**，则需键入要将体验添加到的所有页面所在的域。
 
    您可以包含多个项目。
 
@@ -68,7 +68,7 @@ source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
    >
    >多个项目会使用 `OR` 逻辑进行连接，这意味着列表中的任一项目均满足条件。
 
-1. 如果需要，请单击 **[!UICONTROL 添加模板规则]** ，然后重复上一步中的步骤，以输入其他条件。
+1. 如有需要，单击 **[!UICONTROL 添加模板规则]**，并重复上一步骤中的操作过程，以输入其他标准。
 
    多个标准会使用 AND 逻辑进行连接。Adobe Target 会将体验添加到符合指定标准的所有页面。
 

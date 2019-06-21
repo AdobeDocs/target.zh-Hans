@@ -1,27 +1,27 @@
 ---
-description: Mobile Visual Experience Composer(CMS)支持设置Target活动的点击跟踪目标。
-keywords: 移动App CMS；移动可视体验书写器；移动体验书写器选项；移动体验选项；目标视图；点击；单击跟踪；track
-seo-description: Mobile Visual Experience Composer(CMS)支持设置Adobe Target活动的点击跟踪目标。
-seo-title: 在移动应用程序CMS中设置单击跟踪
+description: 移动设备可视化体验编辑器 (VEC) 支持为 Target 活动设置点击跟踪目标。
+keywords: 移动设备应用程序 VEC;移动设备可视化体验编辑器;移动设备体验编辑器选项;移动设备体验选项;定位视图;点击量;点击跟踪;跟踪
+seo-description: 移动设备可视化体验编辑器 (VEC) 支持为 Adobe Target 活动设置点击跟踪目标。
+seo-title: 在移动设备应用程序 VEC 中设置点击跟踪
 solution: Target
-title: 在移动应用程序CMS中设置单击跟踪
+title: 在移动设备应用程序 VEC 中设置点击跟踪
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
-translation-type: tm+mt
-source-git-commit: aa729a8972547be065008c6504bb36dce9cd6e65
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# 在移动应用程序CMS中设置单击跟踪{#set-up-click-tracking-in-the-mobile-vec}
+# 在移动设备应用程序 VEC 中设置点击跟踪 {#set-up-click-tracking-in-the-mobile-vec}
 
-移动App CMS支持设置 [!DNL Target] 活动的点击跟踪目标。
+移动设备应用程序 VEC 支持为 [!DNL Target] 活动设置点击跟踪目标。
 
 1. 在“目标和设置”页面上为活动设置目标时，选择[!UICONTROL 转化]成功量度。
 
    ![](assets/mobile-vec-clicktrack1.png)
 
-1. 在此步操作中，选择**[!UICONTROL 已单击元素]**，然后单击**[!UICONTROL 选择元素]**。
+1. 在此步操作中，选择 **[!UICONTROL 已单击元素]**，然后单击 **[!UICONTROL 选择元素]**。
 
    您的移动设备应用程序将在移动设备可视化体验编辑器 (VEC) 中打开。
 
@@ -45,8 +45,8 @@ source-git-commit: aa729a8972547be065008c6504bb36dce9cd6e65
 
 选择元素时，需注意以下几个事项：
 
-* 当选择多个元素时，如果访客单击其中任一元素，则点击计数。要单独计算每次点击，请为每个元素设置单独的成功量度。
+* 选择多个元素后，如果访客点击其中任一元素，则会对此次点击进行计数。要单独对每次点击进行计数，需为每个元素分别设置成功量度。
 * 用户点击元素后，点击事件会立即发送到 Target。
-* 在移动App CMS中，只允许选择已附加单击处理程序的那些元素。
+* 在移动设备应用程序 VEC 中，只允许选择附加了点击处理程序的那些元素。
 * 您可以浏览应用程序的任何部分，但请确保为您选择点击跟踪元素的部分定义了[视图](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views)。
-* 在编辑活动时，如果已在步骤 1 中选择设备，则无需再次选择设备。但是，如果您直接登录到点击跟踪页面，将显示设备选择屏幕以选择授权设备。
+* 在编辑活动时，如果已在步骤 1 中选择设备，则无需再次选择设备。但是，如果您直接登陆点击跟踪页面，则将显示设备选择屏幕以选择授权设备。

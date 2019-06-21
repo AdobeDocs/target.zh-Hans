@@ -7,8 +7,8 @@ solution: Target
 subtopic: 入门指南
 title: 创建订单确认 mbox - mbox.js
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
-translation-type: tm+mt
-source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
    >
    >使用逗号分隔多个产品 ID。
 
-   **提示：**您也可以在任意 mbox（必须命名为 `orderConfirmPage`）中传递订单信息。还可以在同一营销活动之内的多个 mbox 中传递订单信息。
+   **提示：** 您也可以在任意 mbox（必须命名为 `orderConfirmPage`）中传递订单信息。还可以在同一营销活动之内的多个 mbox 中传递订单信息。
 
    ```
    <div class="mboxDefault"> 

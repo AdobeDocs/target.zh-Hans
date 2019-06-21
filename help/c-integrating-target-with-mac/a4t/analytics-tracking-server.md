@@ -5,8 +5,8 @@ seo-description: 如果您使用的是较低版本的 at.js 或 mbox.js，则必
 seo-title: 使用 Analytics 跟踪服务器
 title: 使用 Analytics 跟踪服务器
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 1. 从您正在创建活动的页面上，打开 Adobe Experience Cloud 调试器。
 
-   如果您尚未安装该调试器，请按照 [Adobe 调试器安装说明](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html)进行安装。
+   如果尚未安装调试器，请按照 [Adobe Debugger 安装说明](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/debugger_install.html)操作。
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
@@ -36,7 +36,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
    * （对于 RDC 实施）
    *Company* 表示 Analytics 公司名称，*metrics* 是 CNAME 值的一个示例，而 *d1* 是 Analytics 数据中心的一个示例。
 1. 复制该字段的全部内容。
-1. 在活动的“[!UICONTROL 目标和设置][!UICONTROL ”屏幕的“]报表设置**”部分中，将复制的跟踪服务器信息粘贴到[!UICONTROL 跟踪服务器]**字段中。
+1. 在活动的“[!UICONTROL 目标和设置][!UICONTROL ”屏幕的“]报表设置 **”部分中，将复制的跟踪服务器信息粘贴到[!UICONTROL 跟踪服务器]** 字段中。
 
    >[!NOTE]
    >

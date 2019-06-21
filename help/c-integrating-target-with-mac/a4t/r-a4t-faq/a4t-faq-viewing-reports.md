@@ -7,8 +7,8 @@ solution: Target
 title: 查看报表 - A4T 常见问题解答
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
-translation-type: tm+mt
-source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
 
 对于“活动”报表，管理员可以更改默认量度，这样每次运行报表时都会显示相同的量度。否则，报表会将您在上一个报表中应用的最后一个量度作为默认量度。
 
-有关更多信息，请参阅《报表和 Analytics 界面帮助》**指南中的[选择默认报表量度](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html)。
+有关更多信息，请参阅 *Reports &amp; Analytics 界面帮助*指南中的[选择默认报表量度](https://marketing.adobe.com/resources/help/zh_CN/sc/user/t_metrics_set_default.html)。
 
 ## 何时将区段应用于报表，以及何时将区段应用于量度（包含计算量度）？{#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -41,10 +41,10 @@ source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
 
 有几个选项可供选择，每个选项都有各自的优势：
 
-* *独特访客数*****在用户首次符合活动条件时递增一次。
-* 每个会话的*访问次数*****在用户（独特访客）进入活动时递增，即使该用户在后续访问中未查看该活动也是如此。
-* *活动展示次数*****在每次提供活动内容时递增。（由 Target 测量）
-* *实例*****在提供活动内容后，每页一次地递增。（由 Analytics 测量）
+* *独特访客数 *****在用户首次符合活动条件时递增一次。
+* 每个会话的*访问次数 *****在用户（独特访客）进入活动时递增，即使该用户在后续访问中未查看该活动也是如此。
+* *活动展示次数 *****在每次提供活动内容时递增。（由 Target 测量）
+* *实例 *****在提供活动内容后，每页一次地递增。（由 Analytics 测量）
 
 当访客查看包含活动的页面时，系统会为该访客设置一个变量以包含该活动的名称。有关每种计数方法的比较方式，请参阅下面的详细情景。
 
@@ -110,13 +110,13 @@ source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
 
 因为这两个体验都是在转化之前查看的，所以它们都获得了该订单的“点数”。但在系统中只产生了一个订单，所以点数的总计值反映了这一点。对于 Target 报表，由于您没有将 Target 活动相互进行比较以查看哪个活动更成功，因此不用担心用户查看的所有活动都获得点数。因为您比较的是一个活动中的两个项目所得到的结果，而用户不可能在同一活动中看到不同的体验，因此您不必顾虑订单点数会造成相互之间的混淆。
 
-有关详细信息，请参阅 Analytics 帮助中的[转化变量 (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html)。
+有关更多信息，请参阅“Analytics 帮助”中的[转化变量 (eVar)](https://marketing.adobe.com/resources/help/zh_CN/reference/conversion_var_admin.html)。
 
 ## 为什么 Analytics 和 Analytics for Target (A4T) 在计算“独特访客”量度时得到的数字不同？{#section_0C3B648AB54041F9A2AA839D51791883}
 
 当您运行的 A/B 测试使用“学生 t 检验”（置信度量度）来选择测试的入选者时，其假设之一是存在固定的时间范围。因此，除非您查看的是固定样本量，否则该测试不具有统计意义。
 
-只有当您查看的时间段比实际测试时间短时，Analytics 和 Target 中的“独特访客”量度才会有所不同。如果您未达到样本量，则测试并不可靠。有关详细信息，请参阅 [Evan Miller 的网站](https://www.evanmiller.org/index.html)上的[如何正确运行 A/B 测试](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
+只有当您查看的时间段比实际测试时间短时，Analytics 和 Target 中的“独特访客”量度才会有所不同。如果您未达到样本量，则测试并不可靠。有关更多信息，请参阅 [Evan Miller 的网站](https://www.evanmiller.org/index.html)上的[如何不运行 A/B 测试](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
 
 “独特访客”量度显示的是在指定时间段内，访问过该网站且接触过该测试的人数。这些人仍是测试的一部分，应计入在内。如果您只想查看一周内接触过该测试的人数，则可以创建一个具有活动展示次数的访客区段并将其应用于报表。
 
@@ -130,18 +130,18 @@ source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
 * 如果访客正在使用 `mbox3rdPartyId`，则当匿名访客与其第三方 ID 配置文件合并时，Target 可能会将该访客带入不同的体验以与第三方 ID 匹配。有关更多信息，请参阅 [mbox3rdPartyID 的实时配置文件同步](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)。
 * Analytics 可能会将不同设备作为同一访客来跟踪，这与 Target 跟踪这些设备的方式不同，因为 Target 中的第三方 ID 设置与 Analytics 中的设置不同。
 
-## A4T是否支持虚拟报告套件？
+## A4T 是否支持虚拟报表包？
 
-虚拟报告套件 *不* 包含在报表包列表中，虚拟报告套件中的受众在A4T报告中不受支持。
+虚拟报表包*未*包含在“报表包”列表中，并且 A4T 报表不支持虚拟报表包中的受众。
 
-## 我能否更改活动分配后使用A4T的活动中流量分配的百分比？
+## 对于使用 A4T 的活动，我能否在激活活动后更改其中的流量分配百分比？
 
-在激活后更改活动中的流量分配百分比会导致Analytics中的报告不一致，因为更改仅影响新访客。回访访客不受影响。
+如果在激活后更改活动中的流量分配百分比，可能会导致 Analytics 中的报表出现不一致，因为此更改仅对新访客产生影响。回访访客将不受影响。
 
-作为最佳实践，您应停止现有活动，然后创建新活动，而不是在激活后更改百分比。新活动的报告从新访客开始，回访访客的数据不会导致不一致的报告。
+作为最佳实践，您应停止现有活动，然后创建一个新活动，而不是在激活后更改百分比。新活动的报表会从新访客开始，而回访访客的数据并不会导致报表不一致。
 
-## 我可以在Adobe Analysis Workspace中查看我的Target活动数据吗？
+## 我能否在 Adobe Analysis Workspace 中查看 Target 活动数据？
 
-您可以使用 [!DNL Adobe Analysis Workspace] 更深入地挖掘数据，或发现隐藏在表面之下的洞察。
+您可以使用 [!DNL Adobe Analysis Workspace] 来深入挖掘并可视化数据，或揭示表面下隐藏的洞察。
 
-有关详细信息和示例，请打开 [Analytics&amp; Target：Adobe Experience League提供](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)的分析教程最佳实践。
+有关详细信息和示例，请打开由 Adobe Experience League 提供的 [Analytics &amp; Target：Analysis 最佳实践教程](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。

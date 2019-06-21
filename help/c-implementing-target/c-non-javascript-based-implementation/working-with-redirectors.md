@@ -8,8 +8,8 @@ subtopic: 入门指南
 title: 使用重定向器
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
-translation-type: tm+mt
-source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
    &mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
    ```
 
-   * 此处 `yourclientcode` 是您的公司的客户代码。您公司的客户端代码全部为小写字母，且不含任何特殊字符。
+   * 其中，`yourclientcode` 是您公司的客户端代码。您公司的客户端代码全部为小写字母，且不含任何特殊字符。
 
       * **at.js**：您的客户端代码在以下位置提供：[!UICONTROL  界面的]设置 &gt; 实施 &gt; 编辑 at.js 设置[!DNL Target]页面的顶部。
 
@@ -54,9 +54,9 @@ source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
 
       重定向器与其他 mbox 的运行方式不同，但是与其他任何 mbox 一样，都会显示在您的帐户中。为重定向器命名，以便能够轻松地将它与您帐户中其他标准类型的 mbox 区分开来。作为最佳实践，重定向器 mbox 的名称应该以“redirectorlink”开头。
 
-   * 默认 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` 目标位置。
+   * 其中，`http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` 是默认目标。
 
-      这必须是进行了编码的 URL，且必须是绝对引用。您可以使用 [HTML URL编码引用](https://www.w3schools.com/tags/ref_urlencode.asp) 快速对URL进行编码。|
+      这必须是进行了编码的 URL，且必须是绝对引用。您可以使用 [HTML URL 编码引用](https://www.w3schools.com/tags/ref_urlencode.asp)来快速对您的 URL 进行编码。
 
 
 
@@ -97,7 +97,7 @@ source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
 
 >[!NOTE]
 >
->最佳实践是使用每个访问参与量度的 **分数确定** 成本价值， [如参与计划](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html)中所述。
+>最佳实践是使用 **每次访问得分** 参与度量度确定成本值，如[参与度](https://marketing.adobe.com/resources/help/zh_CN/tnt/help/c_Capturing_Engagement.html)中所述。
 
 将 `&mboxPageValue=-value` 添加到 URL。请注意负值。
 
@@ -114,7 +114,7 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 
 >[!NOTE]
 >
->最佳实践是使用每个访问参与量度的 **分数确定** 收入价值， [如参与计划](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html)中所述。
+>最佳实践是使用 **每次访问得分** 参与度量度确定收入值，如[参与度](https://marketing.adobe.com/resources/help/zh_CN/tnt/help/c_Capturing_Engagement.html)中所述。
 
 将 `&mboxPageValue=value` 添加到 URL。
 

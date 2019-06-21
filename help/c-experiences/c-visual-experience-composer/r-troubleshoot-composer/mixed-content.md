@@ -7,8 +7,8 @@ solution: Target
 title: 在浏览器中启用混合内容
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
 >
 >允许混合内容仅会对 VEC 造成影响，而不会影响您已上线的网站。
 
-有关更多信息，请参阅“Mozilla 开发人员网络”**(MDN) 网站上的[混合内容](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content)。
+有关更多信息，请参阅 *Mozilla 开发人员网络* (MDN) 网站上的[混合内容](https://developer.mozilla.org/zh-CN/docs/Web/Security/Mixed_content)。
 
 ## 在 Firefox 中启用混合内容 {#task_5448763B8DC941FD80F84041AEF0A14D}
 
@@ -66,10 +66,10 @@ target/t_mixed_content_ie.xml
 
 1. 在 Internet Explorer 中，单击“设置”图标，然后单击 **[!UICONTROL Internet 选项]**。
 1. 打开“[!UICONTROL 安全]”选项卡。
-1. 选择 **[!UICONTROL Internet]**，然后单击**[!UICONTROL 自定义级别]**。
-1. 选择**[!UICONTROL 其他]**。
-1. 在[!UICONTROL 其他]下方，启用**[!UICONTROL 显示混合内容]**。
-1. 单击**[!UICONTROL 确定]** &gt; **[!UICONTROL 是]** &gt; **[!UICONTROL 应用]**。
+1. 选择 **[!UICONTROL Internet]**，然后单击 **[!UICONTROL 自定义级别]**。
+1. 选择 **[!UICONTROL 其他]**。
+1. 在[!UICONTROL 其他]下方，启用 **[!UICONTROL 显示混合内容]**。
+1. 单击 **[!UICONTROL 确定]** &gt; **[!UICONTROL 是]** &gt; **[!UICONTROL 应用]**。
 
 建议您在更改此设置后重新启动计算机。
 
@@ -83,4 +83,4 @@ target/t_mixed_content_chrome.xml
 
  -->
 
-请参阅 Google Chrome 帮助中的[此页面包含不安全的内容](https://support.google.com/chrome/answer/1342714?hl=en)。
+请参阅 Google Chrome 帮助中的[此页面包含不安全的内容](https://support.google.com/chrome/answer/1342714?hl=zh)。

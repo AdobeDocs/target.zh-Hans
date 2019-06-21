@@ -7,8 +7,8 @@ solution: Target
 title: mbox3rdPartyID 的实时配置文件同步
 topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
-translation-type: tm+mt
-source-git-commit: 17f0612559bae335d261ebc7654bc5d7fe3c0d12
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -34,4 +34,4 @@ mbox3rdPartyID 是您公司的访客 ID，例如您公司的忠诚度计划的�
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] 如果 [!DNL Adobe Experience Cloud] ID(MID)更改(例如，访客可以根据mbox3rdPartyId合并 [!DNL Target] 配置文件)，但仍有活动信息，则不会跟踪目标。对于使用相同ID识别的访客(访问具有相同设备的页面的访客)， [!DNL Analytics for Target] (A4T)应按预期工作。
+>在 [!DNL Adobe Experience Cloud] ID (MID) 发生更改（例如访客更改设备）时，即便 [!DNL Target] 配置文件可能会根据 mbox3rdPartyID 进行合并，并且仍然具有活动信息，仍将不会跟踪 [!DNL Adobe Analytics] 目标。对于使用相同 MID 进行标识的访客（使用相同设备访问该页面的访客），[!DNL Analytics for Target] (A4T) 应按预期工作。

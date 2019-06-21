@@ -7,8 +7,8 @@ solution: Target
 title: 设计概述
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
-translation-type: tm+mt
-source-git-commit: 3901aa72118adbc0862915da7c8b211090a4e7e7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -64,17 +64,17 @@ Target 还可以将您的推荐作为 JSON 对象来发送，而 JSON 对象可�
 1. 设置一个基于表单的“推荐”活动，使其使用此设计。
 
    1. 导航到“活动”页面。
-   1. 单击**[!UICONTROL 创建活动]**。
-   1. 选择**[!UICONTROL 推荐]**。
-   1. 在**[!UICONTROL 选择体验编辑器]**下方，选择**[!UICONTROL 表单]**。
+   1. 单击 **[!UICONTROL 创建活动]**。
+   1. 选择 **[!UICONTROL 推荐]**。
+   1. 在 **[!UICONTROL 选择体验编辑器]** 下方，选择 **[!UICONTROL 表单]**。
 
    1. 在“位置”下方，输入文本：“Sample_Recs_Response”
-   1. 在**[!UICONTROL 默认内容]**下方，单击向下箭头，然后单击**[!UICONTROL 添加推荐]**。
+   1. 在 **[!UICONTROL 默认内容]** 下方，单击向下箭头，然后单击 **[!UICONTROL 添加推荐]**。
    1. 选择一种页面类型。这决定了对接下来要显示的屏幕的初步筛选。
-   1. 选择一个标准卡片，然后单击**[!UICONTROL 下一步]**。
-   1. 选择在上一步中创建的设计，然后单击**[!UICONTROL 保存]**。
+   1. 选择一个标准卡片，然后单击 **[!UICONTROL 下一步]**。
+   1. 选择在上一步中创建的设计，然后单击 **[!UICONTROL 保存]**。
    1. 完成设置过程。
-   1. 单击**[!UICONTROL 不活跃]**旁边的向右箭头，然后选择**[!UICONTROL 激活]**。
+   1. 单击 **[!UICONTROL 不活跃]** 旁边的向右箭头，然后选择 **[!UICONTROL 激活]**。
 
 1. 设置活动并将其激活后，您可以设置示例请求，以获取简洁的 JSON 响应。
 
@@ -90,7 +90,7 @@ Target 还可以将您的推荐作为 JSON 对象来发送，而 JSON 对象可�
 
 | 参数 | 值 |
 |--- |--- |
-| `[YOUR_CLIENT_CODE]` | 目标客户端代码(在../target/products.html# RectsSettings&gt; Recommendations API令牌&gt;客户端代码上提供)。 |
+| `[YOUR_CLIENT_CODE]` | Target 客户端代码（位于 ../target/products.html#recsSettings &gt;“推荐 API 令牌”&gt;“客户端代码”）。 |
 | `[YOUR_MBOX_NAME]` | 您在基于表单的推荐的“位置”部分中选择的名称，在此示例中为 YOUR_CLIENT_CODE。 |
 | `[ENTITY_ID`] | 您目录中的项目的 `entity.id`。 |
 | `[AT_PROPERTY_TOKEN]` | （可选）如果您在活动设置过程中选择了某个属性（“企业权限”的一部分），则需添加此参数。 |

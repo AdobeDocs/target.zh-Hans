@@ -7,8 +7,8 @@ solution: Target
 title: at.js 如何管理闪烁
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,9 +29,9 @@ source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
 
 如果在您的实施中将不透明度设置为 0 不起作用，您还可以通过自定义 `bodyHiddenStyle` 并将其设置为 `body {visibility:hidden !important}` 来管理闪烁。您可以使用值 body`{opacity:0 !important`} 或 `body {visibility:hidden !important}`，在这两者中，选择最适合您的特定环境的那个值。
 
-下图显示了 at.js 1.*x* 和at. js2.x。
+下图显示了 at.js 1.*x* 和 at.js 2.x 中的“隐藏主体”和“显示主体”调用。
 
-**at. js2.x**
+**at.js 2.x**
 
 ![Target 流程：at.js 页面加载请求](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
@@ -103,9 +103,9 @@ source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
 body {opacity: 0 !important}
 ```
 
-## 在. js2.x中管理Flickker for righterView()
+## 在 at.js 2.x 的 triggerView() 中管理闪烁
 
-当使用 `triggerView()` 在 SPA 中显示目标内容时，开箱即用地提供闪烁管理。这意味着无需手动添加预先隐藏逻辑。而是在. js2.x上预隐藏要在应用目标内容之前显示视图的位置。
+当使用 `triggerView()` 在 SPA 中显示目标内容时，开箱即用地提供闪烁管理。这意味着无需手动添加预先隐藏逻辑。相反，at.js 2.x 会在应用目标内容之前预先隐藏需要显示视图的位置。
 
 ## 使用 getOffer() 和 applyOffer() 管理闪烁
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## 在. js1.x中使用带有mboxCreate()的区域mbox(在. js2.x中不支持)
+## 在 At.js 1.x 的 mboxCreate() 中使用区域 mbox（在 at.js 2.x 中不受支持）
 
 如果您使用区域 mbox 实施，则可以在配置以下类似示例代码的页面中使用 `mboxCreate()`：
 

@@ -8,8 +8,8 @@ subtopic: 入门指南
 title: mbox.js Cookie
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
-translation-type: tm+mt
-source-git-commit: 75f097e0f38cb2dc19922383260958606e8c53b2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,7 +22,7 @@ Cookie 行为取决于它是第一方 Cookie、第三方和第一方 Cookie，�
 >
 >本主题包含有关 `mboxSession` 和 `mboxPC` 的信息。根据我们的实施最佳实践，建议您不要使用 Cookie 数据（`mboxSession` 或 `mboxPC`）链接或存储任何敏感信息。
 
-另请参阅[删除 Target Cookie](https://marketing.adobe.com/resources/help/en_US/target/target/t_cookie_deleting.html)。
+另请参阅[删除 Target Cookie](https://marketing.adobe.com/resources/help/zh_CN/target/target/t_cookie_deleting.html)。
 
 ## 何时使用第一方或第三方 Cookie {#section_F71B29420C004A7FA3B1921E619B326E}
 

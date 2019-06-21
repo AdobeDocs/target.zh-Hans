@@ -7,8 +7,8 @@ solution: Target
 title: Target 活动类型
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
-translation-type: tm+mt
-source-git-commit: 5389431da497e18421f05ddf35755428b571ec6e
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 5389431da497e18421f05ddf35755428b571ec6e
 
 >[!NOTE]
 >
->要获得最佳体验并与他人共享，请下载交互 [式Adobe Target活动指南PDF](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf)。
+>要获得最佳体验并与他人分享，请下载互动式 [Adobe Target 活动指南 PDF](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf)。
 
 ## 该活动有什么作用？{#section_4ECAACC68723402EB3649033190E1BBC}
 

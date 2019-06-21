@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: 推荐
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 badge: premium
-translation-type: tm+mt
-source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -103,23 +103,23 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | 参数 | 值 | 描述 | 验证 |
 |--- |--- |--- |--- |
-| `client_code` | *client_code* | 推荐中使用的客户端代码。您的 Adobe 顾问可以提供此值。 |
+| `client_code` | *client_code* | 推荐中使用的客户端代码。您的 Adobe 顾问可以提供此值。 |  |
 | `mbox` | *mboxName* | 用于定位的 mbox 名称。 | 验证方式与所有 mbox 调用相同。<br>250 个字符限制。<br>不能包含以下任一字符：`', ", %22, %27, <, >, %3C, %3E` |
-| `mboxXDomain` | disabled | 阻止响应在非 Web 环境中设置 Cookie。 |
-| `entity.id`<br>（以下特定类型的标准需要使用此参数：已查看/已查看、已查看/已购买、已购买/已购买）。 | *entity_id* | 推荐所基于的产品 ID，例如在购物车中放弃的产品或以前购买的产品。<br>如果推荐标准具有相应要求，则 rawbox 必须包含 `entity.id`。 |
-| `entity.event.detailsOnly` | true | 如果传递了 `entity.id`，则强烈建议您也传递此参数，以阻止请求递增某个项目的页面查看统计次数，从而使基于产品查看的算法不会出现偏差。 |
-| `entity.categoryId`<br>（以下特定类型的标准需要使用此参数：按类别查看次数最多的项目和按类别最畅销的商品） | *category_id* | 推荐所基于的类别，例如某个类别中最畅销的商品。<br>如果推荐标准具有相应要求，则 rawbox 必须包含 `entity.categoryId`。 |
-| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 参数不存在，则 `mboxDefault` 应该是一个绝对 URL，在没有可用推荐的情况下，该 URL 将返回默认内容。默认内容可以是一个图像或其他静态内容。<br>如果 `mboxNoRedirect` 参数存在，则 `mboxDefault` 可以是用于指示没有推荐的任何文本，例如 `no_content`。<br>电子邮件提供商将需要处理返回此值的情况，并将默认 HTML 插入到电子邮件中。 |
-| `mboxHost` | *mbox_host* | 这是调用触发时添加到默认环境（主机组）的域。 |
-| `mboxPC` | 留空 | （使用访客配置文件的推荐需要使用此参数。）<br>如果未提供“thirdPartyId”，则新的 tntId 将会生成，并在响应中返回。否则，此值将继续留空。<br>**注意：**请确保为每个电子邮件收件人（即，每个 API 调用）的 `mboxSession` 和 `mboxPC` 提供唯一值。如果您没有为这些字段提供唯一值，则由于在单个配置文件中会生成大量事件，API 响应可能变慢或失败。 | 1 &lt; 长度 &lt; 128<br>最多只能包含一个“.”（圆点）。<br>仅允许在配置文件位置后缀中使用圆点。 |
+| `mboxXDomain` | disabled | 阻止响应在非 Web 环境中设置 Cookie。 |  |
+| `entity.id`<br>（以下特定类型的标准需要使用此参数：已查看/已查看、已查看/已购买、已购买/已购买）。 | *entity_id* | 推荐所基于的产品 ID，例如在购物车中放弃的产品或以前购买的产品。<br>如果推荐标准具有相应要求，则 rawbox 必须包含 `entity.id`。 |  |
+| `entity.event.detailsOnly` | true | 如果传递了 `entity.id`，则强烈建议您也传递此参数，以阻止请求递增某个项目的页面查看统计次数，从而使基于产品查看的算法不会出现偏差。 |  |
+| `entity.categoryId`<br>（以下特定类型的标准需要使用此参数：按类别查看次数最多的项目和按类别最畅销的商品） | *category_id* | 推荐所基于的类别，例如某个类别中最畅销的商品。<br>如果推荐标准具有相应要求，则 rawbox 必须包含 `entity.categoryId`。 |  |
+| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 参数不存在，则 `mboxDefault` 应该是一个绝对 URL，在没有可用推荐的情况下，该 URL 将返回默认内容。默认内容可以是一个图像或其他静态内容。<br>如果 `mboxNoRedirect` 参数存在，则 `mboxDefault` 可以是用于指示没有推荐的任何文本，例如 `no_content`。<br>电子邮件提供商将需要处理返回此值的情况，并将默认 HTML 插入到电子邮件中。 |  |
+| `mboxHost` | *mbox_host* | 这是调用触发时添加到默认环境（主机组）的域。 |  |
+| `mboxPC` | 留空 | （使用访客配置文件的推荐需要使用此参数。）<br>如果未提供“thirdPartyId”，则新的 tntId 将会生成，并在响应中返回。否则，此值将继续留空。<br>**注意：** 请确保为每个电子邮件收件人（即，每个 API 调用）的 `mboxSession` 和 `mboxPC` 提供唯一值。如果您没有为这些字段提供唯一值，则由于在单个配置文件中会生成大量事件，API 响应可能变慢或失败。 | 1 &lt; 长度 &lt; 128<br>最多只能包含一个“.”（圆点）。<br>仅允许在配置文件位置后缀中使用圆点。 |
 
 **可选参数**：
 
 | 参数 | 值 | 描述 | 验证 |
 |--- |--- |--- |--- |
-| `mboxPC`<br>(可选) | *mboxPCId* | Target 访客 ID。如果您想要在用户多次访问您网站时进行全程跟踪，或者需要使用用户配置文件参数，请使用此值。<br>此值需是用户真实的 Adobe Target PCID，可从网站中将此 ID 导出到您的 CRM。电子邮件提供商将从您的 CRM 或 Data Warehouse 中检索此 ID，并将其用作此参数的值。<br>如果 A/B 活动中包含推荐，则 `mboxPC` 值还可用于跟踪访客多次访问您网站时的行为，以及跟踪量度。<br>**注意：**请确保为每个电子邮件收件人（即，每个 API 调用）的 `mboxSession` 和 `mboxPC` 提供唯一值。如果您没有为这些字段提供唯一值，则由于在单个配置文件中会生成大量事件，API 响应可能变慢或失败。 | 1 &lt; 长度 &lt; 128<br>最多只能包含一个“.”（圆点）。<br>仅允许在配置文件位置后缀中使用圆点。 |
-| `mboxNoRedirect`<br>(可选) | 1 | 默认情况下，如果未找到可交付的内容，则会重定向调用方。可用于禁用默认行为。 |
-| `mbox3rdPartyId` | *xxx* | 如果您具有用于配置文件定位的自定义访客 ID，请使用此参数。 |
+| `mboxPC`<br> (可选) | *mboxPCId* | Target 访客 ID。如果您想要在用户多次访问您网站时进行全程跟踪，或者需要使用用户配置文件参数，请使用此值。<br>此值需是用户真实的 Adobe Target PCID，可从网站中将此 ID 导出到您的 CRM。电子邮件提供商将从您的 CRM 或 Data Warehouse 中检索此 ID，并将其用作此参数的值。<br>如果 A/B 活动中包含推荐，则 `mboxPC` 值还可用于跟踪访客多次访问您网站时的行为，以及跟踪量度。<br>**注意：** 请确保为每个电子邮件收件人（即，每个 API 调用）的 `mboxSession` 和 `mboxPC` 提供唯一值。如果您没有为这些字段提供唯一值，则由于在单个配置文件中会生成大量事件，API 响应可能变慢或失败。 | 1 &lt; 长度 &lt; 128<br>最多只能包含一个“.”（圆点）。<br>仅允许在配置文件位置后缀中使用圆点。 |
+| `mboxNoRedirect`<br> (可选) | 1 | 默认情况下，如果未找到可交付的内容，则会重定向调用方。可用于禁用默认行为。 |  |
+| `mbox3rdPartyId` | *xxx* | 如果您具有用于配置文件定位的自定义访客 ID，请使用此参数。 |  |
 
 **可能的 Target 服务器响应**：
 
@@ -134,7 +134,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 ## 选项 3：使用“仅限下载”模板 {#section_518C279AF0094BE780F4EA40A832A164}
 
-按常规方法设置推荐，但在演示部分中选择**仅限下载**，而不是模板和 mbox 组合。然后，在 ESP 中，告诉 ESP 您创建了什么推荐 ID。ESP 将通过 API 访问推荐数据。此数据会显示应为某个特定类别或重要项目推荐哪些项目，例如已放弃的购物车中的项目。ESP 会存储此数据并将此数据与其自身的外观相关联，还会显示有关每个项目的信息，并通过电子邮件交付此类信息。
+按常规方法设置推荐，但在演示部分中选择 **仅限下载**，而不是模板和 mbox 组合。然后，在 ESP 中，告诉 ESP 您创建了什么推荐 ID。ESP 将通过 API 访问推荐数据。此数据会显示应为某个特定类别或重要项目推荐哪些项目，例如已放弃的购物车中的项目。ESP 会存储此数据并将此数据与其自身的外观相关联，还会显示有关每个项目的信息，并通过电子邮件交付此类信息。
 
 选用这一方法时，推荐服务器无法直接跟踪推荐的性能或多个算法/模板组合中的分离流量。此外，推荐并未与访客配置文件绑定。
 

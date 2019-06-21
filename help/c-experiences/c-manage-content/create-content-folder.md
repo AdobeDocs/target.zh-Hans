@@ -7,8 +7,8 @@ solution: Target
 title: 创建选件文件夹
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
-translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,8 +17,8 @@ source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
 
 可在选件库中创建用于存放项目的文件夹。
 
-1. 单击**[!UICONTROL 选件]**，然后根据需要选择**[!UICONTROL 代码选件]**或**[!UICONTROL 图像选件]**选项卡。
-1. 单击**[!UICONTROL 创建]** &gt; **[!UICONTROL 文件夹]**。
+1. 单击 **[!UICONTROL 选件]**，然后根据需要选择 **[!UICONTROL 代码选件]** 或 **[!UICONTROL 图像选件]** 选项卡。
+1. 单击 **[!UICONTROL 创建]** &gt; **[!UICONTROL 文件夹]**。
 1. 填写以下字段：
 
    | 字段 | 描述 |
@@ -28,7 +28,7 @@ source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
    | 私有（仅适用于图像选件） | 将文件夹指定为私有后，只有您本人能够查看此文件夹及其内容。 |
    | 可在列表视图中重新排序（仅适用于图像选件） | 指定您本人和其他人可以在列表视图中对文件夹的位置重新进行排序。<br>要在卡片视图和列表视图之间进行切换，请在内容库右上角单击“卡片视图”图标或“列表视图”图标。您还可以在列表视图中选择“视图设置”，以包含或排除列。 |
 
-1. 单击**[!UICONTROL 创建]**。
+1. 单击 **[!UICONTROL 创建]**。
 
 ## 代码选件选项
 

@@ -1,14 +1,14 @@
 ---
-description: '有关. js的registerExtension()函数的信息。 '
+description: '有关 at.js 的 registerExtension() 函数的信息。 '
 keywords: adobe.target.notification;元素;选择器;通知;扩展
-seo-description: 有关Adobe Target在. js JavaScript库中的registerExtension()函数的信息。
-seo-title: 有关Adobe Target在. js JavaScript库中的tregisterExtension()函数的信息。
+seo-description: 有关 Adobe Target at.js JavaScript 库的 registerExtension() 函数的信息。
+seo-title: 有关 Adobe Target at.js JavaScript 库的 tregisterExtension() 函数的信息。
 solution: Target
 subtopic: 入门指南
 title: registerExtension()
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
 
 >[!NOTE]
 >
->此函数仅可用于 at.js 版本 1.*x*。此函数已在. js2.x发布时弃用。如果与at. js2.x一起使用，此函数将返回默认内容。
+>此函数仅可用于 at.js 版本 1.*x*。此函数已在 at.js 2.x 版本中弃用。如果与 at.js 2.x 一起使用，此函数将返回默认内容。
 
 options 参数是强制性的，具有以下结构：
 

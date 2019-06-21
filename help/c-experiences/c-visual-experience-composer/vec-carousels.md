@@ -8,8 +8,8 @@ subtopic: 多变量测试
 title: 创建可以在可视化体验编辑器中工作的轮播效果
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 

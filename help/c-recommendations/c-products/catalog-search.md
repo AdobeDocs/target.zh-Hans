@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: e0876963-5905-4850-a615-953e435f26e9
 badge: premium
-translation-type: tm+mt
-source-git-commit: 30f5ea0b944645580c47770ce0b1a55e02bc4367
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,15 +23,15 @@ source-git-commit: 30f5ea0b944645580c47770ce0b1a55e02bc4367
 
 ![](assets/searchproductsmenu.png)
 
-**[!UICONTROL 所有]**选项会使用 OR 逻辑搜索所有其他搜索标准所产生的结果。
+**[!UICONTROL 所有]** 选项会使用 OR 逻辑搜索所有其他搜索标准所产生的结果。
 
-在搜索结果中，单击**[UICONTROL环境]**筛选器可指定要显示哪个生产主机组环境的目录。您还可以滚动浏览搜索结果中的项目，以查看缩览图和其他产品信息。
+在搜索结果中，单击 **[UICONTROL环境]** 筛选器可指定要显示哪个生产主机组环境的目录。您还可以滚动浏览搜索结果中的项目，以查看缩览图和其他产品信息。
 
 “产品”旁边显示的数字表示指定环境的可用产品总数中与搜索词相匹配的产品数量。
 
 单击刷新图标可将您的目录重新编入索引。请注意，根据您的信息源大小，编入索引可能需要一些时间。
 
-目录会每隔一小时自动刷新一次。在自动刷新的间隔期间，单击**[!UICONTROL 刷新]**可将目录重新编入索引。
+目录会每隔一小时自动刷新一次。在自动刷新的间隔期间，单击 **[!UICONTROL 刷新]** 可将目录重新编入索引。
 
 您可以使用“目录搜索”页面上的“高级搜索”（[!UICONTROL 推荐] &gt; [!UICONTROL 目录搜索] &gt; [!UICONTROL 高级搜索]）来创建收藏集或排除项。例如，在使用“ID”&gt;“包含”创建搜索后，您可以单击[!UICONTROL 另存为] &gt; [!UICONTROL 收藏集或排除项]。
 

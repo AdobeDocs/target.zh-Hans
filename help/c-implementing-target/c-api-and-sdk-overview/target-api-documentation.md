@@ -7,8 +7,8 @@ solution: Target
 title: 从 Target 旧版 API 迁移到 Adobe I/O
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
-translation-type: tm+mt
-source-git-commit: 7f4f49ee2eeee042b5d3c9dbab042205a9f5806a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -48,20 +48,20 @@ Target Classic 停用后，旧版 API 也会随之停用：
 | 分组 | 旧版 API 方法 | 新版 API 方法 | 注释 |
 |--- |--- |--- |--- |
 | 营销活动/活动 | 营销活动创建 | [创建 AB 活动](http://developers.adobetarget.com/api/#create-ab-activity)<br>[创建 XT 活动](http://developers.adobetarget.com/api/#create-xt-activity) | 新版 API 为 AB 活动和 XT 活动提供了不同的创建方法。 |
-|  | 营销活动更新 | [更新 AB 活动](http://developers.adobetarget.com/api/#update-ab-activity)<br>[更新 XT 活动](http://developers.adobetarget.com/api/#update-xt-activity) |
+|  | 营销活动更新 | [更新 AB 活动](http://developers.adobetarget.com/api/#update-ab-activity)<br>[更新 XT 活动](http://developers.adobetarget.com/api/#update-xt-activity) |  |
 |  | 复制营销活动 | 不适用 | 使用活动创建 API。 |
-|  | 营销活动列表 | [列出活动](http://developers.adobetarget.com/api/#list-activities) |
-|  | 营销活动状态 | [更新活动状态](http://developers.adobetarget.com/api/#update-activity-state) |
-|  | 营销活动查看 | [按 ID 获取 AB 活动](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[按 ID 获取 XT 活动](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |
+|  | 营销活动列表 | [列出活动](http://developers.adobetarget.com/api/#list-activities) |  |
+|  | 营销活动状态 | [更新活动状态](http://developers.adobetarget.com/api/#update-activity-state) |  |
+|  | 营销活动查看 | [按 ID 获取 AB 活动](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[按 ID 获取 XT 活动](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
 |  | 第三方营销活动 ID | 不适用 | 如果您使用的是 thirdpartyID，则可以使用相关的活动方法。 |
-| 选件 | 选件创建 | [创建选件](http://developers.adobetarget.com/api/#create-offer) |
-|  | 选件获取 | [按 ID 获取选件](http://developers.adobetarget.com/api/#get-offer-by-id) |
-|  | 选件列表 | [列出选件](http://developers.adobetarget.com/api/#list-offers) |
+| 选件 | 选件创建 | [创建选件](http://developers.adobetarget.com/api/#create-offer) |  |
+|  | 选件获取 | [按 ID 获取选件](http://developers.adobetarget.com/api/#get-offer-by-id) |  |
+|  | 选件列表 | [列出选件](http://developers.adobetarget.com/api/#list-offers) |  |
 |  | 文件夹列表 | 不适用 | Target Standard/Premium 不支持文件夹。 |
-| 报表 | 营销活动性能报表 | [获取 AB 性能报表](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[获取 XT 性能报表](http://developers.adobetarget.com/api/#get-xt-performance-report) |
-|  | 审计报表 | [获取审计报表](http://developers.adobetarget.com/api/#get-audit-report) |
-|  | 1-1 内容报表 | [获取 AP 性能报表](http://developers.adobetarget.com/api/#get-ap-activity-performance-report) |
-| 帐户设置 | 获取主机组 | [列出环境](http://developers.adobetarget.com/api/#list-environments) |
+| 报表 | 营销活动性能报表 | [获取 AB 性能报表](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[获取 XT 性能报表](http://developers.adobetarget.com/api/#get-xt-performance-report) |  |
+|  | 审计报表 | [获取审计报表](http://developers.adobetarget.com/api/#get-audit-report) |  |
+|  | 1-1 内容报表 | [获取 AP 性能报表](http://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |
+| 帐户设置 | 获取主机组 | [列出环境](http://developers.adobetarget.com/api/#list-environments) |  |
 
 ## 例外 {#section_09CF9A0E289149279783B4801D1B6D4C}
 

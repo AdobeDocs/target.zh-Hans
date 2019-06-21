@@ -7,40 +7,40 @@ solution: Target
 title: at.js 的工作原理
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
-translation-type: tm+mt
-source-git-commit: 52238e6be9a4c3559767f9819570fe7c85af82e9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # at.js 的工作原理{#how-at-js-works}
 
-要实施 [!DNL Adobe Target] 客户端，您必须使用. js库。
+要实施 [!DNL Adobe Target] 客户端，您必须使用 at.js 库。
 
-在客户端实施中， [!DNL Adobe Target][!DNL Target] 将与活动关联的体验直接交付到客户端浏览器。浏览器决定要显示和显示的体验。借助客户端实施，您可以使用WYSIWYG编辑器、 [视觉体验书写器](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (CMS)或基于表单的Experience Composer( [基于表单的Experience Composer](/help/c-experiences/form-experience-composer.md))创建测试和个性化体验。
+在 [!DNL Adobe Target] 的客户端实施中，[!DNL Target] 会将与活动相关联的体验直接交付给客户端浏览器。浏览器将决定要显示的体验，然后显示该体验。借助客户端实施，您可以使用 WYSIWYG 编辑器、[可视化体验编辑器](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)，或者非可视化界面（[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md)）来创建测试和个性化体验。
 
-## 什么是. js？
+## 什么是 at.js？
 
-[at. js库](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) 是Target的新实施库。使用 at.js 可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。at.js 是推荐使用的实施库，会经常更新功能。我们建议所有客户都实施或迁移到[最新版本的 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+[at.js 库](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)是适用于 Target 的新实施库。使用 at.js 可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。at.js 是推荐使用的实施库，会经常更新功能。我们建议所有客户都实施或迁移到[最新版本的 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 
-有关详细信息，请参阅 [Target JavaScript库](/help/c-intro/how-target-works.md#libraries)。
+有关更多信息，请参阅 [Target JavaScript 库](/help/c-intro/how-target-works.md#libraries)。
 
 在下图所示的 [!DNL Target] 实施中，实施了以下 [!DNL Adobe Experience Cloud] 解决方案：Analytics、Target 和 Audience Management。此外，还实施了以下 Experience Cloud 核心服务：Adobe Launch、受众和访客 ID 服务。
 
-## At.js 1.*x* 和. js2.x工作流程示意图？
+## At.js 1.*x* 和 at.js 2.x 工作流程图之间有何差异？
 
-有关在2.js2.x中引入的差异的详细信息，请参阅 [. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) 升级到. js2.x。*x* 之间的差异。
+请参阅[从 at.js 1.x 升级到 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)，以了解有关 2.O 与 1.*x* 之间的差异。
 
 从高层次来看，两个版本之间存在一些差异：
 
-* at. js2.x没有全局mbox请求概念，而是页面加载请求。页面加载请求可以视为检索应该被应用于网站初始页面加载的内容的请求。
-* at. js2.x管理用于单页应用程序(SPAS)的视图概念。at.js 1.*x* 并没有此概念。
+* at.js 2.x 没有全局 mbox 请求概念，但有页面加载请求概念。页面加载请求可以视为检索应该被应用于网站初始页面加载的内容的请求。
+* at.js 2.x 可管理用于单页应用程序 (SPA) 的“视图”概念。at.js 1.*x* 并没有此概念。
 
 ## at.js 2.x 图
 
-以下示意图帮助您了解包含视图的. js2.x的工作流程及其如何增强SPA集成。要更好地介绍在. js2.x中使用的概念，请参阅 [单个页面应用程序实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。
+下图可帮助您了解含有视图的 at.js 2.x 工作流程以及其如何增强 SPA 集成。要更好地了解 at.js 2.x 中使用的概念，请参阅[单页应用程序实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。
 
-![目标流量：js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![使用 at.js 2.x 的 Target 流程](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | 步骤 | 详细信息 |
 | --- | --- |
@@ -55,7 +55,7 @@ source-git-commit: 52238e6be9a4c3559767f9819570fe7c85af82e9
 
 现在，无论在 SPA 上的什么位置实施 `triggerView()`，都会从缓存中检索查看次数和操作，并在没有服务器调用的情况下显示给用户。`triggerView()` 还会向 [!DNL Target] 后端发出通知请求，以增加和记录展示次数计数。有关带有视图的 SPA 的 at.js 的更多信息，请参阅[单页应用程序实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。
 
-![目标流：. js2.x TriggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+![Target 流程 at.js 2.x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | 步骤 | 详细信息 |
 | --- | --- |
@@ -77,10 +77,10 @@ source-git-commit: 52238e6be9a4c3559767f9819570fe7c85af82e9
 | 5 | [!DNL Target] 根据 URL、mbox 参数和配置文件数据确定要返回给访客的活动和体验。 | 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>体验会在默认内容不发生闪烁的情况下尽快显示。 |
 | 7 | [!DNL Analytics] 数据会发送到数据收集服务器。 | 8 | [!DNL Target] 数据会通过 SDID 匹配到 [!DNL Analytics] 数据，并且会进行相应处理以保存到 [!DNL Analytics] 报表存储中。<br>之后，便可以在 [!DNL Analytics] 和 [!DNL Target] 中通过 [!DNL Analytics for Target] (A4T) 报表查看 [!DNL Analytics] 数据。 |
 
-## 培训视频：at. js2.x建筑图
+## 培训视频：at.js 2.x 架构图
 
-at. js2.x增强了Adobe Target对SPA的支持并与其他Experience Cloud解决方案集成。该视频介绍了如何将所有内容结合到一起。
+at.js 2.x 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Cloud 解决方案集成。该视频介绍了如何将所有内容结合到一起。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-请参阅 [了解. js2.x的工作](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 原理以了解更多信息。
+有关更多信息，请参阅[了解 at.js 2.x 的工作方式](https://helpx.adobe.com/cn/target/kt/using/atjs20-diagram-technical-video-understand.html)。

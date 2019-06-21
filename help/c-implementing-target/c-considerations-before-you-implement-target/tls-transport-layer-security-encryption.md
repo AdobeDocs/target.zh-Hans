@@ -7,8 +7,8 @@ solution: Target
 title: TLS（传输层安全性）加密更改
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
-translation-type: tm+mt
-source-git-commit: 540f763f649364e8f424c9bed057675603a462d7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 540f763f649364e8f424c9bed057675603a462d7
 
 >[!NOTE]
 >
->在2019年月20日，在EMEA、日本和APAC区域中升级了Adobe Target基础结构，不再向不支持TLS1.1或更高版本的旧设备或Web浏览器收集最终用户的数据。此相同升级计划于2019 **年月日针对北美地区**进行。迁移到 TLS 1.2 可提高安全性。务必仔细研究具体内容，并与IT团队一起进行更改，实现平稳过渡。
+>2019 年 2 月 20 日，EMEA、日本和 APAC 地区升级了 Adobe Target 基础架构，此后将不再从使用不支持 TLS 1.1 或更高版本的旧设备或 Web 浏览器的最终用户那里收集数据。北美地区计划于 **2019 年 4 月 1 日** 进行相同的升级。迁移到 TLS 1.2 可提高安全性。请务必浏览相关具体细节，并与您的 IT 团队一起制定更改计划以实现平稳过渡。
 
 我们希望这不会对客户数据或报表产生重大影响。
 
@@ -73,11 +73,11 @@ Adobe 会分阶段地将客户移到 TLS 1.2。针对域已经符合 1.2 的客�
 要使用 Firefox 检查您网站上的 TLS 版本（使用其他浏览器的步骤相似），请执行以下操作：
 
 1. 在 Firefox 中打开受影响的网站。
-1. 单击浏览器地址栏上的**[!UICONTROL 显示网站信息]图标。**
+1. 单击浏览器地址栏上的 **[!UICONTROL 显示网站信息]图标。**
 
    ![](assets/firefox_more_info.png)
 
-1. 单击**[!UICONTROL 显示连接详细信息]** &gt; **[!UICONTROL 更多信息]**。
+1. 单击 **[!UICONTROL 显示连接详细信息]** &gt; **[!UICONTROL 更多信息]**。
 
    ![](assets/firefox_more_info_2.png)
 

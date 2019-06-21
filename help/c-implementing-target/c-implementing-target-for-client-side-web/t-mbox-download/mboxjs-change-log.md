@@ -7,8 +7,8 @@ solution: Target
 subtopic: 入门指南
 title: mbox.js 版本详细信息
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
-translation-type: tm+mt
-source-git-commit: 1f3274df6ab14d60d99fea5d34a0449d285d8409
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,7 +31,7 @@ Target 如何响应从您的页面发出的调用，取决于您使用的 Target
 
 **Target 版本：** 17.7.1
 
-[!DNL mbox.js] 版本 63 现已可用。有关更多信息，请参阅[下载 mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_target-download-config-mbox.html)。
+[!DNL mbox.js] 版本 63 现已可用。有关更多信息，请参阅[下载 mbox.js](https://marketing.adobe.com/resources/help/zh_CN/target/ov/t_target-download-config-mbox.html)。
 
 [!DNL mbox.js] 版本 63 中包含以下增强功能和修复：
 
@@ -89,7 +89,7 @@ window.targetGlobalSettings = {
 
 页面隐藏技术使用样式标记来添加和删除样式。这可确保在页面隐藏代码执行后网站的样式保持不变。
 
-**DTM 用户：**请注意，这将阻止您使用自动导入选项，因为无法在 Target UI 中保存上述配置。您必须按照上述说明将这些内容粘贴到“自定义托管”选项的代码框中。
+**DTM 用户：** 请注意，这将阻止您使用自动导入选项，因为无法在 Target UI 中保存上述配置。您必须按照上述说明将这些内容粘贴到“自定义托管”选项的代码框中。
 
 此外，在版本 60 中，如果 Experience Cloud 访客 ID 服务存在 [!DNL visitorAPI.js] 文件，则所有 mbox 都将通过 AJAX 端点来请求。这是必需的，因为访客 API 方法是异步方法。此方法的优势之一在于“开始呈现”时间显著缩短，因为 mbox 请求不会阻止呈现。但是，这也意味着所有 [!DNL Target] 选件内容都以异步方式运行，因此必须相应地编写所有选件代码。如果选件包含 `document.write` 以及其他假定将在初始页面加载时运行的代码，该选件将无法按预期执行。
 
@@ -159,7 +159,7 @@ window.targetGlobalSettings = {
 
       `<script src='external-url' async='true'></script>`
 
-      请注意，Internet Explorer 对 `async` 属性的支持有限（详情请参阅此处：[https://developer.mozilla.org/cn/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)），因此您应该将使用旧版 IE 的访客从包含这些第三方脚本的测试中排除。
+      请注意，Internet Explorer 对 `async` 属性的支持有限（详情请参阅此处：[https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)），因此您应该将使用旧版 IE 的访客从包含这些第三方脚本的测试中排除。
 
 * 修复了版本 56 中报告的由于 mbox.js 中的“额外 JavaScript”部分发生更改而导致的问题。同样，“额外 JavaScript”部分中的所有代码在全局范围内可用。
 
@@ -246,7 +246,7 @@ mboxParameter 函数现在可以在 Target Standard 和 Premium 中使用。
 
 修复了导致 Analytics 跟踪功能无法在 IE 9 和 11 中使用的问题。此更改只会影响 Analytics 的用户。
 
-现在您可以使用 targetPageParams() 函数，以数组、JSON 对象或逗号分隔列表（以前支持）的形式，[将参数传入](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html) target-global-mbox。
+现在，您可以使用 targetPageParams() 函数将[参数](https://marketing.adobe.com/resources/help/zh_CN/target/ov/c_pass_parameters_to_global_mbox.html)作为数组、JSON 对象或以逗号分隔的列表（以前支持）传递到 target-global-mbox。
 
 重命名了 M2PcId 以及与 VisitorId 相关的所有内容。
 

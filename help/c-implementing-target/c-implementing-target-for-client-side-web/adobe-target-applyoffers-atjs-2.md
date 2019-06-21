@@ -1,25 +1,25 @@
 ---
-description: '有关adobe. target. applyProvides(选项)函数的信息，请访问. js。 '
+description: '有关 at.js 的 adobe.target.applyOffers(options) 函数的信息。 '
 keywords: adobe.target.notification;元素;选择器;通知;扩展
-seo-description: 有关Adobe Target at. js JavaScript库的adobe. target. applyOffers(选项)函数的信息。
-seo-title: 有关Adobe Target at. js JavaScript库的adobe. target. applyOffers(选项)函数的信息。
+seo-description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.applyOffers(options) 函数的信息。
+seo-title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.applyOffers(options) 函数的信息。
 solution: Target
 subtopic: 入门指南
 title: adobe.target.applyOffers(options)
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# adobe. target. applyOffes(options)- at. js2.x
+# adobe.target.applyOffers(options) - at.js 2.x
 
 此函数允许您应用 `adobe.target.getOffers()` 检索到的多个选件。
 
 >[!NOTE]
 >
->此函数在. js2.x中引入。此函数不适用于. js版本1。*x*。
+>此函数已在 at.js 2.x 中引入。但此函数不适用于 at.js 版本 1.*x*。
 
 | 键值 | 类型 | 必需？ | 描述 |
 | --- | --- | --- | --- |

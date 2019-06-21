@@ -8,8 +8,8 @@ subtopic: 多变量测试
 title: 在 A4T 中最大限度地减少夸大的访问和访客计数
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
-translation-type: tm+mt
-source-git-commit: 95bd08b08591fdedfe2c3e17ad6da480de9d49ae
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -46,11 +46,11 @@ Adobe 以数据的准确性和高质量而自豪。当触发 [!DNL Target] 标�
 
 已确定产生局部数据的原因包括：
 
-* **未对齐报表包 ID（实施）：**在活动设置期间指定的报表包与交付测试的页面上的报表包不匹配。这看起来像局部数据，因为数据无法在 [!DNL Analytics] 服务器上进行协调。
-* **网页速度慢：**由于 [!DNL Target] 调用位于页面顶部，而 [!DNL Analytics] 调用通常位于页面底部，所以如果页面加载缓慢，则访客在 [!DNL Target] 调用触发之后、[!DNL Analytics] 调用触发之前离开该页面的可能性会增加。尤其是在连接速度通常较慢的移动设备网站上，这可能是一个问题。
-* **页面错误：**如果存在 JavaScript 错误或所有触点未触发的其他情况（Experience Cloud ID 服务、Target 和 Analytics），则会导致局部数据的产生。
-* **在[!DNL Target]活动中重定向选件：** 对于使用A4T在活动中重定向选件，您的实施必须满足特定要求。除此之外，还有一些重要信息需要您知悉。有关更多信息，请参阅[重定向选件 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)。
-* **库版本较旧：**过去一年，Adobe 对我们的 JavaScript 库（[!DNL appMeasurement.js]、`at.js/mbox.js` 和 `visitorAPI.js`）进行了一些改进，确保尽可能高效地发送数据。要了解有关实施要求的更多信息，请参阅[在实施之前](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)。
+* **未对齐报表包 ID（实施）：** 在活动设置期间指定的报表包与交付测试的页面上的报表包不匹配。这看起来像局部数据，因为数据无法在 [!DNL Analytics] 服务器上进行协调。
+* **网页速度慢：** 由于 [!DNL Target] 调用位于页面顶部，而 [!DNL Analytics] 调用通常位于页面底部，所以如果页面加载缓慢，则访客在 [!DNL Target] 调用触发之后、[!DNL Analytics] 调用触发之前离开该页面的可能性会增加。尤其是在连接速度通常较慢的移动设备网站上，这可能是一个问题。
+* **页面错误：** 如果存在 JavaScript 错误或所有触点未触发的其他情况（Experience Cloud ID 服务、Target 和 Analytics），则会导致局部数据的产生。
+* **[!DNL Target]活动中的重定向选件**：对于使用了 A4T 的活动中所包含的重定向选件，您的实施必须满足某些最低要求。除此之外，还有一些重要信息需要您知悉。有关更多信息，请参阅[重定向选件 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)。
+* **库版本较旧：** 过去一年，Adobe 对我们的 JavaScript 库（[!DNL appMeasurement.js]、`at.js/mbox.js` 和 `visitorAPI.js`）进行了一些改进，确保尽可能高效地发送数据。要了解有关实施要求的更多信息，请参阅[在实施之前](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)。
 
 ## 减少局部数据的最佳实践是什么？{#section_065C38501527451C8058278054A1818D}
 
@@ -73,11 +73,11 @@ Adobe 以数据的准确性和高质量而自豪。当触发 [!DNL Target] 标�
 
 以下与此更改相关的信息包含相关说明，可帮助您定义区段并将其应用于虚拟报表包，使该区段始终适用于您的 [!DNL Analytics] 查看次数。
 
-在大多数情况下，每个网页上的 [!DNL Target] 点击量会与 [!DNL Analytics] 点击量拼合。如果 [!DNL Target] 和 [!DNL Analytics] 调用以及同一页面上 [!DNL Analytics] 调用中的 [!DNL Experience Cloud ID] (MCID) 均存在一致的 SDID，则会进行拼合。[!DNL Target] 通常也具有 MCID，但如果在访客 ID 返回前进行 [!DNL Target] 调用，则由于 SDID，点击量仍会进行拼结。此外，用户必须在页面上保留足够长，以便在呼叫被触发后触发 [!DNL Analytics][!DNL Target]呼叫。这是理想的情况。
+在大多数情况下，每个网页上的 [!DNL Target] 点击量会与 [!DNL Analytics] 点击量拼合。如果 [!DNL Target] 和 [!DNL Analytics] 调用以及同一页面上 [!DNL Analytics] 调用中的 [!DNL Experience Cloud ID] (MCID) 均存在一致的 SDID，则会进行拼合。[!DNL Target] 通常也具有 MCID，但如果在访客 ID 返回前进行 [!DNL Target] 调用，则由于 SDID，点击量仍会进行拼结。此外，用户必须在页面上停留足够长的时间，才能在触发 [!DNL Target] 调用后继续触发 [!DNL Analytics] 调用。这是理想的情况。
 
-**局部数据点击量：**用户有时不会在页面上停留足够长的时间来发出 [!DNL Analytics] 调用，但 [!DNL Target] 具有适当的 MCID。这会产生局部数据点击量（即不含 [!DNL Analytics] 页面查看次数的点击量）。如果这些用户返回您的网站并查看包含 [!DNL Analytics] 代码的页面，则他们将被作为旧访客正确计入点击量。如果页面上只有 [!DNL Analytics] 代码，则这些点击量都会丢失。某些客户不想拥有这些点击量的数据，因为它们会夸大某些量度（访问次数）并缩减其他量度（每次访问的页面查看次数、每次访问停留的时间等等）。您还将看到不包含任何页面查看次数的访问次数。但是，仍有正当理由保留这些数据。
+**局部数据点击量：** 用户有时不会在页面上停留足够长的时间来发出 [!DNL Analytics] 调用，但 [!DNL Target] 具有适当的 MCID。这会产生局部数据点击量（即不含 [!DNL Analytics] 页面查看次数的点击量）。如果这些用户返回您的网站并查看包含 [!DNL Analytics] 代码的页面，则他们将被作为旧访客正确计入点击量。如果页面上只有 [!DNL Analytics] 代码，则这些点击量都会丢失。某些客户不想拥有这些点击量的数据，因为它们会夸大某些量度（访问次数）并缩减其他量度（每次访问的页面查看次数、每次访问停留的时间等等）。您还将看到不包含任何页面查看次数的访问次数。但是，仍有正当理由保留这些数据。
 
-为了最大限度减少局部数据点击量，您可以加快页面加载速度，更新到最新版本的库，或者创建一个[虚拟报表包](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)以排除这些点击量。有关逐步说明，请参阅 [ 产品文档中的](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html)创建虚拟报表包[!DNL Analytics]。
+为了最大限度减少局部数据点击量，您可以加快页面加载速度，更新到最新版本的库，或者创建一个[虚拟报表包](https://marketing.adobe.com/resources/help/zh_CN/reference/virtual-report-suites.html)以排除这些点击量。有关分步说明，请参阅 [!DNL Analytics] 产品文档中的[创建虚拟报表包](https://marketing.adobe.com/resources/help/zh_CN/reference/vrs-create.html)。
 
 下图显示了该虚拟报表包的区段定义：
 
@@ -96,9 +96,9 @@ Adobe 以数据的准确性和高质量而自豪。当触发 [!DNL Target] 标�
 * “逻辑与”
 * 退出链接实例：不存在
 
-**孤立的点击：** 在较少的情况下，用户不会停留在足够长的时间用于Analytics调用，而Target没有得到适当的MCID。这些就是我们定义的“孤立”点击。这些点击代表旧访客较少，且它们不合理地夸大了访问次数和访客数量。
+**孤立点击：** 在少数情况下，用户不会在页面上停留足够长的时间来进行 Analytics 调用，并且 Target 未获得适当的 MCID。这些就是我们定义的“孤立”点击。这些点击代表旧访客较少，且它们不合理地夸大了访问次数和访客数量。
 
-为了最大限度地减少这些“孤立”点击，您可以创建一个排除这些点击的[虚拟报表包](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html)，如上所述。
+如上所述，要最大限度地减少这些“孤立”点击，您可以创建一个[虚拟报表包](https://marketing.adobe.com/resources/help/zh_CN/reference/vrs-create.html)以排除这些点击。
 
 ## 这对我的 [!DNL Target] 报表有什么影响？{#section_AAD354C722BE46D4875507F0FCBA5E36}
 

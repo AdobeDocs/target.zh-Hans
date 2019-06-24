@@ -8,12 +8,12 @@ title: 单页应用程序 (SPA) 可视化体验编辑器
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 62552bfe5a6eb65dc1760b17543a0f5c84f0ecc5
+source-git-commit: 91e108be21bd3759a17d7cf5f66bf134b1fab60a
 
 ---
 
 
-# 单页应用程序 (SPA) 可视化体验编辑器{#single-page-app-spa-visual-experience-composer}
+# 单页应用程序 (SPA) 可视化体验编辑器 {#single-page-app-spa-visual-experience-composer}
 
 在 [!DNL Adobe Target] 中，[!UICONTROL 可视化体验编辑器] (VEC) 为营销人员提供了一种 DIY（自己动手）功能，可创建能够通过 Adobe Target 的全局 mbox 在传统的多页面应用程序上动态交付的活动和个性化体验。但是，这种方法依赖于页面加载或后续服务器调用中的检索选件，这会导致延迟，如下图所示。此方法不适用于单页应用程序 (SPA)，因为它会降低用户体验和应用程序性能。
 
@@ -61,25 +61,25 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 既然我们介绍了 Adobe Target 视图的内容，我们可以在 Target 中利用这一概念，使营销人员能够通过 VEC 在 SPA 上运行 A/B 和 XT 测试。这将需要一次性开发人员设置。下面我们将完成这些步骤以进行此设置。
 
-1. 安装在. js2.x上。
+1. 安装 at.js 2.x。
 
-   首先，我们需要安装. js2.x。此版本的. js是使用SPA开发的。at.js 和 mbox.js 的早期版本不支持 Adobe Target 视图和 SPA VEC。
+   首先，我们需要安装 at.js 2.x。开发此版本的 at.js 时考虑了 SPA。at.js 和 mbox.js 的早期版本不支持 Adobe Target 视图和 SPA VEC。
 
    ![“实施详细信息”对话框](/help/c-experiences/assets/imp-200.png)
 
-   通过位于设置&gt;实施中 [!UICONTROL ]的Adobe Target UI下载. js2.x。at. js2.x也可以通过 [Adobe Launch部署](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。但是，Adobe Target 扩展当前不是最新的，不受支持。
+   通过位于[!UICONTROL 设置 &gt; 实施]中的 Adobe Target UI 下载 at.js 2.x。at.js 2.x 也可以通过 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 进行部署。但是，Adobe Target 扩展当前不是最新的，不受支持。
 
-1. 在. js2.x的最新函数上实现： [网站上的TrigererView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) 。
+1. 在您的网站上实施 at.js 2.x 的最新函数：[triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)。
 
-   在定义要运行A/B或XT测试的SPA的视图后，在作为参数传入的视图中实现. js2.x `triggerView()` 的函数。这允许营销人员使用 VEC 来针对所定义的那些视图设计和运行 A/B 和 XT 测试。如果没有为这些视图定义 `triggerView()` 函数，则 VEC 将不会检测到视图，因此营销人员将无法使用 VEC 来设计和运行 A/B 和 XT 测试。
+   在定义要运行 A/B 或 XT 测试的 SPA 视图之后，实施 at.js 2.x 的 `triggerView()` 函数，并将视图作为参数传递。这允许营销人员使用 VEC 来针对所定义的那些视图设计和运行 A/B 和 XT 测试。如果没有为这些视图定义 `triggerView()` 函数，则 VEC 将不会检测到视图，因此营销人员将无法使用 VEC 来设计和运行 A/B 和 XT 测试。
 
    **`adobe.target.triggerView(viewName, options)`**
 
    | 参数 | 类型 | 必需？ | 验证 | 描述 |
    | --- | --- | --- | --- | --- |
    | viewName | 字符串 | 是 | 1. 无尾随空格。<br>2. 不能为空。<br>3. 所有页面的视图名称应该都是唯一的。<br>4. **警告**：视图名称不应以 `/` 开头或结尾。这是因为客户通常会从 URL 路径中提取视图名称。对于我们来说，“home”和“`/home`”是不同的。<br>5. **警告**：不应使用 `{page: true}` 选项连续多次触发同一视图。 | 将任何名称作为要显示视图的字符串类型传递。此视图名称显示在 VEC 的[!UICONTROL 修改]面板中，供营销人员创建操作并运行其 A/B 和 XT 活动。 |
-   | options | 对象 | 否 |
-   | options &gt; page | 布尔值 | 否 | **TRUE**：page 的默认值为 true。当 `page=true` 时，将向 Edge 服务器发送增加展示次数计数的通知。<br>**FALSE**：当 `page=false` 时，将不会发送增加展示次数计数的通知。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
+   | options | 对象 | 否 |  |  |
+   | options &gt; page | 布尔值 | 否 |  | **TRUE**：page 的默认值为 true。当 `page=true` 时，将向 Edge 服务器发送增加展示次数计数的通知。<br>**FALSE**：当 `page=false` 时，将不会发送增加展示次数计数的通知。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
 
    现在，我们来查看一些关于如何在 React 中为假定的电子商务 SPA 调用 `triggerView()` 函数的示例用例：
 
@@ -198,9 +198,9 @@ VEC 的[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-edit
 
 **操作**
 
-单击某个操作会突出显示将应用此操作的网站上的元素。在View下创建的每个CMS操作都有四个图标，如下所示：信息、编辑、移动和删除。
+单击某个操作会突出显示将应用此操作的网站上的元素。在View下创建的每个CMS操作都具有以下图标，如下所示：信息、编辑、仿制、移动和删除。
 
-![修改](/help/c-experiences/assets/modifications-new.png)
+![修改](/help/c-experiences/assets/modifications.png)
 
 下表对每个操作进行了描述：
 
@@ -208,7 +208,8 @@ VEC 的[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-edit
 | --- | --- |
 | 信息 | 显示操作的详细信息。 |
 | 编辑 | 允许您直接编辑操作的属性。 |
-| 移动 | 将操作移至页面加载事件或修改面板中已经存在的任何其他视图。<br>[!UICONTROL 页面加载事件] -在Web应用程序的初始页面加载上应用与页面加载事件对应的任何操作。<br>**注意** ：完成移动操作后，您需要通过浏览导航到CMS中的视图，以查看移动是否为有效操作。如果操作无法应用到视图，您将看到一个错误 |
+| 克隆 | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. 换句话说，您可以将操作克隆到在CMS中浏览到的视图。The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**注意**：完成克隆操作后，您需要通过 [!UICONTROL 浏览] 导航到CMS中的“视图”，以查看克隆操作是否为有效操作。如果操作无法应用到视图，您将看到一个错误。 |
+| 移动 | 将操作移至页面加载事件或修改面板中已经存在的任何其他视图。<br>[!UICONTROL 页面加载事件] -与页面加载事件对应的任何操作都应用于Web应用程序的初始页面加载。<br>**注意** ：完成移动操作后，您需要通过浏览导航到CMS中的视图，以查看移动是否为有效操作。如果操作无法应用到视图，您将看到一个错误 |
 | 删除 | 删除操作。 |
 
 >[!NOTE]
@@ -259,9 +260,9 @@ VEC 的[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-edit
 
 **如何检索视图以获取 SPA 上的初始页面加载后通过操作补充的最新受众数据？**
 
-在您的站点加载时，. js2.x的典型工作流是缓存的，这样，您的所有视图和操作都将缓存，以便在您的站点上后续用户操作不会触发服务器调用来检索选件。如果要根据可能依靠后续用户操作更新的最新配置文件数据来检索视图，则可以调用 `getOffers()` 和 `applyOffers()` 并传递最新受众用户或配置文件数据。
+at.js 2.x 的典型工作流程是，在您的网站加载时，将缓存所有视图和操作都，这样网站上的后续用户操作不会触发检索选件的服务器调用。如果要根据可能依靠后续用户操作更新的最新配置文件数据来检索视图，则可以调用 `getOffers()` 和 `applyOffers()` 并传递最新受众用户或配置文件数据。
 
-例如，假定您是电信公司，并且您有一个在. js2.x上使用的SPA。作为企业，您希望实现以下目标：
+例如，假定您是一家电信公司，并且拥有使用 at.js 2.x 的 SPA。作为一家企业，您想要实现以下目标：
 
 * 针对已注销的用户或匿名用户，显示公司最新的促销活动，例如在 `http://www.telecom.com/home` 上显示“First month free”（首月免费）主页选件。
 * 对于已登录的用户，针对合同即将到期的用户显示升级促销选件，例如在 `http://www.telecom.com/loggedIn/home` 上面显示“You are eligible for a free phone!”（您有资格享受免费通话！）。
@@ -281,17 +282,17 @@ VEC 的[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-edit
 现在，我们来研究一下此用户流程：
 
 1. 匿名注销用户登陆您的页面。
-1. 由于您正在使用. js2.x，因此，您在页面加载上传递参数“`loggedIn = false`”，以检索活动活动中存在的所有视图，这些视图有资格在受众具有参数“`loggedIn = false`”时获得。
-1. at. js2.x然后检索“注销的主页”视图和动作以显示“首月免费”选件并将其存储在缓存中。
+1. 由于您使用的是 at.js 2.x，因此在页面加载中传递参数“`loggedIn = false`”，以在受众具有参数“`loggedIn = false`”时，检索活跃活动中存在的符合条件的所有视图。
+1. 然后，at.js 2.x 检索“Logged Out Home”（注销主页）视图和操作以显示“First Month Free”（首月免费）选件并将其存储在缓存中。
 1. 调用 `triggerView(“Logged Out Home”)` 时，将从缓存中检索“First Month Free”（首月免费）选件，因此无需服务器调用即可显示选件。
 1. 现在，用户单击“Log in”（登录）并提供其凭据。
 1. 由于您的网站是 SPA，因此您不会执行整页加载，而是将用户路由到 `http://www.telecom.com/loggedIn/home`。
 
-现在，有一个问题。用户登录后，我们会遇到 `triggerView(“Logged In Home”)`，因为我们将此代码置于路由更改中。这会告知. js2.x从缓存中检索视图和操作，但缓存中存在的唯一视图是“注销”主页。
+现在，有一个问题。用户登录后，我们会遇到 `triggerView(“Logged In Home”)`，因为我们将此代码置于路由更改中。这告知 at.js 2.x 从缓存中检索视图和操作，但缓存中唯一存在的视图是“Logged Out Home”（注销主页）。
 
 那么，我们如何才能检索“Logged In”（登录）视图，并且显示“您有资格享受免费通话！”（You are eligible for a free phone!）选件？由于网站上的所有后续操作都是从已登录用户角度进行的，那么怎样才能保证所有后续操作都能为已登录的用户提供个性化选件？
 
-您可以使用. js2.x中支持的新 `getOffers()` 功能和 `applyOffers()` 功能：
+您可以使用 at.js 2.x 中支持的新 `getOffers()` 和 `applyOffers()` 函数：
 
 ```
 adobe.target.getOffers({
@@ -310,11 +311,11 @@ adobe.target.getOffers({
 
 将 `getOffers()` 的响应传递给 `applyOffers()`，现在，与“loggedIn = true”关联的所有视图和操作都将更新 at.js 缓存。
 
-换句话说，在. js2.x上，. js2.x支持以点播方式获取最新受众数据的视图、操作和选件。
+换句话说，at.js 2.x 支持一种以按需方式检索具有最新受众数据的视图、操作和选件的方法。
 
-**对于单页应用程序，at. js2.x支持A4T吗？**
+**at.js 2.x 是否支持用于单页应用程序的 A4T？**
 
-是的，在您已实施Adobe Analytics和Experience Cloud访问者ID服务的 `triggerView()` 情况下，. js2.x支持A4T以获得SPA。请参阅下图中的分步说明。
+支持，at.js 2.x 通过 `triggerView()` 函数支持用于 SPA 的 A4T，因为您已经实施了 Adobe Analytics 和 Experience Cloud 访客 ID 服务。请参阅下图中的分步说明。
 
 ![Target 流程](/help/c-experiences/assets/atjs-spa-flow.png)
 
@@ -345,7 +346,7 @@ adobe.target.getOffers({
 | [自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) | 否 |
 | [推荐](/help/c-recommendations/recommendations.md) | 否 |
 
-**如果我们安装在. js2.x上并在`triggerView()`我们的站点上实施，则我们如何运行自动Target A/B活动，因为SPA CMS不支持自动Target？**
+**如果安装了 at.js 2.x 并在网站上实施了`triggerView()`，则在 SPA VEC 不支持自动定位时，我们该如何运行自动定位 A/B 活动？**
 
 如果要使用自动定位 A/B 活动，可以在 VEC 中移动所有要在页面加载事件中执行的操作。将鼠标悬停在每个操作上方，然后单击[!UICONTROL 移动到页面加载事件]按钮。完成此操作后，在下一步中，您可以为流量分配方法选择“自动定位”。
 
@@ -370,8 +371,74 @@ adobe.target.getOffers({
 | [点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md) | 是 |
 | [多活动交付](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) | 是 |
 
+## Page Delivery settings for the SPA VEC {#page-delivery-settings}
+
+[!UICONTROL 通过页面交付] 设置，您可以配置规则以确定Target活动何时应符合受众资格并为受众执行。
+
+To access the [!UICONTROL Page Delivery] options from within the VEC&#39;s three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+
+![“页面交付选项”对话框](/help/c-experiences/assets/page-delivery.png)
+
+For example, as defined by the [!UICONTROL Page Delivery] settings shown above, a Target activity qualifies and executes when a visitor lands directly on `https://www.adobe.com` *or* when a visitor lands on any URL that contains `https://www.adobe.com/products`. 对于任何与页面交互的多页面应用程序，此功能均可完美运行，其中，在. js中，每次与页面交互时，. js会检索符合用户导航到的URL的活动。
+
+However, because SPAs work differently, the [!UICONTROL Page Delivery] settings must be configured in a way that allows all actions to be applied to the Views as defined in the SPA VEC activity.
+
+### 示例用例
+
+请考虑以下示例用例：
+
+![SPA CMS修改面板](/help/c-experiences/assets/page-delivery-example.png)
+
+进行了以下更改：
+
+* Changed the background color in the Home view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+
+With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
+
+![“页面交付”对话框](/help/c-experiences/assets/spa-page-delivery.png)
+
+下图显示了位于. js的“Target Flow- Page Load”请求。*x*:
+
+![目标流- at. js2.0页面加载请求](/help/c-experiences/assets/page-load-request.png)
+
+**用户旅程#1**
+
+* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* at.js 2.*x* 向边缘发出查询，以查看是否需要为URL执行任何活动： [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)。
+* 在步骤中，Target Edge返回“主页和产品”视图的操作，以便在浏览器中缓存它们。
+
+**结果**：用户在“主页”视图中看到绿色背景颜色。When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen since the action is cached in the browser under the Products view.
+
+Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
+
+**用户旅程#2**
+
+* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2.*x* 向边缘发出查询，以查看是否需要为URL执行任何活动： [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)。
+* There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* 由于没有符合条件的活动，因此不存在要为at. js缓存的操作和视图。*要* 触发的x。
+
+**结果**：即使您已经为 `triggerView()` Products View定义了产品视图并通过SPA CMS对产品查看进行了操作，您也不会看到预期的操作，因为您未在页面交付设置中创建包含 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) 的规则。
+
+### 最佳实践
+
+您可以看到管理用户旅程非常困难，因为用户可以登录您SPA的任何URL并导航到任何其他页面。因此，最好指定包含基本URL的页面传送规则，以便它包含整个SPA。这样，您就不必考虑所有不同旅程和路径，用户可能需要使用它来显示A/B测试或体验定位(XT)活动。
+
+例如，为了解决上述问题，我们可以在页面交付设置中指定基本URL，如下所示：
+
+![“页面交付”对话框](/help/c-experiences/assets/conclusion.png)
+
+这可确保当访客登陆SPA并导航到“主页”或“页面视图”时，将看到应用的操作。
+
+Now, whenever you had an action to a View in the SPA VEC, we will show you the following pop-up message to remind you to think about the [!UICONTROL Page Delivery] rules.
+
+![页面交付设置消息](/help/c-experiences/assets/pop-up-message.png)
+
+当您为创建的每个新活动添加第一个动作时，将显示此消息。This message helps ensure that everyone in your organization learns how to apply these [!UICONTROL Page Delivery] rules correctly.
+
 ## 培训视频：在 Adobe Target 中使用 SPA VEC
 
->[!VIDEO](https://video.tv.adobe.com/v/26249)
+>[!VIDEO](https://video.tv.adobe.com/v/26249?captions=chi_hans)
 
-有关更多信息，请参阅 [Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) 中的使用Visual Experience Composer for Single Page Application(SPA CMS)。
+See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.

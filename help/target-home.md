@@ -1,12 +1,14 @@
 ---
-keywords: Target;主页;热门主题
+title: Adobe Target 产品文档
 seo-title: Adobe Target 产品文档
 solution: Target
-title: Adobe Target 产品文档
+description: Adobe Target技术文档
+seo-description: Adobe Target的技术文档、文档、发行说明和自助材料。
+keywords: Target;主页;热门主题
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: 6c4ea7fa0ad3098789f8af89f2d6967204ee0b8f
 
 ---
 

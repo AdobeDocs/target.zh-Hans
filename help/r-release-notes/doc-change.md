@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bc44fd95263e7f2ad22e556a07468c9d7ed3ba8c
+source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 
 ---
 
@@ -16,16 +16,6 @@ source-git-commit: bc44fd95263e7f2ad22e556a07468c9d7ed3ba8c
 # 文档更改{#documentation-changes}
 
 此页面列出了对 [!DNL Adobe Target] 文档所做的重要更改。
-
-## Adobe Target Standard/Premium 19.6.1（2019 年 6 月 26 日）{#tgt-19-6-1}
-
-| 页面 | 主题 | 更改 |
-| --- | --- | --- |
-| 2019年月26日 | [视觉体验选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
-|  | [单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
-|  | [点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
-|  | [单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | 新部分：“SPA CMS的页面交付设置”。 |
-|  | [Google Chrome SameSite Cookie策略](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | 新主题。 |
 
 ## Adobe Target Standard/Premium 19.5.1 (May 21, 2019) {#tgt-19-5-1}
 

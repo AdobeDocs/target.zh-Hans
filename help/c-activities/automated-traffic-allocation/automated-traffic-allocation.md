@@ -7,8 +7,8 @@ solution: Target
 title: 自动分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -192,7 +192,7 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 * 选择流量分配方法
 * 在不同的体验之间分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/17385?captions=chi_hans)
 
 ### 创建 A/B 测试 (8:36)
 
@@ -201,4 +201,4 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 * 在 Adobe Target 中创建 A/B 活动
 * 使用手动拆分或自动流量分配来分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/17391?captions=chi_hans)

@@ -5,8 +5,8 @@ seo-description: 如果您使用的是较低版本的 at.js 或 mbox.js，则必
 seo-title: 使用 Analytics 跟踪服务器
 title: 使用 Analytics 跟踪服务器
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 1. 从您正在创建活动的页面上，打开 Adobe Experience Cloud 调试器。
 
-   如果尚未安装调试器，请按照 [Adobe Debugger 安装说明](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/debugger_install.html)操作。
+   如果您尚未安装该调试器，请按照 [Adobe 调试器安装说明](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html)进行安装。
 
    ![](assets/Screen_DebuggerTrackServ.png)
 

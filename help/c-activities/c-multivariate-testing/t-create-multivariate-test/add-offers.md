@@ -5,7 +5,7 @@ seo-title: 使用Adobe Target在多变量测试(MVT)中创建组合
 title: 创建组合
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 使用Adobe Target中的Visual Experience Composer(CMS)创建要包含在Multivariate Test(MVT)中的选件。
 
-有关使用CMS创建和编辑选件的详细信息，请参阅 [视觉体验书写器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+For more information about using the VEC to create and edit offers, see [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
 >选择页面上的对象时，您可以单击 **[!UICONTROL 展开选定内容]**，以便在除了最初选定的元素之外，还选择父元素。选择任意父元素时，该元素的所有子元素均会自动选定。您可以多次展开选定内容。
 >
->您还可以使用 [DOM路径](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 导航元素。
+>You can also use the [DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) to navigate elements.
 
 ## 图像选件 {#section_A48333211DB149ED926AE467D0032914}
 

@@ -1,7 +1,7 @@
 ---
 description: 此信息介绍了向 Target 实施添加用户，创建工作区、用户组和属性，更新 Target 实施以包含 at_property 参数，以及指定角色和权限时需要执行的任务。
 keywords: 添加用户;项目;用户组;属性;工作区;管理属性;属性;at_property;角色;权限
-seo-description: 有关将用户添加到Adobe Target实施所需任务的信息；创建工作区、用户组和属性；更新Target实施以包含at_ property参数；并指定角色和权限。
+seo-description: 此信息介绍了向 Adobe Target 实施添加用户，创建工作区、用户组和属性，更新 Target 实施以包含 at_property 参数，以及指定角色和权限时需要执行的任务。
 seo-title: 配置企业权限
 solution: Target
 subtopic: 入门指南
@@ -11,7 +11,7 @@ topic: Premium
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,11 +37,11 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 对于在企业版 Adobe Admin Console 中执行的任务，请按以下步骤访问该控制台：
 
-1. 如果尚未登录，请转到 [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) &gt;使用您的Adobe ID登录。
+1. Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) &gt; sign in using your Adobe ID, if you have not already logged in.
 
    或
 
-   如果您已经登录到Experience Cloud，请转到 [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)，然后单击顶部导航栏中的 [!UICONTROL 应用] 程序图标&gt;单击 **[!UICONTROL 右侧的管理员]** 。
+   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
 
 1. （视情况而定）如果您可以访问多个组织的 [!DNL Admin Console for Enterprise]，请单击右上角或顶部导航栏中的用户头像，然后选择所需组织。
 
@@ -83,14 +83,14 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 >[!NOTE]
 >请观看下面的视频，以了解有关配置工作区的更多信息。
 
-### 获取工作区ID {#workspace-id}
+### Obtain your Workspace ID {#workspace-id}
 
-您需要传递工作区ID才能利用Target API中 [的Enterprise Permissions](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。
+您需要传递工作区 ID 才能使用 [Target API](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) 中的企业权限。
 
-1. 在 [Adobe Admin Console](https://adminconsole.adobe.com)中，单击 [!UICONTROL “产品] ”选项卡，然后单击左侧菜单中的产品以显示PLC(工作区)列表。
-1. 单击所需的PLC(工作区)，然后在URL中找到“配置文件”ID，如下所示。
+1. 在[Adobe Admin Console](https://adminconsole.adobe.com) 中，单击[!UICONTROL 产品]选项卡，然后单击左侧菜单中的产品以显示 PLC（工作区）列表。
+1. 单击所需的 PLC（工作区），然后在 URL 中找到“配置文件”ID，如下所示。
 
-   ![workspacesID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
+   ![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
 ## 步骤 3. 创建用户组（可选）{#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
@@ -151,7 +151,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
    * **通过以下“全局参数[!DNL Adobe Launch]：**
 
-      有关更多信息，请参阅 [Adobe Experience](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) Platform *Launch* 文档中的添加全局Mbox Params。
+      For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
    * **通过以下URL中的“全局参数”[!DNL Dynamic Tag Management]：**
 
@@ -169,7 +169,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
       ![](assets/property_token_3.png)
 
-      有关如何使用 at.js 完成此操作的更多信息，请参阅[targetpageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 和 [mboxCreate(mbox、params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
+      有关如何使用 at.js 完成此操作的更多信息，请参阅 [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 和 [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
 
 ## 步骤 6：指定角色和权限{#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -179,7 +179,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
    >[!NOTE]
    >
-   >“属性和权限”功能仅适用于 [Target Standard/Premium](/help/c-intro/intro.md#premium) 。无法在 [!DNL Target Classic] 中使用此功能。
+   >The Properties and Permissions functionality applies to [Target Standard/Premium](/help/c-intro/intro.md#premium) only. 无法在 [!DNL Target Classic] 中使用此功能。
 
 1. 单击所需配置文件的名称。
 1. 单击 **[!UICONTROL 用户]**。

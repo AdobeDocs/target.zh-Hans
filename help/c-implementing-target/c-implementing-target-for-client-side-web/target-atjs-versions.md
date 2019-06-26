@@ -8,14 +8,14 @@ subtopic: 入门指南
 title: at.js 版本详细信息
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # at.js 版本详细信息 {#at-js-version-details}
 
-有关每个版本的. [!DNL Adobe Target] js JavaScript库中的更改的详细信息。
+有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。
 
 >[!IMPORTANT]
 >
@@ -25,67 +25,67 @@ source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
 
 此版本包括以下功能和增强功能：
 
-* **Adobe选择参与支持**：Adobe选择加入是一种简化与同意管理平台集成的Adobe解决方案。有关Adobe选择加入的详细信息，请参阅 [隐私和一般数据保护规定(GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)。
+* **Adobe选择参与支持**：Adobe选择加入是一种简化与同意管理平台集成的Adobe解决方案。For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
 * **符合行业标准的CSP**：at. js不再使用eval()执行JavaScript。
 
 * **客户端分析日志记录**：无论客户端还是服务器端，都可以完全控制他们如何将分析数据发送到Adobe Analytics。
 
-   有关详细信息，请参阅 [在实现之前](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) 登录 *客户端分析*。
+   For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
 
 * **发送通知**：允许开发人员在体验呈现的而不是使用 `applyOffer()` 或 `applyOffers()`使用的情况下发送通知。
 
-   有关详细信息，请参阅 [adobe. target. sendNoSearch(选项)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。
+   For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 * **at. js大小减少了~24%**：. js的大小减小了~24%。文件大小较小，可提高页面加载性能并缩短页面上下载. js的时间。
 
-## at. js version2.0.1(2019年月19日)
+## at.js 版本 2.0.1（2019 年 3 月 19 日）
 
-这是维护版本，包含以下增强和修复：
-
-（括号中的问题编号供 [!DNL Adobe] 内部使用。）
-
-* 修复了DOM轮询代码中存在的一个竞争条件，该问题导致某些客户发生JavaScript异常。(TNT-31869)
-* 呈现视图的通知与单击跟踪事件句柄断开连接。最初，如果属于渲染视图的单击事件句柄无法附加，则Target不发送通知。现在，即使未找到元素，Target也会发送一个视图通知。(TNT-31969)
-* 修复了导致请求成功的事件重定向标志始终设置为true的问题。(TNT-31907)
-* 修复了一个问题，该问题导致CMS重新排列操作被记录为成功，即使元素缺失也是如此。(TNT-31924)
-* 修复了一个问题，该问题导致某些客户不包含Enterprise Permissions属性令牌。(TNT-31999)
-
-## at. js version1.7.1(2019年月19日)
-
-这是维护版本，包含以下修复：
+此版本为维护版本，它包括以下增强功能和修复：
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-* 修复了DOM轮询代码中存在的一个竞争条件，该问题导致某些客户发生JavaScript异常。(TNT-31869)
+* 修复了 DOM 轮询代码中导致某些客户出现 JavaScript 异常的竞争条件。(TNT-31869)
+* 有关视图已渲染的通知已与点击跟踪事件处理程序分离。起初，如果无法附加属于已渲染视图的点击事件处理程序，则 Target 不会发送通知。现在，即使找不到点击元素，Target 也会发送视图通知。(TNT-31969)
+* 修复了导致请求成功事件重定向标志始终设置为 true 的问题。(TNT-31907)
+* 修复了导致 VEC 重新排列操作被记录为成功的问题，即便元素缺失时也是如此。(TNT-31924)
+* 修复了导致某些客户的通知不包含“企业权限”属性令牌的问题。(TNT-31999)
+
+## at.js 版本 1.7.1（2019 年 3 月 19 日）
+
+这个版本属于维护版本，它包括以下修复：
+
+（括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+* 修复了 DOM 轮询代码中导致某些客户出现 JavaScript 异常的竞争条件。(TNT-31869)
 
 ## at.js 版本 2.0.0 {#at-js-200}
 
-at. js2.x提供丰富的功能集，使您的企业能够在下一代客户端技术上执行个性化。这个新版本着重升级了 at.js 以与单页应用程序 (SPA) 进行良性的交互。
+at.js 2.x 提供了丰富的功能集，使您的企业能够在下一代客户端技术上实现个性化。这个新版本着重升级了 at.js 以与单页应用程序 (SPA) 进行良性的交互。
 
-以下是在以前版本中不提供的. js2.x的一些优点：
+以下是使用 at.js 2.x 的一些好处，这些好处在以前的版本中未提供：
 
 * 能够在页面加载时缓存所有选件，将多次服务器调用减少至一次服务器调用。
 * 由于选件是通过缓存立即显示的，不存在传统服务器调用引入的任何时间延迟，因此极大地提升了最终用户在您网站上的体验。
 * 通过简单的单行代码和一次性开发人员设置，您的营销人员能够通过可视化体验编辑器 (VEC) 在单页应用程序上创建和运行 A/B 和体验 (XT) 活动。
 
-at. js2.x引入了以下新函数：
+at.js 2.x 引入了以下新函数：
 
 * getOffers()
 * applyOffers()
 * triggerView()
 
-以下函数已在引入. js2.x时弃用：
+以下函数在引入 at.js 2.x 后被弃用：
 
 * mboxCreate()
 * mboxDefine
 * registerExtension()
 
-有关详细信息，请参阅 [从. js1.x升级到. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) 和 [at. js函数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
+有关更多信息，请参阅[从 at.js 1.x 升级到 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) 和 [at.js 函数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
 
 >[!NOTE]
 >
->如果您需要Adobe选择支持 [一般数据保护规定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)，您当前必须在. js1.7.0或. js2.1.0中使用。
+>If you require Adobe Opt-in support for the [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR), you must currently use at.js 1.7.0 or at.js 2.1.0.
 
 ## at.js 版本 1.7.0 {#at-js-170}
 
@@ -97,7 +97,7 @@ at.js 1.7.0 提供了 Adobe 选择加入支持。通过 Adobe 选择加入，可
 
 >[! 注意]
 >
->如果您需要Adobe选择支持GDPR，您当前必须在. js1.7.0或2.1.0中使用。<br>有关所有版本的列表，请 [参阅. js版本详细](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)信息。
+>If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0 or 2.1.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## at.js 版本 1.6.4 {#at-js-164}
 
@@ -176,7 +176,7 @@ at.js 版本 1.3.0 现已可用。
 
 * 您可以使用来自数据提供程序的其他参数来增强 at.js 请求。应将数据提供程序添加到 `dataProviders key` 下方的 `window.targetGlobalSettings`。
 
-   有关详细信息，请参阅 [数据提供程序](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)。
+   有关更多信息，请参阅[数据提供程序](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)。
 
 * at.js 请求现在使用 GET，但当 URL 大小超过 2048 个字符时，它会转为使用 POST。新增了一个名为 `urlSizeLimit` 的属性，如有必要，您可以在此属性中提高大小限制。通过这项更改，Target 可以使 at.js 与使用相同技术的 AppMeasurement 保持一致。
 * 现在，Target 强制要求在 `adobe.target.applyOffer(options)` 函数中使用 `mbox` 键。以往，这些键值是要求使用的，但现在，Target 强制使用该键值以确保 Target 正确验证并且客户正确地使用该函数。
@@ -298,7 +298,7 @@ at.js 版本 1.0 中包含以下增强功能和修复：
 **日期：** 2016 年 9 月 21 日
 
 * 添加了 `optoutEnabled` 设置，用于启用或禁用“设备图表”的选择退出功能。如果将此设置设为 `true`，且访客已选择退出跟踪，则访客的浏览器不会发起任何 mbox 调用。“设备图表”当前处于测试阶段。默认情况下，此设置将设为 `false`，但是如果您正在使用“设备图表”，则必须将此设置设为 `true`。mbox.js 版本 61 中包含类似选项。
-* 为通知机制添加了 `CustomEvent` 支持。以前，无法通过标准的 DOM API（例如 `document.addEventListener()`()）来使用 at.js 事件通知机制。现在，您可以使用 `document.addEventListener()` 订阅 at.js 事件，例如请求事件和内容渲染事件。
+* 为通知机制添加了 `CustomEvent` 支持。以前，无法通过标准的 DOM API（例如 `document.addEventListener()` ）来使用 at.js 事件通知机制。现在，您可以使用 `document.addEventListener()` 订阅 at.js 事件，例如请求事件和内容渲染事件。
 * 修复了与可视化体验编辑器 (VEC) 中创建的选件有关的问题。在此版本之前，Target 会隐藏选择器，并且只有在所有选择器都匹配时才会取消隐藏。在 at.js 0.9.2 中，当有选择器匹配时，Target 会立即取消隐藏匹配的选择器。
 
 ## at.js 版本 0.9.1 {#section_DAFB99114D604CFB8416C1BC7DEEAEEE}

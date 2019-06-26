@@ -7,8 +7,8 @@ solution: Target
 title: 从 Target 旧版 API 迁移到 Adobe I/O
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 

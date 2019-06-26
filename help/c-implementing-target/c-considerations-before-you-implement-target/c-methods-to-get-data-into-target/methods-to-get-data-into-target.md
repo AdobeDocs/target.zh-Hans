@@ -8,8 +8,8 @@ subtopic: 入门指南
 title: 将数据导入 Target 的方法
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
-   其他所有字符都必须采用 URL 编码。该标准规定了以下格式 ([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt))，如下图所示：
+   其他所有字符都必须采用 URL 编码。The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
    ![](assets/ietf1.png)
 
@@ -227,8 +227,8 @@ at.js 不会尝试缓存数据。如果数据提供程序仅提取一次数据�
 
 ### 培训视频：
 
-* [在 Adobe Target 中使用数据提供程序](https://helpx.adobe.com/cn/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [在 Adobe Target 中实施数据提供程序](https://helpx.adobe.com/cn/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [在 Adobe Target 中使用数据提供程序](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [在 Adobe Target 中实施数据提供程序](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## 批量配置文件更新 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
@@ -336,8 +336,8 @@ Target Standard 客户可以使用 5 个属性，Target Premium 客户可以使�
 
 ### 代码示例
 
-有关详细信息可在[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/zh_CN/mcloud/t_crs_usecase.html)中找到。
+有关详细信息，请参见[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)。
 
 ### 相关信息链接
 
-[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/zh_CN/mcloud/t_crs_usecase.html)
+[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)

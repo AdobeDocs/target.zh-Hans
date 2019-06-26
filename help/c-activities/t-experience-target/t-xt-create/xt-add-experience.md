@@ -8,12 +8,12 @@ title: 创建体验
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# 创建体验{#create-experience}
+# Create experience{#create-experience}
 
 Visual Experience Composer(CMS)提供可视界面，用于在体验定位(XT)活动中编辑页面上的体验。
 
@@ -23,9 +23,9 @@ Visual Experience Composer(CMS)提供可视界面，用于在体验定位(XT)活
 
    ![所有访客受众](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   您所做的任何更改现在都适用于体验A。在下面的步骤中，您将单击 **[!UICONTROL 添加体验定位]** 以创建其他体验。
+   Any changes you make now apply to Experience A. In a step below, you&#39;ll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
 
-   将鼠标悬停在页面中的元素上时，这些元素会高亮显示。可以使用CMS更改任何高亮显示的元素。有关可对元素执行的操作以更改体验的列表，请参阅 [视觉体验合成器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+   将鼠标悬停在页面中的元素上时，这些元素会高亮显示。可以使用CMS更改任何高亮显示的元素。For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    如果您曾使用 Target Classic（以前为 Test&amp;Target）在页面上创建了 mbox，则该 mbox 将显示为一个元素，该元素会显示 mbox 名称，且可以像其他任何元素一样进行修改。
 
@@ -33,11 +33,11 @@ Visual Experience Composer(CMS)提供可视界面，用于在体验定位(XT)活
    >
    >默认情况下，可视化体验编辑器不允许更改包含 JavaScript 的元素，如旋转横幅。如果您希望能够使用CMS更改这些元素，可以选择禁用JavaScript。
 
-1. 要创建其他体验，请单击 **[!Add Experience Targeting]**。
+1. To create additional experiences, click **[!Add Experience Targeting]**.
 
    ![添加体验定位链接](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
-   此时将显示 [!UICONTROL “选择受众”] 对话框。要将体验定位到受众，您必须先选择受众，然后再添加体验。
+   The [!UICONTROL Choose Audience] dialog box displays. 要将体验定位到受众，您必须先选择受众，然后再添加体验。
 
    受众库中包含以前定义的受众，其中包括作为 Target 的一部分预先构建的一些常用受众。您可以从库中选择一个受众，也可以[创建新受众](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
 
@@ -45,13 +45,13 @@ Visual Experience Composer(CMS)提供可视界面，用于在体验定位(XT)活
    >
    >除了选择现有受众之外，您还可以合并多个受众来创建临时组合受众，而不是创建新受众。有关更多信息，请参阅[合并多个受众](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-   在创建受众时，您可以选择一个位置 (mbox) 并指定该位置的参数。在 [!UICONTROL 自定义] 下(创建受众&gt;添加规则&gt;自定义)下，选择mbox，然后指定所需的参数。
+   在创建受众时，您可以选择一个位置 (mbox) 并指定该位置的参数。Under [!UICONTROL Custom] (Create Audience &gt; Add Rule &gt; Custom), select the mbox, then specify the desired parameters.
 
    >[!NOTE]
    >
    >打开受众列表时会在后台自动导入受众，导入的受众为 10 分钟之前的受众。
 
-1. 选择一个或多个受众以使用体验，然后单击 **[!UICONTROL 完成]**。
+1. Select one or more audiences to target with the experience, then click **[!UICONTROL Done]**.
 
    ![体验 B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
@@ -61,7 +61,7 @@ Visual Experience Composer(CMS)提供可视界面，用于在体验定位(XT)活
 
 1. 根据需要重复上述步骤以创建更多有针对性的体验。
 
-1. 在完成体验设计后，单击 **[!UICONTROL “下一步]** ”。
+1. Click **[!UICONTROL Next]** when you are finished designing your experiences.
 
    活动图显示如下：
 
@@ -81,11 +81,11 @@ Visual Experience Composer(CMS)提供可视界面，用于在体验定位(XT)活
 
    例如，假定您在创建 XT 活动时并不知道排序的重要性。随后，您在测试过程中意识到，您认为应符合体验 B 或 C 的条件的访客而是符合了体验 A 的条件。这可能是因为受众之间不存在互斥关系，并且它们的顺序不正确（例如，体验 A = 美国，体验 B = 旧金山，体验 C = 加利福尼亚州）所导致。在此情景中，来自美国的所有用户都符合体验 A 的条件，无论他们在旧金山还是在加利福尼亚州的其他地区。您可以按限制性由高到低（旧金山 &gt; 加利福尼亚州 &gt; 美国）重新排列受众/体验对，而不必重新创建整个活动。
 
-   如果您有 [!UICONTROL 所有访客] 受众，请确保它不是图中的第一个受众。定位到“所有访客”的体验可以用作体验定位活动中的最后一个体验，以“捕获”所有还未进入任何其他体验的访客。
+   If you have an [!UICONTROL All Visitors] audience, ensure that it is not the first audience in the diagram. 定位到“所有访客”的体验可以用作体验定位活动中的最后一个体验，以“捕获”所有还未进入任何其他体验的访客。
 
 ## 重命名或编辑体验
 
-您可以在XT活动中单击体验 [!UICONTROL 中的编辑] 图标(三个垂直省略号)，并根据需要从以下选项中进行选择：
+You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experience in an XT activity and choose from the following options, as necessary:
 
 * 重命名
 * 编辑
@@ -94,7 +94,7 @@ Visual Experience Composer(CMS)提供可视界面，用于在体验定位(XT)活
 
 ## 删除体验
 
-在 **[!UICONTROL 体验]** 页面(三步导览工作流程中的第一步)上，单击三个垂直椭圆&gt; **[!UICONTROL 删除]**。
+On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the three vertical ellipses &gt; **[!UICONTROL Delete]**.
 
 ![删除体验](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 

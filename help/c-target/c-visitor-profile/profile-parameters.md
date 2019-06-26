@@ -8,7 +8,7 @@ title: 配置文件属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 | 参数类型 | 描述 |
 |--- |--- |
-| Mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>**** 注意：Target 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 Target，则可以使用配置文件更新 API 方法进行传递。有关详细信息，请参阅 [Adobe Target API文档中的配置文件更新](http://developers.adobetarget.com/api/#updating-profiles)。 |
+| Mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>**** 注意：Target 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 Target，则可以使用配置文件更新 API 方法进行传递。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
 | 脚本 | 直接使用 JavaScript 代码段定义。这些参数能够保存运行的总数，如消费者花费的总金额，并能基于每个 mbox 请求来执行。请参阅下面的“配置文件脚本属性”。 |
 
 ## 配置文件脚本属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -126,7 +126,7 @@ if (mbox.name == 'Track_Interest') {
 * 切勿超过 2,000 条 JavaScript 指令。Target 限制每个脚本只能使用 2,000 条 JavaScript 指令，但这不能简单地通过人工读取 JavaScript 的方式来计算。例如，Rhino 会将所有函数调用和“新”调用视为 100 条指令。此外，任何输入数据（例如 URL 值）的大小可能会对指令计数产生影响。
 * 不仅要注意脚本性能，还要注意所有脚本的组合性能。作为最佳实践，我们建议指令总数要少于 5,000 条。计算指令数量的效果并不明显，但需要注意的重要事项是，超过 2 KB 的脚本会被自动禁用。对于您可以运行的脚本数量，没有设置限制，但在每一次 mbox 调用时均会执行每个脚本。应只运行所需数量的脚本。
 * 如果全部失败，则将脚本嵌套在 try/catch 中。
-* 有关更多信息，请参阅JS Rhino引擎文档： [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html)。
+* See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
 ## 用于测试互斥活动的配置文件脚本 {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 

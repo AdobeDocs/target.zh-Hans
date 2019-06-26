@@ -7,8 +7,8 @@ solution: Target
 title: Target 移动设备预览
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,11 +31,8 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
    有关下载适当 SDK 的说明，请参阅：
 
-   * **iOS：** *适用于 Experience Cloud 解决方案的 iOS SDK 4.x*指南中的[开始之前](https://marketing.adobe.com/resources/help/zh_CN/mobile/ios/requirements.html)。
-   * **Android：** *适用于 Experience Cloud 解决方案的 Android SDK 4.x*指南中的[开始之前](https://marketing.adobe.com/resources/help/zh_CN/mobile/android/requirements.html)。
-   
-    * **iOS:** [Before You Start](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) in the *iOS SDK 4.x for Experience Cloud Solutions* guide. 
-    * **Android:** [Before You Start](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html) in the *Android SDK 4.x for Experience Cloud Solutions* guide.   
+   * **iOS：**《适用于 Experience Cloud 解决方案的 iOS SDK 4.x》[](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html)指南中的*开始之前*部分。
+   * **Android：**《适用于 Experience Cloud 解决方案的 Android SDK 4.x》指南中的[开始之前](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*部分。*
 
 1. **设置 URL 方案：** 预览链接需使用 URL 方案来打开应用程序。您必须为预览指定一个唯一的 URL 方案。
 

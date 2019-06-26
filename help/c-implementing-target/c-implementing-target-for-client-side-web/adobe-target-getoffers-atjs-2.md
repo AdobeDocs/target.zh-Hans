@@ -1,25 +1,25 @@
 ---
-description: '有关adobe. target. getOffers(options)函数的信息，请访问. js。 '
+description: '有关 at.js 的 adobe.target.getOffers(options) 函数的信息。 '
 keywords: adobe.target.notification;元素;选择器;通知;扩展
-seo-description: 有关Adobe Target. js JavaScript库的adobe. target. getOfFers(选项)函数的信息。
-seo-title: 有关Adobe Target. js JavaScript库的adobe. target. getOfFers(选项)函数的信息。
+seo-description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers(options) 函数的信息。
+seo-title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers(options) 函数的信息。
 solution: Target
 subtopic: 入门指南
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# adobe. target. getOffers(options)- at. js2.x
+# adobe.target.getOffers(options) - at.js 2.x
 
 此函数允许您通过传递多个 mbox 来检索多个选件。此外，还可以针对活跃活动中的所有视图检索多个选件。
 
 >[!NOTE]
 >
->此函数在. js2.x中引入。此函数不适用于. js版本1。*x*。
+>此函数已在 at.js 2.x 中引入。但此函数不适用于 at.js 版本 1.*x*。
 
 | 键值 | 类型 | 必需？ | 描述 |
 | --- | --- | --- | --- |
@@ -35,7 +35,7 @@ source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
 | request &gt; id &gt; thirdPartyId | 否 | 最大大小 = 128 |  |  |
 | 请求&gt; Experience Cloud | 否 |  |  |
 | “请求”&gt;“Experience Cloud”&gt;“分析” | 否 |  | Adobe Analytics集成 |
-| “请求”&gt;“Experience Cloud”&gt;“分析”&gt;“日志记录” | 否 | 以下必须在页面上实现：<ul><li>访客 ID 服务</li><li>AppMeasurement. js</li></ul> | 支持以下值：<br>**client_ side**：指定后，分析有效负荷将返回到应通过数据插入API发送到Adobe Analytics的调用者。<br>**server_ side**：这是Target和Analytics后端将使用SSID组合调用以进行报告的默认值。 |
+| “请求”&gt;“Experience Cloud”&gt;“分析”&gt;“日志记录” | 否 | 以下必须在页面上实现：<ul><li>访客 ID 服务</li><li>AppMeasurement. js</li></ul> | The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_ side**：这是Target和Analytics后端将使用SSID组合调用以进行报告的默认值。 |
 | request &gt; prefetch | 否 |  |  |
 | request &gt; prefetch &gt; views | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头<br>不允许的名称：“orderId”、“orderTotal”、“productPurchasedId” | 传递用于检索活跃活动中相关视图的参数。 |
 | request &gt; prefetch &gt; views &gt; profileParameters | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头 | 传递用于检索活跃活动中相关视图的配置文件参数。 |
@@ -181,13 +181,13 @@ adobe.target.getOffers({
 }
 ```
 
-然后，可以通过 [数据插入API将有效负荷转发给Adobe Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
+The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-## 通过getOffers()和applyOffers()从多个mbox提取和渲染数据 {#multiple}
+## 通过 getOffers() 和 applyOffers() 获取并渲染多个 mbox 的数据 {#multiple}
 
-at. js2.x可让您通过 `getOffers()` API获取多个mbox。您还可以获取多个mbox的数据，然后用于 `applyOffers()` 渲染CSS选择器确定的不同位置中的数据。
+at.js 2.x 允许您通过 `getOffers()` API 获取多个 mbox。您还可以获取多个 mbox 的数据，然后使用 `applyOffers()` 在 CSS 选择器标识的不同位置渲染数据。
 
-以下示例展示了实现. js2.x的简单HTML页面：
+以下示例展示了实施了 at.js 2.x 的简单 HTML 页面：
 
 ```
 <!DOCTYPE html>
@@ -207,7 +207,7 @@ at. js2.x可让您通过 `getOffers()` API获取多个mbox。您还可以获取�
 </html>
 ```
 
-假定您有三个要通过从中接收的内容进行修改的容器 [!DNL Target]。您可以为三个mbox构造一个请求，其中每个mbox都有一些内容可渲染到各自的容器中。
+假设您有三个容器，并且想要通过从 [!DNL Target] 收到的内容对其进行修改。您可以为三个 mbox 构建一个请求，其中每个 mbox 都有一些内容要渲染到相应的容器中。
 
 请求和渲染代码可能类似于以下示例：
 
@@ -252,12 +252,12 @@ adobe.target.getOffers({
 });
 ```
 
-`request > prefetch > mboxes` 在该部分中，有三个不同的mbox。如果请求成功完成，您将收到每个mbox的响应 `response > prefetch > mboxes`。在您具有响应和要用于渲染的位置之后，您可以调用 `applyOffers()` 渲染从 [!DNL Target]中检索的内容。在本示例中，我们有以下映射：
+在 `request > prefetch > mboxes` 部分中，有三个不同的 mbox。如果请求成功完成，您将从 `response > prefetch > mboxes` 中收到每个 mbox 的响应。获得响应和要用于渲染的位置后，可以调用 `applyOffers()` 以渲染从 [!DNL Target] 中检索的内容。在本示例中，我们有以下映射：
 
-* mbox&gt; CSS选择器# container1
-* mbox&gt; CSS选择器# container2
-* mbox3&gt; CSS选择器# container3
+* mbox1 &gt; CSS 选择器 #container1
+* mbox2 &gt; CSS 选择器 #container2
+* mbox3 &gt; CSS 选择器 #container3
 
-此示例使用计数变量构建CSS选择器。在真实情况下，您可以在CSS选择器和mbox之间使用不同的映射。
+此示例使用 count 变量来构建 CSS 选择器。在现实场景中，您可以使用 CSS 选择器和 mbox 之间的不同映射。
 
-请注意，此示例使用 `prefetch > mboxes`，但您也可以使用 `execute > mboxes`。确保在中 `getOffers()`使用预检，您也应在 `applyOffers()` 调用中使用预检。
+请注意，此示例使用了 `prefetch > mboxes`，但您也可以使用 `execute > mboxes`。请确保，如果在 `getOffers()` 中使用 prefetch，则在 `applyOffers()` 调用中也应使用 prefetch。

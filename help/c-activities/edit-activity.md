@@ -8,7 +8,7 @@ title: 编辑活动或另存为草稿
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,15 +19,15 @@ source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
 
 您可以在 Target UI 中的多个位置编辑现有活动。根据您选择的方法，编辑过程会有所不同。
 
-## 使用“活动”页面上的悬停按钮编辑活动 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. 在 **[!UICONTROL 活动]** 页面上，将鼠标悬停在要编辑的活动上，然后单击 **编辑]图标。[!UICONTROL **
 
    ![编辑图标](/help/c-activities/assets/hover_edit.png)
 
-   Target在Visual Experience Composer(CMS)中打开活动，您可以看到 [!UICONTROL 体验] 页面(在三步引导工作流程中的第一步)。
+   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
 
-1. 根据需要，使用 [CMS选项编辑活动](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 1. 单击拆分按钮以前进到下一步或保存活动。
 
@@ -37,7 +37,7 @@ source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
    * **保存并关闭：** 在当前步骤中进行所需的更改，单击拆分按钮中的下拉列表，然后选择 **[!UICONTROL 保存并关闭]**，可保存所做更改并显示活动的“[!UICONTROL 概述]”页面。
    * **保存：** 在任一步骤中进行所需的更改，单击拆分按钮中的下拉列表，然后选择 **[!UICONTROL 保存]，可保存所做更改并停留在当前步骤，以便能够继续进行更改。** 等待保存完成后，可进行其他更改。保存完成后，VEC 会重新加载以显示刷新的更改。
 
-## 通过在活动页面单击活动的名称来编辑活动 {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. 可以从“活动”页面中单击所需的活动以将其打开，然后从 **[!UICONTROL 编辑活动]下拉列表中选择相应的选项，而无需逐步完成该工作流。**
 
@@ -60,7 +60,7 @@ source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
 
 
 
-## 以草稿形式保存活动 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 创建新活动且尚未对其保存时，或编辑之前保存为草稿形式的活动时，拆分按钮中会显示“保存草稿”选项。
 

@@ -7,8 +7,8 @@ solution: Target
 title: 已知问题和已解决的问题
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 以下是 at.js 存在的已知问题：
 
-* 将页面加载到可视化体验编辑器 (VEC) 中时，Target 需要确定全局 mbox 设置是处于启用状态还是禁用状态，以及 entityID 或 categoryID 是否存在于用户尝试在 VEC 中应用推荐的位置。标准列表将会根据这些信息进行筛选。虽然默认列表中算法已经过筛选，但您可以使用[兼容复选框](https://marketing.adobe.com/resources/help/zh_CN/target/recs/t_algo_select_recs.html)查看完整的算法列表。
+* 将页面加载到可视化体验编辑器 (VEC) 中时，Target 需要确定全局 mbox 设置是处于启用状态还是禁用状态，以及 entityID 或 categoryID 是否存在于用户尝试在 VEC 中应用推荐的位置。标准列表将会根据这些信息进行筛选。默认列表已筛选算法，但[“兼容”复选框](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html)允许您查看完整的算法列表。
 
    使用 at.js 时，“兼容性”复选框处于隐藏状态，因此您看不到不兼容的算法。
 

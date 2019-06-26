@@ -10,7 +10,7 @@ topic: Premium
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 ---
 
@@ -63,10 +63,10 @@ The following table shows the data collected by Automated Personalization and Au
 | 浏览器-每周一小时 | 访客访问活动的那一周的时间。 | 0 to 168<br>(Sunday midnight is 0) |
 | 浏览器 - 语言设置 | 访客浏览器中用于访问活动的语言。 | English<br>German |
 | 浏览器-屏幕高度(px) | 用于访问活动的设备的浏览器屏幕高度(以像素为单位)。 | 1、2、3等 |
-| 浏览器-一天的时间 | 浏览器在访客访问活动时的时间。 | 0, 6, 12, 18<br>(0 is night, 6 is morning, 12 is afternoon, 18 is evening) |
+| 浏览器-一天的时间 | 浏览器在访客访问活动时的时间。 | 0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening) |
 | 浏览器 - 时区 | 访问活动时访客的时区。 | Pacific Time<br>Eastern Time<br>GMT |
 | 浏览器 - 类型 | 访客访问活动时使用的浏览器类型。 | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
-| 浏览器-工作日/周末 | 访客访问活动(周末、工作时间或工作日免费)时的工作状态。 | Saturday and Sunday is weekend<br>Monday through Friday 0900 to 1800 is work time<br>Monday through Friday after 1800 until 0900 is weekday free time |
+| 浏览器-工作日/周末 | 访客访问活动(周末、工作时间或工作日免费)时的工作状态。 | Saturday and Sunday is weekend<br>Monday-Friday 0900 to 1800 is work time<br>Monday-Friday after 1800 until 0900 is weekday free time |
 | 浏览器-窗口高度(px) | 用于访问活动的浏览器的窗口高度(以像素为单位)。 | 1、2、3等 |
 | 浏览器-窗口宽度(px) | 用于访问活动的浏览器的窗口宽度(以像素为单位)。 | 1、2、3等 |
 | 设备-屏幕高度 | 访客用来访问活动的设备的屏幕高度。 | 1、2、3等 |

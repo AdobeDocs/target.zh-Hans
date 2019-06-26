@@ -7,24 +7,24 @@ solution: Target
 title: 活动 URL
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 活动 URL{#activity-url}
 
-活动URL决定了在 [!M更紧密的Test] (MVT)中使用的页面，以及在设计测试时打开的页面 [!DNL Adobe Target]。
+The activity URL determines the page that is used in the [!UICONTROL Multivariate Test] (MVT), and that opens when the test is designed in [!DNL Adobe Target].
 
-[在活动创建过程中提示时](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)，指定活动URL。键入完整的URL(包括 `https://`)，然后单击 **[!UICONTROL 下]** 一步。
+[在活动创建过程中提示时](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)，指定活动URL。Type the complete URL (including `https://`), then click **[!UICONTROL Next]**.
 
 >[!NOTE]
 >
 >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。因此，[!DNL `https://www.adobe.com`] 和 [!DNL `http://www.adobe.com`] 均匹配。
 
-默认情况下 [!UICONTROL ，Visual Experience Composer] (CMS)会打开 [在帐户首选项中指定的页面](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)。在活动创建过程中，您可以指定其他页面。
+By default, the [!UICONTROL Visual Experience Composer] (VEC) opens the page that is specified in your [Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 在活动创建过程中，您可以指定其他页面。
 
-要在CMS打开后显示其他页面，请单击 **[!UICONTROL 配置]** 图标，然后选择 **[!UICONTROL 页面传送]**，然后指定URL。
+To display a different page after the VEC opens, click the **[!UICONTROL Configure]** icon, then select **[!UICONTROL Page Delivery]**, then specify the URL.
 
 ![“页面交付”对话框](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
 

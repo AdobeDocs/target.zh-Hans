@@ -7,7 +7,7 @@ solution: Target,standard
 title: 设置量度
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
    正确配置成功量度对于确保获得您预期的数据至关重要。
 
-   有关更多信息，请参阅 [成功指标](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+   For more information, see [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 1. （可选）添加其他量度。
 1. 完成设置量度时，单击 **[!UICONTROL 继续]**。
 请注意，在命名或重命名量度时，不允许使用以下字符：

@@ -7,7 +7,7 @@ solution: Target
 title: 活动 URL
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,11 +22,11 @@ source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
    >
    >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。因此，[!DNL `https://www.adobe.com`] 和 [!DNL `http://www.adobe.com`] 均匹配。
    >
-   >默认情况下，CMS或基于表单的Experience Composer将打开 [在帐户首选项中指定的页面](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)。在活动创建过程中，您可以指定其他页面。
+   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 在活动创建过程中，您可以指定其他页面。
    >
    >如果为不包含Target标准JavaScript代码的站点指定URL，则无法选择页面元素。
 
-1. (视情况而定)要在CMS打开后显示其他页面，请单击 **[!UICONTROL 配置]**，选择 **[!UICONTROL 页面传送]**，然后在 [!UICONTROL URL] 字段中指定URL。
+1. (Conditional) To display a different page after the VEC opens, click **[!UICONTROL Configure]**, select **[!UICONTROL Page Delivery]**, and specify the URL in the [!UICONTROL URL] field.
 
    ![“页面交付”对话框](/help/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
 
@@ -34,7 +34,7 @@ source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
    >
    >在对一个或多个体验的页面进行更改后，如果您更改了 URL，则系统将使用新页面重置体验，而且您所做的更改也会丢失。
 
-1. (视情况而定)单击 **[!UICONTROL 添加模板规则]** ，以向活动中添加更多页面或章节。
+1. (Conditional) Click **[!UICONTROL Add Template Rule]** to add more pages or sections to the activity.
 
    其他规则可以基于以下任何一项：
 

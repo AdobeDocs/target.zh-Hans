@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: b1195ddaa639ac51a3966777f3769fa46428b4a8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -159,16 +159,16 @@ Target 在应用程序级别施加了 50 MB 的发布限制；但是，仅当您
 
 对于上传信息源的 CSV 文件，其行数或文件大小没有硬性限制。但是，作为最佳实践，我们建议将 CSV 文件大小限制为 1 GB，以避免在文件上传过程中出现故障。如果文件大小超过 1 GB，最好将其拆分为多个信息源文件。自定义属性列的最大数量为 100，自定义属性限制为 4,096 个字符。有关所需列长度的其他限制，请参阅 [Target 限制页面](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)。
 
-## 能否动态排除实体？
+## 我可以动态排除实体吗？
 
-在查询字符串中，您可以为要从推荐中排除的实体传递实体ID。例如，您可能需要排除购物车中已有的项目。
+在查询字符串中，您可以传递要从推荐中排除的实体 ID。例如，您可能需要排除购物车中已有的项目。
 
-要启用排除功能，请使用 `excludedIds` mbox 参数。此参数指向以逗号分隔的实体ID列表。`mboxCreate(..., "excludedIds=1,2,3,4,5")`例如，该值将在请求推荐时发送。
+要启用排除功能，请使用 `excludedIds` mbox 参数。此参数指向一个以逗号分隔的实体 ID 列表。例如，`mboxCreate(..., "excludedIds=1,2,3,4,5")`。该值将在请求推荐时发送。
 
 >[!NOTE]
 >
->如果排除了太多实体，建议的行为就像没有足够的实体填充推荐模板一样。
+>如果排除的实体过多，则 Recommendations 所表现出的行为就像是没有足够的实体来填充推荐模板。
 
-要排除 `entityIds`，请将 `&excludes=${mbox.excludedIds}` 令牌追加到选件内容url。在提取了内容 URL 之后，所需参数将使用当前的 mbox 请求参数替代。
+要排除 `entityIds`，请将 `&excludes=${mbox.excludedIds}` 令牌附加到选件内容 URL 之后。在提取了内容 URL 之后，所需参数将使用当前的 mbox 请求参数替代。
 
-默认情况下，为新创建的推荐启用此功能。必须保存现有推荐以支持动态排除的实体。
+默认情况下，新创建的推荐将启用此功能。现有推荐必须进行保存才能支持动态排除的实体。

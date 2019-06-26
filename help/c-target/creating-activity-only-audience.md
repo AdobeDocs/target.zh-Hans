@@ -8,25 +8,25 @@ title: 创建仅限该活动的受众
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 创建仅限该活动的受众{#create-an-activity-only-audience}
 
-创建活动时，可在三步引导式工作流中创建仅限该活动的受众。这些临时受众可用于同一活动内的其他位置，但不会存储在 [!UICONTROL Audiences库] 中以用于其他活动。
+创建活动时，可在三步引导式工作流中创建仅限该活动的受众。These ad hoc audiences can be used in other places within the same activity, but are not stored in the [!UICONTROL Audiences Library] for use in other activities.
 
 仅限该活动的受众可提供以下好处：
 
-* 您可以使用仅限活动的受众创建一个您希望仅使用一次的受众，并且不希望将其存储在 [!UICONTROL 受众库]中。这可以防止 [!UICONTROL 受众库] 与您不希望再次使用的受众混淆。
-* 仅限活动的受众在 [!UICONTROL 受众库]中不可见。因此，可以避免组织中的他人对其进行不必要的更改。
+* You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. This prevents the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again.
+* Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. 因此，可以避免组织中的他人对其进行不必要的更改。
 
-1. 创建 [活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在 **[!UICONTROL Target]** 页面上单击三个垂直椭圆，然后单击 **[!UICONTROL 替换受众]**。
+1. While creating an [activity](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Target]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
 
    ![步骤结果](assets/edit_audience.png)
 
-1. 在 [!UICONTROL “选择受众] ”页面上，单击 **[!UICONTROL “仅限活动受众]**”。
+1. On the [!UICONTROL Choose Audience] page, click **[!UICONTROL Activity Only Audience]**.
 
    ![](assets/activity-only-aud.png)
 
@@ -48,9 +48,9 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 使用仅限该活动的受众时，请牢记以下信息：
 
 * 您可以在可视化体验编辑器 (VEC) 或基于表单的体验编辑器中创建仅限该活动的受众。此功能取代了 Target 以前版本中的细化规则。
-* 您可以创建要存储在 [!UICONTROL 受众库中的活动，] 以便在其他活动中重复使用，或创建仅限活动的受众。保存受众后，无法更改受众类型。
+* You can create an activity to store in the [!UICONTROL Audience Library] for reuse in other activities or you create an activity-only audience. 保存受众后，无法更改受众类型。
 * 现有活动的细化规则已迁移到仅限该活动的受众。
-* 仅限活动的受众具有 [!UICONTROL “已使用”] 或“ [!UICONTROL 未使用]”状态。未使用的仅限该活动的受众在保存活动后将不会显示。如果将仅限该活动的受众保留为“未使用”状态，在您尝试保存活动时，系统会显示一条警告消息，告知您未使用的仅限该活动的受众将被删除。
+* Activity-only audiences have a status of [!UICONTROL Used] or [!UICONTROL Unused]. 未使用的仅限该活动的受众在保存活动后将不会显示。如果将仅限该活动的受众保留为“未使用”状态，在您尝试保存活动时，系统会显示一条警告消息，告知您未使用的仅限该活动的受众将被删除。
 * 您可以从受众选取器中访问弹出卡片，以查看该卡片上的受众定义详细信息，而无需打开受众。
 * 您可以[合并多个受众](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)，以创建仅限该活动的受众。
 

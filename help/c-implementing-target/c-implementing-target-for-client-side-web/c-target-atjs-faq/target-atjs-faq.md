@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: at.js 常见问题解答
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 如上图所示，使用 mbox.js 时，在 [!DNL Target] 调用完成后才会开始加载页面内容。使用 at.js 时，在 [!DNL Target] 调用启动后即会开始加载页面内容，而不会等到调用完成才开始加载。
 
-## 页面加载时间，at.js和mbox. at.js有何影响？ {#page-load}
+## What is the impact of at.js and mbox.js on page-load time? {#page-load}
 
 很多客户和顾问都想了解 [!DNL at.js] 和 [!DNL mbox.js] 对页面加载时间的影响，特别是对于新用户与旧用户的情况。但遗憾的是，由于每位客户的实施不尽相同，因此很难评测 [!DNL at.js] 或 [!DNL mbox.js] 对页面加载时间的影响并给出具体的数字。
 
@@ -90,7 +90,7 @@ at.js 1.0.0 版本使您可以异步加载 Target 库。
 
 要异步加载 at.js，请执行以下操作：
 
-* 建议的方法是通过标签管理器(如Adobe Launch或Adobe Dynamic Tag Manager(DTM))。有关 [更多信息](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) ，请参阅使用 [Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) 教程在网站中添加Experience Cloud的Adobe Target课程。
+* 推荐的方法是通过标签管理器，例如 Adobe Launch 或 Adobe Dynamic Tag Manager (DTM)。See the [Add Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
 * 您还可以通过向加载 at.js 的脚本标记中添加 async 属性来异步加载 at.js。您应使用如下代码：
 
    ```
@@ -108,11 +108,11 @@ at.js 1.0.0 版本使您可以异步加载 Target 库。
 
 异步加载 at.js 有利于避免阻止浏览器渲染；但是，此技术可能会导致网页闪烁。
 
-您可以使用隐藏该页面(或指定部分)的预隐藏代码片断，然后在at at.js 和全局请求完全加载后显示它，从而避免闪烁。在加载 at.js 之前，必须先添加该代码片段。
+您可以避免闪烁，方法是使用预先隐藏的代码片段先隐藏页面（或指定部分），然后在完全加载 at.js 和全局请求后再显示该页面。在加载 at.js 之前，必须先添加该代码片段。
 
-如果您要通过异步启动实施部署 at.js，请确保在启动嵌入代码之前将预隐藏代码片断包含在页面上，如使用Launch教程“在网站中 [添加Experience Cloud的目标预隐藏代码片段](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet)[部分”中所述](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)。
+If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
 
-如果您通过同步DTM实施部署到 at.js，则可通过页面顶部触发的页面加载规则添加预隐藏代码片断。
+如果要通过同步 DTM 实施部署 at.js，则可通过页面顶部触发的“页面加载”规则添加预先隐藏的代码片段。
 
 有关更多信息，请参阅 [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。
 
@@ -152,7 +152,7 @@ at.js 当前使用 jQuery 部分，因此您会在 at.js 顶部看到 MIT 许可
 
 ## 我能否在单页应用程序中使用 Target 可视化体验编辑器？{#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
-是，如果您在 at.js 2.x上使用CMS，则可以使用CMS。有关详细信息，请参阅 [单页(SPA)视觉体验书写器](/help/c-experiences/spa-visual-experience-composer.md)。
+能，如果您使用 at.js 2.x，则可以将 VEC 用于 SPA。有关更多信息，请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md)。
 
 ## 我能否将 Adobe Experience Cloud 调试器与 at.js 实施结合使用？{#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
@@ -176,7 +176,7 @@ at.js 当前使用 jQuery 部分，因此您会在 at.js 顶部看到 MIT 许可
 >
 >如果您使用的是 at.js 版本 1.2 或更高版本，则无需查看以下示例。
 
-根据您使用 [TargetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)的方式，在 at.js 下载之后，可能需要对代码进行额外修改。例如，如果您需要对不同网站上的 [!DNL Target] 实施进行稍微不同的设置，而又无法使用自定义 JavaScript 动态定义这些设置，则需在下载该文件之后以及将该文件上传到相应网站之前手动自定义这些设置。
+根据您使用 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 的方式，您可能需要在下载 at.js 后对代码进行额外的修改。例如，如果您需要对不同网站上的 [!DNL Target] 实施进行稍微不同的设置，而又无法使用自定义 JavaScript 动态定义这些设置，则需在下载该文件之后以及将该文件上传到相应网站之前手动自定义这些设置。
 
 以下示例允许您使用 `targetGlobalSettings()` at.js 函数插入一个代码片段来支持 IP 地址：
 
@@ -264,12 +264,12 @@ Target 已超时五秒。用户加载的页面具有自定义主页图像的活�
 
 最初，主页图像 DOM 元素处于隐藏状态。收到 Target 的响应后，at.js 会应用 DOM 更改，例如替换 IMG 并显示自定义的主页图像。
 
-## at.js 需要什么HTML docype？
+## at.js 需要何种 HTML doctype？
 
-at.js 需要HTML文档类型。
+at.js 需要 HTML 5 doctype。
 
 此语法为：
 
 `<!DOCTYPE html>`
 
-HTML docype可确保页面在标准模式下加载。在测验模式下加载时，将禁用 at.js 所依赖的一些JS API。Target以测验模式禁用 at.js。
+HTML 5 doctype 可确保页面以标准模式加载。在 Quirks 模式下加载时，at.js 所依赖的一些 JS API 将被禁用。Target 会在 Quirks 模式下禁用 at.js。

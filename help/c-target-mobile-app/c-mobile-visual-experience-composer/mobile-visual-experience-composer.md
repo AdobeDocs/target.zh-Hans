@@ -7,7 +7,7 @@ title: 移动设备应用程序可视化体验编辑器
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 ---
 
@@ -79,7 +79,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 检测到新的应用程序版本时，将通知您已将应用程序版本添加到目标版本列表。
 
-![新的应用程序通知](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification.png)
+![新的应用程序通知](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
 Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
 

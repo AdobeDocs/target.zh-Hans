@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -33,6 +33,7 @@ source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 |  | [创建自动个性化活动](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 添加了包含信息的步骤，以选择特定的体验作为默认体验。 |
 |  | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 添加了有关如何管理多个移动应用程序版本的信息。 |
 |  | [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) | 添加了有关先前购买的项目推荐密钥的信息。 |
+|  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关在某些情况下无法为自动Target活动呈现报告的信息。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：19.6.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe Target Standard/Premium 19.5.1 (May 21, 2019) {#tgt-19-5-1}

@@ -9,7 +9,7 @@ title: 实施之前
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 >[!IMPORTANT]
 >
->Adobe客户关怀不支持对at. js或mbox. js的修改。
+>Adobe 客户关怀对 at.js 或 mbox.js 的修改将不提供支持。
 
 - [准备实施 Target](prepare-to-implement-target.md)
 - [隐私](c-privacy/privacy.md)

@@ -8,7 +8,7 @@ title: 自定义参数
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 1. 在 [!DNL Target] 界面中，单击 **[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
-1. 单击 **[!UICONTROL “添加规则]** ”&gt; **[!UICONTROL “自定义]**”。
+1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
 
    要选择所需的参数，请执行以下操作：
 

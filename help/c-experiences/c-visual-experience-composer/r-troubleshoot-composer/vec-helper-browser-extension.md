@@ -6,8 +6,8 @@ seo-title: Adobe Target 可视化体验编辑器 (VEC) 助手扩展
 solution: Target
 title: 可视化体验编辑器助手扩展
 topic: Standard
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ## 获取并安装 VEC 助手浏览器扩展
 
-1. 在 Chrome 网上应用商店中导航到 [Adobe Target VEC 助手浏览器扩展](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak)。
+1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. 单击[!UICONTROL 添加到 Chrome &gt; 添加扩展]。
 1. 要使用此扩展，请在处于 VEC 或 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)时，单击 Chrome 浏览器工具栏中的 VEC 助手浏览器扩展图标 (![VEC 助手图标](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。
 

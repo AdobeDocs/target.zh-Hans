@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -97,7 +97,7 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 仅支持单值。
 
-与推荐中显示的产品相关的消息，例如“打折”或“清仓”。消息通常比产品名称更详细。用于定义要在模板中随产品一起显示的附加信息。
+与推荐中显示的产品相关的消息，例如“打折”或“清仓”。消息通常比产品名称更详细。用于定义要在模板中随产品一起显示的附加信息。。
 
 示例: `'entity.message=Family&nbsp;special'`
 

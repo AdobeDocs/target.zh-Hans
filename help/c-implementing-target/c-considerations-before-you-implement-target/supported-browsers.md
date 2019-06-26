@@ -9,7 +9,7 @@ title: 支持的浏览器
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 | Windows | <ul><li>Microsoft Edge</li><li>Google Chrome（最新版本及其前一个版本）</li><li>Mozilla Firefox（最新版本及其前一个版本）</li></ul> |
 | Mac | <ul><li>Firefox（最新版本及其前一个版本）</li><li>Chrome（最新版本及其前一个版本）</li></ul> |
 
-## 内容交付 {#section_1045A946056441268D40025529918D3D}
+## Content delivery {#section_1045A946056441268D40025529918D3D}
 
 已在以下浏览器和设备上对内容交付进行了测试：
 

@@ -9,7 +9,7 @@ title: 将数据导入 Target 的方法
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * 如果要在后续页面/服务器调用中将数据用于定位，则需要将其转换为配置文件脚本。
 * 查询字符串只能包含符合 [Internet 工程任务组 (IETF) 标准](https://www.ietf.org/rfc/rfc3986.txt)的字符。
 
-   除了 IETF 站点上提到的那些字符之外，Target 还允许在查询字符串中使用以下字符：
+   除了IETF站点中提到的内容之外，Target还允许在查询字符串中使用以下字符：
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 

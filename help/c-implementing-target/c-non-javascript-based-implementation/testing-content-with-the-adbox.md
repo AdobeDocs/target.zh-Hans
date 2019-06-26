@@ -8,8 +8,8 @@ subtopic: 入门指南
 title: 为图像创建 Adbox
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -41,7 +41,7 @@ AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 
 
    * 其中，`http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` 是 mbox 的默认内容。该内容必须是图像。
 
-      这必须是进行了编码的 URL，且必须是绝对引用。您可以使用 [HTML URL 编码引用](https://www.w3schools.com/tags/ref_urlencode.asp)来快速对您的 URL 进行编码。
+      这必须是进行了编码的 URL，且必须是绝对引用。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
 
 
 1. 为每个替代图像创建[重定向选件](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。

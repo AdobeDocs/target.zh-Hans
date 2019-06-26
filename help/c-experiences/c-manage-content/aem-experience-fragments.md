@@ -8,7 +8,7 @@ title: AEM 体验片段
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -90,7 +90,7 @@ Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（
 
 2. 在显示的对话框中，选择[!UICONTROL 发布]以将体验片段中的所有资产发布到 [!DNL Target]。
 
-## 在Target活动中使用体验片段 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Using Experience Fragments in Target Activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 执行上述任务后，体验片段会显示在 Target 的“[!UICONTROL 选件]”页面中。
 

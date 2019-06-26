@@ -8,7 +8,7 @@ title: 在 Target 中构建受众
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,13 +27,13 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 您可以将两种布尔运算符混合使用来创建复杂的规则；但是，同一规则级别的运算符必须一致。用户界面会自动应用正确的运算符。
 
-例如，以下规则针对在Windows计算机上使用Chrome *或* Firefox的访客：
+For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
 
 ![创建受众](assets/audience_create.png)
 
 >[!NOTE]
 >
->务必要避免创建会将所有潜在受众成员都排除在外的规则。例如，某人无法同时使用Chrome *和* Firefox访问页面。
+>务必要避免创建会将所有潜在受众成员都排除在外的规则。For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
 
 ## 创建新受众
 

@@ -10,7 +10,7 @@ topic: 高级
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -27,17 +27,17 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
    ![“创建自动个性化活动”对话框](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   如果您希望使用基于表单的体验编辑器，请选择[!UICONTROL 表单]。有关更多信息，请参阅 [基于表单的Experience Composer](/help/c-experiences/form-experience-composer.md) 。
+   如果您希望使用基于表单的体验编辑器，请选择[!UICONTROL 表单]。See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
-   >除了CMS和基于表单的Experience Composer之外，Target还提供单页应用程序CMS和CMS for Mobile Apps。有关各种书写器的更多信息，请参阅 [体验和选件](/help/c-experiences/experiences.md)。
+   >除了CMS和基于表单的Experience Composer之外，Target还提供单页应用程序CMS和CMS for Mobile Apps。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >前面的插图中的 [!UICONTROL “选择工作场所] ”选项是 [Target Premium](/help/c-intro/intro.md) 功能。如果您看不到此选项，则您的组织有Target Standard许可证。]
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您看不到此选项，则您的组织有Target Standard许可证。]
 
-1. (视情况而定)如果您是Target Premium客户，请 [选择工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. 验证或输入活动 URL，然后单击 **[!UICONTROL 下一步]**。
 
@@ -64,7 +64,7 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
    | - | 减号 |
    | @ | @ 符号 |
 
-1. 如 [Visual Experience Composer选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)中所述修改页面元素。
+1. Modify page elements as explained in [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    您可以从资产管理器中一次选择多个图像。这使您能够快速查找包含为活动配置的每个图像的页面。您还可以轻松编辑选件中的文本元素。当您编辑某个元素时，该元素上会出现一个条块，指示您对它进行了更改。
 
@@ -90,7 +90,7 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
    ![批处理排除选项](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
 
-   您可以过滤此列表视图，只查看 **“状态”** 下拉列表中排除的或仅包括已包含的活动。
+   You can filter this list view to see only excluded or only included activities by clicking the **Status** drop-down list.
 
 1. （视情况而定）单击 **[!UICONTROL 选件]** 以选择内容片段并将其分配给报表组，或通过定位仅允许特定访客查看特定选件。
 
@@ -120,7 +120,7 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
    要编辑现有的排除组，请将鼠标悬停在要编辑的组上，然后单击铅笔图标。
 
-1. 完成活动的内容设置后，单击 **[!UICONTROL 完成]** 。
+1. Click **[!UICONTROL Done]** when you have finished setting up the content of your activity.
 
 1. 如果您使用过其他 Target 活动类型，那么 **定位** 步骤看起来会很熟悉。在此步骤中，您可以选择受众，并通过单击 **[!UICONTROL 自定义分配]** 下拉列表来指定将会看到控制体验的访客百分比，然后单击 **下一步**。
 
@@ -128,9 +128,12 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
    ![流量分配目标下拉列表](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **评估个性化算法 (50/50)：** 如果您的目标是测试算法，则可以在控制和目标算法之间按 50/50 的百分比拆分访客。这种拆分可让您对提升进行最精确的评估。
-   * **最大化个性化流量 (90/10)：** 如果您的目标是创建“一直开启”的活动，则可以在控制中放入 10% 的访客，以确保算法有足够的数据来不断学习。请注意，这里做出的权衡是，为了对更大一部分的流量进行个性化，提升度的准确性将会降低。
+   * **评估个性化算法 (50/50)：** 如果您的目标是测试算法，则可以在控制和目标算法之间按 50/50 的百分比拆分访客。这种拆分可让您对提升进行最精确的评估。建议将“随机体验”用作您的控件。
+   * **最大化个性化流量 (90/10)：** 如果您的目标是创建“一直开启”的活动，则可以在控制中放入 10% 的访客，以确保算法有足够的数据来不断学习。请注意，这里做出的权衡是，为了对更大一部分的流量进行个性化，提升度的准确性将会降低。无论您的目标如何，在使用特定体验作为控件时，这都是建议的流量分割。
    * **自定义分配：** 根据需要手动拆分百分比。
+
+1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
+
    控制体验通过比较来确定自动化测试所带来的提升量。
 
    自动个性化始终针对控制组来衡量性能。最佳做法是在控制组中至少放入 10% 的参加者。如果您的目标是测试针对所提供数据的个性化算法产生的效果是否优于非个性化（即随机提供控制），则实现此目标的最快、最准确的方式是在控制和个性化算法之间按 50/50 的百分比来拆分流量。如果您希望最大化个性化流量，并且您不太关心活动所产生的确切提升度，则实现此目标的最快、最准确的方式是在控制和个性化算法之间按 10/90 的百分比来拆分流量。
@@ -139,7 +142,7 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
    >
    >在自动个性化活动中，将评估每个请求的参加标准（URL 定位、模板规则和受众目标）。在以前的版本中，每个会话会评估一次参加标准。
 
-1. 单击 **[!UICONTROL 下一步]** 以显示 **[!UICONTROL “目标和设置]** ”页面。
+1. Click **[!UICONTROL Next]** to display the **[!UICONTROL Goals &amp; Settings]** page.
 1. 使用以下设置配置活动，然后单击 **[!UICONTROL 保存并关闭]**。
 
    | 设置 | 描述 |

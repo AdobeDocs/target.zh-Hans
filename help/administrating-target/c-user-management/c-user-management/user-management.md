@@ -9,7 +9,7 @@ title: 用户
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
    或
 
-   如果您已经登录到Experience Cloud，请转到 [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)，然后单击顶部导航栏中的 [!UICONTROL 应用] 程序图标&gt;单击 **[!UICONTROL 右侧的管理员]** 。
+   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
 
 1. （视情况而定）如果您可以访问多个组织的 [!DNL Admin Console for Enterprise]，请单击右上角或顶部导航栏中的用户头像，然后选择所需组织。
 
@@ -60,7 +60,7 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 您可以创建用户组（例如开发人员、分析师、营销人员、管理人员等），然后为其分配多个 Adobe 产品和工作区中的相应权限。为新团队成员分配不同 Adobe 产品中的所有相应权限的过程就像将他们添加到某个特定用户组一样简单。
 
-1. [In the Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), click **[!UICONTROL Users]** &gt; **[!UICONTROL User Groups]** to create new user groups or to edit existing groups.
+1. [在Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)中，单击 **[!UICONTROL “用户]** ”&gt; **[!UICONTROL “用户组]** ”，创建新用户组或编辑现有用户组。
 1. 按照《企业用户指南》**的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/enterprise/help/users.html)中的说明进行操作。
 
 ## 指定角色和权限 {#roles-permissions}
@@ -76,7 +76,7 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 1. 单击所需配置的名称。
 1. 单击 **[!UICONTROL 用户]**。
 
-   The [!UICONTROL Users] tab displays all of the users in that workspace.
+   [!UICONTROL “用户] ”选项卡显示该工作区中的所有用户。
 
    ![配置用户](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
@@ -94,8 +94,8 @@ source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 学习目标：
 
-* Access the Adobe Admin Console from the Adobe Target interface (three ways)
-* Configure a workspace in the Adobe Admin Console
+* 从Adobe Target界面访问Adobe Admin Console(三种方式)
+* 在Adobe Admin Console中配置工作区
    * 向工作区添加用户
    * 向工作区添加属性
 * 了解默认工作区

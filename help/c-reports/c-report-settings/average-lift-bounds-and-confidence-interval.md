@@ -8,7 +8,7 @@ title: 平均提升度、提升度范围和置信区间
 topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -40,7 +40,7 @@ Target 报表 UI 中的提升度信息包括以下各项：
 
 ![平均提升和置信度报告](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-## 如何计算提升度范围？ {#section_1D360781D972483693680BE0F07AEAD1}
+## 如何计算提升度范围？{#section_1D360781D972483693680BE0F07AEAD1}
 
 提升度范围表示特定体验或选件（相对于控制体验或选件而言）所具有的提升度的 95% 置信区间。笼统来说，这表示真实的提升度位于此范围内的概率为 95%。
 

@@ -8,8 +8,8 @@ subtopic: 多变量测试
 title: A4T 报表
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 在 Analytics 和 Target Standard/Premium 中，均可以查看活动的报表。
 
-要了解使用 Analytics for Target 的报表最佳实践，[请访问此 Adobe Spark 页面](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
+有关使用 Analytics for Target 进行报告的最佳做法，请[访问此 Adobe Spark 页面](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
 
 ## 概述 {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -45,7 +45,7 @@ Analytics 报表和 Target 报表衡量的都是参加者（参加测试的人�
 
 >[!NOTE]
 >
->Analytics 中还提供了 Target 提升度和置信度详细信息。有关更多信息，请参阅 Adobe Analytics 产品文档中的 [Target 提升度和置信度报表类型](https://marketing.adobe.com/resources/help/zh_CN/reference/report_target_lift_confidence.html)。
+>Analytics 中还提供了 Target 提升度和置信度详细信息。有关更多信息，请参阅 Adobe Analytics 产品文档中的 [Target 提升度和置信度报表类型](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html)。
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Analytics 报表和 Target 报表衡量的都是参加者（参加测试的人�
 
 您可以使用 [!DNL Adobe Analysis Workspace] 来深入挖掘和可视化数据，或揭示隐藏在表面下的洞察。
 
-有关详细信息和示例，请打开由 Adobe Experience League 提供的 [Analytics &amp; Target：Analysis 最佳实践教程](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
 ## 活动创建 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 

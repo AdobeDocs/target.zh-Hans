@@ -7,8 +7,8 @@ solution: Target
 title: 适用于响应式体验的移动设备视区
 topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -61,7 +61,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 | Samsung Galaxy Tab 10 | 800 宽 x 1280 高 | 800 宽 x 1280 高 |
 | Chromebook Pixel | 1280 宽 x 850 高 | 2560 宽 x 1700 高 |
 
-多个网站列出了常用设备的视区大小。例如，请参阅 [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) 或访问设备制造商的网页。
+多个网站列出了常用设备的视区大小。For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker&#39;s website.
 
 如果您想要将活动交付到某一特定设备上的用户，请在活动图中选择适合该设备的受众。使用移动设备 Web 编辑器可在该设备上编辑活动页面。如果您想要在整个数字体验中运行某个活动，并确保该活动在所有设备上都展现良好的外观，请不要应用定位，而是使用移动设备视区按各种屏幕大小预览该活动。
 
@@ -167,10 +167,10 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 * 预览和构建响应式网站的体验
 * 使用叠加高亮显示元素类型
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/17401?captions=chi_hans)
 
 ### Adobe Target 中的帐户首选项
 
 以下视频包含有关如何在帐户首选项中设置移动设备视区的信息，相关介绍开始于视频的 4:40。
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/17379?captions=chi_hans)

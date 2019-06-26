@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,9 +23,9 @@ source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
 
 您最多可以包含 100 个自定义实体属性，来对目录中的项目定义其他相关信息。例如，您可以创建一个名为 `entity.genre` 的自定义属性，用来定义一本书籍或一部电影。或者，票务供应商可以为活动场地创建属性以包括辅助表演，例如体育赛事中的客队或音乐会上的开场表演。
 
-单个值实体自定义属性的最大长度是15,000个字符(对于一个编码的、编码的语言，如英语和其他拉丁语脚本语言)或10,000个字符(对于三字节UTF-8编码语言，如中文、日语和朝鲜语)。
+单值实体自定义属性的最大长度为 15,000 个字符（对于单字节和双字节 UTF-8 编码语言，例如英语和其他拉丁文字字母）或 10,000 字符（对于三字节 UTF-8 编码语言，例如中文、日语和韩语）。
 
-多值实体自定义属性不能包含超过500个值。每个单独的值仅限于100个字符。所有值中的字符总数必须符合单个值实体自定义属性的最大长度限制(请参阅上文)。
+多值实体自定义属性最多可以包含 500 个值。每个值的限制为 100 个字符。所有值的字符总数必须符合单值实体自定义属性的最大长度限制（请参阅上文）。
 
 ## 自定义实体属性值 {#section_313331A9F8194A89B5EDD89363018651}
 
@@ -62,7 +62,7 @@ entity.genre=[“genre1”, “genre2”]
 
 **限制**：
 
-* 您无法将预定义实体属性的名称用于自定义实体属性。(请参阅 [实体属性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)。)
+* 您无法将预定义实体属性的名称用于自定义实体属性。（请参阅[实体属性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)。）
 * `entity.environment` 属性由系统保留，该属性不能用于自定义实体属性。尝试使用 `entity.environment`、信息源或 API 来传递 `targetPageParams` 的操作将会被忽略。
 * 数组必须包含单值类型。不支持混合值数组 ( `["AB",1,true]` )。
 * 包含嵌套 JSON 数组 ( `[10,12,[1,2,3]]` ) 的多值属性会被视为单值属性。
@@ -115,7 +115,8 @@ function targetPageParams() {
 
 **使用 API**
 
-有关使用交付和保存实体API的信息，请参阅 [Adobe Recommendations API文档](http://developers.adobetarget.com/api/recommendations) 。
+See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
+using the Delivery and Save entities APIs.
 
 ## 将运算符与多值属性配合使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

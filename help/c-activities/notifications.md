@@ -8,7 +8,7 @@ title: 活动通知
 topic: Standard
 uuid: eb9b8657-1c8e-4eba-8f6d-612944f917f3
 translation-type: tm+mt
-source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 如果用户的 [!DNL Experience Cloud] 中包含 [!DNL Target Standard/Premium] 产品，则用户可以在所有解决方案中查看来自 [!DNL Target] 的通知。
 
-有关设置通知的信息，请参阅 [文档](https://marketing.adobe.com/resources/help/en_US/mcloud/notifications.html) 中的 [!DNL Adobe Experience Cloud] 通知。
+For information about setting up Notifications, see [Notifications](https://marketing.adobe.com/resources/help/en_US/mcloud/notifications.html) in the [!DNL Adobe Experience Cloud] documentation.
 
 可在 [!DNL Target] 中的任意位置（活动创建工作流除外）访问通知。单击页面标题中的铃铛图标可显示或隐藏通知 Widget。
 

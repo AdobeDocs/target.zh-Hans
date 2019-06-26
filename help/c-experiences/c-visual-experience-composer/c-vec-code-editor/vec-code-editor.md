@@ -8,8 +8,8 @@ subtopic: 代码编辑器
 title: 修改
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -258,4 +258,4 @@ Target 将值为“CDQID”的新元素 ID 应用于由 Target 修改的页面�
 
 **自定义代码无法在 Internet Explorer 8 中生成预期结果。**
 
-Target 不再支持 IE8。
+Target 不再支持 IE8

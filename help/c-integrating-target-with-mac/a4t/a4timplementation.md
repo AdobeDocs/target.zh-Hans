@@ -8,7 +8,7 @@ title: Analytics for Target 实施
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: dd23c58ce77a16d620498afb780dae67b1e9e7f7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -77,7 +77,7 @@ src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 
 现成设置为Target和Analytics集成配置的方式是使用从页面中传递的SSID来将Target和Analytics请求整合在一起，自动为您自动完成后端请求。
 
-但是，如果您希望更多地控制如何和何时将与Target相关的分析数据发送到Analytics进行报告以进行报告，并且您不想选择使用SSID自动缝合分析数据，则您可以通过窗口的sID设置 **AnalyticalLinkLinking= client_ side******。注意：2.1以下的任何版本不支持此方法。
+However, if you want more control on how and when to send analytics data related to Target to Analytics for reporting purposes, and you do not want to opt-in to the default settings of having Target and Analytics automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. 注意：2.1以下的任何版本不支持此方法。
 
 例如：
 
@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-此设置产生全局效果，这意味着，由at. js发出的每个调用都将具有 **AnalyticElectring：“client_ side”** 发送到Target请求中，并将为每个请求返回一个分析有效负荷。设置此设置后，返回的有效负荷格式如下所示：
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. 设置此设置后，返回的有效负荷格式如下所示：
 
 ```
 "analytics": {
@@ -98,9 +98,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-然后，可以通过 [数据插入API将有效负荷转发给Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-如果不需要全局设置并且更好地使用点播方法，则可以使用at. js函数 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 通过 **传入AnalyticElliging实现这一点：“client_ side”**。分析有效负荷将仅返回此调用，Target后端将不会转发到Analytics。通过采用此方法，每个at. js Target请求均不会默认返回有效负荷，但仅在需要和指定时才会返回。
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. 分析有效负荷将仅返回此调用，Target后端将不会转发到Analytics。通过采用此方法，每个at. js Target请求均不会默认返回有效负荷，但仅在需要和指定时才会返回。
 
 例如：
 
@@ -156,7 +156,7 @@ adobe.target.getOffers({
 }
 ```
 
-然后，可以通过 [数据插入API将有效负荷转发给Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## 步骤 8：验证实施 {#step8}
 

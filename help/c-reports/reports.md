@@ -1,7 +1,7 @@
 ---
 description: 报表提供了有关活动性能的信息。
 keywords: 报表;阻止 IP 地址;阻止来自某些 IP 地址的访客;下载报表;CSV
-seo-description: 报告提供有关活动性能的信息
+seo-description: 报表提供了有关活动性能的信息
 seo-title: 报表
 solution: Target
 subtopic: 多变量测试
@@ -9,7 +9,7 @@ title: 报表
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
    例如，您可以从“[!UICONTROL 类型]”下拉列表中选择“[!UICONTROL A/B 测试]”和“[!UICONTROL 体验定位]”，并从“[!UICONTROL 状态]”下拉列表中选择“[!UICONTROL 实时]”，以仅显示处于活跃状态的 A/B 测试活动和体验定位活动。
 
-   下图显示了“[!UICONTROL 类型]”下拉列表，其中选定了两个类型：A/B测试和体验定位。请注意，默认情况下会选择三种类型的A/B测试(手动、 [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和 [自动目标](/help/c-activities/auto-target-to-optimize.md))。您可以根据需要取消选择一种或多种类型。
+   下图显示了“[!UICONTROL 类型]”下拉列表，其中选定了两个类型：A/B测试和体验定位。Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. 您可以根据需要取消选择一种或多种类型。
 
    ![按类型过滤报告](/help/c-reports/assets/report_filters-new.png)
 

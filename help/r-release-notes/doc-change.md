@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -16,6 +16,23 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 # 文档更改{#documentation-changes}
 
 此页面列出了对 [!DNL Adobe Target] 文档所做的重要更改。
+
+## Adobe Target Standard/Premium 19.6.1（2019 年 6 月 26 日）{#tgt-19-6-1}
+
+| 页面 | 主题 | 更改 |
+| --- | --- | --- |
+| 2019年月26日 | [视觉体验选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
+|  | [单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
+|  | [点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
+|  | [单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | 新部分：“SPA CMS的页面交付设置”。 |
+|  | [为自动个性化或自动定位活动选择控制权](/help/c-activities/t-automated-personalization/experience-as-control.md) | 新主题。 |
+|  | [Google Chrome SameSite Cookie策略](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | 新主题。 |
+|  | [为 Target 个性化算法收集数据](/help/c-activities/t-automated-personalization/ap-data.md) | 添加了新表格以解释单独的attibues并给出示例。 |
+|  | [自动化人物常见问题解答](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 新增了常见问题解答：“我能否指定要用作控制的特定体验？”<br>编辑了以下常见问题解答：“设置自动个性化活动的最佳实践是什么？” |
+|  | [Auto-Target（自动定位）](/help/c-activities/auto-target-to-optimize.md) | 添加了有关指定要用作控件的特定体验的信息和常见问题解答。<br>更新了“确定流量分配”部分。 |
+|  | [创建自动个性化活动](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 添加了包含信息的步骤，以选择特定的体验作为默认体验。 |
+|  | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 添加了有关如何管理多个移动应用程序版本的信息。 |
+|  | [发行说明](/help/r-release-notes/release-notes.md)：19.6.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe Target Standard/Premium 19.5.1 (May 21, 2019) {#tgt-19-5-1}
 

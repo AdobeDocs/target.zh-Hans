@@ -8,7 +8,7 @@ title: Target 简介
 topic: 高级
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -75,7 +75,7 @@ Target Premium 包含以下高级功能：
 
 ### “推荐”作为选件
 
-[推荐作为选件](/help/c-recommendations/recommendations-as-an-offer.md) 允许您在 [!UICONTROL A/B测试] (包括 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位])和 [!UICONTROL 体验定位] (XT)活动中包含推荐。
+通过[“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md)，您可以将推荐包含在 [!UICONTROL A/B 测试]（包括[!UICONTROL 自动分配]和[!UICONTROL 自动定位]）和[!UICONTROL 体验活动] (XT) 活动中。
 
 此功能提供了几项全新的功能，例如：
 
@@ -94,7 +94,7 @@ Target Premium 包含以下高级功能：
 
 有关更多信息，请参阅 [Recommendations Classic 文档](../assets/adobe-recommendations-classic.pdf)。
 
-## Experience League：Adobe Target欢迎套件 {#kit}
+## Experience League: The Adobe Target Welcome Kit {#kit}
 
 借助此欢迎套件，在Adobe Target上构建优化和个性化计划！它包含重要的信息、工具和资源，可帮助您准备和启动第一个Adobe Target活动，并通过短期快速赢得和长期优化战略进行准备。
 
@@ -108,4 +108,4 @@ Target Premium 包含以下高级功能：
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=chi_hans)

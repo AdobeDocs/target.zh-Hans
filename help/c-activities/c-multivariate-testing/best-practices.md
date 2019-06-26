@@ -8,14 +8,14 @@ title: 多变量测试最佳实践
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 多变量测试最佳实践{#multivariate-test-best-practices}
 
-帮助您提高性能、避免问题以及纠正在创建和运行多变量测试(MVT)活动时可能发生的已知问题的提示 [!DNL Adobe Target]。
+Tips to help you improve performance, avoid issues, and correct known issues that might occur when creating and running Multivariate Test (MVT) activities in [!DNL Adobe Target].
 
 ## 规划 {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -40,21 +40,21 @@ source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
    在上线之前，需检查测试生成的所有体验。请确保不存在任何包含冲突声明的组合（例如在同一体验中同时显示 8 折优惠和立减 19 美元的优惠信息）或不兼容的设计（例如背景颜色与字体颜色相同）。
 
-* 使用 [流量估计器](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) 确保测试针对页面接收的流量量。
+* Use the [Traffic Estimator](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) to make sure that your test is designed for the amount of traffic your page receives.
 
    请确保流量估算器为您的测试配置显示绿色指示灯，这样您才能获得所需的结果。
 * 建议每个元素的替代项之间存在显著的不同。
 
 ## 分析 {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* 频繁使用 [位置贡献报告](/help/c-reports/location-contribution-report.md) ，监控每个位置和每个选件的绩效。
-* 在 [体验性能报告](/help/c-reports/experience-performance-report.md)中，根据使用最佳5和最差过滤器显示的数据做出决策。
+* Make frequent use of the [Location Contribution report](/help/c-reports/location-contribution-report.md) to monitor the performance of each location and each offer.
+* In the [Experience Performance report](/help/c-reports/experience-performance-report.md), base your decisions on the data shown using the Best 5 and Worst 5 filters.
 
-   [!UICONTROL “全部] ”滤镜使提取所需信息变得很困难，而并非所有体验都可以显示在图形中。如果要查看的特定体验不以最佳或最差为单位，请使用 [!UICONTROL “全部] ”过滤器。
+   [!UICONTROL “全部] ”滤镜使提取所需信息变得很困难，而并非所有体验都可以显示在图形中。Use the [!UICONTROL All] filter if you want to look at a specific experience that is not in the best or worst five.
 
 ## 其他信息 {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* 尽管 [!DNL Target] 允许您编辑实时活动，但请注意，编辑正在进行的活动可能重置测试。因此，报表可能无法识别某些更改。只有在选件库中更改 HTML 选件才是安全的。
+* Although [!DNL Target] allows you to edit a live activity, be aware that editing an activity that is in progress could reset the test. 因此，报表可能无法识别某些更改。只有在选件库中更改 HTML 选件才是安全的。
 
    可重置体验名称和报表的具体操作包括：
 

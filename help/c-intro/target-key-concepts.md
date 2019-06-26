@@ -9,7 +9,7 @@ title: Target 关键概念
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,18 +26,18 @@ source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 设计活动时，您应该仔细规划。首先要确定活动的开始时间及其持续时长。然后，列出您的选件并为每个选件分配一组目标顾客。
 
-Target包括多种活动类型。下表提供了每个活动类型的概述，其中包含可帮助您了解详情的链接。为了帮助您更好地选择最适合您的目的的活动类型，我们还创建了“ [Adobe Target活动指南](/help/c-activities/target-activities-guide.md)”。
+Target 包括多种活动类型。下表提供了每种活动类型的概述，其中包含可帮助您了解更多信息的链接。为了帮助您更好地选择符合要求的最佳活动类型，我们还创建了 [Adobe Target 活动指南](/help/c-activities/target-activities-guide.md)。
 
 | 活动类型 | 描述 |
 |--- |--- |
-| [A/B 测试](/help/c-activities/t-test-ab/test-ab.md) | A/B 测试可比较两个或更多版本的网站内容，以查看在预先指定的测试期间，哪个版本最能提高转化。<br>**注意：** 您现在可以在A/B测试活动中包含 [推荐](/help/c-recommendations/recommendations-as-an-offer.md)。此功能要求您拥有 [Target Premium许可证](/help/c-intro/intro.md#premium)。 |
-| [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。<br>**注意：** 您现在可以在自动分配活动中包含 [推荐](/help/c-recommendations/recommendations-as-an-offer.md)。此功能要求您拥有 [Target Premium许可证](/help/c-intro/intro.md#premium)。 |
-| [Auto-Target](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行识别，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。<br>**注意：** 您现在可以在自动Target活动中包含 [推荐](/help/c-recommendations/recommendations-as-an-offer.md)。此功能要求您拥有 [Target Premium许可证](/help/c-intro/intro.md#premium)。 |
-| [使用Analytics数据](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | 您可以将活动配置为使用 [!DNL Adobe Analytics] 作为报表源。此活动类型要求您将 [!DNL Adobe Experience Cloud] 帐户与 [!DNL Analytics] 和 [!DNL Target] 均关联。 |
+| [A/B 测试](/help/c-activities/t-test-ab/test-ab.md) | A/B 测试可比较两个或更多版本的网站内容，以查看在预先指定的测试期间，哪个版本最能提高转化。<br>**注意：** 现在，您可以[在 A/B 测试活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
+| [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。<br>**注意：** 现在，您可以[在自动分配活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
+| [自动定位](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行识别，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。<br>**注意：** 现在，您可以[在自动定位活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
+| [使用 Analytics 数据](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | 您可以将活动配置为使用 [!DNL Adobe Analytics] 作为报表源。此活动类型要求您将 [!DNL Adobe Experience Cloud] 帐户与 [!DNL Analytics] 和 [!DNL Target] 均关联。 |
 | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 多变量测试 (MVT) 可通过比较页面上各元素中的选件组合，来确定哪个组合对特定受众的效果最佳，以及哪个元素对活动成功的影响最大。 |
-| [体验定位](/help/c-activities/t-experience-target/experience-target.md) | 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。<br>**注意：** 您现在可以在体验定位活动中包含 [推荐](/help/c-recommendations/recommendations-as-an-offer.md)。此功能要求您拥有 [Target Premium许可证](/help/c-intro/intro.md#premium)。 |
-| [自动化PersonalizationTarget](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Premium](/help/assets/premium.png) | 自动个性化 (AP) 可将各种选件或消息进行组合，并且使用先进的机器学习技术，根据每位访客的个人客户配置文件将不同的变体与其匹配，以便个性化内容并促进转化。 |
-| [RecommendationStarget](/help/c-recommendations/recommendations.md)<br>![Premium](/help/assets/premium.png) | 推荐可根据网站用户在网站上的活动来确定向该用户推广产品的方式。<br>例如，您可能想要鼓励购买了背包的人也考虑购买登山鞋和登山杖。在这种情况下，您可以使用“购买了这个项目，也购买了那个项目的人”算法，创建一个推荐来显示通常一起购买的项目。或者，您可能想要鼓励访客在您的媒体网站上停留更长的时间，为此，您可以使用“查看了这个项目，也查看了那个项目的人”算法，向访客推荐与其正在观看的视频相似的视频。<br>**注意：** 您现在可以在A/B测试中包括推荐(包括自动分配和自动定位)和体验定位(XT)活动。请参阅 [推荐作为选件](/help/c-recommendations/recommendations-as-an-offer.md)。 |
+| [体验定位](/help/c-activities/t-experience-target/experience-target.md) | 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。<br>**注意：** 现在，您可以[在体验定位活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
+| [自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | 自动个性化 (AP) 可将各种选件或消息进行组合，并且使用先进的机器学习技术，根据每位访客的个人客户配置文件将不同的变体与其匹配，以便个性化内容并促进转化。 |
+| [推荐](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png) | 推荐可根据网站用户在网站上的活动来确定向该用户推广产品的方式。<br>例如，您可能想要鼓励购买了背包的人也考虑购买登山鞋和登山杖。在这种情况下，您可以使用“购买了这个项目，也购买了那个项目的人”算法，创建一个推荐来显示通常一起购买的项目。或者，您可能想要鼓励访客在您的媒体网站上停留更长的时间，为此，您可以使用“查看了这个项目，也查看了那个项目的人”算法，向访客推荐与其正在观看的视频相似的视频。<br>**注意：** 现在，您可以在 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中包含推荐。请参阅[“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md)。 |
 
 ## 位置 {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -84,7 +84,7 @@ Target包括多种活动类型。下表提供了每个活动类型的概述，�
 
 例如，根据访客之前是否访问过您的网站，网页可能会显示两个选件中的其中一个选件。
 
-an *体验*可决定满足特定条件时所显示的内容。
+An *体验*可决定满足特定条件时所显示的内容。
 
 ## 受众{#section_3F32DA46BDF947878DD79DBB97040D01}
 

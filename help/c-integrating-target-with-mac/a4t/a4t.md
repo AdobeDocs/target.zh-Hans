@@ -8,8 +8,8 @@ subtopic: 多变量测试
 title: 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -30,7 +30,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 
 >[!IMPORTANT]
 >
->在开始使用 A4T 之前，您需要请求对您的帐户进行配置，以便使用该集成。使用[此表单](https://www.adobe.com/go/audiences_cn)可请求进行配置。
+>在开始使用 A4T 之前，您需要请求对您的帐户进行配置，以便使用该集成。可使用[此表单](https://www.adobe.com/go/audiences)提交配置请求。
 >
 >可启用 Adobe Analytics 作为 Adobe Target 数据源 (A4T) 的集成代表了新一代 Test&amp;Target 与 SiteCatalyst 集成插件。虽然此插件已被弃用，但已使用它的客户仍可获得支持。
 
@@ -65,13 +65,13 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 | 体验定位 (XT) | 是 |  |
 | 多变量测试 (MVT) | 是 | 需要基于 mbox 的目标量度来获取元素贡献报表。元素贡献报表目前不支持 Analytics 量度。 |
 | 自动个性化 (AP) 活动 | 否 |  |
-| 推荐 activity（活动） | 是 |  |
-| 移动设备应用程序 | 是 | 在 Mobile Services SDK 版本 4.13.1 或更高版本中受支持。有关更多信息，请参阅 [Mobile Services 文档](https://marketing.adobe.com/resources/help/zh_CN/mobile/)。 |
+| “推荐”活动 | 是 |  |
+| 移动设备应用程序 | 是 | 在 Mobile Services SDK 版本 4.13.1 或更高版本中受支持。有关更多信息，请参阅 [Mobile Services 文档](https://marketing.adobe.com/resources/help/en_US/mobile/)。 |
 | 电子邮件 | 否 |  |
 | 服务器端交付 API | 是 | 有关更多信息，请参阅[服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
 | NodeJS SDK | 是 | 有关更多信息，请参阅[服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
 | AEM 6.1（或更低版本）云服务集成 | 否 |  |
-| AEM 6.2（或更高版本）云服务集成 | 是 | 有关更多信息，请参阅 Adobe Experience Manager 6.2 文档中的[与 Adobe Target 集成](https://helpx.adobe.com/cn/experience-manager/6-2/sites/administering/using/target.html)。 |
+| AEM 6.2（或更高版本）云服务集成 | 是 | 有关更多信息，请参阅 Adobe Experience Manager 6.2 文档中的[与 Adobe Target 集成](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)。 |
 | 任何使用重定向选件的活动 | 是 | 要将重定向选件与 A4T 配合使用，需满足一些较为严格的最低要求。有关更多信息，请参阅[重定向选件 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。 |
 | Node.JS | 是 |  |
 
@@ -103,7 +103,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 
 ## Analytics 与 Target：分析最佳实践教程 {#section_3438E6E77A464424B717A4FD333B84B2}
 
-打开由 Adobe Experience League 提供的 [Analytics &amp; Target：Analysis 最佳实践](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教程。
+打开由 Adobe Experience League 提供的 [Analytics 与 Target：分析最佳实践](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教程。
 
 ## 培训视频：
 
@@ -117,7 +117,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 * 介绍 A4T 的工作原理
 * 了解使用 A4T 之前需要满足的先决条件
 
->[!VIDEO](https://video.tv.adobe.com/v/17384)
+>[!VIDEO](https://video.tv.adobe.com/v/17384?captions=chi_hans)
 
 ### Analytics 与 Target 集成 (A4T) (40:33)
 
@@ -128,4 +128,4 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 * 了解要在 Analytics 中使用的理想报表
 * 关于 A4T 的常见问题解答
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/)
+>[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=chi_hans)

@@ -7,8 +7,8 @@ solution: Target
 title: 查看报表 - A4T 常见问题解答
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 对于“活动”报表，管理员可以更改默认量度，这样每次运行报表时都会显示相同的量度。否则，报表会将您在上一个报表中应用的最后一个量度作为默认量度。
 
-有关更多信息，请参阅 *Reports &amp; Analytics 界面帮助*指南中的[选择默认报表量度](https://marketing.adobe.com/resources/help/zh_CN/sc/user/t_metrics_set_default.html)。
+有关更多信息，请参阅《报表和 Analytics 界面帮助》**指南中的[选择默认报表量度](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html)。
 
 ## 何时将区段应用于报表，以及何时将区段应用于量度（包含计算量度）？{#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -110,13 +110,13 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 因为这两个体验都是在转化之前查看的，所以它们都获得了该订单的“点数”。但在系统中只产生了一个订单，所以点数的总计值反映了这一点。对于 Target 报表，由于您没有将 Target 活动相互进行比较以查看哪个活动更成功，因此不用担心用户查看的所有活动都获得点数。因为您比较的是一个活动中的两个项目所得到的结果，而用户不可能在同一活动中看到不同的体验，因此您不必顾虑订单点数会造成相互之间的混淆。
 
-有关更多信息，请参阅“Analytics 帮助”中的[转化变量 (eVar)](https://marketing.adobe.com/resources/help/zh_CN/reference/conversion_var_admin.html)。
+有关详细信息，请参阅 Analytics 帮助中的[转化变量 (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html)。
 
 ## 为什么 Analytics 和 Analytics for Target (A4T) 在计算“独特访客”量度时得到的数字不同？{#section_0C3B648AB54041F9A2AA839D51791883}
 
 当您运行的 A/B 测试使用“学生 t 检验”（置信度量度）来选择测试的入选者时，其假设之一是存在固定的时间范围。因此，除非您查看的是固定样本量，否则该测试不具有统计意义。
 
-只有当您查看的时间段比实际测试时间短时，Analytics 和 Target 中的“独特访客”量度才会有所不同。如果您未达到样本量，则测试并不可靠。有关更多信息，请参阅 [Evan Miller 的网站](https://www.evanmiller.org/index.html)上的[如何不运行 A/B 测试](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
+只有当您查看的时间段比实际测试时间短时，Analytics 和 Target 中的“独特访客”量度才会有所不同。如果您未达到样本量，则测试并不可靠。有关详细信息，请参阅 [Evan Miller 的网站](https://www.evanmiller.org/index.html)上的[如何正确运行 A/B 测试](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
 
 “独特访客”量度显示的是在指定时间段内，访问过该网站且接触过该测试的人数。这些人仍是测试的一部分，应计入在内。如果您只想查看一周内接触过该测试的人数，则可以创建一个具有活动展示次数的访客区段并将其应用于报表。
 
@@ -144,4 +144,4 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 您可以使用 [!DNL Adobe Analysis Workspace] 来深入挖掘并可视化数据，或揭示表面下隐藏的洞察。
 
-有关详细信息和示例，请打开由 Adobe Experience League 提供的 [Analytics &amp; Target：Analysis 最佳实践教程](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.

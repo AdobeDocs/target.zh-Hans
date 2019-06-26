@@ -7,7 +7,7 @@ solution: Target,Analytics
 title: 管理排除项
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 通过创建排除组、排除重复的选件、排除特定体验以及排除自动个性化(AP)活动中的默认内容来管理排除。
 
-## 创建排除组 {#task_AAAA6C7239A84F7696C8492F04B575A2}
+## Create exclusion groups {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
 可在自动个性化 (AP) 活动中创建排除组，以确保自动排除具有指定选件的体验。
 
 排除组是一种非常有用的方法，可确保不同位置的相同体验中不会出现不兼容的选件。例如，假设您有两个选件：一个选件是所有商品八折优惠，而另一个选件是所有商品八五折优惠。您一定不希望在同一个体验中同时向访客显示这两个选件。如果您将这两个选件添加到一个排除组，便可以确保永远不会出现这种情况。
 
-您还可以限制哪些受众可以在AP活动中查看特定优惠。有关更多信息，请参阅 [Target自动个性化提供](/help/c-activities/t-automated-personalization/ap-target-offers.md)。
+您还可以限制哪些受众可以在AP活动中查看特定优惠。For more information, see [Target Automated Personalization offers](/help/c-activities/t-automated-personalization/ap-target-offers.md).
 
 **创建排除组：**
 
@@ -52,7 +52,7 @@ source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 之后，排除组中的选件将自动从相同的体验中排除。
 
-## 排除重复的选件 {#concept_4EF78013F80E48EFA024AE0274C9F037}
+## Exclude duplicate offers {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
 在[!UICONTROL 自动个性化]活动的不同位置中使用来自选件库的选件时，应防止选件出现重复。
 
@@ -62,7 +62,7 @@ source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 ![选件选项重复](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
-## 排除特定体验 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
+## Exclude specific experiences {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
 如果您想要从自动个性化活动中排除某些选件组合，则可以排除特定的体验。
 
@@ -80,7 +80,7 @@ source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
    ![通过悬停排除体验](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   或者，您可以通过为相关体验选中复选框，然后单击对话框右上角的 **[“UICONTROL排除]** ”图标，来批量排除/包含体验。选中一个或多个体验后，将显示 [!UICONTROL “排除] ”图标。
+   Or you can batch exclude/include experiences by selecting the checkbox for the relevant experiences and then clicking the **[UICONTROL Exclude]** icon in the top right corner of the dialog box. The [!UICONTROL Exclude] icon appears when one or more experiences are checked.
 
    ![批量排除体验](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
@@ -90,7 +90,7 @@ source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
    ![排除的体验](/help/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
 
-## 排除默认内容 {#task_DCB4528989DF4C05A3A4729E5891D18F}
+## Exclude default content {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
 在某些情况下，您可能不希望将默认内容包含在自动个性化活动中。访问此设置的方式不同于创建排除组。您可以使用此方法在AP活动的一部分中仅有一个选件(不同于默认内容)。
 

@@ -9,16 +9,16 @@ title: Adobe Target 的工作原理
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Adobe Target 的工作原理{#how-adobe-target-works}
 
-有关Adobe Target如何工作的信息，包括Target JavaScript库(at. js和mbox. js)以及Target中包含的各种活动类型的相关信息。
+有关 Adobe Target 工作方式的信息，其中包括有关 Target JavaScript（at.js 和 mbox.js）以及 Target 中所包含的各种活动类型的信息。
 
-## Target JavaScript库 {#libraries}
+## Target JavaScript 库 {#libraries}
 
 Adobe Target 可通过两个 JavaScript 库中的任意一个与网站集成：at.js 或 mbox.js
 
@@ -27,7 +27,7 @@ Adobe Target 可通过两个 JavaScript 库中的任意一个与网站集成：a
 
 >[!IMPORTANT]
 >
->因此，所有客户都应迁移到 at.js。有关更多信息，请参阅 [从 mbox.js 迁移到 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
+>因此，所有客户都应迁移到 at.js。For more information, see [Migrate to at.js from mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
 您必须在网站的每个页面上引用一个 Target JavaScript 文件。例如，您可以将此文件添加到全局标头。
 
@@ -108,7 +108,7 @@ Adobe Target 可通过两个 JavaScript 库中的任意一个与网站集成：a
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 当前在中国没有Edge网络，并且在中国 [!DNL Target] 客户的最终用户性能将继续受到限制。由于防火墙中的“防火长城”和缺少边缘节点的问题，部署的 [!DNL Target] 站点体验将会缓慢呈现，并且页面加载会受到影响。此外， [!DNL Target] 用户界面可能还会遇到滞后情况。
+>[!DNL Adobe Target] 当前在中国没有Edge网络，并且在中国 [!DNL Target] 客户的最终用户性能将继续受到限制。Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, the [!DNL Target] user interface might also experience latency.
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

@@ -8,8 +8,8 @@ subtopic: 代码编辑器
 title: 体验模板
 topic: Standard
 uuid: 4344996f-6729-41c0-98dd-be5fcef1df85
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 

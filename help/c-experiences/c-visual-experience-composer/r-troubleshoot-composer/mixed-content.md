@@ -7,8 +7,8 @@ solution: Target
 title: 在浏览器中启用混合内容
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 >
 >允许混合内容仅会对 VEC 造成影响，而不会影响您已上线的网站。
 
-有关更多信息，请参阅 *Mozilla 开发人员网络* (MDN) 网站上的[混合内容](https://developer.mozilla.org/zh-CN/docs/Web/Security/Mixed_content)。
+有关更多信息，请参阅“Mozilla 开发人员网络”**(MDN) 网站上的[混合内容](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content)。
 
 ## 在 Firefox 中启用混合内容 {#task_5448763B8DC941FD80F84041AEF0A14D}
 
@@ -83,4 +83,4 @@ target/t_mixed_content_chrome.xml
 
  -->
 
-请参阅 Google Chrome 帮助中的[此页面包含不安全的内容](https://support.google.com/chrome/answer/1342714?hl=zh)。
+请参阅 Google Chrome 帮助中的[此页面包含不安全的内容](https://support.google.com/chrome/answer/1342714?hl=en)。

@@ -7,7 +7,7 @@ solution: Target
 title: 添加体验
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -39,11 +39,11 @@ Visual Experience Composer(CMS)提供可视界面，可用于添加和编辑页�
    >
    >如果您交付的图像来自主页以外的其他来源（例如将一个在 akamai.net 上托管的图像交付到 dell.com），则该图像不会出现在流程图中显示的页面缩览图中。
 
-1. 完成设计体验后，单击 **[!UICONTROL 保存]** 。
+1. Click **[!UICONTROL Save]** when you are finished designing the experience.
 
 ## 重命名体验
 
-在A/B [!UICONTROL 测试或体验定位(XT)活动中单击体验的重命名体验] 图标，为体验提供一个新名称。
+Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or Experience Targeting (XT) activity to give the experience a new name.
 
 ![重命名体验](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,9 +62,9 @@ Visual Experience Composer(CMS)提供可视界面，可用于添加和编辑页�
 
 ## 重新定向到 URL
 
-单击A/B测试或体验定位(XT)活动中的体验中的更多(垂直椭圆)图标，然后单击 [!UICONTROL 重定向到URL]。
+Click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity, then click [!UICONTROL Redirect to URL].
 
-有关详细信息，请参阅 [重定向到URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md)。
+For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
 **注意**：在您命名或重命名体验时，不允许使用以下字符：
 

@@ -7,7 +7,7 @@ solution: Target
 title: 流量源
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 创建受众以根据搜索引擎或引用网站的登陆页面定位访客。
 
-例如，您可以根据访客的浏览器、搜索引擎或引荐登陆页面来确定目标。引用登陆页面是访客单击以进入此会话的页面。(例如，如果访客单击Google上的广告，它将他或她引导到主页 `adobe.com` ，那么引用登陆页面就是 `google.com`。)
+例如，您可以根据访客的浏览器、搜索引擎或引荐登陆页面来确定目标。引用登陆页面是访客单击以进入此会话的页面。(For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
 
 您可以组合多个流量源来创建一个复杂的目标规则。
 

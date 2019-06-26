@@ -6,8 +6,8 @@ seo-title: 结合使用基于云的实例和 Target
 solution: Target
 title: 结合使用基于云的实例和 Target
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 `azurewebsites.net`、`cloudapp.net`、`amazonaws.com`、`cloudfront.net`、`herokuapp.com` 或 `firebaseapp.com`
 
-这些域以及许多其他域均包含在[公共后缀列表](https://publicsuffix.org/list/public_suffix_list.dat)中。
+这些域以及其他许多域均是[公共后缀列表](https://publicsuffix.org/list/public_suffix_list.dat)的一部分。
 
 **问题：** 如果您使用这些域，新式浏览器不会保存 Cookie。
 

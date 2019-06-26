@@ -8,7 +8,7 @@ title: 已知问题和已解决的问题
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -24,6 +24,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ## 已知问题 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 下面部分列出了 [!DNL Target] 的已知问题：
+
+### 使用自定义体验作为控件时，自动Target活动的图形报告无法呈现
+
+如果任何体验中没有数据(次访问)，则自动Target活动的图形报告无法呈现为“不同”模式(平均提升和每日提升)。如果将控制体验设置为自定义，则在活动的早期阶段可能会发生这种情况。对于其他模式(运行平均控制和目标、每日控制和目标以及访问)，它可以正常工作。一旦有一些数据(非零访问)，报表就会按预期呈现。
 
 ### 在 VEC 中取消页面加载 {#cancel}
 

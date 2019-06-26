@@ -10,7 +10,7 @@ topic: Premium
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 badge: premium
 translation-type: tm+mt
-source-git-commit: adee2d9d7133ece881e2966fed4b0f734890f8af
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: adee2d9d7133ece881e2966fed4b0f734890f8af
 
    如果不设置开始日期，促销活动将立即开始。如果不设置结束日期，促销活动将无限期地运行。
 
-1. 选择 **[!UICONTROL 促销类型]**。
+1. Select a **[!UICONTROL Promotion Type]**.
 
    * 选择 **[!UICONTROL 项目列表]**，然后输入要促销的各个特定项目的 `entity.id` 值（值之间用逗号分隔）。
    如果列表中包含的项目数量多于您为促销活动设置的版块数量，则您可以选中“[!UICONTROL 随机排列项目顺序]”复选框，以使您的设计中显示的促销项目发生变化。选中此复选框后，每次访问时都将从整个促销活动集中随机选择在模板中为促销活动启用的项目数量。

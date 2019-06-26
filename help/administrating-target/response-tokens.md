@@ -8,8 +8,8 @@ subtopic: 入门指南
 title: 响应令牌
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Target Classic 具有一个称为服务器插件的功能，允许您发�
 | 在用的 Target 库 | 建议的操作 |
 |--- |--- |
 | at.js | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本 at.js 的信息，请参阅[下载 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。有关每个 at.js 版本新功能的信息，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在 mbox.js 中存在，而在 at.js 中不存在；这些插件将被交付，但交付会失败。有关更多信息，请参阅 [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)。 |
-| mbox.js | 在使用 mbox.js 时，仍支持使用和交付插件。<br>但是，我们鼓励使用 mbox.js 和插件的客户改用 at.js 和响应令牌。有关与 mbox.js 相比使用 at.js 具有的优势的信息，请参阅 [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)。有关迁移的信息，请参阅[从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)。<br>在弃用 Target Classic（2017 年 11 月）之后，您可能需要联系客户关怀团队以编辑或停用现有插件。在弃用 Target Classic 并停用不需要的插件之前，您应该对插件先进行审核。<br>您不能在 Target Standard/Premium 中创建新插件。请改用响应令牌。<br>应停用旧的 SiteCatalyst 插件，并改为[将 Adobe Analytics 作为 Adobe Target 报表源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。应停用 ttMeta 插件并替换为 [Adobe Experience Cloud 调试器](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)。 |
+| mbox.js | 在使用 mbox.js 时，仍支持使用和交付插件。<br>但是，我们鼓励使用 mbox.js 和插件的客户改用 at.js 和响应令牌。有关与 mbox.js 相比使用 at.js 具有的优势的信息，请参阅 [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)。有关迁移的信息，请参阅[从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)。<br>在弃用 Target Classic（2017 年 11 月）之后，您可能需要联系客户关怀团队以编辑或停用现有插件。在弃用 Target Classic 并停用不需要的插件之前，您应该对插件先进行审核。<br>您不能在 Target Standard/Premium 中创建新插件。请改用响应令牌。<br>应停用旧的 SiteCatalyst 插件，并改为[将 Adobe Analytics 作为 Adobe Target 报表源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。ttMeta 插件应停用并替换为 [Adobe Experience Cloud 调试器](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)。 |
 
 ## 使用响应令牌 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -286,4 +286,4 @@ Target 会定期刷新属性。任何未开启的属性都会在下次刷新时�
 
 观看以下视频，了解如何使用响应令牌和 at.js 自定义事件将 Target 中的配置文件信息共享到第三方系统。
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=chi_hans)

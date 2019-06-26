@@ -7,7 +7,7 @@ solution: Target
 title: 创建多变量测试
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,25 +26,25 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
    >[!NOTE]
    >
-   >可用的活动类型取决于您的 Target 帐户。有些活动类型可能不会显示在列表中。例如 [!UICONTROL ，自动个性化] 是 [Target Premium功能](/help/c-intro/intro.md#premium)。
+   >可用的活动类型取决于您的 Target 帐户。有些活动类型可能不会显示在列表中。For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/c-intro/intro.md#premium).
    >
-   >有关可用的各种活动类型 [!DNL Target] 及其差异的更多信息，请参阅 [活动](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。请参阅 [目标活动类型](/help/c-activities/target-activities-guide.md) 以帮助您确定哪种活动类型最适合您的需求。
+   >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
 
-1. 如有必要，请选择 **[!UICONTROL 视觉(默认)]**。
+1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
    ![“创建体验定位活动”对话框](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
-   如果您希望使用基于表单的体验编辑器，请选择[!UICONTROL 表单]。有关更多信息，请参阅 [基于表单的Experience Composer](/help/c-experiences/form-experience-composer.md) 。
+   如果您希望使用基于表单的体验编辑器，请选择[!UICONTROL 表单]。See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
-   >除了CMS和基于表单的Experience Composer之外，Target还提供单页应用程序CMS和CMS for Mobile Apps。有关各种书写器的更多信息，请参阅 [体验和选件](/help/c-experiences/experiences.md)。
+   >除了CMS和基于表单的Experience Composer之外，Target还提供单页应用程序CMS和CMS for Mobile Apps。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >前面的插图中的 [!UICONTROL “选择工作场所] ”选项是 [Target Premium](/help/c-intro/intro.md) 功能。如果您看不到此选项，则您的组织有Target Standard许可证。]
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您看不到此选项，则您的组织有Target Standard许可证。]
 
-1. (视情况而定)如果您是Target Premium客户，请 [选择工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. [指定要测试的页面的URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) ，然后单击 **[!UICONTROL 下]** 一步。
 
@@ -83,11 +83,11 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
    * 图像
    * 文本
 
-1. 单击 **[!UICONTROL 预览]** 以 [预览体验](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)。
+1. Click **[!UICONTROL Preview]** to [preview your experiences](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
    ![预览体验](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
-   您可以查看每个体验，并排除不希望包含在测试中的任何体验。要排除一个或多个体验，请选择所需的复选框，然后单击 **[!UICONTROL 排除]** 。
+   您可以查看每个体验，并排除不希望包含在测试中的任何体验。To exclude one or more experiences, select the desired checkboxes, then click **[!UICONTROL Exclude]** .
 
    ![排除体验](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
@@ -103,7 +103,7 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
    ![](assets/estimator2.png)
 
-1. 单击 **[!UICONTROL 下一步]** 以进入 [!UICONTROL 定位] 页面。]
+1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] page.]
 
 1. 选择受众，以及您希望参加活动的符合条件的访客所占的百分比。
 

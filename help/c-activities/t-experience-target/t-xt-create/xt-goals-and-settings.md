@@ -8,7 +8,7 @@ title: 目标和设置
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -132,8 +132,8 @@ source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 要添加依赖项，请执行以下操作：
 
-1. 添加其他指标后，单击 **[!UICONTROL 高级设置]**。
-2. 单击 **[!UICONTROL 添加依赖关系]**：
+1. After adding additional metrics, click **[!UICONTROL Advanced Settings]**.
+2. Click **[!UICONTROL Add Dependency]**:
 
    ![添加依赖关系链接](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 

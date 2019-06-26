@@ -1,6 +1,6 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: ht
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+translation-type: tm+mt
 
 ---
 # 参与
@@ -19,4 +19,4 @@ translation-type: ht
 
 ## 代码审阅
 
-应以拉取请求的形式提交所有提交，并需要由项目提交者进行审阅。有关发送拉取请求的更多信息，请参阅 [GitHub 拉取请求文档](https://help.github.com/articles/about-pull-requests/)。
+应以拉取请求的形式提交所有提交，并需要由项目提交者进行审阅。Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.

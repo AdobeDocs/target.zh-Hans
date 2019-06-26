@@ -8,8 +8,8 @@ subtopic: 入门指南
 title: 不通过标签管理器实施 Target
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -58,9 +58,9 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 |--- |--- |
 | 客户代码 | 客户端代码是指特定于客户端的字符序列，使用 Target API 时通常需要使用此设置。<br>此设置无法更改。 |
 | IMS 组织 ID | 此 ID 可将您的实施绑定到您的 [!DNL Adobe Experience Cloud] 帐户。<br>此设置无法更改。 |
-| 配置文件生命周期 | 此设置可决定访客配置文件的存储时长。默认情况下，配置文件会存储两周时间。最多可将此时间延长到 90 天。<br>要更改配置文件生命周期设置，请联系[客户关怀](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)。 |
+| 配置文件生命周期 | 此设置可决定访客配置文件的存储时长。默认情况下，配置文件会存储两周时间。最多可将此时间延长到 90 天。<br>要更改“配置文件生命周期”设置，请联系[客户关怀团队](https://helpx.adobe.com/contact/enterprise-support.ec.html)。 |
 | X-Domain | 确定浏览器是在您自己的域中设置 Cookie（第一方 Cookie），还是在 Target 域中设置 Cookie，亦或在两者中都设置 Cookie。<br>更改此设置对 at.js 和 mbox.js 都会造成影响。 |
-| 超时 | 如果 [!DNL Target] 未在定义的时间段内做出响应并显示相应内容，则服务器调用会超时，此时会显示默认内容。在访客会话期间会继续尝试发起其他调用。默认时间为 5 秒。<br>更改此设置对 at.js 和 mbox.js 都会造成影响。<br>at.js 库使用的是 `XMLHttpRequest` 中的超时设置。超时从请求被触发时开始，直到 Target 收到来自服务器的响应时结束。有关更多信息，请参阅 Mozilla 开发人员网络上的 [XMLHttpRequest.timeout](https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest/timeout)。<br>如果在指定的超时内未收到响应，则会显示默认内容，且访客可能会被计为活动的参加者，因为所有数据收集都是在 [!DNL Target] 边缘网络中进行的。如果 [!DNL Target] 边缘网络收到了请求，则访客会被计为参加者。<br>配置超时设置时，请考虑以下事项：<ul><li>如果超时值过低，则用户大部分时间可能都会看到默认内容，即使访客可被计为活动参加者也是如此。</li><li>如果超时值过高，则在延长的时间段内，访客可能会在您的网页上看到空白区域，如果您使用了主体隐藏技术，则可能还会看到空白页面。</li></ul>要更好地了解 mbox 响应时间，请查看浏览器“开发人员工具”中的“网络”选项卡。您还可以使用第三方 Web 性能监测工具，例如 Catchpoint。<br>**注意**：[visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 设置可确保 [!DNL Target] 等待访客 API 响应的时间不会太长。此设置和此处介绍的 at.js 中的“超时”设置不会相互影响。 |
+| 超时 | 如果 [!DNL Target] 未在定义的时间段内做出响应并显示相应内容，则服务器调用会超时，此时会显示默认内容。在访客会话期间会继续尝试发起其他调用。默认时间为 5 秒。<br>更改此设置对 at.js 和 mbox.js 都会造成影响。<br>at.js 库使用的是 `XMLHttpRequest` 中的超时设置。超时从请求被触发时开始，直到 Target 收到来自服务器的响应时结束。有关更多信息，请参阅 Mozilla 开发人员网络上的 [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout)。<br>如果在指定的超时内未收到响应，则会显示默认内容，且访客可能会被计为活动的参加者，因为所有数据收集都是在 [!DNL Target] 边缘网络中进行的。如果 [!DNL Target] 边缘网络收到了请求，则访客会被计为参加者。<br>配置超时设置时，请考虑以下事项：<ul><li>如果超时值过低，则用户大部分时间可能都会看到默认内容，即使访客可被计为活动参加者也是如此。</li><li>如果超时值过高，则在延长的时间段内，访客可能会在您的网页上看到空白区域，如果您使用了主体隐藏技术，则可能还会看到空白页面。</li></ul>要更好地了解 mbox 响应时间，请查看浏览器“开发人员工具”中的“网络”选项卡。您还可以使用第三方 Web 性能监测工具，例如 Catchpoint。<br>**注意**：[visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 设置可确保 [!DNL Target] 等待访客 API 响应的时间不会太长。此设置和此处介绍的 at.js 中的“超时”设置不会相互影响。 |
 | 旧版浏览器支持 | **注意**：at.js 版本 0.9.3 及更低版本中提供了“旧版浏览器支持”选项。at.js 版本 0.9.4 中已删除此选项。要获取 at.js 支持的浏览器列表，请参阅[受支持的浏览器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)。<br>旧版浏览器是指早期推出的不完全支持 CORS（跨域资源共享）的浏览器。这些浏览器包括：Internet Explorer 版本 11 之前的浏览器，以及 Safari 版本 6 及更低版本。如果禁用“旧版浏览器支持”，则在旧版浏览器上，Target 不会交付内容或将访客计入报表。如果启用此选项，则建议在各个旧版浏览器中执行质量保证，以确保提供良好的客户体验。 |
 
 ## 代码设置 {#section_D41C905D0F8149949F525C85F2CCFF7F}

@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
    ![](assets/DB_NewRecAct.png)
 
-   如果您希望使用基于表单的体验编辑器，请选择相应的选项。请参阅[基于表单的体验编辑器](https://marketing.adobe.com/resources/help/zh_CN/target/target/t_form_experience_composer.html)。
+   如果您希望使用基于表单的体验编辑器，请选择相应的选项。请参阅[基于表单的体验编辑器](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html)。
 
    单击“[!UICONTROL 下一步]”后，VEC 将会打开并显示您的页面。您可以将当前元素替换为推荐，也可以插入推荐。
 
@@ -139,6 +139,6 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 * 查看设计的代码
 
 1. （可选）打开[!UICONTROL 报表]页面以查看显示 [!DNL Recommendations] 活动性能的报表。
-1. （可选）打开[!UICONTROL 冲突]页面以查看可能会发生的所有[活动冲突](https://marketing.adobe.com/resources/help/zh_CN/target/target/c_activity_collisions.html)。
+1. （可选）打开“[!UICONTROL 冲突]”页面以查看可能会发生的任何[活动冲突](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html)。
 
    如果设置了多个活动来向同一个页面交付内容，则会发生活动冲突，这可能导致页面显示意外内容。

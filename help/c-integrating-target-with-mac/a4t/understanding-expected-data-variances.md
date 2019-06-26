@@ -7,8 +7,8 @@ solution: Target
 title: 不使用 A4T 时的预期数据差异
 topic: 高级
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 

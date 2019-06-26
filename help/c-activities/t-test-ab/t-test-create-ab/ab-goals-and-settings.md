@@ -7,7 +7,7 @@ title: 目标和设置
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 您可以在“目标和设置”页面上输入有关测试目标的信息。
 
-可用的设置取决于您使用Target或 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) 作为数据源。
+The available settings depend on whether you use Target or [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) as the data source.
 
 ![“活动设置”对话框](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 

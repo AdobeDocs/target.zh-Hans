@@ -9,7 +9,7 @@ title: 点击跟踪
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
 >
 >Target 全局 mbox 在用作基于表单的活动中的位置时不支持跟踪点击。
 
-## 设置点击跟踪 {#section_5540C5A533114E57BAE022A600B02E72}
+## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. 在“[!UICONTROL 目标和设置]”页面上为活动设置目标时，选择 **[!UICONTROL 转化]成功量度。**
 1. 在此步操作中，选择 **[!UICONTROL 已单击元素]**，然后单击 **[!UICONTROL 选择元素]。**
@@ -36,6 +36,32 @@ Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
 1. 单击屏幕顶部的复选标记，以保存您所做的选择。
 
 当活动参加者点击某个选定元素时，该点击即会被计为一次转化。
+
+## Selected Elements panel {#selected-elements}
+
+For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
+
+![选定的Elements面板](/help/c-activities/r-success-metrics/assets/selected-elements.png)
+
+There are a several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. 下表描述了可对元素执行的每个操作：
+
+| 操作 | 描述 |
+| --- | --- |
+| 信息 | 显示选择器的元素类型和完整DOM路径。 |
+| 编辑 | 允许您编辑CSS选择器。 |
+| 删除 | 删除元素。 |
+
+### 添加元素
+
+如果您已经知道选择器的DOM路径，则可以通过单击面板顶部的加号图标手动添加它。
+
+![添加元素图标](/help/c-activities/r-success-metrics/assets/add-element.png)
+
+### 选定的Elements悬停弹出窗口
+
+After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity&#39;s [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. 该列表包含元素的完整DOM路径，可帮助您验证选定元素是否用于单击跟踪。
+
+![Elements选择链接](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## 注意事项 {#considerations}
 
@@ -62,7 +88,7 @@ Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
    | : | 冒号 |
    | 。 | 句点 |
    | $ | 美元符号 |
-   | [ ] | 方括号 |
+   | `[ ]` | 方括号 |
 
 * 如果您同时使用 [!DNL at.js] 点击跟踪和 Analytics AppMeasurement，则 [!DNL at.js] 点击跟踪会取消所有其他点击事件处理程序。因此，AppMeasurement 点击处理程序将从不会执行。
 

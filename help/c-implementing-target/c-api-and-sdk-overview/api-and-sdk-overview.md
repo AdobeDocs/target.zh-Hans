@@ -8,7 +8,7 @@ title: 服务器端：实施 Target
 topic: 推荐
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -17,26 +17,26 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 [!DNL Adobe Target] 有关服务器端交付API、服务器端批量交付API、NodeJS SDK、 [!DNL Target Recommendations] API和 [!DNL Target Classic] API(解压缩)的信息。
 
-以下过程在服务器端执行 [!DNL Target]：
+The following process occurs in a server-side implementation of [!DNL Target]:
 
 1. 客户端设备通过服务器请求体验。
-1. 您的服务器将发送该请求 [!DNL Target]。
+1. Your server sends that request to [!DNL Target].
 1. [!DNL Target] 将响应发送回服务器。
 1. 服务器决定将哪种体验交付到客户端设备以渲染。
 
-体验无需在浏览器中显示；它可显示在电子邮件或自助终端中，通过语音助手或通过其他非可视体验或非浏览器设备显示。由于您的服务器在客户端之间存在， [!DNL Target]因此，如果您需要更大的控制和安全性或者具有要在服务器上运行的复杂后端进程，则此类型的实施也是理想的选择。
+体验无需在浏览器中显示；它可显示在电子邮件或自助终端中，通过语音助手或通过其他非可视体验或非浏览器设备显示。Because your server sits between the client and [!DNL Target], this type of implementation is also ideal if you need greater control and security or have complex backend processes that you want to run on your server.
 
 以下章节列出了各种 API 和 NodeJS SDK，并提供了其他信息：
 
 ## 服务器端交付 API
 
-链接： [服务器端交付API](https://developers.adobetarget.com/api/#server-side-delivery)
+Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/#server-side-delivery)
 
 `/rest/v1/mbox`
 
-[!DNL Target] 允许您的应用程序从任何浏览器、移动设备，甚至其他服务器执行 mbox 调用。服务器端交付API专门设计为与 [!DNL Target] 进行HTTP/HTTPS调用的任何服务器端平台集成。
+[!DNL Target] 允许您的应用程序从任何浏览器、移动设备，甚至其他服务器执行 mbox 调用。The Server Side delivery API is specifically designed to integrate [!DNL Target] with any server-side platform that makes HTTP/HTTPS calls.
 
-您可以使用API将自定义应用程序与其集成 [!DNL Target]。这对于想要为不基于浏览器的 IoT 设备（例如联网电视、网亭或店内数字屏幕）提供定位的组织尤其有用。
+You can use the API to integrate your custom application with [!DNL Target]. 这对于想要为不基于浏览器的 IoT 设备（例如联网电视、网亭或店内数字屏幕）提供定位的组织尤其有用。
 
 此端点只能为普通 mbox 返回选件。您也可以仅为单个 mbox 获取内容。
 
@@ -46,17 +46,17 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ## 服务器端批量交付 API
 
-链接： [服务器端批量交付API](https://developers.adobetarget.com/api/#server-side-batch-delivery)
+Link: [Server Side Batch Delivery APIs](https://developers.adobetarget.com/api/#server-side-batch-delivery)
 
 `/rest/v2/batchmbox`
 
-批量交付 API 允许您的应用程序在一次调用中为多个 mbox 请求内容。它还具有一种预吸引模式，可使诸如移动应用程序、服务器等的客户端在一个请求中获取多个mbox的内容、在本地缓存它以及在用户访问这些mbox时通知 [!DNL Target] 用户。
+批量交付 API 允许您的应用程序在一次调用中为多个 mbox 请求内容。It also has a prefetch mode that enables clients like mobile apps, servers, and so forth to fetch content for multiple mboxes in one request, cache it locally, and later notify [!DNL Target] when the user visits those mboxes.
 
 此端点只能为普通 mbox 返回选件。由于您可以为多个 mbox 获取内容，因此为了提高性能，最好使用批处理 mbox API。这样可以使您避免执行多个 HTTP 请求，执行多个 HTTP 请求可能会耗费昂贵成本。
 
 ## NodeJS SDK
 
-链接： [NodeJS SDK](https://www.npmjs.com/package/@adobe/target-node-client)
+Link: [NodeJS SDK](https://www.npmjs.com/package/@adobe/target-node-client)
 
 就 SDK 而言，目前我们只有一个 SDK，即 NodeJS SDK。
 
@@ -69,7 +69,7 @@ NodeJS SDK 是 NodeJS 核心 HTTP/HTTPS 模块的瘦包装器。在后台，Node
 
 ## [!DNL Target Recommendations] API
 
-链接： [Target推荐API](https://developers.adobetarget.com/api/recommendations)
+Link: [Target Recommendations APIs](https://developers.adobetarget.com/api/recommendations)
 
 通过推荐 API，您能够以编程方式与 Target 的推荐服务器进行交互。这些 API 可以与一系列应用程序堆栈集成，以执行您通常会通过用户界面执行的功能。
 
@@ -92,4 +92,4 @@ NodeJS SDK 是 NodeJS 核心 HTTP/HTTPS 模块的瘦包装器。在后台，Node
 
 **我是否应该使用 NodeJS SDK 来实现任何性能提升？**
 
-遗憾的是，我们没有任何性能指数。但是，一般来说，由于具有 NodeJS 事件驱动架构，NodeJS SDK 应该可提供良好的性能。请注意，大多数时间都花在后端 [!DNL Target] 上。NodeJS SDK 执行极少的处理工作。SDK主要负责打包 [!DNL Target] 请求并解析 [!DNL Target] 响应。
+遗憾的是，我们没有任何性能指数。但是，一般来说，由于具有 NodeJS 事件驱动架构，NodeJS SDK 应该可提供良好的性能。Be aware that most of the time is spent on the [!DNL Target] backend. NodeJS SDK 执行极少的处理工作。The SDK is basically responsible for packaging a [!DNL Target] request and parsing a [!DNL Target] response.

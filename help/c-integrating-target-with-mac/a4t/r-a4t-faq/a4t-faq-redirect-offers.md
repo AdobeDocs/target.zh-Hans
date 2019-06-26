@@ -7,8 +7,8 @@ solution: Target
 title: 重定向选件 - A4T 常见问题解答
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 

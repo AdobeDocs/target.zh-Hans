@@ -8,7 +8,7 @@ title: 报表设置
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 

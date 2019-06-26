@@ -8,7 +8,7 @@ title: 活动 URL
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ## 指定不同的URL
 
-默认情况下 [!UICONTROL ，Visual Experience Composer] 会打开 [Target帐户首选项中指定的页面](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)。在活动创建过程中，您可以指定其他页面。
+By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Target Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 在活动创建过程中，您可以指定其他页面。
 
 要在[!UICONTROL 可视化体验编辑器]打开后显示其他页面，请单击 **[!UICONTROL 配置]** 齿轮图标，然后选择 **[!UICONTROL 页面交付]**。在“活动 URL”字段中输入相应的 URL。
 

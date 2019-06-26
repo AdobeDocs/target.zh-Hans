@@ -8,7 +8,7 @@ title: 移动设备
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
    >
    >由于iOS12.2中引入的新更改，使用指定iPhone型号的设备营销名称和设备模型定义的受众会受到影响。我们不再将装有iOS12.2的iPhone定位到它们。但是，如果这些用户没有iOS12.2，则iPhone型号定位继续正常工作。
    >
-   >iOS12.2更新不会影响下列型号的识别，因为这些模型不支持升级到iOS12.2：iPhone、iPhone3G、iPhone3GS、iPhone4、iPhone4s、iPhone5、iPhone5c、iPad、iPad、iPad/Retina显示屏、iPad Retina(4th Generation)、iPod Touch和iPod Touch5。
+   >iOS12.2更新不会影响下列型号的识别，因为这些模型不支持升级到iOS12.2：iPhone、iPhone3 G、iPhone3 GS、iPhone4、iPhone4 s、iPhone5、iPhone5 c、iPad、iPad、iPad/Retina显示屏、iPad Retina(4th Generation)、iPod Touch和iPod Touch5。
 
    >[!NOTE]
    >

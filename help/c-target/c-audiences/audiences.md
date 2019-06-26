@@ -8,7 +8,7 @@ title: 创建受众
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 受众可决定将在定位活动中看到内容和体验的人群。
 
-不论在何处，只要可以使用定位，便会用到受众。定位活动时，您可以从受众 [!UICONTROL ] 列表中选择可重复使用的受众， [创建特定活动的受众](/help/c-target/creating-activity-only-audience.md) 并定位它， [或结合多个受众](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) 创建特定受众。
+不论在何处，只要可以使用定位，便会用到受众。When targeting an activity, you can either select a reusable audience from the [!UICONTROL Audiences] list, [create an activity-specific audience](/help/c-target/creating-activity-only-audience.md) and target it, or [combine multiple audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create an ad hoc audience.
 
 您还可以在 [!DNL Adobe Target] 及其他 [!DNL Experience Cloud] 解决方案中使用 [!DNL Analytics] 收集的受众数据进行实时定位和个性化。请参阅 [Experience Cloud 产品文档中的“受众”](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)。
 
@@ -26,7 +26,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 * **定位受众：** 用于向不同类型的访客交付不同的内容。
 * **报表受众：** 用于确定不同类型的访客对同一内容有何响应，以便于您分析测试结果。
 
-   在 [!DNL Target] 中，仅当使用 [!DNL Target] 作为报表源时，才能配置报表受众。如果您使用 [DNL Adobe Analytics作为报表源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，则必须在内部配置报告受众 [!DNL Analytics]。
+   在 [!DNL Target] 中，仅当使用 [!DNL Target] 作为报表源时，才能配置报表受众。If you use [DNL Adobe Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), you must configure your reporting audiences within [!DNL Analytics].
 
 ## 使用受众列表
 
@@ -41,13 +41,13 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 * 如果在 AAM 中删除受众，则“[!UICONTROL 受众]”列表和受众选择器均会显示警告图标。UI 中的工具提示也会指示受众已在 AAM 中删除。
 * 如果您尝试将多个受众与已删除的受众合并，或者您想保存引用了已删除受众的活动，则会显示一条警告消息。
 
-您还可以定位自定义配置文件参数和 `user.` 参数。添加受众时，单击 **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 访客配置文件]**，然后选择要用于定位活动的参数。如果未显示所需的参数，则表明该参数尚未由 mbox 触发。“[!UICONTROL 自定义参数]”下拉列表中提供了其他自定义 mbox 参数。
+您还可以定位自定义配置文件参数和 `user.` 参数。When adding an audience, click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. 如果未显示所需的参数，则表明该参数尚未由 mbox 触发。“[!UICONTROL 自定义参数]”下拉列表中提供了其他自定义 mbox 参数。
 
 可使用搜索框来搜索“[!UICONTROL 受众]”列表。您可以搜索受众名称的任意部分，或将特定字符串用引号引住。
 
 您可以按受众名称或上次修改日期对“[!UICONTROL 受众]”列表进行排序。要按名称或上次修改日期进行排序，请单击列标头，然后选择受众显示的顺序（升序或降序）。
 
-## 查看受众定义 {#section_11B9C4A777E14D36BA1E925021945780}
+## View audience definitions {#section_11B9C4A777E14D36BA1E925021945780}
 
 在 Target UI 中的多个位置，您无需打开受众，即可在弹出卡片中查看受众定义详细信息。此功能适用于在 Target Standard/Premium 中创建的受众、从 Target Classic 中导入的受众，或通过 API 创建的受众。
 

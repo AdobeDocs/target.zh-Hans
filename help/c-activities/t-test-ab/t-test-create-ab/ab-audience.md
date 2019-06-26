@@ -8,7 +8,7 @@ title: 选择受众
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ![替换受众选项](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-默认情况下，所有访客都是您的受众。但是，您可以更改受众。您可以从受众库中选择受众，也可以创建仅限该活动的受众。受众库中包含以前定义的受众，其中包括作为 Target 的一部分预先构建的一些常用受众。您可以从库中选择受众、 [创建新受众](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)或 [创建仅限活动的受众](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。对于未定位特定受众的 A/B 测试，请选择默认设置，即“所有访客”。
+默认情况下，所有访客都是您的受众。但是，您可以更改受众。您可以从受众库中选择受众，也可以创建仅限该活动的受众。受众库中包含以前定义的受众，其中包括作为 Target 的一部分预先构建的一些常用受众。You can select an audience from the library, [create a new audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), or [create an activity-only audience](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). 对于未定位特定受众的 A/B 测试，请选择默认设置，即“所有访客”。
 
 请注意，您还可以编辑或复制受众，方法是将鼠标悬停在“[!UICONTROL 选择受众]”对话框中的所需受众上（如下图所示）。如果您想要创建一个与现有受众类似的受众，则复制受众很有用。您可以制作受众的副本，对其进行编辑，然后将其另存为新受众。其他类型的活动中也提供了这一鼠标悬停功能。
 
@@ -43,7 +43,7 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ![受众百分比](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-您还可以选择让Target [自动分配流量](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+You can also choose to let Target [allocate traffic automatically](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## 培训视频
 

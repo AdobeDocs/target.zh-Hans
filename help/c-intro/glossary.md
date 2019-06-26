@@ -7,7 +7,7 @@ title: 术语表
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -172,7 +172,7 @@ A/B 测试可比较两个或更多版本的网站内容，以查看在预先指�
 
 **experience（体验）**
 
-一个选件、图像、文本、按钮、视频、一个整个网页或一组可能构成购买漏斗或其他逻辑序列的页面。它还可以是语音助手、客户服务脚本甚至是饮料机器中的个性化风格的答复。您可以在 [!DNL Target] 活动中测试或个性化体验。
+一个选件、图像、文本、按钮、视频、一个整个网页或一组可能构成购买漏斗或其他逻辑序列的页面。它还可以是语音助手、客户服务脚本甚至是饮料机器中的个性化风格的答复。You test or personalize experiences in [!DNL Target] activities.
 
 **experience targeting（体验定位）**
 

@@ -8,7 +8,7 @@ title: 多变量测试
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
 
 设置多变量测试时，了解一些基本术语会有帮助。
 
-行业内对术语的用法各有不同。本节定义了使用的术语 [!DNL Target]。
+行业内对术语的用法各有不同。This section defines the terms used by [!DNL Target].
 
 **组合：** 在多个位置测试多个内容选项时创建的内容变体。例如，如果您正在对 3 个位置进行测试，每个位置有 3 个内容选项，则一共有 27 种组合 (3x3x3)。来到您网站的访客将看到其中一种组合，也称之为一个体验。
 
@@ -70,7 +70,7 @@ source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
    例如，不要在同一测试中对布局和内容这两方面都进行测试。
 * 由于体验数量的增加，需计划为 QA 提供额外的时间。
 
-   [!DNL Target] 提供全因子多变量测试作为内置活动选项。在统计学中，“实验设计”提供了多种方法或设计来确定哪些因素会影响结果。其中一种方法是 [进行部分因子测试的Taguchi方法](https://en.wikipedia.org/wiki/Taguchi_methods) 。田口方法使营销人员能够制定一套假设，减少所需测试体验的排列数量，从而降低多变量测试的流量需求。此功能和测试方法可 [!DNL Target] 使用此 [脱机电子表格](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)进行利用。
+   [!DNL Target] 提供全因子多变量测试作为内置活动选项。在统计学中，“实验设计”提供了多种方法或设计来确定哪些因素会影响结果。One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. 田口方法使营销人员能够制定一套假设，减少所需测试体验的排列数量，从而降低多变量测试的流量需求。This functionality and testing approach can be leveraged in [!DNL Target] using this [offline spreadsheet](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
    如果您的团队使用其他“实验设计”方法，则可以将此计算电子表格用作自定义实验设计的参考实施。
 
@@ -79,7 +79,7 @@ source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
    * 选择要更改的元素以及每个元素的版本数（3x2、4x3 等等）。
    * 保持编号一致。例如，如果按钮是元素 1，选项是蓝色、绿色和黄色，则蓝色按钮为 1-1，绿色按钮为 1-2，黄色按钮为 1-3。
    * 该离线电子表格提供了所需的相应数量的体验（3x2 是 4 个、4x3 是 9 个，等等）。
-   * 使用 [视觉体验书写器(CMS)或基于表单的Experience Composer在A/B工作流程中构建体验](/help/c-experiences/experiences.md)。如果您使用 VEC，则可以使用自定义代码、编辑 HTML、显示所见即所得 (WYSIWYG) 或这三种方式的任意组合。
+   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC) or Form-based Experience Composer](/help/c-experiences/experiences.md). 如果您使用 VEC，则可以使用自定义代码、编辑 HTML、显示所见即所得 (WYSIWYG) 或这三种方式的任意组合。
    * 活动结束后（基于样本量计算器），通过该电子表格运行结果以获取其他详细信息。
 
 有关更多注意事项和最佳实践，请参阅 [多变量测试最佳实践](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)。

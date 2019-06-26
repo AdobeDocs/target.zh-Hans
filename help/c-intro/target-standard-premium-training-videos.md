@@ -8,7 +8,7 @@ title: Adobe Target Standard 和 Premium 的培训视频
 topic: 高级
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,14 +31,14 @@ source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 本指南的相关主题中内嵌有一些培训视频。单击视频图像可在不离开帮助页面的情况下播放视频。
 
-## Adobe Target-教程和视频
+## Adobe Target - 教程和视频
 
-[Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) 页面上提供了如何突出显示Target功能的一系列操作方法视频和教程。
+[Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) 页面上提供了一组操作说明视频和教程，其中重点介绍了 Target 的功能。
 
-![Experience League Video](/help/c-intro/assets/experience-league.png)
+![Experience League 视频](/help/c-intro/assets/experience-league.png)
 
-## Adobe Target教程 {#tutorials}
+## Adobe Target 教程 {#tutorials}
 
-Adobe [!DNL Target][Target教程](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) 页面上提供了对概念和工具的视频介绍。
+Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) page.
 
-![Adobe Target教程](/help/c-intro/assets/adobe-target-tutorials-new.png)
+![Adobe Target 教程](/help/c-intro/assets/adobe-target-tutorials-new.png)

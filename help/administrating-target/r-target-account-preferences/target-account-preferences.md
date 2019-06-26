@@ -1,7 +1,7 @@
 ---
 description: 可设置您的帐户首选项以配置 Target Standard 或 Target Premium，从而使用您的帐户正常运行它们。
 keywords: 帐户首选项;首选项;网站详细信息;自定义 mbox 名称;用于报表的 Experience Cloud 解决方案;显示预计收入提升;CSS 选择器;使用元素类;默认的可视化体验编辑器 URL;启用增强型体验编辑器;生成体验快照;移动设备视区配置;垂直行业;筛选不兼容的标准
-seo-description: 设置帐户首选项，以将Adobe Target Standard或Target Premium配置为与帐户正确工作。
+seo-description: 可设置您的帐户首选项以配置 Adobe Target Standard 或 Target Premium，从而使用您的帐户正常运行它们。
 seo-title: 首选项
 solution: Target
 subtopic: 入门指南
@@ -9,7 +9,7 @@ title: 首选项
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -18,23 +18,23 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 可设置您的帐户首选项以配置 [!DNL Target Standard] 或 [!DNL Target Premium]，从而使用您的帐户正常运行它们。
 
-要设置帐户首选项，请单击**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**，根据需要配置首选项，然后单击**[!UICONTROL 提交]**。
+要设置帐户首选项，请单击 **[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**，根据需要配置首选项，然后单击 **[!UICONTROL 提交]**。
 
 下图显示了“[!UICONTROL 帐户首选项]”页面上的可用设置。
 
-![首选项页面](/help/administrating-target/r-target-account-preferences/assets/target-account-preferences.png)
+![“首选项”页面](/help/administrating-target/r-target-account-preferences/assets/target-account-preferences.png)
 
 >[!NOTE]
 >
->其中一些首选项仅在您具有 [Target Premium](/help/c-intro/intro.md#premium)时才可用。
+>其中某些首选项仅当您具有 [Target Premium](/help/c-intro/intro.md#premium) 时才可用。
 
 ## 网站详细信息 {#section_04A3340FC29B46978DB77058259F4EE0}
 
-指定站点的配置方式。
+指定网站的配置方式。
 
 ### 自定义全局 Mbox
 
-选择您用来交付 [!DNL Target] 活动的可选自定义 mbox 名称。此全局 mbox 必须为空，这表示它没有任何默认内容。仅在站点上安装更新 [!DNL at.js] 或 [!DNL mbox.js] 文件后保存此设置。
+选择您用来交付 [!DNL Target] 活动的可选自定义 mbox 名称。此全局 mbox 必须为空，这表示它没有任何默认内容。仅当您的网站上安装了更新的 [!DNL at.js] 或 [!DNL mbox.js] 文件后，才应保存此设置。
 
 >[!CAUTION]
 >
@@ -48,7 +48,7 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 |--- |--- |
 | 用于报表的 Experience Cloud 解决方案 | 选择活动的报表源（[!DNL Target] 或 Adobe Analytics）。您也可以选择为每个活动分别选择报表源。选择报表源时，请考虑以下信息：<ul><li>无论选择何种报表源，都允许执行以下操作：[!UICONTROL 自动分配]、[!UICONTROL 自动定位]和[!UICONTROL 自动个性化] (AP) 活动创建、激活和停用。当您选择[将 Adobe Analytics 作为 Adobe Target (A4T) 的报表源](/help/c-integrating-target-with-mac/a4t/a4t.md)时，这些活动类型不受支持。即使您将 Analytics 指定为报表源，[!DNL Target] 也会用作这些活动类型的报表源。</li><li>如果将此处的报表源设置为“Analytics”，则将不允许激活使用 [!DNL Target] 作为报表源的活动（将每个活动的报表源指定为 Target）。您必须在活动中将报表源更改为“Analytics”，或在“设置”&gt;“首选项”中将报表引擎更改为“为每个活动选择”。</li><li>如果将此处的报表来源设置为“[!DNL Target]”，则将不允许激活使用“Analytics”作为报表源的活动。您必须在活动中将报表源更改为“[!DNL Target]”，或在“设置”&gt;“首选项”中将报表源更改为“为每个活动选择”。</li><li>如果将此处的报表源设置为“为每个活动选择”，则可以创建、激活和停用所选报表源支持的活动。有关受支持活动的矩阵，请参阅[](/help/c-integrating-target-with-mac/a4t/a4t.md)将 Adobe Analytic 作为 Adobe Target (A4T) 的报表源。</li><li>当您从 A/B 手动切换到[!UICONTROL 自动分配]或[!UICONTROL 自动定位]时，如果[!UICONTROL 自动分配]或[!UICONTROL 自动定位]活动中不支持 A/B 手动活动的报表源，则所有量度和报表受众都将会丢失。</li></ul> |
 | 显示预计收入提升 | 如果您为目标输入货币值，则还可以选择显示预计收入提升。[!DNL Target] 可以估计在所有用户都查看成功体验时将获得的收入提升。默认情况下，预计提升功能处于禁用状态。<br>只有 Experience Cloud 管理员用户可以启用或禁用此功能。如果禁用预计提升，则界面中不会显示相应的字段。禁用此功能不会导致数据丢失，包括用于估算的数据。无论是否启用了此功能，都会根据所收集的数据进行估算。<br>有关详细信息，请参阅[预计收入提升](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)。 |
-| 启用精细优先级 | 允许优先级输入0-999的优先级。<br>根据您的设置，UI 和“优先级”选项会有所不同。您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。<br>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。 |
+| 启用细粒度优先级 | 允许使用 0 至 999 之间的优先级数字条目。<br>根据您的设置，UI 和“优先级”选项会有所不同。您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。<br>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。 |
 
 ## CSS 选择器 {#section_8155EDBF449E4198863235F94D1EA872}
 
@@ -86,4 +86,4 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 * 介绍 [!DNL Target Standard] 中可用的帐户设置
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/17379?captions=chi_hans)

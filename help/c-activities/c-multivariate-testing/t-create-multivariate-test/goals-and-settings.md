@@ -8,7 +8,7 @@ title: 目标和设置
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -122,7 +122,7 @@ source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 要添加依赖项，请执行以下操作：
 
-1. 添加其他指标后，单击 **[!UICONTROL 高级设置]**。
+1. After adding additional metrics, click **[!UICONTROL Advanced Settings]**.
 2. 单击添加依赖项选项：
 
    ![添加依赖关系](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)

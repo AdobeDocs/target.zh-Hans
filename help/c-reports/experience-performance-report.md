@@ -7,8 +7,8 @@ solution: Target
 title: 体验性能报表 (MVT)
 topic: Premium
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -41,4 +41,4 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 以下视频演示了如何使用 Target 三步引导式工作流创建多变量测试。对体验性能报表的介绍开始于 8:20。
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/17395?captions=chi_hans)

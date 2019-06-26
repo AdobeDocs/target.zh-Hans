@@ -8,7 +8,7 @@ title: 合并多个受众
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 您可以在 [!DNL Target] UI 中的多个位置创建并使用组合受众。
 
-## 创建活动时创建组合的受众 {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Create a combined audience while creating an activity {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 在三步引导式工作流中，您可以在活动的“[!UICONTROL 定位]”页面上创建临时组合受众。
 
@@ -77,7 +77,7 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 1. 为组合受众提供一个描述性名称，然后单击 **[!UICONTROL 保存]**。
 
-## 创建组合受众以用于指标定位 {#section_A42E795AFCBD4575809C5942039910F0}
+## Create a combined audience for use in metric targeting {#section_A42E795AFCBD4575809C5942039910F0}
 
 您可以在活动的“[!UICONTROL 目标和设置]”页面上创建一个临时组合受众，以将其用于量度定位。例如，可以使用组合受众创建基于转化的定位：
 
@@ -103,7 +103,7 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 1. 执行“创建活动时创建组合受众”中的[步骤 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以创建组合受众。
 
-## 在编辑活动时创建组合的受众 {#section_364A12CE96E04B61B7C18113AA586C2C}
+## Create a combined audience while editing an activity {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 您可以在编辑现有活动时创建临时组合受众。
 
@@ -113,7 +113,7 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
    单击所需活动以将其打开，然后单击 **[!UICONTROL 编辑活动]**。
 
-1. 单击 **[!UICONTROL “配置]** ”&gt; **[!UICONTROL “受众]** ”&gt;“ **[!UICONTROL 多个受众]**”。
+1. Click the **[!UICONTROL Configure]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Multiple Audiences]**.
 
    ![“配置”&gt;“受众”&gt;“多个受众”](/help/c-target/assets/combine_multiple_audiences7.png)
 

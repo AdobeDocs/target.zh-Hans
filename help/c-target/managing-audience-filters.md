@@ -6,8 +6,8 @@ seo-title: 适用于报表的受众筛选器
 solution: Target
 title: 适用于报表的受众筛选器
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 

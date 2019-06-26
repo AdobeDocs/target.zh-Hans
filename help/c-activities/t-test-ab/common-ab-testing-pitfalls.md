@@ -6,8 +6,8 @@ seo-title: 九种常见的 A/B 测试陷阱以及避免方法
 solution: Target
 title: 九种常见的 A/B 测试陷阱以及避免方法
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 

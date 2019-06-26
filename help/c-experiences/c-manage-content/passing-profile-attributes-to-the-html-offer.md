@@ -1,32 +1,32 @@
 ---
-description: 您可以直接在HTML或JSON选件中显示配置文件值和活动信息。
-keywords: 动态数据；资源；数据；优惠；个性化优惠；个人优惠；令牌替换
-seo-description: 您可以直接在HTML或JSON选件中显示配置文件值和活动信息。
+description: 您可以在一个 HTML 或 JSON 选件中直接显示配置文件值和活动信息。
+keywords: 动态数据;资产;数据;选件;个性化选件;个人选件;令牌替换
+seo-description: 您可以在一个 HTML 或 JSON 选件中直接显示配置文件值和活动信息。
 seo-title: 将动态数据传递给选件
 solution: Target
 title: 将动态数据传递给选件
 topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 将动态数据传递给选件{#pass-dynamic-data-into-offers}
 
-您可以动态显示存储在Target配置文件中的访客信息。同样，活动信息(例如活动的名称或体验的名称)也可用于创建单一选件，根据访客的兴趣、过去的行为和整体档案动态返回个性化内容。
+您可以动态显示存储在 Target 配置文件中的访客信息。同样，还可以使用活动信息（例如活动名称或体验名称）来创建单个选件，以根据访客兴趣、过去的行为和整个配置文件动态地返回个性化内容。
 
 **商业案例**
 
-* 将折扣优惠推广到“升级”或“补充”上次购买的产品。除了为目录中的每个项目创建单独的选件，您还可以使用动态文本创建选件，该文本从配置文件中读取“最后购买的产品”并显示选件中的链接。
+* 促销折扣选件，以“填充”或“补充”上次购买的产品。除了为目录中的每个项目创建单独的选件之外，您可以创建一个包含动态文本的选件，其会从配置文件中读取“上次购买的产品”并在选件中显示链接。
 * 一个访客通过 `keyword=world``cup` 访问您的登陆页。您在选件中显示词语 *World cup*。
-* 使用信息(如(1)将最后一个项目添加到访客的购物车(Nike Air Max1000s))、(2)访客的颜色首选项(黑色)和(3)访客喜爱的非鞋类类别(挂钩)个性化推荐标签。示例：“用这些酷炫的&#39;黑色&#39;挂钩，对您的Nike Air Max1000s进行装饰！”
+* 使用以下信息来个性化推荐标签，例如 (1) 添加到访客购物车的最后一个项目 (Nike Air Max 1000s)、(2) 访客的颜色偏好（黑色），以及 (3) 访客最喜爱的非鞋类产品（连帽衫）。示例：“用这些炫酷的‘黑色’‘连帽衫’来搭配您的‘Nike Air Max 1000s’！”
 
 
 **技术优势**
 
-因为用户特定的首选项、行为、状态等。可存储在用户个人资料中，您可以在下次访问时重复此消息。动态选件允许您在一个活动中设置一个单独的选件，该选件可显示面向所有访客的个性化消息。当访客意图发生变化时，网站内容会自动反映这些更改。
+由于用户特定的偏好、行为、状态等可以存储在用户的配置文件中，因此您可以在他或她的下次访问时重复显示此消息。动态选件允许您在活动中设置单个选件以向所有访客显示个性化消息，因此支持更大的范围。随着访客意向的改变，您的网站内容也将自动反映这些变化。
 
 **示例**
 
@@ -46,19 +46,19 @@ source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 | 唯一的访客 ID | `${user.pcId}` |
 | 唯一的会话 ID | `${user.sessionId}` |
 | 访客的第一次会话（true 或 false） | `${user.isFirstSession}` |
-| 过去的行为 | `${user.endpoint.lastPurchasedEntity}`, `${user.endpoint.lastViewedEntity}`, `${user.endpoint.mostViewedEntity}`, `${user.endpoint.categoryAffinity}` |
+| 过去的行为 | `${user.endpoint.lastPurchasedEntity}`、`${user.endpoint.lastViewedEntity}`、`${user.endpoint.mostViewedEntity}`、`${user.endpoint.categoryAffinity}` |
 
-在控制台中记录信息以进行调试，如 `${campaign.name}``${campaign.id}``${campaign.recipe.name}``${campaign.recipe.id}``${offer.name}``${offer.id}`、 `${campaign.name}`
+在控制台中记录信息以进行调试，例如 `${campaign.name}`、`${campaign.id}`、`${campaign.recipe.name}`、`${campaign.recipe.id}`、`${offer.name}`、`${offer.id}`、`${campaign.name}`
 
-有关Recommendations设计，请参阅设计概述中 [的其他示例](/help/c-recommendations/c-design-overview/design-overview.md)。
+有关“推荐”设计的信息，请参阅[设计概述](/help/c-recommendations/c-design-overview/design-overview.md)中的其他示例。
 
 **实施**
 
-对于传递到mbox中的配置文件参数，请使用语法： `${profile.parameter}` 对于在配置文件脚本中创建的配置文件参数，请使用语法：
+要了解传递到 mbox 的配置文件参数，请使用语法：`${profile.parameter}`。要了解在配置文件脚本中创建的配置文件参数，请使用语法：
 
 `${user.parameter}`
 
-在Recommendations设计中使用动态属性时，您必须在美元符号(&#39;$&#39;)之前插入一个反斜杠(&#39;\&#39;)，以便动态值正确呈现： `\${user.endpoint.lastViewedEntity}`
+在“推荐”设计中使用动态属性时，必须在美元符号（“$”）之前插入反斜杠（“\”），以便正确呈现动态值：`\${user.endpoint.lastViewedEntity}`
 
 这些变量可以被服务器端的值所替换，因此不需要引用或其他 JavaScript 也能正确显示。
 

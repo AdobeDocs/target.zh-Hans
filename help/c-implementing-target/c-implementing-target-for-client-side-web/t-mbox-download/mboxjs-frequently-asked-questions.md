@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: mbox.js 常见问题解答
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ## mbox.js 对页面加载时间有何影响？{#section_90B3B94FE0BF4B369577FCB97B67F089}
 
-有关更多信息，请参阅 [. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)的优点。
+For more information, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## 使用 mbox.js 和 document.write 时，我的 Google Chrome 中为何会显示“解析器阻塞”警告消息？{#section_355A3A5BF02F42EEB8271C96EF41590A}
 

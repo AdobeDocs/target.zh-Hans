@@ -8,8 +8,8 @@ subtopic: 入门指南
 title: 客户属性
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 在您使用客户属性和 Target 时，请考虑以下信息：
 
-* 在使用 [!DNL People] 核心服务中的[!UICONTROL 客户属性]功能之前，您必须满足一些先决条件要求。有关更多信息，请参阅 *Experience Cloud 和核心服务产品文档*的[客户属性](https://marketing.adobe.com/resources/help/zh_CN/mcloud/attributes.html)中的“上传客户属性的先决条件”。请注意，必须使用 [!DNL at.js]（任何版本）或 [!DNL mbox.js] 版本 58 或更高版本。
+* 在使用 [!DNL People] 核心服务中的[!UICONTROL 客户属性]功能之前，您必须满足一些先决条件要求。有关详细信息，请参阅《Experience Cloud 和核心服务产品文档》**[客户属性](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)中的“上传客户属性的先决条件”。请注意，必须使用 [!DNL at.js]（任何版本）或 [!DNL mbox.js] 版本 58 或更高版本。
 * Adobe 不保证来自 CRM 数据库中 100% 的客户属性（访客配置文件）数据都会被载入到 Experience Cloud 从而可用于在 Target 中进行定位。在我们目前的设计中，可能有一小部分数据不会被载入。
 * 从 Experience Cloud 导入 Target 的客户属性数据的生命周期取决于访客配置文件的生命周期，默认为 14 天。有关更多信息，请参阅[访客配置文件生命周期](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
 * 如果 `vst.*` 参数是对用户进行标识的唯一参数，则只要 `authState` 是 UNAUTHENTICATED (0)，就不会获取现有的“已经过身份验证”的配置文件。只有当 `authState` 变为 UNAUTHENTICATED (1) 时，配置文件才会起作用。
@@ -43,7 +43,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ![](assets/crm_workflow.png)
 
-有关完成以下每项任务的详细说明，请参阅 *Experience Cloud 和核心服务产品文档*中的[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/zh_CN/mcloud/t_crs_usecase.html)。
+有关完成以下每项任务的详细说明，请参阅《Experience Cloud 和核心服务产品文档》**中的[创建客户属性源并上传数据文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)。
 
 1. 创建数据文件。
 
@@ -64,7 +64,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    使用 HTTP 方式最多可以上传 100 MB 的数据文件。大于 100 MB 小于等于 4 GB 的文件则可通过 FTP 上传。
 
    * **HTTPS：** 您可以拖放 [!DNL .csv] 数据文件或单击[!UICONTROL 浏览]以从您的文件系统上传。
-   * **FTP：** 单击 FTP 链接可](通过 FTP 上传文件)https://marketing.adobe.com/resources/help/zh_CN/mcloud/t_upload_attributes_ftp.html[。第一步是为 Adobe 提供的 FTP 服务器提供密码。输入密码，然后单击“[!UICONTROL 完成]”。
+   * **FTP：** 单击 FTP 链接以便[通过 FTP 上传文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_upload_attributes_ftp.html)。第一步是为 Adobe 提供的 FTP 服务器提供密码。输入密码，然后单击“[!UICONTROL 完成]”。
 
       现在，将您的 CSV/ZIP/GZIP 文件传输到 FTP 服务器。此文件传输成功后，请创建一个具有相同名称和 [!DNL .fin] 扩展名的新文件。将此空文件传输到服务器。此操作用于指示传输结束，Experience Cloud 开始处理数据文件。
 
@@ -80,7 +80,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 1. 配置订阅并激活属性来源。
 
-   单击 **[!UICONTROL 添加订阅]**，然后选择解决方案以订阅这些属性。[配置订阅](https://marketing.adobe.com/resources/help/zh_CN/mcloud/subscription.html)可设置 Experience Cloud 和解决方案之间的数据流。激活属性来源允许数据流动到订阅的解决方案。您上传的客户记录与您的网站或应用程序中的传入 ID 信号相匹配。
+   单击 **[!UICONTROL 添加订阅]**，然后选择解决方案以订阅这些属性。[配置订阅](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html)可设置 Experience Cloud 与各解决方案之间的数据流。激活属性来源允许数据流动到订阅的解决方案。您上传的客户记录与您的网站或应用程序中的传入 ID 信号相匹配。
 
    ![](assets/solution.png)
 
@@ -122,12 +122,12 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ### 使用 Experience Cloud ID 服务
 
-如果您使用 Experience Cloud ID 服务，则需要设置客户 ID 和身份验证状态以在定位中使用客户属性。有关更多信息，请参阅 *Experience Cloud ID 服务文档*中的[客户 ID 和身份验证状态](https://marketing.adobe.com/resources/help/zh_CN/mcvid/mcvid-authenticated-state.html)。
+如果您使用 Experience Cloud ID 服务，则需要设置客户 ID 和身份验证状态以在定位中使用客户属性。有关详细信息，请参阅《Experience Cloud ID 服务文档》**中的[客户 ID 和身份验证状态](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)。
 
 有关在 [!DNL Target] 中使用客户属性的更多信息，请参阅以下资源：
 
-* *Experience Cloud 和核心服务产品文档*中的[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/zh_CN/mcloud/t_crs_usecase.html)。
-* *数字营销产品组的博客文章*[客户属性：了解的越多，关联的越好](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
+* 《Experience Cloud 和核心服务产品文档》**中的[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+* 数字营销产品组的博客文章**[客户属性：了解的越多，关联的越好](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## 客户经常遇到的问题 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
@@ -148,4 +148,4 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 以下视频演示了如何将离线 CRM、支持中心、销售点和其他营销数据导入 Experience Cloud“人员”服务，并使用访客已知 ID 将其与访客进行关联。
 
->[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
+>[!VIDEO](https://video.tv.adobe.com/v/17802t1/?captions=chi_hans)

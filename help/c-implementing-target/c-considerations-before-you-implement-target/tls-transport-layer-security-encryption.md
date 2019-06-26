@@ -7,8 +7,8 @@ solution: Target
 title: TLS（传输层安全性）加密更改
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 

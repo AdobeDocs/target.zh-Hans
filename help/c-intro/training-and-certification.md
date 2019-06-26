@@ -8,8 +8,8 @@ subtopic: 入门指南
 title: 培训和认证
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Adobe 培训服务提供相关课程和认证。
 
-有关可用的讲师指导课程和在线课程的列表，请访问 [Adobe 客户培训网站](https://training.adobe.com/training/courses.html#solution=adobeTarget)。
+要获取可用的讲师指导课程和在线课程的列表，请访问 [Adobe 客户培训网站](https://training.adobe.com/training/courses.html#solution=adobeTarget)。
 
 有关更多信息，请与您所在地区的 Adobe 培训服务中心联系。
 

@@ -7,8 +7,8 @@ solution: Target
 title: 转化率
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ## 零售数据 {#section_30A674731BA6440E9BB93C421BE990EE}
 
-如果您插入[下单](https://marketing.adobe.com/resources/help/zh_CN/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) mbox 并将它选作转化 mbox，则会在每个体验中显示 AOV、RPV 和销售数据。
+如果您插入了[下订单](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) mbox，并选择该 mbox 作为转化 mbox，则会为每个体验显示 AOV、RPV 和销售额数据。
 
 ## 置信水平和置信区间 {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -107,7 +107,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 [下载的 CSV 报表](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)仅包含原始数据，而不包含计算量度，如 A/B 测试中使用的每位访客带来的收入、提升度或置信度。
 
-要计算这些计算量度，请下载 [Target 完整置信度计算器](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) Excel 文件以输入活动值，或查看 [Target 使用的统计计算](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf)。
+要计算这些计算量度，请下载 [Target 的完整置信度计算器](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) Excel 文件以输入活动的值，或查看 [Target 使用的统计计算](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf)。
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 1. 单击 **[!UICONTROL 工具]** &gt; **[!UICONTROL Data Warehouse]**。
 1. 在 **[!UICONTROL Data Warehouse 请求]选项卡中，填写相应的字段。**
 
-   有关每个字段的更多信息，请参阅 [Data Warehouse](https://marketing.adobe.com/resources/help/zh_CN/reference/data_warehouse.html) 中的“Data Warehouse 描述”。
+   有关各个字段的更多信息，请参阅 [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html) 中的“Data Warehouse 请求描述”。
 
    | 字段 | 说明 |
    |--- |--- |
@@ -147,8 +147,8 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 有关 [!DNL Data Warehouse] 的更多信息，请访问 [!DNL Analytics] 帮助文档中的以下链接：
 
-* [创建 Data Warehouse 请求](https://marketing.adobe.com/resources/help/zh_CN/reference/t_dw_create_request.html)
-* [Data Warehouse 最佳实践](https://marketing.adobe.com/resources/help/zh_CN/reference/data_warehouse_bp.html)
+* [创建 Data Warehouse 请求](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
+* [Data Warehouse 最佳实践](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
 
 ## 计数方法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 

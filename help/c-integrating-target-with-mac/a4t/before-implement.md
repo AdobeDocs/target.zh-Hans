@@ -8,7 +8,7 @@ title: 实施之前
 topic: Premium
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: f3d4963da631c668fb53a3939df53c80adff468b
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,22 +25,22 @@ source-git-commit: f3d4963da631c668fb53a3939df53c80adff468b
 >
 >在开始使用 A4T 之前，您需要请求对您的帐户进行配置，以便使用该集成。可使用[此表单](https://www.adobe.com/go/audiences)提交配置请求。
 
-此A4T集成要求您实施以下库版本(或更新版本)，具体取决于您是否要使用A4T的重定向选件：
+根据您是否要将重定向选件与 A4T 结合使用，此 A4T 集成要求您实施以下库版本（或更高版本）：
 
-### 如果 *未* 将重定向选件与A4T一起使用，则需要要求
+### *未*将重定向选件与 A4T 结合使用时需要满足的要求
 
-如果您未计划使用A4T重定向选件，则此集成要求您实施以下库版本(或更新版本)。所列顺序为操作顺序。
+如果您不打算将重定向选件与 A4T 结合使用，此集成要求您实施以下库版本（或更高版本）。所列的顺序即是操作顺序。
 
 * Experience Cloud 访客 ID 服务：visitorAPI.js 版本 1.8.0
 * Adobe Target（取决于您的实施）：at.js 版本 0.9.1 或 mbox.js 版本 61
 * Adobe Analytics：appMeasurement.js 版本 1.7.0
 
-### 如果使用A4T中的重定向选件，需要要求
+### 将重定向选件与 A4T 结合使用时需要满足的要求
 
-要将重定向选件与A4T一起使用，您必须实施以下库版本(或更新版本)。所列顺序为操作顺序。
+要将重定向选件与 A4T 结合使用，您必须实施以下库版本（或更高版本）。所列的顺序即是操作顺序。
 
 * Experience Cloud 访客 ID 服务：visitorAPI.js 版本 2.3.0
-* Adobe Target：at. js version1.6.2
+* Adobe Target：at.js 版本 1.6.2
 
    **注意：** mbox.js 库不支持将重定向选件与 A4T 配合使用。您的实施必须使用 at.js。
 
@@ -77,8 +77,8 @@ source-git-commit: f3d4963da631c668fb53a3939df53c80adff468b
 
 进行故障诊断时，请务必确认 Analytics 点击中存在补充 ID。
 
-## 客户端分析日志记录 {#client-side}
+## Client-side Analytics logging {#client-side}
 
-默认情况下，当页面上包含. js、 [!DNL Experience Cloud Visitor ID Service]和 [!DNL Adobe Analytics] AppMeasurement. js时 [!DNL Target] ，只要在页面中包含正确的补充ID，就可以在后端正确进行报告和分析活动，如上述所述。您无需管理和执行任何其他操作，A4T才能正常运行。
+By default, when at.js, the [!DNL Experience Cloud Visitor ID Service], and appMeasurement.js are on the page, [!DNL Adobe Analytics] and [!DNL Target] correctly stitch events for reporting and analytics purposes in the backend as long as the correct supplemental ID is included from the page, as mentioned above. 您无需管理和执行任何其他操作，A4T才能正常运行。
 
-但是，有时您可能希望更多地控制何时和如何发送与用于报告用途相关 [!DNL Target][!DNL Analytics] 的分析数据。您可能有一个内部分析工具，用于内部用途，但还希望通过您的内部分析产品将分析数据发送到 [!DNL Analytics] 内部分析产品，以便组织的其他成员继续用作 [!DNL Analytics] 可视报告源。请参阅 [步骤7：在Analytics for Target实施中](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) 的所有站点页面上引用. *js或mbox. js以* 了解更多信息。
+However, there are cases when you might want to have more control on when and how to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes. You might have an in-house analytics tool that you leverage for internal purposes but also want to send the analytics data to [!DNL Analytics] via your in-house analytics product so that other members of your organization can continue to utilize [!DNL Analytics] as a visual reporting source. See [Step 7: Reference at.js or mbox.js on all site pages](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) in *Analytics for Target Implementation* for more information.

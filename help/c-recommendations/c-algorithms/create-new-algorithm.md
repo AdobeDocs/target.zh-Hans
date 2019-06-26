@@ -1,6 +1,6 @@
 ---
-description: 标准控制着 “推荐”活动的内容。可创建标准以显示最适合您的活动的推荐。
-seo-description: 标准控制着 Adobe“推荐”活动的内容。可创建标准以显示最适合您的活动的推荐。
+description: 标准控制着 Recommendations 活动的内容。可创建标准以显示最适合您的活动的推荐。
+seo-description: 标准控制着 Adobe Recommendations 活动的内容。可创建标准以显示最适合您的活动的推荐。
 seo-title: 创建标准
 solution: Target
 title: 创建标准
@@ -9,14 +9,14 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 创建标准{#create-criteria}
 
-标准控制着 “推荐”活动的内容。可创建标准以显示最适合您的活动的推荐。
+标准控制着 Recommendations 活动的内容。可创建标准以显示最适合您的活动的推荐。
 
 ## 创建标准 {#task_8A9CB465F28D44899F69F38AD27352FE}
 
@@ -122,7 +122,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 * **mbox**：如果标准使用 mbox 作为行为数据源，则创建标准后，便可立即运行。根据使用的行为数据量和目录的大小，算法可能需要长达 12 个小时才能运行。对标准配置进行更改会导致标准重新运行。
 
-* **Analytics**：如果标准使用 [!DNL Adobe Analytics] 作为行为数据源，则创建标准后，其可用性的时间取决于所选报表包和回顾窗口是否已用于任何其他标准。如果报表包以前与回顾窗口一起使用过，且该回看窗口的长度至少与选定的回顾窗口长度相同，则说明行为数据已在 Target 中提供，“推荐”会立即运行标准。该算法可能需要长达 12 个小时便能运行，具体取决于所使用的行为数据量和目录大小。如果报表包以前未使用过，或者未与更长的回顾窗口一起使用，则“推荐”必须先从 Adobe Analytics 请求获取和接收数据，然后才能运行算法。与 Analytics 的同步流程通常至少需要 2 天，最多可能需要 7 天才能完成，具体取决于 Analytics 系统负载。
+* **Analytics**：如果标准使用 [!DNL Adobe Analytics] 作为行为数据源，则创建标准后，其可用时间取决于所选报表包和回顾窗口是否已用于任何其他标准。如果报表包以前与回顾窗口一起使用过，且该回看窗口的长度至少与选定的回顾窗口长度相同，则说明行为数据已在 Target 中提供，“推荐”会立即运行标准。该算法可能需要长达 12 个小时便能运行，具体取决于所使用的行为数据量和目录大小。如果报表包以前未使用过，或者未与更长的回顾窗口一起使用，则“推荐”必须先从 Adobe Analytics 请求获取和接收数据，然后才能运行算法。与 Analytics 的同步流程通常至少需要 2 天，最多可能需要 7 天才能完成，具体取决于 Analytics 系统负载。
 
 ## 使推荐基于推荐键 {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -204,24 +204,24 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 **使用自定义推荐键**
 
-您可以使推荐基于自定义配置文件属性的值。例如，假设您要根据访客最近添加到其队列中的影片显示推荐的影片。
+您可以使推荐基于自定义配置文件属性的值。例如，假定您要根据访客最近添加到其队列中的影片显示推荐的影片。
 
-1. 从 **[!UICONTROL 推荐键]** 下拉列表（例如“最后添加到观看列表的节目”）中选择自定义配置文件属性。
-1. 然后选择 **[!UICONTROL 推荐逻辑]**（例如“查看了这个项目，也查看了那个项目的人”）。
+1. 从 **[!UICONTROL 推荐键]** 下拉列表中选择自定义配置文件属性（例如“最近添加到观看列表的节目”）。
+1. 然后，选择 **[!UICONTROL 推荐逻辑]**（例如“查看了这个项目，也查看了那个项目的人”）。
 
    ![“创建新标准”对话框](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-如果自定义配置文件属性与单个实体 ID 不直接匹配，则需要向 [!DNL Recommendations] 解释您希望如何与实体进行匹配。例如，假设您要显示访客最喜爱的品牌中的最畅销商品项目。
+如果自定义配置文件属性与单个实体 ID 不直接匹配，则需要向 [!DNL Recommendations] 说明您希望如何与实体进行匹配。例如，假定您要显示访客最喜爱的品牌中的最畅销商品。
 
-1. 从 **[!UICONTROL 推荐键]** 下拉列表（例如，“最喜爱的品牌”）中选择自定义配置文件属性。
+1. 从 **[!UICONTROL 推荐键]** 下拉列表中选择自定义配置文件属性（例如，“最喜爱的品牌”）。
 
-1. 然后选择要与此键（例如，“最畅销商品”）一起使用的 **[!UICONTROL 推荐逻辑]**。
+1. 然后，选择要用于此键的 **[!UICONTROL 推荐逻辑]**（例如，“最畅销商品”）。
 
-   此时将显示[!UICONTROL 按以下项的唯一值分组]选项。
+   此时会显示[!UICONTROL 按以下项的唯一值分组]选项。
 
-1. 选择与您所选键相匹配的实体属性。在本例中，“最喜爱的品牌”与 `entity.brand` 匹配。
+1. 选择与您所选的键匹配的实体属性。在本例中，“最喜爱的品牌”与 `entity.brand` 匹配。
 
-   现在，[!DNL Recommendations] 将为每个品牌生成“最畅销商品”列表，并根据访客“最喜爱的品牌”配置文件属性中存储的值向访客展示相应的“最畅销产品”列表。
+   现在，[!DNL Recommendations] 将为每个品牌生成“最畅销商品”列表，并根据访客“最喜爱的品牌”配置文件属性中存储的值向访客展示相应的“最畅销商品”列表。
 
    ![“创建新标准”对话框 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
@@ -326,6 +326,16 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 使用访客的历史记录（跨会话）根据设计中的版块数量显示访客最近查看过的 *x* 个项目。
 
 “最近查看的项目”标准现在会返回特定于给定[环境](/help/administrating-target/hosts.md)的结果。如果两个网站属于不同的环境，并且访客在两个网站之间切换访问，则每个网站仅显示相应网站的最近查看的项目。如果两个网站位于同一环境，并且访客在两个网站之间切换访问，则访客将看到两个网站的最近查看的相同项目。
+
+**在您网站上的什么位置使用**
+
+常规页面，例如主页或登陆页面及站外广告。
+
+### Previously Purchased Items {#previously-purchased}
+
+Uses the visitor&#39;s history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+
+The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). 如果两个站点属于不同的环境，并且访客在两个站点之间切换，则每个站点只会在相应的网站上显示最近购买的项目。如果两个站点处于同一环境中，且访客在两个站点之间切换，则访客将看到两个站点最近购买的同一个项目。
 
 **在您网站上的什么位置使用**
 

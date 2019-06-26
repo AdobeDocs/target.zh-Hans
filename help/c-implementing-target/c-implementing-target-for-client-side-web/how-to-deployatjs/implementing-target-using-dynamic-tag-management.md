@@ -5,8 +5,8 @@ seo-description: Adobe 动态标签管理 (DTM) 是 Adobe 的旧版标签管理�
 seo-title: 使用动态标签管理 (DTM) 实施 Target
 title: 使用动态标签管理 (DTM) 实施 Target
 uuid: 27374cb5-a700-4c50-a36e-e575f35b74e6
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 

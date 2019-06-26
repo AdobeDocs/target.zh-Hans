@@ -7,8 +7,8 @@ solution: Target
 title: 单页应用程序实施
 topic: 标准
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 为进一步说明“视图”的概念，让我们浏览一下这个在 React 中实施的假定的在线电子商务网站，并探索一些“视图”示例。单击下面的链接可在新浏览器选项卡中打开此站点。
 
-**链接：[Home 站点](https://target.enablementadobe.com/react/demo/#/)**
+**链接：[主页](https://target.enablementadobe.com/react/demo/#/)**
 
 ![home 站点](/help/c-experiences/assets/home.png)
 
@@ -87,7 +87,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    现在，我们来查看一些关于如何在 React 中为假定的电子商务 SPA 调用 `triggerView()` 函数的示例用例：
 
-   **链接：[Home 网站](https://target.enablementadobe.com/react/demo/#/)**
+   **链接：[主页](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -118,7 +118,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**链接：[产品网站](https://target.enablementadobe.com/react/demo/#/products)**
+**链接：[产品站点](https://target.enablementadobe.com/react/demo/#/products)**
 
 现在，我们来看一个比较复杂的示例。假设我们是营销人员，想要在用户单击“Load More”（加载更多）按钮后将“Price”（价格）标签颜色更改为红色，以对第二行的产品进行个性化。
 
@@ -279,18 +279,18 @@ document.addEventListener("at-view-end", function(e) {
 
 ### 了解 at.js 2.x 的工作原理
 
->[!VIDEO](https://video.tv.adobe.com/v/26250)
+>[!VIDEO](https://video.tv.adobe.com/v/26250?captions=chi_hans)
 
-有关更多信息，请参阅[了解 at.js 2.x 的工作方式](https://helpx.adobe.com/cn/target/kt/using/atjs20-diagram-technical-video-understand.html)。
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
 
 ### 在 SPA 中实施 at.js 2.x
 
->[!VIDEO](https://video.tv.adobe.com/v/26248)
+>[!VIDEO](https://video.tv.adobe.com/v/26248?captions=chi_hans)
 
-有关更多信息，请参阅[在单页应用程序 (SPA) 中实施 Adobe Target 的 at.js 2.x](https://helpx.adobe.com/cn/target/kt/using/atjs2-single-page-application-technical-video-implement.html)。
+See [Implement Adobe Target&#39;s at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
 
 ### 在 Adobe Target 中使用 SPA 的 VEC
 
->[!VIDEO](https://video.tv.adobe.com/v/26249)
+>[!VIDEO](https://video.tv.adobe.com/v/26249?captions=chi_hans)
 
-有关更多信息，请参阅[在 Adobe Target 中使用单页应用程序的可视化体验编辑器 (SPA VEC)](https://helpx.adobe.com/cn/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)。
+See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.

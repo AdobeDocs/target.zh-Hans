@@ -2,13 +2,13 @@
 description: 有关此 Target 版本的已知问题的信息。此外，还包括有关已解决问题的信息。
 keywords: 已知问题;已解决的问题;发行说明
 seo-description: 有关此 Target 版本的已知问题的信息。此外，还包括有关已解决问题的信息。
-seo-title: 已知问题和已解决的问题
+seo-title: Adobe Target中已知问题和解决问题
 solution: Target
 title: 已知问题和已解决的问题
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -24,6 +24,14 @@ source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 ## 已知问题 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 下面部分列出了 [!DNL Target] 的已知问题：
+
+### 重定向选件 {#redirect}
+
+以下是重定向选件存在的已知问题：
+
+* 在某些情况下，当在使用Analytics for Target(A4T)配置的活动中使用重定向选件时，有限数量的客户报告了流量分发中的差异。Adobe工程师当前正在处理此问题。
+* 页面上出现的争用情况可能会导致同时计入原始页面和重定向页面上的页面查看次数。计划将更新用于. js实施以确保可以避免此种族条件。有关该问题及解决方法的更多信息，请参阅[重定向选件 - A4T 常见问题解答](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
+* at.js 实施中的重定向活动可能会导致预览 URL 进入循环（重复提供该选件）。您可以改为使用 [QA 模式](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)来执行预览和 QA。此问题不会影响选件的实际交付。(TGT-23019)
 
 ### 使用自定义体验作为控件时，自动Target活动的图形报告无法呈现
 
@@ -92,13 +100,6 @@ source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 mbox.js 库不支持客户端模板语言，例如 Handlebars 和 Mustache。at.js 库则**支持这些语言。
 
 **注意**：mbox.js 库将不再开发。所有客户都应该从 mbox.js 迁移到 at.js。有关更多信息，请参阅[从 mbox.js 迁移到 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
-
-### 重定向选件
-
-以下是重定向选件存在的已知问题：
-
-* 页面上出现的争用情况可能会导致同时计入原始页面和重定向页面上的页面查看次数。我们计划在 2018 年第 2 季度对 at.js 实施进行更新，以确保避免出现这种争用情况。有关该问题及解决方法的更多信息，请参阅[重定向选件 - A4T 常见问题解答](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
-* at.js 实施中的重定向活动可能会导致预览 URL 进入循环（重复提供该选件）。您可以改为使用 [QA 模式](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)来执行预览和 QA。此问题不会影响选件的实际交付。(TGT-23019)
 
 ### 实施：全局 Mbox 自动创建
 

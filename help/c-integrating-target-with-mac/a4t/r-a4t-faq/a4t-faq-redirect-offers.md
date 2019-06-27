@@ -8,7 +8,7 @@ title: 重定向选件 - A4T 常见问题解答
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -20,6 +20,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ## Analytics for Target (A4T) 是否支持重定向选件？{#section_46B8B03ED4D542C6AD875F5F61176298}
 
 是，但前提是您的实施使用 [!DNL at.js]。但是，您的实施必须满足下列最低要求，才能在使用 Analytics 作为报表源的活动中使用[重定向选件](../../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
+
+>[!NOTE]
+>
+>一个已知问题，即导致使用A4T重定向的客户数量有限，以查看较高的点击率。See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## 要将重定向选件与 A4T 配合使用，需要满足哪些最低要求？{#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 

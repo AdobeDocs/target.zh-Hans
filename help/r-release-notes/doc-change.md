@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
+|  | [已知问题和解决的问题：](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[使用和不使用A4TreDirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[选件A4T常见问题解答时，目标与分析之间预期的数据差异](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 添加了有关一个已知问题的信息，该问题导致使用A4T重定向的客户数量有限，以查看未拼接命中率的更高百分比。 |
 | 2019年月26日 | [视觉体验选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
 |  | [单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
 |  | [点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |

@@ -8,7 +8,7 @@ title: 不使用 A4T 时的预期数据差异
 topic: 高级
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -28,6 +28,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    如果在 Target 中设置重定向测试以拆分流量 50/50（或 25/25/25/25 等），则可能无法均匀拆分用户行为。如果您看到不均匀的拆分，这仅表示一组用户在登陆页面上未能执行 Analytics 调用的次数多于其他组。由于未能对某组执行 Analytics 调用，导致该用户的 Target 点击被排除，从而造成不均匀性。
 
    我们希望将来在 Adobe Experience Platform 上实现 A4T 时可以解决这个问题。我们的团队正在研究如何最好地处理页面上不同时间发生的这些不同事件。
+
+   >[!NOTE]
+   >
+   >一个已知问题，即导致使用A4T重定向的客户数量有限，以查看较高的点击率。See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 * 假设您创建了一个将向特定页面的所有访客公开的自动分配活动。由于自动分配活动不支持 A4T，因此 [!DNL Target] 会收集所有活动数据。您可能希望同一日期范围内 [!DNL Target] 报表中的活动访客与 [!DNL Analytics] 报表中该页面的访客相匹配。在这种情景中，预期会出现下面所述的差异。
 

@@ -1,5 +1,5 @@
 ---
-description: 下列发行说明将介绍 Target 最新版本或即将发布的版本的功能、增强功能、修复信息和已知问题。
+description: 下列发行说明将介绍最新版本或即将发布的 Adobe Target 版本的功能、增强功能、修复信息和已知问题。
 keywords: 发行说明
 seo-description: 下列发行说明将介绍 Adobe Target 最新版本或即将发布的版本的功能、增强功能、修复和已知问题
 seo-title: Adobe Target发行说明(预发行版)
@@ -8,7 +8,7 @@ title: Target 发行说明（预发行版本）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
 
 ---
 

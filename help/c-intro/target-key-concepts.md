@@ -9,7 +9,7 @@ title: Target 关键概念
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -98,11 +98,11 @@ An *体验*可决定满足特定条件时所显示的内容。
 
 或者，您可以将活动定位到来自某个地理区域的访客，或通过特定搜索引擎访问您页面的访客。
 
-可以保存受众以供多个活动重复使用，也可以为特定营销活动创建受众。
+可以保存受众以便在多个活动中重复使用，也可以为特定活动创建受众。
 
 | 受众类型 | 描述 |
 |--- |--- |
-| 可重用受众 | 可以为任何测试选择可重用受众。对某个可重用受众进行更改时，该受众在使用它的所有活动中也会发生相应的更改。 |
+| 可重用受众 | 可为任何活动选择可重用受众。对某个可重用受众进行更改时，该受众在使用它的所有活动中也会发生相应的更改。 |
 | 自定义区段 | 在 Target Classic 中，自定义区段（也称为“特定于营销活动”的区段）专门用于特定的营销活动。它们作为营销活动的一部分被创建，无法在其他营销活动中重复使用。 |
 | 共享受众 | 可以在 [!DNL Adobe Experience Cloud] 解决方案之间共享受众。请参阅 [Experience Cloud 受众](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)以查看相关示例。 |
 

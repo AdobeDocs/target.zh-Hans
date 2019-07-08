@@ -8,7 +8,7 @@ title: Target 优化和个性化常见问题解答
 topic: 高级
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
 
 ---
 
@@ -81,7 +81,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **我是否可以在不同位置应用选件（例如签出漏斗）？**
 
-尝试使用[多页面活动功能](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，该功能允许您在体验中创建多个页面。
+Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
 
 **我如何确保一旦实现目标（主要或次要）后，用户不会再次进入该活动，而是会看到不同的活动？**
 
@@ -89,9 +89,9 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 而在这种情况下，您可以选择“递增计数、释放用户并阻止再次进入”以及“默认/其他活动内容”以实现该目标。您也可以了解一下其他选项。
 
-**我在我的活动中创建了多个目标。我是否可以创建一系列目标作为漏斗以用于报表和分析？
+**我在我的活动中创建了多个目标。我是否可以创建一系列目标作为漏斗以用于报表和分析？**
 
-例如，我想在用户实现目标 A 时考虑目标 B，以便我可以跟踪特定漏斗的数值。**
+**例如，我想在用户实现目标 A 时考虑目标 B，以便我可以跟踪特定漏斗的数值。**
 
 使用我们的“量度依赖关系”功能是 Target 实现此目标的最佳方式。只需[添加其他成功量度的依赖关系](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)即可。您可以选择“已实现”和“未实现”等选项，同时还可以通过多种方式组合量度以创建所需的任意组合。
 
@@ -107,7 +107,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 使用三步活动工作流中的[“目标和设置”步骤中的“计划”功能](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)来指定开始日期和结束日期。
 
-请记住激活该营销活动。只有上线的实时营销活动才会遵守指定的计划。达到结束日期后，活动会进入“已结束”状态。
+请记住激活活动。只有实时活动才符合指定的计划。达到结束日期后，活动会进入“已结束”状态。
 
 **我是否可以仅在“定位”步骤中进行更改，而不是执行整个三步引导式工作流进行编辑？**
 
@@ -131,24 +131,12 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 使用三步引导式工作流步骤 3 提供的“优先级”设置（“目标与设置”页面）来[定义活动的优先级](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)。
 
-有一些选项可供使用：
-
-* [Target JavaScript 库（at.js 和 mbox.js）](../c-intro/cmp-target-standard-cheatsheet.md#section_C2AC78DFDAD84981A8C84DF20893E340)
-* 默认选项，共三个等级（低/中/高）
-* 自定义选项，范围从 0 到 999。对于自定义优先级，请启用细粒度优先级功能（设置 &gt; 首选项）
-
-## 受众{#section_FA6314777ABC46D8B198D6F388051460}
-
-**我已经设置了 2 个活动。访客最终会看到哪个活动？**
-
-**我可以设置一些活动的优先顺序吗？**
-
-使用三步引导式工作流步骤 3 提供的“优先级”设置（“目标与设置”页面）来[定义活动的优先级](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)。
-
 有两种选项：
 
 * 默认选项，共三个等级（低/中/高）
 * 自定义选项，范围从 0 到 999。对于自定义优先级，请启用细粒度优先级功能（设置 &gt; 首选项）
+
+## 受众{#section_FA6314777ABC46D8B198D6F388051460}
 
 **我是否可以在活动中创建特定于该活动的受众区段？我不认为应在受众库中创建此类受众，因为没有可以重复使用的地方。**
 
@@ -246,21 +234,6 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 使用[基于表单的方法](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)来创建活动。
 
-**我能否启动只有少数访客的活动？**
-
-使用 [Target 三步引导式工作流步骤 2（“定位”页面）](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)中提供的百分比分配控件来确定如何设置活动。
-
-**我已经设置了 2 个活动。访客最终会看到哪个活动？**
-
-**我可以设置一些活动的优先顺序吗？**
-
-使用三步引导式工作流步骤 3 提供的“优先级”设置（“目标与设置”页面）来[定义活动的优先级](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)。
-
-有两种选项：
-
-* 默认选项，共三个等级（低/中/高）
-* 自定义选项，范围从 0 到 999。对于自定义优先级，请启用细粒度优先级功能（设置 &gt; 首选项）
-
 **我能否确保在用户可能使用的所有设备上都始终如一地提供相同的体验？**
 
 试试我们的 [Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html)，它允许您通过 Co-op 确定性地和概率性地链接用户的多个设备。
@@ -283,7 +256,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **为什么 QA 过程中未进行内容交付？**
 
-您的网站可能拥有动态 ID、重复 ID 或元素上的动态类。您可能必须在帐户级别（或者在活动级别，如果问题特定于域或页面）评估网站首选项的选项。请参阅 [CSS 选择器](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872)中的“CSS 选择器”。
+您的网站可能拥有动态 ID、重复 ID 或元素上的动态类。您可能必须在帐户级别（或者在活动级别，如果问题特定于域或页面）评估网站首选项的选项。See [CSS Selectors](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
 
 **为何我没有看到我想要看到的选件/体验，反而看到了一些其他的活动？**
 
@@ -295,7 +268,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 ## 报表（包括 Analytics for Target—A4T）{#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-我也有 Adobe Analytics，并希望将其与 Target 结合使用。将这两种解决方案集成之后，我可以获得哪些关键功能？
+**我也有 Adobe Analytics，并希望将其与 Target 结合使用。将这两种解决方案集成之后，我可以获得哪些关键功能？**
 
 请了解一下产品的以下几个方面：
 
@@ -306,35 +279,31 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 * [受众](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 
-我是否可以根据多个用户区段对报表进行细分？
+**我是否可以根据多个用户区段对报表进行细分？**
 
 有关信息，请参考三步引导式活动工作流步骤 3 中的“目标和设置”页面上提供的[报表的受众功能](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)。
 
-您可以选择添加 50 个此类区段以及应用程序点（营销活动条目或特定量度），从而进行有效的细分。
+您可以选择添加50个此类区段，还可以添加应用程序点(活动条目或特定指标)，以具有强大的分割和分割方式。
 
 请注意，Target 会在您添加这些受众之后收集这方面的数据，因此如果您在运行测试之前未添加区段，那么很遗憾，您就无法收集这些数据进行细分了。
 
-我无法在运行活动之前定义受众。我发现 Target 活动中对定义报表受众进行了限制。
+**我无法在运行活动之前定义受众。我发现 Target 活动中对定义报表受众进行了限制。**
 
-怎样才可以让这个过程更轻松一点？
+**怎样才可以让这个过程更轻松一点？**
 
-参考 [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 会对您有所帮助。如果您拥有 Adobe Analytics，只需将来将源选为 Analytics，即可消除此限制。现在，您可以在任何时间对任何受众进行分析，而无需预先定义报表受众。
+This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. 如果您拥有 Adobe Analytics，只需将来将源选为 Analytics，即可消除此限制。现在，您可以在任何时间对任何受众进行分析，而无需预先定义报表受众。
 
-我是否可以清理报表，然后重新开始记录后续的数据？例如，最开始记录的点击量是来自于我自己在活动中的测试点击。
+**我是否可以执行离线报表计算？**
 
-使用[重置报表数据](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)功能。
+Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
 
-我是否可以执行离线报表计算？
+**我是否可以更改用于评估报表的控制体验？或者将计数方法从“访客”更改为“访问次数”？**
 
-使用“报表”页面上的[“将报表导出为 CSV”和“将订单详细信息下载到 CSV”选项](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)，即可下载所需的报表数据。
+Make these changes using the [Settings gear on the reports page](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). 阅读更多有关这些设置的信息，了解计算结果的差异。
 
-我是否可以更改用于评估报表的控制体验？或者将计数方法从“访客”更改为“访问次数”？
+**我应如何解读报表？**
 
-使用[报表页面上的“设置”齿轮](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)进行这些更改。阅读更多有关这些设置的信息，了解计算结果的差异。
-
-我应如何解读报表？
-
-我们通过以下功能制作尽可能直观的报表：[置信区间栏、提升度范围、显著性/置信度和多个量度选项、表格和图形视图、运行平均值等等](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)，以便进行有效且简便的报表分析。显然，如果您使用 [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 活动进行进一步的受众分析，您可以查看 Analytics。
+We have tried to make reports as intuitive as possible with features like [confidence Interval bars, lift bounds, significance/confidence and multiple metric selections, table and graph views, running averages, and more](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) to allow for powerful, yet easy, report analysis. 显然，如果您使用 [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 活动进行进一步的受众分析，您可以查看 Analytics。
 
 ## 响应令牌 {#section_C2A7118B4B62482A9D630C2212112A3D}
 

@@ -9,7 +9,7 @@ title: Adobe Target 的工作原理
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 834eee71f78765887e3e46f3cbab3eaf00b1ee39
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## Target JavaScript 库 {#libraries}
 
-Adobe Target 可通过两个 JavaScript 库中的任意一个与网站集成：at.js 或 mbox.js
+Adobe Target通过以下两个JavaScript库之一与网站集成：at. js或mbox. js
 
 * **at.js：**[at.js 库](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)是适用于 Target 的新实施库。使用 at.js 可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。at.js 是推荐使用的实施库，会经常更新功能。我们建议所有客户都实施或迁移到[最新版本的 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 * **mbox.js：** mbox.js 库是适用于 Target 的旧版实施库。虽然现在仍支持 mbox.js 库，但是以后不会再提供此库的功能更新。
@@ -29,11 +29,11 @@ Adobe Target 可通过两个 JavaScript 库中的任意一个与网站集成：a
 >
 >因此，所有客户都应迁移到 at.js。For more information, see [Migrate to at.js from mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-您必须在网站的每个页面上引用一个 Target JavaScript 文件。例如，您可以将此文件添加到全局标头。
+您必须在站点上的每个页面上引用Target JavaScript库文件。例如，您可以将此文件添加到全局标头。Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
-访客每次请求访问已针对 Target 进行优化的页面时，系统都会向定位系统发送请求，以确定要向访客提供哪些内容。此过程是实时进行的——每次加载页面时，系统都会发出内容请求，随后定位系统会处理此请求。内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。提供的内容是每个网站访客最有可能响应、与之交互并最终购买的，以便最大程度地提高响应率、购置率和收入。
+访客每次请求访问已针对 Target 进行优化的页面时，系统都会向定位系统发送请求，以确定要向访客提供哪些内容。这一过程实时进行-每次加载页面时，系统都会执行和完成内容请求。内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。提供的内容是每个网站访客最有可能响应、与之交互并最终购买的，以便最大程度地提高响应率、购置率和收入。
 
-在 Target 中，页面上的每个元素都是整个页面的单个体验的一部分。每个体验可包含页面上的多个元素。可通过在要跟踪的每个页面的 `<head>` 中添加一行代码来优化页面。
+在 Target 中，页面上的每个元素都是整个页面的单个体验的一部分。每个体验可能在页面中包括多个元素。
 
 向访客显示的内容取决于您创建的活动类型：
 
@@ -48,7 +48,7 @@ Adobe Target 可通过两个 JavaScript 库中的任意一个与网站集成：a
 1. 客户向您的服务器请求一个页面，然后该页面显示在浏览器中。
 2. 在客户的浏览器中设置第一方 Cookie，以保存该客户的行为。
 3. 页面调用定位系统。
-4. 根据您的营销活动的规则显示内容。
+4. 内容显示基于活动的规则。
 
 ### 自动分配
 
@@ -60,7 +60,7 @@ Adobe Target 可通过两个 JavaScript 库中的任意一个与网站集成：a
 
 有关更多信息，请参阅[自动定位](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
 
-自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行选择，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。
+Auto-Target使用先进的机器学习从多个高性能营销人员定义的体验中进行选择，并根据每个访客的个人客户档案和以前的访客行为为每位访客提供最适合的体验，从而个性化内容并推动转化率。
 
 ### 自动个性化 (AP)
 
@@ -92,7 +92,7 @@ Adobe Target 可通过两个 JavaScript 库中的任意一个与网站集成：a
 
 “边缘”是分布在各个地理位置的服务架构，不论请求内容的最终用户位于何处，均可确保为这些用户提供最佳响应时间，
 
-为了缩短响应时间，边缘环境仅存储活动逻辑以及缓存的配置文件和选件信息。活动数据库、内容数据库、[!DNL Analytics] 数据、API 以及营销人员用户界面都存储在 Adobe 的中心数据环境中。更新随后被发送到边缘节点。中心环境和边缘节点会自动同步，以持续更新缓存的活动数据。1:1 建模也存储在每个边缘，因此这些更加复杂的请求也能保存在边缘上。
+为提高响应时间，Edge环境仅托管活动逻辑和缓存的配置文件和提供信息。活动数据库、内容数据库、[!DNL Analytics] 数据、API 以及营销人员用户界面都存储在 Adobe 的中心数据环境中。更新随后被发送到边缘节点。中心环境和边缘节点会自动同步以持续更新缓存的活动数据。1：1建模也存储在每个边缘上，因此，这些更复杂的请求也可以在Edge上处理。
 
 每个边缘节点均具有响应用户内容请求和针对该请求跟踪分析数据所需的全部信息。用户请求被路由到最近的边缘节点。
 
@@ -102,21 +102,19 @@ Adobe Target 可通过两个 JavaScript 库中的任意一个与网站集成：a
 
 目前，Adobe 在多个洲都设立了数据中心，其中包括北美洲、欧洲和亚洲的多个地区。
 
-从距离请求点最近的边缘环境来响应请求（而不是从一处位置响应所有定位请求）可以降低网络/Internet 传输时间的影响。
-
-网络也提供故障转移机制。如果一个边缘节点出现故障，则请求会重定向到下一个最近的节点，以确保不向用户提供默认内容（无法完成请求时的典型备用响应）。
+与访客最接近的Edge环境处理请求，而不是响应单一位置的所有定向请求，从而减轻了网络/Internet旅行时间的影响。
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 当前在中国没有Edge网络，并且在中国 [!DNL Target] 客户的最终用户性能将继续受到限制。Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, the [!DNL Target] user interface might also experience latency.
+>[!DNL Adobe Target] 当前在中国没有Edge网络，并且在中国 [!DNL Target] 客户的最终用户性能将继续受到限制。Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe 确保定位基础设施的可用性和性能尽可能可靠。但是，最终用户浏览器与 Adobe 服务器之间的通信划分可能会导致内容交付中断。
 
-为了避免出现服务中断和连接问题，所有位置都设置为包含默认内容（由客户端定义），当用户的浏览器无法连接到 [!DNL Target] 时，将会显示默认内容。
+To safeguard against service interruptions and connectivity issues, all locations are set up to include default content (defined by the client), which is displayed if the user’s browser cannot connect to [!DNL Target].
 
-如果用户的浏览器无法连接服务器，则在定义的超时时间段（默认为 15 秒）内，页面不会发生任何更改。但是，如果超出此超时阈值，则 Cookie 中的一项设置会发生更改，以便用户能够立即看到所有其他位置的默认内容。此状态会持续半小时，之后，用户的浏览器会重新尝试连接 Adobe 服务器以请求访问内容。
+如果用户的浏览器无法在定义的超时时间段内连接，则不会对页面做出任何更改(默认情况下：15秒)。如果达到此超时阈值，则会显示默认位置内容。
 
 Adobe 通过优化和保障性能来保护用户体验。
 
@@ -160,7 +158,7 @@ Google 鼓励用户进行测试，并在其文档中指出只要遵循一些简�
 
    此外，还应务必考虑所测试的页面的可访问性。如果搜索引擎无法访问页面，而且之前从未将页面设计为在自然搜索排名中占据首位（例如专门用于电子邮件营销活动的登陆页面），则上述考虑事项均不适用。
 
-Google 指出，遵循这些准则“应会使您的测试对您的网站在搜索结果中的排名产生很小影响或不会产生任何影响。”
+Google表示遵循这些准则“应导致测试在搜索结果中几乎不会影响您的网站”。
 
 除了这些准则之外，Google 还在其 Content Experiments 工具的文档中提供了另外一个准则：
 

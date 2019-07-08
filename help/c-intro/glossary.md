@@ -1,13 +1,13 @@
 ---
-description: 术语的定义。
+description: Adobe Target中使用的术语定义。
 seo-description: 术语的定义。
-seo-title: 术语表
+seo-title: Adobe Target词汇表
 solution: Target
 title: 术语表
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
@@ -309,10 +309,6 @@ Target Standard 中活动的可视化表现形式。
 **single-page application（单页应用程序）**
 
 单页应用程序(SPA)是适合单个网页的Web应用程序或网站，可提供更流畅的用户体验，类似于桌面应用程序。
-
-**smart targeter profile parameter（智能定位器配置文件参数）**
-
-与脚本配置文件参数类似，但它已进行了预定义，用于提供有用的定位功能。
 
 **success metrics（成功量度）**
 

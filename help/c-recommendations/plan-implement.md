@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 414783c4072a574d278166bedc8243047135265b
+source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 如果零售商具有相对固定的产品目录，但同时又希望突出特定的季节性项目或促销项目，则可以优先选择此方法。大多数客户可能还是主要通过信息源来提供其信息，只需偶尔对页面进行调整。
 
-使用信息源提供的信息将保持静态。不论使用 CSV 文件还是 Google 信息源，均需使用以下参数：
+使用源提供不经常发生变化的信息。不论使用 CSV 文件还是 Google 信息源，均需使用以下参数：
 
 * 必需的参数
 
@@ -62,12 +62,15 @@ source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 * 有用的参数
 
-   * `entity.cust1`
-   * `entity.cust2`
-   * `entity.cust3`
-   * 所有其他属性
+   * `entity.name`
+   * `entity.categoryId`
+   * `entity.brand`
+   * `entity.pageUrl`
+   * `entity.thumbnailUrl`
+   * `entity.message`
+   * 所有自定义属性
 
-设置信息源并将其传递到 [!DNL Recommendations] 后，在页面上为经常发生更改的项目传递参数。
+Once the feed is set up and passed to [!DNL Recommendations], pass parameters on the page for attributes that change frequently, i.e. more often than daily.
 
 * 必需的参数
 
@@ -156,8 +159,7 @@ For more information about the differences between the two Target Javascript lib
 function targetPageParams() { 
    return { 
       "entity": { 
-         "categoryId": " 
-<i>My Category</i>" 
+         "categoryId": "My Category" 
       } 
    } 
 }
@@ -171,10 +173,8 @@ function targetPageParams() {
 function targetPageParams() { 
    return { 
       "entity": { 
-         "id": " 
-<i>32323</i>", 
-         "categoryId": " 
-<i>My Category</i>", 
+         "id": "32323", 
+         "categoryId": "My Category", 
          "value": 105.56, 
          "inventory": 329 
       } 

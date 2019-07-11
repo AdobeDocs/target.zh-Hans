@@ -8,7 +8,7 @@ title: 多变量测试
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 ---
 
@@ -79,7 +79,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * 选择要更改的元素以及每个元素的版本数（3x2、4x3 等等）。
    * 保持编号一致。例如，如果按钮是元素 1，选项是蓝色、绿色和黄色，则蓝色按钮为 1-1，绿色按钮为 1-2，黄色按钮为 1-3。
    * 该离线电子表格提供了所需的相应数量的体验（3x2 是 4 个、4x3 是 9 个，等等）。
-   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC) or Form-based Experience Composer](/help/c-experiences/experiences.md). 如果您使用 VEC，则可以使用自定义代码、编辑 HTML、显示所见即所得 (WYSIWYG) 或这三种方式的任意组合。
+   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC)](/help/c-experiences/experiences.md). 您可以使用自定义代码、编辑HTML、所见即所得或任何组合。
    * 活动结束后（基于样本量计算器），通过该电子表格运行结果以获取其他详细信息。
 
 有关更多注意事项和最佳实践，请参阅 [多变量测试最佳实践](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)。

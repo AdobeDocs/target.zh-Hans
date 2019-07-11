@@ -8,7 +8,7 @@ title: Target 发行说明（当前版本）
 topic: 推荐
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
+source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
 
 ---
 
@@ -28,7 +28,9 @@ source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
 
 此版本包括以下新增功能和增强功能：
 
-| 功能 / 增强功能 | 描述 |
+（括号中的问题编号供 Adobe 内部使用。）
+
+| 功能/增强 | 描述 |
 | --- | --- |
 | 可视化体验编辑器 (VEC) | **新的CMS菜单选项**：单击CMS中的页面元素时，菜单会显示可用于该元素类型的选项。<ul><li>You can now use the [!UICONTROL Styles &gt; Background] option to change the background image and color for the selected element. (TGT-15001)</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**单击跟踪改进**：我们改进了在CMS和单页应用程序(SPA) CMS中配置点击跟踪的过程。<ul><li>选择要在单击跟踪中使用的元素时，所有可用元素的名称都会显示在右侧的“修改”面板中，从而可以快速、轻松地选择所需元素。</li><li>The [!UICONTROL Goals &amp; Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. 您可以将鼠标悬停在此数字上，查看所有选定元素的名称。(TGT-33878)</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
 | 单页应用程序 Visual Experience Composer (SPA VEC) | **引导工作流程**：新的向导式工作流程可帮助您了解页面交付规则设置如何配置为为单页应用程序成功执行和运行活动。(TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**克隆修改**：您现在可以使用SPA CMS定义修改，然后克隆该修改以在单页应用程序中的其他视图中使用。(TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |

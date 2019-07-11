@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 | 页面 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019年月10日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 为以下项目添加了限制信息：<ul><li>每个活动的专家数。</li><li>每个活动的成功量度数。</li><li>每个活动的报告受众/区段数。</li><li>每个mbox、指标和体验的受众数量。</li><li>每个定位规则唯一值的数量。</li><li>每个定位规则的唯一受众数量。</li><li>每个活动的唯一定位规则数。</li><li>活动配置文件脚本的数量。</li><li>配置文件脚本总数。</li><li>每个配置文件脚本的总循环数。</li><li>实时活动数。</li><li>活动已保存(和未结束)活动的数量。</li><li>属性数量。</li><li>选件数量。</li></ul> |
+|  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发布的Target19.7.1版本的信息(2019年月23日)。<br>请注意，此信息可能会发生更改。 |
 | 2019年月日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 添加了一些信息，解释了为何应使用CNAME。 |
 | 2019年月28日 | [已知问题和解决的问题：](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[使用和不使用A4TreDirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[选件A4T常见问题解答时，目标与分析之间预期的数据差异](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 添加了有关一个已知问题的信息，该问题导致使用A4T重定向的客户数量有限，以查看未拼接命中率的更高百分比。 |
 | 2019年月26日 | [视觉体验选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |

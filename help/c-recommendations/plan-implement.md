@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 方法 | 描述 |
 |--- |--- |
 | 直接将参数传递到页面 | 此方法适用于经常发生更改的项目。但是，由于此方法需要直接对页面进行更改，因此许多组织在使用此方法时需要 IT 部门和页面实施人员的帮助。 |
-| 通过 Google 或 CSV 信息源传递参数 | 此方法适用于不会经常更改的收藏集。通常情况下，通过信息源提供产品信息时，不必更改 mbox 实施或其他页面代码。但是，由于产品列表保持静态，因此要实现快速更改会比较困难。有关更多信息，请参阅[信息源](/help/c-recommendations/c-products/feeds.md)。 |
+| 通过 Google 或 CSV 信息源传递参数 | 此方法适用于不会经常更改的收藏集。通常情况下，通过信息源提供产品信息时，不必更改 实施或其他页面代码。但是，由于产品列表保持静态，因此要实现快速更改会比较困难。有关更多信息，请参阅[信息源](/help/c-recommendations/c-products/feeds.md)。 |
 
 如以下示例所示，这两种方法既可以单独使用也可以结合使用。
 

@@ -1,8 +1,8 @@
 ---
 description: 有些设置可用于描述和控制“推荐”活动。
 keywords: 推荐;设置;名称;目标;优先级;持续时间;报表设置;其他元数据
-seo-description: 有些设置可用于描述和控制“推荐”活动。
-seo-title: “推荐”活动设置
+seo-description: 可使用多种设置描述和控制Adobe Target中的推荐活动。
+seo-title: Adobe Target中的推荐活动设置
 solution: Target
 subtopic: 推荐
 title: “推荐”活动设置
@@ -11,7 +11,7 @@ topic: Premium
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ---
 
@@ -19,6 +19,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # ![PREMIUM](/help/assets/premium.png)“推荐”活动设置{#recommendations-activity-settings}
 
 有关可用于描述和控制[!UICONTROL 推荐]活动的设置的信息。
+
+![Recommendations目标和设置页面](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
 以下部分介绍了[!UICONTROL 推荐]活动的可用设置。
 
@@ -45,11 +47,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 优先级
 
-调整滑块可确定优先级别。共有三个级别：
-
-* 0 = 低
-* 1 = 中
-* 2 = 高
+调整滑块可确定优先级别。
 
 如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。
 
@@ -57,11 +55,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 设置活动的持续时间。
 
-活动可以在获得批准时开始，或者您也可以设置特定的日期和时间。同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。时间选择器使用的是 24 小时制时钟，其中 00:00 表示午夜。时区设置为在浏览器中配置的时区。要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
+活动可以在激活后启动，也可以设置特定的日期和时间。同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。时间选择器使用的是 24 小时制时钟，其中 00:00 表示午夜。时区设置为在浏览器中配置的时区。要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
 
 ## 报表设置
 
-* **目标：** 为目标命名，并选择用于确定活动是否成功的成功量度。
+* **报告来源：** 选择报告源：Adobe Target或 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)。活动开始后，请勿更改报告源。活动进入活动后更改报告源会导致报告不一致。
+* **目标量度：** 选择确定活动是否成功的成功量度。
 * **其他量度：** 配置要在报表中使用的其他成功量度。
 * **报表的受众：** 定义可在筛选报表时使用的受众。
 

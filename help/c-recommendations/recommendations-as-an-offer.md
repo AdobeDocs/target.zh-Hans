@@ -8,7 +8,7 @@ title: “推荐”作为选件
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >对于 A/B 测试，请记住您可以选择[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)选项以自动将流量推送到性能最佳的推荐，或者选择[自动定位](/help/c-activities/auto-target-to-optimize.md)选项以根据访客的配置文件为他们分配量身定制的推荐体验。
 
-1. 在创建[体验](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)时，单击要将推荐作为选件添加到的元素，选择[!UICONTROL 此项前插入]、[!UICONTROL 此项后插入]或[!UICONTROL 替换为]操作，然后选择[!UICONTROL 推荐]。
+1. While creating an [experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element you want to add a recommendation to as an offer, select the **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, or **[!UICONTROL Replace With]** action, then select [!UICONTROL Recommendation].
 
    下图显示了[!UICONTROL 此项后插入 &gt; 推荐]选项。
 
@@ -42,11 +42,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 从以下选项中选择，以查看按页面类型划分的热门推荐标准：
 
-   * 文章页面
    * 购物车页面
    * 类别页面
    * 首页
    * 登录页面
+   * 产品页面
+   * 搜索结果页面
+   * 感谢页面
+   * 其他
 
 1. 选择所需的[标准](/help/c-recommendations/c-algorithms/algorithms.md)，然后单击[!UICONTROL 下一步]。
 1. 选择所需的[设计](/help/c-recommendations/c-design-overview/design-overview.md)，然后单击[!UICONTROL 下一步]。

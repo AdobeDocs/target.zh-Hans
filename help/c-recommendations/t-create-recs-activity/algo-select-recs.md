@@ -1,7 +1,7 @@
 ---
 description: 选择要在您的“推荐”活动中使用的标准。
 keywords: 推荐;推荐活动;标准
-seo-description: 选择要在您的“推荐”活动中使用的标准。
+seo-description: 选择要在Adobe Target Recommendations活动中使用的条件。
 seo-title: 选择标准
 solution: Target
 title: 选择标准
@@ -10,14 +10,14 @@ topic: Premium
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 选择标准{#select-criteria}
 
-选择要在您的“推荐”活动中使用的标准。
+Select the [criteria](/help/c-recommendations/c-algorithms/algorithms.md) to use in your Recommendations activity. 标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。
 
 您可以添加多个标准，以便对多个推荐类型进行相互测试。
 
@@ -27,13 +27,18 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    [!DNL Recommendations] 中提供了一些自带标准。您和您的团队也可以创建自己的自定义标准。
 
-* 要创建新标准，请单击 **[!UICONTROL 新建]**，然后填写有关新标准的信息。有关创建新标准的信息，请参阅[创建新标准](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
+* To create a new criteria, click **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 有关创建新标准的信息，请参阅[创建新标准](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
 
-1. [创建新推荐](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)，或查找要为其设置标准的推荐，然后单击 **[!UICONTROL 编辑]**。
-1. 选择行业类型和页面类型。
+**要选择条件，请执行以下操作：**
 
-* **行业类型：** 行业类型用于帮助对 [!DNL Recommendations] 标准进行分类。要更改默认的垂直行业，请单击 **[!UICONTROL 设置]**，然后选择所需的默认 **垂直行业]设置。[!UICONTROL **
-* **页面类型：** 页面类型可帮助您对推荐进行分类。每种页面类型还有一些内置标准，可供您选择。
-* **兼容：** 仅显示要求选定页面传递所需数据的标准。并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 [!DNL entity.categoryId]，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除 **[!UICONTROL 兼容]复选框。** 可以在 [!DNL Target][!UICONTROL  的“首选项]”中禁用或启用此选项。
+1. [在创建新推荐的](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)同时，在 **[!UICONTROL “标准”]** 对话框中找到并选择一个或多个条件。
 
-1. 单击 **[!UICONTROL 添加]**。
+   ![“选择标准”对话框](/help/c-recommendations/t-create-recs-activity/assets/filters.png)
+
+   You can use the [!UICONTROL Industry Type] filter, [!UICONTROL Page Type] filter, and [!UICONTROL Compatible] checkbox to filter the list of criteria. 这些选项可帮助您找到所需的条件。
+
+   * **行业类型：** 行业类型用于帮助对 [!DNL Recommendations] 标准进行分类。要更改默认的垂直行业，请单击 **[!UICONTROL 设置]**，然后选择所需的默认 **垂直行业]设置。[!UICONTROL **
+   * **页面类型：** 页面类型可帮助您对推荐进行分类。每种页面类型还有一些内置标准，可供您选择。
+   * **兼容：** 仅显示要求选定页面传递所需数据的标准。并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除 **[!UICONTROL 兼容]复选框。** 可以在 [!DNL Target][!UICONTROL  的“首选项]”中禁用或启用此选项。
+
+1. Click **[!UICONTROL Next]** to display the [Select Design](/help/c-recommendations/c-design-overview/design-overview.md) dialog box.

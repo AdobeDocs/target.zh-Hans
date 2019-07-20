@@ -30,7 +30,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/activity-only-aud.png)
 
-1. 单击 **[!UICONTROL 创建受众]**。
+1. 单击&#x200B;**[!UICONTROL 创建受众]**。
 1. 键入描述性受众名称。
 1. 单击 **[!UICONTROL + 添加规则]**。
 
@@ -41,7 +41,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    每种规则类型都有其自身的参数。请参阅[受众类别](../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)，以详细了解如何配置每种类型的受众规则。
 
 1. 定义规则参数。
-1. 单击 **[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 注意事项
 

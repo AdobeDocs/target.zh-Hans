@@ -20,13 +20,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以组合多个流量源来创建一个复杂的目标规则。
 
-1. 在 [!DNL Target] 界面中，单击 **[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
+1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
-1. 单击 **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 流量源]**。
+1. 单击&#x200B;**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 流量源]**。
 
    ![](assets/target_traffic_source.png)
 
-1. 单击 **[!UICONTROL 选择]**，然后选择以下选项之一：
+1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
    * 来自 Baidu
    * 来自 Bing
@@ -37,8 +37,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * 引荐登陆页面: 查询
    根据您的选择，可能需要提供其他信息(评估者和/或值)。
 
-1. （可选）单击 **[!UICONTROL 添加规则]，然后为受众设置更多规则。**
-1. 单击 **[!UICONTROL 保存]**。
+1. （可选）单击&#x200B;**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 您可以定位由特定搜索引擎或从特定登陆页面引荐至您网站的用户。
 

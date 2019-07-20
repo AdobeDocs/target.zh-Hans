@@ -25,7 +25,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | --- | --- | --- | --- |
 | viewName | 字符串 | 是 | 将任何名称作为要显示视图的字符串类型传递。此视图名称显示在 VEC 的[!UICONTROL 修改]面板中，供营销人员创建操作并运行其 A/B 和 XT 活动。 |
 | options | 对象 | 否 |  |
-| options &gt; page | 布尔值 | 否 | **TRUE：** page 的默认值为 true。当 page=true 时，将向 [!DNL Target] 后端发送增加展示次数计数的通知。<br>如果没有活动体验或活动量度与视图相关联，则不发送通知。<br>**FALSE：** 当 page=false 时，将不会发送增加展示次数计数的通知。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
+| options &gt; page | 布尔值 | 否 | **TRUE：** page 的默认值为 true。当 page=true 时，将向 [!DNL Target] 后端发送增加展示次数计数的通知。<br>如果没有活动体验或活动量度与视图相关联，则不发送通知。<br>**FALSE：**&#x200B;当 page=false 时，将不会发送增加展示次数计数的通知。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
 
 ## 示例：True
 

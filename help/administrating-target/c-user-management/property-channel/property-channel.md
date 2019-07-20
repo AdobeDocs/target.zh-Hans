@@ -32,7 +32,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 * **[!DNL Target Standard]客户**：如果您看到[!UICONTROL 用户]选项卡（[!UICONTROL 设置 &gt; 用户]），则表明贵组织拥有 [!DNL Target Standard] 许可证。[!DNL Target Standard] 客户应按照[用户](/help/administrating-target/c-user-management/c-user-management/user-management.md)中的相关说明进行操作，以在 Adobe Admin Console 中添加用户和分配权限。
 
-   [!DNL Target Standard]单击“属性”选项卡时， 用户会看到以下错误消息，[!UICONTROL ]但 [!DNL Target] 并没有任何问题。[!DNL Target Standard] 用户无权访问 [!DNL Target Premium][!UICONTROL  企业权限]功能。
+   [!DNL Target Standard]单击“属性”选项卡时， 用户会看到以下错误消息，但 [!DNL Target] 并没有任何问题。[!DNL Target Standard] 用户无权访问 [!DNL Target Premium][!UICONTROL  企业权限]功能。
 
    ![错误消息](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 
@@ -194,13 +194,13 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
    ![](assets/workspace_drop-down.png)
 
-* **活动创建：** 创建新活动时，该活动会创建在当前选定的工作区中。您将在第一个对话框中看到渠道选择选项，允许您为活动选择所需的渠道：Web、移动应用程序、电子邮件或其他/API。
+* **活动创建：**&#x200B;创建新活动时，该活动会创建在当前选定的工作区中。您将在第一个对话框中看到渠道选择选项，允许您为活动选择所需的渠道：Web、移动应用程序、电子邮件或其他/API。
 
    ![](assets/channel_options.png)
 
-* **受众创建：** 创建新受众时，该受众会创建在当前选定的工作区中。
-* **选件创建：** 创建新选件时，该选件会创建在当前选定的工作区中。
-* **属性页面（“设置”&gt;“属性”）：** 您可以使用“[!UICONTROL 搜索]”框、“[!UICONTROL 渠道]”和“[!UICONTROL 产品配置文件]”选项筛选“[!UICONTROL 属性]”列表。
+* **受众创建：**&#x200B;创建新受众时，该受众会创建在当前选定的工作区中。
+* **选件创建：**&#x200B;创建新选件时，该选件会创建在当前选定的工作区中。
+* **属性页面（“设置”&gt;“属性”）：**&#x200B;您可以使用“[!UICONTROL 搜索]”框、“[!UICONTROL 渠道]”和“[!UICONTROL 产品配置文件]”选项筛选“[!UICONTROL 属性]”列表。
 
    ![](assets/properties_list.png)
 
@@ -232,7 +232,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
    * 只有在 Target Premium 中创建的新资源（例如活动、代码选件和受众）才能按权限（启用企业权限后）进行限制。
    * 外部资源仅供默认工作区中的用户使用。默认工作区中的用户角色会应用到全局（适用于所有 Target 请求和所有 Target 资源）。
 
-* 以下资源*不*属于新的企业权限模型的一部分：
+* 以下资源&#x200B;*不*&#x200B;属于新的企业权限模型的一部分：
 
    * 图像选件
    * 所有“推荐”资源，其中包括标准库、设计库、目录、推荐设置。

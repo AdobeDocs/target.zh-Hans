@@ -37,7 +37,7 @@ Adobe Target Classic 具有一个称为服务器插件的功能，允许您发�
 
    有关更多信息，请参阅[下载 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
 
-1. 在 [!DNL Target] 中，单击 **[!UICONTROL 设置]** &gt; **[!UICONTROL 响应令牌]**。
+1. 在 [!DNL Target] 中，单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 响应令牌]**。
 
    ![](assets/response_tokens.png)
 
@@ -67,7 +67,7 @@ Adobe Target Classic 具有一个称为服务器插件的功能，允许您发�
 
 1. （视情况而定）如果您想将配置文件参数用作响应令牌，但该参数由于尚未通过 mbox 调用进行传递，因此还没有加载到 Target UI 中，这种情况下，您可以使用“创建”按钮将该配置文件添加到 UI。
 
-   单击 **[!UICONTROL 创建]**，提供令牌名称，然后单击 **[!UICONTROL 激活]**。
+   单击&#x200B;**[!UICONTROL 创建]**，提供令牌名称，然后单击&#x200B;**[!UICONTROL 激活]**。
 
    ![](assets/response_token_create.png)
 

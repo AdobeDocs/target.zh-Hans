@@ -26,8 +26,8 @@ AdBox 广告和重定向器可用于任何类型的活动。下表比较了 Adbo
 
 |  | 用途 | 何时使用 | URL 结构 | 选件类型 | 选件内容 |
 |--- |--- |--- |--- |--- |--- |
-| AdBox | 向广告返回不同的图像 | 改变广告的内容 | `clientcode​.tt.​omtrdc​.net/​m2​/​clientcode/ubox/​image?` | 重定向选件 | 图像 URL |
-| 重定向器 | 将访客重新导向另一个网页 | 改变广告的登陆页 | `clientcode​.tt.omtrdc.net/​m2/clientcode​/ubox/page?` | 重定向选件 | 页面 URL |
+| AdBox | 向广告返回不同的图像 | 改变广告的内容 | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | 重定向选件 | 图像 URL |
+| 重定向器 | 将访客重新导向另一个网页 | 改变广告的登陆页 | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | 重定向选件 | 页面 URL |
 
 ## 限制 {#section_38F559DCF1324271926608BCD4AB1227}
 

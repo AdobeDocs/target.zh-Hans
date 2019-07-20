@@ -31,7 +31,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target&#39;s category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations&#39; product and content recommendations. `user.categoryId` 是跟踪用户喜爱的类别所必需的。`entity.categoryId` 要求对当前页面或当前项目的类别进行基础推荐。如果要同时使用这两个功能，请将这两个值传递给Adobe Target。
+>The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` 是跟踪用户喜爱的类别所必需的。`entity.categoryId` 要求对当前页面或当前项目的类别进行基础推荐。如果要同时使用这两个功能，请将这两个值传递给Adobe Target。
 
 ## 类别亲和度的商业案例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -107,7 +107,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 创建要使用类别亲和度的受众 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. 从 **[!UICONTROL 受众]** 列表中，单击 **[!UICONTROL + 创建受众]**。
+1. 从&#x200B;**[!UICONTROL 受众]**&#x200B;列表中，单击 **[!UICONTROL + 创建受众]**。
 
    或
 
@@ -115,7 +115,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 键入描述性受众名称。
 1. 单击 **[!UICONTROL + 添加规则]** &gt; **[!UICONTROL 访客配置文件]**。
-1. 从 **[!UICONTROL 访客配置文件]** 下拉列表中，选择 **[!UICONTROL 类别亲和度]**。
+1. 从&#x200B;**[!UICONTROL 访客配置文件]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 类别亲和度]**。
 
    ![访客配置文件&gt;类别亲和力](assets/affinity.png)
 
@@ -139,7 +139,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * 等于
 
 1. 在单独的行中指定每个新值（例如，“鞋子”）。
-1. 单击 **[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 在活动中使用类别亲和度受众 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 

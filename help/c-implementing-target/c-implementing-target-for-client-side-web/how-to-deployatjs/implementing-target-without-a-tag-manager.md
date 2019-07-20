@@ -40,7 +40,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 要打开“[!UICONTROL 设置]”页面，请执行以下操作：
 
-1. 单击 **[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]**。
+1. 单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]**。
 1. 选择 **[!UICONTROL at.js]** &gt; **[!UICONTROL 编辑 at.js 设置]**。
 
 ## 内容交付设置 {#section_118D290DFC444509AD8E4AE86C9D92C0}
@@ -92,9 +92,9 @@ ov2/c_target-configure-atjs.xml
 
 要从 [!DNL Target] 界面下载 [!DNL at.js]，请执行以下操作：
 
-1. 单击 **[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]**。
+1. 单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]**。
 1. 选择 **[!UICONTROL at.js]**。
-1. 单击 **[!UICONTROL 下载 at.js]**。
+1. 单击&#x200B;**[!UICONTROL 下载 at.js]**。
 
 ## 使用 Target 下载 API 下载 at.js {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
@@ -102,7 +102,7 @@ ov2/c_target-configure-atjs.xml
 
 1. 获取您的客户端代码。
 
-   您的客户端代码位于 [!DNL Target] 界面中的 **[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]** &gt; **[!UICONTROL 编辑 at.js 设置]** 页面顶部。
+   您的客户端代码位于 [!DNL Target] 界面中的&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]** &gt; **[!UICONTROL 编辑 at.js 设置]**&#x200B;页面顶部。
 
 1. 获取您的管理员编号。
 
@@ -205,7 +205,7 @@ at.js 应该在您网站每个页面的 `<head>` 元素中实施。
 请注意以下重要说明：
 
 * 应使用 HTML5 Doctype（例如 `<!doctype html>`）。不受支持或较旧的 doctypes 可能会导致 Target 无法提出请求。
-* “预连接”和“预提取”选项可帮助提升网页加载速度。如果您使用这些配置，请确保将 `<client code>` 替换为您自己的客户端代码，此代码可从 **[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]** &gt; **[!UICONTROL 编辑 at.js 设置]** 页面中获取。
+* “预连接”和“预提取”选项可帮助提升网页加载速度。如果您使用这些配置，请确保将 `<client code>` 替换为您自己的客户端代码，此代码可从&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]** &gt; **[!UICONTROL 编辑 at.js 设置]**&#x200B;页面中获取。
 * 如果您拥有数据层，那么在 at.js 加载之前，最好在页面的 `<head>` 中定义尽可能多的数据层。此位置允许您在 Target 中利用此信息进行最大程度的个性化。
 * 特殊 Target 函数（例如 `targetPageParams()`、`targetPageParamsAll()`、数据提供程序和 `targetGlobalSettings()`）应在 at.js 加载之前，数据层加载之后进行定义。或者，可以将这些函数保存在“[!UICONTROL 编辑 at.js 设置]”页面的“[!UICONTROL 库标头]”部分中，并另存为 at.js 库的一部分。有关这些函数的更多信息，请参阅 [at.js 函数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
 * 如果您使用 JavaScript 帮助程序库（例如 jQuery），则请在使用 Target 之前包含它们，以便在构建 Target 体验时可以利用它们的语法和方法。
@@ -232,7 +232,7 @@ ov/t_create_orderconfirm-page-mbox-atjs.xml
    >
    >使用逗号分隔多个产品 ID。
 
-   **提示：** 您也可以在任意 mbox（必须命名为 `orderConfirmPage`）中传递订单信息。还可以在同一营销活动之内的多个 mbox 中传递订单信息。
+   **提示：**&#x200B;您也可以在任意 mbox（必须命名为 `orderConfirmPage`）中传递订单信息。还可以在同一营销活动之内的多个 mbox 中传递订单信息。
 
    ```
    <script type="text/javascript"> 

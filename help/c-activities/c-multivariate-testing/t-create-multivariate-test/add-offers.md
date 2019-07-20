@@ -18,7 +18,7 @@ For more information about using the VEC to create and edit offers, see [Visual 
 
 >[!NOTE]
 >
->选择页面上的对象时，您可以单击 **[!UICONTROL 展开选定内容]**，以便在除了最初选定的元素之外，还选择父元素。选择任意父元素时，该元素的所有子元素均会自动选定。您可以多次展开选定内容。
+>选择页面上的对象时，您可以单击&#x200B;**[!UICONTROL 展开选定内容]**，以便在除了最初选定的元素之外，还选择父元素。选择任意父元素时，该元素的所有子元素均会自动选定。您可以多次展开选定内容。
 >
 >You can also use the [DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) to navigate elements.
 
@@ -26,11 +26,11 @@ For more information about using the VEC to create and edit offers, see [Visual 
 
 可在某个位置测试多个图像选件，以确定哪个图像最为成功。
 
-1. 单击页面上的某个图像，然后选择 **[!UICONTROL 更改图像]**。
+1. 单击页面上的某个图像，然后选择&#x200B;**[!UICONTROL 更改图像]**。
 
    ![更改图像选项](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
-1. 选择要包含在测试中的所有图像，然后单击 **[!UICONTROL 保存]**。
+1. 选择要包含在测试中的所有图像，然后单击&#x200B;**[!UICONTROL 保存]**。
 
    ![选择用于添加图像的“内容”对话框](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
@@ -40,17 +40,17 @@ For more information about using the VEC to create and edit offers, see [Visual 
 
 可在某个位置测试多个文本/HTML 选件，以确定哪个选件最为成功。
 
-1. 单击页面上的某个文本/HTML 选件，然后单击 **[!UICONTROL 更改文本/HTML]**。
+1. 单击页面上的某个文本/HTML 选件，然后单击&#x200B;**[!UICONTROL 更改文本/HTML]**。
 
    ![更改文本/HTML](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
 
-1. 单击 **[!UICONTROL 添加文本/HTML 选件]，为选件提供名称，然后键入或粘贴该文本/HTML 选件的代码。**
+1. 单击&#x200B;**[!UICONTROL 添加文本/HTML 选件]，为选件提供名称，然后键入或粘贴该文本/HTML 选件的代码。**
 
    ![编辑选件](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
    重复执行上述步骤以添加任何其他要包含的文本/HTML 选件。
 
-1. 单击 **[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 每个文本/HTML 选件会成为该位置的独立体验。
 

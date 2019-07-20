@@ -24,56 +24,56 @@ source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 
 可通过多种方式来访问“[!UICONTROL 创建新标准]”屏幕。某些屏幕选项会根据您访问该屏幕的方式而有所不同。
 
-* 创建 [!DNL Recommendations] 活动时，在[!UICONTROL 选择标准]屏幕上单击 **[!UICONTROL 新建]**。您将可以选择保存新建的标准，以供在其他 [!DNL Recommendations] 活动中使用。
-* 编辑 [!DNL Recommendations] 活动时，在页面上的[!UICONTROL 推荐位置]框中单击，然后选择 **[!UICONTROL 更改标准]**。在[!UICONTROL 选择标准]屏幕上，单击 **[!UICONTROL 新建]**。您将可以选择保存新建的标准，以供在其他 [!DNL Recommendations] 活动中使用。
-* 在 **[!UICONTROL 推荐]** &gt; **[!UICONTROL 标准]** 库屏幕上，单击 **[!UICONTROL 创建标准]**。您在此处创建的标准会自动设置为可用于所有 [!DNL Recommendations] 活动。
+* 创建 [!DNL Recommendations] 活动时，在[!UICONTROL 选择标准]屏幕上单击&#x200B;**[!UICONTROL 新建]**。您将可以选择保存新建的标准，以供在其他 [!DNL Recommendations] 活动中使用。
+* 编辑 [!DNL Recommendations] 活动时，在页面上的[!UICONTROL 推荐位置]框中单击，然后选择&#x200B;**[!UICONTROL 更改标准]**。在[!UICONTROL 选择标准]屏幕上，单击&#x200B;**[!UICONTROL 新建]**。您将可以选择保存新建的标准，以供在其他 [!DNL Recommendations] 活动中使用。
+* 在&#x200B;**[!UICONTROL 推荐]** &gt; **[!UICONTROL 标准]**&#x200B;库屏幕上，单击&#x200B;**[!UICONTROL 创建标准]**。您在此处创建的标准会自动设置为可用于所有 [!DNL Recommendations] 活动。
 
-1. 单击 **[!UICONTROL 创建标准]** 或 **[!UICONTROL 新建]**。
+1. 单击&#x200B;**[!UICONTROL 创建标准]**&#x200B;或&#x200B;**[!UICONTROL 新建]**。
 
    ![“创建标准”按钮](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
 
-1. 选择 **[!UICONTROL 创建标准]**。
+1. 选择&#x200B;**[!UICONTROL 创建标准]**。
 
    ![创建新标准](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
-1. 键入 **[!UICONTROL 标准名称]**。
+1. 键入&#x200B;**[!UICONTROL 标准名称]**。
 
    这是用于描述标准的“内部”名称。例如，您可能希望将标准命名为“利润最高的产品”，但是不希望公开显示此名称。请参阅下一步骤，以设置公开显示的标题。
 
-1. 为使用该标准的所有“推荐”键入一个要在页面上公开显示的 **[!UICONTROL 显示标题]**。
+1. 为使用该标准的所有“推荐”键入一个要在页面上公开显示的&#x200B;**[!UICONTROL 显示标题]**。
 
    例如，使用此标准显示推荐时，您可能想要显示“查看了这个项目，也查看了那个项目的人”或“相似产品”。
 
-1. 键入对标准的简短 **[!UICONTROL 描述]**。
+1. 键入对标准的简短&#x200B;**[!UICONTROL 描述]**。
 
    描述应该有助于您识别该标准，并且可以包含与标准用途相关的信息。
 
-1. 选择 **[!UICONTROL 垂直行业]**：
+1. 选择&#x200B;**[!UICONTROL 垂直行业]**：
 
    * [!UICONTROL 零售/电子商务]
    * [!UICONTROL 潜在客户拓展/B2B/金融服务]
    * [!UICONTROL 媒体/出版]
    根据您选择的垂直行业，其他标准选项将会发生相应的更改。
 
-1. 选择 **[!UICONTROL 页面类型]**。
+1. 选择&#x200B;**[!UICONTROL 页面类型]**。
 
    您可以选择多个页面类型。
 
    垂直行业和页面类型可一起用于对已保存的标准进行分类，从而使其更易于在其他 [!DNL Recommendations] 活动中重复使用。
 
-1. 选择 **[!UICONTROL 推荐键]**。
+1. 选择&#x200B;**[!UICONTROL 推荐键]**。
 
    有关基于键的标准的更多信息，请参阅[使推荐基于推荐键](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)。
 
-1. 选择 **[!UICONTROL 推荐逻辑]**。
+1. 选择&#x200B;**[!UICONTROL 推荐逻辑]**。
 
    有关推荐逻辑选项的更多信息，请参阅[标准](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 
    >[!NOTE]
    >
-   >如果您选择了 **[!UICONTROL 具有相似属性的项目]**/**[!UICONTROL 媒体]**，则可以选择设置[内容相似度规则](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB)。
+   >如果您选择了&#x200B;**[!UICONTROL 具有相似属性的项目]**/**[!UICONTROL 媒体]**，则可以选择设置[内容相似度规则](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB)。
 
-1. 设置 **[!UICONTROL 数据范围]** 以确定在决定要显示的推荐时所使用的可用历史用户行为数据的时间范围。
+1. 设置&#x200B;**[!UICONTROL 数据范围]**&#x200B;以确定在决定要显示的推荐时所使用的可用历史用户行为数据的时间范围。
 
    如果您的网站拥有大量流量且行为更改频繁，请选择较短的数据范围。较短的范围可使 [!DNL Recommendations] 能够更好地响应市场和业务的变化。例如，较短的范围意味着 [!DNL Recommendations] 将在访客开始季节性购物时就检测到访客行为的变化（例如返校购物季或圣诞节），并推荐适合这些购物季的项目。
 
@@ -87,11 +87,11 @@ source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
    * 一个月
    * 两个月
 
-1. 选择所需的 **[!UICONTROL 行为数据源]**：[!UICONTROL mbox] 或 [!UICONTROL Analytics]。
+1. 选择所需的&#x200B;**[!UICONTROL 行为数据源]**：[!UICONTROL mbox] 或 [!UICONTROL Analytics]。
 
    如果您选择“[!UICONTROL Analytics]”，则还应选择所需的报表包。
 
-1. 设置 **[!UICONTROL 内容]** 规则。
+1. 设置&#x200B;**[!UICONTROL 内容]**&#x200B;规则。
 
    内容规则用于确定当推荐的项目数量不足以填满您的设计时，将发生什么情况。例如，如果您的设计有五个项目的空间，但您的标准只会导致推荐三个项目，那么您可以将剩余的空间留空，也可以使用备用推荐来填满额外的空间。
 
@@ -102,21 +102,21 @@ source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
    * [!UICONTROL 推荐以前购买的项目]
    此设置基于 `productPurchasedId`。如果您销售的是人们通常只买一次的物品，例如皮划艇，那么此选项很有用。如果您销售的是人们会再次回来购买的物品，例如洗发水或其他个人物品，则应禁用此选项。
 
-1. 设置 **[!UICONTROL 包含规则]**。
+1. 设置&#x200B;**[!UICONTROL 包含规则]**。
 
    包含规则可确定哪些项目将会包含在您的推荐中。可用的选项取决于您的垂直行业。
 
    有关更多详细信息，请参阅[包含规则](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)。
 
-1. 配置 **[!UICONTROL 属性权重]**。
+1. 配置&#x200B;**[!UICONTROL 属性权重]**。
 
    您可以添加多个规则，以根据有关内容目录的重要描述或元数据对算法“稍加影响”。例如，您可以对促销项目应用更高的权重，以便它们更频繁地显示在推荐中。
 
    请参阅[属性加权](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42)。
 
-1. 完成后，单击 **[!UICONTROL 保存]**。
+1. 完成后，单击&#x200B;**[!UICONTROL 保存]**。
 
-   如果您是在创建新的“[!UICONTROL 推荐]”活动或编辑现有活动，则默认情况下会选中 **[!UICONTROL 保存标准供以后使用]复选框。** 如果您不想在其他活动中使用该标准，请在保存前清除该复选框。
+   如果您是在创建新的“[!UICONTROL 推荐]”活动或编辑现有活动，则默认情况下会选中&#x200B;**[!UICONTROL 保存标准供以后使用]复选框。**&#x200B;如果您不想在其他活动中使用该标准，请在保存前清除该复选框。
 
 ### 预期标准处理时间
 
@@ -130,13 +130,13 @@ source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 
 有两种类型的推荐：
 
-* **热门程度：** 根据“查看次数最多”、“最畅销”和“热门量度”列出项目。对于热门程度标准，键为空。
-* **基于键：** 包含其余标准。推荐提供了多种键类型以供选择。选项包括“当前项目”和“配置文件参数”，这些选项允许您以编程方式设置要推荐的值的键。您可以通过使每个标准基于不同的键来对多个标准进行相互测试。
+* **热门程度：**&#x200B;根据“查看次数最多”、“最畅销”和“热门量度”列出项目。对于热门程度标准，键为空。
+* **基于键：**&#x200B;包含其余标准。推荐提供了多种键类型以供选择。选项包括“当前项目”和“配置文件参数”，这些选项允许您以编程方式设置要推荐的值的键。您可以通过使每个标准基于不同的键来对多个标准进行相互测试。
 
 每个标准都在其自身的选项卡中进行定义。流量会在不同的标准测试中均匀拆分。换句话说，如果您有两个标准，则流量会在这两个标准之间平均拆分。如果您有两个标准和两个设计，则流量会在四种组合之间平均拆分。您也可指定一定数量的网站访客（百分比），这部分访客将看到默认内容以进行对比。在这种情况下，指定百分比的访客会看到默认内容，其余的访客则会在您的标准和设计组合之间进行分配。
 
-1. 创建新推荐，或选择现有推荐，然后单击 **[!UICONTROL 编辑]**。
-1. 要更改推荐键，请从[!UICONTROL 推荐键]下拉列表中选择新键，然后单击 **[!UICONTROL 保存]**
+1. 创建新推荐，或选择现有推荐，然后单击&#x200B;**[!UICONTROL 编辑]**。
+1. 要更改推荐键，请从[!UICONTROL 推荐键]下拉列表中选择新键，然后单击&#x200B;**[!UICONTROL 保存]**
 
    由于不同的逻辑映射到不同的推荐键，因此不同的推荐会让自身放置在不同类型的页面上。有关每个键的更多信息，请参阅以下部分。
 
@@ -206,16 +206,16 @@ source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 
 您可以使推荐基于自定义配置文件属性的值。例如，假定您要根据访客最近添加到其队列中的影片显示推荐的影片。
 
-1. 从 **[!UICONTROL 推荐键]** 下拉列表中选择自定义配置文件属性（例如“最近添加到观看列表的节目”）。
-1. 然后，选择 **[!UICONTROL 推荐逻辑]**（例如“查看了这个项目，也查看了那个项目的人”）。
+1. 从&#x200B;**[!UICONTROL 推荐键]**&#x200B;下拉列表中选择自定义配置文件属性（例如“最近添加到观看列表的节目”）。
+1. 然后，选择&#x200B;**[!UICONTROL 推荐逻辑]**（例如“查看了这个项目，也查看了那个项目的人”）。
 
    ![“创建新标准”对话框](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
 如果自定义配置文件属性与单个实体 ID 不直接匹配，则需要向 [!DNL Recommendations] 说明您希望如何与实体进行匹配。例如，假定您要显示访客最喜爱的品牌中的最畅销商品。
 
-1. 从 **[!UICONTROL 推荐键]** 下拉列表中选择自定义配置文件属性（例如，“最喜爱的品牌”）。
+1. 从&#x200B;**[!UICONTROL 推荐键]**&#x200B;下拉列表中选择自定义配置文件属性（例如，“最喜爱的品牌”）。
 
-1. 然后，选择要用于此键的 **[!UICONTROL 推荐逻辑]**（例如，“最畅销商品”）。
+1. 然后，选择要用于此键的&#x200B;**[!UICONTROL 推荐逻辑]**（例如，“最畅销商品”）。
 
    此时会显示[!UICONTROL 按以下项的唯一值分组]选项。
 
@@ -333,7 +333,7 @@ source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 
 ### Previously Purchased Items {#previously-purchased}
 
-Uses the visitor&#39;s history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
 
 The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). 如果两个站点属于不同的环境，并且访客在两个站点之间切换，则每个站点只会在相应的网站上显示最近购买的项目。如果两个站点处于同一环境中，且访客在两个站点之间切换，则访客将看到两个站点最近购买的同一个项目。
 
@@ -417,7 +417,7 @@ The Recently Purchased Items criteria now returns results specific to a given [e
 
    此设置基于 `productPurchasedId` 配置文件值。默认行为是不推荐以前购买的项目。在大多数情况下，您不想促销客户最近购买的项目。如果客户经常会重复购买某些项目，则启用此功能可以继续推荐以前购买的项目。
 
-如果您启用了 **[!UICONTROL 显示备用推荐]**，则默认情况下会启用将[包含规则](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)应用于备用推荐的选项。
+如果您启用了&#x200B;**[!UICONTROL 显示备用推荐]**，则默认情况下会启用将[包含规则](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)应用于备用推荐的选项。
 
 ![](assets/Recs_ContentControls.png)
 
@@ -434,12 +434,12 @@ The Recently Purchased Items criteria now returns results specific to a given [e
 
 内容相似度会比较项目属性关键字，并根据不同项目共有的关键字数量进行推荐。基于内容相似度的推荐不需要过去的数据便可交付高效的结果。
 
-使用内容相似度生成推荐对于新项目尤其有效，这些新项目不可能会显示在使用“查看了这个项目，也查看了那个项目的人”**以及基于过去行为的其他逻辑的推荐中。您还可以使用内容相似度为没有过去购买数据或其他历史数据的新访客生成有用的推荐。
+使用内容相似度生成推荐对于新项目尤其有效，这些新项目不可能会显示在使用“查看了这个项目，也查看了那个项目的人”**&#x200B;以及基于过去行为的其他逻辑的推荐中。您还可以使用内容相似度为没有过去购买数据或其他历史数据的新访客生成有用的推荐。
 
-如果选择 **[!UICONTROL 具有相似属性的项目]**/**[!UICONTROL 媒体]**，您还可以选择创建规则以在确定推荐时提高或降低特定项目属性的重要性。对于书籍等项目，您可能希望提升“流派”**、“作者”**、“系列”**等属性的重要性，以便推荐类似的书籍。
+如果选择&#x200B;**[!UICONTROL 具有相似属性的项目]**/**[!UICONTROL 媒体]**，您还可以选择创建规则以在确定推荐时提高或降低特定项目属性的重要性。对于书籍等项目，您可能希望提升“流派”**、“作者”**、“系列”**&#x200B;等属性的重要性，以便推荐类似的书籍。
 
 ![](assets/ContentSimilarity.png)
 
-由于内容相似度使用关键字来比较项目，因此某些属性（例如“消息”**或“描述”**）可能会在比较中引入“干扰信息”。您可以创建规则来忽略这些属性。
+由于内容相似度使用关键字来比较项目，因此某些属性（例如“消息”**&#x200B;或“描述”**）可能会在比较中引入“干扰信息”。您可以创建规则来忽略这些属性。
 
 默认情况下，所有属性都设置为“基准线”**。除非您要更改此设置，否则无需创建规则。

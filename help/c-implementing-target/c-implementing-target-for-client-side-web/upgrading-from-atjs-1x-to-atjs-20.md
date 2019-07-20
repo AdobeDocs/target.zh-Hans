@@ -249,7 +249,7 @@ at.js 2.x 使用一个新的 API，我们称之为“交付 API”。为了调�
 
 **at.js 中的全局 mbox 名称是否无关紧要？**
 
-客户可以通过 [!UICONTROL Target &gt; 设置 &gt; 实施 &gt; 编辑 at.js 设置]来指定全局 mbox 名称。[!DNL Target] 边缘服务器使用此设置来将 execute &gt; pageLoad 转换为 [!DNL Target] UI 中显示的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并使用全局 mbox 名称创建受众。我们强烈建议您还确保在[!UICONTROL 设置 &gt; 首选项]页面上配置相同的全局 mbox 名称，以防仍有使用 at.js 1*x* 或 mbox.js 的页面，如以下插图所示。
+客户可以通过 [!UICONTROL Target &gt; 设置 &gt; 实施 &gt; 编辑 at.js 设置]来指定全局 mbox 名称。[!DNL Target] 边缘服务器使用此设置来将 execute &gt; pageLoad 转换为 [!DNL Target] UI 中显示的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并使用全局 mbox 名称创建受众。我们强烈建议您还确保在[!UICONTROL 设置 &gt; 首选项]页面上配置相同的全局 mbox 名称，以防仍有使用 at.js 1 *x* 或 mbox.js 的页面，如以下插图所示。
 
 ![修改 at.js 对话框](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -277,7 +277,7 @@ at.js 2.x 使用一个新的 API，我们称之为“交付 API”。为了调�
 | 自动创建全局 Mbox | 是 |
 | 全局 Mbox 名称 | 是 |
 
-**跨域跟踪**不** 受支持
+**跨域跟踪&#x200B;**不**&#x200B;受支持
 
 通过跨域跟踪，可以将在不同域中两个相关的站点上的会话作为单个会话查看。您可以创建一个跨越 `siteA.com` 和 `siteB.com` 的 [!DNL Target] 活动，这样访客在跨域访问时将会保持相同的体验。此功能与 Target 的第三方和第一方 Cookie 行为相关联。
 
@@ -606,7 +606,7 @@ at.js 2.x JSON 有效负载：
 }
 ```
 
-### mbox（名称）*不*等于全局 mbox
+### mbox（名称）*不*&#x200B;等于全局 mbox
 
 （at.js 1.*x* 参数）
 

@@ -58,7 +58,7 @@ entity.genre=[“genre1”, “genre2”]
 
 >[!NOTE]
 >
->要将多值属性更改为单值属性，您必须删除目录并上传已更正的产品数据。删除目录不会删除与您的产品 ID 关联的历史数据。有关更多信息，请参阅 Adobe Recommendations Classic** 文档中的[删除系统中的所有项目](../../assets/adobe-recommendations-classic.pdf)。
+>要将多值属性更改为单值属性，您必须删除目录并上传已更正的产品数据。删除目录不会删除与您的产品 ID 关联的历史数据。有关更多信息，请参阅 Adobe Recommendations Classic ** 文档中的[删除系统中的所有项目](../../assets/adobe-recommendations-classic.pdf)。
 
 **限制**：
 
@@ -148,7 +148,7 @@ using the Delivery and Save entities APIs.
 
 >[!NOTE]
 >
->*双精度类型*是一种 Java 数据类型。对于需要使用数字值的运算符，转换为双精度类型可避免在结果中考虑非数字值。
+>*双精度类型*&#x200B;是一种 Java 数据类型。对于需要使用数字值的运算符，转换为双精度类型可避免在结果中考虑非数字值。
 
 ## 设计中的多值属性 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 

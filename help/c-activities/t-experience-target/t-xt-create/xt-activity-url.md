@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 活动URL决定了在体验定位(XT)活动中使用的页面，该页面在设计活动时在Visual Experience Composer(CMS)或基于表单的Experience Composer中打开。
 
-1. [在创建XT活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)时提示您，指定活动URL。应键入完整的 URL（包括 `https://`），然后单击 **[!UICONTROL 创建活动]**。
+1. [在创建XT活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)时提示您，指定活动URL。应键入完整的 URL（包括 `https://`），然后单击&#x200B;**[!UICONTROL 创建活动]**。
 
    >[!NOTE]
    >
@@ -46,4 +46,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * mbox 参数
    可以使用 AND 或 OR 将其他规则连接到活动 URL。您添加的所有规则将使用 AND 进行相互评估。
 
-1. 完成后单击 **[!UICONTROL 保存]。**
+1. 完成后单击&#x200B;**[!UICONTROL 保存]。**

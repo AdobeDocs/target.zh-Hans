@@ -53,7 +53,7 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ### Target API 中的企业权限支持 {#api}
 
-如果使用 GET API 拉取选件列表，则“选件”库中从 Target UI 创建的代码选件将显示在默认工作区中。此问题将在 2019 年 3 月的第一个星期得到修复。完成此修复后，在从 API 拉取时，代码选件将显示在相应的工作区中。此问题*不*会影响从 API 创建的选件。例如，无论是使用 GET API 还是从 Target UI 中获取选件，从 API 创建的代码选件都将显示在创建这些选件的工作区中。
+如果使用 GET API 拉取选件列表，则“选件”库中从 Target UI 创建的代码选件将显示在默认工作区中。此问题将在 2019 年 3 月的第一个星期得到修复。完成此修复后，在从 API 拉取时，代码选件将显示在相应的工作区中。此问题&#x200B;*不*&#x200B;会影响从 API 创建的选件。例如，无论是使用 GET API 还是从 Target UI 中获取选件，从 API 创建的代码选件都将显示在创建这些选件的工作区中。
 
 ### 推荐
 
@@ -68,7 +68,7 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 * 推荐的产品不能显示具有两位小数的值。例如，如果尝试在设计中显示值为 35.00，则推荐将显示 35（无小数位而不是具有两位小数）。(RECS-5972)
 
-   **** 解决方法：将实体的值传递到两个 entity.attribute 中。第一个 `entity.value` 是一个应为双精度类型的保留参数。第二个可以是一个自定义 entity.attribute，它将实体的值作为字符串来存储，以便进行适当渲染。
+   ****&#x200B;解决方法：将实体的值传递到两个 entity.attribute 中。第一个 `entity.value` 是一个应为双精度类型的保留参数。第二个可以是一个自定义 entity.attribute，它将实体的值作为字符串来存储，以便进行适当渲染。
 
    例如：
 
@@ -97,7 +97,7 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ### mbox.js
 
-mbox.js 库不支持客户端模板语言，例如 Handlebars 和 Mustache。at.js 库则**支持这些语言。
+mbox.js 库不支持客户端模板语言，例如 Handlebars 和 Mustache。at.js 库则&#x200B;**&#x200B;支持这些语言。
 
 **注意**：mbox.js 库将不再开发。所有客户都应该从 mbox.js 迁移到 at.js。有关更多信息，请参阅[从 mbox.js 迁移到 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
 

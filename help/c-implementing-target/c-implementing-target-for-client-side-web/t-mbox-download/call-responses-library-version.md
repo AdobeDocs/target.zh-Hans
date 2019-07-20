@@ -36,7 +36,7 @@ Target 如何从您的页面发出调用以及如何响应从您的页面发出�
 
 ## 无访客 ID 实施 {#section_C6F7213FDE4D48E8BBCB1A9A26310FEE}
 
-如果您通过 [!DNL Target Standard] 使用 [!DNL Premium] 或 [!DNL mbox.js]，并且已为帐户启用“[!UICONTROL 创建全局 Mbox]”，则无论使用的是哪个 **版本，都会执行** 自动创建全局 mbox - 同步[!DNL mbox.js]类型的调用和响应。
+如果您通过 [!DNL Target Standard] 使用 [!DNL Premium] 或 [!DNL mbox.js]，并且已为帐户启用“[!UICONTROL 创建全局 Mbox]”，则无论使用的是哪个 **版本，都会执行**&#x200B;自动创建全局 mbox - 同步[!DNL mbox.js]类型的调用和响应。
 
 如果您不使用[!UICONTROL 可视化体验编辑器]操作，而是自行编写自定义代码，请确保您的代码适用于 ajax 环境。例如，如果您使用包含 `document.write()` 的 JavaScript，则脚本将不会按预期运行。
 
@@ -44,7 +44,7 @@ Target 如何从您的页面发出调用以及如何响应从您的页面发出�
 >
 >具有相同名称但是不同参数的多个 ajax mbox 调用无法在同一个页面上运行。只有第一个调用可以运行。
 
-如果您的页面上使用“自动创建全局 mbox”，但也存在 `mboxCreate` 调用（例如，假设您在以前用于旧版实施中的某个页面上实施 [!DNL Target Standard] 或 [!DNL Premium]），则会使用**自动创建全局 mbox - 标准**端点执行全局 mbox 调用，使用 **标准** 端点执行 `mboxCreate` 调用。**标准** 端点使用 `document.write()` 执行调用和做出响应。在下载完所有信息之前，这会阻止页面加载，包括在 ajax 响应中交付的内容。
+如果您的页面上使用“自动创建全局 mbox”，但也存在 `mboxCreate` 调用（例如，假设您在以前用于旧版实施中的某个页面上实施 [!DNL Target Standard] 或 [!DNL Premium]），则会使用**自动创建全局 mbox - 标准**端点执行全局 mbox 调用，使用&#x200B;**标准**&#x200B;端点执行 `mboxCreate` 调用。**标准**&#x200B;端点使用 `document.write()` 执行调用和做出响应。在下载完所有信息之前，这会阻止页面加载，包括在 ajax 响应中交付的内容。
 
 如果您仅使用 mboxCreate（例如在使用 [!DNL Target Classic] 创建的页面上），则页面会正常运行。
 
@@ -70,7 +70,7 @@ Target 如何从您的页面发出调用以及如何响应从您的页面发出�
 
 ## 有访客 ID 实施，且存在访客 ID {#section_9CD4AE4C8186425D886398BC3CE6C46D}
 
-如果存在访客 ID Cookie，则 [!DNL Target] 不需要调用访客 ID 服务。在这种情况下，显示内容之前不需要等待访客 ID 服务。对于版本 57 到 59，会使用 **自动创建全局 mbox - 同步** 类型，因此页面会等待 [!DNL Target] 调用返回后再继续加载。这样可确保默认内容不会出现闪烁情况。对于版本 60，会使用 **全局 mbox - 异步** 类型，以确保 [!DNL Target] 等待 [!DNL Experience Cloud] 选择退出服务做出响应。该选择退出服务属于 2016 年秋季发布的“数据协作”功能的一部分。由于所有调用均使用 ajax 返回，因此对于 `document.write()` 版本 60，不应使用 [!DNL mbox.js]。
+如果存在访客 ID Cookie，则 [!DNL Target] 不需要调用访客 ID 服务。在这种情况下，显示内容之前不需要等待访客 ID 服务。对于版本 57 到 59，会使用&#x200B;**自动创建全局 mbox - 同步**&#x200B;类型，因此页面会等待 [!DNL Target] 调用返回后再继续加载。这样可确保默认内容不会出现闪烁情况。对于版本 60，会使用&#x200B;**全局 mbox - 异步**&#x200B;类型，以确保 [!DNL Target] 等待 [!DNL Experience Cloud] 选择退出服务做出响应。该选择退出服务属于 2016 年秋季发布的“数据协作”功能的一部分。由于所有调用均使用 ajax 返回，因此对于 `document.write()` 版本 60，不应使用 [!DNL mbox.js]。
 
 | 创建方法 | mbox.js v57 | mbox.js v58 | mbox.js v59 | mbox.js v60 |
 |---|---|---|---|---|

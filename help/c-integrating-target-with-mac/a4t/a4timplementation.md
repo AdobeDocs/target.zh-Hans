@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. 设置此设置后，返回的有效负荷格式如下所示：
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: "client_side"** sent within the Target requests and an analytics payload will be returned for every request. 设置此设置后，返回的有效负荷格式如下所示：
 
 ```
 "analytics": {
@@ -100,7 +100,7 @@ This set up has a global effect, which means that every call made by at.js will 
 
 The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. 分析有效负荷将仅返回此调用，Target后端将不会转发到Analytics。通过采用此方法，每个at. js Target请求均不会默认返回有效负荷，但仅在需要和指定时才会返回。
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: "client_side"**. 分析有效负荷将仅返回此调用，Target后端将不会转发到Analytics。通过采用此方法，每个at. js Target请求均不会默认返回有效负荷，但仅在需要和指定时才会返回。
 
 例如：
 
@@ -164,7 +164,7 @@ The payload can then be forwarded to Analytics via the [Data Insertion API](http
 
 在单页应用程序 (SPA) 中，由于调用顺序并不总是可以预测，因此尤其务必要进行此验证。
 
-**注意：** 为使 A4T 能够正常运行，这些值必须匹配。
+**注意：**&#x200B;为使 A4T 能够正常运行，这些值必须匹配。
 
 ## 步骤 9：（可选）删除之前的集成代码
 

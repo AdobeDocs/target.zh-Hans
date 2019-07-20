@@ -17,13 +17,13 @@ source-git-commit: ae8c88d1fa05ff7e110495e47ebf275d5117868c
 
 **上次更新时间：2019年月12日([请参阅更改后的内容](r-release-notes/doc-change.md))**
 
-以下部分将向您提供本指南中的有用链接，这些链接按基于典型工作职能划分的目标读者排列：
+以下部分将向您介绍本指南中的有用链接，这些链接是按照目标受众并基于典型的工作职能来排列的：
 
 ## 所有 [!DNL Target] 用户 {#section_65FA20BA5BC6461E9E21A1B2FAB6393C}
 
 营销人员、开发人员、管理员、分析员和质量保证工程师。
 
-- [Target 发行说明](r-release-notes/release-notes.md)：包含有关当前版本的信息、有关影响 [!DNL Target] 的已知问题的信息、此文档的重要更改列表以及以前发行说明的存档。
+- [Target 发行说明](r-release-notes/release-notes.md)：包含有关当前版本的信息、有关影响 [!DNL Target] 的已知问题的信息、此文档的重要更改列表，和以往发行说明的存档。
 - [Target 简介](c-intro/intro.md)：说明 [!DNL Target] 解决方案的核心概念。
 - 将 Target 与 Adobe Experience Cloud 集成：说明如何将 [!DNL Target] 与其他 [!DNL Experience Cloud] 解决方案集成，包括 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud 受众](/help/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) 和 [Experience Cloud 设备协作](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md)。
 - [Target 故障诊断](r-troubleshooting-target/troubleshooting-target.md)：提供指向本指南中包含的故障诊断信息的链接，包括字符限制和会影响 [!DNL Target] 中活动和其他元素的其他限制的信息（选件大小、受众、配置文件、值、参数等）。

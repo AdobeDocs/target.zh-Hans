@@ -64,17 +64,17 @@ Target 还可以将您的推荐作为 JSON 对象来发送，而 JSON 对象可�
 1. 设置一个基于表单的“推荐”活动，使其使用此设计。
 
    1. 导航到“活动”页面。
-   1. 单击 **[!UICONTROL 创建活动]**。
-   1. 选择 **[!UICONTROL 推荐]**。
-   1. 在 **[!UICONTROL 选择体验编辑器]** 下方，选择 **[!UICONTROL 表单]**。
+   1. 单击&#x200B;**[!UICONTROL 创建活动]**。
+   1. 选择&#x200B;**[!UICONTROL 推荐]**。
+   1. 在&#x200B;**[!UICONTROL 选择体验编辑器]**&#x200B;下方，选择&#x200B;**[!UICONTROL 表单]**。
 
    1. 在“位置”下方，输入文本：“Sample_Recs_Response”
-   1. 在 **[!UICONTROL 默认内容]** 下方，单击向下箭头，然后单击 **[!UICONTROL 添加推荐]**。
+   1. 在&#x200B;**[!UICONTROL 默认内容]**&#x200B;下方，单击向下箭头，然后单击&#x200B;**[!UICONTROL 添加推荐]**。
    1. 选择一种页面类型。这决定了对接下来要显示的屏幕的初步筛选。
-   1. 选择一个标准卡片，然后单击 **[!UICONTROL 下一步]**。
-   1. 选择在上一步中创建的设计，然后单击 **[!UICONTROL 保存]**。
+   1. 选择一个标准卡片，然后单击&#x200B;**[!UICONTROL 下一步]**。
+   1. 选择在上一步中创建的设计，然后单击&#x200B;**[!UICONTROL 保存]**。
    1. 完成设置过程。
-   1. 单击 **[!UICONTROL 不活跃]** 旁边的向右箭头，然后选择 **[!UICONTROL 激活]**。
+   1. 单击&#x200B;**[!UICONTROL 不活跃]**&#x200B;旁边的向右箭头，然后选择&#x200B;**[!UICONTROL 激活]**。
 
 1. 设置活动并将其激活后，您可以设置示例请求，以获取简洁的 JSON 响应。
 
@@ -97,7 +97,7 @@ Target 还可以将您的推荐作为 JSON 对象来发送，而 JSON 对象可�
 
 在运行算法并获取结果后，您的响应应当类似于以下示例：
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![](assets/json_recommendation.png){width="575px"}
 
 ## 其他 JSON 对象提示和技巧 {#section_C305673C68944749969DB239E3221DC2}
 

@@ -27,11 +27,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Target Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 在活动创建过程中，您可以指定其他页面。
 
-要在[!UICONTROL 可视化体验编辑器]打开后显示其他页面，请单击 **[!UICONTROL 配置]** 齿轮图标，然后选择 **[!UICONTROL 页面交付]**。在“活动 URL”字段中输入相应的 URL。
+要在[!UICONTROL 可视化体验编辑器]打开后显示其他页面，请单击&#x200B;**[!UICONTROL 配置]**&#x200B;齿轮图标，然后选择&#x200B;**[!UICONTROL 页面交付]**。在“活动 URL”字段中输入相应的 URL。
 
 ![“页面交付”对话框](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
-单击 **[!UICONTROL 添加模板规则]，为活动添加更多页面和部分。**
+单击&#x200B;**[!UICONTROL 添加模板规则]，为活动添加更多页面和部分。**
 
 其他规则可以基于以下任何一项：
 
@@ -44,13 +44,13 @@ By default, the [!UICONTROL Visual Experience Composer] opens the page that is s
 
 可以使用 AND 或 OR 将其他规则连接到活动 URL。您添加的所有规则将使用 AND 进行相互评估。
 
-完成后单击 **[!UICONTROL 保存]。**
+完成后单击&#x200B;**[!UICONTROL 保存]。**
 
 >[!NOTE]
 >
 >如果您输入的 URL 所对应的网站不包含 [!DNL Target] Standard JavaScript 代码，则您将无法选择页面元素。
 
-默认情况下，[!UICONTROL 可视化体验编辑器]不允许更改包含 JavaScript 的元素，如旋转横幅。如果您希望能够使用 **[!UICONTROL 可视化体验编辑器]** 更改这些元素，可以关闭[!UICONTROL 使用 JavaScript 渲染]。
+默认情况下，[!UICONTROL 可视化体验编辑器]不允许更改包含 JavaScript 的元素，如旋转横幅。如果您希望能够使用&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;更改这些元素，可以关闭[!UICONTROL 使用 JavaScript 渲染]。
 
 >[!NOTE]
 >

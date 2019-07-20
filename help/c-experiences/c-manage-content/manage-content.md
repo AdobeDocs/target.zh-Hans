@@ -20,7 +20,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >
 >在 2017 年 1 月版的 [!DNL Target Standard/Premium] 用户界面中，可以看到通过 [!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS) 及 API 创建的选件。过去两年使用这些方法更新的选件也将可见（例如在 2015 年 1 月版及更高版本中）。您组织中的任何用户首次打开“[!UICONTROL 选件]”页面时，都将会进行初始同步。初始同步所需的时间将取决于数据量。初始同步完成后，数据将以增量方式进行同步。如果您之前将代码和图像放置在同一个文件夹中，则在此版本中，[!DNL Target] 会将代码和图像拆分到两个重复的文件夹中。请注意，更新日期和时间是指文件夹迁移的日期和时间，而不是指最初创建文件夹的日期和时间。
 
-单击 **[!UICONTROL 选件]可打开选件库。** 选件库中包含通过 [!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS) 及 API 设置的选件。在 [!DNL Target Classic] 或其他解决方案中创建的选件可以在 [!DNL Target Standard/Premium] 中进行编辑。
+单击&#x200B;**[!UICONTROL 选件]可打开选件库。**&#x200B;选件库中包含通过 [!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS) 及 API 设置的选件。在 [!DNL Target Classic] 或其他解决方案中创建的选件可以在 [!DNL Target Standard/Premium] 中进行编辑。
 
 “[!UICONTROL 选件]”页面右侧有两个选项卡，即“代码选件”和“图像选件”，您可以在这两个选项卡中按类型查看选件。
 

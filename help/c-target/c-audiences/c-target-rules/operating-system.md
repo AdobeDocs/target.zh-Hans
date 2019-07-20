@@ -17,17 +17,17 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以定位使用某种操作系统的访客。
 
-1. 在 [!DNL Target] 界面中，单击 **[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
+1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
-1. 单击 **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 操作系统]**。
-1. 单击 **[!UICONTROL 选择]**，然后选择以下选项之一：
+1. 单击&#x200B;**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 操作系统]**。
+1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
    * Linux
    * Macintosh
    * Windows
 
-1. （可选）单击 **[!UICONTROL 添加规则]，然后为受众设置更多规则。**
-1. 单击 **[!UICONTROL 保存]**。
+1. （可选）单击&#x200B;**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 以下插图显示了使用Macintosh OS定位访客的受众。
 

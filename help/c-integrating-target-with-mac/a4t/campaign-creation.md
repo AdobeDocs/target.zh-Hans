@@ -21,14 +21,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 创建将 Analytics 用作报表源的 Target Standard 活动的过程与设置常规 Target Standard 活动大体类似，但也有几处重要的差异。例如，在创建活动时，您无法选择报表的区段，因为在查看报表时，可应用 Analytics 中的所有可用区段。
 
-1. 单击 **[!UICONTROL 创建活动]**。
+1. 单击&#x200B;**[!UICONTROL 创建活动]**。
 
    >[!NOTE]
    >
    >如果使用 Analytics 作为报表源，则活动名称中不能包含“%”字符。
 
 1. 选择活动类型并开始设置活动。
-1. 在活动创建流程的 **[!UICONTROL 设置]** 部分，选择 **[!UICONTROL Adobe Analytics]**，然后指定您的公司。
+1. 在活动创建流程的&#x200B;**[!UICONTROL 设置]**&#x200B;部分，选择 **[!UICONTROL Adobe Analytics]**，然后指定您的公司。
 1. 选择一个报表包。
 
    可以选择您在 Adobe Analytics 中可用的任何报表包。报表包定义提供所收集数据的位置。报表包列表中不包含虚拟报表包。
@@ -63,5 +63,5 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >将 Analytics 设置为报表源后，在设置活动时，不会显示用于设置报表受众的选项。Analytics 区段在“目标活动”报表中可用。
 
-1. 单击 **[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 

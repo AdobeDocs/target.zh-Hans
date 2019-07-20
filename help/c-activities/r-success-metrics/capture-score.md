@@ -48,13 +48,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    使用此方法时，会为页面上的每个 mbox 将指定值加到分数中。例如，如果传递参数 `?mboxPageValue=10` 而页面上有三个 mbox，那么此页面的得分为 30。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >位于营销活动第一个展示型 mbox 上方的 mbox 不计入分数。
 
 最佳做法是在 mbox 代码中分配值。这样可以根据每个 mbox 的内容，得到更精确的测量值。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >为便于维护，您可以在 [!DNL at.js] 或 [!DNL mbox.js] 文件中使用某些条件性 JavaScript 逻辑配置网站的页面分数值分配。这样就无需向网页添加更多代码。请联系您的客户顾问以寻求帮助。
 

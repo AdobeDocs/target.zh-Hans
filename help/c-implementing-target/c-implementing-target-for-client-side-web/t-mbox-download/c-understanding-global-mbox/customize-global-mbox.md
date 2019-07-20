@@ -22,17 +22,17 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    转到 **[!UICONTROL Target]** &gt; **[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]**。
 
-   * 对于 mbox.js，单击 **[!UICONTROL 编辑 mbox.js 设置]**。
-   * 对于 [!DNL at.js]，在“实施方法”下选择 **[!UICONTROL at.js]**，然后单击 **[!UICONTROL 编辑 at.js 设置]**。
+   * 对于 mbox.js，单击&#x200B;**[!UICONTROL 编辑 mbox.js 设置]**。
+   * 对于 [!DNL at.js]，在“实施方法”下选择 **[!UICONTROL at.js]**，然后单击&#x200B;**[!UICONTROL 编辑 at.js 设置]**。
    ![](assets/step-1-edit-mboxjs.png)
 
 1. 编辑 [!DNL mbox.js] 或 [!DNL at.js]。
 
-   禁用 **[!UICONTROL 自动创建全局 mbox]**，然后添加从 [!DNL Target Standard/Premium] 交付活动时要使用的自定义全局 mbox 的名称。此自定义全局 mbox 还用于点击跟踪。
+   禁用&#x200B;**[!UICONTROL 自动创建全局 mbox]**，然后添加从 [!DNL Target Standard/Premium] 交付活动时要使用的自定义全局 mbox 的名称。此自定义全局 mbox 还用于点击跟踪。
 
    ![](assets/step-2-edit-mboxjs-or-atjs.png)
 
-   完成后，单击 **[!UICONTROL 保存]。**
+   完成后，单击&#x200B;**[!UICONTROL 保存]。**
 1. 在您的网站上实施 [!DNL mbox.js] 或 [!DNL at.js] 库。
 
 * 对于 mbox.js，请参阅 [Mbox.js 实施](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
@@ -50,4 +50,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >保存后，您帐户中的所有活动都会与此 mbox 同步。如果此 mbox 不在您的网站上，则所有活动都将停止运行。
 
-   单击 **[!UICONTROL 保存]**。
+   单击&#x200B;**[!UICONTROL 保存]**。

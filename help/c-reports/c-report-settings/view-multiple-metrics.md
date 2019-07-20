@@ -26,8 +26,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 **选择要在报表中显示的多个量度：**
 
-1. 要显示报表，请单击 **[!UICONTROL 活动]**，从列表中单击所需的活动，然后单击 **报表]选项卡。[!UICONTROL **
-1. 单击 **[!UICONTROL 报表量度]** 下拉列表，以显示“[!UICONTROL 显示的量度]”和“[!UICONTROL 隐藏的量度]”列表。
+1. 要显示报表，请单击&#x200B;**[!UICONTROL 活动]**，从列表中单击所需的活动，然后单击&#x200B;**报表]选项卡。[!UICONTROL **
+1. 单击&#x200B;**[!UICONTROL 报表量度]**&#x200B;下拉列表，以显示“[!UICONTROL 显示的量度]”和“[!UICONTROL 隐藏的量度]”列表。
 
    ![](assets/multiple_metrics.png)
 
@@ -35,7 +35,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    请注意，您既可以从报表的“[!UICONTROL 表格视图]”模式，也可以从“[!UICONTROL 图形视图]”模式中选择多个量度。
 
-1. 将鼠标指针悬停在“[!UICONTROL 隐藏的量度]”列表中的所需量度上，然后单击 **[!UICONTROL 选择]**，以将所需量度移到“[!UICONTROL 显示的量度]”列表中。
+1. 将鼠标指针悬停在“[!UICONTROL 隐藏的量度]”列表中的所需量度上，然后单击&#x200B;**[!UICONTROL 选择]**，以将所需量度移到“[!UICONTROL 显示的量度]”列表中。
 
    或
 
@@ -45,7 +45,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    您可以在“[!UICONTROL 显示的量度]”列表中按所需顺序将各个量度拖放到相应的位置，以重新排列这些量度。所选的顺序将反映在“表格视图”和“图形视图”中。要从“[!UICONTROL 显示的量度]”列表中删除某个量度，请将鼠标指针悬停在该量度上，然后单击 **X** 图标。
 
-1. 完成后单击 **[!UICONTROL 保存]。**
+1. 完成后单击&#x200B;**[!UICONTROL 保存]。**
 1. 在“表格视图”中查看报表时，将鼠标指针悬停在任意量度所在列的标题上，可显示一个蓝色箭头。单击该箭头可展开表格，以便显示该量度的[!UICONTROL 提升度]和[!UICONTROL 置信度]。
 
    ![](assets/multiple_metrics_table.png)

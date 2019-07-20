@@ -19,11 +19,11 @@ Visual Experience Composer(CMS)提供可视界面，用于在体验定位(XT)活
 
 1. 选择要更改的元素，然后进行所需的更改。
 
-   [创建XT活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)时，三部分引导工作流(体验)中的步骤一将向所有访客受众显示默认 [!UICONTROL 体验A][!UICONTROL ] 。
+   [创建XT活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)时，三部分引导工作流(体验)中的步骤一将向所有访客受众显示默认 [!UICONTROL 体验A] 。
 
    ![所有访客受众](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Any changes you make now apply to Experience A. In a step below, you&#39;ll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
+   Any changes you make now apply to Experience A. In a step below, you'll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
 
    将鼠标悬停在页面中的元素上时，这些元素会高亮显示。可以使用CMS更改任何高亮显示的元素。For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -102,7 +102,7 @@ On the **[!UICONTROL Experiences]** page (the first step in the three-step guide
 
 您可以复制体验定位 (XT) 活动中的体验，以便可以对其进行细微更改，而无需重头开始重新创建体验。
 
-在 **[!UICONTROL 体验]** 页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 &gt; **[!UICONTROL 复制]**。
+在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 &gt; **[!UICONTROL 复制]**。
 
 ![体验重复](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 

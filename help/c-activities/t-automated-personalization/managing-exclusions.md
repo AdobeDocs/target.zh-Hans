@@ -30,13 +30,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![管理内容链接](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
-1. 在[!UICONTROL 管理内容]对话框中，单击 **[!UICONTROL 排除组]**。
+1. 在[!UICONTROL 管理内容]对话框中，单击&#x200B;**[!UICONTROL 排除组]**。
 
    ![“管理内容”&gt;“排除组”对话框](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    如果您之前已经创建一些排除组，它们会显示在列表中。如果您尚未创建排除组，系统会提示您创建一个排除组。
 
-1. 单击 **[!UICONTROL 创建排除组]**。
+1. 单击&#x200B;**[!UICONTROL 创建排除组]**。
 
    ![“创建排除组”对话框](/help/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
 
@@ -48,7 +48,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    您可以在排除组中选择来自相同位置的多个选件。
 
-1. 单击 **[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 之后，排除组中的选件将自动从相同的体验中排除。
 
@@ -58,7 +58,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 例如，在您的一个活动中，一个页面上可能有 6 个位置和 12 个选件。活动中的多个位置可能存在相同的选件。此功能可阻止同一个活动中的不同位置同时显示重复的选件。
 
-单击 **[!UICONTROL 配置]** &gt; **[!UICONTROL 重复的选件]**，然后单击 **[!UICONTROL 允许重复项]** 或 **[!UICONTROL 不允许重复项]**。
+单击&#x200B;**[!UICONTROL 配置]** &gt; **[!UICONTROL 重复的选件]**，然后单击&#x200B;**[!UICONTROL 允许重复项]**&#x200B;或&#x200B;**[!UICONTROL 不允许重复项]**。
 
 ![选件选项重复](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -98,8 +98,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 **使用可视化体验编辑器 (VEC) 排除默认内容：**
 
-1. [创建或编辑AP活动](/help/c-activities/t-automated-personalization/create-ap-activity.md)时，选择要替换的内容，然后单击以访问 **[!UICONTROL 更改文本/HTML]**、 **[!UICONTROL 更改图像]** 或 **[!UICONTROL 更改背景颜色]**。
-1. 在出现的对话框中，创建新的内容，然后取消选中默认内容右侧的 **包含** 复选框（或在“选择内容”屏幕中取消选中“默认图像/视频”）。
+1. [创建或编辑AP活动](/help/c-activities/t-automated-personalization/create-ap-activity.md)时，选择要替换的内容，然后单击以访问 **[!UICONTROL 更改文本/HTML]**、 **[!UICONTROL 更改图像]**&#x200B;或 **[!UICONTROL 更改背景颜色]**。
+1. 在出现的对话框中，创建新的内容，然后取消选中默认内容右侧的&#x200B;**包含**&#x200B;复选框（或在“选择内容”屏幕中取消选中“默认图像/视频”）。
 
    “[!UICONTROL 包含]”复选框的位置可能会因内容/选件类型而略有不同。
 
@@ -115,7 +115,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![在“编辑背景颜色”对话框中包含复选框](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
 
-1. 单击 **[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    您可以在“[!UICONTROL 管理内容]”下方看到使用指定的选件创建的体验。您会注意到，“[!UICONTROL 管理内容]”中不存在使用已排除的默认选件创建的任何体验。
 
@@ -123,8 +123,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 **使用基于表单的体验编辑器排除默认内容：**
 
-1. 创建或编辑 AP 活动时，在 **[!UICONTROL 内容]** 下方单击 **[!UICONTROL 更改文本/HTML]** 或 **[!UICONTROL 更改图像选件]**。
-1. 在出现的对话框中，创建新的内容，然后取消选中默认内容右侧的 **[!UICONTROL 包含]复选框（或在“选择内容”屏幕中取消选中“默认图像/视频”）。**
+1. 创建或编辑 AP 活动时，在&#x200B;**[!UICONTROL 内容]**&#x200B;下方单击&#x200B;**[!UICONTROL 更改文本/HTML]**&#x200B;或&#x200B;**[!UICONTROL 更改图像选件]**。
+1. 在出现的对话框中，创建新的内容，然后取消选中默认内容右侧的&#x200B;**[!UICONTROL 包含]复选框（或在“选择内容”屏幕中取消选中“默认图像/视频”）。**
 
    “包含”复选框的位置可能会因内容/选件类型而略有不同。
 
@@ -136,7 +136,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/exclude_content_form_2.png)
 
-1. 单击 **[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    您可以在“[!UICONTROL 管理内容]”下方看到使用指定的选件创建的体验。您会注意到，“[!UICONTROL 管理内容]”中不存在使用已排除的默认选件创建的任何体验。
 

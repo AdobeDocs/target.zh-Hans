@@ -19,4 +19,4 @@ translation-type: tm+mt
 
 ## 代码审阅
 
-应以拉取请求的形式提交所有提交，并需要由项目提交者进行审阅。Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+应以拉取请求的形式提交所有提交，并需要由项目提交者进行审阅。Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.

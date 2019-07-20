@@ -61,7 +61,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | Samsung Galaxy Tab 10 | 800 宽 x 1280 高 | 800 宽 x 1280 高 |
 | Chromebook Pixel | 1280 宽 x 850 高 | 2560 宽 x 1700 高 |
 
-多个网站列出了常用设备的视区大小。For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker&#39;s website.
+多个网站列出了常用设备的视区大小。For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker's website.
 
 如果您想要将活动交付到某一特定设备上的用户，请在活动图中选择适合该设备的受众。使用移动设备 Web 编辑器可在该设备上编辑活动页面。如果您想要在整个数字体验中运行某个活动，并确保该活动在所有设备上都展现良好的外观，请不要应用定位，而是使用移动设备视区按各种屏幕大小预览该活动。
 
@@ -77,8 +77,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 可配置您希望在创建体验时可供使用的任何移动设备视区。
 
-1. 单击 **[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**。
-1. 在“帐户首选项”页面的“移动设备视区配置”部分中，单击 **[!UICONTROL 新增]**，以添加移动设备视区。
+1. 单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**。
+1. 在“帐户首选项”页面的“移动设备视区配置”部分中，单击&#x200B;**[!UICONTROL 新增]**，以添加移动设备视区。
 
    要更改现有移动设备视区的配置，请选择该视区，然后单击“编辑”（铅笔）图标。
 
@@ -103,15 +103,15 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * Symbian
    * Blackberry
    如果您使用[增强型体验编辑器](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)，并选择了一种操作系统，则 Target 会在您查看页面时模拟该设备。例如，如果您的响应式网站在 Android 和 iOS 中具有不同的外观，则 Target 会模拟这一行为。
-1. 单击 **[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 创建响应式体验 {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
 可向 Target 活动中添加移动设备视区，以便创建要在移动设备屏幕上显示的响应式体验。
 
 1. 创建一个活动。
-1. 在可视化体验编辑器中，单击 **[!UICONTROL 设置]** 齿轮图标，然后选择 **[!UICONTROL 添加移动设备视区]**。
-1. 单击 **[!UICONTROL 设备]** 图标，然后启用每个应具有移动设备视区的设备。
+1. 在可视化体验编辑器中，单击&#x200B;**[!UICONTROL 设置]**&#x200B;齿轮图标，然后选择&#x200B;**[!UICONTROL 添加移动设备视区]**。
+1. 单击&#x200B;**[!UICONTROL 设备]**&#x200B;图标，然后启用每个应具有移动设备视区的设备。
 
    ![](assets/MobileViewPorts.jpg)
 
@@ -130,7 +130,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 此用例展示了如何使用 Target Standard 的移动设备视区功能配置 2 个 iPhone 版本（iPhone 6 和 iPhone 6 Plus）的体验。
 
-1. 在 Target Standard 中，单击 **[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**。
+1. 在 Target Standard 中，单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**。
 1. 在“首选项”页面的“移动设备视区配置”部分中，创建 iPhone 6 和 iPhone 6 Plus 的移动设备视区。
 
    对每个视区使用以下设置：
@@ -144,12 +144,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 创建一个包含要定位的体验的活动。
 1. 选择要将其定位到以下访客的体验：通过 iPhone 6 或 iPhone 6 Plus 访问网站的访客。
-1. 选择目标后，单击 **[!UICONTROL 创建受众]**，然后配置受众（如下图所示）：
+1. 选择目标后，单击&#x200B;**[!UICONTROL 创建受众]**，然后配置受众（如下图所示）：
 
    ![](assets/iphoneaudiences.png)
 
    由于手机可以旋转为横向，如果要求高度和宽度同时大于 320，则结合 iPhone 设备机型考虑，只有 iPhone 6 和 iPhone 6 Plus 能够满足此条件。
-1. 单击 **[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. 按常规方式继续设置活动。
 
 ## 培训视频

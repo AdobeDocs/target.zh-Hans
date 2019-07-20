@@ -21,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >
 >除了选择现有受众之外，您还可以合并多个受众来创建临时组合受众，而不是创建新受众。有关更多信息，请参阅[合并多个受众](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-在[!UICONTROL 受众]框中，单击“编辑”图标（三个垂直省略号），然后单击 **[!UICONTROL 替换受众]**。
+在[!UICONTROL 受众]框中，单击“编辑”图标（三个垂直省略号），然后单击&#x200B;**[!UICONTROL 替换受众]**。
 
 ![替换受众选项](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 

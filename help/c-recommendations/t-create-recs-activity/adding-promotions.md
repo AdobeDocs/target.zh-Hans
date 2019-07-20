@@ -37,7 +37,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 1. On the **[!UICONTROL Options]** page, click the **[!UICONTROL Front Promotion]** or **[!UICONTROL Back Promotion]** toggle.
 
-   The following illustration shows the [!UICONTROL Front Promotion] toggle in the &quot;On&quot; position.
+   The following illustration shows the [!UICONTROL Front Promotion] toggle in the "On" position.
 
    ![添加“前促销”选项](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
@@ -52,16 +52,16 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 1. Select a **[!UICONTROL Promotion Type]**.
 
-   * 选择 **[!UICONTROL 项目列表]**，然后输入要促销的各个特定项目的 `entity.id` 值（值之间用逗号分隔）。
+   * 选择&#x200B;**[!UICONTROL 项目列表]**，然后输入要促销的各个特定项目的 `entity.id` 值（值之间用逗号分隔）。
 
-      如果列表中包含的项目数量多于您为促销活动设置的版块数量，则您可以选中“**[!UICONTROL 随机排列项目顺序]”复选框，以使您的设计中显示的促销项目发生变化。** 选择此选项后，Target会随机选择为每次访问设置的整个促销活动集中启用的项目数量。
+      如果列表中包含的项目数量多于您为促销活动设置的版块数量，则您可以选中“**[!UICONTROL 随机排列项目顺序]”复选框，以使您的设计中显示的促销项目发生变化。**&#x200B;选择此选项后，Target会随机选择为每次访问设置的整个促销活动集中启用的项目数量。
 
-   * 选择 **[!UICONTROL 按属性促销]，然后添加规则以定义要促销的项目的属性。**
+   * 选择&#x200B;**[!UICONTROL 按属性促销]，然后添加规则以定义要促销的项目的属性。**
 
       如果选择“按属性促销”，您可以创建动态匹配。有关更多信息，请参阅[使用动态和静态包含规则](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
 
-   * 选择 **[!UICONTROL 促销收藏集]，然后选择要促销的项目收藏集。** 您可以创建新的收藏集，以将其用于促销活动。请参阅[创建收藏集](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)，以了解更多信息。
+   * 选择&#x200B;**[!UICONTROL 促销收藏集]，然后选择要促销的项目收藏集。**&#x200B;您可以创建新的收藏集，以将其用于促销活动。请参阅[创建收藏集](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)，以了解更多信息。
 
-1. 单击 **[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 促销活动会应用到活动中的所有体验。

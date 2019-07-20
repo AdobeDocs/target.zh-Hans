@@ -37,7 +37,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 除了 HTML 代码外，您还可以编辑和插入自定义 JavaScript。
 
-编辑 A/B 和体验定位活动的文本和 HTML 时，可以使用多种富文本格式选项。[!UICONTROL ][!UICONTROL ]您可以选择字体、选择字体样式、更改文本对齐方式以及使用其他标准文本格式设置选项。修改 HTML 时，您可以在 HTML 的代码视图和富编辑视图之间切换。
+编辑 A/B 和体验定位活动的文本和 HTML 时，可以使用多种富文本格式选项。您可以选择字体、选择字体样式、更改文本对齐方式以及使用其他标准文本格式设置选项。修改 HTML 时，您可以在 HTML 的代码视图和富编辑视图之间切换。
 
 可以嵌套以下 HTML5 标记：
 
@@ -52,13 +52,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 使用拾色器选择或配置背景颜色。您可以选择一个色样，并使用 RGB 值或十六进制颜色代码对其进行调整。拾色器中的红色 x 可使背景透明。
 
-**注意：** 此选项不适用于已设置背景图像的元素。
+**注意：**&#x200B;此选项不适用于已设置背景图像的元素。
 
 #### 样式 {#styles}
 
 使用[!UICONTROL 样式]面板可查看或编辑所选元素现有样式的值。您还可以添加其他样式。
 
-要访问[!UICONTROL 样式]面板，请单击 VEC 中的某个页面元素，然后单击 **[!UICONTROL 编辑]** &gt; **[!UICONTROL 样式]**。
+要访问[!UICONTROL 样式]面板，请单击 VEC 中的某个页面元素，然后单击&#x200B;**[!UICONTROL 编辑]** &gt; **[!UICONTROL 样式]**。
 
 [!UICONTROL 样式]面板将显示在 VEC 的右侧。该面板包括一个样式列表，允许您编辑样式或将其添加到所选元素。如果您习惯使用层叠样式表 (CSS)，或者从开发人员那里接收代码，则可以使用实时 CSS 编辑器查看更改并添加样式。
 
@@ -66,7 +66,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 应用不同的样式时，您始终可以在对任意部分进行更改后，通过单击[!UICONTROL 样式]面板右上角显示的[!UICONTROL 还原]图标还原您所做的更改。请注意，单击[!UICONTROL 还原]图标将还原在当前部分的面板上所做的所有更改。
 
-展开每个部分以编辑或添加样式，具体如下文中所述。要保存更改，请单击面板顶部的“返回”图标以返回到面板的主显示屏，然后单击 **[!UICONTROL 保存]**。
+展开每个部分以编辑或添加样式，具体如下文中所述。要保存更改，请单击面板顶部的“返回”图标以返回到面板的主显示屏，然后单击&#x200B;**[!UICONTROL 保存]**。
 
 请注意，主面板上以及各个部分面板上每个选项旁边的蓝色圆点所表示的意思是，您已经对相应的样式进行了更改。这样，您就可以在单击[!UICONTROL 保存]之前轻松查看更改。
 
@@ -141,7 +141,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 * **位置**
 
-   将所选元素从当前位置移动。You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   将所选元素从当前位置移动。You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    单击[!UICONTROL 静态]下拉列表，从以下位置选项中进行选择：
 
@@ -225,7 +225,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 [!UICONTROL 推荐]支持[!UICONTROL 此项前插入] DIV、SECTION 和 ARTICLE 标记的内容。
 
-**注意：** 插入图像需要启用 [!DNL Adobe Scene7 Publishing System]，以便您可以访问图像库。
+**注意：**&#x200B;插入图像需要启用 [!DNL Adobe Scene7 Publishing System]，以便您可以访问图像库。
 
 #### 推荐
 
@@ -249,7 +249,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 [!UICONTROL 推荐]支持[!UICONTROL 此项后插入] DIV、SECTION 和 ARTICLE 标记的内容。
 
-**注意：** 插入图像需要启用 [!DNL Adobe Scene7 Publishing System]，以便您可以访问图像库。
+**注意：**&#x200B;插入图像需要启用 [!DNL Adobe Scene7 Publishing System]，以便您可以访问图像库。
 
 #### 推荐
 
@@ -279,7 +279,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 推荐支持 DIV、SECTION 和 ARTICLE 标记中的“替换为”。
 
-**注意：** 交换图像要求使用 Adobe Scene7 Publishing System 帐户。
+**注意：**&#x200B;交换图像要求使用 Adobe Scene7 Publishing System 帐户。
 
 #### HTML 选件
 
@@ -305,13 +305,13 @@ HTML 选件的大小最多可达 256KB。
 
 在元素拖放到同一父元素或 DIV 内的其他位置。需要移动其他元素的位置以为重新排列的元素腾出空间。
 
-**注意：** 点击跟踪对重新排列的元素无效。
+**注意：**&#x200B;点击跟踪对重新排列的元素无效。
 
 #### 调整大小
 
 调整页面上的元素大小。当您选择[!UICONTROL 调整大小]时，在元素的右下角会显示一个控柄，可通过它来拖动该角以进行大小调整。按住 Shift 键保持相同的宽高比。
 
-**注意：** 无法调整内联元素的大小。
+**注意：**&#x200B;无法调整内联元素的大小。
 
 #### 移动
 
@@ -327,7 +327,7 @@ HTML 选件的大小最多可达 256KB。
 
 删除元素。删除图像后面的空格，并且折叠元素所在的空间。
 
-**注意：** 使用此选项无法删除“classic”mbox（Target Classic 促销活动中创建的一个 mbox）中的项目。
+**注意：**&#x200B;使用此选项无法删除“classic”mbox（Target Classic 促销活动中创建的一个 mbox）中的项目。
 
 ### 展开选定内容
 

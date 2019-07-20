@@ -37,7 +37,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![步骤结果](assets/combine_multiple_audiences1.png)
 
-1. 单击右上角的 **[!UICONTROL 合并多个受众]。**
+1. 单击右上角的&#x200B;**[!UICONTROL 合并多个受众]。**
 
    ![步骤结果](assets/combine_multiple_audiences2.png)
 
@@ -45,7 +45,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    使用“[!UICONTROL 编辑受众]”对话框，您可以从左侧将更多的受众构建基块拖放到新创建的组合受众中，还可以添加排除规则以排除受众。
 
-   1. 您可以使用拖放功能，在现有区域中添加受众作为第 2 级构建基块。要添加第 1 级构建基块，请选中所需受众旁边的复选框，然后单击 **[!UICONTROL 添加到规则中]**。
+   1. 您可以使用拖放功能，在现有区域中添加受众作为第 2 级构建基块。要添加第 1 级构建基块，请选中所需受众旁边的复选框，然后单击&#x200B;**[!UICONTROL 添加到规则中]**。
 
       例如，假设在上一个示例中，您现在希望在组合的受众中包含Safari用户。搜索并将“Safari Browser”受众拖放到右侧的“Firefox Browser”框中，如以下示例所示：
 
@@ -57,7 +57,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
       >
       >合并受众时，使用的运算符（“与”或“或”）必须保持相同。运算符不能混搭使用。
 
-   1. 要在规则中添加排除项，请单击 **[!UICONTROL 排除项]** &gt; **[!UICONTROL 添加排除项]**。
+   1. 要在规则中添加排除项，请单击&#x200B;**[!UICONTROL 排除项]** &gt; **[!UICONTROL 添加排除项]**。
 
       ![](assets/combine_multiple_audiences3a.png)
 
@@ -71,23 +71,23 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
       由此形成的组合受众将包含使用 Safari 或 Firefox 访问您网站的所有新访客（旧金山访客除外）。
 
-   1. 要从规则中排除受众，请单击 **[!UICONTROL 排除项]** &gt; **[!UICONTROL 不包括该受众]**。
+   1. 要从规则中排除受众，请单击&#x200B;**[!UICONTROL 排除项]** &gt; **[!UICONTROL 不包括该受众]**。
 
       例如，您可以创建一个组合受众，以包含使用 Firefox 以外的其他所有浏览器访问您网站的所有新访客。与创建一个明确包含各种浏览器（Safari、Chrome 和 Internet Explorer）用户但不包含 Firefox 用户的组合受众相比，排除使用 Firefox 的访客要更加简单快速。
 
-1. 为组合受众提供一个描述性名称，然后单击 **[!UICONTROL 保存]**。
+1. 为组合受众提供一个描述性名称，然后单击&#x200B;**[!UICONTROL 保存]**。
 
 ## Create a combined audience for use in metric targeting {#section_A42E795AFCBD4575809C5942039910F0}
 
 您可以在活动的“[!UICONTROL 目标和设置]”页面上创建一个临时组合受众，以将其用于量度定位。例如，可以使用组合受众创建基于转化的定位：
 
-1. 编辑或创建[活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在 **[!UICONTROL 目标和设置]** 页面上选择 **[!UICONTROL 转化]作为成功量度，然后选择** 已查看 Mbox **作为操作。[!UICONTROL ]**
-1. 在 **[!UICONTROL 搜索 mbox]字段中选择所需的 mbox。**
+1. 编辑或创建[活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上选择&#x200B;**[!UICONTROL 转化]作为成功量度，然后选择**&#x200B;已查看 Mbox **作为操作。**
+1. 在&#x200B;**[!UICONTROL 搜索 mbox]字段中选择所需的 mbox。**
 
    ![](assets/combine_multiple_audiences4.png)
 
-1. 单击齿轮图标，然后单击 **[!UICONTROL 添加受众定位]**。
-1. 单击 **[!UICONTROL 添加受众/定位条件]** 链接，以显示“[!UICONTROL 选择受众]”对话框。
+1. 单击齿轮图标，然后单击&#x200B;**[!UICONTROL 添加受众定位]**。
+1. 单击&#x200B;**[!UICONTROL 添加受众/定位条件]**&#x200B;链接，以显示“[!UICONTROL 选择受众]”对话框。
 
    ![](assets/combine_multiple_audiences5.png)
 
@@ -97,7 +97,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以在活动的“[!UICONTROL 目标和设置]”页面上创建一个临时组合受众，以将其用于报表。
 
-1. 编辑或创建[活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在 **[!UICONTROL 目标和设置]** 页面上单击 **[!UICONTROL 报表的受众]** 下方的“[!UICONTROL 添加受众]”图标，以显示“[!UICONTROL 选择受众]”页面。
+1. 编辑或创建[活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上单击&#x200B;**[!UICONTROL 报表的受众]**&#x200B;下方的“[!UICONTROL 添加受众]”图标，以显示“[!UICONTROL 选择受众]”页面。
 
    ![](assets/combine_multiple_audiences6.png)
 
@@ -107,17 +107,17 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以在编辑现有活动时创建临时组合受众。
 
-1. 在“[!UICONTROL 活动]”页面上，将鼠标悬停在所需活动上，然后单击 **[!UICONTROL 编辑]图标。**
+1. 在“[!UICONTROL 活动]”页面上，将鼠标悬停在所需活动上，然后单击&#x200B;**[!UICONTROL 编辑]图标。**
 
    或
 
-   单击所需活动以将其打开，然后单击 **[!UICONTROL 编辑活动]**。
+   单击所需活动以将其打开，然后单击&#x200B;**[!UICONTROL 编辑活动]**。
 
 1. Click the **[!UICONTROL Configure]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Multiple Audiences]**.
 
    ![“配置”&gt;“受众”&gt;“多个受众”](/help/c-target/assets/combine_multiple_audiences7.png)
 
-1. 单击活动的当前受众旁边的更多选项图标（三个垂直省略号），然后单击 **[!UICONTROL 更改受众]**。
+1. 单击活动的当前受众旁边的更多选项图标（三个垂直省略号），然后单击&#x200B;**[!UICONTROL 更改受众]**。
 
    ![更改受众](/help/c-target/assets/combine_multiple_audiences8.png)
 

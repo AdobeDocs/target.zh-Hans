@@ -39,7 +39,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 使用[!UICONTROL 自动个性化]时请考虑以下详细信息：
 
-**[!UICONTROL ]自动个性化使用随机林算法进行个性化。**
+**自动个性化使用随机林算法进行个性化。**
 
 随机林是一种领先的机器学习方法。从数据科学领域来讲，它是一种基于访客和访问属性构建大量决策树的组合分类或回归方法。在 Target 中，随机林用来确定对于每个特定访客而言，哪个体验的转化可能性最高（或每次访问带来的收入最高）。例如，使用 Chrome 的访客是金牌忠实成员，且周二访问您的网站更有可能使用体验 A 进行转化，而来自纽约的访客则更有可能使用体验 B 进行转化。有关 Target 中随机林的更多信息，请参阅[随机林算法](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)。
 

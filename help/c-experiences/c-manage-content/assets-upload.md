@@ -17,10 +17,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以在“图像选件”列表中添加或删除项目。
 
-1. 单击 **[!UICONTROL 选件]**，然后选择 **[!UICONTROL 图像选件]** 选项卡。
-1. 单击 **[!UICONTROL 创建]** &gt; **[!UICONTROL 文件]**。
-1. 选择要添加的项目，然后单击 **[!UICONTROL 打开]**。
-1. 编辑所选项目的文件名（如有必要），然后单击 **[!UICONTROL 上传]**。
+1. 单击&#x200B;**[!UICONTROL 选件]**，然后选择&#x200B;**[!UICONTROL 图像选件]**&#x200B;选项卡。
+1. 单击&#x200B;**[!UICONTROL 创建]** &gt; **[!UICONTROL 文件]**。
+1. 选择要添加的项目，然后单击&#x200B;**[!UICONTROL 打开]**。
+1. 编辑所选项目的文件名（如有必要），然后单击&#x200B;**[!UICONTROL 上传]**。
 
    该项目随即会上传到库中。
 

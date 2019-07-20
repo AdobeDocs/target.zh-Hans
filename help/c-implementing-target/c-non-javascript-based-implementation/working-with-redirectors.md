@@ -79,7 +79,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 验证所有体验、默认内容和报表，确保它们在所有环境下能通过所有类型的浏览器按照预期工作。
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE] {class="- topic/note "}
    >
    >* “选件预览”或“浏览 mbox”功能不支持重定向器。请在浏览器中直接预览体验。
    >* `mboxDebug` 不适用于重定向器。

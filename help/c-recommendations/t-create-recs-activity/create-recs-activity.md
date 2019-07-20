@@ -19,7 +19,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
 使用 Target 可视化体验编辑器 (VEC)，可直接在启用了 Target 的页面上创建“推荐”活动，并在 Target 中修改页面的各个部分。
 
-1. 单击 **[!UICONTROL 创建活动]** &gt; **[!UICONTROL 推荐]**。
+1. 单击&#x200B;**[!UICONTROL 创建活动]** &gt; **[!UICONTROL 推荐]**。
 
    ![创建推荐活动](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
@@ -39,7 +39,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
 1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. 指定活动 URL，然后单击 **[!UICONTROL 下一步]**。
+1. 指定活动 URL，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
    >[!NOTE]
    >
@@ -75,7 +75,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
    >[!NOTE]
    >
-   >并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除 **[!UICONTROL 兼容]复选框。**[!UICONTROL 兼容]选项可能不会显示，具体取决于您的“推荐”设置（**[!UICONTROL 推荐]** &gt; **[!UICONTROL 设置]** &gt; **[!UICONTROL 筛选不兼容的标准]**）。有关更多信息，请参阅[设置](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)。
+   >并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]复选框。**[!UICONTROL 兼容]选项可能不会显示，具体取决于您的“推荐”设置（**[!UICONTROL 推荐]** &gt; **[!UICONTROL 设置]** &gt; **[!UICONTROL 筛选不兼容的标准]**）。有关更多信息，请参阅[设置](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)。
 
    ![“选择标准”对话框](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -88,7 +88,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
    * To create a new criteria, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 有关创建新标准的信息，请参阅[创建标准](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
    * 您还可以将标准分组到序列中。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria Sequence]**. 有关更多信息，请参阅[创建标准序列](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)。
 
-1. 单击 **[!UICONTROL 下一步]**。
+1. 单击&#x200B;**[!UICONTROL 下一步]**。
 1. Select a [design](/help/c-recommendations/c-design-overview/design-overview.md).
 
    设计是一种模板，可决定页面上各个位置的外观。[!DNL Target] 中包含多个预配置的设计。您也可以创建自己的自定义设计。有关更多信息，请参阅[创建设计](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自定义设计](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
@@ -101,22 +101,22 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
       如果选择了多个标准，则只能选择一个设计。
 
-   * To create a custom design, click **[!UICONTROL Create Design]**, then fill in the name and code for the new design. 单击 **[!UICONTROL 下一步]**，选择或上传图像，然后单击 **[!UICONTROL 完成]** &gt; **[!UICONTROL 完成]**。有关创建新设计的信息，请参阅[创建设计](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+   * To create a custom design, click **[!UICONTROL Create Design]**, then fill in the name and code for the new design. 单击&#x200B;**[!UICONTROL 下一步]**，选择或上传图像，然后单击&#x200B;**[!UICONTROL 完成]** &gt; **[!UICONTROL 完成]**。有关创建新设计的信息，请参阅[创建设计](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 
-1. 单击 **[!UICONTROL 下一步]**。
+1. 单击&#x200B;**[!UICONTROL 下一步]**。
 
    您可以选择向推荐中添加促销活动。有关添加前端和后端促销活动的更多信息，请参阅[添加促销活动](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
-1. 单击 **[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    VEC 屏幕会显示页面上的推荐设计。
 
-1. （可选）单击 **[!UICONTROL 预览]** 以查看将向访客显示的活动的外观。
+1. （可选）单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看将向访客显示的活动的外观。
 
    在“[!UICONTROL 预览]”模式下，您可以像访客一样与推荐进行交互。
 
-   预览完推荐后，单击 **[!UICONTROL 撰写]**。
+   预览完推荐后，单击&#x200B;**[!UICONTROL 撰写]**。
 
-1. 在 VEC 中查看推荐，然后单击 **[!UICONTROL 下一步]**。
+1. 在 VEC 中查看推荐，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
 1. Review your [!DNL Recommendations] activity in the flow diagram and make any necessary changes.
 
@@ -142,7 +142,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
    * 查看设计代码
    * 更改或删除设计
 
-1. 完成后，单击 **[!UICONTROL 下一步]**。
+1. 完成后，单击&#x200B;**[!UICONTROL 下一步]**。
 1. 指定活动设置。
 
    例如，键入活动的名称（必填）和目标（可选）。有关设置的信息，请参阅[“推荐”活动设置](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)。

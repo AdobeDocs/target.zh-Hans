@@ -66,10 +66,10 @@ target/t_mixed_content_ie.xml
 
 1. 在 Internet Explorer 中，单击“设置”图标，然后单击 **[!UICONTROL Internet 选项]**。
 1. 打开“[!UICONTROL 安全]”选项卡。
-1. 选择 **[!UICONTROL Internet]**，然后单击 **[!UICONTROL 自定义级别]**。
-1. 选择 **[!UICONTROL 其他]**。
-1. 在[!UICONTROL 其他]下方，启用 **[!UICONTROL 显示混合内容]**。
-1. 单击 **[!UICONTROL 确定]** &gt; **[!UICONTROL 是]** &gt; **[!UICONTROL 应用]**。
+1. 选择 **[!UICONTROL Internet]**，然后单击&#x200B;**[!UICONTROL 自定义级别]**。
+1. 选择&#x200B;**[!UICONTROL 其他]**。
+1. 在[!UICONTROL 其他]下方，启用&#x200B;**[!UICONTROL 显示混合内容]**。
+1. 单击&#x200B;**[!UICONTROL 确定]** &gt; **[!UICONTROL 是]** &gt; **[!UICONTROL 应用]**。
 
 建议您在更改此设置后重新启动计算机。
 

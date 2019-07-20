@@ -21,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/mobile-vec-clicktrack1.png)
 
-1. 在此步操作中，选择 **[!UICONTROL 已单击元素]**，然后单击 **[!UICONTROL 选择元素]**。
+1. 在此步操作中，选择&#x200B;**[!UICONTROL 已单击元素]**，然后单击&#x200B;**[!UICONTROL 选择元素]**。
 
    您的移动设备应用程序将在移动设备可视化体验编辑器 (VEC) 中打开。
 

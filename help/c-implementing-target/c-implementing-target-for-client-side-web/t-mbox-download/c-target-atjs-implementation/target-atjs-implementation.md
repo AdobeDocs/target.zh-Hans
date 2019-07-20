@@ -23,7 +23,7 @@ at.js 库是适用于 [!DNL Adobe Target] 的新实施库，专为典型的 Web 
 
 >[!NOTE]
 >
->带有 FP-11577 的 Adobe Experience Manager (AEM) 6.2（或更高版本）支持通过其 Adobe Target 云服务集成来实施 at.js。有关更多信息，请参阅 Adobe Experience Manager 6.2 文档**中的[功能包](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html)和[与 Adobe Target 集成](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)。
+>带有 FP-11577 的 Adobe Experience Manager (AEM) 6.2（或更高版本）支持通过其 Adobe Target 云服务集成来实施 at.js。有关更多信息，请参阅 Adobe Experience Manager 6.2 文档&#x200B;**&#x200B;中的[功能包](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html)和[与 Adobe Target 集成](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)。
 
 ## Benefits of at.js {#benefits}
 

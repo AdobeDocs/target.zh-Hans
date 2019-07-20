@@ -23,7 +23,7 @@ Select the [criteria](/help/c-recommendations/c-algorithms/algorithms.md) to use
 
 如果选择多个标准，则流量会平均拆分到选择的标准中。例如，如果您选择了两个标准，且您的活动设计为将默认内容显示给 20% 的活动参加者，那么 40% 的活动参加者将看到由每个标准控制的推荐。没有选项可以用来更改每个标准的百分比。
 
-* 要搜索现有标准（例如，如果显示了许多标准卡片），请在搜索字段中键入相应内容直到显示所需标准为止，然后选择该标准，并单击 **[!UICONTROL 完成]**。
+* 要搜索现有标准（例如，如果显示了许多标准卡片），请在搜索字段中键入相应内容直到显示所需标准为止，然后选择该标准，并单击&#x200B;**[!UICONTROL 完成]**。
 
    [!DNL Recommendations] 中提供了一些自带标准。您和您的团队也可以创建自己的自定义标准。
 
@@ -37,8 +37,8 @@ Select the [criteria](/help/c-recommendations/c-algorithms/algorithms.md) to use
 
    You can use the [!UICONTROL Industry Type] filter, [!UICONTROL Page Type] filter, and [!UICONTROL Compatible] checkbox to filter the list of criteria. 这些选项可帮助您找到所需的条件。
 
-   * **行业类型：** 行业类型用于帮助对 [!DNL Recommendations] 标准进行分类。要更改默认的垂直行业，请单击 **[!UICONTROL 设置]**，然后选择所需的默认 **垂直行业]设置。[!UICONTROL **
-   * **页面类型：** 页面类型可帮助您对推荐进行分类。每种页面类型还有一些内置标准，可供您选择。
-   * **兼容：** 仅显示要求选定页面传递所需数据的标准。并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除 **[!UICONTROL 兼容]复选框。** 可以在 [!DNL Target][!UICONTROL  的“首选项]”中禁用或启用此选项。
+   * **行业类型：**&#x200B;行业类型用于帮助对 [!DNL Recommendations] 标准进行分类。要更改默认的垂直行业，请单击&#x200B;**[!UICONTROL 设置]**，然后选择所需的默认&#x200B;**垂直行业]设置。[!UICONTROL **
+   * **页面类型：**&#x200B;页面类型可帮助您对推荐进行分类。每种页面类型还有一些内置标准，可供您选择。
+   * **兼容：**&#x200B;仅显示要求选定页面传递所需数据的标准。并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]复选框。**&#x200B;可以在 [!DNL Target][!UICONTROL  的“首选项]”中禁用或启用此选项。
 
 1. Click **[!UICONTROL Next]** to display the [Select Design](/help/c-recommendations/c-design-overview/design-overview.md) dialog box.

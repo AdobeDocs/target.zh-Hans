@@ -118,7 +118,7 @@ If you are deploying at.js through an asynchronous Launch implementation, be sur
 
 ## at.js 是否与 Adobe Experience Manager 集成 (AEM) 兼容？{#section_6177AE10542344239753764C6165FDDC}
 
-现在，带有 FP-11577 的 [!DNL Adobe Experience Manager] 6.2（或更高版本）支持通过其 [!UICONTROL Adobe Target 云服务]集成来实施 [!DNL at.js]。有关更多信息，请参阅 Adobe Experience Manager 6.2** 文档中的[功能包](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html)和[与 Adobe Target 集成](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)。
+现在，带有 FP-11577 的 [!DNL Adobe Experience Manager] 6.2（或更高版本）支持通过其 [!UICONTROL Adobe Target 云服务]集成来实施 [!DNL at.js]。有关更多信息，请参阅 Adobe Experience Manager 6.2 ** 文档中的[功能包](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html)和[与 Adobe Target 集成](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)。
 
 ## 使用 at.js 时，我如何才能阻止页面加载闪烁？{#section_4D78AAAE73C24E578C974743A3C65919}
 
@@ -130,7 +130,7 @@ at.js 文件在下载后大约为 109 KB。但是，由于大多数服务器会�
 
 ## 为何 at.js 比 mbox.js 大？{#section_AA1C43897E46448FA3E26EEC10ED7E51}
 
-at.js 实施使用单个库 ([!DNL at.js])，而 mbox.js 实施则实际使用两个库（[!DNL mbox.js] 和 [!DNL target.js]）。因此，更公平的比较方式是将 at.js 与 mbox.js* 和* `target.js` 进行比较。若比较两个版本的 gzip 压缩文件大小，at.js 版本 1.2 的大小为 34 KB，而 mbox.js 版本 63 的大小则为 26.2 KB。
+at.js 实施使用单个库 ([!DNL at.js])，而 mbox.js 实施则实际使用两个库（[!DNL mbox.js] 和 [!DNL target.js]）。因此，更公平的比较方式是将 at.js 与 mbox.js *和* `target.js` 进行比较。若比较两个版本的 gzip 压缩文件大小，at.js 版本 1.2 的大小为 34 KB，而 mbox.js 版本 63 的大小则为 26.2 KB。
 
 at.js 更大，因为与 mbox.js 相比，它执行更多的 DOM 解析。该解析是必需的，因为 at.js 会在 JSON 响应中获取“原始”数据，并且必须了解这些数据的含义。mbox.js 使用 `document.write()`，所有解析均由浏览器完成。
 

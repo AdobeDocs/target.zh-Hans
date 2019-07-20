@@ -55,7 +55,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | response &gt; execute &gt; mboxes &gt; mbox &gt; option &gt; type | 选项类型。反映“content”字段的类型。支持的类型包括：html、重定向、JSON 和动态。 |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; options | 响应选项。 |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; eventToken | 点击事件的令牌。 |
-| response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; type | &quot;click&quot; |
+| response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; type | "click" |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; metrics | 包含 `clickThrough` 量度列表。 |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; mbox | mbox 的名称。 |
 | response &gt; execute &gt; mboxes &gt; mbox &gt;index | 表示响应用于请求中具有此索引的 mbox。 |

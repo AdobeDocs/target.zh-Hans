@@ -92,7 +92,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * 确认所有[集成](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)和[插件](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)均可按预期运行。
    * 确保您可以顺利使用 [!DNL at.js] 提供的方法进行[调试](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)。
 
-**迁移到 at.js 时可能出现的问题** 迁移到 at.js 后，有些客户报告了以下问题：
+**迁移到 at.js 时可能出现的问题**&#x200B;迁移到 at.js 后，有些客户报告了以下问题：
 
 * 之前在具有 [!DNL mbox.js] 的页面上构建的某些 VEC 活动可能需要进行更新，才能与 [!DNL at.js] 配合使用。
 

@@ -28,7 +28,7 @@ To display a different page after the VEC opens, click the **[!UICONTROL Configu
 
 ![“页面交付”对话框](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
 
-单击 **[!UICONTROL 添加模板规则]，为活动添加更多页面和部分。**
+单击&#x200B;**[!UICONTROL 添加模板规则]，为活动添加更多页面和部分。**
 
 其他规则可以基于以下任何一项：
 
@@ -41,13 +41,13 @@ To display a different page after the VEC opens, click the **[!UICONTROL Configu
 
 可以使用 AND 或 OR 将其他规则连接到活动 URL。您添加的所有规则将使用 AND 进行相互评估。
 
-完成后单击 **[!UICONTROL 保存]。**
+完成后单击&#x200B;**[!UICONTROL 保存]。**
 
 >[!NOTE]
 >
 >如果您输入的 URL 所对应的网站不包含 Target Standard JavaScript 代码，则您将无法选择页面元素。
 
-默认情况下，CMS不允许对包含JavaScript的元素(如旋转横幅)进行更改。如果您希望能够使用 **[!UICONTROL 可视化体验编辑器]** 更改这些元素，可以关闭[!UICONTROL 使用 JavaScript 渲染]。
+默认情况下，CMS不允许对包含JavaScript的元素(如旋转横幅)进行更改。如果您希望能够使用&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;更改这些元素，可以关闭[!UICONTROL 使用 JavaScript 渲染]。
 
 >[!NOTE]
 >

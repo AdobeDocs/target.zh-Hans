@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 更改日志记录了对活动进行更改的人员及更改发生的时间。
 
-1. 打开活动，然后单击 **[!UICONTROL 更改日志]**。
+1. 打开活动，然后单击&#x200B;**[!UICONTROL 更改日志]**。
 
    ![活动更改日志](/help/c-activities/assets/change_log.png)
 

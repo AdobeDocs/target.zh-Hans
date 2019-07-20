@@ -23,14 +23,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 [!DNL Target] 定义了以下两种类型的受众：
 
-* **定位受众：** 用于向不同类型的访客交付不同的内容。
-* **报表受众：** 用于确定不同类型的访客对同一内容有何响应，以便于您分析测试结果。
+* **定位受众：**&#x200B;用于向不同类型的访客交付不同的内容。
+* **报表受众：**&#x200B;用于确定不同类型的访客对同一内容有何响应，以便于您分析测试结果。
 
    在 [!DNL Target] 中，仅当使用 [!DNL Target] 作为报表源时，才能配置报表受众。If you use [DNL Adobe Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), you must configure your reporting audiences within [!DNL Analytics].
 
 ## 使用受众列表
 
-要访问“[!UICONTROL 受众]”列表，请单击顶部菜单栏中的 **[!UICONTROL 受众]：**
+要访问“[!UICONTROL 受众]”列表，请单击顶部菜单栏中的&#x200B;**[!UICONTROL 受众]：**
 
 ![受众列表](assets/audiences_list.png)
 
@@ -74,7 +74,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 受众类型 | 详细信息 |
 |--- |--- |
 | 移动设备受众 | 设备营销名称、供应商和型号。<br>将显示 `matches | does not match` 运算符，而不是`equals | does not equal`<br>![导入的移动设备受众](/help/c-target/c-audiences/assets/imported_mobile_audience.png)。 |
-| 访客行为受众 | **user.categoryAffinity：** 带有 `FAVORITE` 参数的 `categoryAffinity`。<br>![导入的类别亲和度](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**监控：** 监控服务等于 true。<br>**无监控服务：** 监控服务等于 false。<br>![导入的监控](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| 访客行为受众 | **user.categoryAffinity：**&#x200B;带有 `FAVORITE` 参数的 `categoryAffinity`。<br>![导入的类别亲和度](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**监控：**&#x200B;监控服务等于 true。<br>**无监控服务：**&#x200B;监控服务等于 false。<br>![导入的监控](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | 使用 NOT 运算符的受众 | **单一规则：** Target 以 `[All Visitor AND [NOT [rule]` 格式显示受众。单个 NOT 规则会与 AND 及 `AllVisitor` 受众一同显示。<br>![导入的使用 NOT 运算符的受众](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 使用导入的受众时，请牢记以下几点信息：

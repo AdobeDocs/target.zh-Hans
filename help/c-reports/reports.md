@@ -36,7 +36,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 显示报表 {#section_C4591A32F6D04C95A1AD5A377C27C28B}
 
-1. 单击 **[!UICONTROL 活动]**，然后在列表中单击所需的活动。
+1. 单击&#x200B;**[!UICONTROL 活动]**，然后在列表中单击所需的活动。
 
    如果您拥有多个活动，可以通过从[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 报表源]、[!UICONTROL 体验编辑器]、[!UICONTROL 量度类型]和[!UICONTROL 活动来源]下拉列表中选择相应选项来筛选列表。
 
@@ -46,7 +46,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![按类型过滤报告](/help/c-reports/assets/report_filters-new.png)
 
-1. 单击 **[!UICONTROL 报表]选项卡。**
+1. 单击&#x200B;**[!UICONTROL 报表]选项卡。**
 
    每个报表都包含一个图例，以帮助您了解报表。
 
@@ -68,6 +68,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * [!UICONTROL 将报表导出到 CSV]
    * [!UICONTROL 将订单详细信息导出到 CSV]
 
-1. （可选）单击 **[!UICONTROL 表格视图]** 图标和 **图形视图]图标，以在这两种报表格式之间进行切换。[!UICONTROL **
+1. （可选）单击&#x200B;**[!UICONTROL 表格视图]**&#x200B;图标和&#x200B;**图形视图]图标，以在这两种报表格式之间进行切换。[!UICONTROL **
 
-   （仅限多变量测试）单击 **[!UICONTROL 位置贡献]** (![位置贡献图标](assets/icon_location_contribution.png)) 图标，以将报表切换为按位置显示贡献。
+   （仅限多变量测试）单击&#x200B;**[!UICONTROL 位置贡献]** (![位置贡献图标](assets/icon_location_contribution.png)) 图标，以将报表切换为按位置显示贡献。

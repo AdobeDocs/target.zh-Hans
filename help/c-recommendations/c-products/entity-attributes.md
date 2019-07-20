@@ -51,7 +51,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!NOTE]
 >
->要按[!UICONTROL 类别]页面中的类别显示推荐，则只有一个 `categoryId` 可以被传递到用于显示该特定推荐的 mbox 中。`categoryId` 的值必须与“产品详细信息”页面上传递的 `entity.categoryId`[!UICONTROL ] 的值完全匹配。
+>要按[!UICONTROL 类别]页面中的类别显示推荐，则只有一个 `categoryId` 可以被传递到用于显示该特定推荐的 mbox 中。`categoryId` 的值必须与“产品详细信息”页面上传递的 `entity.categoryId` 的值完全匹配。
 
 示例：
 
@@ -109,11 +109,11 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 示例: `'entity.inventory=1'`
 
-**空库存属性处理：** 对于交付，如果您具有包含规则、收集规则或标准设置，其中 `entity.inventory` &gt; 0 或 `entity.inventory` = 0，并且产品未设置库存，则 [!DNL Target] 会将此规则计算为 TRUE，并包括未设置库存的产品。这是默认完成的，以便未设置库存的产品会显示在推荐结果中。
+**空库存属性处理：**&#x200B;对于交付，如果您具有包含规则、收集规则或标准设置，其中 `entity.inventory` &gt; 0 或 `entity.inventory` = 0，并且产品未设置库存，则 [!DNL Target] 会将此规则计算为 TRUE，并包括未设置库存的产品。这是默认完成的，以便未设置库存的产品会显示在推荐结果中。
 
 同样，如果您具有全局排除规则，其中 `entity.inventory` = 0，并且产品未设置 `entity.inventory`，则 [!DNL Target] 会将此规则计算为 TRUE 并排除产品。
 
-**已知问题：** 产品搜索与未设置库存值属性的交付不一致。例如，对于设置为 `entity.inventory` = 0 的规则，产品搜索将不显示未设置库存值的产品。
+**已知问题：**&#x200B;产品搜索与未设置库存值属性的交付不一致。例如，对于设置为 `entity.inventory` = 0 的规则，产品搜索将不显示未设置库存值的产品。
 
 ### `entity.value`
 

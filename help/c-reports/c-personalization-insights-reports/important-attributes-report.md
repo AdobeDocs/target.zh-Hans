@@ -27,11 +27,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 访问重要属性报表 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 单击 **[!UICONTROL 活动]**，然后在列表中单击所需的 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 活动。
+1. 单击&#x200B;**[!UICONTROL 活动]**，然后在列表中单击所需的 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 活动。
 
    如果您拥有多个活动，可以通过从[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 报表源]、[!UICONTROL 体验编辑器]、[!UICONTROL 量度类型]和[!UICONTROL 活动来源]下拉列表中选择相应选项来筛选列表。
 
-1. 单击 **[!UICONTROL 报表]**。
+1. 单击&#x200B;**[!UICONTROL 报表]**。
 
    此时会显示“[!UICONTROL 摘要]”报表，该报表提供了有关活动性能的信息，由第一个屏幕图标来表示。其他两个图标表示两个个性化分析报表：自动化区段和重要属性。请注意，自动定位还有一个图形图标，表示“[!UICONTROL 摘要]”报表的图形视图。
 
@@ -41,7 +41,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >[!UICONTROL 重要属性]报表只有在您激活活动至少 15 天后才能使用。在此初始阶段，您将无法访问此报表，也无法单击“[!UICONTROL 重要属性]”图标。15 天过后，如果您的活动中有足够的个性化流量，将可以使用“[!UICONTROL 重要属性]”报表。
 
-1. 激活活动 15 天后，您可以单击 **[!UICONTROL 重要属性]图标。**
+1. 激活活动 15 天后，您可以单击&#x200B;**[!UICONTROL 重要属性]图标。**
 
    ![](assets/model_attribute_ranking.png)
 
@@ -99,11 +99,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 个性化分析报表（“[!UICONTROL 自动化区段]”和“[!UICONTROL 重要属性]”）仅适用于固定日期范围：15 天、30 天、45 天、60 天和 90 天。通过这些固定日期范围，“[!UICONTROL 个性化分析]”可以使用足够多的数据来降低您从活动中的短生存期模式获取分析的可能性。您可以为任何结束日期（此时活动中有足够的数据来满足持续时间）选择这些持续时间。
 
-**[!UICONTROL ]个性化分析是如何创建的？**
+**个性化分析是如何创建的？**
 
 [!UICONTROL 个性化分析是采用名为 MAGIX（与模型无关的全局可理解解释）的 Adobe 技术创建的，该技术正在申请专利。]您可以在 [arXiv.org 网站](https://arxiv.org/abs/1706.07160)上 Adobe 研究团队发表的论文中了解有关 MAGIX 的更多信息。
 
-**[!UICONTROL ]个性化分析是否可用于基于收入的建模目标/主要目标？**
+**个性化分析是否可用于基于收入的建模目标/主要目标？**
 
 目前，“[!UICONTROL 个性化分析]”仅适用于转化优化目标活动。我们将在未来的版本中添加对收入优化目标活动的支持。
 

@@ -8,7 +8,7 @@ title: Target 发行说明（预发行版本）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: ae8c88d1fa05ff7e110495e47ebf275d5117868c
+source-git-commit: 45d0a73faafd216b5a4686501c548f5771943050
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: ae8c88d1fa05ff7e110495e47ebf275d5117868c
 
 下列发行说明将介绍 [!DNL Adobe Target] 最新版本或即将发布的版本的功能、增强功能、修复信息和已知问题。
 
-**上次更新日期：2019 年 7 月 12 日**
+**上次更新日期：2019 年 7 月 19 日**
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ source-git-commit: ae8c88d1fa05ff7e110495e47ebf275d5117868c
 >
 >The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target Standard/Premium 19.7.1（2019 年 7 月 23 日）{#tgt-19-7-1}
+## Target Standard/Premium 19.7.1（2019 年 7 月 24 日）{#tgt-19-7-1}
 
 此版本包括以下新增功能和增强功能：
 
@@ -38,6 +38,6 @@ source-git-commit: ae8c88d1fa05ff7e110495e47ebf275d5117868c
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
-要收到有关 Target 和其他 Adobe Experience Cloud 解决方案即将推出的产品增强功能的高级通知，请注册“Adobe 产品更新早知道”：
+若要提前了解有关 Target 和其他 Adobe Experience Cloud 解决方案即将推出的产品增强功能的通知，请注册“Adobe 产品更新早知道”：
 
 [https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)

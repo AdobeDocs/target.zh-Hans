@@ -29,7 +29,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 访问和共享 QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. 在活动的“[!UICONTROL 概述]”页面（适用于除自动个性化以外的所有其他活动类型）中，单击 **[!UICONTROL 活动 QA]链接。**
+1. 在活动的“[!UICONTROL 概述]”页面（适用于除自动个性化以外的所有其他活动类型）中，单击&#x200B;**[!UICONTROL 活动 QA]链接。**
 
    ![活动QA链接](assets/qa_link.png)
 

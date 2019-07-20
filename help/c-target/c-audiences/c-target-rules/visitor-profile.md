@@ -17,13 +17,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 创建受众以定位满足特定档案参数的访客。
 
-1. 在 [!DNL Target] 界面中，单击 **[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
+1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
-1. 单击 **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 访客配置文件]**。
+1. 单击&#x200B;**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 访客配置文件]**。
 
    ![](assets/target_visitor_profile.png)
 
-1. 单击 **[!UICONTROL 选择]**，然后选择以下选项之一：
+1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
    访客配置文件参数通过 mbox（配置文件）进行传递。您可以定位新访客或回访访客，也可以包含所有用户。
 
@@ -40,8 +40,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    您可以定位自定义配置文件参数和 `user.` 参数。选择要用来定位活动的参数。如果未显示所需的参数，则表明该参数尚未由 mbox 触发。
 
-1. （可选）单击 **[!UICONTROL 添加规则]，然后为受众设置更多规则。**
-1. 单击 **[!UICONTROL 保存]**。
+1. （可选）单击&#x200B;**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 培训视频：创建受众
 

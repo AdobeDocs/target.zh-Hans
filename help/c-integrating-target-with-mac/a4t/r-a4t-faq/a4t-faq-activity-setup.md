@@ -29,11 +29,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以在“设置”中更改“报表设置”选项。
 
-1. 在 Adobe Target 中，单击 **[!UICONTROL 设置]**。
-1. 在 **[!UICONTROL 用于报表的 Experience Cloud 解决方案]** 下拉列表中，单击 **[!UICONTROL 为每个活动选择]**。
+1. 在 Adobe Target 中，单击&#x200B;**[!UICONTROL 设置]**。
+1. 在&#x200B;**[!UICONTROL 用于报表的 Experience Cloud 解决方案]**&#x200B;下拉列表中，单击&#x200B;**[!UICONTROL 为每个活动选择]**。
 
 ![](assets/select-per-activity.png)
 
-随即会在 **** 目标和设置]屏幕中启用 **[!UICONTROL 报表源]下拉列表，以用于创建和编辑活动。[!UICONTROL **
+随即会在&#x200B;****&#x200B;目标和设置]屏幕中启用&#x200B;**[!UICONTROL 报表源]下拉列表，以用于创建和编辑活动。[!UICONTROL **
 
 要始终将 Analytics 用作报表源，请从“设置”的相应下拉列表中选择 **[!UICONTROL Adobe Analytics]。**

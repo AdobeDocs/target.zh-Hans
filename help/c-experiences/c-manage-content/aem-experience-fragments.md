@@ -52,15 +52,15 @@ Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（
 
 有关详细信息，请参阅：
 
-* **AEM 6.3：** Adobe Experience Manager 6.3 [](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)文档中的_选择使用 Adobe Analytics 和 Adobe Target_。
-* **AEM 6.4：** Adobe Experience Manager 6.4 [](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)文档中的_选择使用 Adobe Analytics 和 Adobe Target_。
+* **AEM 6.3：** Adobe Experience Manager 6.3 [](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)文档中的&#x200B;_选择使用 Adobe Analytics 和 Adobe Target_。
+* **AEM 6.4：** Adobe Experience Manager 6.4 [](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)文档中的&#x200B;_选择使用 Adobe Analytics 和 Adobe Target_。
 
 ### 步骤 2：创建体验片段
 
 体验片段是在 AEM 中创建的。有关详细信息，请参阅：
 
-* **AEM 6.3：** Adobe Experience Manager 6.3 [](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)文档中的*体验片段*。
-* **AEM 6.4：** Adobe Experience Manager 6.4 [](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)文档中的*体验片段*。
+* **AEM 6.3：** Adobe Experience Manager 6.3 [](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)文档中的&#x200B;*体验片段*。
+* **AEM 6.4：** Adobe Experience Manager 6.4 [](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)文档中的&#x200B;*体验片段*。
 
 ### 步骤 3：配置 AEM 以与 Target 共享体验片段
 
@@ -114,7 +114,7 @@ Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（
 
 **通过 VEC 使用体验片段：**
 
-1. 在 Target 中，在[可视化体验编辑器](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中创建或编辑体验时，单击要将 AEM 内容插入到的页面位置，然后选择 **[!UICONTROL 与体验片段交换]**，以显示“[!UICONTROL 选择体验片段]”列表。
+1. 在 Target 中，在[可视化体验编辑器](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中创建或编辑体验时，单击要将 AEM 内容插入到的页面位置，然后选择&#x200B;**[!UICONTROL 与体验片段交换]**，以显示“[!UICONTROL 选择体验片段]”列表。
 
    >[!NOTE]
    >
@@ -124,7 +124,7 @@ Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（
 
    ![](assets/experience_fragment_list.png)
 
-1. 选择所需的体验片段，然后单击 **[!UICONTROL 保存]**。
+1. 选择所需的体验片段，然后单击&#x200B;**[!UICONTROL 保存]**。
 1. 完成活动配置。
 
    有关配置各种类型的活动的更多信息，请参阅以下主题：
@@ -139,13 +139,13 @@ Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（
 
 **通过基于表单的体验编辑器使用体验片段：**
 
-1. 在 Target 中，在[基于表单的体验编辑器](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)中创建或编辑体验时，选择要将 AEM 内容插入到的页面位置，然后选择 **[!UICONTROL 更改体验片段]**，以显示“[!UICONTROL 选择体验片段]”列表。
+1. 在 Target 中，在[基于表单的体验编辑器](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)中创建或编辑体验时，选择要将 AEM 内容插入到的页面位置，然后选择&#x200B;**[!UICONTROL 更改体验片段]**，以显示“[!UICONTROL 选择体验片段]”列表。
 
    ![](assets/experience_fragment_list.png)
 
    “[!UICONTROL 体验片段]”列表显示了在 AEM 中创建的所有内容，这些内容现在可从 Target 中以本地方式使用。
 
-1. 选择所需的体验片段，然后单击 **[!UICONTROL 保存]**。
+1. 选择所需的体验片段，然后单击&#x200B;**[!UICONTROL 保存]**。
 1. 完成活动配置。
 
 ## 培训视频：在 Adobe Target 中使用 AEM 体验片段{#section_C0EDC54063464F41A182492D2045BC64}

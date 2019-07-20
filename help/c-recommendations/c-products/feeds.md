@@ -51,7 +51,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!IMPORTANT]
 >
->在 [!DNL .csv] 文件中，不要用双引号 (&quot;) 引住值，除非是有意为之。如果用双引号引住值，则必须使用另一组双引号将其引住来进行转义。未转义的双引号将会导致推荐信息源无法正确加载。
+>在 [!DNL .csv] 文件中，不要用双引号 (") 引住值，除非是有意为之。如果用双引号引住值，则必须使用另一组双引号将其引住来进行转义。未转义的双引号将会导致推荐信息源无法正确加载。
 
 例如，以下语法不正确：
 
@@ -188,7 +188,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ## Analytics 产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件的更多信息，请参阅《Analytics 帮助和参考》**指南中的[分类](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)。推荐需要的所有信息并非都可通过当前的实施获得，因此，如果要在分类文件中添加新内容，请按此用户指南操作。
+Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件的更多信息，请参阅《Analytics 帮助和参考》**&#x200B;指南中的[分类](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)。推荐需要的所有信息并非都可通过当前的实施获得，因此，如果要在分类文件中添加新内容，请按此用户指南操作。
 
 >[!IMPORTANT]
 >
@@ -208,12 +208,12 @@ recs/t_feeds_create.xml
 
  -->
 
-1. 在 Target 界面中，单击 **[!UICONTROL 推荐]** &gt; **[!UICONTROL 信息源]** &gt; **[!UICONTROL 创建信息源]**。
+1. 在 Target 界面中，单击&#x200B;**[!UICONTROL 推荐]** &gt; **[!UICONTROL 信息源]** &gt; **[!UICONTROL 创建信息源]**。
 
    ![步骤结果](assets/CreateFeed.png)
 
 1. 为您的信息源指定一个描述性名称。
-1. 选择 **[!UICONTROL 源类型]**。
+1. 选择&#x200B;**[!UICONTROL 源类型]**。
 
    有关 Google 产品信息源和 CSV 信息源类型的信息，请参阅[信息源概述](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。
 1. 指定报表包，或者可以访问信息源的 URL 或 FTP 位置。
@@ -221,7 +221,7 @@ recs/t_feeds_create.xml
    如果您选择 FTP，请提供 FTP 服务器信息、登录凭据、文件名和 FTP 目录。您可以选择使用带有 SSL 的 FTP (FTPS) 进行更安全的上传。
 
    如果您选择 URL，请指定 URL。
-1. 单击 **[!UICONTROL 下一步]** 箭头以显示[!UICONTROL 计划]选项。
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;箭头以显示[!UICONTROL 计划]选项。
 
    ![步骤结果](assets/CreateFeedSchedule.png)
 
@@ -236,7 +236,7 @@ recs/t_feeds_create.xml
 1. 指定要运行信息源的时间。
 
    此选项基于浏览器中使用的时区。如果您想要使用不同时区的时间，则必须根据您所在的时区计算该时间。
-1. 单击 **[!UICONTROL 下一步]** 箭头以显示[!UICONTROL 映射]选项，然后指定您希望如何将数据映射到 [!DNL Target] 定义。
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;箭头以显示[!UICONTROL 映射]选项，然后指定您希望如何将数据映射到 [!DNL Target] 定义。
 
    ![步骤结果](assets/CreatFeedMapping.png)
 
@@ -248,7 +248,7 @@ recs/t_feeds_create.xml
    >
    >有关更多信息，请参阅[主机](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
 
-1. 单击 **[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 创建或编辑信息源后，该信息源会立即运行，然后将根据您设置的参数进行更新。所有信息需要一段时间才能使用。首先，信息源必须同步，接着必须对其进行处理并将其编入索引，然后才能对其发布并使其可供使用。当前状态显示在“信息源”列表中的[信息源状态](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)下。在该过程完成之前，您可以关闭 [!DNL Target]，该过程会继续执行。
 
@@ -279,7 +279,7 @@ recs/t_feeds_create.xml
 | 未能编入索引 | 索引操作失败。请重试。 |
 | 未找到服务器 | FTP 或 URL 位置无效或无法访问。 |
 
-要更新信息源（例如，更改信息源配置或信息源文件），请打开该信息源，进行任何所需更改，然后单击 **[!UICONTROL 保存]**。
+要更新信息源（例如，更改信息源配置或信息源文件），请打开该信息源，进行任何所需更改，然后单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!IMPORTANT]
 >

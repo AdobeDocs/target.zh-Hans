@@ -30,9 +30,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 要检索授权令牌，请执行以下操作：
 
-1. 单击 **[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]**。
+1. 单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]**。
 1. 选择 **[!UICONTROL mbox.js]** 或 **[!UICONTROL at.js]**。
-1. 单击 **[!UICONTROL 生成授权令牌]**。
+1. 单击&#x200B;**[!UICONTROL 生成授权令牌]**。
 
    ![生成授权令牌](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
 
@@ -102,7 +102,7 @@ mboxTrace 让您能够接收 mbox 回复所附带的跟踪信息。跟踪信息�
 
 有关更多信息，请参阅下面的培训视频：
 
-有关更多详细信息，请参阅 [Adobe Experience Cloud 调试器扩展**文档](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)。
+有关更多详细信息，请参阅 [Adobe Experience Cloud 调试器扩展&#x200B;**&#x200B;文档](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)。
 
 ## 如果 target.js 在交付过程中加载失败 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 

@@ -32,7 +32,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 要更改活动报表的环境，请执行以下操作：
 
-1. 单击 **[!UICONTROL 活动]**，从列表中单击所需活动，然后单击 **报表]选项卡。[!UICONTROL **
+1. 单击&#x200B;**[!UICONTROL 活动]**，从列表中单击所需活动，然后单击&#x200B;**报表]选项卡。[!UICONTROL **
 1. 单击齿轮图标以配置报表设置。
 
    ![](assets/ab_settings_dialog.png)
@@ -41,10 +41,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >没有为自动个性化报表提供齿轮图标。
 
-1. 从 **[!UICONTROL 环境]** 下拉列表中，选择 **[!UICONTROL 生产]**。
+1. 从&#x200B;**[!UICONTROL 环境]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 生产]**。
 
    如果您选择了开发环境，则可能会没有可用的报表数据。
 
-1. 单击 **[!UICONTROL 保存设置]**。
+1. 单击&#x200B;**[!UICONTROL 保存设置]**。
 
 有关环境的更多信息，请参阅[主机](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。

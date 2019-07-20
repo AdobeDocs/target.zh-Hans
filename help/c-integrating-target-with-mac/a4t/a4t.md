@@ -79,7 +79,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 
 ## A4T 报表的示例 {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-要在 [!DNL Target]**中查看 A4T 报表，请单击[!UICONTROL 活动]**，在列表中单击使用 [!DNL Analytics] 作为报表源的所需活动，然后单击 **[!UICONTROL 报表]选项卡。**
+要在 [!DNL Target]**中查看 A4T 报表，请单击[!UICONTROL 活动]**，在列表中单击使用 [!DNL Analytics] 作为报表源的所需活动，然后单击&#x200B;**[!UICONTROL 报表]选项卡。**
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 
 ![](assets/a4t_report_table.png)
 
-要在 [!DNL Analytics] 而不是 [!DNL Target] 中查看报表，请单击报表顶部的 **[!UICONTROL ]在 Analytics 中查看**。
+要在 [!DNL Analytics] 而不是 [!DNL Target] 中查看报表，请单击报表顶部的&#x200B;**在 Analytics 中查看**。
 
 ## Analytics 与 Target：分析最佳实践教程 {#section_3438E6E77A464424B717A4FD333B84B2}
 

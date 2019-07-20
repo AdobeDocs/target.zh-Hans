@@ -56,7 +56,7 @@ Target 可以跟踪以下数据：
 ## 将 Target 选件包含在 Adobe Campaign 电子邮件中 {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. 在 Adobe Campaign 中创建一个电子邮件。
-1. 在电子邮件属性中，单击 **[!UICONTROL 包含]** &gt; **[!UICONTROL 由 Adobe Target 提供的动态图像]**。
+1. 在电子邮件属性中，单击&#x200B;**[!UICONTROL 包含]** &gt; **[!UICONTROL 由 Adobe Target 提供的动态图像]**。
 1. 从共享的资产中选择默认图像。
 1. 指定位置 (rawbox)。
 1. 添加任何其他决策参数，例如收件人的性别。

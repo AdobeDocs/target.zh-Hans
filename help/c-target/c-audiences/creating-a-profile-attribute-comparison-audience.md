@@ -36,8 +36,8 @@ Define an audience to compare two profile attributes for your [Audience library]
 
 ## 创建配置文件属性比较受众 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. 单击 **[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]** &gt; **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 访客配置文件]**。
-1. 从 **[!UICONTROL 访客配置文件]下拉列表中选择一个属性：**
+1. 单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]** &gt; **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 访客配置文件]**。
+1. 从&#x200B;**[!UICONTROL 访客配置文件]下拉列表中选择一个属性：**
 
    ![倾向分数1](assets/propensity_score_1.png)
 
@@ -45,7 +45,7 @@ Define an audience to compare two profile attributes for your [Audience library]
 
    ![倾向得分2](assets/propensity_score_2.png)
 
-1. 从 **[!UICONTROL 选择比较类型]** 下拉列表中选择 **[!UICONTROL 属性]**。
+1. 从&#x200B;**[!UICONTROL 选择比较类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 属性]**。
 
    “静态值”比较类型允许您将访客配置文件属性与特定值进行比较。
 

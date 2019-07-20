@@ -46,7 +46,7 @@ AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 
 
 1. 为每个替代图像创建[重定向选件](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE] {class="- topic/note "}
    >
    >AdBox 必须和重定向选件或默认内容选件共同加载。不接受其他的选件类型。由于 AdBox 是 URL，它只能显示自身接收到的 URL，因此只有重定向选件才适用。
 

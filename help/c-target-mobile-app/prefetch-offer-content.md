@@ -24,4 +24,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 有关更多信息（包括预取方法、公共类和代码示例），请参阅：
 
 * **iOS：**[在iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_mob_target-prefetch_ios.html) SDK4.x for Experience Cloud解决方案*指南中预购iOS中的选件内容。
-* **Android：**《适用于 Experience Cloud 解决方案的 Android SDK 4.x》[](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_mob_target-prefetch_android.html)指南中的*在 Android 中预取选件内容*。
+* **Android：**《适用于 Experience Cloud 解决方案的 Android SDK 4.x》[](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_mob_target-prefetch_android.html)指南中的&#x200B;*在 Android 中预取选件内容*。

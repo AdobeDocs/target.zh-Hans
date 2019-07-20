@@ -24,21 +24,21 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 要将现有的全局 mbox 用于 [!DNL Target Standard] 和旧版实施，您必须设置一些参数。
 
-1. 转到 [!DNL Target Standard]，然后单击 **[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]**。
+1. 转到 [!DNL Target Standard]，然后单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]**。
 
    默认情况下，[!UICONTROL 自动创建全局 mbox] 处于启用状态，且自定义的全局 mbox 被命名为 `target-global-mbox`。
 1. 如果您要使用现有的 mbox，请禁用[!UICONTROL 自动创建全局 mbox]，然后在[!UICONTROL 自定义全局 mbox] 字段中指定之前创建的全局 mbox 的名称。
 
    “[!UICONTROL 自定义全局 Mbox]”下拉列表列出了您帐户中的所有 mbox。如果您要使用尚不存在的 mbox，请在 Target Classic 中创建该 mbox。
-1. 单击 **[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    您的帐户中的 mbox.js 设置已更新。
 1. 下载新的 mbox.js 文件，并在您的网站中引用它。
 
    使用新的 mbox.js 文件更新您的生产网站后，您便可以设置首选项。
-1. 单击 **[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**。
+1. 单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**。
 1. 在[!UICONTROL 自定义全局 mbox] 字段中，指定在实施页面中选择的全局 mbox 的名称。
-1. 单击 **[!UICONTROL 提交]**。
+1. 单击&#x200B;**[!UICONTROL 提交]**。
 
    所有现有的活动均已更新为使用指定的全局 mbox，包括之前已创建和实施的活动。
    **全局 Mbox 实施故障诊断***为何全局 mbox 未加载？或为何页面加载时全局 mbox 的加载有所延迟？*

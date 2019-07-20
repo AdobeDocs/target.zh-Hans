@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 当访客浏览您的网站时，或者当访客返回另一个会话时，保存的配置文件属性可用于定位内容或日志信息以进行细分筛选。
 
-要设置配置文件属性，请单击 **[!UICONTROL 受众]** &gt; **[!UICONTROL 配置文件脚本]**。
+要设置配置文件属性，请单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 配置文件脚本]**。
 
 ![个人资料脚本选项卡](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -27,7 +27,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 | 参数类型 | 描述 |
 |--- |--- |
-| Mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>**** 注意：Target 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 Target，则可以使用配置文件更新 API 方法进行传递。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+| Mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意：Target 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 Target，则可以使用配置文件更新 API 方法进行传递。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
 | 脚本 | 直接使用 JavaScript 代码段定义。这些参数能够保存运行的总数，如消费者花费的总金额，并能基于每个 mbox 请求来执行。请参阅下面的“配置文件脚本属性”。 |
 
 ## 配置文件脚本属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -46,11 +46,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 配置文件脚本位于 [!UICONTROL  界面的“]受众[!DNL Target]”选项卡下。
 
-要添加新的配置文件脚本，请依次单击 **[!UICONTROL 配置文件脚本]** 选项卡和 **[!UICONTROL 创建脚本]**，然后编写您的脚本。
+要添加新的配置文件脚本，请依次单击&#x200B;**[!UICONTROL 配置文件脚本]**&#x200B;选项卡和&#x200B;**[!UICONTROL 创建脚本]**，然后编写您的脚本。
 
 或
 
-要复制现有的配置文件脚本，请在[!UICONTROL 配置文件脚本]列表中将鼠标悬停在所需脚本上，然后单击 **[!UICONTROL 复制]** 图标：(assets/icon_copy.png)
+要复制现有的配置文件脚本，请在[!UICONTROL 配置文件脚本]列表中将鼠标悬停在所需脚本上，然后单击&#x200B;**[!UICONTROL 复制]**&#x200B;图标：(assets/icon_copy.png)
 
 然后，您可以对受众进行编辑以创建一个类似的受众。
 
@@ -68,8 +68,8 @@ if (mbox.name == 'Track_Interest') {
 }
 ```
 
-* 在代码中使用 `user.get('parameterName')` &#39;) 引用配置文件脚本属性（包括其自身）。
-* 保存下次使用 `user.setLocal('variable_name', 'value')` &#39;) 运行脚本时（对下一个 mbox 请求）可能访问的变量。使用 `user.getLocal('variable_name')` 引用变量。当您想引用上次请求的日期和时间时，此脚本非常有用。
+* 在代码中使用 `user.get('parameterName')` ') 引用配置文件脚本属性（包括其自身）。
+* 保存下次使用 `user.setLocal('variable_name', 'value')` ') 运行脚本时（对下一个 mbox 请求）可能访问的变量。使用 `user.getLocal('variable_name')` 引用变量。当您想引用上次请求的日期和时间时，此脚本非常有用。
 * 参数和值区分大小写。匹配在活动或测试期间接收的参数和值的大小写。
 * 有关更多的 JavaScript 语法，请参阅下文中的“脚本配置文件参数的 JavaScript 引用”部分。
 
@@ -226,7 +226,7 @@ if (!user.get('threegroups')) {
 
 * **将配置文件脚本添加为响应令牌以调试配置文件脚本：**
 
-   在 Target 中，依次单击 **[!UICONTROL 设置]** 和 **[!UICONTROL 响应令牌]**，然后启用要调试的配置文件脚本。
+   在 Target 中，依次单击&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 响应令牌]**，然后启用要调试的配置文件脚本。
 
    每当您为包含 Target 的网站加载页面时，Target 的部分响应都将包含给定配置文件脚本的值，如下所示：
 
@@ -234,7 +234,7 @@ if (!user.get('threegroups')) {
 
 * **使用 mboxTrace 调试工具来调试配置文件脚本。**
 
-   此方法需要授权令牌，您可以通过单击 **[!UICONTROL Target]** &gt; **[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]** &gt; **[!UICONTROL 生成授权令牌]** 来生成该令牌。
+   此方法需要授权令牌，您可以通过单击 **[!UICONTROL Target]** &gt; **[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]** &gt; **[!UICONTROL 生成授权令牌]**&#x200B;来生成该令牌。
 
    然后，将以下两个参数添加到页面 URL 中的“?”之后：`mboxTrace=window&authorization=YOURTOKEN`。
 

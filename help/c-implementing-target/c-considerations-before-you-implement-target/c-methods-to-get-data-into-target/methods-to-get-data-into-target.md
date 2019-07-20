@@ -56,7 +56,7 @@ source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 
    除了IETF站点中提到的内容之外，Target还允许在查询字符串中使用以下字符：
 
-   `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
+   `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
    其他所有字符都必须采用 URL 编码。The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 

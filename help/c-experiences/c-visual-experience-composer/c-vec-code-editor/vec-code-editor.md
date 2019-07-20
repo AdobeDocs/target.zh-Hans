@@ -34,7 +34,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/codeeditor_viewchange.png)
 
-* 编辑现有的操作。将鼠标悬停在所需的修改上，然后单击 **[!UICONTROL 修改]图标。**
+* 编辑现有的操作。将鼠标悬停在所需的修改上，然后单击&#x200B;**[!UICONTROL 修改]图标。**
 
    ![](assets/codeeditor_edit.png)
 
@@ -42,11 +42,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/codeeditor_changechange1.png)
 
-* 删除现有的操作。将鼠标悬停在所需的修改上，然后单击 **[!UICONTROL 删除]图标。**
+* 删除现有的操作。将鼠标悬停在所需的修改上，然后单击&#x200B;**[!UICONTROL 删除]图标。**
 
    ![](assets/codeditor_delete.png)
 
-* 添加新修改。单击 **[!UICONTROL 添加修改]或“+”图标，然后按照以下所述指定更改。**
+* 添加新修改。单击&#x200B;**[!UICONTROL 添加修改]或“+”图标，然后按照以下所述指定更改。**
 
    ![](assets/codeeditor_new.png)
 
@@ -62,7 +62,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 添加修改 {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
-1. 要显示所选体验的[!UICONTROL 修改]页面，请在 VEC 中单击 **[!UICONTROL 修改]** &lt;/&gt; 图标。
+1. 要显示所选体验的[!UICONTROL 修改]页面，请在 VEC 中单击&#x200B;**[!UICONTROL 修改]** &lt;/&gt; 图标。
 
    ![](assets/codeeditor_icon_big.png)
 
@@ -86,7 +86,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/codeeditor_page_mods_add.png)
 
-1. 从 **[!UICONTROL 修改类型]下拉列表中，选择所需类型：**
+1. 从&#x200B;**[!UICONTROL 修改类型]下拉列表中，选择所需类型：**
 
    | 修改类型 | 详细信息 |
    |--- |--- |
@@ -108,7 +108,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ![](assets/codeeditor_custom.png)
 
-使用 **[!UICONTROL 自定义代码]选项卡可执行以下操作：**
+使用&#x200B;**[!UICONTROL 自定义代码]选项卡可执行以下操作：**
 
 * 使用内联 JavaScript，或链接到外部 JavaScript 文件
 
@@ -244,7 +244,7 @@ Target 将值为“CDQID”的新元素 ID 应用于由 Target 修改的页面�
 
 换言之，如果您添加一个带有文本的元素，然后在单独的操作中使用不同的文本对该元素进行编辑，则“修改”面板会将这两个操作显示为不同的元素。在编辑元素时，您创建了一个新元素，该元素修改了之前创建的原始元素，在其中包含已编辑的文本。如果删除了原始元素，则编辑后的文本将无法找到被编辑的元素，而且也不会显示出来。第二个元素会保留在元素列表中，但不会对页面产生影响，因为它所更改的元素不再存在。
 
-***我在脚本中使用`document.write`创建的一个元素没有出现在我预期的位置。** *
+***我在脚本中使用`document.write`创建的一个元素没有出现在我预期的位置。***
 
 脚本是异步执行的。这通常会导致 `document.write` 操作显示在页面上错误的位置。Adobe 不建议在自定义代码内创建的脚本中使用 `document.write`。
 
@@ -258,4 +258,4 @@ Target 将值为“CDQID”的新元素 ID 应用于由 Target 修改的页面�
 
 **自定义代码无法在 Internet Explorer 8 中生成预期结果。**
 
-Target 不再支持 IE8
+Target 不再支持 IE8。

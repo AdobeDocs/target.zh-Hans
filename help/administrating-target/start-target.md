@@ -35,15 +35,15 @@ After receiving the invitation to join the [!DNL Adobe Experience Cloud], accept
 
    如果您已经具有 Adobe ID，则系统会识别您的 Adobe ID，并提示您登录。
 1. 接受使用条款。
-1. 查看有关您目前已做工作的摘要，然后单击 **[!UICONTROL 继续访问 Experience Cloud]**。
-1. 登录到 Adobe Experience Cloud，然后单击 **[!UICONTROL 关联帐户]**。
+1. 查看有关您目前已做工作的摘要，然后单击&#x200B;**[!UICONTROL 继续访问 Experience Cloud]**。
+1. 登录到 Adobe Experience Cloud，然后单击&#x200B;**[!UICONTROL 关联帐户]**。
 
    >[!NOTE]
    >
    >如果不关联您的帐户，您将无法访问 [!DNL Target]。
 
    所有 Experience Cloud 产品都会显示在关联页面上。单击 `Link Test&Target`，然后输入您的 Test&amp;Target 用户名和密码，以访问 Standard 和 Classic。
-1. 单击 **[!UICONTROL 继续访问 Experience Cloud]**。
+1. 单击&#x200B;**[!UICONTROL 继续访问 Experience Cloud]**。
 
    此时，您还没有为任何组设置权限以供您关联。
 1. 如有需要，请观看介绍 [!DNL Adobe Experience Cloud] 的相关视频。

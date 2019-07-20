@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以在 Mozilla 开发人员网络 (MDN) 上的[选择器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文档中找到与 CSS 选择器有关的基本信息。
 
-您可以设置要在帐户首选项中使用元素类还是元素 ID。单击 **[!UICONTROL 设置 &gt; 首选项]**，然后选择首选的 CSS 选择器。
+您可以设置要在帐户首选项中使用元素类还是元素 ID。单击&#x200B;**[!UICONTROL 设置 &gt; 首选项]**，然后选择首选的 CSS 选择器。
 
 ![](assets/css_selectors.png)
 

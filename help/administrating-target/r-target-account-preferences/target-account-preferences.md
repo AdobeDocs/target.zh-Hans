@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 可设置您的帐户首选项以配置 [!DNL Target Standard] 或 [!DNL Target Premium]，从而使用您的帐户正常运行它们。
 
-要设置帐户首选项，请单击 **[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**，根据需要配置首选项，然后单击 **[!UICONTROL 提交]**。
+要设置帐户首选项，请单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**，根据需要配置首选项，然后单击&#x200B;**[!UICONTROL 提交]**。
 
 下图显示了“[!UICONTROL 帐户首选项]”页面上的可用设置。
 
@@ -61,7 +61,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 选项 | 描述 |
 |--- |--- |
 | 使用元素 ID | 如果多个元素使用同一个 ID，或元素 ID 在页面加载时可能会发生更改，请取消选择此选项。 |
-| 使用元素类 | 默认情况下，[!DNL Target] 仅使用元素 ID。但是，如果您的页面设计为使用类来标识元素（例如通过 [!DNL Adobe Experience Manager] 构建的页面），则您还应当选择[!UICONTROL 使用元素类]。<br>**注意**：虽然已采取各种措施来确保准确性，但请注意，使用类仍可能会导致出现错误。如果您未选择任何选项，准确性也会受到影响。准确性由高到低的顺序为：选择 ID &gt; 选择类 &gt; 未选择任何选项。请务必测试页面，以确保选择器正确无误。<br>[!UICONTROL ]您可以为每个活动覆盖此设置（单击“设置”齿轮图标，然后选择 [!UICONTROL CSS 选择器]）。如果您使用不同的方式配置了多个网站，此操作会特别有用。<br>**注意**：在[!UICONTROL 自动个性化]和[!UICONROL 多变量测试]活动中，无法为每个活动覆盖此设置。请参阅[可视化体验编辑器中使用的元素选择器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)，以了解更多有关选择器的信息。 |
+| 使用元素类 | 默认情况下，[!DNL Target] 仅使用元素 ID。但是，如果您的页面设计为使用类来标识元素（例如通过 [!DNL Adobe Experience Manager] 构建的页面），则您还应当选择[!UICONTROL 使用元素类]。<br>**注意**：虽然已采取各种措施来确保准确性，但请注意，使用类仍可能会导致出现错误。如果您未选择任何选项，准确性也会受到影响。准确性由高到低的顺序为：选择 ID &gt; 选择类 &gt; 未选择任何选项。请务必测试页面，以确保选择器正确无误。<br>您可以为每个活动覆盖此设置（单击“设置”齿轮图标，然后选择 [!UICONTROL CSS 选择器]）。如果您使用不同的方式配置了多个网站，此操作会特别有用。<br>**注意**：在[!UICONTROL 自动个性化]和[!UICONROL 多变量测试]活动中，无法为每个活动覆盖此设置。请参阅[可视化体验编辑器中使用的元素选择器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)，以了解更多有关选择器的信息。 |
 
 ## 可视化体验编辑器 {#section_CD9BDD372CF54E678F88E8BA95757A5A}
 

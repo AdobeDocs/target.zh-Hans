@@ -21,11 +21,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 通过地域定位创建受众 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. 在 [!DNL Target] 界面中，单击 **[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
+1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
-1. 单击 **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 地域]**。
+1. 单击&#x200B;**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 地域]**。
 
-1. 单击 **[!UICONTROL 选择]**，然后选择以下选项之一：
+1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
    * 国家/地区
    * 省/州
@@ -40,8 +40,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    对于移动设备运营商，[!DNL Target] 会使用 IP 地址注册数据（即 IP 地址块所有者的注册数据）并根据[移动设备国家/地区代码 (MCC) 和移动设备网络代码 (MNC)](https://www.mcc-mnc.com) 来确定相应的移动设备运营商。
 
 1. 指定操作符和相应的值。
-1. （可选）单击 **[!UICONTROL 添加规则]，然后为受众设置更多规则。**
-1. 单击 **[!UICONTROL 保存]**。
+1. （可选）单击&#x200B;**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 下图显示了一个受众，它面向的用户从纬度大于44度的纬度和小于22度的longitude访问。
 
@@ -49,7 +49,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 精准度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-地域定位的精准度取决于多个因素。与蜂窝网络相比，使用 WiFi 连接进行地域定位会更加精准。When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider&#39;s data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. 使用基于蜂窝塔的网络连接进行地域定位可能没有使用有线或 WiFi 连接精准。此外，访客的 IP 地址可能已映射到其 ISP 位置，因此 IP 地址可能不是访客的真实位置。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+地域定位的精准度取决于多个因素。与蜂窝网络相比，使用 WiFi 连接进行地域定位会更加精准。When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. 使用基于蜂窝塔的网络连接进行地域定位可能没有使用有线或 WiFi 连接精准。此外，访客的 IP 地址可能已映射到其 ISP 位置，因此 IP 地址可能不是访客的真实位置。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 下表显示了使用有线或 WiFi Internet 连接时根据 IP 获取的地理位置信息的精准度，此数据由 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 提供。DigitalEnvoy 能够提供业内最精准的数据。国家/地区级全局精准度超过 99.9%，城市级全局准确度高达 97%。此精准度信息不适用于基于蜂窝塔的网络。
 

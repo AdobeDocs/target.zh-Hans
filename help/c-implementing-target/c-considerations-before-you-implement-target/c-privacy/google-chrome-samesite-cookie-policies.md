@@ -34,7 +34,7 @@ Google最近宣布从Chrome76(对于2019年月30日发行)开始，开发人员�
 
 | 设置 | 描述 |
 | --- | --- |
-| SaveSite by default cookies | When set, all cookies that don&#39;t specify the SameSite attribute are automatically forced with `SameSite = Lax`. |
+| SaveSite by default cookies | When set, all cookies that don't specify the SameSite attribute are automatically forced with `SameSite = Lax`. |
 | 不带SameSite的Cookie必须安全 | When set, cookies without the SameSite attribute or with `SameSite = None`, must be Secure. 此上下文中的安全意味着所有浏览器请求必须遵循HTTPS协议。不符合此要求的Cookies被拒绝。 |
 
 ![SaveSite设置页面](/help/c-implementing-target/c-considerations-before-you-implement-target/assets/samesite.png)
@@ -45,7 +45,7 @@ Google最近宣布从Chrome76(对于2019年月30日发行)开始，开发人员�
 
 当访客开启“默认cookies设置”时，Target继续提供个性化，而不会影响您的任何影响。Target uses first-party cookies and will continue to function properly as the flag `SameSite = Lax` is applied by Google Chrome.
 
-当访客启用“不带SaveSite的Cookie必须是安全的”时，您不会选择加入Target的跨域跟踪功能，Target的第一方Cookie将继续有效。However, when you opt-in to using cross-domain tracking to leverage Target across multiple domains, Google Chrome 76 (and later) requires `SameSite = None` and `Secure` flags to be used for third-party cookies. 这意味着您必须确保站点使用HTTPS协议。Target&#39;s client-side libraries automatically use the HTTPS protocol and, in addition to that, attach the `SameSite = None` and `Secure` flags to Target’s third-party cookie to ensure all activities continue to deliver.
+当访客启用“不带SaveSite的Cookie必须是安全的”时，您不会选择加入Target的跨域跟踪功能，Target的第一方Cookie将继续有效。However, when you opt-in to using cross-domain tracking to leverage Target across multiple domains, Google Chrome 76 (and later) requires `SameSite = None` and `Secure` flags to be used for third-party cookies. 这意味着您必须确保站点使用HTTPS协议。Target's client-side libraries automatically use the HTTPS protocol and, in addition to that, attach the `SameSite = None` and `Secure` flags to Target’s third-party cookie to ensure all activities continue to deliver.
 
 ## 您需要做什么？
 
@@ -53,7 +53,7 @@ Google最近宣布从Chrome76(对于2019年月30日发行)开始，开发人员�
 
 表包含以下列：
 
-* **目标客户端库**：无论您使用的是mbox. js，at. js1。*x*或at. js2。*站点上的x以及* Google Chrome设置对您的影响
+* **目标客户端库**：无论您使用的是mbox. js，at. js1。*x*&#x200B;或at. js2。*站点上的x以及* Google Chrome设置对您的影响
 * **默认cookies= Enabled SaveSite**：如果您的访客在Chrome76+上启用了“saveSite by default cookies”，则它会对您有何影响，并且您需要执行任何操作才能让Target继续工作
 * **不带SaveSite的Cookie必须为secure= Enabled**：如果您的访客拥有Chrome76+上启用的“不带SaveSite的Cookie”，它会对您产生何种影响，并且您需要执行任何操作才能让Target继续工作
 * **Adobe Target的跨域跟踪=已启用**：如果您的访客启用了“by default cookies”启用的“Same Site”和“cookies with saveSite”，则Chrome76+上启用了“Target”，并且您正在使用Target进行跨域跟踪，它会对您有何影响，并且您是否有必要让Target继续工作

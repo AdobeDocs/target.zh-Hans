@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可能有两个完全不同的页面来进行测试，而非只更改页面中的部分内容。在这种情况下，您的 A/B 测试会比较页面 A 与页面 B。可设置包含两种体验的 A/B 测试营销活动：一种体验指向默认页面 A，另一种体验重定向至页面 B。选件被配置为将访客重定向至不同的页面。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >您不能在 ajax mbox 中使用重定向选件 (`mboxUpdate`)。
 
@@ -31,14 +31,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 重定向选件执行 JavaScript 代码以重定向浏览器。由于该选件使用了 `window.location.replace();` 方法，因此从中对访客进行重定向的页面不会存储到浏览器历史记录中。这允许访客仍然使用浏览器中的返回键。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >如果您希望传递登陆页的引荐链接值，建议您使用 HTML 选件，而不是重定向选件。
 
 **创建重定向选件：**
 
-1. 单击 **[!UICONTROL 选件]**，然后选择 **代码选件]选项卡。[!UICONTROL **
-1. 单击 **[!UICONTROL 创建]** &gt; **[!UICONTROL 重定向选件]**。
+1. 单击&#x200B;**[!UICONTROL 选件]**，然后选择&#x200B;**代码选件]选项卡。[!UICONTROL **
+1. 单击&#x200B;**[!UICONTROL 创建]** &gt; **[!UICONTROL 重定向选件]**。
 1. 键入选件名称。
 1. 输入要重定向到的唯一内容或目标所对应的 URL。该 URL 必须是绝对 URL。
 
@@ -48,15 +48,15 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 选择以下所需选项以自定义您的重定向选件：
 
-* **包含所有 URL 参数：** 如果您希望将之前页面上存在的所有 URL 参数都传播到要重定向到的页面，请选中此复选框。
+* **包含所有 URL 参数：**&#x200B;如果您希望将之前页面上存在的所有 URL 参数都传播到要重定向到的页面，请选中此复选框。
 
    例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递 URL 中的动态参数，因为这样才能跟踪顾客是如何到达您的网站：是通过电子邮件、横幅广告、搜索广告还是自然访问。勾选此框后，当您在 URL 框中输入 [!DNL `https://www.mycompany.com/mensShirts.html`] 时，[!DNL `https://www.mycompany.com/mens.html?emailId=123`] 页面上的重定向选件将自动变成 [!DNL `https://www.mycompany.com/mensShirts.html?emailId=123`]。
 
-* **传递 mbox 会话 ID（重定向到其他域时需要选中此选项）：** 如果您希望在重定向中自动包含 `sessionId`，请选中此复选框。只有在测试来自于电子邮件的点击或跨域的点击时才需要此功能。`sessionId` 与访客的 Cookie 相匹配，以便能够继续跟踪访客并显示相应的内容。
+* **传递 mbox 会话 ID（重定向到其他域时需要选中此选项）：**&#x200B;如果您希望在重定向中自动包含 `sessionId`，请选中此复选框。只有在测试来自于电子邮件的点击或跨域的点击时才需要此功能。`sessionId` 与访客的 Cookie 相匹配，以便能够继续跟踪访客并显示相应的内容。
 
    如果您使用的是第一方和第三方 Cookie 设置，则无需在跨域时传递 mbox 会话 ID。第三方 Cookie 中会一直保留此 ID，因此不必在 URL 中传递此 ID。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >请在启动这些测试前，咨询您的实施顾问。
 

@@ -29,8 +29,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 要将页面添加到测试，请执行以下操作：
 
-1. 单击 **[!UICONTROL 配置]齿轮图标。**
-1. 单击 **[!UICONTROL 添加其他页面]**。
+1. 单击&#x200B;**[!UICONTROL 配置]齿轮图标。**
+1. 单击&#x200B;**[!UICONTROL 添加其他页面]**。
 
    屏幕左侧会显示一个导航栏。
 
@@ -38,7 +38,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 使用该导航栏指定页面并设置默认页面。
 
-   单击 **[!UICONTROL 添加页面]可添加其他页面。**
+   单击&#x200B;**[!UICONTROL 添加页面]可添加其他页面。**
 
    单击三个垂直省略号图标可显示“操作”菜单：
 

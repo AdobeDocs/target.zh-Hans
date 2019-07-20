@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 此信息可帮助您设置 Adobe Target，其中涵盖首选项、实施、用户管理、属性、Scene7 设置、主机管理和响应令牌。
 
-要访问“[!UICONTROL 设置]”菜单项，请在顶部菜单栏中单击 **[!UICONTROL 设置]，然后单击左侧的所需选项卡：**
+要访问“[!UICONTROL 设置]”菜单项，请在顶部菜单栏中单击&#x200B;**[!UICONTROL 设置]，然后单击左侧的所需选项卡：**
 
 * [首选项](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)
 * [实施](/help/c-implementing-target/implementing-target.md)

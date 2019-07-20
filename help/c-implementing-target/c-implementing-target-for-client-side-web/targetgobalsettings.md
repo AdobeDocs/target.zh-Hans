@@ -47,7 +47,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 使用情况 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-此函数可在 at.js 加载之前或在 **[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]** &gt; **[!UICONTROL 编辑 at.js 设置]** &gt; **[!UICONTROL 代码设置]** &gt; **[!UICONTROL 库标头]** 中进行定义。
+此函数可在 at.js 加载之前或在&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]** &gt; **[!UICONTROL 编辑 at.js 设置]** &gt; **[!UICONTROL 代码设置]** &gt; **[!UICONTROL 库标头]**&#x200B;中进行定义。
 
 “库标头”字段允许您输入自由格式的 JavaScript。自定义代码应与以下示例类似：
 

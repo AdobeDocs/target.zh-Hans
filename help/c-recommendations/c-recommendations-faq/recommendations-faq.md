@@ -41,7 +41,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 如果特殊字符破坏了数组，我应该怎么做？{#section_D27214116EE443638A60887C7D1C534E}
 
-在 JavaScript 中使用转义值。引号 (&quot;) 可能会破坏数组。以下代码片段是一个转义值示例：
+在 JavaScript 中使用转义值。引号 (") 可能会破坏数组。以下代码片段是一个转义值示例：
 
 ```
 #set($String='') 

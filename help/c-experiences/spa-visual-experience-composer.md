@@ -67,7 +67,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    ![“实施详细信息”对话框](/help/c-experiences/assets/imp-200.png)
 
-   通过位于[!UICONTROL 设置 &gt; 实施]中的 Adobe Target UI 下载 at.js 2.x。at.js 2.x 也可以通过 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 进行部署。但是，Adobe Target 扩展当前不是最新的，不受支持。
+   通过位于[!UICONTROL 设置 &gt; 实施]中的 Adobe Target UI 下载 at.js 2.x。也可以通过 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。但是，Adobe Target 扩展当前不是最新的，不受支持。
 
 1. 在您的网站上实施 at.js 2.x 的最新函数：[triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)。
 
@@ -208,13 +208,13 @@ VEC 的[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-edit
 | --- | --- |
 | 信息 | 显示操作的详细信息。 |
 | 编辑 | 允许您直接编辑操作的属性。 |
-| 克隆 | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**注意**：完成克隆操作后，您需要通过 [!UICONTROL 浏览] 导航到CMS中的“视图”，以查看克隆操作是否为有效操作。如果操作无法应用到视图，您将看到一个错误。 |
-| 移动 | 将操作移至页面加载事件或修改面板中已经存在的任何其他视图。<br>[!UICONTROL 页面加载事件] -与页面加载事件对应的任何操作都应用于Web应用程序的初始页面加载。<br>**注意** ：完成移动操作后，您需要通过浏览导航到CMS中的视图，以查看移动是否为有效操作。如果操作无法应用到视图，您将看到一个错误 |
+| 克隆 | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**注意**：完成克隆操作后，您需要通过 [!UICONTROL 浏览] 导航到CMS中的“视图”，以查看克隆操作是否为有效操作。如果该操作未应用到视图，您将看到一个错误. |
+| 移动 | 将操作移动到“页面加载事件”或修改面板中已存在的任何其他视图。<br>[!UICONTROL 页面加载事件] -与页面加载事件对应的任何操作都应用于Web应用程序的初始页面加载。<br>**注意** ：完成移动操作后，您需要通过浏览导航到CMS中的视图，以查看移动是否为有效操作。如果该操作未应用到视图，您将看到一个错误 |
 | 删除 | 删除操作。 |
 
 >[!NOTE]
 >
->您可以在页面加载到CMS中之前执行很多操作，或者即使页面无法完全加载也是如此。网站加载之前无法编辑的操作会在 UI 中禁用。
+>您可以在页面加载到 VEC 之前执行很多操作，或者即使页面无法完全加载也是如此。网站加载之前无法编辑的操作会在 UI 中禁用。
 
 **示例 1**
 
@@ -260,7 +260,7 @@ VEC 的[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-edit
 
 **如何检索视图以获取 SPA 上的初始页面加载后通过操作补充的最新受众数据？**
 
-at.js 2.x 的典型工作流程是，在您的网站加载时，将缓存所有视图和操作都，这样网站上的后续用户操作不会触发检索选件的服务器调用。如果要根据可能依靠后续用户操作更新的最新配置文件数据来检索视图，则可以调用 `getOffers()` 和 `applyOffers()` 并传递最新受众用户或配置文件数据。
+at.js 2.x 的典型工作流程是，在您的网站加载时缓存所有视图和操作，以便网站上的后续用户操作不会触发检索选件的服务器调用。如果要根据可能依靠后续用户操作更新的最新配置文件数据来检索视图，则可以调用 `getOffers()` 和 `applyOffers()` 并传递最新受众用户或配置文件数据。
 
 例如，假定您是一家电信公司，并且拥有使用 at.js 2.x 的 SPA。作为一家企业，您想要实现以下目标：
 
@@ -288,7 +288,7 @@ at.js 2.x 的典型工作流程是，在您的网站加载时，将缓存所有�
 1. 现在，用户单击“Log in”（登录）并提供其凭据。
 1. 由于您的网站是 SPA，因此您不会执行整页加载，而是将用户路由到 `http://www.telecom.com/loggedIn/home`。
 
-现在，有一个问题。用户登录后，我们会遇到 `triggerView(“Logged In Home”)`，因为我们将此代码置于路由更改中。这告知 at.js 2.x 从缓存中检索视图和操作，但缓存中唯一存在的视图是“Logged Out Home”（注销主页）。
+现在，有一个问题。用户登录后，我们会遇到 `triggerView(“Logged In Home”)`，因为我们将此代码置于路由更改中。这会告知 at.js 2.x 从缓存中检索视图和操作，但缓存中唯一存在的视图是“Logged Out Home”（注销主页）。
 
 那么，我们如何才能检索“Logged In”（登录）视图，并且显示“您有资格享受免费通话！”（You are eligible for a free phone!）选件？由于网站上的所有后续操作都是从已登录用户角度进行的，那么怎样才能保证所有后续操作都能为已登录的用户提供个性化选件？
 
@@ -315,7 +315,7 @@ adobe.target.getOffers({
 
 **at.js 2.x 是否支持用于单页应用程序的 A4T？**
 
-支持，at.js 2.x 通过 `triggerView()` 函数支持用于 SPA 的 A4T，因为您已经实施了 Adobe Analytics 和 Experience Cloud 访客 ID 服务。请参阅下图中的分步说明。
+支持，at.js 2.x 通过 `triggerView()` 函数支持用于 SPA 的 A4T，只要您实施了 Adobe Analytics 和 Experience Cloud 访客 ID 服务。请参阅下图中的分步说明。
 
 ![Target 流程](/help/c-experiences/assets/atjs-spa-flow.png)
 
@@ -375,7 +375,7 @@ adobe.target.getOffers({
 
 [!UICONTROL 通过页面交付] 设置，您可以配置规则以确定Target活动何时应符合受众资格并为受众执行。
 
-To access the [!UICONTROL Page Delivery] options from within the VEC&#39;s three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+To access the [!UICONTROL Page Delivery] options from within the VEC's three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
 
 ![“页面交付选项”对话框](/help/c-experiences/assets/page-delivery.png)
 

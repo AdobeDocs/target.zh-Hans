@@ -24,8 +24,8 @@ Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
 
 ## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. 在“[!UICONTROL 目标和设置]”页面上为活动设置目标时，选择 **[!UICONTROL 转化]成功量度。**
-1. 在此步操作中，选择 **[!UICONTROL 已单击元素]**，然后单击 **[!UICONTROL 选择元素]。**
+1. 在“[!UICONTROL 目标和设置]”页面上为活动设置目标时，选择&#x200B;**[!UICONTROL 转化]成功量度。**
+1. 在此步操作中，选择&#x200B;**[!UICONTROL 已单击元素]**，然后单击&#x200B;**[!UICONTROL 选择元素]。**
 
    随即会在[!UICONTROL 可视化体验编辑器] (VEC) 中打开您的页面。
 
@@ -59,7 +59,7 @@ There are a several actions that can be applied when you hover over an element i
 
 ### 选定的Elements悬停弹出窗口
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity&#39;s [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. 该列表包含元素的完整DOM路径，可帮助您验证选定元素是否用于单击跟踪。
+After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. 该列表包含元素的完整DOM路径，可帮助您验证选定元素是否用于单击跟踪。
 
 ![Elements选择链接](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
@@ -73,7 +73,7 @@ After selecting multiple elements for click tracking, you can click the [!UICONT
 
    就像在活动创建工作流的步骤 1 中创建体验一样，可以通过页面底部的 DOM 路径选择器来选择元素。在从 DOM 路径中选择元素时，VEC 中的相应元素将显示为“已选定”。要取消选择已选定的元素，您可以再次单击 DOM 路径选择器中的元素，或单击 VEC 中的“已选定”框。
 
-   有关更多信息，请参阅*可视化体验编辑器选项*中的[使用 DOM 路径浏览元素](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)。
+   有关更多信息，请参阅&#x200B;*可视化体验编辑器选项*&#x200B;中的[使用 DOM 路径浏览元素](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)。
 
 * 您可以浏览到其他页面，以跟踪您可能不会更改内容的页面上的点击次数。但前提是该页面必须包含在使用[多页面功能](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)的活动中，且该页面上必须实施了 [!DNL at.js] 或 [!DNL mbox.js]。
 * 如果您选择了多个元素，则当参加者点击任一选定元素时，即会被计为一次点击。要单独对每个项目进行计数，需为每个元素分别设置成功量度。

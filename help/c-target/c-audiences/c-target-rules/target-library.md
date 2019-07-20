@@ -22,13 +22,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >
 >Target Classic 使用定位表达式允许您一次创建多个复杂的目标，然后将其反复用于不同的活动、体验等内容。Target Standard/Premium 中未提供此功能。
 
-1. 在 [!DNL Target] 界面中，单击 **[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
+1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
-1. 单击 **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 定位库]**。
+1. 单击&#x200B;**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 定位库]**。
 
    ![Target 库](assets/target_library.png)
 
-1. 单击 **[!UICONTROL 选择]**，然后选择一个预先构建的定位规则。
+1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择一个预先构建的定位规则。
 
    预先构建的定位规则包括：Windows 操作系统、平板电脑设备、Safari 浏览器、回访访客、从 Google 引荐的访客，等等。
 
@@ -36,8 +36,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    Kindle、Silk、iPad、Sony Tablet、TF101、GT-P1000、GT-P1000R、GT-P1000M、SGH-T849、SHW-M180S、GT-I9000T、BNTV250 和 Tablet PC。
 
-1. （可选）单击 **[!UICONTROL 添加规则]，然后为受众设置更多规则。**
-1. 单击 **[!UICONTROL 保存]**。
+1. （可选）单击&#x200B;**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 培训视频：创建受众
 

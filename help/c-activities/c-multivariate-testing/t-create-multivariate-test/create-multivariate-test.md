@@ -20,7 +20,7 @@ source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
 
 [!UICONTROL Multivariate Test] (MVT)获取第一个页面报告。换言之，多变量测试会在某个特定的 URL 上运行，而测试中包含为该页面设计的所有体验。
 
-1. 单击 **[!UICONTROL 创建活动]** &gt; **[!UICONTROL 多变量测试]**。
+1. 单击&#x200B;**[!UICONTROL 创建活动]** &gt; **[!UICONTROL 多变量测试]**。
 
    ![创建Multivariate Test](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
@@ -42,7 +42,7 @@ source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
 
 1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [指定要测试的页面的URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) ，然后单击 **[!UICONTROL 下]** 一步。
+1. [指定要测试的页面的URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) ，然后单击 **[!UICONTROL 下]**&#x200B;一步。
 
    >[!NOTE]
    >
@@ -111,11 +111,11 @@ source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
    >
    >除了选择现有受众之外，您还可以合并多个受众来创建临时组合受众，而不是创建新受众。有关更多信息，请参阅[合并多个受众](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-1. [查看测试摘要](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) 并进行任何所需的更改，然后单击 **[!UICONTROL 下一]** 步。
+1. [查看测试摘要](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) 并进行任何所需的更改，然后单击 **[!UICONTROL 下一]**&#x200B;步。
 
 1. [指定测试的目标和设置](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
 
-1. 单击 **[!UICONTROL 保存并关闭]** 以创建活动。
+1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以创建活动。
 
 ## 培训视频：创建多变量测试 (9:25)
 

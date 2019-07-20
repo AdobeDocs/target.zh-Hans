@@ -140,7 +140,7 @@ Google 鼓励用户进行测试，并在其文档中指出只要遵循一些简�
 
    作为一个平台，Target 已被配置为采用相同的方式对待搜索引擎机器人和任何用户。这意味着如果随机选择的话，搜索引擎机器人也可能会包含在您运行的测试中，而且会“看到”测试变体。
 
-* **使用 rel=&quot;canonical&quot;** - 有时，设置 A/B 测试时需要对各个变体使用不同的 URL。在这些情况下，所有变体都应当包含一个引用了原始（控制）URL 的 `rel="canonical"` 标记。例如，如果 Adobe 在测试其主页时对每个变体分别使用不同的 URL，则每个变体的 `<head>` 标记中将包含以下主页 canonical 标记：
+* **使用 rel="canonical"** - 有时，设置 A/B 测试时需要对各个变体使用不同的 URL。在这些情况下，所有变体都应当包含一个引用了原始（控制）URL 的 `rel="canonical"` 标记。例如，如果 Adobe 在测试其主页时对每个变体分别使用不同的 URL，则每个变体的 `<head>` 标记中将包含以下主页 canonical 标记：
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 

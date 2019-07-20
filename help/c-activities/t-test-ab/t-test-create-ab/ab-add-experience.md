@@ -18,7 +18,7 @@ Visual Experience Composer(CMS)提供可视界面，可用于添加和编辑页�
 
 有关体验的更多详细信息，请参阅[体验](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
-1. 单击 **[!UICONTROL 添加体验]**。
+1. 单击&#x200B;**[!UICONTROL 添加体验]**。
 
    ![添加体验选项](/help/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
 
@@ -83,13 +83,13 @@ For more information, see [Redirect to URL](/help/c-experiences/c-visual-experie
 
 您可以复制 A/B 测试中的体验，以便可以对其进行细微更改，而无需重头开始重新创建体验。
 
-在 **[!UICONTROL 体验]** 页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 &gt; **[!UICONTROL 复制]**。
+在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 &gt; **[!UICONTROL 复制]**。
 
 ![体验选项重复](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## 删除体验
 
-在 **[!UICONTROL 体验]** 页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 &gt; **[!UICONTROL 复制]**。
+在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 &gt; **[!UICONTROL 复制]**。
 
 ![删除体验选项](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 

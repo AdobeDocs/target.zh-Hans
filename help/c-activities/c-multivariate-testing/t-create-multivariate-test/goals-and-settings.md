@@ -127,7 +127,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![添加依赖关系](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
-3. 将所需量度从左侧窗格拖放到右侧窗格中，然后单击 **[!UICONTROL 已实现]**，以在已实现和未实现之间进行切换。
+3. 将所需量度从左侧窗格拖放到右侧窗格中，然后单击&#x200B;**[!UICONTROL 已实现]**，以在已实现和未实现之间进行切换。
 
    ![已达到依赖关系](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 

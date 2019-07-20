@@ -44,7 +44,7 @@ For more information, see [Manage Experience Cloud users and products](https://d
 
 ### 配置对 Analytics 报表包的访问权限
 
-要创建或查看启用了 Analytics 的活动的报表，您必须是 **[!UICONTROL 所有报表访问权限]** 组的成员，或您所属的组有权访问要使用的报表包中的至少一个报表。如果您无法查看报表，请确保您是上述任一组的成员。
+要创建或查看启用了 Analytics 的活动的报表，您必须是&#x200B;**[!UICONTROL 所有报表访问权限]**&#x200B;组的成员，或您所属的组有权访问要使用的报表包中的至少一个报表。如果您无法查看报表，请确保您是上述任一组的成员。
 
 For more information, see [Product profiles and groups](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
 

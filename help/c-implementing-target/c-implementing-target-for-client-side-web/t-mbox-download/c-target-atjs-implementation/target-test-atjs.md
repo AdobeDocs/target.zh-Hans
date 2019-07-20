@@ -20,7 +20,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 保存该库后，可使用 DTM 切换工具来针对您的生产代码对其进行测试。这还方便 Adobe 顾问为您提供支持。
 
-有关更多信息，请参阅《使用动态标签管理实施 Adobe Target 的最佳实践》__指南中的[选项 3：通过由 DTM 托管的 Target JavaScript 库手动实施 Target](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html)。
+有关更多信息，请参阅《使用动态标签管理实施 Adobe Target 的最佳实践》__&#x200B;指南中的[选项 3：通过由 DTM 托管的 Target JavaScript 库手动实施 Target](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html)。
 
 ## 使用“Requestly”Chrome 扩展映射到其他文件
 

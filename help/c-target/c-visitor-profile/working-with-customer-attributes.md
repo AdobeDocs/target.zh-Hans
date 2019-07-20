@@ -43,7 +43,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ![](assets/crm_workflow.png)
 
-有关完成以下每项任务的详细说明，请参阅《Experience Cloud 和核心服务产品文档》**中的[创建客户属性源并上传数据文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)。
+有关完成以下每项任务的详细说明，请参阅《Experience Cloud 和核心服务产品文档》**&#x200B;中的[创建客户属性源并上传数据文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)。
 
 1. 创建数据文件。
 
@@ -63,8 +63,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    使用 HTTP 方式最多可以上传 100 MB 的数据文件。大于 100 MB 小于等于 4 GB 的文件则可通过 FTP 上传。
 
-   * **HTTPS：** 您可以拖放 [!DNL .csv] 数据文件或单击[!UICONTROL 浏览]以从您的文件系统上传。
-   * **FTP：** 单击 FTP 链接以便[通过 FTP 上传文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_upload_attributes_ftp.html)。第一步是为 Adobe 提供的 FTP 服务器提供密码。输入密码，然后单击“[!UICONTROL 完成]”。
+   * **HTTPS：**&#x200B;您可以拖放 [!DNL .csv] 数据文件或单击[!UICONTROL 浏览]以从您的文件系统上传。
+   * **FTP：**&#x200B;单击 FTP 链接以便[通过 FTP 上传文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_upload_attributes_ftp.html)。第一步是为 Adobe 提供的 FTP 服务器提供密码。输入密码，然后单击“[!UICONTROL 完成]”。
 
       现在，将您的 CSV/ZIP/GZIP 文件传输到 FTP 服务器。此文件传输成功后，请创建一个具有相同名称和 [!DNL .fin] 扩展名的新文件。将此空文件传输到服务器。此操作用于指示传输结束，Experience Cloud 开始处理数据文件。
 
@@ -80,7 +80,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 配置订阅并激活属性来源。
 
-   单击 **[!UICONTROL 添加订阅]**，然后选择解决方案以订阅这些属性。[配置订阅](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html)可设置 Experience Cloud 与各解决方案之间的数据流。激活属性来源允许数据流动到订阅的解决方案。您上传的客户记录与您的网站或应用程序中的传入 ID 信号相匹配。
+   单击&#x200B;**[!UICONTROL 添加订阅]**，然后选择解决方案以订阅这些属性。[配置订阅](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html)可设置 Experience Cloud 与各解决方案之间的数据流。激活属性来源允许数据流动到订阅的解决方案。您上传的客户记录与您的网站或应用程序中的传入 ID 信号相匹配。
 
    ![](assets/solution.png)
 
@@ -122,12 +122,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ### 使用 Experience Cloud ID 服务
 
-如果您使用 Experience Cloud ID 服务，则需要设置客户 ID 和身份验证状态以在定位中使用客户属性。有关详细信息，请参阅《Experience Cloud ID 服务文档》**中的[客户 ID 和身份验证状态](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)。
+如果您使用 Experience Cloud ID 服务，则需要设置客户 ID 和身份验证状态以在定位中使用客户属性。有关详细信息，请参阅《Experience Cloud ID 服务文档》**&#x200B;中的[客户 ID 和身份验证状态](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)。
 
 有关在 [!DNL Target] 中使用客户属性的更多信息，请参阅以下资源：
 
-* 《Experience Cloud 和核心服务产品文档》**中的[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
-* 数字营销产品组的博客文章**[客户属性：了解的越多，关联的越好](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
+* 《Experience Cloud 和核心服务产品文档》**&#x200B;中的[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+* 数字营销产品组的博客文章&#x200B;**[客户属性：了解的越多，关联的越好](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## 客户经常遇到的问题 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 

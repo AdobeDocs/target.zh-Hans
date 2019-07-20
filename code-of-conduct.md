@@ -1,6 +1,6 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: ht
+source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
+translation-type: tm+mt
 
 ---
 # Adobe 行为准则
@@ -46,5 +46,4 @@ translation-type: ht
 
 ## 来源
 
-本行为准则改编自[参与者公约](https://contributor-covenant.org)版本 1.4，此公约位于 [https://contributor-covenant.org/version/1/4](
-https://contributor-covenant.org/version/1/4)
+本行为准则改编自[参与者公约](https://contributor-covenant.org)版本 1.4，此公约位于[https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)

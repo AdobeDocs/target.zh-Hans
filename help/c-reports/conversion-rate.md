@@ -21,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >在所有的数据中，如果传递 `orderID`，则会忽略重复订单。审计报表列出了被忽略的重复订单。
 
@@ -63,14 +63,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 基于 Target 的量度（例如收入量度和参与度量度）的转化次数和连续变量可按以下方式进行计算：
 
-* **转化：** 是或否
-* **所有其他：** 一个范围内的值
+* **转化：**&#x200B;是或否
+* **所有其他：**&#x200B;一个范围内的值
 
 您可以为 for Target (A4T) 执行离线计算，但需要在 [!DNL Analytics]Analytics 中完成数据导出步骤。有关更多信息，请参阅下面的“为 Analytics for Target (A4T) 执行离线计算”。
 
 ### 置信水平 {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-“置信水平”**由每个体验的“转化率”列中颜色较深的百分比值来表示。
+“置信水平”**&#x200B;由每个体验的“转化率”列中颜色较深的百分比值来表示。
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 
@@ -92,16 +92,16 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >
 >当前仅计算二进制量度的置信区间。
 
-“置信区间”**是一个范围，在该范围中包含给定置信水平的真值。在“转化率”列中，置信区间显示为浅灰色 +/- 百分比值。在以下示例中，体验 B 的提升度所具有的置信区间为 +/- 15.65%。
+“置信区间”**&#x200B;是一个范围，在该范围中包含给定置信水平的真值。在“转化率”列中，置信区间显示为浅灰色 +/- 百分比值。在以下示例中，体验 B 的提升度所具有的置信区间为 +/- 15.65%。
 
 ![](assets/conversion_rate.png)
 
-**示例：** 某一体验的 RPV 为 10 美元，置信水平为 95%，**置信区间** 为 5 至 15 美元。如果我们多次运行此测试，那么 RPV 有 95% 的时间介于 5 至 15 美元之间。
+**示例：**&#x200B;某一体验的 RPV 为 10 美元，置信水平为 95%，**置信区间**&#x200B;为 5 至 15 美元。如果我们多次运行此测试，那么 RPV 有 95% 的时间介于 5 至 15 美元之间。
 
-**置信区间的影响因素有哪些？** 公式遵循计算置信区间的标准统计方法。
+**置信区间的影响因素有哪些？**&#x200B;公式遵循计算置信区间的标准统计方法。
 
-* **样本量：** 随着样本的增加，区间将缩小。推荐采用较大样本，因为这意味着您的报表更加接近成功量度的真实值。
-* **标准偏差减小：** 结果越相似（如 AOV 越相似或者每天转化的次数或访客数越相似），标准偏差越小。
+* **样本量：**&#x200B;随着样本的增加，区间将缩小。推荐采用较大样本，因为这意味着您的报表更加接近成功量度的真实值。
+* **标准偏差减小：**&#x200B;结果越相似（如 AOV 越相似或者每天转化的次数或访客数越相似），标准偏差越小。
 
 ## 置信度计算及其离线执行方法 {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
@@ -124,7 +124,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 **使用[!DNL Analytics]数据导出功能执行此操作：**
 
 1. 登录到 [!DNL Adobe Analytics]。
-1. 单击 **[!UICONTROL 工具]** &gt; **[!UICONTROL Data Warehouse]**。
+1. 单击&#x200B;**[!UICONTROL 工具]** &gt; **[!UICONTROL Data Warehouse]**。
 1. 在 **[!UICONTROL Data Warehouse 请求]选项卡中，填写相应的字段。**
 
    有关各个字段的更多信息，请参阅 [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html) 中的“Data Warehouse 请求描述”。
@@ -139,7 +139,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    | 报表预览 | 在计划报表之前查看您的设置。<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
    | 计划提交 | 输入要将文件提交到的电子邮件地址，为文件命名，然后选择[!UICONTROL 立即发送]。<br>注意：可通过[!UICONTROL 高级提交选项]<br>![计划提交](/help/c-reports/assets/datawarehouse3.png)下方的 FTP 来提交文件。 |
 
-1. 单击 **[!UICONTROL 请求此报表]**。
+1. 单击&#x200B;**[!UICONTROL 请求此报表]**。
 
    根据请求的数据数量，文件提交最多可能需要 72 小时。您可以随时查看请求的进度，方法是单击“[!UICONTROL 工具]”&gt;“[!UICONTROL Data Warehouse]”&gt;“[!UICONTROL 请求管理器]”。
 
@@ -171,18 +171,18 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以按以下计数方法查看报表：
 
-* **访客：** 活动生命周期内活动中的独特参加者。
+* **访客：**&#x200B;活动生命周期内活动中的独特参加者。
 
    在以下情况下，可以将一个人计为新参加者：此人从新的计算机或新的浏览器访问网站；此人删除了 Cookie；或此人在转化后使用相同的 Cookie 再次返回到活动。由访客的 mbox Cookie 中的 PCID 对参加者进行标识。如果 PCID 发生更改，则此人会被计为新访客。
 
-* **访问：** 独特参加者在持续 30 分钟的单次浏览器会话期间对体验进行的访问。
+* **访问：**&#x200B;独特参加者在持续 30 分钟的单次浏览器会话期间对体验进行的访问。
 
    如果实现了转化，或者访客在离开至少 30 分钟后再次回到网站，则该访客的回访会被计为新访问。由访客的 mbox Cookie 中的 `sessionID` 对访问进行标识。`sessionID` 发生更改时，该访问将被视为新访问。
 
-* **展示/页面查看：** 每次访客加载活动的任何页面时均进行一次计数。
+* **展示/页面查看：**&#x200B;每次访客加载活动的任何页面时均进行一次计数。
 
    单次访问可能包含多次展示，例如您的主页在一次访问期间可能会展示多次。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >通常情况下，计数取决于 Cookie 和会话活动。但是，如果您达到了活动的最终转化点，然后又重新进入活动，则您会被视为新参加者，而您对活动的访问也会被视为新访问。即使用户的 PCID 和 `sessionID` 值不变，也是如此。

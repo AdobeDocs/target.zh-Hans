@@ -35,11 +35,11 @@ source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 
    配置具有多个版本的体验时，请按照以下步骤所示，为每个版本选择相应的受众。
 
-1. 选择体验，然后单击 **[!UICONTROL 配置]** &gt; **[!UICONTROL 受众]** &gt; **[!UICONTROL 多个受众]**。
+1. 选择体验，然后单击&#x200B;**[!UICONTROL 配置]** &gt; **[!UICONTROL 受众]** &gt; **[!UICONTROL 多个受众]**。
 
    ![多个受众选项](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. 单击 **[!UICONTROL 添加受众]**，然后选择要定位的第一个受众。对每个受众重复执行上述步骤。
+1. 单击&#x200B;**[!UICONTROL 添加受众]**，然后选择要定位的第一个受众。对每个受众重复执行上述步骤。
 
    ![](assets/exp-versions.png)
 

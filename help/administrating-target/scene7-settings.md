@@ -31,7 +31,7 @@ Target Standard可与Adobe Dynamic Media Classic(以前称为Scene7)集成，在
 
 要与Dynamic Media Classic(Scene7)集成，您需要指定一些以下信息。
 
-1. 单击 **[!UICONTROL 设置]** &gt; **[!UICONTROL Scene7 设置]**。
+1. 单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL Scene7 设置]**。
 1. 指定以下Dynamic Media经典帐户信息：
 
    **地区：** Dynamic Media帐户的区域：北美、欧洲或亚洲。
@@ -41,4 +41,4 @@ Target Standard可与Adobe Dynamic Media Classic(以前称为Scene7)集成，在
    **电子邮件地址：** 用于登录Dynamic Media Classic(Scene7)的电子邮件地址。
 
    **密码：** 用于登录到Dynamic Media Classic(Scene7)的口令。
-1. 单击 **[!UICONTROL 提交]**。
+1. 单击&#x200B;**[!UICONTROL 提交]**。

@@ -31,14 +31,14 @@ JSON 选件可在基于表单的活动中使用，从而能够实现以下用例
 
 ## 创建 JSON 选件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. 单击 **[!UICONTROL 选件]**，然后选择 **代码选件]选项卡。[!UICONTROL **
-1. 单击 **[!UICONTROL 创建]** &gt; **[!UICONTROL JSON 选件]**。
+1. 单击&#x200B;**[!UICONTROL 选件]**，然后选择&#x200B;**代码选件]选项卡。[!UICONTROL **
+1. 单击&#x200B;**[!UICONTROL 创建]** &gt; **[!UICONTROL JSON 选件]**。
 
    ![](assets/offer-json.png)
 
 1. 键入选件名称。
-1. 在 **[!UICONTROL 代码]框中键入或粘贴您的 JSON 代码。**
-1. 单击 **[!UICONTROL 保存]**。
+1. 在&#x200B;**[!UICONTROL 代码]框中键入或粘贴您的 JSON 代码。**
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 示例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -131,7 +131,7 @@ adobe.target.getOffer({
 
 ## 按 JSON 选件类型筛选选件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-您可以按 JSON 选件类型对选件库进行筛选，方法是单击 **[!UICONTROL 类型]** 下拉列表，然后选中 **JSON]复选框。[!UICONTROL **
+您可以按 JSON 选件类型对选件库进行筛选，方法是单击&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表，然后选中 **JSON]复选框。[!UICONTROL **
 
 ![](assets/offer-json-filter.png)
 

@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 有关您对内容库中资产所能执行的任务的信息。
 
-1. 单击 **[!UICONTROL 选件]**，选择 **[!UICONTROL 代码选件]** 或 **[!UICONTROL 图像选件]** 选项卡，然后找到要处理的资产。
+1. 单击&#x200B;**[!UICONTROL 选件]**，选择&#x200B;**[!UICONTROL 代码选件]**&#x200B;或&#x200B;**[!UICONTROL 图像选件]**&#x200B;选项卡，然后找到要处理的资产。
 
    有关搜索选件库和创建智能收藏集的更多信息，请参阅[过滤和搜索内容](../../c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)。
 
@@ -35,7 +35,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    | 共享卡片 | 体验<br>图像<br>文本/HTML | 将卡片共享到其他展示板。您可以绘制一个注释卡片，选择要共享到的展示板，然后添加有关该卡片的注释。 |
    | 查看属性 | 体验<br>图像<br>文本/HTML | 查看资产的属性。单击属性页面上的铅笔图标，可编辑属性并添加更多信息。您可以添加元数据信息、发布状态和许可证数据。 |
 
-1. 要更改库中表示某个项目的图像，请依次单击该项目、**[!UICONTROL 属性]** 图标和 **[!UICONTROL 编辑]**，然后添加图像。
+1. 要更改库中表示某个项目的图像，请依次单击该项目、**[!UICONTROL 属性]**&#x200B;图标和&#x200B;**[!UICONTROL 编辑]**，然后添加图像。
 
 ## 培训视频：内容存储库
 

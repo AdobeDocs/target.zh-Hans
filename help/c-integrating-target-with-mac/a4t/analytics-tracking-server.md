@@ -29,14 +29,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
-   可在该调试器的“SiteCatalyst 图像”部分找到 Analytics 跟踪服务器。该跟踪服务器字段名为“第一方 Cookie”**或“第三方 Cookie”**（具体取决于实施），且其值将使用以下任一格式：
+   可在该调试器的“SiteCatalyst 图像”部分找到 Analytics 跟踪服务器。该跟踪服务器字段名为“第一方 Cookie”**&#x200B;或“第三方 Cookie”**（具体取决于实施），且其值将使用以下任一格式：
 
    * （对于 CNAME 实施）
    * （对于非 RDC 实施）
    * （对于 RDC 实施）
    *Company* 表示 Analytics 公司名称，*metrics* 是 CNAME 值的一个示例，而 *d1* 是 Analytics 数据中心的一个示例。
 1. 复制该字段的全部内容。
-1. 在活动的“[!UICONTROL 目标和设置][!UICONTROL ”屏幕的“]报表设置 **”部分中，将复制的跟踪服务器信息粘贴到[!UICONTROL 跟踪服务器]** 字段中。
+1. 在活动的“[!UICONTROL 目标和设置][!UICONTROL ”屏幕的“]报表设置&#x200B;**”部分中，将复制的跟踪服务器信息粘贴到[!UICONTROL 跟踪服务器]**&#x200B;字段中。
 
    >[!NOTE]
    >

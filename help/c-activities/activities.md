@@ -27,14 +27,14 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 
 | 活动类型 | 描述 |
 |--- |--- |
-| [A/B 测试](/help/c-activities/t-test-ab/test-ab.md) | A/B 测试可比较两个或更多版本的网站内容，以查看在预先指定的测试期间，哪个版本最能提高转化。<br>**注意：** 现在，您可以[在 A/B 测试活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
-| [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。<br>**注意：** 现在，您可以[在自动分配活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
-| [自动定位](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行识别，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。<br>**注意：** 现在，您可以[在自动定位活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
+| [A/B 测试](/help/c-activities/t-test-ab/test-ab.md) | A/B 测试可比较两个或更多版本的网站内容，以查看在预先指定的测试期间，哪个版本最能提高转化。<br>**注意：**&#x200B;现在，您可以[在 A/B 测试活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
+| [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。<br>**注意：**&#x200B;现在，您可以[在自动分配活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
+| [自动定位](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行识别，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。<br>**注意：**&#x200B;现在，您可以[在自动定位活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
 | [使用 Analytics 数据](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | 您可以将活动配置为使用 [!DNL Adobe Analytics] 作为报表源。此活动类型要求您将 [!DNL Adobe Experience Cloud] 帐户与 [!DNL Analytics] 和 [!DNL Target] 均关联。 |
 | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 多变量测试 (MVT) 可通过比较页面上各元素中的选件组合，来确定哪个组合对特定受众的效果最佳，以及哪个元素对活动成功的影响最大。 |
-| [体验定位](/help/c-activities/t-experience-target/experience-target.md) | 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。<br>**注意：** 现在，您可以[在体验定位活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
+| [体验定位](/help/c-activities/t-experience-target/experience-target.md) | 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。<br>**注意：**&#x200B;现在，您可以[在体验定位活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
 | [自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | 自动个性化 (AP) 可将各种选件或消息进行组合，并且使用先进的机器学习技术，根据每位访客的个人客户配置文件将不同的变体与其匹配，以便个性化内容并促进转化。 |
-| [推荐](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png) | 推荐可根据网站用户在网站上的活动来确定向该用户推广产品的方式。<br>例如，您可能想要鼓励购买了背包的人也考虑购买登山鞋和登山杖。在这种情况下，您可以使用“购买了这个项目，也购买了那个项目的人”算法，创建一个推荐来显示通常一起购买的项目。或者，您可能想要鼓励访客在您的媒体网站上停留更长的时间，为此，您可以使用“查看了这个项目，也查看了那个项目的人”算法，向访客推荐与其正在观看的视频相似的视频。<br>**注意：** 现在，您可以在 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中包含推荐。请参阅[“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md)。 |
+| [推荐](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png) | 推荐可根据网站用户在网站上的活动来确定向该用户推广产品的方式。<br>例如，您可能想要鼓励购买了背包的人也考虑购买登山鞋和登山杖。在这种情况下，您可以使用“购买了这个项目，也购买了那个项目的人”算法，创建一个推荐来显示通常一起购买的项目。或者，您可能想要鼓励访客在您的媒体网站上停留更长的时间，为此，您可以使用“查看了这个项目，也查看了那个项目的人”算法，向访客推荐与其正在观看的视频相似的视频。<br>**注意：**&#x200B;现在，您可以在 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中包含推荐。请参阅[“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md)。 |
 
 ## Activities list（活动列表） {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
@@ -51,7 +51,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 | 类型 | 活动类型，例如 A/B 或 MVT。 |
 | 名称 | 活动的名称。 |
 | URL | URL 以浅色文本显示在名称下方。<br>活动的 URL 可标识该活动在哪里显示。这可以帮助您快速识别活动，并确定某个特定页面是否已在该活动上运行测试。<br>如果测试在多个 URL 上运行，则会有一个链接显示使用的 URL 数量。单击该链接可查看该活动的完整 URL 列表。<br>您可以根据 URL 进行搜索。使用“搜索”框旁边的下拉列表，然后选择[!UICONTROL 搜索 URL]。 |
-| 状态 | 活动的状态可以是下列状态之一：<ul><li>**实时**：该活动当前正在运行。</li><li>**草稿**：活动设置已开始，但尚未准备就绪来运行。</li><li>**已计划**：当到达指定的开始日期和时间时，该活动便可准备激活。</li><li>**不活跃**：该活动已暂停或停用。</li><li>**正在同步**：活动已经保存，并且正在同步到 Target 交付网络。</li><li>**已结束**：已到达指定的活动结束日期和时间，并且不再为该活动提供服务。</li><li>**已存档**：活动已经存档。您可以激活已存档的活动以便再次使用。</li></ul>**注意：** 执行某些操作时，例如使用 API 方法在 UI 外部激活活动，可能需要最多 10 分钟才能将更新传播到 UI。 |
+| 状态 | 活动的状态可以是下列状态之一：<ul><li>**实时**：该活动当前正在运行。</li><li>**草稿**：活动设置已开始，但尚未准备就绪来运行。</li><li>**已计划**：当到达指定的开始日期和时间时，该活动便可准备激活。</li><li>**不活跃**：该活动已暂停或停用。</li><li>**正在同步**：活动已经保存，并且正在同步到 Target 交付网络。</li><li>**已结束**：已到达指定的活动结束日期和时间，并且不再为该活动提供服务。</li><li>**已存档**：活动已经存档。您可以激活已存档的活动以便再次使用。</li></ul>**注意：**&#x200B;执行某些操作时，例如使用 API 方法在 UI 外部激活活动，可能需要最多 10 分钟才能将更新传播到 UI。 |
 | 源 | 显示活动是在哪里创建的：<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
 | 属性 | 显示活动的[属性](/help/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | 预计收入提升 | 如果 100% 的受众都看到了入选体验，则显示预计会有多少收入上的增长。<br>使用以下公式计算：<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>最多可以将得出的数值四舍五入到一位小数，但前提是四舍五入后小数点前面只有一位数字。例如：$1.6M、$60K、$900、$8.5K、$205K<br>此列显示“---”时，表示该活动没有足够的数据来确定入选者，或者没有成本估算。<br>请参阅[预计收入提升](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以了解更多信息。 |
@@ -70,13 +70,13 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 | 激活 | 启动不活跃或准备就绪的活动。 |
 | 存档 | 将活动发送到存档中。默认情况下，已存档的活动不会再显示在“活动”列表中。要查看这些活动，请更改活动列表的筛选器使其包含已存档活动。您可以激活已存档的活动以便再次使用。<br>如果您停用活动或将活动存档，稍后又重新激活它，并且在停用活动或将活动存档之前有访客处于活动中，则该访客在重新激活活动后将继续成为该活动的一部分。在这两个事件之间的时段内记录的任何转化量度不会归因于该活动。 |
 | 复制 | 复制活动。任何活动都可以复制。复制活动将会创建一个具有相同名称的新活动，只不过新的活动名称会附加“副本”两个字。例如，名为“浏览器选件”的测试会被复制到“浏览器选件副本”。<br>可视化选件会与活动一起复制。您可以安全地编辑副本中的选件，而不会影响原始活动。唯一的例外是保存在“内容/资产”文件夹中的选件和图像。 |
-| 删除 | 删除草稿或活动。<BR>**注意**：删除的活动无法恢复。Unless you are absolutely sure that you&#39;ll never need this activity again, use the [!UICONTROL Archive] action. 然后，您可以根据需要重新激活活动。 |
+| 删除 | 删除草稿或活动。<BR>**注意**：删除的活动无法恢复。Unless you are absolutely sure that you'll never need this activity again, use the [!UICONTROL Archive] action. 然后，您可以根据需要重新激活活动。 |
 
 请注意有关“活动”列表的以下详细信息：
 
 * 已存档和已结束的活动不会显示在“[!UICONTROL 活动]”列表中。要查看这些活动，请使用左边栏上的高级筛选器设置对其进行筛选。
 * 如果某个活动最初是在 [!DNL Target Classic] 中创建，那么一旦该活动被停用或删除，则它也会从 [!DNL Target Standard/Premium] 中删除。已删除的最初在 [!DNL Target Classic] 中创建的活动不会被发送到 [!DNL Target Standard/Premium] 中的[!UICONTROL 存档]文件夹。存档文件夹功能仅适用于在 [!DNL Target Standard/Premium] 中创建的活动。
-* [!UICONTROL 自动个性化] (AP)、[!UICONTROL 自动分配]和[!UICONTROL 自动定位]以外的所有活动类型均允许您选择使用 [!DNL Target] 或 [!DNL Adobe Analytics] 作为数据源。[!UICONTROL AP]、[!UICONTROL 自动分配]和[!UICONTROL 自动定位]*始终*使用 [!DNL Target] 数据。
+* [!UICONTROL 自动个性化] (AP)、[!UICONTROL 自动分配]和[!UICONTROL 自动定位]以外的所有活动类型均允许您选择使用 [!DNL Target] 或 [!DNL Adobe Analytics] 作为数据源。[!UICONTROL AP]、[!UICONTROL 自动分配]和[!UICONTROL 自动定位]*始终*&#x200B;使用 [!DNL Target] 数据。
 * 活动可用于多个渠道：
 
    * Web 和移动设备网站

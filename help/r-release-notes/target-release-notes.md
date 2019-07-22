@@ -1,14 +1,14 @@
 ---
-description: 这些发行说明提供有关最新或即将推出的[！DNL Adobe Target]版本。
+description: 提供有关最新或即将推出的[！DNL Adobe Target]版本。
 keywords: 发行说明
-seo-description: 这些发行说明提供有关最新或即将推出的[！DNL Adobe Target]版本。
+seo-description: 提供有关最新或即将推出的[！DNL Adobe Target]版本。
 seo-title: Adobe Target发行说明(预发行版)
 solution: Target
 title: Target 发行说明（预发行版本）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 45d0a73faafd216b5a4686501c548f5771943050
+source-git-commit: 48d265feb329355f5aabe34a6a950d78df981966
 
 ---
 

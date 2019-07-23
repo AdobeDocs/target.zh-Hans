@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
 
 ---
 
@@ -198,7 +198,7 @@ Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件�
 >* Target 仅支持“产品分类”。必须将 Analytics 产品 SKU 映射到与推荐 entity.id 相同的级别。可以使用 Adobe 咨询服务对自定义 Analytics 分类进行工程方面的处理。如有任何疑问，请联系您的帐户管理员。
 
 
-## 创建信息源 {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## 创建信息源 {#steps}
 
 可创建一个信息源，以将有关产品或服务的信息插入到 [!DNL Recommendations] 中。
 
@@ -220,7 +220,13 @@ recs/t_feeds_create.xml
 
    如果您选择 FTP，请提供 FTP 服务器信息、登录凭据、文件名和 FTP 目录。您可以选择使用带有 SSL 的 FTP (FTPS) 进行更安全的上传。
 
+   支持的FTP服务器设置：
+
+   * FTP和FTPS必须设置为使用被动FTP。
+   * 对于FTPS，将服务器配置为接受显式FTPS连接。
+   * 不支持SFTP。
    如果您选择 URL，请指定 URL。
+
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;箭头以显示[!UICONTROL 计划]选项。
 
    ![步骤结果](assets/CreateFeedSchedule.png)
@@ -260,7 +266,7 @@ recs/t_feeds_create.xml
 
 有关可能的信息源状态及其指示器的信息。
 
-### 信息源状态 {#section_5DDC2DECF70A42FDAFF2235E91371537}
+### 信息源状态 {#status}
 
 以下是信息源可能具有的几种状态：
 
@@ -272,10 +278,8 @@ recs/t_feeds_create.xml
 | 已计划在 &lt;日期和时间&gt;** 运行 | 信息源尚未运行，但已计划在指定的日期和时间运行。 |
 | 正在等待下载 | Target 正准备下载信息源文件。 |
 | 正在下载信息源文件 | Target 正在下载信息源文件。 |
-| 正在导入项目 | Target 正在从信息源文件中导入项目。注意：此步骤完成并且显示“正在准备搜索索引更新”后，对项目属性的更改即已经导入到我们的中心系统中，并将在 60 分钟内反映在地理边缘节点返回的已交付推荐内容中。 |
-| 正在准备搜索索引更新 | Target 正准备更新“目录搜索”索引。注意：如果列出了此状态，则表示已对项目属性做出了更改，并且这种更改将很快地反映在已交付的推荐中，但它们尚未反映在“目录搜索”中。 |
-| 正在更新搜索索引 | Target 正在更新“目录搜索”索引。注意：如果列出了此状态，则表示已对项目属性做出了更改，并且这种更改将很快地反映在已交付的推荐中，但它们可能尚未反映在“目录搜索”中。 |
-| 更新已完成 | Target 已完成与信息源文件相关的所有更新。 |
+| 正在导入项目 | Target 正在从信息源文件中导入项目。 |
+| Feed Imported Successfully at *time* | Target已将源文件导入其内容交付系统。在内容交付系统中对项目属性进行了更改，并将很快反映在提交的建议中。如果看不到预期的更改，请稍后重试并刷新包含推荐的页面。<br>*注意1：* 如果对项目属性的更改导致项目被排除，则排除将立即反映出来。If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*注意2：* 显示此状态后，更新可能尚不反映在目录搜索用户界面中。目录搜索中会列出一个单独的状态，该状态指示可搜索的目录上次更新的时间。 |
 | 未能编入索引 | 索引操作失败。请重试。 |
 | 未找到服务器 | FTP 或 URL 位置无效或无法访问。 |
 

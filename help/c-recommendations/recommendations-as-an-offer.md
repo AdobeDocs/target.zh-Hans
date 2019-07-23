@@ -8,7 +8,7 @@ title: “推荐”作为选件
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -70,9 +70,9 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 使用“编辑”菜单编辑推荐选件
 
-1. 单击要编辑的选件，然后单击“编辑”。
+1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
 
-   ![“编辑”菜单](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![编辑推荐选件](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. 从以下选项中进行选择：
 
@@ -85,8 +85,8 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 使用“修改”面板编辑推荐选件
 
-1. 单击[!UICONTROL 修改]图标&#x200B;*“&lt;/&gt;”*&#x200B;以显示[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)面板。
-1. 将鼠标悬停在所需的操作上，然后单击[!UICONTROL 修改]图标。
+1. Click the [!UICONTROL Modifications] icon  **(`</>`)** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. 将鼠标悬停在所需的操作上，然后单击&#x200B;**[!UICONTROL 修改]图标。**
 
    ![“修改”面板](/help/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -101,13 +101,23 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 使用“编辑”菜单删除推荐选件
 
-1. 单击要删除的选件，然后单击[!UICONTROL 布局 &gt; 删除]。
+1. Click the offer you want to remove, then click **[!UICONTROL Layout &gt; Remove]**.
 
    ![删除](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### 使用“修改”面板删除推荐选件
 
-1. 单击[!UICONTROL 修改]图标&#x200B;*“&lt;/&gt;”*&#x200B;以显示[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)面板。
+1. Click the [!UICONTROL Modifications] icon **( &lt;/&gt; )** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
 1. 将鼠标悬停在所需的操作上，然后单击[!UICONTROL 删除]图标。
 
    ![“删除”图标](/help/c-recommendations/assets/recs-offer-delete.png)
+
+### Viewing the recommendations offer's status {#status}
+
+The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
+
+* 结果就绪
+* 结果未准备就绪
+* Feed failed
+
+![推荐提供状态](/help/c-recommendations/assets/recs-offer-status.png)

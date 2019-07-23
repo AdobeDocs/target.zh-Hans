@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0876963-5905-4850-a615-953e435f26e9
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -29,9 +29,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 “产品”旁边显示的数字表示指定环境的可用产品总数中与搜索词相匹配的产品数量。
 
-单击刷新图标可将您的目录重新编入索引。请注意，根据您的信息源大小，编入索引可能需要一些时间。
-
-目录会每隔一小时自动刷新一次。在自动刷新的间隔期间，单击&#x200B;**[!UICONTROL 刷新]**&#x200B;可将目录重新编入索引。
+通过源文件、API或mbox更新接收更新时，目录会自动刷新。更新通常在一小时内完成。如果更新正在进行，则开始最新更新的时间。如果没有更新，则表示最近更新开始和完成的时间。
 
 您可以使用“目录搜索”页面上的“高级搜索”（[!UICONTROL 推荐] &gt; [!UICONTROL 目录搜索] &gt; [!UICONTROL 高级搜索]）来创建收藏集或排除项。例如，在使用“ID”&gt;“包含”创建搜索后，您可以单击[!UICONTROL 另存为] &gt; [!UICONTROL 收藏集或排除项]。
 

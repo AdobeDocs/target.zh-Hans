@@ -7,7 +7,7 @@ title: 移动设备应用程序可视化体验编辑器
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
+source-git-commit: a5c2ca2e79d78f6b8d1a053f91233210efe0f3cb
 
 ---
 
@@ -84,16 +84,6 @@ source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
 
 ![“管理版本”对话框](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
-
-## 疑难解答 {#troubleshooting}
-
-**移动设备应用程序 VEC 指出我的应用程序已断开连接。**
-
-您的 Internet 连接可能已断开。在 Internet 可用后，重新启动应用程序，此时将会建立新连接。我们建议您通过 Wifi 连接来创作移动设备应用程序 VEC 活动。
-
-**移动设备应用程序 VEC 与我的移动设备应用程序不同步。**
-
-单击 VEC 中的“[!UICONTROL 刷新]”按钮以同步显示的内容。
 
 ## Target 视图和移动设备应用程序 {#target-views}
 
@@ -194,9 +184,17 @@ Target VEC 扩展可通过网络请求，检索与您的应用程序相关的 Ta
 
 ## 疑难解答 {#ts}
 
-**我收到一个错误，表明我的“context. application. name”值包含禁止的字符。What characters are allowed in mobile app names?**
+**移动设备应用程序 VEC 指出我的应用程序已断开连接。**
 
-移动应用程序名称中允许的字符包括：
+您的 Internet 连接可能已断开。在 Internet 可用后，重新启动应用程序，此时将会建立新连接。我们建议您通过 Wifi 连接来创作移动设备应用程序 VEC 活动。
+
+**移动设备应用程序 VEC 与我的移动设备应用程序不同步。**
+
+单击 VEC 中的“[!UICONTROL 刷新]”按钮以同步显示的内容。
+
+**我收到一个错误，表明我的“context. application. id”值包含禁止的字符。What characters are allowed in mobile app IDs?**
+
+移动应用程序ID中允许的字符包括：
 
 | 允许的字符 | 描述 |
 | --- | --- |
@@ -215,7 +213,7 @@ Target VEC 扩展可通过网络请求，检索与您的应用程序相关的 Ta
 Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
 
 ```
-Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
+Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
 ```
 
 ## 已知限制 {#limitations}

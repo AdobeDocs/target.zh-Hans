@@ -1,14 +1,14 @@
 ---
 description: 此页面列出了对 Target 文档所做的重要更改。
 keywords: Target 文档更改日志;文档更新
-seo-description: 此页面列出了对 Target 文档所做的重要更改。
-seo-title: 文档更改在Adobe Target产品文档中
+seo-description: 本页列出了对Adobe Target文档所做的重要更改。
+seo-title: Adobe Target产品文档中的文档更改
 solution: Target
 title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -16,6 +16,23 @@ source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 # 文档更改{#documentation-changes}
 
 此页面列出了对 [!DNL Adobe Target] 文档所做的重要更改。
+
+## Adobe Target Standard/Premium 19.7.1（2019 年 7 月 23 日）{#tgt-19-7-1}
+
+| 日期 | 主题 | 更改 |
+| --- | --- | --- |
+| 2019年月24日 | [从. js1.*x升级* 到. js2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Added new section: [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+|  | [Apple智能跟踪预防(ITP)2。*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 新主题。 |
+|  | [“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md#status) | 新增了部分：“查看推荐选件的状态”。 |
+|  | [信息源](/help/c-recommendations/c-products/feeds.md) | Updated "Importing Items" row and added "Feed Imported Successfully at *time*" row under [Feed Statuses](/help/c-recommendations/c-products/feeds.md#status). |
+|  | [目录搜索](/help/c-recommendations/c-products/catalog-search.md) | 更新了有关如何刷新目录的文本。 |
+|  | [在移动设备应用程序 中设置点击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 添加了有关“修改”面板的信息，该面板显示了您设置的用于单击跟踪的元素。 |
+|  | [Adobe Target 的工作原理](/help/c-intro/how-target-works.md#bots) | 新增了部分：“机器人程序”。 |
+|  | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md#best) | 添加了最佳实践以避免执行缓慢的正则表达式。 |
+|  | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | 更新了故障排除部分，以反映字符限制不再适用于应用程序名称。限制仅适用于ID。 |
+|  | [信息源](/help/c-recommendations/c-products/feeds.md#steps) | 将支持的FTP服务器设置添加到步骤中。 |
+|  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.1.1 的信息。 |
+|  | [发行说明](/help/r-release-notes/release-notes.md)：19.7.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe Target Standard/Premium 19.6.1（2019 年 6 月 26 日）{#tgt-19-6-1}
 

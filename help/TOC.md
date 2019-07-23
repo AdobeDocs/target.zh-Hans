@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Adobe Target 帮助
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 554bbdaa1aa8f4697a6f01e34068680e0867e6fa
+source-git-commit: 2ae3bdaeb6220ede7a59d68d7a400fad64c18202
 
 ---
 
@@ -55,6 +55,7 @@ source-git-commit: 554bbdaa1aa8f4697a6f01e34068680e0867e6fa
          + [隐私和《通用数据保护条例》(GDPR)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [删除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite Cookie策略](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
+         + [Apple智能跟踪预防(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
       + 将数据导入 Target 的方法 {#methods}
          + [方法](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [配置文件 API 设置](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)

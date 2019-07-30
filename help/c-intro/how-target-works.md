@@ -9,7 +9,7 @@ title: Adobe Target 的工作原理
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
+source-git-commit: f0002ef506746bc315fbcc9224e6e6fa35c78b83
 
 ---
 
@@ -170,7 +170,7 @@ Google 举例说明“如果某个网站的原始页面加载了与向用户显�
 
 我们认为无意中在测试变体内更改原始内容的含义不太容易发生，但是我们仍建议您注意页面上的关键词主题，并保留这些主题。对页面内容所做的更改，特别是添加或删除相关的关键词，可能会导致 URL 在自然搜索中的排名发生变化。我们建议您与 SEO 合作伙伴协作并将此内容包含在您的测试协议中。
 
-机器人 {#bots}
+## 机器人 {#bots}
 
 Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. 识别为机器人生成的流量的流量仍会像常规用户一样提供，以确保它符合SEO准则。如果用户像普通用户一样对待A/B测试或个性化算法，则使用机器人流量可以进行跟踪。因此，如果在Target活动中检测到已知机器人，则流量会略有不同。删除机器人程序流量可更准确地测量用户活动。
 

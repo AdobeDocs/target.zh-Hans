@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 378cf9f38d2758541b8425c8786259739751cd74
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -331,7 +331,9 @@ source-git-commit: 378cf9f38d2758541b8425c8786259739751cd74
 
 常规页面，例如主页或登陆页面及站外广告。
 
-[!NOTE]最近查看的项目同时兼顾了全局设置和活动的选定集合设置。如果某个项目被全局排除排除或未包含在选定的集合中，则不会显示该项目；因此，使用最近查看的项目条件时，应通常使用“所有集合”设置。
+>[!NOTE]
+>
+>最近查看的项目同时尊重活动的全局设置和选定集合设置。如果某个项目被全局排除排除或未包含在选定的集合中，则不会显示该项目；因此，使用最近查看的项目条件时，应通常使用“所有集合”设置。
 
 ### Previously Purchased Items {#previously-purchased}
 

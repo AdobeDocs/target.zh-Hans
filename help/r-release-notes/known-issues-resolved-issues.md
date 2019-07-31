@@ -8,7 +8,7 @@ title: 已知问题和已解决的问题
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 下面部分列出了 [!DNL Target] 的已知问题：
 
-### 预览链接 {#preview}
+### Activity QA preview links {#preview}
 
-如果帐户中保存的活动过多，则保存活动的预览链接可能无法加载。重新尝试预览链接应有效。为防止继续发生这种情况，请存档不再主动使用的保存活动。(TNT-32697)
+[如果帐户中保存的活动过多，则保存活动的活动QA预览](/help/c-activities/c-activity-qa/activity-qa.md) 链接可能无法加载。重新尝试预览链接应有效。为防止继续发生这种情况，请存档不再主动使用的保存活动。(TNT-32697)
 
 ### 重定向选件 {#redirect}
 

@@ -1,5 +1,5 @@
 ---
-description: 有关授予现有Adobe I/集成的信息，可访问具有所需角色的所有工作区。
+description: 有关授予Adobe I/集成功能的信息，可访问具有所需角色的所有工作区。
 keywords: 集成；角色；用户权限；Admin Console
 seo-description: 有关授予现有Adobe I/集成的信息，请访问Adobe Target中具有所需角色的所有工作区
 seo-title: 在Adobe Target中授予Adobe I/集成功能访问工作区并分配角色
@@ -7,7 +7,7 @@ solution: Target
 subtopic: 入门指南
 title: 授予Adobe I/集成功能访问工作区和分配角色
 translation-type: tm+mt
-source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
+source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
 
 ---
 
@@ -54,10 +54,11 @@ This action should be performed before **September 4, 2019** to not face any dis
 
    ![集成选项卡](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
+1. (Conditional) To add a new integration, click **[!UICONTROL Add Integration]**, select the desired integration, then click **[!UICONTROL Save]**.
+
 1. From the **[!UICONTROL Product Role]** drop-down list, select the desired role for that workspace:
 
-   *[!UICONTROL Approver]
-*[!UICONTROL Editor]
-*[!UICONTROL Observer]
-
+   * [!UICONTROL 审批者]
+   * [!UICONTROL 编辑者]
+   * [!UICONTROL 观察者]
    ![选择产品配置文件角色](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)

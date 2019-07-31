@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 2019年月30日 | [推荐介绍](/help/c-recommendations/introduction-to-recommendations.md) | 新主题。 |
+| 2019年月31日 | [推荐介绍](/help/c-recommendations/introduction-to-recommendations.md) | 新主题。 |
 |  | [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 添加了指向最近查看的项目的备注。 |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 添加了预览链接的已知问题。 |
 | 2019年月29日 | [报表常见问题解答](/help/c-reports/reporting-frequently-asked-questions.md) | Added new FAQ: "Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?" |

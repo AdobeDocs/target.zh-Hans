@@ -9,7 +9,7 @@ title-outputclass: premium
 topic: Premium
 badge: premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -129,7 +129,7 @@ What is a [!DNL Recommendations] activity?
 
 ![展示推荐活动的说明：受众、标准和设计](/help/c-recommendations/assets/intro-12.png)
 
-Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. 您可以自定义每个项目或添加自己的项目。We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 本节侧重于定义标准，它们定义了使用假发的项目。
+Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. 您可以自定义每个项目或添加自己的项目。We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 本节侧重于定义标准，定义推荐的项目。
 
 Target使用标准卡的概念。标准卡类似于个性化的菜谱。
 
@@ -166,7 +166,7 @@ The following sections describe the various parts of this funnel and how they wo
 * 访客上次购买或添加到购物车的物品
 * 与访客或项目相关的自定义属性
 
-根据这些键，您接着选择推荐逻辑：
+根据这些键，您然后选择所需的推荐逻辑：
 
 * 具有相似属性的项目
 * 特定类别中查看次数最多的项目

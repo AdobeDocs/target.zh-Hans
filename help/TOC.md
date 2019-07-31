@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Adobe Target 帮助
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 2ae3bdaeb6220ede7a59d68d7a400fad64c18202
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -337,6 +337,7 @@ source-git-commit: 2ae3bdaeb6220ede7a59d68d7a400fad64c18202
    + [报表常见问题解答](c-reports/reporting-frequently-asked-questions.md)
 + 推荐 {#recommendations}
    + [推荐概述](c-recommendations/recommendations.md)
+   + [推荐介绍](/help/c-recommendations/introduction-to-recommendations.md)
    + [计划和实施推荐](c-recommendations/plan-implement.md)
    + 实体 {#entities}
       + [实体概述](c-recommendations/c-products/products.md)

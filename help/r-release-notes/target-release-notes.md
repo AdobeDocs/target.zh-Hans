@@ -8,7 +8,7 @@ title: Target 发行说明（预发行版本）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
+source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
 
 ---
 
@@ -43,7 +43,7 @@ With the upcoming [!DNL Target] September 2019 release, Target Enterprise Permis
 
 **需要的操作**：当前，在所有工作区中利用API针对资源(活动、受众、优惠和报告)运用API的客户需要授予其现有的Adobe I/集成访问所有工作区的权限，以根据其用例使用所需的角色。You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, irrespective of choice made in the [!UICONTROL Product Role] drop-down list. 您现在可以选择所需的角色。
 
-This action *must* be performed before September 4, 2019 to not face any disruption on your end. 如果未执行此操作，则在[！DNL Target月版本将激活访问控制，如果您当前设置了该工作区，则您将仅观察到默认工作区。按照上述准则提前设置集成不会产生任何负面反应。这一变化越快，就越好。根据单位中的工作区数量，设置此设置需要花费较少的时间。此过程只需单击几次，即可将现有的集成添加到具有所需角色的工作区中。
+This action *must* be performed before September 4, 2019 to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 按照上述准则提前设置集成不会产生任何负面反应。这一变化越快，就越好。根据单位中的工作区数量，设置此设置需要花费较少的时间。此过程只需单击几次，即可将现有的集成添加到具有所需角色的工作区中。
 
 ##  Target Standard/Premium 19.8.1（2019 年 8 月 20 日）{#tgt-19-8-1}
 

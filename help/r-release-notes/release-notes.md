@@ -8,7 +8,7 @@ title: Target 发行说明（当前版本）
 topic: 推荐
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 2cc1918610950ea8474def526d9596ec709456a2
+source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 ---
 
@@ -16,6 +16,23 @@ source-git-commit: 2cc1918610950ea8474def526d9596ec709456a2
 # Target 发行说明（当前版本）{#target-release-notes-current}
 
 这些发行说明介绍了每个 Target Standard 和 Target Premium 版本的功能、增强功能和修复信息。
+
+## 公告
+
+**2019年月31日**
+
+[!UICONTROL 企业权限] 允许 [!DNL Target] 客户使用单个组织，但将其划分为不同团队或工作流程的工作区。[!UICONTROL 企业权限] 功能有助于跨团队有效扩展优化程序。Although this feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until the [!DNL Target] February 2019 release. Adobe更新了管理员API，以便您可以使用集成帐户访问单位中创建的所有工作区。So, while earlier, Admin APIs were restricted to the default workspace, the February 2019 update granted access to all workspaces with [!UICONTROL Approver] access.
+
+With the upcoming [!DNL Target] September 2019 release, [!UICONTROL Enterprise Permissions] will provide customers with the following access controls:
+
+* 您可以选择可将集成应用到的工作区
+* You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
+
+**需要操作**：当前，在所有工作区中对资源(活动、受众、优惠和报告)利用API进行CRUD操作的客户需要授予其现有的Adobe I/集成访问所需角色的所有工作区。Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of the role selected from the [!UICONTROL Product Role] drop-down list. 在即将发布的版本中，您现在可以选择所需的角色。
+
+This action should be performed during the month of **August 2019**. After the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 预先设置集成角色不会产生不利后果。
+
+For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
 ## Target Standard/Premium 19.7.1（2019 年 7 月 24 日）{#tgt-19-7-1}
 

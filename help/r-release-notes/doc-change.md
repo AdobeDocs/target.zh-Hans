@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
+source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019年月日 | [Target发行说明(当前版本)](/help/r-release-notes/release-notes.md) | 添加了有关API支持企业权限的重要公告。 |
+|  | 授予Adobe I/集成功能访问工作区和分配角色 | 新主题。 |
 | 2019年月31日 | [推荐介绍](/help/c-recommendations/introduction-to-recommendations.md) | 新主题。 |
 |  | [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 添加了指向最近查看的项目的备注。 |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 添加了活动QA预览链接的已知问题。 |

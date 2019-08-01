@@ -8,7 +8,7 @@ title: Target 发行说明（预发行版本）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
+source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 ---
 
@@ -38,7 +38,7 @@ With the upcoming [!DNL Target] September 2019 release, [!UICONTROL Enterprise P
 
 **需要操作**：当前，在所有工作区中对资源(活动、受众、优惠和报告)利用API进行CRUD操作的客户需要授予其现有的Adobe I/集成访问所需角色的所有工作区。Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of the role selected from the [!UICONTROL Product Role] drop-down list. 在即将发布的版本中，您现在可以选择所需的角色。
 
-This action should be performed before **September 4, 2019**. After the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 预先设置集成角色不会产生不利后果。
+This action should be performed during the month of **August 2019**. After the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 预先设置集成角色不会产生不利后果。
 
 For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 

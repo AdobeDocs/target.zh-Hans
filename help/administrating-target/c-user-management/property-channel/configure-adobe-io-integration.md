@@ -7,7 +7,7 @@ solution: Target
 subtopic: 入门指南
 title: 授予Adobe I/集成功能访问工作区和分配角色
 translation-type: tm+mt
-source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
+source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 ---
 
@@ -36,11 +36,11 @@ With the upcoming [!DNL Target] September 2019 release, [!DNL Target] [!UICONTRO
 
 **需要的操作**：当前，在所有工作区中利用API针对资源(活动、受众、优惠和报告)运用API的客户需要授予其现有的Adobe I/集成访问所有工作区的权限，以根据其用例使用所需的角色。You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of choice made from the [!UICONTROL Product Role] drop-down list. 您现在可以选择所需的角色。
 
-This action should be performed before **September 4, 2019** to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 按照上述准则提前设置集成不会产生任何负面反应。这一变化越快，就越好。根据单位中的工作区数量，设置此设置需要花费较少的时间。此过程只需单击几次，即可将现有的集成添加到具有所需角色的工作区中。
+This action should be performed during the month of **August 2019** to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 对设置集成没有负面反应。这一变化越快，就越好。根据单位中的工作区数量，设置此设置需要花费较少的时间。此过程只需单击几次，即可将现有的集成添加到具有所需角色的工作区中。
 
 **要授予Adobe I/集成集成权限，请访问工作区并分配角色：**
 
-1. Open the **[!DNL[Adobe Admin Console](https://adminconsole.adobe.com)]**.
+1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
 1. Click the **[!UICONTROL Products]** tab, then select the name of the desired product.
 

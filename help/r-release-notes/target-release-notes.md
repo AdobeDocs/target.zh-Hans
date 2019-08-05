@@ -42,7 +42,7 @@ This action should be performed during the month of **August 2019**. After the [
 
 For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
-##  Target Standard/Premium 19.8.1（2019 年 8 月 20 日）{#tgt-19-8-1}
+## Target Standard/Premium 19.8.1（2019 年 8 月 20 日）{#tgt-19-8-1}
 
 此维护版本包含以下增强功能：
 

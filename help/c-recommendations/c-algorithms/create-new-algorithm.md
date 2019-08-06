@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
 
 ---
 
@@ -118,11 +118,15 @@ source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
    如果您是在创建新的“[!UICONTROL 推荐]”活动或编辑现有活动，则默认情况下会选中&#x200B;**[!UICONTROL 保存标准供以后使用]复选框。**&#x200B;如果您不想在其他活动中使用该标准，请在保存前清除该复选框。
 
-### 预期标准处理时间
+### 预期标准处理时间 {#time}
 
 * **mbox**：如果标准使用 mbox 作为行为数据源，则创建标准后，便可立即运行。根据使用的行为数据量和目录的大小，算法可能需要长达 12 个小时才能运行。对标准配置进行更改会导致标准重新运行。
 
-* **Analytics**：如果标准使用 [!DNL Adobe Analytics] 作为行为数据源，则创建标准后，其可用时间取决于所选报表包和回顾窗口是否已用于任何其他标准。如果报表包以前与回顾窗口一起使用过，且该回看窗口的长度至少与选定的回顾窗口长度相同，则说明行为数据已在 Target 中提供，“推荐”会立即运行标准。该算法可能需要长达 12 个小时便能运行，具体取决于所使用的行为数据量和目录大小。如果报表包以前未使用过，或者未与更长的回顾窗口一起使用，则“推荐”必须先从 Adobe Analytics 请求获取和接收数据，然后才能运行算法。与 Analytics 的同步流程通常至少需要 2 天，最多可能需要 7 天才能完成，具体取决于 Analytics 系统负载。
+* **Analytics**：如果标准使用 [!DNL Adobe Analytics] 作为行为数据源，则创建标准后，其可用时间取决于所选报表包和回顾窗口是否已用于任何其他标准。
+
+   * **初始滞后**&#x200B;时间：初始滞后时间介于两到七天之间。初始延迟仅发生一次，条件是设置了之前未使用的报表包，或与较长的查找窗口一起使用。
+   * **持续延迟**：如果报表包之前与一个查找窗口至少使用了一个外观返回窗口，则新的和现有条件的预期滞后时间不到12小时，具体取决于使用的行为数据数量和目录的大小。
+   例如，对于“查看的关联”推荐，当用户查看产品时，将将产品视图跟踪调用实时传递到Analytics。Analytics数据在下一天将被推送到Target，Target运行算法的时间不到12小时。
 
 ## 使推荐基于推荐键 {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -335,7 +339,7 @@ source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 >
 >最近查看的项目同时尊重活动的全局设置和选定集合设置。如果某个项目被全局排除排除或未包含在选定的集合中，则不会显示该项目；因此，使用最近查看的项目条件时，应通常使用“所有集合”设置。
 
-### Previously Purchased Items {#previously-purchased}
+### 先前购买的项目 {#previously-purchased}
 
 Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
 

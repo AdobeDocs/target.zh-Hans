@@ -8,7 +8,7 @@ title: 查看报表 - A4T 常见问题解答
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 可以将区段应用于包含计算量度的量度。这通常是在您想要创建新类型的成功事件时完成的，例如：如果您想查看活动产生了多少位回访访客，或者查看了您的测试的访客中有多少人将来到了某个特定页面。请注意，目前无法生成适用于计算量度的提升度和置信度。
 
-## 我是否应在查看报表时使用访客数、活动展示次数或访问次数？ {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
+## 我是否应在查看报表时使用访客数、活动展示次数或访问次数？ {#metrics}
 
 有几个选项可供选择，每个选项都有各自的优势：
 
@@ -52,7 +52,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 * 当用户符合活动条件并从 [!DNL Target] 返回内容时，所有上述量度都会触发。这并不一定意味着用户查看了该选件。如果活动体验未显示且用户未向下滚动页面，则表示该选件由 [!DNL Target] 提供，但用户并未查看。
 * 除非同一活动中的同一页面同时有多个 mbox 调用，否则“[!UICONTROL 活动展示次数]”（由 [!DNL Target] 测量）与“[!UICONTROL 实例数]”（由 [!DNL Analytics] 测量）相等。这会导致“[!UICONTROL 活动展示次数]”被计入多次，而“[!UICONTROL 实例]”只被计入一次。
-* 目前“[!UICONTROL 活动展示次数]”和“[!UICONTROL 活动转化次数]”量度在 [!DNL Analysis Workspace] 中会被夸大，在解决此问题之前不应使用此量度。
+* 在中使用 [!UICONTROL 活动印象] 和 [!UICONTROL 活动转换] 量度 [!DNL Analysis Workspace]时，确保应用 [!UICONTROL 了相同的触控] 归因模型。通过单击列设置齿轮，启用 [!UICONTROL 非默认归因模型]，然后选择 [!UICONTROL 相同的触控，可以应用模型]。在“Analytics Tools Guide”(分析工具指南)中了解 [有关属性IQ概述](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html)*的更多信息*。
 
 ## 如果营销人员在活动设置期间选择了一个 Analytics 量度，则“活动转化”意味着什么？{#section_F3EBACF85AF846E9B366A549AAB64356}
 

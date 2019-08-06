@@ -7,7 +7,7 @@ title: 移动设备应用程序可视化体验编辑器
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: a5c2ca2e79d78f6b8d1a053f91233210efe0f3cb
+source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: a5c2ca2e79d78f6b8d1a053f91233210efe0f3cb
 | 过程 | 详细信息 |
 |--- |--- |
 | 配对 | 安全地授权您的移动设备应用程序和设备可以与 Target 配合使用。每个设备只需执行该步骤一次即可。 |
-| 创作 | 创作 [Target 活动](/help/c-activities/activities.md)，实时预览在 Target UI 中执行的操作。 |
+| 创作 | 创作[Target 活动](/help/c-activities/activities.md)，实时预览在 Target UI 中执行的操作。 |
 | 交付 | Target 在您的本机移动设备应用程序中自动交付活动。 |
 
 **配对:**
@@ -81,7 +81,7 @@ source-git-commit: a5c2ca2e79d78f6b8d1a053f91233210efe0f3cb
 
 ![新的应用程序通知](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
-Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
+可以从 [!UICONTROL “管理版本”] 对话框手动添加和删除多个移动应用程序版本。
 
 ![“管理版本”对话框](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
 
@@ -192,7 +192,7 @@ Target VEC 扩展可通过网络请求，检索与您的应用程序相关的 Ta
 
 单击 VEC 中的“[!UICONTROL 刷新]”按钮以同步显示的内容。
 
-**我收到一个错误，表明我的“context. application. id”值包含禁止的字符。What characters are allowed in mobile app IDs?**
+**我收到一个错误，表明我的“context. application. id”值包含禁止的字符。移动应用程序ID中允许哪些字符？**
 
 移动应用程序ID中允许的字符包括：
 
@@ -210,7 +210,7 @@ Target VEC 扩展可通过网络请求，检索与您的应用程序相关的 Ta
 | `&` | Ampersand |
 | `+` | 加号 |
 
-Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
+例如，使用不允许的字符( `'` )，您会收到以下错误消息：
 
 ```
 Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
@@ -219,7 +219,6 @@ Target Response was received : {"status":400,"message":"Errors: field - [context
 ## 已知限制 {#limitations}
 
 * 移动设备应用程序 VEC 目前可用于为移动设备应用程序创建 [A/B 测试](/help/c-activities/t-test-ab/test-ab.md)和[体验定位 (XT)](/help/c-activities/t-experience-target/experience-target.md) 活动。未来将提供对其他活动类型的支持。
-* 尚不支持预览功能。此功能将在即将发布的版本中提供。
 * 尝试将应用程序重新连接到移动设备应用程序 VEC 时，必须完全退出该应用程序，然后重新启动。
 
    在下面列出的任何情景中，如果移动设备应用程序已经打开，则必须关闭该应用程序，然后重新打开它。但是，您“必须”**&#x200B;从最近使用的应用程序部分中关闭应用程序，而“不是”**&#x200B;通过按“返回”按钮来关闭。如果通过按“返回”按钮来关闭应用程序，可能会出现间歇性连接问题。

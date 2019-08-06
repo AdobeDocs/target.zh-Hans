@@ -9,7 +9,7 @@ title: Adobe Target 的工作原理
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: f0002ef506746bc315fbcc9224e6e6fa35c78b83
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Target通过以下两个JavaScript库之一与网站集成：at. js或mbox
 >
 >因此，所有客户都应迁移到 at.js。For more information, see [Migrate to at.js from mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-您必须在站点上的每个页面上引用Target JavaScript库文件。例如，您可以将此文件添加到全局标头。Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+您必须在站点上的每个页面上引用Target JavaScript库文件。例如，您可以将此文件添加到全局标头。或者，请考虑使用 [Adobe Launch标签管理器](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 访客每次请求访问已针对 Target 进行优化的页面时，系统都会向定位系统发送请求，以确定要向访客提供哪些内容。这一过程实时进行-每次加载页面时，系统都会执行和完成内容请求。内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。提供的内容是每个网站访客最有可能响应、与之交互并最终购买的，以便最大程度地提高响应率、购置率和收入。
 
@@ -98,17 +98,17 @@ Auto-Target使用先进的机器学习从多个高性能营销人员定义的体
 
 ![具有核心边缘站点和边缘站点的地图](assets/edge_network.png)
 
-Adobe目前在俄勒冈州和德克萨斯州拥有核心的边缘站点；英格兰伦敦；和新加坡。Adobe目前位于Virginia(美国)，阿姆斯特丹，阿姆斯特丹；日本东京；和澳大利亚悉尼。
+本页的来源为“ [Adobe Target安全概述](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) ”白皮书。
 
-核心边缘站点位置同时包含一个数据收集中心和一个数据处理中心，而其他边缘站点位置则仅包含一个数据收集中心。每个报表包均分配给一个特定的数据处理中心。
+Adobe Target解决方案托管在全球范围内的Adobe自有和Adobe租用的数据中心。Admin Server完全托管在伦敦、新加坡和美国各地的Adobe自有数据中心内，包括Olegon和Virginia。Edge Server托管在位于伦敦、中国香港特别行政区、新加坡、东京和悉尼的Amazon AWS数据中心中的Adobe自有服务器和Adobe租用服务器上。
 
-目前，Adobe 在多个洲都设立了数据中心，其中包括北美洲、欧洲和亚洲的多个地区。
+管理员服务器位置同时包含数据收集中心和数据处理中心。而其他边缘站点位置则仅包含一个数据收集中心。每个报表包均分配给一个特定的数据处理中心。
 
 与访客最接近的Edge环境处理请求，而不是响应单一位置的所有定向请求，从而减轻了网络/Internet旅行时间的影响。
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 当前在中国没有Edge网络，并且在中国 [!DNL Target] 客户的最终用户性能将继续受到限制。Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
+>[!DNL Adobe Target] 当前在中国没有Edge网络，并且在中国 [!DNL Target] 客户的最终用户性能将继续受到限制。由于防火墙中的“防火长城”和缺少边缘节点的问题，部署的 [!DNL Target] 站点体验将会缓慢呈现，并且页面加载会受到影响。此外，营销人员在使用 [!DNL Target] 创作UI时可能会遇到滞后情况。
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -172,7 +172,7 @@ Google 举例说明“如果某个网站的原始页面加载了与向用户显�
 
 ## 机器人 {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. 识别为机器人生成的流量的流量仍会像常规用户一样提供，以确保它符合SEO准则。如果用户像普通用户一样对待A/B测试或个性化算法，则使用机器人流量可以进行跟踪。因此，如果在Target活动中检测到已知机器人，则流量会略有不同。删除机器人程序流量可更准确地测量用户活动。
+Adobe Target使用 [DeviceAtlas](https://deviceatlas.com/) 检测已知的机器人程序。识别为机器人生成的流量的流量仍会像常规用户一样提供，以确保它符合SEO准则。如果用户像普通用户一样对待A/B测试或个性化算法，则使用机器人流量可以进行跟踪。因此，如果在Target活动中检测到已知机器人，则流量会略有不同。删除机器人程序流量可更准确地测量用户活动。
 
 具体而言，对于已知的机器人流量Target，目标不是：
 

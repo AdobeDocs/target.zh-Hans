@@ -1,6 +1,6 @@
 ---
 description: '有关 at.js 的 targetGlobalSettings() 函数的信息。 '
-keywords: adobe.target.notification;元素;选择器;通知;扩展
+keywords: targetGlobalSettings；targetglobalsettings；GlobalSettings；globalsettings；全局设置；at. js；函数；函数；clientCode；clientcode；ServerDomain；serverdomain；cookieDomain；cookiedomain；CrossDomain；跨域；超时；GlobalmboxRegresh；togortoripeTimeout；defaultContentDenStyle；defaultContentBarbleStyle；BodyhidenStyle；BodyHingingEnabled；imsOrID；SecureOnly；OverridEmboxEdgeServer；OverridEmboxEdgeServerTimeout；optoutEnabled；optout；退出；selectorSpollingTimeout；数据提供者
 seo-description: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数的信息。
 seo-title: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数的信息。
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: targetGlobalSettings()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: bc5acc09c1bc8e412929ad9a0ede8a80b6405d5d
 
 ---
 

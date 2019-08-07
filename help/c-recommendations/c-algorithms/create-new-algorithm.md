@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
+source-git-commit: 6f15e460e5c998b4662310309d333667fed04308
 
 ---
 
@@ -118,15 +118,21 @@ source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
 
    如果您是在创建新的“[!UICONTROL 推荐]”活动或编辑现有活动，则默认情况下会选中&#x200B;**[!UICONTROL 保存标准供以后使用]复选框。**&#x200B;如果您不想在其他活动中使用该标准，请在保存前清除该复选框。
 
-### 预期标准处理时间 {#time}
+## 预期标准处理时间 {#process-time}
 
-* **mbox**：如果标准使用 mbox 作为行为数据源，则创建标准后，便可立即运行。根据使用的行为数据量和目录的大小，算法可能需要长达 12 个小时才能运行。对标准配置进行更改会导致标准重新运行。
+保存条件后， [!DNL Target] 计算建议。根据所选推荐逻辑、数据范围、目录中的项目数、客户生成的行为数据数量以及所选行为数据源，此计算需要一些时间来执行和时间范围不同。行为数据源对处理时间具有最大影响，如下所示：
 
-* **Analytics**：如果标准使用 [!DNL Adobe Analytics] 作为行为数据源，则创建标准后，其可用时间取决于所选报表包和回顾窗口是否已用于任何其他标准。
+### mbox
 
-   * **初始滞后**&#x200B;时间：初始滞后时间介于两到七天之间。初始延迟仅发生一次，条件是设置了之前未使用的报表包，或与较长的查找窗口一起使用。
-   * **持续延迟**：如果报表包之前与一个查找窗口至少使用了一个外观返回窗口，则新的和现有条件的预期滞后时间不到12小时，具体取决于使用的行为数据数量和目录的大小。
-   例如，对于“查看的关联”推荐，当用户查看产品时，将将产品视图跟踪调用实时传递到Analytics。Analytics数据在下一天将被推送到Target，Target运行算法的时间不到12小时。
+如果mbox被选为行为数据源，一旦创建，条件就会立即运行。根据使用的行为数据量和目录的大小，算法可能需要长达 12 个小时才能运行。对条件配置进行更改通常会导致算法重新运行。根据所做的更改，之前计算的推荐可能在重新运行完成之前可用，或者对于较大的更改，只有备份或默认内容才可用，直到重新运行完成为止。如果未修改算法，则根据选定的数据范围 [!DNL Target] ，每12-48小时自动重新运行该算法。
+
+### Adobe Analytics
+
+If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
+
+* **一次性报告套件设置**：报表包与给定数据范围回顾窗口一起使用时， [!DNL Target Recommendations] 可能需要到天才能完全下载所选报表包的行为数据 [!DNL Analytics]。此时间帧取决于 [!DNL Analytics] 系统负载。
+* **使用已经可用的报告套件的新或编辑条件**：创建新条件或编辑现有条件时，如果已将选定的报表包与 [!DNL Target Recommendations]选定的数据范围一起使用，则数据会立即可用，并且不需要任何一次性设置。在这种情况下，或者如果在未修改所选报表套件或数据范围的情况下编辑算法设置，则算法会在12小时内运行或重新运行。
+* **持续的算法运行**：数据每天 [!DNL Analytics][!DNL Target Recommendations] 都在流动。例如，对于 [!UICONTROL “查看的关联] ”推荐，当用户查看产品时，将将产品视图跟踪调用传递 [!DNL Analytics] 到接近实时。[!DNL Analytics] 将在下一天将数据推送到 [!DNL Target] 第二天，并 [!DNL Target] 在12小时内运行算法。
 
 ## 使推荐基于推荐键 {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 

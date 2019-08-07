@@ -1,29 +1,29 @@
 ---
-description: 此信息介绍了欧盟的《通用数据保护条例》(GDPR)，并提供了此条例对贵组织和 Adobe Target 颜色产生怎样影响的常见问题解答列表。
-keywords: GDPR;EU;欧盟;隐私;FAQ;常见问题解答
-seo-description: 此信息介绍了欧盟的《通用数据保护条例》(GDPR)，并提供了此条例对贵组织和 Adobe Target 颜色产生怎样影响的常见问题解答列表。
-seo-title: 隐私和《通用数据保护条例》(GDPR)
+description: 有关欧盟一般数据保护规定(GDPR)和California Consumer Privacy Act(CPA)的信息，以及这些法规对组织和Adobe Target的影响。
+keywords: gdpr；欧盟；欧盟；隐私；常见问题解答；常见问题解答；加利福尼亚消费者隐私权法案；ccpa
+seo-description: 有关欧盟一般数据保护规定(GDPR)和California Consumer Privacy Act(CPA)的信息，以及这些法规对组织和Adobe Target的影响。
+seo-title: 一般数据保护规定(GDPR)、California Consumer Privacy Act(CPA)和Adobe Target
 solution: Target
-title: 隐私和《通用数据保护条例》(GDPR)
+title: 隐私和数据保护规定
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
 
 ---
 
 
-# 隐私和《通用数据保护条例》(GDPR){#privacy-and-general-data-protection-regulation-gdpr}
+# 隐私和数据保护规定 {#privacy-and-general-data-protection-regulation-gdpr}
 
-此信息介绍了欧盟的《通用数据保护条例》(GDPR)，并提供了此条例对贵组织和 Adobe Target 颜色产生怎样影响的常见问题解答列表。
+有关欧盟一般数据保护规定(GDPR)和California Consumer Privacy Act(CPA)的信息，以及这些法规对组织和 [!DNL Adobe Target]组织的影响。
 
 ## 隐私和《通用数据保护条例》(GDPR) 概述{#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
 此信息介绍 Adobe 如何与您协作，以做好准备来遵守欧盟的《通用数据保护条例》(GDPR)。
 
-## GDPR 概览 {#section_8C99434A431B4494998B01B869E7EA5D}
+### GDPR 概览 {#section_8C99434A431B4494998B01B869E7EA5D}
 
-2018 年 5 月 25 日，欧盟的 GDPR 将正式生效。有关这项规定对您有何深远影响，请参阅 [GDPR 与您的业务](https://www.adobe.com/privacy/general-data-protection-regulation.html)。
+2018年月25日，欧盟的GDPR生效。有关这项规定对您有何深远影响，请参阅 [GDPR 与您的业务](https://www.adobe.com/privacy/general-data-protection-regulation.html)。
 
 当 Adobe 向企业提供软件和服务时，作为提供这些服务的一部分，Adobe 将充当其处理并存储的任何个人数据的“数据处理方”。作为“数据处理方”，Adobe 将根据贵公司授予的权限及指示（例如，遵照您与 Adobe 签署的协议中的规定）处理个人数据。
 
@@ -34,12 +34,20 @@ Adobe Experience Cloud 将为“数据控制方”提供符合 GDPR 的 API，�
 * 访问 Target 中存储的数据主体信息
 * 删除 Target 中存储的数据主体信息
 
-## Adobe《通用数据保护条例》API 网站 {#section_51B8FA3CBE234E9592BDA7083B5CE4CD}
+### Adobe《通用数据保护条例》API 网站 {#section_51B8FA3CBE234E9592BDA7083B5CE4CD}
 
 有关详细信息，请参阅：
 
 * [Adobe《通用数据保护条例》API 网站](https://www.adobe.io/apis/cloudplatform/gdpr.html)
 * [GDPR 文档](https://www.adobe.io/apis/cloudplatform/gdpr/docs.html)
+
+## California Consumer Privacy Act(CPA)概述
+
+California Consumer Privacy Act(CPA)将于2020年月日生效。通过设计，法律使California调节层能够进行调整并阐明细节，这意味着您自然有很多问题。如果您确实有疑问，那么许多企业并不是在应对法律中的不确定性，并且试图理解和制定一种解决法律、运营和技术要求的方法。
+
+CPA为加利福尼亚消费者提供有关其个人信息的新权利，并为在加利福尼亚开展业务的某些实体施加数据保护职责。在较高级别上，法律为加利福尼亚州提供几项主要权利，包括：(1)请求信息(数据访问)，(2)选择退出销售个人信息(被广泛定义的无权与第三方共享信息)，(3)删除个人信息，以及(4)获知个人信息正在披露或出售。
+
+如果您去年忙于准备欧洲隐私法(GDPR)，其中某些权利可能会非常熟悉，您完成的许多工作可能会被重新确定用途。
 
 ## Adobe Target 和 Adobe Launch 选择加入功能 {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -55,7 +63,7 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->在. js版本1.7.0和. js2.1.0中支持选择加入功能。在. js版本2.0.0和2.0.1中不支持选择加入。
+>在. js版本1.7.0和. js2.1.0或更高版本中支持选择加入功能。在. js版本2.0.0和2.0.1中不支持选择加入。
 >
 >推荐使用 Adobe Launch 管理选择加入功能。Adobe Launch 中提供了更加精细化的控制，可在触发 Target 标记之前隐藏页面的选定元素，这有助于在您的同意策略中利用此功能。
 
@@ -93,19 +101,19 @@ window.targetGlobalSettings = {
    #pageContent { opacity:0;}
    ```
 
-## 《通用数据保护条例》常见问题解答{#concept_41F88DE95D2943178BEC382736B5C038}
+## 隐私和数据保护法规常见问题解答 {#concept_41F88DE95D2943178BEC382736B5C038}
 
-有关特定于 Adobe Target 的《通用数据保护条例》(GDPR) 的常见问题解答。
+关于Adobe Target的一般数据保护规定(GDPR)和California Consumer Privacy Act(CPA)的常见问题解答。
 
-### 什么是 Adobe 的《通用数据保护条例》(GDPR) 政策？{#section_A6849628D6524C80A6E16946DC5D25A9}
+### Adobe对这些法规有何政策？ {#section_A6849628D6524C80A6E16946DC5D25A9}
 
 Adobe 已经履行了或正在履行作为“数据处理方”的责任和义务。从产品设计角度来看，我们拥有强大的认证安全和隐私控制基础，而且在 2018 年 5 月的截止日期来临之前，我们会继续增强产品功能。企业客户将有责任执行这些增强功能，并且有责任更新任何必要的政策和规程。
 
-### 我的公司（数据控制方）是否需要对每个使用的 Adobe Experience Cloud 解决方案提交 GDPR 请求？ {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
+### Will my company, the Data Controller, need to submit a GDPR or CCPA request to each Adobe Experience Cloud solution that it uses? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
 
-不需要，Adobe 正准备提供一种核心方法，帮助“数据控制方”满足其 GDPR 要求。“数据控制方”不需要直接对每个解决方案提交 GDPR 请求。
+否，Adobe提供帮助数据管理者满足他们GDPR和CCPA要求的中央方式。“数据控制方”不需要直接对每个解决方案提交 GDPR 请求。
 
-包括 Target 在内的 Experience Cloud 解决方案的所有 GDPR 请求，都将通过一个核心 Adobe API（目前称为 GDPR API）来处理。然后，API 将通过数据控制方的 Experience Cloud 解决方案包完成请求。
+跨Experience Cloud解决方案(包括Target)的所有GDPR和CCPA请求都将通过一个中央Adobe API(当前称为GDPR API)进行制作。然后，API 将通过数据控制方的 Experience Cloud 解决方案包完成请求。
 
 ### 应数据主体/用户的请求，Adobe 允许我们的客户删除哪些信息？ {#section_4B51D00924EC4166B2442218B69214F0}
 
@@ -115,7 +123,7 @@ Adobe 已经履行了或正在履行作为“数据处理方”的责任和义�
 
 默认情况下，无需执行任何操作，系统即会删除 90 天处于不活跃状态的 Target 访客配置文件。
 
-### 系统支持哪些 ID 来帮助客户完成 Target 的 GDPR 访问和删除请求？ {#section_F7D0EE4E6A28490FB20056A0D26118BC}
+### What IDs are supported to help customers complete a GDPR or CCPA access and deletion request for Target? {#section_F7D0EE4E6A28490FB20056A0D26118BC}
 
 Target 支持以下 ID 类型来查找客户配置文件：
 
@@ -127,17 +135,17 @@ Target 支持以下 ID 类型来查找客户配置文件：
 
 >[!NOTE]
 >
->尽管 Adobe Target 支持第一方和第三方跨域 Cookie，但是仅推荐使用第一方 Adobe Target Cookie 以满足 GDPR 要求。
+>虽然Adobe Target同时支持第一方和第三方跨域Cookie，但仅建议GDPR和CCPA使用第一方Adobe Target cookies。
 
 ### Adobe Target 如何处理同意管理？{#section_C86BF5EE4FAA47039659850E7594A6BA}
 
-GDPR 不会对您获得客户同意的时间造成任何影响，但会影响获得客户同意的方式。每位客户的同意策略取决于其数据收集和使用惯例，以及其隐私政策。同意管理不受 GDPR 的支持，也不应通过 Target 为 GDPR 获取同意管理。
+GDPR和CPA不会在您需要获得同意时发生变化，但得到的信息是如何得到的。每位客户的同意策略取决于其数据收集和使用惯例，以及其隐私政策。同意管理不是由GDPR和CPA提供且不应通过Target实现的。
 
 Adobe 目前不提供同意管理解决方案，不过，市面上有各种各样的开发工具，可用来解决一些新的需求。有关一般隐私工具（包括同意管理器）的更多信息，请参阅国际隐私专业协会 (iaap) 网站上的 [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf)（2017 隐私技术供应商报告）。
 
 Adobe Target 通过 Adobe Launch 提供选择加入功能支持，以支持您的同意管理策略。选择加入功能让客户可自行决定如何以及何时触发 Adobe Target 标记。还有一个选项，即通过 Adobe Launch 预批准 Adobe Target 标记。推荐使用 Adobe Launch 管理选择加入功能。Adobe Launch 中提供了更加精细化的控制，可在触发 Adobe Target 标记之前隐藏页面的选定元素，这可能会有助于在您的同意策略中利用此功能。
 
-有关 GDPR 和 Adobe Launch 的更多信息，请参阅 [Adobe 隐私 JavaScript 库和 GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。另请参阅上文中的“Adobe Target 和 Adobe Launch 选择加入功能”部分。
+For more information on GDPR, CCPA and Adobe Launch, see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). 另请参阅上文中的“Adobe Target 和 Adobe Launch 选择加入功能”部分。
 
 ### AdobePrivacy.js 是否向 GDPR API 提交信息？{#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -149,9 +157,9 @@ Adobe Target 通过 Adobe Launch 提供选择加入功能支持，以支持您�
 
 例如，Target 将删除存储其 ID 的 Cookie，但 Adobe Audience Manager (AAM) 不删除存储在第三方 Cookie 中的 demdex ID。
 
-### Target GDPR 请求中需要包含哪些信息？ {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### What information needs to be included in a Target GDPR or CCPA request? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
-除了核心隐私服务的要求之外，Target 的有效 GDPR 消息还包含：
+除了Central隐私服务的要求之外，Target的有效GDPR或CPA消息包含：
 
 ```
 { 
@@ -194,9 +202,9 @@ Adobe Target 通过 Adobe Launch 提供选择加入功能支持，以支持您�
 
 | 请求状态 | Target 响应消息 | 情景 |
 |--- |--- |--- |
-| 正在处理 | 正在处理 | Target 收到了 GDPR 请求并正在进行处理。 |
-| 完成 | 不适用 - 公司上下文不适用 | GDPR 请求中的 IMS ID 未映射到任何 Target 客户端。<br>请注意，一些公司拥有多个 IMS ID。您必须提交配置了 Target 的 IMS ID。 |
-| 完成 | 不适用 - 未找到用户上下文 | Target 配置文件存储中不存在 GDPR 请求中为特定访客或数据主体提供的 ID。<br>请注意，如果您尝试提交 Target 不支持的命名空间 ID 类型，则也会返回此结果（请参阅上面的受支持 ID）。 |
+| 正在处理 | 正在处理 | Target收到GDPR或CCPA请求，正在处理。 |
+| 完成 | 不适用 - 公司上下文不适用 | GDPR或CCPA请求中的IMS ID未映射到任何Target客户端。<br>请注意，一些公司拥有多个 IMS ID。您必须提交配置了 Target 的 IMS ID。 |
+| 完成 | 不适用 - 未找到用户上下文 | GDPR或CPA请求中为特定访客或数据主体提供的ID不存在于Target配置文件存储中。<br>请注意，如果您尝试提交 Target 不支持的命名空间 ID 类型，则也会返回此结果（请参阅上面的受支持 ID）。 |
 | 错误 | 错误消息（详细信息取决于错误类型） | 获取或删除请求的数据主体配置文件时出错。<br>上传到 Azure 以请求访问时出错。 |
 
 ### 对于访问请求，Target 会向 GDPR API 发送什么响应？{#section_D96D8FBEAF9C4BDAA638215FAFE00763}
@@ -244,11 +252,11 @@ Target 访问 API 响应示例如下所示：
 
 | 字段 | 描述 |
 |--- |--- |
-| jobId | 指示来自核心 GDPR API 的 GDPR 作业 ID。 |
+| jobId | 指示Central GDPR API中的GDPR或CPA作业ID。 |
 | imsOrgID | 为贵公司提供的唯一标识符。 |
-| namespace | 也称为数据源。请参阅本主题中的“系统支持哪些 ID 来帮助客户完成 Target 的 GDPR 访问和删除请求？”。 |
-| type | 您请求访问 GDPR 数据的 ID 类型。Target 接受多种 ID 类型，其中一些是标准类型，有一些是特定于 Target 的类型。请参阅本主题中的“系统支持哪些 ID 来帮助客户完成 Target 的 GDPR 访问和删除请求？”。 |
-| value | 命名空间/数据源 ID。请参阅本主题中的“系统支持哪些 ID 来帮助客户完成 Target 的 GDPR 访问和删除请求？”以获取接受的值。 |
+| namespace | 也称为数据源。请参阅“哪些ID可帮助客户完成GDPR或CCPA访问和删除请求的目标？”。 |
+| type | 您请求GDPR或CCPA数据访问的ID类型。Target 接受多种 ID 类型，其中一些是标准类型，有一些是特定于 Target 的类型。请参阅“哪些ID可帮助客户完成GDPR或CCPA访问和删除请求的目标？”。 |
+| value | 命名空间/数据源 ID。请参阅“哪些ID可帮助客户完成GDPR或CCPA访问和删除请求的目标？”以获取接受的值。 |
 | 集成代码 | 集成代码是您数据源的友好名称，可以让您更轻松地跟踪数据源（与使用数据源 ID 相比）。 |
 
 当提供多个值来识别配置文件时，每个有效的标识符将有一个配置文件。该配置文件将通过 GDPR 核心 API 发送到核心 GDPR Azure Blob，以 Target 配置文件 JSON 格式进行响应。
@@ -284,4 +292,4 @@ Target 配置文件 JSON 示例可能如下所示：
 
 ## Target 是否支持 IP 模糊处理？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-如果您选择将 IP 模糊处理用作 GDPR 实施策略的一部分，则 Target 支持 IP 模糊处理。有关更多信息，请参阅[隐私](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)。
+如果您选择将IP模糊处理用作GDPR或CCPA实施战略的一部分，Target将在Target中支持IP模糊处理。For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).

@@ -9,7 +9,7 @@ title: Analytics 与 Target 集成 (A4T) 故障诊断
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 
 * [!DNL Target] 中的分类未完全处理。
 
-   从首次保存活动开始算起，可能需要长达 24 小时才能处理完分类。
+   在第一次保存之后，分类通常需要24到72小时才能对报表进行分类。
 
 * 报表包中未包含任何数据，但 [!DNL Target] 尝试了对点击进行分类。在发生首次点击之前，[!DNL Target] 将一直无法对数据进行分类。
 

@@ -1,6 +1,6 @@
 ---
-description: 可以与 at.js 一起使用的函数列表。
-keywords: adobe.target.notification;元素;选择器;通知;扩展
+description: 可以与 Adobe Target at.js JavaScript 库一起使用的函数列表。
+keywords: at. js；函数；javascript库
 seo-description: 可以在 Adobe Target 中结合 at.js JavaScript 库一起使用的函数列表。
 seo-title: Adobe Target at.js 函数
 solution: Target
@@ -9,7 +9,7 @@ title: at.js 函数
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
@@ -33,5 +33,5 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | [targetPageParamsAll(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) | 此方法允许您从请求代码外部将参数附加到所有 mbox。 |
 | [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x) | 可提供用于注册特定扩展的标准方法。<br>**注意：**&#x200B;此函数仅可用于 at.js 版本 1.*x*。此函数已在 at.js 2.x 版本中弃用。如果与 at.js 2.x 一起使用，此函数将返回默认内容。 |
 | [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at. js自定义事件可让您了解mbox请求或选件失败或成功的时间。 |
-| [adobe. target. sendNoSear(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at. js2.1.0) | This function sends a notification to Target edge when an experience is rendered without using `adobe.target.applyOffer()` or `adobe.target.applyOffers()`.<br>**注意**：此函数已在. js2.1.0中引入，可用于2.1.0以上的任何版本。 |
+| [adobe. target. sendNoSear(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at. js2.1.0) | 在呈现体验时，此函数将向Target边缘发送通知，而无需使用 `adobe.target.applyOffer()` 或 `adobe.target.applyOffers()`。<br>**注意**：此函数已在. js2.1.0中引入，可用于2.1.0以上的任何版本。 |
 

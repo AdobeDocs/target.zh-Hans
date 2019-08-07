@@ -9,7 +9,7 @@ title: Analytics 与 Target 集成 (A4T) 故障诊断
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 本主题介绍了在使用 Analytics 作为 Target 报表源 (A4T) 时遇到的一些常见问题。
 
-## 活动在 Analytics 中未显示数据，反而列为“未指定”。{#section_EB97F0499B0E40E69A21C30DC539BF67}
+## 活动在 Analytics 中未显示数据，反而列为“未指定”。{#unspecified}
 
 发生这种情况的原因有多种，包括：
 
@@ -34,9 +34,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    [请联系客户关怀团队](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，以获取帮助。
 
-有时，数据原先可在报表中正常显示，但随后又重新列为“未指定”，这是因为添加了未完成分类的新活动。请记住，首次保存后，可能需要长达 24 小时才能对报表进行分类。
-
 >[!NOTE]
+>
+>有时，数据原先可在报表中正常显示，但随后又重新列为“未指定”，这是因为添加了未完成分类的新活动。请记住，第一次保存后，通常需要24到72小时才能对报表进行分类。
 >
 >列为“未指定”时，不会丢失任何数据。运行分类后，数据会正确分配到相应的活动或体验。
 

@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
+source-git-commit: b26a62b10ae937ff654c44e10bbb5b38cae6f201
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2019年月日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 为Target Mobile CMS SDK iOS2.1.0和Android1.1.0版本添加了发行说明。 |
-|  | [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md#time) | 更新了Analytics的预期标准处理时间。 |
+|  | [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 更新了以下部分：“预期的条件处理时间”。 |
 |  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | 更新了使用 [!UICONTROL 活动印象] 和 [!UICONTROL 活动转换] 量度的考虑 [!DNL Analysis Workspace]。 |
 | 2019年月日 | [Target发行说明(当前版本)](/help/r-release-notes/release-notes.md) | 添加了有关API支持企业权限的重要公告。 |
 |  | [授予Adobe I/集成功能访问工作区和分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 新主题。 |

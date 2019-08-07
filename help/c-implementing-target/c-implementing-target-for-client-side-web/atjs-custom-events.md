@@ -1,6 +1,6 @@
 ---
 description: '有关 at.js 自定义事件的信息。 '
-keywords: adobe.target.notification;元素;选择器;通知;扩展
+keywords: 自定义事件；at. js；请求失败；请求成功；内容呈现失败；内容呈现成功；库加载；请求开始；内容呈现开始；内容呈现无选件；内容呈现redire
 seo-description: 有关 Adobe Target at.js JavaScript 库自定义事件的信息。
 seo-title: 有关 Adobe Target at.js JavaScript 库自定义事件的信息。
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: at.js 自定义事件
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 

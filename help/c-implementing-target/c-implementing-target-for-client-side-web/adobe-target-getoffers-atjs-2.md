@@ -1,14 +1,14 @@
 ---
-description: '有关 at.js 的 adobe.target.getOffers(options) 函数的信息。 '
-keywords: adobe.target.notification;元素;选择器;通知;扩展
+description: '有关 at.js 的 adobe.target.getOffers() 函数的信息。 '
+keywords: adobe. target. getOffers；getOffers；地理围栏；获取产品；at. js；函数；function
 seo-description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers(options) 函数的信息。
-seo-title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers(options) 函数的信息。
+seo-title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers() 函数的信息。
 solution: Target
 subtopic: 入门指南
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | request &gt; id &gt; thirdPartyId | 否 | 最大大小 = 128 |  |  |
 | 请求&gt; Experience Cloud | 否 |  |  |
 | “请求”&gt;“Experience Cloud”&gt;“分析” | 否 |  | Adobe Analytics集成 |
-| “请求”&gt;“Experience Cloud”&gt;“分析”&gt;“日志记录” | 否 | 以下必须在页面上实现：<ul><li>访客 ID 服务</li><li>AppMeasurement. js</li></ul> | The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_ side**：这是Target和Analytics后端将使用SSID组合调用以进行报告的默认值。 |
+| “请求”&gt;“Experience Cloud”&gt;“分析”&gt;“日志记录” | 否 | 以下必须在页面上实现：<ul><li>访客 ID 服务</li><li>AppMeasurement. js</li></ul> | 支持以下值：<br>**client_ side**：指定后，分析有效负荷将返回到应通过数据插入API发送到Adobe Analytics的调用者。<br>**server_ side**：这是Target和Analytics后端将使用SSID组合调用以进行报告的默认值。 |
 | request &gt; prefetch | 否 |  |  |
 | request &gt; prefetch &gt; views | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头<br>不允许的名称：“orderId”、“orderTotal”、“productPurchasedId” | 传递用于检索活跃活动中相关视图的参数。 |
 | request &gt; prefetch &gt; views &gt; profileParameters | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头 | 传递用于检索活跃活动中相关视图的配置文件参数。 |
@@ -181,7 +181,7 @@ adobe.target.getOffers({
 }
 ```
 
-The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+然后，可以通过 [数据插入API将有效负荷转发给Adobe Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
 
 ## 通过 getOffers() 和 applyOffers() 获取并渲染多个 mbox 的数据 {#multiple}
 

@@ -1,21 +1,21 @@
 ---
-description: 有关欧盟一般数据保护规定(GDPR)和California Consumer Privacy Act(CPA)的信息，以及这些法规对组织和Adobe Target的影响。
+description: 有关欧盟一般数据保护规定(GDPR)、California Consumer Privacy Act(CPA)、其他国际隐私要求以及这些法规如何影响组织和Adobe Target的信息。
 keywords: gdpr；欧盟；欧盟；隐私；常见问题解答；常见问题解答；加利福尼亚消费者隐私权法案；ccpa；隐私；数据保护；选择退出；退出；政府；法规
-seo-description: 有关欧盟一般数据保护规定(GDPR)和California Consumer Privacy Act(CPA)的信息，以及这些法规对组织和Adobe Target的影响。
-seo-title: 一般数据保护规定(GDPR)、California Consumer Privacy Act(CPA)和Adobe Target
+seo-description: 有关欧盟一般数据保护规定(GDPR)、California Consumer Privacy Act(CPA)、其他国际隐私要求以及这些法规如何影响组织和Adobe Target的信息。
+seo-title: 有关欧盟一般数据保护规定(GDPR)、California Consumer Privacy Act(CPA)、其他国际隐私要求以及这些法规如何影响组织和Adobe Target的信息。
 solution: Target
 title: 隐私和数据保护规定
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
 
 ---
 
 
 # 隐私和数据保护规定 {#privacy-and-general-data-protection-regulation-gdpr}
 
-有关欧盟一般数据保护规定(GDPR)和California Consumer Privacy Act(CPA)的信息，以及这些法规对组织和 [!DNL Adobe Target]组织的影响。
+有关欧盟一般数据保护规定(GDPR)、California Consumer Privacy Act(CPA)、其他国际隐私要求以及这些法规如何影响组织和Adobe Target的信息。
 
 ## Privacy and General Data Protection Regulation (GDPR) overview {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
@@ -37,9 +37,7 @@ As the Data Controller, you determine the personal data that [!DNL Adobe] proces
 
 ## California Consumer Privacy Act(CPA)概述
 
-California Consumer Privacy Act(CPA)将于2020年月日生效。通过设计，法律使California调节层能够进行调整并阐明细节，这意味着您自然有很多问题。如果您确实有疑问，那么许多企业并不是在应对法律中的不确定性，并且试图理解和制定一种解决法律、运营和技术要求的方法。
-
-CPA为加利福尼亚消费者提供有关其个人信息的新权利，并为在加利福尼亚开展业务的某些实体施加数据保护职责。在较高级别上，法律为加利福尼亚州提供几项主要权利，包括：
+加利福尼亚州消费者隐私法案(CPA)为加利福尼亚消费者提供有关其个人信息的新权利，并为在加利福尼亚开展业务的某些实体施加数据保护职责。在较高级别上，法律为加利福尼亚州提供几项主要权利，包括：
 
 * 请求信息(数据访问)
 * 选择退出销售个人信息(被广泛定义的权利决定退出与第三方共享信息)
@@ -102,7 +100,7 @@ window.targetGlobalSettings = {
 
 ## 隐私和数据保护法规常见问题解答 {#concept_41F88DE95D2943178BEC382736B5C038}
 
-关于一般数据保护规定(GDPR)和California Consumer Privacy Act(CPA)的常见问题解答 [!DNL Target]。
+关于欧盟一般数据保护规定(GDPR)、California Consumer Privacy Act(CPA)以及针对Target的其他国际隐私要求的常见问题解答。
 
 ### Adobe对这些法规有何政策？ {#section_A6849628D6524C80A6E16946DC5D25A9}
 

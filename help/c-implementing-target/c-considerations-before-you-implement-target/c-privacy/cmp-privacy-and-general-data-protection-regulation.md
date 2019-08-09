@@ -8,7 +8,7 @@ title: 隐私和数据保护规定
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: aa077c92e0b6aaec27429acd9292a5edcf6c60fa
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -289,6 +289,6 @@ A sample [!DNL Target] access API response could look like this:
 >
 >This is a shortened version of a [!DNL Target] profile JSON for the purpose of illustration. [!DNL Target] 配置文件的许多字段不是标准的。返回的内容取决于特定访客配置文件中的信息。
 
-## Target 是否支持 IP 模糊处理？ {#section_428907B0CD9842D9B245B38C66A53C6A}
+### Target 是否支持 IP 模糊处理？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] 如果您选择将IP模糊处理用作GDPR或CCPA实施战略的一部分，请支持IP模糊处理。For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).

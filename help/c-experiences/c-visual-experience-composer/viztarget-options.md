@@ -8,7 +8,7 @@ title: 可视化体验编辑器选项
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -340,6 +340,10 @@ HTML 选件的大小最多可达 256KB。
 ### 撤消/重做
 
 在编辑会话期间撤消对活动所做的更改。您也可以重做先前已撤消的更改。
+
+## 注意事项 {#considerations}
+
+* 如果选件包含HTML内容，请参阅“at at. js如何在. js中呈现包含HTML内容 [的选件”以](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) 了解更多信息。
 
 ## 使用 DOM 路径浏览元素 {#dom-path}
 

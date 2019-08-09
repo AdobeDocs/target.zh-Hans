@@ -8,7 +8,7 @@ title: at.js 的工作原理
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 
 ---
 
@@ -77,10 +77,27 @@ source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 | 5 | [!DNL Target] 根据 URL、mbox 参数和配置文件数据确定要返回给访客的活动和体验。 | 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>体验会在默认内容不发生闪烁的情况下尽快显示。 |
 | 7 | [!DNL Analytics] 数据会发送到数据收集服务器。 | 8 | [!DNL Target] 数据会通过 SDID 匹配到 [!DNL Analytics] 数据，并且会进行相应处理以保存到 [!DNL Analytics] 报表存储中。<br>之后，便可以在 [!DNL Analytics] 和 [!DNL Target] 中通过 [!DNL Analytics for Target] (A4T) 报表查看 [!DNL Analytics] 数据。 |
 
+## . js如何通过HTML内容呈现选件 {#render}
+
+当呈现带有HTML内容的选件时，at. js应用以下算法：
+
+1. 图像预先加载(如果HTML内容中 `<img>` 有任何标记)。
+
+1. HTML内容附加到DOM节点。
+
+1. 执行内联脚本(包含在标记中 `<script>` 的代码)。
+
+1. 远程脚本以异步方式加载并执行(`<script>` 标记具有 `src` 属性)。
+
+重要说明：
+
+* at. js不提供对远程脚本执行顺序的任何保证，因为它们是异步加载的。
+* 随文脚本在远程脚本上不应有任何依赖关系，因为这些脚本在以后加载和执行。
+
 ## 培训视频：at.js 2.x 架构图
 
 at.js 2.x 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Cloud 解决方案集成。该视频介绍了如何将所有内容结合到一起。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=chi_hans)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+请参阅 [了解. js2.x的工作](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 原理以了解更多信息。

@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 8 月 9 日 | [at.js 的工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | 新增了部分：“at. js用HTML内容呈现选件”。 |
+|  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | 新增了部分：“注意事项”。 |
 | 2019年月日 | [预取选件内容](/help/c-target-mobile-app/prefetch-offer-content.md) | 添加了“自动Target”、“自动分配”和“自动个性化”活动类型不支持SDK中的抢占功能的功能。 |
 |  | [Analytics 与 Target 集成 (A4T) 故障诊断](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | 更新了说明，指示完成分类过程需要多长时间。 |
 |  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 更新了说明，指示完成分类过程需要多长时间。 |

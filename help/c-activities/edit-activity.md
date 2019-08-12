@@ -8,7 +8,7 @@ title: 编辑活动或另存为草稿
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![编辑图标](/help/c-activities/assets/hover_edit.png)
 
-   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
+   Target在Visual Experience Composer(CMS)中打开活动，您可以看到 [!UICONTROL 体验] 页面(在三步引导工作流程中的第一步)。
 
-1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. 根据需要，使用 [CMS选项编辑活动](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
 1. 单击拆分按钮以前进到下一步或保存活动。
 
@@ -59,6 +59,18 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
       * 单击&#x200B;**[!UICONTROL 保存]，可保存所做更改并停留在当前步骤，以便能够继续进行更改。**&#x200B;等待保存完成后，可进行其他更改。保存完成后，VEC 会重新加载以显示刷新的更改。
 
 
+
+## 使用在Adobe Target Classic中创建的传统活动 {#classic}
+
+[!UICONTROL 活动] 列表显示在各种来源中创建的活动， [!DNL Adobe Target Classic]包括使用中创建的传统活动时，可以使用以下操作 [!DNL Target Classic]：
+
+* [!UICONTROL 激活]
+* [!UICONTROL 停用]
+* [!UICONTROL 存档]
+* [!UICONTROL 复制]
+* [!UICONTROL 删除]
+
+不能直接编辑 [!DNL Target Classic] 活动。如果要编辑活动，则应创建活动 [!DNL Target Standard/Premium] 的副本，然后保存新创建的活动。
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 

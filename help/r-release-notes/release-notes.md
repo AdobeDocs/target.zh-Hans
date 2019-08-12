@@ -8,7 +8,7 @@ title: Target 发行说明（当前版本）
 topic: 推荐
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 51f52bb40a0af4dac63236d46e6d6f0286cbb877
+source-git-commit: 2588a7c251e58193b969d57f91a7c3f640318fbf
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 51f52bb40a0af4dac63236d46e6d6f0286cbb877
 
 有关分步说明和更多信息，请参阅 [授予Adobe I/O集成权限以访问工作区和分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。
 
-## 目标Mobile CMS SDK iOS2.1.0和Android1.1.0(2019年月日)
+## 目标Mobile CMS SDK iOS2.1.0和Android1.1.1(2019年月日)
 
 此版本的Mobile CMS SDK包含以下增强和修复：
 
@@ -43,6 +43,7 @@ source-git-commit: 51f52bb40a0af4dac63236d46e6d6f0286cbb877
 * 增加了在移动设备上预览“可视活动”的支持。(TGT-27875)
 * 修复了 `UIImagePickerController` 由于使用而导致Apple Standard违规的问题。
 * 删除了Android SDK中的GSON依赖关系。(TGT-31710)
+* 删除了其他多余的灰度依赖关系(TGT-35479)
 * 修复了在创作时无法重置交付选件的问题。(TGT-35270)
 
 ## Target Standard/Premium 19.7.1（2019 年 7 月 24 日）{#tgt-19-7-1}

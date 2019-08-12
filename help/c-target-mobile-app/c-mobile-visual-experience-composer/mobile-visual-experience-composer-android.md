@@ -8,7 +8,7 @@ title: Android - 设置移动设备应用程序
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2588a7c251e58193b969d57f91a7c3f640318fbf
 
 ---
 
@@ -25,18 +25,17 @@ Adobe Target 移动设备应用程序可视化体验编辑器 (VEC) 允许开发
 1. 在依赖关系部分添加以下行：
 
    ```
+   implementation 'com.adobe.marketing.mobile:target:1.+'
    implementation 'com.adobe.marketing.mobile:target-vec:1.+'
    ```
 
 1. 移动设备应用程序 VEC 要求在 `build.gradle` 中作为依赖项包含以下工件。
 
    ```
-    implementation 'com.google.code.gson:gson:2.8.2'
     implementation 'android.arch.lifecycle:extensions:1.1.1'
-    implementation('io.github.sac:SocketclusterClientJava:1.7.5')
-    implementation 'com.android.support:support-annotations:28.0.0'
+    implementation 'io.github.sac:SocketclusterClientJava:1.7.5'
     implementation 'com.android.support:support-compat:28.0.0'
-    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:support-fragment:28.0.0'
    ```
 
 1. 在 `AndroidManifest.XML` 文件中添加一个意图筛选器，为移动设备应用程序 VEC 创作选择唯一的深层链接方案（例如，`[sdkbetabus://com.adobe.sdkbetabus](sdkbetabus://com.adobe.sdkbetabus)`）：
@@ -77,12 +76,7 @@ Adobe Target 移动设备应用程序可视化体验编辑器 (VEC) 允许开发
                Identity.registerExtension();
                Lifecycle.registerExtension();
                Signal.registerExtension();
-               MobileCore.start(new AdobeCallback () {
-                  @Override
-                  public void call(Object o) {
-                     MobileCore.configureWithAppID("launch-EN4e833d644d1949e39e985ddad4f52bd4-development");
-                  }
-               });
+               MobileCore.start(null);
            } catch (InvalidInitException e) { 
              .. 
            }
@@ -305,7 +299,7 @@ TargetVEC.targetView("SURPRISE_VIEW",
    public static void prefetchOffersBackground();
    ```
 
-## Tutorial: Implement the Experience Cloud in Mobile Android Applications {#tutorial}
+## 教程：在Mobile Android应用程序中实施Experience Cloud {#tutorial}
 
 * [在Mobile Android应用程序中实施Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
 

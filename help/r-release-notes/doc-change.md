@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 ---
 
@@ -21,6 +21,9 @@ source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019年月12日 | [Android - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 更新了有关依赖关系和伪像的信息。<br>更新 `AndroidManifest.XML` 了文件的代码范例。 |
+|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 更新了“Target Mobile CMS iOS2.1.0和Android1.1.1”部分中增强和修复的列表。 |
+|  | [编辑活动或另存为草稿](/help/c-activities/edit-activity.md#classic) | 新增了部分：“使用在Adobe Target Classic中创建的传统活动”。 |
 | 2019 年 8 月 9 日 | [at.js 的工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | 新增了部分：“at. js用HTML内容呈现选件”。 |
 |  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | 新增了部分：“注意事项”。 |
 | 2019年月日 | [预取选件内容](/help/c-target-mobile-app/prefetch-offer-content.md) | 添加了“自动Target”、“自动分配”和“自动个性化”活动类型不支持SDK中的抢占功能的功能。 |

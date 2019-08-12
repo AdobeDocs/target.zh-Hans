@@ -9,7 +9,7 @@ title: 实施 Target
 topic: Standard
 uuid: 08482171-73c0-4816-bf4d-4571d92f04ab
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 ---
 
@@ -21,5 +21,5 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 + [实施之前](c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
 + [客户端 Web 实施](c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 + [移动设备应用程序实施](/help/c-target-mobile-app/target-mobile-app.md)
-+ [服务器端实施](c-api-and-sdk-overview/target-api-documentation.md)
++ [服务器端实施](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
 + [电子邮件实施](c-non-javascript-based-implementation/non-javascript-based-implementation.md)

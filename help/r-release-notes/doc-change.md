@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2019 年 8 月 14 日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了文本并添加了培训视频链接。 |
+|  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | 更新了“布局&gt;移动”部分中的信息。 |
 | 2019年月12日 | [Android - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 更新了有关依赖关系和伪像的信息。<br>更新 `AndroidManifest.XML` 了文件的代码范例。 |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 更新了“Target Mobile CMS iOS2.1.0和Android1.1.1”部分中增强和修复的列表。 |
 |  | [编辑活动或另存为草稿](/help/c-activities/edit-activity.md#classic) | 新增了部分：“使用在Recommendations Classic中创建的传统活动”。 |

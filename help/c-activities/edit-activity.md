@@ -8,7 +8,7 @@ title: 编辑活动或另存为草稿
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 ---
 
@@ -60,9 +60,9 @@ source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 
 
-## 使用在Adobe Target Classic中创建的传统活动 {#classic}
+## 使用Recommendations Classic中创建的传统活动 {#classic}
 
-[!UICONTROL 活动] 列表显示在各种来源中创建的活动， [!DNL Adobe Target Classic]包括使用中创建的传统活动时，可以使用以下操作 [!DNL Target Classic]：
+[!UICONTROL 活动] 列表显示在各种来源中创建的活动， [!DNL Recommendations Classic]包括使用中创建的传统活动时，可以使用以下操作 [!DNL Recommendations Classic]：
 
 * [!UICONTROL 激活]
 * [!UICONTROL 停用]
@@ -70,7 +70,7 @@ source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 * [!UICONTROL 复制]
 * [!UICONTROL 删除]
 
-不能直接编辑 [!DNL Target Classic] 活动。如果要编辑活动，则应创建活动 [!DNL Target Standard/Premium] 的副本，然后保存新创建的活动。
+不能直接编辑 [!DNL Recommendations] 活动。如果要编辑活动，则应创建活动 [!DNL Target Premium] 的副本，然后保存新创建的活动。随后，可以根据需要编辑新创建的活动。
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 

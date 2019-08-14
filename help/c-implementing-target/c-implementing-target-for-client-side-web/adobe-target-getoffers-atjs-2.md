@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 | 键值 | 类型 | 必需？ | 描述 |
 | --- | --- | --- | --- |
-| consumerId | 字符串 | 否 | 如果未提供，则默认值为客户端的全局 mbox。可使用此键值生成用于 A4T 集成的补充数据 ID。 |
+| consumerId | 字符串 | 否 | 如果未提供，则默认值为客户端的全局 mbox。可使用此键值生成用于 A4T 集成的补充数据 ID。此键是每个访客唯一的字符串。 |
 | request | 对象 | 是 | 请参阅下文的“请求”表。 |
 | timeout | 数值 | 否 | 请求超时。如果未指定，将使用默认的 at.js 超时值。 |
 

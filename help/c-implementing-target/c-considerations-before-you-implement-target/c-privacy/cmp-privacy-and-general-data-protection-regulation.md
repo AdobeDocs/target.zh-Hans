@@ -8,7 +8,7 @@ title: 隐私和数据保护规定
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -37,7 +37,9 @@ As the Data Controller, you determine the personal data that [!DNL Adobe] proces
 
 ## California Consumer Privacy Act(CPA)概述
 
-加利福尼亚州消费者隐私法案(CPA)为加利福尼亚消费者提供有关其个人信息的新权利，并为在加利福尼亚开展业务的某些实体施加数据保护职责。在较高级别上，法律为加利福尼亚州提供几项主要权利，包括：
+加利福尼亚州消费者隐私法案(CPA)为加利福尼亚消费者提供有关其个人信息的新权利，并为在加利福尼亚开展业务的某些实体施加数据保护职责。CPA将于2020年月日生效。
+
+在较高级别上，法律为加利福尼亚州提供几项主要权利，包括：
 
 * 请求信息(数据访问)
 * 选择退出销售个人信息(被广泛定义的权利决定退出与第三方共享信息)

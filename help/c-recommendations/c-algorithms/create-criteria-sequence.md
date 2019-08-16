@@ -10,7 +10,7 @@ topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -91,3 +91,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    ![](assets/CriteriaSequenceCard.png)
 
    有关推荐逻辑选项的更多信息，请参阅[标准](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
+
+## 培训视频：在Recommendations中创建标准(12：33)
+
+此视频包含以下信息：
+
+* 创建标准
+* 创建标准序列
+* 上传自定义标准
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=chi_hans)

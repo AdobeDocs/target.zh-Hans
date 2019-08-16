@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
    ![创建推荐活动](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
-1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+1. 如有必要，请选择 **[!UICONTROL 视觉(默认)]**。
 
    ![“创建推荐活动”对话框](/help/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
 
@@ -31,13 +31,13 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
    >[!NOTE]
    >
-   >除了CMS和基于表单的Experience Composer之外，Target还提供单页应用程序CMS和CMS for Mobile Apps。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >除了CMS和基于表单的Experience Composer之外，Target还提供单页应用程序CMS和CMS for Mobile Apps。有关各种书写器的更多信息，请参阅 [体验和选件](/help/c-experiences/experiences.md)。
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您看不到此选项，则您的组织有Target Standard许可证。]
+   >the[！上一插图中的UICCONTRL [选择工作场所](/help/administrating-target/c-user-management/property-channel/property-channel.md) 选项是 [Target Premium](/help/c-intro/intro.md) 功能。如果您看不到此选项，则您的组织有Target Standard许可证。]
 
-1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (视情况而定)如果您是 [Target Premium客户，](/help/c-intro/intro.md#premium)请选择 [工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 1. 指定活动 URL，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
@@ -170,3 +170,7 @@ source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 1. （可选）打开“[!UICONTROL 冲突]”页面以查看可能会发生的任何[活动冲突](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html)。
 
    如果设置了多个活动来向同一个页面交付内容，则会发生活动冲突，这可能导致页面显示意外内容。
+
+## 培训视频：创建推荐活动(7：15)
+
+>[!VIDEO](https://video.tv.adobe.com/v/27688?captions=chi_hans)

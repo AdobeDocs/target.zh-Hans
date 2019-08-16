@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: b892660e52bdec1e64dcbe2c8dc18ace26ae2910
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -457,3 +457,13 @@ The Recently Purchased Items criteria now returns results specific to a given [e
 由于内容相似度使用关键字来比较项目，因此某些属性（例如“消息”**&#x200B;或“描述”**）可能会在比较中引入“干扰信息”。您可以创建规则来忽略这些属性。
 
 默认情况下，所有属性都设置为“基准线”**。除非您要更改此设置，否则无需创建规则。
+
+## 培训视频：在Recommendations中创建标准(12：33)
+
+此视频包含以下信息：
+
+* 创建标准
+* 创建标准序列
+* 上传自定义标准
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=chi_hans)

@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -92,3 +92,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 凭据错误 | 请提供服务器上某个活跃帐户的有效用户名和密码。 |
 | 未找到目录 | 请提供服务器上存在的目录。 |
 | 未找到文件 | 请提供服务器上所指示目录中存在的文件名称。 |
+
+## 培训视频：在Recommendations中创建标准(12：33)
+
+此视频包含以下信息：
+
+* 创建标准
+* 创建标准序列
+* 上传自定义标准
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=chi_hans)

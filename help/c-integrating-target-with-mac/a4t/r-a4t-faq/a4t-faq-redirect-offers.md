@@ -8,7 +8,7 @@ title: 重定向选件 - A4T 常见问题解答
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 有些数据差异是预期行为。有关更多信息，请参阅[使用和不使用 A4T 时，Target 和 Analytics 之间的预期数据差异](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)。
 
-## 为何有时会同时计入原始页面和重定向页面上的查看次数？ {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## 为何有时会同时计入原始页面和重定向页面上的查看次数？{#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 在. js版本1.6.3或更高版本中使用时，这不是问题。此竞争条件仅影响使用早期版本的客户。Target团队维护两个版本的. js：当前版本和第二个最新版本。Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
@@ -49,7 +49,7 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 为加快页面重定向的速度，建议使用基于表单的编辑器来构建重定向活动。这是因为页面中代码执行的位置需使用基于表单的编辑器。此外，还建议为每个体验各创建一个重定向选件，甚至对默认体验（在默认体验中重定向会返回原始页面）也是如此。这样做可确保计数错误如若发生，便会发生在所有体验中，因此报表和分析对于测试仍然有效。
 
-您可能希望对活动中的所有体验(包括默认(控制)体验)使用重定向选件，这是为了对所有体验施加相同的条件。例如，如果默认体验没有重定向选件，但其他体验具有重定向选件，则无需重定向选件就可以加快体验的速度。推荐重定向选件仅适用于临时场景，如测试。对于永久场景，如个性化，不建议重定向选件。在确定“优胜者”后，您应删除重定向以提高页面加载性能。
+您可能希望对活动中的所有体验(包括默认(控制)体验)使用重定向选件的一个原因是为所有体验提供相同的条件。例如，如果默认体验没有重定向选件，但其他体验具有重定向选件，则无需重定向选件就可以加快体验的速度。推荐重定向选件仅适用于临时场景，如测试。对于永久场景，如个性化，不建议重定向选件。在确定“优胜者”后，您应删除重定向以提高页面加载性能。
 
 For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 

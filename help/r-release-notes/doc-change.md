@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -22,6 +22,14 @@ source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2019 年 8 月 16 日 | [mbox3rdPartyID 的实时配置文件同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 新增了部分：“注意事项”。 |
+|  | [创建“推荐”活动](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | 添加了培训视频。 |
+|  | [信息源](/help/c-recommendations/c-products/feeds.md) | 添加了培训视频。 |
+|  | [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 添加了培训视频。 |
+|  | [上传自定义标准](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 添加了培训视频。 |
+|  | [创建标准序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | 添加了培训视频。 |
+|  | [创建设计](/help/c-recommendations/c-design-overview/create-design.md) | 添加了培训视频。 |
+|  | [收藏集](/help/c-recommendations/c-products/collections.md) | 添加了培训视频。 |
+|  | [排除项](/help/c-recommendations/c-products/exclusions.md) | 添加了培训视频。 |
 | 2019 年 8 月 14 日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了文本并添加了培训视频链接。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 了解 `consumerID` 有关密钥的信息。 |
 |  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | 更新了“布局&gt;移动”部分中的信息。 |
@@ -331,7 +339,7 @@ source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 |  | [不通过标签管理器实施 Target](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | 更新了所有章节。添加了新章节：at.js 实施。 |
 |  | 版本 18.10.1 [发行说明](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
-## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 26 日）{#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
+## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 26 日） {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
 <table id="table_0348AA29207D48A4BDFFA187F4F845B7"> 
  <thead> 

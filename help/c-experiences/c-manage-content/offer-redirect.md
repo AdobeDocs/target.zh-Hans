@@ -1,14 +1,14 @@
 ---
 description: 重定向选件会使浏览器重定向到一个新的页面。
 keywords: 重定向选件;创建重定向选件;添加 HTML 选件;在重定向中传递所有 URL 参数;在重定向中传递 mboxSessionId（仅当要重定向到其他域时才需使用此功能）
-seo-description: 重定向选件会使浏览器重定向到一个新的页面。
+seo-description: 有关Adobe Target中重定向选件的信息，可导致浏览器重定向到新页面。
 seo-title: 创建重定向选件
 solution: Target
 title: 创建重定向选件
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 
 ---
 
@@ -22,8 +22,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >[!NOTE] {class="- topic/note "}
 >
 >您不能在 ajax mbox 中使用重定向选件 (`mboxUpdate`)。
-
->[!NOTE]
 >
 >对于使用了 A4T 的活动中所包含的重定向选件，您的实施必须满足某些最低要求。除此之外，还有一些重要信息需要您知悉。有关更多信息，请参阅[重定向选件 - A4T 常见问题解答](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
 

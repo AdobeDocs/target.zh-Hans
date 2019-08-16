@@ -10,7 +10,7 @@ topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -47,3 +47,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >设计中可引用（无论是以硬编码方式引用还是通过循环引用）的最大实体数为 99。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+## 培训视频：在Recommendations中创建自定义设计(3：20)
+
+此视频包含以下信息：
+
+* 创建自定义设计
+* 了解如何在设计中引用显示变量
+
+>[!VIDEO](https://video.tv.adobe.com/v/27687?captions=chi_hans)

@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -279,7 +279,7 @@ recs/t_feeds_create.xml
 | 正在等待下载 | Target 正准备下载信息源文件。 |
 | 正在下载信息源文件 | Target 正在下载信息源文件。 |
 | 正在导入项目 | Target 正在从信息源文件中导入项目。 |
-| Feed Imported Successfully at *time* | Target已将源文件导入其内容交付系统。在内容交付系统中对项目属性进行了更改，并将很快反映在提交的建议中。如果看不到预期的更改，请稍后重试并刷新包含推荐的页面。<br>*注意1：* 如果对项目属性的更改导致项目被排除，则排除将立即反映出来。If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*注意2：* 显示此状态后，更新可能尚不反映在目录搜索用户界面中。目录搜索中会列出一个单独的状态，该状态指示可搜索的目录上次更新的时间。 |
+| 实时导入 *的源成功导入* | Target已将源文件导入其内容交付系统。在内容交付系统中对项目属性进行了更改，并将很快反映在提交的建议中。如果看不到预期的更改，请稍后重试并刷新包含推荐的页面。<br>*注意1：* 如果对项目属性的更改导致项目被排除，则排除将立即反映出来。如果新添加了项目或对属性所做的更改导致项目不再被排除 *在建议* 之外，则该项目将直到下一个算法更新后才会反映出来，该更新将在24小时内进行。<br>*注意2：* 显示此状态后，更新可能尚不反映在目录搜索用户界面中。目录搜索中会列出一个单独的状态，该状态指示可搜索的目录上次更新的时间。 |
 | 未能编入索引 | 索引操作失败。请重试。 |
 | 未找到服务器 | FTP 或 URL 位置无效或无法访问。 |
 
@@ -314,3 +314,25 @@ recs/t_feeds_create.xml
 * 2 月 3 日：现在是上午 10 点，信息源已有一个月加一天零一小时没有运行
 
 状态应为黄色，因为索引原本应在大约一天零一小时之前运行。虽然这只是频率设置的 (31+(1/25))/30 = 1.03%，但它超过了延迟一天的最大值。
+
+## 培训视频
+
+以下视频包含有关本文中所讨论概念的详细信息。
+
+### 了解Recommendations中的源(3：01)
+
+此视频包含以下信息：
+
+* 了解源的用途
+* 了解源的值
+
+>[!VIDEO](https://video.tv.adobe.com/v/27695?captions=chi_hans)
+
+### 创建源(6：44)
+
+此视频包含以下信息：
+
+* 设置源
+* 了解要使用哪种类型的源
+
+>[!VIDEO](https://video.tv.adobe.com/v/27696?captions=chi_hans)

@@ -9,14 +9,14 @@ title-outputclass: premium
 topic: Premium
 badge: premium
 translation-type: tm+mt
-source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
+source-git-commit: b487392873f18899168ed5aab3963b7e75614cf7
 
 ---
 
 
 # ![高级推荐简介](/help/assets/premium.png)
 
-The text in this article comes from the *Introduction to Recommendations* webinar, which you can view in its entirety below.
+本文全文来自Recommendations的 *简介* 网络研讨会，您可以在下面全文查看。
 
 *推荐* 网络研讨会简介包括深入探索如何利用 [!DNL Adobe Target Recommendations]价值。了解此 [!DNL Target] 活动如何通过基于先前的访问优化实时建议来自动显示客户可能感兴趣的产品或内容。此外，深入了解 [!DNL Target] UI，获取有关如何构建 [!DNL Recommendations] 活动的分步概述。
 
@@ -32,7 +32,7 @@ The text in this article comes from the *Introduction to Recommendations* webina
 
 ![展示数字优先品牌的建议](/help/c-recommendations/assets/intro-2.png)
 
-Marketers use [!DNL Adobe Target] to drive personalized experiences across a wide variety of industries, customer types, and channels.
+营销人员可以在 [!DNL Adobe Target] 各种行业、客户类型和渠道中推动个性化体验。
 
 [!DNL Adobe Target] 随时随地提供个性化内容。
 
@@ -41,9 +41,11 @@ Marketers use [!DNL Adobe Target] to drive personalized experiences across a wid
 * **发布**：Web出版商使用 [!DNL Target Recommendations] 向网站访客推荐文章并推动提高参与度。
 * **视频教程**： [!DNL Adobe Creative Cloud] 用于 [!DNL Target] 向Photoshop应用程序中的Photoshop用户推荐视频教程。
 * **游戏**：游戏公司使用 [!DNL Target] 在控制台上向用户推荐游戏和内容的方式。
-* **B2B销售**：企业对公司的公司将 [!DNL Target] 视频、白皮书和博客帖子推荐给B2B潜在客户；提供下载；并为现有客户提供帮助(https://theblog.adobe.com/testing-shifts-high-gear-intel)。
-* **旅行**：一位德国旅行预订商使用 [!DNL Target] 推荐酒店等方式向旅游者推荐酒店(https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
-* **零售**&#x200B;业：一家领先的B2B零售商使用 [!DNL Target] 推荐的顶级类别和产品在浏览器和移动应用程序(https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/))中返回访客。
+* **B2B销售**： [B2 B公司使用Target向B2B潜在客户推荐视频、白皮书和博客帖子；提供下载；并为现有客户](https://theblog.adobe.com/testing-shifts-high-gear-intel)提供帮助。
+
+* **旅行**： [一位德国旅行预订商使用Target推荐酒店及其他酒店](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
+
+* **零售**&#x200B;业： [一家领先的B2B零售商使用Target推荐顶级类别和产品在浏览器和移动应用程序中返回访客](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)。
 
 这只是客户使用Target提供个性化推荐的几种方式。
 
@@ -67,23 +69,23 @@ Marketers use [!DNL Adobe Target] to drive personalized experiences across a wid
 * **您要在何处显示推荐？** 接下来，思考您希望在何处提出建议。广泛的频道(网络、移动、店内、亭亭等)。客户旅程中的哪些部分包含推荐？您网站上的哪些页面包含推荐？
 * **您将如何确定推荐是否成功？** 假定您拥有没有推荐的体验和具有推荐的体验，或者有两种不同类型的推荐。您如何确定为客户提供更好体验的体验？某些指标可能比其他指标更为困难。例如，通常难以直接得出对客户终身价值的影响。因此，通常更容易获得抽象指标和更可靠的指标，例如，每次访问的收入、平均订单值或点击次数。在某些情况下，您可能希望最小化某个指标，例如支持调用数。
 
-After you come up with your strategy, you are ready to start the implementation of [!DNL Target Recommendations].
+在您制定战略后，您可以开始 [!DNL Target Recommendations]实施。
 
 创建推荐实施涉及三大步骤：
 
 ![说明创建推荐实施步骤的插图](/help/c-recommendations/assets/intro-6.png)
 
-1. Teach [!DNL Target] about your context or products.
+1. 讲授 [!DNL Target] 您的情境或产品。
 1. 捕获用户行为。
 1. 使用正确的情境获取推荐。
 
-### Teach [!DNL Target] about your context or products
+### 讲授 [!DNL Target] 您的情境或产品
 
-When you start with [!DNL Recommendations], you pass information about every item you want to recommend. [!DNL Target] 提供了若干用于创建目录的集成选项。
+从开始 [!DNL Recommendations]时，您会传递有关要推荐的每个项目的信息。[!DNL Target] 提供了若干用于创建目录的集成选项。
 
 ![说明如何讲授有关上下文或产品的Target的插图](/help/c-recommendations/assets/intro-7.png)
 
-最简单、最常用的方法是每天或每周从产品信息管理系统或内容管理系统发送CSV文件。But you can also pass information on the data layer from your page using the [!DNL Adobe Target] Javascript library, leverage our APIs to pass information directly from your source system, or use our [!DNL Adobe Analytics] integration if you are already passing catalog data to [!DNL Analytics].
+最简单、最常用的方法是每天或每周从产品信息管理系统或内容管理系统发送CSV文件。但您还可以使用 [!DNL Adobe Target] Javascript库从页面中通过数据层传递信息，利用API直接从源系统传递信息，或者如果您已经将目录数据传递给了 [!DNL Adobe Analytics] 我们 [!DNL Analytics]，则使用我们的集成。
 
 有时，您可能希望结合使用多个选项，例如，每天通过CSV文件传递大多数数据并通过API更频繁地传递库存更新。
 
@@ -99,25 +101,25 @@ When you start with [!DNL Recommendations], you pass information about every ite
 
 ### 捕获用户行为
 
-Next, you should add tags or leverage you existing [!DNL Analytics] implementation to track the conversion events (such as views and purchases) that drive [!DNL Target] algorithms.
+接下来，您应该添加标签或利用现有 [!DNL Analytics] 实施来跟踪驱动 [!DNL Target] 算法的转化事件(如视图和购买)。
 
 ![说明如何捕获用户行为的插图](/help/c-recommendations/assets/intro-9.png)
 
-You need to ensure that [!DNL Target] is aware of the items that your users are viewing and purchasing. 如果购买与上下文无关，则可能需要跟踪不同类型的转换事件，例如，下载PDF、完成调查、订阅新闻稿、观看视频等等。
+您需要确保 [!DNL Target] 了解用户在查看和购买的项目。如果购买与上下文无关，则可能需要跟踪不同类型的转换事件，例如，下载PDF、完成调查、订阅新闻稿、观看视频等等。
 
-If you are already using [!DNL Target] to run A/B Tests activities on your site, you might have already completed this step. Or if you are already using [!DNL Adobe Analytics] to report on site visits and conversion behavior, you can use [!DNL Analytics] as your behavioral datasource. If not, it’s easiest to set this up using a tag manager such as [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). It’s also possible to send offline or in-app interactions to [!DNL Target] via real-time API.
+如果您已经在使用 [!DNL Target] 站点上运行A/B测试活动，则可能已经完成了此步骤。或者，如果您已经使用 [!DNL Adobe Analytics] 网站访问和转化行为报告，则可用作 [!DNL Analytics] 行为数据源。如果没有，最简单的方法是使用Adobe [Launch等标签管理器设置此设置](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。也可以通过实时API将离线或应用程序内 [!DNL Target] 交互发送到。
 
 ### 使用正确的上下文获取推荐
 
-Pass information about the user and context at the point of interaction to [!DNL Target] to return relevant and personalized recommendations.
+在互动点传递有关用户和情境的信息， [!DNL Target] 以返回相关和个性化推荐。
 
 ![显示如何使用正确的上下文获取推荐的插图](/help/c-recommendations/assets/intro-10.png)
 
-Besides user behavior in aggregate, you need to pass [!DNL Target] the specific context where recommendations are being shown. 这包括有关页面的信息和来自用户配置文件的信息。[!DNL Target] 使用此信息进行个性化推荐。例如，在零售网站上，您要了解访客当前正在查看的产品和产品类别。您还希望了解有关该用户的信息(最喜爱的品牌、最喜爱的产品类别、忠诚度等级等)。This information is important so that [!DNL Target] can filter items and improve the personalization of recommendations.
+除了用户行为之外，您还需要传递 [!DNL Target] 推荐所在的特定上下文。这包括有关页面的信息和来自用户配置文件的信息。[!DNL Target] 使用此信息进行个性化推荐。例如，在零售网站上，您要了解访客当前正在查看的产品和产品类别。您还希望了解有关该用户的信息(最喜爱的品牌、最喜爱的产品类别、忠诚度等级等)。此信息非常重要，因此 [!DNL Target] 可以过滤项目并改进推荐的个性化。
 
 ## 构建您的第一个推荐活动
 
-What is a [!DNL Recommendations] activity?
+什么是 [!DNL Recommendations] 活动？
 
 ![显示推荐活动的部分的插图](/help/c-recommendations/assets/intro-11.png)
 
@@ -129,7 +131,7 @@ What is a [!DNL Recommendations] activity?
 
 ![展示推荐活动的说明：受众、标准和设计](/help/c-recommendations/assets/intro-12.png)
 
-Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. 您可以自定义每个项目或添加自己的项目。We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 本节侧重于定义标准，定义推荐的项目。
+开箱即用， [!DNL Target] 包括14个内置受众、42个内置标准和10个内置设计模板。您可以自定义每个项目或添加自己的项目。我们曾在上举办 [有关构建受众](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) 的网络研讨 [!DNL Target]会。本节侧重于定义标准，定义推荐的项目。
 
 Target使用标准卡的概念。标准卡类似于个性化的菜谱。
 
@@ -139,7 +141,7 @@ Target使用标准卡的概念。标准卡类似于个性化的菜谱。
 
 ![漏斗插图](/help/c-recommendations/assets/intro-14.png)
 
-The following sections describe the various parts of this funnel and how they work in [!DNL Target]:
+以下部分介绍了该漏斗的各个部分及其在 [!DNL Target]以下方面的工作方式：
 
 ### 静态过滤器(集合和排除)
 
@@ -173,7 +175,7 @@ The following sections describe the various parts of this funnel and how they wo
 * 购买此商品的客户还购买了这些物品
 * 自定义属性
 
-Out of the box, [!DNL Target] includes a portfolio of algorithms.
+开箱即用， [!DNL Target] 包括一系列算法。
 
 ![算法插图组合](/help/c-recommendations/assets/intro-15.png)
 
@@ -193,7 +195,7 @@ Out of the box, [!DNL Target] includes a portfolio of algorithms.
 
 ## Demo
 
-完成推荐漏斗中介绍的任务后，将保留最终推荐。To watch an in-product demonstration inside [!DNL Target], the demo begins at 21:00 in the *Adobe Target Basics Webinar*, linked to below.
+完成推荐漏斗中介绍的任务后，将保留最终推荐。要观看内部 [!DNL Target]演示中的演示，演示将于Adobe *Target基础知识网络研讨会* 21：00开始，链接到下面。
 
 ## Adobe Target 基础知识网络研讨会：Recommendations 简介{#intro-to-recs}
 

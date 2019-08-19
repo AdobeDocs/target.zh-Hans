@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 83da8c014f46f9b5e2d17dc616097b59050f2549
 
 ---
 
@@ -225,6 +225,7 @@ recs/t_feeds_create.xml
    * FTP和FTPS必须设置为使用被动FTP。
    * 对于FTPS，将服务器配置为接受显式FTPS连接。
    * 不支持SFTP。
+   * 您可以手动指定启动连接的端口(例如ftp://ftp.yoursite.com:2121))。如果未指定端口，则使用默认FTP或FTPS端口。
    如果您选择 URL，请指定 URL。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;箭头以显示[!UICONTROL 计划]选项。

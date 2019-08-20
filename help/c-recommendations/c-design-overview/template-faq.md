@@ -10,7 +10,7 @@ topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ---
 
@@ -18,6 +18,20 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # ![PREMIUM](/help/assets/premium.png) 设计常见问题解答{#design-faq}
 
 有关“推荐”设计的常见问题解答 (FAQ) 列表。
+
+## 我推荐的项目的价格不会显示小数点右侧的两个值。如何显示它们？
+
+默认情况下，设计模板中返回的数字值(如 `entity.value`)不会在小数点之后显示任何尾部零。例如，如果某项为$35.00， `entity.value` 则等于35，则仅显示35个，而非$35.00。
+
+有两个选项可用于解决此问题。
+
+* 您可以使用“速度脚本”或“Javascript”将格式应用于返回的值。
+
+* 您可以将项目的价格传递给两个单独的实体属性。第一 `entity.value`种方法可用于数值比较(如价格比较规则)。第二个应该是自定义属性，如 `entity.displayValue` 将实体的值存储为字符串以允许正确呈现。
+
+   例如：
+
+   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
 ## 设计中为何没有显示类别？我使用的是 $entity1.categoryId。{#section_073309B8051049C7953D396A93EA0713}
 

@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
+source-git-commit: dcfc016a703ac964876629b353c68a2cd8351ca5
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2019年月20日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 推迟了Target/Premium19.8.1版本(2019年月20日)。此版本中的内容将被回滚到19.9.1版本(2019年月24日)。 |
+|  | [设计常见问题解答](/help/c-recommendations/c-design-overview/template-faq.md) | 添加了以下常见问题解答：“我推荐物品的价格不会显示小数点右侧的两个值。如何显示它们？” |
 | 2019 年 8 月 16 日 | [mbox3rdPartyID 的实时配置文件同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 新增了部分：“注意事项”。 |
 |  | [创建“推荐”活动](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | 添加了培训视频。 |
 |  | [信息源](/help/c-recommendations/c-products/feeds.md) | 添加了培训视频。 |

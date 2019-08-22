@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 
 ---
 
@@ -72,7 +72,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
    >
    >自定义标准实体（行）最多可包含 1,000 个推荐项目（列）。
 
-自定义标准更新默认为“累计”。CSV 上传文件中指定的新键值对会覆盖现有的键值对。如果现有键值对不具有在 CSV 上传中指定的键，则这些键值对仍可用于交付。
+自定义标准更新默认为“累计”。CSV 上传文件中指定的新键值对会覆盖现有的键值对。CSV上传中未指定的现有密钥值对仍可供交付，并将在自上次上传作为CSV文件一部分的31天后过期。
 
 要使设置能够放弃下一次 CSV 上传中未包含的现有结果，请与客户关怀团队联系。如果启用此设置，则只有自定义 CSV 信息源文件中存在的键才可用于交付。此设置适用于所有自定义标准。
 

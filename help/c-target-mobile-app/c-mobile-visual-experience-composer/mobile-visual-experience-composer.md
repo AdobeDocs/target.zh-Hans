@@ -7,7 +7,7 @@ title: 移动设备应用程序可视化体验编辑器
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
+source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
 | 过程 | 详细信息 |
 |--- |--- |
 | 配对 | 安全地授权您的移动设备应用程序和设备可以与 Target 配合使用。每个设备只需执行该步骤一次即可。 |
-| 创作 | 创作[Target 活动](/help/c-activities/activities.md)，实时预览在 Target UI 中执行的操作。 |
+| 创作 | 创作 [Target 活动](/help/c-activities/activities.md)，实时预览在 Target UI 中执行的操作。 |
 | 交付 | Target 在您的本机移动设备应用程序中自动交付活动。 |
 
 **配对:**
@@ -61,7 +61,7 @@ source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
 
    可以通过启动应用程序并打开创作界面来重新连接已配对的设备。
 
-**创作：**
+**创作:**
 
 连接应用程序并在 VEC 中显示应用程序的实时视图后，您可以开始创作活动。目前支持以下操作：
 
@@ -77,11 +77,11 @@ source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
 
 **管理多个应用程序版本**
 
-检测到新的应用程序版本时，将通知您已将应用程序版本添加到目标版本列表。
+当检测到新的应用程序版本时，系统将通知您已将该应用程序版本添加到目标版本列表。
 
-![新的应用程序通知](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
+![新应用程序通知](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
-可以从 [!UICONTROL “管理版本”] 对话框手动添加和删除多个移动应用程序版本。
+可以从“[!UICONTROL 管理版本]”对话框中手动添加和删除多个移动设备应用程序版本。
 
 ![“管理版本”对话框](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
 
@@ -191,30 +191,6 @@ Target VEC 扩展可通过网络请求，检索与您的应用程序相关的 Ta
 **移动设备应用程序 VEC 与我的移动设备应用程序不同步。**
 
 单击 VEC 中的“[!UICONTROL 刷新]”按钮以同步显示的内容。
-
-**我收到一个错误，表明我的“context. application. id”值包含禁止的字符。移动应用程序ID中允许哪些字符？**
-
-移动应用程序ID中允许的字符包括：
-
-| 允许的字符 | 描述 |
-| --- | --- |
-| 字母 |  |
-| 数量 |  |
-| `-` | 连字符 |
-| `.` | 句点 |
-| `,` | 逗号 |
-| `:` | 冒号 |
-| `#` | 数字符号 |
-| `(` | 左括号 |
-| `)` | 闭合括号 |
-| `&` | Ampersand |
-| `+` | 加号 |
-
-例如，使用不允许的字符( `'` )，您会收到以下错误消息：
-
-```
-Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
-```
 
 ## 已知限制 {#limitations}
 

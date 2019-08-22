@@ -8,7 +8,7 @@ title: 自定义参数
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
-1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
+1. 单击&#x200B;**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 自定义]**。
 
    要选择所需的参数，请执行以下操作：
 
@@ -33,10 +33,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    如果您编辑现有受众，则会显示筛选标准以及在创建期间提供的 mbox 名称。
 
-1. 选择评估器：
+1. 选取计算器：
 
    * 包含（不区分大小写）
-   * 不包含(区分大小写)
+   * 不包含（不区分大小写）
    * 等于
    ![自定义参数受众](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
@@ -49,6 +49,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >[!NOTE]
 >
 >对于在 Target 18.5.1 版本（2018 年 5 月 22 日）之前创建的自定义受众，mbox 名称不会显示在受众的定义弹出卡片中。必须重新保存自定义受众才能使 mbox 名称显示在该卡片中。
+
+## 注意事项 {#considerations}
+
+* 针对特定mbox评估受众和活动。如果全局mbox传递某个参数，但该区域mbox没有，则访客不符合该活动的条件。
 
 ## 培训视频：创建受众
 

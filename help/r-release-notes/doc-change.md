@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
+source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 8 月 23 日 | [Target 移动设备预览](/help/c-target-mobile-app/target-mobile-preview.md) | 更新了代码片断 `AndroidManifest.xml`。 |
+|  | [at. js插件](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) | 更新了Ttmeta行。不再支持此插件。请改用响应令牌。 |
 | 2019 年 8 月 22 日 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 删除了有关在移动应用程序ID中使用禁止字符的信息。不再限制。 |
 |  | [自定义参数](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 新增了部分：“注意事项”。 |
 |  | [上传自定义标准](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 更新后的句子：自定义条件更新默认为“累积”。CSV 上传文件中指定的新键值对会覆盖现有的键值对。CSV上传中未指定的现有密钥值对仍可供交付，并将在自上次上传作为CSV文件一部分的31天后过期。 |
@@ -344,7 +346,7 @@ source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
 |  | [不通过标签管理器实施 Target](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | 更新了所有章节。添加了新章节：at.js 实施。 |
 |  | 版本 18.10.1 [发行说明](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
-## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 26 日）{#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
+## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 26 日）  {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
 <table id="table_0348AA29207D48A4BDFFA187F4F845B7"> 
  <thead> 
@@ -518,7 +520,7 @@ source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
  </tbody> 
 </table>
 
-## Adobe Target Standard/Premium 18.8.1（2018 年 8 月 21 日）{#section_6A146EE91FFB49D1BA398B36817CD0A2}
+## Adobe Target Standard/Premium 18.8.1（2018 年 8 月 21 日）  {#section_6A146EE91FFB49D1BA398B36817CD0A2}
 
 <table id="table_F09AC99B587A4D6390B1F8AE54F5DC47"> 
  <thead> 

@@ -1,6 +1,6 @@
 ---
-description: 有关受支持和不受支持的 at.js 插件的信息。
-keywords: at.js 插件;受支持的插件;不受支持的插件；tmeta；ttmeta；mboxTrack
+description: Target中支持和不支持的. js插件的相关信息。
+keywords: at. js插件；支持的插件；不支持的插件；tmeta；ttmeta；mboxTrack
 seo-description: 有关Adobe Target支持和不支持的. js插件的信息。
 seo-title: at. js插件for Adobe Target
 solution: Target
@@ -8,14 +8,14 @@ title: at.js 插件
 topic: Standard
 uuid: ef36b2b2-bf6d-497e-b3f5-2b572a1b8a8d
 translation-type: tm+mt
-source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
+source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
 
 ---
 
 
 # at.js plug-ins{#at-js-plug-ins}
 
-有关受支持和不受支持的 at.js 插件的信息。
+Adobe Target中支持和不支持的. js插件的相关信息。
 
 很多人为 [!DNL mbox.js] 构建了自定义插件和响应插件。这些自定义插件若不更新，便可能不受 [!DNL at.js] 支持。
 
@@ -27,4 +27,4 @@ source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
 |--- |--- |
 | mboxTrack | 不受支持。<br>此插件已被 [adobe.target.trackEvent(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) 函数所取代。请更新您的插件以应用新函数。<br>请参阅[集成](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)页面。 |
 | 永久性配置文件备份插件 | 不受支持。<br>Target 配置文件生命周期从 2 周延长到 90 天后，此插件便已被弃用。请查看 mbox Cookie 的过期日期，以了解您帐户中的配置文件生命周期设置。<br>如果您希望将配置文件生命周期延长到 90 天，请联系客户关怀团队。 |
-| ttMeta | 不受支持。<br>[使用响应令牌](/help/administrating-target/response-tokens.md)代替此插件。 |
+| ttMeta | Old SiteCatalyst plugins should be disabled and replaced with [Adobe Analytics as the reporting source for Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). ttMeta 插件应停用并替换为 [Adobe Experience Cloud 调试器](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)。 |

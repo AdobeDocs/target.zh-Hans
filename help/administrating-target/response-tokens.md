@@ -9,7 +9,7 @@ title: 响应令牌
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ccc2d9c2de7013ecc2423af6905359ab99fd2269
 
 ---
 
@@ -281,6 +281,10 @@ Target 会定期刷新属性。任何未开启的属性都会在下次刷新时�
   } 
 </script>
 ```
+
+>[!NOTE]
+>
+>不再支持tetMeta插件。For more information, see [at.js plug-ins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md).
 
 ## 培训视频：响应令牌和 at.js 自定义事件{#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 

@@ -2,9 +2,9 @@
 product: Target
 audience: 最终用户
 user-guide-title: Adobe Target 帮助
-user-guide-url: /content/help/en/target/using/target-home.html
+user-guide-url: /content/help/zh-Hans/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: f54dba622e449fb8dac44cb37ff711419f8eda4b
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [企业用户权限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [配置企业权限](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [授予Adobe I/集成功能访问工作区和分配角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Dynamic Media经典集成](administrating-target/scene7-settings.md)
+   + [Dynamic Media Classic 集成](administrating-target/scene7-settings.md)
    + [主机](administrating-target/hosts.md)
    + [响应令牌](administrating-target/response-tokens.md)
 + 实施 Target {#implement-target}
@@ -55,7 +55,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [隐私概述](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [隐私和数据保护规定](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [删除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
-         + [Google Chrome SameSite Cookie策略](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
+         + [Google Chrome SameSite Cookie 策略](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple智能跟踪预防(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
       + 将数据导入 Target 的方法 {#methods}
          + [方法](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
@@ -74,7 +74,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [如何部署 at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
          + [使用 Adobe Launch 实施 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
          + [不通过标签管理器实施 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-         + [使用动态标签管理 (DTM) 实施 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+         + [使用 Dynamic Tag Management (DTM) 实施 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
          + [单页应用程序实施](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
       + at.js 函数 {#functions-overview}
          + [at.js 函数概述](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
@@ -90,7 +90,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
          + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
          + [registerExtension() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
-         + [sendNoSear()- at. js2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
+         + [sendNotifications() - at.js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
          + [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
          + [使用 Adobe Experience Cloud 调试器调试 at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
          + [结合使用基于云的实例和 Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
@@ -185,7 +185,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [目标和设置](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [使用 Analytics 数据](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [设置量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [A/B测试中的多个体验受众](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [A/B 测试中的多个体验受众](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 自动分配 {#auto-allocate}
       + [自动分配](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [确定入选者](c-activities/automated-traffic-allocation/determine-winner.md)
@@ -200,7 +200,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [预览自动个性化测试体验](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Target 自动个性化选件](c-activities/t-automated-personalization/ap-target-offers.md)
       + [管理排除项](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [为自动个性化或自动定位活动选择控制权](c-activities/t-automated-personalization/experience-as-control.md)
+      + [选择用于自动个性化或自动定位活动的控制](c-activities/t-automated-personalization/experience-as-control.md)
       + [自动个性化常见问题解答](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [共享体验 URL 以便在 Target 以外预览自动个性化](c-activities/t-automated-personalization/experience-preview.md)
       + [自动个性化故障诊断](c-activities/t-automated-personalization/ap-trouble.md)
@@ -239,12 +239,12 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
    + 活动故障诊断 {#troubleshoot-activities}
       + [活动故障诊断概述](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
       + [内容交付故障诊断](c-activities/c-troubleshooting-activities/content-trouble.md)
-   + 活动 QA{#activity-qa}。
+   + 活动 QA {#activity-qa}
       + [活动 QA 概述](c-activities/c-activity-qa/activity-qa.md)
       + [活动 QA 书签](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [在服务器端交付中使用活动 QA](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
    + [活动通知](c-activities/notifications.md)
-+ 受众{#audiences}
++ 受众 {#audiences}
    + [受众概述](c-target/target.md)
    + [定位工作原理](c-target/target-how-target-works.md)
    + 创建受众 {#create-audiences}
@@ -274,7 +274,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [配置文件属性](c-target/c-visitor-profile/profile-parameters.md)
       + [类别亲和度](c-target/c-visitor-profile/category-affinity.md)
       + [客户属性](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox3rdPartyID 的实时配置文件同步](c-target/c-visitor-profile/3rd-party-id.md)
+      + [mbox3 rdPartyId的实时配置文件同步](c-target/c-visitor-profile/3rd-party-id.md)
       + [配置文件和变量一览表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + 定位和受众常见问题解答 {#faq-audiences}
       + [定位和受众常见问题解答](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)

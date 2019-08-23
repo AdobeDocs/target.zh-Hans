@@ -1,6 +1,6 @@
 ---
 description: Target 系统图显示了使用 at.js 为自动创建的全局 mbox 发送或收集调用和信息的流程。
-keywords: 系统图;闪烁;Target Standard;at.js;实施
+keywords: 系统图;闪烁;Target Standard;at.js;实施；javascript库；js
 seo-description: Adobe Target 系统图显示了使用 at.js 为自动创建的全局 mbox 发送或收集调用和信息的流程。
 seo-title: Adobe Target at.js 的工作原理
 solution: Target
@@ -8,7 +8,7 @@ title: at.js 的工作原理
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 | 步骤 | 详细信息 |
 | --- | --- |
 | 1 | 如果用户通过了身份验证，则调用会返回 [!DNL Experience Cloud ID]；另一调用会同步客户 ID。 |
-| 2 | at.js 库会同步加载，并隐藏文档正文。<br>at. js还可以异步加载在页面上实现的可选预隐藏片段。 |
+| 2 | at.js 库会同步加载，并隐藏文档正文。<br>也可以选择预先隐藏页面上实施的代码段，以异步方式加载 at.js。 |
 | 3 | 将会发出页面加载请求，其中包括已配置的所有参数（例如，MCID、SDID 和客户 ID）。 |
 | 4 | 配置文件脚本在执行后进入配置文件存储区。存储区向受众库请求符合条件的受众（例如从 Adobe Analytics、Audience Management 等共享的受众）。<br>客户属性会以批量过程发送到配置文件存储区。 |
 | 5 | 根据 URL 请求参数和配置文件数据，[!DNL Target] 可决定将哪些活动和体验返回给查看当前页面和未来视图的访客。 |
@@ -68,7 +68,7 @@ source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 
 ## at.js 1.x 流程图
 
-![](assets/target-flow.png)
+![目标流- at. js1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | 步骤 | 描述 | 调用 | 描述 |
 |--- |--- |--- |--- |

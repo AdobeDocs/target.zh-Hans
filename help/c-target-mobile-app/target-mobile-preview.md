@@ -1,14 +1,14 @@
 ---
 description: 使用移动预览链接可对移动设备应用程序活动轻松执行端到端 QA，并且无需任何特殊的测试设备即可在您的设备上感受到不同的体验。
-keywords: QA;预览;预览链接;移动设备;移动设备预览
+keywords: qa；预览；预览链接；移动；移动预览
 seo-description: 使用移动预览链接可对移动设备应用程序活动轻松执行端到端 QA，并且无需任何特殊的测试设备即可在您的设备上感受到不同的体验。
-seo-title: Target 移动设备预览
+seo-title: 使用Adobe Target移动设备中的移动预览链接
 solution: Target
 title: Target 移动设备预览
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!NOTE]
 >
->此功能将于 2017 年 10 月 12 日后在 UI 中启用，以供所有客户使用。移动设备预览功能要求您下载并安装相应的 Adobe Mobile SDK 4.14（或更高）版本。
+>移动设备预览功能要求您下载并安装相应的 Adobe Mobile SDK 4.14（或更高）版本。
 
 ## 概述 {#section_981D6FA4AEE64098809EA606E89E4A5E}
 
@@ -80,7 +80,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    为使移动设备预览功能在 Android 中正常工作，您还必须在 [!DNL AndroidManifest.xml] 中添加以下代码片段：
 
    ```
-   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
+   <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
 ## 生成预览链接 {#section_D9D58173FFF34E9BB75EBF357273F128}

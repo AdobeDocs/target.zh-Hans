@@ -1,15 +1,15 @@
 ---
 description: 响应令牌允许您自动输出特定于 Target 的信息（营销活动详细信息、用户配置文件信息、地域信息等等），以便在调试或与第三方系统（例如 Clicktale）集成时使用
-keywords: 响应令牌;令牌;插件;增效工具
+keywords: 响应令牌;令牌;插件;增效工具;at.js
 seo-description: 响应令牌允许您自动输出特定于 Target 的信息（营销活动详细信息、用户配置文件信息、地域信息等等），以便在调试或与第三方系统（例如 Clicktale）集成时使用
-seo-title: 响应令牌
+seo-title: Adobe Target中的响应令牌
 solution: Target
 subtopic: 入门指南
 title: 响应令牌
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ccc2d9c2de7013ecc2423af6905359ab99fd2269
+source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
 
 ---
 
@@ -282,12 +282,8 @@ Target 会定期刷新属性。任何未开启的属性都会在下次刷新时�
 </script>
 ```
 
->[!NOTE]
->
->不再支持tetMeta插件。For more information, see [at.js plug-ins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md).
-
 ## 培训视频：响应令牌和 at.js 自定义事件{#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-观看以下视频，了解如何使用响应令牌和 at.js 自定义事件将 Target 中的配置文件信息共享到第三方系统。
+观看以下视频以了解如何使用响应令牌和. js自定义事件将个人资料信息从Target共享到第三方系统。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=chi_hans)

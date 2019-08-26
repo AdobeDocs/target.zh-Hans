@@ -1,7 +1,7 @@
 ---
 description: 可使用信息源将实体导入到“推荐”中。可以使用 CSV 文件、Google Product Search 信息源格式和/或 Adobe Analytics 产品分类来发送实体。
-keywords: 推荐信息源;信息源;SAINT;FTP;CSV
-seo-description: 可使用信息源将实体导入到“推荐”中。可以使用 CSV 文件、Google Product Search 信息源格式和/或 Adobe Analytics 产品分类来发送实体。
+keywords: 推荐信息源;信息源;SAINT;FTP;CSV；分类；分析分类
+seo-description: 使用源将导入的实体导入Adobe Recommendations。可以使用 CSV 文件、Google Product Search 信息源格式和/或 Adobe Analytics 产品分类来发送实体。
 seo-title: 信息源
 solution: Target
 title: 信息源
@@ -10,30 +10,35 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 83da8c014f46f9b5e2d17dc616097b59050f2549
+source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 信息源{#feeds}
 
-可使用信息源将实体导入到“推荐”中。可以使用 CSV 文件、Google Product Search 信息源格式和/或 Adobe Analytics 产品分类来发送实体。
+Use feeds to get entities imported into [!DNL Recommendations]. 可使用CSV文件、Google产品搜索源格式和Adobe Analytics产品分类发送实体。
 
 ## 信息源概述 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-可使用信息源将实体导入到“推荐”中。可以使用 CSV 文件、Google Product Search 信息源格式和/或 Adobe Analytics 产品分类来发送实体。
+信息源允许您传递[实体](/help/c-recommendations/c-products/products.md)，或者使用页面上没有提供或不能直接从页面安全发送（例如利润、COGS 等）的信息来扩充您的 mbox 数据。
 
-信息源允许您传递[实体](../../c-recommendations/c-products/products.md#concept_FD935A24D98745FFB2447933FCEB8062)，或者使用页面上没有提供或不能直接从页面安全发送（例如利润、COGS 等）的信息来扩充您的 mbox 数据。
-
-您可以从 Adobe Target 产品分类文件或 Google Product Search 文件中选择要发送到 [!DNL Recommendations] 服务器的列。这些关于每个项目的数据然后可在显示的模板中使用，还可用于控制推荐。
+You can select which columns from your [!DNL Target] product classifications file or Google Product Search file you want to send to the [!DNL Recommendations] server. 这些关于每个项目的数据然后可在显示的模板中使用，还可用于控制推荐。
 
 如果同时通过实体源和 mbox 收集数据，则采用最新的数据。通常，最新的数据来自 mbox，因为 mbox 的查看频率更高。在极少数情况下，实体源数据和 mbox 数据的时间相同，这时使用 mbox 数据。
 
-[!UICONTROL 信息源]列表（**[!UICONTROL 推荐]** &gt; **[!UICONTROL 信息源]**）提供了有关您创建的所有信息源的信息。要编辑信息源的名称，您必须编辑信息源本身。使用新名称保存时，信息源会刷新。
+[!UICONTROL 信息源]列表（**[!UICONTROL 推荐]** &gt; **[!UICONTROL 信息源]**）提供了有关您创建的所有信息源的信息。
 
->[!NOTE]
->
->如果[!UICONTROL 上次更新]信息源显示为“未定义”，则表示该信息源来自 [!DNL Recommendations Classic]，不能在 [!DNL Target Premium Recommendations] 中进行更改。
+![源页面](/help/c-recommendations/c-products/assets/feeds-page.png)
+
+“源”页面包含以下列：
+
+* **名称**：创建过程中指定的源名称。要编辑信息源的名称，您必须编辑信息源本身。使用新名称保存时，信息源会刷新。
+* **类型**：类型包括 [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、 [Google产品Feed](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)和 [Analytics分类](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)。
+* **状态**：源的当前 [状态](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。
+* **计划**：显示源的更新计划：每日、每周、每周两周或从不。
+* **项目**：显示源中的项目数。
+* **上次更新**&#x200B;时间：显示上次更新源的日期和时间，以及更新源的人员的姓名。If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -47,11 +52,11 @@ source-git-commit: 83da8c014f46f9b5e2d17dc616097b59050f2549
 
 如果在您的页面上没有 mbox，或如果您要增加您网站上没有的项目的显示信息，则可以使用批量上传方法发送显示信息。例如，您可能想要发送不会在您的网站上发布的库存信息。
 
-使用 [!DNL .csv] 文件、Google 产品信息源或 Analytics 产品分类信息源上传的任何数据都会覆盖我们数据库中的现有实体属性值。如果您通过 mbox 请求发送价格信息，然后使用文件发送不同的价格值，则文件中的值将覆盖使用 mbox 请求设置的值。一个例外是 `categoryId` 实体属性，该属性会附加类别值，而不是被覆盖以符合 250 个字符限制。
+使用 .csv 文件、Google 产品信息源或 Analytics 产品分类信息源上传的任何数据都会覆盖我们数据库中的现有实体属性值。如果您通过 mbox 请求发送价格信息，然后使用文件发送不同的价格值，则文件中的值将覆盖使用 mbox 请求设置的值。一个例外是 `categoryId` 实体属性，该属性会附加类别值，而不是被覆盖以符合 250 个字符限制。
 
 >[!IMPORTANT]
 >
->在 [!DNL .csv] 文件中，不要用双引号 (") 引住值，除非是有意为之。如果用双引号引住值，则必须使用另一组双引号将其引住来进行转义。未转义的双引号将会导致推荐信息源无法正确加载。
+>请勿在. csv文件中双引号(”)括住值，除非其有意。如果用双引号引住值，则必须使用另一组双引号将其引住来进行转义。双引号未转义可防止推荐源正常加载。
 
 例如，以下语法不正确：
 
@@ -87,11 +92,9 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
->[!IMPORTANT]
->
->Google Product Search 信息源类型使用 Google 格式。这与 Adobe 专有的 CSV 上传格式不同。
+Google Product Search 信息源类型使用 Google 格式。这与 Adobe 专有的 CSV 上传格式不同。
 
-如果您已有 Google 产品信息源，则可以将其用作导入文件。
+如果您有现有的Google产品源，则可以将其用作导入文件。
 
 >[!NOTE]
 >
@@ -188,45 +191,47 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ## Analytics 产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件的更多信息，请参阅《Analytics 帮助和参考》**&#x200B;指南中的[分类](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)。推荐需要的所有信息并非都可通过当前的实施获得，因此，如果要在分类文件中添加新内容，请按此用户指南操作。
+Analytics 产品分类是唯一可用于推荐的分类。For more information about this classification file, see [About classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. 推荐需要的所有信息并非都可通过当前的实施获得，因此，如果要在分类文件中添加新内容，请按此用户指南操作。
 
 >[!IMPORTANT]
 >
 >在使用 Analytics 产品分类将实体数据导入推荐之前，请注意，这不是首选方法。
+>
 > 请注意以下事项：
 >* 更新实体属性会导致长达 24 小时的额外延迟。
->* Target 仅支持“产品分类”。必须将 Analytics 产品 SKU 映射到与推荐 entity.id 相同的级别。可以使用 Adobe 咨询服务对自定义 Analytics 分类进行工程方面的处理。如有任何疑问，请联系您的帐户管理员。
+>* Target 仅支持“产品分类”。必须将 Analytics 产品 SKU 映射到与推荐 `entity.id` 相同的级别。可以使用 Adobe 咨询服务对自定义 Analytics 分类进行工程方面的处理。如有任何疑问，请联系您的帐户管理员。
 
 
 ## 创建信息源 {#steps}
 
 可创建一个信息源，以将有关产品或服务的信息插入到 [!DNL Recommendations] 中。
 
-<!-- 
-
-recs/t_feeds_create.xml
-
- -->
-
 1. 在 Target 界面中，单击&#x200B;**[!UICONTROL 推荐]** &gt; **[!UICONTROL 信息源]** &gt; **[!UICONTROL 创建信息源]**。
 
-   ![步骤结果](assets/CreateFeed.png)
+   ![“创建源”对话框](assets/CreateFeed.png)
 
 1. 为您的信息源指定一个描述性名称。
 1. 选择&#x200B;**[!UICONTROL 源类型]**。
 
-   有关 Google 产品信息源和 CSV 信息源类型的信息，请参阅[信息源概述](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。
-1. 指定报表包，或者可以访问信息源的 URL 或 FTP 位置。
+   * CSV
+   * Google产品Feed
+   * 分析分类
+   有关CSV和Google产品源源类型的信息，请参阅 [源概述](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。您还可以 [下载CSV指南](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) 以帮助您正确设置源格式。
 
-   如果您选择 FTP，请提供 FTP 服务器信息、登录凭据、文件名和 FTP 目录。您可以选择使用带有 SSL 的 FTP (FTPS) 进行更安全的上传。
+1. (视情况而定)如果您选择 **[!UICONTROL 了CSV]** 或 **[!UICONTROL Google产品源，]**&#x200B;请指定可访问源的位置。
 
-   支持的FTP服务器设置：
+   * **FTP**：如果您选择了FTP，请提供FTP服务器信息、登录凭据、文件名和FTP目录。您可以选择使用带有 SSL 的 FTP (FTPS) 进行更安全的上传。
 
-   * FTP和FTPS必须设置为使用被动FTP。
-   * 对于FTPS，将服务器配置为接受显式FTPS连接。
-   * 不支持SFTP。
-   * 您可以手动指定启动连接的端口(例如ftp://ftp.yoursite.com:2121))。如果未指定端口，则使用默认FTP或FTPS端口。
-   如果您选择 URL，请指定 URL。
+      支持的FTP服务器设置：
+
+      * FTP和FTPS必须设置为使用被动FTP。
+      * 对于FTPS，将服务器配置为接受显式FTPS连接。
+      * 不支持SFTP。
+      * 您可以手动指定启动连接的端口(例如，) `ftp://ftp.yoursite.com:2121`。如果未指定端口，则使用默认FTP或FTPS端口。
+   * **URL**：如果选择URL，请指定URL。
+
+
+1. (视情况而定)如果您选择 **[!UICONTROL 了Analytics Classifications]**，则从下拉列表中选择报表包。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;箭头以显示[!UICONTROL 计划]选项。
 
@@ -237,27 +242,23 @@ recs/t_feeds_create.xml
    * 每日
    * 每周
    * 每 2 周
-   * 从不
-   不计划更新。如果您不希望运行此信息源，请选择此选项。
+   * 从不：请勿安排更新。如果您不希望运行此信息源，请选择此选项。
 
 1. 指定要运行信息源的时间。
 
    此选项基于浏览器中使用的时区。如果您想要使用不同时区的时间，则必须根据您所在的时区计算该时间。
+
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;箭头以显示[!UICONTROL 映射]选项，然后指定您希望如何将数据映射到 [!DNL Target] 定义。
 
    ![步骤结果](assets/CreatFeedMapping.png)
 
 1. （可选）如果您希望信息源属于某个环境（主机组），请选择该主机组。
 
-   默认情况下，信息源属于所有主机组。这可确保此信息源中的项目可在任何环境中使用。
-
-   >[!NOTE]
-   >
-   >有关更多信息，请参阅[主机](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
+   默认情况下，信息源属于所有主机组。这可确保此信息源中的项目可在任何环境中使用。有关更多信息，请参阅[主机](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-创建或编辑信息源后，该信息源会立即运行，然后将根据您设置的参数进行更新。所有信息需要一段时间才能使用。首先，信息源必须同步，接着必须对其进行处理并将其编入索引，然后才能对其发布并使其可供使用。当前状态显示在“信息源”列表中的[信息源状态](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)下。在该过程完成之前，您可以关闭 [!DNL Target]，该过程会继续执行。
+创建或编辑信息源后，该信息源会立即运行，然后将根据您设置的参数进行更新。所有信息需要一段时间才能使用。首先，信息源必须同步，接着必须对其进行处理并将其编入索引，然后才能对其发布并使其可供使用。当前状态显示在“信息源”列表中的[信息源状态](/help/c-recommendations/c-products/feeds.md#status)下。在该过程完成之前，您可以关闭 [!DNL Target]，该过程会继续执行。
 
 编入索引期间，在将各个值编入索引之前，将会显示产品和信息源标头。这使您可以搜索和查看产品，以便在编入索引完成之前创建收藏集、排除项、设计和活动。
 

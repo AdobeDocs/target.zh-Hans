@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ac7d721334c0e3460b1e32630fd023da0f9c791e
+source-git-commit: 7020705c25ad2a4f25844ea70985ad9e2199b41f
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: ac7d721334c0e3460b1e32630fd023da0f9c791e
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 9 月 4 日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主题。 |
 | 2019 年 8 月 23 日 | [Target 移动设备预览](/help/c-target-mobile-app/target-mobile-preview.md) | 更新了代码片断 `AndroidManifest.xml`。 |
 | 2019 年 8 月 22 日 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 删除了有关在移动应用程序ID中使用禁止字符的信息。不再限制。 |
 |  | [自定义参数](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 新增了部分：“注意事项”。 |

@@ -8,7 +8,7 @@ title: Target 故障诊断
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 ---
 
@@ -124,9 +124,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 * [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md)
 
-## 移动设备应用程序可视化体验编辑器
+## 移动应用程序
 
 * [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
+* [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## 报表
 

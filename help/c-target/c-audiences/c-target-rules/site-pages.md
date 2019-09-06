@@ -8,7 +8,7 @@ title: 网站页面
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. 对受众进行命名。
 1. 单击&#x200B;**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 网站页面]**。
 
-   ![站点页面受众](assets/target_site_pages.png)
+   ![“网站页面”受众](assets/target_site_pages.png)
 
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
@@ -39,7 +39,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    * **Mbox：**&#x200B;您定位到的 mbox。例如，如果您想要对订单总金额等于或大于 100 美元的订单进行计数，您可以指定定位到 mbox，将 `orderTotal` 作为一个 mbox 参数进行传递。
    * **域：**&#x200B;页面的完整域。指定域时，最佳做法是使用“包含”。例如，“域等于 facebook.com”将不接受 `m.facebook.com` 或 `www.facebook.com`。而“域包含 facebook.com”则将接受 facebook.com 的任何变体。
-   * **查询：** URL 中第一个问号 (?) 后面的内容。例如，在以下示例 URL 中，查询以粗体显示：
+   * **查询：** URL 中第一个问号 (?) 后面的内容。
 
       `foo.html?e0a72cb2a2c7`
 

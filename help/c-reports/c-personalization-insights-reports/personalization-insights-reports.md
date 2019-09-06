@@ -9,7 +9,7 @@ title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c0d0ae6bcd401777169e74b93a4fb18f1a9b24dc
 
 ---
 
@@ -25,6 +25,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >个性化分析报表仅适用于使用转化优化目标的 AP 和 AT 活动。活动上线后将优化目标从收入更改为转化的活动也不受支持。
 >
 >仅[默认环境](../../administrating-target/hosts.md)支持个性化分析报表。
+>
+>个性化分析报告仅针对处于Live状态且已激活和接收流量至少15天的活动生成。
 
 ## 个性化分析报表概述 {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
@@ -32,7 +34,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 因为“个性化分析”报表的目标是了解 Target 的个性化模型如何决定向哪些访客发送哪些内容，所以“个性化分析”报表只会反映您的 AP 或 AT 活动提供的所有流量的子区段。具体而言，这两个报表反映了使用个性化模型的所有流量。换句话说，“个性化分析”报表不会考虑控制流量或整个入选者模型提供的流量。
 
-以下是两个可用的报表：
+提供了两个个性化洞察报告：
 
 | 报表 | 详细信息 |
 |--- |--- |
@@ -60,4 +62,4 @@ Target 为您提供了许多方法，用于将其他数据传递给 Target，以
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=chi_hans)
 
-For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+有关更多信息，请参阅 [使用Adobe Target中的个性化洞察报告](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。

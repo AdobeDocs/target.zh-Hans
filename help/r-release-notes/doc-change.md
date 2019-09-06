@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
+source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2019年月日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium19.9.1(2019年月10日)版本的信息。 |
+|  | [针对移动应用程序的Target常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新主题。 |
 | 2019 年 9 月 4 日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主题。 |
 | 2019 年 8 月 23 日 | [Target 移动设备预览](/help/c-target-mobile-app/target-mobile-preview.md) | 更新了代码片断 `AndroidManifest.xml`。 |
 | 2019 年 8 月 22 日 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 删除了有关在移动应用程序ID中使用禁止字符的信息。不再限制。 |
@@ -50,7 +51,7 @@ source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
 |  | [Analytics 与 Target 集成 (A4T) 故障诊断](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | 更新了说明，指示完成分类过程需要多长时间。 |
 |  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 更新了说明，指示完成分类过程需要多长时间。 |
 |  | [隐私和数据保护规定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 更新了主题，以包含有关California Consumer Privacy Act(CPA)的信息。 |
-| 2019年月日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 为Target Mobile CMS SDK iOS2.1.0和Android1.1.0版本添加了发行说明。 |
+| August 6, 2019 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 为Target Mobile CMS SDK iOS2.1.0和Android1.1.0版本添加了发行说明。 |
 |  | [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 更新了以下部分：“预期的条件处理时间”。 |
 |  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | 更新了使用 [!UICONTROL 活动印象] 和 [!UICONTROL 活动转换] 量度的考虑 [!DNL Analysis Workspace]。 |
 | 2019年月日 | [Target发行说明(当前版本)](/help/r-release-notes/release-notes.md) | 添加了有关API支持企业权限的重要公告。 |

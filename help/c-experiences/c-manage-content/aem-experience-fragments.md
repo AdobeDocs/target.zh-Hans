@@ -1,132 +1,120 @@
 ---
 description: 有关在 Target 活动中使用在 Adobe Experience Manager (AEM) 中创建的体验片段以帮助优化或个性化的信息。
-keywords: 体验;AEM;Adobe Experience Manager;导出到 Adobe Target;体验片段;片段;XF
-seo-description: 有关在 Target 活动中使用在 Adobe Experience Manager (AEM) 中创建的体验片段以帮助优化或个性化的信息。
-seo-title: AEM 体验片段
+keywords: 体验；json；aem；adobe experience manager；导出到adobe目标；体验片段；片段；XF
+seo-description: 有关使用Adobe Target活动中在Adobe Experience Manager(AEM)中创建的体验片段以帮助优化或个性化的信息。
+seo-title: Adobe Target中的Adobe Experience Manager(AEM)体验片段
 solution: Target
 title: AEM 体验片段
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
+source-git-commit: aee1785aede1894cac9632da7a0471ae429c8bc6
 
 ---
 
 
 # AEM 体验片段{#aem-experience-fragments}
 
-有关在 Target 活动中使用在 Adobe Experience Manager (AEM) 中创建的体验片段以帮助优化或个性化的信息。
-
-## AEM 体验片段 {#topic_1E1E4EA01F074349B2CF8785387B5FE8}
-
-有关在 Target 活动中使用在 Adobe Experience Manager (AEM) 中创建的体验片段以帮助优化或个性化的信息。
+Information about using experience fragments created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid optimization or personalization.
 
 >[!NOTE]
 >
->此功能要求您是 Adobe Experience Manager (AEM) 客户。有关更多信息，请参阅下面的[要求](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)。
+>This feature requires that you are an [!DNL Adobe Experience Manager] (AEM) customer. 有关更多信息，请参阅下面的[要求](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)。
 
 ## 概述 {#section_95A91830530F493B81C5C9CDB9B783EA}
 
-通过在 Target 活动中使用 AEM 中创建的体验片段，您可以将 AEM 中这一简单易用的功能与 Target 中强大的自动化智能 (AI) 和机器学习 (ML) 功能结合使用，从而测试和个性化大量体验。
+Using experience fragments created in AEM in [!DNL Target] activities lets you combine the ease-of-use and power of AEM with powerful Automated Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to test and personalize experiences at scale.
 
-AEM 可将您的所有内容和资产汇集到一个中心位置，以帮助实施您的个性化策略。通过 AEM，您能够在一个位置轻松创建适用于桌面、平板电脑和移动设备的内容，而无需编写代码。您无需为每种设备分别创建页面，因为 AEM 可以使用您的内容自动调整每个体验。
+AEM 可将您的所有内容和资产汇集到一个中心位置，以帮助实施您的个性化策略。通过 AEM，您能够在一个位置轻松创建适用于桌面、平板电脑和移动设备的内容，而无需编写代码。无需为每台设备创建页面。AEM会使用内容自动调整每个体验。
 
-Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（这些方法包含行为、上下文和离线变量），交付大量的个性化体验。通过 Target，您可以轻松地设置并运行 A/B 活动和多变量 (MVT) 活动，从而确定最佳的选件、内容和体验。
+[!DNL Target] 允许您根据一组基于规则且由 AI 驱动的机器学习方法（这些方法包含行为、上下文和离线变量），交付大量的个性化体验。With [!DNL Target] you can easily set up and run [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Multivariate](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) activities to determine the best offers, content, and experiences.
 
-现在，有些从事优化和个性化工作的专业人士正在使用 Target 促进其业务发展，对这类人士而言，体验片段代表了在将内容/体验创建器与管理器关联方面迈出了巨大的一步。
+Experience fragments represent a huge step forward to link the content/experience creators and managers to the optimization and personalization professionals who are driving business outcomes using [!DNL Target].
 
 ## 要求 {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-您必须已在 Target 中配置体验片段功能。此外，您还必须使用 AEM 6.3 以及相应的 Service Pack，或者使用 AEM 6.4（或更高版本）。您的客服专员可以帮助您确保满足使用此功能的要求：
+You must be provisioned with the experience fragments functionality within [!DNl Target]. 此外，您还必须使用 AEM 6.3 以及相应的 Service Pack，或者使用 AEM 6.4（或更高版本）。您的客服专员可以帮助您确保满足使用此功能的要求：
 
 * Adobe Experience Manager 6.4（或更高版本）。
 * Adobe Experience Manager 6.3 SP2（或更高版本）。
 * Adobe Target Standard 或 Adobe Target Premium 帐户。
-* 联系 Adobe Target 客户关怀团队以启用集成并为您提供身份验证详细信息。
+* Contact [Adobe Target Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to enable the integration and to provide you with authentication details.
 
 ## 在 AEM 中创建并配置体验片段 {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-要在 Target 中使用 AEM 体验片段，您必须执行以下步骤：
+In order to use AEM experience fragments in [!DNL Target], you must perform the following steps:
 
 ### 步骤 1：将 AEM 与 Target 集成
 
 有关详细信息，请参阅：
 
-* **AEM 6.3：** Adobe Experience Manager 6.3 [](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)文档中的&#x200B;_选择使用 Adobe Analytics 和 Adobe Target_。
-* **AEM 6.4：** Adobe Experience Manager 6.4 [](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)文档中的&#x200B;_选择使用 Adobe Analytics 和 Adobe Target_。
-* **AEM6.5：**[选择加入Adobe Analytics和Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)
+* **AEM6.3**： [在Adobe Experience](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) _Manager6.3_ 文档中选择加入Adobe Analytics和Adobe Target。
+* **AEM6.4**： [在Adobe Experience](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) _Manager6.4_ 文档中选择加入Adobe Analytics和Adobe Target。
+* **AEM6.5**： [在Adobe Experience](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) *Manager6.5* 文档中选择加入Adobe Analytics和Adobe Target。
 
 ### 步骤 2：创建体验片段
 
 体验片段是在 AEM 中创建的。有关详细信息，请参阅：
 
-* **AEM 6.3：** Adobe Experience Manager 6.3 [](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)文档中的&#x200B;*体验片段*。
-* **AEM 6.4：** Adobe Experience Manager 6.4 [](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)文档中的&#x200B;*体验片段*。
-* **AEM6.5：**[体验片段](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)
+* **AEM6.3**： [Adobe Experience](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) *Manager6.3* 文档中的体验片段。
+* **AEM6.4**： [Adobe Experience](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) *Manager6.4* 文档中的体验片段。
+* **AEM6.5**： [Adobe Experience](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) *Manager6.5* 文档中的体验片段。
 
 ### 步骤 3：配置 AEM 以与 Target 共享体验片段
 
-1. 在 AEM 中，选择所需的体验片段或其包含文件夹，然后单击[!UICONTROL 属性]。
-2. 单击[!UICONTROL 云服务]选项卡，然后从[!UICONTROL 云服务配置]下拉列表中选择 [!UICONTROL Adobe Target]。
+1. From within AEM, select the desired experience fragment or its containing folder, then click **[!UICONTROL Properties]**.
+2. Click the **[!UICONTROL Cloud Services]** tab, then from the **[!UICONTROL Cloud Service Configuration]** drop-down list, select **[!UICONTROL Adobe Target]**.
 
    >[!NOTE]
    >
-   >上一步骤假设贵组织中已有人创建了 Adobe Target 配置。
+   >The previous step assumes that someone in your organization has created the [!DNL Adobe Target] configuration.
 
-3. 单击[!UICONTROL 保存并关闭]。
+3. 单击&#x200B;**[!UICONTROL 保存并关闭]**。
 
 ### 步骤 4：发布体验片段并将其导出到 Target
 
-**AEM 6.3：**
+根据您的AEM版本，请参阅以下链接以获得分步说明：
 
-1. 在 AEM 中，选择所需的体验片段，单击[!UICONTROL 发布]选项卡，然后单击[!UICONTROL 发布]按钮。
-2. 在 AEM 中，选择所需的体验片段，单击[!UICONTROL 导出到 Adobe Target]，然后单击[!UICONTROL 确定]。
+* **AEM6.3**： [在Adobe Experience](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) *Manager6.3* 文档中将体验片段导出到Target。
+* **AEM6.4**： [在Adobe Experience](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) *Manager6.4* 文档中将体验片段导出到Target。
+* **AEM6.5**： [在Adobe Experience](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) *Manager6.5* 文档中将体验片段导出到Target。
 
-   ![](assets/experience_fragment_export_to_target.png)
-
-**AEM 6.4：**
-
-1. 在 AEM 中，选择所需的体验片段，然后单击[!UICONTROL 导出到 Adobe Target]。
-
-   ![](assets/experience_fragment_export_to_target.png)
-
-2. 在显示的对话框中，选择[!UICONTROL 发布]以将体验片段中的所有资产发布到 [!DNL Target]。
-
-## Using Experience Fragments in Target Activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## 在 Target 活动中使用体验片段 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 执行上述任务后，体验片段会显示在 Target 的“[!UICONTROL 选件]”页面中。
 
 >[!NOTE]
 >
->当前，Target 会每隔 10 分钟查找一次要导入的体验片段。导入的体验片段应在十分钟内可在 Target 中使用，但是以后，此时间应会缩短。
+>[!DNL Target]当前， 会每隔 10 分钟查找一次要导入的体验片段。The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 
 >[!IMPORTANT]
 >
->当前，体验片段是作为 HTML 选件导入到 Target 中的。请注意，体验片段的“母”版仍保留在 AEM 中。因此，您无法在 Target 中编辑体验片段。
+>The experience fragment is currently imported into [!DNL Target] as an HTML offer. 请注意，体验片段的“母”版仍保留在 AEM 中。因此，您无法在 Target 中编辑体验片段。
 
-您可以将鼠标悬停在列表中某个体验片段的上方，然后单击“查看”图标 (![](assets/icon_info.png)
+You can hover over an experience fragment in the list, then click the View icon ![View icon](assets/icon_info.png) to see additional information about the experience fragment, including its public offer delivery URL, its AEM path, and a deep link to open the experience fragment inside of AEM.
 
-) 以查看有关体验片段的其他信息，其中包括其公共选件交付 URL、其 AEM 路径以及用于打开 AEM 内部体验片段的深层链接。
-
-您可以在 Target 活动中通过可视化体验编辑器 (VEC) 或基于表单的体验编辑器来使用体验片段。
+You can consume Experience Fragments in [!DNL Target] activities using the [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) or the [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md).
 
 >[!NOTE]
 >
->要充分利用 Target 的 AI 和 ML 功能，您可以在创建 A/B 测试时选择[自动分配](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)或[自动个性化](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)。
+>To fully utilize the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) while creating an A/B Test.
 
 **通过 VEC 使用体验片段：**
 
-1. 在 Target 中，在[可视化体验编辑器](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中创建或编辑体验时，单击要将 AEM 内容插入到的页面位置，然后选择&#x200B;**[!UICONTROL 与体验片段交换]**，以显示“[!UICONTROL 选择体验片段]”列表。
+1. 在 [!DNL Target][“可视体验书写器](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)”中创建或编辑体验时，单击要插入AEM内容的页面上的位置，然后选择所需选项以显示“ [!UICONTROL 选择体验片段] ”列表。
+
+   * [!UICONTROL 此项前插入]
+   * [!UICONTROL 此项后插入]
+   * [!UICONTROL 使用体验片段交换]
+   [!UICONTROL Experience Fragments] 列表显示在AEM中创建的所有内容(现在可从内部获取) [!DNL Target]。
 
    >[!NOTE]
    >
    >[!UICONTROL 与体验片段交换]选项不适用于图像。如果您想要对图像使用此选项，请单击包含所需图像的容器元素。
 
-   “[!UICONTROL 体验片段]”列表显示了在 AEM 中创建的所有内容，这些内容现在可从 Target 中以本地方式使用。
-
    ![](assets/experience_fragment_list.png)
 
-1. 选择所需的体验片段，然后单击&#x200B;**[!UICONTROL 保存]**。
+1. Select the desired experience fragment, then click **[!UICONTROL Done]**.
 1. 完成活动配置。
 
    有关配置各种类型的活动的更多信息，请参阅以下主题：
@@ -141,14 +129,20 @@ Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（
 
 **通过基于表单的体验编辑器使用体验片段：**
 
-1. 在 Target 中，在[基于表单的体验编辑器](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)中创建或编辑体验时，选择要将 AEM 内容插入到的页面位置，然后选择&#x200B;**[!UICONTROL 更改体验片段]**，以显示“[!UICONTROL 选择体验片段]”列表。
+1. 在 [!DNl Target]中，在基于 [表单的Experience Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)中创建或编辑体验时，选择要插入AEM内容的页面上的位置，然后选择 **[!UICONTROL 更改体验片段]** 以显示 [!UICONTROL 选择体验片段] 列表。
 
    ![](assets/experience_fragment_list.png)
 
-   “[!UICONTROL 体验片段]”列表显示了在 AEM 中创建的所有内容，这些内容现在可从 Target 中以本地方式使用。
+   [!UICONTROL Experience Fragments] 列表显示在AEM中创建的所有内容(现在可从内部获取) [!DNL Target]。
 
 1. 选择所需的体验片段，然后单击&#x200B;**[!UICONTROL 保存]**。
 1. 完成活动配置。
+
+## 注意事项(#注意事项)
+
+* [!DNL Target]当前， 会每隔 10 分钟查找一次要导入的体验片段。The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
+* The experience fragment is currently imported into [!DNL Target] as an HTML offer. 请注意，体验片段的“母”版仍保留在 AEM 中。You cannot edit the experience fragment in [!DNL Target].
+* 您可以将JSON选件作为体验片段导入 [!DNL Target]。但是，这些选件将作为HTML选件导入。JSON选件(体验片段)当前在 [!DNL Target] UI中不完全受支持。
 
 ## 培训视频：在 Adobe Target 中使用 AEM 体验片段{#section_C0EDC54063464F41A182492D2045BC64}
 

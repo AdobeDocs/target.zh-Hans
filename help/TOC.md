@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Adobe Target 帮助
 user-guide-url: /content/help/zh-Hans/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 93d626abd4c37977409509efd139db7aac4a8656
+source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
 
 ---
 
@@ -51,12 +51,13 @@ source-git-commit: 93d626abd4c37977409509efd139db7aac4a8656
    + 实施之前 {#before-implement}
       + [实施之前](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [准备实施 Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + 隐私 {#privacy}
+      + 隐私和安全性 {#privacy}
          + [隐私概述](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [隐私和数据保护规定](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [删除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite Cookie 策略](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple智能跟踪预防(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [Content Security Policy(CSP)指令](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + 将数据导入 Target 的方法 {#methods}
          + [方法](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [配置文件 API 设置](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)

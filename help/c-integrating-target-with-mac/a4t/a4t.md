@@ -9,7 +9,7 @@ title: 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 7c94222aff59f92031f84436da5f8733d92be4b7
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -52,6 +52,8 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 * 任何现有的 Target 活动都将继续使用 Target 数据收集，启用 A4T 后并不会影响这些活动。
 * 使用 Analytics 作为报表源时，只允许使用一个基于 mbox 的量度。
 * 从 Target 到 Analytics 的服务器到服务器调用会向 Analytics 发送活动和体验信息。此集成不会为 Target 或 Analytics 生成其他服务器调用。
+
+   在某些情况下，Target的分类调用可能会失败，并且活动不会在Analytics中显示数据。如果发生这种情况，请参阅 [Analytics和Target集成疑难解答(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。您还可以 [联系客户关怀](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) 部门以获得进一步帮助。
 
 ## 支持的活动类型 {#section_F487896214BF4803AF78C552EF1669AA}
 

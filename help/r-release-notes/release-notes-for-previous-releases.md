@@ -8,7 +8,7 @@ title: 以前版本的发行说明
 topic: 推荐
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -23,6 +23,18 @@ source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
 
 ## 发行说明 - 2019 {#releases-2019}
 
+### 目标Mobile CMS SDK iOS2.1.0和Android1.1.1(2019年月日)
+
+此版本的Mobile CMS SDK包含以下增强和修复：
+
+（括号中的问题编号供 Adobe 内部使用。）
+
+* 增加了在移动设备上预览“可视活动”的支持。(TGT-27875)
+* 修复了 `UIImagePickerController` 由于使用而导致Apple Standard违规的问题。
+* 删除了Android SDK中的GSON依赖关系。(TGT-31710)
+* 删除了其他多余的灰度依赖关系(TGT-35479)
+* 修复了在创作时无法重置交付选件的问题。(TGT-35270)
+
 ### Target Standard/Premium 19.7.1（2019 年 7 月 24 日）{#tgt-19-7-1}
 
 此版本包括以下新增功能和增强功能：
@@ -31,10 +43,10 @@ source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| 移动设备应用程序可视化体验编辑器 | 移动App CMS中会显示一个新的修改面板，它显示您设置的用于单击跟踪的元素。(TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
-| ![Premium BadgereComments](/help/assets/premium.png)<br>A/B测试和体验定位(XT)活动 | 推荐选项(算法)状态显示在包含Recommendations选件的A/B Test和XT活动的概述页面上。状态包括：结果就绪、结果未准备好和源失败。(TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
-| 通过Experience Cloud ID(ECID)库对. js2.0+进行跨域跟踪支持 | 以前，在. js中不支持跨域跟踪。*x* 目前不支持选择加入支持。在此版本中，使用. js2.0或更高版本的客户现在可以通过ECID库使用跨域跟踪。必须将ECID库与at. js2.0或更高版本一起安装在页面上，以便跨域跟踪工作。[必须使用Experience Cloud ID库4.3.0+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 。<br>请参阅 [位于. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)的跨域跟踪支持。 |
-| 通过Experience Cloud ID(ECID)库4.3针对Apple的ITP2.1和ITP2.2提供支持 | 如今，Target客户可以通过利用Adobe的CNAME认证计划减轻Apple的ITP2.1和ITP2.2。<br>在此版本中，Target引入了与ECID库4.3的无缝集成，它利用服务器端Cookie减轻ITP2.1和ITP2.2。强烈建议Target客户与Target的JavaScript库一起部署 [EID库4.3+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) ，以减轻将来的任何ITP版本。EID库将继续推出增强功能，为浏览器引入的不断变化的cookie策略提供强大的解决方案。<br>请参阅 [Apple智能跟踪预防(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
+| 移动设备应用程序可视化体验编辑器 | 移动设备应用程序 VEC 中将显示一个新的“修改”面板，该面板可显示您为点击跟踪设置的各个元素。(TGT-31741)<br> 请参阅 [在移动应用程序中设置单击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)。 |
+| ![Premium 徽章](/help/assets/premium.png)<br>A/B 测试和体验定位 (XT) 活动中的推荐 | 推荐选件（算法）状态将显示在包含推荐选件的 A/B 测试和 XT 活动的“概述”页面上。状态包括：“结果已准备就绪”、“结果未准备就绪”和“信息源故障”。(TGT-33649)<br>请参阅[“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md#status)。 |
+| at.js 2.0 及更高版本通过 Experience Cloud ID (ECID) 库支持跨域跟踪 | 以前，at.js 2.*x* 不支持跨域跟踪。现在，在此版本中，使用 at.js 2.0 或更高版本的客户可以通过 ECID 库执行跨域跟踪。为使跨域跟踪正常运行，必须将 ECID 库与 at.js 2.0 或更高版本一起安装在页面上。[必须使用Experience Cloud ID库4.3.0+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 。<br>请参阅 [位于. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)的跨域跟踪支持。 |
+| Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple 的 ITP 2.1 和 ITP 2.2 | 现在，Target 客户可以通过利用 Adobe 的 CNAME 认证计划来应对 Apple 的 ITP 2.1 和 ITP 2.2。<br>在此版本中，Target引入了与ECID库4.3的无缝集成，它利用服务器端Cookie减轻ITP2.1和ITP2.2。强烈建议Target客户与Target的JavaScript库一起部署 [EID库4.3+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) ，以减轻将来的任何ITP版本。ECID 库将持续增强，针对各浏览器推出的不断变化的 Cookie 策略提供完善的解决方案。<br>请参阅 [Apple智能跟踪预防(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
 
 **增强功能、修复和更改**
 
@@ -49,20 +61,20 @@ source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
 （括号中的问题编号供 Adobe 内部使用。）
 
 * 修复了使用Visual Experience Composer(CMS)中的“目标和设置”页面上的“单击跟踪”量度触发多个信标的问题。(TNT-32812)
-* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
-* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
-* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
+* 修复了导致不 `triggerView()` 渲染选件的问题。(TNT-32780)
+* 修复了一 `triggerView()` 个问题，以确保请求包含Marketing Cloud ID(MCID)信息。(TNT-32776)
+* 修复了即使没有保存的视图也会阻止 `triggerView()` 通知开火的问题。(TNT-32614)
 * 修复了由于使用DecodeURIComponent导致URL包含格式错误的查询字符串参数导致错误的问题。(TNT-32710)
-* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
+* 在通过 `Navigator.sendBeacon()` API发送的交付请求上下文中，信标标志现在设置为“true”。(TNT-32683)
 * 修复了阻止Recommendations选件在网站上为少数客户显示的问题。客户可以在交付API调用中看到选件内容，但该选件未在网站上应用。(TNT-32680)
 * 修复了导致跨多个体验点击跟踪无法正常工作的问题。(TNT-32644)
 * 修复了一个问题，该问题导致. js无法在第一个量度的渲染失败后应用第二个量度。(TNT-32628)
-* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
+* 修复了使用 `mboxThirdPartyId` 导致请求有效负荷不存在于查询参数或请求有效负荷中 `targetPageParams` 的函数时出现的问题。(TNT-32613)
 * 修复了一个问题，该问题导致在基于Chromium的浏览器(包括Google Chrome)中阻止显示和单击通知响应。(TNT-32290)
 
 For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-### Target Standard/Premium 19.6.1（2019 年 6 月 26 日）{#tgt-19-6-1-historical}
+### Target Standard/Premium 19.6.1（2019 年 6 月 26 日） {#tgt-19-6-1-historical}
 
 此版本包括以下新增功能和增强功能：
 
@@ -70,25 +82,25 @@ For information about this and previous versions of at.js, see [at.js version de
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| 可视化体验编辑器 (VEC) | **新的CMS菜单选项**：单击CMS中的页面元素时，菜单会显示可用于该元素类型的选项。<ul><li>You can now use the [!UICONTROL Styles &gt; Background] option to change the background image and color for the selected element. (TGT-15001)</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**单击跟踪改进**：我们改进了在CMS和单页应用程序(SPA) CMS中配置点击跟踪的过程。<ul><li>选择要在单击跟踪中使用的元素时，所有可用元素的名称都会显示在右侧的“修改”面板中，从而可以快速、轻松地选择所需元素。</li><li>The [!UICONTROL Goals &amp; Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. 您可以将鼠标悬停在此数字上，查看所有选定元素的名称。(TGT-33878)</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
-| 单页应用程序可视化体验编辑器 (SPA VEC) | **引导工作流程**：新的向导式工作流程可帮助您了解页面交付规则设置如何配置为为单页应用程序成功执行和运行活动。(TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**克隆修改**：您现在可以使用SPA CMS定义修改，然后克隆该修改以在单页应用程序中的其他视图中使用。(TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
-| 移动设备可视化体验编辑器 | **多个应用程序版本**：您现在可以为移动应用程序的多个版本创作活动。这在版本类似时节省了时间和精力，您无需显著更改应用程序的UI。(TGT-34231)<br>See "Manage multiple app versions" in [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
-| ![Premium徽章](/help/assets/premium.png) 自动个性化(AP)和自动定位 | **特定体验作为控制**：您可以选择要在创建AP或自动Target活动时用作控件的体验。此功能允许您根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据控制流量来评估个性化流量的绩效报告。当前控制选项(随机提供的体验)将继续可用。(TGT-32801, TGT-26572, &amp; TGT-26571)<br>See [Select the control for your Automated Personalization or Auto-Target Activity](/help/c-activities/t-automated-personalization/experience-as-control.md). Note that there is a [current known issue](/help/r-release-notes/known-issues-resolved-issues.md) with this feature.<br>**个性化洞察报告**：当访客在特定位置看到特定内容时，针对属性的营销人员友好命名提供更有意义的信息。(TGT-33421 &amp; TGT-34957)<br>See [Data collection for the Target personalization algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
-| ![高级徽章](/help/assets/premium.png) 推荐 | 在创建“最近查看的项目”逻辑时，您可以使用“推荐以前购买的项目”切换。(TGT-34030)<br>有关详细信息，请参阅 [“创建标准”](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) 中最近查看的项目。 |
-| Google Chrome SameSite Cookie策略 | Google最近宣布从Chrome76(针对2019年月30日的版本)开始，开发人员必须明确指定哪些cookie可以跨网站工作以及哪些cookie可以跟踪用户。<br>随着行业努力为消费者创建更加安全的Web，Target绝对致力于在会议期间提供个性化体验并超越访客的隐私期望。<br>请参阅 [Google Chrome SameSite Cookie策略](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)。 |
+| 可视化体验编辑器 (VEC) | **新 VEC 菜单选项**：单击 VEC 中的某个页面元素时，相应菜单会显示适用于该元素类型的选项。<ul><li>您现在可以使用[!UICONTROL “样式”&gt;“背景”]选项更改选定元素的背景图像和颜色。(TGT-15001)</li></ul>请参阅[可视化体验选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)中的“样式”**&#x200B;部分。<br>**点击跟踪改进**：我们改进了在 VEC 和单页应用程序 (SPA) VEC 中配置点击跟踪的过程。<ul><li>当选择要在点击跟踪中使用的元素时，所有可用元素的名称都会显示在右侧的“修改”面板中，从而允许快速、轻松地选择所需元素。</li><li>三步引导式活动工作流中的“[!UICONTROL 目标和设置]”页面上会显示一个数字，用于指示为点击跟踪选择的元素数量。您可以将鼠标悬停在此数字上，以查看所有选定元素的名称。(TGT-33878)</li></ul>请参阅[点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md)。 |
+| 单页应用程序可视化体验编辑器 (SPA VEC) | **引导式工作流**：新的引导式工作流可帮助您了解应如何配置页面交付规则设置，以便为单页应用程序成功执行和运行活动。(TGT-33718)<br> 请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)。<br>**克隆修改**：您现在可以使用 SPA VEC 定义修改，然后克隆该修改，以供在单页应用程序内的其他视图中使用。(TGT-33882)<br>请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md)。 |
+| 移动设备可视化体验编辑器 | **多个应用程序版本**：您现在可以创建活动，以供移动设备应用程序的多个版本使用。如果这些版本很相似，则无需对应用程序 UI 做出重大更改，从而可以节省时间和精力。(TGT-34231)<br>请参阅[移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec)中的“管理多个应用程序版本”。 |
+| ![Premium 徽章](/help/assets/premium.png) 自动个性化 (AP) 和自动定位 | **将体验指定为控制**：在创建 AP 或自动定位活动时，您可以选择要用作控制的体验。通过此功能，您可以根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据该体验的控制流量评估个性化流量的性能报表。当前控制选项（随机提供的体验）将继续可用。（TGT-32801、TGT-26572 和 TGT-26571）<br>请参阅[选择用于自动个性化或自动定位活动的控制](/help/c-activities/t-automated-personalization/experience-as-control.md)。请注意，此功能当前存在一个[已知问题](/help/r-release-notes/known-issues-resolved-issues.md)。<br>**个性化分析报表**：当访客在特定位置看到特定内容时，对营销人员友好的属性命名可提供更多有意义的信息。（TGT-33421 和 TGT-34957）<br>请参阅[为 Target 个性化算法收集数据](/help/c-activities/t-automated-personalization/ap-data.md)。 |
+| ![Premium 徽章](/help/assets/premium.png) 推荐 | 在创建“最近查看的项目”逻辑时，您可以使用“推荐以前购买的项目”切换。(TGT-34030)<br>有关更多信息，请参阅“创建标准”中的[最近查看的项目](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)。 |
+| Google Chrome SameSite Cookie 策略 | Google 近日宣布从 Chrome 76（计划于 2019 年 7 月 30 日发布）开始，开发人员必须明确指定哪些 Cookie 可以在各个网站中运行以及哪些 Cookie 可以跟踪用户。<br>当整个行业都在努力为消费者创建更加安全的 Web 时，Target 也不遗余力地为客户提供个性化体验，同时满足甚至超越访客的隐私保护期望。<br>请参阅 [Google Chrome SameSite Cookie 策略](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)。 |
 
-### at.js version 2.1.0 (June 3, 2019) {#atjs-210}
+### at.js 版本 2.1.0（2019 年 6 月 3 日） {#atjs-210}
 
-我们很高兴在. js2.1.0上宣布下列激动人心的功能：
+我们很高兴地宣布，at.js 2.1.0 将推出以下令人振奋的功能：
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Adobe选择加入支持 | 通过 Adobe 选择加入，可轻松将 Adobe 解决方案与同意管理平台集成。<br>有关Adobe选择加入的详细信息，请参阅 [隐私和一般数据保护规定(GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)。 |
-| 符合行业标准的CSP | at. js不再使用eval()执行JavaScript。 |
-| 客户端分析日志记录 | 无论客户端还是服务器端，都可以完全控制如何将分析数据发送到Adobe Analytics。<br>有关详细信息，请参阅 [在实现之前](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) 登录 *客户端分析*。 |
-| 发送通知 | Allows developers to send notifications when an experience is rendered by their code instead of using `applyOffer()` or `applyOffers()`.<br>有关详细信息，请参阅 [adobe. target. sendNoSearch(选项)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。 |
-| 文件大小更小 | . js的大小减小了~24%。文件大小较小，可提高页面加载性能并缩短页面上下载. js的时间。 |
-| at. js文档更新 | For a full list of all articles updated due to the at.js 2.1.0 release, see the June 3, 2019 entries in [Documentation changes](/help/r-release-notes/doc-change.md). |
+| 支持 Adobe 选择加入 | 通过 Adobe 选择加入，可轻松将 Adobe 解决方案与同意管理平台集成。<br>有关 Adobe 选择加入的更多信息，请参阅[隐私和《通用数据保护条例》(GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)。 |
+| 符合行业标准 CSP | at.js 不再使用 eval() 执行 JavaScript。 |
+| 客户端 Analytics 日志记录 | 无论是在客户端还是服务器端，均允许客户完全控制如何将分析数据发送到 Adobe Analytics。<br>有关更多信息，请参阅“实施之前”**&#x200B;中的[客户端 Analytics 日志记录](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side)。 |
+| 发送通知 | 允许开发人员在通过代码而不是使用 `applyOffer()` 或 `applyOffers()` 呈现体验时发送通知。<br>有关更多信息，请参阅 [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。 |
+| 减少了文件大小 | at.js 的大小减少了约 24%。较小的文件大小可提高页面加载性能并缩短在页面上下载 at.js 的时间。 |
+| at.js 文档更新 | 要获取由于 at.js 2.1.0 的发行而更新的所有文章的完整列表，请参阅[文档更改](/help/r-release-notes/doc-change.md)中时间为 2019 年 6 月 3 日的条目。 |
 
 ### [!DNL Target] Standard/Premium 19.5.1（2019 年 5 月 21 日）{#tgt-19-5-1-historical}
 
@@ -104,7 +116,7 @@ For information about this and previous versions of at.js, see [at.js version de
 
 * 当您在 VEC 中取消载入页面后，系统会正确地显示出工具栏图标。如果某些特定的操作只有在完全载入页面后才能执行，那么相关的工具栏图标将会禁用。(TGT-33811)
 
-### Mobile App Visual Experience Composer (May 14, 2019) {#mobile-vec-may14-2}
+### 移动设备应用程序可视化体验编辑器（2019 年 5 月 14 日）{#mobile-vec-may14-2}
 
 | 功能/增强 | 描述 |
 | --- | --- |
@@ -252,7 +264,7 @@ For information about this and previous versions of at.js, see [at.js version de
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.11.1（2018 年 11 月 12 日）{#section_6BBA8B1EE9D241C28E12856A375E97F6}
+### Target Standard/Premium 18.11.1（2018 年 11 月 12 日） {#section_6BBA8B1EE9D241C28E12856A375E97F6}
 
 11 月 12 日发行的 [!DNL Target] Standard/Premium 版本包括后端增强功能、修复信息和更改信息。“[!UICONTROL 个性化分析]”报表将于 11 月 14 日可用。
 
@@ -275,7 +287,7 @@ For information about this and previous versions of at.js, see [at.js version de
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.10.1（2018 年 10 月 24 日）{#section_FA37BF4E840B424E8BC4791D7234FE2A}
+### Target Standard/Premium 18.10.1（2018 年 10 月 24 日） {#section_FA37BF4E840B424E8BC4791D7234FE2A}
 
 此版本包括以下功能和增强功能：
 
@@ -336,7 +348,7 @@ For information about this and previous versions of at.js, see [at.js version de
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.9.1（2018 年 9 月 26 日）{#section_95CF405C95E44DBEA3CB308FDD5071CD}
+### Target Standard/Premium 18.9.1（2018 年 9 月 26 日） {#section_95CF405C95E44DBEA3CB308FDD5071CD}
 
 <!-- 
 
@@ -380,7 +392,7 @@ target/r_release-notes-2018.xml
 * 我们更新了“标准”卡片的外观与风格，让其更加直观和用户友好。(TGT-30469)
 * UI 性能提升加快了页面加载速度。
 
-### Target Standard/Premium 18.8.1（2018 年 8 月 21 日）{#section_66A0030993D54565BE30E56AC9CAC1DA}
+### Target Standard/Premium 18.8.1（2018 年 8 月 21 日） {#section_66A0030993D54565BE30E56AC9CAC1DA}
 
 此版本包括以下功能和增强功能：
 
@@ -430,7 +442,7 @@ target/r_release-notes-2018.xml
 
 * 我们添加了一些改进功能，使 Target 比以前更加安全。（TGT-31090、TGT-31089、TGT-31143）
 
-### Target Standard/Premium 18.7.1（2018 年 7 月 25 日）{#section_A4A9C20EB677455F84FF0BA389F645E5}
+### Target Standard/Premium 18.7.1（2018 年 7 月 25 日） {#section_A4A9C20EB677455F84FF0BA389F645E5}
 
 此版本包括以下功能和增强功能：
 
@@ -516,7 +528,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.6.1（2018 年 6 月 20 日）{#section_B63C660815B245DA9922BE33E03734A1}
+### Target Standard/Premium 18.6.1（2018 年 6 月 20 日） {#section_B63C660815B245DA9922BE33E03734A1}
 
 此版本包括以下功能和增强功能：
 
@@ -630,7 +642,7 @@ target/r_release-notes-2018.xml
 
 * 更新了 Target 三步引导式工作流步骤 2 的 UI，该步骤用于创建或编辑 A/B 测试活动、体验定位 (XT) 活动或“推荐”活动。(TGT-18911)
 
-### Target Standard/Premium 18.4.1（2018 年 4 月 25 日）{#section_445DBC5402BA456BAF2D24AEA33A91C9}
+### Target Standard/Premium 18.4.1（2018 年 4 月 25 日） {#section_445DBC5402BA456BAF2D24AEA33A91C9}
 
 此版本包括以下功能和增强功能：
 
@@ -787,7 +799,7 @@ target/r_release-notes-2018.xml
 * 创建或编辑 A/B 活动和体验定位 (XT) 活动时，Target 会保留有关最后一次打开的体验、页面或体验版本（通过多受众功能）的信息，并在下次打开 Target UI 时打开相应的页面。(TGT-28225)
 * 为实现合规性，修复了一些安全隐患。
 
-### Target Standard/Premium 18.2.1（2018 年 2 月 15 日）{#section_837CBBB7A89D45D99855A8C5F5E7BFFB}
+### Target Standard/Premium 18.2.1（2018 年 2 月 15 日） {#section_837CBBB7A89D45D99855A8C5F5E7BFFB}
 
 此版本包括以下功能和增强功能：
 
@@ -833,7 +845,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.1.1（2018 年 1 月 23 日）{#section_3A2216543B064D6F82EC03E1F8AEC74D}
+### Target Standard/Premium 18.1.1（2018 年 1 月 23 日） {#section_3A2216543B064D6F82EC03E1F8AEC74D}
 
 此版本包括以下功能和增强功能：
 
@@ -931,7 +943,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.11.1（2017 年 11 月 8 日）{#section_324A9B1DA0B14F5999FEE41F15B13A44}
+### Target Standard/Premium 17.11.1（2017 年 11 月 8 日） {#section_324A9B1DA0B14F5999FEE41F15B13A44}
 
 此版本包括以下功能和增强功能（括号中的问题编号供 Adobe 内部使用）：
 
@@ -961,7 +973,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.10.1（2017 年 10 月 25 日）{#section_EF74751744024C209A02F45322642D37}
+### Target Standard/Premium 17.10.1（2017 年 10 月 25 日） {#section_EF74751744024C209A02F45322642D37}
 
 此版本包括以下功能和增强功能（括号中的问题编号供 Adobe 内部使用）：
 
@@ -1147,7 +1159,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.8.1（2017 年 8 月 22 日）{#section_71A554D072F04B18B359C1626529E5D8}
+### Target Standard/Premium 17.8.1（2017 年 8 月 22 日） {#section_71A554D072F04B18B359C1626529E5D8}
 
 <table id="table_AAC16F89060D4CC09762A370B86C0885"> 
  <thead> 
@@ -1205,7 +1217,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.7.3（2017 年 8 月 3 日）{#section_D90CB766679442C7A0642E5D79657674}
+### Target Standard/Premium 17.7.3（2017 年 8 月 3 日） {#section_D90CB766679442C7A0642E5D79657674}
 
 <table id="table_C81EA97B251547169BC9681E5DDB4B8F"> 
  <thead> 
@@ -1222,7 +1234,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.7.2（2017 年 7 月 27 日）{#section_6980EC04D3CF4A00919953B9B10BC472}
+### Target Standard/Premium 17.7.2（2017 年 7 月 27 日） {#section_6980EC04D3CF4A00919953B9B10BC472}
 
 <table id="table_DB51BD66756F4EBD875ED008B2C7C5D0"> 
  <thead> 
@@ -1239,7 +1251,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.7.1（2017 年 7 月 20 日）{#section_BB75DE30174F4ADD963451909FB81D74}
+### Target Standard/Premium 17.7.1（2017 年 7 月 20 日） {#section_BB75DE30174F4ADD963451909FB81D74}
 
 <table id="table_BCE36E0D56804E7B8861858DCF2F380E"> 
  <thead> 
@@ -1355,7 +1367,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.6.2（2017 年 6 月 22 日）{#section_F0372B07B56E454CB048CE79FF56E9CD}
+### Target Standard/Premium 17.6.2（2017 年 6 月 22 日） {#section_F0372B07B56E454CB048CE79FF56E9CD}
 
 <table id="table_8C4DB1B83B874E4C85CE9FF352E7B857"> 
  <thead> 
@@ -1391,7 +1403,7 @@ target/r_release-notes-2018.xml
 * 修复了导致出现以下情况的问题：在创建排除组后应用自动去除重复项功能时，UI 中活动图的计数有时会不正确。
 * 修复了在对具有排除组的现有活动进行编辑后，UI 中可能无法正确反映手动包含项的问题。
 
-### Target Standard/Premium 17.6.1（2017 年 6 月 8 日）{#section_1D05FE23CE3744DDB5D28E933341F575}
+### Target Standard/Premium 17.6.1（2017 年 6 月 8 日） {#section_1D05FE23CE3744DDB5D28E933341F575}
 
 <table id="table_47117524922A472AA977C652B581B356"> 
  <thead> 
@@ -1432,7 +1444,7 @@ target/r_release-notes-2018.xml
 
 * 修复了 [!DNL mbox.js] 的 XSS 安全性问题。此修复属于服务器端修复，不需要更新 [!DNL mbox.js]。
 
-### Target Standard/Premium 17.4.1（2017 年 4 月 27 日）{#section_24E6889AF1E0405497F6F77A407A9A46}
+### Target Standard/Premium 17.4.1（2017 年 4 月 27 日） {#section_24E6889AF1E0405497F6F77A407A9A46}
 
 此版本包括以下功能和增强功能：
 
@@ -1484,7 +1496,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.3.1（2017 年 3 月 30 日 - 更新日期：2017 年 4 月 13 日）{#section_5C13660A8AA34F35A9CBEFEEC88738D0}
+### Target Standard/Premium 17.3.1（2017 年 3 月 30 日 - 更新日期：2017 年 4 月 13 日） {#section_5C13660A8AA34F35A9CBEFEEC88738D0}
 
 此版本包括以下功能和增强功能：
 
@@ -1534,7 +1546,7 @@ target/r_release-notes-2018.xml
 * [!DNL Target] 现在支持为[!UICONTROL 自动个性化]活动切换环境（主机组）。
 * [!UICONTROL 自动个性化]活动现在支持主机组。
 
-### Target Standard/Premium 17.2.1（2017 年 2 月 21 日）{#section_FC6412353DE64E848FFD5E8EFF72C7C7}
+### Target Standard/Premium 17.2.1（2017 年 2 月 21 日） {#section_FC6412353DE64E848FFD5E8EFF72C7C7}
 
 >[!NOTE]
 >
@@ -1594,7 +1606,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.1.1（2017 年 1 月 19 日）{#section_88AFA2F54CF24DF7822CFEBB07DFABE2}
+### Target Standard/Premium 17.1.1（2017 年 1 月 19 日） {#section_88AFA2F54CF24DF7822CFEBB07DFABE2}
 
 此版本包括以下功能和增强功能：
 
@@ -1670,7 +1682,7 @@ target/r_release-notes-2018.xml
 
 ## 2016 年版 {#reference_607661929B504CCFAB3791B13C0DCDBE}
 
-### Target Standard/Premium 16.10.2（2016 年 11 月 8 日）{#section_2FDEFB3D56CC4BD7BC04DBEECFF6E942}
+### Target Standard/Premium 16.10.2（2016 年 11 月 8 日） {#section_2FDEFB3D56CC4BD7BC04DBEECFF6E942}
 
 **修复**
 
@@ -1680,7 +1692,7 @@ target/r_release-notes-2018.xml
 * 做出了一些改进，以减少活动同步错误。
 * 您无法再使用 [!DNL Analytics for Target] (A4T) 创建活动的重定向选件。
 
-### Target Standard/Premium 16.10.1（2016 年 10 月 25 日）{#section_F76F7329FCAC452FB88F8BE0BA727044}
+### Target Standard/Premium 16.10.1（2016 年 10 月 25 日） {#section_F76F7329FCAC452FB88F8BE0BA727044}
 
 此版本包括以下功能和增强功能：
 
@@ -1710,7 +1722,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 推荐：插入外部促销活动 </td> 
-   <td colname="col2"> <p>可添加促销项目并控制它们在“推荐”设计中的放置位置。 </p> <p>有关更多信息，请参阅<a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">添加促销活动</a>。 </p> </td> 
+   <td colname="col2"> <p>可添加促销项目并控制它们在 “推荐”设计中的放置位置。 </p> <p>有关更多信息，请参阅<a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">添加促销活动</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>抢先版</b> </p> A/B 活动中的自动定位 </td> 
@@ -1741,7 +1753,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 16.9.1（2016 年 9 月 22 日）{#section_3CD20678B6254DE1A9BD41FDD2255DDD}
+### Target Standard/Premium 16.9.1（2016 年 9 月 22 日） {#section_3CD20678B6254DE1A9BD41FDD2255DDD}
 
 此版本包括以下功能和增强功能：
 
@@ -1806,7 +1818,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Target Standard/Premium 16.9.1（2016 年 9 月 22 日）{#section_60ADF842E4A0424E8D2A81FB8B813A7A}
+### Target Standard/Premium 16.9.1（2016 年 9 月 22 日） {#section_60ADF842E4A0424E8D2A81FB8B813A7A}
 
 此版本包括以下功能和增强功能：
 
@@ -1870,7 +1882,7 @@ target/r_release-notes-2018.xml
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 16.8.1（2016 年 8 月 23 日）{#section_A8854D4EDF014AEBB81F49EB104D4A20}
+### Adobe Target Standard/Premium 16.8.1（2016 年 8 月 23 日） {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
 Adobe Target Standard/Premium 16.8.1（2016 年 8 月 23 日）版本包括以下功能和增强功能：
 
@@ -1945,7 +1957,7 @@ Adobe Target Standard/Premium 16.8.1（2016 年 8 月 23 日）版本包括以�
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 16.7.1（2016 年 7 月 21 日）{#section_DB583EF9A30247A488EE319583911F22}
+### Adobe Target Standard/Premium 16.7.1（2016 年 7 月 21 日） {#section_DB583EF9A30247A488EE319583911F22}
 
 Adobe Target Standard/Premium 16.7.1（2016 年 7 月 21 日）版本包括以下功能和增强功能：
 
@@ -2010,7 +2022,7 @@ Adobe Target Standard/Premium 16.7.1（2016 年 7 月 21 日）版本包括以�
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 16.6.1（2016 年 6 月 16 日）{#section_C1E9F43111BF4160AF31482CD53E00BD}
+### Adobe Target Standard/Premium 16.6.1（2016 年 6 月 16 日） {#section_C1E9F43111BF4160AF31482CD53E00BD}
 
 6 月份不计划发行面向客户的版本。
 
@@ -2039,7 +2051,7 @@ Adobe Target Standard/Premium 16.7.1（2016 年 7 月 21 日）版本包括以�
 
    对于之前的活动，如果在活动的体验编辑器中选中此选项，则意味着重定向中会包含查询参数。如果未选中此选项，则重定向中将不会包含当前的查询参数。
 
-### Adobe Target Standard/Premium 16.5.1（2016 年 5 月 19 日） {#section_406CE09317994F55A26C2FDB77C77FEA}
+### Adobe Target Standard/Premium 16.5.1（2016 年 5 月 19 日）{#section_406CE09317994F55A26C2FDB77C77FEA}
 
 Adobe Target Standard/Premium 16.5.1（2016 年 5 月 19 日）版本包括以下功能和增强功能：
 
@@ -2157,7 +2169,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
    });
    ```
 
-### Adobe Target Standard/Premium 16.4.1（2016 年 4 月 21 日）{#section_C968860FAB81485BA12BD588F4ECA401}
+### Adobe Target Standard/Premium 16.4.1（2016 年 4 月 21 日） {#section_C968860FAB81485BA12BD588F4ECA401}
 
 此版本包括以下功能和增强功能：
 
@@ -2233,7 +2245,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
 
 * 在涉及多个页面的活动中为某一个页面选择“禁用 JavaScript”选项后，JavaScript 在所有页面上都处于禁用状态，即使未在其他页面上选择“禁用 JavaScript”选项也是如此。
 
-### Adobe Target Standard/Premium 16.3.1（2016 年 3 月 15 日）{#section_A5A9B03A5CCD4213AD656BE722B5FF67}
+### Adobe Target Standard/Premium 16.3.1（2016 年 3 月 15 日） {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
 此版本包括以下功能和增强功能：
 
@@ -2283,7 +2295,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
    * 使用 Firefox 或 Internet Explorer。
    * 启用增强型体验编辑器，可在&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**&#x200B;选项卡中配置该工具。
 
-### Adobe Target Standard/Premium 16.2.1（2016 年 2 月 18 日）{#section_47E5CEE2EED24CB3B71D7457673F3200}
+### Adobe Target Standard/Premium 16.2.1（2016 年 2 月 18 日） {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
 此版本包括以下功能和增强功能：
 
@@ -2305,7 +2317,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
    * 使用 Firefox 或 Internet Explorer。
    * 启用增强型体验编辑器，可在&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**&#x200B;选项卡中配置该工具。
 
-### Adobe Target Standard/Premium 16.1.1（2016 年 1 月 28 日）{#section_8BF7705B452C449F961AEFC568A0778C}
+### Adobe Target Standard/Premium 16.1.1（2016 年 1 月 28 日） {#section_8BF7705B452C449F961AEFC568A0778C}
 
 此版本包括以下功能和增强功能：
 
@@ -2385,7 +2397,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
 
 ## 2015 年版 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
-### Adobe Target Standard/Premium 15.10.1（2015 年 11 月 2 日）{#section_B5135D75FA0D42A1A3C2711CA3A1B812}
+### Adobe Target Standard/Premium 15.10.1（2015 年 11 月 2 日） {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
 
 <!-- 
 
@@ -2495,7 +2507,7 @@ target/r_release-notes-2015.xml
 
 * 在涉及多个页面的活动中为某一个页面启用“禁用 JavaScript”选项后，JavaScript 在所有页面上仍保持启用状态，但是功能依然被禁用。
 
-### Adobe Target Standard/Premium 15.9.1（2015 年 9 月 30 日）{#section_A54204291A99476688E8C0BD8255F93C}
+### Adobe Target Standard/Premium 15.9.1（2015 年 9 月 30 日） {#section_A54204291A99476688E8C0BD8255F93C}
 
 此版本包括以下功能和增强功能：
 
@@ -2571,7 +2583,7 @@ target/r_release-notes-2015.xml
 
 * 在涉及多个页面的活动中为某一个页面启用“禁用 JavaScript”选项后，JavaScript 在所有页面上仍保持启用状态，但是功能依然被禁用。
 
-### Adobe Target Standard/Premium 15.8.1（2015 年 8 月 20 日）{#section_1C26CB72316A404DB655EBE655F5B8C1}
+### Adobe Target Standard/Premium 15.8.1（2015 年 8 月 20 日） {#section_1C26CB72316A404DB655EBE655F5B8C1}
 
 此版本旨在提供与 Target Classic 对等的功能。现在，Target Classic 中最常用的功能在 Target Standard 中也可用。
 
@@ -2637,7 +2649,7 @@ target/r_release-notes-2015.xml
  </tbody> 
 </table>
 
-### Adobe Target Standard/Premium 15.7.1（2015 年 7 月 30 日）{#section_9C888BFD04A94DD58616D3F67D209CCC}
+### Adobe Target Standard/Premium 15.7.1（2015 年 7 月 30 日） {#section_9C888BFD04A94DD58616D3F67D209CCC}
 
 此版本包括以下功能和增强功能：
 
@@ -2707,7 +2719,7 @@ target/r_release-notes-2015.xml
 
 * 在涉及多个页面的活动中为某一个页面启用“禁用 JavaScript”选项后，JavaScript 在所有页面上仍保持启用状态，但是功能依然被禁用。
 
-### Adobe Target Standard/Premium 15.6.1（2015 年 6 月 25 日）{#section_43FEA310830E4E8E853FAB56B12B1301}
+### Adobe Target Standard/Premium 15.6.1（2015 年 6 月 25 日） {#section_43FEA310830E4E8E853FAB56B12B1301}
 
 此版本包括以下功能和增强功能：
 
@@ -2766,7 +2778,7 @@ target/r_release-notes-2015.xml
 * 修复了导致无法向某些用户正常显示“创建活动”按钮的问题。
 * 修复了在编辑 A/B 和体验定位活动时，导致“活动名称”文本框在可视化体验编辑器中消失的问题。
 
-### Adobe Target Standard/Premium 15.5.1（2015 年 5 月 21 日） {#section_FF0F959908784AF0906EFB9E8324F207}
+### Adobe Target Standard/Premium 15.5.1（2015 年 5 月 21 日）{#section_FF0F959908784AF0906EFB9E8324F207}
 
 此版本包括以下功能和增强功能：
 
@@ -2950,7 +2962,7 @@ target/r_release-notes-2015.xml
 
 * 修复了重新访问页面时导致重定向选件无法工作的错误。
 
-### Adobe Target 15.1.1 (January 22, 2015) {#section_059F9B41804B4FA58D05C4485EDF926D}
+### Adobe Target 15.1.1（2015 年 1 月 22 日）{#section_059F9B41804B4FA58D05C4485EDF926D}
 
 此版本包括以下功能和增强功能：
 
@@ -3003,7 +3015,7 @@ target/r_release-notes-2014.xml
 
 本次要版本重点关注了服务器的稳定性。作为修补程序的一部分，该版本不涉及任何新增功能。
 
-### Adobe Target 14.10.1 (October 30, 2014) {#section_D557CB331A004155B91CFE5B197076F3}
+### Adobe Target 14.10.1（2014 年 10 月 30 日）{#section_D557CB331A004155B91CFE5B197076F3}
 
 此版本包括以下功能和增强功能：
 
@@ -3019,11 +3031,11 @@ target/r_release-notes-2014.xml
 * “概述”页面显示了活动目标。
 * 在 HTML 编辑框中输入 JavaScript 时会显示警告。
 
-### Adobe Target 14.9.1 (September 19, 2014) {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
+### Adobe Target 14.9.1（2014 年 9 月 19 日）{#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
 
 此版本包括以下功能和增强功能：
 
-| 功能/增强 | 描述 |
+| 功能/增强功能 | 描述 |
 |---|---|
 | 允许插入和编辑 JavaScript | 增加了在用户从操作菜单选择“**[!UICONTROL 编辑 HTML]”时在体验编辑器中编辑和插入 JavaScript 的功能。** |
 | 受众自动导入 | 用户打开受众列表时在后台自动导入受众，导入的受众时间超过 10 分钟。 |
@@ -3036,11 +3048,11 @@ target/r_release-notes-2014.xml
 * 修复了在“自动个性化”体验编辑器中导致更改的视频选件未显示为已更改的问题。
 * 修复了导致活动的“冲突”页面在 Google Chrome 中显示为空白页面的问题。
 
-### Adobe Target 14.8.1 (August 21, 2014) {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
+### Adobe Target 14.8.1（2014 年 8 月 21 日）{#section_02D0DFA7A8D145B2B3FEFF83591243E1}
 
 此版本包括以下新增功能和增强功能：
 
-| 功能/增强 | 描述 |
+| 功能/增强功能 | 描述 |
 |---|---|
 | 通过提高字符限制，增强了 HTML 选件与 [!DNL Target Classic] 同步的功能 | 提高了在“内容”下面创建 HTML 选件的字符限制，以遵守 HTML 选件与 [!DNL Target Classic] 同步的 256 KB 限制。 |
 | 改善了在“体验编辑器”中创建错误时的用户体验。 | 当页面上的 DOM 结构更改破坏了选择器时，“体验编辑器”会显示一则消息。 |
@@ -3059,7 +3071,7 @@ target/r_release-notes-2014.xml
 * 修复了使 `target="_blank" functions.` 失效的点击跟踪转化错误
 * 修复了点击跟踪导航至页面之外的问题。
 
-### Adobe Target 14.6.1 (June 25, 2014) {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
+### Adobe Target 14.6.1（2014 年 6 月 25 日）{#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
 
 此版本包括以下新增功能：
 

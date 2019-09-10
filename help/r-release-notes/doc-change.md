@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 9 月 10 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关Target Standard/Premium19.9.1版本的信息。 |
 | 2019年月日 | [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | 添加了“注意事项”部分。 |
 |  | [Google Chrome SameSite Cookie 策略](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | 更新了整个主题的文本。 |
 |  | [Content Security Policy(CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | 新主题。 |

@@ -8,7 +8,7 @@ title: Target 发行说明（预发行版本）
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| ![高级徽章](/help/assets/premium.png) 企业权限 | 在即将发布的Target2019年月版中，Enterprise Permissions为客户提供了以下访问控制：<UL><li>您可以选择可应用集成的工作区。</li><li>您可以对Adobe I/集成应用角色：审批人、编辑者或观察者。</li></ul>有关分步说明和更多信息，请参阅 [授予Adobe I/O集成权限以访问工作区和分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
+| ![高级徽章](/help/assets/premium.png) 企业权限 | 在Target2019年月版中，Enterprise Permissions为客户提供以下访问控制：<UL><li>您可以选择可应用集成的工作区。</li><li>您可以对Adobe I/集成应用角色：审批人、编辑者或观察者。</li></ul>有关分步说明和更多信息，请参阅 [授予Adobe I/O集成权限以访问工作区和分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
 
 ## Target Standard/Premium 19.9.2（2019 年 9 月 24 日） 
 

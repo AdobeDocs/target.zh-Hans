@@ -8,7 +8,7 @@ title: at.js 集成
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -24,8 +24,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 集成 | 详细信息 |
 |--- |--- |
 | Analytics for Target (A4T) | 请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](../../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)。 |
-| Profiles &amp; Audiences (P&amp;A) | 请参阅 Adobe Experience Cloud 和核心服务帮助中的[受众](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)。 |
-| Experience Cloud ID 服务 | 请参阅 [Adobe Experience Cloud ID 服务文档](https://marketing.adobe.com/resources/help/en_US/mcvid/)。 |
+| Profiles &amp; Audiences (P&amp;A) | 请参 [阅核心](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 服务用 *户指南中的受众*。 |
+| Experience Cloud ID 服务 | 请参阅 [Adobe Experience Cloud ID 服务文档](https://docs.adobe.com/content/help/en/id-service/using/home.html)。 |
 | Adobe Launch | Launch 是 Adobe 的下一代标签管理平台，是实施 Adobe Target 的首选方法。Launch 为客户提供了一种简单的方式来部署和管理所有用来加强相关客户体验的分析、营销和广告标签。请参阅[使用 Adobe Launch 实施 Target](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)。 |
 | 动态标签管理 (DTM) | 请参阅[使用动态标签管理实施 Target 指南](https://marketing.adobe.com/resources/help/en_US/target/ov2/implementing-target-using-dynamic-tag-management.html)。重要信息：[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 是实施 Target 和 at.js 库的最新首选方法。对于新的 Target 实施，请使用 Launch。以下指南适用于使用 DTM 实施的现有客户端。使用 DTM 集成时，请考虑以下事项： <ul><li>库管理：通过“自定义”主机选项来使用 at.js。当前不支持“自动”管理。 </li></ul> |
 | Adobe Experience Manager (AEM) 云服务 | AEM 云服务支持在 AEM 工作流中创建 A/B 测试和体验定位活动。带有 FP-11577（或更高版本）的 Adobe Experience Manager 6.2 支持 at.js。有关更多信息，请参阅[与 Adobe Target 集成](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)，并选择您的 AEM 版本。 |

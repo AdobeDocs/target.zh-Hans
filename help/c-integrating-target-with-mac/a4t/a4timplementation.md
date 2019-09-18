@@ -8,7 +8,7 @@ title: Analytics for Target 实施
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 步骤 1：请求配置 Analytics 和 Target。
 
-将 Analytics 作为 Target 报表源进行实施后，您必须配置 Analytics 和 Target。[使用此表单可请求配置](http://www.adobe.com/go/audiences)。
+将 Analytics 作为 Target 报表源进行实施后，您必须配置 Analytics 和 Target。[使用此表单请求设置](http://www.adobe.com/go/audiences)。
 
 ## 步骤 2：设置用户权限
 
@@ -33,15 +33,15 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 通过访客 ID 服务，您可以在各个 Experience Cloud 解决方案中识别用户。您必须实施或迁移到所需版本的 Experience Cloud 访客 ID 服务。有关更多信息，请参阅[实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
 
-请参阅 Experience Cloud 访客 ID 服务文档中的[为 Target 实施 Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-target.html)。
+请参阅 Experience Cloud 访客 ID 服务文档中的[为 Target 实施 Experience Cloud ID 服务](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html)。
 
 ## 步骤 4：更新 AppMeasurement for JavaScript 或 s_code
 
 您必须实施或迁移到所需版本的 appMeasurement.js。有关更多信息，请参阅[实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
 
-对于新实施，请参阅 [Analytics JavaScript 实施](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html)。
+有关新的实施，请参 [阅《Analytics实施指南》中的](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html)*JavaScript实施概述*。
 
-对于迁移，请参阅[迁移到 AppMeasurement for JavaScript](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=appmeasure_mjs_migrate)。
+有关迁移，请参 [阅《分析实施指南》中的迁移到AppMeasurement for javaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html)*（迁移到AppMeasurement for JavaScript）*。
 
 ## 步骤 5：下载并更新 at.js 或 mbox.js
 
@@ -57,7 +57,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 步骤 7：在所有网站页面上引用 at.js 或 mbox.js {#step7}
 
-在itororAPI. js下的. js或mbox. js中包括以下代码行，在每个页面上添加以下代码行：
+通过在每个页面的标记中添加下面一行代码，将 at.js 或 mbox.js 包含在 VisitorAPI.js 下：
 
 对于 at.js：
 
@@ -73,11 +73,11 @@ src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 ```
 
-必须在. js或mbox. js之前加载VisitorAPI. js。如果要更新现有. js或mbox. js文件中的现有文件，请确保验证加载顺序。
+必须先加载 VisitorAPI.js，然后再加载 at.js 或 mbox.js。如果您要更新现有的 at.js 或 mbox.js 文件，请务必确认加载顺序。
 
-现成设置为Target和Analytics集成配置的方式是使用从页面中传递的SSID来将Target和Analytics请求整合在一起，自动为您自动完成后端请求。
+从实施角度来看，为 Target 和 Analytics 集成配置现成设置的方式是，使用从页面传递的 SDID 在后端自动将 Target 和 Analytics 请求拼合到一起。
 
-However, if you want more control on how and when to send analytics data related to Target to Analytics for reporting purposes, and you do not want to opt-in to the default settings of having Target and Analytics automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. 注意：2.1以下的任何版本不支持此方法。
+但是，如果您希望更好地控制如何以及何时将与 Target 相关的分析数据发送到 Analytics 进行报告，并且您不希望选择使用默认设置，即让 Target 和 Analytics 通过 SDID 自动拼合分析数据，那么您可以通过 **window.targetGlobalSettings** 设置 **analyticsLogging = client_side**。注意：低于 2.1 的任何版本均不支持此方法。
 
 例如：
 
@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: "client_side"** sent within the Target requests and an analytics payload will be returned for every request. 设置此设置后，返回的有效负荷格式如下所示：
+此设置具有全局效果，这意味着 at.js 进行的每次调用都将在 Target 请求中发送 **analyticsLogging: "client_side"**，并且将为每个请求返回分析有效负载。完成此设置后，返回的有效负载格式如下所示：
 
 ```
 "analytics": {
@@ -98,9 +98,9 @@ This set up has a global effect, which means that every call made by at.js will 
 }
 ```
 
-The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+然后，可以通过数据插入API将有效负载 [转发到Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
 
-If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: "client_side"**. 分析有效负荷将仅返回此调用，Target后端将不会转发到Analytics。通过采用此方法，每个at. js Target请求均不会默认返回有效负荷，但仅在需要和指定时才会返回。
+如果不希望进行全局设置并且想要使用按需方法，则可以使用 at.js 函数 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 通过传入 **analyticsLogging: "client_side"** 来实现此目的。此调用将仅返回分析有效负载，且 Target 后端不会将有效负载转发到 Analytics。如果采用这种方法，每个 at.js Target 请求都不会默认返回有效负载，而是仅在需要和指定时返回。
 
 例如：
 
@@ -123,7 +123,7 @@ adobe.target.getOffers({
     .then(console.log)
 ```
 
-此调用调用可从中提取分析有效负荷的响应。
+此调用将会调用一个响应，您可以从中提取分析有效负载。
 
 响应如下所示：
 
@@ -156,7 +156,7 @@ adobe.target.getOffers({
 }
 ```
 
-The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+然后，可以通过数据插入API将有效负载 [转发到Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
 
 ## 步骤 8：验证实施 {#step8}
 

@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9fbcbdff934b0c372e4de94f846f01953f7bc77f
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -99,7 +99,7 @@ Target 提供了一个[筛选不兼容的标准](../../c-recommendations/plan-im
 * 索引是否为最新？请转到 [!DNL /target/products.html#productSearch]，然后查看索引是在多少小时之前编入的（例如“已在 3 小时前编入索引”）。如有需要，您可以刷新索引。
 * 您是否更改过信息源或数据层，从而导致实体不再匹配收藏集规则？请确保大小写匹配（区分大小写）。
 * 信息源是否已成功运行？是否有人更改过 FTP 目录、密码等？
-* Target 会尽可能在最短的时间内生成交付更新（在客户的页面/应用程序中）。不过与此同时，我们还必须在 UI 中提供一些图表，以供营销人员使用。但是，我们不必延迟交付更新来等待 UI 更新实现同步。您可以使用 [mboxTrace](https://marketing.adobe.com/resources/help/en_US/target/target/c_content_trouble.html#) 来查看收到请求时系统中包含哪些内容。
+* Target 会尽可能在最短的时间内生成交付更新（在客户的页面/应用程序中）。不过与此同时，我们还必须在 UI 中提供一些图表，以供营销人员使用。但是，我们不必延迟交付更新来等待 UI 更新实现同步。您可以使用 [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) 来查看收到请求时系统中包含哪些内容。
 
 ## 一般的属性权重与特定于内容相似度的属性权重之间有何区别？{#section_FCD96598CBB44B16A4C6C084649928FF}
 

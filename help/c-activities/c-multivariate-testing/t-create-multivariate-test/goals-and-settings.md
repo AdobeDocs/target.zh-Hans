@@ -8,7 +8,7 @@ title: 目标和设置
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -64,7 +64,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ### 报表解决方案
 
-指定是从 Adobe Target 还是从 Adobe Analytics 收集数据。请参阅[将 Adobe Analytics 作为 Target 报表源](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)，以了解各种报表解决方案之间的差异以及每种解决方案的优点。
+指定是从 Adobe Target 还是从 Adobe Analytics 收集数据。请参阅[将 Adobe Analytics 作为 Target 报表源](/help/c-integrating-target-with-mac/a4t/a4t.md)，以了解各种报表解决方案之间的差异以及每种解决方案的优点。
 
 当选择 Analytics 作为 Target 的报告源时，您可以选择一个 Analytics 报表包来接收 Target 活动数据。要执行此操作，请先选择您的帐户绑定的任意 Analytics 公司，然后为活动选择合适的报表包。只有配置为连接至 Adobe Target 的报表包才可供选择。如果您看不到预期的报表包，请先注销 Adobe Experience Cloud，然后再重新登录以重试。如果报表包仍然没有出现在列表中，请联系客户关怀团队。
 
@@ -122,14 +122,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 要添加依赖项，请执行以下操作：
 
-1. After adding additional metrics, click **[!UICONTROL Advanced Settings]**.
-2. 单击添加依赖项选项：
+1. 添加其他量度后，单击&#x200B;**[!UICONTROL 高级设置]**。
+2. 单击“添加依赖项”选项：
 
-   ![添加依赖关系](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
+   ![添加依赖项](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
-3. 将所需量度从左侧窗格拖放到右侧窗格中，然后单击&#x200B;**[!UICONTROL 已实现]**，以在已实现和未实现之间进行切换。
+3. 将所需量度从左侧窗格拖放到右侧窗格中，然后单击&#x200B;**[!UICONTROL 已实现]**，以在“已实现”和“未实现”之间进行切换。
 
-   ![已达到依赖关系](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
+   ![已实现的依赖项](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
 添加依赖项后，您可以编辑或删除依赖项。
 

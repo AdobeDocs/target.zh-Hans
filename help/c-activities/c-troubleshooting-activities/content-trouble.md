@@ -9,7 +9,7 @@ title: 内容交付故障诊断
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -102,7 +102,7 @@ mboxTrace 让您能够接收 mbox 回复所附带的跟踪信息。跟踪信息�
 
 有关更多信息，请参阅下面的培训视频：
 
-有关更多详细信息，请参阅 [Adobe Experience Cloud 调试器扩展&#x200B;**&#x200B;文档](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)。
+有关详细信息，请参 [阅使用Adobe Experience cloud调试器调试at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)。
 
 ## 如果 target.js 在交付过程中加载失败 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -148,9 +148,9 @@ Target 不再支持 IE 8。
 
 您可以在浏览器中或使用 mboxTrace 检查 mbox 响应。有关有效 URL 的更多信息，请参阅 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66)。
 
-## mbox不在我的网站上触发。
+## mbox 未我的网站上触发。
 
-如果使用无效的doc类型，则at. js不会触发Target mbox。at.js 需要 HTML 5 doctype。
+如果您使用的是无效的 doctype，则 at.js 不会触发 Target mbox。at.js 需要 HTML 5 doctype。
 
 ## 培训视频
 

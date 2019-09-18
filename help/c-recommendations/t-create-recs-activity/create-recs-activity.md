@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -21,23 +21,23 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. 单击&#x200B;**[!UICONTROL 创建活动]** &gt; **[!UICONTROL 推荐]**。
 
-   ![创建推荐活动](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
+   ![创建“推荐”活动](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
-1. 如有必要，请选择 **[!UICONTROL 视觉(默认)]**。
+1. 如有必要，选择&#x200B;**[!UICONTROL 可视（默认）]**。
 
-   ![“创建推荐活动”对话框](/help/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
+   ![“创建‘推荐’活动”对话框](/help/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
 
-   如果您希望使用基于表单的体验编辑器，请选择[!UICONTROL 表单]。See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   如果您希望使用基于表单的体验编辑器，请选择[!UICONTROL 表单]。请参阅[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md)，以了解更多信息。
 
    >[!NOTE]
    >
-   >除了CMS和基于表单的Experience Composer之外，Target还提供单页应用程序CMS和CMS for Mobile Apps。有关各种书写器的更多信息，请参阅 [体验和选件](/help/c-experiences/experiences.md)。
+   >除了 VEC 和基于表单的体验编辑器之外，Target 还提供单页应用程序 VEC 和适用于移动设备应用程序的 VEC。有关各种编辑器的更多信息，请参阅[体验和选件](/help/c-experiences/experiences.md)。
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >the[！上一插图中的UICCONTRL [选择工作场所](/help/administrating-target/c-user-management/property-channel/property-channel.md) 选项是 [Target Premium](/help/c-intro/intro.md) 功能。如果您看不到此选项，则您的组织有Target Standard许可证。]
+   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。
 
-1. (视情况而定)如果您是 [Target Premium客户，](/help/c-intro/intro.md#premium)请选择 [工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. （视情况而定）如果您是一位 [Target Premium 客户](/help/c-intro/intro.md#premium)，请选择一个[工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 1. 指定活动 URL，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
@@ -49,9 +49,9 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
    单击“[!UICONTROL 下一步]”后，VEC 将会打开并显示您的页面。您可以将当前元素替换为推荐，也可以插入推荐。
 
-1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
+1. 单击页面上的某个元素，如果该元素所在的位置有可用推荐，请单击&#x200B;**[!UICONTROL 替换为推荐]**、**[!UICONTROL 在之前插入推荐]**&#x200B;或&#x200B;**[!UICONTROL 在之后插入推荐]**。
 
-   ![推荐选项](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
+   ![“推荐”选项](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
    将元素替换为推荐时，会删除当前内容并将其替换为推荐。
 
@@ -67,9 +67,9 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
    * 搜索结果页面
    * 感谢页面
    * 其他
-   ![选择页面类型选项](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
+   ![“选择页面类型”选项](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
-1. Select one or more [criteria](/help/c-recommendations/c-algorithms/algorithms.md).
+1. 选择一个或多个[标准](/help/c-recommendations/c-algorithms/algorithms.md)。
 
    标准会以卡片的形式显示，卡片中提供了每个标准的相关信息。默认情况下，“[!UICONTROL 选择标准]”屏幕会显示您所属的垂直行业的兼容标准以及您选择的页面类型。您可以更改这些选项以显示其他标准。
 
@@ -81,27 +81,27 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
    如果选择多个标准，则流量会平均拆分到选择的标准中。例如，如果您选择了两个标准，且您的活动设计为将默认内容显示给 20% 的活动参加者，那么 40% 的活动参加者将看到由每个标准控制的推荐。没有选项可以用来更改每个标准的百分比。
 
-   * To search for an existing criteria (for example, if a large number of criteria cards are displayed), type in the search field until the desired criteria appears, then select the criteria and click **[!UICONTROL Next]**.
+   * 要搜索现有标准（例如，如果显示了许多标准卡片），请在搜索字段中键入相应内容直到显示所需标准为止，然后选择该标准，并单击&#x200B;**[!UICONTROL 下一步]**。
 
       [!DNL Recommendations] 中提供了一些自带标准。您和您的团队也可以创建自己的自定义标准。
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 有关创建新标准的信息，请参阅[创建标准](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
-   * 您还可以将标准分组到序列中。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria Sequence]**. 有关更多信息，请参阅[创建标准序列](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)。
+   * 要创建新标准，请单击&#x200B;**[!UICONTROL 创建标准]** &gt; **[!UICONTROL 创建标准]**，然后填写有关新标准的信息。有关创建新标准的信息，请参阅[创建标准](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
+   * 您还可以将标准分组到序列中。要创建新标准序列，请单击&#x200B;**[!UICONTROL 创建标准]** &gt; **[!UICONTROL 创建标准序列]**。有关更多信息，请参阅[创建标准序列](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
-1. Select a [design](/help/c-recommendations/c-design-overview/design-overview.md).
+1. 选择一个[设计](/help/c-recommendations/c-design-overview/design-overview.md)。
 
    设计是一种模板，可决定页面上各个位置的外观。[!DNL Target] 中包含多个预配置的设计。您也可以创建自己的自定义设计。有关更多信息，请参阅[创建设计](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自定义设计](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
 
-   ![选择“设计”对话框](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
+   ![“选择设计”对话框](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
    每个设计都会以图表形式显示其外观，并且还会显示相应图标来反映当前使用该设计的活跃活动和不活跃活动的数量。
 
-   * To select one or more existing designs, click the designs, then click **[!UICONTROL Next]**.
+   * 要选择一个或多个现有的设计，请单击相应设计，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
-      如果选择了多个标准，则只能选择一个设计。
+      如果您选择了多个标准，则只能选择一个设计。
 
-   * To create a custom design, click **[!UICONTROL Create Design]**, then fill in the name and code for the new design. 单击&#x200B;**[!UICONTROL 下一步]**，选择或上传图像，然后单击&#x200B;**[!UICONTROL 完成]** &gt; **[!UICONTROL 完成]**。有关创建新设计的信息，请参阅[创建设计](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+   * 要创建自定义设计，请单击&#x200B;**[!UICONTROL 创建设计]**，然后填写新设计的名称和代码。单击&#x200B;**[!UICONTROL 下一步]**，选择或上传图像，然后单击&#x200B;**[!UICONTROL 完成]** &gt; **[!UICONTROL 完成]**。有关创建新设计的信息，请参阅[创建设计](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 
@@ -118,9 +118,9 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. 在 VEC 中查看推荐，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
-1. Review your [!DNL Recommendations] activity in the flow diagram and make any necessary changes.
+1. 在流程图中查看 [!DNL Recommendations] 活动，并做出任何必需的更改。
 
-   ![推荐流程图](/help/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
+   ![“推荐”流程图](/help/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
    流程图会引导您完成以下步骤：选择活动的受众、设置体验以及指定成功量度。
 
@@ -151,7 +151,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
    >
    >如果您指定的 [!DNL Recommendation] 活动名称已被 [!DNL Recommendations Classic] 中的其他活动使用，则会使用新名称重新同步新活动。新名称是在原始名称后附加一个时间戳，以使其具有唯一性。此新名称会同时显示在 [!DNL Target Standard/Premium] 和 [!DNL Recommendations Classic] 中。
 
-1. When finished, click **[!UICONTROL Save &amp; Close]**.
+1. 完成后，单击&#x200B;**[!UICONTROL 保存并关闭]**。
 
    此时会显示活动概述。
 
@@ -167,10 +167,10 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
    * 查看设计的代码
 
 1. （可选）打开[!UICONTROL 报表]页面以查看显示 [!DNL Recommendations] 活动性能的报表。
-1. （可选）打开“[!UICONTROL 冲突]”页面以查看可能会发生的任何[活动冲突](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html)。
+1. （可选）打开“[!UICONTROL 冲突]”页面以查看可能会发生的任何[活动冲突](/help/c-experiences/c-visual-experience-composer/activity-collisions.md)。
 
    如果设置了多个活动来向同一个页面交付内容，则会发生活动冲突，这可能导致页面显示意外内容。
 
-## 培训视频：创建推荐活动(7：15)
+## 培训视频：创建Recommendations活动(7:15)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?captions=chi_hans)

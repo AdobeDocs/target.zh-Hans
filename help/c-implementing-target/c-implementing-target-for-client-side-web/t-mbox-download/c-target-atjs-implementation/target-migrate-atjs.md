@@ -8,7 +8,7 @@ title: 如何从 mbox.js 迁移到 at.js
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
@@ -82,7 +82,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    >[!NOTE]
    >
-   >如果您当前未使用标签管理器来部署 [!DNL Target]，现在可以考虑使用此方法。Adobe 的[动态标签管理](https://dtm.adobe.com)免费向 [!DNL Target] 客户提供，建议使用此方法来部署 [!DNL Target]。有关更多信息，请参阅[使用动态标签管理实施 Adobe Target 的最佳实践](https://marketing.adobe.com/resources/help/en_US/dtm/target/)。
+   >如果您当前未使用标签管理器来部署 [!DNL Target]，现在可以考虑使用此方法。Adobe 的[动态标签管理](https://dtm.adobe.com)免费向 [!DNL Target] 客户提供，建议使用此方法来部署 [!DNL Target]。有关更多信息，请参阅[使用动态标签管理实施 Adobe Target 的最佳实践](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)。
 
 1. 确认当前所有活动和集成均可按预期运行。
 

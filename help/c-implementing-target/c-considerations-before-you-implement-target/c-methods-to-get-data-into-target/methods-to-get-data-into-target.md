@@ -9,7 +9,7 @@ title: 将数据导入 Target 的方法
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 * 如果要在后续页面/服务器调用中将数据用于定位，则需要将其转换为配置文件脚本。
 * 查询字符串只能包含符合 [Internet 工程任务组 (IETF) 标准](https://www.ietf.org/rfc/rfc3986.txt)的字符。
 
-   除了IETF站点中提到的内容之外，Target还允许在查询字符串中使用以下字符：
+   除了 IETF 站点上提到的那些字符之外，Target 还允许在查询字符串中使用以下字符：
 
    `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
@@ -336,8 +336,8 @@ Target Standard 客户可以使用 5 个属性，Target Premium 客户可以使�
 
 ### 代码示例
 
-有关详细信息，请参见[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)。
+Details can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### 相关信息链接
 
-[创建客户属性来源并上传数据文件](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+[创建客户属性来源并上传数据文件](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).

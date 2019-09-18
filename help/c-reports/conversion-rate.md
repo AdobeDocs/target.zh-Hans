@@ -8,7 +8,7 @@ title: 转化率
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -107,7 +107,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 [下载的 CSV 报表](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)仅包含原始数据，而不包含计算量度，如 A/B 测试中使用的每位访客带来的收入、提升度或置信度。
 
-要计算这些计算量度，请下载 [Target 的完整置信度计算器](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) Excel 文件以输入活动的值，或查看 [Target 使用的统计计算](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf)。
+To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >

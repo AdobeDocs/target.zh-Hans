@@ -8,7 +8,7 @@ title: 处理库中的内容
 topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 以下视频包含有关管理内容的信息。(4:56)
 
-* [Experience Cloud 资产库](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html)与 Target 内容库之间的关联
+* [Experience Cloud 资产库](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)与 Target 内容库之间的关联
 * 自定义 HTML 选件
 * 可视化体验编辑器中的自定义 HTML 选件
 

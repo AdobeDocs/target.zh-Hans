@@ -8,7 +8,7 @@ title: 转化率
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ## 零售数据 {#section_30A674731BA6440E9BB93C421BE990EE}
 
-如果您插入了[下订单](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) mbox，并选择该 mbox 作为转化 mbox，则会为每个体验显示 AOV、RPV 和销售额数据。
+如果您插入了[下订单](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) (`orderConfirmPage`) mbox，并选择该 mbox 作为转化 mbox，则会为每个体验显示 AOV、RPV 和销售额数据。
 
 ## 置信水平和置信区间 {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -127,7 +127,7 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
 1. 单击&#x200B;**[!UICONTROL 工具]** &gt; **[!UICONTROL Data Warehouse]**。
 1. 在 **[!UICONTROL Data Warehouse 请求]选项卡中，填写相应的字段。**
 
-   有关各个字段的更多信息，请参阅 [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html) 中的“Data Warehouse 请求描述”。
+   有关各个字段的更多信息，请参阅 [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) 中的“Data Warehouse 请求描述”。
 
    | 字段 | 说明 |
    |--- |--- |
@@ -147,8 +147,8 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
 
 有关 [!DNL Data Warehouse] 的更多信息，请访问 [!DNL Analytics] 帮助文档中的以下链接：
 
-* [创建 Data Warehouse 请求](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
-* [Data Warehouse 最佳实践](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
+* [创建 Data Warehouse 请求](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
+* [数据仓库最佳实践](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## 计数方法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 

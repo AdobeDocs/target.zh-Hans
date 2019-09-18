@@ -1,14 +1,14 @@
 ---
 description: 您可以从受极端订单影响的报表中排除极端值，这样，一些超常订单便不会影响活动结果。例如，与个人购买者购买个人制服相比，一位教练为整个团队购买统一制服可能会产生一个超常订单。
 keywords: Target;报表;报表设置;超常订单;极端值
-seo-description: 您可以从受极端订单影响的报表中排除极端值，这样，一些超常订单便不会影响活动结果。例如，与个人购买者购买个人制服相比，一位教练为整个团队购买统一制服可能会产生一个超常订单。
-seo-title: 排除极端值
+seo-description: 您可以从影响Adobe Target中的报表中排除极值，以便少数不寻常的订单不会影响您的活动结果。 例如，与个人购买者购买个人制服相比，一位教练为整个团队购买统一制服可能会产生一个超常订单。
+seo-title: 在Adobe target报告中排除极值
 solution: Target
 title: 排除极端值
 topic: Premium
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
@@ -32,9 +32,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 **要从报表中排除极端值，请执行以下操作：**
 
 1. 打开包含收入或参与度量度类型的活动，然后单击&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡。
-1. 单击齿轮图标，以显示“[!UICONTROL 报表设置]”选项。
+1. 单击齿轮图标。
+
+   ![报表设置](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
+
+   此时将显示 [!UICONTROL “报告设置] ”选项对话框。
 
    ![步骤结果](assets/exclude_extreme_values.png)
 
 1. 根据需要打开或关闭&#x200B;**[!UICONTROL 排除极端值]**&#x200B;选项。
-1. 单击&#x200B;**[!UICONTROL 保存设置]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。

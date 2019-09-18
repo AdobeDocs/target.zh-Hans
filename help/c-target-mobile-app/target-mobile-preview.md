@@ -8,7 +8,7 @@ title: Target 移动设备预览
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -31,8 +31,8 @@ source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
    有关下载适当 SDK 的说明，请参阅：
 
-   * **iOS：**《适用于 Experience Cloud 解决方案的 iOS SDK 4.x》[](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html)指南中的&#x200B;*开始之前*&#x200B;部分。
-   * **Android：**《适用于 Experience Cloud 解决方案的 Android SDK 4.x》指南中的[开始之前](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*部分。*
+   * **** iOS:在 [开始使用](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html)*Mobile Services iOS帮助之前*。
+   * **** Android:在 [开始使用](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)*Mobile Services android帮助之前*。
 
 1. **设置 URL 方案：**&#x200B;预览链接需使用 URL 方案来打开应用程序。您必须为预览指定一个唯一的 URL 方案。
 

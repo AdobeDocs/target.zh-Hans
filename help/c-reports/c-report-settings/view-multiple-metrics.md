@@ -1,14 +1,14 @@
 ---
 description: 可选择要在报表中查看的多个量度。
 keywords: Target;报表;报表设置;多个量度;量度
-seo-description: 可选择要在报表中查看的多个量度。
-seo-title: 在报表中查看多个量度
+seo-description: 使用Adobe Target选择多个要在报告中查看的指标。
+seo-title: 使用Adobe Target在报告中查看多个指标
 solution: Target
 title: 在报表中查看多个量度
 topic: Premium
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
@@ -19,9 +19,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 在报表中使用多个量度时，请注意以下信息：
 
-* 查看多个量度的功能仅适用于 A/B 活动和体验定位 (XT) 活动。
-* 对于使用了 Analytics for Target (A4T) 的活动，您在活动报表中添加的量度不能超过 20 个。对于未使用 A4T 的活动，您在活动报表中可以添加所具有的任意数量的量度。
-* 如果您选择了多个量度，则将无法使用“[!UICONTROL 下载]”选项将报表下载到 CSV 文件中。要启用“[!UICONTROL 下载]”选项，您必须只选择一个量度。
+* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
+* You cannot add more than 20 metrics to a report for an activity that uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). You can add as many metrics as you have in your activity to reports for activities that do *not* use A4T.
+* 如果您选择了多个量度，则将无法使用“[](/help/c-reports/downloading-data-in-csv-file.md)下载”选项将报表下载到 CSV 文件中。要启用“[!UICONTROL 下载]”选项，您必须只选择一个量度。
 * 对于在 Target 2015 年 7 月版（2015 年 7 月 30 日）之前创建的活动，您无法查看多个量度。
 
 **选择要在报表中显示的多个量度：**
@@ -46,17 +46,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    您可以在“[!UICONTROL 显示的量度]”列表中按所需顺序将各个量度拖放到相应的位置，以重新排列这些量度。所选的顺序将反映在“表格视图”和“图形视图”中。要从“[!UICONTROL 显示的量度]”列表中删除某个量度，请将鼠标指针悬停在该量度上，然后单击 **X** 图标。
 
 1. 完成后单击&#x200B;**[!UICONTROL 保存]。**
-1. 在“表格视图”中查看报表时，将鼠标指针悬停在任意量度所在列的标题上，可显示一个蓝色箭头。单击该箭头可展开表格，以便显示该量度的[!UICONTROL 提升度]和[!UICONTROL 置信度]。
+1. （视情况而定）在表视图中查看报表时，将鼠标指针悬停在任何度量的列标题上可显示蓝色箭头。 单击该箭头可展开表格，以便显示该量度的[!UICONTROL 提升度]和[!UICONTROL 置信度]。
 
    ![](assets/multiple_metrics_table.png)
 
    您一次只能展开一个量度/列。再次单击该箭头可折叠列。
 
-1. 在“图形视图”中查看报表时，您可以从下拉列表中选择要显示的各个量度：
+1. （视情况而定）在“图形视图”中查看报表时，您可以从下拉列表中选择要显示的单个度量：
 
    ![](assets/multiple_metrics_graph.png)
-
-   同样，在“图形视图”中查看报表时，收入维度也会显示为一个下拉列表：
-
-   ![](assets/muttiple_revenue.png)
 

@@ -7,7 +7,7 @@ solution: Target
 title: 使用 Analytics 数据
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以将 Target Standard 中的活动配置为使用 Adobe Analytics 作为报表源 (A4T)。
 
-有关将 Analytics 设置为 Target 数据源的详细信息，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)。
+For detailed information about setting up Analytics as the data source for Target, see [Adobe Analytics as the Reporting Source for Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 在设置将 Analytics 用作报表源的活动之前，请先为该活动建立目标，例如提升每位访客带来的收入 (RPV) 或增加购物车的点击量。需为营销活动选择最终成功量度。尽管可以在 Analytics 中随时选择其他量度，但您仍然必须指定希望此测试影响的特定量度。
 

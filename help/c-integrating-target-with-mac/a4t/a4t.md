@@ -9,7 +9,7 @@ title: 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -53,7 +53,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 * 使用 Analytics 作为报表源时，只允许使用一个基于 mbox 的量度。
 * 从 Target 到 Analytics 的服务器到服务器调用会向 Analytics 发送活动和体验信息。此集成不会为 Target 或 Analytics 生成其他服务器调用。
 
-   在某些情况下，Target的分类调用可能会失败，并且活动不会在Analytics中显示数据。如果发生这种情况，请参阅 [Analytics和Target集成疑难解答(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。您还可以 [联系客户关怀](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) 部门以获得进一步帮助。
+   在某些情况下，从Target到Analytics的分类调用可能会失败，且活动不会在Analytics中显示数据。 如果出现这种情况，请 [参阅Analytics和Target集成疑难解答(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 您还可以联系 [客户关怀部门](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) ，获得进一步帮助。
 
 ## 支持的活动类型 {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -68,7 +68,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 | 多变量测试 (MVT) | 是 | 需要基于 mbox 的目标量度来获取元素贡献报表。元素贡献报表目前不支持 Analytics 量度。 |
 | 自动个性化 (AP) 活动 | 否 |  |
 | “推荐”活动 | 是 |  |
-| 移动设备应用程序 | 是 | 在 Mobile Services SDK 版本 4.13.1 或更高版本中受支持。有关更多信息，请参阅 [Mobile Services 文档](https://marketing.adobe.com/resources/help/en_US/mobile/)。 |
+| 移动设备应用程序 | 是 | 在 Mobile Services SDK 版本 4.13.1 或更高版本中受支持。有关更多信息，请参阅 [Mobile Services 文档](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)。 |
 | 电子邮件 | 否 |  |
 | 服务器端交付 API | 是 | 有关更多信息，请参阅[服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
 | NodeJS SDK | 是 | 有关更多信息，请参阅[服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |

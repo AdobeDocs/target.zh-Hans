@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Adobe Target 帮助
 user-guide-url: /content/help/zh-Hans/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + 企业用户权限 {#enterprise}
          + [企业用户权限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [配置企业权限](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [授予Adobe I/集成功能访问工作区和分配角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [授予Adobe I/O集成对工作区的访问权限并分配角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Dynamic Media Classic 集成](administrating-target/scene7-settings.md)
    + [主机](administrating-target/hosts.md)
    + [响应令牌](administrating-target/response-tokens.md)
@@ -56,8 +56,8 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
          + [隐私和数据保护规定](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [删除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite Cookie 策略](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple智能跟踪预防(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [Content Security Policy(CSP)指令](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [内容安全策略(CSP)指令](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + 将数据导入 Target 的方法 {#methods}
          + [方法](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [配置文件 API 设置](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -167,6 +167,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
          + [量度定义 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [夸大的访问和访客计数 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [分类 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
+         + [共享量度、受众和报表 - A4T 常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [旧版 SiteCatalyst 与 Test&amp;Target 集成 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [使用和不使用 A4T 时，Target 和 Analytics 之间的预期数据差异](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud 受众](c-integrating-target-with-mac/mmp.md)
@@ -276,7 +277,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + [配置文件属性](c-target/c-visitor-profile/profile-parameters.md)
       + [类别亲和度](c-target/c-visitor-profile/category-affinity.md)
       + [客户属性](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox3 rdPartyId的实时配置文件同步](c-target/c-visitor-profile/3rd-party-id.md)
+      + [为mbox3rdPartyId实时同步配置文件](c-target/c-visitor-profile/3rd-party-id.md)
       + [配置文件和变量一览表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + 定位和受众常见问题解答 {#faq-audiences}
       + [定位和受众常见问题解答](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)

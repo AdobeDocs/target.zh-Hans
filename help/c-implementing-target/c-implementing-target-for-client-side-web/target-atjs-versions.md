@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: at.js 版本详细信息
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -21,41 +21,41 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 >
 >Target 团队仅维护两个版本的 [!DNL at.js]：当前版本和当前版本的上一个版本。请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。
 
-## at. js version2.1.1(2019年月24日)
+## at.js版本2.1.1（2019年7月24日）
 
-此版本的. js是维护版本，包含以下增强和修复：
+此版本的at.js是维护版本，包括以下增强和修复：
 
 （括号中的问题编号供 Adobe 内部使用。）
 
-* 修复了使用Visual Experience Composer(CMS)中的“目标和设置”页面上的“单击跟踪”量度触发多个信标的问题。(TNT-32812)
-* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
-* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
-* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
-* 修复了由于使用DecodeURIComponent导致URL包含格式错误的查询字符串参数导致错误的问题。(TNT-32710)
-* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
-* 修复了阻止Recommendations选件在网站上为少数客户显示的问题。客户可以在交付API调用中看到选件内容，但该选件未在网站上应用。(TNT-32680)
-* 修复了导致跨多个体验点击跟踪无法正常工作的问题。(TNT-32644)
-* 修复了一个问题，该问题导致. js无法在第一个量度的渲染失败后应用第二个量度。(TNT-32628)
-* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
-* 修复了一个问题，该问题导致在基于Chromium的浏览器(包括Google Chrome)中阻止显示和单击通知响应。(TNT-32290)
+* 修复了在可视体验书写器(VEC)的“目标和设置”页面上使用“单击跟踪”度量时，导致多个信标触发的问题。 (TNT-32812)
+* 修复了导致渲染选 `triggerView()` 件次数不超过一次的问题。 (TNT-32780)
+* 修复了确保 `triggerView()` 请求包含Marketing Cloud ID(MCID)信息的问题。 (TNT-32776)
+* 修复了即使没有保存的视 `triggerView()` 图也无法触发通知的问题。 (TNT-32614)
+* 修复了由于使用decodeURI组件导致错误的问题，该问题导致URL包含格式错误的查询字符串参数时出现问题。 (TNT-32710)
+* 在通过 `Navigator.sendBeacon()` API发送的传送请求上下文中，信标标记现在设置为“true”。 (TNT-32683)
+* 修复了导致Recommendations选件无法在少数客户的网站上显示的问题。 客户可以在交付API调用中看到选件内容，但该选件未应用于网站。 (TNT-32680)
+* 修复了导致跨多个体验的点击跟踪无法按预期工作的问题。 (TNT-32644)
+* 修复了在呈现第一个量度失败后，at.js无法应用第二个量度的问题。 (TNT-32628)
+* 修复了使用函 `mboxThirdPartyId` 数传递 `targetPageParams` 时导致请求有效负荷不存在于查询参数或请求有效负荷中的问题。 (TNT-32613)
+* 修复了在基于Chromium的浏览器（包括Google Chrome）中导致显示和单击通知响应被阻止的问题。 (TNT-32290)
 
-## at. js version2.1.0(2019年月日)
+## at.js 版本 2.1.0（2019 年 6 月 3 日）
 
 此版本包括以下功能和增强功能：
 
-* **Adobe选择参与支持**：Adobe选择加入是一种简化与同意管理平台集成的Adobe解决方案。For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Adobe 选择加入支持**：通过 Adobe 选择加入，可轻松将 Adobe 解决方案与同意管理平台集成。有关 Adobe 选择加入的更多信息，请参阅[隐私和《通用数据保护条例》(GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)。
 
-* **符合行业标准的CSP**：at. js不再使用eval()执行JavaScript。
+* **符合行业标准 CSP**：at.js 不再使用 eval() 执行 JavaScript。
 
-* **客户端分析日志记录**：无论客户端还是服务器端，都可以完全控制他们如何将分析数据发送到Adobe Analytics。
+* **客户端分析日志记录**：无论是在客户端还是服务器端，均允许客户完全控制如何将分析数据发送到 Adobe Analytics
 
-   For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
+   有关更多信息，请参阅“实施之前”**&#x200B;中的[客户端分析日志记录](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side)。
 
-* **发送通知**：允许开发人员在体验呈现的而不是使用 `applyOffer()` 或 `applyOffers()`使用的情况下发送通知。
+* **发送通知**：允许开发人员在通过代码而不是使用 `applyOffer()` 或 `applyOffers()` 呈现体验时发送通知。
 
-   For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+   有关更多信息，请参阅 [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。
 
-* **at. js大小减少了~24%**：. js的大小减小了~24%。文件大小较小，可提高页面加载性能并缩短页面上下载. js的时间。
+* **at.js 大小减少了约 24%**：at.js 的大小减少了约 24%。较小的文件大小可提高页面加载性能并缩短在页面上下载 at.js 的时间。
 
 ## at.js 版本 2.0.1（2019 年 3 月 19 日）
 
@@ -103,7 +103,7 @@ at.js 2.x 引入了以下新函数：
 
 >[!NOTE]
 >
->If you require Adobe Opt-in support for the [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR), you must currently use at.js 1.7.0 or at.js 2.1.0.
+>如果您需要使用满足[《通用数据保护条例》](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)(GDPR) 要求的 Adobe 选择加入支持，则当前必须使用 at.js 1.7.0 或 at.js 2.1.0。
 
 ## at.js 版本 1.7.0 {#at-js-170}
 
@@ -115,7 +115,7 @@ at.js 1.7.0 提供了 Adobe 选择加入支持。通过 Adobe 选择加入，可
 
 >[! 注意]
 >
->If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0 or 2.1.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>如果您需要使用满足 GDPR 要求的 Adobe 选择加入支持，则当前必须使用 at.js 1.7.0 或 2.1.0。<br>有关所有版本的列表，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
 ## at.js 版本 1.6.4 {#at-js-164}
 
@@ -287,7 +287,7 @@ at.js 版本 1.0 中包含以下增强功能和修复：
 * 添加了 `selectorsPollingTimeout` 设置。有关更多信息，请参阅 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 * 更改了来自 `getOffer()` 的响应格式。有关更多信息，请参阅 [adobe.target.getOffer(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)。
 * 为不支持的 `<!DOCTYPE>` 声明添加了控制台日志记录。
-* 修复了将多个默认选件交付到单个 mbox 时，无法正确应用 [!DNL Target Classic] 插件的问题。(TGT-22664) 有关更多信息，请参阅 Adobe Target Classic 文档中的[插件](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Using_Plug-Ins.html)。
+* 修复了将多个默认选件交付到单个 mbox 时，无法正确应用 [!DNL Target Classic] 插件的问题。(TGT-22664)
 * 改进了双字符顶级域 (TLD) 的 Cookie 设置，以确保为这些域（例如，[!DNL test.no]、[!DNL autodrives.ca] 等）正确设置 mbox Cookie。
 * at.js 版本 0.9.6 中更改了对保存 Cookie 时应使用的顶级域进行提取的算法。由于进行了这项更改，Cookie 不能保存到使用 IP 的地址中。在大多数情况下，IP 地址都用于测试目的，但作为变通方法，您可以使用 DNS 条目或调整本地框中的主机文件。
 * 修复了当属性是字符串值而不是整数时的移动和重新排列操作处理方式。

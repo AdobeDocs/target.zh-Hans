@@ -8,14 +8,14 @@ title: 基于表单的体验编辑器
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
 
 # 基于表单的体验编辑器{#form-based-experience-composer}
 
-基于表单的Experience Composer是一种非可视体验和选件创建界面，可在视觉体验书写器不提供或实用的情况下创建体验，从而在A/B测试、体验定位、自动个性化和推荐活动中使用。例如，您可以使用基于表单的书写器为电子邮件、自助电话亭和语音助理中的交付创建体验和选件。
+基于表单的体验编辑器是一个非可视化体验和选件创建界面，当可视化体验编辑器不可用或不实用时，它有助于创建在 A/B 测试、体验定位、自动个性化和“推荐”活动中使用的体验。例如，您可以使用基于表单的编辑器为电子邮件、网亭和语音助手中的交付创建体验和选件。
 
 如果您创建的是“推荐”活动，则不存在任何体验。需选择您的标准和设计。如果您选择多个标准或设计，则 Target 会自动生成体验。
 
@@ -77,7 +77,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    1. 键入选件名称。
    1. 在代码框中键入或粘贴您的 JSON 代码。
    1. 单击[!UICONTROL 保存]。
-   对于“推荐”活动，“内容”下拉列表中提供了“添加推荐”选项。单击&#x200B;**[!UICONTROL 添加推荐]**，然后选择页面类型。接下来，按照界面中定义的常规步骤[创建“推荐”活动](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html)。
+   对于“推荐”活动，“内容”下拉列表中提供了“添加推荐”选项。单击&#x200B;**[!UICONTROL 添加推荐]**，然后选择页面类型。接下来，按照界面中定义的常规步骤[创建“推荐”活动](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 
    在基于表单的体验编辑器中选择推荐标准时，现在有一个指向所选标准卡片的直接链接，以便您快速方便地对标准进行编辑。
 

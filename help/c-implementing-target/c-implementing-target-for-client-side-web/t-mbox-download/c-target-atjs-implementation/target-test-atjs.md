@@ -5,7 +5,7 @@ seo-title: 将 at.js 部署到非生产环境
 title: 将 at.js 部署到非生产环境
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 保存该库后，可使用 DTM 切换工具来针对您的生产代码对其进行测试。这还方便 Adobe 顾问为您提供支持。
 
-有关更多信息，请参阅《使用动态标签管理实施 Adobe Target 的最佳实践》__&#x200B;指南中的[选项 3：通过由 DTM 托管的 Target JavaScript 库手动实施 Target](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html)。
+有关更多信息，请参阅《使用动态标签管理实施 Adobe Target 的最佳实践》**&#x200B;指南中的[选项 3：通过由 DTM 托管的 Target JavaScript 库手动实施 Target](https://docs.adobe.com/content/help/en/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html)。
 
 ## 使用“Requestly”Chrome 扩展映射到其他文件
 

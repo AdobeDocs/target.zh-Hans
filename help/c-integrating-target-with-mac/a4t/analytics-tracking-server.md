@@ -6,7 +6,7 @@ seo-title: 使用 Analytics 跟踪服务器
 title: 使用 Analytics 跟踪服务器
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 从您正在创建活动的页面上，打开 Adobe Experience Cloud 调试器。
 
-   如果您尚未安装该调试器，请按照 [Adobe 调试器安装说明](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html)进行安装。
+   如果尚未安装调试器，请参阅安 [装Experience cloud调试器](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html)。
 
    ![](assets/Screen_DebuggerTrackServ.png)
 

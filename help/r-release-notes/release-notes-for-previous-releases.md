@@ -8,7 +8,7 @@ title: 以前版本的发行说明
 topic: 推荐
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -23,17 +23,17 @@ source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ## 发行说明 - 2019 {#releases-2019}
 
-### 目标Mobile CMS SDK iOS2.1.0和Android1.1.1(2019年月日)
+### Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1（2019年8月7日）
 
-此版本的Mobile CMS SDK包含以下增强和修复：
+此版本的Mobile VEC SDK包含以下增强和修复：
 
 （括号中的问题编号供 Adobe 内部使用。）
 
-* 增加了在移动设备上预览“可视活动”的支持。(TGT-27875)
-* 修复了 `UIImagePickerController` 由于使用而导致Apple Standard违规的问题。
-* 删除了Android SDK中的GSON依赖关系。(TGT-31710)
-* 删除了其他多余的灰度依赖关系(TGT-35479)
-* 修复了在创作时无法重置交付选件的问题。(TGT-35270)
+* 增加了对移动设备上的“预览可视活动”的支持。 (TGT-27875)
+* 修复了由于使用而导致Apple Standard违规的 `UIImagePickerController` 问题。
+* 从Android SDK中删除了GSON依赖性。 (TGT-31710)
+* 删除了其他冗余Gradle依赖关系(TGT-35479)
+* 修复了在创作时无法重置交付选件的问题。 (TGT-35270)
 
 ### Target Standard/Premium 19.7.1（2019 年 7 月 24 日）{#tgt-19-7-1}
 
@@ -43,34 +43,34 @@ source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| 移动设备应用程序可视化体验编辑器 | 移动设备应用程序 VEC 中将显示一个新的“修改”面板，该面板可显示您为点击跟踪设置的各个元素。(TGT-31741)<br> 请参阅 [在移动应用程序中设置单击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)。 |
+| 移动设备应用程序可视化体验编辑器 | 移动设备应用程序 VEC 中将显示一个新的“修改”面板，该面板可显示您为点击跟踪设置的各个元素。(TGT-31741)<br> 请参 [阅在移动应用程序中设置单击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)。 |
 | ![Premium 徽章](/help/assets/premium.png)<br>A/B 测试和体验定位 (XT) 活动中的推荐 | 推荐选件（算法）状态将显示在包含推荐选件的 A/B 测试和 XT 活动的“概述”页面上。状态包括：“结果已准备就绪”、“结果未准备就绪”和“信息源故障”。(TGT-33649)<br>请参阅[“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md#status)。 |
-| at.js 2.0 及更高版本通过 Experience Cloud ID (ECID) 库支持跨域跟踪 | 以前，at.js 2.*x* 不支持跨域跟踪。现在，在此版本中，使用 at.js 2.0 或更高版本的客户可以通过 ECID 库执行跨域跟踪。为使跨域跟踪正常运行，必须将 ECID 库与 at.js 2.0 或更高版本一起安装在页面上。[必须使用Experience Cloud ID库4.3.0+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 。<br>请参阅 [位于. js2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)的跨域跟踪支持。 |
-| Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple 的 ITP 2.1 和 ITP 2.2 | 现在，Target 客户可以通过利用 Adobe 的 CNAME 认证计划来应对 Apple 的 ITP 2.1 和 ITP 2.2。<br>在此版本中，Target引入了与ECID库4.3的无缝集成，它利用服务器端Cookie减轻ITP2.1和ITP2.2。强烈建议Target客户与Target的JavaScript库一起部署 [EID库4.3+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) ，以减轻将来的任何ITP版本。ECID 库将持续增强，针对各浏览器推出的不断变化的 Cookie 策略提供完善的解决方案。<br>请参阅 [Apple智能跟踪预防(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
+| at.js 2.0 及更高版本通过 Experience Cloud ID (ECID) 库支持跨域跟踪 | 以前，at.js 2.*x* 不支持跨域跟踪。现在，在此版本中，使用 at.js 2.0 或更高版本的客户可以通过 ECID 库执行跨域跟踪。为使跨域跟踪正常运行，必须将 ECID 库与 at.js 2.0 或更高版本一起安装在页面上。[必须使用Experience Cloud ID库4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 。<br>请参 [阅at.js 2.x中的跨域跟踪支持](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
+| Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple 的 ITP 2.1 和 ITP 2.2 | 现在，Target 客户可以通过利用 Adobe 的 CNAME 认证计划来应对 Apple 的 ITP 2.1 和 ITP 2.2。<br>在此版本中，Target引入了与ECID库4.3的无缝集成，该库利用服务器端Cookie来减轻ITP 2.1和ITP 2.2的影响。强烈建议Target客户将 [ECID库4.3+与Target的JavaScript库一起部署](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ，以减轻任何未来ITP版本的影响。 ECID 库将持续增强，针对各浏览器推出的不断变化的 Cookie 策略提供完善的解决方案。<br>请参 [阅Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
 
 **增强功能、修复和更改**
 
-* 修复了在添加重复值时无法清除Recommendations活动中的值的问题。(TGT-34996)
-* 您现在可以从定位页面中删除“推荐”活动中的设计(三部分引导工作流的步骤2)。请注意，要删除设计，必须选择多个设计。(TGT-35118)
-* 修复了某个问题导致某些客户无法在目标UI中正确加载或可编辑的问题。(TGT-35170)
+* 修复了在添加重复值时无法清除Recommendations活动中的排除值的问题。 (TGT-34996)
+* 您现在可以从定位页面中删除推荐活动中的设计（三部分指导式工作流的步骤2）。 请注意，要删除设计，必须选择多个设计。 (TGT-35118)
+* 修复了导致某些客户无法在目标UI中正确加载或可编辑的自定义条件卡的问题。 (TGT-35170)
 
-### at. js version2.1.1(2019年月24日)
+### at.js版本2.1.1（2019年7月24日）
 
-此版本的. js是维护版本，包含以下增强和修复：
+此版本的at.js是维护版本，包括以下增强和修复：
 
 （括号中的问题编号供 Adobe 内部使用。）
 
-* 修复了使用Visual Experience Composer(CMS)中的“目标和设置”页面上的“单击跟踪”量度触发多个信标的问题。(TNT-32812)
-* 修复了导致不 `triggerView()` 渲染选件的问题。(TNT-32780)
-* 修复了一 `triggerView()` 个问题，以确保请求包含Marketing Cloud ID(MCID)信息。(TNT-32776)
-* 修复了即使没有保存的视图也会阻止 `triggerView()` 通知开火的问题。(TNT-32614)
-* 修复了由于使用DecodeURIComponent导致URL包含格式错误的查询字符串参数导致错误的问题。(TNT-32710)
-* 在通过 `Navigator.sendBeacon()` API发送的交付请求上下文中，信标标志现在设置为“true”。(TNT-32683)
-* 修复了阻止Recommendations选件在网站上为少数客户显示的问题。客户可以在交付API调用中看到选件内容，但该选件未在网站上应用。(TNT-32680)
-* 修复了导致跨多个体验点击跟踪无法正常工作的问题。(TNT-32644)
-* 修复了一个问题，该问题导致. js无法在第一个量度的渲染失败后应用第二个量度。(TNT-32628)
-* 修复了使用 `mboxThirdPartyId` 导致请求有效负荷不存在于查询参数或请求有效负荷中 `targetPageParams` 的函数时出现的问题。(TNT-32613)
-* 修复了一个问题，该问题导致在基于Chromium的浏览器(包括Google Chrome)中阻止显示和单击通知响应。(TNT-32290)
+* 修复了在可视体验书写器(VEC)的“目标和设置”页面上使用“单击跟踪”度量时，导致多个信标触发的问题。 (TNT-32812)
+* 修复了导致渲染选 `triggerView()` 件次数不超过一次的问题。 (TNT-32780)
+* 修复了确保 `triggerView()` 请求包含Marketing Cloud ID(MCID)信息的问题。 (TNT-32776)
+* 修复了即使没有保存的视 `triggerView()` 图也无法触发通知的问题。 (TNT-32614)
+* 修复了由于使用decodeURI组件导致错误的问题，该问题导致URL包含格式错误的查询字符串参数时出现问题。 (TNT-32710)
+* 在通过 `Navigator.sendBeacon()` API发送的传送请求上下文中，信标标记现在设置为“true”。 (TNT-32683)
+* 修复了导致Recommendations选件无法在少数客户的网站上显示的问题。 客户可以在交付API调用中看到选件内容，但该选件未应用于网站。 (TNT-32680)
+* 修复了导致跨多个体验的点击跟踪无法按预期工作的问题。 (TNT-32644)
+* 修复了在呈现第一个量度失败后，at.js无法应用第二个量度的问题。 (TNT-32628)
+* 修复了使用函 `mboxThirdPartyId` 数传递 `targetPageParams` 时导致请求有效负荷不存在于查询参数或请求有效负荷中的问题。 (TNT-32613)
+* 修复了在基于Chromium的浏览器（包括Google Chrome）中导致显示和单击通知响应被阻止的问题。 (TNT-32290)
 
 For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
@@ -303,15 +303,15 @@ For information about this and previous versions of at.js, see [at.js version de
  <tbody> 
   <tr> 
    <td colname="col1"> <p>体验 </p> </td> 
-   <td colname="col2"> <p>现在，您可以复制体验定位 (XT) 活动中的体验，以便可以对其进行细微更改，而无需重头开始重新创建体验。这项功能已经可用于 A/B 测试。(TGT-31504) </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_xt_add_experience.html" format="html" scope="external">创建体验</a>。 </p> </td> 
+   <td colname="col2"> <p>现在，您可以复制体验定位 (XT) 活动中的体验，以便可以对其进行细微更改，而无需重头开始重新创建体验。这项功能已经可用于 A/B 测试。(TGT-31504) </p> <p>请参阅<a href="https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/create-targeting/xt-add-experience.html" format="html" scope="external">创建体验</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>自动个性化 (AP) 活动中的选件 </p> </td> 
-   <td colname="col2"> <p>在 2018 年 9 月版中，我们增加了一项增强功能，让您能够按报表组筛选选件。现在，您可以筛选“未分配选件”，以便将某个报表组分配给当前未分配给任何报表组的选件。(TGT-31882) </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_create_ap_activity.html" format="html" scope="external">创建自动个性化活动</a>。 </p> </td> 
+   <td colname="col2"> <p>在 2018 年 9 月版中，我们增加了一项增强功能，让您能够按报表组筛选选件。现在，您可以筛选“未分配选件”，以便将某个报表组分配给当前未分配给任何报表组的选件。(TGT-31882) </p> <p>请参阅<a href="https://docs.adobe.com/content/help/en/target/using/activities/automated-personalization/create-ap-activity.html" format="html" scope="external">创建自动个性化活动</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>活动报表源 </p> </td> 
-   <td colname="col2"> <p>在<span class="wintitle">设置</span> &gt; <span class="wintitle">首选项</span>中，您可以选择 <span class="keyword">Target</span> 或 <span class="keyword">Adobe Analytics</span> 作为活动的报表源。您也可以选择为每个活动分别选择报表源。 </p> <p>从这一版本开始，当您在<span class="wintitle">首选项</span>或根据活动选择报表源时，应注意一些重要的工作流注意事项。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/ov/r_target-account-preferences.html" format="html" scope="external">首选项</a>。 </p> </td> 
+   <td colname="col2"> <p>在<span class="wintitle">设置</span> &gt; <span class="wintitle">首选项</span>中，您可以选择 <span class="keyword">Target</span> 或 <span class="keyword">Adobe Analytics</span> 作为活动的报表源。您也可以选择为每个活动分别选择报表源。 </p> <p>从这一版本开始，当您在<span class="wintitle">首选项</span>或根据活动选择报表源时，应注意一些重要的工作流注意事项。 </p> <p>请参阅<a href="https://docs.adobe.com/content/help/en/target/using/administer/preferences/target-account-preferences.html" format="html" scope="external">首选项</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,7 +324,7 @@ For information about this and previous versions of at.js, see [at.js version de
 
    * 如果在 AAM 中删除受众，则“[!UICONTROL 受众]”列表和受众选择器均会显示警告图标。UI 中的工具提示也会指示受众已在 AAM 中删除。
    * 如果您尝试将多个受众与已删除的受众合并，或者您想保存引用了已删除受众的活动，则会显示一条警告消息。
-   请参阅[受众简介](https://marketing.adobe.com/resources/help/en_US/target/target/c_audiences.html)。
+   请参阅[受众简介](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)。
 
 * 修复了在“[!UICONTROL 设置]”页面上选择 Adobe Analytics 作为报告源时，某些情况下用户无法创建活动的问题。即使用户没有选择报表包的选项，他们仍会看到“请选择一个报表包”的消息。(TGT-31968)
 
@@ -343,7 +343,7 @@ For information about this and previous versions of at.js, see [at.js version de
    <td colname="col2"> <p>这是一个维护版本，该版本解决了以下问题： </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>修复了某些客户网站上出现的会导致无限“异步”循环的问题。 </p> </li> 
-     </ul> </p> <p> <p>重要信息：此外，at.js 版本 1.6.2 还包含 at.js 版本 1.6.1 和 1.6.0 中包含的所有增强功能和修复。这些版本不再可供下载。如果您使用的是 1.6.1 或 1.6.0，我们建议您升级到 1.6.2 版本。 </p> </p> <p>有关更多信息，请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-versions.html" format="html" scope="external">at.js 版本详细信息</a>。 </p> </td> 
+     </ul> </p> <p> <p>重要信息：此外，at.js 版本 1.6.2 还包含 at.js 版本 1.6.1 和 1.6.0 中包含的所有增强功能和修复。这些版本不再可供下载。如果您使用的是 1.6.1 或 1.6.0，我们建议您升级到 1.6.2 版本。 </p> </p> <p>有关更多信息，请参阅 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 版本详细信息</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -660,7 +660,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Manager (AEM) 体验片段 </p> </td> 
-   <td colname="col2"> <p>通过在 Target 活动中使用 AEM 中创建的体验片段，您可以将 AEM 中这一简单易用的功能与 Target 中强大的自动化智能 (AI) 和机器学习 (ML) 功能结合使用，从而测试和个性化大量体验。&amp; amp；nbsp；&amp; amp；nbsp； </p> <p>AEM 可将您的所有内容和资产汇集到一个中心位置，以帮助实施您的个性化策略。通过 AEM，您能够在一个位置轻松创建适用于桌面、平板电脑和移动设备的内容，而无需编写代码。您无需为每种设备分别创建页面，因为 AEM 可以使用您的内容自动调整每个体验。 </p> <p> Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（这些方法包含行为、上下文和离线变量），交付大量的个性化体验。通过 Target，您可以轻松地设置并运行 A/B 活动和多变量活动，从而确定最佳的选件、内容和体验。 </p> <p>现在，有些从事优化和个性化工作的专业人士正在使用 Target 促进其业务发展，对这类人士而言，体验片段代表了在将内容/体验创建器与管理器关联方面迈出了巨大的一步。 </p> <p>有关更多信息，请参阅 <a href="../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM 体验片段</a>。 </p> </td> 
+   <td colname="col2"> <p>通过在 Target 活动中使用 AEM 中创建的体验片段，您可以将 AEM 中这一简单易用的功能与 Target 中强大的自动化智能 (AI) 和机器学习 (ML) 功能结合使用，从而测试和个性化大量体验。&amp;nbsp;&amp;nbsp; </p> <p>AEM 可将您的所有内容和资产汇集到一个中心位置，以帮助实施您的个性化策略。通过 AEM，您能够在一个位置轻松创建适用于桌面、平板电脑和移动设备的内容，而无需编写代码。您无需为每种设备分别创建页面，因为 AEM 可以使用您的内容自动调整每个体验。 </p> <p> Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（这些方法包含行为、上下文和离线变量），交付大量的个性化体验。通过 Target，您可以轻松地设置并运行 A/B 活动和多变量活动，从而确定最佳的选件、内容和体验。 </p> <p>现在，有些从事优化和个性化工作的专业人士正在使用 Target 促进其业务发展，对这类人士而言，体验片段代表了在将内容/体验创建器与管理器关联方面迈出了巨大的一步。 </p> <p>有关更多信息，请参阅 <a href="../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM 体验片段</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>报表 </p> </td> 
@@ -680,7 +680,7 @@ target/r_release-notes-2018.xml
       <li id="li_341FDC1CEC2B4C4BBD45CB2A0A54F2A3"> <p>韩语 </p> </li> 
       <li id="li_A4C31539B98E42348D5F1A18C63EAB6C"> <p>意大利语 </p> </li> 
       <li id="li_97E3E0A916B64601BBF601AAED581174"> <p>葡萄牙语 </p> </li> 
-     </ul> </p> <p>目前正在对 <a href="https://marketing.adobe.com/resources/help/en_US/target/" format="https" scope="external">Target 产品文档</a>进行本地化，准备就绪后将发布上述语言版本的本地化文档。 </p> </td> 
+     </ul> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>受众 </p> </td> 
@@ -813,7 +813,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Marketing Cloud 进行了品牌重塑，现在更名为 Adobe Experience Cloud。 </p> </td> 
-   <td colname="col2"> <p>Experience Cloud 是 Adobe 推出的一整套集成化数字营销解决方案和服务。它还具备直观的界面，使您能够快速访问自己的云解决方案和核心服务。 </p> <p>品牌重塑和 UI 更改：Adobe Marketing Cloud 进行了品牌重塑，现在更名为 Adobe Experience Cloud。此外，您还将看到 Target 界面和解决方案切换器中进行的 UI 更改。 </p> <p>有关这些更改的更多信息，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/solutions-core-services.html" format="html" scope="external">关于 Experience Cloud 中的新增云名称</a>。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud 是 Adobe 推出的一整套集成化数字营销解决方案和服务。它还具备直观的界面，使您能够快速访问自己的云解决方案和核心服务。 </p> <p>品牌重塑和 UI 更改：Adobe Marketing Cloud 进行了品牌重塑，现在更名为 Adobe Experience Cloud。此外，您还将看到 Target 界面和解决方案切换器中进行的 UI 更改。 </p> <p>有关这些更改的更多信息，请参阅<a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/solutions-core-services.html" format="html" scope="external">关于 Experience Cloud 中的新增云名称</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -957,7 +957,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>选件 </p> </td> 
-   <td colname="col2"> <p> 如果用户具有“编辑者”权限，该用户将无法编辑引用了实时活动或计划活动的选件。 </p> <p> <p>注意：对于使用<a href="https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html" format="html" scope="external">企业用户权限</a>的 Target Premium 客户，如果用户选择“所有工作区”选项，Target 会在各工作区中使用该用户的最高权限。如果最高权限为“编辑者”，则 Target 会限制编辑（如上所述）。 </p>。 </p> <p>此类限制适用于所有选件，而不只是在 Target 中创建的选件。(TGT-27276) </p> </td> 
+   <td colname="col2"> <p> 如果用户具有“编辑者”权限，该用户将无法编辑引用了实时活动或计划活动的选件。 </p> <p> <p>注意：对于使用<a href="https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html" format="html" scope="external">企业用户权限</a>的 Target Premium 客户，如果用户选择“所有工作区”选项，Target 会在各工作区中使用该用户的最高权限。如果最高权限为“编辑者”，则 Target 会限制编辑（如上所述）。 </p>。 </p> <p>此类限制适用于所有选件，而不只是在 Target 中创建的选件。(TGT-27276) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>响应令牌 </p> </td> 
@@ -1487,7 +1487,7 @@ target/r_release-notes-2018.xml
       <li id="li_B11CE11D9A594CB1ABB85BD0D93C4A15"> <p>添加了 <span class="codeph">selectorsPollingTimeout</span> 设置。有关更多信息，请参阅 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>。 </p> </li> 
       <li id="li_D6F862099A374FE394F4DA3520A1BBF0"> <p>更改了来自 <span class="codeph">getOffer()</span> 的响应格式。有关更多信息，请参阅 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF" format="dita" scope="local">adobe.target.getOffer(options)</a>。 </p> </li> 
       <li id="li_80166567ED8945ECB37FEEE2C5F06ACE"> <p>为不支持的 <span class="codeph">&lt;!DOCTYPE&gt;</span> 声明添加了控制台日志记录。 </p> </li> 
-      <li id="li_02904EBAE8D3400092B762F0B28B0C86"> <p>修复了将多个默认选件交付到单个 mbox 时，无法正确应用 <span class="keyword">Target Classic</span> 插件的问题。(TGT-22664) 有关更多信息，请参阅 Adobe Target Classic 文档中的<a href="https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Using_Plug-Ins.html" format="html" scope="external">插件</a>。 </p> </li> 
+      <li id="li_02904EBAE8D3400092B762F0B28B0C86"> <p>修复了将多个默认选件交付到单个 mbox 时，无法正确应用 <span class="keyword">Target Classic</span> 插件的问题。(TGT-22664)</p> </li> 
       <li id="li_7016022D9DDE4529B77984F195825AB7"> <p>改进了双字符顶级域 (TLD) 的 Cookie 设置，以确保为这些域（例如，<span class="filepath">test.no</span>、<span class="filepath">autodrives.ca</span> 等）正确设置 mbox Cookie。 </p> </li> 
       <li id="li_3B1F618DEC744056B5BB172C4DBB359A"> <p><span class="codeph">at.js</span> 版本 0.9.6 中更改了对保存 Cookie 时应使用的顶级域进行提取的算法。由于进行了这项更改，Cookie 不能保存到使用 IP 的地址中。在大多数情况下，IP 地址都用于测试目的，但作为变通方法，您可以使用 DNS 条目或调整本地框中的主机文件。 </p> </li> 
       <li id="li_A52181499E63402DB4E16E33E36A9400"> <p>修复了当属性是字符串值而不是整数时的移动和重新排列操作处理方式。 </p> </li> 
@@ -1593,7 +1593,7 @@ target/r_release-notes-2018.xml
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> 现在，mbox 名称可以包含特殊字符（包括与号 (&amp;)），以符合使用 <span class="codeph">mbox.js</span> 的 mbox 名称的命名要求。(TNT-26144) </p> <p>有关更多信息，请参阅 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 配置</a>。 </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>添加了 <span class="codeph">secureOnly</span> 设置，以指示 <span class="codeph">at.js</span> 是应仅使用 HTTPS，还是可以根据页面协议在 HTTP 和 HTTPS 之间进行切换。这是一项高级设置，其默认值为 False，可以通过 <span class="codeph">targetGlobalSettings</span> 来覆盖此设置。(TNT-26183) </p> <p>有关更多信息，请参阅 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>。 </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p><span class="codeph">at.js</span> 版本 0.9.3 及更低版本中提供了“<span class="wintitle">旧版浏览器支持</span>”选项。此选项在 <span class="codeph">at.js</span> 版本 0.9.4 中已删除。 </p> <p>有关更多信息，请参阅 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 配置</a>。 </p> </li> 
-     </ul> </p> <p>要详细了解 <span class="codeph">at.js</span> 各个版本中的更改，请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-versions.html" format="html" scope="external">at.js 版本详细信息</a>。 </p> </td> 
+     </ul> </p> <p>要详细了解 <span class="codeph">at.js</span> 各个版本中的更改，请参阅 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 版本详细信息</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mbox.js</span> 版本 62 </p> </td> 
@@ -1601,7 +1601,7 @@ target/r_release-notes-2018.xml
      <ul id="ul_1D4351AEB0D74FE4B09196113A4672C1"> 
       <li id="li_653D9C605A0B447AB1FFEE5D22D3AD05"> <p>修复了在 Google Chrome 浏览器中查看重定向活动时出现的闪烁问题。(TNT-24928) </p> </li> 
       <li id="li_2196D7CD9B144C0A96AE8B8D13976C69"> <p>添加了 <span class="codeph">secureOnly</span> 设置，以指示 <span class="codeph">mbox.js</span> 是应仅使用 HTTPS，还是可以根据页面协议在 HTTP 和 HTTPS 之间进行切换。这是一项高级设置，其默认值为 False。(TNT-26183) </p> <p>有关更多信息，请参阅<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C" format="dita" scope="local">配置 mbox.js</a>。 </p> </li> 
-     </ul> </p> <p>要详细了解 <span class="codeph">mbox.js</span> 各个版本中的更改，请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/r_mboxjs_change_log.html" format="html" scope="external">mbox.js 版本详细信息</a>。 </p> </td> 
+     </ul> </p> <p>要详细了解 <span class="codeph">mbox.js</span> 各个版本中的更改，请参阅 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html" format="html" scope="external">mbox.js 版本详细信息</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2192,11 +2192,11 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
       <li id="li_C47240826E5844D6843314F453F042FC">导航从左侧移到了顶部 </li> 
       <li id="li_3BB03504E98C40CC85583DCD9A4CEA06">改进了对话框 </li> 
       <li id="li_AE71506DF1E748A788C40E1F09951732">改进了活动创建流程 </li> 
-     </ul> </p> <p>此外，还更改了选择 Experience Cloud 解决方案（包括 Target）的方式。要访问 Experience Cloud 解决方案和服务，请单击菜单图标： </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>有关在登录 Experience Cloud 后访问 Target 并将 Target 设为默认页面的更多信息，请参阅<a href="../c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local">从 Adobe Experience Cloud 访问 Target </a>。 </p> <p>有关用户界面改进的更多信息，请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/marketing-cloud-interface.html" format="https" scope="external">Adobe Experience Cloud 2016 年春季版的新增功能</a>。 </p> </td> 
+     </ul> </p> <p>此外，还更改了选择 Experience Cloud 解决方案（包括 Target）的方式。要访问 Experience Cloud 解决方案和服务，请单击菜单图标： </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>有关在登录 Experience Cloud 后访问 Target 并将 Target 设为默认页面的更多信息，请参阅<a href="../c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local">从 Adobe Experience Cloud 访问 Target </a>。 </p> <p>有关用户界面改进的更多信息，请参阅 <a href="https://docs.adobe.com/content/help/en/core-services/interface/release-notes/marketing-cloud-interface.html" format="https" scope="external">Adobe Experience Cloud 2016 年春季版的新增功能</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 可以为备用推荐禁用包含规则 </td> 
-   <td colname="col2"> <p>启用备用推荐后，您可以选择不将包含规则应用于备用推荐。。 </p>  </td> 
+   <td colname="col2"> <p>启用备用推荐后，您可以选择不将包含规则应用于备用推荐。. </p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 推荐：通过 <span class="codeph">mboxTrace</span> 实现文本区域中的新调试功能  </td> 
@@ -2427,7 +2427,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>客户属性 </p> </td> 
-   <td colname="col2"> <p> 使用 Experience Cloud 核心服务上传第一方数据（称为“客户属性”），并选择要共享到 Target 的属性。3 月份为 Analytics 启用了此功能，现在此功能直接与 Target 相集成。 </p> <p> 例如，您可能会使用 CRM 或电子商务/POS 系统中的客户数据，其中包括会员资格状态（金会员、银会员，等）、购买历史记录、最喜爱的目标、当地商店等。现在，您可以将该数据上传到 Experience Cloud。用户在您的网站上进行身份验证后，Target 便可以将该数据与用户的 Web 行为进行匹配。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html" format="https" scope="external">客户属性</a>。 </p> </td> 
+   <td colname="col2"> <p> 使用 Experience Cloud 核心服务上传第一方数据（称为“客户属性”），并选择要共享到 Target 的属性。3 月份为 Analytics 启用了此功能，现在此功能直接与 Target 相集成。 </p> <p> 例如，您可能会使用 CRM 或电子商务/POS 系统中的客户数据，其中包括会员资格状态（金会员、银会员，等）、购买历史记录、最喜爱的目标、当地商店等。现在，您可以将该数据上传到 Experience Cloud。用户在您的网站上进行身份验证后，Target 便可以将该数据与用户的 Web 行为进行匹配。 </p> <p>请参阅<a href="https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html" format="https" scope="external">客户属性</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>当选择 Analytics 作为 Target 的报告源时，可以使用多个公司。 </p> </td> 
@@ -2448,7 +2448,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">推荐 </p> <p> 属性加权 </p> </td> 
-   <td colname="col2"> <p> “推荐”排名规则已根据标准进行更改。这项更改会影响现有的推荐。 </p> <p> 使用属性加权可“微调”算法。营销人员能够根据有关内容目录的重要描述或元数据来改变算法。对这些促销项目应用更高加权，以便其能够更频繁地显示在推荐中。非促销商品不会完全排除，但它们的显示次数会更少。可以将多个加权应用于同一算法，并且可以在分离流量基础上在推荐中测试加权。 </p> <p>这些新加权已被自动应用到所有活动。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_attribute_weighting.html" format="https" scope="external">属性加权</a>。 </p> </td> 
+   <td colname="col2"> <p> “推荐”排名规则已根据标准进行更改。这项更改会影响现有的推荐。 </p> <p> 使用属性加权可“微调”算法。营销人员能够根据有关内容目录的重要描述或元数据来改变算法。对这些促销项目应用更高加权，以便其能够更频繁地显示在推荐中。非促销商品不会完全排除，但它们的显示次数会更少。可以将多个加权应用于同一算法，并且可以在分离流量基础上在推荐中测试加权。 </p> <p>这些新加权已被自动应用到所有活动。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">推荐 </p> <p>设置源处理的时间 </p> </td> 
@@ -2541,7 +2541,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">推荐 </p> <p> 显示有关设计中关键项目的信息 </p> </td> 
-   <td colname="col2"> <p>显示“推荐”设计中的关键项目。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_customizing_a_template.html" format="https" scope="external">自定义设计</a>。 </p> </td> 
+   <td colname="col2"> <p>显示 Recommendations 设计中的关键项目。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">自动个性化 </p> <p>基于转化的报表 </p> </td> 
@@ -2549,7 +2549,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> Adobe Campaign 与 Target Standard 的电子邮件集成 </td> 
-   <td colname="col2"> <p> 以前，必须在 Target Classic 中使用 Adobe Campaign 设置具有针对性的电子邮件营销活动。在 Target Standard 中发布了两项新功能（基于表单的活动创建和重定向选件），现在可以使用 Target Standard 通过 Adobe Campaign 设置目标电子邮件营销活动。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html" format="https" scope="external">将 Target 与 Adobe Campaign 集成</a>。 </p> </td> 
+   <td colname="col2"> <p> 以前，必须在 Target Classic 中使用 Adobe Campaign 设置具有针对性的电子邮件营销活动。在 Target Standard 中发布了两项新功能（基于表单的活动创建和重定向选件），现在可以使用 Target Standard 通过 Adobe Campaign 设置目标电子邮件营销活动。</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> 基于表单的活动创建中的重定向选件 </td> 
@@ -2561,7 +2561,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> 对作为 Target 报告源的 Analytics 增强了报告功能 </p> </td> 
-   <td colname="col2"> <p> 单击可直接从活动报表页面查看完整的 Analytics 报表。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_reporting.html" format="https" scope="external">报表</a>。 </p> </td> 
+   <td colname="col2"> <p> 单击可直接从活动报表页面查看完整的 Analytics 报表。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> 改进了活动列表性能 </td> 
@@ -2628,15 +2628,15 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>显示使用设计的活动数量 </p> </td> 
-   <td colname="col2"> <p>设计库会显示各个设计分别被多少实时活动和非激活活动所使用。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html" format="https" scope="external">创建“推荐”活动</a>。 </p> </td> 
+   <td colname="col2"> <p>设计库会显示各个设计分别被多少实时活动和非激活活动所使用。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>自定义动态标题显示在设计中 </p> </td> 
-   <td colname="col2"> <p>选择使用特定设计时所显示的标题。此标题并不一定要与在页面上显示给访客的标题一致。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_new_algorithm.html" format="https" scope="external">创建新标准</a>。 </p> </td> 
+   <td colname="col2"> <p>选择使用特定设计时所显示的标题。此标题并不一定要与在页面上显示给访客的标题一致。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations Premium </p> <p>API 令牌 </p> </td> 
-   <td colname="col2"> <p>您可以从 Recommendations Premium 设置客户端 API 令牌。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_setup.html" format="https" scope="external">设置</a>。 </p> </td> 
+   <td colname="col2"> <p>您可以从 Recommendations Premium 设置客户端 API 令牌。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> 增强功能：常用的 URL </td> 
@@ -2675,7 +2675,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>新的 mbox.js </p> </td> 
-   <td colname="col2"> <p> mbox.js 版本 58 可确保在调用 Target 之前，Experience Cloud 访客 ID 服务已准备就绪。这能够确保通过配置文件和受众核心服务共享的受众数据适用于同一次点击。但是，Target 等待服务返回的过程中，页面上可能会出现闪烁的情况，因此在升级之前需完成全面的质量保证工作。此 mbox.js 版本只能通过 API 获取。 </p> <p>有关每个版本的 mbox.js 的信息，请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/r_mboxjs_change_log.html" format="https" scope="external">mbox.js 更改日志</a>。 </p> </td> 
+   <td colname="col2"> <p> mbox.js 版本 58 可确保在调用 Target 之前，Experience Cloud 访客 ID 服务已准备就绪。这能够确保通过配置文件和受众核心服务共享的受众数据适用于同一次点击。但是，Target 等待服务返回的过程中，页面上可能会出现闪烁的情况，因此在升级之前需完成全面的质量保证工作。此 mbox.js 版本只能通过 API 获取。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> 可配置的成功量度 </td> 
@@ -2737,11 +2737,11 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>体验定位支持将 Analytics 作为报表源 </p> </td> 
-   <td colname="col2"> <p>现在，您可以将 Analytics 用作体验定位活动的报表源。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/target/r_xt_goals_and_settings.html" format="https" scope="external">目标和设置</a>。 </p> </td> 
+   <td colname="col2"> <p>现在，您可以将 Analytics 用作体验定位活动的报表源。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>自动个性化：模型状态的直观指示 </p> </td> 
-   <td colname="col2"> <p> 如果预测模型通过了所需质量标准的检验并被认为有效，则可以认为它已准备就绪并可用于计算个性化得分来进行选件决策。当模型准备就绪且 Target 能够开始传递个性化内容时，时钟图标将会更改为复选标记。由于只有在模型准备就绪后才能预测提升，因此直观指示可帮助您设定正确的预期。使用可视化体验编辑器中的流量估算器可以了解模型何时准备就绪。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/target/t_ap_traffic_estimator.html" format="https" scope="external">估算成功所需流量</a>。 </p> </td> 
+   <td colname="col2"> <p> 如果预测模型通过了所需质量标准的检验并被认为有效，则可以认为它已准备就绪并可用于计算个性化得分来进行选件决策。当模型准备就绪且 Target 能够开始传递个性化内容时，时钟图标将会更改为复选标记。由于只有在模型准备就绪后才能预测提升，因此直观指示可帮助您设定正确的预期。使用可视化体验编辑器中的流量估算器可以了解模型何时准备就绪。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Premium Recommendations：在可视化体验编辑器中浏览和导航 </p> </td> 
@@ -2811,10 +2811,9 @@ target/r_release-notes-2015.xml
    <td colname="col1" class="premium"> <p>Recommendations Premium 新增功能 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6DC206CB52E34498BC762FCCF77807AA"> 
-      <li id="li_B26568D642974F17B4B2D6E42CFDC5B9"> <p>新增了“预览”模式，可以查看使用了 JavaScript 的设计 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html" format="https" scope="external">创建“推荐”活动</a>。 </p> </li> 
+      <li id="li_B26568D642974F17B4B2D6E42CFDC5B9"> <p>新增了“预览”模式，可以查看使用了 JavaScript 的设计 </p></li> 
       <li id="li_B8D1ADE874D244F198CBD3387ED3E310"> <p>目录搜索现在支持免费搜索英语 </p> </li> 
-      <li id="li_EB8D595EA8A84B37A3262F76543E1B05"> <p>提供了一项帐户级别的支持，可以输入静态的基本 URL 以将其附加到所有相对 <span class="codeph">entity.thumbnailUrl</span> 值的前面 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_setup.html" format="https" scope="external">设置</a>。 </p> </li> 
-     </ul> </p> </td> 
+      <li id="li_EB8D595EA8A84B37A3262F76543E1B05"> <p>提供了一项帐户级别的支持，可以输入静态的基本 URL 以将其附加到所有相对 <span class="codeph">entity.thumbnailUrl</span> 值的前面 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium"> Recommendations Premium 增强功能 </p> </td> 
@@ -2822,8 +2821,8 @@ target/r_release-notes-2015.xml
      <ul id="ul_1CF5F2D0CDE84DDC9C445B5CD878EEAA"> 
       <li id="li_EB225752776449C6B21C2B2514B508C5"> <p>改进了 VEC 中的设计预览 </p> </li> 
       <li id="li_2CD8267EF166421DBB6EFBF704625848"> <p>改进了“开箱即用”设计的布局 </p> </li> 
-      <li id="li_D737754C200844638B536A3BE02E9C5F"> 收藏集显示在定位图中 <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_collections.html" format="https" scope="external">收藏集</a>。 </p> </li> 
-     </ul> </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_recommendations.html" format="https" scope="external">推荐</a>。 </p> </td> 
+      <li id="li_D737754C200844638B536A3BE02E9C5F"> 收藏集显示在定位图中</li> 
+     </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium"> Recommendations Premium 中现在支持 Recommendations Classic 功能 </p> </td> 
@@ -2831,9 +2830,9 @@ target/r_release-notes-2015.xml
      <ul id="ul_E0D6A9C12B514DE3B3EA753BB4D56662"> 
       <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> 局部模板渲染 <p>请参阅<a href="../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96" format="dita" scope="local">内容设置</a>。 </p> </li> 
       <li id="li_B1DFC829D19B4570AB5A7F937C7EF2CC"> 为每个标准指定备用规则 </li> 
-      <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> 支持为产品信息源使用 FTPS <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/t_feeds_create.html" format="https" scope="external">创建信息源</a>。 </p> </li> 
-      <li id="li_3C0FA493C87345E4BE994936DF0D0162"> 自定义算法现在可自动显示为标准 <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_algorithms.html" format="https" scope="external">标准</a>。 </p> </li> 
-      <li id="li_5B074C9FB3CB46EBA6EB4D8B1098480E"> 每小时自动为没有信息源的客户重新编制产品目录索引 <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_catalog_search.html" format="https" scope="external">目录搜索</a>。 </p> </li> 
+      <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> 支持为产品信息源使用 FTPS</li> 
+      <li id="li_3C0FA493C87345E4BE994936DF0D0162"> 自定义算法现在可自动显示为标准</li> 
+      <li id="li_5B074C9FB3CB46EBA6EB4D8B1098480E"> 每小时自动为没有信息源的客户重新编制产品目录索引 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -2902,15 +2901,15 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">推荐：改进了内容查看 </p> </td> 
-   <td colname="col2"> <p>现在，您可以在查看或编辑收藏集时查看符合收藏集或排除项的所有项目。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_recommendations.html" format="https" scope="external">推荐</a>。 </p> </td> 
+   <td colname="col2"> <p>现在，您可以在查看或编辑收藏集时查看符合收藏集或排除项的所有项目。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">推荐：改进了搜索结果 </p> </td> 
-   <td colname="col2"> <p>会显示满足每个搜索字符串的项目总数。 </p> <p>请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/recs/c_recommendations.html" format="https" scope="external">推荐</a>。 </p> </td> 
+   <td colname="col2"> <p>会显示满足每个搜索字符串的项目总数。 </p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>在 Adobe Analytics 中上传客户属性 </p> </td> 
-   <td colname="col2"> <p>在客户关系管理 (CRM) 数据库中获取企业客户数据的 Analytics 用户可以将这些数据上传到 Experience Cloud 中。 </p> <p>将数据上传到 Experience Cloud 之后，您可以在 Analytics 中创建一个受众区段，在其中包含区段定义中的客户属性，然后与 Target 共享该受众。 </p> <p> <p>注意：Target 目前尚无法直接使用原始客户属性。 </p> </p> <p>请参阅 Experience Cloud 产品文档中的<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html" format="https" scope="external">客户属性</a>。 </p> </td> 
+   <td colname="col2"> <p>在客户关系管理 (CRM) 数据库中获取企业客户数据的 Analytics 用户可以将这些数据上传到 Experience Cloud 中。 </p> <p>将数据上传到 Experience Cloud 之后，您可以在 Analytics 中创建一个受众区段，在其中包含区段定义中的客户属性，然后与 Target 共享该受众。 </p> <p> <p>注意：Target 目前尚无法直接使用原始客户属性。 </p> </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -2927,7 +2926,7 @@ target/r_release-notes-2015.xml
 * 当 Analytics 用作 Target 的报表源时，不会报告 Target Standard/Premium 中用于多变量测试的基于 Target 的转化事件。预计此问题会很快解决。
 * mbox.js 版本 56 移动了“额外的 JavaScript”部分，因此在执行全局 mbox 之前，会先执行它。
 
-   v56 及以上版本中的所有设置都具有命名空间。如果有函数在“额外的 JavaScript”中声明，则必须为它们添加前缀 window。请参阅 [mbox.js 更改日志](https://marketing.adobe.com/resources/help/en_US/target/ov/r_mboxjs_change_log.html)。
+   v56 及以上版本中的所有设置都具有命名空间。如果有函数在“额外的 JavaScript”中声明，则必须为它们添加前缀 window。请参阅 [mbox.js 更改日志](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html)。
 
 ### Adobe Target 15.2.1（2015 年 2 月 19 日）{#section_9AA19B060D814E08A673FB752E21D0C3}
 
@@ -2976,7 +2975,7 @@ target/r_release-notes-2015.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 新增活动类型：多变量测试 </td> 
-   <td colname="col2"> <p> 全因子多变量测试会比较内容区域中所有可能的选件组合，以帮助您确定最佳的内容组合。多变量测试还会显示哪些区域中的内容最有助于活动成功。多变量测试普遍的用途为，在使用 A/B 测试决定最佳页面布局后，优化整个页面。通过多变量测试，您可以优化页面上的各个资源（例如主要图像、头条新闻或宣传内容）。 </p> <p>更多信息，请参阅<a href="https://marketing.adobe.com/resources/help/en_US/target/mvt/c_multivariate_testing.html" format="https" scope="external">多变量测试</a>。 </p> <p>有关指导视频，请参阅 <a href="https://my.adobeconnect.com/p2k6u8iiu6l/" format="https" scope="external">https://my.adobeconnect.com/p2k6u8iiu6l/</a>。 </p> </td> 
+   <td colname="col2"> <p> 全因子多变量测试会比较内容区域中所有可能的选件组合，以帮助您确定最佳的内容组合。多变量测试还会显示哪些区域中的内容最有助于活动成功。多变量测试普遍的用途为，在使用 A/B 测试决定最佳页面布局后，优化整个页面。通过多变量测试，您可以优化页面上的各个资源（例如主要图像、头条新闻或宣传内容）。 </p> <p>有关指导视频，请参阅 <a href="https://my.adobeconnect.com/p2k6u8iiu6l/" format="https" scope="external">https://my.adobeconnect.com/p2k6u8iiu6l/</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 浏览可视化体验编辑器中的页面和页面内元素 </td> 
@@ -3103,7 +3102,7 @@ target/r_release-notes-2014.xml
   </tr> 
   <tr> 
    <td colname="col1"> 一个页面上有多个活动 </td> 
-   <td colname="col2"> <p>多个 Target Standard 活动中的内容可通过一次 <span class="keyword">Target</span> 服务器调用在一个页面中交付。 </p> <p> <p>注意：这不会影响 Target Classic 优先级评估。 </p> </p> <p>要了解有关 Target 优先级决策过程的更多信息，请参阅 <a href="https://marketing.adobe.com/resources/help/en_US/target/target/c_priority.html" format="http" scope="external">Target Standard 帮助</a>。 </p> <p>有关在多个活动定位到页面上的同一个位置时，Target 如何确定要显示的体验的信息，请参阅<a href="../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F" format="dita" scope="local">优先级</a>。 </p> </td> 
+   <td colname="col2"> <p>多个 Target Standard 活动中的内容可通过一次 <span class="keyword">Target</span> 服务器调用在一个页面中交付。 </p> <p> <p>注意：这不会影响 Target Classic 优先级评估。 </p> </p><p>有关在多个活动定位到页面上的同一个位置时，Target 如何确定要显示的体验的信息，请参阅<a href="../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F" format="dita" scope="local">优先级</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3142,11 +3141,11 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 适用于 Adobe Target 的 Adobe Analytics 增强的报告功能 </td> 
-   <td colname="col2"> 在<a href="../c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local">测试设置过程</a>中，Adobe Analytics 客户可以选择将 <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/" format="http" scope="external">Analytics 作为默认的报表源</a>。这样一来，为了筛选您的结果，您就不再需要选择所有的成功量度或受众。在报告中，您可以选择 Analytics 中定义的任何成功量度或受众区段，并采用可追溯的方式将其应用到您的报表中，以此来扩展筛选并深入分析您的优化结果。 <p> <p>注意：若要申请访问此项功能，请访问 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences_cn</a>。 </p> </p> </td> 
+   <td colname="col2"> 在<a href="../c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local">测试设置过程</a>中，Adobe Analytics 客户可以选择将 Analytics 作为默认的报表源。这样一来，为了筛选您的结果，您就不再需要选择所有的成功量度或受众。在报告中，您可以选择 Analytics 中定义的任何成功量度或受众区段，并采用可追溯的方式将其应用到您的报表中，以此来扩展筛选并深入分析您的优化结果。 <p> <p>注意：若要申请访问此项功能，请访问 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences_cn</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 主营销配置文件实时受众 </td> 
-   <td colname="col2"> 利用<a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/" format="http" scope="external">主营销配置文件</a>，将访客 ID 和数据统一到单个可操作的配置文件中，以便跨解决方案使用。在 Adobe Analytics 的客户群创建流程期间出现的一个复选框，可允许该客户群在 Adobe Target 的自定义受众库中处于可用状态。在 Analytics 或 Audience Manager 中创建的区段可用于在 Target 中定位访客。 <p> <p>注意：若要申请访问此项功能，请访问 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences_cn</a>。 </p> </p> </td> 
+   <td colname="col2"> 利用主营销配置文件，将访客 ID 和数据统一到单个可操作的配置文件中，以便跨解决方案使用。在 Adobe Analytics 的客户群创建流程期间出现的一个复选框，可允许该客户群在 Adobe Target 的自定义受众库中处于可用状态。在 Analytics 或 Audience Manager 中创建的区段可用于在 Target 中定位访客。 <p> <p>注意：若要申请访问此项功能，请访问 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences_cn</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 依据活动类型而定位的体验 </td> 

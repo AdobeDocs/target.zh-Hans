@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: mbox.js 版本详细信息
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -31,7 +31,7 @@ Target 如何响应从您的页面发出的调用，取决于您使用的 Target
 
 **Target 版本：** 17.7.1
 
-[!DNL mbox.js] 版本 63 现已可用。有关更多信息，请参阅[下载 mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_target-download-config-mbox.html)。
+[!DNL mbox.js] 版本 63 现已可用。有关更多信息，请参阅[下载 mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)。
 
 [!DNL mbox.js] 版本 63 中包含以下增强功能和修复：
 
@@ -246,7 +246,7 @@ mboxParameter 函数现在可以在 Target Standard 和 Premium 中使用。
 
 修复了导致 Analytics 跟踪功能无法在 IE 9 和 11 中使用的问题。此更改只会影响 Analytics 的用户。
 
-现在您可以使用 targetPageParams() 函数，以数组、JSON 对象或逗号分隔列表（以前支持）的形式，[将参数传入](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html) target-global-mbox。
+现在您可以使用 targetPageParams() 函数，以数组、JSON 对象或逗号分隔列表（以前支持）的形式，[将参数传入](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) target-global-mbox。
 
 重命名了 M2PcId 以及与 VisitorId 相关的所有内容。
 

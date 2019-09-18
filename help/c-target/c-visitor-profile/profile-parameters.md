@@ -1,27 +1,27 @@
 ---
-description: 配置文件属性是特定于访客的参数。这些属性存储在访客的配置文件中，以提供可用于Adobe Target活动中的访客信息。
+description: 配置文件属性是特定于访客的参数。这些属性存储在访客的配置文件中，提供了可在您的 Adobe Target 活动中使用的关于访客的信息。
 keywords: 配置文件脚本;配置文件脚本属性;配置文件脚本最佳实践;调试
-seo-description: 配置文件属性是特定于访客的参数。这些属性存储在访客的配置文件中，以提供可用于Adobe Target活动中的访客信息。
-seo-title: Adobe Target中的配置文件属性
+seo-description: 配置文件属性是特定于访客的参数。这些属性存储在访客的配置文件中，提供了可在您的 Adobe Target 活动中使用的关于访客的信息。
+seo-title: Adobe Target 中的配置文件属性
 solution: Target
 title: 配置文件属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
 
 # 配置文件属性{#profile-attributes}
 
-配置文件属性是特定于访客的参数。这些属性存储在访客的配置文件中，以提供可用于活动的访客信息。
+配置文件属性是特定于访客的参数。这些属性存储在访客的配置文件中，提供了可在您的活动中使用的关于访客的信息。
 
-当访客浏览您的网站时，或者当访客返回另一个会话时，保存的配置文件属性可用于定位内容或日志信息以进行细分筛选。
+当访客浏览您的网站或者返回网站进行另一个会话时，可使用保存的配置文件属性定位内容或记录信息以便筛选客户群。
 
 要设置配置文件属性，请单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 配置文件脚本]**。
 
-![个人资料脚本选项卡](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+![“配置文件脚本”选项卡](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
 可以使用以下类型的配置文件属性：
 
@@ -70,7 +70,7 @@ if (mbox.name == 'Track_Interest') {
 
 * 在代码中使用 `user.get('parameterName')` ') 引用配置文件脚本属性（包括其自身）。
 * 保存下次使用 `user.setLocal('variable_name', 'value')` ') 运行脚本时（对下一个 mbox 请求）可能访问的变量。使用 `user.getLocal('variable_name')` 引用变量。当您想引用上次请求的日期和时间时，此脚本非常有用。
-* 参数和值区分大小写。匹配在活动或测试期间接收的参数和值的大小写。
+* 参数和值区分大小写。请匹配您在活动或测试期间接收到的参数和值的大小写。
 * 有关更多的 JavaScript 语法，请参阅下文中的“脚本配置文件参数的 JavaScript 引用”部分。
 
 ## 查看配置文件脚本信息卡片 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -81,11 +81,11 @@ if (mbox.name == 'Track_Interest') {
 
 “[!UICONTROL 脚本信息]”选项卡包含以下信息：“名称”、“状态”、“令牌类型”、“脚本 ID”、“更改日志”和“描述”。
 
-![个人资料脚本信息卡](assets/profile_script_info_card.png)
+![配置文件脚本信息卡](assets/profile_script_info_card.png)
 
 “[!UICONTROL 脚本使用情况]”选项卡列出了引用所选配置文件脚本的活动（及其工作空间）。
 
-![个人资料脚本信息卡&gt;脚本使用选项卡](assets/profile_script_info_card_usage_tab.png)
+![配置文件脚本信息卡 &gt;“脚本使用情况”选项卡](assets/profile_script_info_card_usage_tab.png)
 
 >[!N注意]
 >
@@ -125,7 +125,7 @@ if (mbox.name == 'Track_Interest') {
 * 切勿超过 1,300 个字符或 50 次循环迭代。
 * 切勿超过 2,000 条 JavaScript 指令。Target 限制每个脚本只能使用 2,000 条 JavaScript 指令，但这不能简单地通过人工读取 JavaScript 的方式来计算。例如，Rhino 会将所有函数调用和“新”调用视为 100 条指令。此外，任何输入数据（例如 URL 值）的大小可能会对指令计数产生影响。
 * 不仅要注意脚本性能，还要注意所有脚本的组合性能。作为最佳实践，我们建议指令总数要少于 5,000 条。计算指令数量的效果并不明显，但需要注意的重要事项是，超过 2 KB 的脚本会被自动禁用。对于您可以运行的脚本数量，没有设置限制，但在每一次 mbox 调用时均会执行每个脚本。应只运行所需数量的脚本。
-* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. 如果此类正则表达式与长的输入数据相匹配(最低可达几百个字符)，则可以中断脚本执行。
+* 在正则表达式中，在开头具有点星形(例如： `/.*match/`) `/a|.*b/`几乎永远不需要。 正则表达式搜索从字符串中的所有位置开始(除非与 `^`绑定)，因此已假定使用点星形。 如果这样的正则表达式与足够长的输入数据（可以低到几百个字符）匹配，则可以中断脚本执行。
 * 如果全部失败，则将脚本嵌套在 try/catch 中。
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
@@ -149,7 +149,7 @@ if (mbox.name == 'Track_Interest') {
 ```
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
-    if (ran_number < = 49) { 
+    if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
         return 'GroupB'; 
@@ -180,11 +180,11 @@ if (!user.get('twogroups')) {
 ```
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
-    if (ran_number < = 24) { 
+    if (ran_number <= 24) { 
         return 'GroupA'; 
-    } else if (ran_number < = 49) { 
+    } else if (ran_number <= 49) { 
         return 'GroupB'; 
-    } else if (ran_number < = 74) { 
+    } else if (ran_number <= 74) { 
         return 'GroupC'; 
     } else { 
         return 'GroupD'; 
@@ -207,9 +207,9 @@ if (!user.get('fourgroups')) {
 ```
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
-    if (ran_number < = 32.33) { 
+    if (ran_number <= 32.33) { 
         return 'GroupA'; 
-    } else if (ran_number < = 65.66) { 
+    } else if (ran_number <= 65.66) { 
         return 'GroupB'; 
     } else { 
         return 'GroupC'; 

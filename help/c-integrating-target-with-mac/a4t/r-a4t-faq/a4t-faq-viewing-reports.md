@@ -8,7 +8,7 @@ title: 查看报表 - A4T 常见问题解答
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 对于“活动”报表，管理员可以更改默认量度，这样每次运行报表时都会显示相同的量度。否则，报表会将您在上一个报表中应用的最后一个量度作为默认量度。
 
-有关更多信息，请参阅《报表和 Analytics 界面帮助》**&#x200B;指南中的[选择默认报表量度](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html)。
+For more information, see [Select default report metrics](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/metrics.html) in the *Analytics Analyze Guide*.
 
 ## 何时将区段应用于报表，以及何时将区段应用于量度（包含计算量度）？{#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -52,7 +52,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 * 当用户符合活动条件并从 [!DNL Target] 返回内容时，所有上述量度都会触发。这并不一定意味着用户查看了该选件。如果活动体验未显示且用户未向下滚动页面，则表示该选件由 [!DNL Target] 提供，但用户并未查看。
 * 除非同一活动中的同一页面同时有多个 mbox 调用，否则“[!UICONTROL 活动展示次数]”（由 [!DNL Target] 测量）与“[!UICONTROL 实例数]”（由 [!DNL Analytics] 测量）相等。这会导致“[!UICONTROL 活动展示次数]”被计入多次，而“[!UICONTROL 实例]”只被计入一次。
-* 在中使用 [!UICONTROL 活动印象] 和 [!UICONTROL 活动转换] 量度 [!DNL Analysis Workspace]时，确保应用 [!UICONTROL 了相同的触控] 归因模型。通过单击列设置齿轮，启用 [!UICONTROL 非默认归因模型]，然后选择 [!UICONTROL 相同的触控，可以应用模型]。在“Analytics Tools Guide”(分析工具指南)中了解 [有关属性IQ概述](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html)*的更多信息*。
+* 在中使 [!UICONTROL 用“活动印象] ”和“活 [!UICONTROL 动转化”量度时] ，请确保这两个量度都应用了相 [!DNL Analysis Workspace]同的Touch  归因模型。 可通过单击列设置齿轮，启用“非默认”( [!UICONTROL Non-default)归因模型]，然后选择“相 [!UICONTROL 同触控”(Same Touch)应用模型]。 了解有关属性的更多信息， [请参阅分析工具指南](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) ，了解属 *性IQ概述*。
 
 ## 如果营销人员在活动设置期间选择了一个 Analytics 量度，则“活动转化”意味着什么？{#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +62,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ![](assets/unspecified.png)
 
-在其他报表中，“未指定”意味着数据不符合分类规则，但在 A4T 中，不应出现此种情况。如果您看到“未指定”，则表示分类服务尚未运行。在报告中显示活动数据通常需要24到72小时。即使这些活动在此时间之前并未显示在报表中，但与这些活动绑定的所有访客数据都已被捕获，将在分类完成时显示出来。
+在其他报表中，“未指定”意味着数据不符合分类规则，但在 A4T 中，不应出现此种情况。如果您看到“未指定”，则表示分类服务尚未运行。活动数据通常需要24到72小时才能显示在报告中。 即使这些活动在此时间之前并未显示在报表中，但与这些活动绑定的所有访客数据都已被捕获，将在分类完成时显示出来。
 
 分类期过后，数据会在从网站收集大约一小时后显示在这些报表中。报表中的所有量度、区段和值都来自您在设置活动时选择的报表包。
 
@@ -110,7 +110,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 因为这两个体验都是在转化之前查看的，所以它们都获得了该订单的“点数”。但在系统中只产生了一个订单，所以点数的总计值反映了这一点。对于 Target 报表，由于您没有将 Target 活动相互进行比较以查看哪个活动更成功，因此不用担心用户查看的所有活动都获得点数。因为您比较的是一个活动中的两个项目所得到的结果，而用户不可能在同一活动中看到不同的体验，因此您不必顾虑订单点数会造成相互之间的混淆。
 
-有关详细信息，请参阅 Analytics 帮助中的[转化变量 (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html)。
+For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
 ## 为什么 Analytics 和 Analytics for Target (A4T) 在计算“独特访客”量度时得到的数字不同？{#section_0C3B648AB54041F9A2AA839D51791883}
 

@@ -8,7 +8,7 @@ title: 将 Target 与 Adobe Campaign 集成
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -46,10 +46,10 @@ Target 可以跟踪以下数据：
 
 * 两个或更多 Target 重定向选件。
 
-   请参阅[创建重定向选件](https://marketing.adobe.com/resources/help/en_US/target/target/t_offer_redirect.html)。
-* 包含每个选件所对应体验的 Target 活动，以及所需的[成功量度](https://marketing.adobe.com/resources/help/en_US/target/target/r_success_metrics.html)。
+   See [Create redirect offer](/help/c-experiences/c-manage-content/offer-redirect.md).
+* 包含每个选件所对应体验的 Target 活动，以及所需的[成功量度](/help/c-activities/r-success-metrics/success-metrics.md)。
 
-   请参阅[重定向到 URL](https://marketing.adobe.com/resources/help/en_US/target/target/t_redirect_offer.html)。
+   请参阅[重定向到 URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md)。
 
 在设置集成的 Campaign 部分之前，请先在 Target 中启动活动。
 

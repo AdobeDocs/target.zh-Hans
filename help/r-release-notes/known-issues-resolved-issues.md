@@ -8,7 +8,7 @@ title: 已知问题和已解决的问题
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ### 活动QA预览链接 {#preview}
 
-[如果帐户中保存的活动过多，则保存活动的活动QA预览](/help/c-activities/c-activity-qa/activity-qa.md) 链接可能无法加载。重新尝试预览链接应有效。为防止继续发生这种情况，请存档不再主动使用的保存活动。(TNT-32697)
+[如果帐户中保存的活动过多](/help/c-activities/c-activity-qa/activity-qa.md) ，则可能无法加载已保存活动的活动QA预览链接。 重新尝试预览链接应可正常使用。 要防止这种情况继续发生，请存档不再被主动使用的已保存活动。 (TNT-32697)
 
 ### 重定向选件 {#redirect}
 
@@ -73,7 +73,7 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 以下是 at.js 存在的已知问题：
 
-* 将页面加载到可视化体验编辑器 (VEC) 中时，Target 需要确定全局 mbox 设置是处于启用状态还是禁用状态，以及 entityID 或 categoryID 是否存在于用户尝试在 VEC 中应用推荐的位置。标准列表将会根据这些信息进行筛选。默认列表已筛选算法，但[“兼容”复选框](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html)允许您查看完整的算法列表。
+* 将页面加载到可视化体验编辑器 (VEC) 中时，Target 需要确定全局 mbox 设置是处于启用状态还是禁用状态，以及 entityID 或 categoryID 是否存在于用户尝试在 VEC 中应用推荐的位置。标准列表将会根据这些信息进行筛选。默认列表已筛选算法，但[“兼容”复选框](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)允许您查看完整的算法列表。
 
    使用 at.js 时，“兼容性”复选框处于隐藏状态，因此您看不到不兼容的算法。
 
@@ -124,7 +124,7 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 
 * 如果推荐信息源中的项目与上一次运行中的项目相同，则该信息源索引会显示“正在等待编入索引”。要交付的产品引入不会受到影响。(RECS-6663)
 
-   Target19.4.2版本中修复了此问题。
+   Target 19.4.2版本中修复了此问题。
 
 * “推荐”信息源在处理时所花费的时间比预期要长。(COR-2836)
 
@@ -138,7 +138,7 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 
 页面上出现的争用情况可能会导致同时计入原始页面和重定向页面上的页面查看次数。我们计划对 at.js 实施进行更新，以确保避免出现这种争用情况。
 
-此问题已在. js1.6.3中修复。
+此问题已在at.js 1.6.3中修复。
 
 ### 排除组
 

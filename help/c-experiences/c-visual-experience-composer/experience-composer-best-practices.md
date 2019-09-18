@@ -8,7 +8,7 @@ title: 可视化体验编辑器最佳实践和限制
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -82,17 +82,6 @@ Target Standard 和 Premium 使用 JavaScript 来设置页面格式。使用 Jav
 **避免在内联元素中使用块级元素。**
 
 不应在内联元素（如锚点、范围等）中使用块级元素。否则，内联元素会丢失其高度和宽度，从而导致可视化体验编辑器中的叠加工具可能无法正常工作。
-
-**更新 Classic mbox 的选件时，请确保按照 Target Classic 帮助中[创建单个 Mbox](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Single_Mbox.html)中的说明来创建 mbox。**
-
-如果您要在 mbox 中放置一个元素或一组元素，请使用 `class mboxDefault` 将它们封装在新的 div 中：
-
-```
-<div class="mboxDefault">
-    //Content goes here 
-</div> 
-<script> mboxCreate('mboxName'); </script>`
-```
 
 **请勿在您的网站中使用基本标记来解析 URL 和链接。**
 

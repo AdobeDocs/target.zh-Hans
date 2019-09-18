@@ -8,7 +8,7 @@ title: Target 优化和个性化常见问题解答
 topic: 高级
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
 
 **我应该使用哪个实施 JavaScript 文件，at.js 还是 mbox.js？**
 
-at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本。请参阅[. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 的优势用于理解这两个库之间的不同之处。所有新客户都应使用 at.js。
+at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本。请参阅 [at.js 的好处](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)以了解这两个库之间的差异。所有新客户都应使用 at.js。
 
 所有现有的 mbox.js 客户都应迁移到 at.js。在进行迁移之前，请详细了解[从 mbox.js 迁移到 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) 中介绍的步骤。
 
@@ -81,7 +81,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **我是否可以在不同位置应用选件（例如签出漏斗）？**
 
-Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
+尝试使用[多页面活动功能](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，该功能允许您在体验中使用多个页面。
 
 **我如何确保一旦实现目标（主要或次要）后，用户不会再次进入该活动，而是会看到不同的活动？**
 
@@ -107,7 +107,7 @@ Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-co
 
 使用三步活动工作流中的[“目标和设置”步骤中的“计划”功能](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)来指定开始日期和结束日期。
 
-请记住激活活动。只有实时活动才符合指定的计划。达到结束日期后，活动会进入“已结束”状态。
+请记住激活该活动。只有实时活动才遵守指定的计划。达到结束日期后，活动会进入“已结束”状态。
 
 **我是否可以仅在“定位”步骤中进行更改，而不是执行整个三步引导式工作流进行编辑？**
 
@@ -236,7 +236,7 @@ Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-co
 
 **我能否确保在用户可能使用的所有设备上都始终如一地提供相同的体验？**
 
-试试我们的 [Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html)，它允许您通过 Co-op 确定性地和概率性地链接用户的多个设备。
+试试我们的 [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)，它允许您通过 Co-op 确定性地和概率性地链接用户的多个设备。
 
 如果您在 Co-op 之中，只需单击“目标和设置”页面上的标志即可启用该功能。此时，报表会更改为反映“人员”而不是“访客”。请咨询您的 Adobe 联系人以获取有关此功能的更多信息，因为这不适用于所有区域。
 
@@ -256,7 +256,7 @@ Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-co
 
 **为什么 QA 过程中未进行内容交付？**
 
-您的网站可能拥有动态 ID、重复 ID 或元素上的动态类。您可能必须在帐户级别（或者在活动级别，如果问题特定于域或页面）评估网站首选项的选项。See [CSS Selectors](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+您的网站可能拥有动态 ID、重复 ID 或元素上的动态类。您可能必须在帐户级别（或者在活动级别，如果问题特定于域或页面）评估网站首选项的选项。请参阅 [CSS 选择器](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872)。
 
 **为何我没有看到我想要看到的选件/体验，反而看到了一些其他的活动？**
 
@@ -283,7 +283,7 @@ Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-co
 
 有关信息，请参考三步引导式活动工作流步骤 3 中的“目标和设置”页面上提供的[报表的受众功能](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)。
 
-您可以选择添加50个此类区段，还可以添加应用程序点(活动条目或特定指标)，以具有强大的分割和分割方式。
+您可以选择添加 50 个此类区段以及应用程序点（活动条目或特定量度），从而进行有效的细分。
 
 请注意，Target 会在您添加这些受众之后收集这方面的数据，因此如果您在运行测试之前未添加区段，那么很遗憾，您就无法收集这些数据进行细分了。
 
@@ -291,19 +291,19 @@ Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-co
 
 **怎样才可以让这个过程更轻松一点？**
 
-This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. 如果您拥有 Adobe Analytics，只需将来将源选为 Analytics，即可消除此限制。现在，您可以在任何时间对任何受众进行分析，而无需预先定义报表受众。
+这就涉及 [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的方便之处。如果您拥有 Adobe Analytics，只需将来将源选为 Analytics，即可消除此限制。现在，您可以在任何时间对任何受众进行分析，而无需预先定义报表受众。
 
 **我是否可以执行离线报表计算？**
 
-Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
+使用“报表”页面上的[“将报表导出为 CSV”和“将订单详细信息下载到 CSV”选项](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)，即可下载所需的报表数据。
 
 **我是否可以更改用于评估报表的控制体验？或者将计数方法从“访客”更改为“访问次数”？**
 
-Make these changes using the [Settings gear on the reports page](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). 阅读更多有关这些设置的信息，了解计算结果的差异。
+使用](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮[可进行这些更改。阅读更多有关这些设置的信息，了解计算结果的差异。
 
 **我应如何解读报表？**
 
-We have tried to make reports as intuitive as possible with features like [confidence Interval bars, lift bounds, significance/confidence and multiple metric selections, table and graph views, running averages, and more](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) to allow for powerful, yet easy, report analysis. 显然，如果您使用 [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 活动进行进一步的受众分析，您可以查看 Analytics。
+我们尝试通过以下功能制作尽可能直观的报表：[置信区间栏、提升度范围、显著性/置信度和多个量度选项、表格和图形视图、运行平均值等等](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)，以便进行有效且简便的报表分析。显然，如果您使用 [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 活动进行进一步的受众分析，您可以查看 Analytics。
 
 ## 响应令牌 {#section_C2A7118B4B62482A9D630C2212112A3D}
 

@@ -5,12 +5,12 @@ seo-title: 将 at.js 部署到非生产环境
 title: 将 at.js 部署到非生产环境
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
 
-# 将 at.js 部署到非生产环境{#deploy-at-js-to-a-non-production-environment}
+# Deploy at.js to a non-production environment{#deploy-at-js-to-a-non-production-environment}
 
 有关将 at.js 安全地部署到非生产环境的技术信息。
 

@@ -8,7 +8,7 @@ title: 目标和设置
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -64,7 +64,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ### 报表解决方案
 
-指定是从 Adobe Target 还是从 Adobe Analytics 收集数据。请参阅[将 Adobe Analytics 作为 Target 报表源](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)，以了解各种报表解决方案之间的差异以及每种解决方案的优点。
+指定是从 Adobe Target 还是从 Adobe Analytics 收集数据。请参阅[将 Adobe Analytics 作为 Target 报表源](/help/c-integrating-target-with-mac/a4t/a4t.md)，以了解各种报表解决方案之间的差异以及每种解决方案的优点。
 
 当选择 Analytics 作为 Target 的报告源时，您可以选择一个 Analytics 报表包来接收 Target 活动数据。要执行此操作，请先选择您的帐户绑定的任意 Analytics 公司，然后为活动选择合适的报表包。只有配置为连接至 Adobe Target 的报表包才可供选择。如果您看不到预期的报表包，请先注销 Adobe Experience Cloud，然后再重新登录以重试。如果报表包仍然没有出现在列表中，请联系客户关怀团队。
 
@@ -122,7 +122,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ### 递增此量度之前必须实现哪些成功量度？
 
-要仅在访客之前已实现了其他成功量度，然后又实现此量度时对其进行计数，请使用此选项。例如，如果访客单击选件或在转换前到达特定页面，测试转换可能只有有效。
+要仅在访客之前已实现了其他成功量度，然后又实现此量度时对其进行计数，请使用此选项。例如，仅当访客在转化之前先点击了选件或访问了某个特定页面时，测试转化才可能有效。
 
 您可以提供对多个量度的依赖关系，并且还可以灵活选择是否应实现指定的量度才能递增计数。
 
@@ -132,10 +132,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 要添加依赖项，请执行以下操作：
 
-1. After adding additional metrics, click **[!UICONTROL Advanced Settings]**.
-2. Click **[!UICONTROL Add Dependency]**:
+1. 添加其他量度后，单击&#x200B;**[!UICONTROL 高级设置]**。
+2. 单击&#x200B;**[!UICONTROL 添加依赖项]**：
 
-   ![添加依赖关系链接](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
+   ![“添加依赖项”链接](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
 3. 将所需量度从左侧窗格拖放到右侧窗格中，然后单击已实现，以在已实现和未实现之间进行切换。
 

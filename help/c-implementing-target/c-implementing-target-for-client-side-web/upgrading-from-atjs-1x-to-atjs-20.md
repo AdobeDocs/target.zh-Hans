@@ -1,14 +1,14 @@
 ---
-description: 从. js升级。* x* to at. js2.* x*
-keywords: at. js发行版；at. js版本；单页应用程序；Spa；跨域；跨域
-seo-description: 有关如何从Adobe Target升级到. js的详细信息。* x* to at. js version2.0.0
-seo-title: 从Adobe Target升级，网址为. js version1。* x* to at. js version2.*x*
+description: 从at.js 1.*x*升级到at.js 2.*x*
+keywords: at.js版本；at.js版本；单页应用程序；spa；跨域；跨域
+seo-description: 有关如何从Adobe Target at.js 1.*x*升级到at.js 2.0.0版的详细信息
+seo-title: 从Adobe Target at.js版本1升级。*x*至at.js版本2。*x 不支持跨域跟踪*
 solution: Target
 subtopic: 入门指南
-title: 从. js升级。* x* to at. js2.* x*
+title: 从at.js 1.*x*升级到at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 71419ee6053eeb86ab6595cfba2f05d8506e05b3
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -27,7 +27,7 @@ Here are some benefits of using at.js 2.*x* that are not available in previous v
 
 The following diagrams help you understand the workflow of at.js 2.*x* with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.*x*, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
-![目标流量：js2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![使用at.js 2.*x实现目标流*](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | 调用 | 详细信息 |
 | --- | --- |
@@ -42,7 +42,7 @@ The following diagrams help you understand the workflow of at.js 2.*x* with View
 
 现在，无论在 SPA 上的什么位置实施 `triggerView()`，都会从缓存中检索查看次数和操作，并在没有服务器调用的情况下显示给用户。`triggerView()` 还会向 [!DNL Target] 后端发出通知请求，以增加和记录展示次数计数。
 
-![目标流：. js2.*x* TriggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+![目标流at.js 2.** x triggerView](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | 调用 | 详细信息 |
 | --- | --- |
@@ -55,15 +55,15 @@ The following diagrams help you understand the workflow of at.js 2.*x* with View
 
 ## 部署 at.js 2.*x* {#deploy-atjs-200}
 
-1. 部署 at.js 2.*x* 通过 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 扩展。
+1. 部署 at.js 2.*x* ，通过 [Adobe Launch扩展](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 。
 
    >[!NOTE]
    >
-   > 使用Adobe Launch部署. js是首选方法。
+   > 首选方法是使用 Adobe Launch 部署 at.js。
 
    或
 
-   在. js中手动下载。*x* 使用Target UI，并使用您选择的 [方法部署它](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)。
+   Manually download at.js 2.*x* using the Target UI and deploy it using the [method of your choice](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
 ## 已弃用的 at.js 函数
 
@@ -76,7 +76,7 @@ There are several functions that have been deprecated in at.js 2.*x*.
 您可以在下面找到已弃用的函数及其对应的等效函数。有关函数的完整列表，请参阅 [at.js 函数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
 
 >[!NOTE]
->at.js 2.*x* 不再自动隐藏 `mboxDefault` 标记的元素。因此，客户必须在网站上手动或通过标签管理器容纳预隐藏逻辑。
+>at.js 2.*x* 不再自动预隐藏 `mboxDefault` 标记的元素。因此，客户必须在网站上手动或通过标签管理器容纳预隐藏逻辑。
 
 ### mboxCreate(mbox,params)
 
@@ -95,7 +95,7 @@ There are several functions that have been deprecated in at.js 2.*x*.
 </script>
 ```
 
-**at. js2.*x*等效键**
+**at.js 2.*x*equivalent**
 
 `mboxCreate(mbox, params)` 的替代函数是 `getOffer()` 和 `applyOffer()`。
 
@@ -144,7 +144,7 @@ There are several functions that have been deprecated in at.js 2.*x*.
 </script>
 ```
 
-**at. js2.*x*等效**&#x200B;项：
+**at.js 2.*x*equivalent**:
 
 `mboxDefine()` 和 `mboxUpdate` 的替代项是 `getOffer()` 和 `applyOffer()`，`applyOffer()` 中会使用选择器选项。此方法允许您使用任何 CSS 选择器将选件映射到元素，而不仅仅映射到具有 ID 的元素。
 
@@ -218,17 +218,17 @@ There are several functions that have been deprecated in at.js 2.*x*.
 
 未使用 `getOffer()` 或 `applyOffer()` 替换 `mboxCreate()` 的客户可能无法交付选件。
 
-### 可以在. js2.*x* 在. js的某些页面上使用。而在其他页面上使用 at.js 1.*x* 或 mbox.js？
+### Can at.js 2.*在* at.js 1时，在某些页面上使用x。而在其他页面上使用 at.js 1.*x* 或 mbox.js？
 
 可以，系统会使用不同版本和库保留各个页面中的访客配置文件。Cookie 格式是相同的。
 
 ### New API use in at.js 2.*x*
 
-at.js 2.*x* 使用新API，我们调用交付API。为了调试 at.js 是否正确调用 [!DNL Target] 边缘服务器，您可以将浏览器开发人员工具的“网络”选项卡过滤到“交付”、“`tt.omtrdc.net`”或您的客户端代码。您还会注意到 [!DNL Target] 发送的是 JSON 有效负载而不是键值对。
+at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调试 at.js 是否正确调用 [!DNL Target] 边缘服务器，您可以将浏览器开发人员工具的“网络”选项卡过滤到“交付”、“`tt.omtrdc.net`”或您的客户端代码。您还会注意到 [!DNL Target] 发送的是 JSON 有效负载而不是键值对。
 
 ### 不再使用 Target 全局 Mbox
 
-在 at.js 2.*x*，在网络调用中不再看到“`target-global-mbox`”灵活。我们已在发送到 [!DNL Target] 服务器的 JSON 有效负载中将“`target-global-mbox`”语法替换为的“`execute > pageLoad`”，如下所示：
+在 at.js 2.*x*，您不再在网络调`target-global-mbox`用中看到“”可见。 我们已在发送到 [!DNL Target] 服务器的 JSON 有效负载中将“`target-global-mbox`”语法替换为的“`execute > pageLoad`”，如下所示：
 
 ```
 {
@@ -277,19 +277,19 @@ at.js 2.*x* 使用新API，我们调用交付API。为了调试 at.js 是否正�
 | 自动创建全局 Mbox | 是 |
 | 全局 Mbox 名称 | 是 |
 
-### Cross-domain tracking support in at.js 2.x {#cross-domain}
+### at.js 2.x中的跨域跟踪支持 {#cross-domain}
 
-跨域跟踪允许跨不同域拼接访客。由于必须为每个域创建新cookie，当访问者在域之间导航时很难跟踪访客。To accomplish cross-domain tracking, [!DNL Target] uses a third-party cookie to track visitors across domains. This allows you to create a Target activity that spans `siteA.com` and `siteB.com` and visitors remain in the same experience when they navigate across unique domains. 此功能与 Target 的第三方和第一方 Cookie 行为相关联。
+通过跨域跟踪，可以跨不同域缝合访客。 由于必须为每个域创建新Cookie，因此很难跟踪访客在域之间导航时的情况。 要实现跨域跟踪，请 [!DNL Target] 使用第三方Cookie跨域跟踪访客。 这样，您便可以创建一个Target活动，该活动跨 `siteA.com` 独特域 `siteB.com` 进行导航时，访客将保持相同的体验。 此功能与 Target 的第三方和第一方 Cookie 行为相关联。
 
 >[!NOTE]
 >
->在. js的框中不支持跨域跟踪。*x* 目前不支持选择加入支持。在. js中支持跨域跟踪。*x* 通过Experience Cloud ID(ECID)库v4.3.0+。
+>at.js 2中不支持跨域跟踪。*x* 不支持跨域跟踪。at.js 2支持跨域跟踪。*x* v4.3.0+通过Experience Cloud ID(ECID)库。
 
-In Target, the third-party cookie is stored in `<CLIENTCODE>.tt.omtrdc.net`. The first-party cookie is stored in `clientdomain.com`. 第一个请求会返回尝试设置名为 `mboxSession` 和 `mboxPC` 的第三方 Cookie 的 HTTP 响应标头，而会使用额外的参数 (`mboxXDomainCheck=true`) 发送回重定向请求。如果浏览器接受第三方cookie，则重定向请求包括这些cookies，并返回体验。这个工作流程是可行的，因为我们使用的是 HTTP GET 方法。
+在Target中，第三方Cookie存储在中 `<CLIENTCODE>.tt.omtrdc.net`。 第一方Cookie存储在中 `clientdomain.com`。 第一个请求会返回尝试设置名为 `mboxSession` 和 `mboxPC` 的第三方 Cookie 的 HTTP 响应标头，而会使用额外的参数 (`mboxXDomainCheck=true`) 发送回重定向请求。如果浏览器接受第三方Cookie，则重定向请求包括这些Cookie，并返回体验。 这个工作流程是可行的，因为我们使用的是 HTTP GET 方法。
 
-However, in at.js 2.*x*, HTTP GET is no longer used and instead we use HTTP POST. 现在，HTTP POST通过. js使用。*x* 将JSON有效负荷发送到Target Edge服务器。这意味着检查浏览器是否支持第三方 Cookie 的重定向请求现在会中断。这是因为HTTP GET请求是强大的事务，而HTTP POST是非有效的，不能随机重复。因此，在. js中进行跨域跟踪。*不再* 支持x。仅at. js1。*x* 具有对跨域跟踪的现成支持。
+However, in at.js 2.*x*, HTTP GET is no longer used and instead we use HTTP POST. HTTP POST现在通过at.js 2使用。*x* ，将JSON有效负载发送到目标边缘服务器。 这意味着检查浏览器是否支持第三方 Cookie 的重定向请求现在会中断。这是因为HTTP GET请求是无效事务，而HTTP POST是无效的，不能任意重复。 因此，at.js 2中的跨域跟踪。*x* 不再支持开箱即用。 仅at.js 1.*x* 现成支持跨域跟踪。
 
-If you want to use cross-domain tracking, you must install the [ECID library v4.3.0+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) in conjunction with at.js 2.*x* 目前不支持选择加入支持。ECID库存在用于管理在域中甚至识别访客的永久ID。安装EID库v4.3.0+和. js之后。*x*，您将能够创建跨越独特域和跟踪用户的活动。
+如果要使用跨域跟踪，则必须将 [ECID库v4.3.0+与at.js 2](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 一起安装。*x* 不支持跨域跟踪。ECID库用于管理永久ID，这些ID用于识别访客，甚至跨域。 安装ECID库v4.3.0+和at.js 2后。*x*，您将能够创建跨唯一域的活动并跟踪用户。
 
 ### 支持自动创建全局 Mbox
 
@@ -314,7 +314,7 @@ This setting tells at.js 2.*x* to fire a request to the [!DNL Target] edge serve
 
 ### 我们是否需要在调用 `triggerView()` 之前添加预隐藏代码以避免闪烁？
 
-不需要，在调用 `triggerView()` 之前，您不需要添加预隐藏代码。at.js 2.*x* 在显示和应用视图之前管理预隐藏和闪烁逻辑。
+不需要，在调用 `triggerView()` 之前，您不需要添加预隐藏代码。at.js 2.*x* 会在显示和应用视图之前管理预隐藏和闪烁逻辑。
 
 ## at.js 兼容性
 
@@ -348,7 +348,7 @@ This setting tells at.js 2.*x* to fire a request to the [!DNL Target] edge serve
 | 调试程序 | 是 |
 | 审核 | Rules have not yet been updated for at.js 2.*x* |
 | 动态标签管理器 (DTM) | 是 |
-| 选择加入 | 否。Opt-in support for [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) is supported in [at.js version 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
+| 选择加入 | 否。[at.js 版本 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 支持满足 [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) 要求的选择加入支持。 |
 | 由 Adobe Target 提供支持的 AEM 增强型个性化 | 否 |
 
 ### 功能
@@ -381,9 +381,9 @@ This setting tells at.js 2.*x* to fire a request to the [!DNL Target] edge serve
 
 at.js 2.*x*（与 at.js 1.*x* 一样）使用自定义事件 `at-request-succeeded` 来显示响应令牌。有关使用 `at-request-succeeded` 自定义事件的代码示例，请参阅[响应令牌](/help/administrating-target/response-tokens.md)。
 
-## at.js 1.*x* 参数到. js2。*x* 有效负荷映射 {#payload-mapping}
+## at.js 1.*x* at.js 2的参数。*x* payload映射 {#payload-mapping}
 
-本节概述了 at.js 1.*x* 和at. js2.*x*。
+本节概述了 at.js 1.*x* and at.js 2.*x*。
 
 在深入研究参数映射之前，这些库版本当前使用的端点已发生更改：
 
@@ -393,7 +393,7 @@ at.js 2.*x*（与 at.js 1.*x* 一样）使用自定义事件 `at-request-succeed
 另一个重要区别是：
 
 * at.js 1.*x* - 客户端代码是路径的一部分
-* at.js 2.*x* -客户端代码作为查询字符串参数发送，如：
+* at.js 2.*x* - 客户端代码将作为查询字符串参数发送，例如：
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
 以下部分列出了每个 at.js 1.*x* 参数、其描述以及相应的 2.0.0 JSON 有效负载（如果适用）：
@@ -848,8 +848,8 @@ at.js 2.*x* JSON有效负荷：
 
 ## Training video: at.js 2.*x* architectural diagram
 
-at.js 2.*x* 增强了Adobe Target对SPA的支持，并与其他Experience Cloud解决方案集成。该视频介绍了如何将所有内容结合到一起。
+at.js 2.*x* 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Cloud 解决方案集成。该视频介绍了如何将所有内容结合到一起。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=chi_hans)
 
-See [Understanding how at.js 2.*x* 可用于](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 更多信息。
+请参 [阅了解at.js 2的使用方法。*x适用*](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) ，以获取更多信息。

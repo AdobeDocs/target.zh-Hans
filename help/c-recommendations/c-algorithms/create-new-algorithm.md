@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
 
 ---
 
@@ -120,19 +120,19 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ## 预期标准处理时间 {#process-time}
 
-保存条件后， [!DNL Target] 计算建议。根据所选推荐逻辑、数据范围、目录中的项目数、客户生成的行为数据数量以及所选行为数据源，此计算需要一些时间来执行和时间范围不同。行为数据源对处理时间具有最大影响，如下所示：
+保存条件后，计算 [!DNL Target] 推荐。 此计算需要一些时间才能执行，并且时间范围会因所选推荐逻辑、数据范围、目录中的项目数、客户生成的行为数据量以及所选的行为数据源而不同。 行为数据源对处理时间的影响最大，如下所示：
 
 ### mbox
 
-如果mbox被选为行为数据源，一旦创建，条件就会立即运行。根据使用的行为数据量和目录的大小，算法可能需要长达 12 个小时才能运行。对条件配置进行更改通常会导致算法重新运行。根据所做的更改，之前计算的推荐可能在重新运行完成之前可用，或者对于较大的更改，只有备份或默认内容才可用，直到重新运行完成为止。如果未修改算法，则根据选定的数据范围 [!DNL Target] ，每12-48小时自动重新运行该算法。
+如果mbox被选作行为数据源，则创建后，条件会立即运行。 根据使用的行为数据量和目录的大小，算法可能需要长达 12 个小时才能运行。对标准配置进行更改通常会导致算法重新运行。 根据所做的更改，在重新运行完成之前，之前计算的推荐可能可用，或者对于较大的更改，在重新运行完成之前，只有备份或默认内容才可用。 如果未修改算法，则根据所选的数据范围，每 [!DNL Target] 12-48小时自动重新运行一次算法。
 
 ### Adobe Analytics
 
 If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
 
-* **一次性报告套件设置**：报表包与给定数据范围回顾窗口一起使用时， [!DNL Target Recommendations] 可能需要到天才能完全下载所选报表包的行为数据 [!DNL Analytics]。此时间帧取决于 [!DNL Analytics] 系统负载。
-* **使用已经可用的报告套件的新或编辑条件**：创建新条件或编辑现有条件时，如果已将选定的报表包与 [!DNL Target Recommendations]选定的数据范围一起使用，则数据会立即可用，并且不需要任何一次性设置。在这种情况下，或者如果在未修改所选报表套件或数据范围的情况下编辑算法设置，则算法会在12小时内运行或重新运行。
-* **持续的算法运行**：数据每天 [!DNL Analytics][!DNL Target Recommendations] 都在流动。例如，对于 [!UICONTROL “查看的关联] ”推荐，当用户查看产品时，将将产品视图跟踪调用传递 [!DNL Analytics] 到接近实时。[!DNL Analytics] 将在下一天将数据推送到 [!DNL Target] 第二天，并 [!DNL Target] 在12小时内运行算法。
+* **一次性报告套件设置**:首次将报表包与给定的数据范围回顾窗口一起使用时，可能需要两到七天时间，才能从中完全下载选定报表包的行为数据 [!DNL Target Recommendations][!DNL Analytics]。 此时间范围取决于系 [!DNL Analytics] 统负载。
+* **使用已有可用的报表包新建或编辑的条件**:在创建新标准或编辑现有标准时，如果选定的报表包已与之一起使用 [!DNL Target Recommendations]，且数据范围等于或小于选定的数据范围，则数据将立即可用，无需一次性设置。 在这种情况下，或者，如果在不修改所选报表包或数据范围的情况下编辑了算法的设置，则算法会在12小时内运行或重新运行。
+* **当前算法运行**:数据每 [!DNL Analytics] 天 [!DNL Target Recommendations] 从流到流。 例如，对于“已查 [!UICONTROL 看亲和力] ”推荐，当用户查看产品时，产品查看跟踪调用会接近实 [!DNL Analytics] 时地传递。 数 [!DNL Analytics] 据将推至次日 [!DNL Target] 初，并在不到12小 [!DNL Target] 时内运行算法。
 
 ## 使推荐基于推荐键 {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -343,17 +343,7 @@ If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once 
 
 >[!NOTE]
 >
->最近查看的项目同时尊重活动的全局设置和选定集合设置。如果某个项目被全局排除排除或未包含在选定的集合中，则不会显示该项目；因此，使用最近查看的项目条件时，应通常使用“所有集合”设置。
-
-### 先前购买的项目 {#previously-purchased}
-
-Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
-
-The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). 如果两个站点属于不同的环境，并且访客在两个站点之间切换，则每个站点只会在相应的网站上显示最近购买的项目。如果两个站点处于同一环境中，且访客在两个站点之间切换，则访客将看到两个站点最近购买的同一个项目。
-
-**在您网站上的什么位置使用**
-
-常规页面，例如主页或登陆页面及站外广告。
+>“最近查看的项目”包括活动的“排除”全局设置和选定的“集合”设置。 如果某个项目被全局排除项排除，或未包含在所选集合中，则不会显示该项目；因此，在使用“最近查看的项目”条件时，通常应使用“所有集合”设置。
 
 ## 包含规则 {#task_28DB20F968B1451481D8E51BAF947079}
 
@@ -458,7 +448,7 @@ The Recently Purchased Items criteria now returns results specific to a given [e
 
 默认情况下，所有属性都设置为“基准线”**。除非您要更改此设置，否则无需创建规则。
 
-## 培训视频：在Recommendations中创建标准(12：33)
+## 培训视频：在Recommendations中创建标准(12:33)
 
 此视频包含以下信息：
 

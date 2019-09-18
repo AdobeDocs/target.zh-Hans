@@ -8,7 +8,7 @@ title: 自定义参数
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 自定义参数为 mbox 参数。如果将任何 mbox 参数传递到 mbox，或者使用 targetPageParams 函数，则此处将显示这些参数，以供在受众中使用。
 
-有关更多信息，请参阅[将参数传递到全局 Mbox](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html)。
+For more information, see [Pass parameters to a global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
 
 创建基于 mbox 参数的自定义受众时，`mboxParameter` 将不再提示您输入 `mboxName`。mbox 名称现在是可选的。通过这项更改，您可以使用多个 mbox 中的参数或引用尚未记录到 Edge 的参数。
 
@@ -52,7 +52,7 @@ source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ## 注意事项 {#considerations}
 
-* 针对特定mbox评估受众和活动。例如，如果全局mbox传递某个参数，但区域mbox没有，则区域mbox上不符合该参数的活动/受众定位。
+* 受众和活动将针对特定mbox进行评估。 例如，如果全局mbox传递了某个参数，但区域mbox不传递，则该参数的活动／受众定位在区域mbox上将不符合条件。
 
 ## 培训视频：创建受众
 

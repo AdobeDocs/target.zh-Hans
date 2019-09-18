@@ -1,14 +1,14 @@
 ---
 description: 重定向选件会使浏览器重定向到一个新的页面。
 keywords: 重定向选件;创建重定向选件;添加 HTML 选件;在重定向中传递所有 URL 参数;在重定向中传递 mboxSessionId（仅当要重定向到其他域时才需使用此功能）
-seo-description: 有关Adobe Target中重定向选件的信息，可导致浏览器重定向到新页面。
+seo-description: 有关Adobe Target中导致浏览器重定向到新页面的重定向选件的信息。
 seo-title: 创建重定向选件
 solution: Target
 title: 创建重定向选件
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 
 以下视频包含有关管理内容的信息。
 
-* [Experience Cloud 资产库](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html)与 Target 内容库之间的关联
+* [Experience Cloud 资产库](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)与 Target 内容库之间的关联
 * 自定义 HTML 选件
 * 可视化体验编辑器中的自定义 HTML 选件
 

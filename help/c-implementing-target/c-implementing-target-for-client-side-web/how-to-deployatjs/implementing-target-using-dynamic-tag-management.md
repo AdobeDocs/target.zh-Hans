@@ -6,7 +6,7 @@ seo-title: 使用动态标签管理 (DTM) 实施 Target
 title: 使用动态标签管理 (DTM) 实施 Target
 uuid: 27374cb5-a700-4c50-a36e-e575f35b74e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
@@ -19,4 +19,4 @@ Adobe 动态标签管理 (DTM) 是 Adobe 的旧版标签管理器。
 >
 >[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 是实施 Target 和 at.js 库的最新首选方法。对于新的 Target 实施，请使用 Launch。以下指南适用于使用 DTM 实施的现有客户端。
 
-有关更多信息，请参阅[使用动态标签管理实施 Adobe Target 的最佳实践](https://marketing.adobe.com/resources/help/en_US/dtm/target/)。
+有关更多信息，请参阅[使用动态标签管理实施 Adobe Target 的最佳实践](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)。

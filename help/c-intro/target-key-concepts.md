@@ -9,7 +9,7 @@ title: Target 关键概念
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -50,7 +50,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 
 在 [!DNL Target Standard] 中，位置可以是页面上的任何元素，但前提是要跟踪的每个页面的 `<head>` 部分中包含一行用于启用 [!DNL Target] 的代码。这一行代码会调用所需的 JavaScript 库，以便收集信息并将定位体验交付给访客。
 
-请参阅[. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 的优势，用于详细了解在中实施位置实施 [!DNL Target Standard] 与mbox实施之间的差异 [!DNL Target Classic]。
+请参阅 [at.js 的好处](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)，以详细了解 [!DNL Target Standard] 中的位置实施与 [!DNL Target Classic] 中的 mbox 实施之间的差异。
 
 位置与受众相结合，可提供近乎无限数量的客户定位信息的选项。例如，如果访客以前从未访问过您的网站，您可以向这些新访客显示折扣券。同样，页面也可以更改为向回访客户显示更优化的选件。
 
@@ -98,13 +98,13 @@ An *体验*&#x200B;可决定满足特定条件时所显示的内容。
 
 或者，您可以将活动定位到来自某个地理区域的访客，或通过特定搜索引擎访问您页面的访客。
 
-可以保存受众以便在多个活动中重复使用，也可以为特定活动创建受众。
+可以保存受众以供多个活动重复使用，也可以为特定活动创建受众。
 
 | 受众类型 | 描述 |
 |--- |--- |
-| 可重用受众 | 可为任何活动选择可重用受众。对某个可重用受众进行更改时，该受众在使用它的所有活动中也会发生相应的更改。 |
+| 可重用受众 | 可以为任何活动选择可重用受众。对某个可重用受众进行更改时，该受众在使用它的所有活动中也会发生相应的更改。 |
 | 自定义区段 | 在 Target Classic 中，自定义区段（也称为“特定于营销活动”的区段）专门用于特定的营销活动。它们作为营销活动的一部分被创建，无法在其他营销活动中重复使用。 |
-| 共享受众 | 可以在 [!DNL Adobe Experience Cloud] 解决方案之间共享受众。请参阅 [Experience Cloud 受众](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)以查看相关示例。 |
+| 共享受众 | 可以在 [!DNL Adobe Experience Cloud] 解决方案之间共享受众。See [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) for examples. |
 
 要了解访客配置文件如何跟踪与网站访客相关的信息，请参阅[访客配置文件](../c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)。
 

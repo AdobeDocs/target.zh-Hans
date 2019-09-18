@@ -9,7 +9,7 @@ title: 在 A4T 中最大限度地减少夸大的访问和访客计数
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -77,7 +77,7 @@ Adobe 以数据的准确性和高质量而自豪。当触发 [!DNL Target] 标�
 
 **局部数据点击量：**&#x200B;用户有时不会在页面上停留足够长的时间来发出 [!DNL Analytics] 调用，但 [!DNL Target] 具有适当的 MCID。这会产生局部数据点击量（即不含 [!DNL Analytics] 页面查看次数的点击量）。如果这些用户返回您的网站并查看包含 [!DNL Analytics] 代码的页面，则他们将被作为旧访客正确计入点击量。如果页面上只有 [!DNL Analytics] 代码，则这些点击量都会丢失。某些客户不想拥有这些点击量的数据，因为它们会夸大某些量度（访问次数）并缩减其他量度（每次访问的页面查看次数、每次访问停留的时间等等）。您还将看到不包含任何页面查看次数的访问次数。但是，仍有正当理由保留这些数据。
 
-为了最大限度减少局部数据点击量，您可以加快页面加载速度，更新到最新版本的库，或者创建一个[虚拟报表包](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)以排除这些点击量。有关逐步说明，请参阅 [ 产品文档中的](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html)创建虚拟报表包[!DNL Analytics]。
+为了最大限度减少局部数据点击量，您可以加快页面加载速度，更新到最新版本的库，或者创建一个[虚拟报表包](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)以排除这些点击量。For step-by-step instructions, see [Create virtual report suites](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) in the *Analytics Components Guide*.
 
 下图显示了该虚拟报表包的区段定义：
 
@@ -98,7 +98,7 @@ Adobe 以数据的准确性和高质量而自豪。当触发 [!DNL Target] 标�
 
 **孤立点击：**&#x200B;在少数情况下，用户不会在页面上停留足够长的时间来进行 Analytics 调用，并且 Target 未获得适当的 MCID。这些就是我们定义的“孤立”点击。这些点击代表旧访客较少，且它们不合理地夸大了访问次数和访客数量。
 
-为了最大限度地减少这些“孤立”点击，您可以创建一个排除这些点击的[虚拟报表包](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html)，如上所述。
+为了最大限度地减少这些“孤立”点击，您可以创建一个排除这些点击的[虚拟报表包](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)，如上所述。
 
 ## 这对我的 [!DNL Target] 报表有什么影响？{#section_AAD354C722BE46D4875507F0FCBA5E36}
 

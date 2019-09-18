@@ -9,7 +9,7 @@ title: 下载 mbox.js
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -32,6 +32,6 @@ Target Standard 和 Premium 使用修改版的 Adobe Target mbox.js 文件。
 
    >[!IMPORTANT]
    >
-   >如果您使用的 [!DNL mbox.js] 版本低于 57，则该引用必须是页面 `<head>` 部分中的最后一项。如果 mbox.js 引用不是最后一项，则可能会引发严重的显示或性能问题。有关更多信息，请参阅[技术实施详细信息](https://marketing.adobe.com/resources/help/en_US/target/ov/c_mbox_technical.html)。
+   >如果您使用的 [!DNL mbox.js] 版本低于 57，则该引用必须是页面 `<head>` 部分中的最后一项。如果 mbox.js 引用不是最后一项，则可能会引发严重的显示或性能问题。有关 [详细信息，请参阅mbox.js的用途](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md) 。
 
 1. 将保存的 [!DNL mbox.js] 文件上传到您在代码中指定的托管环境位置。

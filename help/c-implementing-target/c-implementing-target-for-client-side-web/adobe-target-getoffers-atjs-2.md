@@ -1,6 +1,6 @@
 ---
 description: '有关 at.js 的 adobe.target.getOffers() 函数的信息。 '
-keywords: adobe. target. getOffers；getOffers；地理围栏；获取产品；at. js；函数；function
+keywords: adobe.target.getOffers;getOffers;get offers;get offers;at.js；函数；函数
 seo-description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers(options) 函数的信息。
 seo-title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers() 函数的信息。
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 | 键值 | 类型 | 必需？ | 描述 |
 | --- | --- | --- | --- |
-| consumerId | 字符串 | 否 | 如果未提供，则默认值为客户端的全局 mbox。可使用此键值生成用于 A4T 集成的补充数据 ID。此键是每个访客唯一的字符串。 |
+| consumerId | 字符串 | 否 | 如果未提供，则默认值为客户端的全局 mbox。可使用此键值生成用于 A4T 集成的补充数据 ID。此键是每个访客的唯一字符串。 |
 | request | 对象 | 是 | 请参阅下文的“请求”表。 |
 | timeout | 数值 | 否 | 请求超时。如果未指定，将使用默认的 at.js 超时值。 |
 
@@ -33,9 +33,9 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 | --- | --- | --- | --- |
 | request &gt; id | 否 |  | 需要使用 `tntId`、`thirdPartyId` 或 `marketingCloudVisitorId` 中的一个。 |
 | request &gt; id &gt; thirdPartyId | 否 | 最大大小 = 128 |  |  |
-| 请求&gt; Experience Cloud | 否 |  |  |
-| “请求”&gt;“Experience Cloud”&gt;“分析” | 否 |  | Adobe Analytics集成 |
-| “请求”&gt;“Experience Cloud”&gt;“分析”&gt;“日志记录” | 否 | 以下必须在页面上实现：<ul><li>访客 ID 服务</li><li>AppMeasurement. js</li></ul> | 支持以下值：<br>**client_ side**：指定后，分析有效负荷将返回到应通过数据插入API发送到Adobe Analytics的调用者。<br>**server_ side**：这是Target和Analytics后端将使用SSID组合调用以进行报告的默认值。 |
+| Request &gt; experienceCloud | 否 |  |  |
+| Request &gt; experienceCloud &gt; analytics | 否 |  | Adobe Analytics 集成 |
+| Request &gt; experienceCloud &gt; analytics &gt; logging | 否 | 必须在页面上实施以下内容：<ul><li>访客 ID 服务</li><li>Appmeasurement.js</li></ul> | 支持以下值：<br>**client_side**：指定后，将向调用方返回分析有效负载，该有效负载应该用于通过数据插入 API 发送到 Adobe Analytics。<br>**server_side**：这是默认值，Target 和 Analytics 后端会使用 SDID 将调用拼合在一起进行报告。 |
 | request &gt; prefetch | 否 |  |  |
 | request &gt; prefetch &gt; views | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头<br>不允许的名称：“orderId”、“orderTotal”、“productPurchasedId” | 传递用于检索活跃活动中相关视图的参数。 |
 | request &gt; prefetch &gt; views &gt; profileParameters | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头 | 传递用于检索活跃活动中相关视图的配置文件参数。 |
@@ -74,8 +74,9 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ```
 adobe.target.getOffers({
-    prefetch: {
-      views: []
+    request: {
+      prefetch: {
+        views: []
     }
   }
 });
@@ -129,7 +130,7 @@ adobe.target.getOffers({
 });
 ```
 
-## 调用getOffers()以从客户端检索分析有效负荷
+## 调用 getOffers() 以从客户端检索分析有效负载
 
 ```
 adobe.target.getOffers({
@@ -150,7 +151,7 @@ adobe.target.getOffers({
     .then(console.log)
 ```
 
-**响应**:
+**响应**：
 
 ```
 {
@@ -181,7 +182,7 @@ adobe.target.getOffers({
 }
 ```
 
-然后，可以通过 [数据插入API将有效负荷转发给Adobe Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
+然后，可以通过数据插入API将有效负荷转 [发到Adobe Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
 
 ## 通过 getOffers() 和 applyOffers() 获取并渲染多个 mbox 的数据 {#multiple}
 

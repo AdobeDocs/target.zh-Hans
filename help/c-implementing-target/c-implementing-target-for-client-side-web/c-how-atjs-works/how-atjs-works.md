@@ -1,6 +1,6 @@
 ---
 description: Target 系统图显示了使用 at.js 为自动创建的全局 mbox 发送或收集调用和信息的流程。
-keywords: 系统图;闪烁;Target Standard;at.js;实施；javascript库；js
+keywords: 系统图;闪烁;Target Standard;at.js;实施;javascript库；js
 seo-description: Adobe Target 系统图显示了使用 at.js 为自动创建的全局 mbox 发送或收集调用和信息的流程。
 seo-title: Adobe Target at.js 的工作原理
 solution: Target
@@ -8,7 +8,7 @@ title: at.js 的工作原理
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
+source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 有关更多信息，请参阅 [Target JavaScript 库](/help/c-intro/how-target-works.md#libraries)。
 
-在下图所示的 [!DNL Target] 实施中，实施了以下 [!DNL Adobe Experience Cloud] 解决方案：Analytics、Target 和 Audience Management。此外，还实施了以下 Experience Cloud 核心服务：Adobe Launch、受众和访客 ID 服务。
+In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. 此外，还实施了以下 Experience Cloud 核心服务：Adobe Launch、受众和访客 ID 服务。
 
 ## At.js 1.*x* 和 at.js 2.x 工作流程图之间有何差异？
 
@@ -34,7 +34,7 @@ source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 从高层次来看，两个版本之间存在一些差异：
 
 * at.js 2.x 没有全局 mbox 请求概念，但有页面加载请求概念。页面加载请求可以视为检索应该被应用于网站初始页面加载的内容的请求。
-* at.js 2.x 可管理用于单页应用程序 (SPA) 的“视图”概念。at.js 1.*x* 并没有此概念。
+* at.js 2.x管理称为“视图”的概念，这些概念用于单页应用程序(SPA)。 at.js 1.*x* 并没有此概念。
 
 ## at.js 2.x 图
 
@@ -49,7 +49,7 @@ source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 | 3 | 将会发出页面加载请求，其中包括已配置的所有参数（例如，MCID、SDID 和客户 ID）。 |
 | 4 | 配置文件脚本在执行后进入配置文件存储区。存储区向受众库请求符合条件的受众（例如从 Adobe Analytics、Audience Management 等共享的受众）。<br>客户属性会以批量过程发送到配置文件存储区。 |
 | 5 | 根据 URL 请求参数和配置文件数据，[!DNL Target] 可决定将哪些活动和体验返回给查看当前页面和未来视图的访客。 |
-| 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>当前页面上的目标内容会在默认内容不发生闪烁的情况下尽快显示。<br>视图中作为 SPA 用户操作结果显示的目标内容会缓存在浏览器中，因此当通过 `triggerView()` 触发视图时，可以立即应用它而无需额外的服务器调用。 |
+| 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>当前页面上的目标内容会在默认内容不发生闪烁的情况下尽快显示。<br>SPA中因用户操作而显示的视图的目标内容会缓存在浏览器中，这样，在通过触发视图时，无需额外的服务器调用即可即时应用该内容 `triggerView()`。 |
 | 7 | Analytics 数据会发送到数据收集服务器。 |
 | 8 | 目标数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 Analytics for Target (A4T) 报表查看 <br>Analytics 数据。 |
 
@@ -68,7 +68,7 @@ source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ## at.js 1.x 流程图
 
-![目标流- at. js1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
+![目标流- at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | 步骤 | 描述 | 调用 | 描述 |
 |--- |--- |--- |--- |
@@ -77,22 +77,22 @@ source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 | 5 | [!DNL Target] 根据 URL、mbox 参数和配置文件数据确定要返回给访客的活动和体验。 | 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>体验会在默认内容不发生闪烁的情况下尽快显示。 |
 | 7 | [!DNL Analytics] 数据会发送到数据收集服务器。 | 8 | [!DNL Target] 数据会通过 SDID 匹配到 [!DNL Analytics] 数据，并且会进行相应处理以保存到 [!DNL Analytics] 报表存储中。<br>之后，便可以在 [!DNL Analytics] 和 [!DNL Target] 中通过 [!DNL Analytics for Target] (A4T) 报表查看 [!DNL Analytics] 数据。 |
 
-## . js如何通过HTML内容呈现选件 {#render}
+## at.js如何通过HTML内容呈现选件 {#render}
 
-当呈现带有HTML内容的选件时，at. js应用以下算法：
+在呈现包含HTML内容的选件时，at.js会应用以下算法：
 
-1. 图像预先加载(如果HTML内容中 `<img>` 有任何标记)。
+1. 将预加载图像(如果HTML内容中 `<img>` 有任何标记)。
 
-1. HTML内容附加到DOM节点。
+1. HTML内容会附加到DOM节点。
 
 1. 执行内联脚本(包含在标记中 `<script>` 的代码)。
 
-1. 远程脚本以异步方式加载并执行(`<script>` 标记具有 `src` 属性)。
+1. 远程脚本以异步方式加载并执行(`<script>` 带有属性的 `src` 标记)。
 
-重要说明：
+重要注意事项：
 
-* at. js不提供对远程脚本执行顺序的任何保证，因为它们是异步加载的。
-* 随文脚本在远程脚本上不应有任何依赖关系，因为这些脚本在以后加载和执行。
+* at.js不对远程脚本执行顺序提供任何保证，因为这些脚本是异步加载的。
+* 内联脚本不应与远程脚本有任何依赖关系，因为这些脚本稍后会加载和执行。
 
 ## 培训视频：at.js 2.x 架构图
 
@@ -100,4 +100,4 @@ at.js 2.x 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Clo
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=chi_hans)
 
-请参阅 [了解. js2.x的工作](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 原理以了解更多信息。
+有关 [更多信息，请参阅了解at.js 2.x的工作原理](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 。

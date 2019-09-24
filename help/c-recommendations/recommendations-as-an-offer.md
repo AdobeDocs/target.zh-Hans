@@ -8,7 +8,7 @@ title: “推荐”作为选件
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
    >
    >对于 A/B 测试，请记住您可以选择[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)选项以自动将流量推送到性能最佳的推荐，或者选择[自动定位](/help/c-activities/auto-target-to-optimize.md)选项以根据访客的配置文件为他们分配量身定制的推荐体验。
 
-1. While creating an [experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element you want to add a recommendation to as an offer, select the **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, or **[!UICONTROL Replace With]** action, then select [!UICONTROL Recommendation].
+1. 在创建[体验](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)时，单击要将推荐作为选件添加到的元素，选择&#x200B;**[!UICONTROL 此项前插入]**、**[!UICONTROL 此项后插入]**&#x200B;或&#x200B;**[!UICONTROL 替换为]**&#x200B;操作，然后选择“[!UICONTROL 推荐]”。
 
    下图显示了[!UICONTROL 此项后插入 &gt; 推荐]选项。
 
@@ -112,12 +112,16 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
    ![“删除”图标](/help/c-recommendations/assets/recs-offer-delete.png)
 
-### Viewing the recommendations offer's status {#status}
+### 查看推荐选件的状态 {#status}
 
 The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
 
 * 结果就绪
-* 结果未准备就绪
-* Feed failed
+* 结果未准备
+* 供给失败
 
-![推荐提供状态](/help/c-recommendations/assets/recs-offer-status.png)
+![Recommendations选件状态](/help/c-recommendations/assets/recs-offer-status.png)
+
+## 培训视频：作为选件的建议
+
+>[!VIDEO](https://video.tv.adobe.com/v/28878?captions=chi_hans)

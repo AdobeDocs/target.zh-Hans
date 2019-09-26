@@ -8,7 +8,7 @@ title: 设计概述
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 
 ---
 
@@ -91,7 +91,7 @@ Target 还可以将您的推荐作为 JSON 对象来发送，而 JSON 对象可�
 | 参数 | 值 |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Target 客户端代码（位于 ../target/products.html#recsSettings &gt;“推荐 API 令牌”&gt;“客户端代码”）。 |
-| `[YOUR_MBOX_NAME]` | 您在基于表单的推荐的“位置”部分中选择的名称，在此示例中为 YOUR_CLIENT_CODE。 |
+| `[YOUR_MBOX_NAME]` | 您在基于表单的Recommendations的“位置”部分中选择的名称，在此示例中为Sample_Recs_Response。 |
 | `[ENTITY_ID`] | 您目录中的项目的 `entity.id`。 |
 | `[AT_PROPERTY_TOKEN]` | （可选）如果您在活动设置过程中选择了某个属性（“企业权限”的一部分），则需添加此参数。 |
 

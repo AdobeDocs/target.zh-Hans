@@ -7,7 +7,7 @@ solution: Target
 title: A/B 测试应该持续多长时间？
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -34,7 +34,7 @@ Target 提供了一些工具来帮助确保您的活动具有足够的样本量�
 
    有关更多信息，请参阅[自动分配](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
-* **Target 样本量计算器：**&#x200B;如果您选择使用手动 A/B 测试而不是自动分配，则 Target 样本量计算器可帮助您确定测试取得成功所需的样本量。继续阅读可了解有关如何使用计算器的更多信息。
+* **Target 样本量计算器：**&#x200B;如果您选择使用手动 A/B 测试而不是自动分配，则 Target 样本量计算器可帮助您确定测试取得成功所需的样本量。手动A/B测试是固定水平测试，因此计算器非常有用。 对“自动分配”活动使用计算器是可选的，因为“自动分配”将为您声明一个入选方。 该计算器粗略估计了所需的样本大小。 继续阅读可了解有关如何使用计算器的更多信息。
 
 ## Adobe Target 样本量计算器 {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 

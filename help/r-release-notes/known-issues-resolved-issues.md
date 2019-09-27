@@ -1,14 +1,14 @@
 ---
 description: 有关此 Target 版本的已知问题的信息。此外，还包括有关已解决问题的信息。
-keywords: 已知问题;已解决的问题;发行说明
-seo-description: 有关此 Target 版本的已知问题的信息。此外，还包括有关已解决问题的信息。
+keywords: 已知问题;已解决的问题;发行说明;bugs;issues;fixes
+seo-description: 有关此版本的Adobe Target的已知问题的信息。 此外，还包括有关已解决问题的信息。
 seo-title: Adobe Target 中的已知问题和已解决的问题
 solution: Target
 title: 已知问题和已解决的问题
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 下面部分列出了 [!DNL Target] 的已知问题：
 
-### 活动QA预览链接 {#preview}
+### Activity QA preview links {#preview}
 
-[如果帐户中保存的活动过多](/help/c-activities/c-activity-qa/activity-qa.md) ，则可能无法加载已保存活动的活动QA预览链接。 重新尝试预览链接应可正常使用。 要防止这种情况继续发生，请存档不再被主动使用的已保存活动。 (TNT-32697)
+[如果帐户中保存的活动过多](/help/c-activities/c-activity-qa/activity-qa.md) ，则可能无法加载已保存活动的活动QA预览链接。 Re-trying the preview links should work. To prevent this from continuing to happen, archive saved activities that are no longer actively used. (TNT-32697)
 
 ### 重定向选件 {#redirect}
 

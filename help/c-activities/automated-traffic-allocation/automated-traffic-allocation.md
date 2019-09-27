@@ -8,7 +8,7 @@ title: 自动分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -171,7 +171,7 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 
 **使用自动分配时，我能否使用样本量计算器来估算活动确定入选者将花费的时长？**
 
-您可以使用适当应用了 Bonferroni 校正法的现有[样本量计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)来估算测试运行的时长。在我们的实验中，我们发现自动分配活动结束的时间早于使用此样本量计算器估算的时间。
+您可以使用适当应用了 Bonferroni 校正法的现有[样本量计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)来估算测试运行的时长。对“自动分配”活动使用计算器是可选的，因为“自动分配”将为您声明一个入选方。 该计算器粗略估计了所需的样本大小。 在我们的实验中，我们发现自动分配活动结束的时间早于使用此样本量计算器估算的时间。
 
 **我是否应该从自动分配活动中删除性能不佳的体验，以加快确定入选者的过程？**
 

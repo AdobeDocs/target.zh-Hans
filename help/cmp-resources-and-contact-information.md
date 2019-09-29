@@ -33,7 +33,7 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 
 注册信息以及指向以前的 Target 基础知识网络研讨会系列会议的链接，该研讨会系列是由社区为您提供的客户成功网络研讨会系列。
 
-[单击此处观看过去的会话或了解有关即将举办的会议和注册信息](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)的更多信息。
+[Click here to watch past sessions or to learn more about upcoming sessions and registration information.](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)
 
 
 ## Adobe 客户关怀团队办公时间 {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
@@ -46,9 +46,9 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 
 | 主题/运行时长/录制日期 | 您将了解的内容 |
 |--- |--- |
-| [Visual Experience Composer(CMS)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50：23<br>2017年12月23日 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>有关本指南中的更多信息，请参阅[体验](/help/c-experiences/experiences.md)。 |
-| [Adobe Target：Analytics/Target集成(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br><br>40：3320：33 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
-| [at. js：优势和实施最佳实践](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26：43<br>2018年月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul>有关本指南中的更多信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
+| [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017年12月 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>有关本指南中的更多信息，请参阅[体验](/help/c-experiences/experiences.md)。 |
+| [Adobe Target:Analytics/Target集成(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018年1月40:33<br>日 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
+| [at.js:优势和实施最佳实践](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018年4月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul>有关本指南中的更多信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Adobe Target Insider 是针对 Adobe Target 社区成员发布的每月时事通
 
 >[!IMPORTANT]
 >
->[注册以自动在收件箱中接收Adobe Target Insider新闻快讯](https://www.adobe.com/subscription/adobe_target_newsletter.html)。
+>[注册后，会在您的收件箱中自动收到Adobe Target Insider新闻快讯](https://www.adobe.com/subscription/adobe_target_newsletter.html)。
 
 如果您错过了先前的时事通讯，请单击下面的链接，以确保不会遗漏任何内容：
 

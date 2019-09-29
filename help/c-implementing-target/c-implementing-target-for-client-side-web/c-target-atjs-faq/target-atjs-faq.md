@@ -29,7 +29,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 如上图所示，使用 mbox.js 时，在 [!DNL Target] 调用完成后才会开始加载页面内容。使用 at.js 时，在 [!DNL Target] 调用启动后即会开始加载页面内容，而不会等到调用完成才开始加载。
 
-## What is the impact of at.js and mbox.js on page-load time? {#page-load}
+## at.js 和 mbox.js 对页面加载时间有何影响？{#page-load}
 
 很多客户和顾问都想了解 [!DNL at.js] 和 [!DNL mbox.js] 对页面加载时间的影响，特别是对于新用户与旧用户的情况。但遗憾的是，由于每位客户的实施不尽相同，因此很难评测 [!DNL at.js] 或 [!DNL mbox.js] 对页面加载时间的影响并给出具体的数字。
 

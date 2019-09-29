@@ -22,7 +22,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以通过添加更多条件或在其他类别中创建更多规则，来进一步优化规则。例如，要仅定位使用 Firefox 浏览器从 Google 访问您网站的来自旧金山的用户，则可以设置“[!UICONTROL 地域]”类别以定位来自旧金山的用户，然后设置“[!UICONTROL 访客行为]”类别以定位 Firefox，最后设置“[!UICONTROL 流量源]”类别以定位 Google。所有跨越类别创建的规则会通过“与”条件进行组合。要创建包括跨越类别的“或”操作的复杂定位规则，请创建一个定位表达式。
 
-您还可以定位自定义配置文件参数和 `user.` 参数。When adding an audience, click **[!UICONTROL Visitor Profile]**, then choose the parameter you use want to use to target your activity. 如果未显示所需的参数，则表明该参数尚未由 mbox 触发。“[!UICONTROL 自定义参数]”下拉列表中提供了其他自定义 mbox 参数。
+您还可以定位自定义配置文件参数和 `user.` 参数。添加受众时，单击&#x200B;**[!UICONTROL 访客配置文件]**，然后选择要用于对活动进行定位的参数。如果未显示所需的参数，则表明该参数尚未由 mbox 触发。“[!UICONTROL 自定义参数]”下拉列表中提供了其他自定义 mbox 参数。
 
 可使用搜索框来搜索“[!UICONTROL 受众]”列表。您可以搜索受众名称的任意部分，或将特定字符串用引号引住。
 

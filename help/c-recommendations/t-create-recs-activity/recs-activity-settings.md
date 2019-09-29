@@ -1,8 +1,8 @@
 ---
 description: 有些设置可用于描述和控制“推荐”活动。
 keywords: 推荐;设置;名称;目标;优先级;持续时间;报表设置;其他元数据
-seo-description: 可使用多种设置描述和控制Adobe Target中的推荐活动。
-seo-title: Adobe Target中的推荐活动设置
+seo-description: 有些设置可用于描述和控制 Adobe Target 中的“推荐”活动。
+seo-title: Adobe Target 中的“推荐”活动设置
 solution: Target
 subtopic: 推荐
 title: “推荐”活动设置
@@ -20,7 +20,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 有关可用于描述和控制[!UICONTROL 推荐]活动的设置的信息。
 
-![Recommendations目标和设置页面](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
+![“推荐”活动目标和设置页面](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
 以下部分介绍了[!UICONTROL 推荐]活动的可用设置。
 
@@ -55,12 +55,12 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 设置活动的持续时间。
 
-活动可以在激活后启动，也可以设置特定的日期和时间。同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。时间选择器使用的是 24 小时制时钟，其中 00:00 表示午夜。时区设置为在浏览器中配置的时区。要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
+活动可以在激活时开始，或者您也可以设置特定的日期和时间。同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。时间选择器使用的是 24 小时制时钟，其中 00:00 表示午夜。时区设置为在浏览器中配置的时区。要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
 
 ## 报表设置
 
-* **报告来源：** 选择报告源：Adobe Target或 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)。活动开始后，请勿更改报告源。活动进入活动后更改报告源会导致报告不一致。
-* **目标量度：** 选择确定活动是否成功的成功量度。
+* **报表源：**&#x200B;选择报表源：Adobe Target 或 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)。活动开始后，请勿更改报表源。在活动开始后更改报表源会导致报表不一致。
+* **目标量度：**&#x200B;选择用于确定活动是否成功的成功量度。
 * **其他量度：**&#x200B;配置要在报表中使用的其他成功量度。
 * **报表的受众：**&#x200B;定义可在筛选报表时使用的受众。
 

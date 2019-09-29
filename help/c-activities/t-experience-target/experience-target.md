@@ -16,17 +16,17 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。
 
-Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. 可以在活动中定义多个规则，以将不同的内容变体交付到不同的受众。
+体验定位（包括[地理定位](/help/c-target/c-audiences/c-target-rules/geo.md)）对于定义规则以将特定体验或内容定位到特定受众非常有用。可以在活动中定义多个规则，以将不同的内容变体交付到不同的受众。
 
 访客在访问您的网站时，体验定位 (XT) 会对其进行评估以判断他们是否符合您所设定的标准。如果他们符合标准，则可以进入活动，并会看到专为符合条件的受众设计的体验。您可以在一个活动中为多个受众创建体验。
 
 体验定位是迈入个性化世界的第一步，通常以 A/B 测试开始。营销人员运行 A/B 测试，并通过使用报表受众，发现不同的体验可与不同的受众产生共鸣。借助体验定位，营销人员可以轻松地利用这一发现来进行转换，以将内容长期定位到这些不同的用户区段。
 
-## 场景：体验定位
+## 情景：体验定位
 
-假定您的网站提供户外设备。您A/B测试报告表明，您有三种可产生不同受众共鸣的体验。为了利用此项发现，您希望在主页上显示不同的标志性图像，以吸引这些不同的受众，具体取决于访客的位置或爱好。在此情景中，您希望向来自New Jersey的访客显示徒步图像，并向夏威夷访客显示冲浪图像。您还有一个喜欢自行车的受众。您想要显示第三幅吸引骑自行车观众的英雄图像。
+假定您的网站销售户外装备。您的 A/B 测试报表显示您具有三个体验，可以吸引不同的受众。为利用这一发现，您想要在主页上显示不同的主页图像来吸引不同的受众，具体显示的内容取决于访客的位置或喜好。在此情景中，您希望向新泽西的访客显示徒步旅行图像，向夏威夷的访客显示冲浪图像。另外，还有一类受众喜欢骑车。您希望显示第三个主页图像来吸引喜爱骑车的受众。
 
-XT活动允许您将这三个受众定位到一个不同的标志性图像，这些图像吸引每个受众。The video below, *From A/B Testing to Experience Targeting* shows you how to create experiences targeted to both states and a third experience targeted to biking enthusiasts. 该视频还向您介绍如何订购三种体验以实现目标。Watch the video, then continue with [Create an Experience Targeting activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
+XT 活动允许您向这三类受众定位不同的主页图像，以便吸引各类受众。下面的视频（“从 A/B 测试到体验定位”**）向您展示了如何创建定位到这两个州的体验，以及定位到骑车爱好者的第三个体验。该视频还向您介绍了如何对这三个体验进行排序，以实现您的目标。请观看视频，然后继续[创建体验定位活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)。
 
 ## 培训视频：
 

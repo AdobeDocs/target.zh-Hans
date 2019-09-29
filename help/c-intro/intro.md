@@ -17,7 +17,7 @@ source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 Adobe Target 是一种 Adobe Experience Cloud 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-以下视频基本了解Target以及其他Adobe Experience Cloud解决方案如何帮助您的组织实现其目标：
+以下视频大致介绍了 Target 及其他 Adobe Experience Cloud 解决方案如何帮助贵组织实现目标：
 
 >[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
 
@@ -94,11 +94,11 @@ Target Premium 包含以下高级功能：
 
 有关更多信息，请参阅 [Recommendations Classic 文档](../assets/adobe-recommendations-classic.pdf)。
 
-## Experience League: The Adobe Target Welcome Kit {#kit}
+## Experience League：Adobe Target 欢迎工具包 {#kit}
 
-借助此欢迎套件，在Adobe Target上构建优化和个性化计划！它包含重要的信息、工具和资源，可帮助您准备和启动第一个Adobe Target活动，并通过短期快速赢得和长期优化战略进行准备。
+借助此欢迎工具包，可在 Adobe Target 上构建优化和个性化计划！该工具包中包含关键信息、工具和资源，可帮助准备和启动您的第一个 Adobe Target 活动，同时有助于制定短期速效方案和长期优化策略。
 
-[Adobe Target欢迎套件](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Adobe Target欢迎工具包](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## 培训视频：活动类型 (9:03)
 

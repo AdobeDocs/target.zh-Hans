@@ -1,8 +1,8 @@
 ---
 description: 类别亲和度功能会自动捕捉用户访问的类别，然后计算用户对该类别的喜爱程度，从而可以对用户进行定位和细分。这有助于确保内容会被定位到最有可能对该信息做出回应的访客。
 keywords: 亲和度;类别亲和度
-seo-description: Adobe Target中的类别亲和力功能会自动捕获用户访问的类别，然后计算用户对该类别的关联，以便可以定位和分段。这有助于确保内容会被定位到最有可能对该信息做出回应的访客。
-seo-title: 在Adobe Target中使用类别亲和力
+seo-description: Adobe Target 中的类别亲和度功能会自动捕捉用户访问的类别，然后计算用户对该类别的喜爱程度，从而可以对用户进行定位和细分。这有助于确保内容会被定位到最有可能对该信息做出回应的访客。
+seo-title: 在 Adobe Target 中使用类别亲和度
 solution: Target
 title: 类别亲和度
 topic: Standard
@@ -21,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 不论用户何时访问您的网站，都会将特定于访客的配置文件参数记录到 [!DNL Target] 数据库中。该数据将与用户的 Cookie 绑定。一个特别有用的参数是 `user.categoryId`，它是在产品页面上分配的 mbox 参数。访客持续浏览时，或离开后返回进行另一个会话时，都可以记录特定用户查看的产品类别。您还可以将类别信息作为任何 mbox（包括嵌套 mbox）中的 mbox 参数 `user.categoryId` 或作为 URL 参数 `user.categoryId` 进行传递，或者通过全局 mbox 在 Target 页面参数中进行传递，从而记录类别信息。有关更多详细信息，请咨询您的帐户代表。
 
-用逗号分隔类别以包含多个类别的项目。例如：
+要将一个项目包含在多个类别中，请使用逗号分隔类别。例如：
 
 * `user.categoryId=clothing,shoes,nike,running,nike clothing,nike shoes,nike running shoes`
 
@@ -31,7 +31,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` 是跟踪用户喜爱的类别所必需的。`entity.categoryId` 要求对当前页面或当前项目的类别进行基础推荐。如果要同时使用这两个功能，请将这两个值传递给Adobe Target。
+>Adobe Target 类别亲和度算法所使用的 `user.categoryId` 属性不同于 Adobe Target“推荐”产品和内容推荐所使用的 `entity.categoryId` 属性。要跟踪用户喜爱的类别，需要使用 `user.categoryId`。要根据当前页面或当前项目所属的类别进行推荐，需要使用 `entity.categoryId`。如果要同时使用这两项功能，请将这两个值都传递给 Adobe Target。
 
 ## 类别亲和度的商业案例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -117,11 +117,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. 单击 **[!UICONTROL + 添加规则]** &gt; **[!UICONTROL 访客配置文件]**。
 1. 从&#x200B;**[!UICONTROL 访客配置文件]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 类别亲和度]**。
 
-   ![访客配置文件&gt;类别亲和力](assets/affinity.png)
+   ![“访客配置文件”&gt;“类别亲和度”](assets/affinity.png)
 
 1. 选择所需类别：
 
-   ![类别亲和力&gt;类别](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![“类别亲和度”&gt;“类别”](/help/c-target/c-visitor-profile/assets/affinity-category.png)
 
    类别包括：
 

@@ -1,8 +1,8 @@
 ---
 description: 实体是指您想推荐的项目。实体可以是任何事物，例如产品、内容（文章、幻灯片、图像、电影和电视节目）、工作列表、餐馆等。
 keywords: 产品;收藏集
-seo-description: 实体引用您要建议使用Adobe Target的项目。实体可以是任何事物，例如产品、内容（文章、幻灯片、图像、电影和电视节目）、工作列表、餐馆等。
-seo-title: Adobe Target中的实体
+seo-description: 实体是指您要建议使用Adobe target的项目。 实体可以是任何事物，例如产品、内容（文章、幻灯片、图像、电影和电视节目）、工作列表、餐馆等。
+seo-title: Entities in Adobe Target
 solution: Target
 title: 实体
 title-outputclass: premium

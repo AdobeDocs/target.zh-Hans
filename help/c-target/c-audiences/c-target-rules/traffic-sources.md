@@ -1,8 +1,8 @@
 ---
-description: 创建受众以根据搜索引擎或引用网站的登陆页面定位访客。
+description: 创建受众以根据将访客引荐至您网站的搜索引擎或登陆页面来定位访客。
 keywords: 定位;流量源;定位流量源;定位搜索引擎;搜索引擎;登陆页面;定位登陆页面;引荐登陆页面
-seo-description: 在Adobe Target中创建受众，以根据搜索引擎或引用网站的登陆页面定位访客。
-seo-title: 定位Adobe Target中的流量来源
+seo-description: 在 Adobe Target 中创建受众以根据将访客引荐至您网站的搜索引擎或登陆页面来定位访客。
+seo-title: 在 Adobe Target 中定位流量源
 solution: Target
 title: 流量源
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
@@ -14,9 +14,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 流量源{#traffic-sources}
 
-创建受众以根据搜索引擎或引用网站的登陆页面定位访客。
+创建受众以根据将访客引荐至您网站的搜索引擎或登陆页面来定位访客。
 
-例如，您可以根据访客的浏览器、搜索引擎或引荐登陆页面来确定目标。引用登陆页面是访客单击以进入此会话的页面。(For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
+例如，您可以根据访客的浏览器、搜索引擎或引荐登陆页面来确定目标。引荐登陆页面是指一个会话中的某个网页，访客通过在该网页中点击而来到当前网站。（例如，如果访客点击了 Google 上的一则广告后，它将访客引荐至 `adobe.com` 主页，则 `google.com` 即为引荐登陆页面。）
 
 您可以组合多个流量源来创建一个复杂的目标规则。
 
@@ -35,7 +35,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * 引荐登陆页面: URL
    * 引荐登陆页面: 域
    * 引荐登陆页面: 查询
-   根据您的选择，可能需要提供其他信息(评估者和/或值)。
+   根据您的选择，您可能需要提供其他信息（计算器和/或值）。
 
 1. （可选）单击&#x200B;**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
 1. 单击&#x200B;**[!UICONTROL 保存]**。

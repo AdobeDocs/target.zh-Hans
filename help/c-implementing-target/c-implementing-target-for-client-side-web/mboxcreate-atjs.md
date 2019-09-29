@@ -1,6 +1,6 @@
 ---
 description: '有关 at.js 的 mboxCreate(mbox,params) 函数的信息。 '
-keywords: mboxCreate；mboxcreate；mbox创建；at. js；函数；function
+keywords: mbox创建；mboxcreate;mbox创建；at.js；函数；函数
 seo-description: 有关 Adobe Target at.js JavaScript 库的 mboxCreate(mbox,params) 函数的信息。
 seo-title: 有关 Adobe Target at.js JavaScript 库的 mboxCreate(mbox,params) 函数的信息。
 solution: Target

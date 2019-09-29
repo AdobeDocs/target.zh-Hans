@@ -1,7 +1,7 @@
 ---
 description: 有关此 Target 版本的已知问题的信息。此外，还包括有关已解决问题的信息。
-keywords: 已知问题;已解决的问题;发行说明;bugs;issues;fixes
-seo-description: 有关此版本的Adobe Target的已知问题的信息。 此外，还包括有关已解决问题的信息。
+keywords: 已知问题;已解决的问题;发行说明；错误；问题；修复
+seo-description: Information about known issues for this release of Adobe Target. 此外，还包括有关已解决问题的信息。
 seo-title: Adobe Target 中的已知问题和已解决的问题
 solution: Target
 title: 已知问题和已解决的问题
@@ -25,9 +25,9 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 下面部分列出了 [!DNL Target] 的已知问题：
 
-### Activity QA preview links {#preview}
+### 活动QA预览链接 {#preview}
 
-[如果帐户中保存的活动过多](/help/c-activities/c-activity-qa/activity-qa.md) ，则可能无法加载已保存活动的活动QA预览链接。 Re-trying the preview links should work. To prevent this from continuing to happen, archive saved activities that are no longer actively used. (TNT-32697)
+[如果帐户中保存的活动过多](/help/c-activities/c-activity-qa/activity-qa.md) ，则可能无法加载已保存活动的活动QA预览链接。 重新尝试预览链接应可正常使用。 要防止这种情况继续发生，请存档不再被主动使用的已保存活动。 (TNT-32697)
 
 ### 重定向选件 {#redirect}
 
@@ -124,7 +124,7 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 
 * 如果推荐信息源中的项目与上一次运行中的项目相同，则该信息源索引会显示“正在等待编入索引”。要交付的产品引入不会受到影响。(RECS-6663)
 
-   Target 19.4.2版本中修复了此问题。
+   This issue was fixed in the Target 19.4.2 release.
 
 * “推荐”信息源在处理时所花费的时间比预期要长。(COR-2836)
 

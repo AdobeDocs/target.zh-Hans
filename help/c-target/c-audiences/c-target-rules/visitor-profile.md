@@ -1,10 +1,10 @@
 ---
-description: 创建受众以定位满足特定档案参数的访客。
+description: 创建受众以定位满足特定配置文件参数的访客。
 keywords: 访客配置文件;Target 访客配置文件
-seo-description: 在Adobe Target中创建受众，以定位满足特定档案参数的访客。
+seo-description: 在 Adobe Target 中创建受众以定位满足特定配置文件参数的访客。
 seo-title: 访客配置文件
 solution: Target
-title: 使用Adobe Target创建受众以定位访客档案
+title: 使用 Adobe Target 创建受众以定位访客配置文件
 topic: Premium
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 访客配置文件{#visitor-profile}
 
-创建受众以定位满足特定档案参数的访客。
+创建受众以定位满足特定配置文件参数的访客。
 
 1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。

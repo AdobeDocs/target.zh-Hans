@@ -127,7 +127,7 @@ source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 ## 移动应用程序
 
 * [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
-* [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [针对移动应用程序的Target常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## 报表
 

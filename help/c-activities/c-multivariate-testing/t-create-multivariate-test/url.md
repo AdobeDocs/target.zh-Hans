@@ -1,7 +1,7 @@
 ---
-description: 活动URL决定了在Multivariate Test(MVT)中使用的页面，该页面在Target中设计测试时打开。
+description: 活动 URL 可决定多变量测试 (MVT) 中使用的页面，以及在 Target 中设计测试时打开的页面。
 keywords: 定位
-seo-description: 活动URL决定了在Multivariate Test(MVT)中使用的页面，该页面在Adobe Target中设计测试时打开。
+seo-description: 活动 URL 可决定多变量测试 (MVT) 中使用的页面，以及在 Adobe Target 中设计测试时打开的页面。
 seo-title: 活动 URL
 solution: Target
 title: 活动 URL
@@ -14,17 +14,17 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 活动 URL{#activity-url}
 
-The activity URL determines the page that is used in the [!UICONTROL Multivariate Test] (MVT), and that opens when the test is designed in [!DNL Adobe Target].
+活动 URL 可决定[!UICONTROL 多变量测试] (MVT) 中使用的页面，以及在 [!DNL Adobe Target] 中设计测试时打开的页面。
 
-[在活动创建过程中提示时](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)，指定活动URL。Type the complete URL (including `https://`), then click **[!UICONTROL Next]**.
+在[活动创建](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)过程中，如果收到相应的提示，请指定活动 URL。键入完整的 URL（包括 `https://`），然后单击&#x200B;**[!UICONTROL 下一步]**。
 
 >[!NOTE]
 >
 >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。因此，[!DNL `https://www.adobe.com`] 和 [!DNL `http://www.adobe.com`] 均匹配。
 
-By default, the [!UICONTROL Visual Experience Composer] (VEC) opens the page that is specified in your [Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 在活动创建过程中，您可以指定其他页面。
+默认情况下，[!UICONTROL 可视化体验编辑器] (VEC) 会打开您的[帐户首选项](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)中指定的页面。在活动创建过程中，您可以指定其他页面。
 
-To display a different page after the VEC opens, click the **[!UICONTROL Configure]** icon, then select **[!UICONTROL Page Delivery]**, then specify the URL.
+要在 VEC 打开后显示其他页面，请单击&#x200B;**[!UICONTROL 配置]**&#x200B;图标，选择&#x200B;**[!UICONTROL 页面交付]**，然后指定相应的 URL。
 
 ![“页面交付”对话框](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
 
@@ -47,7 +47,7 @@ To display a different page after the VEC opens, click the **[!UICONTROL Configu
 >
 >如果您输入的 URL 所对应的网站不包含 Target Standard JavaScript 代码，则您将无法选择页面元素。
 
-默认情况下，CMS不允许对包含JavaScript的元素(如旋转横幅)进行更改。如果您希望能够使用&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;更改这些元素，可以关闭[!UICONTROL 使用 JavaScript 渲染]。
+默认情况下，VEC 不允许更改包含 JavaScript 的元素，如旋转横幅。如果您希望能够使用&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;更改这些元素，可以关闭[!UICONTROL 使用 JavaScript 渲染]。
 
 >[!NOTE]
 >

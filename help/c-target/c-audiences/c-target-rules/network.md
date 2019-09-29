@@ -1,8 +1,8 @@
 ---
 description: 您可以基于网络详细信息创建受众。
 keywords: 定位;网络;定位网络;ISP;域名;连接速度;定位 ISP;定位域名;定位连接速度
-seo-description: 您可以根据网络详细信息在Adobe Target中创建受众。
-seo-title: 根据网络详细信息在Adobe Target中创建受众。
+seo-description: 您可以在 Adobe Target 中基于网络详细信息创建受众。
+seo-title: 在 Adobe Target 中基于网络详细信息创建受众。
 solution: Target
 title: 网络
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
@@ -55,9 +55,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. （可选）单击&#x200B;**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
+下图展示了一个受众，它定位的是使用 AT&amp;T 且连接速度为“[!UICONTROL 移动设备]”的访客。
 
-![网络目标](assets/target_network.png)
+![定位网络](assets/target_network.png)
 
 ## 培训视频：创建受众
 

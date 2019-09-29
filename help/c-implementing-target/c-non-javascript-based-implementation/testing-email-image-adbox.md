@@ -43,6 +43,6 @@ mboxPC={123456}” border=“0"/>
 | clientcode | 您公司的客户端代码。可在 at.js 或 mbox.js 中查找此代码，此代码以 `clientCode='yourclientcode'` 形式列出。此代码为全小写的字母，且无特殊字符。 |
 | image | 选件类型。对于图形广告，此代码始终为“image”；而对于重定向器，此代码始终为“page”。 |
 | email_header | adbox 的名称。 |
-| `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | 必需。用适用于您的adbox的相应默认内容替换URL。它必须为绝对引用，且必须为 URL 编码。 |
+| `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | 必需。将 URL 替换为 adbox 的相应默认内容。它必须为绝对引用，且必须为 URL 编码。 |
 | `mboxXDomain=disabled` | 告知 Target 不要尝试设置 Cookie。 |
 | `mboxSession=123456` 和 `mboxPC=123456` | Target 需要使用这两个值将此用户的配置文件与您站点中的现有配置文件进行合并。123456 为每封电子邮件生成的唯一标识符。该值将被动态插入到每一个 adbox 及重定向器 URL 中。每封电子邮件的这一数字必须是唯一的。如果每周向 1000 名用户发送电子邮件，则必须生成 1000 个具有唯一性的 ID。<br>每封电子邮件的唯一标识符需要分配给每一个 adbox 及重定向器 URL 中的 mboxSession 和 mboxPC。建议该标识符采用 timestamp-NNNNN 格式，其中 NNNNN 是随机的 5 位数字，任何字母数字格式都适用。一些电子邮件群发服务及所有编程语言都可以生成此类唯一标识符。 |

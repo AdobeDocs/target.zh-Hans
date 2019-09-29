@@ -1,7 +1,7 @@
 ---
-description: 使用Adobe Target中的Visual Experience Composer(CMS)创建要包含在Multivariate Test(MVT)中的选件。
-seo-description: 使用Adobe Target中的Visual Experience Composer(CMS)创建要包含在Multivariate Test(MVT)中的选件。
-seo-title: 使用Adobe Target在多变量测试(MVT)中创建组合
+description: 在 Adobe Target 中使用可视化体验编辑器 (VEC) 创建要包含在多变量测试 (MVT) 中的选件。
+seo-description: 在 Adobe Target 中使用可视化体验编辑器 (VEC) 创建要包含在多变量测试 (MVT) 中的选件。
+seo-title: 使用 Adobe Target 在多变量测试 (MVT) 中创建组合
 title: 创建组合
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
@@ -12,15 +12,15 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 创建组合{#create-combinations}
 
-使用Adobe Target中的Visual Experience Composer(CMS)创建要包含在Multivariate Test(MVT)中的选件。
+在 Adobe Target 中使用可视化体验编辑器 (VEC) 创建要包含在多变量测试 (MVT) 中的选件。
 
-For more information about using the VEC to create and edit offers, see [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+有关使用 VEC 创建和编辑选件的更多信息，请参阅[可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
 >[!NOTE]
 >
 >选择页面上的对象时，您可以单击&#x200B;**[!UICONTROL 展开选定内容]**，以便在除了最初选定的元素之外，还选择父元素。选择任意父元素时，该元素的所有子元素均会自动选定。您可以多次展开选定内容。
 >
->You can also use the [DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) to navigate elements.
+>您还可以使用 [DOM 路径](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)导览元素。
 
 ## 图像选件 {#section_A48333211DB149ED926AE467D0032914}
 
@@ -28,11 +28,11 @@ For more information about using the VEC to create and edit offers, see [Visual 
 
 1. 单击页面上的某个图像，然后选择&#x200B;**[!UICONTROL 更改图像]**。
 
-   ![更改图像选项](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
+   ![“更改图像”选项](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
 1. 选择要包含在测试中的所有图像，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-   ![选择用于添加图像的“内容”对话框](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
+   ![用于添加图像的“选择内容”对话框](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
 每个图像会成为该位置的独立体验。
 

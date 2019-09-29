@@ -1,8 +1,8 @@
 ---
-description: Target中支持和不支持的. js插件的相关信息。
-keywords: at. js插件；支持的插件；不支持的插件；tmeta；ttmeta；mboxTrack
-seo-description: 有关Adobe Target支持和不支持的. js插件的信息。
-seo-title: at. js插件for Adobe Target
+description: 有关Target中受支持和不受支持的at.js插件的信息。
+keywords: at.js插件；支持的插件；不支持的插件；ttMeta;ttmeta;mboxTrack
+seo-description: 有关Adobe Target支持的和不支持的at.js插件的信息。
+seo-title: at.js增效工具，用于Adobe Target
 solution: Target
 title: at.js 插件
 topic: Standard
@@ -15,7 +15,7 @@ source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
 
 # at.js plug-ins{#at-js-plug-ins}
 
-Adobe Target中支持和不支持的. js插件的相关信息。
+有关Adobe Target中受支持和不受支持的at.js插件的信息。
 
 很多人为 [!DNL mbox.js] 构建了自定义插件和响应插件。这些自定义插件若不更新，便可能不受 [!DNL at.js] 支持。
 

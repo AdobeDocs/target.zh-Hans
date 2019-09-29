@@ -23,33 +23,33 @@ source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
 
    >[!NOTE]
    >
-   >可用的活动类型取决于您的 [!DNL Target] 帐户。有些活动类型可能不会显示在列表中。For example, [!UICONTROL Recommendations] is a [Target Premium feature](/help/c-intro/intro.md#premium).
+   >可用的活动类型取决于您的 [!DNL Target] 帐户。有些活动类型可能不会显示在列表中。例如，“[!UICONTROL 推荐]”是一项 [Target Premium 功能](/help/c-intro/intro.md#premium)。
    >
-   >For information about the various activity types, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) and the [Target activities guide](/help/c-activities/target-activities-guide.md).
+   >有关各种活动类型的信息，请参阅[活动](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)和 [Target 活动指南](/help/c-activities/target-activities-guide.md)。
 
-   ![创建A/B测试功能](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
+   ![创建 A/B 测试活动](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+1. 如有必要，选择&#x200B;**[!UICONTROL 可视（默认）]**。
 
-   如果您希望使用基于表单的体验编辑器，请选择[!UICONTROL 表单]。See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   如果您希望使用基于表单的体验编辑器，请选择“[!UICONTROL 表单]”。请参阅[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md)，以了解更多信息。
 
    >[!NOTE]
    >
-   >除了CMS和基于表单的Experience Composer之外，Target还提供单页应用程序CMS和CMS for Mobile Apps。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >除了 VEC 和基于表单的体验编辑器之外，Target 还提供单页应用程序 VEC 和适用于移动设备应用程序的 VEC。有关各种编辑器的更多信息，请参阅[体验和选件](/help/c-experiences/experiences.md)。
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您看不到此选项，则您的组织有Target Standard许可证。]
+   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。
 
-1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. （视情况而定）如果您是一位 [Target Premium 客户](/help/c-intro/intro.md#premium)，请选择一个[工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. Specify your [activity URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Next]**.
+1. 指定[活动 URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
    如果您的帐户配置了默认 URL，则默认情况下将显示该 URL。您可以将默认 URL 更改为其他 URL。
 
    此时会打开[!UICONTROL 可视化体验编辑器]，其中显示了在 URL 中指定的页面。
 
-   ![CMS](/help/c-activities/t-test-ab/t-test-create-ab/assets/vec-new.png)
+   ![VEC](/help/c-activities/t-test-ab/t-test-create-ab/assets/vec-new.png)
 
 1. 在提供的空白处键入该活动的名称。
 
@@ -74,11 +74,11 @@ source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
 
    有关如何在[!UICONTROL 可视化体验编辑器]中添加和修改体验的更多信息，请参阅[添加体验](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。要修改体验 B，请从步骤 3 开始操作。
 
-1. Click **[!UICONTROL Targeting]** at the top of the [!UICONTROL Visual Experience Composer] to move to the next step in the three-step guided workflow.
+1. 在[!UICONTROL 可视化体验编辑器]的顶部单击&#x200B;**[!UICONTROL 定位]**，以进入三步引导式工作流中的下一个步骤。
 
    此时会打开流程图。
 
-   ![A/B测试定位步骤](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new.png)
+   ![A/B 测试定位步骤](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new.png)
 
    流程图会引导您完成以下步骤：选择活动的受众和设置体验。
 1. 在[!UICONTROL 受众]框中，单击“编辑”图标，然后为您的活动[选择受众](../../../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)。
@@ -97,18 +97,18 @@ source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
 
    选择所需的流量分配方法：
 
-   * **[!UICONTROL 手册(默认)]**：指定要查看每个体验的条目百分比。您可以将百分比平分到所有体验，或者也可以为每个体验指定较高或较低的百分比。所有体验的百分比总和必须等于 100%。
+   * **[!UICONTROL 手动（默认）]**：指定您希望看到各个体验的参加者所占的百分比。您可以将百分比平分到所有体验，或者也可以为每个体验指定较高或较低的百分比。所有体验的百分比总和必须等于 100%。
 
-   * **[!UICONTROL 自动分配到最佳体验]**：大多数活动都自动定向到性能更出色的体验。为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。请参阅[自动流量分配](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+   * **[!UICONTROL 自动分配到最佳体验]**：将大多数活动参加者自动定向到具有更高性能的体验。为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。请参阅[自动流量分配](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
-   * **[!UICONTROL 个性化体验的自动定位]**：Target使用先进的机器学习算法，自动瞄准具有最佳体验的访客以最大化目标。有关更多信息，请参阅[自动定位以优化](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
+   * **[!UICONTROL 自动定位以提供个性化体验]**：Target 使用先进的机器学习算法，自动将访客定位到最佳体验，以最大限度地实现您的目标。有关更多信息，请参阅[自动定位以优化](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
    您还可以单击&#x200B;**[!UICONTROL 添加体验]，以向该活动中添加其他体验。**
 
 1. 如果您对受众和各体验选项满意，请单击&#x200B;**[!UICONTROL 下一步]**，以进入三步引导式工作流的第三步。
 
 1. 指定活动的[目标和设置](../../../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
 
-   ![A/B活动设置](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+   ![A/B 活动设置](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 

@@ -1,8 +1,8 @@
 ---
 description: Target 的新 SDK 库允许开发人员在其 Android 移动设备应用程序上进行一次性设置，并使营销人员能够使用移动设备可视化体验编辑器 (VEC) 的功能。
 keywords: 移动设备 VEC;移动设备可视化体验编辑器;移动设备体验编辑器选项;设置;Android
-seo-description: Adobe Target的新SDK库使开发人员能在他们的Android移动应用程序上一次性设置，并使营销人员能够使用Mobile Visual Experience Composer(CMS)的功能。
-seo-title: Android-为Adobe Target设置移动应用程序
+seo-description: Adobe Target的新SDK库允许开发人员在其Android移动应用程序上进行一次性设置，并使营销人员能够使用Mobile Visual Experience Composer(VEC)的功能。
+seo-title: Android —— 为Adobe Target设置移动应用程序
 solution: Target
 title: Android - 设置移动设备应用程序
 topic: Standard
@@ -299,18 +299,18 @@ TargetVEC.targetView("SURPRISE_VIEW",
    public static void prefetchOffersBackground();
    ```
 
-## 教程：在Mobile Android应用程序中实施Experience Cloud {#tutorial}
+## 教程：在 Android 移动设备应用程序中实施 Experience Cloud {#tutorial}
 
-* [在Mobile Android应用程序中实施Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+* [在 Android 移动设备应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
 
-完成本教程后，您将能够：
+完成此教程后，您将能够：
 
-* 创建移动启动项属性
-* 在Android应用程序中安装启动项属性
-* 实施以下Adobe Experience Cloud解决方案：
+* 创建移动 Launch 属性
+* 在 Android 应用程序中安装 Launch 属性
+* 实施以下 Adobe Experience Cloud 解决方案：
    * Experience Cloud ID 服务
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* 通过开发、分步和生产环境发布Launch中的更改
+* 通过开发、测试和生产环境在 Launch 中发布更改

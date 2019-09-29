@@ -1,8 +1,8 @@
 ---
 description: 可创建排除列表以阻止推荐某些项目。
 keywords: 排除项
-seo-description: 在Adobe Target中创建排除列表以防止推荐项目。
-seo-title: Adobe Target中的排除
+seo-description: 在Adobe Target中创建排除列表，以防止推荐项目。
+seo-title: Adobe target中的排除
 solution: Target
 title: 排除项
 topic: Premium
@@ -43,23 +43,23 @@ source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 使用高级搜索创建排除
+## Create an exclusion using Advanced Search
 
 您还可以使用“目录搜索”页面上的“高级搜索”（“[!UICONTROL 推荐]”&gt;“[!UICONTROL 目录搜索]”&gt;“[!UICONTROL 高级搜索]”）来创建排除项。
 
 [另存为](/help/c-recommendations/c-products/assets/save-as.png)
 
-例如，在使用“ID”&gt;“包含”创建搜索后，您可以单击“[!UICONTROL 另存为]”&gt;“[!UICONTROL 排除项]”。有关更多信息，请参阅 [目录搜索](/help/c-recommendations/c-products/catalog-search.md)。
+例如，在使用“ID”&gt;“包含”创建搜索后，您可以单击“[!UICONTROL 另存为]”&gt;“[!UICONTROL 排除项]”。For more information, see Catalog search.[](/help/c-recommendations/c-products/catalog-search.md)
 
 >[!IMPORTANT]
 >
 >“高级搜索”功能不区分大小写；但在进行产品交付时，会根据区分大小写的搜索来返回产品。这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建排除项时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个排除项，以用于排除包含“holiday”的产品，则只会排除包含“holiday”的产品，而不会排除包含“Holiday”的产品。
 
-## 培训视频：在Recommendations中创建集合和排除(7：05)
+## Training video: Create collections and exclusions in Recommendations (7:05)
 
 此视频包含以下信息：
 
 * 创建集合
-* 创建排除
+* Create an exclusion
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?captions=chi_hans)

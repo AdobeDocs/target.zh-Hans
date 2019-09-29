@@ -79,14 +79,14 @@ source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
    更改背景颜色和图像。
 
    * 颜色（指定颜色代码或使用拾色器）
-   * 图像(从图像选取器中选择一幅图像)
-   * 图像源(指定外部URL)
+   * 图像（从图像选择器中选择图像）
+   * 图像源（指定外部 URL）
    * 附件
-      * 单击顶部下拉列表以选择滚动、固定或本地
-      * 单击底部下拉列表以选择重复、重复-x、重复y、no-repeat、space或round
-   * Clip（剪辑）
-      * 单击顶部下拉列表以选择边框框、填充框、内容框或文本
-      * 单击底部下拉列表以选择自动音频或音频
+      * 单击顶部的下拉列表以选择 scroll、fixed 或 local
+      * 单击底部的下拉列表以选择 repeat、repeat-x、repeat-y、no-repeat、space 或 round
+   * 剪辑
+      * 单击顶部的下拉列表以选择 border-box、padding-box、content-box 或 text
+      * 单击底部的下拉列表以选择自动音频或音频
 
 * **排版规则**
 
@@ -317,7 +317,7 @@ HTML 选件的大小最多可达 256KB。
 
 移动页面上的元素。与“[!UICONTROL 重新排列]”选项不同，“[!UICONTROL 移动]”选项不会移动其他元素来为正在移动的元素腾出空间。可使用箭头键来微调移动。（计划的增强功能：提供相关支持以确保所移动的元素不会隐藏在其他元素后面。）
 
-在某些情况下，如 CSS 限制要求将元素保留在其父元素内时，您不能将该元素移到其父元素之外。元素不能移动到具有以下CSS属性的容器之外： `overflow: hidden`。
+在某些情况下，如 CSS 限制要求将元素保留在其父元素内时，您不能将该元素移到其父元素之外。元素不能移到具有以下CSS属性的容器之外： `overflow: hidden`.
 
 #### 隐藏
 
@@ -343,7 +343,7 @@ HTML 选件的大小最多可达 256KB。
 
 ## 注意事项 {#considerations}
 
-* 如果选件包含HTML内容，请参阅“at at. js如何在. js中呈现包含HTML内容 [的选件”以](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) 了解更多信息。
+* 如果选件包含HTML内容，请参阅 [How at.js works中的“How at.js renders offers with HTML content”(如何使用HTML内容呈现选件](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) )以了解更多信息。
 
 ## 使用 DOM 路径浏览元素 {#dom-path}
 

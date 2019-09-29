@@ -31,7 +31,7 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
    >[!NOTE]
    >
-   >一个已知问题，即导致使用A4T重定向的客户数量有限，以查看较高的点击率。See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+   >存在一个已知问题，该问题会导致将重定向与 A4T 结合使用的有限数量的客户看到较高的未经整合点击率百分比。请参阅[已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#redirect)。
 
 * 假设您创建了一个将向特定页面的所有访客公开的自动分配活动。由于自动分配活动不支持 A4T，因此 [!DNL Target] 会收集所有活动数据。您可能希望同一日期范围内 [!DNL Target] 报表中的活动访客与 [!DNL Analytics] 报表中该页面的访客相匹配。在这种情景中，预期会出现下面所述的差异。
 

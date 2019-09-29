@@ -97,7 +97,7 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 仅支持单值。
 
-与推荐中显示的产品相关的消息，例如“打折”或“清仓”。消息通常比产品名称更详细。用于定义要在模板中随产品一起显示的附加信息。。
+与推荐中显示的产品相关的消息，例如“打折”或“清仓”。消息通常比产品名称更详细。用于定义要在模板中随产品一起显示的附加信息。.
 
 示例: `'entity.message=Family&nbsp;special'`
 

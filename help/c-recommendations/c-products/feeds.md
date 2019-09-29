@@ -1,7 +1,7 @@
 ---
 description: 可使用信息源将实体导入到“推荐”中。可以使用 CSV 文件、Google Product Search 信息源格式和/或 Adobe Analytics 产品分类来发送实体。
 keywords: 推荐信息源;信息源;SAINT;FTP;CSV；分类；分析分类
-seo-description: 使用源将导入的实体导入Adobe Recommendations。可以使用 CSV 文件、Google Product Search 信息源格式和/或 Adobe Analytics 产品分类来发送实体。
+seo-description: 使用源将实体导入Adobe Recommendations。 可以使用 CSV 文件、Google Product Search 信息源格式和/或 Adobe Analytics 产品分类来发送实体。
 seo-title: 信息源
 solution: Target
 title: 信息源
@@ -17,7 +17,7 @@ source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
 
 # ![PREMIUM](/help/assets/premium.png) 信息源{#feeds}
 
-Use feeds to get entities imported into [!DNL Recommendations]. 可使用CSV文件、Google产品搜索源格式和Adobe Analytics产品分类发送实体。
+Use feeds to get entities imported into [!DNL Recommendations]. 可以使用CSV文件、Google产品搜索源格式和Adobe Analytics产品分类发送实体。
 
 ## 信息源概述 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
@@ -33,12 +33,12 @@ You can select which columns from your [!DNL Target] product classifications fil
 
 “源”页面包含以下列：
 
-* **名称**：创建过程中指定的源名称。要编辑信息源的名称，您必须编辑信息源本身。使用新名称保存时，信息源会刷新。
-* **类型**：类型包括 [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、 [Google产品Feed](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)和 [Analytics分类](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)。
-* **状态**：源的当前 [状态](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。
-* **计划**：显示源的更新计划：每日、每周、每周两周或从不。
-* **项目**：显示源中的项目数。
-* **上次更新**&#x200B;时间：显示上次更新源的日期和时间，以及更新源的人员的姓名。If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
+* **名称**:创建过程中指定的源的名称。 要编辑信息源的名称，您必须编辑信息源本身。使用新名称保存时，信息源会刷新。
+* **类型**:类型包 [括CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、 [Google产品信息源](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)、 [分析分类](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)。
+* **状态**:源的当前状 [态](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。
+* **计划**:显示源的更新计划：每日、每周、每2周或从不。
+* **项目**:显示源中的项目数。
+* **上次更新时间**:显示上次更新源的日期和时间以及更新源的人员的姓名。 If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -56,7 +56,7 @@ You can select which columns from your [!DNL Target] product classifications fil
 
 >[!IMPORTANT]
 >
->请勿在. csv文件中双引号(”)括住值，除非其有意。如果用双引号引住值，则必须使用另一组双引号将其引住来进行转义。双引号未转义可防止推荐源正常加载。
+>请勿在。csv文件中用双引号(“)将值引起来，除非它们是有意的。 如果用双引号引住值，则必须使用另一组双引号将其引住来进行转义。未转义的双引号会阻止正确加载推荐源。
 
 例如，以下语法不正确：
 
@@ -94,7 +94,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 Google Product Search 信息源类型使用 Google 格式。这与 Adobe 专有的 CSV 上传格式不同。
 
-如果您有现有的Google产品源，则可以将其用作导入文件。
+如果您有现有的Google产品源，则可以将该源用作导入文件。
 
 >[!NOTE]
 >
@@ -214,24 +214,24 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 1. 选择&#x200B;**[!UICONTROL 源类型]**。
 
    * CSV
-   * Google产品Feed
+   * Google产品源
    * 分析分类
-   有关CSV和Google产品源源类型的信息，请参阅 [源概述](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。您还可以 [下载CSV指南](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) 以帮助您正确设置源格式。
+   有关CSV和Google产品源类型的信息，请参阅源 [概述](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。 You can also download a model CSV guide to help you format the feed correctly.[](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv)
 
-1. (视情况而定)如果您选择 **[!UICONTROL 了CSV]** 或 **[!UICONTROL Google产品源，]**&#x200B;请指定可访问源的位置。
+1. （视情况而定）如果您选 **[!UICONTROL 择了CSV]****[!UICONTROL 或Google产品源]**，请指定可访问源的位置。
 
-   * **FTP**：如果您选择了FTP，请提供FTP服务器信息、登录凭据、文件名和FTP目录。您可以选择使用带有 SSL 的 FTP (FTPS) 进行更安全的上传。
+   * **FTP**:如果选择了FTP，请提供FTP服务器信息、登录凭据、文件名和FTP目录。 您可以选择使用带有 SSL 的 FTP (FTPS) 进行更安全的上传。
 
       支持的FTP服务器设置：
 
-      * FTP和FTPS必须设置为使用被动FTP。
-      * 对于FTPS，将服务器配置为接受显式FTPS连接。
+      * 必须将FTP和FTPS设置为使用被动FTP。
+      * For FTPS, configure server to accept Explicit FTPS connections.
       * 不支持SFTP。
-      * 您可以手动指定启动连接的端口(例如，) `ftp://ftp.yoursite.com:2121`。如果未指定端口，则使用默认FTP或FTPS端口。
-   * **URL**：如果选择URL，请指定URL。
+      * 可以手动指定启动连接的端口(例如， `ftp://ftp.yoursite.com:2121`)。 如果不指定端口，则使用默认的FTP或FTPS端口。
+   * **URL**:如果选择URL，请指定URL。
 
 
-1. (视情况而定)如果您选择 **[!UICONTROL 了Analytics Classifications]**，则从下拉列表中选择报表包。
+1. (Conditional) If you selected Analytics Classifications, choose the report suite from the drop-down list.****
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;箭头以显示[!UICONTROL 计划]选项。
 
@@ -242,7 +242,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
    * 每日
    * 每周
    * 每 2 周
-   * 从不：请勿安排更新。如果您不希望运行此信息源，请选择此选项。
+   * 从不：请勿计划更新。 如果您不希望运行此信息源，请选择此选项。
 
 1. 指定要运行信息源的时间。
 
@@ -281,7 +281,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 | 正在等待下载 | Target 正准备下载信息源文件。 |
 | 正在下载信息源文件 | Target 正在下载信息源文件。 |
 | 正在导入项目 | Target 正在从信息源文件中导入项目。 |
-| 实时导入 *的源成功导入* | Target已将源文件导入其内容交付系统。在内容交付系统中对项目属性进行了更改，并将很快反映在提交的建议中。如果看不到预期的更改，请稍后重试并刷新包含推荐的页面。<br>*注意1：* 如果对项目属性的更改导致项目被排除，则排除将立即反映出来。如果新添加了项目或对属性所做的更改导致项目不再被排除 *在建议* 之外，则该项目将直到下一个算法更新后才会反映出来，该更新将在24小时内进行。<br>*注意2：* 显示此状态后，更新可能尚不反映在目录搜索用户界面中。目录搜索中会列出一个单独的状态，该状态指示可搜索的目录上次更新的时间。 |
+| Feed Imported Successfully at *time* | Target has imported the feed file into its content delivery system. Changes to item attributes have been made in the content delivery system and will shortly be reflected in delivered recommendations. 如果看不到预期的更改，请稍后重试并刷新包含推荐的页面。<br>** Note 1: If changes to an item's attributes result in an item being excluded from recommendations, the exclusion will be immediately reflected. 如果新添加了某个项目，或对属性的更改导致某个项目不再从推荐中排除 ** ，则直到下一次算法更新（将在24小时内发生），该项目才会反映出来。<br>** 附注2:显示此状态时，更新可能尚未反映在目录搜索用户界面中。 目录搜索中会列出单独的状态，指示上次更新可搜索目录的时间。 |
 | 未能编入索引 | 索引操作失败。请重试。 |
 | 未找到服务器 | FTP 或 URL 位置无效或无法访问。 |
 
@@ -321,20 +321,20 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 了解Recommendations中的源(3：01)
+### 了解Recommendations中的源(3:01)
 
 此视频包含以下信息：
 
-* 了解源的用途
-* 了解源的值
+* Understand the purpose of feeds
+* 了解源的价值
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?captions=chi_hans)
 
-### 创建源(6：44)
+### 创建源(6:44)
 
 此视频包含以下信息：
 
 * 设置源
-* 了解要使用哪种类型的源
+* 了解要使用的源类型
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?captions=chi_hans)

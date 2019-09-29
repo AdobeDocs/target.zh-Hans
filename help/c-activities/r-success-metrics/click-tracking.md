@@ -22,7 +22,7 @@ Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
 >
 >Target 全局 mbox 在用作基于表单的活动中的位置时不支持跟踪点击。
 
-## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
+## 设置点击跟踪 {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. 在“[!UICONTROL 目标和设置]”页面上为活动设置目标时，选择&#x200B;**[!UICONTROL 转化]成功量度。**
 1. 在此步操作中，选择&#x200B;**[!UICONTROL 已单击元素]**，然后单击&#x200B;**[!UICONTROL 选择元素]。**
@@ -37,31 +37,31 @@ Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
 
 当活动参加者点击某个选定元素时，该点击即会被计为一次转化。
 
-## Selected Elements panel {#selected-elements}
+## “选定的元素”面板 {#selected-elements}
 
-For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
+对于 A/B 测试、体验定位 (XT)、自动个性化 (AP) 和多变量测试 (MVT) 活动，“[!UICONTROL 选定的元素]”面板会在右侧列出为点击跟踪选定的所有元素。
 
-![选定的Elements面板](/help/c-activities/r-success-metrics/assets/selected-elements.png)
+![“选定的元素”面板](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
-There are a several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. 下表描述了可对元素执行的每个操作：
+当将鼠标悬停在“[!UICONTROL 选定的元素]”面板中的某个元素上时，可以对该元素应用一些操作。下表介绍了可对元素执行的各项操作：
 
 | 操作 | 描述 |
 | --- | --- |
-| 信息 | 显示选择器的元素类型和完整DOM路径。 |
-| 编辑 | 允许您编辑CSS选择器。 |
+| 信息 | 显示元素类型和选择器的完整 DOM 路径。 |
+| 编辑 | 允许您编辑 CSS 选择器。 |
 | 删除 | 删除元素。 |
 
 ### 添加元素
 
-如果您已经知道选择器的DOM路径，则可以通过单击面板顶部的加号图标手动添加它。
+如果您已知晓选择器的 DOM 路径，则可以通过单击位于面板顶部的加号图标来手动添加该路径。
 
-![添加元素图标](/help/c-activities/r-success-metrics/assets/add-element.png)
+![“添加元素”图标](/help/c-activities/r-success-metrics/assets/add-element.png)
 
-### 选定的Elements悬停弹出窗口
+### “选定的元素”悬停弹窗
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. 该列表包含元素的完整DOM路径，可帮助您验证选定元素是否用于单击跟踪。
+为点击跟踪选择多个元素后，您可以单击活动的“[!UICONTROL 目标和设置]”步骤中的“[!UICONTROL 选定的元素]”链接，以查看为点击跟踪选定的元素的完整列表。该列表包含元素的完整 DOM 路径，可帮助您验证选定的元素是否将用于点击跟踪。
 
-![Elements选择链接](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
+![“选定的元素”链接](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## 注意事项 {#considerations}
 
@@ -84,9 +84,9 @@ After selecting multiple elements for click tracking, you can click the [!UICONT
 
    | 字符 | 描述 |
    |---|---|
-   | # | 数字符号或散列 |
+   | # | 数字符号或井号 |
    | : | 冒号 |
-   | 。 | 句点 |
+   | . | 句点 |
    | $ | 美元符号 |
    | `[ ]` | 方括号 |
 

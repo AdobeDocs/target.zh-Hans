@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 可使用开源 Velocity 设计语言来自定义推荐设计。
 
-## Velocity overview {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Velocity 概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 有关 Velocity 的信息可在 [](https://velocity.apache.org)https://velocity.apache.org 中找到。
 
@@ -157,7 +157,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 您还可以在设计中将 `algorithm.name` 和 `algorithm.dayCount` 用作变量，以便使用一个设计来测试多个标准，并在该设计中动态显示标准名称。这样可指示访客查看了“最畅销商品”或属于“查看了这个项目，但购买了那个项目的人”。您甚至还可以使用这些变量来显示 `dayCount`（标准中使用的数据所对应的天数，例如“过去 2 天的最畅销商品”，等等）。
 
-## Scenario: Display key item with recommended products {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## 情景：同时显示关键项目和推荐产品 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 您可以对设计进行修改，以便同时显示关键项目和其他推荐产品。例如，您可能想要在推荐产品旁边显示当前项目，以供访客参考。
 
@@ -180,7 +180,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 创建 [!DNL Recommendations] 活动时，如果关键项目是从访客的配置文件中获取的（例如“上次购买的项目”），则 [!DNL Target] 会在[!UICONTROL 可视化体验编辑器] (VEC) 中显示一个随机产品。这是因为在您设计活动时配置文件不可用。访客查看页面时，他们将看到预期的关键项目。
 
-## Scenario: Replace the decimal point with the comma delimiter in a sales price {#section_01F8C993C79F42978ED00E39956FA8CA}
+## 情景：在销售价格中使用逗号分隔符替换小数点 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 您可以修改设计，以使用欧洲和其他国家/地区使用的逗号分隔符替换美国使用的小数点分隔符。
 
@@ -206,15 +206,15 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                     </span>
 ```
 
-## Scenario: Create a 4x2 default Recommendations design with null-checking logic {#default}
+## 情景：使用空检查逻辑创建一个 4x2 的默认推荐设计 {#default}
 
-Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren't enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn't make sense and [!UICONTROL Partial Template Rendering] is enabled.
+下面的模板使用 Velocity 脚本控制实体显示的动态大小，从而可容纳一对多结果，这样当 [!DNL Recommendations] 未返回足够的匹配实体时，便无需创建空的 HTML 元素。此脚本非常适用于备份推荐没有意义且已启用“[!UICONTROL 部分模板渲染]”的情景。
 
-以下HTML片断替换了4x默认设计中的现有HTML部分(此处不包括CSS，为了方便起见)：
+以下 HTML 代码段将替换 4x2 默认设计中的现有 HTML 部分（为简便起见，此处不包括 CSS）：
 
-* If a fifth entity exists, the script inserts a closing div and opens a new row with `<div class="at-table-row">`.
-* With 4x2, the maximum results shown will be eight, but this could be customized for smaller or larger lists by modifying `$count <=8`.
-* 请注意，逻辑不会在多行上平衡实体。例如，如果有五或六个实体要显示，则它不会动态变为顶部和底部(或底部的三个实体，底部的三个实体)。顶行将在开始第二行之前显示四个项目。
+* 如果存在第五个实体，脚本将插入一个闭合 div，并使用 `<div class="at-table-row">` 另起一个新行。
+* 在 4x2 设计中，显示的结果最多为 8 个，但可以通过修改 `$count <=8` 对该值进行自定义，以适应较小或较大的列表。
+* 请注意，该逻辑无法将实体均衡地分布在多个行上。例如，如果有五个或六个实体要显示，则不会动态地变为顶行显示三个，底行显示两个（或顶行显示三个，底行显示三个）。顶行将显示四个项目后，才会另起一行。
 
 ```
 <div class="at-table">

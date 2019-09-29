@@ -21,11 +21,11 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 >[!NOTE]
 >
->[!UICONTROL 自动定位]作为 [!DNL Target Premium] 解决方案的一部分提供。如果没有 [!DNL Target Premium] 许可证，则此功能在 [!DNL Target Standard] 中不可用。For more information about the advanced features this license provides, see [Target Premium](/help/c-intro/intro.md).
+>[!UICONTROL 自动定位]作为 [!DNL Target Premium] 解决方案的一部分提供。如果没有 [!DNL Target Premium] 许可证，则此功能在 [!DNL Target Standard] 中不可用。有关此许可证提供的各项高级功能的更多信息，请参阅 [Target Premium](/help/c-intro/intro.md)。
 
 [在使用三步引导式工作流创建 A/B 活动](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)时，您可以选择使用“[!UICONTROL 自动定位以提供个性化体验]”选项来分配流量：
 
-![自动定位个性化体验选项](/help/c-activities/assets/auto-target-ui-new.png)
+![“自动定位以提供个性化体验”选项](/help/c-activities/assets/auto-target-ui-new.png)
 
 ## 概述 {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -76,15 +76,15 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 | 活动目标 | 建议的流量分配 | 权衡 |
 |--- |--- |--- |
-| **评估个性化算法(50/50)**：如果您的目标是测试算法，则在控制和目标算法之间使用50%/50%的访客拆分。这种拆分可让您对提升进行最精确的评估。建议将“随机体验”用作您的控件。 | 按 50% 控制体验/ 50% 个性化体验进行拆分 | <ul><li>最大限度地提高控制体验和个性化体验之间提升度的准确性</li><li>将获得个性化体验的访客相对较少</li></ul> |
-| **最大化个性化流量(9/10)**：如果您的目标是创建“始终处于”活动，则将10%的访客放入该控件中，以确保算法有足够的数据不断学习。请注意，这里做出的权衡是，为了对更大一部分的流量进行个性化，提升度的准确性将会降低。无论您的目标如何，在使用特定体验作为控件时，这都是建议的流量分割。 | 最佳实践是使用 10% - 30% 控制体验 / 70% - 90% 个性化体验的拆分方式 | <ul><li>最大化拥有个性化体验的访客数量</li><li>最大化提升度</li><li>对于该活动具有的提升度，准确度较低</li></ul> |
+| **评估个性化算法 (50/50)**：如果您的目标是测试算法，则可以在控制和目标算法之间按 50/50 的百分比拆分访客。这种拆分可让您对提升进行最精确的评估。建议将“随机体验”用作控制。 | 按 50% 控制体验/ 50% 个性化体验进行拆分 | <ul><li>最大限度地提高控制体验和个性化体验之间提升度的准确性</li><li>将获得个性化体验的访客相对较少</li></ul> |
+| **最大化个性化流量 (90/10)**：如果您的目标是创建“一直开启”的活动，则可以在控制中放入 10% 的访客，以确保算法有足够的数据来不断学习。请注意，这里做出的权衡是，为了对更大一部分的流量进行个性化，提升度的准确性将会降低。无论您的目标如何，在使用特定体验作为控制时，都建议按此比例拆分流量。 | 最佳实践是使用 10% - 30% 控制体验 / 70% - 90% 个性化体验的拆分方式 | <ul><li>最大化拥有个性化体验的访客数量</li><li>最大化提升度</li><li>对于该活动具有的提升度，准确度较低</li></ul> |
 | **自定义分配** | 根据需要手动拆分百分比。 | <ul><li>您可能无法获得所需的结果。如果您不确定，请按照上述任一选项的建议进行操作</li></ul> |
 
 要调整控制百分比，请单击“分配”列中的图标。您不能将控制组降至 10% 以下。
 
-![更改自动目标流量分配](/help/c-activities/assets/auto-target-control.png)
+![更改自动定位流量分配](/help/c-activities/assets/auto-target-control.png)
 
-You can [select a specific experience to use as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or you can use the Random experience option.
+您可以[选择特定体验作为控制](/help/c-activities/t-automated-personalization/experience-as-control.md)，也可以使用“随机体验”选项。
 
 ## 何时应选择[!UICONTROL 自动定位]而不是自动个性化？{#section_BBC4871C87944DD7A8B925811A30C633}
 
@@ -209,13 +209,13 @@ You can [select a specific experience to use as control](/help/c-activities/t-au
 
 对于已构建模型的体验，您需要至少拥有两个已构建模型（绿色复选标记）的体验，才可以开始查看[!UICONTROL 自动定位]测试的结果。
 
-**我是否可以指定用作控制的特定体验？**
+**我可以指定特定体验作为控制吗？**
 
-You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+在创建[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) 或[自动定位](/help/c-activities/auto-target-to-optimize.md) (AT) 活动时，您可以选择要用作控制的体验。
 
-此功能允许您根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据控制流量来评估个性化流量的绩效报告。
+通过此功能，您可以根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据该体验的控制流量评估个性化流量的性能报表。
 
-For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
+有关更多信息，请参阅[使用特定体验作为控制](/help/c-activities/t-automated-personalization/experience-as-control.md)。
 
 ## [!UICONTROL 自动定位]故障诊断 {#section_23995AB813F24525AF294D20A20875C8}
 

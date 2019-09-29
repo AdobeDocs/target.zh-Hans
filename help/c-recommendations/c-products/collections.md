@@ -1,8 +1,8 @@
 ---
 description: 收藏集是一组符合推荐标准的产品或项目。
 keywords: 收藏集;定位
-seo-description: 集合是Adobe Target中符合推荐条件的一组产品或项目。
-seo-title: Adobe Target中的集合
+seo-description: 集合是Adobe Target中有资格获得推荐的一组产品或项目。
+seo-title: Adobe target中的集合
 solution: Target
 title: 收藏集
 title-outputclass: premium
@@ -77,11 +77,11 @@ You can also create collections using Advanced Search on the [Catalog Search](/h
 >
 >“高级搜索”功能不区分大小写；但在进行产品交付时，会根据区分大小写的搜索来返回产品。这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建收藏集时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个目录，以用于返回包含“holiday”的产品，则只会返回包含“holiday”的产品，而不会返回包含“Holiday”的产品。
 
-## 培训视频：在Recommendations中创建集合和排除(7：05)
+## 培训视频：在Recommendations中创建集合和排除(7:05)
 
 此视频包含以下信息：
 
 * 创建集合
-* 创建排除
+* 创建排除项
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?captions=chi_hans)

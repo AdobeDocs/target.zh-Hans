@@ -53,7 +53,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 * 使用 Analytics 作为报表源时，只允许使用一个基于 mbox 的量度。
 * 从 Target 到 Analytics 的服务器到服务器调用会向 Analytics 发送活动和体验信息。此集成不会为 Target 或 Analytics 生成其他服务器调用。
 
-   在某些情况下，从Target到Analytics的分类调用可能会失败，且活动不会在Analytics中显示数据。 如果出现这种情况，请 [参阅Analytics和Target集成疑难解答(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 您还可以联系 [客户关怀部门](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) ，获得进一步帮助。
+   In some situations, the classification call from Target to Analytics might fail and activities do not show data in Analytics. 如果出现这种情况，请 [参阅Analytics和Target集成疑难解答(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 You can also [contact Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) for further assistance.
 
 ## 支持的活动类型 {#section_F487896214BF4803AF78C552EF1669AA}
 

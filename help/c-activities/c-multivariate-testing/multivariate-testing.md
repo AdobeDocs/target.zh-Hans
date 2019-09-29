@@ -1,7 +1,7 @@
 ---
 description: 多变量测试 (MVT) 可通过比较页面上各元素中的选件组合，来确定哪个组合对特定受众的效果最佳，以及哪个元素对活动成功的影响最大。
 keywords: 多变量测试;mvt;全因子;mvt 或 a/b;多变量 a/b;流量估算器;何时使用 mvt;mvt 注意事项;多变量
-seo-description: Adobe Target中的多变量测试(MVT)比较页面上元素的组合，以确定哪个组合能够最适合特定受众，并确定最影响活动成功的元素。
+seo-description: Adobe Target 中的多变量测试 (MVT) 可通过比较页面上各元素中的选件组合，来确定哪个组合对特定受众的效果最佳，以及哪个元素对活动成功的影响最大。
 seo-title: 多变量测试
 solution: Target
 title: 多变量测试
@@ -15,7 +15,7 @@ source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 # 多变量测试{#multivariate-test}
 
-[!UICONTROL 多变量测试] (MVT)在 [!DNL Adobe Target] 页面上比较元素组合，以确定哪个组合能够最适合特定受众，并确定最影响活动成功的元素。
+[!DNL Adobe Target] 中的[!UICONTROL 多变量测试] (MVT) 可通过比较页面上各元素中的选件组合，来确定哪个组合对特定受众的效果最佳，以及哪个元素对活动成功的影响最大。
 
 ## MVT 概述 {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
@@ -37,7 +37,7 @@ source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 设置多变量测试时，了解一些基本术语会有帮助。
 
-行业内对术语的用法各有不同。This section defines the terms used by [!DNL Target].
+行业内对术语的用法各有不同。本节定义了 [!DNL Target] 使用的术语。
 
 **组合：**&#x200B;在多个位置测试多个内容选项时创建的内容变体。例如，如果您正在对 3 个位置进行测试，每个位置有 3 个内容选项，则一共有 27 种组合 (3x3x3)。来到您网站的访客将看到其中一种组合，也称之为一个体验。
 
@@ -53,11 +53,11 @@ source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 * 使用 A/B 测试来优化页面布局，然后进行 MVT 测试以确定页面上每个元素的最佳内容。。
 
-   A/B 测试可以提供关于布局的重要反馈，而 MVT 测试则擅长测试页面设计中元素的内容。在测试多个内容选项之前对布局运行A/B测试可帮助您确定最佳布局和最有影响力的内容。
+   A/B 测试可以提供关于布局的重要反馈，而 MVT 测试则擅长测试页面设计中元素的内容。在测试多个内容选项之前对布局运行 A/B 测试可以帮助您确定最佳布局和最具影响力的内容。
 
 * 使用 MVT 测试来确定最重要的元素，然后对该元素进行更集中的 A/B 测试。
 
-   当不同体验的数量超过五个或以上时，最好在运行A/B测试之前考虑MVT测试。MVT测试显示页面上哪些区域最有可能提高转化率。这些是营销人员应关注的元素。例如，MVT 测试可能表明，行为召唤 (call to action) 是实现目标的最重要元素。确定哪些元素和内容最有助于您达到目标后，您可以运行 A/B 测试以进一步优化结果，例如分别测试两个特定图像，或者比较行为召唤的遣词造句或颜色。通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
+   如果不同体验的数量超过 5 个并跨越两个或更多元素，则最好在运行 A/B 测试之前先运行 MVT 测试。MVT 测试可显示页面中的哪些区域最有可能提高转化。这些是营销人员应关注的元素。例如，MVT 测试可能表明，行为召唤 (call to action) 是实现目标的最重要元素。确定哪些元素和内容最有助于您达到目标后，您可以运行 A/B 测试以进一步优化结果，例如分别测试两个特定图像，或者比较行为召唤的遣词造句或颜色。通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
 
 ## 注意事项 {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
@@ -70,7 +70,7 @@ source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
    例如，不要在同一测试中对布局和内容这两方面都进行测试。
 * 由于体验数量的增加，需计划为 QA 提供额外的时间。
 
-   [!DNL Target] 提供全因子多变量测试作为内置活动选项。在统计学中，“实验设计”提供了多种方法或设计来确定哪些因素会影响结果。One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. 田口方法使营销人员能够制定一套假设，减少所需测试体验的排列数量，从而降低多变量测试的流量需求。This functionality and testing approach can be leveraged in [!DNL Target] using this [offline spreadsheet](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+   [!DNL Target] 提供全因子多变量测试作为内置活动选项。在统计学中，“实验设计”提供了多种方法或设计来确定哪些因素会影响结果。One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. 田口方法使营销人员能够制定一套假设，减少所需测试体验的排列数量，从而降低多变量测试的流量需求。在 [!DNL Target] 中，可以利用此[离线电子表格](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)来使用这种功能和测试方法。
 
    如果您的团队使用其他“实验设计”方法，则可以将此计算电子表格用作自定义实验设计的参考实施。
 
@@ -79,10 +79,10 @@ source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
    * 选择要更改的元素以及每个元素的版本数（3x2、4x3 等等）。
    * 保持编号一致。例如，如果按钮是元素 1，选项是蓝色、绿色和黄色，则蓝色按钮为 1-1，绿色按钮为 1-2，黄色按钮为 1-3。
    * 该离线电子表格提供了所需的相应数量的体验（3x2 是 4 个、4x3 是 9 个，等等）。
-   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC)](/help/c-experiences/experiences.md). 您可以使用自定义代码、编辑HTML、所见即所得或任何组合。
+   * 使用[可视化体验编辑器 (VEC)](/help/c-experiences/experiences.md) 在 A/B 工作流中构建体验。您可以使用自定义代码、编辑 HTML、WYSIWYG 或任意组合。
    * 活动结束后（基于样本量计算器），通过该电子表格运行结果以获取其他详细信息。
 
-有关更多注意事项和最佳实践，请参阅 [多变量测试最佳实践](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)。
+有关更多注意事项和最佳实践，请参阅[多变量测试最佳实践](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)。
 
 ## 培训视频：
 

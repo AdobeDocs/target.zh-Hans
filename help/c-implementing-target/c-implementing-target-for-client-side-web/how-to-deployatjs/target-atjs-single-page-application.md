@@ -1,8 +1,8 @@
 ---
 description: 有关使用 at.js 2.x 实施单页应用程序 (SPA) 的信息。
-keywords: 单页应用程序实施;实施单页应用程序;SPA;at.js 2.x；at. js；单页应用程序；单页应用程序
+keywords: 单页应用程序实施;实施单页应用程序;SPA;at.js 2.x;at.js;single page application;single page app
 seo-description: 有关使用 Adobe Target at.js 2.x 实施单页应用程序 (SPA) 的信息。
-seo-title: Adobe Target中的单页应用程序实施
+seo-title: Single Page Application implementation in Adobe Target
 solution: Target
 title: 单页应用程序实施
 topic: 标准
@@ -33,13 +33,13 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 为进一步说明“视图”的概念，让我们浏览一下这个在 React 中实施的假定的在线电子商务网站，并探索一些“视图”示例。单击下面的链接可在新浏览器选项卡中打开此站点。
 
-**链接：[主页](https://target.enablementadobe.com/react/demo/#/)**
+**Link: Home Site[](https://target.enablementadobe.com/react/demo/#/)**
 
 ![home 站点](/help/c-experiences/assets/home.png)
 
 导航到主页时，我们可以立即看到展示复活节促销活动的主页横幅，以及网站上销售的最新产品。在这种情况下，可以将“视图”定义为整个 home 站点。这种方式很容易记忆，我们将在下面的“实施 Adobe Target 视图”章节中对此进行详细介绍。
 
-**链接：[产品站点](https://target.enablementadobe.com/react/demo/#/products)**
+**Link: Product Site[](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![产品网站](/help/c-experiences/assets/product-site.png)
 
@@ -53,7 +53,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 我们决定单击“Load More”（了解更多）按钮，以浏览站点上的更多产品。在这种情况下，网站 URL 不会发生更改。但是，这里的视图只能呈现上面显示的第二行产品。此视图名称可称为“PRODUCTS-PAGE-2”。
 
-**链接：[结帐](https://target.enablementadobe.com/react/demo/#/checkout)**
+**链接：结[帐](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![结帐页面](/help/c-experiences/assets/checkout.png)
 
@@ -87,7 +87,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    现在，我们来查看一些关于如何在 React 中为假定的电子商务 SPA 调用 `triggerView()` 函数的示例用例：
 
-   **链接：[主页](https://target.enablementadobe.com/react/demo/#/)**
+   **Link: Home Site[](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -118,7 +118,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**链接：[产品站点](https://target.enablementadobe.com/react/demo/#/products)**
+**链接：产[品站点](https://target.enablementadobe.com/react/demo/#/products)**
 
 现在，我们来看一个比较复杂的示例。假设我们是营销人员，想要在用户单击“Load More”（加载更多）按钮后将“Price”（价格）标签颜色更改为红色，以对第二行的产品进行个性化。
 
@@ -147,7 +147,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
  }
 ```
 
-**链接：[结帐](https://target.enablementadobe.com/react/demo/#/checkout)**
+**链接：结[帐](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![react checkout](/help/c-experiences/assets/react6.png)
 
@@ -281,13 +281,13 @@ document.addEventListener("at-view-end", function(e) {
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=chi_hans)
 
-请参阅 [了解. js2.x的工作](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 原理以了解更多信息。
+有关 [更多信息，请参阅了解at.js 2.x的工作原理](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 。
 
 ### 在 SPA 中实施 at.js 2.x
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=chi_hans)
 
-有关 [更多信息，请参阅在单页应用程序(SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 中实施Adobe Target. js2.x。
+有 [关详细信息，请参阅在单页应用程序(SPA)中实施Adobe Target的at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 。
 
 ### 在 Adobe Target 中使用 SPA 的 VEC
 

@@ -1,7 +1,7 @@
 ---
-description: 活动URL决定了在体验定位活动中使用的页面，该页面在设计活动时在Visual Experience Composer(CMS)或基于表单的Experience Composer中打开。
+description: 活动 URL 可确定在体验定位活动中使用的页面，以及设计活动时在可视化体验编辑器 (VEC) 或基于表单的体验编辑器中打开的页面。
 keywords: 定位
-seo-description: 活动URL决定了在体验定位活动中使用的页面，该页面在设计活动时在Adobe Target Visual Experience Composer(CMS)或基于表单的Experience Composer中打开。
+seo-description: 活动 URL 可确定在体验定位活动中使用的页面，以及设计活动时在 Adobe Target 可视化体验编辑器 (VEC) 或基于表单的体验编辑器中打开的页面。
 seo-title: 活动 URL
 solution: Target
 title: 活动 URL
@@ -14,19 +14,19 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 活动 URL{#activity-url}
 
-活动URL决定了在体验定位(XT)活动中使用的页面，该页面在设计活动时在Visual Experience Composer(CMS)或基于表单的Experience Composer中打开。
+活动 URL 可确定在体验定位 (XT) 活动中使用的页面，以及设计活动时在可视化体验编辑器 (VEC) 或基于表单的体验编辑器中打开的页面。
 
-1. [在创建XT活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)时提示您，指定活动URL。应键入完整的 URL（包括 `https://`），然后单击&#x200B;**[!UICONTROL 创建活动]**。
+1. 在[创建 XT 活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)时，如果出现提示，请指定活动 URL。应键入完整的 URL（包括 `https://`），然后单击&#x200B;**[!UICONTROL 创建活动]**。
 
    >[!NOTE]
    >
    >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。因此，[!DNL `https://www.adobe.com`] 和 [!DNL `http://www.adobe.com`] 均匹配。
    >
-   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 在活动创建过程中，您可以指定其他页面。
+   >默认情况下，VEC 或基于表单的体验编辑器会打开您的[帐户首选项](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)中指定的页面。在活动创建过程中，您可以指定其他页面。
    >
-   >如果为不包含Target标准JavaScript代码的站点指定URL，则无法选择页面元素。
+   >如果您指定的 URL 所对应的网站不包含 Target Standard JavaScript 代码，则您将无法选择页面元素。
 
-1. (Conditional) To display a different page after the VEC opens, click **[!UICONTROL Configure]**, select **[!UICONTROL Page Delivery]**, and specify the URL in the [!UICONTROL URL] field.
+1. （视情况而定）要在 VEC 打开后显示其他页面，请单击&#x200B;**[!UICONTROL 配置]**，选择&#x200B;**[!UICONTROL 页面交付]**，然后在“[!UICONTROL URL]”字段中指定 URL。
 
    ![“页面交付”对话框](/help/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
 
@@ -34,7 +34,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >在对一个或多个体验的页面进行更改后，如果您更改了 URL，则系统将使用新页面重置体验，而且您所做的更改也会丢失。
 
-1. (Conditional) Click **[!UICONTROL Add Template Rule]** to add more pages or sections to the activity.
+1. （视情况而定）单击&#x200B;**[!UICONTROL 添加模板规则]**，为活动添加更多页面或部分。
 
    其他规则可以基于以下任何一项：
 

@@ -1,8 +1,8 @@
 ---
-description: 由于自动个性化活动比较页面上的多个选件，因此，预览每个体验的页面很有帮助。
+description: 由于自动个性化活动会对页面上的多个选件进行比较，因此预览每个体验中的页面将会很有帮助。
 keywords: 推荐
-seo-description: 由于自动个性化(AP)活动比较页面上的多个选件，因此，预览每个体验的页面很有帮助。
-seo-title: 在Adobe Target Visual Experience Composer中预览体验以实现自动个性化(AP)活动
+seo-description: 由于自动个性化 (AP) 活动会对页面上的多个选件进行比较，因此预览每个体验中的页面将会很有帮助。
+seo-title: 在 Adobe Target 可视化体验编辑器中预览自动个性化 (AP) 活动的体验
 solution: Target
 title: 在可视化体验编辑器中预览自动个性化体验
 title-outputclass: premium
@@ -17,21 +17,21 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) 在可视化体验编辑器中预览自动个性化体验{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
 
-由于自动个性化(AP)活动比较页面上的多个选件，因此，预览每个体验的页面很有帮助。
+由于自动个性化 (AP) 活动会对页面上的多个选件进行比较，因此预览每个体验中的页面将会很有帮助。
 
-1. From the Visual Experience Composer, click **[!UICONTROL Preview]**.
+1. 在可视化体验编辑器中，单击&#x200B;**[!UICONTROL 预览]**。
 
-   ![预览图标](/help/c-activities/t-automated-personalization/assets/preview.png)
+   ![“预览”图标](/help/c-activities/t-automated-personalization/assets/preview.png)
 
-   此时将显示所有体验的列表。
+   此时将显示一个包含所有体验的列表。
 
    ![预览体验](/help/c-activities/t-automated-personalization/assets/ap_preview-new.png)
 
 1. 单击列表中的某个特定体验，以查看该体验。
 
-1. (Conditional) To exclude one or more experiences from the activity, click the **[!UICONTROL Exclude]** icon.
+1. （视情况而定）要从活动中排除一个或多个体验，请单击&#x200B;**[!UICONTROL 排除]**&#x200B;图标。
 
-   ![排除图标](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
+   ![“排除”图标](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
    此时将显示“管理内容”对话框。
 
@@ -39,12 +39,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    您可能会选择排除显示冲突变体的体验，或在美学上未实现平衡的体验。
 
-   To exclude an experience, hover over the experience and click the **[!UICONTROL Exclude]** icon.
+   要排除一个体验，请将鼠标悬停在该体验上，然后单击&#x200B;**[!UICONTROL 排除]**&#x200B;图标。
 
-   To exclude multiple experiences, select the checkboxes for the desired experiences, then click the **[!UICONTROL Exclude]** icon at the top right of the list.
+   要排除多个体验，请选中所需体验对应的的复选框，然后单击列表右上角的&#x200B;**[!UICONTROL 排除]**&#x200B;图标。
 
-   默认情况下，自动个性化活动中包含所有体验。To include an experience that has been excluded, hover over the experience and click the  **[!UICONTROL Include]** icon.
+   默认情况下，自动个性化活动中包含所有体验。要包含一个已排除的体验，请将鼠标悬停在该体验上，然后单击&#x200B;**[!UICONTROL 包含]**&#x200B;图标。
 
-   To include multiple experiences that have been excluded, select the checkboxes for the desired experiences, then click the **[!UICONTROL Include]** icon at the top right of the list.
+   要包含多个已排除的体验，请选中所需体验对应的复选框，然后单击列表右上角的&#x200B;**[!UICONTROL 包含]**&#x200B;图标。
 
-1. Click **[!UICONTROL Compose]** to return to the Visual Experience Composer so you can make changes, or click **[!UICONTROL Next]** to go to the [!UICONTROL Targeting] step.
+1. 单击&#x200B;**[!UICONTROL 撰写]**&#x200B;返回到可视化体验编辑器以进行更改，或单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以转到“[!UICONTROL 定位]”步骤。

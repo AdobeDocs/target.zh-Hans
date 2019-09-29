@@ -72,7 +72,7 @@ source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
    >
    >自定义标准实体（行）最多可包含 1,000 个推荐项目（列）。
 
-自定义标准更新默认为“累计”。CSV 上传文件中指定的新键值对会覆盖现有的键值对。CSV上传中未指定的现有密钥值对仍可供交付，并将在自上次上传作为CSV文件一部分的31天后过期。
+自定义标准更新默认为“累计”。CSV 上传文件中指定的新键值对会覆盖现有的键值对。Existing key-value pairs that don't have keys specified in the CSV upload will still be available for delivery and will expire in 31 days from the time they are last uploaded as part of the CSV file.
 
 要使设置能够放弃下一次 CSV 上传中未包含的现有结果，请与客户关怀团队联系。如果启用此设置，则只有自定义 CSV 信息源文件中存在的键才可用于交付。此设置适用于所有自定义标准。
 
@@ -93,7 +93,7 @@ source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 | 未找到目录 | 请提供服务器上存在的目录。 |
 | 未找到文件 | 请提供服务器上所指示目录中存在的文件名称。 |
 
-## 培训视频：在Recommendations中创建标准(12：33)
+## Training video: Create criteria in Recommendations (12:33)
 
 此视频包含以下信息：
 

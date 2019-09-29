@@ -1,10 +1,10 @@
 ---
-description: Target Recommendations活动简介，这些活动可根据先前的用户活动或其他算法自动显示可能吸引客户的产品或内容。 “推荐”有助于将客户导向到他们可能还不知道的相关项目。
-keywords: 推荐；简介；网络研讨会；演示
+description: Introduction to Target Recommendations activities that automatically display products or content that might interest your customers based on previous user activity or other algorithms. “推荐”有助于将客户导向到他们可能还不知道的相关项目。
+keywords: Recommendations;intro;introduction;webinar;demo
 seo-description: Adobe Target Recommendations活动简介，这些活动可根据先前的用户活动或其他算法自动显示可能吸引客户的产品或内容。 “推荐”有助于将客户导向到他们可能还不知道的相关项目。
-seo-title: Adobe Target中的Recommendations活动简介
+seo-title: Introduction to Recommendations activities in Adobe Target
 solution: Target
-title: 推荐介绍
+title: Introduction to Recommendations
 title-outputclass: premium
 topic: Premium
 badge: premium
@@ -14,15 +14,15 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations简介
+# ![PREMIUM Introduction to Recommendations](/help/assets/premium.png)
 
-本文中的文本来自Recommendations *网络研讨会的简介* ，您可以在下面全文查看。
+The text in this article comes from the Introduction to Recommendations webinar, which you can view in its entirety below.**
 
 **“Recommendations 简介”网络研讨会包括对如何利用 [!DNL Adobe Target Recommendations] 价值的深入探讨。了解此 [!DNL Target] 活动如何通过基于先前的访问优化实时建议来自动显示客户可能感兴趣的产品或内容。此外，深入了解 [!DNL Target] UI，获取有关如何构建 [!DNL Recommendations] 活动的分步概述。
 
 ## 简介
 
-我们都知道零售业中的推荐类型。 越来越多的客户期望得到这类推荐，并将其作为探索其他可用选项的起点。 如果你考虑一下你自己的购物行为，这些建议真的很管用。 几乎我们中的每个人都买了一款我们在推荐中首先看到的产品，不管是在商店里还是数字地产上。
+我们都知道零售业中的推荐类型。 越来越多的客户期望得到这类推荐，并将其作为探索其他可用选项的起点。 If you think about your own shopping behavior, these kind of recommendations work really well. 几乎我们中的每个人都买了一款我们在推荐中首先看到的产品，不管是在商店里还是数字地产上。
 
 下图显示了一个建议，该建议显示通常使用新电话购买的附件，包括充电站、机箱和耳机。
 
@@ -56,10 +56,10 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
 重大建议应该是相关的和个性化的。 这意味着您需要三件事来推动相关性和个性化：
 
 * **营销人员控制** ，以帮助提高推荐项目的相关性。 作为营销人员，您将宝贵的上下文带到表格中，并了解哪些产品或内容属性与推荐模型相关。 如果您运行的是视频站点，您知道用户可能对观看来自同一导演的电影感兴趣，但可能不关心观看由同一工作室制作的电影。 [!DNL Target] 使您能借助控件增强此领域知识的算法。
-* **精良的模型** ，可让您理解目录和交互活动中的数百万个项目。 [!DNL Target] 拥有在十年的经验中构建的复杂机器学习功能，并且我们每年处理数十亿的建议。
-* **用户上下文** ，以确保推荐及时且与您的用户相关。 您不希望推荐某人刚刚观看的视频或某人刚刚添加到购物车中的衬衫。 Target的丰富用户配置文件可用于推荐以确保个性化。
+* **Sophisticated models to make sense of millions of items in your catalog and interaction events.**[!DNL Target] 拥有在十年的经验中构建的复杂机器学习功能，并且我们每年处理数十亿的建议。
+* **User context to ensure that recommendations are timely and relevant to your users.** You don’t want to recommend the video that someone just watched or the shirt that someone just added to their cart. Target’s rich user profile can be used in recommendations to ensure personalization.
 
-## 实施Target建议
+## Implement Target Recommendations
 
 从战略开始。
 
@@ -91,12 +91,12 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
 
 您的IT部门通常会参与帮助设置此步骤。
 
-无论您选择哪种方法，您都应将每个项目的元数据包含在三个类别中：
+Whichever method you choose, you should include metadata about each item in three categories:
 
-![显示目录元数据信息的插图](/help/c-recommendations/assets/intro-8.png)
+![Illustration showing metadata information for your catalog](/help/c-recommendations/assets/intro-8.png)
 
 * 要显示给接收推荐的用户的数据。 例如，电影的名称和缩略图图像URL。
-* 适用于应用营销和销售控制的数据。 例如，电影的等级，以便不推荐NC-17电影。
+* Data that is useful for applying marketing and merchandising controls. 例如，电影的等级，以便不推荐NC-17电影。
 * 用于确定项目与其他项目的相似性的数据。 例如，电影的类型或电影中的演员。
 
 ### 捕获用户行为

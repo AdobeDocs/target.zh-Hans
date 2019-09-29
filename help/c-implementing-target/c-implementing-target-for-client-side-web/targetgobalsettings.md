@@ -1,6 +1,6 @@
 ---
 description: '有关 at.js 的 targetGlobalSettings() 函数的信息。 '
-keywords: targetGlobalSettings；targetglobalsettings；GlobalSettings；globalsettings；全局设置；at. js；函数；函数；clientCode；clientcode；ServerDomain；serverdomain；cookieDomain；cookiedomain；CrossDomain；跨域；超时；GlobalmboxRegresh；togortoripeTimeout；defaultContentDenStyle；defaultContentBarbleStyle；BodyhidenStyle；BodyHingingEnabled；imsOrID；SecureOnly；OverridEmboxEdgeServer；OverridEmboxEdgeServerTimeout；optoutEnabled；optout；退出；selectorSpollingTimeout；数据提供者
+keywords: targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;function;clientCode;clientDomain;serverdomain;cookieDomain;cookieDomain;crossDomain;crossDomain;timeout;globalMboxAutoCreate;visitorAtAteContCeut;defaultContContCeContChentCeCeCedCe;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;selectorsPollingTimeout;dataProviders
 seo-description: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数的信息。
 seo-title: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数的信息。
 solution: Target

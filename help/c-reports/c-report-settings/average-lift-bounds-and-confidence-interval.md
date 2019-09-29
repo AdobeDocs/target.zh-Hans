@@ -38,7 +38,7 @@ Target 报表 UI 中的提升度信息包括以下各项：
 
 下图显示了提升度范围和置信水平信息：
 
-![平均提升和置信度报告](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
+![平均提升度和置信水平报表](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
 ## 如何计算提升度范围？{#section_1D360781D972483693680BE0F07AEAD1}
 

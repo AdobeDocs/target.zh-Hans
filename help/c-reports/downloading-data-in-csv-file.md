@@ -1,7 +1,7 @@
 ---
 description: 可采用 .csv 格式下载数据，以便快速导入到 Excel、Access 或其他数据分析程序中。
 keywords: 报表;下载报表;CSV;成功量度;订单详细信息
-seo-description: 以。csv格式下载数据，以便使用Adobe Target快速导入Excel、Access或其他数据分析程序。
+seo-description: Download data in a .csv format for quick import into Excel, Access, or other data analysis programs using Adobe Target.
 seo-title: 使用Adobe Target在CSV文件中下载数据
 solution: Target
 subtopic: 多变量测试
@@ -85,7 +85,7 @@ source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 以下信息适用于“下载”选项：
 
-* 您可以下载A/B测试、自动个性化、体验定位和多变量活动的两种报告。 但是对于“推荐”活动，您无法下载“成功量度”报表。
+* You can download both reports for A/B Test, Automated Personalization, Experience Targeting, and Multivariate activities. 但是对于“推荐”活动，您无法下载“成功量度”报表。
 * “下载”选项不适用于在 Target 版本 15.7.1（2015 年 7 月版）之前创建的 A/B 活动和体验定位活动。
 * 下载的报表中不会记录没有关联数据的体验。
 * Target 报表 UI 中应用的受众不会传递到下载的报表中。

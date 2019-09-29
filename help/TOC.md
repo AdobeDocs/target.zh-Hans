@@ -42,7 +42,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + 企业用户权限 {#enterprise}
          + [企业用户权限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [配置企业权限](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Grant Adobe I/O integrations access to workspaces and assign roles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [授予Adobe I/O集成对工作区的访问权限并分配角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Dynamic Media Classic 集成](administrating-target/scene7-settings.md)
    + [主机](administrating-target/hosts.md)
    + [响应令牌](administrating-target/response-tokens.md)
@@ -51,13 +51,13 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
    + 实施之前 {#before-implement}
       + [实施之前](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [准备实施 Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + Privacy and security {#privacy}
+      + 隐私和安全性 {#privacy}
          + [隐私概述](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [Privacy and data protection regulations](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [隐私和数据保护规定](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [删除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite Cookie 策略](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [Content Security Policy (CSP) directives](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [内容安全策略(CSP)指令](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + 将数据导入 Target 的方法 {#methods}
          + [方法](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [配置文件 API 设置](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -139,7 +139,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
          + [在移动设备 VEC 中设置点击跟踪](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
       + [针对移动应用程序的Target常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + 服务器端：实施 Target {#server-side}
-      + [Release notes - APIs and SDKs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [发行说明- API和SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [服务器端：实施 Target 概述](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [从 Target 旧版 API 迁移到 Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 电子邮件：实施 Target {#implement-email}
@@ -278,7 +278,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [配置文件属性](c-target/c-visitor-profile/profile-parameters.md)
       + [类别亲和度](c-target/c-visitor-profile/category-affinity.md)
       + [客户属性](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [为mbox3rdPartyId实时同步配置文件](c-target/c-visitor-profile/3rd-party-id.md)
+      + [Real-time profile syncing for mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
       + [配置文件和变量一览表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + 定位和受众常见问题解答 {#faq-audiences}
       + [定位和受众常见问题解答](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
@@ -342,7 +342,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
    + [报表常见问题解答](c-reports/reporting-frequently-asked-questions.md)
 + 推荐 {#recommendations}
    + [推荐概述](c-recommendations/recommendations.md)
-   + [Introduction to Recommendations](c-recommendations/introduction-to-recommendations.md)
+   + [推荐介绍](c-recommendations/introduction-to-recommendations.md)
    + [计划和实施推荐](c-recommendations/plan-implement.md)
    + 实体 {#entities}
       + [实体概述](c-recommendations/c-products/products.md)

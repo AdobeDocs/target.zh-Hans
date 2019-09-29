@@ -23,9 +23,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >
 >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。因此，[!DNL `http://www.adobe.com`] 和 [!DNL `https://www.adobe.com`] 均匹配。
 
-## 指定不同的URL
+## 指定其他 URL
 
-By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Target Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 在活动创建过程中，您可以指定其他页面。
+默认情况下，[!UICONTROL 可视化体验编辑器]会打开您的 [Target 帐户首选项](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)中指定的页面。在活动创建过程中，您可以指定其他页面。
 
 要在[!UICONTROL 可视化体验编辑器]打开后显示其他页面，请单击&#x200B;**[!UICONTROL 配置]**&#x200B;齿轮图标，然后选择&#x200B;**[!UICONTROL 页面交付]**。在“活动 URL”字段中输入相应的 URL。
 

@@ -1,6 +1,6 @@
 ---
 description: 使用可视化体验编辑器，可在启用了 Target 的页面上创建体验定位活动，并在 Target 中修改页面的各个部分。
-seo-description: 使用视觉体验书写器在启用Target的页面上创建体验定位(XT)活动并修改Adobe Target中页面的部分。
+seo-description: 使用可视化体验编辑器，可在启用了 Target 的页面上创建体验定位 (XT) 活动，并在 Adobe Target 中修改页面的各个部分。
 seo-title: 创建体验定位活动
 solution: Target
 subtopic: 多变量测试
@@ -15,49 +15,49 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 创建体验定位活动{#create-an-experience-targeting-activity}
 
-Use the [!UICONTROL Visual Experience Composer] (VEC) to create an [!UICONTROL Experience Targeting] (XT) activity on a Target-enabled page and to modify portions of the page within [!DNL Adobe Target].
+使用[!UICONTROL 可视化体验编辑器] (VEC)，可在启用了 Target 的页面上创建[!UICONTROL 体验定位] (XT) 活动，并在 [!DNL Adobe Target] 中修改页面的各个部分。
 
 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。
 
-Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. 可以在活动中定义多个规则，以将不同的内容变体交付到不同的受众。
+体验定位（包括[地理定位](/help/c-target/c-audiences/c-target-rules/geo.md)）对于定义规则以将特定体验或内容定位到特定受众非常有用。可以在活动中定义多个规则，以将不同的内容变体交付到不同的受众。
 
-For more information about Experience Targeting, a use-case scenario, and training videos, see [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md).
+有关体验定位、用例情景和培训视频的更多信息，请参阅[体验定位](/help/c-activities/t-experience-target/experience-target.md)。
 
-**要创建XT活动，请执行以下操作：**
+**创建 XT 活动：**
 
 1. 在[!UICONTROL 活动]**列表中，单击[!UICONTROL 创建活动]&gt;****[!UICONTROL 体验定位]**。
 
-   ![创建活动&gt;体验定位](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
+   ![“创建活动”&gt;“体验定位”](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
-   >可用的活动类型取决于您的 Target 帐户。有些活动类型可能不会显示在列表中。For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/c-intro/intro.md#premium).
+   >可用的活动类型取决于您的 Target 帐户。有些活动类型可能不会显示在列表中。例如，“[!UICONTROL 自动个性化]”是一项 [Target Premium 功能](/help/c-intro/intro.md#premium)。
    >
-   >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
+   >有关 [!DNL Target] 中可用的各种活动类型及其差异的更多信息，请参阅[活动](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。请参阅 [Target 活动类型](/help/c-activities/target-activities-guide.md)，以帮助您确定最符合自己需求的活动类型。
 
-1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+1. 如有必要，选择&#x200B;**[!UICONTROL 可视（默认）]**。
 
    ![“创建体验定位活动”对话框](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
-   如果您希望使用基于表单的体验编辑器，请选择[!UICONTROL 表单]。See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   如果您希望使用基于表单的体验编辑器，请选择“[!UICONTROL 表单]”。请参阅[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md)，以了解更多信息。
 
    >[!NOTE]
    >
-   >除了CMS和基于表单的Experience Composer之外，Target还提供单页应用程序CMS和CMS for Mobile Apps。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >除了 VEC 和基于表单的体验编辑器之外，Target 还提供单页应用程序 VEC 和适用于移动设备应用程序的 VEC。有关各种编辑器的更多信息，请参阅[体验和选件](/help/c-experiences/experiences.md)。
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您看不到此选项，则您的组织有Target Standard许可证。]
+   >上图中的“[!UICONTROL 选择工作区]”选项是一项 [Target Premium](/help/c-intro/intro.md) 功能。如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。
 
-1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. （视情况而定）如果您是一位 Target Premium 客户，请[选择一个工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. Specify your [activity URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Next]**.
+1. 指定[活动 URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
-   If your account is [configured with a default URL](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), that URL appears by default. 如有必要，您可以从默认位置更改为其他URL。
+   如果您的帐户[配置了默认 URL](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)，则默认情况下将显示该 URL。您可以根据需要将默认 URL 更改为其他 URL。
 
-   此时将打开CMS，显示URL中指定的页面。
+   此时会打开 VEC，其中显示了在 URL 中指定的页面。
 
-   ![CMS中的体验定位活动](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
+   ![VEC 中的体验定位活动](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
 
 1. 在提供的空白处键入该活动的名称。
 
@@ -76,8 +76,8 @@ For more information about Experience Targeting, a use-case scenario, and traini
    | `-` | 减号 |
    | `@` | @ 符号 |
 
-1. 创建旨在不同受众的新体验。
+1. 创建定位到不同受众的新体验。
 
-   For step-by-step instructions, see [Add experience](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
+   有关分步说明，请参阅[添加体验](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md)。
 
 1. 指定活动的[目标和设置](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。

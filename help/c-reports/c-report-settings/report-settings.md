@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 要显示报表，请单击&#x200B;**[!UICONTROL 活动]**，从列表中单击所需的活动，然后单击&#x200B;**报表]选项卡。[!UICONTROL **
 
-![报告UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
+![报表 UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Target 预设 {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
@@ -32,11 +32,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. 根据需要配置活动的报表（量度、日期范围、受众、高级设置等）。
 1. 在 **[!UICONTROL Target 预设]**&#x200B;旁边，单击三个垂直省略号图标 &gt; **[!UICONTROL 另存为新预设]**。
 
-   ![报告预设](/help/c-reports/c-report-settings/assets/report_preset-new.png)
+   ![报表预设](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
    此时会显示“新建预设”对话框：
 
-   ![新预设对话框](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
+   ![“新建预设”对话框](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. 查看“筛选器”和“设置”部分中的信息以确保根据需要配置了报表，然后指定&#x200B;**[!UICONTROL 预设名称]**（最多 50 个字符）。
 1. （视情况而定）如果您希望将此预设作为默认/收藏报表视图，请将&#x200B;**[!UICONTROL 设为默认预设]切换开关滑动到“开”位置。**
@@ -46,7 +46,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 从 **[!UICONTROL Target 预设]下拉列表中选择所需的预设。**
 
-![预设下拉列表](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
+![“预设”下拉列表](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
 **编辑预设**
 
@@ -55,7 +55,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    在编辑报表的配置后单击“[!UICONTROL 保存]”，预设名称后面会显示一个星号 ( * )，表示预设已更改，如下所示：
 
-   ![带有星号的报告预设](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
+   ![带有星号的报表预设](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
 1. 单击三个垂直省略号图标 &gt; **[!UICONTROL 另存为新预设]以创建新预设。**
 
@@ -63,14 +63,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    单击三个垂直省略号图标 &gt; **[!UICONTROL 更新]以更新当前预设。**
 
-   ![报告默认更新](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
+   ![更新报表默认预设](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **删除预设**
 
 1. 选择要删除的预设。
 1. 单击三个垂直省略号图标 &gt; **[!UICONTROL 删除]**。
 
-   ![报告默认删除](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
+   ![删除报表默认预设](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
 1. 再次单击&#x200B;**[!UICONTROL 删除]以确认删除操作。**
 
@@ -122,7 +122,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 下图显示了 A/B 活动的“设置”对话框：
 
-![设置对话框](/help/c-reports/c-report-settings/assets/ab_settings_dialog-new.png)
+![“设置”对话框](/help/c-reports/c-report-settings/assets/ab_settings_dialog-new.png)
 
 根据选定的活动类型，选项会有所不同：
 
@@ -183,7 +183,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 在图表的左侧选择或取消选择体验，可在图表中显示或隐藏相应的体验。
 
-如果下图，则仅体验“默认”、“中东”和“总计”的体验。亚洲体验隐藏在图形中。
+下图的报表中仅显示了“默认”体验、“中东”体验和“总计”体验。“亚洲”体验在图形中处于隐藏状态。
 
 ![体验](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
@@ -198,7 +198,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * 每日
 * 每日（提升）
 
-![报告运行平均值](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
+![报表运行平均值](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >

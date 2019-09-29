@@ -1,8 +1,8 @@
 ---
-description: 您可以在Adobe Target中创建受众，以定位在访问页面时使用特定浏览器或特定浏览器选项的用户。
+description: 您可以在 Adobe Target 中通过创建受众来定位使用特定浏览器或特定浏览器选项访问您的页面的用户。
 keywords: 浏览器选项;类型;浏览器类型;浏览器语言;语言;版本;浏览器版本
-seo-description: 您可以在Adobe Target中创建受众，以定位在访问页面时使用特定浏览器或特定浏览器选项的用户。
-seo-title: Adobe Target受众中的浏览器选项
+seo-description: 您可以在 Adobe Target 中通过创建受众来定位使用特定浏览器或特定浏览器选项访问您的页面的用户。
+seo-title: Adobe Target 受众中的浏览器选项
 solution: Target
 subtopic: 多变量测试
 title: 浏览器
@@ -43,7 +43,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. 对受众进行命名。
 1. 单击&#x200B;**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 浏览器]**。
 
-   ![规则&gt;浏览器](assets/target_browser.png)
+   ![“规则”&gt;“浏览器”](assets/target_browser.png)
 
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
@@ -56,7 +56,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 以下示例显示受众为 Internet Explorer 版本 10 或 11 的用户：
 
-![Target IE10和11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
+![定位 IE 10 和 11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
 
 ## 浏览器选项 {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -77,7 +77,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 定位或排除设置为使用特定语言的特定浏览器。
 
-例如，如果某个选件仅在英语中可用，则您可以将其语言设置为英语的浏览器。或者，如果您的页面未启用双字节，则您可以排除设置为使用东亚语言的浏览器。
+例如，如果某个选件只有英语版，则您可以定位将语言设置为英语的浏览器。或者，如果您的页面未启用双字节，则您可以排除设置为使用东亚语言的浏览器。
 
 在语言比位置更为重要的情况下，包含或排除浏览器语言与根据地域进行定位相比，前者可以实现更准确的访客定位。例如，如果您提供的是一篇英语文章，您既可以定位讲英语的国家/地区，也可以定位设置为英语的浏览器。不过，使用后者，您还可以将这篇文章提供给来自主要语言并不是英语的国家/地区、但却会讲英语的用户。
 

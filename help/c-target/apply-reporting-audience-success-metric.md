@@ -1,8 +1,8 @@
 ---
 description: 可选择一个能够让用户符合报表受众条件的成功量度。
 keywords: 定位;受众;报表;成功量度
-seo-description: 在Adobe Target中选择一个成功量度，使报告受众符合资格。
-seo-title: 将报告受众应用于Adobe Target中的成功量度
+seo-description: 可在 Adobe Target 中选择一个能够让用户符合报表受众条件的成功量度。
+seo-title: 在 Adobe Target 中将报表受众应用于成功量度
 solution: Target
 title: 将报表受众应用于成功量度
 uuid: cc485785-84cc-4a60-acf8-788b842b243f

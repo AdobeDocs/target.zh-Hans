@@ -19,15 +19,15 @@ source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 您可以在 Target UI 中的多个位置编辑现有活动。根据您选择的方法，编辑过程会有所不同。
 
-## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## 在“活动”页面上通过使用悬停鼠标显示的按钮来编辑活动 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. 在&#x200B;**[!UICONTROL 活动]**&#x200B;页面上，将鼠标悬停在要编辑的活动上，然后单击&#x200B;**编辑]图标。[!UICONTROL **
 
-   ![编辑图标](/help/c-activities/assets/hover_edit.png)
+   ![“编辑”图标](/help/c-activities/assets/hover_edit.png)
 
-   Target在Visual Experience Composer(CMS)中打开活动，您可以看到 [!UICONTROL 体验] 页面(在三步引导工作流程中的第一步)。
+   Target 会在可视化体验编辑器 (VEC) 中打开活动，此时您会看到“[!UICONTROL 体验]”页面（三步引导式工作流的步骤 1）。
 
-1. 根据需要，使用 [CMS选项编辑活动](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+1. 根据需要使用 [VEC 选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)编辑活动。
 
 1. 单击拆分按钮以前进到下一步或保存活动。
 
@@ -37,11 +37,11 @@ source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
    * **保存并关闭：**&#x200B;在当前步骤中进行所需的更改，单击拆分按钮中的下拉列表，然后选择&#x200B;**[!UICONTROL 保存并关闭]**，可保存所做更改并显示活动的“[!UICONTROL 概述]”页面。
    * **保存：**&#x200B;在任一步骤中进行所需的更改，单击拆分按钮中的下拉列表，然后选择&#x200B;**[!UICONTROL 保存]，可保存所做更改并停留在当前步骤，以便能够继续进行更改。**&#x200B;等待保存完成后，可进行其他更改。保存完成后，VEC 会重新加载以显示刷新的更改。
 
-## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
+## 在“活动”页面上通过单击活动名称以将其打开来编辑活动 {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. 可以从“活动”页面中单击所需的活动以将其打开，然后从&#x200B;**[!UICONTROL 编辑活动]下拉列表中选择相应的选项，而无需逐步完成该工作流。**
 
-   ![编辑活动下拉列表](/help/c-activities/assets/edit_activity.png)
+   ![“编辑活动”下拉列表](/help/c-activities/assets/edit_activity.png)
 
 1. 选择所需的选项：
 
@@ -60,9 +60,9 @@ source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 
 
-## 使用Recommendations Classic中创建的传统活动 {#classic}
+## 使用在Recommendations Classic中创建的旧版活动 {#classic}
 
-[!UICONTROL 活动] 列表显示在各种来源中创建的活动， [!DNL Recommendations Classic]包括使用中创建的传统活动时，可以使用以下操作 [!DNL Recommendations Classic]：
+The Activities list display activities created in various sources, including . [!DNL Recommendations Classic]The following actions are available when working with legacy activities created in :[!DNL Recommendations Classic]
 
 * [!UICONTROL 激活]
 * [!UICONTROL 停用]
@@ -70,9 +70,9 @@ source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 * [!UICONTROL 复制]
 * [!UICONTROL 删除]
 
-不能直接编辑 [!DNL Recommendations] 活动。如果要编辑活动，则应创建活动 [!DNL Target Premium] 的副本，然后保存新创建的活动。随后，可以根据需要编辑新创建的活动。
+You cannot edit a [!DNL Recommendations] activity directly. If you want to edit the activity, you should create a copy of the activity using  and then save the newly created activity. [!DNL Target Premium]This newly created activity can then be edited as necessary.
 
-## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## 以草稿形式保存活动 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 创建新活动且尚未对其保存时，或编辑之前保存为草稿形式的活动时，拆分按钮中会显示“保存草稿”选项。
 

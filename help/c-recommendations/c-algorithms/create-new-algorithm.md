@@ -120,19 +120,19 @@ source-git-commit: 6bd1bd6aafe9ee57b33a8879c13fa6d84cbdfe46
 
 ## 预期标准处理时间 {#process-time}
 
-在保存包含条件的活动后，根 [!DNL Target] 据选定的集合和条件计算推荐。 此计算需要一些时间才能执行，并且时间范围会因所选推荐逻辑、数据范围、目录中的项目数、客户生成的行为数据量以及所选的行为数据源而不同。 行为数据源对处理时间的影响最大，如下所示：
+After saving an Activity containing a Criteria,  computes recommendations based on the selected Collection and Criteria. [!DNL Target]This computation takes some time to perform and the timeframe differs based on the selected recommendation logic, data range, number of items in your catalog, amount of behavioral data your customers have generated, and the selected behavioral data source. The behavioral data source has the largest impact on processing time, as follows:
 
 ### mbox
 
-如果mbox被选作行为数据源，则创建后，条件会立即运行。 根据使用的行为数据量和目录的大小，算法可能需要长达 12 个小时才能运行。对标准配置进行更改通常会导致算法重新运行。 Depending on the change made, the previously computed recommendations might be available until a re-run is complete, or for larger changes, only backup or default content is available until a re-run is complete. 如果未修改算法，则根据所选的数据范围，每 [!DNL Target] 12-48小时自动重新运行一次算法。
+If mboxes is selected as the behavioral data source, once created, the criteria immediately runs. 根据使用的行为数据量和目录的大小，算法可能需要长达 12 个小时才能运行。对标准配置进行更改通常会导致算法重新运行。 Depending on the change made, the previously computed recommendations might be available until a re-run is complete, or for larger changes, only backup or default content is available until a re-run is complete. 如果未修改算法，则根据所选的数据范围，每 [!DNL Target] 12-48小时自动重新运行一次算法。
 
 ### Adobe Analytics
 
 If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
 
-* **One-time report suite setup**: The first time a report suite is used with a given data range lookback window, [!DNL Target Recommendations] can take from two to seven days to fully download the behavioral data for the selected report suite from [!DNL Analytics]. This timeframe is dependent on the [!DNL Analytics] system load.
+* **One-time report suite setup: The first time a report suite is used with a given data range lookback window,  can take from two to seven days to fully download the behavioral data for the selected report suite from .**[!DNL Target Recommendations][!DNL Analytics]此时间范围取决于系 [!DNL Analytics] 统负载。
 * **使用已有可用的报表包新建或编辑的条件**:在创建新标准或编辑现有标准时，如果选定的报表包已与之一起使用 [!DNL Target Recommendations]，且数据范围等于或小于选定的数据范围，则数据将立即可用，无需一次性设置。 在这种情况下，或者，如果在不修改所选报表包或数据范围的情况下编辑了算法的设置，则算法会在12小时内运行或重新运行。
-* **Ongoing algorithm runs**: Data flows from [!DNL Analytics] to [!DNL Target Recommendations] on a daily basis. 例如，对于“已查 [!UICONTROL 看亲和力] ”推荐，当用户查看产品时，产品查看跟踪调用会接近实 [!DNL Analytics] 时地传递。 数 [!DNL Analytics] 据将推至次日 [!DNL Target] 初，并在不到12小 [!DNL Target] 时内运行算法。
+* **当前算法运行**:数据每 [!DNL Analytics] 天 [!DNL Target Recommendations] 从流到流。 例如，对于“已查 [!UICONTROL 看亲和力] ”推荐，当用户查看产品时，产品查看跟踪调用会接近实 [!DNL Analytics] 时地传递。 数 [!DNL Analytics] 据将推至次日 [!DNL Target] 初，并在不到12小 [!DNL Target] 时内运行算法。
 
 ## 使推荐基于推荐键 {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 

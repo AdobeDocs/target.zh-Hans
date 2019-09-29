@@ -19,13 +19,13 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 有关自动个性化 (AP) 的常见问题解答 (FAQ) 列表。
 
-## 我是否可以指定用作控制的特定体验？
+## 我可以指定特定体验作为控制吗？
 
-You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+在创建[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) 或[自动定位](/help/c-activities/auto-target-to-optimize.md) (AT) 活动时，您可以选择要用作控制的体验。
 
-此功能允许您根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据控制流量来评估个性化流量的绩效报告。
+通过此功能，您可以根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据该体验的控制流量评估个性化流量的性能报表。
 
-For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
+有关更多信息，请参阅[使用特定体验作为控制](/help/c-activities/t-automated-personalization/experience-as-control.md)。
 
 ## 如何将自动个性化与默认体验进行比较？{#section_46C1A620A2384C2C8392D6716DD18495}
 
@@ -41,11 +41,11 @@ For more information, see [Use a specific experience as control](/help/c-activit
 * 请务必使用[流量估算器](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)，以便您了解在自动个性化活动中构建个性化模型需要多长时间。
 * 在开始活动之前，根据您的目标，确定控制与目标之间的分配。
 
-   根据活动的目标以及您选择的控制类型，有三种情况可以考虑：
+   根据您的活动目标和所选控制的类型，可以考虑以下三种方案：
 
-   * **随机体验作为控制和活动目标是测试个性化算法的有效性**：如果您的目标是评估个性化算法，那么您需要更准确地了解提升。如果您只是进行A/B测试(随机提供的控制)，您还可能希望比较体验/选件的转化率。在这种情况下，建议使用50%分配来控制随机提供的体验。
-   * **“随机体验”作为控制，您的活动目标是最大化个性化流量**：如果您习惯使用算法并希望将最大的流量个性化，建议使用10%到30%的分配进行控制。这里的权衡是您将能够在提升信息中看到更准确(因为控件流量的置信区间将更大，因为流向它们的流量会更少)。
-   * **特定体验作为您的控制，采用目标类型**：如果您要将特定营销人员驱动的体验与个性化模型相比较，建议使用10%到30%的分配控制。当您只选择一种体验作为控制时，流量不会跨活动中的每个选件/体验传播。
+   * **将随机体验作为控制，且活动目标是测试个性化算法的有效性**：如果您的目标是评估个性化算法，那么您将需要更准确地了解提升度。如果您仅进行了 A/B 测试（随机提供控制），那么您可能还希望与您的体验/选件的转化率进行比较。在这种情况下，建议向随机提供体验的控制分配 50% 的流量。
+   * **将随机体验作为控制，且活动目标是最大化个性化流量**：如果您习惯使用算法并希望最大化个性化流量，那么建议向控制分配 10% 到 30% 的流量。这里做出的权衡是您能够看到的提升度信息的准确性（因为控制流量的置信区间将会由于流向控制的流量减少而增大）。
+   * **将特定体验作为控制，且采用任一目标类型**：如果您要将特定营销人员驱动的体验与个性化模型相比较，那么建议向控制分配 10% 到 30% 的流量。如果您只选择一个体验作为控制，则该流量不会分布到活动中的每个选件/体验。
 
 * 应尽可能谨慎地使用定位规则，因为它们可能会干扰模型的优化能力。
 * 报表组会限制自动个性化活动的成功，只应在特定条件下使用。

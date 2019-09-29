@@ -23,7 +23,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 >[!NOTE]
 >
->一个已知问题，即导致使用A4T重定向的客户数量有限，以查看较高的点击率。See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+>存在一个已知问题，该问题会导致将重定向与 A4T 结合使用的有限数量的客户看到较高的未经整合点击率百分比。请参阅[已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#redirect)。
 
 ## 要将重定向选件与 A4T 配合使用，需要满足哪些最低要求？{#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -43,13 +43,13 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ## 为何有时会同时计入原始页面和重定向页面上的查看次数？{#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-在. js版本1.6.3或更高版本中使用时，这不是问题。此竞争条件仅影响使用早期版本的客户。Target团队维护两个版本的. js：当前版本和第二个最新版本。Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+When using at.js version 1.6.3 or later, this is not an issue. This race condition affects only customers using earlier versions. Target团队维护两个版本的at.js:当前版本和第二个最新版本。 Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-如果您使用的是较早、不受支持的at. js版本，可能会发生竞争情况，这会导致Analytics调用在第一个页面上执行重定向之前触发。这可能会导致原始页面和重定向页面上的查看次数全都被计入。在这种情况下，第一个页面上的页面查看次数便是多余的，因为当时访客实际上从未“查看过”该页面。
+If you are using an earlier, non-supported version of at.js, there is a possibility that a race condition can occur that might cause the Analytics call to fire before the redirect executes on the first page. 这可能会导致原始页面和重定向页面上的查看次数全都被计入。在这种情况下，第一个页面上的页面查看次数便是多余的，因为当时访客实际上从未“查看过”该页面。
 
 为加快页面重定向的速度，建议使用基于表单的编辑器来构建重定向活动。这是因为页面中代码执行的位置需使用基于表单的编辑器。此外，还建议为每个体验各创建一个重定向选件，甚至对默认体验（在默认体验中重定向会返回原始页面）也是如此。这样做可确保计数错误如若发生，便会发生在所有体验中，因此报表和分析对于测试仍然有效。
 
-您可能希望对活动中的所有体验(包括默认(控制)体验)使用重定向选件的一个原因是为所有体验提供相同的条件。例如，如果默认体验没有重定向选件，但其他体验具有重定向选件，则无需重定向选件就可以加快体验的速度。推荐重定向选件仅适用于临时场景，如测试。对于永久场景，如个性化，不建议重定向选件。在确定“优胜者”后，您应删除重定向以提高页面加载性能。
+One reason you might want to use redirect offers for all experiences in the activity, including the default (control) experience, is to put the same conditions on all experiences. 例如，如果默认体验没有重定向选件，但其他体验有重定向选件，则没有重定向选件的体验速度具有固有的优势。 建议仅针对临时方案（如测试）使用重定向选件。 对于永久性方案（如个性化），不建议使用重定向选件。 After you determine the “winner,” you should remove the redirect to improve page-load performance.
 
 For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 

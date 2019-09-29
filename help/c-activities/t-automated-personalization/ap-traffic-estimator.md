@@ -26,7 +26,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 在体验编辑器中，单击&#x200B;**[!UICONTROL 流量]**。
 
-   ![流量图标](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
+   ![“流量”图标](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
    此时将打开流量估算器。您可以再次单击&#x200B;**[!UICONTROL 流量]以隐藏流量估算器。**
 

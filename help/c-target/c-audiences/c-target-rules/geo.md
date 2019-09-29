@@ -1,10 +1,10 @@
 ---
-description: 使用受众根据其地理位置定位用户，包括国家/省、州/省、城市、邮政编码、DMA或移动运营商。
+description: 使用受众基于用户的地理位置（包括其国家/地区、省/自治区/直辖市、城市、邮编/邮政编码、DMA 或移动设备运营商）定位用户。
 keywords: 定位;A4T;地域;地域定位;地域定位的精准度;国家/地区;省/州;城市;邮政编码;DMA;移动设备运营商;城市代码;地区代码;国家/地区代码;大都市代码;配置文件脚本;地域定位配置文件脚本;地域定位移动设备
-seo-description: 使用Adobe Target受众根据用户地理位置定位用户，包括国家/省、州/省、城市、邮政编码、DMA或移动运营商。
+seo-description: 使用 Adobe Target 受众基于用户的地理位置（包括其国家/地区、省/自治区/直辖市、城市、邮编/邮政编码、DMA 或移动设备运营商）定位用户。
 seo-title: 地域
 solution: Target,Analytics
-title: 地域在Adobe Target中定位
+title: Adobe Target 中的地域定位
 topic: Reports & Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
@@ -15,9 +15,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 地域{#geo}
 
-使用受众根据其地理位置定位用户，包括国家/省、州/省、城市、邮政编码、DMA或移动运营商。
+使用受众基于用户的地理位置（包括其国家/地区、省/自治区/直辖市、城市、邮编/邮政编码、DMA 或移动设备运营商）定位用户。
 
-地理位置参数允许您根据访客的地理位置来定位活动和体验。您可以根据其国家/地区、州/省、城市、邮政编码/经度、纬度、longitude、DMA或移动运营商包括或排除访客。此数据随每个Target请求一起发送，并基于访客的IP地址。选择这些参数的方式与选择其他任何定位值一样。
+地理位置参数允许您根据访客的地理位置来定位活动和体验。您可以根据访客的地理位置信息（包括其国家/地区、省/自治区/直辖市、城市、邮编/邮政编码、纬度、经度、DMA 或移动设备运营商）来包含或排除访客。此数据根据访客的 IP 地址确定，随每个 Target 请求一起传送。选择这些参数的方式与选择其他任何定位值一样。
 
 ## 通过地域定位创建受众 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
@@ -28,7 +28,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
    * 国家/地区
-   * 省/州
+   * 省/自治区/直辖市
    * 城市
    * 邮政编码
    * 纬度
@@ -39,21 +39,21 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    对于移动设备运营商，[!DNL Target] 会使用 IP 地址注册数据（即 IP 地址块所有者的注册数据）并根据[移动设备国家/地区代码 (MCC) 和移动设备网络代码 (MNC)](https://www.mcc-mnc.com) 来确定相应的移动设备运营商。
 
-1. 指定操作符和相应的值。
+1. 指定运算符和相应的值。
 1. （可选）单击&#x200B;**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-下图显示了一个受众，它面向的用户从纬度大于44度的纬度和小于22度的longitude访问。
+下图展示了一个受众，它定位的是从纬度大于 44 度和经度小于 22 度的地区访问活动的用户。
 
 ![](assets/target_geo.png)
 
 ## 精准度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-地域定位的精准度取决于多个因素。与蜂窝网络相比，使用 WiFi 连接进行地域定位会更加精准。When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. 使用基于蜂窝塔的网络连接进行地域定位可能没有使用有线或 WiFi 连接精准。此外，访客的 IP 地址可能已映射到其 ISP 位置，因此 IP 地址可能不是访客的真实位置。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+地域定位的精准度取决于多个因素。与蜂窝网络相比，使用 WiFi 连接进行地域定位会更加精准。如果访客使用的是蜂窝数据连接，则地理查询的精准度可能会受到位置、提供商与 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 之间的数据关系及其他因素的影响。使用基于蜂窝塔的网络连接进行地域定位可能没有使用有线或 WiFi 连接精准。此外，访客的 IP 地址可能已映射到其 ISP 位置，因此 IP 地址可能不是访客的真实位置。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 下表显示了使用有线或 WiFi Internet 连接时根据 IP 获取的地理位置信息的精准度，此数据由 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 提供。DigitalEnvoy 能够提供业内最精准的数据。国家/地区级全局精准度超过 99.9%，城市级全局准确度高达 97%。此精准度信息不适用于基于蜂窝塔的网络。
 
-| 国家/地区 | 省/州 | 城市 | 地区 |
+| 国家/地区 | 省/自治区/直辖市 | 城市 | 地区 |
 |--- |--- |--- |--- |
 | 美国 | 99.99% | 96% | 94% |
 | 加拿大 | 99.99% | 96% | 94% |
@@ -130,7 +130,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * DMA/ITV (UK) - 美国、英国
 * 移动设备运营商 - 全球
 
-**如何测试我的活动，就像是来自不同位置的用户一样？**
+**我如何模拟其他位置的用户身份测试活动？**
 
 您可以使用其他位置的 IP 地址来覆盖您的 IP 地址，并使用 `mboxOverride.browserIp url` 参数。如果您的公司位于英国，但是您的全球营销活动要定位奥克兰和新西兰的访客，请使用以下形式的 URL（假设 `60.234.0.39` 是奥克兰的一个 IP 地址）：
 

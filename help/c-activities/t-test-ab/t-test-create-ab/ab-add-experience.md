@@ -1,7 +1,7 @@
 ---
 description: 可视化体验编辑器提供了一个可视化界面，用于编辑您页面上的体验。
 keywords: 定位;体验;添加体验;体验添加
-seo-description: Adobe Target中的视觉体验书写器(CMS)提供用于编辑页面上的体验的可视界面。
+seo-description: Adobe Target 中的可视化体验编辑器 (VEC) 提供了一个可视化界面，用于编辑您页面上的体验。
 seo-title: 添加体验
 solution: Target
 title: 添加体验
@@ -14,13 +14,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 添加体验{#add-experience}
 
-Visual Experience Composer(CMS)提供可视界面，可用于添加和编辑页面上的体验。
+可视化体验编辑器 (VEC) 提供了一个可视化界面，用于在您的页面上添加和编辑体验。
 
 有关体验的更多详细信息，请参阅[体验](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
 1. 单击&#x200B;**[!UICONTROL 添加体验]**。
 
-   ![添加体验选项](/help/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
+   ![“添加体验”选项](/help/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
 
    >[!NOTE]
    >
@@ -39,11 +39,11 @@ Visual Experience Composer(CMS)提供可视界面，可用于添加和编辑页�
    >
    >如果您交付的图像来自主页以外的其他来源（例如将一个在 akamai.net 上托管的图像交付到 dell.com），则该图像不会出现在流程图中显示的页面缩览图中。
 
-1. Click **[!UICONTROL Save]** when you are finished designing the experience.
+1. 完成体验设计后，单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 重命名体验
 
-Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or Experience Targeting (XT) activity to give the experience a new name.
+单击 A/B 测试或体验定位 (XT) 活动中体验的“[!UICONTROL 重命名体验]”图标，为体验提供一个新名称。
 
 ![重命名体验](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,11 +62,11 @@ Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or
 
 ## 重新定向到 URL
 
-Click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity, then click [!UICONTROL Redirect to URL].
+单击 A/B 测试或体验定位 (XT) 活动中体验的“更多”（三个垂直省略号）图标，然后单击“[!UICONTROL 重定向到 URL]”。
 
-For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
+有关更多信息，请参阅[重定向到 URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md)。
 
-**注意**：在您命名或重命名体验时，不允许使用以下字符：
+**注意**：在命名或重命名体验时，不允许使用以下字符：
 
 | 字符 | 描述 |
 |--- |--- |
@@ -85,7 +85,7 @@ For more information, see [Redirect to URL](/help/c-experiences/c-visual-experie
 
 在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 &gt; **[!UICONTROL 复制]**。
 
-![体验选项重复](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
+![复制体验选项](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## 删除体验
 

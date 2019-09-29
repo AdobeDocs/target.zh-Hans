@@ -21,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. 指定活动目标。
 1. 选择[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![设置指标列表](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
+   ![设置量度列表](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
 
    [!UICONTROL 选择量度]页面列出了可以选择用于您的活动的成功量度。这些成功量度分为以下类别：
 
@@ -37,7 +37,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    正确配置成功量度对于确保获得您预期的数据至关重要。
 
-   For more information, see [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+   有关更多信息，请参阅[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 1. （可选）添加其他量度。
 1. 完成设置量度时，单击&#x200B;**[!UICONTROL 继续]**。
 请注意，在命名或重命名量度时，不允许使用以下字符：

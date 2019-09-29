@@ -5,7 +5,7 @@ seo-description: 有关如何从Adobe Target at.js 1.*x*升级到at.js 2.0.0版�
 seo-title: 从Adobe Target at.js版本1升级。*x*至at.js版本2。*x 不支持跨域跟踪*
 solution: Target
 subtopic: 入门指南
-title: 从at.js 1.*x*升级到at.js 2.*x*
+title: Upgrading from at.js 1.*x* to at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
 source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
@@ -23,7 +23,7 @@ Here are some benefits of using at.js 2.*x* that are not available in previous v
 * 由于选件是通过缓存立即显示的，不存在传统服务器调用引入的任何时间延迟，因此极大地提升了最终用户在您网站上的体验。
 * 通过简单的单行代码和一次性开发人员设置，您的营销人员能够通过 VEC 在 SPA 上创建和运行 A/B 和 XT 活动。
 
-## at.js 2.*x* 系统图
+## at.js 2.*x* system diagrams
 
 The following diagrams help you understand the workflow of at.js 2.*x* with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.*x*, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
@@ -283,11 +283,11 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 >[!NOTE]
 >
->at.js 2中不支持跨域跟踪。*x* 不支持跨域跟踪。at.js 2支持跨域跟踪。*x* v4.3.0+通过Experience Cloud ID(ECID)库。
+>at.js 2中不支持跨域跟踪。*x* 不支持跨域跟踪。Cross-domain tracking is supported in at.js 2.*x* v4.3.0+通过Experience Cloud ID(ECID)库。
 
-在Target中，第三方Cookie存储在中 `<CLIENTCODE>.tt.omtrdc.net`。 第一方Cookie存储在中 `clientdomain.com`。 第一个请求会返回尝试设置名为 `mboxSession` 和 `mboxPC` 的第三方 Cookie 的 HTTP 响应标头，而会使用额外的参数 (`mboxXDomainCheck=true`) 发送回重定向请求。如果浏览器接受第三方Cookie，则重定向请求包括这些Cookie，并返回体验。 这个工作流程是可行的，因为我们使用的是 HTTP GET 方法。
+在Target中，第三方Cookie存储在中 `<CLIENTCODE>.tt.omtrdc.net`。 第一方Cookie存储在中 `clientdomain.com`。 第一个请求会返回尝试设置名为 `mboxSession` 和 `mboxPC` 的第三方 Cookie 的 HTTP 响应标头，而会使用额外的参数 (`mboxXDomainCheck=true`) 发送回重定向请求。If the browser accepts third-party cookies, the redirect request includes those cookies, and the experience is returned. 这个工作流程是可行的，因为我们使用的是 HTTP GET 方法。
 
-However, in at.js 2.*x*, HTTP GET is no longer used and instead we use HTTP POST. HTTP POST现在通过at.js 2使用。*x* ，将JSON有效负载发送到目标边缘服务器。 这意味着检查浏览器是否支持第三方 Cookie 的重定向请求现在会中断。这是因为HTTP GET请求是无效事务，而HTTP POST是无效的，不能任意重复。 因此，at.js 2中的跨域跟踪。*x* 不再支持开箱即用。 仅at.js 1.*x* 现成支持跨域跟踪。
+However, in at.js 2.*x*, HTTP GET is no longer used and instead we use HTTP POST. HTTP POST现在通过at.js 2使用。*x* ，将JSON有效负载发送到目标边缘服务器。 这意味着检查浏览器是否支持第三方 Cookie 的重定向请求现在会中断。This is because HTTP GET requests are idempotent transactions, while HTTP POST is non-idempotent and must not be arbitrarily repeated. 因此，at.js 2中的跨域跟踪。*x* 不再支持开箱即用。 仅at.js 1.*x* 现成支持跨域跟踪。
 
 如果要使用跨域跟踪，则必须将 [ECID库v4.3.0+与at.js 2](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 一起安装。*x* 不支持跨域跟踪。ECID库用于管理永久ID，这些ID用于识别访客，甚至跨域。 安装ECID库v4.3.0+和at.js 2后。*x*，您将能够创建跨唯一域的活动并跟踪用户。
 
@@ -438,7 +438,7 @@ at.js 2.*x* JSON有效负荷：
 
 访客浏览器窗口的宽度。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -456,7 +456,7 @@ at.js 2.*x* JSON有效负荷：
 
 时区偏移。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -472,7 +472,7 @@ at.js 2.*x* JSON有效负荷：
 
 访客屏幕的高度。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -490,7 +490,7 @@ at.js 2.*x* JSON有效负荷：
 
 访客屏幕的宽度。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -508,7 +508,7 @@ at.js 2.*x* JSON有效负荷：
 
 访客屏幕的颜色深度。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -526,7 +526,7 @@ at.js 2.*x* JSON有效负荷：
 
 Target 库运行的页面的域。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -544,7 +544,7 @@ at.js 2.*x* JSON有效负荷：
 
 浏览器的 WEB GL 渲染器功能。我们的设备检测机制使用此参数来确定访客的设备是桌面设备、iPhone、Android 设备，还是其他设备。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -562,7 +562,7 @@ at.js 2.*x* JSON有效负荷：
 
 页面 URL。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -580,7 +580,7 @@ at.js 2.*x* JSON有效负荷：
 
 页面反向链接。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -598,7 +598,7 @@ at.js 2.*x* JSON有效负荷：
 
 交付 API 不再具有全局 mbox 概念。在 JSON 有效负载中，您必须使用 `execute > pageLoad`。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -618,7 +618,7 @@ at.js 2.*x* JSON有效负荷：
 
 要使用 mbox 名称，请将其传递到 `execute > mboxes`。mbox 需要索引和名称。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -652,7 +652,7 @@ at.js 2.*x* JSON有效负荷：
 
 下游系统用来帮助进行调试的请求 ID。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -696,7 +696,7 @@ at.js 2.*x* JSON有效负荷：
 
 Marketing Cloud 访客 ID 被传递到 `id > marketingCloudVisitorId`。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -713,7 +713,7 @@ at.js 2.*x* JSON有效负荷：
 
 客户 ID 应被传递到 `id > customerIds`。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {
@@ -751,7 +751,7 @@ at.js 2.*x* JSON有效负荷：
 
 SDID，也称为补充数据 ID。应被传递到 `experienceCloud > analytics > supplementalDataId`。
 
-at.js 2.*x* JSON有效负荷：
+at.js 2.*x* JSON payload:
 
 ```
 {

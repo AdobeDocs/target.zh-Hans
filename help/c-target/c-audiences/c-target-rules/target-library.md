@@ -32,7 +32,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    预先构建的定位规则包括：Windows 操作系统、平板电脑设备、Safari 浏览器、回访访客、从 Google 引荐的访客，等等。
 
-   预定义的受众“平板电脑设备”在用户代理包含下列字符串之一(某些字符串数量为设备)时已有资格。您不必为这些设备创建自定义定位规则。
+   当用户代理包含以下任一字符串（其中一些字符串代表设备型号）时，用户便已符合预定义受众“平板电脑设备”的条件。您不必为这些设备创建自定义定位规则。
 
    Kindle、Silk、iPad、Sony Tablet、TF101、GT-P1000、GT-P1000R、GT-P1000M、SGH-T849、SHW-M180S、GT-I9000T、BNTV250 和 Tablet PC。
 

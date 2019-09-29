@@ -1,6 +1,6 @@
 ---
 description: '有关 at.js 的 registerExtension() 函数的信息。 '
-keywords: RegisterExtension；注册扩展；注册扩展；at. js；函数；函数；clientCode；ServerDomain；globalmboxName；GlobalmboxRegresh；超时
+keywords: registerExtension;registerextension;register extension;at.js;functions;function;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;timeout
 seo-description: 有关 Adobe Target at.js JavaScript 库的 registerExtension() 函数的信息。
 seo-title: 有关 Adobe Target at.js JavaScript 库的 tregisterExtension() 函数的信息。
 solution: Target

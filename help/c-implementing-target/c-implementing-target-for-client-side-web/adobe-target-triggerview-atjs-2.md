@@ -1,6 +1,6 @@
 ---
 description: '有关 at.js 的 adobe.target.triggerView (viewName, options) 函数的信息。 '
-keywords: adobe. target. TriggerView；TriggerView；触发器视图；触发视图；at. js；函数；函数；viewName；viewname；视图名称
+keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;functions;function;viewName;viewname;view name
 seo-description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.triggerView (viewName, options) 函数的信息。
 seo-title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.triggerView (viewName, options) 函数的信息。
 solution: Target
@@ -25,11 +25,11 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 | --- | --- | --- | --- |
 | viewName | 字符串 | 是 | 将任何名称作为要显示视图的字符串类型传递。此视图名称显示在 VEC 的[!UICONTROL 修改]面板中，供营销人员创建操作并运行其 A/B 和 XT 活动。 |
 | options | 对象 | 否 |  |
-| options &gt; page | 布尔值 | 否 | **TRUE：** page 的默认值为 true。当 page=true 时，将向 [!DNL Target] 后端发送增加展示次数计数的通知。<br>如果没有活动体验或活动量度与视图相关联，则不发送通知。<br>**FALSE：**&#x200B;当 page=false 时，将不会发送增加展示次数计数的通知。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
+| options &gt; page | 布尔值 | 否 | **TRUE：** page 的默认值为 true。当 page=true 时，将向 [!DNL Target] 后端发送增加展示次数计数的通知。<br>如果没有活动体验或活动量度与视图相关，则不会发送任何通知。<br>**FALSE：**&#x200B;当 page=false 时，将不会发送增加展示次数计数的通知。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
 
 ## 示例：True
 
-`triggerView()` 调用以向Target后端发送通知，以增加活动印象和其他指标。
+`triggerView()` 调用向 Target 后端发送增加活动展示次数和其他量度的通知。
 
 ```
 adobe.target.triggerView("homeView")
@@ -37,7 +37,7 @@ adobe.target.triggerView("homeView")
 
 ## 示例：False
 
-`triggerView()` 调用没有发送到Target后端的通知，用于印象计数。
+`triggerView()` 调用不会向 Target 后端发送增加展示次数计数的通知。
 
 ```
 adobe.target.triggerView("homeView", {page: false})

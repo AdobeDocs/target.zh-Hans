@@ -1,8 +1,8 @@
 ---
-description: 定义受众，以比较Target受众库或仅限活动的受众的两个档案属性。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
+description: 将受众定义为比较 Target 受众库或仅限该活动的受众的两个配置文件属性。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
 keywords: 受众;倾向;配置文件属性;比较;对比;创建受众
-seo-description: 定义受众，以比较Target受众库或仅限活动的受众的两个档案属性。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
-seo-title: 创建配置文件属性比较受众在Adobe Target中
+seo-description: 将受众定义为比较 Target 受众库或仅限该活动的受众的两个配置文件属性。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
+seo-title: 在 Adobe Target 中创建配置文件属性比较受众 在Adobe Target中
 solution: Target
 title: 创建配置文件属性比较受众
 topic: Advanced,Standard,Classic
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 创建配置文件属性比较受众{#create-a-profile-attribute-comparison-audience}
 
-Define an audience to compare two profile attributes for your [Audience library](/help/c-target/c-audiences/audiences.md) or in an [activity-only audience](/help/c-target/creating-activity-only-audience.md). 使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
+将受众定义为比较[受众库](/help/c-target/c-audiences/audiences.md)或[仅限该活动的受众](/help/c-target/creating-activity-only-audience.md)的两个配置文件属性。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
 
 >[!NOTE]
 >
@@ -39,17 +39,17 @@ Define an audience to compare two profile attributes for your [Audience library]
 1. 单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]** &gt; **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 访客配置文件]**。
 1. 从&#x200B;**[!UICONTROL 访客配置文件]下拉列表中选择一个属性：**
 
-   ![倾向分数1](assets/propensity_score_1.png)
+   ![倾向得分 1](assets/propensity_score_1.png)
 
 1. 选择您的计算器：
 
-   ![倾向得分2](assets/propensity_score_2.png)
+   ![倾向得分 2](assets/propensity_score_2.png)
 
 1. 从&#x200B;**[!UICONTROL 选择比较类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 属性]**。
 
    “静态值”比较类型允许您将访客配置文件属性与特定值进行比较。
 
-   ![倾向评分3](assets/propensity_score_3.png)
+   ![倾向得分 3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >

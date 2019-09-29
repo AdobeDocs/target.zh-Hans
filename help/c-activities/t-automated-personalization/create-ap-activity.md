@@ -27,17 +27,17 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    ![“创建自动个性化活动”对话框](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   如果您希望使用基于表单的体验编辑器，请选择[!UICONTROL 表单]。See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   如果您希望使用基于表单的体验编辑器，请选择“[!UICONTROL 表单]”。请参阅[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md)，以了解更多信息。
 
    >[!NOTE]
    >
-   >除了CMS和基于表单的Experience Composer之外，Target还提供单页应用程序CMS和CMS for Mobile Apps。For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >除了 VEC 和基于表单的体验编辑器之外，Target 还提供单页应用程序 VEC 和适用于移动设备应用程序的 VEC。有关各种编辑器的更多信息，请参阅[体验和选件](/help/c-experiences/experiences.md)。
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您看不到此选项，则您的组织有Target Standard许可证。]
+   >上图中的“[!UICONTROL 选择工作区]”选项是一项 [Target Premium](/help/c-intro/intro.md) 功能。如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。
 
-1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. （视情况而定）如果您是一位 Target Premium 客户，请[选择一个工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 1. 验证或输入活动 URL，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
@@ -64,7 +64,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
    | - | 减号 |
    | @ | @ 符号 |
 
-1. Modify page elements as explained in [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. 按照[可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)中所述，修改页面元素。
 
    您可以从资产管理器中一次选择多个图像。这使您能够快速查找包含为活动配置的每个图像的页面。您还可以轻松编辑选件中的文本元素。当您编辑某个元素时，该元素上会出现一个条块，指示您对它进行了更改。
 
@@ -84,13 +84,13 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    要排除特定的体验，您可以将鼠标悬停在所需体验上，然后单击“排除”图标。
 
-   ![排除图标悬停](/help/c-activities/t-automated-personalization/assets/icon-exclude.png)
+   ![“排除”图标悬停](/help/c-activities/t-automated-personalization/assets/icon-exclude.png)
 
-   您可以通过选择相关体验的复选框来批量排除/包含体验，然后单击对话框右上角的排除图标。
+   您可以批量排除/包含体验，方法是选中相关体验的复选框，然后单击对话框右上角的“排除”图标。
 
-   ![批处理排除选项](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
+   ![批量排除选项](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
 
-   You can filter this list view to see only excluded or only included activities by clicking the **Status** drop-down list.
+   您可以通过单击&#x200B;**状态**&#x200B;下拉列表来筛选此列表视图，以仅查看排除或包含的活动。
 
 1. （视情况而定）单击&#x200B;**[!UICONTROL 选件]**&#x200B;以选择内容片段并将其分配给报表组，或通过定位仅允许特定访客查看特定选件。
 
@@ -98,13 +98,13 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    使用[!UICONTROL 位置]列表可按位置筛选选件。使用[!UICONTROL 报表组]列表可按报表组筛选选件。您还可以使用“[!UICONTROL 报表组]”来筛选“[!UICONTROL 未分配选件]”，以便将某个报表组分配给当前未分配给任何报表组的选件。
 
-   您可以将特定体验悬停在所需的选件上方，然后单击文件夹图标，从而向报告组添加特定体验。
+   您可以将特定体验添加到报表组，方法是将鼠标悬停在所需的选件上，然后单击文件夹图标。
 
    ![文件夹图标悬停](/help/c-activities/t-automated-personalization/assets/icon-folder.png)
 
-   您可以通过选择相关体验的复选框，在报告组中批量包括体验，然后单击对话框右上角的“报表组”文件夹图标按钮。
+   您可以在报表组中批量添加体验，方法是选中相关体验的复选框，然后单击对话框右上角的“报表组”文件夹图标按钮。
 
-   ![报告组选项](/help/c-activities/t-automated-personalization/assets/report-group-options.png)
+   ![“报表组”选项](/help/c-activities/t-automated-personalization/assets/report-group-options.png)
 
    请务必注意，报表组会影响 Target 构建其模型的方式。因此，我们建议只有当您计划在活动上线期间替换选件或添加新选件时才使用报表组。在向实时活动中添加新选件时，通过将新选件放置到包含现有类似选件的组中，计算机可以使用已为该组中其他选件收集的数据来了解新选件。您绝不应该将所有选件都放置到一个报表组中。
 
@@ -120,19 +120,19 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    要编辑现有的排除组，请将鼠标悬停在要编辑的组上，然后单击铅笔图标。
 
-1. Click **[!UICONTROL Done]** when you have finished setting up the content of your activity.
+1. 完成活动内容的设置后，单击&#x200B;**[!UICONTROL 完成]**。
 
 1. 如果您使用过其他 Target 活动类型，那么&#x200B;**定位**&#x200B;步骤看起来会很熟悉。在此步骤中，您可以选择受众，并通过单击&#x200B;**[!UICONTROL 自定义分配]**&#x200B;下拉列表来指定将会看到控制体验的访客百分比，然后单击&#x200B;**下一步**。
 
    “[!UICONTROL 自定义分配]”下拉列表可让您从以下选项中进行选择：
 
-   ![流量分配目标下拉列表](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
+   ![“流量分配目标”下拉列表](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **评估个性化算法 (50/50)：**&#x200B;如果您的目标是测试算法，则可以在控制和目标算法之间按 50/50 的百分比拆分访客。这种拆分可让您对提升进行最精确的评估。建议将“随机体验”用作您的控件。
-   * **最大化个性化流量 (90/10)：**&#x200B;如果您的目标是创建“一直开启”的活动，则可以在控制中放入 10% 的访客，以确保算法有足够的数据来不断学习。请注意，这里做出的权衡是，为了对更大一部分的流量进行个性化，提升度的准确性将会降低。无论您的目标如何，在使用特定体验作为控件时，这都是建议的流量分割。
+   * **评估个性化算法 (50/50)：**&#x200B;如果您的目标是测试算法，则可以在控制和目标算法之间按 50/50 的百分比拆分访客。这种拆分可让您对提升进行最精确的评估。建议将“随机体验”用作控制。
+   * **最大化个性化流量 (90/10)：**&#x200B;如果您的目标是创建“一直开启”的活动，则可以在控制中放入 10% 的访客，以确保算法有足够的数据来不断学习。请注意，这里做出的权衡是，为了对更大一部分的流量进行个性化，提升度的准确性将会降低。无论您的目标如何，在使用特定体验作为控制时，都建议按此比例拆分流量。
    * **自定义分配：**&#x200B;根据需要手动拆分百分比。
 
-1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
+1. （视情况而定）从“[!UICONTROL 控制]”下拉列表中，[选择要用作控制的特定体验](/help/c-activities/t-automated-personalization/experience-as-control.md)，或选择“[!UICONTROL 随机体验]”。
 
    控制体验通过比较来确定自动化测试所带来的提升量。
 
@@ -142,7 +142,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
    >
    >在自动个性化活动中，将评估每个请求的参加标准（URL 定位、模板规则和受众目标）。在以前的版本中，每个会话会评估一次参加标准。
 
-1. Click **[!UICONTROL Next]** to display the **[!UICONTROL Goals &amp; Settings]** page.
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以显示&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面。
 1. 使用以下设置配置活动，然后单击&#x200B;**[!UICONTROL 保存并关闭]**。
 
    | 设置 | 描述 |

@@ -52,7 +52,7 @@ For more information, see [Select default report metrics](https://docs.adobe.com
 
 * 当用户符合活动条件并从 [!DNL Target] 返回内容时，所有上述量度都会触发。这并不一定意味着用户查看了该选件。如果活动体验未显示且用户未向下滚动页面，则表示该选件由 [!DNL Target] 提供，但用户并未查看。
 * 除非同一活动中的同一页面同时有多个 mbox 调用，否则“[!UICONTROL 活动展示次数]”（由 [!DNL Target] 测量）与“[!UICONTROL 实例数]”（由 [!DNL Analytics] 测量）相等。这会导致“[!UICONTROL 活动展示次数]”被计入多次，而“[!UICONTROL 实例]”只被计入一次。
-* 在中使 [!UICONTROL 用“活动印象] ”和“活 [!UICONTROL 动转化”量度时] ，请确保这两个量度都应用了相 [!DNL Analysis Workspace]同的Touch  归因模型。 可通过单击列设置齿轮，启用“非默认”( [!UICONTROL Non-default)归因模型]，然后选择“相 [!UICONTROL 同触控”(Same Touch)应用模型]。 了解有关属性的更多信息， [请参阅分析工具指南](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) ，了解属 *性IQ概述*。
+* When using Activity Impressions and Activity Conversions metrics in , ensure that both metrics have Same Touch attribution models applied. [!DNL Analysis Workspace]可通过单击列设置齿轮，启用“非默认”( [!UICONTROL Non-default)归因模型]，然后选择“相 [!UICONTROL 同触控”(Same Touch)应用模型]。 了解有关属性的更多信息， [请参阅分析工具指南](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) ，了解属 *性IQ概述*。
 
 ## 如果营销人员在活动设置期间选择了一个 Analytics 量度，则“活动转化”意味着什么？{#section_F3EBACF85AF846E9B366A549AAB64356}
 

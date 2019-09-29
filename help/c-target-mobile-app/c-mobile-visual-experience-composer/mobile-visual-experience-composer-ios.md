@@ -233,19 +233,19 @@ ACPTargetVEC.setTargetView("VIEW_NAME", with: TARGET_PARAMS)
 + (void) prefetchOffersBackground;
 ```
 
-## Tutorials: Implement the Experience Cloud in Mobile iOS Objective-C and Swift applications {#tutorial}
+## 教程：在 iOS Objective-C 和 Swift 移动设备应用程序中实施 Experience Cloud {#tutorial}
 
-* [在Mobile iOS Objective-C应用程序中实施Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
-* [在Mobile iOS Swift应用程序中实施Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+* [在 iOS Objective-C 移动设备应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [在 iOS Swift 移动设备应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
 
-完成这些教程之后，您可以：
+完成这些教程后，您将能够：
 
-* 创建移动启动项属性
-* 在Objective-C或Swift应用程序中安装Launch属性
-* 实施以下Adobe Experience Cloud解决方案：
+* 创建移动 Launch 属性
+* 在 Objective-C 或 Swift 应用程序中安装 Launch 属性
+* 实施以下 Adobe Experience Cloud 解决方案：
    * Experience Cloud ID 服务
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* 通过开发、分步和生产环境发布Launch中的更改
+* 通过开发、测试和生产环境在 Launch 中发布更改

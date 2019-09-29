@@ -1,8 +1,8 @@
 ---
-description: 选择要在创建自动个性化(AP)或自动Target活动时用作控制的体验。
-keywords: 体验；控制；自动个性化；auto-target
-seo-description: 选择要用作控制的体验，同时在Adobe Target中创建自动个性化(AP)或自动Target活动。
-seo-title: 在Adobe Target中使用特定体验作为控制
+description: 在创建自动个性化 (AP) 或自动定位活动时，选择要用作控制的体验。
+keywords: 体验;控制;自动个性化;自动定位
+seo-description: 在 Adobe Target 中创建自动个性化 (AP) 或自动定位活动时，选择要用作控制的体验。
+seo-title: 在 Adobe Target 中使用特定体验作为控制
 solution: Target,Analytics
 title: 使用特定体验作为控制
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
@@ -12,43 +12,43 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 ---
 
 
-# ![高级](/help/assets/premium.png) 选择控制自动个性化或自动定位活动
+# ![PREMIUM](/help/assets/premium.png) 选择用于自动个性化或自动定位活动的控制
 
-You can select a randomly served experience or a specific experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+您可以在创建[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) 或[自动定位](/help/c-activities/auto-target-to-optimize.md) (AT) 活动时，选择随机提供的体验或特定体验作为控制。
 
-此功能允许您根据活动中配置的流量分配百分比将控制流量路由到相关体验。然后，您可以根据控制流量来评估个性化流量的性能报告。
+通过此功能，您可以根据活动中配置的流量分配百分比，将控制流量路由到特定体验。然后，您可以根据该控制的控制流量评估个性化流量的性能报表。
 
-在AP和AT活动中设置控件的选项与其他活动类型略有不同。在手动A/B测试中，您可以更改显示为控件的报告，并根据该控制体验的转化率计算提升。您可以轻松地进行此更改，因为流量会随机提供给活动中包含的每个体验，无论最初设置为什么控件。换句话说，选择控件并不会影响流量的提供方式。在AP和AT活动中，您决定如何选择该控件会影响如何提供访客流量。因此，您需要更仔细地考虑您的决策。
+AP 和 AT 活动中用于设置控制的选项与其他活动类型略有不同。在手动 A/B 测试中，您可以更改显示为控制的报表，并根据该控制体验的转化率计算提升度。您可以轻松地进行此更改，因为无论最初设置的控制是什么，系统都会随机将流量提供给您在活动中包含的每个体验。换句话说，控制的选择并不会影响流量的提供方式。在 AP 和 AT 活动中，您决定选作控制的内容而是会影响访客流量的提供方式。因此，您需要谨慎思考后再做出决定。
 
-您的AP和AT活动中有两个可供您控制的选项：随机提供的体验或特定体验。
+在 AP 和 AT 活动中，有两个选项可用作控件：随机提供的体验或特定体验。
 
-* **随机提供**：为了进行随机控制，流量的控制百分比随机提供活动中的所有体验，而不考虑访客的个人资料。您可以将控制视为帮助回答问题：“如果我只随机向访客提供体验(或选件)，而不考虑他们的档案，那么该体验的转化率是多少？”此控件类似于AI活动中的A/B测试。为每个体验或选件提供非个性化转化率信息有助于了解活动结果。
+* **随机提供的体验**：对于随机控制，流量的控制百分比会随机提供给活动中的所有体验，而不考虑访客的配置文件。您可以考虑使用控制来帮助回答以下问题：“如果我只是随机向访客提供体验（或选件）而不考虑他们的配置文件，那么该体验（或选件）的转化率是多少？”该控制类似于 AI 活动中的 A/B 测试。在分析活动结果时，了解每个体验或选件的非个性化转化率信息可能会有所帮助。
 
-* **特定体验**：通过特定体验控制，您可以比较Target个性化模型提供给特定营销人员定义体验的流量(例如，您的默认主页)。通过此选项，控制流量百分比只会随机服务这一体验。
+* **特定体验**：通过特定体验控制，您可以将 Target 的个性化模型所提供的流量与特定营销人员定义的体验（例如，您的默认主页）进行比较。使用此选项，流量的控制百分比仅会随机为该一个体验提供流量。
 
 ## 指定特定体验作为控制
 
-1. While creating an [AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md) or [AT activity](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configure the experiences as desired.
-1. On the [!UICONTROL Targeting] page (step 2 of the three-part guided workflow), select the desired experience as the control.
+1. 创建 [AP 活动](/help/c-activities/t-automated-personalization/create-ap-activity.md)或 [AT 活动](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)时，根据需要配置体验。
+1. 在“[!UICONTROL 定位]”页面（三步引导式工作流的步骤 2）上，选择所需的体验作为控制。
 1. 为控制体验和其他体验指定所需的流量分配。
 
-   对于特定体验控制，建议使用10%到30%。
+   对于特定体验控制，建议分配 10% 到 30% 的流量。
 
-1. Continue with the [!UICONTROL Goals &amp; Settings] page.
+1. 继续设置[!UICONTROL 目标和设置]页面。
 
 ## 已知限制和注意事项
 
-在使用特定体验作为控制时，请记住以下要点：
+在使用特定体验作为控制时，请记住以下几个要点：
 
-* 不建议在已经实时活动中更改控制体验。选择的最新控制体验在报告中命名(即使旧报告基于其他体验)。
-* 建议不要删除控制体验。
-* 在不建议的情况下，将大量新选件/体验添加到具有特定体验的实时活动中。
-* 在AP活动中，包括对控制体验的定位，这些体验可能会进一步constra谁可以看到体验的建议。
-* In AP activities, lift and confidence information is *NOT* available in the offer-level report if a specific experience is selected. 提升和置信度信息在AP活动的总体“目标”与“控制”流量级别上可用。如果选择“random”作为控件，则提升和置信信息可用。这一差异是因为，与选件的转化率相比，将特定体验的转化率与选件的转化率相比较是不合逻辑的。无论选择哪种类型的控件，AT活动中的可用信息都是相同的。
-* 由于在您选择体验时，所有控制流量都会转到单个体验或选件集(与随机相比，控制流量金额会在体验中的体验或选件数量上分列)，因此您通常不需要流量流向控件。开始是一个不错的开始。
-* 如果您对具有特定体验的实时活动执行以下某项操作作为控制，则该控制会自动重置为随机提供的体验(而不是以前所选的特定体验)：
+* 不建议更改已处于实时状态的活动中的控制体验。所选的最新控制体验会在报表中进行命名（即使较旧的报表基于其他体验也是如此）。
+* 不建议删除控制体验。
+* 不建议向使用特定体验作为控制的实时活动中添加大量新选件/体验。
+* 在 AP 活动中，不建议包含对控制体验的定位，这可能会进一步限制能够查看该体验的用户。
+* 在 AP 活动中，如果选择了特定体验，则提升度和置信度信息在选件级别报表中&#x200B;*不*&#x200B;可用。提升度和置信度信息可以在 AP 活动的整体“目标”与“控制”流量级别使用。如果选择“随机”作为控制，则可以使用提升度和置信度信息。造成这种差异的原因在于，由于单位不同，将特定体验的转化率与选件的转化率进行比较不合逻辑。无论选择哪种类型的控制，AT 活动中的可用信息都是相同的。
+* 由于当您选择体验作为控制时，所有控制流量都会流向一个体验或一组选件（与将随机体验作为控制相比，在这种情况下，控制流量会根据您的活动中的体验或选件数进行拆分），因此您通常无需使大量流量流向控制。分配 10% 的流量即可。
+* 如果您对使用特定体验作为控制的实时活动执行以下操作之一，则控制会自动重置为随机提供的体验（而不是之前选择的特定体验）：
 
    * 删除体验
-   * 删除位置或选件(仅限AP)
-   * 通过删除重复的选件或通过排除组(仅限AP)，手动排除体验
+   * 删除位置或选件（仅限 AP）
+   * 通过删除重复的选件或通过排除组手动排除体验（仅限 AP）
 

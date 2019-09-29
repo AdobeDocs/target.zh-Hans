@@ -29,7 +29,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. （可选）单击&#x200B;**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-以下插图显示了使用Macintosh OS定位访客的受众。
+下图展示了一个受众，它定位的是使用 Macintosh 操作系统的访客。
 
 ![](assets/target_os.png)
 

@@ -1,6 +1,6 @@
 ---
 description: '有关 at.js 的 targetPageParams() 函数的信息。 '
-keywords: targetPageParams；targetpageparams；PageParams；pageparams；页面参数；页面参数；at. js；函数；function
+keywords: targetPageParams;targetpageparams;pageParams;pageparams;page params;page params;page paramets;at.js;functions;function
 seo-description: 有关 Adobe Target at.js JavaScript 库的 targetPageParams() 函数的信息。
 seo-title: 有关 Adobe Target at.js JavaScript 库的 targetPageParams() 函数的信息。
 solution: Target

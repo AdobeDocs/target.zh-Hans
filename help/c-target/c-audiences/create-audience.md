@@ -27,13 +27,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以将两种布尔运算符混合使用来创建复杂的规则；但是，同一规则级别的运算符必须一致。用户界面会自动应用正确的运算符。
 
-For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
+例如，以下规则可定位在 Windows 计算机上使用 Chrome *或* Firefox 的访客：
 
 ![创建受众](assets/audience_create.png)
 
 >[!NOTE]
 >
->务必要避免创建会将所有潜在受众成员都排除在外的规则。For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
+>务必要避免创建会将所有潜在受众成员都排除在外的规则。例如，某个人不可能同时使用 Chrome *和* Firefox 来访问页面。
 
 ## 创建新受众
 

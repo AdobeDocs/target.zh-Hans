@@ -1,8 +1,8 @@
 ---
-description: 根据移动设备、设备类型、设备供应商、屏幕尺寸(按像素)等参数创建受众，以定位移动设备。
+description: 创建受众以根据移动设备、设备类型、设备供应商、屏幕大小（按像素）等参数定位移动设备。
 keywords: 定位;移动设备;Target 移动设备;DeviceAtlas;iPhone;iPhone 机型;Device Atlas;displaywidth;显示屏宽度;显示屏高度;设备类型;displayheight;手机;平板电脑;设备型号
-seo-description: 在Adobe Target中创建受众，根据移动设备、设备类型、设备供应商、屏幕尺寸(按像素)等参数定位移动设备。
-seo-title: Adobe Target中的移动受众
+seo-description: 在 Adobe Target 中创建受众以根据移动设备、设备类型、设备供应商、屏幕大小（按像素）等参数定位移动设备。
+seo-title: Adobe Target 中的移动设备受众
 solution: Target
 title: 移动设备
 topic: Standard
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 移动设备{#mobile}
 
-根据移动设备、设备类型、设备供应商、屏幕尺寸(按像素)等参数创建受众，以定位移动设备。
+创建受众以根据移动设备、设备类型、设备供应商、屏幕大小（按像素）等参数定位移动设备。
 
 例如，您可能希望向从手机访问您页面和从计算机访问您页面的用户显示不同的内容。在这种情况下，您可以选择“移动设备”受众，再选择&#x200B;**[!UICONTROL 是移动电话]选项，然后添加任何对您而言重要的特定信息，例如手机类型、屏幕大小（以像素为单位）等等。**
 
@@ -57,9 +57,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * 屏幕宽度（像素）
    >[!NOTE]
    >
-   >由于iOS12.2中引入的新更改，使用指定iPhone型号的设备营销名称和设备模型定义的受众会受到影响。我们不再将装有iOS12.2的iPhone定位到它们。但是，如果这些用户没有iOS12.2，则iPhone型号定位继续正常工作。
+   >由于 iOS 12.2 中引入了新更改，使用由设备营销名称和设备型号（用于指定 iPhone 型号）定义的规则创建受众这一功能受到了影响。我们无法再定位使用安装了 iOS 12.2 的 iPhone 的用户。但是，如果这些用户未使用 iOS 12.2，则“iPhone 型号”定位功能将可以继续正常使用。
    >
-   >iOS12.2更新不会影响下列型号的识别，因为这些模型不支持升级到iOS12.2：iPhone、iPhone3 G、iPhone3 GS、iPhone4、iPhone4 s、iPhone5、iPhone5 c、iPad、iPad、iPad/Retina显示屏、iPad Retina(4th Generation)、iPod Touch和iPod Touch5。
+   >iOS 12.2 更新不会影响下列型号的识别，因为这些型号不支持升级到 iOS 12.2：iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad/Retina 显示屏、iPad Retina（第 4 代）、iPod Touch 4 和 iPod Touch 5。
 
    >[!NOTE]
    >
@@ -68,9 +68,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. （可选）单击&#x200B;**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-下图显示了使用由Google制造的移动设备制造的设备的受众。
+下图展示了一个受众，它定位的是使用由 Google 制造的移动设备的访客。
 
-![瞄准移动设备](assets/target_mobile.png)
+![定位移动设备](assets/target_mobile.png)
 
 ## 培训视频：创建受众
 

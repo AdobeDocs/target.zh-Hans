@@ -27,13 +27,13 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 为进一步说明“视图”的概念，让我们浏览一下这个在 React 中实施的假定的在线电子商务网站，并探索一些“视图”示例。单击下面的链接可在新浏览器选项卡中打开此站点。
 
-**链接：[主页](https://target.enablementadobe.com/react/demo/#/)**
+**链接：主[页](https://target.enablementadobe.com/react/demo/#/)**
 
 ![home 站点](/help/c-experiences/assets/home.png)
 
-导航到主页时，我们可以立即看到展示复活节促销活动的主页横幅，以及网站上销售的最新产品。在这种情况下，可以将“视图”定义为整个 home 站点。这种方式很容易记忆，我们将在下面的“实施 Adobe Target 视图”章节中对此进行详细介绍。
+导航到主页时，我们可以立即看到展示复活节促销活动的主页图像，以及网站上销售的最新产品。在这种情况下，可以将“视图”定义为整个 home 站点。这种方式很容易记忆，我们将在下面的“实施 Adobe Target 视图”章节中对此进行详细介绍。
 
-**链接：[产品站点](https://target.enablementadobe.com/react/demo/#/products)**
+**链接：产[品站点](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![产品站点](/help/c-experiences/assets/product-site.png)
 
@@ -47,7 +47,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 我们决定单击“Load More”（了解更多）按钮，以浏览站点上的更多产品。在这种情况下，网站 URL 不会发生更改。但是，这里的视图只能呈现上面显示的第二行产品。此视图名称可称为“PRODUCTS-PAGE-2”。
 
-**链接：[结帐](https://target.enablementadobe.com/react/demo/#/checkout)**
+**链接：结[帐](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![结帐页面](/help/c-experiences/assets/checkout.png)
 
@@ -83,7 +83,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    现在，我们来查看一些关于如何在 React 中为假定的电子商务 SPA 调用 `triggerView()` 函数的示例用例：
 
-   **链接：[主页](https://target.enablementadobe.com/react/demo/#/)**
+   **链接：主[页](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -114,7 +114,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **链接：[产品站点](https://target.enablementadobe.com/react/demo/#/products)**
+   **链接：产[品站点](https://target.enablementadobe.com/react/demo/#/products)**
 
    现在，我们来看一个比较复杂的示例。假设我们是营销人员，想要在用户单击“Load More”（加载更多）按钮后将价格标签颜色更改为红色，以对第二行的产品进行个性化。
 
@@ -143,7 +143,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
    }
    ```
 
-   **链接：[结帐](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **链接：结[帐](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![react checkout](/help/c-experiences/assets/react6.png)
 
@@ -198,7 +198,7 @@ VEC 的[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-edit
 
 **操作**
 
-单击某个操作会突出显示将应用此操作的网站上的元素。在View下创建的每个CMS操作都具有以下图标，如下所示：信息、编辑、仿制、移动和删除。
+单击某个操作会突出显示将应用此操作的网站上的元素。在“视图”下创建的每个 VEC 操作都具有如下所示的几个图标：“信息”、“编辑”、“克隆”、“移动”和“删除”。
 
 ![修改](/help/c-experiences/assets/modifications.png)
 
@@ -208,8 +208,8 @@ VEC 的[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-edit
 | --- | --- |
 | 信息 | 显示操作的详细信息。 |
 | 编辑 | 允许您直接编辑操作的属性。 |
-| 克隆 | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**注意**：完成克隆操作后，您需要通过 [!UICONTROL 浏览] 导航到CMS中的“视图”，以查看克隆操作是否为有效操作。如果该操作未应用到视图，您将看到一个错误. |
-| 移动 | 将操作移动到“页面加载事件”或修改面板中已存在的任何其他视图。<br>[!UICONTROL 页面加载事件] -与页面加载事件对应的任何操作都应用于Web应用程序的初始页面加载。<br>**注意** ：完成移动操作后，您需要通过浏览导航到CMS中的视图，以查看移动是否为有效操作。如果该操作未应用到视图，您将看到一个错误 |
+| 克隆 | 将操作克隆到位于“[!UICONTROL 修改]”面板上的一个或多个视图，或者您在 VEC 中浏览并导航到的一个或多个视图。该操作不一定存在于“[!UICONTROL 修改]”面板中。<br>**注意**：完成克隆操作后，您需要通过“[!UICONTROL 浏览]”导航到 VEC 中的视图，以查看克隆操作是否有效。如果该操作未应用到视图，您将看到一个错误。 |
+| 移动 | 将操作移动到“页面加载事件”或修改面板中已存在的任何其他视图。<br>[!UICONTROL 页面加载事件] – 与页面加载事件对应的任何操作会应用于 Web 应用程序的初始页面加载。<br>**注意**：完成移动操作后，您需要通过“浏览”导航到 VEC 中的视图，以查看移动操作是否有效。如果该操作未应用到视图，您将看到一个错误 |
 | 删除 | 删除操作。 |
 
 >[!NOTE]
@@ -371,71 +371,71 @@ adobe.target.getOffers({
 | [点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md) | 是 |
 | [多活动交付](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) | 是 |
 
-## Page Delivery settings for the SPA VEC {#page-delivery-settings}
+## SPA VEC 的“页面交付”设置 {#page-delivery-settings}
 
-[!UICONTROL 通过页面交付] 设置，您可以配置规则以确定Target活动何时应符合受众资格并为受众执行。
+通过“[!UICONTROL 页面交付]”设置，您可以配置规则以确定 Target 活动应何时符合条件并为受众执行。
 
-To access the [!UICONTROL Page Delivery] options from within the VEC's three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+要从 VEC 的三步引导式活动创建工作流中访问“[!UICONTROL 页面交付]”选项，请从&#x200B;**[!UICONTROL 体验]**&#x200B;步骤中单击&#x200B;**[!UICONTROL 配置]**（齿轮图标）&gt; **[!UICONTROL 页面交付]**。
 
-![“页面交付选项”对话框](/help/c-experiences/assets/page-delivery.png)
+![“页面交付”选项对话框](/help/c-experiences/assets/page-delivery.png)
 
-For example, as defined by the [!UICONTROL Page Delivery] settings shown above, a Target activity qualifies and executes when a visitor lands directly on `https://www.adobe.com` *or* when a visitor lands on any URL that contains `https://www.adobe.com/products`. 对于任何与页面交互的多页面应用程序，此功能均可完美运行，因为在该应用程序中，每次与页面交互时，. js将检索符合用户导航到的URL的活动。
+例如，根据以上显示的“[!UICONTROL 页面交付]”设置所定义的内容，当访客直接登陆 `https://www.adobe.com` *或*&#x200B;当访客登陆任何包含 `https://www.adobe.com/products` 的 URL 时，Target 活动就会符合条件并执行。这非常适用于任何多页面应用程序，在该应用程序中，与页面的每次交互都会调用页面重新加载，at.js 会为此检索符合用户导航到的 URL 条件的活动。
 
-However, because SPAs work differently, the [!UICONTROL Page Delivery] settings must be configured in a way that allows all actions to be applied to the Views as defined in the SPA VEC activity.
+但是，由于 SPA 的工作方式不同，因此必须配置“[!UICONTROL 页面交付]”设置，以便允许将所有操作应用到 SPA VEC 活动中定义的视图。
 
 ### 示例用例
 
 请考虑以下示例用例：
 
-![SPA CMS修改面板](/help/c-experiences/assets/page-delivery-example.png)
+![SPA VEC“修改”面板](/help/c-experiences/assets/page-delivery-example.png)
 
 进行了以下更改：
 
-* Changed the background color in the Home view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* 更改了“主页”视图中的背景颜色，该视图位于以下 URL 下：[/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/。
 * Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
+With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x* 的 SPA 中），会出现什么情况？
 
 ![“页面交付”对话框](/help/c-experiences/assets/spa-page-delivery.png)
 
-下图显示了位于. js的“Target Flow- Page Load”请求。*x*:
+下图显示了 at.js 2.*x* 中的 Target 流程 - 页面加载请求：
 
-![目标流- at. js2.0页面加载请求](/help/c-experiences/assets/page-load-request.png)
+![Target 流程 - at.js 2.0 页面加载请求](/help/c-experiences/assets/page-load-request.png)
 
-**用户旅程#1**
+**用户历程 1**
 
 * A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x* 向边缘发出查询，以查看是否需要为URL执行任何活动： [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)。
-* 在步骤中，Target Edge返回“主页和产品”视图的操作，以便在浏览器中缓存它们。
+* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* 在步骤 6 中，Target Edge 会返回“主页”和“产品”视图的操作，以便在浏览器中缓存它们。
 
-**结果**：用户在“主页”视图中看到绿色背景颜色。When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen because the action is cached in the browser under the Products view.
+**结果**：用户看到“主页”视图中的背景颜色显示为绿色。当用户随后导航到 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products 时，会看到按钮的背景颜色显示为蓝色，因为该操作已缓存在浏览器中的“产品”视图下。
 
 Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
 
-**用户旅程#2**
+**用户历程 2**
 
 * A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x* 向边缘发出查询，以查看是否需要为URL执行任何活动： [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)。
+* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* 由于没有符合条件的活动，因此不存在要为at. js缓存的操作和视图。*要* 触发的x。
+* 由于没有符合条件的活动，因此不存在要缓存以供 at.js 2.*x* 从中触发的操作和视图。
 
-**结果**：即使您已经为 `triggerView()` Products View定义了产品视图并通过SPA CMS对产品查看进行了操作，您也不会看到预期的操作，因为您未在页面交付设置中创建包含 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) 的规则。
+**结果**：即使您已经为“产品”视图定义了 `triggerView()` 并通过 SPA VEC 对“产品”视图执行了操作，您也不会看到预期的操作，因为您未在“页面交付”设置中创建包含 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products 的规则。
 
 ### 最佳实践
 
-您可以看到管理用户旅程非常困难，因为用户可以登录您SPA的任何URL并导航到任何其他页面。因此，最好指定包含基本URL的页面传送规则，以便它包含整个SPA。这样，您就不必考虑所有不同旅程和路径，用户可能需要在页面上显示A/B测试或体验定位(XT)活动。
+您可以看到，管理用户历程可能非常困难，因为用户可以登陆 SPA 的任何 URL 并导航到任何其他页面。因此，最好指定包含基本 URL 的“页面交付”规则，以使其包含整个 SPA。这样，您就无需考虑所有不同的历程和路径，用户可能会使用这些历程和路径访问要显示 A/B 测试或体验定位 (XT) 活动的页面。
 
-例如，为了解决上述问题，我们可以在页面交付设置中指定基本URL，如下所示：
+例如，为了解决以上面临的问题，我们可以在“页面交付”设置中指定基本 URL，如下所示：
 
 ![“页面交付”对话框](/help/c-experiences/assets/conclusion.png)
 
-这可确保当访客登陆SPA并导航到“主页”或“页面视图”时，将看到应用的操作。
+这可确保只要访客登陆 SPA 并导航到“主页”或“页面”视图，就会看到所应用的操作。
 
-Now, whenever you add an action to a View in the SPA VEC, we will show you the following pop-up message to remind you to think about the [!UICONTROL Page Delivery] rules.
+现在，每当您向 SPA VEC 中的视图添加操作时，我们都会显示以下弹出消息，提醒您考虑“[!UICONTROL 页面交付]”规则。
 
-![页面交付设置消息](/help/c-experiences/assets/pop-up-message.png)
+![“页面交付设置”消息](/help/c-experiences/assets/pop-up-message.png)
 
-当您为创建的每个新活动添加第一个动作时，将显示此消息。This message helps ensure that everyone in your organization learns how to apply these [!UICONTROL Page Delivery] rules correctly.
+当您为创建的每个新活动的视图添加第一个操作时，将会显示此消息。此消息有助于确保贵组织中的每个人都能够了解如何正确应用这些“[!UICONTROL 页面交付]”规则。
 
 ## 培训视频：在 Adobe Target 中使用 SPA VEC
 

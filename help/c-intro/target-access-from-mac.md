@@ -52,7 +52,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 选择首选（主要）语言，然后根据需要选择第二种语言。
 
-   [!DNL Target] 该UI提供以下语言版本：
+   提供了以下语言版本的 [!DNL Target] UI：
 
    * 英语
    * 西班牙语
@@ -69,19 +69,19 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 从 [!DNL Adobe Experience Cloud] 或 [!DNL Target] 注销，然后重新登录以使更改生效。
 
-## Change the language for the Target product documentation {#doc-lang}
+## 更改 Target 产品文档的语言 {#doc-lang}
 
-操作系统或浏览器设置应检测首选语言并显示该语言的文档(如果可用)。Target文档将自动翻译，并将在几小时内对英语文档所做的更改与英语版本保持同步。
+您的操作系统或浏览器设置应会检测您的首选语言，并以该语言显示文档（如果适用）。Target 文档会自动翻译，并在对英文文档做出更改后的几小时内与英文版本保持同步。
 
-您可以通过单击页面标题中的链接，快速将语言更改为原始英语版本。
+您可以通过单击页面标题中的链接，快速将语言更改为原始英文版本。
 
 ![更改为原始语言](/help/c-intro/assets/mt-original.png)
 
-You can also quickly change the language to any supported language by clicking the Language Switcher icon in the top right of the page header ( ![language switcher](/help/c-intro/assets/icon-language-switcher.png) ).
+您还可以通过单击页面标题右上角的“语言切换器”图标 (![语言切换器](/help/c-intro/assets/icon-language-switcher.png))，快速将语言更改为任何支持的语言。
 
-![语言切换程序](/help/c-intro/assets/language-switcher.png)
+![语言切换器](/help/c-intro/assets/language-switcher.png)
 
-[!DNL Target] 文档提供以下语言版本：
+提供了以下语言版本的 [!DNL Target] 文档：
 
 * 英语
 * 西班牙语

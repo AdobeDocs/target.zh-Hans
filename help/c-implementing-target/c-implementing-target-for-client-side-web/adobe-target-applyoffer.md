@@ -1,6 +1,6 @@
 ---
 description: '有关 at.js 的 adobe.target.applyOffer() 函数的信息。 '
-keywords: adobe. target. applyOffer；ApplyOffer；applyoffer；申请优惠；at. js；函数；function
+keywords: adobe.target.applyOffer;applyOffer;applyoffer;apply offer;at.js;functions;function
 seo-description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.applyOffer(options) 函数的信息。
 seo-title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.applyOffer() 函数的信息。
 solution: Target

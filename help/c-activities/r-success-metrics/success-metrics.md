@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 在 Target Standard 中，预先配置了一些成功量度，以便用于报表和跟踪。
 
-成功量度是用于衡量活动成功与否的参数。成功量度包括关键业务措施，这些措施使您能够确定给定体验或选件中给定体验的成功与否。例如，您可以确定新选件是否增加了每个访客的收入或向购物车添加物品。成功量度可用于发现注册、订购或购买漏斗的问题，但也只能与访客或客户互动相关。
+成功量度是用于衡量活动是否成功的参数。成功量度包括关键业务衡量指标，可帮助您确定 Target 活动中的给定体验或选件是否成功。例如，您可以确定新的选件是否增加了每个访客带来的收入或是否吸引访客向购物车中添加物品。成功量度可用于发现注册、订购或购买漏斗等方面的问题，也可仅仅用于提高访客或客户参与度。
 
 为实现简化测试创建过程的目标，[!DNL Target Standard] 对一些原先在 [!DNL Target Classic] 中需手动进行的配置做出了改进。例如，使用最优选项预先配置了成功量度。
 
@@ -54,11 +54,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >
 >如果您将 [!DNL Adobe Analytics] 用作报表源，则设置会由 [!DNL Analytics] 服务器来管理。此时，高级设置选项将不可用。
 
-![高级设置下拉列表](/help/c-activities/r-success-metrics/assets/Menu_AdvancedSettings.png)
+![“高级设置”下拉列表](/help/c-activities/r-success-metrics/assets/Menu_AdvancedSettings.png)
 
 您还可以使用高级设置来创建具有依赖关系的成功量度，即仅当访客先实现某个量度后，另一个量度才会递增。
 
-![添加依赖关系](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
+![添加依赖项](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 例如，仅当访客在转化之前先点击了选件或访问了某个特定页面时，测试转化才可能有效。
 

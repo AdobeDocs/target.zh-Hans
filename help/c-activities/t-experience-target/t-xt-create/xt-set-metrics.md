@@ -1,7 +1,7 @@
 ---
 description: 可在体验定位 (XT) 活动中使用量度来确定访问何时被视为成功。
 keywords: 体验定位;XT;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
-seo-description: 使用Adobe Target Experience Targeting(XT)活动中的指标确定访问成功的时间。
+seo-description: 可在 Adobe Target 体验定位 (XT) 活动中使用量度来确定访问何时被视为成功。
 seo-title: 设置量度
 solution: Target,standard
 title: 设置量度

@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 要使用 Target Standard 或 Target Premium，请添加一行代码以调用 mbox.js。
 
-您可以使用下面两个库引用中的任何一个：[!DNL mbox.js] 或 [!DNL at.js]。[. js的益处](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 解释了这两个库之间的差异。
+您可以使用下面两个库引用中的任何一个：[!DNL mbox.js] 或 [!DNL at.js]。[at.js 的好处](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)阐述了这两个库之间的差异。
 
 >[!NOTE]
 >

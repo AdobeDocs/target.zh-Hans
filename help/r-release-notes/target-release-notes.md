@@ -1,7 +1,7 @@
 ---
-description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming Adobe Target releases.
-keywords: release notes;releases;updates;future release;enhancements;new features;fixes
-seo-description: 发行说明，提供有关最新或即将发布的DNL Adobe Target版本的功能、增强和修复的信息。
+description: 发行说明，提供有关最新或即将发布的Adobe target版本的功能、增强和修复的信息。
+keywords: 发行说明；发行；更新；未来发行；增强；新增功能；修复
+seo-description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming DNL Adobe Target releases.
 seo-title: Adobe Target 发行说明（预发行版本）
 solution: Target
 title: Target 发行说明（预发行版本）
@@ -29,7 +29,7 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 **2019年7月31日**
 
-[!UICONTROL Enterprise Permissions allows  customers to use a single organization, but divide it into workspaces for different teams or workflows. ][!DNL Target]“企 [!UICONTROL 业权限] ”功能有助于有效扩展团队中的优化计划。 尽管此功能在UI中可用， [!DNL Target] 但在2019年2月发布之前，Admin API缺乏相应 [!DNL Target] 的支持。 Adobe更新了Admin API，以便您可以使用集成帐户访问在您的组织中创建的所有工作区。 因此，虽然之前的版本将Admin API限制为默认工作区，但2019年2月的更新授予了对所有具有批准者访问权限的工作区 [!UICONTROL 的访] 问权限。
+[!UICONTROL “企业权限] ” [!DNL Target] 允许客户使用单个组织，但将其分为不同团队或工作流的工作区。 “企 [!UICONTROL 业权限] ”功能有助于有效扩展团队中的优化计划。 Although this feature was available in the  UI, the Admin APIs lacked the corresponding support until the  February 2019 release. [!DNL Target][!DNL Target]Adobe更新了Admin API，以便您可以使用集成帐户访问在您的组织中创建的所有工作区。 因此，虽然之前的版本将Admin API限制为默认工作区，但2019年2月的更新授予了对所有具有批准者访问权限的工作区 [!UICONTROL 的访] 问权限。
 
 在即将发布的2019 [!DNL Target] 年9月版本中， [!UICONTROL 企业权限] 将为客户提供以下访问控制：
 
@@ -40,13 +40,13 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 此操作应于2019年8月 **执行**。 2019年9 [!DNL Target] 月发布后，访问控制将激活，如果您当前是这样设置的，您将仅看到对默认工作区的访问。 预先设置集成角色不会产生任何不良后果。
 
-For step-by-step instructions and more information, see Grant Adobe I/O integrations access to workspaces and assign roles.[](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+有关分步说明和更多信息，请参阅授 [予Adobe I/O集成对工作区的访问权限并分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。
 
 ## Target Standard/Premium 19.9.2（2019 年 9 月 30 日） 
 
 此维护版本包括以下增强功能：
 
-* 几个安全修复，包括对Visual Experience Composer(VEC)中富文本编辑器(RTE)的安全更新。 (TGT-35383)
+* Several security fixes, including a security update to the Rich Text Editor (RTE) in the Visual Experience Composer (VEC). (TGT-35383)
 
 ## Target Standard/Premium 19.9.1（2019 年 9 月 10 日） 
 

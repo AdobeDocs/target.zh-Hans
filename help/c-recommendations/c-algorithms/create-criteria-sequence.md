@@ -92,9 +92,9 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
    有关推荐逻辑选项的更多信息，请参阅[标准](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 
-## 培训视频：在Recommendations中创建标准(12：33)
+## 培训视频：在Recommendations中创建标准(12:33)
 
-此视频包含以下信息：
+This video contains the following information:
 
 * 创建标准
 * 创建标准序列

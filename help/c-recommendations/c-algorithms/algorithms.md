@@ -1,7 +1,7 @@
 ---
 description: 标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。
 keywords: 推荐;推荐活动;标准；算法
-seo-description: Adobe Target中的标准是根据预先预定的访客行为确定要推荐的产品的规则。
+seo-description: Criteria in Adobe Target are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
 seo-title: 标准
 solution: Target
 title: 标准
@@ -71,7 +71,7 @@ source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 您可以通过将鼠标悬停在标准卡片上并单击“信息”图标，在弹出卡片中查看标准详细信息，而无需打开该标准。
 
-![标准卡悬停](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
+![条件卡悬停](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
 单击&#x200B;**[!UICONTROL 算法信息]选项卡可查看有关所选标准的常规信息，包括其名称、描述、垂直行业、页面类型、推荐键、推荐逻辑和算法 ID。**
 
@@ -91,7 +91,7 @@ source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 下图显示了“推荐”活动的“概述”页面上的活动图。您还可以在活动创建工作流中查看该活动图，其中包含步骤 2 中的标准状态结果。
 
-![概述页面上的条件状态](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
+![“概述”页上的条件状态](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
 
 状态结果包括以下内容：“结果就绪”、“结果未就绪”和“信息源失败”，如下图所示：
 

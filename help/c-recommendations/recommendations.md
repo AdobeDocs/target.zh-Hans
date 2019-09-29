@@ -21,7 +21,7 @@ source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 >[!NOTE]
 >
->[!DNL Recommendations] 活动作为 [Target Premium解决方案](/help/c-intro/intro.md#premium)的一部分提供。如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
+>[!DNL Recommendations] 活动作为 [Target Premium 解决方案](/help/c-intro/intro.md#premium)的一部分提供。如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
 >
 >如果您目前拥有 [!DNL Recommendations Classic]，则请参阅 [Recommendations Classic 与 Target Premium 中的“推荐”活动](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5)以了解有关这两种解决方案的更多信息。
 
@@ -61,6 +61,6 @@ source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 ## Adobe Target 基础知识网络研讨会：Recommendations 简介{#intro-to-recs}
 
-*推荐* 网络研讨会简介包括深入探索如何利用 [!DNL Adobe Target Recommendations]价值。了解此 [!DNL Target] 活动如何通过基于先前的访问优化实时建议来自动显示客户可能感兴趣的产品或内容。此外，深入了解 [!DNL Target] UI，获取有关如何构建 [!DNL Recommendations] 活动的分步概述。
+**“Recommendations 简介”网络研讨会包括对如何利用 [!DNL Adobe Target Recommendations] 价值的深入探讨。了解此 [!DNL Target] 活动如何通过基于先前的访问优化实时建议来自动显示客户可能感兴趣的产品或内容。此外，深入了解 [!DNL Target] UI，获取有关如何构建 [!DNL Recommendations] 活动的分步概述。
 
 [推荐介绍](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

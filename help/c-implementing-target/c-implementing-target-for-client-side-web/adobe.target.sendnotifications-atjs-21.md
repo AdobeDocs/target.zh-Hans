@@ -1,11 +1,11 @@
 ---
-description: '有关adobe. target. sendNoSear(options)函数的信息，请访问. js。 '
-keywords: adobe. target. sendNoSoft；SendNoSoft；sendnotifications；发送通知；通知；at. js；函数；function
-seo-description: 有关Adobe Target at. js JavaScript库的adobe. target. sendNotifeloper(选项)函数的信息。
-seo-title: 有关Adobe Target at. js JavaScript库的adobe. target. sendNotifeloper(选项)函数的信息。
+description: '有关 at.js 的 adobe.target.sendNotifications(options) 函数的信息。 '
+keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications；发送通知；通知；at.js；函数；函数
+seo-description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.sendNotifications(options) 函数的信息。
+seo-title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.sendNotifications(options) 函数的信息。
 solution: Target
 subtopic: 入门指南
-title: adobe. target. sendNoSearch(选项)
+title: adobe.target.sendNotifications(options)
 topic: Standard
 translation-type: tm+mt
 source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
@@ -13,13 +13,13 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 ---
 
 
-# adobe. target. sendNoSearch(选项)
+# adobe.target.sendNotifications(options)
 
-在呈现体验时，此函数将向Target边缘发送通知，而无需使用 `adobe.target.applyOffer()` 或 `adobe.target.applyOffers()`。
+在不使用 `adobe.target.applyOffer()` 或 `adobe.target.applyOffers()` 呈现体验时，此函数会向 Target 边缘发送通知。
 
 >[!NOTE]
 >
->此函数已在. js2.1.0中引入，可用于2.1.0以上的任何版本。
+>此函数已在 at.js 2.1.0 中引入，可用于 2.1.0 以上的任何版本。
 
 | 键值 | 类型 | 必需？ | 描述 |
 | --- | --- | --- | --- |
@@ -31,40 +31,40 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 | 字段名称 | 类型 | 必需？ | 限制 | 描述 |
 | --- | --- | --- | --- | --- |
-| “请求”&gt;通知 | 对象数组 | 是 |  | 显示内容、被单击的选择器和/或访问的视图或mbox的通知。 |
-| “请求”&gt;“通知”&gt;地址 | 对象 | 否 |  |  |
-| “请求”&gt;“通知”&gt;“地址”&gt; url | 字符串 | 否 |  | 触发通知的URL。 |
-| “请求”&gt;“通知”&gt;“地址”&gt;“引用URL” | 字符串 | 否 |  | 从中触发通知的引用URL。 |
-| “请求”&gt;“通知”&gt;参数 | 对象 | 否 | 参数不允许使用以下名称：<ul><li>orderId</li><li>orderTotal</li><li>productPurchaseDS</li></ul>请考虑以下事项：<ul><li>max50参数限制。</li><li>参数名称不应为空。</li><li>参数名称max englength128。</li><li>参数名称不应以“profile”开头。</li><li>参数值长度max5000。</li></ul> |  |
-| “请求”&gt;“通知”&gt;“profileParameters” | 对象 | 否 | 参数不允许使用以下名称：<ul><li>orderId</li><li>orderTotal</li><li>productPurchaseDS</li></ul>请考虑以下事项：<ul><li>max50参数限制。</li><li>参数名称不应为空。</li><li>参数名称max englength128。</li><li>参数名称不应以“profile”开头。</li><li>参数值长度max5000。</li></ul> |  |
-| 请求&gt;通知&gt;订单 | 对象 | 否 |  | 描述顺序详细信息的对象。 |
-| “请求”&gt;“通知”&gt;“顺序”&gt; id | 字符串 | 否 | `<=` 250 个字符. | 订单 ID. |
-| “请求”&gt;“通知”&gt;“顺序”&gt;“总计” | 字符串 | 否 | `>=` 0 | 订单总计. |
-| “请求”&gt;“通知”&gt;“订单”&gt;“购买产品” | String数组 | 否 | <ul><li>不允许使用空值。</li><li>每个产品ID max length50。</li><li>以逗号和连接方式分隔的产品ID不应超过250。</li></ul> | 订购产品ID。 |
-| 请求&gt;通知&gt;产品 | 对象 | 否 |  |  |
-| “请求”&gt;“通知”&gt;“产品”&gt; id | 字符串 | 否 | `<=` 128个字符；不能为空。 | 产品 ID. |
-| “请求”&gt;“通知”&gt;“产品”&gt;“类别ID” | 字符串 | 否 | `<=` 128个字符；不能为空。 | 类别ID。 |
-| “请求”&gt;“通知”&gt; id | 字符串 | 是 | `<=` 200个字符。 | 通知ID将返回响应并指示通知已成功处理。 |
-| “请求”&gt;“通知”&gt;“impressionID” | 字符串 | 否 | `<= 128` 个字符. | 印象ID用于将当前通知与先前通知或执行请求拼接(链接)。如果两者都匹配，则第二个和后续后续请求不会给活动或体验带来新的印象。 |
-| “请求”&gt;“通知”&gt;“类型” | 字符串 | 是 | 支持“单击”或“显示”。 | 通知类型。 |
-| “请求”&gt;“通知”&gt;“时间戳” | 数值`<int64>` | 是 |  | 从UNIX环境中经过的通知时间戳(以毫秒为单位)。 |
-| “请求”&gt;“通知”&gt;“令牌” | String数组 | 是 |  | 根据通知类型显示的内容或被单击的选择器的令牌列表。 |
-| “请求”&gt;“通知”&gt;“mbox” | 对象 | 否 |  | mbox的通知。 |
-| “请求”&gt;“通知”&gt;“mbox”&gt; name | 字符串 | 否 | 不允许使用空值。<br>允许的字符：请参阅此表后面的备注。 | mbox 名称. |
-| “请求”&gt;“通知”&gt;“mbox”&gt;“状态” | 字符串 | 否 |  | mbox状态令牌。 |
-| “请求”&gt;“通知”&gt;“视图” | 对象 | 否 |  |  |
-| “请求”&gt;“通知”&gt;“视图”&gt; id | 整数 `<int64>` | 否 |  | 查看id。通过视图API创建视图时分配给视图的id。 |
-| “请求”&gt;“通知”&gt;“视图”&gt;“名称” | 字符串 | 否 | `<= 128` 个字符. | 视图的名称。 |
-| “请求”&gt;“通知”&gt;“视图”&gt;“密钥” | 字符串 | 否 | `<=` 512个字符。 | 查看键。通过API在视图中设置的键。 |
-| “请求”&gt;“通知”&gt;“视图”&gt;“状态” | 字符串 | 否 |  | 查看状态令牌。 |
+| Request &gt; notifications | 对象数组 | 是 |  | 有关显示的内容、点击的选择器和/或访问的视图或 mbox 的通知。 |
+| Request &gt; notifications &gt; address | 对象 | 否 |  |  |
+| Request &gt; notifications &gt; address &gt; url | 字符串 | 否 |  | 从中触发通知的 URL。 |
+| Request &gt; notifications &gt; address &gt; referringUrl | 字符串 | 否 |  | 从中触发通知的引荐 URL。 |
+| Request &gt; notifications &gt; parameters | 对象 | 否 | 参数不允许使用以下名称：<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>请考虑以下事项：<ul><li>参数上限为 50 个。</li><li>参数名称不应为空。</li><li>参数名称的最大长度为 128。</li><li>参数名称不应以“profile”开头。</li><li>参数值的最大长度为 5000。</li></ul> |  |
+| Request &gt; notifications &gt; profileParameters | 对象 | 否 | 参数不允许使用以下名称：<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>请考虑以下事项：<ul><li>参数上限为 50 个。</li><li>参数名称不应为空。</li><li>参数名称的最大长度为 128。</li><li>参数名称不应以“profile”开头。</li><li>参数值的最大长度为 5000。</li></ul> |  |
+| Request &gt; notifications &gt; order | 对象 | 否 |  | 描述订单详细信息的对象。 |
+| Request &gt; notifications &gt; order &gt; id | 字符串 | 否 | `<=` 250 个字符。 | 订单 ID。 |
+| Request &gt; notifications &gt; order &gt; total | 字符串 | 否 | `>=` 0 | 订单总计。 |
+| Request &gt; notifications &gt; order &gt; purchasedProductIds | 字符串数组 | 否 | <ul><li>不允许使用空值。</li><li>每个产品 ID 的最大长度为 50。</li><li>产品 ID 用逗号分隔和连接，总长度不应超过 250。</li></ul> | 订单产品 ID。 |
+| Request &gt; notifications &gt; product | 对象 | 否 |  |  |
+| Request &gt; notifications &gt; product &gt; id | 字符串 | 否 | `<=` 128 个字符；不能为空。 | 产品 ID。 |
+| Request &gt; notifications &gt; product &gt; categoryId | 字符串 | 否 | `<=` 128 个字符；不能为空。 | 类别 ID。 |
+| Request &gt; notifications &gt; id | 字符串 | 是 | `<=` 200 个字符。 | 通知 ID 将在响应中返回，并指示通知已成功处理。 |
+| Request &gt; notifications &gt; impressionId | 字符串 | 否 | `<= 128` 个字符。 | 展示 ID 用于将当前通知与先前的通知或执行请求拼合（链接）到一起。如果两者匹配，则第二个和其他后续请求不会生成活动或体验的新展示。 |
+| Request &gt; notifications &gt; type | 字符串 | 是 | 支持“click”或“display”。 | 通知类型。 |
+| Request &gt; notifications &gt; timestamp | 数值`<int64>` | 是 |  | 通知的时间戳（以自 UNIX 纪元以来所经过的毫秒数为单位）。 |
+| Request &gt; notifications &gt; tokens | 字符串数组 | 是 |  | 基于通知类型的已显示内容或已点击选择器的令牌列表。 |
+| Request &gt; notifications &gt; mbox | 对象 | 否 |  | 有关 mbox 的通知。 |
+| Request &gt; notifications &gt; mbox &gt; name | 字符串 | 否 | 不允许使用空值。<br>允许使用的字符：请参阅此表后面的注释。 | mbox 名称。 |
+| Request &gt; notifications &gt; mbox &gt; state | 字符串 | 否 |  | mbox 状态令牌。 |
+| Request &gt; notifications &gt; view | 对象 | 否 |  |  |
+| Request &gt; notifications &gt; view &gt; id | 整数 `<int64>` | 否 |  | 视图 ID。通过视图 API 创建视图时分配给视图的 ID。 |
+| Request &gt; notifications &gt; view &gt; name | 字符串 | 否 | `<= 128` 个字符。 | 视图的名称。 |
+| Request &gt; notifications &gt; view &gt; key | 字符串 | 否 | `<=` 512 个字符。 | 视图键。通过 API 在视图中设置的键。 |
+| Request &gt; notifications &gt; view &gt; state | 字符串 | 否 |  | 视图状态令牌。 |
 
-**注意**：允许以下字符 `Request > notifications > mbox > name`：
+**注意**：`Request > notifications > mbox > name` 允许使用以下字符：
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
 ```
 
-## 渲染预访存mbox后的sendNoSoft()调用
+## 呈现预取的 mbox 后调用 sendNotifications()
 
 ```
 function createTokens(options) {
@@ -120,4 +120,4 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->如果您使用的是Adobe Analytics， `getOffers()` 并且只能预购， `sendNotifications()`则必须在执行后触发Analytics `sendNotifications()` 请求。旨在确保生成的SSID符合发送 `sendNotifications()` 到Analytics和Target的SSID。
+>如果您使用的是 Adobe Analytics、仅使用 prefetch 的 `getOffers()` 和 `sendNotifications()`，则在执行 `sendNotifications()` 后必须触发 Analytics 请求。这样做是为了确保 `sendNotifications()` 生成的 SDID 与发送到 Analytics 和 Target 的 SDID 相匹配。

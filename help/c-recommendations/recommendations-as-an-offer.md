@@ -72,7 +72,7 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
 
-   ![编辑推荐选件](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![Edit recommendations offer](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. 从以下选项中进行选择：
 
@@ -112,15 +112,15 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
    ![“删除”图标](/help/c-recommendations/assets/recs-offer-delete.png)
 
-### 查看推荐选件的状态 {#status}
+### Viewing the recommendations offer's status {#status}
 
 The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
 
-* 结果就绪
-* 结果未准备
-* 供给失败
+* Results Ready
+* Results Not Ready
+* Feed Failure
 
-![Recommendations选件状态](/help/c-recommendations/assets/recs-offer-status.png)
+![Recommendations offer status](/help/c-recommendations/assets/recs-offer-status.png)
 
 ## 培训视频：作为选件的建议
 

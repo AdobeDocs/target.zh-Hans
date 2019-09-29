@@ -50,7 +50,7 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 * 在移动设备应用程序 VEC 中，只允许选择附加了点击处理程序的那些元素。
 * 您可以浏览应用程序的任何部分，但请确保为您选择点击跟踪元素的部分定义了[视图](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views)。
 * 在编辑活动时，如果已在步骤 1 中选择设备，则无需再次选择设备。但是，如果您直接登陆点击跟踪页面，则将显示设备选择屏幕以选择授权设备。
-* “修改”面板显示在移动App CMS中，该面板显示您设置的用于单击跟踪的元素。
+* “修改”(Modifications)面板显示在移动应用程序VEC中，其中显示您为单击跟踪设置的元素。
 
-   ![显示单击跟踪的修改面板
+   ![显示点击跟踪的“修改”面板
    ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/click-track-modifications-panel.png)

@@ -15,9 +15,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) Target 自动个性化选件{#target-automated-personalization-offers}
 
-在自动个性化(AP)活动中，您可以将选件定向到特定受众。
+在自动个性化 (AP) 活动中，您可以将选件定位到特定受众。
 
-使用此功能可减少特定访客有资格查看的选件数量。例如，假定具有三个选件的AP活动。优惠酬宾的目标规则限制了对受众A的披露。两个访客看到此AP活动。
+使用此功能可减少特定访客有资格查看的选件数量。例如，以含有三个选件的 AP 活动为例。选件 1 有一个定位规则，该规则限制仅向受众 A 显示该选件。有两位访客看到了此 AP 活动。
 
 |  | 访客 1 | 访客 2 |
 |--- |--- |--- |
@@ -30,8 +30,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 设置定位规则
 
-1. Create an [Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md) containing the offers you want to target.
-1. After setting up the offers for the activity in the Visual Experience Composer, click **[!UICONTROL Manage Content]**.
+1. 创建包含要定位的选件的[自动个性化活动](/help/c-activities/t-automated-personalization/create-ap-activity.md)。
+1. 在可视化体验编辑器中设置活动的选件后，单击&#x200B;**[!UICONTROL 管理内容]**。
 
    ![管理内容](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -39,15 +39,15 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 单击“选件”选项卡。
 
-   ![选件页面](/help/c-activities/t-automated-personalization/assets/manage-content-offers.png)
+   ![“选件”页面](/help/c-activities/t-automated-personalization/assets/manage-content-offers.png)
 
-1. 选择所需的选件，然后选择您想要查看该优惠的受众。
+1. 选择所需的选件，然后选择有资格查看该选件的受众。
 
-   To set up targeting for a single offer, hover over the desired offer, then click the **[!UICONTORL Targeting]** icon.
+   要为单个选件设置定位，请将鼠标悬停在所需选件上，然后单击&#x200B;**[!UICONTORL 定位]**&#x200B;图标。
 
-   To set up targeting for multiple offers, select the checkboxes for the desired offers, then click the **[!UICONTROL Targeting] icon that displays at the top right of the list.
+   要为多个选件设置定位，请选中所需选件对应的复选框，然后单击列表右上角显示的 **“[!UICONTROL 定位]”图标。
 
-1. In the [!UICONTROL Choose Audience] dialog box, select the desired audience(s) for the offer(s), then click **[!UICONTROL Done]** to return to the [!UICONTROL Manage Content] dialog box.
+1. 在“[!UICONTROL 选择受众]”对话框中，为选件选择所需的受众，然后单击&#x200B;**[!UICONTROL 完成]**，以返回到“[!UICONTROL 管理内容]”对话框。
 
    >[!NOTE]
    >

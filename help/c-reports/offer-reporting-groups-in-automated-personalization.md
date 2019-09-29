@@ -2,7 +2,7 @@
 description: 有关在自动个性化 (AP) 活动中使用报表组的信息。
 keywords: 自动个性化;选件;报表;组；报告组
 seo-description: 有关在Adobe Target的自动个性化(AP)活动中使用报告组的信息。
-seo-title: 在Adobe Target的自动个性化(AP)活动中提供报告组
+seo-title: Offer reporting groups in Automated Personalization (AP) activities in Adobe Target
 solution: Target
 title: 自动个性化中的选件报表组
 title-outputclass: premium

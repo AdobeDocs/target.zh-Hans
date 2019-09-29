@@ -48,7 +48,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 培训视频：在Recommendations中创建自定义设计(3：20)
+## 培训视频：在Recommendations中创建自定义设计(3:20)
 
 此视频包含以下信息：
 

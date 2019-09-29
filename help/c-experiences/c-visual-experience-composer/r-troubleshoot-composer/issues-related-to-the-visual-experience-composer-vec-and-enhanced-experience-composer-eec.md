@@ -16,11 +16,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 有时，在某些情况下，可视化体验编辑器 (VEC) 和增强型体验编辑器 (EEC) 可能会发生显示问题。
 
-## Target是否支持多级iframe？
+## Target 是否支持多级 iframe？
 
-Target不支持多级iframe。如果您的网站加载有子iframe的iframe，则Target库(at. js和mbox. js)仅与父级iframe交互。Target库不与子iframe交互。
+Target 不支持多级 iframe。如果您的网站加载的 iframe 具有子 iframe，则 Target 库（at.js 和 mbox.js）仅与父 iframe 进行交互。Target 库不会与子 iframe 进行交互。
 
-作为解决方法，您可以使用子iframe的URL在体验中添加页面。
+作为解决方法，您可以在体验中添加一个页面，其中包含子 iframe 的 URL。
 
 ## 我在尝试编辑页面时，看到的只是一个旋转图标而不是我的页面。（VEC 和 EEC）{#section_313001039F79446DB28C70D932AF5F58}
 

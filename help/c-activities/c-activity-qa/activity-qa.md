@@ -29,13 +29,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 访问和共享 QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. 在活动的“[!UICONTROL 概述]”页面（适用于除自动个性化以外的所有其他活动类型）中，单击&#x200B;**[!UICONTROL 活动 QA]链接。**
+1. 在活动的“[!UICONTROL 概述]”页面（适用于除自动个性化以外的所有其他活动类型）中，单击&#x200B;**[!UICONTROL 活动 QA]** 链接。
 
-   ![活动QA链接](assets/qa_link.png)
+   ![“活动 QA”链接](assets/qa_link.png)
 
 1. 配置以下设置：
 
-   ![QA链接配置选项](assets/qa_link_config.png)
+   ![QA 链接配置选项](assets/qa_link_config.png)
 
    * **匹配受众规则以查看体验：** 有时，您可能想要确认受众匹配是否可以正常工作。在其他时候，您可能只想要检查活动的外观。如果将此设置切换到“开”位置，则测试人员必须满足定位要求，才有资格查看体验。对于体验定位 (XT) 活动，只提供了一个活动 URL。您所看到的体验取决于您符合哪一个定位规则。
 

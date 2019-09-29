@@ -1,7 +1,7 @@
 ---
-description: Adobe Target 可通过两个 JavaScript 库中的任意一个与网站集成：at.js 或 mbox.js
+description: Adobe Target integrates with websites by means of one of two JavaScript libraries. at.js or mbox.js
 keywords: 概述和参考;SEO;搜索引擎优化
-seo-description: Adobe Target 可通过两个 JavaScript 库中的任意一个与网站集成：at.js 或 mbox.js
+seo-description: Adobe Target integrates with websites by means of one of two JavaScript libraries. at.js or mbox.js
 seo-title: Adobe Target 的工作原理
 solution: Target
 subtopic: 入门指南
@@ -20,20 +20,20 @@ source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ## Target JavaScript 库 {#libraries}
 
-Adobe Target通过以下两个JavaScript库之一与网站集成：at. js或mbox. js
+Adobe Target 可通过两个 JavaScript 库（at.js 或 mbox.js）中的任意一个与网站集成
 
 * **at.js：**[at.js 库](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)是适用于 Target 的新实施库。使用 at.js 可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。at.js 是推荐使用的实施库，会经常更新功能。我们建议所有客户都实施或迁移到[最新版本的 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 * **mbox.js：** mbox.js 库是适用于 Target 的旧版实施库。虽然现在仍支持 mbox.js 库，但是以后不会再提供此库的功能更新。
 
 >[!IMPORTANT]
 >
->因此，所有客户都应迁移到 at.js。For more information, see [Migrate to at.js from mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
+>因此，所有客户都应迁移到 at.js。有关更多信息，请参阅[从 mbox.js 迁移到 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-您必须在站点上的每个页面上引用Target JavaScript库文件。例如，您可以将此文件添加到全局标头。或者，请考虑使用 [Adobe Launch标签管理器](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+您必须在网站的每个页面上引用 Target JavaScript 库文件。例如，您可以将此文件添加到全局标头。或者，请考虑使用 [Adobe Launch 标记管理器](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
-访客每次请求访问已针对 Target 进行优化的页面时，系统都会向定位系统发送请求，以确定要向访客提供哪些内容。这一过程实时进行-每次加载页面时，系统都会执行和完成内容请求。内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。提供的内容是每个网站访客最有可能响应、与之交互并最终购买的，以便最大程度地提高响应率、购置率和收入。
+访客每次请求访问已针对 Target 进行优化的页面时，系统都会向定位系统发送请求，以确定要向访客提供哪些内容。此过程是实时进行的——每次加载页面时，系统都会发出内容请求，随后定位系统会处理此请求。内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。提供的内容是每个网站访客最有可能响应、与之交互并最终购买的，以便最大程度地提高响应率、购置率和收入。
 
-在 Target 中，页面上的每个元素都是整个页面的单个体验的一部分。每个体验可能在页面中包括多个元素。
+在 Target 中，页面上的每个元素都是整个页面的单个体验的一部分。每个体验可包含页面上的多个元素。
 
 向访客显示的内容取决于您创建的活动类型：
 
@@ -48,7 +48,7 @@ Adobe Target通过以下两个JavaScript库之一与网站集成：at. js或mbox
 1. 客户向您的服务器请求一个页面，然后该页面显示在浏览器中。
 2. 在客户的浏览器中设置第一方 Cookie，以保存该客户的行为。
 3. 页面调用定位系统。
-4. 内容显示基于活动的规则。
+4. 根据您的活动的规则显示内容。
 
 ### 自动分配
 
@@ -60,7 +60,7 @@ Adobe Target通过以下两个JavaScript库之一与网站集成：at. js或mbox
 
 有关更多信息，请参阅[自动定位](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
 
-Auto-Target使用先进的机器学习从多个高性能营销人员定义的体验中进行选择，并根据每个访客的个人客户档案和以前的访客行为为每位访客提供最适合的体验，从而个性化内容并推动转化率。
+自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行选择，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。
 
 ### 自动个性化 (AP)
 
@@ -92,31 +92,31 @@ Auto-Target使用先进的机器学习从多个高性能营销人员定义的体
 
 “边缘”是分布在各个地理位置的服务架构，不论请求内容的最终用户位于何处，均可确保为这些用户提供最佳响应时间，
 
-为提高响应时间，Edge环境仅托管活动逻辑和缓存的配置文件和提供信息。活动数据库、内容数据库、[!DNL Analytics] 数据、API 以及营销人员用户界面都存储在 Adobe 的中心数据环境中。更新随后被发送到边缘节点。中心环境和边缘节点会自动同步以持续更新缓存的活动数据。1：1建模也存储在每个边缘上，因此，这些更复杂的请求也可以在Edge上处理。
+为了缩短响应时间，边缘环境仅托管活动逻辑以及缓存的配置文件和选件信息。活动数据库、内容数据库、[!DNL Analytics] 数据、API 以及营销人员用户界面都存储在 Adobe 的中心数据环境中。更新随后被发送到边缘节点。中心环境和边缘节点会自动同步，以持续更新缓存的活动数据。1:1 建模也会存储在每个边缘，因此这些更加复杂的请求也能在边缘上处理。
 
 每个边缘节点均具有响应用户内容请求和针对该请求跟踪分析数据所需的全部信息。用户请求被路由到最近的边缘节点。
 
-![具有核心边缘站点和边缘站点的地图](assets/edge_network.png)
+![使用核心边缘站点和边缘站点进行映射](assets/edge_network.png)
 
-本页的来源为“ [Adobe Target安全概述](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) ”白皮书。
+此图像的来源是 [Adobe Target安全概述](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 白皮书。
 
-Adobe Target解决方案托管在全球范围内的Adobe自有和Adobe租用的数据中心。Admin Server完全托管在伦敦、新加坡和美国各地的Adobe自有数据中心内，包括Olegon和Virginia。Edge Server托管在位于伦敦、中国香港特别行政区、新加坡、东京和悉尼的Amazon AWS数据中心中的Adobe自有服务器和Adobe租用服务器上。
+The Adobe Target solution is hosted on Adobe-owned and Adobe-leased data centers around the globe. Admin server完全托管在位于伦敦、新加坡的Adobe拥有的数据中心内以及遍布美国的多个位置（包括俄勒冈州和弗吉尼亚州）。 Edge server托管在位于伦敦、香港、新加坡、东京和悉尼的Amazon AWS数据中心的Adobe自有和Adobe租赁的服务器上。
 
-管理员服务器位置同时包含数据收集中心和数据处理中心。而其他边缘站点位置则仅包含一个数据收集中心。每个报表包均分配给一个特定的数据处理中心。
+管理服务器位置同时包含数据收集中心和数据处理中心。 而其他边缘站点位置则仅包含一个数据收集中心。每个报表包均分配给一个特定的数据处理中心。
 
-与访客最接近的Edge环境处理请求，而不是响应单一位置的所有定向请求，从而减轻了网络/Internet旅行时间的影响。
+从距离访客最近的边缘环境来处理请求（而不是从一处位置响应所有定位请求）可以降低网络/Internet 传输时间的影响。
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 当前在中国没有Edge网络，并且在中国 [!DNL Target] 客户的最终用户性能将继续受到限制。由于防火墙中的“防火长城”和缺少边缘节点的问题，部署的 [!DNL Target] 站点体验将会缓慢呈现，并且页面加载会受到影响。此外，营销人员在使用 [!DNL Target] 创作UI时可能会遇到滞后情况。
+>[!DNL Adobe Target] 目前在中国没有边缘网络，因此，对于中国的 [!DNL Target] 客户，其最终用户性能将继续受限。由于中国国内长城防火墙的保护和缺少边缘节点，部署了 [!DNL Target] 的站点的体验呈现过程将会缓慢，并且页面加载会受到影响。此外，营销人员在使用 [!DNL Target] 创作 UI 时也可能会遇到延迟问题。
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe 确保定位基础设施的可用性和性能尽可能可靠。但是，最终用户浏览器与 Adobe 服务器之间的通信划分可能会导致内容交付中断。
 
-To safeguard against service interruptions and connectivity issues, all locations are set up to include default content (defined by the client), which is displayed if the user’s browser cannot connect to [!DNL Target].
+为了避免出现服务中断和连接问题，所有位置都设置为包含默认内容（由客户端定义），当用户的浏览器无法连接到 [!DNL Target] 时，将会显示默认内容。
 
-如果用户的浏览器无法在定义的超时时间段内连接，则不会对页面做出任何更改(默认情况下：15秒)。如果达到此超时阈值，则会显示默认位置内容。
+如果用户的浏览器无法连接服务器，则在定义的超时时间段（默认为 15 秒）内，页面不会发生任何更改。如果达到此超时阈值，则会显示默认位置内容。
 
 Adobe 通过优化和保障性能来保护用户体验。
 
@@ -160,7 +160,7 @@ Google 鼓励用户进行测试，并在其文档中指出只要遵循一些简�
 
    此外，还应务必考虑所测试的页面的可访问性。如果搜索引擎无法访问页面，而且之前从未将页面设计为在自然搜索排名中占据首位（例如专门用于电子邮件营销活动的登陆页面），则上述考虑事项均不适用。
 
-Google表示遵循这些准则“应导致测试在搜索结果中几乎不会影响您的网站”。
+Google 指出，遵循这些准则“应会使您的测试对您的网站在搜索结果中的排名产生很小影响或不会产生任何影响”。
 
 除了这些准则之外，Google 还在其 Content Experiments 工具的文档中提供了另外一个准则：
 
@@ -172,13 +172,13 @@ Google 举例说明“如果某个网站的原始页面加载了与向用户显�
 
 ## 机器人 {#bots}
 
-Adobe Target使用 [DeviceAtlas](https://deviceatlas.com/) 检测已知的机器人程序。识别为机器人生成的流量的流量仍会像常规用户一样提供，以确保它符合SEO准则。如果用户像普通用户一样对待A/B测试或个性化算法，则使用机器人流量可以进行跟踪。因此，如果在Target活动中检测到已知机器人，则流量会略有不同。删除机器人程序流量可更准确地测量用户活动。
+Adobe Target uses DeviceAtlas to detect known bots. [](https://deviceatlas.com/)标识为由机器人生成的流量仍会像常规用户一样提供内容，以确保其符合SEO准则。 Using bot traffic can skew A/B tests or personalization algorithms if they are treated like normal users. 因此，如果在Target活动中检测到已知的bot，则流量的处理方式会稍有不同。 删除机器人流量可以更准确地测量用户活动。
 
-具体而言，对于已知的机器人流量Target，目标不是：
+具体而言，对于已知的机器人流量，Target不会：
 
-* 创建或检索访客配置文件
-* 日志任何配置文件属性或执行配置文件脚本
-* 查找Adobe Audience Manager(AAM)细分(如果适用)
-* 使用机器人程序流量为Recommendations、Auto Target、自动个性化或自动分配活动建模和提供个性化内容
-* 记录活动访问的活动
-* 要发送到Adobe Experience Cloud平台的日志数据
+* 创建或检索访客资料
+* 记录任何配置文件属性或执行配置文件脚本
+* 查找Adobe Audience Manager(AAM)细分（如果适用）
+* 在为推荐、自动定位、自动个性化或自动分配活动建模和提供个性化内容时使用机器流量
+* 记录活动访问以进行报告
+* 要发送到Adobe Experience cloud平台的日志数据

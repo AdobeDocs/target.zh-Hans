@@ -1,8 +1,8 @@
 ---
 description: 有关通过Experience Cloud ID(ECID)库4.3实现Apple ITP 2.1和ITP 2.2的Target支持的信息。
-keywords: apple;ITP；智能跟踪防范
+keywords: apple;ITP;intelligent tracking prevention
 seo-description: 通过Experience Cloud ID(ECID)库4.3了解Adobe Target对Apple ITP 2.1和ITP 2.2的支持信息。
-seo-title: Adobe Target和Apple ITP支持
+seo-title: Adobe Target and Apple ITP support
 solution: Target
 subtopic: 入门指南
 title: Apple ITP 2.x
@@ -13,9 +13,9 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 ---
 
 
-# Apple Intelligent Tracking Prevention(ITP)2.x
+# Apple Intelligent Tracking Prevention (ITP) 2.x
 
-Intelligent Tracking Prevention(ITP)是Apple保护Safari用户隐私的举措。 2017年发布的ITP第一个版本针对第三方cookie的使用。 事实上，Apple阻止了第三方Cookie的整体，这反过来又给广告科技和科技公司带来了严重的麻烦，因为第三方Cookie通常用于跟踪访客和收集访客数据。 现在，Apple正在对在Safari中使用第一方Cookie的方式设置限制和限制。
+Intelligent Tracking Prevention(ITP)是Apple保护Safari用户隐私的举措。 The first release of ITP, which was in 2017, targeted the usage of third-party cookies. In fact, Apple blocked third-party cookies entirety, which in turn, caused a severe headache for ad tech and mar tech companies because third-party cookies are generally used for tracking visitors and collecting visitor data. Now, Apple is on the move to place limitations and restrictions on how first-party cookies are used within Safari.
 
 这些版本的ITP包含以下限制：
 
@@ -47,18 +47,18 @@ Apple ITP 2.1和2.1在以下 [!DNL Target] 方面有影响：
 
 1. 将Experience Cloud ID(ECID)库部署到您的页面。
 
-   ECID库支持Experience Cloud核心解决方案的人员识别框架。 ECID库允许您通过分配永久和唯一标识符来识别不同Experience cloud解决方案中的同一站点访客及其数据。 ECID库将经常更新，以帮助您减轻影响实施的任何与ITP相关的更改。
+   ECID库支持Experience Cloud核心解决方案的人员识别框架。 The ECID library allows you to identify same site visitors and their data in different Experience Cloud solutions by assigning persistent and unique identifiers. The ECID library will be updated frequently to help you mitigate any ITP-related changes that impact your implementation.
 
-   对于ITP 2.1和ITP 2.2, [ECID库4.3.0+必须用于缓解](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 。
+   For ITP 2.1 and ITP 2.2, ECID library 4.3.0+ must be utilized for mitigation.[](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)
 
-1. 使用Adobe的CNAME并登记Adobe Analytics的托管证书计划。
+1. Use Adobe’s CNAME and Enroll in Adobe Analytics' Managed Certificate Program.
 
-   安装ECID库4.3.0+后，您可以利用Adobe Analytics的CNAME和托管证书程序。 此程序允许您免费为第一方Cookie实施第一方证书。 利用CNAME将帮 [!DNL Target] 助客户减轻ITP 2.1和ITP 2.2的影响。
+   After installing the ECID library 4.3.0+, you can leverage Adobe Analytics' CNAME and Managed Certificate Program. This program lets you implement a first-party certificate for first-party cookies at no charge. Leveraging CNAME will help  customers mitigate the impact of ITP 2.1 and ITP 2.2.[!DNL Target]
 
-   如果您没有利用CNAME，则可以通过与客户代表交谈并登记 [Adobe托管证书计划来开始该过程](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program)。
+   If you are not leveraging CNAME, you can start the process by talking with your account representative and enrolling in the Adobe Managed Certificate Program.[](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program)
 
-在将Target javaScript库与ECID库v4.3.0+一起部署并注册Adobe托管证书计划以利用CNAME后，您将拥有一个强大且长期的缓解计划来缓解与ITP相关的更改。
+After you deploy a Target JavaScript library in conjunction with the ECID library v4.3.0+ and enroll in the Adobe Managed Certificate Program to leverage CNAME, you will have a robust and long-term mitigation plan for ITP-related changes.
 
-As the industry makes strides to create a more secure web for consumers, [!DNL Adobe Target] is absolutely committed to delivering personalized experiences while meeting and exceeding the privacy expectations of visitors. [!DNL Adobe Target] 除了支持 [Apple的ITP 2.1和ITP 2.2外，还已宣布支持Google的SameSite Chrome策略](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) 。
+As the industry makes strides to create a more secure web for consumers, [!DNL Adobe Target] is absolutely committed to delivering personalized experiences while meeting and exceeding the privacy expectations of visitors. [!DNL Adobe Target] has already announced support for Google’s SameSite Chrome Policies in addition to support for Apple’s ITP 2.1 and ITP 2.2.[](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
 
 随着政策不断演变以保护我们的消费者， [!DNL Adobe] 我们还将继续支持这些举措 [!DNL Target]，同时帮助客户提供一流的个性化体验。

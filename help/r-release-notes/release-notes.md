@@ -1,6 +1,6 @@
 ---
 description: 这些发行说明提供了每个 Target Standard 和 Target Premium 版本的功能、增强、修复问题和已知问题等信息。
-keywords: Release notes;new features;updates;update;release;enhancement;enhancements;fixes;bug fixes
+keywords: 发行说明；新增功能；更新；更新；发行；增强；修复；错误修复
 seo-description: 这些发行说明介绍了每个 Target Standard 和 Target Premium 版本的功能、增强功能、修复信息和已知问题。
 seo-title: Adobe Target 发行说明（当前版本）
 solution: Target
@@ -21,7 +21,7 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| ![高级徽章](/help/assets/premium.png) Enterprise权限 | 在Target 2019年9月版本中，企业权限为客户提供了以下访问控制：<UL><li>您可以选择可应用集成的工作区。</li><li>You can apply a role to the Adobe I/O integration: Approver, Editor, or Observer.</li></ul>For step-by-step instructions and more information, see Grant Adobe I/O integrations access to workspaces and assign roles.[](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) |
+| ![高级徽章](/help/assets/premium.png) Enterprise权限 | 在Target 2019年9月版本中，企业权限为客户提供了以下访问控制：<UL><li>您可以选择可应用集成的工作区。</li><li>您可以将角色应用于Adobe I/O集成：批准者、编辑者或观察者。</li></ul>有关分步说明和更多信息，请参阅授 [予Adobe I/O集成对工作区的访问权限并分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明 {#section_1BC5F5208DA548E9B4344A0836E4B943}
 

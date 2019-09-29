@@ -54,7 +54,7 @@ source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
 
 如果零售商具有相对固定的产品目录，但同时又希望突出特定的季节性项目或促销项目，则可以优先选择此方法。大多数客户可能还是主要通过信息源来提供其信息，只需偶尔对页面进行调整。
 
-使用源提供不经常发生变化的信息。不论使用 CSV 文件还是 Google 信息源，均需使用以下参数：
+使用信息源提供不经常发生更改的信息。不论使用 CSV 文件还是 Google 信息源，均需使用以下参数：
 
 * 必需的参数
 
@@ -70,7 +70,7 @@ source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
    * `entity.message`
    * 所有自定义属性
 
-Once the feed is set up and passed to [!DNL Recommendations], pass parameters on the page for attributes that change frequently, i.e. more often than daily.
+设置信息源并将其传递到 [!DNL Recommendations] 后，请在页面上为经常更改（即更改频率高于每日）的属性传递参数。
 
 * 必需的参数
 
@@ -149,7 +149,7 @@ function targetPageParams() {
 
 有关实施 [!DNL mbox.js] 的更多信息，请参阅 [Mbox.js 实施](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
 
-For more information about the differences between the two Target Javascript libraries, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
+要详细了解这两个 Target Javascript 库之间的差异，请参阅 [at.js 的好处](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)。
 
 ## 类别页面 {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 

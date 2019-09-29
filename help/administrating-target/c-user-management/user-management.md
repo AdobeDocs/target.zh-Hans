@@ -22,6 +22,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 您可以通过单击 Target UI 顶部的“[!UICONTROL 设置]”链接来判断贵组织是拥有 Standard 许可证还是拥有 Premium 许可证。
 
-* **Target Standard 客户：**&#x200B;如果您看到“[!UICONTROL 用户]”选项卡（“[!UICONTROL 设置]”&gt;“[!UICONTROL 用户]”），则意味着贵组织拥有 Target Standard 许可证。Target Standard customers should follow the instructions in [Users](/help/administrating-target/c-user-management/c-user-management/user-management.md) to add users and assign permissions in the Adobe Admin Console.
+* **Target Standard 客户：**&#x200B;如果您看到“[!UICONTROL 用户]”选项卡（“[!UICONTROL 设置]”&gt;“[!UICONTROL 用户]”），则意味着贵组织拥有 Target Standard 许可证。Target Standard 客户应按照[用户](/help/administrating-target/c-user-management/c-user-management/user-management.md)中的相关说明进行操作，以在 Adobe Admin Console 中添加用户和分配权限。
 * **Target Premium 客户：**&#x200B;如果您看到“[!UICONTROL 属性]”选项卡（“[!UICONTROL 设置]”&gt;“[!UICONTROL 属性]”），则意味着贵组织拥有 Target Premium 许可证。Target Premium 客户应按照[企业用户权限](../../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)和[配置企业权限](../../administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71)中的说明进行操作，以在 Adobe Admin Console 中添加用户和分配权限。
 

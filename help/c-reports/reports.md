@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 报表{#reports}
 
-报告提供有关活动进度和结果的信息，可帮助您根据数据做出决策。报告数据可帮助您确定何时结束测试，向您展示哪种优惠体验是入选方，并提供洞察或学习，以确定后续行动。
+报表提供了有关活动进度和结果的信息，可帮助您根据数据做出决策。报表数据可以帮助您确定何时结束测试，向您显示哪个体验或选件已入选，并提供确定后续操作所需的分析或学习数据。
 
 >[!NOTE]
 >
@@ -42,20 +42,20 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    例如，您可以从“[!UICONTROL 类型]”下拉列表中选择“[!UICONTROL A/B 测试]”和“[!UICONTROL 体验定位]”，并从“[!UICONTROL 状态]”下拉列表中选择“[!UICONTROL 实时]”，以仅显示处于活跃状态的 A/B 测试活动和体验定位活动。
 
-   下图显示了“[!UICONTROL 类型]”下拉列表，其中选定了两个类型：A/B测试和体验定位。Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. 您可以根据需要取消选择一种或多种类型。
+   下图显示了“[!UICONTROL 类型]”下拉列表，其中选定了两个类型：A/B 测试和体验定位。请注意，默认情况下会选择三种类型的 A/B 测试（手动、[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和[自动定位](/help/c-activities/auto-target-to-optimize.md)）。您可以根据需要取消选择一种或多种类型。
 
-   ![按类型过滤报告](/help/c-reports/assets/report_filters-new.png)
+   ![按类型筛选报表](/help/c-reports/assets/report_filters-new.png)
 
 1. 单击&#x200B;**[!UICONTROL 报表]选项卡。**
 
    每个报表都包含一个图例，以帮助您了解报表。
 
-   ![报告图例](/help/c-reports/assets/report_menu_bar-new.png)
+   ![报表图例](/help/c-reports/assets/report_menu_bar-new.png)
 
    图例显示了以下信息：
 
    * 活动状态，包括活动运行的日期范围。
-   * 预计的入选体验(如果有)。
+   * 预计的入选体验（如果有）。
    >[!NOTE]
    >
    >至少有一个参加者查看了体验后，才会显示体验结果。

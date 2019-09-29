@@ -24,7 +24,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 单击列表中的某个体验，以查看该体验。
 
-1. To exclude one or more experiences from the multivariate test, select the desired experiences, then click **[!UICONTROL Exclude]**.
+1. 要从多变量测试中排除一个或多个体验，请选择所需体验，然后单击&#x200B;**[!UICONTROL 排除]**。
 
    ![排除体验](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 

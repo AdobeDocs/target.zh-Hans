@@ -284,6 +284,6 @@ Target 会定期刷新属性。任何未开启的属性都会在下次刷新时�
 
 ## 培训视频：响应令牌和 at.js 自定义事件{#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-观看以下视频以了解如何使用响应令牌和. js自定义事件将个人资料信息从Target共享到第三方系统。
+Watch the following video to learn how to use response tokens and at.js custom events to share profile information from Target to third-party systems.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=chi_hans)

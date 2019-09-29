@@ -156,7 +156,7 @@ adobe.target.getOffers({
 }
 ```
 
-然后，可以通过数据插入API将有效负载 [转发到Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## 步骤 8：验证实施 {#step8}
 

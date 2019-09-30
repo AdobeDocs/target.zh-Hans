@@ -8,7 +8,7 @@ title: 以前版本的发行说明
 topic: 推荐
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
 
 ---
 
@@ -23,16 +23,23 @@ source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ## 发行说明 - 2019 {#releases-2019}
 
-### Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1（2019年8月7日）
+### Target Standard/Premium 19.9.1（2019 年 9 月 10 日） 
 
-此版本的Mobile VEC SDK包含以下增强和修复：
+| 功能/增强 | 描述 |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) Enterprise Permissions | With the Target September 2019 release, Enterprise Permissions provides customers with the following access controls:<UL><li>You can choose the workspaces to which the integration can be applied.</li><li>You can apply a role to the Adobe I/O integration: Approver, Editor, or Observer.</li></ul>For step-by-step instructions and more information, see Grant Adobe I/O integrations access to workspaces and assign roles.[](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) |
+
+
+### Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1 (August 7, 2019)
+
+This release of Mobile VEC SDK includes the following enhancements and fixes:
 
 （括号中的问题编号供 Adobe 内部使用。）
 
-* 增加了对移动设备上的“预览可视活动”的支持。 (TGT-27875)
-* 修复了由于使用而导致Apple Standard违规的 `UIImagePickerController` 问题。
+* Added support for Preview for Visual Activities on mobile device. (TGT-27875)
+* Fixed an issue that caused an Apple Standard violation due to  usage.`UIImagePickerController`
 * 从Android SDK中删除了GSON依赖性。 (TGT-31710)
-* 删除了其他冗余Gradle依赖关系(TGT-35479)
+* Removed Other redundant Gradle dependencies (TGT-35479)
 * 修复了在创作时无法重置交付选件的问题。 (TGT-35270)
 
 ### Target Standard/Premium 19.7.1（2019 年 7 月 24 日）{#tgt-19-7-1}
@@ -43,7 +50,7 @@ source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| 移动设备应用程序可视化体验编辑器 | 移动设备应用程序 VEC 中将显示一个新的“修改”面板，该面板可显示您为点击跟踪设置的各个元素。(TGT-31741)<br> 请参 [阅在移动应用程序中设置单击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)。 |
+| 移动设备应用程序可视化体验编辑器 | 移动设备应用程序 VEC 中将显示一个新的“修改”面板，该面板可显示您为点击跟踪设置的各个元素。(TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
 | ![Premium 徽章](/help/assets/premium.png)<br>A/B 测试和体验定位 (XT) 活动中的推荐 | 推荐选件（算法）状态将显示在包含推荐选件的 A/B 测试和 XT 活动的“概述”页面上。状态包括：“结果已准备就绪”、“结果未准备就绪”和“信息源故障”。(TGT-33649)<br>请参阅[“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md#status)。 |
 | at.js 2.0 及更高版本通过 Experience Cloud ID (ECID) 库支持跨域跟踪 | 以前，at.js 2.*x* 不支持跨域跟踪。现在，在此版本中，使用 at.js 2.0 或更高版本的客户可以通过 ECID 库执行跨域跟踪。为使跨域跟踪正常运行，必须将 ECID 库与 at.js 2.0 或更高版本一起安装在页面上。[必须使用Experience Cloud ID库4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 。<br>请参 [阅at.js 2.x中的跨域跟踪支持](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
 | Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple 的 ITP 2.1 和 ITP 2.2 | 现在，Target 客户可以通过利用 Adobe 的 CNAME 认证计划来应对 Apple 的 ITP 2.1 和 ITP 2.2。<br>在此版本中，Target引入了与ECID库4.3的无缝集成，该库利用服务器端Cookie来减轻ITP 2.1和ITP 2.2的影响。强烈建议Target客户将 [ECID库4.3+与Target的JavaScript库一起部署](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ，以减轻任何未来ITP版本的影响。 ECID 库将持续增强，针对各浏览器推出的不断变化的 Cookie 策略提供完善的解决方案。<br>请参 [阅Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
@@ -56,7 +63,7 @@ source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ### at.js版本2.1.1（2019年7月24日）
 
-此版本的at.js是维护版本，包括以下增强和修复：
+This release of at.js is a maintenance release and includes the following enhancements and fixes:
 
 （括号中的问题编号供 Adobe 内部使用。）
 

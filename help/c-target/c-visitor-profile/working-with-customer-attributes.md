@@ -2,52 +2,57 @@
 description: 有关如何利用 Adobe Profiles & Audiences 核心服务中的客户属性将客户关系管理 (CRM) 数据库的企业客户数据用于 Adobe Target 中的内容定位的信息。
 keywords: 客户记录服务;crs;crm;mbox3rdpartyid;客户属性;定位
 seo-description: 有关如何利用 Adobe Profiles & Audiences 核心服务中的客户属性将客户关系管理 (CRM) 数据库的企业客户数据用于 Adobe Target 中的内容定位的信息。
-seo-title: 客户属性
+seo-title: 客户属性 在Adobe Target中
 solution: Target
 subtopic: 入门指南
 title: 客户属性
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 ---
 
 
-# 客户属性{#customer-attributes}
+# 客户属性 {#customer-attributes}
 
-有关如何利用 Adobe Profiles &amp; Audiences 核心服务中的客户属性将客户关系管理 (CRM) 数据库的企业客户数据用于 Adobe Target 中的内容定位的信息。
+Information about using enterprise customer data from a customer relationship management (CRM) databases for content targeting in [!DNL Adobe Target] by using customer attributes in the [!DNL Adobe Enterprise Cloud] core service.
 
-通过多个源收集并存储在 CRM 数据库中的企业客户数据可以在 [!DNL Target] 中使用，以便向客户战略性地交付最相关的内容，尤其是旧客户。[!DNL People] 核心服务（以前称为“配置文件和受众”）将数据收集和分析与测试和优化结合在一起，使数据和分析具有可操作性。
+通过多个源收集并存储在 CRM 数据库中的企业客户数据可以在 [!DNL Target] 中使用，以便向客户战略性地交付最相关的内容，尤其是旧客户。[!DNL Audiences] 核心服务（以前称为“配置文件和受众”）将数据收集和分析与测试和优化结合在一起，使数据和分析具有可操作性。
 
-## 客户属性概述 {#section_B4099971FA4B48598294C56EAE86B45A}
+## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-“人员”核心服务是 [!DNL Adobe Experience Cloud] 的一部分，为企业提供了一个将其客户数据推送到 [!DNL Experience Cloud] 平台的工具。载入到 [!DNL Experience Cloud] 的数据适用于所有 [!DNL Experience Cloud] 工作流。[!DNL Adobe Target] 将利用这些数据，根据属性定位旧客户。[!DNL Adobe Analytics] 也会使用这些属性，它们可用于分析和分段。
+The Audiences core service is part of the [!DNL Adobe Experience Cloud] and provides enterprises a tool to push their customer data to the [!DNL Experience Cloud] platform. 载入到 [!DNL Experience Cloud] 的数据适用于所有 [!DNL Experience Cloud] 工作流。[!DNL Target] uses this data for targeting returning customer based on attributes. [!DNL Adobe Analytics] 也会使用这些属性，它们可用于分析和分段。
 
 ![](assets/crs.png)
 
-在您使用客户属性和 Target 时，请考虑以下信息：
+Consider the following information as your work with customer attributes and [!DNL Target]:
 
-* 在使用 [!DNL People] 核心服务中的[!UICONTROL 客户属性]功能之前，您必须满足一些先决条件要求。For more information, see "Prerequisites for Uploading Customer Attributes" in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Core Services User Guide*. 请注意，必须使用 [!DNL at.js]（任何版本）或 [!DNL mbox.js] 版本 58 或更高版本。
-* Adobe 不保证来自 CRM 数据库中 100% 的客户属性（访客配置文件）数据都会被载入到 Experience Cloud 从而可用于在 Target 中进行定位。在我们目前的设计中，可能有一小部分数据不会被载入。
-* 从 Experience Cloud 导入 Target 的客户属性数据的生命周期取决于访客配置文件的生命周期，默认为 14 天。有关更多信息，请参阅[访客配置文件生命周期](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
-* 如果 `vst.*` 参数是对用户进行标识的唯一参数，则只要 `authState` 是 UNAUTHENTICATED (0)，就不会获取现有的“已经过身份验证”的配置文件。只有当 `authState` 变为 UNAUTHENTICATED (1) 时，配置文件才会起作用。
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see "Prerequisites for uploading Customer Attributes" in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
 
-   例如，如果使用 `vst.myDataSource.id` 参数对用户进行标识（其中 `myDataSource` 是数据源别名），并且没有 MCID 或第三方 ID，则使用参数 `vst.myDataSource.authState=0` 将不会获取可能已通过“客户属性”导入而创建的配置文件。如果获取已经过身份验证的配置文件是必需的行为，则 `vst.myDataSource.authState` 必须具有值 1 (AUTHENTICATED)。
+   >[!NOTE]
+   >
+   >[!DNL at.js] （任何版本）或 [!DNL mbox.js] 58或更高版本是必需的。
+
+* Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 在我们目前的设计中，可能有一小部分数据不会被载入。
+* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 有关详细信息，请参阅访 [客资料生命周期](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). 只有当 `authState` 变为 UNAUTHENTICATED (1) 时，配置文件才会起作用。
+
+   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won't fetch the profile that might have been created through a Customer Attributes import. 如果获取已经过身份验证的配置文件是必需的行为，则 `vst.myDataSource.authState` 必须具有值 1 (AUTHENTICATED)。
 
 * 不能在 `mbox3rdPartyID` 中发送下列字符：加号 (+) 和正斜线 (/)。
 
-## 适用于 Target 的客户属性工作流 {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
+## Customer attribute workflow for Target {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 完成以下步骤以在 [!DNL Target] 中使用 CRM 数据，如下所示：
 
 ![](assets/crm_workflow.png)
 
-Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Core Services User Guide*.
+Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud Product Documentation*.
 
 1. 创建数据文件。
 
-   将客户数据从 CRM 导出为 CSV 格式以创建 [!DNL .csv] 文件。或者，也可以创建 zip 或 gzip 文件进行上传。确保 CSV 的第一行是标题，且所有行（客户数据）都具有相同的条目数。
+   将客户数据从 CRM 导出为 CSV 格式以创建 .csv 文件。或者，也可以创建 zip 或 gzip 文件进行上传。Ensure that first row of the CSV file is the header and all rows (customer data) have the same number of entries.
 
    ![](assets/CRS_sample.png)
 
@@ -55,24 +60,24 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. 创建属性来源并上传数据文件。
 
-   指定数据源的名称和描述以及别名 ID。别名 ID 是在 VisitorAPI.js 的客户属性代码中使用的唯一 ID。
+   指定数据源的名称和描述以及别名 ID。The alias Id is a unique ID to be used in your Customer Attribute code in `VisitorAPI.js`.
 
    >[!IMPORTANT]
    >
    >数据源名称和属性名称不得包含句点。
 
-   使用 HTTP 方式最多可以上传 100 MB 的数据文件。大于 100 MB 小于等于 4 GB 的文件则可通过 FTP 上传。
+   使用 HTTP 方式最多可以上传 100 MB 的数据文件。大于100 MB（最多4 GB）的文件可以通过FTP上传。
 
-   * **HTTPS：**&#x200B;您可以拖放 [!DNL .csv] 数据文件或单击[!UICONTROL 浏览]以从您的文件系统上传。
-   * **FTP：**&#x200B;单击 FTP 链接以便[通过 FTP 上传文件](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。第一步是为 Adobe 提供的 FTP 服务器提供密码。输入密码，然后单击“[!UICONTROL 完成]”。
+   * **** HTTPS:您可以拖放。csv数据文件或单击“浏览” **** ，从文件系统上传。
+   * **** FTP:单击FTP链接以通 [过FTP上传文件](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 第一步是为 Adobe 提供的 FTP 服务器提供密码。Specify the password, then click **[!UICONTROL Done]**.
 
-      现在，将您的 CSV/ZIP/GZIP 文件传输到 FTP 服务器。此文件传输成功后，请创建一个具有相同名称和 [!DNL .fin] 扩展名的新文件。将此空文件传输到服务器。此操作用于指示传输结束，Experience Cloud 开始处理数据文件。
+      现在，将您的 CSV/ZIP/GZIP 文件传输到 FTP 服务器。在此文件传输成功后，创建一个名称相同且扩展名为。fin的新文件。 将此空文件传输到服务器。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. 验证架构。
 
    验证过程允许您将显示名称和描述映射到已上传的属性（字符串、整数、数字等等）。将每个属性映射到其正确的数据类型、显示名称和描述。
 
-   架构验证完成后，单击“[!UICONTROL 保存]”。文件上传时间因其大小而异。
+   Click **[!UICONTROL Save]** after the schema validation is complete. 文件上传时间因其大小而异。
 
    ![](assets/SchemaValidate.png)
 
@@ -80,7 +85,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. 配置订阅并激活属性来源。
 
-   单击&#x200B;**[!UICONTROL 添加订阅]**，然后选择解决方案以订阅这些属性。[配置订阅](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) ，在Experience cloud和解决方案之间设置数据流。 激活属性来源允许数据流动到订阅的解决方案。您上传的客户记录与您的网站或应用程序中的传入 ID 信号相匹配。
+   单击&#x200B;**[!UICONTROL 添加订阅]**，然后选择解决方案以订阅这些属性。[配置订阅](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) ，在和解决方案之间设置 [!DNL Experience Cloud] 数据流。 激活属性来源允许数据流动到订阅的解决方案。您上传的客户记录与您的网站或应用程序中的传入 ID 信号相匹配。
 
    ![](assets/solution.png)
 
@@ -110,7 +115,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 ### 在您的网站中使用 mbox3rdPartyID 以便成功实施和使用
 
-将 mbox3rdPartyId 作为参数传递给 `targetPageParams()` 方法内的全局 mbox。mbox3rdPartyId 的值应设为 CSV 数据文件中出现的客户 ID。
+Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPageParams()` method. The value of `mbox3rdPartyId` should be set to the customer ID that was present in the CSV data file.
 
 ```
 <script type="text/javascript">
@@ -126,10 +131,10 @@ Detailed instructions for completing each of the following tasks can be found in
 
 有关在 [!DNL Target] 中使用客户属性的更多信息，请参阅以下资源：
 
-* 创[建客户属性来源并上传核心服务用户指南](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html)*中的数据文件*
+* [创建客户属性来源并上传](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) Experience cloud产品文 *档中的数据文件*
 * 数字营销产品组的博客文章&#x200B;**[客户属性：了解的越多，关联的越好](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
-## 客户经常遇到的问题 {#section_BE0F70E563F64294B17087DE2BC1E74C}
+## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
 搭配 [!DNL Target] 使用客户属性时，您可能会遇到以下问题：
 
@@ -138,9 +143,9 @@ Detailed instructions for completing each of the following tasks can be found in
 | 客户属性因配置文件过大而被删除 | 用户配置文件中的特定字段没有字符限制，但如果配置文件大于 64 K，则会通过删除最早的属性来截断配置文件，直到其再次小于 64 K。 |
 | 即使在几天之后，[!DNL Target] 的受众库中仍未列出属性 | 这通常是管道连接问题。您可以让您的客户属性团队重新发布该信息源来解决此问题。 |
 | 不能根据属性进行交付 | 该配置文件尚未在 Edge 上更新。您可以让您的客户属性团队重新发布该信息源来解决此问题。 |
-| 实施问题 | 请注意以下实施问题：<ul><li>未正确传递访客 ID。该 ID 是在 mboxMCGVID 中传递，而不是 `setCustomerId`。</li><li>已正确传递访客 ID，但“AUTHENTICATION”状态未设置为“已验证”。</li><li>未正确传递 `mbox3rdPartyId`。</li> |
-| 未正确执行 `mboxUpdate` | 未能通过 `mbox3rdPartyId` 正确执行 mboxUpdate。 |
-| 未将客户属性导入到 Target 中。 | 如果您在 Target 中找不到客户属性数据，请确保导入过程在最近 x 天内完成，其中 x 是 Target [访客配置文件生命周期](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)值（默认为 14 天）。 |
+| 实施问题 | 请注意以下实施问题：<ul><li>未正确传递访客 ID。The ID was passed in `mboxMCGVID` instead of `setCustomerId`.</li><li>已正确传递访客 ID，但“AUTHENTICATION”状态未设置为“已验证”。</li><li>未正确传递 `mbox3rdPartyId`。</li> |
+| 未正确执行 `mboxUpdate` | `mboxUpdate`未能通过 `mbox3rdPartyId` 正确执行  |
+| 客户属性未导入到Target | If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default). |
 
 与客户属性相关的问题中，大约 60% 是因上述第 1 行和第 2 行的问题所致。大约 30% 是因第 3 行中的问题所致。大约 5% 是因第 4 行中的问题所致。其余 5% 是由于其他问题所致。
 

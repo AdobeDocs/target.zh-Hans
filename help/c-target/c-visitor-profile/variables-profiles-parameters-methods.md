@@ -8,7 +8,7 @@ title: 配置文件和变量一览表
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 ---
 
@@ -93,4 +93,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 可以在配置文件脚本中引用客户属性，格式如下：`crs.get('<Datasource Name>.<Attribute name>')`。
 
-这些属性还可用作配置文件脚本中的令牌，以及直接用作选件中的令牌，而无需首先设置配置文件脚本。令牌应使用以下格式：`$crs.datasourceName.attributeName`。
+这些属性还可用作配置文件脚本中的令牌，以及直接用作选件中的令牌，而无需首先设置配置文件脚本。令牌应使用以下格式：`${crs.datasourceName.attributeName}`。请注意，应从任何API `datasourceName` 调用中去除该中的空格。

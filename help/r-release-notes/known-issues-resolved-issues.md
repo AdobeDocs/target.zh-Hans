@@ -8,7 +8,7 @@ title: 已知问题和已解决的问题
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
 
 ---
 
@@ -62,8 +62,9 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 以下是“推荐”活动存在的已知问题：
 
-* 当使用特定配置文件属性作为标准键时，会出现推荐“error.restapi.algorithmProfileAttributeInvalid”错误。
-* 在“推荐”活动中使用后端促销活动时，标准包含项筛选器不适用于备用 ER。
+* 实体在没有通过源或API接收更新的60天后正确过期；但是，过期后不会从目录搜索索引中删除已过期的实体。 (IRI-857)
+* The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
+* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
 
 ### 多变量测试 (MVT) 活动
 
@@ -138,7 +139,7 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 
 页面上出现的争用情况可能会导致同时计入原始页面和重定向页面上的页面查看次数。我们计划对 at.js 实施进行更新，以确保避免出现这种争用情况。
 
-此问题已在at.js 1.6.3中修复。
+This issue was fixed in at.js 1.6.3.
 
 ### 排除组
 

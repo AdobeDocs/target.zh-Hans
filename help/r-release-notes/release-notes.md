@@ -1,6 +1,6 @@
 ---
 description: 这些发行说明提供了每个 Target Standard 和 Target Premium 版本的功能、增强、修复问题和已知问题等信息。
-keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes
+keywords: 发行说明；新增功能；发行；更新；更新；发行；增强；修复；错误修复
 seo-description: 这些发行说明介绍了每个 Target Standard 和 Target Premium 版本的功能、增强功能、修复信息和已知问题。
 seo-title: Adobe Target 发行说明（当前版本）
 solution: Target
@@ -8,7 +8,7 @@ title: Target 发行说明（当前版本）
 topic: 推荐
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: dbf7c1f306c9d6f70d8fb8fdb851091fb6db2879
+source-git-commit: dd6bbdc6ab571b769d8426e7554e8a1d52813c3a
 
 ---
 
@@ -21,13 +21,14 @@ source-git-commit: dbf7c1f306c9d6f70d8fb8fdb851091fb6db2879
 
 This maintenance release includes the following enhancement:
 
-* Several security fixes, including a security update to the Rich Text Editor (RTE) in the Visual Experience Composer (VEC). (TGT-35383)
+* 几个安全修复，包括对Visual Experience Composer(VEC)中富文本编辑器(RTE)的安全更新。 (TGT-35383)
+* 现在，除DIV外，A/B测试和体验定位活动中还可以将推荐选件添加到DIV以外的元素（例如P、UL、H1）。 (TGT-34333)
 
 ## Target Standard/Premium 19.9.1（2019 年 9 月 10 日） 
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| ![高级徽章](/help/assets/premium.png) Enterprise权限 | With the Target September 2019 release, Enterprise Permissions provides customers with the following access controls:<UL><li>You can choose the workspaces to which the integration can be applied.</li><li>You can apply a role to the Adobe I/O integration: Approver, Editor, or Observer.</li></ul>For step-by-step instructions and more information, see Grant Adobe I/O integrations access to workspaces and assign roles.[](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) |
+| ![高级徽章](/help/assets/premium.png) Enterprise权限 | 在Target 2019年9月版本中，企业权限为客户提供了以下访问控制：<UL><li>您可以选择可应用集成的工作区。</li><li>您可以将角色应用于Adobe I/O集成：批准者、编辑者或观察者。</li></ul>有关分步说明和更多信息，请参阅授 [予Adobe I/O集成对工作区的访问权限并分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明 {#section_1BC5F5208DA548E9B4344A0836E4B943}
 

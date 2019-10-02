@@ -2,13 +2,13 @@
 description: 这些发行说明提供了每个 Target Standard 和 Target Premium 版本的功能、增强、修复问题和已知问题等信息。
 keywords: 发行说明；新增功能；发行；更新；更新；发行；增强；修复；错误修复
 seo-description: 这些发行说明介绍了每个 Target Standard 和 Target Premium 版本的功能、增强功能、修复信息和已知问题。
-seo-title: Adobe Target 发行说明（当前版本）
+seo-title: 'Adobe Target 发行说明（当前版本） '
 solution: Target
 title: Target 发行说明（当前版本）
 topic: 推荐
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: dd6bbdc6ab571b769d8426e7554e8a1d52813c3a
+source-git-commit: 2dc67c9d864cea3df2806dfcaafd4a56aa2eca4f
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: dd6bbdc6ab571b769d8426e7554e8a1d52813c3a
 
 ## Target Standard/Premium 19.9.2（2019 年 9 月 30 日） 
 
-This maintenance release includes the following enhancement:
+此维护版本包括以下增强功能：
 
 * 几个安全修复，包括对Visual Experience Composer(VEC)中富文本编辑器(RTE)的安全更新。 (TGT-35383)
 * 现在，除DIV外，A/B测试和体验定位活动中还可以将推荐选件添加到DIV以外的元素（例如P、UL、H1）。 (TGT-34333)
@@ -38,7 +38,7 @@ This maintenance release includes the following enhancement:
 |--- |--- |
 | 文档更改 | 查看可能未包含在这些发行说明中的针对该指南的详细更新信息。<br>有关更多信息，请参阅[文档更改](../r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)。 |
 | 以前版本的发行说明 | 查看与以前版本的 Target Standard 和 Target Premium 中的新增功能和增强功能相关的信息。<br>有关更多信息，请参阅[以前版本的发行说明](../r-release-notes/release-notes-for-previous-releases.md)。 |
-| Adobe Experience Cloud 发行说明 | 查看 Adobe Experience Cloud 解决方案的最新发行说明。<br>For more information, see Experience Cloud Release Notes.[](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) |
+| Adobe Experience Cloud 发行说明 | 查看 Adobe Experience Cloud 解决方案的最新发行说明。<br>有关详细信息，请参 [阅Experience cloud发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。 |
 
 ## 预发行信息 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

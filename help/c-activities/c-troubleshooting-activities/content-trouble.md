@@ -1,15 +1,15 @@
 ---
 description: 如果您的页面没有显示预期内容，可以采取以下步骤来对内容交付进行调试。
 keywords: 调试 mbox;mbox 故障诊断;mbox 问题;闪烁;mboxDebug;mboxTrace;令牌;调试器;优先级;活动优先级;Adobe Experience Cloud 调试器;orderConfirmPage mbox;SiteCatalyst 购买 mbox;最畅销;最畅销商品
-seo-description: 如果您的页面没有显示预期内容，可以采取以下步骤来对内容交付进行调试。
-seo-title: 内容交付故障诊断
+seo-description: 如果您的页面不显示预期内容，您可以通过以下几个步骤在Adobe target中调试内容交付。
+seo-title: 对Adobe Target中的内容交付进行疑难解答
 solution: Target
 subtopic: 多变量测试
 title: 内容交付故障诊断
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -79,7 +79,7 @@ mboxTrace 让您能够接收 mbox 回复所附带的跟踪信息。跟踪信息�
 
 您网站的正常功能和外观不受 mboxTrace 的影响。访客将看到您的常规“推荐”设计。
 
-## mboxDebug {#section_DC92A0E4388A4A2787365AD9D556FEFA}
+## mboxDebug {#mboxdebug}
 
 要使用 mboxDebug，请将 mboxDebug 参数附加到您 URL 的末尾。下表包含的信息与 mbox 关联的 URL 参数有关。
 
@@ -95,6 +95,10 @@ mboxTrace 让您能够接收 mbox 回复所附带的跟踪信息。跟踪信息�
 | `mboxDebug=x-profile` | 查看配置文件集。 |
 | `mboxDebug=x-time` | 显示每个 mbox 请求的响应时间 |
 | `mboxOverride.browserIp=<Insert IP address>` | 测试地理定位<br>使用此 URL 参数测试地理定位。输入 IP 地址作为此属性的值，Test&amp;Target 的地理定位功能会评估该 IP 地址，查找营销活动中设置的与其匹配的任何地理定位或客户群。 |
+
+>[!NOTE]
+>
+>确保URL片段位于查询字符串参数之后。 第一个之后的任 `#` 何内容都是片段标识符，导致调试参数无法正确工作。
 
 ## Adobe Experience Cloud 调试器 {#section_A2798ED3A431409690A4BE08A1BFCF17}
 

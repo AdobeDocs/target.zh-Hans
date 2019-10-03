@@ -1,14 +1,14 @@
 ---
 description: 有关此 Target 版本的已知问题的信息。此外，还包括有关已解决问题的信息。
 keywords: 已知问题;已解决的问题;发行说明;bugs;issues;fixes
-seo-description: 有关此版本的Adobe Target的已知问题的信息。 此外，还包括有关已解决问题的信息。
+seo-description: Information about known issues for this release of Adobe Target. 此外，还包括有关已解决问题的信息。
 seo-title: Adobe Target 中的已知问题和已解决的问题
 solution: Target
 title: 已知问题和已解决的问题
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 1d29da9303be3dfd017fc738c5b4ecc68f837077
 
 ---
 
@@ -64,7 +64,9 @@ source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 * Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
 * The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
-* A/B和“体验定位”活动中的“推荐”选件不显示“推荐”托盘的可视预览(TGT-33426)
+* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
+* 通过API创建的集合、排除、条件和设计在Target用户界面中不可见，只能通过API编辑。 (TGT-35777)
+* Recommendations activities created via API can be viewed in the user interface, but can only be edited via API
 
 ### 多变量测试 (MVT) 活动
 
@@ -74,7 +76,7 @@ source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 以下是 at.js 存在的已知问题：
 
-* If you create an experience with no modifications using at.js 2.*x (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Analytics, or Google Analytics.* In addition, the ttMeta plug-in might not work correctly.[](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
+* 如果您使用at.js 2创建的体验没有任何修改。*x (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Analytics, or Google Analytics.*&#x200B;此外， [ttMeta插件可能无法正确工作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 。
 
    作为解决方法，请在体验内容中使用空白。 (TNT-33366)
 
@@ -129,7 +131,7 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 
 * 如果推荐信息源中的项目与上一次运行中的项目相同，则该信息源索引会显示“正在等待编入索引”。要交付的产品引入不会受到影响。(RECS-6663)
 
-   Target 19.4.2版本中修复了此问题。
+   This issue was fixed in the Target 19.4.2 release.
 
 * “推荐”信息源在处理时所花费的时间比预期要长。(COR-2836)
 

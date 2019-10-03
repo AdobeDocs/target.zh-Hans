@@ -1,14 +1,14 @@
 ---
 description: 有关此 Target 版本的已知问题的信息。此外，还包括有关已解决问题的信息。
-keywords: 已知问题;已解决的问题;发行说明；错误；问题；修复
-seo-description: Information about known issues for this release of Adobe Target. 此外，还包括有关已解决问题的信息。
+keywords: 已知问题;已解决的问题;发行说明;bugs;issues;fixes
+seo-description: 有关此版本的Adobe Target的已知问题的信息。 此外，还包括有关已解决问题的信息。
 seo-title: Adobe Target 中的已知问题和已解决的问题
 solution: Target
 title: 已知问题和已解决的问题
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
 
 下面部分列出了 [!DNL Target] 的已知问题：
 
-### 活动QA预览链接 {#preview}
+### Activity QA preview links {#preview}
 
-[如果帐户中保存的活动过多](/help/c-activities/c-activity-qa/activity-qa.md) ，则可能无法加载已保存活动的活动QA预览链接。 重新尝试预览链接应可正常使用。 要防止这种情况继续发生，请存档不再被主动使用的已保存活动。 (TNT-32697)
+[Activity QA preview links for saved activities might not load if there are too many saved activities in your account. ](/help/c-activities/c-activity-qa/activity-qa.md)Re-trying the preview links should work. To prevent this from continuing to happen, archive saved activities that are no longer actively used. (TNT-32697)
 
 ### 重定向选件 {#redirect}
 
@@ -62,9 +62,9 @@ source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
 
 以下是“推荐”活动存在的已知问题：
 
-* 实体在没有通过源或API接收更新的60天后正确过期；但是，过期后不会从目录搜索索引中删除已过期的实体。 (IRI-857)
+* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
 * The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
-* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
+* A/B和“体验定位”活动中的“推荐”选件不显示“推荐”托盘的可视预览(TGT-33426)
 
 ### 多变量测试 (MVT) 活动
 
@@ -73,6 +73,10 @@ source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
 ### at.js
 
 以下是 at.js 存在的已知问题：
+
+* If you create an experience with no modifications using at.js 2.*x (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Analytics, or Google Analytics.* In addition, the ttMeta plug-in might not work correctly.[](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
+
+   作为解决方法，请在体验内容中使用空白。 (TNT-33366)
 
 * 将页面加载到可视化体验编辑器 (VEC) 中时，Target 需要确定全局 mbox 设置是处于启用状态还是禁用状态，以及 entityID 或 categoryID 是否存在于用户尝试在 VEC 中应用推荐的位置。标准列表将会根据这些信息进行筛选。默认列表已筛选算法，但[“兼容”复选框](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)允许您查看完整的算法列表。
 
@@ -125,7 +129,7 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 
 * 如果推荐信息源中的项目与上一次运行中的项目相同，则该信息源索引会显示“正在等待编入索引”。要交付的产品引入不会受到影响。(RECS-6663)
 
-   This issue was fixed in the Target 19.4.2 release.
+   Target 19.4.2版本中修复了此问题。
 
 * “推荐”信息源在处理时所花费的时间比预期要长。(COR-2836)
 
@@ -139,7 +143,7 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 
 页面上出现的争用情况可能会导致同时计入原始页面和重定向页面上的页面查看次数。我们计划对 at.js 实施进行更新，以确保避免出现这种争用情况。
 
-This issue was fixed in at.js 1.6.3.
+此问题已在at.js 1.6.3中修复。
 
 ### 排除组
 

@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Adobe Target 帮助
 user-guide-url: /content/help/zh-Hans/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
          + [删除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite Cookie 策略](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [内容安全策略(CSP)指令](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Content Security Policy (CSP) directives](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + 将数据导入 Target 的方法 {#methods}
          + [方法](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [配置文件 API 设置](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -139,7 +139,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
          + [在移动设备 VEC 中设置点击跟踪](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
       + [针对移动应用程序的Target常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + 服务器端：实施 Target {#server-side}
-      + [发行说明- API和SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Release notes - APIs and SDKs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [服务器端：实施 Target 概述](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [从 Target 旧版 API 迁移到 Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 电子邮件：实施 Target {#implement-email}
@@ -247,7 +247,6 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [活动 QA 概述](c-activities/c-activity-qa/activity-qa.md)
       + [活动 QA 书签](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [在服务器端交付中使用活动 QA](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-   + [活动通知](c-activities/notifications.md)
 + 受众 {#audiences}
    + [受众概述](c-target/target.md)
    + [定位工作原理](c-target/target-how-target-works.md)
@@ -278,7 +277,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [配置文件属性](c-target/c-visitor-profile/profile-parameters.md)
       + [类别亲和度](c-target/c-visitor-profile/category-affinity.md)
       + [客户属性](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [Real-time profile syncing for mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
+      + [为mbox3rdPartyId实时同步配置文件](c-target/c-visitor-profile/3rd-party-id.md)
       + [配置文件和变量一览表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + 定位和受众常见问题解答 {#faq-audiences}
       + [定位和受众常见问题解答](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)

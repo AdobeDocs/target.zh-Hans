@@ -1,6 +1,6 @@
 ---
 description: 有关 Target at.js JavaScript 库如何在页面或应用程序加载期间阻止闪烁的信息。
-keywords: 闪烁;Target Standard;at.js;实施
+keywords: flicker;at.js；实现
 seo-description: 有关 Adobe Target at.js JavaScript 库如何在页面或应用程序加载期间阻止闪烁的信息。
 seo-title: Adobe Target at.js 如何管理闪烁
 solution: Target
@@ -8,7 +8,7 @@ title: at.js 如何管理闪烁
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 在默认内容被替换为活动内容之前，系统会暂时向访客显示默认内容，在此期间会发生闪烁。闪烁可能会使访客感到困惑，因此是一种不良体验。
 
-## 使用自动创建的全局 mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
+## 使用自动创建的全局mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
 如果启用[自动创建全局 Mbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) 设置，at.js 会在页面加载时通过更改不透明度设置来管理闪烁。加载 at.js 时，它会将 <body> 元素的不透明度设置更改为“0”，从而使访客在最初时看不到该页面。收到来自 Target 的响应后，或者如果检测到 Target 请求出错，at.js 会将不透明度重置为“1”。这可确保访客只有在应用您的活动内容后才会看到该页面。
 
@@ -103,11 +103,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 body {opacity: 0 !important}
 ```
 
-## 在 at.js 2.x 的 triggerView() 中管理闪烁
+## 管理at.js 2.x中的triggerView()闪烁
 
 当使用 `triggerView()` 在 SPA 中显示目标内容时，开箱即用地提供闪烁管理。这意味着无需手动添加预先隐藏逻辑。相反，at.js 2.x 会在应用目标内容之前预先隐藏需要显示视图的位置。
 
-## 使用 getOffer() 和 applyOffer() 管理闪烁
+## 使用getOffer()和applyOffer()管理闪烁
 
 因为 `getOffer()` 和 `applyOffer()` 都是较低级别的 API，因此没有内置的闪烁控制。您可以将某个选择器或 HTML 元素作为一个选项传递到 `applyOffer()`，在此示例中，`applyOffer()` 会将活动内容添加到此特定元素；但是在调用 `getOffer()` 和 `applyOffer()` 之前，您必须确保已相应地预先隐藏该元素。
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## 在 At.js 1.x 的 mboxCreate() 中使用区域 mbox（在 at.js 2.x 中不受支持）
+## 在at.js 1.x（at.js 2.x中不支持）中使用带mboxCreate()的区域mbox
 
 如果您使用区域 mbox 实施，则可以在配置以下类似示例代码的页面中使用 `mboxCreate()`：
 

@@ -1,17 +1,17 @@
 ---
 description: 与Adobe Target的服务器端API和SDK相关的发行说明
-keywords: at.js;api;sdk;release;updates;api;sdks；服务器端；服务器端
-seo-description: 与Adobe Target的服务器端API和SDK相关的发行说明
-seo-title: Release notes related to Adobe Target's server-side APIs and SDKs
+keywords: at.js;api;release;updates;api;sdks；服务器端；服务器端
+seo-description: 与Adobe Target的服务器端API相关的发行说明。
+seo-title: 与Adobe Target的服务器端API相关的发行说明。
 solution: Target
-title: 发行说明- API和SDK
+title: 发行说明——目标服务器端API
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
-# 发行说明- API和SDK
+# 发行说明——目标服务器端API
 
-与Adobe Target的服务器端API和SDK相关的发行说明。
+与Adobe Target的服务器端API相关的发行说明。

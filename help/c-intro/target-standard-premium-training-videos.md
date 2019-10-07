@@ -1,6 +1,6 @@
 ---
-description: 观看培训视频可帮助您最有效地使用 Target Standard 和 Target Premium。
-keywords: Target Standard;Target Premium;培训视频;YouTube;视频;视频培训
+description: 观看培训视频，帮助您充分利用Adobe Target Standard和Target Premium。
+keywords: 培训视频；youtube；视频；视频培训；教程；视频
 seo-description: 观看培训视频可帮助您最有效地使用 Target Standard 和 Target Premium。
 seo-title: Adobe Target Standard 和 Premium 的培训视频
 solution: Target
@@ -8,7 +8,7 @@ title: Adobe Target Standard 和 Premium 的培训视频
 topic: 高级
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 

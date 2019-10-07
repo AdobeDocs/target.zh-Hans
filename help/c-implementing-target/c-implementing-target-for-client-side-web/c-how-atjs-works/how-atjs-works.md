@@ -1,21 +1,21 @@
 ---
-description: Target 系统图显示了使用 at.js 为自动创建的全局 mbox 发送或收集调用和信息的流程。
-keywords: 系统图;闪烁;Target Standard;at.js;实施;javascript library;js
+description: 目标系统图，显示使用at.js为自动创建的全局mbox发送或收集的调用和信息的流。
+keywords: 系统图；闪烁；at.js；实现；javascript库；js
 seo-description: Adobe Target 系统图显示了使用 at.js 为自动创建的全局 mbox 发送或收集调用和信息的流程。
-seo-title: Adobe Target at.js 的工作原理
+seo-title: Adobe Target at.js javaScript库的工作原理
 solution: Target
 title: at.js 的工作原理
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
 # at.js 的工作原理{#how-at-js-works}
 
-要实施 [!DNL Adobe Target] 客户端，您必须使用 at.js 库。
+To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library.
 
 在 [!DNL Adobe Target] 的客户端实施中，[!DNL Target] 会将与活动相关联的体验直接交付给客户端浏览器。浏览器将决定要显示的体验，然后显示该体验。借助客户端实施，您可以使用 WYSIWYG 编辑器、[可视化体验编辑器](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)，或者非可视化界面（[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md)）来创建测试和个性化体验。
 
@@ -49,7 +49,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 3 | 将会发出页面加载请求，其中包括已配置的所有参数（例如，MCID、SDID 和客户 ID）。 |
 | 4 | 配置文件脚本在执行后进入配置文件存储区。存储区向受众库请求符合条件的受众（例如从 Adobe Analytics、Audience Management 等共享的受众）。<br>客户属性会以批量过程发送到配置文件存储区。 |
 | 5 | 根据 URL 请求参数和配置文件数据，[!DNL Target] 可决定将哪些活动和体验返回给查看当前页面和未来视图的访客。 |
-| 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>当前页面上的目标内容会在默认内容不发生闪烁的情况下尽快显示。<br>Targeted content for views that are shown as a result of user actions in a SPA is cached in the browser so it can be instantly applied without an additional server call when the views are triggered through `triggerView()`. |
+| 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>当前页面上的目标内容会在默认内容不发生闪烁的情况下尽快显示。<br>SPA中因用户操作而显示的视图的目标内容会缓存在浏览器中，这样，在通过触发视图时，无需额外的服务器调用即可即时应用该内容 `triggerView()`。 |
 | 7 | Analytics 数据会发送到数据收集服务器。 |
 | 8 | 目标数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 Analytics for Target (A4T) 报表查看 <br>Analytics 数据。 |
 
@@ -77,11 +77,11 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 5 | [!DNL Target] 根据 URL、mbox 参数和配置文件数据确定要返回给访客的活动和体验。 | 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>体验会在默认内容不发生闪烁的情况下尽快显示。 |
 | 7 | [!DNL Analytics] 数据会发送到数据收集服务器。 | 8 | [!DNL Target] 数据会通过 SDID 匹配到 [!DNL Analytics] 数据，并且会进行相应处理以保存到 [!DNL Analytics] 报表存储中。<br>之后，便可以在 [!DNL Analytics] 和 [!DNL Target] 中通过 [!DNL Analytics for Target] (A4T) 报表查看 [!DNL Analytics] 数据。 |
 
-## How at.js renders offers with HTML content {#render}
+## at.js如何通过HTML内容呈现选件 {#render}
 
-When rendering offers with HTML content, at.js applies the following algorithm:
+在呈现包含HTML内容的选件时，at.js会应用以下算法：
 
-1. Images are preloaded (if there are any  tags in HTML content).`<img>`
+1. 将预加载图像(如果HTML内容中 `<img>` 有任何标记)。
 
 1. HTML内容会附加到DOM节点。
 

@@ -1,8 +1,8 @@
 ---
 description: “推荐”活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。“推荐”有助于将客户导向到他们可能还不知道的相关项目。
-keywords: 推荐;推荐标准;推荐算法;推荐活动;标准;推荐定位
-seo-description: “推荐”活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。“推荐”有助于将客户导向到他们可能还不知道的相关项目。
-seo-title: 推荐
+keywords: 推荐;推荐标准;推荐算法;推荐活动;标准;推荐定位;recs
+seo-description: Adobe Target中的推荐活动会根据先前的用户活动或其他算法自动显示可能吸引客户的产品或内容。 “推荐”有助于将客户导向到他们可能还不知道的相关项目。
+seo-title: Adobe Target推荐
 solution: Target
 title: 推荐
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
 translation-type: tm+mt
-source-git-commit: 414783c4072a574d278166bedc8243047135265b
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 

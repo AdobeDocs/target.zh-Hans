@@ -4,12 +4,12 @@ keywords: A4T;Analytics;Analytics for Target;Analytics 报表源;Adobe Analytics
 seo-description: Adobe“Analytics for Target”(A4T) 是一种跨解决方案的集成，通过该集成，您可以基于 Analytics 转化量度和受众区段来创建活动。该集成使您能够使用 Analytics 报表来检查结果。如果您使用 Analytics 作为活动的报表源，则该活动的所有报表和分段都将基于 Analytics 数据收集。
 seo-title: 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)
 solution: Target
-subtopic: 多变量测试
+subtopic: 集成
 title: 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -53,7 +53,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 * 使用 Analytics 作为报表源时，只允许使用一个基于 mbox 的量度。
 * 从 Target 到 Analytics 的服务器到服务器调用会向 Analytics 发送活动和体验信息。此集成不会为 Target 或 Analytics 生成其他服务器调用。
 
-   In some situations, the classification call from Target to Analytics might fail and activities do not show data in Analytics. 如果出现这种情况，请 [参阅Analytics和Target集成疑难解答(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 You can also [contact Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) for further assistance.
+   在某些情况下，从Target到Analytics的分类调用可能会失败，且活动不会在Analytics中显示数据。 如果出现这种情况，请 [参阅Analytics和Target集成疑难解答(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 您还可以联系 [客户关怀部门](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) ，获得进一步帮助。
 
 ## 支持的活动类型 {#section_F487896214BF4803AF78C552EF1669AA}
 

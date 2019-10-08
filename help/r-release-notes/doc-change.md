@@ -1,14 +1,14 @@
 ---
 description: 此页面列出了对 Target 文档所做的重要更改。
 keywords: Target 文档更改日志;文档更新
-seo-description: 本页列出了对Adobe target文档所做的重要更改。
-seo-title: Adobe Target产品文档中的文档更改。
+seo-description: 此页面列出了对 Adobe Target 文档所做的重要更改。
+seo-title: Adobe Target 产品文档中的文档更改。
 solution: Target
 title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9ad116dc4834cf90ba6d6d98da7e270544fd0113
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 9ad116dc4834cf90ba6d6d98da7e270544fd0113
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 10 月 8 日 | [Target Insider新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 新主题包含指向第一批新闻稿的链接，并且还有更多内容。 |
 | 2019 年 10 月 3 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下内容： <ul><li>使用at.js 2创建体验时不进行任何修改的已知问题和解决办法。*x库* 。</li><li>通过API创建的集合、排除、条件和设计在Target用户界面中不可见，只能通过API编辑。</li><li>通过API创建的推荐活动可在用户界面中查看，但只能通过API编辑。</li></ul> |
 |  | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | 在“mboxDebug”部分添加了注释。 |
 | 2029 年 10 月 2 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发布的版本的信息。 |
@@ -37,19 +38,19 @@ source-git-commit: 9ad116dc4834cf90ba6d6d98da7e270544fd0113
 | 2019年9月24日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 将Target/Standard 19.2.1版本的日期更改为2019年9月30日。 |
 |  | [“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md) | 添加了培训视频。 |
 | 2019 年 9 月 10 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关Target Standard/Premium 19.9.1版本的信息。 |
-| September 9, 2019 | [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | 添加了“注意事项”部分。 |
+| 2019年9月9日 | [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | 添加了“注意事项”部分。 |
 |  | [Google Chrome SameSite Cookie 策略](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | 更新了整个主题的文本。 |
-|  | [Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | 新主题。 |
-| September 6, 2019 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 19.9.1（2019年9月10日）版本的信息。 |
-|  | [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新主题。 |
+|  | [内容安全策略(CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | 新主题。 |
+| 2019年9月6日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 19.9.1（2019年9月10日）版本的信息。 |
+|  | [针对移动应用程序的Target常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新主题。 |
 | 2019 年 9 月 4 日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主题。 |
-| 2019 年 8 月 23 日 | [Target 移动设备预览](/help/c-target-mobile-app/target-mobile-preview.md) | 更新了中的代码片断 `AndroidManifest.xml`。 |
-| 2019 年 8 月 22 日 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 删除了有关在移动应用程序ID中使用禁止字符的信息。 不再有限制。 |
-|  | [自定义参数](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Added new section: "Considerations." |
-|  | [上传自定义标准](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 更新了以下句子：自定义条件更新默认为“累积”。 CSV 上传文件中指定的新键值对会覆盖现有的键值对。没有在CSV上传中指定密钥的现有密钥值对仍可交付，并将在作为CSV文件的一部分上次上传它们的31天后过期。 |
-| 2019年8月20日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 将Target/Premium 19.8.1版本推迟（2019年8月20日）。 此版本中的内容将转入19.9.1版本（2019年9月24日）。 |
-|  | [设计常见问题解答](/help/c-recommendations/c-design-overview/template-faq.md) | 添加了以下常见问题解答：“我推荐的商品的价格没有在小数点右侧显示两个值。 如何显示它们？” |
-| 2019 年 8 月 16 日 | [mbox3rdPartyID 的实时配置文件同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 添加了新部分：“考虑事项。” |
+| 2019 年 8 月 23 日 | [Target 移动设备预览](/help/c-target-mobile-app/target-mobile-preview.md) | 更新了 `AndroidManifest.xml` 中的代码片断。 |
+| 2019 年 8 月 22 日 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 删除了有关在移动应用程序 ID 中使用禁用字符的信息。不再有任何限制。 |
+|  | [自定义参数](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 添加了新章节：“注意事项”。 |
+|  | [上传自定义标准](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 更新了以下句子：自定义标准更新默认为“累积”。CSV 上传文件中指定的新键值对会覆盖现有的键值对。没有在 CSV 上传中指定键的现有键值对仍可用于交付，并且将 31 天内到期，从上次将其作为 CSV 文件的一部分上传的时间开始计算。 |
+| 2019 年 8 月 20 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 推迟了 Target/Premium 19.8.1 版本（2019 年 8 月 20 日）的发布。此版本中的内容将被纳入到 19.9.1 版本（2019 年 9 月 24 日）中。 |
+|  | [设计常见问题解答](/help/c-recommendations/c-design-overview/template-faq.md) | 添加了以下常见问题解答：“推荐项目的价格并没有在小数点的右侧显示两个值。我该如何显示它们？” |
+| 2019 年 8 月 16 日 | [mbox3rdPartyID 的实时配置文件同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 添加了新章节：“注意事项”。 |
 |  | [创建“推荐”活动](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | 添加了培训视频。 |
 |  | [信息源](/help/c-recommendations/c-products/feeds.md) | 添加了培训视频。 |
 |  | [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 添加了培训视频。 |
@@ -59,36 +60,36 @@ source-git-commit: 9ad116dc4834cf90ba6d6d98da7e270544fd0113
 |  | [收藏集](/help/c-recommendations/c-products/collections.md) | 添加了培训视频。 |
 |  | [排除项](/help/c-recommendations/c-products/exclusions.md) | 添加了培训视频。 |
 | 2019 年 8 月 14 日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了文本并添加了培训视频链接。 |
-|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 收集有关密钥的 `consumerID` 信息。 |
-|  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | 更新了“布局&gt;移动”部分中的信息。 |
-| 2019年8月12日 | [Android - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 更新了有关依赖关系和对象的信息。<br>更新了文件的代码 `AndroidManifest.XML` 示例。 |
-|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | Updated the list of enhancements and fixes in the "Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1" section. |
-|  | [编辑活动或另存为草稿](/help/c-activities/edit-activity.md#classic) | Added new section: "Work with legacy activities created in Recommendations Classic." |
-| 2019 年 8 月 9 日 | [at.js 的工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | Added new section: "How at.js renders offers with HTML content." |
-|  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | 添加了新部分：“考虑事项。” |
-| 2019年8月7日 | [预取选件内容](/help/c-target-mobile-app/prefetch-offer-content.md) | Added note that the prefetch functionality in the SDKs is not supported for Auto Target, Auto Allocate, and Automated Personalization activity types. |
-|  | [Analytics 与 Target 集成 (A4T) 故障诊断](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Updated note indicating how long the classification process takes to complete. |
-|  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Updated note indicating how long the classification process takes to complete. |
-|  | [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Updated topic to include information about the California Consumer Privacy Act (CCPA). |
-| 2019年8月6日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | Added release notes for the Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.0 release. |
-|  | [创建条件](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Updated the following section: "Expected criteria processing time." |
-|  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Updated consideration about using Activity Impressions and Activity Conversions metrics in .[!DNL Analysis Workspace] |
-| 2019年8月1日 | [Target发行说明（当前版本）](/help/r-release-notes/release-notes.md) | Added important announcement regarding API support for Enterprise Permissions. |
-|  | [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 新主题。 |
-| 2019 年 7 月 31 日 | [Introduction to Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | 新主题。 |
-|  | [创建条件](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Added note to Recently Viewed Items. |
-|  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 增加了活动QA预览链接的已知问题。 |
-| 2019 年 7 月 29 日 | [报表常见问题解答](/help/c-reports/reporting-frequently-asked-questions.md) | 新增了常见问题解答：“为什么我的 [!UICONTROL 体验定位] (XT)报告包含控制体验的指标？” |
-| 2019 年 7 月 24 日 | [从at.js 1.*x升级到* at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 添加了新部分：at. [js 2.x中的跨域跟踪支持](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
-|  | [Apple Intelligent Tracking Prevention(ITP)2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 新主题。 |
-|  | [“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md#status) | 添加了新部分：“查看推荐选件的状态。” |
-|  | [信息源](/help/c-recommendations/c-products/feeds.md) | 更新了“导入项目”行，并在“源状态”下添加了“ *Feed Imported Successfully at*” [行](/help/c-recommendations/c-products/feeds.md#status)。 |
-|  | [目录搜索](/help/c-recommendations/c-products/catalog-search.md) | 更新了有关目录刷新方式的文本。 |
-|  | [在移动设备应用程序 中设置点击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 添加了有关“修改”面板的信息，该面板显示您为单击跟踪设置的元素。 |
-|  | [Adobe Target 的工作原理](/help/c-intro/how-target-works.md#bots) | 添加了新部分：“机器人。” |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 阐明了有关 `consumerID` 键值的信息。 |
+|  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | 更新了“布局 &gt; 移动”章节中的信息。 |
+| 2019 年 8 月 12 日 | [Android - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 更新了有关依赖项和工件的信息。<br>更新了 `AndroidManifest.XML` 文件的代码示例。 |
+|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 更新了“Target Mobile VEC SDK iOS 2.1.0 和 Android 1.1.1”章节中的增强功能和修复列表。 |
+|  | [编辑活动或另存为草稿](/help/c-activities/edit-activity.md#classic) | 添加了新章节：“使用在 Recommendations Classic 中创建的旧版活动”。 |
+| 2019 年 8 月 9 日 | [at.js 的工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | 添加了新章节：“at.js 如何渲染带有 HTML 内容的选件”。 |
+|  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | 添加了新章节：“注意事项”。 |
+| 2019 年 8 月 7 日 | [预取选件内容](/help/c-target-mobile-app/prefetch-offer-content.md) | 添加了以下注释：自动定位、自动分配和自动个性化活动类型不支持 iOS 和 Android Mobile SDK 中的预取功能。 |
+|  | [Analytics 与 Target 集成 (A4T) 故障诊断](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | 更新了说明完成分类过程所用时间的注释。 |
+|  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 更新了说明完成分类过程所用时间的注释。 |
+|  | [隐私和数据保护法规](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 更新了主题，以包含有关《加州消费者隐私法案》(CCPA) 的信息。 |
+| 2019 年 8 月 6 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了 Target Mobile VEC SDK iOS 2.1.0 和 Android 1.1.0 版本的发行说明。 |
+|  | [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 更新了以下章节：“预期标准处理时间”。 |
+|  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | 更新了有关在 [!DNL Analysis Workspace] 中使用[!UICONTROL 活动展示次数]和[!UICONTROL 活动转化]量度的注意事项。 |
+| 2019 年 8 月 1 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 API 对企业权限支持情况的重要公告。 |
+|  | [授予 Adobe I/O 集成访问工作区的权限并分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 新主题。 |
+| 2019 年 7 月 31 日 | [Recommendations 简介](/help/c-recommendations/introduction-to-recommendations.md) | 新主题。 |
+|  | [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 在“最近查看的项目”部分添加了注释。 |
+|  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 添加了活动 QA 预览链接存在的已知问题。 |
+| 2019 年 7 月 29 日 | [报表常见问题解答](/help/c-reports/reporting-frequently-asked-questions.md) | 添加了新的常见问题解答：“为何我的[!UICONTROL 体验定位] (XT) 报表包含控制体验的量度？” |
+| 2019 年 7 月 24 日 | [从 at.js 1.*x* 升级到 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 添加了新章节：[at.js 2.x 中的跨域跟踪支持](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+|  | [Apple 智能防跟踪 (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 新主题。 |
+|  | [“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md#status) | 添加了新章节：“查看推荐选件的状态”。 |
+|  | [信息源](/help/c-recommendations/c-products/feeds.md) | 更新了“正在导入项目”行，并在[信息源状态](/help/c-recommendations/c-products/feeds.md#status)下添加了“已在&#x200B;*指定时间*&#x200B;成功导入信息源”行。 |
+|  | [目录搜索](/help/c-recommendations/c-products/catalog-search.md) | 更新了有关如何刷新目录的文本。 |
+|  | [在移动设备应用程序 中设置点击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 添加了有关“修改”面板的信息，该面板可显示您为点击跟踪设置的各个元素。 |
+|  | [Adobe Target 的工作原理](/help/c-intro/how-target-works.md#bots) | 添加了新章节：“机器人”。 |
 |  | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md#best) | 添加了避免正则表达式执行缓慢的最佳实践。 |
-|  | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | 更新了“疑难解答”部分，以反映字符限制不再适用于应用程序名称。 这些限制仅适用于ID。 |
-|  | [信息源](/help/c-recommendations/c-products/feeds.md#steps) | 为步骤添加了受支持的FTP服务器设置。 |
+|  | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | 更新了“疑难解答”章节，以表明字符限制不再适用于应用程序名称。该限制仅适用于 ID。 |
+|  | [信息源](/help/c-recommendations/c-products/feeds.md#steps) | 在步骤中添加了受支持的 FTP 服务器设置。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.1.1 的信息。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：19.7.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
@@ -701,8 +702,4 @@ source-git-commit: 9ad116dc4834cf90ba6d6d98da7e270544fd0113
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p>版本 18.8.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> 发行说明 </a> </p> </td> 
-   <td colname="col3"> <p>此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+   <td colname="col3"> <p>此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文�

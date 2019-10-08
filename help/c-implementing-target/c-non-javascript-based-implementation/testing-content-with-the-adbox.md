@@ -1,22 +1,22 @@
 ---
 description: 使用 AdBox 在站外实施中交付图像。
 keywords: 实施;mbox.js 非 javascript;mbox;Adbox
-seo-description: 使用 AdBox 在站外实施中交付图像。
-seo-title: 为图像创建 Adbox
+seo-description: 使用AdBox在非现场实施中使用Adobe Target传送图像。
+seo-title: 使用Adobe Target为图像创建Adbox
 solution: Target
 subtopic: 入门指南
-title: 为图像创建 Adbox
+title: 为图像创建 Adbox 使用Adobe Target
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
 
 # 为图像创建 Adbox{#create-an-adbox-for-an-image}
 
-使用 AdBox 在站外实施中交付图像。
+使用AdBox在使用Adobe target的非现场实施中传送图像。
 
 AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 具有特殊的 AdBox URL，此 URL 会将“广告”mbox（或 AdBox）加载到您的 Adobe 帐户中。在活动中可使用此 AdBox 替代 mbox。在电子邮件或其他非 JavaScript 实施中可使用 AdBox URL，而不使用直接图像引用。
 
@@ -26,7 +26,7 @@ AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 
 
    ```
    https://myClientCode.tt.omtrdc.net/m2/myClientCode/ubox/
-   image?mbox=emailHeroImage123_320x200
+   image?mbox=emailHeroImage123_320x200&
    mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif
    ```
 
@@ -55,4 +55,6 @@ AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 
    请参阅[不基于 JavaScript 的实施](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)，以了解如何正确设置来实现您的目标。
 1. 完成活动 QA。
 
-   最佳做法是，创建一个虚拟页面，并确认在所有环境中，所有体验、默认内容和报表在所有类型的浏览器上的行为均符合预期。1. 启动活动。
+   最佳做法是，创建一个虚拟页面，并确认在所有环境中，所有体验、默认内容和报表在所有类型的浏览器上的行为均符合预期。
+
+1. 启动活动。

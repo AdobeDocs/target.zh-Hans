@@ -1,64 +1,64 @@
 ---
-description: 有关通过Experience Cloud ID(ECID)库4.3实现Apple ITP 2.1和ITP 2.2的Target支持的信息。
-keywords: apple;ITP;intelligent tracking prevention
-seo-description: 通过Experience Cloud ID(ECID)库4.3了解Adobe Target对Apple ITP 2.1和ITP 2.2的支持信息。
-seo-title: Adobe Target and Apple ITP support
+description: 有关 Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple ITP 2.1 和 ITP 2.2 的信息。
+keywords: Apple;ITP;智能防跟踪
+seo-description: 有关 Adobe Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple ITP 2.1 和 ITP 2.2 的信息。
+seo-title: Adobe Target 与 Apple ITP 支持
 solution: Target
 subtopic: 入门指南
 title: Apple ITP 2.x
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
 
-# Apple Intelligent Tracking Prevention (ITP) 2.x
+# Apple 智能防跟踪 (ITP) 2.x
 
-Intelligent Tracking Prevention(ITP)是Apple保护Safari用户隐私的举措。 The first release of ITP, which was in 2017, targeted the usage of third-party cookies. In fact, Apple blocked third-party cookies entirety, which in turn, caused a severe headache for ad tech and mar tech companies because third-party cookies are generally used for tracking visitors and collecting visitor data. Now, Apple is on the move to place limitations and restrictions on how first-party cookies are used within Safari.
+智能防跟踪 (ITP) 是 Apple 推出的一项旨在保护 Safari 用户隐私的举措。第一版 ITP 于 2017 年发布，主要针对使用第三方 Cookie 的情况。事实上，Apple 完全阻止了第三方 Cookie，这反而给广告技术公司和营销技术公司造成严重的困扰，因为这些公司通常使用第三方 Cookie 来跟踪访客并收集访客数据。现在，Apple 正在对如何在 Safari 中使用第一方 Cookie 进行限制和约束。
 
-这些版本的ITP包含以下限制：
+这些版本的 ITP 包含以下限制：
 
 | 版本 | 详细信息 |
 | --- | --- |
-| [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) | 使用API放置到浏览器上的客户端Cookie `document.cookie` 有上限，到期七天。<br>发布于2019年2月21日。 |
-| [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | 将七天期限的上限大幅削减为一天。<br>发布于2019年4月24日。 |
+| [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) | 对使用 `document.cookie` API 放到浏览器中的客户端 Cookie 设置上限，七天到期。<br>发布于 2019 年 2 月 21 日。 |
+| [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | 七天到期的上限大幅缩短为一天。<br>发布于 2019 年 4 月 24 日。 |
 
-## 作为Adobe target客户，对我有何影响？
+## 这对作为 Adobe Target 客户的我有何影响？
 
-[!DNL Target] 提供JavaScript库，供您在页面上部署， [!DNL Target] 以便为访客提供实时个性化。 有三个Target javaScript库([at.js 1.*x*&#x200B;和at.js 2。*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)和 [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md))，它们通过 [!DNL Target] API将客户端Cookie放置到访客的浏览器 `document.cookie` 上。 因此， [!DNL Target] cookie受Apple的ITP 2.1和2.2影响，将在七天后（使用ITP 2.1）和一天后（使用ITP 2.2）过期。
+[!DNL Target] 提供了 JavaScript 库可供您在页面上部署，以便 [!DNL Target] 能够为访客提供实时个性化。有三个 Target JavaScript 库（[at.js 1.*x* 和 at.js 2 中的“隐藏主体”和“显示主体”调用。*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 和 [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)）可通过 `document.cookie` API 将客户端 [!DNL Target] Cookie 放置到您访客的浏览器上。因此，[!DNL Target] Cookie 将会受到 Apple ITP 2.1 和 2.2 的影响，并且会在七天（使用 ITP 2.1）和一天（使用 ITP 2.2）后到期。
 
-Apple ITP 2.1和2.1在以下 [!DNL Target] 方面有影响：
+Apple ITP 2.1 和 2.1 会在以下方面影响 [!DNL Target]：
 
 | 影响 | 详细信息 |
 | --- | --- |
-| 唯一访客计数的潜在增加 | 由于过期窗口设置为七天（使用ITP 2.1）和一天（使用ITP 2.2），您可能会看到来自Safari浏览器的独特访客数量增加。 如果访客在七天(ITP 2.1)或一天(ITP 2.2)后重新访问您的域，则 [!DNL Target] 将强制在您的域上放置新 [!DNL Target] Cookie来代替过期的Cookie。 新的 [!DNL Target] Cookie将转换为新的唯一访客，即使用户相同。 |
-| 活动的回顾时间缩 [!DNL Target] 短 | 活动的访客 [!DNL Target] 资料可能会缩短决策回顾期。 [!DNL Target] cookies用于标识访客和存储用户配置文件属性以进行个性化。 由于 [!DNL Target] Cookies可在七天(ITP 2.1)或一天(ITP 2.2)后在Safari上过期，因此无法使用与清除的 [!DNL Target] Cookie关联的用户配置文件数据进行决策。 |
+| 潜在增加独特访客计数 | 由于过期时间窗口分别设置为七天（使用 ITP 2.1）和一天（使用 ITP 2.2），您可能会看到来自 Safari 浏览器的独特访客数量增加。如果您的访客在七天 (ITP 2.1) 或一天 (ITP 2.2) 之后重新访问域，则 [!DNL Target] 会在您的域中强制放置新的 [!DNL Target] Cookie 来替换已过期的 Cookie。即便是同一用户，新 [!DNL Target] Cookie 仍会转换为新的独特访客。 |
+| 缩短了 [!DNL Target] 活动的回溯期限 | [!DNL Target] 活动的访客配置文件可能会缩短决策的回溯期限。利用 [!DNL Target] Cookie 可识别访客和存储用于个性化的用户配置文件属性。鉴于 Safari 上的 [!DNL Target] Cookie 可能在七天 (ITP 2.1) 或一天 (ITP 2.2) 之后到期，无法使用与已清除的 [!DNL Target] Cookie 关联的用户配置文件数据做出决策。 |
 
-## 我的当前实施是否受 [!DNL Target] 影响？
+## 我当前已实施的 [!DNL Target] 是否会受到影响？
 
-在Safari浏览器中，导航到您拥有JavaScript库的 [!DNL Target] 网站。 如果您在CNAME [!DNL Target] 的上下文中看到设置的Cookie，例如 `analytics.company.com`，则您不会受到ITP 2.1或2.2的影响。
+在 Safari 浏览器中，导航到您拥有 [!DNL Target] JavaScript 库的网站。如果您在 CNAME 的上下文中看到已设置 [!DNL Target] Cookie，例如 `analytics.company.com`，则不受 ITP 2.1 或 2.2. 的影响。
 
-如果您除了使用Target javaScript库之外还使用Experience Cloud ID(ECID)库，则您的实施将受本文中列出的方式的影响： [Safari ITP 2.1对Adobe Experience cloud和Experience platform客户的影响](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)。
+如果除了 Target JavaScript 库之外，您还在使用 Experience Cloud ID (ECID) 库，则您的实施会受到下文所述的影响：[Safari ITP 2.1 对 Adobe Experience Cloud 和 Experience Platform 客户的影响](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)。
 
-## 如何减轻ITP 2.1、ITP 2.2和未来ITP版本对的影响 [!DNL Target]?
+## 如何减轻 ITP 2.1、ITP 2.2 和未来 ITP 版本对 [!DNL Target] 的影响？
 
-要减轻ITP 2.1、ITP 2.2和未来ITP版本对以下任务的影 [!DNL Target]响，请执行以下任务：
+要减轻 ITP 2.1、ITP 2.2 和未来 ITP 版本对 [!DNL Target] 的影响，请完成以下任务：
 
-1. 将Experience Cloud ID(ECID)库部署到您的页面。
+1. 将 Experience Cloud ID (ECID) 库部署到您的页面。
 
-   ECID库支持Experience Cloud核心解决方案的人员识别框架。 The ECID library allows you to identify same site visitors and their data in different Experience Cloud solutions by assigning persistent and unique identifiers. The ECID library will be updated frequently to help you mitigate any ITP-related changes that impact your implementation.
+   ECID 库可为 Experience Cloud Core 解决方案启用人员识别框架。通过分配永久和唯一标识符，ECID 库让您能够识别不同 Experience Cloud 解决方案中的相同站点访客及其数据。ECID 库将经常更新，以帮助您减轻 ITP 相关更改对您的实施的影响。
 
-   For ITP 2.1 and ITP 2.2, ECID library 4.3.0+ must be utilized for mitigation.[](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)
+   对于ITP 2.1和ITP 2.2, [ECID库4.3.0+必须用于缓解](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 。
 
-1. Use Adobe’s CNAME and Enroll in Adobe Analytics' Managed Certificate Program.
+1. 使用 Adobe CNAME 并注册 Adobe Analytics 托管证书计划。
 
-   After installing the ECID library 4.3.0+, you can leverage Adobe Analytics' CNAME and Managed Certificate Program. This program lets you implement a first-party certificate for first-party cookies at no charge. Leveraging CNAME will help  customers mitigate the impact of ITP 2.1 and ITP 2.2.[!DNL Target]
+   安装 ECID 库 4.3.0+ 之后，您可以使用 Adobe Analytics CNAME 和托管证书计划。这项计划允许您免费为第一方 Cookie 实施第一方证书。使用 CNAME 将有助于 [!DNL Target] 客户减轻 ITP 2.1 和 ITP 2.2 的影响。
 
-   If you are not leveraging CNAME, you can start the process by talking with your account representative and enrolling in the Adobe Managed Certificate Program.[](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program)
+   If you are not leveraging CNAME, you can start the process by talking with your account representative and enrolling in the [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
 
-After you deploy a Target JavaScript library in conjunction with the ECID library v4.3.0+ and enroll in the Adobe Managed Certificate Program to leverage CNAME, you will have a robust and long-term mitigation plan for ITP-related changes.
+在您部署 Target JavaScript 库和 ECID 库 v4.3.0+ 并注册 Adobe 托管证书计划来使用 CNAME 之后，您将获得一个强大且长期的可减轻 ITP 相关更改对您影响的计划。
 
-As the industry makes strides to create a more secure web for consumers, [!DNL Adobe Target] is absolutely committed to delivering personalized experiences while meeting and exceeding the privacy expectations of visitors. [!DNL Adobe Target] has already announced support for Google’s SameSite Chrome Policies in addition to support for Apple’s ITP 2.1 and ITP 2.2.[](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
+当整个行业都在努力为消费者创建更加安全的 Web 时，[!DNL Adobe Target] 也不遗余力地为客户提供个性化体验，同时满足甚至超越访客的隐私保护期望。除了支持 Apple ITP 2.1 和 ITP 2.2 之外，[!DNL Adobe Target] 已经宣布还支持 [Google SameSite Chrome 政策](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)。
 
-随着政策不断演变以保护我们的消费者， [!DNL Adobe] 我们还将继续支持这些举措 [!DNL Target]，同时帮助客户提供一流的个性化体验。
+由于政策不断发展以保护我们的消费者，[!DNL Adobe] 也将继续在 [!DNL Target] 中支持这些举措，并将帮助我们的客户提供一流的个性化体验。

@@ -1,6 +1,6 @@
 ---
 description: 目标系统图，显示使用at.js为自动创建的全局mbox发送或收集的调用和信息的流。
-keywords: 系统图；闪烁；at.js；实现；javascript库；js
+keywords: 系统图；闪烁；at.js；实施；javascript库；js;atjs
 seo-description: Adobe Target 系统图显示了使用 at.js 为自动创建的全局 mbox 发送或收集调用和信息的流程。
 seo-title: Adobe Target at.js javaScript库的工作原理
 solution: Target
@@ -8,7 +8,7 @@ title: at.js 的工作原理
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -27,7 +27,7 @@ To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript 
 
 In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. 此外，还实施了以下 Experience Cloud 核心服务：Adobe Launch、受众和访客 ID 服务。
 
-## At.js 1.*x* 和 at.js 2.x 工作流程图之间有何差异？
+## at.js 1之间有何差异。*x* 和 at.js 2.x 工作流程图之间有何差异？
 
 请参阅[从 at.js 1.x 升级到 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)，以了解有关 2.O 与 1.*x* 之间的差异。
 
@@ -68,7 +68,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 
 ## at.js 1.x 流程图
 
-![目标流- at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
+![Target 流程 - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | 步骤 | 描述 | 调用 | 描述 |
 |--- |--- |--- |--- |
@@ -77,22 +77,22 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 5 | [!DNL Target] 根据 URL、mbox 参数和配置文件数据确定要返回给访客的活动和体验。 | 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>体验会在默认内容不发生闪烁的情况下尽快显示。 |
 | 7 | [!DNL Analytics] 数据会发送到数据收集服务器。 | 8 | [!DNL Target] 数据会通过 SDID 匹配到 [!DNL Analytics] 数据，并且会进行相应处理以保存到 [!DNL Analytics] 报表存储中。<br>之后，便可以在 [!DNL Analytics] 和 [!DNL Target] 中通过 [!DNL Analytics for Target] (A4T) 报表查看 [!DNL Analytics] 数据。 |
 
-## at.js如何通过HTML内容呈现选件 {#render}
+## at.js 如何渲染带有 HTML 内容的选件 {#render}
 
-在呈现包含HTML内容的选件时，at.js会应用以下算法：
+在渲染带有 HTML 内容的选件时，at.js 会应用以下算法：
 
-1. 将预加载图像(如果HTML内容中 `<img>` 有任何标记)。
+1. 预先加载图像（如果 HTML 内容中包含任何 `<img>` 标记）。
 
-1. HTML内容会附加到DOM节点。
+1. 将 HTML 内容附加到 DOM 节点。
 
-1. 执行内联脚本(包含在标记中 `<script>` 的代码)。
+1. 执行内联脚本（代码包含在 `<script>` 标记中）。
 
-1. 远程脚本以异步方式加载并执行(`<script>` 带有属性的 `src` 标记)。
+1. 以异步方式加载并执行远程脚本（`<script>` 标记具有 `src` 属性）。
 
-重要注意事项：
+重要说明：
 
-* at.js不对远程脚本执行顺序提供任何保证，因为这些脚本是异步加载的。
-* 内联脚本不应与远程脚本有任何依赖关系，因为这些脚本稍后会加载和执行。
+* at.js 对远程脚本的执行顺序不提供任何保证，因为它们是异步加载的。
+* 内联脚本不应对远程脚本有任何依赖关系，因为远程脚本稍后才会加载和执行。
 
 ## 培训视频：at.js 2.x 架构图
 

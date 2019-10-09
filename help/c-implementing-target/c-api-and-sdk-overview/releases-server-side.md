@@ -7,14 +7,14 @@ solution: Target
 title: 发行说明——目标服务器端API
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
 
 ---
 
 
 # 发行说明——目标服务器端API
 
-与服务器端API [!DNL Adobe Target] 相关的发行说明。
+与 [Adobe Target服务器端API相关的发行说明](https://developers.adobetarget.com/api/delivery-api/)。
 
 ## V1/交付（2019年10月9日）
 

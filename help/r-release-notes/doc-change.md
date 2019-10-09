@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -21,6 +21,10 @@ source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 10 月 9 日 | [服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 更新了主题。 |
+|  | [发行说明——目标服务器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 新主题。 |
+|  | [发行说明——目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新主题。 |
+|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关V1/Delivery API和Node.js SDK版本的信息。 |
 | 2019 年 10 月 8 日 | [Target Insider新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 新主题包含指向第一批新闻稿的链接，并且还有更多内容。 |
 | 2019 年 10 月 3 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下内容： <ul><li>使用at.js 2创建体验时不进行任何修改的已知问题和解决办法。*x库* 。</li><li>通过API创建的集合、排除、条件和设计在Target用户界面中不可见，只能通过API编辑。</li><li>通过API创建的推荐活动可在用户界面中查看，但只能通过API编辑。</li></ul> |
 |  | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | 在“mboxDebug”部分添加了注释。 |
@@ -702,4 +706,8 @@ source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p>版本 18.8.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> 发行说明 </a> </p> </td> 
-   <td colname="col3"> <p>此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文�
+   <td colname="col3"> <p>此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+

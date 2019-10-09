@@ -1,14 +1,14 @@
 ---
 description: 有关使用 at.js 2.x 实施单页应用程序 (SPA) 的信息。
-keywords: 单页应用程序实施;实施单页应用程序;SPA;at.js 2.x;at.js;single page application;single page app
+keywords: 单页应用程序实施;实施单页应用程序;SPA;at.js 2.x;at.js;单页应用程序;单页应用程序;Spa;SPA
 seo-description: 有关使用 Adobe Target at.js 2.x 实施单页应用程序 (SPA) 的信息。
-seo-title: Single Page Application implementation in Adobe Target
+seo-title: Adobe Target 中的单页应用程序实施
 solution: Target
 title: 单页应用程序实施
 topic: 标准
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -33,13 +33,13 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 为进一步说明“视图”的概念，让我们浏览一下这个在 React 中实施的假定的在线电子商务网站，并探索一些“视图”示例。单击下面的链接可在新浏览器选项卡中打开此站点。
 
-**Link: Home Site[](https://target.enablementadobe.com/react/demo/#/)**
+**链接：主[页](https://target.enablementadobe.com/react/demo/#/)**
 
 ![home 站点](/help/c-experiences/assets/home.png)
 
 导航到主页时，我们可以立即看到展示复活节促销活动的主页横幅，以及网站上销售的最新产品。在这种情况下，可以将“视图”定义为整个 home 站点。这种方式很容易记忆，我们将在下面的“实施 Adobe Target 视图”章节中对此进行详细介绍。
 
-**Link: Product Site[](https://target.enablementadobe.com/react/demo/#/products)**
+**链接：产[品站点](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![产品网站](/help/c-experiences/assets/product-site.png)
 
@@ -87,7 +87,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    现在，我们来查看一些关于如何在 React 中为假定的电子商务 SPA 调用 `triggerView()` 函数的示例用例：
 
-   **Link: Home Site[](https://target.enablementadobe.com/react/demo/#/)**
+   **链接：主[页](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 

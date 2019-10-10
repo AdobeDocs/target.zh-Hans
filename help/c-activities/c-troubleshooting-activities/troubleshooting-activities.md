@@ -8,7 +8,7 @@ title: 活动故障诊断
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -22,6 +22,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >除了以下故障诊断信息之外，还可以参阅 [Target 故障诊断](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)，以获取指向以下内容的链接：其他故障诊断主题、常见问题解答，以及有关 [!DNL Adobe Target] 中活动故障诊断以及其他功能的其他有用信息。
 
 以下章节包含您可能遇到的问题及建议的解决方案。
+
+## 我使用Target UI创建了活动，但无法通过API更新它。
+
+使用目标UI创建的活动 *只能* 通过目标UI更新。 通过API创建的活动 *只能* 通过API更新。 尝试使用创建活动时所用的相同方法（UI或API）更新活动。
 
 ## 您看到的是默认内容。
 

@@ -8,7 +8,7 @@ title: 确定入选者
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -63,6 +63,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    自动分配显示的是某个特定体验是所有活动体验中的入选者的真实性概率。这意味着只有入选体验（最有可能入选的体验）的置信度值将为非零数值。所有其他体验很有可能落选，因此将显示 0% 的置信度值。
 
-* 仅当入选体验达到 60% 的置信度后，自动分配才会开始显示置信度。自动分配大概比常规 A/B 测试快一倍。要确定常规 A/B 测试运行的时长，请使用[样本量计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)：将控制体验的转化率插入“基准转化率”，将“5%”插入“提升度”，并将 95% 插入“置信度”。通常情况下，在每个体验达到其所需样本量的至少 50% 之后，置信度便会开始显示。这可使您了解置信度将从何时开始显示。
+* 仅当入选体验达到 60% 的置信度后，自动分配才会开始显示置信度。这些置信度级别通常出现在正常A/B测试完成所需时间的一半左右（尽管这并不保证）。 To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control's conversion-rate in "Baseline conversion rate," "5%" for "Lift," and 95% for "Confidence." 通常情况下，在每个体验达到其所需样本量的至少 50% 之后，置信度便会开始显示。这可使您了解置信度将从何时开始显示。
 * 如果报表中所有置信度值均显示为 0%，则有可能是进入活动的时间过早。
 

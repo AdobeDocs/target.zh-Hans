@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: at.js 版本详细信息
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
+source-git-commit: 0e4298003d7eb99f29b700923cf53b445c3ef637
 
 ---
 
@@ -21,11 +21,29 @@ source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
 >
 >Target 团队仅维护两个版本的 [!DNL at.js]：当前版本和当前版本的上一个版本。请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。
 
-## at.js版本2.2和1.8（2019年10月10日）
+## at.js版本2.2（2019年10月10日）
 
-| 功能/增强 | 描述 |
-| --- | --- |
-| at.js版本2.2<br><br>andat.js版本1.8 | 这些版本的at.js提供：<ul><li>改进了在网页上同时使用Experience Cloud ID服务(ECID)v4.4和at.js 2.2或at.js 1.8时的性能。</li><li>以前，ECID曾发出两个阻止调用，之后at.js才能获取体验。 这已降低为单个呼叫，这显着提高了性能。</li></ul> 为了利用这些性能改进，升级到at.js 2.2或at.js 1.8以及ECID库v4.4.<br>at.js 2.2提供：<ul><li>**serverState**:at.js v2.2+中提供的设置，可用于在实施Target的混合集成时优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的交付API或Target SDK来交付体验。 `serverState` 使at.js v2.2+能够直接应用从服务器端获取的内容中获取的体验，并作为所服务页面的一部分返回到客户端。<br>有关详细信息，请参阅targetGlobalSettings中的“serverState” [(serverState)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
+此版本的at.js包含以下增强和修复：
+
+* 改进了在网页上同时使用Experience Cloud ID服务(ECID)v4.4和at.js 2.2时的性能。
+* 以前，ECID曾发出两个阻止调用，之后at.js才能获取体验。 这已降低为单个呼叫，这显着提高了性能。
+
+   >[!NOTE]
+   >
+   >将您的ECID Launch扩展升级到v4.4以利用此性能增强。
+
+* at.js版本2.2还提供一个名为的新设置 `serverState`。 在实施Target的混合集成时，此设置可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的交付API或Target SDK来交付体验。 `serverState` 使at.js v2.2+能够直接应用从服务器端获取的内容中获取的体验，并作为所服务页面的一部分返回到客户端。 For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+
+## at.js版本1.8（2019年10月10日）
+
+此版本的at.js包含以下增强和修复：
+
+* 改进了在网页上同时使用Experience Cloud ID服务(ECID)v4.4和at.js 1.8时的性能。
+* 以前，ECID曾发出两个阻止调用，之后at.js才能获取体验。 这已降低为单个呼叫，这显着提高了性能。
+
+>[!NOTE]
+>
+>将您的ECID Launch扩展升级到v4.4以利用此性能增强。
 
 ## at.js 版本 2.1.1（2019 年 7 月 24 日）
 

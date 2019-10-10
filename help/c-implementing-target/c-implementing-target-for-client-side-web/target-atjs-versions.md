@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: at.js 版本详细信息
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
 
 ---
 
@@ -21,23 +21,29 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 >
 >Target 团队仅维护两个版本的 [!DNL at.js]：当前版本和当前版本的上一个版本。请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。
 
-## at.js版本2.1.1（2019年7月24日）
+## at.js版本2.2和1.8（2019年10月10日）
 
-此版本的at.js是维护版本，包括以下增强和修复：
+| 功能/增强 | 描述 |
+| --- | --- |
+| at.js版本2.2<br><br>andat.js版本1.8 | 这些版本的at.js提供：<ul><li>改进了在网页上同时使用Experience Cloud ID服务(ECID)v4.4和at.js 2.2或at.js 1.8时的性能。</li><li>以前，ECID曾发出两个阻止调用，之后at.js才能获取体验。 这已降低为单个呼叫，这显着提高了性能。</li></ul> 为了利用这些性能改进，升级到at.js 2.2或at.js 1.8以及ECID库v4.4.<br>at.js 2.2提供：<ul><li>**serverState**:at.js v2.2+中提供的设置，可用于在实施Target的混合集成时优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的交付API或Target SDK来交付体验。 `serverState` 使at.js v2.2+能够直接应用从服务器端获取的内容中获取的体验，并作为所服务页面的一部分返回到客户端。<br>有关详细信息，请参阅targetGlobalSettings中的“serverState” [(serverState)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
+
+## at.js 版本 2.1.1（2019 年 7 月 24 日）
+
+此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
 
 （括号中的问题编号供 Adobe 内部使用。）
 
-* 修复了在可视体验书写器(VEC)的“目标和设置”页面上使用“单击跟踪”度量时，导致多个信标触发的问题。 (TNT-32812)
-* 修复了导致渲染选 `triggerView()` 件次数不超过一次的问题。 (TNT-32780)
-* 修复了确保 `triggerView()` 请求包含Marketing Cloud ID(MCID)信息的问题。 (TNT-32776)
-* 修复了即使没有保存的视 `triggerView()` 图也无法触发通知的问题。 (TNT-32614)
-* 修复了由于使用decodeURI组件导致错误的问题，该问题导致URL包含格式错误的查询字符串参数时出现问题。 (TNT-32710)
-* 在通过 `Navigator.sendBeacon()` API发送的传送请求上下文中，信标标记现在设置为“true”。 (TNT-32683)
-* 修复了导致Recommendations选件无法在少数客户的网站上显示的问题。 客户可以在交付API调用中看到选件内容，但该选件未应用于网站。 (TNT-32680)
-* 修复了导致跨多个体验的点击跟踪无法按预期工作的问题。 (TNT-32644)
-* 修复了在呈现第一个量度失败后，at.js无法应用第二个量度的问题。 (TNT-32628)
-* 修复了使用函 `mboxThirdPartyId` 数传递 `targetPageParams` 时导致请求有效负荷不存在于查询参数或请求有效负荷中的问题。 (TNT-32613)
-* 修复了在基于Chromium的浏览器（包括Google Chrome）中导致显示和单击通知响应被阻止的问题。 (TNT-32290)
+* 修复了在可视化体验编辑器 (VEC) 中的“目标和设置”页面上使用“点击跟踪”量度时导致多个信标触发的问题。(TNT-32812)
+* 修复了导致 `triggerView()` 无法多次渲染选件的问题。(TNT-32780)
+* 修复了 `triggerView()` 存在的一个问题，以确保请求包含 Marketing Cloud ID (MCID) 信息。(TNT-32776)
+* 修复了即使没有保存的视图，也无法触发 `triggerView()` 通知的问题。(TNT-32614)
+* 修复了由于使用 decodeURIcomponent 而导致错误的问题，当 URL 包含格式不正确的查询字符串参数时，decodeURIcomponent 会引发问题。(TNT-32710)
+* 在通过 `Navigator.sendBeacon()` API 发送交付请求的上下文中，信标标志现在被设置为“true”。(TNT-32683)
+* 修复了导致无法在网站上向少数客户显示“推荐”选件的问题。客户可以在交付 API 调用中看到选件内容，但该选件未在网站上应用。(TNT-32680)
+* 修复了导致多个体验中的点击跟踪无法按预期工作的问题。(TNT-32644)
+* 修复了导致 at.js 在第一个量度渲染失败后无法应用第二个量度的问题。(TNT-32628)
+* 修复了使用 `mboxThirdPartyId` 函数传递 `targetPageParams` 时出现的问题，该问题导致请求有效负载不存在于查询参数或请求有效负载中。(TNT-32613)
+* 修复了导致在基于 Chromium 的浏览器（包括 Google Chrome）中阻止显示和点击通知响应的问题。(TNT-32290)
 
 ## at.js 版本 2.1.0（2019 年 6 月 3 日）
 

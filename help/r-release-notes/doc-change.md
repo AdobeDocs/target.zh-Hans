@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -24,6 +24,7 @@ source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
 | 2019 年 10 月 10 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 添加了新部分："serverState." |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关at.js 2.2和at.js 1.8版本的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关at.js 2.2和at.js 1.8版本的信息。 |
+|  | [活动故障诊断](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 添加了新部分：“我使用Target UI创建了一个活动，但无法通过API更新它。” |
 | 2019 年 10 月 9 日 | [服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 更新了主题。 |
 |  | [发行说明——目标服务器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 新主题。 |
 |  | [发行说明——目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新主题。 |

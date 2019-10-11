@@ -8,7 +8,7 @@ title: 活动故障诊断
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: e2592d9b117ac163876257fe6003f1cfb9cfe093
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ## 我使用Target UI创建了活动，但无法通过API更新它。
 
-使用目标UI创建的活动 *只能* 通过目标UI更新。 通过API创建的活动 *只能* 通过API更新。 尝试使用创建活动时所用的相同方法（UI或API）更新活动。
+应通过目标UI更新使用目标UI创建的活动。 通过API创建的活动应通过API更新。 例如，如果您最初使用API创建活动，但随后又通过Target UI编辑该活动，则不会更新所有更改。 所有更改都存储在后端，并可以通过进行另一个API调用来更新。
+
+作为最佳实践，请尝试使用最初创建活动时所用的相同方法（UI或API）更新活动。
 
 ## 您看到的是默认内容。
 

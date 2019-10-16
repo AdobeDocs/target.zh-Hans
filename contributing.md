@@ -1,6 +1,6 @@
 ---
 source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # 参与
@@ -19,12 +19,11 @@ translation-type: tm+mt
 
 ## 参与者许可协议
 
-所有参与到该项目的第三方稿件都必须附有签署的参与者许可协议。这将允许 Adobe 重新分配您在项目中的稿件。[签署我们的CLA](http://opensource.adobe.com/cla.html)。您只需提交一次 Adobe CLA 即可，因此如果您之前已提交了一次，那么无需重新提交！
+所有参与到该项目的第三方稿件都必须附有签署的参与者许可协议。这将允许 Adobe 重新分配您在项目中的稿件。[签署 CLA](http://opensource.adobe.com/cla.html)。您只需提交一次 Adobe CLA 即可，因此如果您之前已提交了一次，那么无需重新提交！
 
 ## 代码审阅
 
-应以拉取请求的形式提交所有提交，并需要由项目提交者进行审阅。Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+应以拉取请求的形式提交所有提交，并需要由项目提交者进行审阅。有关发送拉取请求的更多信息，请参阅 [GitHub 拉取请求文档](https://help.github.com/articles/about-pull-requests/)。
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -37,4 +36,4 @@ submitting a pull request!
 
 ## 安全问题
 
-不应在此问题跟踪器上报告安全问题。Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html)
+不应在此问题跟踪器上报告安全问题。相反，[请向我们的安全专家提出问题](https://helpx.adobe.com/cn/security/alertus.html)

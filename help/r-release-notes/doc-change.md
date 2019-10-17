@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: 5637d4c0b7f6fe7694bfe44e3653ee8740a9b376
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 10 月 17 日 | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新了主题，以说明活动QA如何与第三方Cookie一起使用。 |
+|  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新的发行说明，以包含有关对Unified shell的更改的信息。 |
 | 2019 年 10 月 10 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 添加了新部分："serverState." |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关at.js 2.2和at.js 1.8版本的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关at.js 2.2和at.js 1.8版本的信息。 |

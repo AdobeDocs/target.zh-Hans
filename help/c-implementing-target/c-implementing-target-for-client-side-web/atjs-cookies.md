@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: at.js Cookie
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
 
 ---
 
@@ -112,7 +112,7 @@ Cookie 有多个默认设置。您可以根据需要更改这些设置，但 Coo
 | Cookie 名称 | mbox。 |
 | Cookie 域 | 您从中提供内容的的第二级域和顶级域。由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`。 |
 | 服务器域 | `clientcode.tt.omtrdc.net`，使用您帐户的客户代码。 |
-| Cookie 持续时间 | 从访客最后一次登录的时间算起，Cookie 将在访客浏览器中保留两个星期。您不能更改 Cookie 持续时间。 |
+| Cookie 持续时间 | 访客上次登录两年后的浏览器中仍保留该Cookie。 您不能更改 Cookie 持续时间。 |
 | P3P 政策 | 根据大多数浏览器默认设置的要求，使用 P3P 政策发布 Cookie。P3P 政策指示提供 Cookie 的浏览器以及使用该信息的方式。 |
 
 此 Cookie 保存一系列值，以控制您的访客体验营销活动的方式：

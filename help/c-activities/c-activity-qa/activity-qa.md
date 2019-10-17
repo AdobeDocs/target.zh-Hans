@@ -8,12 +8,12 @@ title: 活动 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 308e3777f96a31f9f553de1879b37bce46bcc89b
 
 ---
 
 
-# 活动 QA{#activity-qa}。
+# 活动 QA {#activity-qa}
 
 使用 QA URL 来执行简单的端到端活动 QA，它提供了永不变更的预览链接、可选的受众定位以及从实时活动数据中分段的 QA 报表。
 
@@ -25,7 +25,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * 可选择遵守受众条件，在对体验外观进行 QA 时，营销人员可以选择测试定位标准或忽略定位标准，而不一定非要满足受众条件.
 * 可捕获 QA 报表，以便营销人员能够确认量度可按预期递增，并且 QA 报表数据可与生产报表（对于非 A4T 报表）分开保存。
 * 能够单独预览体验，或结合其他满足交付标准（页面/mbox/受众）的实时活动一起预览体验。
-* 能够对整个用户历程进行 QA。在活动 QA 过程中，只需使用 QA 链接访问网站一次，即可浏览整个网站。您可以一直停留在“活动 QA”模式中，直到您结束会话或使用[Target QA 书签](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)强制自己退出此模式。如果您的活动涉及多个网页，此功能会特别有用。
+* 能够对整个用户历程进行 QA。在活动 QA 过程中，只需使用 QA 链接访问网站一次，即可浏览整个网站。您可以一直停留在“活动 QA”模式中，直到您结束会话或使用 [Target QA 书签](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)强制自己退出此模式。如果您的活动涉及多个网页，此功能会特别有用。
+
+>[!NOTE]
+>
+>对于版本2的at.js实施，这是正确的。*x* 或更高版本。 对于at.js 1。*x* and mbox.js实施中，仅当访客的浏览器不阻止第三方Cookie时，这才适用。
 
 ## 访问和共享 QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -53,7 +57,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    活动链接永远不会失效，因此如果有人对活动或体验进行了修改，您也无需重新发送链接。但是，如果您应用了受众库中的其他受众，而不只是编辑活动，则您需要重新共享生成的新链接。
 
-   使用每个活动链接 URL（体验 A、体验 B 及其他体验的链接），您可以从相应的体验开启用户历程。您可以单击为某个体验生成的 URL，然后按常规方式浏览网站，以查看多个页面上的体验（如果存在多个页面）。每个体验只会生成一个 URL，即使体验涉及多个页面（模板测试或多页面测试）也是如此。由于活动 QA 具有粘滞性，因此您可以通过浏览网站来查看其他页面。
+   使用每个活动链接 URL（体验 A、体验 B 及其他体验的链接），您可以从相应的体验开启用户历程。您可以单击为某个体验生成的 URL，然后按常规方式浏览网站，以查看多个页面上的体验（如果存在多个页面）。每个体验只会生成一个 URL，即使体验涉及多个页面（模板测试或多页面测试）也是如此。
+
+   由于活动 QA 具有粘滞性，因此您可以通过浏览网站来查看其他页面。请注意，对于版本2的at.js实施，这是正确的。*x* 或更高版本。 对于at.js 1。*x* and mbox.js实施中，仅当访客的浏览器不阻止第三方Cookie时，这才适用。
 
 1. 要查看从活动链接 URL 生成的报表，请单击活动的 **[!UICONTROL 报表]** 页面，单击 **[!UICONTROL 设置]** 图标 (![](assets/icon_gear.png))，然后从 **[!UICONTROL 环境]** 下拉列表中选择 **[!UICONTROL QA 模式]**。
 
@@ -64,12 +70,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * “活动 QA”不会显示已存档活动或已过期活动的内容。如果停用已结束的活动，则必须再次保存该活动才能使“活动 QA”生效。
 * Target Standard/Premium 中导入的活动（例如从 Target Classic 导入）不支持 QA URL。
 * 在自动分配、自动定位和“推荐”活动中，该模式不会受在活动 QA 中捕获的访问次数的影响。
-* 活动 QA 具有粘滞性，因此以“活动 QA”模式浏览网站后，您必须终止 Target 会话，或者需要让 Target 将您从“活动 QA”模式中释放出来，然后才能像普通访客一样查看您的网站。可使用[Target QA 书签](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)强制自己退出“活动 QA”模式。
+* 活动 QA 具有粘滞性，因此以“活动 QA”模式浏览网站后，您必须终止 Target 会话，或者需要让 Target 将您从“活动 QA”模式中释放出来，然后才能像普通访客一样查看您的网站。可使用 [Target QA 书签](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)强制自己退出“活动 QA”模式。
 
    您也可以手动强制自己退出该模式，方法是在网站上使用具有空值的 `at_preview_token` 参数（例如 `https://www.mysite.com/?at_preview_token=`）来加载页面。
 
 * 如果在创建活动时指定了“URL is”[基于表单的编辑器中的细化](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)或[可视化体验编辑器中的页面交付选项](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，则 QA URL 将无效，因为活动 QA 会附加 URL 参数。要解决此问题，请单击 QA URL 以转到您的网站，并从该 URL 中删除附加的参数，然后再加载新的 URL。
-* 为使活动 QA 正常运行，必须在 Safari 浏览器中启用第三方 Cookie。
+* 如果您有at.js 1。*x* 或mbox.js，如果您的浏览器阻止第三方Cookie，则活动QA模式不会粘滞。 在这些情况下，您必须将预览参数添加到导航到的每个URL。
 * 如果一个活动使用了多个体验受众（例如同一个活动中同时包含一个美国网站和一个英国网站），则不会为存在的四种组合（体验 A/美国网站，体验 A/英国网站，体验 B/美国网站，体验 B/英国网站）各生成一个 QA 链接。而是只会创建两个 QA 链接（体验 A 和体验 B），且用户必须符合相应受众条件才能看到相应的页面。例如，英国的 QA 用户将无法看到美国网站。
 * 所有 `at_preview` 参数和值均已进行 URL 编码。在大多数情况下，一切都会按预期运行；但是，有些客户使用的负载平衡器或 Web 服务器可能会尝试对查询字符串参数再次进行编码。
 

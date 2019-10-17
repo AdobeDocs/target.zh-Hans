@@ -8,7 +8,7 @@ title: 活动 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 308e3777f96a31f9f553de1879b37bce46bcc89b
+source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
 
 ---
 
@@ -27,9 +27,9 @@ source-git-commit: 308e3777f96a31f9f553de1879b37bce46bcc89b
 * 能够单独预览体验，或结合其他满足交付标准（页面/mbox/受众）的实时活动一起预览体验。
 * 能够对整个用户历程进行 QA。在活动 QA 过程中，只需使用 QA 链接访问网站一次，即可浏览整个网站。您可以一直停留在“活动 QA”模式中，直到您结束会话或使用 [Target QA 书签](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)强制自己退出此模式。如果您的活动涉及多个网页，此功能会特别有用。
 
->[!NOTE]
->
->对于版本2的at.js实施，这是正确的。*x* 或更高版本。 对于at.js 1。*x* and mbox.js实施中，仅当访客的浏览器不阻止第三方Cookie时，这才适用。
+   >[!NOTE]
+   >
+   >对于版本2的at.js实施，这是正确的。*x* 或更高版本。 对于at.js 1。*x* and mbox.js实施中，仅当访客的浏览器不阻止第三方Cookie时，这才适用。
 
 ## 访问和共享 QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 

@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
+source-git-commit: 9e7d1b0b9beae7817e958735e306c24318109b9f
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 2019 年 10 月 22 日 |  |  |
+| 2019 年 10 月 22 日 | [标准/算法](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | 为“基于用户的推荐”添加了行。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：19.10.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe Target/Standard/Premium 19.9.1（2019年9月30日）
@@ -384,7 +384,7 @@ source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 |  | [不通过标签管理器实施 Target](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | 更新了所有章节。添加了新章节：at.js 实施。 |
 |  | 版本 18.10.1 [发行说明](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
-## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 26 日）  {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
+## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 26 日）{#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
 <table id="table_0348AA29207D48A4BDFFA187F4F845B7"> 
  <thead> 
@@ -558,7 +558,7 @@ source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
  </tbody> 
 </table>
 
-## Adobe Target Standard/Premium 18.8.1（2018 年 8 月 21 日）  {#section_6A146EE91FFB49D1BA398B36817CD0A2}
+## Adobe Target Standard/Premium 18.8.1（2018 年 8 月 21 日）{#section_6A146EE91FFB49D1BA398B36817CD0A2}
 
 <table id="table_F09AC99B587A4D6390B1F8AE54F5DC47"> 
  <thead> 

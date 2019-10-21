@@ -1,7 +1,7 @@
 ---
 description: 标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。
-keywords: 推荐;推荐活动;标准；算法
-seo-description: Criteria in Adobe Target are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
+keywords: 推荐;推荐活动;标准;算法
+seo-description: Adobe Target 中的标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。
 seo-title: 标准
 solution: Target
 title: 标准
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
+source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 | 最近查看的项目 | 推荐访客最近查看过的项目，例如访客上次访问您的网站时所查看的项目，或访客当前最倾向于查看的商品。<br>“最近查看的项目”算法会返回特定于某个[环境](/help/administrating-target/hosts.md)中的访客活动。如果两个网站属于不同的环境，并且访客在两个网站之间切换访问，则算法将仅返回相应网站的最近查看的项目。<br>此标准类型不受收藏集限制。<ul><li>最近查看的项目</li></ul>**注意：**&#x200B;您无法在备用推荐中使用“最近查看的项目”标准。<br>可以筛选最近查看的项目/媒体，以便仅显示具有特定属性的项目。<ul><li>与推荐中的其他标准一样，“最近查看的项目”标准也可配置。</li><li>您可以使用[收藏集](/help/c-recommendations/c-products/collections.md)、[排除项](/help/c-recommendations/c-products/exclusions.md)和[包含项](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)（包括针对价格和库存的特殊规则），其使用方法与任何其他标准相同。</li></ul>用例可能包括：<ul><li>一家开展多种业务的跨国公司可能会让访客在多个数字财产中查看项目。在这种情况下，您可以限制最近查看的项目，以便仅显示之前查看的相应财产中的项目。执行此操作可防止最近查看的项目在其他数字财产网站上显示。</li></ul> |
 
 
-## 标准/算法 {#section_DC4E38A00B9744959F05F8E10A0087A1}
+## 标准/算法 {#criteria-algorithms}
 
 [!DNL Target Recommendations] 会使用复杂的算法来确定访客操作在何种情况下才符合活动中设置的标准。推荐键决定了可用的推荐逻辑选项。
 
@@ -58,6 +58,7 @@ source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 | 最畅销商品 | 大多数已完成的订单中都包含的项目。同一项目在一个订单中购买多件会被计为一次订购。 |
 | 查看次数最多 | 最常查看的项目或媒体。 |
 | 最近查看的项目/媒体 | 访客最近查看过的项目。使用此标准时，您应该更新 Target 设计，以便处理因先前查看的项目不足而显示空白推荐的情况。 |
+| 基于用户的推荐 | 根据每个访客的浏览、查看和购买历史记录推荐项目。 这些项目通常称为“推荐给您”。<br>通过此标准，您可以向新访客和回头客提供个性化的内容和体验。 推荐列表会根据访客的最新活动进行加权，并会在会话中更新，并随着用户浏览您的网站而变得更加个性化。<br>视图和购买均用于确定推荐的项目。 指定的推荐密钥（例如，当前项目）用于应用您选择的任何包含规则筛选器。 例如，您可以：<ul><li>排除不符合特定标准的项目（产品无库存、30天前发布的文章、评级为R的电影等）</li><li>将包含的项目限制为单个类别或当前类别</li></ul> |
 
 >[!NOTE] {class="- topic/note "}
 >
@@ -71,9 +72,9 @@ source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 您可以通过将鼠标悬停在标准卡片上并单击“信息”图标，在弹出卡片中查看标准详细信息，而无需打开该标准。
 
-![条件卡悬停](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
+![“标准卡片”悬停信息](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
-单击&#x200B;**[!UICONTROL 算法信息]选项卡可查看有关所选标准的常规信息，包括其名称、描述、垂直行业、页面类型、推荐键、推荐逻辑和算法 ID。**
+单击&#x200B;**[!UICONTROL 算法信息]**&#x200B;选项卡可查看有关所选标准的常规信息，包括其名称、描述、垂直行业、页面类型、推荐键、推荐逻辑和算法 ID。
 
 ![“算法信息”选项卡](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
@@ -91,7 +92,7 @@ source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 下图显示了“推荐”活动的“概述”页面上的活动图。您还可以在活动创建工作流中查看该活动图，其中包含步骤 2 中的标准状态结果。
 
-![“概述”页上的条件状态](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
+![“概述”页面上的标准状态](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
 
 状态结果包括以下内容：“结果就绪”、“结果未就绪”和“信息源失败”，如下图所示：
 

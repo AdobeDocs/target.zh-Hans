@@ -8,7 +8,7 @@ title: 以前版本的发行说明
 topic: 推荐
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 2118ab105a8f9e5195ce5839a68299454e633cdc
+source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 ---
 
@@ -23,24 +23,45 @@ source-git-commit: 2118ab105a8f9e5195ce5839a68299454e633cdc
 
 ## 发行说明 - 2019 {#releases-2019}
 
-### Target Standard/Premium 19.9.1（2019 年 9 月 10 日） 
+### at.js版本2.2和1.8（2019年10月10日）
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| ![高级徽章](/help/assets/premium.png) Enterprise权限 | 在Target 2019年9月版本中，企业权限为客户提供了以下访问控制：<UL><li>You can choose the workspaces to which the integration can be applied.</li><li>您可以将角色应用于Adobe I/O集成：批准者、编辑者或观察者。</li></ul>有关分步说明和更多信息，请参阅授 [予Adobe I/O集成对工作区的访问权限并分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
+| at.js版本2.2<br><br>andat.js版本1.8 | 这些版本的at.js提供：<ul><li>改进了在网页上同时使用Experience Cloud ID服务(ECID)v4.4和at.js 2.2或at.js 1.8时的性能。</li><li>以前，ECID曾发出两个阻止调用，之后at.js才能获取体验。 这已降低为单个呼叫，这显着提高了性能。</li></ul> 为了利用这些性能改进，升级到at.js 2.2或at.js 1.8以及ECID库v4.4.<br>at.js 2.2提供：<ul><li>**serverState**:at.js v2.2+中提供的设置，可用于在实施Target的混合集成时优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的交付API或Target SDK来交付体验。 `serverState` 使at.js v2.2+能够直接应用从服务器端获取的内容中获取的体验，并作为所服务页面的一部分返回到客户端。<br>有关详细信息，请参阅targetGlobalSettings中的“serverState” [(serverState)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
+
+### 目标平台（2019年10月9日）
+
+| 功能/增强 | 描述 |
+| --- | --- |
+| Node.js SDK版本1.0 | Target Node.js SDK允许您在服务器端部署Target。<br>此Node.js SDK可帮助您将Target轻松集成到其他Experience cloud解决方案中，如Adobe Experience Cloud Identity Service、Adobe Analytics和Adobe Audience Manager。<br>Node.js SDK在通过我们的交付API与Adobe Target集成时引入了最佳实践并消除了复杂性，使您的工程团队能够专注于业务逻辑。 下面是我们在最新版本中介绍的显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>支持在网页和服务器端同时集成Target时优化性能。 我们将引入一个名为的设置，该设置将由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 `serverState` 此方法可优化页面加载性能。</li><li> 支持通过Node.js SDK检索VEC创建的活动，新的交付API使这成为可能。</li><li>开放源代码，以便开发人员能够为Node.js SDK做出贡献。</li></ul><br>有关详细信息，请 [参阅发行说明- Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)。 |
+| 交付API | 生产中提供了全新的交付API端点（/v1/交付）。 显着功能包括：<ul><li>一个端点，用于检索一个或多个mbox的体验。</li><li>通过API检索VEC创建的活动。</li><li>支持一个称为“视图”的全新对象，该对象用于单页应用程序(SPA)和移动应用程序。</li></ul><br>有关详细信息，请参 [阅发行说明——目标服务器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)。 |
+
+### Target Standard/Premium 19.9.2（2019 年 9 月 30 日）
+
+此维护版本包括以下增强功能：
+
+* 多个安全修复，包括对可视化体验编辑器 (VEC) 中富文本编辑器 (RTE) 的安全更新。(TGT-35383)
+* 现在，除DIV外，A/B测试和体验定位活动中还可以将推荐选件添加到DIV以外的元素（例如P、UL、H1）。 (TGT-34333)
+* 活动通知（目标UI中的铃铛图标）不再可用。 通知的新外观即将推出。
+
+### Target Standard/Premium 19.9.1（2019 年 9 月 10 日）
+
+| 功能/增强 | 描述 |
+| --- | --- |
+| ![高级徽章](/help/assets/premium.png) Enterprise权限 | 在Target 2019年9月版本中，企业权限为客户提供了以下访问控制：<UL><li>您可以选择可将集成应用到的工作空间.</li><li>您可以对 Adobe I/O 集成应用以下角色：审批者、编辑者或观察者。</li></ul>有关分步说明和更多信息，请参阅[授予 Adobe I/O 集成访问工作区的权限并分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
 
 
-### Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1（2019年8月7日）
+### Target Mobile VEC SDK iOS 2.1.0 和 Android 1.1.1（2019 年 8 月 7 日）
 
-此版本的Mobile VEC SDK包含以下增强和修复：
+此版本的 Mobile VEC SDK 包含以下增强功能和修复：
 
 （括号中的问题编号供 Adobe 内部使用。）
 
-* 增加了对移动设备上的“预览可视活动”的支持。 (TGT-27875)
-* 修复了由于使用而导致Apple Standard违规的 `UIImagePickerController` 问题。
-* 从Android SDK中删除了GSON依赖性。 (TGT-31710)
-* 删除了其他冗余Gradle依赖关系(TGT-35479)
-* 修复了在创作时无法重置交付选件的问题。 (TGT-35270)
+* 增加了对移动设备上视觉活动预览的支持。(TGT-27875)
+* 修复了由于使用 `UIImagePickerController` 而导致 Apple Standard 违规的问题。
+* 从 Android SDK 中删除了 GSON 依赖项。(TGT-31710)
+* 删除了其他多余的 Gradle 依赖项 (TGT-35479)
+* 修复了在创作时交付选件无法重置的问题。(TGT-35270)
 
 ### Target Standard/Premium 19.7.1（2019 年 7 月 24 日）{#tgt-19-7-1}
 
@@ -50,36 +71,36 @@ source-git-commit: 2118ab105a8f9e5195ce5839a68299454e633cdc
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| 移动设备应用程序可视化体验编辑器 | 移动设备应用程序 VEC 中将显示一个新的“修改”面板，该面板可显示您为点击跟踪设置的各个元素。(TGT-31741)<br> 请参 [阅在移动应用程序中设置单击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)。 |
+| 移动设备应用程序可视化体验编辑器 | 移动设备应用程序 VEC 中将显示一个新的“修改”面板，该面板可显示您为点击跟踪设置的各个元素。(TGT-31741)<br>请参阅[在移动设备应用程序中设置点击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)。 |
 | ![Premium 徽章](/help/assets/premium.png)<br>A/B 测试和体验定位 (XT) 活动中的推荐 | 推荐选件（算法）状态将显示在包含推荐选件的 A/B 测试和 XT 活动的“概述”页面上。状态包括：“结果已准备就绪”、“结果未准备就绪”和“信息源故障”。(TGT-33649)<br>请参阅[“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md#status)。 |
-| at.js 2.0 及更高版本通过 Experience Cloud ID (ECID) 库支持跨域跟踪 | 以前，at.js 2.*x* 不支持跨域跟踪。现在，在此版本中，使用 at.js 2.0 或更高版本的客户可以通过 ECID 库执行跨域跟踪。为使跨域跟踪正常运行，必须将 ECID 库与 at.js 2.0 或更高版本一起安装在页面上。[必须使用Experience Cloud ID库4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 。<br>请参 [阅at.js 2.x中的跨域跟踪支持](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
-| Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple 的 ITP 2.1 和 ITP 2.2 | 现在，Target 客户可以通过利用 Adobe 的 CNAME 认证计划来应对 Apple 的 ITP 2.1 和 ITP 2.2。<br>在此版本中，Target引入了与ECID库4.3的无缝集成，该库利用服务器端Cookie来减轻ITP 2.1和ITP 2.2的影响。强烈建议Target客户将 [ECID库4.3+与Target的JavaScript库一起部署](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ，以减轻任何未来ITP版本的影响。 ECID 库将持续增强，针对各浏览器推出的不断变化的 Cookie 策略提供完善的解决方案。<br>请参 [阅Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
+| at.js 2.0 及更高版本通过 Experience Cloud ID (ECID) 库支持跨域跟踪 | 以前，at.js 2.*x* 不支持跨域跟踪。现在，在此版本中，使用 at.js 2.0 或更高版本的客户可以通过 ECID 库执行跨域跟踪。为使跨域跟踪正常运行，必须将 ECID 库与 at.js 2.0 或更高版本一起安装在页面上。[必须使用Experience Cloud ID库4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 。<br>请参阅 [at.js 2.x 中的跨域跟踪支持](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
+| Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple 的 ITP 2.1 和 ITP 2.2 | 现在，Target 客户可以通过利用 Adobe 的 CNAME 认证计划来应对 Apple 的 ITP 2.1 和 ITP 2.2。<br>在此版本中，Target引入了与ECID库4.3的无缝集成，该库利用服务器端Cookie来减轻ITP 2.1和ITP 2.2的影响。强烈建议Target客户将 [ECID库4.3+与Target的JavaScript库一起部署](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ，以减轻任何未来ITP版本的影响。 ECID 库将持续增强，针对各浏览器推出的不断变化的 Cookie 策略提供完善的解决方案。<br>请参阅 [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
 
 **增强功能、修复和更改**
 
-* 修复了在添加重复值时无法清除Recommendations活动中的排除值的问题。 (TGT-34996)
-* 您现在可以从定位页面中删除推荐活动中的设计（三部分指导式工作流的步骤2）。 请注意，要删除设计，必须选择多个设计。 (TGT-35118)
-* Fixed an issue that prevented custom criteria cards for some customers to load properly in the Target UI or to be editable. (TGT-35170)
+* 修复了在添加重复值时无法清除“推荐”活动中排除值的问题。(TGT-34996)
+* 现在，您可以从定位页面中删除“推荐”活动中的设计（三步引导式工作流的步骤 2）。请注意，要删除一个设计，必须选择多个设计。(TGT-35118)
+* 修复了导致某些客户的自定义标准卡无法在 Target UI 中正确加载或者无法编辑的问题。(TGT-35170)
 
-### at.js version 2.1.1 (July 24, 2019)
+### at.js 版本 2.1.1（2019 年 7 月 24 日）
 
-此版本的at.js是维护版本，包括以下增强和修复：
+此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
 
 （括号中的问题编号供 Adobe 内部使用。）
 
-* 修复了在可视体验书写器(VEC)的“目标和设置”页面上使用“单击跟踪”度量时，导致多个信标触发的问题。 (TNT-32812)
-* Fixed an issue that caused  to not render offers more than once. `triggerView()`(TNT-32780)
-* Fixed an issue with  to ensure that the request contains Marketing Cloud ID (MCID) information. `triggerView()`(TNT-32776)
-* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
-* Fixed an issue that caused an error due to the use of decodeURIcomponent that caused issues when the URL contains a malformed query string parameter. (TNT-32710)
-* The beacon flag is now set to "true" in the context of delivery requests sent via the  API. `Navigator.sendBeacon()`(TNT-32683)
-* Fixed an issue that prevented Recommendations offers from displaying on websites for a few customers. Customers could see the offer content in the delivery API call but the offer was not applied on the website. (TNT-32680)
-* Fixed an issue that caused click-tracking across multiple experiences to not work as expected. (TNT-32644)
-* Fixed an issue that prevented at.js from applying the second metric after the rendering of the first metric fails. (TNT-32628)
-* Fixed an issue when passing  using the  function that caused the request payload to not be present in either the query parameters or in the request payload. `mboxThirdPartyId``targetPageParams`(TNT-32613)
-* Fixed an issue that caused display and click notification responses to be blocked in Chromium-based browsers (including Google Chrome). (TNT-32290)
+* 修复了在可视化体验编辑器 (VEC) 中的“目标和设置”页面上使用“点击跟踪”量度时导致多个信标触发的问题。(TNT-32812)
+* 修复了导致 `triggerView()` 无法多次渲染选件的问题。(TNT-32780)
+* 修复了 `triggerView()` 存在的一个问题，以确保请求包含 Marketing Cloud ID (MCID) 信息。(TNT-32776)
+* 修复了即使没有保存的视图，也无法触发 `triggerView()` 通知的问题。(TNT-32614)
+* 修复了由于使用 decodeURIcomponent 而导致错误的问题，当 URL 包含格式不正确的查询字符串参数时，decodeURIcomponent 会引发问题。(TNT-32710)
+* 在通过 `Navigator.sendBeacon()` API 发送交付请求的上下文中，信标标志现在被设置为“true”。(TNT-32683)
+* 修复了导致无法在网站上向少数客户显示“推荐”选件的问题。客户可以在交付 API 调用中看到选件内容，但该选件未在网站上应用。(TNT-32680)
+* 修复了导致多个体验中的点击跟踪无法按预期工作的问题。(TNT-32644)
+* 修复了导致 at.js 在第一个量度渲染失败后无法应用第二个量度的问题。(TNT-32628)
+* 修复了使用 `mboxThirdPartyId` 函数传递 `targetPageParams` 时出现的问题，该问题导致请求有效负载不存在于查询参数或请求有效负载中。(TNT-32613)
+* 修复了导致在基于 Chromium 的浏览器（包括 Google Chrome）中阻止显示和点击通知响应的问题。(TNT-32290)
 
-For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+有关此版本 at.js 以及之前版本的信息，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
 ### Target Standard/Premium 19.6.1（2019 年 6 月 26 日） {#tgt-19-6-1-historical}
 
@@ -372,7 +393,7 @@ target/r_release-notes-2018.xml
 <table id="table_7ABC8E7477194D4C8C9E82ECE60E3498"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 功能 / 增强功能 </th> 
+   <th colname="col1" class="entry"> 功能/增强 </th> 
    <th colname="col2" class="entry"> 描述 </th> 
   </tr> 
  </thead>
@@ -410,7 +431,7 @@ target/r_release-notes-2018.xml
 <table id="table_4785030753B24AA1A973E1DF790B83DD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 功能 / 增强功能 </th> 
+   <th colname="col1" class="entry"> 功能/增强 </th> 
    <th colname="col2" class="entry"> 描述 </th> 
   </tr> 
  </thead>
@@ -438,7 +459,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target 基础知识网络研讨会系列 </p> </td> 
-   <td colname="col2"> <p>加入新的 Target 基础网络研讨会系列，这是社区为您提供的客户成功网络研讨会系列。 </p> <p> 下一场网络研讨会（报表和值社会化中的最佳实践）定于 2018 年 8 月 22 日早上 8 点到 9 点（太平洋夏令时）召开。 </p> <p>请参阅<a href="../cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4" format="dita" scope="local">Target 基础知识网络研讨会系列</a>。 </p> </td> 
+   <td colname="col2"> <p>加入新的 Target 基础网络研讨会系列，这是社区为您提供的客户成功网络研讨会系列。 </p> <p> 下一场网络研讨会（报表和值社会化中的最佳实践）定于 2018 年 8 月 22 日早上 8 点到 9 点（太平洋夏令时）召开。 </p> <p>请参阅 <a href="../cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4" format="dita" scope="local">Target 基础知识网络研讨会系列</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -460,7 +481,7 @@ target/r_release-notes-2018.xml
 <table id="table_7E3513EABA4948DC92EADCCE0234A9FF"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 功能 / 增强功能 </th> 
+   <th colname="col1" class="entry"> 功能/增强 </th> 
    <th colname="col2" class="entry"> 描述 </th> 
   </tr> 
  </thead>
@@ -528,7 +549,8 @@ target/r_release-notes-2018.xml
       <li id="li_818AA4EDDAC04D8B9BB4BA708D6BEF99"> <p>添加了对 <span class="codeph">screenOrientation</span>、<span class="codeph">devicePixelRatio</span> 和 <span class="codeph">webGLRenderer</span> 的支持。这些新的 Target 请求参数用于 iPhone X 和其他新型设备检测。有关更多信息，请参阅<a href="../c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local">移动设备</a>。(TNT-29781) </p> </li> 
       <li id="li_87E3FB8B423C472AB1EE0DF2D7C64885"> <p>修复了并非总是发送 Adobe Audience Manager (AAM) 位置提示的问题。(TNT-29695) </p> </li> 
       <li id="li_E9E5A5035AC24F54ADEF5447E3F15D3B"> <p>对于支持 at.js 1.5.0 的浏览器，at.js 1.5.0 会切换到 MutationObserver 以进行选择器轮询。at.js 1.0.0 之前的版本使用 MutationObserver polyfill，而这被证明是有问题的。为避免出现 polyfill 问题，版本 1.5.0 使用以下伪代码来确定使用哪种计划机制： </p> <p> 
-        <code>          if MutationObserver is supported scheduler = MutationObserver else if document is visible scheduler = requestAnimationFrame else scheduler = setTimeout 
+        <code>
+          if MutationObserver is supported scheduler = MutationObserver else if document is visible scheduler = requestAnimationFrame else scheduler = setTimeout 
         </code> </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -546,7 +568,7 @@ target/r_release-notes-2018.xml
 <table id="table_5A60FFE5E86148F4BDC6A7031D03D6BA"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 功能 / 增强功能 </th> 
+   <th colname="col1" class="entry"> 功能/增强 </th> 
    <th colname="col2" class="entry"> 描述 </th> 
   </tr> 
  </thead>
@@ -727,7 +749,7 @@ target/r_release-notes-2018.xml
          <li id="li_DAF9CC1E86834C62B93419429B43A2CB"> <p>CONTENT_RENDERING_START </p> </li> 
          <li id="li_A52DC337115248A1BE5AF5B358BE5A9A"> <p>CONTENT_RENDERING_NO_OFFERS </p> </li> 
          <li id="li_7D71E48016B1446995493EBBF7D32447"> <p>CONTENT_RENDERING_REDIRECT </p> </li> 
-        </ul> </p> <p>有关更多信息，请参阅<a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_A828E4BA535F4E7692A075F3D70CF6CD" format="dita" scope="local">at.js 自定义事件</a>。 </p> </li> 
+        </ul> </p> <p>有关更多信息，请参阅 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_A828E4BA535F4E7692A075F3D70CF6CD" format="dita" scope="local">at.js 自定义事件</a>。 </p> </li> 
       <li id="li_E2704294F8BA47FFAABE7572F67FB5C0"> <p>您可以使用来自数据提供程序的其他参数来增强 at.js 请求。应将数据提供程序添加到 <span class="codeph">dataProviders</span> 键下方的 <span class="codeph">window.targetGlobalSettings</span>。 </p> <p>有关更多信息，请参阅 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a> 中的“数据提供程序”。 </p> </li> 
       <li id="li_02EAFE6DA0D44CF88980184FD14226A5"> <p>at.js 请求现在使用 GET，但当 URL 大小超过 2048 个字符时，它会转为使用 POST。新增了一个名为 <span class="codeph">urlSizeLimit</span> 的属性，如有必要，您可以在此属性中提高大小限制。通过这项更改，Target 可以使 at.js 与使用相同技术的 AppMeasurement 保持一致。 </p> </li> 
       <li id="li_43363A4F3A764394AA88D2595F93D8C0"> <p>现在，Target 强制要求在 <span class="codeph">adobe.target.applyOffer(options)</span> 函数中使用 <span class="codeph">mbox</span> 键。以往，这些键值是要求使用的，但现在，Target 强制使用该键值以确保 Target 正确验证并且客户正确地使用该函数。 </p> <p>有关更多信息，请参阅 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_BBE83F513B5B4E03BBC3F50D90864245" format="dita" scope="local">adobe.target.applyOffer(options)</a>。 </p> </li> 
@@ -1729,7 +1751,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 推荐：插入外部促销活动 </td> 
-   <td colname="col2"> <p>可添加促销项目并控制它们在 “推荐”设计中的放置位置。 </p> <p>有关更多信息，请参阅<a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">添加促销活动</a>。 </p> </td> 
+   <td colname="col2"> <p>可添加促销项目并控制它们在“推荐”设计中的放置位置。 </p> <p>有关更多信息，请参阅<a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">添加促销活动</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>抢先版</b> </p> A/B 活动中的自动定位 </td> 
@@ -2114,7 +2136,10 @@ Adobe Target Standard/Premium 16.5.1（2016 年 5 月 19 日）版本包括以�
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 推荐 CSV 下载 </td> 
-   <td colname="col2"> <p>现在，CSV 下载适用于所有环境，包括不具有实体推荐的环境（例如：<code># environment: 1724</code>）。 </p> </td> 
+   <td colname="col2"> <p>CSV downloads now have a line for all environments, including those that do not have entity recommendations (for example: 
+     <code>
+       # environment: 1724 
+     </code>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3037,7 +3062,7 @@ target/r_release-notes-2014.xml
 
 此版本包括以下功能和增强功能：
 
-| 功能/增强功能 | 描述 |
+| 功能/增强 | 描述 |
 |---|---|
 | 允许插入和编辑 JavaScript | 增加了在用户从操作菜单选择“**[!UICONTROL 编辑 HTML]”时在体验编辑器中编辑和插入 JavaScript 的功能。** |
 | 受众自动导入 | 用户打开受众列表时在后台自动导入受众，导入的受众时间超过 10 分钟。 |
@@ -3054,7 +3079,7 @@ target/r_release-notes-2014.xml
 
 此版本包括以下新增功能和增强功能：
 
-| 功能/增强功能 | 描述 |
+| 功能/增强 | 描述 |
 |---|---|
 | 通过提高字符限制，增强了 HTML 选件与 [!DNL Target Classic] 同步的功能 | 提高了在“内容”下面创建 HTML 选件的字符限制，以遵守 HTML 选件与 [!DNL Target Classic] 同步的 256 KB 限制。 |
 | 改善了在“体验编辑器”中创建错误时的用户体验。 | 当页面上的 DOM 结构更改破坏了选择器时，“体验编辑器”会显示一则消息。 |

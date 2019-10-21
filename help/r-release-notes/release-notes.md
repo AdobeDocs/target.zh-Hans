@@ -8,7 +8,7 @@ title: Target 发行说明（当前版本）
 topic: 推荐
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
+source-git-commit: 956a6b88fac9a13b98ede655e930aa016fe82533
 
 ---
 
@@ -16,6 +16,41 @@ source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
 # Target 发行说明（当前版本）{#target-release-notes-current}
 
 这些发行说明介绍了每个 Target Standard 和 Target Premium 版本的功能、增强功能和修复信息。此外，还包含Target API、SDK、JavaScript库(at.js)的发行说明以及其他平台更改（如果适用）。
+
+括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+## Target Standard/Premium 19.10.1（2019 年 10 月 22 日） 
+
+| 功能/增强 | 描述 |
+| --- | --- |
+| ![高级徽章](/help/assets/premium.png) ，基于用户的推荐<br>（2019年10月24日） | 根据每个访客的浏览、查看和购买历史记录推荐项目。 这些项目通常称为“推荐给您”。<br>通过此标准，您可以向新访客和回头客提供个性化的内容和体验。 推荐列表会根据访客最近的活动进行加权，并会在会话中更新，并随着访客浏览您的网站而变得更加个性化。<br>有关详细信息，请参阅标准／算法中的“基于用 [户的推荐”](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)。 |
+
+### 增强功能、修复和变更
+
+* 登录到时，您 [!DNL Adobe Experience Cloud]将转到新的标题导航。 它看起来与上一个导航非常相似，顶部有黑条，但它提供了以下改进：
+
+   * 更轻松地在 [!DNL Identity Management System] (IMS)组织之间切换或切换到其他解决方案。
+   * 改进的用户帮助：搜索结果包括产品文档中的结 [!DNL Target] 果、社区论坛和更多视频内容，让您能够更轻松地访问更多内容，从而帮助您发挥最大作用 [!DNL Target]。 我们还在“帮助”菜单中添加了反馈机 [!UICONTROL 制] ，使报告问题或分享您的想法更加容易。
+
+   * 改进了Net Promoter Score(NPS)反馈功能，因此调查模式不会干扰您的工作流。
+   * 改进了登录流程。 以前，所 [!DNL Target] 有客户在单击标题中的图标后都登 [!DNL Target] 录到Target登录页面。 然后，此页允许客户继续使用、 [!DNL Target Standard/Premium]或l [!DNL Search&Promote]推荐 [!DN经典]，如下所示：
+
+      ![登陆页面](/help/r-release-notes/assets/landing.png)
+
+      我们为所有客户取消了此登录页面。 现在，您始终可以通过单击新标题导 [!UICONTROL 航栏中的图标，直][!DNL Target] 接转到“活动列表”页面。
+
+      如果您使 [!DNL Recommendations Classic]用，您可以直接转到解决方案，也可以从在“推荐”选项卡上创建的简短链 [!UICONTROL 接] ，如下所示：
+
+      ![Recs Classic深层链接](/help/r-release-notes/assets/recs-classic.png)
+
+      如果您使 [!DNL Search&Promote]用，则需要直接转到链接。 从内部到达 [!DNL Search&Promote] 的路径已 [!DNL Adobe Target] 完全删除。
+
+   * 标题 [!DNL Target] 的“通知”下拉框 [!UICONTROL 中] ，当前不提供通知。
+   >[!NOTE]
+   >
+   >这些功能不会同时推出，也不会一起推出给所有客户。 从2019年10月22日的 [!DNL Target Standard/Premium] 19.10.1版本开始，我们将在接下来的几天内推出这些功能。
+   >
+   >作为新导航栏转出的一部分，您还会注意到一些URL更改。 所有以前已添加书签的链接将继续有效，但我们建议您为新链接加入书签以加快打开速度。
 
 ## at.js版本2.2和1.8（2019年10月10日）
 
@@ -29,20 +64,6 @@ source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
 | --- | --- |
 | Node.js SDK版本1.0 | Target Node.js SDK允许您在服务器端部署Target。<br>此Node.js SDK可帮助您将Target轻松集成到其他Experience cloud解决方案中，如Adobe Experience Cloud Identity Service、Adobe Analytics和Adobe Audience Manager。<br>Node.js SDK在通过我们的交付API与Adobe Target集成时引入了最佳实践并消除了复杂性，使您的工程团队能够专注于业务逻辑。 下面是我们在最新版本中介绍的显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>支持在网页和服务器端同时集成Target时优化性能。 我们将引入一个名为的设置，该设置将由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 `serverState` 此方法可优化页面加载性能。</li><li> 支持通过Node.js SDK检索VEC创建的活动，新的交付API使这成为可能。</li><li>开放源代码，以便开发人员能够为Node.js SDK做出贡献。</li></ul><br>有关详细信息，请 [参阅发行说明- Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)。 |
 | 交付API | 生产中提供了全新的交付API端点（/v1/交付）。 显着功能包括：<ul><li>一个端点，用于检索一个或多个mbox的体验。</li><li>通过API检索VEC创建的活动。</li><li>支持一个称为“视图”的全新对象，该对象用于单页应用程序(SPA)和移动应用程序。</li></ul><br>有关详细信息，请参 [阅发行说明——目标服务器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)。 |
-
-## Target Standard/Premium 19.9.2（2019 年 9 月 30 日）
-
-此维护版本包括以下增强功能：
-
-* 多个安全修复，包括对可视化体验编辑器 (VEC) 中富文本编辑器 (RTE) 的安全更新。(TGT-35383)
-* 现在，除DIV外，A/B测试和体验定位活动中还可以将推荐选件添加到DIV以外的元素（例如P、UL、H1）。 (TGT-34333)
-* 活动通知（目标UI中的铃铛图标）不再可用。 通知的新外观即将推出。
-
-## Target Standard/Premium 19.9.1（2019 年 9 月 10 日）
-
-| 功能/增强 | 描述 |
-| --- | --- |
-| ![高级徽章](/help/assets/premium.png) Enterprise权限 | 在Target 2019年9月版本中，企业权限为客户提供了以下访问控制：<UL><li>您可以选择可将集成应用到的工作空间.</li><li>您可以对 Adobe I/O 集成应用以下角色：审批者、编辑者或观察者。</li></ul>有关分步说明和更多信息，请参阅[授予 Adobe I/O 集成访问工作区的权限并分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
 
 ## 其他发行说明和版本详细信息
 

@@ -8,7 +8,7 @@ title: 活动 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
+source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 ---
 
@@ -75,7 +75,7 @@ source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
    您也可以手动强制自己退出该模式，方法是在网站上使用具有空值的 `at_preview_token` 参数（例如 `https://www.mysite.com/?at_preview_token=`）来加载页面。
 
 * 如果在创建活动时指定了“URL is”[基于表单的编辑器中的细化](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)或[可视化体验编辑器中的页面交付选项](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，则 QA URL 将无效，因为活动 QA 会附加 URL 参数。要解决此问题，请单击 QA URL 以转到您的网站，并从该 URL 中删除附加的参数，然后再加载新的 URL。
-* 如果您有at.js 1。*x* 或mbox.js，如果您的浏览器阻止第三方Cookie，则活动QA模式不会粘滞。 在这些情况下，您必须将预览参数添加到导航到的每个URL。
+* 如果您有at.js 1。*x*&#x200B;或mbox.js，如果您使用Safari或其他阻止第三方Cookie的浏览器，则活动QA模式将不会粘滞。 在这些情况下，您必须向导航到的每个URL添加预览参数。
 * 如果一个活动使用了多个体验受众（例如同一个活动中同时包含一个美国网站和一个英国网站），则不会为存在的四种组合（体验 A/美国网站，体验 A/英国网站，体验 B/美国网站，体验 B/英国网站）各生成一个 QA 链接。而是只会创建两个 QA 链接（体验 A 和体验 B），且用户必须符合相应受众条件才能看到相应的页面。例如，英国的 QA 用户将无法看到美国网站。
 * 所有 `at_preview` 参数和值均已进行 URL 编码。在大多数情况下，一切都会按预期运行；但是，有些客户使用的负载平衡器或 Web 服务器可能会尝试对查询字符串参数再次进行编码。
 

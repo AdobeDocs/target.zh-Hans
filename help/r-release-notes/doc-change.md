@@ -1,14 +1,14 @@
 ---
 description: 此页面列出了对 Target 文档所做的重要更改。
 keywords: Target 文档更改日志;文档更新；新主题；编辑
-seo-description: 此页面列出了对 Adobe Target 文档所做的重要更改。
+seo-description: 本页列出了对Adobe target文档所做的重要更改（按版本排序）。
 seo-title: Adobe Target 产品文档中的文档更改。
 solution: Target
 title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9e7d1b0b9beae7817e958735e306c24318109b9f
+source-git-commit: 58d00c968a3e67c253aec833b554a3ec2116765f
 
 ---
 

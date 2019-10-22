@@ -8,7 +8,7 @@ title: Target 发行说明（当前版本）
 topic: 推荐
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
 | --- | --- |
 | ![高级徽章](/help/assets/premium.png) ，基于用户的推荐<br>（2019年10月24日） | 根据每个访客的浏览、查看和购买历史记录推荐项目。 这些项目通常称为“推荐给您”。<br>通过此标准，您可以向新访客和回头客提供个性化的内容和体验。 推荐列表会根据访客最近的活动进行加权，并会在会话中更新，并随着访客浏览您的网站而变得更加个性化。<br>有关详细信息，请参阅标准／算法中的“基于用 [户的推荐”](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)。 |
 
-### 增强功能、修复和变更
+### Adobe Experience cloud导航
 
 * 登录到时，您 [!DNL Adobe Experience Cloud]将转到新的标题导航。 它看起来与上一个导航非常相似，顶部有黑条，但它提供了以下改进：
 
@@ -48,7 +48,7 @@ source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
    * 标题 [!DNL Target] 的“通知”下拉框 [!UICONTROL 中] ，当前不提供通知。
    >[!NOTE]
    >
-   >这些功能不会同时推出，也不会一起推出给所有客户。 从2019年10月22日的 [!DNL Target Standard/Premium] 19.10.1版本开始，我们将在接下来的几天内推出这些功能。
+   >这些功能不会同时推出，也不会一起推出给所有客户。 我们将在未来几周推出这些功能，从 [!DNL Target Standard/Premium] 19.10.1（2019年10月22日）版本开始。
    >
    >作为新导航栏转出的一部分，您还会注意到一些URL更改。 所有以前已添加书签的链接将继续有效，但我们建议您为新链接加入书签以加快打开速度。
 

@@ -8,7 +8,7 @@ title: 定位和受众常见问题解答
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # 定位和受众常见问题解答{#targets-and-audiences-faq}
 
 有关体验定位和受众的常见问题解答 (FAQ) 列表。
+
+## 创建复杂的URL字符串时，是否 [!DNL Target] 会评估整个URL?
+
+如果在URL字符串中多次使用相同的参数名称，HTTP会考虑第一个参数名称并忽略后续同名的参数。
+
+例如，在以下URL字符串中：
+
+`https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
+
+计算该参数的第一 `Category` 实例并忽略第二 `Category` 参数。
 
 ## 构建受众时，为何会在其他类别下找到“定位库”下预先构建的受众？{#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 

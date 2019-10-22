@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
+source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
 | 潜在客户拓展/B2B/金融服务 | 转化但不购买 |
 | 媒体/出版 | 参与度 |
 
-## 推荐键 {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 您选择的推荐键决定了标准类型。标准类型具有以下几种（在设置 [!DNL Recommendations] 活动时，这些标准类型会显示为相应的标准卡片）。
 
@@ -43,6 +43,35 @@ source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
 | 人气 | 推荐最受欢迎的项目，例如相关类别中最热门的视频或网站上最常查看的产品。<ul><li>人气</li></ul> |
 | 最近查看的项目 | 推荐访客最近查看过的项目，例如访客上次访问您的网站时所查看的项目，或访客当前最倾向于查看的商品。<br>“最近查看的项目”算法会返回特定于某个[环境](/help/administrating-target/hosts.md)中的访客活动。如果两个网站属于不同的环境，并且访客在两个网站之间切换访问，则算法将仅返回相应网站的最近查看的项目。<br>此标准类型不受收藏集限制。<ul><li>最近查看的项目</li></ul>**注意：**&#x200B;您无法在备用推荐中使用“最近查看的项目”标准。<br>可以筛选最近查看的项目/媒体，以便仅显示具有特定属性的项目。<ul><li>与推荐中的其他标准一样，“最近查看的项目”标准也可配置。</li><li>您可以使用[收藏集](/help/c-recommendations/c-products/collections.md)、[排除项](/help/c-recommendations/c-products/exclusions.md)和[包含项](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)（包括针对价格和库存的特殊规则），其使用方法与任何其他标准相同。</li></ul>用例可能包括：<ul><li>一家开展多种业务的跨国公司可能会让访客在多个数字财产中查看项目。在这种情况下，您可以限制最近查看的项目，以便仅显示之前查看的相应财产中的项目。执行此操作可防止最近查看的项目在其他数字财产网站上显示。</li></ul> |
 
+## Using a custom recommendations key {#custom-key}
+
+您还可以根据自定义配置文件属性的值来推荐。
+
+>[!NOTE]
+>
+>可以通过JavaScript、API或集成将自定义配置文件参数传递到Target。 有关自定义配置文件属性的详细信息，请参 [阅访客配置文件](/help/c-target/c-visitor-profile/visitor-profile.md)。)
+
+例如，假定您希望根据用户最近添加到其队列的电影显示推荐的电影。
+
+Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+
+Then select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+
+![“创建新条件”对话框](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+
+If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
+
+例如，假设您希望显示来自用户喜爱品牌的畅销商品。
+
+Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
+
+Then select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+
+此时会显示[!UICONTROL 按以下项的唯一值分组]选项。选择与您所选的键匹配的实体属性。In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+
+[!DNL Recommendations] 现在为每个品牌生成一个“最畅销商品”列表，并根据“最喜爱的品牌”配置文件属性中存储的值向用户显示相应的“最畅销商品  ”列表。
+
+![“最畅销商品”属性](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
 ## 标准/算法 {#criteria-algorithms}
 

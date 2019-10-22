@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 58d00c968a3e67c253aec833b554a3ec2116765f
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 58d00c968a3e67c253aec833b554a3ec2116765f
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2019 年 10 月 22 日 | [标准/算法](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | 为“基于用户的推荐”添加了行。 |
+|  | [目标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新增了常见问题解答：“创建复杂的URL字符串时，是否 [!DNL Target] 会评估整个URL?” |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：19.10.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe Target/Standard/Premium 19.9.1（2019年9月30日）

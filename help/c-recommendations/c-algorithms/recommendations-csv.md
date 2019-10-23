@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
+source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
 
 ---
 
@@ -44,7 +44,9 @@ source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
    描述应该有助于您识别该标准，并且可以包含与标准用途相关的信息。
 1. 选择&#x200B;**[!UICONTROL 垂直行业]**。
 
-   根据您选择的垂直行业，其他标准选项可能会发生相应的更改。1. 选择&#x200B;**[!UICONTROL 页面类型]**。
+   根据您选择的垂直行业，其他标准选项可能会发生相应的更改。
+
+1. 选择&#x200B;**[!UICONTROL 页面类型]**。
 
    您可以选择多个页面类型。
 
@@ -72,7 +74,7 @@ source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
    >
    >自定义标准实体（行）最多可包含 1,000 个推荐项目（列）。
 
-自定义标准更新默认为“累计”。CSV 上传文件中指定的新键值对会覆盖现有的键值对。Existing key-value pairs that don't have keys specified in the CSV upload will still be available for delivery and will expire in 31 days from the time they are last uploaded as part of the CSV file.
+自定义标准更新默认为“累计”。CSV 上传文件中指定的新键值对会覆盖现有的键值对。没有在 CSV 上传中指定键的现有键值对仍可用于交付，并且将 31 天内到期，从上次将其作为 CSV 文件的一部分上传的时间开始计算。
 
 要使设置能够放弃下一次 CSV 上传中未包含的现有结果，请与客户关怀团队联系。如果启用此设置，则只有自定义 CSV 信息源文件中存在的键才可用于交付。此设置适用于所有自定义标准。
 
@@ -93,9 +95,9 @@ source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 | 未找到目录 | 请提供服务器上存在的目录。 |
 | 未找到文件 | 请提供服务器上所指示目录中存在的文件名称。 |
 
-## Training video: Create criteria in Recommendations (12:33)
+## 培训视频：在“推荐”中创建标准 (12:33)
 
-此视频包含以下信息：
+本视频包含以下信息：
 
 * 创建标准
 * 创建标准序列

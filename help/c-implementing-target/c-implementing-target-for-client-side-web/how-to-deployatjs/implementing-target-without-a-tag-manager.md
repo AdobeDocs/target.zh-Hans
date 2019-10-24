@@ -9,7 +9,7 @@ title: 不通过标签管理器实施 Target
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -112,7 +112,7 @@ ov2/c_target-configure-atjs.xml
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
    ```
 
-   将 ` < *`client code`*>` 替换为步骤 1 中的客户端代码。
+   Replace `client code` with the client code from Step 1.
 
    加载此 URL 后，应该会出现类似于以下示例的结果：
 
@@ -132,9 +132,9 @@ ov2/c_target-configure-atjs.xml
    https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
    ```
 
-   * 将 ` < *`admin number`*>` 替换为您的管理员编号。
-   * 将 ` < *`client code`*>` 替换为步骤 1 中的客户端代码。
-   * 将 ` < *`version number`*>` 替换为所需的 [[!DNL at.js] 版本号](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)（例如，1.6.2）。
+   * Replace `admin number` with your admin number.
+   * Replace `client code` with the client code from Step 1.
+   * Replace `version number` with the desired at.js version number (for example, 2.2).
    >[!IMPORTANT]
    >
    >Target 团队仅维护两个版本的 [!DNL at.js]：当前版本和当前版本的上一个版本。请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。有关每个版本中功能的更多信息，请参阅 [at.js 版本详细信息](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。

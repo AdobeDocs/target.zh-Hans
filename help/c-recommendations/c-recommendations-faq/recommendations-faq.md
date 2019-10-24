@@ -1,8 +1,8 @@
 ---
 description: 有关“推荐”活动的常见问题解答 (FAQ) 列表。
 keywords: 故障诊断;常见问题解答;FAQ;推荐;特殊字符;属性权重;内容相似度
-seo-description: 有关“推荐”活动的常见问题解答 (FAQ) 列表。
-seo-title: “推荐”常见问题解答
+seo-description: 关于Adobe Target Recommendations活动的常见问题解答(FAQ)列表。
+seo-title: Adobe Target Recommendations常见问题解答
 solution: Target
 title: “推荐”常见问题解答
 title-outputclass: premium
@@ -10,14 +10,14 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) “推荐”常见问题解答 {#recommendations-faq}
 
-有关“推荐”活动的常见问题解答 (FAQ) 列表。
+关于Adobe Target Recommendations活动的常见问题解答(FAQ)列表。
 
 ## 目录中的项目更新将需要多长时间才会反映在我的网站上？
 
@@ -119,9 +119,9 @@ Target 提供了一个[筛选不兼容的标准](../../c-recommendations/plan-im
 
 Target 有时无法显示推荐，原因在于可用推荐的数量过低。
 
-每个标准所生成的值的数量是设计中指定的实体数量的 5 倍。运行时筛选（例如库存和 mbox 属性匹配）将在生成 5 倍的值后进行应用，因此有可能在交付时最终生成的值不足 5 倍。为缓解这一情况，可通过隐藏额外的实体来增加设计中的实体数量。
+每个标准所生成的值的数量是设计中指定的实体数量的 3 倍。运行时筛选（例如库存和 mbox 属性匹配）将在生成 3 倍的值后进行应用，因此有可能在交付时最终生成的值不足 3 倍。为缓解这一情况，可通过隐藏额外的实体来增加设计中的实体数量。
 
-可在设计开始时使用以下 JavaScript 来增加请求实体的数量。在此示例中，请求的实体计数将为 50 (5x10)。
+可在设计开始时使用以下 JavaScript 来增加请求实体的数量。在此示例中，请求的实体计数将为 30 (3x10)。
 
 ```
 #foreach($entity in $entities) 

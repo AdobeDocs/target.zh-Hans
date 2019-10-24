@@ -1,6 +1,6 @@
 ---
 description: 有关此 Target 版本的已知问题的信息。此外，还包括有关已解决问题的信息。
-keywords: 已知问题;已解决的问题;发行说明;bugs;issues;fixes
+keywords: 已知问题;已解决的问题;发行说明；错误；问题；修复
 seo-description: 有关此版本的Adobe Target的已知问题的信息。 此外，还包括有关已解决问题的信息。
 seo-title: Adobe Target 中的已知问题和已解决的问题
 solution: Target
@@ -8,7 +8,7 @@ title: 已知问题和已解决的问题
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
 
 下面部分列出了 [!DNL Target] 的已知问题：
 
-### Activity QA preview links {#preview}
+### 活动 QA 预览链接 {#preview}
 
-[Activity QA preview links for saved activities might not load if there are too many saved activities in your account. ](/help/c-activities/c-activity-qa/activity-qa.md)重新尝试预览链接应可正常使用。 To prevent this from continuing to happen, archive saved activities that are no longer actively used. (TNT-32697)
+如果帐户中保存的活动过多，则可能无法加载已保存活动的[活动 QA 预览](/help/c-activities/c-activity-qa/activity-qa.md)链接。重试预览链接应该有效。为了防止这种情况继续发生，请存档将不再积极使用的已保存活动。(TNT-32697)
 
 ### 重定向选件 {#redirect}
 
@@ -62,23 +62,27 @@ source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
 
 以下是“推荐”活动存在的已知问题：
 
-* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
-* The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
-* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
-* Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can only be edited via API. (TGT-35777)
-* Recommendations activities created via API can be viewed in the user interface, but can only be edited via API.
+* 实体在没有通过源或API接收更新的60天后正确过期；但是，过期后不会从目录搜索索引中删除已过期的实体。 (IRI-857)
+* 标准和设计的“使用信息”叠加不反映它们在A/B和体验定位活动中的使用情况(TGT-34331)
+* A/B和“体验定位”活动中的“推荐”选件不显示“推荐”托盘的可视预览(TGT-33426)
+* 通过API创建的集合、排除、条件和设计在Target用户界面中不可见，只能通过API编辑。 (TGT-35777)
+* 通过API创建的推荐活动可在用户界面中查看，但只能通过API编辑。
 
 ### 多变量测试 (MVT) 活动
 
 在 MVT 活动中查看量度时，表格和图形中显示的入选者不一致。如果用户从摘要视图切换到图形视图，之后又切换回摘要视图，更改量度，然后再切换到图形视图，则会出现此问题。出现此问题时，摘要视图会始终显示正确的入选者。如果用户从未在摘要视图和图形视图之间来回切换多次，则图形视图将显示正确的入选者。
 
-### at.js
+### at.js {#atjs}
 
 以下是 at.js 存在的已知问题：
 
-* If you create an experience with no modifications using at.js 2.*x (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Analytics, or Google Analytics.* In addition, the ttMeta plug-in might not work correctly.[](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
+* 如果您使用at.js 2.1.1或更早版本（例如默认体验）创建不进行任何修改的体验，则该体验可能不会计入报告、Analytics for Target(A4T)、Adobe Analytics或Google Analytics中。 此外， [ttMeta插件可能无法正确工作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 。
 
-   As a workaround, use a whitespace in the experience content. (TNT-33366)
+   作为解决方法，请在体验内容中使用空白。 (TNT-33366)
+
+   >[!NOTE]
+   >
+   >at.js 2.2.0中包含此问题的修复。您应升级到最 [新版本或at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ，或仅对2.2.0之前的at.js版本使用上述补救方法。
 
 * 将页面加载到可视化体验编辑器 (VEC) 中时，Target 需要确定全局 mbox 设置是处于启用状态还是禁用状态，以及 entityID 或 categoryID 是否存在于用户尝试在 VEC 中应用推荐的位置。标准列表将会根据这些信息进行筛选。默认列表已筛选算法，但[“兼容”复选框](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)允许您查看完整的算法列表。
 
@@ -131,7 +135,7 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 
 * 如果推荐信息源中的项目与上一次运行中的项目相同，则该信息源索引会显示“正在等待编入索引”。要交付的产品引入不会受到影响。(RECS-6663)
 
-   Target 19.4.2版本中修复了此问题。
+   已在 Target 19.4.2 版本中修复此问题。
 
 * “推荐”信息源在处理时所花费的时间比预期要长。(COR-2836)
 
@@ -145,7 +149,7 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 
 页面上出现的争用情况可能会导致同时计入原始页面和重定向页面上的页面查看次数。我们计划对 at.js 实施进行更新，以确保避免出现这种争用情况。
 
-This issue was fixed in at.js 1.6.3.
+已现在 at.js 1.6.3 中修复此问题。
 
 ### 排除组
 
@@ -166,7 +170,7 @@ Adobe I/O 上的 v1 版选件 API 将通过 Target 创建的所有选件存储�
 
 已在 API 2.3.0 版本或更高版本中修复。
 
-### Adobe Target 中的地域定位
+### 地域定位
 
 在创建地域定位受众时，搜索包含特殊字符（例如空格或逗号）的字符串当前无法正常工作。例如，在根据城市、省/自治区/直辖市、国家/地区创建受众时，会出现这个问题。例如，在搜索“纽约”时，不会返回有效结果。
 

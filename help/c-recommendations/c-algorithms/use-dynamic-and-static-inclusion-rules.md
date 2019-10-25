@@ -1,8 +1,8 @@
 ---
 description: 此信息介绍了如何为标准和促销活动创建包含规则，以及如何添加更多动态或静态筛选规则以获取更好的结果。
 keywords: 包含规则;包含标准;推荐;新建标准;促销活动;动态筛选;动态;空值;忽略筛选规则;静态筛选器;按值筛选;实体属性匹配;配置文件属性匹配;参数匹配;按值筛选;静态筛选器
-seo-description: 此信息介绍了如何为标准和促销活动创建包含规则，以及如何添加更多动态或静态筛选规则以获取更好的结果。
-seo-title: 使用动态和静态包含规则
+seo-description: 有关在Adobe Target Recommendations中创建标准和促销包含规则的信息，以及添加其他动态或静态过滤规则以获得更好的效果。
+seo-title: 在Adobe Target Recommendations中使用动态和静态包含规则
 solution: Target
 title: 使用动态和静态包含规则
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 badge: premium
 translation-type: tm+mt
-source-git-commit: 32fea099784cfc481028358c2270a40a98696a33
+source-git-commit: 5ab3258eda4363072b7cec1d4b5284f1d5638472
 
 ---
 

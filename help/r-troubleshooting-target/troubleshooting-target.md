@@ -8,7 +8,7 @@ title: Target 故障诊断
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -70,6 +70,7 @@ source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 * [Target 优化和个性化常见问题解答](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [定位和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [配置文件脚本属性](/help/c-target/c-visitor-profile/profile-parameters.md)
+* [[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)]
 
 ## 内容
 

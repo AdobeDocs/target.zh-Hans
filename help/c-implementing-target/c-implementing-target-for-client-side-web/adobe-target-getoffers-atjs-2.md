@@ -1,6 +1,6 @@
 ---
 description: '有关 at.js 的 adobe.target.getOffers() 函数的信息。 '
-keywords: adobe.target.getOffers;getOffers;get offers;get offers;at.js；函数；函数
+keywords: adobe.target.getOffers;getOffers;getoffers;获取选件;at.js;函数;函数
 seo-description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers(options) 函数的信息。
 seo-title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers() 函数的信息。
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -23,11 +23,15 @@ source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
 
 | 键值 | 类型 | 必需？ | 描述 |
 | --- | --- | --- | --- |
-| consumerId | 字符串 | 否 | 如果未提供，则默认值为客户端的全局 mbox。可使用此键值生成用于 A4T 集成的补充数据 ID。此键是每个访客的唯一字符串。 |
+| consumerId | 字符串 | 否 | 如果未提供，则默认值为客户端的全局 mbox。可使用此键值生成用于 A4T 集成的补充数据 ID。此键值是每个访客的唯一字符串。 |
 | request | 对象 | 是 | 请参阅下文的“请求”表。 |
 | timeout | 数值 | 否 | 请求超时。如果未指定，将使用默认的 at.js 超时值。 |
 
 ## 请求
+
+>[!NOTE]
+>
+>有关以下 [列出的所有字段的可接受类型](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) ，请查阅交付API文档。
 
 | 字段名称 | 必需？ | 限制 | 描述 |
 | --- | --- | --- | --- |

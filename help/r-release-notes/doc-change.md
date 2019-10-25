@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -21,6 +21,12 @@ source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 10 月 25 日 | [mbox3rdPartyID 的实时配置文件同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 添加了说明，说明如何区分已验证用户与非已验证用户。 |
+|  | [自定义参数](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 在“考虑事项”下添加了新项目，以说明定位不会根据内部mbox参数进行评估。 |
+|  | [使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | 已完全更新主题并删除过时的示例。 |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了链接到Target Delivery API文档的注释，以帮助您了解请求／响应的可用类型（数组、字符串等）。 |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了链接到Target Delivery API文档的注释，以帮助您了解请求／响应的可用类型（数组、字符串等）。 |
+|  | [站点页面](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | 添加了“疑难解答”部分。 |
 | 2019 年 10 月 24 日 | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | 以下常见问题解答中的更新文本：“为什么Target有时无法显示推荐？” |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 为影响at.js的早期版本（版本2.2.0之前）的已知问题添加了注释。 |
 |  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 添加了有关使用A4T的活动的成功量度默认行为的注释。 |

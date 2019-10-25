@@ -2,13 +2,13 @@
 description: 自定义参数为 mbox 参数。如果将任何 mbox 参数传递到 mbox，或者使用 targetPageParams 函数，则此处将显示这些参数，以供在受众中使用。
 keywords: 自定义参数;Target 自定义参数;targetpageparams;定位 mbox 参数
 seo-description: 自定义参数为 mbox 参数。如果将任何 mbox 参数传递到 mbox，或者使用 targetPageParams 函数，则此处将显示这些参数，以供在受众中使用。
-seo-title: Adobe Target中的自定义参数
+seo-title: Adobe Target 中的自定义参数
 solution: Target
 title: 自定义参数
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -52,7 +52,8 @@ For more information, see [Pass parameters to a global mbox](/help/c-implementin
 
 ## 注意事项 {#considerations}
 
-* 受众和活动将针对特定mbox进行评估。 例如，如果全局mbox传递了某个参数，但区域mbox不传递，则该参数的活动／受众定位在区域mbox上将不符合条件。
+* 针对特定 mbox 评估受众和活动。例如，如果全局 mbox 传递了某个参数，但区域 mbox 没有，则针对该参数的活动/受众将不符合区域 mbox 上的条件。
+* 定位不会根据内部mbox参数（如mboxPC、mboxSession、mbox3rdPartyId、mboxCount、mboxId和mboxVersion）进行评估。
 
 ## 培训视频：创建受众
 

@@ -1,21 +1,21 @@
 ---
 description: 定位正在访问某个特定页面或拥有某个指定 mbox 参数的访客。
 keywords: 网站页面;定位网站页面;定位;当前页面;定位当前页面;上一页;定位上一页;登陆页面;定位登陆页面;mbox;定位 mbox
-seo-description: 定位正在访问某个特定页面或拥有某个指定 mbox 参数的访客。
-seo-title: 网站页面
+seo-description: 您可以使用Adobe Target定位特定页面上或具有特定mbox参数的访客。
+seo-title: Adobe Target中的站点页面
 solution: Target
 title: 网站页面
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
 
 # 网页{#site-pages}
 
-定位正在访问某个特定页面或拥有某个指定 mbox 参数的访客。
+您可以定位特定页面上的访客或具有特定mbox参数的访客。
 
 >[!NOTE]
 >
@@ -56,6 +56,19 @@ source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 如下图所示：
 
 ![](assets/site_pages.png)
+
+## 疑难解答 {#ts}
+
+* 要使登陆页面受众正常工作，请求必须正确设置 `mboxReferrer` mbox参数。 at.js javaScript库使用 `mboxReferrer` 从页面中获取 `document.referrer`。
+
+   如果这些参数设置不正确，则访客在导航到后续页面后可能会离开活动。 例如，如果登 `document.referrer` 陆页面上使用了该属性，但后续页面中不使用它，则无 [!DNL Target] 法确保访客仍保留在活动中。
+
+   如果您遇到这种情况，请考虑执行下列操作之一：
+
+   * 确保您的网站加载 `document.referrer` 正确。
+   * 传递 [mbox参数](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) , [!DNL Target] 以便用于定位目的。
+   * 使用 [A/B测试活动](/help/c-activities/t-test-ab/test-ab.md) ，而不是登录页面活动。 A/B测试活动不会切换同一访客的体验。
+   * 请改用访 [客资料](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 。
 
 ## 培训视频：创建受众
 

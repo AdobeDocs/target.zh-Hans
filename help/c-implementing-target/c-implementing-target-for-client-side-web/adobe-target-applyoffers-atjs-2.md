@@ -1,6 +1,6 @@
 ---
 description: '有关 at.js 的 adobe.target.applyOffers() 函数的信息。 '
-keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;functions;function
+keywords: adobe.target.applyOffers;applyOffers;applyoffers;申请选件;at.js;函数;函数
 seo-description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.applyOffers(options) 函数的信息。
 seo-title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.applyOffers(options) 函数的信息。
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: adobe.target.applyOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -27,6 +27,10 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 | 响应 | 对象 | 是 | 来自 `getOffers()` 的响应对象。<br>请参阅下文的“请求”表。 |
 
 ## 响应
+
+>[!NOTE]
+>
+>有关以下 [列出的所有字段的可接受类型](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) ，请查阅交付API文档。
 
 | 字段名称 | 描述 |
 | --- | --- |

@@ -2,13 +2,13 @@
 description: 本文列出了一些主题，可帮助您解决 Adobe Target 中出现的问题，这些主题包括故障诊断主题、常见问题解答 (FAQ) 以及其他有用的主题。
 keywords: 诊断 Target 故障;Target 故障诊断
 seo-description: 本文列出了一些主题，可帮助您解决 Adobe Target 中出现的问题，这些主题包括故障诊断主题、常见问题解答 (FAQ) 以及其他有用的主题。
-seo-title: Target 故障诊断
+seo-title: Adobe Target疑难解答
 solution: Target
 title: Target 故障诊断
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 * [Target 优化和个性化常见问题解答](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [定位和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [配置文件脚本属性](/help/c-target/c-visitor-profile/profile-parameters.md)
-* [[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)]
+* [站点页面](/help/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## 内容
 

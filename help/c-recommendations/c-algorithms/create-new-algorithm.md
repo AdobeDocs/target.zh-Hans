@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6bd1bd6aafe9ee57b33a8879c13fa6d84cbdfe46
+source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
 
 ---
 
@@ -120,19 +120,19 @@ source-git-commit: 6bd1bd6aafe9ee57b33a8879c13fa6d84cbdfe46
 
 ## 预期标准处理时间 {#process-time}
 
-After saving an Activity containing a Criteria,  computes recommendations based on the selected Collection and Criteria. [!DNL Target]This computation takes some time to perform and the timeframe differs based on the selected recommendation logic, data range, number of items in your catalog, amount of behavioral data your customers have generated, and the selected behavioral data source. The behavioral data source has the largest impact on processing time, as follows:
+在保存包含条件的活动后，根 [!DNL Target] 据选定的集合和条件计算推荐。 此计算需要一些时间来执行，并且时间范围因所选的推荐逻辑、数据范围、目录中的项目数、客户生成的行为数据量以及所选的行为数据源而有所不同。行为数据源对处理时间的影响最大，如下所示：
 
-### mbox
+### mboxes
 
-If mboxes is selected as the behavioral data source, once created, the criteria immediately runs. 根据使用的行为数据量和目录的大小，算法可能需要长达 12 个小时才能运行。对标准配置进行更改通常会导致算法重新运行。 Depending on the change made, the previously computed recommendations might be available until a re-run is complete, or for larger changes, only backup or default content is available until a re-run is complete. 如果未修改算法，则根据所选的数据范围，每 [!DNL Target] 12-48小时自动重新运行一次算法。
+如果选择 mbox 作为行为数据源，则标准在创建后会立即运行。根据使用的行为数据量和目录的大小，算法可能需要长达 12 个小时才能运行。对标准配置进行更改通常会导致算法重新运行。根据所做的更改，之前计算的推荐可能在重新运行完成之前可用，或者针对所做的较大更改而言，在重新运行完成之前，只有备份或默认内容可用。如果未修改算法，则 [!DNL Target] 会根据所选的数据范围，每 12 到 48 小时自动重新运行该算法一次。
 
 ### Adobe Analytics
 
-If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
+如果标准使用 [!DNL Adobe Analytics] 作为行为数据源，则创建标准后，其可用性的时间取决于所选报表包和回顾窗口是否已用于任何其他标准。
 
-* **One-time report suite setup: The first time a report suite is used with a given data range lookback window,  can take from two to seven days to fully download the behavioral data for the selected report suite from .**[!DNL Target Recommendations][!DNL Analytics]此时间范围取决于系 [!DNL Analytics] 统负载。
-* **使用已有可用的报表包新建或编辑的条件**:在创建新标准或编辑现有标准时，如果选定的报表包已与之一起使用 [!DNL Target Recommendations]，且数据范围等于或小于选定的数据范围，则数据将立即可用，无需一次性设置。 在这种情况下，或者，如果在不修改所选报表包或数据范围的情况下编辑了算法的设置，则算法会在12小时内运行或重新运行。
-* **当前算法运行**:数据每 [!DNL Analytics] 天 [!DNL Target Recommendations] 从流到流。 例如，对于“已查 [!UICONTROL 看亲和力] ”推荐，当用户查看产品时，产品查看跟踪调用会接近实 [!DNL Analytics] 时地传递。 数 [!DNL Analytics] 据将推至次日 [!DNL Target] 初，并在不到12小 [!DNL Target] 时内运行算法。
+* **一次性报表包设置**：首次将报表包与给定数据范围回顾时间范围一起使用时，[!DNL Target Recommendations] 可能需要 2 到 7 天的时间才能从 [!DNL Analytics] 完全下载所选报表包的行为数据。此时间范围取决于 [!DNL Analytics] 系统负载。
+* **使用已经可用的报表包新建或编辑标准**：在创建新标准或编辑现有标准时，如果所选报表包已经与 [!DNL Target Recommendations] 一起使用，并且其数据范围等于或小于所选的数据范围，则数据立即可用，而无需一次性设置。在这种情况下，或者如果在未修改所选报表包或数据范围的情况下对算法的设置进行编辑，则该算法将在 12 小时内运行或者重新运行。
+* **持续的算法运行**：数据每天从 [!DNL Analytics] 流向 [!DNL Target Recommendations]。例如，对于[!UICONTROL 已查看的亲和度]推荐，当用户查看产品时，产品查看跟踪调用将以近实时的方式传递到 [!DNL Analytics]。[!DNL Analytics] 数据会在第二天早些时候被推送到 [!DNL Target]，然后 [!DNL Target] 会在 12 小时内运行算法。
 
 ## 使推荐基于推荐键 {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -343,7 +343,7 @@ If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once 
 
 >[!NOTE]
 >
->“最近查看的项目”包括活动的“排除”全局设置和选定的“集合”设置。 如果某个项目被全局排除项排除，或未包含在所选集合中，则不会显示该项目；因此，在使用“最近查看的项目”条件时，通常应使用“所有集合”设置。
+>“最近查看的项目”同时兼顾了排除全局设置和活动的选定收藏集设置。如果某个项目被全局排除规则排除在外，或者未包含在选定的收藏集中，则不会显示该项目；因此，在使用“最近查看的项目”标准时，通常应使用“所有收藏集”设置。
 
 ## 包含规则 {#task_28DB20F968B1451481D8E51BAF947079}
 
@@ -442,15 +442,19 @@ If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once 
 
 如果选择&#x200B;**[!UICONTROL 具有相似属性的项目]**/**[!UICONTROL 媒体]**，您还可以选择创建规则以在确定推荐时提高或降低特定项目属性的重要性。对于书籍等项目，您可能希望提升“流派”**、“作者”**、“系列”**&#x200B;等属性的重要性，以便推荐类似的书籍。
 
+>[!NOTE]
+>
+>内容相似性算法可以采用随机采样来计算项目之间的相似性。 因此，项目之间的相似性等级可能因算法运行而异。
+
 ![](assets/ContentSimilarity.png)
 
 由于内容相似度使用关键字来比较项目，因此某些属性（例如“消息”**&#x200B;或“描述”**）可能会在比较中引入“干扰信息”。您可以创建规则来忽略这些属性。
 
 默认情况下，所有属性都设置为“基准线”**。除非您要更改此设置，否则无需创建规则。
 
-## 培训视频：在Recommendations中创建标准(12:33)
+## 培训视频：在“推荐”中创建标准 (12:33)
 
-此视频包含以下信息：
+本视频包含以下信息：
 
 * 创建标准
 * 创建标准序列

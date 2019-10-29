@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2019 年 10 月 29 日 | [内容相似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | 添加了备注。 |
+|  | [预览并启动Recommendations活动](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | 新主题。 |
 | 2019 年 10 月 25 日 | [自定义参数](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 在“考虑事项”下添加了新项目，以说明定位不会根据内部mbox参数进行评估。 |
 |  | [使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | 已完全更新主题并删除过时的示例。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了链接到Target Delivery API文档的注释，以帮助您了解请求／响应的可用类型（数组、字符串等）。 |
@@ -100,7 +101,6 @@ source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 |  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 更新了说明完成分类过程所用时间的注释。 |
 |  | [隐私和数据保护法规](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 更新了主题，以包含有关《加州消费者隐私法案》(CCPA) 的信息。 |
 | 2019 年 8 月 6 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了 Target Mobile VEC SDK iOS 2.1.0 和 Android 1.1.0 版本的发行说明。 |
-|  | [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 更新了以下章节：“预期标准处理时间”。 |
 |  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | 更新了有关在 [!DNL Analysis Workspace] 中使用[!UICONTROL 活动展示次数]和[!UICONTROL 活动转化]量度的注意事项。 |
 | 2019 年 8 月 1 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 API 对企业权限支持情况的重要公告。 |
 |  | [授予 Adobe I/O 集成访问工作区的权限并分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 新主题。 |
@@ -395,7 +395,7 @@ source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 |  | [不通过标签管理器实施 Target](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | 更新了所有章节。添加了新章节：at.js 实施。 |
 |  | 版本 18.10.1 [发行说明](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
-## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 26 日）{#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
+## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 26 日）  {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
 <table id="table_0348AA29207D48A4BDFFA187F4F845B7"> 
  <thead> 
@@ -569,7 +569,7 @@ source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
  </tbody> 
 </table>
 
-## Adobe Target Standard/Premium 18.8.1（2018 年 8 月 21 日）{#section_6A146EE91FFB49D1BA398B36817CD0A2}
+## Adobe Target Standard/Premium 18.8.1（2018 年 8 月 21 日）  {#section_6A146EE91FFB49D1BA398B36817CD0A2}
 
 <table id="table_F09AC99B587A4D6390B1F8AE54F5DC47"> 
  <thead> 

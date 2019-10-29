@@ -4,7 +4,7 @@ audience: 最终用户
 user-guide-title: Adobe Target 帮助
 user-guide-url: /content/help/zh-Hans/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -370,6 +370,7 @@ source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
       + [选择标准](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [添加促销活动](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [“推荐”活动设置](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      + [预览并启动Recommendations活动](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [“推荐”作为选件](c-recommendations/recommendations-as-an-offer.md)
    + 常见问题解答 {#recommendations-faq}
       + [“推荐”常见问题解答](c-recommendations/c-recommendations-faq/recommendations-faq.md)

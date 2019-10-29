@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -112,20 +112,4 @@ If your custom profile attribute does not directly match to a single entity ID, 
 单击&#x200B;**[!UICONTROL 算法使用情况]选项卡可查看引用所选标准的活动列表。**&#x200B;该卡片列出了活跃和不活跃的活动。单击“实时活动”或“不活跃的活动”下拉列表可查看引用该标准的整个活动列表。您可以单击活动链接以打开活动进行编辑。
 
 ![“标准使用情况”选项卡](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
-
-## Determining When criteria results are ready to display {#section_03F328C07F234692B6D996DF745584B3}
-
-在活动图中，“标准”卡片现在会指示已准备好显示结果的时间。通过了解是否已准备好显示结果，有助于您确定活动是否已准备好激活，以使其成为实时活动。通过了解是否已准备好显示结果，还有助于您了解标准是否存在任何问题。
-
->[!NOTE]
->
->有关加载时间的讨论，请参阅[创建标准](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)中的“预期标准处理时间”。
-
-下图显示了“推荐”活动的“概述”页面上的活动图。您还可以在活动创建工作流中查看该活动图，其中包含步骤 2 中的标准状态结果。
-
-![“概述”页面上的标准状态](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
-
-状态结果包括以下内容：“结果就绪”、“结果未就绪”和“信息源失败”，如下图所示：
-
-![](assets/criteria_status_multi.png)
 

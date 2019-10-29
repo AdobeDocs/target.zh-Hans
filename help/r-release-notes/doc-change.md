@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
+source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2019 年 10 月 29 日 | [内容相似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | 添加了备注。 |
-|  | [自定义参数](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 在“考虑事项”下添加了新项目，以说明定位不会根据内部mbox参数进行评估。 |
+| 2019 年 10 月 25 日 | [自定义参数](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 在“考虑事项”下添加了新项目，以说明定位不会根据内部mbox参数进行评估。 |
 |  | [使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | 已完全更新主题并删除过时的示例。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了链接到Target Delivery API文档的注释，以帮助您了解请求／响应的可用类型（数组、字符串等）。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了链接到Target Delivery API文档的注释，以帮助您了解请求／响应的可用类型（数组、字符串等）。 |

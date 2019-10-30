@@ -10,7 +10,7 @@ title-outputclass: premium
 topic: Premium
 badge: premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 创建活动后，运 [!DNL Recommendations] 行算法以生成推荐。 这个算法可能需要几个小时才能运行。
 
+您可以在列出条件状态的“活动概述图”中检查 [!UICONTROL 算法是否已完成运行] 。 下图显示了活动“概述”页面上的活 [!DNL Recommendations] 动图中的 [!UICONTROL 状态] :
 
 ![“推荐”活动“概述”页](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
@@ -36,7 +37,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 * [!UICONTROL 结果未就绪]:指示算法尚未完成运行。
 * [!UICONTROL 源失败]:指示无法检索自定义条件源文件。
 
-![结果对话框](/help/c-recommendations/t-create-recs-activity/assets/results.png)
+![结果对话框](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## 该算法需要多长时间才能运行？
 
@@ -48,7 +49,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 如果选择 mbox 作为行为数据源，则标准在创建后会立即运行。根据使用的行为数据量和目录的大小，算法可能需要长达 12 个小时才能运行。对标准配置进行更改通常会导致算法重新运行。根据所做的更改，在重新运行完成之前，之前计算的推荐可能不可用，对于较大的更改，只有备份或默认内容才可用，直到重新运行完成。 如果未修改算法，则 [!DNL Target] 会根据所选的数据范围，每 12 到 48 小时自动重新运行该算法一次。
 
-## Adobe Analytics
+### Adobe Analytics
 
 如果标准使用 [!DNL Adobe Analytics] 作为行为数据源，则创建标准后，其可用性的时间取决于所选报表包和回顾窗口是否已用于任何其他标准。
 

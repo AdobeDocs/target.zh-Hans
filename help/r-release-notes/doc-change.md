@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
+source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
 
 ---
 
@@ -22,9 +22,10 @@ source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2019 年 10 月 31 日 | [使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新主题。 |
+|  | [发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 新主题。 |
 |  | [从 at.js 1.*x* 升级到 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 添加了新部分：“Which at.js 1.*at* .js 2中不支持创建受众的x参数。*x*?" |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关向模板规则添加额外空格的新已知问题。 |
-|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关Target Premium 19.10.2版本的信息。 |
+|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关Target Premium 19.10.2版本和Target Java SDK版本的信息。 |
 | 2019 年 10 月 30 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发布的Target Premium 19.10.2（2019年10月31日）版本的信息。 |
 | 2019 年 10 月 29 日 | [内容相似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | 添加了备注。 |
 |  | [预览并启动Recommendations活动](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | 新主题。 |

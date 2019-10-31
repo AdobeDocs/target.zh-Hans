@@ -8,7 +8,7 @@ title: 已知问题和已解决的问题
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -24,6 +24,10 @@ source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 ## 已知问题 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 下面部分列出了 [!DNL Target] 的已知问题：
+
+### 页面交付 {#page-delivery}
+
+如果您添加模板规则(如页面分发中的URL包含(/checkout, /cart)) [](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)，则在规则前面会添加额外的空格。 这是一个外观问题，不会影响受众定义的创建和选件交付。 (TGT-35916)
 
 ### 活动 QA 预览链接 {#preview}
 

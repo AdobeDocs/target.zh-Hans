@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: 从 at.js 1.*x* 升级到 at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
+source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
 
 ---
 
@@ -316,6 +316,19 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 不需要，在调用 `triggerView()` 之前，您不需要添加预隐藏代码。at.js 2.*x* 会在显示和应用视图之前管理预隐藏和闪烁逻辑。
 
+### 那是at.js 1.*at* .js 2中不支持创建受众的x参数。*x*? {#audience-parameters}
+
+使用at.js 2时，当前不 *支持以下* at.js 1.x参数进行受众创建。*x* 中的 Target 流程 - 页面加载请求：
+
+* browserHeight
+* browserWidth
+* browserTimeOffset
+* screenHeight
+* screenWidth
+* screenOrientation
+* colorDepth
+* devicePixelRatio
+
 ## at.js 兼容性
 
 以下表格介绍了 at.js. 2.*x* compatibility with different activity types, integrations, features, and at.js functions.
@@ -411,112 +424,6 @@ at.js 2.*x*（与 at.js 1.*x* 一样）使用自定义事件 `at-request-succeed
     "token": "1213213123122313121"
   }
   ....
-}
-```
-
-### browserHeight
-
-（at.js 1.*x* 参数）
-
-访客浏览器窗口的高度。
-
-at.js 2.*x* JSON 有效负载：
-
-```
-{
-  "context": {
-    "window": {
-       "height": 200
-    }
-  }
-}
-```
-
-### browserWidth
-
-（at.js 1.*x* 参数）
-
-访客浏览器窗口的宽度。
-
-at.js 2.*x* JSON 有效负载：
-
-```
-{
-  "context": {
-    "window": {
-       "width": 200
-    }
-  }
-}
-```
-
-### browserTimeOffset
-
-（at.js 1.*x* 参数）
-
-时区偏移。
-
-at.js 2.*x* JSON 有效负载：
-
-```
-{
-  "context": {
-    "timeOffsetInMinutes": -480
-  }
-}
-```
-
-### screenHeight
-
-（at.js 1.*x* 参数）
-
-访客屏幕的高度。
-
-at.js 2.*x* JSON 有效负载：
-
-```
-{
-  "context": {
-    "screen": {
-       "height": 200
-    }
-  }
-}
-```
-
-### screenWidth
-
-（at.js 1.*x* 参数）
-
-访客屏幕的宽度。
-
-at.js 2.*x* JSON 有效负载：
-
-```
-{
-  "context": {
-    "screen": {
-       "width": 200
-    }
-  }
-}
-```
-
-### colorDepth
-
-（at.js 1.*x* 参数）
-
-访客屏幕的颜色深度。
-
-at.js 2.*x* JSON 有效负载：
-
-```
-{
-  "context": {
-    "screen": {
-       "colorDepth": 24
-    }
-  }
 }
 ```
 

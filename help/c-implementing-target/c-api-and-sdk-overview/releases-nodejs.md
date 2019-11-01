@@ -7,7 +7,7 @@ solution: Target
 title: 发行说明——目标Node.js SDK
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
+source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
 
 ---
 
@@ -21,6 +21,8 @@ Target Node.js SDK可让您部署 [!DNL Target] 服务器端。
 此Node.js SDK可帮助您轻松 [!DNL Target] 与其 [!DNL Adobe Experience Cloud] 他解决方案(如 [!DNL Adobe Experience Cloud Identity Service]、 [!DNL Adobe Analytics]和)集成 [!DNL Adobe Audience Manager]。
 
 Node.js SDK在通过我们的交付API与集成时引入了最佳实践并消除了 [!DNL Target] 复杂性，这样您的工程团队就可以专注于业务逻辑。
+
+通过Adobe Tech Blog —— 开放式搜索新的Adobe Target Node.js SDK，进一步了 [解Target Node.js SDK](https://medium.com/adobetech/open-sourcing-the-new-adobe-target-node-js-sdk-b6feafd828bc)。
 
 ## 版本1.0.0（2019年10月9日）
 

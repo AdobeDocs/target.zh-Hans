@@ -8,7 +8,7 @@ title: 服务器端：实施 Target
 topic: 推荐
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: afec96b2bec18048ab7132232711d2c14769c46c
+source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
 
 ---
 
@@ -52,6 +52,8 @@ Node.js SDK是一个精良的软件开发工具包，它消除了管理Cookie、
 * **** 能够检索VEC创建的活动：在服务器端检索VEC创建的活动。 包含VEC创建的活动的响应包含选择器，这些选择器可用于仅预隐藏需要个性化的页面部分。 这有助于优化页面的“第一个内容绘制”量度 [，这是您的企业在](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)Google PageRank系统中获得高分的重要KPI [](https://en.wikipedia.org/wiki/PageRank) 。
 
 ## 目标Java SDK
+
+链接：目 [标Java SDK](https://github.com/adobe/target-java-sdk)
 
 Java SDK是一款精良的软件开发工具包，它消除了管理Cookie、会话以及与解决方 [!DNL Adobe Experience Cloud] 案(如 [!DNL Adobe Analytics]、 [!DNL Experience Cloud Visitor ID Service]和)集成的复杂性 [!DNL Adobe Audience Manager]。 Java SDK在后台使用 `/rest/v1/delivery` API。 以下是Java SDK支持的一些显着功能：
 

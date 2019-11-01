@@ -8,7 +8,7 @@ title: Target 发行说明（当前版本）
 topic: 推荐
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 71368bd89283df158f454293afd819bfd6589430
+source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 71368bd89283df158f454293afd819bfd6589430
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Java SDK | Java [!DNL Target] SDK允许您部署 [!DNL Target] 服务器端。 此Java SDK可帮助您轻松 [!DNL Target] 地与其 [!DNL Adobe Experience Cloud] 他解决方案(如 [!DNL Adobe Experience Cloud Identity Service]、 [!DNL Adobe Analytics]和)集成 [!DNL Adobe Audience Manager]。<br>Java SDK在通过我们的交付API与集成时引入了最佳实践并消除了 [!DNL Target] 复杂性，这样您的工程团队就可以专注于业务逻辑。 下面是我们在最新版本中介绍的显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>支持在网页和服务器端混合集 [!DNL Target] 成时优化性能。 我们引入了一个名为的设置 `serverState` ，该设置由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 此方法可优化页面加载性能。</li><li>支持通过Java SDK检索VEC创建的活动，新的交付API使这成为可能。</li><li>开放源码，这样您的开发人员就可以为 [Target Java SDK做出贡献](https://github.com/adobe/target-java-sdk)。</li></ul>有关详细信息，请参 [阅发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。 |
+| Java SDK | Java [!DNL Target] SDK允许您部署 [!DNL Target] 服务器端。 此Java SDK可帮助您轻松 [!DNL Target] 地与其 [!DNL Adobe Experience Cloud] 他解决方案(如 [!DNL Adobe Experience Cloud Identity Service]、 [!DNL Adobe Analytics]和)集成 [!DNL Adobe Audience Manager]。<br>Java SDK在通过我们的交付API与集成时引入了最佳实践并消除了 [!DNL Target] 复杂性，这样您的工程团队就可以专注于业务逻辑。 下面是我们在最新版本中介绍的显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>支持在网页和服务器端混合集 [!DNL Target] 成时优化性能。 我们引入了一个名为的设置 `serverState` ，该设置由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 此方法可优化页面加载性能。</li><li>支持通过Java SDK检索VEC创建的活动，新的交付API使这成为可能。</li><li>开放源码，这样您的开发人员就可以为 [Target Java SDK做出贡献](https://github.com/adobe/target-java-sdk)。</li></ul>有关详细信息，请参 [阅发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。<br>通过Adobe Tech Blog了解有关Target Java SDK的更多信息- [使用新的Target Java SDK进行服务器端优化](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。 |
 
 ## Target Standard/Premium 19.10.2（2019 年 10 月 31 日） 
 
@@ -74,7 +74,7 @@ source-git-commit: 71368bd89283df158f454293afd819bfd6589430
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Node.js SDK版本1.0 | Target Node.js SDK允许您在服务器端部署Target。<br>此Node.js SDK可帮助您将Target轻松集成到其他Experience cloud解决方案中，如Adobe Experience Cloud Identity Service、Adobe Analytics和Adobe Audience Manager。<br>Node.js SDK在通过我们的交付API与Adobe Target集成时引入了最佳实践并消除了复杂性，使您的工程团队能够专注于业务逻辑。 下面是我们在最新版本中介绍的显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>支持在网页和服务器端同时集成Target时优化性能。 我们将引入一个名为的设置，该设置将由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 `serverState` 此方法可优化页面加载性能。</li><li> 支持通过Node.js SDK检索VEC创建的活动，新的交付API使这成为可能。</li><li>开放源代码，以便开发人员能够为Node.js SDK做出贡献。</li></ul><br>有关详细信息，请 [参阅发行说明- Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)。 |
+| Node.js SDK版本1.0 | Target Node.js SDK允许您在服务器端部署Target。<br>此Node.js SDK可帮助您将Target轻松集成到其他Experience cloud解决方案中，如Adobe Experience Cloud Identity Service、Adobe Analytics和Adobe Audience Manager。<br>Node.js SDK在通过我们的交付API与Adobe Target集成时引入了最佳实践并消除了复杂性，使您的工程团队能够专注于业务逻辑。 下面是我们在最新版本中介绍的显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>支持在网页和服务器端同时集成Target时优化性能。 我们将引入一个名为的设置，该设置将由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 `serverState` 此方法可优化页面加载性能。</li><li> 支持通过Node.js SDK检索VEC创建的活动，新的交付API使这成为可能。</li><li>开放源代码，以便开发人员能够为Node.js SDK做出贡献。</li></ul><br>有关详细信息，请 [参阅发行说明- Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)。<br>通过Adobe Tech Blog —— 开放式搜索新的Adobe Target Node.js SDK，进一步了 [解Target Node.js SDK](https://medium.com/adobetech/open-sourcing-the-new-adobe-target-node-js-sdk-b6feafd828bc)。 |
 | 交付API | 生产中提供了全新的交付API端点（/v1/交付）。 显着功能包括：<ul><li>一个端点，用于检索一个或多个mbox的体验。</li><li>通过API检索VEC创建的活动。</li><li>支持一个称为“视图”的全新对象，该对象用于单页应用程序(SPA)和移动应用程序。</li></ul><br>有关详细信息，请参 [阅发行说明——目标服务器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)。 |
 
 ## 其他发行说明和版本详细信息

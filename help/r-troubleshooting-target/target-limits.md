@@ -8,7 +8,7 @@ title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: ce1202589faa4328ee74d15c7690552cfd9fde86
 
 ---
 
@@ -37,9 +37,7 @@ source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ## 受众名称
 
-**限制**：256 个字符。
-
-长度超过 256 个字符的值会被截断。
+**限制**：255 个字符。
 
 ## 受众
 
@@ -47,7 +45,7 @@ source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ## categoryId 参数
 
-**限制**：250 个字符。
+**限制**：128 个字符。
 
 ## 客户属性名称
 
@@ -80,7 +78,7 @@ source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ## 体验名称
 
-**限制**：20 个字符。
+**限制**：50 个字符。
 
 ## 每个活动的体验数
 
@@ -217,8 +215,9 @@ source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ## 定位规则
 
-**建议限制**：每个定位规则 2,500 个唯一值。
+**建议的限制**:每个定位规则值有2,500个字符。
 
 **建议限制**：各定位规则中每个受众 30,000 个唯一值。
 
 **建议限制**：每个活动 100,000 个唯一定位规则值。
+

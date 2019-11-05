@@ -8,7 +8,7 @@ title: 文档更改
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 11 月 5 日 | [站点页面](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | “疑难排解”部分中的更新文本。 |
 | 2019年11月4日 | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 更新了以下常见问题解答下的文本：“为什么我会看到警告消息，如'缺少选择器的操作'?” |
 | 2019 年 10 月 31 日 | [使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新主题。 |
 |  | [发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 新主题。 |

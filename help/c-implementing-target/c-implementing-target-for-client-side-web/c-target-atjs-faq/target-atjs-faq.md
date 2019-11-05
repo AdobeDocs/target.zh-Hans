@@ -8,7 +8,7 @@ subtopic: 入门指南
 title: at.js 常见问题解答
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -205,7 +205,7 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 如果看到此类警告消息，则根本原因可能如下所示：
 
 * 页面正在动态构建，at.js无法找到元素。
-* 用户在慢速网络中，并且at.js在DOM中找不到选择器。
+* 页面构建缓慢（由于网络速度缓慢）,at.js在DOM中找不到选择器。
 * 正在运行活动的页面结构发生更改。如果您在可视化体验编辑器 (VEC) 中重新打开活动，则应会收到警告消息。您应更新活动，以便找到所有必需的元素。
 * 基础页面是单页应用程序 (SPA) 的一部分，或者该页面包含显示在页面更靠底部的元素，且 [!DNL at.js]“选择器轮询机制”无法找到这些元素。增加 `selectorsPollingTimeout` 可能会有所帮助。有关更多信息，请参阅 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 * 任何点击跟踪量度都会尝试将其自身添加到每个页面，而不考虑已设置量度的 URL。尽管不会产生不利影响，但此情况会显示许多此类消息。[!DNL at.js] 的一些较新版本会设法阻止这些消息，但许多客户仍在使用旧版本的 [!DNL at.js] 或 [!DNL mbox.js]。

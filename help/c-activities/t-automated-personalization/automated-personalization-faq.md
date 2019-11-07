@@ -1,16 +1,10 @@
 ---
-description: 有关自动个性化 (AP) 的常见问题解答 (FAQ) 列表。
 keywords: 故障诊断;常见问题解答;FAQ;常见问题;自动个性化
-seo-description: 有关自动个性化 (AP) 的常见问题解答 (FAQ) 列表。
-seo-title: 自动个性化常见问题解答
-solution: Target
+description: 有关自动个性化 (AP) 的常见问题解答 (FAQ) 列表。
 title: 自动个性化常见问题解答
-title-outputclass: premium
-topic: Premium
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
-badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

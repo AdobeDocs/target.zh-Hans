@@ -1,15 +1,12 @@
 ---
-description: 此信息可帮助您设置 Target，其中涵盖首选项、实施、用户管理、属性、Scene7 设置、主机管理和响应令牌。
 keywords: 实施;设置
-seo-description: 此信息可帮助您设置 Adobe Target，其中涵盖首选项、实施、用户管理、属性、Scene7 设置、主机管理和响应令牌。
-seo-title: 管理 Adobe Target
-solution: Target
+description: 此信息可帮助您设置 Adobe Target，其中涵盖首选项、实施、用户管理、属性、Scene7 设置、主机管理和响应令牌。
+title: 管理 Adobe Target
 subtopic: 入门指南
-title: 管理 Target
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

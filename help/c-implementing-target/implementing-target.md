@@ -1,15 +1,12 @@
 ---
-description: 在开始使用 Adobe Target 之前，您应该在网站上实施该产品，了解一些基本概念和术语，熟悉 Target 的工作原理以及与基础架构集成的方式，并了解 Target 系统如何跟踪访客。
 keywords: 实施
-seo-description: 在开始使用 Adobe Target 之前，您应该在网站上实施该产品，了解一些基本概念和术语，熟悉 Target 的工作原理以及与基础架构集成的方式，并了解 Target 系统如何跟踪访客。
-seo-title: 实施 Target
-solution: Target
-subtopic: 入门指南
+description: 在开始使用 Adobe Target 之前，您应该在网站上实施该产品，了解一些基本概念和术语，熟悉 Target 的工作原理以及与基础架构集成的方式，并了解 Target 系统如何跟踪访客。
 title: 实施 Target
+subtopic: 入门指南
 topic: Standard
 uuid: 08482171-73c0-4816-bf4d-4571d92f04ab
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,13 +1,11 @@
 ---
-description: 要在移动设备应用程序中使用 Target，需创建位置和成功量度。
 keywords: 移动设备应用程序;移动设备应用程序位置;定位移动设备应用程序;移动设备 Target 位置;移动设备应用程序成功量度
-seo-description: 要在移动设备应用程序中使用 Target，需创建位置和成功量度。
-seo-title: iOS - 创建 Target 位置和成功量度
+description: 要在移动设备应用程序中使用 Target，需创建位置和成功量度。
 title: iOS - 创建 Target 位置和成功量度
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

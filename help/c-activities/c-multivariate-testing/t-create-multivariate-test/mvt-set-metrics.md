@@ -1,13 +1,11 @@
 ---
-description: 可在多变量测试中使用量度来确定访问何时被视为成功。
 keywords: 多变量测试;MVT;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
-seo-description: 可在多变量测试中使用量度来确定访问何时被视为成功。
-seo-title: 设置量度
-solution: Target,standard
+description: 可在多变量测试中使用量度来确定访问何时被视为成功。
 title: 设置量度
+solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

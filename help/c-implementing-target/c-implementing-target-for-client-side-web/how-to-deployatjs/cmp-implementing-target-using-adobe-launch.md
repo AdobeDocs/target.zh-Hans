@@ -1,12 +1,10 @@
 ---
-description: Launch 是 Adobe 的下一代标签管理平台，是实施 Adobe Target 的首选方法。Launch 为客户提供了一种简单的方式来部署和管理所有用来加强相关客户体验的分析、营销和广告标签。
-keywords: 实施;Adobe Launch;Launch;争用;重定向体验平台启动
-seo-description: Adobe Experience Platform Launch是Adobe的新一代标签管理平台，是实施Adobe Target的首选方法。 Launch 为客户提供了一种简单的方式来部署和管理所有用来加强相关客户体验的分析、营销和广告标签。
-seo-title: 使用 Adobe Launch 实施 Target
+keywords: 实施；实施；实施；Adobe启动；启动；竞赛；重定向；体验平台启动
+description: Adobe Experience Platform Launch是Adobe的新一代标签管理平台，是实施Adobe Target的首选方法。 Launch 为客户提供了一种简单的方式来部署和管理所有用来加强相关客户体验的分析、营销和广告标签。
 title: 使用 Adobe Launch 实施 Target
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

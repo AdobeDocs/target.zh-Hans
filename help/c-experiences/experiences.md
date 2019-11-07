@@ -1,14 +1,11 @@
 ---
-description: 体验可决定访客在满足活动的受众标准时显示的内容。
 keywords: 体验;可视化体验编辑器;增强型体验编辑器;基于表单的体验编辑器;表单编辑器;可视化编辑器;体验编辑器;混合内容;iframe;防 iframe 嵌套;嵌套 iframe;x-frame-options;x 框架选项;跨域;跨域问题;身份验证工作流;IP 黑名单;IP 白名单
-seo-description: 体验可决定访客在满足活动的受众标准时显示的内容。
-seo-title: 体验和选件
-solution: Target
+description: 体验可决定访客在满足活动的受众标准时显示的内容。
 title: 体验和选件
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

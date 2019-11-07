@@ -1,14 +1,11 @@
 ---
 description: Target Standard 可与 Adobe Dynamic Media Classic（以前为 Scene7）集成以便在内容库中提供数字资产管理 (DAM)。
-seo-description: Target Standard 可与 Adobe Dynamic Media Classic（以前为 Scene7）集成以便在内容库中提供数字资产管理 (DAM)。
-seo-title: Dynamic Media Classic 集成
-solution: Target
-subtopic: 入门指南
 title: Dynamic Media Classic 集成
+subtopic: 入门指南
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: c6a59843c80017e6f072f65ffad822fe198ebb55
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

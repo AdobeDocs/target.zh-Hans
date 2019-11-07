@@ -1,14 +1,11 @@
 ---
-description: 有关 at.js 2.x 和 at.js 1.x 如何处理 Cookie 的详细信息
 keywords: at.js;2.0;1.x;Cookie
-seo-description: 有关 Adobe Target at.js 2.x 和 at.js 1.x 如何处理 Cookie 的详细信息
-seo-title: Adobe Target at.js Cookie
-solution: Target
+description: 有关 Adobe Target at.js 2.x 和 at.js 1.x 如何处理 Cookie 的详细信息
+title: Adobe Target at.js Cookie
 subtopic: 入门指南
-title: at.js Cookie
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

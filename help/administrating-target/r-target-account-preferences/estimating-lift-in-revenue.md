@@ -1,14 +1,11 @@
 ---
-description: Target 可以估计在所有用户都查看成功体验时将获得的收入提升。
 keywords: 收入提升;收入;预计收入提升;计算提升;预计值
-seo-description: Target 可以估计在所有用户都查看成功体验时将获得的收入提升。
-seo-title: 预计收入提升
-solution: Target
+description: Target 可以估计在所有用户都查看成功体验时将获得的收入提升。
 title: 预计收入提升
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

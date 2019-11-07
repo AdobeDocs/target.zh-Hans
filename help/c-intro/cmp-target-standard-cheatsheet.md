@@ -1,14 +1,11 @@
 ---
-description: 有关使用 Adobe Target 中的功能的常见问题列表，以及更多信息和相关链接。
 keywords: Target Standard;faq;常见问题解答;速查表;备忘单
-seo-description: 有关使用 Adobe Target 中的功能的常见问题列表，以及更多信息和相关链接。
-seo-title: Target 优化和个性化常见问题解答
-solution: Target
+description: 有关使用 Adobe Target 中的功能的常见问题列表，以及更多信息和相关链接。
 title: Target 优化和个性化常见问题解答
 topic: 高级
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

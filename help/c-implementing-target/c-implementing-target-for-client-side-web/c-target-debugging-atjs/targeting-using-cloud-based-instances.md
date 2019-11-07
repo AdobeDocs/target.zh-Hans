@@ -1,13 +1,10 @@
 ---
-description: 此信息介绍了客户在使用基于云的实例来测试 Adobe Target 时遇到的一些问题。
 keywords: 云实例;公共后缀列表;公共后缀;Cookie;第一方 Cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-seo-description: 此信息介绍了客户在使用基于云的实例来测试 Adobe Target 时遇到的一些问题。
-seo-title: 结合使用基于云的实例和 Target
-solution: Target
+description: 此信息介绍了客户在使用基于云的实例来测试 Adobe Target 时遇到的一些问题。
 title: 结合使用基于云的实例和 Target
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

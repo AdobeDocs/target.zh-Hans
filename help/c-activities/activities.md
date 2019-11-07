@@ -1,14 +1,11 @@
 ---
-description: Adobe Target中的活动可让您向特定受众个性化内容并测试页面设计。
 keywords: 活动列表；活动；活动；活动类型；编辑活动；活动；活动属性；活动列表过滤；活动限制；个性化；个性化
-seo-description: Adobe Target中的活动可让您向特定受众个性化内容并测试页面设计
-seo-title: Adobe Target中的活动可让您向特定受众个性化内容并测试页面设计。
-solution: Target
-title: 活动
+description: Adobe Target中的活动可让您向特定受众个性化内容并测试页面设计
+title: Adobe Target中的活动可让您向特定受众个性化内容并测试页面设计。
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 2b8dbccdc890626a0b7cb56d4cf03af1e7d8cf22
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

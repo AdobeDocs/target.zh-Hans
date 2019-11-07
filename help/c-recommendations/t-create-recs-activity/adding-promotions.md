@@ -1,23 +1,17 @@
 ---
-description: 可添加促销项目并控制它们在 “推荐”设计中的放置位置。您可以添加静态和动态促销活动。
 keywords: 促销活动;前端促销活动;后端促销活动;促销活动类型
-seo-description: 可添加促销项目并控制它们在 Adobe Target“推荐”设计中的放置位置。您可以添加静态和动态促销活动。
-seo-title: 在 Adobe Target“推荐”设计中添加促销活动。
-solution: Target
-title: 添加促销活动
-title-outputclass: premium
-topic: Premium
+description: 可添加促销项目并控制它们在 Adobe Target“推荐”设计中的放置位置。您可以添加静态和动态促销活动。
+title: 在 Adobe Target“推荐”设计中添加促销活动。
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 添加促销活动{#add-promotions}
 
-可添加促销项目并控制它们在 “推荐”设计中的放置位置。您可以添加静态和动态促销活动。
+可添加促销项目并控制它们在“推荐”设计中的放置位置。您可以添加静态和动态促销活动。
 
 >[!IMPORTANT]
 >

@@ -1,14 +1,11 @@
 ---
-description: 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
 keywords: 自动流量分配;定位;递增计数并保持用户处于活动中;流量分配
-seo-description: 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
-seo-title: 自动分配
-solution: Target
+description: 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
 title: 自动分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

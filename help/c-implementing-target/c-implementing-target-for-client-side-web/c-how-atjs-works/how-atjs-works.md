@@ -1,14 +1,11 @@
 ---
-description: 目标系统图，显示使用at.js为自动创建的全局mbox发送或收集的调用和信息的流。
 keywords: 系统图；闪烁；at.js；实施；javascript库；js;atjs
-seo-description: Adobe Target 系统图显示了使用 at.js 为自动创建的全局 mbox 发送或收集调用和信息的流程。
-seo-title: Adobe Target at.js javaScript库的工作原理
-solution: Target
-title: at.js 的工作原理
+description: Adobe Target 系统图显示了使用 at.js 为自动创建的全局 mbox 发送或收集调用和信息的流程。
+title: Adobe Target at.js javaScript库的工作原理
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,13 +1,10 @@
 ---
-description: 此信息可帮助您在 mbox.js“设置”页面上设定多个设置。
 keywords: mbox.js 高级设置;客户端;服务器域;xdomain;压缩等级;客户端会话 ID 支持;secureOnly;客户端 PC ID 支持;传递页面;引荐 URL;流量级别;流量持续时间;mboxParameters() 函数体;mboxSupported() 函数体;mboxCookieDomain() 函数体;额外的 JavaScript;SiteCatalyst 插件;以自解压 JavaScript 文件形式获取 mbox.js;闪烁;主体隐藏;隐藏主体
-seo-description: 此信息可帮助您在 mbox.js“设置”页面上设定多个设置。
-seo-title: 配置 mbox.js
-solution: Target
+description: 此信息可帮助您在 mbox.js“设置”页面上设定多个设置。
 title: 配置 mbox.js
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

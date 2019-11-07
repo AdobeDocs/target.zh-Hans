@@ -1,14 +1,11 @@
 ---
-description: 有关 mbox.js 的常见问题解答。
 keywords: mbox.js FAQ;mbox.js 常见问题解答;document.write;tt.omtrdc.net;解析器阻塞
-seo-description: 有关 mbox.js 的常见问题解答。
-seo-title: mbox.js 常见问题解答
-solution: Target
-subtopic: 入门指南
+description: 有关 mbox.js 的常见问题解答。
 title: mbox.js 常见问题解答
+subtopic: 入门指南
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

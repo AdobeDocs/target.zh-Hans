@@ -1,14 +1,11 @@
 ---
-description: Target 的新 SDK 库允许开发人员在其 Android 移动设备应用程序上进行一次性设置，并使营销人员能够使用移动设备可视化体验编辑器 (VEC) 的功能。
 keywords: 移动设备 VEC;移动设备可视化体验编辑器;移动设备体验编辑器选项;设置;Android
-seo-description: Adobe Target的新SDK库允许开发人员在其Android移动应用程序上进行一次性设置，并使营销人员能够使用Mobile Visual Experience Composer(VEC)的功能。
-seo-title: Android —— 为Adobe Target设置移动应用程序
-solution: Target
-title: Android - 设置移动设备应用程序
+description: Adobe Target 的新 SDK 库允许开发人员在其 Android 移动设备应用程序上进行一次性设置，并使营销人员能够使用移动设备可视化体验编辑器 (VEC) 的功能。
+title: Android - 设置 Adobe Target 移动设备应用程序
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

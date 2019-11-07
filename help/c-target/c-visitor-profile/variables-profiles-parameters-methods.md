@@ -1,14 +1,11 @@
 ---
-description: 此页面列出了配置文件脚本中有用的配置文件、变量和参数。
 keywords: 变量;配置文件;参数;内置配置文件;方法;URL 变量;地域配置文件;第三方配置文件;mbox 变量;营销活动变量;客户属性
-seo-description: 此页面列出了配置文件脚本中有用的配置文件、变量和参数。
-seo-title: 配置文件和变量一览表
-solution: Target
+description: 此页面列出了配置文件脚本中有用的配置文件、变量和参数。
 title: 配置文件和变量一览表
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

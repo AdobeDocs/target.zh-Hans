@@ -1,14 +1,11 @@
 ---
-description: 您可以在“目标和设置”页面上输入有关测试目标的信息。
 keywords: 活动设置;体验定位目标和设置;XT 目标和设置;体验定位;报表设置;目标量度;成功量度;依赖的成功量度;高级设置;主要目标;其他量度;目的;优先级;持续时间;报表解决方案;目标;报表的受众;递增此量度之前必须实现哪些成功量度;用户遇到此目标量度后会出现什么情况;注释
-seo-description: 您可以在“目标和设置”页面上输入有关测试目标的信息。
-seo-title: 目标和设置
-solution: Target
+description: 您可以在“目标和设置”页面上输入有关测试目标的信息。
 title: 目标和设置
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

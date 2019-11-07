@@ -1,15 +1,12 @@
 ---
-description: Adobe Target 启用了一些流程和设置，使您能够在遵守适用数据隐私法律的情况下使用 Target。
 keywords: 概述和参考
-seo-description: Adobe Target 启用了一些流程和设置，使您能够在遵守适用数据隐私法律的情况下使用 Target。
-seo-title: 隐私
-solution: Target
-subtopic: 入门指南
+description: Adobe Target 启用了一些流程和设置，使您能够在遵守适用数据隐私法律的情况下使用 Target。
 title: 隐私
+subtopic: 入门指南
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

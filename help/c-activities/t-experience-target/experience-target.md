@@ -1,13 +1,10 @@
 ---
-description: 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。
 keywords: 定位;体验定位;XT;登陆页面;登陆页面营销活动
-seo-description: 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。
-seo-title: 体验定位
-solution: Target
+description: 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。
 title: 体验定位
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

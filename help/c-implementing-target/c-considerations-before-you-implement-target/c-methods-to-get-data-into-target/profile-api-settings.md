@@ -1,15 +1,12 @@
 ---
-description: 可为通过 API 进行的批量更新启用或禁用身份验证，并生成配置文件身份验证令牌。
 keywords: 实施;API;配置文件;配置文件 API 设置
-seo-description: 可为通过 API 进行的批量更新启用或禁用身份验证，并生成配置文件身份验证令牌。
-seo-title: 配置文件 API 设置
-solution: Target
-subtopic: 入门指南
+description: 可为通过 API 进行的批量更新启用或禁用身份验证，并生成配置文件身份验证令牌。
 title: 配置文件 API 设置
+subtopic: 入门指南
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

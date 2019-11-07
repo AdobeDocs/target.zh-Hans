@@ -1,16 +1,10 @@
 ---
-description: 设计可定义推荐在页面上的显示方式。
 keywords: 推荐设计;创建设计;复制设计
-seo-description: 设计可定义推荐在页面上的显示方式。
-seo-title: 创建设计
-solution: Target
+description: 设计可定义推荐在页面上的显示方式。
 title: 创建设计
-title-outputclass: premium
-topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
-badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -48,9 +42,9 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 培训视频：在Recommendations中创建自定义设计(3:20)
+## 培训视频：在“推荐”中创建自定义设计 (3:20)
 
-此视频包含以下信息：
+本视频包含以下信息：
 
 * 创建自定义设计
 * 了解如何在设计中引用显示变量

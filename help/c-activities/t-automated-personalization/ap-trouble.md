@@ -1,13 +1,9 @@
 ---
 description: 有时候，活动没有按预期进行。此处介绍了使用自动个性化时可能会遇到的一些潜在问题，以及一些解决方法建议。
-seo-description: 有时候，活动没有按预期进行。此处介绍了使用自动个性化时可能会遇到的一些潜在问题，以及一些解决方法建议。
-seo-title: 自动个性化故障诊断
 title: 自动个性化故障诊断
-title-outputclass: premium
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

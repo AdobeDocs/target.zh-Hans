@@ -1,15 +1,12 @@
 ---
-description: Adobe Target integrates with websites by means of one of two JavaScript libraries. at.js or mbox.js
 keywords: 概述和参考;SEO;搜索引擎优化
-seo-description: Adobe Target integrates with websites by means of one of two JavaScript libraries. at.js or mbox.js
-seo-title: Adobe Target 的工作原理
-solution: Target
-subtopic: 入门指南
+description: Adobe Target 可通过两个 JavaScript 库（at.js 或 mbox.js）中的任意一个与网站集成
 title: Adobe Target 的工作原理
+subtopic: 入门指南
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -96,13 +93,13 @@ Adobe Target 可通过两个 JavaScript 库（at.js 或 mbox.js）中的任意�
 
 每个边缘节点均具有响应用户内容请求和针对该请求跟踪分析数据所需的全部信息。用户请求被路由到最近的边缘节点。
 
-![使用核心边缘站点和边缘站点进行映射](assets/edge_network.png)
+![包含核心边缘站点和边缘站点的地图](assets/edge_network.png)
 
-此图像的来源是 [Adobe Target安全概述](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 白皮书。
+The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-The Adobe Target solution is hosted on Adobe-owned and Adobe-leased data centers around the globe. Admin server完全托管在位于伦敦、新加坡的Adobe拥有的数据中心内以及遍布美国的多个位置（包括俄勒冈州和弗吉尼亚州）。 Edge server托管在位于伦敦、香港、新加坡、东京和悉尼的Amazon AWS数据中心的Adobe自有和Adobe租赁的服务器上。
+Adobe Target 解决方案托管在全球范围内 Adobe 自有和 Adobe 租用的数据中心上。管理服务器完全托管在位于伦敦、新加坡和美国多个地方（包括俄勒冈和弗吉尼亚）的 Adobe 自有数据中心内。边缘服务器托管在位于伦敦、中国香港特别行政区、新加坡、东京和悉尼的 Amazon AWS 数据中心中的 Adobe 自有服务器和 Adobe 租用服务器上。
 
-管理服务器位置同时包含数据收集中心和数据处理中心。 而其他边缘站点位置则仅包含一个数据收集中心。每个报表包均分配给一个特定的数据处理中心。
+管理服务器位置同时包含一个数据收集中心和一个数据处理中心。而其他边缘站点位置则仅包含一个数据收集中心。每个报表包均分配给一个特定的数据处理中心。
 
 从距离访客最近的边缘环境来处理请求（而不是从一处位置响应所有定位请求）可以降低网络/Internet 传输时间的影响。
 
@@ -172,13 +169,13 @@ Google 举例说明“如果某个网站的原始页面加载了与向用户显�
 
 ## 机器人 {#bots}
 
-Adobe Target uses DeviceAtlas to detect known bots. [](https://deviceatlas.com/)标识为由机器人生成的流量仍会像常规用户一样提供内容，以确保其符合SEO准则。 Using bot traffic can skew A/B tests or personalization algorithms if they are treated like normal users. 因此，如果在Target活动中检测到已知的bot，则流量的处理方式会稍有不同。 删除机器人流量可以更准确地测量用户活动。
+Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. 被标识为由机器人生成的流量仍会像普通用户生成的流量那样提供内容，以确保其符合 SEO 准则。如果按照处理普通用户流量的方法来处理机器人流量，则使用机器人流量可能会使 A/B 测试或个性化算法产生偏差。因此，如果在 Target 活动中检测到已知机器人，则对流量的处理方式略有不同。删除机器人流量可以更准确地测量用户活动。
 
-具体而言，对于已知的机器人流量，Target不会：
+具体而言，对于已知机器人流量，Target 不会：
 
-* 创建或检索访客资料
+* 创建或检索访客配置文件
 * 记录任何配置文件属性或执行配置文件脚本
-* 查找Adobe Audience Manager(AAM)细分（如果适用）
-* 在为推荐、自动定位、自动个性化或自动分配活动建模和提供个性化内容时使用机器流量
-* 记录活动访问以进行报告
-* 要发送到Adobe Experience cloud平台的日志数据
+* 查找 Adobe Audience Manager (AAM) 区段（如果适用）
+* 在为“推荐”、自动定位、自动个性化或自动分配活动建模和提供个性化内容时使用机器人流量
+* 记录活动访问情况以进行报告
+* 记录要发送到 Adobe Experience Cloud 平台的数据

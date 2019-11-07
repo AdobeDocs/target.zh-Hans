@@ -1,14 +1,11 @@
 ---
-description: 有关在 Target 活动中使用在 Adobe Experience Manager (AEM) 中创建的体验片段以帮助优化或个性化的信息。
 keywords: experience;json;aem;adobe experience Manager；导出到adobe目标；体验片段；片段；XF
-seo-description: 有关在Adobe Target活动中使用Adobe Experience Manager(AEM)中创建的体验片段来帮助优化或个性化的信息。
-seo-title: Adobe Target中的Adobe Experience Manager(AEM)体验片段
-solution: Target
-title: AEM 体验片段
+description: 有关在Adobe Target活动中使用Adobe Experience Manager(AEM)中创建的体验片段来帮助优化或个性化的信息。
+title: Adobe Target中的Adobe Experience Manager(AEM)体验片段
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

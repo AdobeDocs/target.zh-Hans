@@ -1,13 +1,10 @@
 ---
-description: 创建受众以根据将访客引荐至您网站的搜索引擎或登陆页面来定位访客。
 keywords: 定位;流量源;定位流量源;定位搜索引擎;搜索引擎;登陆页面;定位登陆页面;引荐登陆页面
-seo-description: 在 Adobe Target 中创建受众以根据将访客引荐至您网站的搜索引擎或登陆页面来定位访客。
-seo-title: 在 Adobe Target 中定位流量源
-solution: Target
-title: 流量源
+description: 在 Adobe Target 中创建受众以根据将访客引荐至您网站的搜索引擎或登陆页面来定位访客。
+title: 在 Adobe Target 中定位流量源
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

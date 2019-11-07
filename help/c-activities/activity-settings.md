@@ -1,15 +1,12 @@
 ---
-description: 使用“活动设置”可管理活动的目标、优先级和持续时间。
 keywords: 目标和设置;目标;优先级;持续时间
-seo-description: 使用“活动设置”可管理活动的目标、优先级和持续时间。
-seo-title: 活动设置
-solution: Target
-subtopic: 多变量测试
+description: 使用“活动设置”可管理活动的目标、优先级和持续时间。
 title: 活动设置
+subtopic: 多变量测试
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

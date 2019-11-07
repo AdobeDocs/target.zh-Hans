@@ -1,13 +1,10 @@
 ---
-description: 活动 URL 可确定在体验定位活动中使用的页面，以及设计活动时在可视化体验编辑器 (VEC) 或基于表单的体验编辑器中打开的页面。
 keywords: 定位
-seo-description: 活动 URL 可确定在体验定位活动中使用的页面，以及设计活动时在 Adobe Target 可视化体验编辑器 (VEC) 或基于表单的体验编辑器中打开的页面。
-seo-title: 活动 URL
-solution: Target
+description: 活动 URL 可确定在体验定位活动中使用的页面，以及设计活动时在 Adobe Target 可视化体验编辑器 (VEC) 或基于表单的体验编辑器中打开的页面。
 title: 活动 URL
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

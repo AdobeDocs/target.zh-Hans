@@ -1,16 +1,10 @@
 ---
-description: 可使用实体属性，将产品或内容信息传递到 Recommendations。
 keywords: 实体;实体属性;将信息传递到推荐;行为数据;数据计数器;定义相对 URL;显示库存水平;定义价格;定义利润率;自定义属性
-seo-description: 可使用实体属性，将产品或内容信息传递到 Recommendations。
-seo-title: 实体属性
-solution: Target
+description: 可使用实体属性，将产品或内容信息传递到 Recommendations。
 title: 实体属性
-title-outputclass: premium
-topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
-badge: premium
 translation-type: tm+mt
-source-git-commit: dddaaedc59702b1b2a7fc1672a2771d958f4062a
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

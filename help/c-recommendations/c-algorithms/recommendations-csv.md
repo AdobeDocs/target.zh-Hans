@@ -1,16 +1,10 @@
 ---
-description: 可上传 CSV 文件以自定义您的推荐。
 keywords: 创建自定义标准;算法;标准;推荐标准;CSV;FTP;上传 CSV
-seo-description: 可上传 CSV 文件以自定义您的推荐。
-seo-title: 上传自定义标准
-solution: Target
+description: 可上传 CSV 文件以自定义您的推荐。
 title: 上传自定义标准
-title-outputclass: premium
-topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
-badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

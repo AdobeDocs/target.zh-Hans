@@ -1,14 +1,10 @@
 ---
-description: 移动设备视区可帮助您预览活动在各种大小的屏幕上的显示效果。
 keywords: 响应式;移动设备视区;视区;设备;移动设备示例;iPhone
-seo-description: 移动设备视区可帮助您预览活动在各种大小的屏幕上的显示效果。
-seo-title: 适用于响应式体验的移动设备视区
-solution: Target
+description: 移动设备视区可帮助您预览活动在各种大小的屏幕上的显示效果。
 title: 适用于响应式体验的移动设备视区
-topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

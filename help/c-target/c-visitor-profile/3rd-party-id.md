@@ -1,14 +1,11 @@
 ---
-description: mbox3rdPartyId 是您公司的访客 ID，例如您公司的忠诚度计划的会员 ID。
 keywords: mbox;mbox3rdPartyId;配置文件同步;PCID
-seo-description: '有关实时配置文件的信息 '
-seo-title: Adobe Target 中 mbox3rdPartyId 的实时配置文件同步
-solution: Target
-title: mbox3rdPartyId 的实时配置文件同步
+description: '有关实时配置文件的信息 '
+title: Adobe Target 中 mbox3rdPartyId 的实时配置文件同步
 topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
 translation-type: tm+mt
-source-git-commit: 34809d458b4e43e5ed9715803541a81754ee7e0f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

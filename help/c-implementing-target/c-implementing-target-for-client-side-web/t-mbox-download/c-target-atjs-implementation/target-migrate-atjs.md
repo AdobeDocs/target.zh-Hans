@@ -1,14 +1,11 @@
 ---
-description: 从 mbox.js 迁移到 at.js 是一个简单的过程。
 keywords: Target;at.js;迁移到 at.js;准备就绪;审核 at.js;集成 at.js
-seo-description: 从 mbox.js 迁移到 at.js 是一个简单的过程。
-seo-title: 如何从 mbox.js 迁移到 at.js
-solution: Target
+description: 从 mbox.js 迁移到 at.js 是一个简单的过程。
 title: 如何从 mbox.js 迁移到 at.js
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

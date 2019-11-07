@@ -1,15 +1,12 @@
 ---
-description: 有关“修改”页面的信息，该页面允许您查看对页面所做的修改并添加其他修改（CSS 选择器、Mbox 和自定义代码）。
 keywords: CSS 选择器;自定义代码;代码编辑器;移动设备 Web 体验编辑器
-seo-description: 有关“修改”页面的信息，该页面允许您查看对页面所做的修改并添加其他修改（CSS 选择器、Mbox 和自定义代码）。
-seo-title: 修改
-solution: Target
-subtopic: 代码编辑器
+description: 有关“修改”页面的信息，该页面允许您查看对页面所做的修改并添加其他修改（CSS 选择器、Mbox 和自定义代码）。
 title: 修改
+subtopic: 代码编辑器
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -223,7 +220,7 @@ Target 将值为“CDQID”的新元素 ID 应用于由 Target 修改的页面�
 
 如果您将自定义代码功能用于两个定位到相同 URL 的活动，则 JavaScript 将会注入到这两个活动的页面中。Target 会自动确定交付内容的顺序。请确保代码不依赖于位置。您需要确保代码中没有冲突。
 
-## 对自定义代码 自定义代码 {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+## 对自定义代码自定义代码故障诊断 {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
 **我收到一个警告，指出由于页面中的结构变化，无法应用某个操作。这是什么意思？**
 

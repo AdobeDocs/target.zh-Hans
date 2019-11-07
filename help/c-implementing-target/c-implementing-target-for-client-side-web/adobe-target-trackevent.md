@@ -1,14 +1,11 @@
 ---
-description: '有关 at.js 的 adobe.target.trackEvent(options) 函数的信息。 '
-keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;function;preventDefault;preventdefault;prevent default
-seo-description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.trackEvent(options) 函数的信息。
-seo-title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.trackEvent(options) 函数的信息。
-solution: Target
+keywords: adobe.target.trackEvent;trackEvent;trackevent;跟踪事件;at.js;函数;函数;preventDefault;preventdefault;阻止默认值
+description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.trackEvent(options) 函数的信息。
+title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.trackEvent(options) 函数的信息。
 subtopic: 入门指南
-title: adobe.target.trackEvent(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -17,7 +14,7 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 此函数会触发用户操作（例如点击和转化）报告请求。它不会在响应中交付活动。
 
-这些事件跟踪 mbox 调用可以用来定义活动中的量度。有关详细信息，请参 [阅成功指标](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) 和 [跟踪转化](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
+这些事件跟踪 mbox 调用可以用来定义活动中的量度。有关更多信息，请参阅[成功量度](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)和[跟踪转化](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
 
 以下是该 API 的详细信息：
 

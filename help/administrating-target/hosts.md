@@ -1,14 +1,11 @@
 ---
-description: 可组织您的网站和预生产环境，以便轻松管理和分隔报表。
 keywords: 主机;主机;主机组;环境;故障诊断;最佳实践
-seo-description: 可组织您的网站和预生产环境，以便轻松管理和分隔报表。
-seo-title: 主机
-solution: Target
+description: 可组织您的网站和预生产环境，以便轻松管理和分隔报表。
 title: 主机
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

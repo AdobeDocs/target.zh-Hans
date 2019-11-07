@@ -1,15 +1,12 @@
 ---
-description: 可设置您的帐户首选项以配置 Target Standard 或 Target Premium，从而使用您的帐户正常运行它们。
 keywords: 帐户首选项;首选项;网站详细信息;自定义 mbox 名称;用于报表的 Experience Cloud 解决方案;显示预计收入提升;CSS 选择器;使用元素类;默认的可视化体验编辑器 URL;启用增强型体验编辑器;生成体验快照;移动设备视区配置;垂直行业;筛选不兼容的标准
-seo-description: 可设置您的帐户首选项以配置 Adobe Target Standard 或 Target Premium，从而使用您的帐户正常运行它们。
-seo-title: 首选项
-solution: Target
-subtopic: 入门指南
+description: 可设置您的帐户首选项以配置 Adobe Target Standard 或 Target Premium，从而使用您的帐户正常运行它们。
 title: 首选项
+subtopic: 入门指南
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

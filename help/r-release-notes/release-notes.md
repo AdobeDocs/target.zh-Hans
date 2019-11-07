@@ -1,14 +1,11 @@
 ---
-description: 这些发行说明提供了每个 Target Standard 和 Target Premium 版本的功能、增强、修复问题和已知问题等信息。
 keywords: 发行说明；新增功能；发行；更新；更新；发行；增强；修复；错误修复
-seo-description: 这些发行说明介绍了每个 Target Standard 和 Target Premium 版本的功能、增强功能、修复信息和已知问题。
-seo-title: 'Adobe Target 发行说明（当前版本） '
-solution: Target
-title: Target 发行说明（当前版本）
+description: 这些发行说明介绍了每个 Target Standard 和 Target Premium 版本的功能、增强功能、修复信息和已知问题。
+title: 'Adobe Target 发行说明（当前版本） '
 topic: 推荐
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

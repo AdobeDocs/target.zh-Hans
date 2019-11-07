@@ -1,16 +1,10 @@
 ---
-description: 您在创建“推荐”活动之前需要了解的信息。
 keywords: 推荐;设置;首选项;垂直行业;筛选不兼容的标准;默认主机组;缩览图基本 URL;推荐 API 令牌
-seo-description: 您在创建“推荐”活动之前需要了解的信息。
-seo-title: 计划和实施推荐
-solution: Target
+description: 您在创建“推荐”活动之前需要了解的信息。
 title: 计划和实施推荐
-title-outputclass: premium
-topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
-badge: premium
 translation-type: tm+mt
-source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

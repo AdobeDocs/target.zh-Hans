@@ -1,14 +1,11 @@
 ---
-description: '有关 at.js 的 registerExtension() 函数的信息。 '
-keywords: registerExtension;registerextension;register extension;at.js;functions;function;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;timeout
-seo-description: 有关 Adobe Target at.js JavaScript 库的 registerExtension() 函数的信息。
-seo-title: 有关 Adobe Target at.js JavaScript 库的 tregisterExtension() 函数的信息。
-solution: Target
+keywords: registerExtension;registerextension;注册扩展;at.js;函数;函数;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;超时
+description: 有关 Adobe Target at.js JavaScript 库的 registerExtension() 函数的信息。
+title: 有关 Adobe Target at.js JavaScript 库的 tregisterExtension() 函数的信息。
 subtopic: 入门指南
-title: registerExtension()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

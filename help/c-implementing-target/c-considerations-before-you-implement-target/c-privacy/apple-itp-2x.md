@@ -1,14 +1,11 @@
 ---
-description: 有关 Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple ITP 2.1 和 ITP 2.2 的信息。
 keywords: Apple;ITP;智能防跟踪
-seo-description: 有关 Adobe Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple ITP 2.1 和 ITP 2.2 的信息。
-seo-title: Adobe Target 与 Apple ITP 支持
-solution: Target
+description: 有关 Adobe Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple ITP 2.1 和 ITP 2.2 的信息。
+title: Adobe Target 与 Apple ITP 支持
 subtopic: 入门指南
-title: Apple ITP 2.x
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

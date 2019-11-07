@@ -1,14 +1,11 @@
 ---
-description: 创建活动时，可在三步引导式工作流中创建仅限该活动的受众。这些临时受众可用于该相同活动内的其他位置，但不会存储在受众库中，因此无法用于其他活动。
 keywords: 受众;受众规则;创建受众;仅限该活动;临时
-seo-description: 创建活动时，可在 Adobe Target 三步引导式工作流中创建仅限该活动的受众。这些临时受众可用于该相同活动内的其他位置，但不会存储在受众库中，因此无法用于其他活动。
-seo-title: 在 Adobe Target 中创建仅限该活动的受众 在Adobe Target中
-solution: Target
-title: 创建仅限该活动的受众
+description: 创建活动时，可在 Adobe Target 三步引导式工作流中创建仅限该活动的受众。这些临时受众可用于该相同活动内的其他位置，但不会存储在受众库中，因此无法用于其他活动。
+title: 在 Adobe Target 中创建仅限该活动的受众 在Adobe Target中
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

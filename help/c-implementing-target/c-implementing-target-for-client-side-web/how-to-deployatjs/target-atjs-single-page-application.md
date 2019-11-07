@@ -1,14 +1,11 @@
 ---
-description: 有关使用 at.js 2.x 实施单页应用程序 (SPA) 的信息。
-keywords: 单页应用程序实施;实施单页应用程序;SPA;at.js 2.x;at.js;单页应用程序;单页应用程序;Spa;SPA
-seo-description: 有关使用 Adobe Target at.js 2.x 实施单页应用程序 (SPA) 的信息。
-seo-title: Adobe Target 中的单页应用程序实施
-solution: Target
-title: 单页应用程序实施
+keywords: 单页应用程序实现；单页应用程序；SPA;at.js 2.x;at.js；单页应用程序；单页应用程序；SPA;SPA
+description: 有关使用 Adobe Target at.js 2.x 实施单页应用程序 (SPA) 的信息。
+title: Adobe Target 中的单页应用程序实施
 topic: 标准
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,12 +1,10 @@
 ---
-description: 本部分介绍了如何将 Target 移动设备应用程序活动信息发送到 Adobe Analytics 以进行 postAhoc 分段。
 keywords: mobile;tntVal;analytics;adobe分析；集成；sdk;mobile sdk;
-seo-description: 本节介绍如何将Adobe Target移动应用程序活动信息发送到Adobe Analytics以便进行临时细分。
-seo-title: 将Adobe Target活动信息发送到Adobe Analytics
-title: 将活动信息发送到 Adobe Analytics
+description: 本节介绍如何将Adobe Target移动应用程序活动信息发送到Adobe Analytics以便进行临时细分。
+title: 将Adobe Target活动信息发送到Adobe Analytics
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: 5ba619bc501b7421f3aed0300a35ae8ed798a884
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

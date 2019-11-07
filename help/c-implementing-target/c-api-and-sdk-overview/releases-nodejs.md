@@ -1,13 +1,10 @@
 ---
-description: 与Adobe Target的Node.js SDK相关的发行说明
 keywords: at.js;sdk;node.js;release;updates;sdks；服务器端；服务器端；服务器端；nodejs
-seo-description: 与Adobe Target的服务器端API相关的发行说明。
-seo-title: 与Adobe Target的Node.js SDK相关的发行说明。
-solution: Target
-title: 发行说明——目标Node.js SDK
+description: 与Adobe Target的服务器端API相关的发行说明。
+title: 与Adobe Target的Node.js SDK相关的发行说明。
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

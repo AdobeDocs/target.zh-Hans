@@ -1,15 +1,12 @@
 ---
-description: 此信息可帮助您的技术人员了解 mbox.js 实施以及它可能会对您的网站有何影响。
 keywords: 实施;mbox.js;DOM 操作库;target.js;可视化体验编辑器;iFrame;Angular 网站;单页应用程序;单页应用程序;SPA
-seo-description: 此信息可帮助您的技术人员了解 mbox.js 实施以及它可能会对您的网站有何影响。
-seo-title: mbox.js 的功能
-solution: Target
-subtopic: 入门指南
+description: 此信息可帮助您的技术人员了解 mbox.js 实施以及它可能会对您的网站有何影响。
 title: mbox.js 的功能
+subtopic: 入门指南
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,15 +1,12 @@
 ---
-description: 有关如何利用 Adobe Profiles & Audiences 核心服务中的客户属性将客户关系管理 (CRM) 数据库的企业客户数据用于 Adobe Target 中的内容定位的信息。
 keywords: 客户记录服务;crs;crm;mbox3rdpartyid;客户属性;定位
-seo-description: 有关如何利用 Adobe Profiles & Audiences 核心服务中的客户属性将客户关系管理 (CRM) 数据库的企业客户数据用于 Adobe Target 中的内容定位的信息。
-seo-title: 客户属性 在Adobe Target中
-solution: Target
+description: 有关如何利用 Adobe Profiles & Audiences 核心服务中的客户属性将客户关系管理 (CRM) 数据库的企业客户数据用于 Adobe Target 中的内容定位的信息。
+title: 客户属性 在Adobe Target中
 subtopic: 入门指南
-title: 客户属性
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -22,7 +19,7 @@ Information about using enterprise customer data from a customer relationship ma
 
 ## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-The Audiences core service is part of the [!DNL Adobe Experience Cloud] and provides enterprises a tool to push their customer data to the [!DNL Experience Cloud] platform. 载入到 [!DNL Experience Cloud] 的数据适用于所有 [!DNL Experience Cloud] 工作流。[!DNL Target] uses this data for targeting returning customer based on attributes. [!DNL Adobe Analytics] 也会使用这些属性，它们可用于分析和分段。
+The Audiences core service is part of the [!DNL Adobe Experience Cloud] and provides enterprises a tool to push their customer data to the [!DNL Experience Cloud] platform. 载入到 [!DNL Experience Cloud] 的数据适用于所有 [!DNL Experience Cloud] 工作流。[!DNL Target] 使用此数据根据属性定位退回客户。 [!DNL Adobe Analytics] 也会使用这些属性，它们可用于分析和分段。
 
 ![](assets/crs.png)
 
@@ -52,7 +49,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. 创建数据文件。
 
-   将客户数据从 CRM 导出为 CSV 格式以创建 .csv 文件。或者，也可以创建 zip 或 gzip 文件进行上传。Ensure that first row of the CSV file is the header and all rows (customer data) have the same number of entries.
+   将客户数据从 CRM 导出为 CSV 格式以创建 .csv 文件。或者，也可以创建 zip 或 gzip 文件进行上传。确保CSV文件的第一行是标题，并且所有行（客户数据）的条目数相同。
 
    ![](assets/CRS_sample.png)
 

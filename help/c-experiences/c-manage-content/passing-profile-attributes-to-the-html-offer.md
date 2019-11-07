@@ -1,14 +1,10 @@
 ---
-description: 您可以在一个 HTML 或 JSON 选件中直接显示配置文件值和活动信息。
 keywords: 动态数据;资产;数据;选件;个性化选件;个人选件;令牌替换
-seo-description: 您可以在一个 HTML 或 JSON 选件中直接显示配置文件值和活动信息。
-seo-title: 将动态数据传递给选件
-solution: Target
+description: 您可以在一个 HTML 或 JSON 选件中直接显示配置文件值和活动信息。
 title: 将动态数据传递给选件
-topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,13 +1,10 @@
 ---
-description: 您可以将 Target Standard 中的活动配置为使用 Adobe Analytics 作为报表源 (A4T)。
 keywords: 定位;Analytics;跟踪服务器
-seo-description: 您可以将 Target Standard 中的活动配置为使用 Adobe Analytics 作为报表源 (A4T)。
-seo-title: 使用 Analytics 数据
-solution: Target
+description: 您可以将 Target Standard 中的活动配置为使用 Adobe Analytics 作为报表源 (A4T)。
 title: 使用 Analytics 数据
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

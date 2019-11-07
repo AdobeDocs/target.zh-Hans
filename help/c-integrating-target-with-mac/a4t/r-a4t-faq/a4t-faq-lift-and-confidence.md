@@ -1,14 +1,11 @@
 ---
-description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时的提升度和置信度的常见问题解答。
 keywords: FAQ;常见问题解答, Analytics for Target, A4T;提升度;Ad Hoc;Report Builder;置信度
-seo-description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时的提升度和置信度的常见问题解答。
-seo-title: 提升度和置信度 - A4T 常见问题解答
-solution: Target
+description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时的提升度和置信度的常见问题解答。
 title: 提升度和置信度 - A4T 常见问题解答
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

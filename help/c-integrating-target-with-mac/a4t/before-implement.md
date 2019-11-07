@@ -1,14 +1,10 @@
 ---
-description: 启用 Analytics 作为 Target 报表源 (A4T) 时，数据收集流程会发生一些更改。
 keywords: 推荐
-seo-description: 启用 Analytics 作为 Target 报表源 (A4T) 时，数据收集流程会发生一些更改。
-seo-title: 实施之前 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)
-solution: Target
-title: 实施之前
-topic: Premium
+description: 启用 Analytics 作为 Target 报表源 (A4T) 时，数据收集流程会发生一些更改。
+title: 实施之前 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

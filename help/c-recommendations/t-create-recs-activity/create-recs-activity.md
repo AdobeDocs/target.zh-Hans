@@ -1,16 +1,10 @@
 ---
-description: 使用 Target 可视化体验编辑器 (VEC)，可直接在启用了 Target 的页面上创建“推荐”活动，并在 Target 中修改页面的各个部分。
 keywords: 创建推荐;推荐活动;新建推荐;推荐概述
-seo-description: 使用 Target 可视化体验编辑器 (VEC)，可直接在启用了 Target 的页面上创建“推荐”活动，并在 Target 中修改页面的各个部分。
-seo-title: 创建“推荐”活动
-solution: Target
+description: 使用 Target 可视化体验编辑器 (VEC)，可直接在启用了 Target 的页面上创建“推荐”活动，并在 Target 中修改页面的各个部分。
 title: 创建“推荐”活动
-title-outputclass: premium
-topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -35,7 +29,7 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。
+   >上图中的[!UICONTROL [选择工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)选项是一项 [Target Premium](/help/c-intro/intro.md) 功能。如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。]
 
 1. （视情况而定）如果您是一位 [Target Premium 客户](/help/c-intro/intro.md#premium)，请选择一个[工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -171,6 +165,6 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
    如果设置了多个活动来向同一个页面交付内容，则会发生活动冲突，这可能导致页面显示意外内容。
 
-## 培训视频：创建Recommendations活动(7:15)
+## 培训视频：创建“推荐”活动 (7:15)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?captions=chi_hans)

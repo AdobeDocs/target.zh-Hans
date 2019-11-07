@@ -1,14 +1,11 @@
 ---
-description: 如果安全内容与不安全内容混合在一起，某些浏览器可能会阻止页面显示。
 keywords: 混合内容;安全;不安全;Chrome;故障诊断;VEC;可视化体验编辑器
-seo-description: 如果安全内容与不安全内容混合在一起，某些浏览器可能会阻止页面显示。
-seo-title: 在浏览器中启用混合内容
-solution: Target
+description: 如果安全内容与不安全内容混合在一起，某些浏览器可能会阻止页面显示。
 title: 在浏览器中启用混合内容
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

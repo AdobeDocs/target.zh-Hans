@@ -1,14 +1,10 @@
 ---
-description: 您可以对库中的资产执行多项任务。
 keywords: 内容库;资产;注释;复制;删除资产;下载资产;编辑内容;共享卡片;查看内容属性
-seo-description: 您可以对库中的资产执行多项任务。
-seo-title: 处理库中的内容
-solution: Target
+description: 您可以对库中的资产执行多项任务。
 title: 处理库中的内容
-topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

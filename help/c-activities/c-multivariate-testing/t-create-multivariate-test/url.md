@@ -1,13 +1,10 @@
 ---
-description: 活动 URL 可决定多变量测试 (MVT) 中使用的页面，以及在 Target 中设计测试时打开的页面。
 keywords: 定位
-seo-description: 活动 URL 可决定多变量测试 (MVT) 中使用的页面，以及在 Adobe Target 中设计测试时打开的页面。
-seo-title: 活动 URL
-solution: Target
+description: 活动 URL 可决定多变量测试 (MVT) 中使用的页面，以及在 Adobe Target 中设计测试时打开的页面。
 title: 活动 URL
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

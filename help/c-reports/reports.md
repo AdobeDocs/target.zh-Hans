@@ -1,15 +1,12 @@
 ---
-description: 报表提供了有关活动性能的信息。
 keywords: 报表;阻止 IP 地址;阻止来自某些 IP 地址的访客;下载报表;CSV
-seo-description: 报表提供了有关活动性能的信息
-seo-title: 报表
-solution: Target
-subtopic: 多变量测试
+description: 报表提供了有关活动性能的信息
 title: 报表
+subtopic: 多变量测试
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

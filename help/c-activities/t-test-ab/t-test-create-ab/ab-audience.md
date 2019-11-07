@@ -1,14 +1,11 @@
 ---
-description: 受众可确定哪些网站访客进入到您的活动。
 keywords: 受众;选择受众;选取受众;选择器
-seo-description: 受众可确定哪些网站访客进入到您的活动。
-seo-title: 选择受众
-solution: Target
+description: 受众可确定哪些网站访客进入到您的活动。
 title: 选择受众
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

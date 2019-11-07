@@ -1,14 +1,11 @@
 ---
-description: 测试摘要提供了多变量测试的可视化概述。
 keywords: 概述和参考
-seo-description: 测试摘要提供了多变量测试的可视化概述。
-seo-title: 测试摘要
-solution: Target
+description: 测试摘要提供了多变量测试的可视化概述。
 title: 测试摘要
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

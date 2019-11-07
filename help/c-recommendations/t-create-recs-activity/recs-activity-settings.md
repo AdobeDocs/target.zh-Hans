@@ -1,17 +1,11 @@
 ---
-description: 有些设置可用于描述和控制“推荐”活动。
 keywords: 推荐;设置;名称;目标;优先级;持续时间;报表设置;其他元数据
-seo-description: 有些设置可用于描述和控制 Adobe Target 中的“推荐”活动。
-seo-title: Adobe Target 中的“推荐”活动设置
-solution: Target
+description: 有些设置可用于描述和控制 Adobe Target 中的“推荐”活动。
+title: Adobe Target 中的“推荐”活动设置
 subtopic: 推荐
-title: “推荐”活动设置
-title-outputclass: premium
-topic: Premium
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

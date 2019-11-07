@@ -1,14 +1,11 @@
 ---
-description: 在 A/B 活动中，您可以将相同体验的不同版本定位到不同的受众。在可视化体验编辑器或基于表单的体验编辑器中，您可以为一个体验设置多个受众。
 keywords: 多个受众;体验版本;定位体验版本
-seo-description: 在 A/B 活动中，您可以将相同体验的不同版本定位到不同的受众。在可视化体验编辑器或基于表单的体验编辑器中，您可以为一个体验设置多个受众。
-seo-title: A/B 测试中的多个体验版本
-solution: Target
+description: 在 A/B 活动中，您可以将相同体验的不同版本定位到不同的受众。在可视化体验编辑器或基于表单的体验编辑器中，您可以为一个体验设置多个受众。
 title: A/B 测试中的多个体验版本
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,15 +1,12 @@
 ---
-description: 有关从 Adobe Experience Cloud 访问 Adobe Target 的说明。
 keywords: Experience Cloud;登录
-seo-description: 有关从 Adobe Experience Cloud 访问 Adobe Target 的说明。
-seo-title: 从 Adobe Experience Cloud 访问 Target
-solution: Target
-subtopic: 入门指南
+description: 有关从 Adobe Experience Cloud 访问 Adobe Target 的说明。
 title: 从 Adobe Experience Cloud 访问 Target
+subtopic: 入门指南
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

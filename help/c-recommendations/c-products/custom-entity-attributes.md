@@ -1,16 +1,10 @@
 ---
-description: 可使用单值和多值自定义实体属性来对目录中的项目定义其他相关信息。
 keywords: 多值实体属性;自定义实体属性;有效 JSON;实体属性值;JSON 数组;多值的;多值
-seo-description: 可使用单值和多值自定义实体属性来对目录中的项目定义其他相关信息。
-seo-title: 自定义实体属性
-solution: Target
+description: 可使用单值和多值自定义实体属性来对目录中的项目定义其他相关信息。
 title: 自定义实体属性
-title-outputclass: premium
-topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
-badge: premium
 translation-type: tm+mt
-source-git-commit: 41a287ede7326b8d7ed8c4763a3a733c5bd08333
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

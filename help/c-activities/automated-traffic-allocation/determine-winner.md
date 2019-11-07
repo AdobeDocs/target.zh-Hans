@@ -1,14 +1,11 @@
 ---
-description: 通过查看 Target UI 中的指示器，可确定自动分配 A/B 活动中的入选者。
 keywords: 自动流量分配;定位;入选者;统计保证;置信度;确定入选者
-seo-description: 通过查看 Target UI 中的指示器，可确定自动分配 A/B 活动中的入选者。
-seo-title: 确定入选者
-solution: Target
+description: 通过查看 Target UI 中的指示器，可确定自动分配 A/B 活动中的入选者。
 title: 确定入选者
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

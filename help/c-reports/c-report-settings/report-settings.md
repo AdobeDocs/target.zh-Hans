@@ -1,14 +1,10 @@
 ---
-description: 此信息可帮助您设置要在报表中显示的元素。可保存报表设置，以供日后使用。
 keywords: Target;报表;报表设置;预设;Target 预设;量度;受众;日期范围;设置;下载;表格视图;图形视图;平均提升度;提升度;提升度范围;置信区间;置信度;位置贡献;运行平均值;计数方法
-seo-description: 此信息可帮助您设置要在报表中显示的元素。可保存报表设置，以供日后使用。
-seo-title: 报表设置
-solution: Target
+description: 此信息可帮助您设置要在报表中显示的元素。可保存报表设置，以供日后使用。
 title: 报表设置
-topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

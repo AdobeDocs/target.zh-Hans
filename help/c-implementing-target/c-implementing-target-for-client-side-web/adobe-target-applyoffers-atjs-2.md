@@ -1,14 +1,11 @@
 ---
-description: '有关 at.js 的 adobe.target.applyOffers() 函数的信息。 '
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;申请选件;at.js;函数;函数
-seo-description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.applyOffers(options) 函数的信息。
-seo-title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.applyOffers(options) 函数的信息。
-solution: Target
+description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.applyOffers(options) 函数的信息。
+title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.applyOffers(options) 函数的信息。
 subtopic: 入门指南
-title: adobe.target.applyOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

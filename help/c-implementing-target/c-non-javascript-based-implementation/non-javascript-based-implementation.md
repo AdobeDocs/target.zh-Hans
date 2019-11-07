@@ -1,15 +1,12 @@
 ---
-description: 此信息介绍了如何在非 JavaScript 情景中实施 Target，例如使用 AdBox 或重定向器。
 keywords: 实施;mbox.js 非 javascript;AdBox;重定向器;mbox
-seo-description: 此信息介绍了如何在非 JavaScript 情景中实施 Target，例如使用 AdBox 或重定向器。
-seo-title: 电子邮件：实施 Target
-solution: Target
-subtopic: 入门指南
+description: 此信息介绍了如何在非 JavaScript 情景中实施 Target，例如使用 AdBox 或重定向器。
 title: 电子邮件：实施 Target
+subtopic: 入门指南
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,14 +1,11 @@
 ---
-description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时使用重定向选件的常见问题解答。
 keywords: FAQ;常见问题解答;Analytics for Target;A4T;重定向;重定向选件;adobe-mc-sdid;adobe_mc_ref
-seo-description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时使用重定向选件的常见问题解答。
-seo-title: 重定向选件 - A4T 常见问题解答
-solution: Target
+description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时使用重定向选件的常见问题解答。
 title: 重定向选件 - A4T 常见问题解答
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -43,15 +40,15 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ## 为何有时会同时计入原始页面和重定向页面上的查看次数？{#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-When using at.js version 1.6.3 or later, this is not an issue. This race condition affects only customers using earlier versions. Target团队维护两个版本的at.js:当前版本和第二个最新版本。 Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+使用 at.js 版本 1.6.3 或更高版本时，不会出现此问题。这种争用情况仅影响使用早期版本的客户。Target 团队维护两个版本的 at.js：当前版本和当前版本的上一个版本。根据需要升级 at.js，以确保您运行的是[受支持的版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
-If you are using an earlier, non-supported version of at.js, there is a possibility that a race condition can occur that might cause the Analytics call to fire before the redirect executes on the first page. 这可能会导致原始页面和重定向页面上的查看次数全都被计入。在这种情况下，第一个页面上的页面查看次数便是多余的，因为当时访客实际上从未“查看过”该页面。
+如果您使用的是不受支持的早期 at.js 版本，则可能会发生某种争用情况，这种情况可能导致先触发 Analytics 调用，然后再在第一个页面上执行重定向。这可能会导致原始页面和重定向页面上的查看次数全都被计入。在这种情况下，第一个页面上的页面查看次数便是多余的，因为当时访客实际上从未“查看过”该页面。
 
 为加快页面重定向的速度，建议使用基于表单的编辑器来构建重定向活动。这是因为页面中代码执行的位置需使用基于表单的编辑器。此外，还建议为每个体验各创建一个重定向选件，甚至对默认体验（在默认体验中重定向会返回原始页面）也是如此。这样做可确保计数错误如若发生，便会发生在所有体验中，因此报表和分析对于测试仍然有效。
 
-One reason you might want to use redirect offers for all experiences in the activity, including the default (control) experience, is to put the same conditions on all experiences. 例如，如果默认体验没有重定向选件，但其他体验有重定向选件，则没有重定向选件的体验速度具有固有的优势。 建议仅针对临时方案（如测试）使用重定向选件。 对于永久性方案（如个性化），不建议使用重定向选件。 After you determine the “winner,” you should remove the redirect to improve page-load performance.
+您希望对活动中包括默认（控制）体验在内的所有体验都使用重定向选件，因这样可以为所有体验施加相同的条件。例如，如果默认体验没有重定向选件，但其他体验具有重定向选件，则没有重定向选件的体验速度将具有一种内在优势。建议仅对临时方案（例如测试）使用重定向选件。不建议对永久性方案（例如个性化）使用重定向选件。确定“入选者”后，应删除重定向以提高页面加载性能。
 
-For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+有关此问题的更多信息，请参阅[已知问题](/help/r-release-notes/known-issues-resolved-issues.md#redirect)中的“重定向选件”信息。
 
 ## 如果我使用的是 mbox.js JavaScript 库，能否将重定向选件与 A4T 配合使用？{#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 

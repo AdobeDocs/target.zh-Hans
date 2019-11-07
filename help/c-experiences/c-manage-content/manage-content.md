@@ -1,13 +1,10 @@
 ---
-description: 可使用选件库来管理代码选件和图像选件内容。
 keywords: 内容;资产;管理内容;选件;管理资产;进入选择模式;选择模式
-seo-description: 可使用选件库来管理代码选件和图像选件内容。
-seo-title: 选件
-solution: Target
+description: 可使用选件库来管理代码选件和图像选件内容。
 title: 选件
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

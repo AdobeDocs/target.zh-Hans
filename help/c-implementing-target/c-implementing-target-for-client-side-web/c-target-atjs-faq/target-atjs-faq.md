@@ -1,14 +1,11 @@
 ---
-description: 有关 at.js 的常见问题解答。
 keywords: at.js FAQ;at.js 常见问题解答;FAQ;闪烁;加载器;页面加载器;跨域;文件大小;x-domain;at.js 和 mbox.js;仅限 x;Safari;单页应用程序;缺少选择器;选择器;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;IP 地址;httponly;HttpOnly;安全;IP;Cookie 域
-seo-description: 对有关 Adobe Target at.js JavaScript 库的常见问题的解答。
-seo-title: Adobe Target at.js 常见问题解答
-solution: Target
+description: 对有关 Adobe Target at.js JavaScript 库的常见问题的解答。
+title: Adobe Target at.js 常见问题解答
 subtopic: 入门指南
-title: at.js 常见问题解答
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

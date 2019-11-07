@@ -1,17 +1,11 @@
 ---
-description: 此信息介绍了向 Target 实施添加用户，创建工作区、用户组和属性，更新 Target 实施以包含 at_property 参数，以及指定角色和权限时需要执行的任务。
 keywords: 添加用户;项目;用户组;属性;工作区;管理属性;属性;at_property;角色;权限
-seo-description: 此信息介绍了向 Adobe Target 实施添加用户，创建工作区、用户组和属性，更新 Target 实施以包含 at_property 参数，以及指定角色和权限时需要执行的任务。
-seo-title: 配置企业权限
-solution: Target
-subtopic: 入门指南
+description: 此信息介绍了向 Adobe Target 实施添加用户，创建工作区、用户组和属性，更新 Target 实施以包含 at_property 参数，以及指定角色和权限时需要执行的任务。
 title: 配置企业权限
-title-outputclass: premium
-topic: Premium
+subtopic: 入门指南
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

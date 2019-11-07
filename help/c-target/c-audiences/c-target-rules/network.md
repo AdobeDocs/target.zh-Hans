@@ -1,13 +1,10 @@
 ---
-description: 您可以基于网络详细信息创建受众。
 keywords: 定位;网络;定位网络;ISP;域名;连接速度;定位 ISP;定位域名;定位连接速度
-seo-description: 您可以在 Adobe Target 中基于网络详细信息创建受众。
-seo-title: 在 Adobe Target 中基于网络详细信息创建受众。
-solution: Target
-title: 网络
+description: 您可以在 Adobe Target 中基于网络详细信息创建受众。
+title: 在 Adobe Target 中基于网络详细信息创建受众。
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,14 +1,11 @@
 ---
-description: 可在选件库中创建 JSON 选件，以在基于表单的体验编辑器中使用。
 keywords: 远程选件;创建远程选件
-seo-description: 可在选件库中创建 JSON 选件，以在基于表单的体验编辑器中使用。
-seo-title: 创建 JSON 选件
-solution: Target
+description: 可在选件库中创建 JSON 选件，以在基于表单的体验编辑器中使用。
 title: 创建 JSON 选件
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -24,9 +21,9 @@ JSON 选件可在基于表单的活动中使用，从而能够实现以下用例
 * JSON 选件目前仅适用于 AB 和 XT 活动。
 * JSON 选件只能在基于表单的活动中使用。
 * 使用服务器端 API、Mobile SDK 或 NodeJS SDK 时，可以直接检索 JSON 选件。
-* 在浏览器中，只能通过 at.js 1.2.3（或更高版本）并使用[getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) 来检索 JSON 选件，检索时可以使用 `setJson` 操作进行筛选。
+* 在浏览器中，只能通过 at.js 1.2.3（或更高版本）并使用 [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) 来检索 JSON 选件，检索时可以使用 `setJson` 操作进行筛选。
 * JSON 选件可作为原生 JSON 对象而不是字符串来交付。这些对象的用户不必再将对象作为字符串处理后再将其转换为 JSON 对象。
-* 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。开发人员必须编写相应代码，以便使用 [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)。
+* 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。开发人员必须编写相应代码，以便使用 [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)。
 * 如果您使用的是 mbox.js，JSON 选件将不受支持。
 
 ## 创建 JSON 选件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}

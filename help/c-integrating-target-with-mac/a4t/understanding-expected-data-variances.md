@@ -1,14 +1,11 @@
 ---
-description: 此信息介绍了当“不”使用 Analytics 作为报表源（A4T，可完全消除数据差异）时 Target 和 Adobe Analytics 之间的预期数据差异。
 keywords: 数据差异;Analytics;区别;差异;A4T;Analytics for Target;Analytics 作为报表源;差别
-seo-description: 此信息介绍了当“不”使用 Analytics 作为报表源（A4T，可完全消除数据差异）时 Target 和 Adobe Analytics 之间的预期数据差异。
-seo-title: 不使用 A4T 时的预期数据差异
-solution: Target
+description: 此信息介绍了当“不”使用 Analytics 作为报表源（A4T，可完全消除数据差异）时 Target 和 Adobe Analytics 之间的预期数据差异。
 title: 不使用 A4T 时的预期数据差异
 topic: 高级
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

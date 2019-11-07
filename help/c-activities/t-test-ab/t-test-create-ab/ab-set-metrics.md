@@ -61,4 +61,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 了解和构建“转化”、“收入”及“参与度”量度
 * 构建点击跟踪量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=ch
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=chi_hans)

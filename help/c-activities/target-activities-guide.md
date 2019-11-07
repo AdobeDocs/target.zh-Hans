@@ -1,14 +1,11 @@
 ---
-description: 下载一个互动式 PDF，其中介绍了 Adobe Target 中的不同活动类型（“推荐”除外）。
 keywords: 活动指南;活动;活动类型;活动操作
-seo-description: 下载一个互动式 PDF，其中介绍了 Adobe Target 中的不同活动类型（“推荐”除外）。
-seo-title: Target 活动类型
-solution: Target
+description: 下载一个互动式 PDF，其中介绍了 Adobe Target 中的不同活动类型（“推荐”除外）。
 title: Target 活动类型
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

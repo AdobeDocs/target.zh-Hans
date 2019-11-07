@@ -1,14 +1,11 @@
 ---
-description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时共享量度、受众和报表的常见问题解答。
 keywords: FAQ;常见问题解答;Analytics for Target;区段;A4T;共享报表
-seo-description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时共享量度、受众和报表的常见问题解答。
-seo-title: 共享量度、受众和报表 - A4T 常见问题解答
-solution: Target
+description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时共享量度、受众和报表的常见问题解答。
 title: 共享量度、受众和报表 - A4T 常见问题解答
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

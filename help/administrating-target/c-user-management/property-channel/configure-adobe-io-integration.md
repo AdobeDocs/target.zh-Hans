@@ -1,66 +1,63 @@
 ---
-description: 有关授予Adobe I/O集成对具有所需角色的所有工作区的访问权限的信息。
-keywords: 集成；角色；用户权限；管理控制台
-seo-description: 有关向现有Adobe I/O集成授予对Adobe Target中所需角色的所有工作区的访问权限的信息
-seo-title: 授予Adobe I/O集成对工作区的访问权限并在Adobe Target中分配角色
-solution: Target
+keywords: 集成;角色;用户权限;Admin Console
+description: 有关授予现有 Adobe I/O 集成使用 Adobe Target 中的所需角色访问所有工作区的权限的信息。
+title: 在 Adobe Target 中授予 Adobe I/O 集成访问工作区的权限并分配角色
 subtopic: 入门指南
-title: 授予Adobe I/O集成对工作区的访问权限并分配角色
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 授予Adobe I/O集成对工作区的访问权限并分配角色
+# ![PREMIUM](/help/assets/premium.png) 授予 Adobe I/O 集成访问工作区的权限并分配角色
 
-[!UICONTROL “企业权限] ” [!DNL Target] 允许客户使用单个组织，但将其分为不同团队或工作流的工作区。
+[!UICONTROL 企业权限]允许 [!DNL Target] 客户使用单个组织，但会根据其不同的团队或工作流程将其划分为多个工作区。
 
 >[!NOTE]
 >
 >“属性和权限”功能作为 [Target Premium](/help/c-intro/intro.md#premium) 解决方案的一部分提供。如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
 
-“企 [!UICONTROL 业权限] ”功能有助于有效扩展团队中的优化计划。 尽管该功能在UI中可用， [!DNL Target] 但直到2019年早些时候，Admin API还是缺乏相应的支持。 在2019年2 [!DNL Target] 月的版本中，Adobe更新了Admin API，这样您就可以使用集成帐户访问在组织中创建的所有工作区。 因此，虽然之前的版本将Admin API限制为仅使用默认工作区，但2019年2月的更新授予了对所有具有批准者访问权限的工作区 [!UICONTROL 的访] 问权限。
+[!UICONTROL 企业权限]功能有助于跨团队高效地扩展优化程序。尽管该功能在 [!DNL Target] UI 中可用，但直到 2019 年年初管理员 API 一直缺少相应的支持。在 [!DNL Target] 2019 年 2 月版中，Adobe 更新了管理员 API，以便您可以使用集成帐户访问组织中创建的所有工作区。因此，尽管在以前版本中，管理员 API 限制为仅访问默认工作区，但是 2019 年 2 月的更新版授予了使用[!UICONTROL 审批者]访问权限访问所有工作区的访问权限。
 
-在2019年9 [!DNL Target] 月版本中， [!DNL Target] 企 [!UICONTROL 业权限] (Enterprise Permissions)为客户提供了以下访问控制：
+With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterprise Permissions] provides customers with the following access controls:
 
-* 您可以选择可应用集成的工作区
-* 您可以将角色应用于Adobe I/O集成：审 [!UICONTROL 批人]、编 [!UICONTROL 辑者]或观 [!UICONTROL 察者]。
+* 您可以选择可将集成应用到的工作空间
+* 您可以对 Adobe I/O 集成应用以下角色：[!UICONTROL 审批者]、[!UICONTROL 编辑者]或[!UICONTROL 观察者]。
 
-此更新支持以下用例：
+更新版支持以下用例：
 
-* 授予具有“观察者”角色的所有工作区的Adobe I/O集成访问权限，以用于报告目的，而无权创建或编辑资源。 
-* Grant the Adobe I/O integration the access to select workspaces with the appropriate role to allow a central team to make API-driven changes in only a few workspaces.
-* 允许拥有其工作区的每个团队在准备好探索API并相应地选择角色时进行自己的集成。
-* 混合并匹配以上任一场景。
+* 授予 Adobe I/O 集成使用[!UICONTROL 观察者]角色访问所有工作区的权限以进行报告，但无权创建或编辑资源。
+* 授予 Adobe I/O 集成使用适当的角色来选择工作区的权限，以允许中心团队仅在少数几个工作区中进行基于 API 的更改。
+* 当团队准备好探索 API 并选择相应的角色时，允许各个团队自行创建工作区以便拥有他们自己的集成。
+* 混合并匹配以上任意场景。
 
-**需要的操作**:当前在所有工作区中利用API进行CRUD操作（活动、受众、优惠和报告）的客户需要授予其现有Adobe I/O集成访问权限，根据其用例，该访问权限具有所需角色的所有工作区。 您可以通过在中选择每个产 [!DNL Target] 品配 [!UICONTROL 置文件] , [!DNL Adobe Admin Console] 然后在“集成”选项卡中添加 [!UICONTROL 集成] 。 在9月发布之前，所有集成都使用批准者访 [!UICONTROL 问来运行] ，无论从“产品角色  ”下拉列表中做出何种选择。 您现在可以选择所需的角色。
+**所需操作**：当前正在利用 API 对所有工作区中的资源（活动、受众、选件和报表）执行 CRUD 操作的客户，需要根据用例要求，授予其现有 Adobe I/O 集成使用所需的角色访问所有工作区的权限。您可以通过选择 [!DNL Adobe Admin Console] 中的每个 [!DNL Target] [!UICONTROL 产品配置文件]，并在[!UICONTROL 集成]选项卡中添加集成来执行此操作。在 9 月版之前，无论从[!UICONTROL 产品角色]下拉列表中进行任何选择，所有集成操作都使用[!UICONTROL 审批者]访问权限来进行。现在，您可以选择所需的角色。
 
 >[!NOTE]
 >
->如果未执行此操作，在 [!DNL Target] 2019年9月版本发布后，访问控制将激活，并且您将仅看到对默认工作区的访问（如果您当前是这样设置的）。 预先设置集成没有不良反应。 你越早做出这种改变，就越好。 根据组织中的工作区数量，此过程只需单击几下即可将现有集成添加到具有所需角色的工作区中。
+>如果未执行这项操作，则在 [!DNL Target] 2019 年 9 月版发布之后，访问控制将会激活，而且如果您当前设置为仅访问默认工作区，那么您将看到激活后也只能访问默认工作区。预先设置集成不会产生不良影响。越早完成更改越好。根据组织中的工作区数量，此过程只需单击几下即可将现有集成添加到具有所需角色的工作区中。
 
-**要授予Adobe I/O集成对工作区的访问权限并分配角色，请执行以下操作：**
+**要授予 Adobe I/O 集成访问工作区的权限并分配角色，请执行以下操作：**
 
-1. 打开 **[Adobe Admin Console](https://adminconsole.adobe.com)**。
+1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
-1. 单击 **[!UICONTROL 产品]** ，然后选择所需产品的名称。
+1. 单击&#x200B;**[!UICONTROL 产品]**&#x200B;选项卡，然后选择所需产品的名称。
 
-   ![Choose product in Adobe Admin Console](/help/administrating-target/c-user-management/property-channel/assets/io-choose-product.png)
+   ![在 Adobe Admin Console 中选择产品](/help/administrating-target/c-user-management/property-channel/assets/io-choose-product.png)
 
-1. 选择所需的工作区（产品配置）。
+1. 选择所需的工作区（产品配置文件）。
 
-   ![Select the product profile](/help/administrating-target/c-user-management/property-channel/assets/io-select-product-profile.png)
+   ![选择产品配置文件](/help/administrating-target/c-user-management/property-channel/assets/io-select-product-profile.png)
 
-1. Click the **[!UICONTROL Integrations]** tab.
+1. 单击&#x200B;**[!UICONTROL 集成]**&#x200B;选项卡。
 
-   ![Integrations tab](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
+   ![“集成”选项卡](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
-1. (Conditional) To add a new integration, click Add Integration, select the desired integration, then click Save.********
+1. （条件）要添加新集成，请单击&#x200B;**[!UICONTROL 添加集成]**，选择所需的集成，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-1. From the Product Role drop-down list, select the desired role for that workspace:****
+1. 从&#x200B;**[!UICONTROL 产品角色]**&#x200B;下拉列表中，为该工作区选择所需的角色：
 
    * [!UICONTROL 审批者]
    * [!UICONTROL 编辑者]
    * [!UICONTROL 观察者]
-   ![Choose Product Profile role](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   ![选择产品配置文件角色](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)

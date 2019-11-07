@@ -1,13 +1,10 @@
 ---
 description: 使用本机移动设备应用程序的可视化体验编辑器 (VEC)，您能够以 DIY（自己动手）方式创建活动并对本机移动设备应用程序上的内容进行个性化，而无需持续依赖开发和应用程序发布周期。
-seo-description: 使用本机移动设备应用程序的可视化体验编辑器 (VEC)，您能够以 DIY（自己动手）方式创建活动并对本机移动设备应用程序上的内容进行个性化，而无需持续依赖开发和应用程序发布周期。
-seo-title: 移动设备应用程序可视化体验编辑器
-solution: Target
 title: 移动设备应用程序可视化体验编辑器
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -61,7 +58,7 @@ source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
 
    可以通过启动应用程序并打开创作界面来重新连接已配对的设备。
 
-**创作:**
+**创作：**
 
 连接应用程序并在 VEC 中显示应用程序的实时视图后，您可以开始创作活动。目前支持以下操作：
 

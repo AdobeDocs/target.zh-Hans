@@ -1,18 +1,16 @@
 ---
-description: 关于Adobe Target移动应用程序的常见问题解答。
 keywords: 移动应用；常见问题解答；常见问题解答；目标移动应用
-seo-description: 关于Adobe Target移动应用程序的常见问题解答。
-seo-title: 关于Adobe Target移动应用程序的常见问题解答
-title: Adobe Target移动应用程序常见问题解答
+description: 关于Adobe Target移动应用程序的常见问题解答。
+title: 关于Adobe Target移动应用程序的常见问题解答
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
-# Target for mobile apps FAQ
+# 针对移动应用程序的Target常见问题解答
 
 有关移动应用程序的常见 [!DNL Target] 问题列表。
 
@@ -26,7 +24,7 @@ SDK可在 [Adobe Marketing Cloud Git上找到](https://github.com/Adobe-Marketin
 
 ## Mobile SDK集成是否允许推出新的移动功能？ 如果没有新的代码部署，能否打开和关闭功能标记？
 
-Yes, you can use our mobile SDK to roll out features gradually.
+是的，您可以使用我们的移动SDK逐步推出功能。
 
 ## 对于更复杂的逻辑，我应该直接在应用程序中开发而不是使用Mobile VEC吗？ 如果是，我应使用哪种开发语言？
 
@@ -40,26 +38,26 @@ Adobe Experience Platform Mobile SDK目前支持iOS、Android和React。 有关�
 
 有关详细 [信息，请参阅Adobe Places文档](https://placesdocs.com/places-services-by-adobe-documentation/) 。
 
-## 移动“视图”支持哪些本机类？ Do they support any NSObject derived class (or any Android Object) or just NSViewController and Activities?
+## 移动“视图”支持哪些本机类？ 它们是否支持任何NSObject派生类（或任何Android对象）或仅支持NSViewController和活动？
 
-For more information, visit the Android documentation for the manual way of declaring views.[](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#views)
+有关详细信息，请访问Android文档，获取 [手动声明视图的方式](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#views)。
 
-## Do I need at.js for the Adobe Experience Platform Mobile SDKs to work?
+## 我是否需要at.js才能使Adobe Experience Platform Mobile SDK正常工作？
 
-不，您无需at.js即可使用移动SDK。 at.js是网站的 [!DNL Target] JavaScript库。 The Adobe Experience Platform Mobile SDKs are for mobile apps.
+不，您无需at.js即可使用移动SDK。 at.js是网站的 [!DNL Target] JavaScript库。 Adobe Experience Platform Mobile SDK适用于移动应用程序。
 
-## Is Target Mobile a functionality of Adobe Target Premium Product SKU only?
+## Target Mobile是否仅是Adobe Target Premium产品SKU的功能？
 
-For Adobe Target Standard customers, you can use our Mobile SDKs for A/B Test and Experience Targeting (XT) activities only. If you want to use Recommendations or AI-powered features in the mobile app, you need an Adobe Target Premium license.[](/help/c-intro/intro.md#premium)
+对于Adobe Target Standard客户，您只能将我们的Mobile SDK用于A/B测试和体验定位(XT)活动。 如果要在移动应用程序中使用Recommendations或AI支持的功能，则需要 [Adobe Target Premium](/help/c-intro/intro.md#premium) 许可证。
 
-## Can I leverage audiences from Adobe Audience Manager (AAM) in the VEC for Mobile Apps?
+## 我是否可以在VEC for Mobile Apps中利用Adobe Audience Manager(AAM)的受众？
 
-Yes, Adobe Experience Platform Mobile SDKs are built for Audience Manager, Analytics, Campaign, and Target. [](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)[](https://docs.adobe.com/content/help/en/analytics/landing/home.html)[](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html)Your audiences in Audience Manager are shared with .[!DNL Target]
+是的，Adobe Experience Platform Mobile SDK是为 [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)、 [Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)、 [Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html)和Target构建的。 Audience manager中的受众将与共享 [!DNL Target]。
 
-## Is there a mobile app integration between Adobe Experience Manager (AEM) and Target mobile activities?
+## Adobe Experience Manager(AEM)与Target移动活动之间是否存在移动应用程序集成？
 
-It is on our roadmap but there is no timeline yet. Currently, you can share JSON Experience Fragments from AEM to Target and there might be potential to then use them in a mobile app activity.[](/help/c-experiences/c-manage-content/aem-experience-fragments.md)
+这是在我们的路线图上，但还没有时间表。 目前，您可以将JSON [体验片段从AEM共享到Target](/help/c-experiences/c-manage-content/aem-experience-fragments.md) ，然后可能会在移动应用程序活动中使用这些片段。
 
-## Can I add more images using the VEC or only change existing images?
+## 我是否可以使用VEC添加更多图像，或仅更改现有图像？
 
 当前只能更改现有图像。

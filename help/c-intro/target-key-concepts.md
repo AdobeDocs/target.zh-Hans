@@ -1,15 +1,12 @@
 ---
-description: 此信息介绍了有助于您了解 Adobe Target 特性和功能的关键概念。
 keywords: 概述和参考;行为
-seo-description: 此信息介绍了有助于您了解 Adobe Target 特性和功能的关键概念。
-seo-title: Target 关键概念
-solution: Target
-subtopic: 入门指南
+description: 此信息介绍了有助于您了解 Adobe Target 特性和功能的关键概念。
 title: Target 关键概念
+subtopic: 入门指南
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

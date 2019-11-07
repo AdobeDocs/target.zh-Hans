@@ -1,14 +1,11 @@
 ---
 description: 当您想要将访客发送到不同的页面，而不是在相同页面上显示内容时，请使用此选项。
-seo-description: 当您想要将访客发送到不同的页面，而不是在相同页面上显示内容时，请使用此选项。
-seo-title: 重定向到 URL
-solution: Target
-subtopic: 多变量测试
 title: 重定向到 URL
+subtopic: 多变量测试
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

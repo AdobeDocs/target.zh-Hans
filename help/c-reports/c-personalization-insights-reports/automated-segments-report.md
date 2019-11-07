@@ -1,15 +1,10 @@
 ---
-description: 此信息介绍了自动化区段报表，该报表是自动个性化 (AP) 和自动定位 (AT) 活动用户可以使用的两个专门报表之一。
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;自动化区段;常见问题解答
-seo-description: 此信息介绍了自动化区段报表，该报表是自动个性化 (AP) 和自动定位 (AT) 活动用户可以使用的两个专门报表之一。
-seo-title: 自动化区段报表
-solution: Target
+description: 此信息介绍了自动化区段报表，该报表是自动个性化 (AP) 和自动定位 (AT) 活动用户可以使用的两个专门报表之一。
 title: 自动化区段报表
-title-outputclass: premium
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

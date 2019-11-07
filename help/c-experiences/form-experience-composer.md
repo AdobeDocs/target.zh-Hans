@@ -1,14 +1,11 @@
 ---
-description: 在基于表单的体验编辑器中，可采用非可视化方式创建体验。
 keywords: 基于表单的体验编辑器;基于表单的编辑器;细化
-seo-description: 在基于表单的体验编辑器中，可采用非可视化方式创建体验。
-seo-title: 基于表单的体验编辑器
-solution: Target
+description: 在基于表单的体验编辑器中，可采用非可视化方式创建体验。
 title: 基于表单的体验编辑器
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

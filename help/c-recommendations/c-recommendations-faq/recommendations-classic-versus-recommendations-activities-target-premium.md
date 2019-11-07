@@ -1,16 +1,10 @@
 ---
-description: 此信息可帮助您在 Recommendations Classic 与 Target Premium 中的“推荐”活动之间进行选择。
 keywords: 推荐;推荐算法;推荐活动;Recommendations Classic
-seo-description: 此信息可帮助您在 Recommendations Classic 与 Target Premium 中的“推荐”活动之间进行选择。
-seo-title: Recommendations Classic 与 Target Premium 中的“推荐”活动
-solution: Target
+description: 此信息可帮助您在 Recommendations Classic 与 Target Premium 中的“推荐”活动之间进行选择。
 title: Recommendations Classic 与 Target Premium 中的“推荐”活动
-title-outputclass: premium
-topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

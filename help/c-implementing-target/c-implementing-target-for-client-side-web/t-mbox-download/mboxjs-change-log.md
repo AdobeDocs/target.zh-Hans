@@ -1,14 +1,11 @@
 ---
-description: 此页面显示对 mbox.js 的每个版本所做的更改。
 keywords: mbox.js 更改;mbox.js 版本
-seo-description: 此页面显示对 mbox.js 的每个版本所做的更改。
-seo-title: mbox.js 版本详细信息
-solution: Target
-subtopic: 入门指南
+description: 此页面显示对 mbox.js 的每个版本所做的更改。
 title: mbox.js 版本详细信息
+subtopic: 入门指南
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

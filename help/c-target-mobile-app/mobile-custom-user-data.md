@@ -1,13 +1,11 @@
 ---
-description: 您可以将有关位置或用户的其他信息以名称-值对的形式发送给 Target。
 keywords: 移动设备应用程序;移动设备应用程序发送数据;定位移动设备应用程序;移动设备自定义用户数据;移动设备应用程序自定义数据
-seo-description: 您可以将有关位置或用户的其他信息以名称-值对的形式发送给 Target。
-seo-title: iOS - 发送自定义用户数据
+description: 您可以将有关位置或用户的其他信息以名称-值对的形式发送给 Target。
 title: iOS - 发送自定义用户数据
 topic: Target
 uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,14 +1,11 @@
 ---
-description: 可使用远程选件在 Target 以外托管内容，Target 会引用这些内容并将其交付到用户网站。出于方便使用或安全原因，这些内容可能位于内容管理或其他系统中。
 keywords: 远程选件;远程选件选择表;已缓存的内容;动态内容
-seo-description: 可使用远程选件在 Target 以外托管内容，Target 会引用这些内容并将其交付到用户网站。出于方便使用或安全原因，这些内容可能位于内容管理或其他系统中。
-seo-title: 创建远程选件
-solution: Target
+description: 可使用远程选件在 Target 以外托管内容，Target 会引用这些内容并将其交付到用户网站。出于方便使用或安全原因，这些内容可能位于内容管理或其他系统中。
 title: 创建远程选件
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

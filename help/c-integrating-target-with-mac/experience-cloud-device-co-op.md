@@ -1,14 +1,11 @@
 ---
-description: 此信息介绍了 Adobe Experience Cloud 设备协作，该计划允许参与者通过合作更好地识别跨多个数字接触点的用户，同时确保最高级别的隐私和透明度。
 keywords: Experience Cloud;设备协作;Analytics;Audience Manager;AAM;媒体优化器;设备图形
-seo-description: 此信息介绍了 Adobe Experience Cloud 设备协作，该计划允许参与者通过合作更好地识别跨多个数字接触点的用户，同时确保最高级别的隐私和透明度。
-seo-title: Experience Cloud 设备协作
-solution: Target
+description: 此信息介绍了 Adobe Experience Cloud 设备协作，该计划允许参与者通过合作更好地识别跨多个数字接触点的用户，同时确保最高级别的隐私和透明度。
 title: Experience Cloud 设备协作
 topic: Standard
 uuid: b689a964-613f-4a64-9f15-e9111e6bf945
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

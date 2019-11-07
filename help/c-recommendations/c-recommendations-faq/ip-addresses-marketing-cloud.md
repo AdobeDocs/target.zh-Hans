@@ -1,15 +1,10 @@
 ---
-description: 位于俄勒冈数据中心的“推荐”信息源处理服务器中使用的 IP 地址列表，可帮助您配置防火墙以允许源自 Adobe 服务器的 IP 地址。
 keywords: IP 地址;白名单;防火墙;推荐;信息源;服务器;Adobe Marketing Cloud
-seo-description: 位于俄勒冈数据中心的“推荐”信息源处理服务器中使用的 IP 地址列表，可帮助您配置防火墙以允许源自 Adobe 服务器的 IP 地址。
-seo-title: “推荐”信息源处理服务器使用的 IP 地址
+description: 位于俄勒冈数据中心的“推荐”信息源处理服务器中使用的 IP 地址列表，可帮助您配置防火墙以允许源自 Adobe 服务器的 IP 地址。
 title: “推荐”信息源处理服务器使用的 IP 地址
-title-outputclass: premium
-topic: Premium
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

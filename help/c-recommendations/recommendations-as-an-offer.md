@@ -1,14 +1,9 @@
 ---
-description: Adobe Recommendations 可作为 A/B 测试和体验定位活动的选件。
 keywords: 推荐;选件
-seo-description: Adobe Recommendations 可作为 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动的选件
-seo-title: Adobe Recommendations 可作为 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动的选件
-solution: Target
-title: “推荐”作为选件
-title-outputclass: premium
-topic: Premium
+description: Adobe Recommendations 可作为 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动的选件
+title: Adobe Recommendations 可作为 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动的选件
 translation-type: tm+mt
-source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -70,9 +65,9 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ### 使用“编辑”菜单编辑推荐选件
 
-1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
+1. 单击要编辑的选件，然后单击&#x200B;**[!UICONTROL 编辑]**。
 
-   ![Edit recommendations offer](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![编辑推荐选件](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. 从以下选项中进行选择：
 
@@ -85,8 +80,8 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ### 使用“修改”面板编辑推荐选件
 
-1. Click the [!UICONTROL Modifications] icon  **(`</>`)** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
-1. 将鼠标悬停在所需的操作上，然后单击&#x200B;**[!UICONTROL 修改]图标。**
+1. 单击[!UICONTROL 修改]图标 **(`</>`)** 以显示[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)面板。
+1. 将鼠标悬停在所需的操作上，然后单击&#x200B;**[!UICONTROL 修改]**&#x200B;图标。
 
    ![“修改”面板](/help/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -101,26 +96,26 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ### 使用“编辑”菜单删除推荐选件
 
-1. Click the offer you want to remove, then click **[!UICONTROL Layout &gt; Remove]**.
+1. 单击要删除的选件，然后单击&#x200B;**[!UICONTROL 布局 &gt; 删除]**。
 
    ![删除](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### 使用“修改”面板删除推荐选件
 
-1. Click the [!UICONTROL Modifications] icon **( &lt;/&gt; )** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. 单击[!UICONTROL 修改]图标 **( &lt;/&gt; )** 以显示[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)面板。
 1. 将鼠标悬停在所需的操作上，然后单击[!UICONTROL 删除]图标。
 
    ![“删除”图标](/help/c-recommendations/assets/recs-offer-delete.png)
 
-### Viewing the recommendations offer's status {#status}
+### 查看推荐选件的状态{#status}
 
-The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
+推荐选件（算法）的状态将显示在包含推荐选件的 A/B 测试和 XT 活动的[!UICONTROL 概述]页面底部：
 
-* Results Ready
-* Results Not Ready
-* Feed Failure
+* 结果已准备就绪
+* 结果未准备就绪
+* 信息源失败
 
-![Recommendations offer status](/help/c-recommendations/assets/recs-offer-status.png)
+![推荐选件状态](/help/c-recommendations/assets/recs-offer-status.png)
 
 ## 培训视频：作为选件的建议
 

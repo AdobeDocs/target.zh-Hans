@@ -1,14 +1,11 @@
 ---
-description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时查看报表的常见问题解答。
 keywords: faq;常见问题解答;analytics for target;a4T;报表;报告;查看报表;查看报告;计数方法;展示次数;访客;访问次数;默认量度;活动转化;未指定
-seo-description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时查看报表的常见问题解答。
-seo-title: 查看报表 - A4T 常见问题解答
-solution: Target
+description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时查看报表的常见问题解答。
 title: 查看报表 - A4T 常见问题解答
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -52,7 +49,7 @@ For more information, see [Select default report metrics](https://docs.adobe.com
 
 * 当用户符合活动条件并从 [!DNL Target] 返回内容时，所有上述量度都会触发。这并不一定意味着用户查看了该选件。如果活动体验未显示且用户未向下滚动页面，则表示该选件由 [!DNL Target] 提供，但用户并未查看。
 * 除非同一活动中的同一页面同时有多个 mbox 调用，否则“[!UICONTROL 活动展示次数]”（由 [!DNL Target] 测量）与“[!UICONTROL 实例数]”（由 [!DNL Analytics] 测量）相等。这会导致“[!UICONTROL 活动展示次数]”被计入多次，而“[!UICONTROL 实例]”只被计入一次。
-* When using Activity Impressions and Activity Conversions metrics in , ensure that both metrics have Same Touch attribution models applied. [!DNL Analysis Workspace]可通过单击列设置齿轮，启用“非默认”( [!UICONTROL Non-default)归因模型]，然后选择“相 [!UICONTROL 同触控”(Same Touch)应用模型]。 了解有关属性的更多信息， [请参阅分析工具指南](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) ，了解属 *性IQ概述*。
+* 在 [!DNL Analysis Workspace] 中使用[!UICONTROL 活动展示次数]和[!UICONTROL 活动转化]量度时，请确保两个量度均应用了[!UICONTROL 同一联系]归因模型。可以通过单击列设置齿轮，启用[!UICONTROL 非默认归因模型]，然后选择[!UICONTROL 同一联系]来应用模型。了解有关属性的更多信息， [请参阅分析工具指南](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) ，了解属 *性IQ概述*。
 
 ## 如果营销人员在活动设置期间选择了一个 Analytics 量度，则“活动转化”意味着什么？{#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +59,7 @@ For more information, see [Select default report metrics](https://docs.adobe.com
 
 ![](assets/unspecified.png)
 
-在其他报表中，“未指定”意味着数据不符合分类规则，但在 A4T 中，不应出现此种情况。如果您看到“未指定”，则表示分类服务尚未运行。活动数据通常需要24到72小时才能显示在报告中。 即使这些活动在此时间之前并未显示在报表中，但与这些活动绑定的所有访客数据都已被捕获，将在分类完成时显示出来。
+在其他报表中，“未指定”意味着数据不符合分类规则，但在 A4T 中，不应出现此种情况。如果您看到“未指定”，则表示分类服务尚未运行。活动数据一般需要 24 到 72 小时才能显示在报表中。即使这些活动在此时间之前并未显示在报表中，但与这些活动绑定的所有访客数据都已被捕获，将在分类完成时显示出来。
 
 分类期过后，数据会在从网站收集大约一小时后显示在这些报表中。报表中的所有量度、区段和值都来自您在设置活动时选择的报表包。
 

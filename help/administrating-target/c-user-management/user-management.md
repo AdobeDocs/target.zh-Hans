@@ -1,15 +1,12 @@
 ---
-description: 有关管理 Target Standard 中的用户以及管理 Target Premium 中的企业属性和权限的信息。
 keywords: 添加用户;管理用户;用户权限
-seo-description: 有关管理 Target Standard 中的用户以及管理 Target Premium 中的企业属性和权限的信息。
-seo-title: 用户管理
-solution: Target
-subtopic: 入门指南
+description: 有关管理 Target Standard 中的用户以及管理 Target Premium 中的企业属性和权限的信息。
 title: 用户管理
+subtopic: 入门指南
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

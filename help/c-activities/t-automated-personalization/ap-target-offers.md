@@ -1,14 +1,10 @@
 ---
 description: 在自动个性化活动中，您可以将选件定位到特定的受众。
-seo-description: 在自动个性化活动中，您可以将选件定位到特定的受众。
-seo-title: Target 自动个性化选件
-solution: Target,Analytics
 title: Target 自动个性化选件
-title-outputclass: premium
+solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

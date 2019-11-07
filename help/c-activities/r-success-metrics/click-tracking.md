@@ -1,15 +1,12 @@
 ---
-description: Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
 keywords: 点击跟踪;跟踪点击次数;点击次数;AppMeasurement
-seo-description: Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
-seo-title: 点击跟踪
-solution: Target
-subtopic: 入门指南
+description: Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
 title: 点击跟踪
+subtopic: 入门指南
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

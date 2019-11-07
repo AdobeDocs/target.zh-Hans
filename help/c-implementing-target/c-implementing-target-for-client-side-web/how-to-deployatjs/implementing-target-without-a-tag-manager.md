@@ -250,4 +250,4 @@ ov/t_create_orderconfirm-page-mbox-atjs.xml
 |--- |--- |
 | orderId | 针对转化计数标识订单的唯一值。<br>`orderId` 必须唯一。报表中会忽略重复订单。 |
 | orderTotal | 所购产品的币值。<br>不要传递货币符号。使用小数点（而非逗号）表示小数值。 |
-| productPurchasedId（可选） | 订单中所购产品的产品 ID（逗号分隔）列表。<br>这些产�
+| productPurchasedId（可选） | 订单中所购产品的产品 ID（逗号分隔）列表。<br>这些产品 ID 显示在审计报表中，以支持其他报表分析。 |

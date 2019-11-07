@@ -1,15 +1,12 @@
 ---
-description: 本主题介绍了在使用 Analytics 作为 Target 报表源 (A4T) 时遇到的一些常见问题。
 keywords: Analytics 跟踪服务器;A4T;Analytics 区段;报表包;数据不正确;孤立;SDID;VisitorAPI.js;mboxMCSDID;虚拟;未指定
-seo-description: 本主题介绍了在使用 Analytics 作为 Target 报表源 (A4T) 时遇到的一些常见问题。
-seo-title: Analytics 与 Target 集成 (A4T) 故障诊断
-solution: Target
-subtopic: 多变量测试
+description: 本主题介绍了在使用 Analytics 作为 Target 报表源 (A4T) 时遇到的一些常见问题。
 title: Analytics 与 Target 集成 (A4T) 故障诊断
+subtopic: 多变量测试
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -24,7 +21,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 * [!DNL Target] 中的分类未完全处理。
 
-   分类通常需要24到72小时，才能在第一次保存后对报告进行分类。
+   在第一次保存之后，分类通常需要 24 到 72 小时才能对报表进行分类。
 
 * 报表包中未包含任何数据，但 [!DNL Target] 尝试了对点击进行分类。在发生首次点击之前，[!DNL Target] 将一直无法对数据进行分类。
 
@@ -36,7 +33,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 >[!NOTE]
 >
->有时，数据原先可在报表中正常显示，但随后又重新列为“未指定”，这是因为添加了未完成分类的新活动。请记住，在首次保存后对报告进行分类通常需要24到72小时。
+>有时，数据原先可在报表中正常显示，但随后又重新列为“未指定”，这是因为添加了未完成分类的新活动。请记住，在第一次保存之后，通常需要 24 到 72 小时才能对报表进行分类。
 >
 >列为“未指定”时，不会丢失任何数据。运行分类后，数据会正确分配到相应的活动或体验。
 

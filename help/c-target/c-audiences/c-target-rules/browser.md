@@ -1,15 +1,11 @@
 ---
-description: 您可以在 Adobe Target 中通过创建受众来定位使用特定浏览器或特定浏览器选项访问您的页面的用户。
 keywords: 浏览器选项;类型;浏览器类型;浏览器语言;语言;版本;浏览器版本
-seo-description: 您可以在 Adobe Target 中通过创建受众来定位使用特定浏览器或特定浏览器选项访问您的页面的用户。
-seo-title: Adobe Target 受众中的浏览器选项
-solution: Target
+description: 您可以在 Adobe Target 中通过创建受众来定位使用特定浏览器或特定浏览器选项访问您的页面的用户。
+title: Adobe Target 受众中的浏览器选项
 subtopic: 多变量测试
-title: 浏览器
-topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

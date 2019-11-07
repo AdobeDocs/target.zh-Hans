@@ -1,16 +1,10 @@
 ---
-description: 有关“推荐”设计的常见问题解答 (FAQ) 列表。
 keywords: 推荐;常见问题解答;FAQ
-seo-description: 有关“推荐”设计的常见问题解答 (FAQ) 列表。
-seo-title: 设计常见问题解答
-solution: Target
+description: 有关“推荐”设计的常见问题解答 (FAQ) 列表。
 title: 设计常见问题解答
-title-outputclass: premium
-topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
-badge: premium
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -19,15 +13,15 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 有关“推荐”设计的常见问题解答 (FAQ) 列表。
 
-## 我推荐的商品的价格没有在小数点右侧显示两个值。 如何显示它们？
+## 推荐项目的价格并没有在小数点的右侧显示两个值。我该如何显示它们？
 
-默认情况下，设计模板中返 `entity.value`回的数字值（如）不会在小数点后显示任何尾随零。 例如，如果某个项目为$35.00，则 `entity.value` 等于35，并且页面上仅显示35，而不是$35.00。
+默认情况下，设计模板中返回的数值（如 `entity.value`）不会在小数点之后显示任何尾随的零。例如，如果某个项目的价格为 $35.00，则 `entity.value` 等于 35，并且页面上仅显示 35，而不是 $35.00。
 
-有两个选项可用于解决此问题。
+有两种方法可用于解决此问题。
 
-* 您可以使用Velocity脚本或Javascript将格式应用于返回的值。
+* 您可以使用 Velocity 脚本或 Javascript 对返回的值应用格式设置。
 
-* 您可以将项目的价格传递到两个单独的实体属性中。 第一个 `entity.value`可用于数字比较（如价格比较规则）。 第二个属性应是自定义属性，如 `entity.displayValue` 将实体的值存储为字符串以允许正确呈现。
+* 您可以将项目的价格传递到两个单独的实体属性中。第一个属性 `entity.value` 可用于进行数值比较（例如价格比较规则）。第二个应该是自定义属性，例如 `entity.displayValue`，用于将实体的值存储为字符串以正确进行渲染。
 
    例如：
 

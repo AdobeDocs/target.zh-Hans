@@ -1,16 +1,10 @@
 ---
-description: 收藏集是一组符合推荐标准的产品或项目。
 keywords: 收藏集;定位
-seo-description: 集合是Adobe Target中有资格获得推荐的一组产品或项目。
-seo-title: Adobe target中的集合
-solution: Target
-title: 收藏集
-title-outputclass: premium
-topic: Premium
+description: 收藏集是 Adobe Target 中一组符合推荐标准的产品或项目。
+title: Adobe Target 中的收藏集
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
-badge: premium
 translation-type: tm+mt
-source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -23,7 +17,7 @@ source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
 
 使用收藏集，可将您的产品组织到逻辑分段中。例如，如果有些项目可在某个地区提供，而无法在其他地区提供，则您可能想要创建一个收藏集，以排除访客所在地区不能提供的项目。您还可以使用收藏集来组织季节性项目，或使用任何其他对您的业务适用的组织参数。
 
-The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria within the recommendation also uses this collection, so only items in the collection are included in the backup recommendation. 使用收藏集，您可以确保仅在某个位置显示对其有意义的产品。
+为推荐中的每个标准生成的[备用推荐](/help/c-recommendations/c-algorithms/backup-recs.md)也使用该收藏集，因此备用推荐中仅包含收藏集中的项目。使用收藏集，您可以确保仅在某个位置显示对其有意义的产品。
 
 每次运行各个标准时，都会重新构建或更新收藏集。
 
@@ -43,7 +37,7 @@ The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md
 
 1. 单击&#x200B;**[!UICONTROL 推荐]** &gt; **[!UICONTROL 收藏集]**&#x200B;以显示现有收藏集列表。
 
-   ![集合列表](assets/collections_list.png)
+   ![收藏集列表](assets/collections_list.png)
 
    [!UICONTROL 收藏集]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数量。请参阅[设置](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)以更改默认主机组。
 
@@ -65,9 +59,9 @@ The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 使用高级搜索创建集合
+## 使用高级搜索创建收藏集
 
-You can also create collections using Advanced Search on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md) page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+您还可以使用[目录搜索](/help/c-recommendations/c-products/catalog-search.md)页面上的“高级搜索”（[!UICONTROL 推荐] &gt; [!UICONTROL 目录搜索] &gt; [!UICONTROL 高级搜索]）来创建收藏集。
 
 ![另存为](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -77,11 +71,11 @@ You can also create collections using Advanced Search on the [Catalog Search](/h
 >
 >“高级搜索”功能不区分大小写；但在进行产品交付时，会根据区分大小写的搜索来返回产品。这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建收藏集时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个目录，以用于返回包含“holiday”的产品，则只会返回包含“holiday”的产品，而不会返回包含“Holiday”的产品。
 
-## 培训视频：在Recommendations中创建集合和排除(7:05)
+## 培训视频：在“推荐”中创建收藏集和排除项 (7:05)
 
-此视频包含以下信息：
+本视频包含以下信息：
 
-* 创建集合
+* 创建收藏集
 * 创建排除项
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?captions=chi_hans)

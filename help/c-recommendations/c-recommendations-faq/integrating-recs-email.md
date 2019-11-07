@@ -1,16 +1,11 @@
 ---
-description: 此信息介绍了将电子邮件与“推荐”集成的方法。
 keywords: 电子邮件;ESP;电子邮件服务提供商;rawbox;交付 API;仅限下载模板;电子邮件模板;批量处理;构建时电子邮件
-seo-description: 此信息介绍了将电子邮件与“推荐”集成的方法。
-seo-title: 将“推荐”与电子邮件集成
-solution: Target
+description: 此信息介绍了将电子邮件与“推荐”集成的方法。
 title: 将“推荐”与电子邮件集成
-title-outputclass: premium
 topic: 推荐
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

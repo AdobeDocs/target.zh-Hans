@@ -1,13 +1,10 @@
 ---
-description: 此信息介绍如何使用 Target 可视化体验编辑器 (VEC) 助手浏览器扩展在 VEC 内可靠地加载网站，以快速创作和 QA 体验。
 keywords: VEC;可视化体验编辑器;VEC;iframe;扩展;浏览器
-seo-description: 此信息介绍如何使用 Adobe Target 可视化体验编辑器 (VEC) 助手浏览器扩展在 VEC 内可靠地加载网站，以快速创作和 QA 体验。
-seo-title: Adobe Target 可视化体验编辑器 (VEC) 助手扩展
-solution: Target
-title: 可视化体验编辑器助手扩展
+description: 此信息介绍如何使用 Adobe Target 可视化体验编辑器 (VEC) 助手浏览器扩展在 VEC 内可靠地加载网站，以快速创作和 QA 体验。
+title: Adobe Target 可视化体验编辑器 (VEC) 助手扩展
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,14 +1,11 @@
 ---
-description: 如果您的活动未显示在网站上，这些故障诊断建议应该可以帮助您找到解决方法。
 keywords: Target 故障诊断;默认内容;测试未处于实时状态;活动未处于实时状态;定位无法运行;显示之前的体验;无法创建活动;创建活动;页面结构发生更改;页面结构已修改;错误消息;删除配置文件脚本时出错;ajax 无法运行
-seo-description: 如果您的活动未显示在网站上，这些故障诊断建议应该可以帮助您找到解决方法。
-seo-title: 活动故障诊断
-solution: Target
+description: 如果您的活动未显示在网站上，这些故障诊断建议应该可以帮助您找到解决方法。
 title: 活动故障诊断
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: e2592d9b117ac163876257fe6003f1cfb9cfe093
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

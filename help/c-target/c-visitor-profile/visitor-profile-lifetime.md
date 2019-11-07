@@ -1,15 +1,12 @@
 ---
-description: 默认情况下，访客配置文件会存储 14 天。配置文件生命周期可延长。
 keywords: 概述和参考
-seo-description: 默认情况下，访客配置文件会存储 14 天。配置文件生命周期可延长。
-seo-title: 访客配置文件生命周期
-solution: Target
-subtopic: 入门指南
+description: 默认情况下，访客配置文件会存储 14 天。配置文件生命周期可延长。
 title: 访客配置文件生命周期
+subtopic: 入门指南
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

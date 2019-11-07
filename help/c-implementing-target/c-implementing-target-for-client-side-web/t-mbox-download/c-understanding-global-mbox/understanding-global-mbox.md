@@ -1,15 +1,12 @@
 ---
-description: 有关全局mbox的信息，该名称用于指代在Adobe Target实施中每个网页顶部进行的单个服务器调用。
 keywords: 全局 mbox;实施 mbox.js;实施 at.js
-seo-description: 有关全局mbox的信息，该名称用于指代在Adobe Target实施中每个网页顶部进行的单个服务器调用。
-seo-title: 了解全局 mbox
-solution: Target
+description: 有关全局mbox的信息，该名称用于指代在Adobe Target实施中每个网页顶部进行的单个服务器调用。
+title: 了解全局 mbox
 subtopic: 入门指南
-title: 了解全局 mbox 在Adobe Target中
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

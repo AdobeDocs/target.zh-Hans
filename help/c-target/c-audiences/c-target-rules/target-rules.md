@@ -1,13 +1,10 @@
 ---
-description: 您可以对任意类别进行定位。每种类别均以选项卡的方式工作，让您能够为每种类别创建定位规则（或组）。
 keywords: 定位;定位类别;定位条件;Audience Manager;自定义配置文件参数;访客配置文件;自定义用户参数;定位规则
-seo-description: 您可以对任意类别进行定位。每种类别均以选项卡的方式工作，让您能够为每种类别创建定位规则（或组）。
-seo-title: 受众类别
-solution: Target
+description: 您可以对任意类别进行定位。每种类别均以选项卡的方式工作，让您能够为每种类别创建定位规则（或组）。
 title: 受众类别
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

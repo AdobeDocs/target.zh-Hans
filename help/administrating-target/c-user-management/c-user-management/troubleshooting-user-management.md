@@ -1,14 +1,11 @@
 ---
-description: 有关在 Adobe Target 中管理用户的故障诊断信息。
 keywords: Target 故障诊断;诊断 Target 故障;用户;用户管理
-seo-description: 有关在 Adobe Target 中管理用户的故障诊断信息。
-seo-title: 用户管理故障诊断
-solution: Target
+description: 有关在 Adobe Target 中管理用户的故障诊断信息。
 title: 用户管理故障诊断
 topic: Advanced,Standard,Classic
 uuid: e73fead8-0f7e-4f44-8ddb-6611b17c2e8b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

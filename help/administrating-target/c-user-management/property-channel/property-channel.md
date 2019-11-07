@@ -1,17 +1,11 @@
 ---
-description: 有关创建属性以及使用属性和权限功能的信息；利用该功能，Target 管理员可以在 Target 中创建单独的工作区（产品配置文件），然后根据这些工作区针对各个页面、属性或网站为用户分配不同的角色和权限。
 keywords: 工作区;管理属性;权限;产品配置;产品配置文件;角色;项目
-seo-description: 有关创建属性以及使用属性和权限功能的信息；利用该功能，Target 管理员可以在 Target 中创建单独的工作区（产品配置文件），然后根据这些工作区针对各个页面、属性或网站为用户分配不同的角色和权限。
-seo-title: 企业用户权限
-solution: Target
-subtopic: 入门指南
+description: 有关创建属性以及使用属性和权限功能的信息；利用该功能，Target 管理员可以在 Target 中创建单独的工作区（产品配置文件），然后根据这些工作区针对各个页面、属性或网站为用户分配不同的角色和权限。
 title: 企业用户权限
-title-outputclass: premium
-topic: Premium
+subtopic: 入门指南
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

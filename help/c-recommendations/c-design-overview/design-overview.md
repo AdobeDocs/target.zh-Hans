@@ -1,14 +1,10 @@
 ---
-description: 此信息概述了用于定义推荐如何在页面上显示的设计。
 keywords: 推荐设计;模板;创建设计;交付;输出
-seo-description: 此信息概述了用于定义推荐如何在页面上显示的设计。
-seo-title: 设计概述
-solution: Target
+description: 此信息概述了用于定义推荐如何在页面上显示的设计。
 title: 设计概述
-topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

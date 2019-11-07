@@ -1,13 +1,10 @@
 ---
-description: 可视化体验编辑器提供了一个可视化界面，用于编辑您页面上的体验。
 keywords: 定位;体验;添加体验;体验添加
-seo-description: Adobe Target 中的可视化体验编辑器 (VEC) 提供了一个可视化界面，用于编辑您页面上的体验。
-seo-title: 添加体验
-solution: Target
+description: Adobe Target 中的可视化体验编辑器 (VEC) 提供了一个可视化界面，用于编辑您页面上的体验。
 title: 添加体验
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

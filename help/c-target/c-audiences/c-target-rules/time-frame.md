@@ -1,13 +1,10 @@
 ---
-description: 您可以添加开始/结束日期和时间来定位在特定期限内访问您网站的用户。您也可以设置“将星期与日期分开”选项来为受众定位创建循环模式。
 keywords: 时间范围;开始日期;结束日期;开始/结束日期;定位时间计划;星期分开;日期分开;分开
-seo-description: 您可以添加开始/结束日期和时间来定位在特定期限内访问您网站的用户。您也可以设置“将星期与日期分开”选项来为受众定位创建循环模式。
-seo-title: 时间范围
-solution: Target
+description: 您可以添加开始/结束日期和时间来定位在特定期限内访问您网站的用户。您也可以设置“将星期与日期分开”选项来为受众定位创建循环模式。
 title: 时间范围
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

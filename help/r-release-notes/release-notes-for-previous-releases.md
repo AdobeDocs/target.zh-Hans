@@ -1,14 +1,11 @@
 ---
-description: 以前 Target 版本的发行说明，包括 Target Standard/Premium 的发行说明、Target 平台以及 Target Javascript 库（at.js 和 mbox.js）。发行说明按发布年月按降序排列。
 keywords: 发行说明
-seo-description: 以前 Target 版本的发行说明，包括 Target Standard/Premium 的发行说明、Target 平台以及 Target Javascript 库（at.js 和 mbox.js）。发行说明按发布年月按降序排列。
-seo-title: 以前版本的发行说明
-solution: Target
+description: 以前 Target 版本的发行说明，包括 Target Standard/Premium 的发行说明、Target 平台以及 Target Javascript 库（at.js 和 mbox.js）。发行说明按发布年月按降序排列。
 title: 以前版本的发行说明
 topic: 推荐
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

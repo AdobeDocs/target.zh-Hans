@@ -1,14 +1,11 @@
 ---
-description: 位置贡献报表显示每个元素和每个选件的性能。
 keywords: MVT;多变量测试;位置贡献报表
-seo-description: 位置贡献报表显示每个元素和每个选件的性能。
-seo-title: 位置贡献报表 (MVT)
-solution: Target
+description: 位置贡献报表显示每个元素和每个选件的性能。
 title: 位置贡献报表 (MVT)
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

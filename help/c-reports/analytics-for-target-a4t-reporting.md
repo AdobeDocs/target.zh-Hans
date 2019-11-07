@@ -1,15 +1,12 @@
 ---
-description: 使用 Analytics 作为 Target 报表源 (A4T)，您可以访问 Target 活动的 Analytics 报表。
 keywords: Analytics for Target;A4T;Analytics 作为报表源
-seo-description: 使用 Analytics 作为 Target 报表源 (A4T)，您可以访问 Target 活动的 Analytics 报表。
-seo-title: Analytics for Target (A4T) 报表
-solution: Target
-subtopic: 多变量测试
+description: 使用 Analytics 作为 Target 报表源 (A4T)，您可以访问 Target 活动的 Analytics 报表。
 title: Analytics for Target (A4T) 报表
+subtopic: 多变量测试
 topic: Standard
 uuid: 4132492b-92d7-4b21-b7ca-324e7b898251
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

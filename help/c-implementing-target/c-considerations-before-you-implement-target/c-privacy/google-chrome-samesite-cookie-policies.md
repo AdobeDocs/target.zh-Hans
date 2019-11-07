@@ -1,15 +1,12 @@
 ---
-description: 有关从 Google Chrome 版本 76 开始使用的 Target 和 SameSite IETF 标准的信息。
 keywords: google;samesite;cookies;chrome 80;ietf
-seo-description: 有关 Google Chrome 版本 80 引入的 Adobe Target 和 SameSite IETF 标准的信息。
-seo-title: Adobe Target和Google的SameSite cookie策略
-solution: Target
+description: 有关 Google Chrome 版本 80 引入的 Adobe Target 和 SameSite IETF 标准的信息。
+title: Adobe Target和Google的SameSite cookie策略
 subtopic: 入门指南
-title: Google Chrome SameSite Cookie 策略
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -42,7 +39,7 @@ Cookies很重要，因为当用户浏览Web时，它们会增强用户的体验�
 
 ## 安全问题
 
-虽然Cookies增强了用户体验和强大的广告功能，但它们也可能引入安全漏洞，如跨站点请求伪造(CSRF)攻击。 例如，如果用户登录银行站点以支付信用卡账单并离开该站点而不注销，然后浏览到同一会话中的恶意站点，则可能发生CSRF攻击。 恶意站点可能包含向银行站点发出请求的代码，该请求在页面加载时执行。 由于用户仍然通过银行站点身份验证，因此会话cookie可用于启动CSRF攻击以从用户的银行帐户发起资金转移事件。 这是因为，每次访问站点时，HTTP请求中都会附加所有Cookie。 由于这些安全问题，谷歌现在正在尝试缓解这些问题。
+虽然Cookies增强了用户体验和强大的广告功能，但它们也可能引入安全漏洞，如跨站点请求伪造(CSRF)攻击。 例如，如果用户登录银行站点以支付信用卡账单并离开该站点而不注销，然后浏览到同一会话中的恶意站点，则可能发生CSRF攻击。 恶意站点可能包含向银行站点发出请求的代码，该请求在页面加载时执行。 由于用户仍然通过银行站点身份验证，因此会话Cookie可用于启动CSRF攻击，以从用户的银行帐户发起资金转移事件。 这是因为，每次访问站点时，HTTP请求中都会附加所有Cookie。 由于这些安全问题，谷歌现在正在尝试缓解这些问题。
 
 ## Target如何使用cookies?
 
@@ -77,7 +74,7 @@ Target还（有时）使用第三方Cookie。 如果您拥有多个位于不同�
 
 对于“不带SameSite的Cookies必须是安全的”选项，如果您不选择加入中的跨域跟踪功能，则中的第一方Cookies将继续 [!DNL Target][!DNL Target] 工作。
 
-However, when you opt-in to use cross-domain tracking to leverage [!DNL Target] across multiple domains, Chrome requires `SameSite = None` and Secure flags to be used for third-party cookies. 这意味着您必须确保您的站点使用HTTPS协议。 中的客户端库将 [!DNL Target] 自动使用HTTPS协议，并将 `SameSite = None` “和安全”标记附加到第三方Cookie中，以 [!DNL Target] 确保所有活动继续交付。
+However, when you opt-in to use cross-domain tracking to leverage [!DNL Target] across multiple domains, Chrome requires `SameSite = None` and Secure flags to be used for third-party cookies. 这意味着您必须确保您的站点使用HTTPS协议。 中的客户端库 [!DNL Target] 将自动使用HTTPS协议，并将 `SameSite = None` “和安全”标记附加到第三方Cookie中，以 [!DNL Target] 确保所有活动继续交付。
 
 ## 您需要执行哪些操作？
 
@@ -109,7 +106,7 @@ However, when you opt-in to use cross-domain tracking to leverage [!DNL Target] 
 
 ## 如果不转而使用HTTPS协议，会产生什么影响？
 
-影响您的唯一用例是，如果您使用的跨域跟踪功能 [!DNL Target] 是通过mbox.js或at.js 1。*x* 不支持跨域跟踪。如果不改用Google要求的HTTPS，您会发现您域内的独特访客数量会激增，因为Google会丢弃我们使用的第三方Cookie。 由于第三方Cookie将被删除，当用户从一个域导航到另一个域时， [!DNL Target] 将无法为该用户提供一致的个性化体验。 第三方Cookie主要用于标识在您拥有的域中导航的单个用户。
+影响您的唯一用例是，如果您使用的跨域跟踪功能 [!DNL Target] 是通过mbox.js或at.js 1。*x* 中不再对跨域跟踪提供开箱即用支持。如果不改用Google要求的HTTPS，您会发现您域内的独特访客数量会激增，因为Google会丢弃我们使用的第三方Cookie。 由于第三方Cookie将被删除，当用户从一个域导航到另一个域时， [!DNL Target] 将无法为该用户提供一致的个性化体验。 第三方Cookie主要用于标识在您拥有的域中导航的单个用户。
 
 ## 结论
 

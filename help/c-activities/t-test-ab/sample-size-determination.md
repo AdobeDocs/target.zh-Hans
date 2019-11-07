@@ -1,13 +1,10 @@
 ---
-description: 成功的 A/B 测试需要足够数量的访客（样本量）才能提高转化率，但您如何知道 A/B 测试应该持续多长时间？本文包含有关自动分配活动和 Target 样本量计算器的信息，可帮助您确保活动拥有足够数量的访客来实现您的目标。
 keywords: AB;A/B;AB...n;样本量;样本量计算器;自动分配
-seo-description: 成功的 A/B 测试需要足够数量的访客（样本量）才能提高转化率，但您如何知道 A/B 测试应该持续多长时间？本文包含有关自动分配活动和 Target 样本量计算器的信息，可帮助您确保活动拥有足够数量的访客来实现您的目标。
-seo-title: A/B 测试应该持续多长时间？
-solution: Target
+description: 成功的 A/B 测试需要足够数量的访客（样本量）才能提高转化率，但您如何知道 A/B 测试应该持续多长时间？本文包含有关自动分配活动和 Target 样本量计算器的信息，可帮助您确保活动拥有足够数量的访客来实现您的目标。
 title: A/B 测试应该持续多长时间？
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

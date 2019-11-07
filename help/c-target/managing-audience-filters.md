@@ -1,13 +1,10 @@
 ---
-description: 受众筛选器（或称受众群）是指共同拥有某一特定特征或一组特征的访客群体。
-keywords: 定位;受众筛选器;受众；过滤器
-seo-description: Adobe Target中的受众过滤器（或受众）是共享特定特征或一组特征的访客组。
-seo-title: Audience filters for reporting in Adobe Target
-solution: Target
-title: 适用于报表的受众筛选器
+keywords: 定位；受众筛选；受众；筛选
+description: Adobe Target中的受众过滤器（或受众）是共享特定特征或一组特征的访客组。
+title: 在Adobe target中报告的受众过滤器
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

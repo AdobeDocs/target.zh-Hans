@@ -1,14 +1,11 @@
 ---
-description: 有关 Target at.js JavaScript 库如何在页面或应用程序加载期间阻止闪烁的信息。
 keywords: flicker;at.js；实现
-seo-description: 有关 Adobe Target at.js JavaScript 库如何在页面或应用程序加载期间阻止闪烁的信息。
-seo-title: Adobe Target at.js 如何管理闪烁
-solution: Target
-title: at.js 如何管理闪烁
+description: 有关 Adobe Target at.js JavaScript 库如何在页面或应用程序加载期间阻止闪烁的信息。
+title: Adobe Target at.js 如何管理闪烁
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

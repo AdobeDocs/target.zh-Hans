@@ -1,13 +1,10 @@
 ---
-description: Adobe Target 中的多变量测试需要先进行一些规划，然后才能创建成功的测试。
 keywords: 多变量测试;MVT;MVT 规划;多变量测试规则
-seo-description: Adobe Target 中的多变量测试需要先进行一些规划，然后才能创建成功的测试。
-seo-title: 在 Adobe Target 中规划多变量测试
-solution: Target
-title: 规划多变量测试
+description: Adobe Target 中的多变量测试需要先进行一些规划，然后才能创建成功的测试。
+title: 在 Adobe Target 中规划多变量测试
 uuid: f286d08a-e11d-4a39-8c62-3eba99885299
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

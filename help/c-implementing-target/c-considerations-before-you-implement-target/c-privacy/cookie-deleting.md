@@ -1,13 +1,10 @@
 ---
 description: 可删除 Target 浏览器 Cookie，以便您能够对所有体验进行验证。
-seo-description: 可删除 Target 浏览器 Cookie，以便您能够对所有体验进行验证。
-seo-title: 删除 Target Cookie
-solution: Target
 title: 删除 Target Cookie
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

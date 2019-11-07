@@ -1,16 +1,11 @@
 ---
-description: 有关在自动个性化 (AP) 活动中使用报表组的信息。
-keywords: 自动个性化;选件;报表;组；报告组
-seo-description: 有关在Adobe Target的自动个性化(AP)活动中使用报告组的信息。
-seo-title: Offer reporting groups in Automated Personalization (AP) activities in Adobe Target
-solution: Target
-title: 自动个性化中的选件报表组
-title-outputclass: premium
+keywords: 自动个性化；优惠；报告；组；报告组
+description: 有关在Adobe Target的自动个性化(AP)活动中使用报告组的信息。
+title: 在Adobe Target的自动个性化(AP)活动中提供报告组
 topic: 高级
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
-badge: premium
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

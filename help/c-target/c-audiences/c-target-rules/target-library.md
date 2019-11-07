@@ -1,13 +1,10 @@
 ---
-description: 可基于预先构建的定位规则定位用户。
 keywords: 定位;定位库;库
-seo-description: 可基于预先构建的定位规则定位用户。
-seo-title: 定位库
-solution: Target
+description: 可基于预先构建的定位规则定位用户。
 title: 定位库
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

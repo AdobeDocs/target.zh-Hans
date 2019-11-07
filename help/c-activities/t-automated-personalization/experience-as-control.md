@@ -1,13 +1,11 @@
 ---
-description: 在创建自动个性化 (AP) 或自动定位活动时，选择要用作控制的体验。
 keywords: 体验;控制;自动个性化;自动定位
-seo-description: 在 Adobe Target 中创建自动个性化 (AP) 或自动定位活动时，选择要用作控制的体验。
-seo-title: 在 Adobe Target 中使用特定体验作为控制
+description: 在 Adobe Target 中创建自动个性化 (AP) 或自动定位活动时，选择要用作控制的体验。
+title: 在 Adobe Target 中使用特定体验作为控制
 solution: Target,Analytics
-title: 使用特定体验作为控制
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

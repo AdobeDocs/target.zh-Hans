@@ -1,15 +1,10 @@
 ---
-description: 自动个性化活动的用户可以使用专门的报表。
 keywords: 定位;AP 报表;自动个性化报表;活动级别的报表;选件级别的报表;选件详细信息报表
-seo-description: 自动个性化活动的用户可以使用专门的报表。
-seo-title: 自动个性化摘要报表
-solution: Target
+description: 自动个性化活动的用户可以使用专门的报表。
 title: 自动个性化摘要报表
-title-outputclass: premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

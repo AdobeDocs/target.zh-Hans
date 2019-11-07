@@ -1,14 +1,11 @@
 ---
-description: 有关您可以使用不同方式对现有活动进行编辑的信息，包括将活动保存为草稿。
 keywords: 活动;活动类型;编辑活动;编辑;草稿
-seo-description: 有关您可以使用不同方式对现有活动进行编辑的信息，包括将活动保存为草稿。
-seo-title: 编辑活动或另存为草稿
-solution: Target
+description: 有关您可以使用不同方式对现有活动进行编辑的信息，包括将活动保存为草稿。
 title: 编辑活动或另存为草稿
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -60,9 +57,9 @@ source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 
 
-## 使用在Recommendations Classic中创建的旧版活动 {#classic}
+## 使用在 Recommendations Classic 中创建的旧版活动{#classic}
 
-The Activities list display activities created in various sources, including . [!DNL Recommendations Classic]The following actions are available when working with legacy activities created in :[!DNL Recommendations Classic]
+[!UICONTROL 活动]列表会显示在各种源（包括 [!DNL Recommendations Classic]）中创建的活动。使用在 [!DNL Recommendations Classic] 中创建的旧版活动时，可以执行以下操作：
 
 * [!UICONTROL 激活]
 * [!UICONTROL 停用]
@@ -70,7 +67,7 @@ The Activities list display activities created in various sources, including . [
 * [!UICONTROL 复制]
 * [!UICONTROL 删除]
 
-You cannot edit a [!DNL Recommendations] activity directly. If you want to edit the activity, you should create a copy of the activity using  and then save the newly created activity. [!DNL Target Premium]This newly created activity can then be edited as necessary.
+不能直接编辑 [!DNL Recommendations] 活动。如果想要编辑活动，则应使用 [!DNL Target Premium] 创建活动副本，并保存新创建的活动。然后，可以根据需要编辑新创建的活动。
 
 ## 以草稿形式保存活动 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 

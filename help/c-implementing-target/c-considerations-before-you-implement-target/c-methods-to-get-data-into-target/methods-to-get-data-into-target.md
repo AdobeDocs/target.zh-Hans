@@ -1,15 +1,12 @@
 ---
-description: 此信息介绍了可用于将数据导入 Target 的各种方法，包括页面参数、页面内配置文件属性、脚本配置文件属性、数据提供程序、批量配置文件更新 API、单个配置文件更新 API 和客户属性。
 keywords: 实施;设置;设定;页面参数;tomcat;url 编码;页面内配置文件属性;mbox 参数;页面内配置文件属性;脚本配置文件属性;批量配置文件更新 API;单个文件更新 API;客户属性;数据提供程序
-seo-description: 此信息介绍了可用于将数据导入 Target 的各种方法，包括页面参数、页面内配置文件属性、脚本配置文件属性、数据提供程序、批量配置文件更新 API、单个配置文件更新 API 和客户属性。
-seo-title: 将数据导入 Target 的方法
-solution: Target
-subtopic: 入门指南
+description: 此信息介绍了可用于将数据导入 Target 的各种方法，包括页面参数、页面内配置文件属性、脚本配置文件属性、数据提供程序、批量配置文件更新 API、单个配置文件更新 API 和客户属性。
 title: 将数据导入 Target 的方法
+subtopic: 入门指南
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

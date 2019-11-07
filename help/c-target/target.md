@@ -1,13 +1,10 @@
 ---
-description: 可通过使用受众将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。
 keywords: 定位;受众;百分比定位
-seo-description: 可在 Adobe Target 中通过使用受众将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。
-seo-title: Adobe Target 中的受众
-solution: Target
-title: 受众
+description: 可在 Adobe Target 中通过使用受众将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。
+title: Adobe Target 中的受众
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

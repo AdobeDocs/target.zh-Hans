@@ -1,14 +1,11 @@
 ---
-description: 可在选件库中创建用于存放项目的文件夹。
 keywords: 选件;内容;创建文件夹;资产;移动文件夹;复制文件夹;删除文件夹;下载文件夹;文件夹
-seo-description: 可在选件库中创建用于存放项目的文件夹。
-seo-title: 创建选件文件夹
-solution: Target
+description: 可在选件库中创建用于存放项目的文件夹。
 title: 创建选件文件夹
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

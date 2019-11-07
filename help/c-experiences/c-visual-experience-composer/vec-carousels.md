@@ -1,15 +1,12 @@
 ---
-description: 本主题显示了如何创建可以在可视化体验编辑器 (VEC) 中编辑的轮播效果。
 keywords: 可视化体验编辑器;VEC;轮播
-seo-description: 本主题显示了如何创建可以在可视化体验编辑器 (VEC) 中编辑的轮播效果。
-seo-title: 创建可以在可视化体验编辑器中工作的轮播效果
-solution: Target
-subtopic: 多变量测试
+description: 本主题显示了如何创建可以在可视化体验编辑器 (VEC) 中编辑的轮播效果。
 title: 创建可以在可视化体验编辑器中工作的轮播效果
+subtopic: 多变量测试
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

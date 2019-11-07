@@ -1,15 +1,12 @@
 ---
-description: “捕捉分数”参与量度将从访客第一次看到营销活动的第一个展示型 mbox 开始，根据网站上已访问页面的分配值计算出一个累积分数。
 keywords: 捕捉分数;分数
-seo-description: “捕捉分数”参与量度将从访客第一次看到营销活动的第一个展示型 mbox 开始，根据网站上已访问页面的分配值计算出一个累积分数。
-seo-title: 捕捉分数
-solution: Target
-subtopic: 入门指南
+description: “捕捉分数”参与量度将从访客第一次看到营销活动的第一个展示型 mbox 开始，根据网站上已访问页面的分配值计算出一个累积分数。
 title: 捕捉分数
+subtopic: 入门指南
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -5,7 +5,7 @@ title: Adobe Target 中的配置文件属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -252,7 +252,7 @@ if (!user.get('threegroups')) {
 
 “脚本配置文件参数”位于 mbox/配置文件选项卡下。您可以编写返回任何 Javascript 类型（字符串、整数、数组等）的 Javascript 程序。
 
-### 脚本配置文件参数示例
+### 脚本配置文件参数示例 {#examples}
 
 **名称：***user.recency*
 
@@ -278,7 +278,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-创建一个名为“频率”的变量，将其初始化为前一个值，如果没有前一个值，则初始化为 0。如果 mbox 名称为 `orderThankyouPage`，则返回递增的值。
+Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. 如果 mbox 名称为 `orderThankyouPage`，则返回递增的值。
 
 **名称：***user.monetaryValue*
 
@@ -290,6 +290,20 @@ if (mbox.name == 'orderThankyouPage') {
 ```
 
 创建一个名为 `monetaryValue` 的变量，查找给定访客的当前值（如果没有前一个值，则设置为 0）。如果 mbox 名称为 `orderThankyouPage`，则通过添加前一个值和传递给 mbox 的 `orderTotal` 参数值来返回新的货币值。
+
+**** 名称：adobeQA
+
+```
+if (page.param("adobeQA"))
+     return page.param("adobeQA");
+else if (page.param("adobeqa"))
+     return page.param("adobeqa");
+else if (mbox.param("adobeQA"))
+     return mbox.param("adobeQA");
+```
+
+创建一个名为的变 `adobeQA` 量，用于跟踪用户的 [活动QA](/help/c-activities/c-activity-qa/activity-qa.md)。
+
 
 ### 对象和方法
 

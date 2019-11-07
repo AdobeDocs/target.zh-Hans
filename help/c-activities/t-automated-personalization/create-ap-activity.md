@@ -1,16 +1,11 @@
 ---
-description: 自动个性化活动工作流与其他活动类型的工作流有所不同。
 keywords: 自动个性化;受众;组合;随机林;剩余方差;误差方差;生命周期值
-seo-description: 自动个性化活动工作流与其他活动类型的工作流有所不同。
-seo-title: 创建自动个性化活动
-solution: Target
+description: 自动个性化活动工作流与其他活动类型的工作流有所不同。
 title: 创建自动个性化活动
-title-outputclass: premium
 topic: 高级
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
-badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,13 +1,11 @@
 ---
-description: 可通过在网页上引用 Target 库（at.js 或 mbox.js）来实施 Target。
 keywords: document.write;Target;实施;实施 Target;DTM;动态标签管理;at.js;mbox.js;target.js;mbox
-seo-description: 可通过在网页上引用 Target 库（at.js 或 mbox.js）来实施 Target。
-seo-title: 了解 Target JavaScript 库
+description: 可通过在网页上引用 Target 库（at.js 或 mbox.js）来实施 Target。
 title: 了解 Target JavaScript 库
 topic: Target
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

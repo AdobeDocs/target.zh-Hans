@@ -1,16 +1,10 @@
 ---
-description: '在创建了包含Recommendations选件的Recommendations、A/B测试或体验定位(XT)活动后，您需要预览该活动，以确保在启动活动之前可以使用结果。 Target Recommendations提供了多种预览推荐的方法。 '
 keywords: 推荐；选件；预览；启动
-seo-description: '在创建包含Adobe Target Recommendations选件的Recommendations、A/B测试或体验定位(XT)活动后，您需要预览该活动，以确保在启动活动之前可以获得结果。 Target Recommendations提供了多种预览推荐的方法。 '
-seo-title: '在创建包含Adobe Target Recommendations选件的Recommendations、A/B测试或体验定位(XT)活动后，您需要预览该活动，以确保在启动活动之前可以获得结果。 Target Recommendations提供了多种预览推荐的方法。 '
-solution: Target
+description: '在创建包含Adobe Target Recommendations选件的Recommendations、A/B测试或体验定位(XT)活动后，您需要预览该活动，以确保在启动活动之前可以获得结果。 Target Recommendations提供了多种预览推荐的方法。 '
+title: '在创建包含Adobe Target Recommendations选件的Recommendations、A/B测试或体验定位(XT)活动后，您需要预览该活动，以确保在启动活动之前可以获得结果。 Target Recommendations提供了多种预览推荐的方法。 '
 subtopic: 推荐
-title: 预览和启动Recommendations活动
-title-outputclass: premium
-topic: Premium
-badge: premium
 translation-type: tm+mt
-source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

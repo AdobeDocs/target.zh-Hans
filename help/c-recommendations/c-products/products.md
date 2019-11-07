@@ -1,16 +1,10 @@
 ---
-description: 实体是指您想推荐的项目。实体可以是任何事物，例如产品、内容（文章、幻灯片、图像、电影和电视节目）、工作列表、餐馆等。
 keywords: 产品;收藏集
-seo-description: 实体是指您要建议使用Adobe target的项目。 实体可以是任何事物，例如产品、内容（文章、幻灯片、图像、电影和电视节目）、工作列表、餐馆等。
-seo-title: Entities in Adobe Target
-solution: Target
-title: 实体
-title-outputclass: premium
-topic: Premium
+description: 实体是指您想使用 Adobe Target 推荐的项目。实体可以是任何事物，例如产品、内容（文章、幻灯片、图像、电影和电视节目）、工作列表、餐馆等。
+title: Adobe Target 中的实体
 uuid: 1940dd31-b416-413e-aa6c-babbc8883d47
-badge: premium
 translation-type: tm+mt
-source-git-commit: 5a10156bfe235d894c7ee3518cbf685deed324ca
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

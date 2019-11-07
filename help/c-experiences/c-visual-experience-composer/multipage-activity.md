@@ -1,14 +1,11 @@
 ---
-description: 多页面活动可使您跨多个页面创建一个故事，并且每个页面都有一个特定的设计。
 keywords: 多页面;历程测试;多页面活动
-seo-description: 多页面活动可使您跨多个页面创建一个故事，并且每个页面都有一个特定的设计。
-seo-title: 多页面活动
-solution: Target
+description: 多页面活动可使您跨多个页面创建一个故事，并且每个页面都有一个特定的设计。
 title: 多页面活动
 topic: 高级
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

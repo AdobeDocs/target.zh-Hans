@@ -1,14 +1,10 @@
 ---
-description: 创建受众以定位满足特定配置文件参数的访客。
 keywords: 访客配置文件;Target 访客配置文件
-seo-description: 在 Adobe Target 中创建受众以定位满足特定配置文件参数的访客。
-seo-title: 访客配置文件
-solution: Target
-title: 使用 Adobe Target 创建受众以定位访客配置文件
-topic: Premium
+description: 在 Adobe Target 中创建受众以定位满足特定配置文件参数的访客。
+title: 访客配置文件
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

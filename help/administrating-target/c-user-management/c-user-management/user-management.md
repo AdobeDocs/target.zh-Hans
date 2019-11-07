@@ -1,15 +1,12 @@
 ---
-description: 您可以在 Adobe Admin Console 中添加用户并管理其权限。
 keywords: 添加用户;管理用户;用户权限
-seo-description: 您可以在 Adobe Admin Console 中添加用户并管理其权限。
-seo-title: 用户
-solution: Target
-subtopic: 入门指南
+description: 您可以在 Adobe Admin Console 中添加用户并管理其权限。
 title: 用户
+subtopic: 入门指南
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

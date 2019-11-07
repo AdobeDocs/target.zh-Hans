@@ -1,14 +1,10 @@
 ---
-description: 如果使用一个页面模板为页面提供结构，或者如果页面包含类似的元素，则此功能可以测试类似结构页面元素中的变体。
 keywords: 模板测试;模板;相似页面上的相同体验
-seo-description: 如果使用一个页面模板为页面提供结构，或者如果页面包含类似的元素，则此功能可以测试类似结构页面元素中的变体。
-seo-title: 在相似页面上包含相同体验
-solution: Target
+description: 如果使用一个页面模板为页面提供结构，或者如果页面包含类似的元素，则此功能可以测试类似结构页面元素中的变体。
 title: 在相似页面上包含相同体验
-topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

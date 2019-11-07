@@ -1,15 +1,9 @@
 ---
-description: 标准控制着 Recommendations 活动的内容。可创建标准以显示最适合您的活动的推荐。
-seo-description: 标准控制着 Adobe Recommendations 活动的内容。可创建标准以显示最适合您的活动的推荐。
-seo-title: 创建标准
-solution: Target
+description: 标准控制着 Adobe Recommendations 活动的内容。可创建标准以显示最适合您的活动的推荐。
 title: 创建标准
-title-outputclass: premium
-topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
-badge: premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,14 +1,11 @@
 ---
-description: 使用可视化体验编辑器，可在启用了 Target 的页面上创建体验定位活动，并在 Target 中修改页面的各个部分。
-seo-description: 使用可视化体验编辑器，可在启用了 Target 的页面上创建体验定位 (XT) 活动，并在 Adobe Target 中修改页面的各个部分。
-seo-title: 创建体验定位活动
-solution: Target
-subtopic: 多变量测试
+description: 使用可视化体验编辑器，可在启用了 Target 的页面上创建体验定位 (XT) 活动，并在 Adobe Target 中修改页面的各个部分。
 title: 创建体验定位活动
+subtopic: 多变量测试
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,14 +1,10 @@
 ---
-description: 本主题中的方案显示了对页面所做的更改如何影响 Target 显示体验的功能。
 keywords: 推荐
-seo-description: 本主题中的方案显示了对页面所做的更改如何影响 Target 显示体验的功能。
-seo-title: 页面修改方案
-solution: Target
+description: 本主题中的方案显示了对页面所做的更改如何影响 Target 显示体验的功能。
 title: 页面修改方案
-topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

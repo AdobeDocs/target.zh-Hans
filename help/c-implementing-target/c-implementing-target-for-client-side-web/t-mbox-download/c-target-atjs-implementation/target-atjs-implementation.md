@@ -1,14 +1,11 @@
 ---
-description: at.js 库是适用于 Adobe Target 的新实施库，专为典型的 Web 实施和单页应用程序而设计。
 keywords: Target Standard;at.js;实施
-seo-description: at.js 库是适用于 Adobe Target 的新实施库，专为典型的 Web 实施和单页应用程序而设计。
-seo-title: 从 mbox.js 迁移到 at.js
-solution: Target
+description: at.js 库是适用于 Adobe Target 的新实施库，专为典型的 Web 实施和单页应用程序而设计。
 title: 从 mbox.js 迁移到 at.js
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

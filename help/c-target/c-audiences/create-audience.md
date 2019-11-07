@@ -1,14 +1,11 @@
 ---
-description: 您可以创建自定义受众并将其保存到 Target 库，以供在活动中使用。您可以复制现有受众，然后对其进行编辑以创建类似受众；此外，也可以合并多个受众。
 keywords: 受众;受众规则;创建受众
-seo-description: 您可以创建自定义受众并将其保存到 Target 库，以供在活动中使用。您可以复制现有受众，然后对其进行编辑以创建类似受众；此外，也可以合并多个受众。
-seo-title: 在 Target 中构建受众
-solution: Target
+description: 您可以创建自定义受众并将其保存到 Target 库，以供在活动中使用。您可以复制现有受众，然后对其进行编辑以创建类似受众；此外，也可以合并多个受众。
 title: 在 Target 中构建受众
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

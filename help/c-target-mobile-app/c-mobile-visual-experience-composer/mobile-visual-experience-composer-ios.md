@@ -1,14 +1,11 @@
 ---
-description: Adobe Target 移动设备可视化体验编辑器 (VEC) 允许开发人员在其 iOS 移动设备应用程序上进行一次性设置，并使营销人员能够使用移动设备应用程序 VEC 的功能。
 keywords: 移动设备应用程序 VEC;移动设备可视化体验编辑器;移动设备体验编辑器选项;设置;iOS;Apple
-seo-description: Adobe Target 移动设备可视化体验编辑器 (VEC) 允许开发人员在其 iOS 移动设备应用程序上进行一次性设置，并使营销人员能够使用移动设备应用程序 VEC 的功能。
-seo-title: iOS - 设置移动设备应用程序
-solution: Target
+description: Adobe Target 移动设备可视化体验编辑器 (VEC) 允许开发人员在其 iOS 移动设备应用程序上进行一次性设置，并使营销人员能够使用移动设备应用程序 VEC 的功能。
 title: iOS - 设置移动设备应用程序
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,14 +1,11 @@
 ---
-description: 帮助您使用Adobe Target QA书签工具强制Target从QA模式中释放您的信息。
 keywords: QA;预览;书签;预览链接
-seo-description: 帮助您使用Adobe Target QA书签工具强制Target从QA模式中释放您的信息。
-seo-title: Adobe Target的活动QA书签
-solution: Target
-title: 活动 QA 书签
+description: 帮助您使用Adobe Target QA书签工具强制Target从QA模式中释放您的信息。
+title: Adobe Target的活动QA书签
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

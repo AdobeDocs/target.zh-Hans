@@ -1,16 +1,10 @@
 ---
-description: 标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。
-keywords: 推荐;推荐活动;标准；算法；推荐键；自定义键；行业垂直；零售；电子商务；潜在客户生成；b2b；金融服务；媒体；发布
-seo-description: Adobe Target Recommendations中的标准是根据一组预定的访客行为确定推荐哪些产品的规则。
-seo-title: Adobe Target推荐中的标准
-solution: Target
-title: 标准
-title-outputclass: premium
-topic: Premium
+keywords: 推荐；推荐活动；标准；算法；推荐；
+description: Adobe Target Recommendations中的标准是根据一组预定的访客行为确定推荐哪些产品的规则。
+title: Adobe Target推荐中的标准
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
-badge: premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

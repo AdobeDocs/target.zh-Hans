@@ -1,15 +1,10 @@
 ---
 description: 流量估算器会提供反馈，让您了解是否有充足的流量来确保活动成功。
-seo-description: 流量估算器会提供反馈，让您了解是否有充足的流量来确保活动成功。
-seo-title: 估算成功所需流量
-solution: Target
 title: 估算成功所需流量
-title-outputclass: premium
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -55,4 +50,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/ap_est_yes.png)
 
-   如果流量充足，“流量”图标会显示一个绿色勾号。如果流量不足，该图标会显示一个红色警告标签。
+   如果流量充足，“流量”图标会显示一个绿色勾号。如果流量不足，该图标会显示一个红色

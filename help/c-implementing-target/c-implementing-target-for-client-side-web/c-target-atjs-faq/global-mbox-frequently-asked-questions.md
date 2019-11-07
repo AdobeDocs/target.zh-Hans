@@ -1,14 +1,11 @@
 ---
-description: 有关全局 mbox 的常见问题解答 (FAQ) 列表。
 keywords: 故障诊断;常见问题解答;FAQ;全局;全局 mbox
-seo-description: 有关全局 mbox 的常见问题解答 (FAQ) 列表。
-seo-title: 全局 mbox 常见问题解答
-solution: Target
+description: 有关全局 mbox 的常见问题解答 (FAQ) 列表。
 title: 全局 mbox 常见问题解答
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,14 +1,11 @@
 ---
-description: 以下最佳实践有助于确保您的体验按预期运行。使用可视化体验编辑器 (VEC) 时，您还应注意其他一些提示和限制。
 keywords: 可视化体验编辑器;可视化体验编辑器最佳实践;可视化体验编辑器限制;可视化体验编辑器注意事项;vec 最佳实践;vec
-seo-description: 以下最佳实践有助于确保您的体验按预期运行。使用可视化体验编辑器 (VEC) 时，您还应注意其他一些提示和限制。
-seo-title: 可视化体验编辑器最佳实践和限制
-solution: Target
+description: 以下最佳实践有助于确保您的体验按预期运行。使用可视化体验编辑器 (VEC) 时，您还应注意其他一些提示和限制。
 title: 可视化体验编辑器最佳实践和限制
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

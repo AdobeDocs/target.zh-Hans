@@ -1,15 +1,12 @@
 ---
-description: 本文提供了在准备实施 Adobe Target 时，您应该完成的一些任务以及应该收集的一些信息。
 keywords: 实施;RFI;信息请求
-seo-description: 本文提供了在准备实施 Adobe Target 时，您应该完成的一些任务以及应该收集的一些信息。
-seo-title: 准备实施 Adobe Target
-solution: Target
+description: 本文提供了在准备实施 Adobe Target 时，您应该完成的一些任务以及应该收集的一些信息。
+title: 准备实施 Adobe Target
 subtopic: 入门指南
-title: 准备实施 Target
 topic: Standard
 uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

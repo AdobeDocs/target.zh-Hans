@@ -1,14 +1,11 @@
 ---
-description: 为每次体验报告转化率、提升度、置信度（统计意义）和置信区间。
 keywords: 定位
-seo-description: 为每次体验报告转化率、提升度、置信度（统计意义）和置信区间。
-seo-title: 转化率
-solution: Target
+description: 为每次体验报告转化率、提升度、置信度（统计意义）和置信区间。
 title: 转化率
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -148,7 +145,7 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
 有关 [!DNL Data Warehouse] 的更多信息，请访问 [!DNL Analytics] 帮助文档中的以下链接：
 
 * [创建 Data Warehouse 请求](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Data Warehouse best practices](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [数据仓库最佳实践](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## 计数方法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 

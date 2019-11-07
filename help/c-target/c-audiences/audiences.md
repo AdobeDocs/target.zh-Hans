@@ -1,14 +1,11 @@
 ---
-description: Adobe Target 中的受众可决定将在定位活动中看到内容和体验的人群。
 keywords: 受众;受众规则;创建受众;定位受众;报表受众;区段;自定义配置文件参数;受众定义;受众列表
-seo-description: Adobe Target 中的受众可决定将在定位活动中看到内容和体验的人群。
-seo-title: 在 Adobe Target 中创建受众
-solution: Target
-title: 创建受众
+description: Adobe Target 中的受众可决定将在定位活动中看到内容和体验的人群。
+title: 在 Adobe Target 中创建受众
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

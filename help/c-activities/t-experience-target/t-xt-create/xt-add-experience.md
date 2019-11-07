@@ -1,25 +1,22 @@
 ---
-description: 可视化体验编辑器 (VEC) 提供了一个可视化界面，用于编辑体验定位 (XT) 活动中的页面上的体验。
 keywords: 创建体验;体验创建;优先级;受众;体验;可视化体验编辑器
-seo-description: Adobe Target 可视化体验编辑器 (VEC) 提供了一个可视化界面，用于编辑体验定位 (XT) 活动中的页面上的体验。
-seo-title: 创建体验
-solution: Target
+description: Adobe Target 可视化体验编辑器 (VEC) 提供了一个可视化界面，用于编辑体验定位 (XT) 活动中的页面上的体验。
 title: 创建体验
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
 # 创建体验{#create-experience}
 
-The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
+[!UICONTROL 可视化体验编辑器] (VEC) 提供了一个可视化界面，用于编辑[!UICONTROL 体验定位] (XT) 活动中的页面上的体验。
 
 1. 选择要更改的元素，然后进行所需的更改。
 
-   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow ([!UICONTROL Experiences]) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
+   在[创建 XT 活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)时，三步引导式工作流（[!UICONTROL 体验]）中的第一步会显示具有[!UICONTROL 所有访客]受众的默认[!UICONTROL 体验 A]。
 
    ![“所有访客”受众](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
@@ -27,19 +24,19 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    将鼠标悬停在页面中的元素上时，这些元素会高亮显示。任何高亮显示的元素都可以使用 VEC 进行更改。有关为更改体验而可对元素执行的操作列表，请参阅[可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
-   If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
+   如果您曾使用 [!DNL Target Classic] 在页面上创建了 mbox，则该 mbox 将显示为一个元素，该元素会显示 mbox 名称，且可以像其他任何元素一样进行修改。
 
    >[!NOTE]
    >
-   >默认情况下，VEC 不允许更改包含 JavaScript 的元素，如旋转横幅。您可以选择禁用JavaScript，以使用VEC更改这些元素。
+   >默认情况下，VEC 不允许更改包含 JavaScript 的元素，如旋转横幅。您可以选择禁用 JavaScript 以使用 VEC 更改这些元素。
 
-1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
+1. 要创建其他体验，请单击&#x200B;**[!UICONTROL 添加体验定位]**。
 
    ![“添加体验定位”链接](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
    此时会显示“[!UICONTROL 选择受众]”对话框。要将体验定位到某个受众，必须先选择该受众，然后才能添加体验。
 
-   The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   受众库中包含以前定义的受众，其中包括作为 [!DNL Target] 的一部分预先构建的一些常用受众。您可以从库中选择受众或[创建新受众](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
 
    >[!NOTE]
    >
@@ -69,7 +66,7 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    >[!NOTE]
    >
-   >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
+   >如果您交付的图像来自主页以外的其他来源（例如将一个在 `akamai.net` 上托管的图像交付到 `adobe.com`），则该图像不会出现在流程图中显示的页面缩览图中。
 
 1. （视情况而定）在创建或编辑 XT 活动时，拖放受众/体验对以按所需的顺序排列受众/体验对。
 
@@ -77,7 +74,7 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    ![移动体验](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
-   [!UICONTROL 体验定位假定排序至关重要。]如果访客属于第一个受众/体验对，则会交付第一个体验。
+   [!UICONTROL 体验定位]假定排序至关重要。如果访客属于第一个受众/体验对，则会交付第一个体验。
 
    例如，假定您在创建 XT 活动时并不知道排序的重要性。随后，您在测试过程中意识到，您认为应符合体验 B 或 C 的条件的访客而是符合了体验 A 的条件。这可能是因为受众之间不存在互斥关系，并且它们的顺序不正确（例如，体验 A = 美国，体验 B = 旧金山，体验 C = 加利福尼亚州）所导致。在此情景中，来自美国的所有用户都符合体验 A 的条件，无论他们在旧金山还是在加利福尼亚州的其他地区。您可以按限制性由高到低（旧金山 &gt; 加利福尼亚州 &gt; 美国）重新排列受众/体验对，而不必重新创建整个活动。
 
@@ -98,9 +95,9 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
 ![删除体验](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
-## Duplicate an experience
+## 复制体验
 
-您可以在XT活动中复制体验，这样您就可以对其进行细微更改，而无需从头开始重新创建体验。
+您可以复制 XT 活动中的体验，以便可以对其进行细微更改，而无需重头开始重新创建体验。
 
 在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 &gt; **[!UICONTROL 复制]**。
 

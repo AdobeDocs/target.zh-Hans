@@ -1,14 +1,11 @@
 ---
-description: 此信息介绍了随着访客配置文件发生更改，访客如何在体验定位 (XT) 活动中切换体验。
 keywords: 优先级;体验创建;优先级;体验;受众;切换体验;可视化体验编辑器
-seo-description: 此信息介绍了随着访客配置文件发生更改，访客如何在体验定位 (XT) 活动中切换体验。
-seo-title: 在体验定位中切换体验
-solution: Target
+description: 此信息介绍了随着访客配置文件发生更改，访客如何在体验定位 (XT) 活动中切换体验。
 title: 在体验定位中切换体验
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

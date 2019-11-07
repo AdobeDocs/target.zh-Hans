@@ -1,13 +1,11 @@
 ---
-description: 有关使用 Adobe Experience Cloud 调试器扩展的信息，该扩展可帮助您快速、轻松地了解您的 Target 实施。
 keywords: at.js;调试 at.js;adobe Experience Cloud 调试器;experience cloud 调试器;mbox 跟踪;mbox 高亮;调试
-seo-description: 有关使用 Adobe Experience Cloud 调试器扩展的信息，该扩展可帮助您快速、轻松地了解您的 Target 实施。
-seo-title: 使用 Adobe Experience Cloud 调试器调试 at.js
+description: 有关使用 Adobe Experience Cloud 调试器扩展的信息，该扩展可帮助您快速、轻松地了解您的 Target 实施。
 title: 使用 Adobe Experience Cloud 调试器调试 at.js
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,14 +1,11 @@
 ---
-description: 有关与 Target 的常见集成及其对 at.js 的支持状态的信息。
 keywords: at.js 集成;受支持的集成;不受支持的集成;第三方集成
-seo-description: 有关与 Target 的常见集成及其对 at.js 的支持状态的信息。
-seo-title: at.js 集成
-solution: Target
+description: 有关与 Target 的常见集成及其对 at.js 的支持状态的信息。
 title: at.js 集成
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

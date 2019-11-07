@@ -1,15 +1,12 @@
 ---
-description: 在实施 Adobe Target 之前应考虑的注意事项。
 keywords: 实施
-seo-description: 在实施 Adobe Target 之前应考虑的注意事项。
-seo-title: 实施之前
-solution: Target
-subtopic: 入门指南
+description: 在实施 Adobe Target 之前应考虑的注意事项。
 title: 实施之前
+subtopic: 入门指南
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

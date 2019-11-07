@@ -1,14 +1,10 @@
 ---
-description: 您可以从受极端订单影响的报表中排除极端值，这样，一些超常订单便不会影响活动结果。例如，与个人购买者购买个人制服相比，一位教练为整个团队购买统一制服可能会产生一个超常订单。
 keywords: Target;报表;报表设置;超常订单;极端值
-seo-description: 您可以从影响Adobe Target中的报表中排除极值，以便少数不寻常的订单不会影响您的活动结果。 例如，与个人购买者购买个人制服相比，一位教练为整个团队购买统一制服可能会产生一个超常订单。
-seo-title: 在Adobe target报告中排除极值
-solution: Target
-title: 排除极端值
-topic: Premium
+description: 您可以从影响Adobe Target中的报表中排除极值，以便少数不寻常的订单不会影响您的活动结果。 例如，与个人购买者购买个人制服相比，一位教练为整个团队购买统一制服可能会产生一个超常订单。
+title: 在Adobe target报告中排除极值
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

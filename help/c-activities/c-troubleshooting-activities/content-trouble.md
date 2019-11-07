@@ -1,15 +1,12 @@
 ---
-description: 如果您的页面没有显示预期内容，可以采取以下步骤来对内容交付进行调试。
 keywords: 调试 mbox;mbox 故障诊断;mbox 问题;闪烁;mboxDebug;mboxTrace;令牌;调试器;优先级;活动优先级;Adobe Experience Cloud 调试器;orderConfirmPage mbox;SiteCatalyst 购买 mbox;最畅销;最畅销商品
-seo-description: 如果您的页面不显示预期内容，您可以通过以下几个步骤在Adobe target中调试内容交付。
-seo-title: 对Adobe Target中的内容交付进行疑难解答
-solution: Target
+description: 如果您的页面不显示预期内容，您可以通过以下几个步骤在Adobe target中调试内容交付。
+title: 对Adobe Target中的内容交付进行疑难解答
 subtopic: 多变量测试
-title: 内容交付故障诊断
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

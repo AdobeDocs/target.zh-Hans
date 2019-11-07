@@ -1,14 +1,11 @@
 ---
-description: '有关 at.js 自定义事件的信息。 '
-keywords: 自定义事件；at.js；请求失败；请求成功；内容渲染失败；内容渲染成功；库加载；请求开始；内容渲染开始；内容渲染不提供；内容渲染重定向
-seo-description: 有关 Adobe Target at.js JavaScript 库自定义事件的信息。
-seo-title: 有关 Adobe Target at.js JavaScript 库自定义事件的信息。
-solution: Target
+keywords: 自定义事件;at.js;请求失败;请求成功;内容渲染失败;内容渲染成功;库已加载;请求开始;内容渲染开始;内容渲染无选件;内容渲染重定向
+description: 有关 Adobe Target at.js JavaScript 库自定义事件的信息。
+title: 有关 Adobe Target at.js JavaScript 库自定义事件的信息。
 subtopic: 入门指南
-title: at.js 自定义事件
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

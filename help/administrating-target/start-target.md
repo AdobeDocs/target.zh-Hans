@@ -1,15 +1,12 @@
 ---
-description: 本节介绍在收到 Adobe Experience Cloud 的电子邮件邀请后，Target 管理员应该采取的首要步骤。
 keywords: 管理;审批者角色;审批者
-seo-description: 本节介绍在收到 Adobe Experience Cloud 的电子邮件邀请后，Adobe Target 管理员应该采取的首要步骤。
-seo-title: 管理员首要步骤
-solution: Target
-subtopic: 入门指南
+description: 本节介绍在收到 Adobe Experience Cloud 的电子邮件邀请后，Adobe Target 管理员应该采取的首要步骤。
 title: 管理员首要步骤
+subtopic: 入门指南
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -42,7 +39,7 @@ source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
    >
    >如果不关联您的帐户，您将无法访问 [!DNL Target]。
 
-   所有 Experience Cloud 产品都会显示在关联页面上。Click `Link Target` and enter your Target username and password to access Target Standard.
+   所有 Experience Cloud 产品都会显示在关联页面上。单击 `Link Target`，然后输入您的 Target 用户名和密码，以访问 Target Standard。
 1. 单击&#x200B;**[!UICONTROL 继续访问 Experience Cloud]**。
 
    此时，您还没有为任何组设置权限以供您关联。

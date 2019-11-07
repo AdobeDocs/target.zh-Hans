@@ -1,13 +1,10 @@
 ---
-description: Adobe Target 通过 at.js 或 mbox.js JavaScript 库与您的网页集成。
 keywords: 定位;Cookie;第一方 Cookie;第 1 方 Cookie
-seo-description: Adobe Target 通过 at.js 或 mbox.js JavaScript 库与您的网页集成。
-seo-title: 定位工作原理
-solution: Target
+description: Adobe Target 通过 at.js 或 mbox.js JavaScript 库与您的网页集成。
 title: 定位工作原理
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

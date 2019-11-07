@@ -1,14 +1,11 @@
 ---
-description: 可将 Target 与 Adobe Campaign 结合使用来优化电子邮件内容。
 keywords: 概述和参考
-seo-description: 可将 Target 与 Adobe Campaign 结合使用来优化电子邮件内容。
-seo-title: 将 Target 与 Adobe Campaign 集成
-solution: Target
+description: 可将 Target 与 Adobe Campaign 结合使用来优化电子邮件内容。
 title: 将 Target 与 Adobe Campaign 集成
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,14 +1,11 @@
 ---
-description: Target 根据您使用的 Target 界面和活动创建功能（可视化体验编辑器或基于表单的编辑器），以不同的方式来确定要交付给页面的活动（一个或多个）。
 keywords: 设置;优先级
-seo-description: Adobe Target根据您使用的Target界面和活动创建功能（可视体验书写器或基于表单的书写器），以不同方式确定要传送到页面的活动（或活动）。
-seo-title: Adobe Target中的优先级
-solution: Target
-title: 优先级
+description: Adobe Target根据您使用的Target界面和活动创建功能（可视体验书写器或基于表单的书写器），以不同方式确定要传送到页面的活动（或活动）。
+title: Adobe Target中的优先级
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

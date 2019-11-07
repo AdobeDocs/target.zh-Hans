@@ -1,14 +1,11 @@
 ---
-description: 本主题包含有关将 Analytics 配置为 Target 报表源 (A4T) 的常见问题解答。
 keywords: FAQ;常见问题解答;Analytics for Target;A4T;配置;Adobe Experience Cloud
-seo-description: 本主题包含有关将 Analytics 配置为 Target 报表源 (A4T) 的常见问题解答。
-seo-title: 初始配置 - A4T 常见问题解答
-solution: Target
+description: 本主题包含有关将 Analytics 配置为 Target 报表源 (A4T) 的常见问题解答。
 title: 初始配置 - A4T 常见问题解答
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

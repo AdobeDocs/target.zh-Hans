@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 11 月 7 日 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | 为adobeQA参数添加了代码示例。 |
 | 2019 年 11 月 5 日 | [站点页面](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | “疑难排解”部分中的更新文本。 |
 | 2019年11月4日 | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 更新了以下常见问题解答下的文本：“为什么我会看到警告消息，如'缺少选择器的操作'?” |
 | 2019 年 10 月 31 日 | [使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新主题。 |

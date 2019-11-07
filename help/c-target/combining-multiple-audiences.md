@@ -1,14 +1,11 @@
 ---
-description: 可随手合并多个受众（包括 Adobe Experience Cloud 受众和 Target 受众）以创建临时受众。您也可以创建排除规则，从某个规则中排除相应受众。
 keywords: 受众;受众规则;合并受众;排除项;添加排除项;排除;临时受众
-seo-description: 可随手合并多个受众（包括 Adobe Experience Cloud 受众和 Target 受众）以创建临时受众。您也可以创建排除规则，从某个规则中排除相应受众。
-seo-title: 在 Adobe Target 中合并多个受众
-solution: Target
-title: 合并多个受众
+description: 可随手合并多个受众（包括 Adobe Experience Cloud 受众和 Target 受众）以创建临时受众。您也可以创建排除规则，从某个规则中排除相应受众。
+title: 在 Adobe Target 中合并多个受众
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -27,7 +24,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 创建活动时创建组合受众 {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
-在三步引导式工作流中，您可以在活动的“[!UICONTROL 定位]”页面上创建临时组合受众。
+在三步引导式工作流中，您可以在活动的[!UICONTROL 定位]页面上创建临时组合受众。
 
 1. 创建[活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在 **[!UICONTROL Target]** 页面上单击三个垂直省略号，然后单击&#x200B;**[!UICONTROL 替换受众]**。
 

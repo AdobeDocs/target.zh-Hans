@@ -1,16 +1,10 @@
 ---
-description: 选择要在您的“推荐”活动中使用的标准。
 keywords: 推荐;推荐活动;标准
-seo-description: 选择要在您的 Adobe Target“推荐”活动中使用的标准。
-seo-title: 选择标准
-solution: Target
+description: 选择要在您的 Adobe Target“推荐”活动中使用的标准。
 title: 选择标准
-title-outputclass: premium
-topic: Premium
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,14 +1,11 @@
 ---
-description: 有关体验定位和受众的常见问题解答 (FAQ) 列表。
 keywords: 故障诊断;常见问题解答;FAQ;定位;受众
-seo-description: 有关体验定位和受众的常见问题解答 (FAQ) 列表。
-seo-title: 定位和受众常见问题解答
-solution: Target
+description: 有关体验定位和受众的常见问题解答 (FAQ) 列表。
 title: 定位和受众常见问题解答
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

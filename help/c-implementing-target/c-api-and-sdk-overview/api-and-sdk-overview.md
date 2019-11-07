@@ -1,14 +1,11 @@
 ---
-description: 有关Adobe Target服务器端交付API、Node.js SDK和Target Recommendations API的信息。
 keywords: 服务器端；服务器端；api;sdk;node.js;nodejs;nodejs;recommendations api;api:api
-seo-description: 有关Adobe Target服务器端交付API、Node.js SDK和Target Recommendations API的信息。
-seo-title: 有关Adobe Target服务器端交付API、Node.js SDK和Target Recommendations API的信息。
-solution: Target
-title: 服务器端：实施 Target
+description: 有关Adobe Target服务器端交付API、Node.js SDK和Target Recommendations API的信息。
+title: 有关Adobe Target服务器端交付API、Node.js SDK和Target Recommendations API的信息。
 topic: 推荐
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

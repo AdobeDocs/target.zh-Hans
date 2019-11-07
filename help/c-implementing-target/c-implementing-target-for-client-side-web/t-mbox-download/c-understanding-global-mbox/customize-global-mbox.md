@@ -1,15 +1,12 @@
 ---
-description: 此信息可帮助您自定义既可用于 at.js，也可用于 mbox.js 的全局 mbox。
 keywords: 全局 mbox;自定义全局 mbox;编辑 mbox.js;编辑 at.js;at.js;实施 mbox.js;实施 at.js
-seo-description: 此信息可帮助您自定义既可用于 at.js，也可用于 mbox.js 的全局 mbox。
-seo-title: 自定义全局 mbox
-solution: Target
-subtopic: 入门指南
+description: 此信息可帮助您自定义既可用于 at.js，也可用于 mbox.js 的全局 mbox。
 title: 自定义全局 mbox
+subtopic: 入门指南
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,13 +1,11 @@
 ---
-description: 可在 A/B 活动中使用量度来确定访问何时被视为成功。
 keywords: A/B;活动量度;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
-seo-description: 可在 A/B 活动中使用量度来确定访问何时被视为成功。
-seo-title: 设置量度
-solution: Target,standard
+description: 可在 A/B 活动中使用量度来确定访问何时被视为成功。
 title: 设置量度
+solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -63,4 +61,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * 了解和构建“转化”、“收入”及“参与度”量度
 * 构建点击跟踪量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=ch

@@ -1,16 +1,10 @@
 ---
-description: 由于自动个性化活动会对页面上的多个选件进行比较，因此预览每个体验中的页面将会很有帮助。
 keywords: 推荐
-seo-description: 由于自动个性化 (AP) 活动会对页面上的多个选件进行比较，因此预览每个体验中的页面将会很有帮助。
-seo-title: 在 Adobe Target 可视化体验编辑器中预览自动个性化 (AP) 活动的体验
-solution: Target
-title: 在可视化体验编辑器中预览自动个性化体验
-title-outputclass: premium
-topic: Premium
+description: 由于自动个性化 (AP) 活动会对页面上的多个选件进行比较，因此预览每个体验中的页面将会很有帮助。
+title: 在 Adobe Target 可视化体验编辑器中预览自动个性化 (AP) 活动的体验
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

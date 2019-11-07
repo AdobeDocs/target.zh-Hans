@@ -1,14 +1,11 @@
 ---
-description: 此信息介绍了对以下方面所做的更改：Adobe 和 Target 如何使用 TLS（传输层安全性）来保持最高安全标准和提高客户数据安全性。
 keywords: TLS;TLS 1.0;传输层安全性;加密
-seo-description: 此信息介绍了对以下方面所做的更改：Adobe 和 Target 如何使用 TLS（传输层安全性）来保持最高安全标准和提高客户数据安全性。
-seo-title: TLS（传输层安全性）加密更改
-solution: Target
+description: 此信息介绍了对以下方面所做的更改：Adobe 和 Target 如何使用 TLS（传输层安全性）来保持最高安全标准和提高客户数据安全性。
 title: TLS（传输层安全性）加密更改
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -112,4 +109,4 @@ Adobe 会分阶段地将客户移到 TLS 1.2。针对域已经符合 1.2 的客�
 | Target JavaScript 实施 | 详细信息 |
 |--- |--- |
 | at.js | 版本低于 10 的 Internet Explorer 版本不支持 at.js。 |
-| mbox.js | 已启用 TLS 1.0：<ul><li>提供了默认内容。</li><li>没有触发 Target 请求。</li><li>没有显示控制台错误。</li><li>使用浏览器开发工具，在“网络”选项卡上，您会看到“200 OK”。这意味着请求已成功。</li></ul>已启用 TLS 1.1 或 1.2：<ul><li>提供了选件内容。</li></ul> |
+| mbox.js | 已启用 TLS 1.0：<ul><li>提供了默认内容。</li><li>没有触发 Target 请求。</li><li>没有显示控制台错误。</li><li>使用浏览器开发工具，在“网络”选项卡上，您会看到“200 OK”。这意味着请求已成功。</li></ul>已启用 TLS 1.1 或 1.2：<ul><li>提�

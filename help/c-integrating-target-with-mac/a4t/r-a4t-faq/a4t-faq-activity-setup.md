@@ -1,14 +1,11 @@
 ---
-description: 本主题包含有关活动设置和使用 Analytics 作为 Target 报表源 (A4T) 的常见问题解答。
 keywords: FAQ;常见问题解答;Analytics for Target;A4T;活动设置
-seo-description: 本主题包含有关活动设置和使用 Analytics 作为 Target 报表源 (A4T) 的常见问题解答。
-seo-title: 活动设置 - A4T 常见问题解答
-solution: Target
+description: 本主题包含有关活动设置和使用 Analytics 作为 Target 报表源 (A4T) 的常见问题解答。
 title: 活动设置 - A4T 常见问题解答
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,14 +1,10 @@
 ---
-description: 可选择要在报表中查看的多个量度。
 keywords: Target;报表;报表设置;多个量度;量度
-seo-description: Select multiple metrics to view in a report using Adobe Target.
-seo-title: 使用Adobe Target在报告中查看多个指标
-solution: Target
-title: 在报表中查看多个量度
-topic: Premium
+description: 使用Adobe Target选择多个要在报告中查看的指标。
+title: 使用Adobe Target在报告中查看多个指标
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

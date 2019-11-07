@@ -1,11 +1,9 @@
 ---
 description: Target 如何从您的页面发出调用以及如何响应从您的页面发出的调用，取决于您使用的 Target 库的版本、Experience Cloud 访客 ID 实施是否存在以及访客 ID 是否存在。
-seo-description: Target 如何从您的页面发出调用以及如何响应从您的页面发出的调用，取决于您使用的 Target 库的版本、Experience Cloud 访客 ID 实施是否存在以及访客 ID 是否存在。
-seo-title: 按 mbox.js 库版本确定的 Target 页面方法
 title: 按 mbox.js 库版本确定的 Target 页面方法
 uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

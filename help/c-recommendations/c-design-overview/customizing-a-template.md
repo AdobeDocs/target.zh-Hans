@@ -1,16 +1,10 @@
 ---
-description: 可使用开源 Velocity 设计语言来自定义推荐设计。
 keywords: 自定义设计;Velocity;小数;逗号;自定义设计
-seo-description: 可使用开源 Velocity 设计语言来自定义推荐设计。
-seo-title: 使用 Velocity 自定义设计
-solution: Target
+description: 可使用开源 Velocity 设计语言来自定义推荐设计。
 title: 使用 Velocity 自定义设计
-title-outputclass: premium
-topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,14 +1,11 @@
 ---
-description: 有关每个 at.js 版本中的更改的详细信息。
 keywords: at.js 发行版;at.js 版本
-seo-description: 有关每个 at.js 版本中的更改的详细信息。
-seo-title: at.js 版本详细信息
-solution: Target
-subtopic: 入门指南
+description: 有关每个 at.js 版本中的更改的详细信息。
 title: at.js 版本详细信息
+subtopic: 入门指南
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

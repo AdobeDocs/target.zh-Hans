@@ -1,16 +1,11 @@
 ---
-description: 为进行预览和 QA，您可以为 Target 自动个性化活动生成体验 URL，以便在激活活动之前，直接在您的网站上查看体验内容。体验 URL 可绕过定位，以强制查看特定体验。
 keywords: 体验预览;体验 URL;生成 URL;查看体验 URL
-seo-description: 为进行预览和 QA，您可以为 Target 自动个性化活动生成体验 URL，以便在激活活动之前，直接在您的网站上查看体验内容。体验 URL 可绕过定位，以强制查看特定体验。
-seo-title: 共享体验 URL 以便在 Target 以外预览自动个性化
-solution: Target
+description: 为进行预览和 QA，您可以为 Target 自动个性化活动生成体验 URL，以便在激活活动之前，直接在您的网站上查看体验内容。体验 URL 可绕过定位，以强制查看特定体验。
 title: 共享体验 URL 以便在 Target 以外预览自动个性化
-title-outputclass: premium
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

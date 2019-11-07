@@ -1,15 +1,12 @@
 ---
-description: 访客配置文件包含有关访客如何使用您的页面和其他已优化内容位置的信息
 keywords: 概述和参考
-seo-description: 访客配置文件包含有关访客如何使用您的页面和其他已优化内容位置的信息
-seo-title: 访客配置文件
-solution: Target
-subtopic: 入门指南
+description: 访客配置文件包含有关访客如何使用您的页面和其他已优化内容位置的信息
 title: 访客配置文件
+subtopic: 入门指南
 topic: Standard
 uuid: 09ffd9ca-5544-4ea1-bb0c-b20e42e6bcf6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

@@ -1,16 +1,10 @@
 ---
-description: 自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行选择，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。
 keywords: 自动定位;定位;流量分配;常见问题解答;faq;疑难解答;故障诊断
-seo-description: 自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行选择，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。
-seo-title: 自动定位
-solution: Target
 title: 自动定位
-title-outputclass: premium
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
-badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -120,7 +114,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 **Target 会自动使用所有 Experience Cloud 共享受众来构建个性化模型。**
 
-* 您无需执行任何特定操作来将受众添加到模型中。有关在 Target 中使用 Experience Cloud 受众的信息，请参阅 [Experience Cloud 受众](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* 您无需执行任何特定操作来将受众添加到模型中。有关在 Target 中使用 Experience Cloud 受众的信息，请参阅 [Experience Cloud 受众](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 **营销人员可以上传离线数据、倾向得分或其他自定义数据来构建个性化模型。**
 

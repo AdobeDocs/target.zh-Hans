@@ -1,13 +1,10 @@
 ---
 description: 由于多变量测试会对多个体验进行比较，因此非常重要的一点是，您需要知道多少流量才能提供有意义的结果。流量估算器会使用与您的页面相关的统计数据以及正在测试的体验数量，来估算需要多少流量以及需要多长时间的测试才能使测试成功。
-seo-description: 由于多变量测试会对多个体验进行比较，因此非常重要的一点是，您需要知道多少流量才能提供有意义的结果。流量估算器会使用与您的页面相关的统计数据以及正在测试的体验数量，来估算需要多少流量以及需要多长时间的测试才能使测试成功。
-seo-title: 估算成功测试所需的流量
-solution: Target
 title: 估算成功测试所需的流量
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

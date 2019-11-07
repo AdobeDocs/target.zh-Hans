@@ -1,14 +1,11 @@
 ---
-description: 单击可视化体验编辑器 (VEC) 中某个页面元素时，会显示一个菜单，其中提供了可用于该元素类型的选项。
 keywords: 可视化体验编辑器选项;体验编辑器选项;体验选项;编辑文本;编辑 html;编辑文本/html;编辑背景颜色;背景颜色;插入元素;编辑链接;链接;可视化体验编辑器链接;编辑 css 类;css 类;交换选件;选件交换;交换图像;图像交换;删除项目;项目删除;隐藏项目;项目隐藏;重新排列;移动元素;元素移动;调整元素大小;元素大小调整;元素;展开选定内容;导航到此链接;导航链接;链接导航;导航;撤消;重做;撤消/重做
-seo-description: 单击 Adobe Target 可视化体验编辑器 (VEC) 中某个页面元素时，会显示一个菜单，其中提供了可用于该元素类型的选项。
-seo-title: Adobe Target 可视化体验编辑器 (VEC) 选项
-solution: Target
-title: 可视化体验编辑器选项
+description: 单击 Adobe Target 可视化体验编辑器 (VEC) 中某个页面元素时，会显示一个菜单，其中提供了可用于该元素类型的选项。
+title: Adobe Target 可视化体验编辑器 (VEC) 选项
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -317,7 +314,7 @@ HTML 选件的大小最多可达 256KB。
 
 移动页面上的元素。与“[!UICONTROL 重新排列]”选项不同，“[!UICONTROL 移动]”选项不会移动其他元素来为正在移动的元素腾出空间。可使用箭头键来微调移动。（计划的增强功能：提供相关支持以确保所移动的元素不会隐藏在其他元素后面。）
 
-在某些情况下，如 CSS 限制要求将元素保留在其父元素内时，您不能将该元素移到其父元素之外。元素不能移到具有以下CSS属性的容器之外： `overflow: hidden`.
+在某些情况下，如 CSS 限制要求将元素保留在其父元素内时，您不能将该元素移到其父元素之外。无法将元素移动到具有以下 CSS 属性的容器之外：`overflow: hidden`。
 
 #### 隐藏
 
@@ -343,7 +340,7 @@ HTML 选件的大小最多可达 256KB。
 
 ## 注意事项 {#considerations}
 
-* 如果选件包含HTML内容，请参阅 [How at.js works中的“How at.js renders offers with HTML content”(如何使用HTML内容呈现选件](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) )以了解更多信息。
+* 如果选件包含 HTML 内容，请参阅 [at.js 工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render)中的“at.js 如何渲染包含 HTML 内容的选件”了解更多信息。
 
 ## 使用 DOM 路径浏览元素 {#dom-path}
 

@@ -1,14 +1,11 @@
 ---
-description: 利用 Target 中的可视化体验编辑器，在启用了 Target 的页面上直接创建测试，并在 Target 中修改页面的各个部分。
 keywords: 创建 A/B;A/B 测试;A/B 活动;新建 A/B 活动
-seo-description: 利用 Target 中的可视化体验编辑器，在启用了 Target 的页面上直接创建测试，并在 Target 中修改页面的各个部分。
-seo-title: 创建 A/B 测试
-solution: Target
+description: 利用 Target 中的可视化体验编辑器，在启用了 Target 的页面上直接创建测试，并在 Target 中修改页面的各个部分。
 title: 创建 A/B 测试
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -39,7 +36,7 @@ source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。
+   >上图中的[!UICONTROL [选择工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)选项是一项 [Target Premium](/help/c-intro/intro.md) 功能。如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。]
 
 1. （视情况而定）如果您是一位 [Target Premium 客户](/help/c-intro/intro.md#premium)，请选择一个[工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 

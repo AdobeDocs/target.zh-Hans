@@ -1,15 +1,12 @@
 ---
-description: 可以与 Adobe Target at.js JavaScript 库一起使用的函数列表。
-keywords: at.js；函数；javascript库
-seo-description: 可以在 Adobe Target 中结合 at.js JavaScript 库一起使用的函数列表。
-seo-title: Adobe Target at.js 函数
-solution: Target
+keywords: at.js;函数;javascript 库
+description: 可以在 Adobe Target 中结合 at.js JavaScript 库一起使用的函数列表。
+title: Adobe Target at.js 函数
 subtopic: 入门指南
-title: at.js 函数
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

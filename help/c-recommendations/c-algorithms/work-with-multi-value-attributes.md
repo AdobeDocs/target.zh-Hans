@@ -1,15 +1,9 @@
 ---
-description: 有关使用特殊多值运算符在Adobe Target Recommendations中使用多值字段的信息。
 keywords: 多值；属性；推荐；多值；多值
-seo-description: 有关使用特殊多值运算符在Adobe Target Recommendations中使用多值字段的信息。
-seo-title: 在Adobe Target Recommendations中使用多值属性
-solution: Target
-title: 使用多值属性
-title-outputclass: premium
-topic: Premium
-badge: premium
+description: 有关使用特殊多值运算符在Adobe Target Recommendations中使用多值字段的信息。
+title: 在Adobe Target Recommendations中使用多值属性
 translation-type: tm+mt
-source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

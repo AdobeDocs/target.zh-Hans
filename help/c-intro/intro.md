@@ -1,14 +1,11 @@
 ---
+keywords: Target Standard;Recommendations;Target Premium；自动个性化；自动定位；自动定位；权限；adobe目标；
 description: Adobe Target 是一种 Adobe Experience Cloud 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
-keywords: Target Standard;推荐;Target Premium;自动个性化;自动定位;权限；什么是adobe目标；
-seo-description: Adobe Target 是一种 Adobe Experience Cloud 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
-seo-title: Adobe Target 简介
-solution: Target
-title: Target 简介
+title: Adobe Target 简介
 topic: 高级
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

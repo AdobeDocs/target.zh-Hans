@@ -1,15 +1,12 @@
 ---
-description: 已在各种浏览器和设备上对 Adobe Target 应用程序和内容交付进行了测试。
 keywords: 浏览器;先决条件;要求;Internet Explorer;Chrome;Firefox;Safari;Android;Surface
-seo-description: 已在各种浏览器和设备上对 Adobe Target 应用程序和内容交付进行了测试。
-seo-title: 支持的浏览器
-solution: Target
-subtopic: 入门指南
+description: 已在各种浏览器和设备上对 Adobe Target 应用程序和内容交付进行了测试。
 title: 支持的浏览器
+subtopic: 入门指南
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

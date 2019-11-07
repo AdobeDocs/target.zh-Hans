@@ -1,13 +1,11 @@
 ---
-description: 通过创建排除组、排除重复的选件、排除特定体验以及排除自动个性化 (AP) 活动中的默认内容来管理排除项。
 keywords: 重复数据删除技术;允许重复项;排除重复的选件;自动个性化;不允许重复的选件
-seo-description: 通过创建排除组、排除重复的选件、排除特定体验以及排除 Adobe Target 自动个性化 (AP) 活动中的默认内容来管理排除项。
-seo-title: 管理排除项
-solution: Target,Analytics
+description: 通过创建排除组、排除重复的选件、排除特定体验以及排除 Adobe Target 自动个性化 (AP) 活动中的默认内容来管理排除项。
 title: 管理排除项
+solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

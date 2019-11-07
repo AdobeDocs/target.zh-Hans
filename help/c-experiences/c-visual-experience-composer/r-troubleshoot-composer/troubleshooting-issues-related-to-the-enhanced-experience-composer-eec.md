@@ -1,13 +1,10 @@
 ---
-description: 有时，在某些情况下，增强型体验编辑器 (EEC) 会发生显示问题。
 keywords: 定位;EEC;可视化体验编辑器;增强型体验编辑器故障诊断;故障诊断
-seo-description: 有时，在某些情况下，增强型体验编辑器 (EEC) 会发生显示问题。
-seo-title: 对与增强型体验编辑器有关的问题进行故障诊断
-solution: Target
+description: 有时，在某些情况下，增强型体验编辑器 (EEC) 会发生显示问题。
 title: 对与增强型体验编辑器有关的问题进行故障诊断
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

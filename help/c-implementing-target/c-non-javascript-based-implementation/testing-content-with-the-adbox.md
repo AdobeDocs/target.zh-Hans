@@ -1,15 +1,12 @@
 ---
-description: 使用 AdBox 在站外实施中交付图像。
 keywords: 实施;mbox.js 非 javascript;mbox;Adbox
-seo-description: 使用AdBox在非现场实施中使用Adobe Target传送图像。
-seo-title: 使用Adobe Target为图像创建Adbox
-solution: Target
+description: 使用AdBox在非现场实施中使用Adobe Target传送图像。
+title: 使用Adobe Target为图像创建Adbox
 subtopic: 入门指南
-title: 为图像创建 Adbox 使用Adobe Target
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 

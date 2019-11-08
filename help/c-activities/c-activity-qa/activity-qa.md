@@ -1,18 +1,18 @@
 ---
-keywords: QA;预览;预览链接
-description: 使用 QA URL 来执行简单的端到端活动 QA，它提供了永不变更的预览链接、可选的受众定位以及从实时活动数据中分段的 QA 报表。
+keywords: qa；预览；预览链接；adobe目标；目标
+description: 使用Adobe Target QA URL可轻松执行端到端的活动QA，其中包含从不更改的预览链接、可选的受众定位以及从实时活动数据保持分段的QA报告。
 title: 活动 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
 
 ---
 
 
 # 活动 QA {#activity-qa}
 
-使用 QA URL 来执行简单的端到端活动 QA，它提供了永不变更的预览链接、可选的受众定位以及从实时活动数据中分段的 QA 报表。
+使用Adobe Target中的QA URL可轻松执行端到端的活动QA，其中包含从不更改的预览链接、可选的受众定位以及从实时活动数据保持分段的QA报告。
 
 ## 概述 {#section_11B761A522A14E61978275772210A4C2}
 

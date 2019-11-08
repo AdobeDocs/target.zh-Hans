@@ -5,7 +5,7 @@ title: 有关欧盟《通用数据保护条例》(GDPR)、《加州消费者隐�
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
 
 ---
 
@@ -44,6 +44,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 获知个人信息正在被披露或出售
 
 如果您去年忙于为欧盟隐私法 (GDPR) 做准备，那么您可能会非常熟悉其中的某些权利，而且您已完成的许多工作可能能够重新进行调整。
+
+>[!NOTE]
+>
+>当数据应用于CCPA时访问和删除数据的过程与GDPR的过程相同。
 
 ## Adobe Target 和 [!DNL Experience Platform Launch] 选择加入 {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -289,3 +293,7 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 ### Target 是否支持 IP 模糊处理？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 如果您选择将 IP 模糊处理用作 GDPR 或 CCPA 实施策略的一部分，则 [!DNL Target] 支持 IP 模糊处理。有关更多信息，请参阅[隐私](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)。
+
+### 我是否需要采取一些措施来防止共享数据或将数据出售给第三方？
+
+Target不能允许客户直接从Target共享或向第三方销售数据，因此不会选择退出Target销售。

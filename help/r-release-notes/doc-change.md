@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
+source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
 
 ---
 
@@ -18,6 +18,8 @@ source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 11 月 8 日 | [Target Insider新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 添加了指向其他过去问题的链接。 |
+|  | [隐私和数据保护法规](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 更新了CCPA部分，并添加了新注释。<br>新增了常见问题解答，告知客户Target无法允许客户直接从Target共享或向第三方销售数据，因此不会选择退出Target销售。 |
 | 2019 年 11 月 7 日 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | 为adobeQA参数添加了代码示例。 |
 | 2019 年 11 月 5 日 | [站点页面](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | “疑难排解”部分中的更新文本。 |
 | 2019年11月4日 | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 更新了以下常见问题解答下的文本：“为什么我会看到警告消息，如'缺少选择器的操作'?” |

@@ -4,7 +4,7 @@ description: 与Adobe Target的Java SDK相关的发行说明。
 title: 与Adobe Target的Java SDK相关的发行说明。
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -18,6 +18,14 @@ Java [!DNL Target] SDK允许您部署 [!DNL Target] 服务器端。 此Java SDK�
 Java SDK在通过我们的交付API与集成时引入了最佳实践并消除了 [!DNL Target] 复杂性，这样您的工程团队就可以专注于业务逻辑。
 
 通过Adobe Tech Blog了解有关Target Java SDK的更多信息- [使用新的Target Java SDK进行服务器端优化](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。
+
+## 版本1.0.1（2019年11月11日）
+
+以下部分提供有关Target Java SDK版本1.0.1的更多信息：
+
+### 固定
+
+* 在Target请求中发送补充数据ID，即使不存在访客API Cookie。
 
 ## 版本1.0.0（2019年10月31日）
 

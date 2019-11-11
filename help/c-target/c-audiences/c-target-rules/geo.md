@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports & Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -139,6 +139,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 **如何将波多黎各和中国香港特别行政区等区域映射到地理定位结构？**
 
 系统将波多黎各、中国香港特别行政区和其他区域视为单独的“国家/地区”值。
+
+**当活[!DNL Target]动被定位到地理位置定位功能时，是否会捕获（并存储）邮政编码等信息？**
+
+否， [!DNL Target] 仅在会话期间使用地理数据，然后丢弃数据。
 
 ## 培训视频：创建受众
 

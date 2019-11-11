@@ -5,7 +5,7 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -21,6 +21,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 >下列发行说明包含预发布的信息。发布日期、功能及其他信息如有更改，恕不另行通知。要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，也可能不同，具体取决于发行时间。
 >
 >括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+## 目标Java SDK版本1.0.1（2019年11月11日）
+
+在版本1.0.1中修复了以下问题：
+
+* 在Target请求中发送补充数据ID，即使不存在访客API Cookie。
+
+有关详细信息，请参 [阅发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。
 
 ## 目标平台（2019年10月31日）
 

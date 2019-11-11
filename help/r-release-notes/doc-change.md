@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019年11月11日 | [发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 添加了有关版本1.0.1的信息。 |
 | 2019 年 11 月 8 日 | [Target Insider新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 添加了指向其他过去问题的链接。 |
 |  | [隐私和数据保护法规](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 更新了CCPA部分，并添加了新注释。<br>新增了常见问题解答，告知客户Target无法允许客户直接从Target共享或向第三方销售数据，因此不会选择退出Target销售。 |
 | 2019 年 11 月 7 日 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | 为adobeQA参数添加了代码示例。 |

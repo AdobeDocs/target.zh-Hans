@@ -1,11 +1,11 @@
 ---
-keywords: 目标文档更改日志；文档更新；新主题；编辑
+keywords: target documentation change log;documentation updates;new topics;edits
 description: 本页列出了对Adobe target文档所做的重要更改（按版本排序）。
 title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
+source-git-commit: 34a5879fb3db894750cab21ffd9503902180a110
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 11 月 15 日 | [A/B测试的十大常见缺陷及避免方法](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | 增加了“Pitfall 7:在测试期间更改流量分配。” |
 | 2019年11月11日 | [发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 添加了有关版本1.0.1的信息。 |
 |  | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了整个主题。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | 添加了说明不存 [!DNL Target] 储地理信息（如邮政编码）的信息。 |

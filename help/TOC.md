@@ -1,10 +1,10 @@
 ---
-product: Target
-audience: 最终用户
-user-guide-title: Adobe Target 帮助
-user-guide-url: /content/help/zh-Hans/target/using/target-home.html
+product: target
+audience: end-user
+user-guide-title: Adobe Target Help
+user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
+source-git-commit: 67f65434e4444913c708d273e59ae046b551e33e
 
 ---
 
@@ -183,7 +183,7 @@ source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
    + A/B 测试 {#abtest}
       + [A/B 测试概述](c-activities/t-test-ab/test-ab.md)
       + [A/B 测试应该持续多长时间？](c-activities/t-test-ab/sample-size-determination.md)
-      + [九种常见的 A/B 测试陷阱以及避免方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [A/B测试的十大常见缺陷及避免方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + 创建 A/B 测试 {#create}
          + [创建测试](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [Activity URL（活动 URL）](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)

@@ -1,11 +1,11 @@
 ---
-keywords: flicker;at.js；实现
+keywords: flicker;at.js;implementation
 description: 有关 Adobe Target at.js JavaScript 库如何在页面或应用程序加载期间阻止闪烁的信息。
 title: Adobe Target at.js 如何管理闪烁
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 12761951688cae6fd8908ceded7b252b58d51165
 
 ---
 
@@ -42,7 +42,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 异步加载 at.js 有利于避免阻止浏览器渲染；但是，此技术可能会导致网页闪烁。
 
-您可以通过使用预先隐藏的代码片段来避免闪烁，在 [!DNL Target] 对相关 HTML 元素进行个性化后，系统会显示这些代码片段。我们建议使用标签管理器（如 Adobe DTM 或新的 Adobe Launch）来添加预先隐藏的代码片段。在加载 at.js 之前，必须先添加该代码片段。
+您可以通过使用预先隐藏的代码片段来避免闪烁，在 [!DNL Target] 对相关 HTML 元素进行个性化后，系统会显示这些代码片段。
+
+at.js可以异步加载，直接嵌入到页面中或通过标签管理器(Adobe Launch、动态标签管理器(DTM)等)。
+
+如果at.js嵌入到页面中，则必须在加载at.js之前添加代码片断。 如果通过标记管理器加载at.js（也以异步方式加载），则必须在加载标记管理器之前添加片段。 如果标记管理器同步加载，则脚本可能会包含在at.js之前的标记管理器中。
 
 预先隐藏的代码片段如下所示：
 

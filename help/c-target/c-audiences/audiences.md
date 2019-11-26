@@ -1,11 +1,11 @@
 ---
-keywords: 受众;受众规则;创建受众;定位受众;报表受众;区段;自定义配置文件参数;受众定义;受众列表
+keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Adobe Target 中的受众可决定将在定位活动中看到内容和体验的人群。
 title: 在 Adobe Target 中创建受众
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 8c78e7f917e71cae69e068091d3436b95b2afb4f
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Target 中的受众可决定将在定位活动中看到内容和体验的�
 * **定位受众：**&#x200B;用于向不同类型的访客交付不同的内容。
 * **报表受众：**&#x200B;用于确定不同类型的访客对同一内容有何响应，以便于您分析测试结果。
 
-   在 [!DNL Target] 中，仅当使用 [!DNL Target] 作为报表源时，才能配置报表受众。如果您使用 [DNL Adobe Analytics 作为报表源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，则必须在 [!DNL Analytics] 中配置报表受众。
+   在 [!DNL Target] 中，仅当使用 [!DNL Target] 作为报表源时，才能配置报表受众。如果您使用 [ Adobe Analytics 作为报表源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，则必须在 [!DNL Analytics] 中配置报表受众。
 
 ## 使用“受众”列表
 

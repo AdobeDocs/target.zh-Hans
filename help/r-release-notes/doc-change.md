@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 34a5879fb3db894750cab21ffd9503902180a110
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -18,6 +18,9 @@ source-git-commit: 34a5879fb3db894750cab21ffd9503902180a110
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019年11月26日 | [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | “异步加载at.js时管理闪烁”中的更新文本。 |
+|  | [Target Insider新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 添加了指向2019年11月新闻稿的链接。 |
+|  | [用户](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 更新了“指定角色和权限”下的文本和图像。 |
 | 2019 年 11 月 15 日 | [A/B测试的十大常见缺陷及避免方法](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | 增加了“Pitfall 7:在测试期间更改流量分配。” |
 | 2019年11月11日 | [发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 添加了有关版本1.0.1的信息。 |
 |  | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了整个主题。 |

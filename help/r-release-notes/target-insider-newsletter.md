@@ -3,7 +3,7 @@ keywords: insider newsletter;newsletter;product updates;tips and tricks;events;c
 description: Adobe Target Insider 是针对 Adobe Target 社区成员发布的每月时事通讯。可让您了解产品更新和未来计划、个性化和优化提示与技巧、客户成功案例、即将举行的活动、信息丰富的白皮书及热门博客文章，等等。
 title: 'Adobe Target Insider 时事通讯 '
 translation-type: tm+mt
-source-git-commit: 34a5879fb3db894750cab21ffd9503902180a110
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -23,6 +23,7 @@ Adobe Target Insider 是针对 Adobe Target 社区成员发布的每月时事通
 
 | 问题 | 详细信息 |
 |--- |--- |
+| [2019年11月（第2卷，第11期）](https://expleague.azureedge.net/assets/target/2019_11_Target_Newsletter_Nov_2019.html) | 我们有好消息要告诉你！ 首先，Forrester在《Forrester Wave:数字智能平台，2019年第4季度。 我们刚刚发布了新的开放源Node.js SDK和功能强大的新的基于用户的推荐算法。 我们还获得了由Adobe Target从业人员共享的有关个性化和优化的绝妙提示。 然后，社交媒体有影响力的Goldie Chan在最近两次LinkedIn实时会议中采访了Adobe Target的Jason Hickey和我。 Adobe的Jamie Brighton就管理数据和使用数据隐私作为竞争优势的工具发表了自己的看法。 最后，移动应用程序开发人员可以参加最终的Mobile App Skill Builder。 |
 | [2019 年 10 月（第 2 卷，第 10 期）](https://expleague.azureedge.net/assets/target/2019_10_Target_Newsletter_Oct_2019.html) | 在本期刊中，我们为您提供了充足的内容，供您阅读。 从在线新闻出版商McClatchy的Wendy Melemed那里获取个性化和优化提示。 注册并参加即将举办的面向移动应用程序开发人员的免费技能构建器虚拟实验室。 发现将Adobe Target与Adobe Campaign集成的巨大优势。 并下载Winning Playbook for Experience Personalization，它是用于构建强大的个性化计划的逐行指南。 最后，我们向您介绍Adobe Target on Experience League，以获取有助于您快速使用行业领先的个性化解决方案的资源。 |
 | 2019年9月 | 本月未发布新闻稿。 |
 | [2019 年 8 月（第 2 卷，第 8 期）](https://expleague.azureedge.net/assets/target/2019_08_Target_Newsletter_Aug_2019.html) | 当学校重新开始上课时，我们在Adobe Target团队中为您的成功承诺提供的学习机会，似乎仅在此问题上突出显示是正确的。 注册Adobe Target Mobile Skill Builder实验室，了解如何个性化您的移动应用程序。 通过Adobe内幕之旅，在我们四个北美城市之一亲自与我们会面。 访问我们改进的Experience League在线自定进度课程选择。 然后阅读令人信服的理由来使用Analytics for Target(A4T)集成。 最后，了解我们如何帮助您的品牌遵守Google和Apple的最新cookie策略。 |

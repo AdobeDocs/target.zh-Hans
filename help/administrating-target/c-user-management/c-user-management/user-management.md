@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -70,20 +70,23 @@ source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
 
    ![“产品”选项卡](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
-1. 单击所需配置的名称。
-1. 单击&#x200B;**[!UICONTROL 用户]**。
+1. 单击所需的工作区（例如，默认工作区）。
+
+   ![默认工作区](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace.png)
 
    [!UICONTROL 用户]选项卡会显示该工作区中的所有用户。
 
    ![配置用户](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
-1. 使用每个用户在“[!UICONTROL 产品角色]”列中的下拉列表为其选择所需的权限角色（观察者、编辑者或审批者）。
+1. 使用每个用户在“[!UICONTROL 产品角色]”列中的下拉列表为其选择所需的权限角色（审批者、编辑者或观察者）。
+
+   ![产品角色下拉列表](/help/administrating-target/c-user-management/c-user-management/assets/product-role.png)
 
    | 角色 | 描述 |
    |--- |--- |
-   | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
-   | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
    | 审批者 | 可以创建、编辑，以及激活或停止活动。 |
+   | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
+   | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
 
 有关更多信息，请参阅《企业用户指南》**&#x200B;中的[在 Admin Console 中管理产品权限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
 

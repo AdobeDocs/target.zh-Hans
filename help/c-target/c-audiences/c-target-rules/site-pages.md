@@ -1,22 +1,18 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
-description: 您可以使用Adobe Target定位特定页面上或具有特定mbox参数的访客。
+keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+description: 您可以定位站点上特定页面的访客。
 title: Adobe Target中的站点页面
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
+source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
 
 ---
 
 
 # 网页{#site-pages}
 
-您可以定位特定页面上的访客或具有特定mbox参数的访客。
-
->[!NOTE]
->
->Audience site page types and comparison operators now match types and comparison operators as they were in [!DNL Target Classic]. 您也可以使用自己的“用户定义的查询参数”或“用户定义的标头”来创建网站页面受众。
+您可以定位站点上特定页面的访客。
 
 1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
@@ -32,7 +28,7 @@ source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
 
    选择“选择”时，初始下拉列表中提供以下 [!UICONTROL 选项]。
 
-   * **当前页面：**&#x200B;用户当前所在的页面，即包含活动中的 mbox 的页面。如果在活动级别进行定位，当前页面可以是包含用于定义活动参加条件的 mbox 的页面，或显示内容的页面。如果按体验确定目标，当前页即展示型 mbox 所在的页面。对于成功量度或转化定位，它是这些mbox所在的页面。
+   * **** 当前页面：用户当前所在的页面。
 
       如果选择此选项，则第二个下拉列表中提供以下选项：
 
@@ -68,7 +64,7 @@ source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
       >
       >`landing.url` 对象会在更改子域或直接替换 URL 时重置。
 
-   * **** HTTP头：此选项评估访客访问站点时看到的第一页的HTTP头中的信息。 例如，如果HTTP头包含语言信息，则可以创建一个规则，其中包含用于定位访 `Accept-Language: es` 客的条件。
+   * **** HTTP头：此选项评估Target请求的HTTP头中的信息。 例如，如果HTTP头包含语言信息，则可以创建一个包含条件的规则，以 `Accept-Language: es` 定位以西班牙语访问该页面的访客。
 
       如果选择此选项，则第二个下拉列表中提供以下选项：
 
@@ -79,7 +75,7 @@ source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
       * 授权
       * Cache-Control
       * 连接
-      * 内容——长度
+      * Content-Length
       * 内容MDS
       * Content-Type
       * 日期

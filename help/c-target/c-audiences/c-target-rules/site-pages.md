@@ -5,7 +5,7 @@ title: Adobe Target中的站点页面
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
+source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
 
 ---
 
@@ -116,7 +116,7 @@ source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
 使用：
 
 * 查询参数，如果用户选择的规则是“当前页面”、“登陆页面”或“上一页”。
-* 标头，如果用户选择的规则是 HTTP 标头。
+* 如果用户选择的规则是HTTP头，则为标题。
 
 如下图所示：
 

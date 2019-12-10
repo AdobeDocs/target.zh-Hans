@@ -1,11 +1,11 @@
 ---
-keywords: 字符限制;mbox 参数;批量交付 API;配置文件参数;限制;内置配置文件;最大值;限定;约束;字符;最佳实践;orderId;orderTotal;mbox3rdPartyID;类别;categoryID
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: 此信息介绍了字符限制和会影响 Adobe Target 中活动和其他元素的其他限制（选件大小、受众、配置文件、值、参数等）。
 title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
 
 ---
 
@@ -107,14 +107,38 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **限制**：以下限制适用于 mbox 参数：
 
+对于标准mbox调用：
 * mbox 参数：每个 mbox 500 个参数。
-* 配置文件参数：500 个参数。
-* 每个 mbox 的配置文件参数：
+* 配置文件参数：每个mbox有500个参数配置文件参数。
 * 其他参数（URL、引荐 URL 等）：每个 mbox 50 个其他参数类型。
 
-对于记录到 Target 数据库中的参数，上述限制适用于标准 mbox 请求。除非因 Web 浏览器限制而缩短请求，否则将应用这些限制。
+除非因 Web 浏览器限制而缩短请求，否则将应用这些限制。
 
-如果您在 Mobile Services SDK 中使用[批量交付 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)，则该 API 本身的限制为 50 个 mbox 参数、50 个配置文件参数和 50 个其他参数类型。无法使用批量交付 API 发送包含的参数超过这些数量的请求。如果一个请求包含的参数超过这些限制，则该 API 将返回以下错误消息：“mboxParameters 的数量不能超过 100。”
+如果您在 Mobile Services SDK 中使用[批量交付 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)，则该 API 本身的限制为 50 个 mbox 参数、50 个配置文件参数和 50 个其他参数类型。无法使用批量交付 API 发送包含的参数超过这些数量的请求。如果请求包含的限制超过这些限制，则API将返回以下错误消息：
+
+“mboxParameters的数量不能超过50。”
+
+为端点设置的限制：
+
+批mbox v2:
+* mbox参数100
+* mbox参数名称最大长度128
+* mbox参数值不能为null
+* mbox参数值5000
+* 轮廓参数50
+* 配置文件参数名称最大长度128
+* 配置文件参数值不能为null
+* 配置文件参数值max length 256
+
+交付API端点
+* mbox参数50
+* mbox参数名称最大长度128
+* mbox参数值不能为null
+* mbox参数值5000
+* 轮廓参数50
+* 配置文件参数名称最大长度128
+* 配置文件参数值不能为null
+* 配置文件参数值max length 256
 
 ## mbox 请求 URL
 

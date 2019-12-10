@@ -1,11 +1,11 @@
 ---
-keywords: 变量;配置文件;参数;内置配置文件;方法;URL 变量;地域配置文件;第三方配置文件;mbox 变量;营销活动变量;客户属性
+keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: 此页面列出了配置文件脚本中有用的配置文件、变量和参数。
 title: 配置文件和变量一览表
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | user.setLocal('param_name','value'); |  |
 | user.get('param_name') |  |
 | user.parameter | 从配置文件脚本创建的永久性配置文件属性。还会引用地理位置、访问计数等“系统”配置文件。 |
-| profile.get('param_name') |  |
+| profile.get('param_name') | 获取要在配置文件脚本中使用的配置文件参数的正确方法是profile.get('param_name')方法。 |
 | profile.param('param_name'); |  |
 | profile.parameter('parameter_name'); | 因带有 profile.   前缀而使其具有持久性的 mbox 参数。 |
 | profile.browserTime | 访客的本地浏览器时间。对于系统时间，在配置文件脚本中创建新的日期对象 |

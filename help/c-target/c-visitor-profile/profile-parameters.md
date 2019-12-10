@@ -1,11 +1,11 @@
 ---
-keywords: 配置文件脚本；配置文件脚本属性；配置文件脚本最佳实践；调试；调试；脚本；配置文件脚本；属性；参数
+keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: 配置文件属性是特定于访客的参数。这些属性存储在访客的配置文件中，提供了可在您的 Adobe Target 活动中使用的关于访客的信息。
 title: Adobe Target 中的配置文件属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
+source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 ---
 
@@ -108,7 +108,7 @@ if (mbox.name == 'Track_Interest') {
 
 * 引用了未定义的变量。
 * 引用了无效值。这通常是由于未进行正确验证而引用 URL 值和其他用户输入数据所导致。
-* 使用了过多 JavaScript 指令。Target 限制每个脚本只能使用 2,000 条 JavaScript 指令，但这不能简单地通过人工读取 JavaScript 的方式来计算。例如，Rhino 会将所有函数调用和“新”调用视为 100 条指令。此外，任何输入数据（例如 URL 值）的大小可能会对指令计数产生影响。
+* 使用了过多 JavaScript 指令。Target 限制每个脚本只能使用 2,000 条 JavaScript 指令，但这不能简单地通过人工读取 JavaScript 的方式来计算。例如，Rhino 会将所有函数调用和“新”调用视为 100 条指令。这意味着对任何函数的任何调用都会消耗100个指令。 此外，任何输入数据（例如 URL 值）的大小可能会对指令计数产生影响。
 * 不遵循以下[最佳实践](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0)部分重点列举的项目。
 
 ## 最佳实践 {#best}
@@ -320,7 +320,7 @@ else if (mbox.param("adobeQA"))
 | `landing.url`, `landing.protocol`, `landing.query`, 和 `landing.param` | 类似于此类页面，但登陆页面除外。 |
 | `mbox.name` | 活动 mbox 的名称。 |
 | `mbox.param(‘<par_name>’)` | 活动 mbox 中给定名称的 mbox 参数。 |
-| `profile.get(‘<par_name>’)` | 客户端创建的用户配置文件参数，名称为 `<par_name>`。例如，如果用户设置了名为“gender”的配置文件参数，则可以使用“profile.gender”提取该值。返回为当前访客设置的“`profile.<par_name>`”值；如果未设置任何值，则返回 null。 |
+| `profile.get(‘<par_name>’)` | 客户端创建的用户配置文件参数，名称为 `<par_name>`。例如，如果用户设置了名为“gender”的配置文件参数，则可以使用“profile.gender”提取该值。返回为当前访客设置的“`profile.<par_name>`”值；如果未设置任何值，则返回 null。请注意， `profile.get(<par_name>)` 它被限定为函数调用。 |
 | `user.get(‘<par_name>’)` | 返回为当前访客设置的“`user.<par_name>`”值；如果未设置任何值，则返回 null。 |
 | `user.categoryAffinity` | 返回最佳类别的名称。 |
 | `user.categoryAffinities` | 返回具有最佳类别的数组。 |

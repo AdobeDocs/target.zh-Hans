@@ -1,10 +1,10 @@
 ---
-keywords: 推荐；推荐活动；标准；算法；推荐；
+keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Adobe Target Recommendations中的标准是根据一组预定的访客行为确定推荐哪些产品的规则。
 title: Adobe Target推荐中的标准
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 ---
 
@@ -107,3 +107,6 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 ![“标准使用情况”选项卡](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
+>[!NOTE]
+>
+>“标准使用情况”功能当前仅支持“推荐”活动。 目前不支持A/B测试和体验定位(XT)活动。

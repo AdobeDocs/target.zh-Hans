@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
+source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 ---
 
@@ -18,6 +18,8 @@ source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019年12月10日 | [目标限制](/help/r-troubleshooting-target/target-limits.md) | 更新了mbox参数部分。 |
+|  | [标准](/help/c-recommendations/c-algorithms/algorithms.md) | 添加了有关对“标准使用情况”功能的支持的注释。 |
 | 2019 年 12 月 5 日 | [网页](/help/c-target/c-audiences/c-target-rules/site-pages.md) | 更新了主题。 |
 | 2019年12月2日 | [使用位置服务](/help/c-target-mobile-app/use-location-service.md) | 新主题。 |
 | 2019年11月26日 | [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | “异步加载at.js时管理闪烁”中的更新文本。 |

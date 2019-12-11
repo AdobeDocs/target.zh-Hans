@@ -1,11 +1,11 @@
 ---
-keywords: 故障诊断;常见问题解答;FAQ;定位;受众
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: 有关体验定位和受众的常见问题解答 (FAQ) 列表。
 title: 定位和受众常见问题解答
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
 
 ---
 
@@ -13,6 +13,37 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 # 定位和受众常见问题解答{#targets-and-audiences-faq}
 
 有关体验定位和受众的常见问题解答 (FAQ) 列表。
+
+## Target如何评估定位中的URL? {#url}
+
+Target的URL评估方式因您在创建活动时是否使用受众URL定位或在创建受众时是否使用URL定位而异。
+
+请考虑以下URL:
+
+`http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+
+**受众URL定位**:要应用受众URL定位，请在创建活动时，在“体验”页面（三步向导式工作流的步骤之一）上，单击齿轮图标，单击页面交付，然后指定所需的URL。
+
+![页面交付URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+
+受众URL定位会查找精确的URL匹配。 如果URL匹配，则Target不考虑进一步的逻辑。 在上述URL中，如果活动设置为开启，则该URL将匹配以下URL，因为受众URL定位与查询无关： `www.example.com`
+
+* `www.example.com?query=something`
+* `www.example.com?query=anything`
+* `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
+
+作为最佳实践，除了URL上的受众定位之外，您还可以指定查询中的特定值。
+
+**URL定位**:要应用URL定位，请在创建受众时单击添加规则，单击站点页面，从第一个下拉列表中选择一个选项（当前页面、上一页或登录页面），从第二个下拉列表中选择URL，指定评估器，然后指定所需的URL。
+
+![“站点页面”&gt;“当前页面”&gt;“URL”](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+
+URL定位将URL转换为一组要评估的规则：
+
+* URL域= `example.com`
+* 路径= path1/path2/path3
+* queryStringParam1 = test123
+* queryStringParam2 = test7
 
 ## 创建复杂的URL字符串时，是否 [!DNL Target] 会评估整个URL?
 

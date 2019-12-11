@@ -1,10 +1,10 @@
 ---
-keywords: 模板测试;模板;相似页面上的相同体验
+keywords: template testing;template;same experience on similar pages;template test
 description: 如果使用一个页面模板为页面提供结构，或者如果页面包含类似的元素，则此功能可以测试类似结构页面元素中的变体。
 title: 在相似页面上包含相同体验
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 指定页面范围。页面范围可以是以下任一类型：
 
-   * URL
+   * URL (有关Target如何评估URL的详细信息，请参阅目 [标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
    * 域
    * 路径
    * 话题标签 (#) 片段（定位 URL 中 # 号后面的内容）。

@@ -4,7 +4,7 @@ description: Adobe Target Recommendations中的标准是根据一组预定的访
 title: Adobe Target推荐中的标准
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 980e446a73e30e06d79b7c73e6102c6e32930481
+source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
 
 ---
 
@@ -109,4 +109,4 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 >[!NOTE]
 >
->“算法使用情况”功能当前仅支持“推荐”活动。 此功能当前不支持A/B测试和体验定位(XT)活动。
+>“算 [!UICONTROL 法使用] ”功能当前仅支持“推荐”活动。 A/B测试和体验定位(XT)活动当前不支持此功能，这些活动将推荐 [作为选件包含](/help/c-recommendations/recommendations-as-an-offer.md)。

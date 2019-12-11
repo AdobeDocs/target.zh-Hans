@@ -5,7 +5,7 @@ title: Adobe Target中的站点页面
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
       如果选择此选项，则第二个下拉列表中提供以下选项：
 
-      * URL
+      * URL(有关Target如何评估URL的详细信息，请参阅目 [标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
       * 域
       * 查询
       * 子域
@@ -43,7 +43,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
       如果选择此选项，则第二个下拉列表中提供以下选项：
 
-      * URL
+      * URL(有关Target如何评估URL的详细信息，请参阅目 [标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
       * 域
       * 查询
       * 子域
@@ -53,7 +53,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
       如果选择此选项，则第二个下拉列表中提供以下选项：
 
-      * URL
+      * URL(有关Target如何评估URL的详细信息，请参阅目 [标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
       * 域
       * 查询
       * 子域

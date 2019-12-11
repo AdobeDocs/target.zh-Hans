@@ -4,7 +4,7 @@ description: Adobe Target Recommendations中的标准是根据一组预定的访
 title: Adobe Target推荐中的标准
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
+source-git-commit: 980e446a73e30e06d79b7c73e6102c6e32930481
 
 ---
 
@@ -105,8 +105,8 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 单击&#x200B;**[!UICONTROL 算法使用情况]选项卡可查看引用所选标准的活动列表。**&#x200B;该卡片列出了活跃和不活跃的活动。单击“实时活动”或“不活跃的活动”下拉列表可查看引用该标准的整个活动列表。您可以单击活动链接以打开活动进行编辑。
 
-![“标准使用情况”选项卡](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
+![“算法使用情况”选项卡](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->“标准使用情况”功能当前仅支持“推荐”活动。 目前不支持A/B测试和体验定位(XT)活动。
+>“算法使用情况”功能当前仅支持“推荐”活动。 此功能当前不支持A/B测试和体验定位(XT)活动。

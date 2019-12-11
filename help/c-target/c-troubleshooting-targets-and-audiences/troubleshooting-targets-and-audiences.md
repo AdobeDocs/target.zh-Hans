@@ -5,7 +5,7 @@ title: 定位和受众常见问题解答
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -22,7 +22,9 @@ Target的URL评估方式因您在创建活动时是否使用受众URL定位或�
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-**受众URL定位**:要应用受众URL定位，请在创建活动时，在“体验”页面（三步向导式工作流的步骤之一）上，单击齿轮图标，单击页面交付，然后指定所需的URL。
+### 受众URL定位
+
+要应用受众URL定位，请在创建活动时，在“体验”页面（三步向导式工作流的步骤之一）上，单击齿轮图标，单击页面交付，然后指定所需的URL。
 
 ![页面交付URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -32,9 +34,11 @@ Target的URL评估方式因您在创建活动时是否使用受众URL定位或�
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-作为最佳实践，除了URL上的受众定位之外，您还可以指定查询中的特定值。
+除了URL上的受众定位之外，您还可以指定查询中的特定值。
 
-**URL定位**:要应用URL定位，请在创建受众时单击添加规则，单击站点页面，从第一个下拉列表中选择一个选项（当前页面、上一页或登录页面），从第二个下拉列表中选择URL，指定评估器，然后指定所需的URL。
+### URL定位
+
+要应用URL定位，请在创建受众时单击添加规则，单击站点页面，从第一个下拉列表中选择一个选项（当前页面、上一页或登录页面），从第二个下拉列表中选择URL，指定评估器，然后指定所需的URL。
 
 ![“站点页面”&gt;“当前页面”&gt;“URL”](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 

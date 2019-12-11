@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 12 月 11 日 | [定位和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新增了常见问题解答：“Target如何评估定位中的URL?” |
 | 2019年12月10日 | [目标限制](/help/r-troubleshooting-target/target-limits.md) | 更新了mbox参数部分。 |
 |  | [标准](/help/c-recommendations/c-algorithms/algorithms.md) | 添加了有关对“标准使用情况”功能的支持的注释。 |
 | 2019 年 12 月 5 日 | [网页](/help/c-target/c-audiences/c-target-rules/site-pages.md) | 更新了主题。 |

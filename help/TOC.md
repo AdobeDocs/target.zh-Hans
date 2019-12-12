@@ -5,7 +5,7 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
 
 ---
 
@@ -196,9 +196,9 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
          + [设置量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [A/B 测试中的多个体验受众](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 自动分配 {#auto-allocate}
-      + [自动分配](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-      + [确定入选者](c-activities/automated-traffic-allocation/determine-winner.md)
-   + [Auto-Target（自动定位）](c-activities/auto-target-to-optimize.md)
+      + [Auto-Allocate（自动分配）](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [解释自动分配报告](c-activities/automated-traffic-allocation/determine-winner.md)
+   + [自动定位](c-activities/auto-target-to-optimize.md)
    + 自动个性化 {#automated-personalization}
       + [自动个性化概述](c-activities/t-automated-personalization/automated-personalization.md)
       + [随机林算法](c-activities/t-automated-personalization/algo-random-forest.md)

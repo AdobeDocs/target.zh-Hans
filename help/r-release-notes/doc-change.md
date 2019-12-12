@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: a2e4a4d1036d2c56d752d808054f6f4b4ab1d411
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019 年 12 月 12 日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了常见问题解答部分。 |
 | 2019 年 12 月 11 日 | [定位和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新增了常见问题解答：“Target如何评估定位中的URL?” |
 | 2019年12月10日 | [目标限制](/help/r-troubleshooting-target/target-limits.md) | 更新了mbox参数部分。 |
 |  | [标准](/help/c-recommendations/c-algorithms/algorithms.md) | 添加了有关对“标准使用情况”功能的支持的注释。 |

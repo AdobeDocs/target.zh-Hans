@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a2e4a4d1036d2c56d752d808054f6f4b4ab1d411
+source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
 
 ---
 
@@ -19,6 +19,7 @@ source-git-commit: a2e4a4d1036d2c56d752d808054f6f4b4ab1d411
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2019 年 12 月 12 日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了常见问题解答部分。 |
+|  | [解释自动分配报告](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 重命名了主题并添加了以下部分：“了解自动分配活动中的提升和信心报告。” |
 | 2019 年 12 月 11 日 | [定位和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新增了常见问题解答：“Target如何评估定位中的URL?” |
 | 2019年12月10日 | [目标限制](/help/r-troubleshooting-target/target-limits.md) | 更新了mbox参数部分。 |
 |  | [标准](/help/c-recommendations/c-algorithms/algorithms.md) | 添加了有关对“标准使用情况”功能的支持的注释。 |

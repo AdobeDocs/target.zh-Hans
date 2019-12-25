@@ -5,7 +5,7 @@ title: Adobe Target中的站点页面
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 您可以定位站点上特定页面的访客。
 
-1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
+1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]**>**[!UICONTROL &#x200B;创建受众]**。
 1. 对受众进行命名。
-1. 单击&#x200B;**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 网站页面]**。
+1. 单击&#x200B;**[!UICONTROL 添加规则]**>**[!UICONTROL &#x200B;网站页面]**。
 
    ![“网站页面”受众](assets/target_site_pages.png)
 
-1. 单击“ **[!UICONTROL 选择]** ”(Select)下拉列表，选择以下选项之一，然后根据需要配置规则。
+1. 单击“ **[!UICONTROL 选择]**”(Select)下拉列表，选择以下选项之一，然后根据需要配置规则。
 
    规则中后续下拉列表中的可用选项和计算器因您选择的选项而异。 下图显示了如果选择“当前页面”时可用 [!UICONTROL 的选项]:
 
@@ -108,7 +108,7 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 
 
-1. （可选）单击&#x200B;**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
+1. （可选）单击&#x200B;**[!UICONTROL 添加规则]**，然后为受众设置更多规则。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 您还可以使用自己的“用户定义的查询参数”或“用户定义的标头”来创建网站页面受众。
@@ -132,6 +132,12 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
    * 使用 [A/B测试活动](/help/c-activities/t-test-ab/test-ab.md) ，而不是登录页面活动。 A/B测试活动不会切换同一访客的体验。
    * 请改用访 [客资料](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 。
 
+* 对包含逗号的字符串使用“以逗号开头／结尾”求值器时，请注意，这些值将作为一组值进行计算，其中每个值以逗号分隔。 例如，如果标题的值为：它 `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` 将满足以下条件：
+   * 以zh开头，
+   * 以en开头，
+   * 以0.7结束，
+   * 以0.8结尾。
+
 ## 培训视频：创建受众
 
 以下视频包含有关使用受众类别的信息。
@@ -139,4 +145,4 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 * 创建受众
 * 定义受众类别
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)

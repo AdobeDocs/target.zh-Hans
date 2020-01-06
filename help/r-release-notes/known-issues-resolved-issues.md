@@ -1,10 +1,10 @@
 ---
-keywords: 已知问题；已解决问题；发行说明；错误；问题；修复
+keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: 有关此版本的Adobe Target的已知问题的信息。 此外，还包括有关已解决问题的信息。
 title: Adobe Target 中的已知问题和已解决的问题
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
 
 ---
 
@@ -67,6 +67,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * A/B和“体验定位”活动中的“推荐”选件不显示“推荐”托盘的可视预览(TGT-33426)
 * 通过API创建的集合、排除、条件和设计在Target用户界面中不可见，只能通过API编辑。 (TGT-35777)
 * 通过API创建的推荐活动可在用户界面中查看，但只能通过API编辑。
+* 在“标准”列表（卡片）视图中显示的“自定义标准”源状态每10分钟刷新一次，在某些特殊情况下可能超过10分钟。 在自定义条件编辑视图中显示的状态将实时获取并始终保持最新。 (TGT-35896, TGT-36173)
 
 ### 多变量测试 (MVT) 活动
 
@@ -90,7 +91,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    此问题仅适用于使用 VEC 的“推荐”活动。
 
-   **解决方法**：禁用[!UICONTROL 推荐 &gt; 设置]中的[!UICONTROL 筛选不兼容的标准]选项。禁用此设置后，所有标准（兼容和不兼容）都将显示在标准选择器中。(TGT-25949)
+   **解决方法**：禁用[!UICONTROL 推荐 > 设置]中的[!UICONTROL 筛选不兼容的标准]选项。禁用此设置后，所有标准（兼容和不兼容）都将显示在标准选择器中。(TGT-25949)
 
 * 由于 at.js 和访客 API 2.2.0 之间的交互，在升级到 at.js 版本 1.0 后不会在 Microsoft Explorer 11 浏览器中触发 Mbox。此问题会影响 at.js 版本 0.9.6 及更高版本。(TNT-27600)
 * at.js 可能不适用于 Cordova/Hybrid 应用程序，因为它们当前不支持第一方 Cookie。(TNT-26166)
@@ -105,7 +106,7 @@ mbox.js 库不支持客户端模板语言，例如 Handlebars 和 Mustache。at.
 
 ### 实施：全局 Mbox 自动创建
 
-在“实施”选项卡（“[!UICONTROL 设置”&gt;“实施]”）中，对于新配置的租户，“[!UICONTROL 全局 Mbox 自动创建]”字段将默认为“false”。
+在“实施”选项卡（“[!UICONTROL 设置”>“实施]”）中，对于新配置的租户，“[!UICONTROL 全局 Mbox 自动创建]”字段将默认为“false”。
 
 在配置后首次下载 mbox.js 时，“[!UICONTROL 全局 Mbox 自动创建]”字段在下载的 mbox.js 文件和 [!DNL Target] 后端中将设置为“true”，但它将继续在 UI 中的“[!UICONTROL 实施]”页面上显示为“false”，直到页面刷新为止（页面刷新后，状态将为“true”）。
 
@@ -293,7 +294,7 @@ Target 17.4.1 版本（2017 年 4 月 27 日版）中包含在报表中查看多
 
 ### 选件
 
-从“图像选件”库（“选件”&gt;“图像选件”）中删除的图像在 UI 中仍可见。在即将发行的版本中，这些已删除的图像将不再显示。在此期间，已删除的图像会显示在 UI 中，但其状态为“已删除”。(TGT-23793)
+从“图像选件”库（“选件”>“图像选件”）中删除的图像在 UI 中仍可见。在即将发行的版本中，这些已删除的图像将不再显示。在此期间，已删除的图像会显示在 UI 中，但其状态为“已删除”。(TGT-23793)
 
 已在 Target 17.4.1 版本（2017 年 4 月 27 日版）中修复。
 

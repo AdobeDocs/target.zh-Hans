@@ -4,7 +4,7 @@ description: 有关此版本的Adobe Target的已知问题的信息。 此外，
 title: Adobe Target 中的已知问题和已解决的问题
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
+source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
 
 ### 页面交付 {#page-delivery}
 
-如果您添加模板规则(如页面分发中的URL包含(/checkout, /cart)) [](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)，则在规则前面会添加额外的空格。 这是一个外观问题，不会影响受众定义的创建和选件交付。 (TGT-35916)
+如果您添加模板规则，如页面分发中的URL包含(/checkout, /cart) [](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)，则在规则前面会添加额外的空格。 这是一个外观问题，不会影响受众定义的创建和选件交付。 (TGT-35916)
 
 ### 活动 QA 预览链接 {#preview}
 
@@ -67,7 +67,7 @@ source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
 * A/B和“体验定位”活动中的“推荐”选件不显示“推荐”托盘的可视预览(TGT-33426)
 * 通过API创建的集合、排除、条件和设计在Target用户界面中不可见，只能通过API编辑。 (TGT-35777)
 * 通过API创建的推荐活动可在用户界面中查看，但只能通过API编辑。
-* 在“标准”列表（卡片）视图中显示的“自定义标准”源状态每10分钟刷新一次，在某些特殊情况下可能超过10分钟。 在自定义条件编辑视图中显示的状态将实时获取并始终保持最新。 (TGT-35896, TGT-36173)
+* “标准”列表（卡片）视图中显示的“自定义标准”源状态每十分钟刷新一次，在极少情况下可能会超过十分钟。 “自定义条件”编辑视图中显示的状态将实时获取并始终为最新状态。 (TGT-35896, TGT-36173)
 
 ### 多变量测试 (MVT) 活动
 

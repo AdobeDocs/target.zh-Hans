@@ -54,7 +54,7 @@ Adobe 会分阶段地将客户移到 TLS 1.2。针对域已经符合 1.2 的客�
 * 请注意，Target 报表中的访客数量可能会显示略微降低。
 * 您可能需要更改专门为不支持TLS 1.2的旧设备或浏览器创建的受众。交付到这些设备和浏览器将不再有效。
 
-有关受支持的浏览器及其版本的更多详细信息，请参阅[支持的浏览器](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)。
+For more details about supported browsers and their versions, see [Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## Adobe Target API {#section_88797FA5434049EC89F908853CC76903}
 

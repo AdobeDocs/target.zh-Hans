@@ -3,7 +3,7 @@ keywords: insider newsletter;newsletter;product updates;tips and tricks;events;c
 description: Adobe Target Insider 是针对 Adobe Target 社区成员发布的每月时事通讯。可让您了解产品更新和未来计划、个性化和优化提示与技巧、客户成功案例、即将举行的活动、信息丰富的白皮书及热门博客文章，等等。
 title: 'Adobe Target Insider 时事通讯 '
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ---
 
@@ -23,6 +23,7 @@ Adobe Target Insider 是针对 Adobe Target 社区成员发布的每月时事通
 
 | 问题 | 详细信息 |
 |--- |--- |
+| [2019年12月（第2卷，第12期）](https://expleague.azureedge.net/assets/target/2019_12_Target_Newsletter_Dec_2019.html) | 随着Adobe target团队的关注，回顾并反思2019年发生的一切将是一件令人欣慰的事情。 在这个特殊的年末期中，我们将尽力做到这一点，表彰我们的一些出色客户和从业人员，并逐月提供年度亮点。 |
 | [2019年11月（第2卷，第11期）](https://expleague.azureedge.net/assets/target/2019_11_Target_Newsletter_Nov_2019.html) | 我们有好消息要告诉你！ 首先，Forrester在《Forrester Wave:数字智能平台，2019年第4季度。 我们刚刚发布了新的开放源Node.js SDK和功能强大的新的基于用户的推荐算法。 我们还获得了由Adobe Target从业人员共享的有关个性化和优化的绝妙提示。 然后，社交媒体有影响力的Goldie Chan在最近两次LinkedIn实时会议中采访了Adobe Target的Jason Hickey和我。 Adobe的Jamie Brighton就管理数据和使用数据隐私作为竞争优势的工具发表了自己的看法。 最后，移动应用程序开发人员可以参加最终的Mobile App Skill Builder。 |
 | [2019 年 10 月（第 2 卷，第 10 期）](https://expleague.azureedge.net/assets/target/2019_10_Target_Newsletter_Oct_2019.html) | 在本期刊中，我们为您提供了充足的内容，供您阅读。 从在线新闻出版商McClatchy的Wendy Melemed那里获取个性化和优化提示。 注册并参加即将举办的面向移动应用程序开发人员的免费技能构建器虚拟实验室。 发现将Adobe Target与Adobe Campaign集成的巨大优势。 并下载Winning Playbook for Experience Personalization，它是用于构建强大的个性化计划的逐行指南。 最后，我们向您介绍Adobe Target on Experience League，以获取有助于您快速使用行业领先的个性化解决方案的资源。 |
 | 2019年9月 | 本月未发布新闻稿。 |

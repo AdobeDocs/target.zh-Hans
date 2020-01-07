@@ -5,41 +5,44 @@ title: TLS（传输层安全性）加密更改
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 0cd553316d43e78e23c268de20871150dcc1cc85
+source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ---
 
 
 # TLS（传输层安全性）加密更改{#tls-transport-layer-security-encryption-changes}
 
-此信息介绍了对以下方面所做的更改：Adobe 和 Target 如何使用 TLS（传输层安全性）来保持最高安全标准和提高客户数据安全性。
+有关Adobe和Adobe Target如何使用TLS（传输层安全）来维护最高安全标准并提升客户数据安全性的更改的信息。
 
-传输层安全性 (TLS) 是当前使用的部署最广泛的安全协议，可用于 Web 浏览器和其他需要通过网络安全交换数据的应用程序。[!DNL Adobe] 设有安全合规性标准，该标准要求结束旧协议的生命周期，并且强制使用 TLS 1.2，以便使用最新且最安全的版本。
+传输层安全性 (TLS) 是当前使用的部署最广泛的安全协议，可用于 Web 浏览器和其他需要通过网络安全交换数据的应用程序。Adobe 设有安全合规性标准，该标准要求结束旧协议的生命周期，并且强制使用 TLS 1.2，以便使用最新且最安全的版本。
 
 >[!IMPORTANT]
 >
->在2020年3月1日之后，Adobe Target将不再支持针对Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、活动交付和API等的TLS 1.1加密。 请在2002年3月1日之前升级到TLS 1.2以避免任何问题。
+>在2020年3月1日之后，Adobe Target将不再支持针对Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、活动交付和API等的TLS 1.1加密。 请在2020年3月1日之前升级到TLS 1.2以避免任何问题。
 
 我们希望这不会对客户数据或报表产生重大影响。
 
 ## 启用增强型体验编辑器 (EEC) 的可视化体验编辑器 (VEC){#section_B374B62DEC3344C194AC7BECC2EE0AA0}
 
-到目前为止，Adobe Target 的[增强型体验编辑器](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) (EEC) 默认会使用 TLS 1.1。在2020年3月1日之后，默认情况下，Target将转向TLS 1.2。
+自2020年3月1日起，TLS 1.2是默认设置，不再支持TLS 1.1。
 
 Adobe 会分阶段地将客户移到 TLS 1.2。针对域已经符合 1.2 的客户，我们会将其移到 TLS 1.2，而不需要您做出任何更改。大多数客户域已支持TLS 1.2;但是，如果您的域不支持TLS 1.2，我们将像今天一样将这些域保留在TLS 1.1中（直到2020年3月）。
 
 在此迁移阶段，您应该不会遇到任何问题。如果 VEC 停止加载早期运行的某个网站，请[打开客户关怀票证](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，将此迁移作为可能的原因。
 
-但是，如果您是使用TSL 1.1但不支持TLS 1.2的客户之一，那么您应该计划将域／基础结构移动到TLS 1.2。在2020年3月之前，我们将继续支持TLS 1.1协议。 从2020年3月开始，Target将不支持要通过增强的体验书写器功能用于VEC的TLS 1.1协议。
+但是，如果您是使用TSL 1.1但不支持TLS 1.2的客户之一，那么您应该计划将域／基础结构移动到TLS 1.2。在2020年3月1日之前，我们将继续支持TLS 1.1协议。 从2020年3月1日开始，Target将不支持要通过增强的体验书写器功能用于VEC的TLS 1.1协议。
 
 尽管我们强烈建议大家今后使用 TLS 1.2，但如果您是新客户且确实“不”**&#x200B;支持 TLS 1.2，请联系客户关怀团队，告知他们您需要对增强型体验编辑器使用 TLS 1.1。但是，请计划迁移到TLS 1.2，因为2020年3月1日之后，您也将不受支持。
 
 ## Activity delivery {#section_46CA5943E4354B259014C2BF340AECD6}
 
-从2020年3月1日开始，目标服务器将不再支持TLS 1.1。通过此更改，目标服务器将不再接受来自使用不支持TLS 1.1或更高版本的较旧设备或Web浏览器的最终用户的请求。 因此，仅支持 TLS 1.1（或默认支持 TLS 1.1）的旧设备和浏览器将不会收到来自 Adobe Target 的活动内容。网站的默认内容将会呈现出来。
+从2020年3月1日开始，目标服务器将不再支持TLS 1.1。通过此更改，Target服务器将不再接受使用不支持TLS 1.2（或更高版本）的旧设备或Web浏览器的访客的请求。 因此，仅支持 TLS 1.1（或默认支持 TLS 1.1）的旧设备和浏览器将不会收到来自 Adobe Target 的活动内容。网站的默认内容将会呈现出来。
 
 一些将受到影响的旧设备和浏览器包括：
 
+* Google Chrome(Chrome for Android)版本29及更早版本
+* Opera Browser(Opera Mobile)12.17版及更早版本
+* Mozilla Firefox（适用于移动设备的Firefox）版本26及更早版本
 * Android 4.3 及更早版本
 * Windows 7 及更早版本上的 Internet Explorer 8-10
 * Windows Phone 8.0 上的 Internet Explorer 10
@@ -49,9 +52,9 @@ Adobe 会分阶段地将客户移到 TLS 1.2。针对域已经符合 1.2 的客�
 
 * 您必须确保默认网站已按照可用于兼容设备和浏览器的方法准备就绪。
 * 请注意，Target 报表中的访客数量可能会显示略微降低。
-* 您可能需要更改专门针对不支持 TLS 1.1 的旧设备或浏览器创建的受众，否则针对这些设备和浏览器的交付将无法再正常运行。
+* 您可能需要更改专门为不支持TLS 1.2的旧设备或浏览器创建的受众。交付到这些设备和浏览器将不再有效。
 
-For more details about supported browsers and their versions, see [Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+有关受支持的浏览器及其版本的更多详细信息，请参阅[支持的浏览器](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)。
 
 ## Adobe Target API {#section_88797FA5434049EC89F908853CC76903}
 

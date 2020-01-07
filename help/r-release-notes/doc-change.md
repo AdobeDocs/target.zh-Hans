@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
+source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2019年1月6日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关“自定义条件”源状态的已知问题。 |
 | 2019年12月19日 | [发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 添加了有关版本1.1.0的信息。 |
 | 2019 年 12 月 12 日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了常见问题解答部分。 |
 |  | [解释自动分配报告](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 重命名了主题并添加了以下部分：“了解自动分配活动中的提升和信心报告。” |
@@ -37,10 +38,10 @@ source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 |  | [隐私和数据保护法规](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 更新了CCPA部分，并添加了新注释。<br>新增了常见问题解答，告知客户Target无法允许客户直接从Target共享或向第三方销售数据，因此不会选择退出Target销售。 |
 | 2019 年 11 月 7 日 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | 为adobeQA参数添加了代码示例。 |
 | 2019 年 11 月 5 日 | [站点页面](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | “疑难排解”部分中的更新文本。 |
-| 2019年11月4日 | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 更新了以下常见问题解答下的文本：“为什么我会看到警告消息，如'缺少选择器的操作'?” |
+| 2019年11月4日 | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 更新了以下常见问题解答下的文本：“为什么我会看到警告消息，如&#39;缺少选择器的操作&#39;?” |
 | 2019 年 10 月 31 日 | [使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新主题。 |
 |  | [发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 新主题。 |
-|  | [从 at.js 1.x 升级到 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 添加了新部分：“Which at.js 1.*at* .js 2中不支持创建受众的x参数。*x*?" |
+|  | [从 at.js 1.x 升级到 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 添加了新部分：“Which at.js 1.*at* .js 2中不支持创建受众的x参数。*x*?&quot; |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关向模板规则添加额外空格的新已知问题。 |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关Target Premium 19.10.2版本和Target Java SDK版本的信息。 |
 | 2019 年 10 月 30 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发布的Target Premium 19.10.2（2019年10月31日）版本的信息。 |
@@ -65,7 +66,7 @@ source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 | --- | --- | --- |
 | 2019 年 10 月 17 日 | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新了主题，以说明活动QA如何与第三方Cookie一起使用。 |
 |  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新的发行说明，以包含有关对Unified shell的更改的信息。 |
-| 2019 年 10 月 10 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 添加了新部分："serverState." |
+| 2019 年 10 月 10 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 添加了新部分：&quot;serverState.&quot; |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关at.js 2.2和at.js 1.8版本的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关at.js 2.2和at.js 1.8版本的信息。 |
 |  | [活动故障诊断](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 添加了新部分：“我使用Target UI创建了一个活动，但无法通过API更新它。” |
@@ -113,7 +114,7 @@ source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 |  | [排除项](/help/c-recommendations/c-products/exclusions.md) | 添加了培训视频。 |
 | 2019 年 8 月 14 日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了文本并添加了培训视频链接。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 阐明了有关 `consumerID` 键值的信息。 |
-|  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | 更新了“布局 &gt; 移动”章节中的信息。 |
+|  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | 更新了“布局 > 移动”章节中的信息。 |
 | 2019 年 8 月 12 日 | [Android - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 更新了有关依赖项和工件的信息。<br>更新了 `AndroidManifest.XML` 文件的代码示例。 |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 更新了“Target Mobile VEC SDK iOS 2.1.0 和 Android 1.1.1”章节中的增强功能和修复列表。 |
 |  | [编辑活动或另存为草稿](/help/c-activities/edit-activity.md#classic) | 添加了新章节：“使用在 Recommendations Classic 中创建的旧版活动”。 |
@@ -190,7 +191,7 @@ source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关即将发行的 at.js 2.1.0 的信息。 |
 |  | [实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 添加了新章节：“客户端 Analytics 日志记录”。 |
 |  | [Analytics for Target 实施](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | 修改了步骤 7。 |
-|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 在表格中添加了以下字段名称所对应的行：<ul><li>Request &gt; experienceCloud</li><li>Request &gt; experienceCloud &gt; analytics</li><li>Request &gt; experienceCloud &gt; analytics &gt; logging</li></ul> |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 在表格中添加了以下字段名称所对应的行：<ul><li>Request > experienceCloud</li><li>Request > experienceCloud > analytics</li><li>Request > experienceCloud > analytics > logging</li></ul> |
 |  | [at.js 函数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | 在表格中添加了 `adobe.target.sendNotifications(options)` 所对应的行。 |
 |  | [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) | 新主题。 |
 |  | [从 at.js 1.x 升级到 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | 添加了有关 at.js 2.1.0 中支持 Adobe 选择加入功能的信息。 |
@@ -277,7 +278,7 @@ source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 |  | [可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 添加了屏幕截图。 |
 |  | [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 添加了以下常见问题解答：“我是否应该从自动分配活动中删除性能不佳的体验，以加快确定入选者的过程？” |
 | 2019 年 4 月 10 日 | [实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 小幅度更新了“实施要求”章节的文本（对要求进行了重新排序）。 |
-|  | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新了“options &gt; page”参数的文本。 |
+|  | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新了“options > page”参数的文本。 |
 | 2019 年 4 月 8 日 | [使用和不使用 A4T 时，Target 和 Analytics 之间的预期数据差异](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md) | 更新了[使用 A4T 时的预期数据差异](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md#expected-using-a4t)。 |
 |  | [在 A4T 中最大限度地减少夸大的访问和访客计数](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md) | 更新了[产生局部数据的原因是什么？](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#section_C9C906BEAA7D44DAB9D3C03932A2FEB8)下面有关 A4T 和重定向的信息 |
 |  | [实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md#section_A0D2EF18033D4C3997B08A6EBB34C17A) | 更新了通过 A4T 进行重定向的最低要求（at.js 版本 1.6.2）。 |
@@ -404,12 +405,12 @@ source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 | 2018 年 11 月 7 日 | [A/B 测试应该持续多长时间？](../c-activities/t-test-ab/sample-size-determination.md#concept_2801F552DB874C20B8A17C1B774C0383) | 编辑了主题并添加了一些其他信息。 |
 |  | [Target 发行说明（预发行版本）](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34) | 添加了有关 Target 版本 18.11.1 中功能的信息。 |
 | 2018 年 11 月 5 日 | [将“推荐”与电子邮件集成](../c-recommendations/c-recommendations-faq/integrating-recs-email.md#reference_256B16C894864F24AF970E43DC174420) | 更新了选项 3 中的链接。 |
-|  | [客户属性](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8) | 添加了以下注释：<br>**重要信息：**&#x200B;数据源名称和属性名称不得包含句点。 |
+|  | [客户属性](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8) | 添加了以下注释：<br>**重要信息：**数据源名称和属性名称不得包含句点。 |
 | 2018 年 10 月 31 日 | [系统状态更新](../r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) | 更新了主题。 |
 |  | [Target 基础知识网络研讨会系列](../cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4) | 添加了指向“受众分段最佳实践”录音的链接。 |
 | 2018 年 10 月 29 日 | [TLS（传输层安全性）加密更改](../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) | 添加了新章节：“仅支持 TLS 1.0 的浏览器预期出现的行为”。 |
 | 2018 年 10 月 26 日 | [已知问题和已解决的问题](../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541) | <ul><li>添加了一个已知问题：在创建地域定位受众时，无法搜索包含特殊字符的字符串。</li><li>将 at.js 1.6.0 重定向问题移到了“已解决的问题”表中。</li><li>将“默认工作区中通过 API 删除的活动继续显示在 Target UI 中”问题移到了“已解决的问题”表中。</li></ul> |
-| 2018 年 10 月 24 日 | [首选项](../administrating-target/r-target-account-preferences/target-account-preferences.md#reference_0CF97B1C2214412ABBC8222EA8A36D7E) | 添加了在通过“设置”&gt;“首选项”或根据活动选择报表源时应考虑的信息。 |
+| 2018 年 10 月 24 日 | [首选项](../administrating-target/r-target-account-preferences/target-account-preferences.md#reference_0CF97B1C2214412ABBC8222EA8A36D7E) | 添加了在通过“设置”>“首选项”或根据活动选择报表源时应考虑的信息。 |
 |  | [创建自动个性化活动](../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) | 添加了有关筛选“未分配选件”的信息。 |
 |  | [创建体验](../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) | 添加了有关在 XT 活动中复制体验的信息。 |
 |  | [添加体验](../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) | 添加了有关在 A/B 测试中复制体验的信息。 |
@@ -418,7 +419,7 @@ source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 |  | [不通过标签管理器实施 Target](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | 更新了所有章节。添加了新章节：at.js 实施。 |
 |  | 版本 18.10.1 [发行说明](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
-## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 26 日）  {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
+## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 26 日）{#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
 <table id="table_0348AA29207D48A4BDFFA187F4F845B7"> 
  <thead> 

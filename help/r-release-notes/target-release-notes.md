@@ -1,11 +1,11 @@
 ---
-keywords: 发行说明；发行；更新；未来发行；增强；新增功能；修复
+keywords: release notes;releases;updates;future release;enhancements;new features;fixes
 description: 发行说明，提供有关最新或即将发布的DNL Adobe Target版本的功能、增强和修复的信息。
 title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
+source-git-commit: cab8de265b173c393af37cde31006302e5238f25
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 下列发行说明将介绍 [!DNL Adobe Target] 最新版本或即将发布的版本的功能、增强功能、修复信息和已知问题。
 
-**上次更新：2019 年 10 月 31 日**
+**上次更新日期：2020 年 1 月 8 日**
 
 >[!NOTE]
 >
@@ -22,29 +22,9 @@ source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 >
 >括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## 目标Java SDK版本1.0.1（2019年11月11日）
+## Target Standard/Premium 20.1.1（2020 年 1 月 22 日） 
 
-在版本1.0.1中修复了以下问题：
-
-* 在Target请求中发送补充数据ID，即使不存在访客API Cookie。
-
-有关详细信息，请参 [阅发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。
-
-## 目标平台（2019年10月31日）
-
-| 功能/增强 | 描述 |
-| --- | --- |
-| Java SDK | Java [!DNL Target] SDK允许您部署 [!DNL Target] 服务器端。 此Java SDK可帮助您轻松 [!DNL Target] 地与其 [!DNL Adobe Experience Cloud] 他解决方案(如 [!DNL Adobe Experience Cloud Identity Service]、 [!DNL Adobe Analytics]和)集成 [!DNL Adobe Audience Manager]。<br>Java SDK在通过我们的交付API与集成时引入了最佳实践并消除了 [!DNL Target] 复杂性，这样您的工程团队就可以专注于业务逻辑。 下面是我们在最新版本中介绍的显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>支持在网页和服务器端混合集 [!DNL Target] 成时优化性能。 我们引入了一个名为的设置 `serverState` ，该设置由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 此方法可优化页面加载性能。</li><li>支持通过Java SDK检索VEC创建的活动，新的交付API使这成为可能。</li><li>开放源码，这样您的开发人员就可以为 [Target Java SDK做出贡献](https://github.com/adobe/target-java-sdk)。</li></ul>有关详细信息，请参 [阅发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。<br>通过Adobe Tech Blog了解有关Target Java SDK的更多信息- [使用新的Target Java SDK进行服务器端优化](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。 |
-
-## Target Standard/Premium 19.10.2（2019 年 10 月 31 日） 
-
-| 功能/增强 | 描述 |
-| --- | --- |
-| ![高级徽章](/help/assets/premium.png) -使用多值属性 | 有时，您希望使用多值字段。 请仔细研究下面的示例：<ul><li>您向用户提供影片。 一部电影有多个演员。</li><li>你卖音乐会的票。 给定用户有多个喜爱的栏。</li><li>你卖衣服。 T恤有多种尺寸。</li></ul>要处理这些场景中的推荐，您可以将多值数据传递给Target Recommendations，并使用特殊的多值运算符。 |
-
-## Target Standard/Premium 20.1.1
-
-Target Standard/Premium 20.1.1版本将于2020年1月发布。 其确切日期、功能和增强功能将在此处公布。
+Target Standard/Premium 20.1.1版本将于2020年1月22日发布。 其功能和增强功能将在此处发布。
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

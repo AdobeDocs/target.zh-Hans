@@ -1,10 +1,10 @@
 ---
-keywords: 收藏集;定位
+keywords: collection;Targeting
 description: 收藏集是 Adobe Target 中一组符合推荐标准的产品或项目。
 title: Adobe Target 中的收藏集
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 可创建收藏集以组织要在推荐中显示的产品。
 
-1. 单击&#x200B;**[!UICONTROL 推荐]** &gt; **[!UICONTROL 收藏集]**&#x200B;以显示现有收藏集列表。
+1. 单击&#x200B;**[!UICONTROL 推荐]**>**[!UICONTROL &#x200B;收藏集]**以显示现有收藏集列表。
 
    ![收藏集列表](assets/collections_list.png)
 
@@ -43,7 +43,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 单击&#x200B;**[!UICONTROL 创建收藏集]**。
 
-1. （视情况而定）在创建（或更新）收藏集时从&#x200B;**[!UICONTROL 环境]**&#x200B;筛选器中选择一个环境，以预览该环境中收藏集的内容。默认情况下，会显示默认主机组的结果。
+1. （视情况而定）在创建（或更新）收藏集时从&#x200B;**[!UICONTROL 环境]**筛选器中选择一个环境，以预览该环境中收藏集的内容。默认情况下，会显示默认主机组的结果。
 
    ![创建收藏集](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
@@ -61,11 +61,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 使用高级搜索创建收藏集
 
-您还可以使用[目录搜索](/help/c-recommendations/c-products/catalog-search.md)页面上的“高级搜索”（[!UICONTROL 推荐] &gt; [!UICONTROL 目录搜索] &gt; [!UICONTROL 高级搜索]）来创建收藏集。
+您还可以使用[目录搜索](/help/c-recommendations/c-products/catalog-search.md)页面上的“高级搜索”（[!UICONTROL 推荐] > [!UICONTROL 目录搜索] > [!UICONTROL 高级搜索]）来创建收藏集。
 
-![另存为](/help/c-recommendations/c-products/assets/save-as.png)
+![另存为对话框](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-例如，在使用“ID”&gt;“包含”创建搜索后，您可以单击[!UICONTROL 另存为] &gt; [!UICONTROL 收藏集]。
+例如，在使用“ID”>“包含”创建搜索后，您可以单击[!UICONTROL 另存为] > [!UICONTROL 收藏集]。
 
 >[!IMPORTANT]
 >
@@ -78,4 +78,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 创建收藏集
 * 创建排除项
 
->[!VIDEO](https://video.tv.adobe.com/v/27689?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

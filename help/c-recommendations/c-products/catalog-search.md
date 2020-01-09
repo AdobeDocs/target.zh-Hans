@@ -4,7 +4,7 @@ description: Adobe Target 中的目录搜索可帮助您在目录中查找产品
 title: Adobe Target 中的目录搜索
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 1a1e1a0f2ff802ee630c47ceeb3241c55eb2cb65
+source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 ---
 
@@ -40,7 +40,7 @@ To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  
 
 您可以使用“目录搜索”页面上的“高级搜索”（[!UICONTROL 推荐] > [!UICONTROL 目录搜索] > [!UICONTROL 高级搜索]）来创建[收藏集](/help/c-recommendations/c-products/collections.md)或[排除项](/help/c-recommendations/c-products/exclusions.md)。
 
-![另存为对话框](/help/c-recommendations/c-products/assets/save-as.png)
+![另存为对话框](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
 例如，在使用“ID”>“包含”创建搜索后，您可以单击[!UICONTROL 另存为] > [!UICONTROL 收藏集或排除项]。
 

@@ -5,7 +5,7 @@ title: TLS（传输层安全性）加密更改
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 ---
 
@@ -85,23 +85,23 @@ For more details about supported browsers and their versions, see [Supported Bro
 >
 >这些说明在发布时为最新说明，可能会有所更改。 如果这些说明发生更改，Internet快速搜索应会有所帮助。  其他浏览器具有类似的步骤。
 
-## Expected behavior with browsers supporting TLS 1.0 Only {#section_B5DA97A34EF248EB927610A5DA71EF2F}
+## 支持1.2以下TLS版本的浏览器的预期行为 {#section_B5DA97A34EF248EB927610A5DA71EF2F}
 
-本节介绍了使用 at.js 或 mbox.js 实施时，仅支持 TLS 1.0 的浏览器预期发生的情况。为便于比较，本节还介绍支持TLS 1.2的浏览器的预期功能。
+本节介绍仅在使用at.js或mbox.js实施时，支持1.2以下TLS版本的浏览器会发生什么情况。 为便于比较，本节还介绍支持TLS 1.2的浏览器的预期功能。
 
 ### 中心端点
 
 | Target JavaScript 实施 | 详细信息 |
 |--- |--- |
-| at.js | 已启用 TLS 1.0：<ul><li>使用浏览器开发工具，在“网络”选项卡上，您会看到“200 OK”。这意味着请求已成功。</li><li>用户会看到“无法安全连接到该页面”的信息。这则信息说明，这种情况可能是由于网站使用过时的或不安全的 TLS 安全设置引起的。</li><li>没有显示控制台错误。</li></ul>已启用 TLS 1.2：<ul><li>下载 at.js 文件。</li></ul> |
-| mbox.js | 已启用 TLS 1.0：<ul><li>使用浏览器开发工具，在“网络”选项卡上，您会看到“200 OK”。这意味着请求已成功。</li><li>用户会看到“无法安全连接到该页面”的信息。这则信息说明，这种情况可能是由于网站使用过时的或不安全的 TLS 安全设置引起的。</li><li>没有显示控制台错误。</li></ul>已启用 TLS 1.2：<ul><li>下载 mbox.js 文件。</li></ul> |
+| at.js | 启用TLS 1.0或TLS 1.1时：<ul><li>使用浏览器开发工具，在“网络”选项卡上，您会看到“200 OK”。这意味着请求已成功。</li><li>用户会看到“无法安全连接到该页面”的信息。这则信息说明，这种情况可能是由于网站使用过时的或不安全的 TLS 安全设置引起的。</li><li>没有显示控制台错误。</li></ul>已启用 TLS 1.2：<ul><li>下载 at.js 文件。</li></ul> |
+| mbox.js | 启用TLS 1.0或TLS 1.1时：<ul><li>使用浏览器开发工具，在“网络”选项卡上，您会看到“200 OK”。这意味着请求已成功。</li><li>用户会看到“无法安全连接到该页面”的信息。这则信息说明，这种情况可能是由于网站使用过时的或不安全的 TLS 安全设置引起的。</li><li>没有显示控制台错误。</li></ul>已启用 TLS 1.2：<ul><li>下载 mbox.js 文件。</li></ul> |
 
 ### 边端点
 
 | Target JavaScript 实施 | 详细信息 |
 |--- |--- |
-| at.js | 已启用 TLS 1.0：<ul><li>使用浏览器开发工具，在“网络”选项卡上，您会看到“200 OK”。这意味着请求已成功。</li><li>用户会看到“无法安全连接到该页面”的信息。这则信息说明，这种情况可能是由于网站使用过时的或不安全的 TLS 安全设置引起的。</li><li>没有显示控制台错误。</li><li>提供了默认内容。</li></ul>已启用 TLS 1.2：<ul><li>提供了选件内容。</li></ul> |
-| mbox.js | 已启用 TLS 1.0：<ul><li>使用浏览器开发工具，在“网络”选项卡上，您会看到“200 OK”。这意味着请求已成功。</li><li>用户会看到“无法安全连接到该页面”的信息。这则信息说明，这种情况可能是由于网站使用过时的或不安全的 TLS 安全设置引起的。</li><li>没有显示控制台错误。</li><li>提供了默认内容。</li></ul>已启用 TLS 1.2：<ul><li>提供了选件内容</li></ul> |
+| at.js | 启用TLS 1.0或TLS 1.1时：<ul><li>使用浏览器开发工具，在“网络”选项卡上，您会看到“200 OK”。这意味着请求已成功。</li><li>用户会看到“无法安全连接到该页面”的信息。这则信息说明，这种情况可能是由于网站使用过时的或不安全的 TLS 安全设置引起的。</li><li>没有显示控制台错误。</li><li>提供了默认内容。</li></ul>已启用 TLS 1.2：<ul><li>提供了选件内容。</li></ul> |
+| mbox.js | 启用TLS 1.0或TLS 1.1时：<ul><li>使用浏览器开发工具，在“网络”选项卡上，您会看到“200 OK”。这意味着请求已成功。</li><li>用户会看到“无法安全连接到该页面”的信息。这则信息说明，这种情况可能是由于网站使用过时的或不安全的 TLS 安全设置引起的。</li><li>没有显示控制台错误。</li><li>提供了默认内容。</li></ul>已启用 TLS 1.2：<ul><li>提供了选件内容</li></ul> |
 
 ### 针对浏览器版受众的活动（Internet Explorer、版本6、7或8）
 
@@ -112,4 +112,4 @@ For more details about supported browsers and their versions, see [Supported Bro
 | Target JavaScript 实施 | 详细信息 |
 |--- |--- |
 | at.js | 版本低于 10 的 Internet Explorer 版本不支持 at.js。 |
-| mbox.js | 已启用 TLS 1.0：<ul><li>提供了默认内容。</li><li>没有触发 Target 请求。</li><li>没有显示控制台错误。</li><li>使用浏览器开发工具，在“网络”选项卡上，您会看到“200 OK”。这意味着请求已成功。</li></ul>已启用 TLS 1.2：<ul><li>提供了选件内容。</li></ul> |
+| mbox.js | 启用TLS 1.0或TLS 1.1时：<ul><li>提供了默认内容。</li><li>没有触发 Target 请求。</li><li>没有显示控制台错误。</li><li>使用浏览器开发工具，在“网络”选项卡上，您会看到“200 OK”。这意味着请求已成功。</li></ul>已启用 TLS 1.2：<ul><li>提供了选件内容。</li></ul> |

@@ -1,10 +1,10 @@
 ---
-keywords: 响应式;移动设备视区;视区;设备;移动设备示例;iPhone
+keywords: responsive;mobile viewports;viewport;devices;mobile example;iphone
 description: 移动设备视区可帮助您预览活动在各种大小的屏幕上的显示效果。
 title: 适用于响应式体验的移动设备视区
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | Samsung Galaxy Tab 10 | 800 宽 x 1280 高 | 800 宽 x 1280 高 |
 | Chromebook Pixel | 1280 宽 x 850 高 | 2560 宽 x 1700 高 |
 
-多个网站列出了常用设备的视区大小。For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker's website.
+多个网站列出了常用设备的视区大小。例如，请参 [阅https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) ，或查阅设备制造商的网站。
 
 如果您想要将活动交付到某一特定设备上的用户，请在活动图中选择适合该设备的受众。使用移动设备 Web 编辑器可在该设备上编辑活动页面。如果您想要在整个数字体验中运行某个活动，并确保该活动在所有设备上都展现良好的外观，请不要应用定位，而是使用移动设备视区按各种屏幕大小预览该活动。
 
@@ -73,7 +73,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 可配置您希望在创建体验时可供使用的任何移动设备视区。
 
-1. 单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**。
+1. 单击&#x200B;**[!UICONTROL 设置]**>**[!UICONTROL &#x200B;首选项]**。
 1. 在“帐户首选项”页面的“移动设备视区配置”部分中，单击&#x200B;**[!UICONTROL 新增]**，以添加移动设备视区。
 
    要更改现有移动设备视区的配置，请选择该视区，然后单击“编辑”（铅笔）图标。
@@ -106,8 +106,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 可向 Target 活动中添加移动设备视区，以便创建要在移动设备屏幕上显示的响应式体验。
 
 1. 创建一个活动。
-1. 在可视化体验编辑器中，单击&#x200B;**[!UICONTROL 设置]**&#x200B;齿轮图标，然后选择&#x200B;**[!UICONTROL 添加移动设备视区]**。
-1. 单击&#x200B;**[!UICONTROL 设备]**&#x200B;图标，然后启用每个应具有移动设备视区的设备。
+1. 在可视化体验编辑器中，单击&#x200B;**[!UICONTROL 设置]**齿轮图标，然后选择**[!UICONTROL &#x200B;添加移动设备视区]**。
+1. 单击&#x200B;**[!UICONTROL 设备]**图标，然后启用每个应具有移动设备视区的设备。
 
    ![](assets/MobileViewPorts.jpg)
 
@@ -126,7 +126,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 此用例展示了如何使用 Target Standard 的移动设备视区功能配置 2 个 iPhone 版本（iPhone 6 和 iPhone 6 Plus）的体验。
 
-1. 在 Target Standard 中，单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**。
+1. 在 Target Standard 中，单击&#x200B;**[!UICONTROL 设置]**>**[!UICONTROL &#x200B;首选项]**。
 1. 在“首选项”页面的“移动设备视区配置”部分中，创建 iPhone 6 和 iPhone 6 Plus 的移动设备视区。
 
    对每个视区使用以下设置：
@@ -163,10 +163,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 预览和构建响应式网站的体验
 * 使用叠加高亮显示元素类型
 
->[!VIDEO](https://video.tv.adobe.com/v/17401?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Adobe Target 中的帐户首选项
 
 以下视频包含有关如何在帐户首选项中设置移动设备视区的信息，相关介绍开始于视频的 4:40。
 
->[!VIDEO](https://video.tv.adobe.com/v/17379?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17379)

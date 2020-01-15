@@ -1,10 +1,10 @@
 ---
-keywords: 推荐源；源；SAINT;ftp;csv；分类；分析分类
+keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: 可使用信息源将实体导入到 Adobe Recommendations 中。可以使用 CSV 文件、Google Product Search 信息源格式和/或 Adobe Analytics 产品分类来发送实体。
 title: 信息源
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 如果同时通过实体源和 mbox 收集数据，则采用最新的数据。通常，最新的数据来自 mbox，因为 mbox 的查看频率更高。在极少数情况下，实体源数据和 mbox 数据的时间相同，这时使用 mbox 数据。
 
-[!UICONTROL 信息源]列表（**[!UICONTROL 推荐]** &gt; **[!UICONTROL 信息源]**）提供了有关您创建的所有信息源的信息。
+“[!UICONTROL 信息源]”列表（**[!UICONTROL 推荐]**>**[!UICONTROL &#x200B;信息源]**）提供了有关您创建的所有信息源的信息。
 
 ![“信息源”页面](/help/c-recommendations/c-products/assets/feeds-page.png)
 
@@ -33,6 +33,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * **计划**：显示信息源的更新计划：每日、每周、每两周或从不。
 * **项目**：显示信息源中的项目数。
 * **上次更新**：显示上次更新信息源的日期和时间，以及更新信息源的人员姓名。如果[!UICONTROL 上次更新]信息源显示为“未定义”，则表示该信息源来自 [!DNL Recommendations Classic]，不能在 [!DNL Target Premium Recommendations] 中进行更改。
+
+>[!IMPORTANT]
+>
+>上传的实体和实体属性将在61天后过期。 这意味着：
+>
+>* 您的源应至少每月运行，以确保您的目录内容不会过期。
+>* 从源文件删除项目不会从目录中删除该项目。 要从目录中删除项目，请通过Target UI或API手动删除项目。 或者，修改物料属性（如库存）以确保将物料排除在考虑之外。
+
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -50,7 +58,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!IMPORTANT]
 >
->在 .csv 文件中，不要用双引号 (") 引住值，除非是有意为之。如果用双引号引住值，则必须使用另一组双引号将其引住来进行转义。未转义的双引号会导致推荐信息源无法正确加载。
+>在 .csv 文件中，不要用双引号 (&quot;) 引住值，除非是有意为之。如果用双引号引住值，则必须使用另一组双引号将其引住来进行转义。未转义的双引号会导致推荐信息源无法正确加载。
 
 例如，以下语法不正确：
 
@@ -200,7 +208,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 
 可创建一个信息源，以将有关产品或服务的信息插入到 [!DNL Recommendations] 中。
 
-1. 在 Target 界面中，单击&#x200B;**[!UICONTROL 推荐]** &gt; **[!UICONTROL 信息源]** &gt; **[!UICONTROL 创建信息源]**。
+1. 在 Target 界面中，单击&#x200B;**[!UICONTROL 推荐]**>**[!UICONTROL &#x200B;信息源]** > **[!UICONTROL 创建信息源]**。
 
    ![“创建信息源”对话框](assets/CreateFeed.png)
 
@@ -212,7 +220,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
    * Analytics 分类
    有关 CSV 和“Google 产品信息源”信息源类型的信息，请参阅[信息源概述](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. （视情况而定）如果您选择 **[!UICONTROL CSV]** 或者 **[!UICONTROL Google 产品信息源]**，请指定可以访问信息源的位置。
+1. （视情况而定）如果您选择 **[!UICONTROL CSV]**或者**[!UICONTROL  Google 产品信息源]**，请指定可以访问信息源的位置。
 
    * **FTP**：如果您选择 FTP，请提供 FTP 服务器信息、登录凭据、文件名和 FTP 目录。您可以选择使用带有 SSL 的 FTP (FTPS) 进行更安全的上传。
 
@@ -227,7 +235,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 
 1. （视情况而定）如果您选择 **[!UICONTROL Analytics 分类]**，请从下拉列表中选择报表包。
 
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;箭头以显示[!UICONTROL 计划]选项。
+1. 单击&#x200B;**[!UICONTROL 下一步]**箭头以显示[!UICONTROL 计划]选项。
 
    ![步骤结果](assets/CreateFeedSchedule.png)
 
@@ -242,7 +250,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 
    此选项基于浏览器中使用的时区。如果您想要使用不同时区的时间，则必须根据您所在的时区计算该时间。
 
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;箭头以显示[!UICONTROL 映射]选项，然后指定您希望如何将数据映射到 [!DNL Target] 定义。
+1. 单击&#x200B;**[!UICONTROL 下一步]**箭头以显示[!UICONTROL 映射]选项，然后指定您希望如何将数据映射到[!DNL Target]定义。
 
    ![步骤结果](assets/CreatFeedMapping.png)
 
@@ -271,11 +279,11 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 | 正在同步 | 正在将信息源设置详细信息保存到 Target。 |
 | 同步失败 | 无法将信息源设置详细信息保存到 Target。请重试。 |
 | 未运行信息源 | 您已创建一个信息源，但尚未设置运行计划（频率设置为“从不”）。 |
-| 已计划在 &lt;日期和时间&gt;** 运行 | 信息源尚未运行，但已计划在指定的日期和时间运行。 |
+| 已计划在 &lt;日期和时间>** 运行 | 信息源尚未运行，但已计划在指定的日期和时间运行。 |
 | 正在等待下载 | Target 正准备下载信息源文件。 |
 | 正在下载信息源文件 | Target 正在下载信息源文件。 |
 | 正在导入项目 | Target 正在从信息源文件中导入项目。 |
-| 已在&#x200B;*指定时间*&#x200B;成功导入信息源 | Target 已将信息源文件导入其内容交付系统。已在内容交付系统中对项目属性进行了更改，并且此更改将很快地反映在交付的推荐中。如果没有看到预期的更改，请稍后重试并刷新包含推荐的页面。<br>*注意 1：*&#x200B;如果对项目属性所做的更改导致项目被排除在推荐之外，则会立即反映该排除项。如果项目是新添加的，或者对属性的更改导致该项目&#x200B;*不再*&#x200B;被排除在推荐之外，则在下一次算法更新之前不会反映此项目，此过程将在 24 小时内发生。<br>*注意 2：*&#x200B;显示此状态时，更新可能尚未反映在“目录搜索”用户界面中。“目录搜索”中会列出一个单独的状态，指示上次更新可搜索目录的时间。 |
+| 已在&#x200B;*指定时间*&#x200B;成功导入信息源 | Target 已将信息源文件导入其内容交付系统。已在内容交付系统中对项目属性进行了更改，并且此更改将很快地反映在交付的推荐中。如果没有看到预期的更改，请稍后重试并刷新包含推荐的页面。<br>*注意 1：*如果对项目属性所做的更改导致项目被排除在推荐之外，则会立即反映该排除项。如果项目是新添加的，或者对属性的更改导致该项目*&#x200B;不再&#x200B;*被排除在推荐之外，则在下一次算法更新之前不会反映此项目，此过程将在 24 小时内发生。<br>*注意 2：*&#x200B;显示此状态时，更新可能尚未反映在“目录搜索”用户界面中。“目录搜索”中会列出一个单独的状态，指示上次更新可搜索目录的时间。 |
 | 未能编入索引 | 索引操作失败。请重试。 |
 | 未找到服务器 | FTP 或 URL 位置无效或无法访问。 |
 
@@ -322,7 +330,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 * 了解信息源的用途
 * 了解信息源的值
 
->[!VIDEO](https://video.tv.adobe.com/v/27695?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### 创建信息源 (6:44)
 
@@ -331,4 +339,4 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 * 设置信息源
 * 了解要使用哪种类型的信息源
 
->[!VIDEO](https://video.tv.adobe.com/v/27696?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

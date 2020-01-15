@@ -1,12 +1,12 @@
 ---
-keywords: 概述和参考;SEO;搜索引擎优化
+keywords: Overview and Reference;SEO;search engine optimization
 description: Adobe Target 可通过两个 JavaScript 库（at.js 或 mbox.js）中的任意一个与网站集成
 title: Adobe Target 的工作原理
-subtopic: 入门指南
+subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
@@ -97,7 +97,7 @@ Adobe Target 可通过两个 JavaScript 库（at.js 或 mbox.js）中的任意�
 
 The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-Adobe Target 解决方案托管在全球范围内 Adobe 自有和 Adobe 租用的数据中心上。管理服务器完全托管在位于伦敦、新加坡和美国多个地方（包括俄勒冈和弗吉尼亚）的 Adobe 自有数据中心内。边缘服务器托管在位于伦敦、中国香港特别行政区、新加坡、东京和悉尼的 Amazon AWS 数据中心中的 Adobe 自有服务器和 Adobe 租用服务器上。
+Adobe Target 解决方案托管在全球范围内 Adobe 自有和 Adobe 租用的数据中心上。管理服务器完全托管在位于伦敦、新加坡和美国多个地方（包括俄勒冈和弗吉尼亚）的 Adobe 自有数据中心内。Edge server托管在位于伦敦、中国香港特别行政区、新加坡、东京和悉尼的Amazon AWS数据中心的Adobe自有和Adobe租赁的服务器上。
 
 管理服务器位置同时包含一个数据收集中心和一个数据处理中心。而其他边缘站点位置则仅包含一个数据收集中心。每个报表包均分配给一个特定的数据处理中心。
 
@@ -105,7 +105,7 @@ Adobe Target 解决方案托管在全球范围内 Adobe 自有和 Adobe 租用�
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 目前在中国没有边缘网络，因此，对于中国的 [!DNL Target] 客户，其最终用户性能将继续受限。由于中国国内长城防火墙的保护和缺少边缘节点，部署了 [!DNL Target] 的站点的体验呈现过程将会缓慢，并且页面加载会受到影响。此外，营销人员在使用 [!DNL Target] 创作 UI 时也可能会遇到延迟问题。
+>[!DNL Adobe Target] 目前在中国没有边缘网络，因此，对于中国的 [!DNL Target] 客户，其最终用户性能将继续受限。Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -139,7 +139,7 @@ Google 鼓励用户进行测试，并在其文档中指出只要遵循一些简�
 
    作为一个平台，Target 已被配置为采用相同的方式对待搜索引擎机器人和任何用户。这意味着如果随机选择的话，搜索引擎机器人也可能会包含在您运行的测试中，而且会“看到”测试变体。
 
-* **使用 rel="canonical"** - 有时，设置 A/B 测试时需要对各个变体使用不同的 URL。在这些情况下，所有变体都应当包含一个引用了原始（控制）URL 的 `rel="canonical"` 标记。例如，如果 Adobe 在测试其主页时对每个变体分别使用不同的 URL，则每个变体的 `<head>` 标记中将包含以下主页 canonical 标记：
+* **使用 rel=&quot;canonical&quot;** - 有时，设置 A/B 测试时需要对各个变体使用不同的 URL。在这些情况下，所有变体都应当包含一个引用了原始（控制）URL 的 `rel="canonical"` 标记。例如，如果 Adobe 在测试其主页时对每个变体分别使用不同的 URL，则每个变体的 `<head>` 标记中将包含以下主页 canonical 标记：
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 

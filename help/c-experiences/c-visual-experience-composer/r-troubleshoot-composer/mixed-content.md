@@ -1,20 +1,16 @@
 ---
-keywords: 混合内容;安全;不安全;Chrome;故障诊断;VEC;可视化体验编辑器
+keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure
 description: 如果安全内容与不安全内容混合在一起，某些浏览器可能会阻止页面显示。
 title: 在浏览器中启用混合内容
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
 
-# 在浏览器中启用混合内容{#enabling-mixed-content-in-your-browser}
-
-如果安全内容与不安全内容混合在一起，某些浏览器可能会阻止页面显示。
-
-## 在浏览器中启用混合内容 {#concept_46D022D50280468C9EF6D5DF6EFC911C}
+# Enabling mixed content in your browser{#enabling-mixed-content-in-your-browser}
 
 如果安全内容与不安全内容混合在一起，某些浏览器可能会阻止页面显示。
 
@@ -34,7 +30,37 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 有关更多信息，请参阅“Mozilla 开发人员网络”**(MDN) 网站上的[混合内容](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content)。
 
-## 在 Firefox 中启用混合内容 {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Enabling mixed content in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+
+如果您通过安全连接访问网站，Google Chrome 会验证网页上的内容是否已安全传输。
+
+<!-- 
+
+target/t_mixed_content_chrome.xml
+
+ -->
+
+请参阅 Google Chrome 帮助中的[此页面包含不安全的内容](https://support.google.com/chrome/answer/1342714?hl=en)。
+
+### 培训视频：在Chrome中启用VEC（2020年1月）
+
+如果您将VEC与最新版Chrome（版本79.0.3945.117或更高版本）结合使用，则需要更新站点设置。 您网站的访客无需完成这些步骤。
+
+>[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo&feature=youtu.be)
+
+以上视频概述了所需的步骤：
+
+1. 单击锁定或警告图标，然后单击站点设置。
+
+   ![站点设置](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
+
+1. 滚动到Insecure内容，然后使用下拉列表将块（默认）更改为允许。
+
+   ![不安全的内容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
+
+1. 重新加载VEC页面。
+
+## Enabling mixed content in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 默认情况下，Firefox 会阻止包含混合（安全和不安全）内容的页面。建议您永久更改此设置以便使用 [!DNL Target]。
 
@@ -51,7 +77,7 @@ target/t_mixed_content_firefox.xml
 
    其值随即会从“True”更改为“False”。当值显示为“False”时，即表示操作已完成。建议您在更改此设置后重新启动计算机。
 
-## 在 Internet Explorer 中启用混合内容 {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
+## Enabling mixed content in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
 默认情况下，Internet Explorer 会阻止包含混合（安全和不安全）内容的页面。建议您永久更改此设置以便使用 Target Standard。
 
@@ -63,21 +89,10 @@ target/t_mixed_content_ie.xml
 
 1. 在 Internet Explorer 中，单击“设置”图标，然后单击 **[!UICONTROL Internet 选项]**。
 1. 打开“[!UICONTROL 安全]”选项卡。
-1. 选择 **[!UICONTROL Internet]**，然后单击&#x200B;**[!UICONTROL 自定义级别]**。
+1. 选择 **[!UICONTROL Internet]**，然后单击**[!UICONTROL &#x200B;自定义级别]**。
 1. 选择&#x200B;**[!UICONTROL 其他]**。
 1. 在[!UICONTROL 其他]下方，启用&#x200B;**[!UICONTROL 显示混合内容]**。
-1. 单击&#x200B;**[!UICONTROL 确定]** &gt; **[!UICONTROL 是]** &gt; **[!UICONTROL 应用]**。
+1. 单击&#x200B;**[!UICONTROL 确定]**>**[!UICONTROL &#x200B;是]** > **[!UICONTROL 应用]**。
 
 建议您在更改此设置后重新启动计算机。
 
-## 在 Chrome 中启用混合内容 {#task_FF297A08F66E47A588C14FD67C037B3A}
-
-如果您通过安全连接访问网站，Google Chrome 会验证网页上的内容是否已安全传输。
-
-<!-- 
-
-target/t_mixed_content_chrome.xml
-
- -->
-
-请参阅 Google Chrome 帮助中的[此页面包含不安全的内容](https://support.google.com/chrome/answer/1342714?hl=en)。

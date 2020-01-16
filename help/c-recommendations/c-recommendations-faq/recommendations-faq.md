@@ -1,10 +1,10 @@
 ---
-keywords: 故障诊断;常见问题解答;FAQ;推荐;特殊字符;属性权重;内容相似度
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
 description: 关于Adobe Target Recommendations活动的常见问题解答(FAQ)列表。
 title: Adobe Target Recommendations常见问题解答
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 如果特殊字符破坏了数组，我应该怎么做？{#section_D27214116EE443638A60887C7D1C534E}
 
-在 JavaScript 中使用转义值。引号 (") 可能会破坏数组。以下代码片段是一个转义值示例：
+在 JavaScript 中使用转义值。引号 (&quot;) 可能会破坏数组。以下代码片段是一个转义值示例：
 
 ```
 #set($String='') 
@@ -62,7 +62,7 @@ Target 提供了一个[筛选不兼容的标准](../../c-recommendations/plan-im
 >
 >此设置仅适用于在可视化体验编辑器 (VEC) 中创建的活动。此设置不适用于在基于表单的体验编辑器中创建的活动（Target 没有位置上下文）。
 
-要访问“[!UICONTROL 筛选不兼容的标准]”设置，请单击“[!UICONTROL 推荐]”&gt;“[!UICONTROL 设置]”：
+要访问“[!UICONTROL 筛选不兼容的标准]”设置，请单击“[!UICONTROL 推荐]”>“[!UICONTROL 设置]”：
 
 ![](assets/recs_settings_filter.png)
 
@@ -168,3 +168,23 @@ Target 在应用程序级别施加了 50 MB 的发布限制；但是，仅当您
 To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. 在提取了内容 URL 之后，所需参数将使用当前的 mbox 请求参数替代。
 
 默认情况下，新创建的推荐将启用此功能。现有推荐必须进行保存才能支持动态排除的实体。
+
+## 在Recommendations内容跟踪中有时返回的NO_CONTENT响应意味着什么？
+
+当请求的算法和密钥组合的推荐不可用时，将返回NO_CONTENT。 通常情况下，当算法禁用备份且以下一项或多项也满足要求时，会发生这种情况：
+
+* 结果尚未准备好。
+
+   通常，在首次保存新创建的活动或对活动中使用的集合、条件或促销进行配置更改后，会发生这种情况。
+
+* 对于所请求的算法／密钥组合，结果已准备好，但尚未在最近的边缘服务器上缓存。
+
+   刚刚发出的请求将启动缓存操作，因此在重新加载几页和／或经过几分钟后，这应会解析自身。
+
+* 结果已准备好，但对于提供的键值不可用。
+
+   通常，当为在最近算法运行之后添加到目录的项目请求推荐时会发生这种情况，并在下一个算法运行后将解析自身。
+
+* 部分模板渲染被禁用，并且没有足够的结果可用于填充模板。
+
+   通常，当您有一个动态包含规则时，该规则会从可能的结果中积极筛选许多项目。 要避免这种情况，请启用备份，但不要将包含规则应用于备份，或者按顺序使用筛选条件较少的条件。

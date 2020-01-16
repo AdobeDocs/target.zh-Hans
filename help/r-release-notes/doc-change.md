@@ -20,6 +20,7 @@ source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
 | --- | --- | --- |
 | 2020年1月15日 | [在浏览器中启用混合内容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 添加了培训视频和说明，以说明如何更新站点设置以允许在最新版Chrome中使用混合内容。 |
 |  | [信息源](/help/c-recommendations/c-products/feeds.md) | 添加了有关上传和删除实体和实体属性的注释。 |
+|  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：在Recommendations内容跟踪中有时返回的NO_CONTENT响应意味着什么？ |
 |  | [创建订单确认 mbox - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | 添加了说明如何使用at.js 2执行订单确认的注释。*x* 目前不支持选择加入支持。 |
 | 2020 年 1 月 9 日 | [TLS（传输层安全性）加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新了文本。<br>在2020年3月1日之后，Adobe Target将不再支持针对Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、活动交付和API等的TLS 1.1加密。 请在2020年3月1日之前升级到TLS 1.2以避免任何问题。 |
 | 2020年1月6日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关“自定义条件”源状态的已知问题。 |
@@ -423,7 +424,7 @@ source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
 |  | [不通过标签管理器实施 Target](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | 更新了所有章节。添加了新章节：at.js 实施。 |
 |  | 版本 18.10.1 [发行说明](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
-## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 26 日）  {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
+## Adobe Target Standard/Premium 18.9.1（2018 年 9 月 26 日）{#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
 <table id="table_0348AA29207D48A4BDFFA187F4F845B7"> 
  <thead> 
@@ -597,7 +598,7 @@ source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
  </tbody> 
 </table>
 
-## Adobe Target Standard/Premium 18.8.1（2018 年 8 月 21 日）  {#section_6A146EE91FFB49D1BA398B36817CD0A2}
+## Adobe Target Standard/Premium 18.8.1（2018 年 8 月 21 日）{#section_6A146EE91FFB49D1BA398B36817CD0A2}
 
 <table id="table_F09AC99B587A4D6390B1F8AE54F5DC47"> 
  <thead> 

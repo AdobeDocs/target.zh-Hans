@@ -1,11 +1,11 @@
 ---
-keywords: 自动流量分配;定位;递增计数并保持用户处于活动中;流量分配
+keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
 title: 自动分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: b398c14f3e9b60af58ec0812462e25f495c0baec
 
 ---
 
@@ -80,7 +80,7 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 | ![第 2 轮](/help/c-activities/automated-traffic-allocation/assets/aa-phase-2.png) | **第 2 轮**：在本轮中，80% 的流量会分配给体验 A 和 D（各 40%）。20% 的流量会随机分配，也就意味着 A、B、C 和 D 各获得 5% 的流量。在本轮中，体验 B 展现良好性能。<ul><li>算法挑选出体验 D 进入下一轮，因为它具有最高的转化率（在每个活动的垂直比例尺上由  表示）。</li><li>算法还挑选出体验 B 进入下一轮，因为在其余三个体验中，它具有最高的 Bernstein 95% 置信区间上限。</li></ul>体验 D 和 B 进入下一轮。 |
 | ![第 3 轮](/help/c-activities/automated-traffic-allocation/assets/aa-phase-3.png) | **第 3 轮**：在本轮中，80% 的流量会分配给体验 B 和 D（各 40%）。20% 的流量会随机分配，也就意味着 A、B、C 和 D 各获得 5% 的流量。在本轮中，体验 D 继续展现良好性能，体验 C 的性能也不错。<ul><li>算法挑选出体验 D 进入下一轮，因为它具有最高的转化率（在每个活动的垂直比例尺上由  表示）。</li><li>算法还挑选出体验 C 进入下一轮，因为在其余三个体验中，它具有最高的 Bernstein 95% 置信区间上限。</li></ul>体验 D 和 C 进入下一轮。 |
 | ![第 4 轮](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png) | **第 4 轮**：在本轮中，80% 的流量会分配给体验 C 和 D（各 40%）。20% 的流量会随机分配，也就意味着 A、B、C 和 D 各获得 5% 的流量。在本轮中，体验 C 展现良好性能。<ul><li>算法挑选出体验 C 进入下一轮，因为它具有最高的转化率（在每个活动的垂直比例尺上由  表示）。</li><li>算法还挑选出体验 D 进入下一轮，因为在其余三个体验中，它具有最高的 Bernstein 95% 置信区间上限。</li></ul>体验 C 和 D 进入下一轮。 |
-| ![第 n 轮](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **第 n** 轮：随着活动继续运行，高性能体验开始显现，并且此过程会一直持续到确定入选体验为止。如果具有最高转化率的体验的置信区间与任何其他体验的置信区间不重叠，则会将其标记为入选者，并会在](/help/c-activities/automated-traffic-allocation/determine-winner.md)活动页面和活动列表中显示一枚徽章[。<ul><li>算法挑选出体验 C 作为明确的入选者</li></ul>此时，算法会将 80% 的流量分配给体验 C，而将 20% 的流量继续随机分配给所有体验（A、B、C 和 D）。体验 C 总共获得 85% 的流量。如果入选者的置信区间再次开始重叠（这种情况不太可能出现），算法会重新执行上述第 4 轮的行为。<br>**重要信息**：如果您在该过程中提早手动选择入选者，则将容易选择错误的体验。因此，最好的做法是一直等到算法确定入选体验为止。 |
+| ![第 n 轮](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **第 n** 轮：随着活动继续运行，高性能体验开始显现，并且此过程会一直持续到确定入选体验为止。如果具有最高转化率的体验的置信区间与任何其他体验的置信区间不重叠，则会将其标记为入选者，并会在](/help/c-activities/automated-traffic-allocation/determine-winner.md)活动页面和活动列表中显示一枚徽章[。<ul><li>算法挑选出体验 C 作为明确的入选者</li></ul>此时，算法会将 80% 的流量分配给体验 C，而将 20% 的流量继续随机分配给所有体验（A、B、C 和 D）。体验 C 总共获得 85% 的流量。如果入选者的置信区间再次开始重叠（这种情况不太可能出现），算法会重新执行上述第 4 轮的行为。<br>**重要信息&#x200B;**：如果您在该过程中提早手动选择入选者，则将容易选择错误的体验。因此，最好的做法是一直等到算法确定入选体验为止。 |
 
 如果活动中只有两个体验，则两个体验会获得同等的流量，直到 Target 找出具有 90% 置信度的体验为止。此时，70% 的流量会分配给入选者，30% 的流量会分配给落选者。在体验达到 95% 的置信度之后，100% 的流量会分配给入选者，而落选者则不会分配到流量。
 
@@ -168,7 +168,9 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 
 **使用自动分配时，我能否使用样本量计算器来估算活动确定入选者将花费的时长？**
 
-您可以使用适当应用了 Bonferroni 校正法的现有[样本量计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)来估算测试运行的时长。对“自动分配”活动使用计算器是可选的，因为“自动分配”将为您声明一个入选方。 该计算器粗略估计了所需的样本大小。 在我们的实验中，我们发现自动分配活动结束的时间早于使用此样本量计算器估算的时间。
+You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. （与传统的A/B测试一样，如果测试的产品数量超过2个或超过1个转换指标／假设，则应用Bonferroni校正。）请注意，此计算器设计用于传统的固定水平A/B测试，并且仅提供估计值。 使用“自动分配”活动的计算器是可选的，因为“自动分配”将为您声明一个入选方——您无需及时选取一个固定点来查看测试结果——提供的值在统计上始终有效。 在我们的实验中，我们发现了以下内容：
+* 在仅测试2个体验时，自动分配比固定水平测试（即样本大小计算器建议的时间范围）更快地查找入选方，当体验之间的性能差异较大时，自动分配可能需要额外的时间来识别入选方。 在这些情况下，固定水平测试通常在没有统计显着结果的情况下结束。
+* 在测试超过2个体验时，自动分配比固定水平测试（即示例大小计算器建议的时间范围）更快地查找优胜者，因为单个体验的性能严重超出所有其他体验。 当2个或2个以上的体验与其他体验“领先”，但彼此之间又紧密匹配时，“自动分配”可能需要额外的时间来确定哪个体验更出色。 在这些情况下，固定水平测试通常会以“成功”体验比表现不佳的体验好为结束，但并没有确定哪种体验更出色。
 
 **我是否应该从自动分配活动中删除性能不佳的体验，以加快确定入选者的过程？**
 
@@ -189,7 +191,7 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 * 选择流量分配方法
 * 在不同的体验之间分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### 创建 A/B 测试 (8:36)
 
@@ -198,4 +200,4 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 * 在 Adobe Target 中创建 A/B 活动
 * 使用手动拆分或自动流量分配来分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

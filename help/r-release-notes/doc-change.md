@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
+source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2020 年 1 月 22 日 | [Auto-Allocate（自动分配）](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 更新了以下常见问题解答：“使用“自动分配”时，我是否可以使用样本大小计算器来估计活动识别入选方需要多长时间？” |
 | 2020年1月15日 | [在浏览器中启用混合内容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 添加了培训视频和说明，以说明如何更新站点设置以允许在最新版Chrome中使用混合内容。 |
 |  | [信息源](/help/c-recommendations/c-products/feeds.md) | 添加了有关上传和删除实体和实体属性的注释。 |
 |  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：在Recommendations内容跟踪中有时返回的NO_CONTENT响应意味着什么？ |

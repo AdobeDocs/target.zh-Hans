@@ -5,7 +5,7 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
+source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 下列发行说明将介绍 [!DNL Adobe Target] 最新版本或即将发布的版本的功能、增强功能、修复信息和已知问题。
 
-**上次更新日期：2020 年 1 月 8 日**
+**上次更新日期：2020 年 1 月 22 日**
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 >
 >括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## Target Standard/Premium 20.1.1（2020 年 1 月 22 日） 
+## Target Standard/Premium 20.1.1（2020 年 1 月 29 日） 
 
-Target Standard/Premium 20.1.1版本将于2020年1月22日发布。 其功能和增强功能将在此处发布。
+Target Standard/Premium 20.1.1版本将于2020年1月29日发布。 其功能和增强功能将在此处发布。
 
 >[!IMPORTANT]
 >

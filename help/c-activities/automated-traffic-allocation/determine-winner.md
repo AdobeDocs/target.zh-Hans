@@ -5,7 +5,7 @@ title: 确定入选者
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9937bf3f9f2675f43de535d8a09c493769b060be
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -48,6 +48,10 @@ source-git-commit: 9937bf3f9f2675f43de535d8a09c493769b060be
 
 ![](assets/winner_found.png)
 
+>[!IMPORTANT]
+>
+>Target在预定义的最低转化率后显示入选方；但是，挑选入选者的最终决定应始终取决于Adobe Target样本大小计 [算器的结果](https://docs.adobe.com/content/target-microsite/testcalculator.html)。 Target不考虑站点的基本转化率以及输入计算器以确定活动持续时间的其他重要方面。 因此，Target可能会根据最低转化率提前显示优胜者。 有关详细信息，请参阅 [示例大小计算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
+
 ## 了解“自动分配”活动中的提升度和置信度报告 {#lift-confidence}
 
 在“自动分配”活动中，第一个体验（默认情况下名为“体验A”）始终在“报告”选项卡上定义为“控制”体验。 在用于确定体验性能的建模中，此体验不被视为真正的统计控制，但是它被视为报表中某些数字的参考或基准。
@@ -72,6 +76,6 @@ source-git-commit: 9937bf3f9f2675f43de535d8a09c493769b060be
 
    自动分配显示的是某个特定体验是所有活动体验中的入选者的真实性概率。这意味着只有入选体验（最有可能入选的体验）的置信度值将为非零数值。所有其他体验很有可能落选，因此将显示 0% 的置信度值。
 
-* 仅当入选体验达到 60% 的置信度后，自动分配才会开始显示置信度。这些置信度级别通常出现在正常A/B测试完成所需时间的一半左右（尽管这并不保证）。 To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control's conversion-rate in "Baseline conversion rate," "5%" for "Lift," and 95% for "Confidence." 通常情况下，在每个体验达到其所需样本量的至少 50% 之后，置信度便会开始显示。这可使您了解置信度将从何时开始显示。
+* 仅当入选体验达到 60% 的置信度后，自动分配才会开始显示置信度。这些置信度级别通常出现在正常A/B测试完成所需时间的一半左右（尽管这并不保证）。 To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control&#39;s conversion-rate in &quot;Baseline conversion rate,&quot; &quot;5%&quot; for &quot;Lift,&quot; and 95% for &quot;Confidence.&quot; 通常情况下，在每个体验达到其所需样本量的至少 50% 之后，置信度便会开始显示。这可使您了解置信度将从何时开始显示。
 * 如果报表中所有置信度值均显示为 0%，则有可能是进入活动的时间过早。
 

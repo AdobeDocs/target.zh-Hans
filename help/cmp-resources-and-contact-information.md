@@ -1,11 +1,11 @@
 ---
-keywords: 联系方式;法律;技术支持;支持;服务;职能;账单;反馈
+keywords: contact;legal;technical support;tech support;support;service;capability;billing;feedback
 description: 此信息介绍了可帮助您了解 Target 功能以及在需要 Target 帮助时如何联系 Adobe 的其他资源。
 title: 资源和联系信息
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -117,7 +117,6 @@ Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提
 
 * [查看 Experience Cloud 帮助页面，以获取建议、提示和常见问题解答](https://helpx.adobe.com/marketing-cloud.html)
 * [在 Twitter @AdobeExpCare 上快速提问](https://twitter.com/adobeexpcare)
-* [在我们的客户门户中记录事件](https://customers.omniture.com/login.php)
 * [直接联系客户关怀团队](https://helpx.adobe.com/marketing-cloud/contact-support.html)
 * [查看 Experience Cloud 解决方案的可用性和状态](https://status.adobe.com/)
 

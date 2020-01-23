@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target 产品文档
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2020年1月22日(请参[阅更改的内容](r-release-notes/doc-change.md))**
+**上次更新时间：2020年1月23日(请参[阅更改的内容](r-release-notes/doc-change.md))**
 
 以下部分将向您介绍本指南中的有用链接，这些链接是按照目标受众并基于典型的工作职能来排列的：
 

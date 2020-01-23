@@ -1,10 +1,10 @@
 ---
-keywords: 实体;实体属性;将信息传递到推荐;行为数据;数据计数器;定义相对 URL;显示库存水平;定义价格;定义利润率;自定义属性
+keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: 可使用实体属性，将产品或内容信息传递到 Recommendations。
 title: 实体属性
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -103,7 +103,7 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 示例: `'entity.inventory=1'`
 
-**空库存属性处理：**&#x200B;对于交付，如果您具有包含规则、收集规则或标准设置，其中 `entity.inventory` &gt; 0 或 `entity.inventory` = 0，并且产品未设置库存，则 [!DNL Target] 会将此规则计算为 TRUE，并包括未设置库存的产品。这是默认完成的，以便未设置库存的产品会显示在推荐结果中。
+**空库存属性处理：**&#x200B;对于交付，如果您具有包含规则、收集规则或标准设置，其中 `entity.inventory` > 0 或 `entity.inventory` = 0，并且产品未设置库存，则 [!DNL Target] 会将此规则计算为 TRUE，并包括未设置库存的产品。这是默认完成的，以便未设置库存的产品会显示在推荐结果中。
 
 同样，如果您具有全局排除规则，其中 `entity.inventory` = 0，并且产品未设置 `entity.inventory`，则 [!DNL Target] 会将此规则计算为 TRUE 并排除产品。
 
@@ -179,7 +179,11 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 
 大多数预定义的参数仅接受单个值，且新值会覆盖旧值。`categoryId` 参数可以接受以逗号分隔的，表示包含该产品的每个类别的值列表。新的 `categoryId` 值在实体更新期间不会覆盖现有值，而是会进行附加（250 个字符限制）。
 
-一般情况下，显示信息 mbox 可能如下例所示。更改粗体部分的详细信息，以适应您自己的产品。
+通常，如果您使用at.js 1，则显示信息mbox可能与以下示例类似。*x* with `mboxCreate`.
+
+>[!NOTE]
+>
+>如果您使用at.js 2。*x*, `mboxCreate` （如以下示例中所示）不再受支持。 使用at.js 2将产品或内容信息传递到Recommendations。*x*，请使用以下API方法： [getOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)、 [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)、 [applyOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)，或 [](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)applyOffers。
 
 >[!NOTE]
 >

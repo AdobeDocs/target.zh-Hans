@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
 
 ---
 
@@ -19,6 +19,7 @@ source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2020年1月23日 | [解释自动分配报告](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 添加了注释以使用Adobe Target示例大小计算器确定入选方。 |
+|  | [实体属性](/help/c-recommendations/c-products/entity-attributes.md) | 添加了说明，以说明如果您使用at.js 2。*x*，不 `mboxCreate` 再支持。 使用at.js 2将产品或内容信息传递到Recommendations。*x*, use `targePageParams`. |
 | 2020 年 1 月 22 日 | [Auto-Allocate（自动分配）](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 更新了以下常见问题解答：“使用“自动分配”时，我是否可以使用样本大小计算器来估计活动识别入选方需要多长时间？” |
 | 2020年1月15日 | [在浏览器中启用混合内容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 添加了培训视频和说明，以说明如何更新站点设置以允许在最新版Chrome中使用混合内容。 |
 |  | [信息源](/help/c-recommendations/c-products/feeds.md) | 添加了有关上传和删除实体和实体属性的注释。 |

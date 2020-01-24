@@ -4,7 +4,7 @@ description: 可使用实体属性，将产品或内容信息传递到 Recommend
 title: 实体属性
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
+source-git-commit: 2ee61d04c9afcb79be980f70fe5ecedcd5eefa9f
 
 ---
 
@@ -183,7 +183,7 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 
 >[!NOTE]
 >
->如果您使用at.js 2。*x*, `mboxCreate` （如以下示例中所示）不再受支持。 使用at.js 2将产品或内容信息传递到Recommendations。*x*，使 [用targePageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。
+>如果您使用at.js 2。*x*, `mboxCreate` （如以下示例中所示）不再受支持。 使用at.js 2将产品或内容信息传递到Recommendations。*x*，使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。
 
 >[!NOTE]
 >

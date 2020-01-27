@@ -5,7 +5,7 @@ title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
@@ -113,6 +113,8 @@ source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
 * 其他参数（URL、引荐 URL 等）：每个 mbox 50 个其他参数类型。
 
 除非因 Web 浏览器限制而缩短请求，否则将应用这些限制。
+
+如果您使用批处理交付API，则每个批处理请求的限制为50 mbox。
 
 如果您在 Mobile Services SDK 中使用[批量交付 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)，则该 API 本身的限制为 50 个 mbox 参数、50 个配置文件参数和 50 个其他参数类型。无法使用批量交付 API 发送包含的参数超过这些数量的请求。如果请求包含的限制超过这些限制，则API将返回以下错误消息：
 

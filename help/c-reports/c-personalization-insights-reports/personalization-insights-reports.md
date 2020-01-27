@@ -1,10 +1,10 @@
 ---
-keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;自动化区段;常见问题解答;常见问题解答;重要属性
+keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: 自动个性化 (AP) 和自动定位 (AT) 活动的用户可以使用两个专门的报表：自动化区段和重要属性报表。
 title: 个性化分析报表
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
 
 ---
 
@@ -55,6 +55,12 @@ Target 为您提供了许多方法，用于将其他数据传递给 Target，以
 
 ## 培训视频：使用个性化分析报表
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 有关详细信息，请参 [阅使用Adobe target中的个性化洞察报告](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。
+
+## Adobe博客
+
+* 第1部分：从人 [工智能驱动的个性化魔力中揭开神秘面纱](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* 第2部分：Adobe [Target中个性化AI幕后](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* 第3部分： [麦盖— AI驱动个性化黑匣子问题的解决](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)

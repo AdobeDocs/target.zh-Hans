@@ -1,23 +1,33 @@
 ---
-keywords: 报表;自动定位;AT
+keywords: reports;auto-target;auto target;AT
 description: 有关如何解释自动定位摘要报表的信息。
 title: 自动定位摘要报表
-subtopic: 多变量测试
+subtopic: Multivariate Test
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3faba3d3158bed69ae5d756fb70c97d17110c1d8
 
 ---
 
 
 # 自动定位摘要报表{#auto-target-summary-report}
 
-有关如何解释自动定位摘要报表的信息。
+有关如何解释“自动定位摘要”报告的信息。
 
-下图显示了使用自动定位时典型的摘要报表的外观：
+要显示“自动定位汇总”报表，请执行以下操作：
 
-![](assets/autotarget.png)
+1. 在“活 [!UICONTROL 动] ”页面中，单击所需的“自动定位”活动。
+
+   如果您有许多活动，则可以通过从类型、状态、属性、报表源、体验书写器、度量类型和活动源下拉列表中选择选项来筛选列表。
+
+1. 单击[!UICONTROL 报表]选项卡。
+
+## 表格视图
+
+下图显示了使用Auto-Target时“表视图”中典型摘要报告的外观：
+
+![自动定位表视图报告](/help/c-reports/assets/at-table-view.png)
 
 在解读您的自动定位报表时，请注意以下提示和注意事项：
 
@@ -34,4 +44,30 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 * 在自动定位中，比较体验 A 与体验 B 的转化率并不是正确的做法。问题在于，与随机提供体验 A 的方式相比（换言之，与控制体验相比），以智能方式提供体验 A 时，体验 A 的性能是否更好。此外，营销人员还应谨慎解读个人体验的提升，因为个性化算法会尝试优化整个活动的成功量度，而不是针对每一个个人体验进行优化。
 * 可以这样理解：具有最高提升度的体验在人群中具有最大的差异。也就是说，算法已找到一个最喜欢该特定体验的区段。
+* 表中的各列显示访问次数、转化率、平均提升度和置信度以及置信度。 有关更多信息，请参阅[平均提升度、提升度范围和置信区间](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)。
 
+## 图形视图
+
+下图显示了使用Auto-Target时“图形视图”中典型摘要报告的外观：
+
+![自动定位图形视图报告](/help/c-reports/assets/at-graph-view.png)
+
+如下所示，您可以使用两个下拉列表来选择所需的指标、计数方法等。 有关更 [多信息，请参阅报告设置](/help/c-reports/c-report-settings/report-settings.md) 概述：
+
+![自动定位图形视图报告](/help/c-reports/assets/at-graph-view-2.png)
+
+## 自动化区段
+
+单击“自动细分”图标。 此报告显示不同访客对AP/AT活动中的选件／体验的响应方式。 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。
+
+![自动细分图标](/help/c-reports/assets/icon-automated-sements.png)
+
+有关详细信息，请参阅自 [动化区段报告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
+
+## 重要属性
+
+单击“重要属性”图标。 此报告显示在不同活动中，不同属性对模型决定如何个性化的重要程度更高（或更少）。 此报表可显示影响模型的排名靠前的属性及其相对重要性。
+
+![重要属性图标](/help/c-reports/assets/icon-important-attributes.png)
+
+有关详细信息，请参阅重 [要属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。

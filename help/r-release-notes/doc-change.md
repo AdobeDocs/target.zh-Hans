@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
@@ -18,8 +18,10 @@ source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2020年1月27日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 添加了以下信息：“如果您使用Batch Delivery API，则每个批请求的限制为50 mbox。” |
+|  | [资源和联系信息](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | 更新了用于打开支持票证的链接。 |
 | 2020年1月23日 | [解释自动分配报告](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 添加了注释以使用Adobe Target示例大小计算器确定入选方。 |
-|  | [实体属性](/help/c-recommendations/c-products/entity-attributes.md) | 添加了说明，以说明如果您使用at.js 2。*x*，不 `mboxCreate` 再支持。 使用at.js 2将产品或内容信息传递到Recommendations。*x*, use `targePageParams`. |
+|  | [实体属性](/help/c-recommendations/c-products/entity-attributes.md) | 添加了说明，以说明如果您使用at.js 2。*x*，不 `mboxCreate` 再支持。 使用at.js 2将产品或内容信息传递到Recommendations。*x*, use `targetPageParams`. |
 | 2020 年 1 月 22 日 | [Auto-Allocate（自动分配）](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 更新了以下常见问题解答：“使用“自动分配”时，我是否可以使用样本大小计算器来估计活动识别入选方需要多长时间？” |
 | 2020年1月15日 | [在浏览器中启用混合内容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 添加了培训视频和说明，以说明如何更新站点设置以允许在最新版Chrome中使用混合内容。 |
 |  | [信息源](/help/c-recommendations/c-products/feeds.md) | 添加了有关上传和删除实体和实体属性的注释。 |

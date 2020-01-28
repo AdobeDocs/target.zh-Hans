@@ -5,7 +5,7 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
 
 
 
-**上次更新日期：2020 年 1 月 27 日**
+**上次更新日期：2020 年 1 月 28 日**
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
    有关可能的影响以及更新实施时可能需要采取的步骤的详细信息，请参阅 [TLS（传输层安全）加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)。
 
 
-## Target Standard/Premium 20.1.1（2020 年 1 月 29 日） 
+## Target Standard/Premium 20.1.1（2020 年 2 月 4 日） 
 
 Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改进。 此外，还包含以下修复：
 

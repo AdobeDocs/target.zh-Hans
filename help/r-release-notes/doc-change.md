@@ -5,19 +5,20 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: 98716582ced4b3f3c0d1cb56e186bd24b7cd4cb6
 
 ---
 
 
 # 文档更改{#documentation-changes}
 
-此页面列出了对 [!DNL Adobe Target] 文档所做的重要更改。
+This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
 ## Adobe Target/Standard/Premium 19.10.1（2019年10月22日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2020年1月28日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更改了Target Standard/Premium 20.1.1版本的发布日期。 发布日期为2020年2月4日。 |
 | 2020年1月27日 | [个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 添加了新部分：“Adobe博客。” |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 添加了以下信息：“如果您使用Batch Delivery API，则每个批请求的限制为50 mbox。” |
 |  | [资源和联系信息](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | 更新了用于打开支持票证的链接。 |

@@ -4,7 +4,7 @@ description: 自动个性化活动的用户可以使用专门的报表。
 title: 自动个性化摘要报表
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
+source-git-commit: ea6d526c07a32c84d85d9cd62f2cda804e81d418
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 [!UICONTROL 活动级别]的报表可将使用[!UICONTROL 自动个性化]算法的整体性能与使用随机提供内容（控制）的整体性能进行比较。
 
-![](assets/box_plot_ap.jpg)
+![活动级别报告](/help/c-reports/assets/box_plot_ap.png)
 
 用于解释 A/B 测试结果的标准规则仍然适用，包括提升度、置信度、趋势、持续时间等。有关结果解释的更多信息，请参阅[关于转化率](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)。
 

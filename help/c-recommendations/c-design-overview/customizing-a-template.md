@@ -1,10 +1,10 @@
 ---
-keywords: 自定义设计;Velocity;小数;逗号;自定义设计
+keywords: custom design;velocity;decimal;comma;customize design
 description: 可使用开源 Velocity 设计语言来自定义推荐设计。
 title: 使用 Velocity 自定义设计
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68faea47b0beef33f6c46672ba1f098c49b97440
 
 ---
 
@@ -71,87 +71,117 @@ $entities[0].categoriesList[2]
 
 ```
 <table style="border:1px solid #CCCCCC;"> 
- 
 <tr> 
- 
 <td colspan="3" style="font-size: 130%; border-bottom:1px solid  
 #CCCCCC;"> You May Also Like... </td> 
- 
 </tr> 
- 
 <tr> 
- 
 <td style="border-right:1px solid #CCCCCC;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity1.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity1.id</a></div> 
- 
 By $entity1.message <a href="?x14=brand;q14=$entity1.message"> 
 (More)</a><br/> 
- 
 sku: $entity1.prodId<br/> Price: $$entity1.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="border-right:1px solid #CCCCCC; padding-left:10px;"> 
- 
-<div class="search_content_inner" style="border-bottom:0px;"> 
- 
+<div class="search_content_inner" style="border-bottom:0px;">  
 <div class="search_title"><a href="$entity2.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity2.id</a></div> 
- 
 By $entity2.message <a href="?x14=brand;q14=$entity2.message"> 
 (More)</a><br/> 
- 
 sku: $entity2.prodId<br/> 
- 
 Price: $$entity2.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="padding-left:10px;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity3.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity3.id</a></div> 
- 
 By $entity3.message <a href="?x14=brand;q14=$entity3.message"> 
 (More)</a><br/> 
- 
 sku: $entity3.prodId<br/> Price: $$entity3.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
-</tr> 
- 
+</tr>  
 </table>
 ```
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
->如果您想在变量值之后添加信息，可通过正规表示法实现。例如：`${entity1.thumbnailUrl}.gif`。
+>如果要在指示变量名称已完成的标记之前在变量的值之后添加文本，则可以使用形式记号将变量名括起来。 例如：`${entity1.thumbnailUrl}.gif`。
 
 您还可以在设计中将 `algorithm.name` 和 `algorithm.dayCount` 用作变量，以便使用一个设计来测试多个标准，并在该设计中动态显示标准名称。这样可指示访客查看了“最畅销商品”或属于“查看了这个项目，但购买了那个项目的人”。您甚至还可以使用这些变量来显示 `dayCount`（标准中使用的数据所对应的天数，例如“过去 2 天的最畅销商品”，等等）。
 
-## 情景：同时显示关键项目和推荐产品 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## 在Velocity模板中使用数字
+
+默认情况下，Velocity模板将所有实体属性视为字符串值。 您可能希望将实体属性视为数值，以执行数学运算或将其与其他数值进行比较。 要将实体属性视为数字值，请执行以下步骤：
+1. 声明一个虚拟变量并将其初始化为任意整数或双值
+2. 确保要使用的实体属性不为空（Target Recommendations的模板分析器需要验证和保存模板）
+3. 将entity属性传递给您在步骤1 `parseInt` 中 `parseDouble` 创建的虚拟变量上的实体属性或方法，将字符串转换为整数或双值
+4. 对新数值执行数学运算或比较
+
+**示例：计算折扣价**
+
+假设您希望将某个项目的显示价格降低0.99美元以应用折扣。 您可以使用以下方法来实现此结果：
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('priceBeforeDiscount') != '' )
+    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    Item price: $$discountedPrice
+#else
+    Item price unavailable
+#end
+```
+
+**示例：根据项目的等级选择要显示的星数**
+
+假定您希望根据项目的数值平均客户评级显示适当的星号。 您可以使用以下方法来实现此结果：
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('rating') != '' )
+    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #if( $rating >= 4.5 )
+        <img src="5_stars.jpg">
+    #elseif( $rating >= 3.5 )
+        <img src="4_stars.jpg">
+    #elseif( $rating >= 2.5 )
+        <img src="3_stars.jpg">
+    #elseif( $rating >= 1.5 )
+        <img src="2_stars.jpg">
+    #else
+        <img src="1_star.jpg">
+    #end
+#else
+    <img src="no_rating_default.jpg">
+#end
+```
+
+**示例：根据项目的长度（以分钟为单位），以小时和分钟为单位计算时间**
+
+假定您以分钟为单位存储电影的长度，但希望以小时和分钟为单位显示电影的长度。 您可以使用以下方法来实现此结果：
+
+```
+#if( $entity1.get('length_minutes') )
+#set( $Integer = 1 )
+#set( $nbr = $Integer.parseInt($entity1.get('length_minutes')) )
+#set( $hrs = $nbr / 60)
+#set( $mins = $nbr % 60)
+#end
+```
+
+## 显示包含推荐产品的关键项目 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 您可以对设计进行修改，以便同时显示关键项目和其他推荐产品。例如，您可能想要在推荐产品旁边显示当前项目，以供访客参考。
 
@@ -174,9 +204,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 创建 [!DNL Recommendations] 活动时，如果关键项目是从访客的配置文件中获取的（例如“上次购买的项目”），则 [!DNL Target] 会在[!UICONTROL 可视化体验编辑器] (VEC) 中显示一个随机产品。这是因为在您设计活动时配置文件不可用。访客查看页面时，他们将看到预期的关键项目。
 
-## 情景：在销售价格中使用逗号分隔符替换小数点 {#section_01F8C993C79F42978ED00E39956FA8CA}
+## 在字符串值中执行替换 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-您可以修改设计，以使用欧洲和其他国家/地区使用的逗号分隔符替换美国使用的小数点分隔符。
+您可以修改设计以替换字符串中的值。 例如，将美国使用的小数点分隔符替换为欧洲和其他国家／地区使用的逗号分隔符。
 
 以下代码显示了条件销售定价示例中的一行内容：
 
@@ -200,7 +230,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                     </span>
 ```
 
-## 情景：使用空检查逻辑创建一个 4x2 的默认推荐设计 {#default}
+## 自定义模板大小并检查空值 {#default}
 
 下面的模板使用 Velocity 脚本控制实体显示的动态大小，从而可容纳一对多结果，这样当 [!DNL Recommendations] 未返回足够的匹配实体时，便无需创建空的 HTML 元素。此脚本非常适用于备份推荐没有意义且已启用“[!UICONTROL 部分模板渲染]”的情景。
 

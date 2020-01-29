@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 98716582ced4b3f3c0d1cb56e186bd24b7cd4cb6
+source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2020 年 1 月 29 日 | [使用 Velocity 自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 更新了文本和代码示例。 新的代码范例显示了如何在Velocity模板中使用数字。 |
 | 2020年1月28日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更改了Target Standard/Premium 20.1.1版本的发布日期。 发布日期为2020年2月4日。 |
 | 2020年1月27日 | [个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 添加了新部分：“Adobe博客。” |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 添加了以下信息：“如果您使用Batch Delivery API，则每个批请求的限制为50 mbox。” |

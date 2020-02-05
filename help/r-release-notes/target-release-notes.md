@@ -5,7 +5,7 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
+source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
 
 下列发行说明将介绍 [!DNL Adobe Target] 最新版本或即将发布的版本的功能、增强功能、修复信息和已知问题。
 
-
-
-**上次更新日期：2020 年 1 月 28 日**
+**上次更新时间：2020 年 2 月 4 日**
 
 >[!NOTE]
 >
@@ -32,12 +30,9 @@ source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
    有关可能的影响以及更新实施时可能需要采取的步骤的详细信息，请参阅 [TLS（传输层安全）加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)。
 
 
-## Target Standard/Premium 20.1.1（2020 年 2 月 4 日） 
+## Target Standard/Premium 20.2.1（2020 年 2 月 19 日） 
 
-Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改进。 此外，还包含以下修复：
-
-* 修复了导致Adobe Analytics跟踪服务器字段在现有Adobe for Target(A4T)活动的“目标和设置”页面上为空的问题。 (TGT-35960)
-* 修复了用户界面中的一个问题，该问题导致在创建类别亲和度的受众时，第二个下拉列表中的选择无法显示。 (TGT-36098)
+Target Standard/Premium 20.2.1版本计划于2020年2月19日发布。 有关特定功能、增强和修复的信息将在未来几天发布到此处。
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

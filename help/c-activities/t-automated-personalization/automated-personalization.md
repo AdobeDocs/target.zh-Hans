@@ -1,11 +1,11 @@
 ---
-keywords: 自动个性化;受众;组合;随机林
+keywords: automated personalization;Audiences;ensemble;random forest
 description: 自动个性化 (AP) 可将各种选件或消息进行组合，并且使用先进的机器学习技术，根据每位访客的个人客户配置文件将不同的选件变体与其匹配，以便个性化内容并促进提升。
 title: 自动个性化
-topic: 高级
+topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -72,7 +72,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 有关[!UICONTROL 自动个性化]和[!UICONTROL 自动定位]个性化算法自动收集和使用的数据的信息，请参阅[自动个性化数据收集](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)。
 
-## 培训视频：活动类型
+## ![“概述”徽章](/help/assets/overview.png) “培训”视频：活动类型
 
 以下视频介绍了 [!DNL Target Standard/Premium] 中可用的活动类型。[!UICONTROL 对自动个性化的讨论开始于 5:55。]
 
@@ -80,4 +80,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

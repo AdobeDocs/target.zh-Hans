@@ -1,11 +1,11 @@
 ---
-keywords: experience;json;aem;adobe experience Manager；导出到adobe目标；体验片段；片段；XF
+keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
 description: 有关在Adobe Target活动中使用Adobe Experience Manager(AEM)中创建的体验片段来帮助优化或个性化的信息。
 title: Adobe Target中的Adobe Experience Manager(AEM)体验片段
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -59,8 +59,8 @@ In order to use AEM experience fragments in [!DNL Target], you must perform the 
 
 ### 步骤 3：配置 AEM 以与 Target 共享体验片段
 
-1. From within AEM, select the desired experience fragment or its containing folder, then click **[!UICONTROL Properties]**.
-2. Click the **[!UICONTROL Cloud Services]** tab, then from the **[!UICONTROL Cloud Service Configuration]** drop-down list, select **[!UICONTROL Adobe Target]**.
+1. 在 AEM 中，选择所需的体验片段或其包含文件夹，然后单击&#x200B;**[!UICONTROL 属性]**。
+2. 单击&#x200B;**[!UICONTROL 云服务]**&#x200B;选项卡，然后从&#x200B;**[!UICONTROL 云服务配置]**&#x200B;下拉列表中选择 **[!UICONTROL Adobe Target]**。
 
    >[!NOTE]
    >
@@ -141,6 +141,10 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. 请注意，体验片段的“母”版仍保留在 AEM 中。You cannot edit the experience fragment in [!DNL Target].
 * 您可以将JSON选件作为体验片段导入 [!DNL Target]。 但是，这些选件将作为HTML选件导入。 JSON选件（体验片段）当前在 [!DNL Target] UI中不完全受支持。
 
-## 培训视频：在 Adobe Target 中使用 AEM 体验片段{#section_C0EDC54063464F41A182492D2045BC64}
+## ![教程徽章](/help/assets/overview.png) “培训”视频：将AEM Experience Fragments与Adobe Target结合使用 {#section_C0EDC54063464F41A182492D2045BC64}
 
-以下视频演示了如何设置和使用体验片段：[在 Adobe Target 中使用 AEM 体验片段](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-feature-video-use.html)。
+以下视频向您展示了如何设置和使用体验片段：
+
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
+
+有关详细信息，请参 [阅AEM Sites视频和教程页面上的将Experience Fragments与Adobe Target](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html)*结合使用* 。

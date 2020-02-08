@@ -1,11 +1,11 @@
 ---
-keywords: Target Standard;Recommendations;Target Premium；自动个性化；自动定位；自动定位；权限；adobe目标；
+keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;what is adobe target;
 description: Adobe Target 是一种 Adobe Experience Cloud 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 title: Adobe Target 简介
-topic: 高级
+topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -37,6 +37,10 @@ Adobe Target 是一种 Adobe Experience Cloud 解决方案，可为您提供定�
 ## Target Premium {#premium}
 
 [!DNL Target Premium] 是一个高级 [!DNL Target] 许可，为 [!DNL Target Standard] 添加了多项高级功能。
+
+此帮助中的Target Premium主题包括页面顶部的Premium徽章：
+
+![Premium 徽章](/help/assets/premium.png)
 
 Target Premium 包含以下高级功能：
 
@@ -97,7 +101,7 @@ Target Premium 包含以下高级功能：
 
 [Adobe Target欢迎工具包](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## 培训视频：活动类型 (9:03)
+## ![“概述”徽章](/help/assets/overview.png) “培训”视频：活动类型(9:03)
 
 以下视频介绍了 [!DNL Target Standard/Premium] 中提供的活动类型，以及 Target 的三步引导式工作流如何帮助您实现网站目标。
 
@@ -105,4 +109,4 @@ Target Premium 包含以下高级功能：
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

@@ -1,11 +1,11 @@
 ---
-keywords: 诊断 Target 故障;Target 故障诊断
+keywords: troubleshoot target;troubleshooting target
 description: 本文列出了一些主题，可帮助您解决 Adobe Target 中出现的问题，这些主题包括故障诊断主题、常见问题解答 (FAQ) 以及其他有用的主题。
 title: Adobe Target疑难解答
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
 
 ---
 
@@ -124,7 +124,6 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 移动应用程序
 
-* [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
 * [针对移动应用程序的Target常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## 报表

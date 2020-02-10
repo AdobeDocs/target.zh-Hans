@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
+source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
 
 ---
 
@@ -118,7 +118,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [针对移动应用程序的Target常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新主题。 |
 | 2019 年 9 月 4 日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主题。 |
 | 2019 年 8 月 23 日 | [Target 移动设备预览](/help/c-target-mobile-app/target-mobile-preview.md) | 更新了 `AndroidManifest.xml` 中的代码片断。 |
-| 2019 年 8 月 22 日 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 删除了有关在移动应用程序 ID 中使用禁用字符的信息。不再有任何限制。 |
 |  | [自定义参数](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 添加了新章节：“注意事项”。 |
 |  | [上传自定义标准](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 更新了以下句子：自定义标准更新默认为“累积”。CSV 上传文件中指定的新键值对会覆盖现有的键值对。没有在 CSV 上传中指定键的现有键值对仍可用于交付，并且将 31 天内到期，从上次将其作为 CSV 文件的一部分上传的时间开始计算。 |
 | 2019 年 8 月 20 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 推迟了 Target/Premium 19.8.1 版本（2019 年 8 月 20 日）的发布。此版本中的内容将被纳入到 19.9.1 版本（2019 年 9 月 24 日）中。 |
@@ -135,16 +134,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 2019 年 8 月 14 日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了文本并添加了培训视频链接。 |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 阐明了有关 `consumerID` 键值的信息。 |
 |  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | 更新了“布局 > 移动”章节中的信息。 |
-| 2019 年 8 月 12 日 | [Android - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 更新了有关依赖项和工件的信息。<br>更新了 `AndroidManifest.XML` 文件的代码示例。 |
-|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 更新了“Target Mobile VEC SDK iOS 2.1.0 和 Android 1.1.1”章节中的增强功能和修复列表。 |
-|  | [编辑活动或另存为草稿](/help/c-activities/edit-activity.md#classic) | 添加了新章节：“使用在 Recommendations Classic 中创建的旧版活动”。 |
+| 2019 年 8 月 12 日 | [编辑活动或另存为草稿](/help/c-activities/edit-activity.md#classic) | 添加了新章节：“使用在 Recommendations Classic 中创建的旧版活动”。 |
 | 2019 年 8 月 9 日 | [at.js 的工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | 添加了新章节：“at.js 如何渲染带有 HTML 内容的选件”。 |
 |  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | 添加了新章节：“注意事项”。 |
 | 2019 年 8 月 7 日 | [预取选件内容](/help/c-target-mobile-app/prefetch-offer-content.md) | 添加了以下注释：自动定位、自动分配和自动个性化活动类型不支持 iOS 和 Android Mobile SDK 中的预取功能。 |
 |  | [Analytics 与 Target 集成 (A4T) 故障诊断](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | 更新了说明完成分类过程所用时间的注释。 |
 |  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 更新了说明完成分类过程所用时间的注释。 |
 |  | [隐私和数据保护法规](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 更新了主题，以包含有关《加州消费者隐私法案》(CCPA) 的信息。 |
-| 2019 年 8 月 6 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了 Target Mobile VEC SDK iOS 2.1.0 和 Android 1.1.0 版本的发行说明。 |
 |  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | 更新了有关在 [!DNL Analysis Workspace] 中使用[!UICONTROL 活动展示次数]和[!UICONTROL 活动转化]量度的注意事项。 |
 | 2019 年 8 月 1 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 API 对企业权限支持情况的重要公告。 |
 |  | [授予 Adobe I/O 集成访问工作区的权限并分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 新主题。 |
@@ -152,15 +148,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 在“最近查看的项目”部分添加了注释。 |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 添加了活动 QA 预览链接存在的已知问题。 |
 | 2019 年 7 月 29 日 | [报表常见问题解答](/help/c-reports/reporting-frequently-asked-questions.md) | 添加了新的常见问题解答：“为何我的[!UICONTROL 体验定位] (XT) 报表包含控制体验的量度？” |
-| 2019 年 7 月 24 日 | [从 at.js 1.*x* 升级到 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 添加了新章节：[at.js 2.x 中的跨域跟踪支持](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
-|  | [Apple 智能防跟踪 (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 新主题。 |
+| 2019 年 7 月 24 日 | [从 at.js 1.*x* 升级到 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 添加了新章节：[at.js 2.x 中的跨域跟踪支持](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+|  | [Apple 智能防跟踪 (ITP) 2.*x *](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 新主题。 |
 |  | [“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md#status) | 添加了新章节：“查看推荐选件的状态”。 |
 |  | [信息源](/help/c-recommendations/c-products/feeds.md) | 更新了“正在导入项目”行，并在[信息源状态](/help/c-recommendations/c-products/feeds.md#status)下添加了“已在&#x200B;*指定时间*&#x200B;成功导入信息源”行。 |
 |  | [目录搜索](/help/c-recommendations/c-products/catalog-search.md) | 更新了有关如何刷新目录的文本。 |
-|  | [在移动设备应用程序 中设置点击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 添加了有关“修改”面板的信息，该面板可显示您为点击跟踪设置的各个元素。 |
 |  | [Adobe Target 的工作原理](/help/c-intro/how-target-works.md#bots) | 添加了新章节：“机器人”。 |
 |  | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md#best) | 添加了避免正则表达式执行缓慢的最佳实践。 |
-|  | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | 更新了“疑难解答”章节，以表明字符限制不再适用于应用程序名称。该限制仅适用于 ID。 |
 |  | [信息源](/help/c-recommendations/c-products/feeds.md#steps) | 在步骤中添加了受支持的 FTP 服务器设置。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.1.1 的信息。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：19.7.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
@@ -183,7 +177,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [自动个性化常见问题解答](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 添加了以下新的常见问题解答：“我可以指定特定体验作为控制吗？”<br>编辑了以下常见问题解答：“设置自动个性化活动的最佳实践是什么？” |
 |  | [自动定位](/help/c-activities/auto-target-to-optimize.md) | 添加了有关指定特定体验作为控制的信息和常见问题解答。<br>更新了“确定流量分配”一节。 |
 |  | [创建自动个性化活动](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 添加了有关选择特定体验作为默认体验的步骤及相关信息。 |
-|  | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 添加了有关如何管理多个移动设备应用程序版本的信息。 |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关以下问题的信息：在某些情况下，无法呈现自动定位活动的报表。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：19.6.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
@@ -200,11 +193,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [从 at.js 1.x 升级到 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 删除了说明“at.js 2.x 不完全支持 Experience Cloud 调试器”这一限制。 |
 | 2019 年 6 月 7 日 | [使用 Velocity 自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 添加了新章节：“情景：使用空检查逻辑创建一个 4x2 的默认推荐设计”。 |
 |  | [Adobe Target Standard 和 Premium 的培训视频](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 更新了指向新的 Adobe Target 教程网站的链接。 |
-|  | [iOS - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | 更新了文本和代码段。 |
 | 2019 年 6 月 6 日 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 更新了对 `options > page` 参数的描述。 |
 |  | [管理员首要步骤](/help/administrating-target/start-target.md) | 更新了整篇文章。 |
 |  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了 Target 19.6.1 版本的初步发行说明。 |
-| 2019 年 6 月 5 日 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 添加了新的[疑难解答](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)章节。 |
 |  | [从 at.js 1.x 升级到 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 更新了有关使用 Adobe Launch 部署 at.js（这是首选的部署方法）的信息。 |
 |  | [Target 关键概念](/help/c-intro/target-key-concepts.md) | 对文本进行了细微编辑。 |
 | 2019 年 6 月 3 日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关即将发行的 at.js 2.1.0 的信息。 |
@@ -242,10 +233,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md) | 更新了简介中的文本。 |
 |  | [企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md) | 更新了简介中的文本。 |
 |  | [术语表](/help/c-intro/glossary.md) | 添加和更新了一些条目。 |
-| 2019 年 5 月 22 日 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | 添加了培训视频。 |
-|  | [iOS - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | 添加了指向新教程的链接：<ul><li>在 iOS Objective-C 移动设备应用程序中实施 Experience Cloud</li><li>在 iOS Swift 移动设备应用程序中实施 Experience Cloud</li></ul> |
-|  | [Android - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | 添加了指向新教程的链接：<ul><li>在 Android 移动设备应用程序中实施 Experience Cloud</li></ul> |
-|  | [Target 简介](/help/c-intro/intro.md#kit) | 添加了指向 Adobe Target 欢迎工具包的链接。 |
+| 2019 年 5 月 22 日 | [Target 简介](/help/c-intro/intro.md#kit) | 添加了指向 Adobe Target 欢迎工具包的链接。 |
 | 2019 年 5 月 21 日 | [单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>更新了有关“移动”选项的信息。</li><li>添加了以下注释：您可以在页面载入 VEC 之前执行多项操作，或者即使页面无法完全加载也是如此。 </li></ul> |
 |  | [用户](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 更新了文本和图像，并添加了培训视频。 |
 |  | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 更新了文本和图像。 |
@@ -259,7 +247,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2019 年 5 月 15 日 | [单页应用程序实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#triggerview) | 添加了必须触发 `at-view-start` 和 `at-view-end` 事件的注释。 |
-| 2019 年 5 月 14 日 | [移动设备应用程序可视化体验编辑器](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)、<br>[Android - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)、<br>[iOS - 设置移动设备应用程序](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)和<br>[在移动设备 VEC 中设置点击跟踪](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 新主题。 |
 |  | [将动态数据传递给选件](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | 更新了文本。 |
 | 2019 年 5 月 13 日 | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 向有关在多页面活动中使用 QA 模式的“注意事项”列表添加了项目。 |
 |  | [在相似页面上包含相同体验](/help/c-experiences/c-visual-experience-composer/temtest.md) | 更新了步骤以匹配 UI。 |

@@ -1,10 +1,10 @@
 ---
-keywords: 定位;体验;添加体验;体验添加
+keywords: Targeting;experience;add experience;experience add
 description: Adobe Target 中的可视化体验编辑器 (VEC) 提供了一个可视化界面，用于编辑您页面上的体验。
 title: 添加体验
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -80,21 +80,21 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您可以复制 A/B 测试中的体验，以便可以对其进行细微更改，而无需重头开始重新创建体验。
 
-在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 &gt; **[!UICONTROL 复制]**。
+在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 > **[!UICONTROL 复制]**。
 
 ![复制体验选项](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## 删除体验
 
-在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 &gt; **[!UICONTROL 复制]**。
+在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 > **[!UICONTROL 复制]**。
 
 ![删除体验选项](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## 培训视频：使用可视化体验编辑器
+## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
 
 以下视频提供了有关使用可视化体验编辑器选项的信息。(7:17)
 
 * 更改页面的内容
 * 更改页面的布局
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

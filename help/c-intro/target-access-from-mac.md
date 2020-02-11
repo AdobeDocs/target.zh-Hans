@@ -1,12 +1,12 @@
 ---
-keywords: Experience Cloud;登录
+keywords: Experience Cloud;sign in
 description: 有关从 Adobe Experience Cloud 访问 Adobe Target 的说明。
 title: 从 Adobe Experience Cloud 访问 Target
-subtopic: 入门指南
+subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![Target 图标](/help/c-intro/assets/appmenu-target-new.png)
 
-1. 在 [!DNL Target] 卡片上单击&#x200B;**[!UICONTROL 启动]**。
+1. 在 **[!UICONTROL 卡片上单击]**&#x200B;启动[!DNL Target]。
 
    ![Target 启动](/help/c-intro/assets/target-launch-new.png)
 
@@ -91,7 +91,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 繁体中文
 * 韩语
 
-## 培训视频：Experience Cloud 中的 Adobe Target (4:59)
+## Training video: Adobe Target in the Experience Cloud (4:59) ![Overview badge](/help/assets/overview.png)
 
 以下视频包含有关 [!DNL Experience Cloud] 中的 [!DNL Adobe Target] 的信息。
 

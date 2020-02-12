@@ -4,7 +4,7 @@ description: A/B 测试可比较两个或更多版本的网站内容，以查看
 title: A/B 测试
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -27,7 +27,7 @@ A/B 测试适合有重大更改的版本，例如全新的页面布局或完全�
 
 如果不同体验的数量超过 5 个，且这些体验位于两个或更多位置，则最好在运行 A/B 测试之前先运行 [MVT 测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md)。多变量测试可显示页面中的哪些区域最有可能提高转化。这些是营销人员应该关注的位置。例如，多变量测试可能会显示促使用户采取行动的位置对达成目标最为重要。确定哪些位置和内容最有助于达成目标后，您可以运行 A/B 测试以进一步细化结果，例如对两个特定图像进行对比测试，或者比较可促使用户采取行动的措词或颜色。通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
 
-## ![“概述”徽章](/help/assets/overview.png) “培训”视频：活动类型(9:03)
+## 培训视频：活动类型 (9:03) ![概述徽章](/help/assets/overview.png)
 
 以下视频介绍了 [!DNL Target Standard/Premium] 中可用的活动类型。
 

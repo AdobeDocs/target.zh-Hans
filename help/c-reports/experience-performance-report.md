@@ -1,10 +1,10 @@
 ---
-keywords: 多变量测试;MVT;体验性能报表
+keywords: multivariate test;mvt;experience performance report
 description: 体验性能报表显示活动中每个体验的执行情况。此报表包含有关参加者人数、转化率、提升度和置信度的信息。
 title: 体验性能报表 (MVT)
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 “体验性能”报表显示了活动中每个体验的表现。此报表包含有关参加者数量、转化率、提升度和置信度的信息。
 
-您可以选择一个或多个体验来进行比较。单击某个体验，然后选择&#x200B;**[!UICONTROL 预览]，以在浏览器选项卡中打开该体验。**
+您可以选择一个或多个体验来进行比较。单击某个体验，然后选择&#x200B;**[!UICONTROL 预览]**，以在浏览器选项卡中打开该体验。
 
 ![](assets/experienceperformancetable.png)
 
@@ -33,8 +33,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 在图形下方有一个表格，其中显示了查看各个体验的参加者人数，以及与您的成功量度有关的其他信息。
 
-## 培训视频：创建 MVT 测试
+## 培训视频：创建 MVT 测试 教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频演示了如何使用 Target 三步引导式工作流创建多变量测试。对体验性能报表的介绍开始于 8:20。
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

@@ -1,11 +1,11 @@
 ---
-keywords: 工作区;管理属性;权限;产品配置;产品配置文件;角色;项目
+keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: 有关创建属性以及使用属性和权限功能的信息；利用该功能，Target 管理员可以在 Target 中创建单独的工作区（产品配置文件），然后根据这些工作区针对各个页面、属性或网站为用户分配不同的角色和权限。
 title: 企业用户权限
-subtopic: 入门指南
+subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -24,13 +24,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您可以通过单击 UI 顶部的“[!UICONTROL 设置]”链接来判断贵组织是拥有 Standard 许可证还是拥有 Premium 许可证。[!DNL Target]
 
-* **[!DNL Target Standard]客户**：如果您看到[!UICONTROL 用户]选项卡（[!UICONTROL 设置 &gt; 用户]），则表明贵组织拥有 [!DNL Target Standard] 许可证。[!DNL Target Standard] 客户应按照[用户](/help/administrating-target/c-user-management/c-user-management/user-management.md)中的相关说明进行操作，以在 Adobe Admin Console 中添加用户和分配权限。
+* **[!DNL Target Standard]客户&#x200B;**：如果您看到[!UICONTROL 用户]选项卡（[!UICONTROL 设置 > 用户]），则表明贵组织拥有[!DNL Target Standard]许可证。[!DNL Target Standard]客户应按照[用户](/help/administrating-target/c-user-management/c-user-management/user-management.md)中的相关说明进行操作，以在 Adobe Admin Console 中添加用户和分配权限。
 
    [!DNL Target Standard]单击“属性”选项卡时， 用户会看到以下错误消息，但 [!DNL Target] 并没有任何问题。[!DNL Target Standard] 用户无权访问 [!DNL Target Premium][!UICONTROL  企业权限]功能。
 
    ![错误消息](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 
-* **[!DNL Target Premium]客户**：如果您看到了[!UICONTROL 属性]选项卡（[!UICONTROL 设置 &gt; 属性]），则表明贵组织拥有 [!DNL Target Premium] 许可证。[!DNL Target Premium] 客户应按照本文章和[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的相关说明进行操作。
+* **[!DNL Target Premium]客户&#x200B;**：如果您看到了[!UICONTROL 属性]选项卡（[!UICONTROL 设置 > 属性]），则表明贵组织拥有[!DNL Target Premium]许可证。[!DNL Target Premium]客户应按照本文章和[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的相关说明进行操作。
 
 ## 开始使用企业权限之前
 
@@ -194,7 +194,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 * **受众创建：**&#x200B;创建新受众时，该受众会创建在当前选定的工作区中。
 * **选件创建：**&#x200B;创建新选件时，该选件会创建在当前选定的工作区中。
-* **属性页面（“设置”&gt;“属性”）：**&#x200B;您可以使用“[!UICONTROL 搜索]”框、“[!UICONTROL 渠道]”和“[!UICONTROL 产品配置文件]”选项筛选“[!UICONTROL 属性]”列表。
+* **属性页面（“设置”>“属性”）：**&#x200B;您可以使用“[!UICONTROL 搜索]”框、“[!UICONTROL 渠道]”和“[!UICONTROL 产品配置文件]”选项筛选“[!UICONTROL 属性]”列表。
 
    ![](assets/properties_list.png)
 
@@ -270,7 +270,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 如果重定向页面和活动 URL 属于同一属性，则点击跟踪可按预期工作。有关更多信息，请参阅[点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md)。
 
-## 培训视频：企业权限培训视频{#section_2FA080303A064242B63FF16CFA6DB31D}
+## 培训视频：企业权限培训视频概 {#section_2FA080303A064242B63FF16CFA6DB31D} 述 ![徽章](/help/assets/overview.png)
 
 学习目标：
 
@@ -278,4 +278,4 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 * 属性和工作区的概念，以及这些边界和分组如何工作以允许控制用户的访问权限级别
 * 贵组织需要考虑的不同属性示例
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)

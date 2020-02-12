@@ -1,11 +1,11 @@
 ---
-keywords: 受众;选择受众;选取受众;选择器
+keywords: audience;select audience;choose audience;Selectors
 description: 受众可确定哪些网站访客进入到您的活动。
 title: 选择受众
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 在 Adobe Target 中使用受众 (6:21)
+### 在 Adobe Target 中使用受众 (6:21) ![概述徽章](/help/assets/overview.png)
 
 以下视频介绍了如何在 [!DNL Target Standard/Premium] 中使用受众。
 
@@ -56,9 +56,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 将活动定位到受众
 * 在活动中使用受众进行被动报告
 
->[!VIDEO](https://video.tv.adobe.com/v/17398?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### 活动工作流 - 定位 (2:14)
+### 活动工作流——定位(2:14)教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关设置受众的信息。
 
@@ -67,6 +67,6 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 选择流量分配方法
 * 在不同的体验之间分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 有关详细信息，请参阅[受众](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。

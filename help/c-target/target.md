@@ -1,10 +1,10 @@
 ---
-keywords: 定位;受众;百分比定位
+keywords: Targeting;audiences;percentage target
 description: 可在 Adobe Target 中通过使用受众将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。
 title: Adobe Target 中的受众
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 如果访客可以被认定为目标受众的成员，则 [!DNL Target] 会根据创建活动时设立的标准确定要向访客显示的体验。
 
-## 培训视频：活动定位 (2:13)
+## 培训视频：活动定位 (2:13)教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关设置定位和受众的信息。
 
@@ -34,4 +34,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 选择流量分配方法
 * 在不同的体验之间分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)

@@ -1,11 +1,11 @@
 ---
-keywords: 活动设置;A/B 目标和设置;报表设置;目标量度;成功量度;依赖的成功量度;高级设置;主要目标;其他量度;目的;优先级;持续时间;报表解决方案;目标;报表的受众;递增此量度之前必须实现哪些成功量度;用户遇到此目标量度后会出现什么情况;注释
+keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: 您可以在“目标和设置”页面上输入有关测试目标的信息。
 title: 目标和设置
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -65,7 +65,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 活动设置 (3:02)
+### 活动设置(3:02)教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关活动设置的信息。
 
@@ -77,11 +77,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 (https://video.tv.adobe.com/v/17381?captions=chi_hans)
 
-### 创建 A/B 测试 (8:36)
+### 创建A/B测试(8:36)教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频演示了创建活动时三步引导式工作流中有哪些可用的活动设置。对目标和设置的讨论开始于 5:30。
 
 * 在 Adobe Target 中创建 A/B 活动
 * 使用手动拆分或自动流量分配来分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

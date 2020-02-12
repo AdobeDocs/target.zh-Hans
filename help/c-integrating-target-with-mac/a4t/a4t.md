@@ -1,12 +1,12 @@
 ---
-keywords: A4T;Analytics;Analytics for Target;Analytics 报表源;Adobe Analytics 作为 Target 报表源
+keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
 description: Adobe“Analytics for Target”(A4T) 是一种跨解决方案的集成，通过该集成，您可以基于 Analytics 转化量度和受众区段来创建活动。该集成使您能够使用 Analytics 报表来检查结果。如果您使用 Analytics 作为活动的报表源，则该活动的所有报表和分段都将基于 Analytics 数据收集。
 title: 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)
-subtopic: 集成
+subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -78,7 +78,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 
 ## A4T 报表的示例 {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-要在 [!DNL Target]**中查看 A4T 报表，请单击[!UICONTROL 活动]**，在列表中单击使用 [!DNL Analytics] 作为报表源的所需活动，然后单击&#x200B;**[!UICONTROL 报表]选项卡。**
+要在 [!DNL Target]**[!UICONTROL 中查看 A4T 报表，请单击活动]**，在列表中单击使用 [!DNL Analytics] 作为报表源的所需活动，然后单击&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡。
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 
 ![](assets/a4t_report_table.png)
 
-要在 [!DNL Analytics] 而不是 [!DNL Target] 中查看报表，请单击报表顶部的&#x200B;**在 Analytics 中查看**。
+要在 [!DNL Analytics] 而不是 [!DNL Target] 中查看报表，请单击报表顶部的&#x200B;****&#x200B;在 Analytics 中查看。
 
 ## Analytics 与 Target：分析最佳实践教程 {#section_3438E6E77A464424B717A4FD333B84B2}
 
@@ -108,7 +108,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### Analytics for Target (A4T) (4:32)
+### Analytics for Target(A4T)(4:32)概 ![述徽章](/help/assets/overview.png)
 
 以下视频介绍了如何在 Adobe Target 中使用 Adobe Analytics 作为报表源来促进对优化计划的分析。
 
@@ -116,9 +116,9 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 * 介绍 A4T 的工作原理
 * 了解使用 A4T 之前需要满足的先决条件
 
->[!VIDEO](https://video.tv.adobe.com/v/17384?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics 与 Target 集成 (A4T) (40:33)
+### Analytics / Target集成(A4T)(40:33) !![Tutorial badge](/help/assets/tutorial.png
 
 此视频是“[办公时间](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 

@@ -5,7 +5,7 @@ title: Adobe Target 中的配置文件属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 当访客浏览您的网站或者返回网站进行另一个会话时，可使用保存的配置文件属性定位内容或记录信息以便筛选客户群。
 
-要设置配置文件属性，请单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 配置文件脚本]**。
+要设置配置文件属性，请单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 配置文件脚本]**。
 
 ![“配置文件脚本”选项卡](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -24,7 +24,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 | 参数类型 | 描述 |
 |--- |--- |
-| mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意：Target 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 Target，则可以使用配置文件更新 API 方法进行传递。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+| mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****注意：Target 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 Target，则可以使用配置文件更新 API 方法进行传递。For more information, see[Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
 | 脚本 | 直接使用 JavaScript 代码段定义。这些参数能够保存运行的总数，如消费者花费的总金额，并能基于每个 mbox 请求来执行。请参阅下面的“配置文件脚本属性”。 |
 
 ## 配置文件脚本属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -65,8 +65,8 @@ if (mbox.name == 'Track_Interest') {
 }
 ```
 
-* 在代码中使用 `user.get('parameterName')` ') 引用配置文件脚本属性（包括其自身）。
-* 保存下次使用 `user.setLocal('variable_name', 'value')` ') 运行脚本时（对下一个 mbox 请求）可能访问的变量。使用 `user.getLocal('variable_name')` 引用变量。当您想引用上次请求的日期和时间时，此脚本非常有用。
+* 在代码中使用 `user.get('parameterName')` &#39;) 引用配置文件脚本属性（包括其自身）。
+* 保存下次使用 `user.setLocal('variable_name', 'value')` &#39;) 运行脚本时（对下一个 mbox 请求）可能访问的变量。使用 `user.getLocal('variable_name')` 引用变量。当您想引用上次请求的日期和时间时，此脚本非常有用。
 * 参数和值区分大小写。请匹配您在活动或测试期间接收到的参数和值的大小写。
 * 有关更多的 JavaScript 语法，请参阅下文中的“脚本配置文件参数的 JavaScript 引用”部分。
 
@@ -74,7 +74,7 @@ if (mbox.name == 'Track_Interest') {
 
 您可以查看配置文件脚本信息弹出卡片，该卡片类似于选件信息卡片。通过这些配置文件脚本信息卡片，您可以查看引用了所选配置文件脚本的活动列表，以及其他有用的元数据。
 
-例如，通过将鼠标悬停在“配置文件脚本列表”（“受众”&gt;“配置文件脚本”）中的配置文件脚本上，然后单击“信息”图标，可以访问以下配置文件脚本信息卡片。
+例如，通过将鼠标悬停在“配置文件脚本列表”（“受众”>“配置文件脚本”）中的配置文件脚本上，然后单击“信息”图标，可以访问以下配置文件脚本信息卡片。
 
 “[!UICONTROL 脚本信息]”选项卡包含以下信息：“名称”、“状态”、“令牌类型”、“脚本 ID”、“更改日志”和“描述”。
 
@@ -82,7 +82,7 @@ if (mbox.name == 'Track_Interest') {
 
 “[!UICONTROL 脚本使用情况]”选项卡列出了引用所选配置文件脚本的活动（及其工作空间）。
 
-![配置文件脚本信息卡 &gt;“脚本使用情况”选项卡](assets/profile_script_info_card_usage_tab.png)
+![配置文件脚本信息卡 >“脚本使用情况”选项卡](assets/profile_script_info_card_usage_tab.png)
 
 >[!N注意]
 >
@@ -232,7 +232,7 @@ if (!user.get('threegroups')) {
 
 * **使用 mboxTrace 调试工具来调试配置文件脚本。**
 
-   此方法需要授权令牌，您可以通过单击 **[!UICONTROL Target]** &gt; **[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]** &gt; **[!UICONTROL 生成授权令牌]**&#x200B;来生成该令牌。
+   此方法需要授权令牌，您可以通过单击 **[!UICONTROL Target]** > **[!UICONTROL 设置]** > **[!UICONTROL 实施]** > **[!UICONTROL 生成授权令牌]**&#x200B;来生成该令牌。
 
    然后，将以下两个参数添加到页面 URL 中的“?”之后：`mboxTrace=window&authorization=YOURTOKEN`。
 
@@ -344,7 +344,7 @@ else if (mbox.param("adobeQA"))
 | `||` | 从逻辑上讲，对于“OR”左侧和右侧的表达式，仅当一侧为 true 时才为 true（否则为 false）。 |
 | `//` | 检查源是否包含目标布尔值所包含的所有元素（源数组，目标数组）。<br>`//` 从目标（对应于 regexp）中提取子字符串并将其解码为 `Array/*String*/ decode(String encoding, String regexp, String target)`。<br>该功能还支持使用常量字符串值、分组 (`condition1 || condition2) && condition3` 和正则表达式 (`/[^a-z]$/.test(landing.referring.url)`)。 |
 
-## 培训视频：配置文件脚本
+## 培训视频：配置文件脚本 ![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用和创建配置文件脚本的信息。
 
@@ -354,4 +354,4 @@ else if (mbox.param("adobeQA"))
 * 使用“可用令牌”菜单访问可用选项
 * 启用和禁用配置文件脚本
 
->[!VIDEO](https://video.tv.adobe.com/v/17394?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17394)

@@ -4,7 +4,7 @@ description: 可在 Adobe Target 中创建排除列表以阻止推荐某些项�
 title: Adobe Target 中的排除项
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 **创建排除项：**
 
-1. 单击&#x200B;**[!UICONTROL 推荐]**>**[!UICONTROL &#x200B;排除项]**以显示现有排除项列表。
+1. 单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 排除项]**&#x200B;以显示现有排除项列表。
 
    ![](assets/exclusions_list.png)
 
@@ -27,7 +27,7 @@ source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 1. 单击&#x200B;**[!UICONTROL 创建排除项]**。
 
-1. （视情况而定）在创建（或更新）排除项时从&#x200B;**[!UICONTROL 环境]**筛选器中选择一个环境，以预览该环境中排除项的内容。默认情况下，会显示默认主机组的结果。
+1. （视情况而定）在创建（或更新）排除项时从&#x200B;**[!UICONTROL 环境]**&#x200B;筛选器中选择一个环境，以预览该环境中排除项的内容。默认情况下，会显示默认主机组的结果。
 
    ![创建排除项](/help/c-recommendations/c-products/assets/CreateExclusion.png)
 
@@ -51,7 +51,7 @@ source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 >
 >“高级搜索”功能不区分大小写；但在进行产品交付时，会根据区分大小写的搜索来返回产品。这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建排除项时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个排除项，以用于排除包含“holiday”的产品，则只会排除包含“holiday”的产品，而不会排除包含“Holiday”的产品。
 
-## 培训视频：在“推荐”中创建收藏集和排除项 (7:05)
+## 培训视频：在“推荐”中创建收藏集和排除项 (7:05) 教 ![程徽章](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

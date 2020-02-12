@@ -1,9 +1,9 @@
 ---
-keywords: 推荐;选件
+keywords: Recommendations;offer
 description: Adobe Recommendations 可作为 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动的选件
 title: Adobe Recommendations 可作为 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动的选件
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -29,9 +29,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >对于 A/B 测试，请记住您可以选择[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)选项以自动将流量推送到性能最佳的推荐，或者选择[自动定位](/help/c-activities/auto-target-to-optimize.md)选项以根据访客的配置文件为他们分配量身定制的推荐体验。
 
-1. 在创建[体验](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)时，单击要将推荐作为选件添加到的元素，选择&#x200B;**[!UICONTROL 此项前插入]**、**[!UICONTROL 此项后插入]**&#x200B;或&#x200B;**[!UICONTROL 替换为]**&#x200B;操作，然后选择“[!UICONTROL 推荐]”。
+1. 在创建[体验](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)时，单击要将推荐作为选件添加到的元素，选择&#x200B;**[!UICONTROL 此项前插入]**、**[!UICONTROL 此项后插入]**&#x200B;或&#x200B;**[!UICONTROL 替换为]**&#x200B;操作，然后选择[!UICONTROL 推荐]。
 
-   下图显示了[!UICONTROL 此项后插入 &gt; 推荐]选项。
+   下图显示了[!UICONTROL 此项后插入 > 推荐]选项。
 
    ![将推荐作为选件插入](/help/c-recommendations/assets/replace-after-recommendations.png)
 
@@ -96,13 +96,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ### 使用“编辑”菜单删除推荐选件
 
-1. 单击要删除的选件，然后单击&#x200B;**[!UICONTROL 布局 &gt; 删除]**。
+1. 单击要删除的选件，然后单击&#x200B;**[!UICONTROL 布局 > 删除]**。
 
    ![删除](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### 使用“修改”面板删除推荐选件
 
-1. 单击[!UICONTROL 修改]图标 **( &lt;/&gt; )** 以显示[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)面板。
+1. 单击[!UICONTROL 修改]图标 **( &lt;/> )** 以显示[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)面板。
 1. 将鼠标悬停在所需的操作上，然后单击[!UICONTROL 删除]图标。
 
    ![“删除”图标](/help/c-recommendations/assets/recs-offer-delete.png)
@@ -117,6 +117,6 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ![推荐选件状态](/help/c-recommendations/assets/recs-offer-status.png)
 
-## 培训视频：作为选件的建议
+## 培训视频：推荐作为选件概 ![述徽章](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/28878?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/28878)

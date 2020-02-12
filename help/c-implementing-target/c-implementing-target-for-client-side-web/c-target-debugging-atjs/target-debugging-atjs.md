@@ -1,11 +1,11 @@
 ---
-keywords: at.js;调试 at.js;adobe Experience Cloud 调试器;experience cloud 调试器;mbox 跟踪;mbox 高亮;调试
+keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
 description: 有关使用 Adobe Experience Cloud 调试器扩展的信息，该扩展可帮助您快速、轻松地了解您的 Target 实施。
 title: 使用 Adobe Experience Cloud 调试器调试 at.js
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -22,14 +22,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 以下视频将逐步指导您完成调试过程：
 
-### 添加 Adobe Experience Cloud 调试器扩展 {#section_8CD96F76E397476193529573F3199615}
+### 添加 Adobe Experience Cloud 调试器扩展 {#section_8CD96F76E397476193529573F3199615}![概述徽章](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### 使用 Adobe Experience Cloud 调试器进行基本的 Target 调试 {#section_AB2814A994DC4A86BABDD0441343D911}
+### Basic Target Debugging Using the Adobe Experience Cloud Debugger {#section_AB2814A994DC4A86BABDD0441343D911} ![Overview badge](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Mbox 跟踪 {#section_FD3BC8019FA847209AB8BCA747C50211}
+### Mbox描摹概 {#section_FD3BC8019FA847209AB8BCA747C50211} 述 ![徽章](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/)

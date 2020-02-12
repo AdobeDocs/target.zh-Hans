@@ -4,7 +4,7 @@ description: Adobe Target中的推荐活动会根据先前的用户活动或其�
 title: Adobe Target推荐
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 有关上述标准及其他 [!DNL Recommendations] 标准的更多信息，请参阅[标准](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 
-## ![“概述”徽章](/help/assets/overview.png) “培训”视频：活动类型
+## 培训视频：活动类型 ![概述徽章](/help/assets/overview.png)
 
 以下视频介绍了 [!DNL Target Standard/Premium] 中可用的活动类型。对 [!DNL Recommendations] 的讨论开始于 7:20。
 
@@ -53,7 +53,7 @@ source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target 基础知识网络研讨会：Recommendations 简介{#intro-to-recs}
+## Adobe Target 基础知识网络研讨会：Recommendations 简介{#intro-to-recs} 教 ![程徽章](/help/assets/tutorial.png)
 
 **“Recommendations 简介”网络研讨会包括对如何利用 [!DNL Adobe Target Recommendations] 价值的深入探讨。了解此 [!DNL Target] 活动如何通过基于先前的访问优化实时建议来自动显示客户可能感兴趣的产品或内容。此外，深入了解 [!DNL Target] UI，获取有关如何构建 [!DNL Recommendations] 活动的分步概述。
 

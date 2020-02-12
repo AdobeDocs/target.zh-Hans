@@ -1,11 +1,11 @@
 ---
-keywords: 受众;倾向;配置文件属性;比较;对比;创建受众
+keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
 description: 将受众定义为比较 Target 受众库或仅限该活动的受众的两个配置文件属性。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
 title: 在 Adobe Target 中创建配置文件属性比较受众 在Adobe Target中
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 创建配置文件属性比较受众 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. 单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]** &gt; **[!UICONTROL 添加规则]** &gt; **[!UICONTROL 访客配置文件]**。
-1. 从&#x200B;**[!UICONTROL 访客配置文件]下拉列表中选择一个属性：**
+1. 单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]** > **[!UICONTROL 添加规则]** > **[!UICONTROL 访客配置文件]**。
+1. 从&#x200B;**[!UICONTROL 访客配置文件]**&#x200B;下拉列表中选择一个属性：
 
    ![倾向得分 1](assets/propensity_score_1.png)
 
@@ -56,8 +56,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![](assets/propensity_score_4.png)
 
-## 培训视频 {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## 培训视频 {#section_3BB8DBF3418F4520B3E274B6F40AF8F3} 概 ![述徽章](/help/assets/overview.png)
 
 请观看以下视频，了解更多信息以及可使用此功能的情景：
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)

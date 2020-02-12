@@ -1,11 +1,11 @@
 ---
-keywords: 体验定位;XT;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
+keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: 可在 Adobe Target 体验定位 (XT) 活动中使用量度来确定访问何时被视为成功。
 title: 设置量度
 solution: Target,standard
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -51,7 +51,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    | `-` | 减号 |
    | `@` | @ 符号 |
 
-## 培训视频：活动量度 (7:43)
+## 培训视频：活动指标(7:43)教 ![程徽章](/help/assets/tutorial.png)
+
 
 以下视频包含有关使用成功量度的信息。
 
@@ -59,4 +60,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 了解和构建“转化”、“收入”及“参与度”量度
 * 构建点击跟踪量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)

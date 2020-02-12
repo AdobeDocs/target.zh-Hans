@@ -1,11 +1,11 @@
 ---
-keywords: 自定义参数;Target 自定义参数;targetpageparams;定位 mbox 参数
+keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
 description: 自定义参数为 mbox 参数。如果将任何 mbox 参数传递到 mbox，或者使用 targetPageParams 函数，则此处将显示这些参数，以供在受众中使用。
 title: Adobe Target 中的自定义参数
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -18,9 +18,9 @@ For more information, see [Pass parameters to a global mbox](/help/c-implementin
 
 创建基于 mbox 参数的自定义受众时，`mboxParameter` 将不再提示您输入 `mboxName`。mbox 名称现在是可选的。通过这项更改，您可以使用多个 mbox 中的参数或引用尚未记录到 Edge 的参数。
 
-1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
+1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
-1. 单击&#x200B;**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 自定义]**。
+1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Custom]**.
 
    要选择所需的参数，请执行以下操作：
 
@@ -38,7 +38,7 @@ For more information, see [Pass parameters to a global mbox](/help/c-implementin
    ![自定义参数受众](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
 1. 在新行中输入每个值。
-1. （可选）单击&#x200B;**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
+1. （可选）单击&#x200B;**[!UICONTROL 添加规则]**，然后为受众设置更多规则。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 受众的[定义详细信息弹出卡片](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)会在“规则”部分中显示参数名称。没有对用于筛选的 mbox 的引用。
@@ -52,11 +52,11 @@ For more information, see [Pass parameters to a global mbox](/help/c-implementin
 * 针对特定 mbox 评估受众和活动。例如，如果全局 mbox 传递了某个参数，但区域 mbox 没有，则针对该参数的活动/受众将不符合区域 mbox 上的条件。
 * 定位不会根据内部mbox参数（如mboxPC、mboxSession、mbox3rdPartyId、mboxCount、mboxId和mboxVersion）进行评估。
 
-## 培训视频：创建受众
+## 培训视频：创建受众教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用受众类别的信息。
 
 * 创建受众
 * 定义受众类别
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)

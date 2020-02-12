@@ -1,10 +1,10 @@
 ---
-keywords: 标准序列;多个标准;算法;标准;推荐标准
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: 可使用最多包含五个标准的序列来加强对“推荐”活动中显示的项目的控制。
 title: 创建标准序列
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -39,9 +39,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 可通过多种方式来访问“[!UICONTROL 创建标准序列]”屏幕。某些屏幕选项会根据您访问该屏幕的方式而有所不同。
 
-* 创建[!UICONTROL 推荐]活动时，在[!UICONTROL 选择标准]屏幕上单击&#x200B;**[!UICONTROL 新建]** &gt; **[!UICONTROL 创建标准序列]**。您将可以选择保存新建的标准序列，以供在其他“[!UICONTROL 推荐]”活动中使用。
-* 编辑[!UICONTROL 推荐]活动时，在页面上的[!UICONTROL 推荐位置]框中单击，然后选择&#x200B;**[!UICONTROL 更改标准]**。在[!UICONTROL 选择标准]屏幕上，单击&#x200B;**[!UICONTROL 新建]** &gt; **[!UICONTROL 创建标准序列]**。您将可以选择保存新建的标准，以供在其他“[!UICONTROL 推荐]”活动中使用。
-* 在&#x200B;**[!UICONTROL 推荐]** &gt; **[!UICONTROL 标准]**&#x200B;库屏幕上，单击&#x200B;**[!UICONTROL 创建标准]** &gt; **[!UICONTROL 创建标准序列]**。您在此处创建的标准会自动设置为可用于所有“[!UICONTROL 推荐]”活动。
+* 创建“[!UICONTROL 推荐]”活动时，在“[!UICONTROL 选择标准]”屏幕上单击&#x200B;**[!UICONTROL 新建]** > **[!UICONTROL 创建标准序列]**。您将可以选择保存新建的标准序列，以供在其他“[!UICONTROL 推荐]”活动中使用。
+* 编辑[!UICONTROL 推荐]活动时，在页面上的[!UICONTROL 推荐位置]框中单击，然后选择&#x200B;**[!UICONTROL 更改标准]**。在“[!UICONTROL 选择标准]”屏幕上，单击&#x200B;**[!UICONTROL 新建]** > **[!UICONTROL 创建标准序列]**。您将可以选择保存新建的标准，以供在其他“[!UICONTROL 推荐]”活动中使用。
+* 在&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 标准]**&#x200B;库屏幕上，单击&#x200B;**[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准序列]**。您在此处创建的标准会自动设置为可用于所有“[!UICONTROL 推荐]”活动。
 
 1. 单击&#x200B;**[!UICONTROL 创建标准]**&#x200B;或&#x200B;**[!UICONTROL 新建]**。
 
@@ -54,7 +54,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 1. 键入序列的&#x200B;**[!UICONTROL 名称]**。
 
    这是用于描述序列的“内部”名称。您的网站访客将不会看到此名称。
-1. 如果使用序列中的多个标准来填充[!UICONTROL 推荐]设计，请键入要在页面上显示的&#x200B;**[!UICONTROL 通用显示标题]**。
+1. 如果使用序列中的多个标准来填充&#x200B;**[!UICONTROL 推荐]**&#x200B;设计，请键入要在页面上显示的[!UICONTROL 通用显示标题]。
 
    例如，如果设计中可能包含基于多个“[!UICONTROL 推荐]”键的项目，您可能希望将“查看了这个项目的客户也查看了...”替换为“为您推荐”。
 1. 键入对标准序列的简短&#x200B;**[!UICONTROL 描述]**。
@@ -86,7 +86,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    有关推荐逻辑选项的更多信息，请参阅[标准](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 
-## 培训视频：在“推荐”中创建标准 (12:33)
+## 培训视频：在“推荐”中创建标准 (12:33) !![Tutorial badge](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 
@@ -94,4 +94,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 创建标准序列
 * 上传自定义标准
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

@@ -1,12 +1,12 @@
 ---
-keywords: 调试 mbox;mbox 故障诊断;mbox 问题;闪烁;mboxDebug;mboxTrace;令牌;调试器;优先级;活动优先级;Adobe Experience Cloud 调试器;orderConfirmPage mbox;SiteCatalyst 购买 mbox;最畅销;最畅销商品
+keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: 如果您的页面不显示预期内容，您可以通过以下几个步骤在Adobe target中调试内容交付。
 title: 对Adobe Target中的内容交付进行疑难解答
-subtopic: 多变量测试
+subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 要检索授权令牌，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]**。
+1. 单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 实施]**。
 1. 选择 **[!UICONTROL mbox.js]** 或 **[!UICONTROL at.js]**。
 1. 单击&#x200B;**[!UICONTROL 生成授权令牌]**。
 
@@ -157,14 +157,14 @@ Target 不再支持 IE 8。
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 添加扩展
+### 添加扩展 教 ![程徽章](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Target 基本调试
+### 基本目标调试 ![教程徽章](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### Mbox 跟踪
+### Mbox描摹教 ![程徽章](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

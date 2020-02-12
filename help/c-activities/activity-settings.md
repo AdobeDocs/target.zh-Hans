@@ -1,12 +1,12 @@
 ---
-keywords: 目标和设置;目标;优先级;持续时间
+keywords: Goal &Settings;objective;priority;duration
 description: 使用“活动设置”可管理活动的目标、优先级和持续时间。
 title: 活动设置
-subtopic: 多变量测试
+subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * [多变量测试](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [推荐](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## 培训视频：活动设置
+## 培训视频：活动设置 教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关活动设置的信息。
 
@@ -64,4 +64,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 添加报表受众以创建报表筛选器
 * 输入活动的注释
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381?captions=chi_hans)
+   >[!VIDEO](https://video.tv.adobe.com/v/17381)

@@ -4,7 +4,7 @@ description: 移动设备视区可帮助您预览活动在各种大小的屏幕�
 title: 适用于响应式体验的移动设备视区
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -73,7 +73,7 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 可配置您希望在创建体验时可供使用的任何移动设备视区。
 
-1. 单击&#x200B;**[!UICONTROL 设置]**>**[!UICONTROL &#x200B;首选项]**。
+1. 单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 首选项]**。
 1. 在“帐户首选项”页面的“移动设备视区配置”部分中，单击&#x200B;**[!UICONTROL 新增]**，以添加移动设备视区。
 
    要更改现有移动设备视区的配置，请选择该视区，然后单击“编辑”（铅笔）图标。
@@ -106,8 +106,8 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 可向 Target 活动中添加移动设备视区，以便创建要在移动设备屏幕上显示的响应式体验。
 
 1. 创建一个活动。
-1. 在可视化体验编辑器中，单击&#x200B;**[!UICONTROL 设置]**齿轮图标，然后选择**[!UICONTROL &#x200B;添加移动设备视区]**。
-1. 单击&#x200B;**[!UICONTROL 设备]**图标，然后启用每个应具有移动设备视区的设备。
+1. 在可视化体验编辑器中，单击&#x200B;**[!UICONTROL 设置]**&#x200B;齿轮图标，然后选择&#x200B;**[!UICONTROL 添加移动设备视区]**。
+1. 单击&#x200B;**[!UICONTROL 设备]**&#x200B;图标，然后启用每个应具有移动设备视区的设备。
 
    ![](assets/MobileViewPorts.jpg)
 
@@ -126,7 +126,7 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 此用例展示了如何使用 Target Standard 的移动设备视区功能配置 2 个 iPhone 版本（iPhone 6 和 iPhone 6 Plus）的体验。
 
-1. 在 Target Standard 中，单击&#x200B;**[!UICONTROL 设置]**>**[!UICONTROL &#x200B;首选项]**。
+1. 在 Target Standard 中，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 首选项]**。
 1. 在“首选项”页面的“移动设备视区配置”部分中，创建 iPhone 6 和 iPhone 6 Plus 的移动设备视区。
 
    对每个视区使用以下设置：
@@ -152,7 +152,7 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 可视化体验编辑器（第 2 个，共 2 个）(7:29)
+### 可视化体验编辑器（第 2 个，共 2 个）(7:29) ![概述徽章](/help/assets/overview.png)
 
 以下演示视频包含有关通过可视化体验编辑器使用移动设备视区的信息：
 
@@ -165,7 +165,7 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe Target 中的帐户首选项
+### Adobe Target概述徽章中的帐户 ![首选项](/help/assets/overview.png)
 
 以下视频包含有关如何在帐户首选项中设置移动设备视区的信息，相关介绍开始于视频的 4:40。
 

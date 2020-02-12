@@ -1,10 +1,10 @@
 ---
-keywords: 内容库;资产;注释;复制;删除资产;下载资产;编辑内容;共享卡片;查看内容属性
+keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
 description: 您可以对库中的资产执行多项任务。
 title: 处理库中的内容
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 要更改库中表示某个项目的图像，请依次单击该项目、**[!UICONTROL 属性]**&#x200B;图标和&#x200B;**[!UICONTROL 编辑]**，然后添加图像。
 
-## 培训视频：内容存储库
+## 培训视频：内容存储库 ![概述徽章](/help/assets/overview.png)
 
 以下视频包含有关管理内容的信息。(4:56)
 
@@ -41,4 +41,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 自定义 HTML 选件
 * 可视化体验编辑器中的自定义 HTML 选件
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)

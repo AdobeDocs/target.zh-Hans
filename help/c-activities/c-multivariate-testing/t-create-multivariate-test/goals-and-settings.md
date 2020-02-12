@@ -1,11 +1,11 @@
 ---
-keywords: 活动设置;MVT 目标和设置;多变量测试目标和设置;报表设置;目标量度;成功量度;依赖的成功量度;高级设置;主要目标;其他量度;目的;优先级;持续时间;报表解决方案;目标;报表的受众;递增此量度之前必须实现哪些成功量度;用户遇到此目标量度后会出现什么情况;注释
+keywords: activity settings;mvt goals and settings;multivariate goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: 您可以在“目标和设置”页面上输入有关测试目标的信息。
 title: 目标和设置
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -152,7 +152,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 活动设置 (3:02)
+### 活动设置(3:02)教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关活动设置的信息。
 
@@ -162,13 +162,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 添加报表受众以创建报表筛选器
 * 输入活动的注释
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### 创建多变量测试 (9:25)
+### 创建Multivariate Tests(9:25)教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频演示了如何使用 Target 三步引导式工作流创建多变量测试。对目标和设置的讨论开始于 7:00。
 
 * 定义和设计多变量测试
 * 创建多变量测试
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

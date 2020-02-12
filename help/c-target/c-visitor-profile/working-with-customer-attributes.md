@@ -1,12 +1,12 @@
 ---
-keywords: 客户记录服务;crs;crm;mbox3rdpartyid;客户属性;定位
+keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting
 description: 有关如何利用 Adobe Profiles & Audiences 核心服务中的客户属性将客户关系管理 (CRM) 数据库的企业客户数据用于 Adobe Target 中的内容定位的信息。
-title: 客户属性 在Adobe Target中
-subtopic: 入门指南
+title: Adobe Target中的客户属性
+subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ The Audiences core service is part of the [!DNL Adobe Experience Cloud] and prov
 
 Consider the following information as your work with customer attributes and [!DNL Target]:
 
-* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see "Prerequisites for uploading Customer Attributes" in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
 
    >[!NOTE]
    >
@@ -33,9 +33,9 @@ Consider the following information as your work with customer attributes and [!D
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 在我们目前的设计中，可能有一小部分数据不会被载入。
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 有关详细信息，请参阅访 [客资料生命周期](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). 只有当 `authState` 变为 UNAUTHENTICATED (1) 时，配置文件才会起作用。
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). 只有当 `authState` 变为 UNAUTHENTICATED (1) 时，配置文件才会起作用。
 
-   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won't fetch the profile that might have been created through a Customer Attributes import. 如果获取已经过身份验证的配置文件是必需的行为，则 `vst.myDataSource.authState` 必须具有值 1 (AUTHENTICATED)。
+   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. 如果获取已经过身份验证的配置文件是必需的行为，则 `vst.myDataSource.authState` 必须具有值 1 (AUTHENTICATED)。
 
 * 不能在 `mbox3rdPartyID` 中发送下列字符：加号 (+) 和正斜线 (/)。
 
@@ -100,7 +100,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 ### 创建定位受众
 
-在 [!DNL Target] 中，您可以在创建受众时从“访客配置文件”区域选择一个客户属性。列表中的所有客户属性都有前缀 &lt; data_source_name &gt;。可根据需要，将这些属性与其他数据属性结合使用以构建受众。
+在 [!DNL Target] 中，您可以在创建受众时从“访客配置文件”区域选择一个客户属性。列表中的所有客户属性都有前缀 &lt; data_source_name >。可根据需要，将这些属性与其他数据属性结合使用以构建受众。
 
 ![Target 受众](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
 
@@ -146,8 +146,8 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 
 与客户属性相关的问题中，大约 60% 是因上述第 1 行和第 2 行的问题所致。大约 30% 是因第 3 行中的问题所致。大约 5% 是因第 4 行中的问题所致。其余 5% 是由于其他问题所致。
 
-## 培训视频：使用客户属性上传离线数据 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
+## 培训视频：使用客户属性上传离线数据 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} 教 ![程徽章](/help/assets/tutorial.png)
 
-以下视频演示了如何将离线 CRM、支持中心、销售点和其他营销数据导入 Experience Cloud“人员”服务，并使用访客已知 ID 将其与访客进行关联。
+此视频向您展示如何将离线CRM、服务台、销售点和其他营销数据导入Experience Cloud People服务中，并使用其已知ID将其与访客关联。
 
->[!VIDEO](https://video.tv.adobe.com/v/17802t1/?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17802t1/)

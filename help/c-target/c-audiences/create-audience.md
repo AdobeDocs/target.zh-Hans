@@ -1,11 +1,11 @@
 ---
-keywords: 受众;受众规则;创建受众
+keywords: audience;audience rules;create audience;creating audience
 description: 您可以创建自定义受众并将其保存到 Target 库，以供在活动中使用。您可以复制现有受众，然后对其进行编辑以创建类似受众；此外，也可以合并多个受众。
 title: 在 Target 中构建受众
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    或
 
-   在[!UICONTROL 受众]列表中，将鼠标悬停在所需受众上，然后单击&#x200B;**[!UICONTROL 复制]图标，以复制现有受众。**&#x200B;然后，您可以对受众进行编辑以创建一个类似的受众。
+   在[!UICONTROL 受众]列表中，将鼠标悬停在所需受众上，然后单击&#x200B;**[!UICONTROL 复制]**&#x200B;图标，以复制现有受众。然后，您可以对受众进行编辑以创建一个类似的受众。
 
 1. 键入唯一的描述性受众名称。
 1. 单击 **[!UICONTROL + 添加规则]**。
@@ -56,11 +56,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    新创建的受众需经过几秒钟的处理后才会显示在列表中。如果受众未立即显示在列表中，请尝试搜索该受众或刷新列表。
 
-## 培训视频：创建受众
+## 培训视频：创建受众 ![概述徽章](/help/assets/overview.png)
 
 以下视频包含有关创建受众的信息。
 
 * 创建受众
 * 定义受众类别
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)

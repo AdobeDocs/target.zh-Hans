@@ -1,12 +1,12 @@
 ---
-keywords: 响应令牌；令牌；插件；插件；at.js；响应
+keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: 响应令牌允许您自动输出特定于Target的信息（活动详细信息、用户配置文件信息、地理信息等），以用于调试或与第三方系统（如Clicktale）集成
 title: Adobe Target 中的响应令牌
-subtopic: 入门指南
+subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Target Classic 具有一个称为服务器插件的功能，允许您发�
 
    有关更多信息，请参阅[下载 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
 
-1. 在 [!DNL Target] 中，单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 响应令牌]**。
+1. 在 [!DNL Target] 中，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 响应令牌]**。
 
    ![](assets/response_tokens.png)
 
@@ -279,8 +279,8 @@ Target 会定期刷新属性。任何未开启的属性都会在下次刷新时�
 </script>
 ```
 
-## 培训视频：响应令牌和 at.js 自定义事件{#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## 培训视频：响应令牌和 at.js 自定义事件{#section_3AA0A6C8DBD94A528337A2525E3E05D5} 教 ![程徽章](/help/assets/tutorial.png)
 
 观看以下视频，了解如何使用响应令牌和 at.js 自定义事件将 Target 中的配置文件信息共享到第三方系统。
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)

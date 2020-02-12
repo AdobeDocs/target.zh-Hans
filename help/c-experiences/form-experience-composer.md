@@ -1,11 +1,11 @@
 ---
-keywords: 基于表单的体验编辑器;基于表单的编辑器;细化
+keywords: form-based experience composer;form-based composer;refinements
 description: 在基于表单的体验编辑器中，可采用非可视化方式创建体验。
 title: 基于表单的体验编辑器
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 1. 单击&#x200B;**[!UICONTROL 创建活动]**，然后选择要创建的活动类型。
 
    基于表单的体验编辑器适用于 A/B 测试活动、体验定位活动、自动个性化活动和“推荐”活动。
-1. 从[!UICONTROL 新建活动]对话框中选择&#x200B;**[!UICONTROL 基于表单的体验编辑器]**。
+1. 从&#x200B;**[!UICONTROL 新建活动]**&#x200B;对话框中选择[!UICONTROL 基于表单的体验编辑器]。
 
    此时会打开基于表单的体验编辑器。
 
@@ -63,14 +63,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    **创建 HTML 选件:**
 
    1. 单击[!UICONTROL 选件]，然后选择[!UICONTROL 代码选件]选项卡。
-   1. 单击[!UICONTROL 创建] &gt; [!UICONTROL HTML 选件]。
+   1. 单击[!UICONTROL 创建] > [!UICONTROL HTML 选件]。
    1. 键入选件名称。
    1. 在代码框中键入或粘贴您的 HTML 代码。
    1. 单击[!UICONTROL 保存]。
    **创建 JSON 选件：**
 
    1. 单击[!UICONTROL 选件]，然后选择[!UICONTROL 代码选件]选项卡。
-   1. 单击[!UICONTROL 创建] &gt; [!UICONTROL JSON 选件]。
+   1. 单击[!UICONTROL 创建] > [!UICONTROL JSON 选件]。
    1. 键入选件名称。
    1. 在代码框中键入或粘贴您的 JSON 代码。
    1. 单击[!UICONTROL 保存]。
@@ -91,7 +91,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * [创建体验定位活动](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [创建“推荐”活动](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## 培训视频：基于表单的编辑器
+## 培训视频：基于表单的编辑器 教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频演示了基于表单的编辑器。
 
@@ -99,4 +99,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 了解何时使用基于表单的体验编辑器，何时使用可视化体验编辑器
 * 使用细化来定位位置
 
->[!VIDEO](https://video.tv.adobe.com/v/17390?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)

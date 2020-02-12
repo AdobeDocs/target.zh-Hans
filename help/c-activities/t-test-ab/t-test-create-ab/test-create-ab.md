@@ -1,11 +1,11 @@
 ---
-keywords: 创建 A/B;A/B 测试;A/B 活动;新建 A/B 活动
+keywords: Create A/B;A/B test;A/B activity;new a/b activity
 description: 利用 Target 中的可视化体验编辑器，在启用了 Target 的页面上直接创建测试，并在 Target 中修改页面的各个部分。
 title: 创建 A/B 测试
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 利用 Target 中的可视化体验编辑器，在启用了 Target 的页面上直接创建测试，并在 Target 中修改页面的各个部分。
 
-1. 从[!UICONTROL 活动]列表中，单击&#x200B;**[!UICONTROL 创建活动]** &gt; **[!UICONTROL A/B 测试]**。
+1. 从“[!UICONTROL 活动]”列表中，单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL A/B 测试]**。
 
    ![“创建活动”下拉列表](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -28,7 +28,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 如有必要，选择&#x200B;**[!UICONTROL 可视（默认）]**。
 
-   如果您希望使用基于表单的体验编辑器，请选择“[!UICONTROL 表单]”。请参阅[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md)，以了解更多信息。
+   如果您希望使用基于表单的体验编辑器，请选择[!UICONTROL 表单]。请参阅[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md)，以了解更多信息。
 
    >[!NOTE]
    >
@@ -36,7 +36,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >上图中的[!UICONTROL [选择工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)选项是一项 [Target Premium](/help/c-intro/intro.md) 功能。如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。]
+   >上图中的“[!UICONTROL [选择工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)”选项是一项 [Target Premium](/help/c-intro/intro.md) 功能。如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。]
 
 1. （视情况而定）如果您是一位 [Target Premium 客户](/help/c-intro/intro.md#premium)，请选择一个[工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -71,7 +71,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    有关如何在[!UICONTROL 可视化体验编辑器]中添加和修改体验的更多信息，请参阅[添加体验](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。要修改体验 B，请从步骤 3 开始操作。
 
-1. 在[!UICONTROL 可视化体验编辑器]的顶部单击&#x200B;**[!UICONTROL 定位]**，以进入三步引导式工作流中的下一个步骤。
+1. 在&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;的顶部单击[!UICONTROL 定位]，以进入三步引导式工作流中的下一个步骤。
 
    此时会打开流程图。
 
@@ -99,7 +99,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * **[!UICONTROL 自动分配到最佳体验]**：将大多数活动参加者自动定向到具有更高性能的体验。为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。请参阅[自动流量分配](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
    * **[!UICONTROL 自动定位以提供个性化体验]**：Target 使用先进的机器学习算法，自动将访客定位到最佳体验，以最大限度地实现您的目标。有关更多信息，请参阅[自动定位以优化](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
-   您还可以单击&#x200B;**[!UICONTROL 添加体验]，以向该活动中添加其他体验。**
+   您还可以单击&#x200B;**[!UICONTROL 添加体验]**，以向该活动中添加其他体验。
 
 1. 如果您对受众和各体验选项满意，请单击&#x200B;**[!UICONTROL 下一步]**，以进入三步引导式工作流的第三步。
 
@@ -111,11 +111,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 创建活动后，“概述”选项卡会显示有关该活动的信息，包括活动图。
 
-## 培训视频：创建 A/B 测试 (8:36)
+## 培训视频：创建 A/B 测试 (8:36) 教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频演示了如何使用 [!DNL Target] 三步引导式工作流创建 A/B 测试。
 
 * 在 Adobe Target 中创建 A/B 活动
 * 使用手动拆分或自动流量分配来分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

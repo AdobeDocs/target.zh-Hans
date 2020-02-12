@@ -1,10 +1,10 @@
 ---
-keywords: 内容;资产;管理内容;选件;管理资产;进入选择模式;选择模式
+keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
 description: 可使用选件库来管理代码选件和图像选件内容。
 title: 选件
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 >
 >在 2017 年 1 月版的 [!DNL Target Standard/Premium] 用户界面中，可以看到通过 [!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS) 及 API 创建的选件。过去两年使用这些方法更新的选件也将可见（例如在 2015 年 1 月版及更高版本中）。您组织中的任何用户首次打开“[!UICONTROL 选件]”页面时，都将会进行初始同步。初始同步所需的时间将取决于数据量。初始同步完成后，数据将以增量方式进行同步。如果您之前将代码和图像放置在同一个文件夹中，则在此版本中，[!DNL Target] 会将代码和图像拆分到两个重复的文件夹中。请注意，更新日期和时间是指文件夹迁移的日期和时间，而不是指最初创建文件夹的日期和时间。
 
-单击&#x200B;**[!UICONTROL 选件]可打开选件库。**&#x200B;选件库中包含通过 [!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS) 及 API 设置的选件。在 [!DNL Target Classic] 或其他解决方案中创建的选件可以在 [!DNL Target Standard/Premium] 中进行编辑。
+单击&#x200B;**[!UICONTROL 选件]**&#x200B;可打开选件库。选件库中包含通过 [!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS) 及 API 设置的选件。在 [!DNL Target Classic] 或其他解决方案中创建的选件可以在 [!DNL Target Standard/Premium] 中进行编辑。
 
 “[!UICONTROL 选件]”页面右侧有两个选项卡，即“代码选件”和“图像选件”，您可以在这两个选项卡中按类型查看选件。
 
@@ -83,7 +83,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 重定向 URL 类型
 * 绝对或相对 URL
 
-## 培训视频：内容存储库
+## 培训视频：内容存储库 ![概述徽章](/help/assets/overview.png)
 
 以下视频包含有关管理选件的信息。
 
@@ -91,4 +91,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 自定义 HTML 选件
 * 可视化体验编辑器中的自定义 HTML 选件
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)

@@ -1,11 +1,11 @@
 ---
-keywords: at.js 发行版;at.js 版本;单页应用程序;SPA;跨域;跨域
+keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: 有关如何从 Adobe Target at.js 1.*x* 升级到 at.js 版本 2.0.0 的详细信息
 title: 从 Adobe Target at.js 版本 1.*x* 升级到 at.js version 2。*x 不支持跨域跟踪*
-subtopic: 入门指南
+subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 下图可帮助您了解含有视图的 at.js 2.*x* 工作流程以及其如何增强 SPA 集成。要更好地了解 at.js 2.*x* 中使用的概念，请参阅[单页应用程序实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。
 
-![使用 at.js 2.*x* 的 Target 流程](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![使用 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)的 Target 流程
 
 | 调用 | 详细信息 |
 | --- | --- |
@@ -246,7 +246,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 ### at.js 中的全局 mbox 名称是否无关紧要？
 
-客户可以通过 [!UICONTROL Target &gt; 设置 &gt; 实施 &gt; 编辑 at.js 设置]来指定全局 mbox 名称。[!DNL Target] 边缘服务器使用此设置来将 execute &gt; pageLoad 转换为 [!DNL Target] UI 中显示的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并使用全局 mbox 名称创建受众。我们强烈建议您还确保在[!UICONTROL 设置 &gt; 首选项]页面上配置相同的全局 mbox 名称，以防仍有使用 at.js 1 *x* 或 mbox.js 的页面，如以下插图所示。
+客户可以通过 [!UICONTROL Target > 设置 > 实施 > 编辑 at.js 设置]来指定全局 mbox 名称。[!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为 [!DNL Target] UI 中显示的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并使用全局 mbox 名称创建受众。我们强烈建议您还确保在[!UICONTROL 设置 > 首选项]页面上配置相同的全局 mbox 名称，以防仍有使用 at.js 1 *x* 或 mbox.js 的页面，如以下插图所示。
 
 ![修改 at.js 对话框](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -256,15 +256,15 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 ### 是否需要为 at.js 2.*x* 打开自动创建全局 mbox 设置？
 
-在大多数情况下需要。此设置会告知 at.js 2.*x* 在页面加载时向 [!DNL Target] 边缘服务器发出请求。由于全局 mbox 被转换为 execute &gt; pageLoad，因此如果要在页面加载时触发请求，则应该启用此设置。
+在大多数情况下需要。此设置会告知 at.js 2.*x* 在页面加载时向 [!DNL Target] 边缘服务器发出请求。由于全局 mbox 被转换为 execute > pageLoad，因此如果要在页面加载时触发请求，则应该启用此设置。
 
 ### 即使未从 at.js 2.*x* 中指定 Target 全局 mbox 名称，现有的 VEC 活动是否仍会继续工作？
 
-会，因为系统会在如 `target-global-mbox` 的 [!DNL Target] 后端处理 execute &gt; pageLoad。
+会，因为系统会在如 `target-global-mbox` 的 [!DNL Target] 后端处理 execute > pageLoad。
 
 ### 如果将我的基于表单的活动定位到 `target-global-mbox`，那么这些活动是否会继续工作？
 
-会，因为和 `target-global-mbox` 一样，系统会在 [!DNL Target] 边缘服务器上处理 execute &gt; pageLoad。
+会，因为和 `target-global-mbox` 一样，系统会在 [!DNL Target] 边缘服务器上处理 execute > pageLoad。
 
 ### 受支持和不受支持的 at.js 2.*x* 设置
 
@@ -290,11 +290,11 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 ### 支持自动创建全局 Mbox
 
-此设置会告知 at.js 2.*x* 在页面加载时向 [!DNL Target] 边缘服务器发出请求。由于全局 mbox 已转换为 execute &gt; pageLoad，并且这由 [!DNL Target] 边缘服务器来解释，所以如果客户想要在页面加载时触发请求，则应该打开此设置。
+此设置会告知 at.js 2.*x* 在页面加载时向 [!DNL Target] 边缘服务器发出请求。由于全局 mbox 已转换为 execute > pageLoad，并且这由 [!DNL Target] 边缘服务器来解释，所以如果客户想要在页面加载时触发请求，则应该打开此设置。
 
 ### 支持全局 Mbox 名称
 
-客户可以通过 [!UICONTROL Target &gt; 设置 &gt; 实施 &gt; 编辑 at.js 设置]来指定全局 mbox 名称。[!DNL Target] 边缘服务器使用此设置来将 execute &gt; pageLoad 转换为输入的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并创建针对全局 mbox 的受众。
+客户可以通过 [!UICONTROL Target > 设置 > 实施 > 编辑 at.js 设置]来指定全局 mbox 名称。[!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为输入的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并创建针对全局 mbox 的受众。
 
 ### 以下 at.js 自定义事件是否适用于 `triggerView()`，还是仅适用于 `applyOffer()` 或 `applyOffers()`？
 
@@ -750,10 +750,10 @@ at.js 2.*x* JSON 有效负载：
 
 版本将通过 version 参数作为查询字符串参数发送。
 
-## 培训视频：at.js 2.*x* 架构图
+## 培训视频：at.js 2.*x架构图* 概述 ![徽章](/help/assets/overview.png)
 
 at.js 2.*x* 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Cloud 解决方案集成。该视频介绍了如何将所有内容结合到一起。
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 请参 [阅了解at.js 2的使用方法。*x适用*](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) ，以获取更多信息。

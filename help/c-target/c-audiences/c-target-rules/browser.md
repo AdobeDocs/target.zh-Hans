@@ -1,11 +1,11 @@
 ---
-keywords: 浏览器选项;类型;浏览器类型;浏览器语言;语言;版本;浏览器版本
+keywords: browser options;type;browser type;browser language;language;version;browser version
 description: 您可以在 Adobe Target 中通过创建受众来定位使用特定浏览器或特定浏览器选项访问您的页面的用户。
 title: Adobe Target 受众中的浏览器选项
-subtopic: 多变量测试
+subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,11 +35,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **自定义的浏览器受众规则：**&#x200B;通过自定义受众，您可以定位多种浏览器，或者针对特定浏览器、浏览器版本或浏览器语言设置规则或排除项。根据浏览器属性定位营销活动可提供很高的灵活性。
 
-1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
+1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
-1. 单击&#x200B;**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 浏览器]**。
+1. 单击&#x200B;**[!UICONTROL 添加规则]** > **[!UICONTROL 浏览器]**。
 
-   ![“规则”&gt;“浏览器”](assets/target_browser.png)
+   ![“规则”>“浏览器”](assets/target_browser.png)
 
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
@@ -47,7 +47,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * **语言：**&#x200B;定位或排除设置为使用特定语言的特定浏览器。请参阅[语言](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)。
    * **版本：**&#x200B;定位或排除特定浏览器版本。请参阅[版本](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)。
 
-1. （可选）单击&#x200B;**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
+1. （可选）单击&#x200B;**[!UICONTROL 添加规则]**，然后为受众设置更多规则。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 以下示例显示受众为 Internet Explorer 版本 10 或 11 的用户：
@@ -117,11 +117,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 多个选项之间使用 OR 进行连接。
 
-## 培训视频：创建受众
+## 培训视频：创建受众 教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用受众类别的信息。
 
 * 创建受众
 * 定义受众类别
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)

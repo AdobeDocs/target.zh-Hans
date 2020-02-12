@@ -1,10 +1,10 @@
 ---
-keywords: 自动定位;定位;流量分配;常见问题解答;faq;疑难解答;故障诊断
+keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 title: 自动定位
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -247,7 +247,7 @@ AP 活动产生提升需要四个因素：
 
 例如，一个活动拥有一个转化量度 (C1) 和一个其他量度 (A1)。A1 依赖于 C1。当访客首次进入活动，并且转化 A1 和 C1 的标准并未实现转化，那么由于成功量度的依赖关系，量度 A1 不会进行转化。如果访客先转化了 C1，然后转化了 A1，则 A1 仍不会实现转化，因为一旦 C1 完成转化，该访客便会被释放。
 
-## 培训视频：了解自动定位活动
+## 培训视频：了解自动定位活动 ![概述徽章](/help/assets/overview.png)
 
 本视频介绍了如何设置[!UICONTROL 自动定位] A/B 活动。
 
@@ -257,4 +257,4 @@ AP 活动产生提升需要四个因素：
 * 将[!UICONTROL 自动定位]与自动个性化进行比较和对比
 * 创建[!UICONTROL 自动定位]活动
 
->[!VIDEO](https://video.tv.adobe.com/v/18558?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/18558)

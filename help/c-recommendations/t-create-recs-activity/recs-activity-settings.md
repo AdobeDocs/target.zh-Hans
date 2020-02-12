@@ -1,11 +1,11 @@
 ---
-keywords: 推荐;设置;名称;目标;优先级;持续时间;报表设置;其他元数据
+keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: 有些设置可用于描述和控制 Adobe Target 中的“推荐”活动。
 title: Adobe Target 中的“推荐”活动设置
-subtopic: 推荐
+subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 输入有关活动的注释。
 
-## 培训视频：活动设置 (3:02)
+## 培训视频：活动设置(3:02)教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关活动设置的信息。
 
@@ -72,4 +72,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 添加报表受众以创建报表筛选器
 * 输入活动的注释
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)

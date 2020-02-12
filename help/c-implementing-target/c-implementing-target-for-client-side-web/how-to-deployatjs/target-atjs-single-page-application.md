@@ -1,11 +1,11 @@
 ---
-keywords: 单页应用程序实现；单页应用程序；SPA;at.js 2.x;at.js；单页应用程序；单页应用程序；SPA;SPA
+keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: 有关使用 Adobe Target at.js 2.x 实施单页应用程序 (SPA) 的信息。
 title: Adobe Target 中的单页应用程序实施
-topic: 标准
+topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -68,7 +68,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    首先，我们需要安装 at.js 2.x。开发此版本的 at.js 时考虑了 SPA。at.js 和 mbox.js 的早期版本不支持 Adobe Target 视图和 SPA VEC。
 
-   通过位于[!UICONTROL 设置 &gt; 实施]中的 Adobe Target UI 下载 at.js 2.x。at.js 2.x 也可以通过 Adobe Launch 进行部署。但是，Adobe Target 扩展当前不是最新的，不受支持。
+   通过位于[!UICONTROL 设置 > 实施]中的 Adobe Target UI 下载 at.js 2.x。at.js 2.x 也可以通过 Adobe Launch 进行部署。但是，Adobe Target 扩展当前不是最新的，不受支持。
 
 1. 在您的网站上实施 at.js 2.x 的最新函数：`triggerView()`。
 
@@ -80,7 +80,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
    | --- | --- | --- | --- | --- |
    | viewName | 字符串 | 是 | 1. 无尾随空格。<br>2. 不能为空。<br>3. 所有页面的视图名称应该都是唯一的。<br>4. **警告**：视图名称不应以 `/` 开头或结尾。这是因为客户通常会从 URL 路径中提取视图名称。对于我们来说，“home”和“`/home`”是不同的。<br>5. **警告**：不应使用 `{page: true}` 选项连续多次触发同一视图。 | 将任何名称作为要显示视图的字符串类型传递。此视图名称显示在 VEC 的[!UICONTROL 修改]面板中，供营销人员创建操作并运行其 A/B 和 XT 活动。 |
    | options | 对象 | 否 |  |  |
-   | options &gt; page | 布尔值 | 否 |  | **TRUE**：page 的默认值为 true。当 `page=true` 时，将向 Edge 服务器发送增加展示次数计数的通知。<br>**FALSE**：当 `page=false` 时，将不会发送增加展示次数计数的通知。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
+   | options > page | 布尔值 | 否 |  | **TRUE**：page 的默认值为 true。当 `page=true` 时，将向 Edge 服务器发送增加展示次数计数的通知。<br>**FALSE **：当`page=false`时，将不会发送增加展示次数计数的通知。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
 
    现在，我们来查看一些关于如何在 React 中为假定的电子商务 SPA 调用 `triggerView()` 函数的示例用例：
 
@@ -276,18 +276,18 @@ document.addEventListener("at-view-end", function(e) {
 
 ### 了解 at.js 2.x 的工作原理
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/26250) ![概述徽章](/help/assets/overview.png)
 
 有关 [更多信息，请参阅了解at.js 2.x的工作原理](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 。
 
 ### 在 SPA 中实施 at.js 2.x
 
->[!VIDEO](https://video.tv.adobe.com/v/26248?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/26248) 教 ![程徽章](/help/assets/tutorial.png)
 
 有 [关详细信息，请参阅在单页应用程序(SPA)中实施Adobe Target的at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 。
 
-### 在 Adobe Target 中使用 SPA 的 VEC
+### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.

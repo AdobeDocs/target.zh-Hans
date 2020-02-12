@@ -4,7 +4,7 @@ description: 收藏集是 Adobe Target 中一组符合推荐标准的产品或�
 title: Adobe Target 中的收藏集
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 可创建收藏集以组织要在推荐中显示的产品。
 
-1. 单击&#x200B;**[!UICONTROL 推荐]**>**[!UICONTROL &#x200B;收藏集]**以显示现有收藏集列表。
+1. 单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 收藏集]**&#x200B;以显示现有收藏集列表。
 
    ![收藏集列表](assets/collections_list.png)
 
@@ -43,7 +43,7 @@ source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 1. 单击&#x200B;**[!UICONTROL 创建收藏集]**。
 
-1. （视情况而定）在创建（或更新）收藏集时从&#x200B;**[!UICONTROL 环境]**筛选器中选择一个环境，以预览该环境中收藏集的内容。默认情况下，会显示默认主机组的结果。
+1. （视情况而定）在创建（或更新）收藏集时从&#x200B;**[!UICONTROL 环境]**&#x200B;筛选器中选择一个环境，以预览该环境中收藏集的内容。默认情况下，会显示默认主机组的结果。
 
    ![创建收藏集](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
@@ -71,7 +71,7 @@ source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 >
 >“高级搜索”功能不区分大小写；但在进行产品交付时，会根据区分大小写的搜索来返回产品。这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建收藏集时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个目录，以用于返回包含“holiday”的产品，则只会返回包含“holiday”的产品，而不会返回包含“Holiday”的产品。
 
-## 培训视频：在“推荐”中创建收藏集和排除项 (7:05)
+## 培训视频：在“推荐”中创建收藏集和排除项 (7:05) 教 ![程徽章](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

@@ -1,10 +1,10 @@
 ---
-keywords: MVT;多变量测试;多变量测试创建;MVT 创建;MVT 工作原理;多变量测试工作原理
+keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
 description: 使用 Adobe Target 中的可视化体验编辑器，可以轻松地在启用了 Target 的页面上直接创建多变量测试 (MVT)，并在 Target 中修改页面的各个部分。
 title: 创建多变量测试
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 [!UICONTROL 多变量测试] (MVT) 会生成单页报表。换言之，多变量测试会在某个特定的 URL 上运行，而测试中包含为该页面设计的所有体验。
 
-1. 单击&#x200B;**[!UICONTROL 创建活动]** &gt; **[!UICONTROL 多变量测试]**。
+1. 单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL 多变量测试]**。
 
    ![创建多变量测试](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
@@ -114,11 +114,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以创建活动。
 
-## 培训视频：创建多变量测试 (9:25)
+## 培训视频：创建Multivariate Tests(9:25)教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频演示了如何使用 Target 三步引导式工作流规划并创建多变量测试。
 
 * 定义和设计多变量测试
 * 创建多变量测试
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

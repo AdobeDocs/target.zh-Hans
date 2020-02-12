@@ -5,7 +5,7 @@ title: 在浏览器中启用混合内容
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 请参阅 Google Chrome 帮助中的[此页面包含不安全的内容](https://support.google.com/chrome/answer/1342714?hl=en)。
 
-### 培训视频：在Chrome版本79.0.3945.117或更高版本（2020年1月）中启用VEC
+### 培训视频：在Chrome版本79.0.3945.117或更高版本（2020年1月）中启用VEC ![概述徽章](/help/assets/overview.png)
 
 如果您将VEC与最新版Chrome（版本79.0.3945.117或更高版本）结合使用，则需要更新站点设置。 您网站的访客无需完成这些步骤。
 
@@ -71,10 +71,10 @@ source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 1. 在 Internet Explorer 中，单击“设置”图标，然后单击 **[!UICONTROL Internet 选项]**。
 1. 打开“[!UICONTROL 安全]”选项卡。
-1. 选择 **[!UICONTROL Internet]**，然后单击**[!UICONTROL &#x200B;自定义级别]**。
+1. 选择 **[!UICONTROL Internet]**，然后单击&#x200B;**[!UICONTROL 自定义级别]**。
 1. 选择&#x200B;**[!UICONTROL 其他]**。
 1. 在[!UICONTROL 其他]下方，启用&#x200B;**[!UICONTROL 显示混合内容]**。
-1. 单击&#x200B;**[!UICONTROL 确定]**>**[!UICONTROL &#x200B;是]** > **[!UICONTROL 应用]**。
+1. 单击&#x200B;**[!UICONTROL 确定]** > **[!UICONTROL 是]** > **[!UICONTROL 应用]**。
 
 我们建议您在更改此设置后重新启动计算机。
 

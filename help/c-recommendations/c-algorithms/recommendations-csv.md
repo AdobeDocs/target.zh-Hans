@@ -1,10 +1,10 @@
 ---
-keywords: 创建自定义标准;算法;标准;推荐标准;CSV;FTP;上传 CSV
+keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: 可上传 CSV 文件以自定义您的推荐。
 title: 上传自定义标准
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 可通过多种方式来访问“[!UICONTROL 创建新标准]”屏幕。某些屏幕选项会根据您访问该屏幕的方式而有所不同。
 
-* 创建“[!UICONTROL 推荐]”活动时，在“**[!UICONTROL 选择标准]”屏幕上单击**[!UICONTROL 新建]。您将可以选择保存新建的标准，以供在其他“[!UICONTROL 推荐]”活动中使用。
+* 创建“[!UICONTROL 推荐]”活动时，在“**[!UICONTROL 选择标准]**”屏幕上单击[!UICONTROL 新建]。您将可以选择保存新建的标准，以供在其他“[!UICONTROL 推荐]”活动中使用。
 * 编辑[!UICONTROL 推荐]活动时，在页面上的[!UICONTROL 推荐位置]框中单击，然后选择&#x200B;**[!UICONTROL 更改标准]**。在[!UICONTROL 选择标准]屏幕上，单击&#x200B;**[!UICONTROL 新建]**。您将可以选择保存新建的标准，以供在其他“[!UICONTROL 推荐]”活动中使用。
-* 在&#x200B;**[!UICONTROL 推荐]** &gt; **[!UICONTROL 标准]**&#x200B;库屏幕上，单击&#x200B;**[!UICONTROL 创建标准]**。您在此处创建的标准会自动设置为可用于所有“[!UICONTROL 推荐]”活动。
+* 在&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 标准]**&#x200B;库屏幕上，单击&#x200B;**[!UICONTROL 创建标准]**。您在此处创建的标准会自动设置为可用于所有“[!UICONTROL 推荐]”活动。
 
 1. 单击&#x200B;**[!UICONTROL 创建标准]**。
 
@@ -55,7 +55,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    包含规则可帮助您缩小在推荐中显示的项目范围。请参阅[包含规则](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)。1. 选择 CSV 文件的&#x200B;**[!UICONTROL 位置]**。
 
-   要成功上传，CSV 文件的格式设置必须正确。单击&#x200B;**[!UICONTROL 下载 CSV 模板]，可获取格式正确的 CSV 文件。**
+   要成功上传，CSV 文件的格式设置必须正确。单击&#x200B;**[!UICONTROL 下载 CSV 模板]**，可获取格式正确的 CSV 文件。
 
    您可以选择以下两个位置：
 
@@ -74,9 +74,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 自定义标准信息源每 24 小时更新一次。
 
-您可以在“推荐”&gt;“标准”页面上各标准卡片的底部查看自定义标准的上传状态和同步状态。您还可以在编辑自定义标准时在“编辑”对话框中查看状态。
+您可以在“推荐”>“标准”页面上各标准卡片的底部查看自定义标准的上传状态和同步状态。您还可以在编辑自定义标准时在“编辑”对话框中查看状态。
 
-正确无误的上传流程应当为“已计划”&gt;“正在下载信息源文件”&gt;“正在导入”&gt;“成功”。
+正确无误的上传流程应当为“已计划”>“正在下载信息源文件”>“正在导入”>“成功”。
 
 如果 Target 遇到与上传有关的问题，您可能会收到以下错误消息：
 
@@ -89,7 +89,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | 未找到目录 | 请提供服务器上存在的目录。 |
 | 未找到文件 | 请提供服务器上所指示目录中存在的文件名称。 |
 
-## 培训视频：在“推荐”中创建标准 (12:33)
+## 培训视频：在“推荐”中创建标准 (12:33) !![Tutorial badge](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 
@@ -97,4 +97,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 创建标准序列
 * 上传自定义标准
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

@@ -5,7 +5,7 @@ title: 自动分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -182,7 +182,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 活动工作流 - 定位 (2:14)
+### 活动工作流 - 定位 (2:14) 教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关设置流量分配的信息。
 
@@ -193,7 +193,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### 创建 A/B 测试 (8:36)
+### 创建A/B测试(8:36)教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频演示了如何使用 Target 三步引导式工作流创建 A/B 测试。对自动流量分配的讨论开始于 4:45。
 

@@ -1,11 +1,11 @@
 ---
-keywords: 体验预览;体验 URL;生成 URL;查看体验 URL
+keywords: experience preview;experience urls;generate urls;view experience urls
 description: 为进行预览和 QA，您可以为 Target 自动个性化活动生成体验 URL，以便在激活活动之前，直接在您的网站上查看体验内容。体验 URL 可绕过定位，以强制查看特定体验。
 title: 共享体验 URL 以便在 Target 以外预览自动个性化
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 533a2aac50ceb085b090ad5f9d7b1fff396c2de4
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    模态窗口会显示指向您网站上的体验的链接，以获取体验在 Target 可视化体验编辑器之外的“真实预览”。您必须通过共享消息中的链接来共享预览。如果单击链接，然后从页面复制生成的 URL，则不会起作用，因为 URL 包含只有在从消息中的链接访问页面时才会正确显示页面的参数。应当采取的正确操作是，复制模态窗口中的文本，然后通过电子邮件将整个文本发送给您的团队。
 1. 单击&#x200B;**[!UICONTROL 生成所有]**，然后单击每个体验以进行预览。
 
-   如果您随后对体验进行了更改，请务必为您的团队生成新的预览链接，方法是：返回到模态窗口，然后单击&#x200B;**生成所有**&#x200B;以获取新链接。
+   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
 
    **注意：**&#x200B;预览链接会在新的选项卡中打开，并且您浏览器中的弹出窗口阻止程序会被禁用。
 

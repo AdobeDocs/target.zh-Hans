@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
+source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 
 ---
 
@@ -18,6 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2020年2月18日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了有关mbox.js库即将弃用的信息。 |
+|  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | 添加了注意，mboxOverride.browserIp仅在at.js 1中受支持。*x* 目前不支持选择加入支持。 |
 | 2月4日 | [发行说明](/help/r-release-notes/release-notes.md)：20.1.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe Target Standard/Premium 19.10.1（2019 年 10 月 22 日）

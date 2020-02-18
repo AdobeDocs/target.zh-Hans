@@ -5,7 +5,7 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 93ffd24946ad23780b8c141bec79e4492f0e8cda
+source-git-commit: 48b0141e7234ad3bbff9a6805cdf5ccb4c1aa0b9
 
 ---
 
@@ -31,6 +31,14 @@ source-git-commit: 93ffd24946ad23780b8c141bec79e4492f0e8cda
 
 
 ## Target Standard/Premium 20.2.1（2020 年 2 月 19 日） 
+
+>[!IMPORTANT]
+>
+>2020年8月30日，Adobe Target将不再支持mbox.js库。 2020年8月30日之后，从mbox.js发出的所有调用都将失败，并会影响已运行Target活动的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本，以避免您的站点出现任何潜在问题。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+>
+>尽管目前支持mbox.js，但自2017年7月以来，我们尚未对此库提供功能更新。 较新的at.js比mbox.js有许多优势。 除其他优势外，at.js还缩短了Web实施的页面加载时间，提高了安全性，并为单页应用程序提供了更好的实施选项。
+>
+>通过将所有客户迁移到at.js，我们的工程师和支持人员将能够为您提供新功能并为您提供Adobe所期望的支持。
 
 此版本包含以下增强功能和修复：
 

@@ -5,7 +5,7 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: f710882392f54c13a2161a97b7530796f9a99283
 
 ---
 
@@ -51,7 +51,6 @@ source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 * 修复了通过API创建的条件（但未由在目标UI中创建的活动引用）可能从UI中错误删除的问题。 (TGT-35917)
 * 对内容安全策略(CSP)实施了安全改进。 (TGT-36190)
 * 修复了在将“属性加权”百分比条滑向最左侧时，导致显示“NaN%”的问题。 (TGT-36211)
-* 解决了阻止客户在自动个性化(AP)活动中将算法从随机森林更改为剩余方差的问题。 (TGT-36321)
 * 解决了本地化问题，以便正确显示不同语言的UI文本。
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}

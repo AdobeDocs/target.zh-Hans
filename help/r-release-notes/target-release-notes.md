@@ -5,7 +5,7 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
+source-git-commit: 93ffd24946ad23780b8c141bec79e4492f0e8cda
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 下列发行说明将介绍 [!DNL Adobe Target] 最新版本或即将发布的版本的功能、增强功能、修复信息和已知问题。
 
-**上次更新时间：2020 年 2 月 4 日**
+**上次更新时间：2020 年 2 月 18 日**
 
 >[!NOTE]
 >
@@ -32,7 +32,14 @@ source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 ## Target Standard/Premium 20.2.1（2020 年 2 月 19 日） 
 
-Target Standard/Premium 20.2.1版本计划于2020年2月19日发布。 有关特定功能、增强和修复的信息将在未来几天发布到此处。
+此版本包含以下增强功能和修复：
+
+* 修复了客户在执行目录搜索时无法选择集合的问题。 (TGT-36230)
+* 修复了通过API创建的条件（但未由在目标UI中创建的活动引用）可能从UI中错误删除的问题。 (TGT-35917)
+* 对内容安全策略(CSP)实施了安全改进。 (TGT-36190)
+* 修复了在将“属性加权”百分比条滑向最左侧时，导致显示“NaN%”的问题。 (TGT-36211)
+* 解决了阻止客户在自动个性化(AP)活动中将算法从随机森林更改为残差的问题。 (TGT-36321)
+* 解决了本地化问题，以便正确显示不同语言的UI文本。
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

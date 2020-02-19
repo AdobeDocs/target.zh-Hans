@@ -5,7 +5,7 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -206,7 +206,7 @@ source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
       + [管理排除项](c-activities/t-automated-personalization/managing-exclusions.md)
       + [选择用于自动个性化或自动定位活动的控制](c-activities/t-automated-personalization/experience-as-control.md)
       + [自动个性化常见问题解答](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [共享体验 URL 以便在 Target 以外预览自动个性化](c-activities/t-automated-personalization/experience-preview.md)
+      + [使用体验预览URL预览自动个性化活动](c-activities/t-automated-personalization/experience-preview.md)
       + [自动个性化故障诊断](c-activities/t-automated-personalization/ap-trouble.md)
    + 体验定位 {#experience-targeting}
       + [体验定位概述](c-activities/t-experience-target/experience-target.md)

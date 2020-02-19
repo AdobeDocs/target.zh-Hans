@@ -1,11 +1,11 @@
 ---
-keywords: at.js 发行版;at.js 版本
+keywords: at.js releases;at.js versions
 description: 有关每个 at.js 版本中的更改的详细信息。
 title: at.js 版本详细信息
-subtopic: 入门指南
+subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!IMPORTANT]
 >
->Target 团队仅维护两个版本的 [!DNL at.js]：当前版本和当前版本的上一个版本。请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。
+>Target团队同时支持at.js 1。*x* 与 at.js 2.*x* 之间的映射。请升级到at.js的任一主要版本的最新更新，以确保您运行的是受支持的版本。
 
 ## at.js版本2.2.0（2019年10月10日）
 
@@ -29,7 +29,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >将您的ECID Launch扩展升级到v4.4以利用此性能增强。
 
-* at.js版本2.2还提供一个名为的新设置 `serverState`。 在实施Target的混合集成时，此设置可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的交付API或Target SDK来交付体验。 `serverState` 使at.js v2.2+能够直接应用从服务器端获取的内容中获取的体验，并作为所服务页面的一部分返回到客户端。 For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js版本2.2还提供一个名为的新设置 `serverState`。 在实施Target的混合集成时，此设置可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的交付API或Target SDK来交付体验。 `serverState` 使at.js v2.2+能够直接应用从服务器端获取的内容中获取的体验，并作为所服务页面的一部分返回到客户端。 For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js版本1.8.0（2019年10月10日）
 
@@ -243,7 +243,7 @@ at.js 版本 1.3.0 现已可用。
 
 [!DNL at.js] 版本 1.2.1 现已可用。
 
-* 修复了对具有 target="_blank" 的链接的点击跟踪阻止 Target 在新的选项卡中打开该链接的问题。
+* 修复了对具有 target=&quot;_blank&quot; 的链接的点击跟踪阻止 Target 在新的选项卡中打开该链接的问题。
 
 ## at.js 版本 1.2.0 {#section_1C3A18C595C34B25A14A440D213F3B9C}
 

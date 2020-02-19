@@ -5,7 +5,7 @@ title: 'Adobe Target 发行说明（当前版本） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: f5444d8a4d9229112aeaeadc0bccdb42a006c02b
 
 ---
 
@@ -29,7 +29,9 @@ source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
    >
    >   
    通过将所有客户迁移到at.js，我们的工程师和支持人员将能够为您提供新功能并为您提供Adobe所期望的支持。
-括号中的问题编号供 [!DNL Adobe] 内部使用。
+   >
+   >
+* 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
 
 ## Target Standard/Premium 20.2.1（2020 年 2 月 19 日） 

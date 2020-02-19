@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -138,7 +138,7 @@ source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 
 >[!NOTE]
 >
->mboxOverride.browserIp仅在at.js 1.*jx中受支持*。 at.js 2不支持此功能。*x* 目前不支持选择加入支持。
+>`mboxOverride.browserIp` 仅在at.js 1.*jx中受支持* 。 at.js 2不支持此功能。*x* 目前不支持选择加入支持。
 
 **如何将波多黎各和中国香港特别行政区等区域映射到地理定位结构？**
 

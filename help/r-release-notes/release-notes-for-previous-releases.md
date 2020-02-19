@@ -5,7 +5,7 @@ title: 以前版本的发行说明
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -17,6 +17,15 @@ source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
 >[!NOTE]
 >
 >请参阅 [Target 发行说明（当前版本）](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
+
+## 发行说明- 2020
+
+### Target Standard/Premium 20.1.1（2020 年 2 月 4 日） 
+
+Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改进。 此外，还包含以下修复：
+
+* 修复了导致Adobe Analytics跟踪服务器字段在现有Adobe for Target(A4T)活动的“目标和设置”页面上为空的问题。 (TGT-35960)
+* 修复了用户界面中的一个问题，该问题导致在创建类别亲和度的受众时，第二个下拉列表中的选择无法显示。 (TGT-36098)
 
 ## 发行说明 - 2019 {#releases-2019}
 

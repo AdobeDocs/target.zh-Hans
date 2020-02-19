@@ -5,7 +5,7 @@ title: 'Adobe Target 发行说明（当前版本） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -32,12 +32,19 @@ source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
 
-## Target Standard/Premium 20.1.1（2020 年 2 月 4 日） 
+## Target Standard/Premium 20.2.1（2020 年 2 月 19 日） 
 
-Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改进。 此外，还包含以下修复：
+>[!IMPORTANT]
+>
+>请参阅上述关于mbox.js弃用的信息。
 
-* 修复了导致Adobe Analytics跟踪服务器字段在现有Adobe for Target(A4T)活动的“目标和设置”页面上为空的问题。 (TGT-35960)
-* 修复了用户界面中的一个问题，该问题导致在创建类别亲和度的受众时，第二个下拉列表中的选择无法显示。 (TGT-36098)
+此版本包含以下增强功能和修复：
+
+* 修复了客户在执行目录搜索时无法选择集合的问题。 (TGT-36230)
+* 修复了通过API创建的条件（但未由在目标UI中创建的活动引用）可能从UI中错误删除的问题。 (TGT-35917)
+* 对内容安全策略(CSP)实施了安全改进。 (TGT-36190)
+* 修复了在将“属性加权”百分比条滑向最左侧时，导致显示“NaN%”的问题。 (TGT-36211)
+* 解决了本地化问题，以便正确显示不同语言的UI文本。
 
 ## 其他发行说明和版本详细信息
 

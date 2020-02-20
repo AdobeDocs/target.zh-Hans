@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
+source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 
 ---
 
@@ -18,7 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 2020年2月19日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了有关mbox.js库即将弃用的信息。 |
+| 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 添加了以下设置的信息： `pageLoadEnabled` 和 `viewsEnabled`。 |
+| 2 月 19 日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了有关mbox.js库即将弃用的信息。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | 添加了 `mboxOverride.browserIp` at.js 1中支持的注意事项。*x*。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 阐明了解说明Target团队支持哪些版本的at.js的文本。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：20.2.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |

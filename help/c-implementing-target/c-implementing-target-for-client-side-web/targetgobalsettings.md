@@ -1,11 +1,11 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;globalsettings;at.js;function;clientCode;clientCode;serverDomain;cookieDomain;crossDomain;crossDomain;timeout;globalMboxAutoCreate;visitorApiHidenContentStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optout;optout;selectorsPollingTimeout;dataProuders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
 description: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数的信息。
 title: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数的信息。
-subtopic: 入门指南
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 
 ---
 
@@ -30,7 +30,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | timeout | 数值 | 通过 UI 设置的值 | 表示 Target 边缘请求超时 |
 | globalMboxAutoCreate | 布尔值 | 通过 UI 设置的值 | 指示是否应触发全局 mbox 请求 |
 | visitorApiTimeout | 数值 | 2000 毫秒 = 2 秒 | 表示访客 API 请求超时 |
-| enabled | 布尔值 | true | 指示是否将 at.js 作为库启用，这意味着它是否应执行任何内容。此设置的主要用例是选择退出 Cookie 或其他自定义决定，这些决定会禁用 at.js 功能 |
+| enabled | 布尔值 | true | 启用后，将自动执行用于检索体验的Target请求和用于渲染体验的DOM操作。 此外，Target调用可通过手动执行 `getOffer(s)` /禁用 `applyOffer(s)`<br>后，Target请求不会自动或手动执行 |
+| pageLoadEnabled | 布尔值 | true | 启用后，将自动检索页面加载时必须返回的体验 |
+| viewsEnabled | 布尔值 | true | 启用后，将自动检索页面加载时必须返回的视图。 at.js 2支持查看。*仅限* x |
 | defaultContentHiddenStyle | 字符串 | 可见性：隐藏 | 仅用于封装使用类名为“mboxDefault”且通过 `mboxCreate()`、`mboxUpdate()` 或 `mboxDefine()` 执行的 DIV 的 mbox 以隐藏默认内容 |
 | defaultContentVisibleStyle | 字符串 | 可见性：显示 | 仅用于封装使用类名为“mboxDefault”且通过 `mboxCreate()`、`mboxUpdate()` 或 `mboxDefine()` 执行的 DIV 的 mbox 以显示应用的选件（如果有）或默认内容 |
 | bodyHiddenStyle | 字符串 | body { opacity: 0 } | 仅在 `globalMboxAutocreate === true` 时使用，以尽量减少出现闪烁的情况。<br>有关更多信息，请参阅 [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。 |
@@ -38,14 +40,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | imsOrgId | 字符串 | IMS 组织 ID | 表示 IMS 组织 ID |
 | secureOnly | 布尔值 | false | 指示 at.js 应仅使用 HTTPS 还是允许基于页面协议在 HTTP 和 HTTPS 之间切换。 |
 | overrideMboxEdgeServer | 布尔值 | true （从 at.js 版本 1.6.2 开始为 true） | 指示我们是应使用 `<clientCode>.tt.omtrdc.net` 域还是 `mboxedge<clusterNumber>.tt.omtrdc.net` 域。<br>如果此值为 true，`mboxedge<clusterNumber>.tt.omtrdc.net` 域将被保存到 Cookie 中 |
-| overrideMboxEdgeServerTimeout | 数值 | 1860000 =&gt; 31 分钟 | 指示包含 `mboxedge<clusterNumber>.tt.omtrdc.net` 值的 Cookie 生命周期。 |
+| overrideMboxEdgeServerTimeout | 数值 | 1860000 => 31 分钟 | 指示包含 `mboxedge<clusterNumber>.tt.omtrdc.net` 值的 Cookie 生命周期。 |
 | optoutEnabled | 布尔值 | false | 指示 Target 是否应调用访客 API `isOptedOut()` 函数。这是启动设备图形的一部分。 |
 | selectorsPollingTimeout | 数值 | 5000 毫秒 = 5 秒 | 在 at.js 0.9.6 中，Target 引入了这个新设置，它可通过 `targetGlobalSettings` 覆盖。<br>`selectorsPollingTimeout` 表示客户端愿意等待多长时间，让选择器标识的所有元素都显示在页面上。<br>通过可视化体验编辑器 (VEC) 创建的活动具有包含选择器的选件。 |
 | dataProviders | 请参阅下面的“数据提供程序”。 | 请参阅下面的“数据提供程序”。 | 请参阅下面的“数据提供程序”。 |
 
 ## 使用情况 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-此函数可在 at.js 加载之前或在&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]** &gt; **[!UICONTROL 编辑 at.js 设置]** &gt; **[!UICONTROL 代码设置]** &gt; **[!UICONTROL 库标头]**&#x200B;中进行定义。
+此功能可在 at.js 加载之前或在&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 实施]** > **[!UICONTROL 编辑 at.js 设置]** > **[!UICONTROL 代码设置]** > **[!UICONTROL 库标头]**&#x200B;中进行定义。
 
 “库标头”字段允许您输入自由格式的 JavaScript。自定义代码应与以下示例类似：
 
@@ -176,7 +178,7 @@ var weatherProvider = {
 
 ## serverState {#server-state}
 
-`serverState` 是at.js v2.2+中提供的设置，在实施Target的混合集成时，该设置可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的交付API或Target SDK来交付体验。 `serverState` 使at.js v2.2+能够直接应用从服务器端获取的内容中获取的体验，并作为所服务页面的一部分返回到客户端。
+`serverState` 是at.js v2.2+中提供的设置，当实施Target的混合集成时，该设置可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的交付API或Target SDK来交付体验。 `serverState` 使at.js v2.2+能够直接应用从服务器端获取的内容中获取的体验，并作为所服务页面的一部分返回到客户端。
 
 ### 先决条件
 
@@ -305,7 +307,7 @@ Consider the following when using `serverState`:
 
 * 应用 `serverState `选件时，at.js会考虑 `pageLoadEnabled` 和 `viewsEnabled` 设置，例如，如果设置为false，则不会应用页面加载 `pageLoadEnabled` 选件。
 
-   要打开这些设置，请在“ **[UICONTROL设置”&gt;“实施”&gt;“编辑设置”&gt;“启用页面加载”中启用切换]**。
+   要打开这些设置，请在“ **[UICONTROL设置”>“实施”>“编辑设置”>“启用页面加载”中启用切换]**。
 
    ![启用页面加载设置](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 

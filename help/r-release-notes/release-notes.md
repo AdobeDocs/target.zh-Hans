@@ -5,7 +5,7 @@ title: 'Adobe Target 发行说明（当前版本） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
 
 ---
 
@@ -33,6 +33,31 @@ source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
    >
 * 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
+
+## Adobe Experience cloud导航（2019年2月22日）
+
+* 登录到时，您 [!DNL Adobe Experience Cloud]将转到新的标题导航。 它看起来与上一个导航非常相似，顶部有黑条，但它提供了以下改进：
+
+   * 更轻松地在 [!DNL Identity Management System] (IMS)组织之间切换或切换到其他解决方案。
+   * 改进的用户帮助：搜索结果包括产品文档中的结 [!DNL Target] 果、社区论坛和更多视频内容，让您能够更轻松地访问更多内容，从而帮助您发挥最大作用 [!DNL Target]。 我们还在“帮助”菜单中添加了反 [!UICONTROL 馈机制] ，使报告问题或分享您的想法更加容易。
+
+   * 改进了Net Promoter Score(NPS)反馈功能，因此调查模式不会干扰您的工作流。
+   * 改进了登录流程。 以前，所 [!DNL Target] 有客户在单击标题中的图标后都登 [!DNL Target] 录到Target登录页面。 然后，此页允许客户继续执行 [!DNL Target Standard/Premium]、 [!DNL Search&Promote]或 [!DNL Recommendations Classic]，如下所示：
+
+      ![登陆页面](/help/r-release-notes/assets/landing.png)
+
+      我们为所有客户取消了此登录页面。 现在，您始终可以通过单击新标题导 [!UICONTROL 航栏中的图标，直][!DNL Target] 接转到“活动列表”页面。
+
+      如果您使 [!DNL Recommendations Classic]用，您可以直接转到解决方案，也可以从在“推荐”选项卡上创建的简短链 [!UICONTROL 接] ，如下所示：
+
+      ![Recs Classic深层链接](/help/r-release-notes/assets/recs-classic.png)
+
+      如果您使 [!DNL Search&Promote]用，则需要直接转到 [Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)。 从内部到达 [!DNL Search&Promote] 的路径已 [!DNL Adobe Target] 完全删除。
+
+   * 标题 [!DNL Target] 的“通知”下拉框 [!UICONTROL 中] ，当前不提供通知。
+   >[!NOTE]
+   >
+   >作为新导航栏转出的一部分，您还会注意到一些URL更改。 所有以前已添加书签的链接将继续有效，但我们建议您为新链接加入书签以加快打开速度。
 
 ## Target Standard/Premium 20.2.1（2020 年 2 月 19 日） 
 

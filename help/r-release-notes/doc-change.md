@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: a7929ef8070dbe94c43832df915c6b75cd69f0a7
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2月21日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关新的Adobe Experience cloud导航的信息。 |
 | 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 添加了以下设置的信息： `pageLoadEnabled` 和 `viewsEnabled`。 |
 | 2 月 19 日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了有关mbox.js库即将弃用的信息。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | 添加了 `mboxOverride.browserIp` at.js 1中支持的注意事项。*x*。 |

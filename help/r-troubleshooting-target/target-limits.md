@@ -5,7 +5,7 @@ title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
+source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 ---
 
@@ -192,9 +192,7 @@ source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
 
 **建议对每个帐户的配置文件脚本总数进行限制**:零点二万
 
-**限制配置文件脚本复杂性的建议**:配置文件脚本可以执行有限数量的指令。 有关详细信息，请参 [阅配置文件](/help/c-target/c-visitor-profile/profile-parameters.md#best) 属性 [的最佳实践](/help/c-target/c-visitor-profile/profile-parameters.md)。
-
-**建议限制**：每个配置文件脚本最多 500,000 个循环。
+**限制配置文件脚本复杂性的建议**:配置文件脚本可以执行有限数量的指令。 有关详细信息，请参 [阅配置文件](/help/c-target/c-visitor-profile/profile-parameters.md#best) 属性 *的最佳实践*。
 
 ## 属性
 

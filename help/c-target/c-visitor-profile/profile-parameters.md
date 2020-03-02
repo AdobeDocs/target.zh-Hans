@@ -5,7 +5,7 @@ title: Adobe Target 中的配置文件属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
+source-git-commit: c408a4c7169c8a94c6c303e54f65391a0869b634
 
 ---
 
@@ -14,18 +14,26 @@ source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 配置文件属性是特定于访客的参数。这些属性存储在访客的配置文件中，提供了可在您的活动中使用的关于访客的信息。
 
-当访客浏览您的网站或者返回网站进行另一个会话时，可使用保存的配置文件属性定位内容或记录信息以便筛选客户群。
+用户配置文件包含网页访客的人口统计和行为信息，如年龄、性别、购买的产品、上次访问时间等，以便Target用来个性化其为访客提供的内容。
 
-要设置配置文件属性，请单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 配置文件脚本]**。
+当访客浏览您的网站时，或访客返回其他会话时，配置文件中保存的配置文件属性可用于定位内容或日志信息以进行细分。
 
-![“配置文件脚本”选项卡](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+要设置配置文件属性，请执行以下操作：
 
-可以使用以下类型的配置文件属性：
+1. 单击“ **[!UICONTROL 受众]** ”>“ **[!UICONTROL 配置文件脚本”。]**
 
-| 参数类型 | 描述 |
-|--- |--- |
-| mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****注意：Target 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 Target，则可以使用配置文件更新 API 方法进行传递。For more information, see[Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
-| 脚本 | 直接使用 JavaScript 代码段定义。这些参数能够保存运行的总数，如消费者花费的总金额，并能基于每个 mbox 请求来执行。请参阅下面的“配置文件脚本属性”。 |
+   ![“配置文件脚本”选项卡](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+
+1. 单击“ **[!UICONTROL 创建脚本]**”。
+
+   ![“创建配置文件脚本”对话框](/help/c-target/c-visitor-profile/assets/create-script.png)
+
+   可以使用以下类型的配置文件属性：
+
+   | 参数类型 | 描述 |
+   |--- |--- |
+   | mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****注意：Target 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 Target，则可以使用配置文件更新 API 方法进行传递。For more information, see[Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+   | Profile | 直接使用 JavaScript 代码段定义。这些参数能够保存运行的总数，如消费者花费的总金额，并能基于每个 mbox 请求来执行。请参阅下面的“配置文件脚本属性”。 |
 
 ## 配置文件脚本属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
@@ -43,13 +51,13 @@ source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 或
 
-要复制现有的配置文件脚本，请在[!UICONTROL 配置文件脚本]列表中将鼠标悬停在所需脚本上，然后单击&#x200B;**[!UICONTROL 复制]**&#x200B;图标：(assets/icon_copy.png)
+To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 然后，您可以对受众进行编辑以创建一个类似的受众。
 
 ![“创建配置文件脚本”对话框](assets/profile-script.png)
 
-配置文件脚本会对每个位置请求运行配置文件属性“catchers”。收到位置请求后，Target 会确定应运行的活动，显示对该活动和该体验适用的内容，跟踪活动是否成功，并运行任何相关的配置文件脚本。这样，您可以跟踪有关访问的信息，例如访客的位置、时间、该访客访问网站的次数以及他们之前是否购买过商品等。然后，这些信息将添加到访客的配置文件中，以便您可以更好地跟踪访客在您网站上的活动。
+配置文件脚本会对每个位置请求运行配置文件属性“catchers”。收到位置请求后，Target 会确定应运行的活动，显示对该活动和该体验适用的内容，跟踪活动是否成功，并运行任何相关的配置文件脚本。这使您能够跟踪有关访问的信息，如访客的位置、时间、访客访问网站的次数（如果他们以前购买过）等。 然后，这些信息将添加到访客的配置文件中，以便您可以更好地跟踪访客在您网站上的活动。
 
 配置文件脚本属性在属性名称之前插入 `user.` 标记。例如：
 
@@ -60,6 +68,8 @@ if (mbox.name == 'Track_Interest') {
     } 
 }
 ```
+
+请牢记以下信息：
 
 * 在代码中使用 `user.get('parameterName')` &#39;) 引用配置文件脚本属性（包括其自身）。
 * 保存下次使用 `user.setLocal('variable_name', 'value')` &#39;) 运行脚本时（对下一个 mbox 请求）可能访问的变量。使用 `user.getLocal('variable_name')` 引用变量。当您想引用上次请求的日期和时间时，此脚本非常有用。
@@ -87,10 +97,9 @@ if (mbox.name == 'Track_Interest') {
 > * 活动中使用的内容或选件使用了脚本变量（活动中的内联选件或选件库中的选件）。
 
 
-
 ## Target 在某些情况下会禁用配置文件脚本 {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-在某些情况下（例如，如果配置文件脚本执行时间过长或者指令过多），[!DNL Target] 会自动禁用配置文件脚本。
+[!DNL Target] 在某些情况下自动禁用配置文件脚本，例如执行时间过长或指令过多时。
 
 禁用某个配置文件脚本后，Target UI 中的该配置文件脚本旁边会显示一个黄色警报图标，如下图所示：
 
@@ -111,25 +120,23 @@ if (mbox.name == 'Track_Interest') {
 
 下列准则旨在帮助编写简化的配置文件脚本，尽量减少出现错误，从而无需强制中断系统脚本即可对脚本进行处理。这些准则是从经过验证可高效运作的最佳实践中得出的。这些规范将与 Rhino 开发社区制定的原则和建议一起应用。
 
-* 将当前脚本值设定为用户脚本中的局部变量，将故障转移设置为空字符串。
+* 将当前脚本值设置为用户脚本中的本地变量，将故障转移设置为空字符串。
 * 通过确保局部变量为非空字符串验证局部变量。
-* 使用基于字符串的操作函数和正则表达式。
+* 使用基于字符串的操作函数与正则表达式。
 * 使用限制性 for 循环与开放式 for 或 while 循环。
 * 切勿超过 1,300 个字符或 50 次循环迭代。
 * 切勿超过 2,000 条 JavaScript 指令。Target 限制每个脚本只能使用 2,000 条 JavaScript 指令，但这不能简单地通过人工读取 JavaScript 的方式来计算。例如，Rhino 会将所有函数调用和“新”调用视为 100 条指令。此外，任何输入数据（例如 URL 值）的大小可能会对指令计数产生影响。
 * 不仅要注意脚本性能，还要注意所有脚本的组合性能。作为最佳实践，我们建议指令总数要少于 5,000 条。计算指令数量的效果并不明显，但需要注意的重要事项是，超过 2 KB 的脚本会被自动禁用。对于您可以运行的脚本数量，没有设置限制，但在每一次 mbox 调用时均会执行每个脚本。应只运行所需数量的脚本。
 * 在正则表达式中，几乎不需要在开头使用点和星形符号（例如：`/.*match/`、`/a|.*b/`）。正则表达式搜索将从字符串中的任意位置开始（除非与 `^` 绑定），因此其已经假定包含点和星形符号。如果此类正则表达式与足够长的输入数据相匹配（最少可达几百个字符），则脚本执行可能会中断。
 * 如果全部失败，则将脚本嵌套在 try/catch 中。
-* 限制配置文件脚本复杂性的建议。
-
-   配置文件脚本可以执行有限数量的指令。
+* 以下建议可以帮助您限制配置文件脚本的复杂性。 配置文件脚本可以执行有限数量的指令。
 
    作为最佳实践：
 
    * 尽量缩小和简化配置文件脚本。
    * 避免使用正则表达式或仅使用非常简单的正则表达式。 即使是简单的表达式，也可能需要很多说明来评估。
    * 避免递归。
-   * 在将配置文件脚本添加到Target之前，应对配置文件脚本进行性能测试。 所有配置文件脚本都对每个mbox请求执行。 如果配置文件脚本不能正确执行，则mbox请求的执行时间会更长，这可能会影响流量和转化。
+   * 在将配置文件脚本添加到Target之前，应对配置文件脚本进行性能测试。 所有配置文件脚本都对每个mbox请求执行。 如果配置文件脚本不能正确执行，则执行mbox请求需要更长时间。 这可能会影响流量和转化率。
    * 如果配置文件脚本变得过于复杂，请考虑改 [用响应令牌](/help/administrating-target/response-tokens.md) 。
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -140,12 +147,12 @@ if (mbox.name == 'Track_Interest') {
 
 测试互斥活动可防止一个活动中的访客影响其他活动的测试结果。当访客参加多个活动时，很难确定访客在一个活动中的体验产生的是正提升度还是负提升度，或者多个活动之间的交互是否影响了一个或多个活动的结果。
 
-例如，您可以测试电子商务系统的两个区域：测试红色的“添加至购物车”按钮，而非蓝色按钮；另外还测试从五个步骤减少到两个的新的结账流程。如果两个活动具有相同的成功事件（完成的购买），则很难确定红色按钮是否提高了转化次数，或者改进的结账流程是否也导致增加了这些相同的转化次数。通过将测试分为互斥活动，您可以独立测试每个更改。
+例如，您可以测试电子商务系统的两个区域：您可能希望测试“添加到购物车”按钮是红色而非蓝色。 另外还测试从五个步骤减少到两个的新的结账流程。如果两个活动都有相同的成功事件（完成的购买），则很难确定红色按钮是否提高了转化率，或者由于改进了结帐流程，这些相同的转化率是否也增加了。 通过将测试分为互斥活动，您可以独立测试每个更改。
 
 使用下面的任一配置文件脚本时，请注意以下信息：
 
 * 配置文件脚本必须在活动启动之前运行，且该脚本必须在活动持续时间段内保持不变。
-* 此技巧将会减少活动中的流量，从而导致活动可能需要运行更长时间。您在估算活动的持续时间时必须考虑到这一事实。
+* 此技术可减少活动中的流量，这可能需要活动运行更长时间。 您在估算活动的持续时间时必须考虑到这一事实。
 
 ### 设置两个活动
 
@@ -162,17 +169,17 @@ if (!user.get('twogroups')) {
 }
 ```
 
-`if (!user.get('twogroups'))` 确定 *twogroups* 配置文件属性是否针对当前访客设定。如果是，则无需进行下一步操作。
+* `if (!user.get('twogroups'))` 确定 *twogroups* 配置文件属性是否针对当前访客设定。如果是，则无需进行下一步操作。
 
-`var ran_number=Math.floor(Math.random() *99)` 声明了一个名为 ran_number 的新变量，将其值设置为介于 0 和 1 之间的随机小数，然后乘以 99 并进行四舍五入以创建 100 (0-99) 以内的范围，这用于指定查看活动的访客百分比。
+* `var ran_number=Math.floor(Math.random() *99)` 声明了一个名为 ran_number 的新变量，将其值设置为介于 0 和 1 之间的随机小数，然后乘以 99 并进行四舍五入以创建 100 (0-99) 以内的范围，这用于指定查看活动的访客百分比。
 
-`if (ran_number <= 49)` 开始一个例程，确定访客属于哪一群组。如果返回 0-49，则将访客分配到 GroupA。如果返回 50-99，则分配到 GroupB。组决定了访客可查看的活动。
+* `if (ran_number <= 49)` 开始一个例程，确定访客属于哪一群组。如果返回 0-49，则将访客分配到 GroupA。如果返回 50-99，则分配到 GroupB。组决定了访客可查看的活动。
 
-创建配置文件属性后，通过要求用户配置文件参数 user.twogroups 匹配 GroupA 指定的值，设置第一个活动以定位所需的群体。
+After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
 
 >[!NOTE]
 >
->请尽早在页面上选择一个 mbox。这段代码判定某位访客是否体验了营销活动。只要浏览器第一次遇到 mbox，就能利用该 mbox 设置此值。
+>请尽早在页面上选择一个 mbox。此代码确定访客是否体验了活动。 只要浏览器第一次遇到 mbox，就能利用该 mbox 设置此值。
 
 设置第二个营销活动，使用户配置文件参数 `user.twogroups` 匹配 GroupB 指定的值。
 
@@ -256,7 +263,7 @@ if (!user.get('threegroups')) {
 
 ## 脚本配置文件参数的 JavaScript 引用
 
-需要具备简单的 Javascript 知识才能有效地使用脚本配置文件参数。本节提供了一个快速参考，借助此参考，您在几分钟内便可以高效地使用此功能。
+要有效地使用脚本配置文件参数，需要简单的Javascript知识。 本节提供了一个快速参考，借助此参考，您在几分钟内便可以高效地使用此功能。
 
 “脚本配置文件参数”位于 mbox/配置文件选项卡下。您可以编写返回任何 Javascript 类型（字符串、整数、数组等）的 Javascript 程序。
 
@@ -312,7 +319,6 @@ else if (mbox.param("adobeQA"))
 
 创建一个名为的变 `adobeQA` 量，用于跟踪用户的 [活动QA](/help/c-activities/c-activity-qa/activity-qa.md)。
 
-
 ### 对象和方法
 
 脚本配置文件参数可以引用以下属性和方法：
@@ -321,7 +327,7 @@ else if (mbox.param("adobeQA"))
 | --- | --- |
 | `page.url` | 当前 URL。 |
 | `page.protocol` | 页面使用的协议（http 或 https）。 |
-| page.domain | 当前的 URL 域（第一个斜杠之前的所有内容）。例如，`http://www.acme.com/categories/men_jeans?color=blu e&size=small` 中的 `www.acme.com`。 |
+| `page.domain` | 当前的 URL 域（第一个斜杠之前的所有内容）。例如，`http://www.acme.com/categories/men_jeans?color=blu e&size=small` 中的 `www.acme.com`。 |
 | `page.query` | 当前页面的查询字符串。“?”之后的所有内容。例如，`http://www.acme.com/categories/mens_jeans?color=blue&size=small` 中的 `blue&size=small`。 |
 | `page.param(‘<par_name>’)` | `<par_name>` 表示的参数的值。如果当前 URL 是 Google 搜索页面，而且您已经输入 `page.param('hl')`，则对于 URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`，您将获得“en”。 |
 | `page.referrer` | 与上述相同的一组操作适用于反向链接和登陆（即 referrer.url 将是反向链接的 URL 地址）。 |

@@ -5,7 +5,7 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
 
 ---
 
@@ -39,19 +39,31 @@ source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
    通过将所有客户迁移到at.js，我们的工程师和支持人员将能够为您提供新功能并为您提供Adobe所期望的支持。
 
 
-## Target Standard/Premium 20.2.1（2020 年 2 月 19 日） 
+## Target Standard/Premium 20.2.1（2020 年 3 月 3 日）
 
 >[!IMPORTANT]
 >
 >请参阅上述关于mbox.js弃用的信息。
 
-此版本包含以下增强功能和修复：
+此版本包含以下增强、修复和更改：
 
 * 修复了客户在执行目录搜索时无法选择集合的问题。 (TGT-36230)
 * 修复了通过API创建的条件（但未由在目标UI中创建的活动引用）可能从UI中错误删除的问题。 (TGT-35917)
 * 对内容安全策略(CSP)实施了安全改进。 (TGT-36190)
 * 修复了在将“属性加权”百分比条滑向最左侧时，导致显示“NaN%”的问题。 (TGT-36211)
 * 解决了本地化问题，以便正确显示不同语言的UI文本。
+* 对于2020年3月发布的Analytics for Target(A4T)，不再支持以下Adobe Analytics指标：
+   * averagevisdepth
+   * 机器人
+* 不再支持以下度量，并在用户首次修改包含该度量的活动时自动转换为同一度量的新版本：
+
+   | 已弃用的度量 | 新建量度 |
+   |--- |--- |
+   | `averagetimespentonpage` | `averagetimespentonsite` (附注：以分钟而非秒为单位) |
+   | `instances` | `occurrences` |
+   | `singleaccess` | `singlepagevisits` |
+   | `uniquevisitors` | `visitors` |
+   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

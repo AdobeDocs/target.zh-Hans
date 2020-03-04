@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target 产品文档
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2020 年 2 月 21 日（[请参阅“更改了哪些内容”](r-release-notes/doc-change.md)）**
+**上次更新时间：2020年3月4日(请参[阅更改内容](r-release-notes/doc-change.md))**
 
 以下部分将向您介绍本指南中的有用链接，这些链接是按照目标受众并基于典型的工作职能来排列的：
 
@@ -48,8 +48,8 @@ source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
 
 - [实施 Target](c-implementing-target/implementing-target.md)：说明如何在网站、移动设备应用程序、单页应用程序 (SPA) 和 iOT/OTT 平台上实施 [!DNL Target]。
 - [目标服务器端API](https://developers.adobetarget.com/api/delivery-api/):描述组成Adobe Target Delivery API的资源。
-- [目标节点JS SDK](https://github.com/adobe/target-nodejs-sdk):介绍如何部署Target服务器端。 此Node.js SDK可帮助您将Target轻松集成到其他Adobe Experience cloud解决方案中。
-- [目标Java SDK](https://github.com/adobe/target-java-sdk):介绍如何部署Target服务器端。 此Java SDK可帮助您将Target轻松集成到其他Adobe Experience cloud解决方案中。
+- [目标节点JS SDK](https://github.com/adobe/target-nodejs-sdk):介绍如何部署Target服务器端。 此Node.js SDK可帮助您将Target轻松集成到其他Adobe Experience Cloud解决方案中。
+- [目标Java SDK](https://github.com/adobe/target-java-sdk):介绍如何部署Target服务器端。 此Java SDK可帮助您将Target轻松集成到其他Adobe Experience Cloud解决方案中。
 - [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/):描述组成正式Adobe Target Recommendations API的资源。
 - [目标Adobe.IO文档](http://developers.adobetarget.com/api/#introduction):介绍如何使用Target的Admin和Profile REST API，这些API使用Adobe.IO集成来管理活动、受众、选件、属性、报告、mbox、环境和配置文件。
 
@@ -70,4 +70,4 @@ source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
 
 | Adobe [!DNL Target] 解决方案帮助 | [!DNL Adobe Experience Cloud] 资源 |
 |--- |--- |
-| <ul><li>[Adobe Target学习和支持](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Target API 文档](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target 社区论坛](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud 帮助主页](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience cloud文档](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Adobe 培训和教程](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target学习和支持](https://helpx.adobe.com/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Target API 文档](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target 社区论坛](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud 帮助主页](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud文档](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Adobe 培训和教程](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |

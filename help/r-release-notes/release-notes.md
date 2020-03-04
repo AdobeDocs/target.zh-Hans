@@ -5,7 +5,7 @@ title: 'Adobe Target 发行说明（当前版本） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
+source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
 
 ---
 
@@ -34,7 +34,33 @@ source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
 * 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
 
-## Adobe Experience cloud导航（2019年2月22日）
+## Target Standard/Premium 20.2.1（2020 年 3 月 3 日）
+
+>[!IMPORTANT]
+>
+>请参阅上述关于mbox.js弃用的信息。
+
+此版本包含以下增强、修复和更改：
+
+* 修复了客户在执行目录搜索时无法选择集合的问题。 (TGT-36230)
+* 修复了通过API创建的条件（但未由在目标UI中创建的活动引用）可能从UI中错误删除的问题。 (TGT-35917)
+* 对内容安全策略(CSP)实施了安全改进。 (TGT-36190)
+* 修复了在将“属性加权”百分比条滑向最左侧时，导致显示“NaN%”的问题。 (TGT-36211)
+* 解决了本地化问题，以便正确显示不同语言的UI文本。
+* 对于2020年3月发布的Analytics for Target(A4T)，不再支持以下Adobe Analytics指标：
+   * averagevisdepth
+   * 机器人
+* 不再支持以下度量，并在用户首次修改包含该度量的活动时自动转换为同一度量的新版本：
+
+   | 已弃用的度量 | 新建量度 |
+   |--- |--- |
+   | `averagetimespentonpage` | `averagetimespentonsite` (附注：以分钟而非秒为单位) |
+   | `instances` | `occurrences` |
+   | `singleaccess` | `singlepagevisits` |
+   | `uniquevisitors` | `visitors` |
+   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+
+## Adobe Experience Cloud导航（2019年2月22日）
 
 * 登录到时，您 [!DNL Adobe Experience Cloud]将转到新的标题导航。 它看起来与上一个导航非常相似，顶部有黑条，但它提供了以下改进：
 
@@ -59,20 +85,6 @@ source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
    >
    >作为新导航栏转出的一部分，您还会注意到一些URL更改。 所有以前已添加书签的链接将继续有效，但我们建议您为新链接加入书签以加快打开速度。
 
-## Target Standard/Premium 20.2.1（2020 年 2 月 19 日） 
-
->[!IMPORTANT]
->
->请参阅上述关于mbox.js弃用的信息。
-
-此版本包含以下增强功能和修复：
-
-* 修复了客户在执行目录搜索时无法选择集合的问题。 (TGT-36230)
-* 修复了通过API创建的条件（但未由在目标UI中创建的活动引用）可能从UI中错误删除的问题。 (TGT-35917)
-* 对内容安全策略(CSP)实施了安全改进。 (TGT-36190)
-* 修复了在将“属性加权”百分比条滑向最左侧时，导致显示“NaN%”的问题。 (TGT-36211)
-* 解决了本地化问题，以便正确显示不同语言的UI文本。
-
 ## 其他发行说明和版本详细信息
 
 | 资源 | 详细信息 |
@@ -80,7 +92,7 @@ source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
 | [发行说明——目标服务器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 与Adobe Target的服务器端API相关的发行说明。 |
 | [发行说明——目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 与Adobe Target的Node.js SDK相关的发行说明。 |
 | [发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 与Adobe Target的Java SDK相关的发行说明。 |
-| [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 有关Adobe Target at.js javaScript库各版本中更改的详细信息。 |
+| [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 有关Adobe Target at.js JavaScript库各版本中更改的详细信息。 |
 | [mbox.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md) | 此页面显示对 mbox.js 的每个版本所做的更改。<br>请注意，mbox.js库不再在开发中。 所有客户都应该从 mbox.js 迁移到 at.js。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明 {#section_1BC5F5208DA548E9B4344A0836E4B943}
@@ -91,7 +103,7 @@ source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
 |--- |--- |
 | 文档更改 | 查看可能未包含在这些发行说明中的针对该指南的详细更新信息。<br>有关更多信息，请参阅[文档更改](../r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)。 |
 | 以前版本的发行说明 | 查看与以前版本的 Target Standard 和 Target Premium 中的新增功能和增强功能相关的信息。<br>有关更多信息，请参阅[以前版本的发行说明](../r-release-notes/release-notes-for-previous-releases.md)。 |
-| Adobe Experience Cloud 发行说明 | 查看 Adobe Experience Cloud 解决方案的最新发行说明。<br>有关详细信息，请参 [阅Experience cloud发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。 |
+| Adobe Experience Cloud 发行说明 | 查看 Adobe Experience Cloud 解决方案的最新发行说明。<br>有关详细信息，请参 [阅Experience Cloud发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。 |
 
 ## 预发行信息 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

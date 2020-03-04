@@ -1,12 +1,12 @@
 ---
-keywords: 概述和参考
+keywords: Overview and Reference
 description: Adobe Target 启用了一些流程和设置，使您能够在遵守适用数据隐私法律的情况下使用 Target。
 title: 隐私
-subtopic: 入门指南
+subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 85b736bb70a46ff06b765cfabaca298d9590edbe
 
 ---
 
@@ -25,9 +25,15 @@ Adobe 制定了新的“从设计着手保护隐私”(privacy by design) 设置
 
 当启用此功能时，会对 IP 地址进行充分地匿名化处理，以便它不能再被识别为个人信息。因此，Adobe Target 的使用符合国家/地区数据隐私法律，这些国家/地区不允许收集个人信息。获取城市级别信息很有可能会受到 IP 地址模糊处理的影响。获得地区和国家级别信息应该只会受到轻微影响。
 
-还有一个可用于对整个 IP 地址进行模糊处理的设置。
-
 请联系 Adobe ClientCare 以启用 IP 模糊处理功能。
+
+以下设置可供使用：
+
+* 无混淆：Target不会隐藏IP地址的任何部分。
+* 最后八位字节：Target会隐藏IP地址的最后八位字节。
+* 完整IP:Target将隐藏整个IP地址。
+
+Target接收完整的IP地址并将其模糊化（如果设置为“最后八位字节”或“完整的IP”）。 然后，Target在会话期间将模糊化的IP地址保存在内存中。
 
 ## 地域划分 {#section_BB69F96559BD44BDA4177537C4A5345A}
 

@@ -1,11 +1,11 @@
 ---
 keywords: target documentation change log;documentation updates;new topics;edits
-description: 本页列出了对Adobe target文档所做的重要更改（按版本排序）。
+description: 本页列出了对Adobe Target文档所做的重要更改（按版本排序）。
 title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a7929ef8070dbe94c43832df915c6b75cd69f0a7
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -18,7 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 2月21日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关新的Adobe Experience cloud导航的信息。 |
+| 3月4日 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 更新了整个主题，对“最佳实践”部分作了大量修订。 |
+| 2月21日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关新的Adobe Experience Cloud导航的信息。 |
 | 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 添加了以下设置的信息： `pageLoadEnabled` 和 `viewsEnabled`。 |
 | 2 月 19 日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了有关mbox.js库即将弃用的信息。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | 添加了 `mboxOverride.browserIp` at.js 1中支持的注意事项。*x*。 |
@@ -96,7 +97,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2019 年 10 月 17 日 | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新了主题，以说明活动QA如何与第三方Cookie一起使用。 |
-|  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新的发行说明，以包含有关对Unified shell的更改的信息。 |
+|  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新的发行说明，以包含有关对Unified Shell的更改的信息。 |
 | 2019 年 10 月 10 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 添加了新部分：&quot;serverState.&quot; |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关at.js 2.2和at.js 1.8版本的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关at.js 2.2和at.js 1.8版本的信息。 |
@@ -106,7 +107,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [发行说明——目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新主题。 |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关V1/Delivery API和Node.js SDK版本的信息。 |
 | 2019 年 10 月 8 日 | [Target Insider新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 新主题包含指向第一批新闻稿的链接，并且还有更多内容。 |
-| 2019 年 10 月 3 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下内容： <ul><li>使用at.js 2创建体验时不进行任何修改的已知问题和解决办法。*x库* 。</li><li>通过API创建的集合、排除、条件和设计在Target用户界面中不可见，只能通过API编辑。</li><li>通过API创建的推荐活动可在用户界面中查看，但只能通过API编辑。</li></ul> |
+| 2019 年 10 月 3 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下内容： <ul><li>使用at.js 2创建体验时，无需修改的已知问题和解决方法。*x库* 。</li><li>通过API创建的集合、排除、条件和设计在Target用户界面中不可见，只能通过API编辑。</li><li>通过API创建的推荐活动可在用户界面中查看，但只能通过API编辑。</li></ul> |
 |  | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | 在“mboxDebug”部分添加了注释。 |
 | 2029 年 10 月 2 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发布的版本的信息。 |
 | 2019 年 10 月 1 日 | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 更新了“客户属性”部分中的文本。 |

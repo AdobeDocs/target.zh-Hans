@@ -5,7 +5,7 @@ title: 'Adobe Target 发行说明（当前版本） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
 * 对于2020年3月发布的Analytics for Target(A4T)，不再支持以下Adobe Analytics指标：
    * averagevisdepth
    * 机器人
-* 不再支持以下度量，并在用户首次修改包含该度量的活动时自动转换为同一度量的新版本：
+* 不再支持以下度量，并在用户首次修改包含度量的活动时自动转换为度量的新版本：
 
    | 已弃用的度量 | 新建量度 |
    |--- |--- |

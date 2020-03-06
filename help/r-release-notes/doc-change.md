@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0d9d88a7d3559621cdd49eecffaed0dd178047fa
+source-git-commit: 97f48e317b8d73d61c6262884ef689ffba645428
 
 ---
 
@@ -19,6 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 3月6日 | [隐私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 在“替换IP地址的最后八位字节”部分中添加了更多信息。 |
+|  | [发行说明](/help/r-release-notes/release-notes.md) | 将发布日期更改为3月9日。 |
 | 3月4日 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 更新了整个主题，对“最佳实践”部分作了大量修订。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md) | 将发布日期更改为3月9日。 |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关在使用Target for Analytics(A4T)时已弃用和更改的度量的信息。 |

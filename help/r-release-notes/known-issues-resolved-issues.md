@@ -23,7 +23,7 @@ source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ### 页面交付 {#page-delivery}
 
-如果您添加模板规则，如页面分发中的URL包含(/checkout, /cart) [](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)，则在规则前面会添加额外的空格。 这是一个外观问题，不会影响受众定义的创建和选件交付。 (TGT-35916)
+如果您添加模板规则(如页面分发中的URL包含(/checkout, /cart)) [](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)，则在规则前面会添加额外的空格。 这是一个外观问题，不会影响受众定义的创建和选件交付。 (TGT-35916)
 
 ### 活动 QA 预览链接 {#preview}
 

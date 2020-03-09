@@ -1,9 +1,9 @@
 ---
-keywords: 多值；属性；推荐；多值；多值
+keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: 有关使用特殊多值运算符在Adobe Target Recommendations中使用多值字段的信息。
 title: 在Adobe Target Recommendations中使用多值属性
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -20,14 +20,24 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 要识 [!DNL Recommendations] 别多值数据，应将其作为JSON数组发送，如下面的代码示例所示。
 
-## 在JavaScript中传递多值mbox参数
+## 在JavaScript中传递多值参数
 
 ```
- <!-- pass in the value of mbox parameter “favName” as JSON array -->
-<script type="text/javascript">
-   mboxCreate('myMbox','entity.id=<key>','favName=["a","b","c"]');
-</script>
+function targetPageParams() { 
+  return { 
+    'entity.id':                   '123', 
+    'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
+    'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
+    'entity.event.detailsOnly':     'true', 
+    'excludedIds":                  '[123, 3232, 2323, 4344]', 
+    'orderId":                      '123456', 
+    'orderTotal":                   '195.32', 
+    'productPurchaseId":            '[001,002,003]' 
+  }; 
+}
 ```
+
+有关详细信息，请参 [阅在自定义实体属性中实](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) 现 *多值属性*。
 
 ## 在CSV文件中传递多值实体属性
 

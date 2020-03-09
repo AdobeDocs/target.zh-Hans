@@ -1,12 +1,12 @@
 ---
-keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations
+keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: Adobe Target 启用了一些流程和设置，使您能够在遵守适用数据隐私法律的情况下使用 Target。
 title: 隐私
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 78984fffbc43b6ada6c39a9395ebf247d6b8ef4f
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 

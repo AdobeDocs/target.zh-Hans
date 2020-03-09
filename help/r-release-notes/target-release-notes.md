@@ -1,11 +1,11 @@
 ---
-keywords: release notes;releases;updates;future release;enhancements;new features;fixes
+keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates
 description: 发行说明，提供有关最新或即将发布的DNL Adobe Target版本的功能、增强和修复的信息。
 title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
 
 下列发行说明将介绍 [!DNL Adobe Target] 最新版本或即将发布的版本的功能、增强功能、修复信息和已知问题。
 
-**上次更新时间：2020 年 2 月 18 日**
+**上次更新日期：2020 年 9 月 3 日**
 
 >[!NOTE]
 >
@@ -39,7 +39,9 @@ source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
    通过将所有客户迁移到at.js，我们的工程师和支持人员将能够为您提供新功能并为您提供Adobe所期望的支持。
 
 
-## Target Standard/Premium 20.2.1（2020 年 3 月 9 日）
+## Target Standard/Premium 20.2.1（待确定）
+
+请在此处查阅该信息可用的确切日期。
 
 >[!IMPORTANT]
 >

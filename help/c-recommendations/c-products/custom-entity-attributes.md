@@ -1,10 +1,10 @@
 ---
-keywords: 多值实体属性;自定义实体属性;有效 JSON;实体属性值;JSON 数组;多值的;多值
+keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: 可使用单值和多值自定义实体属性来对目录中的项目定义其他相关信息。
 title: 自定义实体属性
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 多值实体自定义属性最多可以包含 500 个值。每个值的限制为 100 个字符。所有值的字符总数必须符合单值实体自定义属性的最大长度限制（请参阅上文）。
 
-## 自定义实体属性值 {#section_313331A9F8194A89B5EDD89363018651}
+## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
 
 自定义实体属性可以包含单个值或多个值。实体属性值会显示在产品视图中。
 
@@ -61,7 +61,7 @@ entity.genre=[“genre1”, “genre2”]
 * 数组必须包含单值类型。不支持混合值数组 ( `["AB",1,true]` )。
 * 包含嵌套 JSON 数组 ( `[10,12,[1,2,3]]` ) 的多值属性会被视为单值属性。
 
-## 实施多值属性 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 使用信息源 (CSV)、`targetPageParams`、交付 API 和保存实体 API 上传产品时，支持多值自定义实体属性。新值会替换当前值，而不进行附加。空数组 ( [] ) 会被视为没有值。
 
@@ -109,10 +109,16 @@ function targetPageParams() {
 
 **使用 API**
 
+您可以使用mbox参数中的交付API作为包含转义JSON数组的字符串值传递多值属性。
+
+```
+"execute": { "mboxes": [ { "index": 0, "name": "first-mbox", "parameters": { "entity.id": "32323", "entity.categoryId": "My Category", "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]" } }
+```
+
 See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
 using the Delivery and Save entities APIs.
 
-## 将运算符与多值属性配合使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
+## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 在算法包含规则、目录规则和排除规则中将运算符应用于多值自定义属性时，如果列表中至少有一个值符合运算规则（布尔运算“或”**），则结果将为 *true*。
 
@@ -136,7 +142,7 @@ using the Delivery and Save entities APIs.
 | 结束于 | 如果有任何属性值以输入值结尾，则结果为 true。 | `genre ends with abc`<br>用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值结束于 `abc`。<br>用例 2：`entity.genre = ["deabc", "de", "ef"]`。结果为 true，因为有一个值结束于 `abc`。 |
 | 大于或等于（仅限数字值） | 属性值会被转换为双精度类型。运行规则时将跳过无法转换的属性。<br>处理后，任何大于或等于输入值的属性值都将导致结果为 true。 | `price greater than or equal to 100`<br>用例 1：`entity.price = ["10", "20", "45"]`。结果为 false，因为没有值大于或等于 100。跳过了值 `de`，因为无法将其转换为双精度类型。<br>用例 2：`entity.price = ["100", "101", "90", "80"]`。结果为 true，因为有两个值大于或等于 100。 |
 | 小于或等于（仅限数字值） | 属性值会被转换为双精度类型。运行规则时将跳过无法转换的属性。<br>处理后，任何小于或等于输入值的属性值都将导致结果为 true。 | `price less than or equal to 100`<br>用例 1：`entity.price = ["101", "200", "141"]`。结果为 false，因为没有值小于或等于 100。跳过了值 `de`，因为无法将其转换为双精度类型。<br>用例 2：`entity.price = ["100", "101", "90", "80"]`。结果为 true，因为有两个值小于或等于 100。 |
-| 动态匹配（仅在基于项目的算法中可用） | 如果有任何属性值与输入值匹配，则结果为 true。 | `genre matches abc`<br>用例 1：`entity.genre = ["ab", "bc", "de"]`结果为 false，因为没有值与 `abc`。<br>用例 2：`entity.genre = ["abc", "de", "ef"]`。结果为 true，因为有一个值与 `abc`。 |
+| 动态匹配（仅在基于项目的算法中可用） | 如果有任何属性值与输入值匹配，则结果为 true。 | `genre matches abc`<br>用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值与 `abc`。<br>用例 2：`entity.genre = ["abc", "de", "ef"]`。结果为 true，因为有一个值与 `abc`。 |
 | 动态不匹配（仅在基于项目的算法中可用） | 如果有任何属性值与输入值匹配，则结果为 false。 | `genre does not match abc`<br>用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 true，因为没有值与 `abc`。<br>用例 2：`entity.genre = ["abc", "de", "ef"]`。结果为 false，因为有一个值与 `abc`。 |
 | 动态范围（仅在基于项目的算法中可用，仅限数字值） | 如果有任何数字属性值位于指定的范围内，则结果为 true。 | `price dynamically ranges in 80% to 120% of 100`<br>用例 1：`entity.price = ["101", "200", "125"]`。结果为 true，因为 `101` 在 100 的 80% 到 120% 范围内。跳过了值 `de`，因为无法将其转换为双精度类型。<br>用例 2：`entity.price = ["130", "191", "60", "75"]`。结果为 false，因为没有值在 100 的 80% 到 120% 范围内。 |
 
@@ -144,7 +150,7 @@ using the Delivery and Save entities APIs.
 >
 >*双精度类型*&#x200B;是一种 Java 数据类型。对于需要使用数字值的运算符，转换为双精度类型可避免在结果中考虑非数字值。
 
-## 设计中的多值属性 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 多值属性在设计中引用时，将显示为以逗号分隔的列表。
 

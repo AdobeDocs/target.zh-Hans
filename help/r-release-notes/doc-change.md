@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 759bd27a43cf831441d44b1d5c6b1f05f1d505d8
+source-git-commit: f26423b4f34ce824383da181deec3a87a7b62cc6
 
 ---
 
@@ -21,7 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 3月9日 | [隐私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 在“替换IP地址的最后八位字节”部分中添加了更多信息。 |
 |  | [使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 在JavaScript中传 *递多值参数中更新的代码示例*。 |
 |  | [自定义实体属性](/help/c-recommendations/c-products/custom-entity-attributes.md) | 在“实现多值属 *性”下的* “使 *用API”中添加了代码示例*。 |
-|  | [发行说明](/help/r-release-notes/release-notes.md) | 将发布日期更改为3月9日。 |
+|  | [发行说明](/help/r-release-notes/release-notes.md) | 表示此版本的日期尚未确定。 |
 | 3月4日 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 更新了整个主题，对“最佳实践”部分作了大量修订。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md) | 指示此发布日期尚未确定。 |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关在使用Target for Analytics(A4T)时已弃用和更改的度量的信息。 |

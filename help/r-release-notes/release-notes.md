@@ -5,7 +5,7 @@ title: 'Adobe Target 发行说明（当前版本） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -34,9 +34,7 @@ source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 * 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
 
-## Target Standard/Premium 20.2.1（待确定）
-
-请在此处查阅该信息可用的确切日期。
+## Target Standard/Premium 20.2.1（2020 年 3 月 17 日）
 
 >[!IMPORTANT]
 >

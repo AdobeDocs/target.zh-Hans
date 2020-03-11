@@ -4,7 +4,7 @@ description: 可上传 CSV 文件以自定义您的推荐。
 title: 上传自定义标准
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -89,9 +89,9 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 | 未找到目录 | 请提供服务器上存在的目录。 |
 | 未找到文件 | 请提供服务器上所指示目录中存在的文件名称。 |
 
-## 培训视频：在“推荐”中创建标准 (12:33) !![Tutorial badge](/help/assets/tutorial.png)
+## 培训视频：在“推荐”中创建标准 (12:33) 教 ![程徽章](/help/assets/tutorial.png)
 
-本视频包含以下信息：
+此视频包含以下信息（有关上传自定义条件的详细信息，从11:43开始）:
 
 * 创建标准
 * 创建标准序列

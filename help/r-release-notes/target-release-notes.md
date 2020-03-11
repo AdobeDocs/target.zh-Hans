@@ -5,7 +5,7 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -39,9 +39,7 @@ source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
    通过将所有客户迁移到at.js，我们的工程师和支持人员将能够为您提供新功能并为您提供Adobe所期望的支持。
 
 
-## Target Standard/Premium 20.2.1（待确定）
-
-请在此处查阅该信息可用的确切日期。
+## Target Standard/Premium 20.2.1（2020 年 3 月 17 日）
 
 >[!IMPORTANT]
 >

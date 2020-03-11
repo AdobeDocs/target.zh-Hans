@@ -3,7 +3,7 @@ description: 标准控制着 Adobe Recommendations 活动的内容。可创建�
 title: 创建标准
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -438,7 +438,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 >
 >内容相似性算法可以采用随机采样来计算项目之间的相似性。 因此，项目之间的相似性等级可能因算法运行而异。
 
-## 培训视频：在Recommendations中创建标准(12:33) !![Tutorial badge](/help/assets/tutorial.png
+## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

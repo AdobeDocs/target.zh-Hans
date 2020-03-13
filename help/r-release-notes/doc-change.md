@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 3月12日 | [发行说明](/help/r-release-notes/release-notes.md#summit) | 添加了注册信息以免费访问在线数字峰会。 |
 | 3月11日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 指出Target Standard/Premium 20.2.1版本将于2020年3月17日发布。 |
 | 3月9日 | [隐私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 在“替换IP地址的最后八位字节”部分中添加了更多信息。 |
 |  | [使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 在JavaScript中传 *递多值参数中更新的代码示例*。 |

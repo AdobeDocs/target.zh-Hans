@@ -5,7 +5,7 @@ title: 'Adobe Target 发行说明（当前版本） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
 
 ---
 
@@ -33,6 +33,16 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
    >
 * 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
+
+## Summit Live:数字体验会议 {#summit}
+
+Adobe峰会已成为虚拟活动！ 从2020年3月31日开始，Adobe将通过实时数字体验竭尽全力。 此实时体验将包括我们主要阶段的主题演讲、最新趋势和进展的迷你主旨演讲、行业领导者成功的洞察以及分组讨论会议。
+
+* **实时观看主题演讲**:了解趋势和新产品，它们正从您所在地的舒适环境转变行业。
+* **按需浏览100多个分组讨论：** 从Adobe、客户和合作伙伴免费访问超过100个点播分组讨论会话。
+* **在未来先睹为快**:加入特邀嘉宾切尔西·汉德勒，了解我们实验室最新的实验技术。 Adobe Sneaks。
+
+要注册以免费访问整个数字活动，请转到数 [字体验会议：峰会页](https://www.adobe.com/summit.html) 。
 
 ## Target Standard/Premium 20.2.1（2020 年 3 月 17 日）
 

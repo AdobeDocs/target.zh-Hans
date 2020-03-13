@@ -5,7 +5,7 @@ title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -204,9 +204,7 @@ source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 ## 可重用受众/帐户
 
-**建议限制**：75 个受众。
-
-如果您拥有太多客户群，则在界面中会出现 JavaScript 超时。
+**建议限制**：20,000 个受众。
 
 ## Target UI 中的脚本配置文件输入框
 

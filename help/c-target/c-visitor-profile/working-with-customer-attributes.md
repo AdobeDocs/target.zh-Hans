@@ -1,12 +1,12 @@
 ---
-keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting
+keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm
 description: 有关如何利用 Adobe Profiles & Audiences 核心服务中的客户属性将客户关系管理 (CRM) 数据库的企业客户数据用于 Adobe Target 中的内容定位的信息。
 title: Adobe Target中的客户属性
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -33,7 +33,7 @@ Consider the following information as your work with customer attributes and [!D
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 在我们目前的设计中，可能有一小部分数据不会被载入。
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 有关详细信息，请参阅访 [客资料生命周期](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). 只有当 `authState` 变为 UNAUTHENTICATED (1) 时，配置文件才会起作用。
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will only come into play if `authState` is changed to AUTHENTICATED (1).
 
    For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. 如果获取已经过身份验证的配置文件是必需的行为，则 `vst.myDataSource.authState` 必须具有值 1 (AUTHENTICATED)。
 
@@ -65,8 +65,8 @@ Detailed instructions for completing each of the following tasks can be found in
 
    使用 HTTP 方式最多可以上传 100 MB 的数据文件。大于100 MB（最多4 GB）的文件可以通过FTP上传。
 
-   * **** HTTPS:您可以拖放。csv数据文件或单击“浏览” **** ，从文件系统上传。
-   * **** FTP:单击FTP链接以通 [过FTP上传文件](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 第一步是为 Adobe 提供的 FTP 服务器提供密码。Specify the password, then click **[!UICONTROL Done]**.
+   * **HTTPS:** 您可以拖放。csv数据文件或单击“浏览” **** ，从文件系统上传。
+   * **FTP:** 单击FTP链接以通 [过FTP上传文件](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 第一步是为 Adobe 提供的 FTP 服务器提供密码。Specify the password, then click **[!UICONTROL Done]**.
 
       现在，将您的 CSV/ZIP/GZIP 文件传输到 FTP 服务器。在此文件传输成功后，创建一个名称相同且扩展名为。fin的新文件。 将此空文件传输到服务器。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
@@ -128,7 +128,7 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 
 有关在 [!DNL Target] 中使用客户属性的更多信息，请参阅以下资源：
 
-* [创建客户属性来源并上传](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) Experience cloud产品文 *档中的数据文件*
+* [创建客户属性来源并上传](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) Experience Cloud产品文 *档中的数据文件*
 * 数字营销产品组的博客文章&#x200B;**[客户属性：了解的越多，关联的越好](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}

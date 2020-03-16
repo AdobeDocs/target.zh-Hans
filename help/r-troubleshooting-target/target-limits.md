@@ -5,7 +5,7 @@ title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -40,6 +40,10 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 **限制**：每个 mbox、量度或体验 50 个受众。
 
+## 受众，每个帐户可重用
+
+**建议限制**：20,000 个受众。
+
 ## categoryId 参数
 
 **限制**：128 个字符。
@@ -51,6 +55,12 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 ## 客户属性别名 ID
 
 **限制**：50 个字符。
+
+## 客户属性，上传
+
+* **使用HTTP方法每次上传的最大文件大小**:100 MB。
+* **使用FTP方法每次上传的最大文件大小**:4 GB。
+* **允许订阅的属性数**:5表示 [!DNL Target Standard] 同意，200表示同意 [!DNL Target Premium]。
 
 ## 实体自定义属性
 
@@ -201,10 +211,6 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 ## 报表受众/区段
 
 **限制**：每个活动 50 个报表受众/区段。
-
-## 可重用受众/帐户
-
-**建议限制**：20,000 个受众。
 
 ## Target UI 中的脚本配置文件输入框
 

@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 413247cd4fe97cdfc9df383c12ce7260380ae99a
+source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
 
 ---
 
@@ -148,7 +148,11 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
-搭配 [!DNL Target] 使用客户属性时，您可能会遇到以下问题：
+You might encounter the following issues when working with customer attributes and [!DNL Target].
+
+>[!NOTE]
+>
+>问题1和问题2在这方面造成大约60%的问题。 问题3导致大约30%的问题。 问题4导致大约5%的问题。 其余 5% 是由于其他问题所致。
 
 ### 问题1:由于配置文件过大，客户属性会被删除
 
@@ -178,11 +182,7 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 
 If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default).
 
->[!NOTE]
->
->以上问题1和2引起了该领域大约60%的问题。 问题3导致大约30%的问题。 问题4导致大约5%的问题。 其余 5% 是由于其他问题所致。
-
-## 培训视频：使用客户属性上传离线数据 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} 教 ![程徽章](/help/assets/tutorial.png)
+## Training video: Upload Offline Data using Customer Attributes {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![Tutorial badge](/help/assets/tutorial.png)
 
 This video shows you how to import offline CRM, help desk, point-of-sale, and other marketing data into the [!DNL Experience Cloud People] service and associate it with visitors using their known IDs.
 

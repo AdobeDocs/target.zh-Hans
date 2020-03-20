@@ -5,7 +5,7 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 下列发行说明将介绍 [!DNL Adobe Target] 最新版本或即将发布的版本的功能、增强功能、修复信息和已知问题。
 
-**上次更新日期：2020 年 9 月 3 日**
+**上次更新日期：2020 年 20 月 3 日**
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
    通过将所有客户迁移到at.js，我们的工程师和支持人员将能够为您提供新功能并为您提供Adobe所期望的支持。
 
 
-## Target Standard/Premium 20.2.1（2020 年 3 月 17 日）
+## Target Standard/Premium 20.2.1（2020 年 3 月 23 日）
 
 >[!IMPORTANT]
 >
@@ -52,18 +52,21 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 * 对内容安全策略(CSP)实施了安全改进。 (TGT-36190)
 * 修复了在将“属性加权”百分比条滑向最左侧时，导致显示“NaN%”的问题。 (TGT-36211)
 * 解决了本地化问题，以便正确显示不同语言的UI文本。
-* 对于2020年3月发布的Analytics for Target(A4T)，不再支持以下Adobe Analytics指标：
-   * averagevisdepth
-   * 机器人
-* 不再支持以下度量，并在用户首次修改包含度量的活动时自动转换为度量的新版本：
+* 我们通过弃用当前版本的Adobe Analytics API不支持的Adobe Analytics指标，标准化了Adobe Analytics for Target(A4T)活动的可用指标列表。 这将使我们能够在未来的Adobe Target版本中扩展A4T支持。
 
-   | 已弃用的度量 | 新建量度 |
+   进行了以下更改：
+
+   * “页面平均停留时间”已替换为“网站平均停留时间”。 将此作为主要目标量度的任何活动都将具有“在站点上平均花费的时间”(注意：以分钟而非秒为单位)。
+   * “访客”已被“唯一访客”所取代。 使用此量度作为主要目标量度的任何活动在下次编辑活动时，都将选择“唯一访客”作为主要目标量度。
+
+* 已弃用以下量度，在创建新A4T活动时，无法再选择它作为主要目标量度。
+
+   | 已弃用的度量 | 建议的替换指标 |
    |--- |--- |
-   | `averagetimespentonpage` | `averagetimespentonsite` (附注：以分钟而非秒为单位) |
-   | `instances` | `occurrences` |
-   | `singleaccess` | `singlepagevisits` |
-   | `uniquevisitors` | `visitors` |
-   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+   | 每日访客、每小时访客、每月访客、每季访客、每周访客、每年访客 | 独特访客 |
+   | 平均访问深度 | n/a。不建议作为主要目标量度 |
+   | 机器人 | n/a。不建议作为主要目标量度 |
+   | 移动崩溃率、移动平均上一会话长度、移动App Store平均排名、移动App性能崩溃率、移动App Store平均评级 | n/a。不建议作为主要目标量度 |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

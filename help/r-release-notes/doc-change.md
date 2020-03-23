@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
+source-git-commit: 0fad08727233566dae6e948e53cda4f7acb64f6f
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 3月24日 | [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 添加了有关以下影响的信息：<ul><li>基于第3rdPartyID的配置文件脚本</li><li>iOS设备中的QA/预览URL</li></ul> |
 | 3月20日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 指出Target Standard/Premium 20.2.1版本将于2020年3月23日发布。 |
 | 3月13日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了“受众，每个帐户可重复使用”的数量。 |
 | 3月12日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md#summit) | 添加了注册信息以免费访问在线数字峰会。 |
@@ -113,7 +114,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [发行说明——目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新主题。 |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关V1/Delivery API和Node.js SDK版本的信息。 |
 | 2019 年 10 月 8 日 | [Target Insider新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 新主题包含指向第一批新闻稿的链接，并且还有更多内容。 |
-| 2019 年 10 月 3 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下内容： <ul><li>使用at.js 2创建体验时，无需修改的已知问题和解决方法。*x库* 。</li><li>通过API创建的集合、排除、条件和设计在Target用户界面中不可见，只能通过API编辑。</li><li>通过API创建的推荐活动可在用户界面中查看，但只能通过API编辑。</li></ul> |
+| 2019 年 10 月 3 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下内容： <ul><li>使用at.js 2创建体验时不进行任何修改的已知问题和解决办法。*x库* 。</li><li>通过API创建的集合、排除、条件和设计在Target用户界面中不可见，只能通过API编辑。</li><li>通过API创建的推荐活动可在用户界面中查看，但只能通过API编辑。</li></ul> |
 |  | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | 在“mboxDebug”部分添加了注释。 |
 | 2029 年 10 月 2 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发布的版本的信息。 |
 | 2019 年 10 月 1 日 | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 更新了“客户属性”部分中的文本。 |

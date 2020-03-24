@@ -5,7 +5,7 @@ title: 在浏览器中启用混合内容
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 如果您将VEC与最新版Chrome（版本79.0.3945.117或更高版本）结合使用，则需要更新站点设置。 您网站的访客无需完成这些步骤。
 
->[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo)
+>[!VIDEO](https://www.youtube.com/v=6zGCi5Y8eVo)
 
 以上视频概述了所需的步骤：
 

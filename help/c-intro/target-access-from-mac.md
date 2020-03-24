@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -101,4 +101,4 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 * 将您的 Target 帐户关联到 Adobe Experience Cloud
 * 将 Adobe Target 设置为默认登陆页面
 
->[!VIDEO](https://www.youtube.com/watch?v=7lwYrYC7vdM)
+>[!VIDEO](https://www.youtube.com/v=7lwYrYC7vdM)

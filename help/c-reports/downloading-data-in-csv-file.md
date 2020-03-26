@@ -1,12 +1,12 @@
 ---
-keywords: 报表;下载报表;CSV;成功量度;订单详细信息
-description: 以。csv格式下载数据，以便使用Adobe Target快速导入Excel、Access或其他数据分析程序。
-title: 使用Adobe Target在CSV文件中下载数据
-subtopic: 多变量测试
+keywords: reports;download reports;csv;success metrics;order details
+description: 以。csv格式下载数据，以便使用Adobe目标快速导入Excel、Access或其他数据分析项目。
+title: 使用Adobe目标在CSV文件中下载数据
+subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -21,8 +21,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    如果您拥有多个活动，可以通过从[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 报表源]、[!UICONTROL 体验编辑器]、[!UICONTROL 量度类型]和[!UICONTROL 活动来源]下拉列表中选择相应选项来筛选列表。
 
-1. 单击&#x200B;**[!UICONTROL 报表]选项卡。**
-1. 单击“**[!UICONTROL 下载]”图标，然后选择要下载以供在 Excel 和其他工具中进行分析的报表类型。**
+1. 单击&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡。
+1. 单击“**[!UICONTROL 下载]**”图标，然后选择要下载以供在 Excel 和其他工具中进行分析的报表类型。
 
    * [!UICONTROL 将报告导出为CSV]
    * [!UICONTROL 将订单详细信息导出到 CSV]
@@ -39,11 +39,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!NOTE]
 >
->CSV报告仅包含原始数据，不包括计算量度，如用于A/B测试的每位访客收入、提升度或置信度。 To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>CSV报告仅包括原始数据，不包括用于A/B测试的每访客收入、提升或置信度等计算指标。 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## 将订单详细信息导出到 CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-“订单详细信息”报表（在 [!DNL Target Classic] 中称为“审计”报表）可显示与订单有关的信息，包括：
+“订单详细信息”报表显示有关订单的信息，包括：
 
 * 订单日期和时间
 * 订单金额（如果已插入“下单”mbox）

@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -46,8 +46,6 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 * 记录访客行为。
 
 在 [!DNL Target Standard] 中，位置可以是页面上的任何元素，但前提是要跟踪的每个页面的 `<head>` 部分中包含一行用于启用 [!DNL Target] 的代码。这一行代码会调用所需的 JavaScript 库，以便收集信息并将定位体验交付给访客。
-
-请参阅 [at.js 的好处](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)，以详细了解 [!DNL Target Standard] 中的位置实施与 [!DNL Target Classic] 中的 mbox 实施之间的差异。
 
 位置与受众相结合，可提供近乎无限数量的客户定位信息的选项。例如，如果访客以前从未访问过您的网站，您可以向这些新访客显示折扣券。同样，页面也可以更改为向回访客户显示更优化的选件。
 
@@ -119,7 +117,7 @@ An *体验*&#x200B;可决定满足特定条件时所显示的内容。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### 在Adobe Target中使用受众(6:21)概 ![述徽章](/help/assets/overview.png)
+### 在Adobe目标中使用受众(6:21)概 ![述徽章](/help/assets/overview.png)
 
 以下视频介绍了如何在 [!DNL Target Standard/Premium] 中使用受众。
 

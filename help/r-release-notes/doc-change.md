@@ -1,11 +1,11 @@
 ---
 keywords: target documentation change log;documentation updates;new topics;edits;updates
-description: 本页列出了对Adobe Target文档所做的重要更改（按版本排序）。
+description: 本页列表了对Adobe目标文档所做的重要更改（按版本排序）。
 title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0fad08727233566dae6e948e53cda4f7acb64f6f
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -18,9 +18,11 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 3月24日 | [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 添加了有关以下影响的信息：<ul><li>基于第3rdPartyID的配置文件脚本</li><li>iOS设备中的QA/预览URL</li></ul> |
-| 3月20日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 指出Target Standard/Premium 20.2.1版本将于2020年3月23日发布。 |
-| 3月13日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了“受众，每个帐户可重复使用”的数量。 |
+| 3月25日 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关以下新版本at.js的信息：<ul><li>at.js版本2.3.0</li><li>at.js版本1.8.1</li></ul> |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 在“设置”部分添加了以下新行：<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>添加了以下新章节：<ul><li>内容安全策略</li></ul> |
+| 3月24日 | [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 添加了有关以下影响的信息：<ul><li>用户档案基于第3rdPartyID的脚本</li><li>iOS设备中的QA/预览URL</li></ul> |
+| 3月20日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 指出目标Standard/Premium 20.2.1版本将于2020年3月23日发布。 |
+| 3月13日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了“受众、可重复使用的每个帐户”的数量。 |
 | 3月12日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md#summit) | 添加了注册信息以免费访问在线数字峰会。 |
 | 3月9日 | [隐私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 在“替换IP地址的最后八位字节”部分中添加了更多信息。 |
 |  | [使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 在JavaScript中传 *递多值参数中更新的代码示例*。 |
@@ -30,7 +32,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 添加了以下设置的信息： `pageLoadEnabled` 和 `viewsEnabled`。 |
 | 2 月 19 日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了有关mbox.js库即将弃用的信息。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | 添加了 `mboxOverride.browserIp` at.js 1中支持的注意事项。*x*。 |
-|  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 阐明了解说明Target团队支持哪些版本的at.js的文本。 |
+|  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 阐明了解释目标团队支持哪些版本的at.js的文本。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：20.2.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe Target Standard/Premium 20.1.1（2020 年 2 月 4 日） 
@@ -44,77 +46,77 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2020 年 1 月 29 日 | [使用 Velocity 自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 更新了文本和代码示例。 新的代码范例显示了如何在Velocity模板中使用数字。 |
-| 2020年1月28日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更改了Target Standard/Premium 20.1.1版本的发布日期。 发布日期为2020年2月4日。 |
+| 2020年1月28日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更改了目标Standard/Premium 20.1.1版本的发布日期。 发布日期为2020年2月4日。 |
 | 2020年1月27日 | [个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 添加了新部分：“Adobe博客。” |
-|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 添加了以下信息：“如果您使用Batch Delivery API，则每个批请求的限制为50 mbox。” |
+|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 添加了以下信息：“如果您使用批处理投放API，则每个批处理请求的限制为50 mbox。” |
 |  | [资源和联系信息](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | 更新了用于打开支持票证的链接。 |
 |  | [自动定位摘要报表](/help/c-reports/auto-target-summary-report.md) | 更新了文本和图像。 |
-| 2020年1月23日 | [解释自动分配报告](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 添加了注释以使用Adobe Target示例大小计算器确定入选方。 |
+| 2020年1月23日 | [解释自动分配报告](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 添加了注释以使用Adobe目标样本大小计算器确定入选方。 |
 |  | [实体属性](/help/c-recommendations/c-products/entity-attributes.md) | 添加了说明，以说明如果您使用at.js 2。*x*，不 `mboxCreate` 再支持。 使用at.js 2将产品或内容信息传递到Recommendations。*x*, use `targetPageParams`. |
-| 2020 年 1 月 22 日 | [Auto-Allocate（自动分配）](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 更新了以下常见问题解答：“使用“自动分配”时，我是否可以使用样本大小计算器来估计活动识别入选方需要多长时间？” |
+| 2020 年 1 月 22 日 | [Auto-Allocate（自动分配）](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 更新了以下常见问题解答：“使用自动分配时，我是否可以使用样本大小计算器来估计活动识别入选方需要多长时间？” |
 | 2020年1月15日 | [在浏览器中启用混合内容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 添加了培训视频和说明，以说明如何更新站点设置以允许在最新版Chrome中使用混合内容。 |
 |  | [信息源](/help/c-recommendations/c-products/feeds.md) | 添加了有关上传和删除实体和实体属性的注释。 |
 |  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：在Recommendations内容跟踪中有时返回的NO_CONTENT响应意味着什么？ |
 |  | [创建订单确认 mbox - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | 添加了说明如何使用at.js 2执行订单确认的注释。*x* 目前不支持选择加入支持。 |
-| 2020 年 1 月 9 日 | [TLS（传输层安全性）加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新了文本。<br>在2020年3月1日之后，Adobe Target将不再支持针对Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、活动交付和API等的TLS 1.1加密。 请在2020年3月1日之前升级到TLS 1.2以避免任何问题。 |
+| 2020 年 1 月 9 日 | [TLS（传输层安全性）加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新了文本。<br>在2020年3月1日之后，Adobe目标将不再支持针对Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、活动投放、API等的TLS 1.1加密。 请在2020年3月1日之前升级到TLS 1.2以避免任何问题。 |
 | 2020年1月6日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关“自定义条件”源状态的已知问题。 |
-| 2019年12月19日 | [发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 添加了有关版本1.1.0的信息。 |
+| 2019年12月19日 | [发行说明-目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 添加了有关版本1.1.0的信息。 |
 | 2019 年 12 月 12 日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了常见问题解答部分。 |
-|  | [解释自动分配报告](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 重命名了主题并添加了以下部分：“了解自动分配活动中的提升和信心报告。” |
-| 2019 年 12 月 11 日 | [定位和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新增了常见问题解答：“Target如何评估定位中的URL?” |
+|  | [解释自动分配报告](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 重命名了主题并添加了以下部分：“了解自动分配报告中的提升和信心活动。” |
+| 2019 年 12 月 11 日 | [定位和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新增了常见问题解答：“目标如何评估定位中的URL?” |
 | 2019年12月10日 | [目标限制](/help/r-troubleshooting-target/target-limits.md) | 更新了mbox参数部分。 |
 |  | [标准](/help/c-recommendations/c-algorithms/algorithms.md) | 添加了有关对“标准使用情况”功能的支持的注释。 |
 | 2019 年 12 月 5 日 | [网页](/help/c-target/c-audiences/c-target-rules/site-pages.md) | 更新了主题。 |
 | 2019年12月2日 | [使用位置服务](/help/c-target-mobile-app/use-location-service.md) | 新主题。 |
 | 2019年11月26日 | [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | “异步加载at.js时管理闪烁”中的更新文本。 |
-|  | [Target Insider新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 添加了指向2019年11月新闻稿的链接。 |
+|  | [目标内幕新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 添加了指向2019年11月新闻稿的链接。 |
 |  | [用户](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 更新了“指定角色和权限”下的文本和图像。 |
 | 2019 年 11 月 15 日 | [A/B测试的十大常见缺陷及避免方法](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | 增加了“Pitfall 7:在测试期间更改流量分配。” |
-| 2019年11月11日 | [发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 添加了有关版本1.0.1的信息。 |
+| 2019年11月11日 | [发行说明-目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 添加了有关版本1.0.1的信息。 |
 |  | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了整个主题。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | 添加了说明不存 [!DNL Target] 储地理信息（如邮政编码）的信息。 |
-| 2019 年 11 月 8 日 | [Target Insider新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 添加了指向其他过去问题的链接。 |
-|  | [隐私和数据保护法规](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 更新了CCPA部分，并添加了新注释。<br>新增了常见问题解答，告知客户Target无法允许客户直接从Target共享或向第三方销售数据，因此不会选择退出Target销售。 |
+| 2019 年 11 月 8 日 | [目标内幕新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 添加了指向其他过去问题的链接。 |
+|  | [隐私和数据保护法规](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 更新了CCPA部分，并添加了新注释。<br>新增了常见问题解答，告知客户目标不能允许客户直接从目标共享或向第三方销售数据，因此不会选择退出进行目标。 |
 | 2019 年 11 月 7 日 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | 为adobeQA参数添加了代码示例。 |
 | 2019 年 11 月 5 日 | [站点页面](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | “疑难排解”部分中的更新文本。 |
 | 2019年11月4日 | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 更新了以下常见问题解答下的文本：“为什么我会看到警告消息，如&#39;缺少选择器的操作&#39;?” |
 | 2019 年 10 月 31 日 | [使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 新主题。 |
-|  | [发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 新主题。 |
+|  | [发行说明-目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 新主题。 |
 |  | [从 at.js 1.x 升级到 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 添加了新部分：“Which at.js 1.*at* .js 2中不支持创建受众的x参数。*x*?&quot; |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关向模板规则添加额外空格的新已知问题。 |
-|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关Target Premium 19.10.2版本和Target Java SDK版本的信息。 |
-| 2019 年 10 月 30 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发布的Target Premium 19.10.2（2019年10月31日）版本的信息。 |
+|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关目标Premium 19.10.2版本和目标Java SDK版本的信息。 |
+| 2019 年 10 月 30 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发布的目标Premium 19.10.2（2019年10月31日）版本的信息。 |
 | 2019 年 10 月 29 日 | [内容相似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | 添加了备注。 |
-|  | [预览并启动Recommendations活动](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | 新主题。 |
+|  | [预览并启动您的Recommendations活动](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | 新主题。 |
 | 2019 年 10 月 25 日 | [自定义参数](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 在“考虑事项”下添加了新项目，以说明定位不会根据内部mbox参数进行评估。 |
 |  | [使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | 已完全更新主题并删除过时的示例。 |
-|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了链接到Target Delivery API文档的注释，以帮助您了解请求／响应的可用类型（数组、字符串等）。 |
-|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了链接到Target Delivery API文档的注释，以帮助您了解请求／响应的可用类型（数组、字符串等）。 |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了链接到目标投放API文档的注释，以帮助您了解请求／响应的可用类型（数组、字符串等）。 |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了链接到目标投放API文档的注释，以帮助您了解请求／响应的可用类型（数组、字符串等）。 |
 |  | [站点页面](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | 添加了“疑难解答”部分。 |
-| 2019 年 10 月 24 日 | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | 以下常见问题解答中的更新文本：“为什么Target有时无法显示推荐？” |
+| 2019 年 10 月 24 日 | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | 以下常见问题解答中的更新文本：“为什么目标有时无法展示推荐？” |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 为影响at.js的早期版本（版本2.2.0之前）的已知问题添加了注释。 |
-|  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 添加了有关使用A4T的活动的成功量度默认行为的注释。 |
+|  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 添加了有关使用A4T的活动成功量度的默认行为的注释。 |
 | 2019 年 10 月 22 日 | [标准/算法](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | 为“基于用户的推荐”添加了行。 |
 |  | [标准](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | 添加了新部分：“使用自定义推荐键。” |
 |  | [目标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 新增了常见问题解答：“创建复杂的URL字符串时，是否 [!DNL Target] 会评估整个URL?” |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：19.10.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
-## Adobe Target/Standard/Premium 19.9.1（2019年9月30日）
+## Adobe目标/标准版／高级版19.9.1（2019年9月30日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 2019 年 10 月 17 日 | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新了主题，以说明活动QA如何与第三方Cookie一起使用。 |
+| 2019 年 10 月 17 日 | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新了主题，以说明活动QA如何与第三方Cookie结合使用。 |
 |  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新的发行说明，以包含有关对Unified Shell的更改的信息。 |
 | 2019 年 10 月 10 日 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 添加了新部分：&quot;serverState.&quot; |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关at.js 2.2和at.js 1.8版本的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关at.js 2.2和at.js 1.8版本的信息。 |
-|  | [活动故障诊断](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 添加了新部分：“我使用Target UI创建了一个活动，但无法通过API更新它。” |
+|  | [活动故障诊断](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 添加了新部分：“我使用目标UI创建了一个活动，但无法通过API更新它。” |
 | 2019 年 10 月 9 日 | [服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 更新了主题。 |
-|  | [发行说明——目标服务器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 新主题。 |
-|  | [发行说明——目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新主题。 |
-|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关V1/Delivery API和Node.js SDK版本的信息。 |
-| 2019 年 10 月 8 日 | [Target Insider新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 新主题包含指向第一批新闻稿的链接，并且还有更多内容。 |
-| 2019 年 10 月 3 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下内容： <ul><li>使用at.js 2创建体验时不进行任何修改的已知问题和解决办法。*x库* 。</li><li>通过API创建的集合、排除、条件和设计在Target用户界面中不可见，只能通过API编辑。</li><li>通过API创建的推荐活动可在用户界面中查看，但只能通过API编辑。</li></ul> |
+|  | [发行说明-目标服务器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 新主题。 |
+|  | [发行说明-目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新主题。 |
+|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关V1/投放API和Node.js SDK版本的信息。 |
+| 2019 年 10 月 8 日 | [目标内幕新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 新主题包含指向第一批新闻稿的链接，并且还有更多内容。 |
+| 2019 年 10 月 3 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下内容： <ul><li>使用at.js 2创建体验时不进行任何修改的已知问题和解决办法。*x库* 。</li><li>通过API创建的集合、排除、条件和设计在目标用户界面中不可见，只能通过API编辑。</li><li>通过API创建的推荐活动可在用户界面中查看，但只能通过API编辑。</li></ul> |
 |  | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | 在“mboxDebug”部分添加了注释。 |
 | 2029 年 10 月 2 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发布的版本的信息。 |
 | 2019 年 10 月 1 日 | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 更新了“客户属性”部分中的文本。 |
@@ -127,14 +129,14 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 2019 年 9 月 27 日 | [A/B 测试应该持续多长时间？](/help/c-activities/t-test-ab/sample-size-determination.md) | 更新了有关目标示例大小计算器的文本。 |
 |  | [Auto-Allocate（自动分配）](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 更新了有关目标示例大小计算器的文本。 |
-| 2019年9月24日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 将Target/Standard 19.2.1版本的日期更改为2019年9月30日。 |
+| 2019年9月24日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 将目标/标准19.2.1版本的日期更改为2019年9月30日。 |
 |  | [“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md) | 添加了培训视频。 |
-| 2019 年 9 月 10 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关Target Standard/Premium 19.9.1版本的信息。 |
+| 2019 年 9 月 10 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关目标Standard/Premium 19.9.1版本的信息。 |
 | 2019年9月9日 | [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | 添加了“注意事项”部分。 |
 |  | [Google Chrome SameSite Cookie 策略](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | 更新了整个主题的文本。 |
 |  | [内容安全策略(CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | 新主题。 |
-| 2019年9月6日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 19.9.1（2019年9月10日）版本的信息。 |
-|  | [针对移动应用程序的Target常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新主题。 |
+| 2019年9月6日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关目标Standard/Premium 19.9.1（2019年9月10日）版本的信息。 |
+|  | [目标移动应用程序常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 新主题。 |
 | 2019 年 9 月 4 日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主题。 |
 | 2019 年 8 月 23 日 | [Target 移动设备预览](/help/c-target-mobile-app/target-mobile-preview.md) | 更新了 `AndroidManifest.xml` 中的代码片断。 |
 |  | [自定义参数](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 添加了新章节：“注意事项”。 |

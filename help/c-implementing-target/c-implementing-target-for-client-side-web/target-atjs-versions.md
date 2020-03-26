@@ -5,7 +5,7 @@ title: at.js 版本详细信息
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -16,7 +16,21 @@ source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
 
 >[!IMPORTANT]
 >
->Target团队同时支持at.js 1。*x* 与 at.js 2.*x* 之间的映射。请升级到at.js的任一主要版本的最新更新，以确保您运行的是受支持的版本。
+>目标团队支持at.js 1。*x* 与 at.js 2.*x* 之间的映射。请升级到at.js的任一主要版本的最新更新，以确保您运行的是受支持的版本。
+
+## at.js 版本 2.3.0（2020 年 3 月 25 日）
+
+此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
+
+* 支持在应用交付的目标优惠时，在附加到页面DOM的SCRIPT和STYLE标签上设置“内容安全策略”不可用性。 客户可以设 `targetGlobalSettings.cspScriptNonce` 置并 `targetGlobalSettings.cspStyleNonce` 使at.js可以在应用的优惠上设置相应的脚本和样式标记不值。 See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
+* 修复了使用Google Closure编译器编译at.js以部署Google Tag Manager时的问题。
+* 将at.js检查Cookie从重命名 `check` 为， `at_check` 以避免与客户实施发生冲突。
+
+## at.js 版本 1.8.1（2020 年 3 月 25 日）
+
+此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
+
+* 将at.js检查Cookie从重命名 `check` 为， `at_check` 以避免与客户实施发生冲突。
 
 ## at.js版本2.2.0（2019年10月10日）
 
@@ -29,7 +43,7 @@ source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
    >
    >将您的ECID Launch扩展升级到v4.4以利用此性能增强。
 
-* at.js版本2.2还提供一个名为的新设置 `serverState`。 在实施Target的混合集成时，此设置可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的交付API或Target SDK来交付体验。 `serverState` 使at.js v2.2+能够直接应用从服务器端获取的内容中获取的体验，并作为所服务页面的一部分返回到客户端。 For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js版本2.2还提供一个名为的新设置 `serverState`。 当实现目标的混合集成时，此设置可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的投放API或目标SDK来提供体验。 `serverState` 使at.js v2.2+能够直接应用从服务器端获取的内容中获取的体验，并作为所服务页面的一部分返回到客户端。 For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js版本1.8.0（2019年10月10日）
 

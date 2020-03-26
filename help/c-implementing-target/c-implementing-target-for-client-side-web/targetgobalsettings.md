@@ -5,7 +5,7 @@ title: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
 
 ---
 
@@ -30,9 +30,9 @@ source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 | timeout | 数值 | 通过 UI 设置的值 | 表示 Target 边缘请求超时 |
 | globalMboxAutoCreate | 布尔值 | 通过 UI 设置的值 | 指示是否应触发全局 mbox 请求 |
 | visitorApiTimeout | 数值 | 2000 毫秒 = 2 秒 | 表示访客 API 请求超时 |
-| enabled | 布尔值 | true | 启用后，将自动执行用于检索体验的Target请求和用于渲染体验的DOM操作。 此外，Target调用可通过手动执行 `getOffer(s)` /禁用 `applyOffer(s)`<br>后，Target请求不会自动或手动执行 |
+| enabled | 布尔值 | true | 启用后，将自动执行目标请求以检索体验和DOM操作以呈现体验。 此外，目标调用可以通过 `getOffer(s)` /手 `applyOffer(s)`<br>动执行禁用后，目标请求不会自动或手动执行 |
 | pageLoadEnabled | 布尔值 | true | 启用后，将自动检索页面加载时必须返回的体验 |
-| viewsEnabled | 布尔值 | true | 启用后，将自动检索页面加载时必须返回的视图。 at.js 2支持查看。*仅限* x |
+| viewsEnabled | 布尔值 | true | 启用后，将自动检索页面加载时必须返回的视图。 视图在at.js 2中受支持。*仅限* x |
 | defaultContentHiddenStyle | 字符串 | 可见性：隐藏 | 仅用于封装使用类名为“mboxDefault”且通过 `mboxCreate()`、`mboxUpdate()` 或 `mboxDefine()` 执行的 DIV 的 mbox 以隐藏默认内容 |
 | defaultContentVisibleStyle | 字符串 | 可见性：显示 | 仅用于封装使用类名为“mboxDefault”且通过 `mboxCreate()`、`mboxUpdate()` 或 `mboxDefine()` 执行的 DIV 的 mbox 以显示应用的选件（如果有）或默认内容 |
 | bodyHiddenStyle | 字符串 | body { opacity: 0 } | 仅在 `globalMboxAutocreate === true` 时使用，以尽量减少出现闪烁的情况。<br>有关更多信息，请参阅 [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。 |
@@ -44,6 +44,8 @@ source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 | optoutEnabled | 布尔值 | false | 指示 Target 是否应调用访客 API `isOptedOut()` 函数。这是启动设备图形的一部分。 |
 | selectorsPollingTimeout | 数值 | 5000 毫秒 = 5 秒 | 在 at.js 0.9.6 中，Target 引入了这个新设置，它可通过 `targetGlobalSettings` 覆盖。<br>`selectorsPollingTimeout` 表示客户端愿意等待多长时间，让选择器标识的所有元素都显示在页面上。<br>通过可视化体验编辑器 (VEC) 创建的活动具有包含选择器的选件。 |
 | dataProviders | 请参阅下面的“数据提供程序”。 | 请参阅下面的“数据提供程序”。 | 请参阅下面的“数据提供程序”。 |
+| cspScriptNonce | 请参阅下面的“内容安全策略”。 | 请参阅下面的“内容安全策略”。 | 请参阅下面的“内容安全策略”。 |
+| cspStyleNonce | 请参阅下面的“内容安全策略”。 | 请参阅下面的“内容安全策略”。 | 请参阅下面的“内容安全策略”。 |
 
 ## 使用情况 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
@@ -176,20 +178,43 @@ var weatherProvider = {
 * 如果数据提供程序异步添加到 `window.targetGlobalSettings.dataProviders`，则将并行执行。访客 API 请求将与添加到 `window.targetGlobalSettings.dataProviders` 的函数并行执行，以将等待时间最小化。
 * at.js 不会尝试缓存数据。如果数据提供程序仅提取一次数据，则应确保数据已缓存，并且在调用提供程序函数时为第二次调用提供缓存的数据。
 
+## Content Security Policy {#content-security}
+
+at.js 2.3.0+支持在应用交付的目标优惠时，在附加到页面DOM的SCRIPT和STYLE标记上设置内容安全策略不可用性。
+
+在加载at.js 2.3.0+之前，应 `targetGlobalSettings.cspScriptNonce` 在 `targetGlobalSettings.cspStyleNonce` 中设置SCRIPT和STYLE命令，并相应设置这些命令。 请参阅以下示例：
+
+```
+...
+<head>
+ <script nonce="<script_nonce_value>">
+window.targetGlobalSettings = {
+  cspScriptNonce: "<csp_script_nonce_value>",
+  cspStyleNonce: "<csp_style_nonce_value>"
+};
+ </script>
+ <script nonce="<script_nonce_value>" src="at.js"></script>
+...
+</head>
+...
+```
+
+在指 `cspScriptNonce` 定 `cspStyleNonce` 和设置后，at.js 2.3.0+会将这些属性设置为应用目标优惠时附加到DOM的所有SCRIPT和STYLE标签上的nonce属性。
+
 ## serverState {#server-state}
 
-`serverState` 是at.js v2.2+中提供的设置，当实施Target的混合集成时，该设置可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的交付API或Target SDK来交付体验。 `serverState` 使at.js v2.2+能够直接应用从服务器端获取的内容中获取的体验，并作为所服务页面的一部分返回到客户端。
+`serverState` 是at.js v2.2+中提供的设置，当实施目标的混合集成时，该设置可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的投放API或目标SDK来提供体验。 `serverState` 使at.js v2.2+能够直接应用从服务器端获取的内容中获取的体验，并作为所服务页面的一部分返回到客户端。
 
 ### 先决条件
 
 您必须有混合集成 [!DNL Target]。
 
-* **服务器端**: 您必须使用新 [的交付API](https://developers.adobetarget.com/api/delivery-api/) 或 [Target SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
+* **服务器端**: 必须使用新的 [投放API](https://developers.adobetarget.com/api/delivery-api/) 或 [目标SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
 * **客户端**:必须使用 [at.js版本2.2或更高版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
 ### 代码示例
 
-要更好地了解其工作原理，请参见下面的代码示例，您将在服务器上看到这些示例。 该代码假定您正在使 [用Target Node.js SDK](https://github.com/adobe/target-nodejs-sdk)。
+要更好地了解其工作原理，请参见下面的代码示例，您将在服务器上看到这些示例。 代码假定您使用 [目标Node.js SDK](https://github.com/adobe/target-nodejs-sdk)。
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -219,7 +244,7 @@ const PAGE_TEMPLATE = `
 // Return PAGE_TEMPLATE to the client ...
 ```
 
-查看预 `serverState` 取的示例对象JSON如下所示：
+视图预 `serverState` 取的示例对象JSON如下所示：
 
 ```
 {
@@ -290,7 +315,7 @@ const PAGE_TEMPLATE = `
 }
 ```
 
-页面加载到浏览器中后，at.js会立即应用所有选 [!DNL Target] 件，而 `serverState` 不会对边缘触发任何网络调 [!DNL Target] 用。 此外，at.js仅预隐藏在获取的服务器端内容中提供的DOM元素，从而对页面加载性能和最终用户体验产生积极影响。 [!DNL Target]
+页面加载到浏览器后，at.js会立即应用所有优惠, [!DNL Target] 而 `serverState` 不会对边缘触发任何网络调 [!DNL Target] 用。 此外，at.js仅预隐藏在获取的服务器端内容中提供优惠的DOM元素，因此会对页面加载性能和最终用户体验产生积极影响。 [!DNL Target]
 
 ### 重要说明
 
@@ -301,11 +326,11 @@ Consider the following when using `serverState`:
    * 在页面加载时执行的VEC创建的活动。
    * 预取的视图。
 
-      如果SPA使用 [!DNL Target] Views，并且在 `triggerView()` at.js API中，at.js v2.2会缓存服务器端预取的所有View的内容，并在通过触发每个View时应用这些内容 `triggerView()`，同样不会向Target触发任何其他内容获取调用。
+      如果SPA使用 [!DNL Target] 视图 `triggerView()` ，并且在at.js API中，at.js v2.2会缓存服务器端预取的所有视图的内容，并在通过触发每个视图后立即应用这些内容 `triggerView()`，同样不会向目标发出任何额外的内容获取调用。
 
    * **注意**: 当前，不支持在服务器端检索的mbox `serverState`。
 
-* 应用 `serverState `选件时，at.js会考虑 `pageLoadEnabled` 和 `viewsEnabled` 设置，例如，如果设置为false，则不会应用页面加载 `pageLoadEnabled` 选件。
+* 应用 `serverState `优惠时，at.js会考虑 `pageLoadEnabled` 和设 `viewsEnabled` 置，例如，如果设置为false，则不会应用页面 `pageLoadEnabled` 加载优惠。
 
    要打开这些设置，请在“ **[UICONTROL设置”>“实施”>“编辑设置”>“启用页面加载”中启用切换]**。
 

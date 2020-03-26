@@ -1,19 +1,17 @@
 ---
-keywords: 定位;Cookie;第一方 Cookie;第 1 方 Cookie
+keywords: targeting;cookie;first-party cookie;1st-party cookie
 description: Adobe Target 通过 at.js 或 mbox.js JavaScript 库与您的网页集成。
 title: 定位工作原理
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
 
 # 定位工作原理{#how-targeting-works}
 
-Adobe Target 通过 at.js 或 mbox.js JavaScript 库与您的网页集成。
-
-[!DNL Target Classic] 在您想要显示目标内容或收集数据的页面上的每个区域都使用了 mbox。[!DNL Target Standard] 不需要使用这些 mbox。而在运行优化活动时，您只需要在每个页面上引用一次 JavaScript 库。
+Adobe Target 通过 at.js 或 mbox.js JavaScript 库与您的网页集成。每个页面上引用的一个JavaScript库就是运行优化活动所需的全部。
 
 每次在访客请求访问启用了 的页面时，[!DNL Target]Target 都会使用以下流程来提供选件：
 

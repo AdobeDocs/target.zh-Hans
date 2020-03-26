@@ -4,7 +4,7 @@ title: Adobe Target 术语表
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -161,7 +161,7 @@ A/B 测试可比较两个或更多版本的网站内容，以查看在预先指�
 
 **environment（环境）**
 
-为方便管理，可将多个主机捆绑在一起并将其放置到环境中。预设主机组包括“生产”、“测试”和“开发”。但是，您可以添加新的主机组并对您现有的主机组进行重命名。在 [!DNL Target Classic] 中，环境被称为“主机组”。
+为方便管理，可将多个主机捆绑在一起并将其放置到环境中。预设主机组包括“生产”、“测试”和“开发”。但是，您可以添加新的主机组并对您现有的主机组进行重命名。
 
 **experience（体验）**
 

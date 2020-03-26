@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -95,9 +95,9 @@ Adobe Target 可通过两个 JavaScript 库（at.js 或 mbox.js）中的任意�
 
 ![包含核心边缘站点和边缘站点的地图](assets/edge_network.png)
 
-The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
+此图像的来源是 [Adobe目标安全概述](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 白皮书。
 
-Adobe Target 解决方案托管在全球范围内 Adobe 自有和 Adobe 租用的数据中心上。管理服务器完全托管在位于伦敦、新加坡和美国多个地方（包括俄勒冈和弗吉尼亚）的 Adobe 自有数据中心内。Edge server托管在位于伦敦、中国香港特别行政区、新加坡、东京和悉尼的Amazon AWS数据中心的Adobe自有和Adobe租赁的服务器上。
+Adobe Target 解决方案托管在全球范围内 Adobe 自有和 Adobe 租用的数据中心上。管理服务器完全托管在位于伦敦、新加坡和美国多个地方（包括俄勒冈和弗吉尼亚）的 Adobe 自有数据中心内。Edge Server托管在位于伦敦、中国香港特别行政区、新加坡、东京和悉尼的Amazon AWS数据中心的Adobe自有和Adobe租赁的服务器上。
 
 管理服务器位置同时包含一个数据收集中心和一个数据处理中心。而其他边缘站点位置则仅包含一个数据收集中心。每个报表包均分配给一个特定的数据处理中心。
 

@@ -5,30 +5,30 @@ title: 'Adobe Target 发行说明（当前版本） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
 
 # Target 发行说明（当前版本）{#target-release-notes-current}
 
-这些发行说明介绍了每个 Target Standard 和 Target Premium 版本的功能、增强功能和修复信息。此外，还包含Target API、SDK、JavaScript库(at.js)的发行说明以及其他平台更改（如果适用）。
+这些发行说明介绍了每个 Target Standard 和 Target Premium 版本的功能、增强功能和修复信息。此外，还包含目标API、SDK、JavaScript库(at.js)和其他平台更改的发行说明（如果适用）。
 
 >[!NOTE]
 >
->* **TLS支持更改**:从2020年3月1日开始，Target将禁用对TLS 1.1和TLS 1.0加密的支持。 传输层安全性 (TLS) 是当前使用的部署最广泛的安全协议，可用于 Web 浏览器和其他需要通过网络安全交换数据的应用程序。需要进行此更改以符合TLS 1.2或更高版本的公认安全合规标准。 检查您当前使用的TLS版本。 如果您的版本低于1.2，请在2020年3月1日之前实施所需的更改，以便继续按预期使用Target。
+>* **TLS支持更改**:从2020年3月1日开始，目标将禁用对TLS 1.1和TLS 1.0加密的支持。 传输层安全性 (TLS) 是当前使用的部署最广泛的安全协议，可用于 Web 浏览器和其他需要通过网络安全交换数据的应用程序。需要进行此更改以符合TLS 1.2或更高版本的公认安全合规标准。 检查您当前使用的TLS版本。 如果您的版本低于1.2，请在2020年3月1日之前实施所需的更改，以便继续按预期使用目标。
    >
    >   
    有关可能的影响以及更新实施时可能需要采取的步骤的详细信息，请参阅 [TLS（传输层安全）加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)。
    >
    >
-* **mbox.js弃用**:2020年8月30日，Adobe Target将不再支持mbox.js库。 2020年8月30日之后，从mbox.js发出的所有调用都将失败，并会影响已运行Target活动的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本，以避免您的站点出现任何潜在问题。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+* **mbox.js弃用**:2020年8月30日，Adobe目标将不再支持mbox.js库。 2020年8月30日之后，mbox.js发出的所有调用都将失败并影响您的目标活动正在运行的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本，以避免您的站点出现任何潜在问题。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
    >
    >   
    尽管目前支持mbox.js，但自2017年7月以来，我们尚未对此库提供功能更新。 较新的at.js比mbox.js有许多优势。 除其他优势外，at.js还缩短了Web实施的页面加载时间，提高了安全性，并为单页应用程序提供了更好的实施选项。
    >
    >   
-   通过将所有客户迁移到at.js，我们的工程师和支持人员将能够为您提供新功能并为您提供Adobe所期望的支持。
+   通过将所有客户转移到at.js，我们的工程师和支持人员将能够为您提供新功能并优惠您期望从Adobe获得的支持。
    >
    >
 * 括号中的问题编号供 [!DNL Adobe] 内部使用。
@@ -36,13 +36,22 @@ source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ## Summit Live:数字体验会议 {#summit}
 
-Adobe峰会已成为虚拟活动！ 从2020年3月31日开始，Adobe将通过实时数字体验竭尽全力。 此实时体验将包括我们主要阶段的主题演讲、最新趋势和进展的迷你主旨演讲、行业领导者成功的洞察以及分组讨论会议。
+Adobe峰会已成为虚拟事件! 从2020年3月31日开始，Adobe将通过实时数字体验竭尽全力。 此实时体验将包括我们主要阶段的主题演讲、最新趋势和进展的迷你主旨演讲、行业领导者成功的洞察以及分组讨论会议。
 
 * **实时观看主题演讲**:了解趋势和新产品，它们正从您所在地的舒适环境转变行业。
 * **按需浏览100多个分组讨论：** 从Adobe、客户和合作伙伴免费访问超过100个点播分组讨论会话。
 * **在未来先睹为快**:加入特邀嘉宾切尔西·汉德勒，了解我们实验室最新的实验技术。 Adobe Sneaks。
 
-要注册以免费访问整个数字活动，请转到数 [字体验会议：峰会页](https://www.adobe.com/summit.html) 。
+要注册以免费访问整个数字事件，请访问 [数字体验会议：峰会页](https://www.adobe.com/summit.html) 。
+
+## 目标at.js（2020年3月25日）
+
+提供以下新版本的目标at.js JavaScript库：
+
+* at.js版本2.3.0
+* at.js版本1.8.1
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## Target Standard/Premium 20.2.1（2020 年 3 月 23 日）
 
@@ -53,22 +62,22 @@ Adobe峰会已成为虚拟活动！ 从2020年3月31日开始，Adobe将通过�
 此版本包含以下增强、修复和更改：
 
 * 修复了客户在执行目录搜索时无法选择集合的问题。 (TGT-36230)
-* 修复了通过API创建的条件（但未由在目标UI中创建的活动引用）可能从UI中错误删除的问题。 (TGT-35917)
+* 修复了通过API创建但未由在目标UI中创建的活动引用的条件可能从UI中错误删除的问题。 (TGT-35917)
 * 对内容安全策略(CSP)实施了安全改进。 (TGT-36190)
 * 修复了在将“属性加权”百分比条滑向最左侧时，导致显示“NaN%”的问题。 (TGT-36211)
-* 解决了本地化问题，以便正确显示不同语言的UI文本。
-* 我们通过弃用当前版本的Adobe Analytics API不支持的Adobe Analytics指标，标准化了Adobe Analytics for Target(A4T)活动的可用指标列表。 这将使我们能够在未来的Adobe Target版本中扩展A4T支持。
+* 解决了本地化问题，以便正确显示各种语言的UI文本。
+* 我们通过弃用当前版本的Adobe Analytics API不支持的Adobe Analytics列表，标准化了Adobe Analytics目标(A4T)活动的可用指标。 这将使我们能够在未来的Adobe目标版本中扩展A4T支持。
 
    进行了以下更改：
 
-   * “页面平均停留时间”已替换为“网站平均停留时间”。 将此作为主要目标量度的任何活动都将具有“在站点上平均花费的时间”(注意：以分钟而非秒为单位)。
-   * “访客”已被“唯一访客”所取代。 使用此量度作为主要目标量度的任何活动在下次编辑活动时，都将选择“唯一访客”作为主要目标量度。
+   * “页面平均停留时间”已替换为“网站平均停留时间”。 任何将此作为主要目标量度的活动都将具有“网站平均停留时间”(注意：以分钟而非秒为单位)被选作下次编辑活动时的主要目标量度。
+   * “访客”已被“独特访客”所取代。 使用此量度作为主要目标量度的任何活动在下次编辑该活动时都将选择“唯一访客”作为主要目标量度。
 
-* 已弃用以下量度，在创建新A4T活动时，无法再选择它作为主要目标量度。
+* 已弃用以下量度，在创建新的A4T活动时，无法再选择它作为主要目标量度。
 
    | 已弃用的度量 | 建议的替换指标 |
    |--- |--- |
-   | 每日访客、每小时访客、每月访客、每季访客、每周访客、每年访客 | 独特访客 |
+   | 每日访客、每小时访客、每月访客、季度访客、每周访客、每年访客 | 独特访客 |
    | 平均访问深度 | n/a。不建议作为主要目标量度 |
    | 机器人 | n/a。不建议作为主要目标量度 |
    | 移动崩溃率、移动平均上一会话长度、移动App Store平均排名、移动App性能崩溃率、移动App Store平均评级 | n/a。不建议作为主要目标量度 |
@@ -81,11 +90,11 @@ Adobe峰会已成为虚拟活动！ 从2020年3月31日开始，Adobe将通过�
    * 改进的用户帮助：搜索结果包括产品文档中的结 [!DNL Target] 果、社区论坛和更多视频内容，让您能够更轻松地访问更多内容，从而帮助您发挥最大作用 [!DNL Target]。 我们还在“帮助”菜单中添加了反 [!UICONTROL 馈机制] ，使报告问题或分享您的想法更加容易。
 
    * 改进了Net Promoter Score(NPS)反馈功能，因此调查模式不会干扰您的工作流。
-   * 改进了登录流程。 以前，所 [!DNL Target] 有客户在单击标题中的图标后都登 [!DNL Target] 录到Target登录页面。 然后，此页允许客户继续执行 [!DNL Target Standard/Premium]、 [!DNL Search&Promote]或 [!DNL Recommendations Classic]，如下所示：
+   * 改进了登录流程。 以前，所 [!DNL Target] 有客户在单击标题中的图标后都登录 [!DNL Target] 了目标登陆页。 然后，此页允许客户继续执行 [!DNL Target Standard/Premium]、 [!DNL Search&Promote]或 [!DNL Recommendations Classic]，如下所示：
 
       ![登陆页面](/help/r-release-notes/assets/landing.png)
 
-      我们为所有客户取消了此登录页面。 现在，您始终可以通过单击新标题导 [!UICONTROL 航栏中的图标，直][!DNL Target] 接转到“活动列表”页面。
+      我们为所有客户消除了此登陆页。 现在，您始终可以通过单击新标题导 [!UICONTROL 航栏中的图标，直][!DNL Target] 接转到活动列表页面。
 
       如果您使 [!DNL Recommendations Classic]用，您可以直接转到解决方案，也可以从在“推荐”选项卡上创建的简短链 [!UICONTROL 接] ，如下所示：
 
@@ -102,10 +111,10 @@ Adobe峰会已成为虚拟活动！ 从2020年3月31日开始，Adobe将通过�
 
 | 资源 | 详细信息 |
 |--- |--- |
-| [发行说明——目标服务器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 与Adobe Target的服务器端API相关的发行说明。 |
-| [发行说明——目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 与Adobe Target的Node.js SDK相关的发行说明。 |
-| [发行说明——目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 与Adobe Target的Java SDK相关的发行说明。 |
-| [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 有关Adobe Target at.js JavaScript库各版本中更改的详细信息。 |
+| [发行说明-目标服务器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 与Adobe目标的服务器端API相关的发行说明。 |
+| [发行说明-目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 与Adobe目标的Node.js SDK相关的发行说明。 |
+| [发行说明-目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 与Adobe目标的Java SDK相关的发行说明。 |
+| [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 有关Adobe目标at.js JavaScript库各版本中更改的详细信息。 |
 | [mbox.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md) | 此页面显示对 mbox.js 的每个版本所做的更改。<br>请注意，mbox.js库不再在开发中。 所有客户都应该从 mbox.js 迁移到 at.js。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明 {#section_1BC5F5208DA548E9B4344A0836E4B943}

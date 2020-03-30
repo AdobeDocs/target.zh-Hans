@@ -1,10 +1,10 @@
 ---
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: 有关此版本的Adobe Target的已知问题的信息。 此外，还包括有关已解决问题的信息。
+description: 有关此版本的Adobe目标的已知问题的信息。 此外，还包括有关已解决问题的信息。
 title: Adobe Target 中的已知问题和已解决的问题
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -21,9 +21,9 @@ source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 下面部分列出了 [!DNL Target] 的已知问题：
 
-### 页面交付 {#page-delivery}
+### 页面投放 {#page-delivery}
 
-如果您添加模板规则(如页面分发中的URL包含(/checkout, /cart)) [](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)，则在规则前面会添加额外的空格。 这是一个外观问题，不会影响受众定义的创建和选件交付。 (TGT-35916)
+如果添加模板规则(如页面投放中的URL包含(/checkout, /cart)) [](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)，则会在规则前添加额外的空格。 这是一个外观问题，不影响受众定义的创建和优惠投放。 (TGT-35916)
 
 ### 活动 QA 预览链接 {#preview}
 
@@ -63,11 +63,11 @@ source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 以下是“推荐”活动存在的已知问题：
 
 * 实体在没有通过源或API接收更新的60天后正确过期；但是，过期后不会从目录搜索索引中删除已过期的实体。 (IRI-857)
-* 标准和设计的“使用信息”叠加不反映它们在A/B和体验定位活动中的使用情况(TGT-34331)
-* A/B和“体验定位”活动中的“推荐”选件不显示“推荐”托盘的可视预览(TGT-33426)
-* 通过API创建的集合、排除、条件和设计在Target用户界面中不可见，只能通过API编辑。 (TGT-35777)
+* 标准和设计的“使用信息”叠加不反映其在A/B和体验定位活动中的使用情况(TGT-34331)
+* A/B和Experience Targeting优惠中的推荐活动不显示Recommendations托盘的可视预览(TGT-33426)
+* 通过API创建的集合、排除、条件和设计在目标用户界面中不可见，只能通过API编辑。 (TGT-35777)
 * 通过API创建的推荐活动可在用户界面中查看，但只能通过API编辑。
-* “标准”列表（卡片）视图中显示的“自定义标准”源状态每十分钟刷新一次，在极少情况下可能会超过十分钟。 “自定义条件”编辑视图中显示的状态将实时获取并始终为最新状态。 (TGT-35896, TGT-36173)
+* “标准”列表（卡）视图中显示的“自定义标准”源状态每十分钟刷新一次，在极少情况下可能会超过十分钟。 “自定义条件”编辑视图中显示的状态将实时获取并始终为最新状态。 (TGT-35896, TGT-36173)
 
 ### 多变量测试 (MVT) 活动
 
@@ -77,7 +77,8 @@ source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 以下是 at.js 存在的已知问题：
 
-* 如果您使用at.js 2.1.1或更早版本（例如默认体验）创建不进行任何修改的体验，则该体验可能不会计入报告、Analytics for Target(A4T)、Adobe Analytics或Google Analytics中。 此外， [ttMeta插件可能无法正确工作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 。
+* 使用2.2.0之前的at.js版本，如果页面元素（如按钮）上不存在Adobe Analytics代码，则单击跟踪不会报告Analytics for目标(A4T)中的转换情况。 已在at.js 2.2.0中针对此问题引入了修复。如 [果您遇到此问题](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ，请升级到最新at.js版本。
+* 如果您使用at.js 2.1.1或更早版本（例如默认体验）创建不进行任何修改的体验，则该体验可能不会计入报告、Analytics for目标(A4T)、Adobe Analytics或Google Analytics中。 此外， [ttMeta插件可能无法正确工作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 。
 
    作为解决方法，请在体验内容中使用空白。 (TNT-33366)
 

@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: fe537a2c2007af59b2eb8abb4aaf3ec5626f2c65
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -18,16 +18,17 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2 年 4 月 | [从 at.js 1.*x* 升级到 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 添加了以下注释：<ul><li>安装 ECID 库 v4.3.0+ 和 at.js 2.*x* 之后，您将能够创建跨越独特域的活动并跟踪用户。请务必注意，此功能仅在会话过期后才可用。</li></ul> |
 | 3月30日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 添加了影响at.js 2.2.0之前版本的at.js的已知问题。此问题导致在页面元素中不存在Adobe Analytics代码时，单击跟踪不报告目标分析(A4T)中的转换情况。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 向at.js版本2.2.0详细信息添加了以下信息：<ul><li>修复了当页面元素中不存在Adobe Analytics代码时，导致单击跟踪无法报告Analytics for目标(A4T)中的转换的问题。</li></ul> |
 | 3月25日 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关以下新版本at.js的信息：<ul><li>at.js版本2.3.0</li><li>at.js版本1.8.1</li></ul> |
-|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Added the following new rows in the &quot;Settings&quot; section:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>添加了以下新章节：<ul><li>内容安全策略</li></ul> |
-| 3月24日 | [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 添加了有关以下影响的信息：<ul><li>用户档案基于第3rdPartyID的脚本</li><li>QA/Preview URLs in iOS devices</li></ul> |
-| 3月20日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | Indicated that the Target Standard/Premium 20.2.1 release will be March 23, 2020. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 在“设置”部分添加了以下新行：<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>添加了以下新章节：<ul><li>内容安全策略</li></ul> |
+| 3月24日 | [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 添加了有关以下影响的信息：<ul><li>用户档案基于第3rdPartyID的脚本</li><li>iOS设备中的QA/预览URL</li></ul> |
+| 3月20日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 指出目标Standard/Premium 20.2.1版本将于2020年3月23日发布。 |
 | 3月13日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了“受众、可重复使用的每个帐户”的数量。 |
 | 3月12日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md#summit) | 添加了注册信息以免费访问在线数字峰会。 |
 | 3月9日 | [隐私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 在“替换IP地址的最后八位字节”部分中添加了更多信息。 |
-|  | [使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Updated code sample in *Pass a multi-value parameter in JavaScript*. |
+|  | [使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 在JavaScript中传 *递多值参数中更新的代码示例*。 |
 |  | [自定义实体属性](/help/c-recommendations/c-products/custom-entity-attributes.md) | 在“实现多值属 *性”下的* “使 *用API”中添加了代码示例*。 |
 | 3月4日 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 更新了整个主题，对“最佳实践”部分作了大量修订。 |
 | 2月21日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关新的Adobe Experience Cloud导航的信息。 |
@@ -54,10 +55,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [资源和联系信息](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | 更新了用于打开支持票证的链接。 |
 |  | [自动定位摘要报表](/help/c-reports/auto-target-summary-report.md) | 更新了文本和图像。 |
 | 2020年1月23日 | [解释自动分配报告](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 添加了注释以使用Adobe目标样本大小计算器确定入选方。 |
-|  | [实体属性](/help/c-recommendations/c-products/entity-attributes.md) | 添加了说明，以说明如果您使用at.js 2。*x*，不 `mboxCreate` 再支持。 To pass product or content information to Recommendations using at.js 2.*x*, use `targetPageParams`. |
+|  | [实体属性](/help/c-recommendations/c-products/entity-attributes.md) | 添加了说明，以说明如果您使用at.js 2。*x*，不 `mboxCreate` 再支持。 使用at.js 2将产品或内容信息传递到Recommendations。*x*, use `targetPageParams`. |
 | 2020 年 1 月 22 日 | [Auto-Allocate（自动分配）](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 更新了以下常见问题解答：“使用自动分配时，我是否可以使用样本大小计算器来估计活动识别入选方需要多长时间？” |
 | 2020年1月15日 | [在浏览器中启用混合内容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 添加了培训视频和说明，以说明如何更新站点设置以允许在最新版Chrome中使用混合内容。 |
-|  | [信息源](/help/c-recommendations/c-products/feeds.md) | Added note about uploading and removing entities and entity attributes. |
+|  | [信息源](/help/c-recommendations/c-products/feeds.md) | 添加了有关上传和删除实体和实体属性的注释。 |
 |  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：在Recommendations内容跟踪中有时返回的NO_CONTENT响应意味着什么？ |
 |  | [创建订单确认 mbox - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | 添加了说明如何使用at.js 2执行订单确认的注释。*x* 目前不支持选择加入支持。 |
 | 2020 年 1 月 9 日 | [TLS（传输层安全性）加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 更新了文本。<br>在2020年3月1日之后，Adobe目标将不再支持针对Visual Experience Composer(VEC)、Enhanced Experience Composer(EEC)、活动投放、API等的TLS 1.1加密。 请在2020年3月1日之前升级到TLS 1.2以避免任何问题。 |
@@ -70,7 +71,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [标准](/help/c-recommendations/c-algorithms/algorithms.md) | 添加了有关对“标准使用情况”功能的支持的注释。 |
 | 2019 年 12 月 5 日 | [网页](/help/c-target/c-audiences/c-target-rules/site-pages.md) | 更新了主题。 |
 | 2019年12月2日 | [使用位置服务](/help/c-target-mobile-app/use-location-service.md) | 新主题。 |
-| 2019年11月26日 | [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Updated text in &quot;Managing flicker when loading at.js asynchronously.&quot; |
+| 2019年11月26日 | [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | “异步加载at.js时管理闪烁”中的更新文本。 |
 |  | [目标内幕新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 添加了指向2019年11月新闻稿的链接。 |
 |  | [用户](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 更新了“指定角色和权限”下的文本和图像。 |
 | 2019 年 11 月 15 日 | [A/B测试的十大常见缺陷及避免方法](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | 增加了“Pitfall 7:在测试期间更改流量分配。” |

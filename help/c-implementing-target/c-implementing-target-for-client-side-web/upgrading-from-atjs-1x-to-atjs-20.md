@@ -5,7 +5,7 @@ title: 从 Adobe Target at.js 版本 1.*x* 升级到 at.js version 2。*x 不支
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -286,7 +286,11 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 但是，在 at.js 2.*x* 中，我们不再使用 HTTP GET，而是使用 HTTP POST。现在，通过 at.js 2.*x* 来使用 HTTP POST 将 JSON 有效负载发送到 Target 边缘服务器。这意味着检查浏览器是否支持第三方 Cookie 的重定向请求现在会中断。这是因为 HTTP GET 请求是幂等事务，而 HTTP POST 是非幂等事务，不能任意重复。因此，不再对 at.js 2.*x* 中的跨域跟踪功能提供开箱即用支持。只有 at.js 1.*x* 对跨域跟踪功能提供开箱即用支持。
 
-如果要使用跨域跟踪，则必须将 [ECID库v4.3.0+与at.js 2](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 一起安装。*x*。ECID 库可以管理用于跨域识别访客的永久 ID。安装 ECID 库 v4.3.0+ 和 at.js 2.*x* 之后，您将能够创建跨越独特域的活动并跟踪用户。
+如果要使用跨域跟踪，则必须将 [ECID库v4.3.0+与at.js 2](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 一起安装。*x* 中不再对跨域跟踪提供开箱即用支持。ECID 库可以管理用于跨域识别访客的永久 ID。
+
+>[!NOTE]
+>
+>安装 ECID 库 v4.3.0+ 和 at.js 2.*x* 之后，您将能够创建跨越独特域的活动并跟踪用户。请务必注意，此功能仅在会话过期后才可用。
 
 ### 支持自动创建全局 Mbox
 

@@ -5,7 +5,7 @@ title: 配置文件和变量一览表
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
 
 ---
 
@@ -28,22 +28,22 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 | user.daysSinceLastVisit |  |
 | user.browser | 用户代理 |
 | user.header | 所有 `user.header` 配置文件均从 mbox 请求标头数据内置 |
-| user.header('x-cluster-client-ip') | 访客所在网络连接的公共 IP 地址。<br>您可以通过多种方法获取此地址，例如通过 [whatismyip.com](https://www.whatismyip.com/) / 获取。此 IP 地址不是以 10.、192.168. 或 172. 开头的 NAT 地址（内部地址）。 |
-| user.header('host') | 网站主机名 |
-| user.header('cookie') | 访客 Cookie 数据 |
-| user.header('user-agent') | 访客浏览器用户代理 |
-| user.header('accept-language') | 访客语言 |
-| user.header('accept-encoding') | 访客字符编码 |
-| user.header('accept') | 访客语言和字符编码 |
-| user.header('connection') | 服务器连接。例如：keep-live |
-| user.header('referrer') | 访客当前页面的网站 URL。不适用于 Internet Explorer。 |
-| user.getLocal('param_name','value'); |  |
-| user.setLocal('param_name','value'); |  |
-| user.get('param_name') |  |
+| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | 访客所在网络连接的公共 IP 地址。<br>注意：user.header(&#39;x-cluster-client-ip&#39;)头在较新的AWS边缘不工作。<br>您可以通过多种方法获取此地址，例如通过 [whatismyip.com](https://www.whatismyip.com/) / 获取。此 IP 地址不是以 10.、192.168. 或 172. 开头的 NAT 地址（内部地址）。 |
+| user.header(&#39;host&#39;) | 网站主机名 |
+| user.header(&#39;cookie&#39;) | 访客 Cookie 数据 |
+| user.header(&#39;user-agent&#39;) | 访客浏览器用户代理 |
+| user.header(&#39;accept-language&#39;) | 访客语言 |
+| user.header(&#39;accept-encoding&#39;) | 访客字符编码 |
+| user.header(&#39;accept&#39;) | 访客语言和字符编码 |
+| user.header(&#39;connection&#39;) | 服务器连接。例如：keep-live |
+| user.header(&#39;referrer&#39;) | 访客当前页面的网站 URL。不适用于 Internet Explorer。 |
+| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.get(&#39;param_name&#39;) |  |
 | user.parameter | 从配置文件脚本创建的永久性配置文件属性。还会引用地理位置、访问计数等“系统”配置文件。 |
-| profile.get('param_name') | 获取要在配置文件脚本中使用的配置文件参数的正确方法是profile.get('param_name')方法。 |
-| profile.param('param_name'); |  |
-| profile.parameter('parameter_name'); | 因带有 profile.   前缀而使其具有持久性的 mbox 参数。 |
+| profile.get(&#39;param_name&#39;) | 获取用户档案脚本中使用的用户档案参数的正确方法是用户档案.get(&#39;param_name&#39;)方法。 |
+| profile.param(&#39;param_name&#39;); |  |
+| profile.parameter(&#39;parameter_name&#39;); | 因带有 profile.   前缀而使其具有持久性的 mbox 参数。 |
 | profile.browserTime | 访客的本地浏览器时间。对于系统时间，在配置文件脚本中创建新的日期对象 |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
@@ -78,13 +78,13 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 | 变量 | 注释 |
 |--- |--- |
 | `mbox.name` |  |
-| mbox.param('param_name') |  |
-| 与每个请求一起自动传递的参数：<ul><li>mbox.param('browserHeight')</li><li>mbox.param('browserTimeOffset')</li><li>mbox.param('browserWidth')</li><li>mbox.param('colorDepth')</li><li>mbox.param('mboxXDomain')</li><li>mbox.param('mboxTime')</li><li>mbox.param('screenHeight')</li><li>mbox.param('screenWidth')</li></ul> |
-| 与订单 mbox 一起传递的参数：<ul><li>mbox.param('orderId')</li><li>mbox.param('orderTotal')</li><li>mbox.param('productPurchasedId')</li></ul> |
+| mbox.param(&#39;param_name&#39;) |  |
+| 与每个请求一起自动传递的参数：<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
+| 与订单 mbox 一起传递的参数：<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
 | mbox3rdPartyId | 用于将客户 ID 同步到 Target mboxPCID 的 mbox 参数。客户 ID 是指贵公司用于跟踪访客的 ID，例如 CRM ID、会员 ID 或诸如此类的 ID。此 ID 随后可用于通过配置文件 API 和[客户属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)。 |
 | mboxPageValue | 在每个 mbox 调用中，都会为页面分配值。 |
 | mboxDebug | 仅用于调试信息。已添加到 mbox.js 所查找的页面 URL 中。 |
-| mboxOverride.browserIp | 设置与实际位置不同的地理位置，以便测试在其他位置时的情况。<br>**注意：** mboxOverride 参数仅应在测试活动时使用，而不应在生产中使用。使用 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) 时，使用任何 mboxOverride 参数都可能导致报表不一致。您应使用[活动 QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)，以确保活动在推送到实时环境之前可以按预期方式运行。 |
+| mboxOverride.browserIp | 设置与实际位置不同的地理位置，以便测试在其他位置时的情况。<br>**注意：**mboxOverride 参数仅应在测试活动时使用，而不应在生产中使用。使用[Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T) 时，使用任何 mboxOverride 参数都可能导致报表不一致。您应使用[活动 QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)，以确保活动在推送到实时环境之前可以按预期方式运行。 |
 
 ## 客户属性 {#section_62B4821EB6564FF4A14159A837AD4EDB}
 

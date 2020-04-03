@@ -1,11 +1,11 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Adobe Target 系统图显示了使用 at.js 为自动创建的全局 mbox 发送或收集调用和信息的流程。
-title: Adobe Target at.js javaScript库的工作原理
+title: Adobe目标at.js JavaScript库的工作原理
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -31,7 +31,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 从高层次来看，两个版本之间存在一些差异：
 
 * at.js 2.x 没有全局 mbox 请求概念，但有页面加载请求概念。页面加载请求可以视为检索应该被应用于网站初始页面加载的内容的请求。
-* at.js 2.x管理称为“视图”的概念，这些概念用于单页应用程序(SPA)。 at.js 1.*x* 并没有此概念。
+* at.js 2.x管理称为视图的概念，这些概念用于单页应用程序(SPA)。 at.js 1.*x* 并没有此概念。
 
 ## at.js 2.x 图
 
@@ -46,7 +46,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 3 | 将会发出页面加载请求，其中包括已配置的所有参数（例如，MCID、SDID 和客户 ID）。 |
 | 4 | 配置文件脚本在执行后进入配置文件存储区。存储区向受众库请求符合条件的受众（例如从 Adobe Analytics、Audience Management 等共享的受众）。<br>客户属性会以批量过程发送到配置文件存储区。 |
 | 5 | 根据 URL 请求参数和配置文件数据，[!DNL Target] 可决定将哪些活动和体验返回给查看当前页面和未来视图的访客。 |
-| 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>当前页面上的目标内容会在默认内容不发生闪烁的情况下尽快显示。<br>SPA中因用户操作而显示的视图的目标内容会缓存在浏览器中，这样，在通过触发视图时，无需额外的服务器调用即可即时应用该内容 `triggerView()`。 |
+| 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>当前页面上的目标内容会在默认内容不发生闪烁的情况下尽快显示。<br>SPA中因用户操作而显示的视图的目标内容在浏览器中被缓存，因此当视图通过触发时，无需额外的服务器调用即可即时应用该内容 `triggerView()`。 |
 | 7 | Analytics 数据会发送到数据收集服务器。 |
 | 8 | 目标数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 Analytics for Target (A4T) 报表查看 <br>Analytics 数据。 |
 
@@ -91,7 +91,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 * at.js 对远程脚本的执行顺序不提供任何保证，因为它们是异步加载的。
 * 内联脚本不应对远程脚本有任何依赖关系，因为远程脚本稍后才会加载和执行。
 
-## 培训视频：at.js 2.x架构图概述徽章 ![](/help/assets/overview.png)![概述徽章](/help/assets/overview.png)
+## 培训视频：at.js 2.x架构图概述 ![徽章](/help/assets/overview.png)
 
 at.js 2.x 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Cloud 解决方案集成。该视频介绍了如何将所有内容结合到一起。
 

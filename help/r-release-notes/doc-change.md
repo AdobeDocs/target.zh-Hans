@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: cb5dd23e6cc8b15fda81cdb4fb615ac3efdad83f
 
 ---
 
@@ -18,7 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 2 年 4 月 | [从 at.js 1.*x* 升级到 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 添加了以下注释：<ul><li>安装 ECID 库 v4.3.0+ 和 at.js 2.*x* 之后，您将能够创建跨越独特域的活动并跟踪用户。请务必注意，此功能仅在会话过期后才可用。</li></ul> |
+| 2 年 4 月 | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 添加了有关使用较 `user.header('x-forwarded-for')` 新的AWS边缘来检索用户IP地址的信息。 |
+|  | [从 at.js 1.*x* 升级到 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 添加了以下注释：<ul><li>安装 ECID 库 v4.3.0+ 和 at.js 2.*x* 之后，您将能够创建跨越独特域的活动并跟踪用户。请务必注意，此功能仅在会话过期后才可用。</li></ul> |
 | 3月30日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 添加了影响at.js 2.2.0之前版本的at.js的已知问题。此问题导致在页面元素中不存在Adobe Analytics代码时，单击跟踪不报告目标分析(A4T)中的转换情况。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 向at.js版本2.2.0详细信息添加了以下信息：<ul><li>修复了当页面元素中不存在Adobe Analytics代码时，导致单击跟踪无法报告Analytics for目标(A4T)中的转换的问题。</li></ul> |
 | 3月25日 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关以下新版本at.js的信息：<ul><li>at.js版本2.3.0</li><li>at.js版本1.8.1</li></ul> |

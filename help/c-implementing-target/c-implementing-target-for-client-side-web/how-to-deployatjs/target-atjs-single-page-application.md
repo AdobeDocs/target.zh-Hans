@@ -5,7 +5,7 @@ title: Adobe Target 中的单页应用程序实施
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
 
 ---
 
@@ -274,17 +274,17 @@ document.addEventListener("at-view-end", function(e) {
 
 以下视频包含更多信息：
 
-### 了解 at.js 2.x 的工作原理
+### 了解 at.js 2.x 的工作原理 ![概述徽章](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26250) ![概述徽章](/help/assets/overview.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 有关 [更多信息，请参阅了解at.js 2.x的工作原理](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 。
 
-### 在 SPA 中实施 at.js 2.x
+### 在SPA教程徽章中实施at.js 2. ![x](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26248) 教 ![程徽章](/help/assets/tutorial.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-有 [关详细信息，请参阅在单页应用程序(SPA)中实施Adobe Target的at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 。
+有关 [详细信息，请参阅在单页应用程序(SPA)中实施Adobe目标的at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 。
 
 ### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 

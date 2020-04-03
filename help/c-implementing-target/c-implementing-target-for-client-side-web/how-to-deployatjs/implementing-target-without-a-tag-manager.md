@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: ff3e0d7baacc149e53641f0340dded3a310c60f9
 
 ---
 
@@ -37,8 +37,8 @@ source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 要打开“[!UICONTROL 设置]”页面，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 设置]**>**[!UICONTROL &#x200B;实施]**。
-1. 选择 **[!UICONTROL at.js]**>**[!UICONTROL &#x200B;编辑 at.js 设置]**。
+1. 单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 实施]**。
+1. 选择 **[!UICONTROL at.js]** > **[!UICONTROL 编辑 at.js 设置]**。
 
 ## 内容交付设置 {#section_118D290DFC444509AD8E4AE86C9D92C0}
 
@@ -89,7 +89,7 @@ ov2/c_target-configure-atjs.xml
 
 要从 [!DNL Target] 界面下载 [!DNL at.js]，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 设置]**>**[!UICONTROL &#x200B;实施]**。
+1. 单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 实施]**。
 1. 选择 **[!UICONTROL at.js]**。
 1. 单击&#x200B;**[!UICONTROL 下载 at.js]**。
 
@@ -99,7 +99,7 @@ ov2/c_target-configure-atjs.xml
 
 1. 获取您的客户端代码。
 
-   您的客户端代码位于 **[!UICONTROL 界面中的]**设置**[!UICONTROL  > ]**实施&#x200B;**[!UICONTROL >]**编辑 at.js 设置[!DNL Target]页面顶部。
+   您的客户端代码位于 **[!UICONTROL 界面中的]**&#x200B;设置&#x200B;**[!UICONTROL >]**&#x200B;实施&#x200B;**[!UICONTROL >]**&#x200B;编辑 at.js 设置[!DNL Target]页面顶部。
 
 1. 获取您的管理员编号。
 
@@ -126,7 +126,7 @@ ov2/c_target-configure-atjs.xml
    加载具有以下结构的 URL：
 
    ```
-   https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
+   https://admin<varname>admin number</varname>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code</varname>&version=<version number>
    ```
 
    * Replace `admin number` with your admin number.
@@ -202,7 +202,7 @@ at.js 应该在您网站每个页面的 `<head>` 元素中实施。
 请注意以下重要说明：
 
 * 应使用 HTML5 Doctype（例如 `<!doctype html>`）。不受支持或较旧的 doctypes 可能会导致 Target 无法提出请求。
-* “预连接”和“预提取”选项可帮助提升网页加载速度。If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]**>**[!UICONTROL  Implementation]** > **[!UICONTROL Edit at.js Settings]**page.
+* “预连接”和“预提取”选项可帮助提升网页加载速度。If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** page.
 * 如果您拥有数据层，那么在 at.js 加载之前，最好在页面的 `<head>` 中定义尽可能多的数据层。此位置允许您在 Target 中利用此信息进行最大程度的个性化。
 * 特殊 Target 函数（例如 `targetPageParams()`、`targetPageParamsAll()`、数据提供程序和 `targetGlobalSettings()`）应在 at.js 加载之前，数据层加载之后进行定义。或者，可以将这些函数保存在“[!UICONTROL 编辑 at.js 设置]”页面的“[!UICONTROL 库标头]”部分中，并另存为 at.js 库的一部分。有关这些函数的更多信息，请参阅 [at.js 函数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
 * 如果您使用 JavaScript 帮助程序库（例如 jQuery），则请在使用 Target 之前包含它们，以便在构建 Target 体验时可以利用它们的语法和方法。

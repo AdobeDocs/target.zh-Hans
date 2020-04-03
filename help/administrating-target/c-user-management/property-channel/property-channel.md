@@ -5,7 +5,7 @@ title: 企业用户权限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 207ff5d6010bf5006d31945f7a35c35860c3646c
 
 ---
 
@@ -270,7 +270,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 如果重定向页面和活动 URL 属于同一属性，则点击跟踪可按预期工作。有关更多信息，请参阅[点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md)。
 
-## 培训视频：企业权限培训视频概 {#section_2FA080303A064242B63FF16CFA6DB31D} 述 ![徽章](/help/assets/overview.png)
+## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 学习目标：
 

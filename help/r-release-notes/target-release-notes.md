@@ -5,7 +5,7 @@ title: Adobe目标预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
+source-git-commit: e1a1feedbb54ebc9f7a534230ae8327b6056d673
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2020 年 25 月 3 日**
+**上次更新日期：2020 年 4 月 8 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -29,43 +29,18 @@ source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
    通过将所有客户转移到at.js，我们的工程师和支持人员将能够为您提供新功能并优惠您期望从Adobe获得的支持。
 
 
-## 目标at.js（2020年3月25日）
-
-提供以下新版本的目标at.js JavaScript库：
-
-* at.js版本2.3.0
-* at.js版本1.8.1
-
-For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
-## Target Standard/Premium 20.2.1（2020 年 3 月 23 日）
-
->[!IMPORTANT]
->
->请参阅上述关于mbox.js弃用的信息。
+## Target Standard/Premium 20.4.1（2020 年 4 月 27 日） 
 
 此版本包含以下增强、修复和更改：
 
-* 修复了客户在执行目录搜索时无法选择集合的问题。 (TGT-36230)
-* 修复了通过API创建但未由在目标UI中创建的活动引用的条件可能从UI中错误删除的问题。 (TGT-35917)
-* 对内容安全策略(CSP)实施了安全改进。 (TGT-36190)
-* 修复了在将“属性加权”百分比条滑向最左侧时，导致显示“NaN%”的问题。 (TGT-36211)
-* 解决了本地化问题，以便正确显示各种语言的UI文本。
-* 我们通过弃用当前版本的Adobe Analytics API不支持的Adobe Analytics列表，标准化了Adobe Analytics目标(A4T)活动的可用指标。 这将使我们能够在未来的Adobe目标版本中扩展A4T支持。
-
-   进行了以下更改：
-
-   * “页面平均停留时间”已替换为“网站平均停留时间”。 任何将此作为主要目标量度的活动都将具有“网站平均停留时间”(注意：以分钟而非秒为单位)被选作下次编辑活动时的主要目标量度。
-   * “访客”已被“独特访客”所取代。 使用此量度作为主要目标量度的任何活动在下次编辑该活动时都将选择“唯一访客”作为主要目标量度。
-
-* 已弃用以下量度，在创建新的A4T活动时，无法再选择它作为主要目标量度。
-
-   | 已弃用的度量 | 建议的替换指标 |
-   |--- |--- |
-   | 每日访客、每小时访客、每月访客、季度访客、每周访客、每年访客 | 独特访客 |
-   | 平均访问深度 | n/a。不建议作为主要目标量度 |
-   | 机器人 | n/a。不建议作为主要目标量度 |
-   | 移动崩溃率、移动平均上一会话长度、移动App Store平均排名、移动App性能崩溃率、移动App Store平均评级 | n/a。不建议作为主要目标量度 |
+* 修复了对受众的设备和浏览器类型进行错误限定的问题。 (TGT-36266)
+* 修复了在宽度小于963像素的屏幕上查看报告数据时无法显示的问题。 (TGT-36549)
+* 修复了导致自动个性化报表无法正确呈现的问题。 (TGT-36619)
+* 修复了导致Visual Experience Composer(VEC)中的某些选项无法正确显示的问题。 (TGT-36571)
+* 修复了目标UI中的一个问题，该问题导致用户在单个体验中替换内容后，其他Recommendations优惠预览显示已编辑的内容。 (TGT-36053)
+* 修复了阻止某些用户从Recommendations目录删除项目的问题。 (TGT-36455)
+* 修复了阻止用户在多页面活动中保存推荐条件的问题。 (TGT-36249)
+* 修复了导致Recommendations算法在较长的时间段内显示“获取结果”的显示问题。 （TGT-36550 和 TGT-36551）
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

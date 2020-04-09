@@ -5,7 +5,7 @@ title: 限制
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 **限制**：每个 mbox、量度或体验 50 个受众。
 
-## 受众，每个帐户可重用
+## 受众，可重用的每帐户
 
 **建议限制**：20,000 个受众。
 
@@ -99,12 +99,6 @@ source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 超过此长度的值会被截断。
 
-## mbox 请求中的 Mbox 内配置文件
-
-**限制**：50 个配置文件。
-
-超过 50 的所有配置文件都会被忽略。
-
 ## mbox 内配置文件名称
 
 **限制**：128 个字符。
@@ -119,12 +113,12 @@ source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 对于标准mbox调用：
 * mbox 参数：每个 mbox 500 个参数。
-* 配置文件参数：每个mbox有500个参数配置文件参数。
+* 用户档案参数：每mbox500个参数用户档案参数。
 * 其他参数（URL、引荐 URL 等）：每个 mbox 50 个其他参数类型。
 
 除非因 Web 浏览器限制而缩短请求，否则将应用这些限制。
 
-如果您使用批处理交付API，则每个批处理请求的限制为50 mbox。
+如果您使用批处理投放API，则每个批处理请求的限制为50 mbox。
 
 如果您在 Mobile Services SDK 中使用[批量交付 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)，则该 API 本身的限制为 50 个 mbox 参数、50 个配置文件参数和 50 个其他参数类型。无法使用批量交付 API 发送包含的参数超过这些数量的请求。如果请求包含的限制超过这些限制，则API将返回以下错误消息：
 
@@ -137,20 +131,20 @@ source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 * mbox参数名称最大长度128
 * mbox参数值不能为null
 * mbox参数值5000
-* 轮廓参数50
-* 配置文件参数名称最大长度128
-* 配置文件参数值不能为null
-* 配置文件参数值max length 256
+* 用户档案参数50
+* 用户档案参数名称最大长度128
+* 用户档案参数值不能为null
+* 用户档案参数值最大长度256
 
-交付API端点
+投放API端点
 * mbox参数50
 * mbox参数名称最大长度128
 * mbox参数值不能为null
 * mbox参数值5000
-* 轮廓参数50
-* 配置文件参数名称最大长度128
-* 配置文件参数值不能为null
-* 配置文件参数值max length 256
+* 用户档案参数50
+* 用户档案参数名称最大长度128
+* 用户档案参数值不能为null
+* 用户档案参数值最大长度256
 
 ## mbox 请求 URL
 
@@ -198,11 +192,11 @@ source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ## 配置文件脚本
 
-**建议的活动配置文件脚本限制**:300
+**建议的活动用户档案脚本限制**:300
 
-**建议对每个帐户的配置文件脚本总数进行限制**:零点二万
+**建议的每个帐户用户档案脚本总数限制**:零点二万
 
-**限制配置文件脚本复杂性的建议**:配置文件脚本可以执行有限数量的指令。 有关详细信息，请参 [阅配置文件](/help/c-target/c-visitor-profile/profile-parameters.md#best) 属性 *的最佳实践*。
+**限制用户档案脚本复杂性的建议**:用户档案脚本可以执行有限数量的指令。 有关详细信息，请参阅 [用户档案属性的](/help/c-target/c-visitor-profile/profile-parameters.md#best) 最 *佳实践*。
 
 ## 属性
 

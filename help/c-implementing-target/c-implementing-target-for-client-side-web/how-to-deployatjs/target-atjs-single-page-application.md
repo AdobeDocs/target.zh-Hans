@@ -5,7 +5,7 @@ title: Adobe Target 中的单页应用程序实施
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
+source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
 
 ---
 
@@ -270,7 +270,7 @@ document.addEventListener("at-view-end", function(e) {
 
 如果遵循上述步骤，则应该针对 SPA 提供一个强大的 A4T 解决方案。
 
-## 实施最佳实践
+## 实施最佳实践 {#bp}
 
 at.js 2.x API允许您以多种方式自 [!DNL Target] 定义您的实施，但在此过程中遵循正确的操作顺序很重要。
 

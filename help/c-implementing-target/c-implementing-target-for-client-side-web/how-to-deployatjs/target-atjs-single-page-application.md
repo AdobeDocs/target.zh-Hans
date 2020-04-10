@@ -5,7 +5,7 @@ title: Adobe Target 中的单页应用程序实施
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 58ec4ee9821b06dcacd2a24e758fb8d083f39947
+source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
 
 ---
 
@@ -283,7 +283,7 @@ at.js 2.x API允许您以多种方式自 [!DNL Target] 定义您的实施，但�
 | 1 | 加载VisitorAPI JS | 此库负责为访客分配ECID。 此ID稍后会被网页上的 [!DNL Adobe] 其他解决方案占用。 |
 | 2 | 加载at.js 2.x | at.js 2.x加载用于实现请求和视图的所 [!DNL Target] 有必要API。 |
 | 3 | 执行请 [!DNL Target] 求 | 如果您有数据层，我们建议您在执行请求之前加载发送到的 [!DNL Target] 关键数 [!DNL Target] 据。 这允许您使 `targetPageParams` 用来发送任何要用于定位的数据。 必须确保在此API调用中请求执行> pageLoad以及预取>视图。 如果已设置和， `pageLoadEnabled` 则执行> `viewsEnabled`pageLoad和prefetch >视图都会在步骤2中自动发生；否则，您需要使用 `getOffers()` API发出此请求。 |
-| 4 | 调用 `triggerView()` | 由于您 [!DNL Target] 在步骤3中启动的请求可以返回页面加载执行和视图的体验，因此，请确保在返回请求并完成缓存中的优惠应用后 `triggerView()`[!DNL Target] 调用该请求。 每个视图只能执行此步骤一次。 |
+| 4 | 调用 `triggerView()` | 由于您 [!DNL Target] 在步骤3中启动的请求可以返回页面加载执行和视图的体验，因此，请确保在请求返回后调用该请求，并完成将优惠应用到缓存的 `triggerView()`[!DNL Target] 操作。 每个视图只能执行此步骤一次。 |
 | 5 | 调用页面 [!DNL Analytics] 视图信标 | 此信标将与步骤3和步骤4关联的SDID发送到 [!DNL Analytics] 数据拼接。 |
 | 6 | 拨叫其他 `triggerView({"page": false})` | 这是SPA框架的可选步骤，该步骤可能会在页面上重新呈现某些组件，而不会发生视图更改。 在这种情况下，请务必调用此API，以确保在SPA框架重新渲染 [!DNL Target] 组件后重新应用体验。 您可以按期望的次数执行此步骤，以确保SPA [!DNL Target] 视图中的体验持续存在。 |
 
@@ -292,7 +292,7 @@ at.js 2.x API允许您以多种方式自 [!DNL Target] 定义您的实施，但�
 | 步骤 | 操作 | 详细信息 |
 | --- | --- | --- |
 | 1 | 调用 `visitor.resetState()` | 此API确保在加载新视图时为其重新生成SDID。 |
-| 2 | 通过调用 `getOffer()` API更新缓存 | 如果此视图更改有可能使当前访客符合更多活动或使其不符合活动条件，则此操作是可 [!DNL Target] 选的步骤。 此时，您还可以选择向发送其他数据以启用 [!DNL Target] 进一步的定位功能。 |
+| 2 | 通过调用 `getOffers()` API更新缓存 | 如果此视图更改有可能使当前访客符合更多活动或使其不符合活动条件，则此操作是可 [!DNL Target] 选的步骤。 此时，您还可以选择向发送其他数据以启用 [!DNL Target] 进一步的定位功能。 |
 | 3 | 调用 `triggerView()` | 如果已执行步骤2，则必须等待请求并应 [!DNL Target] 用优惠才能执行此步骤。 每个视图只能执行此步骤一次。 |
 | 4 | 调用 `triggerView()` | 如果您尚未执行步骤2，则可以在完成步骤1后立即执行此步骤。 如果您已执行步骤2和步骤3，则应跳过此步骤。 每个视图只能执行此步骤一次。 |
 | 5 | 调用页面 [!DNL Analytics] 视图信标 | 此信标将与步骤2、3和4关联的SDID发送到数据 [!DNL Analytics] 拼接中。 |

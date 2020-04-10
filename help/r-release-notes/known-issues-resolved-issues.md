@@ -1,9 +1,9 @@
 ---
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: 有关此版本的Adobe目标的已知问题的信息。 此外，还包括有关已解决问题的信息。
+description: 有关此 Adobe Target 版本的已知问题的信息。此外，还包括有关已解决问题的信息。
 title: Adobe Target 中的已知问题和已解决的问题
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
@@ -21,9 +21,9 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 下面部分列出了 [!DNL Target] 的已知问题：
 
-### 页面投放 {#page-delivery}
+### 页面交付 {#page-delivery}
 
-如果添加模板规则(如页面投放中的URL包含(/checkout, /cart)) [](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)，则会在规则前添加额外的空格。 这是一个外观问题，不影响受众定义的创建和优惠投放。 (TGT-35916)
+如果添加模板规则，如[页面交付](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)中包含的 URL (/checkout、/cart)，则会在规则前添加额外的空格。这是一个外观问题，不影响受众定义的创建和选件交付。(TGT-35916)
 
 ### 活动 QA 预览链接 {#preview}
 
@@ -58,16 +58,16 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 如果使用 GET API 拉取选件列表，则“选件”库中从 Target UI 创建的代码选件将显示在默认工作区中。此问题将在 2019 年 3 月的第一个星期得到修复。完成此修复后，在从 API 拉取时，代码选件将显示在相应的工作区中。此问题&#x200B;*不*&#x200B;会影响从 API 创建的选件。例如，无论是使用 GET API 还是从 Target UI 中获取选件，从 API 创建的代码选件都将显示在创建这些选件的工作区中。
 
-### 推荐
+### Recommendations
 
-以下是“推荐”活动存在的已知问题：
+以下是 Recommendations 活动存在的已知问题：
 
-* 实体在没有通过源或API接收更新的60天后正确过期；但是，过期后不会从目录搜索索引中删除已过期的实体。 (IRI-857)
-* 标准和设计的“使用信息”叠加不反映其在A/B和体验定位活动中的使用情况(TGT-34331)
-* A/B和Experience Targeting优惠中的推荐活动不显示Recommendations托盘的可视预览(TGT-33426)
-* 通过API创建的集合、排除、条件和设计在目标用户界面中不可见，只能通过API编辑。 (TGT-35777)
-* 通过API创建的推荐活动可在用户界面中查看，但只能通过API编辑。
-* “标准”列表（卡）视图中显示的“自定义标准”源状态每十分钟刷新一次，在极少情况下可能会超过十分钟。 “自定义条件”编辑视图中显示的状态将实时获取并始终为最新状态。 (TGT-35896, TGT-36173)
+* 如果通过信息源或 API 未收到更新达 60 天之后，实体会正确过期；但是，过期后不会从目录搜索索引中删除已过期的实体。(IRI-857)
+* 标准和设计的“使用信息”叠加不反映它们在 A/B 活动和体验定位活动中的使用情况 (TGT-34331)
+* A/B 活动和体验定位活动中的 Recommendations 选件不显示 Recommendations 栏的可视预览。
+* 通过 API 创建的收藏集、排除项、标准和设计在 Target 用户界面中不可见，并且只能通过 API 进行编辑。(TGT-35777)
+* 通过 API 创建的 Recommendations 活动可在用户界面中查看，但只能通过 API 进行编辑。
+* “标准”列表（卡片）视图中显示的“自定义标准”信息源状态每十分钟刷新一次，在极少情况下可能会超过十分钟。“自定义标准”编辑视图中显示的状态将实时获取并始终保持为最新。(TGT-35896、TGT-36173)
 
 ### 多变量测试 (MVT) 活动
 
@@ -77,22 +77,22 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 以下是 at.js 存在的已知问题：
 
-* 使用2.2.0之前的at.js版本，如果页面元素（如按钮）上不存在Adobe Analytics代码，则单击跟踪不会报告Analytics for目标(A4T)中的转换情况。 已在at.js 2.2.0中针对此问题引入了修复。如 [果您遇到此问题](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ，请升级到最新at.js版本。
-* 如果您使用at.js 2.1.1或更早版本（例如默认体验）创建不进行任何修改的体验，则该体验可能不会计入报告、Analytics for目标(A4T)、Adobe Analytics或Google Analytics中。 此外， [ttMeta插件可能无法正确工作](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 。
+* 使用 2.2.0 之前的 at.js 版本，如果页面元素（如按钮）上没有 Adobe Analytics 代码，则单击跟踪不会报告 Analytics for Target (A4T) 中的转换情况。at.js 2.2.0 已针对此问题进行了修复。如果您遇到此问题，[请升级到最新版本的 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+* 如果您使用 at.js 2.1.1 或更早版本（例如某个默认体验）创建未进行任何修改的体验，则该体验可能不会计入报告、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 中。此外，[ttMeta 插件](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)可能无法正确工作。
 
-   作为解决方法，请在体验内容中使用空白。 (TNT-33366)
+   作为解决方法，请在体验内容中使用空格。(TNT-33366)
 
    >[!NOTE]
    >
-   >at.js 2.2.0中包含此问题的修复。您应升级到最 [新版本或at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ，或仅对2.2.0之前的at.js版本使用上述补救方法。
+   >at.js 2.2.0 对此问题进行了修复。您应升级到[最新版本的 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)，或者仅对低于 2.2.0 版本的 at.js 使用上述解决方法。
 
 * 将页面加载到可视化体验编辑器 (VEC) 中时，Target 需要确定全局 mbox 设置是处于启用状态还是禁用状态，以及 entityID 或 categoryID 是否存在于用户尝试在 VEC 中应用推荐的位置。标准列表将会根据这些信息进行筛选。默认列表已筛选算法，但[“兼容”复选框](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)允许您查看完整的算法列表。
 
    使用 at.js 时，“兼容性”复选框处于隐藏状态，因此您看不到不兼容的算法。
 
-   此问题仅适用于使用 VEC 的“推荐”活动。
+   此问题仅适用于使用 VEC 的 Recommendations 活动。
 
-   **解决方法**：禁用[!UICONTROL 推荐 > 设置]中的[!UICONTROL 筛选不兼容的标准]选项。禁用此设置后，所有标准（兼容和不兼容）都将显示在标准选择器中。(TGT-25949)
+   **解决方法**：禁用 [!UICONTROL Recommendations > 设置]中的[!UICONTROL 筛选不兼容的标准]选项。禁用此设置后，所有标准（兼容和不兼容）都将显示在标准选择器中。(TGT-25949)
 
 * 由于 at.js 和访客 API 2.2.0 之间的交互，在升级到 at.js 版本 1.0 后不会在 Microsoft Explorer 11 浏览器中触发 Mbox。此问题会影响 at.js 版本 0.9.6 及更高版本。(TNT-27600)
 * at.js 可能不适用于 Cordova/Hybrid 应用程序，因为它们当前不支持第一方 Cookie。(TNT-26166)
@@ -133,13 +133,13 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 
 上述已知问题在解决后将会被移至下面部分，并在必要时添加额外的注释。
 
-### 推荐
+### Recommendations
 
-* 如果推荐信息源中的项目与上一次运行中的项目相同，则该信息源索引会显示“正在等待编入索引”。要交付的产品引入不会受到影响。(RECS-6663)
+* 如果 Recommendations 信息源中的项目与上一次运行中的项目相同，则该信息源索引会显示“正在等待编入索引”。要交付的产品引入不会受到影响。(RECS-6663)
 
    已在 Target 19.4.2 版本中修复此问题。
 
-* “推荐”信息源在处理时所花费的时间比预期要长。(COR-2836)
+* Recommendations 信息源在处理时所花费的时间比预期要长。(COR-2836)
 
    已在 Target 16.10.1 版本中修复。
 
@@ -202,15 +202,15 @@ Adobe I/O 上的 v1 版选件 API 将通过 Target 创建的所有选件存储�
 
 已在 18.9.1 版本中修复此问题。
 
-### 使用属性促销活动规则的“推荐”活动
+### 使用属性促销活动规则的 Recommendations 活动
 
-编辑或复制使用属性促销活动规则的“推荐”活动时，如果单击“保存”，则会显示“具有缺失的字段”错误。
+编辑或复制使用属性促销活动规则的 Recommendations 活动时，如果单击“保存”，则会显示“具有缺失的字段”错误。
 
 已在 17.8.1 版本中修复此问题。
 
-### 备用推荐
+### 备用 Recommendations
 
-备用推荐会在 Target UI 的“最近查看的项目”卡片上错误地显示“已启用”。(TGT-29308)
+备用 Recommendations 会在 Target UI 的“最近查看的项目”卡片上错误地显示“已启用”。(TGT-29308)
 
 已在 18.4.1 版本中修复此问题，以便显示“已禁用”。
 
@@ -303,7 +303,7 @@ Target 17.4.1 版本（2017 年 4 月 27 日版）中包含在报表中查看多
 
 对于“最近查看的项目”标准，如果未在 mbox 请求中传递 entity.id 参数，则基于实体的动态规则将不会生成推荐。(RECS-6241)
 
-已在发布“推荐”（2018 年 3 月 22 日）后修复此问题。在发布“推荐”后，如果未在 mbox 请求中传递 entity.id，则 Target 会跳过基于实体的动态规则。
+已在发布 Recommendations（2018 年 3 月 22 日）后修复此问题。在发布 Recommendations 后，如果未在 mbox 请求中传递 entity.id，则 Target 会跳过基于实体的动态规则。
 
 ### at.js
 
@@ -315,7 +315,7 @@ Target 17.4.1 版本（2017 年 4 月 27 日版）中包含在报表中查看多
 
 需要 10 到 20 分钟才能将全局排除规则传播到边缘网络以执行 Premium Recommendations。(RECS-5270)
 
-已在推荐 17.2.2.0 版本（2017 年 3 月 6 日版）中修复。
+已在 Recommendations 17.2.2.0 版本（2017 年 3 月 6 日版）中修复。
 
 ### Analytics for Target (A4T) 报表
 

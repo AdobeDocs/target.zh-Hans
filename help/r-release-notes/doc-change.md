@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 14 年 4 月 | [白名单目标边缘主机](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 新主题。 |
 | 10 年 4 月 | [单页应用程序实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 添加了新部分：“实施最佳实践。” |
 | 7 年 4 月 | [提升度和置信度 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 更新了“为什么我看不到计算指标的提升和信心？”的文本 |
 | 2 年 4 月 | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 添加了有关使用较 `user.header('x-forwarded-for')` 新的AWS边缘来检索用户IP地址的信息。 |
@@ -122,7 +123,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [发行说明-目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新主题。 |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关V1/投放API和Node.js SDK版本的信息。 |
 | 2019 年 10 月 8 日 | [目标内幕新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 新主题包含指向第一批新闻稿的链接，并且还有更多内容。 |
-| 2019 年 10 月 3 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下内容： <ul><li>使用at.js 2创建体验时，无需修改的已知问题和解决方法。*x库* 。</li><li>通过 API 创建的收藏集、排除项、标准和设计在 Target 用户界面中不可见，并且只能通过 API 进行编辑。</li><li>通过 API 创建的 Recommendations 活动可在用户界面中查看，但只能通过 API 进行编辑。</li></ul> |
+| 2019 年 10 月 3 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下内容： <ul><li>使用at.js 2创建体验时不进行任何修改的已知问题和解决办法。*x库* 。</li><li>通过 API 创建的收藏集、排除项、标准和设计在 Target 用户界面中不可见，并且只能通过 API 进行编辑。</li><li>通过 API 创建的 Recommendations 活动可在用户界面中查看，但只能通过 API 进行编辑。</li></ul> |
 |  | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | 在“mboxDebug”部分添加了注释。 |
 | 2029 年 10 月 2 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发布的版本的信息。 |
 | 2019 年 10 月 1 日 | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 更新了“客户属性”部分中的文本。 |

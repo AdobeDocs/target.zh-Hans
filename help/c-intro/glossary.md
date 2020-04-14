@@ -4,7 +4,7 @@ title: Adobe Target 术语表
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
 
 ---
 
@@ -328,6 +328,10 @@ Target Standard 中活动的可视化表现形式。
 当任何访客查看带有 mbox 的页面时，所有的引荐页面和网页 URL 变量都将被自动地传递到 mbox 中。然后，即可在报表中使用这些 URL 变量来显示定位或区段筛选器。
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+
+**visit**
+
+访问有时称为会话。 访问在30分钟不活动后结束，这意味着在服务器请求到目标之间至少已经过30分钟。
 
 **visitor（访客）**
 

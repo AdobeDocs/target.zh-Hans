@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -107,6 +107,8 @@ Adobe Target 解决方案托管在全球范围内 Adobe 自有和 Adobe 租用�
 >
 >[!DNL Adobe Target] 目前在中国没有边缘网络，因此，对于中国的 [!DNL Target] 客户，其最终用户性能将继续受限。Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
+如果需要，可以将目标边缘注释列入白名单。 有关详细信息，请参阅白 [名单目标边缘节点](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)。
+
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe 确保定位基础设施的可用性和性能尽可能可靠。但是，最终用户浏览器与 Adobe 服务器之间的通信划分可能会导致内容交付中断。
@@ -131,7 +133,7 @@ Google 鼓励用户进行测试，并在其文档中指出只要遵循一些简�
 有关更多信息，请参阅以下 Google 资源：
 
 * [网站测试和 Google 搜索](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [实验和伪装](https://support.google.com/analytics/answer/2576845?hl=en&ref_topic=1745207)
+* [实验和伪装](https://support.google.com/analytics/answer/2576845?hl=en&amp;ref_topic=1745207)
 
 [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) 中有篇博文介绍了相关准则。虽然该博文是在 2012 年发布的，但它是 Google 对此问题的最近说明，而且其中的准则仍然适用。
 

@@ -1,12 +1,12 @@
 ---
-keywords: 实施
+keywords: implement;implementing
 description: 在实施 Adobe Target 之前应考虑的注意事项。
 title: 实施之前
-subtopic: 入门指南
+subtopic: Getting Started
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -28,3 +28,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 - [支持的浏览器](supported-browsers.md)
 - [TLS（传输层安全性）加密更改](tls-transport-layer-security-encryption.md)
 - [CNAME 和 Adobe Target](implement-cname-support-in-target.md)
+- [白名单目标边缘节点](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)

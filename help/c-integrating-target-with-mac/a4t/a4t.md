@@ -6,7 +6,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -27,7 +27,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 
 >[!IMPORTANT]
 >
->在开始使用 A4T 之前，您需要请求对您的帐户进行配置，以便使用该集成。可使用[此表单](https://www.adobe.com/go/audiences)提交配置请求。
+>在开始使用 A4T 之前，您需要请求对您的帐户进行配置，以便使用该集成。可使用[此表单](https://www.adobe.com/go/audiences_cn)提交配置请求。
 >
 >可启用 Adobe Analytics 作为 Adobe Target 数据源 (A4T) 的集成代表了新一代 Test&amp;Target 与 SiteCatalyst 集成插件。虽然此插件已被弃用，但已使用它的客户仍可获得支持。
 
@@ -50,7 +50,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 * 使用 Analytics 作为报表源时，只允许使用一个基于 mbox 的量度。
 * 从 Target 到 Analytics 的服务器到服务器调用会向 Analytics 发送活动和体验信息。此集成不会为 Target 或 Analytics 生成其他服务器调用。
 
-   在某些情况下，从Target到Analytics的分类调用可能会失败，且活动不会在Analytics中显示数据。 如果出现这种情况，请 [参阅Analytics和Target集成疑难解答(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 您还可以联系 [客户关怀部门](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) ，获得进一步帮助。
+   在某些情况下，从目标到分析的分类调用可能会失败，而活动不会在Analytics中显示数据。 如果出现这种情况，请 [参阅Analytics和目标集成疑难解答(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 您还可以联系 [客户关怀部门](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) ，获得进一步帮助。
 
 ## 支持的活动类型 {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -108,7 +108,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### Analytics for Target(A4T)(4:32)概 ![述徽章](/help/assets/overview.png)
+### 目标分析(A4T)(4:32)概 ![述徽章](/help/assets/overview.png)
 
 以下视频介绍了如何在 Adobe Target 中使用 Adobe Analytics 作为报表源来促进对优化计划的分析。
 
@@ -118,7 +118,7 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics / Target集成(A4T)(40:33) !![Tutorial badge](/help/assets/tutorial.png
+### 分析/目标集成(A4T)(40:33)教 ![程徽章](/help/assets/tutorial.png)
 
 此视频是“[办公时间](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 
@@ -127,4 +127,4 @@ Analytics 和 Target 之间的 Analytics for Target 集成为您的优化计划�
 * 了解要在 Analytics 中使用的理想报表
 * 关于 A4T 的常见问题解答
 
-[Analytics/Target集成(A4T)办公时间](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[分析/目标集成(A4T)办公时间](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)

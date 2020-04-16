@@ -4,7 +4,7 @@ description: 可使用最多包含五个标准的序列来加强对“推荐”�
 title: 创建标准序列
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -86,7 +86,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    有关推荐逻辑选项的更多信息，请参阅[标准](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 
-## 培训视频：在“推荐”中创建标准 (12:33) !![Tutorial badge](/help/assets/tutorial.png)
+## 培训视频：在“推荐”中创建标准 (12:33) 教 ![程徽章](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

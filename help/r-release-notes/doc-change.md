@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 710b442dd7e2d906dafc5ec73748268681e08448
+source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 23 年 4 月 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主题。 |
 | 22 年 4 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了新部分： *用户档案批处理状态API v2更改（2020年5月4日）。* |
 | 20 年 4 月 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了新部分： *Adobe目标技能构建器：开发人员聊天，将Adobe目标的mbox.js迁移到at.js。* |
 | 14 年 4 月 | [白名单目标边缘主机](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 新主题。 |

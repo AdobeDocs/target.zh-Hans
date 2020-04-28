@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 ---
 
@@ -18,6 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 28 年 4 月 | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 删除了有关使用较 `user.header('x-forwarded-for')` 新的AWS边缘来检索用户IP地址的信息。 该命令现在可用于较新的AWS边缘。 |
+|  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 将目标标准版／高级版(20.4.1)的日期更改为5月6日。 |
 | 23 年 4 月 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主题。 |
 | 22 年 4 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了新部分： *用户档案批处理状态API v2更改（2020年5月4日）。* |
 | 20 年 4 月 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了新部分： *Adobe目标技能构建器：开发人员聊天，将Adobe目标的mbox.js迁移到at.js。* |
@@ -126,7 +128,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [发行说明-目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 新主题。 |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关V1/投放API和Node.js SDK版本的信息。 |
 | 2019 年 10 月 8 日 | [目标内幕新闻快讯](/help/r-release-notes/target-insider-newsletter.md) | 新主题包含指向第一批新闻稿的链接，并且还有更多内容。 |
-| 2019 年 10 月 3 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下内容： <ul><li>使用at.js 2创建体验时不进行任何修改的已知问题和解决办法。*x库* 。</li><li>通过 API 创建的收藏集、排除项、标准和设计在 Target 用户界面中不可见，并且只能通过 API 进行编辑。</li><li>通过 API 创建的 Recommendations 活动可在用户界面中查看，但只能通过 API 进行编辑。</li></ul> |
+| 2019 年 10 月 3 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下内容： <ul><li>使用at.js 2创建体验时，无需修改的已知问题和解决方法。*x库* 。</li><li>通过 API 创建的收藏集、排除项、标准和设计在 Target 用户界面中不可见，并且只能通过 API 进行编辑。</li><li>通过 API 创建的 Recommendations 活动可在用户界面中查看，但只能通过 API 进行编辑。</li></ul> |
 |  | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | 在“mboxDebug”部分添加了注释。 |
 | 2029 年 10 月 2 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发布的版本的信息。 |
 | 2019 年 10 月 1 日 | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 更新了“客户属性”部分中的文本。 |

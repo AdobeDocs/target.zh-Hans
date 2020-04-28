@@ -5,7 +5,7 @@ title: Adobe目标预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2020 年 4 月 24 日**
+**上次更新日期：2020 年 4 月 28 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -37,7 +37,7 @@ source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 [立即注册！](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
 
-## Target Standard/Premium 20.4.1（2020 年 4 月 27 日） 
+## Target Standard/Premium 20.4.1（2020 年 5 月 6 日）
 
 此版本包含以下增强、修复和更改：
 

@@ -5,7 +5,7 @@ title: 以前版本的发行说明
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
+source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 ---
 
@@ -19,65 +19,6 @@ source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 >请参阅 [Target 发行说明（当前版本）](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明- 2020
-
-## 目标at.js（2020年3月25日）
-
-提供以下新版本的目标at.js JavaScript库：
-
-* at.js版本2.3.0
-* at.js版本1.8.1
-
-For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
-## Target Standard/Premium 20.2.1（2020 年 3 月 23 日）
-
-此版本包含以下增强、修复和更改：
-
-* 修复了客户在执行目录搜索时无法选择集合的问题。 (TGT-36230)
-* 修复了通过API创建但未由在目标UI中创建的活动引用的条件可能从UI中错误删除的问题。 (TGT-35917)
-* 对内容安全策略(CSP)实施了安全改进。 (TGT-36190)
-* 修复了在将“属性加权”百分比条滑向最左侧时，导致显示“NaN%”的问题。 (TGT-36211)
-* 解决了本地化问题，以便正确显示各种语言的UI文本。
-* 我们通过弃用当前版本的Adobe Analytics API不支持的Adobe Analytics列表，标准化了Adobe Analytics目标(A4T)活动的可用指标。 这将使我们能够在未来的Adobe目标版本中扩展A4T支持。
-
-   进行了以下更改：
-
-   * “页面平均停留时间”已替换为“网站平均停留时间”。 任何将此作为主要目标量度的活动都将具有“网站平均停留时间”(注意：以分钟而非秒为单位)被选作下次编辑活动时的主要目标量度。
-   * “访客”已被“独特访客”所取代。 使用此量度作为主要目标量度的任何活动在下次编辑该活动时都将选择“唯一访客”作为主要目标量度。
-
-* 已弃用以下量度，在创建新的A4T活动时，无法再选择它作为主要目标量度。
-
-   | 已弃用的度量 | 建议的替换指标 |
-   |--- |--- |
-   | 每日访客、每小时访客、每月访客、季度访客、每周访客、每年访客 | 独特访客 |
-   | 平均访问深度 | n/a。不建议作为主要目标量度 |
-   | 机器人 | n/a。不建议作为主要目标量度 |
-   | 移动崩溃率、移动平均上一会话长度、移动App Store平均排名、移动App性能崩溃率、移动App Store平均评级 | n/a。不建议作为主要目标量度 |
-
-## Adobe Experience Cloud导航（2019年2月22日）
-
-* 登录到时，您 [!DNL Adobe Experience Cloud]将转到新的标题导航。 它看起来与上一个导航非常相似，顶部有黑条，但它提供了以下改进：
-
-   * 更轻松地在 [!DNL Identity Management System] (IMS)组织之间切换或切换到其他解决方案。
-   * 改进的用户帮助：搜索结果包括产品文档中的结 [!DNL Target] 果、社区论坛和更多视频内容，让您能够更轻松地访问更多内容，从而帮助您发挥最大作用 [!DNL Target]。 我们还在“帮助”菜单中添加了反 [!UICONTROL 馈机制] ，使报告问题或分享您的想法更加容易。
-
-   * 改进了Net Promoter Score(NPS)反馈功能，因此调查模式不会干扰您的工作流。
-   * 改进了登录流程。 以前，所 [!DNL Target] 有客户在单击标题中的图标后都登录 [!DNL Target] 了目标登陆页。 然后，此页允许客户继续执行 [!DNL Target Standard/Premium]、 [!DNL Search&Promote]或 [!DNL Recommendations Classic]，如下所示：
-
-      ![登陆页面](/help/r-release-notes/assets/landing.png)
-
-      我们为所有客户消除了此登陆页。 现在，您始终可以通过单击新标题导 [!UICONTROL 航栏中的图标，直][!DNL Target] 接转到活动列表页面。
-
-      如果您使 [!DNL Recommendations Classic]用，您可以直接转到解决方案，也可以从在“推荐”选项卡上创建的简短链 [!UICONTROL 接] ，如下所示：
-
-      ![Recs Classic深层链接](/help/r-release-notes/assets/recs-classic.png)
-
-      如果您使 [!DNL Search&Promote]用，则需要直接转到 [Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)。 从内部到达 [!DNL Search&Promote] 的路径已 [!DNL Adobe Target] 完全删除。
-
-   * 标题 [!DNL Target] 的“通知”下拉框 [!UICONTROL 中] ，当前不提供通知。
-   >[!NOTE]
-   >
-   >作为新导航栏转出的一部分，您还会注意到一些URL更改。 所有以前已添加书签的链接将继续有效，但我们建议您为新链接加入书签以加快打开速度。
 
 ### Target Standard/Premium 20.1.1（2020 年 2 月 4 日） 
 

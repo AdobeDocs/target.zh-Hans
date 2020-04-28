@@ -5,7 +5,7 @@ title: Adobe目标预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
+source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2020 年 4 月 27 日**
+**上次更新日期：2020 年 4 月 24 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -44,6 +44,7 @@ source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 * 修复了对受众的设备和浏览器类型进行错误限定的问题。 (TGT-36266)
 * 修复了在宽度小于963像素的屏幕上查看报告数据时无法显示的问题。 (TGT-36549)
 * 修复了导致自动个性化报表无法正确呈现的问题。 (TGT-36619)
+* 修复了在使用Analytics for目标(A4t)的自动分配和自动目标活动中允许选择不兼容度量的问题。 (TGT-36646)
 * 修复了导致Visual Experience Composer(VEC)中的某些选项无法正确显示的问题。 (TGT-36571)
 * 修复了目标UI中的一个问题，该问题导致用户在单个体验中替换内容后，其他Recommendations优惠预览显示已编辑的内容。 （TGT-36053 和 TGT-36894）
 * 修复了阻止某些用户从Recommendations目录删除项目的问题。 (TGT-36455)

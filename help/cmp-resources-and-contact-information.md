@@ -5,7 +5,7 @@ title: 资源和联系信息
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: fe738d15eb165df0315e6b7edd10494110c0ba5c
+source-git-commit: f85b9887559792628151998673b7fc95e0d9145a
 
 ---
 
@@ -30,7 +30,7 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 
 注册信息以及指向以前的 Target 基础知识网络研讨会系列会议的链接，该研讨会系列是由社区为您提供的客户成功网络研讨会系列。
 
-[单击此处可观看以前的会话，或了解有关即将举办的会话和注册信息的更多信息](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)。
+[单击此处可观看过去的会话，或进一步了解即将举办的会话和注册信息](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)。
 
 
 ## Adobe 客户关怀团队办公时间 {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
@@ -43,9 +43,9 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 
 | 主题/运行时长/录制日期 | 您将了解的内容 |
 |--- |--- |
-| [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017年12月 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>有关本指南中的更多信息，请参阅[体验](/help/c-experiences/experiences.md)。 |
-| [Adobe Target:Analytics/Target集成(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018年1月40:33<br>日 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
-| [at.js:优势和实施最佳实践](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018年4月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul>有关本指南中的更多信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
+| [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23 2017<br>年12月50 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>有关本指南中的更多信息，请参阅[体验](/help/c-experiences/experiences.md)。 |
+| [Adobe目标: 分析/目标集成(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018年1月40<br>:33 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
+| [at.js: 优势和实施最佳](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>做法26:43<br>2018年4月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul>有关本指南中的更多信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 | 业务影响 | 对您的业务有什么影响？例如，该问题是否会造成收入减少或使产品无法使用，是否有可行的解决办法？ |
 | 预期 | 您预计会发生什么？ |
 
-有关内容交付问题，请参阅内容交付 [疑难解答](/help/c-activities/c-troubleshooting-activities/content-trouble.md) ，以了解可能的解决方案和疑难解答信息。
+有关内容投放问题，请参 [阅内容投放疑难解答](/help/c-activities/c-troubleshooting-activities/content-trouble.md) ，以了解可能的解决方案和疑难解答信息。
 
 ### 如果发生中断 {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
@@ -97,15 +97,15 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 
 Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提供了大量的参与机制：
 
-* [查看 Experience Cloud 帮助页面，以获取建议、提示和常见问题解答](https://helpx.adobe.com/marketing-cloud.html)
+* [查看 Experience Cloud 帮助页面，以获取建议、提示和常见问题解答](https://helpx.adobe.com/cn/marketing-cloud.html)
 * [在 Twitter @AdobeExpCare 上快速提问](https://twitter.com/adobeexpcare)
-* [打开票证以获取支持的帮助](https://experienceleague.adobe.com/?support-solution=Target#support)
-* [直接联系客户关怀团队](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [打开票证以获得支持的帮助](https://experienceleague.adobe.com/?support-solution=Target#support)
+* [直接联系客户关怀团队](https://helpx.adobe.com/cn/marketing-cloud/contact-support.html)
 * [查看 Experience Cloud 解决方案的可用性和状态](https://status.adobe.com/)
 
 要收到有关即将推出的产品增强功能的高级通知，请注册 Adobe Priority Product Update（Adobe 优先产品更新）：
 
-[Adobe优先级产品更新](https://www.adobe.com/subscription/priority-product-update.html)
+[Adobe Priority产品更新](https://www.adobe.com/subscription/priority-product-update.html)
 
 ### 服务、职能和账单 {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -113,7 +113,7 @@ Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提
 
 ### 反馈 {#section_8154D6D712054220A90D85FA8E92933E}
 
-我们欢迎您提供有关此解决方案的任何建议或反馈。可以将有关改进 Analytics 包的意见和建议[添加到我们的客户意见交流平台](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3)中。
+我们欢迎您提供有关此解决方案的任何建议或反馈。Adobe目标体验联盟社区可以添加 [增强创意和建议](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)。 Click the [!UICONTROL Ideas] tab.
 
 ### 法律 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

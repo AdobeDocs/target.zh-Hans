@@ -1,11 +1,11 @@
 ---
-keywords: 故障诊断;量度不一致;常见问题解答;报表
+keywords: troubleshooting;metric discrepancies;FAQ;reports
 description: 有关 Adobe Target 报表的常见问题解答列表。
 title: Adobe Target 报表常见问题解答
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -33,7 +33,7 @@ XT 活动应始终包含一个控制体验。如果您使用 XT 活动的方式�
 
 要更改活动报表的环境，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 活动]**，从列表中单击所需活动，然后单击&#x200B;**报表]选项卡。[!UICONTROL **
+1. 单击&#x200B;**[!UICONTROL 活动]**，从列表中单击所需活动，然后单击&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡。
 1. 单击齿轮图标以配置报表设置。
 
    ![A/B 设置对话框](/help/c-reports/c-report-settings/assets/ab_settings_dialog.png)
@@ -49,3 +49,18 @@ XT 活动应始终包含一个控制体验。如果您使用 XT 活动的方式�
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 有关环境的更多信息，请参阅[主机](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
+
+## 为什么我的A/B或MVT活动中体验之间的流量分配不均？ {#uneven}
+
+例如，我将流量分隔设置为50/50或33/33/33，但我发现报告中体验之间的分配差异很大。
+
+报告中流量分配不均的原因有很多可解释的 [!DNL Target] 原因：
+
+* 首次 [!DNL Target] 启动活动时，由于边缘节点架构用于优化体验投放，流量分布可 [!DNL Target] 能不均匀。 最佳实践是让活动有时间收集额外数据，然后分发将正常化。 有关架构和边 [!DNL Adobe Target] 缘节点的更多信息，请 [参阅Adobe目标的工作方式](/help/c-intro/how-target-works.md)。
+* 您使用哪种标准化指标？ 如果您处于 [!DNL Target] 或 [!DNL Analytics] 使用访问量度，请记住，这是一个基于 **[!UICONTROL 访客]**[!DNL Target] 的系统，A/B或MVT测试的流量分配在访客级别。 因此，如果您使用“访问”量度检查活动 **[!UICONTROL 结果]** ，则流量分布可能看起来不均匀，因为某些访客可能有多次访问。
+* A/B和MVT测试的最佳实践是保持流量分配均匀。 在测试过程中更改体验之间的流量分配（例如从90/10更改为50/50）可能会导致不同体验之间的访客不均。
+* 如果您遵循上述最佳实践，并且随着时间的推移流量分割不正常化，则应检查以下内容：
+
+   * 您是否在使用最新的at.js库？ 有关当前版本和相关发行说明的详细信息，请 [参阅at.js版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+
+   * 是重定向测试吗？ 页面上触发标记的时间不正确可能会导致流量分割不均匀，尤其是当 [!DNL Analytics] 用作活动的数据源 [!DNL Target] 时。 有关使用Analytics for活动(A4T)纠正重定向目标流量分布不均的详细信息，请参 [阅重定向优惠- A4T常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。

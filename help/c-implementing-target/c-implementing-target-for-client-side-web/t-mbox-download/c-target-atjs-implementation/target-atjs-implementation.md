@@ -5,7 +5,10 @@ title: 从 mbox.js 迁移到 at.js
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: d7c9f8c21a6acf195d416ad37d70c0b72d671ebc
+workflow-type: tm+mt
+source-wordcount: '585'
+ht-degree: 89%
 
 ---
 
@@ -24,14 +27,14 @@ at.js 库是适用于 [!DNL Adobe Target] 的新实施库，专为典型的 Web 
 
 ## at.js 的好处 {#benefits}
 
-下表说明了这两个库之间的差异：
+下表说明了两个库之间的差异：
+4
+|库参考 |说明 |
+|— |— |
+|at.js|at.js替换了mbox.js以用于实施 [!DNL Target] 。<br>使用 at.js 具有许多好处，包括缩短 Web 实施的页面加载时间，增强安全性，在 Google Chrome 中阻止 document.write 警告，以及为单页应用程序提供更好的实施选项，等等。<br>有关更多信息，请参阅 [at.js 实施](#implement)。|
+|mbox.js|Prior to [!DNL Target] 16.3.1 (March 2016), [!DNL Target] required a call to mbox.js to create the global mbox required for [!DNL Target] to deliver activities, track clicks, and track most success metrics. 此文件包含所有活动所需的库。您不需要为该文件维护特定于活动的不同版本。<br>如果您的页面上已经有来自旧版 [!DNL Target] 实施的封装 mbox，则在新界面中仍然能够使用这些 mbox。更新的 mbox.js 文件仍然是必需的，但可以使用可视化体验编辑器为活动选择和编辑这些 mbox。<br>[!DNL Target] Standard 和 Premium 通过引用 target.js 文件来更新和增补 mbox.js。target.js 文件由 Adobe 托管。通过 target.js 文件，您可以使用可视化体验编辑器编辑任何页面上的内容，即使页面不包含预定义的 mbox 也可编辑。您必须在网站的每个页面上都引用此文件。<br>有关更多信息，请参阅 [mbox.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)。<br>**重要信息&#x200B;**：虽然现在仍支持 mbox.js 库，但是以后不会再提供此库的功能更新。因此，所有客户都应迁移到 at.js。有关更多信息，请参阅[从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)<br>|
 
-| 库引用 | 描述 |
-|--- |--- |
-| at.js | at.js 取代了用于 [!DNL Target] 实施的 mbox.js。<br>使用 at.js 具有许多好处，包括缩短 Web 实施的页面加载时间，增强安全性，在 Google Chrome 中阻止 document.write 警告，以及为单页应用程序提供更好的实施选项，等等。<br>有关更多信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
-| mbox.js | 在 [!DNL Target] 16.3.1（2016 年 3 月版）之前，[!DNL Target] 需要调用 mbox.js 来创建 [!DNL Target] 交付活动、跟踪点击和跟踪大多数成功量度所需的全局 mbox。此文件包含所有活动所需的库。您不需要为该文件维护特定于活动的不同版本。<br>如果您的页面上已经有来自旧版 [!DNL Target] 实施的封装 mbox，则在新界面中仍然能够使用这些 mbox。更新的 mbox.js 文件仍然是必需的，但可以使用可视化体验编辑器为活动选择和编辑这些 mbox。<br>[!DNL Target] Standard 和 Premium 通过引用 target.js 文件来更新和增补 mbox.js。target.js 文件由 Adobe 托管。通过 target.js 文件，您可以使用可视化体验编辑器编辑任何页面上的内容，即使页面不包含预定义的 mbox 也可编辑。您必须在网站的每个页面上都引用此文件。<br>有关更多信息，请参阅 [mbox.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)。<br>**重要信息&#x200B;**：虽然现在仍支持 mbox.js 库，但是以后不会再提供此库的功能更新。因此，所有客户都应迁移到 at.js。有关更多信息，请参阅[从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)<br> |
-
-## 实施 at.js
+## 实施 at.js {#implement}
 
 要使用 [!DNL at.js]，请在要实施 at.js 的页面上替换 [!DNL mbox.js] 引用。不能在一个页面上同时使用 [!DNL mbox.js] 和 [!DNL at.js]。但是，您可以在网站的各个页面上使用任一库。
 

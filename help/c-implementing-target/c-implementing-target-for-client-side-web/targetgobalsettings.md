@@ -1,11 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
 description: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数的信息。
 title: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数的信息。
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1532'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
 
 | 设置 | 类型 | 默认值 | 描述 |
 |--- |--- |--- |--- |
-| serverState | 请参阅下面的“serverState”。 | 请参阅下面的“serverState”。 | 请参阅下面的“serverState”。 |
+| serverState | 请参阅下面的“混合个性化”。 | 请参阅下面的“混合个性化”。 | 请参阅下面的“混合个性化”。 |
 | clientCode | 字符串 | 通过 UI 设置的值 | 表示客户端代码 |
 | serverDomain | 字符串 | 通过 UI 设置的值 | 表示 Target 边缘服务器 |
 | cookieDomain | 字符串 | 如果可能的话，设置为顶级域 | 表示保存 Cookie 时使用的域 |
@@ -30,16 +33,16 @@ source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
 | timeout | 数值 | 通过 UI 设置的值 | 表示 Target 边缘请求超时 |
 | globalMboxAutoCreate | 布尔值 | 通过 UI 设置的值 | 指示是否应触发全局 mbox 请求 |
 | visitorApiTimeout | 数值 | 2000 毫秒 = 2 秒 | 表示访客 API 请求超时 |
-| enabled | 布尔值 | true | 启用后，将自动执行目标请求以检索体验和DOM操作以呈现体验。 此外，目标调用可以通过 `getOffer(s)` /手 `applyOffer(s)`<br>动执行禁用后，目标请求不会自动或手动执行 |
-| pageLoadEnabled | 布尔值 | true | 启用后，将自动检索页面加载时必须返回的体验 |
-| viewsEnabled | 布尔值 | true | 启用后，将自动检索页面加载时必须返回的视图。 视图在at.js 2中受支持。*仅限* x |
+| enabled | 布尔值 | true | 启用后，将自动执行目标请求以检索体验和DOM操作以呈现体验。 此外，目标调用可通过／手 `getOffer(s)` 动执 `applyOffer(s)`<br>行禁用后，目标请求不会自动或手动执行 |
+| pageLoadEnabled | 布尔值 | true | 启用后，自动检索页面加载时必须返回的体验 |
+| viewsEnabled | 布尔值 | true | 启用后，将自动检索页面加载时必须返回的视图。 视图在at.js 2中受支持。*仅* x |
 | defaultContentHiddenStyle | 字符串 | 可见性：隐藏 | 仅用于封装使用类名为“mboxDefault”且通过 `mboxCreate()`、`mboxUpdate()` 或 `mboxDefine()` 执行的 DIV 的 mbox 以隐藏默认内容 |
 | defaultContentVisibleStyle | 字符串 | 可见性：显示 | 仅用于封装使用类名为“mboxDefault”且通过 `mboxCreate()`、`mboxUpdate()` 或 `mboxDefine()` 执行的 DIV 的 mbox 以显示应用的选件（如果有）或默认内容 |
 | bodyHiddenStyle | 字符串 | body { opacity: 0 } | 仅在 `globalMboxAutocreate === true` 时使用，以尽量减少出现闪烁的情况。<br>有关更多信息，请参阅 [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。 |
 | bodyHidingEnabled | 布尔值 | true | 当使用 `target-global-mbox` 来传递在可视化体验编辑器中创建的选件（也称为可视化选件）时，用于控制闪烁 |
 | imsOrgId | 字符串 | IMS 组织 ID | 表示 IMS 组织 ID |
 | secureOnly | 布尔值 | false | 指示 at.js 应仅使用 HTTPS 还是允许基于页面协议在 HTTP 和 HTTPS 之间切换。 |
-| overrideMboxEdgeServer | 布尔值 | true （从 at.js 版本 1.6.2 开始为 true） | 指示我们是应使用 `<clientCode>.tt.omtrdc.net` 域还是 `mboxedge<clusterNumber>.tt.omtrdc.net` 域。<br>如果此值为 true，`mboxedge<clusterNumber>.tt.omtrdc.net` 域将被保存到 Cookie 中 |
+| overrideMboxEdgeServer | 布尔值 | true （从 at.js 版本 1.6.2 开始为 true） | 指示我们是应使用 `<clientCode>.tt.omtrdc.net` 域还是 `mboxedge<clusterNumber>.tt.omtrdc.net` 域。<br>如果此值为 true，`mboxedge<clusterNumber>.tt.omtrdc.net` 域将被保存到 Cookie 中。当前不使用 [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
 | overrideMboxEdgeServerTimeout | 数值 | 1860000 => 31 分钟 | 指示包含 `mboxedge<clusterNumber>.tt.omtrdc.net` 值的 Cookie 生命周期。 |
 | optoutEnabled | 布尔值 | false | 指示 Target 是否应调用访客 API `isOptedOut()` 函数。这是启动设备图形的一部分。 |
 | selectorsPollingTimeout | 数值 | 5000 毫秒 = 5 秒 | 在 at.js 0.9.6 中，Target 引入了这个新设置，它可通过 `targetGlobalSettings` 覆盖。<br>`selectorsPollingTimeout` 表示客户端愿意等待多长时间，让选择器标识的所有元素都显示在页面上。<br>通过可视化体验编辑器 (VEC) 创建的活动具有包含选择器的选件。 |
@@ -73,8 +76,8 @@ window.targetGlobalSettings = {
 
 | 视频 | 描述 |
 |--- |--- |
-| [在 Adobe Target 中使用数据提供程序](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | 数据提供程序是一项功能，允许您轻松地将数据从第三方传递到 Target。第三方可以是气象服务、DMP，甚至是您自己的 Web 服务。然后，您可以使用这些数据来构建受众、定位内容并丰富访客配置文件。 |
-| [在 Adobe Target 中实施数据提供程序](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | 有关如何使用 Adobe Target 的 dataProviders 功能从第三方数据提供程序中检索数据，并将该数据传递到 Target 请求的实施详细信息和示例。 |
+| [在 Adobe Target 中使用数据提供程序](https://helpx.adobe.com/cn/target/kt/using/dataProviders-atjs-feature-video-use.html) | 数据提供程序是一项功能，允许您轻松地将数据从第三方传递到 Target。第三方可以是气象服务、DMP，甚至是您自己的 Web 服务。然后，您可以使用这些数据来构建受众、定位内容并丰富访客配置文件。 |
+| [在 Adobe Target 中实施数据提供程序](https://helpx.adobe.com/cn/target/kt/using/dataProviders-atjs-technical-video-implement.html) | 有关如何使用 Adobe Target 的 dataProviders 功能从第三方数据提供程序中检索数据，并将该数据传递到 Target 请求的实施详细信息和示例。 |
 
 `window.targetGlobalSettings.dataProviders` 设置是一个数据提供程序数组。
 
@@ -180,9 +183,9 @@ var weatherProvider = {
 
 ## Content Security Policy {#content-security}
 
-at.js 2.3.0+支持在应用交付的目标优惠时，在附加到页面DOM的SCRIPT和STYLE标记上设置内容安全策略不可用性。
+at.js 2.3.0+支持在应用交付的目标优惠时，对附加到页面DOM的SCRIPT和STYLE标记设置内容安全策略不可用性。
 
-在加载at.js 2.3.0+之前，应 `targetGlobalSettings.cspScriptNonce` 在 `targetGlobalSettings.cspStyleNonce` 中设置SCRIPT和STYLE命令，并相应设置这些命令。 请参阅以下示例：
+在加载at.js 2.3.0+之前， `targetGlobalSettings.cspScriptNonce` 应在 `targetGlobalSettings.cspStyleNonce` 中并相应地设置SCRIPT和STYLE动作。 请参阅以下示例：
 
 ```
 ...
@@ -199,22 +202,22 @@ window.targetGlobalSettings = {
 ...
 ```
 
-在指 `cspScriptNonce` 定 `cspStyleNonce` 和设置后，at.js 2.3.0+会将这些属性设置为应用目标优惠时附加到DOM的所有SCRIPT和STYLE标签上的nonce属性。
+指定 `cspScriptNonce` 和 `cspStyleNonce` 设置后，at.js 2.3.0+会将这些属性设置为应用目标优惠时附加到DOM的所有SCRIPT和STYLE标签上的nonce属性。
 
-## serverState {#server-state}
+## 混合个性化 {#server-state}
 
-`serverState` 是at.js v2.2+中提供的设置，当实施目标的混合集成时，该设置可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的投放API或目标SDK来提供体验。 `serverState` 使at.js v2.2+能够直接应用从服务器端获取的内容中获取的体验，并作为所服务页面的一部分返回到客户端。
+`serverState` 是at.js v2.2+中提供的设置，在实施目标的混合集成时，可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的投放API或目标SDK来提供体验。 `serverState` 赋予at.js v2.2+直接应用从服务器端获取的内容中获取的体验并作为所服务页面的一部分返回到客户端的能力。
 
 ### 先决条件
 
-您必须有混合集成 [!DNL Target]。
+您必须具有混合集成 [!DNL Target]。
 
-* **服务器端**: 必须使用新的 [投放API](https://developers.adobetarget.com/api/delivery-api/) 或 [目标SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
-* **客户端**:必须使用 [at.js版本2.2或更高版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+* **服务器端**:  必须使用新的 [投放API](https://developers.adobetarget.com/api/delivery-api/) 或 [目标SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
+* **客户端**: 必须使用 [at.js版本2.2或更高版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
-### 代码示例
+### 代码范例
 
-要更好地了解其工作原理，请参见下面的代码示例，您将在服务器上看到这些示例。 代码假定您使用 [目标Node.js SDK](https://github.com/adobe/target-nodejs-sdk)。
+为了更好地了解其工作原理，请参见下面的代码示例，您将在您的服务器上找到这些示例。 代码假定您正在使 [用目标Node.js SDK](https://github.com/adobe/target-nodejs-sdk)。
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -315,30 +318,30 @@ const PAGE_TEMPLATE = `
 }
 ```
 
-页面加载到浏览器后，at.js会立即应用所有优惠, [!DNL Target] 而 `serverState` 不会对边缘触发任何网络调 [!DNL Target] 用。 此外，at.js仅预隐藏在获取的服务器端内容中提供优惠的DOM元素，因此会对页面加载性能和最终用户体验产生积极影响。 [!DNL Target]
+页面加载到浏览器中后，at.js将立即应用所 [!DNL Target] 有优惠 `serverState` ，而不会对边缘触发任何网络 [!DNL Target] 调用。 此外，at.js仅预隐藏在获取的内容服务器端 [!DNL Target] 中具有优惠的DOM元素，因此会积极影响页面加载性能和最终用户体验。
 
 ### 重要说明
 
 Consider the following when using `serverState`:
 
-* 目前，at.js v2.2仅支持通过serverState提供以下体验：
+* 目前，at.js v2.2仅支持通过serverState提供体验，以满足：
 
    * 在页面加载时执行的VEC创建的活动。
    * 预取的视图。
 
-      如果SPA使用 [!DNL Target] 视图 `triggerView()` ，并且在at.js API中，at.js v2.2会缓存服务器端预取的所有视图的内容，并在通过触发每个视图后立即应用这些内容 `triggerView()`，同样不会向目标发出任何额外的内容获取调用。
+      如果SPA使用 [!DNL Target] 视图 `triggerView()` ，并且在at.js API中，at.js v2.2会缓存服务器端预取的所有视图的内容，并在通过触发每个视图时立即应用这些内容，同 `triggerView()`样不会向目标发出任何其他内容提取调用。
 
-   * **注意**: 当前，不支持在服务器端检索的mbox `serverState`。
+   * **注意**:  目前，不支持在服务器端检索的mbox `serverState`。
 
-* 应用 `serverState `优惠时，at.js会考虑 `pageLoadEnabled` 和设 `viewsEnabled` 置，例如，如果设置为false，则不会应用页面 `pageLoadEnabled` 加载优惠。
+* 应用 `serverState `优惠时，at.js会考虑 `pageLoadEnabled` 和 `viewsEnabled` 设置，例如，如果设置为false，则不会应 `pageLoadEnabled` 用页面加载优惠。
 
-   要打开这些设置，请在“ **[UICONTROL设置”>“实施”>“编辑设置”>“启用页面加载”中启用切换]**。
+   要打开这些设置，请在“UICONTROL设置”>“实 **[施”>“编辑设置”>“启用页面加载”中启用切换]**。
 
    ![启用页面加载设置](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
 ### 其他资源
 
-要了解更多工作 `serverState` 方式，请查看以下资源：
+要了解更多工 `serverState` 作方式，请查看以下资源：
 
 * [示例代码](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
-* [单页应用程序(SPA)范例应用程序 `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo)。
+* [包含的单页应用程序(SPA)范例应 `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo)用。

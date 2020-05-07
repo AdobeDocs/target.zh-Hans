@@ -5,7 +5,10 @@ title: Adobe目标预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '600'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
 
 >[!NOTE]
 >
->* **mbox.js弃用**: 2020年8月30日，Adobe目标将不再支持mbox.js库。 2020年8月30日之后，mbox.js发出的所有呼叫都将失败，并影响您的目标活动正在运行的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本，以避免您的站点出现任何潜在问题。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 请参 *阅Adobe目标技能生成器： 开发人员聊天、将Adobe目标的mbox.js迁移到以下at.js* ，以了解有关注册即将进行的开发人员聊天主题的信息。
+>* **mbox.js弃用**: 2020年8月30日，Adobe目标将不再支持mbox.js库。 2020年8月30日之后，mbox.js发出的所有呼叫都将失败，并影响您的目标活动正在运行的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本，以避免您的站点出现任何潜在问题。 For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 请参 *阅Adobe目标技能生成器： 开发人员聊天，将Adobe目标的mbox.js迁移到下面的at* .js以获取信息。
    >
    >   
    尽管目前支持mbox.js，但自2017年7月起，我们便未对此库提供功能更新。 较新的at.js比mbox.js具有许多优势。 at.js可缩短Web实施的页面加载时间，提高安全性，并为单页应用程序提供更好的实施选项。
@@ -31,11 +34,7 @@ source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
 
 ## Adobe目标技能构建器： 开发人员聊天，将Adobe目标的mbox.js迁移到at.js {#skill-builder}
 
-请咨询Adobe目标产品经理David Son，他阐述将mbox.js迁移到at.js的好处。 聆听最新的at.js更新，了解其增强功能以及它们如何与技术领域的大趋势保持一致，以及一些实用提示，确保在从mbox.js迁移到at.js时从目标中获取相同的价值。 Adobe目标开发人员不会想错过！
-
-5月5日，星期二，上午8:00 - 9:00(PDT)
-
-[立即注册！](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
+随着mbox.js即将于2020年8月30日弃用，Adobe目标产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。 在接下来的30天内，您可以 [视图网络研讨会录制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
 
 ## Target Standard/Premium 20.4.1（2020 年 5 月 6 日）
 

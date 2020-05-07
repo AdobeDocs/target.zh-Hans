@@ -1,18 +1,21 @@
 ---
-keywords: qa；预览；预览链接；adobe目标；目标
-description: 使用Adobe Target QA URL可轻松执行端到端的活动QA，其中包含从不更改的预览链接、可选的受众定位以及从实时活动数据保持分段的QA报告。
+keywords: qa;preview;preview links;adobe target;target
+description: 使用Adobe目标QA URL可轻松执行端到端活动QA，其中包含永不更改的预览链接、可选的受众定位，以及保持与实时活动数据分段的QA报告。
 title: 活动 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1489'
+ht-degree: 88%
 
 ---
 
 
 # 活动 QA {#activity-qa}
 
-使用Adobe Target中的QA URL可轻松执行端到端的活动QA，其中包含从不更改的预览链接、可选的受众定位以及从实时活动数据保持分段的QA报告。
+使用Adobe目标中的QA URL可轻松执行端到端活动QA，其中包含永不更改的预览链接、可选的受众定位，以及保持与实时活动数据分段的QA报告。
 
 ## 概述 {#section_11B761A522A14E61978275772210A4C2}
 
@@ -26,7 +29,7 @@ source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
 
    >[!NOTE]
    >
-   >对于版本2的at.js实施，这是正确的。*x* 或更高版本。 对于at.js 1。*x* and mbox.js实施中，仅当访客的浏览器不阻止第三方Cookie时，这才适用。
+   >对于版本2的at.js实施，这是正确的。*x或* 更高版本。 对于at.js 1。*x* 和mbox.js实施，仅当访客的浏览器不阻止第三方cookie时，这才适用。
 
 ## 访问和共享 QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -49,14 +52,14 @@ source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
       * 如果您测试的活动与其他实时活动之间存在冲突，则会应用[常规的优先级规则](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)。因此，您可能看不到想要对其进行 QA 的活动。
       * 量度会在已查看的活动中递增，但这仅限于 QA 报表环境。
 
-1. 单击 **[!UICONTROL 完成]，以保存所做的更改。**
+1. 单击 **[!UICONTROL 完成]**，以保存所做的更改。
 1. 与组织中的成员共享活动链接 URL，以便进行测试。
 
    活动链接永远不会失效，因此如果有人对活动或体验进行了修改，您也无需重新发送链接。但是，如果您应用了受众库中的其他受众，而不只是编辑活动，则您需要重新共享生成的新链接。
 
    使用每个活动链接 URL（体验 A、体验 B 及其他体验的链接），您可以从相应的体验开启用户历程。您可以单击为某个体验生成的 URL，然后按常规方式浏览网站，以查看多个页面上的体验（如果存在多个页面）。每个体验只会生成一个 URL，即使体验涉及多个页面（模板测试或多页面测试）也是如此。
 
-   由于活动 QA 具有粘滞性，因此您可以通过浏览网站来查看其他页面。请注意，对于版本2的at.js实施，这是正确的。*x* 或更高版本。 对于at.js 1。*x* and mbox.js实施中，仅当访客的浏览器不阻止第三方Cookie时，这才适用。
+   由于活动 QA 具有粘滞性，因此您可以通过浏览网站来查看其他页面。请注意，对于版本2的at.js实施，这是正确的。*x或* 更高版本。 对于at.js 1。*x* 和mbox.js实施，仅当访客的浏览器不阻止第三方cookie时，这才适用。
 
 1. 要查看从活动链接 URL 生成的报表，请单击活动的 **[!UICONTROL 报表]** 页面，单击 **[!UICONTROL 设置]** 图标 (![](assets/icon_gear.png))，然后从 **[!UICONTROL 环境]** 下拉列表中选择 **[!UICONTROL QA 模式]**。
 
@@ -72,7 +75,7 @@ source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
    您也可以手动强制自己退出该模式，方法是在网站上使用具有空值的 `at_preview_token` 参数（例如 `https://www.mysite.com/?at_preview_token=`）来加载页面。
 
 * 如果在创建活动时指定了“URL is”[基于表单的编辑器中的细化](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)或[可视化体验编辑器中的页面交付选项](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，则 QA URL 将无效，因为活动 QA 会附加 URL 参数。要解决此问题，请单击 QA URL 以转到您的网站，并从该 URL 中删除附加的参数，然后再加载新的 URL。
-* 如果您有at.js 1。*x*&#x200B;或mbox.js，如果您使用Safari或其他阻止第三方Cookie的浏览器，则活动QA模式将不会粘滞。 在这些情况下，您必须向导航到的每个URL添加预览参数。
+* 如果您有at.js 1。*如果*&#x200B;您使用Safari或其他阻止第三方cookie的浏览器，x或mbox.js的活动QA模式将不会粘滞。 在这些情况下，您必须将预览参数添加到您导航到的每个URL。 如果您已实现CNAME，情况也 [是如此](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)。
 * 如果一个活动使用了多个体验受众（例如同一个活动中同时包含一个美国网站和一个英国网站），则不会为存在的四种组合（体验 A/美国网站，体验 A/英国网站，体验 B/美国网站，体验 B/英国网站）各生成一个 QA 链接。而是只会创建两个 QA 链接（体验 A 和体验 B），且用户必须符合相应受众条件才能看到相应的页面。例如，英国的 QA 用户将无法看到美国网站。
 * 所有 `at_preview` 参数和值均已进行 URL 编码。在大多数情况下，一切都会按预期运行；但是，有些客户使用的负载平衡器或 Web 服务器可能会尝试对查询字符串参数再次进行编码。
 

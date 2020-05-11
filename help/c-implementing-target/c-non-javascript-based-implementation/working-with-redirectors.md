@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 78%
+source-wordcount: '680'
+ht-degree: 73%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 78%
 
 有关确定正确设置的帮助信息，请参阅 [不基于 JavaScript 的实施](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)。
 
-## 创建重定向器 {#task_76608B0F73FC45C4A9F125B894DCF821}
+## Create a redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
 
 必须先创建重定向器才能使用重定向功能。
 
@@ -56,7 +56,7 @@ ht-degree: 78%
 
    * 其中，`http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` 是默认目标。
 
-      请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”将默认重定向URL域列入白名单。 目标使用主机将要允许重定向的域列入白名单。 有关更多信息，请参阅[主机](/help/administrating-target/hosts.md)。
+      请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”将默认重定向URL域列入白名单。 目标使用主机将要允许重定向的域列入白名单。 有关详细信息，请参 [阅创建白名单，其中指定有权向主机中的目标发送mbox调用的](/help/administrating-target/hosts.md#whitelist) 主 *机*。
 
       这必须是进行了编码的 URL，且必须是绝对引用。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
@@ -90,7 +90,7 @@ ht-degree: 78%
 
 1. 将整个重定向 URL 作为广告的目标链接提交给您的展示广告网络。
 
-## 使用重定向器传递“每次点击成本”和“每次点击收入”{#concept_3078EF48E9C44B34992D62AAB9628853}
+## Use a redirector to pass Costs per Click and Revenue Per Click {#concept_3078EF48E9C44B34992D62AAB9628853}
 
 有关使用重定向器传递每次点击成本和每次点击收入的信息。
 

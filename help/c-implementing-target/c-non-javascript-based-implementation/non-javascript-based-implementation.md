@@ -1,12 +1,15 @@
 ---
-keywords: 实施;mbox.js 非 javascript;AdBox;重定向器;mbox
+keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
 description: 此信息介绍了如何在非 JavaScript 情景中实施 Target，例如使用 AdBox 或重定向器。
 title: 电子邮件：实施 Target
-subtopic: 入门指南
+subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 86%
 
 ---
 
@@ -33,4 +36,4 @@ AdBox 广告和重定向器可用于任何类型的活动。下表比较了 Adbo
 * 要在 AdBox 自身中使用第一方 Cookie，您需要在 URL 中传递 mBox 会话。请咨询您的客服专员以实现此操作。
 * 要使用第一方 Cookie 来跟踪广告点击次数，需在 URL 中传递 mbox 会话。请咨询您的客服专员以实现此操作。
 * 您必须在 URL 中传递 Mbox 会话才能在同一页面上使用多个 AdBox。请咨询您的客服专员以实现此操作。同一个页面上可能会具有一个 AdBox 和一个重定向器链接（因为重定向器实际上位于另一个页面上）。
-
+* 请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”将默认重定向URL域列入白名单。 目标使用主机将要允许重定向的域列入白名单。 有关更多信息，请参阅[主机](/help/administrating-target/hosts.md)。

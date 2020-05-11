@@ -5,10 +5,10 @@ title: 主机
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
 source-wordcount: '1820'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 
 ![](assets/hosts_list.png)
 
-## 识别主机 {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
+## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
 此信息介绍的是 [!DNL Target] 识别主机并将其添加到主机列表所必须满足的条件。
 
@@ -63,7 +63,7 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 >
 >无法删除生产环境，即使对其重命名也是如此。生产环境被视为您提供最终的活跃活动和测试的环境。该环境默认不允许查看不活跃的营销活动。
 
-## 管理主机和环境 {#concept_90573F5A52E04600A8C3C5897880C10F}
+## Manage hosts and environments {#concept_90573F5A52E04600A8C3C5897880C10F}
 
 此信息可帮助您管理主机和环境（主机组），包括为报表设置默认主机，创建白名单，更改环境名称，将主机移至其他环境以及删除主机或环境。
 
@@ -72,7 +72,7 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 
 ![](assets/hosts_list.png)
 
-## 在“主机”列表中进行筛选、排序或搜索 {#section_068B23C9D8224EB78BC3B7C8580251B0}
+## Filter, sort, or search the Hosts list {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
 要按环境对“[!UICONTROL 主机]”列表进行筛选，请单击&#x200B;**[!UICONTROL 全部]**&#x200B;下拉列表，然后选择所需的环境（“生产”、“测试”、“开发”或您创建的自定义环境）。
 
@@ -80,11 +80,11 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 
 要在“[!UICONTROL 主机]”列表中进行搜索，请在搜索框中键入搜索词。
 
-## 选择多个主机 {#section_EF3B458475184B7EA997C3559714397C}
+## Select multiple hosts {#section_EF3B458475184B7EA997C3559714397C}
 
 要选择多个主机，请选中所需主机对应的“[!UICONTROL 名称]”列旁边的复选框。然后，您可以移动或删除所有选定的主机。
 
-## 创建环境 {#section_32097D0993724DF3A202D164D3F18674}
+## Create an environment {#section_32097D0993724DF3A202D164D3F18674}
 
 1. 从[!UICONTROL 主机]列表中，单击&#x200B;**[!UICONTROL 环境]**&#x200B;选项卡。
 1. 单击&#x200B;**[!UICONTROL 创建环境]**。
@@ -92,7 +92,7 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 1. 为环境指定所需的活跃模式：“[!UICONTROL 活跃活动]”或“[!UICONTROL 活跃和不活跃的活动]”。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 设置默认报表主机 {#section_4F8539B07C0C45E886E8525C344D5FB0}
+## Set the default host for reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 您可以选择要用于所有活动报表的默认环境。
 
@@ -108,7 +108,7 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 >
 >[!DNL Recommendations]如果主机变换主机组，则 用户必须重建自己的行为数据库和产品数据库。
 
-## 创建白名单来指定有权向 Target 发送 mbox 调用的主机{#section_0AF7F56C386A42C381AF704DEF08D5CC}
+## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
 您可以创建一个白名单来指定有权向 [!DNL Target] 发送 mbox 调用的主机（域）。所有其他生成调用的主机都将收到一个注释掉的授权错误响应。默认情况下，任何包含 mbox 调用的主机都会在生产环境中向 [!DNL Target] 进行注册，它们有权访问所有活跃的已批准活动。如果您不希望如此，可以使用白名单来记录有权执行 mbox 调用并接收 [!DNL Target] 内容的特定主机。所有主机将继续显示在“[!UICONTROL 主机]”列表中，并且环境仍可用来对这些主机进行分组，以及为每个主机分配不同的级别，例如主机是否可以看到活跃和/或不活跃的营销活动。
 
@@ -134,20 +134,20 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 
 您也可以通过在“[!DNL Target]主机不包含[!UICONTROL ”框中添加所需的主机来创建黑名单，以指定不能向 ] 发送 mbox 调用的主机（域）。
 
-## 更改环境的名称 {#section_9F5F94285F8E495E9CE69810CE94CA08}
+## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
 1. 从[!UICONTROL 主机]列表中，单击&#x200B;**[!UICONTROL 环境]**&#x200B;选项卡。
 1. 将鼠标悬停在所需的环境上，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 1. 更改环境名称。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 将主机移到其他环境 {#section_9F52549958BD485EB74FE78C32773D2A}
+## Move a host to a different environment {#section_9F52549958BD485EB74FE78C32773D2A}
 
 1. 在“[!UICONTROL 主机]”列表中，将鼠标悬停在要移动的主机上。
 1. 单击&#x200B;**[!UICONTROL 移动]**&#x200B;图标。
 1. 从下拉列表中选择所需的环境，然后单击复选标记图标。
 
-## 删除主机 {#section_F56355BA4BC54B078A1A8179BC954632}
+## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
 如果您不再需要某个主机，您可以删除该主机。
 
@@ -159,7 +159,7 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 >
 >如果任何人浏览到该主机上启用了 mbox 的页面，则会再次列出该主机。
 
-## 删除环境 {#section_737F8869612047868D03FC755B1223D3}
+## Delete an environment {#section_737F8869612047868D03FC755B1223D3}
 
 如果您不再需要某个环境，您可以删除该环境。
 

@@ -5,9 +5,9 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
 workflow-type: tm+mt
-source-wordcount: '7548'
+source-wordcount: '7601'
 ht-degree: 81%
 
 ---
@@ -21,6 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 11 年 5 月 | [主机](/help/administrating-target/hosts.md) | 添加了有关将ubox功能用于重定向和白名单的信息。 |
+|  | [使用重定向器](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | 添加了有关使用主机来避免“打开重定向漏洞”的信息。 |
+|  | [将“推荐”与电子邮件集成](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 添加了有关使用主机来避免“打开重定向漏洞”的信息。 |
+|  | [电子邮件：实施 Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | 添加了有关使用主机来避免“打开重定向漏洞”的信息。 |
 | 7 年 5 月 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 随着mbox.js即将于2020年8月30日弃用，Adobe目标产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。 您可以通过链接观看未来30天的网络研讨会。 |
 |  | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新了“注意事项”部分。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 更新了“设置”下的“overrideMboxEdgeServer”行。 |

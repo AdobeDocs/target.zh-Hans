@@ -1,11 +1,14 @@
 ---
-keywords: host;hosts;host group;environment;troubleshooting;best practices
+keywords: host;hosts;host group;environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
 description: 可组织您的网站和预生产环境，以便轻松管理和分隔报表。
 title: 主机
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '1820'
+ht-degree: 96%
 
 ---
 
@@ -120,6 +123,8 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 如果对未授权的主机进行 mbox 调用，则该调用将做出响应：`/* no display - unauthorized mbox host */`。
+
+如果您使用的ubox [!DNL Target]功能，请注意此白名单还将控制重定向器可导航到的 [域的列表](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 确保在将ubox用作实施的一部分时添加要重定向到的任何域。 如果未指定白名单，Adobe将无法验证重定向URL并防止潜在的恶意重定向。
 
 白名单的优先级高于环境。在使用白名单功能前，您应当清除所有主机，然后只有白名单允许的主机才会出现在您的主机列表中。然后，您可以将主机移到所需的环境中。
 

@@ -5,7 +5,7 @@ title: 主机
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
+source-git-commit: 111a960201e14c5283b8c7212dffac9fde9c49e9
 workflow-type: tm+mt
 source-wordcount: '1823'
 ht-degree: 92%
@@ -126,7 +126,7 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 
 >[!IMPORTANT]
 >
->*安全最佳实践*: 如果您使用的ubox [!DNL Target]功能，请注意此白名单还将控制重定向器可导航到的 [域的列表](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 确保在将ubox用作实施的一部分时添加要重定向到的任何域。 如果未指定白名单，Adobe将无法验证重定向URL并防止潜在的恶意重定向。
+>**安全最佳实践**: 如果您使用的ubox [!DNL Target]功能，请注意此白名单还将控制重定向器可导航到的 [域的列表](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 确保在将ubox用作实施的一部分时添加要重定向到的任何域。 如果未指定白名单，Adobe将无法验证重定向URL并防止潜在的恶意重定向。
 >
 >白名单的优先级高于环境。在使用白名单功能前，您应当清除所有主机，然后只有白名单允许的主机才会出现在您的主机列表中。然后，您可以将主机移到所需的环境中。
 

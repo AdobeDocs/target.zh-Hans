@@ -5,10 +5,10 @@ title: 将“推荐”与电子邮件集成
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: f8e964b420ea225c3a0de1cbec7dc3edda358d63
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 93%
+source-wordcount: '1434'
+ht-degree: 91%
 
 ---
 
@@ -70,12 +70,12 @@ rawbox 类似于 mbox 请求，但适用于诸如电子邮件服务提供商 (ES
 
 您使用的电子邮件系统应该能够处理以下情形：
 
-**收到了有效响应，但未显示任何推荐。**
+### 收到有效的答复，但没有建议
 
 * 在这种情况下，响应内容将为 mboxDefault 参数值，而不论该参数设置为何值。请参阅下面有关此参数的说明。
 * 电子邮件提供商应具有可在这种情况下使用的默认 HTML 推荐块。
 
-**Target 服务器超时，且未返回任何数据。**
+### 目标服务器超时并返回而无数据
 
 * 在这种情况下，Target 服务器将返回以下内容：
 
@@ -87,13 +87,13 @@ rawbox 类似于 mbox 请求，但适用于诸如电子邮件服务提供商 (ES
    * 放弃该特定电子邮件，并继续处理下一个电子邮件。
    * 将该特定电子邮件排入队列，然后在初次运行结束后以批量方式再次运行之前失败的电子邮件。
 
-**请求 URL 示例：**
+### 示例请求URL
 
 ```
 https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSession=1396032094853-955654&mboxPC=1396032094853-955654&mboxXDomain=disabled&entity.event.detailsOnly=true&mboxDefault=nocontent&mboxNoRedirect=1&entity.id=2A229&entity.categoryId=5674
 ```
 
-**必需的参数:**
+### 必需的参数: {#reqparams}
 
 >[!NOTE]
 >
@@ -107,11 +107,11 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>（以下特定类型的标准需要使用此参数：已查看/已查看、已查看/已购买、已购买/已购买）。 | *entity_id* | 推荐所基于的产品 ID，例如在购物车中放弃的产品或以前购买的产品。<br>如果推荐标准具有相应要求，则 rawbox 必须包含 `entity.id`。 |  |
 | `entity.event.detailsOnly` | true | 如果传递了 `entity.id`，则强烈建议您也传递此参数，以阻止请求递增某个项目的页面查看统计次数，从而使基于产品查看的算法不会出现偏差。 |  |
 | `entity.categoryId`<br>（以下特定类型的标准需要使用此参数：按类别查看次数最多的项目和按类别最畅销的商品） | *category_id* | 推荐所基于的类别，例如某个类别中最畅销的商品。<br>如果推荐标准具有相应要求，则 rawbox 必须包含 `entity.categoryId`。 |  |
-| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 参数不存在，则 `mboxDefault` 应该是一个绝对 URL，在没有可用推荐的情况下，该 URL 将返回默认内容。默认内容可以是一个图像或其他静态内容。<br>如果 `mboxNoRedirect` 参数存在，则 `mboxDefault` 可以是用于指示没有推荐的任何文本，例如 `no_content`。<br>电子邮件提供商将需要处理返回此值的情况，并将默认 HTML 插入到电子邮件中。<br> 请注意，如果URL中使用的 `mboxDefault` 域未列入白名单，您可能会面临“开放重定向”漏洞的风险。 为避免重定向器链接或第三方 `mboxDefault` 未经授权而使用，我们建议您使用“授权主机”将默认重定向URL域列入白名单。 目标使用主机将要允许重定向的域列入白名单。 有关详细信息，请参 [阅创建白名单，其中指定有权向主机中的目标发送mbox调用的](/help/administrating-target/hosts.md#whitelist) 主 *机*。 |  |
+| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 参数不存在，则 `mboxDefault` 应该是一个绝对 URL，在没有可用推荐的情况下，该 URL 将返回默认内容。默认内容可以是一个图像或其他静态内容。<br>如果 `mboxNoRedirect` 参数存在，则 `mboxDefault` 可以是用于指示没有推荐的任何文本，例如 `no_content`。<br>电子邮件提供商将需要处理返回此值的情况，并将默认 HTML 插入到电子邮件中。 <br> *安全最佳实践*: 请注意，如果URL中使用的 `mboxDefault` 域未列入白名单，您可能会面临“开放重定向”漏洞的风险。 为避免重定向器链接或第三方 `mboxDefault` 未经授权而使用，我们建议您使用“授权主机”将默认重定向URL域列入白名单。 目标使用主机将要允许重定向的域列入白名单。 有关详细信息，请参 [阅创建白名单，其中指定有权向主机中的目标发送mbox调用的](/help/administrating-target/hosts.md#whitelist) 主 *机*。 |  |
 | `mboxHost` | *mbox_host* | 这是调用触发时添加到默认环境（主机组）的域。 |  |
 | `mboxPC` | 留空 | （使用访客配置文件的推荐需要使用此参数。）<br>如果未提供“thirdPartyId”，则新的 tntId 将会生成，并在响应中返回。否则，此值将继续留空。<br>**注意：**请确保为每个电子邮件收件人（即，每个 API 调用）的`mboxSession`和`mboxPC`提供唯一值。如果您没有为这些字段提供唯一值，则由于在单个配置文件中会生成大量事件，API 响应可能变慢或失败。 | 1 &lt; 长度 &lt; 128<br>最多只能包含一个“.”（圆点）。<br>仅允许在配置文件位置后缀中使用圆点。 |
 
-**可选参数**：
+### 可选参数
 
 | 参数 | 值 | 描述 | 验证 |
 |--- |--- |--- |--- |
@@ -119,7 +119,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>（可选） | 1 | 默认情况下，如果未找到可交付的内容，则会重定向调用方。可用于禁用默认行为。 |  |
 | `mbox3rdPartyId` | *xxx* | 如果您具有用于配置文件定位的自定义访客 ID，请使用此参数。 |  |
 
-**可能的 Target 服务器响应**：
+### 潜在目标服务器响应
 
 | 响应 | 描述 |
 |--- |--- |

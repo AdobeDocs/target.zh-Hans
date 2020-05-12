@@ -5,10 +5,10 @@ title: 主机
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 81d6ce3e9c83fb4cce26644b45321e7492392bea
+source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 93%
+source-wordcount: '1823'
+ht-degree: 92%
 
 ---
 
@@ -124,9 +124,11 @@ Target 并没有对能够发送和接收 mbox 的主机加以限制，因此当�
 
 如果对未授权的主机进行 mbox 调用，则该调用将做出响应：`/* no display - unauthorized mbox host */`。
 
-如果您使用的ubox [!DNL Target]功能，请注意此白名单还将控制重定向器可导航到的 [域的列表](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 确保在将ubox用作实施的一部分时添加要重定向到的任何域。 如果未指定白名单，Adobe将无法验证重定向URL并防止潜在的恶意重定向。
-
-白名单的优先级高于环境。在使用白名单功能前，您应当清除所有主机，然后只有白名单允许的主机才会出现在您的主机列表中。然后，您可以将主机移到所需的环境中。
+>[!IMPORTANT]
+>
+>*安全最佳实践*: 如果您使用的ubox [!DNL Target]功能，请注意此白名单还将控制重定向器可导航到的 [域的列表](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 确保在将ubox用作实施的一部分时添加要重定向到的任何域。 如果未指定白名单，Adobe将无法验证重定向URL并防止潜在的恶意重定向。
+>
+>白名单的优先级高于环境。在使用白名单功能前，您应当清除所有主机，然后只有白名单允许的主机才会出现在您的主机列表中。然后，您可以将主机移到所需的环境中。
 
 有时，您的环境中会显示来自其他网站的域。如果某域名调用了您的 mbox.js，则该域就会显示在列表中。例如，如果某人将您的一个网页复制到其服务器，那么该域便会显示在您的环境中。您也可以看到来自蜘蛛引擎、语言翻译网站或者本地磁盘驱动器的域名。
 

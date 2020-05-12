@@ -5,10 +5,10 @@ title: 'Adobe Target 发行说明（当前版本） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 21%
+source-wordcount: '783'
+ht-degree: 34%
 
 ---
 
@@ -34,68 +34,21 @@ ht-degree: 21%
 
 随着mbox.js即将于2020年8月30日弃用，Adobe目标产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。 在接下来的30天内，您可以 [视图网络研讨会录制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
 
-## 目标at.js（2020年3月25日）
-
-以下新版目标at.js JavaScript库可用：
-
-* at.js版本2.3.0
-* at.js版本1.8.1
-
-For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
-## Target Standard/Premium 20.2.1（2020 年 3 月 23 日）
-
->[!IMPORTANT]
->
->请参阅上面有关mbox.js弃用的信息。
+## Target Standard/Premium 20.4.1（2020 年 5 月 6 日）
 
 此版本包含以下增强、修复和更改：
 
-* 修复了客户在执行目录搜索时无法选择集合的问题。 (TGT-36230)
-* 修复了通过API创建但未由在目标UI中创建的活动引用的条件可能会从UI中错误删除的问题。 (TGT-35917)
-* 对内容安全策略(CSP)实施了安全改进。 (TGT-36190)
-* 修复了在将“属性加权”百分比栏滑至最左侧时，导致“NaN%”显示的问题。 (TGT-36211)
-* 解决了本地化问题，以便正确显示各种语言的UI文本。
-* 我们通过弃用当前版本的Adobe Analytics API不支持的Adobe Analytics列表，标准化了Adobe Analytics的目标(A4T)活动可用指标的标准化。 这将使我们能够在未来的Adobe目标版本中扩展我们的A4T支持。
-
-   进行了以下更改：
-
-   * “平均页面停留时间”已替换为“平均站点停留时间”。 任何将此用作主要目标量度的活动都将具有“在站点上花费的平均时间”(注： 以分钟而非秒为单位)，在下次编辑活动时，将其选作主要目标量度。
-   * “访客”已被“唯一访客”所取代。 使用此度量作为主要目标量度的任何活动在下次编辑该活动时都将选择“唯一访客”作为主要目标量度。
-
-* 以下指标已弃用，在创建新的A4T活动时，不再能选作主目标指标。
-
-   | 已弃用的度量 | 建议的替换指标 |
-   |--- |--- |
-   | 每日访客、每小时访客、每月访客、季度访客、每周访客、每年访客 | 独特访客 |
-   | 平均访问深度 | n/a 不建议作为主要目标指标 |
-   | 机器人 | n/a 不建议作为主要目标指标 |
-   | 移动崩溃率、移动平均上一会话长度、移动App商店平均排名、移动App性能崩溃率、移动App商店平均评级 | n/a 不建议作为主要目标指标 |
-
-## Adobe Experience Cloud导航（2019年2月22日）
-
-* 登录到时，您 [!DNL Adobe Experience Cloud]将转到新的标题导航。 它看起来与上一个导航非常相似，顶部有黑条，但它提供了以下改进：
-
-   * 更轻松地在 [!DNL Identity Management System] (IMS)组织之间切换或切换到其他解决方案。
-   * 改进的用户帮助： 搜索结果包括产品文档 [!DNL Target] 中的结果、社区论坛和更多视频内容，让您能够更轻松地访问更多内容，从而帮助您发挥最大价值 [!DNL Target]。 我们还在“帮助”菜单中添加了 [!UICONTROL 反馈机] 制，使报告问题或分享您的想法更简单。
-
-   * 改进了Net Promoter Score(NPS)反馈功能，因此调查模式不会干扰您的工作流。
-   * 改进了登录流程。 以前，所 [!DNL Target] 有客户在单击标题中的图标后 [!DNL Target] 都登录到目标登陆页。 然后，此页允许客户继续执行 [!DNL Target Standard/Premium]、 [!DNL Search&Promote]或 [!DNL Recommendations Classic]，如下所示：
-
-      ![登陆页面](/help/r-release-notes/assets/landing.png)
-
-      我们为所有客户消除了此登陆页。 现在，您始终可以通过单击新 [!UICONTROL 标题导航栏] 中的图 [!DNL Target] 标，直接转到活动列表页。
-
-      如果您使 [!DNL Recommendations Classic]用，您可以直接转到解决方案，也可以从在“推荐”选项卡上创建的简短链 [!UICONTROL 接] ，如下所示：
-
-      ![Recs Classic深层链接](/help/r-release-notes/assets/recs-classic.png)
-
-      如果您使 [!DNL Search&Promote]用，您需要直接转 [到Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)。 从内部到 [!DNL Search&Promote] 达的路 [!DNL Adobe Target] 径已完全删除。
-
-   * 标题 [!DNL Target] 的“通知”下 [!UICONTROL 拉框] 中当前不提供通知。
-   >[!NOTE]
-   >
-   >作为新导航栏转出的一部分，您还会注意到一些URL更改。 所有以前已添加书签的链接都可以继续工作，但我们建议您为新链接加入书签，以便更快地打开。
+* 修复了对受众错误限定设备和浏览器类型的问题。 (TGT-36266)
+* 修复了在963像素以下的屏幕上查看报告数据时无法显示的问题。 (TGT-36549)
+* 修复了导致自动个性化报表无法正确呈现的问题。 (TGT-36619)
+* 修复了允许在使用Analytics进行目标(A4t)的“自动分配”和“自动目标”活动中选择不兼容度量的问题。 (TGT-36646)
+* 修复了导致可视体验书写器(VEC)中的某些选项无法正确显示的问题。 (TGT-36571)
+* 修复了目标UI中的一个问题，该问题导致用户在单个体验中替换内容后，其他推荐优惠预览显示已编辑的内容。 （TGT-36053 和 TGT-36894）
+* 修复了阻止某些用户从Recommendations目录删除项目的问题。 (TGT-36455)
+* 修复了阻止用户在多页面活动中保存推荐条件的问题。 (TGT-36249)
+* 修复了行为数据源单选按钮在连续第二次编辑条件时消失的问题。 (TGT-36796)
+* 修复了导致Recommendations算法显示延长期间的“获取结果”的显示问题。 （TGT-36550 和 TGT-36551）
+* 更新了许多本地化为各种语言的UI字符串。
 
 ## 其他发行说明和版本详细信息
 

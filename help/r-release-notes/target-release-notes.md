@@ -5,10 +5,10 @@ title: Adobe目标预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: ae97b36e9a5aaa0394fb3b4ab1ad40b38a0c97be
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 14%
+source-wordcount: '403'
+ht-degree: 19%
 
 ---
 
@@ -36,23 +36,11 @@ ht-degree: 14%
 
 随着mbox.js即将于2020年8月30日弃用，Adobe目标产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。 在接下来的30天内，您可以 [视图网络研讨会录制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
 
-## Target Standard/Premium 20.4.1（2020 年 5 月 6 日）
+## Target Standard/Premium 20.5.1（2020 年 6 月 10 日） 
 
-此版本包含以下增强、修复和更改：
+此版本的详细信息将在此处发布。
 
-* 修复了对受众错误限定设备和浏览器类型的问题。 (TGT-36266)
-* 修复了在963像素以下的屏幕上查看报告数据时无法显示的问题。 (TGT-36549)
-* 修复了导致自动个性化报表无法正确呈现的问题。 (TGT-36619)
-* 修复了允许在使用Analytics进行目标(A4t)的“自动分配”和“自动目标”活动中选择不兼容度量的问题。 (TGT-36646)
-* 修复了导致可视体验书写器(VEC)中的某些选项无法正确显示的问题。 (TGT-36571)
-* 修复了目标UI中的一个问题，该问题导致用户在单个体验中替换内容后，其他推荐优惠预览显示已编辑的内容。 （TGT-36053 和 TGT-36894）
-* 修复了阻止某些用户从Recommendations目录删除项目的问题。 (TGT-36455)
-* 修复了阻止用户在多页面活动中保存推荐条件的问题。 (TGT-36249)
-* 修复了行为数据源单选按钮在连续第二次编辑条件时消失的问题。 (TGT-36796)
-* 修复了导致Recommendations算法显示延长期间的“获取结果”的显示问题。 （TGT-36550 和 TGT-36551）
-* 更新了许多本地化为各种语言的UI字符串。
-
-## 用户档案批处理状态API v2更改（2020年5月12日）
+## 用户档案批状态API v2更改（日期待定）
 
 在5月4日发布后，用户档案批处理状态将仅返回行级故障数据（不返回成功数据）。 未通过的用户档案ID将由API继续返回。
 

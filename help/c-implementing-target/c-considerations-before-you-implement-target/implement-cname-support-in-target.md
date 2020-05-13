@@ -5,9 +5,9 @@ title: CNAME 和 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e3600c10764ad93e59e9ff4b6e1810fa02d6425f
+source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -154,3 +154,8 @@ ITP问题可以通过仅使用Analytics CNAME解决目标。 您仅在广告阻�
    >[!NOTE]
    >
    >如果此命令失败， `validateEdgeFpsslSni` 但上述命令成功，则可能需要等待DNS更新完全传播。 DNS记录具有关 [联的TTL（生存时间）](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) ，它规定这些记录的DNS回复的缓存到期时间，因此您至少需要等待TTL。 您可以使用命 `dig target.example.com` 令或 [G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME) ，查找您的特定TTL。
+
+## 已知限制
+
+* QA模式在您有CNAME和at.js 1.x时不会粘滞，因为它基于第三方cookie。 解决方法是将预览参数添加到您导航到的每个URL。 QA模式在您有CNAME和at.js 2.x时是粘滞的。
+* 当前 `overrideMboxEdgeServer` 此设置在CNAME中无法正常使用。 应将此设置为 `false` 以避免请求失败。

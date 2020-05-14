@@ -5,7 +5,7 @@ title: CNAME 和 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 2%
@@ -43,7 +43,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
       为加快DCV电子邮件流程，DigiCert提供以下建议：
 
-      “请确认您的注册/WHOIS提供商未蒙版或删除相关 [电子邮件地址]。 如果是，请查看他们是否提供一种方式（例如匿名电子邮件地址、Web表单），让证 [书颁发机构] 访问您域的WHOIS数据。”
+      “请确认您的注册/WHOIS提供商未蒙版或删除相关电子邮件地址。 如果是，请查看他们是否提供一种方式（例如匿名电子邮件地址、Web表单），让证书颁发机构访问您域的WHOIS数据。”
 
 1. 在域的DNS上创建指向常规主机名的CNAME记录 `clientcode.tt.omtrdc.net`。 例如，如果您的客户端代码是客户端代码，而您建议的主机名 `target.example.com`是，则您的DNS CNAME记录应类似于：
 

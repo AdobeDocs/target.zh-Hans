@@ -1,10 +1,13 @@
 ---
-keywords: 定位
+keywords: Targeting
 description: 活动 URL 可确定在体验定位活动中使用的页面，以及设计活动时在 Adobe Target 可视化体验编辑器 (VEC) 或基于表单的体验编辑器中打开的页面。
 title: 活动 URL
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。因此，[!DNL `https://www.adobe.com`] 和 [!DNL `http://www.adobe.com`] 均匹配。
    >
-   >默认情况下，VEC 或基于表单的体验编辑器会打开您的[帐户首选项](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)中指定的页面。在活动创建过程中，您可以指定其他页面。
+   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). 在活动创建过程中，您可以指定其他页面。
    >
    >如果您指定的 URL 所对应的网站不包含 Target Standard JavaScript 代码，则您将无法选择页面元素。
 
@@ -43,4 +46,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * mbox 参数
    可以使用 AND 或 OR 将其他规则连接到活动 URL。您添加的所有规则将使用 AND 进行相互评估。
 
-1. 完成后单击&#x200B;**[!UICONTROL 保存]。**
+1. 完成后单击&#x200B;**[!UICONTROL 保存]**。

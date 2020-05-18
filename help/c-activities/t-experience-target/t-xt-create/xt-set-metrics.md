@@ -5,7 +5,10 @@ title: 设置量度
 solution: Target,standard
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +34,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    可用的设置取决于您所使用的成功量度。
 
-   如果启用，“[!UICONTROL 转化的预计值]”字段（不适用于“页面得分”量度）会为您的目标提供一个值。通过此值，Target 可以计算出预计收入提升。此字段为可选字段；但是，如果没有该字段，便无法计算所有非收入量度的增量收入。数据类型为货币。当用户的操作满足您设置的目标后，该字段会逐渐显示积累的值。请参阅[预计收入提升](../../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE)以了解更多信息。
+   如果启用，“[!UICONTROL 转化的预计值]”字段（不适用于“页面得分”量度）会为您的目标提供一个值。通过此值，Target 可以计算出预计收入提升。此字段为可选字段；但是，如果没有该字段，便无法计算所有非收入量度的增量收入。数据类型为货币。当用户的操作满足您设置的目标后，该字段会逐渐显示积累的值。请参阅[预计收入提升](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以了解更多信息。
 
    正确配置成功量度对于确保获得您预期的数据至关重要。
 
@@ -51,7 +54,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    | `-` | 减号 |
    | `@` | @ 符号 |
 
-## 培训视频：活动指标(7:43)教 ![程徽章](/help/assets/tutorial.png)
+## 培训视频： 活动指标(7:43)教 ![程徽章](/help/assets/tutorial.png)
 
 
 以下视频包含有关使用成功量度的信息。

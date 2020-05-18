@@ -5,9 +5,9 @@ title: 以前版本的发行说明
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
 workflow-type: tm+mt
-source-wordcount: '29277'
+source-wordcount: '29260'
 ht-degree: 92%
 
 ---
@@ -227,7 +227,7 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| 可视化体验编辑器 (VEC) | **新 VEC 菜单选项**：单击 VEC 中的某个页面元素时，相应菜单会显示适用于该元素类型的选项。<ul><li>您现在可以使用[!UICONTROL “样式”>“背景”]选项更改选定元素的背景图像和颜色。(TGT-15001)</li></ul>请参阅[可视化体验选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)中的“样式”&#x200B;部分。<br>**点击跟踪改进&#x200B;**：我们改进了在 VEC 和单页应用程序 (SPA) VEC 中配置点击跟踪的过程。<ul><li>当选择要在点击跟踪中使用的元素时，所有可用元素的名称都会显示在右侧的“修改”面板中，从而允许快速、轻松地选择所需元素。</li><li>三步引导式活动工作流中的“[!UICONTROL 目标和设置]”页面上会显示一个数字，用于指示为点击跟踪选择的元素数量。您可以将鼠标悬停在此数字上，以查看所有选定元素的名称。(TGT-33878)</li></ul>请参阅[点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md)。 |
+| 可视化体验编辑器 (VEC) | **新 VEC 菜单选项**：单击 VEC 中的某个页面元素时，相应菜单会显示适用于该元素类型的选项。<ul><li>您现在可以使用[!UICONTROL “样式”>“背景”]选项更改选定元素的背景图像和颜色。(TGT-15001)</li></ul>请参阅[可视化体验选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)中的“样式”**&#x200B;部分。<br>**点击跟踪改进&#x200B;**：我们改进了在 VEC 和单页应用程序 (SPA) VEC 中配置点击跟踪的过程。<ul><li>当选择要在点击跟踪中使用的元素时，所有可用元素的名称都会显示在右侧的“修改”面板中，从而允许快速、轻松地选择所需元素。</li><li>三步引导式活动工作流中的“[!UICONTROL 目标和设置]”页面上会显示一个数字，用于指示为点击跟踪选择的元素数量。您可以将鼠标悬停在此数字上，以查看所有选定元素的名称。(TGT-33878)</li></ul>请参阅[点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md)。 |
 | 单页应用程序可视化体验编辑器 (SPA VEC) | **引导式工作流**：新的引导式工作流可帮助您了解应如何配置页面交付规则设置，以便为单页应用程序成功执行和运行活动。(TGT-33718)<br> 请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)。<br>**克隆修改&#x200B;**：您现在可以使用 SPA VEC 定义修改，然后克隆该修改，以供在单页应用程序内的其他视图中使用。(TGT-33882)<br>请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md)。 |
 | ![Premium 徽章](/help/assets/premium.png) 自动个性化 (AP) 和自动定位 | **将体验指定为控制**：在创建 AP 或自动定位活动时，您可以选择要用作控制的体验。通过此功能，您可以根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据该体验的控制流量评估个性化流量的性能报表。当前控制选项（随机提供的体验）将继续可用。（TGT-32801、TGT-26572 和 TGT-26571）<br>请参阅[选择用于自动个性化或自动定位活动的控制](/help/c-activities/t-automated-personalization/experience-as-control.md)。请注意，此功能当前存在一个[已知问题](/help/r-release-notes/known-issues-resolved-issues.md)。<br>**个性化分析报表&#x200B;**：当访客在特定位置看到特定内容时，对营销人员友好的属性命名可提供更多有意义的信息。（TGT-33421 和 TGT-34957）<br>请参阅[为 Target 个性化算法收集数据](/help/c-activities/t-automated-personalization/ap-data.md)。 |
 | ![Premium 徽章](/help/assets/premium.png) 推荐 | 在创建“最近查看的项目”逻辑时，您可以使用“推荐以前购买的项目”切换。(TGT-34030)<br>有关更多信息，请参阅“创建标准”中的[最近查看的项目](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)。 |
@@ -449,7 +449,7 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
   </tr> 
   <tr> 
    <td colname="col1"> <p>活动报表源 </p> </td> 
-   <td colname="col2"> <p>在<span class="wintitle">设置</span> &gt; <span class="wintitle">首选项</span>中，您可以选择 <span class="keyword">Target</span> 或 <span class="keyword">Adobe Analytics</span> 作为活动的报表源。您也可以选择为每个活动分别选择报表源。 </p> <p>从这一版本开始，当您在<span class="wintitle">首选项</span>或根据活动选择报表源时，应注意一些重要的工作流注意事项。 </p> <p>请参阅<a href="https://docs.adobe.com/content/help/en/target/using/administer/preferences/target-account-preferences.html" format="html" scope="external">首选项</a>。 </p> </td> 
+   <td colname="col2"> <p>在<span class="wintitle">设置</span> &gt; <span class="wintitle">首选项</span>中，您可以选择 <span class="keyword">Target</span> 或 <span class="keyword">Adobe Analytics</span> 作为活动的报表源。您也可以选择为每个活动分别选择报表源。 </p> <p>从这一版本开始，当您在<span class="wintitle">首选项</span>或根据活动选择报表源时，应注意一些重要的工作流注意事项。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -3390,10 +3390,10 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 估计收入提升 </td> 
-   <td colname="col2"> <p>Target 可以估计在所有用户都查看成功体验时将获得的收入提升。 </p> <p>该估计可计算通过成功体验获得的提升量，以及整个测试期间的访客总数，并且还可显示在每个访客查看成功体验时，以及趋势在测试期间照常延续时可能获得的提升。 </p> <p> 估计的准确性取决于多种因素，包括在当前趋势照常延续时估算的数字。这些值是在过去性能的基础上估计的，不应该用于提供金融指导。将来的结果可能会有所不同。 </p> <p>请参阅<a href="../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE" format="dita" scope="local">预计收入提升</a>。 </p> </td> 
+   <td colname="col2"> <p>Target 可以估计在所有用户都查看成功体验时将获得的收入提升。 </p> <p>该估计可计算通过成功体验获得的提升量，以及整个测试期间的访客总数，并且还可显示在每个访客查看成功体验时，以及趋势在测试期间照常延续时可能获得的提升。 </p> <p> 估计的准确性取决于多种因素，包括在当前趋势照常延续时估算的数字。这些值是在过去性能的基础上估计的，不应该用于提供金融指导。将来的结果可能会有所不同。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 撤消/重做 </td> 
+   <td colname="col1"> 撤销/恢复 </td> 
    <td colname="col2"> <p>您可以在编辑会话期间撤消对活动所做的更改。您还可以重做已撤消的更改。 </p> <p>请参阅<a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local">可视化体验编辑器选项</a>。 </p> </td> 
   </tr> 
   <tr> 

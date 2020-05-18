@@ -1,11 +1,14 @@
 ---
 description: 使用可视化体验编辑器，可在启用了 Target 的页面上创建体验定位 (XT) 活动，并在 Adobe Target 中修改页面的各个部分。
 title: 创建体验定位活动
-subtopic: 多变量测试
+subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +25,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **创建 XT 活动：**
 
-1. 在[!UICONTROL 活动]**列表中，单击[!UICONTROL 创建活动]&gt;****[!UICONTROL 体验定位]**。
+1. 在“[!UICONTROL 活动]”列表中，单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL 体验定位]**。
 
-   ![“创建活动”&gt;“体验定位”](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
+   ![“创建活动”>“体验定位”](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
@@ -50,7 +53,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 指定[活动 URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
-   如果您的帐户[配置了默认 URL](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)，则默认情况下将显示该 URL。您可以根据需要将默认 URL 更改为其他 URL。
+   如果您的帐户[配置了默认 URL](/help/administrating-target/visual-experience-composer-set-up.md)，则默认情况下将显示该 URL。您可以根据需要将默认 URL 更改为其他 URL。
 
    此时会打开 VEC，其中显示了在 URL 中指定的页面。
 

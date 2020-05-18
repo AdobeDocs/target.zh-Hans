@@ -5,7 +5,10 @@ user-guide-title: Adobe Target 帮助
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: fea8a9a7655507f53e5146f401a0113bcb4e90b0
+workflow-type: tm+mt
+source-wordcount: '1407'
+ht-degree: 93%
 
 ---
 
@@ -33,9 +36,15 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 + 管理 Target {#administer}
    + [管理 Target 概述](administrating-target/administrating-target.md)
    + [管理员首要步骤](administrating-target/start-target.md)
-   + 设置首选项 {#preferences}
-      + [首选项](administrating-target/r-target-account-preferences/target-account-preferences.md)
-      + [预计收入提升](administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+   + [配置可视体验书写器](/help/administrating-target/visual-experience-composer-set-up.md)
+   + 报表 {#reporting}
+      + [配置报告](/help/administrating-target/reporting.md)
+      + [预计收入提升](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+   + [Dynamic Media Classic 集成](administrating-target/scene7-settings.md)
+   + [实施](/help/administrating-target/implementation.md)
+   + [主机](administrating-target/hosts.md)
+   + [环境](/help/administrating-target/environments.md)
+   + [响应令牌](administrating-target/response-tokens.md)
    + 管理用户 {#manage-users}
       + [用户管理](administrating-target/c-user-management/user-management.md)
       + 用户 {#users}
@@ -45,9 +54,6 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
          + [企业用户权限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [配置企业权限](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [授予 Adobe I/O 集成访问工作区的权限并分配角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Dynamic Media Classic 集成](administrating-target/scene7-settings.md)
-   + [主机](administrating-target/hosts.md)
-   + [响应令牌](administrating-target/response-tokens.md)
 + 实施 Target {#implement-target}
    + [实施 Target 概述](c-implementing-target/implementing-target.md)
    + 实施之前 {#before-implement}
@@ -181,7 +187,7 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
    + A/B 测试 {#abtest}
       + [A/B 测试概述](c-activities/t-test-ab/test-ab.md)
       + [A/B 测试应该持续多长时间？](c-activities/t-test-ab/sample-size-determination.md)
-      + [A/B测试的十大常见缺陷及避免方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [常见的A/B测试陷阱及其避免方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + 创建 A/B 测试 {#create}
          + [创建测试](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [Activity URL（活动 URL）](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
@@ -371,7 +377,7 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
       + [选择标准](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [添加促销活动](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [“推荐”活动设置](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [预览并启动您的Recommendations活动](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [预览并启动您的推荐活动](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [“推荐”作为选件](c-recommendations/recommendations-as-an-offer.md)
    + 常见问题解答 {#recommendations-faq}
       + [“推荐”常见问题解答](c-recommendations/c-recommendations-faq/recommendations-faq.md)

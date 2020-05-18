@@ -1,11 +1,14 @@
 ---
-keywords: Target Standard;faq;常见问题解答;速查表;备忘单
+keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: 有关使用 Adobe Target 中的功能的常见问题列表，以及更多信息和相关链接。
 title: Target 优化和个性化常见问题解答
-topic: 高级
+topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '2904'
+ht-degree: 99%
 
 ---
 
@@ -131,7 +134,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 有两种选项：
 
 * 默认选项，共三个等级（低/中/高）
-* 自定义选项，范围从 0 到 999。对于自定义优先级，请启用细粒度优先级功能（设置 &gt; 首选项）
+* 自定义选项，范围从 0 到 999。对于自定义优先级，请启用细粒度优先级功能（设置 > 首选项）
 
 ## 受众{#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -195,7 +198,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **我有多个域。其中一个域需要启用增强型体验编辑器，而其他域则需要将其禁用。我该如何处理？**
 
-您可以随时覆盖默认设置，改为[在活动级别使用增强型体验编辑器选项](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)（设置 &gt; 首选项）。
+您可以随时覆盖默认设置，改为[在活动级别使用增强型体验编辑器选项](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)（设置 > 首选项）。
 
 **为何我看不到交换图像的选项？**
 
@@ -253,7 +256,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **为什么 QA 过程中未进行内容交付？**
 
-您的网站可能拥有动态 ID、重复 ID 或元素上的动态类。您可能必须在帐户级别（或者在活动级别，如果问题特定于域或页面）评估网站首选项的选项。请参阅 [CSS 选择器](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872)。
+您的网站可能拥有动态 ID、重复 ID 或元素上的动态类。您可能必须在帐户级别（或者在活动级别，如果问题特定于域或页面）评估网站首选项的选项。请参阅 [CSS 选择器](/help/administrating-target/visual-experience-composer-set-up.md#css)。
 
 **为何我没有看到我想要看到的选件/体验，反而看到了一些其他的活动？**
 

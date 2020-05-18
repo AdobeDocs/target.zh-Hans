@@ -1,11 +1,14 @@
 ---
-keywords: 概述和参考
+keywords: Overview and Reference
 description: 活动 URL 可决定测试中使用的页面，以及在设计测试时打开的页面。
 title: 活动 URL
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 93%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 活动 URL 可决定测试中使用的页面，以及在设计测试时打开的页面。
 
-在活动创建过程中，如果收到相应的提示，请指定活动 URL。应键入完整的 URL（包括 `https://`**），然后单击[!UICONTROL 创建]**。
+在活动创建过程中，如果收到相应的提示，请指定活动 URL。应键入完整的 URL（包括 `https://`**[!UICONTROL ），然后单击创建]**。
 
 >[!NOTE]
 >
@@ -22,13 +25,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 指定其他 URL
 
-默认情况下，[!UICONTROL 可视化体验编辑器]会打开您的 [Target 帐户首选项](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)中指定的页面。在活动创建过程中，您可以指定其他页面。
+By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md)
+. 在活动创建过程中，您可以指定其他页面。
 
 要在[!UICONTROL 可视化体验编辑器]打开后显示其他页面，请单击&#x200B;**[!UICONTROL 配置]**&#x200B;齿轮图标，然后选择&#x200B;**[!UICONTROL 页面交付]**。在“活动 URL”字段中输入相应的 URL。
 
 ![“页面交付”对话框](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
-单击&#x200B;**[!UICONTROL 添加模板规则]，为活动添加更多页面和部分。**
+单击&#x200B;**[!UICONTROL 添加模板规则]**，为活动添加更多页面和部分。
 
 其他规则可以基于以下任何一项：
 
@@ -41,7 +45,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 可以使用 AND 或 OR 将其他规则连接到活动 URL。您添加的所有规则将使用 AND 进行相互评估。
 
-完成后单击&#x200B;**[!UICONTROL 保存]。**
+完成后单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!NOTE]
 >

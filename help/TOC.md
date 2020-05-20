@@ -5,9 +5,9 @@ user-guide-title: Adobe Target 帮助
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: fea8a9a7655507f53e5146f401a0113bcb4e90b0
+source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1404'
 ht-degree: 93%
 
 ---
@@ -256,7 +256,6 @@ ht-degree: 93%
       + [在服务器端交付中使用活动 QA](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
 + 受众 {#audiences}
    + [受众概述](c-target/target.md)
-   + [定位工作原理](c-target/target-how-target-works.md)
    + 创建受众 {#create-audiences}
       + [创建](c-target/c-audiences/audiences.md)
       + [在 Target 中构建受众](c-target/c-audiences/create-audience.md)

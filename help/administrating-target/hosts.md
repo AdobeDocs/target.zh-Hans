@@ -5,10 +5,10 @@ title: 主机
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 68%
+source-wordcount: '1232'
+ht-degree: 65%
 
 ---
 
@@ -101,6 +101,10 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 如果 `mboxHost` 在 API 调用中进行传递，则会为传入的环境记录转化。If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
 您也可以通过在“[!DNL Target]主机不包含[!UICONTROL ”框中添加所需的主机来创建黑名单，以指定不能向 ] 发送 mbox 调用的主机（域）。
+
+>[!NOTE]
+>
+>由于“授权主机”列表同时用于mbox主机和默认重定向主机，因此您必须添加所有已批准使用Adobe目标Javascript SDK(at.js)的现有域 *，以及* ubox默认重定向URL中使用的所有域。 您今后还必须向白名单中添加任何新的类似域。
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 

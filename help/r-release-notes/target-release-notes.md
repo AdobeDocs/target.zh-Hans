@@ -5,9 +5,9 @@ title: Adobe目标预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
+source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '413'
 ht-degree: 22%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2020 年 5 月 14 日**
+**上次更新日期：2020 年 5 月 20 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -36,9 +36,12 @@ ht-degree: 22%
 
 随着mbox.js即将于2020年8月30日弃用，Adobe目标产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。 在接下来的30天内，您可以 [视图网络研讨会录制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
 
-## Target Standard/Premium 20.5.1（2020 年 6 月 10 日） 
+## Target Standard/Premium 20.6.1（2020 年 6 月 10 日） 
 
-此版本的详细信息将在此处发布。
+| 功能/增强 | 描述 |
+| --- | --- |
+| 发布者角色 | 此新角色与当前“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，“发布者”角色对活动活动具有其他权限。 |
+| 管理<br>页面以前为“设置”。 | “设置”页面已更名为“管理”，并且所有菜单项的UI已更新，以改进工作流程和易用性。<br>可用的菜单项包括：<ul><li>可视化体验编辑器</li><li>报表</li><li>Scene7 设置</li><li>实施</li><li>属性</li><li>主机</li><li>环境</li><li>响应令牌</li><li>用户</li></ul> |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

@@ -1,12 +1,15 @@
 ---
-keywords: Analytics 作为报表源;a4t;A4T
+keywords: Analytics as reporting source;a4t;A4T
 description: 在 Adobe Target (A4T) 中创建基于 Adobe Analytics 的活动时的用户帐户要求。
 title: 用户权限要求
 solution: Target,Analytics
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 63%
 
 ---
 
@@ -35,20 +38,19 @@ For more information, see [Organizations and account linking](https://docs.adobe
 
 For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
 在 [!DNL Adobe Analytics] 中完成以下任务：
 
 ### 配置对 Analytics 报表包的访问权限
 
-要创建或查看启用了 Analytics 的活动的报表，您必须是&#x200B;**[!UICONTROL 所有报表访问权限]**&#x200B;组的成员，或您所属的组有权访问要使用的报表包中的至少一个报表。如果您无法查看报表，请确保您是上述任一组的成员。
+Before creating or viewing reports for an [!DNL Analytics]-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. 如果您无法查看报表，请确保您是上述任一组的成员。
 
-有关详细信息，请参阅 [产品配置和组](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)。
+有关详细信息，请参 [阅产品用户档案和组](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)。
 
 ### 配置对“Web 服务访问”组的访问权限
 
-您必须属于 [!DNL Adobe Analytics] 中的“Web 服务访问”组，才能将 [!DNL Analytics] 用作 [!DNL Target] 报表源。
+您必须属于 [!DNL Analytics] 中的“Web 服务访问”组，才能将 [!DNL Analytics] 用作 [!DNL Target] 报表源。
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 

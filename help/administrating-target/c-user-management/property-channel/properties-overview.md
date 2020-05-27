@@ -5,14 +5,17 @@ title: 配置企业权限
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+workflow-type: tm+mt
+source-wordcount: '1381'
+ht-degree: 79%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 配置企业权限{#configure-enterprise-permissions}
 
-此信息介绍了向 Target 实施添加用户，创建工作区、用户组和属性，更新 Target 实施以包含 `at_property` 参数，以及指定角色和权限时需要执行的任务。
+Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
 
 >[!NOTE]
 >
@@ -29,34 +32,35 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 | 5：更新您的实施以包含 `at_property` 参数 | [!DNL Target] UI、at.js 函数、[!DNL Adobe Launch] 或 [!DNL Dynamic Tag Management] |
 | 6. 指定角色和权限 | [!DNL Adobe Admin Console for Enterprise] |
 
-对于在企业版 Adobe Admin Console 中执行的任务，请按以下步骤访问该控制台：
+For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
 
-1. Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > sign in using your Adobe ID, if you have not already logged in.
+1. 在Adobe目标中，单击“ **[!UICONTROL 管理]** ”>“ **[!UICONTROL 属性]** ” **[!UICONTROL >“]**&#x200B;将属性分配给工作区”。
 
    或
 
-   如果您已经登录 Experience Cloud，请转到 [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)，然后单击顶部导航栏中的[!UICONTROL 应用程序]图标，接着单击右侧的&#x200B;**[!UICONTROL 管理员]**。
+   Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > sign in using your Adobe ID, if you have not already logged in.
+
 
 1. （视情况而定）如果您可以访问多个组织的 [!DNL Admin Console for Enterprise]，请单击右上角或顶部导航栏中的用户头像，然后选择所需组织。
 
-## 步骤 1. 添加用户（可选）{#section_A92AF0F921B743FEB9E9033433BD816A}
+## 步骤 1. Add users (Optional) {#section_A92AF0F921B743FEB9E9033433BD816A}
 
 当您开始使用新的[!UICONTROL 属性]功能时，必须在 [!DNL Adobe Admin Console for Enterprise] 中执行所有用户管理。但是，[!DNL Target] 中的所有现有用户都将从 [!DNL Target] 迁移到 [!DNL Admin Console for Enterprise]。
 
 1. [在 Admin Console 中](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)，单击页面顶部的&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加用户]**，以创建新用户或编辑现有用户。
 1. 按照《企业用户指南》**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/enterprise/help/users.html)中的说明进行操作。
 
-## 步骤 2. 创建工作区（产品配置文件）{#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
+## 步骤 2. Create a workspace (product profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
-工作区（产品配置文件）允许组织为一组特定用户分配一组特定属性。工作区在许多方面与 [!DNL Analytics] 中的报表包相似。
+工作区(产品用户档案)允许组织将一组特定用户分配给一组特定属性。 工作区在许多方面与 [!DNL Analytics] 中的报表包相似。
 
-组织可以通过以下方式开始利用企业权限功能：在 Admin Console 中创建新工作区，将 Target 属性分配给这些工作区，并将用户从“默认工作区”配置移动到这些新的访问受限工作区。
+Organizations can begin taking advantage of Enterprise permissions functionality by creating new workspaces within [!DNL Admin Console], assigning [!DNL Target] properties to these workspaces, and moving users from the &quot;Default Workspace&quot; configuration to these newer, limited-access workspaces.
 
 客户可以使用这些工作区按地区、业务部门、网站区域或通过他们选择的任何其他方法，将访问权限划分给不同的团队。
 
 用户可以包含在多个工作区中，甚至可以在每个工作区拥有不同的角色。
 
-1. 在 Admin Console 中，单击&#x200B;****&#x200B;产品，然后选择所需产品的名称。
+1. 在 中[!DNL Admin Console]，单击&#x200B;**[!UICONTROL 产品]**，然后选择所需产品的名称。
 
    ![工作区](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -77,7 +81,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 >[!NOTE]
 >请观看下面的视频，以了解有关配置工作区的更多信息。
 
-### 获取工作区 ID {#workspace-id}
+### Obtain your workspace ID {#workspace-id}
 
 您需要传递工作区 ID 才能使用 [Target API](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) 中的企业权限。
 
@@ -86,14 +90,14 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    ![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
-## 步骤 3. 创建用户组（可选）{#section_5F5CB9AA7A9F4D26953E22016DA59605}
+## 步骤 3. Create user groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 您可以创建用户组（例如开发人员、分析师、营销人员、管理人员等），然后为其分配多个 Adobe 产品和工作区中的相应权限。为新团队成员分配不同 Adobe 产品中的所有相应权限的过程就像将他们添加到某个特定用户组一样简单。
 
 1. 在 Admin Console 中，单击页面顶部的&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡 > **[!UICONTROL 用户组]**，以创建新用户组或对现有用户组进行编辑。
 1. 按照《企业用户指南》**&#x200B;的[管理产品配置的用户和组](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)中的说明进行操作。
 
-## 步骤 4. 创建属性 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
+## 步骤 4. Create properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
 通过在对 Target 的任何调用（mbox、api 等）中添加特定名称/值对作为参数，可以启用属性。
 
@@ -101,27 +105,26 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 **提示**：请观看下方的视频，以了解有关如何创建属性的更多信息。
 
-1. 在 [!DNL Target]中，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 属性]**&#x200B;以显示“[!UICONTROL 属性]”列表。
+1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list.
 1. 单击&#x200B;**创建属性**。
 
    ![“新建属性”对话框](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
 
    填写以下字段：
 
-   * **渠道：**&#x200B;为属性选择所需的渠道：Web、移动设备应用程序、电子邮件或其他/API（例如机顶盒或 PlayStation 游戏机）。
-   * **名称（必填）：**&#x200B;为属性指定一个描述性名称。
+   * **属性名称（必需）:** 指定属性的描述性名称。
    * **描述：**&#x200B;为属性指定可选描述。
+   * **渠道：**&#x200B;为属性选择所需的渠道：Web、移动设备应用程序、电子邮件或其他/API（例如机顶盒或 PlayStation 游戏机）。
 
-1. 单击&#x200B;**[!UICONTROL 生成代码]**&#x200B;以生成将在执行 [5. 更新您的实施以包含 at_property 参数](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)中的步骤时使用的代码。
-1. 将代码复制到剪贴板。
+1. Click **[!UICONTROL Copy]** to copy the code to your clipboard that you&#39;ll use while performing the steps in [5: Update Your Implementation to Include the at_property Parameter](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
 1. 完成后单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!NOTE]
 >请观看下面的视频，以了解有关创建属性的更多信息。
 
-## 步骤 5：更新您的实施以包含 at_property 参数{#section_9B17A59807A94712BE642942442EBBC8}
+## Step 5: Update your implementation to include the at_property parameter {#section_9B17A59807A94712BE642942442EBBC8}
 
-要使用 [!DNL Target] 用户权限功能，必须将 `at_property` 参数添加到对 Target 的任何调用（mbox、api 等）中。
+要使用 [!DNL Target] 用户权限功能，必须将 `at_property` 参数添加到对 的任何调用（mbox、api 等）中。[!DNL Target]
 
 **获取`at_property`参数代码：**
 
@@ -129,7 +132,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    或
 
-   在 [!DNL Target]中，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 属性]**&#x200B;以显示“[!UICONTROL 属性]”列表。
+   In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list.
 
    1. 将鼠标指针悬停在要显示的所需属性的“[!UICONTROL 上次更新]”列上，然后单击“[!UICONTROL 代码]”图标。
 
@@ -139,7 +142,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
       ![属性代码](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
-1. 使用在上一步中获取的实施代码更新 Target 实施。
+1. Update your [!DNL Target] implementation with the implementation code obtained in the previous step.
 
    您可以通过多种方法来更新 [!DNL Target] 实施。例如，对于网页，可以使用以下方法：
 
@@ -165,7 +168,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
       有关如何使用 at.js 完成此操作的更多信息，请参阅 [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 和 [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
 
-## 步骤 6：指定角色和权限{#section_8C425E43E5DD4111BBFC734A2B7ABC80}
+## Step 6: Specify roles and permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
 1. 在 Admin Console 中，单击&#x200B;****&#x200B;产品，然后选择所需产品的名称。
 
@@ -192,7 +195,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 如何配置 Target 工作区 (6:55) 教 ![程徽章](/help/assets/tutorial.png)
+### 如何配置 Target 工作区 (6:55) ![教程徽章](/help/assets/tutorial.png)
 
 以下视频说明了如何创建工作区。
 

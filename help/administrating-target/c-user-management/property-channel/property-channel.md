@@ -5,78 +5,79 @@ title: 企业用户权限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 207ff5d6010bf5006d31945f7a35c35860c3646c
+source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+workflow-type: tm+mt
+source-wordcount: '2899'
+ht-degree: 85%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 企业用户权限{#enterprise-user-permissions}
 
-企业用户权限是对企业范围的用户拥有的 Target 访问权限进行正式管理的一种方式。可将用户添加到 Target、根据用户的角色为其分配权限，并根据不同的部门、全球位置、渠道和其他逻辑分组为团队创建工作区。您可以为用户分配“观察者”、“编辑者”或“审批者”角色。
+Enterprise user permissions is a means of formal administering enterprise-wide user access to [!DNL Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], or [!UICONTROL Approver].
 
-## 确定是否有权访问企业用户权限功能
+## 确定您是否有权访问企业用户权限
 
 >[!NOTE]
 >
->“属性和权限”功能作为 Target Premium 解决方案的一部分提供。如果没有 Target Premium 许可证，它们将无法在 Target Standard 中使用。
+>“属性和权限”功能作为  Premium 解决方案的一部分提供。[!DNL Target]如果没有 [!DNL Target] Premium 许可证，它们将无法在 [!DNL Target] Standard 中使用。
 >
->您的 Target 实施可以使用任何版本的 at.js 或 mbox.js.
+>Your [!DNL Target] implementation can be using any version of at.js or mbox.js.
 
-您可以通过单击 UI 顶部的“[!UICONTROL 设置]”链接来判断贵组织是拥有 Standard 许可证还是拥有 Premium 许可证。[!DNL Target]
+You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **[!DNL Target Standard]客户&#x200B;**：如果您看到[!UICONTROL 用户]选项卡（[!UICONTROL 设置 > 用户]），则表明贵组织拥有[!DNL Target Standard]许可证。[!DNL Target Standard]客户应按照[用户](/help/administrating-target/c-user-management/c-user-management/user-management.md)中的相关说明进行操作，以在 Adobe Admin Console 中添加用户和分配权限。
+* **[!DNL Target Standard]客户&#x200B;**: 如果您看到“用[!UICONTROL 户]”选项卡([!UICONTROL “管理”>“用户]”)(而不是“属[!UICONTROL 性”选项卡])，则您的组织具有[!DNL Target Standard]许可证。[!DNL Target Standard]客户应按照“用户[”中](/help/administrating-target/c-user-management/c-user-management/user-management.md)的说明在中添加用户和分配权限[!DNL Adobe Admin Console]。
 
-   [!DNL Target Standard]单击“属性”选项卡时， 用户会看到以下错误消息，但 [!DNL Target] 并没有任何问题。[!DNL Target Standard] 用户无权访问 [!DNL Target Premium][!UICONTROL  企业权限]功能。
+* **[!DNL Target Premium]客户&#x200B;**: 如果您看到“属[!UICONTROL 性]”选项卡([!UICONTROL “设置”>“属性]”)和“用[!UICONTROL 户”选项卡]，则您的组织具有[!DNL Target Premium]许可证。[!DNL Target Premium]客户应按照本文章和[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的相关说明进行操作。
 
-   ![错误消息](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
-
-* **[!DNL Target Premium]客户&#x200B;**：如果您看到了[!UICONTROL 属性]选项卡（[!UICONTROL 设置 > 属性]），则表明贵组织拥有[!DNL Target Premium]许可证。[!DNL Target Premium]客户应按照本文章和[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的相关说明进行操作。
-
-## 开始使用企业权限之前
+## 在开始使用企业权限之前
 
 >[!IMPORTANT]
 >
->在继续使用企业权限之前，请确保您已阅读下面的[注意事项](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2)部分。
+>Ensure that you read the [Caveats](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with enterprise permissions.
 
-## 本节使用的术语和定义 {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
+## Terms and definitions used in this section {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
-本节使用了以下术语，想要使用 Target Premium 中的“属性和权限”功能的用户可能对这些术语比较陌生。
+The following terms are used throughout this section and might be new to users wanting to use the Properties and Permissions functionality in [!DNL Target] Premium.
 
 ### 属性
 
-属性与 Dynamic Tag Management（激活）中的属性类似，不同之处在于它们各自使用一段独特的代码片段。
+Properties are similar in nature to those within [!DNL Adobe Platform Launch] in that they use a unique snippet of code to differentiate them.
 
 Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或多个域和子域的任意组合。
 
-通过在对 Target 的任何调用（mbox、api 等）中添加特定名称/值对作为参数，可以启用属性。属性属于特定渠道（Web、移动设备、电子邮件或 API/其他）。
+通过在对 Target 的任何调用（mbox、api 等）中添加特定名称/值对作为参数，更改为 [!DNL Target].
+
+属性属于特定渠道（Web、移动设备、电子邮件或 API/其他）。
 
 ### 工作区（产品配置文件）
 
-工作区允许组织为一组特定用户分配一组特定属性。在很多方面，工作区与 Adobe Analytics 中的报表包类似。
+工作区允许组织为一组特定用户分配一组特定属性。工作区在许多方面与 [!DNL Adobe Analytics] 中的报表包相似。
 
-注意：工作区在适用于企业的 Adobe Admin Console 中被称为“产品配置文件”。
+注意： 工作区在中称 [!UICONTROL 为“产品] ”用户档案 [!DNL Adobe Admin Console for Enterprise]。
 
 如果您所在的组织是跨国组织，则您可能拥有两个工作区：一个用于欧洲网页、属性或网站，而另一个用于美国网页、属性或网站。如果您所在的组织拥有多个品牌，则您的每个品牌可能有其独立的工作区。
 
 用户可以包含在多个工作区中，甚至可以在每个工作区拥有不同的角色。
 
-用户可以通过在工作区之间切换来获得 Adobe Target 的不同视图，这与 Analytics 用户通过在报表包之间切换来获得不同的 Analytics 视图的方式类似。
+Users can have different views of [!DNL Adobe Target] by moving between workspaces, similar to how [!DNL Analytics] users have different views of [!DNL Analytics] by moving between Report Suites.
 
 工作区可以包括完全不同的受众、代码选件和活动。
 
 在迁移到新的企业权限模型之前创建的所有受众和活动将归组在“默认工作区”中，如下所述。
 
-通过 Adobe Experience Manager (AEM)、Adobe Mobile Services 和 Adobe Target Classic 创建的所有活动都将成为“默认工作区”的一部分。
+All activities created via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services], and [!DNL Adobe Target Classic] will be part of the &quot;Default Workspace.&quot;
 
 ### 默认工作区
 
-在将组织迁移到新的企业权限模型期间，Admin Console 中的所有现有工作区（产品配置文件）都将合并到名为“默认工作区”的一个工作区中。
+All existing workspaces (product profiles) within [!DNL Admin Console] are merged into a single workspace called &quot;Default Workspace&quot; during your organization&#39;s migration to the new Enterprise Permissions model.
 
 >[!IMPORTANT]
 >
 >请勿删除默认工作区。
 
-所有用户角色和对所有 Target 功能的访问权限与它们迁移到新的企业权限模型之前完全相同。
+All user roles and access to all [!DNL Target] functionality remains exactly the same as they were prior to the migration to the new Enterprise Permissions model.
 
 ### 用户组
 
@@ -84,19 +85,19 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 ### 角色和权限
 
-角色和权限决定了用户在 Target 实施中创建和管理活动所需的访问权限级别。在 Target 中，角色包括：
+角色和权限决定了用户在 [!DNL Target] 实施中创建和管理活动所需的访问权限级别。在 [!DNL Target] 中，角色包括：
 
-* 观察者：可以查看活动，但无法创建或编辑它们。
-* 编辑者：可以在活动开始之前创建和编辑活动，但不能批准启动活动。
-* 审批者：可以创建、编辑、激活或停止活动。
+* **[!UICONTROL 观察者]**: 可以视图活动，但不能创建或编辑它们。
+* **[!UICONTROL 编辑]**: 可以在活动生效之前创建和编辑活动，但不能批准启动。
+* **[!UICONTROL 审批人]**: 可以创建、编辑、激活或停止活动。
 
 ### 渠道
 
-渠道是指用于传递 Target 活动的内容类型：网页、移动设备应用程序、电子邮件等。
+渠道是指用于传递 [!DNL Target] 活动的内容类型：网页、移动设备应用程序、电子邮件等。
 
 创建新活动时，该活动会创建在当前选定的工作区中。您将在第一个对话框中看到渠道选择选项，允许您为活动选择所需的渠道：Web、移动应用程序、电子邮件或其他/API。
 
-## 权限概述 {#section_DC2172520DA84605B218A5E9FB6D187A}
+## Permissions overview {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 以下信息说明了先前在 [!DNL Target] 中强制执行权限的方式，以及如何使用“[!UICONTROL 属性]”和“[!UICONTROL 权限]”功能强制执行这些权限。
 
@@ -134,7 +135,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 在此示例中，Jan 无法查看产品页面、俄罗斯网站和职业网站。
 
-## 用例情景 {#section_F3CE8576959E4F4CB13BEEED38311DD8}
+## 用例方案 {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
 以下用例可能有助于了解属性、项目、角色和权限如何帮助您通过 [!DNL Target] 实现营销目标：
 
@@ -180,7 +181,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 * **Diana**：Diana 现在是该组织的分析师，并获得了医院网站和客户网站的观察者权限，因此她能够对活动进行只读访问。Diana 可以查看活动，但不能创建或编辑这些活动。
 
-## Target UI 属性和权限触点 {#section_3414371393BB42999A268628B5456EC9}
+## Target UI Property and Permissions touchpoints {#section_3414371393BB42999A268628B5456EC9}
 
 您可以在 [!DNL Target] UI 中的各个位置看到新的权限功能。
 
@@ -194,13 +195,13 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 * **受众创建：**&#x200B;创建新受众时，该受众会创建在当前选定的工作区中。
 * **选件创建：**&#x200B;创建新选件时，该选件会创建在当前选定的工作区中。
-* **属性页面（“设置”>“属性”）：**&#x200B;您可以使用“[!UICONTROL 搜索]”框、“[!UICONTROL 渠道]”和“[!UICONTROL 产品配置文件]”选项筛选“[!UICONTROL 属性]”列表。
+* **属性页（设置>属性）:** 您可以使用“ [!UICONTROL 搜索] ”框搜索属 [!UICONTROL 性列表] 。
 
    ![](assets/properties_list.png)
 
 ## 注意事项 {#section_9714311B1CD9497A86F4910F8AE635E2}
 
-在 Target Premium 中使用或配置属性和权限时，请考虑以下事项：
+Consider the following when using or configuring properties and permissions in [!DNL Target] Premium:
 
 * **重要信息**：请勿删除包含活动的工作区。如果删除，请联系客户关怀部门恢复这些活动。
 * 在使用“我的所有工作区”视图时：
@@ -210,12 +211,17 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
    * 在“我的所有工作区”视图中创建活动、受众或选件时，必须选择要在其中创建项目的工作区。只能选择您拥有编辑者或审批者权限的工作区。
    * 在“我的所有工作区”视图中复制活动、受众或选件时，必须选择要在其中复制项目的工作区。只能选择您拥有编辑者或审批者权限的工作区。
 
-* 以下“设置”页面上的所有设置都可以由任何工作区中的任何审批者控制：
+* 以下“管理”页面上的任何设置都可由任何工作区中的任何“审批者”控制：
 
-   * 首选项
-   * 实施
+   * 可视化体验编辑器
+   * 报表
    * Scene7 设置
+   * 实施
+   * 属性
    * 主机
+   * 环境
+   * 响应令牌
+   * 用户
 
 * 用户无法将资源从一个工作区（产品配置文件）移动到另一个工作区。但是，可以将资源从一个工作区（产品配置文件）复制到另一个工作区。
 * 从 [!DNL Audiences] 页面查看受众时，页面加载速度低于预期。如果您以任何方式与搜索栏进行互动，则会加快受众的显示速度。这是一个已知问题，将在即将发布的更新中修复。此问题不会影响在活动创建工作流中选择受众。
@@ -234,7 +240,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
    * 使用以下解决方案或方法创建的活动、受众、代码选件、图像选件或任何其他资源不受企业权限模型控制，但将属于默认工作区一部分：Target Classic、Adobe Experience Manager (AEM)、Adobe Mobile Services，以及通过 API 创建的资源。通过 API 创建的资源（包括活动、受众、代码选件和图像选件）。
    * 目前，图像选件（存储在 `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` 下的资产）不受企业权限模型控制。
    * 只有当目标链接或目标页面是包含在活动中的属性的一部分时，clickTracking 和重定向才会正常工作。此外，使用 `targetPageParams()` 函数时，clickTracking 可能无法正常工作。`targetPageParamsAll()` 是推荐的函数。
-   目前，Target 要求执行跟踪的任何页面上都具有 `at_property` 令牌。如果令牌：(1) 不存在，(2) 在对活动进行设置（在 VEC 内）时未被检测到，或者 (3) 未通过 `targetPageParamsAll()` 函数传递给 clickTracking mbox，则量度不会递增，并将显示为“0”。
+   [!DNL Target]目前， 要求执行跟踪的任何页面上都具有 `at_property` 令牌。如果令牌：(1) 不存在，(2) 在对活动进行设置（在 VEC 内）时未被检测到，或者 (3) 未通过 `targetPageParamsAll()` 函数传递给 clickTracking mbox，则量度不会递增，并将显示为“0”。
 
    这同样适用于使用重定向的活动。目标页面必须具有 `at_property` 令牌，并可在 VEC 内进行设置时被识别。
 

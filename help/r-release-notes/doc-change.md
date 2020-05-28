@@ -5,9 +5,9 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
+source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '930'
 ht-degree: 34%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 28 年 5 月 | [报表常见问题解答](/help/c-reports/reporting-frequently-asked-questions.md) | 添加了以下新常见问题解答： <ul><li>如何计算新访客和退回访客指标？</li></ul> |
 | 27 年 5 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关目标分析(A4T)支持自动分配活动的信息。 |
 | 26 年 5 月 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 添加了以下信息： &quot;在禁用脚本后，该参数仍保留在用户档案中。 其用户档案已包含活动受众中使用的参数的用户将符合该活动的条件。” |
 | 21 年 5 月 | [白名单目标边缘节点](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 已添 `mboxedge30.tt.omtrdc.net` 加到列表。 |

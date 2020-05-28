@@ -1,14 +1,14 @@
 ---
-keywords: troubleshooting;metric discrepancies;FAQ;reports
+keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: 有关 Adobe Target 报表的常见问题解答列表。
 title: Adobe Target 报表常见问题解答
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 7b57ef37f2764f5ec58c9a090edc295e81fdaaa9
+source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 50%
+source-wordcount: '862'
+ht-degree: 39%
 
 ---
 
@@ -16,6 +16,27 @@ ht-degree: 50%
 # 报表常见问题解答{#reporting-faq}
 
 有关 [!DNL Target] 报表的常见问题解答列表。
+
+## 如何计算新访客和退回访客指标？
+
+请考虑以下事项：
+
+**新访客**: 倘符合以下条件之一，则访客会计入新访客分部：
+
+* 这是访客首次访问该网站。
+* 这是访客清除cookies后首次访问网站。
+* 这是访客自访客用户档案生命周期过期后首次访 [问该网站](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) 。
+
+**退回访客**: 如果用户之前访问过网站（至少离开30分钟），并使用相同的cookie再次返回到网站，则该访客将包含在“返回访客”区段中。 只要访客在其配置文件生命周期内返回网站，他们便是回访访客。
+
+如果这两个区段应用于活动，则“新访客”区段和“退回访客”区段并不总是占总访客数。
+
+考虑上述适用于新访客和退回访客的条件，请考虑以下示例：
+
+* 访客首次访问网站并计为新访客。
+* 在满足退回访客的条件后，访客将返回到该站点，并计为退回访客。
+
+此访客在活动的整体访客计数中计为单个访客，即使同时计入新访客和退回访客区段也是如此。
 
 ## 为何我的[!UICONTROL 体验定位] (XT) 报表包含控制体验的量度？
 

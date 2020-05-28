@@ -4,7 +4,10 @@ description: 移动设备视区可帮助您预览活动在各种大小的屏幕�
 title: 适用于响应式体验的移动设备视区
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +45,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 | Google Pixel | 411 宽 x 731 高 | 1080 宽 x 1920 高 |
 | Google Pixel XL | 411 宽 x 731 高 | 1440 宽 x 2560 高 |
 | Google Pixel 2 | 411 宽 x 731 高 | 1080 宽 x 1920 高 |
-| Google Pixel 2 XL | 411 宽 x 731 高 | 1440 宽 x 2560 高 |
+| Google Pixel 2 XL | 411 宽 x 823 高 | 1440 宽 x 2880 高 |
 | Samsung Galaxy Note 5 | 480 宽 x 853 高 | 1440 宽 x 2560 高 |
 | LG G5 | 480 宽 x 853 高 | 1440 宽 x 2560 高 |
 | One Plus 3 | 480 宽 x 853 高 | 1080 宽 x 1920 高 |
@@ -57,7 +60,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 | Samsung Galaxy Tab 10 | 800 宽 x 1280 高 | 800 宽 x 1280 高 |
 | Chromebook Pixel | 1280 宽 x 850 高 | 2560 宽 x 1700 高 |
 
-多个网站列出了常用设备的视区大小。例如，请参 [阅https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) ，或查阅设备制造商的网站。
+多个网站列出了常用设备的视区大小。例如，请参 [阅](https://viewportsizer.com/devices/) https://viewportsizer.com/devices/或查阅设备制造商的网站。
 
 如果您想要将活动交付到某一特定设备上的用户，请在活动图中选择适合该设备的受众。使用移动设备 Web 编辑器可在该设备上编辑活动页面。如果您想要在整个数字体验中运行某个活动，并确保该活动在所有设备上都展现良好的外观，请不要应用定位，而是使用移动设备视区按各种屏幕大小预览该活动。
 
@@ -165,7 +168,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe Target概述徽章中的帐户 ![首选项](/help/assets/overview.png)
+### Adobe目标概述徽章中的 ![帐户首选项](/help/assets/overview.png)
 
 以下视频包含有关如何在帐户首选项中设置移动设备视区的信息，相关介绍开始于视频的 4:40。
 

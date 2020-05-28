@@ -5,10 +5,10 @@ title: Adobe Target 报表常见问题解答
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
+source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 39%
+source-wordcount: '983'
+ht-degree: 35%
 
 ---
 
@@ -36,7 +36,15 @@ ht-degree: 39%
 * 访客首次访问网站并计为新访客。
 * 在满足退回访客的条件后，访客将返回到该站点，并计为退回访客。
 
-此访客在活动的整体访客计数中计为单个访客，即使同时计入新访客和退回访客区段也是如此。
+此访客在活动的整体访客计数中计为单个访客，即使在“新访客”和“退回访客”细分中均计算。
+
+新访客和退回访客的计数不一致还取决于您如何配置活动的成 [功指标](/help/c-activities/r-success-metrics/success-metrics.md):
+
+请仔细研究下面的示例：
+
+许多新访客访问您的站点并有资格获得活动。 该等新访客计入新访客分部。 所有这些访客还记录了对该活动的访问。
+
+一些访客点击了转换量度，该量度配置为“增量计数、释放用户并允许重新入门”。 假设其中一些用户多次点击转换量度，转换量度不会增加。 但是，如果设置该设置，某些用户可能会点击转换量度，然后导航回主页，再次确认活动以记录新访问。
 
 ## 为何我的[!UICONTROL 体验定位] (XT) 报表包含控制体验的量度？
 

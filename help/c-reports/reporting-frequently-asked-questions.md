@@ -5,10 +5,10 @@ title: Adobe Target 报表常见问题解答
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 35%
+source-wordcount: '1012'
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 35%
 
 ## 如何计算新访客和退回访客指标？
 
-请考虑以下事项：
+以下信息说明如何计算新访客和退回访客，并举例说明为何这两个细分的总和并不总是等于访客总数。
 
 **新访客**: 倘符合以下条件之一，则访客会计入新访客分部：
 
@@ -31,16 +31,16 @@ ht-degree: 35%
 
 如果这两个区段应用于活动，则“新访客”区段和“退回访客”区段并不总是占总访客数。
 
-考虑上述适用于新访客和退回访客的条件，请考虑以下示例：
+请考虑以下示例，以新访客和退回访客的上述条件为例：
 
 * 访客首次访问网站并计为新访客。
 * 在满足退回访客的条件后，访客将返回到该站点，并计为退回访客。
 
 此访客在活动的整体访客计数中计为单个访客，即使在“新访客”和“退回访客”细分中均计算。
 
-新访客和退回访客的计数不一致还取决于您如何配置活动的成 [功指标](/help/c-activities/r-success-metrics/success-metrics.md):
+新访客和退回访客的计数不一致还取决于您如何配置活动的成 [功指标](/help/c-activities/r-success-metrics/success-metrics.md)。
 
-请仔细研究下面的示例：
+例如：
 
 许多新访客访问您的站点并有资格获得活动。 该等新访客计入新访客分部。 所有这些访客还记录了对该活动的访问。
 

@@ -5,9 +5,9 @@ user-guide-title: Adobe Target 帮助
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1406'
 ht-degree: 93%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 93%
 
 + [Adobe Target 产品文档](target-home.md)
 + Target 发行说明 {#release-notes}
+   + [目标公告](/help/r-release-notes/target-announcements.md)
    + [Target 发行说明（当前版本）](r-release-notes/release-notes.md)
    + [Target 发行说明（预发行版本）](r-release-notes/target-release-notes.md)
    + [目标内幕新闻快讯](/help/r-release-notes/target-insider-newsletter.md)

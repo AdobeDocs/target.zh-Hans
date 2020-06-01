@@ -5,10 +5,10 @@ title: Adobe目标预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 20%
+source-wordcount: '457'
+ht-degree: 21%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2020 年 5 月 27 日**
+**上次更新时间：2020 年 6 月 1 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -30,17 +30,16 @@ ht-degree: 20%
    >
    >   
    通过将所有客户转移到at.js，我们的工程师和支持人员将能够为您提供新功能并优惠您期望从Adobe获得的支持。
+   >
+   >
+* **目标通知**: 有关即将进行的目标的信息，请参阅事件公告页，包括目标技能生成器会话、开发人员聊天、网络研讨会和目标咖啡休息会话。 有关详细信息，请参阅 [目标公告](/help/r-release-notes/target-announcements.md)。
 
-
-## Adobe目标技能构建器： 开发人员聊天，将Adobe目标的mbox.js迁移到at.js {#skill-builder}
-
-随着mbox.js即将于2020年8月30日弃用，Adobe目标产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。 在接下来的30天内，您可以 [视图网络研讨会录制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
 
 ## Target Standard/Premium 20.6.1（2020 年 6 月 10 日） 
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Analytics for Target (A4T) 支持自动分配活动 | 在6月的版本中，自动分配测试将支持 [Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。 此集成允许您使用自动分配的多重强盗功能，在使用Adobe Analytics目标指标和／或Adobe Analytics报告和分析功能的同时，推动流量增长以赢得体验。 如果您已经实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以便与A/B测试和体验定位活动一起使用，您就可以了！ |
+| Analytics for Target (A4T) 支持自动分配活动 | 在6月的版本中，自动分配测试将支持 [Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。 此集成允许您使用自动分配的多重强盗功能，在使用Adobe Analytics目标指标和／或Adobe Analytics报告和分析功能的同时，推动流量增长以赢得体验。 如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以与A/B测试和体验定位活动配合使用，您就可以了！ |
 | 发布者角色 | 此新角色与当前“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，“发布者”角色对活动活动具有其他权限。 |
 | 管理<br>页面以前为“设置”。 | “设置”页面已更名为“管理”，并且所有菜单项的UI已更新，以改进工作流程和易用性。<br>可用的菜单项包括：<ul><li>可视化体验编辑器</li><li>报表</li><li>Scene7 设置</li><li>实施</li><li>属性</li><li>主机</li><li>环境</li><li>响应令牌</li><li>用户</li></ul> |
 

@@ -4,10 +4,10 @@ description: 移动设备视区可帮助您预览活动在各种大小的屏幕�
 title: 适用于响应式体验的移动设备视区
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 98%
+source-wordcount: '1281'
+ht-degree: 97%
 
 ---
 
@@ -33,8 +33,10 @@ ht-degree: 98%
 | iPhone8 | 375 宽 x 667 高 | 750 宽 x 1334 高 |
 | iPhone 7 Plus | 414 宽 x 736 高 | 1080 宽 x 1920 高 |
 | iPhone7 | 375 宽 x 667 高 | 750 宽 x 1334 高 |
+| iPhone6s 加号 | 414 宽 x 736 高 | 1080 宽 x 1920 高 |
+| iPhone6s | 375 宽 x 667 高 | 750 宽 x 1334 高 |
+| iPhone 6 Plus | 414 宽 x 736 高 | 1080 宽 x 1920 高 |
 | iPhone6 | 375 宽 x 667 高 | 750 宽 x 1334 高 |
-| iPhone6s | 414 宽 x 736 高 | 1080 宽 x 1920 高 |
 | iPad Pro | 1024 宽 x 1366 高 | 2048 宽 x 2732 高 |
 | iPad 第三代和第四代 | 768 宽 x 1024 高 | 1536 宽 x 2048 高 |
 | iPad Air 1 和 2 | 768 宽 x 1024 高 | 1536 宽 x 2048 高 |

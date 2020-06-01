@@ -4,10 +4,10 @@ description: 移动设备视区可帮助您预览活动在各种大小的屏幕�
 title: 适用于响应式体验的移动设备视区
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 97%
+source-wordcount: '1346'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,14 @@ ht-degree: 97%
 
 | 设备 | 视区大小 | 设备分辨率 |
 |---|---|---|
+| iPhone SE | 375 宽 x 667 高 | 750 宽 x 1334 高 |
+| iPhone 11 Pro Max | 414 宽 x 896 高 | 1242 宽 x 2688 高 |
+| iPhone 11 Xs Max | 414 宽 x 896 高 | 1242 宽 x 2688 高 |
+| iPhone11 | 414 宽 x 896 高 | 828 宽 x 1792 高 |
+| iPhone 11 Xr | 414 宽 x 896 高 | 828 宽 x 1792 高 |
+| iPhone 11 Pro | 375 宽 x 812 高 | 1125 宽 x 2436 高 |
+| iPhone 11 X | 375 宽 x 812 高 | 1125 宽 x 2436 高 |
+| iPhone 11 Xs | 375 宽 x 812 高 | 1125 宽 x 2436 高 |
 | iPhone X | 375 宽 x 812 高 | 1125 宽 x 2436 高 |
 | iPhone 8 Plus | 414 宽 x 736 高 | 1080 宽 x 1920 高 |
 | iPhone8 | 375 宽 x 667 高 | 750 宽 x 1334 高 |

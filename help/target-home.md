@@ -3,10 +3,10 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target 产品文档
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 62%
+source-wordcount: '632'
+ht-degree: 63%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->随着mbox.js即将于2020年8月30日弃用，Adobe目标产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。 在接下来的30天内，您可以 [视图网络研讨会录制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+>有关即将进行的目标的信息，请参阅事件公告页，包括目标技能生成器会话、开发人员聊天、网络研讨会和目标咖啡休息会话。 有关详细信息，请参阅 [目标公告](/help/r-release-notes/target-announcements.md)。
 
 以下部分将向您介绍本指南中的有用链接，这些链接是按照目标受众并基于典型的工作职能来排列的：
 

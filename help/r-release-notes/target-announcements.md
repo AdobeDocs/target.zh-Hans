@@ -4,7 +4,7 @@ description: 有关即将举办的事件的信息，包括目标技能生成器�
 title: 目标公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -27,7 +27,9 @@ ht-degree: 0%
 * 自动将内容引入目标推荐
 * 跟踪推荐内容的性能及其如何关联潜在客户生成
 
-2020年6月4日星期四上午10时至上午10时45分 (EST)
+**2020年6月4日星期四**
+
+**上午10时至上午10时45分 (EST)**
 
 要注册，请访 [问Adobe Experience League网站上的注册页面](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)。
 

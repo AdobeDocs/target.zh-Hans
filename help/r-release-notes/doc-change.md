@@ -5,10 +5,10 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 34%
+source-wordcount: '962'
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 6月1日 | [适用于响应式体验的移动设备视区](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | 更新了Apple iPhone 11、Apple iPhone SE和Google Pixel 2 XL型号的视区尺寸和分辨率。 |
+| 6月1日 | [目标公告](/help/r-release-notes/target-announcements.md) | 添加了新页面以宣布即将推出的目标事件。 |
+|  | [适用于响应式体验的移动设备视区](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | 更新了Apple iPhone 11、Apple iPhone SE和Google Pixel 2 XL型号的视区尺寸和分辨率。 |
 | 28 年 5 月 | [报表常见问题解答](/help/c-reports/reporting-frequently-asked-questions.md) | 添加了以下新常见问题解答： <ul><li>如何计算新访客和退回访客指标？</li></ul> |
 | 27 年 5 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关目标分析(A4T)支持自动分配活动的信息。 |
 | 26 年 5 月 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 添加了以下信息： &quot;在禁用脚本后，该参数仍保留在用户档案中。 其用户档案已包含活动受众中使用的参数的用户将符合该活动的条件。” |

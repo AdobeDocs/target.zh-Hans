@@ -4,9 +4,9 @@ description: 有关即将举办的事件的信息，包括目标技能生成器�
 title: 目标公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
+source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 0%
 
 ## Adobe目标技能构建器： 如何 `Adobe.com` 使用Adobe Sensei AI个性化体验
 
-作为Internet上最大的B2E站点之一， `Adobe.com` Adobe Experience Cloud已充分发挥其“客户零”的作用，为全球B2B和B2C使用案例采用每种解决方案。 个性化是面向无数个性化（包括实践创意人员、非技术营销人员和深入技术的IT购买者）的数字目标，对于Adobe.com的成功至关重要。
+**2020年6月4日星期四**
+
+**上午10时至上午10时45分 (EST)**
+
+作为Internet上最大的B2E站点之一， `Adobe.com` Adobe Experience Cloud已充分发挥其“客户零”的作用，为全球B2B和B2C使用案例采用每种解决方案。 个性化是为数众多个性化（包括实践创意人员、非技术营销人员和技术深入的IT购买者）提供服务的数字目标，对于其成功至关重要 `Adobe.com`。
 
 与产品经理Tamer Mina和Mark Tuyay一起展示个性化如何运转的真实故事 `Adobe.com`。 在此网络研讨会中，您将学习如何：
 
@@ -26,10 +30,6 @@ ht-degree: 0%
 * 使用流畅的体验，跨 `Adobe.com`
 * 自动将内容引入目标推荐
 * 跟踪推荐内容的性能及其如何关联潜在客户生成
-
-**2020年6月4日星期四**
-
-**上午10时至上午10时45分 (EST)**
 
 要注册，请访 [问Adobe Experience League网站上的注册页面](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)。
 

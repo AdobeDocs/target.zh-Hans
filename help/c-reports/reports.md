@@ -6,7 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
+source-git-commit: 316c1157a4dff346f16862cfd7a04994c6a1bc7d
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 77%
 
 ---
 
@@ -26,6 +29,7 @@ source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
 | 活动类型 | 详细信息 |
 |--- |--- |
 | [A/B 测试](/help/c-activities/t-test-ab/test-ab.md) | 要了解 [!DNL Target] 中使用的提升度和置信度以及统计方法，请参阅[计划 A/B 测试](/help/c-activities/t-test-ab/sample-size-determination.md)。 |
+| [解释自动分配报告](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 通过检查活动UI中的重要指标（包括提升和置信度）来解释自动分配A/B目标的结果。 |
 | [自动定位](/help/c-activities/auto-target-to-optimize.md) (AT) | 有关 AT 活动的[!UICONTROL 摘要]报表的信息。有关更多信息，请参阅[自动定位摘要报告](/help/c-reports/auto-target-summary-report.md)。<br>有关 AT 和 AP 活动的以下两个[!UICONTROL 个性化分析]报表的信息：[!UICONTROL 自动化区段]报表和[!UICONTROL 重要属性]报表。有关更多信息，请参阅[个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) | 有关 AP 活动的以下两个[!UICONTROL 自动个性化摘要]报表的信息：[!UICONTROL 活动级别]报表和[!UICONTROL 选件级别]报表。有关更多信息，请参阅[自动个性化摘要报表](/help/c-reports/reports-ap.md)。<br>有关 AT 和 AP 活动的以下两个[!UICONTROL 个性化分析]报表的信息：[!UICONTROL 自动化区段]报表和[!UICONTROL 重要属性]报表。有关更多信息，请参阅[个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | 有关 MVT 活动的以下两个报表的信息：[!UICONTROL 体验性能]报表和[!UICONTROL 位置贡献]报表。有关更多信息，请参阅[体验性能报表](/help/c-reports/experience-performance-report.md) (MVT) 和[位置贡献报表](/help/c-reports/location-contribution-report.md) (MVT)。 |
@@ -43,7 +47,7 @@ source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
 
    ![按类型筛选报表](/help/c-reports/assets/report_filters-new.png)
 
-1. 单击&#x200B;**[!UICONTROL 报表]**选项卡。
+1. 单击&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡。
 
    每个报表都包含一个图例，以帮助您了解报表。
 
@@ -65,12 +69,12 @@ source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
    * [!UICONTROL 将报表导出到 CSV]
    * [!UICONTROL 将订单详细信息导出到 CSV]
 
-1. （可选）单击&#x200B;**[!UICONTROL 表格视图]**图标和**[!UICONTROL &#x200B;图形视图]**图标，以在这两种报表格式之间进行切换。
+1. （可选）单击&#x200B;**[!UICONTROL 表格视图]**&#x200B;图标和&#x200B;**[!UICONTROL 图形视图]**&#x200B;图标，以在这两种报表格式之间进行切换。
 
    根据您选择的报告类型，可能会提供其他视图和报告：
 
    | 报表类型 | 查看 |
    | --- | --- |
-   | 自动定位 | 单击“自动 **[!UICONTROL 化区段]**”或“**[!UICONTROL &#x200B;重要属性]** ”图标。<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 此报表可显示影响模型的排名靠前的属性及其相对重要性。</li></ul> |
-   | 自动个性化 (AP) | 除了“自动个性化 [摘要”报表外](/help/c-reports/reports-ap.md)******** ，您还可以单击“自动化细分”或“重要属性”图标。<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 此报表可显示影响模型的排名靠前的属性及其相对重要性。</li></ul> |
-   | 多变量测试 (MVT) | 除了“体验 [效果”报告](/help/c-reports/experience-performance-report.md)，您还可以单击“位置贡献 [](/help/c-reports/location-contribution-report.md) ”图标以切换报告以按位置显示贡献。 |
+   | 自动定位 | 单击“自 **[!UICONTROL 动化区段]** ”或 **[!UICONTROL “重要属性]** ”图标。<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 此报表可显示影响模型的排名靠前的属性及其相对重要性。</li></ul> |
+   | 自动个性化 (AP) | 除了“自动个性化 [摘要”报表](/help/c-reports/reports-ap.md)，您还可以单击“自动 **[!UICONTROL 细分”或“重]** 要属性”图标 **** 。<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 此报表可显示影响模型的排名靠前的属性及其相对重要性。</li></ul> |
+   | 多变量测试 (MVT) | 除了“体验 [效果”报告](/help/c-reports/experience-performance-report.md)，您还可以单击“ [位置贡献](/help/c-reports/location-contribution-report.md) ”图标，以切换报告以按位置显示贡献。 |

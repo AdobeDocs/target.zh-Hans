@@ -5,7 +5,7 @@ title: Adobe目标预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: 316c1157a4dff346f16862cfd7a04994c6a1bc7d
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 21%
@@ -17,7 +17,7 @@ ht-degree: 21%
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新时间：2020 年 6 月 1 日**
+**上次更新时间：2020 年 6 月 3 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -35,7 +35,7 @@ ht-degree: 21%
 * **目标通知**: 有关即将进行的目标的信息，请参阅事件公告页，包括目标技能生成器会话、开发人员聊天、网络研讨会和目标咖啡休息会话。 有关详细信息，请参阅 [目标公告](/help/r-release-notes/target-announcements.md)。
 
 
-## Target Standard/Premium 20.6.1（2020 年 6 月 10 日） 
+## Target Standard/Premium 20.5.1（2020 年 6 月 10 日） 
 
 | 功能/增强 | 描述 |
 | --- | --- |

@@ -4,9 +4,9 @@ description: 有关即将举办的事件的信息，包括目标技能生成器�
 title: 目标公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
+source-git-commit: 8481e1d374da0dc2306fb4d2f3b35a6d136c77e1
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 * at.js
 * 移动设备
-* 合金
+* Adobe Experience Platform - AEP Web SDK（合金）
 * API
 
 但是，请随时询问任何与目标相关的问题。

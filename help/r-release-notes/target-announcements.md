@@ -4,34 +4,38 @@ description: 有关即将举办的事件的信息，包括目标技能生成器�
 title: 目标公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 0%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
 
-# 目标公告
+# 目标公告和事件
 
 有关即将举办的事件的信息，包括目标技能生成器研习会、开发人员聊天、网络研讨会和目标咖啡休息会。
 
-## Adobe目标技能构建器： 如何 `Adobe.com` 使用Adobe Sensei AI个性化体验
+## Adobe目标社区问答咖啡休息
 
-**2020年6月4日星期四**
+**2020年6月10日星期三**
 
-**上午10时至上午10时45分 (EST)**
+**上午10:00至11:00 (PST)**
 
-作为Internet上最大的B2E站点之一， `Adobe.com` Adobe Experience Cloud已充分发挥其“客户零”的作用，为全球B2B和B2C使用案例采用每种解决方案。 个性化是为数众多个性化（包括实践创意人员、非技术营销人员和技术深入的IT购买者）提供服务的数字目标，对于其成功至关重要 `Adobe.com`。
+请加入我们，参加我们即将 [!DNL Adobe Target] 举办的社区问答咖啡休息会！ 这是我们最近开始的系列活动的一部分，我们的内部专家可以直接与您联系，参加我们的论坛主题“咖啡休息”。 将它想象成社 [!DNL Adobe Target] 区论坛，相当于AMA(Ask Me Anything)或twitter聊天。
 
-与产品经理Tamer Mina和Mark Tuyay一起展示个性化如何运转的真实故事 `Adobe.com`。 在此网络研讨会中，您将学习如何：
+产品经 [!DNL Target] 理David Son将回答您的所有问题。 David的专业知识包括：
 
-* 无需手动更新，即可保持内容的相关性和新鲜度
-* 使用流畅的体验，跨 `Adobe.com`
-* 自动将内容引入目标推荐
-* 跟踪推荐内容的性能及其如何关联潜在客户生成
+* at.js
+* 移动设备
+* 合金
+* API
 
-要注册，请访 [问Adobe Experience League网站上的注册页面](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)。
+但是，请随时询问任何与目标相关的问题。
+
+您只需登录Adobe [目标社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) ，即可参与。
+
+[请在此处登记](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
 
 ## Adobe目标技能构建器： 开发人员聊天，将Adobe目标的mbox.js迁移到at.js {#skill-builder}
 

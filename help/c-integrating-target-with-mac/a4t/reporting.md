@@ -6,10 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: 59c26a766018affe5ef7b5fa4ea5a421ab3cc37d
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 44%
+source-wordcount: '669'
+ht-degree: 35%
 
 ---
 
@@ -34,22 +34,30 @@ When the [!UICONTROL Select] operation is used and you sort on *Entrants*, then 
 >
 >Reports powered by [!DNL Target] have a latency of four minutes. For activities powered by A4T, in both the [!DNL Target] and [!DNL Analytics] reports, it can take up to 24 hours after the activity is initially saved before the report data can be broken down by experiences. 在划分数据之前的这 24 小时内收集到的数据仍然准确，并且会被分配给正确的体验。
 
-## Analytics 中的报表 {#section_F6884872DC864AE7913587FAED4CD11C}
+## Analytics 中的报表 {#analytics}
 
-In [!DNL Analytics], click **[!UICONTROL Target]** > **[!UICONTROL Target Activities]** in the left menu. In [!DNL Target], the activity&#39;s reports automatically show [!DNL Analytics] data, metrics, and segments. 从网站收集数据大约一小时后，数据便会显示在这些报表中。报表中的所有量度、受众和值都来自您在设置活动时选择的报表包。
+在中 [!DNL Analytics]，启用A4T集成后，有几个维度和指标可用。
 
-In [!DNL Analytics], use the [!UICONTROL Target Activities] report to view the results of your [!DNL Target] activity. Test&amp;Target (Legacy) Reports provides information about your old Test&amp;Target plug-in style page integrations and does not include [!DNL Analytics] for [!DNL Target] data. In the [!UICONTROL Activities] report, view information about your [!DNL Target] experiences. 单击&#x200B;**[!UICONTROL 量度]**，然后选择&#x200B;**[!UICONTROL 目标]**&#x200B;量度类型。您的报表有两个可用的量度：
+### 维度
 
-* **活动参加：**[!DNL Target]匹配 报表中的参加者数量。
-* **活动转化：**[!DNL Target]匹配 报表中的自定义转化数量。
+* [!UICONTROL 目标分析] -通过集成传入的父ID。 此维的格式为 `Activity ID:Experience ID:3rd ID`。 以下维是此维的分类。
+* [!UICONTROL Target 活动]
+* [!UICONTROL Target 体验]
+* [!UICONTROL 目标活动] >体 [!UICONTROL 验]
+* [!UICONTROL 第3个ID] —— 可忽略
 
->[!NOTE]
->
->[!DNL Target] 此外，还提供提升和置信度详细信 [!DNL Analytics]息。 有关详细信息，请参 [阅《Analytics Components Guide》(分析组件指南](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/report-target-lift-confidence.html) )中的 *目标提升和信心*。
+### 量度
+
+* [!UICONTROL 活动印象] -匹配报 [!UICONTROL 表中的] “新进者 [!DNL Target] ”编号。
+* [!UICONTROL 活动转换] -匹配报 [!UICONTROL 表中的] “自定义转 [!DNL Target] 换”。
+
+在中 [!DNL Analysis Workspace]，使用“ [!UICONTROL 目标分析”面板] ，以提升并自信 [!DNL Target] 地分析活动和体验。 有关详细信息，请 [参阅《Analytics工具指南》中的“目标分析(A4T](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) ) *面板”*。
 
 >[!IMPORTANT]
 >
 >If your [!UICONTROL Target Activities] report in [!DNL Analytics] lists &quot;unspecified&quot; instead of listing your activities, an update is required to your provisioned account. 请联系客户关怀团队以解决此问题。
+
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by Adobe Experience League.
 
 ## Target 中的报表 {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
@@ -65,12 +73,6 @@ When [!DNL Analytics] is used as the reporting source, reports in [!DNL Target] 
 You can apply the metric or audience to the report in [!DNL Target] after the activity has started, or even after the test has completed. 您无需事先知晓要衡量的确切内容。
 
 Click to view the full [!DNL Analytics] report directly from the activity report page.
-
-## Analysis Workspace 中的报表 {#reports-in-analysis-workspace}
-
-您可以使用 [!DNL Adobe Analysis Workspace] 来深入挖掘和可视化数据，或揭示隐藏在表面下的洞察。
-
-For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by [!DNL Adobe Experience League].
 
 ## 活动创建 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 

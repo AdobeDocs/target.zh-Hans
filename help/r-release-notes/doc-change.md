@@ -5,9 +5,9 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '986'
 ht-degree: 33%
 
 ---
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 6月5日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关6月10日Adobe目标咖啡休息会的信息。 |
+| 6月4日 | [A4T 报表](/help/c-integrating-target-with-mac/a4t/reporting.md) | 更新了“Analytics中的报告”部分。 |
 | 6月1日 | [目标公告](/help/r-release-notes/target-announcements.md) | 添加了新页面以宣布即将推出的目标事件。 |
 |  | [适用于响应式体验的移动设备视区](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | 更新了Apple iPhone 11、Apple iPhone SE和Google Pixel 2 XL型号的视区尺寸和分辨率。 |
 | 28 年 5 月 | [报表常见问题解答](/help/c-reports/reporting-frequently-asked-questions.md) | 添加了以下新常见问题解答： <ul><li>如何计算新访客和退回访客指标？</li></ul> |

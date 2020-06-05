@@ -5,9 +5,9 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
+source-git-commit: e499ef3b216ccea67b0d238c3f9f979367b5fdd2
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1008'
 ht-degree: 33%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 6月5日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关6月10日Adobe目标咖啡休息会的信息。 |
+|  | [提升度和置信度 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | 更新了以下常见问题解答的文本： “为什么我看不到计算指标的提升和信心？” |
 | 6月4日 | [A4T 报表](/help/c-integrating-target-with-mac/a4t/reporting.md) | 更新了“Analytics中的报告”部分。 |
 | 6月1日 | [目标公告](/help/r-release-notes/target-announcements.md) | 添加了新页面以宣布即将推出的目标事件。 |
 |  | [适用于响应式体验的移动设备视区](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | 更新了Apple iPhone 11、Apple iPhone SE和Google Pixel 2 XL型号的视区尺寸和分辨率。 |

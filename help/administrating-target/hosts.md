@@ -1,14 +1,14 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: 可组织您的网站和预生产环境，以便轻松管理和分隔报表。
 title: 主机
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 65%
+ht-degree: 57%
 
 ---
 
@@ -27,7 +27,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. 通过主机管理，您在激活测试和开发环境中的新活动和内容之前，还可以轻松地确保这些活动和内容的质量。
 
-[!DNL Target] 并没有对能够发送和接收 mbox 的主机加以限制，因此当有新的服务器或域出现时，它们可以自动运行（除非您设置了白名单或黑名单）。这也让您能够在不了解或不可预测的各种域中进行广告测试。
+[!DNL Target] 不限制可以发送和接收mbox的主机，因此当出现新的服务器或域时，它们会自动工作（除非您设置了allowlist或blocklist）。 这也让您能够在不了解或不可预测的各种域中进行广告测试。
 
 要管理主机，请单击“管 **[!UICONTROL 理]** ”> **[!UICONTROL “主机]**”。
 
@@ -70,11 +70,11 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
+## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
-您可以创建一个白名单来指定有权向 [!DNL Target] 发送 mbox 调用的主机（域）。所有其他生成调用的主机都将收到一个注释掉的授权错误响应。默认情况下，任何包含 mbox 调用的主机都会在生产环境中向 [!DNL Target] 进行注册，它们有权访问所有活跃的已批准活动。如果您不希望如此，可以使用白名单来记录有权执行 mbox 调用并接收 [!DNL Target] 内容的特定主机。所有主机将继续显示在“[!UICONTROL 主机]”列表中，并且环境仍可用来对这些主机进行分组，以及为每个主机分配不同的级别，例如主机是否可以看到活跃和/或不活跃的营销活动。
+You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. 所有其他生成调用的主机都将收到一个注释掉的授权错误响应。默认情况下，任何包含 mbox 调用的主机都会在生产环境中向 [!DNL Target] 进行注册，它们有权访问所有活跃的已批准活动。If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. 所有主机将继续显示在“[!UICONTROL 主机]”列表中，并且环境仍可用来对这些主机进行分组，以及为每个主机分配不同的级别，例如主机是否可以看到活跃和/或不活跃的营销活动。
 
-要创建白名单，请执行以下操作：
+要创建允许列表，请执行以下操作：
 
 1. 在“主机 [!UICONTROL ”列表] ，单击“对主 **[!UICONTROL 机授权”]**。
 1. 启用“为 **[!UICONTROL 内容投放启用授权主机]** ”切换。
@@ -92,9 +92,9 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 
 >[!IMPORTANT]
 >
->**安全最佳实践**: 如果您使用的ubox [!DNL Target]功能，请注意此白名单还将控制重定向器可导航到的 [域的列表](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 确保在将ubox用作实施的一部分时添加要重定向到的任何域。 如果未指定白名单，Adobe将无法验证重定向URL并防止潜在的恶意重定向。
+>**安全最佳实践**: 如果使用的ubox功 [!DNL Target]能，请注意，此allowlist还将控制重定向器可导航 [到的域](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 列表。 确保在将ubox用作实施的一部分时添加要重定向到的任何域。 如果未指定allowlist,Adobe将无法验证重定向URL并防止潜在的恶意重定向。
 >
->白名单的优先级高于环境。在使用白名单功能前，您应当清除所有主机，然后只有白名单允许的主机才会出现在您的主机列表中。然后，您可以将主机移到所需的环境中。
+>allowlist优先于环境。 在使用allowlist功能之前，应清除所有主机，然后只有allowlist允许的主机才会显示在主机列表中。 然后，您可以将主机移到所需的环境中。
 
 有时，您的环境中会显示来自其他网站的域。如果域调用您的at.js或mbox.js，则列表中将显示域。 例如，如果某人将您的一个网页复制到其服务器，那么该域便会显示在您的环境中。您也可以看到来自蜘蛛引擎、语言翻译网站或者本地磁盘驱动器的域名。
 
@@ -104,7 +104,7 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 
 >[!NOTE]
 >
->由于“授权主机”列表同时用于mbox主机和默认重定向主机，因此您必须添加所有已批准使用Adobe目标Javascript SDK(at.js)的现有域 *，以及* ubox默认重定向URL中使用的所有域。 您今后还必须向白名单中添加任何新的类似域。
+>由于“授权主机”列表同时用于mbox主机和默认重定向主机，因此您必须添加所有已批准使用Adobe目标Javascript SDK(at.js)的现有域 *，以及* ubox默认重定向URL中使用的所有域。 以后，您还必须向allowlist中添加任何新的类似域。
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 

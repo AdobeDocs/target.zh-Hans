@@ -5,7 +5,7 @@ title: 以前版本的发行说明
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '29260'
 ht-degree: 92%
@@ -227,7 +227,7 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| 可视化体验编辑器 (VEC) | **新 VEC 菜单选项**：单击 VEC 中的某个页面元素时，相应菜单会显示适用于该元素类型的选项。<ul><li>您现在可以使用[!UICONTROL “样式”>“背景”]选项更改选定元素的背景图像和颜色。(TGT-15001)</li></ul>请参阅[可视化体验选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)中的“样式”&#x200B;部分。<br>**点击跟踪改进&#x200B;**：我们改进了在 VEC 和单页应用程序 (SPA) VEC 中配置点击跟踪的过程。<ul><li>当选择要在点击跟踪中使用的元素时，所有可用元素的名称都会显示在右侧的“修改”面板中，从而允许快速、轻松地选择所需元素。</li><li>三步引导式活动工作流中的“[!UICONTROL 目标和设置]”页面上会显示一个数字，用于指示为点击跟踪选择的元素数量。您可以将鼠标悬停在此数字上，以查看所有选定元素的名称。(TGT-33878)</li></ul>请参阅[点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md)。 |
+| 可视化体验编辑器 (VEC) | **新 VEC 菜单选项**：单击 VEC 中的某个页面元素时，相应菜单会显示适用于该元素类型的选项。<ul><li>您现在可以使用[!UICONTROL “样式”>“背景”]选项更改选定元素的背景图像和颜色。(TGT-15001)</li></ul>请参阅[可视化体验选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)中的“样式”**&#x200B;部分。<br>**点击跟踪改进&#x200B;**：我们改进了在 VEC 和单页应用程序 (SPA) VEC 中配置点击跟踪的过程。<ul><li>当选择要在点击跟踪中使用的元素时，所有可用元素的名称都会显示在右侧的“修改”面板中，从而允许快速、轻松地选择所需元素。</li><li>三步引导式活动工作流中的“[!UICONTROL 目标和设置]”页面上会显示一个数字，用于指示为点击跟踪选择的元素数量。您可以将鼠标悬停在此数字上，以查看所有选定元素的名称。(TGT-33878)</li></ul>请参阅[点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md)。 |
 | 单页应用程序可视化体验编辑器 (SPA VEC) | **引导式工作流**：新的引导式工作流可帮助您了解应如何配置页面交付规则设置，以便为单页应用程序成功执行和运行活动。(TGT-33718)<br> 请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)。<br>**克隆修改&#x200B;**：您现在可以使用 SPA VEC 定义修改，然后克隆该修改，以供在单页应用程序内的其他视图中使用。(TGT-33882)<br>请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md)。 |
 | ![Premium 徽章](/help/assets/premium.png) 自动个性化 (AP) 和自动定位 | **将体验指定为控制**：在创建 AP 或自动定位活动时，您可以选择要用作控制的体验。通过此功能，您可以根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据该体验的控制流量评估个性化流量的性能报表。当前控制选项（随机提供的体验）将继续可用。（TGT-32801、TGT-26572 和 TGT-26571）<br>请参阅[选择用于自动个性化或自动定位活动的控制](/help/c-activities/t-automated-personalization/experience-as-control.md)。请注意，此功能当前存在一个[已知问题](/help/r-release-notes/known-issues-resolved-issues.md)。<br>**个性化分析报表&#x200B;**：当访客在特定位置看到特定内容时，对营销人员友好的属性命名可提供更多有意义的信息。（TGT-33421 和 TGT-34957）<br>请参阅[为 Target 个性化算法收集数据](/help/c-activities/t-automated-personalization/ap-data.md)。 |
 | ![Premium 徽章](/help/assets/premium.png) 推荐 | 在创建“最近查看的项目”逻辑时，您可以使用“推荐以前购买的项目”切换。(TGT-34030)<br>有关更多信息，请参阅“创建标准”中的[最近查看的项目](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)。 |
@@ -281,6 +281,7 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
 
    * 可以删除“图像选件”库中的非空文件夹。如果该文件夹中的所有图像均未在任何活动中引用，则将删除整个文件夹及其内容。如果在任何活动中引用了该文件夹中的某些图像，则将删除所有未引用的图像，但会保留已引用的图像和包含这些图像的文件夹。
    * 位于“图像资产”选取器中的图像选件的渲染速度更快、效率更高。
+
    有关更多信息，请参阅[处理库中的内容](/help/c-experiences/c-manage-content/assets-working.md)。(TGT-32897)
 
 * 我们改进了“资产”选取器中图像选件的呈现方式。现在可以更加快捷、高效地显示和选择图像选件。(TGT-32897)
@@ -462,6 +463,7 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
 
    * 如果在 AAM 中删除受众，则“[!UICONTROL 受众]”列表和受众选择器均会显示警告图标。UI 中的工具提示也会指示受众已在 AAM 中删除。
    * 如果您尝试将多个受众与已删除的受众合并，或者您想保存引用了已删除受众的活动，则会显示一条警告消息。
+
    请参阅[受众简介](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)。
 
 * 修复了在“[!UICONTROL 设置]”页面上选择 Adobe Analytics 作为报告源时，某些情况下用户无法创建活动的问题。即使用户没有选择报表包的选项，他们仍会看到“请选择一个报表包”的消息。(TGT-31968)
@@ -1814,7 +1816,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>增强型可视化体验编辑器 (VEC) </p> </td> 
-   <td colname="col2"> <p>更新了用于增强型可视化体验编辑器 (VEC) 的 IP 地址。 </p> <p>如果您要将用于 VEC 的 IP 地址列入白名单，请添加新的 IP 地址。 </p> <p>有关更多信息，请参阅<a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">可视化体验编辑器故障诊断</a>。 </p> </td> 
+   <td colname="col2"> <p>更新了用于增强型可视化体验编辑器 (VEC) 的 IP 地址。 </p> <p>如果允许列出用于VEC的IP地址，请添加新的IP地址。 </p> <p>有关更多信息，请参阅<a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">可视化体验编辑器故障诊断</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2186,6 +2188,7 @@ Adobe Target Standard/Premium 16.7.1（2016 年 7 月 21 日）版本包括以�
    1. 将 URL 更改为虚拟 URL，然后进行保存。
    1. 再将该虚拟 URL 更改为营销活动的预期重定向 URL。
    1. 选中“包括当前查询参数”选项，然后进行保存。
+
    如果您在创建新的重定向选件时选中此选项，则查询参数应会包含在重定向中。
 
    对于之前的活动，如果在活动的体验编辑器中选中此选项，则意味着重定向中会包含查询参数。如果未选中此选项，则重定向中将不会包含当前的查询参数。

@@ -5,9 +5,9 @@ title: 关于Adobe移动应用程序目标的常见问题
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
+source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Adobe Experience Platform Mobile SDK目前支持iOS、Android和React。 有关�
 
 ## 目标移动是否只是Adobe目标高级产品SKU的功能？
 
-对于Adobe目标标准版客户，您只能将我们的Mobile SDK用于A/B测试和体验定位(XT)活动。 如果要在移动应用程序中使用推荐或人工智能支持的功能，您需要 [Adobe目标](/help/c-intro/intro.md#premium) Premium许可证。
+否. 对 [!DNL Adobe Target Standard] 于客户，您只能将我们的Mobile SDK用于A/B测试和体验定位(XT)活动，并附带 [!DNL Target Standard] 移动应用程序加载项。 如果要在移动应用程序中使用推荐或人工智能支持的功能，您需要 [Adobe目标](/help/c-intro/intro.md#premium) Premium许可证。
 
 ## Adobe Experience Manager(AEM)与目标移动活动之间是否存在移动应用程序集成？
 

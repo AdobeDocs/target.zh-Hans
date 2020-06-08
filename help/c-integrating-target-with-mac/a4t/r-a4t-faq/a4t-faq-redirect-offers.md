@@ -1,11 +1,14 @@
 ---
-keywords: FAQ;常见问题解答;Analytics for Target;A4T;重定向;重定向选件;adobe-mc-sdid;adobe_mc_ref
+keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redirect offer;adobe-mc-sdid;adobe_mc_ref
 description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时使用重定向选件的常见问题解答。
 title: 重定向选件 - A4T 常见问题解答
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 96%
 
 ---
 
@@ -73,7 +76,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 我的 Web 服务器将从我的 URL 中去除这些参数，我应该怎么做？ {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-您需要与 IT 团队协作，将这两个参数（`adobe_mc_sdid` 和 `adobe_mc_ref`）列入白名单。
+You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
 
 ## 如果我没有在重定向活动中使用 A4T，也不想在 URL 中添加这些额外的参数，我应该怎么做？{#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -87,7 +90,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 由于此双重编码过程，访客 API 在尝试对 `adobe_mc_sdid` 值进行解码时，将无法提取 SDID 值，故而会生成一个新的 SDID。这会导致发送到 Target 和 Analytics 的 SDID 值不正确，您也会在 Analytics 报表中看到不均衡的重定向拆分。
 
-为此，我们建议您联系 IT 团队，以确保将 `adobe_mc_ref` 和 `adobe_mc_sdid` 列入白名单，以便这两个参数的值不会发生任何形式的改变。
+We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
 
 ## 为何需要将引荐 URL 传递到新页面？{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 

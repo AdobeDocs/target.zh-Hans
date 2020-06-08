@@ -1,10 +1,13 @@
 ---
-keywords: 定位;可视化体验编辑器;加入白名单;白名单;增强型可视化体验编辑器;VEC;可视化体验编辑器故障诊断;故障诊断;EEC;增强型体验编辑器;TLS;TLS 1.2
+keywords: Targeting;visual experience composer;whitelist;white list;allowlist;allow list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: 有时，在某些情况下，可视化体验编辑器 (VEC) 和增强型体验编辑器 (EEC) 可能会发生显示问题。
 title: 对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +67,7 @@ Target 不支持多级 iframe。如果您的网站加载的 iframe 具有子 ifr
 
 ## 我无法编辑防 iFrame 嵌套网站的体验。（VEC 和 EEC）{#section_9FE266B964314F2EB75604B4D7047200}
 
-启用增强型体验编辑器即可解决此问题。单击&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 首选项]**，然后选中启用增强型体验编辑器的复选框。增强型体验编辑器使用 Adobe 管理的代理来加载页面以进行编辑。这允许在防 iFrame 嵌套的网站，以及尚未添加 Adobe Target 代码的网站和页面上进行编辑。在添加代码之前，活动不会向网站交付内容。有些网站可能无法通过增强型体验编辑器来加载，在这种情况下，您可以取消选中此选项以通过 iFrame 加载可视化体验编辑器。[]
+启用增强型体验编辑器即可解决此问题。单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 首选项]**，然后选中启用增强型体验编辑器的复选框。增强型体验编辑器使用 Adobe 管理的代理来加载页面以进行编辑。这允许在防 iFrame 嵌套的网站，以及尚未添加 Adobe Target 代码的网站和页面上进行编辑。在添加代码之前，活动不会向网站交付内容。有些网站可能无法通过增强型体验编辑器来加载，在这种情况下，您可以取消选中此选项以通过 iFrame 加载可视化体验编辑器。[]
 
 >[!NOTE]
 >
@@ -76,11 +79,11 @@ Target 不支持多级 iframe。如果您的网站加载的 iframe 具有子 ifr
 
 ## 我的页面上不会显示使用“编辑文本/HTML”或“更改文本/HTML”设置的粗体和斜体文本样式。有时，在应用这些样式更改后，文本会消失。（VEC 和 EEC）{#section_7A71D6DF41084C58B34C18701E8774E5}
 
-如果您在可视化体验编辑器中对 A/B 活动或体验定位活动使用&#x200B;**[!UICONTROL 编辑文本/HTML]**，或者对自动个性化活动或多变量测试活动使用&#x200B;**更改文本/HTML]，以使文本变为粗体或斜体，则这些样式可能不会在页面上应用，或者文本会从可视化体验编辑器内的页面中消失。[!UICONTROL **&#x200B;这是因为富文本编辑器应用这些样式的方式可能会影响网站标记。
+如果您在可视化体验编辑器中对 A/B 活动或体验定位活动使用&#x200B;**[!UICONTROL 编辑文本/HTML]**，或者对自动个性化活动或多变量测试活动使用&#x200B;**[!UICONTROL 更改文本/HTML]**，以使文本变为粗体或斜体，则这些样式可能不会在页面上应用，或者文本会从可视化体验编辑器内的页面中消失。这是因为富文本编辑器应用这些样式的方式可能会影响网站标记。
 
 如果您遇到此问题：
 
-1. 单击富文本编辑器中的 **[!UICONTROL HTML]按钮以进入源编辑模式。**
+1. 单击富文本编辑器中的 **[!UICONTROL HTML]** 按钮以进入源编辑模式。
 1. 找到样式文本元素。
 
    * 对于粗体文本，请将 `<strong>` 元素更改为 `<b>`。

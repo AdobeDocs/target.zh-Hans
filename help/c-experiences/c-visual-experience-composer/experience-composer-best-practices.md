@@ -1,11 +1,14 @@
 ---
-keywords: 可视化体验编辑器;可视化体验编辑器最佳实践;可视化体验编辑器限制;可视化体验编辑器注意事项;vec 最佳实践;vec
+keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
 description: 以下最佳实践有助于确保您的体验按预期运行。使用可视化体验编辑器 (VEC) 时，您还应注意其他一些提示和限制。
 title: 可视化体验编辑器最佳实践和限制
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '2446'
+ht-degree: 98%
 
 ---
 
@@ -28,13 +31,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **您可以在帐户级别启用增强型体验编辑器（为该帐户中创建的所有活动启用），也可以在活动级别启用该编辑器。**
 
-要在帐户级别启用“增强型体验编辑器”，请单击[!UICONTROL 设置 &gt; 首选项]，然后将开关切换到“开启”位置。
+要在帐户级别启用“增强型体验编辑器”，请单击[!UICONTROL 设置 > 首选项]，然后将开关切换到“开启”位置。
 
-在“可视化体验编辑器”中创建活动时，要在活动级别启用“增强型体验编辑器”，请单击[!UICONTROL 配置 &gt; URL]，然后将开关切换到“开启”位置。
+在“可视化体验编辑器”中创建活动时，要在活动级别启用“增强型体验编辑器”，请单击[!UICONTROL 配置 > URL]，然后将开关切换到“开启”位置。
 
-**如果增强型可视化体验编辑器无法在您的网站的安全页面上加载，您可以将某些 IP 地址列入白名单。**
+**如果增强的视觉体验书写器无法加载到您站点上的安全页面上，则可以允许列出某些IP地址。**
 
-将以下 IP 地址列入白名单有可能会解决加载增强型可视化体验编辑器时遇到的问题。用作增强型体验编辑器代理的 Adobe 服务器使用这些 IP 地址。仅在编辑活动时才需要这些地址。您网站的访客不需要将这些 IP 地址列入白名单。
+加载增强型视觉体验书写器时出现问题，可通过列出以下IP地址来解决。 用作增强型体验编辑器代理的 Adobe 服务器使用这些 IP 地址。仅在编辑活动时才需要这些地址。访客到您的站点不需要列出这些IP地址。
 
 美国：52.55.99.45、54.80.158.92 和 54.204.197.253
 

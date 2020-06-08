@@ -1,14 +1,14 @@
 ---
-keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: 可组织您的网站和预生产环境，以便轻松管理和分隔报表。
 title: 环境
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -27,7 +27,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. 通过主机管理，您在激活测试和开发环境中的新活动和内容之前，还可以轻松地确保这些活动和内容的质量。
 
-[!DNL Target] 并没有对能够发送和接收 mbox 的主机加以限制，因此当有新的服务器或域出现时，它们可以自动运行（除非您设置了白名单或黑名单）。这也让您能够在不了解或不可预测的各种域中进行广告测试。
+[!DNL Target] 不限制可以发送和接收mbox的主机，因此当出现新的服务器或域时，它们会自动工作（除非您设置了allowlist或blocklist）。 这也让您能够在不了解或不可预测的各种域中进行广告测试。
 
 要管理环境，请单 **[!UICONTROL 击“管理]** ”> **[!UICONTROL 环境]**。
 

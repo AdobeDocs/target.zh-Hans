@@ -5,10 +5,10 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e499ef3b216ccea67b0d238c3f9f979367b5fdd2
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 33%
+source-wordcount: '1040'
+ht-degree: 32%
 
 ---
 
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 6月8日 | [目标移动应用程序常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 更新了以下常见问题解答的文本： “目标移动是否只是Adobe目标高级产品SKU的功能？” |
+|  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 更新了整个主题。 |
 | 6月5日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关6月10日Adobe目标咖啡休息会的信息。 |
 |  | [提升度和置信度 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | 更新了以下常见问题解答的文本： “为什么我看不到计算指标的提升和信心？” |
 | 6月4日 | [A4T 报表](/help/c-integrating-target-with-mac/a4t/reporting.md) | 更新了“Analytics中的报告”部分。 |

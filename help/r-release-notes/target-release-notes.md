@@ -5,7 +5,7 @@ title: Adobe目标预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 68d49d4cdfd76fdea9c1e004adfaf7e6044d22bb
+source-git-commit: 2a8fde3f9011138e4df15d45cdc97595d5ded52e
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 21%
@@ -40,7 +40,7 @@ ht-degree: 21%
 | 功能/增强 | 描述 |
 | --- | --- |
 | Analytics for Target (A4T) 支持自动分配活动 | 在6月的版本中，自动分配测试将支持 [Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。 此集成允许您使用自动分配的多重强盗功能，在使用Adobe Analytics目标指标和／或Adobe Analytics报告和分析功能的同时，推动流量增长以赢得体验。 如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以与A/B测试和体验定位活动配合使用，您就可以了！ |
-| 发布者角色 | 此新角色与当前“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，“发布者”角色对活动活动具有其他权限。 |
+| 发布者角色 | 此新角色与当前“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，“发布者”角色具有激活活动的其他权限。 |
 | 管理<br>页面以前为“设置”。 | “设置”页面已更名为“管理”，并且所有菜单项的UI已更新，以改进工作流程和易用性。<br>可用的菜单项包括：<ul><li>可视化体验编辑器</li><li>报表</li><li>Scene7 设置</li><li>实施</li><li>属性</li><li>主机</li><li>环境</li><li>响应令牌</li><li>用户</li></ul> |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}

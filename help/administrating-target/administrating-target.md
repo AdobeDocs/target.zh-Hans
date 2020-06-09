@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
+source-git-commit: bd95e4bcd3d8e8de5cb231e0632c73a24b36995e
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 44%
@@ -20,7 +20,7 @@ ht-degree: 44%
 
 >[!NOTE]
 >
->下面列出的本部分主题已更新，为您在目标标准版／高级版20.6.1版本（2020年6月10日）即将发布的UI更改中抢先登峰造极。 这些主题中提供的信息适用于当前的UI; 但是，选项可能位于稍有不同的位置。
+>下面列出的本部分主题已更新，为您在目标标准版／高级版20.5.1版本（2020年6月17日）即将发布的UI更改中抢先登峰造极。 这些主题中提供的信息适用于当前的UI; 但是，选项可能位于稍有不同的位置。
 
 To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 

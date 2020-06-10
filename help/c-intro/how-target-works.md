@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 94%
@@ -110,7 +110,7 @@ Adobe Target 解决方案托管在全球范围内 Adobe 自有和 Adobe 租用�
 >
 >[!DNL Adobe Target] 目前在中国没有边缘网络，因此，对于中国的 [!DNL Target] 客户，其最终用户性能将继续受限。Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-如果需要，可以允许列出目标边注释。 有关详细信息，请参 [阅allowlist目标边节点](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)。
+如果需要，可以允许列出目标边注释。 有关详细信息，请参 [阅allowlist目标边节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)。
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

@@ -5,7 +5,7 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 32%
@@ -31,7 +31,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 28 年 5 月 | [报表常见问题解答](/help/c-reports/reporting-frequently-asked-questions.md) | 添加了以下新常见问题解答： <ul><li>如何计算新访客和退回访客指标？</li></ul> |
 | 27 年 5 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关目标分析(A4T)支持自动分配活动的信息。 |
 | 26 年 5 月 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 添加了以下信息： &quot;在禁用脚本后，该参数仍保留在用户档案中。 其用户档案已包含活动受众中使用的参数的用户将符合该活动的条件。” |
-| 21 年 5 月 | [允许列表目标边缘节点](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 已添 `mboxedge30.tt.omtrdc.net` 加到列表。 |
+| 21 年 5 月 | [允许列表目标边缘节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 已添 `mboxedge30.tt.omtrdc.net` 加到列表。 |
 | 20 年 5 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发布的目标标准版／高级版20.6.1（2020年6月10日）的信息。 |
 |  | [主机](/help/administrating-target/hosts.md) | 在“安全最佳实践”部分添加了注释。 |
 | 14 年 5 月 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关用户档案批处理状态API v2更改的信息。 |
@@ -57,7 +57,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 23 年 4 月 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主题。 |
 | 22 年 4 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了新部分： *用户档案批处理状态API v2更改（2020年5月4日）。* |
 | 20 年 4 月 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了新部分： *Adobe目标技能构建器： 开发人员聊天，将Adobe目标的mbox.js迁移到at.js。* |
-| 14 年 4 月 | [允许列表目标边缘主机](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 新主题。 |
+| 14 年 4 月 | [允许列表目标边缘主机](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 新主题。 |
 | 10 年 4 月 | [单页应用程序实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 添加了新部分： “实施最佳实践。” |
 | 7 年 4 月 | [提升度和置信度 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 更新了“为什么我看不到计算指标的提升和信心？”的文本 |
 | 2 年 4 月 | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 添加了有关使用 `user.header('x-forwarded-for')` 较新的AWS边缘来检索用户IP地址的信息。 |

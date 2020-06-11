@@ -5,7 +5,7 @@ title: Adobe目标中的Adobe Experience Manager(AEM)体验片段
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 4e1b4d31ba28e21513d314041add5231c9a3062a
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 22%
@@ -89,7 +89,7 @@ After performing the preceding tasks, the experience fragment displays on the [!
 
 >[!IMPORTANT]
 >
->The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;master&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
+>The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 
 您可以将鼠标悬停在列表中的体验片段上方，然后单 [!UICONTROL 击视图] 图标 ![视图图标](assets/icon_info.png) ，以查看有关体验片段的其他信息，包括其公共优惠投放URL及其 [!DNL AEM] 路径。
 
@@ -106,6 +106,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
    * [!UICONTROL 此项前插入]
    * [!UICONTROL 此项后插入]
    * [!UICONTROL 与体验片段交换]
+
    The [!UICONTROL Experience Fragment] list displays all of the content created in [!DNL AEM] that is now natively available from within [!DNL Target].
 
    >[!NOTE]
@@ -141,7 +142,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 ## 注意事项 {#considerations}
 
 * [!DNL Target]当前， 会每隔 10 分钟查找一次要导入的体验片段。The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
-* The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;master&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
+* The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 * 您可以将JSON优惠作为体验片段导入 [!DNL Target]。 但是，这些优惠将作为HTML优惠导入。 JSON优惠（体验片段）当前在UI中不完全受 [!DNL Target] 支持。
 
 ## Training video: Using AEM experience fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)

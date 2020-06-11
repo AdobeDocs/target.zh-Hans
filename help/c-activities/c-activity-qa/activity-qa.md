@@ -5,10 +5,10 @@ title: 活动 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 87%
 
    由于此双重编码过程，我们尝试对 `at_preview_token` 进行解码时，Target 将无法提取正确的令牌值，从而导致无法正常预览。
 
-   为此，我们建议您联系 IT 团队，以确保将所有预览参数都列入白名单，以便这些值不会发生任何形式的改变。
+   我们建议您与IT团队交谈，以确保允许列出所有预览参数，以便不以任何方式转换这些值。
 
    下表列表了可在域中列出的参数：
 

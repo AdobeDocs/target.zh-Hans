@@ -5,7 +5,7 @@ title: 主机
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 57%
@@ -70,7 +70,7 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
+## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#allowlist}
 
 You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. 所有其他生成调用的主机都将收到一个注释掉的授权错误响应。默认情况下，任何包含 mbox 调用的主机都会在生产环境中向 [!DNL Target] 进行注册，它们有权访问所有活跃的已批准活动。If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. 所有主机将继续显示在“[!UICONTROL 主机]”列表中，并且环境仍可用来对这些主机进行分组，以及为每个主机分配不同的级别，例如主机是否可以看到活跃和/或不活跃的营销活动。
 

@@ -1,14 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数的信息。
 title: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数的信息。
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 63%
+source-wordcount: '1638'
+ht-degree: 42%
 
 ---
 
@@ -23,32 +23,165 @@ ht-degree: 63%
 
 您可以覆盖以下设置：
 
-| 设置 | 类型 | 默认值 | 描述 |
-|--- |--- |--- |--- |
-| serverState | 请参阅下面的“混合个性化”。 | 请参阅下面的“混合个性化”。 | 请参阅下面的“混合个性化”。 |
-| clientCode | 字符串 | 通过 UI 设置的值 | 表示客户端代码 |
-| serverDomain | 字符串 | 通过 UI 设置的值 | 表示 Target 边缘服务器 |
-| cookieDomain | 字符串 | 如果可能的话，设置为顶级域 | 表示保存 Cookie 时使用的域 |
-| crossDomain | 字符串 | 通过 UI 设置的值 | 指示是否启用跨域跟踪。<br>允许的值是：<ul><li>已禁用</li><li>已启用</li><li>仅第三方</li></ul> |
-| timeout | 数值 | 通过 UI 设置的值 | 表示 Target 边缘请求超时 |
-| globalMboxAutoCreate | 布尔值 | 通过 UI 设置的值 | 指示是否应触发全局 mbox 请求 |
-| visitorApiTimeout | 数值 | 2000 毫秒 = 2 秒 | 表示访客 API 请求超时 |
-| enabled | 布尔值 | true | 启用后，将自动执行目标请求以检索体验和DOM操作以呈现体验。 此外，目标调用可通过／手 `getOffer(s)` 动执 `applyOffer(s)`<br>行禁用后，目标请求不会自动或手动执行 |
-| pageLoadEnabled | 布尔值 | true | 启用后，自动检索页面加载时必须返回的体验 |
-| viewsEnabled | 布尔值 | true | 启用后，将自动检索页面加载时必须返回的视图。 视图在at.js 2中受支持。*仅* x |
-| defaultContentHiddenStyle | 字符串 | 可见性：隐藏 | 仅用于封装使用类名为“mboxDefault”且通过 `mboxCreate()`、`mboxUpdate()` 或 `mboxDefine()` 执行的 DIV 的 mbox 以隐藏默认内容 |
-| defaultContentVisibleStyle | 字符串 | 可见性：显示 | 仅用于封装使用类名为“mboxDefault”且通过 `mboxCreate()`、`mboxUpdate()` 或 `mboxDefine()` 执行的 DIV 的 mbox 以显示应用的选件（如果有）或默认内容 |
-| bodyHiddenStyle | 字符串 | body { opacity: 0 } | 仅在 `globalMboxAutocreate === true` 时使用，以尽量减少出现闪烁的情况。<br>有关更多信息，请参阅 [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。 |
-| bodyHidingEnabled | 布尔值 | true | 当使用 `target-global-mbox` 来传递在可视化体验编辑器中创建的选件（也称为可视化选件）时，用于控制闪烁 |
-| imsOrgId | 字符串 | IMS 组织 ID | 表示 IMS 组织 ID |
-| secureOnly | 布尔值 | false | 指示 at.js 应仅使用 HTTPS 还是允许基于页面协议在 HTTP 和 HTTPS 之间切换。 |
-| overrideMboxEdgeServer | 布尔值 | true （从 at.js 版本 1.6.2 开始为 true） | 指示我们是应使用 `<clientCode>.tt.omtrdc.net` 域还是 `mboxedge<clusterNumber>.tt.omtrdc.net` 域。<br>如果此值为 true，`mboxedge<clusterNumber>.tt.omtrdc.net` 域将被保存到 Cookie 中。当前不使用 [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
-| overrideMboxEdgeServerTimeout | 数值 | 1860000 => 31 分钟 | 指示包含 `mboxedge<clusterNumber>.tt.omtrdc.net` 值的 Cookie 生命周期。 |
-| optoutEnabled | 布尔值 | false | 指示 Target 是否应调用访客 API `isOptedOut()` 函数。这是启动设备图形的一部分。 |
-| selectorsPollingTimeout | 数值 | 5000 毫秒 = 5 秒 | 在 at.js 0.9.6 中，Target 引入了这个新设置，它可通过 `targetGlobalSettings` 覆盖。<br>`selectorsPollingTimeout` 表示客户端愿意等待多长时间，让选择器标识的所有元素都显示在页面上。<br>通过可视化体验编辑器 (VEC) 创建的活动具有包含选择器的选件。 |
-| dataProviders | 请参阅下面的“数据提供程序”。 | 请参阅下面的“数据提供程序”。 | 请参阅下面的“数据提供程序”。 |
-| cspScriptNonce | 请参阅下面的“内容安全策略”。 | 请参阅下面的“内容安全策略”。 | 请参阅下面的“内容安全策略”。 |
-| cspStyleNonce | 请参阅下面的“内容安全策略”。 | 请参阅下面的“内容安全策略”。 | 请参阅下面的“内容安全策略”。 |
+### bodyHiddenStyle
+
+* **类型**：字符串
+* **默认值**: body { opacity: 0 }
+* **描述**: 仅在将闪 `globalMboxAutocreate === true` 烁的可能性降至最低时使用。
+
+   有关更多信息，请参阅 [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。
+
+### bodyHidingEnabled
+
+* **类型**: 布尔值
+* **默认值**: 真
+* **描述**: 用于在传送在 `target-global-mbox` Visual Experience Composer中创建的优惠(也称为可视优惠)时控制闪烁。
+
+### clientCode
+
+* **类型**：字符串
+* **默认值**: 通过UI设置的值。
+* **描述**: 表示客户端代码。
+
+### cookieDomain
+
+* **类型**：字符串
+* **默认值**: 如果可能，请设置到顶级域。
+* **描述**: 表示保存Cookie时使用的域。
+
+### crossDomain
+
+* **类型**：字符串
+* **默认值**: 通过UI设置的值。
+* **描述**: 指示是否启用跨域跟踪。 允许的值包括： 禁用、启用或仅x-only。
+
+### cspScriptNonce
+
+* **类型**: 请参 [阅下面的内容安全](#content-security) 策略。
+* **默认值**: 请参 [阅下面的内容安全](#content-security) 策略。
+* **描述**: 请参 [阅下面的内容安全](#content-security) 策略。
+
+### cspStyleNonce
+
+* **类型**: 请参 [阅下面的内容安全](#content-security) 策略。
+* **默认值**: 请参 [阅下面的内容安全](#content-security) 策略。
+* **描述**: 请参 [阅下面的内容安全](#content-security) 策略。
+
+### dataProviders
+
+* **类型**: 请参 [阅下面的](#data-providers) “数据提供者”。
+* **默认值**: 请参 [阅下面的](#data-providers) “数据提供者”。
+* **描述**: 请参 [阅下面的](#data-providers) “数据提供者”。
+
+### defaultContentHiddenStyle
+
+* **类型**：字符串
+* **默认值**: 可见性： 隐藏
+* **描述**: 仅用于包装使用类名为“mboxDefault”的DIV并通过、或隐藏默认 `mboxCreate()`内 `mboxUpdate()`容执 `mboxDefine()` 行的mbox。
+
+### defaultContentVisibleStyle
+
+* **类型**：字符串
+* **默认值**: 可见性： 可见
+* **描述**: 仅用于包装使用类名为“mboxDefault”的DIV并通过、或 `mboxCreate()`显示 `mboxUpdate()`应用的 `mboxDefine()` 优惠（如果有或默认内容）的mbox。
+
+### deviceIdLifetime
+
+* **类型**: 数字
+* **默认值**: 63244800000 ms = 2年
+* **描述**: Cookie中保 `deviceId` 留的时间。
+
+### 已启用
+
+* **类型**: 布尔值
+* **默认值**: 真
+* **描述**: 启用后，将自 [!DNL Target] 动执行检索体验的请求和呈现体验的DOM操作。 此外， [!DNL Target] 可通过／手动执 `getOffer(s)` 行调用 `applyOffer(s)`。
+
+   禁用时 [!DNL Target] ，不自动或手动执行请求。
+
+### globalMboxAutoCreate
+
+* **类型**: 数字
+* **默认值**: 通过UI设置的值。
+* **描述**: 指示是否应触发全局mbox请求。
+
+### imsOrgId
+
+* **类型**: Sting
+* **默认值**: 真
+* **描述**: 表示IMS组织ID。
+
+### optoutEnabled
+
+* **类型**: 布尔值
+* **默认值**: 假
+* **描述**: 指示目标是否应调用访客API `isOptedOut()` 函数。 这是启动设备图形的一部分。
+
+### overrideMboxEdgeServer
+
+* **类型**: 布尔值
+* **默认值**: true（以at.js版本1.6.2开头，为true）
+* **描述**: 指示我们是否应 `<clientCode>.tt.omtrdc.net` 使用域 `mboxedge<clusterNumber>.tt.omtrdc.net` 或域。
+
+   如果此值为 true，`mboxedge<clusterNumber>.tt.omtrdc.net` 域将被保存到 Cookie 中. 当前不使用 [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+
+### overrideMboxEdgeServerTimeout
+
+* **类型**: 数字
+* **默认值**: 1860000 => 31分钟
+* **描述**: 指示包含该值的Cookie生 `mboxedge<clusterNumber>.tt.omtrdc.net` 存期。
+
+### pageLoadEnabled
+
+* **类型**: 布尔值
+* **默认值**: 真
+* **描述**: 启用后，将自动检索页面加载时必须返回的体验。
+
+### secureOnly
+
+* **类型**: 布尔值
+* **默认值**: 假
+* **描述**: 指示at.js应仅使用HTTPS，还是允许根据页面协议在HTTP和HTTPS之间切换。
+
+### selectorsPollingTimeout
+
+* **类型**: 数字
+* **默认值**: 5000 ms = 5 s
+* **描述**: 在at.js 0.9.6中，引 [!DNL Target] 入了可通过覆盖的新设置 `targetGlobalSettings`。
+
+   The `selectorsPollingTimeout` setting represents how long the client is willing to wait for all the elements identified by selectors to appear on the page.
+
+   通过可视化体验编辑器 (VEC) 创建的活动具有包含选择器的选件。
+
+### serverDomain
+
+* **类型**：字符串
+* **默认值**: 通过UI设置的值。
+* **描述**: 表示目标边缘服务器。
+
+### serverState
+
+* **类型**: 请参 [阅以下混合](#server-state) 个性化。
+* **默认值**: 请参 [阅以下混合](#server-state) 个性化。
+* **描述**: 请参 [阅以下混合](#server-state) 个性化。
+
+### timeout
+
+* **类型**: 数字
+* **默认值**: 通过UI设置的值。
+* **描述**: 表示边缘 [!DNL Target] 请求超时。
+
+### viewsEnabled
+
+* **类型**: 布尔值
+* **默认值**: 真
+* **描述**: 启用后，将自动检索页面加载时必须返回的视图。 视图在at.js 2中受支持。*x*。
+
+### visitorApiTimeout
+
+* **类型**: 数字
+* **默认值**: 2000 ms = 2 s
+* **描述**: 表示 [!UICONTROL 访客API] 请求超时。
 
 ## 使用情况 {#section_9AD6FA3690364F7480C872CB55567FB0}
 

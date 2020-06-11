@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 82%
@@ -31,7 +31,7 @@ AdBox 广告和重定向器可用于任何类型的活动。下表比较了 Adbo
 
 ## 安全最佳实践 {#security}
 
-请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列出默认的重定向URL域。 目标使用主机来允许列出要允许重定向的域。 有关详细信息，请参 [阅创建允许列表，它指定有权向主机中的目标发送mbox调用的](/help/administrating-target/hosts.md#whitelist) 主 *机*。
+请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列出默认的重定向URL域。 目标使用主机来允许列出要允许重定向的域。 有关详细信息，请参 [阅创建允许列表，它指定有权向主机中的目标发送mbox调用的](/help/administrating-target/hosts.md#allowlist) 主 *机*。
 
 ## 限制 {#section_38F559DCF1324271926608BCD4AB1227}
 

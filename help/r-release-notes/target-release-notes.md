@@ -5,10 +5,10 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
+source-git-commit: bd39d7b6121eb6ccbfeb49d73a8b57618cc964ef
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 18%
+source-wordcount: '504'
+ht-degree: 17%
 
 ---
 
@@ -41,19 +41,19 @@ at.js库中已进行以 [!DNL Target] 下改进和修复：
 
 ### at.js 1.8.2
 
-* 使用CNAME和边缘覆盖时，at.js 1.*x可能* 会错误地创建服务器域，这会导致请 [!DNL Target] 求失败。 (TNT-35064)
+* 修复了在使用CNAME和边缘覆盖(at.js 1)时的问题。*x可能* 会错误地创建服务器域，这会导致请 [!DNL Target] 求失败。 (TNT-35064)
 
 ### at.js 2.3.1
 
 * 通过targetGlobalSettings `deviceIdLifetime` 使设置可 [覆盖](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 (TNT-36349)
-* 使用CNAME和边缘覆盖时，at.js 2.*x可能* 会错误地创建服务器域，这会导致请 [!DNL Target] 求失败。 (TNT-35065)
-* 使用扩展 [!DNL Target] v2和扩 [!DNL Launch] 展时， [!DNL Adobe Analytics] 延 [!DNL Launch] 迟了 [!DNL Target][!DNL Analytics]`sendBeacon` 呼叫。 (TNT-36407,TNT-35990,TNT-36000)
+* 修复了在使用CNAME和边缘覆盖时，at.js 2的问题。*x可能* 会错误地创建服务器域，这会导致请 [!DNL Target] 求失败。 (TNT-35065)
+* 修复了使用扩展 [!DNL Target] v2和扩 [!DNL Launch] 展时延 [!DNL Adobe Analytics] 迟呼叫的 [!DNL Launch] 问 [!DNL Target][!DNL Analytics]`sendBeacon` 题。 (TNT-36407,TNT-35990,TNT-36000)
 
 ## Target Standard/Premium 20.5.1（2020 年 6 月 17 日） 
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Analytics for Target (A4T) 支持自动分配活动 | 在6月的版本中，自动分配测试将支持 [Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。 此集成允许您使用自动分配的多重强盗功能，在使用Adobe Analytics目标指标和／或Adobe Analytics报告和分析功能的同时，推动流量增长以赢得体验。 如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以与A/B测试和体验定位活动配合使用，您就可以了！ |
+| Analytics for Target (A4T) 支持自动分配活动 | 在6月的版本中，自动分配测试将支持 [Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。 此集成允许您使用自动分配的多重强盗功能，在使用Adobe Analytics目标指标和／或Adobe Analytics报告和分析功能的同时，推动流量增长以赢得体验。 如果您已经实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以便与A/B测试和体验定位活动一起使用，您就可以了！ |
 | 发布者角色 | 此新角色与当前“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，“发布者”角色具有激活活动的其他权限。 |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}

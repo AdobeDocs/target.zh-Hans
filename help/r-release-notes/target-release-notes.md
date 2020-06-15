@@ -5,9 +5,9 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 781a89b68dcf6574522a3be118a1cc1c15a848a8
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '515'
 ht-degree: 17%
 
 ---
@@ -45,7 +45,6 @@ ht-degree: 17%
 
 ### 增强功能、修复和更改
 
-* 在TargetUI中进行了改进，使全局mbox的指定更简单。 (TGT-15280)
 * 修复了导致“访客”度量存储在活动的定义中而不是“UniqueVisitors”的问题。 (TGT-37098)
 * 修复了UI中导 [!DNL Target] 致垂直滚动条在受众页面上无法正 [!UICONTROL 确工作] 的问题。 (TGT-36968)
 

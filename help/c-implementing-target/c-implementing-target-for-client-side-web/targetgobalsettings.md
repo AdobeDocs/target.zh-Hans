@@ -5,10 +5,10 @@ title: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
+source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 42%
+source-wordcount: '1648'
+ht-degree: 41%
 
 ---
 
@@ -91,6 +91,10 @@ ht-degree: 42%
 * **默认值**: 63244800000 ms = 2年
 * **描述**: Cookie中保 `deviceId` 留的时间。
 
+>[!NOTE]
+>
+>在at.js版本2.3.1或更高版本中，deviceIdLifetime设置可覆盖。
+
 ### 已启用
 
 * **类型**: 布尔值
@@ -115,7 +119,7 @@ ht-degree: 42%
 
 * **类型**: 布尔值
 * **默认值**: 假
-* **描述**: 指示目标是否应调用访客API `isOptedOut()` 函数。 这是启动设备图形的一部分。
+* **描述**: 指示Target是否应调用访客API `isOptedOut()` 函数。 这是启动设备图形的一部分。
 
 ### overrideMboxEdgeServer
 
@@ -157,7 +161,7 @@ ht-degree: 42%
 
 * **类型**：字符串
 * **默认值**: 通过UI设置的值。
-* **描述**: 表示目标边缘服务器。
+* **描述**: 表示Target边缘服务器。
 
 ### serverState
 
@@ -316,7 +320,7 @@ var weatherProvider = {
 
 ## Content Security Policy {#content-security}
 
-at.js 2.3.0+支持在应用交付的目标优惠时，对附加到页面DOM的SCRIPT和STYLE标记设置内容安全策略不可用性。
+at.js 2.3.0+支持在应用交付的Target优惠时，对附加到页面DOM的SCRIPT和STYLE标记设置内容安全策略不可用性。
 
 在加载at.js 2.3.0+之前， `targetGlobalSettings.cspScriptNonce` 应在 `targetGlobalSettings.cspStyleNonce` 中并相应地设置SCRIPT和STYLE动作。 请参阅以下示例：
 
@@ -335,22 +339,22 @@ window.targetGlobalSettings = {
 ...
 ```
 
-指定 `cspScriptNonce` 和 `cspStyleNonce` 设置后，at.js 2.3.0+会将这些属性设置为应用目标优惠时附加到DOM的所有SCRIPT和STYLE标签上的nonce属性。
+指定 `cspScriptNonce` 和 `cspStyleNonce` 设置后，at.js 2.3.0+会将这些属性设置为应用Target优惠时附加到DOM的所有SCRIPT和STYLE标签上的nonce属性。
 
 ## 混合个性化 {#server-state}
 
-`serverState` 是at.js v2.2+中提供的设置，在实施目标的混合集成时，可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的投放API或目标SDK来提供体验。 `serverState` 赋予at.js v2.2+直接应用从服务器端获取的内容中获取的体验并作为所服务页面的一部分返回到客户端的能力。
+`serverState` 是at.js v2.2+中提供的设置，在实施Target的混合集成时，可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的投放API或TargetSDK来提供体验。 `serverState` 赋予at.js v2.2+直接应用从服务器端获取的内容中获取的体验并作为所服务页面的一部分返回到客户端的能力。
 
 ### 先决条件
 
 您必须具有混合集成 [!DNL Target]。
 
-* **服务器端**:  必须使用新的 [投放API](https://developers.adobetarget.com/api/delivery-api/) 或 [目标SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
+* **服务器端**:  必须使用新的 [投放API](https://developers.adobetarget.com/api/delivery-api/) 或 [TargetSDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
 * **客户端**: 必须使用 [at.js版本2.2或更高版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
 ### 代码范例
 
-为了更好地了解其工作原理，请参见下面的代码示例，您将在您的服务器上找到这些示例。 代码假定您正在使 [用目标Node.js SDK](https://github.com/adobe/target-nodejs-sdk)。
+为了更好地了解其工作原理，请参见下面的代码示例，您将在您的服务器上找到这些示例。 代码假定您正在使 [用TargetNode.js SDK](https://github.com/adobe/target-nodejs-sdk)。
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -462,7 +466,7 @@ Consider the following when using `serverState`:
    * 在页面加载时执行的VEC创建的活动。
    * 预取的视图。
 
-      如果SPA使用 [!DNL Target] 视图 `triggerView()` ，并且在at.js API中，at.js v2.2会缓存服务器端预取的所有视图的内容，并在通过触发每个视图时立即应用这些内容，同 `triggerView()`样不会向目标发出任何其他内容提取调用。
+      如果SPA使用 [!DNL Target] 视图 `triggerView()` ，并且在at.js API中，at.js v2.2会缓存服务器端预取的所有视图的内容，并在通过触发每个视图时立即应用这些内容，同 `triggerView()`样不会向Target发出任何其他内容提取调用。
 
    * **注意**:  目前，不支持在服务器端检索的mbox `serverState`。
 

@@ -5,9 +5,9 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1079'
 ht-degree: 33%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 6月15日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新了20.5.1 [!DNL Target Standard/Premium] 版本（2020年6月17日）的说明，以包含中有关A4T支持的信息 [!DNL Analysis Workspace]。 |
 | 6月12日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 添加了有关 `deviceIdLifetime` 设置的信息。 |
 |  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关at.js 1.8.2和at.js 2.3.1版本的信息。 |
 | 6月8日 | [目标移动应用程序常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 更新了以下常见问题解答的文本： “目标移动是否只是Adobe Target Premium产品SKU的功能？” |

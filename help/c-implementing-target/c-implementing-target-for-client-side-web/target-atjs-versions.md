@@ -5,7 +5,10 @@ title: at.js 版本详细信息
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+workflow-type: tm+mt
+source-wordcount: '3947'
+ht-degree: 86%
 
 ---
 
@@ -16,15 +19,29 @@ source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 >[!IMPORTANT]
 >
->目标团队支持at.js 1。*x* 与 at.js 2.*x* 之间的映射。请升级到at.js的任一主要版本的最新更新，以确保您运行的是受支持的版本。
+>Target团队支持at.js 1。*x* 与 at.js 2.*x* 之间的映射。请升级到at.js的任一主要版本的最新更新，以确保您运行的是受支持的版本。
 >
->[Adobe Experience Platform Launch是](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) experience Platform Launch的首选升级方法。 扩展开发人员不断为其扩展添加新功能，并经常修复错误。 这些更新将打包到扩展的新版本中，并作为升级在目 [!DNL Launch] 录中提供。 有关详细信息，请参 [阅《Experience](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) Platform Launch用 *户指南》中的“扩展升级”*。
+>[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch是升级at.js的首选方法。 扩展开发人员不断为其扩展添加新功能，并经常修复错误。 这些更新将打包到扩展的新版本中，并作为升级在目 [!DNL Launch] 录中提供。 有关详细信息，请参 [阅《Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 用户指南 *》中的“扩展升级”*。
+
+## at.js 1.8.2（2020年6月15日）
+
+此版本的at.js是维护版本，包括以下修复：
+
+* 修复了在使用CNAME和边缘覆盖(at.js 1)时的问题。*x可能* 会错误地创建服务器域，这会导致请 [!DNL Target] 求失败。 (TNT-35064)
+
+## at.js 2.3.1版本（2020年6月15日）
+
+此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
+
+* 通过targetGlobalSettings `deviceIdLifetime` 使设置可 [覆盖](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 (TNT-36349)
+* 修复了在使用CNAME和边缘覆盖时，at.js 2的问题。*x可能* 会错误地创建服务器域，这会导致请 [!DNL Target] 求失败。 (TNT-35065)
+* 修复了使用扩展 [!DNL Target] v2和扩 [!DNL Launch] 展时延 [!DNL Adobe Analytics] 迟呼叫的 [!DNL Launch] 问 [!DNL Target][!DNL Analytics]`sendBeacon` 题。 (TNT-36407,TNT-35990,TNT-36000)
 
 ## at.js 版本 2.3.0（2020 年 3 月 25 日）
 
 此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
 
-* 支持在应用交付的目标优惠时，将内容安全策略设置为附加到页面DOM的SCRIPT和STYLE标记上的不可用。 客户可以设 `targetGlobalSettings.cspScriptNonce` 置并 `targetGlobalSettings.cspStyleNonce` 使at.js可以在应用的优惠上设置相应的脚本和样式标记不可用。 See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
+* 支持在应用交付的Target优惠时，将内容安全策略设置为附加到页面DOM的SCRIPT和STYLE标记上的不可用。 客户可以设 `targetGlobalSettings.cspScriptNonce` 置并 `targetGlobalSettings.cspStyleNonce` 使at.js可以在已应用的优惠上设置相应的脚本和样式标记不可用。 See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
 * 修复了使用Google Closure编译器编译at.js以部署Google Tag Manager时的问题。
 * 将at.js检查cookie从重命 `check` 名 `at_check` 为，以避免与客户实施发生冲突。
 
@@ -38,21 +55,21 @@ source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 此版本的at.js包含以下增强和修复：
 
-* 修复了在页面元素中不存在Adobe Analytics代码时，单击跟踪不会报告目标(A4T)中的转换的问题。
-* 在网页上同时使用Experience Cloud ID Service(ECID)v4.4和at.js 2.2时，性能得到改进。
+* 修复了在页面元素中不存在Adobe Analytics代码时，单击跟踪不报告AnalyticsTarget(A4T)的转换问题。
+* 在网页上同时使用Experience CloudID服务(ECID)v4.4和at.js 2.2时，性能得到改进。
 * 以前，ECID在at.js获取体验之前发出了两个阻止调用。 这已降低为单个呼叫，这显着提高了性能。
 
    >[!NOTE]
    >
    >将您的ECID Launch Extension升级到v4.4以利用此性能增强。
 
-* at.js版本2.2还提供一个名为的新设置 `serverState`。 当实现目标的混合集成时，此设置可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的投放API或目标SDK来提供体验。 `serverState` 赋予at.js v2.2+直接应用从服务器端获取的内容中获取的体验并作为所服务页面的一部分返回到客户端的能力。 For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js版本2.2还提供一个名为的新设置 `serverState`。 当实现Target的混合集成时，此设置可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的投放API或TargetSDK来提供体验。 `serverState` 赋予at.js v2.2+直接应用从服务器端获取的内容中获取的体验并作为所服务页面的一部分返回到客户端的能力。 For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js版本1.8.0（2019年10月10日）
 
 此版本的at.js包含以下增强和修复：
 
-* 在网页上同时使用Experience Cloud ID Service(ECID)v4.4和at.js 1.8时的性能得到改进。
+* 在网页上同时使用Experience CloudID服务(ECID)v4.4和at.js 1.8时的性能得到改进。
 * 以前，ECID在at.js获取体验之前发出了两个阻止调用。 这已降低为单个呼叫，这显着提高了性能。
 
 >[!NOTE]

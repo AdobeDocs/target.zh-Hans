@@ -5,10 +5,10 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 17%
+source-wordcount: '563'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新时间：2020 年 6 月 12 日**
+**上次更新时间：2020 年 6 月 15 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -53,8 +53,9 @@ at.js库中已进行以 [!DNL Target] 下改进和修复：
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Analytics for Target (A4T) 支持自动分配活动 | 在6月的版本中，自动分配测试将支持 [Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。 此集成允许您使用自动分配的多重强盗功能，在使用Adobe Analytics目标指标和／或Adobe Analytics报告和分析功能的同时，推动流量增长以赢得体验。 如果您已经实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以便与A/B测试和体验定位活动一起使用，您就可以了！ |
+| Analytics for Target (A4T) 支持自动分配活动 | 在6月的版本中，自动分配测试将支持 [Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。 此集成允许您使用自动分配的多重强盗功能，在使用Adobe Analytics目标指标和／或Adobe Analytics报告和分析功能的同时，推动流量增长以赢得体验。 如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以与A/B测试和体验定位活动配合使用，您就可以了！ |
 | 发布者角色 | 此新角色与当前“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，“发布者”角色具有激活活动的其他权限。 |
+| 2020年6月25 [!DNL Analysis Workspace]<br>日支持A4T | [!UICONTROL 现在支持] (A4T)的目标分析 [!DNL Analysis Workspace]。 利 [!UICONTROL 用“目标分析(A4T)”面板] ，您可以 [!DNL Adobe Target] 在中分析活动和体验 [!DNL Analysis Workspace]。<br>有关详细信息，请 [参阅《Analytics工具指南》中的“目标分析(A4T](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) )” *面板*。 |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

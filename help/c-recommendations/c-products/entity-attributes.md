@@ -4,7 +4,10 @@ description: 可使用实体属性，将产品或内容信息传递到 Recommend
 title: 实体属性
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 96b62977729064da624e3b8fc951bbef3f9a36c1
+source-git-commit: 14e0c0bacb8ffb22f0156a1e2c15e4de7717ee39
+workflow-type: tm+mt
+source-wordcount: '1009'
+ht-degree: 94%
 
 ---
 
@@ -183,7 +186,7 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 
 >[!NOTE]
 >
->如果您使用at.js 2。*x*, `mboxCreate` （如以下示例中所示）不再受支持。 使用at.js 2将产品或内容信息传递到Recommendations。*x*，使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。 有关此示例，请参阅计 [划和实施建议](/help/c-recommendations/plan-implement.md)。
+>如果您使用at.js 2。*x*, `mboxCreate` （如以下示例中所示）不再受支持。 使用at.js 2将产品或内容信息传递给Recommendations。*x*，使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。 有关此示例，请参阅计 [划和实施建议](/help/c-recommendations/plan-implement.md)。
 
 >[!NOTE]
 >
@@ -194,35 +197,25 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
  
 mboxCreate('productPage', 
  
-'entity.id= 
-<b>67833</b>', 
+'entity.id=67833', 
  
-'entity.name= 
-<b>GIANTS VS ROCKIES 5/12</b>', 
+'entity.name=GIANTS VS ROCKIES 5/12', 
  
-'entity.categoryId= 
-<b>BASEBALL, GIANTS, SF BAY AREA</b>', 
+'entity.categoryId=BASEBALL, GIANTS, SF BAY AREA', 
  
-'entity.pageUrl= 
-<b>../baseball/giants-tix/giantsvrockies5.12.2000-67833</b>', 
+'entity.pageUrl=../baseball/giants-tix/giantsvrockies5.12.2000-67833', 
  
-'entity.venue= 
-<b>AT&T PARK</b>', 
+'entity.venue=AT&T PARK', 
  
-'entity.secondary= 
-<b>ROCKIES</b>', 
+'entity.secondary=ROCKIES', 
  
-'entity.thumbnailUrl= 
-<b>../baseball/giants-tix/giants-136px.gif</b>', 
+'entity.thumbnailUrl=../baseball/giants-tix/giants-136px.gif', 
  
-'entity.message= 
-<b>FAMILY SPECIAL</b>', 
+'entity.message=FAMILY SPECIAL', 
  
-'entity.value= 
-<b>15.99</b>', 
+'entity.value=15.99', 
  
-'entity.inventory= 
-<b>1</b>' 
+'entity.inventory=1' 
  
 ); 
  

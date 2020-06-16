@@ -6,10 +6,10 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 47%
+source-wordcount: '1257'
+ht-degree: 46%
 
 ---
 
@@ -53,7 +53,7 @@ Every metric is included, including any customer or calculated metrics that are 
 * Only one mbox-based metric is allowed when using [!DNL Analytics] as the reporting source.
 * A server-to-server call from [!DNL Target] to [!DNL Analytics] sends activity and experience information to [!DNL Analytics]. This integration does not result in additional server calls for either [!DNL Target] or [!DNL Analytics].
 
-   在某些情况下，从到的分类调 [!DNL Target] 用可 [!DNL Analytics] 能会失败，活动不在中显示数据 [!DNL Analytics]。 如果发生这种情况，请 [参阅Analytics和目标集成疑难解答(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 您还可以联 [系客户关怀](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) ，获取进一步帮助。
+   在某些情况下，从到的分类调 [!DNL Target] 用可 [!DNL Analytics] 能会失败，活动不在中显示数据 [!DNL Analytics]。 如果出现这种情况，请 [参阅Analytics和Target集成疑难解答(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 您还可以联 [系客户关怀](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) ，获取进一步帮助。
 
 ## Supported activity types {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -62,7 +62,7 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | 活动类型 | 是否兼容 A4T？ | 注释（如果适用） |
 |--- |--- |--- |
 | 使用手动流量拆分的 A/B 活动 | 是 |  |
-| 使用自动分配的 A/B 活动 | 否 |  |
+| 使用自动分配的 A/B 活动 | 是 | 请参 [阅AnalyticsTarget(A4T)支持自动分配活动](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 |
 | 使用自动定位的 A/B 活动 | 否 |  |
 | 体验定位 (XT) | 是 |  |
 | 多变量测试 (MVT) | 是 | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
@@ -111,7 +111,7 @@ Open the [Analytics &amp; Target: Best Practices for Analysis](https://spark.ado
 
 以下视频包含有关本主题中讨论的概念的更多信息。
 
-### 目标分析(A4T)(4:32)概 ![述徽章](/help/assets/overview.png)
+### AnalyticsTarget(A4T)(4:32)概 ![述徽章](/help/assets/overview.png)
 
 This video explains how to use [!DNL Analytics] as a reporting source in [!DNL Target] to drive the analysis of your optimization program.
 
@@ -121,7 +121,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### 分析/目标集成(A4T)(40:33)教 ![程徽章](/help/assets/tutorial.png)
+### Analytics/Target集成(A4T)(40:33)教 ![程徽章](/help/assets/tutorial.png)
 
 此视频是“[办公时间](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 
@@ -130,4 +130,4 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 * 了解要在 Analytics 中使用的理想报表
 * 关于 A4T 的常见问题解答
 
-[分析/目标集成(A4T)办公时间](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Analytics/Target集成(A4T)办公时间](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)

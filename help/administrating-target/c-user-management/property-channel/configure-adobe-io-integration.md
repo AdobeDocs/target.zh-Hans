@@ -1,10 +1,13 @@
 ---
-keywords: 集成;角色;用户权限;Admin Console
+keywords: integration;roles;user permissions;admin console
 description: 有关授予现有 Adobe I/O 集成使用 Adobe Target 中的所需角色访问所有工作区的权限的信息。
 title: 在 Adobe Target 中授予 Adobe I/O 集成访问工作区的权限并分配角色
-subtopic: 入门指南
+subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +38,7 @@ With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterpr
 
 >[!NOTE]
 >
->如果未执行这项操作，则在 [!DNL Target] 2019 年 9 月版发布之后，访问控制将会激活，而且如果您当前设置为仅访问默认工作区，那么您将看到激活后也只能访问默认工作区。预先设置集成不会产生不良影响。越早完成更改越好。根据组织中的工作区数量，此过程只需单击几下即可将现有集成添加到具有所需角色的工作区中。
+>如果未执行这项操作，则在 [!DNL Target] 2019 年 9 月版发布之后，访问控制将会激活，而且如果您当前设置为仅访问默认工作区，那么您将看到激活后也只能访问默认工作区。预先设置集成不会产生不良影响。越早完成更改越好。根据组织中的工作区数量，此过程只需单击几次即可将现有集成添加到具有所需角色的工作区中。
 
 **要授予 Adobe I/O 集成访问工作区的权限并分配角色，请执行以下操作：**
 
@@ -57,7 +60,9 @@ With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterpr
 
 1. 从&#x200B;**[!UICONTROL 产品角色]**&#x200B;下拉列表中，为该工作区选择所需的角色：
 
-   * [!UICONTROL 审批者]
-   * [!UICONTROL 编辑者]
-   * [!UICONTROL 观察者]
-   ![选择产品配置文件角色](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   | 角色 | 描述 |
+   |--- |--- |
+   | 审批者 | 可以创建、编辑，以及激活或停止活动。 |
+   | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
+   | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
+   | 发布者 | 与“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，“发布者”角色具有激活活动的其他权限。 |

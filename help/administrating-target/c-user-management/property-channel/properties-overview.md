@@ -5,10 +5,10 @@ title: 配置企业权限
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 79%
+source-wordcount: '1418'
+ht-degree: 75%
 
 ---
 
@@ -34,7 +34,7 @@ Information about the tasks required to add users to your [!DNL Target] implemen
 
 For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
 
-1. 在Adobe目标中，单击“ **[!UICONTROL 管理]** ”>“ **[!UICONTROL 属性]** ” **[!UICONTROL >“]**&#x200B;将属性分配给工作区”。
+1. 在Adobe Target中，单 **[!UICONTROL 击“管理]** ”>“ **[!UICONTROL 属性]** ” **[!UICONTROL >“]**&#x200B;将属性分配到工作区”。
 
    或
 
@@ -74,6 +74,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
       * 在 [!DNL Admin Console for Enterprise] 中创建新工作区。
       * 将 Target 属性分配到工作区。
+
    您可以使用这些工作区按地区、业务部门、网站区域或通过您选择的任何其他方法，将访问权限划分给不同的团队。用户可以包含在多个工作区中，也可以在每个工作区拥有不同的角色。
 
 1. 按照《企业用户指南》**&#x200B;的[创建和管理产品配置](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)中的说明进行操作。
@@ -172,22 +173,28 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 1. 在 Admin Console 中，单击&#x200B;****&#x200B;产品，然后选择所需产品的名称。
 
-   ![工作区](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
+   ![工作区](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. 单击所需配置文件的名称。
+1. 单击所需用户档案的名称（例如，默认工作区）。
+
+   ![默认工作区](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
+
 1. 单击&#x200B;**[!UICONTROL 用户]**。
 
    [!UICONTROL 用户]选项卡会显示该工作区中的所有用户。
 
-   ![配置用户](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
+   ![配置用户](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. 使用每个用户在“[!UICONTROL 产品角色]”列中的下拉列表为其选择所需的权限角色（审批者、编辑者或观察者）。
+1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+
+   ![产品角色下拉式列表](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | 角色 | 描述 |
    |--- |--- |
-   | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
-   | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
    | 审批者 | 可以创建、编辑，以及激活或停止活动。 |
+   | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
+   | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
+   | 发布者 | 与“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，“发布者”角色具有激活活动的其他权限。 |
 
    有关更多信息，请参阅《企业用户指南》**&#x200B;中的[在 Admin Console 中管理产品权限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
 

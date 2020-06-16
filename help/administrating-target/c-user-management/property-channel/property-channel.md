@@ -5,9 +5,9 @@ title: 企业用户权限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '2899'
+source-wordcount: '2948'
 ht-degree: 85%
 
 ---
@@ -87,9 +87,12 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 角色和权限决定了用户在 [!DNL Target] 实施中创建和管理活动所需的访问权限级别。在 [!DNL Target] 中，角色包括：
 
-* **[!UICONTROL 观察者]**: 可以视图活动，但不能创建或编辑它们。
-* **[!UICONTROL 编辑]**: 可以在活动生效之前创建和编辑活动，但不能批准启动。
-* **[!UICONTROL 审批人]**: 可以创建、编辑、激活或停止活动。
+| 角色 | 描述 |
+|--- |--- |
+| 审批者 | 可以创建、编辑，以及激活或停止活动。 |
+| 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
+| 观察者 | 可以查看活动，但不能创建或编辑活动。 |
+| 发布者 | 与“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，“发布者”角色具有激活活动的其他权限。 |
 
 ### 渠道
 
@@ -115,10 +118,10 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 | 角色 | 描述 |
 |--- |--- |
-| 观察者 | 具有活动的只读访问权限。可以查看活动，但不能创建或编辑活动。 |
-| 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
 | 审批者 | 可以创建、编辑，以及激活或停止活动。 |
-
+| 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
+| 观察者 | 可以查看活动，但不能创建或编辑活动。 |
+| 发布者 | 与“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，“发布者”角色具有激活活动的其他权限。 |
 请注意，每个用户的角色都适用于您帐户中包含 [!DNL Target] 标记的每个页面、属性或网站，如下所示：
 
 ![](assets/permissions_2.png)
@@ -240,6 +243,7 @@ Consider the following when using or configuring properties and permissions in [
    * 使用以下解决方案或方法创建的活动、受众、代码选件、图像选件或任何其他资源不受企业权限模型控制，但将属于默认工作区一部分：Target Classic、Adobe Experience Manager (AEM)、Adobe Mobile Services，以及通过 API 创建的资源。通过 API 创建的资源（包括活动、受众、代码选件和图像选件）。
    * 目前，图像选件（存储在 `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` 下的资产）不受企业权限模型控制。
    * 只有当目标链接或目标页面是包含在活动中的属性的一部分时，clickTracking 和重定向才会正常工作。此外，使用 `targetPageParams()` 函数时，clickTracking 可能无法正常工作。`targetPageParamsAll()` 是推荐的函数。
+
    [!DNL Target]目前， 要求执行跟踪的任何页面上都具有 `at_property` 令牌。如果令牌：(1) 不存在，(2) 在对活动进行设置（在 VEC 内）时未被检测到，或者 (3) 未通过 `targetPageParamsAll()` 函数传递给 clickTracking mbox，则量度不会递增，并将显示为“0”。
 
    这同样适用于使用重定向的活动。目标页面必须具有 `at_property` 令牌，并可在 VEC 内进行设置时被识别。

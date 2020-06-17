@@ -5,10 +5,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 94%
+source-wordcount: '483'
+ht-degree: 85%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 94%
 # Dynamic Media Classic 集成{#scene-settings}
 
 Target 可与 Adobe Dynamic Media Classic（以前为 Scene7）集成以便在内容库中提供数字资产管理 (DAM)。
+
+>[!NOTE]
+>
+>本主题中的信息已更新，可在Target Standard/高级版20.6.1版本（2020年7月）即将发布的UI更改中抢先登峰造极。 本主题中显示的大多数信息适用于当前UI; 但是，选项可能位于稍有不同的位置。
 
 >[!NOTE]
 >
@@ -29,7 +33,7 @@ Target 可与 Adobe Dynamic Media Classic（以前为 Scene7）集成以便在�
 
 请注意，Dynamic Media 中图像的存储 URL 和最终发布 URL 是不同的，任何人“不得”使用图像的存储链接创建选件，否则将无法正常交付。所有人都必须按照帮助文档中的相关说明来使用图像选件功能。
 
-要与Dynamic Media Classic(Scene7)集成，您需要指定以下信息。
+要与Dynamic Media经典(Scene7)集成，您需要指定以下信息。
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Settings]**.
 

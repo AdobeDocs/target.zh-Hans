@@ -5,10 +5,10 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 62a22032f45a7ae6c4d52b4d4170039ac5e5387d
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 17%
+source-wordcount: '561'
+ht-degree: 16%
 
 ---
 
@@ -39,11 +39,11 @@ ht-degree: 17%
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Analytics for Target (A4T) 支持自动分配活动 | 在6月的版本中，自动分配测试将支持 [AnalyticsTarget](/help/c-integrating-target-with-mac/a4t/a4t.md)。 此集成允许您使用自动分配的多重强盗功能，在使用AdobeAnalytics目标指标和／或AdobeAnalytics报告和分析功能的同时，推动流量增长，从而赢得体验。 如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以与A/B测试和体验定位活动配合使用，您就可以了！ |
-| 发布者角色 | 此新角色与当前“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，“发布者”角色具有激活活动的其他权限。 |
-| 2020年6月25 [!DNL Analysis Workspace]<br>日支持A4T | [!UICONTROL 现在支持] (A4T)的Target分析 [!DNL Analysis Workspace]。 通 [!UICONTROL 过Analytics的Target(A4T)面板] ，您可以 [!DNL Adobe Target] 分析活动和体验 [!DNL Analysis Workspace]。<br>有关详细信息，请参 [阅《Analytics工具指南》中的“AnalyticsTarget(A4T](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) )” *面板*。 |
+| Analytics for Target (A4T) 支持 [!UICONTROL 自动分配] 活动 | [!UICONTROL 自动分配活动] 现在支持 [Analytics进行Target](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此集成允许您使用自动 [!UICONTROL 分配] 、多重装备的强盗功能，在使用Adobe [!UICONTROL Analytics目标指标和／或Adobe] Analytics报告和分析功  能的同时，推动流量增长。<br>如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以与A/B测试和体验定位活动配合使用，您就可以了！<br>有关详细信息，请 [参阅AnalyticsTarget(A4T)支持在创建活动时自动分配活动](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) ( *Auto-Allocate)*。 |
+| [!UICONTROL 发布者] 角色 | 此新角色与当前“观察者”角 [!UICONTROL 色类似] (可以视图活动，但不能创建或编辑这些角色)。 但是，发 [!UICONTROL 布者] 角色具有激活活动的其他权限。<br>有关详细信息，请参阅： <ul><li>**Target Standard用户**: [在用户中指定角色](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 和 *权限*。</li><li>**Target高级版用户**: [第6步： 在“配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) ”中 *指定角色和权限*。</li></ul> |
+| 2020年6月25 [!DNL Analysis Workspace]<br>日支持A4T | [!UICONTROL 现在支持] (A4T)的Target分析 [!DNL Analysis Workspace]。 通 [!UICONTROL 过Analytics的Target(A4T)面板] ，您可以 [!DNL Adobe Target] 分析活动和体验 [!DNL Analysis Workspace]。<br>有关详细信息，请参 [阅Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) (A4T *报告)和* Analytics(A4T)面板中的“Reports in [A4T for Savige”(A4T)面板(](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html)**&#x200B;位于Analytics工具指南中)。 |
 
-### 增强功能、修复和更改
+### 增强功能、修复和变更
 
 * 修复了导致“访客”度量存储在活动的定义中而不是“UniqueVisitors”的问题。 (TGT-37098)
 * 修复了UI中导 [!DNL Target] 致垂直滚动条在受众页面上无法正 [!UICONTROL 确工作] 的问题。 (TGT-36968)

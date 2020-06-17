@@ -5,9 +5,9 @@ title: 企业用户权限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '2948'
+source-wordcount: '2996'
 ht-degree: 85%
 
 ---
@@ -243,7 +243,6 @@ Consider the following when using or configuring properties and permissions in [
    * 使用以下解决方案或方法创建的活动、受众、代码选件、图像选件或任何其他资源不受企业权限模型控制，但将属于默认工作区一部分：Target Classic、Adobe Experience Manager (AEM)、Adobe Mobile Services，以及通过 API 创建的资源。通过 API 创建的资源（包括活动、受众、代码选件和图像选件）。
    * 目前，图像选件（存储在 `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` 下的资产）不受企业权限模型控制。
    * 只有当目标链接或目标页面是包含在活动中的属性的一部分时，clickTracking 和重定向才会正常工作。此外，使用 `targetPageParams()` 函数时，clickTracking 可能无法正常工作。`targetPageParamsAll()` 是推荐的函数。
-
    [!DNL Target]目前， 要求执行跟踪的任何页面上都具有 `at_property` 令牌。如果令牌：(1) 不存在，(2) 在对活动进行设置（在 VEC 内）时未被检测到，或者 (3) 未通过 `targetPageParamsAll()` 函数传递给 clickTracking mbox，则量度不会递增，并将显示为“0”。
 
    这同样适用于使用重定向的活动。目标页面必须具有 `at_property` 令牌，并可在 VEC 内进行设置时被识别。
@@ -280,7 +279,11 @@ Consider the following when using or configuring properties and permissions in [
 
 如果重定向页面和活动 URL 属于同一属性，则点击跟踪可按预期工作。有关更多信息，请参阅[点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md)。
 
-## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
+## 培训视频
+
+以下视频包含有关本文中所讨论概念的详细信息。
+
+### Training Video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 学习目标：
 
@@ -289,3 +292,14 @@ Consider the following when using or configuring properties and permissions in [
 * 贵组织需要考虑的不同属性示例
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
+
+### 办公时间： Target高级工作区
+
+此视频是“办公时间”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
+
+* 创建工作区(产品用户档案)
+* 创建属性
+* 添加用户
+* 更新实施
+
+>[!VIDEO](https://video.tv.adobe.com/v/23643/)

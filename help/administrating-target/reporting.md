@@ -1,20 +1,24 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: 通过指定Adobe目标可视体验书写器(VEC)的常规设置、移动视口配置和CSS选择器，配置Adobe Visual Experience Composer(VEC)。
-title: 在Adobe报告中配置目标
+description: 通过指定Adobe Target可视体验书写器(VEC)的常规设置、移动视口配置和CSS选择器，配置该体验书写器。
+title: 在Adobe Target中配置报告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 69%
+source-wordcount: '695'
+ht-degree: 65%
 
 ---
 
 
-# 在目标中配置报告
+# 在Target中配置报告
 
-配置一般设置，以在目标报告中使用，这些设置应用于您的整个 [!DNL Target] 帐户。
+配置一般设置，以在Target报告中使用，这些设置应用于您的整个 [!DNL Target] 帐户。
+
+>[!NOTE]
+>
+>本主题中的信息已更新，可在Target Standard/高级版20.6.1版本（2020年7月）即将发布的UI更改中抢先登峰造极。 本主题中显示的大多数信息适用于当前UI; 但是，选项可能位于稍有不同的位置。
 
 要访问报告 [!UICONTROL 配置] 页，请单击“ **[!UICONTROL 管理]** ” **[!UICONTROL >]报告。**
 
@@ -51,7 +55,7 @@ ht-degree: 69%
 
 指定用于报告的货币。
 
-## 要从目标报告数据中排除的IP
+## 要从Target报告数据中排除的IP
 
 指定要从报告数据中排除的任何IP地址。 例如，排除内部公司地址是确保报告数据反映客户在网站上的互动的好方法。
 

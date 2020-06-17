@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 86b2f0eba5c995967b93b516c224140cc4771420
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 68%
+source-wordcount: '135'
+ht-degree: 43%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 68%
 # 管理 Target{#administer-target}
 
 此信息可帮助您设置 Adobe Target，其中涵盖首选项、实施、用户管理、属性、Scene7 设置、主机管理和响应令牌。
+
+>[!NOTE]
+>
+>下面列出的本部分主题已更新，为您在Target Standard/高级版20.6.1版本（2020年7月）即将发布的UI更改中抢先登峰造极。 这些主题中展示的大多数信息适用于当前的UI; 但是，选项可能位于稍有不同的位置。
 
 To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 

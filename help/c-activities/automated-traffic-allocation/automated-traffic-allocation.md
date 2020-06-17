@@ -5,7 +5,10 @@ title: 自动分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+workflow-type: tm+mt
+source-wordcount: '3026'
+ht-degree: 89%
 
 ---
 
@@ -13,10 +16,6 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 # 自动分配{#auto-allocate}
 
 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
-
->[!IMPORTANT]
->
->自动分配不支持 [!DNL Target for Analytics] (A4T) 报表。
 
 [使用三步引导式工作流创建 A/B 活动](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)时，您可以选择[!UICONTROL 自动分配到最佳体验]选项。
 
@@ -92,10 +91,6 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 
 ## 注意事项 {#section_5C83F89F85C14FD181930AA420435E1D}
 
-**Analytics for Target (A4T) 不再支持自动分配 A/B 活动。**
-
-自 16.10.1.0 版本（2016 年 10 月 25 日版）起，Target 不再支持将 Analytics 作为自动分配 A/B 活动的报表源。任何已启用 A4T 且处于活跃状态的自动分配 A/B 活动都将切换为“手动”模式（同等流量分配）。
-
 **自动分配功能仅适用于一项高级量度设置：“递增计数并保持用户处于活动中”。**
 
 不支持以下高级量度设置：“递增计数、释放用户并允许再次进入”和“递增计数、释放用户并阻止再次进入”。
@@ -131,6 +126,10 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
    例如，“七折促销今天截止”表示访客今天要进行转化，但“首次购买五折优惠”并不会产生这种紧迫感。
 
 ## 常见问题解答 {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+
+**AnalyticsTarget(A4T)是否支持自动分配活动?
+
+是. 有关详细信息，请 [参阅AnalyticsTarget(A4T)支持在创建活动时自动分配活动](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) ( *Auto-Allocate)*。
 
 **是否会自动将旧访客重新分配给高性能体验？**
 
@@ -168,9 +167,9 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 
 **使用自动分配时，我能否使用样本量计算器来估算活动确定入选者将花费的时长？**
 
-You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. （与传统的A/B测试一样，如果测试的是超过两个优惠或超过一个转换指标／假设，则应用Bonferroni校正。）请注意，此计算器设计用于传统的固定水平A/B测试，并且仅提供估计值。 使用“自动分配”活动的计算器是可选的，因为“自动分配”将为您声明一个入选方——您无需及时选取一个固定点来查看测试结果——提供的值在统计上始终有效。 在我们的实验中，我们发现了以下内容：
-* 在仅测试两个体验时，自动分配比固定水平测试（即样本大小计算器建议的时间范围）更快地查找入选方，当体验之间的性能差异较大时，自动分配可能需要额外的时间来识别入选方。 在这些情况下，固定水平测试通常在没有统计显着结果的情况下结束。
-* 在测试两个以上的体验时，自动分配比固定水平测试（即示例大小计算器建议的时间范围）更快地查找入选方，当单个体验严重超出所有其他体验时。 如果两个或两个以上的体验都与其他体验“相得益彰”，但彼此之间又非常匹配，则自动分配可能需要额外的时间来确定哪个体验更出色。 在这些情况下，固定水平测试通常会以“成功”体验比表现不佳的体验好为结束，但并没有确定哪种体验更出色。
+You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (与传统A/B测试一样，如果测试的优惠多于两个或多个转换指标/假设验证，则应用Bonferroni校正。) 请注意，此计算器专为传统的固定水平A/B测试而设计，只提供估计值。 使用“自动分配”活动的计算器是可选的，因为“自动分配”将为您声明入选方——您无需及时选取一个固定点来查看测试结果——提供的值在统计上始终有效。 在我们的实验中，我们发现了以下内容：
+* 在仅测试两个体验时，自动分配在体验之间的性能差异较大时比固定水平测试（即样本大小计算器建议的时间范围）更快地查找入选方，但在体验之间的性能差异较小时可能需要额外时间来确定获胜方。 在这些情况下，固定水平测试通常在没有统计显着结果的情况下结束。
+* 在测试两个以上的体验时，自动分配比固定水平测试（即示例大小计算器建议的时间范围）更快地找到优胜者，因为单个体验的性能严重超出所有其他体验。 如果两个或多个体验都与其他体验“相得益彰”，但彼此密切相关，则自动分配可能需要额外时间来确定哪个体验更优越。 在这些情况下，固定视线测试通常会以“成功”体验优于效果较差的体验而结束，但并没有确定哪个体验更出色。
 
 **我是否应该从自动分配活动中删除性能不佳的体验，以加快确定入选者的过程？**
 
@@ -182,7 +181,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 活动工作流 - 定位 (2:14) 教 ![程徽章](/help/assets/tutorial.png)
+### 活动工作流 - 定位 (2:14) ![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关设置流量分配的信息。
 

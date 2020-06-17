@@ -5,10 +5,10 @@ title: 'Adobe Target 发行说明（当前版本） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 30%
+source-wordcount: '941'
+ht-degree: 31%
 
 ---
 
@@ -33,6 +33,19 @@ ht-degree: 30%
 
 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
+## Target Standard/Premium 20.5.1（2020 年 6 月 17 日） 
+
+| 功能/增强 | 描述 |
+| --- | --- |
+| Analytics for Target (A4T) 支持 [!UICONTROL 自动分配] 活动 | [!UICONTROL 自动分配活动] 现在支持 [Analytics进行Target](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此集成允许您使用自动 [!UICONTROL 分配] 、多重装备的强盗功能，在使用Adobe [!UICONTROL Analytics目标指标和／或Adobe] Analytics报告和分析功  能的同时，推动流量增长。<br>如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以与A/B测试和体验定位活动配合使用，您就可以了！<br>有关详细信息，请 [参阅AnalyticsTarget(A4T)支持在创建活动时自动分配活动](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) ( *Auto-Allocate)*。 |
+| [!UICONTROL 发布者] 角色 | 此新角色与当前“观察者”角 [!UICONTROL 色类似] (可以视图活动，但不能创建或编辑这些角色)。 但是，发 [!UICONTROL 布者] 角色具有激活活动的其他权限。<br>有关详细信息，请参阅： <ul><li>**Target Standard用户**: [在用户中指定角色](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 和 *权限*。</li><li>**Target高级版用户**: [第6步： 在“配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) ”中 *指定角色和权限*。</li></ul> |
+| 2020年6月25 [!DNL Analysis Workspace]<br>日支持A4T | [!UICONTROL 现在支持] (A4T)的Target分析 [!DNL Analysis Workspace]。 通 [!UICONTROL 过Analytics的Target(A4T)面板] ，您可以 [!DNL Adobe Target] 分析活动和体验 [!DNL Analysis Workspace]。<br>有关详细信息，请参 [阅Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) (A4T *报告)和* Analytics(A4T)面板中的“Reports in [A4T for Savige”(A4T)面板(](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html)**&#x200B;位于Analytics工具指南中)。 |
+
+### 增强功能、修复和变更
+
+* 修复了导致“访客”度量存储在活动的定义中而不是“UniqueVisitors”的问题。 (TGT-37098)
+* 修复了UI中导 [!DNL Target] 致垂直滚动条在受众页面上无法正 [!UICONTROL 确工作] 的问题。 (TGT-36968)
+
 ## at.js 1.8.2和at.js 2.3.1版本（2020年6月15日）
 
 at.js库中已进行以 [!DNL Target] 下改进和修复：
@@ -41,91 +54,6 @@ at.js库中已进行以 [!DNL Target] 下改进和修复：
 | --- | --- |
 | at.js 1.8.2 | 此版本的at.js是维护版本，包括以下修复：<ul><li>修复了在使用CNAME和边缘覆盖(at.js 1)时的问题。*x可能* 会错误地创建服务器域，这会导致请 [!DNL Target] 求失败。 (TNT-35064)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 | at.js 2.3.1 | 此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：<ul><li>通过targetGlobalSettings `deviceIdLifetime` 使设置可 [覆盖](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 (TNT-36349)</li><li>修复了在使用CNAME和边缘覆盖时，at.js 2的问题。*x可能* 会错误地创建服务器域，这会导致请 [!DNL Target] 求失败。 (TNT-35065)</li><li>修复了使用扩展 [!DNL Target] v2和扩 [!DNL Launch] 展时延 [!DNL Adobe Analytics] 迟呼叫的 [!DNL Launch] 问 [!DNL Target][!DNL Analytics]`sendBeacon` 题。 (TNT-36407,TNT-35990,TNT-36000)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
-
-## 用户档案批处理状态API v2更改（2020年5月14日）
-
-在5月20日发布后，用户档案批处理状态将仅返回行级故障数据（不返回成功数据）。 未通过的用户档案ID将由API继续返回。
-
-以前和新的API响应如下：
-
-`ProfileBatchStatus Api
-http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
-
-**目前，我们将响应视为：**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>1514187733806-729395</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>1573612762055-214017</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
-
-**5月4日之后，答复将是：**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
-
-## Target Standard/Premium 20.4.1（2020 年 5 月 6 日）
-
-此版本包含以下增强、修复和更改：
-
-* 修复了对受众错误限定设备和浏览器类型的问题。 (TGT-36266)
-* 修复了在963像素以下的屏幕上查看报告数据时无法显示的问题。 (TGT-36549)
-* 修复了导致自动个性化报表无法正确呈现的问题。 (TGT-36619)
-* 修复了允许在使用Analytics进行Target(A4t)的自动分配和自动Target活动中选择不兼容度量的问题。 (TGT-36646)
-* 修复了导致可视体验书写器(VEC)中的某些选项无法正确显示的问题。 (TGT-36571)
-* 修复了TargetUI中的一个问题，该问题导致用户在单个体验中替换内容后，其他推荐优惠预览显示已编辑的内容。 （TGT-36053 和 TGT-36894）
-* 修复了阻止某些用户从Recommendations目录删除项目的问题。 (TGT-36455)
-* 修复了阻止用户在多页面活动中保存推荐条件的问题。 (TGT-36249)
-* 修复了行为数据源单选按钮在连续第二次编辑条件时消失的问题。 (TGT-36796)
-* 修复了导致Recommendations算法显示延长期间的“获取结果”的显示问题。 （TGT-36550 和 TGT-36551）
-* 更新了许多本地化为各种语言的UI字符串。
 
 ## 其他发行说明和版本详细信息
 

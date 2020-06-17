@@ -5,9 +5,9 @@ title: CNAME 和 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e31a4195097d3338e1b07679ab52dfa7f2299017
+source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1233'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,9 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. 确定SSL证书所需的主机名列表（请参阅常见问题解答）。
 
-1. 对于每个主机名，在DNS中创建一个指向常规主机名的CNAME [!DNL Target] 记录 `clientcode.tt.omtrdc.net`。 例如，如果您的客户端代码是客户端代码，而您建议的主机名 `target.example.com`是，则您的DNS CNAME记录应类似于：
+1. 对于每个主机名，在DNS中创建一个指向常规主机名的CNAME [!DNL Target] 记录 `clientcode.tt.omtrdc.net`。
+
+   例如，如果您的客户端代码是“客户”，而您建议的主机名 `target.example.com`是，则您的DNS CNAME记录应类似于：
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
@@ -31,10 +33,10 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    >[!NOTE]
    >
-   >* Adobe的证书颁发机构DigiCert在此步骤完成前无法颁发证书，因此，在此步骤完成之前，Adobe无法完成您对CNAME实施的请求。
+   >* Adobe的证书颁发机构DigiCert在此步骤完成之前无法颁发证书。 因此，在此步骤完成之前，Adobe无法满足您对CNAME实施的请求。
 
 
-1. 在打开请求CNAME支持的Adobe客户 [关怀票证时填写以下表单](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C):
+1. 在打开请求CNAME支持的Adobe客户 [关怀票证时填写以下表单](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
    * Adobe [!DNL Target] client code:
    * SSL证书主机名(示例： `target.example.com target.example.org`):
@@ -48,7 +50,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. 如果Adobe购买证书，Adobe将与DigiCert合作，在Adobe的生产服务器上购买并部署您的证书。
 
-   如果客户购买证书(BYOC),Adobe客户关怀部门会将证书签名请求(CSR)发回，当您通过您选择的证书颁发机构购买证书时，需要使用该请求。 颁发证书后，您需要将证书和任何中间证书的副本发送回Adobe客户关怀部署。
+   如果客户购买证书(BYOC),Adobe客户关怀部门将向您发送证书签名请求(CSR)，当您通过您选择的证书颁发机构购买证书时，您需要使用该请求。 颁发证书后，您必须将证书和任何中间证书的副本发送回Adobe客户关怀部门进行部署。
 
    Adobe客户关怀部门将在您的实施准备就绪后通知您。
 
@@ -90,7 +92,7 @@ ITP问题可以针对仅使用AnalyticsCNAME的Target进行解决。 您仅在�
 
 ### 部署CNAME实施时，我预计会发生何种服务中断？
 
-部署证书（包括证书续订）时不会中断服务。 但是，当您将Target实现代码(`serverDomain` 在at.js)中的主机名更改为新的CNAME主机名(`target.example.com`)时，Web浏览器会将返回的访客视为新访客，并且它们的用户档案数据将丢失，因为以前的Cookie由于浏览器安全模型而无法在旧主机名(`clientcode.tt.omtrdc.net`)下访问。 这只是一次性中断，仅对新CNAME的初始切换进行，证书续订没有相同的效果，因为主机名没有更改。
+部署证书（包括证书续订）时不会中断服务。 但是，当您将实施代码(在at.js [!DNL Target] 中)中的主机名更改为新的CNAME主机名(`serverDomain` )时，Web浏览器会将返回的访客视为新访客，并且其用户档案数据将丢失，因为由于浏览器安全模型，以前的Cookie将无法在旧主机名(`target.example.com``clientcode.tt.omtrdc.net`)下访问。 这只是一次性中断，只针对新CNAME的初始切换。 证书续订没有相同的效果，因为主机名没有更改。
 
 ### 我的CNAME实现将使用哪种密钥类型和证书签名算法？
 

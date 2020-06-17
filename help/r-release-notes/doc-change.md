@@ -5,10 +5,10 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 33%
+source-wordcount: '1199'
+ht-degree: 34%
 
 ---
 
@@ -16,6 +16,16 @@ ht-degree: 33%
 # 文档更改{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.5.1（2020 年 6 月 17 日） 
+
+| 日期 | 主题 | 更改 |
+| --- | --- | --- |
+| 6月17日 | [活动创建](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 添加了有关AnalyticsTarget(A4T)支持自动分配活动的信息。 |
+|  | [用户](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 在“指定角色和权限 [!UICONTROL ”下] ，添 *加了有关新发布者角色的信息*。 |
+|  | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 在第6步中添加了有 [!UICONTROL 关新] “发布者 *”角色的信息： 指定角色和权限*。 |
+|  | [企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md) | 添加了指向Office小 *时的链接： Target高级工作区会话*。 |
+|  | [发行说明](/help/r-release-notes/release-notes.md)：20.5.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe Target Standard/Premium 20.4.1（2020 年 5 月 6 日）
 

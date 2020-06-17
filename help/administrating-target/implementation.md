@@ -5,10 +5,10 @@ title: 实施 Target
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 66%
+source-wordcount: '204'
+ht-degree: 50%
 
 ---
 
@@ -17,9 +17,13 @@ ht-degree: 66%
 
 在开始使用 [!DNL Adobe Target] 之前，您应该在网站上实施该产品，了解一些基本概念和术语，熟悉 [!DNL Target] 的工作原理及其与基础架构集成的方式，并了解 [!DNL Target] 系统如何跟踪访客。
 
-有关详细信息，请参阅实施目标下的 [各个主题](/help/c-implementing-target/implementing-target.md)。
+有关详细信息，请参阅实施Target下的 [各个主题](/help/c-implementing-target/implementing-target.md)。
 
-在“实施”目标中，无需标签管理器，即可找 [到适用于此页面设置的信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。
+在“实施”Target中，无需标签管理器，即可找 [到适用于此页面设置的信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。
+
+>[!NOTE]
+>
+>本主题中的信息已更新，可在Target Standard/高级版20.6.1版本（2020年7月）即将发布的UI更改中抢先登峰造极。 本主题中显示的大多数信息适用于当前UI; 但是，选项可能位于稍有不同的位置。
 
 >[!NOTE]
 >

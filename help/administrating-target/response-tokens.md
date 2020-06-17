@@ -6,17 +6,21 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 92%
+source-wordcount: '1531'
+ht-degree: 89%
 
 ---
 
 
 # 响应令牌{#response-tokens}
 
-响应令牌允许您自动输出特定于 Target 的信息（营销活动详细信息、用户配置文件信息、地域信息等等），以便在调试或与第三方系统（例如 Clicktale）集成时使用
+响应令牌允许您自动输出特定于 Target 的信息（营销活动详细信息、用户配置文件信息、地域信息等等），以便在调试或与第三方系统（例如 Clicktale）集成时使用.
+
+>[!NOTE]
+>
+>本主题中的信息已更新，可在Target Standard/高级版20.6.1版本（2020年7月）即将发布的UI更改中抢先登峰造极。 本主题中显示的大多数信息适用于当前UI; 但是，选项可能位于稍有不同的位置。
 
 响应令牌允许您选择要利用的变量，然后将它们作为 mbox 响应的一部分发送。要实现此操作，您只需通过开关启用一个变量，该变量即会与 mbox 响应一起发送，这可以通过网络调用进行验证。响应令牌也可以在预览模式下工作。
 

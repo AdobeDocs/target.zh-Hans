@@ -5,9 +5,9 @@ title: CNAME 和 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
+source-git-commit: b4b51eabee1b3cac9933ecfc6c94e0de02abb633
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1145'
 ht-degree: 2%
 
 ---
@@ -97,10 +97,6 @@ ITP问题可以针对仅使用AnalyticsCNAME的Target进行解决。 您仅在�
 ### 我的CNAME实现将使用哪种密钥类型和证书签名算法？
 
 默认情况下，所有证书都是RSA SHA-256和密钥是RSA 2048位。 当前不支持大于2048位的密钥大小。
-
-### Adobe/DigiCert是否可以将DCV电子邮件发送到其他电子邮件地址 `<someone>@example.com`?
-
-否，DigiCert（或任何证书颁发机构）将不允许只有域下具有电子邮件地址的任何人授权同一域下的SSL证书，除非该电子邮件地址也包含在域的WHOIS信息或预先确定的地址列表中（见上文）。 这确保只有授权的个人才能批准特定域的DCV。 如果这对您不可行，我们建议使用DNS CNAME DCV方法（请参阅上文）。
 
 ### 如何验证CNAME实施是否已准备好进行流量？
 

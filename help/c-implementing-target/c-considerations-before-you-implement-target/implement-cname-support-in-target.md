@@ -5,9 +5,9 @@ title: CNAME 和 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
+source-git-commit: e31a4195097d3338e1b07679ab52dfa7f2299017
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1252'
 ht-degree: 2%
 
 ---
@@ -21,39 +21,36 @@ Instructions for working with Adobe Client Care to implement CNAME (Canonical Na
 
 Perform the following steps to request CNAME support in [!DNL Target]:
 
-1. Adobe的证书颁发机构(DigiCert)需要验证Adobe是否获得在您的域下生成证书的授权。
+1. 确定SSL证书所需的主机名列表（请参阅常见问题解答）。
 
-   DigiCert调用此 [进程域控制验证(DCV)](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/)，并且在以下至少一种DCV方法完成此进程之前，Adobe将不允许在您的域下生成证书：
-
-   * 最快速的DCV方法是DNS CNAME方法，在该方法中，您将DNS CNAME记录（包含令牌）添加到指向DigiCert的DCV主机名(`dcv.digicert.com`)的域。 此CNAME记录向DigiCert指示Adobe已获得生成证书的授权。 Adobe客户关怀团队将向您发送包含必要DNS记录的说明。 示例：
-
-      ```
-      3b0332e02daabf31651a5a0d81ba830a.target.example.com.  IN  CNAME  dcv.digicert.com.
-      ```
-
-      >[!NOTE]
-      >
-      >* 这些DCV令牌将在30天后过期，此时Adobe客户关怀将与您联系以获取更新的令牌。 为了最快地解决您的CNAME请求，请准备好在提交请求之前对所有请求的域进行这些DNS更改。
-         >
-         >
-      * 如果您的域 [有DNS CAA记录](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)，则必须 `digicert.com` 添加（如果尚未添加）。 此DNS记录指示哪些证书颁发机构已获得授权为域颁发证书。 生成的DNS记录如下所示： `example.com. IN CAA 0 issue "digicert.com"`. 您可以使用 [G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CAA) ，确定根域是否有现有CAA记录。 您可以在此处阅读更多关于DigiCert如何处理CAA记 [录的信息](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check)。
-
-
-   * DigiCert还尝试使用电子邮件方法，在该方法中，它向域的WHOIS信息中找到的地址以及预先确定的电子邮件地址(管理员、管理员、Web站点管理员、主机和邮政主 `@[domain_name]`管)发送电子邮件。 有关详细 [信息，请参阅](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) DCV方法文档。
-
-      为加快DCV电子邮件流程，DigiCert提供以下建议：
-
-      “请确认您的注册/WHOIS提供商未蒙版或删除相关电子邮件地址。 如果是，请查看他们是否提供一种方式（例如匿名电子邮件地址、Web表单），让证书颁发机构访问您域的WHOIS数据。”
-
-1. 在域的DNS上创建指向常规主机名的CNAME记录 `clientcode.tt.omtrdc.net`。 例如，如果您的客户端代码是客户端代码，而您建议的主机名 `target.example.com`是，则您的DNS CNAME记录应类似于：
+1. 对于每个主机名，在DNS中创建一个指向常规主机名的CNAME [!DNL Target] 记录 `clientcode.tt.omtrdc.net`。 例如，如果您的客户端代码是客户端代码，而您建议的主机名 `target.example.com`是，则您的DNS CNAME记录应类似于：
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
    ```
 
-1. 打开Adobe [客户关怀票证，请求CNAME支持](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C) ，进行 [!DNL Target] 呼叫。
+   >[!NOTE]
+   >
+   >* Adobe的证书颁发机构DigiCert在此步骤完成前无法颁发证书，因此，在此步骤完成之前，Adobe无法完成您对CNAME实施的请求。
 
-   Adobe将与DigiCert合作，在Adobe的生产服务器上购买和部署您的证书。 DigiCert将启动DCV过程，Adobe Client Care将在实施准备就绪时通知您。
+
+1. 在打开请求CNAME支持的Adobe客户 [关怀票证时填写以下表单](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C):
+
+   * Adobe [!DNL Target] client code:
+   * SSL证书主机名(示例： `target.example.com target.example.org`):
+   * SSL证书购买者（强烈建议使用Adobe，请参阅常见问题解答）: Adobe/客户
+   * 如果客户正在购买证书（又称BYOC），请填写以下附加详细信息：
+      * 证书组织(示例： 示例公司公司):
+      * 证书组织单位(可选，示例： 营销):
+      * 证书国家／地区(示例： 美国):
+      * 证书状态／区域(示例： 加利福尼亚):
+      * 证书城市(示例： 圣何塞):
+
+1. 如果Adobe购买证书，Adobe将与DigiCert合作，在Adobe的生产服务器上购买并部署您的证书。
+
+   如果客户购买证书(BYOC),Adobe客户关怀部门会将证书签名请求(CSR)发回，当您通过您选择的证书颁发机构购买证书时，需要使用该请求。 颁发证书后，您需要将证书和任何中间证书的副本发送回Adobe客户关怀部署。
+
+   Adobe客户关怀部门将在您的实施准备就绪后通知您。
 
 1. 完成上述任务后，Adobe客户关怀团队已通知您实施已准备就绪，您必须将 `serverDomain` 其更新到at.js中的新CNAME。
 
@@ -61,23 +58,13 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 以下信息回答了有关在中请求和实施CNAME支持的常见问题 [!DNL Target]:
 
-### 我是否可以提供自己的证书（又称自带证书或BYOC）? 如果是，过程是什么？
+### 我是否可以提供自己的证书（又称自带证书或BYOC）?
 
 是的，您可以提供自己的证书； 但是，不建议这样做。 对于Adobe和您来说，在购买和控制证书时，SSL证书生命周期的管理都会非常简单。 SSL证书必须每年续订，这意味着Adobe客户关怀部门必须每年与您联系，以便及时向Adobe发送新证书。 某些客户可能每年都难以及时生成续订的证书，这会危及他们的实施，因为当证书过期 [!DNL Target] 时，浏览器将拒绝连接。
 
 >[!IMPORTANT]
 >
 >请注意，如果您请求 [!DNL Target] 自带证书CNAME实施，您有责任每年为Adobe Client Care提供续订的证书。 如果允许您的CNAME证书在Adobe部署续订的证书之前过期，将导致您的特定实施中 [!DNL Target] 断。
-
-1. 跳过上面的步骤1，但完成步骤2和3。 打开Adobe客户关怀票证（步骤3）时，请告知他们您将提供您自己的证书。
-
-   Adobe将生成并向您发送证书签名请求(CSR)。
-
-1. 使用CSR通过您选择的证书颁发机构(CA)购买证书。
-
-1. 将新公共证书发送到Adobe。 Adobe代表将在其生产服务器上部署公共证书。
-
-1. 在Adobe客户关怀通知您实施已准备就绪后完成步骤4。
 
 ### 新SSL证书到期的时间为多长？
 
@@ -93,13 +80,21 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 否，需 [!DNL Target] 要单独的主机名和证书。
 
-### 我当前的目标实施是否受ITP 2.x影响？
+### 我当前的Target实施是否受ITP 2.x影响？
 
-在Safari浏览器中，导航到您具有目标JavaScript库的网站。 If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.x.
+在Safari浏览器中，导航到您具有TargetJavaScript库的网站。 If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.x.
 
-ITP问题可以通过仅使用Analytics CNAME解决目标。 您仅在广告阻止情况下需要单独的目标CNAME,目标被阻止。
+ITP问题可以针对仅使用AnalyticsCNAME的Target进行解决。 您仅在广告阻止情况下需要单独的TargetCNAME,Target被阻止。
 
 有关ITP的详细信息，请 [参阅Apple Intelligent Tracking Prevention(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。
+
+### 部署CNAME实施时，我预计会发生何种服务中断？
+
+部署证书（包括证书续订）时不会中断服务。 但是，当您将Target实现代码(`serverDomain` 在at.js)中的主机名更改为新的CNAME主机名(`target.example.com`)时，Web浏览器会将返回的访客视为新访客，并且它们的用户档案数据将丢失，因为以前的Cookie由于浏览器安全模型而无法在旧主机名(`clientcode.tt.omtrdc.net`)下访问。 这只是一次性中断，仅对新CNAME的初始切换进行，证书续订没有相同的效果，因为主机名没有更改。
+
+### 我的CNAME实现将使用哪种密钥类型和证书签名算法？
+
+默认情况下，所有证书都是RSA SHA-256和密钥是RSA 2048位。 当前不支持大于2048位的密钥大小。
 
 ### Adobe/DigiCert是否可以将DCV电子邮件发送到其他电子邮件地址 `<someone>@example.com`?
 
@@ -114,7 +109,7 @@ ITP问题可以通过仅使用Analytics CNAME解决目标。 您仅在广告阻�
    ```
    function validateEdgeFpsslSni {
        domain=$1
-       for edge in mboxedge{17,21,22,26,{28..32},34,35,37,38}.tt.omtrdc.net; do
+       for edge in mboxedge{31,32,{34..38}}.tt.omtrdc.net; do
            echo "$edge: $(curl -sSv --connect-to $domain:443:$edge:443 https://$domain 2>&1 | grep subject:)"
        done
    }
@@ -130,17 +125,11 @@ ITP问题可以通过仅使用Analytics CNAME解决目标。 您仅在广告阻�
 
    ```
    $ validateEdgeFpsslSni target.example.com
-   mboxedge17.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge21.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge22.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge26.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge28.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge29.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
-   mboxedge30.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge31.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge32.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge34.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge35.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
+   mboxedge36.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge37.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    mboxedge38.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    ```

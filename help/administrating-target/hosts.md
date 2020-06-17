@@ -5,10 +5,10 @@ title: 主机
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 57%
+source-wordcount: '1279'
+ht-degree: 55%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 57%
 # 主机{#hosts}
 
 可组织您的网站和预生产环境，以便轻松管理和分隔报表。
+
+>[!NOTE]
+>
+>本主题中的信息已更新，可在Target Standard/高级版20.6.1版本（2020年7月）即将发布的UI更改中抢先登峰造极。 本主题中显示的大多数信息适用于当前UI; 但是，选项可能位于稍有不同的位置。
 
 主机管理的主要目标是确保网站上不会意外出现任何不活跃的内容。Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
@@ -104,7 +108,7 @@ You can create an allowlist that specifies hosts (domains) that are authorized t
 
 >[!NOTE]
 >
->由于“授权主机”列表同时用于mbox主机和默认重定向主机，因此您必须添加所有已批准使用Adobe目标Javascript SDK(at.js)的现有域 *，以及* ubox默认重定向URL中使用的所有域。 以后，您还必须向allowlist中添加任何新的类似域。
+>由于“授权主机”列表同时用于mbox主机和默认重定向主机，因此您必须添加所有已批准使用Adobe TargetJavascript SDK(at.js)的现有域 *以及* ubox默认重定向URL中使用的所有域。 以后，您还必须向allowlist中添加任何新的类似域。
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 

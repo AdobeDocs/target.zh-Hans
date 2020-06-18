@@ -5,9 +5,9 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
+source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1222'
 ht-degree: 34%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 6月17日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主题。 |
+|  | [响应令牌](/help/administrating-target/response-tokens.md) | 为自动Target和自动个性化活动的流量分 [!UICONTROL 配方法添加了] 有 [!UICONTROL 关响应令牌的信息] 。 |
 |  | [活动创建](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 添加了有关AnalyticsTarget(A4T)支持自动分配活动的信息。 |
 |  | [用户](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 在“指定角色和权限 [!UICONTROL ”下] ，添 *加了有关新发布者角色的信息*。 |
 |  | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 在第6步中添加了有 [!UICONTROL 关新] “发布者 *”角色的信息： 指定角色和权限*。 |

@@ -1,9 +1,12 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
-description: 有关使用特殊多值运算符在Adobe Target Recommendations中使用多值字段的信息。
-title: 在Adobe Target Recommendations中使用多值属性
+description: 有关在“Adobe Target建议”中使用特殊多值运算符处理多值字段的信息。
+title: 在Adobe Target推荐中使用多值属性
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 0%
 
 ---
 
@@ -12,13 +15,13 @@ source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 有时，您可能希望使用多值字段。 请仔细研究下面的示例：
 
-* 您向用户提供影片。 一部电影有多个演员。
-* 你卖音乐会的票。 给定用户有多个喜爱的栏。
-* 你卖衣服。 T恤有多种尺寸。
+* 您向用户优惠电影。 一部电影有多个演员。
+* 你卖音乐会的票。 给定用户有多个喜欢的栏。
+* 你卖衣服。 衬衫有多种尺寸。
 
-要处理这些场景中的推荐，您可以将多值数据传递给并使 [!DNL Target Recommendations] 用特殊的多值运算符。
+要在这些情况下处理推荐，您可以将多值数据传递给并 [!DNL Target Recommendations] 使用特殊的多值运算符。
 
-要识 [!DNL Recommendations] 别多值数据，应将其作为JSON数组发送，如下面的代码示例所示。
+要识 [!DNL Recommendations] 别多值数据，应将其作为JSON数组发送，如以下代码示例中所示。
 
 ## 在JavaScript中传递多值参数
 
@@ -37,7 +40,7 @@ function targetPageParams() {
 }
 ```
 
-有关详细信息，请参 [阅在自定义实体属性中实](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) 现 *多值属性*。
+有关详细信息，请 [参阅在自定义实体属性中](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) 实 *现多值属性*。
 
 ## 在CSV文件中传递多值实体属性
 
@@ -56,23 +59,23 @@ function targetPageParams() {
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-当根据上述格式将实体属性、配置文件属性或mbox参数提供为多值时， [!DNL Recommendations] 会自动推断字段是多值。
+当根据上述格式将实体属性、用户档案属性或mbox参数提供为多值时，会自 [!DNL Recommendations] 动推断字段是多值。
 
-以下运算符可用于多值实体、配置文件和mbox属性：
+以下运算符可用于多值实体、用户档案和mbox属性：
 
 * [!UICONTROL 包含在列表中]
-* [!UICONTROL 列表中未包含]
+* [!UICONTROL 未包含在列表中]
 
 ## 在包含规则中使用多值属性
 
 >[!NOTE]
 >
->当将单值左侧与多值右侧进行比较时，当使用配置文件属性匹配或参数(mbox)属性匹配规则时，支持动态匹配到多值属性目前仅在标准中可用。 2020年初将提供对促销、实体属性匹配和包含规则左侧列表的支持。
+>当将单值左侧与多值右侧进行比较时，当使用用户档案属性匹配或参数(mbox)属性匹配规则时，支持动态匹配到多值属性目前仅在标准中可用。 促销、实体属性匹配或包含规则左侧的列表当前不支持多值属性。
 
 
-### 示例：排除最近监视的项目
+### 示例： 排除最近监视的项目
 
-假定您希望防止推荐用户最近十部观看的电影中的任何电影。 首先，编写一个名为的配置 `user.lastWatchedMovies` 文件脚本，将最近十个查看的电影作为JSON数组进行跟踪。 然后，您可以使用以下包含规则排除项目：
+假定您希望阻止推荐用户最近十部观看的电影中的任何电影。 首先，编写一个名为的用户档案 `user.lastWatchedMovies` 脚本，将最近10个查看的电影作为JSON数组进行跟踪。 然后，您可以使用以下包含规则排除项目：
 
 ```
 `Profile Attribute Matching`
@@ -92,9 +95,9 @@ function targetPageParams() {
 } 
 ```
 
-### 示例：推荐用户收藏夹中的项目
+### 示例： 推荐用户收藏夹中的项目
 
-假设您希望仅在演奏乐队是用户最喜爱的乐队之一时向音乐会推荐票务。 首先，确保您有一个名为的配置文件变 `profile.favoriteBands` 量，其中包含用户最喜爱的栏。 然后，确保您的目录包含一个属 `entity.artistPerforming` 性，该属性包括演唱会中表演的艺术家。 然后，您可以使用以下包含规则：
+假设您希望仅在乐队演奏是用户最喜爱的乐队之一时向音乐会推荐票。 首先，确保您有一个名为用户档案变 `profile.favoriteBands` 量，它包含用户最喜爱的栏。 然后，确保您的目录包含一个属 `entity.artistPerforming` 性，该属性包括演唱会中表演的艺术家。 然后，您可以使用以下包含规则：
 
 ```
 `Profile Attribute Matching`
@@ -114,9 +117,9 @@ function targetPageParams() {
 }
 ```
 
-### 示例：API创建从用户收藏夹推荐项目的标准
+### 示例： API创建推荐用户收藏夹中的项目的条件
 
-使用多值筛选规则的条件（与所有条件一样）可以通过Adobe I/O API创建。 此处提供了用于创建条件的示例API调用， `id` 其中mbox参数列表中包含 `favorites` 实体属性：
+使用多值筛选规则的条件（与所有条件一样）可以通过Adobe I/O API创建。 用于创建条件的示例API调用，其中mbox参 `id` 数列表中包含实体属 `favorites` 性：
 
 ```
 curl -X POST \

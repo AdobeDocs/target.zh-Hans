@@ -4,17 +4,17 @@ description: 通过指定Adobe Target可视体验书写器(VEC)的常规设置�
 title: 在Adobe Target中配置报告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 65%
+source-wordcount: '713'
+ht-degree: 30%
 
 ---
 
 
 # 在Target中配置报告
 
-配置一般设置，以在Target报告中使用，这些设置应用于您的整个 [!DNL Target] 帐户。
+配置一般设置，以在 [!DNL Adobe Target] 报告中应用于整个 [!DNL Target] 帐户。
 
 >[!NOTE]
 >
@@ -31,21 +31,24 @@ ht-degree: 65%
 * 是否显示报告收入的估计增长
 * 是否启用细粒度优先级
 
+>[!NOTE]
+>
+>请注意，排除设置的时区、货币和IP地址应用于使用活动的 [!DNL Target] 报告。 这些设置不适用于将 [Analytics用作活动源(] /help/c-integrating-target-with-mac/a4t/a4t.md)的报告。
+
 ![报告页](/help/administrating-target/assets/reporting.png)
 
 ## 报告云解决方案
 
 设置相应选项，以确定用于结果和报表的数据。
 
-选择活动的报表源（[!DNL Target] 或 Adobe Analytics）。您也可以选择为每个活动分别选择报表源。
+Select the reporting source for your activities, either [!DNL Target] or [!DNL Adobe Analytics]. 您也可以选择为每个活动分别选择报表源。
 
 选择报表源时，请考虑以下信息：
 
-* 无论选择何种报表源，都允许执行以下操作：[!UICONTROL 自动分配]、[!UICONTROL 自动定位]和[!UICONTROL 自动个性化] (AP) 活动创建、激活和停用。当您选择[将 Adobe Analytics 作为 Adobe Target (A4T) 的报表源](/help/c-integrating-target-with-mac/a4t/a4t.md)时，这些活动类型不受支持。即使您将 Analytics 指定为报表源，[!DNL Target] 也会用作这些活动类型的报表源。
-* 如果将此处的报表源设置为“Analytics”，则将不允许激活使用 [!DNL Target] 作为报表源的活动（将每个活动的报表源指定为 Target）。您必须在活动中将报表源更改为“Analytics”，或在“设置”>“首选项”中将报表引擎更改为“为每个活动选择”。
-* 如果将此处的报表来源设置为“[!DNL Target]”，则将不允许激活使用“Analytics”作为报表源的活动。您必须在活动中将报表源更改为“[!DNL Target]”，或在“设置”>“首选项”中将报表源更改为“为每个活动选择”。
-* 如果将此处的报表源设置为“为每个活动选择”，则可以创建、激活和停用所选报表源支持的活动。有关受支持活动的矩阵，请参阅[](/help/c-integrating-target-with-mac/a4t/a4t.md)将 Adobe Analytic 作为 Adobe Target (A4T) 的报表源。
-* 当您从 A/B 手动切换到[!UICONTROL 自动分配]或[!UICONTROL 自动定位]时，如果[!UICONTROL 自动分配]或[!UICONTROL 自动定位]活动中不支持 A/B 手动活动的报表源，则所有量度和报表受众都将会丢失。
+* 如果将此处的报表来源设置为“**[!DNL Target]**”，则将不允许激活使用“”作为报表源的活动。[!DNL Analytics]You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
+* If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to[!DNL Analytics]in your activity or change the reporting engine to**[!UICONTROL Select per activity ]**in**[!UICONTROL Administration]>[!UICONTROL Reporting ]**.
+* If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* [!UICONTROL 无论选择的活动源] ，都允许自动个性化(AP)报告创建、激活和取消激活。 Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
 
 ## 报告时区
 
@@ -65,7 +68,7 @@ ht-degree: 65%
 
 如果为目标输入货币值，则可以选择显示预计的收入提升。 [!DNL Target] 可以估计在所有用户都查看成功体验时将获得的收入提升。默认情况下，预计提升功能处于禁用状态。
 
-只有 Experience Cloud 管理员用户可以启用或禁用此功能。如果禁用预计提升，则界面中不会显示相应的字段。禁用此功能不会导致数据丢失，包括用于估算的数据。无论是否启用了此功能，都会根据所收集的数据进行估算。
+Only [!DNL Experience Cloud] Admin users can enable or disable this feature. 如果禁用预计提升，则界面中不会显示相应的字段。禁用此功能不会导致数据丢失，包括用于估算的数据。无论是否启用了此功能，都会根据所收集的数据进行估算。
 
 有关详细信息，请参阅[预计收入提升](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)。
 

@@ -5,10 +5,10 @@ title: 环境
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 61%
+source-wordcount: '702'
+ht-degree: 63%
 
 ---
 
@@ -21,17 +21,11 @@ ht-degree: 61%
 >
 >本主题中的信息已更新，可在Target Standard/高级版20.6.1版本（2020年7月）即将发布的UI更改中抢先登峰造极。 本主题中显示的大多数信息适用于当前UI; 但是，选项可能位于稍有不同的位置。
 
-主机管理的主要目标是确保网站上不会意外出现任何不活跃的内容。通过主机管理，您还可以按环境分隔报表数据。
-
-A [host](/help/administrating-target/hosts.md) is any web server (or web domain) from where you serve content during any stage of your project. 提供 mbox 的任何主机都可被识别。
-
 为方便管理，可将多个主机捆绑在一起并将其放置到环境中。例如，您可以将数十个主机分组到两个或三个环境中。The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. 您可以根据需要添加新环境，以及对环境进行重命名。
 
 One environment, the default environment, is pre-named [!UICONTROL Production]. 此默认环境无法删除，即使您将其重命名也是如此。[!DNL Target] 将此环境视为您将在其中提供批准的最终活动和测试的位置。
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. 通过主机管理，您在激活测试和开发环境中的新活动和内容之前，还可以轻松地确保这些活动和内容的质量。
-
-[!DNL Target] 不限制可以发送和接收mbox的主机，因此当出现新的服务器或域时，它们会自动工作（除非您设置了allowlist或blocklist）。 这也让您能够在不了解或不可预测的各种域中进行广告测试。
 
 要管理环境，请单 **[!UICONTROL 击“管理]** ”> **[!UICONTROL 环境]**。
 
@@ -60,8 +54,7 @@ If you use [!UICONTROL Production] as your default, all unknown hosts automatica
 
 ## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. From the [!UICONTROL Environment] list, click the **[!UICONTROL Environments]** tab.
-1. Click the **[!UICONTROL Edit]** icon.
+1. 在环境  列表中，单 **[!UICONTROL 击编辑]** 图标。
 1. 更改环境名称。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 

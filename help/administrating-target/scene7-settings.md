@@ -5,17 +5,17 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 85%
+source-wordcount: '429'
+ht-degree: 22%
 
 ---
 
 
-# Dynamic Media Classic 集成{#scene-settings}
+# Scene7配置 {#scene-settings}
 
-Target 可与 Adobe Dynamic Media Classic（以前为 Scene7）集成以便在内容库中提供数字资产管理 (DAM)。
+Target can be integrated with [!DNL Adobe Dynamic Media Classic] (formerly [!DNL Scene7]) to provide Digital Asset Management (DAM) in the Content Library.
 
 >[!NOTE]
 >
@@ -23,30 +23,30 @@ Target 可与 Adobe Dynamic Media Classic（以前为 Scene7）集成以便在�
 
 >[!NOTE]
 >
->将 Target 与 Dynamic Media Classic 集成后，可以交付已上传到 Adobe Experience Cloud 资产文件夹的资产（作为活动的一部分交付）。但是，配置此集成后，并不能访问 Dynamic Media Classic 中已上传的所有资产以在 Target 活动中进行交付。
+>Integrating [!DNL Target] with [!DNL Dynamic Media Classic] enables delivery of assets (as part of activities) uploaded to the [!DNL Adobe Experience Cloud] assets folder. This integration does not enable access to all assets uploaded in [!DNL Dynamic Media Classic] for delivery in [!DNL Target] activities.
 
-如果您已经拥有 Dynamic Media 帐户，则可以提供现有凭据。如果您还没有帐户，则可以向 Adobe 代表请求获取使用受限的 Dynamic Media Classic 帐户，而不需要支付额外费用。可以使用此帐户在 Target 中执行一些限定的操作。当客户的工作流需要使用图像交换功能时，他们可以使用此服务。
+If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials. If you do not have an account, you can request a restricted-use [!DNL Dynamic Media Classic] account at no additional charge from your [!DNL Adobe] representative. This account can be used for purposes restricted for use in [!DNL Target] only. 当客户的工作流需要使用图像交换功能时，他们可以使用此服务。
 
-如果未配置此设置，活动创建工作流中的“交换图像”选件选项将不可用。配置此设置后，交换/更改图像选件的选项在[可视化体验编辑器 (VEC) 和基于表单的体验编辑器](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中均可用。随后，您可以使用图像选件，其中包含从 Adobe Experience Cloud 上传的以供在 Target 活动中使用的图像。
+If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. 配置此设置后，在可视体验书写器(VEC)和基于表单的体验书写器 [中都可以使用交换／更改图像优惠的选项](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。 You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 
-在活动创建过程中，如果您想要在选件或自定义代码中直接引用公共图像 URL，则应当将图像部署到您自己的 Web 服务器并在代码中使用您自己的 URL。无法获取已上传到 Experience Cloud 的图像的已发布 URL，以将其直接用在使用 Adobe Target 的定位工作流中或这些工作流之外。按照合同规定，不允许使用此功能。
+在活动创建过程中，如果您想要在选件或自定义代码中直接引用公共图像 URL，则应当将图像部署到您自己的 Web 服务器并在代码中使用您自己的 URL。There is no way to obtain the published URL of an image uploaded into the [!DNL Experience Cloud] to consume directly or outside of targeting workflows using [!DNL Target]. 按照合同规定，不允许使用此功能。
 
-请注意，Dynamic Media 中图像的存储 URL 和最终发布 URL 是不同的，任何人“不得”使用图像的存储链接创建选件，否则将无法正常交付。所有人都必须按照帮助文档中的相关说明来使用图像选件功能。
+Note that the storage URL and the final publish URLs of images from [!DNL Dynamic Media] are different and one must *NOT* create offers using the storage link of images as delivery will not work in such cases. 您必须使用图像优惠功能，如我们的帮助文档中所述。
 
-要与Dynamic Media经典(Scene7)集成，您需要指定以下信息。
+To integrate with [!DNL Dynamic Media Classic] ([!DNL Scene7]), you need to specify the following information.
 
-1. Click **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Settings]**.
+1. 单击 **[!UICONTROL “管理]** ” **[!UICONTROL >“Scene7配置”]**。
 
    ![Scene7页面](/help/administrating-target/assets/scene7.png)
 
-1. 指定以下 Dynamic Media Classic 帐户信息：
+1. Specify the following [!DNL Dynamic Media Classic] account information:
 
-   **地区：**&#x200B;您的 Dynamic Media 帐户所在的地区：北美洲、欧洲或亚洲。
+   **地区：**[!DNL Dynamic Media]您的 帐户所在的地区：北美洲、欧洲或亚洲。
 
-   **临时文件夹：**&#x200B;位于 Target 文件夹以外且手动上传到 Dynamic Media 的内容所在的位置。
+   **临时文件夹：** 驻留在目标文件夹外并手动上传到的内容的位置 [!DNL Dynamic Media]。
 
-   **电子邮件地址：**&#x200B;用于登录到 Dynamic Media Classic (Scene7) 的电子邮件地址。
+   **电子邮件地址：** 用于登录()的电子邮 [!DNL Dynamic Media Classic] 件地[!DNL Scene7]址。
 
-   **密码：**&#x200B;用于登录到 Dynamic Media Classic (Scene7) 的密码。
+   **密码：** 用于登录()的 [!DNL Dynamic Media Classic] 口[!DNL Scene7]令。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**。

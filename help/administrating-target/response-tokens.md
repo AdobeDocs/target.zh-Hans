@@ -6,23 +6,23 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 87%
+source-wordcount: '1571'
+ht-degree: 85%
 
 ---
 
 
 # 响应令牌{#response-tokens}
 
-响应令牌允许您自动输出特定于 Target 的信息（营销活动详细信息、用户配置文件信息、地域信息等等），以便在调试或与第三方系统（例如 Clicktale）集成时使用.
+Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
 
 >[!NOTE]
 >
 >本主题中的信息已更新，可在Target Standard/高级版20.6.1版本（2020年7月）即将发布的UI更改中抢先登峰造极。 本主题中显示的大多数信息适用于当前UI; 但是，选项可能位于稍有不同的位置。
 
-响应令牌允许您选择要利用的变量，然后将它们作为 mbox 响应的一部分发送。要实现此操作，您只需通过开关启用一个变量，该变量即会与 mbox 响应一起发送，这可以通过网络调用进行验证。响应令牌也可以在预览模式下工作。
+响应令牌允许您选择要利用的变量，然后将它们作为 mbox 响应的一部分发送。要实现此操作，您只需通过开关启用一个变量，该变量即会与 mbox 响应一起发送，这可以通过网络调用进行验证。Response tokens work in [!UICONTROL Preview] mode as well.
 
 插件和响应令牌之间的一个主要区别是，插件将 JavaScript 交付到页面时就会在交付时立即执行，而响应令牌交付的是一个对象，可以在交付之后使用事件监听程序读取该对象并对其执行操作。有关更多信息，请参阅 [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)和下文的示例。使用响应令牌更安全，且能够更轻松地开发和维护第三方集成。
 

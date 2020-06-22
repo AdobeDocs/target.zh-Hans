@@ -5,10 +5,10 @@ title: 主机
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 55%
+source-wordcount: '1127'
+ht-degree: 54%
 
 ---
 
@@ -24,12 +24,6 @@ ht-degree: 55%
 主机管理的主要目标是确保网站上不会意外出现任何不活跃的内容。Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
 主机是指在项目的任何阶段都可以提供内容服务的任意 Web 服务器（或 Web 域）。提供 mbox 的任何主机都可被识别。
-
-为方便管理，可将多个主机捆绑在一起并将其放置到环境中。例如，您可以将数十个主机分组到两个或三个环境中。The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. 您可以根据需要添加新环境，以及对环境进行重命名。
-
-One environment, the default environment, is pre-named [!UICONTROL Production]. 此默认环境无法删除，即使您将其重命名也是如此。[!DNL Target] 将此环境视为您将在其中提供批准的最终活动和测试的位置。
-
-When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. 通过主机管理，您在激活测试和开发环境中的新活动和内容之前，还可以轻松地确保这些活动和内容的质量。
 
 [!DNL Target] 不限制可以发送和接收mbox的主机，因此当出现新的服务器或域时，它们会自动工作（除非您设置了allowlist或blocklist）。 这也让您能够在不了解或不可预测的各种域中进行广告测试。
 
@@ -62,7 +56,7 @@ When an mbox request is received from new websites or domains, these new domains
 
    By default, a newly recognized host is placed in the [!UICONTROL Production] environment. 这是最安全的环境，因为该环境不允许从这些主机中查看不活跃的活动。
 
-1. （视情况而定）单击移动图 ![标](/help/administrating-target/assets/icon-move.png) （移动图标），将主机移 [!UICONTROL 入开发]、暂 [!UICONTROL 存]或其他环境。
+1. （视情况而定）单 **[!UICONTROL 击]** “移动”图 ![标(移动图标](/help/administrating-target/assets/icon-move.png) )，将主机移入“开发 [!UICONTROL ”、“暂]存”或其他环境。
 
 >[!NOTE]
 >
@@ -122,8 +116,6 @@ You can create an allowlist that specifies hosts (domains) that are authorized t
 >如果任何人浏览到该主机上启用了 mbox 的页面，则会再次列出该主机。
 
 ## 主机故障诊断 {#concept_B3D7583FA4BB480382CC7453529FE1B7}
-
-在 [!DNL Adobe Target] 中管理主机并对其进行故障诊断的最佳实践。
 
 如果遇到主机方面的问题，请尝试使用以下故障诊断提示解决问题：
 

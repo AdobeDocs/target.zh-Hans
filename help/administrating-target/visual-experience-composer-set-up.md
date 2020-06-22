@@ -1,13 +1,13 @@
 ---
 keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
-description: 通过指定Adobe目标可视体验书写器(VEC)的常规设置、移动视口配置和CSS选择器，配置Adobe Visual Experience Composer(VEC)。
-title: 配置Adobe目标视觉体验书写器
+description: 通过指定Adobe Target可视体验书写器(VEC)的常规设置、移动视口配置和CSS选择器，配置该体验书写器。
+title: 配置Adobe Target视觉体验书写器
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 57%
+source-wordcount: '686'
+ht-degree: 52%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 57%
 # 配置可视体验书写器
 
 通过指 [!DNL Adobe Target] 定可视 [!UICONTROL 体验书写器] (VEC)的常规设置、移动视口配置和CSS选择器来配置它。
+
+>[!NOTE]
+>
+>下面列出的本部分主题已更新，为您在20.6.1版本（2020年7月）即将发布的UI更改中 [!DNL Target Standard/Premium] 抢先登峰造极。 这些主题中展示的大多数信息适用于当前的UI; 但是，选项可能位于稍有不同的位置。
 
 要访问Visual Experience Composer [!UICONTROL 配置页] ，请单击“ **[!UICONTROL 管理]** ” **[!UICONTROL >“]Visual Experience Composer”。**
 
@@ -38,15 +42,15 @@ ht-degree: 57%
 
 ### 启用增强型体验编辑器
 
-允许在防 iFrame 嵌套网站和具有混合内容的网站上进行编辑。某些站点可能与增强版本不兼容。 取消选中此选项可还原到原始的视觉体验书写器。 所做的这一选择不会对网站上的活动交付造成任何影响。
+允许在防 iFrame 嵌套网站和具有混合内容的网站上进行编辑。某些站点可能与增强版本不兼容。 Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. 所做的这一选择不会对网站上的活动交付造成任何影响。
 
 有关更多信息，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
-您还可以在活动级别启用增强体验书写器。
+You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
 
 ### 加载混合内容
 
-在使用增强型体验编辑器 (EEC) 打开网站时启用混合内容。Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
 
 例如，如果：
 

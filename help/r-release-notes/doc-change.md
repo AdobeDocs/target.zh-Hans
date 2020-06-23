@@ -5,10 +5,10 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
+source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 34%
+source-wordcount: '1260'
+ht-degree: 33%
 
 ---
 
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 6月23日 | [Target公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关6月24日Adobe Target咖啡休息日的信息。 |
+|  | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 添加了注意事项，不建议创建使用另一个用户档案脚本中一个用户档案脚本的结果的从属用户档案脚本。 |
 | 6月17日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主题。 |
 |  | [响应令牌](/help/administrating-target/response-tokens.md) | 为自动Target和自动个性化活动的流量分 [!UICONTROL 配方法添加了] 有 [!UICONTROL 关响应令牌的信息] 。 |
 |  | [活动创建](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 添加了有关AnalyticsTarget(A4T)支持自动分配活动的信息。 |

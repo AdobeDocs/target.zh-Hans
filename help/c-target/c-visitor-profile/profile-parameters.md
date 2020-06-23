@@ -5,10 +5,10 @@ title: Adobe Target 中的配置文件属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2d4dd143056218c2f67f0641c15059cd078111b
+source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 80%
+source-wordcount: '2442'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 80%
 
 配置文件属性是特定于访客的参数。这些属性存储在访客的配置文件中，提供了可在您的活动中使用的关于访客的信息。
 
-用户用户档案包含网页访客的人口统计和行为信息，如年龄、性别、所购产品、上次访问时间等，目标使用这些信息来个性化其为访客提供的内容。
+用户用户档案包含网页访客的人口统计和行为信息，如年龄、性别、所购产品、上次访问时间等，Target使用这些信息来个性化其为访客提供的内容。
 
 当访客浏览您的网站时，或当访客返回其他会话时，用户档案中保存的用户档案属性可用于目标内容或日志信息以进行细分筛选。
 
@@ -80,6 +80,7 @@ if (mbox.name == 'Track_Interest') {
 * 有关更多的 JavaScript 语法，请参阅下文中的“脚本配置文件参数的 JavaScript 引用”部分。
 * 在禁用脚本后，该参数将保留在用户档案中。 其用户档案已包含活动受众中使用的参数的用户将符合该活动的条件。
 * 用户档案脚本在活动中使用时无法删除。
+* 不建议创建使用另一个用户档案脚本中一个用户档案脚本的结果的从属用户档案脚本。 不保证用户档案脚本的执行顺序。
 
 ## 查看配置文件脚本信息卡片 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
@@ -141,7 +142,7 @@ if (mbox.name == 'Track_Interest') {
    * 尽量缩小用户档案脚本并简化脚本。
    * 避免使用常规表达式，或仅使用非常简单的常规表达式。 即使是简单的表达式也可以接受许多说明进行评估。
    * 避免递归。
-   * 用户档案脚本应经过性能测试，然后才能添加到目标。 所有用户档案脚本在每个mbox请求上执行。 如果用户档案脚本未正确执行，则执行mbox请求需要更长的时间。 这可能会影响流量和转化率。
+   * 用户档案脚本应经过性能测试，然后才能添加到Target。 所有用户档案脚本在每个mbox请求上执行。 如果用户档案脚本未正确执行，则执行mbox请求需要更长的时间。 这可能会影响流量和转化率。
    * 如果用户档案脚本过于复杂，请考虑改 [用响应令](/help/administrating-target/response-tokens.md) 牌。
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).

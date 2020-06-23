@@ -5,10 +5,10 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 058828bbf3f13704d9e941563b7dab5259be6809
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 14%
+source-wordcount: '545'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新时间：2020 年 6 月 17 日**
+**上次更新时间：2020 年 6 月 23 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -35,19 +35,45 @@ ht-degree: 14%
 * **Target通知**: 有关即将进行的Target的信息，请参阅事件公告页，包括Target技能生成器会话、开发人员聊天、网络研讨会和Target咖啡休息会话。 有关详细信息，请参阅 [Target公告](/help/r-release-notes/target-announcements.md)。
 
 
-## Target Standard/Premium 20.5.1（2020 年 6 月 17 日） 
+## Target Standard/高级版20.6.1（2020年7月，确切日期待定）
 
-| 功能/增强 | 描述 |
-| --- | --- |
-| Analytics for Target (A4T) 支持 [!UICONTROL 自动分配] 活动 | [!UICONTROL 自动分配活动] 现在支持 [Analytics进行Target](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此集成允许您使用自动 [!UICONTROL 分配] 、多重装备的强盗功能，在使用Adobe [!UICONTROL Analytics目标指标和／或Adobe] Analytics报告和分析功  能的同时，推动流量增长。<br>如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以与A/B测试和体验定位活动配合使用，您就可以了！<br>有关详细信息，请 [参阅AnalyticsTarget(A4T)支持在创建活动时自动分配活动](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) ( *Auto-Allocate)*。 |
-| 自动Target和自动个性化活动流量分配的响应令牌 | 已 [经向自](/help/administrating-target/response-tokens.md) 动Target和自动个性化  活动添加了两个响应令牌，以便确定访客是因被分配到“控制”还是“目标”流量而获得特定体验。<ul><li>`experience.trafficAllocationId` 如果访客从“控制”流量中获得体验，则返回0；如果访客从“目标”流量分配中获得体验，则返回1。</li><li>`experience.trafficAllocationType` 将返回“控制”或“目标”。</li></ul>有关控制与目标流量的更多信息，请参 [阅选择自动个性化或自动Target活动的控件](/help/c-activities/t-automated-personalization/experience-as-control.md)。 |
-| [!UICONTROL 发布者] 角色 | 此新角色与当前“观察者”角 [!UICONTROL 色类似] (可以视图活动，但不能创建或编辑这些角色)。 但是，发 [!UICONTROL 布者] 角色具有激活活动的其他权限。<br>有关详细信息，请参阅： <ul><li>**Target Standard用户**: [在用户中指定角色](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 和 *权限*。</li><li>**Target高级版用户**: [第6步： 在“配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) ”中 *指定角色和权限*。</li></ul> |
-| 2020年6月25 [!DNL Analysis Workspace]<br>日支持A4T | [!UICONTROL 现在支持] (A4T)的Target分析 [!DNL Analysis Workspace]。 通 [!UICONTROL 过Analytics的Target(A4T)面板] ，您可以 [!DNL Adobe Target] 分析活动和体验 [!DNL Analysis Workspace]。<br>有关详细信息，请参 [阅Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) (A4T *报告)和* Analytics(A4T)面板中的“Reports in [A4T for Savige”(A4T)面板(](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html)**&#x200B;位于Analytics工具指南中)。 |
+此版本包括以下增强功能：
 
-### 增强功能、修复和变更
+### AnalyticsTarget(A4T)支持自动 [!UICONTROL Target] 活动
 
-* 修复了导致“访客”度量存储在活动的定义中而不是“UniqueVisitors”的问题。 (TGT-37098)
-* 修复了UI中导 [!DNL Target] 致垂直滚动条在受众页面上无法正 [!UICONTROL 确工作] 的问题。 (TGT-36968)
+[!UICONTROL 自动Target] 活动现在支 [持AnalyticsTarget](/help/c-integrating-target-with-mac/a4t/a4t.md)。
+
+此集成使用高级机器学习从多个高性能营销人员定义的体验中进行选择，从而个性化内容并推动转化。 自动定位根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验。
+
+如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 以用于A/B测试活动，您已经可以了！
+
+### [!UICONTROL 管理] 部分UI刷新
+
+我们已更新“管 [!UICONTROL 理] ”部分(以 [!UICONTROL 前称为Admin])及其页面，使您的工作流更简单、高效。
+
+亮点包括：
+
+* **[!UICONTROL “视觉体验书写器]”页&#x200B;**: 通过此新页面(**[!UICONTROL “管理&#x200B;]**”**[!UICONTROL >“可视体验书写器&#x200B;]**”)，您可以：
+
+   * 配置VEC的常规设置(指定默认URL，启用增 [!UICONTROL 强体验书写器]，加载混合内容，并在活动流图中生成体验快照)
+   * 配置移动视区
+   * 配置CSS选择器
+
+* **[!UICONTROL 报告]页&#x200B;**: 通过此新页面(**[!UICONTROL “管理&#x200B;]**”>“**[!UICONTROL 报告&#x200B;]**”[!DNL Target])，您可以配置一般设置，以在应用于[!DNL Target]整个帐户的报告中使用。
+
+   可用设置包括：
+
+   * 用 [!DNL Adobe Experience Cloud] 于报告的解决方案
+   * 用于报告的时区
+   * 用于报告的货币
+   * 要从报告中排除的IP地址
+   * 是否显示报告收入的估计增长
+   * 是否启用细粒度优先级
+
+* 以前的 [!UICONTROL 主机] (Hosts)页面已拆分为两个新页面：
+
+   * [!UICONTROL 主机]
+   * [!UICONTROL 环境]
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

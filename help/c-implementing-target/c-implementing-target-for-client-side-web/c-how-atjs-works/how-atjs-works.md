@@ -1,11 +1,14 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Adobe Target 系统图显示了使用 at.js 为自动创建的全局 mbox 发送或收集调用和信息的流程。
-title: Adobe目标at.js JavaScript库的工作原理
+title: Adobe Targetat.js JavaScript库的工作方式
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+workflow-type: tm+mt
+source-wordcount: '1123'
+ht-degree: 88%
 
 ---
 
@@ -46,7 +49,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 3 | 将会发出页面加载请求，其中包括已配置的所有参数（例如，MCID、SDID 和客户 ID）。 |
 | 4 | 配置文件脚本在执行后进入配置文件存储区。存储区向受众库请求符合条件的受众（例如从 Adobe Analytics、Audience Management 等共享的受众）。<br>客户属性会以批量过程发送到配置文件存储区。 |
 | 5 | 根据 URL 请求参数和配置文件数据，[!DNL Target] 可决定将哪些活动和体验返回给查看当前页面和未来视图的访客。 |
-| 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>当前页面上的目标内容会在默认内容不发生闪烁的情况下尽快显示。<br>SPA中因用户操作而显示的视图的目标内容在浏览器中被缓存，因此当视图通过触发时，无需额外的服务器调用即可即时应用该内容 `triggerView()`。 |
+| 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>当前页面上的目标内容会在默认内容不发生闪烁的情况下尽快显示。<br>SPA中因用户操作而显示的视图的目标内容会在浏览器中进行缓存，因此当视图通过触发时，无需额外的服务器调用即可立即应用该内容 `triggerView()`。 |
 | 7 | Analytics 数据会发送到数据收集服务器。 |
 | 8 | 目标数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 Analytics for Target (A4T) 报表查看 <br>Analytics 数据。 |
 
@@ -91,10 +94,27 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 * at.js 对远程脚本的执行顺序不提供任何保证，因为它们是异步加载的。
 * 内联脚本不应对远程脚本有任何依赖关系，因为远程脚本稍后才会加载和执行。
 
-## 培训视频：at.js 2.x架构图概述 ![徽章](/help/assets/overview.png)
+## 培训视频
+
+以下视频包含有关本文中所讨论概念的详细信息。
+
+### at.js 2.x架构图概 ![述徽章](/help/assets/overview.png)
 
 at.js 2.x 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Cloud 解决方案集成。该视频介绍了如何将所有内容结合到一起。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-有关 [更多信息，请参阅了解at.js 2.x的工作原理](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 。
+有 [关更多信息，请参阅了解at.js 2](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) .x的工作方式。
+
+### 办公时间： at.js提示和概述（2019年6月26日）教 ![程徽章](/help/assets/tutorial.png)
+
+此视频是“办公时间”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
+
+* 使用at.js的优势
+* at.js设置
+* 闪烁处理
+* 调试 at.js
+* 已知问题
+* 常见问题解答
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)

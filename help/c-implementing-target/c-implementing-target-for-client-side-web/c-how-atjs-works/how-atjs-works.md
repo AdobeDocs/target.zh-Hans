@@ -5,9 +5,9 @@ title: Adobe Targetat.js JavaScript库的工作方式
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1108'
 ht-degree: 88%
 
 ---
@@ -66,6 +66,14 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 5 | Analytics 数据会发送到数据收集服务器。 |
 | 6 | Target 数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 A4T 报表查看 Analytics 数据。 |
 
+### at.js 2.x架构图概 ![述徽章](/help/assets/overview.png)
+
+at.js 2.x 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Cloud 解决方案集成。该视频介绍了如何将所有内容结合到一起。
+
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
+
+有 [关更多信息，请参阅了解at.js 2](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) .x的工作方式。
+
 ## at.js 1.x 流程图
 
 ![Target 流程 - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
@@ -76,6 +84,19 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 3 | 将会发出全局 mbox 请求，其中包括已配置的所有参数，例如 MCID、SDID 和访客 ID（可选）。 | 4 | 配置文件脚本在执行后进入配置文件存储区。存储区向[!UICONTROL 受众库]请求符合条件的受众（例如从 [!DNL Adobe Analytics]、[!DNL Audience Manager] 等共享的受众）。<br>客户属性会以批量过程发送到[!DNL Profile Store]。 |
 | 5 | [!DNL Target] 根据 URL、mbox 参数和配置文件数据确定要返回给访客的活动和体验。 | 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>体验会在默认内容不发生闪烁的情况下尽快显示。 |
 | 7 | [!DNL Analytics] 数据会发送到数据收集服务器。 | 8 | [!DNL Target] 数据会通过 SDID 匹配到 [!DNL Analytics] 数据，并且会进行相应处理以保存到 [!DNL Analytics] 报表存储中。<br>[!DNL Analytics]之后，便可以在 [!DNL Analytics] 和 [!DNL Target] 中通过 [!DNL Analytics for Target] (A4T) 报表查看  数据。 |
+
+### 办公时间： at.js提示和概述（2019年6月26日）教 ![程徽章](/help/assets/tutorial.png)
+
+此视频是“办公时间”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
+
+* 使用at.js的优势
+* at.js设置
+* 闪烁处理
+* 调试 at.js
+* 已知问题
+* 常见问题解答
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)
 
 ## at.js 如何渲染带有 HTML 内容的选件 {#render}
 
@@ -93,28 +114,3 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 
 * at.js 对远程脚本的执行顺序不提供任何保证，因为它们是异步加载的。
 * 内联脚本不应对远程脚本有任何依赖关系，因为远程脚本稍后才会加载和执行。
-
-## 培训视频
-
-以下视频包含有关本文中所讨论概念的详细信息。
-
-### at.js 2.x架构图概 ![述徽章](/help/assets/overview.png)
-
-at.js 2.x 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Cloud 解决方案集成。该视频介绍了如何将所有内容结合到一起。
-
->[!VIDEO](https://video.tv.adobe.com/v/26250)
-
-有 [关更多信息，请参阅了解at.js 2](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) .x的工作方式。
-
-### 办公时间： at.js提示和概述（2019年6月26日）教 ![程徽章](/help/assets/tutorial.png)
-
-此视频是“办公时间”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
-
-* 使用at.js的优势
-* at.js设置
-* 闪烁处理
-* 调试 at.js
-* 已知问题
-* 常见问题解答
-
->[!VIDEO](https://video.tv.adobe.com/v/27959)

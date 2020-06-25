@@ -5,9 +5,9 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1298'
 ht-degree: 33%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 6月25日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/高级版20.6.1版本（2020年7月）的信息。 |
+|  | [目标文档概述](/help/r-release-notes/target-documentation.md) | 详细介绍不同文档来源的新 [!DNL Target] 主题。 |
 | 6月23日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关6月24日Adobe Target咖啡休息日的信息。 |
 |  | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 添加了注意事项，不建议创建使用另一个用户档案脚本中一个用户档案脚本的结果的从属用户档案脚本。 |
 |  | [at.js 的工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 添加了以下视频： 办公时间： at.js提示和概述 |

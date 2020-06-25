@@ -5,9 +5,9 @@ title: 自动分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
 workflow-type: tm+mt
-source-wordcount: '3026'
+source-wordcount: '3014'
 ht-degree: 89%
 
 ---
@@ -83,7 +83,7 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 
 如果活动中只有两个体验，则两个体验会获得同等的流量，直到 Target 找出具有 90% 置信度的体验为止。此时，70% 的流量会分配给入选者，30% 的流量会分配给落选者。在体验达到 95% 的置信度之后，100% 的流量会分配给入选者，而落选者则不会分配到流量。
 
-在自动分配活动的模型准备就绪（每个体验至少有 1,000 位访客和 50 次转化）后，将不允许从 UI 中执行以下操作：
+After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
 * 将“流量分配”模式切换为“手动”
 * 更改目标量度类型
@@ -127,9 +127,9 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 
 ## 常见问题解答 {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-**AnalyticsTarget(A4T)是否支持自动分配活动?
+**Analytics目标(A4T)是否支持自动分配活动?
 
-是. 有关详细信息，请 [参阅AnalyticsTarget(A4T)支持在创建活动时自动分配活动](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) ( *Auto-Allocate)*。
+是. 有关详细信息，请 [参阅Analytics目标(A4T)支持在创建活动时自动分配活动](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) ( *Auto-Allocate)*。
 
 **是否会自动将旧访客重新分配给高性能体验？**
 

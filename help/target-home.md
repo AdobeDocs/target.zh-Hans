@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target 产品文档
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: e48f0146b819164b592a5d6453d500d7a10084ee
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 63%
@@ -17,15 +17,15 @@ ht-degree: 63%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新： 2020年6月23日(请[参阅更改内容](r-release-notes/doc-change.md))**
+**上次更新： 2020年6月25日(请参[阅更改内容](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
->有关即将进行的Target的信息，请参阅事件公告页，包括Target技能生成器会话、开发人员聊天、网络研讨会和Target咖啡休息会话。 有关详细信息，请参阅 [Target公告](/help/r-release-notes/target-announcements.md)。
+>有关即将进行的目标的信息，请参阅事件公告页，包括目标技能生成器会话、开发人员聊天、网络研讨会和目标咖啡休息会话。 有关详细信息，请参阅 [目标公告](/help/r-release-notes/target-announcements.md)。
 
 以下部分将向您介绍本指南中的有用链接，这些链接是按照目标受众并基于典型的工作职能来排列的：
 
-- [所有Target用户](#all)
+- [所有目标用户](#all)
 - [营销人员](#marketers)
 - [开发人员](#developers)
 - [Target 和 Adobe Experience Cloud 管理员](#admins)
@@ -39,7 +39,7 @@ ht-degree: 63%
 - [Target 发行说明](r-release-notes/release-notes.md)：包含有关当前版本的信息、有关影响 [!DNL Target] 的已知问题的信息、此文档的重要更改列表，和以往发行说明的存档。
 - [Target 简介](c-intro/intro.md)：说明 [!DNL Target] 解决方案的核心概念。
 - 将 Target 与 Adobe Experience Cloud 集成：说明如何将 [!DNL Target] 与其他 [!DNL Experience Cloud] 解决方案集成，包括 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud 受众](/help/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) 和 [Experience Cloud 设备协作](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md)。
-- [Adobe Target教程](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html): 提供教程和视频，帮助您充分利用Target。
+- [Adobe Target教程](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html): 提供教程和视频，帮助您充分利用目标。
 - [Target 故障诊断](r-troubleshooting-target/troubleshooting-target.md)：提供指向本指南中包含的故障诊断信息的链接，包括字符限制和会影响 [!DNL Target] 中活动和其他元素的其他限制的信息（选件大小、受众、配置文件、值、参数等）。
 - [适用于移动设备应用程序的 Target](c-target-mobile-app/target-mobile-app.md)：说明 [!DNL Target] 如何用于移动设备应用程序优化和个性化。
 - [资源和联系信息](cmp-resources-and-contact-information.md)：提供有关其他资源的信息，以帮助您了解 [!DNL Target] 功能以及在需要帮助时如何联系 [!DNL Adobe]。
@@ -54,11 +54,11 @@ ht-degree: 63%
 ## 开发人员 {#developers}
 
 - [实施 Target](c-implementing-target/implementing-target.md)：说明如何在网站、移动设备应用程序、单页应用程序 (SPA) 和 iOT/OTT 平台上实施 [!DNL Target]。
-- [Target服务器端API](https://developers.adobetarget.com/api/delivery-api/): 描述构成Adobe Target投放API的资源。
-- [TargetNodeJS SDK](https://github.com/adobe/target-nodejs-sdk): 介绍如何在服务器端部署Target。 此Node.js SDK可帮助您将Target与其他Adobe Experience Cloud解决方案轻松集成。
-- [TargetJava SDK](https://github.com/adobe/target-java-sdk): 介绍如何在服务器端部署Target。 此Java SDK可帮助您轻松将Target与其他Adobe Experience Cloud解决方案集成。
-- [Target推荐API](https://developers.adobetarget.com/api/recommendations/): 描述组成官方Adobe Target建议API的资源。
-- [TargetAdobe.IO文档](http://developers.adobetarget.com/api/#introduction): 介绍如何使用Target的管理员和用户档案REST API，这些API使用Adobe.IO集成来管理活动、受众、优惠、属性、报告、mbox、环境和用户档案。
+- [目标服务器端API](https://developers.adobetarget.com/api/delivery-api/): 描述构成Adobe Target投放API的资源。
+- [目标NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): 介绍如何在服务器端部署目标。 此Node.js SDK可帮助您将目标与其他Adobe Experience Cloud解决方案轻松集成。
+- [目标Java SDK](https://github.com/adobe/target-java-sdk): 介绍如何在服务器端部署目标。 此Java SDK可帮助您轻松将目标与其他Adobe Experience Cloud解决方案集成。
+- [目标推荐API](https://developers.adobetarget.com/api/recommendations/): 描述组成官方Adobe Target建议API的资源。
+- [目标Adobe.IO文档](http://developers.adobetarget.com/api/#introduction): 介绍如何使用目标的管理员和用户档案REST API，这些API使用Adobe.IO集成来管理活动、受众、优惠、属性、报告、mbox、环境和用户档案。
 
 ## Target 和 Adobe Experience Cloud 管理员 {#admins}
 

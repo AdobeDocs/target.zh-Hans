@@ -5,10 +5,10 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 15%
+source-wordcount: '558'
+ht-degree: 18%
 
 ---
 
@@ -59,30 +59,6 @@ ht-degree: 15%
 * 出于隐私原因模糊处理访客IP **[!UICONTROL 地址]** (“管 **[!UICONTROL 理”]**>“实施”)
 * 在AdobeAdmin Console（“管理”>“用户”）中管理每个工作区的用户及其角色的现&#x200B;**[!UICONTROL 有视图]** ，之 **[!UICONTROL 前再进]**&#x200B;行列表。
 * 搜索并过滤“管理”部分中 [!UICONTROL 的所有] 表。
-
-重大变动包括：
-
-* **[!UICONTROL “视觉体验书写器]”页&#x200B;**: 通过此新页面(**[!UICONTROL “管理&#x200B;]**”**[!UICONTROL >“可视体验书写器&#x200B;]**”)，您可以：
-
-   * 配置VEC的常规设置(指定默认URL，启用增 [!UICONTROL 强体验书写器]，加载混合内容，并在活动流图中生成体验快照)
-   * 配置移动视区
-   * 配置CSS选择器
-
-* **[!UICONTROL 报告]页&#x200B;**: 通过此新页面(**[!UICONTROL “管理&#x200B;]**”>“**[!UICONTROL 报告&#x200B;]**”[!DNL Target])，您可以配置一般设置，以在应用于[!DNL Target]整个帐户的报告中使用。
-
-   可用设置包括：
-
-   * 用 [!DNL Adobe Experience Cloud] 于报告的解决方案
-   * 用于报告的时区
-   * 用于报告的货币
-   * 要从报告中排除的IP地址
-   * 是否显示报告收入的估计增长
-   * 是否启用细粒度优先级
-
-* 以前的 [!UICONTROL 主机] (Hosts)页面已拆分为两个新页面：
-
-   * [!UICONTROL 主机]
-   * [!UICONTROL 环境]
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

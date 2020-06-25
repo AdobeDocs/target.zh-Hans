@@ -5,9 +5,9 @@ title: Adobe Targetat.js JavaScript库的工作方式
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1106'
 ht-degree: 88%
 
 ---
@@ -66,7 +66,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 5 | Analytics 数据会发送到数据收集服务器。 |
 | 6 | Target 数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 A4T 报表查看 Analytics 数据。 |
 
-### at.js 2.x架构图概 ![述徽章](/help/assets/overview.png)
+### 视频- at.js 2.x架构图
 
 at.js 2.x 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Cloud 解决方案集成。该视频介绍了如何将所有内容结合到一起。
 
@@ -85,7 +85,7 @@ at.js 2.x 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Clo
 | 5 | [!DNL Target] 根据 URL、mbox 参数和配置文件数据确定要返回给访客的活动和体验。 | 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>体验会在默认内容不发生闪烁的情况下尽快显示。 |
 | 7 | [!DNL Analytics] 数据会发送到数据收集服务器。 | 8 | [!DNL Target] 数据会通过 SDID 匹配到 [!DNL Analytics] 数据，并且会进行相应处理以保存到 [!DNL Analytics] 报表存储中。<br>[!DNL Analytics]之后，便可以在 [!DNL Analytics] 和 [!DNL Target] 中通过 [!DNL Analytics for Target] (A4T) 报表查看  数据。 |
 
-### 办公时间： at.js提示和概述（2019年6月26日）教 ![程徽章](/help/assets/tutorial.png)
+### 视频——办公时间： at.js tips and overview（2019年6月26日）
 
 此视频是“办公时间”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 

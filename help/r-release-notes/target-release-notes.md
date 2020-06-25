@@ -5,10 +5,10 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: e99277bdbbed26058abc4e0b1375489fe8ca2df4
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 19%
+source-wordcount: '478'
+ht-degree: 17%
 
 ---
 
@@ -38,14 +38,6 @@ ht-degree: 19%
 ## Target Standard/Premium 20.7.1（2020 年 7 月 21 日） 
 
 此版本包括以下增强功能：
-
-### Analytics目标(A4T)支持自动 [!UICONTROL 目标] 活动
-
-[!UICONTROL 自动目标] 活动现在支 [持Analytics目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。
-
-此集成使用高级机器学习从多个高性能营销人员定义的体验中进行选择，从而个性化内容并推动转化。 自动定位根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验。
-
-如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 以用于A/B测试活动，您已经可以了！
 
 ### [!UICONTROL 管理] 部分UI刷新
 

@@ -1,11 +1,14 @@
 ---
-keywords: 远程选件;远程选件选择表;已缓存的内容;动态内容
+keywords: remote offer;remote offer selection matrix;cached content;dynamic content
 description: 可使用远程选件在 Target 以外托管内容，Target 会引用这些内容并将其交付到用户网站。出于方便使用或安全原因，这些内容可能位于内容管理或其他系统中。
 title: 创建远程选件
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 09e217e416b7c3d106a2524bbfdc9eaba50c0ad4
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 100%
 
 ---
 
@@ -30,8 +33,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **创建远程选件：**
 
-1. 单击&#x200B;**[!UICONTROL 选件]**，然后选择&#x200B;**代码选件]选项卡。[!UICONTROL **
-1. 单击&#x200B;**[!UICONTROL 创建]** &gt; **[!UICONTROL 远程选件]**。
+1. 单击&#x200B;**[!UICONTROL 选件]**，然后选择&#x200B;**[!UICONTROL 代码选件]**&#x200B;选项卡。
+1. 单击&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL 远程选件]**。
 
    ![](assets/remote_offer_ui.png)
 
@@ -78,6 +81,6 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | 内容更新 | 每两小时缓存一次 | 每次请求时立即更新 |
 | 加载时间 | 更快 | 由于请求处理原因加载时间较慢 |
 | 可以查看页面上的 JavaScript | 是 | 否，但可以通过 URL 传递 |
-| 选件可以包含 JavaScript | 是 | 否 |
+| 选件可以包含 JavaScript | 是 | 是 |
 | 选件 URL | 绝对或相对 | 相对 |
 | 请求计算机 | Adobe 服务器 | 带有访客 Cookie 的访客计算机 |

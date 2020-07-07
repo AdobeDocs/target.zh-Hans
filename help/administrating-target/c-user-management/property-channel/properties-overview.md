@@ -5,10 +5,10 @@ title: 配置企业权限
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 72%
+source-wordcount: '1469'
+ht-degree: 70%
 
 ---
 
@@ -104,7 +104,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 ## 步骤 4. Create properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-通过在对 Target 的任何调用（mbox、api 等）中添加特定名称/值对作为参数，可以启用属性。
+通过添加特定名称／值对作为参数来启用属性，该参数包含任何调用(目标调用、api调用等) 可以启用属性。
 
 属性属于特定的渠道（Web、移动设备、电子邮件和 API/其他）。
 
@@ -129,7 +129,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 ## Step 5: Update your implementation to include the at_property parameter {#section_9B17A59807A94712BE642942442EBBC8}
 
-要使用 [!DNL Target] 用户权限功能，必须将 `at_property` 参数添加到对 的任何调用（mbox、api 等）中。[!DNL Target]
+To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
 
 **获取`at_property`参数代码：**
 

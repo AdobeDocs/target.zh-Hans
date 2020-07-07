@@ -5,10 +5,10 @@ title: 企业用户权限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '2996'
-ht-degree: 84%
+source-wordcount: '2999'
+ht-degree: 82%
 
 ---
 
@@ -47,7 +47,7 @@ Properties are similar in nature to those within [!DNL Adobe Platform Launch] in
 
 Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或多个域和子域的任意组合。
 
-通过在对 Target 的任何调用（mbox、api 等）中添加特定名称/值对作为参数，更改为 [!DNL Target].
+通过添加特定名称／值对作为参数来启用属性，该参数包含任何调用(目标调用、api调用等) 更改为 [!DNL Target].
 
 属性属于特定渠道（Web、移动设备、电子邮件或 API/其他）。
 
@@ -244,7 +244,7 @@ Consider the following when using or configuring properties and permissions in [
    * 目前，图像选件（存储在 `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` 下的资产）不受企业权限模型控制。
    * 只有当目标链接或目标页面是包含在活动中的属性的一部分时，clickTracking 和重定向才会正常工作。此外，使用 `targetPageParams()` 函数时，clickTracking 可能无法正常工作。`targetPageParamsAll()` 是推荐的函数。
 
-   [!DNL Target]目前， 要求执行跟踪的任何页面上都具有 `at_property` 令牌。如果令牌：(1) 不存在，(2) 在对活动进行设置（在 VEC 内）时未被检测到，或者 (3) 未通过 `targetPageParamsAll()` 函数传递给 clickTracking mbox，则量度不会递增，并将显示为“0”。
+   [!DNL Target]目前， 要求执行跟踪的任何页面上都具有 `at_property` 令牌。In the event that the token is (1) not present, (2) not detected at the time of activity setup (within the VEC), or (3) not passed to the clickTracking Target call via the `targetPageParamsAll()` function, the metric will not be incremented and will appear as &quot;0.&quot;
 
    这同样适用于使用重定向的活动。目标页面必须具有 `at_property` 令牌，并可在 VEC 内进行设置时被识别。
 
@@ -294,7 +294,7 @@ Consider the following when using or configuring properties and permissions in [
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### 办公时间： Target高级工作区
+### 办公时间： 目标高级工作区
 
 此视频是“办公时间”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 

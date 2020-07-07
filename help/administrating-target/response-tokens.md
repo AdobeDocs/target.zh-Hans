@@ -1,15 +1,15 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: 响应令牌允许您自动输出Target特定信息(活动详细信息、用户用户档案信息、地理信息等)，以用于调试或与第三方系统（如Clicktale）集成
+description: 响应令牌允许您自动输出目标特定信息(活动详细信息、用户用户档案信息、地理信息等)，以用于调试或与第三方系统（如Clicktale）集成
 title: Adobe Target 中的响应令牌
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
 source-wordcount: '1571'
-ht-degree: 85%
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 >
 >本主题中的信息已更新，可在Target Standard/高级版20.6.1版本（2020年7月）即将发布的UI更改中抢先登峰造极。 本主题中显示的大多数信息适用于当前UI; 但是，选项可能位于稍有不同的位置。
 
-响应令牌允许您选择要利用的变量，然后将它们作为 mbox 响应的一部分发送。要实现此操作，您只需通过开关启用一个变量，该变量即会与 mbox 响应一起发送，这可以通过网络调用进行验证。Response tokens work in [!UICONTROL Preview] mode as well.
+响应令牌允许您选择要利用的变量，然后允许将它们作为目标响应的一部分发送。 为此，您只需使用交换机启用一个变量，该变量将随目标响应一起发送，这可以在网络调用中验证。 Response tokens work in [!UICONTROL Preview] mode as well.
 
 插件和响应令牌之间的一个主要区别是，插件将 JavaScript 交付到页面时就会在交付时立即执行，而响应令牌交付的是一个对象，可以在交付之后使用事件监听程序读取该对象并对其执行操作。有关更多信息，请参阅 [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)和下文的示例。使用响应令牌更安全，且能够更轻松地开发和维护第三方集成。
 
@@ -62,7 +62,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    |  | `profile.categoryAffinities` | 将该访客排名前 5 的类别的数组作为字符串返回。 |
    | 活动 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 当前活动的详细信息。请注意，“option”等同于“offer”。 |
    | 地域 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 请参阅[地域](/help/c-target/c-audiences/c-target-rules/geo.md)以了解在活动中使用地域定位的详细信息。 |
-   | 流量分配方<br>法(仅 [!UICONTROL 适用于自动Target][!UICONTROL 和自] 动个性化活动。) | `experience.trafficAllocationId` | 如果访客从“控制”流量中获得体验，则返回0；如果访客从“目标”流量分配中获得体验，则返回1。 |
+   | 流量分配方<br>法(仅 [!UICONTROL 适用于自动目标][!UICONTROL 和自] 动个性化活动。) | `experience.trafficAllocationId` | 如果访客从“控制”流量中获得体验，则返回0；如果访客从“目标”流量分配中获得体验，则返回1。 |
    |  | `experience.trafficAllocationType` | 返回“控制”或“目标”。 |
 
    用户配置文件属性和客户属性也会显示在列表中。

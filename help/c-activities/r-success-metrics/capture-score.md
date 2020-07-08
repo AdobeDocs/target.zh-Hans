@@ -1,29 +1,32 @@
 ---
-keywords: 捕捉分数;分数
-description: “捕捉分数”参与量度将从访客第一次看到营销活动的第一个展示型 mbox 开始，根据网站上已访问页面的分配值计算出一个累积分数。
+keywords: capture score;score
+description: “捕获分数”参与度量根据分配给网站上访问的页面的值计算汇总分数，该值从访客第一次看到活动的第一个显示目标请求时开始。
 title: 捕捉分数
-subtopic: 入门指南
+subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '770'
+ht-degree: 52%
 
 ---
 
 
 # 捕捉分数{#capture-score}
 
-“捕捉分数”参与量度将从访客第一次看到营销活动的第一个展示型 mbox 开始，根据网站上已访问页面的分配值计算出一个累积分数。
+The Capture Score engagement metric calculates an aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the campaign&#39;s first display [!DNL Target] request.
 
 下面的例子显示了在对两个体验（一个包含猫的图像，一个包含狗的图像）进行测试的营销活动中，如何计算分数参与量度。
 
 ![](assets/example_score.png)
 
-在这个例子中，第一个访客选择了包含猫图像的体验。假设一个全局 mbox 根据页面值传入网页分数。如果营销商已经在与 `**any mbox**` 关联的成功量度上捕捉到页面计数参与度，那么对于在猫图像周围的展示型 mbox 之后看到的任何 mbox 请求，都会累加它们的访问分数。
+在这个例子中，第一个访客选择了包含猫图像的体验。Assume that a global [!DNL Target] request passes in a page score based on the value of the page. If the marketer has captured page count engagement on a success metric associated with `**any Target request**`, the visit score accumulates for any request seen after the display request around the cat image.
 
 第一个页面加 1 分，第二个页面加 0.25 分，第三个页面加 0.10 分，第四个页面加 0.10 分，总分为 1.45。可以将这个分数理解为货币或积分。在另外一次访问中，某位访客选择了包含狗图像的体验，尽管该访客查看的页面较少，但得分为 2.10，比其他访问的分数更高，因为他浏览的网页更有价值。
 
-通过 adbox 和重定向器，您可以考虑购置成本和联属链接收入，详见下述页流程图中的描述。请注意，此例中文章页面上的两个 mbox 传递的分数相同，可能代表一个已知的 CPM。
+通过 adbox 和重定向器，您可以考虑购置成本和联属链接收入，详见下述页流程图中的描述。Notice that, in this example, both [!DNL Target] requests on the article page pass a score, possibly representing a known CPM.
 
 ![](assets/example_score2.png)
 
@@ -33,30 +36,30 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 分配网页分数的方法有两种：
 
-* 在 mbox 代码中创建一个 mbox 参数，名为 `mboxPageValue`。
+* 在请求 [!DNL Target] 中，创建一个名为的参数 `mboxPageValue`。
 
    示例: `('global_mbox', 'mboxPageValue=10');`
 
-   每当包含此 mbox 的页面被浏览一次时，就会将指定的值加到分数中。如果页面上的多个 mbox 包括多个分数值，那么该页面的得分是所有 mbox 值的总和。`mboxPageValue` 是一个保留的参数，用于将值传入 mbox 以捕捉参与度分数。可以传递正值和负值。在每位访客结束访问后，将计算总和值以计算访问的总分。
+   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. 如果页面上的多个请求包含得分值，则页面的得分是所有请求值的总和。 `mboxPageValue` 是用于在目标请求中传递值以捕获参与得分的保留参数。 可以传递正值和负值。在每位访客结束访问后，将计算总和值以计算访问的总分。
 
 * 在页面 URL 中传递 `?mboxPageValue=n` 参数。
 
    示例: `https://www.mydomain.com?mboxPageValue=5`
 
-   使用此方法时，会为页面上的每个 mbox 将指定值加到分数中。例如，如果传递参数 `?mboxPageValue=10` 而页面上有三个 mbox，那么此页面的得分为 30。
+   Using this method, the specified value is added to the score for each [!DNL Target] request on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three [!DNL Target] requests on the page, the score for the page is 30.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
->位于营销活动第一个展示型 mbox 上方的 mbox 不计入分数。
+>目标请求位于活动的第一个显 [!DNL Target] 示请求之上，将不会包括在得分中。
 
-最佳做法是在 mbox 代码中分配值。这样可以根据每个 mbox 的内容，得到更精确的测量值。
+Best practice is to assign values in the [!DNL Target] request. 这样，根据每个请求的内容，您可以精确测量值。
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >为便于维护，您可以在 [!DNL at.js] 或 [!DNL mbox.js] 文件中使用某些条件性 JavaScript 逻辑配置网站的页面分数值分配。这样就无需向网页添加更多代码。请联系您的客户顾问以寻求帮助。
 
-您可以结合使用上述两种方法，但这可能导致实际分数比应得分数更高。例如，如果给三个 mbox 分配的值均为 10，不给第四个 mbox 分配任何值，然后传递 URL 参数 `?mboxPageValue=5`，那么您的网页分数将为 50，其中 30 分来自三个 mbox 的分配值，再加上页面上总共四个 mbox，每个 mbox 的值为 5。
+您可以结合使用上述两种方法，但这可能导致实际分数比应得分数更高。For example, if you assign a value of 10 to each of three [!DNL Target] requests and no score to a fourth request, then pass the URL parameter `?mboxPageValue=5`, your page score will be 50, 30 for the three requests with assigned values, and then 5 for each of the four requests on the page.
 
-计数器从第一个展示型 mbox 开始计算，而不是登入 mbox。例如，如果您进入了主页上不包含任何展示型 mbox 的营销活动，之后链接到包含一个展示型 mbox 的目录页，则计数器从您移动到该目录页的时刻开始计数。
+计数器开始第一个显示请求，而不是输入请求。 例如，如果您在主页上输入没有显示请求的活动，然后链接到包含显示请求的目录页面，则当您移到目录页面时，计数器开始。
 
 您还可以为某些特定网页分配负值，因为它们会增加您的成本或者不应该被访客看到。负值同样影响整体分数。这一技巧可应用在访客通过广告进入的网页上，这样您就能了解 CPC 的成本是多少。或者，它还可以应用于支持或联系页面，让您了解访客在此页面上可能需要寻求帮助。

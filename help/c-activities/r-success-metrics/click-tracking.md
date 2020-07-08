@@ -1,12 +1,15 @@
 ---
-keywords: 点击跟踪;跟踪点击次数;点击次数;AppMeasurement
+keywords: Click tracking;track clicks;clicks;AppMeasurement
 description: Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
 title: 点击跟踪
-subtopic: 入门指南
+subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 97%
 
 ---
 
@@ -17,12 +20,12 @@ Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
 
 >[!NOTE]
 >
->Target 全局 mbox 在用作基于表单的活动中的位置时不支持跟踪点击。
+>全局目标请求在基于表单的活动中用作位置时，不支持跟踪点击。
 
 ## 设置点击跟踪 {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. 在“[!UICONTROL 目标和设置]”页面上为活动设置目标时，选择&#x200B;**[!UICONTROL 转化]成功量度。**
-1. 在此步操作中，选择&#x200B;**[!UICONTROL 已单击元素]**，然后单击&#x200B;**[!UICONTROL 选择元素]。**
+1. 在“[!UICONTROL 目标和设置]”页面上为活动设置目标时，选择&#x200B;**[!UICONTROL 转化]**&#x200B;成功量度。
+1. 在此步操作中，选择&#x200B;**[!UICONTROL 已单击元素]**，然后单击&#x200B;**[!UICONTROL 选择元素]**。
 
    随即会在[!UICONTROL 可视化体验编辑器] (VEC) 中打开您的页面。
 
@@ -101,6 +104,7 @@ Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
 
       * `A`（链接）标记：默认行为是导航到由 HREF 属性定义的 URL。
       * `FORM` 标记：默认行为是提交表单。
+
    此默认行为可能会妨碍 Analytics 执行点击跟踪。如果您使用的是 Analytics，则应该依赖 Analytics（而非 Target）来执行点击跟踪。
 
 * 如果页面和活动 URL 属于不同的属性，则不会在该页面上记录点击跟踪。企业用户权限是一种 Target Premium 功能。有关更多信息，请参阅[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
@@ -113,4 +117,4 @@ Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
 * 了解和构建“转化”、“收入”及“参与度”量度
 * 构建点击跟踪量度
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)

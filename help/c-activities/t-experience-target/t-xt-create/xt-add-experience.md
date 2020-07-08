@@ -1,11 +1,14 @@
 ---
-keywords: 创建体验;体验创建;优先级;受众;体验;可视化体验编辑器
+keywords: create experience;experience create;priority;audience;experience;visual experience composer
 description: Adobe Target 可视化体验编辑器 (VEC) 提供了一个可视化界面，用于编辑体验定位 (XT) 活动中的页面上的体验。
 title: 创建体验
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    将鼠标悬停在页面中的元素上时，这些元素会高亮显示。任何高亮显示的元素都可以使用 VEC 进行更改。有关为更改体验而可对元素执行的操作列表，请参阅[可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
-   如果您曾使用 [!DNL Target Classic] 在页面上创建了 mbox，则该 mbox 将显示为一个元素，该元素会显示 mbox 名称，且可以像其他任何元素一样进行修改。
+   If you created a [!DNL Target] request on the page using [!DNL Target Classic], that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
 
    >[!NOTE]
    >
@@ -42,7 +45,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >除了选择现有受众之外，您还可以合并多个受众来创建临时组合受众，而不是创建新受众。有关更多信息，请参阅[合并多个受众](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-   在创建受众时，您可以选择一个位置 (mbox) 并指定该位置的参数。在“[!UICONTROL 自定义]”（“创建受众”&gt;“添加规则”&gt;“自定义”）下，选择 mbox，然后指定所需的参数。
+   创建受众时，您可以选择位置并指定该位置的参数。 Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
 
    >[!NOTE]
    >
@@ -76,7 +79,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    [!UICONTROL 体验定位]假定排序至关重要。如果访客属于第一个受众/体验对，则会交付第一个体验。
 
-   例如，假定您在创建 XT 活动时并不知道排序的重要性。随后，您在测试过程中意识到，您认为应符合体验 B 或 C 的条件的访客而是符合了体验 A 的条件。这可能是因为受众之间不存在互斥关系，并且它们的顺序不正确（例如，体验 A = 美国，体验 B = 旧金山，体验 C = 加利福尼亚州）所导致。在此情景中，来自美国的所有用户都符合体验 A 的条件，无论他们在旧金山还是在加利福尼亚州的其他地区。您可以按限制性由高到低（旧金山 &gt; 加利福尼亚州 &gt; 美国）重新排列受众/体验对，而不必重新创建整个活动。
+   例如，假定您在创建 XT 活动时并不知道排序的重要性。随后，您在测试过程中意识到，您认为应符合体验 B 或 C 的条件的访客而是符合了体验 A 的条件。这可能是因为受众之间不存在互斥关系，并且它们的顺序不正确（例如，体验 A = 美国，体验 B = 旧金山，体验 C = 加利福尼亚州）所导致。在此情景中，来自美国的所有用户都符合体验 A 的条件，无论他们在旧金山还是在加利福尼亚州的其他地区。您可以按限制性由高到低（旧金山 > 加利福尼亚州 > 美国）重新排列受众/体验对，而不必重新创建整个活动。
 
    如果您具有“[!UICONTROL 所有访客]”受众，请确保它不是图中的第一个受众。定位到“所有访客”的体验可以用作体验定位活动中的最后一个体验，以“捕获”所有还未进入任何其他体验的访客。
 
@@ -91,7 +94,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 删除体验
 
-在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 &gt; **[!UICONTROL 删除]**。
+在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 > **[!UICONTROL 删除]**。
 
 ![删除体验](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
@@ -99,7 +102,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您可以复制 XT 活动中的体验，以便可以对其进行细微更改，而无需重头开始重新创建体验。
 
-在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 &gt; **[!UICONTROL 复制]**。
+在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤 1）中，依次单击三个垂直省略号图标 > **[!UICONTROL 复制]**。
 
 ![复制体验](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
@@ -115,7 +118,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 描述了如何向位于不同地理区域的受众交付特定于位置的内容
 * 描述如何对体验重新排序，以确保将适当的内容交付给适当的受众
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### 活动类型 (9:03)
 
@@ -125,7 +128,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### 使用可视化体验编辑器
 
@@ -134,4 +137,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 更改页面的内容
 * 更改页面的布局
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

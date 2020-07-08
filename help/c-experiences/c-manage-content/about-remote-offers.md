@@ -5,10 +5,10 @@ title: 创建远程选件
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 09e217e416b7c3d106a2524bbfdc9eaba50c0ad4
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->远程选件只能在基于表单的编辑器中创建。远程选件内容将被插入到 mbox 位置，因此极有可能不适用于全局 mbox。
+>远程选件只能在基于表单的编辑器中创建。Content will be injected in the [!DNL Target] request locations, so these are most likely not appropriate for a global [!DNL Target] request.
 >
 >[!DNL Target Classic] 中提供了类似功能：[!UICONTROL 站内选件]和 [!UICONTROL Test&amp;Target 外部选件]。
 
@@ -47,7 +47,7 @@ ht-degree: 100%
    | 选项 | 描述 |
    |--- |--- |
    | 已缓存 | 已缓存的远程选件的内容是从 Target 中提供的。<br>[!DNL Target] 每两小时从远程 URL 中提取一次内容，然后将该内容存储到 Target 中。如果访客加载的网站中具有包含远程选件的体验，则该选件会由 Target 交付。<br>已缓存的远程选件可提供增强的安全性，因为用户在登录到 Target 后便无法更改内容。要更改内容，用户需登录到内容管理系统或其他系统并在其中更改内容。<br>您能够为已缓存的远程选件指定绝对 URL 或相对 URL。 |
-   | 动态 | 动态远程选件的内容是从内容管理系统或其他系统中提供的，而不是从 Target 中提供。<br>当访客加载的网站具有包含远程选件的体验时，您可能不希望由 Target 定期缓存并交付内容。您而是可能希望调用托管内容的系统，然后传入特定信息，以便能够为每位用户返回动态或不同的选件。<br>例如，如果某位用户登录到一个信用卡网站，且该网站中具有包含动态远程选件的体验，则您能够将相应参数传递到 URL 中，以获取该用户的帐户信息。随后，网站便会提供特定于该用户的信息，例如账户余额。<br>单击“[!UICONTROL 添加参数]”可添加一个或多个 mbox 或者请求参数。 |
+   | 动态 | 动态远程选件的内容是从内容管理系统或其他系统中提供的，而不是从 Target 中提供。<br>当访客加载的网站具有包含远程选件的体验时，您可能不希望由 Target 定期缓存并交付内容。您而是可能希望调用托管内容的系统，然后传入特定信息，以便能够为每位用户返回动态或不同的选件。<br>例如，如果某位用户登录到一个信用卡网站，且该网站中具有包含动态远程选件的体验，则您能够将相应参数传递到 URL 中，以获取该用户的帐户信息。随后，网站便会提供特定于该用户的信息，例如账户余额。<br>单击 [!UICONTROL 添加参数] ，以添加一个或多个 [!DNL Target] 请求或请求参数。 |
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 在活动中使用远程选件时需遵循以下最佳实践：
 
-* 如果选件与 mbox 位于同一个域，选择“[!UICONTROL 已缓存]”选项可使您能够使用相对 URL 来描述选件位置。
+* If your offer resides in the same domain as the [!DNL Target] requests, using the [!UICONTROL Cached] option lets you use relative URLs in describing your offer location.
 
    这意味着您将活动从测试服务器移到生产服务器后，无需手动更改 URL 即可自动访问内容。
 

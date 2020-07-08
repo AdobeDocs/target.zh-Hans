@@ -1,11 +1,14 @@
 ---
-keywords: Target 故障诊断;默认内容;测试未处于实时状态;活动未处于实时状态;定位无法运行;显示之前的体验;无法创建活动;创建活动;页面结构发生更改;页面结构已修改;错误消息;删除配置文件脚本时出错;ajax 无法运行
+keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: 如果您的活动未显示在网站上，这些故障诊断建议应该可以帮助您找到解决方法。
 title: 活动故障诊断
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 81%
 
 ---
 
@@ -20,9 +23,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 以下章节包含您可能遇到的问题及建议的解决方案。
 
-## 我使用Target UI创建了活动，但无法通过API更新它。
+## 我使用活动UI创建了目标，无法通过API更新它。
 
-应通过目标UI更新使用目标UI创建的活动。 通过API创建的活动应通过API更新。 例如，如果您最初使用API创建活动，但随后又通过Target UI编辑该活动，则不会更新所有更改。 所有更改都存储在后端，并可以通过进行另一个API调用来更新。
+使用目标UI创建的活动应通过目标UI进行更新。 通过API创建的活动应通过API更新。 例如，如果您最初使用API创建活动，但随后通过目标UI编辑活动，则并不更新所有更改。 所有更改都存储在后端，并可以通过进行另一个API调用来更新。
 
 作为最佳实践，请尝试使用最初创建活动时所用的相同方法（UI或API）更新活动。
 
@@ -54,7 +57,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **选项：**
 
-* 转到可视化体验编辑器，然后单击“URL”&gt;“高级”&gt;“当前页面”。
+* 转到可视化体验编辑器，然后单击“URL”>“高级”>“当前页面”。
 
 ## 显示的是之前的体验而不是新体验。
 
@@ -76,7 +79,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 作为用户添加到 Target 后，您需要拥有“审批者”角色才能创建活动。
 
 * 请求您的帐户管理员将您设为“审批者”。
-* 如果您是管理员，请通过 Target Standard 中的设置 &gt; 用户，为您自己指定“审批者”角色。
+* 如果您是管理员，请通过 Target Standard 中的设置 > 用户，为您自己指定“审批者”角色。
 
    请参阅[为您自己分配“审批者”角色](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
@@ -135,10 +138,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 重新删除。显示成功删除消息。
 * 等待大约 10 分钟，以使 Target Standard/Premium 导入程序运行。导入程序会更新配置文件脚本列表。
 
-## 有些 ajax mbox 调用无法正常运行。
+## Some ajax [!DNL Target] calls are not working.
 
-**注意：**&#x200B;具有相同名称但是不同参数的多个 ajax mbox 调用无法在同一个页面上运行。只有第一个调用可以运行。
+**注意：** 使用相同 [!DNL Target] 名称但不同参数的多个ajax调用将不能在同一页面上工作。 只有第一个调用可以运行。
 
-## 您之前使用 Target API 激活了某个活动，但该活动在 Target UI 中显示为“不活跃”状态。
+## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
 
 执行某些操作（例如使用 Target API 在 UI 外部激活活动）时，更新可能最多需要 10 分钟才能传播到 UI 中。

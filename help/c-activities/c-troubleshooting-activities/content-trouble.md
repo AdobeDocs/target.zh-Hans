@@ -1,12 +1,15 @@
 ---
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
-description: 如果您的页面不显示预期内容，您可以通过以下几个步骤在Adobe target中调试内容交付。
-title: 对Adobe Target中的内容交付进行疑难解答
+description: 如果您的页面不显示预期内容，您可以执行一些步骤以在Adobe Target中调试内容投放。
+title: 对Adobe Target中的内容投放进行疑难解答
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 68%
 
 ---
 
@@ -16,10 +19,10 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 如果您的页面没有显示预期内容，可以采取以下步骤来对内容交付进行调试。
 
 * 仔细检查您的活动或营销活动代码。键入错误或其他错误可能会导致无法显示预期内容。
-* 使用 mboxTrace 或 mboxDebug 对 mbox 进行故障诊断。
-* 使用 Adobe Experience Cloud 调试器对 mbox 进行故障诊断，该调试器是一种简单易用的工具，它提供的信息与 mboxDebug 提供的信息大致相同。
+* Use mboxTrace or mboxDebug to troubleshoot the [!DNL Target] request.
+* Use the Adobe Experience Cloud Debugger, an easy-to-use tool that provides much of the same information as mboxDebug, to troubleshoot the [!DNL Target] request.
 
-当您在页面上设置 Target 以确保正在触发 mbox 且正在设置 Cookie 时，mboxDebug 特别有用。但是，在调试内容交付时，mboxDebug 并不会提供有用的详细信息。如果活动未显示在页面上或页面上显示了不需要的内容，请使用 mboxTrace 对页面进行细致的检查和调试。
+mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. 但是，在调试内容交付时，mboxDebug 并不会提供有用的详细信息。如果活动未显示在页面上或页面上显示了不需要的内容，请使用 mboxTrace 对页面进行细致的检查和调试。
 
 ## 检索要与调试工具结合使用的授权令牌 {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -39,7 +42,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
-mboxTrace 让您能够接收 mbox 回复所附带的跟踪信息。跟踪信息可反映 mbox 调用的结果（例如，转化或展示）以及其他任何可能有助于确定为何出现此特定结果的数据，例如可供在营销活动中选择的一组可用分支。使用此信息可调试内容发送服务。
+mboxTrace enables you to receive trace information attached to [!DNL Target] responses. Trace information reflects the outcome of a [!DNL Target] call (for example, a conversion or an impression) and any additional data that may help in determining why this particular outcome happened, such as a set of available branches among which the selection was made in a campaign. 使用此信息可调试内容发送服务。
 
 可用的参数如下：
 
@@ -78,7 +81,7 @@ mboxTrace 让您能够接收 mbox 回复所附带的跟踪信息。跟踪信息�
 
 ## mboxDebug {#mboxdebug}
 
-要使用 mboxDebug，请将 mboxDebug 参数附加到您 URL 的末尾。下表包含的信息与 mbox 关联的 URL 参数有关。
+要使用 mboxDebug，请将 mboxDebug 参数附加到您 URL 的末尾。The following table contains information about [!DNL Target] response-related URL parameters.
 
 >[!NOTE]
 >
@@ -86,24 +89,24 @@ mboxTrace 让您能够接收 mbox 回复所附带的跟踪信息。跟踪信息�
 
 | URL 参数 | 用途 |
 |--- |--- |
-| `mboxDebug=1` | 调试器<br>将此参数添加到任何定义了 mbox 的 URL，均会打开一个显示重要调试详情的弹出窗口。Cookie 信息、PCid 和会话 ID 值都会写出，并且用户可看到所有 mbox URL。点击某个 mbox URL 可显示该 mbox 的响应。有关更多信息，请参阅 [mbox_debug.pdf](/help/assets/mbox_debug.pdf)。 |
+| `mboxDebug=1` | Debugger<br>Adding this parameter to any URL with Target requests defined opens a pop-up window with valuable debugging details. Cookie 信息、PCid 和会话 ID 值都会写出，并且用户可看到所有 URL。Click on a Target request URL to show the response for that [!DNL Target] request. 有关更多信息，请参阅 [mbox_debug.pdf](/help/assets/mbox_debug.pdf)。 |
 | `mboxDebug=x-cookie` | 修改 Cookie |
 | `mboxDisable=1` | 停用页面上的 mbox |
 | `mboxDebug=x-profile` | 查看配置文件集。 |
-| `mboxDebug=x-time` | 显示每个 mbox 请求的响应时间 |
+| `mboxDebug=x-time` | Show response time for each [!DNL Target] request |
 | `mboxOverride.browserIp=<Insert IP address>` | 测试地理定位<br>使用此 URL 参数测试地理定位。输入 IP 地址作为此属性的值，Test&amp;Target 的地理定位功能会评估该 IP 地址，查找营销活动中设置的与其匹配的任何地理定位或客户群。 |
 
 >[!NOTE]
 >
->确保URL片段位于查询字符串参数之后。 第一个之后的任 `#` 何内容都是片段标识符，导致调试参数无法正确工作。
+>确保URL片段位于查询字符串参数之后。 第一个代码之 `#` 后的任何内容都是片段标识符，导致调试参数无法正确工作。
 
 ## Adobe Experience Cloud 调试器 {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-借助 Adobe Experience Cloud 调试器，您可以快速、轻松地了解 Target 实施。您可以快速查看库配置、检查请求以确保正确传递自定义参数、打开控制台日志记录以及禁用所有 Target 请求。在 Experience Cloud 中进行身份验证后，您可以使用功能强大的 Mbox 跟踪工具来检查您的活动和受众资格以及访客配置文件。
+借助 Adobe Experience Cloud 调试器，您可以快速、轻松地了解 Target 实施。您可以快速查看库配置、检查请求以确保正确传递自定义参数、打开控制台日志记录以及禁用所有 Target 请求。在Experience Cloud中进行身份验证，您可以使用功能强大的MboxTrace工具检查活动和受众资格以及访客用户档案。
 
 有关更多信息，请参阅下面的培训视频：
 
-有关详细信息，请参 [阅使用Adobe Experience cloud调试器调试at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)。
+有关详细信息，请参 [阅使用Adobe Experience Cloud调试器调试at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)。
 
 ## 如果 target.js 在交付过程中加载失败 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -111,21 +114,21 @@ mboxTrace 让您能够接收 mbox 回复所附带的跟踪信息。跟踪信息�
 
 ## 推荐中未显示最畅销商品 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-*`SIteCatalyst: purchase`* mbox 无法用于“购买”算法流量数据。请改用 *`orderConfirmPage`* mbox。
+The *`SiteCatalyst: purchase`* call can&#39;t be used for Purchase algorithm traffic data. 请改用 *`orderConfirmPage`* 呼叫。
 
 ## 检查活动优先级 {#section_3D0DD07240F0465BAF655D0804100AED}
 
-在 [!DNL Target Standard/Premium] 中创建的基于表单的活动可能会与在 [!DNL Target Classic] UI 中创建的具有相同优先级且使用相同 mbox 的活动发生冲突。
+Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same [!DNL Target] request.
 
 ## 自定义代码在 Internet Explorer 8 中没有产生预期的结果。{#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Target 不再支持 IE 8。
 
-## 使用 mbox.js 时，由全局 mbox 交付的 JavaScript 内容无法加载。{#section_03EC9B9C410B4F52A7FCD81840311709}
+## JavaScript content delivered by the global [!DNL Target] request doesn&#39;t load when using mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
 
 请升级到 [!DNL mbox.js] 版本 58 或更高版本。
 
-在 HTML `BODY` 标记出现后，mbox.js 版本 58 及更高版本会立即执行全局 mbox 的非 JavaScript 内容。`DOMContentLoaded` 事件触发后，全局 mbox 的 `<script>` 标记内的 JavaScript 内容便会执行。这种内容交付顺序可确保全局 mbox 的 JavaScript 内容被正确交付和渲染。
+mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
 
 ## 无法设置 Target Cookie {#section_77AFEB541C0B495EB67E29A4475DF960}
 
@@ -141,23 +144,23 @@ Target 不再支持 IE 8。
 
 如果重定向选件或远程选件使用无效的 URL，则可能无法交付该选件。
 
-对于重定向选件，mbox 响应可以包含 `/* invalid redirect offer URL */`
+For redirect offers, the [!DNL Target] response can contain `/* invalid redirect offer URL */`
 
 或
 
-对于远程选件，mbox 响应可以包含 `/* invalid remote offer URL */`
+For remote offers, the [!DNL Target] response can contain `/* invalid remote offer URL */`
 
-您可以在浏览器中或使用 mboxTrace 检查 mbox 响应。有关有效 URL 的更多信息，请参阅 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66)。
+You can check the [!DNL Target] response in the browser or using mboxTrace. 有关有效 URL 的更多信息，请参阅 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66)。
 
-## mbox 未我的网站上触发。
+## 目标请求未在我的站点上触发。
 
-如果您使用的是无效的 doctype，则 at.js 不会触发 Target mbox。at.js 需要 HTML 5 doctype。
+如果您使用的doctype无效，at.js不会触发目标请求。 at.js 需要 HTML 5 doctype。
 
 ## 培训视频
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 添加扩展 教 ![程徽章](/help/assets/tutorial.png)
+### 添加扩展 ![教程徽章](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 

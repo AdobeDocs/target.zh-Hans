@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
-description: 在Adobe目标中，成功量度已预配置为用于报告和跟踪目的。
-title: Adobe目标中的成功标准
+description: 在Adobe Target中，成功量度已预配置为用于报告和跟踪目的。
+title: Adobe Target成功指标
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 92%
+source-wordcount: '1020'
+ht-degree: 83%
 
 ---
 
 
 # 成功量度{#success-metrics}
 
-在Adobe目标中，成功量度已预配置为用于报告和跟踪目的。
+在Adobe Target中，成功量度已预配置为用于报告和跟踪目的。
 
 成功量度是用于衡量活动是否成功的参数。成功量度包括关键业务衡量指标，可帮助您确定 Target 活动中的给定体验或选件是否成功。例如，您可以确定新的选件是否增加了每个访客带来的收入或是否吸引访客向购物车中添加物品。成功量度可用于发现注册、订购或购买漏斗等方面的问题，也可仅仅用于提高访客或客户参与度。
 
@@ -26,7 +26,7 @@ By default, conversion events are set to &quot;Count once and keep the entrant i
 
 >[!NOTE]
 >
->使用Analytics作为活动 [源(A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) )的报告的默认行为是“增量计数并使用户保持在活动中”，其中“每个进入者一次”。
+>对于使用 [Analytics作为活动源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的报告，默认行为为“增量计数并使用户保持在活动中”，其中“每个进入者一次”。
 
 可用的成功量度如下所示：
 
@@ -35,14 +35,14 @@ By default, conversion events are set to &quot;Count once and keep the entrant i
 | 转化 | 基于转化 | 当访客在您的网站上执行了您定义的操作（单击了某个按钮、查看了某个页面、完成了某项调查或完成了一次购买）时，即表示发生了转化。转化可以按每位访客计数一次，也可以在任何访客每次完成转化时计数一次。 |
 | 收入 | 基于转化 | 由访问带来的收入。您可以选择以下收入量度：<ul><li>每位访客带来的收入 (RPV)</li><li>平均订单值 (AOV)</li><li>销售总额</li></ul> |
 | 页面查看次数 | 基于参与度 | 将每次独特访问计为一次转化。 |
-| 网站逗留时间 | 基于参与度 | 访问所花费的时间（以秒为单位），从访客在会话中看到活动的第一个显示 mbox 开始算起，一直到通过 mbox 加载最后一个页面为止。 |
-| 自定义得分 | 基于参与度 | 这是基于为网站上访问的各个页面所分配的值得出的总计得分，从访客首次看到活动的第一个显示 mbox 开始算起。 |
+| 网站逗留时间 | 基于参与度 | 从访客看到活动的第一个显示目标请求到加载会话中有请求的最终页面的时间（以秒为单位），在访问中所花费的时间。 |
+| 自定义得分 | 基于参与度 | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
 
 对于基于参与度的量度（与基于转化和基于收入的量度不同），访客必须在每次访问时重新获得活动参与资格，才会递增该会话的计数。关联的量度将在重新获得资格后开始递增，并在每个访客的会话结束时停止。会话若处于不活动状态超过 30 分钟便会结束。因此，在测试期间，您不会立即看到结果，但是，该会话的所有结果将在会话结束后的几分钟内提供。
 
 您也可以创建自定义成功量度。
 
-选择成功量度后，请选择访客为实现目标所需执行的操作。例如，选择一个转化量度，并将其计数方式设为每位访客计为一次转化，然后设置是当访客查看了某个特定页面（或一组页面）时、访客查看了某个特定 mbox 时，还是访客单击了某个特定链接时才算取得成功。
+选择成功量度后，请选择访客为实现目标所需执行的操作。For example, choose a Conversion metric, set it to be counted once per visitor, then set whether success is achieved when a visitor views a certain page (or set of pages), views a specific [!DNL Target] request, or clicks a specific link.
 
 如果启用，“转化的预计值”字段（不适用于“页面得分”量度）会为您的目标提供一个值，但此值不适用于其他量度。通过此值，[!DNL Target] 可以计算出预计收入提升。此字段为可选字段；但是，如果没有该字段，便无法计算所有非收入量度的增量收入。对于所有收入量度（每位访客带来的收入、平均订单值、销售总额和订单总额），都会使用“每位访客带来的收入”进行估算。数据类型为货币。请参阅[预计收入提升](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以了解更多信息。
 

@@ -1,10 +1,13 @@
 ---
-keywords: 环境数据;会话数据;地理数据;设备数据;移动设备数据;属性;配置文件属性
+keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes
 description: Adob Target 可自动收集和使用各种数据，以在自动个性化 (AP) 和自动定位 (AT) 活动中构建其个性化算法。当一名访客进入到 AP 或 AT 活动，信息快照便会被传递到一组“训练记录”（个性化算法将要学习的访客数据）中。
 title: 为 Adobe Target 个性化算法收集数据
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1755'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +27,7 @@ Target 可自动收集和使用各种数据，以在自动个性化 (AP) 和自�
 | Experience Cloud 区段 | 在 Audience Manager 或 Analytics 中创建并在 Experience Cloud 中共享的受众 | `Custom - Experience Cloud Audience - [Audience Name]` | 自定义数据 |
 | [地理数据](#geo) | 有关访客所在位置的信息。<br>请参阅下面的“地理数据”。 | `Geo - [geo attribute]` | 城市<br>国家/地区<br>地区/州<br>邮政编码<br>纬度<br>经度<br>ISP 或移动设备运营商 |
 | 配置文件属性 | 通过更新 API 直接上传到 Target 配置文件的配置文件脚本或属性 | `Custom - Visitor Profile - [attribute name]` | 自定义数据 |
-| 引荐 URL 参数 | 一般而言，引荐 URL 是指将访客引荐到启用了 mbox 调用的特定页面的 URL。<br>请注意，用户在您网站上的活动以及您网站的技术实施都可能会对此变量造成影响。 | `Custom - [Referring URL Parameter] - [Parameter value]` | 自定义数据 |
+| 引荐 URL 参数 | 通常，引用URL是引用启动目标调用的特定页面的URL。<br>请注意，用户在您网站上的活动以及您网站的技术实施都可能会对此变量造成影响。 | `Custom - [Referring URL Parameter] - [Parameter value]` | 自定义数据 |
 | 报表区段 | 在活动设置中设置的任意区段。 | `Reporting Segment -[Segment Name]` | 自定义数据 |
 | [会话数据](#session) | 有关访客在访问活动时在会话中的行为的信息。 | `Visitor Profile - [Attribute Name]` | 访客配置文件 - 最近一次访问的开始时间 |
 | URL parameters（URL 参数） | Target 会检查 URL 以提取 URL 参数。 | `Custom - URL Parameter - [URL Parameter]` | 自定义数据 |
@@ -96,13 +99,13 @@ Target 可自动收集和使用各种数据，以在自动个性化 (AP) 和自�
 | 访客配置文件 - 首次访问 | 指定用户首次访问时与 Target 进行交互的时间。 | 双精度，毫秒 |
 | 访客配置文件 - 距上次访问的小时数 | 指定距上次访问此特定活动的小时数。 | 双精度（仅限正整数），1、2、3 等 |
 | 访客配置文件 - 位置/内容的展示次数 | 指定某个特定位置/内容组合在特定活动中的展示次数。 | 双精度（仅限正整数），1、2、3 等 |
-| 访客配置文件 - 上次 Target 交互 | 指定上次与 Target 进行交互的时间。每次提出 mbox 请求时都会发生交互，因为 Target 的当前实施会在每次请求时更新配置文件。 | 双精度，毫秒 |
+| 访客配置文件 - 上次 Target 交互 | 指定上次与 Target 进行交互的时间。Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request. | 双精度，毫秒 |
 | 访客配置文件 - 活动之前查看的页面数 | 指定访客在进入活动之前的页面查看总次数（展示次数），包括当前访问/会话。 | 双精度（仅限正整数），1、2、3 等 |
 | 访客配置文件 - 当前访问中的页面查看次数 | 指定访客在进入活动之前在当前访问/会话中的页面查看次数。精度更高的展示次数。这些展示次数并不是实际的页面查看次数，而是请求到达 Target 的次数。Target 无法区分用户是因为超时还是任何其他原因而未能接收或查看内容。 | 双精度（仅限正整数） |
-| 访客配置文件 - 当前访问的开始时间 | 指定当前 Target 访问/会话开始的时间。无需进入活动即可开始访问 Target。只需调用任意 mbox 即可访问。访客可能需要花费一些时间才能进入活动并拍摄快照。 | 双精度，毫秒 |
+| 访客配置文件 - 当前访问的开始时间 | 指定当前 Target 访问/会话开始的时间。无需进入活动即可开始访问 Target。All that is required is a call to any [!DNL Target] request. 访客可能需要花费一些时间才能进入活动并拍摄快照。 | 双精度，毫秒 |
 | 访客配置文件 - 最近一次访问的开始时间 | 指定上次 Target 访问/会话开始的时间。此属性将在会话过期时更新。<br>如果这是访客的第一个会话，则会导致 `LAST_SESSION_START = 0.` | 双精度，毫秒 |
 | 访客配置文件 - 首次进入活动时距最近一次访问的时间 | 指定从上一个会话到用户进入活动并拍摄快照所经过的时间。 | 双精度，毫秒 |
-| 访客配置文件 - 进入活动前的访问时间 | 指定从上次与 Target 进行交互到当前访问开始之间的时差。此属性可视为在用户进入活动并拍摄快照之前，访问/会话的持续时间。<br>如果会话开始时间和上次更新时间由同一个 mbox 调用触发，则会出现负值。负值应视为 0（零）。 | 双精度，毫秒 |
+| 访客配置文件 - 进入活动前的访问时间 | 指定从上次与 Target 进行交互到当前访问开始之间的时差。此属性可视为在用户进入活动并拍摄快照之前，访问/会话的持续时间。<br>[!DNL Target]如果会话开始时间和上次更新时间由同一个 调用触发，则会出现负值。负值应视为 0（零）。 | 双精度，毫秒 |
 | 访客配置文件 - 访问总数 | 指定访问/会话的总数。不包括当前访问/会话。 | 双精度（仅限正整数），1、2、3 等 |
 | 访客配置文件 - 活动访问总数 | 指定某个特定活动的访问次数。如果之前未访问过该活动，则将返回 0（零）。 | 双精度（仅限正整数），1、2、3 等 |
 | 访客配置文件 - 有转化时的活动访问总数 | 指定在访问期间至少有一次转化时某个特定活动的访问/会话数。 | 双精度 |

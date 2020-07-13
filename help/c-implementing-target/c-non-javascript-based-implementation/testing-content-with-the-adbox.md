@@ -1,19 +1,22 @@
 ---
-keywords: 实施;mbox.js 非 javascript;mbox;Adbox
+keywords: Implementation;mbox.js non javascript;mbox;adbox
 description: 使用AdBox在非现场实施中使用Adobe Target传送图像。
 title: 使用Adobe Target为图像创建Adbox
-subtopic: 入门指南
+subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 83%
 
 ---
 
 
 # 为图像创建 Adbox{#create-an-adbox-for-an-image}
 
-使用AdBox在使用Adobe target的非现场实施中传送图像。
+使用AdBox在非现场实施中使用Adobe Target传送图像。
 
 AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 具有特殊的 AdBox URL，此 URL 会将“广告”mbox（或 AdBox）加载到您的 Adobe 帐户中。在活动中可使用此 AdBox 替代 mbox。在电子邮件或其他非 JavaScript 实施中可使用 AdBox URL，而不使用直接图像引用。
 
@@ -29,9 +32,9 @@ AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 
 
    * 其中，`myClientCode` 是您公司的客户端代码。您公司的客户端代码全部为小写字母，且不含任何特殊字符。
 
-      * **at.js**：您的客户端代码在以下位置提供：[!UICONTROL  界面的]设置 &gt; 实施 &gt; 编辑 at.js 设置[!DNL Target]页面的顶部。
+      * **at.js**：您的客户端代码在以下位置提供：[!UICONTROL  界面的]设置 > 实施 > 编辑 at.js 设置[!DNL Target]页面的顶部。
 
-      * **mbox.js**：您的客户端代码在以下位置提供：[!UICONTROL 设置 &gt; 实施 &gt; 编辑 Mbox.js 设置]页面的顶部。
+      * **mbox.js**：您的客户端代码在以下位置提供：[!UICONTROL 设置 > 实施 > 编辑 Mbox.js 设置]页面的顶部。
    * 其中，`image` 是调用类型。在此例中为图像。
 
    * 其中，`emailHeroImage123_320x200` 是 AdBox 的名称。
@@ -43,7 +46,7 @@ AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 
 
 1. 为每个替代图像创建[重定向选件](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
 
-   >[!NOTE] {class="- topic/note "}
+   >[!NOTE]
    >
    >AdBox 必须和重定向选件或默认内容选件共同加载。不接受其他的选件类型。由于 AdBox 是 URL，它只能显示自身接收到的 URL，因此只有重定向选件才适用。
 

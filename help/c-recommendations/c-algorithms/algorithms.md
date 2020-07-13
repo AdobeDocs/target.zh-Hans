@@ -1,10 +1,13 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Adobe Target Recommendations中的标准是根据一组预定的访客行为确定推荐哪些产品的规则。
-title: Adobe Target推荐中的标准
+description: Adobe Target推荐中的标准是根据一组预定的访客行为确定推荐哪些产品的规则。
+title: Adobe Target建议中的标准
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1631'
+ht-degree: 74%
 
 ---
 
@@ -37,15 +40,15 @@ source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
 | 人气 | 推荐最受欢迎的项目，例如相关类别中最热门的视频或网站上最常查看的产品。<ul><li>人气</li></ul> |
 | 最近查看的项目 | 推荐访客最近查看过的项目，例如访客上次访问您的网站时所查看的项目，或访客当前最倾向于查看的商品。<br>“最近查看的项目”算法会返回特定于某个[环境](/help/administrating-target/hosts.md)中的访客活动。如果两个网站属于不同的环境，并且访客在两个网站之间切换访问，则算法将仅返回相应网站的最近查看的项目。<br>此标准类型不受收藏集限制。<ul><li>最近查看的项目</li></ul>**注意：**&#x200B;您无法在备用推荐中使用“最近查看的项目”标准。<br>可以筛选最近查看的项目/媒体，以便仅显示具有特定属性的项目。<ul><li>与推荐中的其他标准一样，“最近查看的项目”标准也可配置。</li><li>您可以使用[收藏集](/help/c-recommendations/c-products/collections.md)、[排除项](/help/c-recommendations/c-products/exclusions.md)和[包含项](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)（包括针对价格和库存的特殊规则），其使用方法与任何其他标准相同。</li></ul>用例可能包括：<ul><li>一家开展多种业务的跨国公司可能会让访客在多个数字财产中查看项目。在这种情况下，您可以限制最近查看的项目，以便仅显示之前查看的相应财产中的项目。执行此操作可防止最近查看的项目在其他数字财产网站上显示。</li></ul> |
 
-## 使用自定义推荐键 {#custom-key}
+## 使用自定义推荐密钥 {#custom-key}
 
-您还可以根据自定义配置文件属性的值来推荐。
+您还可以根据自定义用户档案属性的值创建推荐。
 
 >[!NOTE]
 >
->可以通过JavaScript、API或集成将自定义配置文件参数传递到Target。 有关自定义配置文件属性的详细信息，请参阅访 [客配置文件](/help/c-target/c-visitor-profile/visitor-profile.md)。
+>自定义用户档案参数可以通过JavaScript、API或集成传递到目标。 有关自定义用户档案属性的详细信息，请参阅 [访客用户档案](/help/c-target/c-visitor-profile/visitor-profile.md)。
 
-例如，假定您希望根据用户最近添加到队列的电影显示推荐的电影。
+例如，假定您要根据用户最近添加到队列的电影来显示推荐的电影。
 
 1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
 
@@ -55,7 +58,7 @@ source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
 
 If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
 
-例如，假设您希望显示来自用户喜爱品牌的畅销商品。
+例如，假定您要显示来自用户喜爱品牌的畅销商品。
 
 1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand]).
 
@@ -65,9 +68,9 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 1. 选择与您所选的键匹配的实体属性。In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
 
-   [!DNL Recommendations] 现在为每个品牌生成一个“最畅销商品”列表，并根据“最喜爱的品牌”配置文件属性中存储的值向用户显示相应的“最畅销商品  ”列表。
+   [!DNL Recommendations] 现在为每个品牌生成一个“最畅销者”列表，并根据“最喜爱品牌”列表属性中存储的值向用户显示相应的“最 [!UICONTROL 畅销] ”用户档案。
 
-   ![“最畅销商品”属性](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
+   ![Top Sellers attribute](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
 ## Criteria/algorithms {#criteria-algorithms}
 
@@ -75,7 +78,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 | 标准 | 描述 |
 |--- |--- |
-| 具有相似属性的项目/媒体 | 根据当前页面活动或以往的访客行为来推荐类似的项目或媒体。<br>**注意：**&#x200B;如果您选择了具有相似属性的项目/媒体，则可以选择设置内容相似度规则。 |
+| 具有相似属性的项目/媒体 | 根据当前页面活动或以往的访客行为来推荐类似的项目或媒体。<br>**注意：**如果您选择了具有相似属性的项目/媒体，则可以选择设置内容相似度规则。 |
 | 查看了这个项目，也查看了那个项目的人 | 推荐在查看了指定项目的同一会话中最常查看的项目。 |
 | 查看了这个项目，但购买了那个项目的人 | 推荐在查看了指定项目的同一会话中最常购买的项目。此标准会返回客户在查看指定项目后所购买的其他产品，返回的结果集中不包含指定的产品。 |
 | 购买了这个项目，也购买了那个项目的人 | 推荐客户在购买指定项目的同时最常购买的其他项目。 |
@@ -83,9 +86,9 @@ If your custom profile attribute does not directly match to a single entity ID, 
 | 最畅销商品 | 大多数已完成的订单中都包含的项目。同一项目在一个订单中购买多件会被计为一次订购。 |
 | 查看次数最多 | 最常查看的项目或媒体。 |
 | 最近查看的项目/媒体 | 访客最近查看过的项目。使用此标准时，您应该更新 Target 设计，以便处理因先前查看的项目不足而显示空白推荐的情况。 |
-| 基于用户的推荐 | 根据每个访客的浏览、查看和购买历史记录推荐项目。 这些项目通常称为“推荐给您”。<br>通过此标准，您可以向新访客和回头客提供个性化的内容和体验。 推荐列表会根据访客的最新活动进行加权，并会在会话中更新，并随着用户浏览您的网站而变得更加个性化。<br>视图和购买均用于确定推荐的项目。 指定的推荐密钥（例如，当前项目）用于应用您选择的任何包含规则筛选器。 例如，您可以：<ul><li>排除不符合特定标准的项目（产品无库存、30天前发布的文章、评级为R的电影等）</li><li>将包含的项目限制为单个类别或当前类别</li></ul> |
+| 基于用户的推荐 | 根据每个访客的浏览、查看和购买历史记录推荐项目。 这些项目通常称为“推荐给您”。<br>此标准允许您向新访客和回头客提供个性化内容和体验。 推荐列表根据访客的最新活动进行加权，并在会话中更新，随着用户浏览您的网站，推荐的个性化程度也会提高。<br>视图和购买均用于确定建议的项目。 指定的推荐密钥（例如当前项目）用于应用您选择的任何包含规则过滤器。 例如，您可以：<ul><li>排除不符合某些标准的项目（产品缺货、30天前发布的文章、评级为R的电影等）</li><li>将包含的项目限制为单个类别或当前类别</li></ul> |
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >如果您在推荐运行时更改其标准，则会丢失报表数据。
 
@@ -103,10 +106,10 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 ![“算法信息”选项卡](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-单击&#x200B;**[!UICONTROL 算法使用情况]选项卡可查看引用所选标准的活动列表。**&#x200B;该卡片列出了活跃和不活跃的活动。单击“实时活动”或“不活跃的活动”下拉列表可查看引用该标准的整个活动列表。您可以单击活动链接以打开活动进行编辑。
+单击&#x200B;**[!UICONTROL 算法使用情况]**&#x200B;选项卡可查看引用所选标准的活动列表。该卡片列出了活跃和不活跃的活动。单击“实时活动”或“不活跃的活动”下拉列表可查看引用该标准的整个活动列表。您可以单击活动链接以打开活动进行编辑。
 
-![“算法使用情况”选项卡](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
+![“算法使用”选项卡](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->“算 [!UICONTROL 法使用] ”功能当前仅支持“推荐”活动。 A/B测试和体验定位(XT)活动当前不支持此功能，这些活动将推荐 [作为选件包含](/help/c-recommendations/recommendations-as-an-offer.md)。
+>目 [!UICONTROL 前仅支持] “推荐”活动的“算法使用情况”功能。 A/B测试和体验定位(XT)活动当前不支持此功能，这些包含 [推荐作为优惠](/help/c-recommendations/recommendations-as-an-offer.md)。

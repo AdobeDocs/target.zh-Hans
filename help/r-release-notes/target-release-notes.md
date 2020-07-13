@@ -5,10 +5,10 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 322b14629d420601b763fed7597c43a8458b7dbf
+source-git-commit: 1280d152b749442fe9337dc9eba7321d33f17723
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 17%
+source-wordcount: '572'
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新时间：2020 年 6 月 24 日**
+**上次更新日期：2020 年 7 月 13 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -51,6 +51,16 @@ ht-degree: 17%
 * 出于隐私原因模糊处理访客IP **[!UICONTROL 地址]** (“管 **[!UICONTROL 理”]**>“实施”)
 * 在AdobeAdmin Console（“管理”>“用户”）中管理每个工作区的用户及其角色的现&#x200B;**[!UICONTROL 有视图]** ，之 **[!UICONTROL 前再进]**&#x200B;行列表。
 * 搜索并过滤“管理”部分中 [!UICONTROL 的所有] 表。
+
+### 增强功能、修复和变更
+
+此版本包含以下增强、修复和更改：
+
+* 修复了在刷新后无法保留站点首选项的问题。 (TGT-37239)
+* 修复了“在后插 [!UICONTROL 入”] >“图 [!UICONTROL 像”无法正常使用] 可缩放矢量图形(SVG)图像的问题。 (TGT-37242)
+* 修复了具有“发布者”角 [!UICONTROL 色的用户] ，该问题导致无法删除草稿活动。 (TGT-37358)
+* 修复了在选择“我的所有工作区”时阻止 [!UICONTROL 用户编辑活动] 的问题。 (TGT-37276)
+* 增强了现有用户档案脚本信息卡以及受众使用信息。 (TGT-37302)
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

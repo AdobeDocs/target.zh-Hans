@@ -1,10 +1,13 @@
 ---
-keywords: 推荐;备用
+keywords: recommendation;backup;back up
 description: 如果您使用备用推荐功能，任何不具备足够推荐项目的“推荐”将不会显示默认内容。“推荐”将改为显示备用算法的结果。
 title: 使用备用推荐
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 如果不对备用推荐进行分段，则可能会按以下顺序显示项目：先显示查看次数排在第 499 位的项目，再显示查看次数排在第 200 位的项目，再显示查看次数排在第 380 位的项目，等等。分段过程可以确保优先推荐查看次数最多的项目。
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >如果将项目分组到不同的目录中，则针对推荐中的各个算法生成的备用推荐也使用相应目录，因此，只有目录中的项目会包含在备用推荐中。
 

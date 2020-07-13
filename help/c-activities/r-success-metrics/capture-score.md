@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 52%
+source-wordcount: '764'
+ht-degree: 51%
 
 ---
 
@@ -48,13 +48,13 @@ The Capture Score engagement metric calculates an aggregated score based on the 
 
    Using this method, the specified value is added to the score for each [!DNL Target] request on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three [!DNL Target] requests on the page, the score for the page is 30.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >目标请求位于活动的第一个显 [!DNL Target] 示请求之上，将不会包括在得分中。
 
 Best practice is to assign values in the [!DNL Target] request. 这样，根据每个请求的内容，您可以精确测量值。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >为便于维护，您可以在 [!DNL at.js] 或 [!DNL mbox.js] 文件中使用某些条件性 JavaScript 逻辑配置网站的页面分数值分配。这样就无需向网页添加更多代码。请联系您的客户顾问以寻求帮助。
 

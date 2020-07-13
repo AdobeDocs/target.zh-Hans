@@ -5,7 +5,10 @@ title: 创建重定向选件
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 您可能有两个完全不同的页面来进行测试，而非只更改页面中的部分内容。在这种情况下，您的 A/B 测试会比较页面 A 与页面 B。可设置包含两种体验的 A/B 测试营销活动：一种体验指向默认页面 A，另一种体验重定向至页面 B。选件被配置为将访客重定向至不同的页面。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >您不能在 ajax mbox 中使用重定向选件 (`mboxUpdate`)。
 >
@@ -26,7 +29,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 重定向选件执行 JavaScript 代码以重定向浏览器。由于该选件使用了 `window.location.replace();` 方法，因此从中对访客进行重定向的页面不会存储到浏览器历史记录中。这允许访客仍然使用浏览器中的返回键。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >如果您希望传递登陆页的引荐链接值，建议您使用 HTML 选件，而不是重定向选件。
 
@@ -51,11 +54,11 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    如果您使用的是第一方和第三方 Cookie 设置，则无需在跨域时传递 mbox 会话 ID。第三方 Cookie 中会一直保留此 ID，因此不必在 URL 中传递此 ID。
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >请在启动这些测试前，咨询您的实施顾问。
 
-## 培训视频：内容存储库(4:56)概 ![述徽章](/help/assets/overview.png)
+## 培训视频： 内容存储库(4:56)概 ![述徽章](/help/assets/overview.png)
 
 以下视频包含有关管理内容的信息。
 

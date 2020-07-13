@@ -4,7 +4,10 @@ description: 可使用开源 Velocity 设计语言来自定义推荐设计。
 title: 使用 Velocity 自定义设计
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 9dc508ee3e4d11d8b1e83ba1397eb783805091eb
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1010'
+ht-degree: 65%
 
 ---
 
@@ -114,7 +117,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 </table>
 ```
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >如果要在指示变量名称的标记完成之前在变量的值之后添加文本，则可以使用形式记号来圈住变量的名称。 例如：`${entity1.thumbnailUrl}.gif`。
 

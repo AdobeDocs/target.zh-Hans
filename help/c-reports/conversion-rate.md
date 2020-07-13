@@ -1,11 +1,14 @@
 ---
-keywords: 定位
+keywords: Targeting
 description: 为每次体验报告转化率、提升度、置信度（统计意义）和置信区间。
 title: 转化率
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1621'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >在所有的数据中，如果传递 `orderID`，则会忽略重复订单。审计报表列出了被忽略的重复订单。
 
@@ -104,7 +107,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 [下载的 CSV 报表](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)仅包含原始数据，而不包含计算量度，如 A/B 测试中使用的每位访客带来的收入、提升度或置信度。
 
-To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -121,8 +124,8 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
 **使用[!DNL Analytics]数据导出功能执行此操作：**
 
 1. 登录到 [!DNL Adobe Analytics]。
-1. 单击&#x200B;**[!UICONTROL 工具]** &gt; **[!UICONTROL Data Warehouse]**。
-1. 在 **[!UICONTROL Data Warehouse 请求]选项卡中，填写相应的字段。**
+1. 单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]**。
+1. 在 **[!UICONTROL Data Warehouse 请求]**&#x200B;选项卡中，填写相应的字段。
 
    有关各个字段的更多信息，请参阅 [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) 中的“Data Warehouse 请求描述”。
 
@@ -138,14 +141,14 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
 
 1. 单击&#x200B;**[!UICONTROL 请求此报表]**。
 
-   根据请求的数据数量，文件提交最多可能需要 72 小时。您可以随时查看请求的进度，方法是单击“[!UICONTROL 工具]”&gt;“[!UICONTROL Data Warehouse]”&gt;“[!UICONTROL 请求管理器]”。
+   根据请求的数据数量，文件提交最多可能需要 72 小时。您可以随时查看请求的进度，方法是单击“[!UICONTROL 工具]”>“[!UICONTROL Data Warehouse]”>“[!UICONTROL 请求管理器]”。
 
    如果您想要重新请求之前已请求过的数据，则可以根据需要从“[!UICONTROL 请求管理器]”中复制之前的请求。
 
 有关 [!DNL Data Warehouse] 的更多信息，请访问 [!DNL Analytics] 帮助文档中的以下链接：
 
 * [创建 Data Warehouse 请求](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [数据仓库最佳实践](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Data warehouse最佳实践](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## 计数方法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -180,6 +183,6 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
 
    单次访问可能包含多次展示，例如您的主页在一次访问期间可能会展示多次。
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >通常情况下，计数取决于 Cookie 和会话活动。但是，如果您达到了活动的最终转化点，然后又重新进入活动，则您会被视为新参加者，而您对活动的访问也会被视为新访问。即使用户的 PCID 和 `sessionID` 值不变，也是如此。

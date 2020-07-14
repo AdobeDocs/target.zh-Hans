@@ -5,9 +5,9 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1334'
 ht-degree: 32%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 14 年 7 月 | [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、自<br>[动目标](/help/c-activities/auto-target-to-optimize.md)、自<br><br>[动个性化常见问题解答](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 添加了常见问题解答，建议您不要在活动中途更改目标指标。 |
 | 7 年 7 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关7月8日Adobe Target咖啡休息会的信息。 |
 | 6月25日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/高级版20.6.1版本（2020年7月）的信息。 |
 |  | [目标文档概述](/help/r-release-notes/target-documentation.md) | 详细介绍不同文档来源的新 [!DNL Target] 主题。 |
@@ -85,7 +86,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 7 年 4 月 | [提升度和置信度 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 更新了“为什么我看不到计算指标的提升和信心？”的文本 |
 | 2 年 4 月 | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 添加了有关使用 `user.header('x-forwarded-for')` 较新的AWS边缘来检索用户IP地址的信息。 |
 |  | [从 at.js 1.*x* 升级到 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 添加了以下注释：<ul><li>安装 ECID 库 v4.3.0+ 和 at.js 2.*x* 之后，您将能够创建跨越独特域的活动并跟踪用户。请务必注意，此功能仅在会话过期后才可用。</li></ul> |
-| 3月30日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 添加了影响at.js 2.2.0之前版本的at.js的已知问题。当AdobeAnalytics代码在页面元素上不存在时，此问题导致单击跟踪无法报告Analytics的目标转换(A4T)。 |
+| 3月30日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 添加了影响at.js 2.2.0之前版本的at.js的已知问题。此问题导致单击跟踪不报告在Analytics目标(A4T)中的转换，因为页面元素中不存在AdobeAnalytics代码。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 将以下信息添加到at.js版本2.2.0详细信息中：<ul><li>修复了在页面元素中不存在Adobe Analytics代码时，导致单击跟踪无法报告Analytics目标(A4T)的转换的问题。</li></ul> |
 | 3月25日 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关以下新版at.js的信息：<ul><li>at.js版本2.3.0</li><li>at.js版本1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 在“设置”部分添加了以下新行：<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>添加了以下新章节：<ul><li>内容安全策略</li></ul> |

@@ -5,9 +5,9 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1280d152b749442fe9337dc9eba7321d33f17723
+source-git-commit: 7f23f80a0528ea2e6de78a5491c87ca72862813d
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '561'
 ht-degree: 16%
 
 ---
@@ -60,7 +60,6 @@ ht-degree: 16%
 * 修复了“在后插 [!UICONTROL 入”] >“图 [!UICONTROL 像”无法正常使用] 可缩放矢量图形(SVG)图像的问题。 (TGT-37242)
 * 修复了具有“发布者”角 [!UICONTROL 色的用户] ，该问题导致无法删除草稿活动。 (TGT-37358)
 * 修复了在选择“我的所有工作区”时阻止 [!UICONTROL 用户编辑活动] 的问题。 (TGT-37276)
-* 增强了现有用户档案脚本信息卡以及受众使用信息。 (TGT-37302)
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

@@ -1,10 +1,13 @@
 ---
-keywords: 故障诊断;常见问题解答;FAQ;常见问题;自动个性化
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
 description: 有关自动个性化 (AP) 的常见问题解答 (FAQ) 列表。
 title: 自动个性化常见问题解答
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+workflow-type: tm+mt
+source-wordcount: '1761'
+ht-degree: 95%
 
 ---
 
@@ -103,3 +106,9 @@ AP 活动产生提升需要四个因素：
 ## 为何访客在 AP 活动中看到他们不应看到的体验？{#section_41CECEAE0881446A8D9F3B016857914B}
 
 自动个性化活动会在每次会话中都进行一次评估。如果之前已有活跃会话符合某个特定体验的条件，且现在已在该体验中添加了新选件，则用户会同时看到新的内容以及之前显示的选件。因为用户之前符合这些体验的参加条件，因此他们在会话持续期间仍会看到这些体验。如果您希望在每一次进行页面访问时都进行评估，则应该切换到体验定位 (XT) 活动类型。
+
+## 我是否可以在自动个性化活动的中途更改目标指标？ {#change-metric}
+
+我们不建议您在活动中途更改目标量度。 虽然可以在使用UI的活动中更改目标量度， [!DNL Target] 但您应始终开始新活动。 如果您在活动中更改目标量度后，该量度运行，我们不担保会发生什么情况。
+
+此建议适用 [!UICONTROL 于使用][!UICONTROL 或](A4T)作 [!UICONTROL 为报告源的自动分][!DNL Target][!DNL Analytics] 配、自动目标和自动个性化活动。

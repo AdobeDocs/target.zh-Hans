@@ -5,9 +5,9 @@ user-guide-title: Adobe Target 帮助
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1421'
 ht-degree: 92%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 92%
          + [Google Chrome SameSite Cookie 策略](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [内容安全策略(CSP)指令](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [允许列表目标边缘节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [允许列表目标边节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + 将数据导入 Target 的方法 {#methods}
          + [方法](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [配置文件 API 设置](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -202,6 +202,7 @@ ht-degree: 92%
    + 自动分配 {#auto-allocate}
       + [Auto-Allocate（自动分配）](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [解释自动分配报告](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [自动分配比手动测试提供更快的测试结果和更高的收入](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [自动定位](c-activities/auto-target-to-optimize.md)
    + 自动个性化 {#automated-personalization}
       + [自动个性化概述](c-activities/t-automated-personalization/automated-personalization.md)

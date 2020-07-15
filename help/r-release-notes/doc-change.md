@@ -5,9 +5,9 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1351'
 ht-degree: 32%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 15 年 7 月 | [与手动测试相比，“自动分配”功能可以提高测试结果和收入](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | 新主题。 |
 | 14 年 7 月 | [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、自<br>[动目标](/help/c-activities/auto-target-to-optimize.md)、自<br><br>[动个性化常见问题解答](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 添加了常见问题解答，建议您不要在活动中途更改目标指标。 |
 | 7 年 7 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关7月8日Adobe Target咖啡休息会的信息。 |
 | 6月25日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/高级版20.6.1版本（2020年7月）的信息。 |

@@ -5,10 +5,10 @@ user-guide-title: Adobe Target 帮助
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: f2cd428fa16bd1a6b3c677f862f163bd8b66ef41
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 92%
+source-wordcount: '1423'
+ht-degree: 91%
 
 ---
 
@@ -202,7 +202,7 @@ ht-degree: 92%
    + 自动分配 {#auto-allocate}
       + [Auto-Allocate（自动分配）](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [解释自动分配报告](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [自动分配比手动测试提供更快的测试结果和更高的收入](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+      + [与手动测试相比，“自动分配”功能可以提高测试结果和收入](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [自动定位](c-activities/auto-target-to-optimize.md)
    + 自动个性化 {#automated-personalization}
       + [自动个性化概述](c-activities/t-automated-personalization/automated-personalization.md)

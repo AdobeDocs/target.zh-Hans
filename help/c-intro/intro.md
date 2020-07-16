@@ -5,7 +5,10 @@ title: Adobe Target 简介
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: ffb7d592cf4878f301f168f2f635a2b9c9455ece
+workflow-type: tm+mt
+source-wordcount: '971'
+ht-degree: 96%
 
 ---
 
@@ -13,12 +16,6 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 # Target 简介{#introduction-to-target}
 
 Adobe Target 是一种 Adobe Experience Cloud 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
-
-以下视频大致介绍了 Target 及其他 Adobe Experience Cloud 解决方案如何帮助贵组织实现目标：
-
->[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
-
->[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
 
 [!DNL Adobe Target] 解决方案包含以下几个组件：
 
@@ -38,7 +35,7 @@ Adobe Target 是一种 Adobe Experience Cloud 解决方案，可为您提供定�
 
 [!DNL Target Premium] 是一个高级 [!DNL Target] 许可，为 [!DNL Target Standard] 添加了多项高级功能。
 
-此帮助中的Target Premium主题包括页面顶部的Premium徽章：
+目标高级主题在此帮助中包括页面顶部的高级徽章：
 
 ![Premium 徽章](/help/assets/premium.png)
 
@@ -101,7 +98,7 @@ Target Premium 包含以下高级功能：
 
 [Adobe Target欢迎工具包](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## 培训视频：活动类型(9:03)概 ![述徽章](/help/assets/overview.png)
+## 培训视频： 活动类型(9:03) ![概述徽章](/help/assets/overview.png)
 
 以下视频介绍了 [!DNL Target Standard/Premium] 中提供的活动类型，以及 Target 的三步引导式工作流如何帮助您实现网站目标。
 

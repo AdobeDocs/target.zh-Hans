@@ -5,10 +5,10 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 32%
+source-wordcount: '1365'
+ht-degree: 31%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 17 年 7 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关7月22日Adobe Target咖啡休息日的信息。 |
 | 15 年 7 月 | [与手动测试相比，“自动分配”功能可以提高测试结果和收入](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | 新主题。 |
 | 14 年 7 月 | [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、自<br>[动目标](/help/c-activities/auto-target-to-optimize.md)、自<br><br>[动个性化常见问题解答](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 添加了常见问题解答，建议您不要在活动中途更改目标指标。 |
 | 7 年 7 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关7月8日Adobe Target咖啡休息会的信息。 |

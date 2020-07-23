@@ -1,11 +1,14 @@
 ---
-keywords: 活动设置;体验定位目标和设置;XT 目标和设置;体验定位;报表设置;目标量度;成功量度;依赖的成功量度;高级设置;主要目标;其他量度;目的;优先级;持续时间;报表解决方案;目标;报表的受众;递增此量度之前必须实现哪些成功量度;用户遇到此目标量度后会出现什么情况;注释
+keywords: activity settings;experience targeting goals and settings;xt goals and settings;experience targeting;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: 您可以在“目标和设置”页面上输入有关测试目标的信息。
 title: 目标和设置
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1228'
+ht-degree: 97%
 
 ---
 
@@ -36,9 +39,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。
 
-如果未在“设置”中启用此选项（默认），请指定以下优先级：“低”、“中”或“高”。
+如果“管理”（默认）中未启用此选项，请指定优先级： 低、中或高。
 
-要启用细粒度优先级，请单击“设置”，然后将“启用细粒度优先级”选项切换到“开”位置。
+To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
 
 如果已启用此选项，请指定一个介于 0 到 999 之间值：
 
@@ -160,4 +163,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 添加报表受众以创建报表筛选器
 * 输入活动的注释
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)

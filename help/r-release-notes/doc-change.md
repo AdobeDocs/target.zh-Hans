@@ -5,10 +5,10 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '1483'
-ht-degree: 32%
+source-wordcount: '1491'
+ht-degree: 33%
 
 ---
 
@@ -24,6 +24,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 27 年 7 月 | [管理 Target](/help/administrating-target/administrating-target.md) | 更新了此页面上所有链接主题中的文本，以反映“管理”页面的新 [!UICONTROL UI] 更改。 |
 |  | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 做出了以下更改： <ul><li>添加了以下网络研讨会的注册信息： “汇丰如何利用Adobe Target和人工智能大规模地快速优化和提供个性化。”</li><li>在Gartner个性化引擎魔力象限报告中，新增了有关Adobe再次被评为领导者的信息。</li></ul> |
 |  | [Form-Based Experience Composer（基于表单的体验编辑器）](/help/c-experiences/form-experience-composer.md) | 第4步中阐明的信息： 选择位置。 |
+| 24 年 7 月 | <br>[at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.3.2 的信息。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：20.7.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe Target Standard/Premium 20.5.1（2020 年 6 月 17 日） 

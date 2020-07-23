@@ -1,11 +1,14 @@
 ---
-keywords: adobe.target.getOffer;getOffer;getoffer;获取选件;at.js;函数;函数
+keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;functions;function
 description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffer(options) 函数的信息。
 title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffer(options) 函数的信息。
-subtopic: 入门指南
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | 参数 | 对象 | 否 | Mbox 参数。键值对这一对象具有以下结构：<br>`{ "param1": "value1", "param2": "value2"}` |
 | success | 函数 | 是 | 当我们从服务器获得响应时执行的回调函数。success 回调函数将接收一个参数，该参数表示一组选件对象。以下是一个 success 回调示例：<br>`function handleSuccess(response){......}`<br>有关详细信息，请参阅下文的“响应”。 |
 | error | 函数 | 是 | 我们遇到错误时执行的回调函数。以下是几个出现错误的案例：<ul><li>HTTP 状态码不是 200 OK</li><li>响应无法解析。例如，我们不当地构造了 JSON，或者构造了 HTML 而不是 JSON。</li><li>响应包含“error”键值。例如，在边缘服务器上引发异常，无法正确处理请求。我们可能会在 mbox 被阻止并且无法为其检索任何内容等情况发生时收到错误。error 回调函数将接收两个参数：status 和 error。以下是一个 error 回调示例： `function handleError(status, error){......}`</li></ul>有关详细信息，请参阅下文的“错误响应”。 |
-| timeout | 数值 | 否 | 以毫秒为单位的超时时间。如果未指定，将使用 at.js 中的默认超时设置。<br>[!DNL Target]可以通过[!UICONTROL 设置 &gt; 实施 &gt; 编辑 Mbox.js 设置 &gt; 超时]下的 UI 设置默认超时。 |
+| timeout | 数值 | 否 | 以毫秒为单位的超时时间。如果未指定，将使用 at.js 中的默认超时设置。<br>默认超时可以从UI的“管理”>“ [!DNL Target] 实施” [!UICONTROL 下设置]。 |
 
 ## 示例 {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
 

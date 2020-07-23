@@ -5,10 +5,10 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 26447c745cf56f3e04ad477bc05446e5d8ab76c1
+source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 16%
+source-wordcount: '630'
+ht-degree: 14%
 
 ---
 
@@ -17,13 +17,16 @@ ht-degree: 16%
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2020 年 7 月 22 日**
+**上次更新日期：2020 年 7 月 27 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->* **mbox.js弃用**: 2020年8月30日，Adobe Target将不再支持mbox.js库。 2020年8月30日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响目标活动运行的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请 [参阅At.js工作方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 和 [Adobe Target技能生成器： 开发人员聊天，将Adobe Target的mbox.js迁移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+>* **Adobe再次在Gartner个性化引擎魔力象限报告中被评为领导者**: 在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为行业领袖。 Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商： 愿景和执行能力的完整性。 [在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+   >
+   >
+* **mbox.js弃用**: 2020年8月30日，Adobe Target将不再支持mbox.js库。 2020年8月30日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响目标活动运行的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请 [参阅At.js工作方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 和 [Adobe Target技能生成器： 开发人员聊天，将Adobe Target的mbox.js迁移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
    >
    >   
    尽管目前支持mbox.js，但自2017年7月起，我们便未对此库提供功能更新。 较新的at.js比mbox.js具有许多优势。 at.js可缩短Web实施的页面加载时间，提高安全性，并为单页应用程序提供更好的实施选项。
@@ -35,7 +38,7 @@ ht-degree: 16%
 * **目标通知**: 有关即将进行的目标的信息，请参阅事件公告页，包括目标技能生成器会话、开发人员聊天、网络研讨会和目标咖啡休息会话。 有关详细信息，请参阅 [目标公告](/help/r-release-notes/target-announcements.md)。
 
 
-## Target Standard/Premium 20.7.1（2020 年 7 月 22 日） 
+## Target Standard/Premium 20.7.1（2020 年 7 月 27 日） 
 
 此版本包括以下增强功能：
 
@@ -51,6 +54,8 @@ ht-degree: 16%
 * 出于隐私原因模糊处理访客IP **[!UICONTROL 地址]** (“管 **[!UICONTROL 理”]**>“实施”)
 * 在AdobeAdmin Console（“管理”>“用户”）中管理每个工作区的用户及其角色的现&#x200B;**[!UICONTROL 有视图]** ，之 **[!UICONTROL 前再进]**&#x200B;行列表。
 * 搜索并过滤“管理”部分中 [!UICONTROL 的所有] 表。
+
+有关详细信息，请参 [阅管理目标概述](/help/administrating-target/administrating-target.md)。
 
 ### 增强功能、修复和变更
 

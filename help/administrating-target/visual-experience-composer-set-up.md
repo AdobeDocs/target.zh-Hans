@@ -4,10 +4,10 @@ description: 通过指定Adobe Target可视体验书写器(VEC)的常规设置�
 title: 配置Adobe Target视觉体验书写器
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 52%
+source-wordcount: '694'
+ht-degree: 51%
 
 ---
 
@@ -15,10 +15,6 @@ ht-degree: 52%
 # 配置可视体验书写器
 
 通过指 [!DNL Adobe Target] 定可视 [!UICONTROL 体验书写器] (VEC)的常规设置、移动视口配置和CSS选择器来配置它。
-
->[!NOTE]
->
->下面列出的本部分主题已更新，为您在20.6.1版本（2020年7月）即将发布的UI更改中 [!DNL Target Standard/Premium] 抢先登峰造极。 这些主题中展示的大多数信息适用于当前的UI; 但是，选项可能位于稍有不同的位置。
 
 要访问Visual Experience Composer [!UICONTROL 配置页] ，请单击“ **[!UICONTROL 管理]** ” **[!UICONTROL >“]Visual Experience Composer”。**
 
@@ -104,5 +100,9 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 以下视频包含有关帐户首选项的信息。
 
 * 介绍 [!DNL Target Standard] 中可用的帐户设置
+
+>[!NOTE]
+>
+>“管 [!DNL Target] 理 [!UICONTROL ”菜单UI(以] 前为“设置 ”)经过重新设计，可提供改进的性能、减少发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的； 但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

@@ -4,21 +4,17 @@ description: 通过指定Adobe Target可视体验书写器(VEC)的常规设置�
 title: 在Adobe Target中配置报告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 30%
+source-wordcount: '666'
+ht-degree: 32%
 
 ---
 
 
-# 在Target中配置报告
+# 在目标中配置报告
 
 配置一般设置，以在 [!DNL Adobe Target] 报告中应用于整个 [!DNL Target] 帐户。
-
->[!NOTE]
->
->本主题中的信息已更新，可在Target Standard/高级版20.6.1版本（2020年7月）即将发布的UI更改中抢先登峰造极。 本主题中显示的大多数信息适用于当前UI; 但是，选项可能位于稍有不同的位置。
 
 要访问报告 [!UICONTROL 配置] 页，请单击“ **[!UICONTROL 管理]** ” **[!UICONTROL >]报告。**
 
@@ -33,7 +29,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->请注意，排除设置的时区、货币和IP地址应用于使用活动的 [!DNL Target] 报告。 这些设置不适用于将 [Analytics用作活动源(] /help/c-integrating-target-with-mac/a4t/a4t.md)的报告。
+>请注意，排除设置的时区、货币和IP地址应用于使用活动的 [!DNL Target] 报告。 这些设置不适用于将活动( [A4T)用作Analytics源] (/help/c-integrating-target-with-mac/a4t/a4t.md)的目标。
 
 ![报告页](/help/administrating-target/assets/reporting.png)
 
@@ -58,7 +54,7 @@ Select the reporting source for your activities, either [!DNL Target] or [!DNL A
 
 指定用于报告的货币。
 
-## 要从Target报告数据中排除的IP
+## 要从目标报告数据中排除的IP
 
 指定要从报告数据中排除的任何IP地址。 例如，排除内部公司地址是确保报告数据反映客户在网站上的互动的好方法。
 

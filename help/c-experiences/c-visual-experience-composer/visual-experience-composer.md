@@ -3,7 +3,10 @@ description: 有关在 Adobe Target 中使用可视化体验编辑器 (VEC) 的�
 title: Adobe Target 可视化体验编辑器 (VEC)
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +19,7 @@ VEC 是 WYSIWYG 用户界面，可让您轻松地在站点环境中创建和测�
 
 VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和设计人员可以使用可视化界面创建和更改内容。无需直接编辑代码，便可进行多种设计选择。使用编辑器提供的编辑选项也可以编辑 HTML 和 JavaScript。
 
-在 Target 的&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 首选项]**&#x200B;选项卡上，您可以输入默认可视化体验编辑器 URL。
+On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab, you can enter the Default Visual Experience Composer URL.
 
 ![默认 VEC URL 设置](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -127,7 +130,7 @@ VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### 办公时间：Visual Experience Composer教 ![程徽章](/help/assets/tutorial.png)
+### 办公时间： Visual Experience Composer教 ![程徽章](/help/assets/tutorial.png)
 
 此视频是“[办公时间](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 

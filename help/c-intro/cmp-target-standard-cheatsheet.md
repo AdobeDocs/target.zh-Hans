@@ -5,10 +5,10 @@ title: Target 优化和个性化常见问题解答
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2904'
-ht-degree: 99%
+source-wordcount: '2908'
+ht-degree: 98%
 
 ---
 
@@ -134,9 +134,9 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 有两种选项：
 
 * 默认选项，共三个等级（低/中/高）
-* 自定义选项，范围从 0 到 999。对于自定义优先级，请启用细粒度优先级功能（设置 > 首选项）
+* 自定义选项，范围从 0 到 999。对于“自定义”，请启用“细粒度优先级”功能（“管理”>“可视体验书写器”）。
 
-## 受众{#section_FA6314777ABC46D8B198D6F388051460}
+## 受众 {#section_FA6314777ABC46D8B198D6F388051460}
 
 **我是否可以在活动中创建特定于该活动的受众区段？我不认为应在受众库中创建此类受众，因为没有可以重复使用的地方。**
 
@@ -198,7 +198,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **我有多个域。其中一个域需要启用增强型体验编辑器，而其他域则需要将其禁用。我该如何处理？**
 
-您可以随时覆盖默认设置，改为[在活动级别使用增强型体验编辑器选项](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)（设置 > 首选项）。
+You can always use [Enhanced Experience Composer option at the activity level](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
 
 **为何我看不到交换图像的选项？**
 

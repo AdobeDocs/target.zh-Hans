@@ -1,11 +1,14 @@
 ---
-keywords: SPA VEC;React;Angular;react.js;SPA 可视化体验编辑器;SPA 体验编辑器选项;单页应用程序;single-page-app;SPA;移动设备体验选项;Target 视图
+keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: 使用 Adobe Target 中单页应用程序 (SPA) 的可视化体验编辑器 (VEC)，营销人员能够以 DIY（自己动手）方式创建测试并对 SPA 上的内容进行个性化，而无需持续依赖开发。VEC 可用于在大多数常用框架上创建活动，例如 React 和 Angular。
 title: 单页应用程序 (SPA) 可视化体验编辑器
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3692'
+ht-degree: 92%
 
 ---
 
@@ -24,13 +27,13 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 为进一步说明“视图”的概念，让我们浏览一下这个在 React 中实施的假定的在线电子商务网站，并探索一些“视图”示例。单击下面的链接可在新浏览器选项卡中打开此站点。
 
-**链接：主[页](https://target.enablementadobe.com/react/demo/#/)**
+**链接：[主页](https://target.enablementadobe.com/react/demo/#/)**
 
 ![home 站点](/help/c-experiences/assets/home.png)
 
 导航到主页时，我们可以立即看到展示复活节促销活动的主页图像，以及网站上销售的最新产品。在这种情况下，可以将“视图”定义为整个 home 站点。这种方式很容易记忆，我们将在下面的“实施 Adobe Target 视图”章节中对此进行详细介绍。
 
-**链接：产[品站点](https://target.enablementadobe.com/react/demo/#/products)**
+**链接：[产品站点](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![产品站点](/help/c-experiences/assets/product-site.png)
 
@@ -44,7 +47,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 我们决定单击“Load More”（了解更多）按钮，以浏览站点上的更多产品。在这种情况下，网站 URL 不会发生更改。但是，这里的视图只能呈现上面显示的第二行产品。此视图名称可称为“PRODUCTS-PAGE-2”。
 
-**链接：结[帐](https://target.enablementadobe.com/react/demo/#/checkout)**
+**链接：[结帐](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![结帐页面](/help/c-experiences/assets/checkout.png)
 
@@ -64,7 +67,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    ![“实施详细信息”对话框](/help/c-experiences/assets/imp-200.png)
 
-   通过位于[!UICONTROL 设置 &gt; 实施]中的 Adobe Target UI 下载 at.js 2.x。也可以通过 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。但是，Adobe Target 扩展当前不是最新的，不受支持。
+   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. 也可以通过 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。但是，Adobe Target 扩展当前不是最新的，不受支持。
 
 1. 在您的网站上实施 at.js 2.x 的最新函数：[triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)。
 
@@ -76,11 +79,11 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
    | --- | --- | --- | --- | --- |
    | viewName | 字符串 | 是 | 1. 无尾随空格。<br>2. 不能为空。<br>3. 所有页面的视图名称应该都是唯一的。<br>4. **警告**：视图名称不应以 `/` 开头或结尾。这是因为客户通常会从 URL 路径中提取视图名称。对于我们来说，“home”和“`/home`”是不同的。<br>5. **警告**：不应使用 `{page: true}` 选项连续多次触发同一视图。 | 将任何名称作为要显示视图的字符串类型传递。此视图名称显示在 VEC 的[!UICONTROL 修改]面板中，供营销人员创建操作并运行其 A/B 和 XT 活动。 |
    | options | 对象 | 否 |  |  |
-   | options &gt; page | 布尔值 | 否 |  | **TRUE**：page 的默认值为 true。当 `page=true` 时，将向 Edge 服务器发送增加展示次数计数的通知。<br>**FALSE**：当 `page=false` 时，将不会发送增加展示次数计数的通知。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
+   | options > page | 布尔值 | 否 |  | **TRUE**：page 的默认值为 true。当 `page=true` 时，将向 Edge 服务器发送增加展示次数计数的通知。<br>**FALSE **：当`page=false`时，将不会发送增加展示次数计数的通知。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
 
    现在，我们来查看一些关于如何在 React 中为假定的电子商务 SPA 调用 `triggerView()` 函数的示例用例：
 
-   **链接：主[页](https://target.enablementadobe.com/react/demo/#/)**
+   **链接：[主页](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -111,7 +114,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **链接：产[品站点](https://target.enablementadobe.com/react/demo/#/products)**
+   **链接：[产品站点](https://target.enablementadobe.com/react/demo/#/products)**
 
    现在，我们来看一个比较复杂的示例。假设我们是营销人员，想要在用户单击“Load More”（加载更多）按钮后将价格标签颜色更改为红色，以对第二行的产品进行个性化。
 
@@ -140,7 +143,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
    }
    ```
 
-   **链接：结[帐](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **链接：[结帐](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![react checkout](/help/c-experiences/assets/react6.png)
 
@@ -205,8 +208,8 @@ VEC 的[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-edit
 | --- | --- |
 | 信息 | 显示操作的详细信息。 |
 | 编辑 | 允许您直接编辑操作的属性。 |
-| 克隆 | 将操作克隆到位于“[!UICONTROL 修改]”面板上的一个或多个视图，或者您在 VEC 中浏览并导航到的一个或多个视图。该操作不一定存在于“[!UICONTROL 修改]”面板中。<br>**注意**：完成克隆操作后，您需要通过“[!UICONTROL 浏览]”导航到 VEC 中的视图，以查看克隆操作是否有效。如果该操作未应用到视图，您将看到一个错误。 |
-| 移动 | 将操作移动到“页面加载事件”或修改面板中已存在的任何其他视图。<br>[!UICONTROL 页面加载事件] – 与页面加载事件对应的任何操作会应用于 Web 应用程序的初始页面加载。<br>**注意**：完成移动操作后，您需要通过“浏览”导航到 VEC 中的视图，以查看移动操作是否有效。如果该操作未应用到视图，您将看到一个错误 |
+| 克隆 | 将操作克隆到位于“[!UICONTROL 修改]”面板上的一个或多个视图，或者您在 VEC 中浏览并导航到的一个或多个视图。该操作不一定存在于“[!UICONTROL 修改]”面板中。<br>**注意&#x200B;**：完成克隆操作后，您需要通过“[!UICONTROL 浏览]”导航到 VEC 中的视图，以查看克隆操作是否有效。如果该操作未应用到视图，您将看到一个错误。 |
+| 移动 | 将操作移动到“页面加载事件”或修改面板中已存在的任何其他视图。<br>[!UICONTROL 页面加载事件] – 与页面加载事件对应的任何操作会应用于 Web 应用程序的初始页面加载。<br>**注意&#x200B;**：完成移动操作后，您需要通过“浏览”导航到 VEC 中的视图，以查看移动操作是否有效。如果该操作未应用到视图，您将看到一个错误 |
 | 删除 | 删除操作。 |
 
 >[!NOTE]
@@ -372,7 +375,7 @@ adobe.target.getOffers({
 
 通过“[!UICONTROL 页面交付]”设置，您可以配置规则以确定 Target 活动应何时符合条件并为受众执行。
 
-要从 VEC 的三步引导式活动创建工作流中访问“[!UICONTROL 页面交付]”选项，请从&#x200B;**[!UICONTROL 体验]**&#x200B;步骤中单击&#x200B;**[!UICONTROL 配置]**（齿轮图标）&gt; **[!UICONTROL 页面交付]**。
+要从 VEC 的三步引导式活动创建工作流中访问“[!UICONTROL 页面交付]”选项，请从&#x200B;**[!UICONTROL 体验]**&#x200B;步骤中单击&#x200B;**[!UICONTROL 配置]**（齿轮图标）> **[!UICONTROL 页面交付]**。
 
 ![“页面交付”选项对话框](/help/c-experiences/assets/page-delivery.png)
 
@@ -436,6 +439,6 @@ Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/pr
 
 ## 培训视频：在 Adobe Target 中使用 SPA VEC
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.

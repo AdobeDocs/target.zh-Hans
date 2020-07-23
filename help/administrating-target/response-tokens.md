@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 78%
+source-wordcount: '1574'
+ht-degree: 77%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 78%
 # 响应令牌{#response-tokens}
 
 Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
-
->[!NOTE]
->
->本主题中的信息已更新，可在Target Standard/高级版20.6.1版本（2020年7月）即将发布的UI更改中抢先登峰造极。 本主题中显示的大多数信息适用于当前UI; 但是，选项可能位于稍有不同的位置。
 
 响应令牌允许您选择要利用的变量，然后允许将它们作为目标响应的一部分发送。 为此，您只需使用交换机启用一个变量，该变量将随目标响应一起发送，这可以在网络调用中验证。 Response tokens work in [!UICONTROL Preview] mode as well.
 
@@ -291,5 +287,9 @@ Target 会定期刷新属性。任何未开启的属性都会在下次刷新时�
 ## 培训视频：响应令牌和 at.js 自定义事件{#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![教程徽章](/help/assets/tutorial.png)
 
 观看以下视频，了解如何使用响应令牌和 at.js 自定义事件将 Target 中的配置文件信息共享到第三方系统。
+
+>[!NOTE]
+>
+>“管 [!DNL Target] 理 [!UICONTROL ”菜单UI(以] 前为“设置 ”)经过重新设计，可提供改进的性能、减少发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的； 但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)

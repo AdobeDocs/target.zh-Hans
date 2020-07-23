@@ -5,10 +5,10 @@ title: 主机
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 26%
+source-wordcount: '1079'
+ht-degree: 27%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 26%
 # 主机{#hosts}
 
 可组织您的网站和预生产环境，以便轻松管理和分隔报表。
-
->[!NOTE]
->
->本主题中的信息已更新，为您在Standard/Premium 20.6.1版本（2020年7月）即将发 [!DNL Target] 布的UI更改中达到一个潜在高峰。 本主题中显示的大多数信息适用于当前UI; 但是，选项可能位于稍有不同的位置。
 
 主机管理的主要目标是确保网站上不会意外出现任何不活跃的内容。Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 

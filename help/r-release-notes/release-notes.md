@@ -5,10 +5,10 @@ title: 'Adobe Target 发行说明（当前版本） '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 31%
+source-wordcount: '904'
+ht-degree: 30%
 
 ---
 
@@ -35,6 +35,12 @@ ht-degree: 31%
 
 
 括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+## at.js 2.3.2（2020年7月24日）
+
+此版本的at.js是维护版本，包括以下修复：
+
+* 修复了脚本或代码向窗口或文档添加默认属性时的错误。
 
 ## Target Standard/Premium 20.7.1（2020 年 7 月 27 日） 
 

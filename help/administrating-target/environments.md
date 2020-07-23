@@ -5,10 +5,10 @@ title: 环境
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 63%
+source-wordcount: '654'
+ht-degree: 67%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 63%
 # 环境
 
 可组织您的网站和预生产环境，以便轻松管理和分隔报表。
-
->[!NOTE]
->
->本主题中的信息已更新，可在Target Standard/高级版20.6.1版本（2020年7月）即将发布的UI更改中抢先登峰造极。 本主题中显示的大多数信息适用于当前UI; 但是，选项可能位于稍有不同的位置。
 
 为方便管理，可将多个主机捆绑在一起并将其放置到环境中。例如，您可以将数十个主机分组到两个或三个环境中。The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. 您可以根据需要添加新环境，以及对环境进行重命名。
 

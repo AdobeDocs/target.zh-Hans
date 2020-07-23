@@ -5,7 +5,10 @@ title: 从 Adobe Target at.js 版本 1.*x* 升级到 at.js version 2。*x 不支
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '2747'
+ht-degree: 93%
 
 ---
 
@@ -246,7 +249,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 ### at.js 中的全局 mbox 名称是否无关紧要？
 
-客户可以通过 [!UICONTROL Target > 设置 > 实施 > 编辑 at.js 设置]来指定全局 mbox 名称。[!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为 [!DNL Target] UI 中显示的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并使用全局 mbox 名称创建受众。我们强烈建议您还确保在[!UICONTROL 设置 > 首选项]页面上配置相同的全局 mbox 名称，以防仍有使用 at.js 1 *x* 或 mbox.js 的页面，如以下插图所示。
+Customers are able to specify a global mbox name via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. [!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为 [!DNL Target] UI 中显示的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并使用全局 mbox 名称创建受众。We strongly recommend that you also make sure the same global mbox name is configured on the [!UICONTROL Administration > Visual Experience Composer] page, as well, in case you still have pages using at.js 1.*x* 或 mbox.js 的页面，如以下插图所示。
 
 ![修改 at.js 对话框](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -286,7 +289,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 但是，在 at.js 2.*x* 中，我们不再使用 HTTP GET，而是使用 HTTP POST。现在，通过 at.js 2.*x* 来使用 HTTP POST 将 JSON 有效负载发送到 Target 边缘服务器。这意味着检查浏览器是否支持第三方 Cookie 的重定向请求现在会中断。这是因为 HTTP GET 请求是幂等事务，而 HTTP POST 是非幂等事务，不能任意重复。因此，不再对 at.js 2.*x* 中的跨域跟踪功能提供开箱即用支持。只有 at.js 1.*x* 对跨域跟踪功能提供开箱即用支持。
 
-如果要使用跨域跟踪，则必须将 [ECID库v4.3.0+与at.js 2](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 一起安装。*x* 中不再对跨域跟踪提供开箱即用支持。ECID 库可以管理用于跨域识别访客的永久 ID。
+如果要使用跨域跟踪，则必须将 [ECID库v4.3.0+与](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) at.js 2一起安装。*x* 中不再对跨域跟踪提供开箱即用支持。ECID 库可以管理用于跨域识别访客的永久 ID。
 
 >[!NOTE]
 >
@@ -298,7 +301,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 ### 支持全局 Mbox 名称
 
-客户可以通过 [!UICONTROL Target > 设置 > 实施 > 编辑 at.js 设置]来指定全局 mbox 名称。[!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为输入的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并创建针对全局 mbox 的受众。
+Customers are able to specify a global mbox name via [!UICONTROL Target > Administration > Implementation > Edit]. [!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为输入的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并创建针对全局 mbox 的受众。
 
 ### 以下 at.js 自定义事件是否适用于 `triggerView()`，还是仅适用于 `applyOffer()` 或 `applyOffers()`？
 
@@ -317,9 +320,9 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 不需要，在调用 `triggerView()` 之前，您不需要添加预隐藏代码。at.js 2.*x* 会在显示和应用视图之前管理预隐藏和闪烁逻辑。
 
-### 那是at.js 1.*at* .js 2中不支持创建受众的x参数。*x*? {#audience-parameters}
+### 那是at.js 1。*at* .js 2中不支持创建受众的x参数。*x*? {#audience-parameters}
 
-使用at.js 2时，当前不 *支持以下* at.js 1.x参数进行受众创建。*x* 中的 Target 流程 - 页面加载请求：
+使用at.js 2时，当前不 *支持* 以下at.js 1.x参数进行受众创建。*x* 中的 Target 流程 - 页面加载请求：
 
 * browserHeight
 * browserWidth
@@ -410,7 +413,7 @@ at.js 2.*x*（与 at.js 1.*x* 一样）使用自定义事件 `at-request-succeed
 * at.js 2.*x* - 客户端代码将作为查询字符串参数发送，例如：
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-以下部分列出了每个 at.js 1.*x* 参数、其描述和相应的2。*x* JSON有效负荷（如果适用）:
+以下部分列出了每个 at.js 1.*x* 参数、其描述和相应的2。*xJSON* 有效负荷（如果适用）:
 
 ### at_property
 
@@ -754,10 +757,10 @@ at.js 2.*x* JSON 有效负载：
 
 版本将通过 version 参数作为查询字符串参数发送。
 
-## 培训视频：at.js 2.*x架构图* 概述 ![徽章](/help/assets/overview.png)
+## 培训视频： at.js 2.*x架构* 图概 ![述徽章](/help/assets/overview.png)
 
 at.js 2.*x* 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Cloud 解决方案集成。该视频介绍了如何将所有内容结合到一起。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-请参 [阅了解at.js 2的使用方法。*x适用*](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) ，以获取更多信息。
+请参 [阅了解at.js 2的使用方法。*x可* 用](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) ，了解更多信息。

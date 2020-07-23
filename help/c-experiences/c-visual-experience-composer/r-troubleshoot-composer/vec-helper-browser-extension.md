@@ -1,10 +1,13 @@
 ---
-keywords: VEC;可视化体验编辑器;VEC;iframe;扩展;浏览器
+keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: 此信息介绍如何使用 Adobe Target 可视化体验编辑器 (VEC) 助手浏览器扩展在 VEC 内可靠地加载网站，以快速创作和 QA 体验。
 title: Adobe Target 可视化体验编辑器 (VEC) 助手扩展
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +36,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 ## 获取并安装 VEC 助手浏览器扩展
 
 1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
-1. 单击[!UICONTROL 添加到 Chrome &gt; 添加扩展]。
+1. 单击[!UICONTROL 添加到 Chrome > 添加扩展]。
 1. 要使用此扩展，请在处于 VEC 或 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)时，单击 Chrome 浏览器工具栏中的 VEC 助手浏览器扩展图标 (![VEC 助手图标](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。
 
 下图显示了已启用[!UICONTROL 插入 Target 库]设置的 VEC 助手：
@@ -51,7 +54,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    请注意，此标志是全局设置。可以为在 VEC 中打开的所有网站启用或禁用此标志。例如，如果您将此标志设置为“开”并且打开一个已使用 at.js 进行实施的网站，则将会收到一则消息，告知您 at.js 已加载。我们预计大多数客户已经在其页面上实施了 at.js，并且将会使用默认的“关”设置。
 
-* 该扩展加载最新版本的 at.js，该版本可从[!UICONTROL 设置 &gt; 实施]的 [!DNL Target UI] 中获得。
+* The extension loads the latest version of at.js that is available from the [!DNL Target UI] in [!UICONTROL Administration > Implementation].
 * 当在 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)下使用扩展插入 at.js 时，必须打开另一个 Chrome 选项卡。此 Chrome 选项卡必须通过您创建该活动的同一 [!DNL Adobe Experience Cloud] 组织的身份验证。
 * 以下消息有助于您随时了解以下情况：
 

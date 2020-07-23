@@ -5,10 +5,10 @@ title: 活动故障诊断
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 81%
+source-wordcount: '799'
+ht-degree: 79%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 81%
 作为用户添加到 Target 后，您需要拥有“审批者”角色才能创建活动。
 
 * 请求您的帐户管理员将您设为“审批者”。
-* 如果您是管理员，请通过 Target Standard 中的设置 > 用户，为您自己指定“审批者”角色。
+* If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
    请参阅[为您自己分配“审批者”角色](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 

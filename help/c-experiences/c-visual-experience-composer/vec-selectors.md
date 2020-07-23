@@ -1,11 +1,14 @@
 ---
-keywords: 体验定位;登陆页面测试
+keywords: Experience Targeting;Landing Page Test
 description: 元素选择器是可以标识一个或多个元素的 CSS 表达式。
 title: 可视化体验编辑器中使用的元素选择器
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您可以在 Mozilla 开发人员网络 (MDN) 上的[选择器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文档中找到与 CSS 选择器有关的基本信息。
 
-您可以设置要在帐户首选项中使用元素类还是元素 ID。单击&#x200B;**[!UICONTROL 设置 &gt; 首选项]**，然后选择首选的 CSS 选择器。
+您可以设置要在帐户首选项中使用元素类还是元素 ID。单击“ **[!UICONTROL 管理”>“可视体验书写器]**”，然后选择您的首选CSS选择器。
 
 ![](assets/css_selectors.png)
 
@@ -68,7 +71,7 @@ Target 使用简单的算法来创建选择器。下面非常简略地介绍了�
 
    在此示例中：
 
-   选择器：`#container` &gt; `ul.navigation:eq(0)` &gt; `li.item:eq(0)`（“&gt;”表示直接子项。)
+   选择器：`#container` > `ul.navigation:eq(0)` > `li.item:eq(0)`（“>”表示直接子项。)
 
    `eq` 告知索引存在一个具有“tagName=UL”的元素，且第一个类为 `navigation`。因此，`index` 为 0。有关更多信息，请参阅 MDN 中的[选择器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文章。
 
@@ -89,7 +92,7 @@ Target 使用简单的算法来创建选择器。下面非常简略地介绍了�
    </div>
    ```
 
-   选择器：`#container` &gt; `ul.navigation(0)` &gt; `li:nth-of-type(4)`
+   选择器：`#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
 
    要了解更多信息，请参阅 [CSS Tricks 网页上的 nth-of-type](https://css-tricks.com/almanac/selectors/n/nth-of-type/)。
 

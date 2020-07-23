@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 72%
+source-wordcount: '659'
+ht-degree: 69%
 
 ---
 
@@ -47,9 +47,8 @@ ht-degree: 72%
 
    * 其中，`yourclientcode` 是您公司的客户端代码。您公司的客户端代码全部为小写字母，且不含任何特殊字符。
 
-      * **at.js**：您的客户端代码在以下位置提供：[!UICONTROL  界面的]设置 > 实施 > 编辑 at.js 设置[!DNL Target]页面的顶部。
+      Your client code is available at the top of the [!UICONTROL Administration > Implementation] page of the [!DNL Target] interface.
 
-      * **mbox.js**：您的客户端代码在以下位置提供：[!UICONTROL 设置 > 实施 > 编辑 Mbox.js 设置]页面的顶部。
    * `redirectorlink_456` 是出现在您帐户中并在营销活动和测试中使用的重定向器 mbox 的名称。
 
       重定向器与其他 mbox 的运行方式不同，但是与其他任何 mbox 一样，都会显示在您的帐户中。为重定向器命名，以便能够轻松地将它与您帐户中其他标准类型的 mbox 区分开来。作为最佳实践，重定向器 mbox 的名称应该以“redirectorlink”开头。
@@ -61,7 +60,6 @@ ht-degree: 72%
       >[!IMPORTANT]
       >
       >请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列表默认重定向URL域。 目标使允许列表用主机要允许重定向的域。 有关详细信息，请参 [阅创允许列表建指定已授权向主机中的目标发送mbox调用的主机的程序](/help/administrating-target/hosts.md#allowlist) ( *英文)*。
-
 
 1. 验证重定向器。
    1. *安全最佳实践*: 确保重定向器中使用的域已已列入允许列表，如上所示。 如果您使用的域未已列入允许列表,Adobe将阻止对该域的任何调用，以阻止恶意行为者使用重定向器重定向到可能的恶意域。

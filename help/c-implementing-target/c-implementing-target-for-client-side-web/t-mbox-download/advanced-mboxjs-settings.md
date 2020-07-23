@@ -1,10 +1,13 @@
 ---
-keywords: mbox.js 高级设置;客户端;服务器域;xdomain;压缩等级;客户端会话 ID 支持;secureOnly;客户端 PC ID 支持;传递页面;引荐 URL;流量级别;流量持续时间;mboxParameters() 函数体;mboxSupported() 函数体;mboxCookieDomain() 函数体;额外的 JavaScript;SiteCatalyst 插件;以自解压 JavaScript 文件形式获取 mbox.js;闪烁;主体隐藏;隐藏主体
+keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
 description: 此信息可帮助您在 mbox.js“设置”页面上设定多个设置。
 title: 配置 mbox.js
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '328'
+ht-degree: 91%
 
 ---
 
@@ -23,13 +26,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您帐户的客户代码。
 
-查看[!UICONTROL 设置 &gt; 实施 &gt; 编辑 Mbox.js 设置]时，顶部的“客户端”即是您帐户的客户端代码。
+When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
 
 ## 超时
 
 Target 请求超时。
 
-查看[!UICONTROL 设置 &gt; 实施 &gt; 编辑 Mbox.js 设置]时，“压缩等级”后面的“超时”即是您的 Target 请求超时。默认情况下会将此值设置为 15 秒，但是我们建议将此值设置为介于 2 秒到 5 秒之间的某个值。
+查看“ [!UICONTROL 管理”]>“实施”时，超时（秒）设置是您的目标请求超时。 默认情况下会将此值设置为 15 秒，但是我们建议将此值设置为介于 2 秒到 5 秒之间的某个值。
 
 ## XDomain
 
@@ -47,7 +50,7 @@ Target 请求超时。
 
 例如：
 
-return "test=123";
+return &quot;test=123&quot;;
 
 ## mboxSupported() 函数体
 
@@ -55,7 +58,7 @@ return "test=123";
 
 例如：
 
-return !navigator.userAgent.indexOf('Safari') != -1;
+return !navigator.userAgent.indexOf(&#39;Safari&#39;) != -1;
 
 可以接受或排除下列浏览器：
 
@@ -70,7 +73,7 @@ return !navigator.userAgent.indexOf('Safari') != -1;
 
 例如：
 
-return "YOUR-DOMAIN";
+return &quot;YOUR-DOMAIN&quot;;
 
 ## 额外 JavaScript
 

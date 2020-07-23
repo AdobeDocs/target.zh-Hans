@@ -4,7 +4,10 @@ description: 有关此 Adobe Target 版本的已知问题的信息。此外，�
 title: Adobe Target 中的已知问题和已解决的问题
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3201'
+ht-degree: 95%
 
 ---
 
@@ -20,20 +23,6 @@ source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
 ## 已知问题 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 下面部分列出了 [!DNL Target] 的已知问题：
-
-### 报告和极端订单
-
-从2019年11月25日到2020年4月26日，一台目标服务器遇到一个问题，该问题导致极端订单值计入基于收入的报表指标(AOV、RPV)。 从2019年12月19日到2020年4月23日，另一台服务器遇到同样的问题。 此问题并未影响所有目标服务器或所有目标客户。
-
-在以下情况 *下* ，您没有受到影响：
-
-* 您的目标实施使用不同的服务器。
-* 您的报告不排除极端订单。
-* 您使用转化量度来衡量活动。
-* 您的目标活动使用Analytics for目标(A4T)。
-* 您位于亚太地区。
-
-要确定此问题是否影响您的目标报告，请联系客 [户关怀](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 
 ### 页面交付 {#page-delivery}
 
@@ -121,7 +110,7 @@ mbox.js 库不支持客户端模板语言，例如 Handlebars 和 Mustache。at.
 
 ### 实施：全局 Mbox 自动创建
 
-在“实施”选项卡（“[!UICONTROL 设置”>“实施]”）中，对于新配置的租户，“[!UICONTROL 全局 Mbox 自动创建]”字段将默认为“false”。
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
 
 在配置后首次下载 mbox.js 时，“[!UICONTROL 全局 Mbox 自动创建]”字段在下载的 mbox.js 文件和 [!DNL Target] 后端中将设置为“true”，但它将继续在 UI 中的“[!UICONTROL 实施]”页面上显示为“false”，直到页面刷新为止（页面刷新后，状态将为“true”）。
 
@@ -146,6 +135,20 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 ## 已解决的问题 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 上述已知问题在解决后将会被移至下面部分，并在必要时添加额外的注释。
+
+### 报告和极端订单
+
+从2019年11月25日至2020年4月26日，一台目标服务器遇到一个问题，该问题导致极端订单值计入基于收入的报告指标(AOV、RPV)。 从2019年12月19日到2020年4月23日，另一台服务器遇到了同样的问题。 此问题并未影响所有目标服务器或所有目标客户。
+
+在以下情况下 *您* 未受到影响：
+
+* 您的目标实施使用不同的服务器。
+* 您的报告未排除极端订单。
+* 您使用转化量度来衡量活动。
+* 目标活动使用Analytics进行目标(A4T)。
+* 您位于亚太(APAC)地区。
+
+要确定此问题是否影响您的目标报告，请联系客 [户关怀](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 
 ### Recommendations
 

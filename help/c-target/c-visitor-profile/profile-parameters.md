@@ -5,10 +5,10 @@ title: Adobe Target 中的配置文件属性
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 79%
+source-wordcount: '2446'
+ht-degree: 77%
 
 ---
 
@@ -158,7 +158,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **将配置文件脚本添加为响应令牌以调试配置文件脚本：**
 
-   在 Target 中，依次单击&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 响应令牌]**，然后启用要调试的配置文件脚本。
+   In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
 
    每当您为包含 Target 的网站加载页面时，Target 的部分响应都将包含给定配置文件脚本的值，如下所示：
 
@@ -166,7 +166,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **使用 mboxTrace 调试工具来调试配置文件脚本。**
 
-   此方法需要授权令牌，您可以通过单击 **[!UICONTROL Target]** > **[!UICONTROL 设置]** > **[!UICONTROL 实施]** > **[!UICONTROL 生成授权令牌]**&#x200B;来生成该令牌。
+   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
 
    然后，将以下两个参数添加到页面 URL 中的“?”之后：`mboxTrace=window&authorization=YOURTOKEN`。
 

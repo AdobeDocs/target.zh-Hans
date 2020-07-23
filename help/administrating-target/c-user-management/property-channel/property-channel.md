@@ -5,10 +5,10 @@ title: 企业用户权限
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2999'
-ht-degree: 82%
+source-wordcount: '3053'
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ You can tell whether your organization has a Standard or Premium license by clic
 
 * **[!DNL Target Standard]客户&#x200B;**: 如果您看到“用[!UICONTROL 户]”选项卡([!UICONTROL “管理”>“用户]”)(而不是“属[!UICONTROL 性”选项卡])，则您的组织具有[!DNL Target Standard]许可证。[!DNL Target Standard]客户应按照“用户[”中](/help/administrating-target/c-user-management/c-user-management/user-management.md)的说明在中添加用户和分配权限[!DNL Adobe Admin Console]。
 
-* **[!DNL Target Premium]客户&#x200B;**: 如果您看到“属[!UICONTROL 性]”选项卡([!UICONTROL “设置”>“属性]”)和“用[!UICONTROL 户”选项卡]，则您的组织具有[!DNL Target Premium]许可证。[!DNL Target Premium]客户应按照本文章和[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的相关说明进行操作。
+* **[!DNL Target Premium]客户&#x200B;**: 如果您看到“属[!UICONTROL 性]”选项卡([!UICONTROL “管理”]>“属性”[!UICONTROL )和“用户”选]项卡[!DNL Target Premium]，则您的组织具有许可证。[!DNL Target Premium]客户应按照本文章和[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的相关说明进行操作。
 
 ## 在开始使用企业权限之前
 
@@ -198,7 +198,7 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 * **受众创建：**&#x200B;创建新受众时，该受众会创建在当前选定的工作区中。
 * **选件创建：**&#x200B;创建新选件时，该选件会创建在当前选定的工作区中。
-* **属性页（设置>属性）:** 您可以使用“ [!UICONTROL 搜索] ”框搜索属 [!UICONTROL 性列表] 。
+* **属性页（管理>属性）:** 您可以使用“ [!UICONTROL 搜索] ”框搜索属 [!UICONTROL 性列表] 。
 
    ![](assets/properties_list.png)
 
@@ -302,5 +302,9 @@ Consider the following when using or configuring properties and permissions in [
 * 创建属性
 * 添加用户
 * 更新实施
+
+>[!NOTE]
+>
+>“管 [!DNL Target] 理 [!UICONTROL ”菜单UI(以] 前为“设置 ”)经过重新设计，可提供改进的性能、减少发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的； 但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)

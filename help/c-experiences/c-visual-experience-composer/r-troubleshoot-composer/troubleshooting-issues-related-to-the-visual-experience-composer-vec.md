@@ -4,10 +4,10 @@ description: 有时，在某些情况下，可视化体验编辑器 (VEC) 会发
 title: 对与可视化体验编辑器有关的问题进行故障诊断
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 如果增强型体验编辑器中出现这些问题，请尝试关闭增强型体验编辑器并改用可视化体验编辑器。
 
-要禁用增强型体验编辑器，请转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 首选项]**，然后关闭&#x200B;**[!UICONTROL 启用增强型体验编辑器]**&#x200B;选项。
+To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
 
 某些用户会在控制台中看到以下错误消息：
 
@@ -83,6 +83,7 @@ ht-degree: 100%
          >通过 Requestly 处理的标头区分大小写。
 
       * 将&#x200B;**[!UICONTROL 等于]**&#x200B;更改为&#x200B;**[!UICONTROL 包含]**&#x200B;以作为源 URL 的条件，并输入您尝试在 VEC 中加载的活动的 URL。
+
       ![](assets/chrome_extension.png)
 
 
@@ -115,10 +116,6 @@ ht-degree: 100%
    请单击浏览器地址栏中 URL 左侧的图标，然后再单击&#x200B;**[!UICONTROL 在此页面上禁用保护]**
 * 您输入了无效的 URL。
 * 您尚未在帐户设置页面中输入默认 URL。
-
-## 启动 VEC 活动的 URL 时，控制台会显示以下错误消息：“未捕获的 ReferenceError: _AT 未定义。”（仅 VEC） {#section_BB5B9B629AC4452496A82943EFF72B85}
-
-如果您尝试交付可视化体验编辑器 (VEC) 营销活动，但尚未在启用“[!UICONTROL 支持可视化体验编辑器活动]”选项（“[!UICONTROL 设置]”>“[!UICONTROL 实施]”>“[!UICONTROL mbox.js]”>“[!UICONTROL 编辑 mbox.js 设置]”）的情况下更新从 Target 用户界面下载的 mbox.js，则会出现此错误。
 
 请确保已启用此设置，然后在您的网站上下载并更新 mbox.js。
 

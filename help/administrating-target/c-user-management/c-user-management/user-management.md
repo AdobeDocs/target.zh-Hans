@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: f81e03cb4bc7cd2080f7c8a8473192858b4bbef8
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '895'
 ht-degree: 48%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 48%
 # 用户{#users}
 
 You can add users and manage their permissions in the [!DNL Adobe Admin Console].
-
->[!NOTE]
->
->本主题中的信息已更新，可在Target Standard/高级版20.6.1版本（2020年7月）即将发布的UI更改中抢先登峰造极。 本主题中显示的大多数信息适用于当前UI; 但是，选项可能位于稍有不同的位置。
 
 >[!NOTE]
 >
@@ -43,13 +39,13 @@ You will not see the new user listed on the [!UICONTROL Users] page until the us
 
 Admin users are identified in the [!UICONTROL Users] list. 如果您需要更改访问级别，请与某个系统管理员用户联系。
 
-## 视图Target中的用户信息
+## 视图目标中的用户信息
 
-您可以在Target环境中视图当前用户的列表，包括其每个工作区的角色，以及直接从内部Target发送电子邮件地址。
+您可以在目标环境中视图当前用户的列表，包括其每个工作区的角色，以及直接从内部目标发送电子邮件地址。
 
 要视图“用户”页面，请单击“ **[!UICONTROL 管理]** ”> **[!UICONTROL “用户]**”。
 
-![用户列表自Target](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
+![用户列表自目标](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
@@ -121,5 +117,9 @@ Admin users are identified in the [!UICONTROL Users] list. 如果您需要更改
    * 向工作区添加用户
    * 向工作区添加属性
 * 了解默认工作区
+
+>[!NOTE]
+>
+>“管 [!DNL Target] 理 [!UICONTROL ”菜单UI(以] 前为“设置 ”)经过重新设计，可提供改进的性能、减少发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的； 但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)

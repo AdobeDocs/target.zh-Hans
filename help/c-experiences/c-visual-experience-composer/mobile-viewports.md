@@ -4,10 +4,10 @@ description: 移动设备视区可帮助您预览活动在各种大小的屏幕�
 title: 适用于响应式体验的移动设备视区
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 96%
+source-wordcount: '1343'
+ht-degree: 93%
 
 ---
 
@@ -86,12 +86,12 @@ ht-degree: 96%
 
 可配置您希望在创建体验时可供使用的任何移动设备视区。
 
-1. 单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 首选项]**。
-1. 在“帐户首选项”页面的“移动设备视区配置”部分中，单击&#x200B;**[!UICONTROL 新增]**，以添加移动设备视区。
+1. 单击 **[!UICONTROL “管理]** ”> **[!UICONTROL “可视体验书写器]**”。
+1. In the Mobile Viewports Configuration section of the Account Preferences page, click **[!UICONTROL Add]** to add a mobile viewport.
 
    要更改现有移动设备视区的配置，请选择该视区，然后单击“编辑”（铅笔）图标。
 
-   ![](assets/viewpoert_add.png)
+   ![添加视区](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
 1. 键入移动设备视区的名称。
 
@@ -111,6 +111,7 @@ ht-degree: 96%
    * Windows
    * Symbian
    * Blackberry
+
    如果您使用[增强型体验编辑器](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)，并选择了一种操作系统，则 Target 会在您查看页面时模拟该设备。例如，如果您的响应式网站在 Android 和 iOS 中具有不同的外观，则 Target 会模拟这一行为。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -139,8 +140,8 @@ ht-degree: 96%
 
 此用例展示了如何使用 Target Standard 的移动设备视区功能配置 2 个 iPhone 版本（iPhone 6 和 iPhone 6 Plus）的体验。
 
-1. 在 Target Standard 中，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 首选项]**。
-1. 在“首选项”页面的“移动设备视区配置”部分中，创建 iPhone 6 和 iPhone 6 Plus 的移动设备视区。
+1. 在目标中，单击 **[!UICONTROL 管理]**。
+1. 在“移动视图端口配置”部分，为iPhone 6和iPhone 6 plus创建移动视图端口。
 
    对每个视区使用以下设置：
 
@@ -178,7 +179,7 @@ ht-degree: 96%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe目标概述徽章中的 ![帐户首选项](/help/assets/overview.png)
+### Adobe Target概述徽章中的 ![帐户首选项](/help/assets/overview.png)
 
 以下视频包含有关如何在帐户首选项中设置移动设备视区的信息，相关介绍开始于视频的 4:40。
 

@@ -5,7 +5,10 @@ title: 基于表单的体验编辑器
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '744'
+ht-degree: 79%
 
 ---
 
@@ -29,9 +32,14 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 1. 命名活动。
 1. 选择位置。
 
-   在“选择位置”框中单击时，即会显示一个可用位置列表。从这些位置中选择一个位置。要选择通过 target.js 交付的全局位置，请选择“target-global-mbox”。
+   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. 从这些位置中选择一个位置。要选择通过 target.js 交付的全局位置，请选择“target-global-mbox”。
 
-   您还可以输入一个未在此处列出的位置。如果尚未在页面上创建或查看 mbox，则可以使用此方法。键入位置的名称。输入尚不存在的位置时务必要仔细。如果位置拼写或大小写与调用 mbox 时使用的拼写和大小写不匹配，则活动将无法交付。手动输入的位置会保存到位置列表中。
+   您还可以输入一个未在此处列出的位置。如果尚未在页面上创建或查看 mbox，则可以使用此方法。键入位置的名称。输入尚不存在的位置时务必要仔细。如果位置拼写或大小写与调用 mbox 时使用的拼写和大小写不匹配，则活动将无法交付。手动输入的位置将保存到可用位置的列表。 下次尝试选择手动输入的位置时，该位置将从该列表的“选 [!UICONTROL 择位置] ”下拉活动中可用。
+
+   >[!NOTE]
+   >
+   >在创建活动时创建手动输入的位置不会自动创建新位置。 位置名称仅保存在活动的上下文中。 当有内容投放调用时，将创建该位置。 在创建位置后，它将可用于其他活动，用于创建受众等。 从可用位置的下拉列表。
+
 1. 单击&#x200B;**[!UICONTROL 添加受众细化]**，然后为此活动选择一个或多个[受众](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
 
    ![](assets/location_refinements_2.png)
@@ -52,6 +60,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    1. 单击[!UICONTROL 更改图像选件]。
    1. 选择所需的图像，然后单击[!UICONTROL 编辑链接]。
    1. 指定您网站上的所需 URL 或页面，然后单击[!UICONTROL 更新]。
+
    **更改 JSON 选件：**&#x200B;选择一个 JSON 选件。
 
    **更改体验片段：**&#x200B;选择一个体验片段。
@@ -67,6 +76,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    1. 键入选件名称。
    1. 在代码框中键入或粘贴您的 HTML 代码。
    1. 单击[!UICONTROL 保存]。
+
    **创建 JSON 选件：**
 
    1. 单击[!UICONTROL 选件]，然后选择[!UICONTROL 代码选件]选项卡。
@@ -74,6 +84,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    1. 键入选件名称。
    1. 在代码框中键入或粘贴您的 JSON 代码。
    1. 单击[!UICONTROL 保存]。
+
    对于“推荐”活动，“内容”下拉列表中提供了“添加推荐”选项。单击&#x200B;**[!UICONTROL 添加推荐]**，然后选择页面类型。接下来，按照界面中定义的常规步骤[创建“推荐”活动](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 
    在基于表单的体验编辑器中选择推荐标准时，现在有一个指向所选标准卡片的直接链接，以便您快速方便地对标准进行编辑。
@@ -84,14 +95,14 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    ![](assets/change_criteria_2.png)
 
-1. （可选，适用于 AB 活动、自动个性化和体验定位）要对其他位置重复执行此流程，请单击 `Add Location`，然后配置位置和内容。
-1. 单击&#x200B;**[!UICONTROL 继续]**，然后为您选择的活动类型完成常规的活动创建步骤。
+1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
+1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [创建 A/B 测试](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
 * [创建体验定位活动](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [创建“推荐”活动](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## 培训视频：基于表单的编辑器 教 ![程徽章](/help/assets/tutorial.png)
+## 培训视频：基于表单的编辑器 ![教程徽章](/help/assets/tutorial.png)
 
 以下视频演示了基于表单的编辑器。
 

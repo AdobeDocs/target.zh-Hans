@@ -4,10 +4,10 @@ description: 有时，在某些情况下，可视化体验编辑器 (VEC) 和增
 title: 对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '964'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ Target 不支持多级 iframe。如果您的网站加载的 iframe 具有子 ifr
 
 ## 我无法编辑防 iFrame 嵌套网站的体验。（VEC 和 EEC）{#section_9FE266B964314F2EB75604B4D7047200}
 
-启用增强型体验编辑器即可解决此问题。单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 首选项]**，然后选中启用增强型体验编辑器的复选框。增强型体验编辑器使用 Adobe 管理的代理来加载页面以进行编辑。这允许在防 iFrame 嵌套的网站，以及尚未添加 Adobe Target 代码的网站和页面上进行编辑。在添加代码之前，活动不会向网站交付内容。有些网站可能无法通过增强型体验编辑器来加载，在这种情况下，您可以取消选中此选项以通过 iFrame 加载可视化体验编辑器。[]
+启用增强型体验编辑器即可解决此问题。Click **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, then select the check box that enables the Enhanced Experience Composer. 增强型体验编辑器使用 Adobe 管理的代理来加载页面以进行编辑。这允许在防 iFrame 嵌套的网站，以及尚未添加 Adobe Target 代码的网站和页面上进行编辑。在添加代码之前，活动不会向网站交付内容。有些网站可能无法通过增强型体验编辑器来加载，在这种情况下，您可以取消选中此选项以通过 iFrame 加载可视化体验编辑器。[]
 
 >[!NOTE]
 >

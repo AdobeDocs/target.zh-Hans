@@ -4,10 +4,10 @@ description: 在实施 Adobe Analytics 作为 Target 报表源 (A4T) 时，需�
 title: Analytics for Target 实施
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 65%
+source-wordcount: '879'
+ht-degree: 63%
 
 ---
 
@@ -38,9 +38,9 @@ See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.co
 
 您必须实施或迁移到所需版本的 appMeasurement.js。有关更多信息，请参阅[实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
 
-有关新的实施，请参 [阅《Analytics Implementation Guide](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) 》中的 *JavaScript实施概述*。
+有关新的实现，请参 [阅《Analytics实施指南](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) 》中 *的JavaScript实现概述*。
 
-有关迁移，请参 [阅《分析实施指南》中的](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) “迁移到 *AppMeasurement for JavaScript”*。
+有关迁移，请参 [阅《Analytics实施指南](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 》中 *的迁移到AppMeasurement for JavaScript*。
 
 ## 步骤 5：下载并更新 at.js 或 mbox.js
 
@@ -97,7 +97,7 @@ window.targetGlobalSettings = {
 }
 ```
 
-然后，可以通过数据插入API将有效负 [荷转发到Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
+然后，可以通过数据插入API将有效负 [载转发给Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
 
 如果不希望进行全局设置并且想要使用按需方法，则可以使用 at.js 函数 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 通过传入 **analyticsLogging: &quot;client_side&quot;** 来实现此目的。The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
@@ -171,7 +171,7 @@ adobe.target.getOffers({
 
 ## 步骤 10：启用可将 Analytics 用作 Target 报表源的选项
 
-在 [!DNL Target] 中，单击&#x200B;**[!UICONTROL 设置 > 首选项]**，然后选择&#x200B;**[!UICONTROL 为每个活动选择]**&#x200B;或 **[!UICONTROL Adobe Analytics]**，以启用相应的选项。
+In [!DNL Target], click **[!UICONTROL Administation > Visual Experience Composer]** and choose either **[!UICONTROL Select per activity]** or **[!UICONTROL Adobe Analytics]** to enable the options.
 
 * **[!UICONTROL 如果选择为每个活动选择，您在创建每个活动时可以在 和 之间进行选择。]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL 如果选择 Adobe ，则会将 Analytics 设置为您创建的所有活动的报表源。]**[!DNL Analytics]

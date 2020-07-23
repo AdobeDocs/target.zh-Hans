@@ -1,11 +1,14 @@
 ---
-keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;页面参数;页面参数;at.js;函数;函数
+keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;page params;page parameters;at.js;functions;function
 description: 有关 Adobe Target at.js JavaScript 库的 targetPageParamsAll() 函数的信息。
 title: 有关 Adobe Target at.js JavaScript 库的 targetPageParamsAll() 函数的信息。
-subtopic: 入门指南
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 此方法允许您从请求代码外部将参数附加到所有 mbox。
 
-在多个 mbox 调用中包含相同的一组参数时，这非常有用。该函数需由客户定义。它应返回一个参数数组，这些参数将传递给页面上的所有 mbox 请求。此函数可在 at.js 加载之前或在&#x200B;**[!UICONTROL 设置]** &gt; **[!UICONTROL 实施]** &gt; **[!UICONTROL 编辑 at.js 设置]** &gt; **[!UICONTROL 代码设置]** &gt; **[!UICONTROL 库标头]**&#x200B;中进行定义。
+在多个 mbox 调用中包含相同的一组参数时，这非常有用。该函数需由客户定义。它应返回一个参数数组，这些参数将传递给页面上的所有 mbox 请求。This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 您可以通过以下任何方式使用 targetPageParamsAll() 函数将参数传递到 target-global-mbox：
 

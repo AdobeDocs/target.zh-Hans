@@ -5,10 +5,10 @@ title: 实施 Target
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: b8eb49876c3759223eb5d6979678f6c6b24963e9
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 42%
+source-wordcount: '155'
+ht-degree: 43%
 
 ---
 
@@ -19,12 +19,12 @@ Before you start using [!DNL Adobe Target], you should implement it on your site
 
 有关详细信息，请参阅实施目标下的 [各个主题](/help/c-implementing-target/implementing-target.md)。
 
-在“实施”目标中，无需标签管理器，即可找 [到适用于此页面设置的信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。
-
 >[!NOTE]
 >
 >[!DNL Adobe Experience Platform Launch] 是首选的实现方法 [!DNL Target]。 [!DNL Launch] 为客户提供了一种简单的方式来部署和管理所有用来加强相关客户体验的分析、营销和广告标签。For more information, see [Implement Target using Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
-要访问“实 [!UICONTROL 施] ”页，请单 **[!UICONTROL 击“管理]** ” **[!UICONTROL >“]**&#x200B;实施”。
+1. 要访问“实 [!UICONTROL 施] ”页，请单 **[!UICONTROL 击“管理]** ” **[!UICONTROL >“]**&#x200B;实施”。
+
+1. 有关适用于此页上设置的信息，请参阅 [在不使用标签管理器的情况下实施目标](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。
 
 ![实施页](/help/administrating-target/assets/implementation.png)

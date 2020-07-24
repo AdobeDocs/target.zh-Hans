@@ -4,10 +4,10 @@ description: 有关此 Adobe Target 版本的已知问题的信息。此外，�
 title: Adobe Target 中的已知问题和已解决的问题
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: 2a3715ee54a2a68c0847d83117d4fb9fc7898dbe
 workflow-type: tm+mt
-source-wordcount: '3201'
-ht-degree: 95%
+source-wordcount: '3261'
+ht-degree: 94%
 
 ---
 
@@ -131,6 +131,10 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 ### Target API
 
 客户无法通过 Adobe I/O 上的 v3 版 A/B 活动 API 对自动分配活动执行 CRUD 操作。
+
+### GEO定位
+
+2020年5月10日，我们更新了GEO提供商文件，这引发了一些不一致。 例如，添加了一些包含逗号的值； 但是，现有受众中的值没有逗号。 并非所有投放服务器都受此更改影响。 因此，在2020年5月10日至7月22日之间，使用这些值的受众可能没有达到所有正确访客的要求。
 
 ## 已解决的问题 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 

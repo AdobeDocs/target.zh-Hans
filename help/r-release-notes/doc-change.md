@@ -5,10 +5,10 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 33%
+source-wordcount: '1573'
+ht-degree: 31%
 
 ---
 
@@ -21,8 +21,11 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 28 年 7 月 | [个性化洞察报](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)告、<br>[自动细分报](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)告和<br>重 [要属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 已更新注释中的文本。 |
+|  | [支持的浏览器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 添加了有关Internet Explorer和未知元素的信息。 |
+|  | [客户属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 在我们当前的设计中，可能不会载入少量数据（大型生产批次中高达0.1%）。 |
 | 27 年 7 月 | [管理 Target](/help/administrating-target/administrating-target.md) | 更新了此页面上所有链接主题中的文本，以反映“管理”页面的新 [!UICONTROL UI] 更改。 |
-|  | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 做出了以下更改： <ul><li>添加了以下网络研讨会的注册信息： “汇丰如何利用Adobe Target和人工智能大规模地快速优化和提供个性化。”</li><li>在Gartner个性化引擎魔力象限报告中，新增了有关Adobe再次被评为领导者的信息。</li></ul> |
+|  | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 做出了以下更改： <ul><li>添加了以下网络研讨会的注册信息： “汇丰如何利用Adobe Target和人工智能大规模地快速优化和提供个性化。”</li><li>添加了有关Adobe再次被评为Gartner个性化引擎魔力象限领导者的信息。</li></ul> |
 |  | [Form-Based Experience Composer（基于表单的体验编辑器）](/help/c-experiences/form-experience-composer.md) | 第4步中阐明的信息： 选择位置。 |
 | 24 年 7 月 | <br>[at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.3.2 的信息。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：20.7.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
@@ -41,7 +44,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 添加了注意事项，不建议创建使用另一个用户档案脚本中一个用户档案脚本的结果的从属用户档案脚本。 |
 |  | [at.js 的工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 添加了以下视频： 办公时间： at.js提示和概述 |
 | 6月17日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主题。 |
-|  | [响应令牌](/help/administrating-target/response-tokens.md) | 为自动目标和自动个性化活动的流量分 [!UICONTROL 配方法添加了] 有 [!UICONTROL 关响应令牌的信息] 。 |
+|  | [响应令牌](/help/administrating-target/response-tokens.md) | 添加了有关自动目标和Automated Personalization活动 [!UICONTROL 流量分配方法] 的响 [!UICONTROL 应令牌的信息] 。 |
 |  | [活动创建](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 添加了有关目标(A4T)支持自动分配Analytics的活动的信息。 |
 |  | [用户](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 在“指定角色和权限 [!UICONTROL ”下] ，添 *加了有关新发布者角色的信息*。 |
 |  | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 在第6步中添加了有 [!UICONTROL 关新] “发布者 *”角色的信息： 指定角色和权限*。 |
@@ -98,8 +101,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 7 年 4 月 | [提升度和置信度 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 更新了“为什么我看不到计算指标的提升和信心？”的文本 |
 | 2 年 4 月 | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 添加了有关使用 `user.header('x-forwarded-for')` 较新的AWS边缘来检索用户IP地址的信息。 |
 |  | [从 at.js 1.*x* 升级到 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 添加了以下注释：<ul><li>安装 ECID 库 v4.3.0+ 和 at.js 2.*x* 之后，您将能够创建跨越独特域的活动并跟踪用户。请务必注意，此功能仅在会话过期后才可用。</li></ul> |
-| 3月30日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 添加了影响at.js 2.2.0之前版本的at.js的已知问题。当AdobeAnalytics代码在页面元素上不存在时，此问题导致单击跟踪不报告目标Analytics(A4T)中的转换。 |
-|  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 将以下信息添加到at.js版本2.2.0详细信息中：<ul><li>修复了当页面元素中不存在AdobeAnalytics代码时，导致单击跟踪无法报告目标(A4T)的Analytics转换的问题。</li></ul> |
+| 3月30日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 添加了影响at.js 2.2.0之前版本的at.js的已知问题。此问题导致单击跟踪不报告目标Analytics(A4T)中的转换，因为页面元素上不存在Adobe Analytics代码。 |
+|  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 将以下信息添加到at.js版本2.2.0详细信息中：<ul><li>修复了当页面元素中不存在Adobe Analytics代码时，导致单击跟踪无法报告目标Analytics(A4T)中的转换的问题。</li></ul> |
 | 3月25日 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关以下新版at.js的信息：<ul><li>at.js版本2.3.0</li><li>at.js版本1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 在“设置”部分添加了以下新行：<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>添加了以下新章节：<ul><li>内容安全策略</li></ul> |
 | 3月24日 | [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 添加了有关以下影响的信息：<ul><li>用户档案基于3rdPartyID的脚本</li><li>iOS设备中的QA/预览URL</li></ul> |
@@ -110,7 +113,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 在JavaScript中传 *递多值参数中更新了代码示例*。 |
 |  | [自定义实体属性](/help/c-recommendations/c-products/custom-entity-attributes.md) | 在“实现多 *值属性* ”下 *的“使用API”中添加了代码示例*。 |
 | 3月4日 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 更新了整个主题，对“最佳实践”部分进行了大量修订。 |
-| 2月21日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关新的Adobe Experience Cloud导航的信息。 |
+| 2月21日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关新Adobe Experience Cloud导航的信息。 |
 | 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 添加了以下设置的信息： `pageLoadEnabled` 和 `viewsEnabled`。 |
 | 2 月 19 日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了有关mbox.js库即将弃用的信息。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | 添加了 `mboxOverride.browserIp` 在at.js 1中支持的注意事项。*x*。 |

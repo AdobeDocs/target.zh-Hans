@@ -4,15 +4,15 @@ description: 有关自动个性化 (AP) 的常见问题解答 (FAQ) 列表。
 title: 自动个性化常见问题解答
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 95%
+source-wordcount: '1965'
+ht-degree: 85%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 自动个性化常见问题解答{#automated-personalization-faq}
+# ![高级Automated Personalization](/help/assets/premium.png) 常见问题解答{#automated-personalization-faq}
 
 有关自动个性化 (AP) 的常见问题解答 (FAQ) 列表。
 
@@ -51,15 +51,19 @@ ht-degree: 95%
    * 报表组中的选件之间不会进行个性化：个性化模型会对所有选件一视同仁。
    * 切勿将一个活动中的所有选件都放到一个报表组中。这样做将导致所有选件会以相同概率随机提供给活动中的所有访客。
 
-## 自动个性化有什么限制？ {#section_08BA09ED51B547299963C94FE6417CFA}
+## 常见问题解答
+
+使用自动分配活动时，请参阅以下常见问题解答和答案：
+
+### 自动个性化有什么限制？{#section_08BA09ED51B547299963C94FE6417CFA}
 
 Target 具有 30,000 个体验的硬限制，但在创建的体验少于 10,000 个时，它的效果最佳。
 
-## 如何实施选件级别的定位？ {#section_9D7A86EA93D74E9B8C81072A681263A4}
+### 如何实施选件级别的定位？ {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
 当每个访客到达时，该访客可以看到的一组可能的选件取决于选件级别的定位规则。然后，该算法会选择该模型预测的将具有最佳预期收入或在这些选件中具有最大转化概率的选件。请注意，选件定位会影响 Target 机器学习算法的功效，因此应谨慎使用。
 
-## 我的活动未显示任何提升。这是怎么回事？{#section_BFA07C8C258F45318F73A461B8F32737}
+### 我的活动未显示任何提升。这是怎么回事？{#section_BFA07C8C258F45318F73A461B8F32737}
 
 AP 活动产生提升需要四个因素：
 
@@ -72,29 +76,29 @@ AP 活动产生提升需要四个因素：
 
 有关更多信息，请参阅[自动个性化故障诊断](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA)。
 
-## 自动个性化如何分配我的活动流量？{#section_4369364F77804E0D9B78BEE551DA5659}
+### 自动个性化如何分配我的活动流量？{#section_4369364F77804E0D9B78BEE551DA5659}
 
 自动个性化会根据为每个模型构建的最新[随机林](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)模型，将访客路由到具有最高预测成功量度的体验。这种预测是基于访客的具体信息和访问环境。
 
 例如，假设 AP 活动有两个位置，每个位置包含两个选件。在第一个位置中，对于某位特定访客，选件 A 的预测转化率为 3%，而选件 B 的预测转化率为 1%。在第二个位置中，对于同一访客，选件 C 的预测转化率为 2%，而选件 D 的预测转化率为 5%。因此，自动个性化将为该访客提供选件 A 和选件 D 的体验。
 
-## 我应何时停止自动个性化活动？ {#section_C51F3DAB8887463BB147373F6FE06B93}
+### 我应何时停止自动个性化活动？ {#section_C51F3DAB8887463BB147373F6FE06B93}
 
 自动个性化可以作为“始终运行”的个性化使用，不断进行优化。特别是对于一直使用的内容，无需停止自动个性化活动。如果您想对与自动个性化活动中当前的选件不相似的内容进行实质性更改，最佳实践是启动一个新活动，以便其他用户查看报表时不会将过往结果与不同内容混淆或相关联。
 
-## 我需要等待多久才能构建模型？{#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
+### 我需要等待多久才能构建模型？{#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
 在您的活动中构建模型所需的时间长短通常取决于所选活动位置的流量和活动的成功量度。使用[流量估算器](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)来确定在您的活动中构建模型预计所需的时间。
 
-## 我的活动中构建了一个模型。对该体验的访问是否为个性化的？{#section_51EA953C6D1D4A3185FC9DD290D66621}
+### 我的活动中构建了一个模型。对该体验的访问是否为个性化的？{#section_51EA953C6D1D4A3185FC9DD290D66621}
 
 不是，必须在活动中至少构建 2 个模型才能开始个性化。
 
-## 我何时可以查看自动个性化活动的结果？ {#section_05DB5ACAE6AD429C9510766A7268EE2C}
+### 我何时可以查看自动个性化活动的结果？ {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
 只要您具有至少两个已构建模型的体验（绿色复选标记），便可以开始查看该体验的自动个性化活动的结果。
 
-## 如何缩短在我的活动中构建模型所需的时间？ {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
+### 如何缩短在我的活动中构建模型所需的时间？ {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
 
 查看您的活动设置，看看您是否愿意做些更改来提高构建模型的速度。
 
@@ -103,12 +107,24 @@ AP 活动产生提升需要四个因素：
 * 是否有一些体验可从活动中删除？减少活动中的体验数会加快构建模型的速度。
 * 是否页面流量越高，此活动就会越成功？活动位置中的流量和转化越多，构建模型的速度就会越快。
 
-## 为何访客在 AP 活动中看到他们不应看到的体验？{#section_41CECEAE0881446A8D9F3B016857914B}
+### 为何访客在 AP 活动中看到他们不应看到的体验？{#section_41CECEAE0881446A8D9F3B016857914B}
 
 自动个性化活动会在每次会话中都进行一次评估。如果之前已有活跃会话符合某个特定体验的条件，且现在已在该体验中添加了新选件，则用户会同时看到新的内容以及之前显示的选件。因为用户之前符合这些体验的参加条件，因此他们在会话持续期间仍会看到这些体验。如果您希望在每一次进行页面访问时都进行评估，则应该切换到体验定位 (XT) 活动类型。
 
-## 我是否可以在自动个性化活动的中途更改目标指标？ {#change-metric}
+### 我能否在Automated Personalization活动中途更改目标指标？ {#change-metric}
 
 我们不建议您在活动中途更改目标量度。 虽然可以在使用UI的活动中更改目标量度， [!DNL Target] 但您应始终开始新活动。 如果您在活动中更改目标量度后，该量度运行，我们不担保会发生什么情况。
 
-此建议适用 [!UICONTROL 于使用][!UICONTROL 或](A4T)作 [!UICONTROL 为报告源的自动分][!DNL Target][!DNL Analytics] 配、自动目标和自动个性化活动。
+此建议适用于 [!UICONTROL 自动分配]、自 [!UICONTROL 动目标]、以及使 [!UICONTROL 用或(] A4T [!DNL Target] )作为报告源的 [!DNL Analytics] Automated Personalization活动。
+
+### 运行Automated Personalization活动时，我是否可以使用“重置报告数据”选项？
+
+建议不 [!UICONTROL 要对Automated Personalization] · [!UICONTROL 活动] 使用“重置报告数据”选项。 尽管它删除了可见的报告数据，但此选项并不会从Automated Personalization模型中删除所有 [!UICONTROL 培训] 记录。 不要对Automated Personalization [!UICONTROL 活动使] 用“重置报 [!UICONTROL 告数据] ”选项，请创建新活动并取消激活原始活动。 (注： 本指南还适用于 [!UICONTROL 自动分配][!UICONTROL 和自动目标] 活动。)
+
+### Automated Personalization如何打造环境模式？
+
+构建一个模型来识别个性化策略与随机服务流量的性能，以及将所有流量发送到整体赢取体验。 此模型仅考虑默认环境中的点击和转换。
+
+来自第二组模型的流量是为每个建模组(AP)或体验(AT)构建的。 对于这些模型中的每个模型，都会考虑所有环境的点击和转换。
+
+因此，无论环境如何，请求都将以相同的模型提供，但多个流量应来自默认环境，以确保所识别的整体入选体验与真实行为一致。

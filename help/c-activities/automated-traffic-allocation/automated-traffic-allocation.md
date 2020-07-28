@@ -5,10 +5,10 @@ title: 自动分配
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3134'
-ht-degree: 83%
+source-wordcount: '3335'
+ht-degree: 78%
 
 ---
 
@@ -133,9 +133,9 @@ After an [!UICONTROL Auto-Allocate] activity is activated, the following operati
 
 在使用自动分配活动时，请查 [!UICONTROL 阅以下常见问题解答] :
 
-### Analytics目标(A4T)是否支持自动分配活动?
+### 目标Analytics(A4T)是否支持自动分配活动?
 
-是. 有关详细信息，请 [参阅Analytics目标(A4T)支持在创建活动时自动分配活动](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) ( *Auto-Allocate)*。
+是. 有关详细信息，请 [参阅在创建Analytics时支持自动分配活动(A4T](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) )的 *目标活动*。
 
 ### 是否会自动将旧访客重新分配给高性能体验？
 
@@ -187,7 +187,19 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 我们不建议您在活动中途更改目标量度。 虽然可以在使用UI的活动中更改目标量度， [!DNL Target] 但您应始终开始新活动。 如果您在活动中更改目标量度后，该量度运行，我们不担保会发生什么情况。
 
-此建议适用 [!UICONTROL 于使用][!UICONTROL 或](A4T)作 [!UICONTROL 为报告源的自动分][!DNL Target][!DNL Analytics] 配、自动目标和自动个性化活动。
+此建议适用于 [!UICONTROL 自动分配]、自 [!UICONTROL 动目标]、以及使 [!UICONTROL 用或(] A4T [!DNL Target] )作为报告源的 [!DNL Analytics] Automated Personalization活动。
+
+### 在运行自动分配活动时，是否可以使用重置报告数据选项？
+
+不建议 [!UICONTROL 对自动] 分配 [!UICONTROL 活动使用重置报告] 选项。 尽管它删除了可见的报告数据，但此选项并不会从自动分配模型 [!UICONTROL 中删除所有培训] 记录。 不要对自动 [!UICONTROL 分配活动使][!UICONTROL 用“重置报告数据”选项] ，请创建新活动并取消激活原始活动。 (注： 本指南还适用于 [!UICONTROL 自动目标] 和 [!UICONTROL Automated Personalization] 活动。)
+
+### “自动分配”构建模型如何与环境相关？
+
+[!UICONTROL 自动分配] (Auto-Allocate)仅根据默认环境记录的流量和转换行为构建模型。 默认情况 [!UICONTROL 下] ，生产是默认环境 [，但可以在目标管理>](/help/administrating-target/environments.md)环境中更改它。
+
+如果在另一个（非默认）环境发生点击，则流量将根据默认环境中观察到的转换行为进行分配。 该点击的结果（转换或非转换）将记录为报告目的，但未在“自动分配”模 [!UICONTROL 型中考虑] 。
+
+选择其他环境时，报表将显示该环境的流量和转换率。 报表的默认选定环境将始终为所选帐户范围的默认值。 默认环境不能按活动设置。
 
 ## 培训视频 {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 

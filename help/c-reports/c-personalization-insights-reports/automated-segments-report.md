@@ -1,10 +1,13 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
-description: 有关“自动细分”报告的信息，这是Adobe Target中面向自动个性化(AP)和自动定位(AT)活动用户的两个专用报告之一。
+description: 有关“自动细分”报告的信息，这是Automated Personalization(AP)活动和自动目标(AT)Adobe Target用户可使用的两种专门报告之一。
 title: 自动化区段报表
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '2103'
+ht-degree: 92%
 
 ---
 
@@ -14,15 +17,29 @@ source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
 此信息介绍了自动化区段报表，该报表是自动个性化 (AP) 和自动定位 (AT) 活动用户可以使用的两个专门报表之一。
 
 >[!NOTE]
->AP 和 AT 活动会作为 Target Premium 解决方案的一部分提供。They are not included with  Target Standard without a [Target Premium license](/help/c-intro/intro.md#premium).
 >
->个性化分析报表仅适用于使用转化优化目标的 AP 和 AT 活动。活动上线后将优化目标从收入更改为转化的活动也不受支持。|
+>使用个性化洞察报告时，请考虑以下事项：
+>
+>* AP 和 AT 活动会作为 [!DNL Target Premium] 解决方案的一部分提供。在没有 [!DNL Target Premium] 许可证的情况下，它们将不会包含在 [!DNL Target Standard] 中。
+   >
+   >
+* [!UICONTROL 个性化分析报表仅适用于使用转化优化目标的 AP 和 AT 活动。]活动上线后将优化目标从收入更改为转化的活动也不受支持。
+   >
+   >
+* [!UICONTROL 只有从] “报告量度”下 [!UICONTROL 拉列表中选] 择了 [!UICONTROL “主要目标”，才] 能使用“个性化分析”报表。
+   >
+   >
+* 仅[默认环境](../../administrating-target/hosts.md)支持个性化分析报表。
+   >
+   >
+* [!UICONTROL 个性化] “分析”报表仅针对处于“实时  ”状态且已激活并接收至少15天流量的活动生成。
+
 
 不同的访客对您的 AP/AT 活动中的选件/体验做出的响应会有所不同。此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。
 
 ## 访问自动化区段报表 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired[Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)or[Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
 
    If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
 
@@ -36,9 +53,9 @@ source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
    >
    >[!UICONTROL 自动化区段]报表只有在激活活动至少 15 天后才能使用。在此初始阶段，您将无法访问此报表，也无法单击“[!UICONTROL 自动化区段]”图标。15 天过后，如果您的活动中有足够的个性化流量，将可以使用“[!UICONTROL 自动化区段]”报表。
 
-1. 激活活动 15 天后，您可以单击&#x200B;**[!UICONTROL 自动化区段]**图标。
+1. 激活活动 15 天后，您可以单击&#x200B;**[!UICONTROL 自动化区段]**&#x200B;图标。
 
-   ![“自动细分”图标](/help/c-reports/assets/icon-automated-sements.png)
+   ![自动细分图标](/help/c-reports/assets/icon-automated-sements.png)
 
 1. 选择所需的日期范围。
 

@@ -1,12 +1,15 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
-description: 有关使用Adobe Experience Cloud People核心服务中的客户属性，从客户关系管理(CRM)数据库中获取的企业客户数据在Adobe Target中用于内容定位的信息。
+description: 有关在Adobe Target中使用Adobe Experience Cloud人员核心服务中的客户属性，从客户关系管理(CRM)数据库中使用企业客户数据进行内容定位的信息。
 title: Adobe Target中的客户属性
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '1508'
+ht-degree: 37%
 
 ---
 
@@ -19,7 +22,7 @@ Enterprise customer data collected through multiple sources and stored inside CR
 
 ## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[核心服务中的客户属性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) ，是核心服务 [!DNL People] 的一部分，它为企业提供了将客户数据推送到平台 [!DNL Adobe Experience Cloud] 的工具 [!DNL Experience Cloud] 。
+[核心服务](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) 中的 [!DNL People] 客户属性是核心服务的一部分， [!DNL Adobe Experience Cloud] 它为企业提供了将客户数据推送到平台的 [!DNL Experience Cloud] 工具。
 
 载入到 [!DNL Experience Cloud] 的数据适用于所有 [!DNL Experience Cloud] 工作流。[!DNL Target] 使用此数据根据属性定位退回客户。 [!DNL Adobe Analytics] 也会使用这些属性，它们可用于分析和分段。
 
@@ -33,8 +36,8 @@ Consider the following information as your work with customer attributes and [!D
    >
    >[!DNL at.js] （任何版本）或 [!DNL mbox.js] 58或更高版本是必需的。
 
-* Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 在我们目前的设计中，可能有一小部分数据不会被载入。
-* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 有关详细信息，请参阅访 [客资料生命周期](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
+* [!DNL Adobe] 不保证来自CRM访客库的100%客户属性(用户档案)数据都已载入 [!DNL Experience Cloud] ，因此可用于在中定位 [!DNL Target]。 在我们当前的设计中，可能不会载入少量数据（大型生产批次中高达0.1%）。
+* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 有关详细信息，请参阅 [访客用户档案生命周期](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)。
 * If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will come into play only if `authState` is changed to AUTHENTICATED (1).
 
    For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. If the desired behavior is to fetch the authenticated profile, the `vst.myDataSource.authState` must have the value of 1 (AUTHENTICATED).
@@ -43,7 +46,7 @@ Consider the following information as your work with customer attributes and [!D
 
 ## 访问人员核心服务中的客户属性
 
-1. 在中，单 [!DNL Adobe Experience Cloud]击菜单图标(菜 ![单图标](/help/c-target/c-visitor-profile/assets/menu-icon.png) )，然后单击 **[!UICONTROL 人员]**。
+1. 在中，单 [!DNL Adobe Experience Cloud]击菜单图标(菜 ![单图标](/help/c-target/c-visitor-profile/assets/menu-icon.png) )，然后单 **[!UICONTROL 击“人员]**”。
 
    ![人员](/help/c-target/c-visitor-profile/assets/people.png)
 
@@ -55,7 +58,7 @@ Consider the following information as your work with customer attributes and [!D
 
 完成以下步骤以在 [!DNL Target] 中使用 CRM 数据，如下所示：
 
-![crm工作流程](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
+![crm工作流](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
 Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud and Core Services Product Documentation*.
 
@@ -65,7 +68,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
    下图显示了一个企业客户数据文件示例：
 
-   ![crs范例](/help/c-target/c-visitor-profile/assets/CRS_sample.png)
+   ![crs示例](/help/c-target/c-visitor-profile/assets/CRS_sample.png)
 
    下图显示了一个企业客户。csv文件示例：
 
@@ -79,11 +82,12 @@ Detailed instructions for completing each of the following tasks can be found in
    >
    >数据源名称和属性名称不得包含句点。
 
-   您的数据文件必须符合文件上传要求，且不得超过100MB。 如果文件太大，或者您有数据需要重复上传，您可以通过FTP将文件上传。
+   您的数据文件必须符合文件上传要求，且不得超过100MB。 如果您的文件太大，或者您有需要重复上传的数据，您可以通过FTP传送您的文件。
 
-   * **HTTPS:** 您可以拖放。csv数据文件或单击“浏览” **** ，从文件系统上传。
-   * **FTP:** 单击FTP链接以通 [过FTP上传文件](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 第一步是为 Adobe 提供的 FTP 服务器提供密码。Specify the password, then click **[!UICONTROL Done]**.
-   现在，将您的 CSV/ZIP/GZIP 文件传输到 FTP 服务器。在此文件传输成功后，创建一个名称相同且扩展名为。fin的新文件。 将此空文件传输到服务器。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
+   * **HTTPS:** 您可以拖放。csv数据文件或单击“浏 **[!UICONTROL 览]** ”从文件系统上传。
+   * **FTP:** 单击FTP链接， [通过FTP上传文件](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 第一步是为 Adobe 提供的 FTP 服务器提供密码。Specify the password, then click **[!UICONTROL Done]**.
+
+   现在，将您的 CSV/ZIP/GZIP 文件传输到 FTP 服务器。此文件传输成功后，请创建一个名称相同且扩展名为。fin的新文件。 将此空文件传输到服务器。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. 验证架构。
 
@@ -91,9 +95,9 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Click **[!UICONTROL Save]** after the schema validation is complete. 文件上传时间因其大小而异。
 
-   ![验证架构](/help/c-target/c-visitor-profile/assets/SchemaValidate.png)
+   ![验证模式](/help/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
-   ![上传架构](/help/c-target/c-visitor-profile/assets/upload1.png)
+   ![上传模式](/help/c-target/c-visitor-profile/assets/upload1.png)
 
 1. 配置订阅并激活属性来源。
 
@@ -143,7 +147,7 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 
 有关在 [!DNL Target] 中使用客户属性的更多信息，请参阅以下资源：
 
-* [创建客户属性来源并上传](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) Experience Cloud产品文 *档中的数据文件*
+* [创建客户属性来源并上传Experience Cloud产品文档](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) 中的 *数据文件*
 * 数字营销产品组的博客文章&#x200B;**[客户属性：了解的越多，关联的越好](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
@@ -152,9 +156,9 @@ You might encounter the following issues when working with customer attributes a
 
 >[!NOTE]
 >
->问题1和问题2在这方面造成大约60%的问题。 问题3导致大约30%的问题。 问题4导致大约5%的问题。 其余 5% 是由于其他问题所致。
+>问题1和问题2在这一领域造成大约60%的问题。 问题3造成大约30%的问题。 问题4造成大约5%的问题。 其余 5% 是由于其他问题所致。
 
-### 问题1:由于配置文件过大，客户属性会被删除
+### 问题1: 由于用户档案太大，客户属性被删除
 
 用户配置文件中的特定字段没有字符限制，但如果配置文件大于 64 K，则会通过删除最早的属性来截断配置文件，直到其再次小于 64 K。
 
@@ -162,11 +166,11 @@ You might encounter the following issues when working with customer attributes a
 
 这通常是管道连接问题。您可以让您的客户属性团队重新发布该信息源来解决此问题。
 
-### 问题三：交付无法基于属性工作
+### 问题3: 投放无法基于属性工作
 
 该配置文件尚未在 Edge 上更新。您可以让您的客户属性团队重新发布该信息源来解决此问题。
 
-### 问题四：实施问题
+### 问题4: 实施问题
 
 请注意以下实施问题：
 
@@ -174,7 +178,7 @@ You might encounter the following issues when working with customer attributes a
 * 已正确传递访客 ID，但“AUTHENTICATION”状态未设置为“已验证”。
 * 未正确传递 `mbox3rdPartyId`。
 
-### 问题五：未正确执行 `mboxUpdate`
+### 问题五： `mboxUpdate` 未正确执行
 
 `mboxUpdate`未能通过 `mbox3rdPartyId` 正确执行 
 

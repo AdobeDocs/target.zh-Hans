@@ -4,10 +4,10 @@ title: 自动定位
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 96%
+source-wordcount: '3517'
+ht-degree: 91%
 
 ---
 
@@ -32,11 +32,18 @@ ht-degree: 96%
 
 与 A/B 活动不同，[!UICONTROL 自动定位]会优化每次访问的指定业务目标，而 A/B 活动为给定访客分配的体验是具有粘性的。与[!UICONTROL 自动个性化]一样，默认情况下，[!UICONTROL 自动定位]会将部分活动流量作为控制组保留以便测量提升度。在活动中，控制组的访客会得到随机体验。
 
-使用[!UICONTROL 自动定位]时要记住以下重要注意事项：
+## 注意事项
+
+There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
 
 * 您无法将特定活动从[!UICONTROL 自动定位]切换到自动个性化，反之亦然。
 * 活动开始后，您无法从“手动”流量分配（传统 A/B 测试）切换到[!UICONTROL 自动定位]，反之亦然。
-* 使用主机和环境（主机组）时，仅为“生产”环境构建模型。所有环境都会提供数据以便为“生产”营销活动构建模型。
+* 构建一个模型来识别个性化策略与随机服务流量的性能，以及将所有流量发送到整体赢取体验。 此模型仅考虑默认环境中的点击和转换。
+
+   来自第二组模型的流量是为每个建模组(AP)或体验(AT)构建的。 对于这些模型中的每个模型，都会考虑所有环境的点击和转换。
+
+   因此，无论环境如何，请求都将以相同的模型提供，但多个流量应来自默认环境，以确保所识别的整体入选体验与真实行为一致。
+
 * 您必须至少使用两个体验。
 
 ## 术语 {#section_A309B7E0B258467789A5CACDC1D923F3}
@@ -220,7 +227,11 @@ ht-degree: 96%
 
 我们不建议您在活动中途更改目标量度。 虽然可以在使用UI的活动中更改目标量度， [!DNL Target] 但您应始终开始新活动。 如果您在活动中更改目标量度后，该量度运行，我们不担保会发生什么情况。
 
-此建议适用 [!UICONTROL 于使用][!UICONTROL 或](A4T)作 [!UICONTROL 为报告源的自动分][!DNL Target][!DNL Analytics] 配、自动目标和自动个性化活动。
+此建议适用于 [!UICONTROL 自动分配]、自 [!UICONTROL 动目标]、以及使 [!UICONTROL 用或(] A4T [!DNL Target] )作为报告源的 [!DNL Analytics] Automated Personalization活动。
+
+### 在运行自动目标活动时，是否可以使用“重置报告数据”选项？
+
+不建议 [!UICONTROL 对自动目标][!UICONTROL 活动使] 用“重置报告数据”选项。 尽管它删除了可见的报告数据，但此选项并不会从自动目标模型 [!UICONTROL 中删除所有培训] 记录。 不要对自动 [!UICONTROL 目标活动] 使用“重置报告数据 [!UICONTROL ”] 选项，而是新建活动并取消激活原始活动。 (注： 本指南还适用于 [!UICONTROL 自动分配] 和 [!UICONTROL Automated Personalization] 活动。)
 
 ## [!UICONTROL 自动定位]故障诊断 {#section_23995AB813F24525AF294D20A20875C8}
 

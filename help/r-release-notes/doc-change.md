@@ -5,9 +5,9 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 18461d7b2e7e1e8e0ea097bea4bb7242d851f9af
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1676'
 ht-degree: 30%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 31 年 7 月 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了新的已知问题： &quot;显示“处理”标签的图像优惠。&quot; |
 | 28 年 7 月 | [个性化洞察报](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)告、<br>[自动细分报](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)告和<br>重 [要属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 更新了主题顶部注释中的文本。 |
 |  | [Auto-Allocate（自动分配）](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 添加了以下常见问题解答：<ul><li>在运行自动分配活动时，是否可以使用重置报告数据选项？</li><li>“自动分配”构建模型如何与环境相关？</li></ul> |
 |  | [自动定位](/help/c-activities/auto-target-to-optimize.md) | 添加了以下常见问题解答：<ul><li>在运行自动目标活动时，是否可以使用“重置报告数据”选项？</li></ul>“注意事项”部分中的更新文本。 |

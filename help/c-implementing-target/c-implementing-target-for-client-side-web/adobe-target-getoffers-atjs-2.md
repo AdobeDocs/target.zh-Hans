@@ -1,11 +1,14 @@
 ---
-keywords: adobe.target.getOffers;getOffers;getoffers;获取选件;at.js;函数;函数
+keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
 description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers(options) 函数的信息。
 title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers() 函数的信息。
-subtopic: 入门指南
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+workflow-type: tm+mt
+source-wordcount: '1229'
+ht-degree: 94%
 
 ---
 
@@ -28,48 +31,48 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!NOTE]
 >
->有关以下 [列出的所有字段的可接受类型](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) ，请查阅交付API文档。
+>有关以下 [列出的所有字段](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) （可接受类型）的信息，请查阅投放API文档。
 
 | 字段名称 | 必需？ | 限制 | 描述 |
 | --- | --- | --- | --- |
-| request &gt; id | 否 |  | 需要使用 `tntId`、`thirdPartyId` 或 `marketingCloudVisitorId` 中的一个。 |
-| request &gt; id &gt; thirdPartyId | 否 | 最大大小 = 128 |  |  |
-| Request &gt; experienceCloud | 否 |  |  |
-| Request &gt; experienceCloud &gt; analytics | 否 |  | Adobe Analytics 集成 |
-| Request &gt; experienceCloud &gt; analytics &gt; logging | 否 | 必须在页面上实施以下内容：<ul><li>访客 ID 服务</li><li>Appmeasurement.js</li></ul> | 支持以下值：<br>**client_side**：指定后，将向调用方返回分析有效负载，该有效负载应该用于通过数据插入 API 发送到 Adobe Analytics。<br>**server_side**：这是默认值，Target 和 Analytics 后端会使用 SDID 将调用拼合在一起进行报告。 |
-| request &gt; prefetch | 否 |  |  |
-| request &gt; prefetch &gt; views | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头<br>不允许的名称：“orderId”、“orderTotal”、“productPurchasedId” | 传递用于检索活跃活动中相关视图的参数。 |
-| request &gt; prefetch &gt; views &gt; profileParameters | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头 | 传递用于检索活跃活动中相关视图的配置文件参数。 |
-| request &gt; prefetch &gt; views &gt; product | 否 |  |  |
-| request &gt; prefetch &gt; views &gt; product -&gt; id | 否 | 不为空<br>最大大小 = 128 | 传递用于检索活跃活动中相关视图的产品 ID。 |
-| request &gt; prefetch &gt; views &gt; product &gt; categoryId | 否 | 不为空<br>最大大小 = 128 | 传递用于检索活跃活动中相关视图的产品类别 ID。 |
-| request &gt; prefetch &gt; views &gt; order | 否 |  |  |
-| request &gt; prefetch &gt; views &gt; order &gt; id | 否 | 最大长度 = 250 | 传递用于检索活跃活动中相关视图的订单 ID。 |
-| request &gt; prefetch &gt; views &gt; order &gt; total | 否 | 总额 `>=` 0 | 传递用于检索活跃活动中相关视图的订单总额。 |
-| request &gt; prefetch &gt; views &gt; order &gt; purchasedProductIds | 否 | 无空值<br>每个值的最大长度为 50<br>用逗号连接和分隔<br>产品 ID 总长度 `<=` 250 | 传递用于检索活跃活动中相关视图的已购买产品 ID。 |
-| request &gt; execute | 否 |  |  |
-| request &gt; execute &gt; pageLoad | 否 |  |  |
-| request &gt; execute &gt; pageLoad &gt; parameters | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头。<br>不允许的名称：“orderId”、“orderTotal”、“productPurchasedId” | 页面加载时使用指定的参数检索选件。 |
-| request &gt; execute &gt; pageLoad &gt; profileParameters | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 256<br>名称不应以“profile”开头。 | 页面加载时使用指定的配置文件参数检索选件。 |
-| request &gt; execute &gt; pageLoad &gt; product | 否 |  |  |
-| request &gt; execute &gt; pageLoad &gt; product -&gt; id | 否 | 不为空<br>最大大小 = 128 | 页面加载时使用指定的产品 ID 检索选件。 |
-| request &gt; execute &gt; pageLoad &gt; product &gt; categoryId | 否 | 不为空<br>最大大小 = 128 | 页面加载时使用指定的产品类别 ID 检索选件。 |
-| request &gt; execute &gt; pageLoad &gt; order | 否 |  |  |
-| request &gt; execute &gt; pageLoad &gt; order &gt; id | 否 | 最大长度 = 250 | 页面加载时使用指定的订单 ID 检索选件。 |
-| request &gt; execute &gt; pageLoad &gt; order &gt; total | 否 | `>=` 0 | 页面加载时使用指定的订单总额检索选件。 |
-| request &gt; execute &gt; pageLoad &gt; order &gt; purchasedProductIds | 否 | 无空值<br>每个值的最大长度为 50<br>用逗号连接和分隔<br>产品 ID 总长度 `<=` 250 | 页面加载时使用指定的已购产品 ID 检索选件。 |
-| request &gt; execute &gt; mboxes | 否 | 最大大小 = 50<br>无 null 元素 |  |
-| request &gt; execute &gt; mboxes &gt; mbox | 是 | 不为空<br>无“-clicked”后缀<br>最大大小 = 250<br>允许的字符：`'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | mbox 的名称。 |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; index | 是 | 不为 null<br>唯一值<br>`>=` 0 | 请注意，index 并不表示 mbox 的处理顺序。与具有多个区域 mbox 的网页相同，无法指定这些 mbox 的处理顺序。 |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; parameters | 否 | 最大计数 = 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头。<br>不允许的名称：“orderId”、“orderTotal”、“productPurchasedId” | 使用指定的参数针对给定 mbox 检索选件。 |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; profileParameters | 否 | 最大计数 = 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=`256<br>名称不应以“profile”开头。 | 使用指定的配置文件参数检索给定 mbox 的选件。 |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; product | 否 |  |  |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; product &gt; id | 否 | 不为空<br>最大大小 = 128 | 使用指定的产品 ID 检索给定 mbox 的选件。 |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; product &gt; categoryId | 否 | 不为空<br>最大大小 = 128 | 使用指定的产品类别 ID 检索给定 mbox 的选件。 |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; order | 否 |  |  |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; order &gt; id | 否 | 最大长度 = 250 | 使用指定的订单 ID 检索给定 mbox 的选件。 |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; order &gt; total | 否 | `>=` 0 | 使用指定的订单总额检索给定 mbox 的选件。 |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; order &gt; purchasedProductIds | 否 | 非空值<br>每个值的最大长度 = 50<br>用逗号连接和分隔<br>产品 ID 总长度 `<=` 250 | 使用指定的订单已购产品 ID 检索给定 mbox 的选件。 |
+| request > id | 否 |  | 需要使用 `tntId`、`thirdPartyId` 或 `marketingCloudVisitorId` 中的一个。 |
+| request > id > thirdPartyId | 否 | 最大大小 = 128 |  |  |
+| Request > experienceCloud | 否 |  |  |
+| Request > experienceCloud > analytics | 否 |  | Adobe Analytics 集成 |
+| Request > experienceCloud > analytics > logging | 否 | 必须在页面上实施以下内容：<ul><li>访客 ID 服务</li><li>Appmeasurement.js</li></ul> | 支持以下值：<br>**client_side **：指定后，将向调用方返回分析有效负载，该有效负载应该用于通过数据插入 API 发送到 Adobe Analytics。<br>**server_side**：这是默认值，Target 和 Analytics 后端会使用 SDID 将调用拼合在一起进行报告。 |
+| request > prefetch | 否 |  |  |
+| request > prefetch > views | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头<br>不允许的名称：“orderId”、“orderTotal”、“productPurchasedId” | 传递用于检索活跃活动中相关视图的参数。 |
+| request > prefetch > views > profileParameters | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头 | 传递用于检索活跃活动中相关视图的配置文件参数。 |
+| request > prefetch > views > product | 否 |  |  |
+| request > prefetch > views > product -> id | 否 | 不为空<br>最大大小 = 128 | 传递用于检索活跃活动中相关视图的产品 ID。 |
+| request > prefetch > views > product > categoryId | 否 | 不为空<br>最大大小 = 128 | 传递用于检索活跃活动中相关视图的产品类别 ID。 |
+| request > prefetch > views > order | 否 |  |  |
+| request > prefetch > views > order > id | 否 | 最大长度 = 250 | 传递用于检索活跃活动中相关视图的订单 ID。 |
+| request > prefetch > views > order > total | 否 | 总额 `>=` 0 | 传递用于检索活跃活动中相关视图的订单总额。 |
+| request > prefetch > views > order > purchasedProductIds | 否 | 无空值<br>每个值的最大长度为 50<br>用逗号连接和分隔<br>产品 ID 总长度 `<=` 250 | 传递用于检索活跃活动中相关视图的已购买产品 ID。 |
+| request > execute | 否 |  |  |
+| request > execute > pageLoad | 否 |  |  |
+| request > execute > pageLoad > parameters | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头。<br>不允许的名称：“orderId”、“orderTotal”、“productPurchasedId” | 页面加载时使用指定的参数检索选件。 |
+| request > execute > pageLoad > profileParameters | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 256<br>名称不应以“profile”开头。 | 页面加载时使用指定的配置文件参数检索选件。 |
+| request > execute > pageLoad > product | 否 |  |  |
+| request > execute > pageLoad > product -> id | 否 | 不为空<br>最大大小 = 128 | 页面加载时使用指定的产品 ID 检索选件。 |
+| request > execute > pageLoad > product > categoryId | 否 | 不为空<br>最大大小 = 128 | 页面加载时使用指定的产品类别 ID 检索选件。 |
+| request > execute > pageLoad > order | 否 |  |  |
+| request > execute > pageLoad > order > id | 否 | 最大长度 = 250 | 页面加载时使用指定的订单 ID 检索选件。 |
+| request > execute > pageLoad > order > total | 否 | `>=` 0 | 页面加载时使用指定的订单总额检索选件。 |
+| request > execute > pageLoad > order > purchasedProductIds | 否 | 无空值<br>每个值的最大长度为 50<br>用逗号连接和分隔<br>产品 ID 总长度 `<=` 250 | 页面加载时使用指定的已购产品 ID 检索选件。 |
+| request > execute > mboxes | 否 | 最大大小 = 50<br>无 null 元素 |  |
+| request > execute > mboxes > mbox | 是 | 不为空<br>无“-clicked”后缀<br>最大大小 = 250<br>允许的字符：`'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | mbox 的名称。 |
+| request > execute > mboxes > mbox > index | 是 | 不为 null<br>唯一值<br>`>=` 0 | 请注意，index 并不表示 mbox 的处理顺序。与具有多个区域 mbox 的网页相同，无法指定这些 mbox 的处理顺序。 |
+| request > execute > mboxes > mbox > parameters | 否 | 最大计数 = 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头。<br>不允许的名称：“orderId”、“orderTotal”、“productPurchasedId” | 使用指定的参数针对给定 mbox 检索选件。 |
+| request > execute > mboxes > mbox > profileParameters | 否 | 最大计数 = 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=`256<br>名称不应以“profile”开头。 | 使用指定的配置文件参数检索给定 mbox 的选件。 |
+| request > execute > mboxes > mbox > product | 否 |  |  |
+| request > execute > mboxes > mbox > product > id | 否 | 不为空<br>最大大小 = 128 | 使用指定的产品 ID 检索给定 mbox 的选件。 |
+| request > execute > mboxes > mbox > product > categoryId | 否 | 不为空<br>最大大小 = 128 | 使用指定的产品类别 ID 检索给定 mbox 的选件。 |
+| request > execute > mboxes > mbox > order | 否 |  |  |
+| request > execute > mboxes > mbox > order > id | 否 | 最大长度 = 250 | 使用指定的订单 ID 检索给定 mbox 的选件。 |
+| request > execute > mboxes > mbox > order > total | 否 | `>=` 0 | 使用指定的订单总额检索给定 mbox 的选件。 |
+| request > execute > mboxes > mbox > order > purchasedProductIds | 否 | 非空值<br>每个值的最大长度 = 50<br>用逗号连接和分隔<br>产品 ID 总长度 `<=` 250 | 使用指定的订单已购产品 ID 检索给定 mbox 的选件。 |
 
 ## 为所有视图调用 `getOffers()`
 
@@ -183,7 +186,7 @@ adobe.target.getOffers({
 }
 ```
 
-然后，可以通过数据插入API将有效负荷转 [发到Adobe Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
+然后，可通过数据插入API将有效负 [载转发到Adobe Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
 
 ## 通过 getOffers() 和 applyOffers() 获取并渲染多个 mbox 的数据 {#multiple}
 
@@ -256,10 +259,16 @@ adobe.target.getOffers({
 
 在 `request > prefetch > mboxes` 部分中，有三个不同的 mbox。如果请求成功完成，您将从 `response > prefetch > mboxes` 中收到每个 mbox 的响应。获得响应和要用于渲染的位置后，可以调用 `applyOffers()` 以渲染从 [!DNL Target] 中检索的内容。在本示例中，我们有以下映射：
 
-* mbox1 &gt; CSS 选择器 #container1
-* mbox2 &gt; CSS 选择器 #container2
-* mbox3 &gt; CSS 选择器 #container3
+* mbox1 > CSS 选择器 #container1
+* mbox2 > CSS 选择器 #container2
+* mbox3 > CSS 选择器 #container3
 
 此示例使用 count 变量来构建 CSS 选择器。在现实场景中，您可以使用 CSS 选择器和 mbox 之间的不同映射。
 
 请注意，此示例使用了 `prefetch > mboxes`，但您也可以使用 `execute > mboxes`。请确保，如果在 `getOffers()` 中使用 prefetch，则在 `applyOffers()` 调用中也应使用 prefetch。
+
+## 调用 `getOffers()` 以执行pageLoad
+
+以下示例演示如何对at.js 2使用getOffers()执行pageLoad。*x*
+
+adobe.目标.getOffers({request: {execute: {pageLoad: {参数： {}}});

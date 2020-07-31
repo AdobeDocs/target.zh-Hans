@@ -4,9 +4,9 @@ description: 有关即将举办的事件的信息，包括目标技能生成器�
 title: 目标公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,20 @@ ht-degree: 0%
 
 ## Adobe再次在Gartner个性化引擎魔力象限中被评为领导者
 
-在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为行业领袖。 Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商： 愿景和执行能力的完整性。 [在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为领导者。 Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商： 愿景和执行能力的完整性。 [在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+
+## Adobe Target社区咖啡休息
+
+* **上午10:00 - 11:00 (PDT)**
+* **2020年8月5日星期三**
+
+我们将与Adobe Target产品经理Cristinel Anastasoaie一同参加，他将登录Adobe Target社区，直接与您聊天，回答您与他专业领域相关的Adobe Target问题：
+
+* Adobe Target用户界面
+* Adobe Target集成
+* 企业权限和工作区
+
+[在Adobe Target社区中注册。](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/)
 
 ## 网络研讨会： 汇丰如何利用Adobe Target和人工智能快速大规模优化和提供个性化
 
@@ -29,7 +42,7 @@ ht-degree: 0%
 
 消费者需求正在快速发展，汇丰已经通过Adobe Target优化来快速测试和个性化新客户旅程，将特定开发和推出从6个月缩短到1周！
 
-加入Adobe和HSBC参加此网络研讨会，了解：
+加入Adobe和汇丰银行参加此次网络研讨会，了解：
 
 * 汇丰的优化和个性化努力如何推动组织的快速变革
 * AI和Analytics如何加快努力并提供清晰、重大的业务影响

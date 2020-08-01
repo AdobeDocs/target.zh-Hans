@@ -5,10 +5,10 @@ title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers() 函�
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+source-git-commit: 99cdabf409a3009d80e06243b9e068a439513823
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 94%
+source-wordcount: '1224'
+ht-degree: 95%
 
 ---
 
@@ -271,4 +271,14 @@ adobe.target.getOffers({
 
 以下示例演示如何对at.js 2使用getOffers()执行pageLoad。*x*
 
-adobe.目标.getOffers({request: {execute: {pageLoad: {参数： {}}});
+```
+adobe.target.getOffers({
+    request: {
+        execute: {
+            pageLoad: {
+                parameters: {}
+            }
+        }
+    }
+});
+```

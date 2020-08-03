@@ -4,10 +4,10 @@ description: 在Adobe Target中，成功量度已预配置为用于报告和跟�
 title: Adobe Target成功指标
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 83%
+source-wordcount: '1062'
+ht-degree: 79%
 
 ---
 
@@ -26,7 +26,7 @@ By default, conversion events are set to &quot;Count once and keep the entrant i
 
 >[!NOTE]
 >
->对于使用 [Analytics作为活动源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的报告，默认行为为“增量计数并使用户保持在活动中”，其中“每个进入者一次”。
+>使用活动作为 [报告源(A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) )的Analytics的默认行为是“增量计数并使用户保持在活动中”，其中“每个进入者一次”。
 
 可用的成功量度如下所示：
 
@@ -82,6 +82,10 @@ A/B 测试活动、自动个性化活动、体验定位活动和多变量测试�
 | 递增计数并保持用户处于活动中 | 指定计数的递增方式：<ul><li>每个参加者一次（默认）</li><li>每次展示时（页面刷新除外）</li><li>每次展示时</li></ul> |
 | 递增计数、释放用户并允许再次进入 | 选择访客再次进入活动时将看到的体验：<ul><li>相同体验（默认）</li><li>随机体验</li><li>无形体验</li></ul> |
 | 递增计数、释放用户并阻止再次进入 | 确定用户将看到什么内容来替代活动内容：<ul><li>相同体验（不含“跟踪”功能）（默认）</li><li>默认内容，或其他活动内容</li></ul> |
+
+>[!NOTE]
+>
+>如果将度量配置为增量计数选 [!UICONTROL 项之一] （上文提到），则度量计数仅在访客级别按每个进入者正确递增一次。 在访问级别，每个新会话的度量计数每次访问都会增加一次。
 
 ## 培训视频：活动量度
 

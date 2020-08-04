@@ -4,9 +4,9 @@ description: 有关即将举办的事件的信息，包括目标技能生成器�
 title: 目标公告
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ ht-degree: 0%
 [在此处注册此令人兴奋的网络研讨会](https://hsbc-targetai.experienceleague.adobeevents.com/)。
 
 *麦肯锡文章： 2020[年5月，“COVID-19的复苏将是数字](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),”
+
+## 网络研讨会： 基于人工智能和Adobe Target的个性化策略
+
+* **上午8:00 - 9:00 (PDT)**
+* **2020年8月13日星期四**
+
+[在此处注册此网络研讨会](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)。
 
 ## Adobe Target技能构建器： 开发人员聊天，将Adobe Target的mbox.js迁移到at.js {#skill-builder}
 

@@ -5,9 +5,9 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
+source-git-commit: 864ce209675b465e229fad787e102e8d9bf5825c
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1762'
 ht-degree: 30%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 8月5日 | [删除 Target Cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | 更新了整个主题。 |
 | 8月4日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关“使用人工智能和Adobe Target的个性化战略”网络研讨会的注册信息。 |
 |  | [在浏览器中启用混合内容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 更新了主题。 |
 | 8月3日 | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 添加了说明，以说 [!UICONTROL 明“增量计数] ”选项对访客与访问的含义。 |

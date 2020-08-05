@@ -5,10 +5,10 @@ title: Adobe Target预发行说明
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
+source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 14%
+source-wordcount: '493'
+ht-degree: 22%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 14%
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2020 年 7 月 27 日**
+**上次更新日期：2020 年 8 月 5 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
 >[!IMPORTANT]
 >
->* **Adobe再次在Gartner个性化引擎魔力象限报告中被评为领导者**: 在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为行业领袖。 Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商： 愿景和执行能力的完整性。 [在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+>* **Adobe再次被评为Gartner个性化引擎魔力象限的领导者**: 在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为领导者。 Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商： 愿景和执行能力的完整性。 [在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
    >
    >
-* **mbox.js弃用**: 2020年8月30日，Adobe Target将不再支持mbox.js库。 2020年8月30日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响目标活动运行的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请 [参阅At.js工作方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 和 [Adobe Target技能生成器： 开发人员聊天，将Adobe Target的mbox.js迁移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+* **mbox.js弃用**: 2020年8月30日，Adobe Target将不再支持mbox.js库。 2020年8月30日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响目标活动运行的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请 [参阅At.js工作方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 和 [Adobe Target技能构建器： 开发人员聊天，将Adobe Target的mbox.js迁移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
    >
    >   
    尽管目前支持mbox.js，但自2017年7月起，我们便未对此库提供功能更新。 较新的at.js比mbox.js具有许多优势。 at.js可缩短Web实施的页面加载时间，提高安全性，并为单页应用程序提供更好的实施选项。
@@ -38,33 +38,13 @@ ht-degree: 14%
 * **目标通知**: 有关即将进行的目标的信息，请参阅事件公告页，包括目标技能生成器会话、开发人员聊天、网络研讨会和目标咖啡休息会话。 有关详细信息，请参阅 [目标公告](/help/r-release-notes/target-announcements.md)。
 
 
-## Target Standard/Premium 20.7.1（2020 年 7 月 27 日） 
+## Target Standard/Premium 20.9.1（2020 年 9 月 2 日）
 
-此版本包括以下增强功能：
+此目标版本包含以下新增功能或增强功能：
 
-### [!UICONTROL 管理] 部分UI刷新
-
-我们正在逐步重写整个 [!DNL Target] UI，使用新的技术堆栈，以便能够优惠改进的性能、减少发布新功能时所需的维护时间以及改善整个产品的用户体验。 刷新的第一个部分是 [!UICONTROL Setup] （设置）部分，它已更名为 [!UICONTROL Administration]（管理）
-
-作为此刷新的一部分，您将能够使用“管理”部分中的页面轻松执行 [!UICONTROL 许多] 操作，如：
-
-* 从“实施”选项卡(“管理”>“ [!UICONTROL 实施] ”)下&#x200B;**[!UICONTROL 载最新]** 的at.js **[!UICONTROL 文件]**。
-* 自定义您的at.js设置，并可轻松查看更改(“**[!UICONTROL 管理]** ”> **[!UICONTROL “实]**&#x200B;施”)。
-* 修改增强的报告设置，如默认货币和时区、要从报告中排除的IP等。 (**[!UICONTROL 管理]** > **[!UICONTROL 报告]**)
-* 出于隐私原因模糊处理访客IP **[!UICONTROL 地址]** (“管 **[!UICONTROL 理”]**>“实施”)
-* 在AdobeAdmin Console（“管理”>“用户”）中管理每个工作区的用户及其角色的现&#x200B;**[!UICONTROL 有视图]** ，之 **[!UICONTROL 前再进]**&#x200B;行列表。
-* 搜索并过滤“管理”部分中 [!UICONTROL 的所有] 表。
-
-有关详细信息，请参 [阅管理目标概述](/help/administrating-target/administrating-target.md)。
-
-### 增强功能、修复和变更
-
-此版本包含以下增强、修复和更改：
-
-* 修复了在刷新后无法保留站点首选项的问题。 (TGT-37239)
-* 修复了“在后插 [!UICONTROL 入”] >“图 [!UICONTROL 像”无法正常使用] 可缩放矢量图形(SVG)图像的问题。 (TGT-37242)
-* 修复了具有“发布者”角 [!UICONTROL 色的用户] ，该问题导致无法删除草稿活动。 (TGT-37358)
-* 修复了在选择“我的所有工作区”时阻止 [!UICONTROL 用户编辑活动] 的问题。 (TGT-37276)
+| 功能/增强 | 描述 |
+| --- | --- |
+| Analytics for Target (A4T) 支持 [!UICONTROL 自动目标] 活动 | [!UICONTROL 自动目标] 活动将支 [!UICONTROL 持Analytics for] 目标(A4T)。<br>此集成将允许您使用自动 [!UICONTROL 目标] 、高级机器学习从多个高性能营销人员定义的体验中进行选择，从而个性化内容并推动转化，同时使用 [!UICONTROL Adobe Analytics目标指标和/][!DNL Adobe Analytics] 或报告和分析功能。 [!UICONTROL 自动定位根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验。]<br>如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 以与 [!UICONTROL A/B测试、自]动分配 [!UICONTROL 、体验定] 位活动一起使用，您已设置完毕！ |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

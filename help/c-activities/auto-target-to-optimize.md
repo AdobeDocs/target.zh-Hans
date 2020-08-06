@@ -4,10 +4,10 @@ title: 自动定位
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
 workflow-type: tm+mt
-source-wordcount: '3517'
-ht-degree: 91%
+source-wordcount: '3610'
+ht-degree: 85%
 
 ---
 
@@ -198,14 +198,17 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 
 如果您希望对[!UICONTROL 自动定位]活动中的内容进行重大更改，最佳实践是开始一个新活动，以便其他用户查看报表时不会将过去的结果与不同内容混淆或相关联。
 
-### 我需要等待多久才能构建模型？
+### 我需要等待多久才能构建模型？{#how-long}
 
-在[!UICONTROL 自动定位]活动中构建模型的时间通常取决于您选定活动位置的流量和活动成功量度。
+The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
 
-对于[!UICONTROL 自动定位]，可以使用简单的经验规则来了解流量要求：
+[!UICONTROL 自动目标在] 50次以上的体验转化之前，不会尝试为特定体验构建个性化模型。 此外，如果所构建的模型质量不足(通过离线评估保留“测试” [数据，使用称为AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve))，则不会使用该模型以个性化方式为流量服务。
 
-* **当“转化”是您的成功量度时：**&#x200B;每个体验每天有 1,000 次访问和至少 50 次转化，此外，该活动至少需要 7,000 次访问和 350 次转化。
-* **当“每次访问带来的收入”(RPV) 是您的成功量度时：**&#x200B;每个体验每天有 1,000 次访问和至少 50 次转化，此外，该活动的每个体验必须至少有 1,000 次转化。RPV 通常需要更多的数据才能构建模型，这是因为与转化率相比，访问收入通常存在着较大的数据差异。
+在自动目标的模型构建方 [!UICONTROL 面，还需]要牢记以下几点：
+
+* 一旦活动处于 [!UICONTROL 实时状态] ，自动目标在尝试构建模型时会考虑最多45天随机提供的数据（即控制流量，以及我们算法保留的一些额外随机提供的数据）。
+* 当每 [!UICONTROL 次访问的收入] 是您的成功指标时，由于与转化率相比，访问收入中通常存在较高的数据差异，因此这些活动通常需要更多数据来构建模型。
+* 由于模型是基于每个体验构建的，因此将一个体验替换为另一个体验意味着必须为新体验收集足够的流量（即至少50个转化率），然后才能重新构建个性化模型。
 
 ### 我的活动中已构建一个模型。对该体验的访问是否为个性化的？
 
@@ -231,7 +234,7 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 
 ### 在运行自动目标活动时，是否可以使用“重置报告数据”选项？
 
-不建议 [!UICONTROL 对自动目标][!UICONTROL 活动使] 用“重置报告数据”选项。 尽管它删除了可见的报告数据，但此选项并不会从自动目标模型 [!UICONTROL 中删除所有培训] 记录。 不要对自动 [!UICONTROL 目标活动] 使用“重置报告数据 [!UICONTROL ”] 选项，而是新建活动并取消激活原始活动。 (注： 本指南还适用于 [!UICONTROL 自动分配] 和 [!UICONTROL Automated Personalization] 活动。)
+不建议 [!UICONTROL 对自动目标][!UICONTROL 活动使] 用“重置报告数据”选项。 尽管它删除了可见的报告数据，但此选项并不会从自动目标模型 [!UICONTROL 中删除所有培训] 记录。 不要对自动 [!UICONTROL 目标活动] 使用“重置报告数 [!UICONTROL 据”选项] ，请创建新活动并取消激活原始活动。 (注： 本指南还适用于 [!UICONTROL 自动分配] 和 [!UICONTROL Automated Personalization] 活动。)
 
 ## [!UICONTROL 自动定位]故障诊断 {#section_23995AB813F24525AF294D20A20875C8}
 

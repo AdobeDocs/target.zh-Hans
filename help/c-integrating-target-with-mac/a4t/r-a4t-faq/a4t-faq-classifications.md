@@ -1,18 +1,21 @@
 ---
-keywords: FAQ;常见问题解答;Analytics for Target;A4T;分类;分类导入程序;post-tnt-action
+keywords: faq;frequently asked questions;analytics for target;a4T;classifications;classification;classifications importer;post-tnt-action
 description: 本主题包含有关分类和使用 Analytics 作为 Target 报表源 (A4T) 的常见问题解答。
 title: 分类 - A4T 常见问题解答
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 66%
 
 ---
 
 
 # 分类 - A4T 常见问题解答{#classifications-a-t-faq}
 
-本主题包含有关分类和使用 Analytics 作为 Target 报表源 (A4T) 的常见问题解答。
+This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
 ## 使用分类导入程序下载分类后，如何将 post-tnt-action 值与活动名称相匹配？{#section_6045DAC488B248418F430E663C38D001}
 
@@ -22,7 +25,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 TNT 变量的字符串格式为 `activityID:experienceID:targettype|event`。
 
-* 对于 A4T，targettype 将始终为 0。
+* targettype = 0(control/random)或1（目标） [!UICONTROL 用于自动分配][!UICONTROL 和自动目标] 活动。
 * 若 event 为 0，则表示访客参加了体验。
 * 若 event 为 1，则表示访客访问了体验。
 * 若 event 为 2，则表示进行了活动展示。

@@ -5,9 +5,9 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
+source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1788'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 8月6日 | [自动定位](/help/c-activities/auto-target-to-optimize.md#how-long) | 更新了以下常见问题解答的文本： “我应该等待多久才能建好模型？” |
+|  | [分类 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 已更新目标类型的文本。 |
 | 8月5日 | [删除 Target Cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | 更新了整个主题。 |
 | 8月4日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关“使用人工智能和Adobe Target的个性化战略”网络研讨会的注册信息。 |
 |  | [在浏览器中启用混合内容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 更新了主题。 |

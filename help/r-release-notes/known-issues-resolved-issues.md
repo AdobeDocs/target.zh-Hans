@@ -4,10 +4,10 @@ description: 有关此 Adobe Target 版本的已知问题的信息。此外，�
 title: Adobe Target 中的已知问题和已解决的问题
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 86ff105770a430b3cc56ab8ed490a154a1c2180f
+source-git-commit: f3bb126943bc5f3a44f2969e82190eac34fc5710
 workflow-type: tm+mt
-source-wordcount: '3352'
-ht-degree: 91%
+source-wordcount: '3421'
+ht-degree: 88%
 
 ---
 
@@ -124,9 +124,9 @@ On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!U
 
 ### Analytics for Target (A4T)
 
-Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
+在Analysis Workspace使用目标活动印象和转化时，应用“同一触点”Attribution IQ模型来确保准确计数。 要应用非 [默认归因模型](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，请右键单击度量以修 **改列设置>启用使用非默认归因模型>选择相同接触模型**。 如果不应用此模型，这些指标就会被夸大。
 
-作为解决方法，在这个问题得到修复之前请使用 Reports &amp; Analytics 中的 A4T 数据。
+所有当前Analytics包都能添加此模型并包含Attribution IQ。 如果您无权访问Attribution IQ，请在Reports &amp; Analytics中依赖A4T数据。
 
 ### Target API
 
@@ -134,11 +134,11 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 
 ### GEO定位
 
-2020年5月10日，我们更新了GEO提供商文件，这引发了一些不一致。 例如，添加了一些包含逗号的值； 但是，现有受众中的值没有逗号。 并非所有投放服务器都受此更改影响。 因此，在2020年5月10日至7月22日之间，使用这些值的受众可能没有达到所有正确访客的要求。
+2020年5月10日，我们更新了GEO提供商文件，这引发了一些不一致。 例如，添加了一些包含逗号的值；但是，现有受众中的值没有逗号。 并非所有投放服务器都受此更改影响。 因此，在2020年5月10日至7月22日之间，使用这些值的受众可能没有达到所有正确访客的要求。
 
 ### 显示“处理”标签的图像优惠
 
-在上传图像后，优惠页面上的图像优惠有时会在数小时内保留“处理”标签。 在大多数情况下，这只是标签的问题： 图像优惠仍可用于活动并传送。 但是，在某些情况下，图像优惠可能无法用于“替换内容”>“图像”操作。 如果出现这种情况，您应再次上传图像优惠，并在几小时后检查图像优惠是否可供替换。 (TGT-37458)
+在上传图像后，优惠页面上的图像优惠有时会在数小时内保留“处理”标签。 在大多数情况下，这只是标签的问题：图像优惠仍可用于活动并传送。 但是，在某些情况下，图像优惠可能无法用于“替换内容”>“图像”操作。 如果出现这种情况，您应再次上传图像优惠，并在几小时后检查图像优惠是否可供替换。 (TGT-37458)
 
 ## 已解决的问题 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
@@ -153,7 +153,7 @@ Target 活动展示和转化在 Analysis Workspace 中的计数不正确。
 * 您的目标实施使用不同的服务器。
 * 您的报告未排除极端订单。
 * 您使用转化量度来衡量活动。
-* 目标活动使用Analytics进行目标(A4T)。
+* 您的目标活动将Analytics用于目标(A4T)。
 * 您位于亚太(APAC)地区。
 
 要确定此问题是否影响您的目标报告，请联系客 [户关怀](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。

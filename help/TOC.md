@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4b2479c51a01ccaa04d86290af36e949e98b69b3
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1429'
 ht-degree: 91%
 
 ---
@@ -182,6 +182,7 @@ ht-degree: 91%
          + [旧版 SiteCatalyst 与 Test&amp;Target 集成 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [使用和不使用 A4T 时，Target 和 Analytics 之间的预期数据差异](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud 受众](c-integrating-target-with-mac/mmp.md)
+   + [将目标与Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [将 Target 与 Adobe Campaign 集成](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud 设备协作](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + 活动 {#activities}
@@ -217,7 +218,7 @@ ht-degree: 91%
       + [管理排除项](c-activities/t-automated-personalization/managing-exclusions.md)
       + [选择用于自动个性化或自动定位活动的控制](c-activities/t-automated-personalization/experience-as-control.md)
       + [自动个性化常见问题解答](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [预览具有体验预览URL的自动个性化活动](c-activities/t-automated-personalization/experience-preview.md)
+      + [预览Automated Personalization活动，具有体验预览URL](c-activities/t-automated-personalization/experience-preview.md)
       + [自动个性化故障诊断](c-activities/t-automated-personalization/ap-trouble.md)
    + 体验定位 {#experience-targeting}
       + [体验定位概述](c-activities/t-experience-target/experience-target.md)
@@ -380,7 +381,7 @@ ht-degree: 91%
       + [选择标准](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [添加促销活动](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [“推荐”活动设置](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [预览并启动您的推荐活动](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [预览并启动您的Recommendations活动](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [“推荐”作为选件](c-recommendations/recommendations-as-an-offer.md)
    + 常见问题解答 {#recommendations-faq}
       + [“推荐”常见问题解答](c-recommendations/c-recommendations-faq/recommendations-faq.md)

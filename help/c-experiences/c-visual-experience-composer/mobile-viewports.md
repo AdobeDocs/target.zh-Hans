@@ -4,10 +4,10 @@ description: 移动视区可帮助您预览Adobe Target活动在各种尺寸屏�
 title: 移动视图端口，提供响应式体验
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 292c6a5f2a49e6de88778c944099f4971d8a10af
+source-git-commit: 7a3aee58750b98515d44f85bbe3cd441683169a7
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 65%
+source-wordcount: '1402'
+ht-degree: 70%
 
 ---
 
@@ -148,27 +148,27 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 ## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
-此用例说明如何为两个iPhone版本配置体验：iPhone 11 Pro Max和iPhone SE。
+此用例说明如何为两个iPhone版本配置体验：iPhone 6和iPhone 6 Plus。
 
-1. 在目标中，单击 **[!UICONTROL 管理]**。
-1. 在“移 **[!UICONTROL 动视图端口配置]** ”部分，为iPhone 11 Pro Max和iPhone SE创建移动视图端口。
+1. 单击 **[!UICONTROL “管理]** ”> **[!UICONTROL “可视体验书写器]**”。
+1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
 
    对每个视区使用以下设置：
 
    | 名称 | 宽度 | 高度 | 操作系统 |
    |---|---|---|---|
-   | iPhone 11 Pro Max | 414 | 896 | iOS |
-   | iPhone SE | 375 | 667 | iOS |
+   | iPhone6 | 375 | 667 | iOS |
+   | iPhone 6 Plus | 414 | 736 | iOS |
 
    ![](assets/iphoneviewportconfig.png)
 
 1. 创建具有您想要活动的体验的目标。
-1. 选择您要目标给从iPhone 11 Pro Max或iPhone SE访问您网站的访客的体验。
+1. 选择要将其定位到以下访客的体验：通过 iPhone 6 或 iPhone 6 Plus 访问网站的访客。
 1. 选择目标后，单击&#x200B;**[!UICONTROL 创建受众]**，然后配置受众（如下图所示）：
 
    ![](assets/iphoneaudiences.png)
 
-   由于手机可以旋转到横向，要求高度和宽度同时大于320，因此，在与iPhone设备型号结合使用时，只有iPhone 11 Pro Max和iPhone SE才能满足这一条件。
+   由于手机可以旋转为横向，如果要求高度和宽度同时大于 320，则结合 iPhone 设备机型考虑，只有 iPhone 6 和 iPhone 6 Plus 能够满足此条件。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 1. 按常规方式继续设置活动。
 

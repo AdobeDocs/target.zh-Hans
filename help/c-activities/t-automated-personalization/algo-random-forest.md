@@ -1,10 +1,14 @@
 ---
-keywords: 定位
+keywords: Targeting
 description: Target 在自动个性化和自动定位中使用的主要个性化算法是随机林算法。相较于从任何组成学习算法获得的性能而言，诸如随机林之类的组合方法可使用多种学习算法获得更好的预测性能。自动个性化中的随机林算法是一种分类或回归分析方法，该方法通过在训练时构建大量的决策树来执行运算。
 title: 随机林算法
+feature: null
 uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1456'
+ht-degree: 99%
 
 ---
 

@@ -2,10 +2,11 @@
 keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: 有关使用 Adobe Target at.js 2.x 实施单页应用程序 (SPA) 的信息。
 title: Adobe Target 中的单页应用程序实施
+feature: null
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 74%
@@ -285,7 +286,7 @@ at.js 2.x API允许您以多种方 [!DNL Target] 式自定义实施，但在此�
 | --- | --- | --- |
 | 1 | 加载VisitorAPI JS | 此库负责为访客分配ECID。 此ID稍后会被网页上 [!DNL Adobe] 的其他解决方案使用。 |
 | 2 | 加载at.js 2.x | at.js 2.x加载用于实现请求和视图的所 [!DNL Target] 有必要API。 |
-| 3 | 执行请 [!DNL Target] 求 | 如果您有数据层，我们建议您在执行请求之前加载发送到的 [!DNL Target] 关键数 [!DNL Target] 据。 这样，您便可 `targetPageParams` 以使用发送任何要用于定位的数据。 必须确保在此API调用中请求执行> pageLoad以及预取>视图。 如果已设置和， `pageLoadEnabled` 则 `viewsEnabled`“执行”>“pageLoad”和“预取”>“步骤2”会自动发生视图; 否则，您需要使用 `getOffers()` API发出此请求。 |
+| 3 | 执行请 [!DNL Target] 求 | 如果您有数据层，我们建议您在执行请求之前加载发送到的 [!DNL Target] 关键数 [!DNL Target] 据。 这样，您便可 `targetPageParams` 以使用发送任何要用于定位的数据。 必须确保在此API调用中请求执行> pageLoad以及预取>视图。 如果已设置和， `pageLoadEnabled` 则 `viewsEnabled`“执行”>“pageLoad”和“预取”>“步骤2”会自动发生视图;否则，您需要使用 `getOffers()` API发出此请求。 |
 | 4 | 调用 `triggerView()` | 由于您在 [!DNL Target] 步骤3中启动的请求可以返回页面加载执行和视图的体验，因此，请确保在 `triggerView()` 返回请求并完成 [!DNL Target] 将优惠应用到缓存后调用。 每个视图只能执行此步骤一次。 |
 | 5 | 调用页 [!DNL Analytics] 面视图信标 | 此信标将与步骤3和步骤4关联的SDID发送 [!DNL Analytics] 到数据拼接。 |
 | 6 | 拨叫其他 `triggerView({"page": false})` | 这是SPA框架的可选步骤，该步骤可能会在页面上重新呈现某些组件，而不会发生视图更改。 在这种情况下，您必须调用此API，以确保 [!DNL Target] 在SPA框架重新呈现组件后重新应用体验。 您可以执行此步骤的次数，以确保SPA视图 [!DNL Target] 中的体验持续存在。 |
@@ -315,7 +316,7 @@ at.js 2.x API允许您以多种方 [!DNL Target] 式自定义实施，但在此�
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-有 [关详细信息，请参阅在单页应用程序(SPA)中实施Adobe Target](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) at.js 2.x。
+请 [参阅在单页应用程序(SPA)中实施Adobe Target的at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) ，了解更多信息。
 
 ### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 

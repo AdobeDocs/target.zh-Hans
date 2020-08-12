@@ -1,10 +1,14 @@
 ---
-keywords: 促销活动;前端促销活动;后端促销活动;促销活动类型
+keywords: promotions;front promotions;back promotions;promotions type
 description: 可添加促销项目并控制它们在 Adobe Target“推荐”设计中的放置位置。您可以添加静态和动态促销活动。
 title: 在 Adobe Target“推荐”设计中添加促销活动。
+feature: null
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 100%
 
 ---
 
@@ -48,13 +52,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    * 选择&#x200B;**[!UICONTROL 项目列表]**，然后输入要促销的各个特定项目的 `entity.id` 值（值之间用逗号分隔）。
 
-      如果列表中包含的项目数量多于您为促销活动设置的版块数量，则您可以选中“**[!UICONTROL 随机排列项目顺序]”复选框，以使您的设计中显示的促销项目发生变化。**&#x200B;选中此选项后，每次访问时 Target 都将从整个促销活动集中随机选择在模板中为促销活动启用的项目数量。
+      如果列表中包含的项目数量多于您为促销活动设置的版块数量，则您可以选中“**[!UICONTROL 随机排列项目顺序]**”复选框，以使您的设计中显示的促销项目发生变化。选中此选项后，每次访问时 Target 都将从整个促销活动集中随机选择在模板中为促销活动启用的项目数量。
 
-   * 选择&#x200B;**[!UICONTROL 按属性促销]，然后添加规则以定义要促销的项目的属性。**
+   * 选择&#x200B;**[!UICONTROL 按属性促销]**，然后添加规则以定义要促销的项目的属性。
 
       如果选择“按属性促销”，您可以创建动态匹配。有关更多信息，请参阅[使用动态和静态包含规则](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
 
-   * 选择&#x200B;**[!UICONTROL 促销收藏集]，然后选择要促销的项目收藏集。**&#x200B;您可以创建新的收藏集，以将其用于促销活动。请参阅[创建收藏集](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)，以了解更多信息。
+   * 选择&#x200B;**[!UICONTROL 促销收藏集]**，然后选择要促销的项目收藏集。您可以创建新的收藏集，以将其用于促销活动。请参阅[创建收藏集](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)，以了解更多信息。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 

@@ -1,11 +1,15 @@
 ---
-keywords: 多个受众;体验版本;定位体验版本
+keywords: multiple audiences;experience versions;target experience versions
 description: 在 A/B 活动中，您可以将相同体验的不同版本定位到不同的受众。在可视化体验编辑器或基于表单的体验编辑器中，您可以为一个体验设置多个受众。
 title: A/B 测试中的多个体验版本
+feature: null
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '605'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +36,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    配置具有多个版本的体验时，请按照以下步骤所示，为每个版本选择相应的受众。
 
-1. 选择体验，然后单击&#x200B;**[!UICONTROL 配置]** &gt; **[!UICONTROL 受众]** &gt; **[!UICONTROL 多个受众]**。
+1. 选择体验，然后单击&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 受众]** > **[!UICONTROL 多个受众]**。
 
    ![“多个受众”选项](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 

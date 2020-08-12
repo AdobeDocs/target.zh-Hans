@@ -1,11 +1,15 @@
 ---
-keywords: 可视化体验编辑器选项;体验编辑器选项;体验选项;编辑文本;编辑 html;编辑文本/html;编辑背景颜色;背景颜色;插入元素;编辑链接;链接;可视化体验编辑器链接;编辑 css 类;css 类;交换选件;选件交换;交换图像;图像交换;删除项目;项目删除;隐藏项目;项目隐藏;重新排列;移动元素;元素移动;调整元素大小;元素大小调整;元素;展开选定内容;导航到此链接;导航链接;链接导航;导航;撤消;重做;撤消/重做
+keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: 单击 Adobe Target 可视化体验编辑器 (VEC) 中某个页面元素时，会显示一个菜单，其中提供了可用于该元素类型的选项。
 title: Adobe Target 可视化体验编辑器 (VEC) 选项
+feature: null
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 95%
 
 ---
 
@@ -55,7 +59,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 使用[!UICONTROL 样式]面板可查看或编辑所选元素现有样式的值。您还可以添加其他样式。
 
-要访问[!UICONTROL 样式]面板，请单击 VEC 中的某个页面元素，然后单击&#x200B;**[!UICONTROL 编辑]** &gt; **[!UICONTROL 样式]**。
+To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
 
 [!UICONTROL 样式]面板将显示在 VEC 的右侧。该面板包括一个样式列表，允许您编辑样式或将其添加到所选元素。如果您习惯使用层叠样式表 (CSS)，或者从开发人员那里接收代码，则可以使用实时 CSS 编辑器查看更改并添加样式。
 
@@ -109,6 +113,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    * 自动
    * 值（拖动滑块以设置边距或指定每个边距的像素数）
+
    边距支持正值和负值。
 
    Target 还支持其他大小单位，例如 rem、pc、em 等。For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
@@ -132,13 +137,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 边框样式（无、隐藏、点线、虚线、实线或双线）
    * 边框颜色（指定颜色代码或使用拾色器）
    * 边框宽度（拖动滑块以选择边框宽度或以像素为单位指定宽度）
+
    边框支持的宽度范围从 0 开始。
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **位置**
 
-   将所选元素从当前位置移动。You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   将所选元素从当前位置移动。You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    单击[!UICONTROL 静态]下拉列表，从以下位置选项中进行选择：
 
@@ -147,10 +153,12 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 绝对
    * 置顶
    * 固定
+
    单击每个位置的下拉图标，从以下选项中进行选择：
 
    * 自动
    * 值（拖动滑块以定位元素或指定要移动元素的像素数）
+
    位置支持正值和负值。
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.

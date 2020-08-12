@@ -1,11 +1,15 @@
 ---
-keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;发送通知;通知;at.js;函数;函数
+keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;functions;function
 description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.sendNotifications(options) 函数的信息。
 title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.sendNotifications(options) 函数的信息。
-subtopic: 入门指南
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 100%
 
 ---
 
@@ -28,32 +32,32 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 | 字段名称 | 类型 | 必需？ | 限制 | 描述 |
 | --- | --- | --- | --- | --- |
-| Request &gt; notifications | 对象数组 | 是 |  | 有关显示的内容、点击的选择器和/或访问的视图或 mbox 的通知。 |
-| Request &gt; notifications &gt; address | 对象 | 否 |  |  |
-| Request &gt; notifications &gt; address &gt; url | 字符串 | 否 |  | 从中触发通知的 URL。 |
-| Request &gt; notifications &gt; address &gt; referringUrl | 字符串 | 否 |  | 从中触发通知的引荐 URL。 |
-| Request &gt; notifications &gt; parameters | 对象 | 否 | 参数不允许使用以下名称：<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>请考虑以下事项：<ul><li>参数上限为 50 个。</li><li>参数名称不应为空。</li><li>参数名称的最大长度为 128。</li><li>参数名称不应以“profile”开头。</li><li>参数值的最大长度为 5000。</li></ul> |  |
-| Request &gt; notifications &gt; profileParameters | 对象 | 否 | 参数不允许使用以下名称：<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>请考虑以下事项：<ul><li>参数上限为 50 个。</li><li>参数名称不应为空。</li><li>参数名称的最大长度为 128。</li><li>参数名称不应以“profile”开头。</li><li>参数值的最大长度为 5000。</li></ul> |  |
-| Request &gt; notifications &gt; order | 对象 | 否 |  | 描述订单详细信息的对象。 |
-| Request &gt; notifications &gt; order &gt; id | 字符串 | 否 | `<=` 250 个字符。 | 订单 ID。 |
-| Request &gt; notifications &gt; order &gt; total | 字符串 | 否 | `>=` 0 | 订单总计。 |
-| Request &gt; notifications &gt; order &gt; purchasedProductIds | 字符串数组 | 否 | <ul><li>不允许使用空值。</li><li>每个产品 ID 的最大长度为 50。</li><li>产品 ID 用逗号分隔和连接，总长度不应超过 250。</li></ul> | 订单产品 ID。 |
-| Request &gt; notifications &gt; product | 对象 | 否 |  |  |
-| Request &gt; notifications &gt; product &gt; id | 字符串 | 否 | `<=` 128 个字符；不能为空。 | 产品 ID。 |
-| Request &gt; notifications &gt; product &gt; categoryId | 字符串 | 否 | `<=` 128 个字符；不能为空。 | 类别 ID。 |
-| Request &gt; notifications &gt; id | 字符串 | 是 | `<=` 200 个字符。 | 通知 ID 将在响应中返回，并指示通知已成功处理。 |
-| Request &gt; notifications &gt; impressionId | 字符串 | 否 | `<= 128` 个字符。 | 展示 ID 用于将当前通知与先前的通知或执行请求拼合（链接）到一起。如果两者匹配，则第二个和其他后续请求不会生成活动或体验的新展示。 |
-| Request &gt; notifications &gt; type | 字符串 | 是 | 支持“click”或“display”。 | 通知类型。 |
-| Request &gt; notifications &gt; timestamp | 数值`<int64>` | 是 |  | 通知的时间戳（以自 UNIX 纪元以来所经过的毫秒数为单位）。 |
-| Request &gt; notifications &gt; tokens | 字符串数组 | 是 |  | 基于通知类型的已显示内容或已点击选择器的令牌列表。 |
-| Request &gt; notifications &gt; mbox | 对象 | 否 |  | 有关 mbox 的通知。 |
-| Request &gt; notifications &gt; mbox &gt; name | 字符串 | 否 | 不允许使用空值。<br>允许使用的字符：请参阅此表后面的注释。 | mbox 名称。 |
-| Request &gt; notifications &gt; mbox &gt; state | 字符串 | 否 |  | mbox 状态令牌。 |
-| Request &gt; notifications &gt; view | 对象 | 否 |  |  |
-| Request &gt; notifications &gt; view &gt; id | 整数 `<int64>` | 否 |  | 视图 ID。通过视图 API 创建视图时分配给视图的 ID。 |
-| Request &gt; notifications &gt; view &gt; name | 字符串 | 否 | `<= 128` 个字符。 | 视图的名称。 |
-| Request &gt; notifications &gt; view &gt; key | 字符串 | 否 | `<=` 512 个字符。 | 视图键。通过 API 在视图中设置的键。 |
-| Request &gt; notifications &gt; view &gt; state | 字符串 | 否 |  | 视图状态令牌。 |
+| Request > notifications | 对象数组 | 是 |  | 有关显示的内容、点击的选择器和/或访问的视图或 mbox 的通知。 |
+| Request > notifications > address | 对象 | 否 |  |  |
+| Request > notifications > address > url | 字符串 | 否 |  | 从中触发通知的 URL。 |
+| Request > notifications > address > referringUrl | 字符串 | 否 |  | 从中触发通知的引荐 URL。 |
+| Request > notifications > parameters | 对象 | 否 | 参数不允许使用以下名称：<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>请考虑以下事项：<ul><li>参数上限为 50 个。</li><li>参数名称不应为空。</li><li>参数名称的最大长度为 128。</li><li>参数名称不应以“profile”开头。</li><li>参数值的最大长度为 5000。</li></ul> |  |
+| Request > notifications > profileParameters | 对象 | 否 | 参数不允许使用以下名称：<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>请考虑以下事项：<ul><li>参数上限为 50 个。</li><li>参数名称不应为空。</li><li>参数名称的最大长度为 128。</li><li>参数名称不应以“profile”开头。</li><li>参数值的最大长度为 5000。</li></ul> |  |
+| Request > notifications > order | 对象 | 否 |  | 描述订单详细信息的对象。 |
+| Request > notifications > order > id | 字符串 | 否 | `<=` 250 个字符。 | 订单 ID。 |
+| Request > notifications > order > total | 字符串 | 否 | `>=` 0 | 订单总计。 |
+| Request > notifications > order > purchasedProductIds | 字符串数组 | 否 | <ul><li>不允许使用空值。</li><li>每个产品 ID 的最大长度为 50。</li><li>产品 ID 用逗号分隔和连接，总长度不应超过 250。</li></ul> | 订单产品 ID。 |
+| Request > notifications > product | 对象 | 否 |  |  |
+| Request > notifications > product > id | 字符串 | 否 | `<=` 128 个字符；不能为空。 | 产品 ID。 |
+| Request > notifications > product > categoryId | 字符串 | 否 | `<=` 128 个字符；不能为空。 | 类别 ID。 |
+| Request > notifications > id | 字符串 | 是 | `<=` 200 个字符。 | 通知 ID 将在响应中返回，并指示通知已成功处理。 |
+| Request > notifications > impressionId | 字符串 | 否 | `<= 128` 个字符。 | 展示 ID 用于将当前通知与先前的通知或执行请求拼合（链接）到一起。如果两者匹配，则第二个和其他后续请求不会生成活动或体验的新展示。 |
+| Request > notifications > type | 字符串 | 是 | 支持“click”或“display”。 | 通知类型。 |
+| Request > notifications > timestamp | 数值`<int64>` | 是 |  | 通知的时间戳（以自 UNIX 纪元以来所经过的毫秒数为单位）。 |
+| Request > notifications > tokens | 字符串数组 | 是 |  | 基于通知类型的已显示内容或已点击选择器的令牌列表。 |
+| Request > notifications > mbox | 对象 | 否 |  | 有关 mbox 的通知。 |
+| Request > notifications > mbox > name | 字符串 | 否 | 不允许使用空值。<br>允许使用的字符：请参阅此表后面的注释。 | mbox 名称。 |
+| Request > notifications > mbox > state | 字符串 | 否 |  | mbox 状态令牌。 |
+| Request > notifications > view | 对象 | 否 |  |  |
+| Request > notifications > view > id | 整数 `<int64>` | 否 |  | 视图 ID。通过视图 API 创建视图时分配给视图的 ID。 |
+| Request > notifications > view > name | 字符串 | 否 | `<= 128` 个字符。 | 视图的名称。 |
+| Request > notifications > view > key | 字符串 | 否 | `<=` 512 个字符。 | 视图键。通过 API 在视图中设置的键。 |
+| Request > notifications > view > state | 字符串 | 否 |  | 视图状态令牌。 |
 
 **注意**：`Request > notifications > mbox > name` 允许使用以下字符：
 

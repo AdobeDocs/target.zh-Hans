@@ -1,10 +1,14 @@
 ---
-keywords: Target;报表;报表设置;多个量度;量度
-description: 使用Adobe Target选择多个要在报告中查看的指标。
-title: 使用Adobe Target在报告中查看多个指标
+keywords: Target;reports;report settings;multiple metrics;metrics
+description: 使用Adobe Target选择多个要视图的指标。
+title: 使用Adobe Target视图报告中的多个指标
+feature: null
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 70%
 
 ---
 
@@ -22,7 +26,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **选择要在报表中显示的多个量度：**
 
-1. 要显示报表，请单击&#x200B;**[!UICONTROL 活动]**，从列表中单击所需的活动，然后单击&#x200B;**报表]选项卡。[!UICONTROL **
+1. 要显示报表，请单击&#x200B;**[!UICONTROL 活动]**，从列表中单击所需的活动，然后单击&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡。
 1. 单击&#x200B;**[!UICONTROL 报表量度]**&#x200B;下拉列表，以显示“[!UICONTROL 显示的量度]”和“[!UICONTROL 隐藏的量度]”列表。
 
    ![](assets/multiple_metrics.png)
@@ -41,14 +45,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    您可以在“[!UICONTROL 显示的量度]”列表中按所需顺序将各个量度拖放到相应的位置，以重新排列这些量度。所选的顺序将反映在“表格视图”和“图形视图”中。要从“[!UICONTROL 显示的量度]”列表中删除某个量度，请将鼠标指针悬停在该量度上，然后单击 **X** 图标。
 
-1. 完成后单击&#x200B;**[!UICONTROL 保存]。**
-1. （视情况而定）在表视图中查看报表时，将鼠标指针悬停在任何度量的列标题上可显示蓝色箭头。 单击该箭头可展开表格，以便显示该量度的[!UICONTROL 提升度]和[!UICONTROL 置信度]。
+1. 完成后单击&#x200B;**[!UICONTROL 保存]**。
+1. （视情况而定）在“表”视图中查看报表时，将鼠标指针悬停在任何度量的列标题上可显示蓝色箭头。 单击该箭头可展开表格，以便显示该量度的[!UICONTROL 提升度]和[!UICONTROL 置信度]。
 
    ![](assets/multiple_metrics_table.png)
 
    您一次只能展开一个量度/列。再次单击该箭头可折叠列。
 
-1. （视情况而定）在“图形视图”中查看报表时，您可以从下拉列表中选择要显示的单个度量：
+1. （视情况而定）在图表视图中查看报表时，您可以从下拉列表中选择要显示的各个度量：
 
    ![](assets/multiple_metrics_graph.png)
 

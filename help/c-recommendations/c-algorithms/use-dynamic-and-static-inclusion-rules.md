@@ -1,10 +1,14 @@
 ---
-keywords: 包含规则;包含标准;推荐;新建标准;促销活动;动态筛选;动态;空值;忽略筛选规则;静态筛选器;按值筛选;实体属性匹配;配置文件属性匹配;参数匹配;按值筛选;静态筛选器
-description: 有关在Adobe Target Recommendations中创建标准和促销包含规则的信息，以及添加其他动态或静态过滤规则以获得更好的效果。
-title: 在Adobe Target Recommendations中使用动态和静态包含规则
+keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
+description: 有关在Adobe TargetRecommendations创建包含规则以获取标准和促销信息，以及添加其他动态或静态过滤规则以获得更好效果的信息。
+title: 在Adobe TargetRecommendations使用动态和静态包含规则
+feature: null
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1453'
+ht-degree: 75%
 
 ---
 
@@ -37,7 +41,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 |--- |--- |--- |
 | **动态筛选** | **实体属性匹配：**&#x200B;通过将潜在推荐项目池与用户交互的特定项目进行比较来进行动态筛选。<br>例如，只推荐与当前项目品牌相匹配的项目。 | 等于<br>不等于<br>介于<br>包含<br>不包含<br>始于<br>止于<br>值存在<br>值不存在<br>大于或等于<br>小于或等于 |
 |  | **配置文件属性匹配：**&#x200B;通过比较项目（实体）与用户配置文件中的值来进行动态筛选。<br>例如，只推荐与访客最喜爱的品牌相匹配的项目。 | 等于<br>不等于<br>包含<br>不包含<br>始于<br>止于<br>大于或等于<br>小于或等于<br>介于 |
-|  | **参数匹配：**&#x200B;通过比较项目（实体）与请求中的值（API 或 mbox）来进行动态筛选。<br>例如，只推荐与“行业”页面参数相匹配的内容。<br>**重要信息：**&#x200B;如果该活动于 2016 年 10 月 31 日之前创建，则当它使用“参数匹配”筛选器时，交付将会失败。要解决此问题，请执行以下操作：<ul><li>创建一个新的活动并在其中添加您的标准。</li><li>使用不包含“参数匹配”筛选器的标准。</li><li>从您的标准中删除“参数匹配”筛选器。</li></ul> | 等于<br>不等于<br>包含<br>不包含<br>始于<br>止于<br>大于或等于<br>小于或等于<br>介于 |
+|  | **参数匹配：**&#x200B;通过比较项目（实体）与请求中的值（API 或 mbox）来进行动态筛选。<br>例如，只推荐与“行业”页面参数相匹配的内容。<br>**重要信息：**如果该活动于 2016 年 10 月 31 日之前创建，则当它使用“参数匹配”筛选器时，交付将会失败。要解决此问题，请执行以下操作：<ul><li>创建一个新的活动并在其中添加您的标准。</li><li>使用不包含“参数匹配”筛选器的标准。</li><li>从您的标准中删除“参数匹配”筛选器。</li></ul> | 等于<br>不等于<br>包含<br>不包含<br>始于<br>止于<br>大于或等于<br>小于或等于<br>介于 |
 | **按值筛选** | **静态筛选器：**&#x200B;手动输入一个或多个静态值进行筛选。<br>例如，只推荐美国电影协会 (MPAA) 评级为“G”或“PG”的内容。 | 等于<br>不等于<br>包含<br>不包含<br>始于<br>止于<br>值存在<br>值不存在<br>大于或等于<br>小于或等于 |
 
 >[!NOTE]
@@ -86,20 +90,20 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | 不显示此标准的任何结果 | 实体属性匹配<br>配置文件属性匹配<br>参数匹配 | 这是“实体属性匹配”的默认操作。<br>此操作是 Target 在添加此选项之前处理空值的方式：不显示此标准的结果。 |
 | 使用静态值 | 实体属性匹配<br>配置文件属性匹配<br>参数匹配 | 如果值为空，您可以选择使用静态值。 |
 
-## 配置文件属性匹配示例 {#section_9873E2F22E094E479569D05AD5BB1D40}
+## 用户档案属性匹配示例 {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL 配置文件属性匹配] (Profile Attribute Matching)允许您仅推荐与访客配置文件中的属性匹配的项目，如下例所示。
+[!UICONTROL 用户档案属性匹配] 允许您仅推荐与访客用户档案中的属性匹配的项目，如以下示例所示。
 
-**示例1:推荐来自用户最喜爱品牌的项目例如**，您可以使用 [!UICONTROL Profile Attribute Matching] （配置文件属性匹配）选项来创建规则，该规则建议仅在品牌等于值或存储在中的文本时才推荐项目 `profile.favoritebrand`。 在此规则下，如果访客正在查看特定品牌的运动裤，则只会显示与该用户最喜爱的品牌（存储在该访客配置文件的 `profile.favoritebrand` 中的值）相匹配的推荐。
+**示例1:推荐来自用户最喜爱品牌的项**&#x200B;目例如，您可以使用“ [!UICONTROL 用户档案属性匹配] ”选项来创建规则，该规则仅建议品牌等于存储在中的值或文本的项目 `profile.favoritebrand`。 在此规则下，如果访客正在查看特定品牌的运动裤，则只会显示与该用户最喜爱的品牌（存储在该访客配置文件的 `profile.favoritebrand` 中的值）相匹配的推荐。
 
 ```
 Profile Attribute Matching
 brand - equals - the value/text stored in - profile.favoritebrand
 ```
 
-**示例2:将工作与求职者匹配**&#x200B;假设你试图将工作与求职者匹配起来。 你只想推荐和求职者在同一城市的工作。
+**示例2:将工作与求职者**&#x200B;匹配假设你试图将工作与求职者匹配。 你只想推荐那些和求职者在同一个城市的工作。
 
-您可以使用包含规则将求职者的位置从访客资料匹配到工作列表，如下例所示：
+您可以使用包含规则将求职者的位置从其访客的用户档案与职务列表相匹配，如下例所示：
 
 ```
 Profile Attribute Matching
@@ -108,9 +112,9 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 ## 实体属性匹配示例
 
-[!UICONTROL “实体属性匹配] ”允许您仅推荐与用户当前查看的项目、用户最近查看的项目、用户最近购买的项目、用户最常查看的项目或访客配置文件中自定义属性中存储的项目的属性匹配的项目，如以下示例所示。
+[!UICONTROL “实体属性匹配] ”允许您仅推荐与用户当前查看的项目、用户最近查看的项目、用户最近购买的项目、用户最常查看的项目或访客用户档案中自定义属性中存储的项目的属性匹配的项目，如以下示例所示。
 
-**示例3:向上销售更昂贵的产品**-假定您是服装零售商并希望鼓励用户考虑价格更高、因此利润更高的商品。 您可以使用“等于”和“介于”运算符来宣传来自同一类别和同一品牌的更昂贵的物品。 例如，看到跑鞋公司的访客可以推广更贵的跑鞋，以向上销售看跑鞋的访客。
+**示例3:向上销售更昂贵的产品**&#x200B;假定您是服装零售商，并希望鼓励用户考虑价格更高、因此利润更高的产品。 您可以使用“等于”和“介于”运营商来宣传来自同一类别和同一品牌的更贵商品。 例如，看到跑步公司的访客可以推出更贵的跑步鞋，试图向看跑步鞋的访客推销。
 
 ```
 Entity Attribute Matching
@@ -123,7 +127,7 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-**示例4:提升专用标签产品**&#x200B;您可以混合使用动态和静态过滤器来提升专用标签产品。 例如，一家办公室供应公司可以推广公司家用品牌的碳粉盒，以便为查看碳粉的访客带来利润更高的销售，并推广公司家用品牌的钢笔，以便为查看钢笔的访客带来利润更高的销售。
+**示例4:提升专用标签产品**&#x200B;您可以混合动态和静态过滤器来提升专用标签产品。 例如，办公室供应公司可以推广公司家用品牌的碳粉盒，以推动访客通过碳粉进行利润更高的销售，并推广公司家用品牌的钢笔，以推动访客通过钢笔进行利润更高的销售。
 
 ```
 Entity Attribute Matching

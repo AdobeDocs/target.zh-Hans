@@ -2,9 +2,13 @@
 keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: 可上传 CSV 文件以自定义您的推荐。
 title: 上传自定义标准
+feature: null
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 98%
 
 ---
 
@@ -89,9 +93,9 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 | 未找到目录 | 请提供服务器上存在的目录。 |
 | 未找到文件 | 请提供服务器上所指示目录中存在的文件名称。 |
 
-## 培训视频：在“推荐”中创建标准 (12:33) 教 ![程徽章](/help/assets/tutorial.png)
+## 培训视频：在“推荐”中创建标准 (12:33) ![教程徽章](/help/assets/tutorial.png)
 
-此视频包含以下信息（有关上传自定义条件的详细信息，从11:43开始）:
+此视频包含以下信息（有关上传自定义条件的详细信息从11:43开始）:
 
 * 创建标准
 * 创建标准序列

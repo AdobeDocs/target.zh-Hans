@@ -2,10 +2,11 @@
 keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
 description: 自定义参数为 mbox 参数。如果将任何 mbox 参数传递到 mbox，或者使用 targetPageParams 函数，则此处将显示这些参数，以供在受众中使用。
 title: Adobe Target 中的自定义参数
+feature: null
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: e78cba101db2c5fb6c7d98130cb78b1b295c9f34
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 90%
@@ -57,7 +58,7 @@ For more information, see [Pass parameters to a global mbox](/help/c-implementin
 * 针对特定 mbox 评估受众和活动。例如，如果全局 mbox 传递了某个参数，但区域 mbox 没有，则针对该参数的活动/受众将不符合区域 mbox 上的条件。
 * 定位不根据内部mbox参数（如mboxPC、mboxSession、mbox3rdPartyId、mboxMCSDID、mboxMCAVID、mboxMCGVID、mboxCount、mboxId和mboxVersion）进行评估。
 
-## 培训视频： 创建受众 ![教程徽章](/help/assets/tutorial.png)
+## 培训视频：创建受众 ![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用受众类别的信息。
 

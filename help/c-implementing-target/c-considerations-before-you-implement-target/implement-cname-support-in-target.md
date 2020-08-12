@@ -5,9 +5,9 @@ title: CNAME 和 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8edefa9975cf4f39fb33b0323e5a52893d46ff97
+source-git-commit: 45bd128a01dcb8d4d8d330d8ed4a4df04b98a612
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1183'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
    >* Adobe的证书颁发机构DigiCert在此步骤完成之前无法颁发证书。 因此，Adobe在完成此步骤之前无法满足您对CNAME实施的请求。
 
 
-1. 在打开请求CNAME支持的Adobe客户关 [怀票证时填写以下表单](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [填写此表单](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) ，并在打开请求CNAME [支持的Adobe客户关怀票证时加入此表单](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
    * Adobe [!DNL Target] client code:
    * SSL证书主机名(示例： `target.example.com target.example.org`):

@@ -2,10 +2,11 @@
 keywords: at.js releases;at.js versions
 description: 有关每个 at.js 版本中的更改的详细信息。
 title: at.js 版本详细信息
+feature: null
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3978'
 ht-degree: 86%
@@ -21,7 +22,7 @@ ht-degree: 86%
 >
 >目标团队支持at.js 1。*x* 与 at.js 2.*x* 之间的映射。请升级到at.js的任一主要版本的最新更新，以确保您运行的是受支持的版本。
 >
->[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch是升级at.js的首选方法。 扩展开发人员不断为其扩展添加新功能，并经常修复错误。 这些更新将打包到扩展的新版本中，并作为升级在目 [!DNL Launch] 录中提供。 有关详细信息，请参 [阅《Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 用户指南 *》中的“扩展升级”*。
+>[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是升级at.js的首选方法。 扩展开发人员不断为其扩展添加新功能，并经常修复错误。 这些更新将打包到扩展的新版本中，并作为升级在目 [!DNL Launch] 录中提供。 有关详细信息，请参 [阅《Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 用户指南 *》中的“扩展升级”*。
 
 ## at.js 2.3.2（2020年7月24日）
 
@@ -61,7 +62,7 @@ ht-degree: 86%
 
 此版本的at.js包含以下增强和修复：
 
-* 修复了当页面元素中不存在AdobeAnalytics代码时，单击跟踪不报告目标(A4T)的Analytics转换的问题。
+* 修复了在页面元素中不存在Adobe Analytics代码时，单击跟踪不会报告目标分析(A4T)中的转换问题。
 * 在网页上同时使用Experience CloudID服务(ECID)v4.4和at.js 2.2时，性能得到改进。
 * 以前，ECID在at.js获取体验之前发出了两个阻止调用。 这已降低为单个呼叫，这显着提高了性能。
 

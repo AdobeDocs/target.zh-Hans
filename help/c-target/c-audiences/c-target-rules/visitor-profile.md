@@ -2,9 +2,13 @@
 keywords: visitor profile;target visitor profile
 description: 在 Adobe Target 中创建受众以定位满足特定配置文件参数的访客。
 title: 访客配置文件
+feature: null
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 97%
 
 ---
 
@@ -30,6 +34,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    * 会话首页
    * 不是会话首页
    * 类别亲和度
+
    使用新的 `mboxPC` 为每个 mbox 调用在本地 Edge 内存中创建访客配置文件。在处于不活动状态超过 30 分钟之后，配置文件会保存到 Target 数据库，以便可从其他 Edge 访问。
 
    当网站访客在会话期间登录并获得 `3rdpartyId` 时，之前加载的所有与该 `3rdPartyId` 关联的配置文件属性便会立即可用。

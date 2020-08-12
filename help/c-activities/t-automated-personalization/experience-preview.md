@@ -1,24 +1,28 @@
 ---
 keywords: experience preview;experience urls;generate urls;view experience urls
-description: 可以为Target自动个性化活动生成体验预览URL，以便在活动实时进行预览和QA之前直接在您的站点上查看体验内容。 体验预览URL绕过定位，以强制查看特定体验。
-title: 使用体验预览URL预览自动个性化活动
+description: 可以为目标Automated Personalization活动生成体验预览URL，以便在活动为预览和QA目的而实时之前直接在您的站点上查看体验内容。 体验预览URL绕过定位，以强制查看特定体验。
+title: 预览Automated Personalization活动，具有体验预览URL
+feature: null
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 4ab572a0466381854d70eb47e0fc0b4a2874b833
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 64%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Preview使用体验预览URL自动个性化活动{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![高级预览](/help/assets/premium.png) Automated Personalization活动(具有体验预览URL){#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
-可以为Target自动个性化活动生成体验预览URL，以便在活动实时进行预览和QA之前直接在您的站点上查看体验内容。 体验预览URL绕过定位，以强制查看特定体验。
+可以为目标Automated Personalization活动生成体验预览URL，以便在活动为预览和QA目的而实时之前直接在您的站点上查看体验内容。 体验预览URL绕过定位，以强制查看特定体验。
 
 >[!NOTE]
 >
->“自动个性化”的体验预览URL与“活动QA”模式不同。 在“活动 QA”模式下，您可以为其他类型的活动创建活动 URL。有关更多信息，请参阅[活动 QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)。。
+>Automated Personalization的体验预览URL与活动QA模式不同。 在“活动 QA”模式下，您可以为其他类型的活动创建活动 URL。有关更多信息，请参阅[活动 QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)。。
 >
->仅当使用at.js 1.x时，AP活动的体验预览URL才可用。at.js 2.x当前不支持AP活动的体验预览URL。
+>AP预览的体验活动URL仅在使用at.js 1.x时可用。at.js 2.x当前不支持AP活动的体验预览URL。
 
 使用体验预览URL与团队成员共享体验，并跨浏览器和环境提供QA体验，无需创建单独的QA活动。 如果网站很复杂，或者您的安全策略不允许在模拟器中查看网站，则此功能将特别有用。
 
@@ -30,6 +34,7 @@ source-git-commit: 4ab572a0466381854d70eb47e0fc0b4a2874b833
 
    * 如果您使用的是可视化体验编辑器，则会自动输入您为活动指定的默认 URL，且会为活动中的每个体验各生成一个链接。如有需要，您可以更改此 URL，并添加其他 URL。
    * 如果您使用的是基于表单的体验编辑器，则不会自动输入默认 URL。If you haven&#39;t previously created experience preview URLs, click **Add New URL**. 您必须指定所有要预览的 URL，并指定每个 URL 的名称。
+
    您可以添加多个 URL，如果您在运行一个多页面测试或模板测试，并且想要在多个页面上预览活动，则需要使用多个 URL。
 
    模态窗口会显示指向您网站上的体验的链接，以获取体验在 Target 可视化体验编辑器之外的“真实预览”。您必须通过共享消息中的链接来共享预览。如果单击链接，然后从页面复制生成的 URL，则不会起作用，因为 URL 包含只有在从消息中的链接访问页面时才会正确显示页面的参数。应当采取的正确操作是，复制模态窗口中的文本，然后通过电子邮件将整个文本发送给您的团队。
@@ -59,14 +64,14 @@ source-git-commit: 4ab572a0466381854d70eb47e0fc0b4a2874b833
 **共享体验预览URL**
 
 * 即使您不是目标受众的成员，您也能够预览体验。
-* 您可以与无权访问Adobe target的同事共享体验预览URL。
+* 您可以与无权访问Adobe Target的同事共享体验预览URL。
 
 **使用体验预览URL查看体验**
 
 * 只要页面未发生更改，便可预览任何已保存的活动。
-* 无论活动处于活动状态还是非活动状态，都可以使用体验预览URL。
-* 无法预览处于“草稿”状态的体验。
-* 查看体验预览URL不会影响报表。
+* 无论预览处于活动状态还是处于非活动状态，都可以使用体验活动URL。
+* 您无法预览处于“草稿”状态的体验。
+* 报告不受查看体验预览URL的影响。
 
 **体验预览URL疑难解答**
 

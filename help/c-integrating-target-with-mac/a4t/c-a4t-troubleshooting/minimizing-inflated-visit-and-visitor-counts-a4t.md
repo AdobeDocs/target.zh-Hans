@@ -1,12 +1,16 @@
 ---
-keywords: 局部数据;部分数据;A4T;差异;analytics for target;孤立;虚拟报表包;虚拟;故障诊断;未拼合;夸大;未指定
+keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orphaned;virtual report suite;phantom;troubleshooting;unstitched;inflated;unspecified
 description: 此信息可帮助您在使用 Analytics 作为报表源时最大限度地降低夸大的访问和访客计数所带来的影响。
 title: 在 A4T 中最大限度地减少夸大的访问和访客计数
-subtopic: 多变量测试
+feature: null
+subtopic: Multivariate Test
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1351'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +29,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 >* Experience Cloud 访客 ID 服务：visitorAPI.js 版本 2.3.0 或更高版本。
 >* Adobe Analytics：appMeasurement.js 版本 2.1.
 >* Adobe Target：at.js 版本 0.9.6 或更高版本（如果将重定向选件与 A4T 配合使用，则不包括版本 1.1.0）。
+
 >
 >  
 mbox.js 库不支持将重定向选件与 A4T 配合使用。您的实施必须使用 at.js。

@@ -1,11 +1,12 @@
 ---
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
-description: 有关在Adobe目标活动中使用Adobe Experience Manager(AEM)中创建的体验片段来帮助优化或个性化的信息。
-title: Adobe目标中的Adobe Experience Manager(AEM)体验片段
+description: 有关使用在Adobe Experience Manager(AEM)Adobe Target活动创建的体验片段来帮助优化或个性化的信息。
+title: Adobe Experience Manager(AEM)Adobe Target体验片段
+feature: null
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 22%
@@ -44,21 +45,21 @@ You must be provisioned with the experience fragments functionality within [!DNl
 
 In order to use [!DNL AEM] experience fragments in [!DNL Target], you must perform the following steps:
 
-### 第1步： 与 [!DNL AEM] [!DNL Target]
+### 第1步：与 [!DNL AEM] [!DNL Target]
 
 有关详细信息，请参阅：
 
-* **[!DNL AEM]6.3 **:[在Adobe Experience Manager 6.3文档中](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html),_选择Adobe Analytics和Adobe目标&#x200B;_。
-* **[!DNL AEM]6.4 **:[在Adobe Experience Manager 6.4文档中](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html),_选择Adobe Analytics和Adobe目标&#x200B;_。
-* **[!DNL AEM]6.5 **:[在Adobe Experience Manager 6.5文档中](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html),*选择Adobe Analytics和Adobe目标*。
+* **[!DNL AEM]6.3 **:[在Adobe Experience Manager6.3文件](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)中选_择Adobe Analytics和Adobe Target _。
+* **[!DNL AEM]6.4 **:[在Adobe Experience Manager6.4文件](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)中选_择Adobe Analytics和Adobe Target _。
+* **[!DNL AEM]6.5 **:[在Adobe Experience Manager6.5](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)号文件&#x200B;*中选择Adobe Analytics和Adobe Target*。
 
 ### 步骤 2：创建体验片段
 
 Experience fragments are created in [!DNL AEM]. 有关详细信息，请参阅：
 
-* **[!DNL AEM]6.3 **:[Adobe Experience](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)Manager 6.*3文档中的Experience Fragments*。
-* **[!DNL AEM]6.4 **:[Adobe Experience](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)Manager 6.*4文档中的Experience Fragments*。
-* **[!DNL AEM]6.5 **:[Adobe Experience](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)Manager 6.*5文档中的Experience Fragments*。
+* **[!DNL AEM]6.3 **:[Adobe Experience Manager](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)6.*3文档中的体验*片段。
+* **[!DNL AEM]6.4 **:[Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)6.4文&#x200B;*档中的体验片段*。
+* **[!DNL AEM]6.5 **:[Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)6.5文&#x200B;*档中的体验片段*。
 
 ### Step 3: Configure [!DNL AEM] to share the experience fragment with [!DNL Target]
 
@@ -75,9 +76,9 @@ Experience fragments are created in [!DNL AEM]. 有关详细信息，请参阅�
 
 根据您的 [!DNL AEM] 版本，请参阅以下链接以获取分步说明：
 
-* **[!DNL AEM]6.3 **:[将体验片段导出到](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)Adobe Experience Manager 6.*3文档中的目标*。
-* **[!DNL AEM]6.4 **:[将体验片段导出到](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)Adobe Experience Manager 6.*4文档中的目标*。
-* **[!DNL AEM]6.5 **:[将体验片段导出到](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)Adobe Experience Manager 6.*5文档中的目标*。
+* **[!DNL AEM]6.3 **:[将体验片段导出到](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)Adobe Experience Manager *6.3文档中的目标*。
+* **[!DNL AEM]6.4 **:[将体验片段导出到](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)Adobe Experience Manager *6.4文档中的目标*。
+* **[!DNL AEM]6.5 **:[将体验片段导出到](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)Adobe Experience Manager *6.5文档中的目标*。
 
 ## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -155,4 +156,4 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 >
 >4 [!DNL AEM] 时54分讨论的深层链接功能已被删除。
 
-有关详细信息，请参 [阅AEM Sites视频和教程页面](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) 上的 *将体验片段与Adobe目标结合使用* 。
+有关详细信息，请参 [阅在Adobe Target上使用Experience Fragments](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) ，位 *于AEM Sites视频和Tutorials页面* 。

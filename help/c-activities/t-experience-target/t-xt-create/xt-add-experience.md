@@ -2,10 +2,11 @@
 keywords: create experience;experience create;priority;audience;experience;visual experience composer
 description: Adobe Target 可视化体验编辑器 (VEC) 提供了一个可视化界面，用于编辑体验定位 (XT) 活动中的页面上的体验。
 title: 创建体验
+feature: null
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 93%

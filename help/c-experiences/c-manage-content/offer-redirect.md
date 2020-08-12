@@ -2,10 +2,11 @@
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: 有关 Adobe Target 中可导致浏览器重定向到新页面的重定向选件的信息。
 title: 创建重定向选件
+feature: null
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 97%
@@ -58,7 +59,7 @@ ht-degree: 97%
 >
 >请在启动这些测试前，咨询您的实施顾问。
 
-## 培训视频： 内容存储库(4:56)概 ![述徽章](/help/assets/overview.png)
+## 培训视频：内容存储库(4:56)概 ![述徽章](/help/assets/overview.png)
 
 以下视频包含有关管理内容的信息。
 

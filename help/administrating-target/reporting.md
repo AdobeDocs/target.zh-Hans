@@ -1,10 +1,11 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: 通过指定Adobe Target可视体验书写器(VEC)的常规设置、移动视口配置和CSS选择器，配置该体验书写器。
-title: 在Adobe Target中配置报告
+description: 通过指定Adobe Target可视化体验书写器(VEC)的常规设置、移动视口配置和CSS选择器来配置它。
+title: 在Adobe Target配置报告
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 32%
@@ -20,7 +21,7 @@ ht-degree: 32%
 
 您可以在此页面上指定以下设置：
 
-* 用于报告的Adobe Experience Cloud解决方案
+* Adobe Experience Cloud解决方案用于报告
 * 用于报告的时区
 * 用于报告的货币
 * 要从报告中排除的IP地址
@@ -29,7 +30,7 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->请注意，排除设置的时区、货币和IP地址应用于使用活动的 [!DNL Target] 报告。 这些设置不适用于将活动( [A4T)用作Analytics源] (/help/c-integrating-target-with-mac/a4t/a4t.md)的目标。
+>请注意，排除设置的时区、货币和IP地址应用于使用活动的 [!DNL Target] 报告。 这些设置不适用于将Analytics for [目标(A4T)用作活动源] (/help/c-integrating-target-with-mac/a4t/a4t.md)的报告。
 
 ![报告页](/help/administrating-target/assets/reporting.png)
 
@@ -44,7 +45,7 @@ Select the reporting source for your activities, either [!DNL Target] or [!DNL A
 * 如果将此处的报表来源设置为“**[!DNL Target]**”，则将不允许激活使用“”作为报表源的活动。[!DNL Analytics]You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
 * If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to[!DNL Analytics]in your activity or change the reporting engine to**[!UICONTROL Select per activity ]**in**[!UICONTROL Administration]>[!UICONTROL Reporting ]**.
 * If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
-* [!UICONTROL 无论选择的活动源] ，都允许自动个性化(AP)报告创建、激活和取消激活。 Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* [!UICONTROL Automated Personalization] (AP)活动创建、激活和取消激活是允许的，而不管选择的报告源。 Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
 
 ## 报告时区
 

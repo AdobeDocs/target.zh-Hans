@@ -1,11 +1,15 @@
 ---
-keywords: 选件;内容;创建文件夹;资产;移动文件夹;复制文件夹;删除文件夹;下载文件夹;文件夹
+keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
 description: 可在选件库中创建用于存放项目的文件夹。
 title: 创建选件文件夹
+feature: null
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 可在选件库中创建用于存放项目的文件夹。
 
 1. 单击&#x200B;**[!UICONTROL 选件]**，然后根据需要选择&#x200B;**[!UICONTROL 代码选件]**&#x200B;或&#x200B;**[!UICONTROL 图像选件]**&#x200B;选项卡。
-1. 单击&#x200B;**[!UICONTROL 创建]** &gt; **[!UICONTROL 文件夹]**。
+1. 单击&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL 文件夹]**。
 1. 填写以下字段：
 
    | 字段 | 描述 |

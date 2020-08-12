@@ -2,10 +2,11 @@
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: 如果安全内容与不安全内容混合在一起，某些浏览器可能会阻止页面显示。
 title: 在浏览器中启用混合内容
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 88a001f9ff4c72074fe72b9cc61effec5f28e5f8
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 35%

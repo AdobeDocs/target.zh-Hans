@@ -5,9 +5,9 @@ title: Adobe Target 产品文档中的文档更改。
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
+source-git-commit: 118ca52beebcc11795b381f7f1fdcea305d2005f
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1850'
 ht-degree: 29%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 8月12日 | [了解目标UI](/help/c-intro/understand-the-target-ui.md) | 新主题。 |
 | 8月10日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 添加了文本，表明使用CNAME时Cookie头的大小将增加。 |
 |  | [将目标与Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | 新主题。 |
 |  | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了视图以下归档网络研讨会的链接：“汇丰如何利用Adobe Target和人工智能大规模快速优化和提供个性化。” |

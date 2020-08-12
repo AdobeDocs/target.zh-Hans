@@ -2,9 +2,13 @@
 keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traffic estimator;when to use mvt;mvt considerations;multivariate;partial-factorial;partial factorial;full-factorial
 description: Adobe Target 中的多变量测试 (MVT) 可通过比较页面上各元素中的选件组合，来确定哪个组合对特定受众的效果最佳，以及哪个元素对活动成功的影响最大。
 title: 多变量测试
+feature: null
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1442'
+ht-degree: 91%
 
 ---
 
@@ -53,21 +57,21 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 * 使用 MVT 测试来确定最重要的元素，然后对该元素进行更集中的 A/B 测试。
 
-   当不同体验的数量超过五个并且跨两个或两个以上元素时，最好在运行A/B测试之前考虑MVT测试。 MVT 测试可显示页面中的哪些区域最有可能提高转化。这些是营销人员应关注的元素。例如，MVT 测试可能表明，行为召唤 (call to action) 是实现目标的最重要元素。确定哪些元素和内容最有助于您达到目标后，您可以运行 A/B 测试以进一步优化结果，例如分别测试两个特定图像，或者比较行为召唤的遣词造句或颜色。通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
+   当不同体验的数量超过五个并且跨越两个或两个以上元素时，最好在运行A/B测试之前考虑MVT测试。 MVT 测试可显示页面中的哪些区域最有可能提高转化。这些是营销人员应关注的元素。例如，MVT 测试可能表明，行为召唤 (call to action) 是实现目标的最重要元素。确定哪些元素和内容最有助于您达到目标后，您可以运行 A/B 测试以进一步优化结果，例如分别测试两个特定图像，或者比较行为召唤的遣词造句或颜色。通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
 
 ## 注意事项 {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
 * 当您至少有三个元素要进行测试时，请使用 MVT 测试。如果要测试的元素比这少，则运行一组 A/B 测试。
 * 请选择您认为对结果有最强影响的页面元素。
 * 不要在一个测试中包含太多的元素或位置。因为数量越多，测试时间就会越长。
-* 提前对测试设计进行规划。在测试开始生效并开始收集和分析数据后，不宜编辑它。
+* 提前对测试设计进行规划。在测试开始生效并收集和分析开始后，不宜编辑测试。
 * 建议元素之间维持相互独立的关系。
 
    例如，不要在同一测试中对布局和内容这两方面都进行测试。
 
-* 由于体验数量的增加，需计划为 QA 提供额外的时间。您还可以使用部分因子测试来减少多变量测试所需的流量。 有关详细信息，请参阅下面的部分因子测试：
+* 由于体验数量的增加，需计划为 QA 提供额外的时间。您还可以使用部分因数测试来减少多变量测试所需的流量。 有关详细信息，请参阅下面的部分因数测试：
 
-## 部分因子测试
+## 部分因数测试
 
 [!DNL Target] 提供全因子多变量测试作为内置活动选项。在统计学中，“实验设计”提供了多种方法或设计来确定哪些因素会影响结果。One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. 田口方法使营销人员能够制定一套假设，减少所需测试体验的排列数量，从而降低多变量测试的流量需求。在 [!DNL Target] 中，可以利用此[离线电子表格](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)来使用这种功能和测试方法。
 
@@ -87,9 +91,9 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 活动类型(9:03)概 ![述徽章](/help/assets/overview.png)
+### 活动类型(9:03) ![概述徽章](/help/assets/overview.png)
 
-此概述视频介绍了Target Standard/Premium中可用的活动类型。 对多变量测试的讨论开始于 4:20。
+此概述视频介绍了Target Standard/Premium中提供的活动类型。 对多变量测试的讨论开始于 4:20。
 
 * 介绍 [!DNL Adobe Target] 中包含的活动类型
 * 选择相应的活动类型以实现目标

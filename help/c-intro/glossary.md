@@ -1,10 +1,14 @@
 ---
 description: 术语的定义。
 title: Adobe Target 术语表
+feature: null
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2291'
+ht-degree: 98%
 
 ---
 
@@ -331,7 +335,7 @@ Target Standard 中活动的可视化表现形式。
 
 **visit**
 
-访问有时称为会话。 访问在30分钟不活动后结束，这意味着在服务器请求到目标之间至少已经过30分钟。
+访问有时称为会话。 访问在非活动状态持续30分钟后结束，这意味着在服务器请求到目标之间至少已经过30分钟。
 
 **visitor（访客）**
 

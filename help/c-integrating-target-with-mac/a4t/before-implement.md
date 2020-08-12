@@ -1,10 +1,11 @@
 ---
 keywords: Recommendations
 description: 启用 Analytics 作为 Target 报表源 (A4T) 时，数据收集流程会发生一些更改。
-title: 在将Adobe Analytics作为Adobe报告(A4T)的目标源实施之前
+title: 在将Adobe Analytics作为Adobe Target(A4T)的报告源之前
+feature: null
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 57%
@@ -30,7 +31,7 @@ Several changes occur in your data collection process when enabling [!DNL Analyt
 
 如果您不打算将重定向选件与 A4T 结合使用，此集成要求您实施以下库版本（或更高版本）。所列的顺序即是操作顺序。
 
-* [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js版本1.8.0
+* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js版本1.8.0
 * [!DNL Adobe Target]（取决于您的实施）：at.js 版本 0.9.1 或 mbox.js 版本 61
 * Adobe Analytics：appMeasurement.js 版本 1.7.0
 
@@ -38,8 +39,8 @@ Several changes occur in your data collection process when enabling [!DNL Analyt
 
 要将重定向选件与 A4T 结合使用，您必须实施以下库版本（或更高版本）。所列的顺序即是操作顺序。
 
-* [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js版本2.3.0
-* [!DNL Adobe Target]: at.js版本1.6.2
+* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js版本2.3.0
+* [!DNL Adobe Target]:at.js版本1.6.2
 
    **注意：** mbox.js 库不支持将重定向选件与 A4T 配合使用。您的实施必须使用 at.js。
 

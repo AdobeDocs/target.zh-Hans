@@ -2,10 +2,11 @@
 keywords: Release notes
 description: 以前 Target 版本的发行说明，包括 Target Standard/Premium 的发行说明、Target 平台以及 Target Javascript 库（at.js 和 mbox.js）。发行说明按发布年月按降序排列。
 title: 以前版本的发行说明
+feature: null
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '30026'
 ht-degree: 89%
@@ -27,10 +28,10 @@ ht-degree: 89%
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Analytics for Target (A4T) 支持 [!UICONTROL 自动分配] 活动 | [!UICONTROL 自动分配] 活动现在支 [持目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此集成允许您使用 [!UICONTROL 自动分配] 、多臂强盗功能来提升流量，从而赢得体验，同时使用 [!UICONTROL AdobeAnalytics] 目标指标和/ [!UICONTROL 或Adobe] Analytics报告和分析功能。<br>如果您已经实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以便与A/B测试和体验定位活动一起使用，您就可以了！<br>有关详细信息，请 [参阅在创建Analytics时对自动分配活动的目标(A4T)支持](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) ，以 *便活动*。 |
-| 自动目标和自动个性化活动流量分配的响应令牌 | 已 [经向自](/help/administrating-target/response-tokens.md) 动目标和自动个性化  活动添加了两个响应令牌，以便确定访客是因被分配到“控制”还是“目标”流量而获得特定体验。<ul><li>`experience.trafficAllocationId` 如果访客从“控制”流量中获得体验，则返回0；如果访客从“目标”流量分配中获得体验，则返回1。</li><li>`experience.trafficAllocationType` 将返回“控制”或“目标”。</li></ul>有关控制与目标流量的更多信息，请参 [阅选择自动个性化或自动目标活动的控件](/help/c-activities/t-automated-personalization/experience-as-control.md)。 |
-| [!UICONTROL 发布者] 角色 | 此新角色与当前“观察者”角 [!UICONTROL 色类似] (可以视图活动，但不能创建或编辑这些角色)。 但是，发 [!UICONTROL 布者] 角色具有激活活动的其他权限。<br>有关详细信息，请参阅： <ul><li>**Target Standard用户**: [在用户中指定角色](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 和 *权限*。</li><li>**目标高级版用户**: [第6步： 在“配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) ”中 *指定角色和权限*。</li></ul> |
-| 2020年6月25 [!DNL Analysis Workspace]<br>日支持A4T | [!UICONTROL 现在支持] (A4T)的目标分析 [!DNL Analysis Workspace]。 Analytics [!UICONTROL 目标(A4T)面板] ，让您能够分析 [!DNL Adobe Target] 活动和体验， [!DNL Analysis Workspace]<br>有关详细信息，请 [参阅《Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) 工具指南 *》中的“A4T* Roperts in [A4T](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 报告”和“A4T *Analytics”面板中的“报*&#x200B;告”。 |
+| Analytics for Target (A4T) 支持 [!UICONTROL 自动分配] 活动 | [!UICONTROL 自动分配] 活动现在支 [持Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此集成允许您使用自动 [!UICONTROL 分配] 、多武装强盗功能，在使用Adobe Analytics目标指标和／或Adobe Analytics [!UICONTROL 报告和分析功能时] ，将流量推向成功体验。<br>如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以与A/B测试和体验定位活动配合使用，您就可以了！<br>有关详细信息，请 [参阅目标分析(A4T)支持在创建活动时自动分配](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)*活动*。 |
+| 自动目标和Automated Personalization活动流量分配方法的响应令牌 | 已 [经向自](/help/administrating-target/response-tokens.md) 动目标和 [!UICONTROL Automated Personalization] 活动添加了两个响应令牌，以确定访客是否因被分配到“控制”或“目标”流量而获得特定体验。<ul><li>`experience.trafficAllocationId` 如果访客从“控制”流量中获得体验，则返回0；如果访客从“目标”流量分配中获得体验，则返回1。</li><li>`experience.trafficAllocationType` 将返回“控制”或“目标”。</li></ul>有关控制与目标流量的详细信息，请参 [阅选择Automated Personalization的控件或自动目标活动](/help/c-activities/t-automated-personalization/experience-as-control.md)。 |
+| [!UICONTROL 发布者] 角色 | 此新角色与当前“观察者”角 [!UICONTROL 色类似] (可以视图活动，但不能创建或编辑这些角色)。 但是，发 [!UICONTROL 布者] 角色具有激活活动的其他权限。<br>有关详细信息，请参阅： <ul><li>**目标标准用户**: [在用户中指定角色](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 和 *权限*。</li><li>**目标高级版用户**: [第6步：在“配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) ”中 *指定角色和权限*。</li></ul> |
+| 2020年6月25 [!DNL Analysis Workspace]<br>日支持A4T | [!UICONTROL 现在支持] (A4T)的目标分析 [!DNL Analysis Workspace]。 利 [!UICONTROL 用“目标分析(A4T)”面板] ，您可以 [!DNL Adobe Target] 在中分析活动和体验 [!DNL Analysis Workspace]。<br>有关详细信息，请 [参阅《分析工具指](/help/c-integrating-target-with-mac/a4t/reporting.md) 南》中 *“A4T报告”中的“Analytics”中的“报告* ”和“针对目标的分析 [(A4T)”面](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html)**&#x200B;板中的“报告”。 |
 
 **增强功能、修复和变更**
 
@@ -124,11 +125,11 @@ http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 * 修复了导致自动个性化报表无法正确呈现的问题。 (TGT-36619)
 * 修复了允许在使用Analytics进行目标(A4t)的“自动分配”和“自动目标”活动中选择不兼容度量的问题。 (TGT-36646)
 * 修复了导致可视体验书写器(VEC)中的某些选项无法正确显示的问题。 (TGT-36571)
-* 修复了目标UI中的一个问题，该问题导致用户在单个体验中替换内容后，其他推荐优惠预览显示已编辑的内容。 （TGT-36053 和 TGT-36894）
+* 修复了目标UI中的一个问题，该问题导致用户在单个体验中替换内容后，其他Recommendations优惠预览显示已编辑的内容。 （TGT-36053 和 TGT-36894）
 * 修复了阻止某些用户从Recommendations目录删除项目的问题。 (TGT-36455)
-* 修复了阻止用户在多页面活动中保存推荐条件的问题。 (TGT-36249)
+* 修复了用户无法在多页活动上保存Recommendations标准的问题。 (TGT-36249)
 * 修复了行为数据源单选按钮在连续第二次编辑条件时消失的问题。 (TGT-36796)
-* 修复了导致Recommendations算法显示延长期间的“获取结果”的显示问题。 （TGT-36550 和 TGT-36551）
+* 修复了导致Recommendations算法在较长时间内显示“获取结果”的显示问题。 （TGT-36550 和 TGT-36551）
 * 更新了许多本地化为各种语言的UI字符串。
 
 ### 目标at.js（2020年3月25日）
@@ -153,11 +154,11 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
 * 对内容安全策略(CSP)实施了安全改进。 (TGT-36190)
 * 修复了在将“属性加权”百分比栏滑至最左侧时，导致“NaN%”显示的问题。 (TGT-36211)
 * 解决了本地化问题，以便正确显示各种语言的UI文本。
-* 我们通过弃用当前版本的Adobe列表API不支持的AdobeAnalytics量度，标准化了AdobeAnalytics对目标(A4T)活动的可用量度的Analytics。 这将使我们能够在未来的Adobe Target版本中扩展A4T支持。
+* 我们摒弃了当前版本的Adobe AnalyticsAPI不支持的Adobe Analytics指标，将Adobe Analytics目标(A4T)活动的可用指标的列表标准化。 这将使我们能够在未来的Adobe Target发行版中扩展我们的A4T支持。
 
    进行了以下更改：
 
-   * “平均页面停留时间”已替换为“平均站点停留时间”。 任何将此用作主要目标量度的活动都将具有“在站点上花费的平均时间”(注： 以分钟而非秒为单位)，在下次编辑活动时，将其选作主要目标量度。
+   * “平均页面停留时间”已替换为“平均站点停留时间”。 任何将此用作主要目标量度的活动都将具有“在站点上花费的平均时间”(注：以分钟而非秒为单位)，在下次编辑活动时，将其选作主要目标量度。
    * “访客”已被“唯一访客”所取代。 使用此度量作为主要目标量度的任何活动在下次编辑该活动时都将选择“唯一访客”作为主要目标量度。
 
 * 以下指标已弃用，在创建新的A4T活动时，不再能选作主目标指标。
@@ -165,16 +166,16 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
    | 已弃用的度量 | 建议的替换指标 |
    |--- |--- |
    | 每日访客、每小时访客、每月访客、季度访客、每周访客、每年访客 | 独特访客 |
-   | 平均访问深度 | n/a 不建议作为主要目标指标 |
-   | 机器人 | n/a 不建议作为主要目标指标 |
-   | 移动崩溃率、移动平均上一会话长度、移动App商店平均排名、移动App性能崩溃率、移动App商店平均评级 | n/a 不建议作为主要目标指标 |
+   | 平均访问深度 | n/a不建议作为主要目标指标 |
+   | 机器人 | n/a不建议作为主要目标指标 |
+   | 移动崩溃率、移动平均上一会话长度、移动App商店平均排名、移动App性能崩溃率、移动App商店平均评级 | n/a不建议作为主要目标指标 |
 
 ### Adobe Experience Cloud导航（2019年2月22日）
 
 * 登录到时，您 [!DNL Adobe Experience Cloud]将转到新的标题导航。 它看起来与上一个导航非常相似，顶部有黑条，但它提供了以下改进：
 
    * 更轻松地在 [!DNL Identity Management System] (IMS)组织之间切换或切换到其他解决方案。
-   * 改进的用户帮助： 搜索结果包括产品文档 [!DNL Target] 中的结果、社区论坛和更多视频内容，让您能够更轻松地访问更多内容，从而帮助您发挥最大价值 [!DNL Target]。 我们还在“帮助”菜单中添加了 [!UICONTROL 反馈机] 制，使报告问题或分享您的想法更简单。
+   * 改进的用户帮助：搜索结果包括产品文档 [!DNL Target] 中的结果、社区论坛和更多视频内容，让您能够更轻松地访问更多内容，从而帮助您发挥最大价值 [!DNL Target]。 我们还在“帮助”菜单中添加了 [!UICONTROL 反馈机] 制，使报告问题或分享您的想法更简单。
 
    * 改进了Net Promoter Score(NPS)反馈功能，因此调查模式不会干扰您的工作流。
    * 改进了登录流程。 以前，所 [!DNL Target] 有客户在单击标题中的图标后 [!DNL Target] 都登录到目标登陆页。 然后，此页允许客户继续执行 [!DNL Target Standard/Premium]、 [!DNL Search&Promote]或 [!DNL Recommendations Classic]，如下所示：
@@ -183,7 +184,7 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
 
       我们为所有客户消除了此登陆页。 现在，您始终可以通过单击新 [!UICONTROL 标题导航栏] 中的图 [!DNL Target] 标，直接转到活动列表页。
 
-      如果您使 [!DNL Recommendations Classic]用，您可以直接转到解决方案，也可以从在“推荐”选项卡上创建的简短链 [!UICONTROL 接] ，如下所示：
+      如果您使 [!DNL Recommendations Classic]用，您可以直接转到解决方案，也可以从在“Recommendations”选项卡上创建的短链 [!UICONTROL 接] ，如下所示：
 
       ![Recs Classic深层链接](/help/r-release-notes/assets/recs-classic.png)
 
@@ -196,9 +197,9 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
 
 ### Target Standard/Premium 20.1.1（2020 年 2 月 4 日） 
 
-Target Standard/高级版20.1.1版本是维护版本，包括后端增强和改进。 此外，还包含以下修复：
+Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改进。 此外，还包含以下修复：
 
-* 修复了导致现有Adobe的Analytics(A4T)活动的“目标和设置”页面上的Adobe目标跟踪服务器字段为空的问题。 (TGT-35960)
+* 修复了导致Adobe Analytics跟踪服务器字段在现有目标(A4T)活动Adobe的“目标和设置”页面上为空的问题。 (TGT-35960)
 * 修复了用户界面中的一个问题，该问题导致在创建列表受众时第二个下拉式类别中的选择无法显示。 (TGT-36098)
 
 ## 发行说明 - 2019 {#releases-2019}
@@ -221,26 +222,26 @@ Target Standard/高级版20.1.1版本是维护版本，包括后端增强和改�
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Java SDK | Java [!DNL Target] SDK允许您在服 [!DNL Target] 务器端部署。 此Java SDK可帮助您轻松 [!DNL Target] 与其 [!DNL Adobe Experience Cloud] 他解决方案(如 [!DNL Adobe Experience Cloud Identity Service]、 [!DNL Adobe Analytics]和)集成 [!DNL Adobe Audience Manager]。<br>Java SDK在通过我们的投放API进行集成时引入了最佳实践 [!DNL Target] 并消除了复杂性，使您的工程团队能够专注于业务逻辑。 以下是我们在最新版本中介绍的一些显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>在网页和服务器端混合集成 [!DNL Target] 时支持优化性能。 我们将引入一个名为 `serverState` 的设置，该设置由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 此方法优化页面加载性能。</li><li>支持通过Java SDK检索VEC创建的活动，新投放API使这成为可能。</li><li>开放源码，这样您的开发人员就可以为 [目标Java SDK做出贡献](https://github.com/adobe/target-java-sdk)。</li></ul>有关详细信息，请参 [阅发行说明-目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。<br>通过Adobe Tech Blog-使用新的目标Java SDK进行服 [务器端优化，进一步了解目标Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。 |
+| Java SDK | Java [!DNL Target] SDK允许您在服 [!DNL Target] 务器端部署。 此Java SDK可帮助您轻松 [!DNL Target] 与其 [!DNL Adobe Experience Cloud] 他解决方案(如 [!DNL Adobe Experience Cloud Identity Service]、 [!DNL Adobe Analytics]和)集成 [!DNL Adobe Audience Manager]。<br>Java SDK在通过我们的投放API进行集成时引入了最佳实践 [!DNL Target] 并消除了复杂性，使您的工程团队能够专注于业务逻辑。 以下是我们在最新版本中介绍的一些显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>在网页和服务器端混合集成 [!DNL Target] 时支持优化性能。 我们将引入一个名为 `serverState` 的设置，该设置由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 此方法优化页面加载性能。</li><li>支持通过Java SDK检索VEC创建的活动，新投放API使这成为可能。</li><li>开放源码，这样您的开发人员就可以为 [目标Java SDK做出贡献](https://github.com/adobe/target-java-sdk)。</li></ul>有关详细信息，请参 [阅发行说明-目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。<br>通过新的目标Java SDK在Adobe技术博客——服 [务器端优化中进一步了解目标Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。 |
 
 ### Target Standard/Premium 19.10.2（2019 年 10 月 31 日） 
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| ![高级徽章](/help/assets/premium.png) “多值”属性 | 有时您希望使用多值字段。 请仔细研究下面的示例：<ul><li>您向用户优惠电影。 一部电影有多个演员。</li><li>你卖音乐会的票。 给定用户有多个喜欢的栏。</li><li>你卖衣服。 衬衫有多种尺寸。</li></ul>要在这些情况下处理推荐，您可以将多值数据传递给目标推荐并使用特殊的多值运算符。<br>有关详细信息，请 [参阅使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)。 |
+| ![高级徽章](/help/assets/premium.png) “多值”属性 | 有时您希望使用多值字段。 请仔细研究下面的示例：<ul><li>您向用户优惠电影。 一部电影有多个演员。</li><li>你卖音乐会的票。 给定用户有多个喜欢的栏。</li><li>你卖衣服。 衬衫有多种尺寸。</li></ul>要在这些情况下处理推荐，您可以将多值数据传递给目标Recommendations，并使用特殊的多值运算符。<br>有关详细信息，请 [参阅使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)。 |
 
 ### Target Standard/Premium 19.10.1（2019 年 10 月 22 日） 
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| ![高级徽章](/help/assets/premium.png) 、基于用户的推荐<br>（2019年10月24日） | 根据每个访客的浏览、查看和购买历史记录推荐项目。 这些项目通常称为“推荐给您”。<br>此标准允许您向新访客和回头客提供个性化内容和体验。 推荐列表根据访客的最新活动进行加权，并在会话中更新，并随着访客浏览您的网站而变得更加个性化。<br>有关详细信息，请参阅标准／算法中的“基于 [用户的推荐”](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)。 |
+| ![基于用户](/help/assets/premium.png) 的高级徽章<br>（2019年10月24日） | 根据每个访客的浏览、查看和购买历史记录推荐项目。 这些项目通常称为“推荐给您”。<br>此标准允许您向新访客和回头客提供个性化内容和体验。 推荐列表根据访客的最新活动进行加权，并在会话中更新，并随着访客浏览您的网站而变得更加个性化。<br>有关详细信息，请参阅标准／算法中的“基于用 [户的Recommendations”](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)。 |
 
-**Adobe Experience Cloud导航**
+**Adobe Experience Cloud航行**
 
 * 登录到时，您 [!DNL Adobe Experience Cloud]将转到新的标题导航。 它看起来与上一个导航非常相似，顶部有黑条，但它提供了以下改进：
 
    * 更轻松地在 [!DNL Identity Management System] (IMS)组织之间切换或切换到其他解决方案。
-   * 改进的用户帮助： 搜索结果包括产品文档 [!DNL Target] 中的结果、社区论坛和更多视频内容，让您能够更轻松地访问更多内容，从而帮助您发挥最大价值 [!DNL Target]。 我们还在“帮助”菜单中添加了 [!UICONTROL 反馈机] 制，使报告问题或分享您的想法更简单。
+   * 改进的用户帮助：搜索结果包括产品文档 [!DNL Target] 中的结果、社区论坛和更多视频内容，让您能够更轻松地访问更多内容，从而帮助您发挥最大价值 [!DNL Target]。 我们还在“帮助”菜单中添加了 [!UICONTROL 反馈机] 制，使报告问题或分享您的想法更简单。
 
    * 改进了Net Promoter Score(NPS)反馈功能，因此调查模式不会干扰您的工作流。
    * 改进了登录流程。 以前，所 [!DNL Target] 有客户在单击标题中的图标后 [!DNL Target] 都登录到目标登陆页。 然后，此页允许客户继续执行 [!DNL Target Standard/Premium]、 [!DNL Search&Promote]或 [!DNL Recommendations Classic]，如下所示：
@@ -249,7 +250,7 @@ Target Standard/高级版20.1.1版本是维护版本，包括后端增强和改�
 
       我们为所有客户消除了此登陆页。 现在，您始终可以通过单击新 [!UICONTROL 标题导航栏] 中的图 [!DNL Target] 标，直接转到活动列表页。
 
-      如果您使 [!DNL Recommendations Classic]用，您可以直接转到解决方案，也可以从在“推荐”选项卡上创建的简短链 [!UICONTROL 接] ，如下所示：
+      如果您使 [!DNL Recommendations Classic]用，您可以直接转到解决方案，也可以从在“Recommendations”选项卡上创建的短链 [!UICONTROL 接] ，如下所示：
 
       ![Recs Classic深层链接](/help/r-release-notes/assets/recs-classic.png)
 
@@ -266,13 +267,13 @@ Target Standard/高级版20.1.1版本是维护版本，包括后端增强和改�
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| at.js版本2.2<br><br>andat.js版本1.8 | 以下版本的at.js提供：<ul><li>在网页上同时使用Experience CloudID服务(ECID)v4.4和at.js 2.2或at.js 1.8时的性能得到改进。</li><li>以前，ECID在at.js获取体验之前发出了两个阻止调用。 这已降低为单个呼叫，这显着提高了性能。</li></ul> 为了利用这些性能改进，升级到at.js 2.2或at.js 1.8以及ECID库v4.4.at.js 2.2<br>提供：<ul><li>**serverState**: at.js v2.2+中提供的设置，可用于在实施目标的混合集成时优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的投放API或目标SDK来提供体验。 `serverState` 赋予at.js v2.2+直接应用从服务器端获取的内容中获取的体验并作为所服务页面的一部分返回到客户端的能力。<br>有关详细信息，请参阅targetGlobalSettings中的“ [serverState”](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
+| at.js版本2.2<br><br>andat.js版本1.8 | 以下版本的at.js提供：<ul><li>在网页上同时使用Experience CloudID服务(ECID)v4.4和at.js 2.2或at.js 1.8时的性能得到改进。</li><li>以前，ECID在at.js获取体验之前发出了两个阻止调用。 这已降低为单个呼叫，这显着提高了性能。</li></ul> 为了利用这些性能改进，升级到at.js 2.2或at.js 1.8以及ECID库v4.4.at.js 2.2<br>提供：<ul><li>**serverState**:at.js v2.2+中提供的设置，可用于在实施目标的混合集成时优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的投放API或目标SDK来提供体验。 `serverState` 赋予at.js v2.2+直接应用从服务器端获取的内容中获取的体验并作为所服务页面的一部分返回到客户端的能力。<br>有关详细信息，请参阅targetGlobalSettings中的“ [serverState”](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
 
 ### 目标平台（2019年10月9日）
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Node.js SDK版本1.0 | 目标Node.js SDK允许您在服务器端部署目标。<br>此Node.js SDK可帮助您将目标与其他Experience Cloud解决方案(如Adobe Experience Cloud Identity Service、AdobeAnalytics和Adobe Audience Manager)轻松集成。<br>Node.js SDK在通过我们的Adobe TargetAPI与投放集成时引入最佳实践并消除复杂性，使您的工程团队能够专注于业务逻辑。 以下是我们在最新版本中介绍的一些显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>支持在网页和服务器端混合集成目标时优化性能。 我们将引入一个名为 `serverState` 的设置，该设置将由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 此方法优化页面加载性能。</li><li> 支持通过Node.js SDK检索VEC创建的活动，新投放API使这成为可能。</li><li>开放源码，以便开发人员能够为Node.js SDK做出贡献。</li></ul><br>有关详细信息，请 [参阅发行说明-目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)。 |
+| Node.js SDK版本1.0 | 目标Node.js SDK允许您在服务器端部署目标。<br>此Node.js SDK可帮助您将目标轻松集成到其他Experience Cloud解决方案，如Adobe Experience Cloud标识服务、Adobe Analytics和Adobe Audience Manager。<br>Node.js SDK在通过我们的投放API与Adobe Target集成时引入最佳实践并消除复杂性，使您的工程团队能够专注于业务逻辑。 以下是我们在最新版本中介绍的一些显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>支持在网页和服务器端混合集成目标时优化性能。 我们将引入一个名为 `serverState` 的设置，该设置将由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 此方法优化页面加载性能。</li><li> 支持通过Node.js SDK检索VEC创建的活动，新投放API使这成为可能。</li><li>开放源码，以便开发人员能够为Node.js SDK做出贡献。</li></ul><br>有关详细信息，请 [参阅发行说明-目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)。 |
 | 投放API | 生产中提供全新的投放API端点(/v1/投放)。 值得注意的功能有：<ul><li>一个端点，用于检索一个或多个mbox的体验。</li><li>通过API检索VEC创建的活动。</li><li>支持称为视图的全新对象，该对象用于单页应用程序(SPA)和移动应用程序。</li></ul><br>有关详细信息，请参 [阅发行说明-目标服务器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)。 |
 
 ### Target Standard/Premium 19.9.2（2019 年 9 月 30 日）
@@ -280,7 +281,7 @@ Target Standard/高级版20.1.1版本是维护版本，包括后端增强和改�
 此维护版本包括以下增强功能：
 
 * 多个安全修复，包括对可视化体验编辑器 (VEC) 中富文本编辑器 (RTE) 的安全更新。(TGT-35383)
-* 现在，除DIV外，还可以在A/B测试和体验定位优惠中，将推荐活动添加到DIV以外的元素。 (TGT-34333)
+* Recommendations优惠现在可添加到A/B测试和体验定位活动中除DIV外的其他元素（如P、UL、H1）。 (TGT-34333)
 * 事件通知(目标UI中的铃形图标)不再可用。 通知的新外观即将推出。
 
 ### Target Standard/Premium 19.9.1（2019 年 9 月 10 日）
@@ -335,7 +336,7 @@ Target Standard/高级版20.1.1版本是维护版本，包括后端增强和改�
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| 可视化体验编辑器 (VEC) | **新 VEC 菜单选项**：单击 VEC 中的某个页面元素时，相应菜单会显示适用于该元素类型的选项。<ul><li>您现在可以使用[!UICONTROL “样式”>“背景”]选项更改选定元素的背景图像和颜色。(TGT-15001)</li></ul>请参阅[可视化体验选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)中的“样式”&#x200B;部分。<br>**点击跟踪改进&#x200B;**：我们改进了在 VEC 和单页应用程序 (SPA) VEC 中配置点击跟踪的过程。<ul><li>当选择要在点击跟踪中使用的元素时，所有可用元素的名称都会显示在右侧的“修改”面板中，从而允许快速、轻松地选择所需元素。</li><li>三步引导式活动工作流中的“[!UICONTROL 目标和设置]”页面上会显示一个数字，用于指示为点击跟踪选择的元素数量。您可以将鼠标悬停在此数字上，以查看所有选定元素的名称。(TGT-33878)</li></ul>请参阅[点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md)。 |
+| 可视化体验编辑器 (VEC) | **新 VEC 菜单选项**：单击 VEC 中的某个页面元素时，相应菜单会显示适用于该元素类型的选项。<ul><li>您现在可以使用[!UICONTROL “样式”>“背景”]选项更改选定元素的背景图像和颜色。(TGT-15001)</li></ul>请参阅[可视化体验选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)中的“样式”**&#x200B;部分。<br>**点击跟踪改进&#x200B;**：我们改进了在 VEC 和单页应用程序 (SPA) VEC 中配置点击跟踪的过程。<ul><li>当选择要在点击跟踪中使用的元素时，所有可用元素的名称都会显示在右侧的“修改”面板中，从而允许快速、轻松地选择所需元素。</li><li>三步引导式活动工作流中的“[!UICONTROL 目标和设置]”页面上会显示一个数字，用于指示为点击跟踪选择的元素数量。您可以将鼠标悬停在此数字上，以查看所有选定元素的名称。(TGT-33878)</li></ul>请参阅[点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md)。 |
 | 单页应用程序可视化体验编辑器 (SPA VEC) | **引导式工作流**：新的引导式工作流可帮助您了解应如何配置页面交付规则设置，以便为单页应用程序成功执行和运行活动。(TGT-33718)<br> 请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)。<br>**克隆修改&#x200B;**：您现在可以使用 SPA VEC 定义修改，然后克隆该修改，以供在单页应用程序内的其他视图中使用。(TGT-33882)<br>请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md)。 |
 | ![Premium 徽章](/help/assets/premium.png) 自动个性化 (AP) 和自动定位 | **将体验指定为控制**：在创建 AP 或自动定位活动时，您可以选择要用作控制的体验。通过此功能，您可以根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据该体验的控制流量评估个性化流量的性能报表。当前控制选项（随机提供的体验）将继续可用。（TGT-32801、TGT-26572 和 TGT-26571）<br>请参阅[选择用于自动个性化或自动定位活动的控制](/help/c-activities/t-automated-personalization/experience-as-control.md)。请注意，此功能当前存在一个[已知问题](/help/r-release-notes/known-issues-resolved-issues.md)。<br>**个性化分析报表&#x200B;**：当访客在特定位置看到特定内容时，对营销人员友好的属性命名可提供更多有意义的信息。（TGT-33421 和 TGT-34957）<br>请参阅[为 Target 个性化算法收集数据](/help/c-activities/t-automated-personalization/ap-data.md)。 |
 | ![Premium 徽章](/help/assets/premium.png) 推荐 | 在创建“最近查看的项目”逻辑时，您可以使用“推荐以前购买的项目”切换。(TGT-34030)<br>有关更多信息，请参阅“创建标准”中的[最近查看的项目](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)。 |
@@ -1373,7 +1374,7 @@ target/r_release-notes-2018.xml
 
 有关更多信息，请参阅[在您的浏览器中启用混合内容](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)。
 
-* 改进了在“管理”、“目标”和“推荐”页面上配置选项时用户的受众会话超时时的工作流。 用户单击“保存”时，会显示会话过期消息，但重新登录后，会出现一个对话框，告知用户已成功登录，而 UI 会停留在 Target 中的同一页面上，且不会丢失任何数据。(TGT-25557)
+* 改进了在“管理”、“目标”和“Recommendations”页面上配置选项时用户的受众会话超时时的工作流。 用户单击“保存”时，会显示会话过期消息，但重新登录后，会出现一个对话框，告知用户已成功登录，而 UI 会停留在 Target 中的同一页面上，且不会丢失任何数据。(TGT-25557)
 
 ### Target 平台更改（2017 年 9 月 27 日） {#section_AC32516DFBA64AD2AC9A74171D452778}
 

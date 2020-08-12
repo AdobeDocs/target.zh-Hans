@@ -2,9 +2,13 @@
 keywords: exclusions
 description: 可在 Adobe Target 中创建排除列表以阻止推荐某些项目。
 title: Adobe Target 中的排除项
+feature: null
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +55,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 >
 >“高级搜索”功能不区分大小写；但在进行产品交付时，会根据区分大小写的搜索来返回产品。这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建排除项时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个排除项，以用于排除包含“holiday”的产品，则只会排除包含“holiday”的产品，而不会排除包含“Holiday”的产品。
 
-## 培训视频：在“推荐”中创建收藏集和排除项 (7:05) 教 ![程徽章](/help/assets/tutorial.png)
+## 培训视频：在“推荐”中创建收藏集和排除项 (7:05) ![教程徽章](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

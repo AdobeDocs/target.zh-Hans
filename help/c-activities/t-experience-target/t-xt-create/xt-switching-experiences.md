@@ -1,11 +1,15 @@
 ---
-keywords: 优先级;体验创建;优先级;体验;受众;切换体验;可视化体验编辑器
+keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
 description: 此信息介绍了随着访客配置文件发生更改，访客如何在体验定位 (XT) 活动中切换体验。
 title: 在体验定位中切换体验
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 100%
 
 ---
 
@@ -38,24 +42,24 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    例如，在以下活动设置中，一位访客先在美国访问了您的网站，然后又来到了德国并在德国再次访问您的网站。在首次访问期间，该访客符合体验 A（美国访客）的条件。在德国访问您的网站后，该访客切换到了体验 B（德国访客）。
 
-   ![优先级：美国 &gt; 德国](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+   ![优先级：美国 > 德国](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
 * **如果访客不再符合当前受众的条件，但却开始符合具有较低优先级的体验的条件，则访客也将会切换体验。**
 * **如果访客不再符合当前体验的条件，而且也不符合其他体验的条件，则访客将会看到默认内容。**
 
    例如，在以下活动设置中，一位访客先在美国访问了您的网站，然后又来到了法国并在法国再次访问您的网站。在首次访问期间，该访客符合体验 A（美国访客）的条件。在法国访问您的网站后，该访客将停留在原始体验中。
 
-   ![优先级：美国 &gt; 德国](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+   ![优先级：美国 > 德国](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
 * **定位到“所有访客”的体验可以用作体验定位活动中的最后一个体验，以“捕获”所有还未进入任何其他体验的访客。如果定位到“所有访客”的体验不是排在最后，则仍会对列在该体验下方的其他已定位体验进行评估。**
 
    例如，在以下活动设置中，一位访客先在美国访问了您的网站，然后又来到了德国并在德国再次访问您的网站。在首次访问期间，该访客符合体验 A（美国访客）的条件。在德国访问您的网站后，该访客将停留在体验 A（美国访客）中。
 
-   ![优先级：美国 &gt; 所有访客](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
+   ![优先级：美国 > 所有访客](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
 
    如果这不是您所期望的结果，您可以创建一个新受众，并将其明确定义为与目标受众相反的受众，如以下示例所示：
 
-   ![优先级：美国 &gt; 非美国](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
+   ![优先级：美国 > 非美国](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
 
 * **如果 XT 活动中只有一个体验，则即使访客不再符合体验的受众条件，访客仍会保留在该体验中。**
 
@@ -69,5 +73,5 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    访客可能会符合多个受众的条件，在这种情况下，记住这一点十分重要。例如，如果您有两个体验：一个体验定位到“美国”，而另一个体验则定位到“纽约”，则位于纽约的访客将同时满足这两个受众的条件。因此，您必须确保在 Target UI 中先定义“纽约”体验，然后再定义“美国”体验。这样做可以确保定位更为精确的“纽约”体验具有较高优先级，如以下示例所示：
 
-   ![优先级：纽约 &gt; 美国](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
+   ![优先级：纽约 > 美国](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
 

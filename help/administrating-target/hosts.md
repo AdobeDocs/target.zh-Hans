@@ -2,10 +2,11 @@
 keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: 可组织您的网站和预生产环境，以便轻松管理和分隔报表。
 title: 主机
+feature: null
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 27%
@@ -86,7 +87,7 @@ If a [!DNL Target] request is made on an unauthorized host, the call will respon
 
 >[!IMPORTANT]
 >
->**安全最佳实践**: 如果使用的ubox功 [!DNL Target]能，请注允许列表意，此还将控制重定向器可导航到的域 [的列表](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 确保在将ubox用作实施的一部分时添加要重定向到的任何域。 如果允许列表未指定，将 [!DNL Adobe] 无法验证重定向URL并防止潜在的恶意重定向。
+>**安全最佳实践**:如果使用的ubox功 [!DNL Target]能，请注允许列表意，此还将控制重定向器可导航到的域 [的列表](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 。 确保在将ubox用作实施的一部分时添加要重定向到的任何域。 如果允许列表未指定，将 [!DNL Adobe] 无法验证重定向URL并防止潜在的恶意重定向。
 >
 >允许列表优先于环境。 在使用功能之前，您应清除所允许列表有主机，然后只有允许的主允许列表机才会显示在主机列表中。 然后，您可以将主机移到所需的环境中。
 

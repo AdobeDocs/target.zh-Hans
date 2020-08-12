@@ -1,9 +1,10 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
-description: 有关在“Adobe Target建议”中使用特殊多值运算符处理多值字段的信息。
-title: 在Adobe Target推荐中使用多值属性
+description: 有关使用特殊多值运算符在Adobe TargetRecommendations处理多值字段的信息。
+title: 在Adobe TargetRecommendations使用多价值属性
+feature: null
 translation-type: tm+mt
-source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -73,7 +74,7 @@ function targetPageParams() {
 >当将单值左侧与多值右侧进行比较时，当使用用户档案属性匹配或参数(mbox)属性匹配规则时，支持动态匹配到多值属性目前仅在标准中可用。 促销、实体属性匹配或包含规则左侧的列表当前不支持多值属性。
 
 
-### 示例： 排除最近监视的项目
+### 示例：排除最近监视的项目
 
 假定您希望阻止推荐用户最近十部观看的电影中的任何电影。 首先，编写一个名为的用户档案 `user.lastWatchedMovies` 脚本，将最近10个查看的电影作为JSON数组进行跟踪。 然后，您可以使用以下包含规则排除项目：
 
@@ -95,7 +96,7 @@ function targetPageParams() {
 } 
 ```
 
-### 示例： 推荐用户收藏夹中的项目
+### 示例：推荐用户收藏夹中的项目
 
 假设您希望仅在乐队演奏是用户最喜爱的乐队之一时向音乐会推荐票。 首先，确保您有一个名为用户档案变 `profile.favoriteBands` 量，它包含用户最喜爱的栏。 然后，确保您的目录包含一个属 `entity.artistPerforming` 性，该属性包括演唱会中表演的艺术家。 然后，您可以使用以下包含规则：
 
@@ -117,9 +118,9 @@ function targetPageParams() {
 }
 ```
 
-### 示例： API创建推荐用户收藏夹中的项目的条件
+### 示例：API创建推荐用户收藏夹中的项目的条件
 
-使用多值筛选规则的条件（与所有条件一样）可以通过Adobe I/O API创建。 用于创建条件的示例API调用，其中mbox参 `id` 数列表中包含实体属 `favorites` 性：
+使用多值筛选规则的条件（与所有条件一样）可以通过AdobeI/O API创建。 用于创建条件的示例API调用，其中mbox参 `id` 数列表中包含实体属 `favorites` 性：
 
 ```
 curl -X POST \

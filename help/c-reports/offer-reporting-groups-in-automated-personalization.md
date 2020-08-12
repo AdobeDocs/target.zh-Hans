@@ -1,11 +1,15 @@
 ---
-keywords: 自动个性化；优惠；报告；组；报告组
-description: 有关在Adobe Target的自动个性化(AP)活动中使用报告组的信息。
-title: 在Adobe Target的自动个性化(AP)活动中提供报告组
-topic: 高级
+keywords: automated personalization;offer;reporting;group;reporting group
+description: 有关在Adobe TargetAutomated Personalization(AP)活动中使用报告组的信息。
+title: 优惠报告群Automated Personalization（美联社）Adobe Target活动
+feature: null
+topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 64%
 
 ---
 
@@ -35,12 +39,12 @@ When you use reporting groups, [!DNL Target] creates only one personalization mo
 
    ![](assets/ap_manage_content.png)
 
-1. 单击“[!UICONTROL **管理内容]”对话框顶部的**[!UICONTROL 选件]选项卡。
-1. （视情况而定）将特定体验添加到报表组，方法是将鼠标悬停在所需的选件上，然后单击&#x200B;**[!UICONTROL 报表组]文件夹图标。**
+1. 单击“**[!UICONTROL 管理内容]**”对话框顶部的[!UICONTROL 选件]选项卡。
+1. （视情况而定）将特定体验添加到报表组，方法是将鼠标悬停在所需的选件上，然后单击&#x200B;**[!UICONTROL 报表组]**&#x200B;文件夹图标。
 
    ![](assets/ap_manage_content_2.png)
 
-1. （视情况而定）在报表组中批量添加体验，方法是选中相关体验的复选框，然后单击对话框右上角的&#x200B;**[!UICONTROL 报表组]文件夹图标。**
+1. （视情况而定）在报表组中批量添加体验，方法是选中相关体验的复选框，然后单击对话框右上角的&#x200B;**[!UICONTROL 报表组]**&#x200B;文件夹图标。
 
    ![](assets/ap_manage_content_3.png)
 

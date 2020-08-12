@@ -2,10 +2,11 @@
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: 可在多变量测试中使用量度来确定访问何时被视为成功。
 title: 设置量度
+feature: null
 solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 98%
@@ -29,6 +30,7 @@ ht-degree: 98%
    * 转化
    * 收入
    * 参与度
+
    您可以选择任何预先构建的成功量度，或者也可创建自定义成功量度。您还可以将某个成功量度标记为主量度。如果设置了主量度，报表和 Experience Cloud 卡片默认将显示该主量度。
 1. 指定量度设置。
 
@@ -54,7 +56,7 @@ ht-degree: 98%
    | `-` | 减号 |
    | `@` | @ 符号 |
 
-## 培训视频： 活动指标(7:43)教 ![程徽章](/help/assets/tutorial.png)
+## 培训视频：活动指标(7:43)教 ![程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用成功量度的信息。
 

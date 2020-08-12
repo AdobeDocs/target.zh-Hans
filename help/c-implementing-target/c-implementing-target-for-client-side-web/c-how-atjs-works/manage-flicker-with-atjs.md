@@ -2,10 +2,14 @@
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: 有关 Adobe Target at.js JavaScript 库如何在页面或应用程序加载期间阻止闪烁的信息。
 title: Adobe Target at.js 如何管理闪烁
+feature: null
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 83%
 
 ---
 
@@ -32,7 +36,7 @@ source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ![Target 流程：at.js 页面加载请求](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**at.js 1.*x***
+**at.js 1.*x ***
 
 ![](assets/target-flow2.png)
 
@@ -44,9 +48,9 @@ source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 您可以通过使用预先隐藏的代码片段来避免闪烁，在 [!DNL Target] 对相关 HTML 元素进行个性化后，系统会显示这些代码片段。
 
-at.js可以异步加载，直接嵌入到页面中或通过标签管理器(Adobe Launch、动态标签管理器(DTM)等)。
+at.js可以异步加载，直接嵌入到页面中或通过标签管理器(Adobe启动、动态标签管理器(DTM)等)。
 
-如果at.js嵌入到页面中，则必须在加载at.js之前添加代码片断。 如果通过标记管理器加载at.js（也以异步方式加载），则必须在加载标记管理器之前添加片段。 如果标记管理器同步加载，则脚本可能会包含在at.js之前的标记管理器中。
+如果at.js嵌入到页面中，则必须在加载at.js之前添加片段。 如果通过标记管理器加载at.js，则在加载标记管理器之前必须添加片段。 如果标记管理器同步加载，则脚本可能会包含在标记管理器中at.js之前。
 
 预先隐藏的代码片段如下所示：
 
@@ -104,7 +108,7 @@ at.js可以异步加载，直接嵌入到页面中或通过标签管理器(Adobe
 body {opacity: 0 !important}
 ```
 
-## 管理at.js 2.x中的triggerView()闪烁
+## 管理at.js 2.x中的flickerView()
 
 当使用 `triggerView()` 在 SPA 中显示目标内容时，开箱即用地提供闪烁管理。这意味着无需手动添加预先隐藏逻辑。相反，at.js 2.x 会在应用目标内容之前预先隐藏需要显示视图的位置。
 

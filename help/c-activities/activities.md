@@ -1,18 +1,22 @@
 ---
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
-description: Adobe Target中的活动可让您向特定受众个性化内容并测试页面设计
-title: Adobe Target中的活动可让您向特定受众个性化内容并测试页面设计。
+description: Adobe Target的活动允许您根据特定受众个性化内容并测试页面设计
+title: Adobe Target的活动允许您根据特定受众个性化内容并测试页面设计。
+feature: null
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2094'
+ht-degree: 97%
 
 ---
 
 
 # 活动{#activities}
 
-Adobe Target中的活动可让您向特定受众个性化内容并测试页面设计。
+Adobe Target的活动允许您根据特定受众个性化内容并测试页面设计。
 
 例如，您可能会设计一个活动以对两个不同的登陆页面进行测试，其中一个页面着重显示夏季女鞋的相关信息，而另一个登陆页面则重点展示更广泛的夏季服饰信息。此活动确定了用于控制这两个登陆页面分别何时显示的条件，以及用于决定哪个页面更为成功的量度。此活动配置为在满足特定条件时开始和结束，例如在具体日期开始和结束，或者在活动得到批准后开始并在活动停用后结束。
 
@@ -168,7 +172,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 活动类型(9:03)概 ![述徽章](/help/assets/overview.png)
+### 活动类型(9:03) ![概述徽章](/help/assets/overview.png)
 
 以下视频介绍了 [!DNL Target Standard/Premium] 中可用的活动类型。
 

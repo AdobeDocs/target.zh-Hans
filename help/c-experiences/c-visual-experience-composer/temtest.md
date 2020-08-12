@@ -2,9 +2,13 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: 如果使用一个页面模板为页面提供结构，或者如果页面包含类似的元素，则此功能可以测试类似结构页面元素中的变体。
 title: 在相似页面上包含相同体验
+feature: null
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +40,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 1. 指定页面范围。页面范围可以是以下任一类型：
 
-   * URL (有关Target如何评估URL的详细信息，请参阅目 [标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
+   * URL (有关目标如何评估URL的更多信息，请参 [阅目标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
    * 域
    * 路径
    * 话题标签 (#) 片段（定位 URL 中 # 号后面的内容）。
@@ -72,7 +76,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 >
 > Target 无法检查页面以确保它们按预期方式显示，因此使用此功能时，务必要始终先测试受影响的页面，然后再发布这些页面。
 
-## 培训视频：可视化体验编辑器 (2/2)(7:29) 教 ![程徽章](/help/assets/tutorial.png)
+## 培训视频：可视化体验编辑器 (2/2)(7:29) ![教程徽章](/help/assets/tutorial.png)
 
 * 重命名和复制体验
 * 创建重定向体验

@@ -1,11 +1,15 @@
 ---
-keywords: mbox.js 更改;mbox.js 版本
+keywords: mbox.js changes;mbox.js versions
 description: 此页面显示对 mbox.js 的每个版本所做的更改。
 title: mbox.js 版本详细信息
-subtopic: 入门指南
+feature: null
+subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2320'
+ht-degree: 99%
 
 ---
 

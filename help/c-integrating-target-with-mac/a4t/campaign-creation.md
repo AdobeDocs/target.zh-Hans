@@ -2,10 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: 您可以将 Target Standard/Premium 中的活动配置为使用 Adobe Analytics 作为报表源 (A4T)。
 title: 活动创建
+feature: null
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: cbab5b34475b279cf3c58530665f096943ecbf95
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 21%
@@ -19,7 +20,7 @@ You can configure an activity in [!DNL Target] to use [!DNL Adobe Analytics] as 
 
 Before you set up an activity that uses [!DNL Analytics] as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. 需为活动选择最终成功量度。Although you can select additional metrics at any time in [!DNL Analytics], you must still specify a particular metric you expect this test to affect.
 
-## 创建使用Analytics作为活动源的报告
+## 创建将Analytics用作活动源的报告
 
 Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in [!DNL Analytics] can be applied when viewing a report.
 
@@ -69,29 +70,29 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## AnalyticsTarget(A4T)支持自动分配活动 {#a4t-aa}
+## 目标分析(A4T)支持自动分配活动 {#a4t-aa}
 
-我们已将Adobe Target到AdobeAnalytics集成升级，称为 [TargetAnalytics](/help/c-integrating-target-with-mac/a4t/a4t.md)。
+我们已升级了Adobe Target到Adobe Analytics的集成，即 [目标分析](/help/c-integrating-target-with-mac/a4t/a4t.md)。
 
-[!UICONTROL 自动分配活动] 现在支持 [!UICONTROL Analytics进行Target]。 此集成允许您使用自动分配的多重强盗功能，在使用目标指标和／或报告和分析功能的同时， [!DNL Adobe Analytics] 推动流量 [!DNL Adobe Analytics] 增长以赢得体验。 如果您已实 [施A4T以用于A/B测试和体验定位活动](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)，您就可以开始了！
+[!UICONTROL 自动分配] 活动现在支 [!UICONTROL 持Analytics进行目标]。 此集成允许您使用自动分配的多重强盗功能，在使用目标指标和／或报告和分析功能的同时， [!DNL Adobe Analytics] 推动流量 [!DNL Adobe Analytics] 增长以赢得体验。 如果您已实 [施A4T以用于A/B测试和体验定位活动](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)，您就可以开始了！
 
 若要开始，请执行以下操作：
 
 1. 创建A/B测试活动，并选 **[!UICONTROL 择自动分配到最佳体验]** ，作 **[!UICONTROL 为“定位”页]**[!UICONTROL 面上的流量分] 配方法。
-1. 在“ **[!UICONTROL 目标和设置]** ”页面 **[!UICONTROL 上为您的]** “报告源”选 **[!UICONTROL 择Adobe Segan]** ，然后选择与您所需的优化目标对应的报表包。
+1. 在“ **[!UICONTROL 目标和设]** 置”页面上为 **[!UICONTROL 报告源选]** 择“Adobe Analytics” **** ，然后选择与所需的优化目标对应的报表包。
 1. 选择主要目标量度。
 
    选择 **[!UICONTROL 要用]** 于指 [!DNL Adobe Target] 定优化目标的转换。
 
    或
 
-   选 **[!UICONTROL 择使用Analytics度]** ，然后从中选择一个度 [!DNL Analytics] 量以用作优化目标。 您可以使用现成的转 [!DNL Analytics] 换量度或自定 [!DNL Analytics] 义事件。
+   选 **[!UICONTROL 择使用Analytics]** 指标，然后从中选择 [!DNL Analytics] 一个指标以用作优化目标。 您可以使用现成的转 [!DNL Analytics] 换量度或自定 [!DNL Analytics] 义事件。
 
 1. 保存并激活活动。
 
    [!UICONTROL “自动分配] ”将使用您选择的活动来优化访客，从而推动体验最大化目标指标。
 
-1. 使用“ **[!UICONTROL 报告]** ”选项卡根据您选择的指标视图活动的 [!DNL Adobe Analytics] 报告。 单击 **[!UICONTROL Analytics的视图]** ，深入挖掘报告数据并进一步细分数据。
+1. 使用“ **[!UICONTROL 报告]** ”选项卡根据您选择的指标视图活动的 [!DNL Adobe Analytics] 报告。 在Analytics **[!UICONTROL 中单击视图]** ，以深入细分报告数据并进一步细分数据。
 
 ### 支持的目标指标
 
@@ -114,7 +115,7 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
    >
    >可能会选择参与和收 [!DNL Analytics] 入指标作为主要目标指标，因 [!DNL Target] 为无法识别来自的所有参与和收入指标 [!DNL Analytics]。 务必小心，只选择二项式转换指标或自定义事件 [!DNL Analytics]。
 
-* AdobeAnalytics计算指标
+* Adobe Analytics计算指标
 
 ### 限制和说明
 
@@ -122,4 +123,4 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 * 尽管计算的指标不作为主要目标指标受支持，但通常可以通过选择自定义事件作为主要目标指标来达到预期效果。 例如，如果要优化诸如“每个访客的表单完成情况”之类的指标，请选择与“表单完成情况”对应的自定义事件作为主要目标指标。 [!DNL Target] 根据每次访问自动标准化转化量度，以考虑流量分布不均，因此无需使用计算量度来执行标准化。
 * [!DNL Target] 在自动分配A4T实现中使用“Same Touch”（同触）归因模型。
 
-有关详细信息，请参 [阅《Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 工具指 *南》中的归因概述*。
+有关详细信息，请参 [阅《分析工](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 具指南 *》中的归因概述*。

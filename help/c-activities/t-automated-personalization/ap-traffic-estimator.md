@@ -1,10 +1,14 @@
 ---
 description: 流量估算器会提供反馈，让您了解是否有充足的流量来确保活动成功。
 title: 估算成功所需流量
+feature: null
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +27,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![“流量”图标](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   此时将打开流量估算器。您可以再次单击&#x200B;**[!UICONTROL 流量]以隐藏流量估算器。**
+   此时将打开流量估算器。您可以再次单击&#x200B;**[!UICONTROL 流量]**&#x200B;以隐藏流量估算器。
 
    ![](assets/ap_est.png)
 
@@ -33,6 +37,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 典型转化率：转化率以百分比表示，根据估算或 Analytics 系统中的以往数据得出。
    * 预计每日访问次数：这是指根据定位标准能够访问活动的访客每日进行的访问次数。可以基于您的分析数据。请注意，此数值应为访问次数，而不是独特访客数。
    * 测试持续时间：您希望该活动运行的天数。
+
    流量估算器使用这些统计数据来确定运行一个成功的测试需要进行哪些调整。
 
    系统会计算您输入的值并在流量估算器的顶部区域附近显示计算结果。
@@ -46,6 +51,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 考虑使用自动定位来创建多个体验（其中每个体验变体中存在一些选件变化），而不使用自动个性化。
    * 减少自动个性化活动中的选件组合数量。
    * 延长活动持续时间。
+
    调整数字直到流量估算器表示已有足够流量，然后对您的测试进行相应设计。
 
    ![](assets/ap_est_yes.png)

@@ -2,11 +2,12 @@
 keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
 description: 此信息介绍了如何在非 JavaScript 情景中实施 Target，例如使用 AdBox 或重定向器。
 title: 电子邮件：实施 Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 82%
@@ -31,7 +32,7 @@ AdBox 广告和重定向器可用于任何类型的活动。下表比较了 Adbo
 
 ## 安全最佳实践 {#security}
 
-请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列出默认的重定向URL域。 目标使用主机来允许列出要允许重定向的域。 有关详细信息，请参 [阅创建允许列表，它指定有权向主机中的目标发送mbox调用的](/help/administrating-target/hosts.md#allowlist) 主 *机*。
+请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列表默认重定向URL域。 目标使允许列表用主机要允许重定向的域。 有关详细信息，请参 [阅创允许列表建指定已授权向主机中的目标发送mbox调用的主机的程序](/help/administrating-target/hosts.md#allowlist) ( *英文)*。
 
 ## 限制 {#section_38F559DCF1324271926608BCD4AB1227}
 

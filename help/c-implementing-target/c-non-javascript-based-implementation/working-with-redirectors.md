@@ -2,11 +2,12 @@
 keywords: Implementation;mbox.js non javascript;redirector;costs per click;revenue per click
 description: 使用重定向器的方法和您在测试中使用 mbox 的方法类似。
 title: 使用重定向器
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 69%
@@ -62,7 +63,7 @@ ht-degree: 69%
       >请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列表默认重定向URL域。 目标使允许列表用主机要允许重定向的域。 有关详细信息，请参 [阅创允许列表建指定已授权向主机中的目标发送mbox调用的主机的程序](/help/administrating-target/hosts.md#allowlist) ( *英文)*。
 
 1. 验证重定向器。
-   1. *安全最佳实践*: 确保重定向器中使用的域已已列入允许列表，如上所示。 如果您使用的域未已列入允许列表,Adobe将阻止对该域的任何调用，以阻止恶意行为者使用重定向器重定向到可能的恶意域。
+   1. *安全最佳实践*:确保重定向器中使用的域列入允许列表被，如上所示。 如果您使用的域未列入允许列表,Adobe将阻止对该域的任何调用，以阻止恶意行为者使用重定向器重定向到可能的恶意域。
    1. 将重定向器 URL 插入到浏览器中并刷新。
    1. 登录到您的帐户，刷新 mbox 列表，然后验证以 mbox 形式列出的新的重定向器。
 1. 如果您要为一个广告测试不同目标，则请为每个版本创建[重定向选件](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。

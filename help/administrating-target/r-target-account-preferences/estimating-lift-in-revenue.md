@@ -1,11 +1,15 @@
 ---
-keywords: 收入提升;收入;预计收入提升;计算提升;预计值
+keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
 description: Target 可以估计在所有用户都查看成功体验时将获得的收入提升。
 title: 预计收入提升
+feature: null
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +32,7 @@ Target 可以估计在所有用户都查看成功体验时将获得的收入提�
 
 预计收入提升是根据从主要目标量度中获取的每次访问带来的收入 (RPV) 计算出来的。
 
-预计提升的计算公式为：（&lt;入选体验 RPV&gt; - &lt;控制体验 RPV&gt;)*&lt;活动中的访客总数&gt;
+预计提升的计算公式为：（&lt;入选体验 RPV> - &lt;控制体验 RPV>)*&lt;活动中的访客总数>
 
 最多可以将得出的数值四舍五入到一位小数，但前提是四舍五入后小数点前面只有一位数字。例如：$1.6M、$60K、$900、$8.5K、$205K
 

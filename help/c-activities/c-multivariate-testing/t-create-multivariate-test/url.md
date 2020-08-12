@@ -2,9 +2,10 @@
 keywords: Targeting
 description: 活动 URL 可决定多变量测试 (MVT) 中使用的页面，以及在 Adobe Target 中设计测试时打开的页面。
 title: 活动 URL
+feature: null
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 93%

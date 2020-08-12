@@ -2,11 +2,12 @@
 keywords: Click tracking;track clicks;clicks;AppMeasurement
 description: Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
 title: 点击跟踪
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 97%

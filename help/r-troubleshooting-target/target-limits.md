@@ -2,10 +2,14 @@
 keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: 此信息介绍了字符限制和会影响 Adobe Target 中活动和其他元素的其他限制（选件大小、受众、配置文件、值、参数等）。
 title: 限制
+feature: null
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 77%
 
 ---
 
@@ -26,7 +30,7 @@ source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
 
 **建议限制**：10,000 个处于活动状态的实时活动。
 
-**建议的限制**:10,000个活动已保存（且未结束）活动。
+**建议的限制**:10,000个活动已保存（未结束）活动。
 
 ## 活动名称
 
@@ -58,9 +62,9 @@ source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
 
 ## 客户属性，上传
 
-* **使用HTTP方法每次上传的最大文件大小**:100 MB。
+* **使用HTTP方法每次上载的最大文件大小**:100 MB。
 * **使用FTP方法每次上传的最大文件大小**:4 GB。
-* **允许订阅的属性数**:5表示 [!DNL Target Standard] 同意，200表示同意 [!DNL Target Premium]。
+* **允许订阅的属性数**:5个 [!DNL Target Standard] ,200个 [!DNL Target Premium]。
 
 ## 实体自定义属性
 
@@ -113,38 +117,38 @@ source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
 
 对于标准mbox调用：
 * mbox 参数：每个 mbox 500 个参数。
-* 用户档案参数：每mbox500个参数用户档案参数。
+* 用户档案参数：每mbox用户档案500个参数。
 * 其他参数（URL、引荐 URL 等）：每个 mbox 50 个其他参数类型。
 
 除非因 Web 浏览器限制而缩短请求，否则将应用这些限制。
 
-如果您使用批处理投放API，则每个批处理请求的限制为50 mbox。
+如果您使用批处理投放API，则限制为每个批处理请求50个mbox。
 
-如果您在 Mobile Services SDK 中使用[批量交付 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)，则该 API 本身的限制为 50 个 mbox 参数、50 个配置文件参数和 50 个其他参数类型。无法使用批量交付 API 发送包含的参数超过这些数量的请求。如果请求包含的限制超过这些限制，则API将返回以下错误消息：
+如果您在 Mobile Services SDK 中使用[批量交付 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)，则该 API 本身的限制为 50 个 mbox 参数、50 个配置文件参数和 50 个其他参数类型。无法使用批量交付 API 发送包含的参数超过这些数量的请求。如果请求包含的限制超过这些限制，API将返回以下错误消息：
 
-“mboxParameters的数量不能超过50。”
+&quot;mboxParameters的数量不能超过50。&quot;
 
 为端点设置的限制：
 
 批mbox v2:
 * mbox参数100
-* mbox参数名称最大长度128
+* mbox参数名称max length 128
 * mbox参数值不能为null
 * mbox参数值5000
 * 用户档案参数50
 * 用户档案参数名称最大长度128
 * 用户档案参数值不能为null
-* 用户档案参数值最大长度256
+* 用户档案参数值max length 256
 
 投放API端点
 * mbox参数50
-* mbox参数名称最大长度128
+* mbox参数名称max length 128
 * mbox参数值不能为null
 * mbox参数值5000
 * 用户档案参数50
 * 用户档案参数名称最大长度128
 * 用户档案参数值不能为null
-* 用户档案参数值最大长度256
+* 用户档案参数值max length 256
 
 ## mbox 请求 URL
 
@@ -194,9 +198,9 @@ source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
 
 **建议的活动用户档案脚本限制**:300
 
-**建议的每个帐户用户档案脚本总数限制**:零点二万
+**建议限制每个帐户的用户档案脚本总数**:2,000
 
-**限制用户档案脚本复杂性的建议**:用户档案脚本可以执行有限数量的指令。 有关详细信息，请参阅 [用户档案属性的](/help/c-target/c-visitor-profile/profile-parameters.md#best) 最 *佳实践*。
+**Recommendations限制用户档案脚本复杂性**:用户档案脚本可以执行有限数量的指令。 有关详细信息，请参 [阅用户档案](/help/c-target/c-visitor-profile/profile-parameters.md#best) 属性 *的最佳实践*。
 
 ## 属性
 
@@ -238,7 +242,7 @@ source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
 
 ## 定位规则
 
-**建议的限制**:每个定位规则值有2,500个字符。
+**建议的限制**:每个目标规则值有2,500个字符。
 
 **建议限制**：各定位规则中每个受众 30,000 个唯一值。
 

@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时查看报表的常见问题解答。
 title: 查看报表 - A4T 常见问题解答
+feature: null
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 63%
@@ -23,13 +24,13 @@ This topic contains answers to questions that are frequently asked about viewing
 
 For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
-## 在分析工作区中，可在何处应用区段？ {#segmentation}
+## 在Analysis Workspace，可在何处应用细分？ {#segmentation}
 
 区段最常应用于区段拖放区域中面板的顶部。 该段将应用于面板中的所有表和可视化。 此技术对于查看测试如何影响一部分人（例如，此测试对英国人的表现如何）最有用？
 
 ## 当我为特定目标活动应用点击区段时，为何会看到返回的不相关体验？ {#activity-segmentation}
 
-发送到 [!DNL Target] 的 [!DNL Analytics] 变量具有 90 天的默认有效期。(注： 到期期限可由客户服务部根据需要进行调整)。 当访客在此过期窗口中导航站点时，他们是许多的一部分 [!DNL Target] ，所有这些活动都在维中收集。
+发送到 [!DNL Target] 的 [!DNL Analytics] 变量具有 90 天的默认有效期。(注：到期期限可由客户服务部根据需要进行调整)。 当访客在此过期窗口中导航站点时，他们是许多的一部分 [!DNL Target] ，所有这些活动都在维中收集。
 
 因此，当您对活动进行细分以使其出现在点击中时，您将获得该活动的所有体验，以 *及* 任何坚持该点击的其他体验。
 
@@ -48,7 +49,7 @@ For detailed information and examples, open the [Analytics &amp; Target: Best Pr
 * All of the above metrics trigger when a user qualifies for an activity and content is returned from [!DNL [!DNL Target]]. 这并不一定意味着用户查看了该选件。如果活动体验未显示且用户未向下滚动页面，则表示该选件由 [!DNL Target] 提供，但用户并未查看。
 * 除非同一活动中的同一页面同时有多个 mbox 调用，否则“[!UICONTROL 活动展示次数]”（由 [!DNL Target] 测量）与“[!UICONTROL 实例数]”（由 [!DNL Analytics] 测量）相等。这会导致“[!UICONTROL 活动展示次数]”被计入多次，而“[!UICONTROL 实例]”只被计入一次。
 
-## 为什么分析工作区中的“活动印象”和“活动转化率”比报告和分析高？ {#sametouch}
+## 为什么Analysis Workspace的“活动印象”和“活动转化率”高于Reports &amp; Analytics? {#sametouch}
 
 [!DNL Reports & Analytics] 对“活动印象”和“活动转换”应用同触归因模型，而 [!DNL Analysis Workspace] 显示原始指标，该指标可能因维的持久性而 [!DNL Target] 膨胀。
 
@@ -125,7 +126,7 @@ The following list explains reasons why the same visitor could be counted in mul
 
 * The [!DNL Target] profile expired but the [!DNL Analytics] cookie is still there. In this situation, [!DNL Target] re-evaluates the user but [!DNL Analytics] considers the visitor to be the same person.
 * 如果访客正在使用 `mbox3rdPartyId`，则当匿名访客与其第三方 ID 配置文件合并时， 可能会将该访客带入不同的体验以与第三方 ID 匹配。[!DNL Target]有关更多信息，请参阅 [mbox3rdPartyID 的实时配置文件同步](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)。
-* [!DNL Analytics] 跟踪不同设备时，可能采用与跟踪这些设备不同的方 [!DNL Target] 式跟踪同一访客: 中的第三方ID设置与 [!DNL Target] 分析中的设置不同。
+* [!DNL Analytics] 跟踪不同设备时，可能采用与跟踪这些设备不同的方 [!DNL Target] 式跟踪同一访客:中的第三方ID设置与 [!DNL Target] 分析中的设置不同。
 
 ## A4T 是否支持虚拟报表包？
 

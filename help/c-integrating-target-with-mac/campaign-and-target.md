@@ -2,10 +2,11 @@
 keywords: Overview and Reference
 description: 可将 Target 与 Adobe Campaign 结合使用来优化电子邮件内容。
 title: 将 Target 与 Adobe Campaign 集成
+feature: null
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: c652be30b0dfede94457f402a8b540a35096bdb4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 51%
@@ -40,7 +41,7 @@ Target 可以跟踪以下数据：
    *  中的 rawbox 和体验[!DNL Target]
    >[!NOTE]
    >
-   >使用rawbox和时，请参 [!DNL Target]阅“创建允许列表”下的重 [要安全声明，其中指定有权向Target发送mbox调用的主机](/help/administrating-target/hosts.md#allowlist)。
+   >使用rawbox和时，请 [!DNL Target]参阅“创建”下的重 [要安允许列表全声明，该目标指定已获得授权向发送mbox调用的主机](/help/administrating-target/hosts.md#allowlist)。
 
    * The delivery in [!DNL Campaign]
 

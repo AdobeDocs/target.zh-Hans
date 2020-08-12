@@ -1,10 +1,14 @@
 ---
-keywords: 安全;安全实践
+keywords: security;security practices
 description: 有关 Adobe 为增强您的数据和 Adobe Target 体验安全而实施的深入防护方法和安全规程的信息。
 title: Target 安全概述
+feature: null
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 94%
 
 ---
 

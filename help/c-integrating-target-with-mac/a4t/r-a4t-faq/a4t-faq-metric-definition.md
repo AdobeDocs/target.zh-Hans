@@ -1,11 +1,15 @@
 ---
-keywords: FAQ;常见问题解答;Analytics for Target;A4T;量度;量度定义
+keywords: faq;frequently asked questions;analytics for target;a4T;metric;metric definitions
 description: 本主题包含有关量度定义和使用 Analytics 作为 Target 报表源 (A4T) 的常见问题解答。
 title: 量度定义 - A4T 常见问题解答
+feature: null
 topic: Standard
 uuid: 41d41665-9057-479d-b0a8-7cffb90ca843
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 100%
 
 ---
 

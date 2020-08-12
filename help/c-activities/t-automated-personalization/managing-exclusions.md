@@ -1,11 +1,15 @@
 ---
-keywords: 重复数据删除技术;允许重复项;排除重复的选件;自动个性化;不允许重复的选件
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
 description: 通过创建排除组、排除重复的选件、排除特定体验以及排除 Adobe Target 自动个性化 (AP) 活动中的默认内容来管理排除项。
 title: 管理排除项
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +34,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 在“[!UICONTROL 管理内容]”对话框中，单击&#x200B;**[!UICONTROL 排除组]**。
 
-   ![“管理内容”&gt;“排除组”对话框](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
+   ![“管理内容”>“排除组”对话框](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    如果您之前已经创建一些排除组，它们会显示在列表中。如果您尚未创建排除组，系统会提示您创建一个排除组。
 
@@ -56,7 +60,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 例如，在您的一个活动中，一个页面上可能有 6 个位置和 12 个选件。活动中的多个位置可能存在相同的选件。此功能可阻止同一个活动中的不同位置同时显示重复的选件。
 
-单击&#x200B;**[!UICONTROL 配置]** &gt; **[!UICONTROL 重复的选件]**，然后单击&#x200B;**[!UICONTROL 允许重复项]**&#x200B;或&#x200B;**[!UICONTROL 不允许重复项]**。
+单击&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 重复的选件]**，然后单击&#x200B;**[!UICONTROL 允许重复项]**&#x200B;或&#x200B;**[!UICONTROL 不允许重复项]**。
 
 ![“重复的选件”选项](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -96,7 +100,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **使用可视化体验编辑器 (VEC) 排除默认内容：**
 
-1. [创建或编辑 AP 活动](/help/c-activities/t-automated-personalization/create-ap-activity.md)时，选择要替换的内容，然后单击该内容以访问&#x200B;**[!UICONTROL 更改文本/HTML]**、**[!UICONTROL 更改图像]**&#x200B;或&#x200B;**[!UICONTROL 更改背景颜色]**。
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
 1. 在出现的对话框中，创建新的内容，然后取消选中默认内容右侧的&#x200B;**包含**&#x200B;复选框（或在“选择内容”屏幕中取消选中“默认图像/视频”）。
 
    “[!UICONTROL 包含]”复选框的位置可能会因内容/选件类型而略有不同。
@@ -122,7 +126,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 **使用基于表单的体验编辑器排除默认内容：**
 
 1. 创建或编辑 AP 活动时，在&#x200B;**[!UICONTROL 内容]**&#x200B;下方单击&#x200B;**[!UICONTROL 更改文本/HTML]**&#x200B;或&#x200B;**[!UICONTROL 更改图像选件]**。
-1. 在出现的对话框中，创建新的内容，然后取消选中默认内容右侧的&#x200B;**[!UICONTROL 包含]复选框（或在“选择内容”屏幕中取消选中“默认图像/视频”）。**
+1. 在出现的对话框中，创建新的内容，然后取消选中默认内容右侧的&#x200B;**[!UICONTROL 包含]**&#x200B;复选框（或在“选择内容”屏幕中取消选中“默认图像/视频”）。
 
    “包含”复选框的位置可能会因内容/选件类型而略有不同。
 

@@ -1,12 +1,13 @@
 ---
 keywords: Implementation;mbox.js non javascript;mbox;adbox
-description: 使用AdBox在非现场实施中使用Adobe Target传送图像。
+description: 使用AdBox在非现场实施中使用Adobe Target提供图像。
 title: 使用Adobe Target为图像创建Adbox
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 77%
@@ -16,7 +17,7 @@ ht-degree: 77%
 
 # 为图像创建 Adbox{#create-an-adbox-for-an-image}
 
-使用AdBox在非现场实施中使用Adobe Target传送图像。
+使用AdBox在使用Adobe Target的非现场实施中传送图像。
 
 AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 具有特殊的 AdBox URL，此 URL 会将“广告”mbox（或 AdBox）加载到您的 Adobe 帐户中。在活动中可使用此 AdBox 替代 mbox。在电子邮件或其他非 JavaScript 实施中可使用 AdBox URL，而不使用直接图像引用。
 

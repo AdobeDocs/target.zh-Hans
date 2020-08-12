@@ -1,9 +1,13 @@
 ---
 description: 在 Adobe Target 中使用可视化体验编辑器 (VEC) 创建要包含在多变量测试 (MVT) 中的选件。
 title: 使用 Adobe Target 在多变量测试 (MVT) 中创建组合
+feature: null
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +46,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![更改文本/HTML](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
 
-1. 单击&#x200B;**[!UICONTROL 添加文本/HTML 选件]，为选件提供名称，然后键入或粘贴该文本/HTML 选件的代码。**
+1. 单击&#x200B;**[!UICONTROL 添加文本/HTML 选件]**，为选件提供名称，然后键入或粘贴该文本/HTML 选件的代码。
 
    ![编辑选件](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 

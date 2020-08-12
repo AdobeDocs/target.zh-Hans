@@ -2,10 +2,11 @@
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
 description: 可使用远程选件在 Target 以外托管内容，Target 会引用这些内容并将其交付到用户网站。出于方便使用或安全原因，这些内容可能位于内容管理或其他系统中。
 title: 创建远程选件
+feature: null
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 92%

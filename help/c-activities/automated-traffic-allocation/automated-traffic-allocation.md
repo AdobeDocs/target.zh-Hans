@@ -2,10 +2,11 @@
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
 title: 自动分配
+feature: null
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3335'
 ht-degree: 78%
@@ -133,9 +134,9 @@ After an [!UICONTROL Auto-Allocate] activity is activated, the following operati
 
 在使用自动分配活动时，请查 [!UICONTROL 阅以下常见问题解答] :
 
-### 目标Analytics(A4T)是否支持自动分配活动?
+### 目标分析(A4T)是否支持自动分配活动?
 
-是. 有关详细信息，请 [参阅在创建Analytics时支持自动分配活动(A4T](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) )的 *目标活动*。
+是. 有关详细信息，请 [参阅目标分析(A4T)支持在创建活动时自动分配](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)*活动*。
 
 ### 是否会自动将旧访客重新分配给高性能体验？
 
@@ -191,7 +192,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 ### 在运行自动分配活动时，是否可以使用重置报告数据选项？
 
-不建议 [!UICONTROL 对自动] 分配 [!UICONTROL 活动使用重置报告] 选项。 尽管它删除了可见的报告数据，但此选项并不会从自动分配模型 [!UICONTROL 中删除所有培训] 记录。 不要对自动 [!UICONTROL 分配活动使][!UICONTROL 用“重置报告数据”选项] ，请创建新活动并取消激活原始活动。 (注： 本指南还适用于 [!UICONTROL 自动目标] 和 [!UICONTROL Automated Personalization] 活动。)
+不建议 [!UICONTROL 对自动] 分配 [!UICONTROL 活动使用重置报告] 选项。 尽管它删除了可见的报告数据，但此选项并不会从自动分配模型 [!UICONTROL 中删除所有培训] 记录。 不要对自动 [!UICONTROL 分配活动使][!UICONTROL 用“重置报告数据”选项] ，请创建新活动并取消激活原始活动。 (注：本指南还适用于 [!UICONTROL 自动目标] 和 [!UICONTROL Automated Personalization] 活动。)
 
 ### “自动分配”构建模型如何与环境相关？
 

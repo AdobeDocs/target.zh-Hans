@@ -1,11 +1,15 @@
 ---
-keywords: QA;预览;预览链接;移动设备;移动设备预览
+keywords: qa;preview;preview link;mobile;mobile preview
 description: 使用移动预览链接可对移动设备应用程序活动轻松执行端到端 QA，并且无需任何特殊的测试设备即可在您的设备上感受到不同的体验。
 title: 在 Adobe Target 移动设备中使用移动预览链接
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 93%
 
 ---
 
@@ -28,8 +32,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    有关下载适当 SDK 的说明，请参阅：
 
-   * **** iOS:在 [开始使用](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html)*Mobile Services iOS帮助之前*。
-   * **** Android:在 [开始使用](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)*Mobile Services android帮助之前*。
+   * **iOS:**[在您开始Mobile](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) Services *iOS帮助之前*。
+   * **Android:**[在您开始之](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) 前 *，请*&#x200B;参阅Mobile Services Android帮助。
 
 1. **设置 URL 方案：**&#x200B;预览链接需使用 URL 方案来打开应用程序。您必须为预览指定一个唯一的 URL 方案。
 

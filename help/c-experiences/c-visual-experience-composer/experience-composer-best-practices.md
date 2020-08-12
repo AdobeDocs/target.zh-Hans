@@ -2,10 +2,11 @@
 keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
 description: 以下最佳实践有助于确保您的体验按预期运行。使用可视化体验编辑器 (VEC) 时，您还应注意其他一些提示和限制。
 title: 可视化体验编辑器最佳实践和限制
+feature: null
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -37,7 +38,7 @@ To enable the Enhanced Experience Composer at the account level, click [!UICONTR
 
 **如果允许列表增强的视觉体验书写器无法加载到您站点上的安全页面上，则可以某些IP地址。**
 
-加载增强的可视体验书写器时出现的问题，可列入允许列表以通过以下IP地址来解决。 用作增强型体验编辑器代理的 Adobe 服务器使用这些 IP 地址。仅在编辑活动时才需要这些地址。访客到您的站点不需要已列入允许列表这些IP地址。
+加载增强的可视体验书写器时出现的问题，可列入允许列表以通过以下IP地址来解决。 用作增强型体验编辑器代理的 Adobe 服务器使用这些 IP 地址。仅在编辑活动时才需要这些地址。访客到您的站点不需要这些IP地列入允许列表址。
 
 美国：52.55.99.45、54.80.158.92 和 54.204.197.253
 

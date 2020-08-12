@@ -1,10 +1,11 @@
 ---
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings
-description: 在Adobe Target中，成功量度是用于衡量活动成功的参数。 成功量度包括关键业务衡量指标，可帮助您确定 Target 活动中的给定体验或选件是否成功。
+description: 在Adobe Target，成功指标是用于衡量活动成功的参数。 成功量度包括关键业务衡量指标，可帮助您确定 Target 活动中的给定体验或选件是否成功。
 title: Adobe Target成功指标
+feature: null
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 4fd2de5600060d58759ffa54a771a45b263f115b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 52%
@@ -28,7 +29,7 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 
 >[!NOTE]
 >
->使用活动作为 [报告源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的Analytics的默认行为是“增[!UICONTROL 量计数并使用户保持活动]”,“每[!UICONTROL 个进入一次]”。
+>使用Analytics作为活动 [源(A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) )的报告的默认行为是“增[!UICONTROL 量计数并保持用户活动]”，其中“每[!UICONTROL 个进入者一次]”。
 
 可用的成功量度如下所示：
 
@@ -40,7 +41,7 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 | 自定义得分 | 基于参与度 | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
 | 网站逗留时间 | 基于参与度 | Time spent in the visit (in seconds) from the point the visitor sees the activity&#39;s first display [!DNL Target] request to the load of the final page with a request in the session. |
 
-对于基于参与度的量度（与基于转化和基于收入的量度不同），访客必须在每次访问时重新获得活动参与资格，才会递增该会话的计数。关联的量度将在重新获得资格后开始递增，并在每个访客的会话结束时停止。会话若处于不活动状态超过 30 分钟便会结束。因此，测试过程中不会立即看到结果； 但是，该会话的所有结果在会话结束后的几分钟内可用。
+对于基于参与度的量度（与基于转化和基于收入的量度不同），访客必须在每次访问时重新获得活动参与资格，才会递增该会话的计数。关联的量度将在重新获得资格后开始递增，并在每个访客的会话结束时停止。会话若处于不活动状态超过 30 分钟便会结束。因此，测试过程中不会立即看到结果；但是，该会话的所有结果在会话结束后的几分钟内可用。
 
 ## 自定义成功指标
 

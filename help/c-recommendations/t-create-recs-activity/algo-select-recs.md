@@ -1,10 +1,14 @@
 ---
-keywords: 推荐;推荐活动;标准
+keywords: recommendations;recommendations activity;criteria
 description: 选择要在您的 Adobe Target“推荐”活动中使用的标准。
 title: 选择标准
+feature: null
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +25,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    [!DNL Recommendations] 中提供了一些自带标准。您和您的团队也可以创建自己的自定义标准。
 
-* 要创建新标准，请单击&#x200B;****[!UICONTROL 创建标准]，然后填写有关新标准的信息。有关创建新标准的信息，请参阅[创建新标准](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
+* 要创建新标准，请单击&#x200B;**[!UICONTROL 创建标准]**，然后填写有关新标准的信息。有关创建新标准的信息，请参阅[创建新标准](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
 
 **选择标准：**
 
@@ -31,8 +35,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    您可以使用“[!UICONTROL 行业类型]”筛选器、“[!UICONTROL 页面类型]”筛选器和“[!UICONTROL 兼容]”复选框来筛选标准列表。这些选项可帮助您找到所需的标准。
 
-   * **行业类型：**&#x200B;行业类型用于帮助对 [!DNL Recommendations] 标准进行分类。要更改默认的垂直行业，请单击&#x200B;**[!UICONTROL 设置]**，然后选择所需的默认&#x200B;**垂直行业]设置。[!UICONTROL **
+   * **行业类型：**&#x200B;行业类型用于帮助对 [!DNL Recommendations] 标准进行分类。要更改默认的垂直行业，请单击&#x200B;**[!UICONTROL 设置]**，然后选择所需的默认&#x200B;**[!UICONTROL 垂直行业]**&#x200B;设置。
    * **页面类型：**&#x200B;页面类型可帮助您对推荐进行分类。每种页面类型还有一些内置标准，可供您选择。
-   * **兼容：**&#x200B;仅显示要求选定页面传递所需数据的标准。并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]复选框。**&#x200B;可以在 [!DNL Target][!UICONTROL  的“首选项]”中禁用或启用此选项。
+   * **兼容：**&#x200B;仅显示要求选定页面传递所需数据的标准。并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。可以在 [!DNL Target][!UICONTROL  的“首选项]”中禁用或启用此选项。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以显示“[选择设计](/help/c-recommendations/c-design-overview/design-overview.md)”对话框。

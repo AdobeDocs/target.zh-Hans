@@ -2,9 +2,13 @@
 keywords: multivariate test;mvt;experience performance report
 description: 体验性能报表显示活动中每个体验的执行情况。此报表包含有关参加者人数、转化率、提升度和置信度的信息。
 title: 体验性能报表 (MVT)
+feature: null
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +37,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 在图形下方有一个表格，其中显示了查看各个体验的参加者人数，以及与您的成功量度有关的其他信息。
 
-## 培训视频：创建 MVT 测试 教 ![程徽章](/help/assets/tutorial.png)
+## 培训视频：创建 MVT 测试 ![教程徽章](/help/assets/tutorial.png)
 
 以下视频演示了如何使用 Target 三步引导式工作流创建多变量测试。对体验性能报表的介绍开始于 8:20。
 

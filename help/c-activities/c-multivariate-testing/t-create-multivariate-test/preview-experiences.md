@@ -1,10 +1,14 @@
 ---
 description: 由于多变量测试会对一个页面上的多个体验进行比较，因此预览页面的每个体验很有用。
 title: 预览多变量测试体验
+feature: null
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 100%
 
 ---
 
@@ -33,5 +37,5 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    默认情况下，多变量测试中包含所有体验。要包含之前已被排除的体验，请选择该排除的体验，然后单击&#x200B;**[!UICONTROL 包含]**。
 
-单击&#x200B;**[!UICONTROL 退出预览模式]**，以返回到体验编辑器，从而进行更改；或单击&#x200B;**继续]以转到测试摘要。[!UICONTROL **
+单击&#x200B;**[!UICONTROL 退出预览模式]**，以返回到体验编辑器，从而进行更改；或单击&#x200B;**[!UICONTROL 继续]**&#x200B;以转到测试摘要。
 

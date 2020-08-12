@@ -2,9 +2,10 @@
 keywords: Targeting
 description: 活动 URL 可确定在体验定位活动中使用的页面，以及设计活动时在 Adobe Target 可视化体验编辑器 (VEC) 或基于表单的体验编辑器中打开的页面。
 title: 活动 URL
+feature: null
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 92%
@@ -44,6 +45,7 @@ ht-degree: 92%
    * 话题标签 (#) 片段
    * 查询
    * mbox 参数
+
    可以使用 AND 或 OR 将其他规则连接到活动 URL。您添加的所有规则将使用 AND 进行相互评估。
 
 1. 完成后单击&#x200B;**[!UICONTROL 保存]**。

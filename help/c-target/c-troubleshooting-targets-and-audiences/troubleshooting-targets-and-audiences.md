@@ -2,10 +2,14 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: 有关体验定位和受众的常见问题解答 (FAQ) 列表。
 title: 定位和受众常见问题解答
+feature: null
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '934'
+ht-degree: 69%
 
 ---
 
@@ -14,9 +18,9 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 有关体验定位和受众的常见问题解答 (FAQ) 列表。
 
-## Target如何评估定位中的URL? {#url}
+## 目标如何评估定位中的URL? {#url}
 
-Target的URL评估方式因您在创建活动时是否使用受众URL定位或在创建受众时是否使用URL定位而异。
+目标对URL的评估方式取决于您在创建活动时是使用受众URL定位，还是在创建受众时使用URL定位。
 
 请考虑以下URL:
 
@@ -24,11 +28,11 @@ Target的URL评估方式因您在创建活动时是否使用受众URL定位或�
 
 ### 受众URL定位
 
-要应用受众URL定位，请在创建活动时，在“体验”页面（三步向导式工作流的步骤之一）上，单击齿轮图标，单击页面交付，然后指定所需的URL。
+要应用受众URL定位，请在创建活动时，在“体验”页面（三步指导式工作流的步骤一）上，单击齿轮图标，单击页面投放，然后指定所需的URL。
 
-![页面交付URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+![页面投放URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-受众URL定位会查找精确的URL匹配。 如果URL匹配，则Target不考虑进一步的逻辑。 在上述URL中，如果活动设置为开启，则该URL将匹配以下URL，因为受众URL定位与查询无关： `www.example.com`
+受众URL定位会查找精确的URL匹配。 如果URL匹配，目标不会考虑进一步的逻辑。 在上面的URL中，如果活动设置为开启，则 `www.example.com`该URL与以下URL匹配，因为受众URL定位与查询无关：
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -38,26 +42,26 @@ Target的URL评估方式因您在创建活动时是否使用受众URL定位或�
 
 ### URL定位
 
-要应用URL定位，请在创建受众时单击添加规则，单击站点页面，从第一个下拉列表中选择一个选项（当前页面、上一页或登录页面），从第二个下拉列表中选择URL，指定评估器，然后指定所需的URL。
+要应用URL定位，在创建受众时，单击添加规则，单击站点页，从第一个下拉列表(当前页、上一页或登陆页)中选择一个选项，从第二个下拉列表中选择URL，指定评估器，然后指定所需的URL。
 
-![“站点页面”&gt;“当前页面”&gt;“URL”](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![“站点页面”>“当前页面”>“URL”](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
-URL定位将URL转换为一组要评估的规则：
+URL定位会将URL转换为一组规则以进行评估：
 
 * URL域= `example.com`
 * 路径= path1/path2/path3
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## 创建复杂的URL字符串时，是否 [!DNL Target] 会评估整个URL?
+## 创建复杂的URL字符串时，是否 [!DNL Target] 对整个URL进行评估？
 
-如果在URL字符串中多次使用相同的参数名称，HTTP会考虑第一个参数名称并忽略后续同名的参数。
+如果在URL字符串中多次使用相同的参数名称，HTTP会考虑第一个参数名称，并忽略后续具有相同名称的参数。
 
 例如，在以下URL字符串中：
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-计算该参数的第一 `Category` 实例并忽略第二 `Category` 参数。
+计算参数的第 `Category` 一实例并忽略第 `Category` 二参数。
 
 最佳实践是将多个值与单个类别关联，如下所示：
 
@@ -65,7 +69,7 @@ URL定位将URL转换为一组要评估的规则：
 
 ## 构建受众时，为何会在其他类别下找到“定位库”下预先构建的受众？{#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
-“定位库”类别中预先构建的受众是旧版受众，它们存在于其他类别中。例如，旧版“定位库”&gt;“新访客”中的受众在更新后会相应地移到“访客配置文件”&gt;“新访客”。
+“定位库”类别中预先构建的受众是旧版受众，它们存在于其他类别中。例如，旧版“定位库”>“新访客”中的受众在更新后会相应地移到“访客配置文件”>“新访客”。
 
 最佳做法是使用新版受众，因为新版受众在性能方面做出了改进。有些客户可能还在使用预先构建的旧版受众，因此旧版受众尚未从 Target 用户界面中删除。
 
@@ -83,7 +87,7 @@ URL定位将URL转换为一组要评估的规则：
 
 ## 为何同一个受众在 Target、Adobe Audience Manager (AAM) 以及核心服务的受众库中具有不同的名称？{#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-[!DNL Target] 中的受众名称是唯一的；但是，在 [!DNL AAM] 和 [!DNL Audience Library] 中，您可以使用同一个名称来命名多个受众（前提是这些受众位于不同的文件夹中）。如果 [!DNL Target] 中某个受众名称恰巧与 [!DNL AAM] 或 [!DNL Audience Library] 中相应受众的名称相同，则 [!DNL Target] 会将“#&lt;number&gt;”附加到该受众名称。
+[!DNL Target] 中的受众名称是唯一的；但是，在 [!DNL AAM] 和 [!DNL Audience Library] 中，您可以使用同一个名称来命名多个受众（前提是这些受众位于不同的文件夹中）。如果 [!DNL Target] 中某个受众名称恰巧与 [!DNL AAM] 或 [!DNL Audience Library] 中相应受众的名称相同，则 [!DNL Target] 会将“#&lt;number>”附加到该受众名称。
 
 例如，您可能会看到以下受众：“PC Users”（位于 [!DNL AAM] 中）和“PC Users #1”（位于 [!DNL Target] 中）。
 

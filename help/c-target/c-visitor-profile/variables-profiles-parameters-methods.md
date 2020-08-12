@@ -2,10 +2,14 @@
 keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: 此页面列出了配置文件脚本中有用的配置文件、变量和参数。
 title: 配置文件和变量一览表
+feature: null
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '559'
+ht-degree: 93%
 
 ---
 
@@ -90,4 +94,4 @@ source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 可以在配置文件脚本中引用客户属性，格式如下：`crs.get('<Datasource Name>.<Attribute name>')`。
 
-这些属性还可用作配置文件脚本中的令牌，以及直接用作选件中的令牌，而无需首先设置配置文件脚本。令牌应使用以下格式：`${crs.datasourceName.attributeName}`。请注意，应从任何API `datasourceName` 调用中去除该中的空格。
+这些属性还可用作配置文件脚本中的令牌，以及直接用作选件中的令牌，而无需首先设置配置文件脚本。令牌应使用以下格式：`${crs.datasourceName.attributeName}`。请注意，应从任 `datasourceName` 何API调用中去除中的空格。

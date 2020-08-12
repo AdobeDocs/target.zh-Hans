@@ -2,9 +2,13 @@
 keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: 可使用最多包含五个标准的序列来加强对“推荐”活动中显示的项目的控制。
 title: 创建标准序列
+feature: null
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +90,7 @@ source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
    有关推荐逻辑选项的更多信息，请参阅[标准](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 
-## 培训视频：在“推荐”中创建标准 (12:33) 教 ![程徽章](/help/assets/tutorial.png)
+## 培训视频：在“推荐”中创建标准 (12:33) ![教程徽章](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

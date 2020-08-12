@@ -2,10 +2,14 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Adobe Target 中的受众可决定将在定位活动中看到内容和体验的人群。
 title: 在 Adobe Target 中创建受众
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +20,7 @@ Adobe Target 中的受众可决定将在定位活动中看到内容和体验的�
 
 不论在何处，只要可以使用定位，便会用到受众。对活动进行定位时，您可以从“[!UICONTROL 受众]”列表中选择可重复使用的受众、[创建特定于活动的受众](/help/c-target/creating-activity-only-audience.md)并定位到该受众，或[合并多个受众](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以创建临时受众。
 
-您还可以在 [!DNL Adobe Target] 及其他 [!DNL Experience Cloud] 解决方案中使用 [!DNL Analytics] 收集的受众数据进行实时定位和个性化。请参 [阅核心](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 服务用 *户指南中的受众*。
+您还可以在 [!DNL Adobe Target] 及其他 [!DNL Experience Cloud] 解决方案中使用 [!DNL Analytics] 收集的受众数据进行实时定位和个性化。请参 [阅](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 《核心服 *务用户指南》中的受众*。
 
 [!DNL Target] 定义了以下两种类型的受众：
 
@@ -79,7 +83,7 @@ Adobe Target 中的受众可决定将在定位活动中看到内容和体验的�
 * Target Standard/Premium 不再支持使用定位表达式受众。
 * Target Standard/Premium 不支持某些已弃用的受众，或改进了运算符以便于使用。因此，导入的受众虽然根据定义可以使用，但这并不意味着可以在 Standard/Premium 界面中创建该受众。例如，虽然社交受众及其规则是可见的，但 Target Standard/Premium 不允许创建社交受众。
 
-## 培训视频：使用受众 教 ![程徽章](/help/assets/tutorial.png)
+## 培训视频：使用受众 ![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用受众的信息。
 

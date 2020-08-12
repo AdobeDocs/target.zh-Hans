@@ -2,9 +2,10 @@
 keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
 description: 位于俄勒冈数据中心的“推荐”信息源处理服务器中使用的 IP 地址列表，可帮助您配置防火墙以允许源自 Adobe 服务器的 IP 地址。
 title: “推荐”信息源处理服务器使用的 IP 地址
+feature: null
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 87%

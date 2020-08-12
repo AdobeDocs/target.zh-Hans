@@ -1,9 +1,10 @@
 ---
 description: 有关在 Adobe Target 中使用可视化体验编辑器 (VEC) 的信息。
 title: Adobe Target 可视化体验编辑器 (VEC)
+feature: null
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -130,7 +131,7 @@ On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience 
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### 办公时间： Visual Experience Composer教 ![程徽章](/help/assets/tutorial.png)
+### 办公时间：Visual Experience Composer教 ![程徽章](/help/assets/tutorial.png)
 
 此视频是“[办公时间](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 

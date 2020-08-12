@@ -1,10 +1,14 @@
 ---
-keywords: 实施；实施；实施；Adobe启动；启动；竞赛；重定向；体验平台启动
+keywords: implement;implementing;implementation;adobe launch;launch;race;redirect;experience platform launch
 description: Adobe Experience Platform Launch是Adobe的新一代标签管理平台，是实施Adobe Target的首选方法。 Launch 为客户提供了一种简单的方式来部署和管理所有用来加强相关客户体验的分析、营销和广告标签。
 title: 使用 Adobe Launch 实施 Target
+feature: null
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '470'
+ht-degree: 82%
 
 ---
 
@@ -21,7 +25,7 @@ Launch 是 Adobe 的下一代标签管理平台，是实施 Adobe Target 的首�
 
 | 资源 | 详细信息 |
 |--- |--- |
-| [使用Adobe Target扩展教程实施Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | 本教程提供了使用 Launch 在网站中实施 Adobe Target 的分步说明。主题包括添加 at.js JavaScript 库、触发全局 mbox、添加参数，以及与其他解决方案集成。本文是一个庞大教程的一部分，该教程向您介绍了如何实施 Adobe Launch，以及与其他 Adobe Experience Cloud 解决方案集成。 |
+| [使用“Adobe Target扩展教程”实施目标](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | 本教程提供了使用 Launch 在网站中实施 Adobe Target 的分步说明。主题包括添加 at.js JavaScript 库、触发全局 mbox、添加参数，以及与其他解决方案集成。本文是一个庞大教程的一部分，该教程向您介绍了如何实施 Adobe Launch，以及与其他 Adobe Experience Cloud 解决方案集成。 |
 | [Adobe Launch 文档](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | 有关部署和管理为相关客户体验提供支持所需的所有分析、营销和广告标记的信息。 |
 | [Adobe Target扩展文档](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | 有关使用 Launch 实施 Target 的信息。 |
 

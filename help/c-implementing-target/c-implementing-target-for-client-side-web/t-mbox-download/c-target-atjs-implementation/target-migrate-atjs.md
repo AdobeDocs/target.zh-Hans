@@ -1,11 +1,15 @@
 ---
-keywords: Target;at.js;迁移到 at.js;准备就绪;审核 at.js;集成 at.js
+keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
 description: 从 mbox.js 迁移到 at.js 是一个简单的过程。
 title: 如何从 mbox.js 迁移到 at.js
+feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 98%
 
 ---
 
@@ -42,6 +46,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * mboxCookieDomain()
    * 额外 Javascript
    * 其他位置
+
    大多数 [mbox.js 对象和方法](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)（例如 `mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories`，等等）都不受支持。一些替代方法或许可能实现您要尝试执行的操作。
 
    **您的任何网页上是否有[!DNL mbox.js]？**
@@ -58,6 +63,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * AAM（旧版前端）
    * AEM
    * Data Workbench
+
    [!DNL at.js] 不支持某些旧版集成。有关更多信息，请参阅[集成](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)页面。
 
    **您是否将[!DNL Target]与任何第三方工具集成？**
@@ -67,6 +73,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * Demandbase
    * Click-tale
    * 其他
+
    可能需要对这些集成进行调整，以使其可与 [!DNL at.js] 配合使用。有关更多信息，请参阅[集成](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)页面。
 
    **您是否使用了标签管理器？**
@@ -75,6 +82,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * Ensighten
    * Tealium
    * Signal/BrightTag
+
    有关更多信息，请参阅 [at.js 集成](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)。
 
    >[!NOTE]
@@ -104,7 +112,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    而且构建元素选择器时所设定的预期是 [!DNL mbox.js] 将一个额外的 `<div>` 元素添加到页面顶部。由于 [!DNL at.js] 不会将 `<div>` 元素添加到页面顶部，因此该选择器将不再适用于 [!DNL at.js]。
 
-   可以通过以下方法解决此问题：在 VEC 中在使用 [!DNL at.js] 的 URL 上重新创建活动，或在 VEC 中使用 **[!UICONTROL &lt;/&gt; 代码]** &gt; **[!UICONTROL 修改]** 选项手动更新选择器。
+   可以通过以下方法解决此问题：在 VEC 中在使用 [!DNL at.js] 的 URL 上重新创建活动，或在 VEC 中使用 **[!UICONTROL &lt;/> 代码]** > **[!UICONTROL 修改]**&#x200B;选项手动更新选择器。
 
    要修复此问题，您应该将 BODY 后面的第一个 DIV 元素中的 nth-of-type 数字减去 1。在上面的示例中，编辑后的代码将为：
 

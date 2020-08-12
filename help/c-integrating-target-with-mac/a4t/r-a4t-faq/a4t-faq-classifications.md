@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;classifications;classification;classifications importer;post-tnt-action
 description: 本主题包含有关分类和使用 Analytics 作为 Target 报表源 (A4T) 的常见问题解答。
 title: 分类 - A4T 常见问题解答
+feature: null
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 66%

@@ -2,10 +2,14 @@
 keywords: custom events;at.js;request failed;request succeeded;content rendering failed;content rendering succeeded;library loaded;request start;content rendering start;content rendering no offers;content rendering rediret
 description: 有关 Adobe Target at.js JavaScript 库自定义事件的信息。
 title: 有关 Adobe Target at.js JavaScript 库自定义事件的信息。
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '585'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +48,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 });
 ```
 
-## 培训视频：响应令牌和 at.js 自定义事件{#section_ED304A7137DC42A4BDCD6D57C989F1FA} 教 ![程徽章](/help/assets/tutorial.png)
+## 培训视频：响应令牌和 at.js 自定义事件{#section_ED304A7137DC42A4BDCD6D57C989F1FA} ![教程徽章](/help/assets/tutorial.png)
 
 观看以下视频，了解如何使用响应令牌和 at.js 自定义事件将 Target 中的配置文件信息共享到第三方系统。
 

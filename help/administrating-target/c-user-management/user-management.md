@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: 有关管理 Target Standard 中的用户以及管理 Target Premium 中的企业属性和权限的信息。
 title: 用户管理
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 25%
@@ -28,11 +29,12 @@ You can tell whether your organization has a Standard or Premium license by clic
 
    * 您将看到“用 [!UICONTROL 户] ”选项卡( [!UICONTROL “管理] ”>“ [!UICONTROL 用户] ”)
    * 您将看 *不到* “属性”选 [!UICONTROL 项卡] (“管理 [!UICONTROL ”] >“属 [!UICONTROL 性”] )。
+
    [!DNL Target] Standard 客户应按照[用户](/help/administrating-target/c-user-management/c-user-management/user-management.md)中的相关说明进行操作，以在 Adobe Admin Console 中添加用户和分配权限。
 
 * **目标高级客户：** 如果您的组织有 [!DNL Target] 高级许可证，您将在目标UI中观察以下内容：
 
-   * 您将看到“属 [!UICONTROL 性] ”选项卡( [!UICONTROL “管理] ”>“ [!UICONTROL 属性] ”)
+   * 您将看到“属 [!UICONTROL 性] ”选项卡 [!UICONTROL (“管理] ” [!UICONTROL >“] 属性”)
    * 您还将看到“用户 [!UICONTROL ”选] 项卡( [!UICONTROL “管理] ”>“ [!UICONTROL 用户] ”)
 
       [!DNL Target] 高级客户应按照“企业用户 [权限”和](../../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) “ [配置企业权限](../../administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) ”中的说明添加用户并在中分配 [!DNL Adobe Admin Console]权限。

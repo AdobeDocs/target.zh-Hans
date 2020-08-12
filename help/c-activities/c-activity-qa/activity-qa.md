@@ -2,10 +2,11 @@
 keywords: qa;preview;preview links;adobe target;target
 description: 使用Adobe TargetQA URL轻松执行端到端活动QA,预览链接永不更改，可选受众定位，以及与实时活动数据保持分段的QA报告。
 title: 活动 QA
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 79%
@@ -15,7 +16,7 @@ ht-degree: 79%
 
 # 活动 QA {#activity-qa}
 
-在Adobe Target中使用QA URL对从未更改的预览链接、可选的受众定位和保持与实时活动数据分段的QA报告执行简单的端对端活动QA。
+使用Adobe Target的QA URL对从未更改的预览链接、可选的受众定位和保持与实时活动数据分段的QA报告执行轻松的端对端活动QA。
 
 ## 概述 {#section_11B761A522A14E61978275772210A4C2}
 
@@ -81,9 +82,9 @@ ht-degree: 79%
 
    由于此双重编码过程，我们尝试对 `at_preview_token` 进行解码时，Target 将无法提取正确的令牌值，从而导致无法正常预览。
 
-   我们建议您与IT团队交谈，以确保已列入允许列表所有预览参数，以便不以任何方式转换这些值。
+   我们建议您与IT团队沟通，以确保预览所有参数，列入允许列表以便不以任何方式转换这些值。
 
-   下表列表了可已列入允许列表域中的参数：
+   下表列表了可在域中列入允许列表的参数：
 
    | 参数 | 类型 | 值 | 描述 |
    |--- |--- |--- |--- |

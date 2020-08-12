@@ -2,9 +2,13 @@
 keywords: recommendations design;create design;copy design
 description: 设计可定义推荐在页面上的显示方式。
 title: 创建设计
+feature: null
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 95%
 
 ---
 
@@ -110,7 +114,7 @@ source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
 | 参数 | 值 |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Target 客户端代码（位于 ../target/products.html#recsSettings >“推荐 API 令牌”>“客户端代码”）。 |
-| `[YOUR_MBOX_NAME]` | 您在基于表单的Recommendations的“位置”部分中选择的名称，在此示例中为Sample_Recs_Response。 |
+| `[YOUR_MBOX_NAME]` | 您在基于表单的Recommendations的“位置”部分选择的名称，在本例中为Sample_Recs_Response。 |
 | `[ENTITY_ID`] | 您目录中的项目的 `entity.id`。 |
 | `[AT_PROPERTY_TOKEN]` | （可选）如果您在活动设置过程中选择了某个属性（“企业权限”的一部分），则需添加此参数。 |
 

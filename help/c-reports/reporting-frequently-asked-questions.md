@@ -2,10 +2,11 @@
 keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: 有关 Adobe Target 报表的常见问题解答列表。
 title: Adobe Target 报表常见问题解答
+feature: null
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 31%
@@ -42,7 +43,7 @@ ht-degree: 31%
 
 ### 解释量度计数之间差异的示例
 
-**示例1**: 如果这两个区段应用于活动，则“新访客”区段和“退回访客”区段并不总是占总访客数。
+**示例1**:如果这两个区段应用于活动，则“新访客”区段和“退回访客”区段并不总是占总访客数。
 
 请考虑以下示例，以新访客和退回访客的上述条件为例：
 
@@ -51,7 +52,7 @@ ht-degree: 31%
 
 此访客在活动的整体访客计数中计为单个访客，即使同时计入新访客和退回访客区段也是如此。
 
-**示例2**: 新访客和退回访客的计数不一致还取决于您如何配置活动的成 [功指标](/help/c-activities/r-success-metrics/success-metrics.md)。
+**示例2**:新访客和退回访客的计数不一致还取决于您如何配置活动的成 [功指标](/help/c-activities/r-success-metrics/success-metrics.md)。
 
 例如：
 
@@ -99,7 +100,7 @@ XT 活动应始终包含一个控制体验。如果您使用 XT 活动的方式�
 
 例如，我将流量分割设置为50/50或25/25/25/25，但我发现报告中体验之间的分布差异很大。 在访客中报告数不均的原因有很多可解释的 [!DNL Target] 原因：
 
-* 首次 [!DNL Target] 启动活动时，由于边缘节点架构用于优化体验投放，流量分布可 [!DNL Target] 能不均匀。 最佳实践是让活动有时间收集额外数据，然后分发将正常化。 有关架构和边 [!DNL Adobe Target] 缘节点的更多信息，请 [参阅Adobe目标的工作方式](/help/c-intro/how-target-works.md)。
+* 首次 [!DNL Target] 启动活动时，由于边缘节点架构用于优化体验投放，流量分布可 [!DNL Target] 能不均匀。 最佳实践是让活动有时间收集额外数据，然后分发将正常化。 有关架构和边 [!DNL Adobe Target] 缘节点的更多信息，请参 [阅Adobe Target的工作方式](/help/c-intro/how-target-works.md)。
 * 如果您处于 [!DNL Target] 或 [!DNL Analytics] 使用访问量度，请记住，这是一个基于 **[!UICONTROL 访客]**[!DNL Target] 的系统，A/B或MVT测试的流量分配在访客级别。 因此，如果您使用“访问”量度检查活动 **[!UICONTROL 结果]** ，则流量分布可能不均匀，因为某些访客可能有多次访问。 访客是评估活动性能时的标准标准化度量。
 * A/B和MVT测试的最佳实践是保持流量分配均匀。 在测试过程中更改体验之间的流量分配（例如从90/10更改为50/50）可能会导致不同体验之间的访客不均。 较低的流量体验可能永远不会“赶上”。
 * 如果您遵循上述最佳实践，并且随着时间的推移流量分割不正常化，则应检查以下内容：

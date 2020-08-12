@@ -1,11 +1,15 @@
 ---
-keywords: 概述和参考
+keywords: Overview and Reference
 description: 测试摘要提供了多变量测试的可视化概述。
 title: 测试摘要
+feature: null
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 100%
 
 ---
 
@@ -28,4 +32,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    当前，唯一可用的算法是全因子算法。提供算法名称是为了供用户参考，以便让用户知道所使用的算法。
 * 包含和排除的体验数量。
 
-如果您对测试配置满意，请单击&#x200B;**[!UICONTROL 继续]。**&#x200B;随即会打开“目标和设置”页面。
+如果您对测试配置满意，请单击&#x200B;**[!UICONTROL 继续]**。随即会打开“目标和设置”页面。

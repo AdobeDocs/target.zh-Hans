@@ -1,12 +1,13 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
-description: 有关在Adobe Target中使用Adobe Experience Cloud人员核心服务中的客户属性，从客户关系管理(CRM)数据库中使用企业客户数据进行内容定位的信息。
-title: Adobe Target中的客户属性
+description: 有关通过使用Adobe Experience Cloud人员核心服务中的客户属性，将客户关系管理(CRM)数据库中的企业客户数据用于Adobe Target的内容定位的信息。
+title: Adobe Target客户属性
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 37%
@@ -158,7 +159,7 @@ You might encounter the following issues when working with customer attributes a
 >
 >问题1和问题2在这一领域造成大约60%的问题。 问题3造成大约30%的问题。 问题4造成大约5%的问题。 其余 5% 是由于其他问题所致。
 
-### 问题1: 由于用户档案太大，客户属性被删除
+### 问题1:由于用户档案太大，客户属性被删除
 
 用户配置文件中的特定字段没有字符限制，但如果配置文件大于 64 K，则会通过删除最早的属性来截断配置文件，直到其再次小于 64 K。
 
@@ -166,11 +167,11 @@ You might encounter the following issues when working with customer attributes a
 
 这通常是管道连接问题。您可以让您的客户属性团队重新发布该信息源来解决此问题。
 
-### 问题3: 投放无法基于属性工作
+### 问题3:投放无法基于属性工作
 
 该配置文件尚未在 Edge 上更新。您可以让您的客户属性团队重新发布该信息源来解决此问题。
 
-### 问题4: 实施问题
+### 问题4:实施问题
 
 请注意以下实施问题：
 

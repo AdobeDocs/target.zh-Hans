@@ -2,9 +2,10 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: 自动个性化 (AP) 和自动定位 (AT) 活动的用户可以使用两个专门的报表：自动化区段和重要属性报表。
 title: 个性化分析报表
+feature: null
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 71%
@@ -69,10 +70,10 @@ Because the goal of the [!UICONTROL Personalization Insights] reports is to unde
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-有关详细信息，请参 [阅在Adobe Target中使用个性化洞察报表](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。
+有关详细信息，请参 [阅使用Adobe Target的个性化洞察报告](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。
 
 ## Adobe博客
 
 * 第1部分： [揭开AI驱动个性化魔力的神秘面纱](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* 第2部分： [Adobe Target个性化AI幕后](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* 第2部分： [Adobe TargetAI个性化幕后](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
 * 第3部分： [MAGIX — AI驱动个性化黑匣子问题的解决方案](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)

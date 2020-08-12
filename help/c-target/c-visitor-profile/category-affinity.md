@@ -1,11 +1,15 @@
 ---
-keywords: 亲和度;类别亲和度
+keywords: affinity;category affinity
 description: Adobe Target 中的类别亲和度功能会自动捕捉用户访问的类别，然后计算用户对该类别的喜爱程度，从而可以对用户进行定位和细分。这有助于确保内容会被定位到最有可能对该信息做出回应的访客。
 title: 在 Adobe Target 中使用类别亲和度
+feature: null
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 98%
 
 ---
 
@@ -111,14 +115,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    在受众列表中，将鼠标悬停在所需受众上，然后单击复制图标，以复制现有受众。然后，您可以对受众进行编辑以创建一个类似的受众。
 
 1. 键入描述性受众名称。
-1. 单击 **[!UICONTROL + 添加规则]** &gt; **[!UICONTROL 访客配置文件]**。
+1. 单击 **[!UICONTROL + 添加规则]** > **[!UICONTROL 访客配置文件]**。
 1. 从&#x200B;**[!UICONTROL 访客配置文件]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 类别亲和度]**。
 
-   ![“访客配置文件”&gt;“类别亲和度”](assets/affinity.png)
+   ![“访客配置文件”>“类别亲和度”](assets/affinity.png)
 
 1. 选择所需类别：
 
-   ![“类别亲和度”&gt;“类别”](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![“类别亲和度”>“类别”](/help/c-target/c-visitor-profile/assets/affinity-category.png)
 
    类别包括：
 
@@ -128,7 +132,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 第三类别
    * 第四类别
    * 第五类别
-   “Favorite Category”（收藏夹类别）和“First Category”（第一个类别）选项是相等的。
+
+   “Favorite类别”和“First类别”选项是相等的。
 
 1. 选择计算器：
 

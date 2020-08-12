@@ -1,19 +1,23 @@
 ---
-keywords: 培训；认证；目标；在线课程；课程；课堂；课程
-description: Adobe培训服务为Adobe产品和解决方案（包括Adobe Target）提供课程和认证。
-title: Adobe产品和解决方案（包括Adobe Target）的培训和认证
-subtopic: 入门指南
+keywords: training;certification;target;online courses;courses;class;classes
+description: Adobe培训服务为包括Adobe Target在内的Adobe产品和解决方案提供课程和认证。
+title: Adobe产品和解决方案(包括Adobe Target)的培训和认证
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 48%
 
 ---
 
 
 # 培训和认证{#training-and-certification}
 
-Adobe培训服务为Adobe产品和解决方案（包括Adobe Target）提供课程和认证。
+Adobe培训服务为包括Adobe Target在内的Adobe产品和解决方案提供课程和认证。
 
 要获取可用的讲师指导课程和在线课程的列表，请访问 [Adobe 客户培训网站](https://training.adobe.com/training/courses.html#solution=adobeTarget)。
 

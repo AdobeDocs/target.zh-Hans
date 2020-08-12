@@ -1,9 +1,13 @@
 ---
 description: 标准控制着 Adobe Recommendations 活动的内容。可创建标准以显示最适合您的活动的推荐。
 title: 创建标准
+feature: null
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3605'
+ht-degree: 98%
 
 ---
 
@@ -47,6 +51,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
    * [!UICONTROL 零售/电子商务]
    * [!UICONTROL 潜在客户拓展/B2B/金融服务]
    * [!UICONTROL 媒体/出版]
+
    根据您选择的垂直行业，其他标准选项将会发生相应的更改。
 
 1. 选择&#x200B;**[!UICONTROL 页面类型]**。
@@ -94,6 +99,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
    * [!UICONTROL 启用局部设计渲染]
    * [!UICONTROL 显示备用推荐]
    * [!UICONTROL 推荐以前购买的项目]
+
    此设置基于 `productPurchasedId`。如果您销售的是人们通常只买一次的物品，例如皮划艇，那么此选项很有用。如果您销售的是人们会再次回来购买的物品，例如洗发水或其他个人物品，则应禁用此选项。
 
 1. 设置&#x200B;**[!UICONTROL 包含规则]**。
@@ -411,7 +417,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ![](assets/Recs_ContentControls.png)
 
-| 局部设计渲染 | 备用推荐 | 结果 |
+| 局部设计渲染 | 备用 Recommendations | 结果 |
 |--- |--- |--- |
 | 禁用 | 禁用 | 如果返回的推荐少于设计所需的推荐，则推荐设计将被替换为默认内容，并且不显示任何推荐。 |
 | 启用 | 禁用 | 设计会进行渲染，但如果返回的推荐少于设计所需的推荐，则可能包含空白区域。 |

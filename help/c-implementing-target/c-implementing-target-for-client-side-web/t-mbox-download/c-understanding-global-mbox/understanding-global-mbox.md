@@ -1,19 +1,23 @@
 ---
-keywords: 全局 mbox;实施 mbox.js;实施 at.js
-description: 有关全局mbox的信息，该名称用于指代在Adobe Target实施中每个网页顶部进行的单个服务器调用。
+keywords: global mbox;implement mbox.js;implement at.js
+description: 有关全局mbox的信息，该名称用于指在您的Adobe Target实施的每个网页顶部进行的单个服务器调用。
 title: 了解全局 mbox
-subtopic: 入门指南
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 73%
 
 ---
 
 
 # 了解全局 mbox{#understand-the-global-mbox}
 
-有关全局mbox的信息，该名称用于指代在Adobe Target实施中每个网页顶部进行的单个服务器调用。
+有关全局mbox的信息，该名称用于指在您的Adobe Target实施的每个网页顶部进行的单个服务器调用。
 
 默认情况下，全局 mbox 将名为 [!DNL target-global-mbox]。如有必要，可以为您的帐户重命名全局 mbox。
 

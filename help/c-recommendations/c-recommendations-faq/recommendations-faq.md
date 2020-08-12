@@ -1,17 +1,21 @@
 ---
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
-description: 关于Adobe Target Recommendations活动的常见问题解答(FAQ)列表。
-title: Adobe Target Recommendations常见问题解答
+description: 列表关于Adobe TargetRecommendations活动的常见问题解答(FAQ)。
+title: Adobe TargetRecommendations常见问题解答
+feature: null
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1933'
+ht-degree: 84%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) “推荐”常见问题解答 {#recommendations-faq}
 
-关于Adobe Target Recommendations活动的常见问题解答(FAQ)列表。
+列表关于Adobe TargetRecommendations活动的常见问题解答(FAQ)。
 
 ## 目录中的项目更新将需要多长时间才会反映在我的网站上？
 
@@ -159,7 +163,7 @@ Target 在应用程序级别施加了 50 MB 的发布限制；但是，仅当您
 
 要启用排除功能，请使用 `excludedIds` mbox 参数。此参数指向一个以逗号分隔的实体 ID 列表。例如，`mboxCreate(..., "excludedIds=1,2,3,4,5")`。该值将在请求推荐时发送。
 
-仅对当前Target调用执行排除；在随后的Target调用中不排除项，除非 `excludedIds` 再次传递值。 要从每页的推荐中排除购物车中的项目，请继续在每页 `excludedIds` 上传递值。
+仅对当前目标调用执行排除；在后续目标调用中不排除项目，除非 `excludedIds` 再次传递值。 要从每页的推荐中排除购物车中的项目，请继续在每页 `excludedIds` 上传递值。
 
 >[!NOTE]
 >
@@ -169,22 +173,22 @@ To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the 
 
 默认情况下，新创建的推荐将启用此功能。现有推荐必须进行保存才能支持动态排除的实体。
 
-## 在Recommendations内容跟踪中有时返回的NO_CONTENT响应意味着什么？
+## 在Recommendations内容跟踪中有时返回的NO_CONTENT响应表示什么？
 
-当请求的算法和密钥组合的推荐不可用时，将返回NO_CONTENT。 通常情况下，当算法禁用备份且以下一项或多项也满足要求时，会发生这种情况：
+当请求的算法和密钥组合的建议不可用时，将返回NO_CONTENT。 通常，当算法禁用备份且下列一个或多个情况也适用时，会发生这种情况：
 
-* 结果尚未准备好。
+* 结果尚未就绪。
 
-   通常，在首次保存新创建的活动或对活动中使用的集合、条件或促销进行配置更改后，会发生这种情况。
+   这通常发生在首次保存新创建的活动时或对活动中使用的集合、条件或促销进行配置更改后。
 
-* 对于所请求的算法／密钥组合，结果已准备好，但尚未在最近的边缘服务器上缓存。
+* 对于所请求的算法／密钥组合，结果已就绪，但尚未在最近的边缘服务器上缓存。
 
    刚刚发出的请求将启动缓存操作，因此在重新加载几页和／或经过几分钟后，这应会解析自身。
 
-* 结果已准备好，但对于提供的键值不可用。
+* 结果已就绪，但对于提供的键值不可用。
 
-   通常，当为在最近算法运行之后添加到目录的项目请求推荐时会发生这种情况，并在下一个算法运行后将解析自身。
+   通常，当在最新算法运行后请求添加到目录的项目的建议时，会发生这种情况，并在下一个算法运行后解析自身。
 
-* 部分模板渲染被禁用，并且没有足够的结果可用于填充模板。
+* 部分模板渲染已禁用，并且没有足够的结果可用于填充模板。
 
-   通常，当您有一个动态包含规则时，该规则会从可能的结果中积极筛选许多项目。 要避免这种情况，请启用备份，但不要将包含规则应用于备份，或者按顺序使用筛选条件较少的条件。
+   通常，当您有动态包含规则时，会发生这种情况，该规则会从可能的结果中积极过滤器许多项目。 要避免这种情况，请启用备份，但不要将包含规则应用于备份，或者以较少筛选的条件按顺序使用条件。

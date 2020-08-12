@@ -2,9 +2,10 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
 description: 有关自动个性化 (AP) 的常见问题解答 (FAQ) 列表。
 title: 自动个性化常见问题解答
+feature: null
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1965'
 ht-degree: 85%
@@ -119,7 +120,7 @@ AP 活动产生提升需要四个因素：
 
 ### 运行Automated Personalization活动时，我是否可以使用“重置报告数据”选项？
 
-建议不 [!UICONTROL 要对Automated Personalization] · [!UICONTROL 活动] 使用“重置报告数据”选项。 尽管它删除了可见的报告数据，但此选项并不会从Automated Personalization模型中删除所有 [!UICONTROL 培训] 记录。 不要对Automated Personalization [!UICONTROL 活动使] 用“重置报 [!UICONTROL 告数据] ”选项，请创建新活动并取消激活原始活动。 (注： 本指南还适用于 [!UICONTROL 自动分配][!UICONTROL 和自动目标] 活动。)
+建议不 [!UICONTROL 要对Automated Personalization] · [!UICONTROL 活动] 使用“重置报告数据”选项。 尽管它删除了可见的报告数据，但此选项并不会从Automated Personalization模型中删除所有 [!UICONTROL 培训] 记录。 不要对Automated Personalization [!UICONTROL 活动使] 用“重置报 [!UICONTROL 告数据] ”选项，请创建新活动并取消激活原始活动。 (注：本指南还适用于 [!UICONTROL 自动分配][!UICONTROL 和自动目标] 活动。)
 
 ### Automated Personalization如何打造环境模式？
 

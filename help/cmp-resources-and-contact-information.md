@@ -2,10 +2,11 @@
 keywords: contact;legal;technical support;tech support;support;service;capability;billing;feedback
 description: 此信息介绍了可帮助您了解 Target 功能以及在需要 Target 帮助时如何联系 Adobe 的其他资源。
 title: 资源和联系信息
+feature: null
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: ce885c24a44aa1ebd5ed48f14bc68105e665dc88
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
@@ -49,8 +50,8 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 | [at.js tips and overview](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:<br>12 2019年6月26日 | 您将学习：<ul><li>使用at.js的优势</li><li>at.js设置</li><li>闪烁处理</li><li>调试 at.js</li><li>已知问题</li><li>常见问题解答</li></ul>For more information, see [How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). |
 | [目标高级工](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br>作区27<br>:49 2018年9月4日 | 您将会了解以下内容：<ul><li>创建工作区(产品用户档案)</li><li>创建属性</li><li>添加用户</li><li>更新实施</li></ul>有关更多信息，请参阅[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23 2017<br>年12月50 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>有关本指南中的更多信息，请参阅[体验](/help/c-experiences/experiences.md)。 |
-| [Adobe Target: Analytics/目标整合(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018年1月40<br>:33 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
-| [at.js: 优势和实施最佳](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>做法26:43<br>2018年4月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul>有关本指南中的更多信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
+| [Adobe Target:分析/目标集成(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018年1月40<br>:33 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
+| [at.js:优势和实施最佳](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>做法26:43<br>2018年4月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul>有关本指南中的更多信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
 
 >[!NOTE]
 >
@@ -110,7 +111,7 @@ Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提
 
 要收到有关即将推出的产品增强功能的高级通知，请注册 Adobe Priority Product Update（Adobe 优先产品更新）：
 
-[Adobe Priority产品更新](https://www.adobe.com/subscription/priority-product-update.html)
+[Adobe优先级产品更新](https://www.adobe.com/subscription/priority-product-update.html)
 
 ### 服务、职能和账单 {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -118,7 +119,7 @@ Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提
 
 ### 反馈 {#section_8154D6D712054220A90D85FA8E92933E}
 
-我们欢迎您提供有关此解决方案的任何建议或反馈。Adobe Target体验联盟社区可以增加 [强化思路和建议](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)。 Click the [!UICONTROL Ideas] tab.
+我们欢迎您提供有关此解决方案的任何建议或反馈。Adobe Target体验联盟社区可以增加 [加强思路和建议](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)。 Click the [!UICONTROL Ideas] tab.
 
 ### 法律 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

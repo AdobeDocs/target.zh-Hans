@@ -2,9 +2,13 @@
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: 可使用信息源将实体导入到 Adobe Recommendations 中。可以使用 CSV 文件、Google Product Search 信息源格式和/或 Adobe Analytics 产品分类来发送实体。
 title: 信息源
+feature: null
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 93%
 
 ---
 
@@ -39,7 +43,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 >上传的实体和实体属性将在61天后过期。 这意味着：
 >
 >* 您的源应至少每月运行，以确保您的目录内容不会过期。
->* 从源文件删除项目不会从目录中删除该项目。 要从目录中删除项目，请通过Target UI或API手动删除项目。 或者，修改物料属性（如库存）以确保将物料排除在考虑之外。
+>* 从源文件删除项目不会从目录中删除该项目。 要从目录中删除项目，请通过目标UI或API手动删除项目。 或者，修改物料属性（如库存），以确保将物料排除在考虑之外。
 
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
@@ -102,7 +106,7 @@ Google Product Search 信息源类型使用 Google 格式。这与 Adobe 专有�
 >
 >无需使用 Google 数据。[!DNL Recommendations] 使用与 Google 相同的格式。您可以使用此方法上传您的任何数据，并且还可以使用可用的计划功能。但是，您必须在设置文件时保留 Google 的预定义属性名称。
 
-大多数零售商会将产品上传到 Google，因此当访客使用 Google Product Search 时，他们的产品将会显示出来。[!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
+大多数零售商会将产品上传到 Google，因此当访客使用 Google Product Search 时，他们的产品将会显示出来。[!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
 
 >[!NOTE]
 >
@@ -218,6 +222,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
    * CSV
    * Google 产品信息源
    * Analytics 分类
+
    有关 CSV 和“Google 产品信息源”信息源类型的信息，请参阅[信息源概述](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
 1. （视情况而定）如果您选择 **[!UICONTROL CSV]** 或者 **[!UICONTROL Google 产品信息源]**，请指定可以访问信息源的位置。
@@ -332,7 +337,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### 创建信息源 (6:44) 教 ![程徽章](/help/assets/tutorial.png)
+### 创建信息源 (6:44) ![教程徽章](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

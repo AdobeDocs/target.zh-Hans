@@ -1,10 +1,11 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Adobe Target推荐中的标准是根据一组预定的访客行为确定推荐哪些产品的规则。
-title: Adobe Target建议中的标准
+description: Adobe TargetRecommendations的标准是根据一组预定的访客行为确定推荐哪些产品的规则。
+title: Adobe TargetRecommendations标准
+feature: null
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -86,7 +87,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 | 最畅销商品 | 大多数已完成的订单中都包含的项目。同一项目在一个订单中购买多件会被计为一次订购。 |
 | 查看次数最多 | 最常查看的项目或媒体。 |
 | 最近查看的项目/媒体 | 访客最近查看过的项目。使用此标准时，您应该更新 Target 设计，以便处理因先前查看的项目不足而显示空白推荐的情况。 |
-| 基于用户的推荐 | 根据每个访客的浏览、查看和购买历史记录推荐项目。 这些项目通常称为“推荐给您”。<br>此标准允许您向新访客和回头客提供个性化内容和体验。 推荐列表根据访客的最新活动进行加权，并在会话中更新，随着用户浏览您的网站，推荐的个性化程度也会提高。<br>视图和购买均用于确定建议的项目。 指定的推荐密钥（例如当前项目）用于应用您选择的任何包含规则过滤器。 例如，您可以：<ul><li>排除不符合某些标准的项目（产品缺货、30天前发布的文章、评级为R的电影等）</li><li>将包含的项目限制为单个类别或当前类别</li></ul> |
+| 基于用户的Recommendations | 根据每个访客的浏览、查看和购买历史记录推荐项目。 这些项目通常称为“推荐给您”。<br>此标准允许您向新访客和回头客提供个性化内容和体验。 推荐列表根据访客的最新活动进行加权，并在会话中更新，随着用户浏览您的网站，推荐的个性化程度也会提高。<br>视图和购买均用于确定建议的项目。 指定的推荐密钥（例如当前项目）用于应用您选择的任何包含规则过滤器。 例如，您可以：<ul><li>排除不符合某些标准的项目（产品缺货、30天前发布的文章、评级为R的电影等）</li><li>将包含的项目限制为单个类别或当前类别</li></ul> |
 
 >[!NOTE]
 >
@@ -112,4 +113,4 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 >[!NOTE]
 >
->目 [!UICONTROL 前仅支持] “推荐”活动的“算法使用情况”功能。 A/B测试和体验定位(XT)活动当前不支持此功能，这些包含 [推荐作为优惠](/help/c-recommendations/recommendations-as-an-offer.md)。
+>目前 [!UICONTROL 仅Recommendations活动] 支持算法使用功能。 A/B测试和体验定位(XT)活动当前不支持此功能，这些包含 [推荐作为优惠](/help/c-recommendations/recommendations-as-an-offer.md)。

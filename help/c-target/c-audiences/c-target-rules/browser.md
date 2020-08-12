@@ -2,10 +2,14 @@
 keywords: browser options;type;browser type;browser language;language;version;browser version
 description: 您可以在 Adobe Target 中通过创建受众来定位使用特定浏览器或特定浏览器选项访问您的页面的用户。
 title: Adobe Target 受众中的浏览器选项
+feature: null
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 99%
 
 ---
 
@@ -117,7 +121,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 多个选项之间使用 OR 进行连接。
 
-## 培训视频：创建受众 教 ![程徽章](/help/assets/tutorial.png)
+## 培训视频：创建受众 ![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用受众类别的信息。
 

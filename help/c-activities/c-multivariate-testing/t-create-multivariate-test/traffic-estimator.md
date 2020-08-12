@@ -1,10 +1,14 @@
 ---
 description: 由于多变量测试会对多个体验进行比较，因此非常重要的一点是，您需要知道多少流量才能提供有意义的结果。流量估算器会使用与您的页面相关的统计数据以及正在测试的体验数量，来估算需要多少流量以及需要多长时间的测试才能使测试成功。
 title: 估算成功测试所需的流量
+feature: null
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 100%
 
 ---
 
@@ -41,6 +45,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * [!UICONTROL 典型转化率]：转化率以百分比表示，根据估算或 Analytics 系统中的以往数据得出
    * [!UICONTROL 预计每日访客数]：这是指根据定位标准有可能会查看此页面的访客数量。可以基于您的分析数据。
    * [!UICONTROL 测试持续时间]：您希望该活动运行的天数。
+
    流量估算器使用这些统计数据来确定运行一个成功的测试需要进行哪些调整。
 
    系统会计算您输入的值并在流量估算器的顶部区域附近显示计算结果。
@@ -53,6 +58,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    * 减少选件组合数量和位置数量。
    * 延长测试持续时间。
+
    调整数字直到流量估算器表示已有足够流量，然后对您的测试进行相应设计。
 
    ![](assets/estimatorok.png)

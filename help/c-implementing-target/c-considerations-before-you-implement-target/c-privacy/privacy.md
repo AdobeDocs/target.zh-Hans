@@ -2,11 +2,15 @@
 keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: Adobe Target 启用了一些流程和设置，使您能够在遵守适用数据隐私法律的情况下使用 Target。
 title: 隐私
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 Adobe Target 启用了一些流程和设置，使您能够在遵守适用数据隐私法律的情况下使用 Target。
 
-## IP地址的集合 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## IP地址集合 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 网站访客的 IP 地址会传输到 Adobe 数据处理中心 (DPC)。根据访客的网络配置，IP 地址不一定能代表访客计算机的 IP 地址。例如，IP 地址可能为网络地址转换 (NAT) 防火墙、HTTP 代理或互联网网关的外部 IP 地址。Target 不会存储用户的任何 IP 地址或任何个人身份信息 (PII)。IP 地址仅在会话持续期间由 Target 使用（位于内存中，永不保留）。
 
@@ -27,15 +31,15 @@ Adobe 制定了新的“从设计着手保护隐私”(privacy by design) 设置
 
 以下设置可供使用：
 
-* 无混淆：Target不会隐藏IP地址的任何部分。
-* 最后八位字节：Target会隐藏IP地址的最后八位字节。
-* 完整IP:Target将隐藏整个IP地址。
+* 无混淆：目标不会隐藏IP地址的任何部分。
+* 最后八位字节：目标隐藏IP地址的最后八位字节。
+* 完整IP:目标隐藏整个IP地址。
 
-Target接收完整的IP地址并将其模糊化（如果设置为“最后八位字节”或“完整的IP”）。 然后，Target在会话期间将模糊化的IP地址保存在内存中。
+目标接收完整的IP地址，并按指定的方式将其模糊化（如果设置为最后一个二进制八位数或完整的IP）。 然后，目标在会话期间将模糊化的IP地址保存在内存中。
 
 >[!NOTE]
 >
->[请联系Adobe Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，以确定您当前使用的设置或启用IP模糊化功能。
+>[联系Adobe客户关怀](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，以确定您当前使用的设置或启用IP模糊化功能。
 
 ## 地域划分 {#section_BB69F96559BD44BDA4177537C4A5345A}
 

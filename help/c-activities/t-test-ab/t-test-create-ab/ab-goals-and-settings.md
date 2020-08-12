@@ -2,10 +2,11 @@
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: 您可以在“目标和设置”页面上输入有关测试目标的信息。
 title: 目标和设置
+feature: null
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 96%
@@ -26,7 +27,7 @@ ht-degree: 96%
 | 设置 | 描述 |
 |--- |--- |
 | 目的 | 键入一个可选目的。该目的可以是有助于您和您的团队成员识别营销活动的任何信息。 |
-| 优先级 | 根据您的设置，UI 和“优先级”选项会有所不同。您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。<br>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。<br>如果“管理”（默认）中未 [!UICONTROL 启用] 此选项，请指定优先级： 低、中或高。 <br>要启用细粒度优先级，请单 [!UICONTROL 击“管理] ”> [!UICONTROL “报告]”，然后将“启用细粒度优先级”选项切换到“开启”位置。 <br>如果已启用此选项，请指定一个介于 0（= 低）到 999（= 高）之间值。<br>对于在以前的 Target Standard/Premium 版本中创建的活动，“低”优先级会转换为 0，“中”优先级会转换为 5，“高”优先级会转换为 10。您可以根据需要调整这些值。<br>注意：在使用细粒度优先级后，您可以禁用此选项，但在此之前，必须将所有优先级重新设置为 0、5、10。 |
+| 优先级 | 根据您的设置，UI 和“优先级”选项会有所不同。您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。<br>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。<br>如果“管理”（默认）中未 [!UICONTROL 启用] 此选项，请指定优先级：低、中或高。 <br>要启用细粒度优先级，请单 [!UICONTROL 击“管理] ”> [!UICONTROL “报告]”，然后将“启用细粒度优先级”选项切换到“开启”位置。 <br>如果已启用此选项，请指定一个介于 0（= 低）到 999（= 高）之间值。<br>对于在以前的 Target Standard/Premium 版本中创建的活动，“低”优先级会转换为 0，“中”优先级会转换为 5，“高”优先级会转换为 10。您可以根据需要调整这些值。<br>注意：在使用细粒度优先级后，您可以禁用此选项，但在此之前，必须将所有优先级重新设置为 0、5、10。 |
 | 持续时间 | 活动可以在获得批准时开始，或者您也可以设置特定的日期和时间。同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。时间选择器使用的是 24 小时制时钟，其中 00:00 表示午夜。时区设置为在浏览器中配置的时区。要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。 |
 
 ## 报表设置 {#section_13119392051044FBA6387D9B3B1C43CF}

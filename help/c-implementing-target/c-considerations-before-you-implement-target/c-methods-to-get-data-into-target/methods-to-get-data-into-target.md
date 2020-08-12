@@ -1,12 +1,16 @@
 ---
-keywords: 实施;设置;设定;页面参数;tomcat;url 编码;页面内配置文件属性;mbox 参数;页面内配置文件属性;脚本配置文件属性;批量配置文件更新 API;单个文件更新 API;客户属性;数据提供程序
+keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
 description: 此信息介绍了可用于将数据导入 Target 的各种方法，包括页面参数、页面内配置文件属性、脚本配置文件属性、数据提供程序、批量配置文件更新 API、单个配置文件更新 API 和客户属性。
 title: 将数据导入 Target 的方法
-subtopic: 入门指南
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +57,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    除了 IETF 站点上提到的那些字符之外，Target 还允许在查询字符串中使用以下字符：
 
-   `&lt; &gt; # % " { } | \\ ^ \[\] \``
+   `&lt; > # % &quot; { } | \\ ^ \[\] \``
 
    其他所有字符都必须采用 URL 编码。The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
@@ -224,8 +228,8 @@ at.js 不会尝试缓存数据。如果数据提供程序仅提取一次数据�
 
 ### 培训视频：
 
-* [在 Adobe Target 中使用数据提供程序](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [在 Adobe Target 中实施数据提供程序](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [在 Adobe Target 中使用数据提供程序](https://helpx.adobe.com/cn/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [在 Adobe Target 中实施数据提供程序](https://helpx.adobe.com/cn/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## 批量配置文件更新 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 

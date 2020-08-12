@@ -1,12 +1,16 @@
 ---
-keywords: 管理;审批者角色;审批者
+keywords: Administration;approver role;approver
 description: 本节介绍在收到 Adobe Experience Cloud 的电子邮件邀请后，Adobe Target 管理员应该采取的首要步骤。
 title: 管理员首要步骤
-subtopic: 入门指南
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +23,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 [!DNL Adobe Admin Console] 中的系统管理员必须通过邀请您加入，将您作为用户添加到 [!DNL Target] 中。之后，系统管理员应将您添加到一个或多个特定于角色的组。这两项任务均可在 [Adobe Admin Console](https://adminconsole.adobe.com) 中执行。
 
-有关详细信息，请参 [阅Experience cloud和核心服务帮助中的](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)*管理Experience cloud用户和产品*。
+有关详细信息，请参 [阅Experience Cloud和核心服务帮助](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) ，查 *看管理Experience Cloud用户和产品*。
 
 系统管理员执行这些步骤后，您将会收到一封邀请电子邮件。
 

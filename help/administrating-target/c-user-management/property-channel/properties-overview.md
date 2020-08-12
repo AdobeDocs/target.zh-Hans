@@ -2,10 +2,11 @@
 keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
 description: 此信息介绍了向 Adobe Target 实施添加用户，创建工作区、用户组和属性，更新 Target 实施以包含 at_property 参数，以及指定角色和权限时需要执行的任务。
 title: 配置企业权限
+feature: null
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 69%
@@ -34,7 +35,7 @@ Information about the tasks required to add users to your [!DNL Target] implemen
 
 For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
 
-1. 在Adobe Target中，单 **[!UICONTROL 击“管理]** ”>“ **[!UICONTROL 属性]** ” **[!UICONTROL >“]**&#x200B;将属性分配到工作区”。
+1. 在Adobe Target，单击 **[!UICONTROL 管理]** >属 **[!UICONTROL 性]** >将 **[!UICONTROL 属性指]**&#x200B;定到工作区。
 
    或
 
@@ -204,7 +205,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 >[!NOTE]
 >
->“管 [!DNL Target] 理 [!UICONTROL ”菜单UI(以] 前为“设置 ”)经过重新设计，可提供改进的性能、减少发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的； 但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
+>“管 [!DNL Target] 理 [!UICONTROL ”菜单UI(以] 前为“设置 ”)经过重新设计，可提供改进的性能、减少发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的；但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
 
 ### 如何配置目标工作区(6:55)教 ![程徽章](/help/assets/tutorial.png)
 

@@ -1,11 +1,15 @@
 ---
-keywords: at.js 集成;受支持的集成;不受支持的集成;第三方集成
+keywords: at.js integration;supported integrations;unsupported integrations;third party integrations
 description: 有关与 Target 的常见集成及其对 at.js 的支持状态的信息。
 title: at.js 集成
+feature: null
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +25,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | 集成 | 详细信息 |
 |--- |--- |
 | Analytics for Target (A4T) | 请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](../../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)。 |
-| Profiles &amp; Audiences (P&amp;A) | 请参 [阅核心](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 服务用 *户指南中的受众*。 |
+| Profiles &amp; Audiences (P&amp;A) | 请参 [阅](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 《核心服 *务用户指南》中的受众*。 |
 | Experience Cloud ID 服务 | 请参阅 [Adobe Experience Cloud ID 服务文档](https://docs.adobe.com/content/help/en/id-service/using/home.html)。 |
 | Adobe Launch | Launch 是 Adobe 的下一代标签管理平台，是实施 Adobe Target 的首选方法。Launch 为客户提供了一种简单的方式来部署和管理所有用来加强相关客户体验的分析、营销和广告标签。请参阅[使用 Adobe Launch 实施 Target](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)。 |
 | 动态标签管理 (DTM) | See the [Best Practices for Implementing Target Using Dynamic Tag Management guide](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html).   重要信息：[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 是实施 Target 和 at.js 库的最新首选方法。对于新的 Target 实施，请使用 Launch。以下指南适用于使用 DTM 实施的现有客户端。使用 DTM 集成时，请考虑以下事项： <ul><li>库管理：通过“自定义”主机选项来使用 at.js。当前不支持“自动”管理。 </li></ul> |

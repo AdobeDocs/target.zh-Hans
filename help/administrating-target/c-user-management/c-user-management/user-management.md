@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: 您可以在 Adobe Admin Console 中添加用户并管理其权限。
 title: 用户
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 48%
@@ -23,10 +24,10 @@ You can add users and manage their permissions in the [!DNL Adobe Admin Console]
 >[!UICONTROL “属性和权限”功能作为 ] Premium 解决方案的一部分提供。[!DNL Target]如果没有 [!DNL Target] Premium 许可证，它们将无法在 [!DNL Target] Standard 中使用。
 >You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 >
->* **[!DNL Target]标准客户&#x200B;**: 如果您看到“用[!UICONTROL 户]”选项卡([!UICONTROL “管理”>“用户]”)(而不是“属**[!UICONTROL 性”选项卡&#x200B;]**)，则您的组织具有“标[!DNL Target]准”许可证。 [!DNL Target Standard 客户应按照本文中的相关说明进行操作，以在[!DNL Adobe Admin Console]中添加用户和分配权限。
+>* **[!DNL Target]标准客户&#x200B;**:如果您看到“用[!UICONTROL 户]”选项卡([!UICONTROL “管理”>“用户]”)(而不是“属**[!UICONTROL 性”选项卡&#x200B;]**)，则您的组织具有“标[!DNL Target]准”许可证。 [!DNL Target Standard 客户应按照本文中的相关说明进行操作，以在[!DNL Adobe Admin Console]中添加用户和分配权限。
    >
    >
-* **[!DNL Target]高级客户&#x200B;**: 如果您看到“用[!UICONTROL 户]”选项卡和“属[!UICONTROL 性]”选项卡([!UICONTROL “管]理”>“属性[!DNL Target]”)，则您的组织具有Premium许可证。[!DNL Target]Premium 客户应按照[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)和[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的说明进行操作，以在[!DNL Adobe Admin Console]中添加用户和分配权限。
+* **[!DNL Target]高级客户&#x200B;**:如果您看到“用[!UICONTROL 户]”选项卡和“属[!UICONTROL 性]”选项卡([!UICONTROL “管]理”>“属性[!DNL Target]”)，则您的组织具有Premium许可证。[!DNL Target]Premium 客户应按照[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)和[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的说明进行操作，以在[!DNL Adobe Admin Console]中添加用户和分配权限。
 >
 >
 有关如何管理用户和权限的详细信息，请参 [阅《企业和团队用户指南](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) 》中 *的管理产品和用户档案*。
@@ -49,7 +50,7 @@ Admin users are identified in the [!UICONTROL Users] list. 如果您需要更改
 
 >[!NOTE]
 >
->要管理现有用户或添加新用户，您必须使用 [!UICONTROL AdobeAdmin Console]，如下所述。
+>要管理现有用户或添加新用户，您必须使用 [!UICONTROL Adobe Admin Console]，如下所述。
 
 ## 访问 Adobe Admin Console {#access}
 
@@ -120,6 +121,6 @@ Admin users are identified in the [!UICONTROL Users] list. 如果您需要更改
 
 >[!NOTE]
 >
->“管 [!DNL Target] 理 [!UICONTROL ”菜单UI(以] 前为“设置 ”)经过重新设计，可提供改进的性能、减少发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的； 但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
+>“管 [!DNL Target] 理 [!UICONTROL ”菜单UI(以] 前为“设置 ”)经过重新设计，可提供改进的性能、减少发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的；但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)

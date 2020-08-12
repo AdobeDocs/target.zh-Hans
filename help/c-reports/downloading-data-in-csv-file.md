@@ -1,12 +1,16 @@
 ---
 keywords: reports;download reports;csv;success metrics;order details
-description: 以。csv格式下载数据，以便使用Adobe目标快速导入Excel、Access或其他数据分析项目。
-title: 使用Adobe目标在CSV文件中下载数据
+description: 以。csv格式下载数据，以便使用Adobe Target快速导入到Excel、Access或其他分析项目。
+title: 使用Adobe Target下载CSV文件中的数据
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '673'
+ht-degree: 83%
 
 ---
 
@@ -26,6 +30,7 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
    * [!UICONTROL 将报告导出为CSV]
    * [!UICONTROL 将订单详细信息导出到 CSV]
+
    ![下载选项](/help/c-reports/assets/download-options.png)
 
 ## 将报表导出到 CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
@@ -39,7 +44,7 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 >[!NOTE]
 >
->CSV报告仅包括原始数据，不包括用于A/B测试的每访客收入、提升或置信度等计算指标。 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>CSV报表仅包含原始数据，不包括用于A/B测试的计算指标，如每访客收入、提升率或置信度。 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## 将订单详细信息导出到 CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -82,7 +87,7 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 以下信息适用于“下载”选项：
 
-* 您可以下载A/B测试、自动个性化、体验定位和多变量活动的两种报告。 但是对于“推荐”活动，您无法下载“成功量度”报表。
+* 您可以下载A/B测试、Automated Personalization、体验定位和多变量活动的两种报告。 但是对于“推荐”活动，您无法下载“成功量度”报表。
 * “下载”选项不适用于在 Target 版本 15.7.1（2015 年 7 月版）之前创建的 A/B 活动和体验定位活动。
 * 下载的报表中不会记录没有关联数据的体验。
 * Target 报表 UI 中应用的受众不会传递到下载的报表中。

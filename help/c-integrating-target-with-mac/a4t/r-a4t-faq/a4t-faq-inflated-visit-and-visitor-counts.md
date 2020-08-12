@@ -1,11 +1,15 @@
 ---
-keywords: FAQ;常见问题解答;Analytics for Target;A4T;夸大;访问;访客;局部点击;孤立;孤立项;局部点击
+keywords: faq;frequently asked questions;analytics for target;a4T;inflated;visit;visitor;partial hit;orphaned;orphan;partial-hit
 description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时出现夸大的访问和访客计数的常见问题解答。
 title: 夸大的访问和访客计数 - A4T 常见问题解答
+feature: null
 topic: Standard
 uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '639'
+ht-degree: 100%
 
 ---
 

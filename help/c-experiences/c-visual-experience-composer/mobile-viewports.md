@@ -2,9 +2,10 @@
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
 description: 移动视区可帮助您预览Adobe Target活动在各种尺寸屏幕上的显示方式。
 title: 移动视图端口，提供响应式体验
+feature: null
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 7a3aee58750b98515d44f85bbe3cd441683169a7
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 70%

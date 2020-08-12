@@ -2,10 +2,14 @@
 keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
 description: 对有关 Adobe Target at.js JavaScript 库的常见问题的解答。
 title: Adobe Target at.js 常见问题解答
+feature: null
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2660'
+ht-degree: 94%
 
 ---
 
@@ -201,8 +205,8 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 
 如果看到此类警告消息，则根本原因可能如下所示：
 
-* 页面正在动态构建，at.js无法找到元素。
-* 页面构建缓慢（由于网络速度缓慢）,at.js在DOM中找不到选择器。
+* 页面正在动态构建，at.js找不到元素。
+* 正在缓慢构建页面（由于网络速度慢）,at.js在DOM中找不到选择器。
 * 正在运行活动的页面结构发生更改。如果您在可视化体验编辑器 (VEC) 中重新打开活动，则应会收到警告消息。您应更新活动，以便找到所有必需的元素。
 * 基础页面是单页应用程序 (SPA) 的一部分，或者该页面包含显示在页面更靠底部的元素，且 [!DNL at.js]“选择器轮询机制”无法找到这些元素。增加 `selectorsPollingTimeout` 可能会有所帮助。有关更多信息，请参阅 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 * 任何点击跟踪量度都会尝试将其自身添加到每个页面，而不考虑已设置量度的 URL。尽管不会产生不利影响，但此情况会显示许多此类消息。

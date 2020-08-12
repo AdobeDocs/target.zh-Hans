@@ -1,9 +1,13 @@
 ---
-keywords: 推荐；简介；网络研讨会；演示
+keywords: Recommendations;intro;introduction;webinar;demo
 description: “Adobe Target Recommendations 简介”活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。“推荐”有助于将客户导向到他们可能还不知道的相关项目。
 title: Adobe Target 中的“Recommendations 简介”活动
+feature: null
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2129'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +41,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * **游戏**：游戏公司使用 [!DNL Target] 向其控制台上的用户推荐游戏和内容。
 * **B2B 销售**：[企业对企业的公司使用 Target 向 B2B 潜在用户推荐视频、白皮书和博客文章；提供下载；并向现有客户提供帮助](https://theblog.adobe.com/testing-shifts-high-gear-intel)。
 
-* **旅行**:一 [家德国旅游书店使用Target向旅客推荐酒店等](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
+* **旅行**: [一家德国旅行簿记员使用目标向旅客推荐酒店等](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
 
 * **零售业**：[一家行业领先的 BB 零售商使用 Target 在浏览器及移动应用程序中推荐顶级类别和产品，以吸引访客](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2。
 

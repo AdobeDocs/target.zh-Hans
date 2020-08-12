@@ -1,11 +1,15 @@
 ---
-keywords: mbox;mbox3rdPartyId;配置文件同步;PCID
+keywords: mbox;mbox3rdPartyId;profile syncing;profile synch;PCID
 description: '有关实时配置文件的信息 '
 title: Adobe Target 中 mbox3rdPartyId 的实时配置文件同步
+feature: null
 topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 81%
 
 ---
 
@@ -31,11 +35,11 @@ mbox3rdPartyId 是您公司的访客 ID，例如您公司的忠诚度计划的�
 
 >[!NOTE]
 >
->如果要区分已验证（已登录）的用户与非已验证的用户，请使用Adobe Experience Cloud Identity Service(ECID)而不是mbox3rdPartyID。 在用户与mbox3rdPartyID关联后，即使在注销后，该用户仍与该用户关联。
+>如果要区分已验证（已登录）的用户与非已验证的用户，请使用Adobe Experience Cloud身份服务(ECID)而不是mbox3rdPartyID。 在用户与mbox3rdPartyID关联后，即使在注销后，它仍与用户关联。
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] 在 [!DNL Adobe Experience Cloud][!DNL Target] ID(EDID)更改（例如，访客更改设备）时，不会跟踪目标，即使配置文件可能基于mbox3rdPartyId进行合并，但仍包含活动信息。 For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
+>[!DNL Adobe Analytics] 在ID(EDID)更改(例如访客更改设备)时，将不会跟踪目标 [!DNL Adobe Experience Cloud] ，即使可能基于mbox3rdPartyId [!DNL Target] 合并用户档案，但仍具有活动信息。 For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
 
 ## 注意事项 {#considerations}
 

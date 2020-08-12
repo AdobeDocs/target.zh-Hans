@@ -1,11 +1,12 @@
 ---
 description: 当您想要将访客发送到不同的页面，而不是在相同页面上显示内容时，请使用此选项。
 title: 重定向到 URL
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%

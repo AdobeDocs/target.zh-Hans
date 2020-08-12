@@ -2,9 +2,10 @@
 keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
 description: 您在创建“推荐”活动之前需要了解的信息。
 title: 计划和实施推荐
+feature: null
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 97%
@@ -12,7 +13,7 @@ ht-degree: 97%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Plan（高级计划）和实施建议 {#plan-and-implement-recommendations}
+# ![PREMIUM计划](/help/assets/premium.png) 并实施Recommendations {#plan-and-implement-recommendations}
 
 您在创建“推荐”活动之前需要了解的信息。
 
@@ -212,7 +213,7 @@ To access the [!UICONTROL Recommendations Settings] options, open [!DNL Target] 
 
 | 设置 | 描述 |
 |--- |--- |
-| 自定义全局 Mbox | （可选）指定要用于提供 [!DNL Target] 活动的自定义全局 mbox。默认情况下，[!DNL Target} 使用的全局 mbox 会用于 [!DNL Recommendations]。<br>注意： 此选项在“管理”页 [!DNL Target] 面 [!UICONTROL 上设] 置。 打开 [!DNL Target]，然后单击 [!UICONTROL 管理] >可 [!UICONTROL 视体验书写器]。 |
+| 自定义全局 Mbox | （可选）指定要用于提供 [!DNL Target] 活动的自定义全局 mbox。默认情况下，[!DNL Target} 使用的全局 mbox 会用于 [!DNL Recommendations]。<br>注意：此选项在“管理”页 [!DNL Target] 面 [!UICONTROL 上设] 置。 打开 [!DNL Target]，然后单击 [!UICONTROL 管理] >可 [!UICONTROL 视体验书写器]。 |
 | 垂直行业 | 垂直行业用来帮助对您的推荐标准进行分类。使用垂直行业，您的团队成员可以找到适用于特定页面的标准，例如适用于购物车页面的标准或适用于媒体页面的标准。 |
 | 筛选不兼容的标准 | 启用此选项，可仅显示要求选定页面传递所需数据的标准。并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望将不兼容的标准用于活动，请取消选中此选项。<br>如果使用标签管理解决方案，建议您禁用此选项。<br>有关此选项的更多信息，请参阅[推荐常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)。 |
 | 默认主机组 | 选择您的默认主机组。<br>主机组可用于为不同用途而分隔目录中的可用项。例如，您可以将主机组用于“开发和生产”环境、不同的品牌或不同的地理位置。默认情况下，“目录搜索”、“收藏集”和“排除项”中的预览结果均基于默认的主机组。（也可以使用“环境”筛选器来选择要预览结果的不同主机组。）默认情况下，新添加的项目在所有主机组中都可用，除非在创建或更新项目时指定了环境 ID。交付的“推荐”取决于请求中指定的主机组。<br>如果您看不到产品，请确保您使用的是正确的主机组。例如，如果您将推荐设置为使用测试环境并将您的主机组设置为“测试”，则您可能需要在测试环境中重新创建收藏集，之后才会显示产品。要查看每个环境中提供了哪些产品，请在每个环境中使用“目录搜索”。您还可以预览选定环境（主机组）的“推荐”收藏集和排除项内容。<br>**注意：**更改选定的环境后，必须单击搜索以更新返回的结果。<br>[!UICONTROL 环境]筛选器可从[!DNL Target]UI 中的以下位置访问：<ul><li>目录搜索（[!UICONTROL 推荐 > 目录搜索）</li><li>“创建收藏集”对话框（[!UICONTROL 推荐 > 收藏集 > 新建]）</li><li>“更新收藏集”对话框（[!UICONTROL 推荐 > 收藏集 > 编辑]）</li><li>“创建排除项”对话框（[!UICONTROL 推荐 > 排除项 > 新建]）</li><li>“更新排除项”对话框（[!UICONTROL 推荐 > 排除项 > 编辑]）</li></ul>有关更多信息，请参阅[主机](/help/administrating-target/hosts.md)。 |

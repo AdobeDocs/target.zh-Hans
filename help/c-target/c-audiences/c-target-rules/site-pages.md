@@ -1,38 +1,42 @@
 ---
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
-description: 您可以定位站点上特定页面的访客。
-title: Adobe Target中的站点页面
+description: 您可以目标站点上特定页面的访客。
+title: Adobe Target的网页
+feature: null
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 43%
 
 ---
 
 
 # 网页{#site-pages}
 
-您可以定位站点上特定页面的访客。
+您可以目标站点上特定页面的访客。
 
-1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]**>**[!UICONTROL &#x200B;创建受众]**。
+1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
-1. 单击&#x200B;**[!UICONTROL 添加规则]**>**[!UICONTROL &#x200B;网站页面]**。
+1. 单击&#x200B;**[!UICONTROL 添加规则]** > **[!UICONTROL 网站页面]**。
 
    ![“网站页面”受众](assets/target_site_pages.png)
 
-1. 单击“ **[!UICONTROL 选择]**”(Select)下拉列表，选择以下选项之一，然后根据需要配置规则。
+1. 单击 **[!UICONTROL 选择]** (Select)下拉列表，选择以下选项之一，然后根据需要配置规则。
 
    规则中后续下拉列表中的可用选项和计算器因您选择的选项而异。 下图显示了如果选择“当前页面”时可用 [!UICONTROL 的选项]:
 
    ![当前页面](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
 
-   选择“选择”时，初始下拉列表中提供以下 [!UICONTROL 选项]。
+   选择“选择”后，初始下拉列表中提供以下 [!UICONTROL 选项]。
 
-   * **** 当前页面：用户当前所在的页面。
+   * **当前页：** 用户当前所在的页面。
 
       如果选择此选项，则第二个下拉列表中提供以下选项：
 
-      * URL(有关Target如何评估URL的详细信息，请参阅目 [标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
+      * URL(有关目标如何评估URL的更多信息，请参 [阅目标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
       * 域
       * 查询
       * 子域
@@ -43,7 +47,7 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
       如果选择此选项，则第二个下拉列表中提供以下选项：
 
-      * URL(有关Target如何评估URL的详细信息，请参阅目 [标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
+      * URL(有关目标如何评估URL的更多信息，请参 [阅目标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
       * 域
       * 查询
       * 子域
@@ -53,23 +57,24 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
       如果选择此选项，则第二个下拉列表中提供以下选项：
 
-      * URL(有关Target如何评估URL的详细信息，请参阅目 [标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
+      * URL(有关目标如何评估URL的更多信息，请参 [阅目标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
       * 域
       * 查询
       * 子域
       * 顶级域
       * 路径
       * 哈希 (#) 碎片
+
       >[!NOTE]
       >
       >`landing.url` 对象会在更改子域或直接替换 URL 时重置。
 
-   * **** HTTP头：此选项评估Target请求的HTTP头中的信息。 例如，如果HTTP头包含语言信息，则可以创建一个包含条件的规则，以 `Accept-Language: es` 定位以西班牙语访问该页面的访客。
+   * **HTTP头：** 此选项评估目标请求的HTTP头中的信息。 例如，如果HTTP头包含语言信息，您可以创建一个规则，该规则包含用西班牙语 `Accept-Language: es` 访问页面的目标访客的条件。
 
       如果选择此选项，则第二个下拉列表中提供以下选项：
 
       * Accept
-      * Accept-Charset
+      * 接受——字符集
       * 接受编码
       * Accept-Language
       * 授权
@@ -86,7 +91,7 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
       * If-Modified-Since
       * If-None-Match
       * If-Range
-      * If-Uniquofied-Since
+      * If-Uniquied-Since
       * 最大转发
       * Pragma
       * 代理授权
@@ -97,7 +102,8 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
       * User-Agent
       * Via
       * 警告
-   如果选择“当前页 [!UICONTROL 面]”、“上 [!UICONTROL 一页”或“登录页]”，则 [!UICONTROL DomainDomain]和Query Query选项  将可用。 选择这些选项时，请考虑以下事项：
+
+   如果选择“当 [!UICONTROL 前页]”、 [!UICONTROL “上一页”或]“登陆页 [!UICONTROL ”，则可] 以使用查询和选项。 选择这些选项时，请考虑以下事项：
 
    * **域：**&#x200B;页面的完整域。指定域时，最佳做法是使用“包含”。例如，“域等于 facebook.com”将不接受 `m.facebook.com` 或 `www.facebook.com`。而“域包含 facebook.com”则将接受 facebook.com 的任何变体。
    * **查询：** URL 中第一个问号 (?) 后面的内容。
@@ -116,7 +122,7 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 使用：
 
 * 查询参数，如果用户选择的规则是“当前页面”、“登陆页面”或“上一页”。
-* 如果用户选择的规则是HTTP头，则为标题。
+* 如果用户选择的规则是HTTP头，则为头。
 
 如下图所示：
 
@@ -124,19 +130,19 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 ## 疑难解答 {#ts}
 
-* 要使登陆页面受众正常工作，请求必须设置at.js javaScript库使用属性从页面获取的参数 `mboxReferrer` (对于Delivery API, `context.address.referringUrl` 该参数为 `document.referrer` 参数)。 此 `HTMLDocument` 属性返回用户从中导航的页面的URI。 当用户直接导航到页面时（不是通过链接，而是通过书签），此属性的值是空字符串。
+* 要使登陆页受众正常工作，请 `mboxReferrer` 求必须设置at.js JavaScript库从页面 `context.address.referringUrl` 使用属性获取的参数(对于投放API，参数 `document.referrer` )。 此 `HTMLDocument` 属性返回用户从中导航的页面的URI。 当用户直接导航到页面时（不是通过链接，而是通过书签），此属性的值为空字符串。
 
    如果此行为与您的要求不符，请考虑执行下列操作之一：
 
-   * 传递 [mbox参数](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) , [!DNL Target] 以便用于定位目的。
-   * 使用 [A/B测试活动](/help/c-activities/t-test-ab/test-ab.md) ，而不是登录页面活动。 A/B测试活动不会切换同一访客的体验。
-   * 请改用访 [客资料](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 。
+   * 传 [递mbox参数](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) , [!DNL Target] 以用于定位目的。
+   * 使用 [A/B测试活动](/help/c-activities/t-test-ab/test-ab.md) ，而不是登陆页活动。 A/B测试活动不会为同一访客切换体验。
+   * 请改 [用访客](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 用户档案。
 
-* 对包含逗号的字符串使用“以逗号开头／结尾”求值器时，请注意，这些值将作为一组值进行计算，其中每个值以逗号分隔。 例如，如果标题的值为：它 `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` 将满足以下条件：
-   * 以zh开头，
-   * 以en开头，
+* 对包含逗号的字符串使用“开始/结尾”计算器时，请注意，这些值将作为一组值进行计算，其中每个以逗号分隔的值都会进行计算。 例如，如果我们有标题的值： `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` 它将满足以下条件：
+   * 开始使用zh,
+   * 开始,
    * 以0.7结束，
-   * 以0.8结尾。
+   * 以0.8结束。
 
 ## 培训视频：创建受众
 

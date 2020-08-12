@@ -1,11 +1,15 @@
 ---
-keywords: 受众;受众规则;合并受众;排除项;添加排除项;排除;临时受众
+keywords: audience;audience rules;combine audiences;exclusion;add exclusion;exclude;combining audiences;adhoc audience;ad hoc audience
 description: 可随手合并多个受众（包括 Adobe Experience Cloud 受众和 Target 受众）以创建临时受众。您也可以创建排除规则，从某个规则中排除相应受众。
 title: 在 Adobe Target 中合并多个受众
+feature: null
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +38,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![步骤结果](assets/combine_multiple_audiences1.png)
 
-1. 单击右上角的&#x200B;**[!UICONTROL 合并多个受众]。**
+1. 单击右上角的&#x200B;**[!UICONTROL 合并多个受众]**。
 
    ![步骤结果](assets/combine_multiple_audiences2.png)
 
@@ -54,7 +58,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
       >
       >合并受众时，使用的运算符（“与”或“或”）必须保持相同。运算符不能混搭使用。
 
-   1. 要在规则中添加排除项，请单击&#x200B;**[!UICONTROL 排除项]** &gt; **[!UICONTROL 添加排除项]**。
+   1. 要在规则中添加排除项，请单击&#x200B;**[!UICONTROL 排除项]** > **[!UICONTROL 添加排除项]**。
 
       ![](assets/combine_multiple_audiences3a.png)
 
@@ -68,7 +72,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
       由此形成的组合受众将包含使用 Safari 或 Firefox 访问您网站的所有新访客（旧金山访客除外）。
 
-   1. 要从规则中排除受众，请单击&#x200B;**[!UICONTROL 排除项]** &gt; **[!UICONTROL 不包括该受众]**。
+   1. 要从规则中排除受众，请单击&#x200B;**[!UICONTROL 排除项]** > **[!UICONTROL 不包括该受众]**。
 
       例如，您可以创建一个组合受众，以包含使用 Firefox 以外的其他所有浏览器访问您网站的所有新访客。与创建一个明确包含各种浏览器（Safari、Chrome 和 Internet Explorer）用户但不包含 Firefox 用户的组合受众相比，排除使用 Firefox 的访客要更加简单快速。
 
@@ -78,8 +82,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您可以在活动的“[!UICONTROL 目标和设置]”页面上创建一个临时组合受众，以将其用于量度定位。例如，可以使用组合受众创建基于转化的定位：
 
-1. 编辑或创建[活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上选择&#x200B;**[!UICONTROL 转化]作为成功量度，然后选择**&#x200B;已查看 Mbox **作为操作。**
-1. 在&#x200B;**[!UICONTROL 搜索 mbox]字段中选择所需的 mbox。**
+1. 编辑或创建[活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上选择&#x200B;**[!UICONTROL 转化]**&#x200B;作为成功量度，然后选择已查看 Mbox **[!UICONTROL 作为操作。]**
+1. 在&#x200B;**[!UICONTROL 搜索 mbox]** 字段中选择所需的 mbox。
 
    ![](assets/combine_multiple_audiences4.png)
 
@@ -104,15 +108,15 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您可以在编辑现有活动时创建临时组合受众。
 
-1. 在“[!UICONTROL 活动]”页面上，将鼠标悬停在所需活动上，然后单击&#x200B;**[!UICONTROL 编辑]图标。**
+1. 在“[!UICONTROL 活动]”页面上，将鼠标悬停在所需活动上，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 
    或
 
    单击所需活动以将其打开，然后单击&#x200B;**[!UICONTROL 编辑活动]**。
 
-1. 单击&#x200B;**[!UICONTROL 配置]** &gt; **[!UICONTROL 受众]** &gt; **[!UICONTROL 多个受众]**。
+1. Click the **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
-   ![“配置”&gt;“受众”&gt;“多个受众”](/help/c-target/assets/combine_multiple_audiences7.png)
+   ![“配置”>“受众”>“多个受众”](/help/c-target/assets/combine_multiple_audiences7.png)
 
 1. 单击活动的当前受众旁边的更多选项图标（三个垂直省略号），然后单击&#x200B;**[!UICONTROL 更改受众]**。
 

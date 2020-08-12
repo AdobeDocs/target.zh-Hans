@@ -2,11 +2,15 @@
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: 使用 Adobe Target 受众基于用户的地理位置（包括其国家/地区、省/自治区/直辖市、城市、邮编/邮政编码、DMA 或移动设备运营商）定位用户。
 title: Adobe Target 中的地域
+feature: null
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '937'
+ht-degree: 88%
 
 ---
 
@@ -33,6 +37,7 @@ source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
    * 经度
    * DMA
    * 移动设备运营商
+
    访客的 IP 地址使用 mbox 请求来传递，以分析该访客的地域定位参数，每个访问（会话）进行一次。
 
    对于移动设备运营商，[!DNL Target] 会使用 IP 地址注册数据（即 IP 地址块所有者的注册数据）并根据[移动设备国家/地区代码 (MCC) 和移动设备网络代码 (MNC)](https://www.mcc-mnc.com) 来确定相应的移动设备运营商。
@@ -138,17 +143,17 @@ source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 >[!NOTE]
 >
->`mboxOverride.browserIp` 仅在at.js 1.*jx中受支持* 。 at.js 2不支持此功能。*x* 目前不支持选择加入支持。
+>`mboxOverride.browserIp` 仅在at.js 1.jx *中* 。 at.js 2不支持此功能。*x* 目前不支持选择加入支持。
 
 **如何将波多黎各和中国香港特别行政区等区域映射到地理定位结构？**
 
 系统将波多黎各、中国香港特别行政区和其他区域视为单独的“国家/地区”值。
 
-**当活[!DNL Target]动被定位到地理位置定位功能时，是否会捕获（并存储）邮政编码等信息？**
+**当活动[!DNL Target]被定位到地理位置定位功能时，是否会捕获（并存储）诸如邮政编码等信息？**
 
 否， [!DNL Target] 仅在会话期间使用地理数据，然后丢弃数据。
 
-## 培训视频：创建受众教 ![程徽章](/help/assets/tutorial.png)
+## 培训视频：创建受众 ![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用受众类别的信息。
 

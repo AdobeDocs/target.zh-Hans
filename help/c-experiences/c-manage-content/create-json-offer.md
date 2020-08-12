@@ -1,11 +1,15 @@
 ---
-keywords: 远程选件;创建远程选件
+keywords: remote offer;create remote offer
 description: 可在选件库中创建 JSON 选件，以在基于表单的体验编辑器中使用。
 title: 创建 JSON 选件
+feature: null
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -28,13 +32,13 @@ JSON 选件可在基于表单的活动中使用，从而能够实现以下用例
 
 ## 创建 JSON 选件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. 单击&#x200B;**[!UICONTROL 选件]**，然后选择&#x200B;**代码选件]选项卡。[!UICONTROL **
-1. 单击&#x200B;**[!UICONTROL 创建]** &gt; **[!UICONTROL JSON 选件]**。
+1. 单击&#x200B;**[!UICONTROL 选件]**，然后选择&#x200B;**[!UICONTROL 代码选件]**&#x200B;选项卡。
+1. 单击&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL JSON 选件]**。
 
    ![](assets/offer-json.png)
 
 1. 键入选件名称。
-1. 在&#x200B;**[!UICONTROL 代码]框中键入或粘贴您的 JSON 代码。**
+1. 在&#x200B;**[!UICONTROL 代码]**&#x200B;框中键入或粘贴您的 JSON 代码。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 示例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
@@ -128,7 +132,7 @@ adobe.target.getOffer({
 
 ## 按 JSON 选件类型筛选选件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-您可以按 JSON 选件类型对选件库进行筛选，方法是单击&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表，然后选中 **JSON]复选框。[!UICONTROL **
+您可以按 JSON 选件类型对选件库进行筛选，方法是单击&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表，然后选中 **[!UICONTROL JSON]** 复选框。
 
 ![](assets/offer-json-filter.png)
 

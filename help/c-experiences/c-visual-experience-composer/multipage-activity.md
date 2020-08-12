@@ -1,11 +1,15 @@
 ---
-keywords: 多页面;历程测试;多页面活动
+keywords: multi-page;journey testing;multipage activity
 description: 多页面活动可使您跨多个页面创建一个故事，并且每个页面都有一个特定的设计。
 title: 多页面活动
-topic: 高级
+feature: null
+topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +30,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 要将页面添加到测试，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 配置]齿轮图标。**
+1. 单击&#x200B;**[!UICONTROL 配置]**&#x200B;齿轮图标。
 1. 单击&#x200B;**[!UICONTROL 添加其他页面]**。
 
    屏幕左侧会显示一个导航栏。
@@ -35,7 +39,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 使用该导航栏指定页面并设置默认页面。
 
-   单击&#x200B;**[!UICONTROL 添加页面]可添加其他页面。**
+   单击&#x200B;**[!UICONTROL 添加页面]**&#x200B;可添加其他页面。
 
    单击三个垂直省略号图标可显示“操作”菜单：
 

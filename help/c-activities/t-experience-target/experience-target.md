@@ -1,10 +1,14 @@
 ---
-keywords: 定位;体验定位;XT;登陆页面;登陆页面营销活动
+keywords: Targeting;experience targeting;xt;landing page;landing page campaign
 description: 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。
 title: 体验定位
+feature: null
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +41,7 @@ XT 活动允许您向这三类受众定位不同的主页图像，以便吸引�
 * 描述了如何向位于不同地理区域的受众交付特定于位置的内容
 * 描述如何对体验重新排序，以确保将适当的内容交付给适当的受众
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### 活动类型 (9:03)
 
@@ -47,4 +51,4 @@ XT 活动允许您向这三类受众定位不同的主页图像，以便吸引�
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

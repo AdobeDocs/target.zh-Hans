@@ -2,9 +2,10 @@
 keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: 可使用实体属性，将产品或内容信息传递到 Recommendations。
 title: 实体属性
+feature: null
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 14e0c0bacb8ffb22f0156a1e2c15e4de7717ee39
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 94%
@@ -186,7 +187,7 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 
 >[!NOTE]
 >
->如果您使用at.js 2。*x*, `mboxCreate` （如以下示例中所示）不再受支持。 使用at.js 2将产品或内容信息传递给Recommendations。*x*，使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。 有关此示例，请参阅计 [划和实施建议](/help/c-recommendations/plan-implement.md)。
+>如果您使用at.js 2。*x*, `mboxCreate` （如以下示例中所示）不再受支持。 使用at.js 2将产品或内容信息传递给Recommendations。*x*，使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。 有关此示例，请参阅计 [划和实施Recommendations](/help/c-recommendations/plan-implement.md)。
 
 >[!NOTE]
 >

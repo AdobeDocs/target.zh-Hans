@@ -1,12 +1,16 @@
 ---
-keywords: 全局 mbox 参数;targetPageParams;查询字符串;数组;JSON;DTM;动态标签管理
+keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
 description: 可使用 JavaScript targetPageParams 函数将参数传递到全局 mbox。对于要将额外的定位/上下文信息传递到 Target 的任何情况，都需要执行此操作。
 title: 将参数传递到全局 mbox
-subtopic: 入门指南
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 97%
 
 ---
 

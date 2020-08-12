@@ -1,10 +1,14 @@
 ---
-keywords: Target;报表;报表设置;环境;提升度;提升度范围;方差;置信度;控制
+keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
 description: 报表包含一些数据点和可视化图表，有助于了解与您的活动相关的提升度范围和置信水平。这可帮助您更准确地确定入选者。
 title: 平均提升度、提升度范围和置信区间
+feature: null
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '845'
+ht-degree: 98%
 
 ---
 

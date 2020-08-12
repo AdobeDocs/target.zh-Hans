@@ -2,9 +2,13 @@
 keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
 description: 使用 Adobe Target 中的可视化体验编辑器，可以轻松地在启用了 Target 的页面上直接创建多变量测试 (MVT)，并在 Target 中修改页面的各个部分。
 title: 创建多变量测试
+feature: null
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 98%
 
 ---
 

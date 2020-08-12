@@ -2,11 +2,12 @@
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: 响应令牌允许您自动输出目标特定信息(活动详细信息、用户用户档案信息、地理信息等)，以用于调试或与第三方系统（如Clicktale）集成
 title: Adobe Target 中的响应令牌
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -58,7 +59,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    |  | `profile.categoryAffinities` | 将该访客排名前 5 的类别的数组作为字符串返回。 |
    | 活动 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 当前活动的详细信息。请注意，“option”等同于“offer”。 |
    | 地域 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 请参阅[地域](/help/c-target/c-audiences/c-target-rules/geo.md)以了解在活动中使用地域定位的详细信息。 |
-   | 流量分配方<br>法(仅 [!UICONTROL 适用于自动目标][!UICONTROL 和自] 动个性化活动。) | `experience.trafficAllocationId` | 如果访客从“控制”流量中获得体验，则返回0；如果访客从“目标”流量分配中获得体验，则返回1。 |
+   | 流量分配方<br>法(仅 [!UICONTROL 适用于自动目标] 和Automated Personalization活动。) | `experience.trafficAllocationId` | 如果访客从“控制”流量中获得体验，则返回0；如果访客从“目标”流量分配中获得体验，则返回1。 |
    |  | `experience.trafficAllocationType` | 返回“控制”或“目标”。 |
 
    用户配置文件属性和客户属性也会显示在列表中。
@@ -69,7 +70,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
-   单击 **[!UICONTROL 添加响应令牌]**，提供令牌名称，然后单 **[!UICONTROL 击激活]**。
+   单击 **[!UICONTROL 添加响应令牌]**，提供令牌名称，然后单击 **[!UICONTROL 激活]**。
 
    ![](assets/response_token_create.png)
 
@@ -290,6 +291,6 @@ Target 会定期刷新属性。任何未开启的属性都会在下次刷新时�
 
 >[!NOTE]
 >
->“管 [!DNL Target] 理 [!UICONTROL ”菜单UI(以] 前为“设置 ”)经过重新设计，可提供改进的性能、减少发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的； 但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
+>“管 [!DNL Target] 理 [!UICONTROL ”菜单UI(以] 前为“设置 ”)经过重新设计，可提供改进的性能、减少发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的；但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)

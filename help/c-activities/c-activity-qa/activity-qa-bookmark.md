@@ -1,11 +1,15 @@
 ---
-keywords: QA;预览;书签;预览链接
-description: 帮助您使用Adobe Target QA书签工具强制Target从QA模式中释放您的信息。
-title: Adobe Target的活动QA书签
+keywords: qa;preview;bookmarklet;preview links
+description: 帮助您使用Adobe TargetQA书签强制目标从QA模式中释放您的信息。
+title: 活动Adobe TargetQA书签
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 43%
 
 ---
 
@@ -16,7 +20,7 @@ Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Targ
 
 由于 [QA 模式](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)具有粘滞性，因此以 QA 模式浏览网站后，您必须终止 会话，或者需要让 将您从 QA 模式中释放出来，然后才能像普通访客一样查看您的网站。[!DNL Target][!DNL Target]Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser's Bookmarks Toolbar:
+To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
 ```
 javascript:(

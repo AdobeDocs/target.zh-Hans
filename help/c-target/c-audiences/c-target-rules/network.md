@@ -1,10 +1,14 @@
 ---
-keywords: 定位;网络;定位网络;ISP;域名;连接速度;定位 ISP;定位域名;定位连接速度
+keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
 description: 您可以在 Adobe Target 中基于网络详细信息创建受众。
 title: 在 Adobe Target 中基于网络详细信息创建受众。
+feature: null
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 99%
 
 ---
 
@@ -13,9 +17,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 您可以基于网络详细信息创建受众。
 
-1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** &gt; **[!UICONTROL 创建受众]**。
+1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
-1. 单击&#x200B;**[!UICONTROL 添加规则]** &gt; **[!UICONTROL 网络]**。
+1. 单击&#x200B;**[!UICONTROL 添加规则]** > **[!UICONTROL 网络]**。
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
    * **ISP：** ISP 是指向订户提供 Internet 接入服务的组织，订户需按月或按年向该组织缴纳相应费用。很多 ISP 还提供其他服务项目，例如 Web 托管或电子邮件服务。“ISP”字段中填写的内容可以是一个商业 ISP（例如 Comcast 或 TimeWarner），也可以是其他实体（例如企业或教育机构）。
@@ -49,7 +53,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
       此字段基于连接类型，而并非实际速度本身。[!DNL Target] 无法确定各种连接方式的精确连接速度。如果没有迹象显示使用了其他连接类型，则会使用宽带连接类型，因此无法选择特定的类型。
 
-1. （可选）单击&#x200B;**[!UICONTROL 添加规则]，然后为受众设置更多规则。**
+1. （可选）单击&#x200B;**[!UICONTROL 添加规则]**，然后为受众设置更多规则。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 下图展示了一个受众，它定位的是使用 AT&amp;T 且连接速度为“[!UICONTROL 移动设备]”的访客。
@@ -63,4 +67,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 创建受众
 * 定义受众类别
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)

@@ -1,10 +1,11 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 title: 自动定位
+feature: null
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3610'
 ht-degree: 85%
@@ -234,7 +235,7 @@ The length of time it takes for models to build in your [!UICONTROL Auto-Target]
 
 ### 在运行自动目标活动时，是否可以使用“重置报告数据”选项？
 
-不建议 [!UICONTROL 对自动目标][!UICONTROL 活动使] 用“重置报告数据”选项。 尽管它删除了可见的报告数据，但此选项并不会从自动目标模型 [!UICONTROL 中删除所有培训] 记录。 不要对自动 [!UICONTROL 目标活动] 使用“重置报告数 [!UICONTROL 据”选项] ，请创建新活动并取消激活原始活动。 (注： 本指南还适用于 [!UICONTROL 自动分配] 和 [!UICONTROL Automated Personalization] 活动。)
+不建议 [!UICONTROL 对自动目标][!UICONTROL 活动使] 用“重置报告数据”选项。 尽管它删除了可见的报告数据，但此选项并不会从自动目标模型 [!UICONTROL 中删除所有培训] 记录。 不要对自动 [!UICONTROL 目标活动] 使用“重置报告数据 [!UICONTROL ”] 选项，而是新建活动并取消激活原始活动。 (注：本指南还适用于 [!UICONTROL 自动分配] 和 [!UICONTROL Automated Personalization] 活动。)
 
 ## [!UICONTROL 自动定位]故障诊断 {#section_23995AB813F24525AF294D20A20875C8}
 

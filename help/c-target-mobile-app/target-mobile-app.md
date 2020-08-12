@@ -1,11 +1,15 @@
 ---
-keywords: 移动设备应用程序;移动设备应用程序过程;Target 移动设备应用程序;移动设备 Target 位置;移动设备应用程序成功量度
+keywords: mobile app;mobile app process;target mobile app;mobile target locations;mobile app success metrics
 description: Target 可用于移动设备应用程序优化和个性化
 title: 适用于移动设备应用程序的 Target
+feature: null
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 95%
 
 ---
 

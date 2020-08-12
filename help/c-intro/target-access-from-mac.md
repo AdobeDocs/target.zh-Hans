@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: 2fce6cd51f3d472001773d7b69eca52bcd1cf8c3
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 76%
 
 ---
 
@@ -17,17 +20,13 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ## 登录 Adobe Target 并设置默认视图
 
-1. 登录 [!DNL Experience Cloud] 之后，单击导航栏中的“应用程序”图标。
+1. 登录 [Adobe Experience Cloud](https://experience.adobe.com/)。
+
+1. 单击导 **[!UICONTROL 航栏中]** 的“应用程序”图标，然后单 **[!UICONTROL 击目标]**。
+
+   您还可以单击主窗 [!DNL Target] 口中的面板以访问(或 [!DNL Target] 您有权访问的 [!DNL Adobe Experience Cloud] 任何其他解决方案)。
 
    ![应用程序图标](/help/c-intro/assets/appmenu-new.png)
-
-1. 在“应用程序”菜单中单击 [!DNL Target] 图标。
-
-   ![Target 图标](/help/c-intro/assets/appmenu-target-new.png)
-
-1. 在 **[!UICONTROL 卡片上单击]**&#x200B;启动[!DNL Target]。
-
-   ![Target 启动](/help/c-intro/assets/target-launch-new.png)
 
 1. （可选）要将 [!DNL Target] 设置为登录到 [!DNL Experience Cloud] 后默认显示的应用程序，请在您的个人资料头像下方单击&#x200B;**[!UICONTROL 编辑个人资料]**，然后设置登陆页面首选项。
 
@@ -35,13 +34,15 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ## 更改 Target UI 的默认语言 {#language}
 
-1. 登录 [!DNL Adobe Experience Cloud ] 或 [!DNL Target] 后，单击个人资料头像，然后单击&#x200B;**[!UICONTROL 编辑个人资料]**。
+1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
 
    ![编辑个人资料](/help/c-intro/assets/change-language.png)
 
-1. 单击&#x200B;**[!UICONTROL 编辑个人信息]**。
+1. 单击 **[!UICONTROL Adobe帐]** 户以访问您的 [!DNL Adobe] 用户档案。
 
-1. 单击顶部菜单栏中的&#x200B;**[!UICONTROL 通信]**&#x200B;选项卡。
+   ![Adobe帐户](/help/c-intro/assets/adobe-account.png)
+
+1. 单击顶 **[!UICONTROL 部菜单]** 栏中的“通知”选项卡，然后单 **[!UICONTROL 击左侧]** 的“首选项”选项卡。
 
    ![首选语言](/help/c-intro/assets/prefered-language.png)
 
@@ -49,7 +50,7 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 1. 选择首选（主要）语言，然后根据需要选择第二种语言。
 
-   提供了以下语言版本的 [!DNL Target] UI：
+   UI [!DNL Target] 提供以下语言版本；但是，通知的语言更多：
 
    * 英语
    * 西班牙语
@@ -68,7 +69,7 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ## 更改 Target 产品文档的语言 {#doc-lang}
 
-您的操作系统或浏览器设置应会检测您的首选语言，并以该语言显示文档（如果适用）。Target 文档会自动翻译，并在对英文文档做出更改后的几小时内与英文版本保持同步。
+您的操作系统或浏览器设置应会检测您的首选语言，并以该语言显示文档（如果适用）。[!DNL Target] 文档会自动翻译，并在对英文文档做出更改后的几小时内与英文版本保持同步。
 
 您可以通过单击页面标题中的链接，快速将语言更改为原始英文版本。
 

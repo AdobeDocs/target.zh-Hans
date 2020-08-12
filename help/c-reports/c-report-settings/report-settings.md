@@ -2,9 +2,13 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: 此信息可帮助您设置要在报表中显示的元素。可保存报表设置，以供日后使用。
 title: 报表设置
+feature: null
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1878'
+ht-degree: 83%
 
 ---
 
@@ -27,7 +31,7 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 1. 根据需要配置活动的报告。
 
-   可用设置（包括指标、日期范围、受众、高级设置等）在下面进行说明。
+   可用设置(包括指标、日期范围、受众、高级设置等)在下面进行说明。
 
 1. 在 **[!UICONTROL Target 预设]**&#x200B;旁边，单击三个垂直省略号图标 > **[!UICONTROL 另存为新预设]**。
 
@@ -83,7 +87,7 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 * 已删除一个（或多个）量度，但预设定义中仍引用该量度。例如，您可能删除了活动中的一个或多个量度，然后添加了新量度。
 * 一个（或多个）主机组（环境）不存在，但预设定义中仍引用该主机组（环境）。
 * 创建预设后删除了一个（或多个）体验，但预设定义中仍引用该体验。
-* 预设在语义上无效，因为所引用的实体虽然仍存在，但是已通过对预设定义进行语义更改的方式进行了更新。例如，假设您最初创建了一个名为“Chrome 上的收入”的预设。稍后，您更新该活动以衡量转化量度而非收入。对活动定义的此次更新在语义上使预设定义无效。
+* 预设在语义上无效，因为所引用的实体虽然仍存在，但是已通过对预设定义进行语义更改的方式进行了更新。例如，假设您最初创建了一个名为“Chrome 上的收入”的预设。稍后，您更新该活动以衡量转化量度而非收入。对活动定义的此更新从语义上使预设定义无效。
 
 ## 报表量度 {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -101,7 +105,7 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ## 日期范围 {#section_A410A768403C4E01891F95CB357E63ED}
 
-“日期范围”框显示报表的当前日期范围。 单击下拉图标可显示允许您更改报表日期范围的日历。
+日期范围框显示报表的当前日期范围。 单击下拉图标可显示允许您更改报表日期范围的日历。
 
 ![选项](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
@@ -153,16 +157,16 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 单击“更多选项”图标（三个垂直省略号）可访问“[!UICONTROL 编辑活动]”和“[!UICONTROL 查看体验 URL]”选项。
 
-## 查看选项
+## 视图选项
 
-根据活动类型，可以查看各种格式的报告。 选择所需的选项。
+您可以视图各种格式的报表，具体取决于活动类型。 选择所需选项。
 
-![查看选项图标](/help/c-reports/c-report-settings/assets/view-options.png)
+![视图选项图标](/help/c-reports/c-report-settings/assets/view-options.png)
 
-* **表视图**:单击“ **[!UICONTROL 表视图]** ”图标以表的形式查看报告。
-* **图形视图**:单击“ **[!UICONTROL 图形视图]** ”图标以图形形式查看报表。
-* **自动细分**:(仅适用于自动个性化(AP)和自动定位(AT)活动。)单击**自动[!UICONTROL 化区段图标] ，查看自 [动化区段报告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
-* **重要属性**:(仅适用于自动个性化(AP)和自动定位(AT)活动。)单击“**重要[!UICONTROL 属性] ”图标以查看“重要 [属性”报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
+* **表视图**:单击“ **[!UICONTROL 表视图]** ”图标，将报表视图为表。
+* **图形视图**:单击图 **[!UICONTROL 形视图]** 图标以将报表视图为图形。
+* **自动细分**:(仅适用于Automated Personalization(AP)和自动目标(AT)活动。) 单击“**自动[!UICONTROL 化细分] ”图标以视图 [“自动细分”报表](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
+* **重要属性**:(仅适用于Automated Personalization(AP)和自动目标(AT)活动。) 单击“**重要[!UICONTROL 属性] ”图标以视图 [重要属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
 
 ## 平均提升度、提升度范围和置信区间 {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -193,7 +197,7 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 （仅在图形视图中查看报表时可用）
 
-“运行平均值”表示累积的转化率（从报告窗口的开始到图表上显示的日期）除以累积的访客数。
+“运行平均值”反映累计转换(从报告窗口的开始到图表上表示的日期)除以累计访客。
 
 选择所需的图形视图。
 
@@ -235,17 +239,17 @@ You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then 
 
 默认的图形绘制顺序如下：
 
-* **A/B测试（包括自动分配和自动个性化）**:体验创建的顺序（按降序排列）。
-* **体验定位(XT)**:活动中的体验顺序。
-* **Multivariate Test(MVT)**:按体验名称排序。
-* **建议**:体验创建的顺序（按降序排列）。
+* **A/B测试(包括自动分配和Automated Personalization)**:体验创建的顺序，按降序排列。
+* **体验定位(XT)**:活动体验的顺序。
+* **Multivariate Test(MVT)**:按体验名称字母排序。
+* **Recommendations**:体验创建的顺序，按降序排列。
 
 在使用“计数方法”选项时，请考虑以下注意事项：
 
 * For [Auto-Target activities](/help/c-activities/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. 自动定位是唯一一种无法按访客绘制图形的活动类型。
 * For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
 
-## 使用在活动中具有16个以上体验的图形
+## 处理在活动中具有16个以上体验的图形
 
 如果活动中的体验少于 16 个，则会在图形中分别用不同的颜色绘制每个体验。
 

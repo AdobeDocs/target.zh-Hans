@@ -2,9 +2,13 @@
 keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: 使用 Target 可视化体验编辑器 (VEC)，可直接在启用了 Target 的页面上创建“推荐”活动，并在 Target 中修改页面的各个部分。
 title: 创建“推荐”活动
+feature: null
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1150'
+ht-degree: 94%
 
 ---
 
@@ -61,6 +65,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    * 搜索结果页面
    * 感谢页面
    * 其他
+
    ![“选择页面类型”选项](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
 1. 选择一个或多个[标准](/help/c-recommendations/c-algorithms/algorithms.md)。
@@ -165,6 +170,6 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    如果设置了多个活动来向同一个页面交付内容，则会发生活动冲突，这可能导致页面显示意外内容。
 
-## 培训视频：创建“推荐”活动 (7:15) 教 ![程徽章](/help/assets/tutorial.png)
+## 培训视频：创建“推荐”活动 (7:15) ![教程徽章](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)

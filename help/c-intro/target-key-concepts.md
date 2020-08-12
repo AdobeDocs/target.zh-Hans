@@ -2,11 +2,15 @@
 keywords: Overview and Reference;act
 description: 此信息介绍了有助于您了解 Adobe Target 特性和功能的关键概念。
 title: Target 关键概念
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1515'
+ht-degree: 98%
 
 ---
 
@@ -107,7 +111,7 @@ An *体验*&#x200B;可决定满足特定条件时所显示的内容。
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 活动类型(9:03)概 ![述徽章](/help/assets/overview.png)
+### 活动类型(9:03) ![概述徽章](/help/assets/overview.png)
 
 以下视频介绍了 [!DNL Target Standard/Premium] 中可用的活动类型。
 
@@ -117,7 +121,7 @@ An *体验*&#x200B;可决定满足特定条件时所显示的内容。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### 在Adobe目标中使用受众(6:21)概 ![述徽章](/help/assets/overview.png)
+### 在Adobe Target使用受众(6:21)概 ![述徽章](/help/assets/overview.png)
 
 以下视频介绍了如何在 [!DNL Target Standard/Premium] 中使用受众。
 

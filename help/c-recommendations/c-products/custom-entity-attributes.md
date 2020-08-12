@@ -2,9 +2,13 @@
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: 可使用单值和多值自定义实体属性来对目录中的项目定义其他相关信息。
 title: 自定义实体属性
+feature: null
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: a686c6964bba360f013d6fb7effcfc7ae5f1eaf5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1364'
+ht-degree: 95%
 
 ---
 
@@ -109,7 +113,7 @@ function targetPageParams() {
 
 **使用 API**
 
-您可以使用mbox参数中的交付API作为包含转义JSON数组的字符串值传递多值属性。
+您可以使用mbox参数中的投放API作为包含转义JSON数组的字符串值传递多值属性。
 
 ```
 "execute": {

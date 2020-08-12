@@ -2,9 +2,13 @@
 keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: 在 Adobe Target 中创建受众以根据将访客引荐至您网站的搜索引擎或登陆页面来定位访客。
 title: 在 Adobe Target 中定位流量源
+feature: null
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +36,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    * 引荐登陆页面: URL
    * 引荐登陆页面: 域
    * 引荐登陆页面: 查询
+
    根据您的选择，您可能需要提供其他信息（计算器和/或值）。
 
 1. （可选）单击&#x200B;**[!UICONTROL 添加规则]**，然后为受众设置更多规则。

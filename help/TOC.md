@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4287c93058e279da6de262a19fbabb4bbacdf7ad
+source-git-commit: 240c0f36bf39ee16d8d8e1b66ad6bed54b4f1fed
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1439'
 ht-degree: 91%
 
 ---
@@ -394,5 +394,5 @@ ht-degree: 91%
    + [Target 故障诊断](r-troubleshooting-target/troubleshooting-target.md)
    + [限制](r-troubleshooting-target/target-limits.md)
 + Target API {#apis}
-   + [了解目标API](/help/api/api-overview.md)
+   + [Adobe TargetAPI概述](/help/api/api-overview.md)
 + [资源和联系信息](cmp-resources-and-contact-information.md)

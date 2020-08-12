@@ -1,11 +1,15 @@
 ---
-keywords: adobe.target.trackEvent;trackEvent;trackevent;跟踪事件;at.js;函数;函数;preventDefault;preventdefault;阻止默认值
+keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
 description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.trackEvent(options) 函数的信息。
 title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.trackEvent(options) 函数的信息。
-subtopic: 入门指南
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +27,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | mbox | 字符串 | 是 | Mbox 名称 |
 | selector | 字符串 | 否 | 用于查找 HTML 元素的 CSS 选择器。事件监听程序将附加到找到的元素。 |
 | type | 字符串 | 否 | 表示已注册的事件类型。它既可以是 HTML 已知的事件，如：click、mousedown 等，也可以是自定义 HTML 事件。 |
-| preventDefault | 布尔值 | 否 | 表示是否在事件监听程序回调中使用 `event.preventDefault()`。默认为 false。<br>**注意**：仅支持 `form[submit] and `a[click]`。由于复杂性和要支持的方案数量太多，因此其他方案不受支持。 |
+| preventDefault | 布尔值 | 否 | 表示是否在事件监听程序回调中使用 `event.preventDefault()`。默认为 false。<br>**注意&#x200B;**：仅支持`form[submit] and `a[click]`。由于复杂性和要支持的方案数量太多，因此其他方案不受支持。 |
 | 参数 | 对象 | 否 | Mbox 参数。键值对这一对象具有以下结构：<br>`{ "param1": "value1", "param2": "value2"}` |
 | timeout | 数值 | 否 | 以毫秒为单位的超时时间。<br>如果未指定，则使用默认值：<br>`...timeoutInSeconds: 0.15...}` |
 | success | 函数 | 否 | 用于表示该事件已报告的回调函数。 |

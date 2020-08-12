@@ -2,10 +2,11 @@
 keywords: Target Standard;at.js;implementation
 description: at.js 库是适用于 Adobe Target 的新实施库，专为典型的 Web 实施和单页应用程序而设计。
 title: 从 mbox.js 迁移到 at.js
+feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: d7c9f8c21a6acf195d416ad37d70c0b72d671ebc
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 89%
@@ -27,8 +28,7 @@ at.js 库是适用于 [!DNL Adobe Target] 的新实施库，专为典型的 Web 
 
 ## at.js 的好处 {#benefits}
 
-下表说明了两个库之间的差异：
-4
+下表说明了两个库之间的差异：4
 |库参考 |说明 |
 |— |— |
 |at.js|at.js替换了mbox.js以用于实施 [!DNL Target] 。<br>使用 at.js 具有许多好处，包括缩短 Web 实施的页面加载时间，增强安全性，在 Google Chrome 中阻止 document.write 警告，以及为单页应用程序提供更好的实施选项，等等。<br>有关更多信息，请参阅 [at.js 实施](#implement)。|

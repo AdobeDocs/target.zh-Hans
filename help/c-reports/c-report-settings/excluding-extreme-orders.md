@@ -1,10 +1,14 @@
 ---
-keywords: Target;报表;报表设置;超常订单;极端值
-description: 您可以从影响Adobe Target中的报表中排除极值，以便少数不寻常的订单不会影响您的活动结果。 例如，与个人购买者购买个人制服相比，一位教练为整个团队购买统一制服可能会产生一个超常订单。
-title: 在Adobe target报告中排除极值
+keywords: Target;reports;report settings;extreme orders;extreme values
+description: 您可以排除影响Adobe Target报告的极端值，这样少数不寻常的订单不会影响您的活动结果。 例如，与个人购买者购买个人制服相比，一位教练为整个团队购买统一制服可能会产生一个超常订单。
+title: 在Adobe Target报告中排除极端值
+feature: null
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 88%
 
 ---
 
@@ -32,7 +36,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![报表设置](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
 
-   此时将显示 [!UICONTROL “报告设置] ”选项对话框。
+   此时将显示 [!UICONTROL “报告设] 置选项”对话框。
 
    ![步骤结果](assets/exclude_extreme_values.png)
 

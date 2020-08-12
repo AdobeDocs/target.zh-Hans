@@ -2,10 +2,11 @@
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
 description: 通过查看 Target UI 中的指示器，可确定自动分配 A/B 活动中的入选者。
 title: 确定入选者
+feature: null
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 0c54560d1f19b498c3c541a2146aeeaf33f5bd17
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 49%
@@ -15,7 +16,7 @@ ht-degree: 49%
 
 # 解释自动分配报告 {#determine-a-winner}
 
-通过检查活动UI中的重要指标（包括提升和置信度）来解释自动分配A/BTarget的结果。
+通过检查活动UI中的重要指标（包括提升和置信度）来解释自动分配A/B目标的结果。
 
 许多营销人员会在结果指示明确的入选者之前，过早地错误宣布入选体验。现在，我们可使您更轻松地确定入选者。
 
@@ -49,13 +50,13 @@ ht-degree: 49%
 
 >[!IMPORTANT]
 >
->Target在预定义的最小转化率后显示入选方； 但是，挑选获胜者的最终决定应始终取决于Adobe Target样本 [大小计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)。 Target不考虑站点的基本转化率以及输入计算器以确定活动持续时间的其他重要方面。 因此，Target可能会提前在最低转化率的基础上显示优胜者。 有关详细信息，请参 [阅示例大小计算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
+>目标在预定义的最小转化率后显示入选方；但是，挑选获胜者的最终决定应始终取决于Adobe Target样本 [大小计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)。 目标不考虑站点的基本转化率以及输入计算器以确定活动持续时间的其他重要方面。 因此，目标可能会提前在最低转化率的基础上显示优胜者。 有关详细信息，请参 [阅示例大小计算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
 
 ## 了解自动分配报告中的提升和置信度活动 {#lift-confidence}
 
 在“自动分配”活动中，第一个体验（默认情况下名为体验A）始终在“报告”选项卡上定义为“控制”体验。 在用于确定体验性能的建模中，此体验不被视为真正的统计控制，但它被视为报告中某些数字的参考或基准。
 
-每次体验的“提升”数值和95%界限始终参考定义的“控制”体验进行计算。 定义的“控制”体验不能具有相对于自身的提升，因此会报告此体验的空“—”值。 与A/B测试不同，在自动分配测试中，如果体验的性能比定义的控件差，则不会报告负提升值； 而是显示“—”。
+每次体验的“提升”数值和95%界限始终参考定义的“控制”体验进行计算。 定义的“控制”体验不能具有相对于自身的提升，因此会报告此体验的空“—”值。 与A/B测试不同，在自动分配测试中，如果体验的性能比定义的控件差，则不会报告负提升值；而是显示“—”。
 
 显示的置信区间栏代表体验转化率的平均估计值周围的95%置信区间。 这些内容还与定义的“控制”体验有关。 “控制”体验的条始终呈灰色。 “控制”体验的置信区间下的置信区间部分为红色，而“控制”体验上方的置信区间部分为绿色。
 

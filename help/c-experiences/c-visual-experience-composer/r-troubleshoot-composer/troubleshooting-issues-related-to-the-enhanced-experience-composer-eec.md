@@ -2,9 +2,10 @@
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
 description: 有时，在某些情况下，增强型体验编辑器 (EEC) 会发生显示问题。
 title: 对与增强型体验编辑器有关的问题进行故障诊断
+feature: null
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 71%
@@ -18,9 +19,9 @@ ht-degree: 71%
 
 ## EEC 无法加载在公共 IP 上不可访问的内部 QA URL。（仅 EEC）{#section_D29E96911D5C401889B5EACE267F13CF}
 
-这可以通过允许列出以下IP地址来解决。 用作增强型体验编辑器代理的 Adobe 服务器使用这些 IP 地址。仅在编辑活动时才需要这些地址。访客到您的站点不需要这些允许的IP地址
+这可以通过列入允许列表以下IP地址来解决。 用作增强型体验编辑器代理的 Adobe 服务器使用这些 IP 地址。仅在编辑活动时才需要这些地址。访客到您的站点不需要这些IP地列入允许列表址
 
-请让您的IT团队允许列出以下IP地址：
+请让您的IT团允许列表队以下IP地址：
 
 | 区域 | IP 地址 | 主机名 |
 |--- |--- |--- |
@@ -38,9 +39,9 @@ ht-degree: 71%
 
 * **问题：**&#x200B;您的网站域 (ISP) 正在阻止增强型体验编辑器。
 
-   **补偿：** 允许列出上面列出的IP地址。
+   **补偿：** 允许列表上面列出的IP地址。
 
-* **问题：** 允许列出IP地址，但您的网站不支持TLS版本1.2。目标当前使用默认配置1.2。在目标18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。有关详细信息，请参 [阅TLS（传输层安全）加密更改](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+* **问题：** IP地址已列入允许列表，但您的网站不支持TLS版本1.2。目标当前使用默认配置1.2。在目标18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。有关详细信息，请参阅 [TLS（传输层安全）加密更改](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
    **解决方案：**&#x200B;请参阅下一个问题（增强型可视化体验编辑器无法加载使用 TLS 1.2 的网站上的安全页面）。
 

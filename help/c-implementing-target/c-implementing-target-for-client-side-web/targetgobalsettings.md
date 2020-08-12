@@ -2,10 +2,11 @@
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数的信息。
 title: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数的信息。
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 40%
@@ -26,70 +27,70 @@ ht-degree: 40%
 ### bodyHiddenStyle
 
 * **类型**：字符串
-* **默认值**: body { opacity: 0 }
-* **描述**: 仅在将闪 `globalMboxAutocreate === true` 烁的可能性降至最低时使用。
+* **默认值**:body { opacity:0 }
+* **描述**:仅在将闪 `globalMboxAutocreate === true` 烁的可能性降至最低时使用。
 
    有关更多信息，请参阅 [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。
 
 ### bodyHidingEnabled
 
-* **类型**: 布尔值
-* **默认值**: 真
-* **描述**: 用于在传送在 `target-global-mbox` Visual Experience Composer中创建的优惠(也称为可视优惠)时控制闪烁。
+* **类型**:布尔值
+* **默认值**:真
+* **描述**:用于在传送在 `target-global-mbox` Visual Experience Composer中创建的优惠(也称为可视优惠)时控制闪烁。
 
 ### clientCode
 
 * **类型**：字符串
-* **默认值**: 通过UI设置的值。
-* **描述**: 表示客户端代码。
+* **默认值**:通过UI设置的值。
+* **描述**:表示客户端代码。
 
 ### cookieDomain
 
 * **类型**：字符串
-* **默认值**: 如果可能，请设置到顶级域。
-* **描述**: 表示保存Cookie时使用的域。
+* **默认值**:如果可能，请设置到顶级域。
+* **描述**:表示保存Cookie时使用的域。
 
 ### crossDomain
 
 * **类型**：字符串
-* **默认值**: 通过UI设置的值。
-* **描述**: 指示是否启用跨域跟踪。 允许的值包括： 禁用、启用或仅x-only。
+* **默认值**:通过UI设置的值。
+* **描述**:指示是否启用跨域跟踪。 允许的值包括：禁用、启用或仅x-only。
 
 ### cspScriptNonce
 
-* **类型**: 请参 [阅下面的内容安全](#content-security) 策略。
-* **默认值**: 请参 [阅下面的内容安全](#content-security) 策略。
-* **描述**: 请参 [阅下面的内容安全](#content-security) 策略。
+* **类型**:请参 [阅下面的内容安全](#content-security) 策略。
+* **默认值**:请参 [阅下面的内容安全](#content-security) 策略。
+* **描述**:请参 [阅下面的内容安全](#content-security) 策略。
 
 ### cspStyleNonce
 
-* **类型**: 请参 [阅下面的内容安全](#content-security) 策略。
-* **默认值**: 请参 [阅下面的内容安全](#content-security) 策略。
-* **描述**: 请参 [阅下面的内容安全](#content-security) 策略。
+* **类型**:请参 [阅下面的内容安全](#content-security) 策略。
+* **默认值**:请参 [阅下面的内容安全](#content-security) 策略。
+* **描述**:请参 [阅下面的内容安全](#content-security) 策略。
 
 ### dataProviders
 
-* **类型**: 请参 [阅下面的](#data-providers) “数据提供者”。
-* **默认值**: 请参 [阅下面的](#data-providers) “数据提供者”。
-* **描述**: 请参 [阅下面的](#data-providers) “数据提供者”。
+* **类型**:请参 [阅下面的](#data-providers) “数据提供者”。
+* **默认值**:请参 [阅下面的](#data-providers) “数据提供者”。
+* **描述**:请参 [阅下面的](#data-providers) “数据提供者”。
 
 ### defaultContentHiddenStyle
 
 * **类型**：字符串
-* **默认值**: 可见性： 隐藏
-* **描述**: 仅用于包装使用类名为“mboxDefault”的DIV并通过、或隐藏默认 `mboxCreate()`内 `mboxUpdate()`容执 `mboxDefine()` 行的mbox。
+* **默认值**:可见性：隐藏
+* **描述**:仅用于包装使用类名为“mboxDefault”的DIV并通过、或隐藏默认 `mboxCreate()`内 `mboxUpdate()`容执 `mboxDefine()` 行的mbox。
 
 ### defaultContentVisibleStyle
 
 * **类型**：字符串
-* **默认值**: 可见性： 可见
-* **描述**: 仅用于包装使用类名为“mboxDefault”的DIV并通过、或 `mboxCreate()`显示 `mboxUpdate()`应用的 `mboxDefine()` 优惠（如果有或默认内容）的mbox。
+* **默认值**:可见性：可见
+* **描述**:仅用于包装使用类名为“mboxDefault”的DIV并通过、或 `mboxCreate()`显示 `mboxUpdate()`应用的 `mboxDefine()` 优惠（如果有或默认内容）的mbox。
 
 ### deviceIdLifetime
 
-* **类型**: 数字
-* **默认值**: 63244800000 ms = 2年
-* **描述**: Cookie中保 `deviceId` 留的时间。
+* **类型**:数字
+* **默认值**:63244800000 ms = 2年
+* **描述**:Cookie中保 `deviceId` 留的时间。
 
 >[!NOTE]
 >
@@ -97,61 +98,61 @@ ht-degree: 40%
 
 ### 已启用
 
-* **类型**: 布尔值
-* **默认值**: 真
-* **描述**: 启用后，将自 [!DNL Target] 动执行检索体验的请求和呈现体验的DOM操作。 此外， [!DNL Target] 可通过／手动执 `getOffer(s)` 行调用 `applyOffer(s)`。
+* **类型**:布尔值
+* **默认值**:真
+* **描述**:启用后，将自 [!DNL Target] 动执行检索体验的请求和呈现体验的DOM操作。 此外， [!DNL Target] 可通过／手动执 `getOffer(s)` 行调用 `applyOffer(s)`。
 
    禁用时 [!DNL Target] ，不自动或手动执行请求。
 
 ### globalMboxAutoCreate
 
-* **类型**: 数字
-* **默认值**: 通过UI设置的值。
-* **描述**: 指示是否应触发全局mbox请求。
+* **类型**:数字
+* **默认值**:通过UI设置的值。
+* **描述**:指示是否应触发全局mbox请求。
 
 ### imsOrgId
 
-* **类型**: Sting
-* **默认值**: 真
-* **描述**: 表示IMS组织ID。
+* **类型**:Sting
+* **默认值**:真
+* **描述**:表示IMS组织ID。
 
 ### optoutEnabled
 
-* **类型**: 布尔值
-* **默认值**: 假
-* **描述**: 指示目标是否应调用访客API `isOptedOut()` 函数。 这是启动设备图形的一部分。
+* **类型**:布尔值
+* **默认值**:假
+* **描述**:指示目标是否应调用访客API `isOptedOut()` 函数。 这是启动设备图形的一部分。
 
 ### overrideMboxEdgeServer
 
-* **类型**: 布尔值
-* **默认值**: true（以at.js版本1.6.2开头，为true）
-* **描述**: 指示我们是否应 `<clientCode>.tt.omtrdc.net` 使用域 `mboxedge<clusterNumber>.tt.omtrdc.net` 或域。
+* **类型**:布尔值
+* **默认值**:true（以at.js版本1.6.2开头，为true）
+* **描述**:指示我们是否应 `<clientCode>.tt.omtrdc.net` 使用域 `mboxedge<clusterNumber>.tt.omtrdc.net` 或域。
 
    如果此值为 true，`mboxedge<clusterNumber>.tt.omtrdc.net` 域将被保存到 Cookie 中. 当前不使用 [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
 
 ### overrideMboxEdgeServerTimeout
 
-* **类型**: 数字
-* **默认值**: 1860000 => 31分钟
-* **描述**: 指示包含该值的Cookie生 `mboxedge<clusterNumber>.tt.omtrdc.net` 存期。
+* **类型**:数字
+* **默认值**:1860000 => 31分钟
+* **描述**:指示包含该值的Cookie生 `mboxedge<clusterNumber>.tt.omtrdc.net` 存期。
 
 ### pageLoadEnabled
 
-* **类型**: 布尔值
-* **默认值**: 真
-* **描述**: 启用后，将自动检索页面加载时必须返回的体验。
+* **类型**:布尔值
+* **默认值**:真
+* **描述**:启用后，将自动检索页面加载时必须返回的体验。
 
 ### secureOnly
 
-* **类型**: 布尔值
-* **默认值**: 假
-* **描述**: 指示at.js应仅使用HTTPS，还是允许根据页面协议在HTTP和HTTPS之间切换。
+* **类型**:布尔值
+* **默认值**:假
+* **描述**:指示at.js应仅使用HTTPS，还是允许根据页面协议在HTTP和HTTPS之间切换。
 
 ### selectorsPollingTimeout
 
-* **类型**: 数字
-* **默认值**: 5000 ms = 5 s
-* **描述**: 在at.js 0.9.6中，引 [!DNL Target] 入了可通过覆盖的新设置 `targetGlobalSettings`。
+* **类型**:数字
+* **默认值**:5000 ms = 5 s
+* **描述**:在at.js 0.9.6中，引 [!DNL Target] 入了可通过覆盖的新设置 `targetGlobalSettings`。
 
    The `selectorsPollingTimeout` setting represents how long the client is willing to wait for all the elements identified by selectors to appear on the page.
 
@@ -160,32 +161,32 @@ ht-degree: 40%
 ### serverDomain
 
 * **类型**：字符串
-* **默认值**: 通过UI设置的值。
-* **描述**: 表示目标边缘服务器。
+* **默认值**:通过UI设置的值。
+* **描述**:表示目标边缘服务器。
 
 ### serverState
 
-* **类型**: 请参 [阅以下混合](#server-state) 个性化。
-* **默认值**: 请参 [阅以下混合](#server-state) 个性化。
-* **描述**: 请参 [阅以下混合](#server-state) 个性化。
+* **类型**:请参 [阅以下混合](#server-state) 个性化。
+* **默认值**:请参 [阅以下混合](#server-state) 个性化。
+* **描述**:请参 [阅以下混合](#server-state) 个性化。
 
 ### timeout
 
-* **类型**: 数字
-* **默认值**: 通过UI设置的值。
-* **描述**: 表示边缘 [!DNL Target] 请求超时。
+* **类型**:数字
+* **默认值**:通过UI设置的值。
+* **描述**:表示边缘 [!DNL Target] 请求超时。
 
 ### viewsEnabled
 
-* **类型**: 布尔值
-* **默认值**: 真
-* **描述**: 启用后，将自动检索页面加载时必须返回的视图。 视图在at.js 2中受支持。*x*。
+* **类型**:布尔值
+* **默认值**:真
+* **描述**:启用后，将自动检索页面加载时必须返回的视图。 视图在at.js 2中受支持。*x*。
 
 ### visitorApiTimeout
 
-* **类型**: 数字
-* **默认值**: 2000 ms = 2 s
-* **描述**: 表示 [!UICONTROL 访客API] 请求超时。
+* **类型**:数字
+* **默认值**:2000 ms = 2 s
+* **描述**:表示 [!UICONTROL 访客API] 请求超时。
 
 ## 使用情况 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
@@ -349,8 +350,8 @@ window.targetGlobalSettings = {
 
 您必须具有混合集成 [!DNL Target]。
 
-* **服务器端**:  必须使用新的 [投放API](https://developers.adobetarget.com/api/delivery-api/) 或 [目标SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
-* **客户端**: 必须使用 [at.js版本2.2或更高版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+* **服务器端**: 必须使用新的 [投放API](https://developers.adobetarget.com/api/delivery-api/) 或 [目标SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)。
+* **客户端**:必须使用 [at.js版本2.2或更高版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
 ### 代码范例
 
@@ -468,7 +469,7 @@ Consider the following when using `serverState`:
 
       如果SPA使用 [!DNL Target] 视图 `triggerView()` ，并且在at.js API中，at.js v2.2会缓存服务器端预取的所有视图的内容，并在通过触发每个视图时立即应用这些内容，同 `triggerView()`样不会向目标发出任何其他内容提取调用。
 
-   * **注意**:  目前，不支持在服务器端检索的mbox `serverState`。
+   * **注意**: 目前，不支持在服务器端检索的mbox `serverState`。
 
 * 应用 `serverState `优惠时，at.js会考虑 `pageLoadEnabled` 和 `viewsEnabled` 设置，例如，如果设置为false，则不会应 `pageLoadEnabled` 用页面加载优惠。
 

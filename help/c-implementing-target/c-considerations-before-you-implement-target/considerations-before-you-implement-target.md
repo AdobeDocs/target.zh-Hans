@@ -2,11 +2,12 @@
 keywords: implement;implementing
 description: 在实施 Adobe Target 之前应考虑的注意事项。
 title: 实施之前
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 96%
@@ -31,4 +32,4 @@ ht-degree: 96%
 - [支持的浏览器](supported-browsers.md)
 - [TLS（传输层安全性）加密更改](tls-transport-layer-security-encryption.md)
 - [CNAME 和 Adobe Target](implement-cname-support-in-target.md)
-- [允许列表目标边缘节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [允许列表目标边节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)

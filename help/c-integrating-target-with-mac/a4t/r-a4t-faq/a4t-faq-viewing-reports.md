@@ -2,11 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时查看报表的常见问题解答。
 title: 查看报表 - A4T 常见问题解答
-feature: null
+feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 63%

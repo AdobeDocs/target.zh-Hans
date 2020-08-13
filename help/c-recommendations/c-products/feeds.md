@@ -2,10 +2,10 @@
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: 可使用信息源将实体导入到 Adobe Recommendations 中。可以使用 CSV 文件、Google Product Search 信息源格式和/或 Adobe Analytics 产品分类来发送实体。
 title: 信息源
-feature: null
+feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '2457'
 ht-degree: 93%
@@ -288,7 +288,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 | 正在等待下载 | Target 正准备下载信息源文件。 |
 | 正在下载信息源文件 | Target 正在下载信息源文件。 |
 | 正在导入项目 | Target 正在从信息源文件中导入项目。 |
-| 已在&#x200B;*指定时间*&#x200B;成功导入信息源 | Target 已将信息源文件导入其内容交付系统。已在内容交付系统中对项目属性进行了更改，并且此更改将很快地反映在交付的推荐中。如果没有看到预期的更改，请稍后重试并刷新包含推荐的页面。<br>*注意 1：*如果对项目属性所做的更改导致项目被排除在推荐之外，则会立即反映该排除项。如果项目是新添加的，或者对属性的更改导致该项目*&#x200B;不再&#x200B;*被排除在推荐之外，则在下一次算法更新之前不会反映此项目，此过程将在 24 小时内发生。<br>*注意 2：*&#x200B;显示此状态时，更新可能尚未反映在“目录搜索”用户界面中。“目录搜索”中会列出一个单独的状态，指示上次更新可搜索目录的时间。 |
+| 已在&#x200B;*指定时间*&#x200B;成功导入信息源 | Target 已将信息源文件导入其内容交付系统。已在内容交付系统中对项目属性进行了更改，并且此更改将很快地反映在交付的推荐中。如果没有看到预期的更改，请稍后重试并刷新包含推荐的页面。<br>*注意 1：*&#x200B;如果对项目属性所做的更改导致项目被排除在推荐之外，则会立即反映该排除项。如果项目是新添加的，或者对属性的更改导致该项目&#x200B;*不再*&#x200B;被排除在推荐之外，则在下一次算法更新之前不会反映此项目，此过程将在 24 小时内发生。<br>*注意 2：*&#x200B;显示此状态时，更新可能尚未反映在“目录搜索”用户界面中。“目录搜索”中会列出一个单独的状态，指示上次更新可搜索目录的时间。 |
 | 未能编入索引 | 索引操作失败。请重试。 |
 | 未找到服务器 | FTP 或 URL 位置无效或无法访问。 |
 

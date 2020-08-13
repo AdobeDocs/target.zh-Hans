@@ -2,11 +2,11 @@
 keywords: Experience Cloud Audiences;audiences
 description: 通过 Experience Cloud 受众，Adobe Experience Cloud 解决方案能够传输和共享与网站访客有关的信息，以便每个解决方案均可使用相同的数据。
 title: Experience Cloud 受众
-feature: null
+feature: experience cloud audiences
 topic: Standard
 uuid: b3ec2cc8-f07b-4f09-85f2-bbf5495d0490
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 76%

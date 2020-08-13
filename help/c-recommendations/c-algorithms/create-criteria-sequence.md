@@ -2,10 +2,10 @@
 keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: 可使用最多包含五个标准的序列来加强对“推荐”活动中显示的项目的控制。
 title: 创建标准序列
-feature: null
+feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 99%

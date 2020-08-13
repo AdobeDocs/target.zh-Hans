@@ -2,11 +2,11 @@
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: 您可以在“目标和设置”页面上输入有关测试目标的信息。
 title: 目标和设置
-feature: null
+feature: ab
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 96%

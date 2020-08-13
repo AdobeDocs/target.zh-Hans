@@ -2,11 +2,11 @@
 keywords: troubleshoot target;troubleshooting target
 description: 本文列出了一些主题，可帮助您解决 Adobe Target 中出现的问题，这些主题包括故障诊断主题、常见问题解答 (FAQ) 以及其他有用的主题。
 title: Adobe Target疑难解答
-feature: null
+feature: troubleshooting general
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 97%

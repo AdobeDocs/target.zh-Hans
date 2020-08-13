@@ -1,10 +1,10 @@
 ---
 description: 有关在 Adobe Target 中使用可视化体验编辑器 (VEC) 的信息。
 title: Adobe Target 可视化体验编辑器 (VEC)
-feature: null
+feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%

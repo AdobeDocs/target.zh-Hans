@@ -2,12 +2,12 @@
 keywords: implement;implementing;rfi;request for information
 description: 本文提供了在准备实施 Adobe Target 时，您应该完成的一些任务以及应该收集的一些信息。
 title: 准备实施 Adobe Target
-feature: null
+feature: implementation pre-reqs
 subtopic: Getting Started
 topic: Standard
 uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%

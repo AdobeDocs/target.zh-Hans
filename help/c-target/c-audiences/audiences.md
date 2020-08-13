@@ -2,11 +2,11 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Adobe Target 中的受众可决定将在定位活动中看到内容和体验的人群。
 title: 在 Adobe Target 中创建受众
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -75,7 +75,7 @@ Adobe Target 中的受众可决定将在定位活动中看到内容和体验的�
 | 受众类型 | 详细信息 |
 |--- |--- |
 | 移动设备受众 | 设备营销名称、供应商和型号。<br>将显示 `matches | does not match` 运算符，而不是`equals | does not equal`<br>![导入的移动设备受众](/help/c-target/c-audiences/assets/imported_mobile_audience.png)。 |
-| 访客行为受众 | **user.categoryAffinity：**&#x200B;带有 `FAVORITE` 参数的 `categoryAffinity`。<br>![导入的类别亲和度](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**监控：**监控服务等于 true。<br>**无监控服务：**&#x200B;监控服务等于 false。<br>![导入的监控](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| 访客行为受众 | **user.categoryAffinity：**&#x200B;带有 `FAVORITE` 参数的 `categoryAffinity`。<br>![导入的类别亲和度&#x200B;](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**监控：**&#x200B;监控服务等于 true。<br>**无监控服务：**&#x200B;监控服务等于 false。<br>![导入的监控](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | 使用 NOT 运算符的受众 | **单一规则：** Target 以 `[All Visitor AND [NOT [rule]` 格式显示受众。单个 NOT 规则会与 AND 及 `AllVisitor` 受众一同显示。<br>![导入的使用 NOT 运算符的受众](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 使用导入的受众时，请牢记以下几点信息：

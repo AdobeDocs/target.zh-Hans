@@ -2,11 +2,11 @@
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
 description: 有关使用在Adobe Experience Manager(AEM)Adobe Target活动创建的体验片段来帮助优化或个性化的信息。
 title: Adobe Experience Manager(AEM)Adobe Target体验片段
-feature: null
+feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 22%
@@ -49,17 +49,17 @@ In order to use [!DNL AEM] experience fragments in [!DNL Target], you must perfo
 
 有关详细信息，请参阅：
 
-* **[!DNL AEM]6.3 **:[在Adobe Experience Manager6.3文件](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)中选_择Adobe Analytics和Adobe Target _。
-* **[!DNL AEM]6.4 **:[在Adobe Experience Manager6.4文件](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)中选_择Adobe Analytics和Adobe Target _。
-* **[!DNL AEM]6.5 **:[在Adobe Experience Manager6.5](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)号文件&#x200B;*中选择Adobe Analytics和Adobe Target*。
+* **[!DNL AEM]6.3**: [在Adobe Experience Manager6.3文件](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) 中选 _择Adobe Analytics和Adobe Target_ 。
+* **[!DNL AEM]6.4**: [在Adobe Experience Manager6.4文件](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) 中选 _择Adobe Analytics和Adobe Target_ 。
+* **[!DNL AEM]6.5**: [在Adobe Experience Manager6.5](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) 号文件 *中选择Adobe Analytics和Adobe Target* 。
 
 ### 步骤 2：创建体验片段
 
 Experience fragments are created in [!DNL AEM]. 有关详细信息，请参阅：
 
-* **[!DNL AEM]6.3 **:[Adobe Experience Manager](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)6.*3文档中的体验*片段。
-* **[!DNL AEM]6.4 **:[Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)6.4文&#x200B;*档中的体验片段*。
-* **[!DNL AEM]6.5 **:[Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)6.5文&#x200B;*档中的体验片段*。
+* **[!DNL AEM]6.3**: [Adobe Experience Manager](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) 6. *3文档中的体验* 片段。
+* **[!DNL AEM]6.4**: [Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) 6.4文 *档中的体验片段* 。
+* **[!DNL AEM]6.5**: [Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) 6.5文 *档中的体验片段* 。
 
 ### Step 3: Configure [!DNL AEM] to share the experience fragment with [!DNL Target]
 
@@ -76,9 +76,9 @@ Experience fragments are created in [!DNL AEM]. 有关详细信息，请参阅�
 
 根据您的 [!DNL AEM] 版本，请参阅以下链接以获取分步说明：
 
-* **[!DNL AEM]6.3 **:[将体验片段导出到](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)Adobe Experience Manager *6.3文档中的目标*。
-* **[!DNL AEM]6.4 **:[将体验片段导出到](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)Adobe Experience Manager *6.4文档中的目标*。
-* **[!DNL AEM]6.5 **:[将体验片段导出到](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)Adobe Experience Manager *6.5文档中的目标*。
+* **[!DNL AEM]6.3**: [将体验片段导出到](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager *6.3文档中的目标* 。
+* **[!DNL AEM]6.4**: [将体验片段导出到](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) Adobe Experience Manager *6.4文档中的目标* 。
+* **[!DNL AEM]6.5**: [将体验片段导出到](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager *6.5文档中的目标* 。
 
 ## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 

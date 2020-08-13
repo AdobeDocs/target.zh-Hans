@@ -2,11 +2,11 @@
 keywords: qa;preview;bookmarklet;preview links
 description: 帮助您使用Adobe TargetQA书签强制目标从QA模式中释放您的信息。
 title: 活动Adobe TargetQA书签
-feature: null
+feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 43%

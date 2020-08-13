@@ -2,11 +2,11 @@
 keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
 description: 此信息介绍了随着访客配置文件发生更改，访客如何在体验定位 (XT) 活动中切换体验。
 title: 在体验定位中切换体验
-feature: null
+feature: xt
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 100%

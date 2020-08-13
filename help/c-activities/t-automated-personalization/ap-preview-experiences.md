@@ -2,10 +2,10 @@
 keywords: Recommendations
 description: 由于自动个性化 (AP) 活动会对页面上的多个选件进行比较，因此预览每个体验中的页面将会很有帮助。
 title: 在 Adobe Target 可视化体验编辑器中预览自动个性化 (AP) 活动的体验
-feature: null
+feature: ap
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%

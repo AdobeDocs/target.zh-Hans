@@ -2,10 +2,10 @@
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
 description: 您可以在一个 HTML 或 JSON 选件中直接显示配置文件值和活动信息。
 title: 将动态数据传递给选件
-feature: null
+feature: offers
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%

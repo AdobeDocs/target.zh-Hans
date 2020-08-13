@@ -2,11 +2,11 @@
 keywords: settings;priority
 description: Adobe Target根据您使用的目标界面和活动创建功能（可视体验书写器或基于表单的书写器），确定要向页面传送的活动(或活动)。
 title: Adobe Target的优先事项
-feature: null
+feature: activities
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 88%

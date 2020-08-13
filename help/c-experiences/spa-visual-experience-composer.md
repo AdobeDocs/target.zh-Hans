@@ -2,11 +2,11 @@
 keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: 使用 Adobe Target 中单页应用程序 (SPA) 的可视化体验编辑器 (VEC)，营销人员能够以 DIY（自己动手）方式创建测试并对 SPA 上的内容进行个性化，而无需持续依赖开发。VEC 可用于在大多数常用框架上创建活动，例如 React 和 Angular。
 title: 单页应用程序 (SPA) 可视化体验编辑器
-feature: null
+feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -80,7 +80,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
    | --- | --- | --- | --- | --- |
    | viewName | 字符串 | 是 | 1. 无尾随空格。<br>2. 不能为空。<br>3. 所有页面的视图名称应该都是唯一的。<br>4. **警告**：视图名称不应以 `/` 开头或结尾。这是因为客户通常会从 URL 路径中提取视图名称。对于我们来说，“home”和“`/home`”是不同的。<br>5. **警告**：不应使用 `{page: true}` 选项连续多次触发同一视图。 | 将任何名称作为要显示视图的字符串类型传递。此视图名称显示在 VEC 的[!UICONTROL 修改]面板中，供营销人员创建操作并运行其 A/B 和 XT 活动。 |
    | options | 对象 | 否 |  |  |
-   | options > page | 布尔值 | 否 |  | **TRUE**：page 的默认值为 true。当 `page=true` 时，将向 Edge 服务器发送增加展示次数计数的通知。<br>**FALSE **：当`page=false`时，将不会发送增加展示次数计数的通知。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
+   | options > page | 布尔值 | 否 |  | **TRUE**：page 的默认值为 true。当 `page=true` 时，将向 Edge 服务器发送增加展示次数计数的通知。<br>**FALSE**：当 `page=false` 时，将不会发送增加展示次数计数的通知。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
 
    现在，我们来查看一些关于如何在 React 中为假定的电子商务 SPA 调用 `triggerView()` 函数的示例用例：
 
@@ -209,8 +209,8 @@ VEC 的[修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-edit
 | --- | --- |
 | 信息 | 显示操作的详细信息。 |
 | 编辑 | 允许您直接编辑操作的属性。 |
-| 克隆 | 将操作克隆到位于“[!UICONTROL 修改]”面板上的一个或多个视图，或者您在 VEC 中浏览并导航到的一个或多个视图。该操作不一定存在于“[!UICONTROL 修改]”面板中。<br>**注意&#x200B;**：完成克隆操作后，您需要通过“[!UICONTROL 浏览]”导航到 VEC 中的视图，以查看克隆操作是否有效。如果该操作未应用到视图，您将看到一个错误。 |
-| 移动 | 将操作移动到“页面加载事件”或修改面板中已存在的任何其他视图。<br>[!UICONTROL 页面加载事件] – 与页面加载事件对应的任何操作会应用于 Web 应用程序的初始页面加载。<br>**注意&#x200B;**：完成移动操作后，您需要通过“浏览”导航到 VEC 中的视图，以查看移动操作是否有效。如果该操作未应用到视图，您将看到一个错误 |
+| 克隆 | 将操作克隆到位于“[!UICONTROL 修改]”面板上的一个或多个视图，或者您在 VEC 中浏览并导航到的一个或多个视图。该操作不一定存在于“[!UICONTROL 修改]”面板中。<br>**注意**：完成克隆操作后，您需要通过“[!UICONTROL 浏览]”导航到 VEC 中的视图，以查看克隆操作是否有效。如果该操作未应用到视图，您将看到一个错误。 |
+| 移动 | 将操作移动到“页面加载事件”或修改面板中已存在的任何其他视图。<br>[!UICONTROL 页面加载事件] – 与页面加载事件对应的任何操作会应用于 Web 应用程序的初始页面加载。<br>**注意**：完成移动操作后，您需要通过“浏览”导航到 VEC 中的视图，以查看移动操作是否有效。如果该操作未应用到视图，您将看到一个错误 |
 | 删除 | 删除操作。 |
 
 >[!NOTE]

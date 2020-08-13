@@ -2,12 +2,12 @@
 keywords: Visual Experience Composer;VEC;carousel
 description: 本主题显示了如何创建可以在可视化体验编辑器 (VEC) 中编辑的轮播效果。
 title: 创建可以在可视化体验编辑器中工作的轮播效果
-feature: null
+feature: vec
 subtopic: Multivariate Test
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%

@@ -2,11 +2,11 @@
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Adobe Target 系统图显示了使用 at.js 为自动创建的全局 mbox 发送或收集调用和信息的流程。
 title: Adobe Targetat.js JavaScript库的工作方式
-feature: null
+feature: client-side
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 88%

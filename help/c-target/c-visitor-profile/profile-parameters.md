@@ -2,11 +2,11 @@
 keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: 配置文件属性是特定于访客的参数。这些属性存储在访客的配置文件中，提供了可在您的 Adobe Target 活动中使用的关于访客的信息。
 title: Adobe Target 中的配置文件属性
-feature: null
+feature: visitor profiles
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 77%
@@ -36,7 +36,7 @@ ht-degree: 77%
 
    | 参数类型 | 描述 |
    |--- |--- |
-   | mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****注意：Target 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 Target，则可以使用配置文件更新 API 方法进行传递。For more information, see[Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意：Target 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 Target，则可以使用配置文件更新 API 方法进行传递。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
    | Profile | 直接使用 JavaScript 代码段定义。这些参数能够保存运行的总数，如消费者花费的总金额，并能基于每个 mbox 请求来执行。请参阅下面的“配置文件脚本属性”。 |
 
 ## 配置文件脚本属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}

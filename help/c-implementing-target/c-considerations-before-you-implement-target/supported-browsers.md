@@ -2,12 +2,12 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: 已在各种浏览器和设备上对 Adobe Target 应用程序和内容交付进行了测试。
 title: 支持的浏览器
-feature: null
+feature: reference general
 subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 86%
@@ -36,8 +36,8 @@ The [!DNL Target] interface supports the following browsers and devices:
 
 | 设备类型 | 浏览器版本 |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 和 10。测试是在模拟模式下进行的。<br>**注意&#x200B;**：at.js 1.3.0（及更高版本）不再支持在 Microsoft Internet Explorer 9 上进行内容交付。</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome（最新版本及其前一个版本）</li><li>Firefox（最新版本及其前一个版本）</li></ul> |
-| Mac | <ul><li>Apple Safari（最新版本）<br>**注意&#x200B;**：有关 Safari 如何处理第一方 Cookie 和第三方 Cookie 的更多信息，请参阅[Target Cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)。</li><li>Firefox（最新版本及其前一个版本）</li><li>Chrome（最新版本及其前一个版本）</li></ul> |
+| Windows | <ul><li>Internet Explorer 9 和 10。测试是在模拟模式下进行的。<br>**注意**：at.js 1.3.0（及更高版本）不再支持在 Microsoft Internet Explorer 9 上进行内容交付。</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome（最新版本及其前一个版本）</li><li>Firefox（最新版本及其前一个版本）</li></ul> |
+| Mac | <ul><li>Apple Safari（最新版本）<br>**注意**：有关 Safari 如何处理第一方 Cookie 和第三方 Cookie 的更多信息，请参阅 [Target Cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)。</li><li>Firefox（最新版本及其前一个版本）</li><li>Chrome（最新版本及其前一个版本）</li></ul> |
 | 移动设备/平板电脑 | <ul><li>Apple iOS（最新版本）</li><li>Android 设备和平板电脑（Android 4 及更高版本）</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
 请注意以下事项：

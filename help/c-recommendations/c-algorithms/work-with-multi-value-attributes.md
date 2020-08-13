@@ -2,9 +2,9 @@
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: 有关使用特殊多值运算符在Adobe TargetRecommendations处理多值字段的信息。
 title: 在Adobe TargetRecommendations使用多价值属性
-feature: null
+feature: criteria
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%

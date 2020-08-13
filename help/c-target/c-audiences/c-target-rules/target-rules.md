@@ -2,10 +2,10 @@
 keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
 description: 您可以对任意类别进行定位。每种类别均以选项卡的方式工作，让您能够为每种类别创建定位规则（或组）。
 title: 受众类别
-feature: null
+feature: audiences
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 98%

@@ -2,11 +2,11 @@
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
 description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers(options) 函数的信息。
 title: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers() 函数的信息。
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 95%
@@ -40,7 +40,7 @@ ht-degree: 95%
 | request > id > thirdPartyId | 否 | 最大大小 = 128 |  |  |
 | Request > experienceCloud | 否 |  |  |
 | Request > experienceCloud > analytics | 否 |  | Adobe Analytics 集成 |
-| Request > experienceCloud > analytics > logging | 否 | 必须在页面上实施以下内容：<ul><li>访客 ID 服务</li><li>Appmeasurement.js</li></ul> | 支持以下值：<br>**client_side **：指定后，将向调用方返回分析有效负载，该有效负载应该用于通过数据插入 API 发送到 Adobe Analytics。<br>**server_side**：这是默认值，Target 和 Analytics 后端会使用 SDID 将调用拼合在一起进行报告。 |
+| Request > experienceCloud > analytics > logging | 否 | 必须在页面上实施以下内容：<ul><li>访客 ID 服务</li><li>Appmeasurement.js</li></ul> | 支持以下值：<br>**client_side**：指定后，将向调用方返回分析有效负载，该有效负载应该用于通过数据插入 API 发送到 Adobe Analytics。<br>**server_side**：这是默认值，Target 和 Analytics 后端会使用 SDID 将调用拼合在一起进行报告。 |
 | request > prefetch | 否 |  |  |
 | request > prefetch > views | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头<br>不允许的名称：“orderId”、“orderTotal”、“productPurchasedId” | 传递用于检索活跃活动中相关视图的参数。 |
 | request > prefetch > views > profileParameters | 否 | 最大计数 50<br>名称不为空<br>名称长度 `<=` 128<br>值长度 `<=` 5000<br>名称不应以“profile”开头 | 传递用于检索活跃活动中相关视图的配置文件参数。 |

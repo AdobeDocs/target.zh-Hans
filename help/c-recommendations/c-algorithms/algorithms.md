@@ -2,10 +2,10 @@
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Adobe TargetRecommendations的标准是根据一组预定的访客行为确定推荐哪些产品的规则。
 title: Adobe TargetRecommendations标准
-feature: null
+feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -79,7 +79,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 | 标准 | 描述 |
 |--- |--- |
-| 具有相似属性的项目/媒体 | 根据当前页面活动或以往的访客行为来推荐类似的项目或媒体。<br>**注意：**如果您选择了具有相似属性的项目/媒体，则可以选择设置内容相似度规则。 |
+| 具有相似属性的项目/媒体 | 根据当前页面活动或以往的访客行为来推荐类似的项目或媒体。<br>**注意：**&#x200B;如果您选择了具有相似属性的项目/媒体，则可以选择设置内容相似度规则。 |
 | 查看了这个项目，也查看了那个项目的人 | 推荐在查看了指定项目的同一会话中最常查看的项目。 |
 | 查看了这个项目，但购买了那个项目的人 | 推荐在查看了指定项目的同一会话中最常购买的项目。此标准会返回客户在查看指定项目后所购买的其他产品，返回的结果集中不包含指定的产品。 |
 | 购买了这个项目，也购买了那个项目的人 | 推荐客户在购买指定项目的同时最常购买的其他项目。 |

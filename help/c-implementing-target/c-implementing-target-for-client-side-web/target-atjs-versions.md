@@ -2,11 +2,11 @@
 keywords: at.js releases;at.js versions
 description: 有关每个 at.js 版本中的更改的详细信息。
 title: at.js 版本详细信息
-feature: null
+feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '3978'
 ht-degree: 86%

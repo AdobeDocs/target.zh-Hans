@@ -2,11 +2,11 @@
 keywords: affinity;category affinity
 description: Adobe Target 中的类别亲和度功能会自动捕捉用户访问的类别，然后计算用户对该类别的喜爱程度，从而可以对用户进行定位和细分。这有助于确保内容会被定位到最有可能对该信息做出回应的访客。
 title: 在 Adobe Target 中使用类别亲和度
-feature: null
+feature: visitor profiles
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 98%

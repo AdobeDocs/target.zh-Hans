@@ -2,12 +2,12 @@
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: 响应令牌允许您自动输出目标特定信息(活动详细信息、用户用户档案信息、地理信息等)，以用于调试或与第三方系统（如Clicktale）集成
 title: Adobe Target 中的响应令牌
-feature: null
+feature: response tokens
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%

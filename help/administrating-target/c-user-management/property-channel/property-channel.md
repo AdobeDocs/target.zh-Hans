@@ -2,11 +2,11 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: 有关创建属性以及使用属性和权限功能的信息；利用该功能，Target 管理员可以在 Target 中创建单独的工作区（产品配置文件），然后根据这些工作区针对各个页面、属性或网站为用户分配不同的角色和权限。
 title: 企业用户权限
-feature: null
+feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
@@ -28,9 +28,9 @@ Enterprise user permissions is a means of formal administering enterprise-wide u
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **[!DNL Target Standard]客户&#x200B;**:如果您看到“用[!UICONTROL 户]”选项卡([!UICONTROL “管理”>“用户]”)(而不是“属[!UICONTROL 性”选项卡])，则您的组织具有[!DNL Target Standard]许可证。[!DNL Target Standard]客户应按照“用户[”中](/help/administrating-target/c-user-management/c-user-management/user-management.md)的说明在中添加用户和分配权限[!DNL Adobe Admin Console]。
+* **[!DNL Target Standard]客户**:如果您看到“用 [!UICONTROL 户] ”选项卡([!UICONTROL “管理”>“用户]”)(而不是“属 [!UICONTROL 性”选项卡] )，则您的组织具有 [!DNL Target Standard] 许可证。 [!DNL Target Standard]客户应按照“用户 [”中](/help/administrating-target/c-user-management/c-user-management/user-management.md) 的说明在中添加用户和分配权限 [!DNL Adobe Admin Console]。
 
-* **[!DNL Target Premium]客户&#x200B;**:如果您看到“属[!UICONTROL 性]”选项卡([!UICONTROL “管理”]>“属性”[!UICONTROL )和“用户”选]项卡[!DNL Target Premium]，则您的组织具有许可证。[!DNL Target Premium]客户应按照本文章和[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的相关说明进行操作。
+* **[!DNL Target Premium]客户**:如果您看到“属 [!UICONTROL 性] ”选项卡([!UICONTROL “管理”]>“属性” [!UICONTROL )和“用户”选] 项卡 [!DNL Target Premium] ，则您的组织具有许可证。 [!DNL Target Premium] 客户应按照本文章和[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的相关说明进行操作。
 
 ## 在开始使用企业权限之前
 

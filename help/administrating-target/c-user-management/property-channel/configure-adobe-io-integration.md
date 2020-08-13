@@ -2,10 +2,10 @@
 keywords: integration;roles;user permissions;admin console
 description: 有关授予现有 Adobe I/O 集成使用 Adobe Target 中的所需角色访问所有工作区的权限的信息。
 title: 在 Adobe Target 中授予 Adobe I/O 集成访问工作区的权限并分配角色
-feature: null
+feature: user management
 subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 88%

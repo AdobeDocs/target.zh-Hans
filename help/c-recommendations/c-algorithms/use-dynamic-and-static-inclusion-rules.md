@@ -2,10 +2,10 @@
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
 description: 有关在Adobe TargetRecommendations创建包含规则以获取标准和促销信息，以及添加其他动态或静态过滤规则以获得更好效果的信息。
 title: 在Adobe TargetRecommendations使用动态和静态包含规则
-feature: null
+feature: criteria
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 75%
@@ -41,7 +41,7 @@ ht-degree: 75%
 |--- |--- |--- |
 | **动态筛选** | **实体属性匹配：**&#x200B;通过将潜在推荐项目池与用户交互的特定项目进行比较来进行动态筛选。<br>例如，只推荐与当前项目品牌相匹配的项目。 | 等于<br>不等于<br>介于<br>包含<br>不包含<br>始于<br>止于<br>值存在<br>值不存在<br>大于或等于<br>小于或等于 |
 |  | **配置文件属性匹配：**&#x200B;通过比较项目（实体）与用户配置文件中的值来进行动态筛选。<br>例如，只推荐与访客最喜爱的品牌相匹配的项目。 | 等于<br>不等于<br>包含<br>不包含<br>始于<br>止于<br>大于或等于<br>小于或等于<br>介于 |
-|  | **参数匹配：**&#x200B;通过比较项目（实体）与请求中的值（API 或 mbox）来进行动态筛选。<br>例如，只推荐与“行业”页面参数相匹配的内容。<br>**重要信息：**如果该活动于 2016 年 10 月 31 日之前创建，则当它使用“参数匹配”筛选器时，交付将会失败。要解决此问题，请执行以下操作：<ul><li>创建一个新的活动并在其中添加您的标准。</li><li>使用不包含“参数匹配”筛选器的标准。</li><li>从您的标准中删除“参数匹配”筛选器。</li></ul> | 等于<br>不等于<br>包含<br>不包含<br>始于<br>止于<br>大于或等于<br>小于或等于<br>介于 |
+|  | **参数匹配：**&#x200B;通过比较项目（实体）与请求中的值（API 或 mbox）来进行动态筛选。<br>例如，只推荐与“行业”页面参数相匹配的内容。<br>**重要信息：**&#x200B;如果该活动于 2016 年 10 月 31 日之前创建，则当它使用“参数匹配”筛选器时，交付将会失败。要解决此问题，请执行以下操作：<ul><li>创建一个新的活动并在其中添加您的标准。</li><li>使用不包含“参数匹配”筛选器的标准。</li><li>从您的标准中删除“参数匹配”筛选器。</li></ul> | 等于<br>不等于<br>包含<br>不包含<br>始于<br>止于<br>大于或等于<br>小于或等于<br>介于 |
 | **按值筛选** | **静态筛选器：**&#x200B;手动输入一个或多个静态值进行筛选。<br>例如，只推荐美国电影协会 (MPAA) 评级为“G”或“PG”的内容。 | 等于<br>不等于<br>包含<br>不包含<br>始于<br>止于<br>值存在<br>值不存在<br>大于或等于<br>小于或等于 |
 
 >[!NOTE]

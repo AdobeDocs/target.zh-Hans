@@ -2,10 +2,10 @@
 keywords: recommendation;backup;back up
 description: 如果您使用备用推荐功能，任何不具备足够推荐项目的“推荐”将不会显示默认内容。“推荐”将改为显示备用算法的结果。
 title: 使用备用推荐
-feature: null
+feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%

@@ -2,11 +2,11 @@
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
 title: 自动分配
-feature: null
+feature: auto-allocate
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '3335'
 ht-degree: 78%
@@ -80,7 +80,7 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 | ![第 2 轮](/help/c-activities/automated-traffic-allocation/assets/aa-phase-2.png) | **第 2 轮**：在本轮中，80% 的流量会分配给体验 A 和 D（各 40%）。20% 的流量会随机分配，也就意味着 A、B、C 和 D 各获得 5% 的流量。在本轮中，体验 B 展现良好性能。<ul><li>算法挑选出体验 D 进入下一轮，因为它具有最高的转化率（在每个活动的垂直比例尺上由  表示）。</li><li>算法还挑选出体验 B 进入下一轮，因为在其余三个体验中，它具有最高的 Bernstein 95% 置信区间上限。</li></ul>体验 D 和 B 进入下一轮。 |
 | ![第 3 轮](/help/c-activities/automated-traffic-allocation/assets/aa-phase-3.png) | **第 3 轮**：在本轮中，80% 的流量会分配给体验 B 和 D（各 40%）。20% 的流量会随机分配，也就意味着 A、B、C 和 D 各获得 5% 的流量。在本轮中，体验 D 继续展现良好性能，体验 C 的性能也不错。<ul><li>算法挑选出体验 D 进入下一轮，因为它具有最高的转化率（在每个活动的垂直比例尺上由  表示）。</li><li>算法还挑选出体验 C 进入下一轮，因为在其余三个体验中，它具有最高的 Bernstein 95% 置信区间上限。</li></ul>体验 D 和 C 进入下一轮。 |
 | ![第 4 轮](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png) | **第 4 轮**：在本轮中，80% 的流量会分配给体验 C 和 D（各 40%）。20% 的流量会随机分配，也就意味着 A、B、C 和 D 各获得 5% 的流量。在本轮中，体验 C 展现良好性能。<ul><li>算法挑选出体验 C 进入下一轮，因为它具有最高的转化率（在每个活动的垂直比例尺上由  表示）。</li><li>算法还挑选出体验 D 进入下一轮，因为在其余三个体验中，它具有最高的 Bernstein 95% 置信区间上限。</li></ul>体验 C 和 D 进入下一轮。 |
-| ![第 n 轮](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **第 n** 轮：随着活动继续运行，高性能体验开始显现，并且此过程会一直持续到确定入选体验为止。如果具有最高转化率的体验的置信区间与任何其他体验的置信区间不重叠，则会将其标记为入选者，并会在](/help/c-activities/automated-traffic-allocation/determine-winner.md)活动页面和活动列表中显示一枚徽章[。<ul><li>算法挑选出体验 C 作为明确的入选者</li></ul>此时，算法会将 80% 的流量分配给体验 C，而将 20% 的流量继续随机分配给所有体验（A、B、C 和 D）。体验 C 总共获得 85% 的流量。如果入选者的置信区间再次开始重叠（这种情况不太可能出现），算法会重新执行上述第 4 轮的行为。<br>**重要信息&#x200B;**：如果您在该过程中提早手动选择入选者，则将容易选择错误的体验。因此，最好的做法是一直等到算法确定入选体验为止。 |
+| ![第 n 轮](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **第 n** 轮：随着活动继续运行，高性能体验开始显现，并且此过程会一直持续到确定入选体验为止。如果具有最高转化率的体验的置信区间与任何其他体验的置信区间不重叠，则会将其标记为入选者，并会在](/help/c-activities/automated-traffic-allocation/determine-winner.md)活动页面和活动列表中显示一枚徽章[。<ul><li>算法挑选出体验 C 作为明确的入选者</li></ul>此时，算法会将 80% 的流量分配给体验 C，而将 20% 的流量继续随机分配给所有体验（A、B、C 和 D）。体验 C 总共获得 85% 的流量。如果入选者的置信区间再次开始重叠（这种情况不太可能出现），算法会重新执行上述第 4 轮的行为。<br>**重要信息**：如果您在该过程中提早手动选择入选者，则将容易选择错误的体验。因此，最好的做法是一直等到算法确定入选体验为止。 |
 
 如果活动中只有两个体验，则两个体验会获得同等的流量，直到 Target 找出具有 90% 置信度的体验为止。此时，70% 的流量会分配给入选者，30% 的流量会分配给落选者。在体验达到 95% 的置信度之后，100% 的流量会分配给入选者，而落选者则不会分配到流量。
 

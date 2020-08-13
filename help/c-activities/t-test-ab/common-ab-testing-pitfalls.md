@@ -2,10 +2,10 @@
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
 description: A/B 测试是大多数数字营销优化计划的基础，可帮助营销人员向其访客和客户提供经过优化的、有针对性的体验。本节概述了公司在Adobe Target进行A/B测试时可能遇到的九大隐患。 此外，本节还介绍了避免这些陷阱的方法，从而使您的公司可以通过这种测试工作获得更高的投资回报率 (ROI)，并对报告的 A/B 测试结果更有信心。
 title: 九种常见的 A/B 测试陷阱以及避免方法
-feature: null
+feature: ab
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '3918'
 ht-degree: 88%

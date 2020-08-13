@@ -1,11 +1,11 @@
 ---
 description: 由于多变量测试会对一个页面上的多个体验进行比较，因此预览页面的每个体验很有用。
 title: 预览多变量测试体验
-feature: null
+feature: mvt
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%

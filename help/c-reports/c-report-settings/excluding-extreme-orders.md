@@ -2,10 +2,10 @@
 keywords: Target;reports;report settings;extreme orders;extreme values
 description: 您可以排除影响Adobe Target报告的极端值，这样少数不寻常的订单不会影响您的活动结果。 例如，与个人购买者购买个人制服相比，一位教练为整个团队购买统一制服可能会产生一个超常订单。
 title: 在Adobe Target报告中排除极端值
-feature: null
+feature: report settings
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 88%

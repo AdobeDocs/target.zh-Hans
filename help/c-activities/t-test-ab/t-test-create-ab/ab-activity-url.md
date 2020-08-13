@@ -2,11 +2,11 @@
 keywords: Overview and Reference
 description: 活动 URL 可决定测试中使用的页面，以及在设计测试时打开的页面。
 title: 活动 URL
-feature: null
+feature: ab
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 93%

@@ -2,11 +2,11 @@
 keywords: system update;troubleshooting;maintenance;system status;update status
 description: 可使用 Adobe 系统状态页面查看 Adobe 产品以及包括 Target 在内的 Experience Cloud 解决方案的状态。此页面可帮助您确定您遇到的问题是否因系统更新或日常维护所致。
 title: 系统状态更新
-feature: null
+feature: release notes
 topic: Standard
 uuid: 5a627580-8e06-4e14-9fe0-1a442acc6fd8
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 98%

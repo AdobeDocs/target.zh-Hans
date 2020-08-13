@@ -2,10 +2,10 @@
 keywords: promotions;front promotions;back promotions;promotions type
 description: 可添加促销项目并控制它们在 Adobe Target“推荐”设计中的放置位置。您可以添加静态和动态促销活动。
 title: 在 Adobe Target“推荐”设计中添加促销活动。
-feature: null
+feature: recs creation
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 100%

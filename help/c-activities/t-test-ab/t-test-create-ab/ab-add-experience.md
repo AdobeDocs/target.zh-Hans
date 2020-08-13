@@ -2,10 +2,10 @@
 keywords: Targeting;experience;add experience;experience add
 description: Adobe Target 中的可视化体验编辑器 (VEC) 提供了一个可视化界面，用于编辑您页面上的体验。
 title: 添加体验
-feature: null
+feature: ab
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 90%

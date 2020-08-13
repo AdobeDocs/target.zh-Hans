@@ -2,10 +2,10 @@
 keywords: automated traffic allocation;targeting;auto-allocate
 description: 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
 title: 与手动测试相比，“自动分配”功能可以提高测试结果和收入
-feature: null
+feature: auto-allocate
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 5%

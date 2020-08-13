@@ -2,11 +2,11 @@
 keywords: email;adbox;email image adbox
 description: 使用Adobe Target动态测试电子邮件中的图像，甚至在有人打开电子邮件时即时更改这些图像。
 title: 使用Adobe Target测试电子邮件图像Adbox
-feature: null
+feature: email implementation
 topic: Recommendations
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 92%

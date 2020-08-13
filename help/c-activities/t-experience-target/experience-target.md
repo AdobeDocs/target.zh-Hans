@@ -2,10 +2,10 @@
 keywords: Targeting;experience targeting;xt;landing page;landing page campaign
 description: 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。
 title: 体验定位
-feature: null
+feature: xt
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%

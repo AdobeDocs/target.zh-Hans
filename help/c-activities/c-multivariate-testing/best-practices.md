@@ -2,11 +2,11 @@
 keywords: mvt;multivariate test;multivariate test best practices;mvt best practices;mvt combinations;mvt reports
 description: 以下提示可帮助您在 Adobe Target 中创建和运行多变量测试活动时提高性能、避免出现问题，并更正可能会出现的已知问题。
 title: 使用 Adobe Target 进行多变量测试的最佳实践
-feature: null
+feature: mvt
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 100%

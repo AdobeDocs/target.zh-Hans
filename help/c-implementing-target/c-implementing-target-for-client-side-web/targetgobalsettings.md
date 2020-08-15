@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 40%
+source-wordcount: '1686'
+ht-degree: 39%
 
 ---
 
@@ -476,6 +476,8 @@ Consider the following when using `serverState`:
    要打开这些设置，请在“UICONTROL管理”>“实 **[施”>“编辑”>“启用页面加载”中启用切换]**。
 
    ![启用页面加载设置](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+
+* 如果您在返回 `serverState` 的内 `<script>` 容中使用和使用标记，请确保HTML内容使用 `<\/script>` 而不是标记 `</script>`。 如果您使 `</script>`用，浏览 `</script>` 器将解释为内联SCRIPT的结尾，它可能会中断HTML页。
 
 ### 其他资源
 

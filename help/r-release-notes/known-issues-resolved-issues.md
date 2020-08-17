@@ -5,9 +5,9 @@ title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '3442'
+source-wordcount: '3403'
 ht-degree: 88%
 
 ---
@@ -27,11 +27,7 @@ ht-degree: 88%
 
 ### 页面交付 {#page-delivery}
 
-如果添加模板规则，如[页面交付](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)中包含的 URL (/checkout、/cart)，则会在规则前添加额外的空格。这是一个外观问题，不影响受众定义的创建和选件交付。(TGT-35916)
-
-### 活动 QA 预览链接 {#preview}
-
-如果帐户中保存的活动过多，则可能无法加载已保存活动的[活动 QA 预览](/help/c-activities/c-activity-qa/activity-qa.md)链接。重试预览链接应该有效。为了防止这种情况继续发生，请存档将不再积极使用的已保存活动。(TNT-32697)
+如果添加模板规则，如[页面交付](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)中包含的 URL (/checkout、/cart)，则会在规则前添加额外的空格。这是一个外观问题，不影响受众定义的创建和选件交付。(TGT-35920)
 
 ### Recommendations活动的QA模式
 
@@ -43,10 +39,6 @@ ht-degree: 88%
 
 * 在一些情况下，当在配置了 Analytics for Target (A4T) 的活动中使用重定向选件时，有限数量的客户报告流量分配差异程度增大。Adobe 工程师当前正在努力解决此问题。
 * at.js 实施中的重定向活动可能会导致预览 URL 进入循环（重复提供该选件）。您可以改为使用 [QA 模式](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)来执行预览和 QA。此问题不会影响选件的实际交付。(TGT-23019)
-
-### 使用自定义体验作为控制时，自动定位活动的图形报表无法呈现
-
-如果所有体验中均没有数据（0 次访问），则自动定位活动的图形报表无法呈现为“差异”模式（“平均提升”和“每日提升”）。如果将控制体验设为自定义，则在活动早期阶段可能会发生这种情况。对于其他模式（“运行平均值（控制和目标）”、“每日（控制和目标）”以及“访问次数”），报表可以正常呈现。当有一些数据（访问次数不为零）时，报表会立即按预期呈现。
 
 ### 在 VEC 中取消页面加载 {#cancel}
 
@@ -107,12 +99,6 @@ ht-degree: 88%
 
    **解决方法**：请在启用“仅限 x”选项的情况下配置 at.js，并在调用中传递 `mboxThirdPartyId` 以管理用户。
 
-### mbox.js
-
-mbox.js 库不支持客户端模板语言，例如 Handlebars 和 Mustache。at.js 库则&#x200B;**&#x200B;支持这些语言。
-
-**注意**：mbox.js 库将不再开发。所有客户都应该从 mbox.js 迁移到 at.js。有关更多信息，请参阅[从 mbox.js 迁移到 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
-
 ### 实施：全局 Mbox 自动创建
 
 On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
@@ -148,6 +134,18 @@ On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!U
 ## 已解决的问题 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 上述已知问题在解决后将会被移至下面部分，并在必要时添加额外的注释。
+
+### 使用自定义体验作为控制时，自动定位活动的图形报表无法呈现
+
+如果所有体验中均没有数据（0 次访问），则自动定位活动的图形报表无法呈现为“差异”模式（“平均提升”和“每日提升”）。如果将控制体验设为自定义，则在活动早期阶段可能会发生这种情况。对于其他模式（“运行平均值（控制和目标）”、“每日（控制和目标）”以及“访问次数”），报表可以正常呈现。当有一些数据（访问次数不为零）时，报表会立即按预期呈现。
+
+已在 Target 19.7.1 版本中修复此问题。
+
+### mbox.js
+
+mbox.js 库不支持客户端模板语言，例如 Handlebars 和 Mustache。at.js 库则&#x200B;**&#x200B;支持这些语言。
+
+**注意**：mbox.js 库将不再开发。所有客户都应该从 mbox.js 迁移到 at.js。有关更多信息，请参阅[从 mbox.js 迁移到 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
 
 ### 报告和极端订单
 

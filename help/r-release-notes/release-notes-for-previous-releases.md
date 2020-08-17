@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 234a995e9fab6e8e4063d2897aa1c3b80e2b2906
 workflow-type: tm+mt
-source-wordcount: '30026'
+source-wordcount: '29472'
 ht-degree: 89%
 
 ---
@@ -336,7 +336,7 @@ Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改�
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| 可视化体验编辑器 (VEC) | **新 VEC 菜单选项**：单击 VEC 中的某个页面元素时，相应菜单会显示适用于该元素类型的选项。<ul><li>您现在可以使用[!UICONTROL “样式”>“背景”]选项更改选定元素的背景图像和颜色。(TGT-15001)</li></ul>请参阅[可视化体验选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)中的“样式”&#x200B;部分。<br>**点击跟踪改进**：我们改进了在 VEC 和单页应用程序 (SPA) VEC 中配置点击跟踪的过程。<ul><li>当选择要在点击跟踪中使用的元素时，所有可用元素的名称都会显示在右侧的“修改”面板中，从而允许快速、轻松地选择所需元素。</li><li>三步引导式活动工作流中的“[!UICONTROL 目标和设置]”页面上会显示一个数字，用于指示为点击跟踪选择的元素数量。您可以将鼠标悬停在此数字上，以查看所有选定元素的名称。(TGT-33878)</li></ul>请参阅[点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md)。 |
+| 可视化体验编辑器 (VEC) | **新 VEC 菜单选项**：单击 VEC 中的某个页面元素时，相应菜单会显示适用于该元素类型的选项。<ul><li>您现在可以使用[!UICONTROL “样式”>“背景”]选项更改选定元素的背景图像和颜色。(TGT-15001)</li></ul>请参阅[可视化体验选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)中的“样式”**&#x200B;部分。<br>**点击跟踪改进**：我们改进了在 VEC 和单页应用程序 (SPA) VEC 中配置点击跟踪的过程。<ul><li>当选择要在点击跟踪中使用的元素时，所有可用元素的名称都会显示在右侧的“修改”面板中，从而允许快速、轻松地选择所需元素。</li><li>三步引导式活动工作流中的“[!UICONTROL 目标和设置]”页面上会显示一个数字，用于指示为点击跟踪选择的元素数量。您可以将鼠标悬停在此数字上，以查看所有选定元素的名称。(TGT-33878)</li></ul>请参阅[点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md)。 |
 | 单页应用程序可视化体验编辑器 (SPA VEC) | **引导式工作流**：新的引导式工作流可帮助您了解应如何配置页面交付规则设置，以便为单页应用程序成功执行和运行活动。(TGT-33718)<br> 请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)。<br>**克隆修改**：您现在可以使用 SPA VEC 定义修改，然后克隆该修改，以供在单页应用程序内的其他视图中使用。(TGT-33882)<br>请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md)。 |
 | ![Premium 徽章](/help/assets/premium.png) 自动个性化 (AP) 和自动定位 | **将体验指定为控制**：在创建 AP 或自动定位活动时，您可以选择要用作控制的体验。通过此功能，您可以根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据该体验的控制流量评估个性化流量的性能报表。当前控制选项（随机提供的体验）将继续可用。（TGT-32801、TGT-26572 和 TGT-26571）<br>请参阅[选择用于自动个性化或自动定位活动的控制](/help/c-activities/t-automated-personalization/experience-as-control.md)。请注意，此功能当前存在一个[已知问题](/help/r-release-notes/known-issues-resolved-issues.md)。<br>**个性化分析报表**：当访客在特定位置看到特定内容时，对营销人员友好的属性命名可提供更多有意义的信息。（TGT-33421 和 TGT-34957）<br>请参阅[为 Target 个性化算法收集数据](/help/c-activities/t-automated-personalization/ap-data.md)。 |
 | ![Premium 徽章](/help/assets/premium.png) 推荐 | 在创建“最近查看的项目”逻辑时，您可以使用“推荐以前购买的项目”切换。(TGT-34030)<br>有关更多信息，请参阅“创建标准”中的[最近查看的项目](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)。 |
@@ -1457,13 +1457,6 @@ target/r_release-notes-2018.xml
       <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>进行了相应更改，以确保点击跟踪不会妨碍可见性属性。点击跟踪元素使用 <span class="codeph">at-element-click-tracking</span> CSS 类进行标记，而不使用 <span class="codeph">at-element-marker</span>。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017 年 7 月 18 日</b> </p> <p> <span class="filepath">mbox.js</span> 版本 63 现已可用。有关更多信息，请参阅<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local">下载 mbox.js</a>。 </p> <p><span class="filepath">mbox.js</span> 版本 63 中包含以下增强功能和修复： </p> <p> 
-     <ul id="ul_F876FABA804A459D84387102DC38B7DC"> 
-      <li id="li_E840AFDFAD394F5E9CDF52FABCA27EF7">修复了使用 <span class="codeph">mboxDefine()</span> 和 <span class="codeph">mboxUpdate()</span> 生成 SDID 时出现的问题。此问题仅影响在页面上具有访客 API 的客户端。 </li> 
-     </ul> </p> </td> 
-  </tr> 
  </tbody> 
 </table>
 
@@ -1581,41 +1574,6 @@ target/r_release-notes-2018.xml
    `marketingCloudMetadata(remoteModifiedBy)`
 
    此导入作业将在活动页面打开时运行，最长会有 10 分钟延迟。(KB-1526)
-
-### Target 平台更改（2017 年 7 月 18 日） {#section_08A2B80060FE4833B1BDD12D1AF5E3D6}
-
-<table id="table_17607030DA7948819F73FA9F2B22AB5B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 更改 </th> 
-   <th colname="col2" class="entry"> 详细信息 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017 年 7 月 18 日</b> </p> <p> <span class="filepath">mbox.js</span> 版本 63 现已可用。有关更多信息，请参阅<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local">下载 mbox.js</a>。 </p> <p><span class="filepath">mbox.js</span> 版本 63 中包含以下增强功能和修复： </p> <p> 
-     <ul id="ul_6C88DB6332A94858B278F7F846E2F8EB"> 
-      <li id="li_597D15CAD9DA44008FEC01E6BB3CB9A7">修复了使用 <span class="codeph">mboxDefine()</span> 和 <span class="codeph">mboxUpdate()</span> 生成 SDID 时出现的问题。此问题仅影响在页面上具有访客 API 的客户端。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017 年 7 月 7 日</b> </p> <p> <span class="filepath">at.js</span> 版本 1.0 现已可用。有关更多信息，请参阅<a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">下载 at.js</a>。 </p> <p><span class="filepath">at.js</span> 版本 1.0 中包含以下增强功能和修复： </p> <p> 
-     <ul id="ul_4407D3923CE34CD8AD7120A2580A34DF"> 
-      <li id="li_34C8D0572A0340DF99294DD33E352D2C"> <p>支持异步加载 at.js，以提高页面加载速度。 </p> </li> 
-      <li id="li_BC944624B3104418854140484E682D69"> <p>支持在异步加载 at.js 时预先隐藏页面内容。 </p> </li> 
-      <li id="li_F9D0AD095A2A425CB78772DDE8FCCF97"> <p>改进了在禁用内容交付时显示的错误消息。 </p> </li> 
-      <li id="li_4B32468665A34FC0AF66C1CD15DE7AFC"> <p>改进了交付多个活动时的性能。 </p> </li> 
-      <li id="li_48EAD25A4077411E954CCCDB95058924"> <p>支持 YUI 压缩工具。 </p> </li> 
-      <li id="li_3598B4223C0A478D956A7EC618BFBCD6"> <p>在活动交付期间报告自定义事件的错误。 </p> </li> 
-      <li id="li_28A5DDF1A9D64D66BF8BD0E89E5BD69B"> <p>修复了 Microsoft Internet Explorer 11 中的性能问题。 </p> </li> 
-      <li id="li_BB1C11A76FB14341AB7699F2C7753377"> <p>修复了在某些网站上发生错误的 <span class="codeph">getOffer()</span> 函数。 </p> </li> 
-      <li id="li_4C7F3DE9A0A346C38E9EDCE21C83843D"> <p>以异步方式加载 Target 库。 </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### Target Standard/Premium 17.6.2（2017 年 6 月 22 日） {#section_F0372B07B56E454CB048CE79FF56E9CD}
 
@@ -1844,14 +1802,6 @@ target/r_release-notes-2018.xml
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>添加了 <span class="codeph">secureOnly</span> 设置，以指示 <span class="codeph">at.js</span> 是应仅使用 HTTPS，还是可以根据页面协议在 HTTP 和 HTTPS 之间进行切换。这是一项高级设置，其默认值为 False，可以通过 <span class="codeph">targetGlobalSettings</span> 来覆盖此设置。(TNT-26183) </p> <p>有关更多信息，请参阅 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>。 </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p><span class="codeph">at.js</span> 版本 0.9.3 及更低版本中提供了“<span class="wintitle">旧版浏览器支持</span>”选项。此选项在 <span class="codeph">at.js</span> 版本 0.9.4 中已删除。 </p> <p>有关更多信息，请参阅 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 配置</a>。 </p> </li> 
      </ul> </p> <p>要详细了解 <span class="codeph">at.js</span> 各个版本中的更改，请参阅 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 版本详细信息</a>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mbox.js</span> 版本 62 </p> </td> 
-   <td colname="col2"> <p>2017 年 1 月 18 日 </p> <p> <span class="codeph">mbox.js</span> 版本 62 包含以下增强功能和修复： </p> <p> 
-     <ul id="ul_1D4351AEB0D74FE4B09196113A4672C1"> 
-      <li id="li_653D9C605A0B447AB1FFEE5D22D3AD05"> <p>修复了在 Google Chrome 浏览器中查看重定向活动时出现的闪烁问题。(TNT-24928) </p> </li> 
-      <li id="li_2196D7CD9B144C0A96AE8B8D13976C69"> <p>添加了 <span class="codeph">secureOnly</span> 设置，以指示 <span class="codeph">mbox.js</span> 是应仅使用 HTTPS，还是可以根据页面协议在 HTTP 和 HTTPS 之间进行切换。这是一项高级设置，其默认值为 False。(TNT-26183) </p> <p>有关更多信息，请参阅<a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C" format="dita" scope="local">配置 mbox.js</a>。 </p> </li> 
-     </ul> </p> <p>要详细了解 <span class="codeph">mbox.js</span> 各个版本中的更改，请参阅 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html" format="html" scope="external">mbox.js 版本详细信息</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2111,27 +2061,6 @@ target/r_release-notes-2018.xml
 
 * 当前，不支持在可视化体验编辑器中将“[!UICONTROL 使用 JavaScript 渲染]”选项与自定义代码一起使用。
 
-### Target 平台更改（2016 年 8 月） {#section_8D8BA8C628E747338C84564EC34CE0FD}
-
-<table id="table_0035B0D7ECD444C68B1B6CB0F150C55E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 更改 </th> 
-   <th colname="col2" class="entry"> 详细信息 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js</span> 版本 61 </p> </td> 
-   <td colname="col2"> <p>2016 年 8 月 23 日 </p> <p> 8 月版本中的 <span class="filepath">mbox.js</span> 版本 61 包括以下更改： </p> <p> 
-     <ul id="ul_DC4E5AB3B48A4D2D9B08B6CDA5DFE8FB"> 
-      <li id="li_B52F3AE60D324C2A8FAD03C1495F26D7"> <p> 现在，在 <span class="filepath">Target Standard/Premium</span> 和 <span class="keyword">Target Classic</span> 用户界面中，默认会下载 <span class="keyword">mbox.js</span> 版本 61。 </p> </li> 
-      <li id="li_41C2D2E552BF4F8E8A4375AF368F7728"> <p>添加了 <span class="codeph">optoutEnabled</span> 设置，用于支持将来的 Adobe Experience Cloud 选择退出功能。默认值为 false。如果启用此属性，则会像版本 60 一样，对 <span class="filepath">/ajax</span> 端点异步执行所有请求。 </p> </li> 
-     </ul> </p> <p>有关 <span class="filepath">mbox.js</span> 版本 61 中所有更改的更多信息，请参阅 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">mbox.js 版本详细信息</a>。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Adobe Target Standard/Premium 16.8.1（2016 年 8 月 23 日） {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
 Adobe Target Standard/Premium 16.8.1（2016 年 8 月 23 日）版本包括以下功能和增强功能：
@@ -2199,10 +2128,6 @@ Adobe Target Standard/Premium 16.8.1（2016 年 8 月 23 日）版本包括以�
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js</span> 版本 0.9.1 </p> </td> 
    <td colname="col2"> <p>2016 年 7 月 14 日 </p> <p> <span class="filepath">at.js</span> 版本 0.9.1 现已可用。 </p> <p>有关更多信息，请参阅 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">at.js 版本详细信息</a>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js</span> 版本 61 </p> </td> 
-   <td colname="col2"> <p>2016 年 7 月 28 日 </p> <p> <span class="codeph">mbox.js</span> 版本 61 现已可供下载。当前不会默认下载版本 61。 </p> <p>有关更多信息，请参阅 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">mbox.js 版本详细信息</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2399,17 +2324,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
 * 不支持引用 mbox.js 对象和方法的 Target 插件。
 * 对 Target 的所有调用均是通过 XMLHTTPRequest 进行，内容则是通过 JSON 返回。
 
-### Target 平台更改 {#section_8295A808A4CE405C9DA2893E7935238E}
-
-* 现在默认会下载 [Mbox.js 版本 60](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#section_3BDAB885FA13444A8D35940A4BFF5825)。
-* 不再对 Mbox.js 版本 50 之前的版本进行主动测试。如果您的实施尚未更新，请确保对所有 Target 内容发送服务和报告收集执行额外的质量保证过程。
-* Flash 营销活动和其他与 Flash 相关的项目都已从 Target 中删除。
-* Target 界面不再支持 Internet Explorer 10。
-* 我们预计，即将发布的版本将不再支持在 Internet Explorer 8、9 和 10 中发送内容。
-
-   由于 Microsoft 已结束对上述浏览器提供主动支持，因此未来发布的版本将不再针对这些浏览器进行主动测试。Target 将继续向这些浏览器发送内容，但是您应该测试内容发送和数据收集服务，以便进行报告。
-
-### Adobe Target Standard/Premium 16.4.1 修复（2016 年 5 月 5 日） {#section_70552F61E83140C7B4D2A245198B630E}
+### Adobe Target Standard/Premium 16.4.1 Fix (May 5, 2016) {#section_70552F61E83140C7B4D2A245198B630E}
 
 * 现在，可以从 Target 界面下载 at.js 版本 0.8.0。
 * Target API 已更改。`applyOffer` 现在需要 `mbox param [0]`。
@@ -3174,9 +3089,6 @@ target/r_release-notes-2015.xml
 **已知问题**
 
 * 当 Analytics 用作 Target 的报表源时，不会报告 Target Standard/Premium 中用于多变量测试的基于 Target 的转化事件。预计此问题会很快解决。
-* mbox.js 版本 56 移动了“额外的 JavaScript”部分，因此在执行全局 mbox 之前，会先执行它。
-
-   v56 及以上版本中的所有设置都具有命名空间。如果有函数在“额外的 JavaScript”中声明，则必须为它们添加前缀 window。请参阅 [mbox.js 更改日志](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html)。
 
 ### Adobe Target 15.2.1（2015 年 2 月 19 日）{#section_9AA19B060D814E08A673FB752E21D0C3}
 

@@ -5,7 +5,7 @@ title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
 workflow-type: tm+mt
 source-wordcount: '3403'
 ht-degree: 88%
@@ -54,10 +54,6 @@ ht-degree: 88%
 
 * 对于单页应用程序 (SPA) 网站，取消加载将禁止在[!UICONTROL 修改]面板下编辑操作。
 
-### Target API 中的企业权限支持 {#api}
-
-如果使用 GET API 拉取选件列表，则“选件”库中从 Target UI 创建的代码选件将显示在默认工作区中。此问题将在 2019 年 3 月的第一个星期得到修复。完成此修复后，在从 API 拉取时，代码选件将显示在相应的工作区中。此问题&#x200B;*不*&#x200B;会影响从 API 创建的选件。例如，无论是使用 GET API 还是从 Target UI 中获取选件，从 API 创建的代码选件都将显示在创建这些选件的工作区中。
-
 ### Recommendations
 
 以下是 Recommendations 活动存在的已知问题：
@@ -99,14 +95,6 @@ ht-degree: 88%
 
    **解决方法**：请在启用“仅限 x”选项的情况下配置 at.js，并在调用中传递 `mboxThirdPartyId` 以管理用户。
 
-### 实施：全局 Mbox 自动创建
-
-On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
-
-在配置后首次下载 mbox.js 时，“[!UICONTROL 全局 Mbox 自动创建]”字段在下载的 mbox.js 文件和 [!DNL Target] 后端中将设置为“true”，但它将继续在 UI 中的“[!UICONTROL 实施]”页面上显示为“false”，直到页面刷新为止（页面刷新后，状态将为“true”）。
-
-对于新配置的租户，在下载的 at.js 中将设置 `global_mbox_autocreate = false`。如果先下载 mbox.js，则 global\_mbox\_autocreate 将设置为“true”，并且在下载的 at.js 中也将设置 `global_mbox_autocreate = true`。(TGT-15929)
-
 ### 成功量度
 
 将高级选项“计数如何递增”设置为“每次展示时”或“每次展示时（页面刷新除外）”的成功量度不能用作其他量度所依赖的成功量度。
@@ -146,6 +134,18 @@ On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!U
 mbox.js 库不支持客户端模板语言，例如 Handlebars 和 Mustache。at.js 库则&#x200B;**&#x200B;支持这些语言。
 
 **注意**：mbox.js 库将不再开发。所有客户都应该从 mbox.js 迁移到 at.js。有关更多信息，请参阅[从 mbox.js 迁移到 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
+
+### 实施：全局 Mbox 自动创建
+
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
+
+在配置后首次下载 mbox.js 时，“[!UICONTROL 全局 Mbox 自动创建]”字段在下载的 mbox.js 文件和 [!DNL Target] 后端中将设置为“true”，但它将继续在 UI 中的“[!UICONTROL 实施]”页面上显示为“false”，直到页面刷新为止（页面刷新后，状态将为“true”）。
+
+对于新配置的租户，在下载的 at.js 中将设置 `global_mbox_autocreate = false`。如果先下载 mbox.js，则 global\_mbox\_autocreate 将设置为“true”，并且在下载的 at.js 中也将设置 `global_mbox_autocreate = true`。(TGT-15929)
+
+### Target API 中的企业权限支持 {#api}
+
+如果使用 GET API 拉取选件列表，则“选件”库中从 Target UI 创建的代码选件将显示在默认工作区中。此问题将在 2019 年 3 月的第一个星期得到修复。完成此修复后，在从 API 拉取时，代码选件将显示在相应的工作区中。此问题&#x200B;*不*&#x200B;会影响从 API 创建的选件。例如，无论是使用 GET API 还是从 Target UI 中获取选件，从 API 创建的代码选件都将显示在创建这些选件的工作区中。
 
 ### 报告和极端订单
 

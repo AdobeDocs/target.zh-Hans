@@ -6,10 +6,10 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 79%
+source-wordcount: '1531'
+ht-degree: 80%
 
 ---
 
@@ -67,6 +67,7 @@ ht-degree: 79%
 ## 注意事项 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * 各类型活动（自动个性化 (AP) 活动除外）的“[!UICONTROL 概述]”页面上均会显示“[!UICONTROL 活动 QA]”链接。对于 AP 活动，您可以使用[预览链接](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC)。
+* 如果帐户中保存的活动过多，则可能无法加载已保存活动的活动 QA 预览链接。重试预览链接应该有效。为了防止这种情况继续发生，请存档将不再积极使用的已保存活动。
 * 活动 QA URL 适用于将 Analytics 用作报表源 (A4T) 的活动。使用“活动 QA”执行 QA 时生成的点击将与活动数据传输到同一个报表包，即使在激活活动后也是如此。
 * “活动 QA”不会显示已存档活动或已过期活动的内容。如果停用已结束的活动，则必须再次保存该活动才能使“活动 QA”生效。
 * Target Standard/Premium 中导入的活动（例如从 Target Classic 导入）不支持 QA URL。

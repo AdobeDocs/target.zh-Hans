@@ -7,25 +7,25 @@ subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 97%
+source-wordcount: '381'
+ht-degree: 73%
 
 ---
 
 
 # 将参数传递到全局 mbox{#pass-parameters-to-a-global-mbox}
 
-可使用 JavaScript targetPageParams 函数将参数传递到全局 mbox。对于要将额外的定位/上下文信息传递到 Target 的任何情况，都需要执行此操作。
+可使用 JavaScript `targetPageParams` 函数将参数传递到全局 mbox。This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
 
-例如，在“推荐”活动中，使用相应参数来表示当前正在查看的产品或类别。
+For example, in a [!DNL Recommendations] activity, use the parameters to represent the current product or category that is being viewed.
 
-用于调用 JavaScript 函数的代码必须位于页面上的全局 mbox 前面，不论该全局 mbox 是作为 mbox.js 的一部分触发，还是通过手动方式包含在页面代码中。
+调用JavaScript函数的代码必须位于页面上的全局mbox之前，无论全局mbox是作为at.js的一部分触发还是手动包含在页面代码中。
 
 >[!NOTE]
 >
->如果您想要将参数添加到页面上的所有 mbox，而不仅仅是全局 mbox，请使用 [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) 函数（仅限 at.js）。
+>If you want to add parameters to all mboxes on the page, not just to the global mbox, use the [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) function.
 
 您可以按照以下任一方式使用 `targetPageParams()` 函数将参数传递到 `target-global-mbox`：
 

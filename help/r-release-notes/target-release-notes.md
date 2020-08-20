@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 19%
+source-wordcount: '685'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2020 年 8 月 5 日**
+**上次更新日期：2020 年 8 月 20 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -41,7 +41,21 @@ ht-degree: 19%
 
 ## Target Standard/Premium 20.9.1（2020 年 9 月 2 日）
 
-此处将更新此版本中的新功能、增强和修复。
+此版本包含以下增强、修复和更改：
+
+* 修复了在切换组织后加载新的“管理”页面时 **[!UICONTROL 导致]** 显示错误的问题。 (TGT-37730)
+* 修复了导致“管理”>“实施”页上显示错误客户端代 **[!UICONTROL 码的显示问]** 题。 (TGT-37849)
+* 修复了成功加载VEC后，用户有时无法在可视体 **[!UICONTROL 验书写器]** (VEC)中使用编辑功能的问题。 (TGT-37162)
+* 修复了在切换组织后，有时会阻止用户从“管理”>“ **[!UICONTROL 实施”页面]** 下载at.js的问题。 (TGT-37668)
+* 修复了体验 **[!UICONTROL 定位]** (XT)活动中导致体验在较长时间内显示“获取结果”的问题。 (TGT-37684)
+* 改进了仅键盘用户的导航和功能。 （TGT-34479 和 TGT-34473）
+* 在UI中添加了标签以帮助用户使用辅助技术。 (TGT-34480)
+* 改进了删除活动中当前使用的移动视图端口时的错误消息。 错误消息现在显示：&quot;此视区当前与一个或多个活动关联。 您需要先从这些活动中删除视区，然后才能删除它。” (TGT-37030)
+* 在VEC中添加了支持，以允许在与页面中多个元素匹配的css选择器上单击跟踪。 (TGT-37323)
+* 修复了阻止特定用户显示活动 **[!UICONTROL 列表的问]** 题。 显示以下错误消息：&quot;无法获取URL建议。&quot; 在Adobe后端系统中，使用回车符返回其FirstName(FirstName/r/n)的用户发生错误。 (TGT-37330)
+* 修复了当工作区名称(在Enterprise中指 **[!UICONTROL 定]** )包含撇号时，用户无法显 **[!UICONTROL 示活动页面]**&#x200B;的问题。 (TGT-37709)
+* 加载时，如果用户多次单击“下载”按钮，则 [!DNL Target] 将禁用“at.js下载”按钮，以阻止发送多个请求。 (TGT-37633)
+* 修复了导致标准上次修改的值不正确的 [!DNL Recommendations] 问题。 (TGT-37666)
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

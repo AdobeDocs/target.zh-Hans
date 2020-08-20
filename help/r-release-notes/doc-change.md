@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1922'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 8月20日 | [对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 添加了以下部分：“最近发布的Google Chrome SameSite cookie实施策略对VEC和EEC有何影响？” |
+|  | [点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md) | 更新了以下文本：“如果您选择多个元素，则如果进入者单击任一选定元素，则单击计数。 要单独对每个项目进行计数，需为每个元素分别设置成功量度。要通过单击页面上的多个元素计算一个项目，请编辑CSS元素选择器以匹配多个元素。” |
+|  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 20.9.1（2020年9月2日）版本的信息。 |
 | 8月14日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关Recommendations活动中QA的已知问题。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 添加了文本，表明如果您在返回 `serverState` 的 `<script>` 内容中使用和使用标记，请确保HTML内容使用 `<\/script>` 而不是 `</script>`。 |
 | 8月12日 | [了解目标UI](/help/c-intro/understand-the-target-ui.md) | 新主题。 |

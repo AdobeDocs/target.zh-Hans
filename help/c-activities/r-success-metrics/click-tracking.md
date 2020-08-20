@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 97%
+source-wordcount: '877'
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
    有关更多信息，请参阅&#x200B;*可视化体验编辑器选项*&#x200B;中的[使用 DOM 路径浏览元素](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)。
 
 * 您可以浏览到其他页面，以跟踪您可能不会更改内容的页面上的点击次数。但前提是该页面必须包含在使用[多页面功能](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)的活动中，且该页面上必须实施了 [!DNL at.js] 或 [!DNL mbox.js]。
-* 如果您选择了多个元素，则当参加者点击任一选定元素时，即会被计为一次点击。要单独对每个项目进行计数，需为每个元素分别设置成功量度。
+* 如果您选择了多个元素，则当参加者点击任一选定元素时，即会被计为一次点击。要单独对每个项目进行计数，需为每个元素分别设置成功量度。要通过单击页面上的多个元素计算一个项，请编辑CSS元素选择器以匹配多个元素。
 * 务必选择要跟踪的元素的级别。例如，指定按钮时，请务必选择链接，而不要选择按钮文本。
 * 点击事件会在发生点击的同一页面上发送到 [!DNL Target]。
 * 如果点击跟踪量度是 A4T 活动的目标量度，则访客必须在页面加载的 60 秒内点击此元素，才能对量度进行跟踪。

@@ -5,17 +5,39 @@ title: 对与可视化体验编辑器和增强型体验编辑器有关的问题�
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 98%
+source-wordcount: '1253'
+ht-degree: 74%
 
 ---
 
 
 # 对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
-有时，在某些情况下，可视化体验编辑器 (VEC) 和增强型体验编辑器 (EEC) 可能会发生显示问题。
+在某些情况下，显示问题和其他问题有时会在Visual Experience Composer(VEC)和Enhanced Experience Composer(EEC)中出现。
+
+## 最近发布的Google Chrome SameSite cookie实施策略对VEC和EEC有何影响？ {#samesite}
+
+使用Chrome 80+浏览器版本的所有用户，通过最新更改（2020年8月）:
+
+* 将 *无法* 在其站点的受密码保护的页面中使用VEC（安装或未启用VEC Helper扩展）。 这是因为他们的站点登录Cookie将被视为第三方Cookie，并且不会随登录请求一起发送。 唯一的例外情况是客户站点登录Cookie已将SameSite参数设置为“none”。
+* 编 *辑活动* 时 [!DNL Target] （当站点上尚未下载库时）将无法下载库。 这是因为下载调用是从客户域向安全Adobe域发出的，并且作为未验证而被拒绝。
+* EEC对所 *有用户* 都不起作用，因为它无法为上的cookie设置SameSite属性 `adobemc.com domain`。 如果没有此属性，浏览器将拒绝这些Cookie，导致EEC失败。
+
+Adobe已将更新的VEC帮助程序扩展提交到Google Chrome商店。 此扩展会覆盖cookie属性，以根据需要 `SameSite="none"` 设置属性。 更新 [的扩展可在此处找到](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
+
+### 备选方案和解决办法
+
+使用以下选项之一确保您的VEC和EEC继续按预期工作：
+
+* 下载并使用更新 [的VEC Helper扩展](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
+* 使用Mozilla Firefox浏览器。 Firefox尚未执行此政策。
+* 继续使用Chrome，但将标 `chrome://flags/#same-site-by-default-cookies` 志设置为“禁用”。
+
+   >[!NOTE]
+   >
+   >如果 *Cookie* 已将服务器的SameSite属性设置为“Lax”或“Strict”，则这是不够的。
 
 ## Target 是否支持多级 iframe？
 

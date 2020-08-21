@@ -5,7 +5,7 @@ title: 创建设计
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 95%
@@ -115,7 +115,7 @@ ht-degree: 95%
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Target 客户端代码（位于 ../target/products.html#recsSettings >“推荐 API 令牌”>“客户端代码”）。 |
 | `[YOUR_MBOX_NAME]` | 您在基于表单的Recommendations的“位置”部分选择的名称，在本例中为Sample_Recs_Response。 |
-| `[ENTITY_ID`] | 您目录中的项目的 `entity.id`。 |
+| `[ENTITY_ID` | 您目录中的项目的 `entity.id`。 |
 | `[AT_PROPERTY_TOKEN]` | （可选）如果您在活动设置过程中选择了某个属性（“企业权限”的一部分），则需添加此参数。 |
 
 在运行算法并获取结果后，您的响应应当类似于以下示例：

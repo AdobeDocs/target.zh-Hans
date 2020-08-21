@@ -6,10 +6,10 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 96%
+source-wordcount: '1206'
+ht-degree: 94%
 
 ---
 
@@ -95,7 +95,7 @@ We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `a
 
 ## 为何需要将引荐 URL 传递到新页面？{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-假设一位访客单击了 [!DNL `www.google.com`] 上的链接并由此进入您的主页 ([!DNL `www.mysite.com/index.html]`)，而您的主页上有一个重定向活动处于活跃状态，该访客随后又被重定向到一个新页面 ([!DNL `www.mysite.com/index2.html`])。
+Suppose a visitor clicks a link on [!DNL `www.google.com`] to your homepage (`www.mysite.com/index.html`) on which a redirect activity is live and is then redirected to a new page (`www.mysite.com/index2.html`).
 
 以前，新页面上的 [!DNL Analytics] 请求报告的引荐 URL 是 [!DNL `www.mysite.com/index.html`]，而不是 [!DNL `www.google.com`]。这会导致 [!DNL Analytics] 中与引荐 URL 有关的报表（例如营销渠道报表）不准确。这些报表忽略了您是从 [!DNL `www.google.com`] 访问网站的事实。
 

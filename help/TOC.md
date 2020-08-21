@@ -6,10 +6,10 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 88%
+source-wordcount: '1497'
+ht-degree: 87%
 
 ---
 
@@ -40,6 +40,9 @@ ht-degree: 88%
       + [第四章：使用目标的提示](/help/c-intro/target-welcome-kit-4.md)
       + [第五章：测试和个性化活动的灵感](/help/c-intro/target-welcome-kit-5.md)
       + [第六章：容易避免的陷阱](/help/c-intro/target-welcome-kit-6.md)
+      + [第7章：创建并运行您的第一个目标活动](/help/c-intro/target-welcome-kit-7.md)
+      + [第8章：传达您的活动结果](/help/c-intro/target-welcome-kit-8.md)
+      + [第九章：后续步骤和资源](/help/c-intro/target-welcome-kit-9.md)
    + [术语表](c-intro/glossary.md)
    + [Adobe Target 的工作原理](c-intro/how-target-works.md)
    + [培训和认证](c-intro/training-and-certification.md)

@@ -5,7 +5,7 @@ title: Adobe TargetRecommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 89%
@@ -57,7 +57,7 @@ ht-degree: 89%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target 基础知识网络研讨会：Recommendations 简介{#intro-to-recs} ![教程徽章](/help/assets/tutorial.png)
+## Adobe Target 基础知识网络研讨会：Recommendations 简介![教程徽章](/help/assets/tutorial.png) {#intro-to-recs}
 
 **“Recommendations 简介”网络研讨会包括对如何利用 [!DNL Adobe Target Recommendations] 价值的深入探讨。了解此 [!DNL Target] 活动如何通过基于先前的访问优化实时建议来自动显示客户可能感兴趣的产品或内容。此外，深入了解 [!DNL Target] UI，获取有关如何构建 [!DNL Recommendations] 活动的分步概述。
 

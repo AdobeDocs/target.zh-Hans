@@ -4,9 +4,9 @@ description: Adobe Target欢迎工具包——第7章
 title: Adobe Target欢迎工具包——第7章
 feature: intro
 translation-type: tm+mt
-source-git-commit: 021d714ce4db25f019069ea7ecf49ac44b2b3b06
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## 使用活动计划器计划活动
 
-我们将以下活动计划器作为独立PDF（请参阅下文）提供，您可以反复保存和使用它。 要运行有效活动，您需要填写计划员的每个区域。 在您和其他人进行头脑风暴时使用此工具测试和个性化活动。
+我们已将Adobe Target [活动规划器作](/help/assets/activity-planner.pdf) 为一个独立PDF，您可以反复保存和使用它。 要运行有效活动，您需要填写计划员的每个区域。 在您和其他人进行头脑风暴时使用此工具测试和个性化活动。
 
 ![Adobe Target活动规划师](/help/c-intro/assets/activity-planner.png)
 

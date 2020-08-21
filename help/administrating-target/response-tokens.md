@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -70,7 +70,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
-   单击 **[!UICONTROL 添加响应令牌]**，提供令牌名称，然后单击 **[!UICONTROL 激活]**。
+   单击 **[!UICONTROL 添加响应令牌]**，提供令牌名称，然后单 **[!UICONTROL 击激活]**。
 
    ![](assets/response_token_create.png)
 
@@ -285,7 +285,7 @@ Target 会定期刷新属性。任何未开启的属性都会在下次刷新时�
 </script>
 ```
 
-## 培训视频：响应令牌和 at.js 自定义事件{#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![教程徽章](/help/assets/tutorial.png)
+## 培训视频：响应令牌和 at.js 自定义事件![教程徽章](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 观看以下视频，了解如何使用响应令牌和 at.js 自定义事件将 Target 中的配置文件信息共享到第三方系统。
 

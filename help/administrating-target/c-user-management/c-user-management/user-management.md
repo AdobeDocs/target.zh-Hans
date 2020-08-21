@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '893'
 ht-degree: 48%
 
 ---
@@ -24,7 +24,7 @@ You can add users and manage their permissions in the [!DNL Adobe Admin Console]
 >[!UICONTROL “属性和权限”功能作为 ] Premium 解决方案的一部分提供。[!DNL Target]如果没有 [!DNL Target] Premium 许可证，它们将无法在 [!DNL Target] Standard 中使用。
 >You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 >
->* **[!DNL Target]标准客户**:如果您看到“用 [!UICONTROL 户] ”选项卡([!UICONTROL “管理”>“用户]”)(而不是“属 **[!UICONTROL 性”选项卡]** )，则您的组织具有“标 [!DNL Target] 准”许可证。 [!DNL Target Standard 客户应按照本文中的相关说明进行操作，以在 [!DNL Adobe Admin Console] 中添加用户和分配权限。
+>* **[!DNL Target]标准客户**:如果您看到“用 [!UICONTROL 户] ”选项卡([!UICONTROL “管理”>“用户]”)(而不是“属 **[!UICONTROL 性”选项卡]** )，则您的组织具有“标 [!DNL Target] 准”许可证。 [!DNL Target] Standard 客户应按照本文中的相关说明进行操作，以在 [!DNL Adobe Admin Console] 中添加用户和分配权限。
    >
    >
 * **[!DNL Target]高级客户**:如果您看到“用 [!UICONTROL 户] ”选项卡和“属 [!UICONTROL 性] ”选项卡([!UICONTROL “管]理”>“属性 [!DNL Target] ”)，则您的组织具有Premium许可证。 [!DNL Target] Premium 客户应按照[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)和[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)中的说明进行操作，以在 [!DNL Adobe Admin Console] 中添加用户和分配权限。

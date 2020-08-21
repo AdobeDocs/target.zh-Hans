@@ -6,10 +6,10 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '3978'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -406,7 +406,7 @@ at.js 版本 1.0 中包含以下增强功能和修复：
 
    * 必须更新现有扩展（如 AngularJS 扩展），才能使用 `registerExtension()` 方法。
 
-* 新增了 at.js notification] API。
+* 新增的at.js通知API。
 
    此通知系统的目标是针对 [!DNL at.js] 在页面上的行为以及在出现问题时提供更多信息。VEC 存在的常见问题是 IT 版本更改页面、VEC 选择器中断以及测试停止正确交付内容。此通知系统的目标是将此交付问题公布到页面上，从而使开发人员可以访问此信息，将其传递到 [!DNL Adobe Analytics] 等系统，并且还可以向测试被中断的业务所有者发送警报。
 

@@ -5,10 +5,10 @@ title: 创建多变量测试
 feature: mvt
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 98%
 
    ![](assets/estimator2.png)
 
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以前进到“[!UICONTROL 定位]”页面。
+1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] page.
 
 1. 选择受众，以及您希望参加活动的符合条件的访客所占的百分比。
 

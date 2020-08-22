@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target欢迎工具包——第5章
-title: Adobe Target欢迎工具包——第5章
+description: Adobe Target欢迎工具包——第5章——测试和个性化活动的灵感
+title: Adobe Target欢迎工具包——第5章——测试和个性化活动的灵感
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## 想法8:在您的网站上宣传您的移动应用程序。
 
-如果您的公司正在花费资源为iOS、Android或其他设备开发移动应用程序，请不要只是坐视不理，希望用户能在应用商店中偶然发现您的应用程序。 相反，我们制定了一个完善的战略来推广它。 测试不同的方法以推动应用程序下载和使用。 如果您的非移动站点有下载应用程序的链接，请尝试测试插播式登陆页的有效性，当访客到达您的主页时，该插播式会显式提升您的应用程序。 设置重定向测试，将移动流量的一半过滤器到当前网站页面，将另一半登陆页到空闲时间。
+如果您的公司正在花费资源为iOS、Android或其他设备开发移动应用程序，请不要只是坐视不理，希望用户能在应用商店中偶然发现您的应用程序。 相反，我们制定了一个完善的战略来推广它。 测试不同的方法以推动应用程序下载和使用。 如果非移动站点有下载应用程序的链接，请尝试测试插播式登陆页的有效性，当访客到达您的主页时，该插播式会显式提升您的应用程序。 设置重定向测试，将移动流量的一半过滤器到当前网站页面，将另一半登陆页到空闲时间。
 
 ## 想法9:使用移动App创新。
 

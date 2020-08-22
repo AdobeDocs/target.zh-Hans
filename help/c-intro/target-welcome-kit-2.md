@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target欢迎工具包——第二章
-title: Adobe Target欢迎工具包——第二章
+description: Adobe Target欢迎工具包——第二章-目标一览
+title: Adobe Target欢迎工具包——第二章-目标一览
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2494'
+source-wordcount: '2504'
 ht-degree: 17%
 
 ---
@@ -28,12 +28,12 @@ ht-degree: 17%
 
 | 活动类型 | 详细信息 |
 | --- | --- |
-| 体验定位 (XT) | 根据一组用户定义的规则和标准将内容交付到特定受众。 **[!UICONTROL 当您了解]** 受众的价值并充分了解其与哪些体验产生共鸣时，体验定位对于将特定体验或内容定位到特定受众非常有价值。 [了解更多](/help/c-activities/t-experience-target/experience-target.md)。 |
 | A/B 测试 | 在您的网站或其他数字客户接触点上比较两种或两种以上体验或优惠的变体，以了解哪种变体在预先指定的测试期内对关键业务措施的改进程度最高。 A/B测试非常适合进行大型更改，如新网页布局、不同的站点导航方法，或对数字体验中各个元素（如副本、图像和行动动员按钮）进行完全不同的处理。 [了解更多](/help/c-activities/t-test-ab/test-ab.md)。 |
-| 多变量测试 (MVT) | 比较页面或数字体验中元素变量的所有可能组合，例如三种不同的背景图像、两种副本变量和两种不同的按钮颜色。 MVT确定哪些组合对特定受众的效果最佳，以及哪些元素对结果的影响最大。 [了解更多](/help/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
 | 自动分配 | 确定两种或两种以上体验中表现最佳的体验，并自动重新分配更多流量给入选方，以在测试继续运行和学习的同时提高转化率。 使用由提供支持的人工智能 [!DNL Adobe Sensei]。 [了解更多](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| 自动目标<br>（高级） | 利用Adobe Sensei人 [!DNL Target] 工智能，根据每位访客的用户档案以及拥有相似用户档案的先前访客的行为，确定并为每位客户提供最佳体验。 自动目标支持大规模个性化。 |
+| 自动目标<br>（高级） | 利用Adobe Sensei人 [!DNL Target] 工智能，根据每位访客的用户档案以及拥有相似用户档案的先前访客的行为，确定并为每位客户提供数人的最佳体验。 自动目标支持大规模个性化。 [了解更多](/help/c-activities/auto-target-to-optimize.md)。 |
 | Automated Personalization<br>(Premium) | 使用高级机器学习算法和由优惠提 [!DNL Adobe Sensei] 供支持的自动化功能来检查图像、副本和其他元素的不同组合，并根据最能实现业务目标的访客为每个访客提供最佳组合，如提高转化率或每个的收入。 [了解更多](/help/c-activities/t-automated-personalization/automated-personalization.md)。 |
+| 体验定位 (XT) | 根据一组用户定义的规则和标准将内容交付到特定受众。 **[!UICONTROL 当您了解]** 受众的价值并充分了解其与哪些体验产生共鸣时，体验定位对于将特定体验或内容定位到特定受众非常有价值。 [了解更多](/help/c-activities/t-experience-target/experience-target.md)。 |
+| 多变量测试 (MVT) | 比较页面或数字体验中元素变量的所有可能组合，例如三种不同的背景图像、两种副本变量和两种不同的按钮颜色。 MVT确定哪些组合对特定受众的效果最佳，以及哪些元素对结果的影响最大。 [了解更多](/help/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
 | Recommendations<br>(Premium) | 使用Adobe Sensei人工智能根据客户先前的活动和其他客户的体验自动推荐可能引起客户兴趣的产品或内容。 [了解更多](/help/c-recommendations/recommendations.md)。 |
 
 ## 渠道
@@ -94,7 +94,7 @@ ht-degree: 17%
 
 | 集成 | 详细信息 |
 | --- | --- |
-| Adobe Experience Cloud | [!DNL Target] 与其他解决方案相 [!DNL Adobe Experience Cloud] 结合，实现大规模个性化体验。 将Adobe Analytics、Experience Cloud [!DNL Target] 受众、 [Adobe CampaignAAM](/help/c-integrating-target-with-mac/a4t/a4t.md)、 [Adobe Audience Manager](/help/c-integrating-target-with-mac/mmp.md)AEM( [](/help/c-integrating-target-with-mac/campaign-and-target.md)[](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)[](/help/c-experiences/c-manage-content/aem-experience-fragments.md) )、()、和Adobe Experience Manager()、()和()的强大功能结合起来。 |
+| Adobe Experience Cloud | [!DNL Target] 与其他解决方案相 [!DNL Adobe Experience Cloud] 结合，实现大规模个性化体验。 将Adobe Analytics、Experience Cloud [!DNL Target] 受众 [、](/help/c-integrating-target-with-mac/a4t/a4t.md)Adobe Campaign、 [Adobe Audience Manager](/help/c-integrating-target-with-mac/mmp.md)AAM [、](/help/c-integrating-target-with-mac/campaign-and-target.md)AEM() [、(](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)[](/help/c-experiences/c-manage-content/aem-experience-fragments.md) )、和Adobe Experience Manager()的强大功能结合起来。 |
 | 目标API（高级） | [!UICONTROL 目标] 优惠40多个API，可用于将Adobe Target与第一方、第二方和第三方系统集成。 [了解更多](/help/api/api-overview.md)。 |
 
 ## 记住

@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target欢迎工具包——第三章
-title: Adobe Target欢迎工具包——第三章
+description: Adobe Target欢迎工具包——第3章——开发测试和个性化创意
+title: Adobe Target欢迎工具包——第3章——开发测试和个性化创意
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 * 为活动体验完成和批准最终设计。
 * 记录活动的 [!DNL Target] 要求，包括测试条目标准、报告指标和体验更改。
 
-使用欢迎工具包中稍后提供的活动计划器文档活动的详细信息，包括您用来衡量活动效果的指标，如单击行动动员按钮、视频启动或生成的收入。 确保包含您计划测试或个性化的体验设计的截屏或图像。
+使用欢迎工具包中稍后提供的活动计划器文档活动的详细信息，包括您用来衡量活动效果的指标，如单击行动动员按钮、视频启动或生成的收入。 确保包含您要测试或个性化的体验设计的截屏或图像。
 
 ## 第4步：构建和运行
 
@@ -87,4 +87,4 @@ ht-degree: 0%
 * 获得利益相关方的批准，以执行活动建议。
 * 定义并执行计划以实施入选体验。
 
-例如，如果lightbox活动成功增加了首次访客购买，您可能希望保持此活动。 请务必使用欢迎工具包中包含的执行摘要模板，将测试带来的价值传达给利益相关方和管理人员。 考虑如何重新应用这门学习课程；或许您可以目标那些首次购买者，再优惠一次，从每位客户那里获得更多价值。
+例如，如果lightbox活动成功增加了首次访客购买，您可能希望保持此活动持续。 请务必使用欢迎工具包中包含的执行摘要模板，将测试带来的价值传达给利益相关方和管理人员。 考虑如何重新应用这门学习课程；或许您可以目标那些首次购买者，再优惠一次，从每位客户那里获得更多价值。

@@ -5,9 +5,9 @@ title: 对与可视化体验编辑器有关的问题进行故障诊断
 feature: vec
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 97%
 
 ---
@@ -46,7 +46,7 @@ To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]
 >除了以下信息外，您还可以使用适用于 Google Chrome 的 [Adobe Target VEC 助手浏览器扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
 
->[!N注意]
+>[!NOTE]
 >
 >以下插件仅应在 VEC 编辑上下文中使用。
 >

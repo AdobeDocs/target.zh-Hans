@@ -6,9 +6,9 @@ feature: vec
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2403'
 ht-degree: 95%
 
 ---
@@ -200,7 +200,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    请注意，CSS 编辑器仅显示当前会话的详细信息。如果保存更改后重新打开编辑器，那么即使再次选择相同的元素，编辑器中也不会显示有关先前更改的详细信息。
 
-   >[!I重要信息]
+   >[!IMPORTANT]
    >
    >您可以使用 CSS 编辑器来应用背景图像，但可能会导致闪烁。请在部署之前测试您的更改。
 

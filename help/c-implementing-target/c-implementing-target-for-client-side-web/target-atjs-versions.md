@@ -6,9 +6,9 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '3978'
+source-wordcount: '3977'
 ht-degree: 85%
 
 ---
@@ -175,7 +175,7 @@ at.js 1.7.0 提供了 Adobe 选择加入支持。通过 Adobe 选择加入，可
 
 此版本还修复了 Target 可能使用来自重定向 URL 的参数覆盖重定向 URL 参数的问题。
 
->[! 注意]
+>[!NOTE]
 >
 >如果您需要使用满足 GDPR 要求的 Adobe 选择加入支持，则当前必须使用 at.js 1.7.0 或 2.1.0。<br>有关所有版本的列表，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 

@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target欢迎工具包——第四章
-title: Adobe Target欢迎工具包——第四章
+description: Adobe Target欢迎工具包——第4章——使用目标的技巧
+title: Adobe Target欢迎工具包——第4章——使用目标的技巧
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2882'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **真好**:由于 [!DNL Target] 是一个可以与不同技术良好结合的开放式、不可知的平台，您可以通过多种不同方式添加CRM或购买数据。 这意味着您可以选择最适合您的组织的方法。
 
-有关 [详细信息，请参阅将目标](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) 导入到数据的方法。
+有关 [详细信息，请参阅将目标](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) 引入的方法。
 
 ## 提示2:将目标受众与其他Adobe Experience Cloud受众相结合，实现更深层次的个性化。
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 成功的优化组织相信测试的概念并了解他们关于哪些体验将赢得测试的专业观点并不总是成立。 他们根据坚实的数据基础确定获胜者，并且渴望并愿意在结果发布后将获胜体验生动地呈现在您面前，即使它不符合他们的预期或似乎与他们的直觉相悖。
 
-例如，Adobe医疗服务客户最近展示了测试的价值，展示了团队认为的一个英雄横幅实际上对转化率产生负面影响的情况。 如果您的组织尚未完全接受测试，最好先进行更简单、范围更小的测试，以逐步更改测试结果。
+例如，Adobe医疗服务客户最近展示了测试的价值，展示了团队认为的一个英雄横幅实际上对转化产生了负面影响。 如果您的组织尚未完全接受测试，最好先进行更简单、范围更小的测试，以逐步更改测试结果。
 
 ## 提示19:请让所有人知道您已经启动了测试，以避免在站点发生更改时引起关注。
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 ## 提示21:通过优化移动搜索帮助移动访客找到所需内容。
 
-移动用户的意图很高。 他们中的大多数在移动商务网站上执行其他操作之前使用搜索，这使得移动网站搜索优化变得至关重要。 要改进移动搜索引擎优化(SEO)，请使用明确的导航提示轻松浏览。 此外，在搜索输入框中实施自动建议和自动纠正，以解决移动键入的困难。 提供针对屏幕大小和位置进行了优化的引人注目的相关搜索结果。
+移动用户的意图很高。 他们中的大多数在移动商务网站上执行其他操作之前使用搜索，这使得移动网站搜索优化变得至关重要。 要改进移动搜索引擎优化(SEO)，请使用明确的导航提示轻松浏览。 此外，在搜索输入框中实施自动建议和自动校正，以解决移动键入的困难。 提供针对屏幕大小和位置进行了优化的引人注目的相关搜索结果。
 
 ## 提示22:利用针对移动SEM受众的每日定位，更好地触及移动活动。
 

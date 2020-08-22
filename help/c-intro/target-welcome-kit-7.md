@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target欢迎工具包——第7章
-title: Adobe Target欢迎工具包——第7章
+description: Adobe Target欢迎工具包——第7章——创建并运行您的第一个目标活动
+title: Adobe Target欢迎工具包——第7章——创建并运行您的第一个目标活动
 feature: intro
 translation-type: tm+mt
-source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,9 @@ ht-degree: 0%
 
 ## 使用活动计划器计划活动
 
-我们已将Adobe Target [活动规划器作](/help/assets/activity-planner.pdf) 为一个独立PDF，您可以反复保存和使用它。 要运行有效活动，您需要填写计划员的每个区域。 在您和其他人进行头脑风暴时使用此工具测试和个性化活动。
+我们已将Adobe Target [活动规划器作](/help/assets/activity-planner.pdf) 为一个独立PDF，您可以反复保存和使用它。 单击链接以视图PDF文件。 右键单击可下载PDF文件。
+
+要运行有效活动，您需要填写计划员的每个区域。 在您和其他人进行头脑风暴时使用此工具测试和个性化活动。
 
 ![Adobe Target活动规划师](/help/c-intro/assets/activity-planner.png)
 

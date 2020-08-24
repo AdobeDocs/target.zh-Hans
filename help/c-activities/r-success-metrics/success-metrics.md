@@ -5,10 +5,10 @@ title: Adobe Target成功指标
 feature: success metrics
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 52%
+source-wordcount: '1129'
+ht-degree: 47%
 
 ---
 
@@ -57,7 +57,7 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 
 ## 高级设置 {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
-可使用高级设置来管理成功的衡量方式。这些选项包括按照每次展示或每位访客来计算量度，并选择是将用户保留在活动中，还是将其删除。
+可使用高级设置来管理成功的衡量方式。选项包括添加依赖项、选择是让用户处于活动中还是删除依赖项，以及是对每个进入者还是每次印象计数一次度量。
 
 要访问“高 [!UICONTROL 级设置] ”选项，请单 **[!UICONTROL 击垂直椭圆]** > **[!UICONTROL “高]**&#x200B;级设置”。
 
@@ -67,21 +67,27 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 >
 >如果您将 [!DNL Adobe Analytics] 用作报表源，则设置会由 [!DNL Analytics] 服务器来管理。The [!UICONTROL Advanced Settings] option will not be available. For more information, see [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-您还可以使用高级设置来创建具有依赖关系的成功量度，即仅当访客先实现某个量度后，另一个量度才会递增。
+### 添加依赖关系
+
+您可以使用高级设置创建依赖性成功量度，仅在访客先到达其他量度时，才会增加一个量度。
 
 ![添加依赖项](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 例如，仅当访客在转化之前先点击了选件或访问了某个特定页面时，测试转化才可能有效。
 
-A/B 测试活动、自动个性化活动、体验定位活动和多变量测试活动均支持具有依赖关系的成功量度。但是，“推荐”活动当前并不支持具有依赖关系的成功量度。
+Dependency functionality is *not* supported for the following:
 
->[!NOTE]
->
->在以下情况下，具有依赖关系的成功量度将无法转化：
->
->* 如果您创建了循坏依赖关系，例如量度 1 依赖于量度 2，而量度 2 又依赖于量度 1，则任何量度都无法转化。
->* 实现转化量度后，自动个性化活动会释放用户并重新启动活动，因此，任何依赖于转化量度的量度都将无法转化。
+* [!UICONTROL “推荐”活动。]其他所有活动类型均支持此功能。
+* If you use [Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
+* 量度类型为“已查看页面”。
+* 可视化体验编辑器 (VEC) 活动的量度类型为“已单击元素”。
 
+在以下情况下，具有依赖关系的成功量度将无法转化：
+
+* 如果您创建了循坏依赖关系，例如量度 1 依赖于量度 2，而量度 2 又依赖于量度 1，则任何量度都无法转化。
+* 实现转化量度后，自动个性化活动会释放用户并重新启动活动，因此，任何依赖于转化量度的量度都将无法转化。
+
+### 用户遇到此目标量度后会出现什么情况？
 
 可使用高级设置来决定用户实现目标量度后将发生的情况。下表显示了可用选项：
 
@@ -94,6 +100,14 @@ A/B 测试活动、自动个性化活动、体验定位活动和多变量测试�
 >[!NOTE]
 >
 >如果将度量配置为增量计数选 [!UICONTROL 项之一] （上文提到），则度量计数仅在访客级别按每个进入者正确递增一次。 在访问级别，每个新会话的度量计数每次访问都会增加一次。
+
+### 计数将如何递增：
+
+选择所需的行为：
+
+* 每个参加者一次
+* 每次印象时（不包括页面刷新）
+* 每次展示时
 
 ## 培训视频：活动量度
 

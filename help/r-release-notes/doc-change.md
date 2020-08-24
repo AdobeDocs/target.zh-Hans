@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 177fbaa1e26544d46dc56ae19558ffcfb4d2773c
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1939'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 8月24日 | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | 更新了“高级设置”部分。 |
 | 8月21日 | [Adobe Target欢迎工具包概述](/help/c-intro/target-welcome-kit.md) | 新文章和子主题。 |
 | 8月20日 | [对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 添加了以下部分：“最近发布的Google Chrome SameSite cookie实施策略对VEC和EEC有何影响？” |
 |  | [点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md) | 更新了以下文本：“如果您选择多个元素，则如果进入者单击任一选定元素，则单击计数。 要单独对每个项目进行计数，需为每个元素分别设置成功量度。要通过单击页面上的多个元素计算一个项目，请编辑CSS元素选择器以匹配多个元素。” |

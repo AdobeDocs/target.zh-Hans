@@ -4,7 +4,7 @@ title: Adobe Target 产品文档
 feature: null
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 61%
@@ -18,7 +18,7 @@ ht-degree: 61%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新日期：2020 年 8 月 21 日（[请参阅“更改了哪些内容”](r-release-notes/doc-change.md)）**
+**上次更新日期：2020 年 8 月 24 日（[请参阅“更改了哪些内容”](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ ht-degree: 61%
 - [目标服务器端API](https://developers.adobetarget.com/api/delivery-api/):描述构成Adobe Target投放API的资源。
 - [目标NodeJS SDK](https://github.com/adobe/target-nodejs-sdk):介绍如何在服务器端部署目标。 此Node.js SDK可帮助您将目标轻松集成到其他Adobe Experience Cloud解决方案中。
 - [目标Java SDK](https://github.com/adobe/target-java-sdk):介绍如何在服务器端部署目标。 此Java SDK可帮助您将目标轻松集成到其他Adobe Experience Cloud解决方案中。
-- [目标RecommendationsAPI](https://developers.adobetarget.com/api/recommendations/):描述组成正式的Adobe TargetRecommendationsAPI的资源。
+- [目标RecommendationsAPI](https://developers.adobetarget.com/api/recommendations/):描述组成官方的Adobe TargetRecommendationsAPI的资源。
 - [目标Adobe.IO文档](http://developers.adobetarget.com/api/#introduction):介绍如何使用目标的管理员和用户档案REST API，这些API使用Adobe.IO集成来管理活动、受众、优惠、属性、报告、mbox、环境和用户档案。
 
 ## Target 和 Adobe Experience Cloud 管理员 {#admins}

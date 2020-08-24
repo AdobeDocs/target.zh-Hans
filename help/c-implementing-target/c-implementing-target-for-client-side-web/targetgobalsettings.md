@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1685'
 ht-degree: 39%
 
 ---
@@ -473,7 +473,7 @@ Consider the following when using `serverState`:
 
 * 应用 `serverState `优惠时，at.js会考虑 `pageLoadEnabled` 和 `viewsEnabled` 设置，例如，如果设置为false，则不会应 `pageLoadEnabled` 用页面加载优惠。
 
-   要打开这些设置，请在“UICONTROL管理”>“实 **[施”>“编辑”>“启用页面加载”中启用切换]**。
+   要打开这些设置，请在“管理”>“实 **[!UICONTROL 施]”[!UICONTROL >“编]辑”[!UICONTROL >“启]用负载**&#x200B;页面”中启用切换。
 
    ![启用页面加载设置](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 

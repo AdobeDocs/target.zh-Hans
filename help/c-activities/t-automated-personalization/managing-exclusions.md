@@ -6,9 +6,9 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '960'
 ht-degree: 97%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 97%
 
    ![通过悬停排除体验](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   或者，您也可以批量排除/包含体验，方法是选中相关体验的复选框，然后单击对话框右上角的 **[UICONTROL 排除]**&#x200B;图标。选中一个或多个体验后，“[!UICONTROL 排除]”图标即会显示。
+   或者，您也可以批量排除/包含体验，方法是选中相关体验的复选框，然后单击对话框右上角的 **[!UICONTROL 排除]**&#x200B;图标。选中一个或多个体验后，“[!UICONTROL 排除]”图标即会显示。
 
    ![批量排除体验](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 

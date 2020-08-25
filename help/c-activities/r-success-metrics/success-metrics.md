@@ -1,11 +1,11 @@
 ---
-keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings
+keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings;dependency;dependant;Increment Count & Keep User in Activity;Increment Count, Release user, & Allow Reentry;increment Count, Release User, & Bar from Reentry
 description: 在Adobe Target，成功指标是用于衡量活动成功的参数。 成功量度包括关键业务衡量指标，可帮助您确定 Target 活动中的给定体验或选件是否成功。
 title: Adobe Target成功指标
 feature: success metrics
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
+source-git-commit: 7078d8b613a0ba2ebad5a3698f72695d5dc3c93d
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 47%

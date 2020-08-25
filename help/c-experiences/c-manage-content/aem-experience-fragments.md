@@ -6,10 +6,10 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 22%
+source-wordcount: '1100'
+ht-degree: 23%
 
 ---
 
@@ -34,7 +34,7 @@ Experience fragments represent a huge step forward to link the content/experienc
 
 ## 要求 {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-You must be provisioned with the experience fragments functionality within [!DNl Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). 您的客服专员可以帮助您确保满足使用此功能的要求：
+You must be provisioned with the experience fragments functionality within [!DNL Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). 您的客服专员可以帮助您确保满足使用此功能的要求：
 
 * [!DNL Adobe Experience Manager] 6.4（或更高版本）。
 * [!DNL Adobe Experience Manager] 6.3 SP2（或更高版本）。
@@ -131,7 +131,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 **要使用基于表单的体验书写器使用体验片段，请执行以下操作：**
 
-1. 在 [!DN目标]，在基于表单的体验书写器中创建或编辑体验时，在页面上选择要插入内容的位置，然后 [选择更改体验片段以显示“](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)[!DNL AEM]**** 选择体验片段列表”。
+1. 在基 [!DNL Target]于表单的体验编写器中创 [建或编辑体验时](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，选择页面上要插入内容的位置，然后选 [!DNL AEM] 择更改体验片段 **[!UICONTROL ，以显示]** 选择体验片段列表。
 
    ![](assets/experience_fragment_list.png)
 

@@ -4,7 +4,7 @@ title: Adobe Target 可视化体验编辑器 (VEC)
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -91,7 +91,7 @@ On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience 
 * 要向“页面交付”标准添加更多模板测试规则
 * 要在通过 EEC 或仅 iframe 加载页面可能因页面不同而有所不同时，覆盖全局增强型体验编辑器 (EEC) 切换开关
 
-在 VEC 中取消页面加载之后，您可以在活动中的体验之间进行切换，而无需等待页面加载完成。若要再次查看 VEC 中的页面，必须单击&#x200B;**[!UICONTOL 重新加载]**&#x200B;按钮。
+在 VEC 中取消页面加载之后，您可以在活动中的体验之间进行切换，而无需等待页面加载完成。若要再次查看 VEC 中的页面，必须单击&#x200B;**[!UICONTROL 重新加载]**&#x200B;按钮。
 
 >[!IMPORTANT]
 >

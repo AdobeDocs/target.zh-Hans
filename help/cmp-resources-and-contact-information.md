@@ -6,7 +6,7 @@ feature: reference general
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
@@ -61,7 +61,7 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 
 ## 联系 Adobe 客户关怀 {#reference_ACA3391A00EF467B87930A450050077C}
 
-ClientCare 随时准备帮助您解决可能出现的任何问题。此页面包含联系 ClientCare 以更快解决问题所需的信息。
+客户关怀团队随时准备帮助您解决可能出现的任何问题。此页面包含联系客户关怀团队以更快解决问题所需的信息。
 
 ### 基本信息 {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 

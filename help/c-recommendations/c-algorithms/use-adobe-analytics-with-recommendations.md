@@ -4,9 +4,9 @@ description: 使用Adobe Analytics作为行为数据源，客户可以使用Adob
 title: 将Adobe Analytics与目标·Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
+source-git-commit: 205850df6108db962a4ab514c027b7d04effaa76
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '877'
 ht-degree: 2%
 
 ---
@@ -95,10 +95,10 @@ ht-degree: 2%
    >执行此步 [!DNL Adobe Analytics] 骤前，请咨询团队。
 
    * **类型**:FTP
-   * **主持人**:xxx.yyy.com
-   * **路径**:您的目标客户端代码
-   * **用户名**:xxyy
-   * **密码**:xxxxxxxxx
+   * **Host**: `xxx.yyy.com`
+   * **路径**:您的 [!DNL Target] 客户代码
+   * **用户名**:指定您的用户名
+   * **密码**:指定密码
 
    屏幕截图仅供参考。 您的部署将具有不同的凭据。 执行此步 [!DNL Adobe Analytics] 骤时，请咨询团队或客户关怀。
 

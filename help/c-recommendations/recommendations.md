@@ -5,17 +5,17 @@ title: Adobe TargetRecommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 89%
+source-wordcount: '929'
+ht-degree: 59%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations{#recommendations}
 
-“推荐”活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。“推荐”有助于将客户导向到他们可能还不知道的相关项目。
+[!DNL Adobe Target Recommendations] 活动会根据先前的用户活动、偏好或其他条件自动显示可能引起访客兴趣的产品、服务或内容。 [!DNL Target Recommendations] 帮助将访客引导到他们原本可能不知道的相关项目。 [!DNL Recommendations] 允许您在正确的时间和位置为访客提供相关内容。
 
 >[!NOTE]
 >
@@ -36,16 +36,32 @@ ht-degree: 89%
 
 ![](assets/velocity_example.png)
 
-推荐可根据客户在网站上的活动来确定向该客户推广产品的方式。例如：
+推荐决定如何向访客推荐产品，具体取决于该访客在站点上的活动。 例如：
 
 | 所需操作 | 推荐 |
 |--- |--- |
 | 鼓励购买了背包的人也考虑购买登山鞋和登山杖。 | 使用“购买了这个项目，也购买了那个项目的人”标准，创建一个推荐来显示通常一起购买的项目。 |
 | 向访客推荐与其正在观看的媒体内容相似的内容，以增加访客在媒体网站上的停留时间。 | 使用“查看了这个项目，也查看了那个项目的人”标准，创建一个推荐来推荐其他视频。 |
 | 建议查看有关银行储蓄计划信息的客户也阅读 IRA 帐户相关信息。 | 使用“查看了这个项目，但购买了那个项目的人”标准，显示人们查看某个产品后购买的其他产品，而不显示推荐中的第一个产品。 |
-</table>
 
 有关上述标准及其他 [!DNL Recommendations] 标准的更多信息，请参阅[标准](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
+
+## 术语
+
+在开始使用之 [!DNL Recommendations]前，熟悉本节中使用的一些术语会很有帮助。 如果您还不完全了解这些术语，请放心，在您设置活动时，您会更加熟悉这些术语 [!DNL Recommendations] 。
+
+| 术语 | 定义 |
+| --- | --- |
+| 活动 | 活动可 [!DNL Target] 让您根据特定受众个性化内容并测试页面设计。 [!DNL Recommendations] 只是中提供的众多活动类型之一 [!DNL Target]有关详细信息，请参阅 [目标活动类型](/help/c-activities/target-activities-guide.md)。 |
+| 实体 | 实体是指您想推荐的项目。实体可以是产品、内容（文章、幻灯片、图像、电影和电视节目）、工作列表、餐馆等任何内容。有关详细信息，请参 [阅实体](/help/c-recommendations/c-products/products.md)。 |
+| 信息源 | 源用于将实体导入 [!DNL Recommendations]。 可以使用 CSV 文件、Google Product Search 信息源格式和 Adobe Analytics 产品分类来发送实体。有关更多信息，请参阅[信息源](/help/c-recommendations/c-products/feeds.md)。 |
+| 目录 | 目录是指您的整个产品集（实体）。 您的目录可以包含许多集合——一种在逻辑桶中组织产品的方式。 |
+| 收藏集 | 集合是指一组类似或相关的项目，如单个产品类别。 不过，您可以将任何项目分组到一个对您的业务有意义的类别中，例如可以将属于某个价格范围内或具有某种颜色的产品分组到一个类别中，或将可能在某个特定地区引起客户关注的项目分组到一个类别中。For more information, see [Collections](/help/c-recommendations/c-products/collections.md). |
+| 标准 | 标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。<br>标准的几个示例包括： <ul><li>购买了这个项目，也购买了那个项目的人</li><li>查看了这个项目，也查看了那个项目的人</li><li>具有相似属性的项目</li><li>上次购买的项目</li><li>最喜爱类别</li></ul>  有关更多信息，请参阅[标准](/help/c-recommendations/c-algorithms/algorithms.md)。 |
+| 设计 | 设计定义活动中推荐 [!DNL Recommendations] 的外观，如行、列、表或网格。 本文顶部的插图显示4 x 1设计。 For more information, see [Create a design](/help/c-recommendations/c-design-overview/create-design.md). |
+| 位置 | 位置是指您运行活动以进行个性化和优化的网页、移动应用程序或电子邮件中的特定内容区域。 |
+| 受众 | 受众是由类似的活动进入者组成的组，他们将看到目标活动。 受众是具有相同特征的人群，例如都是新访客、回访访客或来自中西部的回访访客。通过使用“受众”功能，您可以将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。有关更多信息，请参阅[受众](/help/c-target/target.md)。 |
+| “推荐”作为选件 | 此功能允许您在A/B测试(包括自动分配和自动目标)和体验定位(XT)活动中包含推荐。 有关更多信息，请参阅[将推荐作为选件](/help/c-recommendations/recommendations-as-an-offer.md)。 |
 
 ## 培训视频：活动类型 ![概述徽章](/help/assets/overview.png)
 

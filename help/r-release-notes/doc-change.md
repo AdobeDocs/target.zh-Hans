@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
+source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1999'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 8月28日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 更新了以下内容：<ul><li>已添加到“已知问题”部分：“报告-转换当前根据使用的受众以不同方式增加。”</li><li>添加到“已解决的问题”部分：“使用Google Chrome版本80+时，页面未在Visual Experience Composer(VEC)或Enhanced Experience Composer(EEC)中加载。”</li></ul> |
 | 8月26日 | [将Adobe Analytics与目标Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 新主题。 |
 | 8月24日 | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | 更新了“高级设置”部分。 |
 | 8月21日 | [Adobe Target欢迎工具包概述](/help/c-intro/target-welcome-kit.md) | 新文章和子主题。 |

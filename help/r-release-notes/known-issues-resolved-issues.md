@@ -5,10 +5,10 @@ title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
+source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
 workflow-type: tm+mt
-source-wordcount: '3521'
-ht-degree: 85%
+source-wordcount: '3657'
+ht-degree: 82%
 
 ---
 
@@ -24,6 +24,22 @@ ht-degree: 85%
 ## 已知问题 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 下面部分列出了 [!DNL Target] 的已知问题：
+
+### 报表
+
+当前转换增量根据使用的受众不同。
+
+例如，对于同一访客，如果转换计数设置为增量“每个进入者一次：”
+
+* 受众:访问级别转换的“所有合格访客”仅增加一次。 这是预期行为。
+* 受众:每次访问级别转换的“新访客”都会错误地增加，而不是只增加一次。 这不是预期行为。
+
+如果将转换计数设置为递增“每次印象：”
+
+* 受众:用于访客级转换的“所有合格访客”错误地只增加一次，而不是每次增加一次。 这不是预期行为。
+* 受众:“新访客”用于访客级转换，每次都会增加。 这是预期行为。
+
+请注意，此问题仅与 [!DNL Target] 报告相关。 在将Analytics用于目标( [!UICONTROL A4T)] 报告时，这不是问题。
 
 ### 页面交付 {#page-delivery}
 

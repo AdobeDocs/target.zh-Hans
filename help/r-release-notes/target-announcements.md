@@ -5,7 +5,7 @@ title: 目标公告
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -48,4 +48,4 @@ ht-degree: 0%
 
 ## Adobe Target技能培养者：开发人员聊天，将Adobe Target的mbox.js迁移到at.js {#skill-builder}
 
-随着mbox.js即将于2020年8月30日弃用，Adobe Target产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。 在接下来的30天内，您可以 [视图网络研讨会录制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+随着mbox.js即将于2021年1月18日弃用，Adobe Target产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。 在接下来的30天内，您可以 [视图网络研讨会录制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。

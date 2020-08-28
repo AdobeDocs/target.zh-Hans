@@ -4,7 +4,7 @@ description: 使用Adobe Analytics作为行为数据源，客户可以使用Adob
 title: 将Adobe Analytics与目标·Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 205850df6108db962a4ab514c027b7d04effaa76
+source-git-commit: a6cdecbe6acb0b34edb036894c55a2dd2298ee6e
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 2%

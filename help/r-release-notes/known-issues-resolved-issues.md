@@ -5,10 +5,10 @@ title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
+source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
 workflow-type: tm+mt
-source-wordcount: '3403'
-ht-degree: 88%
+source-wordcount: '3521'
+ht-degree: 85%
 
 ---
 
@@ -122,6 +122,12 @@ ht-degree: 88%
 ## 已解决的问题 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 上述已知问题在解决后将会被移至下面部分，并在必要时添加额外的注释。
+
+### 使用Google Chrome 80+版时，不在Visual Experience Composer(VEC)或Enhanced Experience Composer(EEC)中加载页面
+
+此已知问题与Google决定更改没有SameSite属性的Cookie的默认行为有关，从Chrome版本80开始。 在更改之前，Chrome将所有不带SameSite属性的Cookie默认为“SameSite=None”，现在它默认为“SameSite=Lax”，这将更改在GET和POST请求上发送Cookie的方式。 请参 [阅SameSite更新](https://www.chromium.org/updates/same-site)。
+
+有关详细信息和修复，请参阅“最近发布的Google Chrome SameSite cookie实施策略对VEC和EEC有何影响？” in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### 使用自定义体验作为控制时，自动定位活动的图形报表无法呈现
 

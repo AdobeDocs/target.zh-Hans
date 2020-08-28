@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 13%
@@ -27,7 +27,7 @@ ht-degree: 13%
 >* **Adobe再次被评为Gartner个性化引擎魔力象限的领导者**:在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为领导者。 Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商：愿景和执行能力的完整性。 [在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
    >
    >
-* **mbox.js弃用**:2020年8月30日，Adobe Target将不再支持mbox.js库。 2020年8月30日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响目标活动运行的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请 [参阅At.js工作方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 和 [Adobe Target技能构建器：开发人员聊天，将Adobe Target的mbox.js迁移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+* **mbox.js弃用**:2021年1月18日，Adobe Target将不再支持mbox.js库。 2021年1月18日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响目标活动运行的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请 [参阅At.js工作方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 和 [Adobe Target技能构建器：开发人员聊天，将Adobe Target的mbox.js迁移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
    >
    >   
    尽管目前支持mbox.js，但自2017年7月起，我们便未对此库提供功能更新。 较新的at.js比mbox.js具有许多优势。 at.js可缩短Web实施的页面加载时间，提高安全性，并为单页应用程序提供更好的实施选项。
@@ -45,7 +45,7 @@ ht-degree: 13%
 
 * 修复了在切换组织后加载新的“管理”页面时 **[!UICONTROL 导致]** 显示错误的问题。 (TGT-37730)
 * 修复了导致“管理”>“实施”页上显示错误客户端代 **[!UICONTROL 码的显示问]** 题。 (TGT-37849)
-* 修复了成功加载VEC后，用户有时无法在可视体 **[!UICONTROL 验书写器]** (VEC)中使用编辑功能的问题。 (TGT-37162)
+* 修复了成功加载VEC后，用户有时无法在 **[!UICONTROL 可视体验书写器]** (VEC)中使用编辑功能的问题。 (TGT-37162)
 * 修复了在切换组织后，有时会阻止用户从“管理”>“ **[!UICONTROL 实施”页面]** 下载at.js的问题。 (TGT-37668)
 * 修复了体验 **[!UICONTROL 定位]** (XT)活动中导致体验在较长时间内显示“获取结果”的问题。 (TGT-37684)
 * 改进了仅键盘用户的导航和功能。 （TGT-34479 和 TGT-34473）

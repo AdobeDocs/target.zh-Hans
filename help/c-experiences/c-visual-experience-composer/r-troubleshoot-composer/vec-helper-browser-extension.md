@@ -5,10 +5,10 @@ title: Adobe Target 可视化体验编辑器 (VEC) 助手扩展
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: c77561696c35a5890c10591fc1014d812485f0f8
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 94%
+source-wordcount: '663'
+ht-degree: 89%
 
 ---
 
@@ -23,8 +23,9 @@ ht-degree: 94%
 * 网站位于 iframe 中。
 * 尚未在网站上实施 at.js 库。
 * 客户的 QA 和/或测试网站不适用于外部环境（网站为内部网站）。
+* 您正在使用Google Chrome 80+和增强的SameSite cookie实施策略。 有关详细信息，请 [参阅最近发布的Google Chrome SameSite cookie实施策略对VEC和EEC有何影响](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
-适用于 Chrome 的 VEC 助手浏览器扩展可以解决网站加载问题，目前，客户依赖于 [!DNL Target][!UICONTROL  增强型体验编辑器]或第三方扩展（例如 Requestly）来解决该问题
+适用于 Chrome 的 VEC 助手浏览器扩展可以解决网站加载问题，目前，客户依赖于 [!DNL Target][!UICONTROL  增强型体验编辑器]或第三方扩展（例如 Requestly）来解决该问题.
 
 使用 VEC 助手扩展的好处：
 

@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: 773036f163b7de61759f6ccd8da06805b04d97ad
 workflow-type: tm+mt
-source-wordcount: '2015'
-ht-degree: 29%
+source-wordcount: '2024'
+ht-degree: 28%
 
 ---
 
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 8月31日 | [Adobe Analytics与Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 添加了常见问题解答部分。 |
 | 8月28日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 更新了以下内容：<ul><li>已添加到“已知问题”部分：“报告-转换当前根据使用的受众以不同方式增加。”</li><li>添加到“已解决的问题”部分：“使用Google Chrome版本80+时，页面未在Visual Experience Composer(VEC)或Enhanced Experience Composer(EEC)中加载。”</li></ul> |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | mbox.js的停用日期已从2020年8月30日更改为2021年1月18日。 |
 | 8月26日 | [将Adobe Analytics与目标Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 新主题。 |

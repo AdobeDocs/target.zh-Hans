@@ -4,9 +4,9 @@ description: 使用Adobe Analytics作为行为数据源，客户可以使用Adob
 title: 将Adobe Analytics与目标·Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
+source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1024'
 ht-degree: 3%
 
 ---
@@ -59,11 +59,11 @@ ht-degree: 3%
 
 ### 部署步骤
 
-假设所有先决条件均已到位，Adobe TargetRecommendations团队必须履行以下任务:
+假定所有先决条件均已到位，团队必须履行以下任务 [!DNL Adobe Target Recommendations] :
 
->[重要]
+>[!IMPORTANT]
 >
->以下步骤仅供说明。 请注意，Recommendations团队的成员当前必须执行这些步骤。 [有关详细信息，请联系 Customer Care。](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
+>以下步骤仅供说明。 团队成员当 [!DNL Recommendations] 前必须执行这些步骤。 [有关详细信息，请联系 Customer Care。](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
 
 1. 在中 [!DNL Target]，单击 **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** (管理>实 [!DNL Target] 施)以获取您的客户端代码。
 

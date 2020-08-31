@@ -4,10 +4,10 @@ description: 使用Adobe Analytics作为行为数据源，客户可以使用Adob
 title: 将Adobe Analytics与目标·Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 9bf30d6397fefdc85e51e2bd431ba163b10f6c09
+source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '1030'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 >
 >如果您的帐户中未显示这两个按钮，请联系客 [户关怀](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
-## 用例
+## 目标中分析数据的使用案例
 
 使 [!DNL Analytics] 用作为推荐的行为数据源还能够部署特定用例，而无需使用所有实体参数标记实体 [!DNL Target] 页面。 尽管这要求具备某些先决条件，但“产品变量”的可用性是该功能无缝工作的最重要因素。 常规eVar和Prop不足以使此握手在和之间自动 [!DNL Analytics] 发生 [!DNL Target]。
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 以下几节将帮助您在侧面实现此 [!DNL Analytics] 功能。
 
-### 先决条件：Analytics中的产品变量
+### 先决条件：在Analytics中设置产品变量
 
 您必须在中实施产 [!DNL Analytics] 品变量，并使用必需的属性 [!DNL Target Recommendations]。
 
@@ -57,9 +57,83 @@ ht-degree: 1%
 
 为了快速决策要使用哪个数据源，如果用户每天生成的有机数据很多，对历史数据的依赖性不大，那么使用mbox作为行为数据源是很合适的。 [!DNL Target] 如果最近生成的有机数据可用性较低，如果您想要存储 [!DNL Analytics] 数据，则 [!DNL Analytics] 使用行为数据源是一个不错的选择。
 
-### 联系客户关怀，为您创建数据源
+### 部署步骤
 
-假定所有先决条件均已到位，请联 [系客户](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 服务中心，为您创建数据源。
+假设所有先决条件均已到位，Adobe TargetRecommendations团队必须履行以下任务:
+
+>[重要]
+>
+>以下步骤仅供说明。 请注意，Recommendations团队的成员当前必须执行这些步骤。 [有关详细信息，请联系 Customer Care。](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
+
+1. 在中 [!DNL Target]，单击 **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** (管理>实 [!DNL Target] 施)以获取您的客户端代码。
+
+   ![客户端代码](/help/c-recommendations/c-algorithms/assets/client-code.png)
+
+1. 获取您 [!DNL Analytics] 的报表包。
+
+   使用您 [!DNL Analytics] 的生产站点报告套件。 这是跟踪您已部署的站点的报表 [!DNL Recommendations] 包。
+
+1. 在中， [!DNL Analytics]单击“管 **[!UICONTROL 理]** ”> **[!UICONTROL “数据源]**”。
+
+   ![“设置”>“数据源”](/help/c-recommendations/c-algorithms/assets/data-feed.png)
+
+1. Click **[!UICONTROL Add]** to create a new feed.
+
+   ![添加源](/help/c-recommendations/c-algorithms/assets/add-feed.png)
+
+1. 填写信息源：
+
+   * **名称**:Recs Prod Feed
+   * **报表包**:您的预定报告套件
+   * **电子邮件**:为管理员用户指定任何适当的地址
+   * **源间隔**:选择所需的间隔
+   * **延迟处理**:没有延迟。
+   * **开始和结束日期**:连续供给
+
+   ![信息源部分](/help/c-recommendations/c-algorithms/assets/feed-information.png)
+
+1. Fill in the details in the **[!UICONTROL Destination]** section:
+
+   >[!NOTE]
+   > 
+   >执行此步 [!DNL Adobe Analytics] 骤前，请咨询团队。
+
+   * **类型**:FTP
+   * **Host**: `xxx.yyy.com`
+   * **路径**:您的 [!DNL Target] 客户代码
+   * **用户名**:指定您的用户名
+   * **密码**:指定密码
+
+   屏幕截图仅供参考。 您的部署将具有不同的凭据。 执行此步 [!DNL Adobe Analytics] 骤时，请咨询团队或客户关怀。
+
+   ![目标部分](/help/c-recommendations/c-algorithms/assets/destination.png)
+
+1. 填写“数 **[!UICONTROL 据列]** ”定义：
+
+   * **压缩格式**:Gzip
+   * **打包类型**: 单个文件
+   * **清单：** 完成文件
+
+      ![压缩格式、打包类型和清单设置](/help/c-recommendations/c-algorithms/assets/compression.png)
+
+   * **包含的列**:
+
+      >[!IMPORTANT]
+      >
+      >必须按此处说明的相同顺序添加列。 按照以下顺序选择列，然后单 **[!UICONTROL 击]** “添加”。
+
+      * hit_time_gmt
+      * visid_high
+      * visid_low
+      * event_list
+      * product_list
+      * visit_num
+
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+   ![数据列定义部分](/help/c-recommendations/c-algorithms/assets/data-column-definitions.png)
+
+这样，侧面的设置 [!DNL Analytics] 就完成了。 现在，是时候将这些变量并 [!DNL Target] 排，以持续提供行为数据了。
 
 ## 在目标中实施
 

@@ -4,9 +4,9 @@ description: 使用Adobe Analytics作为行为数据源，客户可以使用Adob
 title: 将Adobe Analytics与目标·Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: a6cdecbe6acb0b34edb036894c55a2dd2298ee6e
+source-git-commit: 250256e44044262adca2736a519cd48b938f3b40
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '988'
 ht-degree: 2%
 
 ---
@@ -148,3 +148,16 @@ ht-degree: 2%
    ![映射节](/help/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+## 常见问题解答
+
+在使用时请考虑以下常见问 [!DNL Analytics] 题解 [!DNL Target]答：
+
+### 在mbox `entity.id` 调 `entity.categoryId` 用中是否需要传递 [!DNL Target] 和值？
+
+是，这两个值仍是必需的。 其余的属性可以通过源进行传 [!DNL Analytics] 递，如本文档所述。
+
+### 我是否可以使用动态包含规则，如实体参数使用供给方法匹配用户档案 [!DNL Analytics] 属性？
+
+是的，你可以。 该方法在单独使用时 [!DNL Target] 是相似的。 但是，在这种情况下，您必须注意时间因素。 与用户档案变量匹配的实体变量取决于稍后可能在页面上显示的数据层。
+

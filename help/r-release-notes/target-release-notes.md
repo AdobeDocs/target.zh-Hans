@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 405715f1ee1afd1d298dc7f1ef0cd3599620cbca
+source-git-commit: 4efaf7ce039aabb26fc130e541fb6057115a3c7e
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 11%
@@ -58,7 +58,7 @@ ht-degree: 11%
 * 修复了当工作区名称(在Enterprise中指 [!UICONTROL 定] )包含撇号时，用户无法显 [!UICONTROL 示活动页面]的问题。 (TGT-37709)
 * 修复了在选择优 [!UICONTROL 化和转换量度时] ，自动分配活动中出现错误消息告知用户选择报表包（即使已指定报表包）的问题。 (TGT-37689)
 * 修复了在导航到定位页面然后返回 [!UICONTROL 后] ，有时会导致“目标和设置”页 [!UICONTROL 面上的量度] 为空的问题。 (TGT-37691)
-* 修复了导致标准上次修改的值不正确的 [!DNL Recommendations] 问题。 (TGT-37666)
+* 修复了导致标准上次修改值不正确的 [!DNL Recommendations] 问题。 (TGT-37666)
 * 修复了导致mbox ID显示在Mbox下拉列表而不是mbox名称中的问题。 (TGT-37739)
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}

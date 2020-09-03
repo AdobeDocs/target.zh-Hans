@@ -5,10 +5,10 @@ title: 对与可视化体验编辑器和增强型体验编辑器有关的问题�
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 72%
+source-wordcount: '1370'
+ht-degree: 68%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 72%
 * 编 *辑活动* 时 [!DNL Target] （当站点上尚未下载库时）将无法下载库。 这是因为下载调用是从客户域向安全Adobe域发出的，并且作为未验证而被拒绝。
 * EEC对所 *有用户* 都不起作用，因为它无法为上的cookie设置SameSite属性 `adobemc.com domain`。 如果没有此属性，浏览器将拒绝这些Cookie，导致EEC失败。
 
-Adobe已将更新的VEC帮助程序扩展提交到Google Chrome商店。 此扩展会覆盖cookie属性，以根据需要 `SameSite="none"` 设置属性。 更新 [的扩展可在此处找到](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
+Adobe已将更新的VEC帮助程序扩展提交到Google Chrome商店。 此扩展会覆盖cookie属性，以根据需要 `SameSite="none"` 设置属性。 更新 [的扩展可在此处找到](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。 有关安装和使用VEC Helper Extension的详细信息，请参 [阅Visual Experience Composer帮助扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
-对于您自己的网站Cookie，您必须按名称指定Cookie。 将Cookie滑 [!UICONTROL 块切] 换到开启位置，然后按名称指定Cookie。
+对于您自己的网站Cookie，您必须按名称指定Cookie。 将Cookie [!UICONTROL 滑块] 切换到开启位置，然后按名称和Cookie域指定Cookie。 Cookie名称为“mbox”,Cookie域是您为mbox提供服务的域的第二级和顶级。 由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`. 有关详细信息，请参 [阅《Adobe Target](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) 界面 *用户指南》中的Experience CloudCookie*。
 
-![VEC帮助程序扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookie-name.png)
+![Cookie在VEC帮助程序扩展中切换](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
 ### 备选方案和解决办法
 

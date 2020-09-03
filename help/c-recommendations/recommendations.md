@@ -5,9 +5,9 @@ title: Adobe TargetRecommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '930'
 ht-degree: 59%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 59%
 | 术语 | 定义 |
 | --- | --- |
 | 活动 | 活动可 [!DNL Target] 让您根据特定受众个性化内容并测试页面设计。 [!DNL Recommendations] 只是中提供的众多活动类型之一 [!DNL Target]有关详细信息，请参阅 [目标活动类型](/help/c-activities/target-activities-guide.md)。 |
-| 实体 | 实体是指您想推荐的项目。实体可以是产品、内容（文章、幻灯片、图像、电影和电视节目）、工作列表、餐馆等任何内容。有关详细信息，请参 [阅实体](/help/c-recommendations/c-products/products.md)。 |
+| 实体 | 实体是指您想推荐的项目。实体可以是产品、内容（文章、幻灯片、图像、电影和电视节目）、工作列表、餐馆等。 For more information, see [Entities](/help/c-recommendations/c-products/products.md). |
 | 信息源 | 源用于将实体导入 [!DNL Recommendations]。 可以使用 CSV 文件、Google Product Search 信息源格式和 Adobe Analytics 产品分类来发送实体。有关更多信息，请参阅[信息源](/help/c-recommendations/c-products/feeds.md)。 |
 | 目录 | 目录是指您的整个产品集（实体）。 您的目录可以包含许多集合——一种在逻辑桶中组织产品的方式。 |
 | 收藏集 | 集合是指一组类似或相关的项目，如单个产品类别。 不过，您可以将任何项目分组到一个对您的业务有意义的类别中，例如可以将属于某个价格范围内或具有某种颜色的产品分组到一个类别中，或将可能在某个特定地区引起客户关注的项目分组到一个类别中。For more information, see [Collections](/help/c-recommendations/c-products/collections.md). |

@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '29012'
-ht-degree: 89%
+source-wordcount: '29298'
+ht-degree: 88%
 
 ---
 
@@ -23,6 +23,40 @@ ht-degree: 89%
 >请参阅 [Target 发行说明（当前版本）](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明- 2020
+
+### at.js 2.3.2（2020年7月24日）
+
+此版本的at.js是维护版本，包括以下修复：
+
+* 修复了脚本或代码向窗口或文档添加默认属性时的错误。
+
+### Target Standard/Premium 20.7.1（2020 年 7 月 27 日） 
+
+此版本包含以下更改：
+
+#### [!UICONTROL 管理] 部分UI刷新
+
+我们正在逐步重写整个 [!DNL Target] UI，使用新的技术堆栈，以便能够优惠改进的性能、减少发布新功能时所需的维护时间以及改善整个产品的用户体验。 刷新的第一个部分是 [!UICONTROL Setup] （设置）部分，它已更名为 [!UICONTROL Administration]（管理）
+
+作为此刷新的一部分，您将能够使用“管理”部分中的页面轻松执行 [!UICONTROL 许多] 操作，如：
+
+* 从“实施”选项卡(“管理”>“ [!UICONTROL 实施] ”)下&#x200B;**[!UICONTROL 载最新]** 的at.js **[!UICONTROL 文件]**。
+* 自定义您的at.js设置，并可轻松查看更改(“**[!UICONTROL 管理]** ”> **[!UICONTROL “实]**&#x200B;施”)。
+* 修改增强的报告设置，如默认货币和时区、要从报告中排除的IP等。 (**[!UICONTROL 管理]** > **[!UICONTROL 报告]**)
+* 出于隐私原因模糊处理访客IP **[!UICONTROL 地址]** (“管 **[!UICONTROL 理”]**>“实施”)
+* 在Adobe Admin Console（“管理”>“用户”）中管理每个工作区的用户及其角色的&#x200B;**[!UICONTROL 现有]** 视图 **[!UICONTROL 列表]**。
+* 搜索并过滤“管理”部分中 [!UICONTROL 的所有] 表。
+
+有关详细信息，请参 [阅管理目标概述](/help/administrating-target/administrating-target.md)。
+
+#### 增强功能、修复和变更
+
+此版本包含以下增强、修复和更改：
+
+* 修复了在刷新后无法保留站点首选项的问题。 (TGT-37239)
+* 修复了“在后插 [!UICONTROL 入”] >“图 [!UICONTROL 像”无法正常使用] 可缩放矢量图形(SVG)图像的问题。 (TGT-37242)
+* 修复了具有“发布者”角 [!UICONTROL 色的用户] ，该问题导致无法删除草稿活动。 (TGT-37358)
+* 修复了在选择“我的所有工作区”时阻止 [!UICONTROL 用户编辑活动] 的问题。 (TGT-37276)
 
 ### Target Standard/Premium 20.5.1（2020 年 6 月 17 日） 
 

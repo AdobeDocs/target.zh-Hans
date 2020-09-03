@@ -5,7 +5,7 @@ title: 配置Adobe Target视觉体验书写器
 feature: administration general
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 51%
@@ -37,7 +37,7 @@ ht-degree: 51%
 
 选择[!UICONTROL 可视化体验编辑器]使用的默认 URL。这是您每当为各个新活动设置体验时所使用的默认页面（例如主页）。如果未设置默认的 URL，您在创建各个活动时必须为活动输入 URL。
 
-### 启用增强型体验编辑器
+### 启用增强型体验编辑器 {#eec}
 
 允许在防 iFrame 嵌套网站和具有混合内容的网站上进行编辑。某些站点可能与增强版本不兼容。 Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. 所做的这一选择不会对网站上的活动交付造成任何影响。
 

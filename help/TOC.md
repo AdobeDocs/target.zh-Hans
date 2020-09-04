@@ -6,7 +6,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 87%
@@ -159,10 +159,10 @@ ht-degree: 87%
       + [目标移动应用程序常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [使用位置服务](/help/c-target-mobile-app/use-location-service.md)
    + 服务器端：实施 Target {#server-side}
+      + [服务器端：实施 Target 概述](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [发行说明-目标服务器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [发行说明-目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [发行说明-目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
-      + [服务器端：实施 Target 概述](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [从 Target 旧版 API 迁移到 Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 电子邮件：实施 Target {#implement-email}
       + [电子邮件：实施 Target 概述](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)

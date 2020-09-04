@@ -5,10 +5,10 @@ title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '3657'
-ht-degree: 82%
+source-wordcount: '3704'
+ht-degree: 81%
 
 ---
 
@@ -44,6 +44,10 @@ ht-degree: 82%
 ### 页面交付 {#page-delivery}
 
 如果添加模板规则，如[页面交付](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)中包含的 URL (/checkout、/cart)，则会在规则前添加额外的空格。这是一个外观问题，不影响受众定义的创建和选件交付。(TGT-35920)
+
+### QA预览链接
+
+如果帐户中保存的活动过多，则可能无法加载已保存活动的活动 QA 预览链接。重试预览链接应该有效。将已保存的活动存档，不再主动用于防止此问题继续发生。 (TNT-37294)
 
 ### Recommendations活动的QA模式
 

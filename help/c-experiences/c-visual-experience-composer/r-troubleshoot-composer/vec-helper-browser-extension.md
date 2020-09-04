@@ -5,10 +5,10 @@ title: Adobe Target 可视化体验编辑器 (VEC) 助手扩展
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 63%
+source-wordcount: '847'
+ht-degree: 59%
 
 ---
 
@@ -17,7 +17,11 @@ ht-degree: 63%
 
 The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for Google Chrome lets you load websites reliably within the VEC to rapidly author and QA web experiences.
 
-某些网站可能无法在 VEC 中可靠打开的原因：
+>[!NOTE]
+>
+>VEC Helper浏览器是Chrome扩展。 使用Mozilla Firefox时不需要此扩展。
+
+## 某些网站在VEC中可能无法可靠打开的原因
 
 * 网站具有严格的安全策略。
 * 网站位于 iframe 中。
@@ -27,7 +31,7 @@ The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper bro
 
 适用于 Chrome 的 VEC 助手浏览器扩展可以解决网站加载问题，目前，客户依赖于 [!DNL Target][ 增强型体验编辑器](/help/administrating-target/visual-experience-composer-set-up.md#eec)或第三方扩展（例如 Requestly）来解决该问题.
 
-使用 VEC 助手扩展的好处：
+## 使用VEC Helper扩展的优势
 
 * 将从网站中隐式删除所有 iframe 嵌套标头（例如 X-Frame-Options 和 Content-Security-Policy）。不再需要创建复杂的 Requestly 规则来解决此问题。
 * 如果网页尚未包含 [!DNL Target] at.js JavaScript 库，您可以使用该扩展来插入库，这样您便可以为该网站创作体验。然后，您可以创建活动并使用预览链接进行 QA。

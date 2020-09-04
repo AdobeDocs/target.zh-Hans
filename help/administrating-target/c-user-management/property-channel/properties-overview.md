@@ -6,10 +6,10 @@ feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '1476'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -158,7 +158,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       有关更多信息，请参阅“动态标签管理产品文档”**&#x200B;中的[全局参数 - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target)。
 
-   * **通过 targetPageParams() 函数：**&#x200B;将以下代码置于 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 标记中 at.js 或 mbox.js 引用的上方。
+   * **通过targetPageParams()函数：** 在at.js或mbox.js `<head>` 引用的上方，将以下代码放在标记中。
 
       ![](assets/property_token_1.png)
 

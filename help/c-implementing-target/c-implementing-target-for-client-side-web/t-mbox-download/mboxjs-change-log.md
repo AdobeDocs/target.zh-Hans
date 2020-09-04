@@ -6,10 +6,10 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '2320'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -147,9 +147,9 @@ window.targetGlobalSettings = {
 
 此版本进行了以下更改：
 
-* 为 Target Standard 自动创建的全局 mbox 响应不再使用 document.write() 或创建 <div> 元素。
+* 为 Target Standard 自动创建的全局 mbox 响应不再使用 document.write() 或创建`<div>`元素。
 
-   因此不再要求 mbox.js 文件必须是页面 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 中的最后一个项目。升级至此新版本时建议完成严密的质量保证工作。
+   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. 升级至此新版本时建议完成严密的质量保证工作。
 
    此更改可能会导致在发送一些选件类型时行为发生变化。以下是需要考虑的特定情况：
 
@@ -227,7 +227,7 @@ mbox.js 版本 57 还包含重要修复：
 
 **发行日期：** 2014 年 9 月 30 日
 
-将全局 mbox 实施从 document.write 更改为 AJAX。因此不再要求 mbox.js 文件必须是页面 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 部分中的最后一个项目。此版本只能通过 API 获取。客户端可以下载此版本并使用此 mbox.js 文件。某些网站在采用此实施时会出现内容闪烁的情况，因此请在您的网站上验证集成性。
+将全局 mbox 实施从 document.write 更改为 AJAX。因此不再要求 mbox.js 文件必须是页面`<head>`部分中的最后一个项目。此版本只能通过 API 获取。客户端可以下载此版本并使用此 mbox.js 文件。某些网站在采用此实施时会出现内容闪烁的情况，因此请在您的网站上验证集成性。
 
 ## mbox 版本 53
 

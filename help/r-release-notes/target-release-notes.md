@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 4efaf7ce039aabb26fc130e541fb6057115a3c7e
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '852'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2020 年 8 月 31 日**
+**上次更新日期：2020 年 9 月 9 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -38,6 +38,12 @@ ht-degree: 11%
    >
 * **目标通知**:有关即将进行的目标的信息，请参阅事件公告页，包括目标技能生成器会话、开发人员聊天、网络研讨会和目标咖啡休息会话。 有关详细信息，请参阅 [目标公告](/help/r-release-notes/target-announcements.md)。
 
+
+## Target Standard/Premium 20.8.2（2020 年 9 月 10 日）
+
+| 功能 | 详细信息 |
+| --- | --- |
+| 控制标准序列中的推荐槽 | 标准序列现在允许您控制每个推荐标准占用的槽数，使您能够混合和匹配不同类型的项目或不同的算法逻辑。<br>请参 [阅创建条件序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) ，了解更多信息。 |
 
 ## Target Standard/Premium 20.8.1（2020 年 9 月 2 日）
 

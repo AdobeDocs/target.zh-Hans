@@ -5,7 +5,7 @@ title: Adobe TargetRecommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%
@@ -44,7 +44,7 @@ ht-degree: 59%
 | 向访客推荐与其正在观看的媒体内容相似的内容，以增加访客在媒体网站上的停留时间。 | 使用“查看了这个项目，也查看了那个项目的人”标准，创建一个推荐来推荐其他视频。 |
 | 建议查看有关银行储蓄计划信息的客户也阅读 IRA 帐户相关信息。 | 使用“查看了这个项目，但购买了那个项目的人”标准，显示人们查看某个产品后购买的其他产品，而不显示推荐中的第一个产品。 |
 
-有关上述标准及其他 [!DNL Recommendations] 标准的更多信息，请参阅[标准](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
+有关上述标准及其他 [!DNL Recommendations] 标准的更多信息，请参阅[标准](../c-recommendations/c-algorithms/algorithms.md)。
 
 ## 术语
 

@@ -5,7 +5,7 @@ title: Recommendations Classic 与 Target Premium 中的“推荐”活动
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 预先配置的标准按垂直行业、页面类型和实施进行排序。例如，您可以查找以下标准：适用于零售行业，要用在产品页面上，且显示属于某个特定类别（由 `entity.categoryID` 参数定义）的产品。
 
-有关使用和创建标准的更多信息，请参阅[标准](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
+有关使用和创建标准的更多信息，请参阅[标准](../../c-recommendations/c-algorithms/algorithms.md)。
 
 ## 工作流 {#section_76B4A26297BF422382DE2C79A2713D3C}
 

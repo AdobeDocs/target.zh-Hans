@@ -5,7 +5,7 @@ title: 创建标准序列
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 43%
@@ -118,7 +118,7 @@ ht-degree: 43%
 
    将尽可能多地填充插槽，但设计模板可能包括剩余插槽的空白空间。
 
-1. （可选）切割备 **[!UICONTROL 份Recommendations]** ，切换到“打开”位置。
+1. （可选）将备份 **[!UICONTROL Recommendations]** 切换到“打开”位置。
 
    从您网站中随机选择查看次数最多的产品，填充设计中剩余的空白插槽。
 

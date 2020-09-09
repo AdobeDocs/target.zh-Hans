@@ -5,7 +5,7 @@ title: 使用备用推荐
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
@@ -46,4 +46,4 @@ ht-degree: 100%
 
 在初始设置阶段与实施团队进行相关讨论时，通常会涉及使用备用推荐。在实施之后，假如你你要更改备用推荐设置，请联系帐户管理员。
 
-如果未启用“启用局部设计渲染”（请参阅[“内容”设置](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)）且未显示模板，则会显示备用推荐或默认内容。
+如果未启用“启用局部设计渲染”（请参阅[“内容”设置](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)）且未显示模板，则会显示备用推荐或默认内容。

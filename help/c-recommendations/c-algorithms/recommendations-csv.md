@@ -5,10 +5,10 @@ title: 上传自定义标准
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '823'
+ht-degree: 97%
 
 ---
 
@@ -54,10 +54,10 @@ ht-degree: 98%
    有关基于键的标准的更多信息，请参阅[使推荐基于推荐键](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)。
 1. 设置&#x200B;**[!UICONTROL 内容]**&#x200B;规则。
 
-   内容规则用于确定当推荐的项目数量不足以填满您的设计时，将发生什么情况。例如，如果您的设计有五个项目的空间，但您的标准只会导致推荐三个项目，那么您可以将剩余的空间留空，也可以使用备用推荐来填满额外的空间。选择相应的切换开关。请参阅[内容设置](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)。
+   内容规则用于确定当推荐的项目数量不足以填满您的设计时，将发生什么情况。例如，如果您的设计有五个项目的空间，但您的标准只会导致推荐三个项目，那么您可以将剩余的空间留空，也可以使用备用推荐来填满额外的空间。选择相应的切换开关。请参阅 [指定内容设置](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)。
 1. 设置&#x200B;**[!UICONTROL 包含规则]**。
 
-   包含规则可帮助您缩小在推荐中显示的项目范围。请参阅[包含规则](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)。1. 选择 CSV 文件的&#x200B;**[!UICONTROL 位置]**。
+   包含规则可帮助您缩小在推荐中显示的项目范围。See [Specify inclusion rules](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). 1. 选择 CSV 文件的&#x200B;**[!UICONTROL 位置]**。
 
    要成功上传，CSV 文件的格式设置必须正确。单击&#x200B;**[!UICONTROL 下载 CSV 模板]**，可获取格式正确的 CSV 文件。
 

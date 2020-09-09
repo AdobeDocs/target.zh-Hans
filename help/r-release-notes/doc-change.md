@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '2141'
+source-wordcount: '2166'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 9月10日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关Target Standard/Premium 20.9.2版本的信息，其中包含以下新增功能：控制条件序列中的推荐槽。 |
 | 9月9日 | [活动 QA 书签](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 添加了用于at.js 2的JavaScript代码。*x* 目前不支持选择加入支持。 |
 | 9月3日 | [可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 更新了“获取并安装VEC Helper浏览器扩展”部分，其中包含有关cookie名称和域的信息。 |
 |  | [对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新了“最近发布的Google Chrome SameSite cookie实施策略对VEC和EEC有何影响？” 部分，其中包含有关cookie名称和域的信息。 |

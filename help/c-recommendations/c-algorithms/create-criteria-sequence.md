@@ -5,10 +5,10 @@ title: 创建标准序列
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: b85237ba7526701dee76810af1b719be00fb4fc3
+source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 57%
+source-wordcount: '1106'
+ht-degree: 43%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 57%
 
    垂直行业和页面类型可一起用于对已保存的标准序列进行分类，从而使其更易于在其他“[!UICONTROL 推荐]”活动中重复使用。
 
-## 创建标准序列
+## 创建序列 {#sequence}
 
 顺序定义设计的填充顺序。 如果标准1没有足够的建议来填充您的设计，则其余的插槽将填充标准2等。
 
@@ -84,11 +84,27 @@ ht-degree: 57%
 
 1. On the [!UICONTROL Select Criteria] screen, select a criteria.
 
+   您可以使用搜索框和筛选器下拉菜单来查找所需的条件。
+
    ![选择标准](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
 1. 单击&#x200B;**[!UICONTROL 添加]**。
 
-1. 继续向序列添加条件。 您最多可以在一个序列中添加五个标准。
+1. （可选）滑动 **[!UICONTROL 限制返回的项目数]** ，切换到“开启”位置，然后指定项目数（1到50）。
+
+   ![限制返回的项目数切换](/help/c-recommendations/c-algorithms/assets/limit-number.png)
+
+   为了帮助您了解“限制返回 [!UICONTROL 的项目数”选项的值] ，请考虑以下用例：
+
+   * **用例1**:您希望在单个推荐托盘中混合使用各种不同的项目。 例如，您希望展示混搭的外套（夹克）和上衣（衬衫、T恤）。 要实现此目的，请将集合用于活动，该集合包括您设计的任何插槽中所需的所有潜在产品类型。 然后，使用静态过滤器设置您的第一个标准，该静态过滤器将标准限制为仅包括外饰；使用静态过滤器设置第二个标准，该静态过滤器将标准限制为仅包括顶部。 最后，将两个标准添加到标准序列，并将第一个标准限制为2个插槽。
+
+      推荐托盘在您的站点上可能如下所示：
+
+      ![特色产品推荐托盘](/help/c-recommendations/c-algorithms/assets/featured-products.png)
+
+   * **用例2**:您希望混合使用替代项目和补充项目。 设置一个条件以使用已查看／已查看的算法，并使用动态筛选器将建议的项目限制为当前项目的类别。 设置第二个条件以使用已查看／已购买的算法，并使用动态筛选器，该过滤器仅包含与当前项目类别不匹配的推荐项目。 最后，将两个条件添加到序列，并将第一个条件限制为2个插槽。
+
+1. 继续为序列添加其他条件。 您最多可以在一个序列中添加五个标准。
 
 ## 指定备份内容
 
@@ -115,8 +131,6 @@ ht-degree: 57%
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    标准序列随即会显示在“标准”列表中。
-
-   ![](assets/CriteriaSequenceCard.png)
 
    有关推荐逻辑选项的更多信息，请参阅[标准](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
 

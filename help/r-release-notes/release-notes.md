@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 26%
+source-wordcount: '1095'
+ht-degree: 25%
 
 ---
 
@@ -36,6 +36,12 @@ ht-degree: 26%
 
 
 括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+## Target Standard/Premium 20.8.2（2020 年 9 月 10 日）
+
+| 功能 | 详细信息 |
+| --- | --- |
+| 控制标准序列中的推荐槽 | 标准序列现在允许您控制每个推荐标准占用的槽数，使您能够混合和匹配不同类型的项目或不同的算法逻辑。<br>请参 [阅创建条件序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) ，了解更多信息。 |
 
 ## Target Standard/Premium 20.8.1（2020 年 9 月 2 日）
 

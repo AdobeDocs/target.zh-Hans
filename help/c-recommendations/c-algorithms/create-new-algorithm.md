@@ -1,13 +1,14 @@
 ---
+keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;
 description: 标准控制着 Adobe Recommendations 活动的内容。可创建标准以显示最适合您的活动的推荐。
 title: 创建标准
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
+source-git-commit: 250cf8be318cf67257b822b62dc81dfcce0fe88b
 workflow-type: tm+mt
-source-wordcount: '3759'
-ht-degree: 91%
+source-wordcount: '3609'
+ht-degree: 85%
 
 ---
 
@@ -36,7 +37,7 @@ ht-degree: 91%
 
    ![创建新标准](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
-### 填写“基本信息”部分
+### 填写“基本信息”部分 {#info}
 
 1. 键入&#x200B;**[!UICONTROL 标准名称]**。
 
@@ -68,15 +69,15 @@ ht-degree: 91%
 
 1. 选择&#x200B;**[!UICONTROL 推荐键]**。
 
-   有关基于键的标准的更多信息，请参阅[使推荐基于推荐键](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)。
+   有关基于键的标准的更多信息，请参阅[使推荐基于推荐键](#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)。
 
 1. 选择&#x200B;**[!UICONTROL 推荐逻辑]**。
 
-   有关推荐逻辑选项的更多信息，请参阅[标准](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)。
+   有关推荐逻辑选项的更多信息，请参阅[标准](../../c-recommendations/c-algorithms/algorithms.md)。
 
    >[!NOTE]
    >
-   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
+   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
 ### 指定数据源选项
 
@@ -98,17 +99,25 @@ ht-degree: 91%
 
 1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
 
+   >[!NOTE]
+   >
+   >仅当 [!UICONTROL 您的实施使用] Analytics进行目标 [(A4T)时，才](/help/c-integrating-target-with-mac/a4t/a4t.md) 会显示“行为数据源”部分。
+
    ![“行为数据源”部分](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    如果您选择“[!UICONTROL Analytics]”，则还应选择所需的报表包。
 
-   有关详细信息，请参阅下 [面的](#analytics) Adobe Analytics [，将](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)Adobe Analytics与目标Recommendations结合使用。
+   If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria, as explained below:
 
-### 指定内容设置
+   * **一次性报表包设置**：首次将报表包与给定数据范围回顾时间范围一起使用时，[!DNL Target Recommendations] 可能需要 2 到 7 天的时间才能从 [!DNL Analytics] 完全下载所选报表包的行为数据。This time frame is dependent on the [!DNL Analytics] system load.
+   * **使用已经可用的报表包新建或编辑标准**：在创建新标准或编辑现有标准时，如果所选报表包已经与 [!DNL Target Recommendations] 一起使用，并且其数据范围等于或小于所选的数据范围，则数据立即可用，而无需一次性设置。在这种情况下，或者如果在未修改所选报表包或数据范围的情况下对算法的设置进行编辑，则该算法将在 12 小时内运行或者重新运行。
+   * **持续的算法运行**：数据每天从 [!DNL Analytics] 流向 [!DNL Target Recommendations]。例如，对于[!UICONTROL 已查看的亲和度]推荐，当用户查看产品时，产品查看跟踪调用将以近实时的方式传递到 [!DNL Analytics]。[!DNL Analytics] 数据会在第二天早些时候被推送到 [!DNL Target]，然后 [!DNL Target] 会在 12 小时内运行算法。
 
-设置[!UICONTROL 内容]规则。
+   有关详细信息，请参阅将 [Adobe Analytics与目标Recommendations结合使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
 
-内容规则用于确定当推荐的项目数量不足以填满您的设计时，将发生什么情况。例如，如果您的设计有五个项目的空间，但您的标准只会导致推荐三个项目，那么您可以将剩余的空间留空，也可以使用备用推荐来填满额外的空间。
+### 指定内容设置 {#content}
+
+内容规则用于确定当推荐的项目数量不足以填满您的设计时，将发生什么情况。“推荐”标准返回的推荐可能会少于您的设计所需的推荐。例如，如果您的设计有5个项目的空间，但您的条件仅导致推荐3个项目，则可以将剩余空间留空，也可以使用备份建议来填充额外的空间。
 
 ![内容部分](/help/c-recommendations/c-algorithms/assets/content.png)
 
@@ -126,35 +135,112 @@ ht-degree: 91%
 
    包含规则可确定哪些项目将会包含在您的推荐中。可用的选项取决于您的垂直行业。
 
-   有关更多详细信息，请参阅[包含规则](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)。
+   有关更多详细信息，请参阅 [在下面指定包含规则](#inclusion) 。
 
 1. （可选）将“推荐 **[!UICONTROL 先前购买的项目]** ”滑动至“开启”位置。
 
-   此设置基于 `productPurchasedId`。如果您销售的是人们通常只买一次的物品，例如皮划艇，那么此选项很有用。如果您销售的是人们会再次回来购买的物品，例如洗发水或其他个人物品，则应禁用此选项。
+   此设置基于 `productPurchasedId`。默认行为是不推荐以前购买的项目。在大多数情况下，您不想促销客户最近购买的项目。如果您销售的是人们通常只买一次的物品，例如皮划艇，那么此选项很有用。如果您销售人们反复回来购买的物品，如洗发水或其他个人物品，您应启用此选项。
 
-### 指定包含规则
+下面的矩阵显示了使用“部分设计渲染”和“备 [!UICONTROL 份Recommendations”选项] 时 [!UICONTROL 将观察到的] 结果：
+
+| 局部设计渲染 | 备用 Recommendations | 结果 |
+|--- |--- |--- |
+| 禁用 | 禁用 | 如果返回的推荐少于设计所需的推荐，则推荐设计将被替换为默认内容，并且不显示任何推荐。 |
+| 启用 | 禁用 | 设计会进行渲染，但如果返回的推荐少于设计所需的推荐，则可能包含空白区域。 |
+| 启用 | 启用 | 备用推荐将填满可用的设计“版块”，从而完全渲染您的设计。<br>如果将包含规则应用于备用推荐时会限制符合条件的备用推荐的数量，以致于设计无法填满，则会局部渲染设计。<br>如果标准未返回任何推荐，并且包含规则将备用推荐限制为零，则设计将被替换为默认内容。 |
+| 禁用 | 启用 | 备用推荐将填满可用的设计“版块”，从而完全渲染您的设计。<br>如果将包含规则应用于备用推荐时会限制符合条件的备用推荐的数量，以致于设计无法填满，则设计将被替换为默认内容，并且不会显示任何推荐。 |
+
+### Specify content similarity rules {#similarity}
+
+使用“[!UICONTROL 内容相似度]”规则，可根据项目或媒体属性进行推荐。
+
+>[!NOTE]
+>
+>If you selected **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** as your [recommendation logic](#info), you will have the option to set content similarity rules.
+
+内容相似度会比较项目属性关键字，并根据不同项目共有的关键字数量进行推荐。基于内容相似度的推荐不需要过去的数据便可交付高效的结果。
+
+使用内容相似度生成推荐对于新项目尤其有效，这些新项目不可能会显示在使用“查看了这个项目，也查看了那个项目的人”**&#x200B;以及基于过去行为的其他逻辑的推荐中。您还可以使用内容相似度为没有过去购买数据或其他历史数据的新访客生成有用的推荐。
+
+如果选择&#x200B;**[!UICONTROL **[!UICONTROL &#x200B;具有相似属性的项目&#x200B;]**/媒体]**，您还可以选择创建规则以在确定推荐时提高或降低特定项目属性的重要性。对于书籍等项目，您可能希望提升“流派”**、“作者”**、“系列”**&#x200B;等属性的重要性，以便推荐类似的书籍。
+
+![](assets/ContentSimilarity.png)
+
+由于内容相似度使用关键字来比较项目，因此某些属性（例如“消息”**&#x200B;或“描述”**）可能会在比较中引入“干扰信息”。您可以创建规则来忽略这些属性。
+
+默认情况下，所有属性都设置为“基准线”**。除非您要更改此设置，否则无需创建规则。
+
+>[!NOTE]
+>
+>内容相似性算法可以采用随机采样来计算项目之间的相似性。 因此，项目之间的相似性等级可能因算法运行而异。
+
+### 指定包含规则 {#inclusion}
 
 ![包含规则](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
+
+提供一些选项帮助您减少推荐中显示的项目。您可以在创建标准或促销活动时使用包含规则。
+
+包含规则是可选的；但是，通过设置这些详细信息，您可以更好地控制推荐中显示的项目。配置的每个详细信息都会进一步限定显示条件。
+
+例如，您可以选择仅显示库存超过 50 双且价格在 25 美元至 45 美元之间的女鞋。您还可以对每个属性设置权重，以使对您的业务更为重要的项目最有可能显示出来。
+
+再比如，您可以选择向仅从某些城市访问您的网站并且具有所需大学学位的访客显示职位空缺。
+
+包含规则选项会因垂直行业而异。默认情况下，包含规则会应用于备用推荐。
+
+>[!IMPORTANT]
+>
+>您应谨慎使用包含规则。在某些情况下动态属性筛选非常有用，例如您的组织设置了一些规则，要求不推荐某个品牌但显示另一品牌。但是，此功能存在机会成本。通过限制某些项目使其不显示（按活动标准通常会显示这些项目），您可能会损失一定比例的提升度。
+
+包含规则会使用“与”连接在一起。所有规则都必须得到满足，才能在推荐中包含某个项目。
+
+如前所述，要创建一个简单的包含规则以仅显示库存超过 50 双且价格在 25 美元至 45 美元之间的女鞋，请执行以下步骤：
+
+1. 设置您要推荐的产品的价格范围。
+1. 设置您要推荐的产品的最低库存量。
+1. 将推荐配置为仅显示满足特定条件的项目。
+
+   ![](assets/Recs_InclusionRules.png)
+
+   您可以指定仅当列表中的某个属性符合或不符合一个或多个指定的条件时才包含项目。
+
+   可用的计算器取决于您在第一个下拉列表中选择的值。您可以列出多个项目。这些项目会使用“或”进行评估。
+
+   多个规则会使用“与”连接在一起。
+
+   >[!NOTE]
+   >
+   >此选项限制了在推荐中显示的项目数。它不影响推荐在哪些页面上显示。要限制显示推荐的位置，请在体验编辑器中选择页面。
 
 For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
 ### 指定属性权重
 
-您可以添加多个规则，以根据有关内容目录的重要描述或元数据对算法“稍加影响”。例如，您可以对促销项目应用更高的权重，以便它们更频繁地显示在推荐中。
+您可以添加多个规则，根据有关内容目录的重要描述或元数据“轻移”算法，以便更有可能显示某些项目。
 
-请参阅[属性加权](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42)。
+例如，您可以对促销项目应用更高的权重，以便它们更频繁地显示在推荐中。非促销项目不会完全排除，但它们的显示频率会降低。可以将多个加权属性应用到同一算法，并且可以在推荐中对拆分流量测试加权属性。
+
+1. 选择一个值。
+
+   该值会根据多个可用标准中的一个标准确定更有可能显示的项目类型。
+
+1. 选择计算器。
+
+1. 键入关键字以完成规则属性。
+
+   例如，完整规则可能是“类别包含子字符串鞋”。
+
+   ![](assets/Recs_AttributeWeighting.png)
+
+1. 选择要分配给规则的权重。
+
+   选项介于 0 到 100 之间，增量为 25。
+
+1. 如果需要，添加其他规则。
 
 完成后，单击&#x200B;**[!UICONTROL 保存]**。
 
 如果您是在创建新的“[!UICONTROL 推荐]”活动或编辑现有活动，则默认情况下会选中&#x200B;**[!UICONTROL 保存标准供以后使用]**&#x200B;复选框。如果您不想在其他活动中使用该标准，请在保存前清除该复选框。
-
-### Adobe Analytics {#analytics}
-
-如果标准使用 [!DNL Adobe Analytics] 作为行为数据源，则创建标准后，其可用性的时间取决于所选报表包和回顾窗口是否已用于任何其他标准。
-
-* **一次性报表包设置**：首次将报表包与给定数据范围回顾时间范围一起使用时，[!DNL Target Recommendations] 可能需要 2 到 7 天的时间才能从 [!DNL Analytics] 完全下载所选报表包的行为数据。This time frame is dependent on the [!DNL Analytics] system load.
-* **使用已经可用的报表包新建或编辑标准**：在创建新标准或编辑现有标准时，如果所选报表包已经与 [!DNL Target Recommendations] 一起使用，并且其数据范围等于或小于所选的数据范围，则数据立即可用，而无需一次性设置。在这种情况下，或者如果在未修改所选报表包或数据范围的情况下对算法的设置进行编辑，则该算法将在 12 小时内运行或者重新运行。
-* **持续的算法运行**：数据每天从 [!DNL Analytics] 流向 [!DNL Target Recommendations]。例如，对于[!UICONTROL 已查看的亲和度]推荐，当用户查看产品时，产品查看跟踪调用将以近实时的方式传递到 [!DNL Analytics]。[!DNL Analytics] 数据会在第二天早些时候被推送到 [!DNL Target]，然后 [!DNL Target] 会在 12 小时内运行算法。
 
 ## 使推荐基于推荐键 {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -180,7 +266,7 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 
 如果选择该选项，`entity.id` 值必须作为显示 mbox 中的参数传递。
 
-**逻辑（标准）**
+#### 逻辑（标准）
 
 * [!UICONTROL 具有相似属性的项目]
 * [!UICONTROL 查看了这个项目，也查看了那个项目的人]
@@ -188,7 +274,7 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 * [!UICONTROL 购买了这个项目，也购买了那个项目的人]
 * [!UICONTROL 网站亲和度]
 
-**在您网站上的什么位置使用**
+#### 在您网站上的什么位置使用
 
 单项目页面，例如产品页面。
 
@@ -202,12 +288,12 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 
 如果选择该选项，`entity.categoryId` 值必须作为显示 mbox 的参数传递。
 
-**逻辑（标准）**
+#### 逻辑（标准）
 
 * 最畅销商品
 * 查看次数最多
 
-**在您网站上的什么位置使用**
+#### 在您网站上的什么位置使用
 
 单类别页面。
 
@@ -219,7 +305,7 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 
 如果选择该选项，配置文件属性中必须存在 `entity.id` 值。
 
-**逻辑（标准）**
+#### 逻辑（标准）
 
 * [!UICONTROL 查看了这个项目，也查看了那个项目的人]
 * [!UICONTROL 查看了这个项目，但购买了那个项目的人]
@@ -230,11 +316,11 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 
 如果键是自定义配置文件属性，并且算法类型是“查看次数最多”或“最畅销商品”，则会显示一个名为“按以下项的唯一值分组”的新下拉列表，其中包含已知实体属性（ID、类别、利润、价值、库存和环境除外）的列表。该字段为必填。
 
-**在您网站上的什么位置使用**
+#### 在您网站上的什么位置使用
 
 可以在任何页面上使用。
 
-**使用自定义推荐键**
+#### 使用自定义推荐键
 
 您可以使推荐基于自定义配置文件属性的值。例如，假定您要根据访客最近添加到其队列中的影片显示推荐的影片。
 
@@ -261,7 +347,7 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 
 推荐由每位唯一访客最近购买的项目决定。这将被自动捕获，因此无需在此页面上传递任何值。
 
-**逻辑（标准）**
+#### 逻辑（标准）
 
 * [!UICONTROL 具有相似属性的项目]
 * [!UICONTROL 查看了这个项目，也查看了那个项目的人]
@@ -269,7 +355,7 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 * [!UICONTROL 购买了这个项目，也购买了那个项目的人]
 * [!UICONTROL 网站亲和度]
 
-**在您网站上的什么位置使用**
+#### 在您网站上的什么位置使用
 
 主页，“我的帐户”页面，站外广告。
 
@@ -279,7 +365,7 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 
 推荐由每位唯一访客最近查看的项目决定。这将被自动捕获，因此无需在此页面上传递任何值。
 
-**逻辑（标准）**
+#### 逻辑（标准）
 
 * [!UICONTROL 具有相似属性的项目]
 * [!UICONTROL 查看了这个项目，也查看了那个项目的人]
@@ -287,7 +373,7 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 * [!UICONTROL 购买了这个项目，也购买了那个项目的人]
 * [!UICONTROL 网站亲和度]
 
-**在您网站上的什么位置使用**
+#### 在您网站上的什么位置使用
 
 主页，“我的帐户”页面，站外广告。
 
@@ -305,7 +391,7 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 
 例如，在一个会话中查看冲浪板 A 后再查看冲浪板 B 的结果是 A：10，B：5。会话结束时，最终结果是 A：5，B：2.5。如果在下一会话中查看相同的项目，则值更改为 A：15，B：7.5。
 
-**逻辑（标准）**
+#### 逻辑（标准）
 
 * [!UICONTROL 具有相似属性的项目]
 * [!UICONTROL 查看了这个项目，也查看了那个项目的人]
@@ -313,7 +399,7 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 * [!UICONTROL 购买了这个项目，也购买了那个项目的人]
 * [!UICONTROL 网站亲和度]
 
-**在您网站上的什么位置使用**
+#### 在您网站上的什么位置使用
 
 常规页面，例如主页或登陆页面及站外广告。
 
@@ -330,12 +416,12 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 
 例如，在一个会话中查看类别 A 后再查看类别 B 的结果是 A：9，B：10。如果您在下一个会话中查看相同的项目，则值将更改为 A：20，B：9。
 
-**逻辑（标准）**
+#### 逻辑（标准）
 
 * [!UICONTROL 最畅销商品]
 * [!UICONTROL 查看次数最多]
 
-**在您网站上的什么位置使用**
+#### 在您网站上的什么位置使用
 
 常规页面，例如主页或登陆页面及站外广告。
 
@@ -343,13 +429,13 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 
 推荐由您网站上的项目热门程度决定。热门程度包括最畅销商品和按 mbox 数据查看次数最多的项目，如果您使用 Adobe Analytics，则还包括产品报表中提供的所有量度。项目根据您选择的推荐逻辑进行排名。
 
-**逻辑（标准）**
+#### 逻辑（标准）
 
 * [!UICONTROL 最畅销商品]
 * [!UICONTROL 查看次数最多]
 * 产品报表量度（如果您使用 Adobe Analytics）
 
-**在您网站上的什么位置使用**
+#### 在您网站上的什么位置使用
 
 常规页面，例如主页或登陆页面及站外广告。
 
@@ -359,120 +445,13 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 
 “最近查看的项目”标准现在会返回特定于给定[环境](/help/administrating-target/hosts.md)的结果。如果两个网站属于不同的环境，并且访客在两个网站之间切换访问，则每个网站仅显示相应网站的最近查看的项目。如果两个网站位于同一环境，并且访客在两个网站之间切换访问，则访客将看到两个网站的最近查看的相同项目。
 
-**在您网站上的什么位置使用**
+#### 在您网站上的什么位置使用
 
 常规页面，例如主页或登陆页面及站外广告。
 
 >[!NOTE]
 >
 >“最近查看的项目”同时兼顾了排除全局设置和活动的选定收藏集设置。如果某个项目被全局排除规则排除在外，或者未包含在选定的收藏集中，则不会显示该项目；因此，在使用“最近查看的项目”标准时，通常应使用“所有收藏集”设置。
-
-## 包含规则 {#task_28DB20F968B1451481D8E51BAF947079}
-
-提供一些选项帮助您减少推荐中显示的项目。您可以在创建标准或促销活动时使用包含规则。
-
-包含规则是可选的；但是，通过设置这些详细信息，您可以更好地控制推荐中显示的项目。配置的每个详细信息都会进一步限定显示条件。
-
-例如，您可以选择仅显示库存超过 50 双且价格在 25 美元至 45 美元之间的女鞋。您还可以对每个属性设置权重，以使对您的业务更为重要的项目最有可能显示出来。
-
-再比如，您可以选择向仅从某些城市访问您的网站并且具有所需大学学位的访客显示职位空缺。
-
-包含规则选项会因垂直行业而异。默认情况下，包含规则会应用于备用推荐。
-
->[!NOTE]
->
->您应谨慎使用包含规则。在某些情况下动态属性筛选非常有用，例如您的组织设置了一些规则，要求不推荐某个品牌但显示另一品牌。但是，此功能存在机会成本。通过限制某些项目使其不显示（按活动标准通常会显示这些项目），您可能会损失一定比例的提升度。
-
-包含规则会使用“与”连接在一起。所有规则都必须得到满足，才能在推荐中包含某个项目。
-
-如前所述，要创建一个简单的包含规则以仅显示库存超过 50 双且价格在 25 美元至 45 美元之间的女鞋，请执行以下步骤：
-
-1. 设置您要推荐的产品的价格范围。
-1. 设置您要推荐的产品的最低库存量。
-1. 将推荐配置为仅显示满足特定条件的项目。
-
-   ![](assets/Recs_InclusionRules.png)
-
-   您可以指定仅当列表中的某个属性符合或不符合一个或多个指定的条件时才包含项目。
-
-   可用的计算器取决于您在第一个下拉列表中选择的值。您可以列出多个项目。这些项目会使用“或”进行评估。
-
-   多个规则会使用“与”连接在一起。
-
-   >[!NOTE]
-   >
-   >此选项限制了在推荐中显示的项目数。它不影响推荐在哪些页面上显示。要限制显示推荐的位置，请在体验编辑器中选择页面。
-
-## 属性权重 {#task_2AEDA0DB15B74770B76F6982B24C2E42}
-
-可使用属性权重对算法“稍加影响”，使特定项目更有可能被显示出来。营销人员能够根据有关内容目录的重要描述或元数据来改变算法。
-
-对这些促销项目应用更高加权，以便其能够更频繁地显示在推荐中。非促销项目不会完全排除，但它们的显示频率会降低。可以将多个加权属性应用到同一算法，并且可以在推荐中对拆分流量测试加权属性。
-
-1. 选择一个值。
-
-   该值会根据多个可用标准中的一个标准确定更有可能显示的项目类型。
-
-1. 选择计算器。
-1. 键入关键字以完成规则属性。
-
-   例如，完整的规则可以是“类别包含鞋”。
-
-   ![](assets/Recs_AttributeWeighting.png)
-
-1. 选择要分配给规则的权重。
-
-   选项介于 0 到 100 之间，增量为 25。
-
-1. 如果需要，添加其他规则。
-
-## “内容”设置{#concept_BC16005C7A1E4F1A87E33D16221F4A96}
-
-“[!UICONTROL 内容]”设置可决定推荐在设计中的显示方式。
-
-“[!UICONTROL 推荐]”标准返回的推荐可能会少于您的设计所需的推荐。例如，您的设计可能有五个可用的“版块”，但标准仅返回三个推荐的项目。“[!UICONTROL 内容]”设置可控制在发生这种情况时如何显示推荐。
-
-内容规则用于确定当推荐的项目数量不足以填满您的设计时，将发生什么情况。例如，如果您的设计有五个项目的空间，但您的标准只会导致推荐三个项目，那么您可以将剩余的空间留空，也可以使用备用推荐来填满额外的空间。
-
-选择相应的切换开关：
-
-* [!UICONTROL 启用局部设计渲染]
-* [!UICONTROL 显示备用推荐]
-* [!UICONTROL 将包含规则应用于备用推荐]
-* [!UICONTROL 推荐以前购买的项目]
-
-   此设置基于 `productPurchasedId` 配置文件值。默认行为是不推荐以前购买的项目。在大多数情况下，您不想促销客户最近购买的项目。如果客户经常会重复购买某些项目，则启用此功能可以继续推荐以前购买的项目。
-
-如果您启用了&#x200B;**[!UICONTROL 显示备用推荐]**，则默认情况下会启用将[包含规则](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)应用于备用推荐的选项。
-
-![](assets/Recs_ContentControls.png)
-
-| 局部设计渲染 | 备用 Recommendations | 结果 |
-|--- |--- |--- |
-| 禁用 | 禁用 | 如果返回的推荐少于设计所需的推荐，则推荐设计将被替换为默认内容，并且不显示任何推荐。 |
-| 启用 | 禁用 | 设计会进行渲染，但如果返回的推荐少于设计所需的推荐，则可能包含空白区域。 |
-| 启用 | 启用 | 备用推荐将填满可用的设计“版块”，从而完全渲染您的设计。<br>如果将包含规则应用于备用推荐时会限制符合条件的备用推荐的数量，以致于设计无法填满，则会局部渲染设计。<br>如果标准未返回任何推荐，并且包含规则将备用推荐限制为零，则设计将被替换为默认内容。 |
-| 禁用 | 启用 | 备用推荐将填满可用的设计“版块”，从而完全渲染您的设计。<br>如果将包含规则应用于备用推荐时会限制符合条件的备用推荐的数量，以致于设计无法填满，则设计将被替换为默认内容，并且不会显示任何推荐。 |
-
-## 内容相似度 {#concept_5402DAFA279C4E46A9A449526889A0CB}
-
-使用“[!UICONTROL 内容相似度]”规则，可根据项目或媒体属性进行推荐。
-
-内容相似度会比较项目属性关键字，并根据不同项目共有的关键字数量进行推荐。基于内容相似度的推荐不需要过去的数据便可交付高效的结果。
-
-使用内容相似度生成推荐对于新项目尤其有效，这些新项目不可能会显示在使用“查看了这个项目，也查看了那个项目的人”**&#x200B;以及基于过去行为的其他逻辑的推荐中。您还可以使用内容相似度为没有过去购买数据或其他历史数据的新访客生成有用的推荐。
-
-如果选择&#x200B;**[!UICONTROL **[!UICONTROL &#x200B;具有相似属性的项目&#x200B;]**/媒体]**，您还可以选择创建规则以在确定推荐时提高或降低特定项目属性的重要性。对于书籍等项目，您可能希望提升“流派”**、“作者”**、“系列”**&#x200B;等属性的重要性，以便推荐类似的书籍。
-
-![](assets/ContentSimilarity.png)
-
-由于内容相似度使用关键字来比较项目，因此某些属性（例如“消息”**&#x200B;或“描述”**）可能会在比较中引入“干扰信息”。您可以创建规则来忽略这些属性。
-
-默认情况下，所有属性都设置为“基准线”**。除非您要更改此设置，否则无需创建规则。
-
->[!NOTE]
->
->内容相似性算法可以采用随机采样来计算项目之间的相似性。 因此，项目之间的相似性等级可能因算法运行而异。
 
 ## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 

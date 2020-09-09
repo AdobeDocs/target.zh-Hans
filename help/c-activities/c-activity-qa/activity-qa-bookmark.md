@@ -6,10 +6,10 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 43%
+source-wordcount: '261'
+ht-degree: 26%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 43%
 # 活动 QA 书签{#activity-qa-bookmarklet}
 
 Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Target] to release you from QA mode.
+
+>[!NOTE]
+>
+>创建书签的过程因浏览器类型和版本而异。请参阅浏览器的帮助或在 Internet 上搜索具体说明。
+
+## 活动at.js 1的QA书签。*x*
 
 由于 [QA 模式](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)具有粘滞性，因此以 QA 模式浏览网站后，您必须终止 会话，或者需要让 将您从 QA 模式中释放出来，然后才能像普通访客一样查看您的网站。[!DNL Target][!DNL Target]Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
 
@@ -39,11 +45,30 @@ javascript:(
 )();
 ```
 
-随后，该书签应该会显示在工具栏中，以供重复使用。
+## 活动at.js 2的QA书签。*x*
 
->[!NOTE]
->
->创建书签的过程因浏览器类型和版本而异。请参阅浏览器的帮助或在 Internet 上搜索具体说明。
+与at.js 1不同。*x*,at.js 2.*x* 不支持第三方cookie，并且QA模式仅对第一方域具有粘性（通过at.js设置的第一方cookie）。 因此，在at.js 2中。*x*,QA模式会话仅在客户端进行管理，不向目标发送QA模式cookie。
+
+To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
+
+```
+javascript:(
+    function () {
+        var AT_QA_MODE = 'at_qa_mode=';
+        var isSet = document.cookie.split(';').some(function (cookie) {
+            return cookie.trim().startsWith(AT_QA_MODE);
+        });
+        if (isSet) {
+            document.cookie = AT_QA_MODE + '; Max-Age=-99999999;';
+            var url = window.location.href.split('at_preview_token',2)[0];
+            window.location.href = url.substring(0, url.length - 1);
+        }
+    })();
+```
+
+## 使用活动QA书签
+
+单击浏览器工具栏上的书签。
 
 You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
 

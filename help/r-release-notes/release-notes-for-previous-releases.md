@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '29298'
+source-wordcount: '29292'
 ht-degree: 88%
 
 ---
@@ -758,7 +758,7 @@ target/r_release-notes-2018.xml
    <td colname="col2"> <p> 
      <ul id="ul_371C18DFC6D24E94B3D4FFFD83FC8D3A"> 
       <li id="li_9D11939014E7479AB7FD8910852A5386"> <p>在“标准”卡片中查看引用了所选标准的活动列表。该卡片列出了活跃和不活跃的活动。(TGT-27672) </p> </li> 
-      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>在活动图中，“标准”卡片现在会显示已准备好显示结果的时间。(TGT-27673) </p> <p>请参阅<a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local">标准</a>。 </p> </li> 
+      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>在活动图中，“标准”卡片现在会显示已准备好显示结果的时间。(TGT-27673) </p> <p>请参阅<a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">标准</a>。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1055,7 +1055,7 @@ target/r_release-notes-2018.xml
      <ul id="ul_BDD55AB34F4A43C691D2399C16AA3D6C"> 
       <li id="li_133C33E0D02E4861A4C855BD8A492E69"> <p>与推荐中的其他标准一样，自定义标准现在也可配置。 </p> </li> 
       <li id="li_AC201F0917BF465C985E8947635F762E"> <p>您可以使用收藏集、排除项和包含项（包括针对价格和库存的特殊规则），其使用方法与任何其他标准相同。以前已支持收藏集和排除项。此版本添加了包含项。 </p> </li> 
-     </ul> </p> <p>有关更多信息，请参阅<a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local">标准</a>。 </p> <p>(TGT-28488) </p> </td> 
+     </ul> </p> <p>有关更多信息，请参阅<a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">标准</a>。 </p> <p>(TGT-28488) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>推荐：“最近查看的项目”标准的包含规则、收藏集和排除项 </p> </td> 
@@ -1063,7 +1063,7 @@ target/r_release-notes-2018.xml
      <ul id="ul_A2D260F01CA047EEA72EF56BD0EE88FA"> 
       <li id="li_DB107DD357B741CCB2B7A4FDAD16F9D6"> <p>与推荐中的其他标准一样，“最近查看的项目”标准现在也可配置。 </p> </li> 
       <li id="li_85452C03F0924D4C8D854509F1293021"> <p>您可以使用收藏集、排除项和包含项（包括针对价格和库存的特殊规则），其使用方法与任何其他标准相同。以前已支持收藏集和排除项。此版本添加了包含项。 </p> </li> 
-     </ul> </p> <p>有关更多信息，请参阅<a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local">标准</a>。 </p> <p>(TGT-22843) </p> </td> 
+     </ul> </p> <p>有关更多信息，请参阅<a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">标准</a>。 </p> <p>(TGT-22843) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>适用于 Adobe Launch 的 Target 扩展 </p> </td> 
@@ -2622,7 +2622,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">推荐 </p> <p class="Premium">排除过去购买的项目 </p> </td> 
-   <td colname="col2"> <p>现在，Target 可以自动从访客的推荐中排除以前购买的项目。可以为任何标准禁用此选项。 </p> <p>现在，所有现成可用的标准都启用了此选项，包括此版本发行之前所运行的活动中使用的那些标准。如果您不希望排除过去购买的项目，您应该编辑这些活动。 </p> <p>请参阅<a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local">包含规则</a>。 </p> </td> 
+   <td colname="col2"> <p>现在，Target 可以自动从访客的推荐中排除以前购买的项目。可以为任何标准禁用此选项。 </p> <p>现在，所有现成可用的标准都启用了此选项，包括此版本发行之前所运行的活动中使用的那些标准。如果您不希望排除过去购买的项目，您应该编辑这些活动。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">推荐 </p> <p> 属性加权 </p> </td> 
@@ -2645,10 +2645,10 @@ target/r_release-notes-2015.xml
       <li id="li_901D4AAF7BE244FCB9277DC7EDD91E32">与指定的 entity.id 相匹配且使用属性相似的项目的自定义属性 </li> 
       <li id="li_49D52B0182F346E982C11A0C2DA50B4F">拥有相似属性的上次查看项目 </li> 
       <li id="li_2DBAF32476AC435EB57D08D96CB55683">拥有相似属性的查看次数最多的项目 </li> 
-     </ul> </p> <p>请参阅<a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local">包含规则</a>。 </p> </td> 
+     </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 新的活动列表筛选器 </td> 
+   <td colname="col1"> 新的活动列表过滤器 </td> 
    <td colname="col2"> <p>新增了若干筛选器，以帮助您在“活动”列表中显示您最有兴趣查看的活动。 </p> <p>请参阅<a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local">活动</a>。 </p> </td> 
   </tr> 
   <tr> 
@@ -2664,7 +2664,7 @@ target/r_release-notes-2015.xml
       <li id="li_1B44AB35B045416B8D8B72C428750822">更多与此类似的内容 </li> 
       <li id="li_FEC84CCF3DF3444DAB39F4764DE897B0">更多与此类似的幻灯片 </li> 
       <li id="li_5E874ACB5B004CACBDB4F8FF217BC593">更多与此类似的产品 </li> 
-     </ul> </p> <p>请参阅<a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local">标准</a>。 </p> </td> 
+     </ul> </p> <p>请参阅<a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">标准</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 增强功能：改进了使用 Analytics 作为报表源时显示的报表详细信息。 </td> 
@@ -2997,7 +2997,7 @@ target/r_release-notes-2015.xml
    <td colname="col1" class="premium"> <p class="Premium"> Recommendations Premium 中现在支持 Recommendations Classic 功能 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E0D6A9C12B514DE3B3EA753BB4D56662"> 
-      <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> 局部模板渲染 <p>请参阅<a href="../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96" format="dita" scope="local">内容设置</a>。 </p> </li> 
+      <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> 局部模板渲染 <p>请参阅<a href="/help/c-recommendations/c-algorithms/create-new-algorithm.md#content" format="dita" scope="local">内容设置</a>。 </p> </li> 
       <li id="li_B1DFC829D19B4570AB5A7F937C7EF2CC"> 为每个标准指定备用规则 </li> 
       <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> 支持为产品信息源使用 FTPS</li> 
       <li id="li_3C0FA493C87345E4BE994936DF0D0162"> 自定义算法现在可自动显示为标准</li> 

@@ -5,15 +5,15 @@ title: Adobe TargetRecommendations标准
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 74%
+source-wordcount: '1636'
+ht-degree: 73%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 标准 {#criteria}
+# ![PREMIUM](/help/assets/premium.png) 标准 
 
 标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。
 
@@ -107,10 +107,10 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 ![“算法信息”选项卡](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-单击&#x200B;**[!UICONTROL 算法使用情况]**&#x200B;选项卡可查看引用所选标准的活动列表。该卡片列出了活跃和不活跃的活动。单击“实时活动”或“不活跃的活动”下拉列表可查看引用该标准的整个活动列表。您可以单击活动链接以打开活动进行编辑。
+单击&#x200B;**[!UICONTROL 算法使用情况]**&#x200B;选项卡可查看引用所选标准的活动列表。卡列表处于活动状态、非活动状态和草稿活动。 单击“实时活动/非活动活动/拟定活动”下拉列表卡，视图引用该标准的整个活动列表。 您可以单击活动链接以打开活动进行编辑。
 
 ![“算法使用”选项卡](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->目前 [!UICONTROL 仅Recommendations活动] 支持算法使用功能。 A/B测试和体验定位(XT)活动当前不支持此功能，这些包含 [推荐作为优惠](/help/c-recommendations/recommendations-as-an-offer.md)。
+>目前 [!UICONTROL 仅Recommendations活动] 支持算法使用功能。 A/B测试、自动分配、自动目标和体验定位(XT)活动当前不支持此功能，这些包含 [作为优惠的建议](/help/c-recommendations/recommendations-as-an-offer.md)。

@@ -1,33 +1,30 @@
 ---
-keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
+keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
 description: 标准控制着 Adobe Recommendations 活动的内容。可创建标准以显示最适合您的活动的推荐。
 title: 创建标准
 feature: criteria
-mini-toc-levels: 2
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 31ee320c3a5d81a4d859881666ab098253f9047e
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '3609'
-ht-degree: 85%
+source-wordcount: '2402'
+ht-degree: 66%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 创建标准{#create-criteria}
 
-标准控制着“[!UICONTROL 推荐]”活动的内容。可创建标准以显示最适合您的活动的推荐。
-
-## 创建新标准
+Adobe Target [!UICONTROL 活动][!UICONTROL ·] Recommendations的条件 [!UICONTROL ，控制您Recommendations的] 内容。 可创建标准以显示最适合您的活动的推荐。这些条件使用访客的操作来确定要显示的内容或产品。
 
 以下各节介绍如何创建新标准。
 
-### 访问“创建新条件”屏幕
+## 访问“创建新条件”屏幕
 
 可通过多种方式来访问“[!UICONTROL 创建新标准]”屏幕。某些屏幕选项会根据您访问该屏幕的方式而有所不同。
 
 * On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. 您在此处创建的标准会自动设置为可用于所有 [!DNL Recommendations] 活动。
-* When you are creating a [!DNL Recommendations] activity, click **[!UICONTROL Create Criteria]** on the [!UICONTROL Select Criteria] screen. 您将可以选择保存新建的标准，以供在其他 [!DNL Recommendations] 活动中使用。
+* 当您使用可视体验 [!DNL Recommendations] 书写器(VEC)活动 [!UICONTROL 时，您会立即进入“Visual Experience Composer] (Visual Experience Composer [!UICONTROL )”屏幕，在选择Visual Experience Composer(VEC)后，单击“Deplace W/] Recommendations/InsereresetInserise Insert Insert Inse In Insert Inse Be Vide Vide Vide Inse BeSe Be Inser IneDes Inse Bite Vid In Ber Be Vid Inse Vid Ber Vid In In Inse Inse  Pro Pr   Co  然后，您可以选择可用的条件，也可以单击“创 **[!UICONTROL 建条件”]**。 如果创建了新标准，则可以选择保存标准以便与其他活动一起 [!DNL Recommendations] 使用。 For more information, see [Create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 * 编辑 [!DNL Recommendations] 活动时，在页面上的[!UICONTROL 推荐位置]框中单击，然后选择&#x200B;**[!UICONTROL 更改标准]**。On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. 您将可以选择保存新建的标准，以供在其他 [!DNL Recommendations] 活动中使用。
 
 以下步骤假定您使用第 [!UICONTROL 一种方法访问] “创建新条件”屏幕：“ **[!UICONTROL Recommendations]** > **[!UICONTROL 标准]** ”库屏幕。
@@ -38,7 +35,9 @@ ht-degree: 85%
 
    ![创建新标准](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
-### 填写“基本信息”部分 {#info}
+1. 在以下各节中配置信息。
+
+## 基本信息 {#info}
 
 1. 键入&#x200B;**[!UICONTROL 标准名称]**。
 
@@ -70,7 +69,7 @@ ht-degree: 85%
 
 1. 选择&#x200B;**[!UICONTROL 推荐键]**。
 
-   有关基于键的标准的更多信息，请参阅[使推荐基于推荐键](#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)。
+   有关基于键的标准的更多信息，请参阅[使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 
 1. 选择&#x200B;**[!UICONTROL 推荐逻辑]**。
 
@@ -80,7 +79,7 @@ ht-degree: 85%
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
-### 指定数据源选项
+## 数据源
 
 1. 设置&#x200B;**[!UICONTROL 数据范围]**&#x200B;以确定在决定要显示的推荐时所使用的可用历史用户行为数据的时间范围。
 
@@ -116,25 +115,42 @@ ht-degree: 85%
 
    有关详细信息，请参阅将 [Adobe Analytics与目标Recommendations结合使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
 
-### 指定内容设置 {#content}
+## 内容 {#content}
 
-内容规则用于确定当推荐的项目数量不足以填满您的设计时，将发生什么情况。“推荐”标准返回的推荐可能会少于您的设计所需的推荐。例如，如果您的设计有5个项目的空间，但您的条件仅导致推荐3个项目，则可以将剩余空间留空，也可以使用备份建议来填充额外的空间。
+Content rules determine what happens if the number of recommended items does not fill your [recommendations design](/help/c-recommendations/c-design-overview/design-overview.md). It is possible for [!DNL Recommendations] criteria to return fewer recommendations than your design calls for. 例如，如果您的设计有四个项目的插槽，但条件仅导致推荐两个项目，则可以将其余插槽留空，也可以使用备份建议来填充额外的插槽。
 
 ![内容部分](/help/c-recommendations/c-algorithms/assets/content.png)
 
 1. （可选）将“部 **[!UICONTROL 分设计渲染]** ”切换滑至“开启”位置。
 
-   将尽可能多地填充插槽，但设计模板可能包括剩余插槽的空白空间。
+   将尽可能多地填充插槽，但设计模板可能包括剩余插槽的空白空间。 如果禁用此选项，且内容不足以填充所有可用插槽，则不提供建议，而是显示默认内容。
+
+   如果希望推荐使用空的插槽，请启用此选项。 如果您希望推荐插槽中根据您的条件填充内容，而空插槽中填充了来自您网站的类似或热门内容，请使用备份推荐，如下一步所述。
 
 1. （可选）将“显 **[!UICONTROL 示备份Recommendations]** ”切换到“打开”位置。
 
    从您网站中随机选择查看次数最多的产品，填充设计中剩余的空白插槽。
 
+   使用备份推荐可确保您的推荐设计能够填满所有可用的插槽。 假设您有4 x 1设计，如下所示：
+
+   ![4 x 1设计](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+   假设您的条件仅建议两个项目。 如果启用“部 [!UICONTROL 分设计渲染] ”选项，则前两个插槽已填满，但其余两个插槽仍为空。 但是，如果启用“显 [!UICONTROL 示备份Recommendations] ”选项，则前两个插槽将根据您指定的条件填充，其余两个插槽则根据您的备份建议填充。
+
+   下面的矩阵显示了使用“部分设计渲染”和“备 [!UICONTROL 份Recommendations”选项] 时 [!UICONTROL 将观察到的] 结果：
+
+   | 局部设计渲染 | 备用 Recommendations | 结果 |
+   |--- |--- |--- |
+   | 禁用 | 禁用 | 如果返回的推荐少于设计所需的推荐，则推荐设计将被替换为默认内容，并且不显示任何推荐。 |
+   | 启用 | 禁用 | 设计会进行渲染，但如果返回的推荐少于设计所需的推荐，则可能包含空白区域。 |
+   | 启用 | 启用 | 备用推荐将填满可用的设计“版块”，从而完全渲染您的设计。<br>如果将包含规则应用于备用推荐时会限制符合条件的备用推荐的数量，以致于设计无法填满，则会局部渲染设计。<br>如果标准未返回任何推荐，并且包含规则将备用推荐限制为零，则设计将被替换为默认内容。 |
+   | 禁用 | 启用 | 备用推荐将填满可用的设计“版块”，从而完全渲染您的设计。<br>如果将包含规则应用于备用推荐时会限制符合条件的备用推荐的数量，以致于设计无法填满，则设计将被替换为默认内容，并且不会显示任何推荐。 |
+
    有关详细信息，请参 [阅使用备份建议](/help/c-recommendations/c-algorithms/backup-recs.md)。
 
 1. （视情况而定）如果您在上 **[!UICONTROL 一步中选择了]** “显示备份Recommendations” **[!UICONTROL ，则可以启用“应]**&#x200B;用包含规则”来备份建议。
 
-   包含规则可确定哪些项目将会包含在您的推荐中。可用的选项取决于您的垂直行业。
+   包含规则确定推荐中包含哪些项目。 可用的选项取决于您的垂直行业。
 
    有关更多详细信息，请参阅 [在下面指定包含规则](#inclusion) 。
 
@@ -142,16 +158,7 @@ ht-degree: 85%
 
    此设置基于 `productPurchasedId`。默认行为是不推荐以前购买的项目。在大多数情况下，您不想促销客户最近购买的项目。如果您销售的是人们通常只买一次的物品，例如皮划艇，那么此选项很有用。如果您销售人们反复回来购买的物品，如洗发水或其他个人物品，您应启用此选项。
 
-下面的矩阵显示了使用“部分设计渲染”和“备 [!UICONTROL 份Recommendations”选项] 时 [!UICONTROL 将观察到的] 结果：
-
-| 局部设计渲染 | 备用 Recommendations | 结果 |
-|--- |--- |--- |
-| 禁用 | 禁用 | 如果返回的推荐少于设计所需的推荐，则推荐设计将被替换为默认内容，并且不显示任何推荐。 |
-| 启用 | 禁用 | 设计会进行渲染，但如果返回的推荐少于设计所需的推荐，则可能包含空白区域。 |
-| 启用 | 启用 | 备用推荐将填满可用的设计“版块”，从而完全渲染您的设计。<br>如果将包含规则应用于备用推荐时会限制符合条件的备用推荐的数量，以致于设计无法填满，则会局部渲染设计。<br>如果标准未返回任何推荐，并且包含规则将备用推荐限制为零，则设计将被替换为默认内容。 |
-| 禁用 | 启用 | 备用推荐将填满可用的设计“版块”，从而完全渲染您的设计。<br>如果将包含规则应用于备用推荐时会限制符合条件的备用推荐的数量，以致于设计无法填满，则设计将被替换为默认内容，并且不会显示任何推荐。 |
-
-### Specify content similarity rules {#similarity}
+## 内容相似度 {#similarity}
 
 使用“[!UICONTROL 内容相似度]”规则，可根据项目或媒体属性进行推荐。
 
@@ -175,11 +182,11 @@ ht-degree: 85%
 >
 >内容相似性算法可以采用随机采样来计算项目之间的相似性。 因此，项目之间的相似性等级可能因算法运行而异。
 
-### 指定包含规则 {#inclusion}
-
-![包含规则](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
+## 包含规则 {#inclusion}
 
 提供一些选项帮助您减少推荐中显示的项目。您可以在创建标准或促销活动时使用包含规则。
+
+![包含规则](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
 包含规则是可选的；但是，通过设置这些详细信息，您可以更好地控制推荐中显示的项目。配置的每个详细信息都会进一步限定显示条件。
 
@@ -215,9 +222,9 @@ ht-degree: 85%
 
 For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-### 指定属性权重
+## 属性权重
 
-您可以添加多个规则，根据有关内容目录的重要描述或元数据“轻移”算法，以便更有可能显示某些项目。
+您可以添加多个规则，根据有关内容目录的重要信息或元数据“微移”算法，以便更有可能显示某些项目。
 
 例如，您可以对促销项目应用更高的权重，以便它们更频繁地显示在推荐中。非促销项目不会完全排除，但它们的显示频率会降低。可以将多个加权属性应用到同一算法，并且可以在推荐中对拆分流量测试加权属性。
 
@@ -242,217 +249,6 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 完成后，单击&#x200B;**[!UICONTROL 保存]**。
 
 如果您是在创建新的“[!UICONTROL 推荐]”活动或编辑现有活动，则默认情况下会选中&#x200B;**[!UICONTROL 保存标准供以后使用]**&#x200B;复选框。如果您不想在其他活动中使用该标准，请在保存前清除该复选框。
-
-## 使推荐基于推荐键 {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
-
-基于键的推荐可利用访客行为上下文来显示相关结果。
-
-有两种类型的推荐：
-
-* **热门程度：**&#x200B;根据“查看次数最多”、“最畅销”和“热门量度”列出项目。对于热门程度标准，键为空。
-* **基于键：**&#x200B;包含其余标准。推荐提供了多种键类型以供选择。选项包括“当前项目”和“配置文件参数”，这些选项允许您以编程方式设置要推荐的值的键。您可以通过使每个标准基于不同的键来对多个标准进行相互测试。
-
-每个标准都在其自身的选项卡中进行定义。流量会在不同的标准测试中均匀拆分。换句话说，如果您有两个标准，则流量会在这两个标准之间平均拆分。如果您有两个标准和两个设计，则流量会在四种组合之间平均拆分。您也可指定一定数量的网站访客（百分比），这部分访客将看到默认内容以进行对比。在这种情况下，指定百分比的访客会看到默认内容，其余的访客则会在您的标准和设计组合之间进行分配。
-
-1. 创建新推荐，或选择现有推荐，然后单击&#x200B;**[!UICONTROL 编辑]**。
-1. 要更改推荐键，请从[!UICONTROL 推荐键]下拉列表中选择新键，然后单击&#x200B;**[!UICONTROL 保存]**
-
-   由于不同的逻辑映射到不同的推荐键，因此不同的推荐会让自身放置在不同类型的页面上。有关每个键的更多信息，请参阅以下部分。
-
-### 当前项目
-
-推荐由访客当前正在查看的项目决定。
-
-推荐会向对指定项目感兴趣的访客显示可能令其感兴趣的其他项目。
-
-如果选择该选项，`entity.id` 值必须作为显示 mbox 中的参数传递。
-
-#### 逻辑（标准）
-
-* [!UICONTROL 具有相似属性的项目]
-* [!UICONTROL 查看了这个项目，也查看了那个项目的人]
-* [!UICONTROL 查看了这个项目，但购买了那个项目的人]
-* [!UICONTROL 购买了这个项目，也购买了那个项目的人]
-* [!UICONTROL 网站亲和度]
-
-#### 在您网站上的什么位置使用
-
-单项目页面，例如产品页面。
-
-请勿在空的搜索结果页面上使用。
-
-### 当前类别 
-
-推荐由访客当前正在查看的产品类别决定。
-
-推荐会显示指定产品类别中的项目。
-
-如果选择该选项，`entity.categoryId` 值必须作为显示 mbox 的参数传递。
-
-#### 逻辑（标准）
-
-* 最畅销商品
-* 查看次数最多
-
-#### 在您网站上的什么位置使用
-
-单类别页面。
-
-请勿在空的搜索结果页面上使用。
-
-### 自定义属性 {#custom}
-
-推荐由使用 user.*x* 或 profile.*x* 属性存储在访客配置文件中的项目确定。
-
-如果选择该选项，配置文件属性中必须存在 `entity.id` 值。
-
-#### 逻辑（标准）
-
-* [!UICONTROL 查看了这个项目，也查看了那个项目的人]
-* [!UICONTROL 查看了这个项目，但购买了那个项目的人]
-* [!UICONTROL 购买了这个项目，也购买了那个项目的人]
-* [!UICONTROL 总体行为]
-* [!UICONTROL 查看次数最多]
-* [!UICONTROL 最畅销商品]
-
-如果键是自定义配置文件属性，并且算法类型是“查看次数最多”或“最畅销商品”，则会显示一个名为“按以下项的唯一值分组”的新下拉列表，其中包含已知实体属性（ID、类别、利润、价值、库存和环境除外）的列表。该字段为必填。
-
-#### 在您网站上的什么位置使用
-
-可以在任何页面上使用。
-
-#### 使用自定义推荐键
-
-您可以使推荐基于自定义配置文件属性的值。例如，假定您要根据访客最近添加到其队列中的影片显示推荐的影片。
-
-1. 从&#x200B;**[!UICONTROL 推荐键]**&#x200B;下拉列表中选择自定义配置文件属性（例如“最近添加到观看列表的节目”）。
-1. 然后，选择&#x200B;**[!UICONTROL 推荐逻辑]**（例如“查看了这个项目，也查看了那个项目的人”）。
-
-   ![“创建新标准”对话框](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
-
-如果自定义配置文件属性与单个实体 ID 不直接匹配，则需要向 [!DNL Recommendations] 说明您希望如何与实体进行匹配。例如，假定您要显示访客最喜爱的品牌中的最畅销商品。
-
-1. 从&#x200B;**[!UICONTROL 推荐键]**&#x200B;下拉列表中选择自定义配置文件属性（例如，“最喜爱的品牌”）。
-
-1. 然后，选择要用于此键的&#x200B;**[!UICONTROL 推荐逻辑]**（例如，“最畅销商品”）。
-
-   此时会显示[!UICONTROL 按以下项的唯一值分组]选项。
-
-1. 选择与您所选的键匹配的实体属性。在本例中，“最喜爱的品牌”与 `entity.brand` 匹配。
-
-   现在，[!DNL Recommendations] 将为每个品牌生成“最畅销商品”列表，并根据访客“最喜爱的品牌”配置文件属性中存储的值向访客展示相应的“最畅销商品”列表。
-
-   ![“创建新标准”对话框 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
-
-### 上次购买的项目
-
-推荐由每位唯一访客最近购买的项目决定。这将被自动捕获，因此无需在此页面上传递任何值。
-
-#### 逻辑（标准）
-
-* [!UICONTROL 具有相似属性的项目]
-* [!UICONTROL 查看了这个项目，也查看了那个项目的人]
-* [!UICONTROL 查看了这个项目，但购买了那个项目的人]
-* [!UICONTROL 购买了这个项目，也购买了那个项目的人]
-* [!UICONTROL 网站亲和度]
-
-#### 在您网站上的什么位置使用
-
-主页，“我的帐户”页面，站外广告。
-
-请勿在产品页面或与购买相关的页面上使用。
-
-### 上次查看的项目
-
-推荐由每位唯一访客最近查看的项目决定。这将被自动捕获，因此无需在此页面上传递任何值。
-
-#### 逻辑（标准）
-
-* [!UICONTROL 具有相似属性的项目]
-* [!UICONTROL 查看了这个项目，也查看了那个项目的人]
-* [!UICONTROL 查看了这个项目，但购买了那个项目的人]
-* [!UICONTROL 购买了这个项目，也购买了那个项目的人]
-* [!UICONTROL 网站亲和度]
-
-#### 在您网站上的什么位置使用
-
-主页，“我的帐户”页面，站外广告。
-
-请勿在产品页面或与购买相关的页面上使用。
-
-### 查看次数最多的项目
-
-与最喜爱类别使用的方法相同，推荐由最常被查看的项目决定。
-
-它由新近度/频率标准通过如下计算方式来决定：
-
-* 首次查看产品得 10 分
-* 接下来每次查看得 5 分
-* 会话结束时将所有值除以 2
-
-例如，在一个会话中查看冲浪板 A 后再查看冲浪板 B 的结果是 A：10，B：5。会话结束时，最终结果是 A：5，B：2.5。如果在下一会话中查看相同的项目，则值更改为 A：15，B：7.5。
-
-#### 逻辑（标准）
-
-* [!UICONTROL 具有相似属性的项目]
-* [!UICONTROL 查看了这个项目，也查看了那个项目的人]
-* [!UICONTROL 查看了这个项目，但购买了那个项目的人]
-* [!UICONTROL 购买了这个项目，也购买了那个项目的人]
-* [!UICONTROL 网站亲和度]
-
-#### 在您网站上的什么位置使用
-
-常规页面，例如主页或登陆页面及站外广告。
-
-### 最喜爱类别
-
-推荐由获得最多活动的类别决定，使用的方法与“查看次数最多的项目”相同，但是由类别接受评分，而非产品。
-
-它由新近度/频率标准通过如下计算方式来决定：
-
-* 首次查看类别得 10 分
-* 接下来每次查看得 5 分
-
-首次访问类别得 10 分。接下来每次访问同一类别得 5 分。每次访问中之前查看过的非当前类别将减 1 分。
-
-例如，在一个会话中查看类别 A 后再查看类别 B 的结果是 A：9，B：10。如果您在下一个会话中查看相同的项目，则值将更改为 A：20，B：9。
-
-#### 逻辑（标准）
-
-* [!UICONTROL 最畅销商品]
-* [!UICONTROL 查看次数最多]
-
-#### 在您网站上的什么位置使用
-
-常规页面，例如主页或登陆页面及站外广告。
-
-### 人气
-
-推荐由您网站上的项目热门程度决定。热门程度包括最畅销商品和按 mbox 数据查看次数最多的项目，如果您使用 Adobe Analytics，则还包括产品报表中提供的所有量度。项目根据您选择的推荐逻辑进行排名。
-
-#### 逻辑（标准）
-
-* [!UICONTROL 最畅销商品]
-* [!UICONTROL 查看次数最多]
-* 产品报表量度（如果您使用 Adobe Analytics）
-
-#### 在您网站上的什么位置使用
-
-常规页面，例如主页或登陆页面及站外广告。
-
-### 最近查看的项目 {#recently-viewed}
-
-使用访客的历史记录（跨会话）根据设计中的版块数量显示访客最近查看过的 *x* 个项目。
-
-“最近查看的项目”标准现在会返回特定于给定[环境](/help/administrating-target/hosts.md)的结果。如果两个网站属于不同的环境，并且访客在两个网站之间切换访问，则每个网站仅显示相应网站的最近查看的项目。如果两个网站位于同一环境，并且访客在两个网站之间切换访问，则访客将看到两个网站的最近查看的相同项目。
-
-#### 在您网站上的什么位置使用
-
-常规页面，例如主页或登陆页面及站外广告。
-
->[!NOTE]
->
->“最近查看的项目”同时兼顾了排除全局设置和活动的选定收藏集设置。如果某个项目被全局排除规则排除在外，或者未包含在选定的收藏集中，则不会显示该项目；因此，在使用“最近查看的项目”标准时，通常应使用“所有收藏集”设置。
 
 ## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 

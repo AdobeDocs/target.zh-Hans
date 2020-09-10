@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '854'
 ht-degree: 11%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 11%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| 控制标准序列中的推荐槽 | 标准序列现在允许您控制每个推荐标准占用的槽数，使您能够混合和匹配不同类型的项目或不同的算法逻辑。<br>请参 [阅创建条件序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) ，了解更多信息。 |
+| ![高级徽章](/help/assets/premium.png) ，控制标准序列中的推荐插槽 | 标准序列现在允许您控制每个推荐标准占用的槽数，使您能够混合和匹配不同类型的项目或不同的算法逻辑。<br>请参 [阅创建条件序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) ，了解更多信息。 |
 
 ## Target Standard/Premium 20.8.1（2020 年 9 月 2 日）
 

@@ -5,7 +5,7 @@ title: 上传自定义标准
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 97%
@@ -51,7 +51,7 @@ ht-degree: 97%
    垂直行业和页面类型可一起用于对已保存的标准进行分类，从而使其更易于在其他“[!UICONTROL 推荐]”活动中重复使用。
 1. 选择&#x200B;**[!UICONTROL 推荐键]**。
 
-   有关基于键的标准的更多信息，请参阅[使推荐基于推荐键](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)。
+   有关基于键的标准的更多信息，请参阅[使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 1. 设置&#x200B;**[!UICONTROL 内容]**&#x200B;规则。
 
    内容规则用于确定当推荐的项目数量不足以填满您的设计时，将发生什么情况。例如，如果您的设计有五个项目的空间，但您的标准只会导致推荐三个项目，那么您可以将剩余的空间留空，也可以使用备用推荐来填满额外的空间。选择相应的切换开关。请参阅 [指定内容设置](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)。

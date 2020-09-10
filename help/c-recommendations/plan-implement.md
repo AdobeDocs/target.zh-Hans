@@ -5,7 +5,7 @@ title: 计划和实施推荐
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 96%
@@ -26,7 +26,7 @@ ht-degree: 96%
 | 步骤 | 信息 | 详细信息 |
 |--- |--- |--- |
 | ![步骤 1](/help/c-recommendations/assets/step1_red.png) | JavaScript 库 | 每个页面都需要引用 at.js 版本 0.9.1（或更高版本）或者 mbox.js 版本 55（或更高版本）。此实施步骤必须在将要使用 Target 活动的所有页面上执行，且可以包含诸如产品 ID 或类别 ID 之类的键。<BR>有关 at.js 的信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。<br>有关 mbox.js 的更多信息，请参阅 [Mbox.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)。 |
-| ![步骤 2](/help/c-recommendations/assets/step2_red.png) | 键 | 键可决定要在推荐中显示的产品类型或内容类型。例如，键可以是产品类别。请参阅[使推荐基于推荐键](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)。 |
+| ![步骤 2](/help/c-recommendations/assets/step2_red.png) | 键 | 键可决定要在推荐中显示的产品类型或内容类型。例如，键可以是产品类别。请参阅[使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。 |
 | ![步骤 3](/help/c-recommendations/assets/step3_red.png) | 属性 | 属性可提供更多与要显示的产品有关的具体信息。例如，您可能想要显示处于特定价格范围内的产品，或达到库存阈值的项目。可以在 mbox 中或通过[信息源](/help/c-recommendations/c-products/feeds.md)提供属性。<br>请参阅[[指定包含规则](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)。 |
 | ![步骤 4](/help/c-recommendations/assets/step4_red.png) | 排除项 | 排除项可决定不在您的推荐中显示哪些特定项目。<br>请参阅[排除项](/help/c-recommendations/c-products/exclusions.md)。 |
 | ![步骤 5](/help/c-recommendations/assets/step5_red.png) | 购买详细信息 | 完成购买后，购买详细信息可提供与已购项目和订单有关的信息。 |
@@ -151,7 +151,7 @@ function targetPageParams() {
 
 ## 类别页面 {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
-在类别页面上，您可能只想要推荐该类别的产品或内容。要设置类别页面，您需要设置页面所使用的键。有关键的更多信息，请参阅[使推荐基于推荐键](../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)。
+在类别页面上，您可能只想要推荐该类别的产品或内容。要设置类别页面，您需要设置页面所使用的键。有关键的更多信息，请参阅[使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 
 ```
 function targetPageParams() { 

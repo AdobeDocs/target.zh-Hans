@@ -4,7 +4,7 @@ description: Adobe Target欢迎工具包——第1章——介绍
 title: Adobe Target欢迎工具包——第1章——介绍
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: 31ee320c3a5d81a4d859881666ab098253f9047e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -29,3 +29,4 @@ ht-degree: 0%
 现在，我们要确保您立即以正确的方式开始使用它。
 
 为此，我们创建了此欢迎工具包，其中包含重要信息、工具和资源，帮助您准备并启动第一个 [!DNL Target] 活动。 从长远看，这些内容也为构建成功的优化和个性化项目奠定了基础。
+

@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1509'
 ht-degree: 87%
 
 ---
@@ -378,6 +378,7 @@ ht-degree: 87%
    + 标准 {#criteria}
       + [标准概述](c-recommendations/c-algorithms/algorithms.md)
       + [创建标准](c-recommendations/c-algorithms/create-new-algorithm.md)
+      + [使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [创建标准序列](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [上传自定义标准](c-recommendations/c-algorithms/recommendations-csv.md)
       + [使用动态和静态包含规则](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)

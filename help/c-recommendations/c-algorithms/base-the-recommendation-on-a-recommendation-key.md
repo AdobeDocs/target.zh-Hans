@@ -5,10 +5,10 @@ title: 使推荐基于推荐键
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2777'
-ht-degree: 70%
+source-wordcount: '2889'
+ht-degree: 69%
 
 ---
 
@@ -231,7 +231,20 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 使用访客的历史记录（跨会话）根据设计中的版块数量显示访客最近查看过的 *x* 个项目。
 
-“最近查看的项目”标准现在会返回特定于给定[环境](/help/administrating-target/hosts.md)的结果。如果两个网站属于不同的环境，并且访客在两个网站之间切换访问，则每个网站仅显示相应网站的最近查看的项目。如果两个网站位于同一环境，并且访客在两个网站之间切换访问，则访客将看到两个网站的最近查看的相同项目。
+The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). 如果两个网站属于不同的环境，并且访客在两个网站之间切换访问，则每个网站仅显示相应网站的最近查看的项目。如果两个网站位于同一环境，并且访客在两个网站之间切换访问，则访客将看到两个网站的最近查看的相同项目。
+
+>[!NOTE]
+>
+>You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+
+可以筛选最近查看的项目/媒体，以便仅显示具有特定属性的项目。
+
+* 与推荐中的其他标准一样，“最近查看的项目”标准也可配置。
+* 您可以使用[收藏集](/help/c-recommendations/c-products/collections.md)、[排除项](/help/c-recommendations/c-products/exclusions.md)和[包含项](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)（包括针对价格和库存的特殊规则），其使用方法与任何其他标准相同。
+
+用例可能包括：
+
+一家开展多种业务的跨国公司可能会让访客在多个数字财产中查看项目。在这种情况下，您可以限制最近查看的项目，以便仅显示之前查看的相应财产中的项目。这可防止最近查看的项目显示在其他数字财产的网站上。
 
 #### 在您网站上的什么位置使用
 
@@ -239,7 +252,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 >[!NOTE]
 >
->“最近查看的项目”同时兼顾了排除全局设置和活动的选定收藏集设置。如果某个项目被全局排除规则排除在外，或者未包含在选定的收藏集中，则不会显示该项目；因此，在使用“最近查看的项目”标准时，通常应使用“所有收藏集”设置。
+>[!UICONTROL “最近查看的项] ”同时考虑排除全局设置和活动的选定集合设置。 If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the &quot;All Collections&quot; setting should generally be used.
 
 ## 推荐逻辑
 

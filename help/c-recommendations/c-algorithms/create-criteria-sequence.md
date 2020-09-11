@@ -5,10 +5,10 @@ title: 创建标准序列
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 43%
+source-wordcount: '1148'
+ht-degree: 44%
 
 ---
 
@@ -64,9 +64,17 @@ ht-degree: 43%
 
    说明应帮助您确定标准序列，并可能包含有关其用途的信息。
 
-1. 选择&#x200B;**[!UICONTROL 垂直行业]**。
+1. 根据推荐活动的目标选择行业垂直。
 
-   Your default [industry vertical](/help/c-recommendations/c-algorithms/algorithms.md#section_936BCFCF234C49A2BEC1C38AAC2D71AF) appears automatically.
+   | 垂直行业 | 目标 |
+   |--- |--- |
+   | 零售/电子商务 | 转化促进完成购买 |
+   | 潜在客户拓展/B2B/金融服务 | 转化但不购买 |
+   | 媒体/出版 | 参与度 |
+
+   系统会自动显示默认垂直行业。
+
+   根据您选择的垂直行业，其他标准选项将会发生相应的更改。
 
 1. 选择&#x200B;**[!UICONTROL 页面类型]**。
 

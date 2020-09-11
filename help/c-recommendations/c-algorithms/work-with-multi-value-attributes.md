@@ -4,7 +4,7 @@ description: 有关使用特殊多值运算符在Adobe TargetRecommendations处�
 title: 在Adobe TargetRecommendations使用多价值属性
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -60,7 +60,7 @@ function targetPageParams() {
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-当根据上述格式将实体属性、用户档案属性或mbox参数提供为多值时，会自 [!DNL Recommendations] 动推断字段是多值。
+当根据上述格式将实体属性、用户档案属性或mbox参数提供为多值时，会自动 [!DNL Recommendations] 推断字段是多值。
 
 以下运算符可用于多值实体、用户档案和mbox属性：
 
@@ -72,7 +72,6 @@ function targetPageParams() {
 >[!NOTE]
 >
 >当将单值左侧与多值右侧进行比较时，当使用用户档案属性匹配或参数(mbox)属性匹配规则时，支持动态匹配到多值属性目前仅在标准中可用。 促销、实体属性匹配或包含规则左侧的列表当前不支持多值属性。
-
 
 ### 示例：排除最近监视的项目
 

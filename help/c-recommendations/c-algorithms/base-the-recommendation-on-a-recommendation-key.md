@@ -5,10 +5,10 @@ title: 使推荐基于推荐键
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: ab44de312d86432450ccee1ba42a7df77fbeed0b
+source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
 workflow-type: tm+mt
-source-wordcount: '2692'
-ht-degree: 72%
+source-wordcount: '2777'
+ht-degree: 70%
 
 ---
 
@@ -33,7 +33,7 @@ Recommendations based on keys use visitor behavior context to show relevant resu
 
 可从“推荐密钥”下拉 [!UICONTROL 列表下] 列推荐密钥：
 
-### 当前项目
+### 当前项目 {#current-item}
 
 推荐由访客当前正在查看的项目决定。
 
@@ -54,7 +54,7 @@ Recommendations based on keys use visitor behavior context to show relevant resu
 * 单项目页面，例如产品页面。
 * 请勿在空的搜索结果页面上使用。
 
-### 当前类别 
+### 当前类别  {#current-category}
 
 推荐由访客当前正在查看的产品类别决定。
 
@@ -133,7 +133,29 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
    ![“创建新标准”对话框 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
-### 上次购买的项目
+### 最喜爱类别 {#favorite-category}
+
+推荐由获得最多活动的类别决定，使用的方法与“查看次数最多的项目”相同，但是由类别接受评分，而非产品。
+
+它由新近度/频率标准通过如下计算方式来决定：
+
+* 首次查看类别得 10 分
+* 接下来每次查看得 5 分
+
+首次访问类别得 10 分。接下来每次访问同一类别得 5 分。每次访问中之前查看过的非当前类别将减 1 分。
+
+例如，在一个会话中查看类别 A 后再查看类别 B 的结果是 A：9，B：10。如果您在下一个会话中查看相同的项目，则值将更改为 A：20，B：9。
+
+#### 逻辑（标准）
+
+* [!UICONTROL 最畅销商品]
+* [!UICONTROL 查看次数最多]
+
+#### 在您网站上的什么位置使用
+
+* 常规页面，例如主页或登陆页面及站外广告。
+
+### 上次购买的项目 {#last-purchased}
 
 推荐由每位唯一访客最近购买的项目决定。这将被自动捕获，因此无需在此页面上传递任何值。
 
@@ -150,7 +172,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 主页，“我的帐户”页面，站外广告。
 * 请勿在产品页面或与购买相关的页面上使用。
 
-### 上次查看的项目
+### 上次查看的项目 {#last-viewed}
 
 推荐由每位唯一访客最近查看的项目决定。这将被自动捕获，因此无需在此页面上传递任何值。
 
@@ -167,7 +189,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 主页，“我的帐户”页面，站外广告。
 * 请勿在产品页面或与购买相关的页面上使用。
 
-### 查看次数最多的项目
+### 查看次数最多的项目 {#most-viewed}
 
 与最喜爱类别使用的方法相同，推荐由最常被查看的项目决定。
 
@@ -191,29 +213,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 * 常规页面，例如主页或登陆页面及站外广告。
 
-### 最喜爱类别
-
-推荐由获得最多活动的类别决定，使用的方法与“查看次数最多的项目”相同，但是由类别接受评分，而非产品。
-
-它由新近度/频率标准通过如下计算方式来决定：
-
-* 首次查看类别得 10 分
-* 接下来每次查看得 5 分
-
-首次访问类别得 10 分。接下来每次访问同一类别得 5 分。每次访问中之前查看过的非当前类别将减 1 分。
-
-例如，在一个会话中查看类别 A 后再查看类别 B 的结果是 A：9，B：10。如果您在下一个会话中查看相同的项目，则值将更改为 A：20，B：9。
-
-#### 逻辑（标准）
-
-* [!UICONTROL 最畅销商品]
-* [!UICONTROL 查看次数最多]
-
-#### 在您网站上的什么位置使用
-
-* 常规页面，例如主页或登陆页面及站外广告。
-
-### 人气
+### 人气 {#popularity}
 
 推荐由您网站上的项目热门程度决定。热门程度包括最畅销商品和按 mbox 数据查看次数最多的项目，如果您使用 Adobe Analytics，则还包括产品报表中提供的所有量度。项目根据您选择的推荐逻辑进行排名。
 
@@ -247,7 +247,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 推荐逻辑下拉列表提供以 [!UICONTROL 下推荐] 逻辑（标准）:
 
-### 具有相似属性的项目/媒体
+### 具有相似属性的项目/媒体 {#similar-attributes}
 
 根据当前页面活动或以往的访客行为来推荐类似的项目或媒体。
 
@@ -264,7 +264,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 上次查看的项目
 * 查看次数最多的项目
 
-### 查看次数最多
+### 查看次数最多 {#most-viewed-logic}
 
 显示网站上最常查看的项目或媒体。
 
@@ -277,9 +277,11 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 最喜爱类别
 * 人气
 
-### 购买了这个项目，也购买了那个项目的人
+### 购买了这个项目，也购买了那个项目的人 {#bought-bought}
 
 推荐客户在购买指定项目的同时最常购买的其他项目。
+
+这一逻辑返回购买过此产品后购买的其他产品；结果集中不包含指定的产品。
 
 此逻辑允许您通过在购物车摘要页面上显示推荐来增加交叉销售机会，例如，显示其他买家也购买的商品。 例如，如果访客购买的是西装，则推荐可显示其他与套装一起购买的物品，如领带、连衣裙和袖扣。 当访客查看其购买时，您会向他们提供其他建议。
 
@@ -291,9 +293,11 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 上次查看的项目
 * 查看次数最多的项目
 
-### 查看了这个项目，但购买了那个项目的人
+### 查看了这个项目，但购买了那个项目的人 {#viewed-bought}
 
 推荐在查看了指定项目的同一会话中最常购买的项目。此标准会返回客户在查看指定项目后所购买的其他产品，返回的结果集中不包含指定的产品。
+
+此逻辑返回查看此产品后购买的其他产品；结果集中不包含指定的产品。
 
 此逻辑允许您通过在产品页面上显示推荐来增加交叉销售机会，例如，该推荐显示查看已购买物料的其他访客所购买的物料。 例如，如果访客正在查看钓竿，则建议可显示其他访客购买的额外物品，如钓具箱、钓具和钓鱼钩。 当访客浏览您的网站时，您会向他们提供其他购买建议。
 
@@ -305,9 +309,11 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 上次查看的项目
 * 查看次数最多的项目
 
-### 查看了这个项目，也查看了那个项目的人
+### 查看了这个项目，也查看了那个项目的人 {#viewed-viewed}
 
 推荐在查看了指定项目的同一会话中最常查看的项目。
+
+此逻辑返回查看此产品后查看的其他产品；结果集中不包含指定的产品。
 
 此逻辑允许您通过推荐其他查看某个项目的访客也查看的项目来创造更多转化机会。 例如，在您的网站上视图道路自行车的访客可能也会查看自行车头盔、自行车套件、锁等。 您可以使用此逻辑创建建议，建议其他产品以帮助您增加收入。
 
@@ -319,13 +325,15 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 上次查看的项目
 * 查看次数最多的项目
 
-### 网站亲和度
+### 网站亲和度 {#site-affinity}
 
 根据项目间关系的确定性来推荐项目。您可以配置此标准，以确定需要多少数据，才能使用“包含规则”滑块显示推荐。例如，如果您选择“非常强”，则会推荐具有最强匹配确定性的产品。
 
 例如，如果您设置了非常强的亲和度，且您的设计包含 5 个项目，其中有 3 个项目达到了联系阈值强度，则另外 2 个未达到最低强度要求的项目不会在推荐中显示，且会被替换为您定义的备用项目。具有最强亲和度的项目会最先显示。
 
 例如，在线零售商可以推荐访客在过去会话中表现出兴趣的后续访问项目。 捕获每个访客会话的活动，以基于最近和频率模型计算关联。 当此访客返回您的网站时，站点关联用于根据您网站上的过去操作显示推荐。
+
+有些客户具有多种产品收藏集和多种网站行为，对于他们而言，设置较弱的网站亲和度可能会获得更好的结果。
 
 此逻辑可与以下推荐键一起使用：
 
@@ -334,7 +342,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 上次查看的项目
 * 查看次数最多的项目
 
-### 最畅销商品
+### 最畅销商品 {#top-sellers}
 
 显示包含在最完成订单中的物料。 同一项目在一个订单中购买多件会被计为一次订购。
 
@@ -345,7 +353,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 最喜爱类别
 * 人气
 
-### 基于用户的Recommendations
+### 基于用户的Recommendations {#user-based}
 
 根据每个访客的浏览、查看和购买历史记录推荐项目。 这些项目通常称为“推荐给您”。
 

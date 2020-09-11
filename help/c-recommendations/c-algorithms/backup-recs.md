@@ -1,21 +1,21 @@
 ---
 keywords: recommendation;backup;back up
-description: 如果您使用备用推荐功能，任何不具备足够推荐项目的“推荐”将不会显示默认内容。“推荐”将改为显示备用算法的结果。
+description: 如果您使用Adobe Target的备份推荐功能，则任何建议项目不足的建议将不显示默认内容。 “推荐”将改为显示备用算法的结果。
 title: 使用备用推荐
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '483'
+ht-degree: 90%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 使用备用推荐 {#use-a-backup-recommendation}
 
-如果您使用备用推荐功能，任何不具备足够推荐项目的“推荐”将不会显示默认内容。“推荐”将改为显示备用算法的结果。
+如果您使用Adobe Target的备份推荐功能，则任何建议项目不足的建议将不显示默认内容。 “推荐”将改为显示备用算法的结果。
 
 如果您不使用备用推荐并且推荐中的项目不足以填满整个显示区域，则系统会向用户显示默认内容。
 

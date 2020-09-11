@@ -5,9 +5,9 @@ title: 创建标准
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2422'
 ht-degree: 66%
 
 ---
@@ -53,11 +53,13 @@ Adobe Target [!UICONTROL 活动][!UICONTROL ·] Recommendations的条件 [!UICON
 
    说明应帮助您确定标准，并可能包含有关标准用途的信息。
 
-1. 选择&#x200B;**[!UICONTROL 垂直行业]**：
+1. 根据推荐活动的目标选择行业垂直。
 
-   * [!UICONTROL 零售/电子商务]
-   * [!UICONTROL 潜在客户拓展/B2B/金融服务]
-   * [!UICONTROL 媒体/出版]
+   | 垂直行业 | 目标 |
+   |--- |--- |
+   | 零售/电子商务 | 转化促进完成购买 |
+   | 潜在客户拓展/B2B/金融服务 | 转化但不购买 |
+   | 媒体/出版 | 参与度 |
 
    根据您选择的垂直行业，其他标准选项将会发生相应的更改。
 

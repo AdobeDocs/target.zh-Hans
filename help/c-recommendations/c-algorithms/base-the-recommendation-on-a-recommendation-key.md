@@ -1,21 +1,21 @@
 ---
 keywords: recommendation key;recommendation logic;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
-description: 基于密钥的Recommendations利用访客行为情境显示Adobe TargetRecommendations活动的相关结果。
+description: 基于密钥的Recommendations利用访客行为环境显示Adobe TargetRecommendations活动的相关结果。
 title: 使推荐基于推荐键
 feature: criteria
-mini-toc-levels: 2
+mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 97%
+source-wordcount: '2151'
+ht-degree: 70%
 
 ---
 
 
 # 使推荐基于推荐键
 
-Recommendations based on keys utilize visitor behavior context to show relevant results in [!DNL Adobe Target] [!DNL Recommendations] activities.
+Recommendations based on keys use visitor behavior context to show relevant results in [!DNL Adobe Target] [!DNL Recommendations] activities.
 
 有两种类型的推荐：
 
@@ -24,12 +24,16 @@ Recommendations based on keys utilize visitor behavior context to show relevant 
 
 每个标准都在其自身的选项卡中进行定义。流量会在不同的标准测试中均匀拆分。换句话说，如果您有两个标准，则流量会在这两个标准之间平均拆分。如果您有两个标准和两个设计，则流量会在四种组合之间平均拆分。您也可指定一定数量的网站访客（百分比），这部分访客将看到默认内容以进行对比。在这种情况下，指定百分比的访客会看到默认内容，其余的访客则会在您的标准和设计组合之间进行分配。
 
-1. 创建新推荐，或选择现有推荐，然后单击&#x200B;**[!UICONTROL 编辑]**。
-1. 要更改推荐键，请从[!UICONTROL 推荐键]下拉列表中选择新键，然后单击&#x200B;**[!UICONTROL 保存]**
+1. Create a new criteria, or select an existing criteria and click **[!UICONTROL Edit]**.
+1. To change the recommendation key, select the new key from the [!UICONTROL Recommendation Key] drop-down list, then click **[!UICONTROL Save]** or **[!UICONTROL Update]**.
 
-   由于不同的逻辑映射到不同的推荐键，因此不同的推荐会让自身放置在不同类型的页面上。有关每个键的更多信息，请参阅以下部分。
+   由于不同的逻辑映射到不同的推荐键，因此不同的推荐会让自身放置在不同类型的页面上。有关每个推荐密钥的详细信息，请参阅以下各节。
 
-## 当前项目
+## 推荐键
+
+可从“推荐密钥”下拉 [!UICONTROL 列表下] 列推荐密钥：
+
+### 当前项目
 
 推荐由访客当前正在查看的项目决定。
 
@@ -37,7 +41,7 @@ Recommendations based on keys utilize visitor behavior context to show relevant 
 
 如果选择该选项，`entity.id` 值必须作为显示 mbox 中的参数传递。
 
-### 逻辑（标准）
+#### 逻辑（标准）
 
 * [!UICONTROL 具有相似属性的项目]
 * [!UICONTROL 查看了这个项目，也查看了那个项目的人]
@@ -45,13 +49,12 @@ Recommendations based on keys utilize visitor behavior context to show relevant 
 * [!UICONTROL 购买了这个项目，也购买了那个项目的人]
 * [!UICONTROL 网站亲和度]
 
-### 在您网站上的什么位置使用
+#### 在您网站上的什么位置使用
 
-单项目页面，例如产品页面。
+* 单项目页面，例如产品页面。
+* 请勿在空的搜索结果页面上使用。
 
-请勿在空的搜索结果页面上使用。
-
-## 当前类别 
+### 当前类别 
 
 推荐由访客当前正在查看的产品类别决定。
 
@@ -59,24 +62,23 @@ Recommendations based on keys utilize visitor behavior context to show relevant 
 
 如果选择该选项，`entity.categoryId` 值必须作为显示 mbox 的参数传递。
 
-### 逻辑（标准）
+#### 逻辑（标准）
 
 * 最畅销商品
 * 查看次数最多
 
-### 在您网站上的什么位置使用
+#### 在您网站上的什么位置使用
 
-单类别页面。
+* 单类别页面。
+* 请勿在空的搜索结果页面上使用。
 
-请勿在空的搜索结果页面上使用。
-
-## 自定义属性 {#custom}
+### 自定义属性 {#custom}
 
 推荐由使用 user.*x* 或 profile.*x* 属性存储在访客配置文件中的项目确定。
 
 如果选择该选项，配置文件属性中必须存在 `entity.id` 值。
 
-### 逻辑（标准）
+#### 逻辑（标准）
 
 * [!UICONTROL 查看了这个项目，也查看了那个项目的人]
 * [!UICONTROL 查看了这个项目，但购买了那个项目的人]
@@ -87,11 +89,11 @@ Recommendations based on keys utilize visitor behavior context to show relevant 
 
 如果键是自定义配置文件属性，并且算法类型是“查看次数最多”或“最畅销商品”，则会显示一个名为“按以下项的唯一值分组”的新下拉列表，其中包含已知实体属性（ID、类别、利润、价值、库存和环境除外）的列表。该字段为必填。
 
-### 在您网站上的什么位置使用
+#### 在您网站上的什么位置使用
 
-可以在任何页面上使用。
+* 可以在任何页面上使用。
 
-### 使用自定义推荐键
+#### 自定义推荐键
 
 您可以使推荐基于自定义配置文件属性的值。例如，假定您要根据访客最近添加到其队列中的影片显示推荐的影片。
 
@@ -114,11 +116,11 @@ Recommendations based on keys utilize visitor behavior context to show relevant 
 
    ![“创建新标准”对话框 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
-## 上次购买的项目
+### 上次购买的项目
 
 推荐由每位唯一访客最近购买的项目决定。这将被自动捕获，因此无需在此页面上传递任何值。
 
-### 逻辑（标准）
+#### 逻辑（标准）
 
 * [!UICONTROL 具有相似属性的项目]
 * [!UICONTROL 查看了这个项目，也查看了那个项目的人]
@@ -126,17 +128,16 @@ Recommendations based on keys utilize visitor behavior context to show relevant 
 * [!UICONTROL 购买了这个项目，也购买了那个项目的人]
 * [!UICONTROL 网站亲和度]
 
-### 在您网站上的什么位置使用
+#### 在您网站上的什么位置使用
 
-主页，“我的帐户”页面，站外广告。
+* 主页，“我的帐户”页面，站外广告。
+* 请勿在产品页面或与购买相关的页面上使用。
 
-请勿在产品页面或与购买相关的页面上使用。
-
-## 上次查看的项目
+### 上次查看的项目
 
 推荐由每位唯一访客最近查看的项目决定。这将被自动捕获，因此无需在此页面上传递任何值。
 
-### 逻辑（标准）
+#### 逻辑（标准）
 
 * [!UICONTROL 具有相似属性的项目]
 * [!UICONTROL 查看了这个项目，也查看了那个项目的人]
@@ -144,13 +145,12 @@ Recommendations based on keys utilize visitor behavior context to show relevant 
 * [!UICONTROL 购买了这个项目，也购买了那个项目的人]
 * [!UICONTROL 网站亲和度]
 
-### 在您网站上的什么位置使用
+#### 在您网站上的什么位置使用
 
-主页，“我的帐户”页面，站外广告。
+* 主页，“我的帐户”页面，站外广告。
+* 请勿在产品页面或与购买相关的页面上使用。
 
-请勿在产品页面或与购买相关的页面上使用。
-
-## 查看次数最多的项目
+### 查看次数最多的项目
 
 与最喜爱类别使用的方法相同，推荐由最常被查看的项目决定。
 
@@ -162,7 +162,7 @@ Recommendations based on keys utilize visitor behavior context to show relevant 
 
 例如，在一个会话中查看冲浪板 A 后再查看冲浪板 B 的结果是 A：10，B：5。会话结束时，最终结果是 A：5，B：2.5。如果在下一会话中查看相同的项目，则值更改为 A：15，B：7.5。
 
-### 逻辑（标准）
+#### 逻辑（标准）
 
 * [!UICONTROL 具有相似属性的项目]
 * [!UICONTROL 查看了这个项目，也查看了那个项目的人]
@@ -170,11 +170,11 @@ Recommendations based on keys utilize visitor behavior context to show relevant 
 * [!UICONTROL 购买了这个项目，也购买了那个项目的人]
 * [!UICONTROL 网站亲和度]
 
-### 在您网站上的什么位置使用
+#### 在您网站上的什么位置使用
 
-常规页面，例如主页或登陆页面及站外广告。
+* 常规页面，例如主页或登陆页面及站外广告。
 
-## 最喜爱类别
+### 最喜爱类别
 
 推荐由获得最多活动的类别决定，使用的方法与“查看次数最多的项目”相同，但是由类别接受评分，而非产品。
 
@@ -187,39 +187,137 @@ Recommendations based on keys utilize visitor behavior context to show relevant 
 
 例如，在一个会话中查看类别 A 后再查看类别 B 的结果是 A：9，B：10。如果您在下一个会话中查看相同的项目，则值将更改为 A：20，B：9。
 
-### 逻辑（标准）
+#### 逻辑（标准）
 
 * [!UICONTROL 最畅销商品]
 * [!UICONTROL 查看次数最多]
 
-### 在您网站上的什么位置使用
+#### 在您网站上的什么位置使用
 
-常规页面，例如主页或登陆页面及站外广告。
+* 常规页面，例如主页或登陆页面及站外广告。
 
-## 人气
+### 人气
 
 推荐由您网站上的项目热门程度决定。热门程度包括最畅销商品和按 mbox 数据查看次数最多的项目，如果您使用 Adobe Analytics，则还包括产品报表中提供的所有量度。项目根据您选择的推荐逻辑进行排名。
 
-### 逻辑（标准）
+#### 逻辑（标准）
 
 * [!UICONTROL 最畅销商品]
 * [!UICONTROL 查看次数最多]
 * 产品报表量度（如果您使用 Adobe Analytics）
 
-### 在您网站上的什么位置使用
+#### 在您网站上的什么位置使用
 
-常规页面，例如主页或登陆页面及站外广告。
+* 常规页面，例如主页或登陆页面及站外广告。
 
-## 最近查看的项目 {#recently-viewed}
+### 最近查看的项目 {#recently-viewed}
 
 使用访客的历史记录（跨会话）根据设计中的版块数量显示访客最近查看过的 *x* 个项目。
 
 “最近查看的项目”标准现在会返回特定于给定[环境](/help/administrating-target/hosts.md)的结果。如果两个网站属于不同的环境，并且访客在两个网站之间切换访问，则每个网站仅显示相应网站的最近查看的项目。如果两个网站位于同一环境，并且访客在两个网站之间切换访问，则访客将看到两个网站的最近查看的相同项目。
 
-### 在您网站上的什么位置使用
+#### 在您网站上的什么位置使用
 
-常规页面，例如主页或登陆页面及站外广告。
+* 常规页面，例如主页或登陆页面及站外广告。
 
 >[!NOTE]
 >
 >“最近查看的项目”同时兼顾了排除全局设置和活动的选定收藏集设置。如果某个项目被全局排除规则排除在外，或者未包含在选定的收藏集中，则不会显示该项目；因此，在使用“最近查看的项目”标准时，通常应使用“所有收藏集”设置。
+
+## 推荐逻辑
+
+推荐逻辑下拉列表提供以 [!UICONTROL 下推荐] 逻辑（标准）:
+
+### 具有相似属性的项目
+
+内容相似度会比较项目属性关键字，并根据不同项目共有的关键字数量进行推荐。基于内容相似度的推荐不需要过去的数据便可交付高效的结果。
+
+使用内容相似性生成推荐对于新项目尤为有效，新项目不太可能在使用查看此项、查看了该项和基于过去行为的其他逻辑的推荐中显示。 您还可以使用内容相似度为没有过去购买数据或其他历史数据的新访客生成有用的推荐。
+
+有关详细信息，请参阅 [内容相似](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)。
+
+此逻辑可与以下推荐键一起使用：
+
+* 当前项目
+* 上次购买的物料
+* 上次查看的项目
+* 查看次数最多的项目
+
+### 查看次数最多
+
+显示网站上查看次数最多的项目。
+
+此逻辑允许您根据网站上查看次数最多的项目显示推荐，以提高其他项目的转化率。 例如，媒体网站可在其主页上显示最受欢迎视频的推荐，以鼓励访客观看更多视频。
+
+此逻辑可与以下推荐键一起使用：
+
+* 当前类别 
+* 自定义属性
+* 最喜爱类别
+* 人气
+
+### 购买了这个项目，也购买了那个项目的人
+
+显示其他访客也购买了选定物品的物品。
+
+此逻辑允许您通过在购物车摘要页面上显示推荐来增加交叉销售机会，例如，显示其他买家也购买的商品。 例如，如果访客购买的是西装，则推荐可显示其他访客购买的物品，如领带、连衣裙和袖扣。 在访客查看其购买时，您会向他们提供其他购买建议。
+
+此逻辑可与以下推荐键一起使用：
+
+* 当前项目
+* 自定义属性
+* 上次购买的项目
+* 上次查看的项目
+* 查看次数最多的项目
+
+### 查看了这个项目，但购买了那个项目的人
+
+显示查看选定项目的访客购买的其他项目。
+
+此逻辑允许您通过在产品页面上显示推荐来增加交叉销售机会，例如，该推荐显示查看已购买物料的其他访客所购买的物料。 例如，如果访客正在查看钓竿，则建议可显示查看所购买物品的其他访客的其他物品，如钓具箱、捕鱼器和钓鱼钩。 当访客浏览您的网站时，您会向他们提供其他购买建议。
+
+此逻辑可与以下推荐键一起使用：
+
+* 当前项目
+* 自定义属性
+* 上次购买的项目
+* 上次查看的项目
+* 查看次数最多的项目
+
+### 查看了这个项目，也查看了那个项目的人
+
+显示其他访客也查看过选定项目的项目。
+
+此逻辑允许您通过推荐其他查看某个项目的访客也查看的项目来创造更多转化机会。 例如，在您的网站上视图道路自行车的访客可能也会查看自行车头盔、自行车套件、锁等。 您可以使用此逻辑创建建议，建议其他产品。
+
+此逻辑可与以下推荐键一起使用：
+
+* 当前项目
+* 自定义属性
+* 上次购买的项目
+* 上次查看的项目
+* 查看次数最多的项目
+
+### 网站亲和度
+
+使用Adobe专有算法显示项目以根据条件推荐其他项目，如产品页面视图、购买和购物车活动（添加或删除项目、查看购物车等）
+
+例如，在线零售商可以推荐访客在后续访问中在过去会话中显示兴趣的项目。 捕获每个访客会话的活动，以基于最近和频率模型计算关联得分。 当此访客返回您的网站时，站点关联用于根据您网站上的过去操作显示推荐。
+
+此逻辑可与以下推荐键一起使用：
+
+* 当前项目
+* 上次购买的项目
+* 上次查看的项目
+* 查看次数最多的项目
+
+### 最畅销商品
+
+根据访客转化率显示网站上最畅销的项目。
+
+此逻辑允许您为网站上的热门项目创建推荐，以提高转化率。 此逻辑尤其适用于首次访客您的站点。
+
+此逻辑可与以下推荐键一起使用：
+
+* 最喜爱类别
+* 人气

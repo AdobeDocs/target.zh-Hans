@@ -5,10 +5,10 @@ title: Adobe Target 可视化体验编辑器 (VEC) 助手扩展
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
+source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 59%
+source-wordcount: '880'
+ht-degree: 57%
 
 ---
 
@@ -35,6 +35,9 @@ The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper bro
 
 * 将从网站中隐式删除所有 iframe 嵌套标头（例如 X-Frame-Options 和 Content-Security-Policy）。不再需要创建复杂的 Requestly 规则来解决此问题。
 * 如果网页尚未包含 [!DNL Target] at.js JavaScript 库，您可以使用该扩展来插入库，这样您便可以为该网站创作体验。然后，您可以创建活动并使用预览链接进行 QA。
+
+   请注意，在使用增强体验书写器(EEC)时，扩展不插入at.js，但SameSite Cookie功能仍然存在。 要在网页上注入at.js，请关闭EEC。
+
 * [即使没有](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) “增强体验书写器”( [!UICONTROL EEC)，也支持] 移动视图端口。
 * 对于 [!DNL Target] 的新客户，即便在其 IT 开发人员尚未在其网站上实施 [!DNL Target] 的情况下，也可以使用此扩展来试用 [!DNL Target]。
 * 服务于多个客户网站和 [!DNL Target] 帐户的合作伙伴现在有一个简单的机制来支持 VEC 加载，而不用通过第三方工具管理多个规则。

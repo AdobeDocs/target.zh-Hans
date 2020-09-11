@@ -1,27 +1,27 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Adobe TargetRecommendations的标准是根据一组预定的访客行为确定推荐哪些产品的规则。
+description: Adobe Target的标准是根据一组预定的访客行为确定推荐哪些产品或内容的规则。
 title: Adobe TargetRecommendations标准
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: d276693eeab095b7f2f5fad293a03ab10eb1faf6
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 68%
+source-wordcount: '1059'
+ht-degree: 53%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 标准 
 
-标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。
+Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. 标准可基于流行趋势、访客的当前与过去行为，或相似的产品和内容。您可以添加多个标准，以便对多个推荐类型进行相互测试。
 
-标准可确定哪项操作将导致推荐哪个项目。您可以添加多个标准，以便对多个推荐类型进行相互测试。
+以下各节将进一步说明标准键和可用于每个键的推荐逻辑。 单击链接可获取更多详细信息。
 
 ## 垂直行业 {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-根据推荐活动的目标选择行业垂直。 根据您选择的垂直行业，
+在创建标准时，您可以根据推荐活动的目标选择垂直行业。
 
 | 垂直行业 | 目标 |
 |--- |--- |
@@ -29,9 +29,15 @@ ht-degree: 68%
 | 潜在客户拓展/B2B/金融服务 | 转化但不购买 |
 | 媒体/出版 | 参与度 |
 
+其他条件选项会根据您选择的行业垂直而发生更改。 您可以在“Recommendations”>“设置”页面 **[!UICONTROL 上设置默认的行业垂直]** ，也可以为每个标准指定行业垂直。
+
 ## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 您选择的推荐键决定了标准类型。标准类型具有以下几种（在设置 [!DNL Recommendations] 活动时，这些标准类型会显示为相应的标准卡片）。
+
+![“标准”页](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+
+下表说明了各种标准类型及其附带的键。 单击链接可获取有关每个键的更多详细信息。
 
 | 标准类型 | 键 |
 |--- |--- |
@@ -39,7 +45,7 @@ ht-degree: 68%
 | 自定义 | 根据自定义属性推荐项目。<ul><li>[自定义属性](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>如果要根据自定义属性来进行推荐，则必须选择自定义属性，然后再选择推荐类型。 |
 | 过去的行为 | 根据访客过去对某个项目所做的回应来推荐项目。例如，以前购买过某个特定品牌的客户更有可能会购买属于该品牌的其他项目。<ul><li>[上次购买的项目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[上次查看的项目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[查看次数最多的项目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[最喜爱类别](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
 | 人气 | 推荐最受欢迎的项目，例如相关类别中最热门的视频或网站上最常查看的产品。<ul><li>[热门程度](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
-| 最近查看的项目 | 推荐访客最近查看过的项目，例如访客上次访问您的网站时所查看的项目，或访客当前最倾向于查看的商品。<br>“最近查看的项目”算法会返回特定于某个[环境](/help/administrating-target/hosts.md)中的访客活动。如果两个网站属于不同的环境，并且访客在两个网站之间切换访问，则算法将仅返回相应网站的最近查看的项目。<br>此标准类型不受收藏集限制。<ul><li>[最近查看的项目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed)</li></ul>**注意：**&#x200B;您无法在备用推荐中使用“最近查看的项目”标准。<br>可以筛选最近查看的项目/媒体，以便仅显示具有特定属性的项目。<ul><li>与推荐中的其他标准一样，“最近查看的项目”标准也可配置。</li><li>您可以使用[收藏集](/help/c-recommendations/c-products/collections.md)、[排除项](/help/c-recommendations/c-products/exclusions.md)和[包含项](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)（包括针对价格和库存的特殊规则），其使用方法与任何其他标准相同。</li></ul>用例可能包括：<ul><li>一家开展多种业务的跨国公司可能会让访客在多个数字财产中查看项目。在这种情况下，您可以限制最近查看的项目，以便仅显示之前查看的相应财产中的项目。执行此操作可防止最近查看的项目在其他数字财产网站上显示。</li></ul> |
+| [最近查看的项目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | 推荐访客最近查看过的项目，例如访客上次访问您的网站时查看过的项目，或者目前趋势最为强劲的文章。 |
 
 ## 使用自定义推荐密钥 {#custom-key}
 

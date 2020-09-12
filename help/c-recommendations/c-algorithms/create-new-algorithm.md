@@ -5,7 +5,7 @@ title: 创建标准
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -81,7 +81,7 @@ Adobe Target [!UICONTROL 活动][!UICONTROL ·] Recommendations的条件 [!UICON
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
-## 数据源
+## 数据源 {#data-source}
 
 1. 设置&#x200B;**[!UICONTROL 数据范围]**&#x200B;以确定在决定要显示的推荐时所使用的可用历史用户行为数据的时间范围。
 
@@ -224,7 +224,7 @@ Content rules determine what happens if the number of recommended items does not
 
 For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-## 属性权重
+## 属性权重 {#weighting}
 
 您可以添加多个规则，根据有关内容目录的重要信息或元数据“微移”算法，以便更有可能显示某些项目。
 

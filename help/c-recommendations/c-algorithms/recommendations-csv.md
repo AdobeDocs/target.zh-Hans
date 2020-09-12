@@ -5,7 +5,7 @@ title: 上传自定义标准
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 63%
@@ -39,7 +39,7 @@ ht-degree: 63%
 
 1. （视情况而定）填写“包含规则” [部分中的](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) 信息。
 
-1. (条件填写属性权重部分 [中的信息](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) 。
+1. （视情况而定）填写“属性权重” [部分中的](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) 信息。
 
 1. 在“上 **[!UICONTROL 传CSV]** ”部分，选 **[!UICONTROL 择CSV]** 文件的位置。
 

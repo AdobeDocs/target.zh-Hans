@@ -6,10 +6,10 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 77%
+source-wordcount: '1021'
+ht-degree: 76%
 
 ---
 
@@ -72,7 +72,9 @@ ht-degree: 77%
 
 ## 实体自定义属性
 
-**限制**：最大长度取决于语言。
+最多可包含100个自定义实体属性
+
+**限制**:最大字符长度取决于语言。
 
 * 15,000 个字符（单值、单字节和双字节语言）
 * 500 个值，每个值 100 个字符（多值）

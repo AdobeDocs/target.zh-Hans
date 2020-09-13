@@ -1,29 +1,38 @@
 ---
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
-description: 可使用信息源将实体导入到 Adobe Recommendations 中。可以使用 CSV 文件、Google Product Search 信息源格式和/或 Adobe Analytics 产品分类来发送实体。
-title: 信息源
+description: 使用源将实体导入Adobe TargetRecommendations。 可以使用 CSV 文件、Google Product Search 信息源格式和/或 Adobe Analytics 产品分类来发送实体。
+title: Adobe TargetRecommendations
 feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 0a462ff6206870fa328249a57367b18eabbec008
 workflow-type: tm+mt
-source-wordcount: '2457'
-ht-degree: 93%
+source-wordcount: '2520'
+ht-degree: 85%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 信息源{#feeds}
 
-可使用信息源将实体导入到 [!DNL Recommendations] 中。可以使用 CSV 文件、Google Product Search 信息源格式和 Adobe Analytics 产品分类来发送实体。
+可使用信息源将实体导入到 [!DNL Adobe Target Recommendations] 中。可以使用 CSV 文件、Google Product Search 信息源格式和 Adobe Analytics 产品分类来发送实体。
 
 ## 信息源概述 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
 信息源允许您传递[实体](/help/c-recommendations/c-products/products.md)，或者使用页面上没有提供或不能直接从页面安全发送（例如利润、COGS 等）的信息来扩充您的 mbox 数据。
 
-您可以从 [!DNL Target] 产品分类文件或 Google Product Search 文件中选择要发送到 [!DNL Recommendations] 服务器的列。这些关于每个项目的数据然后可在显示的模板中使用，还可用于控制推荐。
+源允许您将详细的项 [!DNL Recommendations]目信息传递给，如产品ID、类别、名称、消息和其他属性。
 
-如果同时通过实体源和 mbox 收集数据，则采用最新的数据。通常，最新的数据来自 mbox，因为 mbox 的查看频率更高。在极少数情况下，实体源数据和 mbox 数据的时间相同，这时使用 mbox 数据。
+您可以从 [!DNL Target] 产品分类文件或 Google Product Search 文件中选择要发送到 [!DNL Recommendations] 服务器的列。
+
+然后，可以使用有关每个项目的这些数据：
+
+* 在设计中显示值
+* 定义条件包含规则
+* 将项目排序到不同的集合
+* 将排除应用于推荐
+
+项目说明可以使用源 [!DNL Target] 或mbox传递到中。 如果同时通过实体源和 mbox 收集数据，则采用最新的数据。通常，最新的数据来自 mbox，因为 mbox 的查看频率更高。在极少数情况下，实体源数据和 mbox 数据的时间相同，这时使用 mbox 数据。
 
 “[!UICONTROL 信息源]”列表（**[!UICONTROL 推荐]** > **[!UICONTROL 信息源]**）提供了有关您创建的所有信息源的信息。
 
@@ -46,9 +55,13 @@ ht-degree: 93%
 >* 从源文件删除项目不会从目录中删除该项目。 要从目录中删除项目，请通过目标UI或API手动删除项目。 或者，修改物料属性（如库存），以确保将物料排除在考虑之外。
 
 
-## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
+## 源类型
 
-您可以使用 Adobe 专有的 CSV 上传格式创建 `.csv` 文件。该文件包含有关产品的保留属性和自定义属性的显示信息。要上传特定于您的实施的属性，请将标头行中的 `CustomN` 替换为您要使用的属性的名称。在下面的示例中，`entity.Custom1` 被替换为 `entity.availability`。然后，您可以将文件批量上传到 [!DNL Recommendations] 服务器。
+可以使用 CSV 文件、Google Product Search 信息源格式和 Adobe Analytics 产品分类来发送实体。
+
+### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
+
+您可以使用 Adobe 专有的 CSV 上传格式创建 .csv 文件。该文件包含有关产品的保留属性和自定义属性的显示信息。要上传特定于您的实施的属性，请将标头行中的 `CustomN` 替换为您要使用的属性的名称。在下面的示例中，`entity.Custom1` 被替换为 `entity.availability`。然后，您可以将文件批量上传到 [!DNL Recommendations] 服务器。
 
 与 Google 信息源格式相比，使用 .csv 格式具有以下优势：
 
@@ -78,7 +91,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->无法使用空白值覆盖现有值。您必须在其位置中传递其他值来进行覆盖。对于销售价格，常用的解决方案是通过一个实际的“NULL”或某些其他消息传递。然后，可以写入一个模板规则，以排除具有该值的项目。
+>无法使用空白值覆盖现有值。必须在其位置传递另一个值才能覆盖它。 对于销售价格，常用的解决方案是通过一个实际的“NULL”或某些其他消息传递。然后，可以写入一个模板规则，以排除具有该值的项目。
 
 成功上传产品实体约两个小时后，产品将显示在管理界面中。
 
@@ -96,7 +109,7 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+### Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
 Google Product Search 信息源类型使用 Google 格式。这与 Adobe 专有的 CSV 上传格式不同。
 
@@ -106,13 +119,13 @@ Google Product Search 信息源类型使用 Google 格式。这与 Adobe 专有�
 >
 >无需使用 Google 数据。[!DNL Recommendations] 使用与 Google 相同的格式。您可以使用此方法上传您的任何数据，并且还可以使用可用的计划功能。但是，您必须在设置文件时保留 Google 的预定义属性名称。
 
-大多数零售商会将产品上传到 Google，因此当访客使用 Google Product Search 时，他们的产品将会显示出来。[!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
+大多数零售商会将产品上传到 Google，因此当访客使用 Google Product Search 时，他们的产品将会显示出来。[!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。Entity feeds can be sent to [!DNL Recommendations] via .xml, .txt, or .tsv, and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
 
 >[!NOTE]
 >
 >托管 Google 信息源内容的服务器上必须可以使用 POST 方法。
 
-由于 [!DNL Recommendations] 用户已将 [!DNL .xml] 或 [!DNL .txt] 信息源配置为通过 URL 或 FTP 发送到 Google，因此实体信息源将接受这些产品数据并使用这些数据构建 Recommendations 目录。指定此信息源存在的位置后，推荐服务器随即会检索数据。
+Because [!DNL Recommendations] users already configure .xml or .txt feeds to send to Google either via URL or FTP, entity feeds accept that product data and use it to build out the recommendations catalog. 指定此信息源存在的位置后，推荐服务器随即会检索数据。
 
 如果在使用 Google Product Search 进行实体信息源上传时，想要在此显示推荐或跟踪产品浏览次数以根据浏览次数进行算法交付，则页面上仍需要有产品页面 mbox。
 
@@ -195,17 +208,18 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-## Analytics 产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### Analytics 产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 Analytics 产品分类是唯一可用于推荐的分类。For more information about this classification file, see [About classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. 推荐需要的所有信息并非都可通过当前的实施获得，因此，如果要在分类文件中添加新内容，请按此用户指南操作。
 
 >[!IMPORTANT]
 >
->在使用 Analytics 产品分类将实体数据导入推荐之前，请注意，这不是首选方法。
+>Before importing entity data into [!DNL Recommendations] using Analytics product classifications, be aware that this is not the preferred method.
 >
 > 请注意以下事项：
+>
 >* 更新实体属性会导致长达 24 小时的额外延迟。
->* Target 仅支持“产品分类”。必须将 Analytics 产品 SKU 映射到与推荐 `entity.id` 相同的级别。可以使用 Adobe 咨询服务对自定义 Analytics 分类进行工程方面的处理。如有任何疑问，请联系您的帐户管理员。
+>* [!DNL Target] 仅支持产品分类。 The Analytics product SKU must map to the same level as the [!DNL Recommendations] `entity.id`. 可以使用 Adobe 咨询服务对自定义 Analytics 分类进行工程方面的处理。如有任何疑问，请联系您的帐户管理员。
 
 
 ## 创建信息源 {#steps}
@@ -288,7 +302,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 | 正在等待下载 | Target 正准备下载信息源文件。 |
 | 正在下载信息源文件 | Target 正在下载信息源文件。 |
 | 正在导入项目 | Target 正在从信息源文件中导入项目。 |
-| 已在&#x200B;*指定时间*&#x200B;成功导入信息源 | Target 已将信息源文件导入其内容交付系统。已在内容交付系统中对项目属性进行了更改，并且此更改将很快地反映在交付的推荐中。如果没有看到预期的更改，请稍后重试并刷新包含推荐的页面。<br>*注意 1：*&#x200B;如果对项目属性所做的更改导致项目被排除在推荐之外，则会立即反映该排除项。如果项目是新添加的，或者对属性的更改导致该项目&#x200B;*不再*&#x200B;被排除在推荐之外，则在下一次算法更新之前不会反映此项目，此过程将在 24 小时内发生。<br>*注意 2：*&#x200B;显示此状态时，更新可能尚未反映在“目录搜索”用户界面中。“目录搜索”中会列出一个单独的状态，指示上次更新可搜索目录的时间。 |
+| 已在&#x200B;*指定时间*&#x200B;成功导入信息源 | Target 已将信息源文件导入其内容交付系统。已在内容交付系统中对项目属性进行了更改，并且此更改将很快地反映在交付的推荐中。如果没有看到预期的更改，请稍后重试并刷新包含推荐的页面。<br>注释:<ul><li>如果对项目属性所做的更改导致项目被排除在推荐之外，则将立即反映该排除。 如果项目是新添加的，或者对属性的更改导致该项目&#x200B;*不再*&#x200B;被排除在推荐之外，则在下一次算法更新之前不会反映此项目，此过程将在 24 小时内发生。</li><li>显示此状态时，更新可能尚未反映在目录搜索用户界面中。 “目录搜索”中会列出一个单独的状态，指示上次更新可搜索目录的时间。</li></ul> |
 | 未能编入索引 | 索引操作失败。请重试。 |
 | 未找到服务器 | FTP 或 URL 位置无效或无法访问。 |
 
@@ -296,7 +310,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 
 >[!IMPORTANT]
 >
->上传的实体会在 61 天后过期。这意味着您应该至少每 60 天上传一次信息源文件，以避免对您的推荐活动造成干扰。如果某个项目在 60 天内至少有一次未包含在信息源文件（或其他实体更新方法）中，则 Adobe Target 会推断该项目不再相关，并将其从目录中删除。
+>上传的实体会在 61 天后过期。这意味着您应该至少每 60 天上传一次信息源文件，以避免对您的推荐活动造成干扰。If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Adobe Target] infers the item is no longer relevant and removes it from the catalog.
 
 ### 信息源状态指示器 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -308,6 +322,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 | 黄色状态指示器 | 当信息源或信息源索引延迟的时间为信息源频率的 25% 时，会显示黄色状态圆点。例如，对于设置为每日运行的信息源，如果在计划时间后的六小时内没有完成索引，则会显示黄色圆点。注意：如果信息源状态为“正在等待索引队列”，则最近更新的值可在交付和标准处理过程中使用。 |
 | 白色状态指示器 | 当未设置信息源运行计划时，会显示白色状态圆点，以指示信息源尚未运行。 |
 | 红色状态指示器 | 如果信息源未能将数据上传到服务器，则会显示红色状态指示器。 |
+
 请仔细研究下面的示例：
 
 **示例 1:**

@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '942'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2020 年 9 月 9 日**
+**上次更新日期：2020 年 9 月 15 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -38,6 +38,12 @@ ht-degree: 11%
    >
 * **目标通知**:有关即将进行的目标的信息，请参阅事件公告页，包括目标技能生成器会话、开发人员聊天、网络研讨会和目标咖啡休息会话。 有关详细信息，请参阅 [目标公告](/help/r-release-notes/target-announcements.md)。
 
+
+## Target Standard/Premium 20.8.3（2020 年 9 月 15 日）
+
+| 功能 | 详细信息 |
+| --- | --- |
+| ![针对目标](/help/assets/premium.png) (A4T)的高级徽章分析支持自动目标活动 | [!UICONTROL 自动目标] 活动现在支 [持Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此集成允许您使用自动 [!UICONTROL 目标集成机器学习算法] ，根据每个访客的用户档案、行为和上下文为其选择最佳体验。<br>如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以与A/B测试和体验定位活动配合使用，您就可以了！<br>有关详细信息，请 [参阅目标分析(A4T)支持在创建活动时自动分配和自动目标](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)*活动*。 |
 
 ## Target Standard/Premium 20.8.2（2020 年 9 月 10 日）
 

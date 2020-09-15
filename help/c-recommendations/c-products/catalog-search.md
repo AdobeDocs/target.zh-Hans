@@ -5,9 +5,9 @@ title: Adobe Target 中的目录搜索
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 71a8e2a1a542f8a2ce4eb287efa6caa2d49847e9
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '950'
 ht-degree: 21%
 
 ---
@@ -70,7 +70,7 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
 
 您可以使用 [!UICONTROL 高级搜索] 来进一步优化搜索结果，或将搜索结果保存为 [集合](/help/c-recommendations/c-products/collections.md) 或 [排除](/help/c-recommendations/c-products/exclusions.md)。
 
-1. 单击“高 **[!UICONTROL 级搜索”]**。
+1. 单击“高 **[!UICONTROL 级搜索]** ”链接。
 
    ![高级搜索页](/help/c-recommendations/c-products/assets/advances-search.png)
 
@@ -108,7 +108,7 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
 
 ## 刷新目录
 
-在您上传第一个源时，将自动创建目录索引，并根据指定的计划刷新。
+上传第一个源时，将自动创建目录索引，并根据指定的计划 [进行刷新](/help/c-recommendations/c-products/feeds.md#steps)。
 
 通过信息源文件、API 或 mbox 更新接收更新时，目录将自动刷新。更新通常在一小时内完成。如果更新正在进行，则显示最近的更新开始时间。如果没有正在进行的更新，则显示最近的更新开始时间和结束时间。
 
@@ -118,7 +118,7 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
 
 1. 执行高 [级搜索](#advanced-search)。
 
-1. （可选）单击“ **[!UICONTROL 另存为]**”，然后单击“ **[!UICONTROL 集合]** ”或“ **[!UICONTROL 排除”]**。
+1. 单击 **[!UICONTROL 另存为]**，然后单击 **[!UICONTROL 集合]** 或 **[!UICONTROL 排除]**。
 
    ![另存为选项](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -149,6 +149,8 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
    ![修改过滤器链接](/help/c-recommendations/c-products/assets/modify-filters.png)
 
 1. 选择所需的搜索彩块化（ID、名称、消息等）。
+
+   ![添加过滤器](/help/c-recommendations/c-products/assets/add-filters.png)
 
 请记住，附加的筛选器彩块化仅在当前会话中可用。
 

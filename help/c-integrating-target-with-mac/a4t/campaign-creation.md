@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 5074b7016db7baaa6b673e99ce510a44006064ef
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1330'
 ht-degree: 18%
 
 ---
@@ -76,8 +76,8 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
 此集成允许您：
 
-* 使 [用自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)(Auto-Allocate)的多武装强盗能力，推动交通成为赢取体验的动力。
-* 使 [用自动目标](/help/c-activities/auto-target-to-optimize.md)的集成机器学习算法，根据访客的用户档案、行为和上下文为每个选择最佳体验。
+* 使 [用自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)(Auto-Allocate)的多武装强盗能力，推动交通畅通，赢得体验
+* 使 [用自动目标](/help/c-activities/auto-target-to-optimize.md)的集成机器学习算法，根据每个访客的用户档案、行为和上下文为其选择最佳体验
 
 同时使用目 [!DNL Adobe Analytics] 标指标和 [!DNL Adobe Analytics]丰富的报告和分析功能。
 
@@ -95,11 +95,13 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 1. 选择主要目标量度。
 
    * 选择 **[!UICONTROL 要用]** 于指 [!DNL Adobe Target] 定优化目标的转换。
-   * 选 **[!UICONTROL 择使用Analytics]** 指标，然后从中选择 [!DNL Analytics] 一个指标以用作优化目标。 您可以使用现成的转 [!DNL Analytics] 换量度或自定 [!DNL Analytics] 义事件。
+   * 选 **[!UICONTROL 择使用Analytics]** 指标，然后从中选择 [!DNL Analytics] 一个指标以用作优化目标。 您可以使用现成的转换 [!DNL Analytics] 量度或自定 [!DNL Analytics] 义事件。
 
 1. 保存并激活活动。
 
    [!UICONTROL “自动分配] ”将使用您选择的活动来优化访客，从而推动体验最大化目标指标。
+
+   或
 
    [!UICONTROL 自动目标将] 使用您选择的指标来优化活动，从而推动访客获得个性化的最佳体验。
 
@@ -128,11 +130,11 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
 ### 限制和说明
 
-* 一旦报告被激活，活动 [!DNL Analytics] 源 [!DNL Target] 就不能从中更改，反之亦然。
+* 报告源在激活后 [!DNL Analytics] 不 [!DNL Target] 能从更改为活动源，反之亦然。
 * 尽管计算的指标不作为主要目标指标受支持，但通常可以通过选择自定义事件作为主要目标指标来达到预期效果。 例如，如果要优化诸如“每个访客的表单完成情况”之类的指标，请选择与“表单完成情况”对应的自定义事件作为主要目标指标。 [!DNL Target] 根据每次访问自动标准化转化量度，以考虑流量分布不均，因此无需使用计算量度来执行标准化。
 * [!DNL Target] 在自动分配A4T实施中使 [!UICONTROL 用“Same Touch] ”属性模型。
 * [!UICONTROL 自动分配模型] (Auto-Allocate models)会像往常一样每两个小时进行一次培训。
-* [!UICONTROL 自动目标] 模型照常每24小时进行一次培训。 但是，来自转化事件 [!DNL Analytics] 的数据会再延迟6到24小时。 这意味着流量分配将跟 [!DNL Target] 踪记录的最新事件 [!DNL Adobe Analytics]。 在活动启动后的头48小时内，效果最大；活动的性能将更密切地反映 [!DNL Adobe Analytics] 经过五天后的转换行为。 您应考虑在 [!UICONTROL 短时间活动] 中使用“自动分配 [!UICONTROL ”，而不是“自动目标”] ，在短时间中，大多数流量都发生在活动生命周期的前五天内。
+* [!UICONTROL 自动目标] 模型照常每24小时进行一次培训。 但是，来自转化事件 [!DNL Analytics] 的数据会再延迟6到24小时。 此延迟意味着流量分配将跟 [!DNL Target] 踪记录的最新事件 [!DNL Analytics]。 在活动启动后的头48小时内，效果最大；活动的性能将更密切地反映 [!DNL Analytics] 经过五天后的转换行为。 您应考虑对 [!UICONTROL 短期活动使] 用“自动分配 [!UICONTROL ”，而不] 是“自动目标”，在短期中，大多数流量都发生在活动生命周期的前五天内。
 * 当使 [!DNL Analytics] 用作自动目标 [!UICONTROL 活动的数据源时] ，会话被视为在经过6小时后结束。 六小时后发生的转换不会计算在内。
 
 有关详细信息，请参 [阅《分析工具指南》中](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) 的归因 *模型和回顾窗口*。

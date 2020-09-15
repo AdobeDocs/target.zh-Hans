@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4e7e509df33e5730c26c6e1ceaa82b3adb3ef2cc
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 30%
+source-wordcount: '2275'
+ht-degree: 29%
 
 ---
 
@@ -22,6 +22,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 9月15日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关Target Standard/Premium 20.8.3版本的信息，该版本包括针对自动目标活动的Analytics for Adobe(A4T)支持。 在以前的版本中增加了对自动分配活动的支持。 |
+|  | [目标分析(A4T)支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 | 添加了有关自动目标活动中A4T支持的信息。 |
+|  | [活动 QA 书签](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新了文本以指示手动强制您退出QA模式的方法，该方法在您的站点上加载一个包含 `at_preview_token` 空值的参数的页面，该参数将应用于at.js 1。*x*。 |
+|  | [目录搜索](/help/c-recommendations/c-products/catalog-search.md) | 更新了整个主题。 |
 | 9月10日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关Target Standard/Premium 20.9.2版本的信息，其中包含以下新增功能：控制条件序列中的推荐槽。 |
 |  | [创建标准序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | 添加了有关“限制返回的项目数”功能的信息。 |
 | 9月9日 | [活动 QA 书签](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 添加了用于at.js 2的JavaScript代码。*x* 目前不支持选择加入支持。 |

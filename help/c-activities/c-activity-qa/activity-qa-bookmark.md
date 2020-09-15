@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -45,6 +45,12 @@ javascript:(
 )();
 ```
 
+You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+
+例如：
+
+`https://www.mysite.com/?at_preview_token=`
+
 ## 活动at.js 2的QA书签。*x*
 
 与at.js 1不同。*x*,at.js 2.*x* 不支持第三方cookie，并且QA模式仅对第一方域具有粘性（通过at.js设置的第一方cookie）。 因此，在at.js 2中。*x*,QA模式会话仅在客户端进行管理，不向目标发送QA模式cookie。
@@ -70,8 +76,3 @@ javascript:(
 
 单击浏览器工具栏上的书签。
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
-
-例如：
-
-`https://www.mysite.com/?at_preview_token=`

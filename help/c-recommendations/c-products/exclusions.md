@@ -5,23 +5,25 @@ title: Adobe Target 中的排除项
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 99%
+source-wordcount: '407'
+ht-degree: 83%
 
 ---
 
 
 # 排除项{#exclusions}
 
-可创建排除列表以阻止推荐某些项目。
+在中创建排除 [!DNL Adobe Target Recommendations] 功能，防止向访客推荐产品或内容。
+
+排除是不应推荐给您的访客的产品或内容的子集。 例如，您可以使用排除来防止在已停止或性质敏感的推荐中显示产品或内容（例如评级不适合所有年龄段的影片）。
 
 >[!IMPORTANT]
 >
 >静态和动态排除规则是可帮助您完成营销工作的强大功能。有关详细信息、示例和用例情景，请参阅[使用动态和静态包含规则](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
 
-**创建排除项：**
+## 创建排除项
 
 1. 单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 排除项]**&#x200B;以显示现有排除项列表。
 
@@ -49,7 +51,7 @@ ht-degree: 99%
 
 ![另存为](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-例如，在使用“ID”>“包含”创建搜索后，您可以单击[!UICONTROL 另存为] > [!UICONTROL 排除项]。有关更多信息，请参阅[目录搜索](/help/c-recommendations/c-products/catalog-search.md)。
+例如，在使用“ID”>“包含”创建搜索后，您可以单击[!UICONTROL 另存为] > [!UICONTROL 排除项]。有关更多信息，请参阅[目录搜索](/help/c-recommendations/c-products/catalog-search.md#save-as)。
 
 >[!IMPORTANT]
 >

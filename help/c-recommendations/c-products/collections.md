@@ -5,21 +5,21 @@ title: Adobe Target 中的收藏集
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 99%
+source-wordcount: '769'
+ht-degree: 69%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 收藏集 {#collections}
 
-收藏集是一组符合推荐标准的产品或项目。
+收藏集是一组符合推荐标准的产品或项目。通过指定要成为集合的一部分的项目必须满足的条件来定义集合。
 
-一般情况下，收藏集是一组相似或相关的项目，例如单个产品收藏集。不过，您可以将任何项目分组到一个对您的业务有意义的类别中，例如可以将属于某个价格范围内或具有某种颜色的产品分组到一个类别中，或将可能在某个特定地区引起客户关注的项目分组到一个类别中。
+一般情况下，收藏集是一组相似或相关的项目，例如单个产品收藏集。但是，您可以将任何对您的业务有意义的项目分组到类别中，例如特定价格范围的产品或颜色的产品，或在特定地理区域可能感兴趣的项目。
 
-使用收藏集，可将您的产品组织到逻辑分段中。例如，如果有些项目可在某个地区提供，而无法在其他地区提供，则您可能想要创建一个收藏集，以排除访客所在地区不能提供的项目。您还可以使用收藏集来组织季节性项目，或使用任何其他对您的业务适用的组织参数。
+使用收藏集，可将您的产品组织到逻辑分段中。例如，如果某些项目在一个区域可用，但在另一个区域不可用，则可以创建一个集合，排除访客区域中不可用的项目。 您还可以使用收藏集来组织季节性项目，或使用任何其他对您的业务适用的组织参数。
 
 为推荐中的每个标准生成的[备用推荐](/help/c-recommendations/c-algorithms/backup-recs.md)也使用该收藏集，因此备用推荐中仅包含收藏集中的项目。使用收藏集，您可以确保仅在某个位置显示对其有意义的产品。
 
@@ -37,11 +37,15 @@ ht-degree: 99%
 
 ## 创建收藏集 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
-可创建收藏集以组织要在推荐中显示的产品。
+创建集合以组织要在推荐中显示的产品或内容。
 
 1. 单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 收藏集]**&#x200B;以显示现有收藏集列表。
 
    ![收藏集列表](assets/collections_list.png)
+
+   “收 [!UICONTROL 藏集] ”页面显示现有收藏集的列表。 单击创建收藏集按钮可创 [!UICONTROL 建新收藏] 集。 您还可以通过将鼠标悬停在所需集合并单击所需图标来编辑、复制和删除现有集合。
+
+   ![悬停图标：编辑、复制和删除](/help/c-recommendations/c-products/assets/hover-icons.png)
 
    [!UICONTROL 收藏集]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数量。请参阅[设置](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)以更改默认主机组。
 
@@ -59,15 +63,15 @@ ht-degree: 99%
 
    例如，您可以根据产品 ID 或类别、利润或列表中的任何其他参数来构建收藏集。
 
-   您可以添加规则，以使用多个参数来定义收藏集。通过“AND”关系将多个规则结合在一起。必须匹配指定的所有规则，才能应用收藏集。
+   您可以添加规则，以使用多个参数来定义收藏集。多个规则与AND运算符相连。 必须匹配指定的所有规则，才能应用收藏集。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 使用高级搜索创建收藏集
 
-您还可以使用[目录搜索](/help/c-recommendations/c-products/catalog-search.md)页面上的“高级搜索”（[!UICONTROL 推荐] > [!UICONTROL 目录搜索] > [!UICONTROL 高级搜索]）来创建收藏集。
+您还可以使用[目录搜索](/help/c-recommendations/c-products/catalog-search.md#save-as)页面上的“高级搜索”（[!UICONTROL 推荐] > [!UICONTROL 目录搜索] > [!UICONTROL 高级搜索]）来创建收藏集。
 
-![另存为对话框](/help/c-recommendations/c-products/assets/save-as-dialog.png)
+![另存为对话框](/help/c-recommendations/c-products/assets/save-as.png)
 
 例如，在使用“ID”>“包含”创建搜索后，您可以单击[!UICONTROL 另存为] > [!UICONTROL 收藏集]。
 
@@ -75,7 +79,19 @@ ht-degree: 99%
 >
 >“高级搜索”功能不区分大小写；但在进行产品交付时，会根据区分大小写的搜索来返回产品。这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建收藏集时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个目录，以用于返回包含“holiday”的产品，则只会返回包含“holiday”的产品，而不会返回包含“Holiday”的产品。
 
-## 培训视频：在“推荐”中创建收藏集和排除项 (7:05) ![教程徽章](/help/assets/tutorial.png)
+## 在Recommendations活动中使用集合
+
+1. 使用上述方法之一创建集合。
+
+1. 单 **[!UICONTROL 击活动]** , [创建新的Recommendations活动](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) ，或编辑现有活动。
+
+1. 在“体 **[!UICONTROL 验]** ”页面（三个部分的向导式工作流的步骤2）上，单击放置推荐的位置，然后单击更 **[!UICONTROL 改集合]**。
+
+   ![更改集合选项](/help/c-recommendations/c-products/assets/change-collection.png)
+
+1. 在添加 **[!UICONTROL 集合页]** ，然后选择所需的集合。
+
+## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

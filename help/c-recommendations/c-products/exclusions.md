@@ -1,14 +1,14 @@
 ---
 keywords: exclusions
-description: 可在 Adobe Target 中创建排除列表以阻止推荐某些项目。
+description: 创建排除， [!DNL Adobe Target Recommendations] 防止向访客推荐产品或内容。
 title: Adobe Target 中的排除项
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 83%
+source-wordcount: '490'
+ht-degree: 55%
 
 ---
 
@@ -17,7 +17,9 @@ ht-degree: 83%
 
 在中创建排除 [!DNL Adobe Target Recommendations] 功能，防止向访客推荐产品或内容。
 
-排除是不应推荐给您的访客的产品或内容的子集。 例如，您可以使用排除来防止在已停止或性质敏感的推荐中显示产品或内容（例如评级不适合所有年龄段的影片）。
+排除是不应推荐给访客的产品或内容的子集。 例如，您可以使用排除来防止在已中止或性质敏感的推荐中显示产品或内容（例如，基于内容评级的评级不适合所有人的影片）。
+
+可在整个帐户中使用排除。
 
 >[!IMPORTANT]
 >
@@ -47,17 +49,27 @@ ht-degree: 83%
 
 ## 使用高级搜索创建排除项
 
-您还可以使用“目录搜索”页面上的“高级搜索”（[!UICONTROL 推荐] > [!UICONTROL 目录搜索] > [!UICONTROL 高级搜索]）来创建排除项。
+You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-![另存为](/help/c-recommendations/c-products/assets/save-as-dialog.png)
+![另存为对话框](/help/c-recommendations/c-products/assets/save-as.png)
 
-例如，在使用“ID”>“包含”创建搜索后，您可以单击[!UICONTROL 另存为] > [!UICONTROL 排除项]。有关更多信息，请参阅[目录搜索](/help/c-recommendations/c-products/catalog-search.md#save-as)。
+例如，在使用“ID”>“包含”创建搜索后，您可以单击“[!UICONTROL 另存为]”>“[!UICONTROL 排除项]”。
 
 >[!IMPORTANT]
 >
->“高级搜索”功能不区分大小写；但在进行产品交付时，会根据区分大小写的搜索来返回产品。这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建排除项时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个排除项，以用于排除包含“holiday”的产品，则只会排除包含“holiday”的产品，而不会排除包含“Holiday”的产品。
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. 这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建排除项时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个排除项，以用于排除包含“holiday”的产品，则只会排除包含“holiday”的产品，而不会排除包含“Holiday”的产品。
 
-## 培训视频：在“推荐”中创建收藏集和排除项 (7:05) ![教程徽章](/help/assets/tutorial.png)
+## 编辑、复制或删除排除项
+
+将指针悬停在列表中所需的排除项上，然后单击相应的图标：编辑、复制或删除。
+
+![排除项的悬停图标](/help/c-recommendations/c-products/assets/hover-exclusions.png)
+
+您可以复制现有排除，以创建重复排除，然后可以修改该排除。 这样，您可以更轻松地创建类似的排除。
+
+请注意，整个帐户中都有排除项。 请确保在删除排除之前考虑这一点。 无法恢复已删除的排除。
+
+## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

@@ -5,21 +5,27 @@ title: Adobe Target 中的排除项
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
+source-git-commit: 28e97c03e21df246e208588d507d4af8d3695283
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 55%
+source-wordcount: '597'
+ht-degree: 45%
 
 ---
 
 
 # 排除项{#exclusions}
 
-在中创建排除 [!DNL Adobe Target Recommendations] 功能，防止向访客推荐产品或内容。
+在中创建排除 [!DNL Adobe Target Recommendations] 功能，防止向访客推荐产品或内容。 排除是不应推荐给访客的产品或内容的子集。
 
-排除是不应推荐给访客的产品或内容的子集。 例如，您可以使用排除来防止在已中止或性质敏感的推荐中显示产品或内容（例如，基于内容评级的评级不适合所有人的影片）。
+可在整个帐户中使用排除。 与在创建Recommendations活动时为每个体验指定特定集合的集合不同  ，排除将应用于帐户中的所有活动。 在创建活动时，没有指定排除组的选项。
 
-可在整个帐户中使用排除。
+使用排除的一些示例包括：
+
+* 已停用的产品
+* 秋季／冬季目录现在是唯一应在线提供的目录。 Summer目录中的任何物品不再可供购买。
+* 在大多数页面／屏幕（成人产品、NC-17电影等）上可能不宜推荐的项目
+* 元数据字段不完整（缺少缩略图、价格或其他重要元数据）的产品
+* 不应推荐的产品（可能系统中存在某些物品的SKU，但它不是可购买的物品，或者QA团队模拟购买而不实际订购物品的假SKU，等等）
 
 >[!IMPORTANT]
 >

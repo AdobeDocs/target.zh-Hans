@@ -5,10 +5,10 @@ title: Adobe Target 中的收藏集
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 69%
+source-wordcount: '868'
+ht-degree: 61%
 
 ---
 
@@ -79,17 +79,29 @@ ht-degree: 69%
 >
 >“高级搜索”功能不区分大小写；但在进行产品交付时，会根据区分大小写的搜索来返回产品。这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建收藏集时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个目录，以用于返回包含“holiday”的产品，则只会返回包含“holiday”的产品，而不会返回包含“Holiday”的产品。
 
+## 编辑、复制或删除集合
+
+将鼠标悬停在列表中所需的集合上，然后单击相应的图标：编辑、复制或删除。
+
+![集合的悬停图标](/help/c-recommendations/c-products/assets/hover-collections.png)
+
+您可以复制现有集合以创建随后可以修改的重复集合。 这样，您可以更轻松地创建类似的排除。
+
+请注意，集合在整个帐户中都可用。 请确保在删除集合之前考虑此问题。 无法恢复已删除的集合。
+
 ## 在Recommendations活动中使用集合
 
 1. 使用上述方法之一创建集合。
 
 1. 单 **[!UICONTROL 击活动]** , [创建新的Recommendations活动](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) ，或编辑现有活动。
 
-1. 在“体 **[!UICONTROL 验]** ”页面（三个部分的向导式工作流的步骤2）上，单击放置推荐的位置，然后单击更 **[!UICONTROL 改集合]**。
+1. 在选择条件和设计后，如果您选 [!UICONTROL 择了] 所需的集合，将显示“选项”页。
+
+   ![选择集合选项](/help/c-recommendations/c-products/assets/choose-collection.png)
+
+1. （视情况而定）要更改现有集合设置，请在“体 **[!UICONTROL 验]** ”页（三个部分的向导式工作流的步骤2）上，单击放置推荐的位置，单击 **[!UICONTROL 更改集合]**，然后选择所需的集合。
 
    ![更改集合选项](/help/c-recommendations/c-products/assets/change-collection.png)
-
-1. 在添加 **[!UICONTROL 集合页]** ，然后选择所需的集合。
 
 ## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 

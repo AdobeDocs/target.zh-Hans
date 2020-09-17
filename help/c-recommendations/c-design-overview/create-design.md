@@ -5,10 +5,10 @@ title: 创建设计
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
+source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 40%
+source-wordcount: '988'
+ht-degree: 33%
 
 ---
 
@@ -36,7 +36,11 @@ ht-degree: 40%
 
 在活动创建过程中，您可以从Visual Experience Composer(VEC)或在活动创建之外的设计库中创建设计。 以下部分假定您是从库创建设计，但步骤相似。
 
-## 根据默认设计创建设计
+## 创建设计
+
+您可以基于默认设计创建设计，也可以创建自定义设计。
+
+### 根据默认设计创建设计
 
 1. 单击 **[!UICONTROL Recommendations]** > **[!UICONTROL 设计]** ，以显示 [!UICONTROL 设计] 库。
 
@@ -56,9 +60,9 @@ ht-degree: 40%
 
 1. （视情况而定）根据需 **[!UICONTROL 要编]**&#x200B;辑设计代码。
 
-   推荐设计使用的是开源 Velocity 设计语言。有关 Velocity 的信息可在 [](https://velocity.apache.org)https://velocity.apache.org 中找到。
+   推荐设计使用的是开源 Velocity 设计语言。有关Velocity的信息，请访 [问https://velocity.apache.org](https://velocity.apache.org) ，并 [参阅使用Velocity自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md)。
 
-   设计可以是 HTML 形式，也可以是非 HTML 形式。默认情况下，HTML 设计将使用 <div> 标记封装，以便允许在 Web 环境中进行点击跟踪。非 HTML 设计适用于无法进行点击跟踪的非 Web 环境。
+   设计可以是 HTML 形式，也可以是非 HTML 形式。默认情况下，HTML 设计将使用 <div> 标记封装，以便允许在 Web 环境中进行点击跟踪。非 HTML 设计适用于无法进行点击跟踪的非 Web 环境。将HTML [!UICONTROL 设计切] 换到“关闭”位置，以使用非HTML代码。
 
    >[!NOTE]
    >
@@ -66,7 +70,7 @@ ht-degree: 40%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 创建自定义设计
+### 创建自定义设计
 
 1. 单击 **[!UICONTROL Recommendations]** > **[!UICONTROL 设计]** ，以显示 [!UICONTROL 设计] 库。
 
@@ -81,6 +85,18 @@ ht-degree: 40%
    有关详细信息，请参阅上面步骤4中的信息。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+## 编辑、复制或删除设计
+
+请记住，您无法编辑或复制默认设计；您只能复制默认设计。
+
+将鼠标悬停在设计库中 [!UICONTROL 的所] 需设计上，然后单击相应的图标：编辑、复制或删除。
+
+![悬停设计图标](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+
+您可以复制现有设计以创建随后可以修改的重复设计。 这样，您可以更轻松地创建类似的设计。
+
+请注意，整个客户都有设计可用。 在删除设计之前，请确保考虑这一点。 无法恢复已删除的设计。
 
 ## JSON 示例 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 

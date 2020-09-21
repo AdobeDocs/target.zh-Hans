@@ -5,10 +5,10 @@ title: 创建“推荐”活动
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 93%
+source-wordcount: '1303'
+ht-degree: 78%
 
 ---
 
@@ -49,9 +49,15 @@ ht-degree: 93%
 
 1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
+   仅当访客符合推荐条件时，网站的推荐内容才会显示。 不符合推荐条件的访客将看到默认内容。
+
    ![“推荐”选项](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   将元素替换为推荐时，会删除当前内容并将其替换为推荐。
+   * **[!UICONTROL 更换为Recommendations]**:将元素替换为推荐将删除当前内容并将其替换为推荐。 当访客访问您的网站并符合推荐条件时，他们将在指定区域看到推荐项目，而不是现有内容。
+   * **[!UICONTROL 在以前插入Recommendations]**:在所选元素之前插入建议将推荐内容放在该元素之前。 根据您的页面结构，推荐显示在选定元素的上方或左侧。
+   * **[!UICONTROL 在以下位置插入Recommendations]**:在选定元素后插入推荐将推荐内容放在该元素后。 根据页面结构，建议显示在选定元素的下方或右侧。
+
+   通过 **[!UICONTROL “展开选择]** ”选项，您可以展开选定的位置(父容器)，从而帮助您更轻松地识别和包含所需的页面元素。
 
 1. 选择页面类型。
 
@@ -70,7 +76,7 @@ ht-degree: 93%
 
 1. 选择一个或多个[标准](/help/c-recommendations/c-algorithms/algorithms.md)。
 
-   标准会以卡片的形式显示，卡片中提供了每个标准的相关信息。默认情况下，“[!UICONTROL 选择标准]”屏幕会显示您所属的垂直行业的兼容标准以及您选择的页面类型。您可以更改这些选项以显示其他标准。
+   标准会以卡片的形式显示，卡片中提供了每个标准的相关信息。By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. 您可以更改这些选项以显示其他标准。
 
    >[!NOTE]
    >
@@ -90,7 +96,7 @@ ht-degree: 93%
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 1. 选择一个[设计](/help/c-recommendations/c-design-overview/design-overview.md)。
 
-   设计是一种模板，可决定页面上各个位置的外观。[!DNL Target] 中包含多个预配置的设计。您也可以创建自己的自定义设计。有关更多信息，请参阅[创建设计](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自定义设计](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
+   设计是一种模板，可决定页面上各个位置的外观。[!DNL Target] 包括多个预配置设计。 您也可以创建自己的自定义设计。有关更多信息，请参阅[创建设计](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自定义设计](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
 
    ![“选择设计”对话框](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -105,6 +111,7 @@ ht-degree: 93%
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 
    您可以选择向推荐中添加促销活动。有关添加前端和后端促销活动的更多信息，请参阅[添加促销活动](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    VEC 屏幕会显示页面上的推荐设计。
@@ -158,7 +165,8 @@ ht-degree: 93%
 
    * 激活活动
    * 编辑活动
-   * 将活动固定到 Experience Cloud 功能板
+   * 将活动共享到Experience Cloud源
+   * QA活动
    * 查看体验 URL
    * 下载数据
    * 更改看到控制体验的活动参加者所占的百分比
@@ -166,6 +174,7 @@ ht-degree: 93%
    * 查看设计的代码
 
 1. （可选）打开[!UICONTROL 报表]页面以查看显示 [!DNL Recommendations] 活动性能的报表。
+
 1. （可选）打开“[!UICONTROL 冲突]”页面以查看可能会发生的任何[活动冲突](/help/c-experiences/c-visual-experience-composer/activity-collisions.md)。
 
    如果设置了多个活动来向同一个页面交付内容，则会发生活动冲突，这可能导致页面显示意外内容。

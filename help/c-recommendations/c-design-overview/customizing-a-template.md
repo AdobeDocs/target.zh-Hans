@@ -1,21 +1,21 @@
 ---
 keywords: custom design;velocity;decimal;comma;customize design
-description: 可使用开源 Velocity 设计语言来自定义推荐设计。
+description: 在Adobe TargetRecommendations，使用开放源码Velocity设计语言自定义推荐设计。
 title: 使用 Velocity 自定义设计
 feature: designs
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 65%
+source-wordcount: '1014'
+ht-degree: 61%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 使用 Velocity 自定义设计{#customize-a-design-using-velocity}
 
-可使用开源 Velocity 设计语言来自定义推荐设计。
+Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
 
 ## Velocity 概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -65,7 +65,7 @@ $entities[0].categoriesList[2]
 
 >[!NOTE]
 >
->设计中可引用（无论是以硬编码方式引用还是通过循环引用）的最大实体数为 99。模板脚本最长可包含 65,000 个字符。
+>设计中可引用的最大图元数（硬编码或通过循环）为99。 模板脚本最长可包含 65,000 个字符。
 
 例如，如果您想要在设计中显示类似于下面的内容：
 
@@ -128,12 +128,12 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 默认情况下，Velocity模板将所有实体属性视为字符串值。 您可能希望将实体属性视为数字值，以执行数学运算或将其与另一个数值进行比较。 要将实体属性视为数字值，请执行以下步骤：
 
-1. 声明一个虚拟变量并将其初始化为任意整数或多次值
-1. 确保要使用的实体属性不为空(目标Recommendations的模板分析器验证和保存模板时需要)
-1. 将实体属性传递 `parseInt` 给 `parseDouble` 您在步骤1中创建的虚拟变量的或方法，将字符串转换为整数或多次值
-1. 对新数值执行数学运算或比较
+1. 声明一个伪变量，并将其初始化为任意整数或多次值。
+1. 确保要使用的实体属性不为空(目标Recommendations的模板分析器验证并保存模板时需要)。
+1. 将实体属性传递 `parseInt` 到 `parseDouble` 您在步骤1中创建的虚拟变量上的或方法，将字符串转换为整数或多次值。
+1. 对新数值执行数学运算或比较。
 
-**示例：计算折扣价格**
+### 示例：计算折扣价格
 
 假定您希望将项目的显示价格降低0.99美元以应用折扣。 您可以采用以下方法来实现此效果：
 
@@ -148,9 +148,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-**示例：根据项目的等级选择要显示的星数**
+### 示例：根据项目的等级选择要显示的星数
 
-假设您希望根据项目的数值平均客户评级显示适当数量的星星。 您可以采用以下方法来实现此效果：
+假定您希望根据项目的数值平均客户评级显示适当数量的星星。 您可以采用以下方法来实现此效果：
 
 ```
 #set( $Double = 0.1 )
@@ -173,7 +173,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-**示例：根据项目长度（以分钟为单位）计算时间（以小时和分钟为单位）**
+### 示例：根据项目长度（以分钟为单位）计算时间（以小时和分钟为单位）
 
 假定您以分钟为单位存储电影的长度，但希望以小时和分钟为单位显示电影的长度。 您可以采用以下方法来实现此效果：
 

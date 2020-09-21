@@ -5,10 +5,10 @@ title: '在创建包含Adobe Target·Recommendations优惠的Recommendations活�
 feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '1398'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 19%
 
 ## 算法要运行多长时间？
 
-保存包含条件的活动后， [!DNL Target] 根据所选集合、条件、设计和促销计算推荐。 此计算需要一些时间来执行，并且时间范围因所选的推荐逻辑、数据范围、目录中的项目数、客户生成的行为数据量以及所选的行为数据源而有所不同。
+保存包含条件的活动后， [!DNL Target] 根据所选集合、条件、设计和促销计算推荐。 此计算需要一些时间才能执行，并且时间范围会因所选推荐逻辑、数据范围、目录中的项目数、客户生成的行为数据量以及所选行为数据源而异。
 
 行为数据源对处理时间的影响最大，如下所示：
 
@@ -75,11 +75,11 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->目标QA模式为“粘滞”并保存在cookie中。 如果不退出QA模式，您将在整个站点中继续看到QA结果。 要退出QA模式，请使用 [书签](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)。
+>* 目标QA模式为“粘滞”并保存在cookie中。 如果不退出QA模式，您将在整个站点中继续看到QA结果。 要退出QA模式，请使用 [书签](/help/c-activities/c-activity-qa/activity-qa-bookmark.md)。
+   >
+   >
+* 在QA模式下，浏览站点不会影响用户档案的“最近查 [!UICONTROL 看的项目] ” [!UICONTROL 或“最近购买的项目]”。 这种行为是通过设计来避免无意污染生产行为数据的。 要预览“最近查 [!UICONTROL 看的项目] ”或“ [!UICONTROL 基于用户的Recommendations”条件的结果] ，请首先在QA模式之外浏览站点，然后使用同一会话打开QA模式链接。
 
->[!NOTE]
->
->在QA模式下，浏览网站不会影响用户档案的“最近查看 [!UICONTROL 的物品] ” [!UICONTROL 或“最近购买的物品”]。这种行为是设计为避免无意污染生产行为数据。 要预览“最近查 [!UICONTROL 看的项目] ”或“ [!UICONTROL 基于用户的Recommendations”条件的结果] ，请首先在QA模式之外浏览站点，然后使用同一会话打开QA模式链接。
 
 ## 使用CSV下载来预览推荐
 

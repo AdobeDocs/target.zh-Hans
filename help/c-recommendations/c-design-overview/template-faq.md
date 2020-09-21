@@ -1,27 +1,27 @@
 ---
 keywords: recommendations;frequently asked questions;faq
-description: 有关“推荐”设计的常见问题解答 (FAQ) 列表。
+description: 列表关于Adobe Target推荐设计的常见问题解答(FAQ)。
 title: 设计常见问题解答
 feature: designs
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 85%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 设计常见问题解答{#design-faq}
 
-有关“推荐”设计的常见问题解答 (FAQ) 列表。
+List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
 
 ## 推荐项目的价格并没有在小数点的右侧显示两个值。我该如何显示它们？
 
 默认情况下，设计模板中返回的数值（如 `entity.value`）不会在小数点之后显示任何尾随的零。例如，如果某个项目的价格为 $35.00，则 `entity.value` 等于 35，并且页面上仅显示 35，而不是 $35.00。
 
-有两种方法可用于解决此问题。
+有两个选项可用于解决此问题：
 
 * 您可以使用 Velocity 脚本或 Javascript 对返回的值应用格式设置。
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ## 我应该如何更改设计才能实现即时更新？ {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
-对当前正在使用的设计进行更改后，需要等待一段时间才会更新。要即时更改设计，请创建一个新设计，然后在营销活动中选择该设计，并保存推荐。
+对当前正在使用的设计进行更改后，需要等待一段时间才会更新。要立即更改设计，请创建新设计，在活动中选择它并保存建议。
 
 ## 如何捕捉要在设计中显示的关键信息？示例：如果我们想要显示关键产品的类别，如何在 Velocity 设计中对该值进行编码？ {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ## 如何将现有的实体值替换为空格？例如，在促销活动结束后，需要清除某个项目的 entity.message。{#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-以 JavaScript 不间断空格的形式发送似乎可做到这一点。让开发人员发送 `\u00A0` 作为值。示例：`entity.message=\u00A0`。在没有显示值的情况下，您应当考虑将此设为默认值，而不是为 null。
+在JavaScript不间断空间中发送似乎就是这样。 让开发人员发送 `\u00A0` 作为值。示例：`entity.message=\u00A0`。在没有显示值的情况下，您应当考虑将此设为默认值，而不是为 null。
 
 ## 能否在推荐设计中使用配置文件脚本？{#section_6BD55203984A4D80A0C6F241AD7806DF}
 

@@ -5,17 +5,17 @@ title: 选择标准
 feature: recs creation
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 80%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 选择标准{#select-criteria}
 
-选择要在您的“推荐”活动中使用的[标准](/help/c-recommendations/c-algorithms/algorithms.md)。标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。
+Select the [criteria](/help/c-recommendations/c-algorithms/algorithms.md) to use in your [!DNL Adobe Target Recommendations] activity. 标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。
 
 您可以添加多个标准，以便对多个推荐类型进行相互测试。
 
@@ -25,18 +25,18 @@ ht-degree: 100%
 
    [!DNL Recommendations] 中提供了一些自带标准。您和您的团队也可以创建自己的自定义标准。
 
-* 要创建新标准，请单击&#x200B;**[!UICONTROL 创建标准]**，然后填写有关新标准的信息。有关创建新标准的信息，请参阅[创建新标准](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
+* To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 有关创建新标准的信息，请参阅[创建新标准](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
 
 **选择标准：**
 
-1. 在[创建新推荐](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)时，在&#x200B;**[!UICONTROL 标准]**&#x200B;对话框中，找到并选择一个或多个标准。
+1. While [creating a new recommendation](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), in the **[!UICONTROL Select Criteria]** dialog box, locate and select one or more criteria.
 
    ![“选择标准”对话框](/help/c-recommendations/t-create-recs-activity/assets/filters.png)
 
    您可以使用“[!UICONTROL 行业类型]”筛选器、“[!UICONTROL 页面类型]”筛选器和“[!UICONTROL 兼容]”复选框来筛选标准列表。这些选项可帮助您找到所需的标准。
 
-   * **行业类型：**&#x200B;行业类型用于帮助对 [!DNL Recommendations] 标准进行分类。要更改默认的垂直行业，请单击&#x200B;**[!UICONTROL 设置]**，然后选择所需的默认&#x200B;**[!UICONTROL 垂直行业]**&#x200B;设置。
+   * **行业类型：**&#x200B;行业类型用于帮助对 [!DNL Recommendations] 标准进行分类。To change your default industry vertical, click **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** and select your desired default **[!UICONTROL Industry Vertical]** setting.
    * **页面类型：**&#x200B;页面类型可帮助您对推荐进行分类。每种页面类型还有一些内置标准，可供您选择。
-   * **兼容：**&#x200B;仅显示要求选定页面传递所需数据的标准。并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。可以在 [!DNL Target][!UICONTROL  的“首选项]”中禁用或启用此选项。
+   * **兼容：**&#x200B;仅显示要求选定页面传递所需数据的标准。并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。This option can be disabled or enabled in your settings: **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**.
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以显示“[选择设计](/help/c-recommendations/c-design-overview/design-overview.md)”对话框。

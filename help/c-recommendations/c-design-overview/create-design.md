@@ -5,7 +5,7 @@ title: 创建设计
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 33%
@@ -62,7 +62,7 @@ ht-degree: 33%
 
    推荐设计使用的是开源 Velocity 设计语言。有关Velocity的信息，请访 [问https://velocity.apache.org](https://velocity.apache.org) ，并 [参阅使用Velocity自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md)。
 
-   设计可以是 HTML 形式，也可以是非 HTML 形式。默认情况下，HTML 设计将使用 <div> 标记封装，以便允许在 Web 环境中进行点击跟踪。非 HTML 设计适用于无法进行点击跟踪的非 Web 环境。将HTML [!UICONTROL 设计切] 换到“关闭”位置，以使用非HTML代码。
+   设计可以是 HTML 形式，也可以是非 HTML 形式。默认情况下，HTML 设计将使用`<div>`标记封装，以便允许在 Web 环境中进行点击跟踪。非 HTML 设计适用于无法进行点击跟踪的非 Web 环境。将HTML [!UICONTROL 设计切] 换到“关闭”位置，以使用非HTML代码。
 
    >[!NOTE]
    >

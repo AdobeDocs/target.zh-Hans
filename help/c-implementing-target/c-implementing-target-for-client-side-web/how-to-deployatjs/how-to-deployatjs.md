@@ -6,10 +6,10 @@ feature: client-side
 topic: Standard
 uuid: 3601bc84-24da-4495-b1aa-7ca463edef4c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3ddaf11d272fc68e98d6063591cdcf956a5e7faa
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 57%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 100%
 
 * **[使用 Adobe Launch 实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)**：Launch 是 Adobe 的下一代标签管理平台，是实施 Adobe Target 的首选方法。Launch 为客户提供了一种简单的方式来部署和管理所有用来加强相关客户体验的分析、营销和广告标签。
 * **[不通过标签管理器实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)**：您可以在不使用标签管理器（Adobe Launch 或动态标签管理）的情况下实施 Adobe Target。
-* **[使用动态标签管理实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)**：您可以使用 Adobe 的旧版标签管理器 Adobe 动态标签管理 (DTM) 实施 Target。Adobe Launch 是实施 Target 和 at.js 库的最新首选方法。对于新的 Target 实施，请使用 Launch。
+* **[使用动态标签管理实施目标](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)**:您可以使用Adobe动态标签管理(DTM)(Adobe的传统标签管理器)来实施目标。 Adobe Launch 是实施 Target 和 at.js 库的最新首选方法。对于新的 Target 实施，请使用 Launch。
+* **使用第三方标签管理器实施目标**: [Adobe启动](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) ，是实施目标的首选方法；但是，您也可以使用第三方标签管理器来实施目标，如Tealium、Ensighten、Google标签等。 有关使用Launch的列表优势，请参 [阅使用目标Launch扩展实施at.js的优势](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#section_48B3F938B6F8491DAF798E0DB54EF304)。
+
+   但是，如果您知道如何在没有标签管理器的情况下实现目标，则可以使用第三方标签管理器轻松实现，而不是在站点代码中硬编码at.js。
+
+   以下两个相关主题将帮助您通过第三方标签管理器实施目标:
+
+   * [实施之前](/help/c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
+   * [不通过标签管理器实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
+
+   请务必查看第三方标签管理器的文档以了解更多信息。
 
 要在使用单页应用程序 (SPA) 时实施 Target，请参阅[单页应用程序实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。

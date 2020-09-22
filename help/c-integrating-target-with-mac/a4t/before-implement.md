@@ -5,10 +5,10 @@ title: 在将Adobe Analytics作为Adobe Target(A4T)的报告源之前
 feature: a4t implementation
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 75fa021c00940c87cf4b2bfa0e2875bb396079a1
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 57%
+source-wordcount: '903'
+ht-degree: 52%
 
 ---
 
@@ -23,7 +23,7 @@ Several changes occur in your data collection process when enabling [!DNL Analyt
 
 >[!IMPORTANT]
 >
->在开始使用 A4T 之前，您需要请求对您的帐户进行配置，以便使用该集成。可使用[此表单](https://www.adobe.com/go/audiences_cn)提交配置请求。
+>在开始使用 A4T 之前，您需要请求对您的帐户进行配置，以便使用该集成。使用 [Marketing Cloud集成配置表单](https://www.adobe.com/go/audiences_cn) ，请求进行配置。
 
 根据您是否要将重定向选件与 A4T 结合使用，此 A4T 集成要求您实施以下库版本（或更高版本）：
 
@@ -82,3 +82,15 @@ When troubleshooting, be sure to confirm that the supplemental ID is present on 
 默认情况下，当 at.js、[!DNL Experience Cloud Visitor ID Service] 和 appMeasurement.js 均位于页面上时，只要页面中包含正确的补充 ID，[!DNL Analytics] 和 [!DNL Target] 就会在后端正确地将事件拼合到一起以用于报告和分析目的，如上所述。您无需管理和执行任何其他操作，A4T 即可正常运行。
 
 但是，在某些情况下，您可能希望更好地控制何时以及如何将与 [!DNL Target] 相关的分析数据发送到 [!DNL Analytics] 进行报告。您可能已拥有可供内部使用的内部分析工具，而且您还希望通过内部分析产品将分析数据发送到 [!DNL Analytics]，以便贵组织的其他成员可以继续将 [!DNL Analytics] 用作可视化报表来源。有关更多信息，请参阅“Analytics for Target 实施”**&#x200B;中的[步骤 7：在所有网站页面上引用 at.js 或 mbox.js](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)。
+
+## 共享受众
+
+在填写Marketing Cloud集 [成配置表单时](https://www.adobe.com/go/audiences_cn)，请注意下列与共享受众选项相关的重要信息，该选项列在“请求 [!UICONTROL 设置的功能是哪些]?”
+
+![请求表单](/help/c-integrating-target-with-mac/a4t/assets/request-form.png)
+
+当您请求共 [!UICONTROL 享受众]，您启用 [!UICONTROL 目标] 和 [!UICONTROL Adobe Audience Manager] (AAM)来共享信息，本例中为受众。
+
+>[!IMPORTANT]
+>
+>目标与AAM [!UICONTROL 的集] 成会带来额外成本。 AAM中的每次目标 [!UICONTROL 电话] ，都将向您收费。

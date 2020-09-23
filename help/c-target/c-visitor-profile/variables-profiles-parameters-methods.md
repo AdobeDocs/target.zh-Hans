@@ -6,10 +6,10 @@ feature: visitor profiles
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 2f437e4cf33e4facba60d53ba545beb95c16f191
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 93%
+source-wordcount: '562'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 93%
 | user.daysSinceLastVisit |  |
 | user.browser | 用户代理 |
 | user.header | 所有 `user.header` 配置文件均从 mbox 请求标头数据内置 |
-| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | 访客所在网络连接的公共 IP 地址。<br>您可以通过多种方法获取此地址，例如通过 [whatismyip.com](https://www.whatismyip.com/) / 获取。此 IP 地址不是以 10.、192.168. 或 172. 开头的 NAT 地址（内部地址）。 |
+| user.header(&#39;x-forwarded-for&#39;) | 访客所在网络连接的公共 IP 地址。<br>您可以通过多种方法获取此地址，例如通过 [whatismyip.com](https://www.whatismyip.com/) / 获取。此 IP 地址不是以 10.、192.168. 或 172. 开头的 NAT 地址（内部地址）。<br>注意：user.header(&#39;x-cluster-client-ip&#39;)已弃用。 |
 | user.header(&#39;host&#39;) | 网站主机名 |
 | user.header(&#39;cookie&#39;) | 访客 Cookie 数据 |
 | user.header(&#39;user-agent&#39;) | 访客浏览器用户代理 |

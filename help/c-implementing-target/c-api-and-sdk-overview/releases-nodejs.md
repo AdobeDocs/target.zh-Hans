@@ -5,7 +5,7 @@ title: 与Adobe TargetNode.js SDK相关的发行说明。
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 21c49efb4b5de0ae14215712f4ec87b4759f29e1
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Node.js SDK在通过我们的投放API与集成时引入最佳实践并消除 [!
    我们引入了一个名为的 `serverState` 设置，该设置包含通过服务器端检索的体验，因此at.js v2.2+不会再进行服务器调用来检索体验。 此方法优化页面加载性能。
 
 * 在GitHub上以 [目标Node.js SDK的形式开放](https://github.com/adobe/target-nodejs-sdk)。
-* 新 [的sendNotifications()API方法](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientsendnotifications) ，用于将显示／单击的通知发送 [!DNL Target] 到通过getOffers()预取 [的内容](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers)。
+* 新 [的sendNotifications()API方法](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientsendnotifications) ，用于将显示／单击的通知发送 [!DNL Target] 到通过getOffers()预取 [的内容](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientsendnotifications)。
 * 简化的视图投放API请求构建，内部字段自动完成，默认值 `request.id`为( `request.context`例如，等等)。
 * 验证SDK API方法参数。
 * 更新了自述文件、示例和单元测试。
@@ -50,13 +50,13 @@ Node.js SDK在通过我们的投放API与集成时引入最佳实践并消除 [!
 
 * 项目已重命名 `target-nodejs-sdk`为。
 * 主要重构，用目标视图投放v1 API替换目标BatchMbox v2 API。
-* [create()API方法参数已修改](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientcreate) ，删除了冗余嵌套(请参阅此处的旧方 [法声明](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientcreate))。
-* [getOffers()API方法参数已](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) 修改(请参阅此处的旧方 [法声明](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffers))。
-* API `getTargetCookieName()` 方法已替换为存 `TargetCookieName` 取器。 请参 [阅TargetClient实用程序访问器](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclient-utility-accessors)。
-* API `getTargetLocationHintCookieName()` 方法已替换为存 `TargetLocationHintCookieName` 取器。  请参 [阅TargetClient实用程序访问器](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclient-utility-accessors)。
+* [create()API方法参数已修改](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientcreate) ，删除了冗余嵌套(请参阅此处的旧方 [法声明](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientcreate))。
+* [getOffers()API方法参数已](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientgetoffers) 修改(请参阅此处的旧方 [法声明](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffers))。
+* API `getTargetCookieName()` 方法已替换为存 `TargetCookieName` 取器。 请参 [阅TargetClient实用程序访问器](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclient-utility-accessors)。
+* API `getTargetLocationHintCookieName()` 方法已替换为存 `TargetLocationHintCookieName` 取器。  请参 [阅TargetClient实用程序访问器](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclient-utility-accessors)。
 
 ### 已删除
 
 * 目标BatchMbox v2 API支持。
-* 已 [删除getOffer()API方法](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffer) ，请改 [用getOffers()API方法](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) 。
+* 已 [删除getOffer()API方法](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffer) ，请改 [用getOffers()API方法](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientgetoffers) 。
 

@@ -3,10 +3,10 @@ keywords: experience targeting;xt;metrics;set metrics;goal metric;activity setti
 description: 可在 Adobe Target 体验定位 (XT) 活动中使用量度来确定访问何时被视为成功。
 title: 设置量度
 feature: xt
-solution: Target,standard
+solution: Target
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 98%

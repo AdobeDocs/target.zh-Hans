@@ -5,9 +5,9 @@ title: 目标公告
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,6 @@ ht-degree: 0%
 ## Adobe再次在Gartner个性化引擎魔力象限中被评为领导者
 
 在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为领导者。 Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商：愿景和执行能力的完整性。 [在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
-
-## 网络研讨会：基于人工智能和Adobe Target的个性化策略
-
-* **上午8:00 - 9:00(PDT)**
-* **2020年8月13日星期四**
-
-[在此处注册此网络研讨会](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/)。
 
 ## 网络研讨会：汇丰如何利用Adobe Target和人工智能快速大规模优化和提供个性化
 

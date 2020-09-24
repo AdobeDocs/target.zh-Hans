@@ -5,9 +5,9 @@ title: 使用 Analytics 跟踪服务器
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
+source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '649'
 ht-degree: 24%
 
 ---
@@ -60,9 +60,9 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
 1. Click the **[!UICONTROL Network]** tab.
 
-1. 筛选“/ss”，以显示分析请求。
+1. 筛选以 `/ss,` 显示分析请求。
 
-   ![Chrome开发人员工具](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools-2.png)
+   ![带/ss搜索的Chrome开发人员工具](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
    跟踪服务器是请求的主机名。
 

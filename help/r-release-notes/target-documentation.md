@@ -5,9 +5,9 @@ title: 目标公告
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '505'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 2%
 | [Adobe Experience Platform Launch目标文件](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 有关使用 [!DNL Target] 下一 [!DNL Adobe Experience Platform Launch]代标签管理平台实现的信息 [!DNL Adobe]。 这是首选的实现方法 [!DNL Target]。 |
 | [Adobe 客户关怀团队办公时间](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | 有关“办公时间”的信息，这是由Adobe客户关怀团队领导的一项计划。 These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. |
 | [目标基础网络研讨会系列](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registration information and links to previous sessions of the [!DNL Target] Basics Webinar Series, a Customer Success Webinar Series brought to you by the Community. |
+| [Adobe Target开发商](http://developers.adobetarget.com/) | 有关Adobe Target开发人员站点的信 [!DNL Target] 息可帮助您在客户端应用程序、服务器端应用程序、移动应用程序、物联网等上实施。 您还可以将数据 [!DNL Target] 导出到第三方解决方案。 |
 | [Target 推荐 API](https://developers.adobetarget.com/api/recommendations/) | 有关Recommendations [!UICONTROL API的信息] ，这些API允许您与推荐服务器进行 [!DNL Target] 有序交互。 These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] UI. |
 | [服务器端交付 API](https://developers.adobetarget.com/api/delivery-api/) | 有关构成Adobe Target投放API的资源的信息。 |
 | [Node.js SDK](https://github.com/adobe/target-nodejs-sdk) | 有关Node.js SDK的信息，这是一个复杂的软件开发工具包，可消除管理Cookie、会话以及与解决方 [!DNL Adobe Experience Cloud] 案（如、、和）集 [!DNL Target]成的 [!DNL Adobe Analytics]复杂 [!DNL Experience Cloud Visitor ID Service]性 [!DNL Audience Manager]。 |

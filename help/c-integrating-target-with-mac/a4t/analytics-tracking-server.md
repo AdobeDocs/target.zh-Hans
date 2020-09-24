@@ -1,14 +1,14 @@
 ---
-keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Cloud debugger;reporting source;developer tools
+keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
 description: 如果您使用的是较低版本的 at.js 或 mbox.js，则必须为使用 Analytics for Target (A4T) 的活动指定 Analytics 跟踪服务器。
 title: 使用 Analytics 跟踪服务器
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
+source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 24%
+source-wordcount: '698'
+ht-degree: 27%
 
 ---
 
@@ -44,6 +44,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
    * **CNAME实现**: `sstats.adobe.com` 是CNAME第一方跟踪服务器用于https(secure)请求的示例。 `stats.adobe.com` 是http（非安全）页面的CNAME第一方请求的示例。
 
 1. 复制该字段的全部内容。
+
 1. 在活动的“**[!UICONTROL 目标和设置]****[!UICONTROL ”屏幕的“]**&#x200B;报表设置&#x200B;**[!UICONTROL ”部分中，将复制的跟踪服务器信息粘贴到跟踪服务器]**&#x200B;字段中。
 
    >[!NOTE]
@@ -69,4 +70,12 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
    * **第一方跟踪服务器**:如果请求的主机名与您所在的域匹配，则它是第一方跟踪服务器。 例如，如果您在 `adobe.com`, `adobe.com` 则是第一方跟踪服务器。
    * **第三方跟踪服务器**:第三方跟踪服务器通常 `[company].sc.omtrdc.net` 将公司作为公司的名称，但始终以结尾 `sc.omtrdc.net`。
    * **CNAME实现**: `sstats.adobe.com` 是CNAME第一方跟踪服务器用于https(secure)请求的示例。 `stats.adobe.com` 是http（非安全）页面的CNAME第一方请求的示例。
+
+1. 复制该字段的全部内容。
+
+1. 在活动的“**[!UICONTROL 目标和设置]****[!UICONTROL ”屏幕的“]**&#x200B;报表设置&#x200B;**[!UICONTROL ”部分中，将复制的跟踪服务器信息粘贴到跟踪服务器]**&#x200B;字段中。
+
+   >[!NOTE]
+   >
+   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 

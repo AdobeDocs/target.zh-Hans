@@ -5,10 +5,10 @@ title: Adobe TargetRecommendations常见问题解答
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 84%
+source-wordcount: '2019'
+ht-degree: 80%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 84%
 # ![PREMIUM](/help/assets/premium.png) “推荐”常见问题解答 {#recommendations-faq}
 
 列表关于Adobe TargetRecommendations活动的常见问题解答(FAQ)。
+
+## 当我使用数字值搜索自定义属性时，为什么目录搜索不显示正确的结果？
+
+当您使用数字值对自定义属性执行目录搜索时，结果会将自定义属性视为字符串类型而不是数字值。
+
+目前，没有允许客户更改属性类型的功能。 要进行更改，请 [打开一个客户问题](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，该问题引用需要类型从字符串更改为数字的属性。
 
 ## 目录中的项目更新将需要多长时间才会反映在我的网站上？
 

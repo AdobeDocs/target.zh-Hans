@@ -6,9 +6,9 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '723'
 ht-degree: 11%
 
 ---
@@ -49,7 +49,7 @@ Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/deliver
 
 Node.js SDK是一款精良的软件开发工具包，可消除管理Cookie、会话以及与产品（如、和） [!DNL Experience Cloud] 集成的复杂 [!DNL Analytics]性 [!DNL Experience Cloud Visitor ID Service][!DNL Audience Manager]问题。 Node.js SDK在后台使用 `/rest/v1/delivery` API。 以下是Node.js SDK支持的一些值得注意的功能：
 
-* **支持预回迁和通知，允许您通过缓存优化性能：** 您可以使用Node.js SDK检索体验并在本地将其缓存到Node.js服务器上，以最大限度地减少对应用程序的服务 [!DNL Target] 器调用并优化性能。
+* **支持预回迁和通知，允许您通过缓存优化性能：** 您可以使用Node.js SDK检索体验并在本地将其缓存到Node.js服务器上，以最大限度地减少对应用程序的服务器调用 [!DNL Target] 并优化应用程序性能。
 * **能检索VEC创建的活动:** 在服务器端检索VEC创建的活动。 包含VEC创建的活动的响应包含选择器，这些选择器可用于仅预隐藏需要个性化的页面部分。 这有助于优化您页面的“第 [一个内容绘制](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)”指标，这是您的企业在Google PageRank系统中获得高分的重要 [KPI](https://en.wikipedia.org/wiki/PageRank) 。
 
 ## 目标Java SDK
@@ -60,6 +60,12 @@ Java SDK是一款精良的软件开发工具包，它消除了管理Cookie、会
 
 * **支持预回迁和通知，允许您通过缓存优化性能**:您可以使用JavaSDK检索体验并在本地将它们缓存到Java服务器上，以最大限度地减少对应用程序性能的服 [!DNL Target] 务器调用并优化它们。
 * **能检索VEC创建的活动**:在服务器端检索VEC创建的活动。 包含VEC创建的活动的响应包含选择器，这些选择器可用于仅预隐藏需要个性化的页面部分。 这有助于优化您页面的“第 [一个内容绘制](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) ”指标，这是您的企业在Google PageRank系统中获得高分的重要 [KPI](https://en.wikipedia.org/wiki/PageRank) 。
+
+## Adobe Target开发商
+
+链接： [Adobe Target开发商](http://developers.adobetarget.com/)
+
+“Adobe Target开发人员”站点帮 [!DNL Target] 助您在客户端应用程序、服务器端应用程序、移动应用程序、物联网等上进行实施。 您还可以将数据 [!DNL Target] 导出到第三方解决方案。
 
 ## Target 推荐 API
 

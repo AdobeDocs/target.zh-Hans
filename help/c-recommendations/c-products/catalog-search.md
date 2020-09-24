@@ -5,9 +5,9 @@ title: Adobe Target 中的目录搜索
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1016'
 ht-degree: 19%
 
 ---
@@ -57,6 +57,12 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
    请注意，您可以使用搜索自动完成功能。 在下图中，键入“bik”将返回包含“bike”一词的所有产品。
 
    ![搜索自动完成](/help/c-recommendations/c-products/assets/bike-results-2.png)
+
+   >[!NOTE]
+   >
+   >当您使用数字值对自定义属性执行目录搜索时，结果会将自定义属性视为字符串类型而不是数字值。
+   >
+   >目前，没有允许客户更改属性类型的功能。 要进行更改，请 [打开一个客户问题](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，该问题引用需要类型从字符串更改为数字的属性。
 
 1. 您还可以使用过滤器来查找所需的产品。 在以下示例中，通过展开“收 [!UICONTROL 藏集] ”彩块并选择“Bike Tools”（自行车工具），您的目录中将显示所有自行车工具。
 
@@ -170,12 +176,3 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
 
 请记住，您所做的任何更改只适用于当前会话。
 
-## 常见问题解答 {#faq}
-
-请参阅以下常见问题解答，以获取有关“目 [!UICONTROL 录搜索”功能] 的帮助：
-
-### 当我使用数字值搜索自定义属性时，为什么目录搜索不显示正确的结果？
-
-当您使用数字值对自定义属性执行目录搜索时，结果会将自定义属性视为字符串类型而不是数字值。
-
-目前，没有允许客户更改属性类型的功能。 要进行更改，请 [打开一个客户问题](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，该问题引用需要类型从字符串更改为数字的属性。

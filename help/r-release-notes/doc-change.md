@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 29%
+source-wordcount: '2396'
+ht-degree: 28%
 
 ---
 
@@ -23,7 +23,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 9月24日 | [活动 QA 书签](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新了at.js 2的活动QA书签的代码。*x* 目前不支持选择加入支持。 |
-|  | [目录搜索](/help/c-recommendations/c-products/catalog-search.md#faq) | 添加了常见问题解答部分。 |
+|  | [目录搜索](/help/c-recommendations/c-products/catalog-search.md#faq) | 添加了有关使用数值搜索自定义属性的注释。 |
+|  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：“当我使用数字值搜索自定义属性时，为什么目录搜索不显示正确的结果？” |
 |  | [Target 的工作方式](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) | 更新了“边缘网络”中列出的目标群集和目标中心群集位置。 |
 | 9月23日 | [使用 Analytics 跟踪服务器](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | 使用和浏览器开发人员工具中 [!DNL Adobe Experience Platform Debugger] 的信息更新了整个主题。 |
 |  | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已更新“user.header(&#39;x-forwarded-for&#39;)”行以指示“user.header(&#39;x-cluster-client-ip&#39;)”已弃用。 |

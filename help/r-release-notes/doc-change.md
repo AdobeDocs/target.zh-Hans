@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2338'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 9月24日 | [活动 QA 书签](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新了at.js 2的活动QA书签的代码。*x* 目前不支持选择加入支持。 |
 | 9月23日 | [使用 Analytics 跟踪服务器](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | 使用和浏览器开发人员工具中 [!DNL Adobe Experience Platform Debugger] 的信息更新了整个主题。 |
 |  | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已更新“user.header(&#39;x-forwarded-for&#39;)”行以指示“user.header(&#39;x-cluster-client-ip&#39;)”已弃用。 |
 |  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 20.9.1（2020年9月30日）版本的信息。 |

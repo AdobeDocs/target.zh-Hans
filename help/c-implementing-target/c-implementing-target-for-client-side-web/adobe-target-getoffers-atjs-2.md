@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1223'
 ht-degree: 95%
 
 ---
@@ -268,7 +268,7 @@ adobe.target.getOffers({
 
 请注意，此示例使用了 `prefetch > mboxes`，但您也可以使用 `execute > mboxes`。请确保，如果在 `getOffers()` 中使用 prefetch，则在 `applyOffers()` 调用中也应使用 prefetch。
 
-## 调用 `getOffers()` 以执行pageLoad
+## 调 `getOffers()` 用以执行pageLoad
 
 以下示例演示如何对at.js 2使用getOffers()执行pageLoad。*x*
 

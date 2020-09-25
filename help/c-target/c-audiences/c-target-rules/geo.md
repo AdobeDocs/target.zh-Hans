@@ -1,15 +1,15 @@
 ---
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: 使用 Adobe Target 受众基于用户的地理位置（包括其国家/地区、省/自治区/直辖市、城市、邮编/邮政编码、DMA 或移动设备运营商）定位用户。
-title: Adobe Target 中的地域
+title: Adobe Target受众地理选项
 feature: audiences
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '942'
 ht-degree: 88%
 
 ---

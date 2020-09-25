@@ -1,14 +1,14 @@
 ---
 keywords: custom events;at.js;request failed;request succeeded;content rendering failed;content rendering succeeded;library loaded;request start;content rendering start;content rendering no offers;content rendering rediret
 description: 有关 Adobe Target at.js JavaScript 库自定义事件的信息。
-title: 有关 Adobe Target at.js JavaScript 库自定义事件的信息。
+title: at.js 自定义事件
 feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '577'
 ht-degree: 96%
 
 ---

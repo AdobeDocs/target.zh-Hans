@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 2%
@@ -34,8 +34,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    >[!NOTE]
    >
-   >* Adobe的证书颁发机构DigiCert在此步骤完成之前无法颁发证书。 因此，Adobe在完成此步骤之前无法满足您对CNAME实施的请求。
-
+   >Adobe的证书颁发机构DigiCert在此步骤完成之前无法颁发证书。 因此，Adobe在完成此步骤之前无法满足您对CNAME实施的请求。
 
 1. [填写此表单](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) ，并在打开请求CNAME [支持的Adobe客户关怀票证时加入此表单](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
@@ -63,7 +62,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 ### 我是否可以提供自己的证书（又称自带证书或BYOC）?
 
-是的，您可以提供自己的证书；但是，不建议这样做。 对于Adobe和您在Adobe购买和控制证书时，SSL证书生命周期的管理都会非常容易。 SSL证书必须每年续订，这意味着Adobe客户服务部门必须每年与您联系，以便及时向Adobe发送新证书。 某些客户可能每年都难以及时生成续订的证书，这会危及他们的实施，因为当证书过期 [!DNL Target] 时，浏览器将拒绝连接。
+是的，您可以提供自己的证书；但是，不建议这样做。 对于Adobe和您在Adobe购买和控制证书时，SSL证书生命周期的管理都会非常容易。 SSL证书必须每年续订，这意味着Adobe客户服务部门必须每年与您联系，以便及时向Adobe发送新证书。 有些客户可能每年都难以及时生成续订的证书，这会危及他们的实施，因为当证书过期 [!DNL Target] 时，浏览器将拒绝连接。
 
 >[!IMPORTANT]
 >

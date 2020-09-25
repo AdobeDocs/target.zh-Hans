@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
@@ -123,6 +123,7 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
 | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
 | 发布者 | 与“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，“发布者”角色具有激活活动的其他权限。 |
+
 请注意，每个用户的角色都适用于您帐户中包含 [!DNL Target] 标记的每个页面、属性或网站，如下所示：
 
 ![](assets/permissions_2.png)

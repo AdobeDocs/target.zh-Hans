@@ -1,14 +1,14 @@
 ---
 keywords: mboxCreate;mboxcreate;mbox create;at.js;functions;function
 description: 有关 Adobe Target at.js JavaScript 库的 mboxCreate(mbox,params) 函数的信息。
-title: 有关 Adobe Target at.js JavaScript 库的 mboxCreate(mbox,params) 函数的信息。
+title: mboxCreate(mbox,params) - at.js 1.x
 feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '184'
 ht-degree: 100%
 
 ---

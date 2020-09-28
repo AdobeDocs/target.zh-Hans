@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
+source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 95%
+source-wordcount: '741'
+ht-degree: 90%
 
 ---
 
@@ -81,6 +81,12 @@ Target Standard/Premium 中显示的报表包列表列出的是已将 Analytics 
 
 * **at.js 1.x**:在调 [!DNL Target] 用中，补充ID包含在参 `mboxMCSDID` 数中。 在 [!DNL Analytics] 调用中，补充数据 ID 包含在 `sdid` 参数中。
 * **at.js 2.x**:补充ID在HTTP头中作为值返回 `experienceCloud.analytics.supplementalDataId`。
+
+检查补充ID的最简单方法是使用Adobe Experience Platform调试器。
+
+如果尚未安装调试器，请参 [阅Adobe Experience Platform调试器简介](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
+
+![调试程序](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
 如果 [!DNL Target] 调用中没有补充数据 ID，请确认 [!DNL VisitorAPI.js] 文件是否在 [!DNL at.js] 或 [!DNL mbox.js] 之前加载。如果 [!DNL Analytics] 调用中没有补充数据 ID，请确认 [!DNL Target] 调用是否在 [!DNL Analytics] 调用之前触发。
 

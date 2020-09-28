@@ -6,9 +6,9 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
+source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1379'
 ht-degree: 90%
 
 ---
@@ -70,7 +70,7 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 
 您最多可以在多值属性中包含 500 个值。
 
-**使用 targetPageParams**
+### 使用 targetPageParams
 
 以下示例显示了如何使用 `targetPageParams`。
 
@@ -89,7 +89,7 @@ function targetPageParams() {
 }
 ```
 
-**使用 CSV**
+### 使用 CSV
 
 您可以使用文本编辑器以原始格式管理 CSV 文件，也可以使用电子表格软件。
 
@@ -108,7 +108,7 @@ function targetPageParams() {
 
 直接编辑原始目录 CSV 文件时务必要小心。
 
-**使用 API**
+### 使用 API
 
 您可以使用mbox参数中的投放API作为包含转义JSON数组的字符串值传递多值属性。
 
@@ -261,7 +261,6 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 当 `entity.genre=["genre1","genre2"]` 在设计中以 `$entity<N>.genre` 方式引用时，结果为 `genre1, genre2`。
 
->[!MORELIKETHIS]
->
->* [实体属性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+## 相关主题：
 
+* [实体属性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)

@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,10 @@ Target Standard/Premium 中显示的报表包列表列出的是已将 Analytics 
 
 ## 报表中显示的数据比预期的要少。 {#section_75002584FA63456D8D9086172925DD8D}
 
-请检查您的实施，特别是要检查访客符合体验条件的页面，并确保 [!DNL Target] 和 [!DNL Analytics] 调用中的补充数据 ID 相匹配。在 [!DNL Target] 调用中，补充数据 ID 包含在 `mboxMCSDID` 参数中。在 [!DNL Analytics] 调用中，补充数据 ID 包含在 `sdid` 参数中。
+请检查您的实施，特别是要检查访客符合体验条件的页面，并确保 [!DNL Target] 和 [!DNL Analytics] 调用中的补充数据 ID 相匹配。
+
+* **at.js 1.x**:在调 [!DNL Target] 用中，补充ID包含在参 `mboxMCSDID` 数中。 在 [!DNL Analytics] 调用中，补充数据 ID 包含在 `sdid` 参数中。
+* **at.js 2.x**:补充ID在HTTP头中作为值返回 `experienceCloud.analytics.supplementalDataId`。
 
 如果 [!DNL Target] 调用中没有补充数据 ID，请确认 [!DNL VisitorAPI.js] 文件是否在 [!DNL at.js] 或 [!DNL mbox.js] 之前加载。如果 [!DNL Analytics] 调用中没有补充数据 ID，请确认 [!DNL Target] 调用是否在 [!DNL Analytics] 调用之前触发。
 

@@ -5,7 +5,7 @@ title: 实体属性
 feature: entities
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: ed4f132dbf1ac8614f4aac8bd29b39b3dfbce2fe
+source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 89%
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 # ![PREMIUM](/help/assets/premium.png) 实体属性{#entity-attributes}
 
-可使用实体属性，将产品或内容信息传递到 ∂.
+可使用实体属性，将产品或内容信息传递到 [!DNL Adobe Target Recommendations].
 
 [!DNL Recommendations] 发送 `productId` 算法 `productPurchasedId` 中使用的或 `entity.id` （在代码中称为）。
 

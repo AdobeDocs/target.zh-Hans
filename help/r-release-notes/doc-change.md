@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '2396'
+source-wordcount: '2420'
 ht-degree: 28%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 9月29日 | [Analytics 与 Target 集成 (A4T) 故障诊断](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#section_75002584FA63456D8D9086172925DD8D) | 添加了有关如何检查at.js 1.x和at.js 2.x中的补充ID的信息。 |
 | 9月24日 | [活动 QA 书签](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新了at.js 2的活动QA书签的代码。*x* 目前不支持选择加入支持。 |
 |  | [目录搜索](/help/c-recommendations/c-products/catalog-search.md#faq) | 添加了有关使用数值搜索自定义属性的注释。 |
 |  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：“当我使用数字值搜索自定义属性时，为什么目录搜索不显示正确的结果？” |

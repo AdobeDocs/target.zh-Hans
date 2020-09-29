@@ -4,7 +4,7 @@ title: Adobe Target 产品文档
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 60%
@@ -18,7 +18,7 @@ ht-degree: 60%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新：2020年9月24日(请[参阅更改内容](r-release-notes/doc-change.md))**
+**上次更新：2020年9月29日(请[参阅更改内容](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >

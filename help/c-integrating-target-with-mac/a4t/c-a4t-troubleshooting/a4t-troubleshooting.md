@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '755'
 ht-degree: 90%
 
 ---
@@ -80,7 +80,7 @@ Target Standard/Premium 中显示的报表包列表列出的是已将 Analytics 
 请检查您的实施，特别是要检查访客符合体验条件的页面，并确保 [!DNL Target] 和 [!DNL Analytics] 调用中的补充数据 ID 相匹配。
 
 * **at.js 1.x**:在调 [!DNL Target] 用中，补充ID包含在参 `mboxMCSDID` 数中。 在 [!DNL Analytics] 调用中，补充数据 ID 包含在 `sdid` 参数中。
-* **at.js 2.x**:补充ID在HTTP头中作为值返回 `experienceCloud.analytics.supplementalDataId`。
+* **at.js 2.x**:在调 [!DNL Target] 用中，补充ID在HTTP头中作为值返回 `experienceCloud.analytics.supplementalDataId`。 在 [!DNL Analytics] 调用中，补充数据 ID 包含在 `sdid` 参数中。
 
 检查补充ID的最简单方法是使用Adobe Experience Platform调试器。
 

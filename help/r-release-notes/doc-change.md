@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
 workflow-type: tm+mt
-source-wordcount: '2420'
-ht-degree: 28%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,13 @@ ht-degree: 28%
 # 文档更改{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.9.1（2020 年 9 月 30 日） 
+
+| 日期 | 主题 | 更改 |
+| --- | --- | --- |
+| 9月20日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了以下实时网络研讨会的信息：<ul><li>利用Adobe Target和分析，大规模实现自适应、微调的个性化</li></ul> |
+|  | [发行说明](/help/r-release-notes/release-notes.md)：20.9.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe Target Standard/Premium 20.8.1（2020 年 9 月 2 日） 
 

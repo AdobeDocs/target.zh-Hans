@@ -5,9 +5,9 @@ title: 目标公告
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
+source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,23 @@ ht-degree: 0%
 ## Adobe再次在Gartner个性化引擎魔力象限中被评为领导者
 
 在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为领导者。 Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商：愿景和执行能力的完整性。 [在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+
+## 网络研讨会：利用Adobe Target和分析，大规模实现自适应、微调的个性化
+
+* **2020年10月27日星期二**
+* **8am PT |上午10点CT |东部时间上午11点**
+* **持续时间：60分钟**
+
+数字应用正在飞速增长，为数字客户提供全新的细分客户，同时对找到他们需要的内容以及获得卓越的服务和客户服务寄予厚望。 个性化是适应即时变化和未来业务发展的关键任务。
+
+在此网络研讨会中，我们将展示 [!DNL Adobe Target] 如何对洞察和受众细分 [!DNL Analytics] 放心地采取行动，确保各行业的公司能够借助AI支持的个性化快速发展业务，并在分析增强型报告中全面视图性能影响。
+
+在此网络研讨会中，您将学习：
+
+* 如何实现统一的用户档案、受众和报告，实现 [!DNL Adobe Analytics] 性能 [!DNL Adobe Target] 驱动的快速个性化，实现服务器到服务器的独特集成
+* 关于公司如何在“分析瘫痪”中节省数小时时间并大规模快速个性化其关键客户互动的提示与技巧
+
+[在此处注册，获得这一令人兴奋的事件。](https://www.adobeeventsonline.com/Webinar/2020/PersonalizationScale/invite.html)
 
 ## 网络研讨会：汇丰如何利用Adobe Target和人工智能快速大规模优化和提供个性化
 

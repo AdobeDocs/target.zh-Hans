@@ -1,28 +1,28 @@
 ---
-keywords: Target;reports;report settings;multiple metrics;metrics
+keywords: Target;reports;report settings;multiple metrics;metrics;shown metrics;hidden metrics
 description: 使用Adobe Target选择多个要视图的指标。
 title: 使用Adobe Target视图报告中的多个指标
 feature: report settings
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 70%
+source-wordcount: '419'
+ht-degree: 61%
 
 ---
 
 
 # 在报表中查看多个量度{#view-multiple-metrics-in-a-report}
 
-可选择要在报表中查看的多个量度。
+您可以选择多个指标以在报表中进行 [!DNL Adobe Target] 视图。
 
 在报表中使用多个量度时，请注意以下信息：
 
-* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
+* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Auto-Target](/help/c-activities/auto-target-to-optimize.md), and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
 * You cannot add more than 20 metrics to a report for an activity that uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). You can add as many metrics as you have in your activity to reports for activities that do *not* use A4T.
 * 如果您选择了多个量度，则将无法使用“[](/help/c-reports/downloading-data-in-csv-file.md)下载”选项将报表下载到 CSV 文件中。要启用“[!UICONTROL 下载]”选项，您必须只选择一个量度。
-* 对于在 Target 2015 年 7 月版（2015 年 7 月 30 日）之前创建的活动，您无法查看多个量度。
+* You cannot view multiple metrics for activities created before the July 2015 [!DNL Target] release (July 30, 2015).
 
 **选择要在报表中显示的多个量度：**
 
@@ -43,10 +43,10 @@ ht-degree: 70%
 
    “[!UICONTROL 显示的量度]”列表中必须至少有一个量度。
 
-   您可以在“[!UICONTROL 显示的量度]”列表中按所需顺序将各个量度拖放到相应的位置，以重新排列这些量度。所选的顺序将反映在“表格视图”和“图形视图”中。要从“[!UICONTROL 显示的量度]”列表中删除某个量度，请将鼠标指针悬停在该量度上，然后单击 **X** 图标。
+   您可以在“[!UICONTROL 显示的量度]”列表中按所需顺序将各个量度拖放到相应的位置，以重新排列这些量度。The selected order will be reflected in the [!UICONTROL Table View] and [!UICONTROL Graph View]. 要从“[!UICONTROL 显示的量度]”列表中删除某个量度，请将鼠标指针悬停在该量度上，然后单击 **X** 图标。
 
 1. 完成后单击&#x200B;**[!UICONTROL 保存]**。
-1. （视情况而定）在“表”视图中查看报表时，将鼠标指针悬停在任何度量的列标题上可显示蓝色箭头。 单击该箭头可展开表格，以便显示该量度的[!UICONTROL 提升度]和[!UICONTROL 置信度]。
+1. (Conditional) While viewing the report in the [!UICONTROL Table View], hover your mouse pointer on any metric&#39;s column header to display a blue arrow. 单击该箭头可展开表格，以便显示该量度的[!UICONTROL 提升度]和[!UICONTROL 置信度]。
 
    ![](assets/multiple_metrics_table.png)
 

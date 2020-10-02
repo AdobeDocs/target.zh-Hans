@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
+source-git-commit: fec7708ddb17ec5565bd3c5f00f0490c03ec0140
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 25%
@@ -69,4 +69,4 @@ Remember that [!DNL Target] randomly serves experiences until the personalizatio
 
 在某些情况下，您的流量可能足够大，足以构建个性化模型，但流量可能表明，个 [!DNL Target] 性化模型与随机模型之间没有有意义的差异。 虽然模型是经过内 [!DNL Target] 建和测试的，但是它不会部署，因为模型并不比随机模型好得多。
 
-这种模式未能比现有模式更好的一个原因可能是，优惠之间没有显着差异。 如果是这种情况，您可以尝试通过使优惠的视觉效果更加不同或更改内容本身来增加这些差异。
+模型不如随机的一个可能原因可能是优惠之间没有明显的差异。 如果是这种情况，您可以尝试通过使优惠的视觉效果更加不同或更改内容本身来增加这些差异。

@@ -1,25 +1,25 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: 自动个性化活动的用户可以使用专门的报表。
+description: 向Automated Personalization活动的Adobe Target用户提供专门报告。
 title: 自动个性化摘要报表
 feature: reports
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 56c77e1a7b5dd4e64f59b0416a16c3039a649ba3
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 94%
+source-wordcount: '388'
+ht-degree: 68%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 自动个性化摘要报表{#automated-personalization-summary-reports}
 
-自动个性化活动的用户可以使用专门的报表。
+Specialized reports are available to users of [!UICONTROL Automated Personalization] activities in [!DNL Adobe Target].
 
 >[!NOTE]
 >
->“自动个性化”作为 [!DNL Target Premium] 解决方案的一部分提供。It is not included with [!DNL Target Standard] without a [Target Premium license](/help/c-intro/intro.md#premium).
+>[!UICONTROL 自动个性化]作为 [!DNL Target Premium] 解决方案的一部分提供。It is not included with [!DNL Target Standard] without a [Target Premium license](/help/c-intro/intro.md#premium).
 
 1. 单击&#x200B;**[!UICONTROL 活动]**，从列表中单击所需的[!UICONTROL 自动个性化]活动，然后单击&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡。
 
@@ -41,7 +41,7 @@ ht-degree: 94%
 
 随机林体验的[!UICONTROL 选件级别]的报表可将每个应用了算法的选件与随机提供内容的同一选件（控制）进行比较。由此可见，此视图不会对选件进行相互比较。
 
-单击体验算法（随机林或控制），可查看选件级别的报表。
+Click the experience algorithm (Random Forest or control) to view the [!UICONTROL Offer Level] report.
 
 ![](assets/ap_OfferLevelRpt.png)
 
@@ -50,3 +50,19 @@ ht-degree: 94%
 >[!NOTE]
 >
 >时钟图标指示仍在构建算法模型。复选标记图标指示已建立基础算法。
+
+## 自动化区段
+
+单击“自 [!UICONTROL 动化区段] ”图标。 此报告显示不同访客对AP/AT活动中的优惠/体验的响应方式。 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。
+
+![自动细分图标](/help/c-reports/assets/icon-automated-sements-ap.png)
+
+有关详细信息，请参阅 [自动化细分报告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
+
+## 重要属性
+
+单击“重 [!UICONTROL 要属性] ”图标。 此报告显示不同活动中不同属性对模型决定如何个性化的重要性如何。 此报表可显示影响模型的排名靠前的属性及其相对重要性。
+
+![重要属性图标](/help/c-reports/assets/icon-important-attributes-ap.png)
+
+有关详细信息，请参阅 [重要属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。

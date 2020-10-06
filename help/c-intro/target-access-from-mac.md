@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 1c4c634fe80ba3a91ee3245871fc27c8a8684067
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '392'
 ht-degree: 76%
 
 ---
@@ -92,15 +92,3 @@ ht-degree: 76%
 * 简体中文
 * 繁体中文
 * 韩语
-
-## Training video: Adobe Target in the Experience Cloud (4:59) ![Overview badge](/help/assets/overview.png)
-
-以下视频包含有关 [!DNL Experience Cloud] 中的 [!DNL Adobe Target] 的信息。
-
-* 阐述和理解 Adobe Experience Cloud 的价值
-* 使用您的 Adobe ID 或创建一个 Adobe ID 以登录到 Adobe Experience Cloud
-* 邀请新用户加入 Adobe Experience Cloud
-* 将您的 Target 帐户关联到 Adobe Experience Cloud
-* 将 Adobe Target 设置为默认登陆页面
-
->[!VIDEO](https://www.youtube.com/v=7lwYrYC7vdM)

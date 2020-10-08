@@ -5,7 +5,7 @@ title: Adobe TargetRecommendations常见问题解答
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -198,3 +198,4 @@ To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the 
 * 部分模板渲染已禁用，并且没有足够的结果可用于填充模板。
 
    通常，当您有动态包含规则时，会发生这种情况，该规则会从可能的结果中积极过滤器许多项目。 要避免这种情况，请启用备份，但不要将包含规则应用于备份，或者以较少筛选的条件按顺序使用条件。
+

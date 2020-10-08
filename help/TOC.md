@@ -1,22 +1,22 @@
 ---
 product: target
 audience: end-user
-user-guide-title: Adobe Target指南
+user-guide-title: Adobe Target 指南
 breadcrumb-title: Target Guide
 user-guide-description: Learn how to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
+source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1511'
 ht-degree: 86%
 
 ---
 
 
-# Adobe Target指南 {#using}
+# Adobe Target 指南 {#using}
 
 + [Adobe Target指南主页](target-home.md)
 + Target 发行说明 {#release-notes}
@@ -166,6 +166,7 @@ ht-degree: 86%
       + [发行说明-目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [发行说明-目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [从 Target 旧版 API 迁移到 Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+   + [混合实现](/help/c-implementing-target/hybrid-implementation.md)
    + 电子邮件：实施 Target {#implement-email}
       + [电子邮件：实施 Target 概述](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
       + [为图像创建 Adbox](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)

@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
+source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
 workflow-type: tm+mt
-source-wordcount: '2505'
+source-wordcount: '2537'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 10月8日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | 添加了以下已解决的问题：<ul><li>[自动目标报告](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>将以下问题从“已知问题”部分移至“已解决问题”部分：<ul><li>[报表](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
+|  | [混合实现](/help/c-implementing-target/hybrid-implementation.md) | 新主题。 |
 | 10月7日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 20.10.1版本的信息。 |
 | 10月1日 | [估算成功所需流量](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | 添加了常见问题解答部分。 |
 | 9月30日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了以下实时网络研讨会的信息：<ul><li>利用Adobe Target和分析，大规模实现自适应、微调的个性化</li></ul> |

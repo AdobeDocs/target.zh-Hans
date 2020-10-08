@@ -5,10 +5,10 @@ title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: d3d9ef5cd18668d913fd1f890d71ca954957424b
+source-git-commit: 05bf843e5016d33ba436f6f24f5a0d05045d5129
 workflow-type: tm+mt
-source-wordcount: '3708'
-ht-degree: 81%
+source-wordcount: '3790'
+ht-degree: 80%
 
 ---
 
@@ -127,7 +127,19 @@ ht-degree: 81%
 
 上述已知问题在解决后将会被移至下面部分，并在必要时添加额外的注释。
 
-### 报表
+### 自动目标报告(#at-metrics)
+
+已解决从9月15日下 [!DNL Adobe Target Premium] 午2 [!UICONTROL :30开始影响用] 户自动目标报告的问题。(PDT)10月6日上午9点25分。(PDT)。 查看受影响转化量度的报告(“已[!UICONTROL 查看页面]”或“已[!UICONTROL 单击mbox]”)时，转化率报告不正确。 此时不存在已知的投放问题。
+
+要重新同步并更正报告:
+
+1. 复制并保存受影响 [!UICONTROL 的自动目标] 活动。
+1. 激活新保存的活动(如果受影响的活动是实时的)。
+1. 删除原始（受影响）活动。
+
+(TGT-38522, CSO 20201006007)
+
+### 报表 {#conversions-audiences}
 
 当前转换增量根据使用的受众不同。
 

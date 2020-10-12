@@ -5,9 +5,9 @@ title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 31bbee408ef4490ecd3a66223e895802ba9f88e5
 workflow-type: tm+mt
-source-wordcount: '3898'
+source-wordcount: '3900'
 ht-degree: 77%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 77%
 
 ### 自动分配和自动目标活动的目标(A4T)分析指标
 
-UI中存在当前已知问题，该问题允 [!DNL Target] 许用户选择不受支持的参与和收入指标作为您在自动分配和自动目标活动 [!UICONTROL 中进行] 优化的  主要目标指标。 支持转化指标；不支持参与和收 *入指标* 。 如果您选择参与或收入目标指标，则不会构建优化模型(即使目标UI当前允许您选择不受支持的目标指标)。
+UI中存在当前已知问题，该问题允 [!DNL Target] 许用户选择不受支持的参与和收入指标作为您在自动分配和自动目标活动 [!UICONTROL 中进行] 优化的  主要目标指标。 支持转化指标；不支持参与和收 *入指标* 。 如果您选择参与或收入目标指标（如订单），则不会构建优化模型(即使UI当前允许您选择不 [!DNL Target] 支持的目标指标)。
 
 有关受支持和不受支持的目标量度的列表，请参 [阅创建](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)*将Analytics用作报告源的活动中支持的目标量度*。 (TNT-38409)
 

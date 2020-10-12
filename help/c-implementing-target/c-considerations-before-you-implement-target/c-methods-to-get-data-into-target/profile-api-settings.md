@@ -1,27 +1,27 @@
 ---
 keywords: implementation;api;profile;profile api settings;authentication token
-description: 可为通过 API 进行的批量更新启用或禁用身份验证，并生成配置文件身份验证令牌。
-title: 配置文件 API 设置
+description: 通过Adobe TargetAPI启用或禁用批量更新的身份验证，并生成用户档案身份验证令牌。
+title: 用户档案API设置(在Adobe Target)
 feature: api
 subtopic: Getting Started
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 64%
+source-wordcount: '313'
+ht-degree: 40%
 
 ---
 
 
-# 配置文件 API 设置{#profile-api-settings}
+# 配置文件 API 设置
 
-可为通过 API 进行的批量更新启用或禁用身份验证，并生成配置文件身份验证令牌。
+通过Adobe TargetAPI启用或禁用批量更新的身份验证，并生成用户档案身份验证令牌。
 
-[!DNL Adobe Target] 会为每一个用户创建并维护一个配置文件。This profile is stored on the [!DNL Target] edge cluster and is updated in real time after every visit, however, you can update a profile individually or in bulk via API.
+[!DNL Adobe Target] 会为每一个用户创建并维护一个配置文件。This profile is stored on the [!DNL Target] edge cluster and is updated in real time after every visit; however, you can update a profile individually or in bulk via API.
 
-为了提高安全性，您可以要求批量更新 API 调用必须在请求的标头中传递有效的访问令牌。Users with [!UICONTROL Approver] permissions can generate and enable profile API authentication tokens.
+为了提高安全性，您可以要求批量更新 API 调用必须在请求的标头中传递有效的访问令牌。
 
 **使用 Target UI 设置身份验证要求并生成访问令牌：**
 
@@ -30,12 +30,23 @@ ht-degree: 64%
 
    ![](assets/profile_api_settings.png)
 
-1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate New Pfofile Authentication Token]**.
+1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate New Profile Authentication Token]**.
 
    ![](assets/profile_api_settings_2.png)
 
    令牌将根据“[!UICONTROL 到期时间]”框中所列的时间到期。
 
+   您必须具有以下用户权限之一才能生成身份验证令牌：
+
+   * 至少拥 [!UICONTROL 有“编辑] ”权限(或“审 [!UICONTROL 批者]”)
+
+      有关客户的详细 [!DNL Target Standard] 信息，请 [参阅在用户中指定角](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 色和 *权限*。 有关客户的详细 [!DNL Target Premium] 信息，请参 [阅配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)。
+
+   * 工作区／产品用户档案级别上的管理员角色
+
+      工作区仅对客 [!DNL Target Premium] 户可用。 For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+   * 产品级别的管理权限(Sysadmin [!DNL Adobe Target] 权限)
    >[!NOTE]
    >
    >您也可以通过 API 生成配置文件身份验证令牌。有关更多信息，请参阅 [Adobe Target 开发人员网站](https://developers.adobetarget.com/)上的[配置文件](https://developers.adobetarget.com/api/#profiles)。

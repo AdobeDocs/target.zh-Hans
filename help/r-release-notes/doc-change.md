@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '2610'
+source-wordcount: '2631'
 ht-degree: 29%
 
 ---
@@ -26,6 +26,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [配置文件 API 设置](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | 更新了主题以指示必须生成身份验证令牌的权限级别。 |
 |  | [自动定位](/help/c-activities/auto-target-to-optimize.md) | 使用自动目标增加了真实的成功案例。 |
 |  | [在相似页面上包含相同体验](/help/c-experiences/c-visual-experience-composer/temtest.md) | 添加了一节来说明如何在整个域中呈现相同活动。 |
+|  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题：<ul><li>自动分配和自动目标活动的目标(A4T)分析指标</li></ul> |
 | 10月8日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | 添加了以下已解决的问题：<ul><li>[自动目标报告](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>将以下问题从“已知问题”部分移至“已解决问题”部分：<ul><li>[报表](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [混合实现](/help/c-implementing-target/hybrid-implementation.md) | 新主题。 |
 | 10月7日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 20.10.1版本的信息。 |

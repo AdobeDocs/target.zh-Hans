@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
+source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
 workflow-type: tm+mt
-source-wordcount: '2537'
+source-wordcount: '2564'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 10月12日 | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 更新 [检索授权令牌以与调试工具一起使用](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) ，以指示必须生成身份验证令牌的权限级别。 |
 | 10月8日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | 添加了以下已解决的问题：<ul><li>[自动目标报告](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>将以下问题从“已知问题”部分移至“已解决问题”部分：<ul><li>[报表](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [混合实现](/help/c-implementing-target/hybrid-implementation.md) | 新主题。 |
 | 10月7日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 20.10.1版本的信息。 |

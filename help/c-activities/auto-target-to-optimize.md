@@ -1,19 +1,20 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
+description: Adobe Target的自动目标使用高级机器学习从多个高性能营销人员定义的体验中进行选择，从而个性化内容并推动转化。 自动定位根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验。
 title: 自动定位
 feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '3610'
-ht-degree: 85%
+source-wordcount: '3744'
+ht-degree: 83%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 自动定位{#auto-target}
+# ![PREMIUM](/help/assets/premium.png) 自动定位
 
 [!UICONTROL 自动定位]可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行选择，以便个性化内容并促进转化。自动定位根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验。
 
@@ -21,11 +22,19 @@ ht-degree: 85%
 >
 >[!UICONTROL 自动定位]作为 [!DNL Target Premium] 解决方案的一部分提供。如果没有 [!DNL Target Premium] 许可证，则此功能在 [!DNL Target Standard] 中不可用。有关此许可证提供的各项高级功能的更多信息，请参阅 [Target Premium](/help/c-intro/intro.md)。
 
+## 使用自动目标的真实成功案例 {#success}
+
+一家大型服装零售商最近使用 [!UICONTROL 了一款自动目标] 活动，其中包含十种基于产品类别的体验（加上随机控制），以向每个访客提供正确的内容。 “[!UICONTROL 添加到购物车]”被选作主要优化指标。 目标体验平均提升29.09%。 构建自动 [!UICONTROL 目标模型后] ,活动设置为90%的个性化体验。
+
+仅仅十天，就实现了超过170万美元的提升。
+
+继续阅读，了解如何使 [!UICONTROL 用自动目标] ，提高组织的提升和收入。
+
+## 概述 {#section_972257739A2648AFA7E7556B693079C9}
+
 [在使用三步引导式工作流创建 A/B 活动](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)时，您可以选择使用“[!UICONTROL 自动定位以提供个性化体验]”选项来分配流量：
 
 ![“自动定位以提供个性化体验”选项](/help/c-activities/assets/auto-target-ui-new.png)
-
-## 概述 {#section_972257739A2648AFA7E7556B693079C9}
 
 通过 A/B 活动流程中的[!UICONTROL 自动定位]选项，您可以利用机器学习功能，只需一次单击即可根据营销人员定义的一组体验进行个性化。[!UICONTROL 与传统 A/B 测试或自动分配相比，自动定位旨在通过确定为每个访客显示哪个体验来实现最大程度的优化。]与目标是找到一个入选者的 A/B 活动不同，[!UICONTROL 自动定位]会自动确定适用于给定访客的最佳体验（根据其个人资料和其他相关信息），从而交付高度个性化的体验。
 
@@ -117,7 +126,7 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 
 * 此量度可以是基于转化的，也可以是基于收入的（更具体地说，即“每次访问带来的收入”）。
 
-**该算法不支持使用[!DNL Analytics]作为数据源或报表端点。**
+**该算法不支持使用 [!DNL Analytics] 作为数据源或报表端点。**
 
 **Target 会自动收集关于访客的信息来构建个性化模型。**
 
@@ -235,7 +244,7 @@ The length of time it takes for models to build in your [!UICONTROL Auto-Target]
 
 ### 在运行自动目标活动时，是否可以使用“重置报告数据”选项？
 
-不建议 [!UICONTROL 对自动目标][!UICONTROL 活动使] 用“重置报告数据”选项。 尽管它删除了可见的报告数据，但此选项并不会从自动目标模型 [!UICONTROL 中删除所有培训] 记录。 不要对自动 [!UICONTROL 目标活动] 使用“重置报告数据 [!UICONTROL ”] 选项，而是新建活动并取消激活原始活动。 (注：本指南还适用于 [!UICONTROL 自动分配] 和 [!UICONTROL Automated Personalization] 活动。)
+不建议 [!UICONTROL 对自动目标][!UICONTROL 活动使] 用“重置报告数据”选项。 尽管它删除了可见的报告数据，但此选项并不会从自动目标模型 [!UICONTROL 中删除所有培训] 记录。 不要对自动 [!UICONTROL 目标活动] 使用“重置报告数 [!UICONTROL 据”选项] ，请创建新活动并取消激活原始活动。 (注：本指南还适用于 [!UICONTROL 自动分配] 和 [!UICONTROL Automated Personalization] 活动。)
 
 ## [!UICONTROL 自动定位]故障诊断 {#section_23995AB813F24525AF294D20A20875C8}
 

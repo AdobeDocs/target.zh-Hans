@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 67%
+source-wordcount: '1386'
+ht-degree: 60%
 
 ---
 
@@ -25,9 +25,21 @@ ht-degree: 67%
 
 mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. 但是，在调试内容交付时，mboxDebug 并不会提供有用的详细信息。如果活动未显示在页面上或页面上显示了不需要的内容，请使用 mboxTrace 对页面进行细致的检查和调试。
 
-## 检索要与调试工具结合使用的授权令牌 {#section_BED130298E794D1FA229DB7C3358BA54}
+## Retrieve the authorization token to use with debugging tools {#section_BED130298E794D1FA229DB7C3358BA54}
 
 由于 mboxTrace 和 mboxDebug 可将营销活动数据和配置文件数据披露给外部各方，因此需要授权令牌。可在 [!DNL Target] UI 中检索授权令牌。令牌的有效时间为 6 个小时。
+
+您必须具有以下用户权限之一才能生成身份验证令牌：
+
+* 至少拥 [!UICONTROL 有“编辑] ”权限(或“审 [!UICONTROL 批者]”)
+
+   有关客户的详细 [!DNL Target Standard] 信息，请 [参阅在用户中指定角](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 色和 *权限*。 有关客户的详细 [!DNL Target Premium] 信息，请参 [阅配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)。
+
+* 工作区／产品用户档案级别上的管理员角色
+
+   工作区仅对客 [!DNL Target Premium] 户可用。 For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+* 产品级别的管理权限(Sysadmin [!DNL Adobe Target] 权限)
 
 要检索授权令牌，请执行以下操作：
 
@@ -53,7 +65,7 @@ mboxTrace enables you to receive trace information attached to [!DNL Target] res
 | `?mboxTrace=window` | 作为 JSON 字符串打印到弹出窗口中 |
 | `?mboxTrace=disable` | 关闭跟踪会话模式 |
 
-**mboxTrace 调用示例**
+**示例mboxTrace调用**
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
@@ -66,7 +78,7 @@ mboxTrace enables you to receive trace information attached to [!DNL Target] res
 * **不匹配**：在此调用中，请求不符合这些客户群或定位的要求。
 * **匹配**：请求符合指定客户群或定位的要求。
 
-**在“推荐”页面上使用 mboxTrace**：将 mboxTrace 作为查询参数添加到带有推荐的页面上时，会将页面上的“推荐”设计替换成 mboxTrace 详细信息窗口，其中显示了与您的推荐相关的详细信息，包括：
+**在推荐页面上使用mboxTrace**:将mboxTrace添加为页面上的查询参数并添加推荐将替换页面上的Recommendations设计，并添加一个mboxTrace详细信息窗口，该窗口显示有关您的推荐的详细信息，包括：
 
 * 返回的推荐与请求的推荐
 * 使用的键值，以及该键值是否在生成推荐
@@ -116,7 +128,7 @@ mboxTrace enables you to receive trace information attached to [!DNL Target] res
 
 The *`SiteCatalyst: purchase`* call can&#39;t be used for Purchase algorithm traffic data. 请改用 *`orderConfirmPage`* 呼叫。
 
-## 检查活动优先级 {#section_3D0DD07240F0465BAF655D0804100AED}
+## Check activity priority {#section_3D0DD07240F0465BAF655D0804100AED}
 
 Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same [!DNL Target] request.
 
@@ -130,7 +142,7 @@ Target 不再支持 IE 8。
 
 mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
 
-## 无法设置 Target Cookie {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Target cookie does not get set {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 如果您的网站具有一个子域（例如 [!DNL us.domain.com]），但您需要在 [!DNL domain.com]（而不是 [!DNL us.domain.com]）上设置 Target Cookie，则必须覆盖 `cookieDomain` 设置。有关更多信息，请参阅 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 

@@ -2,15 +2,15 @@
 product: target
 audience: end-user
 user-guide-title: Adobe Target 指南
-breadcrumb-title: Target Guide
-user-guide-description: Learn how to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
+breadcrumb-title: Target 指南
+user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1548'
 ht-degree: 86%
 
 ---
@@ -178,7 +178,7 @@ ht-degree: 86%
       + [实施之前](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analytics for Target 实施](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [用户权限要求](c-integrating-target-with-mac/a4t/account-reqs.md)
-      + [活动创建](c-integrating-target-with-mac/a4t/campaign-creation.md)
+      + [创建将Analytics用作活动源的报告](c-integrating-target-with-mac/a4t/campaign-creation.md)
       + [使用 Analytics 跟踪服务器](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T 报表](c-integrating-target-with-mac/a4t/reporting.md)
       + Analytics 与 Target 集成 (A4T) 故障诊断 {#troubleshoot-a4t}

@@ -5,9 +5,9 @@ title: 目标公告
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,17 @@ ht-degree: 0%
 ## Adobe再次在Gartner个性化引擎魔力象限中被评为领导者
 
 在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为领导者。 Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商：愿景和执行能力的完整性。 [在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+
+## 网络研讨会：利用Adobe Target提供的设备上决策，在零延迟时进行个性化和测试
+
+营销人员、产品所有者和开发人员比以往任何时候都更需要在网站、App以及与其客户建立联系的其他任何地方优化整体客户体验。 具有数据孤岛和复杂实施的多种工具无法消除这一缺陷。
+
+在此实时网络研讨会中，与Adobe Target产品专家一起讨论如何在设备上执行关键体验优化决策并保持零延迟如何打开大门，在为客户改善网站性能的同时，让客户兴奋不已。
+
+* **2020年11月10日星期二**
+* **10am PT | 12:00 CT |下午1:00 ET**
+
+[在此处注册，获得这一令人兴奋的事件。](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## 网络研讨会：利用Adobe Target和分析，大规模实现自适应、微调的个性化
 
@@ -40,7 +51,7 @@ ht-degree: 0%
 
 ## 网络研讨会：汇丰如何利用Adobe Target和人工智能快速大规模优化和提供个性化
 
-* **在接下来的30天中，您可以单击此处视图网络研[讨会录制](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
+* **在接下来的30天中，您可以单击此处视图网络研 [讨会录制](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
 麦肯锡数字公司报告称：“在大约8周的时间内，我们在消费者和商业数字应用方面已经向前推进了5年。” *
 

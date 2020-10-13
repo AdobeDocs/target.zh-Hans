@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: f1df23d94ab81002945b22c6468ba1d3a9030388
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 36%
+source-wordcount: '2100'
+ht-degree: 35%
 
 ---
 
@@ -59,20 +59,6 @@ ht-degree: 36%
 例如，仅建议与当前项目的品牌匹配的项目，如下例所示：
 
 如果品牌登陆页上的mbox返 `entity.brand=Nike`回，则仅会返回Nike产品并显示在该页面上。 同样，在阿迪达斯的品牌登陆页中，只退回阿迪达斯产品。 对于这种类型的动态包含规则，用户只需指定一个推荐规则，该规则可在所有品牌页面中返回相关品牌结果，而无需指定集合或静态过滤器以匹配每个品牌名称。
-
-可用的运算符：
-
-* 等于
-* 不等于
-* 介于
-* 包含
-* 不包含
-* 始于
-* 止于
-* 值存在
-* 值不存在
-* 大于或等于
-* 小于或等于
 
 #### 配置文件属性匹配
 

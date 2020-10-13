@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 2d7435c420326a7eb1a59c95befa87b06c7614c8
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 35%
+source-wordcount: '2125'
+ht-degree: 34%
 
 ---
 
@@ -66,59 +66,12 @@ ht-degree: 35%
 
 如  果要显示与访客用户档案中存储的值（如大小或喜爱的品牌）匹配的推荐，请使用用户档案属性匹配。
 
-以下示例显示如何使用 [!UICONTROL 用户档案属性匹配]:
+以下场景显示了如何使用 [!UICONTROL 用户档案属性匹配]:
 
 * 一个卖眼镜的公司把访客最喜欢的框色储存成“胡桃”。 对于该特定访客，建议设置为仅返回与彩色“核桃木”匹配的眼镜框。
 * 在用户档案浏览访客网站时，可以为的服装尺寸（例如，“小”、“中”或“大”）定义公司参数。 可以设置推荐以匹配该用户档案参数并返回仅针对用户首选服装尺寸的特定产品。
 
-让我们看一个例子，推荐与访客用户档案中设定的服装尺寸相符的服装。
-
-产品页面在mbox `entity.size` 调用中发送（下图中的红色箭头）。
-
-您可以创建 [用户档案脚本](/help/c-target/c-visitor-profile/profile-parameters.md) ，从访客访问的最后一页捕获访客的用户档案属性和值。
-
-例如：
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-用户档案脚本从名为 `entity.size` 的mbox中捕获该值 `target-global-mbox` ，并将其作为名为的用户档案属性( `user.size` 下图中的蓝色箭头)返回。
-
-![大小mbox调用](/help/c-recommendations/c-algorithms/assets/size.png)
-
-创建推荐条件时，单击添 [!UICONTROL 加筛选规则]，然后选择 [!UICONTROL 用户档案属性匹配]。
-
-![用户档案属性匹配图](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-如果 `user.size` 用户档案已加载到 [!DNL Target]中，则当您设置规则以匹配在mbox调用()中传递到用户档案脚本名称()的值时，该会显示在下拉框中`size`进行匹配`user.size`。
-
-然后，您可以选择“size”“equals”作为用户档案属性匹配的“user.size”中存储的值／文本。
-
-在构建用户档案属性规则后，它们将过滤掉所有具有与访客存储的用户档案属性不匹配的属性的推荐。
-
-有关用户档案属性匹配如何影响推荐的可视示例，请考虑一个销售粉丝的网站。
-
-当访客单击此网站上的各种风扇图像时，每页都会根据图像中 `entity.size` 风扇的大小是小还是大来设置参数的值。
-
-假定您创建了一个用户档案脚本，以跟踪和计算将值设 `entity.size` 置为“小”与“大”的次数。
-
-如果访客返回主页，他／她将根据是否点击了更多小粉丝或大粉丝来看到筛选的推荐。
-
-Recommendations的网站上有更多小粉丝：
-
-![小粉丝推荐](/help/c-recommendations/c-algorithms/assets/small-fans.png)
-
-Recommendations的网站上有更多粉丝：
-
-![大粉丝推荐](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+有关更多示例和说明，请参阅 [下面的用户档案属性匹配示例](#section_9873E2F22E094E479569D05AD5BB1D40) 。
 
 #### 参数匹配
 
@@ -253,11 +206,64 @@ Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
+### 示例3:推荐与访客尺寸相符的衣服
+
+让我们看一个例子，推荐与访客用户档案中设定的服装尺寸相符的服装。
+
+产品页面在mbox `entity.size` 调用中发送（下图中的红色箭头）。
+
+您可以创建 [用户档案脚本](/help/c-target/c-visitor-profile/profile-parameters.md) ，从访客访问的最后一页捕获访客的用户档案属性和值。
+
+例如：
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+用户档案脚本从名为 `entity.size` 的mbox中捕获该值 `target-global-mbox` ，并将其作为名为的用户档案属性( `user.size` 下图中的蓝色箭头)返回。
+
+![大小mbox调用](/help/c-recommendations/c-algorithms/assets/size.png)
+
+创建推荐条件时，单击添 [!UICONTROL 加筛选规则]，然后选择 [!UICONTROL 用户档案属性匹配]。
+
+![用户档案属性匹配图](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+如果 `user.size` 用户档案已加载到 [!DNL Target]中，则当您设置规则以匹配在mbox调用()中传递到用户档案脚本名称()的值时，该会显示在下拉框中`size`进行匹配`user.size`。
+
+然后，您可以选择“size”“equals”作为用户档案属性匹配的“user.size”中存储的值／文本。
+
+在构建用户档案属性规则后，它们将过滤掉所有具有与访客存储的用户档案属性不匹配的属性的推荐。
+
+### 示例4:根据大小推荐项目
+
+有关用户档案属性匹配如何影响推荐的可视示例，请考虑一个销售粉丝的网站。
+
+当访客单击此网站上的各种风扇图像时，每页都会根据图像中 `entity.size` 风扇的大小是小还是大来设置参数的值。
+
+假定您创建了一个用户档案脚本，以跟踪和计算将值设 `entity.size` 置为“小”与“大”的次数。
+
+如果访客返回主页，他／她将根据是否点击了更多小粉丝或大粉丝来看到筛选的推荐。
+
+Recommendations的网站上有更多小粉丝：
+
+![小粉丝推荐](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendations的网站上有更多粉丝：
+
+![大粉丝推荐](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+
 ## 实体属性匹配示例
 
 [!UICONTROL “实体属性匹配] ”允许您仅推荐与用户当前查看的项目、用户最近查看的项目、用户最近购买的项目、用户最常查看的项目或访客用户档案中自定义属性中存储的项目的属性匹配的项目，如以下示例所示。
 
-### 示例3:向上销售到更昂贵的产品
+### 示例5:向上销售到更昂贵的产品
 
 假设您是服装零售商，希望鼓励用户考虑价格更高、从而获利更多的商品。 您可以使用“等于”和“介于”运营商来宣传来自同一类别和同一品牌的更贵商品。 例如，鞋类零售商可以推出更贵的跑鞋，以便向看跑鞋的访客推销。
 
@@ -272,7 +278,7 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-### 示例4:推广专用标签产品
+### 示例6:推广专用标签产品
 
 您可以混合使用动态和静态过滤器来推广专用标签产品。 例如，办公室供应公司可以推广公司家用品牌的碳粉盒，以推动访客通过碳粉进行利润更高的销售，并推广公司家用品牌的钢笔，以推动访客通过钢笔进行利润更高的销售。
 

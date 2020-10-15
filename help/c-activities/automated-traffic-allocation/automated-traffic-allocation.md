@@ -6,10 +6,10 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: b53918af5ddceded80829288d181102cf1b56841
 workflow-type: tm+mt
-source-wordcount: '3335'
-ht-degree: 78%
+source-wordcount: '3368'
+ht-degree: 76%
 
 ---
 
@@ -82,7 +82,9 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 | ![第 4 轮](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png) | **第 4 轮**：在本轮中，80% 的流量会分配给体验 C 和 D（各 40%）。20% 的流量会随机分配，也就意味着 A、B、C 和 D 各获得 5% 的流量。在本轮中，体验 C 展现良好性能。<ul><li>算法挑选出体验 C 进入下一轮，因为它具有最高的转化率（在每个活动的垂直比例尺上由  表示）。</li><li>算法还挑选出体验 D 进入下一轮，因为在其余三个体验中，它具有最高的 Bernstein 95% 置信区间上限。</li></ul>体验 C 和 D 进入下一轮。 |
 | ![第 n 轮](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **第 n** 轮：随着活动继续运行，高性能体验开始显现，并且此过程会一直持续到确定入选体验为止。如果具有最高转化率的体验的置信区间与任何其他体验的置信区间不重叠，则会将其标记为入选者，并会在](/help/c-activities/automated-traffic-allocation/determine-winner.md)活动页面和活动列表中显示一枚徽章[。<ul><li>算法挑选出体验 C 作为明确的入选者</li></ul>此时，算法会将 80% 的流量分配给体验 C，而将 20% 的流量继续随机分配给所有体验（A、B、C 和 D）。体验 C 总共获得 85% 的流量。如果入选者的置信区间再次开始重叠（这种情况不太可能出现），算法会重新执行上述第 4 轮的行为。<br>**重要信息**：如果您在该过程中提早手动选择入选者，则将容易选择错误的体验。因此，最好的做法是一直等到算法确定入选体验为止。 |
 
-如果活动中只有两个体验，则两个体验会获得同等的流量，直到 Target 找出具有 90% 置信度的体验为止。此时，70% 的流量会分配给入选者，30% 的流量会分配给落选者。在体验达到 95% 的置信度之后，100% 的流量会分配给入选者，而落选者则不会分配到流量。
+>[!NOTE]
+>
+>If an activity has only two experiences, both experiences get equal traffic until [!DNL Target] finds a winning experience with 75% confidence. 届时，2/3的流量分配给获胜者，1/3的流量分配给失败者。 之后，当体验达到95%的置信度时，90%的流量分配给赢家，10%的流量分配给失败者。 我们总是保持一些流量被发送到“丢失”体验，以避免长期出现误报（即保持一些探索）。
 
 After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
@@ -174,7 +176,7 @@ After an [!UICONTROL Auto-Allocate] activity is activated, the following operati
 
 ### 使用自动分配时，我能否使用样本量计算器来估算活动确定入选者将花费的时长？
 
-You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (与传统A/B测试一样，如果测试的优惠多于两个或多个转换指标/假设验证，则应用Bonferroni校正。) 请注意，此计算器专为传统的固定水平A/B测试而设计，只提供估计值。 使用“自动分配”活动的计算器是可选的，因为“自动分配”将为您声明入选方——您无需及时选取一个固定点来查看测试结果——提供的值在统计上始终有效。 在我们的实验中，我们发现了以下内容：
+You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (与传统A/B测试一样，如果测试的优惠多于两个或多个转换指标/假设验证，则应用Bonferroni校正。) 请注意，此计算器专为传统的固定水平A/B测试而设计，并且仅提供估计值。 使用“自动分配”活动的计算器是可选的，因为“自动分配”将为您声明入选方——您无需及时选取一个固定点来查看测试结果——提供的值在统计上始终有效。 在我们的实验中，我们发现了以下内容：
 * 在仅测试两个体验时，自动分配在体验之间的性能差异较大时比固定水平测试（即样本大小计算器建议的时间范围）更快地查找入选方，但在体验之间的性能差异较小时可能需要额外时间来确定获胜方。 在这些情况下，固定水平测试通常在没有统计显着结果的情况下结束。
 * 在测试两个以上的体验时，自动分配比固定水平测试（即示例大小计算器建议的时间范围）更快地找到优胜者，因为单个体验的性能严重超出所有其他体验。 如果两个或多个体验都与其他体验“相得益彰”，但彼此密切相关，则自动分配可能需要额外时间来确定哪个体验更优越。 在这些情况下，固定视线测试通常会以“成功”体验优于效果较差的体验而结束，但并没有确定哪个体验更出色。
 

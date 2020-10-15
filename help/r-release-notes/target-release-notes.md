@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
+source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '803'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新：2020 年 10 月 14 日**
+**上次更新：2020 年 10 月 15 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -55,9 +55,10 @@ ht-degree: 10%
 
    ![上次在列和滤镜处更新的插图](/help/r-release-notes/assets/column-and-filter.png)
 
-* 改进了仅键盘用户的导航和功能。
-* 在UI中添加了标签以帮助用户使用辅助技术。
-* 改进了UI中图像和文本的文本和颜色对比度。
+* 更新旨在帮助使目标UI符 [合Web内容辅助功能](https://www.w3.org/WAI/standards-guidelines/wcag/) A级和AA成功标准(WCAG 2.0 AA)。 （TGT-34384 和 TGT-24679）
+* 改进了内容安全策略(CSP)。 (TGT-37035)
+* 介绍了一种将客户端代码指定为使用CNAME的客户参数的方法。 (TNT-38571)
+
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

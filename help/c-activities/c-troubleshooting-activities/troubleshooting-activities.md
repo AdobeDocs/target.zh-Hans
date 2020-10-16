@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 79%
@@ -109,7 +109,7 @@ ht-degree: 79%
 
 ## mbox.js 使所有后续代码弹出标头部分，而进入主体部分。
 
-**验证：**&#x200B;查看源代码，以确认是否有一个声明跟在 mbox.js 文件之后、结束 </body> 标记之前。
+**验证：**&#x200B;查看源代码，以确认是否有一个声明跟在 mbox.js 文件之后、结束`</body>`标记之前。
 
 **选项：**
 

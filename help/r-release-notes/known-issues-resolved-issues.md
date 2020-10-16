@@ -5,7 +5,7 @@ title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a09a90333079a25f83a7f242e52194146a2337ab
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 77%
@@ -240,7 +240,7 @@ Adobe I/O 上的 v1 版选件 API 将通过 Target 创建的所有选件存储�
 
 此问题已得到解决。
 
-### at.js
+### at.js {#at-js-2}
 
 由于 at.js 和访客 API 2.2.0 之间的交互，在升级到 at.js 版本 1.0 后不会在 Microsoft Explorer 11 浏览器中触发 Mbox。此问题会影响 at.js 版本 0.9.6 及更高版本。(TNT-27600)
 
@@ -252,7 +252,7 @@ Adobe I/O 上的 v1 版选件 API 将通过 Target 创建的所有选件存储�
 
 已于 2018 年 11 月版修复。
 
-### at.js
+### at.js {#at-js-3}
 
 如果使用 at.js 版本 1.6.0，但没有活动资格，则会出现 Analytics for Target (A4T) 重定向。
 
@@ -294,7 +294,7 @@ Adobe I/O 上的 v1 版选件 API 将通过 Target 创建的所有选件存储�
 
 已在 Target 18.5.1 版本（2018 年 5 月 22 日）中修复此问题。
 
-### at.js
+### at.js {#at-js-4}
 
 at.js 版本 0.9.6 中更改了对保存 Cookie 时应使用的顶级域进行提取的算法。由于进行了这项更改，Cookie 不能保存到使用 IP 的地址中。大多数情况下，使用 IP 地址进行测试，但作为解决方法，您可以使用 DNS 条目，调整本地计算机上的主机文件，或使用 targetGlobalSettings() at.js 函数插入代码段以支持 IP 地址。
 
@@ -335,7 +335,7 @@ at.js 版本 0.9.6 中更改了对保存 Cookie 时应使用的顶级域进行�
 
 第二个问题已在 Target 17.6.1 版本（2017 年 6 月版）中修复。
 
-### at.js
+### at.js {#at-js-5}
 
 自 Target 17.4.1（2017 年 4 月 27 日版）发行以来，使用 at.js 库时，在可视化体验编辑器中执行“插入图像”操作会导致无法交付选件内容。
 
@@ -355,7 +355,7 @@ at.js 版本 0.9.6 中更改了对保存 Cookie 时应使用的顶级域进行�
 
 已在 Target 17.4.3 修补程序中修复。
 
-### at.js
+### at.js {#at-js-6}
 
 使用可视化体验编辑器 (VEC) 和 at.js 时，以下操作会导致无法交付选件：移动和重新排列。
 
@@ -379,7 +379,7 @@ Target 17.4.1 版本（2017 年 4 月 27 日版）中包含在报表中查看多
 
 已在发布 Recommendations（2018 年 3 月 22 日）后修复此问题。在发布 Recommendations 后，如果未在 mbox 请求中传递 entity.id，则 Target 会跳过基于实体的动态规则。
 
-### at.js
+### at.js {#at-js-7}
 
 当用户在更新 at.js 设置后尝试从“实施详细信息”页面下载 at.js 时，将会下载 mbox.js 而不是 at.js。(TGT-23069)
 

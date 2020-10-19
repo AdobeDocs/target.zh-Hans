@@ -4,10 +4,10 @@ description: 在Adobe TargetRecommendations，通过比较项（实体）与请�
 title: Adobe TargetRecommendations动态包含规则中参数匹配的过滤
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 27%
+source-wordcount: '318'
+ht-degree: 10%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 27%
 例如，只推荐与“行业”页面参数或其他参数（如设备尺寸或地理位置）匹配的内容，如以下示例所示。
 
 * 屏幕宽度和高度的Mbox参数可用于目标移动访客，仅推荐移动设备和附件。
+* 创建一个推荐规则，该规则仅返回与访客使用页面视图的移动设备的屏幕高度匹配或超过的畅销手机。
 * 区域地理位置参数可用于在冬季返回工具的建议。 在下雪的地区，可以推荐访客使用吹雪机和其他降雪工具，但在没有下雪的地区，不推荐访客使用。
 
 >[!NOTE]
@@ -30,14 +31,16 @@ ht-degree: 27%
 >* 从您的标准中删除“参数匹配”筛选器。
 
 
-可用的运算符：
+## 参数匹配示例
 
-* 等于
-* 不等于
-* 包含
-* 不包含
-* 始于
-* 止于
-* 大于或等于
-* 小于或等于
-* 介于
+[!UICONTROL 参数匹配] 允许您推荐与页面参数或访客参数（如设备尺寸或地理位置）匹配的内容，如以下示例所示：
+
+[!DNL Recommendations] 可以匹配调用中发送的参 [!DNL Target] 数值。 在此实例中 [!DNL Target] ，根据调用中发送的屏幕高度和宽度参数检测访客是否正在使用移动设备，并只 [!DNL Target] 推荐移动设备项目。
+
+请考虑以下示例目标调用：
+
+![目标电话](/help/c-recommendations/c-algorithms/assets/example-target-call-2.png)
+
+在访客查看的页面上，他／她将看到移动设备产品。
+
+![移动设备产品](/help/c-recommendations/c-algorithms/assets/phones.png)

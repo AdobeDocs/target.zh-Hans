@@ -4,9 +4,9 @@ description: 在Adobe TargetRecommendations，通过比较项目（实体）与�
 title: Adobe TargetRecommendations动态包含规则中用户档案属性匹配的过滤
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '655'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 5%
 通过比较 [!DNL Adobe Target] 项目( [!DNL Recommendations] 实体)与用户用户档案中的值，动态筛选。
 
 如  果要显示与访客用户档案中存储的值（如大小或喜爱的品牌）匹配的推荐，请使用用户档案属性匹配。
+
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
 
 以下场景显示了如何使用 [!UICONTROL 用户档案属性匹配]:
 
@@ -72,7 +76,7 @@ else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'larg
 
 ![大小mbox调用](/help/c-recommendations/c-algorithms/assets/size.png)
 
-创建推荐条件时，单击添 [!UICONTROL 加筛选规则]，然后选择 [!UICONTROL 用户档案属性匹配]。
+创建推荐条件时，单击添 **[!UICONTROL 加筛选规则]**，然后选择 **[!UICONTROL 用户档案属性匹配]**。
 
 ![用户档案属性匹配图](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
 
@@ -80,11 +84,13 @@ else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'larg
 
 然后，您可以选择“size”“equals”作为用户档案属性匹配的“user.size”中存储的值／文本。
 
+![大小示例](/help/c-recommendations/c-algorithms/assets/example-size.png)
+
 在构建用户档案属性规则后，它们将过滤掉所有具有与访客存储的用户档案属性不匹配的属性的推荐。
 
 ### 根据大小推荐项目
 
-有关用户档案属性匹配如何影响推荐的可视示例，请考虑一个销售粉丝的网站。
+有关用户档案属性匹配如何影响推荐的可视示例，请考虑销售电扇的网站。
 
 当访客单击此网站上的各种风扇图像时，每页都会根据图像中 `entity.size` 风扇的大小是小还是大来设置参数的值。
 

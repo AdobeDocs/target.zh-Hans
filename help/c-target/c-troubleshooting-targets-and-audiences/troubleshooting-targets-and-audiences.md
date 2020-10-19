@@ -26,7 +26,7 @@ ht-degree: 69%
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-### 受众URL定位
+### 受众URL定位 {#url-1}
 
 要应用受众URL定位，请在创建活动时，在“体验”页面（三步指导式工作流的步骤一）上，单击齿轮图标，单击页面投放，然后指定所需的URL。
 
@@ -40,7 +40,7 @@ ht-degree: 69%
 
 除了URL上的受众定位之外，您还可以指定查询中的特定值。
 
-### URL定位
+### URL定位 {#url-1-1}
 
 要应用URL定位，在创建受众时，单击添加规则，单击站点页，从第一个下拉列表(当前页、上一页或登陆页)中选择一个选项，从第二个下拉列表中选择URL，指定评估器，然后指定所需的URL。
 

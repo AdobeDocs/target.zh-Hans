@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 10%
+source-wordcount: '869'
+ht-degree: 9%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 10%
 * 更新旨在帮助使目标UI符 [合Web内容辅助功能](https://www.w3.org/WAI/standards-guidelines/wcag/) A级和AA成功标准(WCAG 2.0 AA)。 （TGT-34384 和 TGT-24679）
 * 改进了内容安全策略(CSP)。 (TGT-37035)
 * 介绍了一种将客户端代码指定为使用CNAME的客户参数的方法。 (TNT-38571)
-
+* [!DNL Adobe Experience Cloud] 文档正在移 [!DNL Experience League]至 在10月份，所有发行说明、文章、视频和教程都将从当前位置移 `docs.adobe.com` 至 [!DNL Experience League]。 此移动可确保从单一位置提供所有学习、自助、支持和社区内容。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到 [!DNL Experience League]。 我们将在切换开始时更新发行说明。
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

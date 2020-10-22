@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 39%
+source-wordcount: '1698'
+ht-degree: 38%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 39%
 * **默认值**:true（以at.js版本1.6.2开头，为true）
 * **描述**:指示我们是否应 `<clientCode>.tt.omtrdc.net` 使用域 `mboxedge<clusterNumber>.tt.omtrdc.net` 或域。
 
-   如果此值为 true，`mboxedge<clusterNumber>.tt.omtrdc.net` 域将被保存到 Cookie 中. 当前不使用 [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+   如果此值为 true，`mboxedge<clusterNumber>.tt.omtrdc.net` 域将被保存到 Cookie 中. 当使用at.js [1](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) .8.2和at.js 2.3.1之前的at.js版本时，当前不能与CNAME一起使用。如果这是您的问题，请考虑将at.js [](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 更新为较新的受支持版本。
 
 ### overrideMboxEdgeServerTimeout
 
@@ -467,13 +467,13 @@ Consider the following when using `serverState`:
    * 在页面加载时执行的VEC创建的活动。
    * 预取的视图。
 
-      如果SPA使用 [!DNL Target] 视图 `triggerView()` ，并且在at.js API中，at.js v2.2会缓存服务器端预取的所有视图的内容，并在通过触发每个视图时立即应用这些内容，同 `triggerView()`样不会向目标发出任何其他内容提取调用。
+      如果SPA使用 [!DNL Target] 视图 `triggerView()` ，并且在at.js API中，at.js v2.2会缓存服务器端预取的所有视图的内容，并在通过触发每个视图后立即应用这些内容，同 `triggerView()`样不会向目标发出任何其他内容提取调用。
 
    * **注意**: 目前，不支持在服务器端检索的mbox `serverState`。
 
 * 应用 `serverState `优惠时，at.js会考虑 `pageLoadEnabled` 和 `viewsEnabled` 设置，例如，如果设置为false，则不会应 `pageLoadEnabled` 用页面加载优惠。
 
-   要打开这些设置，请在“管理”>“实 **[!UICONTROL 施]”[!UICONTROL >“编]辑”[!UICONTROL >“启]用负载**&#x200B;页面”中启用切换。
+   要打开这些设置，请在“管理”>“实 **[!UICONTROL 施] ” [!UICONTROL >“编] 辑” [!UICONTROL >“启] 用负载 **&#x200B;页面”中启用切换。
 
    ![启用页面加载设置](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
@@ -484,4 +484,4 @@ Consider the following when using `serverState`:
 要了解更多工 `serverState` 作方式，请查看以下资源：
 
 * [示例代码](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
-* [包含的单页应用程序(SPA)范例应 `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo)用。
+* [单页应用程序(SPA)范例应用程序 `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo)。

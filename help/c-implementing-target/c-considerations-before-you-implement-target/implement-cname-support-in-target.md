@@ -6,9 +6,9 @@ feature: privacy and security
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1212'
 ht-degree: 2%
 
 ---
@@ -145,5 +145,5 @@ ITP问题可以通过仅使用Analytics CNAME解决目标。 您仅在广告阻�
 ## 已知限制
 
 * QA模式在您有CNAME和at.js 1.x时不会粘滞，因为它基于第三方cookie。 解决方法是将预览参数添加到您导航到的每个URL。 QA模式在您有CNAME和at.js 2.x时是粘滞的。
-* 当前 `overrideMboxEdgeServer` 此设置在CNAME中无法正常使用。 应将此设置为 `false` 以避免请求失败。
+* 当使 `overrideMboxEdgeServer` 用at.js 1.8.2和at.js 2.3.1之前的at.js版本时，该设置当前无法正常使用。如果您使用的是at.js的旧版本，应将其设置为 `false` ，以避免请求失败。 或者，您也应考 [虑将at.js更新](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 到较新的受支持版本。
 * 使用CNAME时，目标调用的cookie头大小更有可能增加。 我们建议将Cookie大小保持在8KB以下。

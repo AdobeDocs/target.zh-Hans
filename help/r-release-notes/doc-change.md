@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2746'
 ht-degree: 28%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 10月22日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 添加了有关at.js版本1.8.2和2.3.1中CNAME支持修复的信息 |
+|  | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 添加了有关at.js版本1.8.2和2.3.1中CNAME支持修复的信息 |
 | 10月15日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新了Target Standard/Premium 20.10.1版本的预发行说明（2020年10月27日）。 |
 | 10月14日 | [Auto-Allocate（自动分配）](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 添加了有关自动分配活动流量分配的注释，其中仅包含两个体验。 |
 | 10月13日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关定于2020年11月10日召开的以下实时网络研讨会的信息：<ul><li>利用Adobe Target提供的设备上决策，在零延迟时进行个性化和测试</li></ul> |

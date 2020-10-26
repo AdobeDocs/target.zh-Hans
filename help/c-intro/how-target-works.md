@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2403'
 ht-degree: 82%
 
 ---
@@ -99,7 +99,7 @@ Activity and content databases, [!DNL Analytics] data, APIs, and marketer user i
 
 每个边缘群集都具有响应用户的内容请求和跟踪该请求的分析数据所需的所有信息。 用户请求将路由到最近的边缘群集。
 
-有关更多信息，请参阅[《Adobe Target 安全概述》](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮书。
+有关更多信息，请参阅[《Adobe Target 安全概述》](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮书。
 
 The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
 
@@ -108,6 +108,8 @@ The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data 
 客户站点活动数据由七个边缘群集中最接近的一个收集，并定向到客户的预定中央群集目标(三个位置之一：俄勒冈、都柏林、新加坡)。 访客用户档案数据存储在最靠近站点访客的Edge Cluster上（位置包括Central Cluster位置和Virginia、Amsterdam、Sydney、Tokyo和Hong Kong）。
 
 边缘群集处理请求时不响应来自单一位置的所有定位请求，而是最靠近访客，从而减轻网络／互联网旅行时间的影响。
+
+![目标服务器类型映射](/help/c-intro/assets/target-servers.png)
 
 目标中心群集托管在AmazonWeb服务(AWS)上，位于：
 

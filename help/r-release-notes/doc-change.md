@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2746'
+source-wordcount: '2757'
 ht-degree: 28%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 10月26日 | [Target 安全概述](/help/c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md) | 更新了 *Adobe Target安全概述* 白皮书。 |
 | 10月22日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 添加了有关at.js版本1.8.2和2.3.1中CNAME支持修复的信息 |
 |  | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 添加了有关at.js版本1.8.2和2.3.1中CNAME支持修复的信息 |
 | 10月15日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新了Target Standard/Premium 20.10.1版本的预发行说明（2020年10月27日）。 |

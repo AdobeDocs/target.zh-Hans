@@ -5,7 +5,7 @@ title: Target 安全概述
 feature: privacy and security
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 94%
@@ -21,4 +21,4 @@ ht-degree: 94%
 
 此外，我们还与合作伙伴、重要研究人员、安全研究机构以及业内其他组织携手合作，帮助我们及时了解最新的安全威胁和漏洞，而且我们还定期将先进的安全技术整合到我们提供的产品和服务中。
 
-有关更多信息，请参阅[《Adobe Target 安全概述》](https://wwwimages.adobe.com/content/dam/Adobe/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮书。
+有关更多信息，请参阅[《Adobe Target 安全概述》](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮书。

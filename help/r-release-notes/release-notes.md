@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: a89c951b3221056e8892831871ef46ed66e5b9c9
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 23%
+source-wordcount: '950'
+ht-degree: 26%
 
 ---
 
@@ -20,10 +20,7 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->* **Adobe再次被评为Gartner个性化引擎魔力象限的领导者**:在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为领导者。 Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商：愿景和执行能力的完整性。 [在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
-   >
-   >
-* **mbox.js终止使用**:2021年1月18日，Adobe Target将不再支持mbox.js库。 2021年1月18日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响目标活动运行的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请 [参阅At.js工作方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 和 [Adobe Target技能构建器：开发人员聊天，将Adobe Target的mbox.js迁移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+>* **mbox.js终止使用**:2021年1月18日，Adobe Target将不再支持mbox.js库。 2021年1月18日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响目标活动运行的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请 [参阅At.js工作方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 和 [Adobe Target技能构建器：开发人员聊天，将Adobe Target的mbox.js迁移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
    >
    >   
    尽管目前支持mbox.js，但自2017年7月起，我们便未对此库提供功能更新。 较新的at.js比mbox.js具有许多优势。 at.js可缩短Web实施的页面加载时间，提高安全性，并为单页应用程序提供更好的实施选项。
@@ -37,59 +34,34 @@ ht-degree: 23%
 
 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## Target Standard/Premium 20.9.1（2020 年 9 月 30 日）
+## Target Standard/Premium 20.10.1（2020 年 10 月 28 日） 
 
-此维护版本包含以下增强、修复和更改：
-
-* 改进了仅键盘用户的导航和功能。 (TGT-34487、TGT-34516、TGT-34517、TGT-34514)
-* 在UI中添加了标签以帮助用户使用辅助技术。 (TGT-34500、TGT-34501、TGT-34502、TGT-24504)
-* 改进了UI中图像和文本的文本和颜色对比度。 (TGT-34513)
-
-## Target Standard/Premium 20.8.3（2020 年 9 月 15 日）
+此版本包含以下新增功能：
 
 | 功能 | 详细信息 |
 | --- | --- |
-| ![针对目标](/help/assets/premium.png) (A4T)的高级徽章分析支持自动目标活动 | [!UICONTROL 自动目标] 活动现在支 [持Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此集成允许您使用自动 [!UICONTROL 目标集成机器学习算法] ，根据每个访客的用户档案、行为和上下文为其选择最佳体验。<br>如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以与A/B测试和体验定位活动配合使用，您就可以了！<br>有关详细信息，请 [参阅目标分析(A4T)支持在创建活动时自动分配和自动目标](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)*活动*。 |
-
-## Target Standard/Premium 20.8.2（2020 年 9 月 10 日）
-
-| 功能 | 详细信息 |
-| --- | --- |
-| ![高级徽章](/help/assets/premium.png) ，控制标准序列中的推荐插槽 | 标准序列现在允许您控制每个推荐标准占用的槽数，使您能够混合和匹配不同类型的项目或不同的算法逻辑。<br>请参 [阅创建条件序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) ，了解更多信息。 |
-
-## Target Standard/Premium 20.8.1（2020 年 9 月 2 日）
+| [设备上决策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 设备上决策允许营销人员和产品开发人员以接近零的延迟从用户设备内跨渠道交付实验和机器学习驱动的个性化。<br>速度和性能至关重要——在客户洞察和用户满意度方面。<br>通过设备决策，您可以将A/B测试和体验定位(XT)活动类型中的关键个性化和试验说明编译为“优化对象：”JSON对象，这些对象通过CDN加载到客户设备上。 由于设备内决策与产品本机连接， [!DNL Adobe Experience Cloud] 用户 [!DNL Target] 可以快速分析并更快地体验迭代。<br>有关详细信息，请 *[参阅《Adobe TargetSDK指南](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* 》中 *的设备决策简介*。<br>**立即注册参加实时网络研讨会。** 与Adobe Target产品专家一起讨论如何在设备上将关键体验优化决策移动到本地执行，同时保持零延迟，这将为激动人心的新用例敞开大门，同时为客户改善站点性能。<ul><li>2020年11月10日</li><li>上午10:00 PT /下午12:00 CT /下午1:00 ET</li><li>[在此处注册](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 此版本包含以下增强、修复和更改：
 
-* 修复了在切换组织后加载新的“管理”页面时 [!UICONTROL 导致] 显示错误的问题。 (TGT-37730)
-* 修复了导致“管理”>“实施”页上显示错误客户端代 [!UICONTROL 码的显示问] 题。 (TGT-37849)
-* 修复了成功加载VEC后，用户有时无法在 [!UICONTROL 可视体验书写器] (VEC)中使用编辑功能的问题。 (TGT-37162)
-* 修复了即使安装了VEC Helper扩展，也无法在VEC和增强体验书写器(EEC)中加载页面的问题。 这是由于Google Chrome 80+中的更改。 下载更 [新的VEC Helper扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)。 (TGT-37893)
-* 修复了在切换组织后，有时会阻止用户从“管理”>“ [!UICONTROL 实施”页面] 下载at.js的问题。 (TGT-37668)
-* 加载时，如果用户多次单击“下载”按钮，则 [!DNL Target] 将禁用“at.js下载”按钮，以阻止发送多个请求。 (TGT-37633)
-* 修复了体验 [!UICONTROL 定位] (XT)活动中导致体验在较长时间内显示“获取结果”的问题。 (TGT-37684)
-* 改进了仅键盘用户的导航和功能。 （TGT-34479 和 TGT-34473）
-* 在UI中添加了标签以帮助用户使用辅助技术。 (TGT-34480)
-* 改进了删除活动中当前使用的移动视图端口时的错误消息。 错误消息现在显示：&quot;此视区当前与一个或多个活动关联。 您需要先从这些活动中删除视区，然后才能删除它。” (TGT-37030)
-* 在VEC中添加了支持，以允许在与页面中多个元素匹配的css选择器上单击跟踪。 (TGT-37323)
-* 修复了阻止特定用户显示活动 [!UICONTROL 列表的问] 题。 显示以下错误消息：&quot;无法获取URL建议。&quot; 在Adobe后端系统中，使用回车符返回其FirstName(FirstName/r/n)的用户发生错误。 (TGT-37330)
-* 修复了当工作区名称(在Enterprise中指 [!UICONTROL 定] )包含撇号时，用户无法显 [!UICONTROL 示活动页面]的问题。 (TGT-37709)
-* 修复了在选择优 [!UICONTROL 化和转换量度时] ，自动分配活动中出现错误消息告知用户选择报表包（即使已指定报表包）的问题。 (TGT-37689)
-* 修复了在导航到定位页面然后返回 [!UICONTROL 后] ，有时会导致“目标和设置”页 [!UICONTROL 面上的量度] 为空的问题。 (TGT-37691)
-* 修复了导致标准上次修改值不正确的 [!DNL Recommendations] 问题。 (TGT-37666)
-* 修复了导致mbox ID显示在Mbox下拉列表而不是mbox名称中的问题。 (TGT-37739)
+* 修复了阻止“Total” [!UICONTROL 行的“Average Lift] Confidence Interval [!UICONTROL ”(平均提] 升置信间隔 [!DNL Auto-Target] )和“Confidence [!UICONTROL ”（置信度）以报告显] 示的问题。 正确显示所有个体体验的度量值。 (TGT-37301)
+* 修复了从9月 [!DNL Adobe Target Premium] 15日 [!UICONTROL 下午2:30开始影响用] 户自动目标报告的问题。(PDT)10月6日上午9点25分。(PDT)。 查看受影响转化量度的报告(使用“已查[!UICONTROL 看页面]”或“已[!UICONTROL 单击mbox”选项进行配置])时，转化率会错误报告。 此时不存在已知的投放问题。 有关如何重新同步和更正报告的信息，请参 [阅已解决问题和已解](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) 决问题中 ** 的“自动 *目标报告”*。
+* 在“目录搜 [!UICONTROL 索”(Catalog Search] )表中添加了可选 [!UICONTROL 的“上次更新时间] ”(Last Updated At)列和“最 [!UICONTROL 后一次更新时间] ”(Last Updated At)筛选器。 此增强功能省时省力，因为您不必打开每个项目来查看上次更新的时间，并且您可以按上次更新项目的日期进行筛选。
+
+   ![上次在列和滤镜处更新的插图](/help/r-release-notes/assets/column-and-filter.png)
+
+* 更新旨在帮助使目标UI符 [合Web内容辅助功能](https://www.w3.org/WAI/standards-guidelines/wcag/) A级和AA成功标准(WCAG 2.0 AA)。 （TGT-34384 和 TGT-24679）
+* 改进了内容安全策略(CSP)。 (TGT-37035)
+* 介绍了一种将客户端代码指定为使用CNAME的客户参数的方法。 (TNT-38571)
+* [!DNL Adobe Experience Cloud] 文档正在移 [!DNL Experience League]至 在10月份，所有发行说明、文章、视频和教程都将从当前位置移 `docs.adobe.com` 至 [!DNL Experience League]。 此移动可确保从单一位置提供所有学习、自助、支持和社区内容。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到 [!DNL Experience League]。 我们将在切换开始时更新发行说明。
 
 ## 其他发行说明和版本详细信息
 
 | 资源 | 详细信息 |
 |--- |--- |
-| [发行说明-目标服务器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 与Adobe Target服务器端API相关的发行说明。 |
-| [发行说明-目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 与Adobe TargetNode.js SDK相关的发行说明。 |
-| [发行说明-目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 与Adobe Target的Java SDK相关的发行说明。 |
-| [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 有关Adobe Targetat.js JavaScript库各版本中更改的详细信息。 |
-| [mbox.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md) | 此页面显示对 mbox.js 的每个版本所做的更改。<br>请注意，mbox.js库不再在开发中。 所有客户都应该从 mbox.js 迁移到 at.js。 |
+| [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
-## 文档更改、以往的发行说明和 Experience Cloud 发行说明 {#section_1BC5F5208DA548E9B4344A0836E4B943}
+## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 
 除了针对每个发行的说明外，以下资源还提供更多其他信息：
 

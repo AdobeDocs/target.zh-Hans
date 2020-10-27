@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '29831'
+source-wordcount: '29838'
 ht-degree: 86%
 
 ---
@@ -23,6 +23,14 @@ ht-degree: 86%
 >请参阅 [Target 发行说明（当前版本）](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明- 2020
+
+### Target Standard/Premium 20.9.1（2020 年 9 月 30 日）
+
+此维护版本包含以下增强、修复和更改：
+
+* 改进了仅键盘用户的导航和功能。 (TGT-34487、TGT-34516、TGT-34517、TGT-34514)
+* 在UI中添加了标签以帮助用户使用辅助技术。 (TGT-34500、TGT-34501、TGT-34502、TGT-24504)
+* 改进了UI中图像和文本的文本和颜色对比度。 (TGT-34513)
 
 ### Target Standard/Premium 20.8.3（2020 年 9 月 15 日）
 
@@ -272,21 +280,17 @@ Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改�
 
 * 由于@hisham-hassan提供的开放源码贡献，增加了对代理配置的支持。
 
-有关详细信息，请参 [阅发行说明-目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。
-
 ### 目标Java SDK版本1.0.1（2019年11月11日）
 
 版本1.0.1中修复了以下问题：
 
 * 在目标请求中发送补充数据ID，即使不存在访客API cookie。
 
-有关详细信息，请参 [阅发行说明-目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。
-
 ### 目标平台（2019年10月31日）
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Java SDK | Java [!DNL Target] SDK允许您在服 [!DNL Target] 务器端部署。 此Java SDK可帮助您轻松 [!DNL Target] 与其 [!DNL Adobe Experience Cloud] 他解决方案(如 [!DNL Adobe Experience Cloud Identity Service]、 [!DNL Adobe Analytics]和)集成 [!DNL Adobe Audience Manager]。<br>Java SDK在通过我们的投放API进行集成时引入了最佳实践 [!DNL Target] 并消除了复杂性，使您的工程团队能够专注于业务逻辑。 以下是我们在最新版本中介绍的一些显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>在网页和服务器端混合集成 [!DNL Target] 时支持优化性能。 我们将引入一个名为 `serverState` 的设置，该设置由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 此方法优化页面加载性能。</li><li>支持通过Java SDK检索VEC创建的活动，新投放API使这成为可能。</li><li>开放源码，这样您的开发人员就可以为 [目标Java SDK做出贡献](https://github.com/adobe/target-java-sdk)。</li></ul>有关详细信息，请参 [阅发行说明-目标Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)。<br>通过新的目标Java SDK在Adobe技术博客——服 [务器端优化中进一步了解目标Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。 |
+| Java SDK | Java [!DNL Target] SDK允许您在服 [!DNL Target] 务器端部署。 此Java SDK可帮助您轻松 [!DNL Target] 与其 [!DNL Adobe Experience Cloud] 他解决方案(如 [!DNL Adobe Experience Cloud Identity Service]、 [!DNL Adobe Analytics]和)集成 [!DNL Adobe Audience Manager]。<br>Java SDK在通过我们的投放API进行集成时引入了最佳实践 [!DNL Target] 并消除了复杂性，使您的工程团队能够专注于业务逻辑。 以下是我们在最新版本中介绍的一些显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>在网页和服务器端混合集成 [!DNL Target] 时支持优化性能。 我们将引入一个名为 `serverState` 的设置，该设置由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 此方法优化页面加载性能。</li><li>支持通过Java SDK检索VEC创建的活动，新投放API使这成为可能。</li><li>开放源码，这样您的开发人员就可以为 [目标Java SDK做出贡献](https://github.com/adobe/target-java-sdk)。</li></ul>通过新的目标Java SDK在Adobe技术博客——服 [务器端优化中进一步了解目标Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)。 |
 
 ### Target Standard/Premium 19.10.2（2019 年 10 月 31 日） 
 
@@ -337,8 +341,8 @@ Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改�
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Node.js SDK版本1.0 | 目标Node.js SDK允许您在服务器端部署目标。<br>此Node.js SDK可帮助您将目标轻松集成到其他Experience Cloud解决方案，如Adobe Experience Cloud标识服务、Adobe Analytics和Adobe Audience Manager。<br>Node.js SDK在通过我们的投放API与Adobe Target集成时引入最佳实践并消除复杂性，使您的工程团队能够专注于业务逻辑。 以下是我们在最新版本中介绍的一些显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>支持在网页和服务器端混合集成目标时优化性能。 我们将引入一个名为 `serverState` 的设置，该设置将由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 此方法优化页面加载性能。</li><li> 支持通过Node.js SDK检索VEC创建的活动，新投放API使这成为可能。</li><li>开放源码，以便开发人员能够为Node.js SDK做出贡献。</li></ul><br>有关详细信息，请 [参阅发行说明-目标Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)。 |
-| 投放API | 生产中提供全新的投放API端点(/v1/投放)。 值得注意的功能有：<ul><li>一个端点，用于检索一个或多个mbox的体验。</li><li>通过API检索VEC创建的活动。</li><li>支持称为视图的全新对象，该对象用于单页应用程序(SPA)和移动应用程序。</li></ul><br>有关详细信息，请参 [阅发行说明-目标服务器端API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)。 |
+| Node.js SDK版本1.0 | 目标Node.js SDK允许您在服务器端部署目标。<br>此Node.js SDK可帮助您将目标轻松集成到其他Experience Cloud解决方案，如Adobe Experience Cloud标识服务、Adobe Analytics和Adobe Audience Manager。<br>Node.js SDK在通过我们的投放API与Adobe Target集成时引入最佳实践并消除复杂性，使您的工程团队能够专注于业务逻辑。 以下是我们在最新版本中介绍的一些显着功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>支持在网页和服务器端混合集成目标时优化性能。 我们将引入一个名为 `serverState` 的设置，该设置将由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 此方法优化页面加载性能。</li><li> 支持通过Node.js SDK检索VEC创建的活动，新投放API使这成为可能。</li><li>开放源码，以便开发人员能够为Node.js SDK做出贡献。</li></ul> |
+| 投放API | 生产中提供全新的投放API端点(/v1/投放)。 值得注意的功能有：<ul><li>一个端点，用于检索一个或多个mbox的体验。</li><li>通过API检索VEC创建的活动。</li><li>支持称为视图的全新对象，该对象用于单页应用程序(SPA)和移动应用程序。</li></ul> |
 
 ### Target Standard/Premium 19.9.2（2019 年 9 月 30 日）
 

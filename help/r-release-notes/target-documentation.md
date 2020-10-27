@@ -5,9 +5,9 @@ title: 目标公告
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '455'
 ht-degree: 2%
 
 ---
@@ -30,12 +30,11 @@ ht-degree: 2%
 | [Adobe Target开发商](http://developers.adobetarget.com/) | 有关Adobe Target开发人员站点的信 [!DNL Target] 息可帮助您在客户端应用程序、服务器端应用程序、移动应用程序、物联网等上实施。 您还可以将数据 [!DNL Target] 导出到第三方解决方案。 |
 | [Target 推荐 API](https://developers.adobetarget.com/api/recommendations/) | 有关Recommendations [!UICONTROL API的信息] ，这些API允许您与推荐服务器进行 [!DNL Target] 有序交互。 These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] UI. |
 | [服务器端交付 API](https://developers.adobetarget.com/api/delivery-api/) | 有关构成Adobe Target投放API的资源的信息。 |
-| [Node.js SDK](https://github.com/adobe/target-nodejs-sdk) | 有关Node.js SDK的信息，这是一个复杂的软件开发工具包，可消除管理Cookie、会话以及与解决方 [!DNL Adobe Experience Cloud] 案（如、、和）集 [!DNL Target]成的 [!DNL Adobe Analytics]复杂 [!DNL Experience Cloud Visitor ID Service]性 [!DNL Audience Manager]。 |
-| [目标Java SDK](https://github.com/adobe/target-java-sdk) | 有关Java SDK的信息，这是一个复杂的软件开发工具包，它消除了管理Cookie、会话以及与解决方 [!DNL Adobe Experience Cloud] 案(如、、和 [!DNL Target])集 [!DNL Adobe Analytics]成的复杂 [!DNL Experience Cloud Visitor ID Service]性 [!DNL Adobe Audience Manager]。 |
+| [目标服务器端SDK](https://adobetarget-sdks.gitbook.io/docs/) | 介绍如何使用SDK [!DNL Target] 部署服务器端。 |
 | [目标Adobe.IO文档](http://developers.adobetarget.com/api/#introduction) | 有关Adobe Target的管理员和用户档案REST API的信息，这些API使用Adobe.IO集成来管理活动、受众、优惠、属性、报告、mbox、环境和用户档案。 |
 | [Adobe Experience Platform移动SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | 有关在移动应用 [!DNL Target] 程序上实施的信息。 |
 
-除了上述资源之外，请访 [问Adobe Experience League目标社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)，您可以：
+除了上述资源，您还可以访 [问Adobe Experience League目标社](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)区，在那里您可以：
 
 * Learn more about what [!DNL Target] has to offer
 * Connect with your peers and [!DNL Adobe] experts

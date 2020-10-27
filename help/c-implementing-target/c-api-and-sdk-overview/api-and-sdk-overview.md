@@ -6,10 +6,10 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 11%
+source-wordcount: '371'
+ht-degree: 21%
 
 ---
 
@@ -37,35 +37,17 @@ Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/deliver
 
 通过 [!DNL Target] 投放API，您可以：
 
-* 跨Web交付体验，包括SPA、移动渠道以及基于非浏览器的IoT设备，如网络电视、报亭或店内数字屏幕。
+* 跨网络提供体验，包括SPA、移动渠道以及基于非浏览器的IoT设备，如网络电视、报亭或店内数字屏幕。
 * 从任何可进行HTTP/s调用的服务器端平台或应用程序提供体验。
 * 向访客提供一致、个性化的体验，无论访客使用何种渠道或设备与您的业务互动。
 * 在服务器上的会话中缓存访客体验，以避免多个API调用，从而获得更好的性能。
 * 与诸如 [!DNL Adobe Experience Cloud] 、(AAM [!DNL Adobe Analytics])和服 [!DNL Adobe Audience Manager] 务器端的 [!DNL Experience Cloud ID Service] 产品无缝集成。
 
-## Node.js SDK
+## 服务器端SDK
 
-链接： [Node.js SDK](https://github.com/adobe/target-nodejs-sdk)
+链接： [Adobe TargetSDK](https://adobetarget-sdks.gitbook.io/docs/)
 
-Node.js SDK是一款精良的软件开发工具包，可消除管理Cookie、会话以及与产品（如、和） [!DNL Experience Cloud] 集成的复杂 [!DNL Analytics]性 [!DNL Experience Cloud Visitor ID Service][!DNL Audience Manager]问题。 Node.js SDK在后台使用 `/rest/v1/delivery` API。 以下是Node.js SDK支持的一些值得注意的功能：
-
-* **支持预回迁和通知，允许您通过缓存优化性能：** 您可以使用Node.js SDK检索体验并在本地将其缓存到Node.js服务器上，以最大限度地减少对应用程序的服务器调用 [!DNL Target] 并优化应用程序性能。
-* **能检索VEC创建的活动:** 在服务器端检索VEC创建的活动。 包含VEC创建的活动的响应包含选择器，这些选择器可用于仅预隐藏需要个性化的页面部分。 这有助于优化您页面的“第 [一个内容绘制](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)”指标，这是您的企业在Google PageRank系统中获得高分的重要 [KPI](https://en.wikipedia.org/wiki/PageRank) 。
-
-## 目标Java SDK
-
-链接： [目标Java SDK](https://github.com/adobe/target-java-sdk)
-
-Java SDK是一款精良的软件开发工具包，它消除了管理Cookie、会话以及与解决方 [!DNL Adobe Experience Cloud] 案（如、和）集 [!DNL Adobe Analytics]成的 [!DNL Experience Cloud Visitor ID Service]复杂性 [!DNL Adobe Audience Manager]。 在幕后，Java SDK使用 `/rest/v1/delivery` API。 以下是Java SDK支持的一些值得注意的功能：
-
-* **支持预回迁和通知，允许您通过缓存优化性能**:您可以使用JavaSDK检索体验并在本地将它们缓存到Java服务器上，以最大限度地减少对应用程序性能的服 [!DNL Target] 务器调用并优化它们。
-* **能检索VEC创建的活动**:在服务器端检索VEC创建的活动。 包含VEC创建的活动的响应包含选择器，这些选择器可用于仅预隐藏需要个性化的页面部分。 这有助于优化您页面的“第 [一个内容绘制](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) ”指标，这是您的企业在Google PageRank系统中获得高分的重要 [KPI](https://en.wikipedia.org/wiki/PageRank) 。
-
-## Adobe Target开发商
-
-链接： [Adobe Target开发商](http://developers.adobetarget.com/)
-
-“Adobe Target开发人员”站点帮 [!DNL Target] 助您在客户端应用程序、服务器端应用程序、移动应用程序、物联网等上进行实施。 您还可以将数据 [!DNL Target] 导出到第三方解决方案。
+服务 [!DNL Adobe Target] 器端SDK文档门户可帮助您在服 [!DNL Target] 务器上以您选择的语言实施。
 
 ## Target 推荐 API
 

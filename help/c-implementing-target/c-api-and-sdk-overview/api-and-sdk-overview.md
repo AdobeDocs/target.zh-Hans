@@ -1,22 +1,22 @@
 ---
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-description: 有关Adobe Target服务器端投放API、Node.js SDK和目标RecommendationsAPI的信息。
+description: 有关Adobe Target服务器端投放API、SDK和目标RecommendationsAPI的信息。
 title: 有关Adobe Target服务器端投放API、Node.js SDK和目标RecommendationsAPI的信息。
 feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 21%
+source-wordcount: '388'
+ht-degree: 20%
 
 ---
 
 
 # 服务器端：实施 Target{#server-side-implement-target}
 
-有关服 [!DNL Adobe Target] 务器端投放API、Node.js SDK和API的 [!DNL Target Recommendations] 信息。
+有关服 [!DNL Adobe Target] 务器端投放API、SDK和API的 [!DNL Target Recommendations] 信息。
 
 以下过程会在 [!DNL Target] 的服务器端实施中发生：
 
@@ -26,6 +26,10 @@ ht-degree: 21%
 1. 您的服务器决定要向客户端设备提供哪些体验以供其呈现。
 
 无需在浏览器中显示体验。 该体验可以通过电子邮件或自助终端、语音助手或其他非视觉体验或基于浏览器的设备显示。 由于您的服务器位于客户端和 [!DNL Target] 之间，因此如果您需要更好地控制体验并提高其安全性，或者您希望在服务器上运行复杂的后端进程，则此类实施是最佳选择。
+
+>[!NOTE]
+>
+>首次访客只能在客户端进行初始化。 首次访客无 *法* 在服务器端初始化。
 
 以下各节提供有关各种API和NodeJS SDK的更多信息：
 

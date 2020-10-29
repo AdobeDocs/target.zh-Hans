@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: f782d5498c3aa3bc436cb6cfa2a4eb2f96f37b3e
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 78%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 | 键值 | 类型 | 必需 | 描述 |
 |--- |--- |--- |--- |
-| mbox | 字符串 | 是 | Mbox 名称 |
+| mbox | 字符串 | 是 | Mbox名&#x200B;<br>**称注**:如果触发的trackEvent()调用的mbox名称已在页面上触发，则将重置trackEvent()的SDID，并且该调用将与页面上的目标调用不同。 但是，使用不同mbox名称触发trackEvent()调用会使trackEvent()调用的SDID与页面上的页面加载请求/triggerView()调用保持一致。 |
 | selector | 字符串 | 否 | 用于查找 HTML 元素的 CSS 选择器。事件监听程序将附加到找到的元素。 |
 | type | 字符串 | 否 | 表示已注册的事件类型。它既可以是 HTML 已知的事件，如：click、mousedown 等，也可以是自定义 HTML 事件。 |
 | preventDefault | 布尔值 | 否 | 表示是否在事件监听程序回调中使用 `event.preventDefault()`。默认为 false。<br>**注意**：仅支持 `form[submit] and `a[click]`。由于复杂性和要支持的方案数量太多，因此其他方案不受支持。 |

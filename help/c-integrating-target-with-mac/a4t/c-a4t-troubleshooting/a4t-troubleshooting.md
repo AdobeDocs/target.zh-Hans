@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 90%
+source-wordcount: '787'
+ht-degree: 84%
 
 ---
 
@@ -73,9 +73,13 @@ A4T 活动要求指定 Analytics 跟踪服务器。请参阅[使用 Analytics �
 
 ## 未显示我需要的报表包。 {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-Target Standard/Premium 中显示的报表包列表列出的是已将 Analytics 配置为 Target 报表源的报表包。因此，这意味着您可能看不到自己拥有的所有报表包。如果您未看到要查找的报表包，您应该联系客户关怀团队，以将其启用。
+Target Standard/Premium 中显示的报表包列表列出的是已将 Analytics 配置为 Target 报表源的报表包。因此，这意味着您可能看不到自己拥有的所有报表包。
 
-## 报表中显示的数据比预期的要少。 {#section_75002584FA63456D8D9086172925DD8D}
+此外，如果您使用多个报告源，则报表包也必须在目标中设置的默认报告源中。 否则，将不显示报表包。
+
+如果您仍未看到要查找的报表包，应联系客户服务部门以启用它。
+
+## 报表中显示的数据比预期的要少。{#section_75002584FA63456D8D9086172925DD8D}
 
 请检查您的实施，特别是要检查访客符合体验条件的页面，并确保 [!DNL Target] 和 [!DNL Analytics] 调用中的补充数据 ID 相匹配。
 

@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
+source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 84%
+source-wordcount: '781'
+ht-degree: 80%
 
 ---
 
@@ -71,13 +71,13 @@ A4T 活动要求指定 Analytics 跟踪服务器。请参阅[使用 Analytics �
 
 虽然这些量度为负值，但是 Target 报表中显示的提升度似乎表示这些量度为正值。例如，虽然您希望降低跳出率，但是较高的跳出率会显示为具有最高提升度的入选者。根据报表做出决策时，请留心这些量度及类似量度，并确定您是希望降低还是提高这些量度的数值。
 
-## 未显示我需要的报表包。 {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## The report suite I need does not display. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-Target Standard/Premium 中显示的报表包列表列出的是已将 Analytics 配置为 Target 报表源的报表包。因此，这意味着您可能看不到自己拥有的所有报表包。
+The list of report suites that appears in [!DNL Target Standard/Premium] is the list of report suites that have been configured for [!DNL Analytics] as the reporting source for [!DNL Target] (A4T). 因此，这意味着您可能看不到自己拥有的所有报表包。
 
-此外，如果您使用多个报告源，则报表包也必须在目标中设置的默认报告源中。 否则，将不显示报表包。
+此外，如果您使用多个报告源，则报表包也必须位于中设置的默认报告源 [!DNL Target] 中；否则，将不显示报表包。
 
-如果您仍未看到要查找的报表包，应联系客户服务部门以启用它。
+If you still don&#39;t see the report suite you are looking for, contact [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to get it enabled.
 
 ## 报表中显示的数据比预期的要少。{#section_75002584FA63456D8D9086172925DD8D}
 

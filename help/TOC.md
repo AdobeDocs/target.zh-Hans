@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1565'
 ht-degree: 86%
 
 ---
@@ -218,7 +218,10 @@ ht-degree: 86%
       + [创建自动分配活动](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [解释自动分配报告](c-activities/automated-traffic-allocation/determine-winner.md)
       + [与手动测试相比，“自动分配”功能可以提高测试结果和收入](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
-   + [自动定位](c-activities/auto-target-to-optimize.md)
+   + 自动定位 {#auto-target}
+      + [自动目标概述](/help/c-activities/auto-target/auto-target-to-optimize.md)
+      + [创建自动目标活动](/help/c-activities/auto-target/create-auto-target.md)
+      + [自动目标疑难解答和常见问题解答](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
    + 自动个性化 {#automated-personalization}
       + [自动个性化概述](c-activities/t-automated-personalization/automated-personalization.md)
       + [随机林算法](c-activities/t-automated-personalization/algo-random-forest.md)

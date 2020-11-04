@@ -6,7 +6,7 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 17%
@@ -77,7 +77,7 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 此集成允许您：
 
 * 使 [用自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)(Auto-Allocate)的多武装强盗能力，推动交通畅通，赢得体验
-* 使 [用自动目标](/help/c-activities/auto-target-to-optimize.md)(Auto-)的集成机器学习算法，根据每个访客的用户档案、行为和上下文为其选择最佳体验，同时使用目标 [!DNL Adobe Analytics] 指标 [!DNL Adobe Analytics]和丰富的报告和分析功能。
+* 使 [用自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)(Auto-)的集成机器学习算法，根据每个访客的用户档案、行为和上下文为其选择最佳体验，同时使用目标 [!DNL Adobe Analytics] 指标 [!DNL Adobe Analytics]和丰富的报告和分析功能。
 
 确保已实 [施A4T以用于A/B测试和体验定位活动](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 如果您正在 `analyticsLogging = client_side`使用，则还需要将值 `sessionId` 传递给 [!DNL Analytics]。 有关详细信息，请 [参阅《Adobe TargetSDK指南》中的](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) “目标分析( *A4T)* ”报告。
 

@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '29838'
 ht-degree: 86%
@@ -1085,7 +1085,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>自动个性化 (AP) 活动和自动定位活动 </p> </td> 
-   <td colname="col2"> <p>在 UI 和帮助中提供了更多指导信息，以帮助您在自动个性化 (AP) 活动和自动定位活动中更有效地分配流量百分比。 </p> <p>有关更多信息，请参阅<a href="../c-activities/auto-target-to-optimize.md#section_AB3656F71D2D4C67A55A24B38092958F" format="dita" scope="local">确定流量分配</a>和<a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">创建自动个性化活动</a>。 </p> </td> 
+   <td colname="col2"> <p>在 UI 和帮助中提供了更多指导信息，以帮助您在自动个性化 (AP) 活动和自动定位活动中更有效地分配流量百分比。 </p> <p>有关更多信息，请参阅<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">确定流量分配</a>和<a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">创建自动个性化活动</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>推荐：自定义标准的包含规则、收藏集和排除项 </p> </td> 
@@ -1311,8 +1311,8 @@ target/r_release-notes-2018.xml
    <td colname="col1" class="premium"> <p>自动定位 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6F89BD36373E47C4B3A6F8584D431D82"> 
-      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>自动定位活动现在支持区段级别的报表。(TGT-22777) </p> <p>有关更多信息，请参阅<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </li> 
-      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>您可以更改自动定位活动的控制百分比。(TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>有关更多信息，请参阅<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </li> 
+      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>自动定位活动现在支持区段级别的报表。(TGT-22777) </p> <p>有关更多信息，请参阅<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </li> 
+      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>您可以更改自动定位活动的控制百分比。(TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>有关更多信息，请参阅<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1489,7 +1489,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>QA 模式 </p> </td> 
-   <td colname="col2"> <p>通过永不变更的预览链接、可选的受众定位以及从实时活动数据中分段的 QA 报表，执行简单的活动 QA。 </p> <p>有关更多信息，请参阅<a href="../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local">活动 QA</a>。 </p> </td> 
+   <td colname="col2"> <p>通过永不变更的预览链接、可选的受众定位以及从实时活动数据中分段的 QA 报表，执行简单的活动 QA。 </p> <p>有关更多信息，请参阅<a href="/help/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">活动 QA</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1553,7 +1553,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>自动定位 </p> </td> 
-   <td colname="col2"> <p>现在，所有 Target Premium 客户均可使用自动定位功能。 </p> <p>自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行识别，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。 </p> <p>在使用三步引导式工作流创建 A/B 活动时，您可以选择使用“<span class="wintitle">自动定位以提供个性化体验</span>”选项来分配流量： </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>有关更多信息，请参阅<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </td> 
+   <td colname="col2"> <p>现在，所有 Target Premium 客户均可使用自动定位功能。 </p> <p>自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行识别，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。 </p> <p>在使用三步引导式工作流创建 A/B 活动时，您可以选择使用“<span class="wintitle">自动定位以提供个性化体验</span>”选项来分配流量： </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>有关更多信息，请参阅<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1726,7 +1726,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 报表 </td> 
-   <td colname="col2"> <p><b>查看多个目标/量度：</b>现在，您可以在 A/B 活动和体验定位 (XT) 活动中查看多个量度，但<a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local">自动分配</a>和<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自动定位</a> A/B 活动除外。 </p> <p>有关更多信息，请参阅<a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">在报表中查看多个量度</a>。 </p> </td> 
+   <td colname="col2"> <p><b>查看多个目标/量度：</b>现在，您可以在 A/B 活动和体验定位 (XT) 活动中查看多个量度，但<a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local">自动分配</a>和<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">自动定位</a> A/B 活动除外。 </p> <p>有关更多信息，请参阅<a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">在报表中查看多个量度</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1986,7 +1986,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>抢先版</b> </p> A/B 活动中的自动定位 </td> 
-   <td colname="col2"> <p> <p>注意：在此版本中，为一些客户启用了“抢先版”功能，以便进行测试和获取反馈。 </p> </p> <p>自动定位 A/B 测试中的体验，以便为特定访客提供适当的体验。 </p> <p>有关更多信息，请参阅<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </td> 
+   <td colname="col2"> <p> <p>注意：在此版本中，为一些客户启用了“抢先版”功能，以便进行测试和获取反馈。 </p> </p> <p>自动定位 A/B 测试中的体验，以便为特定访客提供适当的体验。 </p> <p>有关更多信息，请参阅<a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2517,7 +2517,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
 
 | 功能 | 描述 |
 |---|---|
-| 根据百分比进行活动准入资格定位。 | 现在，您可以将 [A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) 和[多变量](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)活动的准入资格限制为访客或受众成员的百分比。例如，您可以将准入资格限制为 50% 的访客或 45% 的“加州”受众。 |
+| 根据百分比进行活动准入资格定位。 | 现在，您可以将 [A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 和[多变量](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)活动的准入资格限制为访客或受众成员的百分比。例如，您可以将准入资格限制为 50% 的访客或 45% 的“加州”受众。 |
 | 自动分配中支持“收入”、“订单”和“参与度” | 现在，您可以在选定自动分配的情况下，选择“收入”(RPV)、“订单”和“参与度”量度作为 A/B 活动的目标。以前仅支持转化量度。请参阅[自动流量分配](../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。 |
 | 按来源筛选 | 现在，您可以按活动创建的来源筛选“活动”列表。选项包括 Adobe Target 和 Adobe Experience Manager。请参阅[活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。 |
 | “自动个性化”绩效增强功能 | 重新设计了“自动个性化”，以便提高使用大量选件/位置组合时的绩效。 |
@@ -2583,7 +2583,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 下载成功量度报表 </p> </td> 
-   <td colname="col2"> <p> 下载列出所有成功量度的单个 csv 文件，而非只包含最终活动目标的报表。 </p> <p>请参阅<a href="../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6" format="dita" scope="local">报表</a>。 </p> </td> 
+   <td colname="col2"> <p> 下载列出所有成功量度的单个 csv 文件，而非只包含最终活动目标的报表。 </p> <p>请参阅<a href="/help/c-reports/reports.md" format="dita" scope="local">报表</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3052,7 +3052,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> A/B 测试和体验定位：三步式活动创建流程 </p> </td> 
-   <td colname="col2"> <p> 通过三个步骤而不是四个步骤来<a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local">创建 A/B</a> 和<a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local">体验定位</a>活动。此更改使创建这些活动的过程与创建其他活动类型的工作流（例如自动个性化和多变量测试）更相似。 </p> </td> 
+   <td colname="col2"> <p> 通过三个步骤而不是四个步骤来<a href="/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md" format="dita" scope="local">创建 A/B</a> 和<a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local">体验定位</a>活动。此更改使创建这些活动的过程与创建其他活动类型的工作流（例如自动个性化和多变量测试）更相似。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analytics 作为报表源适用于大多数活动类型。 </p> </td> 

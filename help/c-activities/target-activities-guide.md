@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 98%
@@ -28,7 +28,7 @@ ht-degree: 98%
 |--- |--- |
 | ![图标](/help/c-activities/assets/icon_ab.png)<br/>手动 A/B 测试 | 比较两个或多个体验，以查看在预先指定的一段测试时间内，哪个体验最有利于提高转化。有关更多信息，请参阅 [A/B 测试](/help/c-activities/t-test-ab/test-ab.md)。 |
 | ![自动分配图标](/help/c-activities/assets/icon_auto_allocate.png)<br/>自动分配 | 从两个或多个体验中确定入选者，然后将流量重定向到该入选者，随着测试的运行和学习而提高转化。有关更多信息，请参阅[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| ![AT 图标](/help/c-activities/assets/icon_auto_target.png)<br/>自动定位 | 采用先进的机器学习技术，确定多个高性能、由营销人员定义的体验，然后根据访客各自的客户配置文件和过去类似访客的行为，为其提供量身定制的体验，从而实现内容的个性化并推动转化。有关更多信息，请参阅[自动定位以提供个性化体验](/help/c-activities/auto-target-to-optimize.md)。 |
+| ![AT 图标](/help/c-activities/assets/icon_auto_target.png)<br/>自动定位 | 采用先进的机器学习技术，确定多个高性能、由营销人员定义的体验，然后根据访客各自的客户配置文件和过去类似访客的行为，为其提供量身定制的体验，从而实现内容的个性化并推动转化。有关更多信息，请参阅[自动定位以提供个性化体验](/help/c-activities/auto-target/auto-target-to-optimize.md)。 |
 | ![AP 图标](/help/c-activities/assets/icon_ap.png)<br/>自动个性化 (AP) | 采用先进的机器学习技术，结合特定选件或消息，然后根据访客各自的客户配置文件将不同的选件变体与其进行匹配，从而实现内容的个性化并推动转化。有关更多信息，请参阅[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md)。 |
 | ![MVT 图标](/help/c-activities/assets/icon_mvt.png)<br/>多变量测试 (MVT) | 比较页面上元素之间的选件组合，看哪个组合对于特定受众表现最佳。此外，在预先指定的整个测试期间，确定该页面的哪个元素最有利于提高转化。有关更多信息，请参阅[多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
 | ![XT 图标](/help/c-activities/assets/icon_xt.png)<br/>体验定位 (XT) | 根据营销人员定义的一套规则和标准向特定受众交付内容。有关更多信息，请参阅[体验定位](/help/c-activities/t-experience-target/experience-target.md)。 |

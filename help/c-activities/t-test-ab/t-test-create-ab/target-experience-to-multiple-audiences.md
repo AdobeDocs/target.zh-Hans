@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 在这种情况下，您需要设置特定于地理位置的体验版本，以便您能够对已进行地理定位的体验和未进行地理定位的控制体验进行对比测试。
 
-1. [创建 A/B 活动](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)（按常规步骤操作）。
+1. [创建 A/B 活动](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)（按常规步骤操作）。
 
    配置具有多个版本的体验时，请按照以下步骤所示，为每个版本选择相应的受众。
 

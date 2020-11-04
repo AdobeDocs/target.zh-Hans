@@ -5,7 +5,7 @@ title: 自动个性化常见问题解答
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1962'
 ht-degree: 85%
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## 我可以指定特定体验作为控制吗？
 
-在创建[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) 或[自动定位](/help/c-activities/auto-target-to-optimize.md) (AT) 活动时，您可以选择要用作控制的体验。
+在创建[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) 或[自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) 活动时，您可以选择要用作控制的体验。
 
 通过此功能，您可以根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据该体验的控制流量评估个性化流量的性能报表。
 
@@ -31,7 +31,7 @@ ht-degree: 85%
 
 ## 设置自动个性化活动的最佳实践是什么？ {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* 如果您要对流量较低的页面进行个性化，或者要对您正在个性化的体验进行结构上的更改，请考虑使用自动定位来替换自动个性化。请参阅 [自动定位](/help/c-activities/auto-target-to-optimize.md).
+* 如果您要对流量较低的页面进行个性化，或者要对您正在个性化的体验进行结构上的更改，请考虑使用自动定位来替换自动个性化。请参阅 [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md).
 * 考虑在您计划于自动个性化活动中使用的选件和位置之间完成 A/B 活动，以确保这些位置和选件会对优化目标产生影响。如果 A/B 活动未能显示出显著差异，则自动个性化可能也无法产生提升。
 
    * 如果 A/B...N 测试没有显示出各体验之间具有统计意义的显著差异，那么有可能您考虑的选件彼此之间差异不大、您选择的位置不会影响成功量度，或者优化目标在转化漏斗中的位置太远而不受您所选选件的影响。
@@ -79,7 +79,7 @@ AP 活动产生提升需要四个因素：
 
 ### 自动个性化如何分配我的活动流量？{#section_4369364F77804E0D9B78BEE551DA5659}
 
-自动个性化会根据为每个模型构建的最新[随机林](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)模型，将访客路由到具有最高预测成功量度的体验。这种预测是基于访客的具体信息和访问环境。
+自动个性化会根据为每个模型构建的最新[随机林](/help/c-activities/t-automated-personalization/algo-random-forest.md)模型，将访客路由到具有最高预测成功量度的体验。这种预测是基于访客的具体信息和访问环境。
 
 例如，假设 AP 活动有两个位置，每个位置包含两个选件。在第一个位置中，对于某位特定访客，选件 A 的预测转化率为 3%，而选件 B 的预测转化率为 1%。在第二个位置中，对于同一访客，选件 C 的预测转化率为 2%，而选件 D 的预测转化率为 5%。因此，自动个性化将为该访客提供选件 A 和选件 D 的体验。
 

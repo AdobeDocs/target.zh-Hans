@@ -5,7 +5,7 @@ title: 报表设置
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 58a3f898ba024ac838273561c14d6caa46b8651b
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 68%
@@ -265,7 +265,7 @@ You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then 
 
 在使用“计数方法”选项时，请考虑以下注意事项：
 
-* For [Auto-Target activities](/help/c-activities/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. 自动定位是唯一一种无法按访客绘制图形的活动类型。
+* For [Auto-Target activities](/help/c-activities/auto-target/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. 自动定位是唯一一种无法按访客绘制图形的活动类型。
 * For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
 
 ## 处理在活动中具有16个以上体验的图形

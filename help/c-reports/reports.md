@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 64%
@@ -26,7 +26,7 @@ Reports provide information about the progress and results of your [!DNL Adobe T
 
    例如，您可以从“[!UICONTROL 类型]”下拉列表中选择“[!UICONTROL A/B 测试]”和“[!UICONTROL 体验定位]”，并从“[!UICONTROL 状态]”下拉列表中选择“[!UICONTROL 实时]”，以仅显示处于活跃状态的 A/B 测试活动和体验定位活动。
 
-   下图显示了“[!UICONTROL 类型]”下拉列表，其中选定了两个类型： [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting]. 请注意，默认情况下会选择三种类型的 A/B 测试（手动、[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和[自动定位](/help/c-activities/auto-target-to-optimize.md)）。您可以根据需要取消选择一种或多种类型。
+   下图显示了“[!UICONTROL 类型]”下拉列表，其中选定了两个类型： [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting]. 请注意，默认情况下会选择三种类型的 A/B 测试（手动、[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和[自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md)）。您可以根据需要取消选择一种或多种类型。
 
    ![按类型筛选报表](/help/c-reports/assets/report_filters-new.png)
 
@@ -61,7 +61,7 @@ Reports provide information about the progress and results of your [!DNL Adobe T
 
    | 报表类型 | 查看 |
    | --- | --- |
-   | [自动定位](/help/c-activities/auto-target-to-optimize.md) | 单击“自 **[!UICONTROL 动化区段]** ”或 **[!UICONTROL “重要属性]** ”图标。<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) shows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 此报表可显示影响模型的排名靠前的属性及其相对重要性。</li></ul> |
+   | [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md) | 单击“自 **[!UICONTROL 动化区段]** ”或 **[!UICONTROL “重要属性]** ”图标。<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) shows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 此报表可显示影响模型的排名靠前的属性及其相对重要性。</li></ul> |
    | [自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) | 除了“Automated Personalization摘 [要”报告](/help/c-reports/reports-ap.md)，您还可以单击“自动 **[!UICONTROL 区段”或“重]** 要属性”图标 **** 。<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 此报表可显示影响模型的排名靠前的属性及其相对重要性。</li></ul> |
    | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | 除了“体验 [效果”报告](/help/c-reports/experience-performance-report.md)，您还可以单击“ [位置贡献](/help/c-reports/location-contribution-report.md) ”图标，以切换报告以按位置显示贡献。 |
 
@@ -73,7 +73,7 @@ Reports provide information about the progress and results of your [!DNL Adobe T
 |--- |--- |
 | [A/B 测试](/help/c-activities/t-test-ab/test-ab.md) | 要了解 [!DNL Target] 中使用的提升度和置信度以及统计方法，请参阅[计划 A/B 测试](/help/c-activities/t-test-ab/sample-size-determination.md)。 |
 | [解释自动分配报告](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 通过检查UI中 [!UICONTROL 的重要指标] （包括提升和置信度）来解释自动分配A/B活动的 [!DNL Target] 结果。 |
-| [自动定位](/help/c-activities/auto-target-to-optimize.md) (AT) | 有关 AT 活动的[!UICONTROL 摘要]报表的信息。有关更多信息，请参阅[自动定位摘要报告](/help/c-reports/auto-target-summary-report.md)。<br>有关 AT 和 AP 活动的以下两个[!UICONTROL 个性化分析]报表的信息：[!UICONTROL 自动化区段]报表和[!UICONTROL 重要属性]报表。有关更多信息，请参阅[个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
+| [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) | 有关 AT 活动的[!UICONTROL 摘要]报表的信息。有关更多信息，请参阅[自动定位摘要报告](/help/c-reports/auto-target-summary-report.md)。<br>有关 AT 和 AP 活动的以下两个[!UICONTROL 个性化分析]报表的信息：[!UICONTROL 自动化区段]报表和[!UICONTROL 重要属性]报表。有关更多信息，请参阅[个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) | 有关 AP 活动的以下两个[!UICONTROL 自动个性化摘要]报表的信息：[!UICONTROL 活动级别]报表和[!UICONTROL 选件级别]报表。有关更多信息，请参阅[自动个性化摘要报表](/help/c-reports/reports-ap.md)。<br>有关 AT 和 AP 活动的以下两个[!UICONTROL 个性化分析]报表的信息：[!UICONTROL 自动化区段]报表和[!UICONTROL 重要属性]报表。有关更多信息，请参阅[个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | 有关 MVT 活动的以下两个报表的信息：[!UICONTROL 体验性能]报表和[!UICONTROL 位置贡献]报表。有关更多信息，请参阅[体验性能报表](/help/c-reports/experience-performance-report.md) (MVT) 和[位置贡献报表](/help/c-reports/location-contribution-report.md) (MVT)。 |
 | [将 Adobe Analytics 作为 Adobe Target 报表源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | 有关使用 [!DNL Adobe Analytics] 作为 [!DNL Target] 报表源的信息。通过 A4T，您可以访问 [!DNL Target] 活动的 [!DNL Analytics] 报表。有关更多信息，请参阅 [Analytics for Target (A4T) 报表](/help/c-reports/analytics-for-target-a4t-reporting.md)。 |

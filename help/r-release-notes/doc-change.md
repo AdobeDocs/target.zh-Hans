@@ -6,7 +6,7 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '2913'
 ht-degree: 29%
@@ -42,7 +42,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关定于2020年11月10日召开的以下实时网络研讨会的信息：<ul><li>利用Adobe Target提供的设备上决策，在零延迟时进行个性化和测试</li></ul> |
 | 10月12日 | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 更新 [检索授权令牌以与调试工具一起使用](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) ，以指示必须生成身份验证令牌的权限级别。 |
 |  | [配置文件 API 设置](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | 更新了主题以指示必须生成身份验证令牌的权限级别。 |
-|  | [自动定位](/help/c-activities/auto-target-to-optimize.md) | 使用自动目标增加了真实的成功案例。 |
+|  | [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md) | 使用自动目标增加了真实的成功案例。 |
 |  | [在相似页面上包含相同体验](/help/c-experiences/c-visual-experience-composer/temtest.md) | 添加了一节来说明如何在整个域中呈现相同活动。 |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题：<ul><li>自动分配和自动目标活动的目标(A4T)分析指标</li></ul> |
 | 10月8日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | 添加了以下已解决的问题：<ul><li>[自动目标报告](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>将以下问题从“已知问题”部分移至“已解决问题”部分：<ul><li>[报表](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
@@ -95,7 +95,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 8月10日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 添加了文本，表明使用CNAME时Cookie头的大小将增加。 |
 |  | [将目标与Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | 新主题。 |
 |  | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了视图以下归档网络研讨会的链接：“汇丰如何利用Adobe Target和人工智能大规模快速优化和提供个性化。” |
-| 8月6日 | [自动定位](/help/c-activities/auto-target-to-optimize.md#how-long) | 更新了以下常见问题解答的文本：“我应该等待多久才能建好模型？” |
+| 8月6日 | [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md#how-long) | 更新了以下常见问题解答的文本：“我应该等待多久才能建好模型？” |
 |  | [分类 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 已更新目标类型的文本。 |
 | 8月5日 | [删除 Target Cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | 更新了整个主题。 |
 | 8月4日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关“使用人工智能和Adobe Target的个性化战略”网络研讨会的注册信息。 |
@@ -106,7 +106,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 增加了关于即将在8月5日举行的Adobe Target社区咖啡休息会的登记信息。 |
 | 28 年 7 月 | [个性化洞察报](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)告、<br>[自动细分报](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)告和<br>重 [要属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 更新了主题顶部注释中的文本。 |
 |  | [Auto-Allocate（自动分配）](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 添加了以下常见问题解答：<ul><li>在运行自动分配活动时，是否可以使用重置报告数据选项？</li><li>“自动分配”构建模型如何与环境相关？</li></ul> |
-|  | [自动定位](/help/c-activities/auto-target-to-optimize.md) | 添加了以下常见问题解答：<ul><li>在运行自动目标活动时，是否可以使用“重置报告数据”选项？</li></ul>“注意事项”部分中的更新文本。 |
+|  | [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md) | 添加了以下常见问题解答：<ul><li>在运行自动目标活动时，是否可以使用“重置报告数据”选项？</li></ul>“注意事项”部分中的更新文本。 |
 |  | [Automated Personalization常见问题解答](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 添加了以下常见问题解答：<ul><li>运行Automated Personalization活动时，我是否可以使用“重置报告数据”选项？</li><li>Automated Personalization如何打造环境模式？</li></ul> |
 |  | [支持的浏览器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 添加了有关Internet Explorer和未知元素的信息。 |
 |  | [客户属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 在我们当前的设计中，可能不会载入少量数据（大型生产批次中高达0.1%）。 |
@@ -122,7 +122,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 17 年 7 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 增加了有关7月22日Adobe Target咖啡假期的信息。 |
 | 15 年 7 月 | [与手动测试相比，“自动分配”功能可以提高测试结果和收入](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | 新主题。 |
-| 14 年 7 月 | [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、自<br>[动目标](/help/c-activities/auto-target-to-optimize.md)、自<br><br>[动个性化常见问题解答](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 添加了常见问题解答，建议您不要在活动中途更改目标指标。 |
+| 14 年 7 月 | [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、自<br>[动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)、自<br><br>[动个性化常见问题解答](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 添加了常见问题解答，建议您不要在活动中途更改目标指标。 |
 | 7 年 7 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 增加了有关7月8日Adobe Target咖啡休息会的信息。 |
 | 6月25日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 20.6.1版本（2020年7月）的信息。 |
 |  | [目标文档概述](/help/r-release-notes/target-documentation.md) | 详细介绍不同文档来源的新 [!DNL Target] 主题。 |

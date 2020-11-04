@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 97%
@@ -30,7 +30,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 |--- |--- |
 | [A/B 测试](/help/c-activities/t-test-ab/test-ab.md) | A/B 测试可比较两个或更多版本的网站内容，以查看在预先指定的测试期间，哪个版本最能提高转化。<br>**注意：**&#x200B;现在，您可以[在 A/B 测试活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
 | [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。<br>**注意：**&#x200B;现在，您可以[在自动分配活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
-| [自动定位](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行识别，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。<br>**注意：**&#x200B;现在，您可以[在自动定位活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
+| [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行识别，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。<br>**注意：**&#x200B;现在，您可以[在自动定位活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
 | [使用 Analytics 数据](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | 您可以将活动配置为使用 [!DNL Adobe Analytics] 作为报表源。此活动类型要求您将 [!DNL Adobe Experience Cloud] 帐户与 [!DNL Analytics] 和 [!DNL Target] 均关联。 |
 | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 多变量测试 (MVT) 可通过比较页面上各元素中的选件组合，来确定哪个组合对特定受众的效果最佳，以及哪个元素对活动成功的影响最大。 |
 | [体验定位](/help/c-activities/t-experience-target/experience-target.md) | 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。<br>**注意：**&#x200B;现在，您可以[在体验定位活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
@@ -108,7 +108,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 
 | 筛选器类别 | 过滤器 |
 |--- |--- |
-| 类型 | A/B 测试：[手动](/help/c-activities/t-test-ab/test-ab.md)、[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和[自动定位](/help/c-activities/auto-target-to-optimize.md)。<br>[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[体验定位](/help/c-activities/t-experience-target/experience-target.md)<br>[多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[推荐](/help/c-recommendations/recommendations.md) |
+| 类型 | A/B 测试：[手动](/help/c-activities/t-test-ab/test-ab.md)、[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和[自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md)。<br>[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[体验定位](/help/c-activities/t-experience-target/experience-target.md)<br>[多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[推荐](/help/c-recommendations/recommendations.md) |
 | 状态 | 实时<br>草稿<br>已计划<br>不活跃<br>正在同步<br>已结束<br>已存档 |
 | 报表源 | Target<br>Analytics |
 | 体验编辑器 | 可视<br>基于表单 |

@@ -7,10 +7,10 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 63%
+source-wordcount: '267'
+ht-degree: 51%
 
 ---
 
@@ -45,13 +45,11 @@ For more information, see [Manage Experience Cloud users and products](https://d
 
 ### 配置对 Analytics 报表包的访问权限
 
-Before creating or viewing reports for an [!DNL Analytics]-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. 如果您无法查看报表，请确保您是上述任一组的成员。
+要在给定报表包上使用A4T，您必须有权访问该报表包。 要在Admin Console中 [!UICONTROL 访问]，请单击 [!DNL Analytics] 产品用户档案，然后单 [!UICONTROL 击权限] 选项卡。 然后，您可以查看用户档案有权访问的报表包。 确保您要访问的报表包是您所 [!DNL Target] 属产品用户档案中列出的报表包之一。
 
-有关详细信息，请参 [阅产品用户档案和组](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)。
+下图是具有所有报表包访问权限的产品用户档案的示例：
 
-### 配置对“Web 服务访问”组的访问权限
-
-您必须属于 [!DNL Analytics] 中的“Web 服务访问”组，才能将 [!DNL Analytics] 用作 [!DNL Target] 报表源。
+![Admin Console权限选项卡](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 

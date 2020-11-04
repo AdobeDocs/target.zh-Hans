@@ -6,7 +6,7 @@ feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 85dc58da0425bfbbea2b2892ab617152c0184d0b
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 64%
@@ -111,7 +111,7 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
 
    * **[!UICONTROL 自动分配到最佳体验]**：将大多数活动参加者自动定向到具有更高性能的体验。为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。请参阅[自动流量分配](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
-   * **[!UICONTROL 自动目标，提供个性化体验]**: [!DNL Target] 使用高级机器学习来识别多个高性能的营销人员定义体验，从而个性化内容并推动转化，然后根据访客的个人用户档案和相似访客的过去行为，为客户提供最为定制的体验。 有关详细信息，请参 [阅自动目标](/help/c-activities/auto-target-to-optimize.md)。
+   * **[!UICONTROL 自动目标，提供个性化体验]**: [!DNL Target] 使用高级机器学习来识别多个高性能的营销人员定义体验，从而个性化内容并推动转化，然后根据访客的个人用户档案和相似访客的过去行为，为客户提供最为定制的体验。 有关详细信息，请参 [阅自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)。
    You can also click **[!UICONTROL Add]** to add another experience to the activity.
 
 1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.

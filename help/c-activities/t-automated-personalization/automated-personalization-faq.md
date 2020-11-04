@@ -5,9 +5,9 @@ title: 自动个性化常见问题解答
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1962'
 ht-degree: 85%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 85%
 
 ## 设置自动个性化活动的最佳实践是什么？ {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* 如果您要对流量较低的页面进行个性化，或者要对您正在个性化的体验进行结构上的更改，请考虑使用自动定位来替换自动个性化。请参阅[自动定位以提供个性化体验](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
+* 如果您要对流量较低的页面进行个性化，或者要对您正在个性化的体验进行结构上的更改，请考虑使用自动定位来替换自动个性化。请参阅 [自动定位](/help/c-activities/auto-target-to-optimize.md).
 * 考虑在您计划于自动个性化活动中使用的选件和位置之间完成 A/B 活动，以确保这些位置和选件会对优化目标产生影响。如果 A/B 活动未能显示出显著差异，则自动个性化可能也无法产生提升。
 
    * 如果 A/B...N 测试没有显示出各体验之间具有统计意义的显著差异，那么有可能您考虑的选件彼此之间差异不大、您选择的位置不会影响成功量度，或者优化目标在转化漏斗中的位置太远而不受您所选选件的影响。

@@ -4,7 +4,7 @@ description: Adobe Target欢迎工具包——第二章-目标一览
 title: Adobe Target欢迎工具包——第二章-目标一览
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '2504'
 ht-degree: 17%
@@ -30,7 +30,7 @@ ht-degree: 17%
 | --- | --- |
 | A/B 测试 | 在您的网站或其他数字客户接触点上比较两种或两种以上体验或优惠的变体，以了解哪种变体在预先指定的测试期内对关键业务措施的改进程度最高。 A/B测试非常适合进行大型更改，如新网页布局、不同的站点导航方法，或对数字体验中各个元素（如副本、图像和行动动员按钮）进行完全不同的处理。 [了解更多](/help/c-activities/t-test-ab/test-ab.md)。 |
 | 自动分配 | 确定两种或两种以上体验中表现最佳的体验，并自动重新分配更多流量给入选方，以在测试继续运行和学习的同时提高转化率。 使用由提供支持的人工智能 [!DNL Adobe Sensei]。 [了解更多](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| 自动目标<br>（高级） | 利用Adobe Sensei人 [!DNL Target] 工智能，根据每位访客的用户档案以及拥有相似用户档案的先前访客的行为，确定并为每位客户提供数人的最佳体验。 自动目标支持大规模个性化。 [了解更多](/help/c-activities/auto-target-to-optimize.md)。 |
+| 自动目标<br>（高级） | 利用Adobe Sensei人 [!DNL Target] 工智能，根据每位访客的用户档案以及拥有相似用户档案的先前访客的行为，确定并为每位客户提供数人的最佳体验。 自动目标支持大规模个性化。 [了解更多](/help/c-activities/auto-target/auto-target-to-optimize.md)。 |
 | Automated Personalization<br>(Premium) | 使用高级机器学习算法和由优惠提 [!DNL Adobe Sensei] 供支持的自动化功能来检查图像、副本和其他元素的不同组合，并根据最能实现业务目标的访客为每个访客提供最佳组合，如提高转化率或每个的收入。 [了解更多](/help/c-activities/t-automated-personalization/automated-personalization.md)。 |
 | 体验定位 (XT) | 根据一组用户定义的规则和标准将内容交付到特定受众。 **[!UICONTROL 当您了解]** 受众的价值并充分了解其与哪些体验产生共鸣时，体验定位对于将特定体验或内容定位到特定受众非常有价值。 [了解更多](/help/c-activities/t-experience-target/experience-target.md)。 |
 | 多变量测试 (MVT) | 比较页面或数字体验中元素变量的所有可能组合，例如三种不同的背景图像、两种副本变量和两种不同的按钮颜色。 MVT确定哪些组合对特定受众的效果最佳，以及哪些元素对结果的影响最大。 [了解更多](/help/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
@@ -42,7 +42,7 @@ ht-degree: 17%
 
 | 渠道 | 详细信息 |
 | --- | --- |
-| 网站 | [!DNL Target] 可用于在多页、单页应用程序(SPA)和移动网站的页面上运行A/B测试、Multivariate Testing、体验定位、自动分配、自动目标、Automated Personalization和Recommendations活动，以提高访客和客户参与度、提高转化率并增加收入。 |
+| 网站 | [!DNL Target] 可用于在多页、单页应用程序(Multivariate Testing)和移动网站的页面上运行A/B测试、SPA、体验定位、自动分配、自动目标、Automated Personalization和Recommendations活动，以提高访客和客户参与度、提高转化率并增加收入。 |
 | 移动Web | [!DNL Target] 可用于运行您在移动网站页面上的网站上运行的所有相同活动类型，以同样提高访客和客户参与度、提高转化率和增加收入。 |
 | 移动设备应用程序 | [!DNL Target] 可用于根据用户行为和移动上下文测试和个性化移动App体验。 [!DNL Target] 使您能够通过迭代测试、体验定位和基于AI的个性化提供吸引和转化的互动。 要在移 [!DNL Target] 动应用程序上使用，必须使用AdobeMobile Services SDK。 |
 | 物联网／无处不在 | [!DNL Target] 优惠是一种服务器端实施，这样您就可以在传统网站、移动站点和移动应用程序中的电子邮件和没有浏览器或不使用JavaScript代码的接触点上使用相同的活动中使用相同的测试和个性化功能。 例如，这样您就可以测试和个性化自助终端、机顶盒、游戏控制台、语音助手和其他非传统接触点。 |
@@ -71,7 +71,7 @@ ht-degree: 17%
 
 ## 活动创建工具
 
-[!DNL Target] 为您提供了三种设置测试和个性化活动的主 [!UICONTROL 要方法] :Visual Experience Composer(VEC)、 [!UICONTROL 基于表单的Experience Composer], [!UICONTROL 以及Single Page Application(SPA)Visual Experience Composer]。 这两种方法都可指导您通过三个步骤完成活动设置过程：定义体验、选择或定义受众，以及选择主要和次要成功量度，通过它们衡量活动结果。
+[!DNL Target] 为您提供了三种设置测试和个性化活动的主 [!UICONTROL 要方法] :Visual Experience Composer [!UICONTROL (VEC)、]基于表单的Experience Composer [!UICONTROL ,]以及Single Page Application(SPA) Visual Experience Composer。 这两种方法都可指导您通过三个步骤完成活动设置过程：定义体验、选择或定义受众，以及选择主要和次要成功量度，通过它们衡量活动结果。
 
 | 工具 | 详细信息 |
 | --- | --- |

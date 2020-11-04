@@ -6,10 +6,10 @@ feature: troubleshooting general
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 97%
+source-wordcount: '433'
+ht-degree: 96%
 
 ---
 
@@ -27,11 +27,19 @@ ht-degree: 97%
 * [Target 优化和个性化常见问题解答](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [活动故障诊断](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
-### [!UICONTROL A/B 测试]、[!UICONTROL 自动分配]和[!UICONTROL 自动定位] (AT)
+### A/B 测试
 
 * [九种常见的 A/B 测试陷阱以及避免方法](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
 * [自动定位以提供个性化体验](/help/c-activities/auto-target/auto-target-to-optimize.md)
+
+### 自动分配
+
+* [自动分配概述](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+
+### 自动定位
+
+* [自动目标疑难解答和常见问题解答](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
 ### 自动个性化 (AP)
 

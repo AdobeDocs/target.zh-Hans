@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '2908'
+source-wordcount: '2903'
 ht-degree: 98%
 
 ---
@@ -64,7 +64,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **我是否可以执行一个活动，在该活动中采用一定程度的个性化作为该活动的一部分？**
 
-请查看[使用自动定位进行 A/B 测试](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)选项。
+选中“ [自动目标](/help/c-activities/auto-target-to-optimize.md) ”选项。
 
 **我如何知道哪类活动最适合我的需求？**
 

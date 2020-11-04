@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 82%
@@ -59,7 +59,7 @@ Adobe Target 可通过两个 JavaScript 库（at.js 或 mbox.js）中的任意�
 
 ### 自动定位 (AT)
 
-有关更多信息，请参阅[自动定位](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
+有关更多信息，请参阅[自动定位](/help/c-activities/auto-target-to-optimize.md)。
 
 自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行选择，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。
 

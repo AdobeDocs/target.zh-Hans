@@ -6,7 +6,7 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # ![PREMIUM](/help/assets/premium.png) 选择用于自动个性化或自动定位活动的控制
 
-您可以在创建[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) 或[自动定位](/help/c-activities/auto-target-to-optimize.md) (AT) 活动时，选择随机提供的体验或特定体验作为控制。
+您可以在创建[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) 或[自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) 活动时，选择随机提供的体验或特定体验作为控制。
 
 通过此功能，您可以根据活动中配置的流量分配百分比，将控制流量路由到特定体验。然后，您可以根据该控制的控制流量评估个性化流量的性能报表。
 

@@ -5,7 +5,7 @@ title: 为 Adobe Target 个性化算法收集数据
 feature: ap
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 97%
@@ -17,9 +17,9 @@ ht-degree: 97%
 
 Target 可自动收集和使用各种数据，以在自动个性化 (AP) 和自动定位 (AT) 活动中构建其个性化算法。当一名访客进入到 AP 或 AT 活动，信息快照便会被传递到一组“训练记录”（个性化算法将要学习的访客数据）中。
 
-要了解有关 Target 个性化算法的更多信息，请参阅[随机林算法](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)。
+要了解有关 Target 个性化算法的更多信息，请参阅[随机林算法](/help/c-activities/t-automated-personalization/algo-random-forest.md)。
 
-下表显示了在营销人员无需执行任何操作的情况下，由自动个性化和自动定位活动默认收集的数据，以及在[个性化分析报表](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中用于指示这些属性的命名约定。您可以随时增加输入数据集。要了解有关如何上传其他数据的更多信息，请参阅[为 Target 个性化算法上传数据](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)。
+下表显示了在营销人员无需执行任何操作的情况下，由自动个性化和自动定位活动默认收集的数据，以及在[个性化分析报表](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中用于指示这些属性的命名约定。您可以随时增加输入数据集。要了解有关如何上传其他数据的更多信息，请参阅[为 Target 个性化算法上传数据](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
 | 数据类型 | 描述 | 数据类型命名约定 | 示例属性 |
 | --- | --- | --- | --- |

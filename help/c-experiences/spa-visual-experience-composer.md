@@ -6,7 +6,7 @@ feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -28,13 +28,13 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 为进一步说明“视图”的概念，让我们浏览一下这个在 React 中实施的假定的在线电子商务网站，并探索一些“视图”示例。单击下面的链接可在新浏览器选项卡中打开此站点。
 
-**链接：[主页](https://target.enablementadobe.com/react/demo/#/)**
+**链接： [主页](https://target.enablementadobe.com/react/demo/#/)**
 
 ![home 站点](/help/c-experiences/assets/home.png)
 
 导航到主页时，我们可以立即看到展示复活节促销活动的主页图像，以及网站上销售的最新产品。在这种情况下，可以将“视图”定义为整个 home 站点。这种方式很容易记忆，我们将在下面的“实施 Adobe Target 视图”章节中对此进行详细介绍。
 
-**链接：[产品站点](https://target.enablementadobe.com/react/demo/#/products)**
+**链接： [产品站点](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![产品站点](/help/c-experiences/assets/product-site.png)
 
@@ -48,7 +48,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 我们决定单击“Load More”（了解更多）按钮，以浏览站点上的更多产品。在这种情况下，网站 URL 不会发生更改。但是，这里的视图只能呈现上面显示的第二行产品。此视图名称可称为“PRODUCTS-PAGE-2”。
 
-**链接：[结帐](https://target.enablementadobe.com/react/demo/#/checkout)**
+**链接： [结帐](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![结帐页面](/help/c-experiences/assets/checkout.png)
 
@@ -84,7 +84,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    现在，我们来查看一些关于如何在 React 中为假定的电子商务 SPA 调用 `triggerView()` 函数的示例用例：
 
-   **链接：[主页](https://target.enablementadobe.com/react/demo/#/)**
+   **链接： [主页](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -115,7 +115,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **链接：[产品站点](https://target.enablementadobe.com/react/demo/#/products)**
+   **链接： [产品站点](https://target.enablementadobe.com/react/demo/#/products)**
 
    现在，我们来看一个比较复杂的示例。假设我们是营销人员，想要在用户单击“Load More”（加载更多）按钮后将价格标签颜色更改为红色，以对第二行的产品进行个性化。
 
@@ -144,7 +144,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
    }
    ```
 
-   **链接：[结帐](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **链接： [结帐](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![react checkout](/help/c-experiences/assets/react6.png)
 
@@ -343,11 +343,11 @@ adobe.target.getOffers({
 | [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 |
 | [体验定位](/help/c-activities/t-experience-target/experience-target.md) | 是 |
 | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 否 |
-| [Auto-Target（自动定位）](/help/c-activities/auto-target-to-optimize.md) | 否 |
+| [Auto-Target（自动定位）](/help/c-activities/auto-target/auto-target-to-optimize.md) | 否 |
 | [自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) | 否 |
 | [推荐](/help/c-recommendations/recommendations.md) | 否 |
 
-**如果安装了 at.js 2.x 并在网站上实施了`triggerView()`，则在 SPA VEC 不支持自动定位时，我们该如何运行自动定位 A/B 活动？**
+**如果安装了 at.js 2.x 并在网站上实施了 `triggerView()`，则在 SPA VEC 不支持自动定位时，我们该如何运行自动定位 A/B 活动？**
 
 如果要使用自动定位 A/B 活动，可以在 VEC 中移动所有要在页面加载事件中执行的操作。将鼠标悬停在每个操作上方，然后单击[!UICONTROL 移动到页面加载事件]按钮。完成此操作后，在下一步中，您可以为流量分配方法选择“自动定位”。
 

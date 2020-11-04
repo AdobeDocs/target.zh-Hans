@@ -5,9 +5,9 @@ title: Analytics for Target 实施
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '900'
 ht-degree: 50%
 
 ---
@@ -91,7 +91,7 @@ window.targetGlobalSettings = {
 }
 ```
 
-然后，可以通过数据插入API将有效负 [荷转发到Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。 请注意，对 [!UICONTROL 于“自动分配] ” [!UICONTROL 和“自动目标] ”活动，您还需要转发sessionId。 有关详细信息，请 [参阅《Adobe Analytics目标API指南》(A4T](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) )中 *的“Adobe Target投放API”*
+然后，可以通过数据插入API将有效负 [荷转发到Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。 请注意，对 [!UICONTROL 于“自动分配] ” [!UICONTROL 和“自动目标] ”活动，您还需要转发sessionId。 有关详细信息，请 [参阅《Adobe TargetSDK指南》中的](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) “目标分析( *A4T)* ”报告。
 
 如果不希望进行全局设置并且想要使用按需方法，则可以使用 at.js 函数 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 通过传入 **analyticsLogging: &quot;client_side&quot;** 来实现此目的。The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 

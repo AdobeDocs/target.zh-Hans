@@ -5,7 +5,7 @@ title: A/B测试概述
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 6e0605304d99c0a070ad22a232e2ba2246611f94
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 38%
@@ -45,7 +45,7 @@ A manual [!UICONTROL A/B Test] activity (sometimes referred to as an A/B...N tes
 | --- | --- |
 | [!UICONTROL 手动 A/B 测试] | 比较两个或多个体验，以查看在预先指定的一段测试时间内，哪个体验最有利于提高转化。<br>本节介绍如何设置手 [!UICONTROL 动A/B测试活动] ，但其他类型的A/B测 [!UICONTROL 试活动的步骤相] 似。 |
 | [!UICONTROL Auto-Allocate（自动分配）] | 从两个或多个体验中确定入选者，然后将流量重定向到该入选者，随着测试的运行和学习而提高转化。<br>要了解使用自动分配活动的优势，请参 [阅运行A](/help/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) /B测试和自动分配 *概* 览中的自动分配 [](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| ![高级徽章](/help/assets/premium.png)[!UICONTROL 自动目标] | 采用先进的机器学习技术，确定多个高性能、由营销人员定义的体验，然后根据访客各自的客户配置文件和过去类似访客的行为，为其提供量身定制的体验，从而实现内容的个性化并推动转化。<br>有关详细信息，请参 [阅自动目标](/help/c-activities/auto-target-to-optimize.md)。 |
+| ![高级徽章](/help/assets/premium.png)[!UICONTROL 自动目标] | 采用先进的机器学习技术，确定多个高性能、由营销人员定义的体验，然后根据访客各自的客户配置文件和过去类似访客的行为，为其提供量身定制的体验，从而实现内容的个性化并推动转化。<br>有关详细信息，请参 [阅自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)。 |
 
 有关这些A/B测试 [!UICONTROL 活动中哪些适合您] ，请参阅交互式 [Adobe Target活动指南PDF](/help/c-activities/target-activities-guide.md)。
 

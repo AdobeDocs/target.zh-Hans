@@ -5,7 +5,7 @@ title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 77%
@@ -48,7 +48,7 @@ UI中存在当前已知问题，该问题允 [!DNL Target] 许用户选择不受
 以下是重定向选件存在的已知问题：
 
 * 在一些情况下，当在配置了 Analytics for Target (A4T) 的活动中使用重定向选件时，有限数量的客户报告流量分配差异程度增大。Adobe 工程师当前正在努力解决此问题。
-* at.js 实施中的重定向活动可能会导致预览 URL 进入循环（重复提供该选件）。您可以改为使用 [QA 模式](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)来执行预览和 QA。此问题不会影响选件的实际交付。(TGT-23019)
+* at.js 实施中的重定向活动可能会导致预览 URL 进入循环（重复提供该选件）。您可以改为使用 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)来执行预览和 QA。此问题不会影响选件的实际交付。(TGT-23019)
 
 ### 在 VEC 中取消页面加载 {#cancel}
 

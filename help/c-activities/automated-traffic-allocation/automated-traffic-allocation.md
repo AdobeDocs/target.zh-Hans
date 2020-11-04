@@ -6,19 +6,19 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: b53918af5ddceded80829288d181102cf1b56841
+source-git-commit: 9910bee403061c87f8a38c10b7ada6df76ec30b0
 workflow-type: tm+mt
-source-wordcount: '3368'
-ht-degree: 76%
+source-wordcount: '3369'
+ht-degree: 75%
 
 ---
 
 
-# 自动分配{#auto-allocate}
+# 自动分配概述
 
 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
 
-[使用三步引导式工作流创建 A/B 活动](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)时，您可以选择[!UICONTROL 自动分配到最佳体验]选项。
+While creating an A/B activity using the three-step guided workflow, you can choose the [!UICONTROL Auto-Allocate to best experience] option.
 
 ## 面临的难题 {#section_85D5A03637204BACA75E19646162ACFF}
 

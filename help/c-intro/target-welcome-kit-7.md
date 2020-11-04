@@ -4,7 +4,7 @@ description: Adobe Target欢迎工具包——第7章——创建并运行您的
 title: Adobe Target欢迎工具包——第7章——创建并运行您的第一个目标活动
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 路线3:AI和自动化在个人访客大规模个性化中的应用
 
-您只需在A/B测试设置工作流程的第二个步骤中选择“ [自动活动](/help/c-activities/auto-target-to-optimize.md) ”，即可设置AI驱动目标，为每个访客提供最佳体验。 当您不知道哪种体验会引起不同目标的共鸣时，将自动活动用于第一个访客可能会非常有用。 借助自动目标，您可以让机器学习实时评估预测属性并对其评分，并确定访客的哪些属性对于确定要提供的体验最为重要。
+您只需在A/B测试设置工作流程的第二个步骤中选择“ [自动活动](/help/c-activities/auto-target/auto-target-to-optimize.md) ”，即可设置AI驱动目标，为每个访客提供最佳体验。 当您不知道哪种体验会引起不同目标的共鸣时，将自动活动用于第一个访客可能会非常有用。 借助自动目标，您可以让机器学习实时评估预测属性并对其评分，并确定访客的哪些属性对于确定要提供的体验最为重要。
 
 示例：一家销售多个手机品牌和型号的电信公司打开自动目标，使用自动化和机器学习来确定其主页或移动应用程序打开屏幕上的四种不同体验或优惠中的哪一种最能与其各种访客产生共鸣。
 

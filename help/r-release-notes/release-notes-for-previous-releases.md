@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '29838'
 ht-degree: 86%
@@ -1311,8 +1311,8 @@ target/r_release-notes-2018.xml
    <td colname="col1" class="premium"> <p>自动定位 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6F89BD36373E47C4B3A6F8584D431D82"> 
-      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>自动定位活动现在支持区段级别的报表。(TGT-22777) </p> <p>有关更多信息，请参阅<a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </li> 
-      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>您可以更改自动定位活动的控制百分比。(TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>有关更多信息，请参阅<a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </li> 
+      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>自动定位活动现在支持区段级别的报表。(TGT-22777) </p> <p>有关更多信息，请参阅<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </li> 
+      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>您可以更改自动定位活动的控制百分比。(TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>有关更多信息，请参阅<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1553,7 +1553,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>自动定位 </p> </td> 
-   <td colname="col2"> <p>现在，所有 Target Premium 客户均可使用自动定位功能。 </p> <p>自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行识别，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。 </p> <p>在使用三步引导式工作流创建 A/B 活动时，您可以选择使用“<span class="wintitle">自动定位以提供个性化体验</span>”选项来分配流量： </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>有关更多信息，请参阅<a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </td> 
+   <td colname="col2"> <p>现在，所有 Target Premium 客户均可使用自动定位功能。 </p> <p>自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行识别，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。 </p> <p>在使用三步引导式工作流创建 A/B 活动时，您可以选择使用“<span class="wintitle">自动定位以提供个性化体验</span>”选项来分配流量： </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>有关更多信息，请参阅<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1726,7 +1726,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 报表 </td> 
-   <td colname="col2"> <p><b>查看多个目标/量度：</b>现在，您可以在 A/B 活动和体验定位 (XT) 活动中查看多个量度，但<a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local">自动分配</a>和<a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">自动定位</a> A/B 活动除外。 </p> <p>有关更多信息，请参阅<a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">在报表中查看多个量度</a>。 </p> </td> 
+   <td colname="col2"> <p><b>查看多个目标/量度：</b>现在，您可以在 A/B 活动和体验定位 (XT) 活动中查看多个量度，但<a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local">自动分配</a>和<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自动定位</a> A/B 活动除外。 </p> <p>有关更多信息，请参阅<a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">在报表中查看多个量度</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1986,7 +1986,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>抢先版</b> </p> A/B 活动中的自动定位 </td> 
-   <td colname="col2"> <p> <p>注意：在此版本中，为一些客户启用了“抢先版”功能，以便进行测试和获取反馈。 </p> </p> <p>自动定位 A/B 测试中的体验，以便为特定访客提供适当的体验。 </p> <p>有关更多信息，请参阅<a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </td> 
+   <td colname="col2"> <p> <p>注意：在此版本中，为一些客户启用了“抢先版”功能，以便进行测试和获取反馈。 </p> </p> <p>自动定位 A/B 测试中的体验，以便为特定访客提供适当的体验。 </p> <p>有关更多信息，请参阅<a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">自动定位以提供个性化体验</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

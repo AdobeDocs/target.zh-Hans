@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 98%
@@ -64,7 +64,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **我是否可以执行一个活动，在该活动中采用一定程度的个性化作为该活动的一部分？**
 
-选中“ [自动目标](/help/c-activities/auto-target-to-optimize.md) ”选项。
+选中“ [自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md) ”选项。
 
 **我如何知道哪类活动最适合我的需求？**
 
@@ -120,7 +120,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **如何预览和 QA 我刚刚创建的活动？**
 
-使用我们的[强大的 QA 模式功能](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)来执行 QA。您可以与您的 QA 团队分享链接，还可以对包括报表在内的端到端活动进行测试，以充分确保活动开始后，会按照预期和经过测试的方式运行。
+使用我们的[强大的 QA 模式功能](/help/c-activities/c-activity-qa/activity-qa.md)来执行 QA。您可以与您的 QA 团队分享链接，还可以对包括报表在内的端到端活动进行测试，以充分确保活动开始后，会按照预期和经过测试的方式运行。
 
 **我如何使用 Target 的决策功能接收可用于单页应用程序 (SPA) 或服务器端集成的体验/选件？**
 
@@ -167,7 +167,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 * [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [客户属性](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
-* [受众](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [受众](/help/c-integrating-target-with-mac/mmp.md)
 
 ## 体验 {#section_5959536B8D6A4BEA8FAA1273338F3451}
 
@@ -277,7 +277,7 @@ You can always use [Enhanced Experience Composer option at the activity level](.
 
 * [客户属性](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
-* [受众](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [受众](/help/c-integrating-target-with-mac/mmp.md)
 
 
 **我是否可以根据多个用户区段对报表进行细分？**

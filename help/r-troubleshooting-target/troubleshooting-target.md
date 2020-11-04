@@ -6,7 +6,7 @@ feature: troubleshooting general
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 97%
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 * [九种常见的 A/B 测试陷阱以及避免方法](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-* [自动定位以提供个性化体验](/help/c-activities/auto-target-to-optimize.md)
+* [自动定位以提供个性化体验](/help/c-activities/auto-target/auto-target-to-optimize.md)
 
 ### 自动个性化 (AP)
 

@@ -1,24 +1,32 @@
 ---
-keywords: Create A/B;A/B test;A/B activity;new a/b activity
-description: 利用 Target 中的可视化体验编辑器，在启用了 Target 的页面上直接创建测试，并在 Target 中修改页面的各个部分。
+keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
+description: 使用Adobe Target的Visual Experience Composer直接在启用目标的页面上创建A/B测试活动，并修改目标中页面的部分。
 title: 创建 A/B 测试
 feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: d5a48db0c954871269714ef32d0545ed4898660f
+source-git-commit: 85dc58da0425bfbbea2b2892ab617152c0184d0b
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 98%
+source-wordcount: '850'
+ht-degree: 64%
 
 ---
 
 
-# 创建 A/B 测试{#create-an-a-b-test}
+# 创建 A/B 测试
 
-利用 Target 中的可视化体验编辑器，在启用了 Target 的页面上直接创建测试，并在 Target 中修改页面的各个部分。
+Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create your [!UICONTROL A/B Test] activity directly on a [!DNL Target]-enabled page and to modify portions of the page within [!DNL Target].
 
-1. 从“[!UICONTROL 活动]”列表中，单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL A/B 测试]**。
+>[!NOTE]
+>
+>除了手动（默认）A/ [!UICONTROL B测试活动] （在本节中讨论）之外，还 [!DNL Target] 提供了两种其他类型的  A/B测试活动: [!UICONTROL 自动分配] 和 [!UICONTROL 自动目标]。
+>
+>请参 [阅A/B测试概述中](/help/c-activities/t-test-ab/test-ab.md#types)*的A/B测试活动类型*。
+
+要创建手动A/ [!UICONTROL B测试活动，请执行] :
+
+1. 从“**[!UICONTROL 活动]**”列表中，单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL A/B 测试]**。
 
    ![“创建活动”下拉列表](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -28,23 +36,23 @@ ht-degree: 98%
    >
    >有关各种活动类型的信息，请参阅[活动](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)和 [Target 活动指南](/help/c-activities/target-activities-guide.md)。
 
-   ![创建 A/B 测试活动](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
-
 1. 如有必要，选择&#x200B;**[!UICONTROL 可视（默认）]**。
 
-   如果您希望使用基于表单的体验编辑器，请选择[!UICONTROL 表单]。请参阅[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md)，以了解更多信息。
+   ![创建A/B测试活动](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
+
+   If you prefer to use the [!UICONTROL Form-Based Experience Composer], select [!UICONTROL Form]. 请参阅[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md)，以了解更多信息。
 
    >[!NOTE]
    >
-   >除了 VEC 和基于表单的体验编辑器之外，Target 还提供单页应用程序 VEC 和适用于移动设备应用程序的 VEC。有关各种编辑器的更多信息，请参阅[体验和选件](/help/c-experiences/experiences.md)。
+   >除了VEC和基于表 [!UICONTROL 单的体验书写器], [!DNL Target] 还优惠单页应用程序VEC。 有关各种编辑器的更多信息，请参阅[体验和选件](/help/c-experiences/experiences.md)。
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >The [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。
+   >上图中的“[!UICONTROL 选择工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)”选项是一项 [Target Premium](/help/c-intro/intro.md) 功能。Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
 
 1. （视情况而定）如果您是一位 [Target Premium 客户](/help/c-intro/intro.md#premium)，请选择一个[工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 指定[活动 URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然后单击&#x200B;**[!UICONTROL 下一步]**。
+1. 指定[活动 URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
    如果您的帐户配置了默认 URL，则默认情况下将显示该 URL。您可以将默认 URL 更改为其他 URL。
 
@@ -82,9 +90,10 @@ ht-degree: 98%
    ![A/B 测试定位步骤](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new.png)
 
    流程图会引导您完成以下步骤：选择活动的受众和设置体验。
-1. 在[!UICONTROL 受众]框中，单击“编辑”图标，然后为您的活动[选择受众](../../../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)。
 
-   默认情况下，受众将设置为“所有访客”。
+1. 在受众 [!UICONTROL 框中] ，单击编辑图标（三个垂直椭圆），单击 **[!UICONTROL 替换受众]**，然 [后选择活动的受众](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) 。
+
+   By default, the audience is set to [!UICONTROL All Visitors].
 
 1. 选择您希望参加活动的符合条件的访客所占的百分比。
 
@@ -102,24 +111,24 @@ ht-degree: 98%
 
    * **[!UICONTROL 自动分配到最佳体验]**：将大多数活动参加者自动定向到具有更高性能的体验。为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。请参阅[自动流量分配](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
-   * **[!UICONTROL 自动定位以提供个性化体验]**：Target 使用先进的机器学习算法，自动将访客定位到最佳体验，以最大限度地实现您的目标。有关更多信息，请参阅[自动定位以优化](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)。
-   您还可以单击&#x200B;**[!UICONTROL 添加体验]**，以向该活动中添加其他体验。
+   * **[!UICONTROL 自动目标，提供个性化体验]**: [!DNL Target] 使用高级机器学习来识别多个高性能的营销人员定义体验，从而个性化内容并推动转化，然后根据访客的个人用户档案和相似访客的过去行为，为客户提供最为定制的体验。 有关详细信息，请参 [阅自动目标](/help/c-activities/auto-target-to-optimize.md)。
+   You can also click **[!UICONTROL Add]** to add another experience to the activity.
 
-1. 如果您对受众和各体验选项满意，请单击&#x200B;**[!UICONTROL 下一步]**，以进入三步引导式工作流的第三步。
+1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
 
-1. 指定活动的[目标和设置](../../../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)。
+1. 指定活动的[目标和设置](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)。
 
    ![A/B 活动设置](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL 保存并关闭]** 或 **[!UICONTROL 保存]**。
 
-创建活动后，“概述”选项卡会显示有关该活动的信息，包括活动图。
+After you create the activity, the [!UICONTROL Overview] tab shows information about the activity, including a diagram of your activity.
 
-## 培训视频：创建 A/B 测试 (8:36) ![教程徽章](/help/assets/tutorial.png)
+## Training video: Creating A/B Tests (8:36) ![Tutorial badge](/help/assets/tutorial.png)
 
 以下视频演示了如何使用 [!DNL Target] 三步引导式工作流创建 A/B 测试。
 
-* 在 Adobe Target 中创建 A/B 活动
+* 在以下 [!UICONTROL 位置创建A/B测试] 活动: [!DNL Adobe Target]
 * 使用手动拆分或自动流量分配来分配流量
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)

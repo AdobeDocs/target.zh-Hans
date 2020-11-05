@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 64%
@@ -45,8 +45,8 @@ Reports provide information about the progress and results of your [!DNL Adobe T
    >
    >至少有一个参加者查看了体验后，才会显示体验结果。
 
-1. （可选）[配置报表](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)（如有需要）。
-1. （可选）[以 CSV 格式下载报表](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)，以便在 Excel 和其他工具中进行分析。
+1. （可选）[配置报表](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)（如有需要）。
+1. （可选）[以 CSV 格式下载报表](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)，以便在 Excel 和其他工具中进行分析。
 
    以下选项可供选择：
 
@@ -82,4 +82,4 @@ Reports provide information about the progress and results of your [!DNL Adobe T
 
 您可以阻止将来自指定 IP 地址的访客计入报表。这非常有用，例如，阻止来自内部报告的访客数据。
 
-[请联系客户关怀团队以设置 IP 筛选器。](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)将Analytics for目标(A4T) [用作报告源](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 时，此过滤不适用。
+[请联系客户关怀团队以设置 IP 筛选器。](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)将Analytics for目标(A4T) [用作报告源](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 时，此过滤不适用。

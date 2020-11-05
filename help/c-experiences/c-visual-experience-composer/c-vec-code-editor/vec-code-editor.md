@@ -7,7 +7,7 @@ subtopic: Code Editor
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 有关“修改”页面的信息，该页面允许您查看对页面所做的修改并添加其他修改（CSS 选择器、Mbox 和自定义代码）。
 
-“修改”页面会显示您在可视化体验编辑器 (VEC) 中对页面进行的所有更改，该页面允许您通过单击每个页面元素并[选择某个操作](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)来进行其他更改。您所做的每个更改都会在“[!UICONTROL 修改]”列表中单独显示为一个操作或元素。您还可以添加修改，其中包括以下修改类型：CSS 选择器、Mbox 和自定义代码。
+“修改”页面会显示您在可视化体验编辑器 (VEC) 中对页面进行的所有更改，该页面允许您通过单击每个页面元素并[选择某个操作](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)来进行其他更改。您所做的每个更改都会在“[!UICONTROL 修改]”列表中单独显示为一个操作或元素。您还可以添加修改，其中包括以下修改类型：CSS 选择器、Mbox 和自定义代码。
 
 ## “修改”概述{#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >要在基于表单的体验编辑器中打开“修改”面板，请创建或编辑 HTML 选件。有关更多信息，请参阅[基于表单的体验编辑器](../../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)。
+   >要在基于表单的体验编辑器中打开“修改”面板，请创建或编辑 HTML 选件。有关更多信息，请参阅[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)。
 
    此时会打开“[!UICONTROL 修改]”页面，该页面将屏幕分为两部分，左侧为可视化模式，右侧为“修改”面板。单击[!UICONTROL 停放]图标，将“修改”面板垂直停放在 Target UI 侧面或水平停放在底部。请注意，以下图示中的体验 A 先前未进行任何修改。
 
@@ -191,7 +191,7 @@ ht-degree: 100%
 
 * 添加 Adobe Target 体验模板，以在自定义代码中使用。Target 体验模板是具有可配置输入的预编码示例，用于执行常见的营销人员用例。这些体验模板将作为执行常见用例的起始点，通过 VEC 或基于表单的体验编辑器免费提供给开发人员和营销人员。用例包括灯箱、轮播、倒计时等等。
 
-   有关更多信息，请参阅[体验模板](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652)。
+   有关更多信息，请参阅[体验模板](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652)。
 
 ## 自定义代码最佳实践 {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 
@@ -246,7 +246,7 @@ Target 将值为“CDQID”的新元素 ID 应用于由 Target 修改的页面�
 
 换言之，如果您添加一个带有文本的元素，然后在单独的操作中使用不同的文本对该元素进行编辑，则“修改”面板会将这两个操作显示为不同的元素。在编辑元素时，您创建了一个新元素，该元素修改了之前创建的原始元素，在其中包含已编辑的文本。如果删除了原始元素，则编辑后的文本将无法找到被编辑的元素，而且也不会显示出来。第二个元素会保留在元素列表中，但不会对页面产生影响，因为它所更改的元素不再存在。
 
-***我在脚本中使用`document.write`创建的一个元素没有出现在我预期的位置。*** 
+***我在脚本中使用 `document.write` 创建的一个元素没有出现在我预期的位置。*** 
 
 脚本是异步执行的。这通常会导致 `document.write` 操作显示在页面上错误的位置。Adobe 不建议在自定义代码内创建的脚本中使用 `document.write`。
 

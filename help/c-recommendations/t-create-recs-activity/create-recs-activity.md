@@ -5,7 +5,7 @@ title: 创建“推荐”活动
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 78%
@@ -80,7 +80,7 @@ ht-degree: 78%
 
    >[!NOTE]
    >
-   >并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。“[!UICONTROL 兼容]”选项可能不会显示，具体取决于您的“推荐”设置（**[!UICONTROL 推荐]** > **[!UICONTROL 设置]** > **[!UICONTROL 筛选不兼容的标准]**）。有关更多信息，请参阅[设置](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)。
+   >并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。“[!UICONTROL 兼容]”选项可能不会显示，具体取决于您的“推荐”设置（**[!UICONTROL 推荐]** > **[!UICONTROL 设置]** > **[!UICONTROL 筛选不兼容的标准]**）。有关更多信息，请参阅[设置](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)。
 
    ![“选择标准”对话框](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -90,13 +90,13 @@ ht-degree: 78%
 
       [!DNL Recommendations] 中提供了一些自带标准。您和您的团队也可以创建自己的自定义标准。
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 有关创建新标准的信息，请参阅[创建标准](../../c-recommendations/c-algorithms/create-new-algorithm.md)。
+   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 有关创建新标准的信息，请参阅[创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。
    * 您还可以将标准分组到序列中。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 有关详 [细信息，请参阅](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) “创建条件序列”。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 1. 选择一个[设计](/help/c-recommendations/c-design-overview/design-overview.md)。
 
-   设计是一种模板，可决定页面上各个位置的外观。[!DNL Target] 包括多个预配置设计。 您也可以创建自己的自定义设计。有关更多信息，请参阅[创建设计](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自定义设计](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
+   设计是一种模板，可决定页面上各个位置的外观。[!DNL Target] 包括多个预配置设计。 您也可以创建自己的自定义设计。有关更多信息，请参阅[创建设计](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
 
    ![“选择设计”对话框](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -106,11 +106,11 @@ ht-degree: 78%
 
       如果您选择了多个标准，则只能选择一个设计。
 
-   * 要创建自定义设计，请单击&#x200B;**[!UICONTROL 创建设计]**，然后填写新设计的名称和代码。单击&#x200B;**[!UICONTROL 下一步]**，选择或上传图像，然后单击&#x200B;**[!UICONTROL 完成]** > **[!UICONTROL 完成]**。有关创建新设计的信息，请参阅[创建设计](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+   * 要创建自定义设计，请单击&#x200B;**[!UICONTROL 创建设计]**，然后填写新设计的名称和代码。单击&#x200B;**[!UICONTROL 下一步]**，选择或上传图像，然后单击&#x200B;**[!UICONTROL 完成]** > **[!UICONTROL 完成]**。有关创建新设计的信息，请参阅[创建设计](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 
-   您可以选择向推荐中添加促销活动。有关添加前端和后端促销活动的更多信息，请参阅[添加促销活动](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+   您可以选择向推荐中添加促销活动。有关添加前端和后端促销活动的更多信息，请参阅[添加促销活动](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -136,7 +136,7 @@ ht-degree: 78%
 
       >[!NOTE]
       >
-      >除了选择现有受众之外，您还可以[创建仅限该活动的受众](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)或[合并多个受众](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以创建临时受众，而不是创建新的受众。
+      >除了选择现有受众之外，您还可以[创建仅限该活动的受众](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)或[合并多个受众](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以创建临时受众，而不是创建新的受众。
 
       默认情况下，所有用户都会看到推荐。但是，您可以将推荐定位到特定的受众。
 
@@ -151,7 +151,7 @@ ht-degree: 78%
 1. 完成后，单击&#x200B;**[!UICONTROL 下一步]**。
 1. 指定活动设置。
 
-   例如，键入活动的名称（必填）和目标（可选）。有关设置的信息，请参阅[“推荐”活动设置](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)。
+   例如，键入活动的名称（必填）和目标（可选）。有关设置的信息，请参阅[“推荐”活动设置](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)。
 
    >[!NOTE]
    >

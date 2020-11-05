@@ -6,7 +6,7 @@ feature: recommendations general
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 89%
@@ -71,7 +71,7 @@ rawbox 类似于 mbox 请求，但适用于诸如电子邮件服务提供商 (ES
 
 使用此方法，您可以跟踪推荐在电子邮件中的性能，像测试常规推荐那样测试电子邮件中的推荐，并继续跟踪网站。
 
-在 [!DNL Adobe Target] 中，使用[基于表单的体验编辑器](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)选项设置 [!DNL Recommendations] 活动。对于位置，选择您之前选择的要用于来自 ESP 的 rawbox 请求的 mbox 名称。为电子邮件选择所需的外观设计。在构建电子邮件时，ESP 会向 [!DNL Adobe Target] 服务器发起调用，以在每个电子邮件中各生成一个 rawbox。您的 ESP 必须能够在电子邮件发送时将返回的 HTML 包含到电子邮件中。
+在 [!DNL Adobe Target] 中，使用[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)选项设置 [!DNL Recommendations] 活动。对于位置，选择您之前选择的要用于来自 ESP 的 rawbox 请求的 mbox 名称。为电子邮件选择所需的外观设计。在构建电子邮件时，ESP 会向 [!DNL Adobe Target] 服务器发起调用，以在每个电子邮件中各生成一个 rawbox。您的 ESP 必须能够在电子邮件发送时将返回的 HTML 包含到电子邮件中。
 
 您使用的电子邮件系统应该能够处理以下情形：
 
@@ -141,4 +141,4 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 选用这一方法时，推荐服务器无法直接跟踪推荐的性能或多个算法/模板组合中的分离流量。此外，推荐并未与访客配置文件绑定。
 
-有关下载 API 的更多信息，请参阅[旧版 API > 下载](../../assets/adobe-recommendations-classic.pdf)。
+有关下载 API 的更多信息，请参阅[旧版 API > 下载](/help/assets/adobe-recommendations-classic.pdf)。

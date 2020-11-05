@@ -5,7 +5,7 @@ title: 计划和实施推荐
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 6ad358c8a8fcbed390b7460b93e4ea5e41e2ba2f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 96%
@@ -111,7 +111,7 @@ function targetPageParams() {
 }
 ```
 
-有关可能会在不同类型的页面上使用的代码的更多示例，请参阅[按照页面类型实施](../c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)。
+有关可能会在不同类型的页面上使用的代码的更多示例，请参阅[按照页面类型实施](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)。
 
 ## 按照页面类型实施 {#reference_DE38BB07BD3C4511B176CDAB45E126FC}
 
@@ -119,7 +119,7 @@ function targetPageParams() {
 
 例如，您可能想要在产品页面、类别页面或主页面上显示不同类型的推荐。对于每种页面，您可以在 mbox 调用之前运行特定的函数，以显示适当的推荐。
 
-有关示例中的属性信息，请参阅[实体属性](../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)。
+有关示例中的属性信息，请参阅[实体属性](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)。
 
 必须使用有效的 JSON 格式。
 
@@ -130,11 +130,11 @@ function targetPageParams() {
 包含推荐的所有页面均需要在页面上引用 [!DNL at.js] 或 [!DNL mbox.js]。需将以下任一引用添加到包含推荐的所有页面：
 
 ```
-<script src="../at.js /></script>
+<script src="/help/at.js /></script>
 ```
 
 ```
-<script src="../mbox.js /></script>
+<script src="/help/mbox.js /></script>
 ```
 
 此实施需要：
@@ -143,9 +143,9 @@ function targetPageParams() {
 
 * [!DNL mbox.js] 必须包含 [!DNL target.js] 引用（[!DNL at.js] 不需要包含 [!DNL target.js] 引用）
 
-有关实施 [!DNL at.js] 的更多信息，请参阅[如何部署 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556)。
+有关实施 [!DNL at.js] 的更多信息，请参阅[如何部署 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556)。
 
-有关实施 [!DNL mbox.js] 的更多信息，请参阅 [Mbox.js 实施](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
+有关实施 [!DNL mbox.js] 的更多信息，请参阅 [Mbox.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
 
 要详细了解这两个 Target Javascript 库之间的差异，请参阅 [at.js 的好处](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)。
 
@@ -198,8 +198,8 @@ function targetPageParams() {
 
 在感谢页面上，您可能想要显示订单总额、订单 ID 及已购产品，而不推荐任何其他项目。您可以再实施一个 mbox，以获取订单信息。
 
-* 如果您使用的是 at.js，请参阅[跟踪转化](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
-* 如果您使用的是 mbox.js，请参阅[创建订单确认 mbox - mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82)。
+* 如果您使用的是 at.js，请参阅[跟踪转化](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
+* 如果您使用的是 mbox.js，请参阅[创建订单确认 mbox - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82)。
 
 ## 设置 {#concept_C1E1E2351413468692D6C21145EF0B84}
 

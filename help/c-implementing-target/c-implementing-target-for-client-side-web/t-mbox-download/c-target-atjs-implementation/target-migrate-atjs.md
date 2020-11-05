@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 98%
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 可执行以下步骤以便从 [!DNL mbox.js] 迁移到 [!DNL at.js]，并检查您的迁移：
 
-1. 确定贵组织的[浏览器支持](../../../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)要求。
+1. 确定贵组织的[浏览器支持](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)要求。
 1. 检查网站当前的 [!DNL mbox.js] 实施，以查看是否存在不受 [!DNL at.js] 支持的功能。
 
    审核实施时，请考虑以下事项：
@@ -39,7 +39,7 @@ ht-degree: 98%
    >
    >有关上表中所提及的各种函数的更多信息，请参阅 [at.js 函数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
 
-   **您是否对[!DNL mbox.js]文件进行了任何自定义？**
+   **您是否对 [!DNL mbox.js] 文件进行了任何自定义？**
 
    * mboxParameters()
    * mboxSupported()
@@ -47,15 +47,15 @@ ht-degree: 98%
    * 额外 Javascript
    * 其他位置
 
-   大多数 [mbox.js 对象和方法](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)（例如 `mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories`，等等）都不受支持。一些替代方法或许可能实现您要尝试执行的操作。
+   大多数 [mbox.js 对象和方法](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)（例如 `mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories`，等等）都不受支持。一些替代方法或许可能实现您要尝试执行的操作。
 
-   **您的任何网页上是否有[!DNL mbox.js]？**
+   **您的任何网页上是否有 [!DNL mbox.js]？**
 
    不能在同一网页上同时使用 [!DNL at.js] 和 [!DNL mbox.js]。但是，可以在同一网站的两个不同页面上分别使用这两个 JavaScript 库。
 
    Adobe 主要使用 mbox Cookie 来跟踪访客在页面之间的行动轨迹。在 QA 过程中，当访客在具有 [!DNL at.js] 的页面和具有 [!DNL mbox.js] 的页面之间来回切换时，您应该确认该 Cookie 得以保留并可正确读取。不论访客先登陆网站的哪个区域（`mboxPC` 或 `mboxSession`），也不论最初是在哪个区域设置了 Cookie，都应确保 mbox 调用中传递了 [!DNL at.js] 和 [!DNL mbox.js] 值。如果您在实施中使用了第三方 Cookie，请确保浏览网站时这两个值保持不变。
 
-   **您是否将[!DNL Target]与任何其他 Adobe 解决方案集成？**
+   **您是否将 [!DNL Target] 与任何其他 Adobe 解决方案集成？**
 
    * Analytics (A4T)
    * Analytics（旧版集成）
@@ -64,9 +64,9 @@ ht-degree: 98%
    * AEM
    * Data Workbench
 
-   [!DNL at.js] 不支持某些旧版集成。有关更多信息，请参阅[集成](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)页面。
+   [!DNL at.js] 不支持某些旧版集成。有关更多信息，请参阅[集成](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)页面。
 
-   **您是否将[!DNL Target]与任何第三方工具集成？**
+   **您是否将 [!DNL Target] 与任何第三方工具集成？**
 
    * 其他 Analytics 工具
    * 其他 DMP
@@ -74,7 +74,7 @@ ht-degree: 98%
    * Click-tale
    * 其他
 
-   可能需要对这些集成进行调整，以使其可与 [!DNL at.js] 配合使用。有关更多信息，请参阅[集成](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)页面。
+   可能需要对这些集成进行调整，以使其可与 [!DNL at.js] 配合使用。有关更多信息，请参阅[集成](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)页面。
 
    **您是否使用了标签管理器？**
 
@@ -83,7 +83,7 @@ ht-degree: 98%
    * Tealium
    * Signal/BrightTag
 
-   有关更多信息，请参阅 [at.js 集成](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)。
+   有关更多信息，请参阅 [at.js 集成](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)。
 
    >[!NOTE]
    >
@@ -94,8 +94,8 @@ ht-degree: 98%
    在测试过程中，您可以执行下面一些操作，以确认 [!DNL at.js] 可按预期运行：
 
    * 确保当前所有活动均可与新的 JavaScript 库配合使用。
-   * 确认所有[集成](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)和[插件](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)均可按预期运行。
-   * 确保您可以顺利使用 [!DNL at.js] 提供的方法进行[调试](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)。
+   * 确认所有[集成](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)和[插件](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)均可按预期运行。
+   * 确保您可以顺利使用 [!DNL at.js] 提供的方法进行[调试](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)。
 
 **迁移到 at.js 时可能出现的问题**&#x200B;迁移到 at.js 后，有些客户报告了以下问题：
 
@@ -120,6 +120,6 @@ ht-degree: 98%
    HTML > BODY > DIV:nth-of-type(1)
    ```
 
-   有关如何使用代码编辑器执行此操作的更多信息，请参阅[代码编辑器](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)。
+   有关如何使用代码编辑器执行此操作的更多信息，请参阅[代码编辑器](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)。
 
-* 由于所有 mbox 现在均为异步，因此它们不会阻止页面按照其触发的顺序进行呈现或返回。有关更多信息，请参阅“异步注意事项”，此内容位于 [at.js 限制](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE)。
+* 由于所有 mbox 现在均为异步，因此它们不会阻止页面按照其触发的顺序进行呈现或返回。有关更多信息，请参阅“异步注意事项”，此内容位于 [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE)。

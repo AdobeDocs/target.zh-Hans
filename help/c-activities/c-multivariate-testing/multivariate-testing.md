@@ -5,7 +5,7 @@ title: 多变量测试
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 91%
@@ -31,7 +31,7 @@ ht-degree: 91%
 
 ![](assets/multivariate.png)
 
-由于可能生成大量的组合，因此多变量测试需要的时间和流量多于 A/B 测试。页面必须获得足够的流量才能为每个体验产生具有统计意义的结果。要获得有用的结果，您需要了解页面接收的流量，并在适当的一段时间内测试最佳组合数以获得所需结果。Target 的[流量估算器](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)可以帮助您设计适用于您的流量的测试。在使用流量估算器之前，您应已拥有合适的统计数据，该数据可显示您的网站通常会收到的展示次数和转化次数。思考一下您每天的流量级别。活动中的体验越多，活动需要包含的流量就越多，或者活动需要运行的时间就越长。如果您获得的流量不多，则应减少测试的组合数量；否则，产生有意义的测试结果所需的时间可能会过长而导致结果无用。
+由于可能生成大量的组合，因此多变量测试需要的时间和流量多于 A/B 测试。页面必须获得足够的流量才能为每个体验产生具有统计意义的结果。要获得有用的结果，您需要了解页面接收的流量，并在适当的一段时间内测试最佳组合数以获得所需结果。Target 的[流量估算器](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)可以帮助您设计适用于您的流量的测试。在使用流量估算器之前，您应已拥有合适的统计数据，该数据可显示您的网站通常会收到的展示次数和转化次数。思考一下您每天的流量级别。活动中的体验越多，活动需要包含的流量就越多，或者活动需要运行的时间就越长。如果您获得的流量不多，则应减少测试的组合数量；否则，产生有意义的测试结果所需的时间可能会过长而导致结果无用。
 
 ## MVT terminology {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -85,7 +85,7 @@ ht-degree: 91%
 * 使用[可视化体验编辑器 (VEC)](/help/c-experiences/experiences.md) 在 A/B 工作流中构建体验。您可以使用自定义代码、编辑 HTML、WYSIWYG 或任意组合。
 * 活动结束后（基于样本量计算器），通过该电子表格运行结果以获取其他详细信息。
 
-有关更多注意事项和最佳实践，请参阅[多变量测试最佳实践](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)。
+有关更多注意事项和最佳实践，请参阅[多变量测试最佳实践](/help/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)。
 
 ## 培训视频：
 

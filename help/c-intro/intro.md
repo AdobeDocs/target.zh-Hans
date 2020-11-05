@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 86%
@@ -38,7 +38,7 @@ Target Premium 包含以下高级功能：
 
 ### 自动个性化
 
-“[自动个性化](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)”提供高级机器学习机制帮助提供个性化体验并提高数字体验的转化率。
+“[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)”提供高级机器学习机制帮助提供个性化体验并提高数字体验的转化率。
 
 自动个性化（以前称为 Test&amp;Target 1:1）可记录网站上的访客活动，从而构建访客配置文件，以便能够将内容定位到类似访客。它跟踪个人和整体人群对内容的响应，然后使用精心设计的建模方法，通过汇总关于访客的所有已知信息，自动定位每个访客。
 
@@ -50,7 +50,7 @@ Target Premium 包含以下高级功能：
 
 ### 推荐
 
-[“推荐”活动可根据以往用户活动自动显示客户可能感兴趣的产品或内容。](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)“推荐”有助于将客户导向到他们可能还不知道的相关项目。
+[“推荐”活动可根据以往用户活动自动显示客户可能感兴趣的产品或内容。](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)“推荐”有助于将客户导向到他们可能还不知道的相关项目。
 
 推荐可根据客户在网站上的活动来确定向该客户推广产品的方式。例如：
 
@@ -79,13 +79,13 @@ Target Premium 包含以下高级功能：
 
 ### 企业用户权限
 
-[“企业用户权限](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) ”功能允许您创建不同的项目(在中称为“产品用户档案” [!DNL Adobe Admin Console for Enterprise])，以允许您为指定每个项目的用户分配不同权限。 这些不同的项目好比 [!DNL Adobe Analytics] 中各个报表包的工作方式。每个项目都可以拥有其特定用户，而这些用户可以具有适用于一组属性的特定角色。结果是，客户将能够根据区域、环境(dev/stage/prod)、渠道或其他自定义条件限制对用户的视图、编辑、批准和发布访问权限。
+[“企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) ”功能允许您创建不同的项目(在中称为“产品用户档案” [!DNL Adobe Admin Console for Enterprise])，以允许您为指定每个项目的用户分配不同权限。 这些不同的项目好比 [!DNL Adobe Analytics] 中各个报表包的工作方式。每个项目都可以拥有其特定用户，而这些用户可以具有适用于一组属性的特定角色。结果是，客户将能够根据区域、环境(dev/stage/prod)、渠道或其他自定义条件限制对用户的视图、编辑、批准和发布访问权限。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
 [!DNL Recommendations Classic] 可根据网站上以往的用户活动自动显示客户可能感兴趣的产品或内容。推荐可帮助将用户定向到若没有推荐他们可能无法了解到的项目，从而提高网站所产生的收入。
 
-有关更多信息，请参阅 [Recommendations Classic 文档](../assets/adobe-recommendations-classic.pdf)。
+有关更多信息，请参阅 [Recommendations Classic 文档](/help/assets/adobe-recommendations-classic.pdf)。
 
 ## Experience League：Adobe Target 欢迎工具包 {#kit}
 

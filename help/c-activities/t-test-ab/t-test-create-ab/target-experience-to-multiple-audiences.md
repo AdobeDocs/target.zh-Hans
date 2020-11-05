@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
@@ -44,7 +44,7 @@ ht-degree: 100%
 
    ![](assets/exp-versions.png)
 
-   如果受众尚不存在，请单击[创建受众](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)，然后对其进行设置。
+   如果受众尚不存在，请单击[创建受众](/help/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)，然后对其进行设置。
 
    如果访客符合多个受众的条件，则会返回适用于所有受众的内容，但页面上呈现的实际上是适用于列表中最后一个受众的内容。
 

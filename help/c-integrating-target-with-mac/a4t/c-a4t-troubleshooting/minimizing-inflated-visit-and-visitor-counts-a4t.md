@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 96%
@@ -50,8 +50,8 @@ Adobe 以数据的准确性和高质量而自豪。当触发 [!DNL Target] 标�
 * **未对齐报表包 ID（实施）：**&#x200B;在活动设置期间指定的报表包与交付测试的页面上的报表包不匹配。这看起来像局部数据，因为数据无法在 [!DNL Analytics] 服务器上进行协调。
 * **网页速度慢：**&#x200B;由于 [!DNL Target] 调用位于页面顶部，而 [!DNL Analytics] 调用通常位于页面底部，所以如果页面加载缓慢，则访客在 [!DNL Target] 调用触发之后、[!DNL Analytics] 调用触发之前离开该页面的可能性会增加。尤其是在连接速度通常较慢的移动设备网站上，这可能是一个问题。
 * **页面错误：**&#x200B;如果存在 JavaScript 错误或所有触点未触发的其他情况（Experience Cloud ID 服务、Target 和 Analytics），则会导致局部数据的产生。
-* **[!DNL Target]活动中的重定向选件**：对于使用了 A4T 的活动中所包含的重定向选件，您的实施必须满足某些最低要求。除此之外，还有一些重要信息需要您知悉。有关更多信息，请参阅[重定向选件 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)。
-* **库版本较旧：**&#x200B;过去一年，Adobe 对我们的 JavaScript 库（[!DNL appMeasurement.js]、`at.js/mbox.js` 和 `visitorAPI.js`）进行了一些改进，确保尽可能高效地发送数据。要了解有关实施要求的更多信息，请参阅[在实施之前](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)。
+* **[!DNL Target] 活动中的重定向选件**：对于使用了 A4T 的活动中所包含的重定向选件，您的实施必须满足某些最低要求。除此之外，还有一些重要信息需要您知悉。有关更多信息，请参阅[重定向选件 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)。
+* **库版本较旧：**&#x200B;过去一年，Adobe 对我们的 JavaScript 库（[!DNL appMeasurement.js]、`at.js/mbox.js` 和 `visitorAPI.js`）进行了一些改进，确保尽可能高效地发送数据。要了解有关实施要求的更多信息，请参阅[在实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)。
 
 ## 减少局部数据的最佳实践是什么？{#section_065C38501527451C8058278054A1818D}
 

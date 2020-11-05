@@ -6,7 +6,7 @@ feature: audiences
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 99%
@@ -47,9 +47,9 @@ ht-degree: 99%
 
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
-   * **类型：**&#x200B;定位或排除特定浏览器。请参阅[类型](../../../c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)。
-   * **语言：**&#x200B;定位或排除设置为使用特定语言的特定浏览器。请参阅[语言](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)。
-   * **版本：**&#x200B;定位或排除特定浏览器版本。请参阅[版本](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)。
+   * **类型：**&#x200B;定位或排除特定浏览器。请参阅[类型](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)。
+   * **语言：**&#x200B;定位或排除设置为使用特定语言的特定浏览器。请参阅[语言](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)。
+   * **版本：**&#x200B;定位或排除特定浏览器版本。请参阅[版本](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)。
 
 1. （可选）单击&#x200B;**[!UICONTROL 添加规则]**，然后为受众设置更多规则。
 1. 单击&#x200B;**[!UICONTROL 保存]**。

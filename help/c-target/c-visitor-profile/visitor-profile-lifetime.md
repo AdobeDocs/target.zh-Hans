@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 32853a516910358034bacaa58e594cfb1eb91f29
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 83%
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 默认情况下，访客配置文件会在访客处于不活动状态 14 天后过期。配置文件生命周期可延长。
 
-[请联系客户关怀团队或您的 Adobe 顾问](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，以免费延长配置文件生命周期。生命周期可设置为长达 90 天。
+[请联系客户关怀团队或您的 Adobe 顾问](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，以免费延长配置文件生命周期。生命周期可设置为长达 90 天。
 
 您使用的 [!DNL Target] JavaScript 库（[!DNL at.js] 或 [!DNL mbox.js]）决定了是否需要下载新文件：
 

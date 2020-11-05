@@ -6,10 +6,10 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 7284a37dde0d89e1c81ef3813f98d936a4eced3b
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 87%
+source-wordcount: '2014'
+ht-degree: 86%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 87%
 >[!NOTE]
 >
 >[!UICONTROL 自动定位]作为 [!DNL Target Premium] 解决方案的一部分提供。如果没有 [!DNL Target Premium] 许可证，则此功能在 [!DNL Target Standard] 中不可用。有关此许可证提供的各项高级功能的更多信息，请参阅 [Target Premium](/help/c-intro/intro.md)。
+>
+>[!UICONTROL 目标分析] (A4T)支持 [!UICONTROL 自动目标] 活动。 有关详细信息，请 [参阅创建将Analytics用作活动源的报告](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。
 
 ## 使用自动目标的真实成功案例 {#success}
 

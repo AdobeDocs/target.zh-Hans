@@ -6,7 +6,7 @@ feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 96%
@@ -52,7 +52,7 @@ ht-degree: 96%
 
 此数值表示再次运行测试时结果重复的可能性。置信度如果大于或等于 99.995%，则向上舍入为 100.00%。
 
-请参阅[置信水平别和置信区间](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)。
+请参阅[置信水平别和置信区间](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)。
 
 ## 零售数据 {#section_30A674731BA6440E9BB93C421BE990EE}
 
@@ -106,7 +106,7 @@ ht-degree: 96%
 
 ## 置信度计算及其离线执行方法 {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
-[下载的 CSV 报表](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)仅包含原始数据，而不包含计算量度，如 A/B 测试中使用的每位访客带来的收入、提升度或置信度。
+[下载的 CSV 报表](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)仅包含原始数据，而不包含计算量度，如 A/B 测试中使用的每位访客带来的收入、提升度或置信度。
 
 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
@@ -122,7 +122,7 @@ To calculate these calculated metrics, download the Target&#39;s [Complete Confi
 
 例如，如果您要优化每位访客的页面查看次数，您将需要导出特定期限内（或许是几天）每位访客查看页面的总次数样本（您只需要几千个数据点）。之后，您可以对每个值求平方，然后将总数相加（此处的运算顺序至关重要）。此“平方和”值随后可用在完整置信度计算器中。应在该电子表格的“收入”部分中使用这些值。
 
-**使用[!DNL Analytics]数据导出功能执行此操作：**
+**使用 [!DNL Analytics] 数据导出功能执行此操作：**
 
 1. 登录到 [!DNL Adobe Analytics]。
 1. 单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]**。

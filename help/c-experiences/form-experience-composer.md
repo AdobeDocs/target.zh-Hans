@@ -6,7 +6,7 @@ feature: form-based composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 79%
@@ -41,11 +41,11 @@ ht-degree: 79%
    >
    >在创建活动时创建手动输入的位置不会自动创建新位置。 位置名称仅保存在活动的上下文中。 当有内容投放调用时，将创建该位置。 在创建位置后，它将可用于其他活动，用于创建受众等。 从可用位置的下拉列表。
 
-1. 单击&#x200B;**[!UICONTROL 添加受众细化]**，然后为此活动选择一个或多个[受众](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
+1. 单击&#x200B;**[!UICONTROL 添加受众细化]**，然后为此活动选择一个或多个[受众](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
 
    ![](assets/location_refinements_2.png)
 
-   在基于表单的体验编辑器中，已将“细化”替换为完整受众功能。现有活动的细化功能已迁移到[仅限该活动的受众](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
+   在基于表单的体验编辑器中，已将“细化”替换为完整受众功能。现有活动的细化功能已迁移到[仅限该活动的受众](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
 1. 选择要在该位置中显示的内容类型。
 
    ![](assets/form_content.png)
@@ -100,8 +100,8 @@ ht-degree: 79%
 1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [创建 A/B 测试](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-* [创建体验定位活动](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-* [创建“推荐”活动](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [创建体验定位活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+* [创建“推荐”活动](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## 培训视频：基于表单的编辑器 ![教程徽章](/help/assets/tutorial.png)
 

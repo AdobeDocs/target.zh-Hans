@@ -6,7 +6,7 @@ feature: mvt
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1248'
 ht-degree: 96%
@@ -69,7 +69,7 @@ To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTR
 
 当选择 Analytics 作为 Target 的报告源时，您可以选择一个 Analytics 报表包来接收 Target 活动数据。要执行此操作，请先选择您的帐户绑定的任意 Analytics 公司，然后为活动选择合适的报表包。只有配置为连接至 Adobe Target 的报表包才可供选择。如果您看不到预期的报表包，请先注销 Adobe Experience Cloud，然后再重新登录以重试。如果报表包仍然没有出现在列表中，请联系客户关怀团队。
 
-为正确报告结果，Analytics for Target 需要使用跟踪服务器。“跟踪服务器”字段中将显示默认的跟踪服务器。如果您使用多个跟踪服务器，则应进行检查以确保此字段中包含正确的跟踪服务器。请参阅[使用 Analytics 跟踪服务器](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)，以了解更多信息。
+为正确报告结果，Analytics for Target 需要使用跟踪服务器。“跟踪服务器”字段中将显示默认的跟踪服务器。如果您使用多个跟踪服务器，则应进行检查以确保此字段中包含正确的跟踪服务器。请参阅[使用 Analytics 跟踪服务器](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)，以了解更多信息。
 
 如果您在帐户设置中指定了报表解决方案，则会使用指定的解决方案，并且此设置不可见。
 
@@ -142,7 +142,7 @@ To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTR
 * 选择递增计数、释放用户并允许再次进入，可指定用户再次进入活动后看到的体验。
 * 选择递增计数、释放用户并阻止再次进入，可指定用户将看到的活动内容的替代内容。
 
-请参阅[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)，以了解有关高级设置的更多信息。
+请参阅[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)，以了解有关高级设置的更多信息。
 
 ## 其他元数据 {#section_2E8917BEFB954480A4206B9E9E917F80}
 

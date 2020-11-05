@@ -5,7 +5,7 @@ title: 自动个性化常见问题解答
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1962'
 ht-degree: 85%
@@ -36,7 +36,7 @@ ht-degree: 85%
 
    * 如果 A/B...N 测试没有显示出各体验之间具有统计意义的显著差异，那么有可能您考虑的选件彼此之间差异不大、您选择的位置不会影响成功量度，或者优化目标在转化漏斗中的位置太远而不受您所选选件的影响。
 
-* 请务必使用[流量估算器](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)，以便您了解在自动个性化活动中构建个性化模型需要多长时间。
+* 请务必使用[流量估算器](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)，以便您了解在自动个性化活动中构建个性化模型需要多长时间。
 * 在开始活动之前，根据您的目标，确定控制与目标之间的分配。
 
    根据您的活动目标和所选控制的类型，可以考虑以下三种方案：
@@ -75,7 +75,7 @@ AP 活动产生提升需要四个因素：
 
 最好的做法是，首先使用简单、非个性化的 A/B 测试来确保组成活动体验的内容和位置对整体响应率真正地产生了影响。务必提前计算样本量，以确保有足够的样本以便看到合理的提升，并在一段固定的时间内运行 A/B 测试，且不要终止或对其进行任何更改。如果 A/B 测试显示一个或多个体验具有统计意义的提升，则个性化活动有可能会奏效。当然，即便体验的总体响应率没有差异，个性化也可能会起作用。通常来说，出现这个问题是因为，对优化目标没有较大影响的选件/位置被检测出具有统计学意义。
 
-有关更多信息，请参阅[自动个性化故障诊断](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA)。
+有关更多信息，请参阅[自动个性化故障诊断](/help/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA)。
 
 ### 自动个性化如何分配我的活动流量？{#section_4369364F77804E0D9B78BEE551DA5659}
 
@@ -89,7 +89,7 @@ AP 活动产生提升需要四个因素：
 
 ### 我需要等待多久才能构建模型？{#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-在您的活动中构建模型所需的时间长短通常取决于所选活动位置的流量和活动的成功量度。使用[流量估算器](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)来确定在您的活动中构建模型预计所需的时间。
+在您的活动中构建模型所需的时间长短通常取决于所选活动位置的流量和活动的成功量度。使用[流量估算器](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)来确定在您的活动中构建模型预计所需的时间。
 
 ### 我的活动中构建了一个模型。对该体验的访问是否为个性化的？{#section_51EA953C6D1D4A3185FC9DD290D66621}
 

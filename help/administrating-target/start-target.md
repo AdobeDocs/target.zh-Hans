@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 92%
@@ -49,7 +49,7 @@ ht-degree: 92%
    此时，您还没有为任何组设置权限以供您关联。
 1. 如有需要，请观看介绍 [!DNL Adobe Experience Cloud] 的相关视频。
 1. 要查看您的新权限并访问产品，请先注销 [!DNL Adobe Experience Cloud]，然后再重新登录。
-1. 继续下一步骤：[为您自己分配“审批者”角色](../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
+1. 继续下一步骤：[为您自己分配“审批者”角色](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
 ## 为您自己分配“审批者”角色 {#task_15CAA437A71444E2932B333D5E66A3C7}
 

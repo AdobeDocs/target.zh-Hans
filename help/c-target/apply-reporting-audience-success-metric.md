@@ -5,7 +5,7 @@ title: 在 Adobe Target 中将报表受众应用于成功量度
 feature: success metrics
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 “应用位置”下拉列表可以提供以下三个类别：进入活动的所有访客、仅限到达活动特定步骤的访客，或仅限到达转化步骤的访客。换言之，您可以指定访客必须到达活动登入页面上的 mbox，访客必须到达定义活动中间某个点处的 mbox，或访客必须到达活动结束时的转化 mbox。
 
-[成功量度](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)只有在为活动配置后才可用。如果您没有定义成功量度，您在“应用位置”下拉列表中将只会看到以下两个选项：“营销活动条目”和“转化”。
+[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)只有在为活动配置后才可用。如果您没有定义成功量度，您在“应用位置”下拉列表中将只会看到以下两个选项：“营销活动条目”和“转化”。
 
 将报表受众应用于成功量度时，请考虑以下信息：
 

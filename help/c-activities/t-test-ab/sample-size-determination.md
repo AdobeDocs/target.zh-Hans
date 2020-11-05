@@ -5,7 +5,7 @@ title: A/B 测试应该持续多长时间？
 feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3102'
 ht-degree: 75%
@@ -21,7 +21,7 @@ A successful [!UICONTROL A/B Test] activity requires an adequate number of visit
 
 >[!IMPORTANT]
 >
->在执行A/B测试时，活动过早是您可能会遇到的十大陷阱之一。 有关详细信息，请参 [阅十种常见的A/B测试陷阱以及如何避免](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)。
+>在执行A/B测试时，活动过早是您可能会遇到的十大陷阱之一。 有关详细信息，请参 [阅十种常见的A/B测试陷阱以及如何避免](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)。
 
 [!DNL Target] 提供工具，帮助确保您的活动拥有足够大的样本大小，以实现您的转化目标：自动分配。
 
@@ -37,7 +37,7 @@ The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL 自动分配可降低确
 
 使用[!UICONTROL 自动分配]功能时，[!DNL Target] 会在活动页面的顶部显示一个标记，在活动达到最低转化次数，且具有足够的置信度之前，该标记会一直指示“还没有入选者”。[!DNL Target]然后， 会通过在活动页面顶部显示一个徽章来确定入选体验。
 
-For more information, see [Auto-Allocate overview](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Adobe Target 样本量计算器 {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 

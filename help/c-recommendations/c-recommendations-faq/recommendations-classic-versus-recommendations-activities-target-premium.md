@@ -5,7 +5,7 @@ title: Recommendations Classic 与 Target Premium 中的“推荐”活动
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,14 +52,14 @@ ht-degree: 100%
 
 预先配置的标准按垂直行业、页面类型和实施进行排序。例如，您可以查找以下标准：适用于零售行业，要用在产品页面上，且显示属于某个特定类别（由 `entity.categoryID` 参数定义）的产品。
 
-有关使用和创建标准的更多信息，请参阅[标准](../../c-recommendations/c-algorithms/algorithms.md)。
+有关使用和创建标准的更多信息，请参阅[标准](/help/c-recommendations/c-algorithms/algorithms.md)。
 
 ## 工作流 {#section_76B4A26297BF422382DE2C79A2713D3C}
 
 [!DNL Recommendations] 工作流已得到简化。现在，您只需按照可视化工作流执行以下操作，而无需填写复杂的表单：
 
 1. 选择标准。
-1. 选择预先配置的 [design（设计）](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+1. 选择预先配置的 [design（设计）](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 1. 预览生成的推荐。
 
 ## 可视化预览 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}

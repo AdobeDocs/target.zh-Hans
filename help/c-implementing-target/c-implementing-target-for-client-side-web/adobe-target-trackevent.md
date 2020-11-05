@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a5a84e96ea3498140f4e0c9af4f75ec674bbf4b8
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 78%
@@ -18,7 +18,7 @@ ht-degree: 78%
 
 此函数会触发用户操作（例如点击和转化）报告请求。它不会在响应中交付活动。
 
-这些事件跟踪 mbox 调用可以用来定义活动中的量度。有关更多信息，请参阅[成功量度](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)和[跟踪转化](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
+这些事件跟踪 mbox 调用可以用来定义活动中的量度。有关更多信息，请参阅[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)和[跟踪转化](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
 
 以下是该 API 的详细信息：
 

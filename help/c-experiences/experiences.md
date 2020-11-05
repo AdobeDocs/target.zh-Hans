@@ -6,7 +6,7 @@ feature: experiences
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -26,6 +26,6 @@ Target 提供了以下体验编辑器：
 
 | 类型 | 详细信息 |
 | --- | --- |
-| [可视化体验编辑器 (VEC)](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | VEC 是 Adobe Target 的主要功能之一。通过 VEC 编辑器，营销人员和设计人员可以使用可视化界面创建和更改内容。无需直接编辑代码，便可进行多种设计选择。使用编辑器提供的编辑选项也可以编辑 HTML 和 JavaScript。 |
-| [基于表单的体验编辑器](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | 在基于表单的体验编辑器中，可采用非可视化方式创建体验。此功能允许通过电子邮件、网亭以及其他不适用于可视化体验编辑器的位置交付 Target Standard A/B 测试、体验定位、自动个性化和“推荐”活动。 |
+| [可视化体验编辑器 (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | VEC 是 Adobe Target 的主要功能之一。通过 VEC 编辑器，营销人员和设计人员可以使用可视化界面创建和更改内容。无需直接编辑代码，便可进行多种设计选择。使用编辑器提供的编辑选项也可以编辑 HTML 和 JavaScript。 |
+| [基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | 在基于表单的体验编辑器中，可采用非可视化方式创建体验。此功能允许通过电子邮件、网亭以及其他不适用于可视化体验编辑器的位置交付 Target Standard A/B 测试、体验定位、自动个性化和“推荐”活动。 |
 | [单页应用程序 (SPA) 可视化体验编辑器 (VEC)](/help/c-experiences/spa-visual-experience-composer.md) | 使用 SPA VEC，营销人员能够以 DIY（自己动手）方式创建测试并对 SPA 上的内容进行个性化，而无需持续依赖开发。VEC 可用于在常用框架（例如 React 和 Angular）上创建 A/B 测试和体验定位 (XT) 活动。 |

@@ -5,7 +5,7 @@ title: 处理库中的内容
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 1. 单击&#x200B;**[!UICONTROL 选件]**，选择&#x200B;**[!UICONTROL 代码选件]**&#x200B;或&#x200B;**[!UICONTROL 图像选件]**&#x200B;选项卡，然后找到要处理的资产。
 
-   有关搜索选件库和创建智能收藏集的更多信息，请参阅[过滤和搜索内容](../../c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)。
+   有关搜索选件库和创建智能收藏集的更多信息，请参阅[过滤和搜索内容](/help/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)。
 
 1. 将鼠标悬停在要处理的项目上，然后选择一项操作。要访问并执行以下某些操作，必须先单击“选择”图标（复选标记），然后选择所需的操作（例如“删除”）。
 

@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 100%
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 如果您所在的组织是跨国组织，则您可能拥有两个工作区：一个用于欧洲网页、属性或网站，而另一个用于美国网页、属性或网站。如果您所在的组织拥有多个品牌，则您的每个品牌可能有其独立的工作区。
 
-有关工作区和“企业用户权限”功能的更多信息，请参阅[企业用户权限](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
+有关工作区和“企业用户权限”功能的更多信息，请参阅[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
 
 如果您的环境中启用了“企业用户权限”，则可以将活动复制到同一工作区或其他工作区。当前，无法将活动从一个工作区移到另一个工作区。要将活动复制到其他工作区，请在“[!UICONTROL 活动]”页面中将鼠标悬停在要复制的活动上，单击“[!UICONTROL 复制]”图标，然后从下拉列表中选择所需的工作区。
 

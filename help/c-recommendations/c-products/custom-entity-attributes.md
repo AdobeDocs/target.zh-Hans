@@ -6,7 +6,7 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 90%
@@ -53,11 +53,11 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 
 >[!NOTE]
 >
->要将多值属性更改为单值属性，您必须删除目录并上传已更正的产品数据。删除目录不会删除与您的产品 ID 关联的历史数据。有关更多信息，请参阅 Adobe Recommendations Classic ** 文档中的[删除系统中的所有项目](../../assets/adobe-recommendations-classic.pdf)。
+>要将多值属性更改为单值属性，您必须删除目录并上传已更正的产品数据。删除目录不会删除与您的产品 ID 关联的历史数据。有关更多信息，请参阅 Adobe Recommendations Classic ** 文档中的[删除系统中的所有项目](/help/assets/adobe-recommendations-classic.pdf)。
 
 **限制**：
 
-* 您无法将预定义实体属性的名称用于自定义实体属性。（请参阅[实体属性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)。）
+* 您无法将预定义实体属性的名称用于自定义实体属性。（请参阅[实体属性](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)。）
 * `entity.environment` 属性由系统保留，该属性不能用于自定义实体属性。尝试使用 `entity.environment`、信息源或 API 来传递 `targetPageParams` 的操作将会被忽略。
 * 数组必须包含单值类型。不支持混合值数组 ( `["AB",1,true]` )。
 * 包含嵌套 JSON 数组 ( `[10,12,[1,2,3]]` ) 的多值属性会被视为单值属性。
@@ -263,4 +263,4 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 ## 相关主题：
 
-* [实体属性](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [实体属性](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)

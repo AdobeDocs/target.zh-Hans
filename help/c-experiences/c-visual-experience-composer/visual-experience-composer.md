@@ -4,7 +4,7 @@ title: Adobe Target 可视化体验编辑器 (VEC)
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -54,7 +54,7 @@ On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience 
 >
 >如果悬停状态依赖于 JavaScript，请确保未选中&#x200B;**[!UICONTROL 禁用 JavaScript]**。必须启用 JavaScript 才能编辑 JavaScript 元素。
 
-有关 VEC 中可用选项的信息，请参阅[可视化体验编辑器选项](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)。
+有关 VEC 中可用选项的信息，请参阅[可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)。
 
 您可以在页面加载时（或在页面加载失败后）对页面执行某些修改，也可以在 VEC 中取消页面加载。有关详细信息，请参阅：
 
@@ -133,7 +133,7 @@ On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience 
 
 ### 办公时间：Visual Experience Composer教 ![程徽章](/help/assets/tutorial.png)
 
-此视频是“[办公时间](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
+此视频是“[办公时间](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 
 * VEC 如何工作
 * 如何避免 VEC 中的常见问题

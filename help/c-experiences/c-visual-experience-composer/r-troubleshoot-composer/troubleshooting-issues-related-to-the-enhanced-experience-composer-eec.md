@@ -5,7 +5,7 @@ title: 对与增强型体验编辑器有关的问题进行故障诊断
 feature: vec
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 71%
@@ -41,13 +41,13 @@ ht-degree: 71%
 
    **补偿：** 允许列表上面列出的IP地址。
 
-* **问题：** IP地址已列入允许列表，但您的网站不支持TLS版本1.2。目标当前使用默认配置1.2。在目标18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。有关详细信息，请参阅 [TLS（传输层安全）加密更改](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+* **问题：** IP地址已列入允许列表，但您的网站不支持TLS版本1.2。目标当前使用默认配置1.2。在目标18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。有关详细信息，请参阅 [TLS（传输层安全）加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
    **解决方案：**&#x200B;请参阅下一个问题（增强型可视化体验编辑器无法加载使用 TLS 1.2 的网站上的安全页面）。
 
 ## EEC 无法加载使用 TLS 1.0 的网站上的安全页面。（仅 EEC）{#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-如果以上 IP 地址已列入白名单，但您的网站不支持 TLS 版本 1.2，则您可能会看到在上面“增强型可视化体验编辑器无法加载我网站上的安全页面”中所述的错误消息。if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+如果以上 IP 地址已列入白名单，但您的网站不支持 TLS 版本 1.2，则您可能会看到在上面“增强型可视化体验编辑器无法加载我网站上的安全页面”中所述的错误消息。if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 要使用 Firefox 检查您网站上的 TLS 版本（使用其他浏览器的步骤相似），请执行以下操作：
 
@@ -64,7 +64,7 @@ ht-degree: 71%
 
    ![](assets/firefox_more_info_3.png)
 
-1. 如果发现您的网站显示的是 TLS 1.0，请参阅 [TLS（传输层安全性）加密更改](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)，以获取有关 Target 的 TLS 支持政策的信息。目前要解决这种情况（有效期至 2018 年 9 月 12 日），请与[客户关怀](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)联系，以获取 TLS 版本和域的配置。
+1. 如果发现您的网站显示的是 TLS 1.0，请参阅 [TLS（传输层安全性）加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)，以获取有关 Target 的 TLS 支持政策的信息。目前要解决这种情况（有效期至 2018 年 9 月 12 日），请与[客户关怀](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)联系，以获取 TLS 版本和域的配置。
 
 ## 加载启用了代理的网站时，我遇到超时或“拒绝访问”错误。（仅 EEC）{#section_60CBB9022DC449F593606C0E6252302D}
 

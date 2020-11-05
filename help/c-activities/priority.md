@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 88%
@@ -29,7 +29,7 @@ Target 根据您使用的 Target 界面和活动创建功能（可视化体验�
    如果访客已经处于 A/B 测试或多变量测试中，则会将他们匹配到该测试，直至他们实现转化为止。如果访客之前处于体验定位活动中，则必须将他们再次匹配到该活动。如果访客符合相应的受众规则，则他们将进入这些活动和特定的体验。
 
 1. 访客匹配的所有活动和体验的内容会返回到页面。
-1. 如果每个活动的内容引用了不同的 [CSS 选择器](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)，则会显示所有内容。
+1. 如果每个活动的内容引用了不同的 [CSS 选择器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)，则会显示所有内容。
 
    如果 CSS 选择器出现重叠或重复，则会显示具有最高优先级的活动内容。页面上运行的所有活动的结果会进行计数，并反映在报表中。
 
@@ -90,7 +90,7 @@ If your company uses [!DNL Target] requests other than the global [!DNL Target] 
 
 >[!NOTE]
 >
->根据您的设置，优先级值会有所不同。您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。有关更多信息，请参阅[活动设置](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)。
+>根据您的设置，优先级值会有所不同。您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。有关更多信息，请参阅[活动设置](/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)。
 
 **两个目标经典活动使用非全局目标请求**
 

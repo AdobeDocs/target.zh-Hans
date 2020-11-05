@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 80%
@@ -26,7 +26,7 @@ ht-degree: 80%
 * 可选择遵守受众条件，在对体验外观进行 QA 时，营销人员可以选择测试定位标准或忽略定位标准，而不一定非要满足受众条件.
 * 可捕获 QA 报表，以便营销人员能够确认量度可按预期递增，并且 QA 报表数据可与生产报表（对于非 A4T 报表）分开保存。
 * 能够单独预览体验或与满足投放标准的其他实时活动(页面/目标请求/受众)一起。
-* 能够对整个用户历程进行 QA。在活动 QA 过程中，只需使用 QA 链接访问网站一次，即可浏览整个网站。您可以一直停留在“活动 QA”模式中，直到您结束会话或使用 [Target QA 书签](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)强制自己退出此模式。如果您的活动涉及多个网页，此功能会特别有用。
+* 能够对整个用户历程进行 QA。在活动 QA 过程中，只需使用 QA 链接访问网站一次，即可浏览整个网站。您可以一直停留在“活动 QA”模式中，直到您结束会话或使用 [Target QA 书签](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)强制自己退出此模式。如果您的活动涉及多个网页，此功能会特别有用。
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ ht-degree: 80%
 
       如果将此设置切换到“关”位置，请考虑以下几点：
 
-      * 如果您测试的活动与其他实时活动之间存在冲突，则会应用[常规的优先级规则](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)。因此，您可能看不到想要对其进行 QA 的活动。
+      * 如果您测试的活动与其他实时活动之间存在冲突，则会应用[常规的优先级规则](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)。因此，您可能看不到想要对其进行 QA 的活动。
       * 量度会在已查看的活动中递增，但这仅限于 QA 报表环境。
 
 1. 单击 **[!UICONTROL 完成]**，以保存所做的更改。
@@ -66,17 +66,17 @@ ht-degree: 80%
 
 ## 注意事项 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* 各类型活动（自动个性化 (AP) 活动除外）的“[!UICONTROL 概述]”页面上均会显示“[!UICONTROL 活动 QA]”链接。对于 AP 活动，您可以使用[预览链接](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC)。
+* 各类型活动（自动个性化 (AP) 活动除外）的“[!UICONTROL 概述]”页面上均会显示“[!UICONTROL 活动 QA]”链接。对于 AP 活动，您可以使用[预览链接](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC)。
 * 如果帐户中保存的活动过多，则可能无法加载已保存活动的活动 QA 预览链接。重试预览链接应该有效。为了防止这种情况继续发生，请存档将不再积极使用的已保存活动。
 * 活动 QA URL 适用于将 Analytics 用作报表源 (A4T) 的活动。使用“活动 QA”执行 QA 时生成的点击将与活动数据传输到同一个报表包，即使在激活活动后也是如此。
 * “活动 QA”不会显示已存档活动或已过期活动的内容。如果停用已结束的活动，则必须再次保存该活动才能使“活动 QA”生效。
 * Target Standard/Premium 中导入的活动（例如从 Target Classic 导入）不支持 QA URL。
 * 在自动分配、自动定位和“推荐”活动中，该模式不会受在活动 QA 中捕获的访问次数的影响。
-* 活动 QA 具有粘滞性，因此以“活动 QA”模式浏览网站后，您必须终止 Target 会话，或者需要让 Target 将您从“活动 QA”模式中释放出来，然后才能像普通访客一样查看您的网站。可使用 [Target QA 书签](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)强制自己退出“活动 QA”模式。
+* 活动 QA 具有粘滞性，因此以“活动 QA”模式浏览网站后，您必须终止 Target 会话，或者需要让 Target 将您从“活动 QA”模式中释放出来，然后才能像普通访客一样查看您的网站。可使用 [Target QA 书签](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)强制自己退出“活动 QA”模式。
 
    您也可以手动强制自己退出该模式，方法是在网站上使用具有空值的 `at_preview_token` 参数（例如 `https://www.mysite.com/?at_preview_token=`）来加载页面。
 
-* 如果在创建活动时指定了“URL is”[基于表单的编辑器中的细化](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)或[可视化体验编辑器中的页面交付选项](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，则 QA URL 将无效，因为活动 QA 会附加 URL 参数。要解决此问题，请单击 QA URL 以转到您的网站，并从该 URL 中删除附加的参数，然后再加载新的 URL。
+* 如果在创建活动时指定了“URL is”[基于表单的编辑器中的细化](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)或[可视化体验编辑器中的页面交付选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，则 QA URL 将无效，因为活动 QA 会附加 URL 参数。要解决此问题，请单击 QA URL 以转到您的网站，并从该 URL 中删除附加的参数，然后再加载新的 URL。
 * 如果您有at.js 1。*如果*&#x200B;您使用Safari或其他阻止第三方cookie的浏览器，x或mbox.js的活动QA模式将不会粘滞。 在这些情况下，您必须将预览参数添加到您导航到的每个URL。 如果您已实现CNAME，情况也 [是如此](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)。
 * 如果一个活动使用了多个体验受众（例如同一个活动中同时包含一个美国网站和一个英国网站），则不会为存在的四种组合（体验 A/美国网站，体验 A/英国网站，体验 B/美国网站，体验 B/英国网站）各生成一个 QA 链接。而是只会创建两个 QA 链接（体验 A 和体验 B），且用户必须符合相应受众条件才能看到相应的页面。例如，英国的 QA 用户将无法看到美国网站。
 * 所有 `at_preview` 参数和值均已进行 URL 编码。在大多数情况下，一切都会按预期运行；但是，有些客户使用的负载平衡器或 Web 服务器可能会尝试对查询字符串参数再次进行编码。

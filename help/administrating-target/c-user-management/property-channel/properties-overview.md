@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 68%
@@ -48,7 +48,7 @@ For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], acce
 
 当您开始使用新的[!UICONTROL 属性]功能时，必须在 [!DNL Adobe Admin Console for Enterprise] 中执行所有用户管理。但是，[!DNL Target] 中的所有现有用户都将从 [!DNL Target] 迁移到 [!DNL Admin Console for Enterprise]。
 
-1. [在 Admin Console 中](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)，单击页面顶部的&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加用户]**，以创建新用户或编辑现有用户。
+1. [在 Admin Console 中](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)，单击页面顶部的&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加用户]**，以创建新用户或编辑现有用户。
 1. 按照《企业用户指南》**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/enterprise/help/users.html)中的说明进行操作。
 
 ## 步骤 2. Create a workspace (product profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -118,7 +118,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
    * **描述：**&#x200B;为属性指定可选描述。
    * **渠道：**&#x200B;为属性选择所需的渠道：Web、移动设备应用程序、电子邮件或其他/API（例如机顶盒或 PlayStation 游戏机）。
 
-1. Click **[!UICONTROL Copy]** to copy the code to your clipboard that you&#39;ll use while performing the steps in [5: Update Your Implementation to Include the at_property Parameter](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
+1. Click **[!UICONTROL Copy]** to copy the code to your clipboard that you&#39;ll use while performing the steps in [5: Update Your Implementation to Include the at_property Parameter](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
 1. 完成后单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!NOTE]
@@ -128,9 +128,9 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
 
-**获取`at_property`参数代码：**
+**获取 `at_property` 参数代码：**
 
-1. （视情况而定）使用您在执行 [4. 创建属性](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD)中的步骤时生成并保存到剪贴板的实施代码，继续执行步骤 2。
+1. （视情况而定）使用您在执行 [4. 创建属性](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD)中的步骤时生成并保存到剪贴板的实施代码，继续执行步骤 2。
 
    或
 
@@ -148,11 +148,11 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    您可以通过多种方法来更新 [!DNL Target] 实施。例如，对于网页，可以使用以下方法：
 
-   * **通过[!DNL Adobe Launch]中的“全局参数”：**
+   * **通过 [!DNL Adobe Launch] 中的“全局参数”：**
 
       For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
-   * **通过[!DNL Dynamic Tag Management]中的“全局参数”：**
+   * **通过 [!DNL Dynamic Tag Management] 中的“全局参数”：**
 
       ![](assets/property_token_2.png)
 

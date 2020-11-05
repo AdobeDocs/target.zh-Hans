@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 63%
@@ -125,7 +125,7 @@ You can shorten the amount of time the [!DNL Target] variable persists down to a
 The following list explains reasons why the same visitor could be counted in multiple experiences in [!DNL Analytics]:
 
 * The [!DNL Target] profile expired but the [!DNL Analytics] cookie is still there. In this situation, [!DNL Target] re-evaluates the user but [!DNL Analytics] considers the visitor to be the same person.
-* 如果访客正在使用 `mbox3rdPartyId`，则当匿名访客与其第三方 ID 配置文件合并时， 可能会将该访客带入不同的体验以与第三方 ID 匹配。[!DNL Target]有关更多信息，请参阅 [mbox3rdPartyID 的实时配置文件同步](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)。
+* 如果访客正在使用 `mbox3rdPartyId`，则当匿名访客与其第三方 ID 配置文件合并时， 可能会将该访客带入不同的体验以与第三方 ID 匹配。[!DNL Target]有关更多信息，请参阅 [mbox3rdPartyID 的实时配置文件同步](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)。
 * [!DNL Analytics] 跟踪不同设备时，可能采用与跟踪这些设备不同的方 [!DNL Target] 式跟踪同一访客:中的第三方ID设置与 [!DNL Target] 分析中的设置不同。
 
 ## A4T 是否支持虚拟报表包？

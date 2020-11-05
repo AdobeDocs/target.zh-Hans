@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
@@ -26,7 +26,7 @@ ht-degree: 64%
 
 使用体验预览URL与团队成员共享体验，并跨浏览器和环境提供QA体验，无需创建单独的QA活动。 如果网站很复杂，或者您的安全策略不允许在模拟器中查看网站，则此功能将特别有用。
 
-1. 创建[自动个性化活动](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)，或单击相应的活动以将其打开。
+1. 创建[自动个性化活动](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)，或单击相应的活动以将其打开。
 
    无需激活活动，即可预览体验。
 1. 在活动摘要页面上，单击三个垂直排列的圆点图标，然后单击&#x200B;**[!UICONTROL 查看体验 URL]**。

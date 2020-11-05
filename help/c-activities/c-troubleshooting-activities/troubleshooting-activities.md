@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 79%
@@ -20,7 +20,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->除了以下故障诊断信息之外，还可以参阅 [Target 故障诊断](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)，以获取指向以下内容的链接：其他故障诊断主题、常见问题解答，以及有关 [!DNL Adobe Target] 中活动故障诊断以及其他功能的其他有用信息。
+>除了以下故障诊断信息之外，还可以参阅 [Target 故障诊断](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)，以获取指向以下内容的链接：其他故障诊断主题、常见问题解答，以及有关 [!DNL Adobe Target] 中活动故障诊断以及其他功能的其他有用信息。
 
 以下章节包含您可能遇到的问题及建议的解决方案。
 
@@ -82,7 +82,7 @@ ht-degree: 79%
 * 请求您的帐户管理员将您设为“审批者”。
 * If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
-   请参阅[为您自己分配“审批者”角色](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
+   请参阅[为您自己分配“审批者”角色](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
 ## 设置活动后，页面的结构发生了更改。
 
@@ -92,7 +92,7 @@ ht-degree: 79%
 
 * 重新构建活动。
 
-有关页面修改如何影响 Target 显示功能的更多信息，请参阅[页面修改方案](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+有关页面修改如何影响 Target 显示功能的更多信息，请参阅[页面修改方案](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
 
 ## 页面的结构在页面加载期间（运行时）发生了修改。
 
@@ -105,7 +105,7 @@ ht-degree: 79%
 * 更新页面代码，以使其唯一标识将测试的每个元素（使用 id）。
 * 停止对上述类或同级元素进行动态修改。
 
-有关页面修改如何影响 Target 显示功能的更多信息，请参阅[页面修改方案](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+有关页面修改如何影响 Target 显示功能的更多信息，请参阅[页面修改方案](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
 
 ## mbox.js 使所有后续代码弹出标头部分，而进入主体部分。
 

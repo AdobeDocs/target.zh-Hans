@@ -5,7 +5,7 @@ title: Adobe TargetRecommendations常见问题解答
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -66,7 +66,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果您所用位置的 mbox 中存在类别 ID，则标准选择器中将包含所有适用标准。
 
-Target 提供了一个[筛选不兼容的标准](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)设置，可用于控制算法选择器的智能筛选。
+Target 提供了一个[筛选不兼容的标准](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)设置，可用于控制算法选择器的智能筛选。
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ Target 在应用程序级别施加了 50 MB 的发布限制；但是，仅当您
 
 ## 可用于信息源上传的 CSV 文件的最大大小是多少？ {#section_20F1AF4839A447B9889B246D6E873538}
 
-对于上传信息源的 CSV 文件，其行数或文件大小没有硬性限制。但是，作为最佳实践，我们建议将 CSV 文件大小限制为 1 GB，以避免在文件上传过程中出现故障。如果文件大小超过 1 GB，最好将其拆分为多个信息源文件。自定义属性列的最大数量为 100，自定义属性限制为 4,096 个字符。有关所需列长度的其他限制，请参阅 [Target 限制页面](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)。
+对于上传信息源的 CSV 文件，其行数或文件大小没有硬性限制。但是，作为最佳实践，我们建议将 CSV 文件大小限制为 1 GB，以避免在文件上传过程中出现故障。如果文件大小超过 1 GB，最好将其拆分为多个信息源文件。自定义属性列的最大数量为 100，自定义属性限制为 4,096 个字符。有关所需列长度的其他限制，请参阅 [Target 限制页面](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)。
 
 ## 我可以动态排除实体吗？
 

@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 94%
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 ## Analytics for Target (A4T) 是否支持重定向选件？{#section_46B8B03ED4D542C6AD875F5F61176298}
 
-是，但前提是您的实施使用 [!DNL at.js]。但是，您的实施必须满足下列最低要求，才能在使用 Analytics 作为报表源的活动中使用[重定向选件](../../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
+是，但前提是您的实施使用 [!DNL at.js]。但是，您的实施必须满足下列最低要求，才能在使用 Analytics 作为报表源的活动中使用[重定向选件](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
 
 >[!NOTE]
 >

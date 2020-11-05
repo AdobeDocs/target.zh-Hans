@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 31%
@@ -94,7 +94,7 @@ XT 活动应始终包含一个控制体验。如果您使用 XT 活动的方式�
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-有关环境的更多信息，请参阅[主机](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
+有关环境的更多信息，请参阅[主机](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
 
 ## 为什么我的A/B或MVT活动中体验之间的流量分配不均？ {#uneven}
 

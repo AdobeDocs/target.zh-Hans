@@ -6,7 +6,7 @@ feature: client-side
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 100%
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 您的帐户仅支持一个全局 mbox。
 
-您可以通过向活动中添加 URL 规则来限制活动运行的位置。有关更多信息，请参阅[在相似页面上包含相同体验](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)。
+您可以通过向活动中添加 URL 规则来限制活动运行的位置。有关更多信息，请参阅[在相似页面上包含相同体验](/help/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)。
 
 您还可以在页面上使用 [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 来传递参数，然后在 [!UICONTROL 可视化体验编辑器] (VEC) 的“配置 URL”部分选择这些参数，或者在基于表单的体验编辑器中通过将参数添加为“细化”来选择这些参数。
 
@@ -30,9 +30,9 @@ ht-degree: 100%
 
 要在 target-global-mbox 中收集收入和订单信息，必须将“mbox 参数”发送到 Target。这些参数是名称/值对，用于将更多信息发送到 Target。Target 会自动查找这些参数（保留名称），以使用它们来填充收入数据。
 
-对于 `orderConfirmPage`，您应该传入 `orderTotal`、`orderId` 和 `productPurchasedId`。有关更多信息，请参阅[创建订单确认 mbox - mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82)。
+对于 `orderConfirmPage`，您应该传入 `orderTotal`、`orderId` 和 `productPurchasedId`。有关更多信息，请参阅[创建订单确认 mbox - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82)。
 
-必须通过 `targetPageParams()` () 将这些相同的参数发送到 target-global-mbox。有关更多信息，请参阅[将参数传递到全局 Mbox](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5)。
+必须通过 `targetPageParams()` () 将这些相同的参数发送到 target-global-mbox。有关更多信息，请参阅[将参数传递到全局 Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5)。
 
 您可能还想要向转化中添加定位功能，以便 Target 仅在有人查看了订单确认页面后才在 target-global-mbox 中计入转化次数，如下所示：
 

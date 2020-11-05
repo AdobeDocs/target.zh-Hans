@@ -5,7 +5,7 @@ title: Adobe TargetRecommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%
@@ -21,7 +21,7 @@ ht-degree: 59%
 >
 >[!DNL Recommendations] 活动作为 [Target Premium 解决方案](/help/c-intro/intro.md#premium)的一部分提供。如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
 >
->如果您目前拥有 [!DNL Recommendations Classic]，则请参阅 [Recommendations Classic 与 Target Premium 中的“推荐”活动](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5)以了解有关这两种解决方案的更多信息。
+>如果您目前拥有 [!DNL Recommendations Classic]，则请参阅 [Recommendations Classic 与 Target Premium 中的“推荐”活动](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5)以了解有关这两种解决方案的更多信息。
 
 [!DNL Recommendations] 可帮助您在各种渠道、应用程序、页面、电子邮件消息以及其他交付选项中优化并自定义实时建议，从而提高参与度和转化，同时简化管理工作。
 
@@ -44,7 +44,7 @@ ht-degree: 59%
 | 向访客推荐与其正在观看的媒体内容相似的内容，以增加访客在媒体网站上的停留时间。 | 使用“查看了这个项目，也查看了那个项目的人”标准，创建一个推荐来推荐其他视频。 |
 | 建议查看有关银行储蓄计划信息的客户也阅读 IRA 帐户相关信息。 | 使用“查看了这个项目，但购买了那个项目的人”标准，显示人们查看某个产品后购买的其他产品，而不显示推荐中的第一个产品。 |
 
-有关上述标准及其他 [!DNL Recommendations] 标准的更多信息，请参阅[标准](../c-recommendations/c-algorithms/algorithms.md)。
+有关上述标准及其他 [!DNL Recommendations] 标准的更多信息，请参阅[标准](/help/c-recommendations/c-algorithms/algorithms.md)。
 
 ## 术语
 

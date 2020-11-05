@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 98%
@@ -20,13 +20,13 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->除了选择现有受众之外，您还可以合并多个受众来创建临时组合受众，而不是创建新受众。有关更多信息，请参阅[合并多个受众](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
+>除了选择现有受众之外，您还可以合并多个受众来创建临时组合受众，而不是创建新受众。有关更多信息，请参阅[合并多个受众](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
 在[!UICONTROL 受众]框中，单击“编辑”图标（三个垂直省略号），然后单击&#x200B;**[!UICONTROL 替换受众]**。
 
 ![“替换受众”选项](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-默认情况下，所有访客都是您的受众。但是，您可以更改受众。您可以从受众库中选择受众，也可以创建仅限该活动的受众。受众库中包含以前定义的受众，其中包括作为 Target 的一部分预先构建的一些常用受众。您可以从库中选择受众、[创建新受众](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)或[创建仅限该活动的受众](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。对于未定位特定受众的 A/B 测试，请选择默认设置，即“所有访客”。
+默认情况下，所有访客都是您的受众。但是，您可以更改受众。您可以从受众库中选择受众，也可以创建仅限该活动的受众。受众库中包含以前定义的受众，其中包括作为 Target 的一部分预先构建的一些常用受众。您可以从库中选择受众、[创建新受众](/help/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)或[创建仅限该活动的受众](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。对于未定位特定受众的 A/B 测试，请选择默认设置，即“所有访客”。
 
 请注意，您还可以编辑或复制受众，方法是将鼠标悬停在“[!UICONTROL 选择受众]”对话框中的所需受众上（如下图所示）。如果您想要创建一个与现有受众类似的受众，则复制受众很有用。您可以制作受众的副本，对其进行编辑，然后将其另存为新受众。其他类型的活动中也提供了这一鼠标悬停功能。
 
@@ -44,7 +44,7 @@ ht-degree: 98%
 
 ![受众百分比](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-您还可以选择让 Target [自动分配流量](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+您还可以选择让 Target [自动分配流量](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
 ## 培训视频
 
@@ -73,4 +73,4 @@ ht-degree: 98%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-有关详细信息，请参阅[受众](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
+有关详细信息，请参阅[受众](/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。

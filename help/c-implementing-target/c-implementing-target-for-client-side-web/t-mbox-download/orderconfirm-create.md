@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 85%
@@ -23,7 +23,7 @@ ht-degree: 85%
 >* 如果用户在您的网站上进行购买，那么即使您使用了 Analytics for Target (A4T) 进行报告，我们也仍然建议您实施订单确认 mbox。
    >
    >
-* 您还可以为at.js 1创建订单确认mbox。*x* 采用相同方法；但是， [!DNL at.js] 方法是首选。 有关更多信息，请参阅[跟踪转化](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
+* 您还可以为at.js 1创建订单确认mbox。*x* 采用相同方法；但是， [!DNL at.js] 方法是首选。 有关更多信息，请参阅[跟踪转化](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)。
    >
    >
 * 如果您使用at.js 2。*x*, `mboxCreate` 不再受支持。 使用at.js 2进行订单确认。*x*，使用以下跟踪相关API: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) 和 [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)。

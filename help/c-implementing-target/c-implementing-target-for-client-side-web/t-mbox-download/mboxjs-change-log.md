@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2320'
 ht-degree: 98%
@@ -22,11 +22,11 @@ ht-degree: 98%
 >
 >我们建议所有 mbox.js 用户都升级到版本 57 或更高版本。有些用户遇到了超时问题，无法加载 `target.js`。版本 57 已修复该问题。但是，如果您正在使用 [!DNL Experience Cloud Visitor ID] 服务，则要求使用版本 58 或更高版本。
 
-Target 如何响应从您的页面发出的调用，取决于您使用的 Target 库的版本、访客 ID 实施是否存在以及访客 ID 是否存在。有关信息，请参阅 [Target 按库版本响应调用](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0)。
+Target 如何响应从您的页面发出的调用，取决于您使用的 Target 库的版本、访客 ID 实施是否存在以及访客 ID 是否存在。有关信息，请参阅 [Target 按库版本响应调用](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0)。
 
 >[!NOTE]
 >
->mbox.js 库将不再开发。所有客户都应该从 mbox.js 迁移到 at.js。有关更多信息，请参阅[从 mbox.js 迁移到 at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
+>mbox.js 库将不再开发。所有客户都应该从 mbox.js 迁移到 at.js。有关更多信息，请参阅[从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
 
 ## mbox.js 版本 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
@@ -96,7 +96,7 @@ window.targetGlobalSettings = {
 
 * 版本 60 导步调用
 
-   在将版本 60 与访客 ID 服务一起使用时，所有 mbox 调用都以异步方式发起。这改变了 mbox 一直以来的工作方式，因此请谨慎升级到此版本。请参阅 [ 文档中的](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953)异步注意事项[!DNL at.js]部分（[!DNL at.js] 也使用异步调用）以了解可能面临的部分风险。
+   在将版本 60 与访客 ID 服务一起使用时，所有 mbox 调用都以异步方式发起。这改变了 mbox 一直以来的工作方式，因此请谨慎升级到此版本。请参阅 [ 文档中的](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953)异步注意事项[!DNL at.js]部分（[!DNL at.js] 也使用异步调用）以了解可能面临的部分风险。
 * 新访客可能遇到闪烁的情况
 
    将版本 58 到版本 60 与访客 ID 服务一起使用时，mbox 调用在触发之前（或在发生超时之前），将一直等待设置访客 ID。这种情况发生在新访客首次加载页面时。

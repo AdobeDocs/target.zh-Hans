@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 此信息可帮助您的技术人员了解 mbox.js 实施以及它可能会对您的网站有何影响。
 
-Target Standard 要求使用 [!DNL mbox.js] 版本 58 或更高版本。有关如何下载和更新 [!DNL mbox.js] 的说明，请参阅 [Mbox 实施](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
+Target Standard 要求使用 [!DNL mbox.js] 版本 58 或更高版本。有关如何下载和更新 [!DNL mbox.js] 的说明，请参阅 [Mbox 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
 
 对于 Target Standard，[!DNL mbox.js] 会调用另一个 JavaScript 文件 [!DNL target.js]。[!DNL Target.js] 由 Adobe 托管，并由 Adobe 自动更新。您不需要执行任何操作即可更新 [!DNL target.js]，而且也不存在任何特定于客户端的自定义设置。
 
@@ -50,4 +50,4 @@ Target Standard 要求使用 [!DNL mbox.js] 版本 58 或更高版本。有关�
 
 如果您是在 Angular 网站或任何单页应用程序 (SPA) 中实施 Target，您应该使用 at.js 库，而不应使用 mbox.js。
 
-有关更多信息，请参阅 [at.js 实施](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)。
+有关更多信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)。

@@ -5,7 +5,7 @@ title: A/B测试概述
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 38%
@@ -33,7 +33,7 @@ A manual [!UICONTROL A/B Test] activity (sometimes referred to as an A/B...N tes
 
 >[!NOTE]
 >
->有关确定 A/B 测试最佳样本大小的详细信息，请参阅[规划 A/B 测试](../../c-activities/t-test-ab/sample-size-determination.md)。
+>有关确定 A/B 测试最佳样本大小的详细信息，请参阅[规划 A/B 测试](/help/c-activities/t-test-ab/sample-size-determination.md)。
 
 如果不同体验的数量超过 5 个，且这些体验位于两个或更多位置，则最好在运行 A/B 测试之前先运行 [MVT 测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md)。多变量测试可显示页面中的哪些区域最有可能提高转化。这些是营销人员应该关注的位置。例如，多变量测试可能会显示促使用户采取行动的位置对达成目标最为重要。确定哪些位置和内容对帮助您实现目标最有用后，您可以运行A/B测试以进一步优化结果，例如测试两个特定图像，或比较行动号召的措辞或颜色。 通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
 

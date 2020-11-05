@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 99%
@@ -30,7 +30,7 @@ ht-degree: 99%
 
 在三步引导式工作流中，您可以在活动的[!UICONTROL 定位]页面上创建临时组合受众。
 
-1. 创建[活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在 **[!UICONTROL Target]** 页面上单击三个垂直省略号，然后单击&#x200B;**[!UICONTROL 替换受众]**。
+1. 创建[活动](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在 **[!UICONTROL Target]** 页面上单击三个垂直省略号，然后单击&#x200B;**[!UICONTROL 替换受众]**。
 
    ![步骤结果](assets/edit_audience.png)
 
@@ -82,7 +82,7 @@ ht-degree: 99%
 
 您可以在活动的“[!UICONTROL 目标和设置]”页面上创建一个临时组合受众，以将其用于量度定位。例如，可以使用组合受众创建基于转化的定位：
 
-1. 编辑或创建[活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上选择&#x200B;**[!UICONTROL 转化]**&#x200B;作为成功量度，然后选择已查看 Mbox **[!UICONTROL 作为操作。]**
+1. 编辑或创建[活动](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上选择&#x200B;**[!UICONTROL 转化]**&#x200B;作为成功量度，然后选择已查看 Mbox **[!UICONTROL 作为操作。]**
 1. 在&#x200B;**[!UICONTROL 搜索 mbox]** 字段中选择所需的 mbox。
 
    ![](assets/combine_multiple_audiences4.png)
@@ -92,17 +92,17 @@ ht-degree: 99%
 
    ![](assets/combine_multiple_audiences5.png)
 
-1. 执行“创建活动时创建组合受众”中的[步骤 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以创建组合受众。
+1. 执行“创建活动时创建组合受众”中的[步骤 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以创建组合受众。
 
 ## 创建用于报表的组合受众 {#section_4682D342EFBB43C38E54B99B3A1E14CD}
 
 您可以在活动的“[!UICONTROL 目标和设置]”页面上创建一个临时组合受众，以将其用于报表。
 
-1. 编辑或创建[活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上单击&#x200B;**[!UICONTROL 报表的受众]**&#x200B;下方的“[!UICONTROL 添加受众]”图标，以显示“[!UICONTROL 选择受众]”页面。
+1. 编辑或创建[活动](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上单击&#x200B;**[!UICONTROL 报表的受众]**&#x200B;下方的“[!UICONTROL 添加受众]”图标，以显示“[!UICONTROL 选择受众]”页面。
 
    ![](assets/combine_multiple_audiences6.png)
 
-1. 执行“创建活动时创建组合受众”中的[步骤 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以创建组合受众。
+1. 执行“创建活动时创建组合受众”中的[步骤 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以创建组合受众。
 
 ## 编辑活动时创建组合受众 {#section_364A12CE96E04B61B7C18113AA586C2C}
 
@@ -122,4 +122,4 @@ ht-degree: 99%
 
    ![更改受众](/help/c-target/assets/combine_multiple_audiences8.png)
 
-1. 执行“创建活动时创建组合受众”中的[步骤 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以创建组合受众。
+1. 执行“创建活动时创建组合受众”中的[步骤 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以创建组合受众。

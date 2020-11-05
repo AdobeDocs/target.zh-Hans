@@ -5,7 +5,7 @@ title: 个性化分析报表
 feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 71%
@@ -30,7 +30,7 @@ ht-degree: 71%
 * [!UICONTROL 只有从] “报告量度”下拉列表 [!UICONTROL 中选择] “主要目标”后，才 [!UICONTROL 能使用“个性化] 分析”报表。
    >
    >
-* 仅[默认环境](../../administrating-target/hosts.md)支持个性化分析报表。
+* 仅[默认环境](/help/administrating-target/hosts.md)支持个性化分析报表。
    >
    >
 * [!UICONTROL 个性化] “分析”报表仅针对处于“实时  ”状态且已激活并接收至少15天流量的活动生成。

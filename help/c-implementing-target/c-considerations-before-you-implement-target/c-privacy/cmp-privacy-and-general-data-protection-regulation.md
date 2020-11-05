@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8b722ea47119eb71df56209d53e0e34f4c14461a
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2250'
 ht-degree: 93%
@@ -73,9 +73,9 @@ window.targetGlobalSettings = {
 
 使用选择加入功能时需要考虑三种情景：
 
-1. **已通过[!DNL Launch]预批准[!DNL Target]标记（或者数据主体以前已经批准[!DNL Target]）：**[!DNL Target] 标记不适用于征求同意，且会发挥预期的作用。
-1. **[!DNL Target]标记没有获得预批准且`bodyHidingEnabled`设置为 FALSE：**&#x200B;只有在收到客户的同意之后，才会触发 [!DNL Target] 标记。在收到客户同意之前，仅默认内容可用。在收到客户同意之后，将调用 [!DNL Target] 并向数据主体（访客）提供个性化内容。因为在收到同意之前仅默认内容可用，所以利用适当的策略显得尤为重要，例如对可覆盖网页任何区域或内容的醒目页面进行自定义。这可确保数据主体（访客）获得一致的体验。
-1. **[!DNL Target]标记没有获得预批准且`bodyHidingEnabled`设置为 TRUE：**&#x200B;只有在收到客户的同意之后，才会触发 [!DNL Target] 标记。在收到客户同意之前，仅默认内容可用。但是，因为 `bodyHidingEnabled` 设置为 true，`bodyHiddenStyle` 会指示在触发 [!DNL Target] 标记之前页面上需要隐藏的内容（或者数据主体拒绝使用选择加入功能，这种情况下会显示默认内容）。By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. 我们推荐采用下面的页面配置，以便隐藏除同意管理器对话框之外的整个页面正文，方法是将页面内容放在一个容器，而将同意管理器对话框放在另一容器中。这种设置会配置 [!DNL Target]，以便仅隐藏页面内容容器。关于如何配置这些设置的信息，请参阅 [ Launch 文档](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
+1. **已通过 [!DNL Launch] 预批准 [!DNL Target] 标记（或者数据主体以前已经批准 [!DNL Target]）：**[!DNL Target] 标记不适用于征求同意，且会发挥预期的作用。
+1. **[!DNL Target] 标记没有获得预批准且 `bodyHidingEnabled` 设置为 FALSE：**&#x200B;只有在收到客户的同意之后，才会触发 [!DNL Target] 标记。在收到客户同意之前，仅默认内容可用。在收到客户同意之后，将调用 [!DNL Target] 并向数据主体（访客）提供个性化内容。因为在收到同意之前仅默认内容可用，所以利用适当的策略显得尤为重要，例如对可覆盖网页任何区域或内容的醒目页面进行自定义。这可确保数据主体（访客）获得一致的体验。
+1. **[!DNL Target] 标记没有获得预批准且 `bodyHidingEnabled` 设置为 TRUE：**&#x200B;只有在收到客户的同意之后，才会触发 [!DNL Target] 标记。在收到客户同意之前，仅默认内容可用。但是，因为 `bodyHidingEnabled` 设置为 true，`bodyHiddenStyle` 会指示在触发 [!DNL Target] 标记之前页面上需要隐藏的内容（或者数据主体拒绝使用选择加入功能，这种情况下会显示默认内容）。By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. 我们推荐采用下面的页面配置，以便隐藏除同意管理器对话框之外的整个页面正文，方法是将页面内容放在一个容器，而将同意管理器对话框放在另一容器中。这种设置会配置 [!DNL Target]，以便仅隐藏页面内容容器。关于如何配置这些设置的信息，请参阅 [ Launch 文档](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
 
    适用于情景 3 的推荐页面设置是：
 
@@ -121,7 +121,7 @@ window.targetGlobalSettings = {
 
 ### 应数据主体/用户的请求，[!DNL Adobe] 允许我们的客户删除哪些信息？{#section_4B51D00924EC4166B2442218B69214F0}
 
-在 [!DNL Target] 中，与单独访客有关的信息是包含在 [!DNL Target] 访客配置文件中。[!DNL Target] 允许我们的客户删除其访客配置文件中所有与 ID 关联的数据。有关 [!DNL Target] 存储的配置文件数据的示例，请参阅[访客配置文件](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)。
+在 [!DNL Target] 中，与单独访客有关的信息是包含在 [!DNL Target] 访客配置文件中。[!DNL Target] 允许我们的客户删除其访客配置文件中所有与 ID 关联的数据。有关 [!DNL Target] 存储的配置文件数据的示例，请参阅[访客配置文件](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)。
 
 未标识特定个人的聚合或匿名数据（例如，报表数据）或与特定个人无关的数据（例如，内容数据），不在用户删除请求的范围之内。
 
@@ -296,7 +296,7 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 
 ### Target 是否支持 IP 模糊处理？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-如果您选择将 IP 模糊处理用作 GDPR 或 CCPA 实施策略的一部分，则 [!DNL Target] 支持 IP 模糊处理。有关更多信息，请参阅[隐私](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)。
+如果您选择将 IP 模糊处理用作 GDPR 或 CCPA 实施策略的一部分，则 [!DNL Target] 支持 IP 模糊处理。有关更多信息，请参阅[隐私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)。
 
 ### 我是否需要采取一些措施来防止我的数据被共享或出售给第三方？
 

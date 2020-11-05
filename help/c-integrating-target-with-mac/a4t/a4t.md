@@ -7,7 +7,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 46%
@@ -45,7 +45,7 @@ Every metric is included, including any customer or calculated metrics that are 
 
 在考虑使用 A4T 时，请牢记以下几点：
 
-* To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [请联系您的帐户代表](../../cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)，以便使用这些解决方案。
+* To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [请联系您的帐户代表](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)，以便使用这些解决方案。
 * 为每个活动设置报表源。[!DNL Target] 继续收集要在报告中使用的 [!DNL Target] ，如果您希望根据收集的活动来收集数据，数据仍可 [!DNL Target]用。
 * 您只能使用一个报表源。您无法从两个报表源为单个活动收集数据。
 * When using A4T, all success metrics available to your activities are [!DNL Analytics] metrics. 但是，您的目标量度可以基于 mbox 调用。For example, you can use Target&#39;s out-of-the-box click-tracking capabilities with A4T instead of having to implement [!DNL Analytics] click-tracking code.
@@ -124,7 +124,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 ### 分析/目标集成(A4T)(40:33)教 ![程徽章](/help/assets/tutorial.png)
 
-此视频是“[办公时间](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
+此视频是“[办公时间](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 
 * 如何设置集成并验证集成可正常工作
 * 集成的工作原理

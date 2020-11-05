@@ -5,7 +5,7 @@ title: 搜索内容并创建智能收藏集
 feature: offers
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
@@ -19,8 +19,8 @@ ht-degree: 100%
 
 本节包含以下信息：
 
-* [按关键字搜索资产](../../c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [保存智能收藏集](../../c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
+* [按关键字搜索资产](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
+* [保存智能收藏集](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
 
 ## 按关键字搜索资产 {#section_2465A71BC95942588F586B1EC8B9E5DB}
 

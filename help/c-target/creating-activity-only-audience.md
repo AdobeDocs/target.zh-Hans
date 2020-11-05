@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 * 您可以使用仅限该活动的受众来创建只想使用一次且不想存储到[!UICONTROL 受众库]中的受众。这样可防止[!UICONTROL 受众库]中堆满您绝不想再次使用的受众。
 * 仅限该活动的受众在[!UICONTROL 受众库]中是不可见的。因此，可以避免组织中的他人对其进行不必要的更改。
 
-1. 创建[活动](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在 **[!UICONTROL Target]** 页面上单击三个垂直省略号，然后单击&#x200B;**[!UICONTROL 替换受众]**。
+1. 创建[活动](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在 **[!UICONTROL Target]** 页面上单击三个垂直省略号，然后单击&#x200B;**[!UICONTROL 替换受众]**。
 
    ![步骤结果](assets/edit_audience.png)
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 1. 选择规则类型。
 
-   每种规则类型都有其自身的参数。请参阅[受众类别](../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)，以详细了解如何配置每种类型的受众规则。
+   每种规则类型都有其自身的参数。请参阅[受众类别](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)，以详细了解如何配置每种类型的受众规则。
 
 1. 定义规则参数。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
@@ -53,5 +53,5 @@ ht-degree: 100%
 * 现有活动的细化规则已迁移到仅限该活动的受众。
 * 仅限该活动的受众具有两种状态：“[!UICONTROL 已使用]”或“[!UICONTROL 未使用]”。未使用的仅限该活动的受众在保存活动后将不会显示。如果将仅限该活动的受众保留为“未使用”状态，在您尝试保存活动时，系统会显示一条警告消息，告知您未使用的仅限该活动的受众将被删除。
 * 您可以从受众选取器中访问弹出卡片，以查看该卡片上的受众定义详细信息，而无需打开受众。
-* 您可以[合并多个受众](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)，以创建仅限该活动的受众。
+* 您可以[合并多个受众](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)，以创建仅限该活动的受众。
 

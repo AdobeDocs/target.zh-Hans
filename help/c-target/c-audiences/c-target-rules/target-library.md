@@ -5,7 +5,7 @@ title: 目标图书馆在Adobe Target受众
 feature: audiences
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 96%
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 可基于预先构建的定位规则定位用户。
 
-“定位库”类别中预先构建的受众是旧版受众，它们存在于其他类别中。有关更多信息和最佳实践，请参阅[定位和受众常见问题解答](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D)。
+“定位库”类别中预先构建的受众是旧版受众，它们存在于其他类别中。有关更多信息和最佳实践，请参阅[定位和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D)。
 
 1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。

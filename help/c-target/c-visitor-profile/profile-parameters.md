@@ -6,7 +6,7 @@ feature: visitor profiles
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 77%
@@ -122,7 +122,7 @@ if (mbox.name == 'Track_Interest') {
 * 引用了未定义的变量。
 * 引用了无效值。这通常是由于未进行正确验证而引用 URL 值和其他用户输入数据所导致。
 * 使用了过多 JavaScript 指令。Target 限制每个脚本只能使用 2,000 条 JavaScript 指令，但这不能简单地通过人工读取 JavaScript 的方式来计算。例如，Rhino 会将所有函数调用和“新”调用视为 100 条指令。这意味着对任何函数的任何调用都会消耗100个指令。 此外，任何输入数据（例如 URL 值）的大小可能会对指令计数产生影响。
-* 不遵循以下[最佳实践](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0)部分重点列举的项目。
+* 不遵循以下[最佳实践](/help/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0)部分重点列举的项目。
 
 ## 最佳实践 {#best}
 
@@ -179,7 +179,7 @@ if (mbox.name == 'Track_Interest') {
 
 **是否可以使用配置文件脚本捕获位于数据层中的页面信息？**
 
-由于配置文件脚本在服务器端执行，因此它们无法直接读取页面。数据必须通过 mbox 请求或其他[将数据传入 Target 的方法](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)传递。数据传入 Target 中后，配置文件脚本可以将数据作为 mbox 参数或配置文件参数读取。
+由于配置文件脚本在服务器端执行，因此它们无法直接读取页面。数据必须通过 mbox 请求或其他[将数据传入 Target 的方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)传递。数据传入 Target 中后，配置文件脚本可以将数据作为 mbox 参数或配置文件参数读取。
 
 ## 脚本配置文件参数的 JavaScript 引用
 

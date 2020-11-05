@@ -6,7 +6,7 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 22%
@@ -20,7 +20,7 @@ Information about using experience fragments created in [!DNL Adobe Experience M
 
 >[!NOTE]
 >
->This feature requires that you are an [!DNL Adobe Experience Manager] ([!DNL AEM]) customer. 有关更多信息，请参阅下面的[要求](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)。
+>This feature requires that you are an [!DNL Adobe Experience Manager] ([!DNL AEM]) customer. 有关更多信息，请参阅下面的[要求](/help/c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)。
 
 ## 概述 {#section_95A91830530F493B81C5C9CDB9B783EA}
 
@@ -98,11 +98,11 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 >[!NOTE]
 >
->To fully utilize the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) while creating an A/B Test.
+>To fully utilize the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) while creating an A/B Test.
 
 **要使用VEC使用体验片段，请执行以下操作：**
 
-1. 在中 [!DNL Target]，在可视体验编写器中创建或编辑 [体验时](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)，单击页面上要插入内容的位置，然 [!DNL AEM] 后选择所需的选项以显示  选择体验片段列表。
+1. 在中 [!DNL Target]，在可视体验编写器中创建或编辑 [体验时](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)，单击页面上要插入内容的位置，然 [!DNL AEM] 后选择所需的选项以显示  选择体验片段列表。
 
    * [!UICONTROL 此项前插入]
    * [!UICONTROL 此项后插入]
@@ -122,16 +122,16 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
    有关配置各种类型的活动的更多信息，请参阅以下主题：
 
    * **A/B 测试：**[创建 A/B 测试](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **自动分配：**[自动分配](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **自动分配：**[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **自动目标:**[自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)
-   * **自动个性化 (AP)：**[创建自动个性化活动](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **体验定位 (XT)：**[创建体验定位活动](../../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **多变量测试 (MVT)：**[创建多变量测试](../../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
-   * **推荐：**[创建“推荐”活动](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+   * **自动个性化 (AP)：**[创建自动个性化活动](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **体验定位 (XT)：**[创建体验定位活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **多变量测试 (MVT)：**[创建多变量测试](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
+   * **推荐：**[创建“推荐”活动](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 **要使用基于表单的体验书写器使用体验片段，请执行以下操作：**
 
-1. 在基 [!DNL Target]于表单的体验编写器中创 [建或编辑体验时](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，选择页面上要插入内容的位置，然后选 [!DNL AEM] 择更改体验片段 **[!UICONTROL ，以显示]** 选择体验片段列表。
+1. 在基 [!DNL Target]于表单的体验编写器中创 [建或编辑体验时](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，选择页面上要插入内容的位置，然后选 [!DNL AEM] 择更改体验片段 **[!UICONTROL ，以显示]** 选择体验片段列表。
 
    ![](assets/experience_fragment_list.png)
 

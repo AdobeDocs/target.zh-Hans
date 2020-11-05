@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 25%
@@ -24,7 +24,7 @@ Target can be integrated with [!DNL Adobe Dynamic Media Classic] (formerly [!DNL
 
 If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials. If you do not have an account, you can request a restricted-use [!DNL Dynamic Media Classic] account at no additional charge from your [!DNL Adobe] representative. This account can be used for purposes restricted for use in [!DNL Target] only. 当客户的工作流需要使用图像交换功能时，他们可以使用此服务。
 
-If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. 配置此设置后，在可视体验书写器(VEC)和基于表单的体验书写器 [中都可以使用交换／更改图像优惠的选项](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。 You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
+If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. 配置此设置后，可在Visual Experience Composer(VEC)和基于表单的Experience Composer中 [使用交换／更改图像优惠的选项](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。 You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 
 在活动创建过程中，如果您想要在选件或自定义代码中直接引用公共图像 URL，则应当将图像部署到您自己的 Web 服务器并在代码中使用您自己的 URL。There is no way to obtain the published URL of an image uploaded into the [!DNL Experience Cloud] to consume directly or outside of targeting workflows using [!DNL Target]. 按照合同规定，不允许使用此功能。
 

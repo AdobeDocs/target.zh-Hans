@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 61%
@@ -32,7 +32,7 @@ ht-degree: 61%
 
 Adobe 会分阶段地将客户移到 TLS 1.2。针对域已经符合 1.2 的客户，我们会将其移到 TLS 1.2，而不需要您做出任何更改。大多数客户域已支持TLS 1.2;但是，如果您的域不支持TLS 1.2，我们将像今天一样（2020年3月之前）将这些域保留在TLS 1.1上。
 
-在此迁移阶段，您应该不会遇到任何问题。如果 VEC 停止加载早期运行的某个网站，请[打开客户关怀票证](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，将此迁移作为可能的原因。
+在此迁移阶段，您应该不会遇到任何问题。如果 VEC 停止加载早期运行的某个网站，请[打开客户关怀票证](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，将此迁移作为可能的原因。
 
 但是，如果您是使用TSL 1.1但不支持TLS 1.2的客户之一，则您应计划将域／基础结构移动到TLS 1.2。我们将继续支持TLS 1.1协议，直到2020年3月1日。 从2020年3月1日开始，目标将不支持要通过增强体验书写器功能用于VEC的TLS 1.1协议。
 
@@ -58,7 +58,7 @@ Adobe 会分阶段地将客户移到 TLS 1.2。针对域已经符合 1.2 的客�
 * 请注意，Target 报表中的访客数量可能会显示略微降低。
 * 您可能需要更改专门为目标不支持TLS 1.2的旧设备或浏览器而创建的受众。对这些设备和浏览器的投放将不再有效。
 
-For more details about supported browsers and their versions, see [Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+For more details about supported browsers and their versions, see [Supported Browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## Adobe Target API {#section_88797FA5434049EC89F908853CC76903}
 
@@ -70,7 +70,7 @@ For more details about supported browsers and their versions, see [Supported Bro
 
 ## Access to Experience Cloud Solutions interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-由于 Target Standard/Premium 界面已要求使用[现代化的 Web 浏览器](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)，因此我们预计不会出现任何问题。如果您无法连接 Target，则应将您的浏览器升级到最新版本。
+由于 Target Standard/Premium 界面已要求使用[现代化的 Web 浏览器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)，因此我们预计不会出现任何问题。如果您无法连接 Target，则应将您的浏览器升级到最新版本。
 
 ## How to check which TLS version your browser uses {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 

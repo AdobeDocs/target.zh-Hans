@@ -6,7 +6,7 @@ feature: mvt
 solution: Target
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 98%
@@ -18,10 +18,10 @@ ht-degree: 98%
 
 可在多变量测试中使用量度来确定访问何时被视为成功。
 
-有关成功量度的详细信息，请参阅[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
+有关成功量度的详细信息，请参阅[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
 1. 指定活动目标。
-1. 选择[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. 选择[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![设置量度列表](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
    正确配置成功量度对于确保获得您预期的数据至关重要。
 
-   有关更多信息，请参阅[成功量度](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
+   有关更多信息，请参阅[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 1. （可选）添加其他量度。
 1. 完成设置量度时，单击&#x200B;**[!UICONTROL 继续]**。
 请注意，在命名或重命名量度时，不允许使用以下字符：

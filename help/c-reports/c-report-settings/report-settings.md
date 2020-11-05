@@ -5,7 +5,7 @@ title: 报表设置
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 68%
@@ -94,17 +94,17 @@ Information to help you set the elements you want to appear in your report in [!
 
 ## 报表量度 {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-单击&#x200B;**[!UICONTROL 报表量度]**&#x200B;下拉列表以选择要在图表中显示的其他[成功量度](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)或多个量度。
+单击&#x200B;**[!UICONTROL 报表量度]**&#x200B;下拉列表以选择要在图表中显示的其他[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)或多个量度。
 
 默认情况下，主量度在创建活动时的成功量度设置中确定。如果您更改该设置并重新保存活动，则报表的主量度会随之更新。
 
-有关选择要在报表中查看的多个量度的更多信息，请参阅[在报表中查看多个量度](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7)。
+有关选择要在报表中查看的多个量度的更多信息，请参阅[在报表中查看多个量度](/help/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7)。
 
 ## 受众 {#section_70926EB4618945D9AFF2B0564FF3717B}
 
 单击[!UICONTROL 受众]下拉列表以更改报表中显示的受众。
 
-有关更多信息，请参阅[受众](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
+有关更多信息，请参阅[受众](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
 
 ## 日期范围 {#section_A410A768403C4E01891F95CB357E63ED}
 
@@ -149,7 +149,7 @@ Information to help you set the elements you want to appear in your report in [!
 
 ### 环境
 
-选择要用于报告的环境（主机组）。 有关更多信息，请参阅[主机](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
+选择要用于报告的环境（主机组）。 有关更多信息，请参阅[主机](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
 
 ### 重置报表数据
 
@@ -161,7 +161,7 @@ Information to help you set the elements you want to appear in your report in [!
 
 ### 排除极端值
 
-The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. 有关更多信息，请参阅[排除超常订单](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)。
+The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. 有关更多信息，请参阅[排除超常订单](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)。
 
 ## 下载 {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
@@ -169,7 +169,7 @@ Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv
 
 ![下载图标](/help/c-reports/c-report-settings/assets/download-icon.png)
 
-有关更多信息，请参阅[将数据下载到 CSV 文件](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)。
+有关更多信息，请参阅[将数据下载到 CSV 文件](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)。
 
 ## 刷新 {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -194,7 +194,7 @@ Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and grap
 
 报表包含一些数据点和可视化图表，有助于了解与您的活动相关的提升度范围和置信水平。这可帮助您更准确地确定入选者。
 
-有关更多信息，请参阅[平均提升度、提升度范围和置信区间](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129)。
+有关更多信息，请参阅[平均提升度、提升度范围和置信区间](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129)。
 
 请考虑以下事项：
 

@@ -5,7 +5,7 @@ title: 可视化体验编辑器和增强型体验编辑器故障诊断
 feature: vec
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -21,7 +21,7 @@ VEC 是 Adobe Target 的主要功能之一。通过 VEC 编辑器，营销人员
 
 EEC 是 VEC 的一个扩展，可帮助您编辑尚未包含 Target 实施的防 iframe 嵌套网站或页面的体验。如果您无法在 VEC 中打开页面，请尝试使用 EEC。
 
-有关 VEC 和 EEC 的信息，请参阅[体验](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
+有关 VEC 和 EEC 的信息，请参阅[体验](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
 请注意，有些问题会影响 VEC 和 EEC 两种编辑器，有些问题仅影响其中一种编辑器。请查看相应页面获取更多信息。
 

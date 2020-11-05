@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 69%
@@ -31,7 +31,7 @@ ht-degree: 69%
 
 * 找出哪个登陆页能引起更多的转化
 
-有关确定正确设置的帮助信息，请参阅 [不基于 JavaScript 的实施](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)。
+有关确定正确设置的帮助信息，请参阅 [不基于 JavaScript 的实施](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)。
 
 ## Create a redirector {#redirector}
 
@@ -66,10 +66,10 @@ ht-degree: 69%
    1. *安全最佳实践*:确保重定向器中使用的域列入允许列表被，如上所示。 如果您使用的域未列入允许列表,Adobe将阻止对该域的任何调用，以阻止恶意行为者使用重定向器重定向到可能的恶意域。
    1. 将重定向器 URL 插入到浏览器中并刷新。
    1. 登录到您的帐户，刷新 mbox 列表，然后验证以 mbox 形式列出的新的重定向器。
-1. 如果您要为一个广告测试不同目标，则请为每个版本创建[重定向选件](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
+1. 如果您要为一个广告测试不同目标，则请为每个版本创建[重定向选件](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
 1. 创建营销活动。
 
-   请参阅[不基于 JavaScript 的实施](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)，以了解如何正确设置来实现您的目标。
+   请参阅[不基于 JavaScript 的实施](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)，以了解如何正确设置来实现您的目标。
 1. 完成营销活动质量保证工作。
 
    使用包含重定向器 URL 的 `<a href>` 创建一个虚拟页面。示例：

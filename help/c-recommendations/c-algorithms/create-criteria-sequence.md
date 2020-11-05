@@ -5,7 +5,7 @@ title: 创建标准序列
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 36%
@@ -86,7 +86,7 @@ ht-degree: 36%
 
    标准序列随即会显示在“标准”列表中。
 
-   有关推荐逻辑选项的更多信息，请参阅[标准](../../c-recommendations/c-algorithms/algorithms.md)。
+   有关推荐逻辑选项的更多信息，请参阅[标准](/help/c-recommendations/c-algorithms/algorithms.md)。
 
 ## 培训视频：在“推荐”中创建标准 (12:33) ![教程徽章](/help/assets/tutorial.png)
 

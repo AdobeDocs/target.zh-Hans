@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 94%
@@ -25,7 +25,7 @@ Target Standard 和 Premium 使用修改版的 Adobe Target mbox.js 文件。
 1. 单击&#x200B;**[!UICONTROL 下载 mbox.js]**，然后根据提示操作，以保存该文件。
 1. （视情况而定）如果您使用的是 [!DNL mbox.js] 版本 60 或更高版本，则可以对库进行配置，以便在默认情况下自动隐藏页面内容直到 mbox 加载为止，从而减少响应式网站上出现闪烁情况。
 
-   有关更多信息，请参阅 [mbox.js 高级设置](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C)中的“禁止页面加载闪烁”。
+   有关更多信息，请参阅 [mbox.js 高级设置](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C)中的“禁止页面加载闪烁”。
 
 1. 在网站上创建 [!DNL mbox.js] 引用。
 

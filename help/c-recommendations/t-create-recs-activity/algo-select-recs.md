@@ -5,7 +5,7 @@ title: 选择标准
 feature: recs creation
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 translation-type: tm+mt
-source-git-commit: 8ae2bf479a9b53693f830515aee55573987bb05b
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 80%
@@ -25,11 +25,11 @@ Select the [criteria](/help/c-recommendations/c-algorithms/algorithms.md) to use
 
    [!DNL Recommendations] 中提供了一些自带标准。您和您的团队也可以创建自己的自定义标准。
 
-* To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 有关创建新标准的信息，请参阅[创建新标准](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
+* To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 有关创建新标准的信息，请参阅[创建新标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)。
 
 **选择标准：**
 
-1. While [creating a new recommendation](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), in the **[!UICONTROL Select Criteria]** dialog box, locate and select one or more criteria.
+1. While [creating a new recommendation](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), in the **[!UICONTROL Select Criteria]** dialog box, locate and select one or more criteria.
 
    ![“选择标准”对话框](/help/c-recommendations/t-create-recs-activity/assets/filters.png)
 

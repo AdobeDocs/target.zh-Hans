@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
@@ -36,7 +36,7 @@ You can tell whether your organization has a Standard or Premium license by clic
 
 >[!IMPORTANT]
 >
->Ensure that you read the [Caveats](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with enterprise permissions.
+>Ensure that you read the [Caveats](/help/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with enterprise permissions.
 
 ## Terms and definitions used in this section {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
@@ -260,7 +260,7 @@ Consider the following when using or configuring properties and permissions in [
 
 ### 我是否可以将活动从一个工作区移动到另一个工作区？
 
-很遗憾，您无法将活动从一个工作区移动到另一个工作区。但是，您可以将活动复制到任何工作区，因为报表数据不会延续。有关详细信息，请参阅[使用工作区时复制/编辑活动](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)中的“使用工作区时复制/编辑活动”。
+很遗憾，您无法将活动从一个工作区移动到另一个工作区。但是，您可以将活动复制到任何工作区，因为报表数据不会延续。有关详细信息，请参阅[使用工作区时复制/编辑活动](/help/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)中的“使用工作区时复制/编辑活动”。
 
 迁移之前创建的活动将继续在默认工作区中以相同的方式运行，除非已对它们进行编辑，已为它们分配属性。特定工作区下的活动将会获得分配给该工作区的属性，因此，其行为可能与迁移之前有所不同。
 

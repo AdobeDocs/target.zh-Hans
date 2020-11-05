@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 48%
@@ -68,14 +68,14 @@ Admin users are identified in the [!UICONTROL Users] list. 如果您需要更改
 
 必须在 [!DNL Adobe Admin Console for Enterprise] 中执行所有用户管理。但是，[!DNL Target] 中的所有现有用户都将从 [!DNL Target] 迁移到 [!DNL Admin Console for Enterprise]。
 
-1. [在Admin Console中](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)，单 **[!UICONTROL 击“用户]****[!UICONTROL ”>“]** 用户”以创建新用户或编辑现有用户。
+1. [在Admin Console中](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)，单 **[!UICONTROL 击“用户]****[!UICONTROL ”>“]** 用户”以创建新用户或编辑现有用户。
 1. 按照《企业用户指南》**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/enterprise/help/users.html)中的说明进行操作。
 
 ## Create user groups {#user-groups}
 
 您可以创建用户组（例如开发人员、分析师、营销人员、管理人员等），然后为其分配多个 Adobe 产品和工作区中的相应权限。为新团队成员分配不同 Adobe 产品中的所有相应权限的过程就像将他们添加到某个特定用户组一样简单。
 
-1. [在Admin Console中](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)，单 **[!UICONTROL 击“用户]****[!UICONTROL ”>“]** 用户组”以创建新用户组或编辑现有用户组。
+1. [在Admin Console中](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)，单 **[!UICONTROL 击“用户]****[!UICONTROL ”>“]** 用户组”以创建新用户组或编辑现有用户组。
 1. 按照《企业用户指南》**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/enterprise/help/users.html)中的说明进行操作。
 
 ## Specify roles and permissions {#roles-permissions}
@@ -84,7 +84,7 @@ Admin users are identified in the [!UICONTROL Users] list. 如果您需要更改
 
 系统管理员用户必须将用户添加到系统中。系统不会自动添加用户。They are invited by email from the [!DNL Experience Cloud] and must confirm their email addresses before their accounts are registered.
 
-1. [](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)在 Admin Console 中，单击&#x200B;**[!UICONTROL 产品]**，然后选择所需产品的名称。
+1. [](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)在 Admin Console 中，单击&#x200B;**[!UICONTROL 产品]**，然后选择所需产品的名称。
 
    ![“产品”选项卡](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 

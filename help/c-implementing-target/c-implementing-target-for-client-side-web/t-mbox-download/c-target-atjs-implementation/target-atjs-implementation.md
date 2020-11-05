@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 96%
@@ -63,7 +63,7 @@ at.js 库是适用于 [!DNL Adobe Target] 的新实施库，专为典型的 Web 
 
 ## 培训视频：at.js - 优势和实施最佳实践 ![概述徽章](/help/assets/overview.png)
 
-此视频是“[办公时间](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
+此视频是“[办公时间](/help/cmp-resources-and-contact-information.md)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 
 * at.js 库的工作原理
 * at.js 与 mbox.js 相比所具有的优势

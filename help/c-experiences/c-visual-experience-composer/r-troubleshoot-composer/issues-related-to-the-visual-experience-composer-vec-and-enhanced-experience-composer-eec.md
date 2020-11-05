@@ -5,7 +5,7 @@ title: 对与可视化体验编辑器和增强型体验编辑器有关的问题�
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 68%
@@ -86,11 +86,11 @@ Target 不支持多级 iframe。如果您的网站加载的 iframe 具有子 ifr
 
 当客户使用的 mbox.js 版本低于 57（即，使用版本 56 或更低版本）时，会出现此问题。
 
-我们建议所有 VEC 用户升级到 [mbox.js 的最新版本](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)，或至少升级到版本 57。您还应该考虑[转换到 at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)。
+我们建议所有 VEC 用户升级到 [mbox.js 的最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)，或至少升级到版本 57。您还应该考虑[转换到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)。
 
 ## 我在页面上更改一个元素时，多个元素会发生更改。（VEC 和 EEC）{#section_309188ACF34942989BE473F63C5710AF}
 
-如果页面上的多个元素使用相同的 DOM 元素 ID，则更改其中一个元素会导致具有该 ID 的所有元素都发生更改。为防止这种情况发生，一个 ID 只应在每个页面上使用一次。这是标准的 HTML 最佳实践。有关更多信息，请参阅[页面修改方案](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+如果页面上的多个元素使用相同的 DOM 元素 ID，则更改其中一个元素会导致具有该 ID 的所有元素都发生更改。为防止这种情况发生，一个 ID 只应在每个页面上使用一次。这是标准的 HTML 最佳实践。有关更多信息，请参阅[页面修改方案](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
 
 ## 我无法编辑防 iFrame 嵌套网站的体验。（VEC 和 EEC）{#section_9FE266B964314F2EB75604B4D7047200}
 

@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -60,7 +60,7 @@ Adobe Target 中的受众可决定将在定位活动中看到内容和体验的�
 
 ![活动 > 受众定义](assets/audience_definition_list.png)
 
-单击“[!UICONTROL 受众使用情况]”选项卡，可查看引用了该受众的其他活动（如果适用）。这样，您就可以避免在编辑受众时对其他活动造成意外影响。该信息包含“实时活动”、“不活跃的活动”、“已存档的活动”和“正在同步的活动”。此功能适用于所有受众（库受众和[仅限该活动的受众](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)）。
+单击“[!UICONTROL 受众使用情况]”选项卡，可查看引用了该受众的其他活动（如果适用）。这样，您就可以避免在编辑受众时对其他活动造成意外影响。该信息包含“实时活动”、“不活跃的活动”、“已存档的活动”和“正在同步的活动”。此功能适用于所有受众（库受众和[仅限该活动的受众](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)）。
 
 如果将一个受众与另一个受众合并，然后使用组合的受众创建活动，则这两个受众的使用情况信息都将列出这个新创建的活动。
 

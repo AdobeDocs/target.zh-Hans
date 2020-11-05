@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -36,7 +36,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 1. 确保您使用的是 [!DNL at.js] 版本 1.1 或更高版本。
 
-   有关更多信息，请参阅[下载 at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
+   有关更多信息，请参阅[下载 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
 
 1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -70,7 +70,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
-   单击 **[!UICONTROL 添加响应令牌]**，提供令牌名称，然后单 **[!UICONTROL 击激活]**。
+   单击 **[!UICONTROL 添加响应令牌]**，提供令牌名称，然后单击 **[!UICONTROL 激活]**。
 
    ![](assets/response_token_create.png)
 
@@ -113,7 +113,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    });
    ```
 
-如果您想将所有内容都放到单个文件中，可以将以下代码片段添加到库页脚 [at.js 设置页面](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)中。
+如果您想将所有内容都放到单个文件中，可以将以下代码片段添加到库页脚 [at.js 设置页面](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)中。
 
 ```
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -139,7 +139,7 @@ Response tokens will be delivered to the [!DNL at.js] Target responses, but not 
 
 插件和响应令牌可以并行使用；但是，将来会弃用插件。
 
-**是通过所有响应提供响[!DNL Target]应令牌，还是只通过[!DNL Target]响应提供活动?**
+**是通过所有响应提供响 [!DNL Target] 应令牌，还是只通过 [!DNL Target] 响应提供活动?**
 
 Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 

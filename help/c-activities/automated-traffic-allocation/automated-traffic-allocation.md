@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9910bee403061c87f8a38c10b7ada6df76ec30b0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3369'
 ht-degree: 75%
@@ -41,8 +41,8 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 ## 自动分配与 A/B 或自动个性化均在何时使用 {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * 如果您希望从一开始就优化活动并尽快确定入选体验，则使用&#x200B;**自动分配**。通过更频繁地提供高性能体验，可以提高整体活动性能。
-* 如果您希望在优化网站之前鉴定所有体验的性能，则使用标准 **[A/B 测试](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**。A/B 测试可以帮助您对所有体验进行排名，而自动流量分配可以找出性能最佳的体验，但不能保证区分性能较差的各个体验。
-* 如果您需要最复杂的优化算法（例如机器学习模型，该模型可以根据各个配置文件属性构建预测），则使用[自动个性化](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)。自动流量分配可查看体验的总体行为（与标准 A/B 测试类似），并且不区分访客。
+* 如果您希望在优化网站之前鉴定所有体验的性能，则使用标准 **[A/B 测试](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**。A/B 测试可以帮助您对所有体验进行排名，而自动流量分配可以找出性能最佳的体验，但不能保证区分性能较差的各个体验。
+* 如果您需要最复杂的优化算法（例如机器学习模型，该模型可以根据各个配置文件属性构建预测），则使用[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)。自动流量分配可查看体验的总体行为（与标准 A/B 测试类似），并且不区分访客。
 
 ## 主要优点 {#section_0913BF06F73C4794862561388BBDDFF0}
 

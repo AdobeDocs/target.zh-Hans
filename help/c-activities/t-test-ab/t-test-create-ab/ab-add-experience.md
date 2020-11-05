@@ -5,10 +5,10 @@ title: 添加体验
 feature: ab
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 9213d4c09cd6fa8cf76ca5325d1bcf3c12ad72f1
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '457'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 可视化体验编辑器 (VEC) 提供了一个可视化界面，用于在您的页面上添加和编辑体验。
 
-有关体验的更多详细信息，请参阅[体验](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
+有关体验的更多详细信息，请参阅[体验](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
 1. 单击&#x200B;**[!UICONTROL 添加体验]**。
 

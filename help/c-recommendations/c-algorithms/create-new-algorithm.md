@@ -5,7 +5,7 @@ title: 创建标准
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -75,7 +75,7 @@ Adobe Target [!UICONTROL 活动][!UICONTROL ·] Recommendations的条件 [!UICON
 
 1. 选择&#x200B;**[!UICONTROL 推荐逻辑]**。
 
-   有关推荐逻辑选项的更多信息，请参阅[标准](../../c-recommendations/c-algorithms/algorithms.md)。
+   有关推荐逻辑选项的更多信息，请参阅[标准](/help/c-recommendations/c-algorithms/algorithms.md)。
 
    >[!NOTE]
    >

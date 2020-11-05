@@ -6,7 +6,7 @@ feature: vec
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -22,11 +22,11 @@ ht-degree: 97%
 
 ## 最佳实践 {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**对于 mbox.js 版本 57 及更高版本以及 at.js，请将 mbox.js 或 at.js 引用放置在页面`<head>`部分的顶部。**
+**对于 mbox.js 版本 57 及更高版本以及 at.js，请将 mbox.js 或 at.js 引用放置在页面 `<head>` 部分的顶部。**
 
 如果您还使用访客 API 服务，请将访客 API 脚本放置在 mbox.js 或 at.js 上方。
 
-**对于版本 57 之前的 mbox.js 版本，请将 mbox.js 代码尽可能放置在页面`<head>`部分的最底部。**
+**对于版本 57 之前的 mbox.js 版本，请将 mbox.js 代码尽可能放置在页面 `<head>` 部分的最底部。**
 
 将 mbox.js 放置在 `<head>` 部分的末尾，其后不再放置其他声明。否则，任何脚本或链接标记都会移动到 `<body>` 部分中。
 
@@ -99,9 +99,9 @@ Target Standard 和 Premium 使用 JavaScript 来设置页面格式。使用 Jav
 
 换言之，如果您添加一个带有文本的元素，然后在单独的操作中使用不同的文本对该元素进行编辑，则代码编辑器会将两种操作当做单独的元素显示。在编辑元素时，您创建了一个新元素，该元素修改了之前创建的原始元素，在其中包含已编辑的文本。如果删除了原始元素，则编辑后的文本将无法找到被编辑的元素，而且也不会显示出来。第二个元素会保留在元素列表中，但不会对页面产生影响，因为它所更改的元素不再存在。
 
-请参阅[可视化体验编辑器中使用的元素选择器](../../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)。
+请参阅[可视化体验编辑器中使用的元素选择器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)。
 
-**使用富文本编辑器为文本元素设置样式时，请使用`<b>`和`<i>`标记。**
+**使用富文本编辑器为文本元素设置样式时，请使用 `<b>` 和 `<i>` 标记。**
 
 * 对于粗体文本，请使用 `<b>` 而不是 `<strong>`。
 * 对于斜体文本，请使用 `<i>` 而不是 `<em>`。
@@ -112,7 +112,7 @@ Target Standard 和 Premium 使用 JavaScript 来设置页面格式。使用 Jav
 
 某些表单字段可能是提交时必需的字段。删除这些表单字段可能会影响提交。
 
-**请勿在脚本中包含`mboxCreate`。**
+**请勿在脚本中包含 `mboxCreate`。**
 
 由于 `mboxCreate` 使用的是 `document.write`，因此不建议在脚本中包含 `mboxCreate`。请改为使用 `mboxDefine` 和 `mboxUpdate` 来达到相同目的。
 
@@ -151,7 +151,7 @@ Target Standard 和 Premium 使用 JavaScript 来设置页面格式。使用 Jav
 
 在此示例中，系统已在 VEC 中选择整个锚点元素，此时如果执行定位，则会对其他元素产生不利影响。
 
-**请勿在 JavaScript 代码中使用`top`或`self`变量。**
+**请勿在 JavaScript 代码中使用 `top` 或 `self` 变量。**
 
 启用增强型体验编辑器后，将更新 top 和 self 变量的值以禁用 iframe 嵌套。使用 X-frame-options 标头可添加 iframe 嵌套而不是自定义 JavaScript 代码。
 
@@ -190,7 +190,7 @@ Target Standard 和 Premium 使用 JavaScript 来设置页面格式。使用 Jav
 
 **“移动”功能不支持 z-index。**
 
-由于没有 z-index 功能，因此被移动的元素不能移动到其他元素上方。有关详细信息，请参阅[限制](../../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
+由于没有 z-index 功能，因此被移动的元素不能移动到其他元素上方。有关详细信息，请参阅[限制](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
 
 **重新排列元素会影响点击跟踪。**
 
@@ -198,7 +198,7 @@ Target Standard 和 Premium 使用 JavaScript 来设置页面格式。使用 Jav
 
 之所以会发生这种情况，是因为交付活动内容的代码和跟踪点击的代码都包含在一段传递到页面的代码中。如果您浏览到其他页面并设置点击跟踪，则活动内容代码和点击跟踪代码都会传递到该页面。如果点击跟踪页面具有与运行测试的页面类似的页面结构，则测试内容也可能会出现在点击跟踪页面上。
 
-**在作为 mbox 的`<div>`中可能无法正常插入元素。**
+**在作为 mbox 的 `<div>` 中可能无法正常插入元素。**
 
 如果 mbox 包含选件，则在未正确实施 mbox 时，插入元素操作可能会显示为 insertBefore 而不是 insertAfter。
 

@@ -5,7 +5,7 @@ title: Adobe TargetRecommendations
 feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 0a462ff6206870fa328249a57367b18eabbec008
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2520'
 ht-degree: 85%
@@ -237,7 +237,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
    * Google 产品信息源
    * Analytics 分类
 
-   有关 CSV 和“Google 产品信息源”信息源类型的信息，请参阅[信息源概述](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
+   有关 CSV 和“Google 产品信息源”信息源类型的信息，请参阅[信息源概述](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
 1. （视情况而定）如果您选择 **[!UICONTROL CSV]** 或者 **[!UICONTROL Google 产品信息源]**，请指定可以访问信息源的位置。
 
@@ -275,7 +275,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 
 1. （可选）如果您希望信息源属于某个环境（主机组），请选择该主机组。
 
-   默认情况下，信息源属于所有主机组。这可确保此信息源中的项目可在任何环境中使用。有关更多信息，请参阅[主机](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
+   默认情况下，信息源属于所有主机组。这可确保此信息源中的项目可在任何环境中使用。有关更多信息，请参阅[主机](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 

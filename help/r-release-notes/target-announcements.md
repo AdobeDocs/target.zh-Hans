@@ -3,9 +3,8 @@ keywords: announcements;skill builder;developer chat;coffee break;events
 description: 有关即将举办的事件的信息，包括目标技能生成器研习会、开发人员聊天、网络研讨会和目标咖啡休息会。
 title: 目标公告
 feature: release notes
-topic: Standard
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%

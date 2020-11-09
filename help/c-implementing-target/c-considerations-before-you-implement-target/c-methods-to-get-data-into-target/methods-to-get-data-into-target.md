@@ -3,11 +3,8 @@ keywords: implement;implementing;setting up;setup;page parameter;tomcat;url enco
 description: 此信息介绍了可用于将数据导入 Target 的各种方法，包括页面参数、页面内配置文件属性、脚本配置文件属性、数据提供程序、批量配置文件更新 API、单个配置文件更新 API 和客户属性。
 title: 将数据导入 Target 的方法
 feature: implementation general
-subtopic: Getting Started
-topic: Standard
-uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 96%

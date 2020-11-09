@@ -3,10 +3,8 @@ keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously
 description: 有关 Adobe Target at.js JavaScript 库如何在页面或应用程序加载期间阻止闪烁的信息。
 title: Adobe Target at.js 如何管理闪烁
 feature: client-side
-topic: Standard
-uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 80%

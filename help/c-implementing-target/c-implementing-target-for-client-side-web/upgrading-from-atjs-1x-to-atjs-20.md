@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9f202df6e741b1bdbf257b350ddc073ef60cf1d1
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2749'
 ht-degree: 92%
 
 ---
@@ -96,7 +96,7 @@ at.js 2.*x* 中有几个函数已被弃用。
 </script>
 ```
 
-**at.js 2.*x*等效项**
+**at.js 2.*x* 等效项**
 
 `mboxCreate(mbox, params)` 的替代函数是 `getOffer()` 和 `applyOffer()`。
 
@@ -145,7 +145,7 @@ at.js 2.*x* 中有几个函数已被弃用。
 </script>
 ```
 
-**at.js 2.*x*等效项**：
+**at.js 2.*x* 等效项**：
 
 `mboxDefine()` 和 `mboxUpdate` 的替代项是 `getOffer()` 和 `applyOffer()`，`applyOffer()` 中会使用选择器选项。此方法允许您使用任何 CSS 选择器将选件映射到元素，而不仅仅映射到具有 ID 的元素。
 
@@ -290,7 +290,7 @@ Customers are able to specify a global mbox name via [!UICONTROL Target > Admini
 
 但是，在 at.js 2.*x* 中，我们不再使用 HTTP GET，而是使用 HTTP POST。现在，通过 at.js 2.*x* 来使用 HTTP POST 将 JSON 有效负载发送到 Target 边缘服务器。这意味着检查浏览器是否支持第三方 Cookie 的重定向请求现在会中断。这是因为 HTTP GET 请求是幂等事务，而 HTTP POST 是非幂等事务，不能任意重复。因此，不再对 at.js 2.*x* 中的跨域跟踪功能提供开箱即用支持。只有 at.js 1.*x* 对跨域跟踪功能提供开箱即用支持。
 
-如果要使用跨域跟踪，则必须将 [ECID库v4.3.0+与](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) at.js 2一起安装。*x* 中不再对跨域跟踪提供开箱即用支持。ECID 库可以管理用于跨域识别访客的永久 ID。
+如果要使用跨域跟踪，则必须将 [ECID库v4.3.0+与](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) at.js 2一起安装。*x* 中不再对跨域跟踪提供开箱即用支持。ECID 库可以管理用于跨域识别访客的永久 ID。
 
 >[!NOTE]
 >

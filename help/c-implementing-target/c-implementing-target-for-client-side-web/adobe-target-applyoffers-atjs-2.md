@@ -3,10 +3,8 @@ keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;fu
 description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.applyOffers(options) 函数的信息。
 title: adobe.target.applyOffers(options) - at.js 2.x
 feature: client-side
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 95%

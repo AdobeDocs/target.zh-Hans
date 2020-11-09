@@ -5,10 +5,10 @@ title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '3897'
-ht-degree: 77%
+source-wordcount: '3895'
+ht-degree: 78%
 
 ---
 
@@ -113,7 +113,7 @@ UI中存在当前已知问题，该问题允 [!DNL Target] 许用户选择不受
 
 ### Analytics for Target (A4T)
 
-在Analysis Workspace使用目标活动印象和转化时，应用“同一触点”Attribution IQ模型来确保准确计数。 要应用非 [默认归因模型](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，请右键单击度量以修 **改列设置>启用使用非默认归因模型>选择相同接触模型**。 如果不应用此模型，这些指标就会被夸大。
+在Analysis Workspace使用目标活动印象和转化时，应用“同一触点”Attribution IQ模型来确保准确计数。 要应用非 [默认归因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，请右键单击度量以修 **改列设置>启用使用非默认归因模型>选择相同接触模型**。 如果不应用此模型，这些指标就会被夸大。
 
 所有当前Analytics包都能添加此模型并包含Attribution IQ。 如果您无权访问Attribution IQ，请在Reports &amp; Analytics中依赖A4T数据。
 

@@ -1,28 +1,32 @@
 ---
-description: Target Standard 可与 Adobe Dynamic Media Classic（以前为 Scene7）集成以便在内容库中提供数字资产管理 (DAM)。
-title: Dynamic Media Classic 集成 配置集成
+description: Target Standard可以与AdobeDynamic Media Classic集成，以在内容库中提供数字资产管理(DAM)。
+title: Dynamic Media Classic集成配置集成
 feature: administration general
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 4e2e894ee10d8a83907e0533630091442d1733fa
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 25%
+source-wordcount: '403'
+ht-degree: 17%
 
 ---
 
 
 # Scene7配置 {#scene-settings}
 
-Target can be integrated with [!DNL Adobe Dynamic Media Classic] (formerly [!DNL Scene7]) to provide Digital Asset Management (DAM) in the Content Library.
+Target can be integrated with [!DNL Adobe Dynamic Media Classic] to provide Digital Asset Management (DAM) in the Content Library.
 
 >[!NOTE]
 >
 >Integrating [!DNL Target] with [!DNL Dynamic Media Classic] enables delivery of assets (as part of activities) uploaded to the [!DNL Adobe Experience Cloud] assets folder. This integration does not enable access to all assets uploaded in [!DNL Dynamic Media Classic] for delivery in [!DNL Target] activities.
 
 If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials. If you do not have an account, you can request a restricted-use [!DNL Dynamic Media Classic] account at no additional charge from your [!DNL Adobe] representative. This account can be used for purposes restricted for use in [!DNL Target] only. 当客户的工作流需要使用图像交换功能时，他们可以使用此服务。
+
+>[!NOTE]
+>
+>新客户或新用户不 [!DNL Dynamic Media Classic] 再支持Adobe Target的受限使用免费帐户。 现有登录凭据可以正常工作。
 
 If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. 配置此设置后，可在Visual Experience Composer(VEC)和基于表单的Experience Composer中 [使用交换／更改图像优惠的选项](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。 You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 

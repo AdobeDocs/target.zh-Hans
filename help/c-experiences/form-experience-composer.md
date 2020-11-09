@@ -3,10 +3,8 @@ keywords: form-based experience composer;form-based composer;refinements
 description: 在基于表单的体验编辑器中，可采用非可视化方式创建体验。
 title: 基于表单的体验编辑器
 feature: form-based composer
-topic: Standard
-uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 79%

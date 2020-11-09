@@ -5,10 +5,10 @@ title: 使用位置服务
 feature: mobile implementation
 topic: Target
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 4%
+source-wordcount: '160'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +19,6 @@ ht-degree: 4%
 
 Adobe Experience Platform位置服务（位置服务）是一种地理位置服务，它通过使用丰富且易于使用的SDK界面以及灵活的兴趣点数据库(POI)，使具有位置感知的移动应用程序能够了解位置上下文。
 
-您可以将位置服务与目标一起使用，以利 [用Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) 的规则，将您的Places数据附加到您的Adobe TargetSDK事件。
+您可以将位置服务与目标一起使用，以利 [用Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) 的规则，将您的Places数据附加到您的Adobe TargetSDK事件。
 
-有关详细信息，请参 [阅《Adobe Target位置服务指南](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-target/places-target.html) 》中 [的“将位置服务与Adobe Experience Platform一起使用”](https://docs.adobe.com/content/help/en/places/using/home.html)。
+有关详细信息，请参 [阅《Adobe Target位置服务指南](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) 》中 [的“将位置服务与Adobe Experience Platform一起使用”](https://experienceleague.adobe.com/docs/places/using/home.html)。

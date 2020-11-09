@@ -3,10 +3,8 @@ keywords: remote offer;create remote offer
 description: 可在选件库中创建 JSON 选件，以在基于表单的体验编辑器中使用。
 title: 创建 JSON 选件
 feature: offers
-topic: Standard
-uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%

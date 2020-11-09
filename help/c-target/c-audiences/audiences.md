@@ -6,9 +6,9 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '879'
 ht-degree: 95%
 
 ---
@@ -20,7 +20,7 @@ Adobe Target 中的受众可决定将在定位活动中看到内容和体验的�
 
 不论在何处，只要可以使用定位，便会用到受众。对活动进行定位时，您可以从“[!UICONTROL 受众]”列表中选择可重复使用的受众、[创建特定于活动的受众](/help/c-target/creating-activity-only-audience.md)并定位到该受众，或[合并多个受众](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以创建临时受众。
 
-您还可以在 [!DNL Adobe Target] 及其他 [!DNL Experience Cloud] 解决方案中使用 [!DNL Analytics] 收集的受众数据进行实时定位和个性化。请参 [阅](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 《核心服 *务用户指南》中的受众*。
+您还可以在 [!DNL Adobe Target] 及其他 [!DNL Experience Cloud] 解决方案中使用 [!DNL Analytics] 收集的受众数据进行实时定位和个性化。请参 [阅](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 《核心服 *务用户指南》中的受众*。
 
 [!DNL Target] 定义了以下两种类型的受众：
 

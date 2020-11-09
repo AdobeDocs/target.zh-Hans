@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 73%
+source-wordcount: '379'
+ht-degree: 74%
 
 ---
 
@@ -33,7 +33,7 @@ For example, in a [!DNL Recommendations] activity, use the parameters to represe
 * JSON 对象
 * 以与号 (&amp;) 分隔的列表
 
-使用这三种方法可验证参数是否正确传递。您还可以使用 [Adobe Experience Cloud 调试器](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)来验证参数的传递。
+使用这三种方法可验证参数是否正确传递。您还可以使用 [Adobe Experience Cloud 调试器](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)来验证参数的传递。
 
 您必须先定义 JavaScript 函数，然后再向页面中添加全局 mbox。函数名称必须为 `targetPageParams`。
 

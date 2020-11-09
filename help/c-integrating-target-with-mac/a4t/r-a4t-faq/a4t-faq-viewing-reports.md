@@ -6,9 +6,9 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1986'
 ht-degree: 63%
 
 ---
@@ -20,7 +20,7 @@ This topic contains answers to questions that are frequently asked about viewing
 
 ## Can I view my Target activity data in Analysis Workspace? {#workspace}
 
-您可以使 [!DNL Analysis Workspace] 用来分析 [!DNL Target] 活动和体验。 “目标 [分析”面板](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) ，您可以查看多达三个成功指标的提升度和信心。 您还可以使用表格和可视化功能更深入地了解。
+您可以使 [!DNL Analysis Workspace] 用来分析 [!DNL Target] 活动和体验。 “目标 [分析”面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) ，您可以查看多达三个成功指标的提升度和信心。 您还可以使用表格和可视化功能更深入地了解。
 
 For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
@@ -53,7 +53,7 @@ For detailed information and examples, open the [Analytics &amp; Target: Best Pr
 
 [!DNL Reports & Analytics] 对“活动印象”和“活动转换”应用同触归因模型，而 [!DNL Analysis Workspace] 显示原始指标，该指标可能因维的持久性而 [!DNL Target] 膨胀。
 
-To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. 可以通过单击列设置齿轮，启用[!UICONTROL 非默认归因模型]，然后选择[!UICONTROL 同一联系]来应用模型。了解有关属性IQ概 [述中归因的更多信息](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) ，请参 *阅《分析工具指南》*。
+To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. 可以通过单击列设置齿轮，启用[!UICONTROL 非默认归因模型]，然后选择[!UICONTROL 同一联系]来应用模型。了解有关属性IQ概 [述中归因的更多信息](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) ，请参 *阅《分析工具指南》*。
 
 ## 如果营销人员在活动设置期间选择了一个 Analytics 量度，则“活动转化”意味着什么？{#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -108,7 +108,7 @@ You might see [!DNL Target] variables sent to [!DNL Analytics] after the expirat
 
 因为这两个体验都是在转化之前查看的，所以它们都获得了该订单的“点数”。但在系统中只产生了一个订单，所以点数的总计值反映了这一点。For [!DNL Target] reporting, because you aren’t putting a [!DNL Target] activity against another activity to see which is more successful, it doesn’t matter that all activities the user saw got credit. 因为您比较的是一个活动中的两个项目所得到的结果，而用户不可能在同一活动中看到不同的体验，因此您不必顾虑订单点数会造成相互之间的混淆。
 
-For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
+For more information, see [Conversion Variables (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
 ## 为什么 Analytics 和 Analytics for Target (A4T) 在计算“独特访客”量度时得到的数字不同？{#section_0C3B648AB54041F9A2AA839D51791883}
 

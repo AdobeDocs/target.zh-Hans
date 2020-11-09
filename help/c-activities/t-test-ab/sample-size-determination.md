@@ -3,9 +3,8 @@ keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto al
 description: 成功的 A/B 测试需要足够数量的访客（样本量）才能提高转化率，但您如何知道 A/B 测试应该持续多长时间？本文包含有关自动分配活动和Adobe Target样本大小计算器的信息，可帮助您确保活动具有足够数量的访客来实现目标。
 title: A/B 测试应该持续多长时间？
 feature: ab
-uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3102'
 ht-degree: 75%

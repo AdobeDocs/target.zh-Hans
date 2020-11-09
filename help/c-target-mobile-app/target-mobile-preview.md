@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 93%
+source-wordcount: '583'
+ht-degree: 94%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 93%
 
    有关下载适当 SDK 的说明，请参阅：
 
-   * **iOS:**[在您开始Mobile](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) Services *iOS帮助之前*。
-   * **Android:**[在您开始之](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) 前 *，请*&#x200B;参阅Mobile Services Android帮助。
+   * **iOS:**[在您开始Mobile](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) Services *iOS帮助之前*。
+   * **Android:**[在您开始之](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) 前 *，请*&#x200B;参阅Mobile Services Android帮助。
 
 1. **设置 URL 方案：**&#x200B;预览链接需使用 URL 方案来打开应用程序。您必须为预览指定一个唯一的 URL 方案。
 

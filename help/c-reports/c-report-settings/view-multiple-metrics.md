@@ -3,9 +3,8 @@ keywords: Target;reports;report settings;multiple metrics;metrics;shown metrics;
 description: 使用Adobe Target选择多个要视图的指标。
 title: 使用Adobe Target视图报告中的多个指标
 feature: report settings
-uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 61%

@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '29838'
+source-wordcount: '29814'
 ht-degree: 86%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 86%
 | Analytics for Target (A4T) 支持 [!UICONTROL 自动分配] 活动 | [!UICONTROL 自动分配] 活动现在支 [持Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此集成允许您使用自动 [!UICONTROL 分配] 、多武装强盗功能，在使用Adobe Analytics目标指标和／或Adobe Analytics [!UICONTROL 报告和分析功能时] ，将流量推向成功体验。<br>如果您已实 [施A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) ，以与A/B测试和体验定位活动配合使用，您就可以了！<br>有关详细信息，请 [参阅目标分析(A4T)支持在创建活动时自动分配](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)*活动*。 |
 | 自动目标和Automated Personalization活动流量分配方法的响应令牌 | 已 [经向自](/help/administrating-target/response-tokens.md) 动目标和 [!UICONTROL Automated Personalization] 活动添加了两个响应令牌，以确定访客是否因被分配到“控制”或“目标”流量而获得特定体验。<ul><li>`experience.trafficAllocationId` 如果访客从“控制”流量中获得体验，则返回0；如果访客从“目标”流量分配中获得体验，则返回1。</li><li>`experience.trafficAllocationType` 将返回“控制”或“目标”。</li></ul>有关控制与目标流量的详细信息，请参 [阅选择Automated Personalization的控件或自动目标活动](/help/c-activities/t-automated-personalization/experience-as-control.md)。 |
 | [!UICONTROL 发布者] 角色 | 此新角色与当前“观察者”角 [!UICONTROL 色类似] (可以视图活动，但不能创建或编辑这些角色)。 但是，发 [!UICONTROL 布者] 角色具有激活活动的其他权限。<br>有关详细信息，请参阅： <ul><li>**目标标准用户**: [在用户中指定角色](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 和 *权限*。</li><li>**目标高级版用户**: [第6步：在“配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) ”中 *指定角色和权限*。</li></ul> |
-| 2020年6月25 [!DNL Analysis Workspace]<br>日支持A4T | [!UICONTROL 现在支持] (A4T)的目标分析 [!DNL Analysis Workspace]。 利 [!UICONTROL 用“目标分析(A4T)”面板] ，您可以 [!DNL Adobe Target] 在中分析活动和体验 [!DNL Analysis Workspace]。<br>有关详细信息，请 [参阅《分析工具指](/help/c-integrating-target-with-mac/a4t/reporting.md) 南》中 *“A4T报告”中的“Analytics”中的“报告* ”和“针对目标的分析 [(A4T)”面](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html)**&#x200B;板中的“报告”。 |
+| 2020年6月25 [!DNL Analysis Workspace]<br>日支持A4T | [!UICONTROL 现在支持] (A4T)的目标分析 [!DNL Analysis Workspace]。 利 [!UICONTROL 用“目标分析(A4T)”面板] ，您可以 [!DNL Adobe Target] 在中分析活动和体验 [!DNL Analysis Workspace]。<br>有关详细信息，请 [参阅《分析工具指](/help/c-integrating-target-with-mac/a4t/reporting.md) 南》中 *“A4T报告”中的“Analytics”中的“报告* ”和“针对目标的分析 [(A4T)”面](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html)**&#x200B;板中的“报告”。 |
 
 **增强功能、修复和变更**
 
@@ -367,8 +367,8 @@ Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改�
 | 功能/增强 | 描述 |
 | --- | --- |
 | ![Premium 徽章](/help/assets/premium.png)<br>A/B 测试和体验定位 (XT) 活动中的推荐 | 推荐选件（算法）状态将显示在包含推荐选件的 A/B 测试和 XT 活动的“概述”页面上。状态包括：“结果已准备就绪”、“结果未准备就绪”和“信息源故障”。(TGT-33649)<br>请参阅[“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md#status)。 |
-| at.js 2.0 及更高版本通过 Experience Cloud ID (ECID) 库支持跨域跟踪 | 以前，at.js 2.*x* 不支持跨域跟踪。现在，在此版本中，使用 at.js 2.0 或更高版本的客户可以通过 ECID 库执行跨域跟踪。为使跨域跟踪正常运行，必须将 ECID 库与 at.js 2.0 或更高版本一起安装在页面上。[必须使用Experience CloudID库](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 4.3.0+。<br>请参阅 [at.js 2.x 中的跨域跟踪支持](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
-| Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple 的 ITP 2.1 和 ITP 2.2 | 现在，Target 客户可以通过利用 Adobe 的 CNAME 认证计划来应对 Apple 的 ITP 2.1 和 ITP 2.2。<br>在此版本中，目标引入了与ECID库4.3的无缝集成，该库利用服务器端cookie来减轻ITP 2.1和ITP 2.2的影响。强烈建议目标客户将 [ECID库4.3+与目标的JavaScript库一起部署](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) ，以减轻任何未来ITP版本的影响。 ECID 库将持续增强，针对各浏览器推出的不断变化的 Cookie 策略提供完善的解决方案。<br>请参阅 [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
+| at.js 2.0 及更高版本通过 Experience Cloud ID (ECID) 库支持跨域跟踪 | 以前，at.js 2.*x* 不支持跨域跟踪。现在，在此版本中，使用 at.js 2.0 或更高版本的客户可以通过 ECID 库执行跨域跟踪。为使跨域跟踪正常运行，必须将 ECID 库与 at.js 2.0 或更高版本一起安装在页面上。[必须使用Experience CloudID库](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 4.3.0+。<br>请参阅 [at.js 2.x 中的跨域跟踪支持](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
+| Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple 的 ITP 2.1 和 ITP 2.2 | 现在，Target 客户可以通过利用 Adobe 的 CNAME 认证计划来应对 Apple 的 ITP 2.1 和 ITP 2.2。<br>在此版本中，目标引入了与ECID库4.3的无缝集成，该库利用服务器端cookie来减轻ITP 2.1和ITP 2.2的影响。强烈建议目标客户将 [ECID库4.3+与目标的JavaScript库一起部署](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) ，以减轻任何未来ITP版本的影响。 ECID 库将持续增强，针对各浏览器推出的不断变化的 Cookie 策略提供完善的解决方案。<br>请参阅 [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
 
 **增强功能、修复和更改**
 
@@ -619,11 +619,11 @@ Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>体验 </p> </td> 
-   <td colname="col2"> <p>现在，您可以复制体验定位 (XT) 活动中的体验，以便可以对其进行细微更改，而无需重头开始重新创建体验。这项功能已经可用于 A/B 测试。(TGT-31504) </p> <p>请参阅<a href="https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/create-targeting/xt-add-experience.html" format="html" scope="external">创建体验</a>。 </p> </td> 
+   <td colname="col2"> <p>现在，您可以复制体验定位 (XT) 活动中的体验，以便可以对其进行细微更改，而无需重头开始重新创建体验。这项功能已经可用于 A/B 测试。(TGT-31504) </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/create-targeting/xt-add-experience.html" format="html" scope="external">创建体验</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>自动个性化 (AP) 活动中的选件 </p> </td> 
-   <td colname="col2"> <p>在 2018 年 9 月版中，我们增加了一项增强功能，让您能够按报表组筛选选件。现在，您可以筛选“未分配选件”，以便将某个报表组分配给当前未分配给任何报表组的选件。(TGT-31882) </p> <p>请参阅<a href="https://docs.adobe.com/content/help/en/target/using/activities/automated-personalization/create-ap-activity.html" format="html" scope="external">创建自动个性化活动</a>。 </p> </td> 
+   <td colname="col2"> <p>在 2018 年 9 月版中，我们增加了一项增强功能，让您能够按报表组筛选选件。现在，您可以筛选“未分配选件”，以便将某个报表组分配给当前未分配给任何报表组的选件。(TGT-31882) </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/target/using/activities/automated-personalization/create-ap-activity.html" format="html" scope="external">创建自动个性化活动</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>活动报表源 </p> </td> 
@@ -641,7 +641,7 @@ Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改�
    * 如果在 AAM 中删除受众，则“[!UICONTROL 受众]”列表和受众选择器均会显示警告图标。UI 中的工具提示也会指示受众已在 AAM 中删除。
    * 如果您尝试将多个受众与已删除的受众合并，或者您想保存引用了已删除受众的活动，则会显示一条警告消息。
 
-   请参阅[受众简介](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)。
+   请参阅[受众简介](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)。
 
 * Fixed an issue that prevented users in certain situations from being able to create an activity when Adobe Analytics was selected as the reporting source on the [!UICONTROL Administration] page. 即使用户没有选择报表包的选项，他们仍会看到“请选择一个报表包”的消息。(TGT-31968)
 
@@ -660,7 +660,7 @@ Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改�
    <td colname="col2"> <p>这是一个维护版本，该版本解决了以下问题： </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>修复了某些客户网站上出现的会导致无限“异步”循环的问题。 </p> </li> 
-     </ul> </p> <p> <p>重要信息：此外，at.js 版本 1.6.2 还包含 at.js 版本 1.6.1 和 1.6.0 中包含的所有增强功能和修复。这些版本不再可供下载。如果您使用的是 1.6.1 或 1.6.0，我们建议您升级到 1.6.2 版本。 </p> </p> <p>有关更多信息，请参阅 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 版本详细信息</a>。 </p> </td> 
+     </ul> </p> <p> <p>重要信息：此外，at.js 版本 1.6.2 还包含 at.js 版本 1.6.1 和 1.6.0 中包含的所有增强功能和修复。这些版本不再可供下载。如果您使用的是 1.6.1 或 1.6.0，我们建议您升级到 1.6.2 版本。 </p> </p> <p>有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 版本详细信息</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1131,7 +1131,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Marketing Cloud 进行了品牌重塑，现在更名为 Adobe Experience Cloud。 </p> </td> 
-   <td colname="col2"> <p>Experience Cloud 是 Adobe 推出的一整套集成化数字营销解决方案和服务。它还具备直观的界面，使您能够快速访问自己的云解决方案和核心服务。 </p> <p>品牌重塑和 UI 更改：Adobe Marketing Cloud 进行了品牌重塑，现在更名为 Adobe Experience Cloud。此外，您还将看到 Target 界面和解决方案切换器中进行的 UI 更改。 </p> <p>有关这些更改的更多信息，请参阅<a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/solutions-core-services.html" format="html" scope="external">关于 Experience Cloud 中的新增云名称</a>。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud 是 Adobe 推出的一整套集成化数字营销解决方案和服务。它还具备直观的界面，使您能够快速访问自己的云解决方案和核心服务。 </p> <p>品牌重塑和 UI 更改：Adobe Marketing Cloud 进行了品牌重塑，现在更名为 Adobe Experience Cloud。此外，您还将看到 Target 界面和解决方案切换器中进行的 UI 更改。 </p> <p>有关这些更改的更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/solutions-core-services.html" format="html" scope="external">关于 Experience Cloud 中的新增云名称</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1271,7 +1271,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>选件 </p> </td> 
-   <td colname="col2"> <p> 如果用户具有“编辑者”权限，该用户将无法编辑引用了实时活动或计划活动的选件。 </p> <p> <p>注意：对于使用<a href="https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html" format="html" scope="external">企业用户权限</a>的 Target Premium 客户，如果用户选择“所有工作区”选项，Target 会在各工作区中使用该用户的最高权限。如果最高权限为“编辑者”，则 Target 会限制编辑（如上所述）。 </p>。 </p> <p>此类限制适用于所有选件，而不只是在 Target 中创建的选件。(TGT-27276) </p> </td> 
+   <td colname="col2"> <p> 如果用户具有“编辑者”权限，该用户将无法编辑引用了实时活动或计划活动的选件。 </p> <p> <p>注意：对于使用<a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html" format="html" scope="external">企业用户权限</a>的 Target Premium 客户，如果用户选择“所有工作区”选项，Target 会在各工作区中使用该用户的最高权限。如果最高权限为“编辑者”，则 Target 会限制编辑（如上所述）。 </p>。 </p> <p>此类限制适用于所有选件，而不只是在 Target 中创建的选件。(TGT-27276) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>响应令牌 </p> </td> 
@@ -1861,7 +1861,7 @@ target/r_release-notes-2018.xml
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox名称现在可以包含特殊字符，包括&amp;符号(&amp;)。 (TNT-26144) </p> <p>有关更多信息，请参阅 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 配置</a>。 </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>添加了 <span class="codeph">secureOnly</span> 设置，以指示 <span class="codeph">at.js</span> 是应仅使用 HTTPS，还是可以根据页面协议在 HTTP 和 HTTPS 之间进行切换。这是一项高级设置，其默认值为 False，可以通过 <span class="codeph">targetGlobalSettings</span> 来覆盖此设置。(TNT-26183) </p> <p>有关更多信息，请参阅 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>。 </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p><span class="codeph">at.js</span> 版本 0.9.3 及更低版本中提供了“<span class="wintitle">旧版浏览器支持</span>”选项。此选项在 <span class="codeph">at.js</span> 版本 0.9.4 中已删除。 </p> <p>有关更多信息，请参阅 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 配置</a>。 </p> </li> 
-     </ul> </p> <p>要详细了解 <span class="codeph">at.js</span> 各个版本中的更改，请参阅 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 版本详细信息</a>。 </p> </td> 
+     </ul> </p> <p>要详细了解 <span class="codeph">at.js</span> 各个版本中的更改，请参阅 <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 版本详细信息</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2409,7 +2409,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
       <li id="li_C47240826E5844D6843314F453F042FC">导航从左侧移到了顶部 </li> 
       <li id="li_3BB03504E98C40CC85583DCD9A4CEA06">改进了对话框 </li> 
       <li id="li_AE71506DF1E748A788C40E1F09951732">改进了活动创建流程 </li> 
-     </ul> </p> <p>此外，还更改了选择 Experience Cloud 解决方案（包括 Target）的方式。要访问 Experience Cloud 解决方案和服务，请单击菜单图标： </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>有关在登录 Experience Cloud 后访问 Target 并将 Target 设为默认页面的更多信息，请参阅<a href="/help/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local">从 Adobe Experience Cloud 访问 Target </a>。 </p> <p>有关用户界面改进的更多信息，请参阅 <a href="https://docs.adobe.com/content/help/en/core-services/interface/release-notes/marketing-cloud-interface.html" format="https" scope="external">Adobe Experience Cloud 2016 年春季版的新增功能</a>。 </p> </td> 
+     </ul> </p> <p>此外，还更改了选择 Experience Cloud 解决方案（包括 Target）的方式。要访问 Experience Cloud 解决方案和服务，请单击菜单图标： </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>有关在登录 Experience Cloud 后访问 Target 并将 Target 设为默认页面的更多信息，请参阅<a href="/help/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local">从 Adobe Experience Cloud 访问 Target </a>。 </p> <p>有关用户界面改进的更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/core-services/interface/release-notes/marketing-cloud-interface.html" format="https" scope="external">Adobe Experience Cloud 2016 年春季版的新增功能</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 可以为备用推荐禁用包含规则 </td> 
@@ -2643,7 +2643,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>客户属性 </p> </td> 
-   <td colname="col2"> <p> 使用 Experience Cloud 核心服务上传第一方数据（称为“客户属性”），并选择要共享到 Target 的属性。3 月份为 Analytics 启用了此功能，现在此功能直接与 Target 相集成。 </p> <p> 例如，您可能会使用 CRM 或电子商务/POS 系统中的客户数据，其中包括会员资格状态（金会员、银会员，等）、购买历史记录、最喜爱的目标、当地商店等。现在，您可以将该数据上传到 Experience Cloud。用户在您的网站上进行身份验证后，Target 便可以将该数据与用户的 Web 行为进行匹配。 </p> <p>请参阅<a href="https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html" format="https" scope="external">客户属性</a>。 </p> </td> 
+   <td colname="col2"> <p> 使用 Experience Cloud 核心服务上传第一方数据（称为“客户属性”），并选择要共享到 Target 的属性。3 月份为 Analytics 启用了此功能，现在此功能直接与 Target 相集成。 </p> <p> 例如，您可能会使用 CRM 或电子商务/POS 系统中的客户数据，其中包括会员资格状态（金会员、银会员，等）、购买历史记录、最喜爱的目标、当地商店等。现在，您可以将该数据上传到 Experience Cloud。用户在您的网站上进行身份验证后，Target 便可以将该数据与用户的 Web 行为进行匹配。 </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html" format="https" scope="external">客户属性</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>当选择 Analytics 作为 Target 的报告源时，可以使用多个公司。 </p> </td> 

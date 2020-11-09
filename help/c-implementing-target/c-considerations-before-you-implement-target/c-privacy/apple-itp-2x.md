@@ -6,10 +6,10 @@ feature: privacy and security
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 52%
+source-wordcount: '883'
+ht-degree: 53%
 
 ---
 
@@ -53,13 +53,13 @@ Apple ITP 2.x在以 [!DNL Target] 下方面影响：
 
    ECID 库可为 Experience Cloud Core 解决方案启用人员识别框架。通过分配永久和唯一标识符，ECID 库让您能够识别不同 Experience Cloud 解决方案中的相同站点访客及其数据。ECID 库将经常更新，以帮助您减轻 ITP 相关更改对您的实施的影响。
 
-   对于ITP 2.x, [必须使用ECID库4.](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 3.0+进行缓解。
+   对于ITP 2.x, [必须使用ECID库4.](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 3.0+进行缓解。
 
 1. 使用 Adobe CNAME 并注册 Adobe Analytics 托管证书计划。
 
    安装 ECID 库 4.3.0+ 之后，您可以使用 Adobe Analytics CNAME 和托管证书计划。这项计划允许您免费为第一方 Cookie 实施第一方证书。Leveraging CNAME will help [!DNL Target] customers mitigate the impact of ITP 2.x.
 
-   If you are not leveraging CNAME, you can start the process by talking with your account representative and enrolling in the [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
+   If you are not leveraging CNAME, you can start the process by talking with your account representative and enrolling in the [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
 
 在您部署 Target JavaScript 库和 ECID 库 v4.3.0+ 并注册 Adobe 托管证书计划来使用 CNAME 之后，您将获得一个强大且长期的可减轻 ITP 相关更改对您影响的计划。
 

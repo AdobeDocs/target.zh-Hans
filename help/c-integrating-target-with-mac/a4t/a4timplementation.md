@@ -5,9 +5,9 @@ title: Analytics for Target 实施
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '894'
 ht-degree: 50%
 
 ---
@@ -33,15 +33,15 @@ User account requirements must be met before you can create an [!DNL Analytics]-
 
 通过访客 ID 服务，您可以在各个 [!DNL Adobe Experience Cloud] 解决方案中识别用户。您必须实施或迁移到所需版本的 Experience Cloud 访客 ID 服务。有关更多信息，请参阅[实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
 
-See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html) in the *Experience Cloud Visitor ID Service* documentation.
+See [Implement the Experience Cloud ID Service for Target](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html) in the *Experience Cloud Visitor ID Service* documentation.
 
 ## 步骤 4：更新 AppMeasurement for JavaScript 或 s_code
 
 您必须实施或迁移到所需版本的 appMeasurement.js。有关更多信息，请参阅[实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
 
-有关新的实施，请参 [阅《Analytics Implementation Guide](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) 》中的 *JavaScript实施概述*。
+有关新的实施，请参 [阅《Analytics Implementation Guide](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) 》中的 *JavaScript实施概述*。
 
-有关迁移，请参 [阅《分析实施指南》中的](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) “迁移到 *AppMeasurement for JavaScript”*。
+有关迁移，请参 [阅《分析实施指南》中的](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) “迁移到 *AppMeasurement for JavaScript”*。
 
 ## 第5步：下载和更新at.js
 

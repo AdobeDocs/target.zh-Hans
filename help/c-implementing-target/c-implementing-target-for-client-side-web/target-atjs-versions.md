@@ -6,10 +6,10 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '3977'
-ht-degree: 85%
+source-wordcount: '3975'
+ht-degree: 86%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 85%
 >
 >目标团队支持at.js 1。*x* 与 at.js 2.*x* 之间的映射。请升级到at.js的任一主要版本的最新更新，以确保您运行的是受支持的版本。
 >
->[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是升级at.js的首选方法。 扩展开发人员不断为其扩展添加新功能，并经常修复错误。 这些更新将打包到扩展的新版本中，并作为升级在目 [!DNL Launch] 录中提供。 有关详细信息，请参 [阅《Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 用户指南 *》中的“扩展升级”*。
+>[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是升级at.js的首选方法。 扩展开发人员不断为其扩展添加新功能，并经常修复错误。 这些更新将打包到扩展的新版本中，并作为升级在目 [!DNL Launch] 录中提供。 有关详细信息，请参 [阅《Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 用户指南 *》中的“扩展升级”*。
 
 ## at.js 2.3.2（2020年7月24日）
 

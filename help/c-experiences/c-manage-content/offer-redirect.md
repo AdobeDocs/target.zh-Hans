@@ -6,9 +6,9 @@ feature: offers
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '560'
 ht-degree: 97%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 97%
 
 以下视频包含有关管理内容的信息。
 
-* [Experience Cloud 资产库](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)与 Target 内容库之间的关联
+* [Experience Cloud 资产库](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)与 Target 内容库之间的关联
 * 自定义 HTML 选件
 * 可视化体验编辑器中的自定义 HTML 选件
 

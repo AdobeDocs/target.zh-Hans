@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 98%
+source-wordcount: '826'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >如果您当前未使用标签管理器来部署 [!DNL Target]，现在可以考虑使用此方法。Adobe 的[动态标签管理](https://dtm.adobe.com)免费向 [!DNL Target] 客户提供，建议使用此方法来部署 [!DNL Target]。有关更多信息，请参阅[使用动态标签管理实施 Adobe Target 的最佳实践](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)。
+   >如果您当前未使用标签管理器来部署 [!DNL Target]，现在可以考虑使用此方法。Adobe 的[动态标签管理](https://dtm.adobe.com)免费向 [!DNL Target] 客户提供，建议使用此方法来部署 [!DNL Target]。有关更多信息，请参阅[使用动态标签管理实施 Adobe Target 的最佳实践](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html)。
 
 1. 确认当前所有活动和集成均可按预期运行。
 

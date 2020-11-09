@@ -3,11 +3,8 @@ keywords: Overview and Reference;SEO;search engine optimization;edge clusters, c
 description: Adobe Target 可通过两个 JavaScript 库（at.js 或 mbox.js）中的任意一个与网站集成
 title: Adobe Target 的工作原理
 feature: intro
-subtopic: Getting Started
-topic: Standard
-uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 82%

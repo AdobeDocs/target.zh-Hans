@@ -5,9 +5,9 @@ title: 使用 Analytics 跟踪服务器
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '696'
 ht-degree: 27%
 
 ---
@@ -31,7 +31,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
 1. 在创建活动的页面中，打开 [!DNL Adobe Experience Platform Debugger]。
 
-   如果尚未安装调试器，请参 [阅Adobe Experience Platform调试器简介](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
+   如果尚未安装调试器，请参 [阅Adobe Experience Platform调试器简介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
 
    ![](assets/Screen_DebuggerTrackServ.png)
 

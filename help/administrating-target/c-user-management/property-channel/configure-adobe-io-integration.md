@@ -3,9 +3,8 @@ keywords: integration;roles;user permissions;admin console
 description: 有关授予现有 Adobe I/O 集成使用 Adobe Target 中的所需角色访问所有工作区的权限的信息。
 title: 在 Adobe Target 中授予 Adobe I/O 集成访问工作区的权限并分配角色
 feature: user management
-subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 88%
@@ -39,7 +38,7 @@ With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterpr
 
 >[!NOTE]
 >
->如果未执行这项操作，则在 [!DNL Target] 2019 年 9 月版发布之后，访问控制将会激活，而且如果您当前设置为仅访问默认工作区，那么您将看到激活后也只能访问默认工作区。预先设置集成不会产生不良影响。越早完成更改越好。根据组织中的工作区数量，此过程只需单击几次即可将现有集成添加到具有所需角色的工作区中。
+>如果未执行这项操作，则在 [!DNL Target] 2019 年 9 月版发布之后，访问控制将会激活，而且如果您当前设置为仅访问默认工作区，那么您将看到激活后也只能访问默认工作区。预先设置集成不会产生不良影响。越早完成更改越好。根据组织中的工作区数量，此过程只需单击几下即可将现有集成添加到具有所需角色的工作区中。
 
 **要授予 Adobe I/O 集成访问工作区的权限并分配角色，请执行以下操作：**
 

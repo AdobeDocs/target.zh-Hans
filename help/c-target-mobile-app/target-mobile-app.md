@@ -3,10 +3,8 @@ keywords: mobile app;mobile app process;target mobile app;mobile target location
 description: Target 可用于移动设备应用程序优化和个性化
 title: 适用于移动设备应用程序的 Target
 feature: mobile implementation
-topic: Target
-uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 95%

@@ -3,10 +3,8 @@ keywords: Profile script;profile script attributes;mutually exclusive activities
 description: 您可以使用配置文件属性来设置比较两个或更多活动的测试，但是不允许同一访客参加所有活动。
 title: 使用用户档案脚本测试互斥的活动
 feature: visitor profiles
-topic: Advanced,Standard,Classic
-uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 81%

@@ -3,9 +3,8 @@ keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content;auto-targe
 description: 手动A/B测试活动会比较网站内容的两个或多个版本，以查看哪个版本在预先指定的测试期内能够最佳地提高转化率。
 title: A/B测试概述
 feature: ab
-uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 38%

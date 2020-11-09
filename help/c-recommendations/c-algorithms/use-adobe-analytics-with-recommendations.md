@@ -4,9 +4,9 @@ description: 使用Adobe Analytics作为行为数据源，客户可以使用Adob
 title: 将Adobe Analytics与目标·Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1022'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 3%
 >
 >如果它是内容站点，则相应的内容片段必须被视为有关该内容的“产品”和关联属性(例如：作者姓名、发布日期、内容标题、发布月份等。) 必须作为属性进行传递。 类别级别或类别类型的粒度应由业务根据用例要求确定。
 
-有关如何设置产品变量的更多详细信息，请参 [阅](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/products.html) 《Analytics实施 *指南》中的产品*。 该文档中的一些注释需要部署团队的酌情决定(例如：类别)。 在执行此活动之前，始终建议与Adobe协商。
+有关如何设置产品变量的更多详细信息，请参 [阅](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) 《Analytics实施 *指南》中的产品*。 该文档中的一些注释需要部署团队的酌情决定(例如：类别)。 在执行此活动之前，始终建议与Adobe协商。
 
 ### 注意事项
 

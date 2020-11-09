@@ -5,10 +5,10 @@ title: 对与可视化体验编辑器和增强型体验编辑器有关的问题�
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 68%
+source-wordcount: '1368'
+ht-degree: 69%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 68%
 
 Adobe已将更新的VEC帮助程序扩展提交到Google Chrome商店。 此扩展会覆盖cookie属性，以根据需要 `SameSite="none"` 设置属性。 更新 [的扩展可在此处找到](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。 有关安装和使用VEC Helper Extension的详细信息，请参 [阅Visual Experience Composer帮助扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
-对于您自己的网站Cookie，您必须按名称指定Cookie。 将Cookie [!UICONTROL 滑块] 切换到开启位置，然后按名称和Cookie域指定Cookie。 Cookie名称为“mbox”,Cookie域是您为mbox提供服务的域的第二级和顶级。 由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`. 有关详细信息，请参 [阅《Adobe Target](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) 界面 *用户指南》中的Experience CloudCookie*。
+对于您自己的网站Cookie，您必须按名称指定Cookie。 将Cookie [!UICONTROL 滑块] 切换到开启位置，然后按名称和Cookie域指定Cookie。 Cookie名称为“mbox”,Cookie域是您为mbox提供服务的域的第二级和顶级。 由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`. 有关详细信息，请参 [阅《Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) 界面 *用户指南》中的Experience CloudCookie*。
 
 ![Cookie在VEC帮助程序扩展中切换](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 

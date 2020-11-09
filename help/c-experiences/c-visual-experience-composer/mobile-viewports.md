@@ -3,9 +3,8 @@ keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web des
 description: 移动视区可帮助您预览Adobe Target活动在各种尺寸屏幕上的显示方式。
 title: 移动视图端口，提供响应式体验
 feature: vec
-uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 68%

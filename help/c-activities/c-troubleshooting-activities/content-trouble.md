@@ -3,11 +3,8 @@ keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;t
 description: 如果您的页面不显示预期内容，您可以执行一些步骤来调试Adobe Target的内容投放。
 title: 对Adobe Target的内容投放进行疑难解答
 feature: activities
-subtopic: Multivariate Test
-topic: Standard
-uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 60%

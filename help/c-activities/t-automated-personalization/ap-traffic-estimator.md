@@ -3,10 +3,8 @@ keywords: traffic estimator;automated personalization;ap
 description: 流量估计器提供反馈，让您了解您是否有足够的流量使您的Adobe Target活动成功。
 title: 估算成功所需流量
 feature: ap
-topic: Standard
-uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 25%

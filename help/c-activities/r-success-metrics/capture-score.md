@@ -3,11 +3,8 @@ keywords: capture score;score
 description: “捕获分数”参与度量根据分配给网站上访问的页面的值计算汇总分数，该值从访客第一次看到活动的第一个显示目标请求时开始。
 title: 捕捉分数
 feature: success metrics
-subtopic: Getting Started
-topic: Standard
-uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 51%

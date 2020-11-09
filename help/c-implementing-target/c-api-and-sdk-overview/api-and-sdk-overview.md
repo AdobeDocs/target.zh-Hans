@@ -3,10 +3,8 @@ keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations
 description: 有关Adobe Target服务器端投放API、SDK和目标RecommendationsAPI的信息。
 title: 有关Adobe Target服务器端投放API、Node.js SDK和目标RecommendationsAPI的信息。
 feature: server-side
-topic: Recommendations
-uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 20%

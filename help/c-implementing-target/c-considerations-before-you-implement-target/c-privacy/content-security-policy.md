@@ -3,10 +3,8 @@ keywords: content security policy;csp;at.js;whitelist;allowlist;flicker;pre-hide
 description: 有关使用Adobe Targetat.js 2.1或更高版本时应添加的内容安全策略(CSP)指令的信息。
 title: 内容安全策略(CSP)
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%

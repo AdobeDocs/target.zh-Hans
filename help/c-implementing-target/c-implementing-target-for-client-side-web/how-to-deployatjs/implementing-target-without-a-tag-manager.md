@@ -3,11 +3,8 @@ keywords: implement target;implementation;implement at.js;tag manager
 description: 此信息介绍了如何在不使用标签管理器（Adobe Launch 或动态标签管理）的情况下实施 Adobe Target。
 title: 不通过标签管理器实施 Target
 feature: implementation general
-subtopic: Getting Started
-topic: Standard
-uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 70%

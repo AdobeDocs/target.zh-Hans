@@ -3,10 +3,8 @@ keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;g
 description: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 函数的信息。
 title: targetGlobalSettings()
 feature: client-side
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 38%

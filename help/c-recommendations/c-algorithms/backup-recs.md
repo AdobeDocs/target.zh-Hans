@@ -3,9 +3,8 @@ keywords: recommendation;backup;back up
 description: 如果您使用Adobe Target的备份推荐功能，则任何建议项目不足的建议将不显示默认内容。 “推荐”将改为显示备用算法的结果。
 title: 使用备用推荐 adobe targetRecommendations
 feature: criteria
-uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: b37c2065fb74a441a1b4b722cf565f5ece7abb3f
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 83%

@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 92%
+source-wordcount: '402'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 92%
 
 [!DNL Adobe Admin Console] 中的系统管理员必须通过邀请您加入，将您作为用户添加到 [!DNL Target] 中。之后，系统管理员应将您添加到一个或多个特定于角色的组。这两项任务均可在 [Adobe Admin Console](https://adminconsole.adobe.com) 中执行。
 
-有关详细信息，请参 [阅Experience Cloud和核心服务帮助](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) ，查 *看管理Experience Cloud用户和产品*。
+有关详细信息，请参 [阅Experience Cloud和核心服务帮助](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) ，查 *看管理Experience Cloud用户和产品*。
 
 系统管理员执行这些步骤后，您将会收到一封邀请电子邮件。
 

@@ -3,10 +3,8 @@ keywords: experience;json;aem;adobe experience manager;export to adobe target;ex
 description: 有关使用在Adobe Experience Manager(AEM)Adobe Target活动创建的体验片段来帮助优化或个性化的信息。
 title: Adobe Experience Manager(AEM)Adobe Target体验片段
 feature: aem
-topic: Standard
-uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 22%

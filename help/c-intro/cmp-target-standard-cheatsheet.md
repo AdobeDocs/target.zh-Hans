@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2901'
 ht-degree: 98%
 
 ---
@@ -237,7 +237,7 @@ You can always use [Enhanced Experience Composer option at the activity level](/
 
 **我能否确保在用户可能使用的所有设备上都始终如一地提供相同的体验？**
 
-试试我们的 [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)，它允许您通过 Co-op 确定性地和概率性地链接用户的多个设备。
+试试我们的 [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html)，它允许您通过 Co-op 确定性地和概率性地链接用户的多个设备。
 
 如果您在 Co-op 之中，只需单击“目标和设置”页面上的标志即可启用该功能。此时，报表会更改为反映“人员”而不是“访客”。请咨询您的 Adobe 联系人以获取有关此功能的更多信息，因为这不适用于所有区域。
 

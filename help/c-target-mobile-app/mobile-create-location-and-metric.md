@@ -6,9 +6,9 @@ feature: mobile implementation
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '384'
 ht-degree: 92%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 92%
 
 要在移动设备应用程序中使用 Target，需创建位置和成功量度。
 
-本节包含的示例代码可用作应用程序的模板。本节中的示例包含适用于 iOS 的代码。相同的模式也适用于 Android。在[](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/target-main.html)《适用于 Experience Cloud 解决方案的 Android SDK 4.x》指南中可以找到特定于 Android 的语法。
+本节包含的示例代码可用作应用程序的模板。本节中的示例包含适用于 iOS 的代码。相同的模式也适用于 Android。在[](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/target-main.html)《适用于 Experience Cloud 解决方案的 Android SDK 4.x》指南中可以找到特定于 Android 的语法。
 
 >[!NOTE]
 >
->See the [Mobile documentation](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
+>See the [Mobile documentation](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
 
 要在应用程序中创建 Target 位置并提出请求，主要可以使用以下两种方法：
 

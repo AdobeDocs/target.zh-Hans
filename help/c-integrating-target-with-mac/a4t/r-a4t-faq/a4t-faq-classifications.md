@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;classification
 description: 本主题包含有关分类和使用 Analytics 作为 Target 报表源 (A4T) 的常见问题解答。
 title: 分类 - A4T 常见问题解答
 feature: a4t troubleshooting
-topic: Standard
-uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 67%

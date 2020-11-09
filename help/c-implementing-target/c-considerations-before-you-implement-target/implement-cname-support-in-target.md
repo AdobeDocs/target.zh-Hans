@@ -3,10 +3,8 @@ keywords: client care;cname;certificate program;canonical name;cookies;certifica
 description: 有关与 Adobe 客户关怀一起在 Adobe Target 中实施 CNAME（规范名称）支持的信息。
 title: CNAME 和 Adobe Target
 feature: privacy and security
-topic: Standard
-uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 2%

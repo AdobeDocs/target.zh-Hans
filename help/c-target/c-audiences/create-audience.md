@@ -3,10 +3,8 @@ keywords: audience;audience rules;create audience;creating audience
 description: 您可以创建自定义受众并将其保存到 Target 库，以供在活动中使用。您可以复制现有受众，然后对其进行编辑以创建类似受众；此外，也可以合并多个受众。
 title: 在 Target 中构建受众
 feature: audiences
-topic: Advanced,Standard,Classic
-uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 99%

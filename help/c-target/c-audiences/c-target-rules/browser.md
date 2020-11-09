@@ -3,10 +3,8 @@ keywords: browser options;type;browser type;browser language;language;version;br
 description: 您可以在 Adobe Target 中通过创建受众来定位使用特定浏览器或特定浏览器选项访问您的页面的用户。
 title: Adobe Target 受众中的浏览器选项
 feature: audiences
-subtopic: Multivariate Test
-uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 99%

@@ -4,9 +4,8 @@ description: 通过创建排除组、排除重复的选件、排除特定体验�
 title: 管理排除项
 feature: ap
 solution: Target,Analytics
-uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 97%

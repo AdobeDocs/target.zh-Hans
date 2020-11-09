@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1513'
 ht-degree: 98%
 
 ---
@@ -103,7 +103,7 @@ An *体验*&#x200B;可决定满足特定条件时所显示的内容。
 |--- |--- |
 | 可重用受众 | 可以为任何活动选择可重用受众。对某个可重用受众进行更改时，该受众在使用它的所有活动中也会发生相应的更改。 |
 | 自定义区段 | 在 Target Classic 中，自定义区段（也称为“特定于营销活动”的区段）专门用于特定的营销活动。它们作为营销活动的一部分被创建，无法在其他营销活动中重复使用。 |
-| 共享受众 | 可以在 [!DNL Adobe Experience Cloud] 解决方案之间共享受众。See [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) for examples. |
+| 共享受众 | 可以在 [!DNL Adobe Experience Cloud] 解决方案之间共享受众。See [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) for examples. |
 
 要了解访客配置文件如何跟踪与网站访客相关的信息，请参阅[访客配置文件](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)。
 

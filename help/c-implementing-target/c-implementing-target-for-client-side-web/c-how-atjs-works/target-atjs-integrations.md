@@ -3,10 +3,8 @@ keywords: at.js integration;supported integrations;unsupported integrations;thir
 description: 有关与 Target 的常见集成及其对 at.js 的支持状态的信息。
 title: at.js 集成
 feature: client-side
-topic: Standard
-uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 91%

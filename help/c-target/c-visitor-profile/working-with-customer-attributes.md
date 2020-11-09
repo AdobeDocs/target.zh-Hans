@@ -3,11 +3,8 @@ keywords: customer relationship management;customer record service;crs;crm;mbox3
 description: 有关通过使用Adobe Experience Cloud人员核心服务中的客户属性，将客户关系管理(CRM)数据库中的企业客户数据用于Adobe Target的内容定位的信息。
 title: Adobe Target客户属性
 feature: visitor profiles
-subtopic: Getting Started
-topic: Standard
-uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 37%

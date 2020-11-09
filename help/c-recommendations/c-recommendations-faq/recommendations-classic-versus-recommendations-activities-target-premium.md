@@ -3,9 +3,8 @@ keywords: Recommendations;recommendations algorithms;recommendations activity;re
 description: 此信息可帮助您在 Recommendations Classic 与 Target Premium 中的“推荐”活动之间进行选择。
 title: Recommendations Classic 与 Target Premium 中的“推荐”活动
 feature: recommendations general
-uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%

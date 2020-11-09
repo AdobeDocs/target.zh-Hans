@@ -3,10 +3,8 @@ keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimat
 description: Target 可以估计在所有用户都查看成功体验时将获得的收入提升。
 title: 预计收入提升
 feature: administration general
-topic: Advanced,Standard,Classic
-uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 100%

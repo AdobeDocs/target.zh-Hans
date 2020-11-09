@@ -3,10 +3,8 @@ keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device
 description: 在 Adobe Target 中创建受众以根据移动设备、设备类型、设备供应商、屏幕大小（按像素）等参数定位移动设备。
 title: Adobe Target受众的移动选项
 feature: audiences
-topic: Standard
-uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 98%

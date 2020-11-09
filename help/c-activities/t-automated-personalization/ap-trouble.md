@@ -2,9 +2,8 @@
 description: 有时候，活动没有按预期进行。此处介绍了使用自动个性化时可能会遇到的一些潜在问题，以及一些解决方法建议。
 title: 自动个性化故障诊断
 feature: ap
-uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 94%

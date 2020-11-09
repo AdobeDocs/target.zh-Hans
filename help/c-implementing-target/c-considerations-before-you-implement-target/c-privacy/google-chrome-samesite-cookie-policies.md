@@ -3,11 +3,8 @@ keywords: google;samesite;cookies;chrome 80;ietf
 description: 有关 Google Chrome 版本 80 引入的 Adobe Target 和 SameSite IETF 标准的信息。
 title: Adobe Target和谷歌的SameSite Cookie政策
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
-uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2033'
 ht-degree: 8%
@@ -43,7 +40,7 @@ Cookies很重要，因为当用户浏览Web时，它们可以增强用户的体�
 
 ## 安全问题
 
-虽然cookies增强了用户体验和强大广告功能，但它们也可能引入诸如跨站点请求伪造(CSRF)攻击等安全漏洞。 例如，如果用户登录银行站点以支付信用卡账单并离开该站点而不注销，然后浏览到同一会话中的恶意站点，则可能发生CSRF攻击。 恶意站点可能包含向银行站点发出请求的代码，该请求在页面加载时执行。 由于用户仍然通过银行站点的身份验证，会话cookie可用于启动CSRF攻击以从用户的银行帐户发起资金转移事件。 这是因为，每次访问站点时，HTTP请求中都会附加所有Cookie。 由于这些安全问题，谷歌现在正在试图缓解这些问题。
+虽然cookies增强了用户体验和强大功能广告，但它们也可能引入诸如跨站点请求伪造(CSRF)攻击等安全漏洞。 例如，如果用户登录银行站点以支付信用卡账单并离开该站点而不注销，然后浏览到同一会话中的恶意站点，则可能发生CSRF攻击。 恶意站点可能包含向银行站点发出请求的代码，该请求在页面加载时执行。 由于用户仍然通过银行站点的身份验证，会话cookie可用于启动CSRF攻击以从用户的银行帐户发起资金转移事件。 这是因为，每次访问站点时，HTTP请求中都会附加所有Cookie。 由于这些安全问题，谷歌现在正在试图缓解这些问题。
 
 ## 目标如何使用cookies?
 

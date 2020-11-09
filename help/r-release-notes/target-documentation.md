@@ -5,9 +5,9 @@ title: 目标公告
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 | 文档类型 | 描述 |
 | --- | --- |
 | [Adobe Target产品文档](/help/target-home.md)<br>（本指南） | 概述信息、步骤和屏幕截图，侧重于通过 [!DNL Target] 用户界面进行交互。 本指南概述了所有可用的操作和选项，包括要避免的“常见错误”。 这是使用UI时最详细的资 [!DNL Target] 源。 |
-| [Adobe Target教程](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) | 帮助您学习的视频和教程中的许多组件 [!DNL Target]。 |
+| [Adobe Target教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) | 帮助您学习的视频和教程中的许多组件 [!DNL Target]。 |
 | [Adobe Experience League目标内容库](https://guided.adobe.com/#recommended/solutions/target) | 重点介绍页面上提供的功能的操作方法视频 [!DNL Target] 和教程 [!DNL Adobe Target Experience League] 集合。 |
 | [Adobe Experience Platform Launch目标文件](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 有关使用 [!DNL Target] 下一 [!DNL Adobe Experience Platform Launch]代标签管理平台实现的信息 [!DNL Adobe]。 这是首选的实现方法 [!DNL Target]。 |
 | [Adobe 客户关怀团队办公时间](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | 有关“办公时间”的信息，这是由Adobe客户关怀团队领导的一项计划。 These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. |

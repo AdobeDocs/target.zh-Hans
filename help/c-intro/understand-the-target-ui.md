@@ -3,10 +3,8 @@ keywords: target user interface;user interface;ui
 description: 了解Adobe Target用户界面
 title: 了解目标UI
 feature: intro
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 28%
@@ -108,6 +106,6 @@ An *organization* is the entity that enables an administrator to configure group
 
 ![管理页面](/help/c-intro/assets/administration.png)
 
-通过 [!UICONTROL “管理] ”页可以进行 [!DNL Target]管理 [!UICONTROL ，包括Visual Experience Composer(VEC)、报告、配置、][!DNL Scene7] 实现、主机、环境、响应令牌和用户的配置设置。
+通过 [!UICONTROL “管理] ”页 [!DNL Target]面，您可以管理Visual Experience Composer(VEC)、报告、配置 [!DNL Scene7] 、实现、主机、环境、响应令牌和用户的配置设置。
 
 有 [关详细信息](/help/administrating-target/administrating-target.md) ，请参阅管理目标概述，并了解有关用户界面的更多信息。

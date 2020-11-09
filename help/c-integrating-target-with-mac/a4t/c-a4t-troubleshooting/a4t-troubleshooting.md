@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '779'
 ht-degree: 80%
 
 ---
@@ -88,7 +88,7 @@ If you still don&#39;t see the report suite you are looking for, contact [Client
 
 检查补充ID的最简单方法是使用Adobe Experience Platform调试器。
 
-如果尚未安装调试器，请参 [阅Adobe Experience Platform调试器简介](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
+如果尚未安装调试器，请参 [阅Adobe Experience Platform调试器简介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
 
 ![调试程序](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 

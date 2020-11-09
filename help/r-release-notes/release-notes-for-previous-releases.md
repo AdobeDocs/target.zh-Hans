@@ -3,10 +3,8 @@ keywords: Release notes
 description: 以前目标版本的发行说明，包括Target Standard/Premium、目标平台和目标Javascript库(at.js)的发行说明。 发行说明按发布年月按降序排列。
 title: 以前版本的发行说明
 feature: release notes
-topic: Recommendations
-uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '29814'
 ht-degree: 86%

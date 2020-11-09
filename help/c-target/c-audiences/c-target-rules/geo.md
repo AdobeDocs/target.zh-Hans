@@ -4,10 +4,8 @@ description: 使用 Adobe Target 受众基于用户的地理位置（包括其�
 title: Adobe Target受众地理选项
 feature: audiences
 solution: Target,Analytics
-topic: Reports and analytics
-uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 88%
@@ -149,7 +147,7 @@ ht-degree: 88%
 
 系统将波多黎各、中国香港特别行政区和其他区域视为单独的“国家/地区”值。
 
-**当活动[!DNL Target]被定位到地理位置定位功能时，是否会捕获（并存储）诸如邮政编码等信息？**
+**当活动 [!DNL Target] 被定位到地理位置定位功能时，是否会捕获（并存储）诸如邮政编码等信息？**
 
 否， [!DNL Target] 仅在会话期间使用地理数据，然后丢弃数据。
 

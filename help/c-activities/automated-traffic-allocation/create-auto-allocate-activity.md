@@ -3,10 +3,8 @@ keywords: Create auto-allocate;A/B test;auto-allocate activity;new a/b activity;
 description: 使用Adobe Target的Visual Experience Composer直接在启用目标的页面上创建自动分配A/B测试活动，并修改目标中页面的部分。
 title: 创建自动分配活动
 feature: ab
-topic: Advanced,Standard,Classic
-uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: fb4f43eef067a24f58ab8b53a7c8aa9c09392c9e
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 60%

@@ -3,9 +3,8 @@ keywords: time frame;start date;end date;start/end dates;timeframe;target schedu
 description: 您可以添加开始/结束日期和时间来定位在特定期限内访问您网站的用户。您也可以设置“将星期与日期分开”选项来为受众定位创建循环模式。
 title: Adobe Target受众的时间帧选项
 feature: audiences
-uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 96%

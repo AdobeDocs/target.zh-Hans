@@ -3,10 +3,8 @@ keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orpha
 description: 此信息可帮助您在使用 Analytics 作为报表源时最大限度地降低夸大的访问和访客计数所带来的影响。
 title: 在 A4T 中最大限度地减少夸大的访问和访客计数
 feature: a4t troubleshooting
-topic: Standard
-uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 97%

@@ -3,10 +3,8 @@ keywords: multiple audiences;experience versions;target experience versions
 description: 在 A/B 活动中，您可以将相同体验的不同版本定位到不同的受众。在可视化体验编辑器或基于表单的体验编辑器中，您可以为一个体验设置多个受众。
 title: A/B 测试中的多个体验版本
 feature: ab
-topic: Standard
-uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%

@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 35%
 
 ---
@@ -52,7 +52,7 @@ When the [!UICONTROL Select] operation is used and you sort on *Entrants*, then 
 * [!UICONTROL 活动印象] -匹配报 [!UICONTROL 表中的] “新进者 [!DNL Target] ”编号。
 * [!UICONTROL 活动转换] -匹配报 [!UICONTROL 表中的] “自定义转 [!DNL Target] 换”。
 
-在中 [!DNL Analysis Workspace]，使用“ [!UICONTROL 目标分析”面板] ，以提升并自信 [!DNL Target] 地分析活动和体验。 有关详细信息，请 [参阅《Analytics工具指南》中的“目标分析(A4T](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) ) *面板”*。
+在中 [!DNL Analysis Workspace]，使用“ [!UICONTROL 目标分析”面板] ，以提升并自信 [!DNL Target] 地分析活动和体验。 有关详细信息，请 [参阅《Analytics工具指南》中的“目标分析(A4T](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) ) *面板”*。
 
 >[!IMPORTANT]
 >

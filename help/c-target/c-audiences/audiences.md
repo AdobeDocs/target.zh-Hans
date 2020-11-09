@@ -3,10 +3,8 @@ keywords: audience;audience rules;create audience;creating audience;targeting au
 description: Adobe Target 中的受众可决定将在定位活动中看到内容和体验的人群。
 title: 在 Adobe Target 中创建受众
 feature: audiences
-topic: Advanced,Standard,Classic
-uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 95%

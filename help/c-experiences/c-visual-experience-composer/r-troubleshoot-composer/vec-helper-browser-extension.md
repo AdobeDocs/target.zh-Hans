@@ -5,9 +5,9 @@ title: Adobe Target 可视化体验编辑器 (VEC) 助手扩展
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '878'
 ht-degree: 57%
 
 ---
@@ -66,7 +66,7 @@ The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper bro
 
    * 有关SameSite=None属性浏览器修复的详细信息，请参阅“最近发布的Google Chrome SameSite cookie实施策略如何影响VEC和EEC?” in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-   * Cookie名称为“mbox”,Cookie域是您为mbox提供服务的域的第二级和顶级。 由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`. 有关详细信息，请参 [阅《Adobe Target](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) 界面 *用户指南》中的Experience CloudCookie*。
+   * Cookie名称为“mbox”,Cookie域是您为mbox提供服务的域的第二级和顶级。 由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`. 有关详细信息，请参 [阅《Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) 界面 *用户指南》中的Experience CloudCookie*。
 
 ## 注释
 

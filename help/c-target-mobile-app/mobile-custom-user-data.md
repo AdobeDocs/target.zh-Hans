@@ -3,10 +3,8 @@ keywords: mobile app;mobile app send data;target mobile app;mobile custom user d
 description: 您可以将有关位置或用户的其他信息以名称-值对的形式发送给 Target。
 title: iOS - 发送自定义用户数据
 feature: mobile implementation
-topic: Target
-uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%

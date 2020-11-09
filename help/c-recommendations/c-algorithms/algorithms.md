@@ -3,9 +3,8 @@ keywords: recommendations;recommendations activity;criteria;algorithm;recommenda
 description: Adobe Target的标准是根据一组预定的访客行为确定推荐哪些产品或内容的规则。
 title: Adobe TargetRecommendations标准
 feature: criteria
-uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: d276693eeab095b7f2f5fad293a03ab10eb1faf6
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 53%

@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4t;provisioning;p
 description: 本主题包含有关将 Analytics 配置为 Target 报表源 (A4T) 的常见问题解答。
 title: 初始配置 - A4T 常见问题解答
 feature: a4t troubleshooting
-topic: Standard
-uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%

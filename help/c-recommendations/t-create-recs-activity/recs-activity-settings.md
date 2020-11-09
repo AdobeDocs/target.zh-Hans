@@ -3,10 +3,8 @@ keywords: Recommendations;Settings;name;objective;priority;duration;reporting se
 description: 有些设置可用于描述和控制 Adobe Target 中的“推荐”活动。
 title: Adobe Target 中的“推荐”活动设置
 feature: recs creation
-subtopic: Recommendations
-uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 89%

@@ -3,10 +3,8 @@ keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;californ
 description: 有关欧盟《通用数据保护条例》(GDPR)、《加州消费者隐私法案》(CCPA) 和其他国际隐私要求，以及这些法规您所在组织和 Adobe Target 有何影响的信息。
 title: 隐私和数据保护法规
 feature: privacy and security
-topic: Standard
-uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2250'
 ht-degree: 93%

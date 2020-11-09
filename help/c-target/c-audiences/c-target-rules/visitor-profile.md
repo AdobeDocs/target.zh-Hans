@@ -3,9 +3,8 @@ keywords: visitor profile;target visitor profile
 description: 在 Adobe Target 中创建受众以定位满足特定配置文件参数的访客。
 title: 访客用户档案选项在Adobe Target受众
 feature: audiences
-uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 94%

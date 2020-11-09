@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1494'
 ht-degree: 37%
 
 ---
@@ -23,7 +23,7 @@ Enterprise customer data collected through multiple sources and stored inside CR
 
 ## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[核心服务](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) 中的 [!DNL People] 客户属性是核心服务的一部分， [!DNL Adobe Experience Cloud] 它为企业提供了将客户数据推送到平台的 [!DNL Experience Cloud] 工具。
+[核心服务](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) 中的 [!DNL People] 客户属性是核心服务的一部分， [!DNL Adobe Experience Cloud] 它为企业提供了将客户数据推送到平台的 [!DNL Experience Cloud] 工具。
 
 载入到 [!DNL Experience Cloud] 的数据适用于所有 [!DNL Experience Cloud] 工作流。[!DNL Target] 使用此数据根据属性定位退回客户。 [!DNL Adobe Analytics] 也会使用这些属性，它们可用于分析和分段。
 
@@ -31,7 +31,7 @@ Enterprise customer data collected through multiple sources and stored inside CR
 
 Consider the following information as your work with customer attributes and [!DNL Target]:
 
-* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL People] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in the *Experience Cloud and Core Services Product documentation*.
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL People] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in the *Experience Cloud and Core Services Product documentation*.
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ Consider the following information as your work with customer attributes and [!D
 
 ![crm工作流](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud and Core Services Product Documentation*.
+Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud and Core Services Product Documentation*.
 
 1. 创建数据文件。
 
@@ -86,7 +86,7 @@ Detailed instructions for completing each of the following tasks can be found in
    您的数据文件必须符合文件上传要求，且不得超过100MB。 如果您的文件太大，或者您有需要重复上传的数据，您可以通过FTP传送您的文件。
 
    * **HTTPS:** 您可以拖放。csv数据文件或单击“浏 **[!UICONTROL 览]** ”从文件系统上传。
-   * **FTP:** 单击FTP链接， [通过FTP上传文件](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 第一步是为 Adobe 提供的 FTP 服务器提供密码。Specify the password, then click **[!UICONTROL Done]**.
+   * **FTP:** 单击FTP链接， [通过FTP上传文件](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 第一步是为 Adobe 提供的 FTP 服务器提供密码。Specify the password, then click **[!UICONTROL Done]**.
 
    现在，将您的 CSV/ZIP/GZIP 文件传输到 FTP 服务器。此文件传输成功后，请创建一个名称相同且扩展名为。fin的新文件。 将此空文件传输到服务器。This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
@@ -102,7 +102,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. 配置订阅并激活属性来源。
 
-   单击&#x200B;**[!UICONTROL 添加订阅]**，然后选择解决方案以订阅这些属性。[配置订阅](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) ，在和解决方案之间设置 [!DNL Experience Cloud] 数据流。 激活属性来源允许数据流动到订阅的解决方案。您上传的客户记录与您的网站或应用程序中的传入 ID 信号相匹配。
+   单击&#x200B;**[!UICONTROL 添加订阅]**，然后选择解决方案以订阅这些属性。[配置订阅](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html) ，在和解决方案之间设置 [!DNL Experience Cloud] 数据流。 激活属性来源允许数据流动到订阅的解决方案。您上传的客户记录与您的网站或应用程序中的传入 ID 信号相匹配。
 
    ![配置解决方案](/help/c-target/c-visitor-profile/assets/solution.png)
 
@@ -144,11 +144,11 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 
 ### 使用 Experience Cloud ID 服务
 
-如果您使用 Experience Cloud ID 服务，则需要设置客户 ID 和身份验证状态以在定位中使用客户属性。For more information, see [Customer IDs and Authentication State](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) in the *Experience Cloud Identity Service Help*.
+如果您使用 Experience Cloud ID 服务，则需要设置客户 ID 和身份验证状态以在定位中使用客户属性。For more information, see [Customer IDs and Authentication State](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) in the *Experience Cloud Identity Service Help*.
 
 有关在 [!DNL Target] 中使用客户属性的更多信息，请参阅以下资源：
 
-* [创建客户属性来源并上传Experience Cloud产品文档](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) 中的 *数据文件*
+* [创建客户属性来源并上传Experience Cloud产品文档](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) 中的 *数据文件*
 * 数字营销产品组的博客文章&#x200B;**[客户属性：了解的越多，关联的越好](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}

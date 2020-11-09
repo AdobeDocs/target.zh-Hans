@@ -4,9 +4,9 @@ description: Adobe Target欢迎工具包——第4章——使用目标的技巧
 title: Adobe Target欢迎工具包——第4章——使用目标的技巧
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2882'
+source-wordcount: '2880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 例如，您可以将销售点系统的购买数据与访客用户档案关联。 为此，只需创建一个包含最多200个脱机变量的CSV文件，然后通过文件上传直接将其上 [!DNL Adobe Experience Cloud] 传到文件中，或使用FTP托管并计划要定期更新的文件。 客户属性加入后， [!DNL Adobe Experience Cloud]您可以将其映射到解决 [!DNL Experience Cloud] 方 [!DNL Adobe Analytics] 案，例如，在 [!DNL Target] 何处可以进行分析、测试和个性化。
 
-请参 [阅自定义](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) 属性，了解分步说明。
+请参 [阅自定义](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) 属性，了解分步说明。
 
 **真好**:由于 [!DNL Target] 是一个可以与不同技术良好结合的开放式、不可知的平台，您可以通过多种不同方式添加CRM或购买数据。 这意味着您可以选择最适合您的组织的方法。
 

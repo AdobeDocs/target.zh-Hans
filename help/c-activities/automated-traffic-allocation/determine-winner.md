@@ -3,10 +3,8 @@ keywords: automated traffic allocation;targeting;winner;statistical guarantee;co
 description: 通过查看 Target UI 中的指示器，可确定自动分配 A/B 活动中的入选者。
 title: 确定入选者
 feature: auto-allocate
-topic: Standard
-uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 49%
@@ -50,7 +48,7 @@ ht-degree: 49%
 
 >[!IMPORTANT]
 >
->目标在预定义的最小转化率后显示入选方；但是，挑选获胜者的最终决定应始终取决于Adobe Target样本 [大小计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)。 目标不考虑站点的基本转化率以及输入计算器以确定活动持续时间的其他重要方面。 因此，目标可能会提前在最低转化率的基础上显示优胜者。 有关详细信息，请参 [阅示例大小计算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
+>目标在预定义的最小转化次数后显示入选方；但是，挑选获胜者的最终决定应始终取决于Adobe Target样本 [大小计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)。 目标不考虑站点的基本转化率以及输入计算器以确定活动持续时间的其他重要方面。 因此，目标可能会提前在最低转化率的基础上显示优胜者。 有关详细信息，请参 [阅示例大小计算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
 
 ## 了解自动分配报告中的提升和置信度活动 {#lift-confidence}
 

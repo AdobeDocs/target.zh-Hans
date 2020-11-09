@@ -6,10 +6,10 @@ feature: troubleshooting general
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 82%
+source-wordcount: '180'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 82%
 
 您可以快速查看库配置、检查请求以确保正确传递自定义参数、打开控制台日志记录以及禁用所有 Target 请求。在 Experience Cloud 中进行身份验证后，您可以使用功能强大的 Mbox 跟踪工具来检查您的活动和受众资格以及访客配置文件。
 
-有关更多信息，请参阅 [Adobe Experience Cloud 调试器扩展文档](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)。特定于 Target 的信息可在[工具](https://docs.adobe.com/content/help/en/debugger/using/tools.html)部分中找到。
+有关更多信息，请参阅 [Adobe Experience Cloud 调试器扩展文档](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)。特定于 Target 的信息可在[工具](https://experienceleague.adobe.com/docs/debugger/using/tools.html)部分中找到。
 
 ## 培训视频
 

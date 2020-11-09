@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1391'
 ht-degree: 17%
 
 ---
@@ -145,4 +145,4 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 * [!UICONTROL 自动目标] 模型照常每24小时进行一次培训。 但是，来自转化事件 [!DNL Analytics] 的数据会再延迟6到24小时。 此延迟意味着流量分配将跟 [!DNL Target] 踪记录的最新事件 [!DNL Analytics]。 在活动启动后的头48小时内，效果最大；活动的性能将更密切地反映 [!DNL Analytics] 经过五天后的转换行为。 您应考虑对 [!UICONTROL 短期活动使] 用“自动分配 [!UICONTROL ”，而不] 是“自动目标”，在短期中，大多数流量都发生在活动生命周期的前五天内。
 * 当使 [!DNL Analytics] 用作自动目标 [!UICONTROL 活动的数据源时] ，会话被视为在经过6小时后结束。 六小时后发生的转换不会计算在内。
 
-有关详细信息，请参 [阅《分析工具指南》中](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) 的归因 *模型和回顾窗口*。
+有关详细信息，请参 [阅《分析工具指南》中](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) 的归因 *模型和回顾窗口*。

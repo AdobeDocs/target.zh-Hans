@@ -3,10 +3,8 @@ keywords: document.write;target;implement;implement target;dtm;dynamic tag manag
 description: 可通过在网页上引用 Target 库（at.js 或 mbox.js）来实施 Target。
 title: 了解 Target JavaScript 库
 feature: implementation general
-topic: Target
-uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 100%

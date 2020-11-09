@@ -3,9 +3,8 @@ keywords: creating custom criteria;algorithms;criteria;recommendations criteria;
 description: 可上传 CSV 文件以自定义您的推荐。
 title: 上传自定义标准
 feature: criteria
-uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 63%

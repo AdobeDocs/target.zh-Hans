@@ -4,21 +4,21 @@ description: Adob Target 可自动收集和使用各种数据，以在自动个�
 title: 为 Adobe Target 个性化算法收集数据
 feature: ap
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 2b31d26bab2f2b702947c907c1d6966e5d0f20e3
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 97%
+source-wordcount: '1754'
+ht-degree: 91%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 为 Target 个性化算法收集数据{#data-collection-for-the-target-personalization-algorithms}
+# ![PREMIUM](/help/assets/premium.png) 为 Target 个性化算法收集数据
 
-Target 可自动收集和使用各种数据，以在自动个性化 (AP) 和自动定位 (AT) 活动中构建其个性化算法。当一名访客进入到 AP 或 AT 活动，信息快照便会被传递到一组“训练记录”（个性化算法将要学习的访客数据）中。
+[!DNL Adobe Target] 在Automated Personalization(AP)和自动目标(AT)活动中自动收集 [!UICONTROL 和使用] 各种数 [!UICONTROL 据来构建其] 个性化算法。 当访客进入AP或AT活动时，信息快照会传递到一组“培训记录”(个性化算法将学习的访客数据)。
 
-要了解有关 Target 个性化算法的更多信息，请参阅[随机林算法](/help/c-activities/t-automated-personalization/algo-random-forest.md)。
+To learn more about the Target personalization algorithms, see [Random Forest Algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-下表显示了在营销人员无需执行任何操作的情况下，由自动个性化和自动定位活动默认收集的数据，以及在[个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中用于指示这些属性的命名约定。您可以随时增加输入数据集。要了解有关如何上传其他数据的更多信息，请参阅[为 Target 个性化算法上传数据](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
+The following table shows the data collected by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). 您可以随时增加输入数据集。要了解有关如何上传其他数据的更多信息，请参阅[为 Target 个性化算法上传数据](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
 | 数据类型 | 描述 | 数据类型命名约定 | 示例属性 |
 | --- | --- | --- | --- |

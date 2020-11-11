@@ -4,10 +4,10 @@ description: 本主题包含有关分类和使用 Analytics 作为 Target 报表
 title: 分类 - A4T 常见问题解答
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 403a56da912fa143cf6c20b078c0bba63c6f4420
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 67%
+source-wordcount: '244'
+ht-degree: 65%
 
 ---
 
@@ -28,6 +28,7 @@ TNT 变量的字符串格式为 `activityID:experienceID:targettype|event`。
 * 若 event 为 0，则表示访客参加了体验。
 * 若 event 为 1，则表示访客访问了体验。
 * 若 event 为 2，则表示进行了活动展示。
+* 事件= 3-32766表示分析成功度量ID。
 * 若 event 为 32767，则表示进行了活动转化。
 
 You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). 您也可以联系工程服务部门，以便在获取点击流数据信息源的同时一起获取该文件作为查询表。

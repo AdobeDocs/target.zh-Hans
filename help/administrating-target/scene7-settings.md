@@ -4,10 +4,10 @@ description: Target Standard可以与AdobeDynamic Media Classic集成，以在�
 title: Dynamic Media Classic集成配置集成
 feature: administration general
 translation-type: tm+mt
-source-git-commit: 76ab5aef33f5e9c5de08b33e83e459b588bb0fba
+source-git-commit: 44d6cd2dcc71a84d4526aaf38ee606ffb0a97fb5
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 16%
+source-wordcount: '378'
+ht-degree: 18%
 
 ---
 
@@ -20,11 +20,13 @@ ht-degree: 16%
 >
 >Integrating [!DNL Target] with [!DNL Dynamic Media Classic] enables delivery of assets (as part of activities) uploaded to the [!DNL Adobe Experience Cloud] assets folder. This integration does not enable access to all assets uploaded in [!DNL Dynamic Media Classic] for delivery in [!DNL Target] activities.
 
-If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials.
+If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials. If you do not have an account, you can request a restricted-use [!DNL Dynamic Media Classic] account at no additional charge from your [!DNL Adobe] representative. This account can be used for purposes restricted for use in [!DNL Target] only. 当客户的工作流需要使用图像交换功能时，他们可以使用此服务。
 
+<!-- 
 >[!NOTE]
 >
->新客户或新用户不 [!DNL Dynamic Media Classic] 再支 [!DNL Adobe Target] 持使用受限的免费帐户。 现有登录凭据可以正常使用。
+>A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
+-->
 
 If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. 配置此设置后，可在Visual Experience Composer(VEC)和基于表单的Experience Composer中 [使用交换／更改图像优惠的选项](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。 You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 

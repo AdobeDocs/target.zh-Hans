@@ -4,9 +4,9 @@ description: 本页列表了对Adobe Target文档所做的重要更改（按版�
 title: Adobe Target 产品文档中的文档更改。
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fb843aef10721d138fa652c818d90295b606247e
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '2932'
+source-wordcount: '2940'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 13 年 11 月 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.3.3 的信息。 |
 | 10 年 11 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关定于11月11日举办的Adobe Target社区问答咖啡会的信息。 |
 | 3 年 11 月 | [Analytics 与 Target 集成 (A4T) 故障诊断](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 更新了以下疑难解答主题：“我需要的报表包不显示。” |
 | 10月28日 | [服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 添加了注意，首次访客只能在客户端进行初始化，而不能在服务器端进行初始化。 |

@@ -4,10 +4,10 @@ description: 这些发行说明介绍了每个 Target Standard 和 Target Premiu
 title: 'Adobe Target 发行说明（当前版本） '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 27%
+source-wordcount: '974'
+ht-degree: 26%
 
 ---
 
@@ -31,6 +31,12 @@ ht-degree: 27%
 
 
 括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+## at.js 2.3.3（2020年11月13日）
+
+此版本的at.js是维护版本，包括以下修复：
+
+* 修复了与mbox单击跟踪和A4T相关的问题。
 
 ## Target Standard/Premium 20.10.1（2020 年 10 月 27 日） 
 

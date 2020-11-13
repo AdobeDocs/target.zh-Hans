@@ -4,9 +4,9 @@ description: 发行说明，提供有关最新或即将发布的DNLAdobe Target�
 title: Adobe Target预发行说明
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fd3ab8737cd79da7bc14cc0236d07a024d6e85bc
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '779'
 ht-degree: 10%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 10%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| 设备上决策 | 设备上决策允许营销人员和产品开发人员以接近零的延迟从用户设备内跨渠道交付实验和机器学习驱动的个性化。<br>速度和性能至关重要——在客户洞察和用户满意度方面。<br>通过设备决策，您可以将A/B测试和体验定位(XT)活动类型中的关键个性化和试验说明编译为“优化对象：”JSON对象，这些对象通过CDN加载到客户设备上。 由于设备内决策与产品本机连接， [!DNL Adobe Experience Cloud] 用户 [!DNL Target] 可以快速分析并更快地体验迭代。<br>有关详细信息，请 *[参阅《Adobe TargetSDK指南](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* 》中 *的设备决策简介*。<br>**立即注册参加实时网络研讨会。** 与Adobe Target产品专家一起讨论如何在设备上将关键体验优化决策移动到本地执行，同时保持零延迟，这将为激动人心的新用例敞开大门，同时为客户改善站点性能。<ul><li>2020年11月10日</li><li>上午10:00 PT /下午12:00 CT /下午1:00 ET</li><li>[在此处注册](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+| 设备上决策 | 设备上决策允许营销人员和产品开发人员以接近零的延迟从用户设备内跨渠道交付实验和机器学习驱动的个性化。<br>速度和性能至关重要——在客户洞察和用户满意度方面。<br>通过设备决策，您可以将A/B测试和体验定位(XT)活动类型中的关键个性化和试验说明编译为“优化对象：”JSON对象，这些对象通过CDN加载到客户设备上。 由于设备内决策与产品本机连接， [!DNL Adobe Experience Cloud] 用户 [!DNL Target] 可以快速分析并更快地体验迭代。<br>有关详细信息，请 *[参阅《Adobe TargetSDK指南](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* 》中 *的设备决策简介*。 |
 
 此版本包含以下增强、修复和更改：
 

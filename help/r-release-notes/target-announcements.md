@@ -4,9 +4,9 @@ description: 有关即将举办的事件的信息，包括目标技能生成器�
 title: 目标公告
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fb843aef10721d138fa652c818d90295b606247e
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -30,21 +30,6 @@ ht-degree: 0%
 * **上午10点（太平洋标准时间） |下午12:00 CST |东部时间下午1点**
 
 [在此处注册，获得这一令人兴奋的事件。](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
-
-## Adobe Target社区问答咖啡休息
-
-* **2020年11月11日星期三**
-* **上午8点（太平洋标准时间）**
-
-我们的专家将是高级 [!DNL Adobe Target] 产品经理David Son，他将就以下主题分享见解和专业知识：
-
-* 设备上决策
-* At.js
-* 移动设备
-* AEP Web SDK
-* API
-
-[请在此处登记.](https://adobe.ly/2H3MBX9)
 
 ## 网络研讨会：汇丰如何利用Adobe Target和人工智能快速大规模优化和提供个性化
 

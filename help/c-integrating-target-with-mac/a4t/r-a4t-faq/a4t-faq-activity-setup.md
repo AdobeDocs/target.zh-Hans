@@ -4,10 +4,10 @@ description: 本主题包含有关活动设置和使用 Analytics 作为 Target 
 title: 活动设置 - A4T 常见问题解答
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 35%
+source-wordcount: '432'
+ht-degree: 42%
 
 ---
 
@@ -47,10 +47,3 @@ To always use [!DNL Analytics] as the reporting source, select **[!UICONTROL Ado
 
 * 在进入目标“客流量”后，如果机器学习模型确定新访问的相关体验不同，则访客可以发送到访问的不同体验。
 * 在分配给流量的控制“存储段”后，访客将始终看到相同的体验，因为体验分配基于访客的visitorId的确定性伪随机哈希。
-
-## 是否建议在构建模型之前，将自定义模型用于自动目标和A4T(具有90(Control)/10（目标）拆分)?
-
-您的最佳流量分配分配取决于您想要完成的任务。
-
-如果您的目标是尽可能个性化流量，您可以在活动的整个生命周期中保持90%的目标和10%的控制。 如果您的目标是运行一个比较个性化算法与控制效果的实验，那么50/50分割效果最好。
-

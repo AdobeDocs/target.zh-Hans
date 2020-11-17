@@ -4,15 +4,15 @@ description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A
 title: 查看报表 - A4T 常见问题解答
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 63%
+source-wordcount: '2177'
+ht-degree: 57%
 
 ---
 
 
-# 查看报表 - A4T 常见问题解答{#view-reports-a-t-faq}
+# 查看报表 - A4T 常见问题解答
 
 This topic contains answers to questions that are frequently asked about viewing reports when using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
@@ -135,3 +135,16 @@ The following list explains reasons why the same visitor could be counted in mul
 Changing the traffic allocation percentage in an activity after activation can cause inconsistent reporting in [!DNL Analytics] because the change impacts only new visitors. 回访访客将不受影响。
 
 作为最佳实践，您应停止现有活动，然后创建一个新活动，而不是在激活后更改百分比。新活动的报表会从新访客开始，而回访访客的数据并不会导致报表不一致。
+
+## 在使用A4T的自动目标活动中，访问如何计入Analytics和转化信用？
+
+访客获得活动资格后，所有转化信用将在将来与该活动关联。
+
+请考虑以下事项：
+
+* 如果在分析窗口之外发生转换，则转换将不会显示在报告中。 您的报告窗口应从活动的开始日期开始。
+* 如果访客不符合活动的条件，则可能增加访客数，即 [!DNL Analytics]使他／她可能看不到活动提供的内容。
+* 如果访客在不同访问中有资格获得多个体验，则转化信用将归因于上次查看的体验。
+* 如果在活动窗口之前开始输入分析，则后续访问和转换仍会计入分析窗口。 但是，这可能会歪 [!DNL Analytics] 斜报表。
+* 活动被附加并充当列表变量；但是，体验会被覆盖，但转化的信用将归因于上次查看的体验。
+* 如果访客在后续访问中重新进入活动，则一个访客可以增加两种不同体验的访问量。

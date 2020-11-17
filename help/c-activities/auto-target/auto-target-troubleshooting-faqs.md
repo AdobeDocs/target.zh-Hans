@@ -4,7 +4,7 @@ description: 关于Adobe Target自动目标的疑难解答和常见问题。
 title: 自动目标疑难解答和常见问题解答
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
+source-git-commit: 18dbc90f52c9a23713577c4cda4ac87a5b69edd2
 workflow-type: tm+mt
 source-wordcount: '1830'
 ht-degree: 71%

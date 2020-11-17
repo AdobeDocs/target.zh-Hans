@@ -4,9 +4,9 @@ description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A
 title: 查看报表 - A4T 常见问题解答
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: 7ad57c6f3814140df0826f57d8052f6db3fda301
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2196'
 ht-degree: 57%
 
 ---
@@ -138,13 +138,11 @@ Changing the traffic allocation percentage in an activity after activation can c
 
 ## 在使用A4T的自动目标活动中，访问如何计入Analytics和转化信用？
 
-访客获得活动资格后，所有转化信用将在将来与该活动关联。
+当访客符合A4T活动的条件、视图内容或进行转换时，会向其发送 [!DNL Target] 事件 [!DNL Analytics]，这允许将页面上发生的转换事件和其他点击流事件归因为相关的 [!DNL Analytics][!DNL Target] 活动和体验。
 
-请考虑以下事项：
+在查看报告时，请牢记以下几点 [!DNL Analytics] :
 
-* 如果在分析窗口之外发生转换，则转换将不会显示在报告中。 您的报告窗口应从活动的开始日期开始。
-* 如果访客不符合活动的条件，则可能增加访客数，即 [!DNL Analytics]使他／她可能看不到活动提供的内容。
-* 如果访客在不同访问中有资格获得多个体验，则转化信用将归因于上次查看的体验。
-* 如果在活动窗口之前开始输入分析，则后续访问和转换仍会计入分析窗口。 但是，这可能会歪 [!DNL Analytics] 斜报表。
-* 活动被附加并充当列表变量；但是，体验会被覆盖，但转化的信用将归因于上次查看的体验。
-* 如果访客在后续访问中重新进入活动，则一个访客可以增加两种不同体验的访问量。
+* 通常，报告窗口应始终从活动的开始日期开始。
+* 如果在报表窗口之外发生转换，则转换将不在中显示 [!DNL Analytics]。
+* 当在自动目标 [!UICONTROL 活动的“目标”流量部分时，访客可能会看到不同的体验，从一个会话到下一个会话。例如，他们的用户档案或上下文已发生更改，并且][!DNL Target]机器学习算法决定他们更有可能根据新体验进行转换。 这与常规A/B测试活动不同，在这些访客中，每次访问的体验对客户很有吸引力。
+* 如果访客在访问中看到多个体验，则任何转化均始终归因于访客看到的上一次体验；但是，访问计数将针对访客看到的每个体验递增。 在报告中的“目标”维度下查看体验时，这会人为地抑[!UICONTROL 制每]个体验的 [!DNL Adobe Analytics] 转化率。

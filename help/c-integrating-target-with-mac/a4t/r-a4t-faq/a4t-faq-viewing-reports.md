@@ -4,10 +4,10 @@ description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A
 title: 查看报表 - A4T 常见问题解答
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 7ad57c6f3814140df0826f57d8052f6db3fda301
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 57%
+source-wordcount: '2214'
+ht-degree: 56%
 
 ---
 
@@ -138,11 +138,11 @@ Changing the traffic allocation percentage in an activity after activation can c
 
 ## 在使用A4T的自动目标活动中，访问如何计入Analytics和转化信用？
 
-当访客符合A4T活动的条件、视图内容或进行转换时，会向其发送 [!DNL Target] 事件 [!DNL Analytics]，这允许将页面上发生的转换事件和其他点击流事件归因为相关的 [!DNL Analytics][!DNL Target] 活动和体验。
+当访客符合条件、视图内容或在A4T活动中进行转换时， [!DNL Target] 会向其发送事件 [!DNL Analytics]数据，这允许将页面上发生的转换事件和其他点击流事件归因为相关 [!DNL Analytics][!DNL Target] 活动和体验。
 
 在查看报告时，请牢记以下几点 [!DNL Analytics] :
 
-* 通常，报告窗口应始终从活动的开始日期开始。
+* 通常，作为最佳实践，您的报告窗口应从活动的开始日期开始。
 * 如果在报表窗口之外发生转换，则转换将不在中显示 [!DNL Analytics]。
-* 当在自动目标 [!UICONTROL 活动的“目标”流量部分时，访客可能会看到不同的体验，从一个会话到下一个会话。例如，他们的用户档案或上下文已发生更改，并且][!DNL Target]机器学习算法决定他们更有可能根据新体验进行转换。 这与常规A/B测试活动不同，在这些访客中，每次访问的体验对客户很有吸引力。
-* 如果访客在访问中看到多个体验，则任何转化均始终归因于访客看到的上一次体验；但是，访问计数将针对访客看到的每个体验递增。 在报告中的“目标”维度下查看体验时，这会人为地抑[!UICONTROL 制每]个体验的 [!DNL Adobe Analytics] 转化率。
+* 在自动目标活动的“目标”流 [!UICONTROL 量部分] ,访客可能会看到不同会话的不同体验。 例如，如果用户档案或上下文已发生更改， [!DNL Target]并且机器学习算法认为他们更有可能根据新体验进行转换。 当访客从体验转到体验时，每次体验的访问次数都会增加。 这与常规A/B测试活动不同，在这些访客中，每次访问的体验都会与客户粘滞。
+* 如果访客在访问中看到多个体验，则任何转化都始终归因于访客看到的上一次体验。 如前所述，访客看到的每个体验的访问次数都会增加。 在报告中的“目标”维度下查看体验时，这会人为地抑[!UICONTROL 制每]个体验的 [!DNL Adobe Analytics] 转化率。

@@ -4,9 +4,9 @@ description: 本页列表了对Adobe Target文档所做的重要更改（按版�
 title: Adobe Target 产品文档中的文档更改。
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '2993'
+source-wordcount: '2994'
 ht-degree: 29%
 
 ---
@@ -20,7 +20,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 17 年 11 月 | [活动设置 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 添加了以下常见问题解答：<ul><li>在使用A4T的自动访客活动中，是否可以在不同访问中的目标体验和受控体验之间切换？</li><li>是否建议在构建模型之前，将自定义模型用于自动目标和A4T(具有90(Control)/10（目标）拆分)?</li></ul> |
+| 17 年 11 月 | [活动设置 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 添加了以下常见问题解答：“在使用A4T的自动访客活动中，目标能否在不同访问中的目标体验和受控体验之间切换？” |
+|  | [自动目标疑难解答和常见问题解答](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 添加了以下常见问题解答：“您是否建议我们在构建模型之前对90(Control)/10（目标）拆分使用自动目标?” |
 | 13 年 11 月 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.3.3 的信息。 |
 | 10 年 11 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关定于11月11日举办的Adobe Target社区问答咖啡会的信息。 |
 | 3 年 11 月 | [Analytics 与 Target 集成 (A4T) 故障诊断](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 更新了以下疑难解答主题：“我需要的报表包不显示。” |

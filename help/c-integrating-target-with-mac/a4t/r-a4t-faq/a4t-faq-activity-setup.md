@@ -4,17 +4,17 @@ description: 本主题包含有关活动设置和使用 Analytics 作为 Target 
 title: 活动设置 - A4T 常见问题解答
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 89%
+source-wordcount: '514'
+ht-degree: 35%
 
 ---
 
 
-# 活动设置 - A4T 常见问题解答{#activity-settings-a-t-faq}
+# 活动设置 - A4T 常见问题解答
 
-本主题包含有关活动设置和使用 Analytics 作为 Target 报表源 (A4T) 的常见问题解答。
+This topic contains answers to questions that are frequently asked about activity setup and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
 ## 哪些活动类型支持将 Analytics 作为报表源 (A4T)？{#section_5E4F58CD25A5424E869E6FE0803968EF}
 
@@ -22,17 +22,35 @@ ht-degree: 89%
 
 ## 我刚刚创建了一个活动。但是为何看不到任何数据？ {#section_9F8092BE4225442896F926540292F221}
 
-创建活动后，Target 会将一个分类文件发送到 Analytics。虽然 Analytics 会捕捉并处理数据，但是数据要等到分类文件更新后才会显示在报表中。该过程最长可能需要 24 小时。如果 48 小时后您还没有看到数据，请[联系客户关怀团队](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。或者，如果您知道自己将启动某个活动，您可以提前几天创建该活动，在保存该活动后，便会发送分类。这样一来，数据在活动启动时就会显示在报表中。请注意，在 Analytics 中处理数据需要 45 到 90 分钟时间。
+When an activity is created, [!DNL Target] sends a classification file to [!DNL Analytics]. Although [!DNL Analytics] is capturing the and processing the data, it does not show in the reports until the classification file has been updated. 该过程最长可能需要 24 小时。如果 48 小时后您还没有看到数据，请[联系客户关怀团队](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。或者，如果您知道自己将启动某个活动，您可以提前几天创建该活动，在保存该活动后，便会发送分类。这样一来，数据在活动启动时就会显示在报表中。Please note that it takes 45-90 minutes for data to be processed in [!DNL Analytics].
 
-## 创建新活动时，我为何不能选择 Analytics 作为报表源？ {#section_9F4F69C3085F4C2480AF439127EB27CD}
+## 创建新活动时，我为何不能选择 Analytics 作为报表源？{#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-您可以在“管理”中更改报告设置选项。
+You can change your [!UICONTROL Reporting Settings] options in [!UICONTROL Administration].
 
-1. In Adobe Target, click **[!UICONTROL Administration]**.
+1. 在中， [!DNL Target]单击“ **[!UICONTROL 管理”]**。
 1. 在&#x200B;**[!UICONTROL 用于报表的 Experience Cloud 解决方案]**&#x200B;下拉列表中，单击&#x200B;**[!UICONTROL 为每个活动选择]**。
 
 ![](assets/select-per-activity.png)
 
 随即会在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;屏幕中启用&#x200B;**[!UICONTROL 报表源]**&#x200B;下拉列表，以用于创建和编辑活动。
 
-To always use Analytics as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in Administration.
+To always use [!DNL Analytics] as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in [!UICONTROL Administration].
+
+## 在使用A4T的自动访客活动中，是否可以在不同访问中的目标体验和受控体验之间切换？
+
+假设visitorId不因访问之间的访客而发生更改，则情况如下。
+
+如果中活动调整了流量分配百分比，则访客可能会在目标体验和控制体验之间移动。
+
+如果百分比未在中活动调整，则最初看到控件的访客将始终发送到控件。 发送到目标体验的访客将始终发送到目标体验。
+
+* 在进入目标“客流量”后，如果机器学习模型确定新访问的相关体验不同，则访客可以发送到访问的不同体验。
+* 在分配给流量的控制“存储段”后，访客将始终看到相同的体验，因为体验分配基于访客的visitorId的确定性伪随机哈希。
+
+## 是否建议在构建模型之前，将自定义模型用于自动目标和A4T(具有90(Control)/10（目标）拆分)?
+
+您的最佳流量分配分配取决于您想要完成的任务。
+
+如果您的目标是尽可能个性化流量，您可以在活动的整个生命周期中保持90%的目标和10%的控制。 如果您的目标是运行一个比较个性化算法与控制效果的实验，那么50/50分割效果最好。
+

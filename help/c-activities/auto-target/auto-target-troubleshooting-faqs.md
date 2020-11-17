@@ -1,13 +1,13 @@
 ---
-keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting
+keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
 description: 关于Adobe Target自动目标的疑难解答和常见问题。
 title: 自动目标疑难解答和常见问题解答
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '1845'
-ht-degree: 73%
+source-wordcount: '1830'
+ht-degree: 71%
 
 ---
 
@@ -37,11 +37,15 @@ ht-degree: 73%
 
 您的最佳流量分配分配取决于您想要完成的任务。
 
-如果您的目标是尽可能个性化流量，您可以在活动的整个生命周期中保持90%的目标和10%的控制。 如果您的目标是运行一个比较个性化算法与控制效果的实验，那么50/50分割效果最好。
+如果您的目标是尽可能个性化流量，您可以在活动的整个生命周期中保持90%的目标和10%的控制。 如果您的目标是运行一个比较个性化算法与控制效果的实验，那么50/50分割最适合活动的生命周期。
 
-### 如果报表日期范围发生更改，则用于指示已为该体验构建模型的复选标记是否会更新？
+最佳实践是在活动的生命周期内保持流量分配分离，这样访客就不会在目标体验和控制体验之间切换。
 
-不会，适用于模型生成的复选标记仅显示截至当前构建的模型。无法回看模型的完成时间。
+<!-- 
+### Do the check marks indicating a model is built for that experience update if the report date range changes?
+
+No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+-->
 
 ### 如果访客未查看[!UICONTROL 自动定位]活动但进行了转化，则此转化是否会计入到我的活动中？
 

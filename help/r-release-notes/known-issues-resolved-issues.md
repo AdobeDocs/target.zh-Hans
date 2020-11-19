@@ -4,17 +4,17 @@ description: 有关此 Adobe Target 版本的已知问题的信息。此外，�
 title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
 workflow-type: tm+mt
-source-wordcount: '3895'
-ht-degree: 78%
+source-wordcount: '3957'
+ht-degree: 76%
 
 ---
 
 
 # 已知问题和已解决的问题
 
-有关此 Target 版本的已知问题的信息。此外，还包括有关已解决问题的信息。
+有关已知问题的信 [!DNL Adobe Target]息。 此外，还包括有关已解决问题的信息。
 
 >[!NOTE]
 >
@@ -127,6 +127,12 @@ UI中存在当前已知问题，该问题允 [!DNL Target] 许用户选择不受
 ### 显示“处理”标签的图像优惠
 
 在上传图像后，优惠页面上的图像优惠有时会在数小时内保留“处理”标签。 在大多数情况下，这只是标签的问题：图像优惠仍可用于活动并传送。 但是，在某些情况下，图像优惠可能无法用于“替换内容”>“图像”操作。 如果出现这种情况，您应再次上传图像优惠，并在几小时后检查图像优惠是否可供替换。 (TGT-37458)
+
+### 报告-可下载。csv报告中的数据与目标UI中显示的报告不一致。
+
+如果活动使用多个度量，则生成的用于下载的。csv文件报告不一致。 可下载的报告仅根据报告设置生成，并考虑使用的任何其他指标的相同值。
+
+真相的来源始终是UI中显示的报 [!DNL Target] 告。
 
 ## 已解决的问题 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 

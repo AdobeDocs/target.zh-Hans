@@ -4,9 +4,9 @@ description: 本页列表了对Adobe Target文档所做的重要更改（按版�
 title: Adobe Target 产品文档中的文档更改。
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3093'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 24 年 11 月 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题：<ul><li>[报告-可下载。csv报告中的数据与目标UI中显示的报告不一致。](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>添加了以下已解决的问题：<ul><li>[Analytics for Target (A4T) 报表](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
+|  | [量度定义 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | 添加了以下常见问题解答：“在配置我的目标模型时，为什么无法访问“高级设置”选项？” |
+|  | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 已调整注释中有关使用A4T的活动的文本。 |
 | 17 年 11 月 | [活动设置 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 添加了以下常见问题解答：“在使用A4T的自动访客活动中，目标能否在不同访问中的目标体验和受控体验之间切换？” |
 |  | [自动目标疑难解答和常见问题解答](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 添加了以下常见问题解答：“您是否建议我们在构建模型之前对90(Control)/10（目标）拆分使用自动目标?” |
 |  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 添加了以下常见问题解答：“在使用A4T的自动目标活动中，访问如何计入Analytics和转化信用？” |

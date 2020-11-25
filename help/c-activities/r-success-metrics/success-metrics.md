@@ -4,15 +4,15 @@ description: 在Adobe Target，成功指标是用于衡量活动成功的参数�
 title: Adobe Target成功指标
 feature: success metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 47%
+source-wordcount: '1138'
+ht-degree: 46%
 
 ---
 
 
-# 成功量度{#success-metrics}
+# 成功量度
 
 In [!DNL Adobe Target] success metrics are parameters used to measure the success of an activity. Success metrics include key business measures that enable you to determine the success of a given experience or offer in a [!DNL Target] activity.
 
@@ -28,7 +28,7 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 
 >[!NOTE]
 >
->使用Analytics作为活动 [源(A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) )的报告的默认行为是“增[!UICONTROL 量计数并保持用户活动]”，其中“每[!UICONTROL 个进入者一次]”。
+>对于使用 [Analytics作为报告源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的活动，目标量度将始终使用“[!UICONTROL 增量计数并保持用户活动]”和“每[!UICONTROL 次印象]”设置。 这是不可 *配置的* 。
 
 可用的成功量度如下所示：
 
@@ -105,7 +105,7 @@ Dependency functionality is *not* supported for the following:
 选择所需的行为：
 
 * 每个参加者一次
-* 每次印象时（不包括页面刷新）
+* 每次印象时（排除页面刷新）
 * 每次展示时
 
 ## 培训视频：活动量度

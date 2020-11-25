@@ -4,10 +4,10 @@ description: 本主题包含有关活动设置和使用 Analytics 作为 Target 
 title: 活动设置 - A4T 常见问题解答
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 42%
+source-wordcount: '498'
+ht-degree: 36%
 
 ---
 
@@ -19,6 +19,12 @@ This topic contains answers to questions that are frequently asked about activit
 ## 哪些活动类型支持将 Analytics 作为报表源 (A4T)？{#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 有关完整列表，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 中的“支持的活动类型”。
+
+## 在配置我的目标模型时，为什么无法访问高级设置？
+
+对于使用 [!DNL Analytics] 作为活动源(A4T)的报告，目标度量将始终使用“[!UICONTROL 增量计数并保持活动中的用户]”和“[!UICONTROL 每次印象]”设置。 这是不可 *配置的* 。
+
+有关详细信息，请参阅“配置目标模型时，为什么无法访问高级设置选项？” in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## 我刚刚创建了一个活动。但是为何看不到任何数据？ {#section_9F8092BE4225442896F926540292F221}
 

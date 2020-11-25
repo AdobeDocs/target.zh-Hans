@@ -4,10 +4,10 @@ description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A
 title: 查看报表 - A4T 常见问题解答
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 56%
+source-wordcount: '2280'
+ht-degree: 55%
 
 ---
 
@@ -31,6 +31,12 @@ For detailed information and examples, open the [Analytics &amp; Target: Best Pr
 发送到 [!DNL Target] 的 [!DNL Analytics] 变量具有 90 天的默认有效期。(注：到期期限可由客户服务部根据需要进行调整)。 当访客在此过期窗口中导航站点时，他们是许多的一部分 [!DNL Target] ，所有这些活动都在维中收集。
 
 因此，当您对活动进行细分以使其出现在点击中时，您将获得该活动的所有体验，以 *及* 任何坚持该点击的其他体验。
+
+## 在配置我的目标模型时，为什么无法访问高级设置？
+
+对于使用 [!DNL Analytics] 作为活动源(A4T)的报告，目标度量将始终使用“[!UICONTROL 增量计数并保持活动中的用户]”和“[!UICONTROL 每次印象]”设置。 这是不可 *配置的* 。
+
+有关详细信息，请参阅“配置目标模型时，为什么无法访问高级设置选项？” in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## 我是否应将访客、访问或活动印象用作我的标准化指标（即计数方法）? {#metrics}
 

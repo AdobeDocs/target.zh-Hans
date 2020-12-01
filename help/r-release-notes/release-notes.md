@@ -4,9 +4,9 @@ description: 这些发行说明介绍了每个 Target Standard 和 Target Premiu
 title: 'Adobe Target 发行说明（当前版本） '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fd3ab8737cd79da7bc14cc0236d07a024d6e85bc
+source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '928'
 ht-degree: 27%
 
 ---
@@ -44,12 +44,12 @@ ht-degree: 27%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| [设备上决策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 设备上决策允许营销人员和产品开发人员以接近零的延迟从用户设备内跨渠道交付实验和机器学习驱动的个性化。<br>速度和性能至关重要——在客户洞察和用户满意度方面。<br>通过设备决策，您可以将A/B测试和体验定位(XT)活动类型中的关键个性化和试验说明编译为“优化对象：”JSON对象，这些对象通过CDN加载到客户设备上。 由于设备内决策与产品本机连接， [!DNL Adobe Experience Cloud] 用户 [!DNL Target] 可以快速分析并更快地体验迭代。<br>有关详细信息，请 *[参阅《Adobe TargetSDK指南](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* 》中 *的设备决策简介*。 |
+| [设备上决策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 设备上决策允许营销人员和产品开发人员以接近零的延迟从用户设备内跨渠道交付实验和机器学习驱动的个性化。<br>速度和性能至关重要——在客户洞察和用户满意度方面。<br>通过设备决策，您可以将A/B测试和体验定位(XT)活动类型中的关键个性化和试验说明编译为“优化对象：”JSON对象，这些对象通过CDN加载到客户设备上。 由于设备内决策与产品本机连接， [!DNL Adobe Experience Cloud] 用户 [!DNL Target] 可以快速分析并更快地体验迭代。<br>有关详细信息，请 *[参阅《Adobe TargetSDK指南](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* 》中 *的设备决策简介*。<br>请在以下网址观看录制的网络研讨会： [Adobe Target的设备上决策](https://video.tv.adobe.com/v/328148?quality=12&autoplay=true&learn=on&captions=chi_hans)。 |
 
 此版本包含以下增强、修复和更改：
 
 * 修复了阻止“Total” [!UICONTROL 行的“Average Lift] Confidence Interval [!UICONTROL ”(平均提] 升置信间隔 [!DNL Auto-Target] )和“Confidence [!UICONTROL ”（置信度）以报告显] 示的问题。 正确显示所有个体体验的度量值。 (TGT-37301)
-* 修复了从9月 [!DNL Adobe Target Premium] 15日 [!UICONTROL 下午2:30开始影响用] 户自动目标报告的问题。(PDT)10月6日上午9点25分。(PDT)。 查看受影响转化量度的报告(使用“已查[!UICONTROL 看页面]”或“已[!UICONTROL 单击mbox”选项进行配置])时，转化率会错误报告。 此时不存在已知的投放问题。 有关如何重新同步和更正报告的信息，请参 [阅已解决问题和已解](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) 决问题中 ** 的“自动 *目标报告”*。
+* 修复了从9月 [!DNL Adobe Target Premium] 15日 [!UICONTROL 下午2:30开始影响用] 户自动目标报告的问题。(PDT)10月6日上午9点25分。(PDT)。 查看受影响转化量度的报告(使用“已查[!UICONTROL 看页面]”或“已[!UICONTROL 单击mbox”选项进行配置])时，转化率报告不正确。 此时不存在已知的投放问题。 有关如何重新同步和更正报告的信息，请参 [阅已解决问题和已解](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) 决问题中 ** 的“自动 *目标报告”*。
 * 在“目录搜 [!UICONTROL 索”(Catalog Search] )表中添加了可选 [!UICONTROL 的“上次更新时间] ”(Last Updated At)列和“最 [!UICONTROL 后一次更新时间] ”(Last Updated At)筛选器。 此增强功能省时省力，因为您不必打开每个项目来查看上次更新的时间，并且您可以按上次更新项目的日期进行筛选。
 
    ![上次在列和滤镜处更新的插图](/help/r-release-notes/assets/column-and-filter.png)

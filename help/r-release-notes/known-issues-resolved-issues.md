@@ -4,9 +4,9 @@ description: 有关此 Adobe Target 版本的已知问题的信息。此外，�
 title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 translation-type: tm+mt
-source-git-commit: f80a1c3e27eee3310da69a92b8ffe0e0d94f9796
+source-git-commit: 16a626878cab97dd81b22d3d2a170df80a025afb
 workflow-type: tm+mt
-source-wordcount: '4326'
+source-wordcount: '4327'
 ht-degree: 70%
 
 ---
@@ -73,7 +73,7 @@ UI中存在当前已知问题，该问题允 [!DNL Target] 许用户选择不受
 * 通过 API 创建的收藏集、排除项、标准和设计在 Target 用户界面中不可见，并且只能通过 API 进行编辑。(TGT-35777)
 * 通过 API 创建的 Recommendations 活动可在用户界面中查看，但只能通过 API 进行编辑。
 * “标准”列表（卡片）视图中显示的“自定义标准”信息源状态每十分钟刷新一次，在极少情况下可能会超过十分钟。“自定义标准”编辑视图中显示的状态将实时获取并始终保持为最新。(TGT-35896、TGT-36173)
-* “标准”和“设计”卡不显示正确数量的活动。 如果在AB活动中使用“标准”或“设计”，则活动将不被考虑在内，卡可能会显示实际使用时未使用“设计／标准”。
+* 标准和设计卡不显示正确数量的活动。 如果在A/B活动中使用标准或设计，则卡可能会错误地显示未使用设计或标准，即使在活动中使用了设计或标准。
 
 ### 多变量测试 (MVT) 活动
 

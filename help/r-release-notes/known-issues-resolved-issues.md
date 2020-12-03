@@ -4,10 +4,10 @@ description: 有关此 Adobe Target 版本的已知问题的信息。此外，�
 title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: f80a1c3e27eee3310da69a92b8ffe0e0d94f9796
 workflow-type: tm+mt
-source-wordcount: '4273'
-ht-degree: 71%
+source-wordcount: '4326'
+ht-degree: 70%
 
 ---
 
@@ -73,6 +73,7 @@ UI中存在当前已知问题，该问题允 [!DNL Target] 许用户选择不受
 * 通过 API 创建的收藏集、排除项、标准和设计在 Target 用户界面中不可见，并且只能通过 API 进行编辑。(TGT-35777)
 * 通过 API 创建的 Recommendations 活动可在用户界面中查看，但只能通过 API 进行编辑。
 * “标准”列表（卡片）视图中显示的“自定义标准”信息源状态每十分钟刷新一次，在极少情况下可能会超过十分钟。“自定义标准”编辑视图中显示的状态将实时获取并始终保持为最新。(TGT-35896、TGT-36173)
+* “标准”和“设计”卡不显示正确数量的活动。 如果在AB活动中使用“标准”或“设计”，则活动将不被考虑在内，卡可能会显示实际使用时未使用“设计／标准”。
 
 ### 多变量测试 (MVT) 活动
 
@@ -171,7 +172,7 @@ UI中存在当前已知问题，该问题允 [!DNL Target] 许用户选择不受
 
 ### 自动目标报告 {#at-metrics}
 
-已解决从9月15日下 [!DNL Adobe Target Premium] 午2 [!UICONTROL :30开始影响用] 户自动目标报告的问题。(PDT)10月6日上午9点25分。(PDT)。 查看受影响转化量度的报告(使用“已查[!UICONTROL 看页面]”或“已[!UICONTROL 单击mbox”选项进行配置])时，转化率会错误报告。 此时不存在已知的投放问题。
+已解决从9月15日下 [!DNL Adobe Target Premium] 午2 [!UICONTROL :30开始影响用] 户自动目标报告的问题。(PDT)10月6日上午9点25分。(PDT)。 查看受影响转化量度的报告(使用“已查[!UICONTROL 看页面]”或“已[!UICONTROL 单击mbox”选项进行配置])时，转化率报告不正确。 此时不存在已知的投放问题。
 
 要重新同步并更正报告:
 

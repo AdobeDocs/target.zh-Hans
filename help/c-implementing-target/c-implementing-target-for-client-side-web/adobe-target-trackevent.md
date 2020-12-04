@@ -4,7 +4,7 @@ description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.trackEvent
 title: adobe.target.trackEvent(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 78%
@@ -33,13 +33,13 @@ ht-degree: 78%
 
 ## 示例
 
-```
+```javascript
 <a href="https://asite.com">click me!</a> 
 ```
 
 加上用于分配 `trackEvent` 的 javaScript 代码：
 
-```
+```javascript
 <script> 
 $('a').click(function(event){ 
   adobe.target.trackEvent({'mbox':'homePageHero'}) 
@@ -49,7 +49,7 @@ $('a').click(function(event){
 
 或：
 
-```
+```javascript
 adobe.target.trackEvent({ 
     "mbox": "clicked-cta", 
     "params": { 

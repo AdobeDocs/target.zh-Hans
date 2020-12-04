@@ -4,10 +4,10 @@ description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers(
 title: adobe.target.getOffers(options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 95%
+source-wordcount: '1219'
+ht-degree: 92%
 
 ---
 
@@ -73,9 +73,9 @@ ht-degree: 95%
 | request > execute > mboxes > mbox > order > total | 否 | `>=` 0 | 使用指定的订单总额检索给定 mbox 的选件。 |
 | request > execute > mboxes > mbox > order > purchasedProductIds | 否 | 非空值<br>每个值的最大长度 = 50<br>用逗号连接和分隔<br>产品 ID 总长度 `<=` 250 | 使用指定的订单已购产品 ID 检索给定 mbox 的选件。 |
 
-## 为所有视图调用 `getOffers()`
+## 调用所有视图的getOffers()
 
-```
+```javascript
 adobe.target.getOffers({
     request: {
       prefetch: {
@@ -85,9 +85,9 @@ adobe.target.getOffers({
 });
 ```
 
-## 调用 `getOffers()` 以使用传递的参数和配置文件参数检索最新的视图
+## 调用getOffers()以使用传入的参数和视图参数检索最新用户档案
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     "prefetch": {
@@ -106,9 +106,9 @@ adobe.target.getOffers({
 });
 ```
 
-## 调用 `getOffers()` 以使用传递的参数和配置文件参数检索 mbox。
+## 调用getOffers()以检索传入了参数和用户档案参数的mbox。
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     execute: {
@@ -135,7 +135,7 @@ adobe.target.getOffers({
 
 ## 调用 getOffers() 以从客户端检索分析有效负载
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -156,7 +156,7 @@ adobe.target.getOffers({
 
 **响应**：
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
@@ -193,7 +193,7 @@ at.js 2.x 允许您通过 `getOffers()` API 获取多个 mbox。您还可以获�
 
 以下示例展示了实施了 at.js 2.x 的简单 HTML 页面：
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -215,7 +215,7 @@ at.js 2.x 允许您通过 `getOffers()` API 获取多个 mbox。您还可以获�
 
 请求和渲染代码可能类似于以下示例：
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
     prefetch: {
@@ -266,11 +266,11 @@ adobe.target.getOffers({
 
 请注意，此示例使用了 `prefetch > mboxes`，但您也可以使用 `execute > mboxes`。请确保，如果在 `getOffers()` 中使用 prefetch，则在 `applyOffers()` 调用中也应使用 prefetch。
 
-## 调 `getOffers()` 用以执行pageLoad
+## 调用getOffers()以执行pageLoad
 
 以下示例演示如何对at.js 2使用getOffers()执行pageLoad。*x*
 
-```
+```javascript
 adobe.target.getOffers({
     request: {
         execute: {

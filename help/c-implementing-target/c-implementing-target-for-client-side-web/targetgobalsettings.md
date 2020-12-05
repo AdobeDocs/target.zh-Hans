@@ -4,7 +4,7 @@ description: 有关 Adobe Target at.js JavaScript 库的 targetGlobalSettings() 
 title: targetGlobalSettings()
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 38%
@@ -192,7 +192,7 @@ This function can be defined before at.js is loaded or in **[!UICONTROL Administ
 
 “库标头”字段允许您输入自由格式的 JavaScript。自定义代码应与以下示例类似：
 
-```
+```javascript
 window.targetGlobalSettings = {  
    timeout: 200, // using custom timeout  
    visitorApiTimeout: 500, // using custom API timeout  
@@ -228,7 +228,7 @@ window.targetGlobalSettings = {
 
 以下示例显示数据提供程序使用同步执行的位置：
 
-```
+```javascript
 var syncDataProvider = { 
   name: "simpleDataProvider", 
   version: "1.0.0", 
@@ -248,7 +248,7 @@ window.targetGlobalSettings = {
 
 如果您要添加到 Target 请求的参数是从第三方服务（如 Bluekai、Demandbase 等）获取的，则参考以下示例：
 
-```
+```javascript
 var blueKaiDataProvider = { 
    name: "blueKai", 
    version: "1.0.0", 
@@ -271,7 +271,7 @@ window.targetGlobalSettings = {
 
 以下示例使用数据提供程序收集气候 API 数据，并将其作为参数发送到 Target 请求中。Target 请求将具有其他参数，例如 `country` 和 `weatherCondition`。
 
-```
+```javascript
 var weatherProvider = { 
       name: "weather-api", 
       version: "1.0.0", 
@@ -323,7 +323,7 @@ at.js 2.3.0+支持在应用交付的目标优惠时，对附加到页面DOM的SC
 
 在加载at.js 2.3.0+之前， `targetGlobalSettings.cspScriptNonce` 应在 `targetGlobalSettings.cspStyleNonce` 中并相应地设置SCRIPT和STYLE动作。 请参阅以下示例：
 
-```
+```javascript
 ...
 <head>
  <script nonce="<script_nonce_value>">
@@ -355,7 +355,7 @@ window.targetGlobalSettings = {
 
 为了更好地了解其工作原理，请参见下面的代码示例，您将在您的服务器上找到这些示例。 代码假定您正在使 [用目标Node.js SDK](https://github.com/adobe/target-nodejs-sdk)。
 
-```
+```javascript
 // First, we fetch the offers via Target Node.js SDK API, as usual
 const targetResponse = await targetClient.getOffers(options);
 // A successfull response will contain Target Delivery API request and response objects, which we need to set as serverState

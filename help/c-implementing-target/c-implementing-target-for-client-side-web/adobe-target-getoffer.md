@@ -4,7 +4,7 @@ description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffer(o
 title: adobe.target.getOffer(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 97%
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 使用 getOffer() 添加参数，并使用 applyOffer() 进行成功处理：
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -51,7 +51,7 @@ adobe.target.getOffer({
 
 使用 getOffer() 添加参数和配置文件参数，并使用 applyOffer() 进行成功处理：
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -76,7 +76,7 @@ adobe.target.getOffer({
 
 “YOUR_OWN_CUSTOM_HANDLING_FUNCTION”是客户要定义的函数的占位符。
 
-```
+```javascript
 adobe.target.getOffer({     
   "mbox": "target-global-mbox",   
   "success": function(offer) { 
@@ -102,7 +102,7 @@ adobe.target.getOffer({
 
 ## 示例
 
-```
+```javascript
 { 
     "sessionId": "1444512212156-384616", 
     "tntId": "1444512212156-384616.17_35", 

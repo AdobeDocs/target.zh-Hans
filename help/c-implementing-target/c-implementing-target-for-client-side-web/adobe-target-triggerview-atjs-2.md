@@ -4,7 +4,7 @@ description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.triggerVie
 title: adobe.target.triggerView (viewName, options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 92%
@@ -30,7 +30,7 @@ ht-degree: 92%
 
 `triggerView()` 调用向 Target 后端发送增加活动展示次数和其他量度的通知。
 
-```
+```javascript
 adobe.target.triggerView("homeView")
 ```
 
@@ -38,6 +38,6 @@ adobe.target.triggerView("homeView")
 
 `triggerView()` 调用不会向 Target 后端发送增加展示次数计数的通知。
 
-```
+```javascript
 adobe.target.triggerView("homeView", {page: false})
 ```

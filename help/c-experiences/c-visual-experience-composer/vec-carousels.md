@@ -4,7 +4,7 @@ description: 本主题显示了如何创建可以在可视化体验编辑器 (VE
 title: 创建可以在可视化体验编辑器中工作的轮播效果
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 1. 创建静态 HTML 占位符。
 
-   ```
+   ```html
    <ul>
    <li class="show"> slide 1 </li>
    <li class="hidden"> slide 2 </li>

@@ -4,7 +4,7 @@ description: 帮助您使用Adobe TargetQA书签强制目标从QA模式中释放
 title: 活动Adobe TargetQA书签
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -26,7 +26,7 @@ Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Targ
 
 To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
-```
+```javascript
 javascript:(
     function () {
         if (window.location.href.indexOf('?') != -1) {
@@ -55,7 +55,7 @@ You can also manually force yourself out of QA mode by loading a page on your si
 
 To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
-```
+```javascript
 javascript:(
     function () {
         var AT_QA_MODE = 'at_qa_mode=';

@@ -4,7 +4,7 @@ description: 本节介绍如何将Adobe Target移动应用活动信息发送到A
 title: 将Adobe Target活动信息发送到Adobe Analytics
 feature: mobile implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 31%
@@ -27,13 +27,13 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    If you include a string like the following in your experience content, [!DNL Target] returns the activity information that you can send to [!DNL Analytics]:
 
-   ```
+   ```javascript
    ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}
    ```
 
    将体验 json 代码中的文本替换为类似于以下示例的内容：
 
-   ```
+   ```javascript
    { 
      "tntVal": ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}", 
      "title":"Welcome Message", 
@@ -45,7 +45,7 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    This string delivers a number (such as 115110:0:0) in the response from [!DNL Target]. 这表示活动ID、体验ID和流量类型。 The following is a sample response from [!DNL Target]:
 
-   ```
+   ```javascript
    { 
      "tntVal": 115110:0:0", 
      "title":"Welcome Message", 
@@ -65,7 +65,7 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    例如，此调用可以在 `targetLoadRequest` 调用的回调中触发：
 
-   ```
+   ```javascript
    [ADBMobile trackAction:@"Welcome Screen"  
          data:@{@"&&tnt" : tntVal from response}];
    ```

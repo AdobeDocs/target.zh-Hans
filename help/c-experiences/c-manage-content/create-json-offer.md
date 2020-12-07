@@ -4,7 +4,7 @@ description: 可在选件库中创建 JSON 选件，以在基于表单的体验�
 title: 创建 JSON 选件
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
@@ -45,7 +45,7 @@ JSON 选件仅在使用基于表单的体验编辑器创建的活动中受支持
 
 示例如下：
 
-```
+```json
 adobe.target.getOffer({ 
   mbox: "some-mbox", 
   success: function(actions) { 
@@ -59,7 +59,7 @@ adobe.target.getOffer({
 
 传递到 success 回调的操作是一个对象数组。假设我们只有一个 JSON 选件，且该选件具有以下内容：
 
-```
+```json
 { 
   "demo": {"a": 1, "b": 2} 
 }
@@ -67,7 +67,7 @@ adobe.target.getOffer({
 
 操作数组将具有以下结构：
 
-```
+```json
 [ 
  { 
    action: "setJson", 
@@ -84,7 +84,7 @@ adobe.target.getOffer({
 
 假设将以下 JSON 选件交付到您的网页：
 
-```
+```json
 { 
     "_id": "5a65d24d8fafc966921e9169", 
     "index": 0, 
@@ -115,7 +115,7 @@ adobe.target.getOffer({
 
 以下代码显示了如何访问“greeting”属性：
 
-```
+```json
 adobe.target.getOffer({   
   "mbox": "name_of_mbox", 
   "params": {}, 

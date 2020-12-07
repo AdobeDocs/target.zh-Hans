@@ -4,7 +4,7 @@ description: 使用 Adobe Target 中单页应用程序 (SPA) 的可视化体验�
 title: 单页应用程序 (SPA) 可视化体验编辑器
 feature: spa vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -88,7 +88,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    作为营销人员，如果我们想要在整个主页网站上运行 A/B 测试，那么可能需要将视图命名为可从 URL 中提取的“home”。
 
-   ```
+   ```javascript
    function targetView() {
      var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
    
@@ -119,7 +119,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    ![react products](/help/c-experiences/assets/react4.png)
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -150,7 +150,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    现在，营销人员可能想要运行 A/B 测试，以查看与将两个交付选项的按钮颜色保持为蓝色相比，在选择“Express Delivery”（快递）后将按钮颜色从蓝色更改为红色是否可以提高转化率。
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -293,7 +293,7 @@ at.js 2.x 的典型工作流程是，在您的网站加载时缓存所有视图�
 
 您可以使用 at.js 2.x 中支持的新 `getOffers()` 和 `applyOffers()` 函数：
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
   prefetch: {

@@ -4,7 +4,7 @@ description: 有关“修改”页面的信息，该页面允许您查看对页�
 title: 修改
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -113,7 +113,7 @@ ht-degree: 100%
 
    例如，要更改元素的颜色：
 
-   ```
+   ```javascript
    <script type="text/javascript"> 
    document.getElementById("element_id").style.color = "blue"; 
    </script> 
@@ -123,7 +123,7 @@ ht-degree: 100%
 
    例如，要为叠加元素定义一个类：
 
-   ```
+   ```html
    <style> 
    .overlay 
    { position: absolute; top:0; left: 0; right: 0; bottom: 0; background: red; } 
@@ -134,13 +134,13 @@ ht-degree: 100%
 
    例如，通过以下 HTML 代码片段，使用上面定义的 CSS 类创建一个叠加 `<div>`：
 
-   ```
+   ```html
    <div class="overlay"></div>
    ```
 
 * 使用 jQuery 在 DOM-ready 时进行交换
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    jQuery( document ).ready(function() { 
@@ -152,7 +152,7 @@ ht-degree: 100%
 
 * 不使用 jQuery 在 DOM-ready 时进行交换（不支持 Internet Explorer 8）
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    document.addEventListener("DOMContentLoaded", function(event) {  
@@ -166,7 +166,7 @@ ht-degree: 100%
 
    这样做的好处是此交换会在 DOM-ready 之前进行。该插件处理预先隐藏和显示，并且需要元素上的 id。
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
@@ -178,7 +178,7 @@ ht-degree: 100%
 
 * 自定义重定向传递现有参数、`s_tnt` 参数（用于旧版集成到 Analytics）、反向链接参数和 mbox 会话
 
-   ```
+   ```javascript
    <style type="text/css">body{display:none!important;}</style> 
    <script type="text/javascript"> 
     var qs='';window.location.search?qs=window.location.search+'&':qs='?'; 
@@ -196,7 +196,7 @@ ht-degree: 100%
 
 例如：
 
-```
+```html
 <div id="custom-code"> 
 // My Code goes here 
 </div>

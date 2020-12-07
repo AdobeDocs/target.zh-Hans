@@ -4,9 +4,9 @@ description: 有关与 Adobe 客户关怀一起在 Adobe Target 中实施 CNAME�
 title: CNAME 和 Adobe Target
 feature: privacy and security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 677d5ed16377fc32b4506ca736084319e5643e67
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1210'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
    >
    >Adobe的证书颁发机构DigiCert在此步骤完成之前无法颁发证书。 因此，Adobe在完成此步骤之前无法满足您对CNAME实施的请求。
 
-1. [填写此表单](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) ，并在打开请求CNAME [支持的Adobe客户关怀票证时加入此表单](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [填写此表单](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) ，并在打开请求CNAME [支持的Adobe客户关怀票证时加入此表单](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
    * Adobe [!DNL Target] client code:
    * SSL证书主机名(示例： `target.example.com target.example.org`):

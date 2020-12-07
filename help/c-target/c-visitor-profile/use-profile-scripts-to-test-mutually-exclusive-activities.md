@@ -4,7 +4,7 @@ description: 您可以使用配置文件属性来设置比较两个或更多活�
 title: 使用用户档案脚本测试互斥的活动
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 81%
@@ -29,7 +29,7 @@ ht-degree: 81%
 
 要将访客分到可查看不同活动的各个组中，您必须创建一个配置文件属性。配置文件属性能够将一个访客分类到两个或多个群组的某一组中。创建下面的脚本可设置名为“twogroups”的配置文件属性：
 
-```
+```javascript
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
     if (ran_number <= 49) { 
@@ -60,7 +60,7 @@ After you create the profile attribute, set up the first activity to target the 
 
 例如，要创建四个组，请使用下面的 JavaScript：
 
-```
+```javascript
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
     if (ran_number <= 24) { 
@@ -87,7 +87,7 @@ if (!user.get('fourgroups')) {
 
 例如，若要将访客划分到三个相等的群组时，可使用如下代码：
 
-```
+```javascript
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
     if (ran_number <= 32.33) { 

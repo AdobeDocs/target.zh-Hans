@@ -4,7 +4,7 @@ description: 使用实体属性将产品或内容信息传递给Adobe Target·Re
 title: 实体属性
 feature: entities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 89%
@@ -40,7 +40,7 @@ ht-degree: 89%
 
 所有实体参数属性都区分大小写。
 
-```
+```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
  
 mboxCreate('productPage', 
@@ -120,7 +120,7 @@ mboxCreate('productPage',
 
 例如，在下面这段代码中，“Womens”类别被划分为若干子类别：
 
-```
+```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
@@ -223,7 +223,7 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 在下面的示例中，第一个 mbox 调用将更新目录和行为数据。第二个 mbox 调用将仅更新目录。
 
-```
+```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```

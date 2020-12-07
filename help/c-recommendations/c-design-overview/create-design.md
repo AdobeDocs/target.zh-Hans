@@ -4,7 +4,7 @@ description: 设计可定义推荐在页面上的显示方式。
 title: 创建设计
 feature: designs
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 32%
@@ -109,7 +109,7 @@ ht-degree: 32%
 
 1. 以下代码是可粘贴到设计中的示例：
 
-   ```
+   ```javascript
        #* 
        * "Return a simple list of recommended entity ids"   
        *#
@@ -182,7 +182,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
 
 或者，您也可以在响应中发送更多信息。下面是一个更为复杂的代码文件示例，此代码不仅仅返回了实体 ID 及其关联的版块（顺序），还返回了更多其他内容。This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
 
-```
+```javascript
     {   
      "adobeRecommendations": {   
       "notes": {   

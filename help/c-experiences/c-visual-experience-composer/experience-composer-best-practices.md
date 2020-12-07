@@ -4,7 +4,7 @@ description: 以下最佳实践有助于确保您的体验按预期运行。使�
 title: 可视化体验编辑器最佳实践和限制
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -135,7 +135,7 @@ Target Standard 和 Premium 使用 JavaScript 来设置页面格式。使用 Jav
 
 例如，如果您的代码如下所示，则无法在 VEC 中定位购物车 (Shopping Cart) 文本：
 
-```
+```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
    <img alt="Shopping Cart"src="/images/ico-cart.gif"></img> 
    Shopping Cart: 
@@ -167,7 +167,7 @@ Target Standard 和 Premium 使用 JavaScript 来设置页面格式。使用 Jav
 
 关闭您网站上的 iframe 嵌套技术，并查看它是否按预期在虚拟页面上的 iframe 中打开。例如：
 
-```
+```html
 <!DOCTYPE 
 <html> 
 <html> 
@@ -208,7 +208,7 @@ Target Standard 和 Premium 使用 JavaScript 来设置页面格式。使用 Jav
 
 例如，如果您的页面包含：
 
-```
+```html
 <div> 
   <div class="mboxDefault" > 
   </div>
@@ -272,7 +272,7 @@ mbox 中不允许使用“编辑类”和“重新排列”等操作。Mbox 内�
 
 *错误：*
 
-```
+```html
 <script> 
   var myVar = 123; 
   function myFunc() { 
@@ -283,7 +283,7 @@ mbox 中不允许使用“编辑类”和“重新排列”等操作。Mbox 内�
 
 *正确：*
 
-```
+```html
 <script> 
   window.myVar = 123; 
   window.myFunc = function() { 
@@ -296,7 +296,7 @@ mbox 中不允许使用“编辑类”和“重新排列”等操作。Mbox 内�
 
 使用一些虚拟文本在“customHeaderMessage”div 中添加一个锚点元素：
 
-```
+```html
 <a href="#"> 
 <span> Dummy text </span>
 </a>
@@ -306,7 +306,7 @@ mbox 中不允许使用“编辑类”和“重新排列”等操作。Mbox 内�
 
 插入图像后，它看起来如下所示：
 
-```
+```html
 <a href="#">  
 <span> Dummy text </span> 
 <img src=""> This is inserted Image. </img> 

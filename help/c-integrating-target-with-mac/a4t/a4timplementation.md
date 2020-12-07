@@ -4,7 +4,7 @@ description: 在实施 Adobe Analytics 作为 Target 报表源 (A4T) 时，需�
 title: Analytics for Target 实施
 feature: a4t implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 50%
@@ -60,7 +60,7 @@ See [Implement the Experience Cloud ID Service for Target](https://experiencelea
 
 对于 at.js：
 
-```
+```javascript
 <script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
@@ -73,7 +73,7 @@ However, if you want more control on how and when to send analytics data related
 
 例如：
 
-```
+```javascript
 window.targetGlobalSettings = {
   analyticsLogging: "client_side"
 };
@@ -81,7 +81,7 @@ window.targetGlobalSettings = {
 
 此设置具有全局效果，这意味着 at.js 进行的每次调用都将在 请求中发送 **analyticsLogging: &quot;client_side&quot;**，并且将为每个请求返回分析有效负载。[!DNL Target]完成此设置后，返回的有效负载格式如下所示：
 
-```
+```javascript
 "analytics": {
    "payload": {
       "pe": "tnt",
@@ -96,7 +96,7 @@ window.targetGlobalSettings = {
 
 例如：
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -119,7 +119,7 @@ adobe.target.getOffers({
 
 响应如下所示：
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{

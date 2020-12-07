@@ -4,7 +4,7 @@ description: 在服务器端交付中使用 QA URL 来执行简单的端到端�
 title: 在服务器端交付中使用活动 QA
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 88%
@@ -20,7 +20,7 @@ ht-degree: 88%
 
 以下代码示例显示了服务器端调用中的活动 QA：
 
-```
+```json
 {
   "mbox" : "orderConfirmPage",
   "clientSideAnalyticsLogging": true,

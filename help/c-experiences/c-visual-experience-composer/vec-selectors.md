@@ -4,7 +4,7 @@ description: 元素选择器是可以标识一个或多个元素的 CSS 表达�
 title: 可视化体验编辑器中使用的元素选择器
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 90%
@@ -36,7 +36,7 @@ Target 使用简单的算法来创建选择器。下面非常简略地介绍了�
 
    例如：
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- Selector is computed for this element -->
        <ul class="navigation">
@@ -55,7 +55,7 @@ Target 使用简单的算法来创建选择器。下面非常简略地介绍了�
 
    例如：
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- id is present here. It contributes to selector -->
        <ul class="navigation">
@@ -78,7 +78,7 @@ Target 使用简单的算法来创建选择器。下面非常简略地介绍了�
 
    例如：
 
-   ```
+   ```html
    <div class="wrapper">
      <div id="container"> <!-- id is present here. It contributes to selector -->
        <ul class="navigation">

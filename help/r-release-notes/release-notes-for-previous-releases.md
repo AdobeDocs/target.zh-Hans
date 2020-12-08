@@ -1,12 +1,12 @@
 ---
 keywords: Release notes
-description: 以前目标版本的发行说明，包括Target Standard/Premium、目标平台和目标Javascript库(at.js)的发行说明。 发行说明按发布年月按降序排列。
+description: 以前Adobe Target版本的发行说明，包括Target Standard/Premium、目标平台和目标Javascript库(at.js)的发行说明。 发行说明按发布年月按降序排列。
 title: 以前版本的发行说明
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '29814'
+source-wordcount: '29815'
 ht-degree: 86%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 86%
 
 # 以前版本的发行说明{#release-notes-for-previous-releases}
 
-以前目标版本的发行说明，包括Target Standard/Premium、目标平台和目标Javascript库(at.js)的发行说明。 发行说明按发布年月按降序排列。
+以前目标版本的发行说明，包括Target Standard/Premium、目标平台和目标Javascript库(at.js)的发行说明。
+
+发行说明按发布年月按降序排列。
 
 >[!NOTE]
 >

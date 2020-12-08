@@ -1,13 +1,13 @@
 ---
 keywords: activity settings;mvt goals and settings;multivariate goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
-description: 您可以在“目标和设置”页面上输入有关测试目标的信息。
+description: 在Adobe Target的“目标和设置”页面输入有关测试目标的信息。
 title: 目标和设置
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 96%
+source-wordcount: '1251'
+ht-degree: 94%
 
 ---
 

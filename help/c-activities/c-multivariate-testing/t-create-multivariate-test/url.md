@@ -1,13 +1,13 @@
 ---
 keywords: Targeting
-description: 活动 URL 可决定多变量测试 (MVT) 中使用的页面，以及在 Adobe Target 中设计测试时打开的页面。
+description: 活动URL确定在Adobe Target多变量测试(MVT)中使用的页面，当测试在Adobe Target设计时该页面打开。
 title: 活动 URL
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 93%
+source-wordcount: '288'
+ht-degree: 84%
 
 ---
 

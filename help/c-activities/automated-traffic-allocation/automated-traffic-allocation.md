@@ -1,13 +1,13 @@
 ---
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
-description: 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
+description: Adobe Target的“自动分配”活动可以在两种或多种体验中确定获胜者，并自动将更多流量重新分配给获胜者，以在测试继续运行和学习的同时提高转化率。
 title: 自动分配
 feature: reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '3369'
-ht-degree: 75%
+source-wordcount: '3374'
+ht-degree: 74%
 
 ---
 

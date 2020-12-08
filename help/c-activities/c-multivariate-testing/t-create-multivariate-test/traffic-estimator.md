@@ -1,17 +1,18 @@
 ---
-description: 由于多变量测试会对多个体验进行比较，因此非常重要的一点是，您需要知道多少流量才能提供有意义的结果。流量估算器会使用与您的页面相关的统计数据以及正在测试的体验数量，来估算需要多少流量以及需要多长时间的测试才能使测试成功。
+keyword: traffic estimate;traffic estimator
+description: 由于多变量测试会对多个体验进行比较，因此非常重要的一点是，您需要知道多少流量才能提供有意义的结果。Adobe Target流量估计器使用有关您的页面和正在测试的体验数的统计信息，来估计流量量和测试持续时间，从而使测试成功。
 title: 估算成功测试所需的流量
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 93%
 
 ---
 
 
-# 估算成功测试所需的流量{#estimate-the-traffic-required-for-a-successful-test}
+# 估算成功测试所需的流量
 
 由于多变量测试会对多个体验进行比较，因此非常重要的一点是，您需要知道多少流量才能提供有意义的结果。流量估算器会使用与您的页面相关的统计数据以及正在测试的体验数量，来估算需要多少流量以及需要多长时间的测试才能使测试成功。
 

@@ -1,20 +1,20 @@
 ---
 keywords: Mobile Web Experience Editor
-description: 本主题包含了一些建议，可帮助解决在设计 MVT 测试时可能出现的一些问题。
+description: 本主题包含解决在Adobe Target设计MVT测试时可能出现的一些问题的建议。
 title: 多变量测试故障诊断
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '171'
+ht-degree: 77%
 
 ---
 
 
 # 多变量测试故障诊断{#troubleshoot-multivariate-tests}
 
-本主题包含了一些建议，可帮助解决在设计 MVT 测试时可能出现的一些问题。
+本主题包含解决在Adobe Target设计MVT测试时可能出现的一些问题的建议。
 
 * 编辑活动时，如果您使用的是基于 Analytics 的量度，而报表包并未加载（显示旋转器），请先将量度切换为 Target 量度，然后再重新切换为基于 Analytics 的量度。此时，报表包应该可以成功加载。
 * 如果要对已在运行的测试进行更改，您可能需要重置该测试及其数据。

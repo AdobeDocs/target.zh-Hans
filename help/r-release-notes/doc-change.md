@@ -4,9 +4,9 @@ description: 本页列表了对Adobe Target文档所做的重要更改（按版�
 title: Adobe Target 产品文档中的文档更改。
 feature: release notes
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
 workflow-type: tm+mt
-source-wordcount: '3120'
+source-wordcount: '3144'
 ht-degree: 28%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 12 月 9 日 | [设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 新主题。 |
+|  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 将以下问题从“已知问题”部分移至“已解决问题”部分：&quot;显示“处理”标签的图像优惠。&quot; |
 | 12 月 1 日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 嵌入了网络研讨会录制内容，以便“在零延迟时进行个性化和测试，并做出来自Adobe Target的设备上决策”。 |
 | 24 年 11 月 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题：<ul><li>[报告-可下载。csv报告中的数据与目标UI中显示的报告不一致。](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>添加了以下已解决的问题：<ul><li>[Analytics for Target (A4T) 报表](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
 |  | [量度定义 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | 添加了以下常见问题解答：“在配置我的目标模型时，为什么无法访问“高级设置”选项？” |

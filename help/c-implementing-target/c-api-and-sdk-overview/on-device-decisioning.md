@@ -4,9 +4,9 @@ description: '设备上决策功能可以在服务器上缓存您的Adobe Target
 title: 设备上决策
 feature: server-side
 translation-type: tm+mt
-source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
+source-git-commit: 9523ed3022d683764e122cd5867a65c79c70df3a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -38,12 +38,6 @@ ht-degree: 0%
 * 显示示例Node.JS SDK代码，其中包含设备决策所需的密钥配置
 * 在浏览器中演示结果
 
-在此视频结束前，您将能够：
-
-* 描述设备上决策及其优势
-* 在 [!DNL Target]
-* 创建用于设备上决策的基于表单的书写器活动
-* 访问Adobe TargetSDK文档，进一步了解设备决策所需的SDK [配置](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* 了解最终用户将体验哪些内容通过设备决策交付
-
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
+
+有关更多视频和教程，请参阅 [Adobe TargetTutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) 指南。

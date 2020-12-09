@@ -4,9 +4,9 @@ description: 有关即将举办的事件的信息，包括目标技能生成器�
 title: 目标公告
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 4e6e6de0da9657fd902ac3e80cc1eba54709fbdd
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Adobe在《Forrester Wave:体验优化平台，2020年第4季度报告其在此�
 在这次录制的网络研讨会中，Adobe Target产品专家讨论了如何在设备上执行关键体验优化决策，在零延迟的情况下在本地执行，这将打开新的使用案例的大门，同时提高客户的站点性能。
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
-
-[在此处注册，获得这一令人兴奋的事件。](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## 网络研讨会：汇丰如何利用Adobe Target和人工智能快速大规模优化和提供个性化
 

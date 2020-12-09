@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1567'
 ht-degree: 86%
 
 ---
@@ -158,6 +158,7 @@ ht-degree: 86%
    + 服务器端：实施 Target {#server-side}
       + [服务器端：实施 Target 概述](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [从 Target 旧版 API 迁移到 Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+      + [设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
    + [混合实现](/help/c-implementing-target/hybrid-implementation.md)
    + 电子邮件：实施 Target {#implement-email}
       + [电子邮件：实施 Target 概述](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)

@@ -1,10 +1,10 @@
 ---
 keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
-description: '设备上决策功能可将您的Adobe TargetA/B和体验定位(XT)活动缓存到服务器上，并在接近零的延迟下执行内存中决策，而不会阻止到Adobe Target边缘网络的网络请求。 '
+description: '设备上决策功能可以在服务器上缓存您的Adobe TargetA/B和体验定位(XT)活动，并在接近零的延迟下执行内存中决策，而不会阻止到Adobe Target边缘网络的网络请求。 '
 title: 设备上决策
 feature: server-side
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 设备上决策
 
-设备上决策能够在服务器上缓 [!DNL Adobe Target] 存 [!UICONTROL A/B测试和] 体验定位 [!UICONTROL (XT)活动并在接近零的延迟下执行内存中决策，而不会阻止对边缘网络的][!DNL Adobe Target]网络请求。
+设备上决策能够在服务器上缓 [!DNL Adobe Target] 存 [!UICONTROL A/B测试和] 体验定位(XT)活动，并在接近零的延迟下执行内存中决策，而不会阻止到边缘网络的 [!DNL Adobe Target] 网络请求。
 
 有关详细信息，请 [参阅Adobe TargetSDK文档中](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) 的设 *[备决策简介](https://adobetarget-sdks.gitbook.io/docs/)*。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 教程：设备上决策
 
-[!DNL Adobe Targe]设备上的决策支持接近零的延迟内容投放。
+[!DNL Adobe Target] 设备上决策支持接近零的延迟内容投放。
 
 此7分钟视频：
 

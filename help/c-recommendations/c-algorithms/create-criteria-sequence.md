@@ -1,20 +1,20 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
 description: 使用最多五个标准的序列对您的Adobe TargetRecommendations活动中显示的项目进行更大控制。
 title: 创建标准序列
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4b9ff10ff01ea3bf4fc1be165b220d4975e1f948
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 36%
+source-wordcount: '808'
+ht-degree: 35%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 创建标准序列
 
-可使用最多包含五个标准的序列来加强对“[!UICONTROL 推荐]”活动中显示的项目的控制。
+可使用最多包含五个标准的序列来加强对“[!UICONTROL 推荐]”活动中显示的项目的控制。您还可以限制返回的项目数（有时称为“插槽级别控制”）。
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ ht-degree: 36%
 
    ![限制返回的项目数切换](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   为了帮助您了解“限制返回 [!UICONTROL 的项目数”选项的值] ，请考虑以下用例：
+   为了帮助您理解“限制返回 [!UICONTROL 的项目数”选项] （有时称为“插槽级别控制”）的值，请考虑以下用例：
 
    * **用例1**:您希望在单个推荐托盘中混合使用各种不同的项目。 例如，您希望展示混搭的外套（夹克）和上衣（衬衫、T恤）。 要实现此目的，请将集合用于活动，该集合包括您设计的任何插槽中所需的所有潜在产品类型。 然后，使用静态过滤器设置您的第一个标准，该静态过滤器将标准限制为仅包括外饰；使用静态过滤器设置第二个标准，该静态过滤器将标准限制为仅包括顶部。 最后，将两个标准添加到标准序列，并将第一个标准限制为2个插槽。
 

@@ -62,7 +62,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **我是否可以执行一个活动，在该活动中采用一定程度的个性化作为该活动的一部分？**
 
-选中“ [自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md) ”选项。
+查看[自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)选项。
 
 **我如何知道哪类活动最适合我的需求？**
 
@@ -189,7 +189,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 此外，我们还提供了[基于表单的方法](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，这些方法可以帮助您。
 
-另请阅读[增强型体验编辑器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何时以及为何有用。您可能还需要联系您的 IT 部门， [allowlist Adobe&#39;s proxy servers](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) as well.
+另请阅读[增强型体验编辑器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何时以及为何有用。您可能还需要联系您的 IT 部门，  [还允许列表要Adobe的](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) 代理服务器。
 
 **我有一个响应网站。在创建活动时，如何确定要使用的关键设备？**
 
@@ -197,7 +197,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **我有多个域。其中一个域需要启用增强型体验编辑器，而其他域则需要将其禁用。我该如何处理？**
 
-You can always use [Enhanced Experience Composer option at the activity level](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
+您始终可以在活动级别](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)使用[增强的体验书写器选项来覆盖默认设置（“管理”>“可视体验书写器”）。
 
 **为何我看不到交换图像的选项？**
 
@@ -271,7 +271,7 @@ You can always use [Enhanced Experience Composer option at the activity level](/
 
 请了解一下产品的以下几个方面：
 
-* [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [目标分析(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [客户属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 

@@ -43,7 +43,7 @@ ht-degree: 94%
 1. （可选）单击&#x200B;**[!UICONTROL 添加规则]**，然后为受众设置更多规则。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 培训视频：创建受众 ![概述徽章](/help/assets/overview.png)
+## 培训视频：创建受众![概述徽章](/help/assets/overview.png)
 
 以下视频包含有关使用受众类别的信息。
 

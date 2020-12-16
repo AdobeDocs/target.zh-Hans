@@ -12,7 +12,7 @@ ht-degree: 95%
 ---
 
 
-# adobe.target.applyOffers(options) - at.js 2.x
+# adobe.目标.applyOffers（选项）- at.js 2.x
 
 此函数允许您应用 `adobe.target.getOffers()` 检索到的多个选件。
 
@@ -22,14 +22,14 @@ ht-degree: 95%
 
 | 键值 | 类型 | 必需？ | 描述 |
 | --- | --- | --- | --- |
-| selector | 字符串 | 否 | HTML 元素或 CSS 选择器，用于标识 [!DNL Target] 应将选件内容放置在其中的 HTML 元素。If a selector is not provided, [!DNL Target] assumes that the HTML element to use is HTML HEAD. |
+| selector | 字符串 | 否 | HTML 元素或 CSS 选择器，用于标识 [!DNL Target] 应将选件内容放置在其中的 HTML 元素。如果未提供选择器，[!DNL Target]将假定要使用的HTML元素是HTMLHEAD。 |
 | 响应 | 对象 | 是 | 来自 `getOffers()` 的响应对象。<br>请参阅下文的“请求”表。 |
 
 ## 响应
 
 >[!NOTE]
 >
->有关以下 [列出的所有字段](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) （可接受类型）的信息，请查阅投放API文档。
+>有关以下所有字段的可接受类型的信息，请查阅[投放API文档](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
 
 | 字段名称 | 描述 |
 | --- | --- |

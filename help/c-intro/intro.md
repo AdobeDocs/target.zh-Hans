@@ -78,7 +78,7 @@ Target Premium 包含以下高级功能：
 
 ### 企业用户权限
 
-[“企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) ”功能允许您创建不同的项目(在中称为“产品用户档案” [!DNL Adobe Admin Console for Enterprise])，以允许您为指定每个项目的用户分配不同权限。 这些不同的项目好比 [!DNL Adobe Analytics] 中各个报表包的工作方式。每个项目都可以拥有其特定用户，而这些用户可以具有适用于一组属性的特定角色。结果是，客户将能够根据区域、环境(dev/stage/prod)、渠道或其他自定义条件限制对用户的视图、编辑、批准和发布访问权限。
+[企业用](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 户权限功能允许您创建不同的项目(在中称为“产品用户档案” [!DNL Adobe Admin Console for Enterprise])，以允许您为指定每个项目用户访问权限的单个用户分配不同权限。这些不同的项目好比 [!DNL Adobe Analytics] 中各个报表包的工作方式。每个项目都可以拥有其特定用户，而这些用户可以具有适用于一组属性的特定角色。结果是，客户将能够根据区域、环境(dev/stage/prod)、渠道或其他自定义条件限制对用户的视图、编辑、批准和发布访问权限。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -88,11 +88,11 @@ Target Premium 包含以下高级功能：
 
 ## Experience League：Adobe Target 欢迎工具包 {#kit}
 
-借助此欢迎工具包，可在 Adobe Target 上构建优化和个性化计划！It includes key information, tools, and resources to help you prepare for and launch your first [!DNL Adobe Target] activity, with short-term quick wins and long-term optimization strategies.
+借助此欢迎工具包，可在 Adobe Target 上构建优化和个性化计划！它包含重要信息、工具和资源，帮助您准备并启动第一个[!DNL Adobe Target]活动，并提供短期快速赢取和长期优化战略。
 
 [《Adobe Target欢迎工具包》](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## 培训视频：活动类型(9:03) ![概述徽章](/help/assets/overview.png)
+## 培训视频：活动类型(9:03)![概述徽章](/help/assets/overview.png)
 
 以下视频介绍了 [!DNL Target Standard/Premium] 中提供的活动类型，以及 Target 的三步引导式工作流如何帮助您实现网站目标。
 

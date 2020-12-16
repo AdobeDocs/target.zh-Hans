@@ -30,7 +30,7 @@ ht-degree: 97%
 
 **您可以在帐户级别启用增强型体验编辑器（为该帐户中创建的所有活动启用），也可以在活动级别启用该编辑器。**
 
-To enable the Enhanced Experience Composer at the account level, click [!UICONTROL Administration > Visual Experience Composer], then toggle the switch to the On position.
+要在帐户级别启用增强型体验书写器，请单击[!UICONTROL “管理”>“可视体验书写器”]，然后将切换到“开启”位置。
 
 在“可视化体验编辑器”中创建活动时，要在活动级别启用“增强型体验编辑器”，请单击[!UICONTROL 配置 > URL]，然后将开关切换到“开启”位置。
 

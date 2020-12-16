@@ -24,7 +24,7 @@ mbox3rdPartyId 是您公司的访客 ID，例如您公司的忠诚度计划的�
 
 | PCID（未登录） | mbox3rdPartyId（已登录） | 合并且保存至 mbox3rdPartyId 的内容 |
 |---|---|---|
-| category=hats | category=skis | category=skis |
+| category=hats | category=skis | 类别=滑雪板 |
 |  | store=94103 | store=94103 |
 | 活动 1，体验 A | 活动 1，体验 B | 活动 1，体验 B |
 | 活动 1 |  | 活动 1 |
@@ -37,7 +37,7 @@ mbox3rdPartyId 是您公司的访客 ID，例如您公司的忠诚度计划的�
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] 在ID(EDID)更改(例如访客更改设备)时，将不会跟踪目标 [!DNL Adobe Experience Cloud] ，即使可能基于mbox3rdPartyId [!DNL Target] 合并用户档案，但仍具有活动信息。 For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
+>[!DNL Adobe Analytics] 在ID(EDID)更改(例如，访客更 [!DNL Adobe Experience Cloud] 改设备)时，将不会跟踪目标，即使可 [!DNL Target] 能基于mbox3rdPartyId合并用户档案，但仍具有活动信息。对于使用相同EDID(使用相同设备访问页面的访客)标识的用户，[!DNL Analytics for Target](A4T)应按预期工作。
 
 ## 注意事项 {#considerations}
 

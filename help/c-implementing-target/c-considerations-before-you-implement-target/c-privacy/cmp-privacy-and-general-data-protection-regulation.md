@@ -73,7 +73,7 @@ window.targetGlobalSettings = {
 
 1. **已通过 [!DNL Launch] 预批准 [!DNL Target] 标记（或者数据主体以前已经批准 [!DNL Target]）：**[!DNL Target] 标记不适用于征求同意，且会发挥预期的作用。
 1. **[!DNL Target] 标记没有获得预批准且 `bodyHidingEnabled` 设置为 FALSE：**&#x200B;只有在收到客户的同意之后，才会触发 [!DNL Target] 标记。在收到客户同意之前，仅默认内容可用。在收到客户同意之后，将调用 [!DNL Target] 并向数据主体（访客）提供个性化内容。因为在收到同意之前仅默认内容可用，所以利用适当的策略显得尤为重要，例如对可覆盖网页任何区域或内容的醒目页面进行自定义。这可确保数据主体（访客）获得一致的体验。
-1. **[!DNL Target] 标记没有获得预批准且 `bodyHidingEnabled` 设置为 TRUE：**&#x200B;只有在收到客户的同意之后，才会触发 [!DNL Target] 标记。在收到客户同意之前，仅默认内容可用。但是，因为 `bodyHidingEnabled` 设置为 true，`bodyHiddenStyle` 会指示在触发 [!DNL Target] 标记之前页面上需要隐藏的内容（或者数据主体拒绝使用选择加入功能，这种情况下会显示默认内容）。By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. 我们推荐采用下面的页面配置，以便隐藏除同意管理器对话框之外的整个页面正文，方法是将页面内容放在一个容器，而将同意管理器对话框放在另一容器中。这种设置会配置 [!DNL Target]，以便仅隐藏页面内容容器。关于如何配置这些设置的信息，请参阅 [ Launch 文档](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
+1. **[!DNL Target] 标记没有获得预批准且 `bodyHidingEnabled` 设置为 TRUE：**&#x200B;只有在收到客户的同意之后，才会触发 [!DNL Target] 标记。在收到客户同意之前，仅默认内容可用。但是，因为 `bodyHidingEnabled` 设置为 true，`bodyHiddenStyle` 会指示在触发 [!DNL Target] 标记之前页面上需要隐藏的内容（或者数据主体拒绝使用选择加入功能，这种情况下会显示默认内容）。默认情况下，`bodyHiddenStyle`设置为`body { opacity:0;}`，它隐藏HTML body标签。 我们推荐采用下面的页面配置，以便隐藏除同意管理器对话框之外的整个页面正文，方法是将页面内容放在一个容器，而将同意管理器对话框放在另一容器中。这种设置会配置 [!DNL Target]，以便仅隐藏页面内容容器。关于如何配置这些设置的信息，请参阅 [ Launch 文档](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
 
    适用于情景 3 的推荐页面设置是：
 
@@ -132,7 +132,7 @@ window.targetGlobalSettings = {
 | 用户 ID | 命名空间 ID 类型 | 命名空间 ID | 定义 |
 |--- |--- |--- |--- |
 | Experience Cloud ID (ECID) | Standard | 4 | Adobe Experience Cloud ID，以前称为访客 ID 或 Marketing Cloud ID。您可以使用 JavaScript API 来查找此 ID（请参阅下面的详细信息）。 |
-| TnT ID / Cookie ID(TNTID) | Standard | 9 | 在访客的浏览器中设置为 Cookie 的 Target 标识符。您可以使用 JavaScript API 来查找此 ID（请参阅下面的详细信息）。 |
+| TnT ID / Cookie ID(TNTID) | 标准 | 9 | 在访客的浏览器中设置为 Cookie 的 Target 标识符。您可以使用 JavaScript API 来查找此 ID（请参阅下面的详细信息）。 |
 | 第三方 ID / CRM ID (THIRDPARTYID) | 特定于 Target | 不适用 | 如果您向 Target 提供您的 CRM 或您的客户的其他唯一标识符信息。 |
 
 >[!NOTE]
@@ -143,11 +143,11 @@ window.targetGlobalSettings = {
 
 GDPR 和 CCPA 不会对您获得客户同意的时间造成任何影响，但会影响获得客户同意的方式。每位客户的同意策略取决于其数据收集和使用惯例，以及其隐私政策。同意管理不受 GDPR 和 CCPA 的支持，也不应通过 [!DNL Target] 为 GDPR 和 CCPA 获取同意管理。
 
-[!DNL Adobe] 目前不提供同意管理解决方案，不过，市面上有各种各样的开发工具，可用来解决一些新的需求。For more information on privacy tools in general, including consent managers, see the [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) on the *International Association of Privacy Professionals (iaap)* website.
+[!DNL Adobe] 目前不提供同意管理解决方案，不过，市面上有各种各样的开发工具，可用来解决一些新的需求。有关一般隐私工具（包括同意管理者）的详细信息，请参阅&#x200B;*国际隐私专业人士协会(iaap)*&#x200B;网站上的[2017隐私权技术供应商报告](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf)。
 
 [!DNL Target] 通过 [!DNL Launch] 提供选择加入功能支持，以支持您的同意管理策略。选择加入功能让客户可自行决定如何以及何时触发 [!DNL Target] 标记。还有一个选项，即通过 [!DNL Launch] 预批准 [!DNL Target] 标记。推荐使用 [!DNL Launch] 管理选择加入功能。[!DNL Launch] 中提供了更加精细化的控制，可在触发 [!DNL Target] 标记之前隐藏页面的选定元素，这可能会有助于在您的同意策略中利用此功能。
 
-For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). 另请参阅上文中 *Adobe Target 和 Experience Platform Launch 选择加入功能*&#x200B;部分。
+有关GDPR、CCPA和[!DNL Launch]的详细信息，请参阅[Adobe隐私JavaScript库和GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。 另请参阅上文中 *Adobe Target 和 Experience Platform Launch 选择加入功能*&#x200B;部分。
 
 ### AdobePrivacy.js 是否向 GDPR API 提交信息？{#section_1EB8A2BAAD31474C97C1D455F41DA739}
 

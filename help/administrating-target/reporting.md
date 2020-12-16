@@ -14,9 +14,9 @@ ht-degree: 32%
 
 # 在目标中配置报告
 
-配置一般设置，以在 [!DNL Adobe Target] 报告中应用于整个 [!DNL Target] 帐户。
+将常规设置配置为在[!DNL Adobe Target]报告中使用，这些设置应用于您的整个[!DNL Target]帐户。
 
-要访问报告 [!UICONTROL 配置] 页，请单击“ **[!UICONTROL 管理]** ” **[!UICONTROL >]报告。**
+要访问[!UICONTROL 报告]配置页，请单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 报告]。**
 
 您可以在此页面上指定以下设置：
 
@@ -29,7 +29,7 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->请注意，排除设置的时区、货币和IP地址应用于使用活动的 [!DNL Target] 报告。 这些设置不适用于将Analytics for [目标(A4T)用作活动源] (/help/c-integrating-target-with-mac/a4t/a4t.md)的报告。
+>请注意，排除设置的时区、货币和IP地址应用于使用[!DNL Target]报告的活动。 这些设置不适用于使用[Analytics for活动(A4T)]作为报告源(/help/c-integrating-target-with-mac/a4t/a4t.md)的目标。
 
 ![报告页](/help/administrating-target/assets/reporting.png)
 
@@ -37,14 +37,14 @@ ht-degree: 32%
 
 设置相应选项，以确定用于结果和报表的数据。
 
-Select the reporting source for your activities, either [!DNL Target] or [!DNL Adobe Analytics]. 您也可以选择为每个活动分别选择报表源。
+为活动选择报告源，[!DNL Target]或[!DNL Adobe Analytics]。 您也可以选择为每个活动分别选择报表源。
 
 选择报表源时，请考虑以下信息：
 
-* 如果将此处的报表来源设置为“**[!DNL Target]**”，则将不允许激活使用“”作为报表源的活动。[!DNL Analytics]You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
-* If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to [!DNL Analytics] in your activity or change the reporting engine to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
-* If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
-* [!UICONTROL Automated Personalization] (AP)活动创建、激活和取消激活是允许的，而不管选择的报告源。 Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* 如果将此处的报表来源设置为“**[!DNL Target]**”，则将不允许激活使用“”作为报表源的活动。[!DNL Analytics]必须将报告源更改为活动中的[!DNL Target]，或将报告源更改为&#x200B;**[!UICONTROL 管理]>报告]**&#x200B;中的&#x200B;**[!UICONTROL 按活动选择]**。[!UICONTROL 
+* 如果报告源在此处设置为&#x200B;**[!DNL Analytics]**，则不允许激活使用[!DNL Target]作为报告源的活动(报告源指定为每个活动]的&#x200B;**[!UICONTROL 目标)**。 您必须将报告源更改为活动中的[!DNL Analytics]，或将报告引擎更改为&#x200B;**[!UICONTROL 管理]>报告]**&#x200B;中的&#x200B;**[!UICONTROL 每个活动]**&#x200B;选择。[!UICONTROL 
+* 如果报告源设置为&#x200B;**[!UICONTROL 在此按活动]**&#x200B;选择，则可以创建、激活和取消激活选定报告源支持的活动。 有关受支持活动的矩阵，请参见&#x200B;*Adobe Analytics中[受支持活动类型](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)作为Adobe Target的报告源(A4t)*。
+* [!UICONTROL Automated Personalization] (AP)活动的创建、激活和取消激活是允许的，而不管选择的报告源。当您选择[Adobe Analytics作为Adobe Target(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)的报告源时，不支持Automated Personalization活动。 即使指定[!DNL Analytics]作为报告源，[!DNL Target]也用作Automated Personalization活动的报告源。 有关详细信息，请参阅&#x200B;*Adobe Analytics中[支持的活动类型](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)作为Adobe Target(A4t)*&#x200B;的报告源。
 
 ## 报告时区
 
@@ -64,7 +64,7 @@ Select the reporting source for your activities, either [!DNL Target] or [!DNL A
 
 如果为目标输入货币值，则可以选择显示预计的收入提升。 [!DNL Target] 可以估计在所有用户都查看成功体验时将获得的收入提升。默认情况下，预计提升功能处于禁用状态。
 
-Only [!DNL Experience Cloud] Admin users can enable or disable this feature. 如果禁用预计提升，则界面中不会显示相应的字段。禁用此功能不会导致数据丢失，包括用于估算的数据。无论是否启用了此功能，都会根据所收集的数据进行估算。
+只有[!DNL Experience Cloud]管理员用户才能启用或禁用此功能。 如果禁用预计提升，则界面中不会显示相应的字段。禁用此功能不会导致数据丢失，包括用于估算的数据。无论是否启用了此功能，都会根据所收集的数据进行估算。
 
 有关详细信息，请参阅[预计收入提升](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)。
 

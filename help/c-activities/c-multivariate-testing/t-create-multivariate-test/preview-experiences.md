@@ -1,6 +1,6 @@
 ---
 description: 由于多变量测试会对一个页面上的多个体验进行比较，因此预览页面的每个体验很有用。
-title: 预览多变量测试体验 adobe target
+title: 预览多变量测试体验 in Adobe Target
 feature: mvt
 translation-type: tm+mt
 source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0

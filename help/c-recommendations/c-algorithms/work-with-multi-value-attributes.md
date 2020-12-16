@@ -20,9 +20,9 @@ ht-degree: 0%
 * 你卖音乐会的票。 给定用户有多个喜欢的栏。
 * 你卖衣服。 衬衫有多种尺寸。
 
-要在这些情况下处理推荐，您可以将多值数据传递给并 [!DNL Target Recommendations] 使用特殊的多值运算符。
+要处理这些情况中的推荐，您可以将多值数据传递给[!DNL Target Recommendations]并使用特殊的多值运算符。
 
-要识 [!DNL Recommendations] 别多值数据，应将其作为JSON数组发送，如以下代码示例中所示。
+要允许[!DNL Recommendations]识别多值数据，应将其作为JSON数组发送，如以下代码示例中所示。
 
 ## 在JavaScript中传递多值参数
 
@@ -41,7 +41,7 @@ function targetPageParams() {
 }
 ```
 
-有关详细信息，请 [参阅在自定义实体属性中](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) 实 *现多值属性*。
+有关详细信息，请参阅&#x200B;*自定义实体属性*&#x200B;中的[实现多值属性](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)。
 
 ## 在CSV文件中传递多值实体属性
 
@@ -60,7 +60,7 @@ function targetPageParams() {
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-当根据上述格式将实体属性、用户档案属性或mbox参数提供为多值时，会自动 [!DNL Recommendations] 推断字段是多值。
+当根据上述格式将实体属性、用户档案属性或mbox参数提供为多值时，[!DNL Recommendations]会自动推断字段是多值。
 
 以下运算符可用于多值实体、用户档案和mbox属性：
 
@@ -75,7 +75,7 @@ function targetPageParams() {
 
 ### 示例：排除最近监视的项目
 
-假定您希望阻止推荐用户最近十部观看的电影中的任何电影。 首先，编写一个名为的用户档案 `user.lastWatchedMovies` 脚本，将最近10个查看的电影作为JSON数组进行跟踪。 然后，您可以使用以下包含规则排除项目：
+假定您希望阻止推荐用户最近十部观看的电影中的任何电影。 首先，编写一个名为`user.lastWatchedMovies`的用户档案脚本，将最近十次查看的电影作为JSON数组进行跟踪。 然后，您可以使用以下包含规则排除项目：
 
 ```
 `Profile Attribute Matching`
@@ -97,7 +97,7 @@ function targetPageParams() {
 
 ### 示例：推荐用户收藏夹中的项目
 
-假设您希望仅在乐队演奏是用户最喜爱的乐队之一时向音乐会推荐票。 首先，确保您有一个名为用户档案变 `profile.favoriteBands` 量，它包含用户最喜爱的栏。 然后，确保您的目录包含一个属 `entity.artistPerforming` 性，该属性包括演唱会中表演的艺术家。 然后，您可以使用以下包含规则：
+假设您希望仅在乐队演奏是用户最喜爱的乐队之一时向音乐会推荐票。 首先，确保您有一个名为`profile.favoriteBands`的用户档案变量，它包含用户最喜爱的栏。 然后，确保您的目录包含一个属性`entity.artistPerforming`，该属性包括演唱会中表演的艺术家。 然后，您可以使用以下包含规则：
 
 ```
 `Profile Attribute Matching`
@@ -119,7 +119,7 @@ function targetPageParams() {
 
 ### 示例：API创建推荐用户收藏夹中的项目的条件
 
-使用多值筛选规则的条件（与所有条件一样）可以通过AdobeI/O API创建。 用于创建条件的示例API调用，其中mbox参 `id` 数列表中包含实体属 `favorites` 性：
+使用多值筛选规则的条件（与所有条件一样）可以通过Adobe I/OAPI创建。 用于创建条件的示例API调用，其中mbox参数列表`favorites`中包含实体属性`id`:
 
 ```
 curl -X POST \

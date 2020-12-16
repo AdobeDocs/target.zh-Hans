@@ -48,7 +48,7 @@ ht-degree: 98%
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 在 Adobe Target 中使用受众 (6:21) ![概述徽章](/help/assets/overview.png)
+### 在 Adobe Target 中使用受众 (6:21)  ![概述徽章](/help/assets/overview.png)
 
 以下视频介绍了如何在 [!DNL Target Standard/Premium] 中使用受众。
 
@@ -60,7 +60,7 @@ ht-degree: 98%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### 活动工作流——定位(2:14)教 ![程徽章](/help/assets/tutorial.png)
+### 活动工作流——定位(2:14)![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关设置受众的信息。
 

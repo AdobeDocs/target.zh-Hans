@@ -12,23 +12,23 @@ ht-degree: 0%
 ---
 
 
-# ![PREMIUM实体](/help/assets/premium.png) 属性匹配
+# ![PREMIUMEntity](/help/assets/premium.png) 属性匹配
 
-Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
+通过比较潜在推荐项池与用户已交互的特定项，在[!DNL Adobe Target] [!DNL Recommendations]中动态过滤。
 
 >[!NOTE]
 >
->The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+>用于创建和使用包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)作为标准和促销的[过程与用例和示例类似。
 
 例如，仅建议与当前项目的品牌匹配的项目，如下例所示：
 
-如果品牌登陆页上的mbox返回， `entity.brand=brandA`则仅会返回品牌A产品并在该页面上显示。 同样，在品牌B的品牌登陆页中，只返回品牌B产品。 使用这种类型的动态包含规则，用户只需指定一个推荐规则，该规则可在所有品牌页面中返回相关品牌结果，而不必指定集合或静态过滤器以匹配每个品牌名称。
+如果品牌登陆页上的mbox返回`entity.brand=brandA`，则仅返回品牌A产品并在该页面上显示。 同样，在品牌B的品牌登陆页中，只返回品牌B产品。 使用这种类型的动态包含规则，用户只需指定一个推荐规则，该规则可在所有品牌页面中返回相关品牌结果，而不必指定集合或静态过滤器以匹配每个品牌名称。
 
-请注意，您必须在mbox `entity.brand` 中提供这些登陆页，才能使其正常工作。
+请注意，您必须将mbox中的`entity.brand`传送到这些登陆页，才能使其正常工作。
 
 ## 实体属性匹配示例
 
-[!UICONTROL 实体属性匹配] 允许您仅推荐匹配的项目，例如：
+[!UICONTROL 实体属] 性匹配允许您仅推荐匹配的项目，例如：
 
 * 用户当前查看的项目中的属性
 * 用户最近查看的项目
@@ -42,7 +42,7 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 
 以下示例显示了页面上显示的与产品品牌匹配的推荐：
 
-当您访问具有品牌A产品的页面时，该页面会将参数的值 `entity.brand` 设置为“品牌A”。
+当您访问具有品牌A产品的页面时，该页面会将`entity.brand`参数的值设置为“品牌A”。
 
 ![示例目标调用](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
 
@@ -50,7 +50,7 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 
 ![品牌A推荐](/help/c-recommendations/c-algorithms/assets/brandA.png)
 
-如果您随后视图了品牌B产品页 `entity.brand` 面，该值将重置为“品牌B”，您将看到在品牌B产品页面上推荐的品牌B产品。
+如果您随后视图品牌B产品页面，`entity.brand`值将重置为“品牌B”，您将看到在品牌B产品页面上推荐的品牌B产品。
 
 ![品牌B推荐](/help/c-recommendations/c-algorithms/assets/brandB.png)
 

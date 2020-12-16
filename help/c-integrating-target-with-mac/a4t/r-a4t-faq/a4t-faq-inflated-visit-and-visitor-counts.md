@@ -38,7 +38,7 @@ ht-degree: 100%
 
 有关更多信息，请参阅“不完整数据的导致因素”，此内容位于[在 A4T 中最大限度地减少夸大的访问和访客计数](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
 
-## 我的数据中存在不完整数据点击。如何清理我的数据？ {#section_CBE778A9D07A469E8FF98F68BACC7124}
+## 我的数据中存在不完整数据点击。如何清理我的数据？  {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
 您可以创建一个虚拟报表包，以便从报表中排除不完整历史数据。
 

@@ -14,33 +14,33 @@ ht-degree: 27%
 
 # 使用 Analytics 跟踪服务器
 
-If you are using an older version of at.js or mbox.js, you must specify an Analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
+如果您使用的是at.js或mbox.js的旧版本，则必须为使用[!DNL Analytics](A4T)的[!DNL Target](A4T)的活动指定Analytics跟踪服务器。
 
 >[!NOTE]
 >
->If you use [!DNL Analytics] as your activity&#39;s reporting source, you do not need to specify a tracking server during activity creation if you are using mbox.js version 61 (or later) or at.js version 0.9.1 (or later). mbox.js 或 at.js 库会自动将跟踪服务器值发送到 [!DNL Target]。在活动创建期间，您可以将“[!UICONTROL 目标和设置]”页面上的“[!UICONTROL 跟踪服务器]”字段留空。
+>如果您使用[!DNL Analytics]作为活动的报告源，则在活动创建过程中，如果您使用mbox.js版本61（或更高版本）或at.js版本0.9.1（或更高版本），则无需指定跟踪服务器。 mbox.js 或 at.js 库会自动将跟踪服务器值发送到 [!DNL Target]。在活动创建期间，您可以将“[!UICONTROL 目标和设置]”页面上的“[!UICONTROL 跟踪服务器]”字段留空。
 >
->团 [!DNL Target] 队支持at.js 1。*x* 与 at.js 2.*x* 之间的映射。请升级到at.js的任一主要版本的最新更新，以确保您运行的是受支持的版本。 For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>[!DNL Target]团队同时支持at.js 1。*x* 与 at.js 2.*x* 之间的映射。请升级到at.js的任一主要版本的最新更新，以确保您运行的是受支持的版本。 有关详细信息，请参阅[at.js版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
-To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an Analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Platform Debugger] or your browser&#39;s Developer Tools to determine the correct tracking server for your activity.
+为确保[!DNL Target]中的数据到达[!DNL Analytics]中的正确位置，A4T要求在从[!DNL Target]发往Modstats的所有调用中发送Analytics跟踪服务器。 对于使用多个跟踪服务器的实施，您可以使用[!DNL Adobe Experience Platform Debugger]或浏览器的“开发人员工具”来确定适合您的活动的正确跟踪服务器。
 
 ## 使用Adobe Experience Platform调试器获取Analytics跟踪服务器
 
 应该在将交付活动的页面上查看该调试器，以确保您选择的跟踪服务器正确无误。您还可以为每个帐户指定一个默认的跟踪服务器。要指定或修改默认的跟踪服务器，请联系客户关怀团队。
 
-1. 在创建活动的页面中，打开 [!DNL Adobe Experience Platform Debugger]。
+1. 在创建活动的页面中，打开[!DNL Adobe Experience Platform Debugger]。
 
-   如果尚未安装调试器，请参 [阅Adobe Experience Platform调试器简介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
+   如果尚未安装调试器，请参阅[Adobe Experience Platform调试器简介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
-1. 单击 **[!UICONTROL 左侧导]** 航菜单中的“分析”。
+1. 单击左侧导航菜单中的&#x200B;**[!UICONTROL 分析]**。
 
-   The Analytics tracking server is found in the [!UICONTROL Hostname] section of the debugger.
+   分析跟踪服务器位于调试器的[!UICONTROL 主机名]部分。
 
-   * **第一方跟踪服务器**:如果请求的主机名与您所在的域匹配，则它是第一方跟踪服务器。 例如，如果您在 `adobe.com`, `adobe.com` 则是第一方跟踪服务器。
-   * **第三方跟踪服务器**:第三方跟踪服务器通常 `[company].sc.omtrdc.net` 将公司作为公司的名称，但始终以结尾 `sc.omtrdc.net`。
-   * **CNAME实现**: `sstats.adobe.com` 是CNAME第一方跟踪服务器用于https(secure)请求的示例。 `stats.adobe.com` 是http（非安全）页面的CNAME第一方请求的示例。
+   * **第一方跟踪服务器**:如果请求的主机名与您所在的域匹配，则它是第一方跟踪服务器。例如，如果您位于`adobe.com`上，则`adobe.com`是第一方跟踪服务器。
+   * **第三方跟踪服务器**:第三方跟踪服务器通常 `[company].sc.omtrdc.net` 是公司是公司名称，但始终以结尾 `sc.omtrdc.net`。
+   * **CNAME实现**: `sstats.adobe.com` 是CNAME第一方跟踪服务器用于https(secure)请求的示例。`stats.adobe.com` 是http（非安全）页面的CNAME第一方请求的示例。
 
 1. 复制该字段的全部内容。
 
@@ -48,7 +48,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
    >[!NOTE]
    >
-   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
+   >您必须选择[!UICONTROL Analytics作为报告源]，以使您的活动[!UICONTROL 跟踪服务器]字段可用。
 
 ## 使用浏览器的开发人员工具获取分析跟踪服务器
 
@@ -58,17 +58,17 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
    ![Chrome开发人员工具](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
-1. Click the **[!UICONTROL Network]** tab.
+1. 单击&#x200B;**[!UICONTROL 网络]**&#x200B;选项卡。
 
-1. 筛选以 `/ss,` 显示Analytics请求。
+1. 筛选`/ss,`以显示Analytics请求。
 
    ![带/ss搜索的Chrome开发人员工具](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
    跟踪服务器是请求的主机名。
 
-   * **第一方跟踪服务器**:如果请求的主机名与您所在的域匹配，则它是第一方跟踪服务器。 例如，如果您在 `adobe.com`, `adobe.com` 则是第一方跟踪服务器。
-   * **第三方跟踪服务器**:第三方跟踪服务器通常 `[company].sc.omtrdc.net` 将公司作为公司的名称，但始终以结尾 `sc.omtrdc.net`。
-   * **CNAME实现**: `sstats.adobe.com` 是CNAME第一方跟踪服务器用于https(secure)请求的示例。 `stats.adobe.com` 是http（非安全）页面的CNAME第一方请求的示例。
+   * **第一方跟踪服务器**:如果请求的主机名与您所在的域匹配，则它是第一方跟踪服务器。例如，如果您位于`adobe.com`上，则`adobe.com`是第一方跟踪服务器。
+   * **第三方跟踪服务器**:第三方跟踪服务器通常 `[company].sc.omtrdc.net` 是公司是公司名称，但始终以结尾 `sc.omtrdc.net`。
+   * **CNAME实现**: `sstats.adobe.com` 是CNAME第一方跟踪服务器用于https(secure)请求的示例。`stats.adobe.com` 是http（非安全）页面的CNAME第一方请求的示例。
 
 1. 复制该字段的全部内容。
 
@@ -76,5 +76,5 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
    >[!NOTE]
    >
-   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
+   >您必须选择[!UICONTROL Analytics作为报告源]，以使您的活动[!UICONTROL 跟踪服务器]字段可用。
 

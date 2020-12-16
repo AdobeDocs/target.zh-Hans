@@ -38,7 +38,7 @@ Target Classic 停用后，旧版 API 也会随之停用：
 
 上述时间表不会影响 Recommendations Classic API。
 
-## 等效方法 {#section_DDB42CCC172545B09CB728D794CC466B}
+## 等效方法  {#section_DDB42CCC172545B09CB728D794CC466B}
 
 下表列出了各旧版 API 方法所对应的新版 Target API 等效方法。旧版 API 返回 XML 响应，而新版 API 则返回 JSON。
 
@@ -66,6 +66,6 @@ Target Classic 停用后，旧版 API 也会随之停用：
 
 如果您需要设置例外，请联系您的客户成功经理。
 
-## 帮助 {#section_591F850E2B7A4342B1C233693425415C}
+## 帮助  {#section_591F850E2B7A4342B1C233693425415C}
 
 如果您在迁移到 Adobe I/O 上的新版 Target API 时遇到任何问题或需要任何帮助，请联系 Adobe Target 客户关怀团队 (tt-support@adobe.com)。

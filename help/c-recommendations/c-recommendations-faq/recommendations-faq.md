@@ -20,7 +20,7 @@ ht-degree: 80%
 
 当您使用数字值对自定义属性执行目录搜索时，结果会将自定义属性视为字符串类型而不是数字值。
 
-目前，没有允许客户更改属性类型的功能。 要进行更改，请 [打开一个客户问题](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，该问题引用需要类型从字符串更改为数字的属性。
+目前，没有允许客户更改属性类型的功能。 要进行更改，请[打开一个引用需要类型从字符串更改为数字的属性的客户问题](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
 ## 目录中的项目更新将需要多长时间才会反映在我的网站上？
 
@@ -90,7 +90,7 @@ Target 提供了一个[筛选不兼容的标准](/help/c-recommendations/plan-im
 * 未从页面触发任何 mbox 调用 (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * 未定义 Target 参数。
 
-## 如果“推荐”中的某个收藏集变为零 (0)，我应该怎么做？ {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## 如果“推荐”中的某个收藏集变为零 (0)，我应该怎么做？  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 如果您看到某个之前不为零的收藏集变为零，请考虑以下信息：
 
@@ -118,7 +118,7 @@ Target 提供了一个[筛选不兼容的标准](/help/c-recommendations/plan-im
 
 ![](assets/content_similarity_example.png)
 
-## Target 为何有时无法显示推荐？ {#section_DB3F40673AED42228E407C05437D99E9}
+## Target 为何有时无法显示推荐？  {#section_DB3F40673AED42228E407C05437D99E9}
 
 Target 有时无法显示推荐，原因在于可用推荐的数量过低。
 
@@ -135,13 +135,13 @@ Target 有时无法显示推荐，原因在于可用推荐的数量过低。
 #end 
 ```
 
-## 用于插入/更新产品的 API 调用的大小限制是多少？我能否使用 API 而不是信息源在一次调用中更新 50,000 个产品？ {#section_434FE1F187B7436AA39B7C14C7895168}
+## 用于插入/更新产品的 API 调用的大小限制是多少？我能否使用 API 而不是信息源在一次调用中更新 50,000 个产品？  {#section_434FE1F187B7436AA39B7C14C7895168}
 
 Target 在应用程序级别施加了 50 MB 的发布限制；但是，仅当您传递 `application/x-www-form-urlencoded` 内容类型标头时才会受到此限制。
 
 您当然可以尝试在一次调用中发送 50,000 个产品。如果发送失败，您应将这些产品分批进行发送。我们通常建议客户将其调用分成 5,000 个产品或 10,000 个产品为一批，以降低因系统负载导致超时的可能性。
 
-## 创建推荐标准、促销活动或模板测试规则时，是否需要指定 mbox 名称？ {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## 创建推荐标准、促销活动或模板测试规则时，是否需要指定 mbox 名称？  {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 在基于 mbox 参数创建推荐标准、促销活动或模板测试规则时，`mboxParameter` 不再提示您输入 `mboxName`。mbox 名称现在是可选的。通过这项更改，您可以使用多个 mbox 中的参数或引用尚未记录到 Edge 的参数。
 
@@ -154,11 +154,11 @@ Target 在应用程序级别施加了 50 MB 的发布限制；但是，仅当您
 
 如果您编辑现有标准、促销活动或模板测试规则，则会显示筛选标准以及在创建期间提供的 mbox 名称。
 
-## 在定义新受众后，为什么我无法保存旧版“推荐”活动？ {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## 在定义新受众后，为什么我无法保存旧版“推荐”活动？  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 确保受众具有唯一的名称。如果您为受众指定了与现有受众相同的名称，则无法保存旧版“推荐”活动（在 2016 年 10 月之前创建的“推荐”活动）。
 
-## 可用于信息源上传的 CSV 文件的最大大小是多少？ {#section_20F1AF4839A447B9889B246D6E873538}
+## 可用于信息源上传的 CSV 文件的最大大小是多少？  {#section_20F1AF4839A447B9889B246D6E873538}
 
 对于上传信息源的 CSV 文件，其行数或文件大小没有硬性限制。但是，作为最佳实践，我们建议将 CSV 文件大小限制为 1 GB，以避免在文件上传过程中出现故障。如果文件大小超过 1 GB，最好将其拆分为多个信息源文件。自定义属性列的最大数量为 100，自定义属性限制为 4,096 个字符。有关所需列长度的其他限制，请参阅 [Target 限制页面](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)。
 
@@ -168,13 +168,13 @@ Target 在应用程序级别施加了 50 MB 的发布限制；但是，仅当您
 
 要启用排除功能，请使用 `excludedIds` mbox 参数。此参数指向一个以逗号分隔的实体 ID 列表。例如，`mboxCreate(..., "excludedIds=1,2,3,4,5")`。该值将在请求推荐时发送。
 
-仅对当前目标调用执行排除；在后续目标调用中不排除项目，除非 `excludedIds` 再次传递值。 要从每页的推荐中排除购物车中的项目，请继续在每页 `excludedIds` 上传递值。
+仅对当前目标调用执行排除；在后续目标调用中不排除项，除非再次传递`excludedIds`值。 要从每页的推荐中排除购物车中的项目，请继续在每页上传递`excludedIds`值。
 
 >[!NOTE]
 >
 >如果排除的实体过多，则 Recommendations 所表现出的行为就像是没有足够的实体来填充推荐模板。
 
-To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. 在提取了内容 URL 之后，所需参数将使用当前的 mbox 请求参数替代。
+要排除`entityIds`，请将`&excludes=${mbox.excludedIds}`标记追加到优惠内容url。 在提取了内容 URL 之后，所需参数将使用当前的 mbox 请求参数替代。
 
 默认情况下，新创建的推荐将启用此功能。现有推荐必须进行保存才能支持动态排除的实体。
 

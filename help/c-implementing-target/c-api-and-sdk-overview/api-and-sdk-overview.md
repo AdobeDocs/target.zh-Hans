@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # 服务器端：实施 Target{#server-side-implement-target}
 
-有关服 [!DNL Adobe Target] 务器端投放API、SDK和API的 [!DNL Target Recommendations] 信息。
+有关[!DNL Adobe Target]服务器端投放API、SDK和[!DNL Target Recommendations] API的信息。
 
 以下过程会在 [!DNL Target] 的服务器端实施中发生：
 
@@ -27,32 +27,32 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->首次访客只能在客户端进行初始化。 首次访客无 *法* 在服务器端初始化。
+>首次访客只能在客户端进行初始化。 首次访客&#x200B;*不能*&#x200B;在服务器端进行初始化。
 
 以下各节提供有关各种API和NodeJS SDK的更多信息：
 
 ## 服务器端交付 API
 
-Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/delivery-api/)
+链接：[服务器端投放API](https://developers.adobetarget.com/api/delivery-api/)
 
 `/rest/v1/delivery`
 
-通过 [!DNL Target] 投放API，您可以：
+通过[!DNL Target]投放API，您可以：
 
 * 跨网络提供体验，包括SPA、移动渠道以及基于非浏览器的IoT设备，如网络电视、报亭或店内数字屏幕。
 * 从任何可进行HTTP/s调用的服务器端平台或应用程序提供体验。
 * 向访客提供一致、个性化的体验，无论访客使用何种渠道或设备与您的业务互动。
 * 在服务器上的会话中缓存访客体验，以避免多个API调用，从而获得更好的性能。
-* 与诸如 [!DNL Adobe Experience Cloud] 、(AAM [!DNL Adobe Analytics])和服 [!DNL Adobe Audience Manager] 务器端的 [!DNL Experience Cloud ID Service] 产品无缝集成。
+* 从服务器端无缝集成[!DNL Adobe Experience Cloud]产品，如[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager](AAM)和[!DNL Experience Cloud ID Service]。
 
 ## 服务器端SDK
 
-链接： [Adobe TargetSDK](https://adobetarget-sdks.gitbook.io/docs/)
+链接：[Adobe TargetSDK](https://adobetarget-sdks.gitbook.io/docs/)
 
-服务 [!DNL Adobe Target] 器端SDK文档门户可帮助您在服 [!DNL Target] 务器上以您选择的语言实施。
+[!DNL Adobe Target]服务器端SDK文档门户可帮助您以所选语言在服务器上实施[!DNL Target]。
 
 ## Target 推荐 API
 
-链接： [目标Recommendations](https://developers.adobetarget.com/api/recommendations) API [和Adobe RecommendationsAPI概述](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html)。
+链接：[目标RecommendationsAPI](https://developers.adobetarget.com/api/recommendations)和[Adobe RecommendationsAPI概述](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html)。
 
-The Recommendations APIs let you programmatically interact with [!DNL Target] recommendations servers. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] user interface.
+利用RecommendationsAPI，您可以与[!DNL Target]推荐服务器进行有序交互。 这些API可以与一系列应用程序堆栈集成，以执行通常通过[!DNL Target]用户界面执行的功能。

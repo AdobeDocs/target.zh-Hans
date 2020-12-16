@@ -16,11 +16,11 @@ ht-degree: 78%
 
 Adobe Target 启用了一些流程和设置，使您能够在遵守适用数据隐私法律的情况下使用 Target。
 
-## IP地址集合 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## IP地址集{#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 网站访客的 IP 地址会传输到 Adobe 数据处理中心 (DPC)。根据访客的网络配置，IP 地址不一定能代表访客计算机的 IP 地址。例如，IP 地址可能为网络地址转换 (NAT) 防火墙、HTTP 代理或互联网网关的外部 IP 地址。Target 不会存储用户的任何 IP 地址或任何个人身份信息 (PII)。IP 地址仅在会话持续期间由 Target 使用（位于内存中，永不保留）。
 
-## 替换IP地址的最后八位字节 {#section_AE84EB0D7CE04E93B279B77732ADD61E}
+## 替换IP地址{#section_AE84EB0D7CE04E93B279B77732ADD61E}的最后八位字节
 
 Adobe 制定了新的“从设计着手保护隐私”(privacy by design) 设置，Adobe ClientCare 可以为 Adobe Target 启用该设置。启用此设置后，当 Adobe 收集 IP 地址时，该 IP 地址的最后八位字节（最后一部分）会立即隐藏。此匿名化发生在 IP 地址的任何处理之前，包括在 IP 地址可选地理位置查询之前。
 
@@ -36,7 +36,7 @@ Adobe 制定了新的“从设计着手保护隐私”(privacy by design) 设置
 
 >[!NOTE]
 >
->[联系Adobe客户关怀](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，以确定您当前使用的设置或启用IP模糊化功能。
+>[联系Adobe客](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 户端服务，确定您当前使用的设置或启用IP模糊化功能。
 
 ## 地域划分 {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -44,7 +44,7 @@ Adobe 制定了新的“从设计着手保护隐私”(privacy by design) 设置
 
 如果对 IP 地址进行了完全模糊处理，则无法使用地域划分和地域定位。
 
-## Opt-out link {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## 退出链接{#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 您可以向网站添加选择退订链接，使访客可以选择退订所有计数和内容发送服务。
 
@@ -59,4 +59,4 @@ Adobe 制定了新的“从设计着手保护隐私”(privacy by design) 设置
 
 ## 隐私和数据保护法规
 
-See [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) for information about the European Union&#39;s General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
+请参阅[隐私和数据保护规定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)，了解有关欧洲合并的一般数据保护规定(GDPR)、加利福尼亚消费者隐私法(CCPA)和其他国际隐私要求以及这些规定如何影响您的组织和Adobe Target的信息。

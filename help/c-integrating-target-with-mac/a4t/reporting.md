@@ -14,69 +14,69 @@ ht-degree: 35%
 
 # A4T 报表{#a-t-reporting}
 
-Using [!DNL Analytics] as your reporting source for [!DNL Target] (A4T) gives you access to [!DNL Analytics] reports for your [!DNL Target] activities.
+使用[!DNL Analytics]作为[!DNL Target](A4T)的报告源，您可以访问[!DNL Target]活动的[!DNL Analytics]报告。
 
-You can view reports for your activities in both [!DNL Analytics] and [!DNL Target].
+您可以在[!DNL Analytics]和[!DNL Target]中视图活动的报告。
 
-For reporting best practices using [!DNL Analytics] for [!DNL Target], [visit this Adobe Spark page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+有关使用[!DNL Analytics][!DNL Target]的报告最佳实践，请访问此Adobe Spark页面](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。[
 
 ## 概述 {#section_035A62D65608423285D8A5A54731E2C5}
 
-Both [!DNL Analytics] and [!DNL Target] reports measure entrants (the people who enter the tests), rather than visitors to the site.
+[!DNL Analytics]和[!DNL Target]都会报告进入者（参加测试的人员），而不是网站的访客。
 
-Every time a visitor sees activity content on the page, [!DNL Target] makes a direct server-to-server call to [!DNL Analytics], including which activity and experience the visitor saw. [!DNL Target] 进行转 [!DNL Analytics] 换时也会进行调用。 [!DNL Analytics] 将转换添加为名为“事件转 [!DNL Analytics] 换”的特定新活动，该与由收集的其他数据一起跟踪 [!DNL Analytics]。
+每次访客看到页面上的活动内容时，[!DNL Target]都会对[!DNL Analytics]进行服务器到服务器的直接调用，包括访客看到的活动和体验。 [!DNL Target] 进行转 [!DNL Analytics] 换时也会进行调用。[!DNL Analytics] 将转换添加为名为“ [!DNL Analytics] 活动转换”的特定新事件，该与由收集的其他数据一起 [!DNL Analytics]跟踪。
 
-When the [!UICONTROL Select] operation is used and you sort on *Entrants*, then only experiences that received entrants during the selected time period are displayed in the reports.
+当使用[!UICONTROL Select]操作并对&#x200B;*进入者*&#x200B;进行排序时，报表中只显示在选定时间段内接收进入者的体验。
 
 >[!NOTE]
 >
->Reports powered by [!DNL Target] have a latency of four minutes. For activities powered by A4T, in both the [!DNL Target] and [!DNL Analytics] reports, it can take up to 24 hours after the activity is initially saved before the report data can be broken down by experiences. 在划分数据之前的这 24 小时内收集到的数据仍然准确，并且会被分配给正确的体验。
+>由[!DNL Target]提供支持的报告的延迟为4分钟。 对于由A4T支持的活动，在[!DNL Target]和[!DNL Analytics]报告中，最多可能需要24小时才能保存活动，然后才能按体验划分报告数据。 在划分数据之前的这 24 小时内收集到的数据仍然准确，并且会被分配给正确的体验。
 
 ## Analytics 中的报表 {#analytics}
 
-在中 [!DNL Analytics]，启用A4T集成后，有几个维度和指标可用。
+在[!DNL Analytics]中，启用A4T集成后有若干维和度量可用。
 
 ### 维度
 
-* [!UICONTROL 目标分析] -通过集成传入的父ID。 此维的格式为 `Activity ID:Experience ID:3rd ID`。 以下维是此维的分类。
+* [!UICONTROL 目标分析] -通过集成传入的父ID。此维的格式为`Activity ID:Experience ID:3rd ID`。 以下维是此维的分类。
 * [!UICONTROL Target 活动]
 * [!UICONTROL Target 体验]
 * [!UICONTROL 目标活动] >体 [!UICONTROL 验]
-* [!UICONTROL 第3个ID] —— 可忽略
+* [!UICONTROL 第3个ID]  —— 可忽略
 
 ### 量度
 
-* [!UICONTROL 活动印象] -匹配报 [!UICONTROL 表中的] “新进者 [!DNL Target] ”编号。
-* [!UICONTROL 活动转换] -匹配报 [!UICONTROL 表中的] “自定义转 [!DNL Target] 换”。
+* [!UICONTROL 活动印象] -与报  表中的入口 [!DNL Target] 号匹配。
+* [!UICONTROL 活动转换] -匹配报 [!UICONTROL 表] 中的自定义转 [!DNL Target] 换编号。
 
-在中 [!DNL Analysis Workspace]，使用“ [!UICONTROL 目标分析”面板] ，以提升并自信 [!DNL Target] 地分析活动和体验。 有关详细信息，请 [参阅《Analytics工具指南》中的“目标分析(A4T](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) ) *面板”*。
+在[!DNL Analysis Workspace]中，使用[!UICONTROL 目标分析]面板以提升和自信的方式分析您的[!DNL Target]活动和体验。 有关详细信息，请参阅&#x200B;*分析工具指南*&#x200B;中的[目标分析(A4T)面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html)。
 
 >[!IMPORTANT]
 >
->If your [!UICONTROL Target Activities] report in [!DNL Analytics] lists &quot;unspecified&quot; instead of listing your activities, an update is required to your provisioned account. 请联系客户关怀团队以解决此问题。
+>如果您的[!UICONTROL 目标活动]报告在[!DNL Analytics]列表中为“未指定”，而不是列出您的活动，则需要对您的预配帐户进行更新。 请联系客户关怀团队以解决此问题。
 
-For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by Adobe Experience League.
+有关详细信息和示例，请打开[分析和目标:分析的最佳实践](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教程，由Adobe Experience League提供。
 
 ## Target 中的报表 {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
-When [!DNL Analytics] is used as the reporting source, reports in [!DNL Target] show the data gathered from [!DNL Analytics]. The report differs somewhat from other [!DNL Target] reports:
+当[!DNL Analytics]用作报告源时，[!DNL Target]中的报告显示从[!DNL Analytics]收集的数据。 报告与其他[!DNL Target]报告有所不同：
 
-* The [!UICONTROL Audiences] list shows the audiences available to your [!DNL Analytics] report suite.
-* The [!UICONTROL Metric] list shows every metric available through [!DNL Analytics].
+* [!UICONTROL 受众]列表显示可用于[!DNL Analytics]报表包的受众。
+* [!UICONTROL 度量]列表显示通过[!DNL Analytics]可用的每个度量。
 
-   Every metric is available, including any custom or calculated metrics that are built-in in [!DNL Analytics].
+   每个指标都可用，包括[!DNL Analytics]中内置的任何自定义或计算指标。
 
    请注意，在报表中，任何增大的数字都显示为正值，即使增大的数字实际上并不是所需的结果也是如此。例如，虽然您希望降低跳出率，但是较高的跳出率会显示为具有最高提升度的入选者。根据报表做出决策时，请留心这些量度及类似量度，并确定您是希望降低还是提高这些量度的数值。
 
-You can apply the metric or audience to the report in [!DNL Target] after the activity has started, or even after the test has completed. 您无需事先知晓要衡量的确切内容。
+在[!DNL Target]活动开始后，甚至在测试完成后，您都可以将度量或受众应用到报告。 您无需事先知晓要衡量的确切内容。
 
-Click to view the full [!DNL Analytics] report directly from the activity report page.
+单击直接从视图报告页面活动完整的[!DNL Analytics]报告。
 
 ## 活动创建 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
-在活动创建期间，您必须在“[!UICONTROL 设置]”页面中指定活动的目标。此目标将作为报表的默认量度并且在量度选择器中始终列为第一个选项。您将无法像设置常规 Target 活动的报表那样选择报表的区段。A test with [!DNL Analytics] uses [!DNL Adobe Analytics] segments rather than [!DNL Target] audiences.
+在活动创建期间，您必须在“[!UICONTROL 设置]”页面中指定活动的目标。此目标将作为报表的默认量度并且在量度选择器中始终列为第一个选项。您将无法像设置常规 Target 活动的报表那样选择报表的区段。使用[!DNL Analytics]的测试使用[!DNL Adobe Analytics]段，而不是[!DNL Target]受众。
 
-## Performing offline calculations for Analytics for Target (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
+## 为目标(A4T){#section_33A97A691F3A45D497DAF57A844388F0}执行Analytics的脱机计算
 
 您可以为 A4T 执行离线计算，但需要在 [!DNL Analytics] 中完成数据导出步骤。
 

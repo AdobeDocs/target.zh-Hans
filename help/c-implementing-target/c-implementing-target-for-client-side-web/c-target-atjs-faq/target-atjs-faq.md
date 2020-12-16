@@ -89,7 +89,7 @@ at.js 1.0.0 版本使您可以异步加载 Target 库。
 
 要异步加载 at.js，请执行以下操作：
 
-* 推荐的方法是通过标签管理器，例如 Adobe Launch 或 Adobe Dynamic Tag Manager (DTM)。See the [Add Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
+* 推荐的方法是通过标签管理器，例如 Adobe Launch 或 Adobe Dynamic Tag Manager (DTM)。有关详细信息，请参阅[在Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)网站中实施Experience Cloud教程的[添加Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)课程。
 * 您还可以通过向加载 at.js 的脚本标记中添加 async 属性来异步加载 at.js。您应使用如下代码：
 
    ```
@@ -109,7 +109,7 @@ at.js 1.0.0 版本使您可以异步加载 Target 库。
 
 您可以避免闪烁，方法是使用预先隐藏的代码片段先隐藏页面（或指定部分），然后在完全加载 at.js 和全局请求后再显示该页面。在加载 at.js 之前，必须先添加该代码片段。
 
-If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
+如果要通过异步启动实现部署at.js，请务必在启动嵌入代码之前将预隐藏的片段直接包含在您的页面上，如[在Web站点中使用启动教程](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)实现目标的[添加预隐藏片段](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet)一节中所述。
 
 如果要通过同步 DTM 实施部署 at.js，则可通过页面顶部触发的“页面加载”规则添加预先隐藏的代码片段。
 
@@ -223,7 +223,7 @@ HttpOnly 只能通过服务器端代码进行设置。Target Cookie（例如 mbo
 
 为确保 Target 能够正确跟踪用户，并且还由于 Cookie 是在客户端生成的，Target 不会使用这些标记中的任何一个。
 
-## at.js 多久触发一次网络请求？ {#section_57C5235DF7694AF093A845D73EABADFD}
+## at.js 多久触发一次网络请求？  {#section_57C5235DF7694AF093A845D73EABADFD}
 
 Adobe Target 可在服务器端执行其所有决策。这意味着每次重新加载页面或调用 at.js 公共 API 时，at.js 都会触发网络请求。
 
@@ -231,7 +231,7 @@ Adobe Target 可在服务器端执行其所有决策。这意味着每次重新�
 
 at.js 会试图避免长时间预先隐藏 HTML 主体或其他 DOM 元素，但这具体取决于网络条件和活动设置。at.js 会提供[设置](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)，您可以使用这些设置来自定义主体隐藏 CSS 样式，这样您可以预先隐藏页面的某些部分，而不清空整个 HTML 主体。预期的情况是这些部分包含必须进行“个性化”的 DOM 元素。
 
-## 在用户符合活动条件的一般场景中，事件的序列是怎样的？ {#section_56E6F448E901403FB77DF02F44C44452}
+## 在用户符合活动条件的一般场景中，事件的序列是怎样的？  {#section_56E6F448E901403FB77DF02F44C44452}
 
 由于 at.js 请求是异步 `XMLHttpRequest`，因此我们会执行以下步骤：
 
@@ -251,11 +251,11 @@ at.js 会试图避免长时间预先隐藏 HTML 主体或其他 DOM 元素，但
 
 at.js 不会阻止页面呈现。用户可能会注意到页面上有一些空白区域，这些区域表示元素将由 Target 进行自定义。如果要应用的内容未包含大量远程资产（例如 SCRIPT 或 IMG），则所有内容都应会快速呈现。
 
-## 已完全缓存的页面对上述情景有何影响？活动内容是否很可能会在页面的其他内容加载相当一段时间后才会显示？ {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
+## 已完全缓存的页面对上述情景有何影响？活动内容是否很可能会在页面的其他内容加载相当一段时间后才会显示？  {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
 如果页面缓存在靠近用户位置，但不在 Target 边缘附近的 CDN 上，则该用户可能会遇到一些延迟。Target 边缘会均匀分布在全局范围内，因此大多数情况下不会出现此问题。
 
-## 是否可以先显示主页图像，然后在短暂延迟后将其换掉？ {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
+## 是否可以先显示主页图像，然后在短暂延迟后将其换掉？  {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 请考虑以下情况：
 

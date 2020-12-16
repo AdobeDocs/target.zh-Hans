@@ -14,7 +14,7 @@ ht-degree: 66%
 
 # ![PREMIUM](/help/assets/premium.png) 创建标准{#create-criteria}
 
-Adobe Target [!UICONTROL 活动][!UICONTROL ·] Recommendations的条件 [!UICONTROL ，控制您Recommendations的] 内容。 可创建标准以显示最适合您的活动的推荐。这些条件使用访客的操作来确定要显示的内容或产品。
+[!UICONTROL Adobe Target][!UICONTROL Recommendations]中的标准控制您的[!UICONTROL Recommendations]活动的内容。 可创建标准以显示最适合您的活动的推荐。这些条件使用访客的操作来确定要显示的内容或产品。
 
 以下各节介绍如何创建新标准。
 
@@ -22,15 +22,15 @@ Adobe Target [!UICONTROL 活动][!UICONTROL ·] Recommendations的条件 [!UICON
 
 可通过多种方式来访问“[!UICONTROL 创建新标准]”屏幕。某些屏幕选项会根据您访问该屏幕的方式而有所不同。
 
-* On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. 您在此处创建的标准会自动设置为可用于所有 [!DNL Recommendations] 活动。
-* 当您使用可视体验 [!DNL Recommendations] 书写器(VEC)活动 [!UICONTROL 时，您会立即进入“Visual Experience Composer] (Visual Experience Composer [!UICONTROL )”屏幕，在选择Visual Experience Composer(VEC)后，单击“Deplace W/] Recommendations/InsereresetInserise Insert Insert Inse In Insert Inse Be Vide Vide Vide Inse BeSe Be Inser IneDes Inse Bite Vid In Ber Be Vid Inse Vid Ber Vid In In Inse Inse  Pro Pr   Co  然后，您可以选择可用的条件，也可以单击“创 **[!UICONTROL 建条件”]**。 如果创建了新标准，则可以选择保存标准以便与其他活动一起 [!DNL Recommendations] 使用。 For more information, see [Create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* 编辑 [!DNL Recommendations] 活动时，在页面上的[!UICONTROL 推荐位置]框中单击，然后选择&#x200B;**[!UICONTROL 更改标准]**。On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. 您将可以选择保存新建的标准，以供在其他 [!DNL Recommendations] 活动中使用。
+* 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 标准]**&#x200B;库屏幕上，单击&#x200B;**[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准]**。 您在此处创建的标准会自动设置为可用于所有 [!DNL Recommendations] 活动。
+* 当您使用[!UICONTROL 可视体验书写器](VEC)创建[!DNL Recommendations]活动时，在页面上选择元素并单击[!UICONTROL 替换w/Recommendations]、[!UICONTROL 在]之前插入Recommendations后，将立即转到[!UICONTROL 选择标准]屏幕。或[!UICONTROL 在]后插入Recommendations。 然后，您可以选择可用的条件，也可以单击&#x200B;**[!UICONTROL 创建条件]**。 如果创建新标准，则可以保存标准以用于其他[!DNL Recommendations]活动。 有关详细信息，请参阅[创建Recommendations活动](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+* 编辑 [!DNL Recommendations] 活动时，在页面上的[!UICONTROL 推荐位置]框中单击，然后选择&#x200B;**[!UICONTROL 更改标准]**。在[!UICONTROL 选择标准]屏幕上，单击&#x200B;**[!UICONTROL 创建标准]**。 您将可以选择保存新建的标准，以供在其他 [!DNL Recommendations] 活动中使用。
 
-以下步骤假定您使用第 [!UICONTROL 一种方法访问] “创建新条件”屏幕：“ **[!UICONTROL Recommendations]** > **[!UICONTROL 标准]** ”库屏幕。
+以下步骤假定您使用第一种方法访问[!UICONTROL 创建新条件]屏幕：**[!UICONTROL Recommendations]** > **[!UICONTROL 标准]**&#x200B;库屏幕。
 
-1. 单击 **[!UICONTROL Recommendations]** > **[!UICONTROL 标准]**。
+1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 标准]**。
 
-1. 单击 **[!UICONTROL 创建条件]** > **[!UICONTROL 创建条件]**。
+1. 单击&#x200B;**[!UICONTROL 创建条件]** > **[!UICONTROL 创建条件]**。
 
    ![创建新标准](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
@@ -78,7 +78,7 @@ Adobe Target [!UICONTROL 活动][!UICONTROL ·] Recommendations的条件 [!UICON
 
    >[!NOTE]
    >
-   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
+   >如果选择“**[!UICONTROL 项目]**/ **[!UICONTROL 具有相似属性的媒体]**”，则可以选择设置[内容相似性规则](#similarity)。
 
 ## 数据源 {#data-source}
 
@@ -98,37 +98,37 @@ Adobe Target [!UICONTROL 活动][!UICONTROL ·] Recommendations的条件 [!UICON
    * 一个月
    * 两个月
 
-1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
+1. （视情况而定）选择所需的&#x200B;**[!UICONTROL 行为数据源]**:[!UICONTROL mboxes]或[!UICONTROL Analytics]。
 
    >[!NOTE]
    >
-   >仅当 [!UICONTROL 您的实施使用] Analytics进行目标 [(A4T)时，才](/help/c-integrating-target-with-mac/a4t/a4t.md) 会显示“行为数据源”部分。
+   >[!UICONTROL 行为数据源]部分仅在实施对目标](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)使用[分析时才显示。
 
    ![“行为数据源”部分](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    如果您选择“[!UICONTROL Analytics]”，则还应选择所需的报表包。
 
-   If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria, as explained below:
+   如果条件使用[!DNL Adobe Analytics]作为行为数据源，则创建条件后，条件可用性的时间取决于选定的报表包和回顾窗口是否已用于任何其他条件，如下所述：
 
-   * **一次性报表包设置**：首次将报表包与给定数据范围回顾时间范围一起使用时，[!DNL Target Recommendations] 可能需要 2 到 7 天的时间才能从 [!DNL Analytics] 完全下载所选报表包的行为数据。This time frame is dependent on the [!DNL Analytics] system load.
+   * **一次性报表包设置**：首次将报表包与给定数据范围回顾时间范围一起使用时，[!DNL Target Recommendations] 可能需要 2 到 7 天的时间才能从 [!DNL Analytics] 完全下载所选报表包的行为数据。此时间帧取决于[!DNL Analytics]系统负载。
    * **使用已经可用的报表包新建或编辑标准**：在创建新标准或编辑现有标准时，如果所选报表包已经与 [!DNL Target Recommendations] 一起使用，并且其数据范围等于或小于所选的数据范围，则数据立即可用，而无需一次性设置。在这种情况下，或者如果在未修改所选报表包或数据范围的情况下对算法的设置进行编辑，则该算法将在 12 小时内运行或者重新运行。
    * **持续的算法运行**：数据每天从 [!DNL Analytics] 流向 [!DNL Target Recommendations]。例如，对于[!UICONTROL 已查看的亲和度]推荐，当用户查看产品时，产品查看跟踪调用将以近实时的方式传递到 [!DNL Analytics]。[!DNL Analytics] 数据会在第二天早些时候被推送到 [!DNL Target]，然后 [!DNL Target] 会在 12 小时内运行算法。
 
-   有关详细信息，请参阅将 [Adobe Analytics与目标Recommendations结合使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
+   有关详细信息，请参阅[将Adobe Analytics与目标Recommendations一起使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
 
 ## 内容 {#content}
 
-Content rules determine what happens if the number of recommended items does not fill your [recommendations design](/help/c-recommendations/c-design-overview/design-overview.md). It is possible for [!DNL Recommendations] criteria to return fewer recommendations than your design calls for. 例如，如果您的设计有四个项目的插槽，但条件仅导致推荐两个项目，则可以将其余插槽留空，也可以使用备份建议来填充额外的插槽。
+内容规则确定如果建议项目数未满足[推荐设计](/help/c-recommendations/c-design-overview/design-overview.md)，会发生什么情况。 [!DNL Recommendations]条件返回的建议数可能少于设计调用数。 例如，如果您的设计有四个项目的插槽，但条件仅导致推荐两个项目，则可以将其余插槽留空，也可以使用备份建议来填充额外的插槽。
 
 ![内容部分](/help/c-recommendations/c-algorithms/assets/content.png)
 
-1. （可选）将“部 **[!UICONTROL 分设计渲染]** ”切换滑至“开启”位置。
+1. （可选）将&#x200B;**[!UICONTROL 部分设计渲染]**&#x200B;切换到“开启”位置。
 
    将尽可能多地填充插槽，但设计模板可能包括剩余插槽的空白空间。 如果禁用此选项，且内容不足以填充所有可用插槽，则不提供建议，而是显示默认内容。
 
    如果希望推荐使用空的插槽，请启用此选项。 如果您希望推荐插槽中根据您的条件填充内容，而空插槽中填充了来自您网站的类似或热门内容，请使用备份推荐，如下一步所述。
 
-1. （可选）将“显 **[!UICONTROL 示备份Recommendations]** ”切换到“打开”位置。
+1. （可选）将&#x200B;**[!UICONTROL 显示备份Recommendations]**&#x200B;切换至“开启”位置。
 
    从您网站中随机选择查看次数最多的产品，填充设计中剩余的空白插槽。
 
@@ -136,9 +136,9 @@ Content rules determine what happens if the number of recommended items does not
 
    ![4 x 1设计](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   假设您的条件仅建议两个项目。 如果启用“部 [!UICONTROL 分设计渲染] ”选项，则前两个插槽已填满，但其余两个插槽仍为空。 但是，如果启用“显 [!UICONTROL 示备份Recommendations] ”选项，则前两个插槽将根据您指定的条件填充，其余两个插槽则根据您的备份建议填充。
+   假设您的条件仅建议两个项目。 如果启用[!UICONTROL 部分设计渲染]选项，则前两个插槽已填满，但其余两个插槽仍为空。 但是，如果启用“显示备份Recommendations[!UICONTROL ”选项，则前两个插槽将根据您指定的条件填充，其余两个插槽则根据您的备份建议填充。]
 
-   下面的矩阵显示了使用“部分设计渲染”和“备 [!UICONTROL 份Recommendations”选项] 时 [!UICONTROL 将观察到的] 结果：
+   下面的矩阵显示了使用[!UICONTROL 部分设计渲染]和[!UICONTROL 备份Recommendations]选项时将观察到的结果：
 
    | 局部设计渲染 | 备用 Recommendations | 结果 |
    |--- |--- |--- |
@@ -147,15 +147,15 @@ Content rules determine what happens if the number of recommended items does not
    | 启用 | 启用 | 备用推荐将填满可用的设计“版块”，从而完全渲染您的设计。<br>如果将包含规则应用于备用推荐时会限制符合条件的备用推荐的数量，以致于设计无法填满，则会局部渲染设计。<br>如果标准未返回任何推荐，并且包含规则将备用推荐限制为零，则设计将被替换为默认内容。 |
    | 禁用 | 启用 | 备用推荐将填满可用的设计“版块”，从而完全渲染您的设计。<br>如果将包含规则应用于备用推荐时会限制符合条件的备用推荐的数量，以致于设计无法填满，则设计将被替换为默认内容，并且不会显示任何推荐。 |
 
-   有关详细信息，请参 [阅使用备份建议](/help/c-recommendations/c-algorithms/backup-recs.md)。
+   有关详细信息，请参阅[使用备份建议](/help/c-recommendations/c-algorithms/backup-recs.md)。
 
-1. （视情况而定）如果您在上 **[!UICONTROL 一步中选择了]** “显示备份Recommendations” **[!UICONTROL ，则可以启用“应]**&#x200B;用包含规则”来备份建议。
+1. （视情况而定）如果您在上一步中选择了&#x200B;**[!UICONTROL 显示备份Recommendations]**，则可以启用&#x200B;**[!UICONTROL 将包含规则应用于备份建议]**。
 
    包含规则确定推荐中包含哪些项目。 可用的选项取决于您的垂直行业。
 
-   有关更多详细信息，请参阅 [在下面指定包含规则](#inclusion) 。
+   有关更多详细信息，请参阅  [请在下面指定](#inclusion) 包含规则。
 
-1. （可选）将“推荐 **[!UICONTROL 先前购买的项目]** ”滑动至“开启”位置。
+1. （可选）将&#x200B;**[!UICONTROL 推荐以前购买的项目]**&#x200B;滑动至“开启”位置。
 
    此设置基于 `productPurchasedId`。默认行为是不推荐以前购买的项目。在大多数情况下，您不想促销客户最近购买的项目。如果您销售的是人们通常只买一次的物品，例如皮划艇，那么此选项很有用。如果您销售人们反复回来购买的物品，如洗发水或其他个人物品，您应启用此选项。
 
@@ -165,7 +165,7 @@ Content rules determine what happens if the number of recommended items does not
 
 >[!NOTE]
 >
->If you selected **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]** as your [recommendation logic](#info), you will have the option to set content similarity rules.
+>如果您选择&#x200B;**[!UICONTROL Items]**/ **[!UICONTROL 具有相似属性的媒体]**&#x200B;作为您的[推荐逻辑](#info)，您将可以选择设置内容相似性规则。
 
 内容相似度会比较项目属性关键字，并根据不同项目共有的关键字数量进行推荐。基于内容相似度的推荐不需要过去的数据便可交付高效的结果。
 
@@ -221,7 +221,7 @@ Content rules determine what happens if the number of recommended items does not
    >
    >此选项限制了在推荐中显示的项目数。它不影响推荐在哪些页面上显示。要限制显示推荐的位置，请在体验编辑器中选择页面。
 
-For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+有关详细信息，请参阅[使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)。
 
 ## 属性权重 {#weighting}
 
@@ -251,7 +251,7 @@ For more information, see [Use dynamic and static inclusion rules](/help/c-recom
 
 如果您是在创建新的“[!UICONTROL 推荐]”活动或编辑现有活动，则默认情况下会选中&#x200B;**[!UICONTROL 保存标准供以后使用]**&#x200B;复选框。如果您不想在其他活动中使用该标准，请在保存前清除该复选框。
 
-## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
+## 培训视频：在Recommendations创建标准(12:33)![教程标记](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

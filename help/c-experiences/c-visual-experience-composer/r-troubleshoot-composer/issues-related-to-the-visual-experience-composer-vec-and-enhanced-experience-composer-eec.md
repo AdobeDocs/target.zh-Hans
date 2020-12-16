@@ -16,17 +16,17 @@ ht-degree: 69%
 
 在某些情况下，显示问题和其他问题有时会在Visual Experience Composer(VEC)和Enhanced Experience Composer(EEC)中出现。
 
-## 最近发布的Google Chrome SameSite cookie实施策略对VEC和EEC有何影响？ {#samesite}
+## 最近发布的Google Chrome SameSite cookie实施策略对VEC和EEC有何影响？{#samesite}
 
 使用Chrome 80+浏览器版本的所有用户，通过最新更改（2020年8月）:
 
-* 将 *无法* 在其站点的受密码保护的页面中使用VEC（安装或未启用VEC Helper扩展）。 这是因为他们的站点登录Cookie将被视为第三方Cookie，并且不会随登录请求一起发送。 唯一的例外情况是客户站点登录Cookie已将SameSite参数设置为“none”。
-* 编 *辑活动* 时 [!DNL Target] （当站点上尚未下载库时）将无法下载库。 这是因为下载调用是从客户域向安全Adobe域发出的，并且作为未验证而被拒绝。
-* EEC对所 *有用户* 都不起作用，因为它无法为上的cookie设置SameSite属性 `adobemc.com domain`。 如果没有此属性，浏览器将拒绝这些Cookie，导致EEC失败。
+* *不*&#x200B;能够在其站点的受密码保护的页面中使用VEC（安装或未启用VEC Helper扩展）。 这是因为他们的站点登录Cookie将被视为第三方Cookie，并且不会随登录请求一起发送。 唯一的例外情况是客户站点登录Cookie已将SameSite参数设置为“none”。
+* 在编辑活动时（当站点上尚未提供库时）,*是否*&#x200B;能够下载[!DNL Target]库。 这是因为下载调用是从客户域向安全Adobe域发出的，并且作为未验证而被拒绝。
+* EEC将&#x200B;*不*&#x200B;对所有用户起作用，因为它无法为`adobemc.com domain`上的cookie设置SameSite属性。 如果没有此属性，浏览器将拒绝这些Cookie，导致EEC失败。
 
-Adobe已将更新的VEC帮助程序扩展提交到Google Chrome商店。 此扩展会覆盖cookie属性，以根据需要 `SameSite="none"` 设置属性。 更新 [的扩展可在此处找到](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。 有关安装和使用VEC Helper Extension的详细信息，请参 [阅Visual Experience Composer帮助扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
+Adobe已将更新的VEC帮助程序扩展提交到Google Chrome商店。 此扩展覆盖cookie属性以根据需要设置`SameSite="none"`属性。 [更新的扩展可在此](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)找到。 有关安装和使用VEC Helper Extension的详细信息，请参阅[Visual Experience Composer帮助程序扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
-对于您自己的网站Cookie，您必须按名称指定Cookie。 将Cookie [!UICONTROL 滑块] 切换到开启位置，然后按名称和Cookie域指定Cookie。 Cookie名称为“mbox”,Cookie域是您为mbox提供服务的域的第二级和顶级。 由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`. 有关详细信息，请参 [阅《Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) 界面 *用户指南》中的Experience CloudCookie*。
+对于您自己的网站Cookie，您必须按名称指定Cookie。 将[!UICONTROL Cookie]滑块切换到开启位置，然后按名称和cookie域指定cookie。 Cookie名称为“mbox”,Cookie域是您为mbox提供服务的域的第二级和顶级。 由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`. 有关详细信息，请参阅&#x200B;*Experience Cloud界面用户指南*&#x200B;中的[Adobe TargetCookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)。
 
 ![Cookie在VEC帮助程序扩展中切换](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -34,13 +34,13 @@ Adobe已将更新的VEC帮助程序扩展提交到Google Chrome商店。 此扩�
 
 使用以下选项之一确保您的VEC和EEC继续按预期工作：
 
-* 下载并使用更新 [的VEC Helper扩展](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
+* 下载并使用更新的[VEC Helper extension](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
 * 使用Mozilla Firefox浏览器。 Firefox尚未执行此政策。
-* 继续使用Chrome，但将标 `chrome://flags/#same-site-by-default-cookies` 志设置为“禁用”。
+* 继续使用Chrome，但将`chrome://flags/#same-site-by-default-cookies`标志设置为“Disabled”。
 
    >[!NOTE]
    >
-   >如果 *Cookie* 已将服务器的SameSite属性设置为“Lax”或“Strict”，则这是不够的。
+   >如果Cookie已将服务器的SameSite属性设置为“Lax”或“Strict”，则这将不足以&#x200B;**。
 
 ## Target 是否支持多级 iframe？
 
@@ -93,7 +93,7 @@ Target 不支持多级 iframe。如果您的网站加载的 iframe 具有子 ifr
 
 ## 我无法编辑防 iFrame 嵌套网站的体验。（VEC 和 EEC）{#section_9FE266B964314F2EB75604B4D7047200}
 
-启用增强型体验编辑器即可解决此问题。Click **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, then select the check box that enables the Enhanced Experience Composer. 增强型体验编辑器使用 Adobe 管理的代理来加载页面以进行编辑。这允许在防 iFrame 嵌套的网站，以及尚未添加 Adobe Target 代码的网站和页面上进行编辑。在添加代码之前，活动不会向网站交付内容。有些网站可能无法通过增强型体验编辑器来加载，在这种情况下，您可以取消选中此选项以通过 iFrame 加载可视化体验编辑器。[]
+启用增强型体验编辑器即可解决此问题。单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视体验书写器]**，然后选中启用增强体验书写器的复选框。 增强型体验编辑器使用 Adobe 管理的代理来加载页面以进行编辑。这允许在防 iFrame 嵌套的网站，以及尚未添加 Adobe Target 代码的网站和页面上进行编辑。在添加代码之前，活动不会向网站交付内容。有些网站可能无法通过增强型体验编辑器来加载，在这种情况下，您可以取消选中此选项以通过 iFrame 加载可视化体验编辑器。[]
 
 >[!NOTE]
 >

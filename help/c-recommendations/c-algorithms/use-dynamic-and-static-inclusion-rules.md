@@ -15,7 +15,7 @@ ht-degree: 39%
 
 # ![PREMIUM](/help/assets/premium.png) 使用动态和静态包含规则{#use-dynamic-and-static-inclusion-rules}
 
-Information about creating inclusion rules for criteria and promotions in [!DNL Adobe Target] and adding additional dynamic or static filtering rules to achieve better results for your recommendations.
+有关在[!DNL Adobe Target]中为条件和促销创建包含规则以及添加其他动态或静态筛选规则以更好地实现推荐的信息。
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Information about creating inclusion rules for criteria and promotions in [!DNL 
 
 ## 筛选类型 {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-以下部分列表了条件和促销的“动态 [!UICONTROL 筛选][!UICONTROL ”和“按值筛选] ”的筛选选项类型：
+以下各节列表了[!UICONTROL 动态筛选]和[!UICONTROL 按值筛选]的筛选选项类型，包括条件和促销：
 
 ### 动态筛选
 
@@ -55,9 +55,9 @@ Information about creating inclusion rules for criteria and promotions in [!DNL 
 
 | 动态筛选选项 | 详细信息 |
 | --- | --- |
-| [实体属性匹配](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | 通过将潜在推荐项目池与用户已交互的特定项目进行比较，动态筛选。<br>如果  要显示最可能吸引访客(如访客喜爱的品牌)的推荐，请使用“实体属性匹配”。 |
-| [配置文件属性匹配](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | 通过比较项目（实体）与用户用户档案中的值来动态筛选。<br>如  果要显示与访客用户档案中存储的值（如大小或喜爱的品牌）匹配的推荐，请使用用户档案属性匹配。 |
-| [参数匹配](/help/c-recommendations/c-algorithms/parameter-matching.md) | 通过比较项（实体）与请求（API或mbox）中的值来动态筛选。<br>使 [!UICONTROL 用参数匹配] ，推荐与页面参数或访客的参数（如设备尺寸或地理位置）匹配的内容。 |
+| [实体属性匹配](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | 通过将潜在推荐项目池与用户已交互的特定项目进行比较，动态筛选。<br>当您 [!UICONTROL 希望显] 示最有可能吸引访客(如访客喜爱的品牌)的推荐时，请使用实体属性匹配。 |
+| [配置文件属性匹配](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | 通过比较项目（实体）与用户用户档案中的值来动态筛选。<br>如果 [!UICONTROL 要显] 示与用户档案用户档案中存储的值（如大小或喜爱的品牌）匹配的推荐，请使用访客属性匹配。 |
+| [参数匹配](/help/c-recommendations/c-algorithms/parameter-matching.md) | 通过比较项（实体）与请求（API或mbox）中的值来动态筛选。<br>使用 [!UICONTROL 参] 数匹配可推荐与页面参数或访客的参数（如设备尺寸或地理位置）匹配的内容。 |
 
 ### 按值筛选
 
@@ -79,9 +79,9 @@ Information about creating inclusion rules for criteria and promotions in [!DNL 
 | 不等于 | 在动态促销中使用“不等于”运算符，当访客在您的网站（如产品、文章或电影）上查看项目时，您可以从以下位置提升其他项目：<ul><li>不同的电视连续剧</li><li>不同的类别</li><li>不同的产品系列</li><li>不同的风格 ID</li></ul> |
 | 介于 | 在动态促销中使用“介于”运算符，当访客在您的网站（如产品、文章或电影）上查看项目时，您可以提升以下项目：<ul><li>更贵</li><li>更便宜</li><li>费用高或低 30%</li><li>同一季的后续集数</li><li>一套书中之前出版的书</li></ul> |
 
-## Handling empty values when filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching {#section_7D30E04116DB47BEA6FF840A3424A4C8}
+## 按实体属性匹配、用户档案属性匹配和参数匹配{#section_7D30E04116DB47BEA6FF840A3424A4C8}筛选时处理空值
 
-You can choose several options to handle empty values when filtering by [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], and [!UICONTROL Parameter Matching] for exit criteria and promotions.
+通过[!UICONTROL 实体属性匹配]、[!UICONTROL 用户档案属性匹配]和[!UICONTROL 参数匹配]筛选退出条件和促销时，可以选择多个选项来处理空值。
 
 以前，如果值为空，则不会返回任何结果。如果标准包含空值，则“如果 *x* 为空”下拉列表允许您选择适当的操作，如下图所示：
 
@@ -91,16 +91,16 @@ You can choose several options to handle empty values when filtering by [!UICONT
 
 | 操作 | 适用选项 | 详细信息 |
 |--- |--- |--- |
-| [!UICONTROL 忽略此筛选规则] | [!UICONTROL 用户档案属性匹配][!UICONTROL 与参数匹配] | This is the default action for [!UICONTROL Profile Attribute Matching] and [!UICONTROL Parameter Matching].<br>该选项指定忽略该规则。例如，如果有三个筛选规则，第三个规则不传递任何值，则您只需忽略具有空值的第三个规则，而不是不返回任何结果。 |
-| [!UICONTROL 不显示此条件的任何结果]<br>（仅限条件） | [!UICONTROL 实体属性匹配]、 [!UICONTROL 用户档案属性匹配]、参 [!UICONTROL 数匹配] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target]此操作是 在添加此选项之前处理空值的方式：不显示此标准的结果。 |
-| [!UICONTROL 不提升任何项目<br>（仅限促销）] | [!UICONTROL 实体属性匹配]、 [!UICONTROL 用户档案属性匹配]、参 [!UICONTROL 数匹配] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target]此操作是 在添加此选项之前处理空值的方式：不显示此标准的结果。 |
+| [!UICONTROL 忽略此筛选规则] | [!UICONTROL 用户档案属性] [!UICONTROL 匹配与参数匹配] | 这是[!UICONTROL 用户档案属性匹配]和[!UICONTROL 参数匹配]的默认操作。<br>该选项指定忽略该规则。例如，如果有三个筛选规则，第三个规则不传递任何值，则您只需忽略具有空值的第三个规则，而不是不返回任何结果。 |
+| [!UICONTROL 不显示此条件的任何结果]<br>（仅限条件） | [!UICONTROL 实体属性匹配]、 [!UICONTROL 用户档案属性匹配]、参 [!UICONTROL 数匹配] | 这是[!UICONTROL 实体属性匹配]的默认操作。<br>[!DNL Target]此操作是 在添加此选项之前处理空值的方式：不显示此标准的结果。 |
+| [!UICONTROL 不提升任何项目<br>（仅限促销）] | [!UICONTROL 实体属性匹配]、 [!UICONTROL 用户档案属性匹配]、参 [!UICONTROL 数匹配] | 这是[!UICONTROL 实体属性匹配]的默认操作。<br>[!DNL Target]此操作是 在添加此选项之前处理空值的方式：不显示此标准的结果。 |
 | [!UICONTROL 使用静态值] | [!UICONTROL 实体属性匹配]、 [!UICONTROL 用户档案属性匹配]、参 [!UICONTROL 数匹配] | 如果值为空，您可以选择使用静态值。 |
 
 ## 注意事项 {#section_A889FAF794B7458CA074DEE06DD0E345}
 
 >[!IMPORTANT]
 >
->在运行时，不同的数据类型属性可能在动态标准或促销活动中与“等于”和“不等于”运算符不兼容。You should use [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory], and [!UICONTROL Environment] values wisely on the right hand side if the left hand side has predefined attributes or custom attributes.
+>在运行时，不同的数据类型属性可能在动态标准或促销活动中与“等于”和“不等于”运算符不兼容。如果左侧具有预定义属性或自定义属性，则应在右侧明智地使用[!UICONTROL Value]、[!UICONTROL Margin]、[!UICONTROL Inventory]和[!UICONTROL 环境]值。
 
 ![](assets/left_right.png)
 

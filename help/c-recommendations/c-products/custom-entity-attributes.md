@@ -15,7 +15,7 @@ ht-degree: 90%
 
 # ![PREMIUM](/help/assets/premium.png) 自定义实体属性{#custom-entity-attributes}
 
-Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recommendations] to define additional information about items in your catalog.
+使用[!DNL Adobe Target Recommendations]中的单值和多值自定义实体属性定义有关目录中项目的其他信息。
 
 ## 限制 {#limits}
 
@@ -25,7 +25,7 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 
 多值实体自定义属性最多可以包含 500 个值。每个值的限制为 100 个字符。所有值的字符总数必须符合单值实体自定义属性的最大长度限制（请参阅上文）。
 
-## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
+## 自定义实体属性值{#section_313331A9F8194A89B5EDD89363018651}
 
 自定义实体属性可以包含单个值或多个值。实体属性值会显示在产品视图中。
 
@@ -61,7 +61,7 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 * 数组必须包含单值类型。不支持混合值数组 ( `["AB",1,true]` )。
 * 包含嵌套 JSON 数组 ( `[10,12,[1,2,3]]` ) 的多值属性会被视为单值属性。
 
-## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## 实现多值属性{#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 使用信息源 (CSV)、`targetPageParams`、交付 API 和保存实体 API 上传产品时，支持多值自定义实体属性。新值会替换当前值，而不进行附加。空数组 ( [] ) 会被视为没有值。
 
@@ -127,9 +127,9 @@ function targetPageParams() {
   }
 ```
 
-See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about using the Delivery and Save entities APIs.
+有关使用投放和保存实体API的信息，请参阅[Adobe RecommendationsAPI文档](http://developers.adobetarget.com/api/recommendations)。
 
-## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
+## 使用具有多值属性{#section_83C2288A805242D9A02EBC4F07DEE945}的运算符
 
 在算法包含规则、目录规则和排除规则中将运算符应用于多值自定义属性时，如果列表中至少有一个值符合运算规则（布尔运算“或”**），则结果将为 *true*。
 
@@ -150,7 +150,7 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 * 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值等于 `abc`。
 * 用例 2：`entity.genre = ["abc", "de", "ef"]`结果为 true，因为有一个值等于 `abc`。
-* Case 3: `entity.genre = ["abcde", "de", "ef"]`. 结果为 false，因为 `abc` 不等于列表中的任何元素。
+* 案例3:`entity.genre = ["abcde", "de", "ef"]`。 结果为 false，因为 `abc` 不等于列表中的任何元素。
 
 ### 不等于
 
@@ -160,7 +160,7 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 * 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 true，因为没有值等于 `abc`。
 * 用例 2：`entity.genre = ["abc", "de", "ef"]`结果为 false，因为有一个值等于 `abc`。
-* Case 3: `entity.genre = ["abcde", "de", "ef"]`. 结果为 true，因为 `abc` 不等于列表中的任何元素。
+* 案例3:`entity.genre = ["abcde", "de", "ef"]`。 结果为 true，因为 `abc` 不等于列表中的任何元素。
 
 ### 包含
 
@@ -188,7 +188,7 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 * 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值开始于 `abc`。
 * 用例 2：`entity.genre = ["abcde", "de", "ef"]`结果为 true，因为有一个值开始于 `abc`。
-* Case 3: `entity.genre = ["ab", "de", "abc"]`. 结果为 true，因为有一个值开始于 `abc`（不一定是列表中的第一个元素）。
+* 案例3:`entity.genre = ["ab", "de", "abc"]`。 结果为 true，因为有一个值开始于 `abc`（不一定是列表中的第一个元素）。
 
 ### 结束于
 
@@ -252,7 +252,7 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 >
 >*双精度类型*&#x200B;是一种 Java 数据类型。对于需要使用数字值的运算符，转换为双精度类型可避免在结果中考虑非数字值。
 
-## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## 设计{#section_F672E4F6E1D44B3196B7ADE89334ED4A}中的多值属性
 
 多值属性在设计中引用时显示为以逗号分隔的列表。
 

@@ -14,7 +14,7 @@ ht-degree: 36%
 
 # 活动设置 - A4T 常见问题解答
 
-This topic contains answers to questions that are frequently asked about activity setup and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
+本主题包含有关活动设置和使用[!DNL Analytics]作为[!DNL Target](A4T)的报告源时经常询问的问题的解答。
 
 ## 哪些活动类型支持将 Analytics 作为报表源 (A4T)？{#section_5E4F58CD25A5424E869E6FE0803968EF}
 
@@ -22,26 +22,26 @@ This topic contains answers to questions that are frequently asked about activit
 
 ## 在配置我的目标模型时，为什么无法访问高级设置？
 
-对于使用 [!DNL Analytics] 作为活动源(A4T)的报告，目标度量将始终使用“[!UICONTROL 增量计数并保持活动中的用户]”和“[!UICONTROL 每次印象]”设置。 这是不可 *配置的* 。
+对于使用[!DNL Analytics]作为活动源(A4T)的报告，目标度量将始终使用“[!UICONTROL 增量计数和保持用户活动]”和“[!UICONTROL 每次印象]”设置。 这是&#x200B;*不可配置的。*
 
-有关详细信息，请参阅“配置目标模型时，为什么无法访问高级设置选项？” in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
+有关详细信息，请参阅“配置目标模型时，为什么无法访问高级设置选项？” 在[度量定义- A4T常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)中。
 
 ## 我刚刚创建了一个活动。但是为何看不到任何数据？ {#section_9F8092BE4225442896F926540292F221}
 
-When an activity is created, [!DNL Target] sends a classification file to [!DNL Analytics]. Although [!DNL Analytics] is capturing the and processing the data, it does not show in the reports until the classification file has been updated. 该过程最长可能需要 24 小时。如果 48 小时后您还没有看到数据，请[联系客户关怀团队](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。或者，如果您知道自己将启动某个活动，您可以提前几天创建该活动，在保存该活动后，便会发送分类。这样一来，数据在活动启动时就会显示在报表中。Please note that it takes 45-90 minutes for data to be processed in [!DNL Analytics].
+创建活动时，[!DNL Target]会向[!DNL Analytics]发送分类文件。 尽管[!DNL Analytics]正在捕获和处理数据，但直到更新分类文件后，才会显示在报告中。 该过程最长可能需要 24 小时。如果 48 小时后您还没有看到数据，请[联系客户关怀团队](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。或者，如果您知道自己将启动某个活动，您可以提前几天创建该活动，在保存该活动后，便会发送分类。这样一来，数据在活动启动时就会显示在报表中。请注意，在[!DNL Analytics]中处理数据需要45-90分钟。
 
 ## 创建新活动时，我为何不能选择 Analytics 作为报表源？{#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-You can change your [!UICONTROL Reporting Settings] options in [!UICONTROL Administration].
+可以在[!UICONTROL 管理]中更改[!UICONTROL 报告设置]选项。
 
-1. 在中， [!DNL Target]单击“ **[!UICONTROL 管理”]**。
+1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL 管理]**。
 1. 在&#x200B;**[!UICONTROL 用于报表的 Experience Cloud 解决方案]**&#x200B;下拉列表中，单击&#x200B;**[!UICONTROL 为每个活动选择]**。
 
 ![](assets/select-per-activity.png)
 
 随即会在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;屏幕中启用&#x200B;**[!UICONTROL 报表源]**&#x200B;下拉列表，以用于创建和编辑活动。
 
-To always use [!DNL Analytics] as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in [!UICONTROL Administration].
+要始终使用[!DNL Analytics]作为报告源，请从[!UICONTROL 管理]的下拉列表中选择&#x200B;**[!UICONTROL Adobe Analytics]**。
 
 ## 在使用A4T的自动访客活动中，是否可以在不同访问中的目标体验和受控体验之间切换？
 

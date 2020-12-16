@@ -20,8 +20,8 @@ ht-degree: 57%
 
 * **[使用 Adobe Launch 实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)**：Launch 是 Adobe 的下一代标签管理平台，是实施 Adobe Target 的首选方法。Launch 为客户提供了一种简单的方式来部署和管理所有用来加强相关客户体验的分析、营销和广告标签。
 * **[不通过标签管理器实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)**：您可以在不使用标签管理器（Adobe Launch 或动态标签管理）的情况下实施 Adobe Target。
-* **[使用动态标签管理实施目标](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)**:您可以使用Adobe动态标签管理(DTM)(Adobe的传统标签管理器)来实施目标。 Adobe Launch 是实施 Target 和 at.js 库的最新首选方法。对于新的 Target 实施，请使用 Launch。
-* **使用第三方标签管理器实施目标**: [Adobe启动](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) ，是实施目标的首选方法；但是，您也可以使用第三方标签管理器来实施目标，如Tealium、Ensighten、Google标签等。 有关使用Launch的列表优势，请参 [阅使用目标Launch扩展实施at.js的优势](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#section_48B3F938B6F8491DAF798E0DB54EF304)。
+* **[使用动态标签管理实施目标](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)**:您可以使用Adobe动态标签管理(DTM)(Adobe的传统标签管理器)来实施目标。Adobe Launch 是实施 Target 和 at.js 库的最新首选方法。对于新的 Target 实施，请使用 Launch。
+* **使用第三方标签管理器实施目标**: [Adobe](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 启动是实现目标的首选方法；但是，您也可以使用第三方标签管理器来实施目标，如Tealium、Ensighten、Google标签等。有关使用Launch的列表优势，请参阅[使用目标启动扩展](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#section_48B3F938B6F8491DAF798E0DB54EF304)实施at.js的优势。
 
    但是，如果您知道如何在没有标签管理器的情况下实现目标，则可以使用第三方标签管理器轻松实现，而不是在站点代码中硬编码at.js。
 

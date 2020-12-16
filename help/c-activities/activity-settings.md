@@ -25,9 +25,9 @@ ht-degree: 90%
 
    如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。
 
-   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+   如果在[!UICONTROL 管理] > [!UICONTROL 报告]中未启用此选项（默认），请指定优先级：低、中或高。
 
-   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
+   要启用细粒度优先级，请单击[!UICONTROL 管理] > [!UICONTROL 报告]，然后将[!UICONTROL 启用细粒度优先级]选项切换到“开启”位置。
 
    如果已启用此选项，请指定一个介于 0 到 999 之间值：
 
@@ -56,7 +56,7 @@ ht-degree: 90%
 * [多变量测试](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [推荐](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## 培训视频：活动设置 ![教程徽章](/help/assets/tutorial.png)
+## 培训视频：活动设置  ![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关活动设置的信息。
 

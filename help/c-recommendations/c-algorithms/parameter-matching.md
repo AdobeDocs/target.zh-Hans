@@ -12,7 +12,7 @@ ht-degree: 10%
 ---
 
 
-# ![PREMIUM参数](/help/assets/premium.png) 匹配
+# ![PREMIUMParameter](/help/assets/premium.png) 匹配
 
 通过比较项（实体）与请求（API或mbox）中的值来动态筛选。
 
@@ -33,9 +33,9 @@ ht-degree: 10%
 
 ## 参数匹配示例
 
-[!UICONTROL 参数匹配] 允许您推荐与页面参数或访客参数（如设备尺寸或地理位置）匹配的内容，如以下示例所示：
+[!UICONTROL 参] 数匹配允许您推荐与页面参数或访客参数（如设备尺寸或地理位置）匹配的内容，如以下示例所示：
 
-[!DNL Recommendations] 可以匹配调用中发送的参 [!DNL Target] 数值。 在此实例中 [!DNL Target] ，根据调用中发送的屏幕高度和宽度参数检测访客是否正在使用移动设备，并只 [!DNL Target] 推荐移动设备项目。
+[!DNL Recommendations] 可以匹配在调用中发送的参 [!DNL Target] 数值。在此实例中，[!DNL Target]根据在[!DNL Target]调用中发送的屏幕高度和宽度参数检测访客是否正在使用移动设备，并将仅推荐移动设备项。
 
 请考虑以下示例目标调用：
 

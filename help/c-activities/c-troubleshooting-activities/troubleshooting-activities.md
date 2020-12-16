@@ -78,7 +78,7 @@ ht-degree: 79%
 作为用户添加到 Target 后，您需要拥有“审批者”角色才能创建活动。
 
 * 请求您的帐户管理员将您设为“审批者”。
-* If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
+* 如果您是管理员，请在目标中为您自己提供&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 用户]**&#x200B;的审批者角色。
 
    请参阅[为您自己分配“审批者”角色](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
@@ -137,10 +137,10 @@ ht-degree: 79%
 * 重新删除。显示成功删除消息。
 * 等待大约 10 分钟，以使 Target Standard/Premium 导入程序运行。导入程序会更新配置文件脚本列表。
 
-## Some ajax [!DNL Target] calls are not working.
+## 某些ajax [!DNL Target]调用无效。
 
-**注意：** 使用相同 [!DNL Target] 名称但不同参数的多个ajax调用将不能在同一页面上工作。 只有第一个调用可以运行。
+**注意：** 在同 [!DNL Target] 一页面上，使用相同名称但不同参数的多个ajax调用将无法工作。只有第一个调用可以运行。
 
-## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
+## 您使用活动API激活了目标，但活动在目标UI中显示状态为[!UICONTROL 非活动]。
 
 执行某些操作（例如使用 Target API 在 UI 外部激活活动）时，更新可能最多需要 10 分钟才能传播到 UI 中。

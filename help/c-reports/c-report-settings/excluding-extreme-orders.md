@@ -14,7 +14,7 @@ ht-degree: 73%
 
 # 排除极端值
 
-You can exclude extreme values from affecting reports in [!DNL Adobe Target] so a few unusual orders don&#39;t affect your activity results. 例如，与个人购买者购买个人制服相比，一位教练为整个团队购买统一制服可能会产生一个超常订单。
+您可以排除影响[!DNL Adobe Target]中的报表的极值，这样少数不寻常的订单不会影响您的活动结果。 例如，与个人购买者购买个人制服相比，一位教练为整个团队购买统一制服可能会产生一个超常订单。
 
 >[!NOTE]
 >
@@ -26,14 +26,14 @@ You can exclude extreme values from affecting reports in [!DNL Adobe Target] so 
 
 例如，使用 RPV 时，极端值筛选器往往很有用。RPV 结合了转化率和平均订单值，并且通常会暴露这些量度的不稳定性。如果您使用 RPV 并确定这些订单显现出未被正常分配的状态，则在应用超常订单筛选器时可能会看到更正常的结果。
 
-如果某个值被标记为极端值，则其订单值会被替换为上个月体验的平均订单值（排除极端值后计算出来的平均值）。The order is also marked as extreme in the [!UICONTROL Order Details] report and in the CSV download for daily results.
+如果某个值被标记为极端值，则其订单值会被替换为上个月体验的平均订单值（排除极端值后计算出来的平均值）。在[!UICONTROL 订单详细信息]报告和CSV下载中，订单也标记为“极端”以获取每日结果。
 
 **要从报表中排除极端值，请执行以下操作：**
 
 1. 打开包含收入或参与度量度类型的活动，然后单击&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡。
-1. 单击齿轮图标以显示“ **[!UICONTROL 设置]** ”对话框。
+1. 单击齿轮图标以显示&#x200B;**[!UICONTROL 设置]**&#x200B;对话框。
 
    ![步骤结果](assets/exclude_extreme_values.png)
 
-1. 根据需 **[!UICONTROL 要，滑动]** “排除极值”切换至“开启”或“关闭”位置。
+1. 根据需要，滑动“排除极值”**[!UICONTROL 切换至“开启”或“关闭”位置。]**
 1. 单击&#x200B;**[!UICONTROL 保存]**。

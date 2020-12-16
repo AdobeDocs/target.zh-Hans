@@ -19,7 +19,7 @@ Adobe Mobile SDK 连接到 Target 服务器以获取内容和其他数据点，�
 
 *Target 位置*&#x200B;也称为 mbox。将会启用应用程序中的标识位置，以用于测试或个性化（例如，主页屏幕上的欢迎消息）。这些位置是在测试创建过程中标识的。
 
-A *[](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)*&#x200B;成功量度是指用户执行的用于标识特定活动是否成功的操作（例如注册、购买、订票等等）。
+*[](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)*&#x200B;成功量度是指用户执行的用于标识特定活动是否成功的操作（例如注册、购买、订票等等）。
 
 ![](assets/mobile-target-location.png)
 

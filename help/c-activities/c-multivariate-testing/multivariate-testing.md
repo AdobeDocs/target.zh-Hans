@@ -16,7 +16,7 @@ ht-degree: 91%
 
 [!DNL Adobe Target] 中的[!UICONTROL 多变量测试] (MVT) 可通过比较页面上各元素中的选件组合，来确定哪个组合对特定受众的效果最佳，以及哪个元素对活动成功的影响最大。
 
-## MVT overview {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
+## MVT概述{#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
 多变量测试可以帮助您发现特定元素与页面上的其他元素相比，对转化的相对影响。它还可以帮助您进一步完善已被证明是有效的元素组合。
 
@@ -32,7 +32,7 @@ ht-degree: 91%
 
 由于可能生成大量的组合，因此多变量测试需要的时间和流量多于 A/B 测试。页面必须获得足够的流量才能为每个体验产生具有统计意义的结果。要获得有用的结果，您需要了解页面接收的流量，并在适当的一段时间内测试最佳组合数以获得所需结果。Target 的[流量估算器](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)可以帮助您设计适用于您的流量的测试。在使用流量估算器之前，您应已拥有合适的统计数据，该数据可显示您的网站通常会收到的展示次数和转化次数。思考一下您每天的流量级别。活动中的体验越多，活动需要包含的流量就越多，或者活动需要运行的时间就越长。如果您获得的流量不多，则应减少测试的组合数量；否则，产生有意义的测试结果所需的时间可能会过长而导致结果无用。
 
-## MVT terminology {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
+## MVT术语{#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
 设置多变量测试时，了解一些基本术语会有帮助。
 
@@ -46,7 +46,7 @@ ht-degree: 91%
 
 **位置：**&#x200B;页面上的特定内容区域，通常包含在单个 DOM 元素内。在 MVT 方法中，有时将内容称为“因子”**。全因子多变量测试会比较您的位置中所有可能的选件组合。
 
-## When to use MVT vs A/B {#section_3D2B966B6671406C861A1843EA41D28C}
+## 何时使用MVT与A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
 多变量测试可与 A/B 测试结合使用以优化您的页面。您可以将它们结合使用的示例包括：
 
@@ -72,7 +72,7 @@ ht-degree: 91%
 
 ## 部分因数测试
 
-[!DNL Target] 提供全因子多变量测试作为内置活动选项。在统计学中，“实验设计”提供了多种方法或设计来确定哪些因素会影响结果。One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. 田口方法使营销人员能够制定一套假设，减少所需测试体验的排列数量，从而降低多变量测试的流量需求。在 [!DNL Target] 中，可以利用此[离线电子表格](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)来使用这种功能和测试方法。
+[!DNL Target] 提供全因子多变量测试作为内置活动选项。在统计学中，“实验设计”提供了多种方法或设计来确定哪些因素会影响结果。这种方法之一是[田口方法](https://en.wikipedia.org/wiki/Taguchi_methods)进行部分因数测试。 田口方法使营销人员能够制定一套假设，减少所需测试体验的排列数量，从而降低多变量测试的流量需求。在 [!DNL Target] 中，可以利用此[离线电子表格](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)来使用这种功能和测试方法。
 
 如果您的团队使用其他“实验设计”方法，则可以将此计算电子表格用作自定义实验设计的参考实施。
 
@@ -90,7 +90,7 @@ ht-degree: 91%
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 活动类型(9:03) ![概述徽章](/help/assets/overview.png)
+### 活动类型(9:03)![概述徽章](/help/assets/overview.png)
 
 此概述视频介绍了Target Standard/Premium中提供的活动类型。 对多变量测试的讨论开始于 4:20。
 
@@ -100,7 +100,7 @@ ht-degree: 91%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### 创建Multivariate Tests(9:25)教 ![程徽章](/help/assets/tutorial.png)
+### 创建Multivariate Tests(9:25)![Tutorial徽章](/help/assets/tutorial.png)
 
 本视频介绍如何了解和规划多变量测试，以及如何使用 Target 三步引导式工作流创建多变量测试。
 

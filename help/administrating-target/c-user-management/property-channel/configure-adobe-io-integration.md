@@ -22,7 +22,7 @@ ht-degree: 88%
 
 [!UICONTROL 企业权限]功能有助于跨团队高效地扩展优化程序。尽管该功能在 [!DNL Target] UI 中可用，但直到 2019 年年初管理员 API 一直缺少相应的支持。在 [!DNL Target] 2019 年 2 月版中，Adobe 更新了管理员 API，以便您可以使用集成帐户访问组织中创建的所有工作区。因此，尽管在以前版本中，管理员 API 限制为仅访问默认工作区，但是 2019 年 2 月的更新版授予了使用[!UICONTROL 审批者]访问权限访问所有工作区的访问权限。
 
-With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterprise Permissions] provides customers with the following access controls:
+在2019年9月的[!DNL Target]版本中，[!DNL Target] [!UICONTROL 企业权限]为客户提供以下访问控制:
 
 * 您可以选择可将集成应用到的工作空间
 * 您可以对 Adobe I/O 集成应用以下角色：[!UICONTROL 审批者]、[!UICONTROL 编辑者]或[!UICONTROL 观察者]。
@@ -42,7 +42,7 @@ With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterpr
 
 **要授予 Adobe I/O 集成访问工作区的权限并分配角色，请执行以下操作：**
 
-1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
+1. 打开&#x200B;**[Adobe Admin Console](https://adminconsole.adobe.com)**。
 
 1. 单击&#x200B;**[!UICONTROL 产品]**&#x200B;选项卡，然后选择所需产品的名称。
 

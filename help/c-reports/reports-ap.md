@@ -14,11 +14,11 @@ ht-degree: 68%
 
 # ![PREMIUM](/help/assets/premium.png) 自动个性化摘要报表{#automated-personalization-summary-reports}
 
-Specialized reports are available to users of [!UICONTROL Automated Personalization] activities in [!DNL Adobe Target].
+[!DNL Adobe Target]中的[!UICONTROL Automated Personalization]活动的用户可使用专门的报告。
 
 >[!NOTE]
 >
->[!UICONTROL 自动个性化]作为 [!DNL Target Premium] 解决方案的一部分提供。It is not included with [!DNL Target Standard] without a [Target Premium license](/help/c-intro/intro.md#premium).
+>[!UICONTROL 自动个性化]作为 [!DNL Target Premium] 解决方案的一部分提供。没有[目标高级许可证](/help/c-intro/intro.md#premium)，它不包含在[!DNL Target Standard]中。
 
 1. 单击&#x200B;**[!UICONTROL 活动]**，从列表中单击所需的[!UICONTROL 自动个性化]活动，然后单击&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡。
 
@@ -28,7 +28,7 @@ Specialized reports are available to users of [!UICONTROL Automated Personalizat
 
 [!UICONTROL 自动个性化]提供了以下报表：
 
-## Activity Level report {#section_6F72FC5C790B4492B3DCECBFFA971337}
+## 活动级别报告{#section_6F72FC5C790B4492B3DCECBFFA971337}
 
 [!UICONTROL 活动级别]的报表可将使用[!UICONTROL 自动个性化]算法的整体性能与使用随机提供内容（控制）的整体性能进行比较。
 
@@ -36,11 +36,11 @@ Specialized reports are available to users of [!UICONTROL Automated Personalizat
 
 用于解释 A/B 测试结果的标准规则仍然适用，包括提升度、置信度、趋势、持续时间等。有关结果解释的更多信息，请参阅[关于转化率](/help/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)。
 
-## Offer Level report {#section_CAA6409879E349C6906E2BE8156D87A1}
+## 优惠级别报告{#section_CAA6409879E349C6906E2BE8156D87A1}
 
 随机林体验的[!UICONTROL 选件级别]的报表可将每个应用了算法的选件与随机提供内容的同一选件（控制）进行比较。由此可见，此视图不会对选件进行相互比较。
 
-Click the experience algorithm (Random Forest or control) to view the [!UICONTROL Offer Level] report.
+单击体验算法（随机林或控制）以视图[!UICONTROL 优惠级别]报告。
 
 ![](assets/ap_OfferLevelRpt.png)
 
@@ -52,16 +52,16 @@ Click the experience algorithm (Random Forest or control) to view the [!UICONTRO
 
 ## 自动化区段
 
-单击“自 [!UICONTROL 动化区段] ”图标。 此报告显示不同访客对AP/AT活动中的优惠/体验的响应方式。 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。
+单击[!UICONTROL 自动化区段]图标。 此报告显示不同访客对AP/AT活动中的优惠/体验的响应方式。 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。
 
 ![自动细分图标](/help/c-reports/assets/icon-automated-sements-ap.png)
 
-有关详细信息，请参阅 [自动化细分报告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
+有关详细信息，请参阅[自动细分报告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
 
 ## 重要属性
 
-单击“重 [!UICONTROL 要属性] ”图标。 此报告显示不同活动中不同属性对模型决定如何个性化的重要性如何。 此报表可显示影响模型的排名靠前的属性及其相对重要性。
+单击[!UICONTROL 重要属性]图标。 此报告显示不同活动中不同属性对模型决定如何个性化的重要性如何。 此报表可显示影响模型的排名靠前的属性及其相对重要性。
 
 ![重要属性图标](/help/c-reports/assets/icon-important-attributes-ap.png)
 
-有关详细信息，请参阅 [重要属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
+有关详细信息，请参阅[重要属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。

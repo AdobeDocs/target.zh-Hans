@@ -16,11 +16,11 @@ ht-degree: 89%
 
 可使用实体属性，将产品或内容信息传递到 [!DNL Adobe Target Recommendations].
 
-[!DNL Recommendations] 发送 `productId` 算法 `productPurchasedId` 中使用的或 `entity.id` （在代码中称为）。
+[!DNL Recommendations] 发 `productId` 送 `productPurchasedId` 算法中使 `entity.id` 用的或（在代码中称为）。
 
 >[!NOTE]
 >
->* `entity.id` 必须与发送 `productPurchasedId` 到订单确认页面和在Adobe Analytics产品报 `productId` 告中使用的匹配。
+>* `entity.id` 必须与发送 `productPurchasedId` 到订单确认页面和在Adobe Analytics产 `productId` 品报告中使用的匹配。
    >
    >
 * 提供的实体属性值会在 61 天后过期。这意味着对于目录中的每个项目，应确保每月至少向 Target 推荐传递一次每个实体属性的最新值。
@@ -28,11 +28,11 @@ ht-degree: 89%
 
 大多数预定义的参数仅接受单个值，且新值会覆盖旧值。`categoryId` 参数可以接受以逗号分隔的，表示包含该产品的每个类别的值列表。新的 `categoryId` 值在实体更新期间不会覆盖现有值，而是会进行附加（250 个字符限制）。
 
-通常，如果您使用at.js 1，则显示信息mbox可能与以下示例类似。*x* with `mboxCreate`.
+通常，如果您使用at.js 1，则显示信息mbox可能与以下示例类似。** xwith `mboxCreate`。
 
 >[!NOTE]
 >
->* 如果您使用at.js 2。*x*, `mboxCreate` （如以下示例中所示）不再受支持。 使用at.js 2将产品或内容信息传递给Recommendations。*x*，使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。 有关此示例，请参阅计 [划和实施Recommendations](/help/c-recommendations/plan-implement.md)。
+>* 如果您使用at.js 2。*x*, `mboxCreate` （如以下示例中所示）不再受支持。使用at.js 2将产品或内容信息传递给Recommendations。*x*，使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。有关此示例，请参见[计划并实施Recommendations](/help/c-recommendations/plan-implement.md)。
 
 >
 

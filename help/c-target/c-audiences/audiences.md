@@ -18,7 +18,7 @@ Adobe Target 中的受众可决定将在定位活动中看到内容和体验的�
 
 不论在何处，只要可以使用定位，便会用到受众。对活动进行定位时，您可以从“[!UICONTROL 受众]”列表中选择可重复使用的受众、[创建特定于活动的受众](/help/c-target/creating-activity-only-audience.md)并定位到该受众，或[合并多个受众](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以创建临时受众。
 
-您还可以在 [!DNL Adobe Target] 及其他 [!DNL Experience Cloud] 解决方案中使用 [!DNL Analytics] 收集的受众数据进行实时定位和个性化。请参 [阅](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 《核心服 *务用户指南》中的受众*。
+您还可以在 [!DNL Adobe Target] 及其他 [!DNL Experience Cloud] 解决方案中使用 [!DNL Analytics] 收集的受众数据进行实时定位和个性化。请参阅&#x200B;*核心服务用户指南*&#x200B;中的[受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
 
 [!DNL Target] 定义了以下两种类型的受众：
 
@@ -40,7 +40,7 @@ Adobe Target 中的受众可决定将在定位活动中看到内容和体验的�
 * 如果在 AAM 中删除受众，则“[!UICONTROL 受众]”列表和受众选择器均会显示警告图标。UI 中的工具提示也会指示受众已在 AAM 中删除。
 * 如果您尝试将多个受众与已删除的受众合并，或者您想保存引用了已删除受众的活动，则会显示一条警告消息。
 
-您还可以定位自定义配置文件参数和 `user.` 参数。When adding an audience, click **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. 如果未显示所需的参数，则表明该参数尚未由 mbox 触发。“[!UICONTROL 自定义参数]”下拉列表中提供了其他自定义 mbox 参数。
+您还可以定位自定义配置文件参数和 `user.` 参数。添加受众时，单击&#x200B;**[!UICONTROL 添加规则]** > **[!UICONTROL 访客用户档案]**，然后选择要用于目标活动的参数。 如果未显示所需的参数，则表明该参数尚未由 mbox 触发。“[!UICONTROL 自定义参数]”下拉列表中提供了其他自定义 mbox 参数。
 
 可使用搜索框来搜索“[!UICONTROL 受众]”列表。您可以搜索受众名称的任意部分，或将特定字符串用引号引住。
 
@@ -81,7 +81,7 @@ Adobe Target 中的受众可决定将在定位活动中看到内容和体验的�
 * Target Standard/Premium 不再支持使用定位表达式受众。
 * Target Standard/Premium 不支持某些已弃用的受众，或改进了运算符以便于使用。因此，导入的受众虽然根据定义可以使用，但这并不意味着可以在 Standard/Premium 界面中创建该受众。例如，虽然社交受众及其规则是可见的，但 Target Standard/Premium 不允许创建社交受众。
 
-## 培训视频：使用受众 ![教程徽章](/help/assets/tutorial.png)
+## 培训视频：使用受众  ![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用受众的信息。
 

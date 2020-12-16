@@ -12,13 +12,13 @@ ht-degree: 71%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Auto-目标疑难解答和常见问题解答
+# ![Premiuma自](/help/assets/premium.png) 动目标疑难解答和常见问题解答
 
-有关自动目标的疑难解答和常 [!UICONTROL 见问题解答(FAQ] ) [!DNL Adobe Target]。
+有关[!UICONTROL [!DNL Adobe Target]中自动目标]的疑难解答和常见问题(FAQ)。
 
 ## 自动定位常见问题解答 {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-在使用自动目标活动时，请查 [!UICONTROL 阅以下常见问题解答] :
+使用[!UICONTROL 自动目标]活动时，请参阅以下常见问题解答和答案：
 
 ### 设置[!UICONTROL 自动定位]活动的最佳实践是什么？
 
@@ -72,14 +72,14 @@ No, check marks for model generation show only the models built to date. There's
 
 ### 我需要等待多久才能构建模型？{#how-long}
 
-The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
+在[!UICONTROL 自动目标]活动中建立模型所花费的时间通常取决于到所选活动位置的流量以及与您活动成功量度相关的转化率。
 
-[!UICONTROL 自动目标在] 50次以上的体验转化之前，不会尝试为特定体验构建个性化模型。 此外，如果所构建的模型质量不足(通过离线评估保留“测试” [数据，使用称为AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve))，则不会使用该模型以个性化方式为流量服务。
+[!UICONTROL Auto-Target] 不会尝试为特定体验构建个性化模型，直到该体验至少有50次转化。此外，如果所构建的模型质量不足（通过离线评估保留“测试”数据，使用[称为AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的度量来确定），则不会使用该模型以个性化方式服务流量。
 
-在自动目标的模型构建方 [!UICONTROL 面，还需]要牢记以下几点：
+还有一些关于[!UICONTROL 自动目标]的模型构建的注意事项：
 
-* 一旦活动处于 [!UICONTROL 实时状态] ，自动目标在尝试构建模型时会考虑最多45天随机提供的数据（即控制流量，以及我们算法保留的一些额外随机提供的数据）。
-* 当每 [!UICONTROL 次访问的收入] 是您的成功指标时，由于与转化率相比，访问收入中通常存在较高的数据差异，因此这些活动通常需要更多数据来构建模型。
+* 当活动处于实时状态时，[!UICONTROL 自动目标]在尝试构建模型时考虑最多45天的随机服务数据（即控制流量，以及我们的算法包含的一些额外随机服务数据）。
+* 当[!UICONTROL 每次访问的收入]是您的成功指标时，这些活动通常需要更多数据来构建模型，因为与转化率相比，访问收入中通常存在更高的数据差异。
 * 由于模型是基于每个体验构建的，因此将一个体验替换为另一个体验意味着必须为新体验收集足够的流量（即至少50个转化率），然后才能重新构建个性化模型。
 
 ### 我的活动中已构建一个模型。对该体验的访问是否为个性化的？
@@ -98,15 +98,15 @@ The length of time it takes for models to build in your [!UICONTROL Auto-Target]
 
 有关更多信息，请参阅[使用特定体验作为控制](/help/c-activities/t-automated-personalization/experience-as-control.md)。
 
-### 我是否可以在自动目标活动的中途更改目标度量？ {#change-metric}
+### 我是否可以在自动目标活动的中途更改目标度量？{#change-metric}
 
-我们不建议您在活动中途更改目标量度。 虽然可以在使用UI的活动中更改目标量度， [!DNL Target] 但您应始终开始新活动。 如果您在活动中更改目标量度后，该量度运行，我们不担保会发生什么情况。
+我们不建议您在活动中途更改目标量度。 虽然可以在使用[!DNL Target] UI的活动中更改目标度量，但您应始终开始新活动。 如果您在活动中更改目标量度后，该量度运行，我们不担保会发生什么情况。
 
-此建议适用于 [!UICONTROL 自动分配]、自 [!UICONTROL 动目标]、以及使 [!UICONTROL 用或(] A4T [!DNL Target] )作为报告源的 [!DNL Analytics] Automated Personalization活动。
+本建议适用于使用[!DNL Target]或[!DNL Analytics](A4T)作为报告源的[!UICONTROL 自动分配]、[!UICONTROL 自动目标]和[!UICONTROL Automated Personalization]活动。
 
 ### 在运行自动目标活动时，是否可以使用“重置报告数据”选项？
 
-不建议 [!UICONTROL 对自动目标][!UICONTROL 活动使] 用“重置报告数据”选项。 尽管它删除了可见的报告数据，但此选项并不会从自动目标模型 [!UICONTROL 中删除所有培训] 记录。 不要对自动 [!UICONTROL 目标活动] 使用“重置报告数 [!UICONTROL 据”选项] ，请创建新活动并取消激活原始活动。 (注：本指南还适用于 [!UICONTROL 自动分配] 和 [!UICONTROL Automated Personalization] 活动。)
+不建议对[!UICONTROL 自动目标]活动使用[!UICONTROL 重置报告数据]选项。 尽管它删除了可见的报告数据，但此选项并不删除[!UICONTROL 自动目标]模型中的所有培训记录。 对于[!UICONTROL 自动目标]活动，请不要使用[!UICONTROL 重置报告数据]选项，而是新建活动并取消激活原始活动。 (注：本指南还适用于[!UICONTROL 自动分配]和[!UICONTROL Automated Personalization]活动。)
 
 ## [!UICONTROL 自动定位]故障诊断 {#section_23995AB813F24525AF294D20A20875C8}
 

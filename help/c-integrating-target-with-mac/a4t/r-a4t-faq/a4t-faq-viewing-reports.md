@@ -14,54 +14,54 @@ ht-degree: 55%
 
 # 查看报表 - A4T 常见问题解答
 
-This topic contains answers to questions that are frequently asked about viewing reports when using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
+本主题包含有关在将[!DNL Analytics]用作[!DNL Target](A4T)的报告源时查看报告时常被问到的问题的解答。
 
-## Can I view my Target activity data in Analysis Workspace? {#workspace}
+## 能否在Analysis Workspace视图目标活动数据？{#workspace}
 
-您可以使 [!DNL Analysis Workspace] 用来分析 [!DNL Target] 活动和体验。 “目标 [分析”面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) ，您可以查看多达三个成功指标的提升度和信心。 您还可以使用表格和可视化功能更深入地了解。
+您可以使用[!DNL Analysis Workspace]分析[!DNL Target]的活动和体验。 [“目标分析”面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html)允许您查看多达三个成功指标的提升度和信心。 您还可以使用表格和可视化功能更深入地了解。
 
-For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
+有关详细信息和示例，请打开[分析和目标:分析教程的最佳实践](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)，由Adobe Experience League提供。
 
-## 在Analysis Workspace，可在何处应用细分？ {#segmentation}
+## 在Analysis Workspace，可在何处应用细分？{#segmentation}
 
 区段最常应用于区段拖放区域中面板的顶部。 该段将应用于面板中的所有表和可视化。 此技术对于查看测试如何影响一部分人（例如，此测试对英国人的表现如何）最有用？
 
-## 当我为特定目标活动应用点击区段时，为何会看到返回的不相关体验？ {#activity-segmentation}
+## 当我为特定目标活动应用点击区段时，为何会看到返回的不相关体验？{#activity-segmentation}
 
-发送到 [!DNL Target] 的 [!DNL Analytics] 变量具有 90 天的默认有效期。(注：到期期限可由客户服务部根据需要进行调整)。 当访客在此过期窗口中导航站点时，他们是许多的一部分 [!DNL Target] ，所有这些活动都在维中收集。
+发送到 [!DNL Target] 的 [!DNL Analytics] 变量具有 90 天的默认有效期。(注：到期期限可由客户服务部根据需要进行调整)。 当访客在此过期窗口中导航站点时，它们是许多[!DNL Target]活动的一部分，所有这些都收集在维中。
 
-因此，当您对活动进行细分以使其出现在点击中时，您将获得该活动的所有体验，以 *及* 任何坚持该点击的其他体验。
+因此，当您对活动进行细分以使其显示在点击中时，您将获得属于该活动&#x200B;*加上*&#x200B;的所有其他在该点击上持续的体验。
 
 ## 在配置我的目标模型时，为什么无法访问高级设置？
 
-对于使用 [!DNL Analytics] 作为活动源(A4T)的报告，目标度量将始终使用“[!UICONTROL 增量计数并保持活动中的用户]”和“[!UICONTROL 每次印象]”设置。 这是不可 *配置的* 。
+对于使用[!DNL Analytics]作为活动源(A4T)的报告，目标度量将始终使用“[!UICONTROL 增量计数和保持用户活动]”和“[!UICONTROL 每次印象]”设置。 这是&#x200B;*不可配置的。*
 
-有关详细信息，请参阅“配置目标模型时，为什么无法访问高级设置选项？” in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
+有关详细信息，请参阅“配置目标模型时，为什么无法访问高级设置选项？” 在[度量定义- A4T常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)中。
 
-## 我是否应将访客、访问或活动印象用作我的标准化指标（即计数方法）? {#metrics}
+## 我是否应将访客、访问或活动印象用作我的标准化指标（即计数方法）?{#metrics}
 
 在A4T报告中，有多种标准化指标的选项。 该指标也称为计数方法，成为提升计算的分母。 此外，它也会在应用置信度计算之前影响数据汇总的方式。
 
 * ***独特访客数***&#x200B;在用户首次符合活动条件时递增一次。
 * 每个会话的&#x200B;***访问次数***&#x200B;在用户（独特访客）进入活动时递增，即使该用户在后续访问中未查看该活动也是如此。
-* ***活动展示次数***&#x200B;在每次提供活动内容时递增。(按 [!DNL Target])。
+* ***活动展示次数***&#x200B;在每次提供活动内容时递增。（由[!DNL Target]测量）。
 
 当访客查看包含活动的页面时，系统会为该访客设置一个变量以包含该活动的名称。有关每种计数方法的比较方式，请参阅下面的详细情景。
 
 请考虑以下事项：
 
-* All of the above metrics trigger when a user qualifies for an activity and content is returned from [!DNL [!DNL Target]]. 这并不一定意味着用户查看了该选件。如果活动体验未显示且用户未向下滚动页面，则表示该选件由 [!DNL Target] 提供，但用户并未查看。
+* 当用户符合活动条件并从[!DNL [!DNL Target]]返回内容时，以上所有度量都会触发。 这并不一定意味着用户查看了该选件。如果活动体验未显示且用户未向下滚动页面，则表示该选件由 [!DNL Target] 提供，但用户并未查看。
 * 除非同一活动中的同一页面同时有多个 mbox 调用，否则“[!UICONTROL 活动展示次数]”（由 [!DNL Target] 测量）与“[!UICONTROL 实例数]”（由 [!DNL Analytics] 测量）相等。这会导致“[!UICONTROL 活动展示次数]”被计入多次，而“[!UICONTROL 实例]”只被计入一次。
 
-## 为什么Analysis Workspace的“活动印象”和“活动转化率”高于Reports &amp; Analytics? {#sametouch}
+## 为什么Analysis Workspace的“活动印象”和“活动转化率”高于Reports &amp; Analytics?{#sametouch}
 
 [!DNL Reports & Analytics] 对“活动印象”和“活动转换”应用同触归因模型，而 [!DNL Analysis Workspace] 显示原始指标，该指标可能因维的持久性而 [!DNL Target] 膨胀。
 
-To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. 可以通过单击列设置齿轮，启用[!UICONTROL 非默认归因模型]，然后选择[!UICONTROL 同一联系]来应用模型。了解有关属性IQ概 [述中归因的更多信息](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) ，请参 *阅《分析工具指南》*。
+要评估[!DNL Analysis Workspace]中准确的[!UICONTROL 活动印象]和[!UICONTROL 活动转换]指标，请确保这两个指标均应用了[!UICONTROL 相同的Touch]归因模型。 可以通过单击列设置齿轮，启用[!UICONTROL 非默认归因模型]，然后选择[!UICONTROL 同一联系]来应用模型。了解有关&#x200B;*分析工具指南*&#x200B;中[属性IQ概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html)中归因的更多信息。
 
 ## 如果营销人员在活动设置期间选择了一个 Analytics 量度，则“活动转化”意味着什么？{#section_F3EBACF85AF846E9B366A549AAB64356}
 
-&quot;Activity conversions&quot; will be empty if an [!DNL Analytics] metric was selected as the conversion metric for the activity.
+如果选择[!DNL Analytics]度量作为活动的转换度量，则“活动转换”将为空。
 
 ## 为什么我会在 Analytics 报表中看到“未指定”？这是什么意思？ {#unspecified}
 
@@ -73,13 +73,13 @@ To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity 
 
 发送到 [!DNL Target] 的 [!DNL Analytics] 变量具有 90 天的默认有效期。如果需要，可由客户服务部调整此有效期。 但是，这是针对所有活动的全局设置，不能仅针对一个案例进行调整。
 
-You might see [!DNL Target] variables sent to [!DNL Analytics] after the expiration period because the expiration is 90 days, but only if that user never sees another A4T-enabled [!DNL Target] activity. 如果用户在第 45 天返回网站并查看了另一个活动，则整个 A4T eVar 值会将其计数器重置为 90 天。这意味着从第 1 天开始的第一个营销活动可能会持续存在 45 + 90 = 135 天。If the user keeps coming back, you might get to the point where you see metrics sent to [!DNL Analytics] in your reporting from much older activities. 当用户删除 Cookie 并且不回到网站时，该活动中的数字将会下降，但您仍可以看到它们。
+在过期期后，您可能会看到[!DNL Target]变量发送到[!DNL Analytics]，因为过期时间为90天，但仅当该用户从未看到另一个启用A4T的[!DNL Target]活动时。 如果用户在第 45 天返回网站并查看了另一个活动，则整个 A4T eVar 值会将其计数器重置为 90 天。这意味着从第 1 天开始的第一个营销活动可能会持续存在 45 + 90 = 135 天。如果用户不断回访，您可能会看到许多较旧的报告向[!DNL Analytics]发送的度量。 当用户删除 Cookie 并且不回到网站时，该活动中的数字将会下降，但您仍可以看到它们。
 
 这意味虽然对于那些在活动有效时参与其中的访客来说活动已经结束，但这些活动仍会继续获取页面查看次数、访问次数等数据，时间长达 90 天。不过，如果您查看的是“[!UICONTROL 活动展示次数]”量度，则在活动结束后您不会看到任何展示次数。
 
 这是正常的预期行为。A4T 变量的运作与其他任何 eVar 相同 - 该值会与用户相关联，直到它到达过期期限（90 天）。因此，如果某个活动仅有两周时间处于上线状态，但至少在未来 90 天内，该值仍将与用户相关联。
 
-最佳做法是仅在活动上线的时间段内查看该活动的报表。The dates should be set correctly by default when you view the activity in [!DNL Analytics], so unless you have manually extended the date this shouldn’t be an issue from a reporting standpoint.
+最佳做法是仅在活动上线的时间段内查看该活动的报表。默认情况下，当您在[!DNL Analytics]中视图活动时，应正确设置日期，因此除非您手动延长日期，否则从报告的角度来看，这不应是问题。
 
 例如，我们假设某个 A4T 变量在 90 天后过期，我们的测试上线时间是从 1 月 1 日到 1 月 15 日。
 
@@ -87,7 +87,7 @@ You might see [!DNL Target] variables sent to [!DNL Analytics] after the expirat
 
 | 活动名称 | 实例（展示次数） | 页面查看次数 | 访问次数 | 独特访客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 5 | 3 | 1 |
 
 2 月 1 日，该用户返回了网站，查看了其他 5 个页面，并且未体验任何其他 Target 活动，而此时原来的活动已不再上线。即使该活动不再处于上线状态，它仍会通过 eVar 持久性跟踪该用户。现在，数据如下所示：
 
@@ -99,8 +99,8 @@ You might see [!DNL Target] variables sent to [!DNL Analytics] after the expirat
 
 | 活动名称 | 实例（展示次数） | 页面查看次数 | 访问次数 | 独特访客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 1 | 1 |
+| XYZ | 3 | 15 | 3 | 1 |
+| ABC | 1 | 5 | 1 | 3 |
 
 之后，该用户在 4 月 1 日再次返回网站，查看了另外 5 个页面，并进行了一次购买。第一个 eVar 值的 90 天有效期已在 4 月 1 日重置，我们会在报表中看到这一点。该用户查看的所有 Target 活动都会收到转化点数，但在转化点数总和中，会将重复计算的点数删除：
 
@@ -108,29 +108,29 @@ You might see [!DNL Target] variables sent to [!DNL Analytics] after the expirat
 |--- |--- |--- |--- |--- |--- |
 | XYZ | 1 | 20 | 4 | 1 | 1 |
 | ABC | 1 | 10 | 2 | 1 | 1 |
-| 合计 | 2 | 20 | 3 | 1 | 1 |
+| 合计 | 2 | 20 | 1 | 3 | 1 |
 
-因为这两个体验都是在转化之前查看的，所以它们都获得了该订单的“点数”。但在系统中只产生了一个订单，所以点数的总计值反映了这一点。For [!DNL Target] reporting, because you aren’t putting a [!DNL Target] activity against another activity to see which is more successful, it doesn’t matter that all activities the user saw got credit. 因为您比较的是一个活动中的两个项目所得到的结果，而用户不可能在同一活动中看到不同的体验，因此您不必顾虑订单点数会造成相互之间的混淆。
+因为这两个体验都是在转化之前查看的，所以它们都获得了该订单的“点数”。但在系统中只产生了一个订单，所以点数的总计值反映了这一点。对于[!DNL Target]报告，由于您没有对另一个活动添加[!DNL Target]活动来查看哪个更成功，因此用户看到的所有活动都获得积分并不重要。 因为您比较的是一个活动中的两个项目所得到的结果，而用户不可能在同一活动中看到不同的体验，因此您不必顾虑订单点数会造成相互之间的混淆。
 
-For more information, see [Conversion Variables (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
+有关详细信息，请参阅&#x200B;*Analytics管理指南*&#x200B;中的[转换变量(eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html))。
 
 ## 为什么 Analytics 和 Analytics for Target (A4T) 在计算“独特访客”量度时得到的数字不同？{#section_0C3B648AB54041F9A2AA839D51791883}
 
 当您运行的 A/B 测试使用“学生 t 检验”（置信度量度）来选择测试的入选者时，其假设之一是存在固定的时间范围。因此，除非您查看的是固定样本量，否则该测试不具有统计意义。
 
-The [!UICONTROL Unique Visitors] metric is different in [!DNL Analytics] and [!DNL Target] only when you are looking at a period of time that is shorter than the actual test. 如果您未达到样本量，则测试并不可靠。有关详细信息，请参阅 [Evan Miller 的网站](https://www.evanmiller.org/index.html)上的[如何正确运行 A/B 测试](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
+仅当您查看的时间段比实际测试短时，[!UICONTROL 唯一访客]度量在[!DNL Analytics]和[!DNL Target]中是不同的。 如果您未达到样本量，则测试并不可靠。有关详细信息，请参阅 [Evan Miller 的网站](https://www.evanmiller.org/index.html)上的[如何正确运行 A/B 测试](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
 
-The [!UICONTROL Unique Visitors] metric displays the number of people who have been exposed to the test who have visited the site during the specified time period. 这些人仍是测试的一部分，应计入在内。如果您只想查看一周内接触过该测试的人数，则可以创建一个具有活动展示次数的访客区段并将其应用于报表。
+[!UICONTROL 唯一访客]度量显示在指定时间段内访问过站点的测试人员数量。 这些人仍是测试的一部分，应计入在内。如果您只想查看一周内接触过该测试的人数，则可以创建一个具有活动展示次数的访客区段并将其应用于报表。
 
-You can shorten the amount of time the [!DNL Target] variable persists down to a session; however, that is usually problematic for tests where the conversion event isn’t as likely to happen within the same session.
+您可以缩短[!DNL Target]变量持续到会话的时间；但是，对于在同一会话中发生转换事件的可能性不大的测试，这通常会有问题。
 
 ## 为什么同一访客有时会计入到 Analytics 的多个体验中？{#section_1397E972D31C4207A142E4D2D6D794A2}
 
-The following list explains reasons why the same visitor could be counted in multiple experiences in [!DNL Analytics]:
+以下列表解释了在[!DNL Analytics]中同一访客可以计入多个体验的原因：
 
-* The [!DNL Target] profile expired but the [!DNL Analytics] cookie is still there. In this situation, [!DNL Target] re-evaluates the user but [!DNL Analytics] considers the visitor to be the same person.
+* [!DNL Target]用户档案已过期，但[!DNL Analytics] cookie仍在。 在这种情况下，[!DNL Target]将重新评估用户，但[!DNL Analytics]将访客视为同一人。
 * 如果访客正在使用 `mbox3rdPartyId`，则当匿名访客与其第三方 ID 配置文件合并时， 可能会将该访客带入不同的体验以与第三方 ID 匹配。[!DNL Target]有关更多信息，请参阅 [mbox3rdPartyID 的实时配置文件同步](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)。
-* [!DNL Analytics] 跟踪不同设备时，可能采用与跟踪这些设备不同的方 [!DNL Target] 式跟踪同一访客:中的第三方ID设置与 [!DNL Target] 分析中的设置不同。
+* [!DNL Analytics] 跟踪不同设备时，可能采用与跟踪这些设备不同的方 [!DNL Target] 式跟踪同一访客:中的第三方ID设置与 [!DNL Target] 分析中的不同。
 
 ## A4T 是否支持虚拟报表包？
 
@@ -138,17 +138,17 @@ The following list explains reasons why the same visitor could be counted in mul
 
 ## 对于使用 A4T 的活动，我能否在激活活动后更改其中的流量分配百分比？
 
-Changing the traffic allocation percentage in an activity after activation can cause inconsistent reporting in [!DNL Analytics] because the change impacts only new visitors. 回访访客将不受影响。
+在激活后更改活动中的流量分配百分比可能会导致[!DNL Analytics]中报告不一致，因为更改仅影响新访客。 回访访客将不受影响。
 
 作为最佳实践，您应停止现有活动，然后创建一个新活动，而不是在激活后更改百分比。新活动的报表会从新访客开始，而回访访客的数据并不会导致报表不一致。
 
 ## 在使用A4T的自动目标活动中，访问如何计入Analytics和转化信用？
 
-当访客符合条件、视图内容或在A4T活动中进行转换时， [!DNL Target] 会向其发送事件 [!DNL Analytics]数据，这允许将页面上发生的转换事件和其他点击流事件归因为相关 [!DNL Analytics][!DNL Target] 活动和体验。
+当访客符合条件、视图内容或在A4T活动中转换时，[!DNL Target]会向[!DNL Analytics]发送事件数据，使[!DNL Analytics]能够将页面上发生的转换事件和其他点击流事件归因于相关的[!DNL Target]活动和体验。
 
-在查看报告时，请牢记以下几点 [!DNL Analytics] :
+查看[!DNL Analytics]报告时，请注意以下几点：
 
 * 通常，作为最佳实践，您的报告窗口应从活动的开始日期开始。
-* 如果在报表窗口之外发生转换，则转换将不在中显示 [!DNL Analytics]。
-* 在自动目标活动的“目标”流 [!UICONTROL 量部分] ,访客可能会看到不同会话的不同体验。 例如，如果用户档案或上下文已发生更改， [!DNL Target]并且机器学习算法认为他们更有可能根据新体验进行转换。 当访客从体验转到体验时，每次体验的访问次数都会增加。 这与常规A/B测试活动不同，在这些访客中，每次访问的体验都会与客户粘滞。
-* 如果访客在访问中看到多个体验，则任何转化都始终归因于访客看到的上一次体验。 如前所述，访客看到的每个体验的访问次数都会增加。 在报告中的“目标”维度下查看体验时，这会人为地抑[!UICONTROL 制每]个体验的 [!DNL Adobe Analytics] 转化率。
+* 如果在报表窗口外发生转换，则转换在[!DNL Analytics]中不可见。
+* 当处于[!UICONTROL 自动目标]活动的“目标”流量部分时，访客可能会看到不同的体验，从一个会话到下一个会话。 例如，如果用户档案或上下文已发生更改，且[!DNL Target]的机器学习算法认为他们更有可能根据新体验进行转换。 当访客从体验转到体验时，每次体验的访问次数都会增加。 这与常规A/B测试活动不同，在这些访客中，每次访问的体验都会与客户粘滞。
+* 如果访客在访问中看到多个体验，则任何转化都始终归因于访客看到的上一次体验。 如前所述，访客看到的每个体验的访问次数都会增加。 当在[!DNL Adobe Analytics]报告中的“[!UICONTROL 目标]”维度下查看体验时，这可能会人为地抑制每个体验转化率。

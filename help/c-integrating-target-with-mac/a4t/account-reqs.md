@@ -29,25 +29,25 @@ ht-degree: 49%
 
 您的 [!DNL Analytics] 和 [!DNL Target] 用户帐户必须已关联到您的 Adobe ID。
 
-For more information, see [Organizations and account linking](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
+有关详细信息，请参阅[组织和帐户链接](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html)。
 
 ### 配置 Experience Cloud 组成员资格
 
 您必须是一个或多个拥有 [!DNL Analytics] 和 [!DNL Target] 访问权限的 [!DNL Experience Cloud] 组的成员。
 
-For more information, see [Manage Experience Cloud users and products](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+有关详细信息，请参阅[管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Configure access to the [!DNL Analytics] report suite:
+配置对[!DNL Analytics]报表包的访问：
 
 要在给定报表包上使用A4T，您必须有权访问该报表包。
 
-1. 在 **[!UICONTROL Admin Console]**，单击产品 [!DNL Analytics] 用户档案，然后单击“权限 **[!UICONTROL ”选项卡]** 。
+1. 在&#x200B;**[!UICONTROL Admin Console]**&#x200B;中，单击[!DNL Analytics]产品用户档案，然后单击&#x200B;**[!UICONTROL 权限]**&#x200B;选项卡。
 
    然后，您可以查看用户档案有权访问的报表包。
 
-1. 确保您要访问的报表包是您所 [!DNL Target] 属产品用户档案中列出的报表包之一。
+1. 确保您要访问的[!DNL Target]报表包是您所属产品用户档案中列出的报表包之一。
 
    下图是具有所有报表包访问权限的产品用户档案的示例：
 

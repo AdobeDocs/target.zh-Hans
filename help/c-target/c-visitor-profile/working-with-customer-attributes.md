@@ -1,26 +1,26 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
-description: 有关通过使用Adobe Experience Cloud人员核心服务中的客户属性，将客户关系管理(CRM)数据库中的企业客户数据用于Adobe Target的内容定位的信息。
+description: 有关通过在Adobe Target人员服务中使用客户属性从客户关系管理(CRM)数据库中使用企业客户数据进行内容定位的信息。
 title: Adobe Target客户属性
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: e347266dffd00e2a47e0f29f396e9340e581b1be
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1488'
 ht-degree: 37%
 
 ---
 
 
-# 客户属性 {#customer-attributes}
+# 客户属性
 
-有关使用[!DNL Adobe Enterprise Cloud People]核心服务中的客户属性在[!DNL Adobe Target]中使用客户关系管理(CRM)数据库中的企业客户数据进行内容定位的信息。
+在[!DNL Adobe Enterprise Cloud People]服务中使用客户属性，在[!DNL Adobe Target]中使用客户关系管理(CRM)数据库中的企业客户数据进行内容定位。
 
-通过多个来源收集并存储在CRM数据库中的企业客户数据可用于[!DNL Target]，以战略性方式向客户提供最相关的内容，特别是侧重于回头客。 [!DNL People]核心服务(以前称为受众和受众)中的用户档案和客户属性将数据收集和分析与测试和优化结合在一起，使数据和洞察具有可操作性。
+通过多个来源收集并存储在CRM数据库中的企业客户数据可用于[!DNL Target]，以战略性方式向客户提供最相关的内容，特别是侧重于回头客。 [!DNL People]服务(以前称为受众和受众)中的用户档案和客户属性将数据收集和分析与测试和优化结合在一起，使数据和洞察具有可操作性。
 
 ## 客户属性概述{#section_B4099971FA4B48598294C56EAE86B45A}
 
-[核心](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) 服务中 [!DNL People] 的客户归因是该服务的一部分， [!DNL Adobe Experience Cloud] 它为企业提供了将客户数据推送到平台的 [!DNL Experience Cloud] 工具。
+[服务](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) 中的客 [!DNL People] 户属性是服务的一部分， [!DNL Adobe Experience Cloud] 它为企业提供了将客户数据推送到平台的 [!DNL Experience Cloud] 工具。
 
 载入到 [!DNL Experience Cloud] 的数据适用于所有 [!DNL Experience Cloud] 工作流。[!DNL Target] 使用此数据根据属性定位退回客户。[!DNL Adobe Analytics] 也会使用这些属性，它们可用于分析和分段。
 
@@ -28,7 +28,7 @@ ht-degree: 37%
 
 在处理客户属性和[!DNL Target]时，请考虑以下信息：
 
-* 在使用[!DNL People]核心服务中的[!UICONTROL 客户属性]功能之前，您必须满足一些先决条件要求。 有关详细信息，请参阅&#x200B;*Experience Cloud和核心服务产品文档*&#x200B;中[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0)中的“上传客户属性的先决条件”。
+* 在使用[!DNL People]服务中的[!UICONTROL 客户属性]功能之前，您必须满足一些先决条件要求。 有关详细信息，请参阅&#x200B;*Experience Cloud服务和管理文档*&#x200B;中[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0)中的“上传客户属性的先决条件”。
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ ht-degree: 37%
 
 * 不能在 `mbox3rdPartyID` 中发送下列字符：加号 (+) 和正斜线 (/)。
 
-## 访问人员核心服务中的客户属性
+## 在人员服务中访问客户属性
 
 1. 在[!DNL Adobe Experience Cloud]中，单击菜单图标（![菜单图标](/help/c-target/c-visitor-profile/assets/menu-icon.png)），然后单击&#x200B;**[!UICONTROL 人员]**。
 
@@ -58,7 +58,7 @@ ht-degree: 37%
 
 ![crm工作流](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-有关完成以下每个任务的详细说明，请参阅[创建客户属性源并上传&#x200B;*Experience Cloud和核心服务产品文档*&#x200B;中的数据文件](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)。
+有关完成以下每个任务的详细说明，请参阅[创建客户属性源并上传&#x200B;*Experience Cloud服务和管理文档*&#x200B;中的数据文件](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)。
 
 1. 创建数据文件。
 
@@ -141,11 +141,11 @@ ht-degree: 37%
 
 ### 使用 Experience Cloud ID 服务
 
-如果您使用 Experience Cloud ID 服务，则需要设置客户 ID 和身份验证状态以在定位中使用客户属性。有关详细信息，请参阅&#x200B;*Experience Cloud身份服务帮助*&#x200B;中的[客户ID和身份验证状态](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
+如果您使用 Experience Cloud ID 服务，则需要设置客户 ID 和身份验证状态以在定位中使用客户属性。有关详细信息，请参阅&#x200B;*Experience CloudID服务帮助*&#x200B;中的[客户ID和身份验证状态](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
 有关在 [!DNL Target] 中使用客户属性的更多信息，请参阅以下资源：
 
-* [创建客户属性来源并在Experience Cloud产](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) 品文档中上 *传数据文件*
+* [创建客户属性源并上传Experience Cloud服](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) 务和管 *理文档中的数据文件*
 * 数字营销产品组的博客文章&#x200B;**[客户属性：了解的越多，关联的越好](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## 客户{#section_BE0F70E563F64294B17087DE2BC1E74C}经常遇到的问题

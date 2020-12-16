@@ -112,7 +112,7 @@ ht-degree: 99%
 
    单击所需活动以将其打开，然后单击&#x200B;**[!UICONTROL 编辑活动]**。
 
-1. Click the **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. 单击&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 受众]** > **[!UICONTROL 多受众]**。
 
    ![“配置”>“受众”>“多个受众”](/help/c-target/assets/combine_multiple_audiences7.png)
 

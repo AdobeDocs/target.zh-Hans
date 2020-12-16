@@ -14,14 +14,14 @@ ht-degree: 61%
 
 # 在报表中查看多个量度{#view-multiple-metrics-in-a-report}
 
-您可以选择多个指标以在报表中进行 [!DNL Adobe Target] 视图。
+您可以在[!DNL Adobe Target]报告中选择多个要视图的度量。
 
 在报表中使用多个量度时，请注意以下信息：
 
-* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md), and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
-* You cannot add more than 20 metrics to a report for an activity that uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). You can add as many metrics as you have in your activity to reports for activities that do *not* use A4T.
+* 视图多个度量的能力仅适用于[A/B测试](/help/c-activities/t-test-ab/test-ab.md)、[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、[自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)和[体验定位](/help/c-activities/t-experience-target/experience-target.md)(XT)活动。
+* 对于使用[Analytics for活动](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)的目标，不能向报告添加20个以上的度量。 您可以向使用&#x200B;*not* A4T的活动的报告添加与活动中相同的度量。
 * 如果您选择了多个量度，则将无法使用“[](/help/c-reports/downloading-data-in-csv-file.md)下载”选项将报表下载到 CSV 文件中。要启用“[!UICONTROL 下载]”选项，您必须只选择一个量度。
-* You cannot view multiple metrics for activities created before the July 2015 [!DNL Target] release (July 30, 2015).
+* 您不能视图在2015年7月[!DNL Target]版本（2015年7月30日）之前创建的活动的多个指标。
 
 **选择要在报表中显示的多个量度：**
 
@@ -42,10 +42,10 @@ ht-degree: 61%
 
    “[!UICONTROL 显示的量度]”列表中必须至少有一个量度。
 
-   您可以在“[!UICONTROL 显示的量度]”列表中按所需顺序将各个量度拖放到相应的位置，以重新排列这些量度。The selected order will be reflected in the [!UICONTROL Table View] and [!UICONTROL Graph View]. 要从“[!UICONTROL 显示的量度]”列表中删除某个量度，请将鼠标指针悬停在该量度上，然后单击 **X** 图标。
+   您可以在“[!UICONTROL 显示的量度]”列表中按所需顺序将各个量度拖放到相应的位置，以重新排列这些量度。所选顺序将反映在[!UICONTROL 表视图]和[!UICONTROL 图视图]中。 要从“[!UICONTROL 显示的量度]”列表中删除某个量度，请将鼠标指针悬停在该量度上，然后单击 **X** 图标。
 
 1. 完成后单击&#x200B;**[!UICONTROL 保存]**。
-1. (Conditional) While viewing the report in the [!UICONTROL Table View], hover your mouse pointer on any metric&#39;s column header to display a blue arrow. 单击该箭头可展开表格，以便显示该量度的[!UICONTROL 提升度]和[!UICONTROL 置信度]。
+1. （视情况而定）在[!UICONTROL 表视图符]中查看报告时，将鼠标指针悬停在任何度量的列标题上以显示蓝色箭头。 单击该箭头可展开表格，以便显示该量度的[!UICONTROL 提升度]和[!UICONTROL 置信度]。
 
    ![](assets/multiple_metrics_table.png)
 

@@ -26,7 +26,7 @@ ht-degree: 93%
 
    将鼠标悬停在页面中的元素上时，这些元素会高亮显示。任何高亮显示的元素都可以使用 VEC 进行更改。有关为更改体验而可对元素执行的操作列表，请参阅[可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
-   If you created a [!DNL Target] request on the page using [!DNL Target Classic], that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   如果您使用[!DNL Target Classic]在页面上创建了[!DNL Target]请求，则该[!DNL Target]请求将显示为一个显示请求名称的元素，并且可以像修改任何其他元素一样进行修改。
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ ht-degree: 93%
    >
    >除了选择现有受众之外，您还可以合并多个受众来创建临时组合受众，而不是创建新受众。有关更多信息，请参阅[合并多个受众](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-   创建受众时，您可以选择位置并指定该位置的参数。 Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
+   创建受众时，您可以选择位置并指定该位置的参数。 在[!UICONTROL Custom](“创建受众”>“添加规则”>“自定义”)下，选择位置，然后指定所需的参数。
 
    >[!NOTE]
    >

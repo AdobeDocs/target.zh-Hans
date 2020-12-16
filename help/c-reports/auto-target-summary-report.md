@@ -12,21 +12,21 @@ ht-degree: 55%
 ---
 
 
-# ![“ PREMIUM](/help/assets/premium.png) Auto-目标摘要”报告{#auto-target-summary-report}
+# ![Premiuma自](/help/assets/premium.png) 动目标摘要报告{#auto-target-summary-report}
 
-Information about how to interpret the [!UICONTROL Auto-Target Summary] reports in [!DNL Adobe Target].
+有关如何解释[!DNL Adobe Target]中的[!UICONTROL 自动目标摘要]报告的信息。
 
 >[!NOTE]
 >
->[!UICONTROL 自动定位]作为 [!DNL Target Premium] 解决方案的一部分提供。It is not included with [!DNL Target Standard] without a [Target Premium license](/help/c-intro/intro.md#premium).
+>[!UICONTROL 自动定位]作为 [!DNL Target Premium] 解决方案的一部分提供。没有[目标高级许可证](/help/c-intro/intro.md#premium)，它不包含在[!DNL Target Standard]中。
 
-要显示“自动 [!UICONTROL 目标摘要”报表] ，请执行以下操作：
+要显示[!UICONTROL 自动目标摘要]报告，请执行以下操作：
 
-1. 在活动 [!UICONTROL 页面中] ，单击所需的 [!UICONTROL 自动目标] 活动。
+1. 从[!UICONTROL 活动]页面，单击所需的[!UICONTROL 自动目标]活动。
 
-   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
+   如果您有许多活动，则可以从[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 属性]、[!UICONTROL 报告源]、[!UICONTROL 体验书写器]、[!UICONTROL 类型度量中选择选项来过滤列表]和[!UICONTROL 活动源]下拉列表。
 
-1. 单击报 [!UICONTROL 表] 选项卡，然后单击所需的图标：
+1. 单击[!UICONTROL 报告]选项卡，然后单击所需的图标：
 
    * 表格视图
    * 图形视图
@@ -35,11 +35,11 @@ Information about how to interpret the [!UICONTROL Auto-Target Summary] reports 
 
 ## 表格视图
 
-下图显示查看自动视图目标报 [!UICONTROL 表时] ，典型 [!UICONTROL 摘要报表的] 外观如何：
+下图显示了在查看[!UICONTROL 自动视图]活动报告时，[!UICONTROL 表格目标]中典型的摘要报告的外观：
 
 ![自动目标表视图报告](/help/c-reports/assets/at-table-view.png)
 
-Some tips and considerations as you interpret your [!UICONTROL Auto-Target] reports:
+解释[!UICONTROL 自动目标]报告时的一些提示和注意事项：
 
 * 表中的各行有助于您了解活动性能。
 
@@ -52,32 +52,32 @@ Some tips and considerations as you interpret your [!UICONTROL Auto-Target] repo
    * 在这种情况下，要提高为所有体验构建模型的活动的速度，需将额外流量发送到未构建模型的体验。
    * 要开始进行个性化，必须至少具有两个已构建模型的体验（绿色复选标记）。
 
-* Comparing the conversion rate of experience A with that of experience B is not the right comparison in [!UICONTROL Auto-Target]. 问题在于，与随机提供体验 A 的方式相比（换言之，与控制体验相比），以智能方式提供体验 A 时，体验 A 的性能是否更好。此外，营销人员还应谨慎解读个人体验的提升，因为个性化算法会尝试优化整个活动的成功量度，而不是针对每一个个人体验进行优化。
+* 在[!UICONTROL 自动目标]中，将体验A的转化率与体验B的进行比较并不正确。 问题在于，与随机提供体验 A 的方式相比（换言之，与控制体验相比），以智能方式提供体验 A 时，体验 A 的性能是否更好。此外，营销人员还应谨慎解读个人体验的提升，因为个性化算法会尝试优化整个活动的成功量度，而不是针对每一个个人体验进行优化。
 * 可以这样理解：具有最高提升度的体验在人群中具有最大的差异。也就是说，算法已找到一个最喜欢该特定体验的区段。
 * 表中的各列显示访问次数、转化率、平均提升和信心级别以及信心。 有关更多信息，请参阅[平均提升度、提升度范围和置信区间](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)。
 
 ## 图形视图
 
-下图显示了在查看自动视图 [!UICONTROL 活动报表时] ，图形 [!UICONTROL 目标中典型的概] 要报表的外观：
+下图显示了在查看[!UICONTROL 自动视图]活动报告时，在[!UICONTROL 图形目标]中典型的摘要报告的外观：
 
 ![自动目标图视图报告](/help/c-reports/assets/at-graph-view.png)
 
-如下所示，您可以使用两个下拉列表来选择所需的指标、计数方法等。 有关详 [细信息，请参阅](/help/c-reports/c-report-settings/report-settings.md) “报告设置”概述：
+如下所示，您可以使用两个下拉列表来选择所需的指标、计数方法等。 有关详细信息，请参阅[报告设置概述](/help/c-reports/c-report-settings/report-settings.md):
 
 ![自动目标图视图报告](/help/c-reports/assets/at-graph-view-2.png)
 
 ## 自动化区段
 
-单击“自 [!UICONTROL 动化区段] ”图标。 此报告显示不同访客对AP/AT活动中的优惠/体验的响应方式。 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。
+单击[!UICONTROL 自动化区段]图标。 此报告显示不同访客对AP/AT活动中的优惠/体验的响应方式。 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。
 
 ![自动细分图标](/help/c-reports/assets/icon-automated-sements.png)
 
-有关详细信息，请参阅 [自动化细分报告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
+有关详细信息，请参阅[自动细分报告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
 
 ## 重要属性
 
-单击“重 [!UICONTROL 要属性] ”图标。 此报告显示不同活动中不同属性对模型决定如何个性化的重要性如何。 此报表可显示影响模型的排名靠前的属性及其相对重要性。
+单击[!UICONTROL 重要属性]图标。 此报告显示不同活动中不同属性对模型决定如何个性化的重要性如何。 此报表可显示影响模型的排名靠前的属性及其相对重要性。
 
 ![重要属性图标](/help/c-reports/assets/icon-important-attributes.png)
 
-有关详细信息，请参阅 [重要属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
+有关详细信息，请参阅[重要属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。

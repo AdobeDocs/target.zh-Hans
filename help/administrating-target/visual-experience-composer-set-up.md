@@ -14,13 +14,13 @@ ht-degree: 51%
 
 # 配置可视体验书写器
 
-通过指 [!DNL Adobe Target] 定可视 [!UICONTROL 体验书写器] (VEC)的常规设置、移动视口配置和CSS选择器来配置它。
+通过指定[!DNL Adobe Target] [!UICONTROL 可视体验书写器](VEC)的常规设置、移动视区配置和CSS选择器来配置&lt;a0/>。
 
-要访问Visual Experience Composer [!UICONTROL 配置页] ，请单击“ **[!UICONTROL 管理]** ” **[!UICONTROL >“]Visual Experience Composer”。**
+要访问[!UICONTROL Visual Experience Composer]配置页，请单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]。**
 
 >[!NOTE]
 >
->请注意，此页上的设置将应用于整个帐 [!DNL Target] 户。
+>请注意，此页上的设置应用于整个[!DNL Target]帐户。
 
 ![“可视体验书写器”配置页](/help/administrating-target/assets/vec.png)
 
@@ -38,15 +38,15 @@ ht-degree: 51%
 
 ### 启用增强型体验编辑器 {#eec}
 
-允许在防 iFrame 嵌套网站和具有混合内容的网站上进行编辑。某些站点可能与增强版本不兼容。 Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. 所做的这一选择不会对网站上的活动交付造成任何影响。
+允许在防 iFrame 嵌套网站和具有混合内容的网站上进行编辑。某些站点可能与增强版本不兼容。 如果取消选择此选项，则还原到原始的[!UICONTROL Visual Experience Composer]。 所做的这一选择不会对网站上的活动交付造成任何影响。
 
 有关更多信息，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
-You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
+您还可以在活动级别启用[!UICONTROL 增强体验书写器]。
 
 ### 加载混合内容
 
-Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+使用[!UICONTROL 增强体验书写器](EEC)打开网站时启用混合内容。 启用此选项可避免通过[!DNL Target]代理服务器加载静态资源的额外开销。
 
 例如，如果：
 
@@ -57,13 +57,13 @@ Enable mixed content while opening a website using the [!UICONTROL Enhanced Expe
 
 启用体验快照后，活动工作流程图中会生成体验的缩览图。但对于某些用户而言，禁用体验快照可能会提高性能。
 
-## ![高级徽章](/help/assets/premium.png) Mobile视口配置
+## ![高级徽](/help/assets/premium.png) 章移动视区配置
 
 您可以添加预览体验时要使用的设备。每个设备都有一个关联的受众。
 
 ![“移动视区配置”部分](/help/administrating-target/assets/mobile-viewport-configuration.png)
 
-Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, specify the width and height, select the desired operating system, then click [!UICONTROL Save].
+单击&#x200B;**[!UICONTROL 添加]**，为移动视区指定描述性名称，指定宽度和高度，选择所需的操作系统，然后单击[!UICONTROL 保存]。
 
 有关如何添加移动设备视区的信息，请参阅[移动设备视区配置](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
 
@@ -93,9 +93,9 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 
 >[!NOTE]
 >
->Overriding the setting per activity is not available in [!UICONTROL Automated Personalization] and [!UICONTROL Multivariate Testing] activities.  请参阅[可视化体验编辑器中使用的元素选择器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)，以了解更多有关选择器的信息。
+>在[!UICONTROL Automated Personalization]和[!UICONTROL Multivariate Testing]活动中，不能覆盖每个活动的设置。  请参阅[可视化体验编辑器中使用的元素选择器](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)，以了解更多有关选择器的信息。
 
-## 培训视频：帐户首选项(7:33) ![概述徽章](/help/assets/overview.png)
+## 培训视频：帐户首选项(7:33)![概述徽章](/help/assets/overview.png)
 
 以下视频包含有关帐户首选项的信息。
 
@@ -103,6 +103,6 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 
 >[!NOTE]
 >
->“管 [!DNL Target] 理 [!UICONTROL ”菜单UI(以] 前为“设置 ”)经过重新设计，可提供改进的性能、减少发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的；但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
+>[!DNL Target] [!UICONTROL Administration]菜单UI（以前称为[!UICONTROL Setup]）已重新设计，可提供改进的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。 以下视频中的信息通常是正确的；但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

@@ -30,7 +30,7 @@ ht-degree: 90%
 
    将鼠标悬停在页面中的元素上时，这些元素会高亮显示。任何高亮显示的元素都可以使用体验编辑器进行更改。
 
-   If you created a [!DNL Target] request on the page using Target Classic (formerly Test&amp;Target), that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   如果您使用目标经典(以前称为Test&amp;目标)在页面上创建了[!DNL Target]请求，则该[!DNL Target]请求将显示为一个显示请求名称的元素，并且可以像修改任何其他元素一样进行修改。
 
    有关可对显示页面上的元素执行以更改体验的操作列表，请参阅[可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
@@ -93,7 +93,7 @@ ht-degree: 90%
 
 ![删除体验选项](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
+## 培训视频：使用Visual Experience Composer ![Tutorial徽章](/help/assets/tutorial.png)
 
 以下视频提供了有关使用可视化体验编辑器选项的信息。(7:17)
 

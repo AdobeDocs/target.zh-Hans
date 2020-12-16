@@ -26,26 +26,26 @@ ht-degree: 92%
 * [!UICONTROL 个性化分析报表仅适用于使用转化优化目标的 AP 和 AT 活动。]活动上线后将优化目标从收入更改为转化的活动也不受支持。
    >
    >
-* [!UICONTROL 只有从] “报告量度”下拉列表 [!UICONTROL 中选择] “主要目标”后，才 [!UICONTROL 能使用“个性化] 分析”报表。
+* [!UICONTROL 仅当] 从“报表量度”下拉 [!UICONTROL 列表] 中选择的主Goalis时， [!UICONTROL “个性化洞察”报表才] 可用。
    >
    >
 * 仅[默认环境](/help/administrating-target/hosts.md)支持个性化分析报表。
    >
    >
-* [!UICONTROL 个性化] “分析”报表仅针对处于“实时  ”状态且已激活并接收至少15天流量的活动生成。
+* [!UICONTROL 个] 性化洞察报表仅针对处于“实时”状  态且已激活并接收至少15天流量的活动生成。
 
 
 不同的访客对您的 AP/AT 活动中的选件/体验做出的响应会有所不同。此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。
 
 ## 访问自动化区段报表 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
+1. 单击&#x200B;**[!UICONTROL 活动]**，然后单击列表中所需的[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)或[自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)活动。
 
-   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
+   如果您有许多活动，则可以从[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 属性]、[!UICONTROL 报告源]、[!UICONTROL 体验书写器]、[!UICONTROL 类型度量中选择选项来过滤列表]和[!UICONTROL 活动源]下拉列表。
 
 1. 单击&#x200B;**[!UICONTROL 报表]**。
 
-   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. 其他两个图标表示两个个性化分析报表：自动化区段和重要属性。请注意，自动定位还有一个图形图标，表示“[!UICONTROL 摘要]”报表的图形视图。
+   将显示[Automated Personalization摘要](/help/c-reports/reports-ap.md)或[自动目标摘要](/help/c-reports/auto-target-summary-report.md)报告，其中提供有关活动性能的信息，由第一个屏幕图标表示。 其他两个图标表示两个个性化分析报表：自动化区段和重要属性。请注意，自动定位还有一个图形图标，表示“[!UICONTROL 摘要]”报表的图形视图。
 
    ![](assets/personalization_insights.png)
 

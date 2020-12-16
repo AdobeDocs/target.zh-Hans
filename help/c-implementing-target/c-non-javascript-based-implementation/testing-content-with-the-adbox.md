@@ -30,7 +30,7 @@ AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 
 
    * 其中，`myClientCode` 是您公司的客户端代码。您公司的客户端代码全部为小写字母，且不含任何特殊字符。
 
-      Your client code is available at the top of the [!UICONTROL Administation > Implementation] page of the [!DNL Target] interface.
+      您的客户端代码位于[!DNL Target]接口的[!UICONTROL 管理>实施]页面顶部。
 
    * 其中，`image` 是调用类型。在此例中为图像。
 
@@ -38,7 +38,7 @@ AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 
 
    * 其中，`http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` 是 mbox 的默认内容。该内容必须是图像。
 
-      这必须是进行了编码的 URL，且必须是绝对引用。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
+      这必须是进行了编码的 URL，且必须是绝对引用。可以使用[HTML URL编码参考](https://www.w3schools.com/tags/ref_urlencode.asp)快速对URL进行编码。
 
 1. 为每个替代图像创建[重定向选件](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
 

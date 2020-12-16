@@ -12,9 +12,9 @@ ht-degree: 48%
 ---
 
 
-# ![PREMIUM静态](/help/assets/premium.png) 滤镜
+# ![PEF Tatic](/help/assets/premium.png) 过滤器
 
-手动输入一个或多个静态值，以使用中的包含规则进行筛 [!DNL Adobe Target][!DNL Recommendations]选。
+手动输入一个或多个静态值以使用[!DNL Adobe Target] [!DNL Recommendations]中的包含规则进行筛选。
 
 例如，仅推荐具有“G”或“PG”等级的电影关联(MPA)内容。
 

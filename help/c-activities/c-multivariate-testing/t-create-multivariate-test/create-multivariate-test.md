@@ -99,7 +99,7 @@ ht-degree: 97%
 
    ![](assets/estimator2.png)
 
-1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] page.
+1. 单击&#x200B;**[!UICONTROL 下一页]**&#x200B;进入[!UICONTROL 定位]页面。
 
 1. 选择受众，以及您希望参加活动的符合条件的访客所占的百分比。
 
@@ -117,7 +117,7 @@ ht-degree: 97%
 
 1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以创建活动。
 
-## 培训视频：创建Multivariate Tests(9:25)教 ![程徽章](/help/assets/tutorial.png)
+## 培训视频：创建Multivariate Tests(9:25)![Tutorial徽章](/help/assets/tutorial.png)
 
 以下视频演示了如何使用 Target 三步引导式工作流规划并创建多变量测试。
 

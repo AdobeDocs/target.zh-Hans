@@ -20,7 +20,7 @@ ht-degree: 85%
 
 信息源允许您传递[实体](/help/c-recommendations/c-products/products.md)，或者使用页面上没有提供或不能直接从页面安全发送（例如利润、COGS 等）的信息来扩充您的 mbox 数据。
 
-源允许您将详细的项 [!DNL Recommendations]目信息传递给，如产品ID、类别、名称、消息和其他属性。
+源允许您将详细的项目信息传递到[!DNL Recommendations]，如产品ID、类别、名称、消息和其他属性。
 
 您可以从 [!DNL Target] 产品分类文件或 Google Product Search 文件中选择要发送到 [!DNL Recommendations] 服务器的列。
 
@@ -31,7 +31,7 @@ ht-degree: 85%
 * 将项目排序到不同的集合
 * 将排除应用于推荐
 
-项目说明可以使用源 [!DNL Target] 或mbox传递到中。 如果同时通过实体源和 mbox 收集数据，则采用最新的数据。通常，最新的数据来自 mbox，因为 mbox 的查看频率更高。在极少数情况下，实体源数据和 mbox 数据的时间相同，这时使用 mbox 数据。
+项目说明可以使用源或mbox传递到[!DNL Target]。 如果同时通过实体源和 mbox 收集数据，则采用最新的数据。通常，最新的数据来自 mbox，因为 mbox 的查看频率更高。在极少数情况下，实体源数据和 mbox 数据的时间相同，这时使用 mbox 数据。
 
 “[!UICONTROL 信息源]”列表（**[!UICONTROL 推荐]** > **[!UICONTROL 信息源]**）提供了有关您创建的所有信息源的信息。
 
@@ -118,13 +118,13 @@ Google Product Search 信息源类型使用 Google 格式。这与 Adobe 专有�
 >
 >无需使用 Google 数据。[!DNL Recommendations] 使用与 Google 相同的格式。您可以使用此方法上传您的任何数据，并且还可以使用可用的计划功能。但是，您必须在设置文件时保留 Google 的预定义属性名称。
 
-大多数零售商会将产品上传到 Google，因此当访客使用 Google Product Search 时，他们的产品将会显示出来。[!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。Entity feeds can be sent to [!DNL Recommendations] via .xml, .txt, or .tsv, and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
+大多数零售商会将产品上传到 Google，因此当访客使用 Google Product Search 时，他们的产品将会显示出来。[!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。实体源可以通过。xml、.txt或。tsv发送到[!DNL Recommendations]，并可以使用Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定义的[属性。 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
 
 >[!NOTE]
 >
 >托管 Google 信息源内容的服务器上必须可以使用 POST 方法。
 
-Because [!DNL Recommendations] users already configure .xml or .txt feeds to send to Google either via URL or FTP, entity feeds accept that product data and use it to build out the recommendations catalog. 指定此信息源存在的位置后，推荐服务器随即会检索数据。
+由于[!DNL Recommendations]用户已配置。xml或。txt源以通过URL或FTP发送到Google，因此实体源接受该产品数据，并使用它构建推荐目录。 指定此信息源存在的位置后，推荐服务器随即会检索数据。
 
 如果在使用 Google Product Search 进行实体信息源上传时，想要在此显示推荐或跟踪产品浏览次数以根据浏览次数进行算法交付，则页面上仍需要有产品页面 mbox。
 
@@ -207,21 +207,21 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-### Analytics 产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### Analytics 产品分类  {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 产品分类是唯一可用于推荐的分类。For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. 推荐需要的所有信息并非都可通过当前的实施获得，因此，如果要在分类文件中添加新内容，请按此用户指南操作。
+Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件的详细信息，请参阅&#x200B;*分析组件*&#x200B;指南中的[关于分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 推荐需要的所有信息并非都可通过当前的实施获得，因此，如果要在分类文件中添加新内容，请按此用户指南操作。
 
 >[!IMPORTANT]
 >
->Before importing entity data into [!DNL Recommendations] using Analytics product classifications, be aware that this is not the preferred method.
+>在使用Analytics产品分类将实体数据导入[!DNL Recommendations]之前，请注意，这不是首选方法。
 >
 > 请注意以下事项：
 >
 >* 更新实体属性会导致长达 24 小时的额外延迟。
->* [!DNL Target] 仅支持产品分类。 The Analytics product SKU must map to the same level as the [!DNL Recommendations] `entity.id`. 可以使用 Adobe 咨询服务对自定义 Analytics 分类进行工程方面的处理。如有任何疑问，请联系您的帐户管理员。
+>* [!DNL Target] 仅支持产品分类。Analytics产品SKU必须映射到与[!DNL Recommendations] `entity.id`相同的级别。 可以使用 Adobe 咨询服务对自定义 Analytics 分类进行工程方面的处理。如有任何疑问，请联系您的帐户管理员。
 
 
-## 创建信息源 {#steps}
+## 创建信息源  {#steps}
 
 可创建一个信息源，以将有关产品或服务的信息插入到 [!DNL Recommendations] 中。
 
@@ -236,7 +236,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
    * Google 产品信息源
    * Analytics 分类
 
-   有关 CSV 和“Google 产品信息源”信息源类型的信息，请参阅[信息源概述](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
+   有关 CSV 和“Google 产品信息源”信息源类型的信息，请参阅[信息源概述](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。您还可以[下载CSV模型指南](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv)以帮助您正确设置源格式。
 
 1. （视情况而定）如果您选择 **[!UICONTROL CSV]** 或者 **[!UICONTROL Google 产品信息源]**，请指定可以访问信息源的位置。
 
@@ -284,7 +284,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 
 如果状态显示为“成功”，则表示文件已找到且已正确解析。在将该文件编入索引之前，无法在 [!DNL Recommendations] 中使用相应的信息，编入索引可能需要一些时间，具体取决于文件的大小。如果该过程失败，则表示未找到文件（例如，您使用的 URL 不正确或您的 FTP 信息不正确），或者存在解析错误。
 
-## 信息源状态和指示器 {#concept_E475986720D1400999868B3DFD14A7A0}
+## 信息源状态和指示器  {#concept_E475986720D1400999868B3DFD14A7A0}
 
 有关可能的信息源状态及其指示器的信息。
 
@@ -309,7 +309,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 
 >[!IMPORTANT]
 >
->上传的实体会在 61 天后过期。这意味着您应该至少每 60 天上传一次信息源文件，以避免对您的推荐活动造成干扰。If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Adobe Target] infers the item is no longer relevant and removes it from the catalog.
+>上传的实体会在 61 天后过期。这意味着您应该至少每 60 天上传一次信息源文件，以避免对您的推荐活动造成干扰。如果某个项目未至少每60天包含一次馈送文件（或其他实体更新方法）,[!DNL Adobe Target]会推断该项目不再相关，并将其从目录中删除。
 
 ### 信息源状态指示器 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -342,7 +342,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 了解“推荐”中的信息源 (3:01) ![概述徽章](/help/assets/overview.png)
+### 了解“推荐”中的信息源 (3:01)  ![概述徽章](/help/assets/overview.png)
 
 本视频包含以下信息：
 
@@ -351,7 +351,7 @@ Analytics 产品分类是唯一可用于推荐的分类。For more information a
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### 创建信息源 (6:44) ![教程徽章](/help/assets/tutorial.png)
+### 创建信息源 (6:44)  ![教程徽章](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

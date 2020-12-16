@@ -14,7 +14,7 @@ ht-degree: 65%
 
 # 分类 - A4T 常见问题解答{#classifications-a-t-faq}
 
-This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
+本主题包含有关分类和使用[!DNL Analytics]作为[!DNL Target](A4T)报告源的常见问题的解答。
 
 ## 使用分类导入程序下载分类后，如何将 post-tnt-action 值与活动名称相匹配？{#section_6045DAC488B248418F430E663C38D001}
 
@@ -24,11 +24,11 @@ This topic contains answers to questions that are frequently asked about classif
 
 TNT 变量的字符串格式为 `activityID:experienceID:targettype|event`。
 
-* targettype = 0(control/random)或1（目标） [!UICONTROL 用于自动分配][!UICONTROL 和自动目标] 活动。
+* targettype = 0(control/random)或1(targeted)，用于[!UICONTROL 自动分配]和[!UICONTROL 自动目标]活动。
 * 若 event 为 0，则表示访客参加了体验。
 * 若 event 为 1，则表示访客访问了体验。
 * 若 event 为 2，则表示进行了活动展示。
 * 事件= 3-32766表示分析成功度量ID。
 * 若 event 为 32767，则表示进行了活动转化。
 
-You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). 您也可以联系工程服务部门，以便在获取点击流数据信息源的同时一起获取该文件作为查询表。
+您可以使用[浏览器导入](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html)或[FTP导入](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html)经常从UI导入分类文件。 您也可以联系工程服务部门，以便在获取点击流数据信息源的同时一起获取该文件作为查询表。

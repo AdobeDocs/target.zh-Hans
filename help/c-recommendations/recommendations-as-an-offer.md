@@ -121,6 +121,6 @@ ht-degree: 98%
 
 ![推荐选件状态](/help/c-recommendations/assets/recs-offer-status.png)
 
-## 培训视频：Recommendations作为优惠 ![概述徽章](/help/assets/overview.png)
+## 培训视频：Recommendations作为优惠![概述徽章](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)

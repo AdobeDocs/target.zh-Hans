@@ -42,7 +42,7 @@ ht-degree: 61%
 
    ![收藏集列表](assets/collections_list.png)
 
-   “收 [!UICONTROL 藏集] ”页面显示现有收藏集的列表。 单击创建收藏集按钮可创 [!UICONTROL 建新收藏] 集。 您还可以通过将鼠标悬停在所需集合并单击所需图标来编辑、复制和删除现有集合。
+   [!UICONTROL 集合]页面显示现有集合的列表。 单击[!UICONTROL 创建集合]按钮可创建新集合。 您还可以通过将鼠标悬停在所需集合并单击所需图标来编辑、复制和删除现有集合。
 
    ![悬停图标：编辑、复制和删除](/help/c-recommendations/c-products/assets/hover-icons.png)
 
@@ -92,17 +92,17 @@ ht-degree: 61%
 
 1. 使用上述方法之一创建集合。
 
-1. 单 **[!UICONTROL 击活动]** , [创建新的Recommendations活动](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) ，或编辑现有活动。
+1. 单击&#x200B;**[!UICONTROL 活动]**&#x200B;和[创建新的Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)活动或编辑现有活动。
 
-1. 在选择条件和设计后，如果您选 [!UICONTROL 择了] 所需的集合，将显示“选项”页。
+1. 在选择标准和设计后，如果您选择了所需的集合，将显示[!UICONTROL 选项]页。
 
    ![选择集合选项](/help/c-recommendations/c-products/assets/choose-collection.png)
 
-1. （视情况而定）要更改现有集合设置，请在“体 **[!UICONTROL 验]** ”页（三个部分的向导式工作流的步骤2）上，单击放置推荐的位置，单击 **[!UICONTROL 更改集合]**，然后选择所需的集合。
+1. （视情况而定）要更改现有集合设置，请在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三部分指导式工作流的步骤2）上，单击放置推荐的位置，单击&#x200B;**[!UICONTROL 更改集合]**，然后选择所需的集合。
 
    ![更改集合选项](/help/c-recommendations/c-products/assets/change-collection.png)
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## 培训视频：在Recommendations创建集合和排除(7:05)![教程徽章](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

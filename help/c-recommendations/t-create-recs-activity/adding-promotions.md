@@ -58,23 +58,23 @@ ht-degree: 60%
    * 选择&#x200B;**[!UICONTROL 促销收藏集]**，然后选择要促销的项目收藏集。
 
       您可以创建新的收藏集，以将其用于促销活动。请参阅[创建收藏集](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)，以了解更多信息。
-   如果选择“ **[!UICONTROL 列表项]** ”作为“ **[!UICONTROL 升级类型]**”，则可以选中“随 **[!UICONTROL 机化项目顺序]** ”复选框（如果需要）。
+   如果选择&#x200B;**[!UICONTROL 列表项]**&#x200B;作为&#x200B;**[!UICONTROL 升级类型]**，则可根据需要选中&#x200B;**[!UICONTROL 随机化项目顺序]**&#x200B;复选框。
 
-   项目列表的 [!UICONTROL 默认排序顺序] ，基于您在目标UI或API中输入的顺序。 If your list includes more items than the number of slots you set for promotions, the [!UICONTROL Randomize Item Order] option randomizes the promoted items that are displayed in your design. Choosing this option results in [!DNL Target] randomly selecting the items enabled for promotions in the template from the entire promotion set on each hit.
+   项目[!UICONTROL 列表]的默认排序顺序基于您在目标UI或API中输入的顺序。 如果列表包含的项目数超过您为促销设置的插槽数，则[!UICONTROL 随机化项目顺序]选项会随机化设计中显示的升级项目。 选择此选项会导致[!DNL Target]在每次点击时从整个促销集中随机选择模板中启用的促销项目。
 
-   如果您的实体没有 `entity.value` 属性（例如，您不销售产品），则可以将数字值传递 `entity.value` 到属性，如发布日期。 在这种情况下，可以按降序根据最近的发布日期提升提升项目。 属 `entity.value` 性为多次;它不接受字符串。
+   如果您的实体没有`entity.value`属性（例如，您不销售产品），则可以将数字值传递到`entity.value`属性，如发布日期。 在这种情况下，可以按降序根据最近的发布日期提升提升项目。 `entity.value`属性为多次类型；它不接受字符串。
 
-   如果选择了“ **[!UICONTROL 按属性提]** 升” **[!UICONTROL 或“提升集合]** ”选项，则不适用随机化顺序的选项。
+   如果选择了&#x200B;**[!UICONTROL 按属性提升]**&#x200B;或&#x200B;**[!UICONTROL 提升集合]**&#x200B;选项，则随机化顺序的选项不适用。
 
-   使用“按属性提 [!UICONTROL 升”或“提] 升集合”选项提升特定项目时 [!UICONTROL ，显示项目的默认顺序基于属]`entity.value` 性（以数字降序）。
+   使用[!UICONTROL 按属性提升]或[!UICONTROL 提升集合]选项提升特定项目时，项目显示的默认顺序基于`entity.value`属性，以降序数字顺序。
 
    下表说明了这些选项之间的差异：
 
    | 升级类型 | 默认排序 | 备份排序 | 动态筛选选项 |
    | --- | --- | --- | --- |
    | 项目列表 | 在目标UI/API中输入的订单 | 随机（通过UI/API选择时） | 否 |
-   | 按属性提升 | `entity.value` （降序） | 对每个请求进行随机化(当 `entity.value` 没有属性时) | 是 |
-   | 提升集合 | `entity.value` （降序） | 对每个请求进行随机化(当 `entity.value` 没有属性时) | 否 |
+   | 按属性提升 | `entity.value` （降序） | 对每个请求随机化（当不存在`entity.value`属性时） | 是 |
+   | 提升集合 | `entity.value` （降序） | 对每个请求随机化（当不存在`entity.value`属性时） | 否 |
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 

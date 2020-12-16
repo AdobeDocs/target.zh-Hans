@@ -57,7 +57,7 @@ ht-degree: 95%
 
 使用[!UICONTROL 样式]面板可查看或编辑所选元素现有样式的值。您还可以添加其他样式。
 
-To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
+要访问[!UICONTROL Styles]面板，请单击VEC中的页面元素，然后单击&#x200B;**[!UICONTROL 编辑]** > **[!UICONTROL 样式]**。
 
 [!UICONTROL 样式]面板将显示在 VEC 的右侧。该面板包括一个样式列表，允许您编辑样式或将其添加到所选元素。如果您习惯使用层叠样式表 (CSS)，或者从开发人员那里接收代码，则可以使用实时 CSS 编辑器查看更改并添加样式。
 
@@ -114,7 +114,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    边距支持正值和负值。
 
-   Target 还支持其他大小单位，例如 rem、pc、em 等。For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target 还支持其他大小单位，例如 rem、pc、em 等。有关这些单元的详细信息，请参阅[Web样式表CSS提示与技巧](https://www.w3.org/Style/Examples/007/units.en.html)。
 
 * **内边距**
 
@@ -124,7 +124,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    内边距支持的宽度范围从 0 开始。
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   目标还支持[其他大小单位](https://www.w3.org/Style/Examples/007/units.en.html)，如rem、pc、em等。
 
 * **边框**
 
@@ -138,11 +138,11 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    边框支持的宽度范围从 0 开始。
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   目标还支持[其他大小单位](https://www.w3.org/Style/Examples/007/units.en.html)，如rem、pc、em等。
 
 * **位置**
 
-   将所选元素从当前位置移动。You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   将所选元素从当前位置移动。可以更改元素的顶部、底部、左侧、右侧和[Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)位置。
 
    单击[!UICONTROL 静态]下拉列表，从以下位置选项中进行选择：
 
@@ -159,7 +159,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    位置支持正值和负值。
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   目标还支持[其他大小单位](https://www.w3.org/Style/Examples/007/units.en.html)，如rem、pc、em等。
 
 * **大小**
 
@@ -316,7 +316,7 @@ HTML 选件的大小最多可达 256KB。
 
 **注意：**&#x200B;无法调整内联元素的大小。
 
-#### 移动 {#move}
+#### 移动  {#move}
 
 移动页面上的元素。与“[!UICONTROL 重新排列]”选项不同，“[!UICONTROL 移动]”选项不会移动其他元素来为正在移动的元素腾出空间。可使用箭头键来微调移动。（计划的增强功能：提供相关支持以确保所移动的元素不会隐藏在其他元素后面。）
 

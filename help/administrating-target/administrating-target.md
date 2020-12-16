@@ -14,9 +14,9 @@ ht-degree: 17%
 
 # 管理 Target 概述{#administer-target}
 
-帮助您管理的信 [!DNL Adobe Target]息，包括可视体验书写器(VEC)、报告、Scene7配置、实现、主机、环境、响应令牌和用户的配置设置。
+帮助您管理[!DNL Adobe Target]的信息，包括可视体验书写器(VEC)、报告、Scene7配置、实现、主机、环境、响应令牌和用户的配置设置。
 
-To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
+要访问[!UICONTROL Administration]菜单项，请单击顶部菜单栏中的&#x200B;**[!UICONTROL Administration]** ，然后单击左侧的所需选项卡：
 
 * [Visual Experience Composer（可视化体验编辑器）](/help/administrating-target/visual-experience-composer-set-up.md)
 * [报表](/help/administrating-target/reporting.md)

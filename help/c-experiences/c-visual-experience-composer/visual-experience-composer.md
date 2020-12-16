@@ -19,7 +19,7 @@ VEC 是 WYSIWYG 用户界面，可让您轻松地在站点环境中创建和测�
 
 VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和设计人员可以使用可视化界面创建和更改内容。无需直接编辑代码，便可进行多种设计选择。使用编辑器提供的编辑选项也可以编辑 HTML 和 JavaScript。
 
-On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab, you can enter the Default Visual Experience Composer URL.
+在目标&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视体验书写器]**&#x200B;选项卡上，可以输入默认的可视体验书写器URL。
 
 ![默认 VEC URL 设置](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -112,14 +112,14 @@ On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience 
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### Visual Experience Composer（第1个，共2个）(7:17)教 ![程徽章](/help/assets/tutorial.png)
+### 可视体验书写器（第1个，共2个）(7:17)![教程徽章](/help/assets/tutorial.png)
 
 * 更改页面的内容
 * 更改页面的布局
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience Composer（第2个，共2个）(7:29)教 ![程徽章](/help/assets/tutorial.png)
+### Visual Experience Composer（2个，共2个）(7:29)![教程徽章](/help/assets/tutorial.png)
 
 * 重命名和复制体验
 * 创建重定向体验
@@ -130,7 +130,7 @@ On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience 
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### 办公时间：Visual Experience Composer教 ![程徽章](/help/assets/tutorial.png)
+### 办公时间：可视体验书写器![教程徽章](/help/assets/tutorial.png)
 
 此视频是“[办公时间](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 

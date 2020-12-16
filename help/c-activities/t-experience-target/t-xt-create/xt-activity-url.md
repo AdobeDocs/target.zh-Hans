@@ -22,7 +22,7 @@ ht-degree: 92%
    >
    >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。因此，[!DNL `https://www.adobe.com`] 和 [!DNL `http://www.adobe.com`] 均匹配。
    >
-   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). 在活动创建过程中，您可以指定其他页面。
+   >默认情况下，VEC或基于表单的体验书写器会打开在[可视体验书写器设置](/help/administrating-target/visual-experience-composer-set-up.md)中指定的页面。 在活动创建过程中，您可以指定其他页面。
    >
    >如果您指定的 URL 所对应的网站不包含 Target Standard JavaScript 代码，则您将无法选择页面元素。
 

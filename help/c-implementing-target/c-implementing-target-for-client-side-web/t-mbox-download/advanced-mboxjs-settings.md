@@ -26,13 +26,13 @@ ht-degree: 91%
 
 您帐户的客户代码。
 
-When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
+查看[!UICONTROL 管理>实施]时，顶部的客户端是您帐户的客户端代码。
 
 ## 超时
 
 Target 请求超时。
 
-查看“ [!UICONTROL 管理”]>“实施”时，超时（秒）设置是您的目标请求超时。 默认情况下会将此值设置为 15 秒，但是我们建议将此值设置为介于 2 秒到 5 秒之间的某个值。
+查看[!UICONTROL 管理>实施]时，超时（秒）设置是目标请求超时。 默认情况下会将此值设置为 15 秒，但是我们建议将此值设置为介于 2 秒到 5 秒之间的某个值。
 
 ## XDomain
 

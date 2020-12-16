@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # 设计概述{#design-overview}
 
-设计定 [!DNL Adobe Target Recommendations] 义推荐在页面上的显示方式。 设计可定义推荐的布局和格式，以提高访客参与度、转化率和收入。
+[!DNL Adobe Target Recommendations]中的设计定义推荐在页面上的显示方式。 设计可定义推荐的布局和格式，以提高访客参与度、转化率和收入。
 
 [!DNL Recommendations] 附带多个默认（预构建）设计，您也可以自行创建。
 

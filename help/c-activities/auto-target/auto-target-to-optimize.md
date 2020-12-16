@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 自动目标概述
+# ![](/help/assets/premium.png) Premiuma自动目标
 
 [!UICONTROL 自动定位]可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行选择，以便个性化内容并促进转化。自动定位根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验。
 
@@ -20,15 +20,15 @@ ht-degree: 86%
 >
 >[!UICONTROL 自动定位]作为 [!DNL Target Premium] 解决方案的一部分提供。如果没有 [!DNL Target Premium] 许可证，则此功能在 [!DNL Target Standard] 中不可用。有关此许可证提供的各项高级功能的更多信息，请参阅 [Target Premium](/help/c-intro/intro.md)。
 >
->[!UICONTROL 目标分析] (A4T)支持 [!UICONTROL 自动目标] 活动。 有关详细信息，请 [参阅创建将Analytics用作活动源的报告](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。
+>[!UICONTROL 目标分析] (A4T)支持自 [!UICONTROL 动定] 位活动。有关详细信息，请参阅[创建将Analytics用作活动源的报告](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。
 
-## 使用自动目标的真实成功案例 {#success}
+## 使用自动目标{#success}的真实成功案例
 
-一家大型服装零售商最近使用 [!UICONTROL 了一款自动目标] 活动，其中包含十种基于产品类别的体验（加上随机控制），以向每个访客提供正确的内容。 “[!UICONTROL 添加到购物车]”被选作主要优化指标。 目标体验平均提升29.09%。 构建自动 [!UICONTROL 目标模型后] ,活动设置为90%的个性化体验。
+一家大型服装零售商最近使用[!UICONTROL 自动目标]活动和十种基于产品类别的体验（加上随机控制），向每个访客提供正确的内容。 &quot;[!UICONTROL 添加到购物车]&quot;被选作主要优化指标。 目标体验平均提升29.09%。 构建[!UICONTROL 自动目标]模型后，活动设置为90%的个性化体验。
 
 仅仅十天，就实现了超过170万美元的提升。
 
-继续阅读，了解如何使 [!UICONTROL 用自动目标] ，提高组织的提升和收入。
+继续阅读，了解如何使用[!UICONTROL 自动目标]来增加组织的提升和收入。
 
 ## 概述 {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -44,7 +44,7 @@ ht-degree: 86%
 
 ## 注意事项
 
-There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
+使用[!UICONTROL 自动目标]时，需要注意以下几个重要事项：
 
 * 您无法将特定活动从[!UICONTROL 自动定位]切换到自动个性化，反之亦然。
 * 活动开始后，您无法从“手动”流量分配（传统 A/B 测试）切换到[!UICONTROL 自动定位]，反之亦然。
@@ -162,7 +162,7 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 
 有关更多信息，请参阅[报表](/help/c-reports/reports.md)部分中的[自动定位摘要报表](/help/c-reports/auto-target-summary-report.md)。
 
-## 培训视频：了解自动目标活动 ![概述徽章](/help/assets/overview.png)
+## 培训视频：了解自动目标活动![概述徽章](/help/assets/overview.png)
 
 本视频介绍了如何设置[!UICONTROL 自动定位] A/B 活动。
 

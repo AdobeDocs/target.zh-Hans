@@ -16,7 +16,7 @@ ht-degree: 88%
 
 Target 根据您使用的 Target 界面和活动创建功能（可视化体验编辑器或基于表单的编辑器），以不同的方式来确定要交付给页面的活动（一个或多个）。
 
-## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## 仅限Target Standard/Premium Visual Experience Composer或仅使用全局目标请求的基于表单的书写器{#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 如果贵公司仅使用 Target Standard/Premium 和可视化体验编辑器，则可以对同一个调用返回多个活动的内容。活动将使用以下决策流程来交付：
 
@@ -48,8 +48,8 @@ Target 根据您使用的 Target 界面和活动创建功能（可视化体验�
 
 如果贵公司同时使用 Target Standard/Premium 基于表单的编辑器和 Target Standard/Premium 可视化体验编辑器，则可以交付多个可视化体验编辑器活动的内容，但只能交付基于表单的工作流中的一个活动。活动交付使用以下决策流程来确定：
 
-1. Target server call comes to Target with information about the [!DNL Target] request and URL.
-1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
+1. 目标服务器调用将目标有关[!DNL Target]请求和URL的信息。
+1. 目标经典和标准版可拉取该[!DNL Target]请求中运行的每个活动。
 1. Target 尝试将访客匹配到活动。
 
    如果访客已经处于 A/B 测试或多变量测试中，则会将他们匹配到该测试，直至他们实现转化为止。如果访客之前处于体验定位活动中，则必须将他们再次匹配到该活动。如果访客符合相应的受众规则，则他们将进入这些活动和特定的体验。
@@ -65,16 +65,16 @@ Target 根据您使用的 Target 界面和活动创建功能（可视化体验�
 
 如果这两个定位活动具有相同的优先级，则会显示两个活动中最近查看过的活动。如果访客是第一次访问页面，则会显示两个活动中最近激活的活动。
 
-## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## 具有非全局目标请求的基于表单的目标标准／高级书写器{#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >此信息还适用于之前在 Target Classic 中创建的所有营销活动。
 
-If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. 活动交付使用以下决策流程来确定：
+如果公司在基于表单的书写器中使用除全局[!DNL Target]请求之外的[!DNL Target]请求，则每次调用只能返回来自一个活动的内容。 活动交付使用以下决策流程来确定：
 
-1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
-1. [!DNL Target] 拉入该请求中运行的每个 [!DNL Target] 活动。
+1. [!DNL Target]服务器调用会向[!DNL Target]发送有关[!DNL Target]请求和URL的信息。
+1. [!DNL Target] 拉入该请求中运行的每 [!DNL Target] 个活动
 1. [!DNL Target] 尝试将访客匹配到具有最高优先级的活动。
 
    如果访客已经处于 A/B 测试或多变量测试中，则会将他们匹配到该测试，直至他们实现转化为止。如果访客之前处于体验定位活动中，则必须将他们再次匹配到该活动。如果访客符合相应的受众规则，则他们将进入这些活动和特定的体验。

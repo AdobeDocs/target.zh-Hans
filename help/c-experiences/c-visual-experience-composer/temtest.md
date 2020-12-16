@@ -14,7 +14,7 @@ ht-degree: 45%
 
 # 在相似页面上包含相同体验
 
-使用中的页面模 [!DNL Adobe Target] 板为页面提供结构，或者如果页面包含类似元素，则测试结构相似的页面元素中或整个域中的变量。
+使用[!DNL Adobe Target]中的页面模板为页面提供结构，或者如果页面包含类似元素，则测试结构相似的页面元素中或整个域中的变量。
 
 要正确工作，此功能必须用于结构相似或包含在所有页面上结构相同的模板元素的页面。
 
@@ -31,9 +31,9 @@ ht-degree: 45%
 
 您可以指定包含更改元素的页面，或在网站或域中应用更改。
 
-1. Create  or edit an activity as described in [Activities](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. 创建或编辑活动，如[活动](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)中所述。
 
-1. To specify the pages where the experience will appear, in the [!UICONTROL Visual Experience Composer] (VEC) click the gear icon, then select **[!UICONTROL Page Delivery]**.
+1. 要指定将显示体验的页面，请在[!UICONTROL 可视体验书写器](VEC)中单击齿轮图标，然后选择&#x200B;**[!UICONTROL 页面投放]**。
 
    ![齿轮图标>页面投放](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
@@ -41,7 +41,7 @@ ht-degree: 45%
 
 1. 指定页面范围。页面范围可以是以下任一类型：
 
-   * URL (有关目标如何评估URL的更多信息，请参 [阅目标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
+   * URL (有关目标如何评估URL的详细信息，请参阅[目标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
    * 域
    * 路径
    * 哈希(#)片段(目标URL中跟在#符号后的部分。)
@@ -69,7 +69,7 @@ ht-degree: 45%
    >
    >多个项目使用OR逻辑，这意味着列表中的任何单个项目都使条件成为真。
 
-1. If desired, enter additional criteria by clicking **[!UICONTROL Add Template Rule]** and repeating the procedure in the previous steps.
+1. 如果需要，请通过单击&#x200B;**[!UICONTROL 添加模板规则]**&#x200B;并重复上述步骤来输入附加条件。
 
    多个标准会使用 AND 逻辑进行连接。[!DNL Target] 会将体验添加到符合指定标准的所有页面。
 
@@ -89,17 +89,17 @@ ht-degree: 45%
 * 加入全局横幅（例如，COVID-19公告）
 * 要包含全球免费送货促销，请
 
-1. Create or edit an activity as described in [Activities](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. 创建或编辑活动，如[活动](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)中所述。
 
-1. To specify the domain where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL Page Delivery]**.
+1. 要指定体验将显示的域，请在Visual Experience Composer中单击齿轮图标，然后选择&#x200B;**[!UICONTROL 页面投放]**。
 
-1. 单击 **[!UICONTROL 添加模板规则]** > **[!UICONTROL 域]**。
+1. 单击&#x200B;**[!UICONTROL 添加模板规则]** > **[!UICONTROL 域]**。
 
-1. 从“选 **[!UICONTROL 择计算器]** ”(Choose evaluator **[!UICONTROL )下拉框中，选择]**“包含”(Contains)，然后指定域。
+1. 从&#x200B;**[!UICONTROL 选择求值器]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 包含]**，然后指定域。
 
    ![域包含](/help/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
-## Training video: Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
+## 培训视频：Visual Experience Composer（2个，共2个）(7:29)![教程徽章](/help/assets/tutorial.png)
 
 * 重命名和复制体验
 * 创建重定向体验

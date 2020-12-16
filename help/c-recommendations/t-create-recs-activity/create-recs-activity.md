@@ -32,7 +32,7 @@ ht-degree: 78%
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >The [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。
+   >上图中的[!UICONTROL [选择工作场所]](/help/administrating-target/c-user-management/property-channel/property-channel.md)选项是[目标Premium](/help/c-intro/intro.md)功能。 如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。
 
 1. （视情况而定）如果您是一位 [Target Premium 客户](/help/c-intro/intro.md#premium)，请选择一个[工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -46,17 +46,17 @@ ht-degree: 78%
 
    单击“[!UICONTROL 下一步]”后，VEC 将会打开并显示您的页面。您可以将当前元素替换为推荐，也可以插入推荐。
 
-1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
+1. 单击页面上的某个元素，如果该元素所在的位置有推荐，请单击&#x200B;**[!UICONTROL 替换w/Recommendations]**、**[!UICONTROL 在]**&#x200B;之前插入Recommendations或&#x200B;**[!UICONTROL 在]**&#x200B;之后插入Recommendations。
 
    仅当访客符合推荐条件时，网站的推荐内容才会显示。 不符合推荐条件的访客将看到默认内容。
 
    ![“推荐”选项](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   * **[!UICONTROL 更换为Recommendations]**:将元素替换为推荐将删除当前内容并将其替换为推荐。 当访客访问您的网站并符合推荐条件时，他们将在指定区域看到推荐项目，而不是现有内容。
-   * **[!UICONTROL 在以前插入Recommendations]**:在所选元素之前插入建议将推荐内容放在该元素之前。 根据您的页面结构，推荐显示在选定元素的上方或左侧。
-   * **[!UICONTROL 在以下位置插入Recommendations]**:在选定元素后插入推荐将推荐内容放在该元素后。 根据页面结构，建议显示在选定元素的下方或右侧。
+   * **[!UICONTROL 更换为Recommendations]**:将元素替换为推荐将删除当前内容并将其替换为推荐。当访客访问您的网站并符合推荐条件时，他们将在指定区域看到推荐项目，而不是现有内容。
+   * **[!UICONTROL 在以前插入Recommendations]**:在所选元素之前插入建议将推荐内容放在该元素之前。根据您的页面结构，推荐显示在选定元素的上方或左侧。
+   * **[!UICONTROL 在以下位置插入Recommendations]**:在选定元素后插入推荐将推荐内容放在该元素后。根据页面结构，建议显示在选定元素的下方或右侧。
 
-   通过 **[!UICONTROL “展开选择]** ”选项，您可以展开选定的位置(父容器)，从而帮助您更轻松地识别和包含所需的页面元素。
+   使用&#x200B;**[!UICONTROL 展开选择]**&#x200B;选项可以展开选定的位置(父容器)，从而帮助您更轻松地识别和包含所需的页面元素。
 
 1. 选择页面类型。
 
@@ -75,7 +75,7 @@ ht-degree: 78%
 
 1. 选择一个或多个[标准](/help/c-recommendations/c-algorithms/algorithms.md)。
 
-   标准会以卡片的形式显示，卡片中提供了每个标准的相关信息。By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. 您可以更改这些选项以显示其他标准。
+   标准会以卡片的形式显示，卡片中提供了每个标准的相关信息。默认情况下，[!UICONTROL 选择标准]屏幕显示与行业垂直标准以及上一步中选择的页面类型兼容的标准。 您可以更改这些选项以显示其他标准。
 
    >[!NOTE]
    >
@@ -89,13 +89,13 @@ ht-degree: 78%
 
       [!DNL Recommendations] 中提供了一些自带标准。您和您的团队也可以创建自己的自定义标准。
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 有关创建新标准的信息，请参阅[创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。
-   * 您还可以将标准分组到序列中。To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 有关详 [细信息，请参阅](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) “创建条件序列”。
+   * 要创建新标准，请单击&#x200B;**[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准]**，然后填写新标准的信息。 有关创建新标准的信息，请参阅[创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。
+   * 您还可以将标准分组到序列中。要创建新标准序列，请单击&#x200B;**[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准序列]**。 有关详细信息，请参阅[创建标准序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md)。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 1. 选择一个[设计](/help/c-recommendations/c-design-overview/design-overview.md)。
 
-   设计是一种模板，可决定页面上各个位置的外观。[!DNL Target] 包括多个预配置设计。 您也可以创建自己的自定义设计。有关更多信息，请参阅[创建设计](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
+   设计是一种模板，可决定页面上各个位置的外观。[!DNL Target] 包括多个预配置设计。您也可以创建自己的自定义设计。有关更多信息，请参阅[创建设计](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
 
    ![“选择设计”对话框](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -178,6 +178,6 @@ ht-degree: 78%
 
    如果设置了多个活动来向同一个页面交付内容，则会发生活动冲突，这可能导致页面显示意外内容。
 
-## 培训视频：创建“推荐”活动 (7:15) ![教程徽章](/help/assets/tutorial.png)
+## 培训视频：创建“推荐”活动 (7:15)  ![教程徽章](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)

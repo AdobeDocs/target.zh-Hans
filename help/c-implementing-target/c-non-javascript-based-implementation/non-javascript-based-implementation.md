@@ -27,9 +27,9 @@ AdBox 广告和重定向器可用于任何类型的活动。下表比较了 Adbo
 | AdBox | 向广告返回不同的图像 | 改变广告的内容 | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | 重定向选件 | 图像 URL |
 | 重定向器 | 将访客重新导向另一个网页 | 改变广告的登陆页 | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | 重定向选件 | 页面 URL |
 
-## 安全最佳实践 {#security}
+## 安全最佳实践{#security}
 
-请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列表默认重定向URL域。 目标使允许列表用主机要允许重定向的域。 有关详细信息，请参 [阅创允许列表建指定已授权向主机中的目标发送mbox调用的主机的程序](/help/administrating-target/hosts.md#allowlist) ( *英文)*。
+请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列表默认重定向URL域。 目标使允许列表用主机要允许重定向的域。 有关详细信息，请参阅[创允许列表建指定有权向&#x200B;*Hosts*&#x200B;中的目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机的。
 
 ## 限制 {#section_38F559DCF1324271926608BCD4AB1227}
 

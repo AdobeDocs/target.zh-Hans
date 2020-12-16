@@ -14,7 +14,7 @@ ht-degree: 85%
 
 # ![PREMIUM](/help/assets/premium.png) 设计常见问题解答{#design-faq}
 
-List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
+关于[!DNL Adobe Target]推荐设计的常见问题列表(FAQ)。
 
 ## 推荐项目的价格并没有在小数点的右侧显示两个值。我该如何显示它们？
 
@@ -38,7 +38,7 @@ List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendati
 
 对当前正在使用的设计进行更改后，需要等待一段时间才会更新。要立即更改设计，请创建新设计，在活动中选择它并保存建议。
 
-## 如何捕捉要在设计中显示的关键信息？示例：如果我们想要显示关键产品的类别，如何在 Velocity 设计中对该值进行编码？ {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## 如何捕捉要在设计中显示的关键信息？示例：如果我们想要显示关键产品的类别，如何在 Velocity 设计中对该值进行编码？  {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 `$key. *`value`*` 参数可以捕捉要在设计中显示的大多数关键产品信息。示例：如果您需要显示关键产品的缩略图，则应当使用 `$key.thumbnailURL`。
 

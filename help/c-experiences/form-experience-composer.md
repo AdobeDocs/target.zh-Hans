@@ -31,9 +31,9 @@ ht-degree: 79%
 1. 命名活动。
 1. 选择位置。
 
-   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. 从这些位置中选择一个位置。要选择通过 target.js 交付的全局位置，请选择“target-global-mbox”。
+   单击[!UICONTROL 选择位置]框时，将显示可用位置列表。 从这些位置中选择一个位置。要选择通过 target.js 交付的全局位置，请选择“target-global-mbox”。
 
-   您还可以输入一个未在此处列出的位置。如果尚未在页面上创建或查看 mbox，则可以使用此方法。键入位置的名称。输入尚不存在的位置时务必要仔细。如果位置拼写或大小写与调用 mbox 时使用的拼写和大小写不匹配，则活动将无法交付。手动输入的位置将保存到可用位置的列表。 下次尝试选择手动输入的位置时，该位置将从该列表的“选 [!UICONTROL 择位置] ”下拉活动中可用。
+   您还可以输入一个未在此处列出的位置。如果尚未在页面上创建或查看 mbox，则可以使用此方法。键入位置的名称。输入尚不存在的位置时务必要仔细。如果位置拼写或大小写与调用 mbox 时使用的拼写和大小写不匹配，则活动将无法交付。手动输入的位置将保存到可用位置的列表。 下次尝试选择手动输入的位置时，该位置将从该活动的[!UICONTROL 选择位置]下拉列表中可用。
 
    >[!NOTE]
    >
@@ -94,14 +94,14 @@ ht-degree: 79%
 
    ![](assets/change_criteria_2.png)
 
-1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
-1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
+1. (可选，对于AB活动、Automated Personalization和体验定位)要对其他位置重复此过程，请单击&#x200B;**[!UICONTROL 添加位置]**&#x200B;并配置位置和内容。
+1. 单击&#x200B;**[!UICONTROL 下一步]**，然后按照您的活动类型的惯例完成活动创建步骤。
 
 * [创建 A/B 测试](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [创建体验定位活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [创建“推荐”活动](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## 培训视频：基于表单的编辑器 ![教程徽章](/help/assets/tutorial.png)
+## 培训视频：基于表单的编辑器  ![教程徽章](/help/assets/tutorial.png)
 
 以下视频演示了基于表单的编辑器。
 

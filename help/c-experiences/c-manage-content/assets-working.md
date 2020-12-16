@@ -36,7 +36,7 @@ ht-degree: 97%
 
 1. 要更改库中表示某个项目的图像，请依次单击该项目、**[!UICONTROL 属性]**&#x200B;图标和&#x200B;**[!UICONTROL 编辑]**，然后添加图像。
 
-## 培训视频：内容存储库 ![概述徽章](/help/assets/overview.png)
+## 培训视频：内容存储库![概述徽章](/help/assets/overview.png)
 
 以下视频包含有关管理内容的信息。(4:56)
 

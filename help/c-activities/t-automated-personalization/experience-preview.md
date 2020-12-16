@@ -12,7 +12,7 @@ ht-degree: 64%
 ---
 
 
-# ![高级预览](/help/assets/premium.png) Automated Personalization活动(具有体验预览URL){#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![PREMIUMP查](/help/assets/premium.png) 看具有体验预览URL的Automated Personalization活动{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
 可以为目标Automated Personalization活动生成体验预览URL，以便在活动为预览和QA目的而实时之前直接在您的站点上查看体验内容。 体验预览URL绕过定位，以强制查看特定体验。
 
@@ -31,14 +31,14 @@ ht-degree: 64%
 1. 查看和/或指定 URL。
 
    * 如果您使用的是可视化体验编辑器，则会自动输入您为活动指定的默认 URL，且会为活动中的每个体验各生成一个链接。如有需要，您可以更改此 URL，并添加其他 URL。
-   * 如果您使用的是基于表单的体验编辑器，则不会自动输入默认 URL。If you haven&#39;t previously created experience preview URLs, click **Add New URL**. 您必须指定所有要预览的 URL，并指定每个 URL 的名称。
+   * 如果您使用的是基于表单的体验编辑器，则不会自动输入默认 URL。如果之前未创建体验预览URL，请单击&#x200B;**添加新URL**。 您必须指定所有要预览的 URL，并指定每个 URL 的名称。
 
    您可以添加多个 URL，如果您在运行一个多页面测试或模板测试，并且想要在多个页面上预览活动，则需要使用多个 URL。
 
    模态窗口会显示指向您网站上的体验的链接，以获取体验在 Target 可视化体验编辑器之外的“真实预览”。您必须通过共享消息中的链接来共享预览。如果单击链接，然后从页面复制生成的 URL，则不会起作用，因为 URL 包含只有在从消息中的链接访问页面时才会正确显示页面的参数。应当采取的正确操作是，复制模态窗口中的文本，然后通过电子邮件将整个文本发送给您的团队。
 1. 单击&#x200B;**[!UICONTROL 生成所有]**，然后单击每个体验以进行预览。
 
-   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
+   如果随后对体验进行更改，请确保返回模态窗口并单击&#x200B;**续订链接**&#x200B;以获取新链接，从而为团队生成新的预览链接。
 
    **注意：**&#x200B;预览链接会在新的选项卡中打开，并且您浏览器中的弹出窗口阻止程序会被禁用。
 

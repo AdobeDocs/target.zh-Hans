@@ -1,6 +1,6 @@
 ---
 keywords: exclusions
-description: 创建排除， [!DNL Adobe Target Recommendations] 防止向访客推荐产品或内容。
+description: 在 [!DNL Adobe Target Recommendations] 中创建排除，以防止向访客推荐产品或内容。
 title: Adobe Target 中的排除项
 feature: entities
 translation-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 45%
 
 # 排除项{#exclusions}
 
-在中创建排除 [!DNL Adobe Target Recommendations] 功能，防止向访客推荐产品或内容。 排除是不应推荐给访客的产品或内容的子集。
+在[!DNL Adobe Target Recommendations]中创建排除，以防止向访客推荐产品或内容。 排除是不应推荐给访客的产品或内容的子集。
 
-可在整个帐户中使用排除。 与在创建Recommendations活动时为每个体验指定特定集合的集合不同  ，排除将应用于帐户中的所有活动。 在创建活动时，没有指定排除组的选项。
+可在整个帐户中使用排除。 与在创建[!UICONTROL Recommendations]活动时为每个体验指定特定集合的集合不同，排除将应用于帐户中的所有活动。 在创建活动时，没有指定排除组的选项。
 
 使用排除的一些示例包括：
 
@@ -54,7 +54,7 @@ ht-degree: 45%
 
 ## 使用高级搜索创建排除项
 
-You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+您还可以在[目录搜索](/help/c-recommendations/c-products/catalog-search.md#save-as)页面([!UICONTROL Recommendations] > [!UICONTROL 目录搜索] > [!UICONTROL 高级搜索])上使用[!UICONTROL 高级搜索]创建排除。
 
 ![另存为对话框](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -62,7 +62,7 @@ You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalo
 
 >[!IMPORTANT]
 >
->The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. 这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建排除项时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个排除项，以用于排除包含“holiday”的产品，则只会排除包含“holiday”的产品，而不会排除包含“Holiday”的产品。
+>[!UICONTROL 高级搜索]功能不区分大小写；但是，在投放时返回的产品基于区分大小写的搜索。 这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建排除项时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个排除项，以用于排除包含“holiday”的产品，则只会排除包含“holiday”的产品，而不会排除包含“Holiday”的产品。
 
 ## 编辑、复制或删除排除项
 
@@ -74,7 +74,7 @@ You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalo
 
 请注意，整个帐户中都有排除项。 请确保在删除排除之前考虑这一点。 无法恢复已删除的排除。
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## 培训视频：在Recommendations创建集合和排除(7:05)![教程徽章](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

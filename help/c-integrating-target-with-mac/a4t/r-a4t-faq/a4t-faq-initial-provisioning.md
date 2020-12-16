@@ -40,14 +40,14 @@ ht-degree: 100%
 * 如果您使用了多个 Analytics 公司帐户登录同一个 Experience Cloud 公司帐户，请确保您最后一次登录所使用的 Analytics 公司帐户是绑定到用于集成的 Target 帐户的 Analytics 公司帐户。
 * 如果您登录 Experience Cloud 的时间长达数小时，Analytics 会话有时可能会终止。为此，请注销并重新登录，以再次尝试操作。
 
-## 为何在 Target 中看不到 Analytics 选项？ {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## 为何在 Target 中看不到 Analytics 选项？  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 请参阅“我的报表包为何没有加载？”（见上文）。这个问题的根本原因同上。
 
-## 为何在 Analytics 中看不到 A4T 报表？ {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## 为何在 Analytics 中看不到 A4T 报表？  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 请参阅“我的报表包为何没有加载？”（见上文）。这个问题的根本原因同上。
 
-## 为何我在 Target 中的报表是空的？ {#section_3837104757464CB488C5A83014A669A1}
+## 为何我在 Target 中的报表是空的？  {#section_3837104757464CB488C5A83014A669A1}
 
 请参阅“我的报表包为何没有加载？”（见上文）。这个问题的根本原因同上。

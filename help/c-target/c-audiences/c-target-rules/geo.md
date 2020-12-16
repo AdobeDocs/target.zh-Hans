@@ -50,7 +50,7 @@ ht-degree: 88%
 
 ## 精准度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-地域定位的精准度取决于多个因素。与蜂窝网络相比，使用 WiFi 连接进行地域定位会更加精准。如果访客使用的是蜂窝数据连接，则地理查询的精准度可能会受到位置、提供商与 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 之间的数据关系及其他因素的影响。使用基于蜂窝塔的网络连接进行地域定位可能没有使用有线或 WiFi 连接精准。此外，访客的 IP 地址可能已映射到其 ISP 位置，因此 IP 地址可能不是访客的真实位置。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+地域定位的精准度取决于多个因素。与蜂窝网络相比，使用 WiFi 连接进行地域定位会更加精准。如果访客使用的是蜂窝数据连接，则地理查询的精准度可能会受到位置、提供商与 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 之间的数据关系及其他因素的影响。使用基于蜂窝塔的网络连接进行地域定位可能没有使用有线或 WiFi 连接精准。此外，访客的 IP 地址可能已映射到其 ISP 位置，因此 IP 地址可能不是访客的真实位置。使用[地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可以解决一些移动地理位置问题。
 
 下表显示了使用有线或 WiFi Internet 连接时根据 IP 获取的地理位置信息的精准度，此数据由 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 提供。DigitalEnvoy 能够提供业内最精准的数据。国家/地区级全局精准度超过 99.9%，城市级全局准确度高达 97%。此精准度信息不适用于基于蜂窝塔的网络。
 
@@ -116,7 +116,7 @@ ht-degree: 88%
 
 **使用移动设备时进行地域定位的效果如何？**
 
-绝大多数移动设备用户都会通过 WiFi 访问内容，这意味着使用移动设备时 Target 基于 IP 进行地域定位可达到与使用桌面时进行定位一样的精准度。使用基于蜂窝塔的连接时，会根据获取信号的塔所在的位置来确定访客的 IP 地址，因此精准度可能会有所降低。Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+绝大多数移动设备用户都会通过 WiFi 访问内容，这意味着使用移动设备时 Target 基于 IP 进行地域定位可达到与使用桌面时进行定位一样的精准度。使用基于蜂窝塔的连接时，会根据获取信号的塔所在的位置来确定访客的 IP 地址，因此精准度可能会有所降低。使用[地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可以解决一些移动地理位置问题。
 
 **地域定位功能如何处理来自 AOL（美国在线公司）的访客？**
 
@@ -141,7 +141,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->`mboxOverride.browserIp` 仅在at.js 1.jx *中* 。 at.js 2不支持此功能。*x* 目前不支持选择加入支持。
+>`mboxOverride.browserIp` 在at.js 1.jxonly中受&#x200B;** 支持。at.js 2不支持此功能。*x* 目前不支持选择加入支持。
 
 **如何将波多黎各和中国香港特别行政区等区域映射到地理定位结构？**
 
@@ -149,9 +149,9 @@ ht-degree: 88%
 
 **当活动 [!DNL Target] 被定位到地理位置定位功能时，是否会捕获（并存储）诸如邮政编码等信息？**
 
-否， [!DNL Target] 仅在会话期间使用地理数据，然后丢弃数据。
+否，[!DNL Target]仅在会话期间使用地理数据，然后丢弃该数据。
 
-## 培训视频：创建受众 ![教程徽章](/help/assets/tutorial.png)
+## 培训视频：创建受众![教程标记](/help/assets/tutorial.png)
 
 以下视频包含有关使用受众类别的信息。
 

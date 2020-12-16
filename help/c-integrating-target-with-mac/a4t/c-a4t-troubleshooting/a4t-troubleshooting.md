@@ -46,7 +46,7 @@ ht-degree: 80%
 
 Analytics 中不会提供提升度和置信度详细信息。但是，Target 报表中会提供这些信息。
 
-## 活动未显示在 Analytics 报表中。 {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## 活动未显示在 Analytics 报表中。  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 A4T 活动要求指定 Analytics 跟踪服务器。请参阅[使用 Analytics 跟踪服务器](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)，以确保您的 Analytics 跟踪服务器设置正确。
 
@@ -54,7 +54,7 @@ A4T 活动要求指定 Analytics 跟踪服务器。请参阅[使用 Analytics �
 >
 >如果您使用 Adobe Analytics 作为活动的报表源，并且使用的是 mbox.js 版本 61（或更高版本）或者 at.js 版本 0.9.1（或更高版本），则无需在活动创建期间指定跟踪服务器。mbox.js 或 at.js 库会自动将跟踪服务器值发送到 [!DNL Target]。在活动创建期间，您可以将“[!UICONTROL 目标和设置]”页面上的“[!UICONTROL 跟踪服务器]”字段留空。
 
-## 我的 Analytics 区段未显示在 Target 中。 {#section_DEE87F1557834F448E99381D3D02EEEF}
+## 我的 Analytics 区段未显示在 Target 中。  {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 开始创建 A4T 活动之前，请确保您拥有适当的权限。
 
@@ -62,30 +62,30 @@ A4T 活动要求指定 Analytics 跟踪服务器。请参阅[使用 Analytics �
 * 您必须是一个或多个拥有 Analytics 和 Target 访问权限的 Experience Cloud 组的成员。
 * 确认左侧导航的“营销应用程序”部分中显示了 Analytics 和 Target。
 
-## 跳出率、跳出次数和退出次数量度在报表中显示为正值。 {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## 跳出率、跳出次数和退出次数量度在报表中显示为正值。  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 这是一个已知问题。
 
 虽然这些量度为负值，但是 Target 报表中显示的提升度似乎表示这些量度为正值。例如，虽然您希望降低跳出率，但是较高的跳出率会显示为具有最高提升度的入选者。根据报表做出决策时，请留心这些量度及类似量度，并确定您是希望降低还是提高这些量度的数值。
 
-## The report suite I need does not display. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## 我需要的报表包不显示。{#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-The list of report suites that appears in [!DNL Target Standard/Premium] is the list of report suites that have been configured for [!DNL Analytics] as the reporting source for [!DNL Target] (A4T). 因此，这意味着您可能看不到自己拥有的所有报表包。
+[!DNL Target Standard/Premium]中显示的报表包列表是已配置为[!DNL Analytics]作为[!DNL Target](A4T)报告源的报表包的列表。 因此，这意味着您可能看不到自己拥有的所有报表包。
 
-此外，如果您使用多个报告源，则报表包也必须位于中设置的默认报告源 [!DNL Target] 中；否则，将不显示报表包。
+此外，如果您使用多个报告源，则报表包还必须位于[!DNL Target]中设置的默认报告源中；否则，将不显示报表包。
 
-If you still don&#39;t see the report suite you are looking for, contact [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to get it enabled.
+如果仍未看到要查找的报表包，请联系[客户关怀](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以启用它。
 
 ## 报表中显示的数据比预期的要少。{#section_75002584FA63456D8D9086172925DD8D}
 
 请检查您的实施，特别是要检查访客符合体验条件的页面，并确保 [!DNL Target] 和 [!DNL Analytics] 调用中的补充数据 ID 相匹配。
 
-* **at.js 1.x**:在调 [!DNL Target] 用中，补充ID包含在参 `mboxMCSDID` 数中。 在 [!DNL Analytics] 调用中，补充数据 ID 包含在 `sdid` 参数中。
-* **at.js 2.x**:在调 [!DNL Target] 用中，补充ID在HTTP头中作为值返回 `experienceCloud.analytics.supplementalDataId`。 在 [!DNL Analytics] 调用中，补充数据 ID 包含在 `sdid` 参数中。
+* **at.js 1.x**:在调 [!DNL Target] 用中，补充ID包含在参 `mboxMCSDID` 数中。在 [!DNL Analytics] 调用中，补充数据 ID 包含在 `sdid` 参数中。
+* **at.js 2.x**:在调 [!DNL Target] 用中，补充ID在HTTP头中作为值返回 `experienceCloud.analytics.supplementalDataId`。在 [!DNL Analytics] 调用中，补充数据 ID 包含在 `sdid` 参数中。
 
 检查补充ID的最简单方法是使用Adobe Experience Platform调试器。
 
-如果尚未安装调试器，请参 [阅Adobe Experience Platform调试器简介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
+如果尚未安装调试器，请参阅[Adobe Experience Platform调试器简介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
 
 ![调试程序](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 

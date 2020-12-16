@@ -92,4 +92,4 @@ ht-degree: 92%
 
 可以在配置文件脚本中引用客户属性，格式如下：`crs.get('<Datasource Name>.<Attribute name>')`。
 
-这些属性还可用作配置文件脚本中的令牌，以及直接用作选件中的令牌，而无需首先设置配置文件脚本。令牌应使用以下格式：`${crs.datasourceName.attributeName}`。请注意，应从任 `datasourceName` 何API调用中去除中的空格。
+这些属性还可用作配置文件脚本中的令牌，以及直接用作选件中的令牌，而无需首先设置配置文件脚本。令牌应使用以下格式：`${crs.datasourceName.attributeName}`。请注意，应从任何API调用中去除`datasourceName`中的空格。

@@ -12,7 +12,7 @@ ht-degree: 48%
 ---
 
 
-# 解释自动分配报告 {#determine-a-winner}
+# 解释自动分配报告{#determine-a-winner}
 
 通过检查活动UI中的重要指标（包括提升和置信度）来解释自动分配A/B目标的结果。
 
@@ -20,9 +20,9 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->有关宣布获胜者的一般信息，请参 [阅十种常见的A/B测试陷阱以及如何避免](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)。
+>有关声明入选方的一般信息，请参见[十个常见的A/B测试陷阱以及如何避免它们](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)。
 
-## 确定最佳体验 {#section_24007470CF5B4D30A06610CE8DD23CE3}
+## 确定入选体验{#section_24007470CF5B4D30A06610CE8DD23CE3}
 
 使用[!UICONTROL 自动分配]功能时，[!DNL Target] 会在活动页面的顶部显示一个标记，在活动达到最低转化次数，且具有足够的置信度之前，该标记会一直指示“还没有入选者”。
 
@@ -36,7 +36,7 @@ ht-degree: 48%
 >
 >自动分配活动旨在从所有体验选项中找出最佳体验，而不仅仅是与控制体验进行两两比较。
 
-## Statistical guarantees of Auto-Allocate {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## 自动分配{#section_7AF3B93E90BA4B80BC9FC4783B6A389C}的统计保证
 
 在 A/B 活动结束时，自动分配会保证确定的入选者具有 5% 的有效误报率。这意味着确定的入选者实际不是所有活动体验中的最佳体验的概率仅为 5%。对于 A/A 测试（包含相同的体验），我们可以断定测试的误报率低于 5%。对于 A/A 测试（具有相同的体验），预期行为是无限期地运行，因此应该永远不会出现入选者标记。
 
@@ -48,9 +48,9 @@ ht-degree: 48%
 
 >[!IMPORTANT]
 >
->目标在预定义的最小转化次数后显示入选方；但是，挑选获胜者的最终决定应始终取决于Adobe Target样本 [大小计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)。 目标不考虑站点的基本转化率以及输入计算器以确定活动持续时间的其他重要方面。 因此，目标可能会提前在最低转化率的基础上显示优胜者。 有关详细信息，请参 [阅示例大小计算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
+>目标在预定义的最小转化次数后显示入选方；但是，挑选获胜者的最终决定应始终取决于Adobe Target[样本大小计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)的结果。 目标不考虑站点的基本转化率以及输入计算器以确定活动持续时间的其他重要方面。 因此，目标可能会提前在最低转化率的基础上显示优胜者。 有关详细信息，请参阅[示例大小计算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
 
-## 了解自动分配报告中的提升和置信度活动 {#lift-confidence}
+## 了解自动分配报告{#lift-confidence}中的提升和置信度活动
 
 在“自动分配”活动中，第一个体验（默认情况下名为体验A）始终在“报告”选项卡上定义为“控制”体验。 在用于确定体验性能的建模中，此体验不被视为真正的统计控制，但它被视为报告中某些数字的参考或基准。
 
@@ -74,6 +74,6 @@ ht-degree: 48%
 
    自动分配显示的是某个特定体验是所有活动体验中的入选者的真实性概率。这意味着只有入选体验（最有可能入选的体验）的置信度值将为非零数值。所有其他体验很有可能落选，因此将显示 0% 的置信度值。
 
-* 仅当入选体验达到 60% 的置信度后，自动分配才会开始显示置信度。这些置信度通常出现在正常A/B测试完成时间的一半左右（尽管这不是保证的）。 To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control&#39;s conversion-rate in &quot;Baseline conversion rate,&quot; &quot;5%&quot; for &quot;Lift,&quot; and 95% for &quot;Confidence.&quot; 通常情况下，在每个体验达到其所需样本量的至少 50% 之后，置信度便会开始显示。这可使您了解置信度将从何时开始显示。
+* 仅当入选体验达到 60% 的置信度后，自动分配才会开始显示置信度。这些置信度通常出现在正常A/B测试完成时间的一半左右（尽管这不是保证的）。 要确定正常A/B测试运行的时间，请使用[示例大小计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html):“基线转化率”、“提升”和“信心”中插件控件的转换率分别为95%和5%。 通常情况下，在每个体验达到其所需样本量的至少 50% 之后，置信度便会开始显示。这可使您了解置信度将从何时开始显示。
 * 如果报表中所有置信度值均显示为 0%，则有可能是进入活动的时间过早。
 

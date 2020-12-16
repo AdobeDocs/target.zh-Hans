@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Adobe在《Forrester Wave:体验优化平台，2020年第4季度报告其在此领域的产品，Adobe Target高级版。 Adobe在当前产品和市场表现类别以及推荐和平台体验标准中获得了所有参与供应商的最高分。 目标高级版在体验优化技术创新和支持服务标准方面也获得最高分。 该报告基于对10家体验优化平台提供商的全面评估，评估范围涵盖22个标准。
 
-在Adobe博客上 [阅读](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。
+在[Adobe博客](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)上阅读相关信息。
 
 ## Adobe再次在Gartner个性化引擎魔力象限中被评为领导者
 
@@ -50,7 +50,7 @@ Adobe在《Forrester Wave:体验优化平台，2020年第4季度报告其在此�
 * AI和Analytics如何加快其工作速度并提供清晰、重大的业务影响
 * 汇丰如何大规模构建成功的项目，提供超过3000个活动
 
-*麦肯锡文章：2020[年5月，“COVID-19的复苏将是数字](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),”
+*麦肯锡文章：&quot;[COVID-19恢复将是digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; 2020年5月
 
 ## Adobe Target技能培养者：开发人员聊天，将Adobe Target的mbox.js迁移到at.js {#skill-builder}
 

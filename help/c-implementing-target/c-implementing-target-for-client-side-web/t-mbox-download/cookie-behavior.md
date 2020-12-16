@@ -20,7 +20,7 @@ Cookie 行为取决于它是第一方 Cookie、第三方和第一方 Cookie，�
 >
 >本主题包含有关 `mboxSession` 和 `mboxPC` 的信息。根据我们的实施最佳实践，建议您不要使用 Cookie 数据（`mboxSession` 或 `mboxPC`）链接或存储任何敏感信息。
 
-See also [Delete the Target cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
+另请参阅[删除目标cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)。
 
 ## 何时使用第一方或第三方 Cookie {#section_F71B29420C004A7FA3B1921E619B326E}
 

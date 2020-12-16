@@ -86,19 +86,19 @@ Adobe Target 可通过两个 JavaScript 库（at.js 或 mbox.js）中的任意�
 
 “推荐”活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。“推荐”有助于将客户导向到他们可能还不知道的相关项目。
 
-## The edge network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## 边缘网络{#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
 “Edge”是一种地理上分布的服务架构，可确保最终用户在请求内容时的最佳响应时间，而不管他们位于全球的哪个位置。
 
 为了缩短响应时间，目标边缘仅托管活动逻辑、缓存用户档案和优惠信息。
 
-Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s Central Clusters. 更新随后会发送到目标边缘。 Central群集和Edge群集会自动同步以持续更新缓存的活动数据。 所有1:1建模也存储在每个边上，因此这些更复杂的请求也可以在边上处理。
+活动和内容数据库、[!DNL Analytics]数据、API和营销人员用户界面都存放在Adobe的中央群集中。 更新随后会发送到目标边缘。 Central群集和Edge群集会自动同步以持续更新缓存的活动数据。 所有1:1建模也存储在每个边上，因此这些更复杂的请求也可以在边上处理。
 
 每个边缘群集都具有响应用户的内容请求和跟踪该请求的分析数据所需的所有信息。 用户请求将路由到最近的边缘群集。
 
 有关更多信息，请参阅[《Adobe Target 安全概述》](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮书。
 
-The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
+[!DNL Adobe Target]解决方案托管在全球Adobe自有和Adobe租用的数据中心。
 
 中央群集位置同时包含数据收集中心和数据处理中心。 边缘群集位置仅包含数据收集中心。 每个报表包均分配给一个特定的数据处理中心。
 
@@ -124,15 +124,15 @@ The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data 
 * 爱尔兰都柏林
 * 新加坡共和国
 
-该服 [!DNL Target Recommendations] 务托管在俄勒冈州 [!DNL Adobe] 的一个数据中心。
+[!DNL Target Recommendations]服务托管在俄勒冈州的[!DNL Adobe]数据中心。
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 目前中国没有Edge Cluster，且最终用户性能对于中国的客户将继续 [!DNL Target] 受到限制。 Because of the firewall and the lack of Edge Clusters within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
+>[!DNL Adobe Target] 目前中国没有Edge Cluster，中国客户的最终用户性能将继续 [!DNL Target] 受到限制。由于防火墙和国家／地区缺少边缘群集，部署[!DNL Target]的站点的呈现速度将会很慢，页面加载也会受到影响。 此外，营销人员在使用[!DNL Target]创作UI时可能会遇到延迟。
 
-如果需允许列表要，可以目标边缘群集。 有关详细信息，请参 [允许列表阅目标边节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)。
+如果需允许列表要，可以目标边缘群集。 有关详细信息，请参阅&lt;a0/允许列表>目标边节点[。](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
 
-## Protected user experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## 受保护的用户体验{#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe 确保定位基础设施的可用性和性能尽可能可靠。但是，最终用户浏览器与 Adobe 服务器之间的通信划分可能会导致内容交付中断。
 
@@ -194,7 +194,7 @@ Google 举例说明“如果某个网站的原始页面加载了与向用户显�
 
 ## 机器人 {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. 被标识为由机器人生成的流量仍会像普通用户生成的流量那样提供内容，以确保其符合 SEO 准则。如果按照处理普通用户流量的方法来处理机器人流量，则使用机器人流量可能会使 A/B 测试或个性化算法产生偏差。因此，如果在 Target 活动中检测到已知机器人，则对流量的处理方式略有不同。删除机器人流量可以更准确地测量用户活动。
+Adobe Target使用[DeviceAtlas](https://deviceatlas.com/)检测已知的机器人程序。 被标识为由机器人生成的流量仍会像普通用户生成的流量那样提供内容，以确保其符合 SEO 准则。如果按照处理普通用户流量的方法来处理机器人流量，则使用机器人流量可能会使 A/B 测试或个性化算法产生偏差。因此，如果在 Target 活动中检测到已知机器人，则对流量的处理方式略有不同。删除机器人流量可以更准确地测量用户活动。
 
 具体而言，对于已知机器人流量，Target 不会：
 

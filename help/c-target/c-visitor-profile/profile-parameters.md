@@ -22,11 +22,11 @@ ht-degree: 77%
 
 设置用户档案属性：
 
-1. 单击 **[!UICONTROL 受众]** > **[!UICONTROL 用户档案脚本。]**
+1. 单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 用户档案脚本。]**
 
    ![“配置文件脚本”选项卡](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
-1. 单击“ **[!UICONTROL 创建脚本]**”。
+1. 单击&#x200B;**[!UICONTROL 创建脚本]**。
 
    ![“创建配置文件脚本”对话框](/help/c-target/c-visitor-profile/assets/create-script.png)
 
@@ -34,7 +34,7 @@ ht-degree: 77%
 
    | 参数类型 | 描述 |
    |--- |--- |
-   | mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意：Target 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 Target，则可以使用配置文件更新 API 方法进行传递。For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意：Target 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 Target，则可以使用配置文件更新 API 方法进行传递。有关详细信息，请参阅Adobe TargetAPI文档中的[用户档案更新](http://developers.adobetarget.com/api/#updating-profiles)。 |
    | Profile | 直接使用 JavaScript 代码段定义。这些参数能够保存运行的总数，如消费者花费的总金额，并能基于每个 mbox 请求来执行。请参阅下面的“配置文件脚本属性”。 |
 
 ## 配置文件脚本属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -53,7 +53,7 @@ ht-degree: 77%
 
 或
 
-To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
+要复制现有用户档案脚本，请从[!UICONTROL 用户档案脚本]列表中，将指针悬停在所需脚本上，然后单击&#x200B;**[!UICONTROL 复制]**&#x200B;图标：![复制图标](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 然后，您可以对受众进行编辑以创建一个类似的受众。
 
@@ -143,9 +143,9 @@ if (mbox.name == 'Track_Interest') {
    * 避免使用常规表达式，或仅使用非常简单的常规表达式。 即使是简单的表达式也可以接受许多说明进行评估。
    * 避免递归。
    * 用户档案脚本应经过性能测试，然后才能添加到目标。 所有用户档案脚本在每个mbox请求上执行。 如果用户档案脚本未正确执行，则执行mbox请求需要更长的时间。 这可能会影响流量和转化率。
-   * 如果用户档案脚本过于复杂，请考虑改 [用响应令](/help/administrating-target/response-tokens.md) 牌。
+   * 如果用户档案脚本过于复杂，请考虑改用[响应令牌](/help/administrating-target/response-tokens.md)。
 
-* See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* 有关详细信息，请参阅JS Rhino引擎文档：[https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html)。
 
 ## 调试配置文件脚本 {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
@@ -157,7 +157,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **将配置文件脚本添加为响应令牌以调试配置文件脚本：**
 
-   In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
+   在目标中，单击&#x200B;**[!UICONTROL 管理]**，单击&#x200B;**[!UICONTROL 响应令牌]**，然后启用要调试的用户档案脚本。
 
    每当您为包含 Target 的网站加载页面时，Target 的部分响应都将包含给定配置文件脚本的值，如下所示：
 
@@ -165,7 +165,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **使用 mboxTrace 调试工具来调试配置文件脚本。**
 
-   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
+   此方法需要通过单击&#x200B;**[!UICONTROL 目标]** > **[!UICONTROL 管理]** > **[!UICONTROL 实施]** > **[!UICONTROL 在[!UICONTROL 调试器工具]部分生成授权令牌]**&#x200B;来生成授权令牌。
 
    然后，将以下两个参数添加到页面 URL 中的“?”之后：`mboxTrace=window&authorization=YOURTOKEN`。
 
@@ -181,7 +181,8 @@ if (mbox.name == 'Track_Interest') {
 
 ## 脚本配置文件参数的 JavaScript 引用
 
-要有效使用脚本配置文件参数，需要具备简单的Javascript知识。 本节提供了一个快速参考，借助此参考，您在几分钟内便可以高效地使用此功能。
+要有效使用脚本用户档案，需要掌握简单的Javascript知识
+参数。 本节提供了一个快速参考，借助此参考，您在几分钟内便可以高效地使用此功能。
 
 “脚本配置文件参数”位于 mbox/配置文件选项卡下。您可以编写返回任何 Javascript 类型（字符串、整数、数组等）的 Javascript 程序。
 
@@ -211,7 +212,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. 如果 mbox 名称为 `orderThankyouPage`，则返回递增的值。
+创建一个名为`frequency`的变量，将其初始化为上一个值，如果没有上一个值，则创建为0。 如果 mbox 名称为 `orderThankyouPage`，则返回递增的值。
 
 **名称：***user.monetaryValue*
 
@@ -235,7 +236,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-创建一个名为的变 `adobeQA` 量，用于跟踪用户 [的活动QA](/help/c-activities/c-activity-qa/activity-qa.md)。
+创建一个名为`adobeQA`的变量，以跟踪用户[活动QA](/help/c-activities/c-activity-qa/activity-qa.md)。
 
 ### 对象和方法
 
@@ -252,7 +253,7 @@ else if (mbox.param("adobeQA"))
 | `landing.url`, `landing.protocol`, `landing.query`, 和 `landing.param` | 类似于此类页面，但登陆页面除外。 |
 | `mbox.name` | 活动 mbox 的名称。 |
 | `mbox.param(‘<par_name>’)` | 活动 mbox 中给定名称的 mbox 参数。 |
-| `profile.get(‘<par_name>’)` | 客户端创建的用户配置文件参数，名称为 `<par_name>`。例如，如果用户设置了名为“gender”的配置文件参数，则可以使用“profile.gender”提取该值。返回为当前访客设置的“`profile.<par_name>`”值；如果未设置任何值，则返回 null。请注意， `profile.get(<par_name>)` 它被限定为函数调用。 |
+| `profile.get(‘<par_name>’)` | 客户端创建的用户配置文件参数，名称为 `<par_name>`。例如，如果用户设置了名为“gender”的配置文件参数，则可以使用“profile.gender”提取该值。返回为当前访客设置的“`profile.<par_name>`”值；如果未设置任何值，则返回 null。请注意，`profile.get(<par_name>)`被限定为函数调用。 |
 | `user.get(‘<par_name>’)` | 返回为当前访客设置的“`user.<par_name>`”值；如果未设置任何值，则返回 null。 |
 | `user.categoryAffinity` | 返回最佳类别的名称。 |
 | `user.categoryAffinities` | 返回具有最佳类别的数组。 |
@@ -276,7 +277,7 @@ else if (mbox.param("adobeQA"))
 | `||` | 从逻辑上讲，对于“OR”左侧和右侧的表达式，仅当一侧为 true 时才为 true（否则为 false）。 |
 | `//` | 检查源是否包含目标布尔值所包含的所有元素（源数组，目标数组）。<br>`//` 从目标（对应于 regexp）中提取子字符串并将其解码为 `Array/*String*/ decode(String encoding, String regexp, String target)`。<br>该功能还支持使用常量字符串值、分组 (`condition1 || condition2) && condition3` 和正则表达式 (`/[^a-z]$/.test(landing.referring.url)`)。 |
 
-## 培训视频：用户档案脚本 ![教程徽章](/help/assets/tutorial.png)
+## 培训视频：用户档案脚本![教程标记](/help/assets/tutorial.png)
 
 以下视频包含有关使用和创建配置文件脚本的信息。
 

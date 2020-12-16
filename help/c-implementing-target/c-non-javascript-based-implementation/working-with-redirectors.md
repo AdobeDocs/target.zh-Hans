@@ -30,7 +30,7 @@ ht-degree: 69%
 
 有关确定正确设置的帮助信息，请参阅 [不基于 JavaScript 的实施](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)。
 
-## Create a redirector {#redirector}
+## 创建重定向器{#redirector}
 
 必须先创建重定向器才能使用重定向功能。
 
@@ -45,7 +45,7 @@ ht-degree: 69%
 
    * 其中，`yourclientcode` 是您公司的客户端代码。您公司的客户端代码全部为小写字母，且不含任何特殊字符。
 
-      Your client code is available at the top of the [!UICONTROL Administration > Implementation] page of the [!DNL Target] interface.
+      您的客户端代码位于[!DNL Target]接口的[!UICONTROL 管理>实施]页面顶部。
 
    * `redirectorlink_456` 是出现在您帐户中并在营销活动和测试中使用的重定向器 mbox 的名称。
 
@@ -53,14 +53,14 @@ ht-degree: 69%
 
    * 其中，`http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` 是默认目标。
 
-      这必须是进行了编码的 URL，且必须是绝对引用。You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.
+      这必须是进行了编码的 URL，且必须是绝对引用。可以使用[HTML URL编码引用](https://www.w3schools.com/tags/ref_urlencode.asp)快速编码URL。
 
       >[!IMPORTANT]
       >
-      >请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列表默认重定向URL域。 目标使允许列表用主机要允许重定向的域。 有关详细信息，请参 [阅创允许列表建指定已授权向主机中的目标发送mbox调用的主机的程序](/help/administrating-target/hosts.md#allowlist) ( *英文)*。
+      >请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列表默认重定向URL域。 目标使允许列表用主机要允许重定向的域。 有关详细信息，请参阅[创允许列表建指定有权向&#x200B;*Hosts*&#x200B;中的目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机的。
 
 1. 验证重定向器。
-   1. *安全最佳实践*:确保重定向器中使用的域列入允许列表被，如上所示。 如果您使用的域未列入允许列表,Adobe将阻止对该域的任何调用，以阻止恶意行为者使用重定向器重定向到可能的恶意域。
+   1. *安全最佳实践*:确保重定向器中使用的域列入允许列表被，如上所示。如果您使用的域未列入允许列表,Adobe将阻止对该域的任何调用，以阻止恶意行为者使用重定向器重定向到可能的恶意域。
    1. 将重定向器 URL 插入到浏览器中并刷新。
    1. 登录到您的帐户，刷新 mbox 列表，然后验证以 mbox 形式列出的新的重定向器。
 1. 如果您要为一个广告测试不同目标，则请为每个版本创建[重定向选件](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
@@ -87,7 +87,7 @@ ht-degree: 69%
 
 1. 将整个重定向 URL 作为广告的目标链接提交给您的展示广告网络。
 
-## Use a redirector to pass Costs per Click and Revenue Per Click {#concept_3078EF48E9C44B34992D62AAB9628853}
+## 使用重定向器传递每次点击的成本和每次点击的收入{#concept_3078EF48E9C44B34992D62AAB9628853}
 
 有关使用重定向器传递每次点击成本和每次点击收入的信息。
 
@@ -97,7 +97,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->Best practice is to determine the cost value using the **Score per visit** engagement metric.
+>最佳实践是使用&#x200B;**每次访问得分**&#x200B;参与度指标确定成本值。
 
 将 `&mboxPageValue=-value` 添加到 URL。请注意负值。
 
@@ -114,7 +114,7 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 
 >[!NOTE]
 >
->Best practice is to determine the revenue value using the **Score per visit** engagement metric.
+>最佳实践是使用&#x200B;**每次访问得分**&#x200B;参与度指标确定收入值。
 
 将 `&mboxPageValue=value` 添加到 URL。
 

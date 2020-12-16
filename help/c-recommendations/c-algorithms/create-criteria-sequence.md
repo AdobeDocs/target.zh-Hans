@@ -33,53 +33,53 @@ ht-degree: 35%
 
 ## 创建条件序列
 
-可以从“创建标准序列”屏 [!UICONTROL 幕创建标准序] 列。
+可从[!UICONTROL 创建条件序列]屏幕创建条件序列。
 
 可通过多种方式来访问“[!UICONTROL 创建标准序列]”屏幕。某些屏幕选项会根据您访问该屏幕的方式而有所不同。
 
 * 在&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 标准]**&#x200B;库屏幕上，单击&#x200B;**[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准序列]**。您在此处创建的标准会自动设置为可用于所有“[!UICONTROL 推荐]”活动。
-* 创建Recommendations [!UICONTROL 活动时] ，在“选择条件”屏幕中，单击 **[!UICONTROL “新建]** ”>“ **[!UICONTROL 创建条件序列”]**。 您将可以选择保存新建的标准序列，以供在其他“[!UICONTROL 推荐]”活动中使用。
-* When you are editing a [!UICONTROL Recommendations] activity, click in a [!UICONTROL Recommendations Location] box on your page, then select **[!UICONTROL Change Criteria]**. 在“[!UICONTROL 选择标准]”屏幕上，单击&#x200B;**[!UICONTROL 新建]** > **[!UICONTROL 创建标准序列]**。您将可以选择保存新建的标准，以供在其他“[!UICONTROL 推荐]”活动中使用。
+* 创建[!UICONTROL Recommendations]活动时，从“选择标准”屏幕中，单击“新建”]**>“创建标准序列”]**。 **[!UICONTROL **[!UICONTROL &#x200B;您将可以选择保存新建的标准序列，以供在其他“[!UICONTROL 推荐]”活动中使用。
+* 编辑[!UICONTROL Recommendations]活动时，单击页面上的[!UICONTROL Recommendations位置]框，然后选择&#x200B;**[!UICONTROL 更改条件]**。 在“[!UICONTROL 选择标准]”屏幕上，单击&#x200B;**[!UICONTROL 新建]** > **[!UICONTROL 创建标准序列]**。您将可以选择保存新建的标准，以供在其他“[!UICONTROL 推荐]”活动中使用。
 
-以下步骤假定您使用第 [!UICONTROL 一种方法访问] “创建条件序列”屏幕：“ **[!UICONTROL Recommendations]** > **[!UICONTROL 标准]** ”库屏幕。
+以下步骤假定您使用第一种方法访问[!UICONTROL 创建条件序列]屏幕：**[!UICONTROL Recommendations]** > **[!UICONTROL 标准]**&#x200B;库屏幕。
 
-1. 单击 **[!UICONTROL Recommendations]** > **[!UICONTROL 标准]**。
+1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 标准]**。
 
-1. 单击 **[!UICONTROL 创建条件]** >创 **[!UICONTROL 建条件序列]**。
+1. 单击&#x200B;**[!UICONTROL 创建条件]** > **[!UICONTROL 创建条件序列]**。
 
    ![](assets/CreateCriteriaSequence.png)
 
-1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
+1. 填写[基本信息](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info)部分中的信息。
 
-1. 在“标准 **[!UICONTROL 序列]** ”部分，单 **[!UICONTROL 击“添加标准”]**。
+1. 在&#x200B;**[!UICONTROL 标准序列]**&#x200B;部分，单击&#x200B;**[!UICONTROL 添加标准]**。
 
    顺序定义设计的填充顺序。 如果标准1没有足够的建议来填充您的设计，则其余的插槽将填充标准2等。
 
    ![添加条件](/help/c-recommendations/c-algorithms/assets/add-criteria.png)
 
-1. 在“选 [!UICONTROL 择条件] ”屏幕上，选择一个条件，然后单击 **[!UICONTROL 添加]**。
+1. 在[!UICONTROL 选择条件]屏幕上，选择一个条件，然后单击&#x200B;**[!UICONTROL 添加]**。
 
    您可以使用搜索框和筛选器下拉菜单来查找所需的条件。
 
    ![选择标准](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
-1. （可选）滑动 **[!UICONTROL 限制返回的项目数]** ，切换到“开启”位置，然后指定项目数（1到50）。
+1. （可选）滑动&#x200B;**[!UICONTROL 限制返回的项数]**&#x200B;切换到“开启”位置，然后指定项数（1到50）。
 
    ![限制返回的项目数切换](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   为了帮助您理解“限制返回 [!UICONTROL 的项目数”选项] （有时称为“插槽级别控制”）的值，请考虑以下用例：
+   为了帮助您理解[!UICONTROL 限制返回的项数]选项（有时称为“插槽级别控制”）的值，请考虑以下用例：
 
-   * **用例1**:您希望在单个推荐托盘中混合使用各种不同的项目。 例如，您希望展示混搭的外套（夹克）和上衣（衬衫、T恤）。 要实现此目的，请将集合用于活动，该集合包括您设计的任何插槽中所需的所有潜在产品类型。 然后，使用静态过滤器设置您的第一个标准，该静态过滤器将标准限制为仅包括外饰；使用静态过滤器设置第二个标准，该静态过滤器将标准限制为仅包括顶部。 最后，将两个标准添加到标准序列，并将第一个标准限制为2个插槽。
+   * **用例1**:您希望在单个推荐托盘中混合使用各种不同的项目。例如，您希望展示混搭的外套（夹克）和上衣（衬衫、T恤）。 要实现此目的，请将集合用于活动，该集合包括您设计的任何插槽中所需的所有潜在产品类型。 然后，使用静态过滤器设置您的第一个标准，该静态过滤器将标准限制为仅包括外饰；使用静态过滤器设置第二个标准，该静态过滤器将标准限制为仅包括顶部。 最后，将两个标准添加到标准序列，并将第一个标准限制为2个插槽。
 
       推荐托盘在您的站点上可能如下所示：
 
       ![特色产品推荐托盘](/help/c-recommendations/c-algorithms/assets/featured-products.png)
 
-   * **用例2**:您希望混合使用替代项目和补充项目。 设置一个条件以使用已查看／已查看的算法，并使用动态筛选器将建议的项目限制为当前项目的类别。 设置第二个条件以使用已查看／已购买的算法，并使用动态筛选器，该过滤器仅包含与当前项目类别不匹配的推荐项目。 最后，将两个条件添加到序列，并将第一个条件限制为2个插槽。
+   * **用例2**:您希望混合使用替代项目和补充项目。设置一个条件以使用已查看／已查看的算法，并使用动态筛选器将建议的项目限制为当前项目的类别。 设置第二个条件以使用已查看／已购买的算法，并使用动态筛选器，该过滤器仅包含与当前项目类别不匹配的推荐项目。 最后，将两个条件添加到序列，并将第一个条件限制为2个插槽。
 
 1. 继续为序列添加其他条件。 您最多可以在一个序列中添加五个标准。
 
-1. 启用 [备份内容选项](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)。
+1. 启用[备份内容选项](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -87,7 +87,7 @@ ht-degree: 35%
 
    有关推荐逻辑选项的更多信息，请参阅[标准](/help/c-recommendations/c-algorithms/algorithms.md)。
 
-## 培训视频：在“推荐”中创建标准 (12:33) ![教程徽章](/help/assets/tutorial.png)
+## 培训视频：在“推荐”中创建标准 (12:33)  ![教程徽章](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

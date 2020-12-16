@@ -14,7 +14,7 @@ ht-degree: 68%
 
 # ![PREMIUM](/help/assets/premium.png) 配置企业权限{#configure-enterprise-permissions}
 
-Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
+有关将用户添加到[!DNL Target]实施所需任务的信息；创建工作区、用户组和属性；更新[!DNL Target]实现以包含`at_property`参数；并指定角色和权限。
 
 >[!NOTE]
 >
@@ -31,29 +31,29 @@ Information about the tasks required to add users to your [!DNL Target] implemen
 | 5：更新您的实施以包含 `at_property` 参数 | [!DNL Target] UI、at.js 函数、[!DNL Adobe Launch] 或 [!DNL Dynamic Tag Management] |
 | 6. 指定角色和权限 | [!DNL Adobe Admin Console for Enterprise] |
 
-For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
+对于在[!DNL Adobe Admin Console for Enterprise]中执行的任务，请按照以下步骤访问控制台：
 
-1. 在Adobe Target，单击 **[!UICONTROL 管理]** >属 **[!UICONTROL 性]** >将 **[!UICONTROL 属性指]**&#x200B;定到工作区。
+1. 在Adobe Target，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 属性]** > **[!UICONTROL 将属性分配给Workspaces]**。
 
    或
 
-   Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > sign in using your Adobe ID, if you have not already logged in.
+   如果尚未登录，请转至[https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/)>，使用您的Adobe ID登录。
 
 
 1. （视情况而定）如果您可以访问多个组织的 [!DNL Admin Console for Enterprise]，请单击右上角或顶部导航栏中的用户头像，然后选择所需组织。
 
-## 步骤 1. Add users (Optional) {#section_A92AF0F921B743FEB9E9033433BD816A}
+## 步骤 1. 添加用户（可选）{#section_A92AF0F921B743FEB9E9033433BD816A}
 
 当您开始使用新的[!UICONTROL 属性]功能时，必须在 [!DNL Adobe Admin Console for Enterprise] 中执行所有用户管理。但是，[!DNL Target] 中的所有现有用户都将从 [!DNL Target] 迁移到 [!DNL Admin Console for Enterprise]。
 
 1. [在 Admin Console 中](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)，单击页面顶部的&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加用户]**，以创建新用户或编辑现有用户。
 1. 按照《企业用户指南》**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/enterprise/help/users.html)中的说明进行操作。
 
-## 步骤 2. Create a workspace (product profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
+## 步骤 2. 创建工作区(产品用户档案){#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
 工作区(产品用户档案)允许组织将一组特定用户分配给一组特定属性。 工作区在许多方面与 [!DNL Analytics] 中的报表包相似。
 
-Organizations can begin taking advantage of Enterprise permissions functionality by creating new workspaces within [!DNL Admin Console], assigning [!DNL Target] properties to these workspaces, and moving users from the &quot;Default Workspace&quot; configuration to these newer, limited-access workspaces.
+组织可以通过在[!DNL Admin Console]中创建新工作区、为这些工作区分配[!DNL Target]属性以及将用户从“默认工作区”配置移动到这些较新的有限访问工作区，开始利用企业权限功能。
 
 客户可以使用这些工作区按地区、业务部门、网站区域或通过他们选择的任何其他方法，将访问权限划分给不同的团队。
 
@@ -81,7 +81,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 >[!NOTE]
 >请观看下面的视频，以了解有关配置工作区的更多信息。
 
-### Obtain your workspace ID {#workspace-id}
+### 获取工作区ID {#workspace-id}
 
 您需要传递工作区 ID 才能使用 [Target API](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) 中的企业权限。
 
@@ -90,14 +90,14 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
    ![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
-## 步骤 3. Create user groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
+## 步骤 3. 创建用户组（可选）{#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 您可以创建用户组（例如开发人员、分析师、营销人员、管理人员等），然后为其分配多个 Adobe 产品和工作区中的相应权限。为新团队成员分配不同 Adobe 产品中的所有相应权限的过程就像将他们添加到某个特定用户组一样简单。
 
 1. 在 Admin Console 中，单击页面顶部的&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡 > **[!UICONTROL 用户组]**，以创建新用户组或对现有用户组进行编辑。
 1. 按照《企业用户指南》**&#x200B;的[管理产品配置的用户和组](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)中的说明进行操作。
 
-## 步骤 4. Create properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
+## 步骤 4. 创建属性{#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
 通过添加特定名称／值对作为参数来启用属性，该参数包含任何调用(目标调用、api调用等) 可以启用属性。
 
@@ -105,7 +105,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 **提示**：请观看下方的视频，以了解有关如何创建属性的更多信息。
 
-1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list.
+1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 属性]**&#x200B;以显示[!UICONTROL 属性]列表。
 1. 单击&#x200B;**创建属性**。
 
    ![“新建属性”对话框](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
@@ -116,15 +116,15 @@ Organizations can begin taking advantage of Enterprise permissions functionality
    * **描述：**&#x200B;为属性指定可选描述。
    * **渠道：**&#x200B;为属性选择所需的渠道：Web、移动设备应用程序、电子邮件或其他/API（例如机顶盒或 PlayStation 游戏机）。
 
-1. Click **[!UICONTROL Copy]** to copy the code to your clipboard that you&#39;ll use while performing the steps in [5: Update Your Implementation to Include the at_property Parameter](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
+1. 单击&#x200B;**[!UICONTROL 复制]**&#x200B;将代码复制到剪贴板，以执行[5中的步骤时将使用该剪贴板：更新您的实现以包含at_property参数](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)。
 1. 完成后单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!NOTE]
 >请观看下面的视频，以了解有关创建属性的更多信息。
 
-## Step 5: Update your implementation to include the at_property parameter {#section_9B17A59807A94712BE642942442EBBC8}
+## 第5步：更新您的实现以包含at_property参数{#section_9B17A59807A94712BE642942442EBBC8}
 
-To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
+要使用[!DNL Target]用户权限功能，必须将`at_property`参数添加到任何正在点击[!DNL Target]的调用(目标调用、api调用等)。
 
 **获取 `at_property` 参数代码：**
 
@@ -132,7 +132,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    或
 
-   In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list.
+   在[!DNL Target]中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 属性]**&#x200B;以显示[!UICONTROL 属性]列表。
 
    1. 将鼠标指针悬停在要显示的所需属性的“[!UICONTROL 上次更新]”列上，然后单击“[!UICONTROL 代码]”图标。
 
@@ -142,13 +142,13 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       ![属性代码](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
-1. Update your [!DNL Target] implementation with the implementation code obtained in the previous step.
+1. 使用在上一步中获取的实现代码更新您的[!DNL Target]实现。
 
    您可以通过多种方法来更新 [!DNL Target] 实施。例如，对于网页，可以使用以下方法：
 
    * **通过 [!DNL Adobe Launch] 中的“全局参数”：**
 
-      For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
+      有关详细信息，请参阅&#x200B;*Adobe Experience Platform Launch*&#x200B;文档中的[添加全局目标参数](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params)。
 
    * **通过 [!DNL Dynamic Tag Management] 中的“全局参数”：**
 
@@ -156,7 +156,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       有关更多信息，请参阅“动态标签管理产品文档”**&#x200B;中的[全局参数 - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target)。
 
-   * **通过targetPageParams()函数：** 在at.js或mbox.js `<head>` 引用的上方，将以下代码放在标记中。
+   * **通过targetPageParams()函数：** 将以下代码放 `<head>` 置在at.js或mbox.js引用的上方的标记中。
 
       ![](assets/property_token_1.png)
 
@@ -168,7 +168,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       有关如何使用 at.js 完成此操作的更多信息，请参阅 [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 和 [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
 
-## Step 6: Specify roles and permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
+## 第6步：指定角色和权限{#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
 1. 在 Admin Console 中，单击&#x200B;****&#x200B;产品，然后选择所需产品的名称。
 
@@ -184,7 +184,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    ![配置用户](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+1. 使用[!UICONTROL 产品角色]列中每个用户的下拉列表，选择所需的权限角色（审批者、编辑者、观察者或发布者）。
 
    ![产品角色下拉式列表](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
@@ -203,9 +203,9 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 >[!NOTE]
 >
->“管 [!DNL Target] 理 [!UICONTROL ”菜单UI(以] 前为“设置 ”)经过重新设计，可提供改进的性能、减少发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的；但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
+>[!DNL Target] [!UICONTROL Administration]菜单UI（以前称为[!UICONTROL Setup]）已重新设计，可提供改进的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。 以下视频中的信息通常是正确的；但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
 
-### 如何配置目标工作区(6:55)教 ![程徽章](/help/assets/tutorial.png)
+### 如何配置目标工作区(6:55)![教程徽章](/help/assets/tutorial.png)
 
 以下视频说明了如何创建工作区。
 
@@ -219,7 +219,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### How to Create Properties in Adobe Target (3:05) ![Tutorial badge](/help/assets/tutorial.png)
+### 如何在Adobe Target创建属性(3:05)![教程徽章](/help/assets/tutorial.png)
 
 * 如何在 [!DNL Adobe Target] 界面中创建属性
 * 如何生成要包含在属性实施中的属性令牌

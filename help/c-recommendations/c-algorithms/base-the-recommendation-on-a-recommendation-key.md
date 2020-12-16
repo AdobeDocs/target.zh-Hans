@@ -15,7 +15,7 @@ ht-degree: 69%
 
 # 使推荐基于推荐键
 
-Recommendations based on keys use visitor behavior context to show relevant results in [!DNL Adobe Target] [!DNL Recommendations] activities.
+基于键的Recommendations使用访客行为上下文在[!DNL Adobe Target] [!DNL Recommendations]活动中显示相关结果。
 
 有两种类型的推荐：
 
@@ -24,14 +24,14 @@ Recommendations based on keys use visitor behavior context to show relevant resu
 
 每个标准都在其自身的选项卡中进行定义。流量会在不同的标准测试中均匀拆分。换句话说，如果您有两个标准，则流量会在这两个标准之间平均拆分。如果您有两个标准和两个设计，则流量会在四种组合之间平均拆分。您也可指定一定数量的网站访客（百分比），这部分访客将看到默认内容以进行对比。在这种情况下，指定百分比的访客会看到默认内容，其余的访客则会在您的标准和设计组合之间进行分配。
 
-1. Create a new criteria, or select an existing criteria and click **[!UICONTROL Edit]**.
-1. To change the recommendation key, select the new key from the [!UICONTROL Recommendation Key] drop-down list, then click **[!UICONTROL Save]** or **[!UICONTROL Update]**.
+1. 创建新条件，或选择现有条件并单击&#x200B;**[!UICONTROL 编辑]**。
+1. 要更改推荐键，请从[!UICONTROL 推荐键]下拉列表中选择新键，然后单击&#x200B;**[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 更新]**。
 
    由于不同的逻辑映射到不同的推荐键，因此不同的推荐会让自身放置在不同类型的页面上。有关每个推荐密钥的详细信息，请参阅以下各节。
 
 ## 推荐键
 
-可从“推荐密钥”下拉 [!UICONTROL 列表下] 列推荐密钥：
+[!UICONTROL 推荐键]下拉列表中提供以下推荐键：
 
 ### 当前项目 {#current-item}
 
@@ -72,7 +72,7 @@ Recommendations based on keys use visitor behavior context to show relevant resu
 * 单类别页面。
 * 请勿在空的搜索结果页面上使用。
 
-### 自定义属性 {#custom}
+### 自定义属性  {#custom}
 
 推荐由使用 user.*x* 或 profile.*x* 属性存储在访客配置文件中的项目确定。
 
@@ -82,7 +82,7 @@ Recommendations based on keys use visitor behavior context to show relevant resu
 
 您可以基于自己的自定义标准输出进行实时筛选。例如，您可以将推荐项目限制为访客最喜欢的类别或品牌。这样，您便能够将离线计算与实时筛选结合使用。
 
-This functionality means that you can use [!DNL Target] to add personalization on top of your offline calculated recommendations or custom-curated lists. 这样做可以将数据科学和研究与 Adobe 行之有效的众多功能（包括交付、运行时筛选、A/B 测试、定位、报表、集成，等等）结合起来。
+此功能意味着您可以使用[!DNL Target]在离线计算的推荐或自定义的列表上添加个性化。 这样做可以将数据科学和研究与 Adobe 行之有效的众多功能（包括交付、运行时筛选、A/B 测试、定位、报表、集成，等等）结合起来。
 
 通过在自定义标准中添加包含规则，您可以将原本为静态的推荐转变为基于访客兴趣的动态推荐。
 
@@ -172,7 +172,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 主页，“我的帐户”页面，站外广告。
 * 请勿在产品页面或与购买相关的页面上使用。
 
-### 上次查看的项目 {#last-viewed}
+### 上次查看的项目  {#last-viewed}
 
 推荐由每位唯一访客最近查看的项目决定。这将被自动捕获，因此无需在此页面上传递任何值。
 
@@ -189,7 +189,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 主页，“我的帐户”页面，站外广告。
 * 请勿在产品页面或与购买相关的页面上使用。
 
-### 查看次数最多的项目 {#most-viewed}
+### 查看次数最多的项目  {#most-viewed}
 
 与最喜爱类别使用的方法相同，推荐由最常被查看的项目决定。
 
@@ -213,7 +213,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 * 常规页面，例如主页或登陆页面及站外广告。
 
-### 人气 {#popularity}
+### 人气  {#popularity}
 
 推荐由您网站上的项目热门程度决定。热门程度包括最畅销商品和按 mbox 数据查看次数最多的项目，如果您使用 Adobe Analytics，则还包括产品报表中提供的所有量度。项目根据您选择的推荐逻辑进行排名。
 
@@ -227,15 +227,15 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 * 常规页面，例如主页或登陆页面及站外广告。
 
-### 最近查看的项目 {#recently-viewed}
+### 最近查看的项目  {#recently-viewed}
 
 使用访客的历史记录（跨会话）根据设计中的版块数量显示访客最近查看过的 *x* 个项目。
 
-The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). 如果两个网站属于不同的环境，并且访客在两个网站之间切换访问，则每个网站仅显示相应网站的最近查看的项目。如果两个网站位于同一环境，并且访客在两个网站之间切换访问，则访客将看到两个网站的最近查看的相同项目。
+“最近查看的项目”条件返回特定于给定[环境](/help/administrating-target/hosts.md)的结果。 如果两个网站属于不同的环境，并且访客在两个网站之间切换访问，则每个网站仅显示相应网站的最近查看的项目。如果两个网站位于同一环境，并且访客在两个网站之间切换访问，则访客将看到两个网站的最近查看的相同项目。
 
 >[!NOTE]
 >
->You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+>不能使用[!UICONTROL 最近查看的项目]条件进行备份建议。
 
 可以筛选最近查看的项目/媒体，以便仅显示具有特定属性的项目。
 
@@ -252,13 +252,13 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 >[!NOTE]
 >
->[!UICONTROL “最近查看的项] ”同时考虑排除全局设置和活动的选定集合设置。 If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the &quot;All Collections&quot; setting should generally be used.
+>[!UICONTROL “最近查] 看的项目”同时考虑活动的全局设置和选定的集合设置。如果某个项目被全局排除所排除，或未包含在所选集合中，则不会显示该项目。因此，在使用[!UICONTROL 最近查看的项目]条件时，通常应使用“所有集合”设置。
 
 ## 推荐逻辑
 
 [!DNL Target Recommendations] 会使用复杂的算法来确定访客操作在何种情况下才符合活动中设置的标准。推荐键决定了可用的推荐逻辑选项。
 
-推荐逻辑下拉列表提供以 [!UICONTROL 下推荐] 逻辑（标准）:
+[!UICONTROL 推荐逻辑]下拉列表中提供以下推荐逻辑（标准）:
 
 ### 具有相似属性的项目/媒体 {#similar-attributes}
 
@@ -268,7 +268,7 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 使用内容相似性生成推荐对于新项目尤为有效，新项目不太可能在使用查看此项、查看了该项和基于过去行为的其他逻辑的推荐中显示。 您还可以使用内容相似度为没有过去购买数据或其他历史数据的新访客生成有用的推荐。
 
-有关详细信息，请参阅 [内容相似](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)。
+有关详细信息，请参阅[内容相似性](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)。
 
 此逻辑可与以下推荐键一起使用：
 
@@ -366,7 +366,7 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 * 最喜爱类别
 * 人气
 
-### 基于用户的Recommendations {#user-based}
+### 基于用户的Recommendations{#user-based}
 
 根据每个访客的浏览、查看和购买历史记录推荐项目。 这些项目通常称为“推荐给您”。
 

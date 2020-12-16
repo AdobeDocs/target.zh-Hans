@@ -14,7 +14,7 @@ ht-degree: 61%
 
 # ![PREMIUM](/help/assets/premium.png) 使用 Velocity 自定义设计{#customize-a-design-using-velocity}
 
-Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
+使用开源Velocity设计语言在[!DNL Adobe Target Recommendations]中自定义推荐设计。
 
 ## Velocity 概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -129,7 +129,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 1. 声明一个伪变量，并将其初始化为任意整数或多次值。
 1. 确保要使用的实体属性不为空(目标Recommendations的模板分析器验证并保存模板时需要)。
-1. 将实体属性传递 `parseInt` 到 `parseDouble` 您在步骤1中创建的虚拟变量上的或方法，将字符串转换为整数或多次值。
+1. 在步骤1中创建的虚拟变量上，将entity属性传递到`parseInt`或`parseDouble`方法，将字符串转换为整数或多次值。
 1. 对新数值执行数学运算或比较。
 
 ### 示例：计算折扣价格
@@ -185,7 +185,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-## 使用推荐的产品显示关键项 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## 使用推荐的产品{#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}显示关键项
 
 您可以对设计进行修改，以便同时显示关键项目和其他推荐产品。例如，您可能想要在推荐产品旁边显示当前项目，以供访客参考。
 
@@ -208,7 +208,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 创建 [!DNL Recommendations] 活动时，如果关键项目是从访客的配置文件中获取的（例如“上次购买的项目”），则 [!DNL Target] 会在[!UICONTROL 可视化体验编辑器] (VEC) 中显示一个随机产品。这是因为在您设计活动时配置文件不可用。访客查看页面时，他们将看到预期的关键项目。
 
-## 在字符串值中执行替换 {#section_01F8C993C79F42978ED00E39956FA8CA}
+## 在字符串值{#section_01F8C993C79F42978ED00E39956FA8CA}中执行替换
 
 您可以修改设计以替换字符串中的值。 例如，将美国使用的小数点分隔符替换为欧洲和其他国家／地区使用的逗号分隔符。
 
@@ -234,7 +234,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                     </span>
 ```
 
-## 自定义模板大小并检查空值 {#default}
+## 自定义模板大小并检查空值{#default}
 
 下面的模板使用 Velocity 脚本控制实体显示的动态大小，从而可容纳一对多结果，这样当 [!DNL Recommendations] 未返回足够的匹配实体时，便无需创建空的 HTML 元素。此脚本非常适用于备份推荐没有意义且已启用“[!UICONTROL 部分模板渲染]”的情景。
 

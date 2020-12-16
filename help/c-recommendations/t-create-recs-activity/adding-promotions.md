@@ -1,10 +1,10 @@
 ---
-keywords: promotions;front promotions;back promotions;promotions type
+keywords: promotions;front promotions;back promotions;promotions type;list of items;promote by attribute;promote a collection
 description: 可添加促销项目并控制它们在 Adobe Target“推荐”设计中的放置位置。您可以添加静态和动态促销活动。
 title: 在 Adobe Target“推荐”设计中添加促销活动。
 feature: recs creation
 translation-type: tm+mt
-source-git-commit: e07a457339509d1019cdd241ef3adfbb17ffafaa
+source-git-commit: 180a8064019e8d4a44db13923aad7422f67ccf3f
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 60%
@@ -14,7 +14,7 @@ ht-degree: 60%
 
 # ![PREMIUM](/help/assets/premium.png) 添加促销活动
 
-可添加促销项目并控制它们在“推荐”设计中的放置位置。您可以添加静态和动态促销活动。
+可添加促销项目并控制它们在 Adobe Target“推荐”设计中的放置位置。您可以添加静态和动态促销活动。
 
 >[!IMPORTANT]
 >
@@ -58,15 +58,13 @@ ht-degree: 60%
    * 选择&#x200B;**[!UICONTROL 促销收藏集]**，然后选择要促销的项目收藏集。
 
       您可以创建新的收藏集，以将其用于促销活动。请参阅[创建收藏集](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)，以了解更多信息。
-   如果选择“ **[!UICONTROL 项目列表]** ”作为“ **[!UICONTROL 升级类型]**”，请选中“随 **[!UICONTROL 机化项目顺序]** ”复选框（如果需要）。
+   如果选择“ **[!UICONTROL 列表项]** ”作为“ **[!UICONTROL 升级类型]**”，则可以选中“随 **[!UICONTROL 机化项目顺序]** ”复选框（如果需要）。
 
-   项目列表的 [!UICONTROL 默认排序顺序] ，基于您在目标UI或API中输入的顺序。
-
-   If your list includes more items than the number of slots you set for promotions, the [!UICONTROL Randomize Item Order] option randomizes the promoted items that are displayed in your design. Choosing this option results in [!DNL Target] randomly selecting the items enabled for promotions in the template from the entire promotion set on each hit.
+   项目列表的 [!UICONTROL 默认排序顺序] ，基于您在目标UI或API中输入的顺序。 If your list includes more items than the number of slots you set for promotions, the [!UICONTROL Randomize Item Order] option randomizes the promoted items that are displayed in your design. Choosing this option results in [!DNL Target] randomly selecting the items enabled for promotions in the template from the entire promotion set on each hit.
 
    如果您的实体没有 `entity.value` 属性（例如，您不销售产品），则可以将数字值传递 `entity.value` 到属性，如发布日期。 在这种情况下，可以按降序根据最近的发布日期提升提升项目。 属 `entity.value` 性为多次;它不接受字符串。
 
-   如果选择了“ [!UICONTROL 按属性提] 升” [!UICONTROL 或“提升集合] ”选项，则不适用随机化顺序的选项。
+   如果选择了“ **[!UICONTROL 按属性提]** 升” **[!UICONTROL 或“提升集合]** ”选项，则不适用随机化顺序的选项。
 
    使用“按属性提 [!UICONTROL 升”或“提] 升集合”选项提升特定项目时 [!UICONTROL ，显示项目的默认顺序基于属]`entity.value` 性（以数字降序）。
 
@@ -75,8 +73,8 @@ ht-degree: 60%
    | 升级类型 | 默认排序 | 备份排序 | 动态筛选选项 |
    | --- | --- | --- | --- |
    | 项目列表 | 在目标UI/API中输入的订单 | 随机（通过UI/API选择时） | 否 |
-   | 按属性提升 | entity.value（降序顺序） | 对每个请求进行随机化（当不存在entity.value属性时） | 否 |
-   | 提升集合 | entity.value（降序顺序） | 对每个请求进行随机化（当不存在entity.value属性时） | 否 |
+   | 按属性提升 | `entity.value` （降序） | 对每个请求进行随机化(当 `entity.value` 没有属性时) | 是 |
+   | 提升集合 | `entity.value` （降序） | 对每个请求进行随机化(当 `entity.value` 没有属性时) | 否 |
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 

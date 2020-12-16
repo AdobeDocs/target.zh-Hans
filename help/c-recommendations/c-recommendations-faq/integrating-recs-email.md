@@ -59,13 +59,13 @@ curl -X POST \
 
 有关更多信息，请参阅[交付 API 文档](https://developers.adobetarget.com/api/#server-side-delivery)。
 
-## Option 2: Use a rawbox email template {#section_C0D48A42BCCE45D6A68852F722C7C352}
+## 选项2:使用rawbox电子邮件模板{#section_C0D48A42BCCE45D6A68852F722C7C352}
 
 rawbox 类似于 mbox 请求，但适用于诸如电子邮件服务提供商 (ESP) 之类的非 Web 环境。由于没有可用于 rawbox 请求的 [!DNL mbox.js] 或 [!DNL at.js]，因此您必须手动创建请求。以下示例介绍了如何在电子邮件中处理 rawbox 请求。
 
 >[!NOTE]
 >
->使用rawbox和时，请 [!DNL Target]参阅“创建”下的重 [要安允许列表全声明，该目标指定已获得授权向发送mbox调用的主机](/help/administrating-target/hosts.md#allowlist)。
+>使用rawbox和[!DNL Target]时，请参阅[创建允许列表符下的重要安全声明，指定有权向目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机。
 
 使用此方法，您可以跟踪推荐在电子邮件中的性能，像测试常规推荐那样测试电子邮件中的推荐，并继续跟踪网站。
 
@@ -110,7 +110,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>（以下特定类型的标准需要使用此参数：已查看/已查看、已查看/已购买、已购买/已购买）。 | *entity_id* | 推荐所基于的产品 ID，例如在购物车中放弃的产品或以前购买的产品。<br>如果推荐标准具有相应要求，则 rawbox 必须包含 `entity.id`。 |  |
 | `entity.event.detailsOnly` | true | 如果传递了 `entity.id`，则强烈建议您也传递此参数，以阻止请求递增某个项目的页面查看统计次数，从而使基于产品查看的算法不会出现偏差。 |  |
 | `entity.categoryId`<br>（以下特定类型的标准需要使用此参数：按类别查看次数最多的项目和按类别最畅销的商品） | *category_id* | 推荐所基于的类别，例如某个类别中最畅销的商品。<br>如果推荐标准具有相应要求，则 rawbox 必须包含 `entity.categoryId`。 |  |
-| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 参数不存在，则 `mboxDefault` 应该是一个绝对 URL，在没有可用推荐的情况下，该 URL 将返回默认内容。默认内容可以是一个图像或其他静态内容。<br>如果 `mboxNoRedirect` 参数存在，则 `mboxDefault` 可以是用于指示没有推荐的任何文本，例如 `no_content`。<br>电子邮件提供商将需要处理返回此值的情况，并将默认 HTML 插入到电子邮件中。 <br> **安全最佳实践**:请注意，如果URL中使用的 `mboxDefault` 域未列入允许列表，则您可能面临“开放重定向”漏洞的风险。 为避免重定向器链接或第三方 `mboxDefault` 未授权地使用，我们建议您使用“授权主机”允许列表默认重定向URL域。 目标使允许列表用主机要允许重定向的域。 有关详细信息，请参 [阅创允许列表建指定已授权向主机中的目标发送mbox调用的主机的程序](/help/administrating-target/hosts.md#allowlist) ( *英文)*。 |  |
+| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 参数不存在，则 `mboxDefault` 应该是一个绝对 URL，在没有可用推荐的情况下，该 URL 将返回默认内容。默认内容可以是一个图像或其他静态内容。<br>如果 `mboxNoRedirect` 参数存在，则 `mboxDefault` 可以是用于指示没有推荐的任何文本，例如 `no_content`。<br>电子邮件提供商将需要处理返回此值的情况，并将默认 HTML 插入到电子邮件中。 <br> **安全最佳实践**:请注意，如果URL中使用的 `mboxDefault` 域未列入允许列表，则您可能面临“开放重定向”漏洞的风险。为避免第三方未授权使用重定向器链接或`mboxDefault`，我们建议您使用“授权主机”来允许列表默认重定向URL域。 目标使允许列表用主机要允许重定向的域。 有关详细信息，请参阅[创允许列表建指定有权向&#x200B;*Hosts*&#x200B;中的目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机的。 |  |
 | `mboxHost` | *mbox_host* | 这是调用触发时添加到默认环境（主机组）的域。 |  |
 | `mboxPC` | 留空 | （使用访客配置文件的推荐需要使用此参数。）<br>如果未提供“thirdPartyId”，则新的 tntId 将会生成，并在响应中返回。否则，此值将继续留空。<br>**注意：**&#x200B;请确保为每个电子邮件收件人（即，每个 API 调用）的 `mboxSession` 和 `mboxPC` 提供唯一值。如果您没有为这些字段提供唯一值，则由于在单个配置文件中会生成大量事件，API 响应可能变慢或失败。 | 1 &lt; 长度 &lt; 128<br>最多只能包含一个“.”（圆点）。<br>仅允许在配置文件位置后缀中使用圆点。 |
 

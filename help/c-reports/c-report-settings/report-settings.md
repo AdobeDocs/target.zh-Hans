@@ -14,7 +14,7 @@ ht-degree: 68%
 
 # 报表设置{#report-settings}
 
-Information to help you set the elements you want to appear in your report in [!DNL Adobe Target]. 可保存报表设置，以供日后使用。
+帮助您设置要显示在[!DNL Adobe Target]报告中的元素的信息。 可保存报表设置，以供日后使用。
 
 要显示报表，请执行以下操作：
 
@@ -25,7 +25,7 @@ Information to help you set the elements you want to appear in your report in [!
 
 ## Target 预设 {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-根据需要配置单个活动的报表后，您最多可以保存该报表的 10 个不同预设（量度、日期范围、受众、高级设置等）。All [!DNL Target] users can display, edit, and delete the various presets, regardless of who created them.
+根据需要配置单个活动的报表后，您最多可以保存该报表的 10 个不同预设（量度、日期范围、受众、高级设置等）。所有[!DNL Target]用户都可以显示、编辑和删除各种预设，无论这些预设是谁创建的。
 
 您还可以根据需要配置单个活动的报表，然后将该配置保存为默认/收藏预设。当您以后查看该活动的报表时，便会显示此视图。
 
@@ -43,8 +43,8 @@ Information to help you set the elements you want to appear in your report in [!
 
    ![“新建预设”对话框](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. Review the information in the **[!UICONTROL Filters]** and **[!UICONTROL Settings]** sections to ensure that the report is configured as desired, then specify the **[!UICONTROL Preset Name]** (up to 50 characters).
-1. (Conditional) If you want this to be your default/favorite report view, slide the **[!UICONTROL Set as default preset]** toggle to the On position.
+1. 查看&#x200B;**[!UICONTROL 过滤器]**&#x200B;和&#x200B;**[!UICONTROL 设置]**&#x200B;部分中的信息，确保根据需要配置报告，然后指定&#x200B;**[!UICONTROL 预设名称]**（最多50个字符）。
+1. （视情况而定）如果您希望此视图为默认／最喜爱的报表，请将&#x200B;**[!UICONTROL 设置为默认预设]**&#x200B;切换到开启位置。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ### 选择其他预设
@@ -77,7 +77,7 @@ Information to help you set the elements you want to appear in your report in [!
 
    ![删除报表默认预设](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. 再次 **[!UICONTROL 单击]** “删除”以确认删除（无法恢复已删除的预设）。
+1. 再次单击&#x200B;**[!UICONTROL 删除]**&#x200B;以确认删除（无法恢复已删除的预设）。
 
 ### 预设错误处理
 
@@ -111,7 +111,7 @@ Information to help you set the elements you want to appear in your report in [!
 
 ![选项](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-为报表选择新的&#x200B;**[!UICONTROL 开始]**&#x200B;日期和&#x200B;**[!UICONTROL 结束]**&#x200B;日期。You can also use the **[!UICONTROL From start of Activity]** and **[!UICONTROL Till end of Activity]** check boxes.
+为报表选择新的&#x200B;**[!UICONTROL 开始]**&#x200B;日期和&#x200B;**[!UICONTROL 结束]**&#x200B;日期。您还可以使用&#x200B;**[!UICONTROL “从活动开始]**&#x200B;和&#x200B;**[!UICONTROL 直到活动结束”复选框。]**
 
 单击&#x200B;**[!UICONTROL 自定义日期]**&#x200B;可选择预定义的日期范围：“最近 7 天”、“最近 15 天”或“最近 30 天”。这些预定义的日期范围是可滚动的范围。如果从开始日期算起的天数少于所选天数，则日历将显示从开始日期起的范围，但是如果随着活动持续时间增加，从开始日期算起的天数多于所选天数，则日期范围会相应滚动。
 
@@ -152,7 +152,7 @@ Information to help you set the elements you want to appear in your report in [!
 
 ### 重置报表数据
 
-重置报告数据以删除旧数据。 当前的访客将保留在活动中。This option is available only for those with [!UICONTROL Approver] permissions.
+重置报告数据以删除旧数据。 当前的访客将保留在活动中。此选项仅适用于具有[!UICONTROL 批准者]权限的用户。
 
 >[!IMPORTANT]
 >
@@ -160,11 +160,11 @@ Information to help you set the elements you want to appear in your report in [!
 
 ### 排除极端值
 
-The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. 有关更多信息，请参阅[排除超常订单](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)。
+[!UICONTROL 排除极值]切换仅适用于收入和参与度指标类型的活动。 有关更多信息，请参阅[排除超常订单](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)。
 
 ## 下载 {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv] format for quick import into Excel, Access, or other data analysis programs.
+单击&#x200B;**[!UICONTROL 下载]**&#x200B;图标以下载[!DNL .csv]格式的报告数据，以便快速导入Excel、Access或其他数据分析项目。
 
 ![下载图标](/help/c-reports/c-report-settings/assets/download-icon.png)
 
@@ -172,9 +172,9 @@ Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv
 
 ## 刷新 {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and graph view without refreshing the entire page, its configuration, or its date range.
+单击&#x200B;**[!UICONTROL 刷新]**&#x200B;图标可刷新报表的表格和图形视图，而不刷新整个页面、其配置或日期范围。
 
-## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## 更多选项{#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 单击“更多选项”图标（三个垂直省略号）可访问“[!UICONTROL 编辑活动]”和“[!UICONTROL 查看体验 URL]”选项。
 
@@ -184,10 +184,10 @@ Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and grap
 
 ![视图选项图标](/help/c-reports/c-report-settings/assets/view-options.png)
 
-* **表视图**:单击“ **[!UICONTROL 表视图]** ”图标，将报表视图为表。
-* **图形视图**:单击图 **[!UICONTROL 形视图]** 图标以将报表视图为图形。
-* **自动细分**:(仅适用于Automated Personalization(AP)和自动目标(AT)活动。) 单击“**自动[!UICONTROL 化细分] ”图标以视图 [“自动细分”报表](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
-* **重要属性**:(仅适用于Automated Personalization(AP)和自动目标(AT)活动。) 单击“**重要[!UICONTROL 属性] ”图标以视图 [重要属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
+* **表视图**:单击“ **[!UICONTROL 表]** 视图”图标以将报表视图为表。
+* **图形视图**:单击图 **[!UICONTROL 形]** 视图图标以将报表视图为图形。
+* **自动细分**:(仅适用于Automated Personalization(AP)和自动目标(AT)活动。)单击“**[!UICONTROL 自动化区段]”图标以视图[自动化区段报告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
+* **重要属性**:(仅适用于Automated Personalization(AP)和自动目标(AT)活动。)单击**[!UICONTROL 重要属性]图标以视图[重要属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
 
 ## 平均提升度、提升度范围和置信区间 {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -235,9 +235,9 @@ Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and grap
 
 （仅在图形视图中查看报表时可用）
 
-您可以为报表中的图形选择计数方法。Note that this is not supported for [!UICONTROL Automated Personalization] (AP) activities.
+您可以为报表中的图形选择计数方法。请注意，[!UICONTROL Automated Personalization](AP)活动不支持此功能。
 
-To access the [!UICONTROL Counting Methodology] option, while viewing a report in graph mode, click the **[!UICONTROL My Primary Goal]** drop-down, then select the counting methodology.
+要访问[!UICONTROL 计数方法]选项，在以图形模式查看报告时，单击&#x200B;**[!UICONTROL 我的主要目标]**&#x200B;下拉列表，然后选择计数方法。
 
 计数方法将与在“[!UICONTROL 设置]”对话框中选择的方法相同，具体如上所述。
 
@@ -245,7 +245,7 @@ To access the [!UICONTROL Counting Methodology] option, while viewing a report i
 
 默认情况下，图形会按“[!UICONTROL 每日]”模式进行绘制。
 
-You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then selecting a cumulative option.
+单击[!UICONTROL Daily]下拉列表，然后选择累积选项，即可更改模式。
 
 ![累积](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
@@ -264,8 +264,8 @@ You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then 
 
 在使用“计数方法”选项时，请考虑以下注意事项：
 
-* For [Auto-Target activities](/help/c-activities/auto-target/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. 自动定位是唯一一种无法按访客绘制图形的活动类型。
-* For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
+* 对于[自动目标活动](/help/c-activities/auto-target/auto-target-to-optimize.md)，没有选择“访客”作为计数方法的选项。 自动定位是唯一一种无法按访客绘制图形的活动类型。
+* 对于使用[Analytics作为报告源(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)的活动，您不能累计绘制访客、访问或印象。
 
 ## 处理在活动中具有16个以上体验的图形
 

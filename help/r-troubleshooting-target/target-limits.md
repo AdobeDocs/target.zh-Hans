@@ -204,7 +204,7 @@ ht-degree: 76%
 
 **建议限制每个帐户的用户档案脚本总数**:2,000
 
-**Recommendations限制用户档案脚本复杂性**:用户档案脚本可以执行有限数量的指令。 有关详细信息，请参 [阅用户档案](/help/c-target/c-visitor-profile/profile-parameters.md#best) 属性 *的最佳实践*。
+**Recommendations限制用户档案脚本复杂性**:用户档案脚本可以执行有限数量的指令。有关详细信息，请参阅&#x200B;*用户档案属性*&#x200B;中的[最佳实践](/help/c-target/c-visitor-profile/profile-parameters.md#best)。
 
 ## 属性
 

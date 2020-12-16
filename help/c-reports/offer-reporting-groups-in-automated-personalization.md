@@ -14,26 +14,26 @@ ht-degree: 64%
 
 # ![PREMIUM](/help/assets/premium.png) 自动个性化中的选件报表组{#offer-reporting-groups-in-automated-personalization}
 
-Information about using reporting groups in [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) activities.
+有关在[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)活动中使用报告组的信息。
 
 报表组执行两项关键功能：
 
 * 它们允许您查看在 AP 活动报表中分组的选件。
-* They play a key role with how the [!DNL Target] personalization models function.
+* 他们在[!DNL Target]个性化模型的运行方式方面起着关键作用。
 
-When you use reporting groups, [!DNL Target] creates only one personalization model for each reporting group instead of each offer in your AP activity using the data from all offers in that group.
+使用报告组时，[!DNL Target]仅为每个报告组创建一个个性化模型，而不是使用该组中所有优惠的数据在AP活动中创建每个优惠。
 
 如果您的活动设置没有足够的数据来为每个选件构建个性化模型，则报表组可以帮助降低使用自动个性化的数据要求。报表组还可以通过对相似选件进行分组来帮助解决新选件的“冷启动”问题，以便每个模型获得更多培训数据。对于定期向 AP 活动引入新选件的活动，还可使用建模组。
 
-如果访客以相同的方式响应组中的所有选件，则此方法很有效。最佳做法是对相似访客组以相似方式进行响应的选件进行分组。换句话说，对具有相似转化率的选件进行分组。您绝不应该将所有选件都放置到一个报表组中。Grouping all offers or grouping offers with very different conversion rates likely reduces the effectiveness of the [!DNL Target] personalization models.
+如果访客以相同的方式响应组中的所有选件，则此方法很有效。最佳做法是对相似访客组以相似方式进行响应的选件进行分组。换句话说，对具有相似转化率的选件进行分组。您绝不应该将所有选件都放置到一个报表组中。将所有优惠分组或将具有非常不同转化率的优惠分组可能会降低[!DNL Target]个性化模型的有效性。
 
 >[!NOTE]
 >
->如果删除或替换特定建模组中的选件，则也会删除建模组中查看该特定选件的历史流量。In other words, deleted offers do not contribute to what data is used for the [!DNL Target] personalization models to learn.
+>如果删除或替换特定建模组中的选件，则也会删除建模组中查看该特定选件的历史流量。换言之，已删除的优惠不会影响[!DNL Target]个性化模型所使用的数据。
 
 **设置报表组：**
 
-1. On the [!UICONTROL Experiences] page of an AP activity, click the **[!UICONTROL Manage Content]** icon.
+1. 在AP活动的[!UICONTROL 体验]页面上，单击&#x200B;**[!UICONTROL 管理内容]**&#x200B;图标。
 
    ![](assets/ap_manage_content.png)
 
@@ -46,7 +46,7 @@ When you use reporting groups, [!DNL Target] creates only one personalization mo
 
    ![](assets/ap_manage_content_3.png)
 
-1. (Conditional) To assign the selected offer to an existing reporting group, select **[!UICONTROL Existing]**, select the desired reporting group from the drop-down list, then click **[!UICONTROL Apply]**.
+1. （视情况而定）要将选定优惠分配给现有报告组，请选择&#x200B;**[!UICONTROL 现有]**，从下拉列表中选择所需的报告组，然后单击&#x200B;**[!UICONTROL 应用]**。
 
    或
 

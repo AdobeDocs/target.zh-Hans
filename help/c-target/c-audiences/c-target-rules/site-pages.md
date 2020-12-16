@@ -22,19 +22,19 @@ ht-degree: 43%
 
    ![“网站页面”受众](assets/target_site_pages.png)
 
-1. 单击 **[!UICONTROL 选择]** (Select)下拉列表，选择以下选项之一，然后根据需要配置规则。
+1. 单击&#x200B;**[!UICONTROL 选择]**&#x200B;下拉列表，选择以下选项之一，然后根据需要配置规则。
 
-   规则中后续下拉列表中的可用选项和计算器因您选择的选项而异。 下图显示了如果选择“当前页面”时可用 [!UICONTROL 的选项]:
+   规则中后续下拉列表中的可用选项和计算器因您选择的选项而异。 下图显示了选择[!UICONTROL 当前页]时可用的选项：
 
    ![当前页面](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
 
-   选择“选择”后，初始下拉列表中提供以下 [!UICONTROL 选项]。
+   选择[!UICONTROL 选择]后，在初始下拉列表下，可以使用以下选项。
 
-   * **当前页：** 用户当前所在的页面。
+   * **当前页** 面：用户当前所在的页面。
 
       如果选择此选项，则第二个下拉列表中提供以下选项：
 
-      * URL(有关目标如何评估URL的更多信息，请参 [阅目标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
+      * URL(有关目标如何评估URL的详细信息，请参阅[目标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
       * 域
       * 查询
       * 子域
@@ -45,7 +45,7 @@ ht-degree: 43%
 
       如果选择此选项，则第二个下拉列表中提供以下选项：
 
-      * URL(有关目标如何评估URL的更多信息，请参 [阅目标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
+      * URL(有关目标如何评估URL的详细信息，请参阅[目标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
       * 域
       * 查询
       * 子域
@@ -55,7 +55,7 @@ ht-degree: 43%
 
       如果选择此选项，则第二个下拉列表中提供以下选项：
 
-      * URL(有关目标如何评估URL的更多信息，请参 [阅目标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
+      * URL(有关目标如何评估URL的详细信息，请参阅[目标和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。)
       * 域
       * 查询
       * 子域
@@ -67,7 +67,7 @@ ht-degree: 43%
       >
       >`landing.url` 对象会在更改子域或直接替换 URL 时重置。
 
-   * **HTTP头：** 此选项评估目标请求的HTTP头中的信息。 例如，如果HTTP头包含语言信息，您可以创建一个规则，该规则包含用西班牙语 `Accept-Language: es` 访问页面的目标访客的条件。
+   * **HTTP头：** 此选项评估目标请求的HTTP头中的信息。例如，如果HTTP头包含语言信息，您可以创建一个包含`Accept-Language: es`条件的规则，以便目标访客以西班牙语访问页面。
 
       如果选择此选项，则第二个下拉列表中提供以下选项：
 
@@ -101,7 +101,7 @@ ht-degree: 43%
       * Via
       * 警告
 
-   如果选择“当 [!UICONTROL 前页]”、 [!UICONTROL “上一页”或]“登陆页 [!UICONTROL ”，则可] 以使用查询和选项。 选择这些选项时，请考虑以下事项：
+   如果选择“[!UICONTROL 当前页]、[!UICONTROL 前一页]或[!UICONTROL 登陆页]”，则[!UICONTROL 域]和[!UICONTROL 查询]选项可用。 选择这些选项时，请考虑以下事项：
 
    * **域：**&#x200B;页面的完整域。指定域时，最佳做法是使用“包含”。例如，“域等于 facebook.com”将不接受 `m.facebook.com` 或 `www.facebook.com`。而“域包含 facebook.com”则将接受 facebook.com 的任何变体。
    * **查询：** URL 中第一个问号 (?) 后面的内容。
@@ -128,15 +128,16 @@ ht-degree: 43%
 
 ## 疑难解答 {#ts}
 
-* 要使登陆页受众正常工作，请 `mboxReferrer` 求必须设置at.js JavaScript库从页面 `context.address.referringUrl` 使用属性获取的参数(对于投放API，参数 `document.referrer` )。 此 `HTMLDocument` 属性返回用户从中导航的页面的URI。 当用户直接导航到页面时（不是通过链接，而是通过书签），此属性的值为空字符串。
+* 要使登陆页受众正常工作，请求必须设置`mboxReferrer`参数(对于投放API，设置at.js JavaScript库使用`document.referrer`属性从页面获取的`context.address.referringUrl`参数)。 此`HTMLDocument`属性返回用户从中导航的页面的URI。 当用户直接导航到页面时（不是通过链接，而是通过书签），此属性的值为空字符串。
 
    如果此行为与您的要求不符，请考虑执行下列操作之一：
 
-   * 传 [递mbox参数](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) , [!DNL Target] 以用于定位目的。
-   * 使用 [A/B测试活动](/help/c-activities/t-test-ab/test-ab.md) ，而不是登陆页活动。 A/B测试活动不会为同一访客切换体验。
-   * 请改 [用访客](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 用户档案。
+   * 将[mbox参数](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)传递到[!DNL Target]以用于定位。
+   * 使用[A/B测试活动](/help/c-activities/t-test-ab/test-ab.md)代替登陆页活动。 A/B测试活动不会为同一访客切换体验。
+   * 请改用[访客用户档案](/help/c-target/c-audiences/c-target-rules/visitor-profile.md)。
 
-* 对包含逗号的字符串使用“开始/结尾”计算器时，请注意，这些值将作为一组值进行计算，其中每个以逗号分隔的值都会进行计算。 例如，如果我们有标题的值： `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` 它将满足以下条件：
+* 在包含逗号的字符串上使用“开始/结尾”计算器时，请注意这些
+将作为一组值进行计算，其中每个值以逗号分隔。 例如，如果我们有标题的值：`Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7`它将满足以下条件：
    * 开始使用zh,
    * 开始,
    * 以0.7结束，

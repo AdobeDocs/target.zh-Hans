@@ -59,7 +59,7 @@ at.js 库是适用于 [!DNL Adobe Target] 的新实施库，专为典型的 Web 
 
 * 专为单页应用程序/MVC 框架设计了函数
 
-## 培训视频：at.js - 优势和实施最佳实践 ![概述徽章](/help/assets/overview.png)
+## 培训视频：at.js - 优势和实施最佳实践  ![概述徽章](/help/assets/overview.png)
 
 此视频是“[办公时间](/help/cmp-resources-and-contact-information.md)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 

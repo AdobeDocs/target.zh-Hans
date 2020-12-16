@@ -26,7 +26,7 @@ ht-degree: 80%
 
 通过将不透明度设置为 0，可保持页面内容处于隐藏状态以防止闪烁，但浏览器仍会渲染页面并加载所有必需的资产，如 CSS、图像等。
 
-如果在您的实施中将不透明度设置为 0 不起作用，您还可以通过自定义 `bodyHiddenStyle` 并将其设置为 `body {visibility:hidden !important}` 来管理闪烁。You can use either value body `{opacity:0 !important}` or `body {visibility:hidden !important}`, whichever works best for your specific circumstance.
+如果在您的实施中将不透明度设置为 0 不起作用，您还可以通过自定义 `bodyHiddenStyle` 并将其设置为 `body {visibility:hidden !important}` 来管理闪烁。您可以使用值体`{opacity:0 !important}`或`body {visibility:hidden !important}`，以最适合您的特定情况的方式。
 
 下图显示了 at.js 1.*x* 和 at.js 2.x 中的“隐藏主体”和“显示主体”调用。
 

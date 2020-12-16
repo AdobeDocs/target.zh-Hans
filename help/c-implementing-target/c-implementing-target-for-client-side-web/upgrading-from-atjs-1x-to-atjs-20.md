@@ -47,7 +47,7 @@ ht-degree: 92%
 | --- | --- |
 | 1 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
 | 2 | 从缓存中读取视图的目标内容。 |
-| 3 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
+| 1 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
 | 4 | 通知请求将发送到 [!DNL Target] 配置文件存储区，以计算活动中的访客和递增量度。 |
 | 5 | Analytics 数据会发送到数据收集服务器。 |
 | 6 | Target 数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 A4T 报表查看 Analytics 数据。 |
@@ -248,7 +248,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 ### at.js 中的全局 mbox 名称是否无关紧要？
 
-Customers are able to specify a global mbox name via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. [!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为 [!DNL Target] UI 中显示的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并使用全局 mbox 名称创建受众。We strongly recommend that you also make sure the same global mbox name is configured on the [!UICONTROL Administration > Visual Experience Composer] page, as well, in case you still have pages using at.js 1.*x* 或 mbox.js 的页面，如以下插图所示。
+客户可以通过[!UICONTROL 目标>管理>实施>编辑at.js设置]指定全局mbox名称。 [!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为 [!DNL Target] UI 中显示的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并使用全局 mbox 名称创建受众。我们强烈建议您在[!UICONTROL “管理”>“可视体验书写器”]页面上配置相同的全局mbox名称，以防您仍有使用at.js 1的页面。*x* 或 mbox.js 的页面，如以下插图所示。
 
 ![修改 at.js 对话框](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -288,7 +288,7 @@ Customers are able to specify a global mbox name via [!UICONTROL Target > Admini
 
 但是，在 at.js 2.*x* 中，我们不再使用 HTTP GET，而是使用 HTTP POST。现在，通过 at.js 2.*x* 来使用 HTTP POST 将 JSON 有效负载发送到 Target 边缘服务器。这意味着检查浏览器是否支持第三方 Cookie 的重定向请求现在会中断。这是因为 HTTP GET 请求是幂等事务，而 HTTP POST 是非幂等事务，不能任意重复。因此，不再对 at.js 2.*x* 中的跨域跟踪功能提供开箱即用支持。只有 at.js 1.*x* 对跨域跟踪功能提供开箱即用支持。
 
-如果要使用跨域跟踪，则必须将 [ECID库v4.3.0+与](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) at.js 2一起安装。*x* 中不再对跨域跟踪提供开箱即用支持。ECID 库可以管理用于跨域识别访客的永久 ID。
+如果要使用跨域跟踪，则必须与at.js 2一起安装[ECID库v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html)。*x* 中不再对跨域跟踪提供开箱即用支持。ECID 库可以管理用于跨域识别访客的永久 ID。
 
 >[!NOTE]
 >
@@ -300,7 +300,7 @@ Customers are able to specify a global mbox name via [!UICONTROL Target > Admini
 
 ### 支持全局 Mbox 名称
 
-Customers are able to specify a global mbox name via [!UICONTROL Target > Administration > Implementation > Edit]. [!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为输入的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并创建针对全局 mbox 的受众。
+客户可以通过[!UICONTROL 目标>管理>实施>编辑]指定全局mbox名称。 [!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为输入的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并创建针对全局 mbox 的受众。
 
 ### 以下 at.js 自定义事件是否适用于 `triggerView()`，还是仅适用于 `applyOffer()` 或 `applyOffers()`？
 
@@ -311,7 +311,7 @@ Customers are able to specify a global mbox name via [!UICONTROL Target > Admini
 
 是，at.js 自定义事件也适用于 `triggerView()`。
 
-### It says when I call `triggerView()` with &amp;lbrace;`“page” : “true”`&amp;rbrace;, it will send a notification to the [!DNL Target] backend and increase the impression. 它是否还会导致系统执行配置文件脚本？
+### 它说，当我使用&amp;lbrace;`“page” : “true”`&amp;rbrace；调用`triggerView()`时，它将向[!DNL Target]后端发送通知并增加印象。 它是否还会导致系统执行配置文件脚本？
 
 当对 [!DNL Target] 后端进行预取调用时，将会执行配置文件脚本。此后，受影响的配置文件数据将被加密并传递回客户端。在调用使用 `{"page": "true"}` 的 `triggerView()` 后，将会发送通知以及加密的配置文件数据。之后，[!DNL Target] 后端将解密配置文件数据并将其存储到数据库中。
 
@@ -319,9 +319,9 @@ Customers are able to specify a global mbox name via [!UICONTROL Target > Admini
 
 不需要，在调用 `triggerView()` 之前，您不需要添加预隐藏代码。at.js 2.*x* 会在显示和应用视图之前管理预隐藏和闪烁逻辑。
 
-### 那是at.js 1。*at* .js 2中不支持创建受众的x参数。*x*? {#audience-parameters}
+### 那是at.js 1。*at.* js 2中不支持用于创建受众的xparameter。*x*? {#audience-parameters}
 
-使用at.js 2时，当前不 *支持* 以下at.js 1.x参数进行受众创建。*x* 中的 Target 流程 - 页面加载请求：
+使用at.js 2时，当前支持以下at.js 1.x参数&#x200B;*NOT*&#x200B;进行受众创建。*x* 中的 Target 流程 - 页面加载请求：
 
 * browserHeight
 * browserWidth
@@ -334,7 +334,7 @@ Customers are able to specify a global mbox name via [!UICONTROL Target > Admini
 
 ## at.js 兼容性
 
-以下表格介绍了 at.js. 2.*x* compatibility with different activity types, integrations, features, and at.js functions.
+以下表格介绍了 at.js. 2.*x*&#x200B;与不同活动类型、集成、功能和at.js函数的兼容性。
 
 ### 活动类型 {#types}
 
@@ -371,7 +371,7 @@ Customers are able to specify a global mbox name via [!UICONTROL Target > Admini
 
 | 功能 | 受支持? |
 | --- | --- |
-| X-Domain | 否 |
+| X域 | 否 |
 | 属性/工作区 | 是 |
 | QA 链接 | 是 |
 | 基于表单的体验编辑器 | 是 |
@@ -412,7 +412,7 @@ at.js 2.*x*（与 at.js 1.*x* 一样）使用自定义事件 `at-request-succeed
 * at.js 2.*x* - 客户端代码将作为查询字符串参数发送，例如：
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-以下部分列出了每个 at.js 1.*x* 参数、其描述和相应的2。*xJSON* 有效负荷（如果适用）:
+以下部分列出了每个 at.js 1.** xparameter、其描述和相应的2。*xJSON* 有效负荷（如果适用）:
 
 ### at_property
 
@@ -756,10 +756,10 @@ at.js 2.*x* JSON 有效负载：
 
 版本将通过 version 参数作为查询字符串参数发送。
 
-## 培训视频：at.js 2.*x架构* 图概 ![述徽章](/help/assets/overview.png)
+## 培训视频：at.js 2.** Xastercial Diagram概 ![述徽章](/help/assets/overview.png)
 
 at.js 2.*x* 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Cloud 解决方案集成。该视频介绍了如何将所有内容结合到一起。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-请参 [阅了解at.js 2的使用方法。*x可* 用](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) ，了解更多信息。
+请参阅[了解at.js 2的使用方法。*xwork* ](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 了解更多信息。

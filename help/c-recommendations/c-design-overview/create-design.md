@@ -16,7 +16,7 @@ ht-degree: 32%
 
 设计可定义推荐在页面上的显示方式。
 
-您可以使用默认设计或通过创建自定义设计来创建[!UICONTROL 推荐]设计。“ **[!UICONTROL Recommendations”]** >“设计”屏幕显示默认设计卡和在您的帐户中创建的任何设计。
+您可以使用默认设计或通过创建自定义设计来创建[!UICONTROL 推荐]设计。**[!UICONTROL “Recommendations”>“设计”]**&#x200B;屏幕显示默认设计卡和在您的帐户中创建的任何设计。
 
 处理设计时，请牢记以下信息：
 
@@ -41,27 +41,27 @@ ht-degree: 32%
 
 ### 根据默认设计创建设计
 
-1. 单击 **[!UICONTROL Recommendations]** > **[!UICONTROL 设计]** ，以显示 [!UICONTROL 设计] 库。
+1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 设计]**&#x200B;以显示[!UICONTROL 设计]库。
 
    ![设计库](/help/c-recommendations/c-design-overview/assets/design-library.png)
 
-1. 将鼠标悬停在要创建的设计的卡上，然后单击“复 **[!UICONTROL 制]** ”图标。
+1. 将鼠标悬停在要创建的设计的卡上，然后单击&#x200B;**[!UICONTROL 复制]**&#x200B;图标。
 
    ![](assets/Card_CopyDesign.png)
 
-   此时 [!UICONTROL 将显示] “创建设计”对话框。
+   此时将显示[!UICONTROL 创建设计]对话框。
 
    ![](assets/createDesign.png)
 
-1. 在“信 **[!UICONTROL 息]** ”面板中，添加要 **[!UICONTROL 在设计卡上显示]** 的“内容名称”和可选的预览图像。
+1. 在&#x200B;**[!UICONTROL 信息]**&#x200B;面板中，添加&#x200B;**[!UICONTROL 内容名称]**&#x200B;和可选预览图像以在设计卡上显示。
 
-   When you use a default design, the design name and &quot;Copy&quot; appears in the **[!UICONTROL Content Name]** field. 您可以编辑该名称。您还可以选择要在设计卡上显示的图像。
+   使用默认设计时，设计名称和“复制”显示在&#x200B;**[!UICONTROL 内容名称]**&#x200B;字段中。 您可以编辑该名称。您还可以选择要在设计卡上显示的图像。
 
-1. （视情况而定）根据需 **[!UICONTROL 要编]**&#x200B;辑设计代码。
+1. （视情况而定）根据需要编辑设计&#x200B;**[!UICONTROL 代码]**。
 
-   推荐设计使用的是开源 Velocity 设计语言。有关Velocity的信息，请访 [问https://velocity.apache.org](https://velocity.apache.org) ，并 [参阅使用Velocity自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md)。
+   推荐设计使用的是开源 Velocity 设计语言。有关Velocity的信息，请访问[https://velocity.apache.org](https://velocity.apache.org)和[使用Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md)自定义设计。
 
-   设计可以是 HTML 形式，也可以是非 HTML 形式。默认情况下，HTML 设计将使用`<div>`标记封装，以便允许在 Web 环境中进行点击跟踪。非 HTML 设计适用于无法进行点击跟踪的非 Web 环境。将HTML [!UICONTROL 设计切] 换到“关闭”位置，以使用非HTML代码。
+   设计可以是 HTML 形式，也可以是非 HTML 形式。默认情况下，HTML 设计将使用`<div>`标记封装，以便允许在 Web 环境中进行点击跟踪。非 HTML 设计适用于无法进行点击跟踪的非 Web 环境。将[!UICONTROL HTML Design]切换到“关闭”位置以使用非HTML代码。
 
    >[!NOTE]
    >
@@ -71,15 +71,15 @@ ht-degree: 32%
 
 ### 创建自定义设计
 
-1. 单击 **[!UICONTROL Recommendations]** > **[!UICONTROL 设计]** ，以显示 [!UICONTROL 设计] 库。
+1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 设计]**&#x200B;以显示[!UICONTROL 设计]库。
 
-1. 单击“ **[!UICONTROL 创建设计]**”。
+1. 单击&#x200B;**[!UICONTROL 创建设计]**。
 
-   如果要将新的自定义设计基于现有设计，请将鼠标悬停在所需设计上，然后单击“复 [!UICONTROL 制] ”图标。 然后，您可以编辑副本以创建新的自定义设计。
+   如果要将新的自定义设计基于现有设计，请将鼠标悬停在所需设计上，然后单击[!UICONTROL 复制]图标。 然后，您可以编辑副本以创建新的自定义设计。
 
-1. 添加内容 **[!UICONTROL 名称]** 和可选预览图像。
+1. 添加&#x200B;**[!UICONTROL 内容名称]**&#x200B;和可选预览图像。
 
-1. （视情况而定）根据需 **[!UICONTROL 要编]**&#x200B;辑设计代码。
+1. （视情况而定）根据需要编辑设计&#x200B;**[!UICONTROL 代码]**。
 
    有关详细信息，请参阅上面步骤4中的信息。
 
@@ -89,7 +89,7 @@ ht-degree: 32%
 
 请记住，您无法编辑或复制默认设计；您只能复制默认设计。
 
-将鼠标悬停在设计库中 [!UICONTROL 的所] 需设计上，然后单击相应的图标：编辑、复制或删除。
+将指针悬停在[!UICONTROL Design]库中的所需设计上，然后单击相应的图标：编辑、复制或删除。
 
 ![悬停设计图标](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
@@ -101,7 +101,7 @@ ht-degree: 32%
 
 以下示例显示如何通过基于表单的编辑器配置活动时返回JSON响应。
 
-1. 从设计库或基于表单的工作流程中创建设计。 If you attempt to do this inside the Visual Experience Composer (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a `<div>` for click tracking purposes.
+1. 从设计库或基于表单的工作流程中创建设计。 如果尝试在可视体验书写器(VEC)工作流程中进行此操作，则无法创建HTML设计以外的任何内容，该设计打包在`<div>`中，用于点击跟踪。
 
 1. 确保已关闭“HTML 设计”选项：
 
@@ -136,22 +136,22 @@ ht-degree: 32%
        }  
    ```
 
-1. Set up a form-based [!DNL Recommendations] activity that uses this design.
+1. 设置使用此设计的基于表单的[!DNL Recommendations]活动。
 
-   1. Navigate to the **[!UICONTROL Activities]** page.
+   1. 导航到&#x200B;**[!UICONTROL 活动]**&#x200B;页。
    1. 单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL 推荐]**。
-   1. 在“选 **[!UICONTROL 择体验书写器]**”下，选 **[!UICONTROL 择表单]**，然后单 **[!UICONTROL 击下一步]**。
+   1. 在&#x200B;**[!UICONTROL 选择体验书写器]**&#x200B;下，选择&#x200B;**[!UICONTROL 表单]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
    1. 在“位置”下方，输入文本：“Sample_Recs_Response”
    1. 在&#x200B;**[!UICONTROL 默认内容]**&#x200B;下方，单击向下箭头，然后单击&#x200B;**[!UICONTROL 添加推荐]**。
    1. 选择一种页面类型。这决定了对接下来要显示的屏幕的初步筛选。
    1. 选择一个标准卡片，然后单击&#x200B;**[!UICONTROL 下一步]**。
-   1. Select the design you created in the previous step, then click **[!UICONTROL Next]**.
+   1. 选择您在上一步中创建的设计，然后单击&#x200B;**[!UICONTROL 下一步]**。
    1. 完成设置过程。
    1. 单击&#x200B;**[!UICONTROL 不活跃]**&#x200B;旁边的向右箭头，然后选择&#x200B;**[!UICONTROL 激活]**。
 
 1. 设置活动并将其激活后，您可以设置示例请求，以获取简洁的 JSON 响应。
 
-   From the time that you save your activity, [!DNL Target] will need to build a model to support the selected criteria configuration. 此过程可能会花费一些时间，具体时间取决于众多因素。构建模型后，便会显示结果。
+   从保存活动开始，[!DNL Target]将需要构建一个模型以支持选定的标准配置。 此过程可能会花费一些时间，具体时间取决于众多因素。构建模型后，便会显示结果。
 
    例如：
 
@@ -172,7 +172,7 @@ ht-degree: 32%
 
 ![](assets/json_recommendation.png){width=&quot;575px&quot;}
 
-## Additional JSON object tips and tricks {#section_C305673C68944749969DB239E3221DC2}
+## 其他JSON对象提示与技巧{#section_C305673C68944749969DB239E3221DC2}
 
 您还可以使用以下语法设置设计，以便仅发送回以逗号分隔的项目简单列表：
 
@@ -180,7 +180,7 @@ ht-degree: 32%
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-或者，您也可以在响应中发送更多信息。下面是一个更为复杂的代码文件示例，此代码不仅仅返回了实体 ID 及其关联的版块（顺序），还返回了更多其他内容。This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
+或者，您也可以在响应中发送更多信息。下面是一个更为复杂的代码文件示例，此代码不仅仅返回了实体 ID 及其关联的版块（顺序），还返回了更多其他内容。此设计示例还返回活动详细信息、目标用户档案详细信息（如果适用）以及与返回的项关联的其他`entity.attributes`。
 
 ```javascript
     {   
@@ -320,7 +320,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## Training video: Create custom designs in Recommendations (3:20) ![Overview badge](/help/assets/overview.png)
+## 培训视频：在Recommendations创建自定义设计(3:20)![概述徽章](/help/assets/overview.png)
 
 本视频包含以下信息：
 

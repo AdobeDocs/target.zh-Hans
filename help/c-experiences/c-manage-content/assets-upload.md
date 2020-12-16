@@ -23,7 +23,7 @@ ht-degree: 91%
 
    该项目随即会上传到库中。
 
-## 培训视频：内容存储库 ![概述徽章](/help/assets/overview.png)
+## 培训视频：内容存储库  ![概述徽章](/help/assets/overview.png)
 
 以下视频包含有关管理内容的信息。
 

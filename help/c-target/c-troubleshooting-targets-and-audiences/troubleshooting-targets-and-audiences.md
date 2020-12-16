@@ -16,7 +16,7 @@ ht-degree: 69%
 
 有关体验定位和受众的常见问题解答 (FAQ) 列表。
 
-## 目标如何评估定位中的URL? {#url}
+## 目标如何评估定位中的URL?{#url}
 
 目标对URL的评估方式取决于您在创建活动时是使用受众URL定位，还是在创建受众时使用URL定位。
 
@@ -30,7 +30,7 @@ ht-degree: 69%
 
 ![页面投放URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-受众URL定位会查找精确的URL匹配。 如果URL匹配，目标不会考虑进一步的逻辑。 在上面的URL中，如果活动设置为开启，则 `www.example.com`该URL与以下URL匹配，因为受众URL定位与查询无关：
+受众URL定位会查找精确的URL匹配。 如果URL匹配，目标不会考虑进一步的逻辑。 在上述URL中，如果活动设置为在`www.example.com`上触发，则以下URL的URL将匹配，因为受众URL定位与查询无关：
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -51,7 +51,7 @@ URL定位会将URL转换为一组规则以进行评估：
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## 创建复杂的URL字符串时，是否 [!DNL Target] 对整个URL进行评估？
+## 创建复杂的URL字符串时，[!DNL Target]是否评估整个URL?
 
 如果在URL字符串中多次使用相同的参数名称，HTTP会考虑第一个参数名称，并忽略后续具有相同名称的参数。
 
@@ -59,7 +59,7 @@ URL定位会将URL转换为一组规则以进行评估：
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-计算参数的第 `Category` 一实例并忽略第 `Category` 二参数。
+计算`Category`参数的第一个实例，并忽略第二个`Category`参数。
 
 最佳实践是将多个值与单个类别关联，如下所示：
 
@@ -75,7 +75,7 @@ URL定位会将URL转换为一组规则以进行评估：
 
 默认情况下，流量会在体验之间平均拆分。但是，您可以为每个体验指定百分比定位。在这种情况下，会生成随机编号，这个编号用于选择要显示的体验。最终的百分比可能与指定定位不完全匹配，但是流量越多，体验的划分应越接近定位目标。
 
-## 如果用户符合某个活动的参加条件，而该活动包含多个体验且具有多个符合条件的受众，那么会显示哪个体验？ {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## 如果用户符合某个活动的参加条件，而该活动包含多个体验且具有多个符合条件的受众，那么会显示哪个体验？  {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
 用户将符合活动“[!UICONTROL Target]”页面上显示的第一个体验/受众的条件。
 
@@ -93,7 +93,7 @@ URL定位会将URL转换为一组规则以进行评估：
 
 有些 Target 受众是预先构建的，例如“新访客”和“旧访客”。用户无法对这些预先构建的受众进行重命名。
 
-## 为何 Target 用户界面中并未显示所有配置文件参数？ {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## 为何 Target 用户界面中并未显示所有配置文件参数？  {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 [!DNL Target]，则可以使用[!UICONTROL 配置文件更新] API 方法进行传递。有关更多信息，请参阅 Adobe Target API 文档中的[配置文件更新](https://developers.adobetarget.com/api/#authentication-tokens)。
 
@@ -101,7 +101,7 @@ URL定位会将URL转换为一组规则以进行评估：
 
 自动个性化活动会在每次会话中都进行一次评估。如果之前已有活跃会话符合某个特定体验的条件，且现在已在该体验中添加了新选件，则用户会同时看到新的内容以及之前显示的选件。因为用户之前符合这些体验的参加条件，因此他们在会话持续期间仍会看到这些体验。如果您希望在每一次进行页面访问时都进行评估，则应该切换到体验定位 (XT) 活动类型。
 
-## 为何对通过 API 创建的受众所做的更改没有反映在 Target UI 中？ {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## 为何对通过 API 创建的受众所做的更改没有反映在 Target UI 中？  {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 与选件和配置文件脚本不同，API 对通过 Target Standard 创建的受众所做的更改当前不会同步回 Target UI。
 
@@ -114,12 +114,12 @@ URL定位会将URL转换为一组规则以进行评估：
 | 值 | 定位标准 | 结果 |
 | --- | --- | --- |
 | 1.0 | 等于 1 | true |
-| 1 | equalsIgnoreCase 1.0 | true |
-| 1.230 | 等于 1 | true |
-| 1.500 | 等于 1.5 | true |
-| 1.200 | 小于 2 | true |
+| 1 | equalsIgnoreCase 1.0 | 真 |
+| 1.230 | 等于 1 | 真 |
+| 1.500 | 等于 1.5 | 真 |
+| 1.200 | 小于 2 | 真 |
 | 2 | 大于 3.0 | false |
-| 045 | 等于 45 | true |
+| 045 | 等于 45 | 真 |
 
 用科学记数法编写的数字将始终作为字符串进行比较。
 

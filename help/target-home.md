@@ -57,12 +57,12 @@ ht-degree: 62%
 - [体验和选件](c-experiences/experiences.md)：说明如何指定在访客符合活动的受众标准时显示的内容。
 - [推荐](c-recommendations/recommendations.md)：说明 [!DNL Recommendations] 活动如何根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。
 
-## 开发人员 {#developers}
+## 开发人员  {#developers}
 
 - [实施 Target](c-implementing-target/implementing-target.md)：说明如何在网站、移动设备应用程序、单页应用程序 (SPA) 和 iOT/OTT 平台上实施 [!DNL Target]。
 - [目标服务器端API](https://developers.adobetarget.com/api/delivery-api/):描述构成Adobe Target投放API的资源。
-- [目标NodeJS SDK](https://github.com/adobe/target-nodejs-sdk):介绍如何在服务器端部署目标。 此Node.js SDK可帮助您将目标轻松集成到其他Adobe Experience Cloud解决方案中。
-- [目标Java SDK](https://github.com/adobe/target-java-sdk):介绍如何在服务器端部署目标。 此Java SDK可帮助您将目标轻松集成到其他Adobe Experience Cloud解决方案中。
+- [目标NodeJS SDK](https://github.com/adobe/target-nodejs-sdk):介绍如何在服务器端部署目标。此Node.js SDK可帮助您将目标轻松集成到其他Adobe Experience Cloud解决方案中。
+- [目标Java SDK](https://github.com/adobe/target-java-sdk):介绍如何在服务器端部署目标。此Java SDK可帮助您将目标轻松集成到其他Adobe Experience Cloud解决方案中。
 - [目标RecommendationsAPI](https://developers.adobetarget.com/api/recommendations/):描述组成官方的Adobe TargetRecommendationsAPI的资源。
 - [目标Adobe.IO文档](http://developers.adobetarget.com/api/#introduction):介绍如何使用目标的管理员和用户档案REST API，这些API使用Adobe.IO集成来管理活动、受众、优惠、属性、报告、mbox、环境和用户档案。
 
@@ -70,12 +70,12 @@ ht-degree: 62%
 
 - [管理 Target](administrating-target/administrating-target.md)：说明如何添加用户和配置您的 [!DNL Target] 帐户。
 
-## 分析员 {#analysts}
+## 分析员  {#analysts}
 
 - [受众](c-target/target.md)：说明如何确定谁将会在目标活动中看到内容和体验。
 - [报表](c-reports/reports.md)：说明如何解释活动的性能。
 
-## QA 工程师 {#qa}
+## QA 工程师  {#qa}
 
 - [活动](c-activities/activities.md)：说明如何设置、管理和 QA [!DNL Target] 活动。
 

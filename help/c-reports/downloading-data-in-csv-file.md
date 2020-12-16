@@ -41,7 +41,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->CSV报表仅包含原始数据，不包括用于A/B测试的计算指标，如每访客收入、提升率或置信度。 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>CSV报表仅包含原始数据，不包括用于A/B测试的计算指标，如每访客收入、提升率或置信度。 要计算这些计算的度量，请下载目标的[完整置信度计算器](/help/assets/complete_confidence_calculator.xlsx) Excel文件以输入活动的值，或查看目标](/help/assets/statistical-calculations.pdf)使用的[统计计算。
 
 ## 将订单详细信息导出到 CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 

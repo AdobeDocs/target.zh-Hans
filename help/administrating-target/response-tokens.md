@@ -14,9 +14,9 @@ ht-degree: 77%
 
 # 响应令牌{#response-tokens}
 
-Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
+响应令牌允许您自动输出特定于[!DNL Target]的信息(活动详细信息、用户用户档案信息、地理信息等)，以用于调试或与第三方系统（如Clicktale）集成。
 
-响应令牌允许您选择要利用的变量，然后允许将它们作为目标响应的一部分发送。 为此，您只需使用交换机启用一个变量，该变量将随目标响应一起发送，这可以在网络调用中验证。 Response tokens work in [!UICONTROL Preview] mode as well.
+响应令牌允许您选择要利用的变量，然后允许将它们作为目标响应的一部分发送。 为此，您只需使用交换机启用一个变量，该变量将随目标响应一起发送，这可以在网络调用中验证。 响应令牌在[!UICONTROL 预览]模式下也有效。
 
 插件和响应令牌之间的一个主要区别是，插件将 JavaScript 交付到页面时就会在交付时立即执行，而响应令牌交付的是一个对象，可以在交付之后使用事件监听程序读取该对象并对其执行操作。有关更多信息，请参阅 [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)和下文的示例。使用响应令牌更安全，且能够更轻松地开发和维护第三方集成。
 
@@ -35,7 +35,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
    有关更多信息，请参阅[下载 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
 
-1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 响应令牌]**。
 
    ![](assets/response_tokens-new.png)
 
@@ -45,7 +45,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
    | 类型 | 参数 | 注释 |
    |--- |--- |--- |
-   | 内置配置文件 | `profile.activeActivities` | 返回该访客符合条件的 `activityIds` 数组。它会随着符合条件的用户数量的增加而递增。For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
+   | 内置配置文件 | `profile.activeActivities` | 返回该访客符合条件的 `activityIds` 数组。它会随着符合条件的用户数量的增加而递增。例如，在具有两个[!DNL Target]请求传送两个不同活动的页面上，第二个请求包含两个活动。 |
    |  | `profile.isFirstSession` | 返回“true”或“false”。 |
    |  | `profile.isNewSession` | 返回“true”或“false”。 |
    |  | `profile.daysSinceLastVisit` | 返回自该访客上次访问后已过的天数。 |
@@ -56,7 +56,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    |  | `profile.categoryAffinities` | 将该访客排名前 5 的类别的数组作为字符串返回。 |
    | 活动 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 当前活动的详细信息。请注意，“option”等同于“offer”。 |
    | 地域 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 请参阅[地域](/help/c-target/c-audiences/c-target-rules/geo.md)以了解在活动中使用地域定位的详细信息。 |
-   | 流量分配方<br>法(仅 [!UICONTROL 适用于自动目标] 和Automated Personalization活动。) | `experience.trafficAllocationId` | 如果访客从“控制”流量中获得体验，则返回0；如果访客从“目标”流量分配中获得体验，则返回1。 |
+   | 流量分配方法<br>(仅适用于[!UICONTROL 自动目标]和[!UICONTROL Automated Personalization]活动。) | `experience.trafficAllocationId` | 如果访客从“控制”流量中获得体验，则返回0；如果访客从“目标”流量分配中获得体验，则返回1。 |
    |  | `experience.trafficAllocationType` | 返回“控制”或“目标”。 |
 
    用户配置文件属性和客户属性也会显示在列表中。
@@ -65,9 +65,9 @@ Response tokens let you automatically output information specific to [!DNL Targe
    >
    >包含特殊字符的参数不会显示在列表中。只支持字母数字字符和下划线。
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. （视情况而定）如果您希望将用户档案参数用作响应令牌，但该参数尚未通过[!DNL Target]请求传递，因此未加载到目标UI中，则可以使用[!UICONTROL 添加响应令牌]按钮将用户档案添加到UI。
 
-   单击 **[!UICONTROL 添加响应令牌]**，提供令牌名称，然后单击 **[!UICONTROL 激活]**。
+   单击&#x200B;**[!UICONTROL 添加响应令牌]**，提供令牌名称，然后单击&#x200B;**[!UICONTROL 激活]**。
 
    ![](assets/response_token_create.png)
 
@@ -130,15 +130,15 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
 
 **如果我在网站的部分页面上使用 at.js 1.1（或更高版本），但在其他页面上使用 mbox.js，会出现什么情况？**
 
-Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
+响应令牌将传递给[!DNL at.js]目标响应，但不会传递给[!DNL mbox.js]响应。
 
 **我是否可以同时使用 Target Classic 插件和响应令牌？**
 
 插件和响应令牌可以并行使用；但是，将来会弃用插件。
 
-**是通过所有响应提供响 [!DNL Target] 应令牌，还是只通过 [!DNL Target] 响应提供活动?**
+**响应令牌是通过所有响应 [!DNL Target] 提供还是只通过响 [!DNL Target] 应提供活动?**
 
-Response tokens are delivered only through [!DNL Target] responses delivering an activity.
+响应令牌只能通过[!DNL Target]响应传递活动。
 
 **我的 Target Classic 插件包含 JavaScript。如何使用响应令牌复制其功能？**
 
@@ -230,7 +230,7 @@ Target 会定期刷新属性。任何未开启的属性都会在下次刷新时�
 </script>
 ```
 
-## 调试（类似于 ttMeta 插件） {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## 调试（类似于 ttMeta 插件）  {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 通过向 HTML 页面添加以下代码，可以创建与 ttMeta 插件等效的调试工具：
 
@@ -288,6 +288,6 @@ Target 会定期刷新属性。任何未开启的属性都会在下次刷新时�
 
 >[!NOTE]
 >
->“管 [!DNL Target] 理 [!UICONTROL ”菜单UI(以] 前为“设置 ”)经过重新设计，可提供改进的性能、减少发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的；但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
+>[!DNL Target] [!UICONTROL Administration]菜单UI（以前称为[!UICONTROL Setup]）已重新设计，可提供改进的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。 以下视频中的信息通常是正确的；但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)

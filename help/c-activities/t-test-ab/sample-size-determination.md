@@ -14,35 +14,35 @@ ht-degree: 75%
 
 # A/B 测试应该持续多长时间？
 
-A successful [!UICONTROL A/B Test] activity requires an adequate number of visitors (sample size) to improve your conversion rate, but how do you know how long to run an A/B test? This article contains information about [!UICONTROL Auto-Allocate] activities and the [!UICONTROL Adobe Target] Sample Size Calculator to help you ensure that your activity has a sufficient number of visitors to achieve your goals.
+成功的[!UICONTROL A/B测试]活动需要足够数量的访客（样本大小）来改进转化率，但您如何知道运行A/B测试的时间？ 本文包含有关[!UICONTROL 自动分配]活动和[!UICONTROL Adobe Target]示例大小计算器的信息，可帮助您确保活动具有足够数量的访客来实现目标。
 
 如果在活动的前几天中，就有一个选件的表现大大优于或弱于其他选件，那么很有可能在此时即停止活动。但是，当观察数量较低时，很有可能只是偶然观察到正或负的提升，因为转化率只是少数访客的平均值。随着活动收集的数据点越来越多，转化率会逐渐靠近真正的长期值。
 
 >[!IMPORTANT]
 >
->在执行A/B测试时，活动过早是您可能会遇到的十大陷阱之一。 有关详细信息，请参 [阅十种常见的A/B测试陷阱以及如何避免](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)。
+>在执行A/B测试时，活动过早是您可能会遇到的十大陷阱之一。 有关详细信息，请参阅[十个常见的A/B测试陷阱以及如何避免它们](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3)。
 
 [!DNL Target] 提供工具，帮助确保您的活动拥有足够大的样本大小，以实现您的转化目标：自动分配。
 
 ## 自动分配 {#auto-allocate}
 
-An [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activity is a type of A/B test that identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
+[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)活动是一种A/B测试类型，可在两个或多个体验中识别入选方，并自动将更多流量重新分配给入选方，以在测试继续运行和学习的同时提高转化率。
 
 标准 A/B 测试具有一定的固有成本。您必须花费流量来衡量每个体验的性能，并通过分析找出入选体验。即使在您认识到某些体验的性能优于其他体验之后，流量分配仍保持不变。此外，要算出样本量也很复杂，并且活动必须运行其整个过程，然后才能对入选者执行操作。在完成所有这些操作之后，确定的入选者仍可能不是真实入选者。
 
-The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL 自动分配可降低确定入选体验的成本和开销。][!UICONTROL 自动分配会监控所有体验的目标量度性能，并按比例将更多新参加者发送到高性能体验。]同时，也会保留足够的流量来探索其他体验。您可以看到活动对结果的益处，即使活动仍在运行：优化与学习并驾齐驱。
+解决方案为[!UICONTROL 自动分配]。 [!UICONTROL 自动分配可降低确定入选体验的成本和开销。][!UICONTROL 自动分配会监控所有体验的目标量度性能，并按比例将更多新参加者发送到高性能体验。]同时，也会保留足够的流量来探索其他体验。您可以看到活动对结果的益处，即使活动仍在运行：优化与学习并驾齐驱。
 
 [!UICONTROL 自动分配会逐渐将访客移到入选体验，而无需您等到活动结束才确定入选者。]您可以更快地从提升度中受益，因为原本将被发送到不太成功的体验的活动参加者现在会看到潜在的入选体验。
 
 使用[!UICONTROL 自动分配]功能时，[!DNL Target] 会在活动页面的顶部显示一个标记，在活动达到最低转化次数，且具有足够的置信度之前，该标记会一直指示“还没有入选者”。[!DNL Target]然后， 会通过在活动页面顶部显示一个徽章来确定入选体验。
 
-For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+有关详细信息，请参阅[自动分配概述](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。
 
 ## Adobe Target 样本量计算器 {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-If you choose to use a manual [!UICONTROL A/B Test] activity rather than [!UICONTROL Auto-Allocate], the [!DNL Target] Sample Size Calculator helps you determine the sample size needed for a successful test. 手动A/B测试是固定水平测试，因此计算器非常有用。 使用自动分配 [!UICONTROL 活动的计算器] 是可选的， [!UICONTROL 因为自动分配为您声] 明了一个入选方。 该计算器粗略估计了所需的样本大小。 继续阅读可了解有关如何使用计算器的更多信息。
+如果选择使用手动[!UICONTROL A/B测试]活动，而不是[!UICONTROL 自动分配]，则[!DNL Target]示例大小计算器可以帮助您确定成功测试所需的示例大小。 手动A/B测试是固定水平测试，因此计算器非常有用。 使用[!UICONTROL 自动分配]活动的计算器是可选的，因为[!UICONTROL 自动分配]为您声明了入选方。 该计算器粗略估计了所需的样本大小。 继续阅读可了解有关如何使用计算器的更多信息。
 
-Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
+在设置A/B测试之前，请访问Adobe Target[示例大小计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)。
 
 ![Adobe Target 样本量计算器](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -74,7 +74,7 @@ Before setting up your A/B test, access the Adobe Target [sample size calculator
 
 测试的重要性级别决定了测试报告在两个不同优惠之间的转化率发生显着差异的可能性，而实际上，两者之间没有真正差异。 此种情况被称为误报或 I 类错误。显着性级别是用户指定的阈值，是误报容限和测试中必须包括的访客数之间的权衡。
 
-在 A/B 测试中，最开始假设两种选件均具有相同的转化率。然后根据这个假设计算观察到的结果的概率。If this probability (the p-value) is smaller than some predefined threshold (the significance level), [!DNL Target] concludes that the initial assumption--that both offers have the same conversion rate--is incorrect and, therefore, the conversion rates of A and B are statistically different at the given significance level.
+在 A/B 测试中，最开始假设两种选件均具有相同的转化率。然后根据这个假设计算观察到的结果的概率。如果此概率（p值）小于某个预定阈值（显着性级别）,[!DNL Target]会得出结论，初始假设(即两个优惠具有相同的转化率)是不正确的，因此，A和B的转化率在给定的显着性级别上在统计上是不同的。
 
 A/B 测试中常用的显著性水平是 5%，这与 95% 的置信水平相对应（置信度 = 100% - 显著性水平）。95% 的置信水平意味着每次进行测试时，即使选件之间实际没有差异，也有 5% 的概率检测到具有统计意义的提升度。
 
@@ -142,7 +142,7 @@ A/B 测试的统计功效是指检测到转化率之间存在一定量级实际�
 
 将“每次访问带来的收入”(RPV) 用作量度时，会增加额外的方差来源，因为 RPV 是每个订单带来的收入和转化率的乘积（RPV = 收入 / 访客量 =（每个订单带来的收入 * 订单量）/ 访客量 = 每个订单带来的收入 *（访客量 * CTR）/ 访客量 = 每个订单带来的收入 * CTR），每个都有自己的方差。转化率的方差可以直接使用数学模型进行估计，但每个订单的收入的方差是特定于活动的。 因此，请使用与过去活动的差异相关的知识，或运行A/B测试几天，以估计收入差异。 差异根据CSV下载文件中的“销售总和”、“销售总和平方”和“访客数”值计算。 建立后，使用电子表格计算完成测试所需的时间。
 
-样本量计算器（上文提供了链接）可帮助您配置 RPV 量度。When you open the calculator, you&#39;ll see a tab labeled [!UICONTROL RPV Metric]. 使用计算器的 RPV 版本时，您需要以下信息：
+样本量计算器（上文提供了链接）可帮助您配置 RPV 量度。打开计算器时，您将看到标签为[!UICONTROL RPV度量]的选项卡。 使用计算器的 RPV 版本时，您需要以下信息：
 
 * 控制选件的访客数量
 * 控制选件的总收入
@@ -155,12 +155,12 @@ A/B 测试的统计功效是指检测到转化率之间存在一定量级实际�
 
 通常，将RPV用作度量需要20-30%的时间才能达到相同级别的测量提升的相同统计置信度。 这是因为RPV在每次转换时都增加了不同订单大小的差异。 在选择直线转化率和RPV作为最终业务决策依据的指标时，应考虑这一点。
 
-## Correction for comparing multiple offers {#section_1474113764224D0B85472D8B023CCA15}
+## 比较多个优惠{#section_1474113764224D0B85472D8B023CCA15}的更正
 
 每次比较两个选件时，获得误报（即：即使转化率没有差异，也观察到具有统计意义的显著差异）的概率等于显著性水平。例如，如果有五个选件 A/B/C/D/E，A 是控制选件，且已经完成了四组比较（控制选件与 B，控制选件与 C，控制选件与 D，控制选件与 E）；那么即使当置信水平为 95% 时，由于 Pr（至少一个误报）= 1 - Pr（无误报）= 1 - 0.95 = 18.5%，误报的概率也有 18.5%。在这种情况下，误报的定义为：报告的控制选件优于替代选件，或者报告的替代选件优于控制选件，但实际上它们之间没有区别。
 
 ## 结论 {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-By using an [!UICONTROL Auto-Allocate] activity, [!DNL Target] identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn. [!UICONTROL 自动分配简化了实现转化目标的过程，同时又免去了估算工作。]
+通过使用[!UICONTROL 自动分配]活动,[!DNL Target]在两个或多个体验中识别入选方，并自动将更多流量重新分配给入选方，以在测试继续运行和学习的同时提高转化率。 [!UICONTROL 自动分配简化了实现转化目标的过程，同时又免去了估算工作。]
 
 通过使用本文介绍的样本量计算器（上文提供了链接），并让测试根据该计算器建议的时间运行，您可以确保始终进行高质量的 A/B 测试，这些测试符合误报和漏报率，而您确定此误报和漏报率对于特定的测试已足够。这可确保您的测试具有一致性并能够可靠地检测到您要寻找的提升。

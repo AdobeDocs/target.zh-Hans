@@ -12,7 +12,7 @@ ht-degree: 92%
 ---
 
 
-# adobe.target.getOffers(options) - at.js 2.x
+# adobe.目标.getOffers（选项）- at.js 2.x
 
 此函数允许您通过传递多个 mbox 来检索多个选件。此外，还可以针对活跃活动中的所有视图检索多个选件。
 
@@ -30,7 +30,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->有关以下 [列出的所有字段](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) （可接受类型）的信息，请查阅投放API文档。
+>有关以下所有字段的可接受类型的信息，请查阅[投放API文档](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
 
 | 字段名称 | 必需？ | 限制 | 描述 |
 | --- | --- | --- | --- |
@@ -185,7 +185,7 @@ adobe.target.getOffers({
 }
 ```
 
-然后，可通过数据插入API将有效负 [载转发到Adobe Analytics](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)。
+然后，可通过[数据插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)将有效负荷转发到Adobe Analytics。
 
 ## 通过 getOffers() 和 applyOffers() 获取并渲染多个 mbox 的数据 {#multiple}
 

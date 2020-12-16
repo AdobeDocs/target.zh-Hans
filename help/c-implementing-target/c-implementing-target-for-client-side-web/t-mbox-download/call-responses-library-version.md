@@ -69,7 +69,7 @@ Target 如何从您的页面发出调用以及如何响应从您的页面发出�
 | 自动创建全局 mbox | 自动创建全局 mbox - 同步 | 自动创建全局 mbox - 异步 | 自动创建全局 mbox - 异步 | 自动创建全局 mbox - 异步 |
 | mboxCreate | 标准 | ajax | ajax | ajax |
 
-## 有访客 ID 实施，且存在访客 ID {#section_9CD4AE4C8186425D886398BC3CE6C46D}
+## 有访客 ID 实施，且存在访客 ID  {#section_9CD4AE4C8186425D886398BC3CE6C46D}
 
 如果存在访客 ID Cookie，则 [!DNL Target] 不需要调用访客 ID 服务。在这种情况下，显示内容之前不需要等待访客 ID 服务。对于版本 57 到 59，会使用&#x200B;**自动创建全局 mbox - 同步**&#x200B;类型，因此页面会等待 [!DNL Target] 调用返回后再继续加载。这样可确保默认内容不会出现闪烁情况。对于版本 60，会使用&#x200B;**全局 mbox - 异步**&#x200B;类型，以确保 [!DNL Target] 等待 [!DNL Experience Cloud] 选择退出服务做出响应。该选择退出服务属于 2016 年秋季发布的“数据协作”功能的一部分。由于所有调用均使用 ajax 返回，因此对于 `document.write()` 版本 60，不应使用 [!DNL mbox.js]。
 

@@ -26,7 +26,7 @@ ht-degree: 31%
 
 * 这是访客首次访问该网站。
 * 这是访客清除cookies后首次访问网站。
-* 这是访客自访客用户档案生命周期过期后首次访 [问该网站](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) 。
+* 这是访客自[访客用户档案生命周期](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)过期后首次访问站点。
 
 ### 旧访客
 
@@ -94,15 +94,15 @@ XT 活动应始终包含一个控制体验。如果您使用 XT 活动的方式�
 
 有关环境的更多信息，请参阅[主机](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
 
-## 为什么我的A/B或MVT活动中体验之间的流量分配不均？ {#uneven}
+## 为什么我的A/B或MVT活动中体验之间的流量分配不均？{#uneven}
 
-例如，我将流量分割设置为50/50或25/25/25/25，但我发现报告中体验之间的分布差异很大。 在访客中报告数不均的原因有很多可解释的 [!DNL Target] 原因：
+例如，我将流量分割设置为50/50或25/25/25/25，但我发现报告中体验之间的分布差异很大。 在[!DNL Target]报告中，访客计数不均有许多可解释的原因：
 
-* 首次 [!DNL Target] 启动活动时，由于边缘节点架构用于优化体验投放，流量分布可 [!DNL Target] 能不均匀。 最佳实践是让活动有时间收集额外数据，然后分发将正常化。 有关架构和边 [!DNL Adobe Target] 缘节点的更多信息，请参 [阅Adobe Target的工作方式](/help/c-intro/how-target-works.md)。
-* 如果您处于 [!DNL Target] 或 [!DNL Analytics] 使用访问量度，请记住，这是一个基于 **[!UICONTROL 访客]**[!DNL Target] 的系统，A/B或MVT测试的流量分配在访客级别。 因此，如果您使用“访问”量度检查活动 **[!UICONTROL 结果]** ，则流量分布可能不均匀，因为某些访客可能有多次访问。 访客是评估活动性能时的标准标准化度量。
+* 首次启动[!DNL Target]活动时，由于[!DNL Target]用于优化体验投放的边缘节点架构，流量分布可能不均匀。 最佳实践是让活动有时间收集额外数据，然后分发将正常化。 有关[!DNL Adobe Target]架构和Edge节点的详细信息，请参阅[Adobe Target的工作方式](/help/c-intro/how-target-works.md)。
+* 如果您位于[!DNL Target]或[!DNL Analytics]中并且使用&#x200B;**[!UICONTROL 访问]**&#x200B;度量，请记住[!DNL Target]是基于访客的系统，A/B或MVT测试的流量分配在访客级别上分配。 因此，如果使用&#x200B;**[!UICONTROL 访问]**&#x200B;度量检查活动结果，则流量分布可能不均匀，因为某些访客可能有多次访问。 访客是评估活动性能时的标准标准化度量。
 * A/B和MVT测试的最佳实践是保持流量分配均匀。 在测试过程中更改体验之间的流量分配（例如从90/10更改为50/50）可能会导致不同体验之间的访客不均。 较低的流量体验可能永远不会“赶上”。
 * 如果您遵循上述最佳实践，并且随着时间的推移流量分割不正常化，则应检查以下内容：
 
-   * 您是否在使用最新的at.js库？ 有关当前版本和相关发行说明的详细信息，请 [参阅at.js版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+   * 您是否在使用最新的at.js库？ 有关当前版本和相关发行说明的详细信息，请参阅[at.js版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
-   * 是重定向测试吗？ 页面上触发标记的时间不正确可能会导致流量分割不均匀，尤其是当 [!DNL Analytics] 用作活动的数据源 [!DNL Target] 时。 有关使用Analytics for活动(A4T)纠正重定向目标流量分布不均的详细信息，请参 [阅重定向优惠- A4T常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。
+   * 是重定向测试吗？ 页面上触发标记的时间不正确可能会导致流量拆分不均匀，尤其当使用[!DNL Analytics]作为[!DNL Target]活动的数据源时。 有关使用Analytics for Adobe(A4T)修复重定向活动上流量分布不均的详细信息，请参阅[重定向优惠- A4T常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。

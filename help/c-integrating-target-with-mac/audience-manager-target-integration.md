@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 将目标与Adobe Audience Manager(AAM)集成
 
-通过 [!DNL Target]/[!DNL Audience Manager] 集成，您可以将区 [!DNL Audience Manager] 段发送到 [!DNL Target]。
+通过[!DNL Target]/[!DNL Audience Manager]集成，您可以将[!DNL Audience Manager]区段发送到[!DNL Target]。
 
-有关详细信息，请参 [阅《Audience Manager用户指南](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html) 》中 *的将目标集成*。
+有关详细信息，请参阅&#x200B;*Audience Manager用户指南*&#x200B;中的[将目标与Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)集成。

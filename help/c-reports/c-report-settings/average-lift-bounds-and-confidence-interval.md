@@ -14,19 +14,19 @@ ht-degree: 73%
 
 # 平均提升度、提升度范围和置信区间
 
-报告包括多个数据点和可视化表示形式，它们可以帮助您了解与活动相关的提升界限和置信 [!DNL Adobe Target] 度，从而帮助您更准确地确定获胜者。
+报告包括多个数据点和可视化表示形式，有助于您了解与[!DNL Adobe Target]活动相关的提升界限和置信度级别，从而帮助您更准确地确定入选方。
 
 >[!NOTE]
 >
->This feature is available only when viewing reports in [!UICONTROL Table] View. 此功能不可用于使用 [Analytics 作为报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的活动。
+>此功能仅在以[!UICONTROL 表]视图查看报告时可用。 此功能不可用于使用 [Analytics 作为报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的活动。
 
-## 解释数据 {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
+## 解释数据{#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-The following illustration shows [!UICONTROL Lift Bounds and Confidence Level] information:
+下图显示了[!UICONTROL 提升边界和置信度级别]信息：
 
 ![平均提升度和置信水平报表](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-The lift and confidence information in the [!DNL Target] reporting UI includes:
+[!DNL Target]报告UI中的提升和置信度信息包括：
 
 ### 提升度
 
@@ -34,13 +34,13 @@ The lift and confidence information in the [!DNL Target] reporting UI includes:
 
 ### 提升边界
 
-提升度范围是指提升度的 95% 置信区间。它在平均提升度下方显示为一个范围。See [Example calculation](#example) below for an example of how these lift bounds are calculated.
+提升度范围是指提升度的 95% 置信区间。它在平均提升度下方显示为一个范围。有关如何计算这些提升边界的示例，请参见下面的[示例计算](#example)。
 
 ### 包装盒图
 
-The boxplot graph in the [!DNL Target] interface represents the expected value and 95% confidence interval of the success metric in question. 可将其视为一种用图形查看提升度和提升度范围相关信息的方式。
+[!DNL Target]接口中的框图表示所述成功度量的预期值和95%置信区间。 可将其视为一种用图形查看提升度和提升度范围相关信息的方式。
 
-There are a few key ways [!DNL Target] helps you interpret the confidence information, one of which is color. 箱形图将特定体验的置信区间与控制体验的置信区间之间的重叠区域显示为灰色，而将特定体验置信区间高出或低于控制体验置信区间的区域分别显示为绿色或红色。
+[!DNL Target]帮助您解释置信度信息的几个关键方式，其中一种是颜色。 箱形图将特定体验的置信区间与控制体验的置信区间之间的重叠区域显示为灰色，而将特定体验置信区间高出或低于控制体验置信区间的区域分别显示为绿色或红色。
 
 箱形图条块的长度直观地反映了置信区间的大小，非常便于理解。随着您收集的活动数据不断增多，条块的位置和长度会发生改变。置信区间是从方差和样本量（访客数）派生的。方差越小，样本越大，置信区间就会越小。
 
@@ -48,7 +48,7 @@ There are a few key ways [!DNL Target] helps you interpret the confidence inform
 
 某个体验或选件的置信度表示该体验/选件的提升度超出控制体验/选件提升度的“真实性”（而不是出于偶然）概率。一般而言，建议要达到 95% 的置信水平，因为只有达到了此置信水平，提升度才会被视为具有显著意义。
 
-## How are lift bounds calculated? {#section_1D360781D972483693680BE0F07AEAD1}
+## 如何计算升程边界？{#section_1D360781D972483693680BE0F07AEAD1}
 
 提升度范围表示特定体验或选件（相对于控制体验或选件而言）所具有的提升度的 95% 置信区间。笼统来说，这表示真实的提升度位于此范围内的概率为 95%。
 
@@ -71,7 +71,7 @@ There are a few key ways [!DNL Target] helps you interpret the confidence inform
    >
    >活动的收入成功量度的标准误差基于收入的样本方差。
 
-## Example calculation {#example}
+## 示例计算{#example}
 
 请考虑以下活动示例，该活动具有两个体验及以下结果：
 
@@ -106,11 +106,11 @@ There are a few key ways [!DNL Target] helps you interpret the confidence inform
 
 >[!NOTE]
 >
->使用上述公式手动计算的值与报表中显示的数字之间预计会有微小差异。此差异可能归因于手动计算中使用的页面查看次数是四舍五入后的数字。The lift shown in the [!DNL Target] report is based on the exact numbers obtained from the total engagement and the engagement count. 参与度数字可以通过性能报表 API 获得。
+>使用上述公式手动计算的值与报表中显示的数字之间预计会有微小差异。此差异可能归因于手动计算中使用的页面查看次数是四舍五入后的数字。[!DNL Target]报告中显示的提升度基于从总参与和参与计数中获得的确切数字。 参与度数字可以通过性能报表 API 获得。
 
-## When Are lift bounds not displayed? {#section_C5622E1E94684DAD937249B51A9E42CC}
+## 何时不显示提升边界？{#section_C5622E1E94684DAD937249B51A9E42CC}
 
-In certain cases, [!DNL Target] does not display lift bounds:
+在某些情况下，[!DNL Target]不显示提升边界：
 
 * 对于任何活动，当访问总次数或访客总数少于 30 时。
-* For [!UICONTROL Auto-Allocate] activities, no lift bounds are displayed until one experience has attained 60% confidence.
+* 对于[!UICONTROL 自动分配]活动，在某个体验达到60%置信度之前，不显示提升界限。

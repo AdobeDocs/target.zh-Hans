@@ -16,7 +16,7 @@ ht-degree: 88%
 
 此方法允许您从请求代码外部将参数附加到全局 mbox。
 
-在多个 mbox 调用中包含相同的一组参数时，此函数非常有用。该函数需由客户定义。它应返回一个只传递给全局 mbox 请求的参数数组。This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Library Header]**.
+在多个 mbox 调用中包含相同的一组参数时，此函数非常有用。该函数需由客户定义。它应返回一个只传递给全局 mbox 请求的参数数组。在加载at.js之前或在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实施]** > **[!UICONTROL 编辑]** > **[!UICONTROL 库标头]**&#x200B;中定义此函数。
 
 您可以按照以下任一方式使用 `targetPageParams()` 函数将参数传递到 target-global-mbox：
 

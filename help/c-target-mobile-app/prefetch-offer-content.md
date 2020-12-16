@@ -21,9 +21,9 @@ ht-degree: 63%
 在iOS和Android Mobile SDK中使用预取方法时，请考虑以下限制：
 
 * 在启动时，预取内容不会持久保留。只要应用程序处于活动状态，或者在调用 `clearPrefetchCache()` 方法之前，都会一直缓存预取内容。
-* 自动分配和自动 [!UICONTROL 目标流量分配方] 法、 [!UICONTROL Automated Personalization] 或Recommendations [!UICONTROL 活动类][](/help/c-recommendations/recommendations-as-an-offer.md)型或A/B或XT活动优惠中不支持预取功能。
+* [!UICONTROL 自动分配]和[!UICONTROL 自动目标]流量分配方法、[!UICONTROL Automated Personalization]或[!UICONTROL Recommendations]活动类型或A/B或XT活动](/help/c-recommendations/recommendations-as-an-offer.md)中的[推荐优惠不支持预取功能。
 
 有关更多信息（包括预取方法、公共类和代码示例），请参阅：
 
-* **iOS:** [预取iOS中的优惠](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) 内 *容，请参阅Mobile Services iOS SDK*。
-* **Android:** [Mobile Services Android SDK帮助中](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) ，预 *取Android中的优惠内容*。
+* **iOS：在**  [“Mobile Services iOS ](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) SDK帮助” *中预取iOS中的优惠内容*。
+* **Android：在**  [Mobile Services Android SDK帮](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) 助中预 *取Android中的优惠内容*。

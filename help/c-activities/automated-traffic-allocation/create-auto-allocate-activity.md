@@ -14,15 +14,15 @@ ht-degree: 60%
 
 # 创建自动分配活动
 
-使用中 [!UICONTROL 的Visual Experience] Composer(VEC) [!DNL Adobe Target] 直接在启用了的页面上创 [!UICONTROL 建自动分配A] /B测试 [!DNL Target][!DNL Target]活动，并修改其中页面的部分。
+使用[!DNL Adobe Target]中的[!UICONTROL 可视体验书写器](VEC)，直接在启用[!DNL Target]的页面上创建[!UICONTROL 自动分配] [!UICONTROL A/B测试]活动，并修改[!DNL Target]中的页面部分。
 
 >[!NOTE]
 >
->除了自动 [!UICONTROL 分配][!UICONTROL A/B测试活动(在本文中讨论] )之外，还 [!DNL Target] 提供了两种其他类型的  A/B测试活动: [!UICONTROL 手动(默认] ) [!UICONTROL 和自动目标]。
+>除了[!UICONTROL 自动分配] [!UICONTROL A/B测试]活动（本文讨论）之外，[!DNL Target]还提供了两种附加类型的[!UICONTROL A/B测试]活动:[!UICONTROL 手册（默认）]和[!UICONTROL 自动目标]。
 >
->请参 [阅A/B测试概述中](/help/c-activities/t-test-ab/test-ab.md#types)*的A/B测试活动类型*。
+>请参阅&#x200B;*A/B测试概述*&#x200B;中的[A/B测试活动类型](/help/c-activities/t-test-ab/test-ab.md#types)。
 
-要创建自动 [!UICONTROL 分配活动] ，请执行以下操作：
+要创建[!UICONTROL 自动分配]活动:
 
 1. 从“**[!UICONTROL 活动]**”列表中，单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL A/B 测试]**。
 
@@ -38,15 +38,15 @@ ht-degree: 60%
 
    ![创建A/B测试活动](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-   If you prefer to use the [!UICONTROL Form-Based Experience Composer], select [!UICONTROL Form]. 请参阅[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md)，以了解更多信息。
+   如果您希望使用[!UICONTROL 基于表单的体验书写器]，请选择[!UICONTROL 表单]。 请参阅[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md)，以了解更多信息。
 
    >[!NOTE]
    >
-   >除了VEC和基于表 [!UICONTROL 单的体验书写器], [!DNL Target] 还优惠单页应用程序VEC。 有关各种编辑器的更多信息，请参阅[体验和选件](/help/c-experiences/experiences.md)。
+   >除VEC和[!UICONTROL 基于表单的体验书写器]外，[!DNL Target]还优惠单页应用程序VEC。 有关各种编辑器的更多信息，请参阅[体验和选件](/help/c-experiences/experiences.md)。
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >上图中的“[[!UICONTROL 选择工作区]](/help/administrating-target/c-user-management/property-channel/property-channel.md)”选项是一项 [Target Premium](/help/c-intro/intro.md) 功能。Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
+   >上图中的“[[!UICONTROL 选择工作区]](/help/administrating-target/c-user-management/property-channel/property-channel.md)”选项是一项 [Target Premium](/help/c-intro/intro.md) 功能。如果您未看到此选项，则您的组织具有[!UICONTROL 目标标准]许可证。
 
 1. （视情况而定）如果您是一位 [Target Premium 客户](/help/c-intro/intro.md#premium)，请选择一个[工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -89,9 +89,9 @@ ht-degree: 60%
 
    流程图会引导您完成以下步骤：选择活动的受众和设置体验。
 
-1. 在受众 [!UICONTROL 框中] ，单击编辑图标（三个垂直椭圆），单击 **[!UICONTROL 替换受众]**，然 [后选择活动的受众](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) 。
+1. 在[!UICONTROL 受众]框中，单击编辑图标（三个垂直椭圆），单击&#x200B;**[!UICONTROL 替换受众]**，然后[选择活动](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)。
 
-   By default, the audience is set to [!UICONTROL All Visitors].
+   默认情况下，受众设置为[!UICONTROL 所有访客]。
 
 1. 选择您希望参加活动的符合条件的访客所占的百分比。
 
@@ -103,32 +103,32 @@ ht-degree: 60%
 
    您可以向同一个受众显示多个体验。将会有一个图表显示您选择的受众，以及您已添加到该活动的各个体验。
 
-   选择所需的流量分配方法。 要创建自动 [!UICONTROL 分配活动] ，请选择 **[!UICONTROL 自动分配以获得最佳体验]**。
+   选择所需的流量分配方法。 要创建[!UICONTROL 自动分配]活动，请选择&#x200B;**[!UICONTROL 自动分配到最佳体验]**。
 
    流量分配的三种类型如下所述：
 
-   * **[!UICONTROL 手动（默认）]**：指定您希望看到各个体验的参加者所占的百分比。您可以将百分比平分到所有体验，或者也可以为每个体验指定较高或较低的百分比。所有体验的百分比总和必须等于 100%。For more information, see [Create an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
+   * **[!UICONTROL 手动（默认）]**：指定您希望看到各个体验的参加者所占的百分比。您可以将百分比平分到所有体验，或者也可以为每个体验指定较高或较低的百分比。所有体验的百分比总和必须等于 100%。有关详细信息，请参阅[创建A/B测试](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)。
 
    * **[!UICONTROL 自动分配到最佳体验]**：将大多数活动参加者自动定向到具有更高性能的体验。为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。
 
-   * **[!UICONTROL 自动目标，提供个性化体验]**: [!DNL Target] 使用高级机器学习来识别多个高性能的营销人员定义体验，从而个性化内容并推动转化，然后根据访客的个人用户档案和相似访客的过去行为，为客户提供最为定制的体验。 有关详细信息，请参 [阅自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)。
-   You can also click **[!UICONTROL Add]** to add another experience to the activity.
+   * **[!UICONTROL 自动目标，提供个性化体验]**: [!DNL Target] 使用高级机器学习来识别多个高性能的营销人员定义体验，从而个性化内容并推动转化，然后根据访客的个人用户档案和相似访客的过去行为，为客户提供最为定制的体验。有关详细信息，请参阅[自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)。
+   您还可以单击&#x200B;**[!UICONTROL 添加]**&#x200B;以向活动添加其他体验。
 
-1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
+1. 如果您对受众、体验选择和流量分配选择感到满意，请单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以转到三步指导式工作流的第三步。
 
 1. 指定活动的[目标和设置](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)。
 
    ![A/B 活动设置](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
-1. 单击 **[!UICONTROL 保存并关闭]** 或 **[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;或&#x200B;**[!UICONTROL 保存]**。
 
-After you create the activity, the [!UICONTROL Overview] tab shows information about the activity, including a diagram of your activity.
+创建活动后，[!UICONTROL 概述]选项卡显示有关活动的信息，包括活动的图。
 
-## Training video: Creating A/B Tests (8:36) ![Tutorial badge](/help/assets/tutorial.png)
+## 培训视频：创建A/B测试(8:36)![教程标记](/help/assets/tutorial.png)
 
 以下视频演示了如何使用 [!DNL Target] 三步引导式工作流创建 A/B 测试。
 
-* 在以下 [!UICONTROL 位置创建A/B测试] 活动: [!DNL Adobe Target]
+* 在[!DNL Adobe Target]中创建[!UICONTROL A/B测试]活动
 * 使用手动拆分或自动流量分配来分配流量
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)

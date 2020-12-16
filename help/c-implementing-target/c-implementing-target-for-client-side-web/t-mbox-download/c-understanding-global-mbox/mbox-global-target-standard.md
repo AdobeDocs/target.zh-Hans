@@ -14,7 +14,7 @@ ht-degree: 52%
 
 # 使用旧版实施中的全局 mbox{#use-a-global-mbox-from-a-legacy-implementation}
 
-By default, [!DNL Target] creates a global mbox called target-global-mbox, which is used to run activities created in [!DNL Target]. 但是，如果您已经针对旧版实施在页面上创建了一个全局 mbox，则可将该 mbox 用于您的 [!DNL Target] 活动。
+默认情况下，[!DNL Target]会创建一个名为目标-global-mbox的全局mbox，它用于运行在[!DNL Target]中创建的活动。 但是，如果您已经针对旧版实施在页面上创建了一个全局 mbox，则可将该 mbox 用于您的 [!DNL Target] 活动。
 
 >[!NOTE]
 >
@@ -22,13 +22,13 @@ By default, [!DNL Target] creates a global mbox called target-global-mbox, which
 
 要将现有的全局 mbox 用于 [!DNL Target] 和旧版实施，您必须设置一些参数。
 
-1. Go to [!DNL Target], then click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. 转至[!DNL Target]，然后单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实施]**。
 
-   By default, **[!UICONTROL Page load enabled (Auto-create global mbox]** is enabled, and the custom global mbox is named `target-global-mbox`.
+   默认情况下，**[!UICONTROL 页面加载处于启用状态(启用自动创建全局mbox]**，而自定义全局mbox的名称为`target-global-mbox`。
 
-1. If you want to use an existing mbox, disable **[!UICONTROL Page load enabled (Auto-create global mbox]**, and specify the name of a previously created global mbox in the **[!UICONTROL Global Mbox]** field.
+1. 如果要使用现有mbox，请禁用&#x200B;**[!UICONTROL 启用页面加载（自动创建全局mbox]**），并在&#x200B;**[!UICONTROL 全局Mbox]**&#x200B;字段中指定先前创建的全局mbox的名称。
 
-   The [!UICONTROL Global Mbox] drop-down lists all mboxes in your account. 如果要使用尚不存在的mbox，请创建mbox。
+   [!UICONTROL 全局Mbox]下拉框将列表您帐户中的所有mbox。 如果要使用尚不存在的mbox，请创建mbox。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -44,4 +44,4 @@ By default, [!DNL Target] creates a global mbox called target-global-mbox, which
 
 ### 为何全局 mbox 未加载？或为何页面加载时全局 mbox 的加载有所延迟？
 
-确保at.js引用是页面上的第一个JavaScript调用。 有关此问题的其他解决方案，请参 [阅全局mbox常见问题](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)。
+确保at.js引用是页面上的第一个JavaScript调用。 有关此问题的其他解决方案，请参阅[全局mbox常见问题](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)。

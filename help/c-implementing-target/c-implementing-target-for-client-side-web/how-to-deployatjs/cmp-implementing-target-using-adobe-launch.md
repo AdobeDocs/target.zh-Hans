@@ -28,7 +28,7 @@ Launch 是 Adobe 的下一代标签管理平台，是实施 Adobe Target 的首�
 | [Adobe Launch 文档](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | 有关部署和管理为相关客户体验提供支持所需的所有分析、营销和广告标记的信息。 |
 | [Adobe Target扩展文档](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | 有关使用 Launch 实施 Target 的信息。 |
 
-## Advantages of implementing at.js using the Target Launch extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## 使用目标启动扩展{#section_48B3F938B6F8491DAF798E0DB54EF304}实施at.js的优势
 
 仅当您使用 Adobe Launch 实施 at.js 时，以下优势才适用。为此，我们强烈建议您使用 Adobe Launch 进行实施，而不使用 DTM 进行实施或手动实施 at.js。
 

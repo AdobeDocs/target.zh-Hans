@@ -32,12 +32,12 @@ ht-degree: 72%
 
 ## Adobe Target - 教程和视频
 
-A collection of how-to videos and tutorials highlighting the capabilities of Target available on the [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) page.
+[Adobe Target·Experience League](https://guided.adobe.com/#recommended/solutions/target)页面上重点介绍目标功能的操作方法视频和教程集合。
 
 ![Experience League 视频](/help/c-intro/assets/experience-league.png)
 
 ## Adobe Target 教程 {#tutorials}
 
-Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) page.
+[Adobe TargetTutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)页面提供有关[!DNL Target]概念和工具的介绍视频。
 
 ![Adobe Target 教程](/help/c-intro/assets/adobe-target-tutorials-new.png)

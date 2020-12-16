@@ -75,7 +75,7 @@ ht-degree: 94%
 
 ## 我的 Web 服务器将从我的 URL 中去除这些参数，我应该怎么做？ {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
+您需要与IT团队合作，以这些参数（`adobe_mc_sdid`和`adobe_mc_ref`）列入允许列表。
 
 ## 如果我没有在重定向活动中使用 A4T，也不想在 URL 中添加这些额外的参数，我应该怎么做？{#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -89,11 +89,11 @@ You will need to work with your IT team to have these parameters ( `adobe_mc_sdi
 
 由于此双重编码过程，访客 API 在尝试对 `adobe_mc_sdid` 值进行解码时，将无法提取 SDID 值，故而会生成一个新的 SDID。这会导致发送到 Target 和 Analytics 的 SDID 值不正确，您也会在 Analytics 报表中看到不均衡的重定向拆分。
 
-We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
+我们建议您与他们的IT团队交谈，以确保`adobe_mc_ref`和`adobe_mc_sdid`列入允许列表被，以便这些值不会以任何方式转换。
 
 ## 为何需要将引荐 URL 传递到新页面？{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Suppose a visitor clicks a link on [!DNL `www.google.com`] to your homepage (`www.mysite.com/index.html`) on which a redirect activity is live and is then redirected to a new page (`www.mysite.com/index2.html`).
+假设访客单击[!DNL `www.google.com`]上指向主页(`www.mysite.com/index.html`)的链接，该链接上存在重定向活动，然后被重定向到新页面(`www.mysite.com/index2.html`)。
 
 以前，新页面上的 [!DNL Analytics] 请求报告的引荐 URL 是 [!DNL `www.mysite.com/index.html`]，而不是 [!DNL `www.google.com`]。这会导致 [!DNL Analytics] 中与引荐 URL 有关的报表（例如营销渠道报表）不准确。这些报表忽略了您是从 [!DNL `www.google.com`] 访问网站的事实。
 

@@ -86,7 +86,7 @@ ht-degree: 98%
 * 重定向 URL 类型
 * 绝对或相对 URL
 
-## 培训视频：内容存储库 ![概述徽章](/help/assets/overview.png)
+## 培训视频：内容存储库  ![概述徽章](/help/assets/overview.png)
 
 以下视频包含有关管理选件的信息。
 

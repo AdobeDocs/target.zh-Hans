@@ -102,11 +102,11 @@ ht-degree: 96%
 * **样本量：**&#x200B;随着样本的增加，区间将缩小。推荐采用较大样本，因为这意味着您的报表更加接近成功量度的真实值。
 * **标准偏差减小：**&#x200B;结果越相似（如 AOV 越相似或者每天转化的次数或访客数越相似），标准偏差越小。
 
-## 置信度计算及其离线执行方法 {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## 置信度计算及其离线执行方法  {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 [下载的 CSV 报表](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)仅包含原始数据，而不包含计算量度，如 A/B 测试中使用的每位访客带来的收入、提升度或置信度。
 
-To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+要计算这些计算的度量，请下载目标的[完整置信度计算器](/help/assets/complete_confidence_calculator.xlsx) Excel文件以输入活动的值，或查看目标](/help/assets/statistical-calculations.pdf)使用的[统计计算。
 
 >[!NOTE]
 >

@@ -147,7 +147,7 @@ window.targetGlobalSettings = {
 
 * 为 Target Standard 自动创建的全局 mbox 响应不再使用 document.write() 或创建`<div>`元素。
 
-   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. 升级至此新版本时建议完成严密的质量保证工作。
+   这将消除mbox.js文件成为页面`<head>`中最后一项的要求。 升级至此新版本时建议完成严密的质量保证工作。
 
    此更改可能会导致在发送一些选件类型时行为发生变化。以下是需要考虑的特定情况：
 

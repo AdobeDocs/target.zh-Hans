@@ -16,9 +16,9 @@ ht-degree: 59%
 
 帮助您为at.js自定义全局mbox的信息。
 
-1. 单击“ **[!UICONTROL 管理]** ”>“ **[!UICONTROL 实施]**”。
+1. 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实施]**。
 
-1. Disable **[!UICONTROL Page load enabled (Auto create global mbox)]**, then add the name of the custom global mbox that you would like to use to deliver activities from [!DNL Target].
+1. 禁用&#x200B;**[!UICONTROL 页面加载（自动创建全局mbox）]**，然后添加自定义全局mbox的名称，以用于从[!DNL Target]传送活动。
 
    此自定义全局 mbox 还用于点击跟踪。
 
@@ -26,9 +26,9 @@ ht-degree: 59%
 
 1. 完成后，单击&#x200B;**[!UICONTROL 保存]**。
 
-1. Implement the [!DNL at.js] library on your site.
+1. 在您的站点上实施[!DNL at.js]库。
 
-   请参 [阅如何部署at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) ，以了解更多信息。
+   有关详细信息，请参阅[如何部署at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)。
 
 1. 在您的版本中安排进行转换。
 

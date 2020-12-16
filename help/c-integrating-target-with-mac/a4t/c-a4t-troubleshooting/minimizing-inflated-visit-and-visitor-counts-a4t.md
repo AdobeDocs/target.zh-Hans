@@ -76,7 +76,7 @@ Adobe 以数据的准确性和高质量而自豪。当触发 [!DNL Target] 标�
 
 **局部数据点击量：**&#x200B;用户有时不会在页面上停留足够长的时间来发出 [!DNL Analytics] 调用，但 [!DNL Target] 具有适当的 MCID。这会产生局部数据点击量（即不含 [!DNL Analytics] 页面查看次数的点击量）。如果这些用户返回您的网站并查看包含 [!DNL Analytics] 代码的页面，则他们将被作为旧访客正确计入点击量。如果页面上只有 [!DNL Analytics] 代码，则这些点击量都会丢失。某些客户不想拥有这些点击量的数据，因为它们会夸大某些量度（访问次数）并缩减其他量度（每次访问的页面查看次数、每次访问停留的时间等等）。您还将看到不包含任何页面查看次数的访问次数。但是，仍有正当理由保留这些数据。
 
-为了最大限度减少局部数据点击量，您可以加快页面加载速度，更新到最新版本的库，或者创建一个[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)以排除这些点击量。For step-by-step instructions, see [Create virtual report suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) in the *Analytics Components Guide*.
+为了最大限度减少局部数据点击量，您可以加快页面加载速度，更新到最新版本的库，或者创建一个[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)以排除这些点击量。有关分步说明，请参阅&#x200B;*分析组件指南*&#x200B;中的[创建虚拟报告套件](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)。
 
 下图显示了该虚拟报表包的区段定义：
 

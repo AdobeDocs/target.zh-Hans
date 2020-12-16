@@ -12,7 +12,7 @@ ht-degree: 98%
 ---
 
 
-# registerExtension() - at.js 1.x
+# registerExtension()- at.js 1.x
 
 可提供用于注册特定扩展的标准方法。
 

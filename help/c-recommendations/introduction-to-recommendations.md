@@ -129,7 +129,7 @@ ht-degree: 96%
 
 ![显示构成推荐活动各个部分（受众、标准和设计）的插图](/help/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] 开箱即用地包括 14 个内置受众、42 个内置标准和 10 个内置设计模板。您可以自定义每个项目或添加自己的项目。We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 本节侧重于定义标准，这些标准可定义将推荐哪些项目。
+[!DNL Target] 开箱即用地包括 14 个内置受众、42 个内置标准和 10 个内置设计模板。您可以自定义每个项目或添加自己的项目。我们之前曾举办过[关于在[!DNL Target]中构建受众](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)的网络研讨会。 本节侧重于定义标准，这些标准可定义将推荐哪些项目。
 
 Target 使用标准卡片的概念。标准卡片就像个性化的配方。
 

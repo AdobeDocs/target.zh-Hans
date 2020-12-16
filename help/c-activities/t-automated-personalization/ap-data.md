@@ -14,11 +14,11 @@ ht-degree: 91%
 
 # ![PREMIUM](/help/assets/premium.png) 为 Target 个性化算法收集数据
 
-[!DNL Adobe Target] 在Automated Personalization(AP)和自动目标(AT)活动中自动收集 [!UICONTROL 和使用] 各种数 [!UICONTROL 据来构建其] 个性化算法。 当访客进入AP或AT活动时，信息快照会传递到一组“培训记录”(个性化算法将学习的访客数据)。
+[!DNL Adobe Target] 在Automated Personalization(AP)和自动目标(AT)活动 [!UICONTROL 中] ，自动收集并 [!UICONTROL 使用各种数据来构] 建其个性化算法。当访客进入AP或AT活动时，信息快照会传递到一组“培训记录”(个性化算法将学习的访客数据)。
 
-To learn more about the Target personalization algorithms, see [Random Forest Algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md).
+要进一步了解目标个性化算法，请参阅[随机林算法](/help/c-activities/t-automated-personalization/algo-random-forest.md)。
 
-The following table shows the data collected by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). 您可以随时增加输入数据集。要了解有关如何上传其他数据的更多信息，请参阅[为 Target 个性化算法上传数据](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
+下表显示了默认情况下由[!UICONTROL Automated Personalization]和[!UICONTROL 自动目标]收集的数据，无需营销人员执行任何操作，以及用于在[个性化分析报告](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中指示这些属性的命名规范。 您可以随时增加输入数据集。要了解有关如何上传其他数据的更多信息，请参阅[为 Target 个性化算法上传数据](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
 | 数据类型 | 描述 | 数据类型命名约定 | 示例属性 |
 | --- | --- | --- | --- |
@@ -99,10 +99,10 @@ The following table shows the data collected by [!UICONTROL Automated Personaliz
 | 访客配置文件 - 首次访问 | 指定用户首次访问时与 Target 进行交互的时间。 | 双精度，毫秒 |
 | 访客配置文件 - 距上次访问的小时数 | 指定距上次访问此特定活动的小时数。 | 双精度（仅限正整数），1、2、3 等 |
 | 访客配置文件 - 位置/内容的展示次数 | 指定某个特定位置/内容组合在特定活动中的展示次数。 | 双精度（仅限正整数），1、2、3 等 |
-| 访客配置文件 - 上次 Target 交互 | 指定上次与 Target 进行交互的时间。Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request. | 双精度，毫秒 |
+| 访客配置文件 - 上次 Target 交互 | 指定上次与 Target 进行交互的时间。每个[!DNL Target]请求都会发生交互，因为当前[!DNL Target]的实现会更新每个请求的用户档案。 | 双精度，毫秒 |
 | 访客配置文件 - 活动之前查看的页面数 | 指定访客在进入活动之前的页面查看总次数（展示次数），包括当前访问/会话。 | 双精度（仅限正整数），1、2、3 等 |
 | 访客配置文件 - 当前访问中的页面查看次数 | 指定访客在进入活动之前在当前访问/会话中的页面查看次数。精度更高的展示次数。这些展示次数并不是实际的页面查看次数，而是请求到达 Target 的次数。Target 无法区分用户是因为超时还是任何其他原因而未能接收或查看内容。 | 双精度（仅限正整数） |
-| 访客配置文件 - 当前访问的开始时间 | 指定当前 Target 访问/会话开始的时间。无需进入活动即可开始访问 Target。All that is required is a call to any [!DNL Target] request. 访客可能需要花费一些时间才能进入活动并拍摄快照。 | 双精度，毫秒 |
+| 访客配置文件 - 当前访问的开始时间 | 指定当前 Target 访问/会话开始的时间。无需进入活动即可开始访问 Target。所需的只是对任何[!DNL Target]请求的调用。 访客可能需要花费一些时间才能进入活动并拍摄快照。 | 双精度，毫秒 |
 | 访客配置文件 - 最近一次访问的开始时间 | 指定上次 Target 访问/会话开始的时间。此属性将在会话过期时更新。<br>如果这是访客的第一个会话，则会导致 `LAST_SESSION_START = 0.` | 双精度，毫秒 |
 | 访客配置文件 - 首次进入活动时距最近一次访问的时间 | 指定从上一个会话到用户进入活动并拍摄快照所经过的时间。 | 双精度，毫秒 |
 | 访客配置文件 - 进入活动前的访问时间 | 指定从上次与 Target 进行交互到当前访问开始之间的时差。此属性可视为在用户进入活动并拍摄快照之前，访问/会话的持续时间。<br>[!DNL Target]如果会话开始时间和上次更新时间由同一个 调用触发，则会出现负值。负值应视为 0（零）。 | 双精度，毫秒 |

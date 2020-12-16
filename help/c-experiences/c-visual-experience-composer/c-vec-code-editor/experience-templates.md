@@ -32,7 +32,7 @@ Adobe Marketing Cloud GitHub 上目前提供以下模板，请参阅 [Target 体
 
 ![](assets/exp-template-banner-carousel.png)
 
-## 横幅倒计时 {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+## 横幅倒计时  {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 [横幅倒计时体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown)是一个在中心包含倒计时的大型横幅，通常用于主页和登陆页面或其他大容量条目页面。
 
@@ -44,7 +44,7 @@ Adobe Marketing Cloud GitHub 上目前提供以下模板，请参阅 [Target 体
 
 ![](assets/exp-template-button-builder.png)
 
-## 包含倒计时的灯箱 {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## 包含倒计时的灯箱  {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
 [包含倒计时的灯箱体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown)是一个在中心包含倒计时的灯箱覆盖弹出窗口，通常用于主页和登陆页面或其他大容量条目页面。
 

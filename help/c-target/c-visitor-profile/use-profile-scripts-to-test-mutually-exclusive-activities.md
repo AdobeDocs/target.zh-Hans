@@ -12,7 +12,7 @@ ht-degree: 81%
 ---
 
 
-# Use profile scripts to test mutually exclusive activities {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
+# 使用用户档案脚本测试互斥活动{#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 
 您可以使用配置文件属性来设置比较两个或更多活动的测试，但是不允许同一访客参加所有活动。
 
@@ -46,7 +46,7 @@ if (!user.get('twogroups')) {
 
 * `if (ran_number <= 49)` 开始一个例程，确定访客属于哪一群组。如果返回 0-49，则将访客分配到 GroupA。如果返回 50-99，则分配到 GroupB。组决定了访客可查看的活动。
 
-After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
+创建用户档案属性后，请设置第一个活动以目标所需的群体，方法是要求用户用户档案参数`user.twogroups`与为GroupA指定的值匹配。
 
 >[!NOTE]
 >

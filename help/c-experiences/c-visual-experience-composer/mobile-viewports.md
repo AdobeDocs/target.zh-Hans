@@ -12,15 +12,15 @@ ht-degree: 68%
 ---
 
 
-# Mobile Viewports for responsive experiences{#mobile-viewports-for-responsive-experiences}
+# 用于响应式体验的移动视图端口{#mobile-viewports-for-responsive-experiences}
 
-Mobile viewports help you preview how your [!DNL Target] activities appear on screens of various sizes.
+移动视区可帮助您预览[!DNL Target]活动在各种尺寸屏幕上的显示方式。
 
 移动视区预览功能专为响应式站点而设计，这些站点可以在各种设备、窗口或屏幕大小上呈现良好效果。 响应式网站会自动调整和适应任何屏幕大小，包括台式机、笔记本电脑、平板电脑或手机。
 
 >[!NOTE]
 >
-> * 如果您的网站是响应式网站，而且桌面页面与移动设备页面中使用的元素相同，只是配置不同，则可以使用移动设备视区。If you have a separate mobile site with a separate structure, such as `m.mysite.com`, use a [multipage activity](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) instead.
+> * 如果您的网站是响应式网站，而且桌面页面与移动设备页面中使用的元素相同，只是配置不同，则可以使用移动设备视区。如果您有具有单独结构的单独移动站点，如`m.mysite.com`，请改用[多页活动](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)。
    >
    >
 * 如果与重定向选件叠加发生了重叠，则移动设备视区将不可用。
@@ -28,7 +28,7 @@ Mobile viewports help you preview how your [!DNL Target] activities appear on sc
 
 视区通过网页在屏幕上所填充的矩形大小来定义。视区是指浏览器窗口减去滚动条和工具栏后的大小。浏览器使用“CSS 像素”。很多设备（例如使用 Retina 显示屏的设备）的视区小于其宣称的设备分辨率。
 
-下面是一些常用设备的视区和分辨率。Remember to use the viewport size in [!DNL Target]. 多个网站列出了常用设备的视区大小。例如，请参 [阅](https://viewportsizer.com/devices/) https://viewportsizer.com/devices/或查阅设备制造商的网站。
+下面是一些常用设备的视区和分辨率。请记住在[!DNL Target]中使用视口大小。 多个网站列出了常用设备的视区大小。例如，请参阅[https://viewportsizer.com/devices/](https://viewportsizer.com/devices/)或查阅设备制造商的网站。
 
 | 设备 | 视区大小 | 设备分辨率 |
 |---|---|---|
@@ -76,9 +76,9 @@ Mobile viewports help you preview how your [!DNL Target] activities appear on sc
 
 如果您想要将活动交付到某一特定设备上的用户，请在活动图中选择适合该设备的受众。使用移动设备 Web 编辑器可在该设备上编辑活动页面。如果您想要在整个数字体验中运行某个活动，并确保该活动在所有设备上都展现良好的外观，请不要应用定位，而是使用移动设备视区按各种屏幕大小预览该活动。
 
-如果您有一个响应式网站，您的网站通常会设计为当使用具有特定屏幕大小的设备访问时以不同的视图打开。这些可触发新视图的屏幕大小称为“CSS 断点”。CSS断点是网站内容根据设备宽度做出响应的点，可向访客显示最佳布局。 CSS断点也称为媒 [体查询](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)。
+如果您有一个响应式网站，您的网站通常会设计为当使用具有特定屏幕大小的设备访问时以不同的视图打开。这些可触发新视图的屏幕大小称为“CSS 断点”。CSS断点是网站内容根据设备宽度做出响应的点，可向访客显示最佳布局。 CSS断点也称为[媒体查询](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)。
 
-Save your CSS breakpoints in [!DNL Target] so you can preview your experiences for each view you define. Each of these experiences is displayed in a mobile viewport in the [!DNL Target] interface. 单击显示屏顶部的相应视区，即可打开每个屏幕大小所对应的视图。
+将CSS断点保存在[!DNL Target]中，以便您能够为您定义的每个预览视图体验。 这些体验中的每个都显示在[!DNL Target]接口的移动视图中。 单击显示屏顶部的相应视区，即可打开每个屏幕大小所对应的视图。
 
 如果您的网站不是响应式网站，您仍然可以使用移动设备 Web 编辑器查看网站，但前提是您的活动已定位到某个特定设备。
 
@@ -86,16 +86,16 @@ Save your CSS breakpoints in [!DNL Target] so you can preview your experiences f
 >
 >虽然可以从移动视区中编辑体验，但这些更改适用于所有视区和设备，而不仅适用于您正在使用的视区。 同样，在常规桌面视图中编辑体验时，所有屏幕大小的页面均会发生相应的更改，而不仅仅是桌面视图中的页面。当前，我们尚不支持进行特定于视区的页面更改。
 
-## Mobile viewport configuration {#task_B4B161499DC0470584ED922A4D20FCAB}
+## 移动视区配置{#task_B4B161499DC0470584ED922A4D20FCAB}
 
 可配置您希望在创建体验时可供使用的任何移动设备视区。
 
-1. 单击 **[!UICONTROL “管理]** ”> **[!UICONTROL “可视体验书写器]**”。
-1. 要添加新的移动视区，请在“移动视 **[!UICONTROL 区”配置部分]** ，单击“ **[!UICONTROL 添加”]**。
+1. 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视体验书写器]**。
+1. 要添加新的移动视区，请在&#x200B;**[!UICONTROL 移动视区配置]**&#x200B;部分，单击&#x200B;**[!UICONTROL 添加]**。
 
    ![添加视区](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
-   To change the configuration of an existing mobile viewport, select that viewport, then click the [!UICONTROL Edit] (pencil) icon.
+   要更改现有移动视口的配置，请选择该视口，然后单击[!UICONTROL 编辑]（铅笔）图标。
 
 1. 键入移动设备视区的名称。
 
@@ -115,7 +115,7 @@ Save your CSS breakpoints in [!DNL Target] so you can preview your experiences f
    * Symbian
    * Blackberry
 
-   如果您使用[增强型体验编辑器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)，并选择了一种操作系统，则 会在您查看页面时模拟该设备。[!DNL Target]If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
+   如果您使用[增强型体验编辑器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)，并选择了一种操作系统，则 会在您查看页面时模拟该设备。[!DNL Target]例如，如果响应式站点上的Android与iOS的外观不同，则[!DNL Target]会模仿该行为。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -123,11 +123,11 @@ Save your CSS breakpoints in [!DNL Target] so you can preview your experiences f
 >
 >如果尝试删除正在使用的移动视区，将显示以下消息：&quot;此视区当前与一个或多个活动关联。 您需要先从这些活动中删除视区，然后才能删除它。”
 
-## Create a responsive experience {#task_D6332438B5EE48CCA8AF199270F1CAEF}
+## 创建响应式体验{#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
-Add mobile viewports to your [!DNL Target] activities to create responsive experiences for mobile screens.
+将移动视区添加到您的[!DNL Target]活动，为移动屏幕创建响应式体验。
 
-1. 创建所 [需活动](/help/c-activities/activities.md)。
+1. 创建[所需活动](/help/c-activities/activities.md)。
 1. 在可视化体验编辑器中，单击&#x200B;**[!UICONTROL 设置]**&#x200B;齿轮图标，然后选择&#x200B;**[!UICONTROL 添加移动设备视区]**。
 
    ![添加Mobile Viewports选项](/help/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
@@ -150,12 +150,12 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
    ![方向选项](/help/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
-## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
+## 用例：目标两个iPhone版本{#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
 此用例说明如何为两个iPhone版本配置体验：iPhone 6和iPhone 6 Plus。
 
-1. 单击 **[!UICONTROL “管理]** ”> **[!UICONTROL “可视体验书写器]**”。
-1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
+1. 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视体验书写器]**。
+1. 在&#x200B;**[!UICONTROL 移动视区配置]**&#x200B;部分，为iPhone 6和iPhone 6 plus创建移动视区。
 
    对每个视区使用以下设置：
 
@@ -180,7 +180,7 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 可视化体验编辑器（第 2 个，共 2 个）(7:29) ![概述徽章](/help/assets/overview.png)
+### 可视化体验编辑器（第 2 个，共 2 个）(7:29)  ![概述徽章](/help/assets/overview.png)
 
 以下演示视频包含有关通过可视化体验编辑器使用移动设备视区的信息：
 
@@ -193,7 +193,7 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe Target概述徽章中的 ![帐户首选项](/help/assets/overview.png)
+### Adobe Target的帐户首选项![概述徽章](/help/assets/overview.png)
 
 此视频包含有关设置移动视口的信息，从视频的4:40开始。
 

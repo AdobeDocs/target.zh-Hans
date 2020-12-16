@@ -14,39 +14,39 @@ ht-degree: 0%
 
 # 第四章：使用目标的提示
 
-根据我们与许多用户 [!DNL Target] 的合作，我们观察到了让您的解决方案获得更多价值的 [!DNL Target] 方式。 我们在本章中包含的许多提示中总结了这些提示。 尽管您可能还没有准备好立即使用所有这些想法，但请坚持此列表。 您对解决方案的体验越丰富，项目越成熟，您就越能了解这些提示如何帮助您完成更多任务 [!DNL Target]。
+根据我们与许多[!DNL Target]用户的合作，我们观察到了如何从您的[!DNL Target]解决方案获得更多价值。 我们在本章中包含的许多提示中总结了这些提示。 尽管您可能还没有准备好立即使用所有这些想法，但请坚持此列表。 您对解决方案的体验越丰富，项目越成熟，您就越能了解这些提示如何帮助您通过[!DNL Target]完成更多工作。
 
 ## 提示1:通过增加访客用户档案来深化个性化。
 
-您可以利用开箱即 [!DNL Target] 用的数据个性化体验。 但通过将您自己的数据加入到组合中，实现更深层次的个性化。 您可以使用来自历史数据和 [!DNL Adobe Analytics] 来自实时数据的用户档案来增强 [!DNL Adobe Audience Manager]。 您还可以使用客户属性(Customer Attributes)，这是People核心服务中的一项功 [!DNL Adobe Experience Cloud]能)轻松将CRM数据、第二方合作伙伴数据和第三方购买数据引入 [!DNL Target]。
+您可以立即使用[!DNL Target]数据个性化体验。 但通过将您自己的数据加入到组合中，实现更深层次的个性化。 您可以使用[!DNL Adobe Analytics]的历史数据和[!DNL Adobe Audience Manager]的实时数据来增强用户档案。 您还可以使用客户属性（[!DNL Adobe Experience Cloud]中People核心服务中的一项功能）将CRM数据、第二方合作伙伴数据和第三方购买数据轻松引入[!DNL Target]。
 
-例如，您可以将销售点系统的购买数据与访客用户档案关联。 为此，只需创建一个包含最多200个脱机变量的CSV文件，然后通过文件上传直接将其上 [!DNL Adobe Experience Cloud] 传到文件中，或使用FTP托管并计划要定期更新的文件。 客户属性加入后， [!DNL Adobe Experience Cloud]您可以将其映射到解决 [!DNL Experience Cloud] 方 [!DNL Adobe Analytics] 案，例如，在 [!DNL Target] 何处可以进行分析、测试和个性化。
+例如，您可以将销售点系统的购买数据与访客用户档案关联。 为此，只需创建一个包含最多200个脱机变量的CSV文件，然后通过文件上传直接将其上传到[!DNL Adobe Experience Cloud]，或使用FTP托管并计划要定期更新的文件。 客户属性位于[!DNL Adobe Experience Cloud]后，您可以将其映射到[!DNL Experience Cloud]解决方案，如[!DNL Adobe Analytics]和[!DNL Target]，以便用于分析、测试和个性化。
 
-请参 [阅自定义](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) 属性，了解分步说明。
+有关分步说明，请参见[自定义属性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)。
 
-**真好**:由于 [!DNL Target] 是一个可以与不同技术良好结合的开放式、不可知的平台，您可以通过多种不同方式添加CRM或购买数据。 这意味着您可以选择最适合您的组织的方法。
+**真好**:由于 [!DNL Target] 是一个开放且不可知的平台，可以很好地与不同技术配合使用，因此您可以以多种不同的方式添加CRM或购买数据。这意味着您可以选择最适合您的组织的方法。
 
-有关 [详细信息，请参阅将目标](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) 引入的方法。
+有关详细信息，请参阅[将数据导入目标](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)的方法。
 
 ## 提示2:将目标受众与其他Adobe Experience Cloud受众相结合，实现更深层次的个性化。
 
-将生活在不同解决方 [!DNL Adobe Experience Cloud] 案中的受众混合在一起，可让您更深入地了解客户，并能够更深入地进行个性化。 例如，尽管提供 [!DNL Target] 实时受众数据，但提供历 [!DNL Adobe Analytics] 史受众数据。 将二者结合起来可以帮助您确定客户的行为何时保持一致，以及何时有机会对新行为采取行动。 创建访客时，只需单击“所有活动”旁的下拉菜单。 然后，选中最多20个受众的复选框，单击“合并多个受众”，然后单击“保存”。
+混合使用不同[!DNL Adobe Experience Cloud]解决方案的受众，可让您更深入地了解客户，并更深入地实现个性化。 例如，尽管[!DNL Target]提供实时受众数据，但[!DNL Adobe Analytics]提供历史受众数据。 将二者结合起来可以帮助您确定客户的行为何时保持一致，以及何时有机会对新行为采取行动。 创建访客时，只需单击“所有活动”旁的下拉菜单。 然后，选中最多20个受众的复选框，单击“合并多个受众”，然后单击“保存”。
 
-有 [关分步说明](/help/c-target/combining-multiple-audiences.md) ，请参阅组合多个受众。
+有关分步说明，请参阅[组合多个受众](/help/c-target/combining-multiple-audiences.md)。
 
-**真好**: [!DNL Adobe Audience Manager] 受众可自动 [!DNL Target] 使用。 但 [!DNL Adobe Analytics] 受众共享需要手动设置。 在中的Experience Cloud构建过程中，只需选中标有“使其成为受众”的框 [!DNL Analytics]。 然后，单 [!DNL Target]击“导入Experience Cloud受众”。
+**真好**: [!DNL Adobe Audience Manager] 受众可自动 [!DNL Target] 使用。但[!DNL Adobe Analytics]受众共享需要进行一些手动设置。 在[!DNL Analytics]中的Experience Cloud构建过程中，只需选中标有“Make this a受众受众”的框即可。 然后，从[!DNL Target]单击“导入Experience Cloud受众”。
 
 ## 提示3:从目标导出数据以与第三方工具一起使用。
 
-借助响应令牌，管理员可以轻松地将数据 [!DNL Target] 从第三方工具中移出和导入。 当您希望将数据添加到在调查工具中收集的数据时，此功能会很有帮助。 例如，如果调查显示给某个人群评分为“9”的样本，而给另一个人评分为“4”的体验，则您可以使用数据来查看体验A和体验B的查看者。您还可以使用响应令牌将数据导出到您的内部 [!DNL Target] data warehouse。 只需单击“管理”，然后将所需响应令牌旁边的开关切换到开启位置。 然后，创建活动。 然后，数据就绪，可以传输到第三方供应商。 您可以使用调 [!DNL Target] 试工具验证是否正在导出数据。
+使用响应令牌，管理员可以轻松地将数据从[!DNL Target]导出到第三方工具中。 当您希望将数据添加到在调查工具中收集的数据时，此功能会很有帮助。 例如，如果调查显示给某个人群评分为“9”的样本，而给另一个人评分为“4”的体验，则您可以使用数据来查看体验A和体验B的查看者。您还可以使用响应令牌将[!DNL Target]数据导出到您的内部data warehouse。 只需单击“管理”，然后将所需响应令牌旁边的开关切换到开启位置。 然后，创建活动。 然后，数据就绪，可以传输到第三方供应商。 您可以使用调试工具验证[!DNL Target]是否正在导出数据。
 
-请参 [阅响应令牌](/help/administrating-target/response-tokens.md) ，以获得分步说明。
+有关分步说明，请参阅[响应令牌](/help/administrating-target/response-tokens.md)。
 
 **有帮助的提示**:在管理员激活与第三方关联的响应令牌之前，开发人员需要与该第三方公司建立伙伴关系。
 
-请参 [阅响应令牌](/help/administrating-target/response-tokens.md) ，以获得分步说明。
+有关分步说明，请参阅[响应令牌](/help/administrating-target/response-tokens.md)。
 
-**先做**:确保您使用的是at.js版本1.1或更高版本。 如果您使用的是先前版本，您将看到响应令牌，但at.js将无法使用它们。
+**先做**:确保您使用的是at.js版本1.1或更高版本。如果您使用的是先前版本，您将看到响应令牌，但at.js将无法使用它们。
 
 ## 提示4:从这些关键变量构建受众，以增加活动价值。
 
@@ -62,45 +62,45 @@ ht-degree: 0%
 
 使组织的数据更易于使用，同时保持其安全。 [!DNL Target Premium] 允许管理员控制授予不同内部和外部团队的访问权限级别。
 
-有关更 [多信息，请参](/help/administrating-target/c-user-management/property-channel/property-channel.md) 阅企业用户权限。
+有关详细信息，请参阅[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 **有帮助的提示**:添加用户时，如果之前未将团队成员的姓名添加到您的组织（例如第三方代理员工的姓名），则输入其电子邮件地址和密码将触发加入团队工作区的电子邮件邀请。
 
-是否使用Target Standard? 您仍可 [以通过只读](/help/administrating-target/c-user-management/c-user-management/user-management.md) 、编辑和审批人角色为用户分配三个级别的访问权限！
+是否使用Target Standard? 您仍可以[为用户分配三级访问权限](/help/administrating-target/c-user-management/c-user-management/user-management.md)，具有只读、编辑和审批者角色！
 
 ## 提示6:通过测试优惠在客户旅程中的每个页面，了解客户在整个客户旅程中的表现。
 
 了解优惠（如免费送货）在客户旅程中如何在您网站上的多个页面间完成。
 
-有 [关分步说明](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) ，请参阅多页活动。
+有关分步说明，请参阅[多页活动](/help/c-experiences/c-visual-experience-composer/multipage-activity.md)。
 
-**有帮助的提示**:在指定页面范围后更改URL将重置体验。 这意味着您指定的变体将不再出现。 如果您需要更改URL，请记住重新定义体验。
+**有帮助的提示**:在指定页面范围后更改URL将重置体验。这意味着您指定的变体将不再出现。 如果您需要更改URL，请记住重新定义体验。
 
 ## 提示7:使用不同的优惠测试受众，以发现受众是否有不同的偏好。
 
 使用体验版本，您可以针对所需数量的受众使用变量运行一次测试。 例如，您可以创建一个提供免费送货的横幅广告，其中包含面向美国、英国和欧盟客户的图像和货币变量，无需为三个不同的受众运行测试。
 
-请参 [阅Adobe TargetA/B测试和体验](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)[版中的多体验受众](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) ，获取分步说明。
+有关分步说明，请参见A/B测试](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)和Adobe Target](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com)体验版本中的[多体验受众。[
 
 ## 提示8:在类似页面上复制活动体验可节省时间。
 
 在一个网页上创建变体（如新按钮颜色），并将其自动应用到共享同一模板的所有页面。 您可以指定页面，或将变量应用于网站中所有类似页面。
 
-有 [关分步说明，请参阅在类似页面](/help/c-experiences/c-visual-experience-composer/temtest.md) 上包含相同的体验。
+有关分步说明，请参阅[在类似页面](/help/c-experiences/c-visual-experience-composer/temtest.md)中包含相同的体验。
 
 ## 提示9:通过创建一次性受众减少受众库的混乱。
 
 如果您定位的是您知道不会再目标的细分(例如，受意外天气事件影响的客户)，创建一次性受众可以帮助您完成工作，而不会给受众库增加混乱。 这样，您便可以更轻松地反复查找使用的受众。
 
-有 [关分步说明](/help/c-target/creating-activity-only-audience.md) ，请参阅创建仅活动受众。
+有关分步说明，请参阅[创建仅活动受众](/help/c-target/creating-activity-only-audience.md)。
 
-**强烈请求的功能**:我们的客户要求我们尽可能避免将单次使用受众自动保存到受众库。 现在，他们不必再手动删除受众来整理库。
+**强烈请求的功能**:我们的客户要求我们尽可能避免将单次使用受众自动保存到受众库。现在，他们不必再手动删除受众来整理库。
 
 ## 提示10:不通过标准QA流程运行简单测试，从而更快地运行它们。
 
 没有什么比让活动准备就绪，然后等待数周时间完成标准QA流程更糟的了。 只需将几个QA链接传递给同事，以便在各种浏览器上试用，即可对大多数活动进行QA。 您最可能希望对显着改变站点功能的工作进行更多QA测试，但实际上，您应该拥有更少的活动，而更多的更基本的活动。 添加更好的权限控制，以便更少的人能够将事情完全推向现实，这也增加了有意义的限制，使您能够完成所需的任务，而不会牺牲速度和效率。 另一种选择是拥有指定的IT资源，以便及时监督QA流程。
 
-请参 [阅活动](/help/c-activities/c-activity-qa/activity-qa.md) QA以获得分步说明。
+有关分步说明，请参见[活动QA](/help/c-activities/c-activity-qa/activity-qa.md)。
 
 ## 提示11:在高流量页面上运行测试，以更快地达到统计意义。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 * 页面的转化率是什么？
 * 您预计需要多长时间才能运行测试，然后才能自信地将其称为完成？
 
-**帮助提示**:使用目标 [样本大小计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html) ，帮助确定成功测试所需的样本大小。
+**帮助提示**:使用目标 [样本大](https://docs.adobe.com/content/target-microsite/testcalculator.html) 小计算器帮助确定成功测试所需的样本大小。
 
 ## 提示12:设计更简单的测试，确保您能够创建并实施它们。
 

@@ -14,7 +14,7 @@ ht-degree: 53%
 
 # ![PREMIUM](/help/assets/premium.png) 标准 
 
-Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. 标准可基于流行趋势、访客的当前与过去行为，或相似的产品和内容。您可以添加多个标准，以便对多个推荐类型进行相互测试。
+[!DNL Adobe Target]中的标准是根据一组预定的访客行为确定推荐哪些产品或内容的规则。 标准可基于流行趋势、访客的当前与过去行为，或相似的产品和内容。您可以添加多个标准，以便对多个推荐类型进行相互测试。
 
 以下各节将进一步说明标准键和可用于每个键的推荐逻辑。 单击链接可获取更多详细信息。
 
@@ -28,9 +28,9 @@ Criteria in [!DNL Adobe Target] are rules that determine which products or conte
 | 潜在客户拓展/B2B/金融服务 | 转化但不购买 |
 | 媒体/出版 | 参与度 |
 
-其他条件选项会根据您选择的行业垂直而发生更改。 您可以在“Recommendations”>“设置”页面 **[!UICONTROL 上设置默认的行业垂直]** ，也可以为每个标准指定行业垂直。
+其他条件选项会根据您选择的行业垂直而发生更改。 您可以在&#x200B;**[!UICONTROL Recommendations>设置]**&#x200B;页面上设置默认的行业垂直，也可以为每个条件指定行业垂直。
 
-## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
+## 建议项{#section_885B3BB1B43048A88A8926F6B76FC482}
 
 您选择的推荐键决定了标准类型。标准类型具有以下几种（在设置 [!DNL Recommendations] 活动时，这些标准类型会显示为相应的标准卡片）。
 
@@ -46,39 +46,39 @@ Criteria in [!DNL Adobe Target] are rules that determine which products or conte
 | 人气 | 推荐最受欢迎的项目，例如相关类别中最热门的视频或网站上最常查看的产品。<ul><li>[热门程度](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
 | [最近查看的项目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | 推荐访客最近查看过的项目，例如访客上次访问您的网站时查看过的项目，或者目前趋势最为强劲的文章。 |
 
-## 使用自定义推荐密钥 {#custom-key}
+## 使用自定义推荐键{#custom-key}
 
 您还可以根据自定义用户档案属性的值创建推荐。
 
 >[!NOTE]
 >
->自定义用户档案参数可以通过JavaScript、API或集成传递到目标。 有关自定义用户档案属性的详细信息，请参阅 [访客用户档案](/help/c-target/c-visitor-profile/visitor-profile.md)。
+>自定义用户档案参数可以通过JavaScript、API或集成传递到目标。 有关自定义用户档案属性的详细信息，请参阅[访客用户档案](/help/c-target/c-visitor-profile/visitor-profile.md)。
 
 例如，假定您要根据用户最近添加到队列的电影来显示推荐的电影。
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+1. 从[!UICONTROL 推荐键]下拉用户档案中选择您的自定义列表属性（例如，[!UICONTROL 添加到观察列表的上次显示]）。
 
-1. Select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+1. 选择您的[!UICONTROL 推荐逻辑]（例如，[!UICONTROL 查看此内容的人员，查看该]）。
 
    ![“创建新条件”对话框](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
-If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
+如果您的自定义用户档案属性与单个实体ID不直接匹配，则有必要向[!DNL Recommendations]说明您希望如何与实体匹配。
 
 例如，假定您要显示来自用户喜爱品牌的畅销商品。
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand]).
+1. 从[!UICONTROL 推荐键]下拉用户档案中选择您的自定义列表属性（例如，[!UICONTROL 收藏品牌]）。
 
-1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+1. 选择要与此键一起使用的[!UICONTROL 推荐逻辑]（例如，[!UICONTROL 热门卖家]）。
 
    此时会显示[!UICONTROL 按以下项的唯一值分组]选项。
 
-1. 选择与您所选的键匹配的实体属性。In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+1. 选择与您所选的键匹配的实体属性。在这种情况下，[!UICONTROL 收藏品牌]与`entity.brand`匹配。
 
-   [!DNL Recommendations] 现在为每个品牌生成一个“最畅销者”列表，并根据“最喜爱品牌”列表属性中存储的值向用户显示相应的“最 [!UICONTROL 畅销] ”用户档案。
+   [!DNL Recommendations] 现在为每个品牌生成“最畅销商品”列表，并根据“最喜爱品牌”配置文件属性中存储的值向用户显示相应的“最畅销 [!UICONTROL 商] 品”列表。
 
    ![Top Sellers attribute](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
-## Criteria/algorithms {#criteria-algorithms}
+## 标准／算法{#criteria-algorithms}
 
 [!DNL Target Recommendations] 会使用复杂的算法来确定访客操作在何种情况下才符合活动中设置的标准。推荐键决定了可用的推荐逻辑选项。
 
@@ -101,7 +101,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 所有为期一天的标准每天运行两次。所有为期一周或更长时间的标准每天运行一次。“网站亲和度”标准每天运行一次。备用标准每天运行两次。
 
-## Viewing criteria information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## 查看条件信息{#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 您可以通过将鼠标悬停在标准卡片上并单击“信息”图标，在弹出卡片中查看标准详细信息，而无需打开该标准。
 
@@ -117,4 +117,4 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 >[!NOTE]
 >
->目前 [!UICONTROL 仅Recommendations活动] 支持算法使用功能。 A/B测试、自动分配、自动目标和体验定位(XT)活动当前不支持此功能，这些包含 [作为优惠的建议](/help/c-recommendations/recommendations-as-an-offer.md)。
+>[!UICONTROL 算法使用]功能当前仅支持Recommendations活动。 A/B测试、自动分配、自动目标和体验定位(XT)活动当前不支持此功能，这些将[推荐作为优惠](/help/c-recommendations/recommendations-as-an-offer.md)。

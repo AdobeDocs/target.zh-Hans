@@ -56,7 +56,7 @@ ht-degree: 96%
 
    `&lt; > # % &quot; { } | \\ ^ \[\] \``
 
-   其他所有字符都必须采用 URL 编码。The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
+   其他所有字符都必须采用 URL 编码。该标准指定以下格式([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt))，如下所示：
 
    ![](assets/ietf1.png)
 
@@ -334,7 +334,7 @@ Target Standard 客户可以使用 5 个属性，Target Premium 客户可以使�
 
 ### 代码示例
 
-Details can be found in [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
+详细信息可在[创建客户属性源并上传数据文件](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)中找到。
 
 ### 相关信息链接
 

@@ -18,7 +18,7 @@ ht-degree: 90%
 
 您可以在 Mozilla 开发人员网络 (MDN) 上的[选择器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文档中找到与 CSS 选择器有关的基本信息。
 
-您可以设置要在帐户首选项中使用元素类还是元素 ID。单击“ **[!UICONTROL 管理”>“可视体验书写器]**”，然后选择您的首选CSS选择器。
+您可以设置要在帐户首选项中使用元素类还是元素 ID。单击&#x200B;**[!UICONTROL “管理”>“可视体验书写器”]**，然后选择首选CSS选择器。
 
 ![](assets/css_selectors.png)
 

@@ -24,14 +24,14 @@ ht-degree: 83%
 
 以下视频将逐步指导您完成调试过程：
 
-### 添加 Adobe Experience Cloud 调试器扩展 ![概述徽章](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
+### 添加 Adobe Experience Cloud 调试器扩展  ![概述徽章](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Basic Target Debugging Using the Adobe Experience Cloud Debugger ![Overview badge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### 基本目标调试使用Adobe Experience Cloud调试器![概述徽章](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Mbox描摹概 ![述徽章](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
+### Mbox跟踪![概述徽章](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/)

@@ -29,7 +29,7 @@ ht-degree: 86%
    + [从 Adobe Experience Cloud 访问 Target](c-intro/target-access-from-mac.md)
    + [Target 关键概念](c-intro/target-key-concepts.md)
    + [了解目标UI](/help/c-intro/understand-the-target-ui.md)
-   + Adobe Target欢迎工具包 {#welcome}
+   + Adobe Target欢迎工具包{#welcome}
       + [Adobe Target欢迎工具包概述](/help/c-intro/target-welcome-kit.md)
       + [第一章：简介](/help/c-intro/target-welcome-kit-1.md)
       + [第二章：Adobe Target](/help/c-intro/target-welcome-kit-2.md)
@@ -71,7 +71,7 @@ ht-degree: 86%
    + 实施之前 {#before-implement}
       + [实施之前](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [准备实施 Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + 隐私和安全性 {#privacy}
+      + 隐私和安全{#privacy}
          + [隐私概述](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [隐私和数据保护法规](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [删除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
@@ -177,7 +177,7 @@ ht-degree: 86%
       + Analytics 与 Target 集成 (A4T) 故障诊断 {#troubleshoot-a4t}
          + [A4T 故障诊断](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [在 A4T 中最大限度地减少夸大的访问和访客计数](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + A4T 常见问题解答 {#a4t-faq}
+      + A4T 常见问题解答  {#a4t-faq}
          + [初始配置 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [活动设置 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [查看报表 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -308,7 +308,7 @@ ht-degree: 86%
       + [共享量度、受众和报表 - A4T 常见问题解答](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + 体验和选件 {#experiences}
    + [体验和选件概述](c-experiences/experiences.md)
-   + 可视化体验编辑器 (VEC) {#vec}
+   + 可视化体验编辑器 (VEC)  {#vec}
       + [可视化体验编辑器概述](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [可视化体验编辑器选项](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [在相似页面上包含相同体验](c-experiences/c-visual-experience-composer/temtest.md)
@@ -381,7 +381,7 @@ ht-degree: 86%
       + [创建标准序列](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [上传自定义标准](c-recommendations/c-algorithms/recommendations-csv.md)
-      + Dynamic and static inclusion rules {#dynamic-static}
+      + 动态和静态包含规则{#dynamic-static}
          + [使用动态和静态包含规则](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [实体属性匹配](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [配置文件属性匹配](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)

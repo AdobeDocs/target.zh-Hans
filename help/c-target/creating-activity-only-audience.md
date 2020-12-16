@@ -1,7 +1,7 @@
 ---
 keywords: audience;audience rules;create audience;creating audience;activity only;activity-only;adhoc
 description: 创建活动时，可在 Adobe Target 三步引导式工作流中创建仅限该活动的受众。这些临时受众可用于该相同活动内的其他位置，但不会存储在受众库中，因此无法用于其他活动。
-title: 在 Adobe Target 中创建仅限该活动的受众 adobe target
+title: 在 Adobe Target 中创建仅限该活动的受众 in Adobe Target
 feature: audiences
 translation-type: tm+mt
 source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405

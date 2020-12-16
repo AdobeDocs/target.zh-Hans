@@ -12,7 +12,7 @@ ht-degree: 85%
 ---
 
 
-# ![高级Automated Personalization](/help/assets/premium.png) 常见问题解答{#automated-personalization-faq}
+# ![高级自](/help/assets/premium.png) 动个性化常见问题解答{#automated-personalization-faq}
 
 有关自动个性化 (AP) 的常见问题解答 (FAQ) 列表。
 
@@ -59,7 +59,7 @@ ht-degree: 85%
 
 Target 具有 30,000 个体验的硬限制，但在创建的体验少于 10,000 个时，它的效果最佳。
 
-### 如何实施选件级别的定位？ {#section_9D7A86EA93D74E9B8C81072A681263A4}
+### 如何实施选件级别的定位？  {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
 当每个访客到达时，该访客可以看到的一组可能的选件取决于选件级别的定位规则。然后，该算法会选择该模型预测的将具有最佳预期收入或在这些选件中具有最大转化概率的选件。请注意，选件定位会影响 Target 机器学习算法的功效，因此应谨慎使用。
 
@@ -82,7 +82,7 @@ AP 活动产生提升需要四个因素：
 
 例如，假设 AP 活动有两个位置，每个位置包含两个选件。在第一个位置中，对于某位特定访客，选件 A 的预测转化率为 3%，而选件 B 的预测转化率为 1%。在第二个位置中，对于同一访客，选件 C 的预测转化率为 2%，而选件 D 的预测转化率为 5%。因此，自动个性化将为该访客提供选件 A 和选件 D 的体验。
 
-### 我应何时停止自动个性化活动？ {#section_C51F3DAB8887463BB147373F6FE06B93}
+### 我应何时停止自动个性化活动？  {#section_C51F3DAB8887463BB147373F6FE06B93}
 
 自动个性化可以作为“始终运行”的个性化使用，不断进行优化。特别是对于一直使用的内容，无需停止自动个性化活动。如果您想对与自动个性化活动中当前的选件不相似的内容进行实质性更改，最佳实践是启动一个新活动，以便其他用户查看报表时不会将过往结果与不同内容混淆或相关联。
 
@@ -94,11 +94,11 @@ AP 活动产生提升需要四个因素：
 
 不是，必须在活动中至少构建 2 个模型才能开始个性化。
 
-### 我何时可以查看自动个性化活动的结果？ {#section_05DB5ACAE6AD429C9510766A7268EE2C}
+### 我何时可以查看自动个性化活动的结果？  {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
 只要您具有至少两个已构建模型的体验（绿色复选标记），便可以开始查看该体验的自动个性化活动的结果。
 
-### 如何缩短在我的活动中构建模型所需的时间？ {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
+### 如何缩短在我的活动中构建模型所需的时间？  {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
 
 查看您的活动设置，看看您是否愿意做些更改来提高构建模型的速度。
 
@@ -111,15 +111,15 @@ AP 活动产生提升需要四个因素：
 
 自动个性化活动会在每次会话中都进行一次评估。如果之前已有活跃会话符合某个特定体验的条件，且现在已在该体验中添加了新选件，则用户会同时看到新的内容以及之前显示的选件。因为用户之前符合这些体验的参加条件，因此他们在会话持续期间仍会看到这些体验。如果您希望在每一次进行页面访问时都进行评估，则应该切换到体验定位 (XT) 活动类型。
 
-### 我能否在Automated Personalization活动中途更改目标指标？ {#change-metric}
+### 我能否在Automated Personalization活动中途更改目标指标？{#change-metric}
 
-我们不建议您在活动中途更改目标量度。 虽然可以在使用UI的活动中更改目标量度， [!DNL Target] 但您应始终开始新活动。 如果您在活动中更改目标量度后，该量度运行，我们不担保会发生什么情况。
+我们不建议您在活动中途更改目标量度。 虽然可以在使用[!DNL Target] UI的活动中更改目标度量，但您应始终开始新活动。 如果您在活动中更改目标量度后，该量度运行，我们不担保会发生什么情况。
 
-此建议适用于 [!UICONTROL 自动分配]、自 [!UICONTROL 动目标]、以及使 [!UICONTROL 用或(] A4T [!DNL Target] )作为报告源的 [!DNL Analytics] Automated Personalization活动。
+本建议适用于使用[!DNL Target]或[!DNL Analytics](A4T)作为报告源的[!UICONTROL 自动分配]、[!UICONTROL 自动目标]和[!UICONTROL Automated Personalization]活动。
 
 ### 运行Automated Personalization活动时，我是否可以使用“重置报告数据”选项？
 
-建议不 [!UICONTROL 要对Automated Personalization] · [!UICONTROL 活动] 使用“重置报告数据”选项。 尽管它删除了可见的报告数据，但此选项并不会从Automated Personalization模型中删除所有 [!UICONTROL 培训] 记录。 不要对Automated Personalization [!UICONTROL 活动使] 用“重置报 [!UICONTROL 告数据] ”选项，请创建新活动并取消激活原始活动。 (注：本指南还适用于 [!UICONTROL 自动分配][!UICONTROL 和自动目标] 活动。)
+不建议对[!UICONTROL Automated Personalization]活动使用[!UICONTROL 重置报告数据]选项。 尽管它删除了可见的报告数据，但此选项并不删除[!UICONTROL Automated Personalization]模型中的所有培训记录。 不要对[!UICONTROL Automated Personalization]活动使用[!UICONTROL 重置报告数据]选项，请创建新活动并取消激活原始活动。 (注：本指南还适用于[!UICONTROL 自动分配]和[!UICONTROL 自动目标]活动。)
 
 ### Automated Personalization如何打造环境模式？
 

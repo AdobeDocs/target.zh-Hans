@@ -14,7 +14,7 @@ ht-degree: 57%
 
 # 可视化体验编辑器助手扩展
 
-The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for Google Chrome lets you load websites reliably within the VEC to rapidly author and QA web experiences.
+使用Google Chrome的[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)Helper浏览器扩展，您可以在VEC中可靠地加载网站，从而快速创作和QA Web体验。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper bro
 * 网站位于 iframe 中。
 * 尚未在网站上实施 at.js 库。
 * 客户的 QA 和/或测试网站不适用于外部环境（网站为内部网站）。
-* 您正在使用Google Chrome 80+和增强的SameSite cookie实施策略。 有关详细信息，请 [参阅最近发布的Google Chrome SameSite cookie实施策略对VEC和EEC有何影响](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
+* 您正在使用Google Chrome 80+和增强的SameSite cookie实施策略。 有关详细信息，请参阅[最近发布的Google Chrome SameSite cookie实施策略对VEC和EEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)有何影响？
 
 适用于 Chrome 的 VEC 助手浏览器扩展可以解决网站加载问题，目前，客户依赖于 [!DNL Target][ 增强型体验编辑器](/help/administrating-target/visual-experience-composer-set-up.md#eec)或第三方扩展（例如 Requestly）来解决该问题.
 
@@ -37,17 +37,17 @@ The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper bro
 
    请注意，在使用增强体验书写器(EEC)时，扩展不插入at.js，但SameSite Cookie功能仍然存在。 要在网页上注入at.js，请关闭EEC。
 
-* [即使没有](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) “增强体验书写器”( [!UICONTROL EEC)，也支持] 移动视图端口。
+* [即使](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) 没有增强的体验书写器( [!UICONTROL EEC)，也支] 持移动视图端口。
 * 对于 [!DNL Target] 的新客户，即便在其 IT 开发人员尚未在其网站上实施 [!DNL Target] 的情况下，也可以使用此扩展来试用 [!DNL Target]。
 * 服务于多个客户网站和 [!DNL Target] 帐户的合作伙伴现在有一个简单的机制来支持 VEC 加载，而不用通过第三方工具管理多个规则。
 
 ## 获取并安装 VEC 助手浏览器扩展
 
-1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. 导航到Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak)中的[Adobe TargetVEC Helper浏览器扩展。
 1. 单击&#x200B;**[!UICONTROL 添加到 Chrome > 添加扩展]**。
-1. 在中打开VEC [!DNL Target]。
+1. 在[!DNL Target]中打开VEC。
 1. 要使用此扩展，请在处于 VEC 或 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)时，单击 Chrome 浏览器工具栏中的 VEC 助手浏览器扩展图标 (![VEC 助手图标](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。
-1. （视情况而定）如果 **[!UICONTROL 网页尚未包含at.js JavaScript库]** ，请将“插入目标库 [!DNL Target] ”滑动至“打开”位置。
+1. （视情况而定）如果网页尚未包含[!DNL Target] at.js JavaScript库，请将&#x200B;**[!UICONTROL 注入目标库]**&#x200B;切换至“开启”位置。
 
    下图显示了已启用[!UICONTROL 插入 Target 库]设置的 VEC 助手：
 
@@ -57,15 +57,15 @@ The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper bro
 
    ![VEC 助手 2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. (视情况而定 **[!UICONTROL )滑动]** Cookies切换到“开启”位置，自动添加SameSite=None属性浏览器修复，然后指定Cookie名称和域。
+1. （视情况而定）将&#x200B;**[!UICONTROL Cookie]**&#x200B;切换到“开启”位置以自动添加SameSite=None属性浏览器修复，然后指定cookie名称和域。
 
    ![Cookie在VEC帮助程序扩展中切换](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
    以下链接提供了其他信息：
 
-   * 有关SameSite=None属性浏览器修复的详细信息，请参阅“最近发布的Google Chrome SameSite cookie实施策略如何影响VEC和EEC?” in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+   * 有关SameSite=None属性浏览器修复的详细信息，请参阅“最近发布的Google Chrome SameSite cookie实施策略如何影响VEC和EEC?” 在[与Visual Experience Composer和Enhanced Experience Composer相关的问题疑难解答](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中。
 
-   * Cookie名称为“mbox”,Cookie域是您为mbox提供服务的域的第二级和顶级。 由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`. 有关详细信息，请参 [阅《Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) 界面 *用户指南》中的Experience CloudCookie*。
+   * Cookie名称为“mbox”,Cookie域是您为mbox提供服务的域的第二级和顶级。 由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`. 有关详细信息，请参阅&#x200B;*Experience Cloud界面用户指南*&#x200B;中的[Adobe TargetCookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)。
 
 ## 注释
 
@@ -74,7 +74,7 @@ The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper bro
 
    请注意，此标志是全局设置。可以为在 VEC 中打开的所有网站启用或禁用此标志。因此，例如，如果将此标志设置为“on”并打开已通过at.js实现的网站，您将收到一条消息，通知您at.js已加载。 我们预计，大多数客户的页面上已实施at.js，并将使用默认设置“off”。
 
-* The extension loads the latest version of at.js that is available from the [!DNL Target UI] in [!UICONTROL Administration > Implementation].
+* 该扩展加载最新版本的at.js，该版本可从[!UICONTROL “管理”>“实施”]中的[!DNL Target UI]获得。
 * 当在 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)下使用扩展插入 at.js 时，必须打开另一个 Chrome 选项卡。此 Chrome 选项卡必须通过您创建该活动的同一 [!DNL Adobe Experience Cloud] 组织的身份验证。
 * 以下消息有助于您随时了解以下情况：
 

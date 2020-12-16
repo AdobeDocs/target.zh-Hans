@@ -20,7 +20,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->See the [Mobile documentation](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
+>有关所有可用列表方法的目标，请参阅[移动文档](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html)。
 
 要在应用程序中创建 Target 位置并提出请求，主要可以使用以下两种方法：
 

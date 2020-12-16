@@ -22,7 +22,7 @@ ht-degree: 97%
 
 如果您的网站（特别是单页应用程序）裁切掉我们的参数，或者在从一个页面导航到另一个页面（不重新加载页面）时将它们实际删除，则 Target 功能会损坏并且 Target 库不会加载。为避免出现此问题，请确保不要裁切掉或删除这两个参数。
 
-## 我的页面无法在 EEC 中打开，或者加载速度缓慢。活动或体验在 VEC 中的加载速度缓慢。（仅 VEC） {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## 我的页面无法在 EEC 中打开，或者加载速度缓慢。活动或体验在 VEC 中的加载速度缓慢。（仅 VEC）  {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 有几个问题会影响 Target 体验编辑器中的页面性能。一些常见的问题包括：
 
@@ -32,7 +32,7 @@ ht-degree: 97%
 
 如果增强型体验编辑器中出现这些问题，请尝试关闭增强型体验编辑器并改用可视化体验编辑器。
 
-To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
+要禁用增强体验书写器，请转至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视体验书写器]**&#x200B;并关闭&#x200B;**[!UICONTROL 启用增强体验书写器]**&#x200B;选项。
 
 某些用户会在控制台中看到以下错误消息：
 
@@ -108,7 +108,7 @@ To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]
 
 设置扩展程序后，打开 Target。即使禁用了增强型体验编辑器，您的页面现在也应当能够在可视化体验编辑器中加载。
 
-## VEC 中不显示我的页面（仅 VEC） {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## VEC 中不显示我的页面（仅 VEC）  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * 浏览器不受支持。
 * 浏览器阻止安全网站上的不安全页面。
@@ -119,6 +119,6 @@ To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]
 
 请确保已启用此设置，然后在您的网站上下载并更新 mbox.js。
 
-## 使用浏览模式时，VEC 显示已损坏。（仅 VEC） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## 使用浏览模式时，VEC 显示已损坏。（仅 VEC）  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 使用浏览模式时，如果您访问的 URL 不具有 target.js 或包含 frame-buster 标头，则可视化体验编辑器会显示为已损坏。由于浏览器安全问题，Target 无法访问您导航到的 URL。

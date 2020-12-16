@@ -32,7 +32,7 @@ ht-degree: 98%
 
 ![](assets/locationcontributionbottom.png)
 
-## 培训视频：创建 MVT 测试 ![教程徽章](/help/assets/tutorial.png)
+## 培训视频：创建 MVT 测试  ![教程徽章](/help/assets/tutorial.png)
 
 以下视频演示了如何使用 Target 三步引导式工作流创建多变量测试。对位置贡献报表的介绍开始于 8:45。
 

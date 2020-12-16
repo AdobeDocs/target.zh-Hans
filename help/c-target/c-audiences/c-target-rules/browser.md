@@ -119,7 +119,7 @@ ht-degree: 99%
 
 多个选项之间使用 OR 进行连接。
 
-## 培训视频：创建受众 ![教程徽章](/help/assets/tutorial.png)
+## 培训视频：创建受众  ![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用受众类别的信息。
 

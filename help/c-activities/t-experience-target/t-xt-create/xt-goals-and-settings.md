@@ -40,7 +40,7 @@ ht-degree: 97%
 
 如果“管理”（默认）中未启用此选项，请指定优先级：低、中或高。
 
-To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+要启用细粒度优先级，请单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 报告]**，然后将“启用细粒度优先级”选项切换到“开启”位置。
 
 如果已启用此选项，请指定一个介于 0 到 999 之间值：
 

@@ -14,7 +14,7 @@ ht-degree: 88%
 
 # at.js 的工作原理{#how-at-js-works}
 
-To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library.
+要实现[!DNL Adobe Target]客户端，必须使用at.js JavaScript库。
 
 在 [!DNL Adobe Target] 的客户端实施中，[!DNL Target] 会将与活动相关联的体验直接交付给客户端浏览器。浏览器将决定要显示的体验，然后显示该体验。借助客户端实施，您可以使用 WYSIWYG 编辑器、[可视化体验编辑器](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)，或者非可视化界面（[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md)）来创建测试和个性化体验。
 
@@ -24,7 +24,7 @@ To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript 
 
 有关更多信息，请参阅 [Target JavaScript 库](/help/c-intro/how-target-works.md#libraries)。
 
-In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. 此外，还实施了以下 Experience Cloud 核心服务：Adobe Launch、受众和访客 ID 服务。
+在下面说明的[!DNL Target]实施中，实施了以下[!DNL Adobe Experience Cloud]解决方案：分析、目标和Audience Manager。 此外，还实施了以下 Experience Cloud 核心服务：Adobe Launch、受众和访客 ID 服务。
 
 ## at.js 1之间有何差异。*x* 和 at.js 2.x 工作流程图之间有何差异？
 
@@ -60,7 +60,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | --- | --- |
 | 1 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
 | 2 | 从缓存中读取视图的目标内容。 |
-| 3 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
+| 1 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
 | 4 | 通知请求将发送到 [!DNL Target] 配置文件存储区，以计算活动中的访客和递增量度。 |
 | 5 | Analytics 数据会发送到数据收集服务器。 |
 | 6 | Target 数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 A4T 报表查看 Analytics 数据。 |
@@ -71,7 +71,7 @@ at.js 2.x 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Clo
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-有 [关更多信息，请参阅了解at.js 2](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) .x的工作方式。
+有关详细信息，请参阅[了解at.js 2.x的工作方式](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html)。
 
 ## at.js 1.x 流程图
 
@@ -79,8 +79,8 @@ at.js 2.x 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Clo
 
 | 步骤 | 描述 | 调用 | 描述 |
 |--- |--- |--- |--- |
-| 1 | 如果用户通过了身份验证，则调用会返回 [!DNL Experience Cloud ID] (MCID)；另一调用会同步客户 ID。 | 2 | at.js 库会同步加载，并隐藏文档正文。 |
-| 3 | 将会发出全局 mbox 请求，其中包括已配置的所有参数，例如 MCID、SDID 和访客 ID（可选）。 | 4 | 配置文件脚本在执行后进入配置文件存储区。存储区向[!UICONTROL 受众库]请求符合条件的受众（例如从 [!DNL Adobe Analytics]、[!DNL Audience Manager] 等共享的受众）。<br>客户属性会以批量过程发送到[!DNL Profile Store]。 |
+| 3 | 如果用户通过了身份验证，则调用会返回 [!DNL Experience Cloud ID] (MCID)；另一调用会同步客户 ID。 | 2 | at.js 库会同步加载，并隐藏文档正文。 |
+| 1 | 将会发出全局 mbox 请求，其中包括已配置的所有参数，例如 MCID、SDID 和访客 ID（可选）。 | 4 | 配置文件脚本在执行后进入配置文件存储区。存储区向[!UICONTROL 受众库]请求符合条件的受众（例如从 [!DNL Adobe Analytics]、[!DNL Audience Manager] 等共享的受众）。<br>客户属性会以批量过程发送到[!DNL Profile Store]。 |
 | 5 | [!DNL Target] 根据 URL、mbox 参数和配置文件数据确定要返回给访客的活动和体验。 | 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>体验会在默认内容不发生闪烁的情况下尽快显示。 |
 | 7 | [!DNL Analytics] 数据会发送到数据收集服务器。 | 8 | [!DNL Target] 数据会通过 SDID 匹配到 [!DNL Analytics] 数据，并且会进行相应处理以保存到 [!DNL Analytics] 报表存储中。<br>[!DNL Analytics]之后，便可以在 [!DNL Analytics] 和 [!DNL Target] 中通过 [!DNL Analytics for Target] (A4T) 报表查看  数据。 |
 

@@ -89,7 +89,7 @@ adobe.target.getOffer({
 });
 ```
 
-## 响应 {#section_CF9FD236EF794620BCBF84EB80160183}
+## 响应  {#section_CF9FD236EF794620BCBF84EB80160183}
 
 传递给 success 回调函数的响应参数将是一组操作。操作是一个通常具有以下格式的对象：
 
@@ -127,5 +127,5 @@ adobe.target.getOffer({
 
 | 名称 | 类型 | 描述 |
 |--- |--- |--- |
-| status | 字符串 | 表示错误状态。该参数可以具有以下值：<ul><li>timeout: 表示请求超时。</li><li>parseerror：表示无法解析响应，例如，如果我们收到 HTML 或纯文本而不是 JSON。</li><li>error：表示常规错误，例如我们收到的 HTTP 状态不是 200 OK</li></ul> |
-| error | 字符串 | 包含其他数据，例如异常消息或其他任何可能对故障诊断有用的信息。 |
+| status | 字符串 | 表示错误状态。该参数可以具有以下值：<ul><li>超时: 表示请求超时。</li><li>parseerror：表示无法解析响应，例如，如果我们收到 HTML 或纯文本而不是 JSON。</li><li>error：表示常规错误，例如我们收到的 HTTP 状态不是 200 OK</li></ul> |
+| 错误 | 字符串 | 包含其他数据，例如异常消息或其他任何可能对故障诊断有用的信息。 |

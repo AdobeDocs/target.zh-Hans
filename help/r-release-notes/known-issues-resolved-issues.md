@@ -14,7 +14,7 @@ ht-degree: 70%
 
 # 已知问题和已解决的问题
 
-有关已知问题的信 [!DNL Adobe Target]息。 此外，还包括有关已解决问题的信息。
+有关[!DNL Adobe Target]的已知问题的信息。 此外，还包括有关已解决问题的信息。
 
 >[!NOTE]
 >
@@ -26,9 +26,9 @@ ht-degree: 70%
 
 ### 自动分配和自动目标活动的目标(A4T)分析指标
 
-UI中存在当前已知问题，该问题允 [!DNL Target] 许用户选择不受支持的参与和收入指标作为您在自动分配和自动目标活动 [!UICONTROL 中进行] 优化的  主要目标指标。 支持转化指标；不支持参与和收 *入指标* 。 如果您选择参与或收入目标指标，则不会构建优化模型(即使UI当前允许您 [!DNL Target] 选择不受支持的目标指标)。
+[!DNL Target] UI中存在当前已知问题，该问题允许用户选择不受支持的参与和收入指标作为您在[!UICONTROL 自动分配]和[!UICONTROL 自动目标]活动中优化的主要目标指标。 支持转化指标；不支持&#x200B;*参与和收入指标。*&#x200B;如果您选择参与或收入目标指标，则不会构建优化模型（即使[!DNL Target] UI当前允许您选择不受支持的目标指标）。
 
-有关受支持和不受支持的目标量度的列表，请参 [阅创建](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)*将Analytics用作报告源的活动中支持的目标量度*。 (TNT-38409)
+有关受支持和不受支持的目标度量的列表，请参阅&#x200B;*中的[受支持的目标度量](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)创建将Analytics用作报告源的活动。*(TNT-38409)
 
 ### 页面交付 {#page-delivery}
 
@@ -113,7 +113,7 @@ UI中存在当前已知问题，该问题允 [!DNL Target] 许用户选择不受
 
 ### Analytics for Target (A4T)
 
-在Analysis Workspace使用目标活动印象和转化时，应用“同一触点”Attribution IQ模型来确保准确计数。 要应用非 [默认归因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，请右键单击度量以修 **改列设置>启用使用非默认归因模型>选择相同接触模型**。 如果不应用此模型，这些指标就会被夸大。
+在Analysis Workspace使用目标活动印象和转化时，应用“同一触点”Attribution IQ模型来确保准确计数。 要应用[非默认归因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，请右键单击度量以&#x200B;**修改列设置>启用使用非默认归因模型>选择相同触控模型**。 如果不应用此模型，这些指标就会被夸大。
 
 所有当前Analytics包都能添加此模型并包含Attribution IQ。 如果您无权访问Attribution IQ，请在Reports &amp; Analytics中依赖A4T数据。
 
@@ -125,11 +125,11 @@ UI中存在当前已知问题，该问题允 [!DNL Target] 许用户选择不受
 
 2020年5月10日，我们更新了GEO提供商文件，这引发了一些不一致。 例如，添加了一些包含逗号的值；但是，现有受众中的值没有逗号。 并非所有投放服务器都受此更改影响。 因此，在2020年5月10日至7月22日之间，使用这些值的受众可能没有达到所有正确访客的要求。
 
-### 报告-可下载。csv报告中的数据与目标UI中显示的报告不一致。 {#csv}
+### 报告-可下载的。csv报告中的数据与目标UI中显示的报告不一致。 {#csv}
 
 如果活动使用多个度量，则生成的用于下载的。csv文件报告不一致。 可下载的报告仅根据报告设置生成，并考虑使用的任何其他指标的相同值。
 
-真相的来源始终是UI中显示的报 [!DNL Target] 告。
+真相的来源始终是[!DNL Target] UI中显示的报告。
 
 ## 已解决的问题 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
@@ -145,18 +145,18 @@ UI中存在当前已知问题，该问题允 [!DNL Target] 许用户选择不受
 
 已解决与A4T相关的以下问题：
 
-* 使用目标度量影响A4T活动的 [!DNL Analytics] 问题，该目标度量导致A4T报告显示意外的流量拆分或人为夸大的转换。
+* 使用[!DNL Analytics]目标度量影响A4T活动的问题，它导致A4T报告显示意外的流量拆分或人为夸大的转换。
 
    此问题在以下条件下影响A4T报告:
 
    * 活动是在2020年9月15日至11月5日（太平洋标准时间凌晨4点）之间创建或保存的，并且
-   * 活动选择了 [!DNL Analytics] 一个指标作为目标指标。
+   * 活动选择[!DNL Analytics]指标作为目标指标。
 
-   [!DNL Target] 在此期间正确分割流量。 但是，活动设置中可能出现50/50拆分，例如，在A4T报告中显示90/10拆分。
+   [!DNL Target] 在此期间正确分割流量。但是，活动设置中可能出现50/50拆分，例如，在A4T报告中显示90/10拆分。
 
    对于受影响的活动，在11月5日（太平洋标准时间凌晨4点）之后，访客首次看到正确的流量拆分。 此时后创建或保存的新活动将正确报告流量拆分。
 
-* 使用目标度量影响A4T活动的 [!DNL Target] 问题，导致A4T报告报告转化率低或无转化。
+* 使用[!DNL Target]目标度量影响A4T活动的问题，该问题导致A4T报告报告低或无转换。
 
    >[!NOTE]
    >
@@ -165,20 +165,20 @@ UI中存在当前已知问题，该问题允 [!DNL Target] 许用户选择不受
    此问题在以下条件下影响A4T报告:
 
    * A4T活动的发布时间为2020年9月22日至11月11日（太平洋标准时间下午2:30），并且
-   * 活动选择 [!DNL Target] 了一个指标作为目标指标，
-   * 当访客达到活动的目标事件( [!UICONTROL 例如，单击某个元素])时，还有一个与转换事件匹配的低优先级非A4T活动。 如果非A4T活动配置的度量与A4T活动相同，或者配置的度量为“任意mbox”，则可能会发生这种情况。
+   * 活动选择[!DNL Target]指标作为目标指标，并且
+   * 当访客达到活动的目标事件时(例如，[!UICONTROL 已单击元素])，还有与转换活动匹配的低优先级非A4T事件。 如果非A4T活动配置的度量与A4T活动相同，或者配置的度量为“任意mbox”，则可能会发生这种情况。
 
    此问题影响2020年9月22日至11月11日（太平洋标准时间下午2:30）之间生效的A4T活动的报告。 受影响A4T报告的活动将在此日期范围外正确显示转换。 非A4T活动的报告未受影响。
 
-如果您还有其他问题，请联系您的客户成功经理(CSM)或 [Adobe客户关怀](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。 (CSO 20201110016)
+如果您还有其他问题，请联系您的客户成功经理(CSM)或[Adobe客户关怀](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。 (CSO 20201110016)
 
-### 自动目标报告 {#at-metrics}
+### 自动目标报告{#at-metrics}
 
-已解决从9月15日下 [!DNL Adobe Target Premium] 午2 [!UICONTROL :30开始影响用] 户自动目标报告的问题。(PDT)10月6日上午9点25分。(PDT)。 查看受影响转化量度的报告(使用“已查[!UICONTROL 看页面]”或“已[!UICONTROL 单击mbox”选项进行配置])时，转化率会错误报告。 此时不存在已知的投放问题。
+已解决从9月15日下午2:30开始影响[!DNL Adobe Target Premium]用户[!UICONTROL 自动目标]报告的问题。(PDT)10月6日上午9点25分。(PDT)。 当查看受影响的转换量度的报告（使用“[!UICONTROL 已查看页面]”或“[!UICONTROL 已单击mbox]”选项进行配置）时，会错误报告转换率。 此时不存在已知的投放问题。
 
 要重新同步并更正报告:
 
-1. 复制并保存受影响 [!UICONTROL 的自动目标] 活动。
+1. 复制并保存受影响的[!UICONTROL 自动目标]活动。
 1. 激活新保存的活动(如果受影响的活动是实时的)。
 1. 删除原始（受影响）活动。
 
@@ -198,15 +198,15 @@ UI中存在当前已知问题，该问题允 [!DNL Target] 许用户选择不受
 * 受众:用于访客级转换的“所有合格访客”错误地只增加一次，而不是每次增加一次。 这不是预期行为。
 * 受众:“新访客”用于访客级转换，每次都会增加。 这是预期行为。
 
-请注意，此问题仅与 [!DNL Target] 报告相关。 在将Analytics用于目标( [!UICONTROL A4T)] 报告时，这不是问题。
+请注意，此问题仅与[!DNL Target]报告相关。 对目标](A4T)报告使用[!UICONTROL 分析时，这不是问题。
 
 此问题已得到解决。
 
 ### 使用Google Chrome 80+版时，不在Visual Experience Composer(VEC)或Enhanced Experience Composer(EEC)中加载页面
 
-此已知问题与Google决定更改没有SameSite属性的Cookie的默认行为有关，从Chrome版本80开始。 在更改之前，Chrome将所有不带SameSite属性的Cookie默认为“SameSite=None”，现在它默认为“SameSite=Lax”，这将更改在GET和POST请求上发送Cookie的方式。 请参 [阅SameSite更新](https://www.chromium.org/updates/same-site)。
+此已知问题与Google决定更改没有SameSite属性的Cookie的默认行为有关，从Chrome版本80开始。 在更改之前，Chrome将所有不带SameSite属性的Cookie默认为“SameSite=None”，现在它默认为“SameSite=Lax”，这将更改在GET和POST请求上发送Cookie的方式。 请参阅[SameSite Updates](https://www.chromium.org/updates/same-site)。
 
-有关详细信息和修复，请参阅“最近发布的Google Chrome SameSite cookie实施策略对VEC和EEC有何影响？” in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+有关详细信息和修复，请参阅“最近发布的Google Chrome SameSite cookie实施策略对VEC和EEC有何影响？” 在[与Visual Experience Composer和Enhanced Experience Composer相关的问题疑难解答](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中。
 
 ### 使用自定义体验作为控制时，自动定位活动的图形报表无法呈现
 
@@ -222,7 +222,7 @@ mbox.js 库不支持客户端模板语言，例如 Handlebars 和 Mustache。at.
 
 ### 实施：全局 Mbox 自动创建
 
-On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
+在“实施”选项卡（[!UICONTROL “管理”>“实施”]）上，对于新设置的租户，默认情况下[!UICONTROL “全局Mbox自动创建”]字段将为“false”。
 
 在配置后首次下载 mbox.js 时，“[!UICONTROL 全局 Mbox 自动创建]”字段在下载的 mbox.js 文件和 [!DNL Target] 后端中将设置为“true”，但它将继续在 UI 中的“[!UICONTROL 实施]”页面上显示为“false”，直到页面刷新为止（页面刷新后，状态将为“true”）。
 
@@ -236,7 +236,7 @@ On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!U
 
 从2019年11月25日至2020年4月26日，一台目标服务器遇到一个问题，该问题导致极端订单值计入基于收入的报告指标(AOV、RPV)。 从2019年12月19日到2020年4月23日，另一台服务器遇到了同样的问题。 此问题并未影响所有目标服务器或所有目标客户。
 
-在以下情况下 *您* 未受到影响：
+在以下情况下，您&#x200B;*未*&#x200B;受到影响：
 
 * 您的目标实施使用不同的服务器。
 * 您的报告未排除极端订单。
@@ -244,7 +244,7 @@ On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!U
 * 您的目标活动将Analytics用于目标(A4T)。
 * 您位于亚太(APAC)地区。
 
-要确定此问题是否影响您的目标报告，请联系客 [户关怀](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
+要确定此问题是否影响您的目标报告，请联系[客户关怀](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 
 ### Recommendations
 
@@ -291,7 +291,7 @@ Adobe I/O 上的 v1 版选件 API 将通过 Target 创建的所有选件存储�
 
 已于 2018 年 11 月版修复。
 
-### at.js {#at-js-3}
+### at.js  {#at-js-3}
 
 如果使用 at.js 版本 1.6.0，但没有活动资格，则会出现 Analytics for Target (A4T) 重定向。
 
@@ -333,7 +333,7 @@ Adobe I/O 上的 v1 版选件 API 将通过 Target 创建的所有选件存储�
 
 已在 Target 18.5.1 版本（2018 年 5 月 22 日）中修复此问题。
 
-### at.js {#at-js-4}
+### at.js  {#at-js-4}
 
 at.js 版本 0.9.6 中更改了对保存 Cookie 时应使用的顶级域进行提取的算法。由于进行了这项更改，Cookie 不能保存到使用 IP 的地址中。大多数情况下，使用 IP 地址进行测试，但作为解决方法，您可以使用 DNS 条目，调整本地计算机上的主机文件，或使用 targetGlobalSettings() at.js 函数插入代码段以支持 IP 地址。
 
@@ -374,7 +374,7 @@ at.js 版本 0.9.6 中更改了对保存 Cookie 时应使用的顶级域进行�
 
 第二个问题已在 Target 17.6.1 版本（2017 年 6 月版）中修复。
 
-### at.js {#at-js-5}
+### at.js  {#at-js-5}
 
 自 Target 17.4.1（2017 年 4 月 27 日版）发行以来，使用 at.js 库时，在可视化体验编辑器中执行“插入图像”操作会导致无法交付选件内容。
 
@@ -394,7 +394,7 @@ at.js 版本 0.9.6 中更改了对保存 Cookie 时应使用的顶级域进行�
 
 已在 Target 17.4.3 修补程序中修复。
 
-### at.js {#at-js-6}
+### at.js  {#at-js-6}
 
 使用可视化体验编辑器 (VEC) 和 at.js 时，以下操作会导致无法交付选件：移动和重新排列。
 
@@ -418,7 +418,7 @@ Target 17.4.1 版本（2017 年 4 月 27 日版）中包含在报表中查看多
 
 已在发布 Recommendations（2018 年 3 月 22 日）后修复此问题。在发布 Recommendations 后，如果未在 mbox 请求中传递 entity.id，则 Target 会跳过基于实体的动态规则。
 
-### at.js {#at-js-7}
+### at.js  {#at-js-7}
 
 当用户在更新 at.js 设置后尝试从“实施详细信息”页面下载 at.js 时，将会下载 mbox.js 而不是 at.js。(TGT-23069)
 

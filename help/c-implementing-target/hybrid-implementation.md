@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 混合实现
 
-[!DNL Adobe Target] 优惠用于个性化的独特混合部署模型——混合客户端和服务器端实施。 此混合模型允许非技术用户使用WYSIWYG Visual Experience Composer  (VEC)创作实验或个性化活动，并让服务器端执行、交付和渲染体验，以实现高性能投放。
+[!DNL Adobe Target] 优惠用于个性化的独特混合部署模型——混合客户端和服务器端实施。该混合模型允许非技术用户使用WYSIWYG [!UICONTROL 可视体验书写器](VEC)创作实验或个性化活动，并且由服务器端执行、交付和渲染体验以实现高性能投放。
 
-有关详细信息，请参 [阅Adobe混合部](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/hybrid-deployment.html) 署 *在Adobe TargetTutorials*。
+有关详细信息，请参阅&#x200B;*Adobe TargetTutorials*&#x200B;中的[Adobe混合部署](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/hybrid-deployment.html)。

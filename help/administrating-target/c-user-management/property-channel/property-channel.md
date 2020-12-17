@@ -2,9 +2,9 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: 有关创建属性以及使用“属性和权限”功能的信息，这些功能允许Adobe Target管理员在目标中创建单独的工作区(产品用户档案)，然后根据这些工作区为用户分配不同的角色和权限，分别用于各个页面、属性或网站。
 title: 企业用户权限
-feature: user management
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '3054'
 ht-degree: 80%

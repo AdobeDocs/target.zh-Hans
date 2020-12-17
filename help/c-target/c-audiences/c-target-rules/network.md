@@ -4,7 +4,7 @@ description: 您可以在 Adobe Target 中基于网络详细信息创建受众�
 title: Adobe Target受众的网络选项
 feature: audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 98%
@@ -45,7 +45,7 @@ ht-degree: 98%
       >
       >基于 ISP 进行定位时，请使用 ISP 名称，而不要使用通用名。此外，还请确保您构建的规则不区分大小写，或者始终使用小写格式。
 
-      您可以对 ISP 和域名值进行测试。[](https://www.whoismyisp.org)https://www.whoismyisp.org 是用于定位的有用资源。您可以使用上表中给出的示例 IP 地址，也可以输入您自己的 IP 地址。然后，使用 `themboxOverride.browserIp= URL` 参数来模拟该 IP 地址。
+      您可以对 ISP 和域名值进行测试。[](https://www.whoismyisp.org)https://www.whoismyisp.org 是用于定位的有用资源。您可以使用上表中给出的示例 IP 地址，也可以输入您自己的 IP 地址。然后，使用 `mboxOverride.browserIp= URL` 参数来模拟该 IP 地址。
 
    * **域名：**&#x200B;这是指访客 IP 地址的域名，而不是您在 [!DNL Target] 中使用的网站的域名。此域名与访客的 IP 地址有关，有时也称为主机名。通常情况下，此域名和 ISP 名称非常相似。有时，主机名会引用公司在变更其 ISP 名称之前使用的旧名称，而不引用域名。
    * **连接速度：**&#x200B;这是指访客连接到 Internet 的速度。选项包括：宽带、有线、拨号、移动、oc3、oc12、卫星、t1、t2、无线和 xdsl。

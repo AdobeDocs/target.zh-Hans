@@ -4,10 +4,10 @@ description: 关于Adobe Target自动目标的疑难解答和常见问题。
 title: 自动目标疑难解答和常见问题解答
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 18dbc90f52c9a23713577c4cda4ac87a5b69edd2
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 71%
+source-wordcount: '1902'
+ht-degree: 68%
 
 ---
 
@@ -143,3 +143,9 @@ AP 活动产生提升需要四个因素：
 在[!UICONTROL 自动定位]活动中，转化量度（无论是优化目标还是后期目标）发生转化后，用户将会从体验中释放，并且活动会重新开始。
 
 例如，一个活动拥有一个转化量度 (C1) 和一个其他量度 (A1)。A1 依赖于 C1。当访客首次进入活动，并且转化 A1 和 C1 的标准并未实现转化，那么由于成功量度的依赖关系，量度 A1 不会进行转化。如果访客先转化了 C1，然后转化了 A1，则 A1 仍不会实现转化，因为一旦 C1 完成转化，该访客便会被释放。
+
+### 如果我从自动目标活动中删除单个体验，会发生什么情况？
+
+[!DNL Target] 为每个体验构建一个模型，因此删除一 [!DNL Target] 种体验方式只会构建一个较少的模型，不会影响其他体验的模型。
+
+例如，假设您有一个[!UICONTROL 自动目标]活动，具有8个体验，并且您不喜欢一个体验的性能。 您可以删除该体验，但不会影响其余七个体验的模型。

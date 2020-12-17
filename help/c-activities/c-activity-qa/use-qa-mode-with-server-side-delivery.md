@@ -2,9 +2,9 @@
 keywords: qa;server side;server-side;preview;preview links
 description: 使用带有服务器端投放的Adobe TargetQA URL轻松执行端到端活动QA,预览链接永不更改，可选受众定位，以及与实时活动数据保持分段的QA报告。
 title: 在服务器端交付中使用活动 QA
-feature: qa
+feature: Activities
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 80%

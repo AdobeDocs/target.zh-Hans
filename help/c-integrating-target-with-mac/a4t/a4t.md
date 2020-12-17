@@ -4,15 +4,15 @@ description: Adobe“Analytics for Target”(A4T) 是一种跨解决方案的集
 title: 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)
 feature: a4t general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 46%
+source-wordcount: '1306'
+ht-degree: 45%
 
 ---
 
 
-# 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T){#adobe-analytics-as-the-reporting-source-for-adobe-target-a-t}
+# 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T)是一种跨解决方案集成，允许您根据转化指标和活动 [!DNL Analytics] 细分创建受众。A4T集成允许您使用[!DNL Analytics]报告来检查结果。 如果使用[!DNL Analytics]作为报告的活动源，则该活动的所有报告和分段均基于[!DNL Analytics]数据收集。
 
@@ -73,7 +73,8 @@ ht-degree: 46%
 | AEM 6.1（或更低版本）云服务集成 | 否 |  |
 | AEM 6.2（或更高版本）云服务集成 | 是 | 有关详细信息，请参阅[!DNL Adobe Experience Manager] 6.2文档中的[与Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)集成。 |
 | 使用重定向活动的任何优惠 | 是 | 要将重定向选件与 A4T 配合使用，需满足一些较为严格的最低要求。有关更多信息，请参阅[重定向选件 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。 |
-| Node.JS | 是 |  |
+| Node.JS | 是 | 有关详细信息，请参阅&#x200B;*Adobe TargetSDK*&#x200B;指南中的[Node.js SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/nodejs-sdk)。 |
+| Java SDK | 是 | 有关详细信息，请参阅&#x200B;*Adobe Target* SDK指南中的[Java SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/java-sdk)。 |
 
 由于所有活动类型尚不支持A4T，建议您保留或实施重要的转换mbox，如`orderConfirmPage` mbox。
 

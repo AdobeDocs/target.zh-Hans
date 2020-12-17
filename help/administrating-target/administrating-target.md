@@ -2,9 +2,9 @@
 keywords: setting up;setup;set-up;set up;administration
 description: 帮助您设置Adobe Target的信息，包括首选项、实施、用户管理、属性、Scene7配置、主机管理和响应令牌。
 title: 管理 Adobe Target
-feature: administration general
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 17%

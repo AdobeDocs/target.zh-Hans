@@ -2,9 +2,9 @@
 keywords: Administration;approver role;approver
 description: 本节介绍在收到 Adobe Experience Cloud 的电子邮件邀请后，Adobe Target 管理员应该采取的首要步骤。
 title: 管理员首要步骤
-feature: administration general
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 93%

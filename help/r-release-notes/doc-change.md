@@ -4,9 +4,9 @@ description: 本页列表了对Adobe Target文档所做的重要更改（按版�
 title: Adobe Target 产品文档中的文档更改。
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '3144'
+source-wordcount: '3165'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 12 月 16 日 | [自动目标疑难解答和常见问题解答](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 添加了以下常见问题解答：“如果我从自动目标活动中删除单个体验，会发生什么情况？” |
 | 12 月 9 日 | [设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 新主题。 |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 将以下问题从“已知问题”部分移至“已解决问题”部分：&quot;显示“处理”标签的图像优惠。&quot; |
 | 12 月 1 日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 嵌入了网络研讨会录制内容，以便“在零延迟时进行个性化和测试，并做出来自Adobe Target的设备上决策”。 |

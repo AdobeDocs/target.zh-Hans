@@ -4,9 +4,9 @@ description: 本页列表了对Adobe Target文档所做的重要更改（按版�
 title: Adobe Target 产品文档中的文档更改。
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
 workflow-type: tm+mt
-source-wordcount: '3188'
+source-wordcount: '3194'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 12 月 18 日 | [A/A测试](/help/c-activities/t-test-ab/aa-testing.md) | 新主题。 |
 | 12 月 17 日 | [将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | 更新了表以指示Java SDK支持A4T。 |
 | 12 月 16 日 | [自动目标疑难解答和常见问题解答](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 添加了以下常见问题解答：“如果我从自动目标活动中删除单个体验，会发生什么情况？” |
 | 12 月 9 日 | [设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 新主题。 |

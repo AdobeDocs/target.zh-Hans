@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 86%
+source-wordcount: '1570'
+ht-degree: 85%
 
 ---
 
@@ -200,6 +200,7 @@ ht-degree: 86%
       + [A/B 测试概述](c-activities/t-test-ab/test-ab.md)
       + [A/B 测试应该持续多长时间？](c-activities/t-test-ab/sample-size-determination.md)
       + [常见的A/B测试陷阱及其避免方法](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [A/A测试](/help/c-activities/t-test-ab/aa-testing.md)
       + 创建 A/B 测试 {#create}
          + [创建 A/B 测试](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [Activity URL（活动 URL）](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)

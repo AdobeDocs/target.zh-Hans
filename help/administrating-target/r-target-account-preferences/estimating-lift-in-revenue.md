@@ -1,24 +1,24 @@
 ---
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
-description: Adobe Target可以估算所有用户视图入选体验后将获得的收入提升。
+description: 使用Adobe Target估计所有用户视图入选体验后可获得的收入提升。
 title: 预计收入提升
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 96%
+source-wordcount: '506'
+ht-degree: 90%
 
 ---
 
 
 # 预计收入提升{#estimate-lift-in-revenue}
 
-Target 可以估计在所有用户都查看成功体验时将获得的收入提升。
+使用[!DNL Adobe Target]估计所有用户视图入选体验后可获得的收入提升。
 
 >[!NOTE]
 >
->目前，预计提升功能在体验定位 (XT) 活动中不可用。
+>目前，预计提升率不适用于[!UICONTROL 体验定位](XT)活动。
 
 默认情况下，预计提升功能处于关闭状态。您可以在帐户首选项中启用此功能。只有 Experience Cloud 管理员用户可以启用或禁用此功能。如果禁用预计提升，则界面中不会显示相应的字段。禁用此功能不会导致数据丢失，包括用于估算的数据。无论是否启用了此功能，都会根据所收集的数据进行估算。
 

@@ -1,20 +1,20 @@
 ---
 keywords: Administration;approver role;approver
-description: 本节介绍在收到 Adobe Experience Cloud 的电子邮件邀请后，Adobe Target 管理员应该采取的首要步骤。
+description: Adobe Target管理人在收到通过电子邮件发给Adobe Experience Cloud的邀请后，应该采取第一步措施。
 title: 管理员首要步骤
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 93%
+source-wordcount: '399'
+ht-degree: 84%
 
 ---
 
 
-# 管理员首要步骤{#administrator-first-steps}
+# 管理员首要步骤
 
-本节介绍在收到 [!DNL Adobe Experience Cloud] 的电子邮件邀请后，[!DNL Target] 管理员应该采取的首要步骤。
+本文包含[!DNL Adobe Target]管理员在收到通过电子邮件发送给[!DNL Adobe Experience Cloud]的邀请后应执行的第一步。
 
 ## 受邀加入 Target {#task_3E0817630774431983FAA3D2CB2E75BD}
 

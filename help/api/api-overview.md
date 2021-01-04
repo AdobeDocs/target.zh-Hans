@@ -4,9 +4,9 @@ description: 有关Adobe TargetAPI的信息，包括管理员、投放、报告�
 title: Adobe TargetAPI概述
 feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Adobe TargetAPI概述
 
-[!DNL Adobe Target] API可以按类型进行分组。
+[!DNL Adobe Target] API可以按类型进行分组：管理、投放、报告和用户档案API。
 
 | API类型 | 它使您能够 | 下载链接 | 其他有用链接 |
 | --- | --- | --- |--- |

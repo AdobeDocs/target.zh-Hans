@@ -1,20 +1,20 @@
 ---
-keywords: activity settings;mvt goals and settings;multivariate goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
+keywords: activity settings;goals and settings;multivariate;mvt
 description: 在Adobe Target的“目标和设置”页面输入有关测试目标的信息。
 title: 目标和设置
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 94%
+source-wordcount: '1258'
+ht-degree: 92%
 
 ---
 
 
-# 目标和设置{#goals-and-settings}
+# 目标和设置(Multivariate Tests)
 
-您可以在“目标和设置”页面上输入有关测试目标的信息。
+在Adobe Target的“目标和设置”页面中，输入有关[!UICONTROL Multivariate](MVT)测试目标的信息。
 
 * 活动设置
 * 报表设置

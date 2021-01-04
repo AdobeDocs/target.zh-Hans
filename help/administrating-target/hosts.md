@@ -4,17 +4,17 @@ description: 组织您的站点和预制作环境，以便在Adobe Target轻松�
 title: 主机
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 26%
+source-wordcount: '1083'
+ht-degree: 25%
 
 ---
 
 
 # 主机{#hosts}
 
-可组织您的网站和预生产环境，以便轻松管理和分隔报表。
+在[!DNL Adobe Target]中组织您的站点和预制作环境，以便轻松管理和分离报告。
 
 主机管理的主要目标是确保网站上不会意外出现任何不活跃的内容。主机管理还允许您按[环境](/help/administrating-target/environments.md)分隔报告数据。
 

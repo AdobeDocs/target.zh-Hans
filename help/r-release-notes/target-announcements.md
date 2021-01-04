@@ -4,7 +4,7 @@ description: 有关即将举办的事件的信息，包括目标技能生成器�
 title: 目标公告
 feature: release notes
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -54,6 +54,6 @@ Adobe在《Forrester Wave:体验优化平台，2020年第4季度报告其在此�
 
 ## Adobe Target技能培养者：开发人员聊天，将Adobe Target的mbox.js迁移到at.js {#skill-builder}
 
-随着mbox.js即将于2021年1月18日弃用，Adobe Target产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。
+随着mbox.js即将于2021年3月31日弃用，Adobe Target产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。
 
 [视图在此处录制网络研讨会](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。

@@ -1,12 +1,12 @@
 ---
-keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: 通过检查Adobe TargetUI中的重要指标（包括提升和信心）来解释自动分配A/B活动的结果。
+keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience;auto-allocate;auto allocate
+description: 通过检查重要指标，包括提升和信心，解释Adobe Target自动分配A/B活动的结果。
 title: 解释自动分配报告
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1112'
 ht-degree: 47%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 47%
 
 # 解释自动分配报告{#determine-a-winner}
 
-通过检查活动UI中的重要指标（包括提升和置信度）来解释自动分配A/B目标的结果。
+通过检查重要指标（包括提升和置信度）来解释[!UICONTROL Adobe Target]中的[!UICONTROL 自动分配] A/B活动的结果。
 
 许多营销人员会在结果指示明确的入选者之前，过早地错误宣布入选体验。现在，我们可使您更轻松地确定入选者。
 

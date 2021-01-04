@@ -4,7 +4,7 @@ description: 帮助您使用Adobe TargetQA书签强制目标从QA模式中释放
 title: 活动Adobe TargetQA书签
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -12,7 +12,7 @@ ht-degree: 26%
 ---
 
 
-# 活动 QA 书签{#activity-qa-bookmarklet}
+# 活动 QA 书签
 
 帮助您使用[!DNL Target] QA书签工具强制[!DNL Target]从QA模式释放您的信息。
 

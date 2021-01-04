@@ -4,9 +4,9 @@ description: 使用Adobe TargetQA URL轻松执行端到端活动QA,预览链接�
 title: 活动 QA
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1529'
 ht-degree: 80%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 80%
 
 # 活动 QA {#activity-qa}
 
-使用Adobe Target的QA URL对从未更改的预览链接、可选的受众定位和保持与实时活动数据分段的QA报告执行轻松的端对端活动QA。
+使用[!DNL Adobe Target]中的QA URL可轻松执行端到端活动QA，其中包含永不更改的预览链接、可选的受众定位，以及保持与实时活动数据分段的QA报告。
 
 ## 概述 {#section_11B761A522A14E61978275772210A4C2}
 

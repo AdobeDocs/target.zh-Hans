@@ -1,12 +1,12 @@
 ---
-keywords: Create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate
-description: 使用Adobe Target的Visual Experience Composer直接在启用目标的页面上创建自动分配A/B测试活动，并修改目标中页面的部分。
+keywords: create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate;auto-allocate
+description: 使用Adobe Target的可视体验书写器(VEC)直接在启用目标的页面上创建自动分配A/B测试活动并修改目标中页面的部分。
 title: 创建自动分配活动
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 60%
 
 ---

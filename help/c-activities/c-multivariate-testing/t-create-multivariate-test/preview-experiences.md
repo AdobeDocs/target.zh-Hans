@@ -1,21 +1,22 @@
 ---
-description: 由于多变量测试会对一个页面上的多个体验进行比较，因此预览页面的每个体验很有用。
-title: 预览多变量测试体验 in Adobe Target
-feature: mvt
+keywords: multivariate;mvt;preview;experiences
+description: 由于Adobe Target的Multivariate Test会比较页面上的多个体验，因此将页面与每个体验预览非常有帮助。
+title: 预览Adobe Target多变量测试的体验
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 69%
 
 ---
 
 
 # 预览多变量测试体验{#preview-experiences-for-a-multivariate-test}
 
-由于多变量测试会对一个页面上的多个体验进行比较，因此预览页面的每个体验很有用。
+由于[!DNL Adobe Target]中的[!UICONTROL  Multivariate Test]比较了页面上的多个体验，因此将页面与每个体验预览很有帮助。
 
-1. 在体验编辑器中，单击&#x200B;**[!UICONTROL 预览]**。
+1. 在可视体验书写器(VEC)中，单击&#x200B;**[!UICONTROL 预览]**。
 
    此时将显示一个包含所有体验的列表。
 

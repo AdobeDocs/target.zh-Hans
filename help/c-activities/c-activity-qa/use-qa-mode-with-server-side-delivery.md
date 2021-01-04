@@ -4,17 +4,17 @@ description: 使用带有服务器端投放的Adobe TargetQA URL轻松执行端�
 title: 在服务器端交付中使用活动 QA
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 80%
+source-wordcount: '384'
+ht-degree: 72%
 
 ---
 
 
-# 在服务器端交付中使用活动 QA{#use-activity-qa-with-server-side-delivery}
+# 在服务器端交付中使用活动 QA
 
-在服务器端交付中使用 QA URL 来执行简单的端到端活动 QA，它提供了永不变更的预览链接、可选的受众定位以及从实时活动数据中分段的 QA 报表。
+在[!DNL Adobe Target]中使用带有服务器端投放的QA URL，通过从不更改的预览链接、可选的受众定位和保持与实时活动数据分段的QA报告，轻松执行端到端的活动QA。
 
 活动 QA 的标准实施支持通过 `pageUrl` 参数来传递 `qa_mode` 参数。此方法便于标准/ajax [!DNL Target]调用。 但是，对于服务器到服务器调用，当 `pageUrl` 不可用时，这不是实施 Mobile SDK 案例的最佳方法。
 

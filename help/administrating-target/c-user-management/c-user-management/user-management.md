@@ -1,12 +1,12 @@
 ---
 keywords: add user;manage user;user permissions
-description: 您可以将用户添加到Adobe Target并管理他们在Adobe Admin Console的权限。
+description: 将用户添加到Adobe Target并管理他们在Adobe Admin Console的权限。
 title: 用户
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '892'
 ht-degree: 46%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 46%
 
 # 用户{#users}
 
-您可以在[!DNL Adobe Admin Console]中添加用户并管理其权限。
+在[!DNL Adobe Admin Console]中添加用户并管理其权限。
 
 >[!NOTE]
 >

@@ -4,9 +4,9 @@ description: 本页列表了对Adobe Target文档所做的重要更改（按版�
 title: Adobe Target 产品文档中的文档更改。
 feature: release notes
 translation-type: tm+mt
-source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
-source-wordcount: '3194'
+source-wordcount: '3220'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2021年1月4日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 将目标从2021年1月18日至2021年3月31日不再支持mbox.js的日期更改。 |
 | 12 月 18 日 | [A/A测试](/help/c-activities/t-test-ab/aa-testing.md) | 新主题。 |
 | 12 月 17 日 | [将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | 更新了表以指示Java SDK支持A4T。 |
 | 12 月 16 日 | [自动目标疑难解答和常见问题解答](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 添加了以下常见问题解答：“如果我从自动目标活动中删除单个体验，会发生什么情况？” |
@@ -93,7 +94,7 @@ ht-degree: 28%
 | --- | --- | --- |
 | 8月31日 | [Adobe Analytics与Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 添加了常见问题解答部分。 |
 | 8月28日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 更新了以下内容：<ul><li>已添加到“已知问题”部分：“报告-转换当前根据使用的受众以不同方式增加。”</li><li>添加到“已解决的问题”部分：“使用Google Chrome版本80+时，页面未在Visual Experience Composer(VEC)或Enhanced Experience Composer(EEC)中加载。”</li></ul> |
-|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | mbox.js的停用日期已从2020年8月30日更改为2021年1月18日。 |
+|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | mbox.js的停用日期已从2020年8月30日更改为2021年1月18日。 现在已改为2020年3月31日。 |
 | 8月26日 | [将Adobe Analytics与目标Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 新主题。 |
 | 8月24日 | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | 更新了“高级设置”部分。 |
 | 8月21日 | [Adobe Target欢迎工具包概述](/help/c-intro/target-welcome-kit.md) | 新文章和子主题。 |

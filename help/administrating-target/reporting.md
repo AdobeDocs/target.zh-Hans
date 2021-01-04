@@ -1,13 +1,13 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: 通过指定Adobe Target可视化体验书写器(VEC)的常规设置、移动视口配置和CSS选择器来配置它。
+description: 配置在Adobe Target报告中应用于整个目标帐户的常规设置。 您可以配置Adobe Experience Cloud解决方案以用于报告(目标或分析)、用于报告的时区和货币格式、要从报告中排除的IP地址，以及是否显示报告中收入的估计提升以及细粒度优先级。
 title: 在Adobe Target配置报告
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 32%
+source-wordcount: '708'
+ht-degree: 30%
 
 ---
 

@@ -1,25 +1,25 @@
 ---
-keywords: Mobile Web Experience Editor
+keywords: Multivariate Tests;troubleshoot;troubleshooting;mvt
 description: 本主题包含解决在Adobe Target设计MVT测试时可能出现的一些问题的建议。
 title: 多变量测试故障诊断
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 77%
+source-wordcount: '168'
+ht-degree: 45%
 
 ---
 
 
-# 多变量测试故障诊断{#troubleshoot-multivariate-tests}
+# 多变量测试故障诊断
 
-本主题包含解决在Adobe Target设计MVT测试时可能出现的一些问题的建议。
+本主题包含有关解决在[!DNL Adobe Target]中设计[!UICONTROL Multivariate](MVT)测试时可能出现的一些问题的建议。
 
-* 编辑活动时，如果您使用的是基于 Analytics 的量度，而报表包并未加载（显示旋转器），请先将量度切换为 Target 量度，然后再重新切换为基于 Analytics 的量度。此时，报表包应该可以成功加载。
-* 如果要对已在运行的测试进行更改，您可能需要重置该测试及其数据。
+* 在编辑活动时，如果您使用基于[!DNL Analytics]的度量并且报表包未加载（微调框显示），请将度量切换为[!DNL Target]度量，然后再次切换为基于[!DNL Analytics]的度量。 此时，报表包应该可以成功加载。
+* 如果对已运行的测试进行了更改，则可能会重置测试及其数据。
 
-   Target 允许您编辑实时活动。请注意，对正在运行的活动进行编辑可能会重置测试，因此报表可能无法识别某些更改。
+   [!DNL Target] 允许您编辑实时活动。请注意，对正在运行的活动进行编辑可能会重置测试，因此报表可能无法识别某些更改。
 
    稳妥的做法是进行一些小的更改，例如编辑现有的文本或 HTML 选件。
 

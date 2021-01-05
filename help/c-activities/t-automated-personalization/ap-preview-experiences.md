@@ -1,22 +1,22 @@
 ---
-keywords: Recommendations
+keywords: Automated Personalization;ap;preview;exclude experience;
 description: 由于自动个性化 (AP) 活动会对页面上的多个选件进行比较，因此预览每个体验中的页面将会很有帮助。
 title: 在 Adobe Target 可视化体验编辑器中预览自动个性化 (AP) 活动的体验
 feature: ap
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 61%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 在可视化体验编辑器中预览自动个性化体验{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
 
-由于自动个性化 (AP) 活动会对页面上的多个选件进行比较，因此预览每个体验中的页面将会很有帮助。
+由于[!DNL Adobe Target] [!UICONTROL Automated Personalization](AP)活动比较页面上的多个优惠，因此将页面预览到每个体验会很有帮助。
 
-1. 在可视化体验编辑器中，单击&#x200B;**[!UICONTROL 预览]**。
+1. 在[!UICONTROL 可视体验书写器](VEC)中，单击&#x200B;**[!UICONTROL 预览]**。
 
    ![“预览”图标](/help/c-activities/t-automated-personalization/assets/preview.png)
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
    ![“排除”图标](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
-   此时将显示“管理内容”对话框。
+   此时将显示[!UICONTROL 管理内容]对话框。
 
    ![“管理内容”对话框](/help/c-activities/t-automated-personalization/assets/preview-exclude.png)
 
@@ -38,10 +38,10 @@ ht-degree: 100%
 
    要排除一个体验，请将鼠标悬停在该体验上，然后单击&#x200B;**[!UICONTROL 排除]**&#x200B;图标。
 
-   要排除多个体验，请选中所需体验对应的的复选框，然后单击列表右上角的&#x200B;**[!UICONTROL 排除]**&#x200B;图标。
+   要排除多个体验，请选中所需体验的复选框，然后单击列表右上方的&#x200B;**[!UICONTROL 排除]**&#x200B;图标。
 
-   默认情况下，自动个性化活动中包含所有体验。要包含一个已排除的体验，请将鼠标悬停在该体验上，然后单击&#x200B;**[!UICONTROL 包含]**&#x200B;图标。
+   默认情况下，所有体验都包含在[!UICONTROL Automated Personalization]活动中。 要包含一个已排除的体验，请将鼠标悬停在该体验上，然后单击&#x200B;**[!UICONTROL 包含]**&#x200B;图标。
 
-   要包含多个已排除的体验，请选中所需体验对应的复选框，然后单击列表右上角的&#x200B;**[!UICONTROL 包含]**&#x200B;图标。
+   要包含已排除的多个体验，请选中所需体验的复选框，然后单击列表右上方的&#x200B;**[!UICONTROL 包含]**&#x200B;图标。
 
 1. 单击&#x200B;**[!UICONTROL 撰写]**&#x200B;返回到可视化体验编辑器以进行更改，或单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以转到“[!UICONTROL 定位]”步骤。

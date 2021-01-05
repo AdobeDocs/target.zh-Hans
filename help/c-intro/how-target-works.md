@@ -1,13 +1,13 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
 description: Adobe Target 可通过两个 JavaScript 库（at.js 或 mbox.js）中的任意一个与网站集成
 title: Adobe Target 的工作原理
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 82%
+source-wordcount: '2438'
+ht-degree: 79%
 
 ---
 
@@ -18,10 +18,11 @@ ht-degree: 82%
 
 ## Target JavaScript 库 {#libraries}
 
-Adobe Target 可通过两个 JavaScript 库（at.js 或 mbox.js）中的任意一个与网站集成
+Adobe Target通过JavaScript库与网站集成：
 
 * **at.js：**[at.js 库](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)是适用于 Target 的新实施库。使用 at.js 可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。at.js 是推荐使用的实施库，会经常更新功能。我们建议所有客户都实施或迁移到[最新版本的 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
-* **mbox.js：** mbox.js 库是适用于 Target 的旧版实施库。虽然现在仍支持 mbox.js 库，但是以后不会再提供此库的功能更新。
+* **Adobe Experience PlatformWeb SDK:** Adobe Experience Platform [Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK是一个新的客户端JavaScript库，它允 [!DNL Adobe Experience Cloud] 许客户通过Edge Network与 [!DNL Experience Cloud] 中的各种 [!DNL Adobe Experience Platform] 服务交互。
+* **mbox.js：**[mbox.js 库是适用于 Target 的旧版实施库。](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)在2021年3月31日之前仍支持mbox.js库，但将不提供功能更新。
 
 >[!IMPORTANT]
 >

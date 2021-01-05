@@ -1,21 +1,21 @@
 ---
-keywords: automated personalization;offers
+keywords: automated personalization;offers;target;audience;targeting rules;targeting
 description: 在自动个性化活动中，您可以将选件定位到特定的受众。
-title: Target 自动个性化选件
-feature: ap
+title: Target 自动个性化选件 in Adobe Target
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: a4b510308394110bb267665ca39d54e2ea781f3d
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 96%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Target 自动个性化选件{#target-automated-personalization-offers}
 
-在自动个性化 (AP) 活动中，您可以将选件定位到特定受众。
+在[!DNL Adobe Target] [!DNL Automated Personalization](AP)活动中，您可以将优惠目标到特定受众。
 
 使用此功能可减少特定访客有资格查看的选件数量。例如，以含有三个选件的 AP 活动为例。选件 1 有一个定位规则，该规则限制仅向受众 A 显示该选件。有两位访客看到了此 AP 活动。
 

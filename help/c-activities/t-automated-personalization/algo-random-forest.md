@@ -1,18 +1,18 @@
 ---
-keywords: Targeting
+keywords: random forest;decision tree;ap;Automated Personalization
 description: Target 在自动个性化和自动定位中使用的主要个性化算法是随机林算法。相较于从任何组成学习算法获得的性能而言，诸如随机林之类的组合方法可使用多种学习算法获得更好的预测性能。自动个性化中的随机林算法是一种分类或回归分析方法，该方法通过在训练时构建大量的决策树来执行运算。
 title: 随机林算法
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1456'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 随机林算法{#random-forest-algorithm}
+# ![PREMIUM](/help/assets/premium.png) 随机林算法
 
 Target 在自动个性化和自动定位中使用的主要个性化算法是随机林算法。相较于从任何组成学习算法获得的性能而言，诸如随机林之类的组合方法可使用多种学习算法获得更好的预测性能。自动个性化中的随机林算法是一种分类或回归分析方法，该方法通过在训练时构建大量的决策树来执行运算。
 
@@ -43,11 +43,11 @@ Target 在自动个性化和自动定位中使用的主要个性化算法是随�
 
 ![](assets/decsion_tree_2.png)
 
-## 随机林如何使用决策树？ {#section_536C105EF9F540C096D60450CAC6F627}
+## 兰登森林公司如何使用决策树？{#section_536C105EF9F540C096D60450CAC6F627}
 
 决策树可堪称是强大的统计工具。但是，它们也存在一些缺陷。最为关键的是，它们可能会“过度拟合”数据，因此单个树不能很好地预测在构建初始决策树时未用到的将来数据。这一难题在统计学习中被称为[偏差-方差权衡](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)。随机林可帮助克服这一过度拟合难题。在最高层次上，随机林就是决策树的一个集合，这些决策树基于同一个数据集构建但又略有不同，它们一起“投票”来产生一个比单个树更好的模型。这些决策树通过以下方式来构建：通过替换法（称为套袋法）随机选择访问记录的子集，并且还随机选择属性的子集，以使随机林包含略有不同的决策树。这种方法可为随机林中创建的决策树引入一些小的差异。通过加入这些数量可控的差异，可帮助提高算法的预测准确性。
 
-## Target 的个性化算法如何使用随机林？  {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## 目标的个性化算法如何使用Random Forest?{#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **如何构建模型**
 
@@ -78,7 +78,7 @@ Target 使用它自动收集的数据以及您提供的自定义数据来构建�
 
 对于类别特性，会保留所有可能的特性集，可使用概率转换来减小数据量。对于数字特性，可通过校正来确保这些特性都具有普遍可比性。
 
-**通过多臂老虎机平衡学习与个性化**
+**在学习与个性化与多兵种强盗之间找到平衡**
 
 在 Target 构建了可个性化流量的个性化模型之后，对于将来的活动访客，您需要做出明确的权衡：应当基于当前模型个性化所有流量，还是应当继续向新访客提供随机选件以向他们学习？您需要确保个性化算法在个性化大部分流量的同时，不断学习访客的新趋势。
 

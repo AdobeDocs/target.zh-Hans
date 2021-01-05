@@ -1,20 +1,20 @@
 ---
-keywords: Targeting
-description: 活动 URL 可确定在体验定位活动中使用的页面，以及设计活动时在 Adobe Target 可视化体验编辑器 (VEC) 或基于表单的体验编辑器中打开的页面。
+keywords: Experience Targeting;xt;activity url;url
+description: 活动URL确定在“Adobe Target体验定位”活动中使用的页面，该页面在设计活动时在可视体验书写器(VEC)或基于表单的体验书写器中打开。
 title: 活动 URL
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 92%
+source-wordcount: '280'
+ht-degree: 66%
 
 ---
 
 
-# 活动 URL{#activity-url}
+# 活动URL在体验定位(XT)活动
 
-活动 URL 可确定在体验定位 (XT) 活动中使用的页面，以及设计活动时在可视化体验编辑器 (VEC) 或基于表单的体验编辑器中打开的页面。
+[!UICONTROL 活动URL]确定在[!DNL Adobe Target] [!UICONTROL 体验定位](XT)活动中使用的页面，该页面在[!UICONTROL 可视体验书写器](VEC)或[!UICONTROL 基于表单的体验书写器]中打开活动是设计的。
 
 1. 在[创建 XT 活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)时，如果出现提示，请指定活动 URL。应键入完整的 URL（包括 `https://`），然后单击&#x200B;**[!UICONTROL 创建活动]**。
 

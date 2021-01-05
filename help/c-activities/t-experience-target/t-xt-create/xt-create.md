@@ -1,9 +1,10 @@
 ---
+keywords: Experience Targeting;xt;create
 description: 使用可视化体验编辑器，可在启用了 Target 的页面上创建体验定位 (XT) 活动，并在 Adobe Target 中修改页面的各个部分。
 title: 创建体验定位活动
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%

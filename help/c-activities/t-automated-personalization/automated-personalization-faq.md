@@ -1,18 +1,18 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization;control;default experience;best practices
 description: 有关自动个性化 (AP) 的常见问题解答 (FAQ) 列表。
 title: 自动个性化常见问题解答
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1963'
 ht-degree: 85%
 
 ---
 
 
-# ![高级自](/help/assets/premium.png) 动个性化常见问题解答{#automated-personalization-faq}
+# ![高级自](/help/assets/premium.png) 动个性化常见问题解答
 
 有关自动个性化 (AP) 的常见问题解答 (FAQ) 列表。
 
@@ -53,7 +53,7 @@ ht-degree: 85%
 
 ## 常见问题解答
 
-使用自动分配活动时，请参阅以下常见问题解答和答案：
+使用[!UICONTROL Automated Personalization]活动时，请参阅以下常见问题解答和答案：
 
 ### 自动个性化有什么限制？{#section_08BA09ED51B547299963C94FE6417CFA}
 

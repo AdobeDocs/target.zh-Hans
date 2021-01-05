@@ -1,20 +1,20 @@
 ---
 keywords: Click tracking;track clicks;clicks;AppMeasurement
-description: Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
+description: Adobe Target允许您将任何元素的点击量作为成功量度进行跟踪。
 title: 点击跟踪
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 95%
+source-wordcount: '875'
+ht-degree: 92%
 
 ---
 
 
-# 点击跟踪{#click-tracking}
+# 点击跟踪
 
-Target 可以让您跟踪任何作为成功量度的元素上的点击次数。
+[!DNL Adobe Target] 可将任何元素的点击量作为成功量度进行跟踪。
 
 >[!NOTE]
 >

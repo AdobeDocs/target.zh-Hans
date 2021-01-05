@@ -1,20 +1,20 @@
 ---
 keywords: capture score;score
-description: “捕获分数”参与度量根据分配给网站上访问的页面的值计算汇总分数，该值从访客第一次看到活动的第一个显示目标请求时开始。
+description: Adobe Target的“捕获分数”参与量度根据分配给网站上访问的页面的值计算汇总分数，该值从访客第一次看到活动的第一个显示目标请求时开始。
 title: 捕捉分数
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 51%
+source-wordcount: '768'
+ht-degree: 50%
 
 ---
 
 
-# 捕捉分数{#capture-score}
+# 捕捉分数
 
-“捕获分数”参与度量根据分配给网站上访问的页面的值计算汇总分数，该值从访客第一次看到活动的第一个显示[!DNL Target]请求时开始。
+[!DNL Adobe Target]中的“捕获分数”参与度度量根据分配给网站上访问的页面的值计算汇总分数，该值从访客第一次看到活动的第一个显示[!DNL Target]请求开始。
 
 下面的例子显示了在对两个体验（一个包含猫的图像，一个包含狗的图像）进行测试的营销活动中，如何计算分数参与量度。
 
@@ -28,7 +28,7 @@ ht-degree: 51%
 
 ![](assets/example_score2.png)
 
-**分配网页分数**
+## 分配页面得分
 
 您可以根据网页对您的价值为网站上的任何页面分配一个值。例如，烹饪网站的专题文章页面可能比体验区域获得更多广告收益。因此，专题文章页面比体验区域更具价值。网页分数可让您设计一次访问的整体“价值”，使得阅读更多专题文章的访客能够比仅仅浏览体验的访客得到更多“点数”。
 

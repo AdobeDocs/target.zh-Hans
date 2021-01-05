@@ -1,20 +1,20 @@
 ---
 keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
-description: 如果您的活动未显示在网站上，这些故障诊断建议应该可以帮助您找到解决方法。
+description: 如果您的Adobe Target活动未出现在您的网站上，这些疑难解答建议应帮助您找到解决方案。
 title: 活动故障诊断
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 79%
+source-wordcount: '801'
+ht-degree: 74%
 
 ---
 
 
-# 活动故障诊断{#troubleshoot-activities}
+# 活动故障诊断
 
-如果您的活动未显示在网站上，这些故障诊断建议应该可以帮助您找到解决方法。
+如果您的[!DNL Adobe Target]活动未出现在您的站点上，这些故障排除建议将帮助您找到解决方案。
 
 >[!NOTE]
 >

@@ -2,10 +2,10 @@
 keywords: experience;control;automated personalization;auto-target
 description: 在 Adobe Target 中创建自动个性化 (AP) 或自动定位活动时，选择要用作控制的体验。
 title: 在 Adobe Target 中使用特定体验作为控制
-feature: ap
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%

@@ -1,9 +1,10 @@
 ---
+kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: 有时候，活动没有按预期进行。此处介绍了使用自动个性化时可能会遇到的一些潜在问题，以及一些解决方法建议。
 title: 自动个性化故障诊断
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 94%

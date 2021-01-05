@@ -1,20 +1,20 @@
 ---
-keywords: automated personalization;Audiences;ensemble;random forest
-description: 自动个性化 (AP) 可将各种选件或消息进行组合，并且使用先进的机器学习技术，根据每位访客的个人客户配置文件将不同的选件变体与其匹配，以便个性化内容并促进提升。
+keywords: automated personalization;ap;audiences;ensemble;random forest;multi-armed bandit;thompson sampling;ml;machine learning
+description: Automated Personalization(AP)Adobe Target活动结合优惠或消息，使用高级机器学习来根据各个访客的个人客户用户档案将不同的优惠变化与其匹配，从而个性化内容并推动提升。
 title: 自动个性化
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 97%
+source-wordcount: '1027'
+ht-degree: 89%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 自动个性化{#automated-personalization}
+# ![高级](/help/assets/premium.png) 自动个性化(AP)
 
-[!UICONTROL 自动个性化] (AP) 可将各种选件或消息进行组合，并且使用先进的机器学习技术，根据每位访客的个人客户配置文件将不同的选件变体与其匹配，以便个性化内容并促进提升。
+[!UICONTROL Automated Personalization] (AP)活动 [!DNL Adobe Target] 结合优惠或信息，使用高级机器学习根据其个别客户用户档案将不同的优惠变化与每个访客匹配，从而个性化内容并推动提升。
 
 >[!NOTE]
 >

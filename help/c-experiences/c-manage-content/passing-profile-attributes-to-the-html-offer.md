@@ -4,10 +4,10 @@ description: 您可以在一个 HTML 或 JSON 选件中直接显示配置文件�
 title: 将动态数据传递给选件
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 `${user.parameter}`
 
-在“推荐”设计中使用动态属性时，必须在美元符号（“$”）之前插入反斜杠（“\”），以便正确呈现动态值：`\${user.endpoint.lastViewedEntity}`
+在Recommendations设计中使用动态属性时，必须在美元符号($)前插入反斜杠(\)，这样动态值才能正确呈现：`\${user.endpoint.lastViewedEntity}`
 
 这些变量可以被服务器端的值所替换，因此不需要引用或其他 JavaScript 也能正确显示。
 

@@ -2,12 +2,12 @@
 keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates
 description: 这些发行说明介绍了每个 Target Standard 和 Target Premium 版本的功能、增强功能、修复信息和已知问题。
 title: 'Adobe Target 发行说明（当前版本） '
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 28%
+source-wordcount: '957'
+ht-degree: 26%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 28%
 
 >[!IMPORTANT]
 >
->* **mbox.js终止使用**:2021年3月31日，Adobe Target将不再支持mbox.js库。2021年3月31日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响目标活动运行的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[At.js工作方式](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)和[Adobe Target技能生成器：开发人员聊天，将Adobe Target的mbox.js迁移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
-   >
-   >   
-   尽管目前支持mbox.js，但自2017年7月起，我们便未对此库提供功能更新。 较新的at.js比mbox.js具有许多优势。 at.js可缩短Web实施的页面加载时间，提高安全性，并为单页应用程序提供更好的实施选项。
-   >
-   >   
-   通过将所有客户转移到at.js，我们的工程师和支持人员将能够为您提供新功能并优惠您期望从Adobe获得的支持。
+>**mbox.js终止使用**:2021年3月31日 [!DNL Adobe Target] 将不再支持mbox.js库。2021年3月31日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响[!DNL Target]活动运行的页面。 我们建议所有客户在此日期之前迁移到at.js库的最新版本或新[!DNL Adobe Experience Platform Web SDK]，以避免站点出现任何潜在问题。
+>
+>* **at.js**:如果选择迁移到at.js，请参阅 [How At.js Work](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 和 [Adobe TargetSkill Builder:开发人员聊天，将Adobe Target的mbox.js迁移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
    >
    >
-* **目标通知**:有关即将进行的目标的信息，请参阅事件公告页，包括目标技能生成器会话、开发人员聊天、网络研讨会和目标咖啡休息会话。有关详细信息，请参阅[目标公告](/help/r-release-notes/target-announcements.md)。
-
+* **Adobe Experience PlatformWeb SDK**:如果选择迁移到，请参 [!DNL Adobe Experience Platform Web SDK]阅《Web  [SDK指南》中的](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)“What is  *Adobe Experience Platform Web SDK*”。有关[!DNL Target]特定信息，请参见[目标概述](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)。
+>
+>
+尽管mbox.js目前受支持（2021年3月31日之前），但自2017年7月起，我们尚未对此库提供功能更新。 较新的at.js库比mbox.js提供许多优势。 at.js可缩短Web实施的页面加载时间，提高安全性，并为单页应用程序提供更好的实施选项。 [!UICONTROL Adobe Experience PlatformWeb SDK]允许您通过Adobe Experience Edge Network与[!DNL Experience Cloud]（包括[!DNL Target]）中的各种服务进行交互。
+>
+>通过将所有客户移至at.js或[!UICONTROL Adobe Experience PlatformWeb SDK]，我们的工程师和支持人员将能够为您提供新功能并优惠您期望从Adobe获得的支持。
 
 括号中的问题编号供 [!DNL Adobe] 内部使用。
 

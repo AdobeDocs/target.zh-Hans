@@ -1,21 +1,21 @@
 ---
-keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers;exclude;default content;exclusion group;
 description: 通过创建排除组、排除重复的选件、排除特定体验以及排除 Adobe Target 自动个性化 (AP) 活动中的默认内容来管理排除项。
 title: 管理排除项
-feature: ap
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 97%
+source-wordcount: '965'
+ht-degree: 94%
 
 ---
 
 
-# ![Premium 徽章](/help/assets/premium.png) 管理排除项{#manage-exclusions}
+# ![Premium 徽章](/help/assets/premium.png) 管理排除项
 
-通过创建排除组、排除重复的选件、排除特定体验以及排除自动个性化 (AP) 活动中的默认内容来管理排除项。
+通过创建排除组(不包括重复优惠，不包括特定体验)并排除[!DNL Adobe Target][!UICONTROL Automated Personalization](AP)活动中[!UICONTROL Automated Personalization](AP)活动的默认内容来管理排除。
 
 ## 创建排除组 {#task_AAAA6C7239A84F7696C8492F04B575A2}
 

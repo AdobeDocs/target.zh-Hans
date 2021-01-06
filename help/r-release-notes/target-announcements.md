@@ -4,9 +4,9 @@ description: 有关即将举办的事件的信息，包括目标技能生成器�
 title: 目标公告
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 5a296355f8ef111c79e06b5bf153203d538aa90b
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -16,24 +16,17 @@ ht-degree: 0%
 
 有关即将举办的事件的公告和信息，包括目标技能生成器研习会、开发人员聊天、网络研讨会和目标咖啡休息会。
 
-## Adobe在Forrester wave报告中被评为体验优化平台的领导者
-
-Adobe在《Forrester Wave:体验优化平台，2020年第4季度报告其在此领域的产品，Adobe Target高级版。 Adobe在当前产品和市场表现类别以及推荐和平台体验标准中获得了所有参与供应商的最高分。 目标高级版在体验优化技术创新和支持服务标准方面也获得最高分。 该报告基于对10家体验优化平台提供商的全面评估，评估范围涵盖22个标准。
-
-在[Adobe博客](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)上阅读相关信息。
-
-## Adobe再次在Gartner个性化引擎魔力象限中被评为领导者
-
-在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为领导者。 Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商：愿景和执行能力的完整性。
-
-[在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+| 研究服务 | 详细信息 |
+| --- | --- |
+| Forrester | Adobe在Forrester wave报告中被评为体验优化平台的领导者。<br>Adobe在《Forrester Wave:体验优化平台，2020年第4季度报告其在此领域的产品，Adobe Target高级版。Adobe在当前产品和市场表现类别以及推荐和平台体验标准中获得了所有参与供应商的最高分。 目标高级版在体验优化技术创新和支持服务标准方面也获得最高分。 该报告基于对10家体验优化平台提供商的全面评估，评估范围涵盖22个标准。<br>在Adobe博客上 [阅读](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
+| Gartner | Adobe再次在Gartner个性化引擎魔力象限中被评为领导者。<br>在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为领导者。Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商：愿景和执行能力的完整性。<br>[在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
 
 ## 网络研讨会：大规模成功个性化：Forrester Wave体验优化平台的主要发现
 
 * **1月19日星期二**
 * **8 a.m. PT |上午10点CT |上午11点ET**
 * **持续时间：60分钟**
-* **[在此处注册](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)**
+* **[在此处注册](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)。**
 
 大规模优化客户体验的能力现在对于满足客户的动态需求和当前新数字访客的激增至关重要。 体验优化平台（如[!DNL Adobe Target]）可部署在您的数字资产中，以利用手动和人工智能驱动的行为定位、测试和推荐功能，在适当的时间快速确定和提供适合客户的体验。 欢迎加入我们和我们的特邀嘉宾James McCormick,Forrester的首席分析师，我们将在2020年第4季度《Forrester Wave，体验优化平台》中展示并讨论其关键发现。
 
@@ -53,7 +46,7 @@ Adobe在《Forrester Wave:体验优化平台，2020年第4季度报告其在此�
 
 ## 网络研讨会：汇丰如何利用Adobe Target和人工智能快速大规模优化和提供个性化
 
-* **单击此处以视图网 [络研讨会录制](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
+* **[视图在此处录制网络研讨会](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
 麦肯锡数字公司报告称：“在大约8周的时间内，我们在消费者和商业数字应用方面已经向前推进了5年。” *
 
@@ -71,4 +64,4 @@ Adobe在《Forrester Wave:体验优化平台，2020年第4季度报告其在此�
 
 随着mbox.js即将于2021年3月31日弃用，Adobe Target产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。
 
-[视图在此处录制网络研讨会](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。
+* **[视图在此处录制网络研讨会](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。**

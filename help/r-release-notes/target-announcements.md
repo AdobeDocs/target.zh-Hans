@@ -4,9 +4,9 @@ description: 有关即将举办的事件的信息，包括目标技能生成器�
 title: 目标公告
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,21 @@ Adobe在《Forrester Wave:体验优化平台，2020年第4季度报告其在此�
 在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为领导者。 Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商：愿景和执行能力的完整性。
 
 [在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。
+
+## 网络研讨会：大规模成功个性化：Forrester Wave体验优化平台的主要发现
+
+* **1月19日星期二**
+* **8 a.m. PT |上午10点CT |上午11点ET**
+* **持续时间：60分钟**
+* **[在此处注册](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)**
+
+大规模优化客户体验的能力现在对于满足客户的动态需求和当前新数字访客的激增至关重要。 体验优化平台（如[!DNL Adobe Target]）可部署在您的数字资产中，以利用手动和人工智能驱动的行为定位、测试和推荐功能，在适当的时间快速确定和提供适合客户的体验。 欢迎加入我们和我们的特邀嘉宾James McCormick,Forrester的首席分析师，我们将在2020年第4季度《Forrester Wave，体验优化平台》中展示并讨论其关键发现。
+
+在此网络研讨会中，您将了解：
+
+* 塑造个性化和体验优化工具演变的行业趋势
+* 领先体验优化平台的主要功能
+* 大规模优化客户体验以最大化业务影响的最佳实践
 
 ## 网络研讨会：利用Adobe Target提供的设备上决策，在零延迟时进行个性化和测试
 

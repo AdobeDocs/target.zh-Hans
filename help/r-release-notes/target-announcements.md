@@ -1,12 +1,12 @@
 ---
-keywords: announcements;skill builder;developer chat;coffee break;events
+keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
 description: 有关即将举办的事件的信息，包括目标技能生成器研习会、开发人员聊天、网络研讨会和目标咖啡休息会。
 title: 目标公告
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 5a296355f8ef111c79e06b5bf153203d538aa90b
+source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,14 @@ ht-degree: 0%
 
 有关即将举办的事件的公告和信息，包括目标技能生成器研习会、开发人员聊天、网络研讨会和目标咖啡休息会。
 
+## Adobe Target
+
+Adobe Target最近被Forrester和Gartner评为市场领导者。
+
 | 研究服务 | 详细信息 |
 | --- | --- |
-| Forrester | Adobe在Forrester wave报告中被评为体验优化平台的领导者。<br>Adobe在《Forrester Wave:体验优化平台，2020年第4季度报告其在此领域的产品，Adobe Target高级版。Adobe在当前产品和市场表现类别以及推荐和平台体验标准中获得了所有参与供应商的最高分。 目标高级版在体验优化技术创新和支持服务标准方面也获得最高分。 该报告基于对10家体验优化平台提供商的全面评估，评估范围涵盖22个标准。<br>在Adobe博客上 [阅读](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
-| Gartner | Adobe再次在Gartner个性化引擎魔力象限中被评为领导者。<br>在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为领导者。Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商：愿景和执行能力的完整性。<br>[在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
+| Forrester | **Adobe在Forrester wave报告中被评为体验优化平台的领导者。**<br> Adobe在《Forrester Wave:体验优化平台，2020年第4季度报告其在此领域的产品，Adobe Target高级版。Adobe在当前产品和市场表现类别以及推荐和平台体验标准中获得了所有参与供应商的最高分。 目标高级版在体验优化技术创新和支持服务标准方面也获得最高分。 该报告基于对10家体验优化平台提供商的全面评估，评估范围涵盖22个标准。<br>在Adobe博客上 [阅读](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
+| Gartner | **Adobe再次在Gartner个性化引擎魔力象限中被评为领导者。**<br>&#x200B;在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为领导者。Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商：愿景和执行能力的完整性。<br>[在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
 
 ## 网络研讨会：大规模成功个性化：Forrester Wave体验优化平台的主要发现
 

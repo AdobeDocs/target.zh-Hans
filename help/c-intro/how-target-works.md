@@ -1,38 +1,43 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
-description: Adobe Target 可通过两个 JavaScript 库（at.js 或 mbox.js）中的任意一个与网站集成
+keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;seo;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
+description: 有关Adobe Target工作方式的信息，包括有关Adobe Experience PlatformWeb SDK、目标JavaScript库（at.js和mbox.js）以及您可以在目标中创建的各种活动类型的信息。
 title: Adobe Target 的工作原理
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 1b426e0b2004e729ba75d218a9b6ccd5195449cd
 workflow-type: tm+mt
-source-wordcount: '2438'
-ht-degree: 79%
+source-wordcount: '2530'
+ht-degree: 70%
 
 ---
 
 
 # Adobe Target 的工作原理
 
-有关 Adobe Target 工作方式的信息，其中包括有关 Target JavaScript（at.js 和 mbox.js）以及 Target 中所包含的各种活动类型的信息。
+有关[!DNL Adobe Target]工作方式的信息，包括有关[!DNL Adobe Experience Platform Web SDK]、[!DNL Target] JavaScript库（at.js和mbox.js）以及您可以使用活动创建的各种目标类型的信息。
 
-## Target JavaScript 库 {#libraries}
+## 目标平台Web SDK和JavaScript库{#libraries}
 
-Adobe Target通过JavaScript库与网站集成：
+Adobe Target通过[!DNL AEP Web SDK]或JavaScript库与网站集成：
 
+* **Adobe Experience PlatformWeb SDK** : [AEP Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK是一个新的客户端JavaScript库，它允 [!DNL Adobe Experience Cloud] 许客户通过Edge Network与 [!DNL Experience Cloud] （包括）中的 [!DNL Target]各种服务 [!DNL Adobe Experience Platform] 交互。有关[!DNL Target]特定信息，请参见[目标概述](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)。
 * **at.js：**[at.js 库](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)是适用于 Target 的新实施库。使用 at.js 可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。at.js 是推荐使用的实施库，会经常更新功能。我们建议所有客户都实施或迁移到[最新版本的 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
-* **Adobe Experience PlatformWeb SDK:** Adobe Experience Platform [Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK是一个新的客户端JavaScript库，它允 [!DNL Adobe Experience Cloud] 许客户通过Edge Network与 [!DNL Experience Cloud] 中的各种 [!DNL Adobe Experience Platform] 服务交互。
-* **mbox.js：**[mbox.js 库是适用于 Target 的旧版实施库。](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)在2021年3月31日之前仍支持mbox.js库，但将不提供功能更新。
+* **mbox.js：**[mbox.js 库是适用于 Target 的旧版实施库。](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)mbox.js库在2021年3月31日之前一直受支持，但将不提供功能更新。
 
 >[!IMPORTANT]
 >
->因此，所有客户都应迁移到 at.js。有关更多信息，请参阅[从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
+>所有客户应迁移到[!DNL AEP Web SDK]或最新版本的at.js。 有关详细信息，请参阅[Adobe Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)或[从mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)迁移到at.js。
 
-您必须在网站的每个页面上引用 Target JavaScript 库文件。例如，您可以将此文件添加到全局标头。或者，请考虑使用 [Adobe Launch 标记管理器](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+您必须在站点的每个页面上引用[!DNL AEP Web SDK]或at.js。 例如，您可以将其中一个添加到全局标题中。 或者，也可以考虑使用[Adobe平台启动](https://experienceleague.adobe.com/docs/launch/using/overview.html)。
 
-访客每次请求访问已针对 Target 进行优化的页面时，系统都会向定位系统发送请求，以确定要向访客提供哪些内容。此过程是实时进行的——每次加载页面时，系统都会发出内容请求，随后定位系统会处理此请求。内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。提供的内容是每个网站访客最有可能响应、与之交互并最终购买的，以便最大程度地提高响应率、购置率和收入。
+以下资源将帮助您实施AEP Web SDK或at.js:
 
-在 Target 中，页面上的每个元素都是整个页面的单个体验的一部分。每个体验可包含页面上的多个元素。
+* [Adobe Experience PlatformWeb SDK扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
+* [使用 Adobe Launch 实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+
+每次访客请求已针对[!DNL Target]优化的页面时，都会向定位系统发送请求，以确定为访客提供哪些内容。 该过程实时发生，每次加载页面时，系统都会发出内容请求并完成。 内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。提供的内容是每个网站访客最有可能响应、与之交互并最终购买的，以便最大程度地提高响应率、购置率和收入。
+
+在[!DNL Target]中，页面上的每个元素都是整个页面单个体验的一部分。 每个体验可包含页面上的多个元素。
 
 向访客显示的内容取决于您创建的活动类型：
 

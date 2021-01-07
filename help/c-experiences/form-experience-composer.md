@@ -1,20 +1,20 @@
 ---
 keywords: form-based experience composer;form-based composer;refinements
-description: 在基于表单的体验编辑器中，可采用非可视化方式创建体验。
+description: Adobe Target基于表单的体验书写器提供非视觉体验创建。
 title: 基于表单的体验编辑器
-feature: form-based composer
+feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 79%
+source-wordcount: '746'
+ht-degree: 72%
 
 ---
 
 
 # 基于表单的体验编辑器{#form-based-experience-composer}
 
-基于表单的体验编辑器是一个非可视化体验和选件创建界面，当可视化体验编辑器不可用或不实用时，它有助于创建在 A/B 测试、体验定位、自动个性化和“推荐”活动中使用的体验。例如，您可以使用基于表单的编辑器为电子邮件、网亭和语音助手中的交付创建体验和选件。
+[!DNL Adobe Target] [!UICONTROL 基于表单的体验书写器]是一个非可视体验和优惠创建界面，当可视体验书写器不可用或无法实际使用时，该界面可用于创建用于A/B测试、体验定位、Automated Personalization和Recommendations活动的体验。 例如，您可以使用基于表单的编辑器为电子邮件、网亭和语音助手中的交付创建体验和选件。
 
 如果您创建的是“推荐”活动，则不存在任何体验。需选择您的标准和设计。如果您选择多个标准或设计，则 Target 会自动生成体验。
 

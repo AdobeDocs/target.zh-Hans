@@ -1,20 +1,20 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: 可在选件库中创建用于存放项目的文件夹。
+description: 创建一个文件夹以保存Adobe Target优惠库中的项目。
 title: 创建选件文件夹
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 93%
 
 ---
 
 
-# 创建选件文件夹{#create-offer-folder}
+# 创建选件文件夹
 
-可在选件库中创建用于存放项目的文件夹。
+创建一个文件夹以保存Adobe Target优惠库中的项目。
 
 1. 单击&#x200B;**[!UICONTROL 选件]**，然后根据需要选择&#x200B;**[!UICONTROL 代码选件]**&#x200B;或&#x200B;**[!UICONTROL 图像选件]**&#x200B;选项卡。
 1. 单击&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL 文件夹]**。

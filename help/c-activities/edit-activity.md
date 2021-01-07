@@ -1,20 +1,20 @@
 ---
 keywords: activities;activity;activity types;edit activity;edit;draft
-description: 有关您可以使用不同方式对现有活动进行编辑的信息，包括将活动保存为草稿。
+description: 有关编辑Adobe Target现有活动的不同方式的信息，包括以草稿形式保存活动。
 title: 编辑活动或另存为草稿
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 100%
+source-wordcount: '1115'
+ht-degree: 96%
 
 ---
 
 
-# 编辑活动或另存为草稿{#edit-an-activity-or-save-as-draft}
+# 编辑活动或另存为草稿
 
-有关您可以使用不同方式对现有活动进行编辑的信息，包括将活动保存为草稿。
+有关在[!DNL Adobe Target]中编辑现有活动的不同方式的信息，包括以草稿形式保存活动。
 
 您可以在 Target UI 中的多个位置编辑现有活动。根据您选择的方法，编辑过程会有所不同。
 

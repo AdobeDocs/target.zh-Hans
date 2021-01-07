@@ -1,21 +1,22 @@
 ---
+keywords: visual experience composer;vec;wysiwyg
 description: 有关在 Adobe Target 中使用可视化体验编辑器 (VEC) 的信息。
 title: Adobe Target 可视化体验编辑器 (VEC)
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 97%
+source-wordcount: '1378'
+ht-degree: 95%
 
 ---
 
 
-# 可视化体验编辑器 (VEC){#visual-experience-composer-vec}
+# 可视化体验编辑器 (VEC)
 
-有关使用可视化体验编辑器 (VEC) 的信息。
+有关使用[!DNL Adobe Target]中的[!UICONTROL 可视体验书写器](VEC)的信息。
 
-VEC 是 WYSIWYG 用户界面，可让您轻松地在站点环境中创建和测试个性化体验和选件。您可以通过拖放、交换和修改网页（或选件）或移动网页的布局和内容来为 Target 活动创建体验和选件。
+VEC是WYSIWYG用户界面，可让您在站点上下文中轻松创建和测试个性化体验和优惠。 您可以通过拖放、交换和修改网页（或选件）或移动网页的布局和内容来为 Target 活动创建体验和选件。
 
 VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和设计人员可以使用可视化界面创建和更改内容。无需直接编辑代码，便可进行多种设计选择。使用编辑器提供的编辑选项也可以编辑 HTML 和 JavaScript。
 

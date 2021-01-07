@@ -1,20 +1,20 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: 您可以将项目添加至“图像选件”列表。
+description: 您可以向Adobe Target的图像优惠列表添加项目。
 title: 上传内容
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 91%
+source-wordcount: '111'
+ht-degree: 68%
 
 ---
 
 
-# 上传内容{#upload-content}
+# 上传内容
 
-您可以在“图像选件”列表中添加或删除项目。
+您可以在[!DNL Adobe Target]的“图像优惠”列表中添加项目或从中删除项目。
 
 1. 单击&#x200B;**[!UICONTROL 选件]**，然后选择&#x200B;**[!UICONTROL 图像选件]**&#x200B;选项卡。
 1. 单击&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL 文件]**。

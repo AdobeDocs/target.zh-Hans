@@ -2,9 +2,9 @@
 keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
 description: 有关与 Adobe 客户关怀一起在 Adobe Target 中实施 CNAME（规范名称）支持的信息。
 title: CNAME 和 Adobe Target
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 677d5ed16377fc32b4506ca736084319e5643e67
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 ---
 
 
-# CNAME 和 Adobe Target {#cname-and-adobe-target}
+# CNAME 和 Adobe Target
 
 关于与Adobe客户关怀部门协作在[!DNL Adobe Target]中实施CNAME（规范名称）支持的说明。 为了最好地处理广告阻止问题或与ITP相关的cookie策略，会使用CNAME，以便对客户拥有的域而不是Adobe拥有的域进行调用。
 

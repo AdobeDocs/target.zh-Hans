@@ -2,19 +2,19 @@
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
 description: Adobe Target的活动允许您根据特定受众个性化内容并测试页面设计
 title: Adobe Target的活动允许您根据特定受众个性化内容并测试页面设计。
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2092'
 ht-degree: 97%
 
 ---
 
 
-# 活动{#activities}
+# 活动
 
-Adobe Target的活动允许您根据特定受众个性化内容并测试页面设计。
+[!DNL Adobe Target]中的活动允许您根据特定受众和测试页面设计个性化内容。
 
 例如，您可能会设计一个活动以对两个不同的登陆页面进行测试，其中一个页面着重显示夏季女鞋的相关信息，而另一个登陆页面则重点展示更广泛的夏季服饰信息。此活动确定了用于控制这两个登陆页面分别何时显示的条件，以及用于决定哪个页面更为成功的量度。此活动配置为在满足特定条件时开始和结束，例如在具体日期开始和结束，或者在活动得到批准后开始并在活动停用后结束。
 

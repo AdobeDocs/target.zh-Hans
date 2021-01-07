@@ -1,31 +1,31 @@
 ---
-keywords: Targeting
-description: “活动概述”页面上的“冲突”选项卡列出了您网站上的活动冲突。
+keywords: targeting;collisions;conflicts
+description: Adobe Target列表活动冲突站点中“活动概述”页面上的“冲突”选项卡。
 title: 活动冲突
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 83%
 
 ---
 
 
-# 活动冲突{#activity-collisions}
+# 活动冲突
 
-“活动概述”页面上的“冲突”选项卡列出了您网站上的活动冲突。
+站点上[!DNL Adobe Target]活动列表冲突中[!UICONTROL 活动概述]页面上的[!UICONTROL 冲突]选项卡。
 
 当多个活动被设置为将内容发布到同一页面时，就会发生活动冲突。如果发生活动冲突，您可能无法在页面上看到预期内容。
 
 如果您的活动包含潜在冲突，“活动概述”页面上会显示“[!UICONTROL 冲突]”选项卡。同一 URL 上的所有活动均会列出，而不考虑每个活动中的任何受众定位。打开该选项卡后，会显示可能发生冲突的活动列表。单击列表中的某个活动即可查看该活动的概述页面。如果冲突改变了预期体验，则需编辑相应的活动。
 
-“冲突”列表可帮助您：
+[!UICONTROL 冲突]列表可帮助您：
 
 * 在设置新活动之前确认页面上是否已有测试在运行
 * 在未显示预期内容时，对活动进行故障诊断
 
-“冲突”列表会显示每个使用了 mbox 且使用相同 URL 的 Target Standard 情景。对于每个潜在冲突，此列表都会显示可能发生冲突的活动 URL 和 mbox 名称，以及匹配上述两个条件的任何活动。如果存在多个 mbox，则会列出每个 mbox。
+[!UICONTROL 冲突]列表符显示使用mbox且使用相同URL的每个[!DNL Target]方案。 对于每个潜在冲突，此列表都会显示可能发生冲突的活动 URL 和 mbox 名称，以及匹配上述两个条件的任何活动。如果存在多个 mbox，则会列出每个 mbox。
 
 此列表还会显示每个潜在冲突的状态和优先级，以及其他相关信息。您可以使用状态和优先级来帮助确定冲突发生的可能性。例如，如果两个活动之间存在潜在冲突，而其中一个活动处于不活跃状态，则实际上不会发生冲突，除非将不活跃的活动激活。如果是两个活跃的活动之间存在潜在冲突，且两个活动具有相同的优先级和受众，则会发生冲突。您可以更改优先级或状态来阻止冲突发生。
 

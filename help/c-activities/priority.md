@@ -2,9 +2,9 @@
 keywords: settings;priority
 description: Adobe Target根据您使用的目标界面和活动创建功能（可视体验书写器或基于表单的书写器），确定要向页面传送的活动(或活动)。
 title: Adobe Target的优先事项
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 88%
@@ -12,7 +12,7 @@ ht-degree: 88%
 ---
 
 
-# 优先级{#priority}
+# 优先级
 
 Target 根据您使用的 Target 界面和活动创建功能（可视化体验编辑器或基于表单的编辑器），以不同的方式来确定要交付给页面的活动（一个或多个）。
 

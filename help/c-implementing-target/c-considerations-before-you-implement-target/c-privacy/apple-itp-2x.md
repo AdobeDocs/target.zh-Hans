@@ -1,18 +1,20 @@
 ---
-keywords: apple;ITP;intelligent tracking prevention
+keywords: apple;ITP;intelligent tracking prevention;experience cloud id;ecid
 description: 有关Adobe Target通过Experience CloudID(ECID)库4.3支持Apple ITP 2.x的信息。
 title: Adobe Target 与 Apple ITP 支持
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 53%
+source-wordcount: '897'
+ht-degree: 52%
 
 ---
 
 
 # Apple 智能防跟踪 (ITP) 2.x
+
+有关通过Experience CloudID(ECID)库4.3支持Apple ITP 2.x的[!DNL Adobe Target]的信息。
 
 智能防跟踪 (ITP) 是 Apple 推出的一项旨在保护 Safari 用户隐私的举措。第一版 ITP 于 2017 年发布，主要针对使用第三方 Cookie 的情况。事实上，Apple 完全阻止了第三方 Cookie，这反而给广告技术公司和营销技术公司造成严重的困扰，因为这些公司通常使用第三方 Cookie 来跟踪访客并收集访客数据。现在，Apple 正在对如何在 Safari 中使用第一方 Cookie 进行限制和约束。
 

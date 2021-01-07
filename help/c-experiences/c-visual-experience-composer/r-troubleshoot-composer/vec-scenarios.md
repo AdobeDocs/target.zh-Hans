@@ -1,20 +1,20 @@
 ---
 keywords: Recommendations
-description: 本主题中的方案显示了对页面所做的更改如何影响 Target 显示体验的功能。
+description: 本主题中的场景显示了对页面所做的更改如何影响Adobe Target显示体验的能力。
 title: 页面修改方案
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 92%
 
 ---
 
 
-# 页面修改方案 {#page-modification-scenarios}
+# 页面修改方案
 
-本主题中的方案显示了对页面所做的更改如何影响 Target 显示体验的功能。
+本主题中的场景显示了对页面所做的更改如何影响Adobe Target显示体验的能力。
 
 Target 选择器可决定要在何处显示体验。如果页面在 Target 之外进行修改，则所做的更改可能会影响 Target 显示体验的功能。
 

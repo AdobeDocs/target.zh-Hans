@@ -2,19 +2,19 @@
 keywords: experience template;custom code;banner;lightbox;carousel;countdown;ribbon;buttons
 description: 有关可在自定义代码中使用的 Adobe Target 体验模板的信息。Target 体验模板是具有可配置输入的预编码示例，用于执行常见的营销人员用例。
 title: 体验模板
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 87%
+source-wordcount: '466'
+ht-degree: 85%
 
 ---
 
 
-# 体验模板{#experience-templates}
+# 体验模板
 
-有关可在自定义代码中使用的 Adobe Target 体验模板的信息。Target 体验模板是具有可配置输入的预编码示例，用于执行常见的营销人员用例。
+有关用于自定义代码的[!DNL Adobe Target]体验模板的信息。 [!DNL Target] 体验模板是具有可配置输入的预编码示例，用于执行常见的营销人员用例。
 
 这些体验模板将作为执行常见用例的起始点，通过 VEC 或基于表单的体验编辑器免费提供给开发人员和营销人员。
 

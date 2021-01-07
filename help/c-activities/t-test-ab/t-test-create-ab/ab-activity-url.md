@@ -1,20 +1,20 @@
 ---
 keywords: activity url;url;different url
-description: 活动 URL 可决定测试中使用的页面，以及在设计测试时打开的页面。
+description: 活动URL确定测试中使用的页面，并在使用Adobe Target设计测试时打开该页面。
 title: 活动 URL
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 93%
+source-wordcount: '296'
+ht-degree: 78%
 
 ---
 
 
-# 活动 URL{#activity-url}
+# 活动 URL
 
-活动 URL 可决定测试中使用的页面，以及在设计测试时打开的页面。
+活动URL确定测试中使用的页面，并在使用Adobe Target设计测试时打开该页面。
 
 在活动创建过程中，如果收到相应的提示，请指定活动 URL。应键入完整的 URL（包括 `https://`**[!UICONTROL ），然后单击创建]**。
 

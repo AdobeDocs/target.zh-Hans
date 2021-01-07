@@ -1,20 +1,20 @@
 ---
 keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;experience composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frame options;cross origin;cross origin issues;authentication workflow
-description: 体验可决定访客在满足活动的受众标准时显示的内容。
+description: Adobe Target的体验决定当访客符合活动的受众条件时显示哪些内容。
 title: 体验和选件
-feature: experiences
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 89%
 
 ---
 
 
-# 体验和选件{#experiences-and-offers}
+# 体验和选件
 
-体验可决定访客在满足活动的受众标准时显示的内容。
+[!DNL Adobe Target]中的体验决定当访客符合活动的受众条件时显示哪些内容。
 
 体验可以是一个页面、整个网页、可能形成购买漏斗的一组页面或一些其他逻辑序列的页面上的一个选件、图像、文本、按钮、视频，以及这些不同元素的组合。它还可以是语音助手的回复、客户服务脚本，甚至是饮料机中提供的独特口味。您可以在 [!DNL Target] 活动中测试或个性化体验。
 

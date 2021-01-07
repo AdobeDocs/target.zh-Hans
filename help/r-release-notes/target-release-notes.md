@@ -1,13 +1,13 @@
 ---
-keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates
+keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates;prerelease
 description: 发行说明，提供有关最新或即将发布的DNLAdobe Target版本的功能、增强和修复的信息。
 title: Adobe Target预发行说明
 feature: null
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: d952b88fd66c50bf27f2ea6c61eae8d5b4d16681
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 11%
+source-wordcount: '382'
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2021 年 1 月 6 日**
+**上次更新日期：2021 年 1 月 7 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -32,26 +32,9 @@ ht-degree: 11%
 >
 尽管mbox.js目前受支持（2021年3月31日之前），但自2017年7月起，我们尚未对此库提供功能更新。 通过将所有客户移至[!UICONTROL Adobe Experience PlatformWeb SDK]或at.js，我们的工程师和支持人员将能够为您提供新功能并优惠您期望从Adobe获得的支持。
 
-## Target Standard/Premium 20.10.1（2020 年 10 月 27 日） 
+## Target Standard/Premium 21.1.1（2021 年 1 月 19 日） 
 
-此版本包含以下新增功能：
-
-| 功能 | 详细信息 |
-| --- | --- |
-| [设备上决策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 设备上决策允许营销人员和产品开发人员以接近零的延迟从用户设备内跨渠道交付实验和机器学习驱动的个性化。<br>速度和性能至关重要——在客户洞察和用户满意度方面。<br>通过设备决策，您可以将A/B测试和体验定位(XT)活动类型中的关键个性化和试验说明编译为“优化对象：”JSON对象，这些对象通过CDN加载到客户设备上。由于设备上决策与[!DNL Adobe Experience Cloud]产品本机连接，[!DNL Target]用户可以快速分析并更快地体验迭代。<br>有关详细信息，请参[阅*设备决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)。 |
-
-此版本包含以下增强、修复和更改：
-
-* 修复了阻止[!UICONTROL 平均提升置信度间隔]和[!UICONTROL 置信度]在[!UICONTROL Total]行的[!DNL Auto-Target]报告中显示的问题。 正确显示所有个体体验的度量值。 (TGT-37301)
-* 修复了从9月15日下午2:30开始影响[!DNL Adobe Target Premium]用户[!UICONTROL 自动目标]报告的问题。(PDT)10月6日上午9点25分。(PDT)。 当查看受影响的转换量度的报告（使用“[!UICONTROL 已查看页面]”或“[!UICONTROL 已单击mbox]”选项进行配置）时，会错误报告转换率。 此时不存在已知的投放问题。 有关如何重新同步和更正报告的信息，请参见&#x200B;*已解决问题**中的*&#x200B;已解决问题&lt;a3/>下的[自动目标报告](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)。
-* 在[!UICONTROL 目录搜索]表中添加了可选的[!UICONTROL 上次更新时间]列和上次更新时间]筛选器。 [!UICONTROL 此增强功能省时省力，因为您不必打开每个项目来查看上次更新的时间，并且您可以按上次更新项目的日期进行筛选。
-
-   ![上次在列和滤镜处更新的插图](/help/r-release-notes/assets/column-and-filter.png)
-
-* 更新旨在帮助使目标UI符合[Web内容辅助功能准则](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 A级别和AA成功标准(WCAG 2.0 AA)。 （TGT-34384 和 TGT-24679）
-* 改进了内容安全策略(CSP)。 (TGT-37035)
-* 介绍了一种将客户端代码指定为使用CNAME的客户参数的方法。 (TNT-38571)
-* [!DNL Adobe Experience Cloud] 文档正在移 [!DNL Experience League]至在10月份，所有发行说明、文章、视频和教程都将从当前位于`docs.adobe.com`的位置移动到[!DNL Experience League]。 此移动可确保从单一位置提供所有学习、自助、支持和社区内容。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到[!DNL Experience League]。 我们将在切换开始时更新发行说明。
+有关此版本的信息将在接下来的几天发布到此处。
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

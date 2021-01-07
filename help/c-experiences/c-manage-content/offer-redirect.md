@@ -2,19 +2,19 @@
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: 有关 Adobe Target 中可导致浏览器重定向到新页面的重定向选件的信息。
 title: 创建重定向选件
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 97%
+source-wordcount: '562'
+ht-degree: 95%
 
 ---
 
 
-# 创建重定向选件{#create-redirect-offers}
+# 创建重定向选件
 
-重定向选件会使浏览器重定向到一个新的页面。
+重定向Adobe Target的优惠导致浏览器重定向到新页面。
 
 您可能有两个完全不同的页面来进行测试，而非只更改页面中的部分内容。在这种情况下，您的 A/B 测试会比较页面 A 与页面 B。可设置包含两种体验的 A/B 测试营销活动：一种体验指向默认页面 A，另一种体验重定向至页面 B。选件被配置为将访客重定向至不同的页面。
 

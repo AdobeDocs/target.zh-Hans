@@ -2,9 +2,9 @@
 keywords: content library;assets;search;smart collections;search folder;filter
 description: 可按关键字搜索资产并保存搜索文件夹（称为智能收藏集），这些文件夹会使用搜索结果自动更新。
 title: 搜索内容并创建智能收藏集
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# 搜索内容并创建智能收藏集{#search-content-and-create-smart-collections}
+# 搜索内容并创建智能收藏集
 
 可按关键字搜索资产并保存搜索文件夹（称为智能收藏集），这些文件夹会使用搜索结果自动更新。
 

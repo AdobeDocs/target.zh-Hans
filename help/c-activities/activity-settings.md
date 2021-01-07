@@ -1,20 +1,20 @@
 ---
-keywords: Goal &Settings;objective;priority;duration
-description: 使用“活动设置”可管理活动的目标、优先级和持续时间。
+keywords: Goal & Settings;objective;priority;duration
+description: 使用Adobe Target的活动设置管理活动的目标、优先级和持续时间。
 title: 活动设置
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 90%
+source-wordcount: '404'
+ht-degree: 83%
 
 ---
 
 
-# 活动设置{#activity-settings}
+# 活动设置
 
-使用“活动设置”可管理活动的目标、优先级和持续时间。
+使用[!DNL Adobe Target]中的[!UICONTROL 活动设置]管理活动的目标、优先级和持续时间。
 
 1. 输入有关活动目标的注释。
 

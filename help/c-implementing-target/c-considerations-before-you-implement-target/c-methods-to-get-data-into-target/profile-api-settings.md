@@ -2,11 +2,11 @@
 keywords: implementation;api;profile;profile api settings;authentication token
 description: 通过Adobe TargetAPI启用或禁用批量更新的身份验证，并生成用户档案身份验证令牌。
 title: 用户档案API设置(在Adobe Target)
-feature: api
+feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 40%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # 配置文件 API 设置
 
-通过Adobe TargetAPI启用或禁用批量更新的身份验证，并生成用户档案身份验证令牌。
+通过[!DNL Adobe Target] API启用或禁用批量更新的身份验证，并生成用户档案身份验证令牌。
 
 [!DNL Adobe Target] 会为每一个用户创建并维护一个配置文件。此用户档案存储在[!DNL Target]边缘群集上，每次访问后会实时更新；但是，您可以单独或通过API批量更新用户档案。
 

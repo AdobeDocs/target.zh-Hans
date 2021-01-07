@@ -1,20 +1,20 @@
 ---
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
-description: 可使用远程选件在 Target 以外托管内容，Target 会引用这些内容并将其交付到用户网站。出于方便使用或安全原因，这些内容可能位于内容管理或其他系统中。
+description: 使用远程优惠托管Adobe Target以外的目标引用的内容并交付给用户的网站。 出于方便使用或安全原因，这些内容可能位于内容管理或其他系统中。
 title: 创建远程选件
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
 
-# 创建远程选件{#create-remote-offers}
+# 创建远程选件
 
-可使用远程选件在 Target 以外托管内容，Target 会引用这些内容并将其交付到用户网站。出于方便使用或安全原因，这些内容可能位于内容管理或其他系统中。
+可使用远程选件在 [!DNL Adobe Target] 以外托管内容，Target 会引用这些内容并将其交付到用户网站。出于方便使用或安全原因，这些内容可能位于内容管理或其他系统中。
 
 >[!NOTE]
 >

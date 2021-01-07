@@ -1,20 +1,20 @@
 ---
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-description: 您可以对库中的资产执行多项任务。
+description: 在Adobe Target的图书馆中，您可以对资源执行许多任务。
 title: 处理库中的内容
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 90%
 
 ---
 
 
-# 处理库中的内容{#work-with-content-in-the-library}
+# 处理库中的内容
 
-有关您对内容库中资产所能执行的任务的信息。
+有关可对[!DNL Adobe Target]内容库中的资产执行任务的信息。
 
 1. 单击&#x200B;**[!UICONTROL 选件]**，选择&#x200B;**[!UICONTROL 代码选件]**&#x200B;或&#x200B;**[!UICONTROL 图像选件]**&#x200B;选项卡，然后找到要处理的资产。
 

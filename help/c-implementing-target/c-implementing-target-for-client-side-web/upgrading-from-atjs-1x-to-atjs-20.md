@@ -2,9 +2,9 @@
 keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: 有关如何从 Adobe Target at.js 1.*x* 升级到 at.js 版本 2.0.0 的详细信息
 title: 从 Adobe Target at.js 版本 1.*x* 升级到 at.js version 2。*x 不支持跨域跟踪*
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '2749'
 ht-degree: 92%

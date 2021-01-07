@@ -2,9 +2,9 @@
 keywords: at.js;functions;javascript library
 description: 可以在 Adobe Target 中结合 at.js JavaScript 库一起使用的函数列表。
 title: Adobe Target at.js 函数
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%

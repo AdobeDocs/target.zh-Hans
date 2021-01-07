@@ -1,20 +1,20 @@
 ---
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: 可使用选件库来管理代码选件和图像选件内容。
+description: 使用Adobe Target的优惠库管理代码优惠和图像优惠内容。
 title: 选件
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 98%
+source-wordcount: '480'
+ht-degree: 91%
 
 ---
 
 
 # 选件{#offers}
 
-可使用选件库来管理代码选件和图像选件内容。
+使用[!DNL Adobe Target]中的优惠库管理代码优惠和图像优惠内容。
 
 >[!NOTE]
 >

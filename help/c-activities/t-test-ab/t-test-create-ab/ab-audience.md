@@ -1,20 +1,20 @@
 ---
 keywords: audience;select audience;choose audience;Selectors
-description: 受众可确定哪些网站访客进入到您的活动。
+description: 该受众决定哪些站点访客输入到您的Adobe Target活动。
 title: 选择受众
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 98%
+source-wordcount: '428'
+ht-degree: 92%
 
 ---
 
 
-# 选择受众{#select-audience}
+# 选择受众
 
-受众可确定哪些网站访客进入到您的活动。
+该受众决定在[!DNL Adobe Target]活动中输入哪些站点访客。
 
 >[!NOTE]
 >

@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;visual experience composer;whitelist;white list;allowlist;allow list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-description: 有时，在某些情况下，可视化体验编辑器 (VEC) 和增强型体验编辑器 (EEC) 可能会发生显示问题。
+description: 在某些条件下，Adobe Target可视化体验书写器(VEC)和增强体验书写器(EEC)有时会出现显示问题。
 title: 对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 69%
+source-wordcount: '1370'
+ht-degree: 67%
 
 ---
 
 
-# 对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
+# 对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断
 
-在某些情况下，显示问题和其他问题有时会在Visual Experience Composer(VEC)和Enhanced Experience Composer(EEC)中出现。
+在某些情况下，在[!DNL Adobe Target]可视体验书写器(VEC)和增强体验书写器(EEC)中有时会出现显示问题和其他问题。
 
 ## 最近发布的Google Chrome SameSite cookie实施策略对VEC和EEC有何影响？{#samesite}
 

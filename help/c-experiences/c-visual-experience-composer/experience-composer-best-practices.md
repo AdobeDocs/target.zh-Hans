@@ -1,20 +1,20 @@
 ---
 keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
-description: 以下最佳实践有助于确保您的体验按预期运行。使用可视化体验编辑器 (VEC) 时，您还应注意其他一些提示和限制。
+description: 以下最佳实践有助于确保您的体验按预期运行。在Adobe Target使用Visual Experience Composer(VEC)时，您还应注意其他提示和限制。
 title: 可视化体验编辑器最佳实践和限制
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2448'
-ht-degree: 97%
+source-wordcount: '2452'
+ht-degree: 95%
 
 ---
 
 
-# 可视化体验编辑器最佳实践和限制{#visual-experience-composer-best-practices-and-limitations}
+# 可视化体验编辑器最佳实践和限制
 
-以下最佳实践有助于确保您的体验按预期运行。使用可视化体验编辑器 (VEC) 时，您还应注意其他一些提示和限制。
+以下最佳实践有助于确保您的体验按预期运行。使用[!DNL Adobe Target]中的可视体验书写器(VEC)时，您还应注意其他提示和限制。
 
 如果遵循这些最佳实践，那么您设计的体验就不太可能遇到意外问题。
 

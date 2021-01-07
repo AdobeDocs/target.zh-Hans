@@ -1,20 +1,20 @@
 ---
 keywords: multi-page;journey testing;multipage activity
-description: 多页面活动可使您跨多个页面创建一个故事，并且每个页面都有一个特定的设计。
+description: Adobe Target的多页活动允许您在多个页面上创建文章，并且设计特定于每个页面。
 title: 多页面活动
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 100%
+source-wordcount: '364'
+ht-degree: 87%
 
 ---
 
 
-# 多页面活动{#multipage-activity}
+# 多页面活动
 
-多页面活动可使您跨多个页面创建一个故事，并且每个页面都有一个特定的设计。
+[!DNL Adobe Target]中的多页活动允许您在多个页面上创建文章，其设计特定于每页。
 
 例如，您可能需要测试一个购买量超过一定数量后免运费的选件。您可能希望该选件显示在登陆页面、类别页面和某些产品页面上，但是对于每种类型的页面，您还希望以不同的大小、在不同的位置显示。您可以在主页上显示一个明显的选件，然后在其他相关页面上通过一些较小的选件来加强该选件。
 

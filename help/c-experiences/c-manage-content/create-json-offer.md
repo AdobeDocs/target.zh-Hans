@@ -1,20 +1,20 @@
 ---
 keywords: remote offer;create remote offer
-description: 可在选件库中创建 JSON 选件，以在基于表单的体验编辑器中使用。
+description: 在Adobe Target的优惠库中创建JSON优惠，以用于基于表单的体验书写器。
 title: 创建 JSON 选件
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '386'
+ht-degree: 91%
 
 ---
 
 
 # 创建 JSON 选件{#create-json-offers}
 
-可在选件库中创建 JSON 选件，以在基于表单的体验编辑器中使用。
+在[!DNL Adobe Target]的[!UICONTROL 优惠库]中创建JSON优惠，以用于[!UICONTROL 基于表单的体验书写器]。
 
 JSON 选件可在基于表单的活动中使用，从而能够实现以下用例：需要使用 Target 决策发送 JSON 格式的选件，以供在 SPA 框架或服务器端集成中使用。
 

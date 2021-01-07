@@ -1,21 +1,20 @@
 ---
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
-description: 您可以在“目标和设置”页面上输入有关测试目标的信息。
+description: 在Adobe Target的“目标和设置”页面输入有关测试目标的信息。
 title: 目标和设置
-feature: ab
-snippet: y
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 96%
+source-wordcount: '1264'
+ht-degree: 93%
 
 ---
 
 
-# 目标和设置 {#goals-and-settings}
+# 目标和设置
 
-您可以在“目标和设置”页面上输入有关测试目标的信息。
+在[!DNL Adobe Target]的“Goals and Settings（目标和设置）”页面中输入有关测试目标的信息。
 
 可用的设置取决于您是使用 Target 还是 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) 作为数据源。
 

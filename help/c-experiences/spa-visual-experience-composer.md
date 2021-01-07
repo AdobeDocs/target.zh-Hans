@@ -2,9 +2,9 @@
 keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: 使用 Adobe Target 中单页应用程序 (SPA) 的可视化体验编辑器 (VEC)，营销人员能够以 DIY（自己动手）方式创建测试并对 SPA 上的内容进行个性化，而无需持续依赖开发。VEC 可用于在大多数常用框架上创建活动，例如 React 和 Angular。
 title: 单页应用程序 (SPA) 可视化体验编辑器
-feature: spa vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -12,7 +12,7 @@ ht-degree: 92%
 ---
 
 
-# 单页应用程序 (SPA) 可视化体验编辑器 {#single-page-app-spa-visual-experience-composer}
+# 单页应用程序 (SPA) 可视化体验编辑器
 
 在 [!DNL Adobe Target] 中，[!UICONTROL 可视化体验编辑器] (VEC) 为营销人员提供了一种 DIY（自己动手）功能，可创建能够通过 Adobe Target 的全局 mbox 在传统的多页面应用程序上动态交付的活动和个性化体验。但是，这种方法依赖于页面加载或后续服务器调用中的检索选件，这会导致延迟，如下图所示。此方法不适用于单页应用程序 (SPA)，因为它会降低用户体验和应用程序性能。
 

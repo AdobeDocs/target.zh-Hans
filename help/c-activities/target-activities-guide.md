@@ -2,19 +2,19 @@
 keywords: activities guide;activities;activity;activity types;activity actions
 description: 下载一个互动式 PDF，其中介绍了 Adobe Target 中的不同活动类型（“推荐”除外）。
 title: Target 活动类型
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 98%
+source-wordcount: '1460'
+ht-degree: 97%
 
 ---
 
 
-# Target 活动类型{#target-activity-types}
+# Target 活动类型
 
-下载一个互动式 PDF，其中介绍了 Adobe Target 中的不同活动类型（“推荐”除外）。
+下载一个交互式PDF，它描述[!DNL Adobe Target]中的不同活动类型(Recommendations除外)。
 
 >[!NOTE]
 >

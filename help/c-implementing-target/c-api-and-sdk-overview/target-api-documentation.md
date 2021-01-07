@@ -2,9 +2,9 @@
 keywords: api;adobe i/o
 description: 此信息可帮助您从 Target 旧版 API 迁移到 Adobe I/O 上的新版 API。
 title: 从 Target 旧版 API 迁移到 Adobe I/O
-feature: server-side
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 93%

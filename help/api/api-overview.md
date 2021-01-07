@@ -2,9 +2,9 @@
 keywords: api;apis;admin api;delivery api;reporting api;profile api
 description: 有关Adobe TargetAPI的信息，包括管理员、投放、报告和用户档案API。
 title: Adobe TargetAPI概述
-feature: APIs/SDKs
+feature: APIs/SDKss/SDKs
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 1%

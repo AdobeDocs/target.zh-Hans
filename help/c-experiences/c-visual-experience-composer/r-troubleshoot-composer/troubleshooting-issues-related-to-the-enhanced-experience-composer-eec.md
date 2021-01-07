@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-description: 有时，在某些情况下，增强型体验编辑器 (EEC) 会发生显示问题。
+description: 在某些情况下，Adobe Target增强体验书写器(EEC)有时会出现显示问题。
 title: 对与增强型体验编辑器有关的问题进行故障诊断
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 71%
+source-wordcount: '432'
+ht-degree: 63%
 
 ---
 
 
-# 对与增强型体验编辑器有关的问题进行故障诊断{#troubleshooting-issues-related-to-the-enhanced-experience-composer}
+# 与增强体验书写器相关的问题疑难解答
 
-有时，在某些情况下，增强型体验编辑器 (EEC) 会发生显示问题。
+在某些条件下，在[!DNL Adobe Target] [!UICONTROL 增强体验书写器](EEC)中有时会出现显示问题。
 
 ## EEC 无法加载在公共 IP 上不可访问的内部 QA URL。（仅 EEC）{#section_D29E96911D5C401889B5EACE267F13CF}
 

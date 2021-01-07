@@ -2,19 +2,19 @@
 keywords: implement;implementing
 description: 在实施 Adobe Target 之前应考虑的注意事项。
 title: 实施之前
-feature: implementation pre-reqs
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 362fbc25a41d73e05bcc0a4034963ee3f5fbd847
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 96%
+source-wordcount: '111'
+ht-degree: 90%
 
 ---
 
 
-# 实施之前{#before-you-implement}
+# 实施之前
 
-在实施 Adobe Target 之前应考虑的注意事项。
+在实施[!DNL Adobe Target]之前，您应解决的注意事项。
 
 本部分包含以下内容：开发人员需要收集的特定于其实施的信息、隐私注意事项、有关 Cookie 的讨论、可用于将数据导入 Target 的各种方法列表、安全注意事项，以及 TLS （传输层安全性）加密的相关信息。
 

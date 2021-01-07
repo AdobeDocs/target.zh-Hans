@@ -2,11 +2,11 @@
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
 description: 此信息介绍了对以下方面所做的更改：Adobe 和 Target 如何使用 TLS（传输层安全性）来保持最高安全标准和提高客户数据安全性。
 title: TLS（传输层安全性）加密更改
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1230'
 ht-degree: 61%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 61%
 
 # TLS（传输层安全性）加密更改{#tls-transport-layer-security-encryption-changes}
 
-有关Adobe和Adobe Target如何使用TLS（传输层安全）来维护最高安全标准并提升客户数据安全性的更改的信息。
+有关[!DNL Adobe]和[!DNL Adobe Target]如何使用TLS（传输层安全性）来维护最高安全标准并提升客户数据安全性的更改的信息。
 
 传输层安全性 (TLS) 是当前使用的部署最广泛的安全协议，可用于 Web 浏览器和其他需要通过网络安全交换数据的应用程序。Adobe 设有安全合规性标准，该标准要求结束旧协议的生命周期，并且强制使用 TLS 1.2，以便使用最新且最安全的版本。
 

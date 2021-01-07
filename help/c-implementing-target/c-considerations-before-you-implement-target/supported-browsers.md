@@ -2,9 +2,9 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: 已在各种浏览器和设备上对 Adobe Target 应用程序和内容交付进行了测试。
 title: 支持的浏览器
-feature: reference general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 86%
@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# 支持的浏览器{#supported-browsers}
+# 支持的浏览器
 
 已在各种浏览器和设备上对 [!DNL Adobe Target] 应用程序和内容交付进行了测试。
 

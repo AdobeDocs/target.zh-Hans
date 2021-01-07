@@ -1,20 +1,20 @@
 ---
-keywords: Targeting;analytics;tracking server
-description: 您可以将 Target Standard 中的活动配置为使用 Adobe Analytics 作为报表源 (A4T)。
+keywords: Targeting;analytics;tracking server;analytics for target;a4t
+description: 您可以在Adobe Target标准中配置活动，以将Adobe Analytics用作报告源(A4T)。
 title: 使用 Analytics 数据
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 95%
+source-wordcount: '533'
+ht-degree: 89%
 
 ---
 
 
-# 使用 Analytics 数据{#using-analytics-data}
+# 使用 Analytics 数据
 
-您可以将 Target Standard 中的活动配置为使用 Adobe Analytics 作为报表源 (A4T)。
+可以在[!DNL Adobe Target]中配置活动以使用[!DNL Adobe Analytics]作为报告源(A4T)。
 
 有关将Analytics设置为目标的数据源的详细信息，请参阅[将Adobe Analytics设置为Adobe Target的报告源](/help/c-integrating-target-with-mac/a4t/a4t.md)。
 

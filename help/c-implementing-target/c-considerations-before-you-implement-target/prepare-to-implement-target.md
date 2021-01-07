@@ -2,19 +2,19 @@
 keywords: implement;implementing;rfi;request for information
 description: 本文提供了在准备实施 Adobe Target 时，您应该完成的一些任务以及应该收集的一些信息。
 title: 准备实施 Adobe Target
-feature: implementation pre-reqs
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '267'
+ht-degree: 94%
 
 ---
 
 
-# 准备实施 Target {#prepare-to-implement-target}
+# 准备实施 Target
 
-本文提供了在准备实施 Target 时，您应该完成的一些任务以及应该收集的一些信息。
+在准备实施[!DNL Adobe Target]时，您应该填写任务并收集信息。
 
 不论您是自己实施 Target 还是与 Adobe 咨询团队协作实施（推荐后者），遵循以下指导原则并填写提供的调查问卷都将有助于您实施 Target。
 

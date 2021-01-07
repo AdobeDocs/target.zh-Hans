@@ -1,20 +1,20 @@
 ---
 keywords: Visual Experience Composer;VEC;carousel
-description: 本主题显示了如何创建可以在可视化体验编辑器 (VEC) 中编辑的轮播效果。
+description: 本主题说明如何创建可在Adobe Target视觉体验书写器(VEC)中编辑的传送。
 title: 创建可以在可视化体验编辑器中工作的轮播效果
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 100%
+source-wordcount: '150'
+ht-degree: 74%
 
 ---
 
 
-# 创建可以在可视化体验编辑器中工作的轮播效果{#creating-carousels-that-work-in-the-visual-experience-composer}
+# 创建可以在可视化体验编辑器中工作的轮播效果
 
-本主题显示了如何创建可以在可视化体验编辑器 (VEC) 中编辑的轮播效果。
+本主题说明如何创建可在[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)中编辑的传送。
 
 执行以下步骤时，[!DNL Target] 始终知道选定的幻灯片具有“选择器”，可选出正确的幻灯片，即使几秒钟后可视化体验编辑器中的幻灯片发生更改也是如此。
 

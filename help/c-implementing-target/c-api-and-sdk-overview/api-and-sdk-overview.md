@@ -4,7 +4,7 @@ description: 有关Adobe Target服务器端投放API、SDK和目标Recommendatio
 title: 有关Adobe Target服务器端投放API、Node.js SDK和目标RecommendationsAPI的信息。
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 20%
@@ -12,7 +12,7 @@ ht-degree: 20%
 ---
 
 
-# 服务器端：实施 Target{#server-side-implement-target}
+# 服务器端：实施 Target
 
 有关[!DNL Adobe Target]服务器端投放API、SDK和[!DNL Target Recommendations] API的信息。
 

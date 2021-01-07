@@ -1,20 +1,20 @@
 ---
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
-description: 此信息介绍了可用于将数据导入 Target 的各种方法，包括页面参数、页面内配置文件属性、脚本配置文件属性、数据提供程序、批量配置文件更新 API、单个配置文件更新 API 和客户属性。
+description: 有关将数据导入Adobe Target的各种方法的信息，包括页面参数、页面内用户档案属性、脚本用户档案属性、数据提供者、批量用户档案更新API、单个用户档案更新API和客户属性。
 title: 将数据导入 Target 的方法
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1936'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
 
-# 将数据导入 Target 的方法{#methods-to-get-data-into-target}
+# 将数据导入 Target 的方法
 
-此信息介绍了可用于将数据导入 Target 的不同方法，包括页面参数、页面内配置文件属性、脚本配置文件属性、数据提供程序、批量配置文件更新 API、单个配置文件更新 API 和客户属性。
+有关将数据导入[!DNL Adobe Target]的不同方法的信息，包括页面参数、页面内用户档案属性、脚本用户档案属性、数据提供者、批量用户档案更新API、单个用户档案更新API和客户属性。
 
 ## 页面参数（也称为“mbox 参数”）{#section_5A297816173C4FE48DC4FE03860CB42B}
 

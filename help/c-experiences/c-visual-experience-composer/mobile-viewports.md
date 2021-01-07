@@ -2,9 +2,9 @@
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
 description: 移动视区可帮助您预览Adobe Target活动在各种尺寸屏幕上的显示方式。
 title: 移动视图端口，提供响应式体验
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 68%
@@ -12,9 +12,9 @@ ht-degree: 68%
 ---
 
 
-# 用于响应式体验的移动视图端口{#mobile-viewports-for-responsive-experiences}
+# 移动视图端口，提供响应式体验
 
-移动视区可帮助您预览[!DNL Target]活动在各种尺寸屏幕上的显示方式。
+移动视区可帮助您预览[!DNL Adobe Target]活动在各种尺寸屏幕上的显示方式。
 
 移动视区预览功能专为响应式站点而设计，这些站点可以在各种设备、窗口或屏幕大小上呈现良好效果。 响应式网站会自动调整和适应任何屏幕大小，包括台式机、笔记本电脑、平板电脑或手机。
 

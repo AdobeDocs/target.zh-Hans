@@ -2,11 +2,11 @@
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
 description: 允许列表Adobe Target边缘节点
 title: 允许列表Adobe Target边缘节点
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 允许列表目标边节点
 
-帮助您列表Adobe[!DNL Target]边缘的信允许列表息和最新主机。
+帮助您列表[!DNL Adobe Target]边缘的信息和最允许列表新主机。
 
 边缘是一种地理上分布的服务体系结构，它确保最终用户请求内容的最佳响应时间，而不管他们位于全球的哪个位置。 每个边缘节点都具有响应用户的内容请求和跟踪该请求的分析数据所需的所有信息。 用户请求被路由到最近的边缘节点。 有关详细信息，请参阅&#x200B;*Adobe[!DNL Target]如何工作*&#x200B;中的[边缘网络](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934)。
 

@@ -2,19 +2,19 @@
 keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: 单击 Adobe Target 可视化体验编辑器 (VEC) 中某个页面元素时，会显示一个菜单，其中提供了可用于该元素类型的选项。
 title: Adobe Target 可视化体验编辑器 (VEC) 选项
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '2403'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
 
-# 可视化体验编辑器选项{#visual-experience-composer-options}
+# 可视化体验编辑器选项
 
-单击可视化体验编辑器 (VEC) 中某个页面元素时，会显示一个菜单，其中提供了可用于该元素类型的选项。此外，页面底部会显示一个 DOM 路径，可让您轻松浏览页面结构。
+单击[!DNL Adobe Target] [!UICONTROL 可视体验书写器](VEC)中的页面元素时，将显示可用于该元素类型的选项。 此外，页面底部会显示一个 DOM 路径，可让您轻松浏览页面结构。
 
 ## VEC 选项
 

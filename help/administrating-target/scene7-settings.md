@@ -4,17 +4,17 @@ description: Adobe Target可以与AdobeDynamic Media经典(以前称为Scene7)�
 title: Dynamic Media经典集成配置集成
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 2e80c972e432ce97596c856dd396b8f1be05a61a
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '385'
 ht-degree: 18%
 
 ---
 
 
-# Scene7配置
+# Dynamic Media经典(前Scene7)配置
 
-[!DNL Adobe Target] 可与(以 [!DNL Adobe Dynamic Media Classic] 前称为Scene7)集成，在内容库中提供数字资 [!UICONTROL 产管理]。
+[!DNL Adobe Target] 可与(以 [!DNL Adobe Dynamic Media Classic] 前) [!DNL Scene7]集成，在内容库中提供数字资 [!UICONTROL 产管理(DAM)]。
 
 >[!NOTE]
 >

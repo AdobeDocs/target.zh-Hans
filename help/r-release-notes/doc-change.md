@@ -4,9 +4,9 @@ description: 本页列表了对Adobe Target文档所做的重要更改（按版�
 title: Adobe Target 产品文档中的文档更改。
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
 workflow-type: tm+mt
-source-wordcount: '3248'
+source-wordcount: '3268'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 11 年 1 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 增加了1月13日Adobe Target社区问答咖啡节的信息和注册信息。 |
 | 6 年 1 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 为以下实时网络研讨会添加了信息和注册信息：<ul><li>大规模成功个性化：Forrester Wave，体验优化平台的主要发现。</li></ul> |
 | 1 月 4 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 将目标从2021年1月18日至2021年3月31日不再支持mbox.js的日期更改。 |
 | 12 月 18 日 | [A/A测试](/help/c-activities/t-test-ab/aa-testing.md) | 新主题。 |

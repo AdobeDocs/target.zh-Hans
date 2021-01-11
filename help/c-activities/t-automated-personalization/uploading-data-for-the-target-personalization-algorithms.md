@@ -1,21 +1,22 @@
 ---
-description: 在构建个性化模型时，离线数据（例如 CRM 信息或客户流失倾向评分）可能会有极大的价值。
+keywords: Automated Personalization;ap;upload data;offline data;personalization algorithm;auto target;auto-target;best practices
+description: 在Adobe TargetAutomated Personalization(AP)活动构建个性化模型时，离线数据（如CRM信息或客户流失倾向得分）可能极其有价值。
 title: 上传 Target 个性化算法数据
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '284'
+ht-degree: 82%
 
 ---
 
 
-# 为 Target 个性化算法上传数据{#upload-data-for-target-s-personalization-algorithms}
+# 为 Target 个性化算法上传数据
 
-在构建个性化模型时，离线数据（例如 CRM 信息或客户流失倾向评分）可能会有极大的价值。
+在[!DNL Adobe Target] [!UICONTROL Automated Personalization](AP)活动构建个性化模型时，离线数据（如CRM信息或客户流失倾向得分）可能非常有价值。
 
-可通过多种方式在自动个性化 (AP) 和自动定位个性化算法中输入数据。除了[将数据导入 Target 的方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)中的方法之外，我们的算法中还使用了 Experience Cloud 共享受众（Adobe Analytics、Audience Management）和活动中的报表受众。
+可通过多种方式在[!UICONTROL 自动个性化] (AP) 和[!UICONTROL 自动定位]个性化算法中输入数据。除了[将数据导入 Target 的方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)中的方法之外，我们的算法中还使用了 Experience Cloud 共享受众（Adobe Analytics、Audience Management）和活动中的报表受众。
 
 有关自动个性化和自动定位个性化算法自动收集和使用的数据的信息，请参阅[自动个性化数据收集](/help/c-activities/t-automated-personalization/ap-data.md)。
 

@@ -4,7 +4,7 @@ description: 这些发行说明介绍了每个 Target Standard 和 Target Premiu
 title: 'Adobe Target 发行说明（当前版本） '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 26%
@@ -34,8 +34,8 @@ ht-degree: 26%
 
 此版本的at.js是维护版本，包含以下修复：
 
-* 为用户档案API customerId增加对统一投放/平台ID的支持
-* 修复无效样式标记注入
+* 为用户档案API customerId增加对统一投放/平台ID的支持。
+* 修复无效样式标记注入。
 
 ## Target Standard/Premium 20.10.1（2020 年 10 月 27 日） 
 

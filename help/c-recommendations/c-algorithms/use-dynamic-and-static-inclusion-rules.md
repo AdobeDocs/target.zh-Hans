@@ -2,10 +2,10 @@
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
 description: 有关在Adobe TargetRecommendations创建包含规则以获取标准和促销信息，以及添加其他动态或静态过滤规则以获得更好效果的信息。
 title: 在Adobe TargetRecommendations使用动态和静态包含规则
-feature: criteria
+feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 39%

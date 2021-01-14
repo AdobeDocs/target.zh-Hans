@@ -2,9 +2,9 @@
 keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
 description: Adobe TargetRecommendations活动会根据先前的用户活动或其他算法自动显示可能吸引客户的产品或内容。 “推荐”有助于将客户导向到他们可能还不知道的相关项目。
 title: Adobe TargetRecommendations
-feature: recommendations general
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%

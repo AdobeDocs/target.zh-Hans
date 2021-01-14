@@ -2,10 +2,10 @@
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: 可使用单值和多值自定义实体属性来对目录中的项目定义其他相关信息。
 title: Adobe Target的自定义实体属性
-feature: entities
+feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 90%

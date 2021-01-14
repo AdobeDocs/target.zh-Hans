@@ -2,9 +2,9 @@
 keywords: recommendation;backup;back up
 description: 如果您使用Adobe Target的备份推荐功能，则任何建议项目不足的建议将不显示默认内容。 “推荐”将改为显示备用算法的结果。
 title: 使用备用推荐 adobe targetRecommendations
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 83%
@@ -20,7 +20,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->“创建条件”主题的“内容”部分包含其他信息，包括一个矩阵，该矩阵解释了将[部分设计渲染](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)和[!UICONTROL 显示备份Recommendations]选项结合使用时将观察到的结果。
+>“创建条件”主题的“内容”部分包含其他信息，包括一个矩阵，该矩阵解释了将[!UICONTROL 部分设计渲染]和[!UICONTROL 显示备份Recommendations]选项结合使用时将观察到的结果。[](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)
 
 备用推荐功能始终采用网站查看最多的项目来填充算法数据被使用后的剩余位置。例如，您的模板配置为显示 5 个推荐项目，并且您使用的是“*购买相关性*”算法。然而，您仅有足够的数据来填充 5 个位置中的两个，那么备用推荐功能就会使用查看最多的项目来填充其它 3 个位置。
 

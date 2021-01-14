@@ -2,9 +2,9 @@
 keywords: mvt;multivariate test;location contribution report
 description: 位置贡献报表显示每个元素和每个选件的性能。
 title: 位置贡献报表 (MVT)
-feature: null
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 98%

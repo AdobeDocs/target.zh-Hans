@@ -2,9 +2,9 @@
 keywords: insider newsletter;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;whitepaper;white paper
 description: Adobe Target Insider 是针对 Adobe Target 社区成员发布的每月时事通讯。可让您了解产品更新和未来计划、个性化和优化提示与技巧、客户成功案例、即将举行的活动、信息丰富的白皮书及热门博客文章，等等。
 title: 'Adobe Target Insider 时事通讯 '
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '2148'
 ht-degree: 43%

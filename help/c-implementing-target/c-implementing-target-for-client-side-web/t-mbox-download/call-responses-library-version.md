@@ -1,9 +1,9 @@
 ---
 description: Target 如何从您的页面发出调用以及如何响应从您的页面发出的调用，取决于您使用的 Target 库的版本、Experience Cloud 访客 ID 实施是否存在以及访客 ID 是否存在。
 title: 按 mbox.js 库版本确定的 Target 页面方法
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 100%

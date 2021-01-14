@@ -2,9 +2,9 @@
 keywords: recommendations design;template;create design;delivery;output
 description: Adobe Target·Recommendations的设计定义了推荐在页面上的显示方式。 设计可定义推荐的布局和格式，以提高访客参与度、转化率和收入。
 title: 设计概述
-feature: designs
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 30%

@@ -2,9 +2,9 @@
 keywords: catalog;search
 description: Adobe Target 中的目录搜索可帮助您在目录中查找产品或内容。
 title: Adobe Target 中的目录搜索
-feature: catalog
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 20%
@@ -87,7 +87,7 @@ ht-degree: 20%
 
 1.  单击&#x200B;**[!UICONTROL 搜索]**。
 
-1. （可选）单击“另存为&#x200B;**[!UICONTROL ”，然后单击“集合”]**“集合”**[!UICONTROL 或“排除”]**。****
+1. （可选）单击“另存为&#x200B;]**”，然后单击“集合”**[!UICONTROL “集合”]**或“排除”**[!UICONTROL 。****
 
    ![另存为选项](/help/c-recommendations/c-products/assets/save-as.png)
 

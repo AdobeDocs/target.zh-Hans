@@ -2,9 +2,9 @@
 keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
 description: 报告包括多个数据点和可视化表示形式，它们可以帮助您了解与Adobe Target活动相关的提升界限和置信度级别，从而帮助您更准确地确定获胜者。
 title: 平均提升度、提升度范围和置信区间
-feature: report settings
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 73%

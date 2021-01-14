@@ -2,9 +2,9 @@
 keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
 description: 报告提供有关您的Adobe Target活动的表现的信息
 title: 报表
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 64%

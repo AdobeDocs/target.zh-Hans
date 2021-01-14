@@ -2,9 +2,9 @@
 keywords: Target Standard;at.js;implementation
 description: at.js 库是适用于 Adobe Target 的新实施库，专为典型的 Web 实施和单页应用程序而设计。
 title: 从 mbox.js 迁移到 at.js
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 ---
 
 
-# 从 mbox.js 迁移到 at.js{#migrate-from-mbox-js-to-at-js}
+# 从 mbox.js 迁移到 at.js
 
 at.js 库是适用于 [!DNL Adobe Target] 的新实施库，专为典型的 Web 实施和单页应用程序而设计。
 

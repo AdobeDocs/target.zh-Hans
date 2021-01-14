@@ -2,9 +2,9 @@
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;static;static filter
 description: 在Adobe TargetRecommendations，手动输入一个或多个静态值以使用包含规则进行筛选。
 title: Adobe TargetRecommendations包含规则中的静态值筛选
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: f8311dbc91b74977a11dc9b97a70465ab4493b93
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 48%

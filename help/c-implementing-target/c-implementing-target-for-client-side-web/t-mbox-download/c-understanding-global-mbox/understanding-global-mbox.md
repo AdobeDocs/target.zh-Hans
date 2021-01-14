@@ -2,9 +2,9 @@
 keywords: global mbox;implement mbox.js;implement at.js
 description: 有关全局mbox的信息，该名称用于指在您的Adobe Target实施的每个网页顶部进行的单个服务器调用。
 title: 了解全局 mbox
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 86%
@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# 了解全局 mbox{#understand-the-global-mbox}
+# 了解全局 mbox
 
 此信息介绍了全局 mbox，该名称用于指代在 [!DNL Adobe Target] 实施中的每个网页顶部发起的单个服务器调用。
 

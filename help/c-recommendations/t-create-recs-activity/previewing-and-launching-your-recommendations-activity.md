@@ -2,9 +2,9 @@
 keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: '在创建包含Adobe Target·Recommendations优惠的Recommendations活动、A/B测试或体验定位(XT)后，您需要对其进行预览，以确保在启动该活动之前可以获得结果。 目标Recommendations优惠了多种预览建议的方法。 '
 title: '在创建包含Adobe Target·Recommendations优惠的Recommendations活动、A/B测试或体验定位(XT)后，您需要对其进行预览，以确保在启动该活动之前可以获得结果。 目标Recommendations优惠了多种预览建议的方法。 '
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 16%

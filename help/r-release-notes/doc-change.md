@@ -4,9 +4,9 @@ description: 本页列表了对Adobe Target文档所做的重要更改（按版�
 title: Adobe Target 产品文档中的文档更改。
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '3283'
+source-wordcount: '3292'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 14 年 1 月 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 版本 2.4.0 的信息。 |
 | 12 年 1 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 21.1.1版本（2021年1月19日）的预发行信息。 |
 | 11 年 1 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 增加了1月13日Adobe Target社区问答咖啡节的信息和注册信息。 |
 | 6 年 1 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 为以下实时网络研讨会添加了信息和注册信息：<ul><li>大规模成功个性化：Forrester Wave，体验优化平台的主要发现。</li></ul> |

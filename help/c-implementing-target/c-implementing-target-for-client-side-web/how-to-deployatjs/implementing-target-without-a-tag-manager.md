@@ -2,9 +2,9 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: 此信息介绍了如何在不使用标签管理器（Adobe Launch 或动态标签管理）的情况下实施 Adobe Target。
 title: 不通过标签管理器实施 Target
-feature: Implementation
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 70%
@@ -12,7 +12,7 @@ ht-degree: 70%
 ---
 
 
-# 不通过标签管理器实施 Target{#implement-target-without-a-tag-manager}
+# 不通过标签管理器实施 Target
 
 有关不使用标签管理器（[!DNL Adobe Launch]或[!DNL Dynamic Tag Manager]）实现[!DNL Adobe Target]的信息。
 

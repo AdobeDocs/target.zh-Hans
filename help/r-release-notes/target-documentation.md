@@ -2,9 +2,9 @@
 keywords: adobe target;target;documentation;api;apis;sdk;sdks;tutorials;doc;documentation
 description: Adobe Target文档以多种格式提供，包括概述、教程和用户界面、SKD和API指南。
 title: 目标公告
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 2%

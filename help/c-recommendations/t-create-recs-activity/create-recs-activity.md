@@ -2,9 +2,9 @@
 keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: 使用 Target 可视化体验编辑器 (VEC)，可直接在启用了 Target 的页面上创建“推荐”活动，并在 Target 中修改页面的各个部分。
 title: 创建“推荐”活动
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 78%

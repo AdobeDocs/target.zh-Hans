@@ -2,9 +2,9 @@
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;parameter matching
 description: 在Adobe TargetRecommendations，通过比较项（实体）与请求（API或mbox）中的值来动态筛选。
 title: Adobe TargetRecommendations动态包含规则中参数匹配的过滤
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 10%

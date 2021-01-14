@@ -2,9 +2,9 @@
 keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
 description: 标准控制着 Adobe Recommendations 活动的内容。可创建标准以显示最适合您的活动的推荐。
 title: 创建标准
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -136,7 +136,7 @@ ht-degree: 66%
 
    ![4 x 1设计](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   假设您的条件仅建议两个项目。 如果启用[!UICONTROL 部分设计渲染]选项，则前两个插槽已填满，但其余两个插槽仍为空。 但是，如果启用“显示备份Recommendations[!UICONTROL ”选项，则前两个插槽将根据您指定的条件填充，其余两个插槽则根据您的备份建议填充。]
+   假设您的条件仅建议两个项目。 如果启用[!UICONTROL 部分设计渲染]选项，则前两个插槽已填满，但其余两个插槽仍为空。 但是，如果启用“显示备份Recommendations]”选项，则前两个插槽将根据您指定的条件填充，其余两个插槽则根据您的备份建议填充。[!UICONTROL 
 
    下面的矩阵显示了使用[!UICONTROL 部分设计渲染]和[!UICONTROL 备份Recommendations]选项时将观察到的结果：
 

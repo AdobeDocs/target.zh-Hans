@@ -4,7 +4,7 @@ description: 有关Adobe Targetat.js各版本中更改的详细信息。
 title: at.js 版本详细信息
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '4034'
 ht-degree: 84%
@@ -26,8 +26,8 @@ ht-degree: 84%
 
 此版本的at.js是维护版本，包含以下修复：
 
-* 为用户档案API customerId增加对统一投放/平台ID的支持
-* 修复无效样式标记注入
+* 为用户档案API customerId增加对统一投放/平台ID的支持。
+* 修复无效样式标记注入。
 
 ## at.js 2.3.3（2020年11月13日）
 

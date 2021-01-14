@@ -2,9 +2,9 @@
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;entity attribute matching
 description: 在Adobe TargetRecommendations动态过滤，方法是将潜在推荐项目池与用户已交互的特定项目进行比较。
 title: Adobe TargetRecommendations动态包含规则中实体属性匹配的过滤
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%

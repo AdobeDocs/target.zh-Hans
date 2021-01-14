@@ -2,9 +2,9 @@
 keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: 此信息介绍了字符限制和会影响 Adobe Target 中活动和其他元素的其他限制（选件大小、受众、配置文件、值、参数等）。
 title: 限制
-feature: reference general
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 76%

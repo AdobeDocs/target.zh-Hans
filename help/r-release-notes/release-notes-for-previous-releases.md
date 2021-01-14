@@ -2,9 +2,9 @@
 keywords: Release notes
 description: 以前Adobe Target版本的发行说明，包括Target Standard/Premium、目标平台和目标Javascript库(at.js)的发行说明。 发行说明按发布年月按降序排列。
 title: 以前版本的发行说明
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '29815'
 ht-degree: 86%
@@ -96,7 +96,7 @@ ht-degree: 86%
 此版本包含以下增强、修复和更改：
 
 * 修复了在刷新后无法保留站点首选项的问题。 (TGT-37239)
-* 修复了一个问题，该问题导致“在[!UICONTROL >]图像[!UICONTROL 之后插入”无法对可缩放矢量图形(SVG)图像正常工作。 ](TGT-37242)
+* 修复了一个问题，该问题导致“在]>[!UICONTROL 图像]之后插入”无法对可缩放矢量图形(SVG)图像正常工作。 [!UICONTROL (TGT-37242)
 * 修复了具有[!UICONTROL 发布者]角色的用户无法删除草稿活动的问题。 (TGT-37358)
 * 修复了在选择[!UICONTROL “我的所有工作区”]时，用户无法编辑活动的问题。 (TGT-37276)
 

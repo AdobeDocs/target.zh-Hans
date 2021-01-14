@@ -2,17 +2,17 @@
 keywords: global mbox;target classic;use global mbox from target classic
 description: 默认情况下，Target Standard 会创建一个名为 target-global-mbox 的全局 mbox，它可用于运行在 Target Standard 中创建的活动。但是，如果您已经针对旧版实施在页面上创建了一个全局 mbox，则可将该 mbox 用于您的 Target Standard 活动。
 title: 使用旧版实施中的全局 mbox
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 52%
+ht-degree: 50%
 
 ---
 
 
-# 使用旧版实施中的全局 mbox{#use-a-global-mbox-from-a-legacy-implementation}
+# 从旧式实施中使用全局mbox
 
 默认情况下，[!DNL Target]会创建一个名为目标-global-mbox的全局mbox，它用于运行在[!DNL Target]中创建的活动。 但是，如果您已经针对旧版实施在页面上创建了一个全局 mbox，则可将该 mbox 用于您的 [!DNL Target] 活动。
 

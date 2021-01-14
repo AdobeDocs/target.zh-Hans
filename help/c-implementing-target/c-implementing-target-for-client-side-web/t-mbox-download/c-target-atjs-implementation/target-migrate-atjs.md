@@ -2,9 +2,9 @@
 keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
 description: 从 mbox.js 迁移到 at.js 是一个简单的过程。
 title: 如何从 mbox.js 迁移到 at.js
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 ---
 
 
-# 如何从 mbox.js 迁移到 at.js{#how-to-migrate-to-at-js-from-mbox-js}
+# 如何从 mbox.js 迁移到 at.js
 
 在 [!DNL Adobe Target] 中从 mbox.js 迁移到 at.js 是一个简单的过程。
 

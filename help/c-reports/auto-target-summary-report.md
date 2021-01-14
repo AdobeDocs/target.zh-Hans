@@ -2,9 +2,9 @@
 keywords: reports;auto-target;auto target;AT;report
 description: 有关如何解释Adobe Target自动目标摘要报告的信息。
 title: 自动定位摘要报表
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 55%

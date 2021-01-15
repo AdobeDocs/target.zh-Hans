@@ -4,9 +4,9 @@ description: Adobe Experience PlatformWeb SDK是一个客户端JavaScript库，�
 title: Adobe Experience PlatformWeb SDK
 feature: AEP Web SDK
 translation-type: tm+mt
-source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
+source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -18,5 +18,5 @@ ht-degree: 0%
 
 有关详细信息，请参阅&#x200B;*Adobe Experience PlatformWeb SDK*&#x200B;帮助中的以下链接：
 
-* 有关全面的信息：[什么是Adobe Experience PlatformWeb SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+* 有关全面的信息：[什么是Adobe Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * 有关[!DNL Target]的特定信息：[目标概述](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)

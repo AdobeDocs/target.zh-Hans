@@ -4,7 +4,7 @@ description: 发行说明，提供有关最新或即将发布的DNLAdobe Target�
 title: Adobe Target预发行说明
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
+source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 20%

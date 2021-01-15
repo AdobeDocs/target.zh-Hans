@@ -4,10 +4,10 @@ description: 有关Adobe Target工作方式的信息，包括有关Adobe Experie
 title: Adobe Target 的工作原理
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 1b426e0b2004e729ba75d218a9b6ccd5195449cd
+source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 70%
+source-wordcount: '2504'
+ht-degree: 71%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 70%
 
 Adobe Target通过[!DNL AEP Web SDK]或JavaScript库与网站集成：
 
-* **Adobe Experience PlatformWeb SDK** : [AEP Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK是一个新的客户端JavaScript库，它允 [!DNL Adobe Experience Cloud] 许客户通过Edge Network与 [!DNL Experience Cloud] （包括）中的 [!DNL Target]各种服务 [!DNL Adobe Experience Platform] 交互。有关[!DNL Target]特定信息，请参见[目标概述](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)。
+* **Adobe Experience PlatformWeb SDK** : [AEP Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK是一个新的客户端JavaScript库，它允 [!DNL Adobe Experience Cloud] 许客户通过Edge Network与 [!DNL Experience Cloud] （包括）中的 [!DNL Target]各种服务 [!DNL Adobe Experience Platform] 交互。
 * **at.js：**[at.js 库](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)是适用于 Target 的新实施库。使用 at.js 可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。at.js 是推荐使用的实施库，会经常更新功能。我们建议所有客户都实施或迁移到[最新版本的 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 * **mbox.js：**[mbox.js 库是适用于 Target 的旧版实施库。](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)mbox.js库在2021年3月31日之前一直受支持，但将不提供功能更新。
 
 >[!IMPORTANT]
 >
->所有客户应迁移到[!DNL AEP Web SDK]或最新版本的at.js。 有关详细信息，请参阅[Adobe Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)或[从mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)迁移到at.js。
+>所有客户应迁移到[!DNL AEP Web SDK]或最新版本的at.js。 有关详细信息，请参阅[Adobe Experience PlatformWeb SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)或[从mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)迁移到at.js。
 
 您必须在站点的每个页面上引用[!DNL AEP Web SDK]或at.js。 例如，您可以将其中一个添加到全局标题中。 或者，也可以考虑使用[Adobe平台启动](https://experienceleague.adobe.com/docs/launch/using/overview.html)。
 
@@ -136,7 +136,7 @@ Adobe Target通过[!DNL AEP Web SDK]或JavaScript库与网站集成：
 >
 >[!DNL Adobe Target] 目前中国没有Edge Cluster，中国客户的最终用户性能将继续 [!DNL Target] 受到限制。由于防火墙和国家／地区缺少边缘群集，部署[!DNL Target]的站点的呈现速度将会很慢，页面加载也会受到影响。 此外，营销人员在使用[!DNL Target]创作UI时可能会遇到延迟。
 
-如果需允许列表要，可以目标边缘群集。 有关详细信息，请参阅&lt;a0/允许列表>目标边节点[。](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+如果需允许列表要，可以目标边缘群集。 有关详细信息，请参阅&lt;a0/允许列表>目标边节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)。[
 
 ## 受保护的用户体验{#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

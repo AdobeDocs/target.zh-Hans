@@ -4,7 +4,7 @@ description: 通过在网页上引用目标库（at.js或mbox.js）来实施Adob
 title: 了解 Target JavaScript 库
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
+source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 76%

@@ -4,10 +4,10 @@ description: 这些发行说明介绍了每个 Target Standard 和 Target Premiu
 title: 'Adobe Target 发行说明（当前版本） '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 27%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,25 @@ ht-degree: 27%
 >
 尽管mbox.js目前受支持（2021年3月31日之前），但自2017年7月起，我们尚未对此库提供功能更新。 通过将所有客户移至[!UICONTROL Adobe Experience PlatformWeb SDK]或at.js，我们的工程师和支持人员将能够为您提供新功能并优惠您期望从Adobe获得的支持。
 
+（括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## Target Standard/Premium 21.1.1（2021 年 1 月 19 日） 
+
+此维护版本包含以下增强、修复和更改。
+
 括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+* 在[!UICONTROL 自动目标]活动中，当使用[!UICONTROL 分析作为报告源](A4T)时，在选择[!DNL Adobe Analytics]度量时添加了警告。 [!UICONTROL 自动定] 位模型经过优化，可与二进制（基于转换）指标结合使用。选择连续指标（如收入）可能会产生次优结果，而[!UICONTROL 个性化洞察]报告可能不准确。 (TGT-38926)
+* 在[!UICONTROL 自动目标摘要]报告中为使用A4T的[!UICONTROL 自动目标]活动添加了状态图标。 报表中每个体验旁边的绿色复选标记表示已为该体验生成个性化的机器学习模型。时钟图标表示用于构建模型的流量不足。(TGT-38925)
+* 生成使用A4T和[!DNL Analytics]转换度量的[!UICONTROL 自动目标段]和[!UICONTROL 重要属性]活动的报告，其外观与使用[!DNL Target]作为报告源时相同。 (TGT-38931)
+* 在[!UICONTROL Recommendations] [!UICONTROL 集合]环境中添加了列表过滤选项。 (TGT-38353)
+* 修复了导致在[!UICONTROL Recommendations]集合中显示错误产品计数的问题。 (TGT-39162)
+* 向[!UICONTROL Recommendations][!UICONTROL 目录搜索]添加了[!UICONTROL 上次更新]筛选器。 (TGT-38340)
+* 修复了[!UICONTROL Recommendations]中的一个问题，该问题导致在更改行业垂直后，[!UICONTROL 创建序列]页面挂起。 (TGT-38160)
+* 修复了在启用设备协作且用户从[!DNL Target]作为活动源更改为[!DNL Analytics](A4T)时，无法保存报告的问题。 (TGT-38163)
+* 修复了阻止用户从[!UICONTROL Automated Personalization](AP)活动中的优惠删除受众的问题。 (TGT-39058)
+* 修复了导致某些客户在[!UICONTROL 受众信息]卡中显示不正确的时间帧(开始和结束日期)的问题。 (TGT-39150)
+* 修复了导致某些客户无法在[!UICONTROL 默认工作区]中看到活动列表的问题。 (TGT-38526)
 
 ## at.js 2.4.0（2021年1月14日）
 
@@ -36,27 +54,6 @@ ht-degree: 27%
 
 * 为用户档案API customerId增加对统一投放/平台ID的支持。
 * 修复无效样式标记注入。
-
-## Target Standard/Premium 20.10.1（2020 年 10 月 27 日） 
-
-此版本包含以下新增功能：
-
-| 功能 | 详细信息 |
-| --- | --- |
-| [设备上决策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 设备上决策允许营销人员和产品开发人员以接近零的延迟从用户设备内跨渠道交付实验和机器学习驱动的个性化。<br>速度和性能至关重要——在客户洞察和用户满意度方面。<br>通过设备决策，您可以将A/B测试和体验定位(XT)活动类型中的关键个性化和试验说明编译为“优化对象：”JSON对象，这些对象通过CDN加载到客户设备上。由于设备上决策与[!DNL Adobe Experience Cloud]产品本机连接，[!DNL Target]用户可以快速分析并更快地体验迭代。<br>有关详细信息，请参[阅*设备决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)。 |
-
-此版本包含以下增强、修复和更改：
-
-* 修复了阻止[!UICONTROL 平均提升置信度间隔]和[!UICONTROL 置信度]在[!UICONTROL Total]行的[!DNL Auto-Target]报告中显示的问题。 正确显示所有个体体验的度量值。 (TGT-37301)
-* 修复了从9月15日下午2:30开始影响[!DNL Adobe Target Premium]用户[!UICONTROL 自动目标]报告的问题。(PDT)10月6日上午9点25分。(PDT)。 当查看受影响的转换量度的报告（使用“[!UICONTROL 已查看页面]”或“[!UICONTROL 已单击mbox]”选项进行配置）时，会错误报告转换率。 此时不存在已知的投放问题。 有关如何重新同步和更正报告的信息，请参见&#x200B;*已解决问题**中的*&#x200B;已解决问题下的[自动目标报告](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)。
-* 在[!UICONTROL 目录搜索]表中添加了可选的[!UICONTROL 上次更新时间]列和上次更新时间]筛选器。 [!UICONTROL 此增强功能省时省力，因为您不必打开每个项目来查看上次更新的时间，并且您可以按上次更新项目的日期进行筛选。
-
-   ![上次在列和滤镜处更新的插图](/help/r-release-notes/assets/column-and-filter.png)
-
-* 更新旨在帮助使目标UI符合[Web内容辅助功能准则](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 A级别和AA成功标准(WCAG 2.0 AA)。 （TGT-34384 和 TGT-24679）
-* 改进了内容安全策略(CSP)。 (TGT-37035)
-* 介绍了一种将客户端代码指定为使用CNAME的客户参数的方法。 (TNT-38571)
-* [!DNL Adobe Experience Cloud] 文档正在移 [!DNL Experience League]至在10月份，所有发行说明、文章、视频和教程都将从当前位于`docs.adobe.com`的位置移动到[!DNL Experience League]。 此移动可确保从单一位置提供所有学习、自助、支持和社区内容。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到[!DNL Experience League]。 我们将在切换开始时更新发行说明。
 
 ## 其他发行说明和版本详细信息
 

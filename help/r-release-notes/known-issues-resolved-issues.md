@@ -4,10 +4,10 @@ description: 有关此 Adobe Target 版本的已知问题的信息。此外，�
 title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 729bf757b0072cf57e89fdfc42e6a3db4422341e
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '4296'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,15 @@ ht-degree: 70%
 
 ### Recommendations
 
-以下是 Recommendations 活动存在的已知问题：
+以下是[!UICONTROL Recommendations]活动的已知问题：
+
+* 当前在复制具有有效促销的[!UICONTROL 推荐]活动时，重复活动中的任何更改也会影响原始活动，反之亦然。 (TGT-39155)
+
+   作为临时解决方法：
+
+   * 禁用活动促销
+   * 重复活动
+   * 在每个活动中再次启用促销
 
 * 如果通过信息源或 API 未收到更新达 60 天之后，实体会正确过期；但是，过期后不会从目录搜索索引中删除已过期的实体。(IRI-857)
 * 标准和设计的“使用信息”叠加不反映它们在 A/B 活动和体验定位活动中的使用情况 (TGT-34331)

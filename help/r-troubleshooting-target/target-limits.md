@@ -1,20 +1,20 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
 description: 此信息介绍了字符限制和会影响 Adobe Target 中活动和其他元素的其他限制（选件大小、受众、配置文件、值、参数等）。
 title: 限制
-feature: Recommendations
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 76%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 限制{#limits}
+# 限制
 
-此信息介绍了字符限制和会影响 Adobe Target 中活动和其他元素的其他限制（选件大小、受众、配置文件、值、参数等）。
+此信息介绍了字符限制和会影响 [!DNL Adobe Target] 中活动和其他元素的其他限制的信息（选件大小、受众、配置文件、值、参数等）。
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 76%
 >
 >当达到或超出被指定为“建议”的限制时，性能可能会降低。极其复杂的活动（例如一个活动中同时具有多个受众、目标和体验）也可能会导致界面加载速度缓慢。
 >
->高度复杂的活动应该先由 Adobe 咨询团队审核，并在限定的环境中进行测试，然后才能发布到生产环境。
+>高度复杂的活动应先通过[!DNL Adobe]咨询进行审查，并在有限的环境下进行测试，然后才能投入生产。
 
 ## 活动
 
@@ -194,9 +194,7 @@ ht-degree: 76%
 
 ## productPurchasedId 参数
 
-**限制**：每个逗号分隔值 47 个字符。
-
-超过此长度将被系统截断。
+**限制**:每个以逗号分隔的值有47个字符，总共250个字符。超过47个字符的单个值可能会被系统截断。 超过250个字符的总长度可能导致400个错误。
 
 ## 配置文件脚本
 

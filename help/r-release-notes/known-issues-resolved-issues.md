@@ -4,10 +4,10 @@ description: 有关此 Adobe Target 版本的已知问题的信息。此外，�
 title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4337'
+ht-degree: 69%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 以下是[!UICONTROL Recommendations]活动的已知问题：
 
-* 当前在复制具有有效促销的[!UICONTROL 推荐]活动时，重复活动中的任何更改也会影响原始活动，反之亦然。 (TGT-39155)
+* 在复制具有有效促销的[!UICONTROL 推荐]活动时，重复活动中的任何更改当前也会影响原始活动，反之亦然。 (TGT-39155)
 
    作为临时解决方法：
 

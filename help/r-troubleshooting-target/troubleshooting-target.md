@@ -2,17 +2,17 @@
 keywords: troubleshoot target;troubleshooting target
 description: 本文列出了一些主题，可帮助您解决 Adobe Target 中出现的问题，这些主题包括故障诊断主题、常见问题解答 (FAQ) 以及其他有用的主题。
 title: Adobe Target疑难解答
-feature: troubleshooting general
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Target 故障诊断{#troubleshoot-target}
+# Target 故障诊断
 
 本文列出了一些主题，可帮助您解决 [!DNL Adobe Target] 中出现的问题，这些主题包括故障诊断主题、常见问题解答 (FAQ) 以及其他有用的主题。
 

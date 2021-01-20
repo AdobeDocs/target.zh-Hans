@@ -3,10 +3,10 @@ description: Target 如何从您的页面发出调用以及如何响应从您的
 title: 按 mbox.js 库版本确定的 Target 页面方法
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 100%
+source-wordcount: '940'
+ht-degree: 92%
 
 ---
 
@@ -14,6 +14,12 @@ ht-degree: 100%
 # 按 mbox.js 库版本确定的 Target 页面方法{#target-page-methods-by-mbox-js-library-version}
 
 Target 如何从您的页面发出调用以及如何响应从您的页面发出的调用，取决于您使用的 Target 库的版本、Experience Cloud 访客 ID 实施是否存在以及访客 ID 是否存在。
+
+>[!IMPORTANT]
+>
+>**mbox.js终止使用**:2021年3月31日 [!DNL Adobe Target] 将不再支持mbox.js库。2021年3月31日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响[!DNL Target]活动运行的页面。
+>
+>我们建议所有客户在此日期之前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
 
 >[!NOTE]
 >

@@ -4,10 +4,10 @@ description: Target Standard 和 Premium 使用修改版的 Adobe Target mbox.js
 title: 下载 mbox.js
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 94%
+source-wordcount: '260'
+ht-degree: 67%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 94%
 # 下载 mbox.js{#download-mbox-js}
 
 Target Standard 和 Premium 使用修改版的 Adobe Target mbox.js 文件。
+
+>[!IMPORTANT]
+>
+>**mbox.js终止使用**:2021年3月31日 [!DNL Adobe Target] 将不再支持mbox.js库。2021年3月31日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响[!DNL Target]活动运行的页面。
+>
+>我们建议所有客户在此日期之前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
 
 要使用 [!DNL Adobe Target][!UICONTROL  可视化体验编辑器]，您必须在 [!DNL mbox.js] 文件中额外包含一行 JavaScript。
 

@@ -4,10 +4,10 @@ description: 此信息可帮助您的技术人员了解 mbox.js 实施以及它�
 title: mbox.js 的功能
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 80%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 100%
 # mbox.js 的功能{#what-mbox-js-does}
 
 此信息可帮助您的技术人员了解 mbox.js 实施以及它可能会对您的网站有何影响。
+
+>[!IMPORTANT]
+>
+>**mbox.js终止使用**:2021年3月31日 [!DNL Adobe Target] 将不再支持mbox.js库。2021年3月31日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响[!DNL Target]活动运行的页面。
+>
+>我们建议所有客户在此日期之前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
 
 Target Standard 要求使用 [!DNL mbox.js] 版本 58 或更高版本。有关如何下载和更新 [!DNL mbox.js] 的说明，请参阅 [Mbox 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
 

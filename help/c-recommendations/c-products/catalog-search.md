@@ -1,28 +1,28 @@
 ---
-keywords: catalog;search
-description: Adobe Target 中的目录搜索可帮助您在目录中查找产品或内容。
-title: Adobe Target 中的目录搜索
+keywords: catalog search;catalog;search;exclusion;collection;filter
+description: 了解如何使用Recommendations目录搜索找到产品或内容、创建集合或排除、从目录中删除项目等。
+title: 如何使用Recommendations目录搜索
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 1d31bf9474f817827e9be9f515ae5d06fae0cb2a
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 20%
+source-wordcount: '1031'
+ht-degree: 17%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 目录搜索 {#catalog-search}
+# ![PREMIUMCatalog](/help/assets/premium.png) 搜索
 
-[!UICONTROL 目录搜索]页面可帮助您在目录中找到产品或内容。
+[!DNL Adobe Recommendations]中的[!UICONTROL 目录搜索]页面可帮助您在目录中找到产品或内容。 在此页面上可以执行的最基本任务是搜索项目。 此外，您还可以更改环境、将搜索结果保存到集合或排除项、添加筛选彩块化、修改表中的列、添加新搜索彩块化等。
 
-目录是指您的整个产品集（实体）。 您的目录可以包含许多集合——一种在逻辑桶中组织产品的方式。
+目录是指您的整个产品集（实体）。 您的目录可以包含许多集合，这是一种在逻辑桶中组织产品的方式。
+
+## 访问目录搜索
 
 要访问[!UICONTROL 目录搜索]页，请单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 目录搜索]**。
 
 ![“目录搜索”页](/help/c-recommendations/c-products/assets/catalog-search.png)
-
-在此页面上可以执行的最基本任务是搜索项目。 此外，您还可以更改环境;将搜索结果保存到集合或排除；添加、删除或重新排列表中的列，并向[!UICONTROL 过滤器]面板添加新的搜索彩块化。
 
 ## 搜索项目
 
@@ -61,7 +61,7 @@ ht-degree: 20%
    >
    >当您使用数字值对自定义属性执行目录搜索时，结果会将自定义属性视为字符串类型而不是数字值。
    >
-   >目前，没有允许客户更改属性类型的功能。 要进行更改，请[打开一个引用需要类型从字符串更改为数字的属性的客户问题](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+   >目前，没有可用的功能允许您更改属性的类型。 要进行更改，请[打开一个引用需要类型从字符串更改为数字的属性的客户问题](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
 1. 您还可以使用过滤器来查找所需的产品。 在以下示例中，通过展开[!UICONTROL 集合]彩块并选择“自行车工具”，目录中显示的所有自行车工具。
 
@@ -153,7 +153,7 @@ ht-degree: 20%
 
    ![修改过滤器链接](/help/c-recommendations/c-products/assets/modify-filters.png)
 
-1. 选择所需的搜索彩块化（ID、名称、消息等）。
+1. 选择所需的搜索彩块化（ID、名称、消息等），然后单击&#x200B;**[!UICONTROL 保存]**。
 
    ![添加过滤器](/help/c-recommendations/c-products/assets/add-filters.png)
 

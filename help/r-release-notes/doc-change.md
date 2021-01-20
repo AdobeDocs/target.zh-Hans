@@ -4,9 +4,9 @@ description: 本页列表了对Adobe Target文档所做的重要更改（按版�
 title: Adobe Target 产品文档中的文档更改。
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '3387'
+source-wordcount: '3395'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 20 年 1 月 | [Adobe Experience PlatformWeb SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 新主题。 |
 | 19 年 1 月 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关目标21.1.1版本（2021年1月19日）的信息。 |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了`productPurchasedID`参数的文本。 |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了在复制具有活动升级的[!UICONTROL 推荐]活动时的已知问题。 重复活动的任何更改也会影响原始活动，反之亦然。 包括临时解决方法。 |

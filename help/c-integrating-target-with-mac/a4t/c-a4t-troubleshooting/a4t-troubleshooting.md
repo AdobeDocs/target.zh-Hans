@@ -4,7 +4,7 @@ description: 本主题介绍了在使用 Analytics 作为 Target 报表源 (A4T)
 title: Analytics 与 Target 集成 (A4T) 故障诊断
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: aeb18e5e27e821769e22e1fb4c36d2abb46c2950
+source-git-commit: d6ee46899813049c1fad7a358f800702730b3c2d
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 71%
@@ -40,11 +40,12 @@ ht-degree: 71%
 
 ## A4T活动报表包含具有大量“未指定”事件的行。{#added_unspecified_events}
 
-根据用于显示事件的度量，始终会显示未指定的数据行。
+根据用于显示事件的度量，始终会显示未指定的数据行。\
+如果您使用仅目标度量，则不显示“未指定”行。
+如果您使用更常见的度量，该行将再次显示在报告中。
 
-如果您使用仅目标度量，则不显示“未指定”行。 如果您使用更常见的度量，该行将再次显示在报告中。
-
-该“未指定”行项目将没有任何与目标相关的信息(例如，没有访客/访问／印象)。 避免在报告中包含此内容的唯一方法是对从该页面发送的所有请求设置目标，这毫无意义。
+该“未指定”行项目将没有任何与目标相关的信息(例如，没有访客/访问／印象)。\
+避免在报告中包含此内容的唯一方法是对从该页面发送的所有请求设置目标，这毫无意义。
 
 ## 启动 A4T 后，我的 Analytics 数据显示夸大的访问或访客计数。{#section_4BE374E573D44FB7918611699B74F58E}
 

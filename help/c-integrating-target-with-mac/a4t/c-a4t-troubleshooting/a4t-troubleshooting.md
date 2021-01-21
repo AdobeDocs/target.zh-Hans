@@ -4,10 +4,10 @@ description: 本主题介绍了在使用 Analytics 作为 Target 报表源 (A4T)
 title: Analytics 与 Target 集成 (A4T) 故障诊断
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 541adbdf8a2512761fc3f2f676cabec085b6825a
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 80%
+source-wordcount: '880'
+ht-degree: 71%
 
 ---
 
@@ -38,7 +38,16 @@ ht-degree: 80%
 >
 >列为“未指定”时，不会丢失任何数据。运行分类后，数据会正确分配到相应的活动或体验。
 
-## 启动 A4T 后，我的 Analytics 数据显示夸大的访问或访客计数。 {#section_4BE374E573D44FB7918611699B74F58E}
+## A4T活动报表包含具有大量“未指定”事件的行。{#added_unspecified_events}
+
+根据用于显示事件的度量，始终会显示未指定的数据行。\
+如果您使用仅目标度量，则不显示“未指定”行。
+如果您使用更常见的度量，该行将再次显示在报告中。
+
+该“未指定”行项目将没有任何与目标相关的信息(例如，没有访客/访问／印象)。\
+避免在报告中包含此内容的唯一方法是对从该页面发送的所有请求设置目标，这毫无意义。
+
+## 启动 A4T 后，我的 Analytics 数据显示夸大的访问或访客计数。{#section_4BE374E573D44FB7918611699B74F58E}
 
 有关更多信息，请参阅[在 A4T 中最大限度地减少夸大的访问和访客计数](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
 
@@ -46,7 +55,7 @@ ht-degree: 80%
 
 Analytics 中不会提供提升度和置信度详细信息。但是，Target 报表中会提供这些信息。
 
-## 活动未显示在 Analytics 报表中。  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## 活动未显示在 Analytics 报表中。 {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 A4T 活动要求指定 Analytics 跟踪服务器。请参阅[使用 Analytics 跟踪服务器](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)，以确保您的 Analytics 跟踪服务器设置正确。
 

@@ -4,10 +4,10 @@ description: 本主题介绍了在使用 Analytics 作为 Target 报表源 (A4T)
 title: Analytics 与 Target 集成 (A4T) 故障诊断
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
+source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 80%
+source-wordcount: '987'
+ht-degree: 63%
 
 ---
 
@@ -32,13 +32,27 @@ ht-degree: 80%
 
    [请联系客户关怀团队](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，以获取帮助。
 
+如果按“目标分析”维划分“未指定”行，且它不包含活动id，则表示所有内容均已正确分类。  如果活动ID列在此处，则它将作为分类问题的指示。
+
 >[!NOTE]
 >
 >有时，数据原先可在报表中正常显示，但随后又重新列为“未指定”，这是因为添加了未完成分类的新活动。请记住，在第一次保存之后，通常需要 24 到 72 小时才能对报表进行分类。
 >
 >列为“未指定”时，不会丢失任何数据。运行分类后，数据会正确分配到相应的活动或体验。
 
-## 启动 A4T 后，我的 Analytics 数据显示夸大的访问或访客计数。 {#section_4BE374E573D44FB7918611699B74F58E}
+
+## A4T活动报表包含具有大量“未指定”事件的行。{#added_unspecified_events}
+
+报表中可能显示“未指定”事件行，具体取决于用于显示数据的度量。
+
+通常，如果您在报表中选择了非目标特定的公用度量(例如，页面视图、访问、唯一访客等)，则会显示此行。
+在这种情况下，“未指定”行将包括所有未与视图访客关联的页面活动、访问和唯一目标。
+该行将没有任何目标相关信息(例如，没有访客、访问或印象)。 有关详细信息，请参阅*分析技术说明*&#x200B;中报告](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en)中的[“未指定”、“无”、“其他”和“未知”。
+
+如果在报表中选择特定于目标的度量，则不会显示“未指定”行。
+避免在报告中包含此内容的唯一方法是对从该页面发送的每个请求设置目标调用，这并不常见或不必要。
+
+## 启动 A4T 后，我的 Analytics 数据显示夸大的访问或访客计数。{#section_4BE374E573D44FB7918611699B74F58E}
 
 有关更多信息，请参阅[在 A4T 中最大限度地减少夸大的访问和访客计数](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
 
@@ -46,7 +60,7 @@ ht-degree: 80%
 
 Analytics 中不会提供提升度和置信度详细信息。但是，Target 报表中会提供这些信息。
 
-## 活动未显示在 Analytics 报表中。  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## 活动未显示在 Analytics 报表中。 {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 A4T 活动要求指定 Analytics 跟踪服务器。请参阅[使用 Analytics 跟踪服务器](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)，以确保您的 Analytics 跟踪服务器设置正确。
 

@@ -4,15 +4,15 @@ description: 本主题介绍了在使用 Analytics 作为 Target 报表源 (A4T)
 title: Analytics 与 Target 集成 (A4T) 故障诊断
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 63%
 
 ---
 
 
-# Analytics 与 Target 集成 (A4T) 故障诊断{#troubleshoot-the-analytics-and-target-integration-a-t}
+# Analytics 与 Target 集成 (A4T) 故障诊断
 
 本主题介绍了在使用 Analytics 作为 Target 报表源 (A4T) 时遇到的一些常见问题。
 
@@ -40,17 +40,15 @@ ht-degree: 63%
 >
 >列为“未指定”时，不会丢失任何数据。运行分类后，数据会正确分配到相应的活动或体验。
 
-
 ## A4T活动报表包含具有大量“未指定”事件的行。{#added_unspecified_events}
 
-报表中可能显示“未指定”事件行，具体取决于用于显示数据的度量。
+报告中可能显示“[!UICONTROL 未指定]”事件行，具体取决于用于显示数据的度量。
 
-通常，如果您在报表中选择了非目标特定的公用度量(例如，页面视图、访问、唯一访客等)，则会显示此行。
-在这种情况下，“未指定”行将包括所有未与视图访客关联的页面活动、访问和唯一目标。
-该行将没有任何目标相关信息(例如，没有访客、访问或印象)。 有关详细信息，请参阅*分析技术说明*&#x200B;中报告](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en)中的[“未指定”、“无”、“其他”和“未知”。
+通常，如果您在报告中选择不是特定于[!DNL Target]的公用度量(例如，[!UICONTROL 页面视图]、[!UICONTROL 访问]、[!UICONTROL 唯一访客]等)，则此行会显示。 在这种情况下，[!UICONTROL &quot;Unspecified&quot;]行包括所有与[!DNL Target]视图无关的[!UICONTROL 页面访客]、[!UICONTROL 访问]和[!UICONTROL 唯一活动]。
 
-如果在报表中选择特定于目标的度量，则不会显示“未指定”行。
-避免在报告中包含此内容的唯一方法是对从该页面发送的每个请求设置目标调用，这并不常见或不必要。
+该行没有任何[!DNL Target]相关信息(例如，没有访客、访问或印象)。 有关详细信息，请参阅&#x200B;*分析技术说明*&#x200B;中报告](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en)中的[“未指定”、“无”、“其他”和“未知”。
+
+如果在报告中选择[!DNL Target]特定的度量，则不显示[!UICONTROL &quot;未指定&quot;]行。 避免报告中包含此内容的唯一方法是，对从该页面发送的每个请求设置[!DNL Target]调用，这并不常见，也不必要。
 
 ## 启动 A4T 后，我的 Analytics 数据显示夸大的访问或访客计数。{#section_4BE374E573D44FB7918611699B74F58E}
 

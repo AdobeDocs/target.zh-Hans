@@ -4,9 +4,9 @@ description: 为每次体验报告转化率、提升度、置信度（统计意�
 title: 转化率
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2146'
 ht-degree: 72%
 
 ---
@@ -186,7 +186,7 @@ ht-degree: 72%
 >
 >通常情况下，计数取决于 Cookie 和会话活动。但是，如果您达到了活动的最终转化点，然后又重新进入活动，则您会被视为新参加者，而您对活动的访问也会被视为新访问。即使用户的 PCID 和 `sessionID` 值不变，也是如此。
 
-## 目标为什么使用学生的T考试？{#t-test}
+## 为什么目标建议使用学生T考试？{#t-test}
 
 A/B测试是将控制变体（也称为体验）中某个业务度量的平均值与一个或多个备用体验中该相同度量的平均值进行比较的试验。
 

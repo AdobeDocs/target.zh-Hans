@@ -4,7 +4,7 @@ description: 为每次体验报告转化率、提升度、置信度（统计意�
 title: 转化率
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
+source-git-commit: 3e4b31c7534c337cbc68faa204edd334fda0793e
 workflow-type: tm+mt
 source-wordcount: '2146'
 ht-degree: 72%
@@ -208,4 +208,4 @@ A/B测试是将控制变体（也称为体验）中某个业务度量的平均�
 
 **Mann-Whitney U测试**&#x200B;是非参数测试，当平均业务度量（对于每个变体）的采样分布不正常时，这是合适的。 但是，如前所述，考虑到在线测试中涉及的流量大小，中心极限定理通常适用，因此t测试可以安全地应用。
 
-当测试有两个以上的经验（“A/Bn测试”）时，可以应用更复杂的方法，如&#x200B;**ANOVA**（将t测试推广到两个以上的变体）。 但是，ANOVA回答了“所有变体是否具有相同均值”的问题，而在典型的A/Bn测试中，我们对&#x200B;_哪个特定变体_&#x200B;更感兴趣。 因此，在[!DNL Target]中，我们会应用常规的t-tests，将每个变体与控件进行比较，并使用Bonferroni校正来进行多个比较。
+当测试有两个以上的经验（“A/Bn测试”）时，可以应用更复杂的方法，如&#x200B;**ANOVA**（将t测试推广到两个以上的变体）。 但是，ANOVA回答了“所有变体是否均值相同”的问题，而在典型的A/Bn测试中，我们更感兴趣的是&#x200B;_哪个特定变体_&#x200B;最佳。 因此，在[!DNL Target]中，我们会应用常规的t-tests，将每个变体与控件进行比较，并使用Bonferroni校正来进行多个比较。

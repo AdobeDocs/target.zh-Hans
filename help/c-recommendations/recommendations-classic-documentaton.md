@@ -4,10 +4,10 @@ description: Adobe Recommendations Classic 文档。
 title: Adobe Recommendations Classic 文档。
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: e43cb56ebe80e2df83b3c2a75dd90e28bf3870ff
+source-git-commit: 552e5fb844e2b8a93973e6ce1ce138ea5fa0d12f
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 82%
+source-wordcount: '101'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] 是传统产品。为获得最佳[!DNL Recommendations]体验，请升级到[Adobe Target高级版](/help/c-intro/intro.md)中提供的[!DNL Recommendations]活动。
+>[!DNL Recommendations Classic] 是旧产品，不再向新客户授权。为获得最佳[!DNL Recommendations]体验，请升级到[Adobe Target高级版](/help/c-intro/intro.md)中提供的[!DNL Recommendations]活动。
 
 推荐可帮助将用户定向到若没有推荐他们可能无法了解到的项目，从而提高网站所产生的收入。
 

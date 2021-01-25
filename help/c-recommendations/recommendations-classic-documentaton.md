@@ -4,17 +4,21 @@ description: Adobe Recommendations Classic 文档。
 title: Adobe Recommendations Classic 文档。
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: e43cb56ebe80e2df83b3c2a75dd90e28bf3870ff
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 82%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations Classic 文档
+# Recommendations Classic 文档
 
 [!DNL Recommendations Classic] 可根据网站上以往的用户活动自动显示客户可能感兴趣的产品或内容。
+
+>[!IMPORTANT]
+>
+>[!DNL Recommendations Classic] 是传统产品。为获得最佳[!DNL Recommendations]体验，请升级到[Adobe Target高级版](/help/c-intro/intro.md)中提供的[!DNL Recommendations]活动。
 
 推荐可帮助将用户定向到若没有推荐他们可能无法了解到的项目，从而提高网站所产生的收入。
 

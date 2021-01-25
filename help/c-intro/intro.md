@@ -5,10 +5,10 @@ landing-page-description: Personalize your customers' experience to maximize rev
 title: Adobe Target 简介
 feature: intro
 translation-type: tm+mt
-source-git-commit: b935820585f6e0c4ae11449d1d9d7807d5d91a85
+source-git-commit: 90cc6d010988984c8f05e04ed3610b573829b6b6
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 86%
+source-wordcount: '918'
+ht-degree: 85%
 
 ---
 
@@ -81,6 +81,10 @@ Target Premium 包含以下高级功能：
 [企业用](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 户权限功能允许您创建不同的项目(在中称为“产品用户档案” [!DNL Adobe Admin Console for Enterprise])，以允许您为指定每个项目用户访问权限的单个用户分配不同权限。这些不同的项目好比 [!DNL Adobe Analytics] 中各个报表包的工作方式。每个项目都可以拥有其特定用户，而这些用户可以具有适用于一组属性的特定角色。结果是，客户将能够根据区域、环境(dev/stage/prod)、渠道或其他自定义条件限制对用户的视图、编辑、批准和发布访问权限。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
+
+>[!IMPORTANT]
+>
+>[!DNL Recommendations Classic] 是传统产品。为获得最佳的[!DNL Recommendations]体验，请升级到[!DNL Adobe Target Premium]中提供的[!DNL Recommendations]活动，如上所述。
 
 [!DNL Recommendations Classic] 可根据网站上以往的用户活动自动显示客户可能感兴趣的产品或内容。推荐可帮助将用户定向到若没有推荐他们可能无法了解到的项目，从而提高网站所产生的收入。
 

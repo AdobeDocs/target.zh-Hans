@@ -5,10 +5,10 @@ landing-page-description: Personalize your customers' experience to maximize rev
 title: Adobe Target 简介
 feature: intro
 translation-type: tm+mt
-source-git-commit: 90cc6d010988984c8f05e04ed3610b573829b6b6
+source-git-commit: 552e5fb844e2b8a93973e6ce1ce138ea5fa0d12f
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 85%
+source-wordcount: '926'
+ht-degree: 84%
 
 ---
 
@@ -84,7 +84,7 @@ Target Premium 包含以下高级功能：
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] 是传统产品。为获得最佳的[!DNL Recommendations]体验，请升级到[!DNL Adobe Target Premium]中提供的[!DNL Recommendations]活动，如上所述。
+>[!DNL Recommendations Classic] 是旧产品，不再向新客户授权。为获得最佳的[!DNL Recommendations]体验，请升级到[!DNL Adobe Target Premium]中提供的[!DNL Recommendations]活动，如上所述。
 
 [!DNL Recommendations Classic] 可根据网站上以往的用户活动自动显示客户可能感兴趣的产品或内容。推荐可帮助将用户定向到若没有推荐他们可能无法了解到的项目，从而提高网站所产生的收入。
 

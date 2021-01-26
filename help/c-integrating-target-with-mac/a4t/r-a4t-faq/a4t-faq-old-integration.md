@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;sitecatalyst;campaign>recipe;test&target;integration
 description: 本主题包含有关旧版 SiteCatalyst 与 Test&Target 集成以及使用 Analytics 作为 Target 报表源 (A4T) 的常见问题解答。
 title: 旧版 SiteCatalyst 与 Test&Target 集成 - A4T 常见问题解答
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%

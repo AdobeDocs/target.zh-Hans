@@ -2,11 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: 您可以将 Target Standard/Premium 中的活动配置为使用 Adobe Analytics 作为报表源 (A4T)。
 title: 创建使用A4T作为活动源的报告
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1394'
 ht-degree: 17%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 17%
    * 自动分配到最佳体验
    * 自动目标，实现个性化体验
 
-1. 在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上为&#x200B;**[!UICONTROL 报告源]**&#x200B;选择&#x200B;**[!UICONTROL Adobe Analytics]**&lt;a3/>&lt;a5/>&lt;a0/>，然后选择与所需优化目标对应的报表包。
+1. 在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上为&#x200B;**[!UICONTROL 报告源]**&#x200B;选择&#x200B;**[!UICONTROL Adobe Analytics]**，然后选择与所需优化目标对应的报表包。
 
 1. 选择主要目标量度。
 
@@ -132,7 +132,7 @@ ht-degree: 17%
 
 * 报告源在激活活动后不能从[!DNL Analytics]更改为[!DNL Target]，反之亦然。
 * 尽管计算的指标不作为主要目标指标受支持，但通常可以通过选择自定义事件作为主要目标指标来达到预期效果。 例如，如果要优化诸如“每个访客的表单完成情况”之类的指标，请选择与“表单完成情况”对应的自定义事件作为主要目标指标。 [!DNL Target] 根据每次访问自动标准化转化量度，以考虑流量分布不均，因此无需使用计算量度来执行标准化。
-* [!DNL Target] 在Auto-AllocateA4T实现中使用“ [!UICONTROL Same Touch”] 归因模型。
+* [!DNL Target] 在“自动分配”功能中使用“同 [!UICONTROL 一触] ”归因模型：目标分析(A4T)。
 
 #### 自动分配
 

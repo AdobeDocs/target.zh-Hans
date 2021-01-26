@@ -4,10 +4,10 @@ description: 我是否可以使用远程优惠托管外部内容？
 title: 创建远程选件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48c49f764c4f2c2804230481c431a837776278a6
+source-git-commit: f99d8a106fb0cfc88ad1beb1e5ada03550423999
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 57%
+source-wordcount: '843'
+ht-degree: 58%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 57%
 
 以下信息可帮助您了解两个选项之间的差异：
 
-### 缓存的URL类型
+### 缓存的URL
 
 已缓存的远程选件的内容是从 [!DNL Target] 中提供的。
 
@@ -92,7 +92,7 @@ ht-degree: 57%
 
 您能够为已缓存的远程选件指定绝对 URL 或相对 URL。
 
-### 动态URL类型
+### 动态URL
 
 动态远程选件的内容是从内容管理系统或其他系统中提供的，而不是从 [!DNL Target] 中提供。
 

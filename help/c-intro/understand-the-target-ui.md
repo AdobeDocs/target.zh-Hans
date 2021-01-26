@@ -2,9 +2,9 @@
 keywords: target user interface;user interface;ui
 description: 了解Adobe Target用户界面
 title: 了解目标UI
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 28%

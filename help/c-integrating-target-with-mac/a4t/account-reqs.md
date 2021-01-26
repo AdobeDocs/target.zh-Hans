@@ -2,10 +2,10 @@
 keywords: Analytics as reporting source;a4t;A4T;requirements
 description: 在 Adobe Target (A4T) 中创建基于 Adobe Analytics 的活动时的用户帐户要求。
 title: 用户权限要求
-feature: a4t implementation
+feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 49%

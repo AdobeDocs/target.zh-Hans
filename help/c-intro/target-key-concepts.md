@@ -2,9 +2,9 @@
 keywords: Overview and Reference;act
 description: 此信息介绍了有助于您了解 Adobe Target 特性和功能的关键概念。
 title: Target 关键概念
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 98%

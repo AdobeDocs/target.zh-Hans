@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
 description: 本主题包含有关活动设置和使用 Analytics 作为 Target 报表源 (A4T) 的常见问题解答。
 title: 活动设置 - A4T 常见问题解答
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 36%

@@ -2,9 +2,9 @@
 keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: 有关使用 Adobe Target 中的功能的常见问题列表，以及更多信息和相关链接。
 title: Target 优化和个性化常见问题解答
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2901'
 ht-degree: 98%

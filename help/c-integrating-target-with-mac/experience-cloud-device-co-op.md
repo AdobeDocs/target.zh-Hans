@@ -2,9 +2,9 @@
 keywords: experience cloud;device co-op;device co op;analytics;audience manager;aam;media optimizer;device graph
 description: 此信息介绍了 Adobe Experience Cloud 设备协作，该计划允许参与者通过合作更好地识别跨多个数字接触点的用户，同时确保最高级别的隐私和透明度。
 title: Experience Cloud 设备协作
-feature: device co-op
+feature: Integrations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 84%

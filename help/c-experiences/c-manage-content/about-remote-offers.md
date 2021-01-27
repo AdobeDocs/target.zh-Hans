@@ -4,7 +4,7 @@ description: 我是否可以使用远程优惠托管外部内容？
 title: 创建远程选件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 52%
@@ -78,11 +78,11 @@ ht-degree: 52%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-### 重定向URL类型：缓存或动态{#url-type}
+## 重定向URL类型：缓存或动态{#url-type}
 
 以下信息可帮助您了解两个选项之间的差异：
 
-#### 缓存的URL
+### 缓存的URL
 
 已缓存的远程选件的内容是从 [!DNL Target] 中提供的。
 
@@ -92,7 +92,7 @@ ht-degree: 52%
 
 您能够为已缓存的远程选件指定绝对 URL 或相对 URL。
 
-#### 动态URL
+### 动态URL
 
 动态远程选件的内容是从内容管理系统或其他系统中提供的，而不是从 [!DNL Target] 中提供。
 

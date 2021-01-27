@@ -4,9 +4,9 @@ description: 我是否可以使用远程优惠托管外部内容？
 title: 创建远程选件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1047'
 ht-degree: 49%
 
 ---
@@ -156,3 +156,13 @@ ht-degree: 49%
 | 选件可以包含 JavaScript | 是 | 是 |
 | 选件 URL | 绝对或相对 | 相对 |
 | 请求计算机 | Adobe 服务器 | 带有访客 Cookie 的访客计算机 |
+
+## 培训视频：基于表单的书写器![教程徽章](/help/assets/tutorial.png)
+
+此视频提供了基于表单的书写器的演示，您可以使用它创建远程优惠。
+
+* 使用基于表单的体验编辑器创建活动
+* 了解何时使用基于表单的体验编辑器，何时使用可视化体验编辑器
+* 使用细化来定位位置
+
+>[!VIDEO](https://video.tv.adobe.com/v/17390)

@@ -4,10 +4,10 @@ description: 我是否可以使用重定向优惠来使浏览器重定向到新�
 title: 创建重定向选件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 48%
+source-wordcount: '1154'
+ht-degree: 47%
 
 ---
 
@@ -134,12 +134,12 @@ ht-degree: 48%
 
 1. 完成活动配置。
 
-## 培训视频：内容存储库(4:56)![概述徽章](/help/assets/overview.png)
+## 培训视频：基于表单的书写器![教程徽章](/help/assets/tutorial.png)
 
-以下视频包含有关管理内容的信息。
+此视频提供了基于表单的书写器的演示，您可以使用它创建重定向优惠。
 
-* [Experience Cloud 资产库](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)与 Target 内容库之间的关联
-* 自定义 HTML 选件
-* 可视化体验编辑器中的自定义 HTML 选件
+* 使用基于表单的体验编辑器创建活动
+* 了解何时使用基于表单的体验编辑器，何时使用可视化体验编辑器
+* 使用细化来定位位置
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)

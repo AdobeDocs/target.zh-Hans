@@ -4,10 +4,10 @@ description: Adobe Target基于表单的体验书写器提供非视觉体验创�
 title: 基于表单的体验编辑器
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 72%
+source-wordcount: '772'
+ht-degree: 68%
 
 ---
 
@@ -21,14 +21,18 @@ ht-degree: 72%
 1. 单击&#x200B;**[!UICONTROL 创建活动]**，然后选择要创建的活动类型。
 
    基于表单的体验编辑器适用于 A/B 测试活动、体验定位活动、自动个性化活动和“推荐”活动。
-1. 从&#x200B;**[!UICONTROL 新建活动]**&#x200B;对话框中选择[!UICONTROL 基于表单的体验编辑器]。
+1. 从[!UICONTROL 创建活动]对话框中选择&#x200B;**[!UICONTROL 基于表单的体验书写器]**。
+
+1. （视情况而定）选择工作区和属性。
+
+1. 单击&#x200B;**[!UICONTROL 下一步]**。
 
    此时会打开基于表单的体验编辑器。
 
    ![](assets/location_refinements.png)
 
    如果您创建的是“推荐”活动，此屏幕会有所不同。“推荐”活动不包含体验。
-1. 命名活动。
+1. 单击“[!UICONTROL 未命名活动]”命名活动。
 1. 选择位置。
 
    单击[!UICONTROL 选择位置]框时，将显示可用位置列表。 从这些位置中选择一个位置。要选择通过 target.js 交付的全局位置，请选择“target-global-mbox”。
@@ -64,9 +68,9 @@ ht-degree: 72%
 
    **更改体验片段：**&#x200B;选择一个体验片段。
 
-   **更改重定向选件：**&#x200B;选择一个重定向选件。
+   **更改重定向选件：**&#x200B;选择一个重定向选件。有关详细信息，请参阅[创建重定向优惠](/help/c-experiences/c-manage-content/offer-redirect.md)。
 
-   **更改远程选件：**&#x200B;选择一个远程选件。
+   **更改远程选件：**&#x200B;选择一个远程选件。有关详细信息，请参阅[创建远程优惠](/help/c-experiences/c-manage-content/about-remote-offers.md)。
 
    **创建 HTML 选件:**
 

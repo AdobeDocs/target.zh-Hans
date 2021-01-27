@@ -4,10 +4,10 @@ description: 我是否可以使用远程优惠托管外部内容？
 title: 创建远程选件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: f99d8a106fb0cfc88ad1beb1e5ada03550423999
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 58%
+source-wordcount: '934'
+ht-degree: 52%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 58%
 
 >[!NOTE]
 >
->远程优惠可以在“优惠”>“代码优惠”页面或[基于Forms的体验书写器](/help/c-experiences/form-experience-composer.md)中创建。 无法在可视体验书写器(VEC)中创建远程优惠。 内容将插入到[!DNL Target]请求位置，因此这些位置很可能不适合全局[!DNL Target]请求。
+>远程优惠可以在[!UICONTROL 优惠] > [!UICONTROL 代码优惠]页面或在[基于Forms的体验书写器](/help/c-experiences/form-experience-composer.md)中创建。 不能在可视体验书写器(VEC)中创建或应用远程优惠。 内容将插入到[!DNL Target]请求位置，因此这些位置很可能不适合全局[!DNL Target]请求。
 >
 >[!DNL Target Classic] 中提供了类似功能：[!UICONTROL 站内选件]和 [!UICONTROL Test&amp;Target 外部选件]。
 
@@ -78,11 +78,11 @@ ht-degree: 58%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 重定向URL类型：缓存或动态{#url-type}
+### 重定向URL类型：缓存或动态{#url-type}
 
 以下信息可帮助您了解两个选项之间的差异：
 
-### 缓存的URL
+#### 缓存的URL
 
 已缓存的远程选件的内容是从 [!DNL Target] 中提供的。
 
@@ -92,13 +92,31 @@ ht-degree: 58%
 
 您能够为已缓存的远程选件指定绝对 URL 或相对 URL。
 
-### 动态URL
+#### 动态URL
 
 动态远程选件的内容是从内容管理系统或其他系统中提供的，而不是从 [!DNL Target] 中提供。
 
 当访客加载的网站具有包含远程选件的体验时，您可能不希望由 [!DNL Target] 定期缓存并交付内容。相反，您需要调用托管内容的系统，可能会传递特定信息，以便为每个用户动态（或不同）返回的优惠。 例如，如果某位用户登录到一个信用卡网站，且该网站中具有包含动态远程选件的体验，则您能够将相应参数传递到 URL 中，以获取该用户的帐户信息。随后，网站便会提供特定于该用户的信息，例如账户余额。
 
 单击&#x200B;**[!UICONTROL 添加参数]**&#x200B;可添加一个或多个[!DNL Target]请求或请求参数。
+
+## 在活动中使用远程优惠
+
+必须使用[!UICONTROL 基于表单的体验书写器]应用远程优惠。 当前无法使用VEC应用远程优惠。
+
+1. 在[!UICONTROL 基于表单的体验书写器]中创建或编辑活动。
+
+   有关详细的分步说明，请参阅[基于表单的体验书写器](/help/c-experiences/form-experience-composer.md)。
+
+1. 指定所需的位置并根据需要添加任何受众细化。
+
+1. 单击&#x200B;**[!UICONTROL Content]**&#x200B;部分的下拉列表，然后单击&#x200B;**[!UICONTROL 更改远程优惠]**。
+
+   ![更改远程优惠选项](/help/c-experiences/c-manage-content/assets/change-remote-offer.png)
+
+1. 从[!UICONTROL 选择远程优惠]对话框中选择所需的远程优惠，然后单击&#x200B;**[!UICONTROL 完成]**。
+
+1. 完成活动配置。
 
 ## 使用远程优惠{#section_7718512D08E14121B6F6B8C38134F4BC}的最佳实践
 

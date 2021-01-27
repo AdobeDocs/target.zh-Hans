@@ -4,10 +4,10 @@ description: 我是否可以使用远程优惠托管外部内容？
 title: 创建远程选件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
+source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 52%
+source-wordcount: '998'
+ht-degree: 49%
 
 ---
 
@@ -29,6 +29,9 @@ ht-degree: 52%
 * 表单
 * 计算器
 * 利率更新
+* 电子邮件
+* 报亭
+* 语音助理
 
 ## 从“代码优惠”页创建远程优惠
 
@@ -103,6 +106,8 @@ ht-degree: 52%
 ## 在活动中使用远程优惠
 
 必须使用[!UICONTROL 基于表单的体验书写器]应用远程优惠。 当前无法使用VEC应用远程优惠。
+
+[!DNL Adobe Target][!UICONTROL 基于表单的体验书写器]是非可视体验和优惠创建界面，在创建用于[!UICONTROL A/B测试]、[!UICONTROL 体验定位](XT)、[!UICONTROL Automated Personalization](AP)的体验中非常有用)和[!UICONTROL Recommendations]活动。 例如，您可以使用[!UICONTROL 基于表单的体验书写器]创建使用远程优惠的体验。
 
 1. 在[!UICONTROL 基于表单的体验书写器]中创建或编辑活动。
 

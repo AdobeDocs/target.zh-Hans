@@ -1,13 +1,13 @@
 ---
 keywords: content library;assets;search;smart collections;search folder;filter
-description: 可按关键字搜索资产并保存搜索文件夹（称为智能收藏集），这些文件夹会使用搜索结果自动更新。
+description: 如何按关键字搜索资产并保存搜索文件夹？
 title: 搜索内容并创建智能收藏集
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '329'
+ht-degree: 94%
 
 ---
 
@@ -18,10 +18,7 @@ ht-degree: 100%
 
 本节包含以下信息：
 
-* [按关键字搜索资产](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [保存智能收藏集](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
-
-## 按关键字搜索资产 {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## 按关键字{#section_2465A71BC95942588F586B1EC8B9E5DB}搜索资产
 
 1. 单击&#x200B;**[!UICONTROL 选件]** > **[!UICONTROL 图像选件]**&#x200B;以访问“[!UICONTROL 资产库]”。
 
@@ -37,7 +34,7 @@ ht-degree: 100%
 
 1. 在搜索框中，键入与要查找的资产有关的关键字，然后按 Enter 键。
 
-## 保存智能收藏集  {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## 保存智能收藏集 {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 您可以创建保存的搜索（称为智能收藏集），以便在执行类似搜索时节省时间。保存的搜索会创建智能收藏集，该收藏集会使用搜索结果自动更新。
 

@@ -4,9 +4,9 @@ description: 如何在优惠库中创建文件夹？
 title: 创建选件文件夹
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
+source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 17%
 
 ---
@@ -62,13 +62,15 @@ ht-degree: 17%
 
    指定您本人和其他人可以在列表视图中对文件夹的位置重新进行排序。
 
-1. （可选）要在[!UICONTROL 卡视图]和[!UICONTROL 列表视图]之间切换，请单击内容库右上角的[!UICONTROL 卡视图]图标或[!UICONTROL 列表视图]图标。 在查看[!UICONTROL 视图视图]时，还可以使用[!UICONTROL 列表设置]进一步配置列。
-
-   下图显示了查看[!UICONTROL 列表视图]时可用的选项：
-
-   ![列表视图选项](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
 1. 单击&#x200B;**[!UICONTROL 创建]**。
+
+### 在卡视图和列表视图之间切换
+
+要在[!UICONTROL 卡视图]和[!UICONTROL 列表视图]之间切换，请单击内容库右上角的[!UICONTROL 卡视图]图标或[!UICONTROL 列表]图标。 在查看[!UICONTROL 视图视图]时，还可以使用[!UICONTROL 列表设置]进一步配置列。
+
+下图显示了查看[!UICONTROL 列表视图]时可用的选项：
+
+![列表视图选项](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 ### 图像选件选项
 

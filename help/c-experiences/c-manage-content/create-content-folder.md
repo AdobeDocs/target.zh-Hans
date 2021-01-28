@@ -1,83 +1,107 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: 创建一个文件夹以保存Adobe Target优惠库中的项目。
+description: 如何在优惠库中创建文件夹？
 title: 创建选件文件夹
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 93%
+source-wordcount: '576'
+ht-degree: 17%
 
 ---
 
 
-# 创建选件文件夹
+# 创建优惠文件夹
 
-创建一个文件夹以保存Adobe Target优惠库中的项目。
+在Adobe Target优惠库中创建文件夹以保存代码优惠、图像优惠以及其他文件夹以创建子文件夹结构。
 
-1. 单击&#x200B;**[!UICONTROL 选件]**，然后根据需要选择&#x200B;**[!UICONTROL 代码选件]**&#x200B;或&#x200B;**[!UICONTROL 图像选件]**&#x200B;选项卡。
+为代码优惠和图像优惠创建文件夹的过程略有不同。 以下部分包含更多相关信息。
+
+## 代码优惠文件夹
+
+1. 单击&#x200B;**[!UICONTROL 优惠]** > **[!UICONTROL 代码优惠]**。
+
+   ![代码优惠选项卡](/help/c-experiences/c-manage-content/assets/code-offers-tab.png)
+
 1. 单击&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL 文件夹]**。
-1. 填写以下字段：
 
-   | 字段 | 描述 |
-   |--- |--- |
-   | 标题（仅适用于图像选件） | 为文件夹指定一个描述性名称。例如，您可以在名称中包含文件夹要保存的内容类型。<br>名称中不能包含以下字符：<br>百分比符号 `%`<br>正斜杠 `/`<br>反斜线 `\`<br>冒号 `:`<br>星号 `*`<br>问号 `?`<br>双引号 `"`<br>方括号 `[`<br>方括号 `]`<br>加号：`+`<br>抑音符：`|`<br>句号：`.`<br>井号：`#`<br>花括号：`{`<br>花括号`}`<br>插入符号 `^`<br>分号 `;`<br>您可以使用连字符 (`- `) 来替代这些字符。 |
-   | 名称（对代码选件和图像选件均适用） | 编辑名称（如有需要）。 |
-   | 私有（仅适用于图像选件） | 将文件夹指定为私有后，只有您本人能够查看此文件夹及其内容。 |
-   | 可在列表视图中重新排序（仅适用于图像选件） | 指定您本人和其他人可以在列表视图中对文件夹的位置重新进行排序。<br>要在卡片视图和列表视图之间进行切换，请在内容库右上角单击“卡片视图”图标或“列表视图”图标。您还可以在列表视图中选择“视图设置”，以包含或排除列。 |
+1. 提供文件夹的描述性名称。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-## 代码选件选项
+### 代码选件选项
 
 查看[!UICONTROL 代码选件]页面时，您可以对文件夹执行以下操作（方法是将鼠标悬停在文件夹上，然后选择相应的操作图标）。
 
-### 信息 ![](assets/icon_info.png)
+![“代码优惠”选项卡上的悬停图标](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
-查看文件夹信息。
+* **信息**:视图优惠的信息。
+* **编辑**:编辑文件夹或优惠。
+* **复制**:复制优惠。复制然后编辑优惠可让您轻松创建类似的新优惠。
+* **移动**:单击移动图标，导览至要将文件夹移动到的位置，然后单击 **** Dropicon。例如，您可以将一个或多个文件夹移动到另一个文件夹以创建子文件夹。 单击[!UICONTROL 清除选择]以取消选择已选择的优惠或文件夹。
+* **删除**:删除优惠或文件夹。
 
-### 编辑 ![](assets/icon_edit.png)
+## 图像优惠文件夹
 
-编辑文件夹。
+1. 单击&#x200B;**[!UICONTROL 优惠]** > **[!UICONTROL 图像优惠]**。
 
-### 复制 ![](assets/icon_copy.png)
+   ![图像优惠选项卡](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
-复制文件夹。
+1. 单击&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL 文件夹]**。
+1. 指定文件夹的描述性&#x200B;**[!UICONTROL 标题]**。
 
-### 移动 ![](assets/icon_move_folder.png)
+   例如，您可以在名称中包含文件夹要保存的内容类型。名称不能包含以下字符：百分号`%`、正斜杠`/`、反斜杠`\`、冒号`:`、星号`*`、问号`?`、多次引号`"`、方括号`[`、方括号`]`、加号：`+`，管道：`|`，期间：`.`，数字符号：`#`，大括号：`{`、大括号`}`、尖角`^`或分号`;`。 可以使用连字符(`- `)代替这些字符。
 
-单击图标，导航到要将文件夹移动到的位置，然后单击放置图标。
+1. （可选）编辑&#x200B;**[!UICONTROL 名称]**。
+1. （可选）选中&#x200B;**[!UICONTROL 专用]**&#x200B;复选框。
 
-例如，您可以将一个或多个文件夹移动到另一个文件夹中，从而创建子文件夹。
+   将文件夹指定为私有后，只有您本人能够查看此文件夹及其内容。
 
-单击“清除选定内容”可取消选择已选定的文件夹。
+1. （可选）选中“在列表视图&#x200B;]**中可重新排序”复选框。**[!UICONTROL 
 
-### 删除 ![](assets/icon_delete.png)
+   指定您本人和其他人可以在列表视图中对文件夹的位置重新进行排序。
 
-删除文件夹。
+1. （可选）要在[!UICONTROL 卡视图]和[!UICONTROL 列表视图]之间切换，请单击内容库右上角的[!UICONTROL 卡视图]图标或[!UICONTROL 列表视图]图标。 在查看[!UICONTROL 视图视图]时，还可以使用[!UICONTROL 列表设置]进一步配置列。
 
-## 图像选件选项
+   下图显示了查看[!UICONTROL 列表视图]时可用的选项：
 
-查看“[!UICONTROL 图像选件]”页面时，您可以对文件夹执行以下操作（方法是将鼠标悬停在文件夹上，然后选择相应的操作图标）：
+   ![列表视图选项](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
-### 选择 ![](assets/icon_check.png)
+1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-选择要对其执行以下操作的一个或多个文件夹：
+### 图像选件选项
 
-* 下载
-* 复制
-* 移动
-* 删除
+在查看[!UICONTROL 图像优惠]页面时，可以将指针悬停在文件夹上，然后选择相应的图标，对文件夹执行以下操作。
 
-### 下载 ![](assets/icon_download.png)
+下图显示了查看[!UICONTROL 卡视图]时的悬停图标。
 
-下载文件夹及其内容。
+![在卡优惠中时，将鼠标图标悬停在“图像视图”选项卡上](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-### 共享到 Adobe Creative Cloud ![](assets/icon_creative_cloud.png)
+下图显示了查看[!UICONTROL 列表视图]时的悬停图标。 要显示图标，请单击列表中的项。
 
-与 Adobe Creative Cloud 共享文件夹及其内容。
+![当处于优惠视图时，将图标悬停在“图像列表”选项卡上](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
 
-### 复制 ![](assets/icon_copy_content.png)
+* **选择**:选择一个或多个要对其执行以下操作的文件夹：
 
-复制文件夹及其内容。
+   * 下载
+   * 复制
+   * 移动
+   * 删除
+
+   选择一个或多个要对其执行以下操作的图像优惠:
+
+   * 共享
+   * 下载
+   * 查看属性
+   * 编辑
+   * 注释
+   * 移动
+
+
+* **下载**:下载图像优惠或文件夹及其内容。
+* **视图属性**:视图项的属性。请务必单击[!UICONTROL 基本]选项卡和[!UICONTROL 高级]选项卡，以视图所有可用信息。
+* **更多操作**:在卡中视图时显 [!UICONTROL 示其他选项]。
+* **编辑**:编辑文件夹或优惠。
+* **注释**:向图像优惠添加注释。
+* **复制**:复制优惠。复制然后编辑优惠可让您轻松创建类似的新优惠。

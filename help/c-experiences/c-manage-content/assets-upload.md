@@ -1,29 +1,42 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: 您可以向Adobe Target的图像优惠列表添加项目。
+description: 如何上传图像以用作图像优惠?
 title: 上传内容
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 68%
+source-wordcount: '215'
+ht-degree: 17%
 
 ---
 
 
 # 上传内容
 
-您可以在[!DNL Adobe Target]的“图像优惠”列表中添加项目或从中删除项目。
+您可以将图像上传到[!DNL Adobe Target]中的[!UICONTROL 图像优惠]列表，以用作活动中的图像优惠。 当图像优惠不再需要时，还可以删除活动。
 
-1. 单击&#x200B;**[!UICONTROL 选件]**，然后选择&#x200B;**[!UICONTROL 图像选件]**&#x200B;选项卡。
+## 将图像优惠添加到列表
+
+1. 单击&#x200B;**[!UICONTROL 优惠]** > **[!UICONTROL 图像优惠]**。
+
+   ![优惠>图像优惠](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
+
 1. 单击&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL 文件]**。
-1. 选择要添加的项目，然后单击&#x200B;**[!UICONTROL 打开]**。
-1. 编辑所选项目的文件名（如有必要），然后单击&#x200B;**[!UICONTROL 上传]**。
+1. 浏览到要添加的项目并选择它，然后单击&#x200B;**[!UICONTROL 打开]**。
+1. 根据需要编辑项目的文件名，然后单击&#x200B;**[!UICONTROL 上传]**。
 
-   该项目随即会上传到库中。
+## 删除图像优惠或文件夹
 
-## 培训视频：内容存储库  ![概述徽章](/help/assets/overview.png)
+要在[!UICONTROL 卡视图]和[!UICONTROL 列表视图]之间切换，请单击内容库右上角的[!UICONTROL 卡视图]图标或[!UICONTROL 列表]图标。
+
+在[!UICONTROL 卡视图]中，将指针悬停在所需的图像优惠或文件夹上，单击&#x200B;**[!UICONTROL 选择]**&#x200B;图标（复选标记），然后单击&#x200B;**[!UICONTROL 删除]**。
+
+在[!UICONTROL 列表视图]中，单击列表左侧的图像缩略图以选择所需的图像优惠或文件夹，然后单击&#x200B;**[!UICONTROL 删除]**，如下所示：
+
+![删除选定项目](/help/c-experiences/c-manage-content/assets/delete-image-offer.png)
+
+## 培训视频：内容存储库![概述徽章](/help/assets/overview.png)
 
 以下视频包含有关管理内容的信息。
 

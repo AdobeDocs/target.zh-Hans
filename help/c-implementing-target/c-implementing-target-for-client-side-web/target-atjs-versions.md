@@ -4,10 +4,10 @@ description: 有关Adobe Targetat.js各版本中更改的详细信息。
 title: at.js 版本详细信息
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
+source-git-commit: cc8d32d0ec4164c5cbd86ececdbfd24c7286a236
 workflow-type: tm+mt
-source-wordcount: '4034'
-ht-degree: 84%
+source-wordcount: '4069'
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 84%
 
 此版本的at.js是维护版本，包括以下修复：
 
-* 修复了与mbox单击跟踪和A4T相关的问题。
+* 修复了与mbox单击跟踪和A4T相关的问题。 只需单击0n,目标就使用正确的mbox和mbox参数触发了投放API调用。 但是，SDID与[!DNL Analytics]调用中的SDID不匹配，因此没有点击拼接和转换。 (TNT-38372)
 
 ## at.js 2.3.2（2020年7月24日）
 

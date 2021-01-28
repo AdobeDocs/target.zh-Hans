@@ -4,9 +4,9 @@ description: 有关此 Adobe Target 版本的已知问题的信息。此外，�
 title: Adobe Target 中的已知问题和已解决的问题
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
+source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
 workflow-type: tm+mt
-source-wordcount: '4337'
+source-wordcount: '4365'
 ht-degree: 69%
 
 ---
@@ -75,6 +75,7 @@ ht-degree: 69%
    * 重复活动
    * 在每个活动中再次启用促销
 
+* 当[!DNL Target]返回带有getOffer()的JSON优惠时，它返回的JSON类型。 但是，如果返回JSONRecommendations设计，则返回的HTML类型。
 * 如果通过信息源或 API 未收到更新达 60 天之后，实体会正确过期；但是，过期后不会从目录搜索索引中删除已过期的实体。(IRI-857)
 * 标准和设计的“使用信息”叠加不反映它们在 A/B 活动和体验定位活动中的使用情况 (TGT-34331)
 * A/B 活动和体验定位活动中的 Recommendations 选件不显示 Recommendations 栏的可视预览。

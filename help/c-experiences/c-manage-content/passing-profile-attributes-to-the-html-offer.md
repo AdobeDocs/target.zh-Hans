@@ -1,13 +1,13 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: 您可以在Adobe Target的HTML或JSON用户档案中直接显示活动值和优惠信息。
+description: 如何直接在HTML或JSON用户档案中传递活动值和优惠信息？
 title: 将动态数据传递给选件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 88%
+source-wordcount: '491'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 您可以动态显示存储在[!DNL Adobe Target]访客中的用户档案信息。 同样，还可以使用活动信息（例如活动名称或体验名称）来创建单个选件，以根据访客兴趣、过去的行为和整个配置文件动态地返回个性化内容。
 
-## 商业案例
+## 业务案例
 
 * 促销折扣选件，以“填充”或“补充”上次购买的产品。除了为目录中的每个项目创建单独的选件之外，您可以创建一个包含动态文本的选件，其会从配置文件中读取“上次购买的产品”并在选件中显示链接。
 * 一个访客通过 `keyword=world``cup` 访问您的登陆页。您在选件中显示词语 *World cup*。
@@ -52,15 +52,21 @@ ht-degree: 88%
 
 ## 实施
 
-要了解传递到 mbox 的配置文件参数，请使用语法：`${profile.parameter}`。要了解在配置文件脚本中创建的配置文件参数，请使用语法：
+对于传入mbox的用户档案参数，请使用语法：
+
+`${profile.parameter}`
+
+对于在用户档案脚本中创建的用户档案参数，请使用语法：
 
 `${user.parameter}`
 
-在Recommendations设计中使用动态属性时，必须在美元符号($)前插入反斜杠(\)，这样动态值才能正确呈现：`\${user.endpoint.lastViewedEntity}`
+在[!DNL Recommendations]设计中使用动态属性时，必须在美元符号($)前插入反斜杠(\)，这样动态值才能正确呈现：
+
+`\${user.endpoint.lastViewedEntity}`
 
 这些变量可以被服务器端的值所替换，因此不需要引用或其他 JavaScript 也能正确显示。
 
-也可以指定默认值，作为您想要在选件上显示的值。语法如下：
+还可以为要向优惠显示的值指定默认值。 语法如下：
 
 `${user.testAttribute default="All Items!"}`
 

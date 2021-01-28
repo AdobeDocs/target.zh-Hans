@@ -4,10 +4,10 @@ description: 如何管理代码和图像优惠?
 title: 选件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 70547a05155aa2909b0e66a1f26b0fd2cc730dd9
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 40%
+source-wordcount: '525'
+ht-degree: 37%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 40%
 
    根据您的权限，您可能看不到所有选项的图标。 例如，具有[!UICONTROL Observer]权限的用户无权使用[!UICONTROL Copy]选项。
 
+   有关可对任务和文件夹执行的优惠的详细信息，请参阅[使用资产库中的内容](/help/c-experiences/c-manage-content/assets-working.md)。
+
 1. （可选）将鼠标悬停在[!UICONTROL 图像任务]选项卡上所需的图像优惠或文件夹上，然后单击所需的图标，可执行其他优惠。
 
    ![图像选件选项](/help/c-experiences/c-manage-content/assets/image-offers-icons.png)
@@ -56,6 +58,8 @@ ht-degree: 40%
    * 编辑
    * 注释
    * 复制
+
+   有关可对任务和文件夹执行的优惠的详细信息，请参阅[使用资产库中的内容](/help/c-experiences/c-manage-content/assets-working.md)。
 
 ## 查看优惠定义{#section_6B059DD121434E6292CAB393507D010E}
 

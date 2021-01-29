@@ -1,65 +1,58 @@
 ---
-keywords: content library;assets;search;smart collections;search folder;filter
-description: 如何按关键字搜索资产并保存搜索文件夹？
-title: 搜索内容并创建智能收藏集
+keywords: content library;assets;search;filter
+description: 如何按关键字搜索资产？
+title: 搜索内容
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 94%
+source-wordcount: '239'
+ht-degree: 13%
 
 ---
 
 
-# 搜索内容并创建智能收藏集
+# 搜索内容
 
-可按关键字搜索资产并保存搜索文件夹（称为智能收藏集），这些文件夹会使用搜索结果自动更新。
+在[!DNL Adobe Target]的[!UICONTROL 优惠]库中按关键字搜索资产。
 
-本节包含以下信息：
+## 按关键字搜索代码优惠
 
-## 按关键字{#section_2465A71BC95942588F586B1EC8B9E5DB}搜索资产
+1. 单击&#x200B;**[!UICONTROL 优惠]** > **[!UICONTROL 代码优惠]**。
+1. 在[!UICONTROL 搜索]框中键入所需的关键字。
 
-1. 单击&#x200B;**[!UICONTROL 选件]** > **[!UICONTROL 图像选件]**&#x200B;以访问“[!UICONTROL 资产库]”。
+   请注意，您还可以使用[!UICONTROL Type]和[!UICONTROL Source]下拉列表进一步细化搜索。
 
-   您可以单击右上角的“[!UICONTROL 卡片视图]”图标，以卡片视图格式显示资产。
+## 按关键字{#section_2465A71BC95942588F586B1EC8B9E5DB}搜索图像优惠
 
-   或
+1. 单击&#x200B;**[!UICONTROL 优惠]** > **[!UICONTROL 图像优惠]**。
 
-   您可以单击右上角的“[!UICONTROL 列表视图]”图标，以列表视图格式显示资产。
+1. （可选）在[!UICONTROL 卡视图]和[!UICONTROL 列表视图]之间切换，单击内容库右上角的[!UICONTROL 卡视图]图标或[!UICONTROL 列表视图]图标。 在查看[!UICONTROL 视图视图]时，还可以使用[!UICONTROL 列表设置]进一步配置列。
+
+   下图显示了查看[!UICONTROL 列表视图]时可用的选项：
+
+   ![列表视图选项](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. 单击左上角的&#x200B;**[!UICONTROL 仅内容]**&#x200B;图标，以显示搜索框。
 
-   ![](assets/search_assets.png)
+   ![“仅内容”选项](/help/c-experiences/c-manage-content/assets/content-only.png)
 
 1. 在搜索框中，键入与要查找的资产有关的关键字，然后按 Enter 键。
 
-## 保存智能收藏集 {#section_5C95159543B5405EB8C8E47B518DF4AB}
+1. （可选）使用&#x200B;**[!UICONTROL 过滤器和选项]**&#x200B;窗格进一步细化搜索。
 
-您可以创建保存的搜索（称为智能收藏集），以便在执行类似搜索时节省时间。保存的搜索会创建智能收藏集，该收藏集会使用搜索结果自动更新。
+   ![筛选器和选项窗格](/help/c-experiences/c-manage-content/assets/filter-and-options.png)
 
-1. 单击&#x200B;**[!UICONTROL 选件]** > **[!UICONTROL 图像选件]**&#x200B;以访问“[!UICONTROL 资产库]”。
+   您可以按以下方式进行筛选：
 
-   ![](assets/content.png)
-
-1. 单击左上角的&#x200B;**[!UICONTROL 仅内容]**&#x200B;图标，以在左边栏中显示“[!UICONTROL 筛选器和选项]”面板。
-1. 单击&#x200B;**[!UICONTROL 浏览]**&#x200B;图标，以显示“[!UICONTROL 选择路径]”对话框。
-
-   ![](assets/browse_folders.png)
-
-1. 浏览到所需的文件夹并将其选定（需要根据此文件夹来创建智能收藏集），然后单击&#x200B;**[!UICONTROL 确认]**&#x200B;图标。
-
-   ![](assets/browse_folders2.png)
-
-1. （可选）从多个选项中进行选择（例如选择文件类型和大小）以缩小筛选范围。
-1. 单击“**[!UICONTROL 筛选器和选项]**”面板底部的[!UICONTROL 保存智能收藏集]，以显示“保存”选项。
-
-   ![](assets/save_smart_collection_options.png)
-
-1. 指定智能收藏集的名称，如果您希望自己的 **[!UICONTROL 帐户中的所有用户都能够访问此智能收藏集，请选中]**&#x200B;公共[!DNL Target]复选框，然后再单击&#x200B;**[!UICONTROL 保存]**。
-
-   该智能收藏集随即会添加到保存的搜索列表中，以供将来使用：
-
-   ![](assets/saved_smart_collection.png)
-
-您可以编辑保存的智能收藏集，方法是从“[!UICONTROL 保存的搜索]”下拉列表中选择相应的智能收藏集以将其打开，然后单击“[!UICONTROL 编辑智能收藏集]”。
+   * 文件类型：图像、文档、多媒体或存档。
+   * 文件大小：小、中或大
+   * 上次修改时间：小时、天、周、月或年。
+   * 批准状态：已批准或被拒绝。
+   * 到期状态：已过期。
+   * 平均评级：1到5。
+   * 方向：水平、垂直或正方形。
+   * 样式：彩色或黑白。
+   * 使用分数：最小到最大
+   * 印象得分：最小到最大
+   * 单击得分：1到5。

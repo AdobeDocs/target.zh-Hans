@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: 向Automated Personalization活动的Adobe Target用户提供专门报告。
+description: 如何使用“Automated Personalization摘要”报告？
 title: 自动个性化摘要报表
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 68%
+source-wordcount: '626'
+ht-degree: 41%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 自动个性化摘要报表{#automated-personalization-summary-reports}
+# ![PREMIUM](/help/assets/premium.png) 自动个性化摘要报表
 
 [!DNL Adobe Target]中的[!UICONTROL Automated Personalization]活动的用户可使用专门的报告。
 
@@ -24,9 +24,14 @@ ht-degree: 68%
 
    如果您有多种活动，则可以对活动列表进行筛选，方法是从“[!UICONTROL 类型]”下拉列表中选择“[!UICONTROL 自动个性化]”。
 
-1. （可选）单击“[!UICONTROL 下载]”图标，以下载按所有可用成功量度划分的摘要视图（例如，比较控制流量和目标流量）。
+1. （可选）单击“**[!UICONTROL 下载]**”图标，以下载按所有可用成功量度划分的摘要视图（例如，比较控制流量和目标流量）。
 
 [!UICONTROL 自动个性化]提供了以下报表：
+
+* 活动级别
+* 优惠级别
+* 自动化区段
+* 重要属性
 
 ## 活动级别报告{#section_6F72FC5C790B4492B3DCECBFFA971337}
 
@@ -48,7 +53,17 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->时钟图标指示仍在构建算法模型。复选标记图标指示已建立基础算法。
+>时钟图标指示仍在构建算法模型。复选标记图标表示已建立基本算法。
+
+## 活动级别和优惠级别报表之间的数据差异
+
+**[!UICONTROL 活动] 级别报告**:活动级别 [!UICONTROL 报] 告中记录的访问记录了控制体验与“目标”流量。目标流量包括探索流量和个性化流量的混合。
+
+**优惠级别报告**:优惠级别报 [!UICONTROL 表] 上记录的展示次数捕获每个优惠的展示次数。因此，在具有多个位置的活动中，在所有报告组中记录在[!UICONTROL 优惠级别]报告中的访问总数等于在[!UICONTROL 活动级别]报告中为控制或目标流量记录的访问次数乘以活动中的位置总数。 默认内容在默认内容为可用选项的位置出现的印象记录在“默认内容”优惠组中。 未分配给优惠组的报告印象将记录在“未分组”优惠组中。
+
+>[!NOTE]
+
+在[!UICONTROL 优惠级别]报告中记录的展示次数可能不是在[!UICONTROL 活动级别]报告中记录的访问次数的整数倍。 这是由于在通过Internet捕获报告数据流量时出现细微差异（通常差异率低于5%）所致。 因此，当活动中的可用位置数在活动激活后发生更改时，印象数不会是精确倍数。
 
 ## 自动化区段
 

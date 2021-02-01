@@ -4,9 +4,9 @@ description: 如何使用“Automated Personalization摘要”报告？
 title: 自动个性化摘要报表
 feature: Reports
 translation-type: tm+mt
-source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '632'
 ht-degree: 41%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 41%
 
 ## 常见问题解答
 
-### 活动级别和优惠级别报表之间是否有数据差异？
+### 为什么活动级别报告和优惠级别报告之间存在数据差异？
 
 **[!UICONTROL 活动] 级别报告**:活动级别 [!UICONTROL 报] 告中记录的访问记录了控制体验与“目标”流量。目标流量包括探索流量和个性化流量的混合。
 

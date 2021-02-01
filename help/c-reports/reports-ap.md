@@ -4,9 +4,9 @@ description: 如何使用“Automated Personalization摘要”报告？
 title: 自动个性化摘要报表
 feature: Reports
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 52fd172abf1c92d3df6c123b36373c7db6467972
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 41%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 41%
 
 # ![PREMIUM](/help/assets/premium.png) 自动个性化摘要报表
 
-[!DNL Adobe Target]中的[!UICONTROL Automated Personalization]活动的用户可使用专门的报告。
+[!DNL Adobe Target]中的[!UICONTROL Automated Personalization]活动的用户可使用专门的摘要报告。
 
 >[!NOTE]
 >
@@ -80,5 +80,5 @@ ht-degree: 41%
 **优惠级别报告**:优惠级别报 [!UICONTROL 表] 上记录的展示次数捕获每个优惠的展示次数。因此，在具有多个位置的活动中，在所有报告组中记录在[!UICONTROL 优惠级别]报告中的访问总数等于在[!UICONTROL 活动级别]报告中为控制或目标流量记录的访问次数乘以活动中的位置总数。 默认内容在默认内容为可用选项的位置出现的印象记录在“默认内容”优惠组中。 未分配给优惠组的报告印象将记录在“未分组”优惠组中。
 
 >[!NOTE]
-
-在[!UICONTROL 优惠级别]报告中记录的展示次数可能不是在[!UICONTROL 活动级别]报告中记录的访问次数的整数倍。 这是由于在通过Internet捕获报告数据流量时出现细微差异（通常差异率低于5%）所致。 因此，当活动中的可用位置数在活动激活后发生更改时，印象数不会是精确倍数。
+>
+>在[!UICONTROL 优惠级别]报告中记录的展示次数可能不是在[!UICONTROL 活动级别]报告中记录的访问次数的整数倍。 这是由于在通过Internet捕获报告数据流量时出现细微差异（通常差异率低于5%）所致。 因此，当活动中的可用位置数在活动激活后发生更改时，印象数不会是精确倍数。

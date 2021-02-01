@@ -4,9 +4,9 @@ description: Adobe Target的自动分配活动可以在两种或两种以上的�
 title: 自动分配
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3377'
+source-wordcount: '3373'
 ht-degree: 73%
 
 ---
@@ -136,7 +136,7 @@ Target 中的常规 A/B 测试只会显示挑战体验与控制体验的成对�
 
 ### 目标分析(A4T)是否支持自动分配活动?
 
-是. 有关详细信息，请参阅&#x200B;*目标创建*&#x200B;中对自动分配活动](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)的[分析(A4T)支持。
+是. 有关详细信息，请参阅[A4T支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。
 
 ### 是否会自动将旧访客重新分配给高性能体验？
 

@@ -4,9 +4,9 @@ description: 以前Adobe Target版本的发行说明，包括Target Standard/Pre
 title: 以前版本的发行说明
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: b1c320a409ab43d9acc0adf5ed711c2b2514507c
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '30549'
+source-wordcount: '30539'
 ht-degree: 84%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 84%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| ![针对](/help/assets/premium.png) 目标的高级徽章分析(A4T)支持自动目标活动 | [!UICONTROL 自动定] 位活动现在支 [持Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此集成允许您使用自 [!UICONTROL 动定] 位机器学习算法，根据访客的用户档案、行为和上下文为每个选择最佳体验。<br>如果您已经实 [施A4](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)  To以与A/B测试和体验定位活动一起使用，您就可以了！<br>有关详细信息，请 [参阅目标分析(A4T)支持在创建活动时自动分配和](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) 自动 *目标活动*。 |
+| ![针对](/help/assets/premium.png) 目标的高级徽章分析(A4T)支持自动目标活动 | [!UICONTROL 自动定] 位活动现在支 [持Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此集成允许您使用自 [!UICONTROL 动定] 位机器学习算法，根据访客的用户档案、行为和上下文为每个选择最佳体验。<br>如果您已经实 [施A4](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)  To以与A/B测试和体验定位活动一起使用，您就可以了！<br>有关详细信息，请 [参阅A4T支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
 
 ### Target Standard/Premium 20.8.2（2020 年 9 月 10 日）
 
@@ -152,7 +152,7 @@ ht-degree: 84%
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Analytics for Target (A4T) 支持[!UICONTROL 自动分配]活动 | [!UICONTROL 自动分] 配活动现在支 [持Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此集成允许您使用 [!UICONTROL 自动] 分配多重强制强盗功能，在使用Adobe分析目标指标和／或Adobe分析报告和分析功能的同时，    提高流量以赢取体验。<br>如果您已经实 [施A4](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)  To以与A/B测试和体验定位活动一起使用，您就可以了！<br>有关详细信息，请 [参阅目标分析(A4T)支持在活动创建中](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) 自动分 *配活动*。 |
+| Analytics for Target (A4T) 支持[!UICONTROL 自动分配]活动 | [!UICONTROL 自动分] 配活动现在支 [持Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此集成允许您使用 [!UICONTROL 自动] 分配多重强制强盗功能，在使用Adobe分析目标指标和／或Adobe分析报告和分析功能的同时，    提高流量以赢取体验。<br>如果您已经实 [施A4](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)  To以与A/B测试和体验定位活动一起使用，您就可以了！<br>有关详细信息，请 [参阅A4T支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
 | 自动目标和Automated Personalization活动流量分配方法的响应令牌 | 已将两个[响应令牌](/help/administrating-target/response-tokens.md)添加到[!UICONTROL 自动目标]和[!UICONTROL Automated Personalization]活动中，以便确定访客是否因被分配到“控制”或“目标”流量而获得特定体验。<ul><li>`experience.trafficAllocationId` 如果访客从“控制”流量中获得体验，则返回0；如果访客从“目标”流量分配中获得体验，则返回1。</li><li>`experience.trafficAllocationType` 将返回“控制”或“目标”。</li></ul>有关控制与目标流量的详细信息，请参阅[选择Automated Personalization的控件或自动目标活动](/help/c-activities/t-automated-personalization/experience-as-control.md)。 |
 | [!UICONTROL 发布者] 角色 | 此新角色类似于当前的[!UICONTROL Observer]角色(可以视图活动，但不能创建或编辑它们)。 但是，[!UICONTROL 发布者]角色具有激活活动的附加权限。<br>有关详细信息，请参阅： <ul><li>**目标标准用户**: [在用户中指](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 定角色 *和权限*。</li><li>**目标高级版用户**: [第6步：在配置企业](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 权限中 *指定角色和权限*。</li></ul> |
 | 2020年6月25日[!DNL Analysis Workspace]<br>中的A4T支持 | [!UICONTROL 现在支持] “目标(A4T)”的分析 [!DNL Analysis Workspace]。通过[!UICONTROL “目标分析(A4T)”面板]，可分析[!DNL Analysis Workspace]中的[!DNL Adobe Target]活动和体验。<br>有关详细信息，请参 [阅《](/help/c-integrating-target-with-mac/a4t/reporting.md) 分析工具指 *南》(A4T* Analytics)中 [的“A4T报告”和“](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 目标分析(A4T)”面板中 *的“*&#x200B;报告”(A4T)。 |

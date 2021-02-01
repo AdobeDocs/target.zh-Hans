@@ -4,10 +4,10 @@ description: 本文列出了一些主题，可帮助您解决 Adobe Target 中�
 title: Adobe Target疑难解答
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '437'
+ht-degree: 96%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 0%
 
 * [自动个性化常见问题解答](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [自动个性化故障诊断](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [自动个性化摘要报表](/help/c-reports/reports-ap.md)
 
 ### 多变量测试 (MVT)
 

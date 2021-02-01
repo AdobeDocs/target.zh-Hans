@@ -4,9 +4,9 @@ description: 本页列表了对Adobe Target文档所做的重要更改（按版�
 title: Adobe Target 产品文档中的文档更改。
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3488'
 ht-degree: 29%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 29%
 |  | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 已更新“user.header(&#39;x-forwarded-for&#39;)”行以指示“user.header(&#39;x-cluster-client-ip&#39;)”已弃用。 |
 |  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 20.9.1（2020年9月30日）版本的信息。 |
 | 9月15日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关Target Standard/Premium 20.8.3版本的信息，该版本包括针对自动目标活动的Analytics for Adobe(A4T)支持。 在以前的版本中增加了对自动分配活动的支持。 |
-|  | [目标分析(A4T)支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)。 | 添加了有关自动目标活动中A4T支持的信息。 |
+|  | [自动分配和自动目标活动的A4T支持](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 添加了有关自动目标活动中A4T支持的信息。 |
 |  | [活动 QA 书签](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 更新了文本，指示通过在站点上加载具有空值的`at_preview_token`参数的页面来手动强制您退出QA模式的方法将应用于at.js 1。*x*。 |
 |  | [目录搜索](/help/c-recommendations/c-products/catalog-search.md) | 更新了整个主题。 |
 | 9月10日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关Target Standard/Premium 20.9.2版本的信息，其中包含以下新增功能：控制条件序列中的推荐槽。 |

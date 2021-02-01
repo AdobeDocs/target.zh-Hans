@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 translation-type: tm+mt
-source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1587'
 ht-degree: 84%
 
 ---
@@ -175,6 +175,7 @@ ht-degree: 84%
       + [Analytics for Target 实施](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [用户权限要求](c-integrating-target-with-mac/a4t/account-reqs.md)
       + [创建将Analytics用作活动源的报告](c-integrating-target-with-mac/a4t/campaign-creation.md)
+      + [自动分配和自动目标活动的A4T支持](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
       + [使用 Analytics 跟踪服务器](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T 报表](c-integrating-target-with-mac/a4t/reporting.md)
       + Analytics 与 Target 集成 (A4T) 故障诊断 {#troubleshoot-a4t}

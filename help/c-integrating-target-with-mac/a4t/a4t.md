@@ -4,9 +4,9 @@ description: Adobe“Analytics for Target”(A4T) 是一种跨解决方案的集
 title: 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1300'
 ht-degree: 45%
 
 ---
@@ -60,8 +60,8 @@ ht-degree: 45%
 | 活动类型 | 是否兼容 A4T？ | 注释（如果适用） |
 |--- |--- |--- |
 | 使用手动流量拆分的 A/B 活动 | 是 |  |
-| 使用自动分配的 A/B 活动 | 是 | 请参阅[对自动分配和自动目标活动的](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)目标分析(A4T)支持。 |
-| 使用自动定位的 A/B 活动 | 是 | 请参阅[对自动分配和自动目标活动的](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)目标分析(A4T)支持。 |
+| 使用自动分配的 A/B 活动 | 是 | 请参阅[A4T支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
+| 使用自动定位的 A/B 活动 | 是 | 请参阅[A4T支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
 | 体验定位 (XT) | 是 |  |
 | 多变量测试 (MVT) | 是 | 需要基于mbox的目标指标目标来获取[!UICONTROL 元素贡献]报告。  [!UICONTROL 元素贡献]报告当前不支持[!DNL Analytics]度量。 |
 | 自动个性化 (AP) 活动 | 否 |  |

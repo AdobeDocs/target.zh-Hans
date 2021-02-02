@@ -1,13 +1,13 @@
 ---
-keywords: a4t;A4T;Analytics as the reporting source for Target
+keywords: a4t;A4T;Analytics 作为 Target 报表源
 description: 我是否可以将A4T与自动目标和自动分配活动一起使用？
 title: 自动分配和自动目标活动的A4T支持
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 1%
+source-wordcount: '838'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,8 @@ A4T集成允许您：
 
    * [!UICONTROL 自动分配到最佳体验]
    * [!UICONTROL 自动目标，实现个性化体验]
+
+   ![流量分配方法选项：手动、自动分配和自动目标](/help/c-integrating-target-with-mac/a4t/assets/traffic-allocation-methods.png)
 
    有关详细信息和分步说明，请参阅[创建自动分配活动](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)和[创建自动目标活动](/help/c-activities/auto-target/create-auto-target.md)。
 

@@ -4,9 +4,9 @@ description: 我是否可以将A4T与自动目标和自动分配活动一起使�
 title: 自动分配和自动目标活动的A4T支持
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '853'
 ht-degree: 2%
 
 ---
@@ -36,10 +36,14 @@ A4T集成允许您：
 
 1. 在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上为&#x200B;**[!UICONTROL 报告源]**&#x200B;选择&#x200B;**[!UICONTROL Adobe Analytics]**，然后选择与所需优化目标对应的报表包。
 
+   ![“目标和设置”页上的“报告源”部分](/help/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+
 1. 选择主要目标量度。
 
    * 选择&#x200B;**[!UICONTROL 转换]**&#x200B;以使用[!DNL Adobe Target]指定优化目标。
    * 选择&#x200B;**[!UICONTROL 使用Analytics度量]**，然后从[!DNL Analytics]中选择一个度量以用作优化目标。 您可以使用现成的[!DNL Analytics]转换度量或[!DNL Analytics]自定义事件。
+
+   有关详细信息，请参阅下面的[支持的目标指标](#supported)。
 
 1. 保存并激活活动。
 
@@ -51,7 +55,7 @@ A4T集成允许您：
 
 1. 使用&#x200B;**[!UICONTROL 报告]**&#x200B;选项卡根据您选择的[!DNL Adobe Analytics]指标视图活动的报告。 单击Analytics ]**中的**[!UICONTROL &#x200B;视图，深入细分报告数据并进一步细分数据。
 
-## 支持的目标指标
+## 支持的目标指标{#supported}
 
 [!UICONTROL A4对于] 自 [!UICONTROL 动分] 配和自 [!UICONTROL 动定] 位，您可以选择以下任意指标类型作为优化的主要目标指标：
 

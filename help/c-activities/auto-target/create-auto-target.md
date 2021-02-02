@@ -1,13 +1,13 @@
 ---
-keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
+keywords: 创建自动目标;A/B测试；自动目标活动；新的a/b活动；自动目标；个性化体验的自动目标；个性化体验
 description: 使用Adobe Target的可视体验书写器(VEC)直接在启用目标的页面上创建自动目标A/B测试活动，并修改目标中页面的部分。
 title: 创建自动目标活动
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 60%
+source-wordcount: '940'
+ht-degree: 57%
 
 ---
 
@@ -121,6 +121,10 @@ ht-degree: 60%
 1. 指定活动的[目标和设置](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)。
 
    ![A/B 活动设置](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+
+   >[!NOTE]
+   >
+   >如果要对此目标使用[分析](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)，请参阅[A4T支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)中的重要信息。
 
 1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;或&#x200B;**[!UICONTROL 保存]**。
 

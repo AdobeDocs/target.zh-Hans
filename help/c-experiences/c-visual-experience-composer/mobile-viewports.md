@@ -1,12 +1,12 @@
 ---
-keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
+keywords: 响应式；移动视口；视口；设备；移动；响应式Web设计；rwd
 description: 移动视区可帮助您预览Adobe Target活动在各种尺寸屏幕上的显示方式。
-title: 移动视图端口，提供响应式体验
+title: 适用于响应式体验的移动设备视区
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1453'
 ht-degree: 68%
 
 ---

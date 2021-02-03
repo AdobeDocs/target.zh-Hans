@@ -1,13 +1,13 @@
 ---
-keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
+keywords: 内容库;资产;注释;复制;删除资产;下载资产;编辑内容;共享卡片;查看内容属性
 description: 如何使用内容库中的资源
-title: 处理库中的内容
+title: 使用库中的内容
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 37%
+source-wordcount: '743'
+ht-degree: 38%
 
 ---
 

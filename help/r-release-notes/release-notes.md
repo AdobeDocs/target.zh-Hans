@@ -1,13 +1,13 @@
 ---
-keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates
-description: 这些发行说明介绍了每个 Target Standard 和 Target Premium 版本的功能、增强功能、修复信息和已知问题。
-title: 'Adobe Target 发行说明（当前版本） '
+keywords: 发行说明；新增功能；发行；更新；更新；发行；增强；修复；错误修复；更新
+description: 当前版本包含哪些新增功能？
+title: 发行说明（当前版本）
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 44%
+source-wordcount: '694'
+ht-degree: 40%
 
 ---
 

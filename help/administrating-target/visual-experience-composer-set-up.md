@@ -1,20 +1,20 @@
 ---
-keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
+keywords: 可视体验书写器；vec；默认url；增强的体验书写器；eec；混合内容；体验快照；移动视口；css;css选择器
 description: 通过指定Adobe Target可视化体验书写器(VEC)的常规设置、移动视口配置和CSS选择器来配置它。
-title: 配置Adobe Target视觉体验书写器
+title: 配置可视体验书写器(Vec)
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 51%
+source-wordcount: '712'
+ht-degree: 50%
 
 ---
 
 
 # 配置可视体验书写器
 
-通过指定[!DNL Adobe Target] [!UICONTROL 可视体验书写器](VEC)的常规设置、移动视区配置和CSS选择器来配置&lt;a0/>。
+通过指定[!DNL Adobe Target] [!UICONTROL 可视体验书写器](VEC)的常规设置、移动视区配置和CSS选择器来配置。
 
 要访问[!UICONTROL Visual Experience Composer]配置页，请单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]。**
 

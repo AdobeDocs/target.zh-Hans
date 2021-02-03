@@ -1,13 +1,13 @@
 ---
-keywords: qa;preview;bookmarklet;preview links
+keywords: QA;预览;书签;预览链接
 description: 帮助您使用Adobe TargetQA书签强制目标从QA模式中释放您的信息。
-title: 活动Adobe TargetQA书签
+title: 活动 QA 书签
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 26%
+source-wordcount: '263'
+ht-degree: 28%
 
 ---
 

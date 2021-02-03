@@ -1,12 +1,12 @@
 ---
-keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
+keywords: 浏览器;先决条件;要求;Internet Explorer;Chrome;Firefox;Safari;Android;Surface
 description: 已在各种浏览器和设备上对 Adobe Target 应用程序和内容交付进行了测试。
 title: 支持的浏览器
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '309'
 ht-degree: 86%
 
 ---

@@ -1,12 +1,12 @@
 ---
-keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
+keywords: 用户档案脚本；用户档案脚本属性；用户档案脚本最佳实践；调试；调试；脚本；用户档案脚本；属性；属性；参数
 description: 配置文件属性是特定于访客的参数。这些属性存储在访客的配置文件中，提供了可在您的 Adobe Target 活动中使用的关于访客的信息。
-title: Adobe Target 中的配置文件属性
-feature: visitor profiles
+title: 配置文件属性
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2446'
+source-wordcount: '2460'
 ht-degree: 77%
 
 ---

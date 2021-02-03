@@ -1,12 +1,12 @@
 ---
-keywords: automated traffic allocation;targeting;auto-allocate;auto allocate
+keywords: 自动流量分配；定位；自动分配；自动分配
 description: Adobe Target的“自动分配”活动可以在两种或多种体验中确定获胜者，并自动将更多流量重新分配给获胜者，以在测试继续运行和学习的同时提高转化率。
-title: 与手动测试相比，“自动分配”功能可以提高测试结果和收入
+title: 与手动测试相比，自动分配可以更快地测试结果和更高的收入
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---

@@ -1,12 +1,12 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
+keywords: faq;常见问题解答;analytics for target;a4T;报表;报告;查看报表;查看报告;计数方法;展示次数;访客;访问次数;默认量度;活动转化;未指定
 description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时查看报表的常见问题解答。
-title: 查看报表 - A4T 常见问题解答
+title: 视图报告- A4T常见问题解答
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2368'
 ht-degree: 53%
 
 ---
@@ -95,22 +95,22 @@ ht-degree: 53%
 
 | 活动名称 | 实例（展示次数） | 页面查看次数 | 访问次数 | 独特访客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 3 |
+| XYZ | 3 | 10 | 2 | 1 |
 
 3 月 1 日，该用户又返回网站，查看了一个新活动 ABC。另外，该用户也查看了五个页面。由于活动 XYZ 仍通过持久性跟踪用户，并且此用户已有了 ABC 设置，因此我们会在报表中看到两行项目：
 
 | 活动名称 | 实例（展示次数） | 页面查看次数 | 访问次数 | 独特访客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 3 |
-| ABC | 3 | 5 | 3 | 3 |
+| XYZ | 3 | 15 | 3 | 1 |
+| ABC | 1 | 5 | 3 | 1 |
 
 之后，该用户在 4 月 1 日再次返回网站，查看了另外 5 个页面，并进行了一次购买。第一个 eVar 值的 90 天有效期已在 4 月 1 日重置，我们会在报表中看到这一点。该用户查看的所有 Target 活动都会收到转化点数，但在转化点数总和中，会将重复计算的点数删除：
 
 | 活动名称 | 实例（展示次数） | 页面查看次数 | 访问次数 | 独特访客 | 订单数 |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 3 |
-| ABC | 1 | 10 | 2 | 3 | 1 |
-| 合计 | 2 | 20 | 3 | 1 | 3 |
+| XYZ | 3 | 20 | 4 | 1 | 1 |
+| ABC | 1 | 10 | 2 | 3 | 3 |
+| 合计 | 2 | 20 | 3 | 1 | 1 |
 
 因为这两个体验都是在转化之前查看的，所以它们都获得了该订单的“点数”。但在系统中只产生了一个订单，所以点数的总计值反映了这一点。对于[!DNL Target]报告，由于您没有对另一个活动添加[!DNL Target]活动来查看哪个更成功，因此用户看到的所有活动都获得积分并不重要。 因为您比较的是一个活动中的两个项目所得到的结果，而用户不可能在同一活动中看到不同的体验，因此您不必顾虑订单点数会造成相互之间的混淆。
 

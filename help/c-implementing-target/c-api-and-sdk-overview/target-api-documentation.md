@@ -1,13 +1,13 @@
 ---
-keywords: api;adobe i/o
+keywords: API;Adobe I/O
 description: 帮助您使用从Adobe Target传统API到Adobe I/O新API的过渡的信息。
-title: 从 Target 旧版 API 迁移到 Adobe I/O
+title: 过渡从传统API到Adobe I/O
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 90%
+source-wordcount: '603'
+ht-degree: 89%
 
 ---
 

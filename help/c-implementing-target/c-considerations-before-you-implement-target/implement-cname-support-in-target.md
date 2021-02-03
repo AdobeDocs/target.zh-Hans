@@ -1,12 +1,12 @@
 ---
-keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
+keywords: 客户关怀；cname；证书项目；规范名称；cookies；证书；amc;adobe托管证书；digicert；域控制验证；dcv
 description: 有关与 Adobe 客户关怀一起在 Adobe Target 中实施 CNAME（规范名称）支持的信息。
-title: CNAME 和 Adobe Target
+title: CNAME
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1225'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 2%
 
 ### 新SSL证书到期的时间为多长？
 
-2020年9月1日之前颁发的证书为两年。 2020年9月1日或之后颁发的证书为一年期证书。 您可以在此处[阅读有关移动到一年证书的更多信息。](https://www.digicert.com/position-on-1-year-certificates)
+2020年9月1日之前颁发的证书为两年。 2020年9月1日或之后颁发的证书为一年期证书。 您可以在此处](https://www.digicert.com/position-on-1-year-certificates)阅读有关移动到一年证书的更多信息。[
 
 ### 我应选择哪些主机名？ 我应选择每个域的主机名数？
 
@@ -143,5 +143,5 @@ ITP问题可以通过仅使用Analytics CNAME解决目标。 您仅在广告阻�
 ## 已知限制
 
 * QA模式在您有CNAME和at.js 1.x时不会粘滞，因为它基于第三方cookie。 解决方法是将预览参数添加到您导航到的每个URL。 QA模式在您有CNAME和at.js 2.x时是粘滞的。
-* 当前，在使用at.js 1.8.2和at.js 2.3.1之前的at.js版本时，`overrideMboxEdgeServer`设置无法与CNAME一起正常使用。如果您使用的是at.js的旧版本，应将其设置为`false`以避免请求失败。 或者，您应考虑将at.js[更新为较新、受支持的版本。](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+* 当前，在使用at.js 1.8.2和at.js 2.3.1之前的at.js版本时，`overrideMboxEdgeServer`设置无法与CNAME一起正常使用。如果您使用的是at.js的旧版本，应将其设置为`false`以避免请求失败。 或者，您应考虑将at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)更新为较新、受支持的版本。[
 * 使用CNAME时，目标调用的cookie头大小更有可能增加。 我们建议将Cookie大小保持在8KB以下。

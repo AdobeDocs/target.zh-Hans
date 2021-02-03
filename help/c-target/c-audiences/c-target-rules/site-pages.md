@@ -1,13 +1,13 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+keywords: 站点页；目标站点页；定位；当前页；目标当前页；上一页；目标上一页；登陆页;目标登陆页;http头
 description: 您可以目标站点上特定页面的访客。
-title: Adobe Target受众的网页选项
-feature: audiences
+title: 受众中的站点页面选项
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 43%
+source-wordcount: '883'
+ht-degree: 42%
 
 ---
 

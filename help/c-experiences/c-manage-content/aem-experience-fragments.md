@@ -1,12 +1,12 @@
 ---
-keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
+keywords: experience;json;aem;adobe experience manager；导出到adobe目标;experience fragments;fragments;XF
 description: 如何在目标活动中使用AEM体验片段？
-title: Adobe Experience Manager(AEM)Adobe Target体验片段
+title: Adobe Experience Manager (AEM) 体验片段
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1112'
 ht-degree: 22%
 
 ---

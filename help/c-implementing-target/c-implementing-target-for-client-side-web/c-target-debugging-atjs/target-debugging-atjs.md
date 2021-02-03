@@ -1,13 +1,13 @@
 ---
-keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
+keywords: at.js;调试 at.js;adobe Experience Cloud 调试器;experience cloud 调试器;mbox 跟踪;mbox 高亮;调试
 description: 有关使用 Adobe Experience Cloud 调试器扩展的信息，该扩展可帮助您快速、轻松地了解您的 Target 实施。
-title: 使用 Adobe Experience Cloud 调试器调试 at.js
+title: 使用Adobe Experience Cloud调试器调试At.Js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 83%
+source-wordcount: '196'
+ht-degree: 81%
 
 ---
 

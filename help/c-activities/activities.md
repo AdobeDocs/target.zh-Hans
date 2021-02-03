@@ -1,13 +1,13 @@
 ---
-keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
+keywords: 活动列表;活动;活动;活动类型；编辑活动;活动操作；活动属性；活动列表过滤器；活动限制；个性化；个性化
 description: Adobe Target的活动允许您根据特定受众个性化内容并测试页面设计
-title: Adobe Target的活动允许您根据特定受众个性化内容并测试页面设计。
+title: 根据特定受众个性化内容并测试页面设计
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2092'
-ht-degree: 97%
+source-wordcount: '2105'
+ht-degree: 96%
 
 ---
 

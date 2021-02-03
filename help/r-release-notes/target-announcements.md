@@ -1,12 +1,12 @@
 ---
-keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
-description: 有关即将举办的事件的信息，包括Adobe TargetSkill Builder研习会、开发人员聊天、网络研讨会和目标咖啡休息会。
-title: 目标公告
+keywords: 公告；技能生成器；开发人员聊天；咖啡休息；事件;forrester;gartner；网络研讨会
+description: 在哪里可以找到即将举办的事件和网络研讨会？
+title: 公告与事件
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---

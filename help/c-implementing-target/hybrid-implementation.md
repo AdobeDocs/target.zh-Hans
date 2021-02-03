@@ -1,12 +1,12 @@
 ---
-keywords: hybrid deployment;hybrid;sever-side;serverside;server side;client-side;clientside;client side;hybrid implementation
+keywords: 混合部署；混合；服务器端；服务器端；客户端；客户端；客户端；混合实现
 description: Adobe Target优惠了用于个性化、混合客户端和服务器端实施的独特混合部署模型。
 title: 混合实现
-feature: hybrid implementation
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---

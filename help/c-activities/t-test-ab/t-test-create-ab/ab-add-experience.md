@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;experience;add experience;experience add
+keywords: 定位;体验;添加体验;体验添加
 description: Adobe Target的Adobe Target视觉体验书写器(VEC)为编辑页面上的体验提供了一个可视界面。
 title: 添加体验
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 81%
+source-wordcount: '467'
+ht-degree: 82%
 
 ---
 

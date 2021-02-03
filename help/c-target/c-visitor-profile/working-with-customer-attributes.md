@@ -1,12 +1,12 @@
 ---
-keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
+keywords: 客户关系管理；客户记录服务；crs;crm;mbox3rdpartyid；客户属性；定位；csv;crm;adobe experience cloud人员
 description: 有关通过在Adobe Target人员服务中使用客户属性从客户关系管理(CRM)数据库中使用企业客户数据进行内容定位的信息。
-title: Adobe Target客户属性
-feature: visitor profiles
+title: 客户属性
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: e347266dffd00e2a47e0f29f396e9340e581b1be
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1504'
 ht-degree: 37%
 
 ---

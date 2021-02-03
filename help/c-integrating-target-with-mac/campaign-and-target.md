@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: 概述和参考
 description: 可将 Target 与 Adobe Campaign 结合使用来优化电子邮件内容。
-title: 将 Target 与 Adobe Campaign 集成
+title: 将 与 Adobe Campaign 集成
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '377'
 ht-degree: 51%
 
 ---

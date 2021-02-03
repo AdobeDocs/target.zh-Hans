@@ -1,13 +1,13 @@
 ---
-keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
+keywords: 推荐；推荐活动；标准；算法；推荐键；自定义键；行业垂直；零售；eccommerce;lead generation;b2b；金融服务；媒体；发布
 description: Adobe Target的标准是根据一组预定的访客行为确定推荐哪些产品或内容的规则。
-title: Adobe TargetRecommendations标准
+title: 目标Recommendations
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 53%
+source-wordcount: '1079'
+ht-degree: 52%
 
 ---
 

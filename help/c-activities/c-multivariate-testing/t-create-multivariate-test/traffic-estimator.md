@@ -4,7 +4,7 @@ description: 由于多变量测试会对多个体验进行比较，因此非常�
 title: 估算成功测试所需的流量
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 93%

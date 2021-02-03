@@ -1,12 +1,12 @@
 ---
-keywords: custom design;velocity;decimal;comma;customize design
+keywords: 自定义设计;Velocity;小数;逗号;自定义设计
 description: 在Adobe TargetRecommendations，使用开放源码Velocity设计语言自定义推荐设计。
-title: 使用 Velocity 自定义设计
+title: 使用Velocity自定义设计
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1021'
 ht-degree: 61%
 
 ---

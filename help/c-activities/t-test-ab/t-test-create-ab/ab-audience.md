@@ -1,12 +1,12 @@
 ---
-keywords: audience;select audience;choose audience;Selectors
+keywords: 受众;选择受众;选取受众;选择器
 description: 该受众决定哪些站点访客输入到您的Adobe Target活动。
 title: 选择受众
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '434'
 ht-degree: 92%
 
 ---

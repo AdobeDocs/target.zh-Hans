@@ -1,12 +1,12 @@
 ---
-keywords: activity settings;goals and settings;multivariate;mvt
+keywords: 活动设置；目标和设置；multivariate;mvt
 description: 在Adobe Target的“目标和设置”页面输入有关测试目标的信息。
 title: 目标和设置
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1265'
 ht-degree: 92%
 
 ---

@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;webkit
+keywords: 概述和参考;WebKit
 description: Cookie 行为取决于它是第一方 Cookie、第三方和第一方 Cookie，还是仅仅为第三方 Cookie。
-title: mbox.js Cookie
-feature: null
+title: mbox.js cookie
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1642'
 ht-degree: 94%
 
 ---

@@ -1,12 +1,12 @@
 ---
-keywords: target documentation change log;documentation updates;new topics;edits;updates;update
-description: 本页列表了对Adobe Target文档所做的重要更改（按版本排序）。
-title: Adobe Target 产品文档中的文档更改。
+keywords: 目标文档更改日志；文档更新；新主题；编辑；更新；更新
+description: 对文档进行了哪些更改？
+title: 文档更改
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '3488'
+source-wordcount: '3487'
 ht-degree: 29%
 
 ---

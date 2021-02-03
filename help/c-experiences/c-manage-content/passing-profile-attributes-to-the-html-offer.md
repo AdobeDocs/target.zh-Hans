@@ -1,12 +1,12 @@
 ---
-keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
+keywords: 动态数据;资产;数据;选件;个性化选件;个人选件;令牌替换
 description: 如何直接在HTML或JSON用户档案中传递活动值和优惠信息？
 title: 将动态数据传递给选件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '502'
 ht-degree: 81%
 
 ---

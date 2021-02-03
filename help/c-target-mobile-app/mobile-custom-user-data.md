@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app send data;target mobile app;mobile custom user data;mobile app custom data
+keywords: 移动设备应用程序;移动设备应用程序发送数据;定位移动设备应用程序;移动设备自定义用户数据;移动设备应用程序自定义数据
 description: 您可以将有关位置或用户的其他信息以名称-值对的形式发送给 Target。
-title: iOS - 发送自定义用户数据
-feature: mobile implementation
+title: IOS —— 发送自定义用户数据
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '339'
+ht-degree: 98%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
-keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
+keywords: 重定向选件;创建重定向选件;添加 HTML 选件;在重定向中传递所有 URL 参数;在重定向中传递 mboxSessionId（仅当要重定向到其他域时才需使用此功能）
 description: 我是否可以使用重定向优惠来使浏览器重定向到新页面？
 title: 创建重定向选件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 47%
+source-wordcount: '1183'
+ht-degree: 49%
 
 ---
 

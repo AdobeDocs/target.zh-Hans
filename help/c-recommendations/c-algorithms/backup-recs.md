@@ -1,13 +1,13 @@
 ---
-keywords: recommendation;backup;back up
+keywords: 推荐;备用
 description: 如果您使用Adobe Target的备份推荐功能，则任何建议项目不足的建议将不显示默认内容。 “推荐”将改为显示备用算法的结果。
-title: 使用备用推荐 adobe targetRecommendations
+title: 在目标Recommendations中使用备份建议
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 83%
+source-wordcount: '526'
+ht-degree: 82%
 
 ---
 

@@ -1,12 +1,12 @@
 ---
-keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
+keywords: 变量;配置文件;参数;内置配置文件;方法;URL 变量;地域配置文件;第三方配置文件;mbox 变量;营销活动变量;客户属性
 description: 此页面列出了配置文件脚本中有用的配置文件、变量和参数。
 title: 配置文件和变量一览表
-feature: visitor profiles
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '582'
 ht-degree: 92%
 
 ---

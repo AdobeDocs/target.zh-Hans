@@ -1,13 +1,13 @@
 ---
-keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
+keywords: 实施;mbox.js 非 javascript;AdBox;重定向器;mbox
 description: 此信息介绍了如何在非 JavaScript 情景中实施 Target，例如使用 AdBox 或重定向器。
-title: 电子邮件：实施 Target
-feature: email implementation
+title: 电子邮件实施
+feature: Implement Email
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 82%
+source-wordcount: '429'
+ht-degree: 81%
 
 ---
 

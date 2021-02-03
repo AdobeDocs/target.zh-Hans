@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;target operating system;operating system;target os;os;target linux;linux;target windows;windows;target macintosh;macintosh;mac;target mac;win;target win
+keywords: 定位;定位操作系统;操作系统;定位 OS;OS;定位 Linux;Linux;定位 Windows;Windows;定位 Macintosh;Macintosh;Mac;定位 Mac;Win;定位 Win
 description: 您可以定位使用某种操作系统的访客。
-title: Adobe Target受众的操作系统选项
-feature: audiences
+title: 操作系统 受众选项
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 92%
+source-wordcount: '121'
+ht-degree: 97%
 
 ---
 

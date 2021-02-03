@@ -1,12 +1,12 @@
 ---
-keywords: at.js integration;supported integrations;unsupported integrations;third party integrations
+keywords: at.js 集成;受支持的集成;不受支持的集成;第三方集成
 description: 有关与 Target 的常见集成及其对 at.js 的支持状态的信息。
 title: at.js 集成
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '560'
 ht-degree: 91%
 
 ---

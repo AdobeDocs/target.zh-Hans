@@ -1,12 +1,12 @@
 ---
-keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes
+keywords: 环境数据;会话数据;地理数据;设备数据;移动设备数据;属性;配置文件属性
 description: Adob Target 可自动收集和使用各种数据，以在自动个性化 (AP) 和自动定位 (AT) 活动中构建其个性化算法。当一名访客进入到 AP 或 AT 活动，信息快照便会被传递到一组“训练记录”（个性化算法将要学习的访客数据）中。
-title: 为 Adobe Target 个性化算法收集数据
+title: 个性化算法的数据收集
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1767'
 ht-degree: 91%
 
 ---

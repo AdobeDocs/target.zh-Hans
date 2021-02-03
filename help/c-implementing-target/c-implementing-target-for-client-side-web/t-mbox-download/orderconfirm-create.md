@@ -1,12 +1,12 @@
 ---
-keywords: order confirmation;orderConfirmPage
+keywords: 订单确认;orderConfirmPage
 description: 订单确认 mbox 将记录您网站上订单的详细信息，并能够基于收入和订单生成报表。订单确认 mbox 还可驱动推荐算法，例如“购买了产品 x，也购买了产品 y 的人”。
 title: 创建订单确认 mbox - mbox.js
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '382'
 ht-degree: 69%
 
 ---

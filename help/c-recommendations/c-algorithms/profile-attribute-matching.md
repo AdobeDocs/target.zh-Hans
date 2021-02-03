@@ -1,12 +1,12 @@
 ---
-keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;profile attribute matching
+keywords: 包含规则；包含条件；推荐；促销；动态过滤；动态；用户档案属性匹配
 description: 在Adobe TargetRecommendations，通过比较项目（实体）与用户用户档案中的值来动态过滤。
-title: Adobe TargetRecommendations动态包含规则中用户档案属性匹配的过滤
+title: 用户档案推荐中动态包含规则的目标属性匹配过滤
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '485'
 ht-degree: 7%
 
 ---

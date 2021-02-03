@@ -1,12 +1,12 @@
 ---
-keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
+keywords: 受众;倾向;配置文件属性;比较;对比;创建受众
 description: 将受众定义为比较 Target 受众库或仅限该活动的受众的两个配置文件属性。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
-title: 在 Adobe Target 中创建配置文件属性比较受众 in Adobe Target
-feature: audiences
+title: 创建配置文件属性比较受众
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '436'
 ht-degree: 99%
 
 ---

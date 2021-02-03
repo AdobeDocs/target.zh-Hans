@@ -1,13 +1,13 @@
 ---
-keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
+keywords: A4T;Adobe Analytics;基于 Analytics 的活动;Analytics 报表包;报表包;Analytics 与 Target 集成;配置报表包
 description: 在实施 Adobe Analytics 作为 Target 报表源 (A4T) 时，需要执行几个步骤。
 title: Analytics for Target 实施
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 50%
+source-wordcount: '911'
+ht-degree: 51%
 
 ---
 

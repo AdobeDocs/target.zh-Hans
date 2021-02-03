@@ -1,12 +1,12 @@
 ---
-keywords: implement;implementing
+keywords: 实施
 description: 在实施 Adobe Target 之前应考虑的注意事项。
 title: 实施之前
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 362fbc25a41d73e05bcc0a4034963ee3f5fbd847
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '113'
 ht-degree: 90%
 
 ---

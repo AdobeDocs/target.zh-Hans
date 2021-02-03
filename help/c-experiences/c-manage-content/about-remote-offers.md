@@ -1,12 +1,12 @@
 ---
-keywords: remote offer;remote offer selection matrix;cached content;dynamic content;url type
+keywords: 远程优惠；远程优惠选择矩阵；缓存内容；动态内容；url类型
 description: 我是否可以使用远程优惠托管外部内容？
 title: 创建远程选件
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1059'
 ht-degree: 49%
 
 ---

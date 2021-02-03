@@ -1,12 +1,12 @@
 ---
-keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
+keywords: at.js FAQ;at.js 常见问题解答;FAQ;闪烁;加载器;页面加载器;跨域;文件大小;x-domain;at.js 和 mbox.js;仅限 x;Safari;单页应用程序;缺少选择器;选择器;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;IP 地址;httponly;HttpOnly;安全;IP;Cookie 域
 description: 对有关 Adobe Target at.js JavaScript 库的常见问题的解答。
-title: Adobe Target at.js 常见问题解答
+title: at.js 常见问题解答
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2652'
+source-wordcount: '2698'
 ht-degree: 94%
 
 ---

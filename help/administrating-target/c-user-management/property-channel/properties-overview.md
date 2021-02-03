@@ -1,12 +1,12 @@
 ---
-keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
+keywords: 添加用户;项目;用户组;属性;工作区;管理属性;属性;at_property;角色;权限
 description: 将用户加入您的Adobe Target实施；创建工作区、用户组和属性；更新您的目标实现以包含at_property参数；并指定角色和权限。
 title: 配置企业权限
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1482'
 ht-degree: 66%
 
 ---

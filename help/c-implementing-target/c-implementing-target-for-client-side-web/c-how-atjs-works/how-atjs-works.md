@@ -1,13 +1,13 @@
 ---
-keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
+keywords: 系统图；flicker;at.js;implementation;javascript库；js;atjs
 description: Adobe Target 系统图显示了使用 at.js 为自动创建的全局 mbox 发送或收集调用和信息的流程。
-title: Adobe Targetat.js JavaScript库的工作方式
+title: at.js Javascript库的工作方式
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 88%
+source-wordcount: '1113'
+ht-degree: 87%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 88%
 | --- | --- |
 | 1 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
 | 2 | 从缓存中读取视图的目标内容。 |
-| 1 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
+| 3 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
 | 4 | 通知请求将发送到 [!DNL Target] 配置文件存储区，以计算活动中的访客和递增量度。 |
 | 5 | Analytics 数据会发送到数据收集服务器。 |
 | 6 | Target 数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 A4T 报表查看 Analytics 数据。 |

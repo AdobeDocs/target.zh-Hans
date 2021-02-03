@@ -1,13 +1,13 @@
 ---
-keywords: Target;reports;report settings;multiple metrics;metrics;shown metrics;hidden metrics
+keywords: 目标；报告；报告设置；多个指标；指标；显示的指标；隐藏的指标
 description: 使用Adobe Target选择多个要视图的指标。
-title: 使用Adobe Target视图报告中的多个指标
+title: 在报表中查看多个量度
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 61%
+source-wordcount: '427'
+ht-degree: 62%
 
 ---
 

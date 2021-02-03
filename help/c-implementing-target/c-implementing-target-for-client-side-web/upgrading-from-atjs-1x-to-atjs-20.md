@@ -1,12 +1,12 @@
 ---
-keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
+keywords: at.js 发行版;at.js 版本;单页应用程序;SPA;跨域;跨域
 description: 有关如何从 Adobe Target at.js 1.*x* 升级到 at.js 版本 2.0.0 的详细信息
-title: 从 Adobe Target at.js 版本 1.*x* 升级到 at.js version 2。*x 不支持跨域跟踪*
+title: 从at.js 1.x版升级到2.x版
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2757'
 ht-degree: 92%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 92%
 
 | 调用 | 详细信息 |
 | --- | --- |
-| 1 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
+| 3 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
 | 2 | 从缓存中读取视图的目标内容。 |
 | 1 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
 | 4 | 通知请求将发送到 [!DNL Target] 配置文件存储区，以计算活动中的访客和递增量度。 |

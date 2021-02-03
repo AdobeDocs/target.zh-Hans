@@ -1,12 +1,12 @@
 ---
-keywords: experience preview;experience urls;generate urls;view experience urls
+keywords: 体验预览;体验 URL;生成 URL;查看体验 URL
 description: 可以为目标Automated Personalization活动生成体验预览URL，以便在活动为预览和QA目的而实时之前直接在您的站点上查看体验内容。 体验预览URL绕过定位，以强制查看特定体验。
-title: 预览Automated Personalization活动，具有体验预览URL
+title: 预览Automated Personalization活动(具有体验预览URL)
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '795'
 ht-degree: 64%
 
 ---

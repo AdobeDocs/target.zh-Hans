@@ -1,12 +1,12 @@
 ---
-keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
+keywords: adobe.target.getOffers;getOffers;getoffers;获取选件;at.js;函数;函数
 description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers(options) 函数的信息。
-title: adobe.target.getOffers(options) - at.js 2.x
+title: Adobe.目标.Getoffers（选项）- at.js 2.x
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1227'
 ht-degree: 92%
 
 ---

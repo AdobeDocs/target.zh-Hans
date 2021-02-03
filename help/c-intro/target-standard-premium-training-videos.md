@@ -1,13 +1,13 @@
 ---
-keywords: training videos;youtube;videos;video training;tutorial;tutorials;video
+keywords: 培训视频；youtube；视频；视频培训；教程；视频
 description: 观看培训视频可帮助您最有效地使用 Target Standard 和 Target Premium。
-title: Adobe Target Standard 和 Premium 的培训视频
+title: 培训视频
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 72%
+source-wordcount: '164'
+ht-degree: 67%
 
 ---
 

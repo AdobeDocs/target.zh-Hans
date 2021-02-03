@@ -1,13 +1,13 @@
 ---
-keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience;auto-allocate;auto allocate
+keywords: 自动分配；定位；入选；统计保证；置信；确定胜者；置信；默认；默认；自动分配；自动分配
 description: 通过检查重要指标，包括提升和信心，解释Adobe Target自动分配A/B活动的结果。
-title: 解释自动分配报告
+title: 解释自动分配报表
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 47%
+source-wordcount: '1130'
+ht-degree: 46%
 
 ---
 

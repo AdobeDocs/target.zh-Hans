@@ -1,13 +1,13 @@
 ---
 keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
 description: 本节介绍如何将Adobe Target移动应用活动信息发送到Adobe Analytics进行后点细分。
-title: 将Adobe Target活动信息发送到Adobe Analytics
-feature: mobile implementation
+title: 将活动信息发送到Adobe Analytics
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 31%
+source-wordcount: '373'
+ht-degree: 30%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;target library;library
+keywords: 定位;定位库;库
 description: 可基于预先构建的定位规则定位用户。
-title: 目标图书馆在Adobe Target受众
-feature: audiences
+title: 定位库 受众选项
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 96%
+source-wordcount: '185'
+ht-degree: 98%
 
 ---
 

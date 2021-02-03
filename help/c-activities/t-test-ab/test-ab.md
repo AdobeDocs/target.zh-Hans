@@ -1,12 +1,12 @@
 ---
-keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content;auto-target;auto-allocate
+keywords: AB;A/B;AB...n；比较体验；定位；比较内容；自动目标；自动分配
 description: 手动A/B测试活动会比较网站内容的两个或多个版本，以查看哪个版本在预先指定的测试期内能够最佳地提高转化率。
 title: A/B测试概述
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '765'
 ht-degree: 38%
 
 ---

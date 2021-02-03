@@ -1,13 +1,13 @@
 ---
-keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
+keywords: 报告；报告；体验云解决方案；时区；时区；货币；排除IP；收入估计提升；收入增加；细粒度优先级；细粒度
 description: 配置在Adobe Target报告中应用于整个目标帐户的常规设置。 您可以配置Adobe Experience Cloud解决方案以用于报告(目标或分析)、用于报告的时区和货币格式、要从报告中排除的IP地址，以及是否显示报告中收入的估计提升以及细粒度优先级。
-title: 在Adobe Target配置报告
+title: 配置报告
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 30%
+source-wordcount: '728'
+ht-degree: 29%
 
 ---
 

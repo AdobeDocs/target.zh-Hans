@@ -1,14 +1,14 @@
 ---
-keywords: recommendation key;recommendation logic;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
+keywords: 推荐键；推荐逻辑；当前类别；自定义属性；上次购买的商品；上次查看的商品；最近查看的商品；最常查看的类别；最近查看的商品；最近查看的商品；最后购买的商品；最近查看的商品；最近查看的商品；最近查看的商品；最喜爱的商品；最近查看的商品
 description: 基于密钥的Recommendations利用访客行为环境显示Adobe TargetRecommendations活动的相关结果。
 title: 使推荐基于推荐键
 feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2889'
-ht-degree: 69%
+source-wordcount: '2924'
+ht-degree: 68%
 
 ---
 

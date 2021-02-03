@@ -1,13 +1,13 @@
 ---
-keywords: template testing;template;same experience on similar pages;template test
+keywords: 模板测试;模板;相似页面上的相同体验
 description: 使用Adobe Target的页面模板为页面提供结构，或者如果页面包含类似元素，则测试结构相似的页面元素中的变体。
-title: 使用Adobe Target在类似页面上提供相同的体验
+title: 在相似页面上包含相同体验
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 45%
+source-wordcount: '615'
+ht-degree: 47%
 
 ---
 

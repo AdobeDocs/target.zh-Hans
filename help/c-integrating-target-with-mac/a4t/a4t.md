@@ -1,12 +1,12 @@
 ---
-keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
+keywords: A4T;Analytics;Analytics for Target;Analytics 报表源;Adobe Analytics 作为 Target 报表源
 description: Adobe“Analytics for Target”(A4T) 是一种跨解决方案的集成，通过该集成，您可以基于 Analytics 转化量度和受众区段来创建活动。该集成使您能够使用 Analytics 报表来检查结果。如果您使用 Analytics 作为活动的报表源，则该活动的所有报表和分段都将基于 Analytics 数据收集。
-title: 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)
+title: Adobe Analytics作为报告源(A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1314'
 ht-degree: 45%
 
 ---

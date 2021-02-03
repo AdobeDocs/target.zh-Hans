@@ -1,12 +1,12 @@
 ---
-keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device atlas;displaywidth;display width;display height;type of device;displayheight;phone;tablet;device model
+keywords: 定位;移动设备;Target 移动设备;DeviceAtlas;iPhone;iPhone 机型;Device Atlas;displaywidth;显示屏宽度;显示屏高度;设备类型;displayheight;手机;平板电脑;设备型号
 description: 在 Adobe Target 中创建受众以根据移动设备、设备类型、设备供应商、屏幕大小（按像素）等参数定位移动设备。
-title: Adobe Target受众的移动选项
-feature: audiences
+title: 受众中的移动选项
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '604'
 ht-degree: 98%
 
 ---

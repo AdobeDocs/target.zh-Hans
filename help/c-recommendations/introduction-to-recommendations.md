@@ -1,12 +1,12 @@
 ---
-keywords: Recommendations;intro;introduction;webinar;demo
+keywords: Recommendations；简介；网络研讨会；演示
 description: “Adobe Target Recommendations 简介”活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。“推荐”有助于将客户导向到他们可能还不知道的相关项目。
-title: Adobe Target 中的“Recommendations 简介”活动
+title: Recommendations活动简介
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2131'
 ht-degree: 96%
 
 ---

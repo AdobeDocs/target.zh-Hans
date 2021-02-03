@@ -1,13 +1,13 @@
 ---
-keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
+keywords: 单页应用程序实现；实现单页应用程序；spa;at.js 2.x;at.js；单页应用程序；单页应用程序；spa;SPA
 description: 有关使用 Adobe Target at.js 2.x 实施单页应用程序 (SPA) 的信息。
-title: Adobe Target 中的单页应用程序实施
+title: 单页应用程序实施
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2752'
-ht-degree: 74%
+source-wordcount: '2769'
+ht-degree: 73%
 
 ---
 
@@ -208,7 +208,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 | 步骤 | 详细信息 |
 | --- | --- |
-| 1 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
+| 3 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
 | 2 | 从缓存中读取视图的目标内容。 |
 | 3 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
 | 4 | 通知请求将发送到 [!DNL Target] 配置文件存储区，以计算活动中的访客和递增量度。 |
@@ -293,9 +293,9 @@ at.js 2.x API允许您以多种方式自定义[!DNL Target]实现，但在此过
 
 | 步骤 | 操作 | 详细信息 |
 | --- | --- | --- |
-| 1 | 调用 `visitor.resetState()` | 此API确保在加载新视图时为其重新生成SDID。 |
+| 3 | 调用 `visitor.resetState()` | 此API确保在加载新视图时为其重新生成SDID。 |
 | 2 | 通过调用`getOffers()` API更新缓存 | 如果此视图更改有可能使当前访客符合更多[!DNL Target]活动的条件，或使其不符合活动的条件，则这是可选步骤。 此时，您还可以选择向[!DNL Target]发送其他数据，以启用进一步的定位功能。 |
-| 3 | 调用 `triggerView()` | 如果已执行步骤2，则必须等待[!DNL Target]请求并应用优惠到缓存，然后执行此步骤。 每个视图只能执行此步骤一次。 |
+| 1 | 调用 `triggerView()` | 如果已执行步骤2，则必须等待[!DNL Target]请求并应用优惠到缓存，然后执行此步骤。 每个视图只能执行此步骤一次。 |
 | 4 | 调用 `triggerView()` | 如果您尚未执行步骤2，则您可以在完成步骤1后立即执行此步骤。 如果已执行步骤2和步骤3，则应跳过此步骤。 每个视图只能执行此步骤一次。 |
 | 5 | 调用[!DNL Analytics]页面视图信标 | 此信标将与步骤2、3和4关联的SDID发送到[!DNL Analytics]以进行数据拼接。 |
 | 6 | 呼叫其他`triggerView({"page": false})` | 这是SPA框架的可选步骤，它可能在不发生视图更改的情况下重新呈现页面上的特定组件。 在这种情况下，请务必调用此API，以确保在SPA框架重新呈现组件后重新应用[!DNL Target]体验。 您可以执行此步骤的次数，以确保SPA视图中的[!DNL Target]体验会持续。 |

@@ -1,13 +1,13 @@
 ---
-keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
+keywords: 时间范围;开始日期;结束日期;开始/结束日期;定位时间计划;星期分开;日期分开;分开
 description: 您可以添加开始/结束日期和时间来定位在特定期限内访问您网站的用户。您也可以设置“将星期与日期分开”选项来为受众定位创建循环模式。
-title: Adobe Target受众的时间帧选项
-feature: audiences
+title: 时间帧选项(受众)
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 96%
+source-wordcount: '425'
+ht-degree: 97%
 
 ---
 

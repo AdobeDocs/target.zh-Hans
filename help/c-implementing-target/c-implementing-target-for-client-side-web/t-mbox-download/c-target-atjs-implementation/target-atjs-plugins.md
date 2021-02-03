@@ -1,13 +1,13 @@
 ---
-keywords: at.js plugins;supported plugins;unsupported plugins;ttMeta;ttmeta;mboxTrack
+keywords: at.js 插件;受支持的插件;不受支持的插件;ttMeta;ttmeta;mboxTrack
 description: 有关 Adobe Target 支持和不支持的 at.js 插件的信息。
-title: 适用于 Adobe Target 的 at.js 插件
+title: at.js插件
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 97%
+source-wordcount: '215'
+ht-degree: 96%
 
 ---
 

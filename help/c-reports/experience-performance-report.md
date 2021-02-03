@@ -1,12 +1,12 @@
 ---
-keywords: multivariate test;mvt;experience performance report
+keywords: 多变量测试;MVT;体验性能报表
 description: 体验性能报表显示活动中每个体验的执行情况。此报表包含有关参加者人数、转化率、提升度和置信度的信息。
 title: 体验性能报表 (MVT)
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '331'
 ht-degree: 99%
 
 ---

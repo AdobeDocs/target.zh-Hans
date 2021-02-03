@@ -1,12 +1,12 @@
 ---
-keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time email
+keywords: 电子邮件;ESP;电子邮件服务提供商;rawbox;交付 API;仅限下载模板;电子邮件模板;批量处理;构建时电子邮件
 description: 此信息介绍了将电子邮件与“推荐”集成的方法。
-title: 将“推荐”与电子邮件集成
+title: 将Recommendations与电子邮件集成
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1475'
 ht-degree: 89%
 
 ---

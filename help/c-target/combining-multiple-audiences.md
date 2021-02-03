@@ -1,12 +1,12 @@
 ---
-keywords: audience;audience rules;combine audiences;exclusion;add exclusion;exclude;combining audiences;adhoc audience;ad hoc audience
+keywords: 受众;受众规则;合并受众;排除项;添加排除项;排除;临时受众
 description: 可随手合并多个受众（包括 Adobe Experience Cloud 受众和 Target 受众）以创建临时受众。您也可以创建排除规则，从某个规则中排除相应受众。
-title: 在 Adobe Target 中合并多个受众
-feature: audiences
+title: 合并多个受众
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '907'
 ht-degree: 99%
 
 ---

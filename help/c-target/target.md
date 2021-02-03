@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;audiences;percentage target
+keywords: 定位;受众;百分比定位
 description: 可在 Adobe Target 中通过使用受众将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。
-title: Adobe Target 中的受众
-feature: audiences
+title: 受众
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '355'
 ht-degree: 99%
 
 ---

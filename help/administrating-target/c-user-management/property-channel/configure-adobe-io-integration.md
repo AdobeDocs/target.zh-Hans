@@ -1,13 +1,13 @@
 ---
-keywords: integration;roles;user permissions;admin console
+keywords: 集成;角色;用户权限;Admin Console
 description: 授予现有Adobe I/O集成功能访问Adobe Target所有具有所需角色的工作区
-title: 在 Adobe Target 中授予 Adobe I/O 集成访问工作区的权限并分配角色
+title: 授予Adobe I/O集成对工作区的访问权限并分配角色
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 85%
+source-wordcount: '616'
+ht-degree: 83%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
-keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
+keywords: 选件;内容;创建文件夹;资产;移动文件夹;复制文件夹;删除文件夹;下载文件夹;文件夹
 description: 如何在优惠库中创建文件夹？
 title: 创建选件文件夹
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 21%
+source-wordcount: '258'
+ht-degree: 25%
 
 ---
 

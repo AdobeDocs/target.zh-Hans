@@ -1,13 +1,13 @@
 ---
-keywords: Goal & Settings;objective;priority;duration
+keywords: 目标和设置；目标；优先级；持续时间
 description: 使用Adobe Target的活动设置管理活动的目标、优先级和持续时间。
 title: 活动设置
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 83%
+source-wordcount: '409'
+ht-degree: 82%
 
 ---
 

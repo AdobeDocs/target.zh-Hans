@@ -4,7 +4,7 @@ description: 我是否可以将A4T与自动目标和自动分配活动一起使�
 title: 自动分配和自动目标活动的A4T支持
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 2%

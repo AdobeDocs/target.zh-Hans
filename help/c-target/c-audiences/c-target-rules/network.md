@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
+keywords: 定位;网络;定位网络;ISP;域名;连接速度;定位 ISP;定位域名;定位连接速度
 description: 您可以在 Adobe Target 中基于网络详细信息创建受众。
-title: Adobe Target受众的网络选项
-feature: audiences
+title: 受众中的网络选项
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '497'
 ht-degree: 98%
 
 ---

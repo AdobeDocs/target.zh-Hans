@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
+keywords: 定位;定位类别;定位条件;Audience Manager;自定义配置文件参数;访客配置文件;自定义用户参数;定位规则
 description: 您可以对任意类别进行定位。每种类别均以选项卡的方式工作，让您能够为每种类别创建定位规则（或组）。
 title: 受众类别
-feature: audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '386'
 ht-degree: 98%
 
 ---

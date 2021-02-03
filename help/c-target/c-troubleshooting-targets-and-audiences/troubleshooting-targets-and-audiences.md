@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
+keywords: 故障诊断;常见问题解答;FAQ;定位;受众
 description: 有关体验定位和受众的常见问题解答 (FAQ) 列表。
-title: 定位和受众常见问题解答
-feature: audiences
+title: 目标和受众常见问题解答
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 69%
+source-wordcount: '942'
+ht-degree: 68%
 
 ---
 

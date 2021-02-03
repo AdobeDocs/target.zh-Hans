@@ -1,12 +1,12 @@
 ---
-keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
+keywords: 收入提升;收入;预计收入提升;计算提升;预计值
 description: 使用Adobe Target估计所有用户视图入选体验后可获得的收入提升。
-title: 预计收入提升
+title: 估计收入提升
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '517'
 ht-degree: 90%
 
 ---

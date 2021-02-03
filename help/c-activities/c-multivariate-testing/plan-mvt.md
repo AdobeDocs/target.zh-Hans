@@ -1,12 +1,12 @@
 ---
-keywords: multivariate test;mvt;mvt plan;multivariate test plan
+keywords: 多变量测试;MVT;MVT 规划;多变量测试规则
 description: Adobe Target 中的多变量测试需要先进行一些规划，然后才能创建成功的测试。
-title: 在 Adobe Target 中规划多变量测试
+title: 规划多变量测试
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '293'
 ht-degree: 99%
 
 ---

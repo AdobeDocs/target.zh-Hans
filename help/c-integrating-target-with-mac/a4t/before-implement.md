@@ -1,12 +1,12 @@
 ---
-keywords: Recommendations
+keywords: 推荐
 description: 启用 Analytics 作为 Target 报表源 (A4T) 时，数据收集流程会发生一些更改。
-title: 在将Adobe Analytics作为Adobe Target(A4T)的报告源之前
+title: 在将Analytics作为报告源(A4T)实施之前
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '898'
 ht-degree: 52%
 
 ---

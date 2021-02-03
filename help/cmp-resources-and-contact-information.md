@@ -1,12 +1,12 @@
 ---
-keywords: contact;legal;technical support;tech support;support;service;capability;billing;feedback
+keywords: 联系方式;法律;技术支持;支持;服务;职能;账单;反馈
 description: 此信息介绍了可帮助您了解 Target 功能以及在需要 Target 帮助时如何联系 Adobe 的其他资源。
 title: 资源和联系信息
-feature: Recommendations
+feature: Release Notes,Overview
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1223'
 ht-degree: 79%
 
 ---

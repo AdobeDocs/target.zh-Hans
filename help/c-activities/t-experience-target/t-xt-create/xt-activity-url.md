@@ -1,13 +1,13 @@
 ---
-keywords: Experience Targeting;xt;activity url;url
+keywords: 体验定位；xt;活动url;url
 description: 活动URL确定在“Adobe Target体验定位”活动中使用的页面，该页面在设计活动时在可视体验书写器(VEC)或基于表单的体验书写器中打开。
 title: 活动 URL
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 66%
+source-wordcount: '286'
+ht-degree: 65%
 
 ---
 

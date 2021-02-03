@@ -1,12 +1,12 @@
 ---
-keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
+keywords: 服务器端；服务器端；api;sdk;node.js;nodejs;nodejs;recommendations api;api:api
 description: 有关Adobe Target服务器端投放API、SDK和目标RecommendationsAPI的信息。
-title: 有关Adobe Target服务器端投放API、Node.js SDK和目标RecommendationsAPI的信息。
+title: 有关服务器端投放API、Node.js SDK和RecommendationsAPI的信息
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '396'
 ht-degree: 20%
 
 ---

@@ -1,13 +1,13 @@
 ---
-keywords: visitor profile;target visitor profile
+keywords: 访客配置文件;Target 访客配置文件
 description: 在 Adobe Target 中创建受众以定位满足特定配置文件参数的访客。
-title: 访客用户档案选项在Adobe Target受众
-feature: audiences
+title: 访客用户档案选项(在受众中)
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 94%
+source-wordcount: '225'
+ht-degree: 95%
 
 ---
 

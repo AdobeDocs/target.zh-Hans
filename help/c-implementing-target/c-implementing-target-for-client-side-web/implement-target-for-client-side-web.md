@@ -1,13 +1,13 @@
 ---
-keywords: implement;implementation;at.js;adobe experience platform web sdk;aep web sdk
+keywords: 实施；实施；atjs;adobe experience platform web sdk;aep web sdk
 description: 有关使用at.js为客户端Web实施Adobe Target的信息。
-title: 为客户端 Web 实施 Adobe Target
+title: 为客户端Web实施Adobe Target
 feature: at.js
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 20%
+source-wordcount: '341'
+ht-degree: 18%
 
 ---
 

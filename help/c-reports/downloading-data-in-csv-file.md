@@ -1,12 +1,12 @@
 ---
-keywords: reports;download reports;csv;success metrics;order details
+keywords: 报表;下载报表;CSV;成功量度;订单详细信息
 description: 以。csv格式下载数据，以便使用Adobe Target快速导入到Excel、Access或其他分析项目。
-title: 使用Adobe Target下载CSV文件中的数据
+title: 在CSV文件中下载数据
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '678'
 ht-degree: 83%
 
 ---

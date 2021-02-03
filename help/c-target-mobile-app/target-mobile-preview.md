@@ -1,13 +1,13 @@
 ---
-keywords: qa;preview;preview link;mobile;mobile preview
+keywords: QA;预览;预览链接;移动设备;移动设备预览
 description: 使用移动预览链接可对移动设备应用程序活动轻松执行端到端 QA，并且无需任何特殊的测试设备即可在您的设备上感受到不同的体验。
-title: 在 Adobe Target 移动设备中使用移动预览链接
-feature: mobile implementation
+title: 在目标移动中使用移动预览链接
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 94%
+source-wordcount: '589'
+ht-degree: 92%
 
 ---
 

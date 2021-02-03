@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
+keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;自动化区段;常见问题解答
 description: 有关“自动细分”报告的信息，这是Automated Personalization(AP)活动和Adobe Target自动目标(AT)用户可使用的两种专门报告之一。
-title: 自动化区段报表
+title: 自动细分报告
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2125'
 ht-degree: 92%
 
 ---

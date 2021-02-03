@@ -1,12 +1,12 @@
 ---
-keywords: mobile app;frequently asked questions;faq;target mobile app
+keywords: 移动应用程序；常见问题解答；常见问题；目标移动应用程序
 description: 关于Adobe Target移动应用程序的常见问题。
-title: 关于Adobe Target移动应用程序的常见问题
-feature: mobile implementation
+title: 关于移动应用程序目标的常见问题
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---

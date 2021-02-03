@@ -1,13 +1,13 @@
 ---
-keywords: automated personalization;offer;reporting;group;reporting group
+keywords: 自动个性化；优惠;报告；组；报告组
 description: 有关在Adobe TargetAutomated Personalization(AP)活动中使用报告组的信息。
-title: 优惠报告群Automated Personalization（美联社）Adobe Target活动
+title: 优惠报告集团在Automated Personalization（美联社）活动
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 64%
+source-wordcount: '433'
+ht-degree: 63%
 
 ---
 

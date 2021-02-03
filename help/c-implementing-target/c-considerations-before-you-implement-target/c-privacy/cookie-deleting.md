@@ -1,12 +1,12 @@
 ---
-keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
+keywords: cookie;cookies；删除cookie；删除目标cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
 description: 可删除 Target 浏览器 Cookie，以便您能够对所有体验进行验证。
-title: 删除Adobe Targetcookie
+title: 删除 Target Cookie
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '424'
 ht-degree: 9%
 
 ---

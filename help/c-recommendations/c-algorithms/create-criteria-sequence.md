@@ -1,13 +1,13 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
+keywords: 标准序列；多标准；算法；标准；推荐标准；序列；返回的项目数限制；插槽级别控制；插槽
 description: 使用最多五个标准的序列对您的Adobe TargetRecommendations活动中显示的项目进行更大控制。
-title: 创建标准序列
+title: 创建条件序列
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 35%
+source-wordcount: '826'
+ht-degree: 34%
 
 ---
 

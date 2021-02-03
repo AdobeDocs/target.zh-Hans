@@ -1,12 +1,12 @@
 ---
-keywords: welcome kit;target welcome kit;intro;introduction;getting started
+keywords: 欢迎套件；目标欢迎套件；介绍；入门
 description: Adobe Target欢迎工具——第6章——易于避免的陷阱
-title: Adobe Target欢迎工具——第6章——易于避免的陷阱
+title: 欢迎工具包——第6章——易于避免的陷阱
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---

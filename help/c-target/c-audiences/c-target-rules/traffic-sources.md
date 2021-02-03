@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
+keywords: 定位;流量源;定位流量源;定位搜索引擎;搜索引擎;登陆页面;定位登陆页面;引荐登陆页面
 description: 在 Adobe Target 中创建受众以根据将访客引荐至您网站的搜索引擎或登陆页面来定位访客。
-title: Adobe Target受众流量源选项
-feature: audiences
+title: 受众中的流量源选项
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 96%
+source-wordcount: '252'
+ht-degree: 97%
 
 ---
 

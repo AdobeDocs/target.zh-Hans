@@ -1,13 +1,13 @@
 ---
-keywords: mboxDefine;mboxdefine;mbox define;mboxUpdate;mboxupdate;mbox update;at.js;functions;function
+keywords: mboxDefine;mboxdefine;mbox 定义;mboxUpdate;mboxupdate;mbox 更新;at.js;函数;函数
 description: 有关 Adobe Target at.js JavaScript 库的 mboxDefine() 和 mboxUpdate() 函数的信息。
-title: mboxDefine() 和 mboxUpdate() - at.js 1.x
+title: Mboxdefine()和Mboxupdate()- at.js 1.x
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '186'
+ht-degree: 97%
 
 ---
 

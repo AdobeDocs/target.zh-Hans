@@ -1,13 +1,13 @@
 ---
-keywords: troubleshoot target;troubleshooting target;users;user management
+keywords: Target 故障诊断;诊断 Target 故障;用户;用户管理
 description: 有关在 Adobe Target 中管理用户的故障诊断信息。
-title: 对Adobe Target的用户管理进行疑难解答
+title: 用户管理疑难解答
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 25%
+source-wordcount: '79'
+ht-degree: 32%
 
 ---
 

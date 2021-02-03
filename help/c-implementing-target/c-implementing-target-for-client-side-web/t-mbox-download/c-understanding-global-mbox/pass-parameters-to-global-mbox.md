@@ -1,12 +1,12 @@
 ---
-keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
+keywords: 全局 mbox 参数;targetPageParams;查询字符串;数组;JSON;DTM;动态标签管理
 description: 可使用 JavaScript targetPageParams 函数将参数传递到全局 mbox。在要向Adobe Target传递更多定位／上下文信息的任何情况下，都需要这样做。
-title: 将参数传递到全局 mbox
+title: 将参数传递到全局mbox
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '393'
 ht-degree: 65%
 
 ---

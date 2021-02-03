@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: 概述和参考
 description: 访客配置文件包含有关访客如何使用您的页面和其他已优化内容位置的信息
 title: 访客配置文件
-feature: visitor profiles
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 100%
 
 ---

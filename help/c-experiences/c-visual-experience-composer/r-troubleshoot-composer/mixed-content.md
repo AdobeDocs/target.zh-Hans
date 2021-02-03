@@ -1,12 +1,12 @@
 ---
-keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
+keywords: 混合内容；安全；不安全；chrome；疑难解答；vec；可视体验书写器；不安全；http;https;firefox;internet explorer
 description: 如果安全内容与不安全内容混合在一起，某些浏览器可能会阻止页面显示。
 title: 在浏览器中启用混合内容
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '574'
 ht-degree: 35%
 
 ---

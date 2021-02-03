@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;audience;reporting;success metric
+keywords: 定位;受众;报表;成功量度
 description: 可在 Adobe Target 中选择一个能够让用户符合报表受众条件的成功量度。
-title: 在 Adobe Target 中将报表受众应用于成功量度
-feature: success metrics
+title: 将报告受众应用于成功量度
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 97%
 
 ---
 

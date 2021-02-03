@@ -1,13 +1,13 @@
 ---
-keywords: offer;prefetch;iOS;android;sdk;mobile;mobile sdk
+keywords: 优惠；预取；iOS;android;sdk;mobile;mobile sdk
 description: Adobe Target 预取功能使用 iOS 和 Android Mobile SDK 获取选件内容，并通过缓存服务器响应来尽量减少获取次数。
 title: 预取选件内容
-feature: mobile implementation
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 63%
+source-wordcount: '241'
+ht-degree: 60%
 
 ---
 

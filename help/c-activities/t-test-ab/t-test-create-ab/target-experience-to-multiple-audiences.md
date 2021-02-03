@@ -1,12 +1,12 @@
 ---
-keywords: multiple audiences;experience versions;target experience versions
+keywords: 多个受众;体验版本;定位体验版本
 description: 您可以将相同体验的版本目标到Adobe TargetA/B活动中的不同受众。 在可视化体验编辑器或基于表单的体验编辑器中，您可以为一个体验设置多个受众。
 title: A/B 测试中的多个体验版本
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '614'
 ht-degree: 94%
 
 ---

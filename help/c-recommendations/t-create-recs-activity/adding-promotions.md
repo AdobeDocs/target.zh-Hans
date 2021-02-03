@@ -1,13 +1,13 @@
 ---
-keywords: promotions;front promotions;back promotions;promotions type;list of items;promote by attribute;promote a collection
+keywords: 促销；前面促销；后面促销；促销类型；项目列表；按属性提升；提升集合
 description: 可添加促销项目并控制它们在 Adobe Target“推荐”设计中的放置位置。您可以添加静态和动态促销活动。
-title: 在 Adobe Target“推荐”设计中添加促销活动。
+title: 在目标Recommendations设计中添加促销
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 60%
+source-wordcount: '694'
+ht-degree: 58%
 
 ---
 

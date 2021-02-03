@@ -1,13 +1,13 @@
 ---
-keywords: Automated Personalization;ap;preview;exclude experience;
+keywords: Automated Personalization;ap;预览；排除经验；
 description: 由于自动个性化 (AP) 活动会对页面上的多个选件进行比较，因此预览每个体验中的页面将会很有帮助。
-title: 在 Adobe Target 可视化体验编辑器中预览自动个性化 (AP) 活动的体验
-feature: ap
+title: 预览Automated Personalization在可视体验书写器(VEC)中的体验
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 61%
+source-wordcount: '260'
+ht-degree: 55%
 
 ---
 

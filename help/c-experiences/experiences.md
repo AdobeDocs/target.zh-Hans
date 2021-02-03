@@ -1,13 +1,13 @@
 ---
-keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;experience composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frame options;cross origin;cross origin issues;authentication workflow
+keywords: 体验；可视体验书写器；增强的体验书写器；基于表单的体验书写器；表单书写器；可视书写器；体验书写器；混合内容；iframe;iframe;iframe busting;bust iframe;x帧选项；x帧选项；x帧来源；交叉来源问题；身份验证工作流
 description: Adobe Target的体验决定当访客符合活动的受众条件时显示哪些内容。
-title: 体验和选件
+title: 体验和优惠
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 89%
+source-wordcount: '376'
+ht-degree: 80%
 
 ---
 

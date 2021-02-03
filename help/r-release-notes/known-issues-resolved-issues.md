@@ -1,12 +1,12 @@
 ---
-keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: 有关此 Adobe Target 版本的已知问题的信息。此外，还包括有关已解决问题的信息。
-title: Adobe Target 中的已知问题和已解决的问题
-feature: known issues
+keywords: 已知问题；已解决问题；发行说明；错误；问题；修复
+description: 在哪里可以找到已知问题和已解决的问题？
+title: 已知问题和已解决的问题
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '4359'
+source-wordcount: '4355'
 ht-degree: 69%
 
 ---

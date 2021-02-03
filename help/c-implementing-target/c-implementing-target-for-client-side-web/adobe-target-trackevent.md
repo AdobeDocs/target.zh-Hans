@@ -1,13 +1,13 @@
 ---
-keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
+keywords: adobe.target.trackEvent;trackEvent;trackevent;跟踪事件;at.js;函数;函数;preventDefault;preventdefault;阻止默认值
 description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.trackEvent(options) 函数的信息。
-title: adobe.target.trackEvent(options)
+title: Adobe.Target.Trackevent(Options)
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 78%
+source-wordcount: '310'
+ht-degree: 79%
 
 ---
 

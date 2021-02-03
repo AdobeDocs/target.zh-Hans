@@ -1,13 +1,13 @@
 ---
-keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
+keywords: 推荐源；源；SAINT;ftp;csv；分类；分析分类
 description: 使用源将实体导入Adobe TargetRecommendations。 可以使用 CSV 文件、Google Product Search 信息源格式和/或 Adobe Analytics 产品分类来发送实体。
-title: Adobe TargetRecommendations
+title: 目标Recommendations
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2518'
-ht-degree: 85%
+source-wordcount: '2526'
+ht-degree: 84%
 
 ---
 

@@ -1,12 +1,12 @@
 ---
-keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
+keywords: 调试 mbox;mbox 故障诊断;mbox 问题;闪烁;mboxDebug;mboxTrace;令牌;调试器;优先级;活动优先级;Adobe Experience Cloud 调试器;orderConfirmPage mbox;SiteCatalyst 购买 mbox;最畅销;最畅销商品
 description: 如果您的页面不显示预期内容，您可以执行一些步骤来调试Adobe Target的内容投放。
-title: 对Adobe Target的内容投放进行疑难解答
+title: 内容疑难解答投放
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1410'
 ht-degree: 60%
 
 ---

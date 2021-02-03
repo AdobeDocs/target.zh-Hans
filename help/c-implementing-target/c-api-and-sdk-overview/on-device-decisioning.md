@@ -1,12 +1,12 @@
 ---
-keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
-description: '设备上决策功能可以在服务器上缓存您的Adobe TargetA/B和体验定位(XT)活动，并在接近零的延迟下执行内存中决策，而不会阻止到Adobe Target边缘网络的网络请求。 '
+keywords: 服务器端；服务器端；sdk;sdk;sdks；设备上；决策；设备上；设备上；设备上；设备上；零延迟；延迟；接近零；node.js
+description: 设备上决策功能可以在服务器上缓存您的Adobe TargetA/B和体验定位(XT)活动，并在接近零的延迟下执行内存中决策，而不会阻止到Adobe Target边缘网络的网络请求。
 title: 设备上决策
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---

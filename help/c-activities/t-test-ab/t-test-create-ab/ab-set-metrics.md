@@ -1,13 +1,13 @@
 ---
-keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
+keywords: A/B;活动量度;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
 description: 在Adobe TargetA/B活动中使用指标确定访问成功的时间。
 title: 设置量度
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 85%
+source-wordcount: '330'
+ht-degree: 86%
 
 ---
 

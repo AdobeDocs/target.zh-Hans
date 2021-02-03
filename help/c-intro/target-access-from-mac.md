@@ -1,13 +1,13 @@
 ---
-keywords: Experience Cloud;sign in;language;default ui language;default language
-description: 有关从 Adobe Experience Cloud 访问 Adobe Target 的说明。
-title: 从 Adobe Experience Cloud 访问 Target
+keywords: Experience Cloud；登录；语言；默认ui语言；默认语言
+description: 如何从Adobe Experience Cloud访问目标?
+title: 从Adobe Experience Cloud访问目标
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 76%
+source-wordcount: '402'
+ht-degree: 69%
 
 ---
 

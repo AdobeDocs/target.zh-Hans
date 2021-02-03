@@ -1,12 +1,12 @@
 ---
-keywords: Click tracking;track clicks;clicks;AppMeasurement
+keywords: 点击跟踪;跟踪点击次数;点击次数;AppMeasurement
 description: Adobe Target允许您将任何元素的点击量作为成功量度进行跟踪。
 title: 点击跟踪
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '881'
 ht-degree: 92%
 
 ---

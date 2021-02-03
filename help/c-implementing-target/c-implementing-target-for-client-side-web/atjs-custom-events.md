@@ -1,12 +1,12 @@
 ---
-keywords: custom events;at.js;request failed;request succeeded;content rendering failed;content rendering succeeded;library loaded;request start;content rendering start;content rendering no offers;content rendering rediret
+keywords: 自定义事件;at.js;请求失败;请求成功;内容渲染失败;内容渲染成功;库已加载;请求开始;内容渲染开始;内容渲染无选件;内容渲染重定向
 description: 有关 Adobe Target at.js JavaScript 库自定义事件的信息。
-title: at.js 自定义事件
+title: at.js自定义事件
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '604'
 ht-degree: 96%
 
 ---

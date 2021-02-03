@@ -1,13 +1,13 @@
 ---
-keywords: visual experience composer;vec;wysiwyg
+keywords: 视觉体验书写器；vec;wysiwyy
 description: 有关在 Adobe Target 中使用可视化体验编辑器 (VEC) 的信息。
-title: Adobe Target 可视化体验编辑器 (VEC)
+title: 可视化体验编辑器 (VEC)
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 95%
+source-wordcount: '1381'
+ht-degree: 94%
 
 ---
 

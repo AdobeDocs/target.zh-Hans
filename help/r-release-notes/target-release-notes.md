@@ -1,12 +1,12 @@
 ---
-keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates;prerelease
-description: 发行说明，提供有关最新或即将发布的DNLAdobe Target版本的功能、增强和修复的信息。
-title: Adobe Target预发行说明
+keywords: 发行说明；发行；更新；未来发行；增强；新增功能；修复；更新；预发行
+description: 即将发布的版本包含哪些功能？
+title: 预发行说明
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '493'
 ht-degree: 27%
 
 ---

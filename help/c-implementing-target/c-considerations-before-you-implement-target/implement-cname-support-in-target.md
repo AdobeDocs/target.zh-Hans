@@ -1,13 +1,14 @@
 ---
 keywords: 客户关怀；cname；证书项目；规范名称；cookies；证书；amc;adobe托管证书；digicert；域控制验证；dcv
-description: 有关与 Adobe 客户关怀一起在 Adobe Target 中实施 CNAME（规范名称）支持的信息。
-title: CNAME
+description: 与Adobe客户服务中心合作，在Adobe Target实施CNAME（规范名称）支持，以处理广告阻塞问题或与ITP相关的cookie策略。
+title: 如何在目标中使用CNAME?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 2%
+source-wordcount: '1237'
+ht-degree: 0%
 
 ---
 

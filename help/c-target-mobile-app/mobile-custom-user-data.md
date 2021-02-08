@@ -1,13 +1,14 @@
 ---
 keywords: 移动设备应用程序;移动设备应用程序发送数据;定位移动设备应用程序;移动设备自定义用户数据;移动设备应用程序自定义数据
-description: 您可以将有关位置或用户的其他信息以名称-值对的形式发送给 Target。
-title: IOS —— 发送自定义用户数据
+description: 了解如何将有关位置或用户的其他信息作为名称——值对发送到Adobe Target，以帮助您构建自定义受众。
+title: 如何在iOS应用程序中发送自定义用户数据？
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 98%
+source-wordcount: '353'
+ht-degree: 90%
 
 ---
 

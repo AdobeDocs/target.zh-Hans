@@ -1,13 +1,13 @@
 ---
 keywords: experience;json;aem;adobe experience manager；导出到adobe目标;experience fragments;fragments;XF
-description: 如何在目标活动中使用AEM体验片段？
-title: Adobe Experience Manager (AEM) 体验片段
+description: 了解如何在Adobe Target活动中使用AEM体验片段。 将AEM的易用性和强大功能与强大的目标AI和ML功能结合在一起。
+title: 如何使用Adobe Experience Manager(AEM)体验片段？
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 22%
+source-wordcount: '1132'
+ht-degree: 21%
 
 ---
 

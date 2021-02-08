@@ -1,13 +1,14 @@
 ---
 keywords: 收入提升;收入;预计收入提升;计算提升;预计值
-description: 使用Adobe Target估计所有用户视图入选体验后可获得的收入提升。
-title: 估计收入提升
+description: 如果趋势在测试中继续，则估计每位访客都能看到入选体验时可能获得的提升。
+title: 我估计收入会增加多少？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 90%
+source-wordcount: '525'
+ht-degree: 88%
 
 ---
 

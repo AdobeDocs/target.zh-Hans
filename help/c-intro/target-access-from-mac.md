@@ -1,13 +1,13 @@
 ---
 keywords: Experience Cloud；登录；语言；默认ui语言；默认语言
-description: 如何从Adobe Experience Cloud访问目标?
-title: 从Adobe Experience Cloud访问目标
+description: 了解如何从Adobe Experience Cloud访问目标、设置默认视图以及更改目标UI和文档的语言。
+title: 如何访问来自Adobe Experience Cloud的目标?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 69%
+source-wordcount: '419'
+ht-degree: 67%
 
 ---
 

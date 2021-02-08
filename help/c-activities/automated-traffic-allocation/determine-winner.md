@@ -1,12 +1,12 @@
 ---
 keywords: 自动分配；定位；入选；统计保证；置信；确定胜者；置信；默认；默认；自动分配；自动分配
-description: 通过检查重要指标，包括提升和信心，解释Adobe Target自动分配A/B活动的结果。
-title: 解释自动分配报表
+description: 了解如何通过检查重要指标（包括提升和信心）来解释Adobe Target自动分配A/B活动的结果。
+title: 如何解释自动分配报表？
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1136'
 ht-degree: 46%
 
 ---

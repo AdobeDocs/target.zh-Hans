@@ -1,13 +1,13 @@
 ---
 keywords: 体验预览;体验 URL;生成 URL;查看体验 URL
-description: 可以为目标Automated Personalization活动生成体验预览URL，以便在活动为预览和QA目的而实时之前直接在您的站点上查看体验内容。 体验预览URL绕过定位，以强制查看特定体验。
-title: 预览Automated Personalization活动(具有体验预览URL)
+description: 了解如何在Adobe TargetAutomated Personalization活动上使用体验预览URL在活动实时之前直接在您的网站上查看体验内容。
+title: 如何在Automated Personalization活动中使用体验预览URL?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 64%
+source-wordcount: '783'
+ht-degree: 65%
 
 ---
 

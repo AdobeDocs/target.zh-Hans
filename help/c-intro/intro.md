@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;Recommendations;目标高级；Automated Personalization；自动目标；自动目标；权限；什么是adobe目标;
-description: 什么是目标?
+description: 了解Adobe Target标准版和Adobe Target高级版的基础知识。 目标高级版包含标准产品中不提供的高级功能。
 landing-page-description: 个性化客户体验以最大限度地提升网站和移动站点、应用程序、社交媒体和其他数字渠道的收入。
-title: 简介
+title: 什么是目标?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 82%
+source-wordcount: '945'
+ht-degree: 80%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
-keywords: 推荐
-description: 启用 Analytics 作为 Target 报表源 (A4T) 时，数据收集流程会发生一些更改。
-title: 在将Analytics作为报告源(A4T)实施之前
+keywords: Recommendations
+description: 了解目标分析(A4T)的实施要求以及实施此集成之前要考虑的事项。
+title: 在实施A4T之前，我应该了解什么？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 52%
+source-wordcount: '896'
+ht-degree: 50%
 
 ---
 

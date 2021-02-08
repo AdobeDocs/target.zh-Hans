@@ -1,14 +1,14 @@
 ---
 keywords: 多值实体属性;自定义实体属性;有效 JSON;实体属性值;JSON 数组;多值的;多值
-description: 可使用单值和多值自定义实体属性来对目录中的项目定义其他相关信息。
-title: 自定义实体属性
+description: 了解如何使用单值和多值自定义实体属性定义有关Adobe TargetRecommendations目录中项目的其他信息。
+title: 如何使用自定义实体属性？
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 91%
+source-wordcount: '1401'
+ht-degree: 89%
 
 ---
 

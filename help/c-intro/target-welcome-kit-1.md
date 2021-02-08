@@ -1,12 +1,12 @@
 ---
 keywords: 欢迎套件；目标欢迎套件；介绍；入门
-description: Adobe Target欢迎工具包——第1章——介绍
-title: 欢迎工具包——第1章——简介
+description: 与Adobe Target开始您的优化和个性化项目。 Adobe Target欢迎工具包是个好起点。
+title: 如何开始使用目标?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---

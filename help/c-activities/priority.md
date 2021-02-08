@@ -1,12 +1,12 @@
 ---
 keywords: 设置;优先级
-description: Adobe Target根据您使用的目标界面和活动创建功能（可视体验书写器或基于表单的书写器），确定要向页面传送的活动(或活动)。
-title: 优先级
+description: 了解Adobe Target如何根据您使用的活动界面和活动创建功能，以不同方式确定要传送到页面的目标(或活动)。
+title: 目标如何将优先级分配给不同的活动?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1168'
 ht-degree: 88%
 
 ---

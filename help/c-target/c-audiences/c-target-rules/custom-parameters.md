@@ -1,13 +1,13 @@
 ---
 keywords: 自定义参数;Target 自定义参数;targetpageparams;定位 mbox 参数
-description: 自定义参数为 mbox 参数。如果将任何 mbox 参数传递到 mbox，或者使用 targetPageParams 函数，则此处将显示这些参数，以供在受众中使用。
-title: 自定义参数
+description: 了解如何将自定义参数传递给Adobe Target以便在受众中使用。
+title: 我是否可以根据自定义参数目标访客?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 90%
+source-wordcount: '411'
+ht-degree: 84%
 
 ---
 

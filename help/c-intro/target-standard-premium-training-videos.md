@@ -1,13 +1,13 @@
 ---
 keywords: 培训视频；youtube；视频；视频培训；教程；视频
 description: 观看培训视频可帮助您最有效地使用 Target Standard 和 Target Premium。
-title: 培训视频
+title: 在哪里可以找到目标培训视频？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 67%
+source-wordcount: '169'
+ht-degree: 63%
 
 ---
 

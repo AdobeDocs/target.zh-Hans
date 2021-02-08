@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;experience targeting;xt;landing page;landing page campaign
-description: 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。
-title: 体验定位
+keywords: 定位;体验定位;XT;登陆页面;登陆页面营销活动
+description: 了解如何使用Adobe Target的体验定位(XT)活动根据一组由营销人员定义的规则和标准将内容交付到特定受众。
+title: 什么是体验定位(XT)活动?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 93%
 
 ---
 

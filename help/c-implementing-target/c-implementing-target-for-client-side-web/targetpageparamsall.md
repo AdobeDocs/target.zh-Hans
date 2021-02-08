@@ -1,13 +1,14 @@
 ---
 keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;页面参数;页面参数;at.js;函数;函数
-description: 有关 Adobe Target at.js JavaScript 库的 targetPageParamsAll() 函数的信息。
-title: Targetpageparamsall()
+description: 使用Adobe Targetat.js JavaScript库的targetPageParamsAll()函数将参数从请求代码外附加到所有mbox。
+title: 如何使用targetPageParamsAll()函数？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 87%
+source-wordcount: '169'
+ht-degree: 71%
 
 ---
 

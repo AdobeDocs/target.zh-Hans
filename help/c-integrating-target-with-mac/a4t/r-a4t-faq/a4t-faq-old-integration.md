@@ -1,13 +1,13 @@
 ---
 keywords: FAQ;常见问题解答;Analytics for Target;A4T;SiteCatalyst;营销活动>方法;Test&Target;集成
-description: 本主题包含有关旧版 SiteCatalyst 与 Test&Target 集成以及使用 Analytics 作为 Target 报表源 (A4T) 的常见问题解答。
-title: 旧版Sitecatalyst到Test&目标集成- A4T常见问题解答
+description: 查找有关传统SiteCatalyst与Test&目标集成以及使用Analytics for Diboy(A4T)进行目标的常见问题解答。
+title: 在哪里可以找到Sitecatalyst与Test&目标集成的常见问题解答？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 95%
+source-wordcount: '179'
+ht-degree: 80%
 
 ---
 

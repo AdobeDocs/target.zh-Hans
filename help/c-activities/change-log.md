@@ -1,13 +1,13 @@
 ---
 keywords: 活动更改日志；更改日志
-description: 更改日志记录了对活动进行更改的人员及更改发生的时间。
-title: 活动更改日志
+description: 访问Adobe Target的活动更改日志，以视图更改活动的人和更改发生的时间记录。
+title: 如何查看活动更改日志？
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 78%
+source-wordcount: '113'
+ht-degree: 53%
 
 ---
 

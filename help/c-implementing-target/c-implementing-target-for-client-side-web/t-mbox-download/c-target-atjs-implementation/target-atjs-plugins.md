@@ -1,13 +1,14 @@
 ---
 keywords: at.js 插件;受支持的插件;不受支持的插件;ttMeta;ttmeta;mboxTrack
-description: 有关 Adobe Target 支持和不支持的 at.js 插件的信息。
-title: at.js插件
+description: 了解旧版mbox.js对Adobe Target的实施。 迁移至Adobe Experience PlatformWeb SDK(AEP Web SDK)或最新版at.js。
+title: 目标at.js不支持哪些旧版插件？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 96%
+source-wordcount: '239'
+ht-degree: 82%
 
 ---
 

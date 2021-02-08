@@ -1,12 +1,12 @@
 ---
 keywords: 多值；属性；推荐；多值；多值；多值
-description: 有关使用特殊多值运算符在Adobe TargetRecommendations处理多值字段的信息。
-title: 在目标Recommendations中处理多值属性
+description: 了解如何使用特殊的多值操作符在Adobe TargetRecommendations处理多值字段，例如，推荐与多个演员一起拍摄电影时。
+title: 我是否可以在Recommendations使用多值属性？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---

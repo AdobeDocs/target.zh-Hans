@@ -1,13 +1,13 @@
 ---
 keywords: 用户档案脚本；用户档案脚本属性；用户档案脚本最佳实践；调试；调试；脚本；用户档案脚本；属性；属性；参数
-description: 配置文件属性是特定于访客的参数。这些属性存储在访客的配置文件中，提供了可在您的 Adobe Target 活动中使用的关于访客的信息。
-title: 配置文件属性
+description: 了解存储在访客用户档案中的访客特定属性，以提供可用于Adobe Target活动的信息。
+title: 什么是用户档案属性？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2460'
-ht-degree: 77%
+source-wordcount: '2453'
+ht-degree: 76%
 
 ---
 

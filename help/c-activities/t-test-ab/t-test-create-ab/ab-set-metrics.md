@@ -1,13 +1,13 @@
 ---
 keywords: A/B;活动量度;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
-description: 在Adobe TargetA/B活动中使用指标确定访问成功的时间。
-title: 设置量度
+description: 了解如何在Adobe TargetA/B活动中指定指标以确定访问成功的时间，如转化、收入和参与。
+title: 如何在A/B活动中设置目标指标？
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 86%
+source-wordcount: '348'
+ht-degree: 81%
 
 ---
 

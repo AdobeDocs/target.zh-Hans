@@ -1,13 +1,13 @@
 ---
 keywords: 随机森林；决策树；ap;Automated Personalization
-description: Target 在自动个性化和自动定位中使用的主要个性化算法是随机林算法。相较于从任何组成学习算法获得的性能而言，诸如随机林之类的组合方法可使用多种学习算法获得更好的预测性能。自动个性化中的随机林算法是一种分类或回归分析方法，该方法通过在训练时构建大量的决策树来执行运算。
-title: 随机林算法
+description: 了解Adobe Target如何在Automated Personalization(AP)和自动目标活动中使用随机森林算法。
+title: 目标如何使用随机森林算法？
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 97%
+source-wordcount: '1419'
+ht-degree: 95%
 
 ---
 

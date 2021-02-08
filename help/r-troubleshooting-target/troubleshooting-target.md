@@ -1,13 +1,13 @@
 ---
 keywords: 诊断 Target 故障;Target 故障诊断
-description: 本文列出了一些主题，可帮助您解决 Adobe Target 中出现的问题，这些主题包括故障诊断主题、常见问题解答 (FAQ) 以及其他有用的主题。
-title: 疑难解答
+description: 查看一列表主题，帮助您解决Adobe Target的问题，包括疑难解答主题、常见问题解答(FAQ)和其他有用主题。
+title: 如何诊断目标?
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 96%
+source-wordcount: '445'
+ht-degree: 90%
 
 ---
 

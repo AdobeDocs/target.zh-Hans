@@ -1,13 +1,13 @@
 ---
-keywords: automated personalization;ap;audiences;ensemble;random forest;multi-armed bandit;thompson sampling;ml;machine learning
-description: Automated Personalization(AP)Adobe Target活动结合优惠或消息，使用高级机器学习来根据各个访客的个人客户用户档案将不同的优惠变化与其匹配，从而个性化内容并推动提升。
-title: 自动个性化
+keywords: 自动个性化；ap;受众;ensemble;random forest;multi-furbed bandit;thompson采样；ml；机器学习
+description: 了解如何使用Adobe Target州的Automated Personalization(AP)活动，它们使用高级机器学习将不同优惠变量与每个访客相匹配。
+title: 什么是Automated Personalization(AP)活动?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 89%
+source-wordcount: '1032'
+ht-degree: 88%
 
 ---
 

@@ -1,13 +1,14 @@
 ---
 keywords: at.js;函数;javascript 库
-description: 可以在 Adobe Target 中结合 at.js JavaScript 库一起使用的函数列表。
-title: at.js 函数
+description: 视图可与Adobe Target的at.js JavaScript库的1.x和2.x版一起使用的一列表函数。
+title: 我可以与at.js一起使用哪些函数？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 94%
 
 ---
 

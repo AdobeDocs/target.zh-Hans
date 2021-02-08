@@ -1,12 +1,12 @@
 ---
 keywords: 自动目标；定位；流量分配；常见问题；常见问题解答；疑难解答；故障排除；流量
-description: 关于Adobe Target自动目标的疑难解答和常见问题。
-title: 自动目标疑难解答和常见问题解答
+description: 浏览有关Adobe Target自动目标活动的疑难解答主题和常见问题解答。
+title: 如何对自动目标活动进行疑难解答？
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1919'
 ht-degree: 68%
 
 ---

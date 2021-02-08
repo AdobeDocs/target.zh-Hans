@@ -1,13 +1,14 @@
 ---
 keywords: 实施;mbox.js 非 javascript;AdBox;重定向器;mbox
-description: 此信息介绍了如何在非 JavaScript 情景中实施 Target，例如使用 AdBox 或重定向器。
-title: 电子邮件实施
+description: 了解如何在非JavaScript场景（如使用AdBox或重定向器）中实施Adobe Target。
+title: 如何实施电子邮件目标?
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 81%
+source-wordcount: '436'
+ht-degree: 77%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 排除项
-description: 在 [!DNL Adobe Target Recommendations] 中创建排除，以防止向访客推荐产品或内容。
-title: 排除项
+description: 了解如何在Adobe TargetRecommendations创建排除项以防止向访客推荐产品或内容。
+title: 如何在Recommendations活动中使用排除项？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 45%
+source-wordcount: '607'
+ht-degree: 44%
 
 ---
 

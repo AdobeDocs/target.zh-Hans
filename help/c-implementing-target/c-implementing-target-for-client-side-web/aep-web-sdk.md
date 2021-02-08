@@ -1,12 +1,13 @@
 ---
-keywords: Adobe Experience Platform Web SDK;aep web sdk;web sdk;sdk;adobe experience cloud;platform edge network;adobe experience platform edge network;edge network;aep edge network
-description: Adobe Experience PlatformWeb SDK是一个客户端JavaScript库，它允许Adobe Experience Cloud的客户通过Adobe Experience Platform边缘网络与Experience Cloud中的各种服务进行交互。
-title: Adobe Experience PlatformWeb SDK
+keywords: Adobe Experience PlatformWeb SDK;aep Web sdk;web sdk;sdk;adobe experience cloud；平台边缘网络；adobe experience platform edge network；边缘网络；aep edge network
+description: 了解如何使用Adobe Experience PlatformWeb SDK通过AEP Edge Network与Adobe Experience Cloud的各种服务交互。
+title: 如何使用Experience PlatformWeb SDK实施？
 feature: AEP Web SDK
+role: Developer
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---

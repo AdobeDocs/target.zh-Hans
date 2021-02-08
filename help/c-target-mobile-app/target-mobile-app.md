@@ -1,13 +1,14 @@
 ---
 keywords: 移动设备应用程序;移动设备应用程序过程;Target 移动设备应用程序;移动设备 Target 位置;移动设备应用程序成功量度
-description: Target 可用于移动设备应用程序优化和个性化
-title: 适用于移动设备应用程序的 Target
+description: 了解如何通过迭代测试和基于规则以及基于AI的个性化，将Adobe Target用于移动应用优化和个性化。
+title: 能否将目标用于移动应用程序？
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 96%
+source-wordcount: '145'
+ht-degree: 77%
 
 ---
 

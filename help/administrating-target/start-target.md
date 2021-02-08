@@ -1,13 +1,14 @@
 ---
 keywords: 管理;审批者角色;审批者
-description: Adobe Target管理人在收到通过电子邮件发给Adobe Experience Cloud的邀请后，应该采取第一步措施。
-title: 管理员首要步骤
+description: 在收到通过电子邮件发送给Adobe Experience Cloud的邀请后，执行Adobe Target管理员应首先接受的任务。
+title: 从何处开始管理目标?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 84%
+source-wordcount: '408'
+ht-degree: 83%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 受众;倾向;配置文件属性;比较;对比;创建受众
-description: 将受众定义为比较 Target 受众库或仅限该活动的受众的两个配置文件属性。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
-title: 创建配置文件属性比较受众
+description: 了解如何定义受众以比较目标受众库或仅活动受众中的两个用户档案属性。
+title: 我是否可以比较两个用户档案属性以用于受众?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 99%
+source-wordcount: '419'
+ht-degree: 91%
 
 ---
 

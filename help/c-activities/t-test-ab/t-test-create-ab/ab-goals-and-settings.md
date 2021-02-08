@@ -1,13 +1,13 @@
 ---
 keywords: 活动设置;A/B 目标和设置;报表设置;目标量度;成功量度;依赖的成功量度;高级设置;主要目标;其他量度;目的;优先级;持续时间;报表解决方案;目标;报表的受众;递增此量度之前必须实现哪些成功量度;用户遇到此目标量度后会出现什么情况;注释
-description: 在Adobe Target的“目标和设置”页面输入有关测试目标的信息。
-title: 目标和设置
+description: 了解如何使用Adobe Target的“目标和设置”页指定有关A/B活动目标的信息。
+title: 如何在目标A/B活动中指定目标和设置？
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 93%
+source-wordcount: '1330'
+ht-degree: 92%
 
 ---
 

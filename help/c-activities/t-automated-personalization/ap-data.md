@@ -1,13 +1,13 @@
 ---
 keywords: 环境数据;会话数据;地理数据;设备数据;移动设备数据;属性;配置文件属性
-description: Adob Target 可自动收集和使用各种数据，以在自动个性化 (AP) 和自动定位 (AT) 活动中构建其个性化算法。当一名访客进入到 AP 或 AT 活动，信息快照便会被传递到一组“训练记录”（个性化算法将要学习的访客数据）中。
-title: 个性化算法的数据收集
+description: 了解Adobe Target在Automated Personalization(AP)和自动目标(AT)活动收集和使用哪些数据来构建其个性化算法。
+title: 收集哪些数据以构建个性化算法？
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1767'
-ht-degree: 91%
+source-wordcount: '1737'
+ht-degree: 89%
 
 ---
 

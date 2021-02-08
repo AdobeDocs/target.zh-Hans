@@ -1,13 +1,13 @@
 ---
 keywords: 推荐设计;创建设计;复制设计
-description: 设计可定义推荐在页面上的显示方式。
-title: 创建设计
+description: 了解如何使用默认设计创建Adobe TargetRecommendations设计，或创建最适合页面布局的自定义设计。
+title: 如何在Recommendations创建设计？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 32%
+source-wordcount: '1018'
+ht-degree: 30%
 
 ---
 

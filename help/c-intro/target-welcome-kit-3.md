@@ -1,12 +1,12 @@
 ---
 keywords: 欢迎套件；目标欢迎套件；介绍；入门
-description: Adobe Target欢迎工具包——第3章——开发测试和个性化创意
-title: 欢迎工具包——第3章——开发测试和个性化创意
+description: 在Adobe Target创建活动之前，先了解六个步骤，列出一个经过验证的流程，以改进测试和个性化想法。
+title: 如何开发测试和个性化创意？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---

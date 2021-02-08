@@ -1,13 +1,13 @@
 ---
 keywords: 远程选件;创建远程选件
-description: 如何创建JSON优惠?
-title: 创建 JSON 选件
+description: 了解如何在Adobe Target创建JSON优惠以用于基于表单的体验书写器。 JSON优惠对SPA框架或服务器端集成很有用。
+title: 如何创建JSON优惠?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 58%
+source-wordcount: '411'
+ht-degree: 54%
 
 ---
 

@@ -1,12 +1,13 @@
 ---
 keywords: 单页应用程序实现；实现单页应用程序；spa;at.js 2.x;at.js；单页应用程序；单页应用程序；spa;SPA
-description: 有关使用 Adobe Target at.js 2.x 实施单页应用程序 (SPA) 的信息。
-title: 单页应用程序实施
+description: 了解如何使用Adobe Targetat.js 2.x对单页应用程序(SPA)实施目标。
+title: 我能否为单页应用程序(SPA)实施目标?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2769'
+source-wordcount: '2777'
 ht-degree: 73%
 
 ---
@@ -282,7 +283,7 @@ at.js 2.x API允许您以多种方式自定义[!DNL Target]实现，但在此过
 
 | 步骤 | 操作 | 详细信息 |
 | --- | --- | --- |
-| 1 | 加载VisitorAPI JS | 此库负责为访客分配ECID。 此ID稍后会被网页上的其他[!DNL Adobe]解决方案占用。 |
+| 3 | 加载VisitorAPI JS | 此库负责为访客分配ECID。 此ID稍后会被网页上的其他[!DNL Adobe]解决方案占用。 |
 | 2 | 加载at.js 2.x | at.js 2.x加载用于实现[!DNL Target]请求和视图的所有必要API。 |
 | 3 | 执行[!DNL Target]请求 | 如果您有数据层，我们建议您在执行[!DNL Target]请求之前加载发送到[!DNL Target]所需的关键数据。 这允许您使用`targetPageParams`发送任何要用于定位的数据。 必须确保在此API调用中请求执行> pageLoad以及预取>视图。 如果已设置`pageLoadEnabled`和`viewsEnabled`，则“执行”>“pageLoad”和“预取”>“视图”都会在步骤2中自动发生；否则，您需要使用`getOffers()` API发出此请求。 |
 | 4 | 调用 `triggerView()` | 由于您在步骤3中启动的[!DNL Target]请求可以返回页面加载执行和视图的体验，因此请确保在返回[!DNL Target]请求并完成将优惠应用于缓存后调用`triggerView()`。 每个视图只能执行此步骤一次。 |
@@ -293,9 +294,9 @@ at.js 2.x API允许您以多种方式自定义[!DNL Target]实现，但在此过
 
 | 步骤 | 操作 | 详细信息 |
 | --- | --- | --- |
-| 3 | 调用 `visitor.resetState()` | 此API确保在加载新视图时为其重新生成SDID。 |
+| 1 | 调用 `visitor.resetState()` | 此API确保在加载新视图时为其重新生成SDID。 |
 | 2 | 通过调用`getOffers()` API更新缓存 | 如果此视图更改有可能使当前访客符合更多[!DNL Target]活动的条件，或使其不符合活动的条件，则这是可选步骤。 此时，您还可以选择向[!DNL Target]发送其他数据，以启用进一步的定位功能。 |
-| 1 | 调用 `triggerView()` | 如果已执行步骤2，则必须等待[!DNL Target]请求并应用优惠到缓存，然后执行此步骤。 每个视图只能执行此步骤一次。 |
+| 3 | 调用 `triggerView()` | 如果已执行步骤2，则必须等待[!DNL Target]请求并应用优惠到缓存，然后执行此步骤。 每个视图只能执行此步骤一次。 |
 | 4 | 调用 `triggerView()` | 如果您尚未执行步骤2，则您可以在完成步骤1后立即执行此步骤。 如果已执行步骤2和步骤3，则应跳过此步骤。 每个视图只能执行此步骤一次。 |
 | 5 | 调用[!DNL Analytics]页面视图信标 | 此信标将与步骤2、3和4关联的SDID发送到[!DNL Analytics]以进行数据拼接。 |
 | 6 | 呼叫其他`triggerView({"page": false})` | 这是SPA框架的可选步骤，它可能在不发生视图更改的情况下重新呈现页面上的特定组件。 在这种情况下，请务必调用此API，以确保在SPA框架重新呈现组件后重新应用[!DNL Target]体验。 您可以执行此步骤的次数，以确保SPA视图中的[!DNL Target]体验会持续。 |

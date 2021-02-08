@@ -1,13 +1,13 @@
 ---
-keywords: experience template;custom code;banner;lightbox;carousel;countdown;ribbon;buttons
-description: 有关可在自定义代码中使用的 Adobe Target 体验模板的信息。Target 体验模板是具有可配置输入的预编码示例，用于执行常见的营销人员用例。
-title: 体验模板
+keywords: 体验模板;自定义代码;横幅;灯箱;轮播;倒计时;功能区;按钮
+description: 了解如何使用体验模板，这些模板是预编码的样本，带有可配置的输入，用于在Adobe Target执行常见营销人员使用案例。
+title: 哪些体验模板在目标中可用？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 85%
+source-wordcount: '477'
+ht-degree: 79%
 
 ---
 

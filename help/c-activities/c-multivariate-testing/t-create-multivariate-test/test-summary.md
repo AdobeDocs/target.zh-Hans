@@ -1,13 +1,13 @@
 ---
 keywords: 摘要
-description: 测试摘要提供您的Adobe Target多变量测试的可视化概述。
-title: 测试摘要
+description: 视图多变量测试(MVT)活动的摘要，该摘要提供您在Adobe Target的MVT活动的可视化概述。
+title: 如何视图多变量测试(MVT)活动摘要？
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 72%
+source-wordcount: '120'
+ht-degree: 62%
 
 ---
 

@@ -1,13 +1,14 @@
 ---
 keywords: 实施;at.js;javascript 库
-description: 此信息介绍了如何在以下三种情况下部署 Adobe Target JavaScript 库 at.js：使用 Adobe Launch、不使用标签管理器，或使用 Adobe 动态标签管理 (DTM)。
-title: 如何部署at.js
+description: 了解如何使用Adobe Experience Platform Launch或不使用标签管理器部署Adobe Targetat.js JavaScript库。
+title: 如何部署at.js?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 56%
+source-wordcount: '308'
+ht-degree: 49%
 
 ---
 

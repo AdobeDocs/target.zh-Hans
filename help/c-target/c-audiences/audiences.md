@@ -1,13 +1,13 @@
 ---
 keywords: 受众;受众规则;创建受众;定位受众;报表受众;区段;自定义配置文件参数;受众定义;受众列表
-description: Adobe Target 中的受众可决定将在定位活动中看到内容和体验的人群。
-title: 创建受众
+description: 了解如何使用Adobe Target的受众页以及如何视图包含受众详细信息和使用信息的受众定义卡。
+title: 如何使用受众列表?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 95%
+source-wordcount: '911'
+ht-degree: 92%
 
 ---
 

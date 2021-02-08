@@ -1,12 +1,13 @@
 ---
 keywords: 服务器端；服务器端；api;sdk;node.js;nodejs;nodejs;recommendations api;api:api
-description: 有关Adobe Target服务器端投放API、SDK和目标RecommendationsAPI的信息。
-title: 有关服务器端投放API、Node.js SDK和RecommendationsAPI的信息
+description: 了解Adobe Target服务器端投放API、SDK和目标RecommendationsAPI。
+title: 哪里可以了解目标服务器端投放API和SDK?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 20%
 
 ---

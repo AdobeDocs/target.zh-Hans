@@ -1,12 +1,12 @@
 ---
 keywords: a4t;A4T;Analytics 作为 Target 报表源
-description: 我是否可以将A4T与自动目标和自动分配活动一起使用？
-title: 自动分配和自动目标活动的A4T支持
+description: 了解如何在Adobe Target创建将Analytics用作目标源(A4T)的自动分配和自动活动。
+title: A4T是否支持自动分配和自动目标活动?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '863'
 ht-degree: 2%
 
 ---

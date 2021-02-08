@@ -1,13 +1,13 @@
 ---
 keywords: 包含规则；包含条件；推荐；促销；动态过滤；静态过滤
-description: 在Adobe TargetRecommendations，手动输入一个或多个静态值以使用包含规则进行筛选。
-title: Adobe TargetRecommendations包含规则中的静态值筛选
+description: 了解如何使用Adobe TargetRecommendations的包含规则手动输入一个或多个静态值以进行筛选。
+title: 如何按Recommendations活动中的静态值进行筛选？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 46%
+source-wordcount: '227'
+ht-degree: 45%
 
 ---
 

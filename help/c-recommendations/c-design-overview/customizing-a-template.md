@@ -1,13 +1,13 @@
 ---
 keywords: 自定义设计;Velocity;小数;逗号;自定义设计
-description: 在Adobe TargetRecommendations，使用开放源码Velocity设计语言自定义推荐设计。
-title: 使用Velocity自定义设计
+description: 了解如何在Adobe TargetRecommendations使用开源Velocity设计语言自定义推荐设计。
+title: 如何使用Velocity自定义设计？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 61%
+source-wordcount: '1027'
+ht-degree: 60%
 
 ---
 

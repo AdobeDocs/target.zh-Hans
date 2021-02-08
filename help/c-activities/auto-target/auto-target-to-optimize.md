@@ -1,12 +1,12 @@
 ---
 keywords: 自动定位;定位;流量分配;常见问题解答;faq;疑难解答;故障诊断
-description: Adobe Target的自动目标使用高级机器学习从多个高性能营销人员定义的体验中进行选择，从而个性化内容并推动转化。 自动定位根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验。
-title: 自动目标概述
+description: 了解目标中的自动目标活动如何根据客户用户档案和类似访客的行为为每位访客提供最定制的体验。
+title: 什么是自动目标活动?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2008'
 ht-degree: 85%
 
 ---

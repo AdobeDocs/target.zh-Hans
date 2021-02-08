@@ -1,13 +1,14 @@
 ---
 keywords: 安全;安全实践
-description: 有关 Adobe 为增强您的数据和 Adobe Target 体验安全而实施的深入防护方法和安全规程的信息。
-title: 安全性概述
+description: 了解Adobe用来加强数据安全性和Adobe Target体验的程序。 下载Adobe Target安全概述白皮书。
+title: 目标如何处理我的数据的安全性？
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 92%
+source-wordcount: '165'
+ht-degree: 74%
 
 ---
 

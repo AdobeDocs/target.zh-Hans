@@ -1,13 +1,13 @@
 ---
 keywords: 推荐；推荐活动；标准；算法
-description: 选择要在您的 Adobe Target“推荐”活动中使用的标准。
-title: 选择标准
+description: 了解如何选择在您的Adobe TargetRecommendations活动中使用的标准（确定推荐哪些产品或内容的规则）。
+title: 如何为Recommendations活动选择标准？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 79%
+source-wordcount: '405'
+ht-degree: 72%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 模板测试;模板;相似页面上的相同体验
-description: 使用Adobe Target的页面模板为页面提供结构，或者如果页面包含类似元素，则测试结构相似的页面元素中的变体。
-title: 在相似页面上包含相同体验
+description: 了解如何使用Adobe Target可视化体验书写器(VEC)在结构相似或包含相同模板元素的多个页面上包含相同的体验。
+title: 我是否可以在类似页面上包含相同的体验？
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 47%
+source-wordcount: '618'
+ht-degree: 45%
 
 ---
 

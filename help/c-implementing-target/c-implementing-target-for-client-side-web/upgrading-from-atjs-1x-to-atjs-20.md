@@ -1,13 +1,14 @@
 ---
 keywords: at.js 发行版;at.js 版本;单页应用程序;SPA;跨域;跨域
-description: 有关如何从 Adobe Target at.js 1.*x* 升级到 at.js 版本 2.0.0 的详细信息
-title: 从at.js 1.x版升级到2.x版
+description: 了解如何从Adobe Targetat.js 1.x升级到at.js 2.x。检查系统流图，了解新的和已弃用的函数等。
+title: 如何从at.js版本1.x升级到2.x?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2757'
-ht-degree: 92%
+source-wordcount: '2770'
+ht-degree: 91%
 
 ---
 
@@ -47,7 +48,7 @@ ht-degree: 92%
 | --- | --- |
 | 3 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
 | 2 | 从缓存中读取视图的目标内容。 |
-| 1 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
+| 3 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
 | 4 | 通知请求将发送到 [!DNL Target] 配置文件存储区，以计算活动中的访客和递增量度。 |
 | 5 | Analytics 数据会发送到数据收集服务器。 |
 | 6 | Target 数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 A4T 报表查看 Analytics 数据。 |

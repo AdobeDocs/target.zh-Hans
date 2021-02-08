@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization;control;default experience;best practices
-description: 有关自动个性化 (AP) 的常见问题解答 (FAQ) 列表。
-title: 自动个性化常见问题解答
+keywords: 疑难解答；常见问题；常见问题解答；常见问题解答；自动个性化；控制；默认体验；最佳实践
+description: 浏览一列表关于Adobe TargetAutomated Personalization(AP)活动的常见问题解答(FAQ)和答案。
+title: 如何找到有关Automated Personalization活动的常见问题解答？
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1963'
-ht-degree: 85%
+source-wordcount: '1990'
+ht-degree: 83%
 
 ---
 

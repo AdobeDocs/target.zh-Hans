@@ -1,13 +1,13 @@
 ---
 keywords: 报表;下载报表;CSV;成功量度;订单详细信息
-description: 以。csv格式下载数据，以便使用Adobe Target快速导入到Excel、Access或其他分析项目。
-title: 在CSV文件中下载数据
+description: 了解如何以CVS格式从Adobe Target活动下载数据，以便快速导入Excel、Access或其他数据分析项目。
+title: 如何下载CSV文件中的报告数据？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 83%
+source-wordcount: '686'
+ht-degree: 82%
 
 ---
 

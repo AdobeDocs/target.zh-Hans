@@ -1,13 +1,13 @@
 ---
 keywords: 故障诊断;常见问题解答;FAQ;定位;受众
-description: 有关体验定位和受众的常见问题解答 (FAQ) 列表。
-title: 目标和受众常见问题解答
+description: 视图关于体验定位和Adobe Target活动使用的受众的常见问题解答(FAQ)。
+title: 在哪里可以找到有关目标和受众的问题和答案？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 68%
+source-wordcount: '953'
+ht-degree: 66%
 
 ---
 

@@ -1,13 +1,14 @@
 ---
 keywords: 设置；设置；设置；设置；设置；管理
 description: 设置Adobe Target，包括首选项、实施、用户管理、属性、Scene7配置、主机管理和响应令牌。
-title: 管理
+title: 如何管理目标?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 14%
+source-wordcount: '95'
+ht-degree: 13%
 
 ---
 

@@ -1,14 +1,13 @@
 ---
 keywords: 目标；主页；热门主题；adobe目标；标准；高级；目标文档；adobe目标文档
-title: Adobe Target 指南
-description: 在哪里可以找到目标文档？
-seo-description: Adobe Target 是一种 Adobe Experience Cloud 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
+title: 在哪里可以找到目标文档？
+description: 了解如何使用Adobe Target个性化客户体验，从而在您的网站和移动站点、App和其他数字渠道上最大化收入。
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 62%
+source-wordcount: '698'
+ht-degree: 58%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 62%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2021 年 2 月 1 日（[请参阅“更改了哪些内容”](r-release-notes/doc-change.md)）**
+**上次更新时间：2021 年 2 月 8 日（[请参阅“更改了哪些内容”](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >

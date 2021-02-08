@@ -1,13 +1,13 @@
 ---
-keywords: Multivariate Tests;activity url
-description: 活动URL确定在Adobe Target多变量测试(MVT)中使用的页面，当测试在Adobe Target设计时该页面打开。
-title: 活动 URL
+keywords: 多变量测试；活动url
+description: 了解如何指定活动URL，它确定测试中使用的页面以及使用Adobe Target设计多变量测试活动时打开的页面。
+title: 多变量(MVT)活动中的活动URL是什么？
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 84%
+source-wordcount: '303'
+ht-degree: 79%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: mbox;mbox3rdPartyId;配置文件同步;PCID
-description: 有关实时配置文件的信息
-title: Mbox3Rdpartyid的实时用户档案同步
+description: 了解如何使用mbox3rdPartyId，它是您组织的访客ID，如会员ID或您组织的忠诚度项目。
+title: 如何对mbox3rdPartyId使用实时用户档案同步？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 80%
+source-wordcount: '547'
+ht-degree: 76%
 
 ---
 

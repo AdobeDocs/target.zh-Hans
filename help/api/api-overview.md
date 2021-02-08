@@ -1,12 +1,13 @@
 ---
 keywords: api;api;admin api;投放api;报告api;用户档案api
-description: 有关Adobe TargetAPI的信息，包括管理员、投放、报告和用户档案API。
-title: Adobe TargetAPI概述
+description: 查找Adobe TargetAPI，包括管理员、投放、报告和用户档案API。
+title: 在哪里可以找到目标API和SDK文档？
 feature: APIs/SDKs
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '262'
 ht-degree: 1%
 
 ---

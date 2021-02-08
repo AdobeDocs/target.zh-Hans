@@ -1,12 +1,12 @@
 ---
 keywords: 目录搜索；目录；搜索；排除；集合；筛选
 description: 了解如何使用Recommendations目录搜索找到产品或内容、创建集合或排除、从目录中删除项目等。
-title: 如何使用Recommendations目录搜索
+title: 如何使用Recommendations目录搜索？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1039'
 ht-degree: 17%
 
 ---

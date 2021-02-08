@@ -1,13 +1,13 @@
 ---
 keywords: 混合内容；安全；不安全；chrome；疑难解答；vec；可视体验书写器；不安全；http;https;firefox;internet explorer
-description: 如果安全内容与不安全内容混合在一起，某些浏览器可能会阻止页面显示。
-title: 在浏览器中启用混合内容
+description: 如果安全内容与不安全内容混合在一起，某些浏览器可能会阻止页面显示。了解如何在Chrome、Firefox和Edge中启用混合内容。
+title: 如何在浏览器中启用混合内容？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 35%
+source-wordcount: '588'
+ht-degree: 34%
 
 ---
 

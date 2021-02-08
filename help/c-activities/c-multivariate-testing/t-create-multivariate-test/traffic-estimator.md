@@ -1,13 +1,13 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: 由于多变量测试会对多个体验进行比较，因此非常重要的一点是，您需要知道多少流量才能提供有意义的结果。Adobe Target流量估计器使用有关您的页面和正在测试的体验数的统计信息，来估计流量量和测试持续时间，从而使测试成功。
-title: 估算成功测试所需的流量
+description: 了解如何使用流量估计器，它可让您了解是否有足够的流量使您的Adobe Target多变量测试活动获得成功。
+title: 多变量测试(MVT)活动需要多少流量？
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 93%
+source-wordcount: '501'
+ht-degree: 92%
 
 ---
 

@@ -1,12 +1,12 @@
 ---
 keywords: 内部通讯；新闻快讯；产品更新；提示与技巧；事件；客户成功；博客；博客；白皮书；白皮书
-description: 在哪里可以找到Adobe Target内幕新闻月刊？
-title: 内部通讯
+description: 阅读有关Adobe Target的最新消息。 查找有关即将到来的事件、客户成功案例、专家提供的信息和提示等信息。
+title: 什么是Adobe Target内幕通讯？
 feature: Release Notes, Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2150'
 ht-degree: 41%
 
 ---

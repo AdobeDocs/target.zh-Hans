@@ -1,12 +1,13 @@
 ---
-keywords: add user;manage user;user permissions
-description: 将用户添加到Adobe Target并管理他们在Adobe Admin Console的权限。
-title: 用户
+keywords: 添加用户;管理用户;用户权限
+description: 了解如何在Adobe Target使用Adobe Admin Console管理用户及其权限。
+title: 如何添加用户和管理权限？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '910'
 ht-degree: 46%
 
 ---

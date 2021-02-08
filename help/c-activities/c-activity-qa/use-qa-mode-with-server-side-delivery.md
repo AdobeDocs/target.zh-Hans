@@ -1,13 +1,13 @@
 ---
 keywords: QA;服务器端;预览;预览链接
-description: 使用带有服务器端投放的Adobe TargetQA URL轻松执行端到端活动QA,预览链接永不更改，可选受众定位，以及与实时活动数据保持分段的QA报告。
-title: 在服务器端交付中使用活动 QA
+description: 了解如何将Adobe TargetQA URL与服务器端投放结合使用，以便通过预览链接轻松实现端到端活动QA，这些链接不会更改，可选受众定位，以及保持与实时活动数据分段的QA报告。
+title: 是否可以使用服务器端活动执行投放QA?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 72%
+source-wordcount: '397'
+ht-degree: 70%
 
 ---
 

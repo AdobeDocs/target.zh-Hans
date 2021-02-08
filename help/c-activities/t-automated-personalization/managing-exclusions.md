@@ -1,14 +1,14 @@
 ---
 keywords: 重复数据消除；允许重复；排除重复优惠；自动个性化；不允许重复优惠；排除；默认内容；排除组；
-description: 通过创建排除组、排除重复的选件、排除特定体验以及排除 Adobe Target 自动个性化 (AP) 活动中的默认内容来管理排除项。
-title: 管理排除项
+description: 在Adobe TargetAutomated Personalization(AP)活动管理排除。 创建排除组并排除重复优惠、特定体验和默认内容。
+title: 如何管理Automated Personalization活动的排除？
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 92%
+source-wordcount: '986'
+ht-degree: 89%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 目标和设置；目标；优先级；持续时间
-description: 使用Adobe Target的活动设置管理活动的目标、优先级和持续时间。
-title: 活动设置
+description: 了解如何使用Adobe Target的活动设置来管理活动的目标、优先级和持续时间。
+title: 如何指定活动设置？
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 82%
+source-wordcount: '416'
+ht-degree: 80%
 
 ---
 

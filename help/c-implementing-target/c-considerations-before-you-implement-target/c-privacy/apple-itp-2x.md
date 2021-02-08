@@ -1,13 +1,14 @@
 ---
 keywords: apple;ITP；智能跟踪预防；experience cloud id;ecid
-description: 有关Adobe Target通过Experience CloudID(ECID)库4.3支持Apple ITP 2.x的信息。
-title: 目标和Apple ITP支持
+description: 了解Adobe Target以及Apple Intelligent Tracking Prevention(ITP)计划的影响，该计划旨在保护Safari用户的隐私。
+title: 目标如何处理Apple ITP支持？
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 51%
+source-wordcount: '913'
+ht-degree: 50%
 
 ---
 

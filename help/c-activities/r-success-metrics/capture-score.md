@@ -1,13 +1,13 @@
 ---
-keywords: capture score;score
-description: Adobe Target的“捕获分数”参与量度根据分配给网站上访问的页面的值计算汇总分数，该值从访客第一次看到活动的第一个显示目标请求时开始。
-title: 捕捉分数
+keywords: 捕捉分数;分数
+description: 了解Adobe Target的“捕获分数”参与量度，该量度根据为网站上访问的页面分配的值计算汇总得分。
+title: 什么是捕获分数指标？
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 50%
+source-wordcount: '765'
+ht-degree: 51%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 选件;内容;创建文件夹;资产;移动文件夹;复制文件夹;删除文件夹;下载文件夹;文件夹
 description: 如何在优惠库中创建文件夹？
-title: 创建选件文件夹
+title: 了解如何在Adobe Target优惠库中创建文件夹以保存代码和图像优惠以及其他文件夹。
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 25%
+source-wordcount: '277'
+ht-degree: 22%
 
 ---
 

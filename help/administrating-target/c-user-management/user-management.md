@@ -1,13 +1,14 @@
 ---
 keywords: 添加用户;管理用户;用户权限
-description: 在Adobe Target标准版中管理用户，在Adobe Target高级版中管理企业属性和权限。
-title: 用户管理
+description: 了解如何管理Adobe Target标准版中的用户以及管理Adobe Target高级版中的企业属性和权限。
+title: 如何配置用户管理？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 20%
+source-wordcount: '239'
+ht-degree: 19%
 
 ---
 

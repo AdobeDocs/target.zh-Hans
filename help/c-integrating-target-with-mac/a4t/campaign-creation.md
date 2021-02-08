@@ -1,13 +1,13 @@
 ---
 keywords: a4t;A4T;Analytics 作为 Target 报表源
-description: 您可以将 Target Standard/Premium 中的活动配置为使用 Adobe Analytics 作为报表源 (A4T)。
-title: 创建使用A4T的活动
+description: 了解如何在Adobe Target配置将Adobe Analytics用作活动源(A4T)的报告。
+title: 如何创建使用A4T的活动?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 36%
+source-wordcount: '652'
+ht-degree: 33%
 
 ---
 

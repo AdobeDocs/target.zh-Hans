@@ -1,13 +1,13 @@
 ---
 keywords: 目标文档更改日志；文档更新；新主题；编辑；更新；更新
-description: 对文档进行了哪些更改？
-title: 文档更改
+description: 对Adobe Target产品文档进行重要补充和更改，让文档保持最新。
+title: 在哪里可以视图文档更新以进行目标?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '3487'
-ht-degree: 29%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2月8日 | [Target 移动设备预览](/help/c-target-mobile-app/target-mobile-preview.md) | 添加了应添加到AdobeMobile SDK版本4的AndroidManifest.xml文件的代码片段。 |
 | 2月1日 | [自动个性化摘要报表](/help/c-reports/reports-ap.md) | 添加了新部分：“常见问题解答。” |
 | 27 年 1 月 | [创建重定向选件](/help/c-experiences/c-manage-content/offer-redirect.md) | 更新了主题。 |
 |  | [创建远程选件](/help/c-experiences/c-manage-content/about-remote-offers.md) | 更新了主题。 |

@@ -1,13 +1,13 @@
 ---
 keywords: FAQ;常见问题解答;Analytics for Target;A4T;配置;Adobe Experience Cloud
-description: 本主题包含有关将 Analytics 配置为 Target 报表源 (A4T) 的常见问题解答。
-title: 初始配置 - A4T 常见问题解答
+description: 查找有关为目标(A4T)设置Analytics的常见问题的解答，这使您能够为目标活动使用Analytics报告。
+title: 在哪里可以找到有关A4T初始配置的信息？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 100%
+source-wordcount: '481'
+ht-degree: 92%
 
 ---
 

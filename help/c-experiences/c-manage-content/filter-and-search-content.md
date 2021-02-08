@@ -1,13 +1,13 @@
 ---
 keywords: 内容库；资源；搜索；过滤
-description: 如何按关键字搜索资产？
-title: 搜索内容
+description: 了解如何在Adobe Target优惠库中搜索代码和图像优惠。
+title: 如何在优惠库中搜索内容？
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 13%
+source-wordcount: '259'
+ht-degree: 12%
 
 ---
 

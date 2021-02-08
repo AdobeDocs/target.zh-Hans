@@ -1,13 +1,13 @@
 ---
 keywords: 动态数据;资产;数据;选件;个性化选件;个人选件;令牌替换
-description: 如何直接在HTML或JSON用户档案中传递活动值和优惠信息？
-title: 将动态数据传递给选件
+description: 了解如何将动态数据传递到Adobe Target优惠。 浏览业务案例，了解您为何可能希望使用动态优惠、视图示例和实施信息。
+title: 如何将动态数据传递给优惠?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 81%
+source-wordcount: '518'
+ht-degree: 78%
 
 ---
 

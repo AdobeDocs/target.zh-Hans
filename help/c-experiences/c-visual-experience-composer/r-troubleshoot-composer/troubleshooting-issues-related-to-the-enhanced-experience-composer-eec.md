@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-description: 在某些情况下，Adobe Target增强体验书写器(EEC)有时会出现显示问题。
-title: 对与增强型体验编辑器有关的问题进行故障诊断
+keywords: 定位;EEC;可视化体验编辑器;增强型体验编辑器故障诊断;故障诊断
+description: 了解如何对Adobe Target增强体验书写器(EEC)在某些情况下有时会出现的问题进行疑难解答。
+title: 如何解决与增强体验书写器相关的问题？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 63%
+source-wordcount: '449'
+ht-degree: 61%
 
 ---
 

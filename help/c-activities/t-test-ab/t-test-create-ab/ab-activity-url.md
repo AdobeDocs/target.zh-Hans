@@ -1,13 +1,13 @@
 ---
-keywords: activity url;url;different url
-description: 活动URL确定测试中使用的页面，并在使用Adobe Target设计测试时打开该页面。
-title: 活动 URL
+keywords: 活动url;url；不同的url
+description: 了解如何指定活动URL，它确定测试中使用的页面以及使用Adobe Target设计测试时打开的页面。
+title: A/B活动中的活动URL是什么？
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 78%
+source-wordcount: '314'
+ht-degree: 73%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 体验定位；文本；创建
-description: 使用可视化体验编辑器，可在启用了 Target 的页面上创建体验定位 (XT) 活动，并在 Adobe Target 中修改页面的各个部分。
-title: 创建体验定位活动
+description: 了解如何在启用目标的页面上使用Adobe Target的可视体验书写器(VEC)创建体验定位(XT)活动。
+title: 如何创建体验定位活动?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 99%
+ht-degree: 91%
 
 ---
 

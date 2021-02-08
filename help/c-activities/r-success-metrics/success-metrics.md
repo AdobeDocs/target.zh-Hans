@@ -1,13 +1,13 @@
 ---
 keywords: 定位；成功；转换量度；页面得分度量；页面视图量度；收入量度；站点停留时间；估计值；高级设置；高级设置；依赖性；增量计数和保持用户处于活动；增量计数、释放用户和允许再入；增量计数、释放用户和重入条
-description: 在Adobe Target，成功指标是用于衡量活动成功的参数。 成功量度包括关键业务衡量指标，可帮助您确定 Target 活动中的给定体验或选件是否成功。
-title: 成功量度
+description: 了解Adobe Target的成功指标，帮助您确定活动的成功。 成功指标包括转化率、收入、页面视图、自定义评分和网站停留时间。
+title: 什么是成功指标？
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 45%
+source-wordcount: '1173'
+ht-degree: 43%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 培训；认证；目标；在线课程；课程；课堂；课程
-description: Adobe培训服务为包括Adobe Target在内的Adobe产品和解决方案提供课程和认证。
-title: 培训和认证
+description: 查找Adobe Target课程和Adobe培训服务提供的认证。
+title: 在哪里可以找到培训和认证课程？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 51%
+source-wordcount: '92'
+ht-degree: 47%
 
 ---
 

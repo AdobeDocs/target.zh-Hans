@@ -1,13 +1,13 @@
 ---
 keywords: FAQ;常见问题解答;Analytics for Target;A4T;活动设置
-description: 本主题包含有关活动设置和使用 Analytics 作为 Target 报表源 (A4T) 的常见问题解答。
-title: 活动设置- A4T常见问题解答
+description: 在使用活动分析(A4T)进行目标时，查找有关设置的问题的解答。 A4T允许您对目标报告使用Analytics活动。
+title: 哪里可以找到有关A4T活动设置的常见问题解答？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 36%
+source-wordcount: '515'
+ht-degree: 31%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 创建自定义标准;算法;标准;推荐标准;CSV;FTP;上传 CSV
-description: 可上传 CSV 文件以自定义您的推荐。
-title: 上传自定义条件
+description: 了解如何在Adobe Target·Recommendations上上传CSV文件以自定义您的建议。
+title: 如何在Recommendations上传自定义条件？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 64%
+source-wordcount: '710'
+ht-degree: 61%
 
 ---
 

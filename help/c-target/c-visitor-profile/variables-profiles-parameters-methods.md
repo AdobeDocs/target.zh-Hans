@@ -1,13 +1,13 @@
 ---
 keywords: 变量;配置文件;参数;内置配置文件;方法;URL 变量;地域配置文件;第三方配置文件;mbox 变量;营销活动变量;客户属性
-description: 此页面列出了配置文件脚本中有用的配置文件、变量和参数。
-title: 配置文件和变量一览表
+description: 视图各种用户档案、变量和参数的列表，这些、变量和参数在Adobe Target的用户档案脚本中非常有用。
+title: 哪些用户档案、变量和参数用于目标?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 92%
+source-wordcount: '592'
+ht-degree: 88%
 
 ---
 

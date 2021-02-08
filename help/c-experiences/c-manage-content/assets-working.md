@@ -1,13 +1,13 @@
 ---
 keywords: 内容库;资产;注释;复制;删除资产;下载资产;编辑内容;共享卡片;查看内容属性
-description: 如何使用内容库中的资源
-title: 使用库中的内容
+description: 了解如何管理Adobe Target优惠库中的代码和图像优惠。 了解如何视图优惠的详细信息以及如何编辑、复制、移动或删除优惠。
+title: 如何处理优惠库中的内容？
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 38%
+source-wordcount: '767'
+ht-degree: 37%
 
 ---
 

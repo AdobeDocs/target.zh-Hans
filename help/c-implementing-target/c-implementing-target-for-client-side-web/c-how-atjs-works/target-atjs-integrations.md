@@ -1,13 +1,14 @@
 ---
 keywords: at.js 集成;受支持的集成;不受支持的集成;第三方集成
-description: 有关与 Target 的常见集成及其对 at.js 的支持状态的信息。
-title: at.js 集成
+description: 查看Adobe Targetat.js支持（且不支持）的集成，包括目标分析(A4T)、Experience CloudID服务等。
+title: at.js支持哪些集成？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 91%
+source-wordcount: '575'
+ht-degree: 86%
 
 ---
 

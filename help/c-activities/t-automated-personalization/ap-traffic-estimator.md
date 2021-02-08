@@ -1,13 +1,13 @@
 ---
 keywords: 流量估计器；自动个性化；ap；流量估计
-description: 流量估计器提供反馈，让您了解您是否有足够的流量使您的Adobe Target活动成功。
-title: 估算成功所需流量
+description: 了解如何使用流量估计器，它可让您了解是否有足够的流量使您的Adobe TargetAutomated Personalization活动取得成功。
+title: Automated Personalization活动需要多少流量？
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 25%
+source-wordcount: '746'
+ht-degree: 24%
 
 ---
 

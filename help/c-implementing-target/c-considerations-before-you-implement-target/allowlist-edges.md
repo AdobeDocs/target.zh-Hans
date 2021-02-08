@@ -1,12 +1,13 @@
 ---
 keywords: 实现；实现；白名单；白允许列表名单；允许列表；边缘；边缘
-description: 允许列表Adobe Target边缘节点
-title: 允许列表目标边缘节点
+description: 视图一列表主机，帮助您允许列表Adobe Target边缘（地理位置分散的服务节点，确保最终用户的最佳响应时间）。
+title: 如何允许列表目标边缘节点？
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---

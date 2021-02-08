@@ -1,13 +1,13 @@
 ---
 keywords: 电子邮件;ESP;电子邮件服务提供商;rawbox;交付 API;仅限下载模板;电子邮件模板;批量处理;构建时电子邮件
-description: 此信息介绍了将电子邮件与“推荐”集成的方法。
-title: 将Recommendations与电子邮件集成
+description: 了解如何将电子邮件与Adobe Target·Recommendations集成，包括使用目标投放API、rawbox模板和仅下载模板。
+title: 如何将Recommendations与电子邮件集成？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 89%
+source-wordcount: '1490'
+ht-degree: 88%
 
 ---
 

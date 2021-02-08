@@ -1,13 +1,13 @@
 ---
 keywords: 推荐;推荐算法;推荐活动;Recommendations Classic
-description: 此信息可帮助您在 Recommendations Classic 与 Target Premium 中的“推荐”活动之间进行选择。
-title: Recommendations经典与Recommendations活动目标溢价
+description: 查看信息，帮助您了解旧版Recommendations经典活动与Recommendations目标高级版之间的差异。
+title: Recommendations经典与Recommendations在目标溢价中有何不同？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '663'
+ht-degree: 95%
 
 ---
 

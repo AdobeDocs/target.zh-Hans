@@ -1,12 +1,12 @@
 ---
 keywords: 欢迎套件；目标欢迎套件；介绍；入门
-description: Adobe Target欢迎工具包——第8章——交流您的活动结果
-title: 欢迎工具包——第8章——交流您的活动结果
+description: 只需使用“执行摘要结果”模板，即可帮助您与Adobe Target活动交流成功案例。
+title: 如何与我的组织共享目标活动的结果？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---

@@ -1,12 +1,12 @@
 ---
 keywords: multivariate;mvt;预览；体验
-description: 由于Adobe Target的Multivariate Test会比较页面上的多个体验，因此将页面与每个体验预览非常有帮助。
-title: 多变量测试(MVT)的预览体验
+description: 了解如何使用Visual Experience Composer(VEC)在Adobe Target的Multivariate Test(MVT)活动中预览每个体验。
+title: 如何预览多变量测试(MVT)的体验
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '201'
 ht-degree: 68%
 
 ---

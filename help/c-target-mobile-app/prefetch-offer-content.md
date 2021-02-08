@@ -1,13 +1,14 @@
 ---
 keywords: 优惠；预取；iOS;android;sdk;mobile;mobile sdk
-description: Adobe Target 预取功能使用 iOS 和 Android Mobile SDK 获取选件内容，并通过缓存服务器响应来尽量减少获取次数。
-title: 预取选件内容
+description: 使用iOS和Android Mobile SDK中的Adobe Target预取功能，通过缓存服务器响应来尽可能少地获取优惠内容。
+title: 能否预取移动应用程序的优惠内容？
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 60%
+source-wordcount: '247'
+ht-degree: 47%
 
 ---
 

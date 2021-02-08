@@ -1,13 +1,13 @@
 ---
 keywords: 远程优惠；远程优惠选择矩阵；缓存内容；动态内容；url类型
-description: 我是否可以使用远程优惠托管外部内容？
-title: 创建远程选件
+description: 了解如何使用Adobe Target的远程优惠托管外部内容（CMS或其他系统中的内容）。 了解您为何要使用远程优惠。
+title: 如何创建远程优惠?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 49%
+source-wordcount: '1082'
+ht-degree: 47%
 
 ---
 

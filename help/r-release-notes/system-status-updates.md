@@ -1,13 +1,13 @@
 ---
 keywords: 系统更新;故障诊断;维护;系统状态;更新状态
-description: 哪里可以视图Adobe产品和Experience Cloud解决方案的状态？
-title: 系统状态更新
+description: 视图Adobe Target的当前状态，帮助您确定可能遇到的问题是系统更新还是例行维护所致。
+title: 我可以在何处视图目标和其他Adobe产品的状态？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 94%
+source-wordcount: '329'
+ht-degree: 87%
 
 ---
 

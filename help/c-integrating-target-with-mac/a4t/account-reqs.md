@@ -1,14 +1,14 @@
 ---
 keywords: 分析作为报告源；a4t;A4T；要求
-description: 在 Adobe Target (A4T) 中创建基于 Adobe Analytics 的活动时的用户帐户要求。
-title: 用户权限要求
+description: 了解如何配置在Adobe Target使用Analytics for Basing(A4T)创建基于Adobe Analytics的活动所需的用户帐户要求。
+title: A4T需要哪些用户权限要求？
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 47%
+source-wordcount: '280'
+ht-degree: 38%
 
 ---
 

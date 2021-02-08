@@ -1,12 +1,12 @@
 ---
 keywords: 活动;活动类型;编辑活动;编辑;草稿
-description: 有关编辑Adobe Target现有活动的不同方式的信息，包括以草稿形式保存活动。
-title: 编辑活动或另存为草稿
+description: 了解编辑Adobe Target现有活动的不同方式，包括以草稿形式保存活动。
+title: 如何编辑活动或另存为草稿？
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1126'
 ht-degree: 95%
 
 ---

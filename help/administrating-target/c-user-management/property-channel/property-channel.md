@@ -1,12 +1,13 @@
 ---
 keywords: 工作区;管理属性;权限;产品配置;产品配置文件;角色;项目
-description: 创建属性并使用“属性和权限”功能，让Adobe Target管理员在目标中创建单独的工作区(产品用户档案)，然后根据这些工作区为各个页面、属性或网站分配不同的角色和权限。
-title: 企业用户权限
+description: 了解如何创建单独的工作区(产品用户档案)，然后为用户分配不同的角色和权限，分别用于各个页面、属性或网站。
+title: 什么是企业用户权限，如何使用这些权限？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3053'
 ht-degree: 80%
 
 ---

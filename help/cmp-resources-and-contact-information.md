@@ -1,13 +1,13 @@
 ---
 keywords: 联系方式;法律;技术支持;支持;服务;职能;账单;反馈
-description: 此信息介绍了可帮助您了解 Target 功能以及在需要 Target 帮助时如何联系 Adobe 的其他资源。
-title: 资源和联系信息
+description: 了解更多资源，帮助您了解Adobe Target的功能以及在您需要目标帮助时如何联系Adobe。
+title: 在哪里可以找到资源和联系信息以进行目标?
 feature: Release Notes,Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 79%
+source-wordcount: '1230'
+ht-degree: 76%
 
 ---
 

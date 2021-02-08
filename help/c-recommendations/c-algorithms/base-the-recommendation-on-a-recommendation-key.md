@@ -1,14 +1,14 @@
 ---
 keywords: 推荐键；推荐逻辑；当前类别；自定义属性；上次购买的商品；上次查看的商品；最近查看的商品；最常查看的类别；最近查看的商品；最近查看的商品；最后购买的商品；最近查看的商品；最近查看的商品；最近查看的商品；最喜爱的商品；最近查看的商品
-description: 基于密钥的Recommendations利用访客行为环境显示Adobe TargetRecommendations活动的相关结果。
-title: 使推荐基于推荐键
+description: 了解如何使用基于键的推荐，这些键使用访客行为上下文来显示Adobe TargetRecommendations活动的相关结果。
+title: 我如何根据推荐密钥来推荐？
 feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2924'
-ht-degree: 68%
+source-wordcount: '2932'
+ht-degree: 67%
 
 ---
 

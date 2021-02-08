@@ -1,13 +1,13 @@
 ---
 keywords: 访客配置文件;Target 访客配置文件
-description: 在 Adobe Target 中创建受众以定位满足特定配置文件参数的访客。
-title: 访客用户档案选项(在受众中)
+description: 了解如何在Adobe Target创建受众，以便目标符合特定用户档案参数(如新访客或返回访客、类别关联等)的。
+title: 我能否目标满足特定用户档案参数的访客?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 95%
+source-wordcount: '242'
+ht-degree: 83%
 
 ---
 

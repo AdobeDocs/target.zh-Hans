@@ -1,13 +1,13 @@
 ---
 keywords: Target 故障诊断;默认内容;测试未处于实时状态;活动未处于实时状态;定位无法运行;显示之前的体验;无法创建活动;创建活动;页面结构发生更改;页面结构已修改;错误消息;删除配置文件脚本时出错;ajax 无法运行
-description: 如果您的Adobe Target活动未出现在您的网站上，这些疑难解答建议应帮助您找到解决方案。
-title: 活动疑难解答
+description: 如果您的Adobe Target活动未出现在您的网站上，请查找故障排除建议。
+title: 如何对活动进行疑难解答？
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 75%
+source-wordcount: '838'
+ht-degree: 76%
 
 ---
 

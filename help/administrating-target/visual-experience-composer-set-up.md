@@ -1,13 +1,14 @@
 ---
 keywords: 可视体验书写器；vec；默认url；增强的体验书写器；eec；混合内容；体验快照；移动视口；css;css选择器
-description: 通过指定Adobe Target可视化体验书写器(VEC)的常规设置、移动视口配置和CSS选择器来配置它。
-title: 配置可视体验书写器(Vec)
+description: 了解如何通过指定Adobe Target可视化体验书写器(VEC)的常规设置、移动视口配置和CSS选择器来配置它。
+title: 如何配置可视体验书写器(VEC)?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 50%
+source-wordcount: '718'
+ht-degree: 49%
 
 ---
 

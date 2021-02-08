@@ -1,13 +1,13 @@
 ---
 keywords: 发行说明
-description: 在哪里可以找到有关先前版本的信息？
-title: 先前版本的发行说明
+description: 视图Adobe Target先前发行版包含的一列表功能、增强和修复。
+title: 先前发行版包含哪些功能？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '30513'
-ht-degree: 85%
+source-wordcount: '30522'
+ht-degree: 84%
 
 ---
 

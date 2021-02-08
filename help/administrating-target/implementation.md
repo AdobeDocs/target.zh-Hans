@@ -1,13 +1,14 @@
 ---
 keywords: 实施
-description: 在开始使用 Adobe Target 之前，您应该在网站上实施该产品，了解一些基本概念和术语，熟悉 Target 的工作原理以及与基础架构集成的方式，并了解 Target 系统如何跟踪访客。
-title: 实施
+description: 了解如何在您的网站上实施Adobe Target。 设置全局设置、实现方法（AEP Web SDK或at.js）等。
+title: 如何在我的站点上实施目标?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 43%
+source-wordcount: '143'
+ht-degree: 18%
 
 ---
 

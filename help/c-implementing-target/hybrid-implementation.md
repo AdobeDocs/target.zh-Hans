@@ -1,12 +1,13 @@
 ---
 keywords: 混合部署；混合；服务器端；服务器端；客户端；客户端；客户端；混合实现
-description: Adobe Target优惠了用于个性化、混合客户端和服务器端实施的独特混合部署模型。
-title: 混合实现
+description: 了解Adobe Target独特的混合部署模型，用于个性化、混合客户端和服务器端实施。
+title: 什么是混合目标实施？
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---

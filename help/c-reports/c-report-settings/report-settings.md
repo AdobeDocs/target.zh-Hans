@@ -1,13 +1,13 @@
 ---
 keywords: Target;报表;报表设置;预设;Target 预设;量度;受众;日期范围;设置;下载;表格视图;图形视图;平均提升度;提升度;提升度范围;置信区间;置信度;位置贡献;运行平均值;计数方法
-description: 帮助您设置要在Adobe Target报告中显示的元素的信息。 可保存报表设置，以供日后使用。
-title: 报表设置
+description: 了解如何在Adobe Target配置报告设置，包括指标、受众、日期范围等。
+title: 如何配置报告设置？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1922'
-ht-degree: 69%
+source-wordcount: '1918'
+ht-degree: 68%
 
 ---
 

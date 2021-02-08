@@ -1,12 +1,12 @@
 ---
 keywords: adobe目标;目标；文档；api;api;sdk;sdk;sdks；教程；doc；文档
-description: 在哪里可以找到目标文档？
-title: 文档概述
+description: 访问Adobe Target文档，包括在线帮助、教程、视频和开发人员文档（SDK、API和JavaScript库）。
+title: 在哪里可以找到目标文档？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '465'
 ht-degree: 2%
 
 ---

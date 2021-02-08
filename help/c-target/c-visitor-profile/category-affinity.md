@@ -1,13 +1,13 @@
 ---
 keywords: 亲和度;类别亲和度
-description: Adobe Target 中的类别亲和度功能会自动捕捉用户访问的类别，然后计算用户对该类别的喜爱程度，从而可以对用户进行定位和细分。这有助于确保内容会被定位到最有可能对该信息做出回应的访客。
-title: 使用类别关联
+description: 了解Adobe Target的类别关联，该关联会自动捕获用户访问的类别，然后计算用户的类别，以便能够定位和细分用户。
+title: 什么是类别关联?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 98%
+source-wordcount: '812'
+ht-degree: 94%
 
 ---
 

@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.triggerView;triggerView;triggerview;触发器视图;at.js;函数;函数;viewName;viewname;视图名称
-description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.triggerView (viewName, options) 函数的信息。
-title: Adobe.目标.触发器视图（视图名称，选项）- at.js 2.x
+description: 使用Adobe Targetat.js JavaScript库的adobe.目标.triggerView()函数，以用于单页应用程序(SPA)。 (at.js 2.x)
+title: 如何使用adobe.目标.triggerView()函数？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 91%
+source-wordcount: '284'
+ht-degree: 84%
 
 ---
 
 
-# adobe.目标.triggerView(viewName, options)- at.js 2.x
+# adobe.target.triggerView (viewName, options) - at.js 2.x
 
 每当加载新页面或重新渲染页面上的组件时，都可以调用此函数。应该为单页应用程序 (SPA) 实施 `adobe.target.triggerView()`，以便使用可视化体验编辑器 (VEC) 创建 A/B 测试和体验定位 (XT) 活动。如果未在网站上实施 `adobe.target.triggerView()`，则无法将 VEC 用于 SPA。有关更多信息，请参阅[单页应用程序实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。
 

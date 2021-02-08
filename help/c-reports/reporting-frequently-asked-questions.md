@@ -1,13 +1,13 @@
 ---
 keywords: 疑难解答；指标差异；常见问题；报告；新访客；新访客；返回访客；返回访客；返回访问；新访问
-description: 有关 Adobe Target 报表的常见问题解答列表。
-title: 报表常见问题解答
+description: 浏览一列表关于Adobe Target报告的常见问题和解答。
+title: 哪里可以找到有关目标报告的问题的答案？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 30%
+source-wordcount: '1135'
+ht-degree: 29%
 
 ---
 

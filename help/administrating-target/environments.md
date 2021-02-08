@@ -1,13 +1,14 @@
 ---
 keywords: 环境；疑难解答；最佳实践；ubox；重定向；重定向；白名单；黑名单；阻止列表允许列表;
-description: 组织您的站点和预制作环境，以便在Adobe Target轻松管理和分离报告。
-title: 环境
+description: 了解如何使用Adobe Target的环境组织您的站点和预制环境，以便轻松管理和实现分离报告。
+title: 什么是环境，如何使用它们？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 64%
+source-wordcount: '682'
+ht-degree: 63%
 
 ---
 

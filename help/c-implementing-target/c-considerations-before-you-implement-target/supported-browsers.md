@@ -1,13 +1,14 @@
 ---
 keywords: 浏览器;先决条件;要求;Internet Explorer;Chrome;Firefox;Safari;Android;Surface
-description: 已在各种浏览器和设备上对 Adobe Target 应用程序和内容交付进行了测试。
-title: 支持的浏览器
+description: 了解Adobe Target支持哪些因特网浏览器进行其界面和内容投放。
+title: 目标支持哪些浏览器？
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 86%
+source-wordcount: '308'
+ht-degree: 80%
 
 ---
 

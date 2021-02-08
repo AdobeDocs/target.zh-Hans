@@ -1,13 +1,13 @@
 ---
 keywords: 定位；AP报告；自动个性化报告；活动级别报告；优惠级别报告；优惠详细信息报告；常见问题解答
-description: 如何使用“Automated Personalization摘要”报告？
-title: 自动个性化摘要报表
+description: 了解如何解读Adobe Target的《Automated Personalization摘要》报告。 您可以从此报告切换到“自动细分”和“重要属性”报告。
+title: 如何使用Automated Personalization摘要报告？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 40%
+source-wordcount: '671'
+ht-degree: 38%
 
 ---
 

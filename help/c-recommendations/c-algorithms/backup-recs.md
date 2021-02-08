@@ -1,13 +1,13 @@
 ---
 keywords: 推荐;备用
-description: 如果您使用Adobe Target的备份推荐功能，则任何建议项目不足的建议将不显示默认内容。 “推荐”将改为显示备用算法的结果。
-title: 在目标Recommendations中使用备份建议
+description: 了解如何在Adobe TargetRecommendations使用备份建议。 建议项不足，则显示备份算法的结果。
+title: 如何在Recommendations使用备份建议？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 82%
+source-wordcount: '520'
+ht-degree: 81%
 
 ---
 

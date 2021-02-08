@@ -1,13 +1,13 @@
 ---
-keywords: multi-page;journey testing;multipage activity
-description: Adobe Target的多页活动允许您在多个页面上创建文章，并且设计特定于每个页面。
-title: 多页面活动
+keywords: 多页面;历程测试;多页面活动
+description: 了解如何在Adobe Target创建多页活动，让您能够使用特定于每个页面的设计在多个页面上创建文章。
+title: 如何创建多页活动?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 87%
+source-wordcount: '378'
+ht-degree: 85%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 定位；分析；跟踪服务器；目标分析；a4t
-description: 您可以在Adobe Target标准中配置活动，以将Adobe Analytics用作报告源(A4T)。
-title: 使用 Analytics 数据
+description: 了解如何在Adobe Target配置活动以将Adobe Analytics用作报告源。 此集成称为目标分析(A4T)。
+title: 如何在目标中使用分析数据？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 88%
+source-wordcount: '554'
+ht-degree: 85%
 
 ---
 

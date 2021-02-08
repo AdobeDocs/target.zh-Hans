@@ -1,13 +1,13 @@
 ---
 keywords: 概述和参考;行为
-description: 我如何理解和使用目标?
-title: 关键概念
+description: 学习Adobe Target的基础知识。 这是了解目标、活动类型和其他功能的好地方。
+title: 如何使用目标?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 98%
+source-wordcount: '1525'
+ht-degree: 96%
 
 ---
 

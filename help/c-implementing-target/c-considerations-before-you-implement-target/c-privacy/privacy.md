@@ -1,13 +1,14 @@
 ---
-keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
-description: Adobe Target 启用了一些流程和设置，使您能够在遵守适用数据隐私法律的情况下使用 Target。
-title: 隐私
+keywords: 隐私；ip地址；地域分选择退出割；选择退出；选择退出；数据隐私；政府规定；规定；gdpr;ccpa
+description: 了解Adobe Target如何遵守适用的数据隐私法，包括IP地址的收集和处理以及选择退出说明。
+title: 目标如何处理隐私问题？
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 78%
+source-wordcount: '658'
+ht-degree: 73%
 
 ---
 

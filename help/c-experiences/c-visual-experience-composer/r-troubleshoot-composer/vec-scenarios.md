@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations
-description: 本主题中的场景显示了对页面所做的更改如何影响Adobe Target显示体验的能力。
-title: 页面修改方案
+description: 浏览常见场景，显示在Visual Experience Composer(VEC)中对页面所做的更改如何影响Adobe Target显示体验的能力。
+title: 一些常见的页面修改方案是什么？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 92%
+source-wordcount: '532'
+ht-degree: 90%
 
 ---
 

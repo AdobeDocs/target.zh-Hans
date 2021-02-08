@@ -1,12 +1,12 @@
 ---
 keywords: 欢迎套件；目标欢迎套件；介绍；入门
-description: Adobe Target欢迎工具包——第4章——使用目标的技巧
-title: 欢迎工具包——第4章——使用目标的技巧
+description: 阅读我们专家小组关于将Adobe Target作为测试和个性化工作的一部分的提示。
+title: 在哪里可以找到使用目标的提示和技巧？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2900'
 ht-degree: 0%
 
 ---

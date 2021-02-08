@@ -1,13 +1,14 @@
 ---
 keywords: QA;预览;预览链接;移动设备;移动设备预览
-description: 使用移动预览链接可对移动设备应用程序活动轻松执行端到端 QA，并且无需任何特殊的测试设备即可在您的设备上感受到不同的体验。
-title: 在目标移动中使用移动预览链接
+description: 使用移动预览链接对移动应用程序活动执行端对端QA。 无需特殊测试设备，即可加入不同的体验。
+title: 如何在目标移动中使用移动预览链接？
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 92%
+source-wordcount: '586'
+ht-degree: 88%
 
 ---
 

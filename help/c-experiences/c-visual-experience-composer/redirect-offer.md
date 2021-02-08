@@ -1,13 +1,13 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: 如果要将访客发送到其他页面，而不是显示同一页面上的内容，请使用Adobe Target的“重定向到URL”选项。
-title: 重定向到 URL
+description: 了解如何在Adobe Target使用“重定向到URL”选项将访客发送到其他页面，而不是显示同一页面上的内容。
+title: 能否将页面重定向到其他URL?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 87%
+source-wordcount: '434'
+ht-degree: 84%
 
 ---
 

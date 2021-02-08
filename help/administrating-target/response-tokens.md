@@ -1,12 +1,13 @@
 ---
 keywords: 响应令牌；令牌；插件；插件；at.js；响应
-description: 响应令牌允许您自动输出Adobe Target特定信息(活动详细信息、用户用户档案信息、地理信息等)，以用于调试或与第三方系统（如Clicktale）集成
-title: 响应令牌
+description: 了解如何在Adobe Target使用响应令牌输出特定信息以用于调试和与第三方系统（如Clicktale）集成。
+title: 什么是响应令牌以及如何使用它们？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1580'
 ht-degree: 77%
 
 ---

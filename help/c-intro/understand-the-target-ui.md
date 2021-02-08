@@ -1,13 +1,13 @@
 ---
 keywords: 目标用户界面；用户界面；ui
-description: 如何使用用户界面(UI)?
-title: 了解用户界面
+description: 熟悉用户界面并查找指向详细信息的链接，帮助您充分利用目标。
+title: 如何使用目标UI?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 28%
+source-wordcount: '817'
+ht-degree: 27%
 
 ---
 

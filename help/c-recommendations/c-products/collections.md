@@ -1,13 +1,13 @@
 ---
 keywords: 收藏集;定位
-description: 收藏集是 Adobe Target 中一组符合推荐标准的产品或项目。
-title: 收藏集
+description: 了解如何使用Adobe TargetRecommendations的集合。 收藏集是一组符合推荐标准的产品或项目。
+title: 如何使用Recommendations活动中的集合？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 61%
+source-wordcount: '880'
+ht-degree: 60%
 
 ---
 

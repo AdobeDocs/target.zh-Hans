@@ -1,13 +1,13 @@
 ---
 keywords: 推荐设计;模板;创建设计;交付;输出
-description: Adobe Target·Recommendations的设计定义了推荐在页面上的显示方式。 设计可定义推荐的布局和格式，以提高访客参与度、转化率和收入。
-title: 设计概述
+description: 了解如何在Adobe TargetRecommendations使用设计来定义推荐在页面上的显示方式（1X4、1X6、2X2等）。
+title: 如何在Recommendations使用设计？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 

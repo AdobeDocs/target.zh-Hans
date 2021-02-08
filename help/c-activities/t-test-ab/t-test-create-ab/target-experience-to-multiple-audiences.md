@@ -1,13 +1,13 @@
 ---
 keywords: 多个受众;体验版本;定位体验版本
-description: 您可以将相同体验的版本目标到Adobe TargetA/B活动中的不同受众。 在可视化体验编辑器或基于表单的体验编辑器中，您可以为一个体验设置多个受众。
-title: A/B 测试中的多个体验版本
+description: 了解如何在Adobe TargetA/B活动将相同体验的不同受众进行目标。
+title: 能否在A/B活动中使用多个体验版本？
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 94%
+source-wordcount: '598'
+ht-degree: 92%
 
 ---
 

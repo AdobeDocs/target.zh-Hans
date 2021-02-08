@@ -1,13 +1,13 @@
 ---
 keywords: 可视化体验编辑器;VEC;轮播
-description: 本主题说明如何创建可在Adobe Target视觉体验书写器(VEC)中编辑的传送。
-title: 创建在视觉体验书写器中工作的轮盘
+description: 了解如何创建可在Adobe Target视觉体验书写器(VEC)中编辑的传送。
+title: 如何在视觉体验书写器中创建轮盘？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 69%
+source-wordcount: '154'
+ht-degree: 70%
 
 ---
 

@@ -1,12 +1,12 @@
 ---
 keywords: 实体;实体属性;将信息传递到推荐;行为数据;数据计数器;定义相对 URL;显示库存水平;定义价格;定义利润率;自定义属性
-description: 使用实体属性将产品或内容信息传递给Adobe Target·Recommendations。
-title: 实体属性
+description: 了解如何使用实体属性将产品或内容信息传递给Adobe Target·Recommendations。
+title: 如何使用实体属性？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1050'
 ht-degree: 89%
 
 ---

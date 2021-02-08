@@ -1,12 +1,12 @@
 ---
 keywords: 自动流量分配；定位；自动分配；自动分配
-description: Adobe Target的“自动分配”活动可以在两种或多种体验中确定获胜者，并自动将更多流量重新分配给获胜者，以在测试继续运行和学习的同时提高转化率。
-title: 与手动测试相比，自动分配可以更快地测试结果和更高的收入
+description: 了解Adobe Target的自动分配活动如何在两种或多种体验中确定入选方，并自动将更多流量重新分配给入选方。
+title: 自动分配活动能否获得更快的结果和更高的收入？
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---

@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;优惠;预览；启动；状态；标准；算法
-description: 在创建包含Adobe Target·Recommendations优惠的Recommendations活动、A/B测试或体验定位(XT)后，您需要对其进行预览，以确保在启动该活动之前可以获得结果。 目标Recommendations优惠了多种预览建议的方法。
-title: 预览并启动您的Recommendations活动
+description: '了解如何预览您的Adobe TargetRecommendations活动，确保在启动活动之前可获得结果。 '
+title: 如何预览和启动Recommendations活动?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 16%
+source-wordcount: '1350'
+ht-degree: 17%
 
 ---
 

@@ -1,13 +1,14 @@
 ---
 keywords: 实施;mbox.js 非 javascript;mbox;Adbox
-description: 使用AdBox在非现场实施中使用Adobe Target提供图像。
-title: 为图像创建 Adbox
+description: 使用AdBox在使用Adobe Target的非现场实施中传送图像。 AdBox就像mbox，但由URL而非JavaScript控制。
+title: 如何为图像创建Adbox?
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 80%
+source-wordcount: '328'
+ht-degree: 74%
 
 ---
 

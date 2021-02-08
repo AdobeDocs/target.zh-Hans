@@ -1,13 +1,13 @@
 ---
 keywords: 已知问题；已解决问题；发行说明；错误；问题；修复
-description: 在哪里可以找到已知问题和已解决的问题？
-title: 已知问题和已解决的问题
+description: 查找有关Adobe Target已知问题的信息，包括解决方法信息。 问题解决后，它们将移至“已解决”部分。
+title: 在哪里可以找到有关已知问题和已解决问题的信息？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '4355'
-ht-degree: 69%
+source-wordcount: '4419'
+ht-degree: 67%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 69%
 * 如果通过信息源或 API 未收到更新达 60 天之后，实体会正确过期；但是，过期后不会从目录搜索索引中删除已过期的实体。(IRI-857)
 * 标准和设计的“使用信息”叠加不反映它们在 A/B 活动和体验定位活动中的使用情况 (TGT-34331)
 * A/B 活动和体验定位活动中的 Recommendations 选件不显示 Recommendations 栏的可视预览。
-* 通过 API 创建的收藏集、排除项、标准和设计在 Target 用户界面中不可见，并且只能通过 API 进行编辑。(TGT-35777)
+* 通过API创建的集合、排除、条件和设计在目标用户界面中不可见，只能通过API进行编辑。 同样，如果您在目标UI中创建其中的任何项目，并稍后通过API编辑这些项目，这些更改将不会反映在目标UI中。 通过API编辑的项目应继续通过API进行编辑，以避免丢失任何修改。  (TGT-35777)
 * 通过 API 创建的 Recommendations 活动可在用户界面中查看，但只能通过 API 进行编辑。
 * “标准”列表（卡片）视图中显示的“自定义标准”信息源状态每十分钟刷新一次，在极少情况下可能会超过十分钟。“自定义标准”编辑视图中显示的状态将实时获取并始终保持为最新。(TGT-35896、TGT-36173)
 * 标准和设计卡不显示正确数量的活动。 如果在A/B活动中使用标准或设计，则卡可能会错误地显示未使用设计或标准，即使在活动中使用了设计或标准。 (TGT-36621、TGT-37217)

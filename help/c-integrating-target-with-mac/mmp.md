@@ -1,13 +1,13 @@
 ---
-keywords: Experience Cloud Audiences;audiences
-description: 通过 Experience Cloud 受众，Adobe Experience Cloud 解决方案能够传输和共享与网站访客有关的信息，以便每个解决方案均可使用相同的数据。
-title: Experience Cloud 受众
+keywords: Experience Cloud 受众;受众
+description: 了解Adobe Experience Cloud受众如何让Experience Cloud解决方案与其他Adobe解决方案交流和共享有关网站访客的信息。
+title: 如何在目标中使用Adobe Experience Cloud受众?
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 78%
+source-wordcount: '85'
+ht-degree: 42%
 
 ---
 

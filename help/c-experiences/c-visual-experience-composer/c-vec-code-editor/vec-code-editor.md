@@ -1,12 +1,12 @@
 ---
-keywords: css selector;custom code;code editor;Mobile Web Experience Editor
-description: 有关Adobe Target州“修改”页面的信息，允许您将修改视图到页面并添加其他修改（CSS选择器、Mbox和自定义代码）。
-title: 修改
+keywords: CSS 选择器;自定义代码;代码编辑器;移动设备 Web 体验编辑器
+description: 了解如何使用Adobe Target的“修改”面板视图页面修改和添加其他修改（CSS选择器、Mbox和自定义代码）。
+title: 我可以对页面进行哪些修改？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2123'
 ht-degree: 95%
 
 ---

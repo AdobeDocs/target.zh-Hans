@@ -1,13 +1,14 @@
 ---
 keywords: targetPageParams;targetpageparams;pageParams;pageparams;页面参数;页面参数;at.js;函数;函数
-description: 有关 Adobe Target at.js JavaScript 库的 targetPageParams() 函数的信息。
-title: Targetpageparams()
+description: 使用Adobe Targetat.js JavaScript库的targetPageParams()函数将参数从请求代码外部附加到全局mbox。
+title: 如何使用targetPageParams()函数？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 88%
+source-wordcount: '168'
+ht-degree: 72%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 发行说明；发行；更新；未来发行；增强；新增功能；修复；更新；预发行
-description: 即将发布的版本包含哪些功能？
-title: 预发行说明
+description: 了解即将发布的Adobe Target版本（包括SDK、API和JavaScript库）中包含的新功能、增强和修复。
+title: 即将发布的版本中包含哪些新增功能？
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 27%
+source-wordcount: '514'
+ht-degree: 26%
 
 ---
 

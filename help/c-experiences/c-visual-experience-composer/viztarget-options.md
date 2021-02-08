@@ -1,13 +1,13 @@
 ---
 keywords: 可视化体验编辑器选项;体验编辑器选项;体验选项;编辑文本;编辑 html;编辑文本/html;编辑背景颜色;背景颜色;插入元素;编辑链接;链接;可视化体验编辑器链接;编辑 css 类;css 类;交换选件;选件交换;交换图像;图像交换;删除项目;项目删除;隐藏项目;项目隐藏;重新排列;移动元素;元素移动;调整元素大小;元素大小调整;元素;展开选定内容;导航到此链接;导航链接;链接导航;导航;撤消;重做;撤消/重做
-description: 单击 Adobe Target 可视化体验编辑器 (VEC) 中某个页面元素时，会显示一个菜单，其中提供了可用于该元素类型的选项。
-title: 可视体验书写器(VEC)选项
+description: 浏览Adobe Target可视化体验书写器(VEC)中提供的选项。 只需单击某个元素，即可查看该元素有哪些可用选项。
+title: 如何使用可视体验书写器(VEC)选项？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 94%
+source-wordcount: '2480'
+ht-degree: 93%
 
 ---
 

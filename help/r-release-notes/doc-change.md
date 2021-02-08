@@ -4,10 +4,10 @@ description: 对Adobe Target产品文档进行重要补充和更改，让文档�
 title: 在哪里可以视图文档更新以进行目标?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3600'
+ht-degree: 28%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 0%
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2月8日 | [Target 移动设备预览](/help/c-target-mobile-app/target-mobile-preview.md) | 添加了应添加到AdobeMobile SDK版本4的AndroidManifest.xml文件的代码片段。 |
+|  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 明确了以下已知问题：<ul><li>通过API创建的集合、排除、条件和设计在目标用户界面中不可见，只能通过API进行编辑。 同样，如果您在目标UI中创建其中的任何项目，并稍后通过API编辑这些项目，这些更改将不会反映在目标UI中。 通过API编辑的项目应继续通过API进行编辑，以避免丢失任何修改。</li></ul> |
 | 2月1日 | [自动个性化摘要报表](/help/c-reports/reports-ap.md) | 添加了新部分：“常见问题解答。” |
 | 27 年 1 月 | [创建重定向选件](/help/c-experiences/c-manage-content/offer-redirect.md) | 更新了主题。 |
 |  | [创建远程选件](/help/c-experiences/c-manage-content/about-remote-offers.md) | 更新了主题。 |

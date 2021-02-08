@@ -1,13 +1,13 @@
 ---
-keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
-description: 此信息介绍了随着访客配置文件发生更改，访客如何在体验定位 (XT) 活动中切换体验。
-title: 在体验定位中切换体验
+keywords: 优先级;体验创建;优先级;体验;受众;切换体验;可视化体验编辑器
+description: 了解访客如何在Adobe Target体验定位(XT)活动的用户档案发展过程中在体验之间切换。
+title: 访客能否在体验定位活动中切换体验？
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 100%
+source-wordcount: '915'
+ht-degree: 96%
 
 ---
 

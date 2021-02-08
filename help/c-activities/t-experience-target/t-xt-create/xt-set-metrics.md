@@ -1,13 +1,13 @@
 ---
-keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: 可在 Adobe Target 体验定位 (XT) 活动中使用量度来确定访问何时被视为成功。
-title: 设置量度
+keywords: 体验定位;XT;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
+description: 了解如何在Adobe Target体验定位活动中指定指标以确定访问成功的时间，如转化、收入和参与。
+title: 如何在体验定位活动中设置目标指标？
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 88%
+source-wordcount: '353'
+ht-degree: 79%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 定位;体验;添加体验;体验添加
-description: Adobe Target的Adobe Target视觉体验书写器(VEC)为编辑页面上的体验提供了一个可视界面。
-title: 添加体验
+description: 了解如何在Adobe Target使用可视体验书写器(VEC)。 VEC为在页面上添加和编辑体验提供了一个可视界面。
+title: 如何在目标A/B活动中添加体验？
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 82%
+source-wordcount: '481'
+ht-degree: 79%
 
 ---
 

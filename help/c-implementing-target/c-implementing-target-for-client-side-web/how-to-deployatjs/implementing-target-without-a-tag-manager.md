@@ -1,13 +1,14 @@
 ---
 keywords: 实现目标；实现；实现at.js；标签管理器
-description: 此信息介绍了如何在不使用标签管理器（Adobe Launch 或动态标签管理）的情况下实施 Adobe Target。
-title: 无需标签管理器即可实施
+description: 了解如何指定设置（帐户详细信息、实现方法等） 无需使用标签管理器即可实施Adobe Targetat.js库。
+title: 如果没有标签管理器，我能否实施目标?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 69%
+source-wordcount: '1555'
+ht-degree: 68%
 
 ---
 

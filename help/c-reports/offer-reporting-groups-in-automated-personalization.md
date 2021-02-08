@@ -1,13 +1,13 @@
 ---
 keywords: 自动个性化；优惠;报告；组；报告组
-description: 有关在Adobe TargetAutomated Personalization(AP)活动中使用报告组的信息。
-title: 优惠报告集团在Automated Personalization（美联社）活动
+description: 了解如何在Adobe TargetAutomated Personalization优惠中使用活动报告组。 使用报告组，目标仅为每个报告组创建一个个性化模型。
+title: 我是否可以在Automated Personalization活动中使用优惠报告组？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 63%
+source-wordcount: '448'
+ht-degree: 61%
 
 ---
 

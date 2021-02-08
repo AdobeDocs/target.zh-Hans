@@ -1,13 +1,14 @@
 ---
 keywords: 实施;Mbox;mbox.js;下载 mbox.js;配置 mbox.js
-description: Target Standard 和 Premium 使用修改版的 Adobe Target mbox.js 文件。
-title: 下载 mbox.js
+description: 了解旧版mbox.js对Adobe Target的实施。 迁移至Adobe Experience PlatformWeb SDK(AEP Web SDK)或最新版at.js。
+title: 如何下载目标mbox.js库？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 68%
+source-wordcount: '286'
+ht-degree: 58%
 
 ---
 

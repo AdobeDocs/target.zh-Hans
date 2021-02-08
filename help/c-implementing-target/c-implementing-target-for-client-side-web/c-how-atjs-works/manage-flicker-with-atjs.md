@@ -1,13 +1,14 @@
 ---
 keywords: flicker;at.js；实现；异步；同步；同步
-description: 有关 Adobe Target at.js JavaScript 库如何在页面或应用程序加载期间阻止闪烁的信息。
-title: at.js 如何管理闪烁
+description: 了解at.js和Adobe Target如何在页面或应用程序加载过程中防止闪烁(默认内容在被活动内容替换之前立即显示)。
+title: at.js如何管理闪烁？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 80%
+source-wordcount: '668'
+ht-degree: 76%
 
 ---
 

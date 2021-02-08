@@ -1,14 +1,14 @@
 ---
 keywords: 定位;A4T;地域;地域定位;地域定位的精准度;国家/地区;省/州;城市;邮政编码;DMA;移动设备运营商;城市代码;地区代码;国家/地区代码;大都市代码;配置文件脚本;地域定位配置文件脚本;地域定位移动设备
-description: 使用 Adobe Target 受众基于用户的地理位置（包括其国家/地区、省/自治区/直辖市、城市、邮编/邮政编码、DMA 或移动设备运营商）定位用户。
-title: 受众中的地理选项
+description: 了解如何根据目标用户的地理位置（包括国家／地区、城市、邮政编码等）创建Adobe Target受众。
+title: 我是否可以目标基于访客的位置？
 feature: Audiences
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 88%
+source-wordcount: '971'
+ht-degree: 85%
 
 ---
 

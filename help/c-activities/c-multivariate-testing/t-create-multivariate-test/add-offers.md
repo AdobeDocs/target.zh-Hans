@@ -1,13 +1,13 @@
 ---
 keywords: mvt;multivariate test;优惠；组合
-description: 在 Adobe Target 中使用可视化体验编辑器 (VEC) 创建要包含在多变量测试 (MVT) 中的选件。
-title: 在Multivariate Tests(MVT)中创建组合
+description: 了解如何使用Adobe Target的可视体验书写器(VEC)创建要包含在Multivariate Test(MVT)中的优惠。
+title: 如何在Multivariate Tests(MVT)中创建组合？
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 93%
+source-wordcount: '511'
+ht-degree: 88%
 
 ---
 

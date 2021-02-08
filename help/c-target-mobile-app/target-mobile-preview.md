@@ -5,10 +5,10 @@ title: 如何在目标移动中使用移动预览链接？
 feature: Implement Mobile
 role: Developer
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 88%
+source-wordcount: '609'
+ht-degree: 82%
 
 ---
 
@@ -77,10 +77,16 @@ ht-degree: 88%
      }
    ```
 
-   为使移动设备预览功能在 Android 中正常工作，您还必须在 [!DNL AndroidManifest.xml] 中添加以下代码片段：
+   要使移动预览适用于Android，如果使用Adobe移动SDK的版本5，则还必须在[!DNL AndroidManifest.xml]中添加以下代码片段：
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
+   ```
+
+   如果您使用的是AdobeMobile SDK的版本4，请使用以下代码片段：
+
+   ```javascript
+   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
    ```
 
 ## 生成预览链接 {#section_D9D58173FFF34E9BB75EBF357273F128}

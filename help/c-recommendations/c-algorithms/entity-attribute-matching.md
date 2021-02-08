@@ -1,12 +1,12 @@
 ---
 keywords: 包含规则；包含条件；推荐；促销；动态过滤；动态；实体属性匹配
-description: 在Adobe TargetRecommendations动态过滤，方法是将潜在推荐项目池与用户已交互的特定项目进行比较。
-title: 目标Recommendations动态包含规则中实体属性匹配的筛选
+description: 了解如何在Adobe TargetRecommendations通过比较潜在项目池与用户与之交互的特定项目来动态过滤。
+title: 如何在Recommendations活动中按实体属性匹配进行筛选？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---

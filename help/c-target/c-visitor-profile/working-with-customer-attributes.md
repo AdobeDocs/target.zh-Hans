@@ -1,12 +1,12 @@
 ---
 keywords: 客户关系管理；客户记录服务；crs;crm;mbox3rdpartyid；客户属性；定位；csv;crm;adobe experience cloud人员
-description: 有关通过在Adobe Target人员服务中使用客户属性从客户关系管理(CRM)数据库中使用企业客户数据进行内容定位的信息。
-title: 客户属性
+description: 了解如何从客户关系管理(CRM)数据库中使用企业客户数据来定位Adobe Target的内容。
+title: 什么是客户属性以及如何使用它们？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1502'
 ht-degree: 37%
 
 ---

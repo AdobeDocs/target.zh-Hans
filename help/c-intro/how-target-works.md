@@ -1,12 +1,12 @@
 ---
 keywords: Adobe Experience PlatformWeb SDK;aep Web sdk;aep sdk;seo；搜索引擎优化；边缘群集，中央群集；at.js;mbox.js;
-description: 有关Adobe Target工作方式的信息，包括有关Adobe Experience PlatformWeb SDK、目标JavaScript库（at.js和mbox.js）以及您可以在目标中创建的各种活动类型的信息。
-title: 目标的工作方式
+description: 了解Adobe Target的工作方式，包括有关目标JavaScript库（at.js和AEP Web SDK）、Adobe数据中心和SEO测试的信息。
+title: 目标如何工作？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2516'
 ht-degree: 70%
 
 ---

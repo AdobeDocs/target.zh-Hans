@@ -1,13 +1,14 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;global;global mbox
-description: 有关全局 mbox 的常见问题解答 (FAQ) 列表。
-title: 全局 mbox 常见问题解答
+keywords: 故障诊断;常见问题解答;FAQ;全局;全局 mbox
+description: 阅读关于Adobe Target全球mbox的常见问题解答(FAQ)和答案。
+title: 有关全球mbox的常见问题有哪些？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '314'
+ht-degree: 93%
 
 ---
 

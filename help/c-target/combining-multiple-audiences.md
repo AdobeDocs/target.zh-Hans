@@ -1,13 +1,13 @@
 ---
 keywords: 受众;受众规则;合并受众;排除项;添加排除项;排除;临时受众
-description: 可随手合并多个受众（包括 Adobe Experience Cloud 受众和 Target 受众）以创建临时受众。您也可以创建排除规则，从某个规则中排除相应受众。
-title: 合并多个受众
+description: 了解如何快速合并多个受众(包括Adobe Experience Cloud受众和目标受众)，以创建专门受众。
+title: 我是否可以合并多个受众以创建新受众?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 99%
+source-wordcount: '905'
+ht-degree: 95%
 
 ---
 

@@ -1,13 +1,14 @@
 ---
 keywords: 全局mbox；自定义全局mbox；编辑at.js;at.js;implement at.js
-description: 帮助您为at.js自定义全局mbox的信息。
-title: 自定义全局 mbox
+description: 了解如何通过Adobe Target的“管理——实施”页面为at.js自定义全局mbox。
+title: 如何自定义全局mbox?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 55%
+source-wordcount: '179'
+ht-degree: 50%
 
 ---
 

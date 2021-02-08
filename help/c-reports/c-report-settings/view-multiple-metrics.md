@@ -1,13 +1,13 @@
 ---
 keywords: 目标；报告；报告设置；多个指标；指标；显示的指标；隐藏的指标
-description: 使用Adobe Target选择多个要视图的指标。
-title: 在报表中查看多个量度
+description: 了解如何使用Adobe Target在报告中选择多个视图。
+title: 如何在报表中视图多个指标？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 62%
+source-wordcount: '433'
+ht-degree: 59%
 
 ---
 

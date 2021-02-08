@@ -1,13 +1,14 @@
 ---
 keywords: 订单确认;orderConfirmPage
-description: 订单确认 mbox 将记录您网站上订单的详细信息，并能够基于收入和订单生成报表。订单确认 mbox 还可驱动推荐算法，例如“购买了产品 x，也购买了产品 y 的人”。
-title: 创建订单确认 mbox - mbox.js
+description: 了解旧版mbox.js对Adobe Target的实施。 迁移至Adobe Experience PlatformWeb SDK(AEP Web SDK)或最新版at.js。
+title: 如何使用mbox.js创建订单确认mbox?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 69%
+source-wordcount: '374'
+ht-degree: 58%
 
 ---
 

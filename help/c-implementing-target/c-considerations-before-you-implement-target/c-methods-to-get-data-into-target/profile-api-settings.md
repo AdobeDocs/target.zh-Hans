@@ -1,13 +1,14 @@
 ---
 keywords: 实现；api;用户档案;用户档案api设置；身份验证令牌
-description: 通过Adobe TargetAPI启用或禁用批量更新的身份验证，并生成用户档案身份验证令牌。
-title: 配置文件 API 设置
+description: 了解如何通过Adobe TargetAPI为批量更新配置身份验证并生成用户档案身份验证令牌。
+title: 如何使用用户档案API设置启用或禁用批量更新？
 feature: APIs/SDKs
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 41%
+source-wordcount: '327'
+ht-degree: 38%
 
 ---
 

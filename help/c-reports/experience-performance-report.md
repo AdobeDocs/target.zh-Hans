@@ -1,13 +1,13 @@
 ---
 keywords: 多变量测试;MVT;体验性能报表
-description: 体验性能报表显示活动中每个体验的执行情况。此报表包含有关参加者人数、转化率、提升度和置信度的信息。
-title: 体验性能报表 (MVT)
+description: 了解如何使用Adobe Target体验定位活动的体验绩效报告，以显示活动中每个体验的表现。
+title: 如何使用Experience Performance Report for Multivariate Tests?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 99%
+source-wordcount: '333'
+ht-degree: 89%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
-keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
-description: 报告包括多个数据点和可视化表示形式，它们可以帮助您了解与Adobe Target活动相关的提升界限和置信度级别，从而帮助您更准确地确定获胜者。
-title: 平均提升度、提升度范围和置信区间
+keywords: Target;报表;报表设置;环境;提升度;提升度范围;方差;置信度;控制
+description: 了解如何解释Adobe Target报告，这些报告包括数据点和可视化表示形式，帮助您了解活动的提升范围和信心级别。
+title: 如何视图平均提升、提升边界和置信区间？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 73%
+source-wordcount: '817'
+ht-degree: 72%
 
 ---
 

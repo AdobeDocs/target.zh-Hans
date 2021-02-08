@@ -1,13 +1,14 @@
 ---
 keywords: 电子邮件；adbox；电子邮件图像：box
-description: 使用Adobe Target动态测试电子邮件中的图像，甚至在有人打开电子邮件时即时更改这些图像。
-title: 测试电子邮件图像 Adbox
+description: 了解如何使用Adobe Target动态测试电子邮件中的图像，甚至在有人打开电子邮件时即时更改这些图像。
+title: 如何测试电子邮件图像Adbox?
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 93%
+source-wordcount: '422'
+ht-degree: 90%
 
 ---
 

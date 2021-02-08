@@ -1,13 +1,13 @@
 ---
 keywords: 分析跟踪服务器；A4T;Adobe Experience Cloud调试器；Adobe Experience Platform调试器；报告源；开发人员工具
-description: 如果您使用的是较低版本的 at.js 或 mbox.js，则必须为使用 Analytics for Target (A4T) 的活动指定 Analytics 跟踪服务器。
-title: 使用分析跟踪服务器
+description: '了解如何为使用Analytics for目标(A4T)的活动指定Analytics跟踪服务器（如果您使用的是at.js或mbox.js的旧版本）。 '
+title: 如何使用Analytics跟踪服务器？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 25%
+source-wordcount: '717'
+ht-degree: 22%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 局部数据;部分数据;A4T;差异;analytics for target;孤立;虚拟报表包;虚拟;故障诊断;未拼合;夸大;未指定
-description: 此信息可帮助您在使用 Analytics 作为报表源时最大限度地降低夸大的访问和访客计数所带来的影响。
-title: 在 A4T 中最大限度地减少夸大的访问和访客计数
+description: 了解在使用Analytics for访客(A4t)时如何将夸大的访问和目标计数的影响降至最低。 了解什么是“部分数据”以及如何减少数据。
+title: 如何将A4T中夸大的访问和访客计数降至最低？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 97%
+source-wordcount: '1375'
+ht-degree: 94%
 
 ---
 

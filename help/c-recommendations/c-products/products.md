@@ -1,13 +1,13 @@
 ---
-keywords: product;collections
-description: 实体是指您想使用 Adobe Target 推荐的项目。实体可以是任何事物，例如产品、内容（文章、幻灯片、图像、电影和电视节目）、工作列表、餐馆等。
-title: Adobe Target 中的实体
+keywords: 产品;收藏集
+description: 了解Adobe TargetRecommendations的实体。 实体是指您希望推荐使用目标的项目，如文章、影片或产品。
+title: 如何使用实体？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 100%
+source-wordcount: '107'
+ht-degree: 72%
 
 ---
 

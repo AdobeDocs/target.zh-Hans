@@ -1,13 +1,13 @@
 ---
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;自动化区段;常见问题解答;常见问题解答;重要属性
-description: 自动个性化 (AP) 和自动定位 (AT) 活动的用户可以使用两个专门的报表：自动化区段和重要属性报表。
-title: 个性化分析报表
+description: 了解如何使用针对Automated Personalization(AP)和自动目标(AT)活动的专门报告——自动细分和重要属性。
+title: 如何使用个性化洞察报告？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 72%
+source-wordcount: '743'
+ht-degree: 69%
 
 ---
 

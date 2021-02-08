@@ -1,12 +1,12 @@
 ---
 keywords: 标准序列；多标准；算法；标准；推荐标准；序列；返回的项目数限制；插槽级别控制；插槽
-description: 使用最多五个标准的序列对您的Adobe TargetRecommendations活动中显示的项目进行更大控制。
-title: 创建条件序列
+description: 了解如何设置多达五个标准的序列，以更好地控制在您的Adobe TargetRecommendations活动中显示的项目。
+title: 如何在Recommendations创建标准序列？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '834'
 ht-degree: 34%
 
 ---

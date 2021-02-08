@@ -1,14 +1,14 @@
 ---
 keywords: 自动个性化；优惠;目标;受众；定位规则；定位
-description: 在自动个性化活动中，您可以将选件定位到特定的受众。
-title: 'Automated Personalization优惠 '
+description: 了解如何使用Adobe Target的Automated Personalization(AP)活动将个别优惠目标到特定受众。
+title: 如何目标Automated Personalization优惠?
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 93%
+source-wordcount: '372'
+ht-degree: 87%
 
 ---
 

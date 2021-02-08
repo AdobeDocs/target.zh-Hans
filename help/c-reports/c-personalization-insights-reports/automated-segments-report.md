@@ -1,10 +1,10 @@
 ---
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;自动化区段;常见问题解答
-description: 有关“自动细分”报告的信息，这是Automated Personalization(AP)活动和Adobe Target自动目标(AT)用户可使用的两种专门报告之一。
-title: 自动细分报告
+description: 通过查看“自动细分”报告，了解Adobe Target个性化模型定义的不同细分如何响应活动中的优惠/体验。
+title: 什么是自动细分报告？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 92%

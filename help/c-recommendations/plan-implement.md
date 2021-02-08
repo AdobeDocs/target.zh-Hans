@@ -1,13 +1,13 @@
 ---
-keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
-description: 您在创建“推荐”活动之前需要了解的信息。
-title: 计划和实施推荐
+keywords: 推荐;设置;首选项;垂直行业;筛选不兼容的标准;默认主机组;缩览图基本 URL;推荐 API 令牌
+description: '了解如何在Adobe Target实施Recommendations活动。 确保您的实施符合必要的先决条件要求。 '
+title: 如何实施Recommendations活动?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 96%
+source-wordcount: '1619'
+ht-degree: 95%
 
 ---
 

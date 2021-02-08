@@ -1,13 +1,13 @@
 ---
 keywords: 创建推荐;推荐活动;新建推荐;推荐概述
-description: 使用 Target 可视化体验编辑器 (VEC)，可直接在启用了 Target 的页面上创建“推荐”活动，并在 Target 中修改页面的各个部分。
-title: 创建“推荐”活动
+description: 了解如何使用Adobe Target可视化体验书写器(VEC)在启用目标的页面上直接创建Recommendations活动。
+title: 如何创建Recommendations活动?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 78%
+source-wordcount: '1309'
+ht-degree: 76%
 
 ---
 

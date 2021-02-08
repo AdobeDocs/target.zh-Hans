@@ -1,13 +1,13 @@
 ---
-keywords: targeting;collisions;conflicts
-description: Adobe Target列表活动冲突站点中“活动概述”页面上的“冲突”选项卡。
-title: 活动冲突
+keywords: 定位；冲突
+description: 当设置多个活动以将内容交付到同一页面时，会发生冲突。 了解如何在使用Adobe Target时避免冲突。
+title: 如何避免活动冲突？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 83%
+source-wordcount: '349'
+ht-degree: 79%
 
 ---
 

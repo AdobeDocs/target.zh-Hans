@@ -1,13 +1,14 @@
 ---
 keywords: mboxCreate;mboxcreate;mbox 创建;at.js;函数;函数
-description: 有关 Adobe Target at.js JavaScript 库的 mboxCreate(mbox,params) 函数的信息。
-title: Mboxcreate(Mbox,Params)- at.js 1.x
+description: 使用Adobe Targetat.js JavaScript库的mboxCreate()函数将优惠应用于具有mboxDefault类名的最近的DIV。 (at.js 1.x)
+title: 如何使用mboxCreate()函数？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 97%
+source-wordcount: '204'
+ht-degree: 85%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;Recommendations标准；推荐算法；推荐活动；标准；推荐定位；
-description: Adobe TargetRecommendations活动会根据先前的用户活动或其他算法自动显示可能吸引客户的产品或内容。 “推荐”有助于将客户导向到他们可能还不知道的相关项目。
-title: 目标Recommendations
+description: 了解Adobe TargetRecommendations活动，它们会根据先前的用户活动或其他算法自动显示可能吸引客户的内容。
+title: 什么是目标Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 59%
+source-wordcount: '930'
+ht-degree: 58%
 
 ---
 

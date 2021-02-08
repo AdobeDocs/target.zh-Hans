@@ -1,13 +1,13 @@
 ---
 keywords: 定位;受众;百分比定位
-description: 可在 Adobe Target 中通过使用受众将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。
-title: 受众
+description: 了解如何使用Adobe Target的受众将不同的内容和体验目标到特定受众，以优化您的Web营销工作。
+title: 如何使用受众将不同内容目标到特定细分？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 99%
+source-wordcount: '357'
+ht-degree: 89%
 
 ---
 

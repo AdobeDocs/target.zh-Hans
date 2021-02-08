@@ -1,12 +1,12 @@
 ---
 keywords: 故障诊断;常见问题解答;FAQ;推荐;特殊字符;属性权重;内容相似度
-description: 列表关于Adobe TargetRecommendations活动的常见问题解答(FAQ)。
-title: 目标Recommendations常见问题解答
+description: 视图一列表关于Adobe TargetRecommendations活动的常见问题解答。
+title: 在哪里可以找到关于目标Recommendations的问题和答案？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '2041'
 ht-degree: 80%
 
 ---

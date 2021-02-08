@@ -1,13 +1,14 @@
 ---
 keywords: 实施;设置;设定;页面参数;tomcat;url 编码;页面内配置文件属性;mbox 参数;页面内配置文件属性;脚本配置文件属性;批量配置文件更新 API;单个文件更新 API;客户属性;数据提供程序
-description: 有关将数据导入Adobe Target的各种方法的信息，包括页面参数、页面内用户档案属性、脚本用户档案属性、数据提供者、批量用户档案更新API、单个用户档案更新API和客户属性。
-title: 将数据导入目标的方法
+description: 将数据导入目标(页面参数、用户档案属性、脚本用户档案属性、数据提供者、单个和批量用户档案更新API、客户属性)。
+title: 如何将数据引入目标?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1972'
-ht-degree: 92%
+source-wordcount: '1956'
+ht-degree: 93%
 
 ---
 

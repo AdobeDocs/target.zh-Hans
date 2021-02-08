@@ -1,13 +1,13 @@
 ---
 keywords: 受众;受众规则;创建受众
-description: 您可以创建自定义受众并将其保存到 Target 库，以供在活动中使用。您可以复制现有受众，然后对其进行编辑以创建类似受众；此外，也可以合并多个受众。
-title: 构建受众
+description: 了解如何创建自定义受众并将其保存到Adobe Target受众库以供在活动中使用。
+title: 如何构建受众?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 99%
+source-wordcount: '464'
+ht-degree: 94%
 
 ---
 

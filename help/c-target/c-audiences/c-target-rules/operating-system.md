@@ -1,13 +1,13 @@
 ---
 keywords: 定位;定位操作系统;操作系统;定位 OS;OS;定位 Linux;Linux;定位 Windows;Windows;定位 Macintosh;Macintosh;Mac;定位 Mac;Win;定位 Win
-description: 您可以定位使用某种操作系统的访客。
-title: 操作系统 受众选项
+description: 了解如何目标使用特定操作系统（Linux、Macintosh或Windows）的访客。
+title: 我是否可以基于操作系统目标访客?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 97%
+source-wordcount: '129'
+ht-degree: 82%
 
 ---
 

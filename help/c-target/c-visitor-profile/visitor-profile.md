@@ -1,13 +1,13 @@
 ---
 keywords: 概述和参考
-description: 访客配置文件包含有关访客如何使用您的页面和其他已优化内容位置的信息
-title: 访客配置文件
+description: 进一步了解访客用户档案，这些访客包含有关您的如何使用页面和其他优化内容位置的信息。
+title: 什么是访客用户档案?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 78%
 
 ---
 

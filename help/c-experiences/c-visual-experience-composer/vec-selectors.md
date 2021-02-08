@@ -1,13 +1,13 @@
 ---
 keywords: 体验定位;登陆页面测试
-description: 元素选择器是可以标识一个或多个元素的 CSS 表达式。
-title: 可视化体验编辑器中使用的元素选择器 (VEC)
+description: '元素选择器是可标识一个或多个元素的CSS表达式。 了解如何在Adobe Target可视化体验书写器(VEC)中使用元素选择器。 '
+title: 我是否可以在可视体验书写器(VEC)中使用元素选择器？
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 91%
+source-wordcount: '428'
+ht-degree: 82%
 
 ---
 

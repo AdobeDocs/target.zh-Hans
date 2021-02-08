@@ -1,12 +1,12 @@
 ---
 keywords: 欢迎套件；目标欢迎套件；介绍；入门
-description: Adobe Target欢迎工具包——第二章-目标一览
-title: 欢迎工具包——第2章——一览表
+description: 高层来看Adobe Target。 了解可用活动、渠道、实施、集成等。
+title: 哪里可以找到目标的高级介绍？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2520'
 ht-degree: 17%
 
 ---

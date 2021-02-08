@@ -1,13 +1,13 @@
 ---
 keywords: 推荐;选件
-description: Adobe Recommendations 可作为 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动的选件
-title: Recommendations在A/B测试(包括自动分配和自动目标)和体验定位(XT)活动中担任优惠
+description: 了解如何在A/B测试(包括自动分配和自动目标)和体验定位(XT)活动中将Adobe Recommendations用作优惠。
+title: 如何将Recommendations用作其他活动类型的优惠?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 95%
+source-wordcount: '556'
+ht-degree: 92%
 
 ---
 

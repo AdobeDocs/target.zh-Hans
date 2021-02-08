@@ -1,13 +1,13 @@
 ---
 keywords: 概述和参考
-description: 可将 Target 与 Adobe Campaign 结合使用来优化电子邮件内容。
-title: 将 与 Adobe Campaign 集成
+description: 了解如何将Adobe Target与Adobe Campaign结合使用以优化电子邮件内容。
+title: 如何将目标与Adobe Campaign相集成？
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 51%
+source-wordcount: '385'
+ht-degree: 47%
 
 ---
 

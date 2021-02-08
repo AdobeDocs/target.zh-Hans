@@ -1,13 +1,13 @@
 ---
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;FAQ;常见问题解答;重要属性
-description: 此信息介绍了重要属性报表，该报表是自动个性化 (AP) 和自动定位 (AT) 活动用户可以使用的两个专门报表之一。
-title: 重要属性报告
+description: 了解如何使用Adobe Target的重要属性报告，该报告显示影响个性化模型的顶级属性及其相对重要性。
+title: 什么是重要属性报告？
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 94%
+source-wordcount: '1656'
+ht-degree: 92%
 
 ---
 

@@ -1,12 +1,12 @@
 ---
 keywords: 公告；技能生成器；开发人员聊天；咖啡休息；事件;forrester;gartner；网络研讨会
-description: 在哪里可以找到即将举办的事件和网络研讨会？
-title: 公告与事件
+description: 阅读公告并注册Adobe Target事件，包括Skill Builder研习会、开发人员和产品经理聊天、网络研讨会等。
+title: 在哪里可以找到目标公告和事件?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---

@@ -1,13 +1,13 @@
 ---
 keywords: 重定向选件;创建重定向选件;添加 HTML 选件;在重定向中传递所有 URL 参数;在重定向中传递 mboxSessionId（仅当要重定向到其他域时才需使用此功能）
-description: 我是否可以使用重定向优惠来使浏览器重定向到新页面？
-title: 创建重定向选件
+description: '了解如何在Adobe Target创建重定向优惠以使浏览器重定向到新页面。 '
+title: 如何创建重定向优惠?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 49%
+source-wordcount: '1190'
+ht-degree: 48%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 定位;定位库;库
-description: 可基于预先构建的定位规则定位用户。
-title: 定位库 受众选项
+description: 了解如何使用预建的传统访客定位受众。 最佳实践是使用较新的受众类别来改进性能。
+title: 我能否根据预建的定位规则目标访客?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 98%
+source-wordcount: '202'
+ht-degree: 85%
 
 ---
 

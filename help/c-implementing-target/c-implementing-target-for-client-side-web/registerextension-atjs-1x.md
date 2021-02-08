@@ -1,18 +1,19 @@
 ---
 keywords: registerExtension;registerextension;注册扩展;at.js;函数;函数;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;超时
-description: 有关 Adobe Target at.js JavaScript 库的 registerExtension() 函数的信息。
-title: Registerextension()- at.js 1.x
+description: 使用Adobe Targetat.js JavaScript库的registerExtension()函数注册特定扩展。 (at.js 1.x)
+title: 如何使用registerExtension()函数？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 97%
+source-wordcount: '271'
+ht-degree: 90%
 
 ---
 
 
-# registerExtension()- at.js 1.x
+# registerExtension() - at.js 1.x
 
 可提供用于注册特定扩展的标准方法。
 

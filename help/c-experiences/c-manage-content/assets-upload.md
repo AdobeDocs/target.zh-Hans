@@ -1,13 +1,13 @@
 ---
 keywords: 内容;更新内容;资产;上传内容;上传资产
-description: 如何上传图像以用作图像优惠?
-title: 上传内容
+description: 了解如何上传图像以在Adobe Target用作图像优惠。
+title: 如何将内容上传到优惠库？
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 19%
+source-wordcount: '233'
+ht-degree: 18%
 
 ---
 

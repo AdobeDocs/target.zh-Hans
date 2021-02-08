@@ -1,13 +1,14 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
-description: 组织您的站点和预制作环境，以便在Adobe Target轻松管理和分离报告。
-title: 主机
+keywords: 主机；主机；主机组；疑难解答；最佳实践；ubox；重定向；重定向；白名单；允许列表；黑名单阻止列表;
+description: 了解如何组织网站和预制作环境，以便在Adobe Target轻松管理和分离报告。
+title: 什么是主持人以及如何使用他们？
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 25%
+source-wordcount: '1108'
+ht-degree: 24%
 
 ---
 

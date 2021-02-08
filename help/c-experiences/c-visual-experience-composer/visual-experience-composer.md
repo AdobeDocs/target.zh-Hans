@@ -1,13 +1,13 @@
 ---
 keywords: 视觉体验书写器；vec;wysiwyy
-description: 有关在 Adobe Target 中使用可视化体验编辑器 (VEC) 的信息。
-title: 可视化体验编辑器 (VEC)
+description: 学习在Adobe Target使用视觉体验书写器(VEC)的基础知识。 VEC是WYSIWYG编辑器，可让您轻松创建个性化体验。
+title: 如何使用可视体验书写器(VEC)?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 94%
+source-wordcount: '1401'
+ht-degree: 92%
 
 ---
 

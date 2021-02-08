@@ -1,13 +1,13 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4T;classifications;classification;classifications importer;post-tnt-action
-description: 本主题包含有关分类和使用 Analytics 作为 Target 报表源 (A4T) 的常见问题解答。
-title: 分类 - A4T 常见问题解答
+keywords: FAQ;常见问题解答;Analytics for Target;A4T;分类;分类导入程序;post-tnt-action
+description: 查找有关分类和使用目标分析(A4T)的问题的答案。 A4T允许您对目标报告使用Analytics活动。
+title: 在哪里可以找到有关A4T分类的信息？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 65%
+source-wordcount: '264'
+ht-degree: 55%
 
 ---
 

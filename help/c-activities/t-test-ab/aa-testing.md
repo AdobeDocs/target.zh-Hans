@@ -1,12 +1,12 @@
 ---
 keywords: a/b;a/a;aa;
-description: 在使用Adobe Target在您的网站上执行A/A测试之前，请务必了解A/A测试是什么、您为什么要执行A/A测试、运行测试的时间以及如何解释测试结果。
-title: A/A测试
+description: 了解A/A测试是什么，执行A/A测试的原因，运行测试的时间以及如何解释测试结果。
+title: 什么是A/A测试？
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---

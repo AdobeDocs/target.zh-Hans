@@ -1,12 +1,12 @@
 ---
 keywords: 站点页；目标站点页；定位；当前页；目标当前页；上一页；目标上一页；登陆页;目标登陆页;http头
-description: 您可以目标站点上特定页面的访客。
-title: 受众中的站点页面选项
+description: 了解如何使用Adobe Target目标访客，他们位于您网站的特定页面。
+title: 我是否可以根据网页目标访客?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '890'
 ht-degree: 42%
 
 ---

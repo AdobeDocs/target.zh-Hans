@@ -1,13 +1,13 @@
 ---
 keywords: VEC;可视化体验编辑器;VEC;iframe;扩展;浏览器
-description: 此信息介绍如何使用 Adobe Target 可视化体验编辑器 (VEC) 助手浏览器扩展在 VEC 内可靠地加载网站，以快速创作和 QA 体验。
-title: 可视体验书写器(VEC)帮助程序扩展
+description: 了解为何某些网站在Visual Experience Composer(VEC)中无法可靠打开。 VEC Helper浏览器扩展允许您在VEC中可靠地加载网站。
+title: 如何使用Visual Experience Composer(VEC)Helper Extension?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 57%
+source-wordcount: '890'
+ht-degree: 53%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 包含规则；包含条件；推荐；促销；动态过滤；动态；用户档案属性匹配
-description: 在Adobe TargetRecommendations，通过比较项目（实体）与用户用户档案中的值来动态过滤。
-title: 用户档案推荐中动态包含规则的目标属性匹配过滤
+description: 了解如何在Adobe TargetRecommendations通过比较项目（实体）与用户用户档案中的值来动态过滤。
+title: 如何在Recommendations活动中按用户档案属性匹配进行筛选？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 7%
+source-wordcount: '487'
+ht-degree: 6%
 
 ---
 

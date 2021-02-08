@@ -1,13 +1,13 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
-description: 此信息介绍了字符限制和会影响 Adobe Target 中活动和其他元素的其他限制（选件大小、受众、配置文件、值、参数等）。
-title: 限制
+keywords: 字符限制；mbox参数；批投放api;用户档案参数；限制；限制；限制；内置用户档案；最大值；限制；约束；字符；最佳实践；orderid;orderTotal;mbox3rdPartyID;类别;categoryID；疑难解答
+description: 视图字符限制和其他限制的列表(优惠大小、受众、用户档案、值、参数等) 会影响 Adobe Target 中活动和其他元素的其他限制（选件大小、受众、配置文件、值、参数等）。
+title: 查看字符限制和其他限制的列表(优惠大小、受众、用户档案、值、参数等) 会影响 Adobe Target 中活动和其他元素的其他限制（选件大小、受众、配置文件、值、参数等）。
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1086'
+ht-degree: 67%
 
 ---
 

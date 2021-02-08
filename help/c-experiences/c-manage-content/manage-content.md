@@ -1,12 +1,12 @@
 ---
-keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: 如何管理代码和图像优惠?
-title: 选件
+keywords: 内容;资产;管理内容;选件;管理资产;进入选择模式;选择模式
+description: 了解如何使用Adobe Target的优惠库管理代码和图像优惠。
+title: 如何管理代码和图像优惠?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '552'
 ht-degree: 37%
 
 ---

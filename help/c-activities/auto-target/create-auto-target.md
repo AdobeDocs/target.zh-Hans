@@ -1,12 +1,12 @@
 ---
 keywords: 创建自动目标;A/B测试；自动目标活动；新的a/b活动；自动目标；个性化体验的自动目标；个性化体验
-description: 使用Adobe Target的可视体验书写器(VEC)直接在启用目标的页面上创建自动目标A/B测试活动，并修改目标中页面的部分。
-title: 创建自动目标活动
+description: 了解如何在启用目标的页面上使用Adobe Target的可视体验书写器(VEC)直接创建自动目标A/B测试活动。
+title: 如何创建自动目标活动?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '937'
 ht-degree: 57%
 
 ---

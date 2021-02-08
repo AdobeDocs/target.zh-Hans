@@ -1,13 +1,13 @@
 ---
-keywords: recommendations;frequently asked questions;faq
-description: 列表关于Adobe Target推荐设计的常见问题解答(FAQ)。
-title: 设计常见问题解答
+keywords: 推荐;常见问题解答;FAQ
+description: 查看一列表常见问题解答(FAQ)及其对Adobe Target·Recommendations设计的解答。
+title: 哪里可以回答目标·Recommendations的设计问题？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 85%
+source-wordcount: '412'
+ht-degree: 82%
 
 ---
 

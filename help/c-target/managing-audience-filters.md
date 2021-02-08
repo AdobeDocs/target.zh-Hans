@@ -1,13 +1,13 @@
 ---
 keywords: 定位；受众过滤器；受众；过滤器
-description: Adobe Target受众过滤器(或受众)是具有特定特征或一组特征的访客群体。
-title: 报表受众筛选器
+description: 了解如何使用Adobe Target的受众过滤器视图来自共享特定特征或特征集的访客组的数据。
+title: 我是否可以将受众过滤器用于报告?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 81%
+source-wordcount: '492'
+ht-degree: 79%
 
 ---
 

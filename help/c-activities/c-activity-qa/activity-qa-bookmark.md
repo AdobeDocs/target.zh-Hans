@@ -1,13 +1,13 @@
 ---
 keywords: QA;预览;书签;预览链接
-description: 帮助您使用Adobe TargetQA书签强制目标从QA模式中释放您的信息。
-title: 活动 QA 书签
+description: 了解如何使用Adobe TargetQA书签强制目标从QA模式中释放您。
+title: 如何使用活动QA书签？
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 28%
+source-wordcount: '267'
+ht-degree: 27%
 
 ---
 

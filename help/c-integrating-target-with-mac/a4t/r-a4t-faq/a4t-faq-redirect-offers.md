@@ -1,13 +1,13 @@
 ---
 keywords: FAQ;常见问题解答;Analytics for Target;A4T;重定向;重定向选件;adobe-mc-sdid;adobe_mc_ref
-description: 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时使用重定向选件的常见问题解答。
-title: 重定向选件 - A4T 常见问题解答
+description: 查找有关在使用Analytics for优惠(A4T)时使用重定向目标的问题的解答。 A4T允许您对目标报告使用Analytics活动。
+title: 哪里可以找到有关使用A4T重定向优惠的常见问题解答？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 94%
+source-wordcount: '1228'
+ht-degree: 91%
 
 ---
 

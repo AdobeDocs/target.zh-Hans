@@ -1,13 +1,14 @@
 ---
 keywords: 云实例;公共后缀列表;公共后缀;Cookie;第一方 Cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: 此信息介绍了客户在使用基于云的实例来测试 Adobe Target 时遇到的一些问题。
-title: 使用基于云的实例
+description: 探索客户在使用基于云的实例测试Adobe Target或用于概念验证时面临的问题（使用解决方案）。
+title: 我是否可以对基于云的实例使用目标?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 94%
+source-wordcount: '170'
+ht-degree: 81%
 
 ---
 

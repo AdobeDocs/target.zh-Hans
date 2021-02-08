@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;获取选件;at.js;函数;函数
-description: 有关 Adobe Target at.js JavaScript 库的 adobe.target.getOffers(options) 函数的信息。
-title: Adobe.目标.Getoffers（选项）- at.js 2.x
+description: 使用adobe.目标.getOffers()函数及其选项，Adobe Targetat.js库触发请求以获取多个目标优惠。 (at.js 2.x)
+title: 如何使用adobe.目标.getOffers()函数？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 92%
+source-wordcount: '1240'
+ht-degree: 90%
 
 ---
 
 
-# adobe.目标.getOffers（选项）- at.js 2.x
+# adobe.target.getOffers(options) - at.js 2.x
 
 此函数允许您通过传递多个 mbox 来检索多个选件。此外，还可以针对活跃活动中的所有视图检索多个选件。
 

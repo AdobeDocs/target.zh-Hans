@@ -1,13 +1,13 @@
 ---
 keywords: 推荐;设置;名称;目标;优先级;持续时间;报表设置;其他元数据
-description: 有些设置可用于描述和控制 Adobe Target 中的“推荐”活动。
-title: “推荐”活动设置
+description: 了解如何配置用于描述和控制Adobe TargetRecommendations活动的设置。
+title: 如何配置Recommendations活动设置？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 90%
+source-wordcount: '397'
+ht-degree: 84%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 定位;定位类别;定位条件;Audience Manager;自定义配置文件参数;访客配置文件;自定义用户参数;定位规则
-description: 您可以对任意类别进行定位。每种类别均以选项卡的方式工作，让您能够为每种类别创建定位规则（或组）。
-title: 受众类别
+description: 了解如何使用类别(如浏览器、地理、网络、操作系统、访客用户档案)目标内容。
+title: 受众的类别是什么？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 98%
+source-wordcount: '380'
+ht-degree: 92%
 
 ---
 

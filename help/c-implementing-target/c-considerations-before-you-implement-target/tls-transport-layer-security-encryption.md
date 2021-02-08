@@ -1,13 +1,14 @@
 ---
 keywords: tls;tls 1.0；传输层安全性；加密；tls 1.1;tls 1.2
-description: 此信息介绍了对以下方面所做的更改：Adobe 和 Target 如何使用 TLS（传输层安全性）来保持最高安全标准和提高客户数据安全性。
-title: TLS（传输层安全性）加密更改
+description: 了解目标如何使用TLS（传输层安全）协议来维护最高的安全标准并提升客户数据的安全性。
+title: 目标如何使用TLS提供安全性？
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '1238'
-ht-degree: 61%
+ht-degree: 58%
 
 ---
 

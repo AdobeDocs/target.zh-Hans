@@ -1,13 +1,13 @@
 ---
 keywords: 概述和参考
-description: 默认情况下，访客配置文件会存储 14 天。配置文件生命周期可延长。
-title: 访客配置文件生命周期
+description: 进一步了解访客用户档案在Adobe Target何时过期（默认为14天）。 通过联系用户档案客户关怀，可以延长Adobe的生命周期。
+title: 访客用户档案的寿命是多少？
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 83%
+source-wordcount: '334'
+ht-degree: 73%
 
 ---
 

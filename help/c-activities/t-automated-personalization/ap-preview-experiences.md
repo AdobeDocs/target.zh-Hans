@@ -1,13 +1,13 @@
 ---
 keywords: Automated Personalization;ap;预览；排除经验；
-description: 由于自动个性化 (AP) 活动会对页面上的多个选件进行比较，因此预览每个体验中的页面将会很有帮助。
-title: 预览Automated Personalization在可视体验书写器(VEC)中的体验
+description: 了解如何使用可视体验书写器(VEC)在Adobe Target的Automated Personalization(AP)活动中预览每个体验。
+title: 如何预览Automated Personalization在VEC中的体验？
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 55%
+source-wordcount: '259'
+ht-degree: 47%
 
 ---
 

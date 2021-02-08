@@ -1,12 +1,12 @@
 ---
-description: 术语的定义。
-title: 术语表
+description: Adobe Target用的词是什么意思？ 查找常用术语的定义，帮助您进一步了解目标。
+title: 在哪里可以找到目标中使用的术语和定义？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2289'
-ht-degree: 98%
+source-wordcount: '2316'
+ht-degree: 97%
 
 ---
 

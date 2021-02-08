@@ -1,14 +1,15 @@
 ---
-keywords: implement;implementing
-description: 在开始使用 Adobe Target 之前，您应该在网站上实施该产品，了解一些基本概念和术语，熟悉 Target 的工作原理以及与基础架构集成的方式，并了解 Target 系统如何跟踪访客。
-landing-page-description: Before you start using Adobe Target, you should implement it on your site, understand a few basic concepts and terms, and be familiar with how Target works.
-title: 实施 Target
+keywords: 实施
+description: 了解基本概念，熟悉目标的工作方式并与基础结构集成，并了解如何跟踪访客。
+landing-page-description: 在开始使用 Adobe Target 之前，您应在您的站点上实施它，了解一些基本概念和术语，并熟悉 Target 的工作方式。
+title: 如何实施目标?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 77%
 
 ---
 

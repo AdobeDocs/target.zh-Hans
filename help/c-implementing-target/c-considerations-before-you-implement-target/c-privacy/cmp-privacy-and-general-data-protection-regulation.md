@@ -1,12 +1,13 @@
 ---
 keywords: GDPR;EU;欧盟;隐私;FAQ;常见问题解答;《加州消费者隐私法案》;CCPA;隐私;数据保护;选择退出;选择退出;政府;法规
-description: 有关欧洲合并一般数据保护规定(GDPR)、加利福尼亚消费者隐私法(CCPA)和其他国际隐私要求的信息，以及这些规定对您的组织和Adobe Target的影响。
-title: 隐私和数据保护规定
+description: 了解目标和欧洲合并一般数据保护规定(GDPR)、加利福尼亚消费者隐私法(CCPA)以及其他隐私要求。
+title: 目标如何处理隐私和数据保护规定？
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2265'
 ht-degree: 90%
 
 ---

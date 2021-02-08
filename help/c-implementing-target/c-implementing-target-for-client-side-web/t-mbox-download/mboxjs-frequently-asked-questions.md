@@ -1,13 +1,14 @@
 ---
 keywords: mbox.js FAQ;mbox.js 常见问题解答;document.write;tt.omtrdc.net;解析器阻塞
-description: 有关 mbox.js 的常见问题解答。
-title: mbox.js 常见问题解答
+description: 了解旧版mbox.js对Adobe Target的实施。 迁移至Adobe Experience PlatformWeb SDK(AEP Web SDK)或最新版at.js。
+title: 有关目标mbox.js的一些常见问题解答？
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 80%
+source-wordcount: '433'
+ht-degree: 73%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 keywords: 点击跟踪;跟踪点击次数;点击次数;AppMeasurement
-description: Adobe Target允许您将任何元素的点击量作为成功量度进行跟踪。
-title: 点击跟踪
+description: 了解Adobe Target如何将任何元素的点击量作为成功指标进行跟踪。
+title: 什么是点击跟踪？
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 92%
+source-wordcount: '885'
+ht-degree: 91%
 
 ---
 

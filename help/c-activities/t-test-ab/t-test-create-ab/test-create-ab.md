@@ -1,13 +1,13 @@
 ---
-keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
-description: 使用Adobe Target的Visual Experience Composer直接在启用目标的页面上创建A/B测试活动，并修改目标中页面的部分。
-title: 创建 A/B 测试
+keywords: 创建A/B;A/B测试；A/B活动；新建a/b活动；创建a/b
+description: 了解如何在启用目标的页面上直接使用Adobe Target的可视体验书写器(VEC)创建A/B测试活动。
+title: 如何创建A/B测试？
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 64%
+source-wordcount: '864'
+ht-degree: 63%
 
 ---
 

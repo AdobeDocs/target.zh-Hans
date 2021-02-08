@@ -1,13 +1,13 @@
 ---
-keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traffic estimator;when to use mvt;mvt considerations;multivariate;partial-factorial;partial factorial;full-factorial
-description: Adobe Target 中的多变量测试 (MVT) 可通过比较页面上各元素中的选件组合，来确定哪个组合对特定受众的效果最佳，以及哪个元素对活动成功的影响最大。
-title: 多变量测试
+keywords: 多变量测试；mvt;full-factorial;mvt或a/b;multivariate a/b；流量估计器；何时使用mvt;mvt;mvt注意事项；multivariate;partial-factorial;partial-factorial;full-factorial;full-factorial
+description: 了解如何使用Adobe Target的Multivariate Testing(MVT)来比较页面上元素中的优惠组合，以确定最佳组合。
+title: 什么是Multivariate Test?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 91%
+source-wordcount: '1461'
+ht-degree: 87%
 
 ---
 

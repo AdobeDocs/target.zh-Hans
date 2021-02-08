@@ -1,13 +1,13 @@
 ---
-keywords: create experience;experience create;priority;audience;experience;visual experience composer
-description: 位于Adobe Target的Adobe Target可视化体验书写器(VEC)提供一个可视界面，用于在体验定位(XT)活动中编辑页面上的体验。
-title: 创建体验
+keywords: 创建体验;体验创建;优先级;受众;体验;可视化体验编辑器
+description: 了解如何使用Adobe Target可视化体验书写器(VEC)在体验定位(XT)活动中创建和编辑页面上的体验。
+title: 如何在体验定位活动中创建体验？
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 88%
+source-wordcount: '986'
+ht-degree: 87%
 
 ---
 

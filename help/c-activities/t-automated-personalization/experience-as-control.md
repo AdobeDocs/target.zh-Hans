@@ -1,14 +1,14 @@
 ---
 keywords: 体验;控制;自动个性化;自动定位
-description: 在 Adobe Target 中创建自动个性化 (AP) 或自动定位活动时，选择要用作控制的体验。
-title: 使用特定体验作为控制
+description: 了解如何在Adobe Target创建Automated Personalization(AP)或自动目标活动时选择要用作控制的体验。
+title: 如何在AP活动中将特定体验用作控制？
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 99%
+source-wordcount: '765'
+ht-degree: 95%
 
 ---
 

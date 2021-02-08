@@ -1,13 +1,14 @@
 ---
 keywords: 移动设备应用程序;移动设备应用程序位置;定位移动设备应用程序;移动设备 Target 位置;移动设备应用程序成功量度
-description: 要在移动设备应用程序中使用 Target，需创建位置和成功量度。
-title: IOS —— 创建目标位置和成功量度
+description: 视图示例代码，帮助您了解如何在iOS应用程序中创建位置和成功指标，以便使用Adobe Target个性化和优化您的应用程序。
+title: 如何在iOS应用程序中创建目标位置和成功指标？
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 91%
+source-wordcount: '420'
+ht-degree: 83%
 
 ---
 

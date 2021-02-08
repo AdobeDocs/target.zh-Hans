@@ -1,13 +1,13 @@
 ---
 keywords: 促销；前面促销；后面促销；促销类型；项目列表；按属性提升；提升集合
-description: 可添加促销项目并控制它们在 Adobe Target“推荐”设计中的放置位置。您可以添加静态和动态促销活动。
-title: 在目标Recommendations设计中添加促销
+description: 了解如何添加推广项目并控制它们在Adobe Target·Recommendations设计中的位置。 您可以添加静态和动态促销活动。
+title: 如何在Recommendations设计中添加促销？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 58%
+source-wordcount: '699'
+ht-degree: 56%
 
 ---
 

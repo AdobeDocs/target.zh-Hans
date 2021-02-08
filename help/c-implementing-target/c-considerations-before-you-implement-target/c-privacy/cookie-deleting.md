@@ -1,13 +1,14 @@
 ---
 keywords: cookie;cookies；删除cookie；删除目标cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
-description: 可删除 Target 浏览器 Cookie，以便您能够对所有体验进行验证。
-title: 删除 Target Cookie
+description: 了解如何删除目标浏览器cookies，以便验证您的体验。
+title: 如何删除目标Cookie?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 9%
+source-wordcount: '428'
+ht-degree: 5%
 
 ---
 

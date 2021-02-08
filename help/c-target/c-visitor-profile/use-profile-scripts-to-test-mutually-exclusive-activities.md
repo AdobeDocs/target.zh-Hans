@@ -1,13 +1,13 @@
 ---
 keywords: 用户档案脚本；用户档案脚本属性；互斥活动
-description: 您可以使用配置文件属性来设置比较两个或更多活动的测试，但是不允许同一访客参加所有活动。
-title: 使用用户档案脚本测试互斥活动
+description: 了解如何使用用户档案属性在Adobe Target设置测试，以比较多个活动，但不让相同的访客参与每个活动。
+title: 我是否可以使用用户档案脚本测试互斥的活动?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 80%
+source-wordcount: '698'
+ht-degree: 76%
 
 ---
 

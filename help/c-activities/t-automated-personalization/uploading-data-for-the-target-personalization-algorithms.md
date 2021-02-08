@@ -1,13 +1,13 @@
 ---
 keywords: Automated Personalization;ap；上传数据；离线数据；个性化算法；自动目标；自动目标；最佳实践
-description: 在Adobe TargetAutomated Personalization(AP)活动构建个性化模型时，离线数据（如CRM信息或客户流失倾向得分）可能极其有价值。
-title: 上传个性化算法的数据
+description: 了解在Adobe TargetAutomated Personalization(AP)活动构建个性化模型时如何上传离线数据（如CRM信息）。
+title: 如何上传个性化算法的数据？
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 76%
+source-wordcount: '295'
+ht-degree: 77%
 
 ---
 

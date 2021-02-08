@@ -1,12 +1,12 @@
 ---
 keywords: 推荐；推荐活动；标准；算法；推荐键；自定义键；行业垂直；零售；eccommerce;lead generation;b2b；金融服务；媒体；发布
-description: Adobe Target的标准是根据一组预定的访客行为确定推荐哪些产品或内容的规则。
-title: 目标Recommendations
+description: 了解如何在Adobe TargetRecommendations使用标准。 标准是根据一组预定的访客行为确定推荐哪些内容的规则。
+title: 如何在目标Recommendations中使用标准？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1087'
 ht-degree: 52%
 
 ---

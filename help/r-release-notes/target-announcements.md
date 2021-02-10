@@ -4,10 +4,10 @@ description: 阅读公告并注册Adobe Target事件，包括Skill Builder研习
 title: 在哪里可以找到目标公告和事件?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: c139cca0562c2d8b9f29343b74ef7a091d91083b
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 0%
+source-wordcount: '599'
+ht-degree: 1%
 
 ---
 
@@ -25,20 +25,20 @@ Adobe Target最近被Forrester和Gartner评为市场领导者。
 | Forrester | **Adobe在Forrester wave报告中被评为体验优化平台的领导者。**<br> Adobe在《Forrester Wave:体验优化平台，2020年第4季度报告其在此领域的产品，Adobe Target高级版。Adobe在当前产品和市场表现类别以及推荐和平台体验标准中获得了所有参与供应商的最高分。 目标高级版在体验优化技术创新和支持服务标准方面也获得最高分。 该报告基于对10家体验优化平台提供商的全面评估，评估范围涵盖22个标准。<br>在Adobe博客上 [阅读](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
 | Gartner | **Adobe再次在Gartner个性化引擎魔力象限中被评为领导者。**<br>&#x200B;在Gartner 2020年个性化引擎魔力象限报告中，Adobe再次被评为领导者。Gartner个性化引擎魔力象限评估了属于两个类别的15个供应商：愿景和执行能力的完整性。<br>[在Adobe博客上阅读相关信息](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
 
-## 网络研讨会：大规模成功个性化：Forrester Wave体验优化平台的主要发现
+## Adobe Target社区问答咖啡休息
 
-* **1月19日星期二**
-* **8 a.m. PT |上午10点CT |上午11点ET**
-* **持续时间：60分钟**
-* **[在此处注册](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)。**
+* **2月24日星期三**
+* **上午9点（太平洋标准时间） |上午11:00 CST |东部时间中午12点**
+* **持续时间60分钟**
+* **[此处提供更多信息](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-2-24-21-9am-pt-rob-hornick/td-p/396626)**
 
-大规模优化客户体验的能力现在对于满足客户的动态需求和当前新数字访客的激增至关重要。 体验优化平台（如[!DNL Adobe Target]）可部署在您的数字资产中，以利用手动和人工智能驱动的行为定位、测试和推荐功能，在适当的时间快速确定和提供适合客户的体验。 欢迎加入我们和我们的特邀嘉宾James McCormick,Forrester的首席分析师，我们将在2020年第4季度《Forrester Wave，体验优化平台》中展示并讨论其关键发现。
+Adobe Target公司高级产品经理Rob Hornick将加入我们。 Rob将回答您有关目标和他专业领域的问题：
 
-在此网络研讨会中，您将了解：
-
-* 塑造个性化和体验优化工具演变的行业趋势
-* 领先体验优化平台的主要功能
-* 大规模优化客户体验以最大化业务影响的最佳实践
+* Recommendations
+* 自动分配
+* 自动定位
+* 自动个性化
+* 机器学习与人工智能
 
 ## 网络研讨会：利用Adobe Target提供的设备上决策，在零延迟时进行个性化和测试
 

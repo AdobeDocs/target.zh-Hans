@@ -4,10 +4,10 @@ description: 了解Adobe Target的工作方式，包括有关目标JavaScript库
 title: 目标如何工作？
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 70%
+source-wordcount: '2559'
+ht-degree: 69%
 
 ---
 
@@ -200,7 +200,13 @@ Google 举例说明“如果某个网站的原始页面加载了与向用户显�
 
 ## 机器人 {#bots}
 
-Adobe Target使用[DeviceAtlas](https://deviceatlas.com/)检测已知的机器人程序。 被标识为由机器人生成的流量仍会像普通用户生成的流量那样提供内容，以确保其符合 SEO 准则。如果按照处理普通用户流量的方法来处理机器人流量，则使用机器人流量可能会使 A/B 测试或个性化算法产生偏差。因此，如果在 Target 活动中检测到已知机器人，则对流量的处理方式略有不同。删除机器人流量可以更准确地测量用户活动。
+Adobe Target使用[DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/)度量“isRobot”根据在请求标头中传递的用户代理字符串检测已知的机器人程序。
+
+>[!NOTE]
+>
+> 对于[!DNL Server Side]请求，在[请求的“Context”节点](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)中传递的值优先于用户代理字符串以进行机器人检测。
+
+被标识为由机器人生成的流量仍会像普通用户生成的流量那样提供内容，以确保其符合 SEO 准则。如果按照处理普通用户流量的方法来处理机器人流量，则使用机器人流量可能会使 A/B 测试或个性化算法产生偏差。因此，如果在 Target 活动中检测到已知机器人，则对流量的处理方式略有不同。删除机器人流量可以更准确地测量用户活动。
 
 具体而言，对于已知机器人流量，Target 不会：
 

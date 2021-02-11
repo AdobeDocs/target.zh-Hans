@@ -4,7 +4,7 @@ description: 对Adobe Target产品文档进行重要补充和更改，让文档�
 title: 在哪里可以视图文档更新以进行目标?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bbf50435926b1ec5e9d85e8cf7cd6e50a370f876
+source-git-commit: 305e457e81b16a427ff9ee368aea9bf077018902
 workflow-type: tm+mt
 source-wordcount: '3626'
 ht-degree: 28%
@@ -20,7 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 2月11日 | ![Target 的工作方式](/help/c-intro/how-target-works.md) | 更新了“Bot”部分。 |
+| 2月11日 | [Target 的工作方式](/help/c-intro/how-target-works.md) | 更新了“Bot”部分。 |
 | 2月10日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关2021年2月24日星期三Adobe Target社区问答环节的信息。 |
 | 2月8日 | [Target 移动设备预览](/help/c-target-mobile-app/target-mobile-preview.md) | 添加了应添加到AdobeMobile SDK版本4的AndroidManifest.xml文件的代码片段。 |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 明确了以下已知问题：<ul><li>通过API创建的集合、排除、条件和设计在目标用户界面中不可见，只能通过API进行编辑。 同样，如果您在目标UI中创建其中的任何项目，并稍后通过API编辑这些项目，这些更改将不会反映在目标UI中。 通过API编辑的项目应继续通过API进行编辑，以避免丢失任何修改。</li></ul> |

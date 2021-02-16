@@ -1,10 +1,10 @@
 ---
-keywords: 目标；主页；热门主题；adobe目标；标准；高级；目标文档；adobe目标文档
+keywords: 目标；主页；热门主题；adobe 目标；标准；高级；目标文档；adobe 目标文档
 title: 在哪里可以找到目标文档？
-description: 了解如何使用Adobe Target个性化客户体验，从而在您的网站和移动站点、App和其他数字渠道上最大化收入。
+description: 了解如何使用Adobe Target个性化您的客户体验，从而最大限度地提高您网站和移动站点、App和其他数字渠道的收入。
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bbf50435926b1ec5e9d85e8cf7cd6e50a370f876
+source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 58%
@@ -18,15 +18,15 @@ ht-degree: 58%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2021 年 2 月 11 日（[请参阅“更改了哪些内容”](r-release-notes/doc-change.md)）**
+**上次更新时间：2021 年 2 月 16 日（[请参阅“更改了哪些内容”](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >
 >Adobe Target最近在以下报告中被评为领导者：
 >
->**[Forrester浪潮体验优化平台报告。](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target被评为《Forrester Wave:体验优化平台，2020年第4季度报告。
+>**[Forrester wave报告，了解体验优化平台。](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target在《Forrester Wave:体验优化平台，2020年第4季度报告。
 >
->**[Gartner个性化引擎魔力象限。](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Adobe Target在2020年Gartner Magic Quadrant个性化引擎报告中再次被评为行业领袖。
+>**[Gartner个性化引擎魔力象限。](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Adobe Target在2020年Gartner Magic Quadrant个性化引擎报告中再次被评为领导者。
 
 以下部分将向您介绍本指南中的有用链接，这些链接是按照目标受众并基于典型的工作职能来排列的：
 
@@ -59,11 +59,11 @@ ht-degree: 58%
 ## 开发人员  {#developers}
 
 - [实施 Target](c-implementing-target/implementing-target.md)：说明如何在网站、移动设备应用程序、单页应用程序 (SPA) 和 iOT/OTT 平台上实施 [!DNL Target]。
-- [目标服务器端API](https://developers.adobetarget.com/api/delivery-api/):描述构成Adobe Target投放API的资源。
-- [目标NodeJS SDK](https://github.com/adobe/target-nodejs-sdk):介绍如何在服务器端部署目标。此Node.js SDK可帮助您将目标轻松集成到其他Adobe Experience Cloud解决方案中。
-- [目标Java SDK](https://github.com/adobe/target-java-sdk):介绍如何在服务器端部署目标。此Java SDK可帮助您将目标轻松集成到其他Adobe Experience Cloud解决方案中。
-- [目标RecommendationsAPI](https://developers.adobetarget.com/api/recommendations/):描述组成官方的Adobe TargetRecommendationsAPI的资源。
-- [目标Adobe.IO文档](http://developers.adobetarget.com/api/#introduction):介绍如何使用目标的管理员和用户档案REST API，这些API使用Adobe.IO集成来管理活动、受众、优惠、属性、报告、mbox、环境和用户档案。
+- [目标服务器端API](https://developers.adobetarget.com/api/delivery-api/):介绍构成Adobe Target 投放 API的资源。
+- [目标 NodeJS SDK](https://github.com/adobe/target-nodejs-sdk):说明如何在服务器端部署目标。此Node.js SDK可帮助您将目标轻松集成到其他Adobe Experience Cloud解决方案中。
+- [目标 Java SDK](https://github.com/adobe/target-java-sdk):说明如何在服务器端部署目标。此Java SDK可帮助您将目标轻松集成到其他Adobe Experience Cloud解决方案中。
+- [目标 Recommendations API](https://developers.adobetarget.com/api/recommendations/):描述组成正式Adobe Target Recommendations API的资源。
+- [目标 Adobe.IO文档](http://developers.adobetarget.com/api/#introduction):介绍如何使用目标的Admin和用户档案 REST API，这些API使用Adobe.IO集成来管理活动、受众、优惠、属性、报表、mbox、环境和用户档案。
 
 ## Target 和 Adobe Experience Cloud 管理员 {#admins}
 

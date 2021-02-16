@@ -5,10 +5,10 @@ title: Adobe Target中有哪些不同的字符、大小和其他限制？
 feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 06ea1c67a515dc7287a0e5e237a5a08f4b38e807
+source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 65%
+source-wordcount: '1086'
+ht-degree: 64%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 65%
    * 用户档案参数值不能为null
    * 用户档案参数值max length 256
 
-   **投放 API端点**
+   **投放 API端点**:
 
    * mbox参数50
    * mbox参数名称max length 128
@@ -194,11 +194,11 @@ ht-degree: 65%
 
 ### 选件大小
 
-* **限制**：以下大小限制适用于选件：
+以下大小限制适用于优惠:
 
-   * HTML 选件为 256 KB。
-   * UI 中的可视化选件为 64 KB。
-   * API 中的选件为 512 KB。
+* HTML 选件为 256 KB。
+* UI 中的可视化选件为 64 KB。
+* API 中的选件为 512 KB。
 
    如果您使用的是全局 mbox，则限制适用于为该页面返回的整个内容集。限制选件大小会提升页面加载时间。如果超出限制，则会出现以下消息：
 

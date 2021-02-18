@@ -1,12 +1,12 @@
 ---
 keywords: A4T;Adobe Analytics;基于 Analytics 的活动;Analytics 报表包;报表包;Analytics 与 Target 集成;配置报表包
-description: 按照在Adobe Target和Adobe Analytics解决方案中实施目标分析(A4T)所需的步骤操作。
-title: 如何为目标(A4T)实施分析？
+description: 按照在您的Adobe Target和Adobe Analytics解决方案中实施目标分析(A4T)所需的步骤操作。
+title: 如何为目标(A4T)实施Analytics?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 260492867eb31c59637fc8dff2b8440b5d24c347
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '918'
 ht-degree: 48%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 48%
 
 # Analytics for Target 实施{#analytics-for-target-implementation}
 
-将[!DNL Adobe Analytics]作为[!DNL Target](A4T)的报告源实施时，需要几个步骤。
+当将[!DNL Adobe Analytics]作为[!DNL Target](A4T)的报告源实施时，需要执行多个步骤。
 
 ## 实施步骤{#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -22,25 +22,25 @@ ht-degree: 48%
 
 ## 步骤 1：请求配置 Analytics 和 Target。
 
-将[!DNL Analytics]作为[!DNL Target]的报告源实施后，必须为[!DNL Analytics]和[!DNL Target]设置。 [使用此表单请求设置](http://www.adobe.com/go/audiences)。
+将[!DNL Analytics]作为[!DNL Target]的报告源实施后，必须为[!DNL Analytics]和[!DNL Target]设置。 [使用此表单请求置备](http://www.adobe.com/go/audiences)。
 
 ## 步骤 2：设置用户权限
 
-必须满足用户帐户要求，才能在[!DNL Target]中创建基于[!DNL Analytics]的活动。 请参阅[用户权限要求](/help/c-integrating-target-with-mac/a4t/account-reqs.md)。
+必须先满足用户帐户要求，然后才能在[!DNL Target]中创建基于[!DNL Analytics]的活动。 请参阅[用户权限要求](/help/c-integrating-target-with-mac/a4t/account-reqs.md)。
 
 ## 步骤 3：实施 Experience Cloud 访客 ID 服务。
 
 通过访客 ID 服务，您可以在各个 [!DNL Adobe Experience Cloud] 解决方案中识别用户。您必须实施或迁移到所需版本的 Experience Cloud 访客 ID 服务。有关更多信息，请参阅[实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
 
-请参阅&#x200B;*Experience CloudID服务*&#x200B;文档中的[为目标](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html)实施Experience CloudID服务。
+请参阅&#x200B;*Experience Cloud访客ID服务*&#x200B;文档中的[为目标](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)实施Experience CloudID服务。
 
 ## 步骤 4：更新 AppMeasurement for JavaScript 或 s_code
 
 您必须实施或迁移到所需版本的 appMeasurement.js。有关更多信息，请参阅[实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
 
-有关新的实现，请参阅&#x200B;*Analytics Implementation Guide*&#x200B;中的[JavaScript实现概述](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html)。
+有关新的实现，请参阅&#x200B;*Analytics实施指南*&#x200B;中的[JavaScript实现概述](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)。
 
-有关迁移，请参阅&#x200B;*分析实施指南*&#x200B;中的[迁移到AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html)。
+有关迁移，请参阅&#x200B;*分析实施指南*&#x200B;中的[迁移到AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html)。
 
 ## 第5步：下载和更新at.js
 
@@ -50,13 +50,13 @@ ht-degree: 48%
 
 ## 第6步：主持人at.js
 
-如果您以前部署了at.js，则可以用更新的版本替换现有文件。 有关更多信息，请参阅[实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
+如果您之前部署了at.js，则可以用更新后的版本替换现有文件。 有关更多信息，请参阅[实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
 
 如果不替换，则可以将此文件与访客 ID 服务文件和 AppMeasurement for JavaScript 文件一起托管。这些文件必须托管在可从您网站上的所有页面进行访问的 Web 服务器上。下一步需要使用这些文件的路径。
 
-## 第7步：所有站点页面{#step7}上的引用at.js
+## 第7步：在所有网站页{#step7}上引用at.js
 
-通过在每页的标记中添加以下代码行，将at.js包含在VisitorAPI.js下：
+在VisitorAPI.js下添加at.js，方法是在每个页面的标记中添加以下代码行：
 
 对于 at.js：
 
@@ -65,11 +65,11 @@ ht-degree: 48%
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-在at.js之前加载VisitorAPI.js至关重要。如果要更新现有的at.js或mbox.js文件，请确保验证加载顺序。
+必须在at.js之前加载VisitorAPI.js。如果要更新现有的at.js或mbox.js文件，请确保验证加载顺序。
 
-从实现角度为[!DNL Target]和[!DNL Analytics]集成配置现成设置的方法是使用从页面传递的SDID在后端自动将[!DNL Target]和[!DNL Analytics]请求串接在一起。
+从实施角度为[!DNL Target]和[!DNL Analytics]集成配置现成设置的方法是使用从页面传递的SDID在后端自动将[!DNL Target]和[!DNL Analytics]请求缝合在一起。
 
-但是，如果您希望更多地控制将与[!DNL Target]相关的分析数据发送到[!DNL Analytics]以用于报告目的的方式和时间，并且您不希望选择通过SDID使[!DNL Target]和[!DNL Analytics]自动缝合分析数据的默认设置，则可以通过&#x200B;**analyticsLogging = client_side**&#x200B;通过&#x200B;**设置window.targetGlobalSettings**。 注意：低于 2.1 的任何版本均不支持此方法。
+但是，如果您希望更多地控制将与[!DNL Target]相关的分析数据发送到[!DNL Analytics]以用于报告目的，并且您不希望选择通过SDID自动缝合分析数据的默认设置[!DNL Target]和[!DNL Analytics]，则可以通过&#x200B;**设置** analyticsLogging = client_side **window.targetGlobalSettings**。 注意：低于 2.1 的任何版本均不支持此方法。
 
 例如：
 
@@ -90,9 +90,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-然后，可以通过[数据插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)将有效负荷转发到Analytics。 请注意，对于[!UICONTROL 自动分配]和[!UICONTROL 自动目标]活动，您还需要转发sessionId。 有关详细信息，请参阅&#x200B;*Adobe TargetSDK*&#x200B;指南中的[目标分析(A4T)报告](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting)。
+然后，可以通过[数据插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)将负载转发到Analytics。 请注意，对于[!UICONTROL 自动分配]和[!UICONTROL 自动目标]活动，您还需要转发sessionId。 有关详细信息，请参阅&#x200B;*Adobe Target SDK*&#x200B;指南中的[目标分析(A4T)报告](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting)。
 
-如果不希望进行全局设置并且想要使用按需方法，则可以使用 at.js 函数 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 通过传入 **analyticsLogging: &quot;client_side&quot;** 来实现此目的。将仅返回此调用的分析有效负荷，且[!DNL Target]后端不会将有效负荷转发到[!DNL Analytics]。 通过采用此方法，默认情况下，每个at.js [!DNL Target]请求都不会返回有效负荷，而是仅在需要并指定时才返回。
+如果不希望进行全局设置并且想要使用按需方法，则可以使用 at.js 函数 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 通过传入 **analyticsLogging: &quot;client_side&quot;** 来实现此目的。将仅返回此调用的分析有效负荷，且[!DNL Target]后端不会将有效负荷转发到[!DNL Analytics]。 通过采用此方法，默认情况下，每个at.js [!DNL Target]请求都不会返回有效负荷，而是仅在需要和指定时才返回。
 
 例如：
 
@@ -148,7 +148,7 @@ adobe.target.getOffers({
 }
 ```
 
-然后，可通过[数据插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)将有效负荷转发到[!DNL Analytics]。
+然后，可以通过[数据插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)将有效负荷转发到[!DNL Analytics]。
 
 ## 步骤 8：验证实施 {#step8}
 
@@ -164,7 +164,7 @@ adobe.target.getOffers({
 
 ## 步骤 10：启用可将 Analytics 用作 Target 报表源的选项
 
-在[!DNL Target]中，单击&#x200B;**[!UICONTROL 管理>可视体验书写器]**，然后选择&#x200B;**[!UICONTROL 按活动]**&#x200B;或&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;选择以启用这些选项。
+在[!DNL Target]中，单击&#x200B;**[!UICONTROL “管理”>“可视体验书写器”]**，然后选择&#x200B;**[!UICONTROL “按活动]**&#x200B;或&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;选择”以启用这些选项。
 
 * **[!UICONTROL 如果选择为每个活动选择，您在创建每个活动时可以在 和 之间进行选择。]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL 如果选择 Adobe ，则会将 Analytics 设置为您创建的所有活动的报表源。]**[!DNL Analytics]

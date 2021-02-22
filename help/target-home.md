@@ -2,11 +2,11 @@
 keywords: 目标；主页；热门主题；adobe 目标；标准；高级；目标文档；adobe 目标文档
 title: 在哪里可以找到目标文档？
 description: 了解如何使用Adobe Target个性化您的客户体验，从而最大限度地提高您网站和移动站点、App和其他数字渠道的收入。
-feature: Overview
+feature: 概述
 translation-type: tm+mt
-source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
+source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '699'
 ht-degree: 58%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 58%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2021 年 2 月 16 日（[请参阅“更改了哪些内容”](r-release-notes/doc-change.md)）**
+**上次更新时间：2021 年 2 月 22 日（[请参阅“更改了哪些内容”](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >

@@ -2,11 +2,11 @@
 keywords: 目标文档更改日志；文档更新；新主题；编辑；更新；更新
 description: 随时更新Adobe Target产品文档中的重要增补和更改。
 title: 在哪里可以视图文档更新以进行目标?
-feature: Release Notes
+feature: 发行说明
 translation-type: tm+mt
-source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
+source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3661'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2月22日 | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 更新了以下常见问题解答：<ul><li>在Analysis Workspace中可在何处应用区段？</li></ul> |
 | 2月16日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 预发行说明中优惠限制大小的文本已更新。 |
 | 2月11日 | [Target 的工作方式](/help/c-intro/how-target-works.md) | 更新了“机器人程序”部分。 |
 | 2月10日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关2021年2月24日星期三Adobe Target社区问答环节的信息。 |

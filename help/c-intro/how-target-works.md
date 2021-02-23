@@ -1,43 +1,43 @@
 ---
-keywords: Adobe Experience PlatformWeb SDK;aep Web sdk;aep sdk;seo；搜索引擎优化；边缘群集，中央群集；at.js;mbox.js;
-description: 了解Adobe Target的工作方式，包括有关目标JavaScript库（at.js和AEP Web SDK）、Adobe数据中心和SEO测试的信息。
-title: 目标如何工作？
-feature: Overview
+keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk；搜索引擎优化；seo;edge clusters， central clusters;at.js;mbox.js;
+description: 了解Adobe Target的工作方式，包括有关目标 JavaScript库（at.js和AEP Web SDK）、Adobe数据中心和SEO测试的信息。
+title: 目标的工作原理
+feature: 概述
 translation-type: tm+mt
-source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
+source-git-commit: 8853551d2266836f4fe662c0882ba2af669d5a62
 workflow-type: tm+mt
-source-wordcount: '2559'
-ht-degree: 69%
+source-wordcount: '2592'
+ht-degree: 36%
 
 ---
 
 
 # Adobe Target 的工作原理
 
-有关[!DNL Adobe Target]工作方式的信息，包括有关[!DNL Adobe Experience Platform Web SDK]、[!DNL Target] JavaScript库（at.js和mbox.js）以及您可以使用活动创建的各种目标类型的信息。
+了解[!DNL Adobe Target]的工作方式，包括有关[!DNL Adobe Experience Platform Web SDK]和JavaScript库（at.js和mbox.js）的信息。 本文还介绍了可以使用活动创建的各种目标类型。 您还可以了解目标边缘网络、搜索引擎优化(SEO)以及目标如何检测机器人程序。
 
-## 目标平台Web SDK和JavaScript库{#libraries}
+## 目标 Platform Web SDK和JavaScript库{#libraries}
 
-Adobe Target通过[!DNL AEP Web SDK]或JavaScript库与网站集成：
+[!DNL Adobe Target] 与使用或JavaScript库 [!DNL AEP Web SDK] 的网站集成：
 
-* **Adobe Experience PlatformWeb SDK** : [AEP Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK是一个新的客户端JavaScript库，它允 [!DNL Adobe Experience Cloud] 许客户通过Edge Network与 [!DNL Experience Cloud] （包括）中的 [!DNL Target]各种服务 [!DNL Adobe Experience Platform] 交互。
-* **at.js：**[at.js 库](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)是适用于 Target 的新实施库。使用 at.js 可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。at.js 是推荐使用的实施库，会经常更新功能。我们建议所有客户都实施或迁移到[最新版本的 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
-* **mbox.js：**[mbox.js 库是适用于 Target 的旧版实施库。](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)mbox.js库在2021年3月31日之前一直受支持，但将不提供功能更新。
+* **Adobe Experience Platform Web SDK:** AEP  [Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK是一个新的客户端JavaScript库。AEP Web SDK允许[!DNL Adobe Experience Cloud]的客户通过[!DNL AEP]边缘网络与[!DNL Experience Cloud]（包括[!DNL Target]）中的各种服务交互。 Adobe建议所有新的[!DNL Target]客户实施[!DNL AEP Web SDK]。
+* **at.js:at.** js [库是](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) 用于的实现库 [!DNL Target]。使用 at.js 可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。at.js经常使用新功能进行更新。 Adobe建议使用at.js的所有客户将其实施更新到at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)的[最新版本。
+* **mbox.js：**[mbox.js 库是适用于 Target 的旧版实施库。](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)在2021年3月31日之前，mbox.js库一直受支持，但不会有功能更新。
 
 >[!IMPORTANT]
 >
->所有客户应迁移到[!DNL AEP Web SDK]或最新版本的at.js。 有关详细信息，请参阅[Adobe Experience PlatformWeb SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)或[从mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)迁移到at.js。
+>所有客户应迁移到[!DNL AEP Web SDK]或最新版本的at.js。 有关详细信息，请参阅[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)或[从mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)迁移到at.js。
 
-您必须在站点的每个页面上引用[!DNL AEP Web SDK]或at.js。 例如，您可以将其中一个添加到全局标题中。 或者，也可以考虑使用[Adobe平台启动](https://experienceleague.adobe.com/docs/launch/using/overview.html)。
+在网站的每个页面上引用[!DNL AEP Web SDK]或at.js。 例如，您可以将其中一个库添加到全局标题中。 或者，也可以考虑使用[AdobePlatform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)实现[!DNL Target]。
 
-以下资源将帮助您实施AEP Web SDK或at.js:
+以下资源包含帮助您实施AEP Web SDK或at.js的详细信息：
 
-* [Adobe Experience PlatformWeb SDK扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
+* [Adobe Experience Platform Web SDK扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
 * [使用 Adobe Launch 实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
-每次访客请求已针对[!DNL Target]优化的页面时，都会向定位系统发送请求，以确定为访客提供哪些内容。 该过程实时发生，每次加载页面时，系统都会发出内容请求并完成。 内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。提供的内容是每个网站访客最有可能响应、与之交互并最终购买的，以便最大程度地提高响应率、购置率和收入。
+每次访客请求已针对[!DNL Target]优化的页面时，都会向定位系统发送请求。 请求有助于确定为该访客提供哪些内容。 此过程实时发生。 每次加载页面时，系统都会对内容发出请求并满足这些请求。 内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。内容是每个网站访客最可能响应、交互并最终购买的内容。 个性化内容有助于最大限度地提高响应率、赢取率和收入。
 
-在[!DNL Target]中，页面上的每个元素都是整个页面单个体验的一部分。 每个体验可包含页面上的多个元素。
+在[!DNL Target]中，页面上的每个元素都是整个页面单个体验的一部分。 每个体验都可以在页面上包含多个元素。
 
 向访客显示的内容取决于您创建的活动类型：
 
@@ -45,7 +45,7 @@ Adobe Target通过[!DNL AEP Web SDK]或JavaScript库与网站集成：
 
 有关更多信息，请参阅[创建 A/B 测试](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)。
 
-根据您为每个体验选择的百分比，将会从您为活动分配的资产中随机选出要在 A/B 基础测试中显示的内容。由于对流量的这种随机划分，可能会耗用许多初始流量，才能使百分比达到均衡。例如，如果您创建了两个体验，则会随机选取起始体验。如果流量很少，访客的百分比可能会偏向其中一个体验。随着流量增加，百分比应该会更为均等。
+基本A/B测试中显示的内容是从您分配给活动的体验中随机选择的。 您可以为每个体验分配流量分配百分比。 由于流量的随机分割，它可能需要大量初始流量才能使百分比均衡。 例如，如果您创建了两个体验，则会随机选取起始体验。如果流量很少，访客的百分比可能会偏向其中一个体验。随着流量的增加，百分比会相等。
 
 您可以为每个体验指定百分比定位。在这种情况下，会生成随机编号，这个编号用于选择要显示的体验。最终的百分比可能与指定定位不完全匹配，但是流量越多，体验的划分应越接近定位目标。
 
@@ -58,19 +58,19 @@ Adobe Target通过[!DNL AEP Web SDK]或JavaScript库与网站集成：
 
 有关更多信息，请参阅[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
-自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选体验重新分配更多流量以提高转化。
+“自动分配”可在两种或多种体验中确定优胜者。 “自动分配”可自动将更多流量重新分配给入选体验，以提高转化率，同时测试将继续运行和学习。
 
 ### 自动定位 (AT)
 
 有关更多信息，请参阅[自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md)。
 
-自动定位可使用先进的机器学习技术从营销人员定义的多个高性能体验中进行选择，并根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验，以便个性化内容并促进转化。
+自动目标使用高级机器学习从多个高性能营销人员定义的体验中进行选择。 自动目标为每位访客提供量身定制的体验。 体验投放基于个别客户用户档案和以前具有相似用户档案的访客的行为。 使用自动目标来个性化内容并推动转化。
 
 ### 自动个性化 (AP)
 
 有关更多信息，请参阅[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)。
 
-自动个性化 (AP) 可将各种选件或消息进行组合，并且使用先进的机器学习技术，根据每位访客的个人客户配置文件将不同的选件变体与其匹配，以便个性化内容并促进提升。
+Automated Personalization(AP)结合了优惠或消息，并使用高级机器学习将不同的优惠变量与每个访客相匹配。 体验投放基于个人客户用户档案，实现内容个性化并推动提升。
 
 ### 体验定位 (XT)
 
@@ -84,7 +84,7 @@ Adobe Target通过[!DNL AEP Web SDK]或JavaScript库与网站集成：
 
 更多信息，请参阅[多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)。
 
-多变量测试 (MVT) 可通过比较页面上各元素中的选件组合，来确定哪个组合对特定受众的效果最佳，以及哪个元素对活动成功的影响最大。
+Multivariate Testing(MVT)比较页面上元素中的优惠组合，以确定哪种组合最适合特定受众。 MVT可帮助确定最影响活动成功的元素。
 
 ### 推荐
 
@@ -94,38 +94,38 @@ Adobe Target通过[!DNL AEP Web SDK]或JavaScript库与网站集成：
 
 ## 边缘网络{#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
-“Edge”是一种地理上分布的服务架构，可确保最终用户在请求内容时的最佳响应时间，而不管他们位于全球的哪个位置。
+“Edge”是一种地理上分布的服务架构，可确保最终用户请求内容时获得最佳响应时间，而不管他们位于全球的哪个位置。
 
-为了缩短响应时间，目标边缘仅托管活动逻辑、缓存用户档案和优惠信息。
+为了缩短响应时间，目标 Edges仅托管活动逻辑、缓存用户档案和优惠信息。
 
-活动和内容数据库、[!DNL Analytics]数据、API和营销人员用户界面都存放在Adobe的中央群集中。 更新随后会发送到目标边缘。 Central群集和Edge群集会自动同步以持续更新缓存的活动数据。 所有1:1建模也存储在每个边上，因此这些更复杂的请求也可以在边上处理。
+活动和内容数据库、[!DNL Analytics]数据、API和营销人员用户界面都存放在Adobe的中央群集中。 然后，更新会发送到目标边缘。 Central群集和Edge群集会自动同步以持续更新缓存的活动数据。 所有1:1建模也存储在每个边上，因此这些更复杂的请求也可以在边缘上处理。
 
 每个边缘群集都具有响应用户的内容请求和跟踪该请求的分析数据所需的所有信息。 用户请求将路由到最近的边缘群集。
 
 有关更多信息，请参阅[《Adobe Target 安全概述》](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮书。
 
-[!DNL Adobe Target]解决方案托管在全球Adobe自有和Adobe租用的数据中心。
+[!DNL Adobe Target]解决方案托管在全球Adobe拥有和Adobe租用的数据中心。
 
 中央群集位置同时包含数据收集中心和数据处理中心。 边缘群集位置仅包含数据收集中心。 每个报表包均分配给一个特定的数据处理中心。
 
-客户站点活动数据由七个边缘群集中最接近的一个收集，并定向到客户的预定中央群集目标(三个位置之一：俄勒冈、都柏林、新加坡)。 访客用户档案数据存储在最靠近站点访客的Edge Cluster上（位置包括Central Cluster位置和Virginia、Amsterdam、Sydney、Tokyo和Hong Kong）。
+客户站点活动数据由七个边缘群集中最接近的群集收集。 此数据将指向客户预定的中央群集目标(以下三个位置之一：（俄勒冈、都柏林、新加坡）。 访客用户档案数据存储在最靠近站点访客的边缘群集上。 边缘群集位置包括中央群集位置和弗吉尼亚、阿姆斯特丹、悉尼、东京和香港。
 
-边缘群集处理请求时不响应来自单一位置的所有定位请求，而是最靠近访客，从而减轻网络／互联网旅行时间的影响。
+与响应来自单个位置的所有定位请求不同，请求由最接近访客的边缘群集处理。 此过程有助于减轻网络/Internet旅行时间的影响。
 
 ![目标服务器类型映射](/help/c-intro/assets/target-servers.png)
 
-目标中心群集托管在AmazonWeb服务(AWS)上，位于：
+目标 Central群集，托管在Amazon Web Services(AWS)上，包括：
 
-* 俄勒冈州
+* 美国俄勒冈州
 * 爱尔兰都柏林
 * 新加坡共和国
 
-目标边缘群集托管在AWS上，位于：
+目标 Edge Clusters，托管在AWS上，包括：
 
 * 印度孟买
 * 日本东京
 * 美国弗吉尼亚州
-* 俄勒冈州
+* 美国俄勒冈州
 * 澳大利亚悉尼
 * 爱尔兰都柏林
 * 新加坡共和国
@@ -134,15 +134,15 @@ Adobe Target通过[!DNL AEP Web SDK]或JavaScript库与网站集成：
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 目前中国没有Edge Cluster，中国客户的最终用户性能将继续 [!DNL Target] 受到限制。由于防火墙和国家／地区缺少边缘群集，部署[!DNL Target]的站点的呈现速度将会很慢，页面加载也会受到影响。 此外，营销人员在使用[!DNL Target]创作UI时可能会遇到延迟。
+>[!DNL Adobe Target] 目前，中国没有Edge Cluster，中国客户的最终用户性能仍然 [!DNL Target] 有限。由于防火墙和国内缺少边缘群集，部署[!DNL Target]的站点的体验可能会受到影响。 体验的渲染速度可能会很慢，页面加载可能会受到影响。 此外，营销人员在使用[!DNL Target]创作UI时可能会遇到延迟。
 
-如果需允许列表要，可以目标边缘群集。 有关详细信息，请参阅&lt;a0/允许列表>目标边节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)。[
+如果需允许列表要，可以目标边缘群集。 有关详细信息，请参阅[允许列表目标边节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)。
 
 ## 受保护的用户体验{#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
-Adobe 确保定位基础设施的可用性和性能尽可能可靠。但是，最终用户浏览器与 Adobe 服务器之间的通信划分可能会导致内容交付中断。
+Adobe 确保定位基础设施的可用性和性能尽可能可靠。但是，最终用户的浏览器与Adobe服务器之间的通信故障可能会导致内容投放中断。
 
-为了避免出现服务中断和连接问题，所有位置都设置为包含默认内容（由客户端定义），当用户的浏览器无法连接到 [!DNL Target] 时，将会显示默认内容。
+为了防止服务中断和连接问题，所有位置都设置为包括默认内容（由客户端定义）。 如果用户的浏览器无法连接到[!DNL Target]，则显示此默认内容。
 
 如果用户的浏览器无法连接服务器，则在定义的超时时间段（默认为 15 秒）内，页面不会发生任何更改。如果达到此超时阈值，则会显示默认位置内容。
 
@@ -157,7 +157,7 @@ Adobe 通过优化和保障性能来保护用户体验。
 
 [!DNL Adobe Target] 将遵循搜索引擎准则来进行测试。
 
-Google 鼓励用户进行测试，并在其文档中指出只要遵循一些简单的准则，A/B 测试和多变量测试便不会对自然搜索引擎排名造成任何不利影响。
+谷歌鼓励用户进行测试。 Google在其文档中称，如果您遵循某些准则，A/B和Multivariate Testing不会损害有机搜索引擎排名。
 
 有关更多信息，请参阅以下 Google 资源：
 
@@ -166,27 +166,27 @@ Google 鼓励用户进行测试，并在其文档中指出只要遵循一些简�
 
 [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) 中有篇博文介绍了相关准则。虽然该博文是在 2012 年发布的，但它是 Google 对此问题的最近说明，而且其中的准则仍然适用。
 
-* **无伪装** - 伪装是指向用户显示一组内容，而向搜索引擎机器人显示另一组内容（使用特定方式来识别搜索引擎机器人，并有意向其提供不同的内容）。
+* **不要遮盖**:遮盖功能向用户显示一组内容，向搜索引擎机器人程序显示另一组内容。遮盖通过具体识别机器人并有意地喂给它们不同的内容来实现。
 
-   作为一个平台，Target 已被配置为采用相同的方式对待搜索引擎机器人和任何用户。这意味着如果随机选择的话，搜索引擎机器人也可能会包含在您运行的测试中，而且会“看到”测试变体。
+   作为一个平台，Target 已被配置为采用相同的方式对待搜索引擎机器人和任何用户。因此，如果随机选择机器人并“查看”测试变量，则机器人可以包含在活动中。
 
-* **使用 rel=&quot;canonical&quot;** - 有时，设置 A/B 测试时需要对各个变体使用不同的 URL。在这些情况下，所有变体都应当包含一个引用了原始（控制）URL 的 `rel="canonical"` 标记。例如，如果 Adobe 在测试其主页时对每个变体分别使用不同的 URL，则每个变体的 `<head>` 标记中将包含以下主页 canonical 标记：
+* **Use rel=&quot;canonical&quot;**:有时，必须使用不同的URL设置A/B测试。在这些情况下，所有变体都应当包含一个引用了原始（控制）URL 的 `rel="canonical"` 标记。例如，假设Adobe正在使用每个变体的不同URL测试其主页。 每个变量的`<head>`标签中将包含以下主页的规范标签：
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
-* **使用 302（临时）重定向** - 在某些情况下，测试中的各个变体页面需要使用不同的 URL，为此 Google 建议使用 302 重定向将流量定向到各个测试变体。这样，搜索引擎便可以知晓重定向是临时性的，将只会在测试运行期间处于活动状态。
+* **使用302（临时）重定向**:在测试中的变体页面使用单独的URL的实例中，Google建议使用302重定向将流量引导至测试变体。302重定向告诉搜索引擎，该重定向是临时的，并且仅在测试运行时才处于活动状态。
 
-   302 重定向是一种服务器端重定向，而 Target 及大多数优化服务提供程序使用的是客户端功能。因此，在这方面，Target 并未完全遵循 Google 的建议。但是，这只会对一小部分测试造成影响。通过 Target 运行测试的标准方法要求在单个 URL 中更改内容，因此不需要使用重定向。但在某些情况下，客户需要使用多个 URL 来表示其测试变体。对于这些情况，Target 会使用 JavaScript `window.location` 命令将用户定向到测试变体，此方法不会明确指示使用的是 301 还是 302 重定向。
+   302 重定向是一种服务器端重定向，而 Target 及大多数优化服务提供程序使用的是客户端功能。因此，在这方面，Target 并未完全遵循 Google 的建议。然而，这种做法只影响了一小部分测试。 通过 Target 运行测试的标准方法要求在单个 URL 中更改内容，因此不需要使用重定向。有时客户端必须使用多个URL来表示其测试变量。 在这些情况下，目标使用JavaScript `window.location`命令。 此命令指示用户测试变量，这并不明确表示重定向是301还是302。
 
-   虽然我们在不断寻找完全符合搜索引擎准则的可行解决方案，但对于那些在测试中必须使用多个不同的 URL 的客户而言，我们确信正确实施上述 Canonical 标记可以缓解此方法所产生的相关风险。
+   Adobe继续寻找能够完全符合搜索引擎指南的可行解决方案。 对于必须使用单独URL进行测试的客户端，Adobe确信正确实施规范标记能够降低与此方法相关的风险。
 
-* **仅将实验运行所需的时间** - 我们认为“所需的时间”是指达到统计意义所需的时间。至于如何确定测试何时到达此时间点，Target [提供了最佳实践](https://docs.adobe.com/content/target-microsite/testcalculator.html)。我们建议您将入选测试的硬编码实施合并到测试工作流中，并分配适当的资源。
+* **只要需要，就可以运行实验**:Adobe认为，只要达到统计意义，“只要有必要”。至于如何确定测试何时到达此时间点，Target [提供了最佳实践](https://docs.adobe.com/content/target-microsite/testcalculator.html)。Adobe建议您将入选测试的硬编码实施集成到测试工作流程中并分配相应的资源。
 
-   我们不建议将使用 Target 平台“发布”入选测试作为一种永久性解决方案，但如果是在 100% 的时间内向 100% 的用户发布入选测试，则可以在对入选测试进行硬编码的过程完成后使用此方法。
+   不建议将使用目标平台“发布”入选测试作为永久解决方案。 如果100%的用户在100%的时间内发布了入选测试，则可在完成对入选测试进行硬编码的过程时使用此方法。
 
-   考虑您的测试做出了哪些更改也很重要。如果只是更新了按钮或页面上其他不基于文本的次要项目的颜色，这不会对您的自然排名产生任何影响。但是，对文本所做的更改应当进行硬编码。
+   考虑您的测试做出了哪些更改也很重要。只更新页面上按钮或其他次要非文本项目的颜色不会影响您的自然排名。 但是，对文本所做的更改应当进行硬编码。
 
-   此外，还应务必考虑所测试的页面的可访问性。如果搜索引擎无法访问页面，而且之前从未将页面设计为在自然搜索排名中占据首位（例如专门用于电子邮件营销活动的登陆页面），则上述考虑事项均不适用。
+   此外，还应务必考虑所测试的页面的可访问性。如果搜索引擎无法访问页面，且最初从未设计为在有机搜索中排名，则上述注意事项均不适用。 例如，电子邮件登陆页的专用活动。
 
 Google 指出，遵循这些准则“应会使您的测试对您的网站在搜索结果中的排名产生很小影响或不会产生任何影响”。
 
@@ -196,17 +196,17 @@ Google 指出，遵循这些准则“应会使您的测试对您的网站在搜�
 
 Google 举例说明“如果某个网站的原始页面加载了与向用户显示的组合无关的关键词，则我们可能会从索引中删除该网站。”
 
-我们认为无意中在测试变体内更改原始内容的含义不太容易发生，但是我们仍建议您注意页面上的关键词主题，并保留这些主题。对页面内容所做的更改，特别是添加或删除相关的关键词，可能会导致 URL 在自然搜索中的排名发生变化。我们建议您与 SEO 合作伙伴协作并将此内容包含在您的测试协议中。
+Adobe认为，很难在测试变量中无意中更改原始内容的含义。 但是，Adobe建议注意页面上的关键字主题并维护这些主题。 对页面内容所做的更改，特别是添加或删除相关的关键词，可能会导致 URL 在自然搜索中的排名发生变化。Adobe建议您与SEO合作伙伴进行交互，作为测试协议的一部分。
 
 ## 机器人 {#bots}
 
-Adobe Target使用[DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/)度量“isRobot”根据在请求标头中传递的用户代理字符串检测已知的机器人程序。
+Adobe Target使用[DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/)量度“isRobot”根据在请求标头中传递的用户代理字符串检测已知的机器人程序。
 
 >[!NOTE]
 >
-> 对于[!DNL Server Side]请求，在[请求的“Context”节点](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)中传递的值优先于用户代理字符串以进行机器人检测。
+> 对于[!DNL Server-Side]请求，在[请求的“Context”节点](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)中传递的值优先于用户代理字符串以进行机器人检测。
 
-被标识为由机器人生成的流量仍会像普通用户生成的流量那样提供内容，以确保其符合 SEO 准则。如果按照处理普通用户流量的方法来处理机器人流量，则使用机器人流量可能会使 A/B 测试或个性化算法产生偏差。因此，如果在 Target 活动中检测到已知机器人，则对流量的处理方式略有不同。删除机器人流量可以更准确地测量用户活动。
+标识为由机器人生成的流量仍提供内容。 机器人会像常规用户一样处理，以确保目标符合SEO准则。 如果按照处理普通用户流量的方法来处理机器人流量，则使用机器人流量可能会使 A/B 测试或个性化算法产生偏差。因此，如果在 Target 活动中检测到已知机器人，则对流量的处理方式略有不同。删除机器人流量可以更准确地测量用户活动。
 
 具体而言，对于已知机器人流量，Target 不会：
 

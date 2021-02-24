@@ -1,99 +1,111 @@
 ---
-keywords: 响应式；移动视口；视口；设备；移动；响应式Web设计；rwd
-description: 移动视区可帮助您了解Adobe Target活动在各种尺寸的屏幕上的显示效果。 查找一列表流行的设备视区大小和分辨率。
-title: 如何使用移动视区提供响应式体验？
-feature: Visual Experience Composer (VEC)
+keywords: 响应式；移动视区；视区；设备；移动；响应式Web设计；rwd
+description: 移动视区可帮助您了解Adobe Target活动在各种尺寸的屏幕上的显示效果。 查找一列表流行的设备视口大小和分辨率。
+title: 如何使用移动视区实现响应式体验？
+feature: 可视化体验编辑器 (VEC)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 67%
+source-wordcount: '1166'
+ht-degree: 35%
 
 ---
 
 
-# 移动视图端口，提供响应式体验
+# 移动视区，提供响应式体验
 
-移动视区可帮助您预览[!DNL Adobe Target]活动在各种尺寸屏幕上的显示方式。
+移动视区允许您在各种尺寸的屏幕上预览[!DNL Adobe Target]活动。
 
-移动视区预览功能专为响应式站点而设计，这些站点可以在各种设备、窗口或屏幕大小上呈现良好效果。 响应式网站会自动调整和适应任何屏幕大小，包括台式机、笔记本电脑、平板电脑或手机。
+移动视区预览功能专为响应式站点而设计，这些站点可以在各种设备、窗口和屏幕大小上完美呈现。 响应式网站会自动调整和适应任何屏幕大小，包括台式机、笔记本电脑、平板电脑或手机。
 
 >[!NOTE]
 >
-> * 如果您的网站是响应式网站，而且桌面页面与移动设备页面中使用的元素相同，只是配置不同，则可以使用移动设备视区。如果您有具有单独结构的单独移动站点，如`m.mysite.com`，请改用[多页活动](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)。
+> * 如果您的网站是响应式网站，而且桌面页面与移动设备页面中使用的元素相同，只是配置不同，则可以使用移动设备视区。如果您有一个具有单独结构（如`m.mysite.com`）的单独移动站点，请改用[多页活动](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)。
    >
    >
 * 如果与重定向选件叠加发生了重叠，则移动设备视区将不可用。
 
 
-视区通过网页在屏幕上所填充的矩形大小来定义。视区是指浏览器窗口减去滚动条和工具栏后的大小。浏览器使用“CSS 像素”。很多设备（例如使用 Retina 显示屏的设备）的视区小于其宣称的设备分辨率。
+视区通过网页在屏幕上所填充的矩形大小来定义。视口是浏览器窗口的大小，减去滚动条和工具栏。 浏览器使用“CSS 像素”。很多设备（例如使用 Retina 显示屏的设备）的视区小于其宣称的设备分辨率。
 
-下面是一些常用设备的视区和分辨率。请记住在[!DNL Target]中使用视口大小。 多个网站列出了常用设备的视区大小。例如，请参阅[https://viewportsizer.com/devices/](https://viewportsizer.com/devices/)或查阅设备制造商的网站。
+以下是常用设备的视口和分辨率。 请记住在[!DNL Target]中使用视口大小。
 
-| 设备 | 视区大小 | 设备分辨率 |
+>[!NOTE]
+>
+>多个网站列出了常用设备的视区大小。例如，请参阅[https://viewportsizer.com/devices/](https://viewportsizer.com/devices/)。 有关最准确、最新的信息，请查阅设备制造商的网站。
+
+| 设备 | 视区大小 （宽x高） | 设备分辨率（宽x高） |
 |---|---|---|
-| iPhone SE | 375 宽 x 667 高 | 750 宽 x 1334 高 |
-| iPhone 11 Pro Max | 414 宽 x 896 高 | 1242 宽 x 2688 高 |
-| iPhone 11 Xs Max | 414 宽 x 896 高 | 1242 宽 x 2688 高 |
-| iPhone11 | 414 宽 x 896 高 | 828 宽 x 1792 高 |
-| iPhone 11 Xr | 414 宽 x 896 高 | 828 宽 x 1792 高 |
-| iPhone 11 Pro | 375 宽 x 812 高 | 1125 宽 x 2436 高 |
-| iPhone 11 X | 375 宽 x 812 高 | 1125 宽 x 2436 高 |
-| iPhone 11 Xs | 375 宽 x 812 高 | 1125 宽 x 2436 高 |
-| iPhone X | 375 宽 x 812 高 | 1125 宽 x 2436 高 |
-| iPhone 8 Plus | 414 宽 x 736 高 | 1080 宽 x 1920 高 |
-| iPhone8 | 375 宽 x 667 高 | 750 宽 x 1334 高 |
-| iPhone 7 Plus | 414 宽 x 736 高 | 1080 宽 x 1920 高 |
-| iPhone7 | 375 宽 x 667 高 | 750 宽 x 1334 高 |
-| iPhone6s 加号 | 414 宽 x 736 高 | 1080 宽 x 1920 高 |
-| iPhone6s | 375 宽 x 667 高 | 750 宽 x 1334 高 |
-| iPhone 6 Plus | 414 宽 x 736 高 | 1080 宽 x 1920 高 |
-| iPhone6 | 375 宽 x 667 高 | 750 宽 x 1334 高 |
-| iPad Pro | 1024 宽 x 1366 高 | 2048 宽 x 2732 高 |
-| iPad 第三代和第四代 | 768 宽 x 1024 高 | 1536 宽 x 2048 高 |
-| iPad Air 1 和 2 | 768 宽 x 1024 高 | 1536 宽 x 2048 高 |
-| iPad Mini | 768 宽 x 1024 高 | 768 宽 x 1024 高 |
-| iPad Mini 2 和 3 | 768 宽 x 1024 高 | 1536 宽 x 2048 高 |
-| Nexus 6P | 411 宽 x 731 高 | 1440 宽 x 2560 高 |
-| Nexus 5X | 411 宽 x 731 高 | 1080 宽 x 1920 高 |
-| Google Pixel | 411 宽 x 731 高 | 1080 宽 x 1920 高 |
-| Google Pixel XL | 411 宽 x 731 高 | 1440 宽 x 2560 高 |
-| Google Pixel 2 | 411 宽 x 731 高 | 1080 宽 x 1920 高 |
-| Google Pixel 2 XL | 411 宽 x 823 高 | 1440 宽 x 2880 高 |
-| Samsung Galaxy Note 5 | 480 宽 x 853 高 | 1440 宽 x 2560 高 |
-| LG G5 | 480 宽 x 853 高 | 1440 宽 x 2560 高 |
-| One Plus 3 | 480 宽 x 853 高 | 1080 宽 x 1920 高 |
-| Samsung Galaxy S9 | 360 宽 x 740 高 | 1440 宽 x 2960 高 |
-| Samsung Galaxy S9+ | 360 宽 x 740 高 | 1440 宽 x 2960 高 |
-| Samsung Galaxy S8 | 360 宽 x 740 高 | 1440 宽 x 2960 高 |
-| Samsung Galaxy S8+ | 360 宽 x 740 高 | 1440 宽 x 2960 高 |
-| Samsung Galaxy S7 | 360 宽 x 640 高 | 1440 宽 x 2560 高 |
-| Samsung Galaxy S7 Edge | 360 宽 x 640 高 | 1440 宽 x 2560 高 |
-| Nexus 7 (2013) | 600 宽 x 960 高 | 1200 宽 x 1920 高 |
-| Nexus 9 | 768 宽 x 1024 高 | 1536 宽 x 2048 高 |
-| Samsung Galaxy Tab 10 | 800 宽 x 1280 高 | 800 宽 x 1280 高 |
-| Chromebook Pixel | 1280 宽 x 850 高 | 2560 宽 x 1700 高 |
+| iPhone12 | 390 x 844 | 1170 x 2532 |
+| iPhone 12 Mini | 360 x 780 | 1080 x 2340 |
+| iPhone 12 Pro | 390 x 844 | 1170 x 2532 |
+| iPhone 12 Pro Max | 428 x 926 | 1248 x 2778 |
+| iPhone SE | 214 x 379 | 640 x 1136 |
+| iPhone 11 Pro Max | 414 x 896 | 1242 x 2688 |
+| iPhone 11 Xs Max | 414 x 896 | 1242 x 2688 |
+| iPhone11 | 414 x 896 | 828 x 1792 |
+| iPhone 11 Xr | 414 x 896 | 828 x 1792 |
+| iPhone 12 Pro | 375 x 812 | 1125 x 2436 |
+| iPhone 11 X | 375 x 812 | 1125 x 2436 |
+| iPhone 11 Xs | 375 x 812 | 1125 x 2436 |
+| iPhone X | 375 x 812 | 1125 x 2436 |
+| iPhone 8 Plus | 414 x 736 | 1080 x 1920 |
+| iPhone8 | 375 x 667 | 750 x 1334 |
+| iPhone 7 Plus | 414 x 736 | 1080 x 1920 |
+| iPhone7 | 375 x 667 | 750 x 1334 |
+| iPhone 6s Plus | 414 x 736 | 1080 x 1920 |
+| iPhone6s | 375 x 667 | 750 x 1334 |
+| iPhone 6 Plus | 414 x 736 | 1080 x 1920 |
+| iPhone6 | 375 x 667 | 750 x 1334 |
+| iPad Pro | 1024 x 1366 | 2048 x 2732 |
+| iPad 第三代和第四代 | 768 x 1024 | 1536 x 2048 |
+| iPad Air 1 和 2 | 768 x 1024 | 1536 x 2048 |
+| iPad Mini | 768 x 1024 | 768 x 1024 |
+| iPad Mini 2 和 3 | 768 x 1024 | 1536 x 2048 |
+| Nexus 6P | 411 x 731 | 1440 x 2560 |
+| Nexus 5X | 411 x 731 | 1080 x 1920 |
+| Google Pixel | 411 x 731 | 1080 x 1920 |
+| Google Pixel XL | 411 x 731 | 1440 x 2560 |
+| Google Pixel 2 | 411 x 731 | 1080 x 1920 |
+| Google Pixel 2 XL | 411 x 823 | 1440 x 2880 |
+| Samsung Galaxy Note 5 | 480 x 853 | 1440 x 2560 |
+| LG G5 | 360瓦x 640 | 1440 x 2560 |
+| LG G4 | 360瓦x 640 | 1440 x 2560 |
+| LG G3 | 360瓦x 640 | 1440 x 2560 |
+| One Plus 3 | 480 x 853 | 1080 x 1920 |
+| Samsung Galaxy S9 | 360 x 740 | 1440 x 2960 |
+| Samsung Galaxy S9+ | 360 x 740 | 1440 x 2960 |
+| Samsung Galaxy S8 | 360 x 740 | 1440 x 2960 |
+| Samsung Galaxy S8+ | 360 x 740 | 1440 x 2960 |
+| Samsung Galaxy S7 | 360 x 640 | 1440 x 2560 |
+| Samsung Galaxy S7 Edge | 360 x 640 | 1440 x 2560 |
+| Nexus 7 (2013) | 600 x 960 | 1200 x 1920 |
+| Nexus 9 | 768 x 1024 | 1536 x 2048 |
+| Samsung Galaxy Tab 10 | 800 x 1280 | 800 x 1280 |
+| Chromebook Pixel | 1280 x 850 | 2560 x 1700 |
 
-如果您想要将活动交付到某一特定设备上的用户，请在活动图中选择适合该设备的受众。使用移动设备 Web 编辑器可在该设备上编辑活动页面。如果您想要在整个数字体验中运行某个活动，并确保该活动在所有设备上都展现良好的外观，请不要应用定位，而是使用移动设备视区按各种屏幕大小预览该活动。
+要向特定设备上的访客传送活动，请在活动图中为该设备选择适当的受众。 使用移动设备 Web 编辑器可在该设备上编辑活动页面。要在整个数字体验中运行活动，以确保在所有设备上都能正常显示，请不要应用定位。 而应使用移动视口预览每个屏幕大小的活动。
 
-如果您有一个响应式网站，您的网站通常会设计为当使用具有特定屏幕大小的设备访问时以不同的视图打开。这些可触发新视图的屏幕大小称为“CSS 断点”。CSS断点是网站内容根据设备宽度做出响应的点，可向访客显示最佳布局。 CSS断点也称为[媒体查询](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)。
+对于响应式网站，通常您的网站设计为当由屏幕尺寸特定的设备访问时以不同视图打开。 这些可触发新视图的屏幕大小称为“CSS 断点”。CSS断点是指网站内容根据设备宽度做出响应的点，可向访客显示最佳布局。 CSS断点也称为[媒体查询](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)。
 
-将CSS断点保存在[!DNL Target]中，以便您能够为您定义的每个预览视图体验。 这些体验中的每个都显示在[!DNL Target]接口的移动视图中。 单击显示屏顶部的相应视区，即可打开每个屏幕大小所对应的视图。
+将CSS断点保存在[!DNL Target]中，这样您就可以为定义的每个视图预览体验。 这些体验中的每个都显示在[!DNL Target]接口的移动视口中。 单击显示屏顶部的相应视区，即可打开每个屏幕大小所对应的视图。
 
-如果您的网站不是响应式网站，您仍然可以使用移动设备 Web 编辑器查看网站，但前提是您的活动已定位到某个特定设备。
+如果您的站点没有响应，则如果您的活动针对特定设备，请使用Mobile Web Composer视图站点。
 
 >[!IMPORTANT]
 >
->虽然可以从移动视区中编辑体验，但这些更改适用于所有视区和设备，而不仅适用于您正在使用的视区。 同样，在常规桌面视图中编辑体验时，所有屏幕大小的页面均会发生相应的更改，而不仅仅是桌面视图中的页面。当前，我们尚不支持进行特定于视区的页面更改。
+>您可以从移动视区中编辑体验。 但是，这些更改适用于所有视口和设备，而不仅仅适用于您正在使用的视口。 同样，在常规桌面视图中编辑体验时，所有屏幕大小的页面均会发生相应的更改，而不仅仅是桌面视图中的页面。当前，[!DNL Target]不支持特定于视图的页面更改。
 
-## 移动视区配置{#task_B4B161499DC0470584ED922A4D20FCAB}
+## 移动视口配置{#task_B4B161499DC0470584ED922A4D20FCAB}
 
-可配置您希望在创建体验时可供使用的任何移动设备视区。
+配置要在创建体验时提供的移动视区。
 
 1. 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视体验书写器]**。
-1. 要添加新的移动视区，请在&#x200B;**[!UICONTROL 移动视区配置]**&#x200B;部分，单击&#x200B;**[!UICONTROL 添加]**。
+1. 在&#x200B;**[!UICONTROL 移动视区配置]**&#x200B;部分，单击&#x200B;**[!UICONTROL 添加]**。
 
-   ![添加视区](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
+   ![添加视口](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
+
+   或
 
    要更改现有移动视口的配置，请选择该视口，然后单击[!UICONTROL 编辑]（铅笔）图标。
 
@@ -101,9 +113,9 @@ ht-degree: 67%
 
    为移动设备视区键入一个便于识别的描述性名称。名称最长可包含 36 个字符。
 
-1. 输入移动设备的屏幕大小，包括宽度和高度。
+1. 指定移动设备的屏幕大小，包括宽度和高度。
 
-   宽度可以介于 150 到 968 像素之间。高度可以介于 150 到 1280 像素之间。
+   宽度可以是150到968像素。 高度可以是150到1280像素。
 
 1. （可选）选择设备的操作系统。
 
@@ -115,32 +127,32 @@ ht-degree: 67%
    * Symbian
    * Blackberry
 
-   如果您使用[增强型体验编辑器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)，并选择了一种操作系统，则 会在您查看页面时模拟该设备。[!DNL Target]例如，如果响应式站点上的Android与iOS的外观不同，则[!DNL Target]会模仿该行为。
+   如果您使用[增强型体验编辑器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)，并选择了一种操作系统，则 会在您查看页面时模拟该设备。[!DNL Target]例如，如果Android与响应式站点上的iOS的外观不同，则[!DNL Target]会模拟该行为。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!NOTE]
 >
->如果尝试删除正在使用的移动视区，将显示以下消息：&quot;此视区当前与一个或多个活动关联。 您需要先从这些活动中删除视区，然后才能删除它。”
+>如果尝试删除正在使用的移动视口，将显示以下消息：&quot;此视口当前与一个或多个活动关联。 您需要先从这些活动中删除视口，然后才能删除它。”
 
 ## 创建响应式体验{#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
 将移动视区添加到您的[!DNL Target]活动，为移动屏幕创建响应式体验。
 
-1. 创建[所需活动](/help/c-activities/activities.md)。
-1. 在可视化体验编辑器中，单击&#x200B;**[!UICONTROL 设置]**&#x200B;齿轮图标，然后选择&#x200B;**[!UICONTROL 添加移动设备视区]**。
+1. 创建所需的[活动](/help/c-activities/activities.md)。
+1. 在[!UICONTROL Visual Experience Composer](VEC)中，单击&#x200B;**[!UICONTROL Settings]**&#x200B;齿轮图标，然后选择&#x200B;**[!UICONTROL 添加Mobile Viewports]**。
 
-   ![添加Mobile Viewports选项](/help/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
+   ![“添加移动视区”选项](/help/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
 1. 单击&#x200B;**[!UICONTROL 设备]**&#x200B;图标，然后启用每个应具有移动设备视区的设备。
 
-   ![启用移动视区](/help/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
+   ![启用移动视口](/help/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
    移动设备视区将按宽度以从小到大的顺序排列。
 
 1. 根据需要编辑移动设备视区。
 
-   对体验做出的任何更改（例如，如果您更改了标题中的文本）会应用到所有设备上的体验。
+   您对体验所做的任何更改将应用于所有设备上的体验。 例如，您更改标题中的文本。
 
    将鼠标悬停在视区名称上，以查看视区大小。
 
@@ -149,32 +161,6 @@ ht-degree: 67%
 1. 如果需要，可通过单击所需的方向图标在纵向和横向模式之间切换。
 
    ![方向选项](/help/c-experiences/c-visual-experience-composer/assets/orientation.png)
-
-## 用例：目标两个iPhone版本{#task_CC3144BF5BA54034996E1D3DB0BC1A35}
-
-此用例说明如何为两个iPhone版本配置体验：iPhone 6和iPhone 6 Plus。
-
-1. 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视体验书写器]**。
-1. 在&#x200B;**[!UICONTROL 移动视区配置]**&#x200B;部分，为iPhone 6和iPhone 6 plus创建移动视区。
-
-   对每个视区使用以下设置：
-
-   | 名称 | 宽度 | 高度 | 操作系统 |
-   |---|---|---|---|
-   | iPhone6 | 375 | 667 | iOS |
-   | iPhone 6 Plus | 414 | 736 | iOS |
-
-   ![](assets/iphoneviewportconfig.png)
-
-1. 创建具有您想要活动的体验的目标。
-1. 选择要将其定位到以下访客的体验：通过 iPhone 6 或 iPhone 6 Plus 访问网站的访客。
-1. 选择目标后，单击&#x200B;**[!UICONTROL 创建受众]**，然后配置受众（如下图所示）：
-
-   ![](assets/iphoneaudiences.png)
-
-   由于手机可以旋转为横向，如果要求高度和宽度同时大于 320，则结合 iPhone 设备机型考虑，只有 iPhone 6 和 iPhone 6 Plus 能够满足此条件。
-1. 单击&#x200B;**[!UICONTROL 保存]**。
-1. 按常规方式继续设置活动。
 
 ## 培训视频
 
@@ -193,8 +179,8 @@ ht-degree: 67%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe Target的帐户首选项![概述徽章](/help/assets/overview.png)
+### Adobe Target ![概述徽章](/help/assets/overview.png)中的帐户首选项
 
-此视频包含有关设置移动视口的信息，从视频的4:40开始。
+此视频包含有关设置移动视口的信息，从4:40开始。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

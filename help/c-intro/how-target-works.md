@@ -4,7 +4,7 @@ description: 了解Adobe Target的工作方式，包括有关目标 JavaScript�
 title: 目标的工作原理
 feature: 概述
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
 workflow-type: tm+mt
 source-wordcount: '2567'
 ht-degree: 31%
@@ -28,7 +28,7 @@ ht-degree: 31%
 >
 >所有客户应迁移到[!DNL AEP Web SDK]或最新版本的at.js。 有关详细信息，请参阅[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)或[从mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)迁移到at.js。
 
-在网站的每个页面上引用[!DNL AEP Web SDK]或at.js。 例如，您可以将其中一个库添加到全局标题中。 或者，也可以考虑使用[AdobePlatform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)实现[!DNL Target]。
+在网站的每个页面上引用[!DNL AEP Web SDK]或at.js。 例如，您可以将其中一个库添加到全局标题中。 或者，也可以考虑使用[AdobePlatform launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)实现[!DNL Target]。
 
 以下资源包含帮助您实施AEP Web SDK或at.js的详细信息：
 
@@ -56,7 +56,7 @@ ht-degree: 31%
 
 ### 自动分配
 
-“自动分配”可在两种或多种体验中确定优胜者。 “自动分配”可自动将更多流量重新分配给入选体验，以提高转化率，同时测试将继续运行和学习。
+“自动分配”可在两种或多种体验中确定优胜者。 “自动分配”会自动将更多流量重新分配给入选体验，这有助于在测试继续运行和学习的同时提高转化率。
 
 有关更多信息，请参阅[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
@@ -134,7 +134,7 @@ Multivariate Testing(MVT)比较页面上元素中的优惠组合，以确定哪�
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 目前，中国没有Edge Cluster，而且访客性能对于中国的客 [!DNL Target] 户仍然有限。由于防火墙和国内缺少边缘群集，部署[!DNL Target]的站点的体验可能会受到影响。 体验的渲染速度可能会很慢，页面加载可能会受到影响。 此外，营销人员在使用[!DNL Target]创作UI时可能会遇到延迟。
+>[!DNL Adobe Target] 目前，中国没有Edge Cluster，中国客户的访客性能仍 [!DNL Target] 然有限。由于防火墙和国内缺少边缘群集，部署[!DNL Target]的站点的体验可能会受到影响。 体验的渲染速度可能会很慢，页面加载可能会受到影响。 此外，营销人员在使用[!DNL Target]创作UI时可能会遇到延迟。
 
 如果需允许列表要，可以[!DNL Target]边缘群集。 有关详细信息，请参阅[允许列表目标边节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)。
 
@@ -174,9 +174,9 @@ Adobe 通过优化和保障性能来保护用户体验。
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
-* **使用302（临时）重定向**:在测试中的变体页面使用单独的URL的实例中，Google建议使用302重定向将流量引导至测试变体。302重定向告诉搜索引擎，该重定向是临时的，并且仅在测试运行时才处于活动状态。
+* **使用302（临时）重定向**:在测试中的变体页面使用单独的URL的实例中，Google建议使用302重定向将流量引导至测试变体。302重定向告诉搜索引擎该重定向是临时的，并且仅在测试运行时才处于活动状态。
 
-   302重定向是服务器端重定向，[!DNL Target]与大多数优化提供程序一起使用客户端功能。 因此，在这个区域，[!DNL Target]不完全符合Google的建议。 然而，这种做法只影响了一小部分测试。 通过[!DNL Target]运行测试的标准方法调用在单个URL中更改内容，因此无需重定向。 有时客户端必须使用多个URL来表示其测试变量。 在这些情况下，[!DNL Target]使用JavaScript `window.location`命令。 此命令指示用户测试变量，这并不明确表示重定向是301还是302。
+   302重定向是服务器端重定向，[!DNL Target]与大多数优化提供程序一起使用客户端功能。 因此，重定向是[!DNL Target]不完全符合Google建议的领域。 然而，这种做法只影响了一小部分测试。 通过[!DNL Target]运行测试的标准方法调用在单个URL中更改内容，因此无需重定向。 有时客户端必须使用多个URL来表示其测试变量。 在这些情况下，[!DNL Target]使用JavaScript `window.location`命令。 此命令指示用户测试变量，这并不明确表示重定向是301还是302。
 
    Adobe继续寻找能够完全符合搜索引擎指南的可行解决方案。 对于必须使用单独URL进行测试的客户端，Adobe确信正确实施规范标记能够降低与此方法相关的风险。
 

@@ -4,10 +4,10 @@ title: 在哪里可以找到目标文档？
 description: 了解如何使用Adobe Target个性化您的客户体验，从而最大限度地提高您网站和移动站点、App和其他数字渠道的收入。
 feature: 概述
 translation-type: tm+mt
-source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 58%
+ht-degree: 45%
 
 ---
 
@@ -45,18 +45,18 @@ ht-degree: 58%
 - [Target 简介](c-intro/intro.md)：说明 [!DNL Target] 解决方案的核心概念。
 - 将 Target 与 Adobe Experience Cloud 集成：说明如何将 [!DNL Target] 与其他 [!DNL Experience Cloud] 解决方案集成，包括 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud 受众](/help/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) 和 [Experience Cloud 设备协作](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md)。
 - [Adobe TargetTutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html):提供教程和视频，帮助您充分利用目标。
-- [Target 故障诊断](r-troubleshooting-target/troubleshooting-target.md)：提供指向本指南中包含的故障诊断信息的链接，包括字符限制和会影响 [!DNL Target] 中活动和其他元素的其他限制的信息（选件大小、受众、配置文件、值、参数等）。
+- [疑难解答目标](r-troubleshooting-target/troubleshooting-target.md):提供本指南中包含的疑难解答信息的链接，包括有关字符限制和其他限制(优惠大小、受众、用户档案、值、参数等)的信息，这些限制会影响活动和中的其他元素 [!DNL Target]。
 - [适用于移动设备应用程序的 Target](c-target-mobile-app/target-mobile-app.md)：说明 [!DNL Target] 如何用于移动设备应用程序优化和个性化。
-- [资源和联系信息](cmp-resources-and-contact-information.md)：提供有关其他资源的信息，以帮助您了解 [!DNL Target] 功能以及在需要帮助时如何联系 [!DNL Adobe]。
+- [资源和联系信息](cmp-resources-and-contact-information.md):提供有关更多资源的信息，以帮助您了解 [!DNL Target] 相关功能以及在需要帮助 [!DNL Adobe] 时如何联系。
 
 ## 营销人员 {#marketers}
 
 - [活动](c-activities/activities.md)：说明如何设置、管理和 QA [!DNL Target] 活动。
-- [受众](c-target/target.md)：说明如何确定谁将会在目标活动中看到内容和体验。
+- [受众](c-target/target.md):说明如何确定哪些人在目标活动中查看内容和体验。
 - [体验和选件](c-experiences/experiences.md)：说明如何指定在访客符合活动的受众标准时显示的内容。
 - [推荐](c-recommendations/recommendations.md)：说明 [!DNL Recommendations] 活动如何根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。
 
-## 开发人员  {#developers}
+## 开发人员 {#developers}
 
 - [实施 Target](c-implementing-target/implementing-target.md)：说明如何在网站、移动设备应用程序、单页应用程序 (SPA) 和 iOT/OTT 平台上实施 [!DNL Target]。
 - [目标服务器端API](https://developers.adobetarget.com/api/delivery-api/):介绍构成Adobe Target 投放 API的资源。
@@ -71,7 +71,7 @@ ht-degree: 58%
 
 ## 分析员  {#analysts}
 
-- [受众](c-target/target.md)：说明如何确定谁将会在目标活动中看到内容和体验。
+- [受众](c-target/target.md):说明如何确定哪些人在目标活动中查看内容和体验。
 - [报表](c-reports/reports.md)：说明如何解释活动的性能。
 
 ## QA 工程师  {#qa}

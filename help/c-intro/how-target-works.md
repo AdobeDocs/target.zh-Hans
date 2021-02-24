@@ -1,12 +1,12 @@
 ---
-keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk；搜索引擎优化；seo;edge clusters， central clusters;at.js;mbox.js;
+keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk；搜索引擎优化；搜索引擎优化；seo;edge clusters， central clusters;at.js;mbox.js;
 description: 了解Adobe Target的工作方式，包括有关目标 JavaScript库（at.js和AEP Web SDK）、Adobe数据中心和SEO测试的信息。
 title: 目标的工作原理
 feature: 概述
 translation-type: tm+mt
-source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
-source-wordcount: '2567'
+source-wordcount: '2570'
 ht-degree: 31%
 
 ---
@@ -176,7 +176,7 @@ Adobe 通过优化和保障性能来保护用户体验。
 
 * **使用302（临时）重定向**:在测试中的变体页面使用单独的URL的实例中，Google建议使用302重定向将流量引导至测试变体。302重定向告诉搜索引擎该重定向是临时的，并且仅在测试运行时才处于活动状态。
 
-   302重定向是服务器端重定向，[!DNL Target]与大多数优化提供程序一起使用客户端功能。 因此，重定向是[!DNL Target]不完全符合Google建议的领域。 然而，这种做法只影响了一小部分测试。 通过[!DNL Target]运行测试的标准方法调用在单个URL中更改内容，因此无需重定向。 有时客户端必须使用多个URL来表示其测试变量。 在这些情况下，[!DNL Target]使用JavaScript `window.location`命令。 此命令指示用户测试变量，这并不明确表示重定向是301还是302。
+   302重定向是服务器端重定向，[!DNL Target]与大多数优化提供程序一起使用客户端功能。 因此，重定向是一个[!DNL Target]不完全符合Google建议的区域。 然而，这种做法只影响了一小部分测试。 通过[!DNL Target]运行测试的标准方法调用在单个URL中更改内容，因此无需重定向。 有时客户端必须使用多个URL来表示其测试变量。 在这些情况下，[!DNL Target]使用JavaScript `window.location`命令。 此命令指示用户测试变量，这并不明确表示重定向是301还是302。
 
    Adobe继续寻找能够完全符合搜索引擎指南的可行解决方案。 对于必须使用单独URL进行测试的客户端，Adobe确信正确实施规范标记能够降低与此方法相关的风险。
 

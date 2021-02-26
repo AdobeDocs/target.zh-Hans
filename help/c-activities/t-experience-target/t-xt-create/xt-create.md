@@ -1,18 +1,18 @@
 ---
-keywords: 体验定位；文本；创建
-description: 了解如何在启用目标的页面上使用Adobe Target的可视体验书写器(VEC)创建体验定位(XT)活动。
+keywords: 体验定位；xt；创建
+description: 了解如何在启用目标的页面上使用Adobe Target中的可视体验书写器(VEC)创建体验定位(XT)活动。
 title: 如何创建体验定位活动?
-feature: Experience Targeting
+feature: 体验定位
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 91%
+source-wordcount: '427'
+ht-degree: 89%
 
 ---
 
 
-# 创建体验定位活动{#create-an-experience-targeting-activity}
+# 创建体验定位活动
 
 使用[!UICONTROL 可视化体验编辑器] (VEC)，可在启用了 Target 的页面上创建[!UICONTROL 体验定位] (XT) 活动，并在 [!DNL Adobe Target] 中修改页面的各个部分。
 
@@ -62,14 +62,10 @@ ht-degree: 91%
 
    ![名称字段](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
-   活动名称中不允许使用以下字符：
+   活动名称不能以下列任何字符开头：
 
    | 字符 | 描述 |
    |--- |--- |
-   | `/` | 正斜线 |
-   | `?` | 问号 |
-   | `#` | 数字符号 |
-   | `:` | 冒号 |
    | `=` | 等号 |
    | `+` | 加号 |
    | `-` | 减号 |

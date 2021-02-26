@@ -1,12 +1,12 @@
 ---
-keywords: 自动个性化；ap;受众；集成；随机森林；残差方差；误差方差；寿命值
-description: 了解如何使用可视体验书写器(VEC)在Adobe Target创建Automated Personalization语(AP)活动。
+keywords: 自动个性化；ap;受众;ensemble；随机森林；残差方差；误差方差；寿命值
+description: 了解如何使用可视体验书写器(VEC)在Adobe Target中创建Automated Personalization(AP)活动。
 title: 如何创建Automated Personalization活动?
-feature: Automated Personalization
+feature: 自动个性化
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2053'
 ht-degree: 91%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 91%
 
 [!DNL Adobe Target]中的[!UICONTROL Automated Personalization](AP)活动工作流因其他活动类型的工作流而异。
 
-1. 在[!DNL Target][!UICONTROL 活动]列表中，单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL Automated Personalization]**。
+1. 在[!DNL Target] [!UICONTROL 活动]列表中，单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL Automated Personalization]**。
 
    ![创建活动：自动个性化](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. 要使用[!UICONTROL 可视体验书写器](VEC)，请单击&#x200B;**[!UICONTROL 可视（默认）]**。
+1. 要使用[!UICONTROL  Visual Experience Composer](VEC)，请单击&#x200B;**[!UICONTROL Visual(Default)]**。
 
    ![“创建自动个性化活动”对话框](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
@@ -48,18 +48,14 @@ ht-degree: 91%
 
    ![名称字段](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
-   活动名称中不允许使用以下字符：
+   活动名称不能以下列任何字符开头：
 
    | 字符 | 描述 |
    |--- |--- |
-   | / | 正斜线 |
-   | ? | 问号 |
-   | # | 数字符号 |
-   | : | 冒号 |
-   | = | 等号 |
-   | + | 加号 |
-   | - | 减号 |
-   | @ | @ 符号 |
+   | `=` | 等号 |
+   | `+` | 加号 |
+   | `-` | 减号 |
+   | `@` | @ 符号 |
 
 1. 按照[可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)中所述，修改页面元素。
 
@@ -146,7 +142,7 @@ ht-degree: 91%
    |--- |--- |
    | 名称 | 命名活动。为活动提供一个可让团队成员在“活动”列表中识别该活动的描述性名称。请参阅上面的表格，查看在活动名称中不允许使用的字符。 |
    | 目标 | （可选）键入测试的目标。此目标可帮助您记住活动的用途。 |
-   | 优先级 | 根据您的设置，UI 和“优先级”选项会有所不同。您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。<br>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。<br>如果“管理”>“ [!UICONTROL 报告] ” [!UICONTROL 中未启] 用此选项（默认），请指定优先级：低、中或高。<br>要启用细粒度优先级，请单 [!UICONTROL 击“管] 理”> [!UICONTROL “报告]”，然后将“ [!UICONTROL 启用细粒度优先] 级”选项切换到“开启”位置。<br>如果已启用此选项，请指定一个介于 0 到 999 之间值：<ul><li>0 = 低</li><li>999 = 高</li></ul>对于在以前的 Target Standard/Premium 版本中创建的活动，“低”优先级会转换为 0，“中”优先级会转换为 5，“高”优先级会转换为 10。您可以根据需要调整这些值。<br>****&#x200B;注意：在使用细粒度优先级后，您可以禁用此选项，但在此之前，必须将所有优先级重新设置为 0、5、10。 |
+   | 优先级 | 根据您的设置，UI 和“优先级”选项会有所不同。您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。<br>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。<br>如果“管理”>“ [!UICONTROL 报告] ”( [!UICONTROL 默] 认)中未启用此选项，请指定优先级：低、中或高。<br>要启用细粒度优先级，请单 [!UICONTROL 击“管理] ”> [!UICONTROL “报告]” [!UICONTROL ，然后将“] 启用细粒度优先级”选项切换到“开启”位置。<br>如果已启用此选项，请指定一个介于 0 到 999 之间值：<ul><li>0 = 低</li><li>999 = 高</li></ul>对于在以前的 Target Standard/Premium 版本中创建的活动，“低”优先级会转换为 0，“中”优先级会转换为 5，“高”优先级会转换为 10。您可以根据需要调整这些值。<br>****&#x200B;注意：在使用细粒度优先级后，您可以禁用此选项，但在此之前，必须将所有优先级重新设置为 0、5、10。 |
    | 持续时间 | 设置活动的开始和结束日期。 |
    | 优化目标 | 指定优化目标，该目标包含两个参数：<ul><li>您想要通过活动衡量哪些指标</li><li>活动参加者采取的哪项操作可指示目标已达到。</li></ul>您可以通过选择“我的主要目标”右侧的三个圆点来选择命名优化目标。自动个性化活动可以衡量转化、RPV 和 AOV。转化可通过查看页面或查看 mbox 来实现。点击次数也可以进行跟踪。<br>主要目标也可作为建模系统用来计算体验是否成功的建模量度。<br>达到建模目标后，出于跟踪目的，可以将访客保留在活动中。例如，通常会使用自动个性化活动来提高点击率，并将其设置为建模目标。然而，重要的是要了解增加的点击率是如何导致最终转化的，因此通过最终转化进行跟踪必不可少。<br>您可以提供对多个量度的依赖关系，并且还可以灵活选择是否应实现指定的量度才能递增计数。<br>在使一个量度依赖于另一个量度之前，您必须定义两个（或多个）成功量度。<br>通过“添加依赖项”选项，可以指定是否要先实现其他成功量度，然后才能递增该成功量度。<br>要添加依赖项，请执行以下操作：<ol><li>添加其他量度后，单击“其他目标”右侧的三个圆点式菜单下的[!UICONTROL 高级设置]。</li><li>单击[!UICONTROL 报表设置]章节底部的[!UICONTROL 添加依赖项]选项。</li><li>将所需量度从左侧窗格拖放到右侧窗格中，然后单击[!UICONTROL 已实现]，以在[!UICONTROL 已实现]和[!UICONTROL 未实现]之间进行切换。</li></ol>添加依赖项后，您可以编辑或删除依赖项。 |
    | 转化量度 | 默认情况下，转化量度与优化目标量度相同。但是，您可以通过取消选中[!UICONTROL 与优化目标相同]选项来定义单独的转化量度。 |

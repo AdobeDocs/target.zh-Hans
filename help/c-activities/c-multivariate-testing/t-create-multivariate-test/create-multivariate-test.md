@@ -1,13 +1,13 @@
 ---
 keywords: MVT;多变量测试;多变量测试创建;MVT 创建;MVT 工作原理;多变量测试工作原理
-description: 了解如何直接在启用目标的页面上使用Adobe Target的可视体验书写器(VEC)创建多变量测试(MVT)。
-title: 如何创建多变量测试？
+description: 了解如何直接在启用目标的页面上使用Adobe Target中的Visual Experience Composer(VEC)创建Multivariate Test(MVT)。
+title: 如何创建Multivariate Test?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 89%
+source-wordcount: '569'
+ht-degree: 87%
 
 ---
 
@@ -56,18 +56,14 @@ ht-degree: 89%
 
    ![活动名称字段](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
-   活动名称中不允许使用以下字符：
+   活动名称不能以下列任何字符开头：
 
    | 字符 | 描述 |
    |--- |--- |
-   | / | 正斜线 |
-   | ? | 问号 |
-   | # | 数字符号 |
-   | : | 冒号 |
-   | = | 等号 |
-   | + | 加号 |
-   | - | 减号 |
-   | @ | @ 符号 |
+   | `=` | 等号 |
+   | `+` | 加号 |
+   | `-` | 减号 |
+   | `@` | @ 符号 |
 
 1. [在每个位置中创建选件](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
 
@@ -117,7 +113,7 @@ ht-degree: 89%
 
 1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以创建活动。
 
-## 培训视频：创建Multivariate Tests(9:25)![Tutorial徽章](/help/assets/tutorial.png)
+## 培训视频：创建Multivariate Tests(9:25)![教程徽章](/help/assets/tutorial.png)
 
 以下视频演示了如何使用 Target 三步引导式工作流规划并创建多变量测试。
 

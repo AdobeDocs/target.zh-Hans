@@ -45,7 +45,7 @@ Target 包含以下高级功能：
 
 ### 自动定位
 
-[自动定](/help/c-activities/auto-target/auto-target-to-optimize.md) 位使用高级机器学习来识别多个由营销人员定义的卓越体验。[!UICONTROL 然后，自] 动定位为每位访客提供最定制的体验。投放基于个别客户用户档案和以前具有相似用户档案的访客的行为。 [!UICONTROL Auto-Targep可] 以个性化内容并推动转化。
+[自动定](/help/c-activities/auto-target/auto-target-to-optimize.md) 位使用高级机器学习来识别多个由营销人员定义的卓越体验。[!UICONTROL 然后，自] 动定位为每位访客提供量身定制的体验。投放基于个别客户用户档案和以前具有相似用户档案的访客的行为。 [!UICONTROL Auto-Targep可] 以个性化内容并推动转化。
 
 ### 推荐
 

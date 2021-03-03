@@ -1,13 +1,13 @@
 ---
 keywords: 局部数据;部分数据;A4T;差异;analytics for target;孤立;虚拟报表包;虚拟;故障诊断;未拼合;夸大;未指定
-description: 了解在使用Analytics for访客(A4t)时如何将夸大的访问和目标计数的影响降至最低。 了解什么是“部分数据”以及如何减少数据。
-title: 如何将A4T中夸大的访问和访客计数降至最低？
+description: 了解在使用Analytics for 目标(A4t)时，如何将夸大的访问和访客计数的影响降至最低。 了解什么是“部分数据”以及如何减少数据。
+title: 如何将A4T中的夸大访问和访客计数降至最低？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 94%
+source-wordcount: '1372'
+ht-degree: 82%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 94%
 >[!IMPORTANT]
 >2016 年 11 月 14 日，Adobe Analytics 针对那些使用 A4T（适用于 Target 的 Analytics 报表）的客户，更改了某些数据的处理方式。这些更改使 Adobe Target 数据更好地与 Adobe Analytics 的数据模型保持一致，并已为所有使用 A4T 的客户推出。这些更改具体解决了某些客户发现的在运行 Target 活动时访客数量夸大的问题。
 >
->请注意，此更改不具有追溯性。如果您的历史报表显示了夸大的计数，且您希望将这部分数字从报表中排除，则可以创建虚拟报表包，具体如下文中所述。
+>此更改不具有可回溯性。如果您的历史报表显示了夸大的计数，且您希望将这部分数字从报表中排除，则可以创建虚拟报表包，具体如下文中所述。
 >
->此外，为帮助最大限度地减少夸大计数，还更新了数个 JavaScript 库。我们建议您升级到以下库版本（或更新版本）：
+>此外，还更新了多个JavaScript库，以帮助最大限度地减少虚数。 Adobe建议您升级到以下库版本（或更高版本）：
 >
 >* Experience Cloud 访客 ID 服务：visitorAPI.js 版本 2.3.0 或更高版本。
 >* Adobe Analytics：appMeasurement.js 版本 2.1.
@@ -33,21 +33,21 @@ mbox.js 库不支持将重定向选件与 A4T 配合使用。您的实施必须�
 
 ## 更改了哪些内容？{#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
-使用 [!DNL Adobe Analytics] 衡量 [!DNL Target] 活动（称为 A4T）时，[!DNL Analytics] 会收集到页面上并没有 [!DNL Target] 活动时的一些不可用的额外数据。之所以会出现这种情况，是因为 [!DNL Target] 活动会在页面顶部触发调用，而 [!DNL Analytics] 通常会在页面底部触发数据收集调用。迄今为止，在 A4T 实施中，只要 [!DNL Target] 活动处于活跃状态，我们便会收集这种不可用的额外数据。今后，仅当 [!DNL Target] 标记和 [!DNL Analytics] 标记均触发时，我们才会收集这种额外数据。
+当使用[!DNL Adobe Analytics]测量[!DNL Target]活动（称为A4T）时， [!DNL Analytics]会收集当页面上没有[!DNL Target]活动时不可用的额外数据。 之所以会出现这种情况，是因为 [!DNL Target] 活动会在页面顶部触发调用，而 [!DNL Analytics] 通常会在页面底部触发数据收集调用。在迄今为止的A4T实施中，当[!DNL Target]活动处于活动状态时，Adobe将包含此附加数据。 今后，Adobe仅在[!DNL Target]和[!DNL Analytics]标签已触发时才包含此附加数据。
 
 ## 为什么 Adobe 做此更改？{#section_92380A4BD69E4B8886692DD27540C92A}
 
-Adobe 以数据的准确性和高质量而自豪。当触发 [!DNL Target] 标记，但未触发 [!DNL Analytics] 标记时，我们记录的是“局部数据”（有时也称为“未拼合点击量”），在未运行 [!DNL Analytics] 活动时，[!DNL Target] 不会捕获这些数据。虽然在 [!DNL Analytics] 报表中包含此局部数据确实提供了一些额外信息，但这也会导致它与未运行 [!DNL Target] 活动期间的历史数据不一致的情况。这可能会给正在分析随时间呈现的趋势的 [!DNL Analytics] 用户带来问题。为确保 [!DNL Analytics] 中的数据一致性，我们将排除所有此类局部数据。
+Adobe 以数据的准确性和高质量而自豪。当[!DNL Target]标记触发，但[!DNL Analytics]标记未触发时，Adobe将记录“partial data”（有时称为“uncuinted hits”），如果没有[!DNL Target]活动，则不会由[!DNL Analytics]捕获。 虽然在 [!DNL Analytics] 报表中包含此局部数据确实提供了一些额外信息，但这也会导致它与未运行 [!DNL Target] 活动期间的历史数据不一致的情况。这可能会给正在分析随时间呈现的趋势的 [!DNL Analytics] 用户带来问题。为了确保[!DNL Analytics]中的数据一致性，Adobe将排除所有部分数据。
 
 ## 产生局部数据的原因是什么？{#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
-我们在 [!DNL Analytics] 中看到，部分客户的局部数据比例很高。这可能是由于不当实施造成的，但也可能是因某些合理的原因所致。
+Adobe在[!DNL Analytics]中看到部分数据速率较高的一些客户。 这可能是由于不当实施造成的，但也可能是因某些合理的原因所致。
 
 已确定产生局部数据的原因包括：
 
 * **未对齐报表包 ID（实施）：**&#x200B;在活动设置期间指定的报表包与交付测试的页面上的报表包不匹配。这看起来像局部数据，因为数据无法在 [!DNL Analytics] 服务器上进行协调。
 * **网页速度慢：**&#x200B;由于 [!DNL Target] 调用位于页面顶部，而 [!DNL Analytics] 调用通常位于页面底部，所以如果页面加载缓慢，则访客在 [!DNL Target] 调用触发之后、[!DNL Analytics] 调用触发之前离开该页面的可能性会增加。尤其是在连接速度通常较慢的移动设备网站上，这可能是一个问题。
-* **页面错误：**&#x200B;如果存在 JavaScript 错误或所有触点未触发的其他情况（Experience Cloud ID 服务、Target 和 Analytics），则会导致局部数据的产生。
+* **页面错** 误：如果存在JavaScript错误或其他触点未触发(Experience CloudID服务、目标和分析)的情况，则会显示部分数据结果。
 * **[!DNL Target] 活动中的重定向选件**：对于使用了 A4T 的活动中所包含的重定向选件，您的实施必须满足某些最低要求。除此之外，还有一些重要信息需要您知悉。有关更多信息，请参阅[重定向选件 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)。
 * **库版本较旧：**&#x200B;过去一年，Adobe 对我们的 JavaScript 库（[!DNL appMeasurement.js]、`at.js/mbox.js` 和 `visitorAPI.js`）进行了一些改进，确保尽可能高效地发送数据。要了解有关实施要求的更多信息，请参阅[在实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)。
 
@@ -76,7 +76,7 @@ Adobe 以数据的准确性和高质量而自豪。当触发 [!DNL Target] 标�
 
 **局部数据点击量：**&#x200B;用户有时不会在页面上停留足够长的时间来发出 [!DNL Analytics] 调用，但 [!DNL Target] 具有适当的 MCID。这会产生局部数据点击量（即不含 [!DNL Analytics] 页面查看次数的点击量）。如果这些用户返回您的网站并查看包含 [!DNL Analytics] 代码的页面，则他们将被作为旧访客正确计入点击量。如果页面上只有 [!DNL Analytics] 代码，则这些点击量都会丢失。某些客户不想拥有这些点击量的数据，因为它们会夸大某些量度（访问次数）并缩减其他量度（每次访问的页面查看次数、每次访问停留的时间等等）。您还将看到不包含任何页面查看次数的访问次数。但是，仍有正当理由保留这些数据。
 
-为了最大限度减少局部数据点击量，您可以加快页面加载速度，更新到最新版本的库，或者创建一个[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)以排除这些点击量。有关分步说明，请参阅&#x200B;*分析组件指南*&#x200B;中的[创建虚拟报告套件](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)。
+为了最大限度减少局部数据点击量，您可以加快页面加载速度，更新到最新版本的库，或者创建一个[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)以排除这些点击量。有关分步说明，请参阅&#x200B;*分析组件指南*&#x200B;中的[创建虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)。
 
 下图显示了该虚拟报表包的区段定义：
 

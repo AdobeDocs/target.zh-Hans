@@ -1,20 +1,20 @@
 ---
 keywords: FAQ;常见问题解答;Analytics for Target;A4T;配置;Adobe Experience Cloud
-description: 查找有关为目标(A4T)设置Analytics的常见问题的解答，这使您能够为目标活动使用Analytics报告。
+description: 查找有关为目标(A4T)设置Analytics的常见问题的解答，Analytics报告可用于目标活动。
 title: 在哪里可以找到有关A4T初始配置的信息？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 92%
+source-wordcount: '489'
+ht-degree: 68%
 
 ---
 
 
 # 初始配置 - A4T 常见问题解答{#initial-provisioning-a-t-faq}
 
-本主题包含有关将 Analytics 配置为 Target 报表源 (A4T) 的常见问题解答。
+本主题包含有关将[!DNL Adobe Analytics]设置为[!DNL Adobe Target](A4T)的报告源的常见问题的解答。
 
 ## 如何设置多页面 A4T 活动？
 
@@ -28,7 +28,7 @@ ht-degree: 92%
 
 您需要具有一个 Analytics 用户帐户和一个 Target 用户帐户，才能在定义 Analytics 活动时选择报表包。必须按照相应文档中的所述来配置您的用户帐户。请参阅[用户权限要求](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)。
 
-如果您所在的一个或多个 Experience Cloud 组拥有 Analytics 和 Target 访问权限，并且您自己也有权访问所有报表包，则您应会在&#x200B;**[!UICONTROL 创建活动]**&#x200B;下看到用于使用 Analytics 创建 A/B 测试的选项。
+在您是有权访问Analytics和目标的一个或多个Experience Cloud组的成员并且有权访问所有报表包后，应在&#x200B;**[!UICONTROL 创建活动]**&#x200B;下看到使用Analytics创建A/B测试的选项。
 
 如果出现配置问题，请检查是否对 A4T 进行了正确配置。
 
@@ -36,13 +36,13 @@ ht-degree: 92%
 
 如果出现任何此类问题，请检查以下各项：
 
-* 确保您已在 Experience Cloud 中关联了自己的 Analytics 和 Target 帐户。
-* 如果您使用了多个 Analytics 公司帐户登录同一个 Experience Cloud 公司帐户，请确保您最后一次登录所使用的 Analytics 公司帐户是绑定到用于集成的 Target 帐户的 Analytics 公司帐户。
+* 确保您的Analytics和目标帐户已在Experience Cloud中链接。
+* 某些客户在同一公司公司中使用多个AnalyticsExperience Cloud登录。 如果您使用多个登录，请确保您上次登录的Analytics公司是与集成的目标帐户绑定的Analytics。
 * 如果您登录 Experience Cloud 的时间长达数小时，Analytics 会话有时可能会终止。为此，请注销并重新登录，以再次尝试操作。
 
 ## 为何在 Target 中看不到 Analytics 选项？  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
-请参阅“我的报表包为何没有加载？”（见上文）。这个问题的根本原因同上。
+请参阅“我的报表包为何没有加载？”高于. 这个问题的根本原因同上。
 
 ## 为何在 Analytics 中看不到 A4T 报表？  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 

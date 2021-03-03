@@ -1,14 +1,14 @@
 ---
 keywords: 分析作为报告源；a4t;A4T；要求
-description: 了解如何配置在Adobe Target使用Analytics for Basing(A4T)创建基于Adobe Analytics的活动所需的用户帐户要求。
+description: 了解如何配置在Adobe Target中使用Analytics for 目标(A4T)创建基于Adobe Analytics的活动所需的用户帐户要求。
 title: A4T需要哪些用户权限要求？
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 38%
+source-wordcount: '313'
+ht-degree: 36%
 
 ---
 
@@ -39,9 +39,7 @@ ht-degree: 38%
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-配置对[!DNL Analytics]报表包的访问：
-
-要在给定报表包上使用A4T，您必须有权访问该报表包。
+要在给定报表包上使用A4T，您必须有权访问该报表包并授予对[!DNL Web Services Access]组的访问权限。
 
 1. 在&#x200B;**[!UICONTROL Admin Console]**&#x200B;中，单击[!DNL Analytics]产品用户档案，然后单击&#x200B;**[!UICONTROL 权限]**&#x200B;选项卡。
 
@@ -49,9 +47,14 @@ ht-degree: 38%
 
 1. 确保您要访问的[!DNL Target]报表包是您所属产品用户档案中列出的报表包之一。
 
-   下图是具有所有报表包访问权限的产品用户档案的示例：
+   下图是可访问所有报表包的产品用户档案的示例：
 
    ![Admin Console权限选项卡](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+
+1. 配置对[!UICONTROL Web服务访问]组的访问。
+
+   要能够使用[!DNL Analytics]作为[!DNL Target]的报告源，必须访问[!UICONTROL 中的] Web服务访问组。[!DNL Analytics]
+
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 

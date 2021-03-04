@@ -4,17 +4,17 @@ description: 按照在您的Adobe Target和Adobe Analytics解决方案中实施�
 title: 如何为目标(A4T)实施Analytics?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 260492867eb31c59637fc8dff2b8440b5d24c347
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 48%
+source-wordcount: '890'
+ht-degree: 30%
 
 ---
 
 
 # Analytics for Target 实施{#analytics-for-target-implementation}
 
-当将[!DNL Adobe Analytics]作为[!DNL Target](A4T)的报告源实施时，需要执行多个步骤。
+当将[!DNL Adobe Analytics]作为[!DNL Adobe Target](A4T)的报告源实施时，需要执行多个步骤。
 
 ## 实施步骤{#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -30,13 +30,13 @@ ht-degree: 48%
 
 ## 步骤 3：实施 Experience Cloud 访客 ID 服务。
 
-通过访客 ID 服务，您可以在各个 [!DNL Adobe Experience Cloud] 解决方案中识别用户。您必须实施或迁移到所需版本的 Experience Cloud 访客 ID 服务。有关更多信息，请参阅[实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
+通过访客 ID 服务，您可以在各个 [!DNL Adobe Experience Cloud] 解决方案中识别用户。实施或迁移到所需版本的Experience Cloud访客ID。 有关更多信息，请参阅[实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
 
 请参阅&#x200B;*Experience Cloud访客ID服务*&#x200B;文档中的[为目标](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)实施Experience CloudID服务。
 
 ## 步骤 4：更新 AppMeasurement for JavaScript 或 s_code
 
-您必须实施或迁移到所需版本的 appMeasurement.js。有关更多信息，请参阅[实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
+实施或迁移到所需版本的appMeasurement.js。 有关更多信息，请参阅[实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
 
 有关新的实现，请参阅&#x200B;*Analytics实施指南*&#x200B;中的[JavaScript实现概述](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)。
 
@@ -44,7 +44,7 @@ ht-degree: 48%
 
 ## 第5步：下载和更新at.js
 
-必须使用生产帐户实施或迁移到所需版本的at.js。 无需对代码进行修改。
+使用生产帐户实施或迁移到所需版本的at.js。 无需对代码进行修改。
 
 有关更多信息，请参阅[实施之前](/help/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
 
@@ -65,11 +65,11 @@ ht-degree: 48%
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-必须在at.js之前加载VisitorAPI.js。如果要更新现有的at.js或mbox.js文件，请确保验证加载顺序。
+必须先加载VisitorAPI.js，然后再加载at.js。 如果要更新现有的at.js或mbox.js文件，请确保验证加载顺序。
 
-从实施角度为[!DNL Target]和[!DNL Analytics]集成配置现成设置的方法是使用从页面传递的SDID在后端自动将[!DNL Target]和[!DNL Analytics]请求缝合在一起。
+从实现角度来看，[!DNL Target]和[!DNL Analytics]集成的默认设置是使用从页面传递的SDID自动在后端将[!DNL Target]和[!DNL Analytics]请求串接在一起。
 
-但是，如果您希望更多地控制将与[!DNL Target]相关的分析数据发送到[!DNL Analytics]以用于报告目的，并且您不希望选择通过SDID自动缝合分析数据的默认设置[!DNL Target]和[!DNL Analytics]，则可以通过&#x200B;**设置** analyticsLogging = client_side **window.targetGlobalSettings**。 注意：低于 2.1 的任何版本均不支持此方法。
+您可以控制将与[!DNL Target]相关的分析数据发送到[!DNL Analytics]的方式和时间，以便进行报告。 如果您不希望选择加入使用默认设置，让[!DNL Target]和[!DNL Analytics]通过SDID自动缝合分析数据，请通过&#x200B;**window.targetGlobalSettings**&#x200B;设置&#x200B;**analyticsLogging = client_side**。 注意：低于 2.1 的任何版本均不支持此方法。
 
 例如：
 
@@ -79,7 +79,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-此设置具有全局效果，这意味着 at.js 进行的每次调用都将在 请求中发送 **analyticsLogging: &quot;client_side&quot;**，并且将为每个请求返回分析有效负载。[!DNL Target]完成此设置后，返回的有效负载格式如下所示：
+此设置具有全局效果，这意味着at.js发出的每个调用都具有&#x200B;**analyticsLogging:在[!DNL Target]请求中发送的&quot;client_side&quot;**，并为每个请求返回一个分析有效负荷。 设置此选项时，返回的有效负荷的格式如下所示：
 
 ```javascript
 "analytics": {
@@ -90,9 +90,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-然后，可以通过[数据插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)将负载转发到Analytics。 请注意，对于[!UICONTROL 自动分配]和[!UICONTROL 自动目标]活动，您还需要转发sessionId。 有关详细信息，请参阅&#x200B;*Adobe Target SDK*&#x200B;指南中的[目标分析(A4T)报告](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting)。
+然后，可以通过[数据插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)将负载转发到Analytics。 对于“自动分配”和“自动目标”活动，您还必须转发sessionId。 有关详细信息，请参阅&#x200B;*Adobe Target SDK*&#x200B;指南中的[目标分析(A4T)报告](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting)。
 
-如果不希望进行全局设置并且想要使用按需方法，则可以使用 at.js 函数 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 通过传入 **analyticsLogging: &quot;client_side&quot;** 来实现此目的。将仅返回此调用的分析有效负荷，且[!DNL Target]后端不会将有效负荷转发到[!DNL Analytics]。 通过采用此方法，默认情况下，每个at.js [!DNL Target]请求都不会返回有效负荷，而是仅在需要和指定时才返回。
+如果不需要全局设置，而更可取的是按需方法，请通过传入&#x200B;**analyticsLogging，使用at.js函数[getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md):&quot;client_side&quot;**。 仅为此调用返回分析负载，且[!DNL Target]后端不会将负载转发到[!DNL Analytics]。 通过采用此方法，默认情况下，每个at.js [!DNL Target]请求都返回有效负荷，但仅在需要并指定时才返回。
 
 例如：
 
@@ -154,13 +154,13 @@ adobe.target.getOffers({
 
 更新 JavaScript 库后，加载您的页面，以确认 调用中的 `mboxMCSDID`[!DNL Target] 参数值与 页面查看调用中的 `sdid`[!DNL Analytics] 参数值相匹配。
 
-在单页应用程序 (SPA) 中，由于调用顺序并不总是可以预测，因此尤其务必要进行此验证。
+确认这些值是否在单页应用程序(SPA)中匹配尤为重要，因为在单页应用程序中，调用的顺序并不总是可预测的。
 
-**注意：**&#x200B;为使 A4T 能够正常运行，这些值必须匹配。
+**注意：** 要使A4T正常工作，必须匹配这些值。
 
 ## 步骤 9：（可选）删除之前的集成代码
 
-我们建议您删除之前的集成，以便简化您的实施，并免除解决系统间差异的麻烦。您可以删除可能已为之前的 SC 与 T&amp;T 集成部署的任何代码，包括 `mboxLoadSCPlugin`。
+Adobe建议您删除之前的集成，以简化实施并消除解决系统间差异的需要。 您可以删除之前SC到T&amp;T集成所部署的任何代码，包括`mboxLoadSCPlugin`。
 
 ## 步骤 10：启用可将 Analytics 用作 Target 报表源的选项
 

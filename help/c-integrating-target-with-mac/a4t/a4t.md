@@ -4,10 +4,10 @@ description: 使用Analytics for 目标(A4T)根据Analytics转化量度和受众
 title: 什么是Analytics for 目标(A4T)?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 115b2fde3d66f55f1397685e42cb9756007936d5
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 42%
+source-wordcount: '1269'
+ht-degree: 40%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 42%
 
 * 营销人员可以随时将[!DNL Analytics]成功量度或报告区段动态应用于[!DNL Target]活动报表。 在运行活动之前不需要指定各项内容。
 * 单一数据源可消除在两个不同的系统中收集数据时出现的差异。
-* 您现有的[!DNL Analytics]实现会收集所有必需数据。 不需要专门为了收集报表数据而在页面上实施相关 mbox。尽管如此，仍建议您为[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)活动实施订单确认mbox。
+* 您现有的[!DNL Analytics]实现会收集所有必需数据。 不需要专门为了收集报表数据而在页面上实施相关 mbox。Adobe仍建议您为[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)活动实施订单确认mbox。
 
 >[!IMPORTANT]
 >
->在开始使用 A4T 之前，您需要请求对您的帐户进行配置，以便使用该集成。可使用[此表单](https://www.adobe.com/go/audiences_cn)提交配置请求。
+>在开始使用A4T之前，必须请求帐户的集成设置。 可使用[此表单](https://www.adobe.com/go/audiences_cn)提交配置请求。
 >
 >使[!DNL Analytics]成为[!DNL Target](A4T)数据源的集成表示Test&amp;目标到SiteCatalyst插件的下一代。 虽然此插件已被弃用，但已使用它的客户仍可获得支持。
 
@@ -44,14 +44,14 @@ ht-degree: 42%
 
 * 要使用[!DNL Analytics]作为[!DNL Target]的报告源，您和您的公司都必须有权访问[!DNL Analytics]和[!DNL Target]。 [请联系您的帐户代表](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)，以便使用这些解决方案。
 * 为每个活动设置报表源。[!DNL Target] 继续收集要在报告中使用的数据， [!DNL Target] 如果您希望基于由收集的活动来进行，则仍可使用 [!DNL Target]数据
-* 您只能使用一个报表源。您无法从两个报表源为单个活动收集数据。
+* 使用一个报告源或另一个。 您无法从两个报表源为单个活动收集数据。
 * 使用A4T时，活动可用的所有成功量度均为[!DNL Analytics]量度。 但是，您的目标量度可以基于 mbox 调用。例如，您可以将目标的现成单击跟踪功能与A4T结合使用，而不必实现[!DNL Analytics]单击跟踪代码。
 * 在[!DNL Target] UI中查看A4T活动的报告时，您正在查看[!DNL Analytics]数据。 例如，如果在[!DNL Target]中使用[!UICONTROL 访客]量度，则使用[!DNL Analytics] [!UICONTROL 访客]量度，而不是[!DNL Target] [!UICONTROL 访客]量度，现在称为[!UICONTROL 新进者]。 此差异对于基本流量量度([!UICONTROL 访客]、[!UICONTROL 访问]、[!UICONTROL 页面视图])和转换量度尤为重要。
 * 任何现有[!DNL Target]活动继续使用[!DNL Target]数据收集，并且不会因启用A4T而受到影响。
 * 当使用[!DNL Analytics]作为报告源时，仅允许一个基于mbox的量度。
-* 从[!DNL Target]到[!DNL Analytics]的服务器到服务器调用将活动和体验信息发送到[!DNL Analytics]。 此集成不会导致对[!DNL Target]或[!DNL Analytics]进行额外的服务器调用。
+* 从[!DNL Target]到[!DNL Analytics]的服务器到服务器调用将活动和体验信息发送到[!DNL Analytics]。 此集成不会导致对[!DNL Target]或[!DNL Analytics]进行更多服务器调用。
 
-   在某些情况下，从[!DNL Target]到[!DNL Analytics]的分类可能会失败，活动不显示[!DNL Analytics]中的数据。 如果发生这种情况，请参阅[对Analytics和目标集成进行疑难解答(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 您还可以[联系Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)以获得进一步帮助。
+   在某些情况下，从[!DNL Target]到[!DNL Analytics]的分类会失败，活动不显示[!DNL Analytics]中的数据。 请参阅[对Analytics和目标集成进行疑难解答(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。 您还可以[联系Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)以获得进一步帮助。
 
 ## 支持的活动类型{#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -63,12 +63,12 @@ ht-degree: 42%
 | 使用自动分配的 A/B 活动 | 是 | 请参阅[A4T支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
 | 使用自动定位的 A/B 活动 | 是 | 请参阅[A4T支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
 | 体验定位 (XT) | 是 |  |
-| 多变量测试 (MVT) | 是 | 需要基于mbox的目标量度目标来获取[!UICONTROL 元素贡献]报表。  [!UICONTROL 元素贡献]报表当前不支持[!DNL Analytics]量度。 |
+| 多变量测试 (MVT) | 是 | 需要基于mbox的目标量度目标来获取[!UICONTROL 元素贡献]报表。 [!UICONTROL 元素贡献]报表当前不支持[!DNL Analytics]量度。 |
 | 自动个性化 (AP) 活动 | 否 |  |
 | “推荐”活动 | 是 |  |
 | 移动设备应用程序 | 是 | 在 Mobile Services SDK 版本 4.13.1 或更高版本中受支持。有关更多信息，请参阅 [Mobile Services 文档](https://experienceleague.adobe.com/docs/mobile-services/using/home.html)。 |
 | 电子邮件 | 否 |  |
-| 服务器端交付 API | 是 | 有关更多信息，请参阅[服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
+| 服务器端投放API | 是 | 有关更多信息，请参阅[服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
 | NodeJS SDK | 是 | 有关更多信息，请参阅[服务器端：实施 Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)。 |
 | AEM 6.1（或更低版本）云服务集成 | 否 |  |
 | AEM 6.2（或更高版本）云服务集成 | 是 | 有关详细信息，请参阅[!DNL Adobe Experience Manager] 6.2文档中的[与Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)集成。 |
@@ -86,7 +86,7 @@ ht-degree: 42%
 >
 >您可以使用[!UICONTROL 活动]页面顶部的[!UICONTROL 报表源]下拉列表来仅显示使用 [!DNL Analytics] 作为报表源的活动。
 
-单击报表右上方的相应图标，即可在报表的[!UICONTROL 表视图]和[!UICONTROL 图表视图]之间切换。
+单击报表右上方的相应图标，可在报表的[!UICONTROL 表格视图]和[!UICONTROL 图表视图]之间切换。
 
 下图显示了 A4T 报表的“[!UICONTROL 图形视图]”，其中的“[!UICONTROL 报表量度]”下拉列表显示了可用的 [!DNL Analytics] 目标量度：
 

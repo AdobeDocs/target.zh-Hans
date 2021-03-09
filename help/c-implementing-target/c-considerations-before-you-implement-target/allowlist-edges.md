@@ -1,43 +1,55 @@
 ---
 keywords: 实现；实现；白名单；白允许列表名单；允许列表；边缘；边缘
-description: 视图一列表主机，帮助您允许列表Adobe Target边缘（地理位置分散的服务节点，确保最终用户的最佳响应时间）。
-title: 如何允许列表目标边缘节点？
-feature: Privacy & Security
-role: Developer
+description: 视图一列表主机，帮助您允许列表Adobe Target边缘（在地理上分布的服务节点，可确保最终用户的最佳响应时间）。
+title: 如何允许列表目标 Edge节点？
+feature: 隐私和安全
+role: 开发人员
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: d5bcc86458751968b0ebe174f0b57322a26089ed
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '245'
+ht-degree: 7%
 
 ---
 
 
-# 允许列表目标边节点
+# 允许列表目标边缘节点
 
-帮助您列表[!DNL Adobe Target]边缘的信息和最允许列表新主机。
+用于帮助您列表[!DNL Adobe Target]边缘的主允许列表机信息和最新。
 
-边缘是一种地理上分布的服务体系结构，它确保最终用户请求内容的最佳响应时间，而不管他们位于全球的哪个位置。 每个边缘节点都具有响应用户的内容请求和跟踪该请求的分析数据所需的所有信息。 用户请求被路由到最近的边缘节点。 有关详细信息，请参阅&#x200B;*Adobe[!DNL Target]如何工作*&#x200B;中的[边缘网络](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934)。
+边缘是一种地理上分布的服务架构，它确保最终用户在请求内容时的最佳响应时间，而不管他们位于何处。 每个边缘节点都具有响应用户的内容请求和跟踪该请求的分析数据所需的全部信息。 用户请求被路由到最近的边缘节点。 有关详细信息，请参阅&#x200B;*Adobe[!DNL Target]工作方式*&#x200B;中的[边缘网络](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934)。
 
 如果需允许列表要，可以[!DNL Target]边缘节点。
 
-以下列表包括当前主机：
+## 目标边缘的网络地址转换(NAT)IP地址
 
-* `CLIENTCODE.tt.omtrdc.net`
+边缘[!DNL Target]的出口IP地址列表。 如允许列表果您计划让目标接触您的服务，请使用这些IP。
 
-   (其中CLIENTCODE是您的目标客户端ID)
+| 边缘位置 | 输出IP地址 |
+| --- | --- |
+| Edge31（孟买） | 13.126.131.246<br>13.234.229.8 |
+| Edge32（东京） | 3.115.154.28<br>3.115.227.146 |
+| Edge34（美国东海岸） | 34.232.149.249<br>52.21.139.93 |
+| Edge35（美国西海岸） | 52.10.11.139<br>44.231.171.161 |
+| Edge36（悉尼） | 13.237.227.20<br>13.210.93.142 |
+| Edge37（爱尔兰） | 54.72.21.68<br>52.208.139.19 |
+| Edge38（新加坡） | 18.141.132.96<br>54.179.187.167 |
 
-* `mboxedge17.tt.omtrdc.net`
-* `mboxedge21.tt.omtrdc.net`
-* `mboxedge22.tt.omtrdc.net`
-* `mboxedge26.tt.omtrdc.net`
-* `mboxedge28.tt.omtrdc.net`
-* `mboxedge29.tt.omtrdc.net`
-* `mboxedge30.tt.omtrdc.net`
-* `mboxedge31.tt.omtrdc.net`
-* `mboxedge32.tt.omtrdc.net`
-* `mboxedge34.tt.omtrdc.net`
-* `mboxedge35.tt.omtrdc.net`
-* `mboxedge36.tt.omtrdc.net`
-* `mboxedge37.tt.omtrdc.net`
-* `mboxedge38.tt.omtrdc.net`
+## 目标边缘IP地址
+
+边缘[!DNL Target]的IP地址列表。 如果允许列表要对目标边缘进行API调用，请这些IP。
+
+| 边缘位置 | 域 | IP 地址 |
+| --- | --- | --- |
+| Edge31（孟买） | `mboxedge31.tt.omtrdc.net` | 15.207.157.131<br>15.206.8.201 |
+| Edge32（东京） | `mboxedge32.tt.omtrdc.net` | 54.199.66.101<br>54.64.93.37 |
+| Edge34（美国东海岸） | `mboxedge34.tt.omtrdc.net` | 3.225.56.36<br>3.230.207.249<br>34.198.55.51<br>52.3.14.12<br>52.21.222.93<br>52.55.235.132<br>52.70.52.52<br>54.165.204.89 |
+| Edge35（美国西海岸） | `mboxedge35.tt.omtrdc.net` | 52.10.244.20<br>52.36.232.38<br>52.88.209.29<br>54.214.180.56<br>35.162.74.35<br>34.214.12.211<br>52.42.35.202<br>54.148.71.13 |
+| Edge36（悉尼） | `mboxedge36.tt.omtrdc.net` | 13.238.34.185<br>3.24.250.17<br>3.104.234.91<br>13.211.248.241 |
+| Edge37（爱尔兰） | `mboxedge37.tt.omtrdc.net` | 52.212.193.208<br>52.19.133.54<br>52.51.251.137<br>34.252.156.174<br>52.213.168.74<br>34.252.166.160<br>52.18.150.20<br>18.203.205.32 |
+| Edge38（新加坡） | `mboxedge38.tt.omtrdc.net` | 52.221.145.65<br>52.220.44.99<br>13.250.75.226<br>54.151.139.123 |
+
+
+
+
+

@@ -4,50 +4,45 @@ description: 了解 Adobe Target 当前版本包含的新增功能、增强功�
 title: 当前版本中包含哪些新增功能？
 feature: 发行说明
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 42%
+source-wordcount: '590'
+ht-degree: 38%
 
 ---
 
 
 # Target 发行说明（当前版本）
 
-这些发行说明介绍了每个 Target Standard 和 Target Premium 版本的功能、增强功能和修复信息。此外，还包含目标 API、SDK、JavaScript库(at.js)的发行说明和其他平台更改（如果适用）。
+这些发行说明提供了有关每个[!DNL Adobe Target Standard]和[!DNL Target Premium]版本的功能、增强和修复的信息。 此外，还包含目标 API、SDK、JavaScript库(at.js)的发行说明和其他平台更改（如果适用）。
 
 >[!IMPORTANT]
 >
 >**mbox.js终止使用**:2021年3月31日， [!DNL Adobe Target] 将不再支持mbox.js库。2021年3月31日之后，从mbox.js发出的所有调用将轻松失败，并会通过提供默认内容来影响运行[!DNL Target]活动的页面。
 >
->我们建议所有客户在此日期前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
+>在此日期之前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## Target Standard/Premium 21.1.1（2021 年 1 月 19 日） 
+## Target Standard/Premium 21.2.1（2021 年 3 月 9 日）
 
 此维护版本包含以下增强功能、修复和更改。
 
 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-* 在[!UICONTROL 自动目标]活动中，将[!UICONTROL Analytics用作报告源](A4T)时，选择[!DNL Adobe Analytics]量度时添加了警告。 [!UICONTROL 自动定] 位模型经过优化，可与二进制（基于转换）指标结合使用。选择连续量度（如收入）可能会产生次优结果，而[!UICONTROL 个性化分析]报表可能不准确。 (TGT-38926)
-* 在使用A4T的[!UICONTROL 自动目标]活动的[!UICONTROL 自动目标摘要]报告中添加了状态图标。 报表中每个体验旁边的绿色复选标记表示已为该体验生成个性化的机器学习模型。时钟图标表示用于构建模型的流量不足。(TGT-38925)
-* 生成[!UICONTROL 自动区段]和[!UICONTROL 重要属性]报告，用于[!UICONTROL 使用A4T和[!DNL Analytics]转换量度的自动目标]活动，其外观与使用[!DNL Target]作为报告源时相同。 (TGT-38931)
-* 在[!UICONTROL Recommendations] [!UICONTROL 集合]列表中添加了环境过滤选项。 (TGT-38353)
-* 修复了导致在[!UICONTROL Recommendations]集合中显示不正确的产品计数的问题。 (TGT-39162)
-* 向[!UICONTROL Recommendations][!UICONTROL 目录搜索]添加了[!UICONTROL 上次更新]筛选器。 (TGT-38340)
-* 修复了[!UICONTROL Recommendations]中的一个问题，该问题导致在更改行业垂直后，[!UICONTROL 创建序列]页面挂起。 (TGT-38160)
-* 修复了在启用设备协作后，用户从[!DNL Target]作为活动源更改为[!DNL Analytics](A4T)时，无法保存报告的问题。 (TGT-38163)
-* 修复了阻止用户从[!UICONTROL Automated Personalization](AP)活动中的优惠中删除受众的问题。 (TGT-39058)
-* 修复了导致某些客户在[!UICONTROL 受众信息]卡中显示不正确的时间范围(开始和结束日期)的问题。 (TGT-39150)
-* 修复了导致某些客户无法在[!UICONTROL 默认工作区]中看到活动列表的问题。 (TGT-38526)
+* 增加了允许的优惠大小(TGT-38304):
 
-## at.js 2.4.0（2021年1月14日）
+   | 类型 | 上一个限制 | 新限制 |
+   | --- | --- | --- |
+   | HTML | 256KB | 1024KB |
+   | 来自目标UI的可视优惠 | 64KB | 每个体验1024 KB |
+   | 通过API | 512KB | 1024KB |
 
-此版本的at.js是维护版本，包括以下修复：
-
-* 为投放 API customerId添加了对统一用户档案/平台ID的支持。
-* 修复了无效样式标签插入。
+* [!UICONTROL 现] 在每天都 [!UICONTROL 会为自动目标] (AT)和 [!UICONTROL Automated Personalization] (AP)活动制作个性化见解报表。您可以选择一个报告，其中提供过去15、30和60天的[!UICONTROL 自动区段]或[!UICONTROL 重要属性]。 已删除45天和90天选项，以启用其他回顾窗口设置以每天运行。 (TGT-39472)
+* 修复了当客户在活动的[!UICONTROL 目标和设置]页面上单击[!UICONTROL 编辑依赖关系]时，导致当前依赖关系不显示的问题。 (TGT-39340)
+* 修复了刷新工作区[!UICONTROL 受众库]时的问题。 刷新之前，将显示当前选定工作区的受众。 刷新后，将显示[!UICONTROL 默认工作区]及其受众。 当前工作区及其受众现在在刷新后保留。 (TGT-38871)
+* 修复了在复制[!UICONTROL Recommendations]活动并稍后通过更改原始活动的条件序列来编辑其时出现的问题。 原始活动中条件序列的更改也错误地应用于复制的活动。 (TGT-39155)
+* 修复了导致[!UICONTROL Recommendations]排除显示的产品数不正确的问题。 (TGT-39599)
 
 ## 其他发行说明和版本详细信息
 
@@ -61,7 +56,7 @@ ht-degree: 42%
 
 | 资源 | 详细信息 |
 |--- |--- |
-| 文档更改 | 查看可能未包含在这些发行说明中的针对该指南的详细更新信息。<br>有关更多信息，请参阅[文档更改](/help/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)。 |
+| 文档更改 | 视图本指南中未包含的更新的详细信息。<br>有关更多信息，请参阅[文档更改](/help/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)。 |
 | 以前版本的发行说明 | 查看与以前版本的 Target Standard 和 Target Premium 中的新增功能和增强功能相关的信息。<br>有关更多信息，请参阅[以前版本的发行说明](/help/r-release-notes/release-notes-for-previous-releases.md)。 |
 | Adobe Experience Cloud 发行说明 | 查看 Adobe Experience Cloud 解决方案的最新发行说明。<br>有关详细信息，请参阅 [Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)。 |
 
@@ -71,5 +66,5 @@ ht-degree: 42%
 
 | 资源 | 详细信息 |
 |--- |--- |
-| Adobe 优先产品更新列表 | 若要提前了解有关 Target 和其他 Adobe Experience Cloud 解决方案即将推出的产品增强功能的通知，请注册“Adobe 产品更新早知道”：<br>[](https://www.adobe.com/subscription/priority-product-update.html)https://www.adobe.com/subscription/priority-product-update.html |
+| Adobe优先级产品更新 | 若要提前了解有关 Target 和其他 Adobe Experience Cloud 解决方案即将推出的产品增强功能的通知，请注册“Adobe 产品更新早知道”：<br>[](https://www.adobe.com/subscription/priority-product-update.html)https://www.adobe.com/subscription/priority-product-update.html |
 | 即将推出的发行说明 | 有关当月 Target 发行版本的信息（包括预发行信息），请参阅 [Target 发行说明 - 预发行](/help/r-release-notes/target-release-notes.md)页面。 |

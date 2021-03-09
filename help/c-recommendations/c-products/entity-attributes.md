@@ -1,26 +1,26 @@
 ---
 keywords: 实体;实体属性;将信息传递到推荐;行为数据;数据计数器;定义相对 URL;显示库存水平;定义价格;定义利润率;自定义属性
-description: 了解如何使用实体属性将产品或内容信息传递给Adobe Target·Recommendations。
+description: 了解如何使用实体属性将产品或内容信息传递给Adobe Target Recommendations。
 title: 如何使用实体属性？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 89%
+source-wordcount: '1064'
+ht-degree: 88%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 实体属性{#entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) 实体属性
 
 可使用实体属性，将产品或内容信息传递到 [!DNL Adobe Target Recommendations].
 
-[!DNL Recommendations] 发 `productId` 送 `productPurchasedId` 算法中使 `entity.id` 用的或（在代码中称为）。
+[!DNL Recommendations] 发 `productId` 送 `productPurchasedId` 算法中 `entity.id` 使用的或（在代码中称为）。
 
 >[!NOTE]
 >
->* `entity.id` 必须与发送 `productPurchasedId` 到订单确认页面和在Adobe Analytics产 `productId` 品报告中使用的匹配。
+>* `entity.id` 必须与发送 `productPurchasedId` 到订单确认页面和在Adobe Analytics产 `productId` 品报表中使用的匹配。
    >
    >
 * 提供的实体属性值会在 61 天后过期。这意味着对于目录中的每个项目，应确保每月至少向 Target 推荐传递一次每个实体属性的最新值。
@@ -28,11 +28,11 @@ ht-degree: 89%
 
 大多数预定义的参数仅接受单个值，且新值会覆盖旧值。`categoryId` 参数可以接受以逗号分隔的，表示包含该产品的每个类别的值列表。新的 `categoryId` 值在实体更新期间不会覆盖现有值，而是会进行附加（250 个字符限制）。
 
-通常，如果您使用at.js 1，则显示信息mbox可能与以下示例类似。** xwith `mboxCreate`。
+通常，如果您使用at.js 1，则显示信息mbox可能与以下示例类似。** xwith  `mboxCreate`。
 
 >[!NOTE]
 >
->* 如果您使用at.js 2。*x*, `mboxCreate` （如以下示例中所示）不再受支持。使用at.js 2将产品或内容信息传递给Recommendations。*x*，使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。有关此示例，请参见[计划并实施Recommendations](/help/c-recommendations/plan-implement.md)。
+>* 如果您使用at.js 2。*x*,( `mboxCreate` 如以下示例中所示)不再受支持。使用at.js 2将产品或内容信息传递给Recommendations。*x*，使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。有关此示例，请参阅[计划并实施Recommendations](/help/c-recommendations/plan-implement.md)。
 
 >
 
@@ -86,7 +86,7 @@ mboxCreate('productPage',
 
 此必填参数可识别产品。此字母数字 ID 必须在使用的所有 [!DNL Adobe Experience Cloud] 产品（包括 [!DNL Analytics]）中均相同，以便各个产品能够识别该项目并共享与其相关的数据。
 
-`entity.id` 值不得包含斜杠、与号、问号、百分比符号、逗号或其他在 REST API 调用中传递时需要 URL 编码的标点字符。允许包含连字符和下划线。在 `entity.id` 值中包含无效标点符号会导致某些 [!DNL Recommendations] 功能失败。
+`entity.id`*值不得包含斜杠、与号、问号、百分比符号、逗号或其他在 REST API 调用中传递时需要 URL 编码的标点字符。*&#x200B;允许包含连字符和下划线。在 `entity.id` 值中包含无效标点符号会导致某些 [!DNL Recommendations] 功能失败。
 
 示例: `'entity.id=67833'`
 
@@ -179,6 +179,8 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 定义项目的价格或价值。
 
 示例: `'entity.value=15.99'`
+
+entity.value仅支持十进制格式（例如，15.99）。 不支持逗号格式(15,99)。
 
 ### entity.margin
 

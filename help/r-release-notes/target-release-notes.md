@@ -4,10 +4,10 @@ description: 了解即将发布的Adobe Target版本（包括SDK、API和JavaScr
 title: 即将发布的版本中包含哪些新增功能？
 feature: 发行说明
 translation-type: tm+mt
-source-git-commit: ddc357197f6a182865c5f06930de747c143c7c38
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 21%
 >
 >Adobe建议所有客户在此日期之前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
 
-## Target Standard/Premium 21.2.1（2021年3月9日和10日）
+## Target Standard/Premium 21.2.1（2021 年 3 月 9 日）
 
 此维护版本包含以下增强功能、修复和更改。
 

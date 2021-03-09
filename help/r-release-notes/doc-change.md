@@ -4,10 +4,10 @@ description: 随时更新Adobe Target产品文档中的重要增补和更改。
 title: 在哪里可以视图文档更新以进行目标?
 feature: 发行说明
 translation-type: tm+mt
-source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '3659'
-ht-degree: 28%
+source-wordcount: '3715'
+ht-degree: 29%
 
 ---
 
@@ -15,6 +15,14 @@ ht-degree: 28%
 # Adobe Target 产品文档中的文档更改
 
 本页列表了对[!DNL Adobe Target]产品文档所做的重要更改。
+
+## Adobe Target Standard/Premium 21.2.1（2021 年 3 月 9 日） 
+
+| 日期 | 主题 | 更改 |
+| --- | --- | --- |
+| 3月9日 | [限制](/help/r-troubleshooting-target/target-limits.md#offer-size) | 已更新允许的优惠大小限制。 |
+|  | [允许列表目标边缘节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 已更新[!DNL Target]边缘IP地址。 |
+|  | [发行说明](/help/r-release-notes/release-notes.md)：21.2.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe Target Standard/Premium 21.1.1（2021 年 1 月 19 日） 
 

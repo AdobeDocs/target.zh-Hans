@@ -4,10 +4,10 @@ description: 了解如何使用实体属性将产品或内容信息传递给Adob
 title: 如何使用实体属性？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
+source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 88%
+source-wordcount: '1054'
+ht-degree: 66%
 
 ---
 
@@ -23,22 +23,22 @@ ht-degree: 88%
 >* `entity.id` 必须与发送 `productPurchasedId` 到订单确认页面和在Adobe Analytics产 `productId` 品报表中使用的匹配。
    >
    >
-* 提供的实体属性值会在 61 天后过期。这意味着对于目录中的每个项目，应确保每月至少向 Target 推荐传递一次每个实体属性的最新值。
+* 提供的实体属性值会在 61 天后过期。此过期意味着您必须确保每个实体属性的最新值每月至少为目录中每个项目传递一次目标 Recommendations。
 
 
 大多数预定义的参数仅接受单个值，且新值会覆盖旧值。`categoryId` 参数可以接受以逗号分隔的，表示包含该产品的每个类别的值列表。新的 `categoryId` 值在实体更新期间不会覆盖现有值，而是会进行附加（250 个字符限制）。
 
-通常，如果您使用at.js 1，则显示信息mbox可能与以下示例类似。** xwith  `mboxCreate`。
+通常，如果您使用at.js 1，则显示信息mbox将像以下示例一样。** xwith  `mboxCreate`。
 
 >[!NOTE]
 >
->* 如果您使用at.js 2。*x*,( `mboxCreate` 如以下示例中所示)不再受支持。使用at.js 2将产品或内容信息传递给Recommendations。*x*，使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。有关此示例，请参阅[计划并实施Recommendations](/help/c-recommendations/plan-implement.md)。
+>* 如果您使用at.js 2。*x*,( `mboxCreate` 如以下示例中所示)不再受支持。使用at.js 2将产品或内容信息传递给Recommendations。*x*，使 [用targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。有关示例，请参阅[规划并实现Recommendations](/help/c-recommendations/plan-implement.md)。
 
 >
 
 
 
-所有实体参数属性都区分大小写。
+所有实体参数属性均区分大小写。
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -102,7 +102,7 @@ mboxCreate('productPage',
 
 支持多值（逗号分隔列表）。
 
-当前页面的类别。可以包括多个类别，如羊毛衫是第三级标题（例如女士、女士：毛衫、女士：毛衫：羊毛衫）。多个类别可使用逗号分隔。
+当前页面的类别。entity.categoryID可以包括多个类别，如羊毛衫子小节（即女人、女人：毛衣、女人：毛衣：羊毛衫）。 多个类别必须用逗号分隔。
 
 `categoryId`限制为 250 个字符。
 
@@ -118,7 +118,7 @@ mboxCreate('productPage',
 
 对于基于类别的推荐，可使用逗号分隔类别值。以逗号分隔的任意值都会变成类别。您也可以使用不同的分隔符（例如冒号 (:)）来分隔类别值中的子类别，从而定义子类别。
 
-例如，在下面这段代码中，“Womens”类别被划分为若干子类别：
+例如，在以下代码中，妇女类别分为几个子类别：
 
 ```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
@@ -166,11 +166,11 @@ mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens
 
 示例: `'entity.inventory=1'`
 
-**空库存属性处理：**&#x200B;对于交付，如果您具有包含规则、收集规则或标准设置，其中 `entity.inventory` > 0 或 `entity.inventory` = 0，并且产品未设置库存，则 [!DNL Target] 会将此规则计算为 TRUE，并包括未设置库存的产品。这是默认完成的，以便未设置库存的产品会显示在推荐结果中。
+**清空库存属性处** 理：对于投放，如果包含规则、收集规则或标准设置大于0或 `entity.inventory` = 0且产品未设置库存，则将此值 `entity.inventory`  [!DNL Target] 评估为TRUE并包括未设置库存的产品。因此，未设置库存的产品会显示在推荐结果中。
 
 同样，如果您具有全局排除规则，其中 `entity.inventory` = 0，并且产品未设置 `entity.inventory`，则 [!DNL Target] 会将此规则计算为 TRUE 并排除产品。
 
-**已知问题：**&#x200B;产品搜索与未设置库存值属性的交付不一致。例如，对于设置为 `entity.inventory` = 0 的规则，产品搜索将不显示未设置库存值的产品。
+**已知问题：**&#x200B;产品搜索与未设置库存值属性的交付不一致。例如，对于`entity.inventory` = 0的规则，“产品搜索”不显示未设置库存值的产品。
 
 ### entity.value
 
@@ -194,12 +194,12 @@ entity.value仅支持十进制格式（例如，15.99）。 不支持逗号格�
 
 支持多值（JSON 数组）。
 
-最多定义 100 个自定义变量，这些变量用于提供项目的其他信息。您可为每个自定义属性指定任意一个未使用过的属性名称。例如，您可以创建一个名为 `entity.genre` 的自定义属性，用来定义一本书籍或一部电影。或者，票务供应商可以为活动场地创建属性以用于辅助表演，例如体育赛事中的客队或音乐会上的开场表演。
+最多定义 100 个自定义变量，这些变量用于提供项目的其他信息。您可为每个自定义属性指定任意一个未使用过的属性名称。例如，您可以创建名为`entity.genre`的自定义属性来定义书籍或影片。 票证供应商可以为辅助表演者创建事件场所的属性，例如体育事件中的访问团队或音乐会中的开幕式。
 
 限制：
 
 * 您无法将预定义实体属性的名称用于自定义实体属性。
-* entity.environment 属性由系统保留，该属性不能用于自定义实体属性。尝试使用 targetPageParams、信息源或 API 来传递 entity.environment 的操作将会被忽略。
+* entity.environment 属性由系统保留，该属性不能用于自定义实体属性。忽略使用targetPageParams、feed或API传递entity.环境的尝试。
 
 示例：
 
@@ -223,7 +223,7 @@ entity.value仅支持十进制格式（例如，15.99）。 不支持逗号格�
 
 示例: `'entity.event.detailsOnly=true'`
 
-在下面的示例中，第一个 mbox 调用将更新目录和行为数据。第二个 mbox 调用将仅更新目录。
+在以下示例中，第一个mbox调用更新了目录和行为数据。 第二个mbox调用仅更新目录。
 
 ```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )

@@ -6,17 +6,17 @@ title: 如何实施目标?
 feature: 实施
 role: 开发人员
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 2f1d37c8a17283ac0191dee5d581e202f024398d
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 95%
+source-wordcount: '104'
+ht-degree: 61%
 
 ---
 
 
-# 实施 Target{#implement-target}
+# 实施 Target
 
-在开始使用 Adobe Target 之前，您应该在网站上实施该产品，了解一些基本概念和术语，熟悉 Target 的工作原理以及与基础架构集成的方式，并了解 Target 系统如何跟踪访客。
+在使用[!DNL Adobe Target]之前，必须在您的站点上实现它。 在实施之前，您应了解基本概念，了解[!DNL Target]如何工作并与基础结构集成，并了解[!DNL Target]系统如何跟踪访客。
 
 + [实施之前](c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
 + [客户端 Web 实施](c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)

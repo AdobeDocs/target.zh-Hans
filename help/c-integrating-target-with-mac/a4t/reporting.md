@@ -1,13 +1,13 @@
 ---
-keywords: Analytics for Target;A4T;Analytics 作为报表源
+keywords: analytics for 目标;a4t;analytics as 报告 source;analytics
 description: 了解如何使用Analytics进行目标(A4T)。 A4T提供对使用Analytics量度和受众区段的目标活动的Analytics报表的访问。
 title: 如何在A4T中使用报告?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: 7b2d5251275f42da66d09370501d0882671d5cca
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 30%
+source-wordcount: '690'
+ht-degree: 28%
 
 ---
 

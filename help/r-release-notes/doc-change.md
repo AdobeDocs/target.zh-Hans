@@ -4,10 +4,10 @@ description: 随时更新Adobe Target产品文档中的重要增补和更改。
 title: 在哪里可以视图文档更新以进行目标?
 feature: 发行说明
 translation-type: tm+mt
-source-git-commit: cc87bd2ab4d4971f5b24772cd38e12932a4e4f3e
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '3740'
-ht-degree: 29%
+source-wordcount: '3767'
+ht-degree: 28%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 3月12日 | [A4T支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | 添加了以下新教程：<ul><li>如何在Analysis Workspace中设置A4T报表以用于自动目标活动</li></ul> |
 | 3月9日 | [限制](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>已更新允许的优惠大小限制。</li><li>更正了categoryId参数的字符限制。</li></ul> |
 |  | [允许列表目标边缘节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 已更新[!DNL Target]边缘IP地址。 |
 |  | [实体属性](/help/c-recommendations/c-products/entity-attributes.md) | 添加了文本以指示entity.value必须采用小数格式（例如15.99而不是15,99）。 |
@@ -129,39 +130,39 @@ ht-degree: 29%
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 8月31日 | [将Adobe Analytics与Recommendations结合使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 添加了常见问题解答部分。 |
-| 8月28日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 更新了以下内容：<ul><li>已添加到“已知问题”部分：“报告 — 转换当前的增量取决于使用的受众。”</li><li>已解决的问题部分已添加：&quot;使用Google Chrome 80+版时，无法在Visual Experience Composer(VEC)或Enhanced Experience Composer(EEC)中加载页面。&quot;</li></ul> |
-|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | mbox.js的弃用日期已从2020年8月30日更改为2021年1月18日。 现在已更改为2020年3月31日。 |
-| 8月26日 | [将Adobe Analytics与Target Recommendations一起使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 新主题。 |
+| 8月28日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 更新了以下内容：<ul><li>添加到“已知问题”部分：“报告 — 转换当前会根据使用的受众以不同方式增加。”</li><li>添加到“已解决的问题”部分：&quot;使用Google Chrome版本80+时，不在Visual Experience Composer(VEC)或Enhanced Experience Composer(EEC)中加载页面。&quot;</li></ul> |
+|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | mbox.js的停用日期已从2020年8月30日更改为2021年1月18日。 现在已改为2020年3月31日。 |
+| 8月26日 | [将Adobe Analytics与目标 Recommendations结合使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 新主题。 |
 | 8月24日 | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | 更新了“高级设置”部分。 |
-| 8月21日 | [Adobe Target欢迎工具包概述](/help/c-intro/target-welcome-kit.md) | 新文章和子主题。 |
-| 8月20日 | [对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 添加了以下部分：“最近宣布的Google Chrome SameSite Cookie强制策略对VEC和EEC有何影响？” |
+| 8月21日 | [Adobe Target welcome kit概述](/help/c-intro/target-welcome-kit.md) | 新文章和子主题。 |
+| 8月20日 | [对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 添加了以下部分：“最近发布的Google Chrome SameSite Cookie实施策略对VEC和EEC有何影响？” |
 |  | [点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md) | 更新了以下文本：&quot;如果您选择多个元素，则如果进入者单击任一所选元素，则单击计数。 要单独对每个项目进行计数，需为每个元素分别设置成功量度。要通过单击页面上的多个元素来计数一个项目，请编辑CSS元素选择器以匹配多个元素。” |
 |  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 20.9.1（2020年9月2日）版本的信息。 |
-| 8月14日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关Recommendations活动中的QA的已知问题。 |
-|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 添加了文本，指示如果在返回的内容中使用`serverState`和`<script>`标签，请确保HTML内容使用`<\/script>`而不是`</script>`。 |
+| 8月14日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了有关Recommendations活动中QA的已知问题。 |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 添加了文本，指示如果在返回的内容中使用`serverState`和`<script>`标记，请确保HTML内容使用`<\/script>`而不是`</script>`。 |
 | 8月12日 | [了解目标UI](/help/c-intro/understand-the-target-ui.md) | 新主题。 |
 |  | [Adobe Target API概述](/help/api/api-overview.md) | 新主题。 |
-| 8月10日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 添加了文本，指示在使用CNAME时Cookie标头的大小将增加。 |
-|  | [将Target与Adobe Audience Manager集成](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | 新主题。 |
-|  | [目标公告和活动](/help/r-release-notes/target-announcements.md) | 添加了查看以下存档网络研讨会的链接：“汇丰如何利用Adobe Target和人工智能快速大规模优化和提供个性化。” |
-| 8月6日 | [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md#how-long) | 以下常见问题解答的更新文本：“我应该等待多久才能建立模型？” |
+| 8月10日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 添加了文本，指示在使用CNAME时Cookie头的大小将增加。 |
+|  | [将目标与Adobe Audience Manager集成](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | 新主题。 |
+|  | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了视图以下已存档网络研讨会的链接：“汇丰如何利用Adobe Target和AI大规模快速优化和提供个性化。” |
+| 8月6日 | [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md#how-long) | 更新了以下常见问题解答的文本：“我应该等待多长时间才能建立模型？” |
 |  | [分类 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 已更新目标类型的文本。 |
 | 8月5日 | [删除 Target Cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | 更新了整个主题。 |
-| 8月4日 | [目标公告和活动](/help/r-release-notes/target-announcements.md) | 添加了有关定于8月13日举行的“使用人工智能和Adobe Target的个性化策略”网络研讨会的注册信息。 |
+| 8月4日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 增加了定于8月13日举办的“使用人工智能和Adobe Target的个性化战略”网络研讨会的注册信息。 |
 |  | [在浏览器中启用混合内容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 更新了主题。 |
-| 8月3日 | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 添加了说明，以说明“增量计数]”选项对访客与访问的含义。[!UICONTROL  |
-| 31 年 7 月 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了新的已知问题：&quot;显示&quot;正在处理&quot;标签的图像选件。&quot; |
+| 8月3日 | [成功量度](/help/c-activities/r-success-metrics/success-metrics.md) | 添加了说明，说明“增量计数”选项对访客与访问的意义。 |
+| 31 年 7 月 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了新的已知问题：&quot;显示&quot;Processing&quot;标签的图像优惠。&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了使用`getoffers()`执行pageLoad的代码示例。 |
-|  | [目标公告和活动](/help/r-release-notes/target-announcements.md) | 添加了有关即将于8月5日举行的Adobe Target社区咖啡休息的注册信息。 |
-| 28 年 7 月 | [个性化洞察报告](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)、<br>[自动细分报告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)、<br>重要 [属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 更新了主题顶部附注中的文本。 |
-|  | [Auto-Allocate（自动分配）](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 添加了以下常见问题解答：<ul><li>我能否在运行自动分配活动时使用重置报表数据选项？</li><li>自动分配构建模型如何与环境相关？</li></ul> |
-|  | [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md) | 添加了以下常见问题解答：<ul><li>我能否在运行自动定位活动时使用“重置报表数据”选项？</li></ul>更新了“注意事项”部分中的文本。 |
-|  | [Automated Personalization常见问题解答](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 添加了以下常见问题解答：<ul><li>运行Automated Personalization活动时，能否使用“重置报表数据”选项？</li><li>Automated Personalization如何构建与环境相关的模型？</li></ul> |
+|  | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关即将于8月5日举办的Adobe Target社区咖啡休息会的注册信息。 |
+| 28 年 7 月 | [个性化洞察报](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)表、<br>[自动细分报](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)表<br>和重 [要属性报表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 已更新主题顶部附注中的文本。 |
+|  | [Auto-Allocate（自动分配）](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 添加了以下常见问题解答：<ul><li>在运行自动分配活动时，是否可以使用重置报表数据选项？</li><li>“自动分配”构建模型如何与环境相关？</li></ul> |
+|  | [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md) | 添加了以下常见问题解答：<ul><li>在运行自动目标活动时，是否可以使用“重置报告数据”选项？</li></ul>更新了“注意事项”部分中的文本。 |
+|  | [Automated Personalization常见问题解答](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 添加了以下常见问题解答：<ul><li>在运行Automated Personalization活动时，我是否可以使用“重置报告数据”选项？</li><li>Automated Personalization如何构建与环境相关的模型？</li></ul> |
 |  | [支持的浏览器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 添加了有关Internet Explorer和未知元素的信息。 |
-|  | [客户属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 以下段落更新：<br>[!DNL Adobe]不保证CRM用户档案库的100%客户属性(访客)数据将装载到[!DNL Experience Cloud]，因此可用于在[!DNL Target]中定位。 在我们当前的设计中，可能不会装载少量数据（大型生产批次中高达0.1%）。 |
+|  | [客户属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 以下段落更新：<br>[!DNL Adobe]不保证CRM用户档案库的100%客户属性(访客)数据将装载到[!DNL Experience Cloud]，因此可用于在[!DNL Target]中定位。 在我们当前的设计中，可能不会载入少量数据（大型生产批次中最多0.1%）。 |
 | 27 年 7 月 | [管理 Target](/help/administrating-target/administrating-target.md) | 更新了此页面上所有链接主题中的文本，以反映[!UICONTROL 管理]页面的新UI更改。 |
-|  | [目标公告和活动](/help/r-release-notes/target-announcements.md) | 做出了以下更改： <ul><li>为以下网络研讨会添加了注册信息：“汇丰如何利用Adobe Target和人工智能快速大规模优化和提供个性化。”</li><li>添加了有关Adobe再次被评为Gartner个性化引擎魔力象限领导者的信息。</li></ul> |
-|  | [Form-Based Experience Composer（基于表单的体验编辑器）](/help/c-experiences/form-experience-composer.md) | 第4步下的澄清信息：选择位置。 |
+|  | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 做出了以下更改： <ul><li>添加了以下网络研讨会的注册信息：“汇丰如何利用Adobe Target和AI大规模快速优化和提供个性化。”</li><li>新增了有关Adobe在Gartner Magic Quadrant个性化引擎报告中再次被评为领导者的信息。</li></ul> |
+|  | [Form-Based Experience Composer（基于表单的体验编辑器）](/help/c-experiences/form-experience-composer.md) | 第4步中阐明的信息：选择位置。 |
 | 24 年 7 月 | <br>[at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.3.2 的信息。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：20.7.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
@@ -169,51 +170,51 @@ ht-degree: 29%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 17 年 7 月 | [目标公告和活动](/help/r-release-notes/target-announcements.md) | 添加了有关7月22日Adobe Target咖啡休息的信息。 |
-| 15 年 7 月 | [与手动测试相比，自动分配可以更快地完成测试并增加收入](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | 新主题。 |
-| 14 年 7 月 | [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、自<br>[动定位](/help/c-activities/auto-target/auto-target-to-optimize.md)、自<br><br>[动个性化](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 添加了常见问题解答，建议您不要在活动中途更改目标量度。 |
-| 7 年 7 月 | [目标公告和活动](/help/r-release-notes/target-announcements.md) | 添加了有关7月8日Adobe Target咖啡休息的信息。 |
-| 6月25日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 20.6.1版（2020年7月）的信息。 |
-|  | [目标文档概述](/help/r-release-notes/target-documentation.md) | 详细列出[!DNL Target]文档不同来源的新主题。 |
-| 6月23日 | [目标公告和活动](/help/r-release-notes/target-announcements.md) | 添加了有关6月24日Adobe Target咖啡休息的信息。 |
-|  | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 添加了注意，建议不要创建使用另一个配置文件脚本中一个配置文件脚本的结果的相关配置文件脚本。 |
+| 17 年 7 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关7月22日Adobe Target咖啡休息的信息。 |
+| 15 年 7 月 | [与手动测试相比，自动分配功能可以更快地为您提供测试结果和更高的收入](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | 新主题。 |
+| 14 年 7 月 | [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)、自<br>[动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)、自<br><br>[动个性化常见问题](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 添加了常见问题解答，建议您不要在活动中途更改目标量度。 |
+| 7 年 7 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关7月8日Adobe Target咖啡休息的信息。 |
+| 6月25日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 20.6.1版本（2020年7月）的信息。 |
+|  | [目标文档概述](/help/r-release-notes/target-documentation.md) | 详细描述[!DNL Target]文档不同来源的新主题。 |
+| 6月23日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关6月24日Adobe Target咖啡休息的信息。 |
+|  | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 添加了注意，不建议创建使用另一个用户档案脚本中一个用户档案脚本的结果的从属用户档案脚本。 |
 |  | [at.js 的工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 添加了以下视频：办公时间：at.js提示和概述 |
 | 6月17日 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主题。 |
-|  | [响应令牌](/help/administrating-target/response-tokens.md) | 为[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动的流量分配方法添加了有关响应令牌的信息。 |
-|  | [活动创建](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 添加了有关Analytics for Target(A4T)支持自动分配活动的信息。 |
-|  | [用户](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 在“指定角色和权限”下添加了有关新[!UICONTROL Publisher]角色的信息。** |
+|  | [响应令牌](/help/administrating-target/response-tokens.md) | 为[!UICONTROL 自动目标]和[!UICONTROL Automated Personalization]活动的流量分配方法添加了有关响应令牌的信息。 |
+|  | [活动创建](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 添加了有关Analytics for 目标(A4T)支持自动分配活动的信息。 |
+|  | [用户](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 在&#x200B;*指定角色和权限*&#x200B;下添加了有关新[!UICONTROL Publisher]角色的信息。 |
 |  | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 在&#x200B;*步骤6下添加了有关新[!UICONTROL Publisher]角色的信息：指定角色和权限*。 |
-|  | [企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md) | 添加了指向&#x200B;*办公时间的链接：目标高级工作区会话*。 |
+|  | [企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md) | 添加了指向&#x200B;*办公时间的链接：目标 Premium Workspaces会话*。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：20.5.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe Target Standard/Premium 20.4.1（2020 年 5 月 6 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 6月15日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关at.js 1.8.2和at.js 2.3.1版的信息。 |
-|  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关at.js 1.8.2和at.js 2.3.1版的信息。 |
-|  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新了[!DNL Target Standard/Premium] 20.5.1版（2020年6月17日）的说明，以包含[!DNL Analysis Workspace]中有关A4T支持的信息。 |
+| 6月15日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关at.js 1.8.2和at.js 2.3.1版本的信息。 |
+|  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关at.js 1.8.2和at.js 2.3.1版本的信息。 |
+|  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 已更新[!DNL Target Standard/Premium] 20.5.1版本（2020年6月17日）的说明，以包含有关[!DNL Analysis Workspace]中A4T支持的信息。 |
 | 6月12日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 添加了有关 `deviceIdLifetime` 设置的信息。 |
-|  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关at.js 1.8.2和at.js 2.3.1版的信息。 |
-| 6月8日 | [目标移动应用程序常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 以下常见问题解答的更新文本：“Target Mobile是否仅是Adobe Target Premium产品SKU的功能？” |
+|  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关at.js 1.8.2和at.js 2.3.1版本的信息。 |
+| 6月8日 | [目标移动应用程序常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 更新了以下常见问题解答的文本：“目标 Mobile是否只是Adobe Target Premium产品SKU的功能？” |
 |  | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 更新了整个主题。 |
-| 6月5日 | [目标公告和活动](/help/r-release-notes/target-announcements.md) | 添加了有关6月10日Adobe Target咖啡休息的信息。 |
-|  | [提升度和置信度 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | 以下常见问题解答的更新文本：“为什么我看不到计算量度的提升和信心？” |
-| 6月4日 | [A4T 报表](/help/c-integrating-target-with-mac/a4t/reporting.md) | 更新了“Analytics中的报表”部分。 |
-| 6月1日 | [目标公告](/help/r-release-notes/target-announcements.md) | 添加了新页面以宣布即将发生的Target事件。 |
+| 6月5日 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 添加了有关6月10日Adobe Target咖啡休息的信息。 |
+|  | [提升度和置信度 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | 更新了以下常见问题解答的文本：“为什么我看不到计算量度的提升和信心？” |
+| 6月4日 | [A4T 报表](/help/c-integrating-target-with-mac/a4t/reporting.md) | 更新了“Analytics中的报告”部分。 |
+| 6月1日 | [目标公告](/help/r-release-notes/target-announcements.md) | 添加了新页面以宣布即将进行的目标事件。 |
 |  | [适用于响应式体验的移动设备视区](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | 更新了Apple iPhone 11、Apple iPhone SE和Google Pixel 2 XL型号的视口尺寸和分辨率。 |
-| 28 年 5 月 | [报表常见问题解答](/help/c-reports/reporting-frequently-asked-questions.md) | 添加了以下新常见问题解答： <ul><li>如何计算“新访客”和“回访访客”量度？</li></ul> |
-| 27 年 5 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Analytics for Target(A4T)支持自动分配活动的信息。 |
-| 26 年 5 月 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 添加了以下信息：&quot;禁用脚本后，该参数将保留在配置文件中。 如果用户的档案中已包含某个活动受众中使用的参数，则该用户将有资格参与该活动。” |
-| 21 年 5 月 | [Allowlist目标边缘节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 已将`mboxedge30.tt.omtrdc.net`添加到列表。 |
+| 28 年 5 月 | [报表常见问题解答](/help/c-reports/reporting-frequently-asked-questions.md) | 添加了以下新常见问题解答： <ul><li>新访客和退回访客量度如何计数？</li></ul> |
+| 27 年 5 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Analytics for 目标(A4T)支持自动分配活动的信息。 |
+| 26 年 5 月 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 添加了以下信息：&quot;禁用脚本后，该参数仍保留在用户档案中。 其用户档案已包含在活动受众中使用的参数的用户将有资格在该活动中使用。” |
+| 21 年 5 月 | [允许列表目标边缘节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 已将`mboxedge30.tt.omtrdc.net`添加到列表。 |
 | 20 年 5 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发布的Target Standard/Premium 20.6.1（2020年6月10日）版本的信息。 |
-|  | [主机](/help/administrating-target/hosts.md) | 在“安全最佳实践”部分添加了说明。 |
-| 14 年 5 月 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关“配置文件批处理状态API v2更改”的信息。 |
+|  | [主机](/help/administrating-target/hosts.md) | 在“安全最佳实践”部分添加了注释。 |
+| 14 年 5 月 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关用户档案批处理状态API v2更改的信息。 |
 | 13 年 5 月 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 添加了“已知限制”部分。 |
-| 11 年 5 月 | [主机](/help/administrating-target/hosts.md) | 添加了有关将ubox功能与重定向和allowlist一起使用的信息。 |
-|  | [使用重定向器](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | 添加了有关使用主机来避免打开重定向漏洞的信息。 |
-|  | [将“推荐”与电子邮件集成](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 添加了有关使用主机来避免打开重定向漏洞的信息。 |
-|  | [电子邮件：实施 Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | 添加了有关使用主机来避免打开重定向漏洞的信息。 |
+| 11 年 5 月 | [主机](/help/administrating-target/hosts.md) | 添加了有关在重定向和中使用ubox功能的允许列表信息。 |
+|  | [使用重定向器](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | 添加了有关使用主机来避免“打开重定向漏洞”的信息。 |
+|  | [将“推荐”与电子邮件集成](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 添加了有关使用主机来避免“打开重定向漏洞”的信息。 |
+|  | [电子邮件：实施 Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | 添加了有关使用主机来避免“打开重定向漏洞”的信息。 |
 |  | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新了“注意事项”部分。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 更新了“设置”下的“overrideMboxEdgeServer”行。 |
 | 6 年 5 月 | [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 添加了有关ITP 2.3的信息。 |
@@ -223,29 +224,29 @@ ht-degree: 29%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 4 年 5 月 | [报表常见问题解答](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | 新增了常见问题解答：“为什么我在A/B或MVT活动中的体验之间的流量不均衡？” |
-| 29 年 4 月 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 增加了使用极端订单进行报告的已知问题。 |
-| 28 年 4 月 | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 删除了有关使用`user.header('x-forwarded-for')`和较新的AWS边缘来检索用户IP地址的信息。 此命令现在可与较新的AWS边缘配合使用。 |
+| 4 年 5 月 | [报表常见问题解答](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | 新增了常见问题解答：“为什么我在A/B或MVT活动中的体验之间的流量分配不均？” |
+| 29 年 4 月 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了已知的极端订单报告问题。 |
+| 28 年 4 月 | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 删除了有关将`user.header('x-forwarded-for')`与较新的AWS边缘一起使用以检索用户IP地址的信息。 此命令现在可用于较新的AWS边缘。 |
 |  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 将Target Standard/Premium版本(20.4.1)的日期更改为5月6日。 |
 | 23 年 4 月 | [CNAME 和 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了主题。 |
-| 22 年 4 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了新部分：*配置批处理状态API v2更改（2020年5月4日）。* |
+| 22 年 4 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了新部分：*用户档案批状态API v2更改（2020年5月4日）。* |
 | 14 年 4 月 | [允许列表目标边缘主机](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 新主题。 |
 | 10 年 4 月 | [单页应用程序实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 添加了新部分：“实施最佳实践。” |
 | 7 年 4 月 | [提升度和置信度 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | 更新了“为什么无法看到计算量度的提升和信心？”的文本 |
 | 2 年 4 月 | [配置文件和变量一览表](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 添加了有关将`user.header('x-forwarded-for')`与较新的AWS边缘一起使用以检索用户IP地址的信息。 |
-|  | [从 at.js 1.*x* 升级到 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 添加了以下注释：<ul><li>安装 ECID 库 v4.3.0+ 和 at.js 2.*x* 之后，您将能够创建跨越独特域的活动并跟踪用户。请注意，此功能仅在会话过期后才起作用。</li></ul> |
-| 3月30日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 添加了影响at.js 2.2.0之前版本的at.js的已知问题。当页面元素上不存在Adobe Analytics代码时，此问题会导致单击跟踪无法报告Analytics for Target(A4T)中的转换。 |
-|  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 向at.js版本2.2.0详细信息添加了以下信息：<ul><li>修复了当页面元素中不存在Adobe Analytics代码时，导致点击跟踪无法报告Analytics for Target(A4T)中的转换的问题。</li></ul> |
-| 3月25日 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关以下at.js新版本的信息：<ul><li>at.js版本2.3.0</li><li>at.js版本1.8.1</li></ul> |
+|  | [从 at.js 1.*x* 升级到 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 添加了以下注释：<ul><li>安装 ECID 库 v4.3.0+ 和 at.js 2.*x* 之后，您将能够创建跨越独特域的活动并跟踪用户。请务必注意，此功能仅在会话过期后才可用。</li></ul> |
+| 3月30日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | 添加了影响at.js 2.2.0之前版本的at.js版本的已知问题。此问题导致单击跟踪不报告目标分析(A4T)中的转换，而页面元素中不存在Adobe Analytics代码。 |
+|  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 将以下信息添加到at.js版本2.2.0详细信息中：<ul><li>修复了当页面元素中不存在Adobe Analytics代码时，导致点击跟踪无法报告Analytics中的目标转换(A4T)的问题。</li></ul> |
+| 3月25日 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关以下新版本at.js的信息：<ul><li>at.js版本2.3.0</li><li>at.js版本1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 在“设置”部分添加了以下新行：<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>添加了以下新章节：<ul><li>内容安全策略</li></ul> |
-| 3月24日 | [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 添加了以下影响信息：<ul><li>基于3rdPartyID的配置文件脚本</li><li>iOS设备中的QA/预览URL</li></ul> |
-| 3月20日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 指出Target Standard/Premium 20.2.1版将于2020年3月23日发布。 |
-| 3月13日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了“受众，可重用的每个帐户”的数量。 |
-| 3月12日 | [发行说明（当前）](/help/r-release-notes/release-notes.md#summit) | 添加了注册信息，以便免费访问在线数字峰会。 |
-| 3月9日 | [隐私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 在“替换IP地址的最后八位字节”部分添加了详细信息。 |
-|  | [使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | *中的更新代码示例在JavaScript*&#x200B;中传递多值参数。 |
+| 3月24日 | [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 增加了有关以下影响的信息：<ul><li>用户档案脚本（基于3rdPartyID）</li><li>iOS设备中的QA/预览URL</li></ul> |
+| 3月20日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 指出Target Standard/Premium 20.2.1版本将于2020年3月23日发行。 |
+| 3月13日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了“受众、可重用的每个帐户”的数量。 |
+| 3月12日 | [发行说明（当前）](/help/r-release-notes/release-notes.md#summit) | 添加了注册信息，以免费访问在线数字峰会会议。 |
+| 3月9日 | [隐私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 在“替换IP地址的最后八位字节”部分中添加了更多信息。 |
+|  | [使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 在&#x200B;*传递JavaScript*&#x200B;中的多值参数中更新了代码示例。 |
 |  | [自定义实体属性](/help/c-recommendations/c-products/custom-entity-attributes.md) | 在&#x200B;*实现多值属性*&#x200B;下的“使用API *”中添加了代码示例。* |
-| 3月4日 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 更新了整个主题，对“最佳实践”部分进行了大量修订。 |
+| 3月4日 | [配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md) | 更新了整个主题，对“最佳实践”部分进行了广泛修订。 |
 | 2月21日 | [发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关新Adobe Experience Cloud导航的信息。 |
 | 2月20日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 已更新`enabled`设置的说明。 添加了以下设置的信息：`pageLoadEnabled`和`viewsEnabled`。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | 添加了注意，at.js 1支持`mboxOverride.browserIp`。*x*。 |

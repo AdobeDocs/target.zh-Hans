@@ -4,7 +4,7 @@ description: 随时更新Adobe Target产品文档中的重要增补和更改。
 title: 在哪里可以视图文档更新以进行目标?
 feature: 发行说明
 translation-type: tm+mt
-source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
+source-git-commit: 6a1f51cba34038abc3c73fa5cf88bfab183dfb28
 workflow-type: tm+mt
 source-wordcount: '3767'
 ht-degree: 28%
@@ -20,7 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 3月12日 | [A4T支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | 添加了以下新教程：<ul><li>如何在Analysis Workspace中设置A4T报表以用于自动目标活动</li></ul> |
+| 2021 年 3 月 12 日 | [A4T支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | 添加了以下新教程：<ul><li>如何在Analysis Workspace中设置A4T报表以用于自动目标活动</li></ul> |
 | 3月9日 | [限制](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>已更新允许的优惠大小限制。</li><li>更正了categoryId参数的字符限制。</li></ul> |
 |  | [允许列表目标边缘节点](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 已更新[!DNL Target]边缘IP地址。 |
 |  | [实体属性](/help/c-recommendations/c-products/entity-attributes.md) | 添加了文本以指示entity.value必须采用小数格式（例如15.99而不是15,99）。 |

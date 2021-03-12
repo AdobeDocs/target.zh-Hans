@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b14736a6f49e4276c94490f2fa435a87f8d365ae
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '145'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 参与者许可协议
 
-所有参与到该项目的第三方稿件都必须附有签署的参与者许可证。这将允许 Adobe 重新分配您在项目中的稿件。通过访问[链接]（尚无链接）来签署我们的 CLA。您只需提交一次 Adobe CLA 即可，因此如果您之前已提交了一次，那么可能无需重新提交！
+所有参与到该项目的第三方稿件都必须附有签署的参与者许可证。这将允许 Adobe 重新分配您在项目中的稿件。您只需提交一次 Adobe CLA 即可，因此如果您之前已提交了一次，那么可能无需重新提交！
 
 ## 代码审阅
 

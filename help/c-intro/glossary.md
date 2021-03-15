@@ -1,12 +1,12 @@
 ---
-description: Adobe Target用的词是什么意思？ 查找常用术语的定义，帮助您进一步了解目标。
-title: 在哪里可以找到目标中使用的术语和定义？
-feature: Overview
+description: Adobe Target中使用的不同术语表示什么？ 查找常用术语的定义，帮助您获得更多的目标。
+title: 在哪里可以找到在目标中使用的术语和定义？
+feature: 概述
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 97%
+source-wordcount: '2472'
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ A/B 测试可比较两个或更多版本的网站内容，以查看在预先指�
 
 **audience（受众）**
 
-一组将会看到定位活动的相似活动参加者。具有相同特征的人群，例如都是新访客、回访访客或来自中西部的回访访客。通过使用“受众”功能，您可以将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。如果某位访客被识别为目标受众的一员，则 Target 会根据在活动创建过程中定义的标准确定要向该访客显示的体验。
+一组将会看到定位活动的相似活动参加者。具有相同特征的一组人，如新访客、返回访客或来自中西部的help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds。 通过使用“受众”功能，您可以将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。如果某位访客被识别为目标受众的一员，则 Target 会根据在活动创建过程中定义的标准确定要向该访客显示的体验。
 
 **Auto-Allocate（自动分配）**
 
@@ -241,7 +241,19 @@ Target Standard 中活动的可视化表现形式。
 
 多变量测试 (MVT) 可通过比较页面上各元素中的选件组合，来确定哪个组合对特定受众的效果最佳，以及哪个元素对活动成功的影响最大。
 
-## O  {#section_A2C1A057EC87445CBDB535E80C371105}
+## N
+
+**新访客**
+
+如果满足以下条件之一，则“新访客”区段中会包含访客:
+
+* 这是访客第一次访问网站。
+* 这是访客清除Cookie后首次访问网站。
+* 这是访客自[访客用户档案生命期](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)过期后首次访问站点。
+
+有关详细信息，请参阅[如何计算新访客和退回访客量度？](/help/c-reports/reporting-frequently-asked-questions.md#methodology) 中。与下面的“退回访客”对比。
+
+## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
 **objective（目标）**
 
@@ -278,6 +290,12 @@ Target Standard 中活动的可视化表现形式。
 **referring URL parameter（引荐 URL 参数）**
 
 将值作为引荐 URL 参数和值传递给目标页面的 mbox。例如，使用这些参数和值来定位访客源。
+
+**回访访客**
+
+如果用户之前访问过网站（至少离开30分钟），并使用相同的Cookie再次返回到该网站，则该访客将包含在“返回访客”区段中。 只要访客在其用户档案生命周期内返回，此访客就是返回访客。
+
+有关详细信息，请参阅[在报告问题与答案中，新访客和返回访客量度的计数](/help/c-reports/reporting-frequently-asked-questions.md#methodology)。与上面的“新访客”对比。
 
 **role（角色）**
 

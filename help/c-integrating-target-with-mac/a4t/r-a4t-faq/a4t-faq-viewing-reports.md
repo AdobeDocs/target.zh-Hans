@@ -4,10 +4,10 @@ description: 查找有关在使用Analytics进行目标(A4T)时查看报告时�
 title: 查找有关使用A4T查看报表的问题的解答？
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 29df46273639b87f10502e8d9f04d2bc429637f9
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 40%
+source-wordcount: '2434'
+ht-degree: 39%
 
 ---
 
@@ -55,6 +55,8 @@ ht-degree: 40%
 * 当用户符合活动条件并从[!DNL Target]返回内容时，上述量度将触发。 这并不一定意味着用户查看了该选件。如果活动体验未显示且用户未向下滚动页面，则表示该选件由 [!DNL Target] 提供，但用户并未查看。
 * 除非同一活动中的同一页面同时有多个 mbox 调用，否则“[!UICONTROL 活动展示次数]”（由 [!DNL Target] 测量）与“[!UICONTROL 实例数]”（由 [!DNL Analytics] 测量）相等。这会导致“[!UICONTROL 活动展示次数]”被计入多次，而“[!UICONTROL 实例]”只被计入一次。
 
+有关详细信息，请参阅[如何在Analysis Workspace中为&#x200B;*Adobe TargetTutorials*&#x200B;中的自动目标活动](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html)设置A4T报告。
+
 ## Analysis Workspace中的“活动印象”和“活动转换”为何高于Reports &amp; Analytics?{#sametouch}
 
 [!DNL Reports & Analytics] 对“活动印象”和“活动转换”应用同触归因模型，而 [!DNL Analysis Workspace] 显示原始量度，由于维度的持久性，原始量度可能显得 [!DNL Target] 虚高。
@@ -91,28 +93,28 @@ ht-degree: 40%
 
 | 活动名称 | 实例（展示次数） | 页面查看次数 | 访问次数 | 独特访客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 3 |
+| XYZ | 1 | 5 | 3 | 3 |
 
 2 月 1 日，该用户返回了网站，查看了其他 5 个页面，并且未体验任何其他 Target 活动，而此时原来的活动已不再上线。即使该活动不再处于上线状态，它仍会通过 eVar 持久性跟踪该用户。现在，数据如下所示：
 
 | 活动名称 | 实例（展示次数） | 页面查看次数 | 访问次数 | 独特访客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 1 |
+| XYZ | 3 | 10 | 2 | 1 |
 
 3 月 1 日，该用户又返回网站，查看了一个新活动 ABC。另外，该用户也查看了五个页面。由于活动 XYZ仍通过持久性跟踪用户，并且此用户随后设置了ABC，您将在报告中看到两个行项目：
 
 | 活动名称 | 实例（展示次数） | 页面查看次数 | 访问次数 | 独特访客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 1 |
-| ABC | 3 | 5 | 1 | 1 |
+| XYZ | 3 | 15 | 3 | 3 |
+| ABC | 1 | 5 | 1 | 1 |
 
 之后，该用户在 4 月 1 日再次返回网站，查看了另外 5 个页面，并进行了一次购买。第一个eVar值的90天到期将在4月1日重置，因此您可以在报告中看到这一点。 该用户查看的所有 Target 活动都会收到转化点数，但在转化点数总和中，会将重复计算的点数删除：
 
 | 活动名称 | 实例（展示次数） | 页面查看次数 | 访问次数 | 独特访客 | 订单数 |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 1 |
-| ABC | 1 | 10 | 2 | 3 | 1 |
-| 合计 | 2 | 20 | 1 | 1 | 1 |
+| XYZ | 1 | 20 | 4 | 3 | 1 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
+| 合计 | 2 | 20 | 1 | 1 | 3 |
 
 由于两种体验在转换前均可看到，因此它们都会获得订单的“信用”。 但在系统中只产生了一个订单，所以点数的总计值反映了这一点。对于[!DNL Target]报告，由于您没有将[!DNL Target]活动放在其他活动上以查看哪个更成功，因此用户看到的所有活动都获得信用并不重要。 您将比较单个活动中两个项目的结果。用户不可能在同一活动看到不同的体验，因此您不必担心订单信用的交叉污染。
 

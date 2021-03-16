@@ -1,21 +1,21 @@
 ---
 keywords: adobe.target.applyOffer;applyOffer;applyoffer;申请选件;at.js;函数;函数
-description: 使用Adobe Targetat.js JavaScript库的adobe.目标.applyOffer()函数应用响应内容。
+description: 使用Adobe Target at.js JavaScript库的adobe.目标.applyOffer()函数应用响应内容。
 title: 如何使用adobe.目标.applyOffer()函数？
 feature: at.js
-role: Developer
+role: 开发人员
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 3a71ae60a89a802ca469fa7acd583157221bdeee
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 86%
+source-wordcount: '177'
+ht-degree: 72%
 
 ---
 
 
 # adobe.target.applyOffer(options)
 
-此函数用于应用响应内容。
+此函数用于应用具有[!DNL Adobe Target]的响应内容。
 
 >[!NOTE]
 >
@@ -26,8 +26,8 @@ options 参数是强制性的，具有以下结构：
 | 键值 | 类型 | 必需 | 描述 |
 |--- |--- |--- |--- |
 | mbox | 字符串 | 是 | Mbox 名称<br>使用 at.js 1.3.0（及更高版本）的 Target 强制使用 mbox 键值。以往，这些键值是要求使用的，但现在，Target 强制使用该键值以确保 Target 正确验证并且客户正确地使用该函数。 |
-| selector | 字符串或 DOM 元素 | 否 | HTML 元素或 CSS 选择器，用于标识 Target 应将选件内容放置在其中的 HTML 元素。如果未提供选择器，则 Target 会假定我们应使用的 HTML 元素是 HTML HEAD。 |
-| offer（选件） | 数组 | 是 | 应用于元素的数组操作。 |
+| selector | 字符串或 DOM 元素 | 否 | HTML 元素或 CSS 选择器，用于标识 Target 应将选件内容放置在其中的 HTML 元素。如果未提供选择器，目标假定HTML元素应使用HTMLHEAD。 |
+| 优惠 | 数组 | 是 | 应用于元素的数组操作。 |
 
 ## 示例 {#section_D8D6A17B73DE4542937CDB687193A5CC}
 

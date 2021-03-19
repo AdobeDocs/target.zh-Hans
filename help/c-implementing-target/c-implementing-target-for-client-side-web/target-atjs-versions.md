@@ -1,13 +1,13 @@
 ---
 keywords: at.js版本；at.js版本；发行说明
-description: 视图有关Adobe Targetat.js JavaScript库每个版本中更改的详细信息。
+description: 视图有关Adobe Target at.js JavaScript库各个版本中更改的详细信息。
 title: at.js的每个版本包含什么？
 feature: at.js
-role: Developer
+role: 开发人员
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: bd8f1082cf6b1ce3542a222858c4e09abe7f9afe
 workflow-type: tm+mt
-source-wordcount: '4085'
+source-wordcount: '4104'
 ht-degree: 83%
 
 ---
@@ -19,81 +19,82 @@ ht-degree: 83%
 
 >[!IMPORTANT]
 >
->目标团队支持at.js 1。*x* 与 at.js 2.*x* 之间的映射。请升级到at.js的任一主要版本的最新更新，以确保您运行的是受支持的版本。
+>目标团队同时支持at.js 1。*x* 与 at.js 2.*x* 之间的映射。请升级到at.js的任一主要版本的最新更新，以确保您运行的是受支持的版本。
 >
->[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) ·朗奇是升级at.js的首选方法。扩展开发人员不断为其扩展添加新功能，并经常修复错误。 这些更新将打包到扩展的新版本中，并作为升级在[!DNL Launch]目录中提供。 有关详细信息，请参阅&#x200B;*Experience Platform Launch用户指南*&#x200B;中的[扩展升级](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
+>[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch是升级at.js的首选方法。扩展开发人员会不断为其扩展添加新功能，并经常修复错误。 这些更新将打包到扩展的新版本中，并作为升级在[!DNL Launch]目录中提供。 有关详细信息，请参阅&#x200B;*《Experience Platform Launch用户指南》*&#x200B;中的[Extension Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
 
 ## at.js 2.4.0（2021年1月14日）
 
-此版本的at.js是维护版本，包含以下修复：
+此版本的at.js是维护版本，包括以下修复：
 
-* 为用户档案API customerId增加对统一投放/平台ID的支持。
-* 修复无效样式标记注入。
+* 为投放 API customerId添加了对统一用户档案/平台ID的支持。
+* 修复了无效样式标签插入。
 
 ## at.js 2.3.3（2020年11月13日）
 
-此版本的at.js是维护版本，包括以下修复：
+此版本的at.js是维护版本，包含以下修复：
 
-* 修复了与mbox单击跟踪和A4T相关的问题。 只需单击0n,目标就使用正确的mbox和mbox参数触发了投放API调用。 但是，SDID与[!DNL Analytics]调用中的SDID不匹配，因此没有点击拼接和转换。 (TNT-38372)
+* 修复了与mbox单击跟踪和A4T相关的问题。 单击0n即可，目标使用正确的mbox和mbox参数触发了投放API调用。 但是，SDID与[!DNL Analytics]调用中的不匹配，因此没有点击拼接和转换。 (TNT-38372)
 
 ## at.js 2.3.2（2020年7月24日）
 
-此版本的at.js是维护版本，包括以下修复：
+此版本的at.js是维护版本，包含以下修复：
 
 * 修复了脚本或代码向窗口或文档添加默认属性时的错误。
 
 ## at.js 1.8.2（2020年6月15日）
 
-此版本的at.js是维护版本，包括以下修复：
+此版本的at.js是维护版本，包含以下修复：
 
-* 修复了在使用CNAME和边缘覆盖(at.js 1)时的问题。*xmight* 可能创建了服务器域，这会导致请 [!DNL Target] 求失败。(TNT-35064)
+* 修复了使用CNAME和边缘覆盖时at.js 1的问题。*xmight* 可能创建了服务器域，导致请 [!DNL Target] 求失败。(TNT-35064)
 
 ## at.js 2.3.1版本（2020年6月15日）
 
 此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
 
-* 通过[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)使`deviceIdLifetime`设置可覆盖。 (TNT-36349)
-* 修复了在使用CNAME和边缘覆盖时，at.js 2的问题。*xmight* 可能创建了服务器域，这会导致请 [!DNL Target] 求失败。(TNT-35065)
-* 修复了使用[!DNL Target] [!DNL Launch]扩展v2和[!DNL Adobe Analytics] [!DNL Launch]扩展时，[!DNL Target]延迟了[!DNL Analytics] `sendBeacon`调用的问题。 (TNT-36407,TNT-35990,TNT-36000)
+* 使`deviceIdLifetime`设置通过[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)可覆盖。 (TNT-36349)
+* 修复了使用CNAME和边缘覆盖时at.js 2的问题。*xmight* 可能创建了服务器域，导致请 [!DNL Target] 求失败。(TNT-35065)
+* 修复了使用[!DNL Target] [!DNL Launch]扩展v2和[!DNL Adobe Analytics] [!DNL Launch]扩展时， [!DNL Target]延迟[!DNL Analytics] `sendBeacon`调用的问题。 (TNT-36407,TNT-35990,TNT-36000)
 
 ## at.js 版本 2.3.0（2020 年 3 月 25 日）
 
 此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
 
-* 支持在应用交付的目标优惠时，将内容安全策略设置为附加到页面DOM的SCRIPT和STYLE标记上的不可用。 客户可以设置`targetGlobalSettings.cspScriptNonce`和`targetGlobalSettings.cspStyleNonce`，以便at.js可以在已应用的优惠上设置相应的脚本和样式标记不可用。 有关详细信息，请参阅[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
+* 支持在应用已交付的目标优惠时，在附加到页面DOM的SCRIPT和STYLE标记上设置“内容安全策略”不可用。 客户可以设置`targetGlobalSettings.cspScriptNonce`和`targetGlobalSettings.cspStyleNonce`，以便at.js可以在已应用的优惠上设置相应的脚本和样式标记不可用。 有关详细信息，请参阅[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 * 修复了使用Google Closure编译器编译at.js以部署Google Tag Manager时的问题。
-* 将at.js检查cookie从`check`重命名为`at_check`，以避免与客户实施发生冲突。
+* 将at.js检查Cookie从`check`重命名为`at_check`，以避免与客户实施发生冲突。
 
 ## at.js 版本 1.8.1（2020 年 3 月 25 日）
 
 此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
 
-* 将at.js检查cookie从`check`重命名为`at_check`，以避免与客户实施发生冲突。
+* 将at.js检查Cookie从`check`重命名为`at_check`，以避免与客户实施发生冲突。
 
 ## at.js版本2.2.0（2019年10月10日）
 
 此版本的at.js包含以下增强和修复：
 
-* 修复了在页面元素中不存在Adobe Analytics代码时，单击跟踪不会报告目标分析(A4T)中的转换问题。
-* 在网页上同时使用Experience CloudID服务(ECID)v4.4和at.js 2.2时，性能得到改进。
-* 以前，ECID在at.js获取体验之前发出了两个阻止调用。 这已降低为单个呼叫，这显着提高了性能。
+* 修复了当页面元素中不存在Adobe Analytics代码时，点击跟踪不会报告Analytics中的目标转换(A4T)的问题。
+* 在网页上同时使用Experience Cloud ID Service(ECID)v4.4和at.js 2.2时的性能得到改进。
+* 以前，ECID在at.js获取体验之前发出了两次阻止调用。 这已降低为单个呼叫，这显着提高了性能。
+* 修复了预取的视图处理不正确的问题，即默认优惠中的事件令牌未包括在发送的通知中。
 
    >[!NOTE]
    >
-   >将您的ECID Launch Extension升级到v4.4以利用此性能增强。
+   >将您的ECID Launch扩展升级到v4.4以利用此性能增强。
 
-* at.js版本2.2还提供一个名为`serverState`的新设置。 当实现目标的混合集成时，此设置可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的投放API或目标SDK来提供体验。 `serverState` 赋予at.js v2.2+直接应用从服务器端获取的内容中获取的体验并作为所服务页面的一部分返回到客户端的能力。有关详细信息，请参阅[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)中的“serverState”。
+* at.js版本2.2还提供一个名为`serverState`的新设置。 当实现目标的混合集成时，此设置可用于优化页面性能。 混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的投放 API或目标 SDK来提供体验。 `serverState` 赋予at.js v2.2+直接应用从服务器端获取的内容中获取的体验并作为所服务页面的一部分返回到客户端的功能。有关详细信息，请参阅[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)中的“serverState”。
 
 ## at.js版本1.8.0（2019年10月10日）
 
 此版本的at.js包含以下增强和修复：
 
-* 在网页上同时使用Experience CloudID服务(ECID)v4.4和at.js 1.8时的性能得到改进。
-* 以前，ECID在at.js获取体验之前发出了两个阻止调用。 这已降低为单个呼叫，这显着提高了性能。
+* 在网页上同时使用Experience Cloud ID Service(ECID)v4.4和at.js 1.8时的性能得到改进。
+* 以前，ECID在at.js获取体验之前发出了两次阻止调用。 这已降低为单个呼叫，这显着提高了性能。
 
 >[!NOTE]
 >
->将您的ECID Launch Extension升级到v4.4以利用此性能增强。
+>将您的ECID Launch扩展升级到v4.4以利用此性能增强。
 
 ## at.js 版本 2.1.1（2019 年 7 月 24 日）
 
@@ -418,7 +419,7 @@ at.js 版本 1.0 中包含以下增强功能和修复：
 
    * 必须更新现有扩展（如 AngularJS 扩展），才能使用 `registerExtension()` 方法。
 
-* 新增的at.js通知API。
+* 新的at.js通知API。
 
    此通知系统的目标是针对 [!DNL at.js] 在页面上的行为以及在出现问题时提供更多信息。VEC 存在的常见问题是 IT 版本更改页面、VEC 选择器中断以及测试停止正确交付内容。此通知系统的目标是将此交付问题公布到页面上，从而使开发人员可以访问此信息，将其传递到 [!DNL Adobe Analytics] 等系统，并且还可以向测试被中断的业务所有者发送警报。
 

@@ -5,10 +5,10 @@ title: Adobe Target中有哪些不同的字符、大小和其他限制？
 feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: c076660ca816346bc83ec71747d491aa408b049f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 63%
+source-wordcount: '1152'
+ht-degree: 60%
 
 ---
 
@@ -76,6 +76,8 @@ ht-degree: 63%
 ### 实体数
 
 * 设计中可引用（无论是以硬编码方式引用还是通过循环引用）的最大实体数为 99。
+* 为获得最佳性能，建议的限制是使每个环境的目录数量少于1,000,000件，而所有环境的目录数量均小于10,000,000件。
+* 每个环境的最大限制为10,000,000件物品，所有环境的最大限制为100,000,000件物品。 如果每个环境有1,000,000到10,000,000个项目，则[!UICONTROL 目录搜索] UI的性能会受到影响。 [!DNL Target Recommendations]但是，继续提出和提出建议。
 
 ### 实体自定义属性
 

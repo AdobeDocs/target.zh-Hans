@@ -4,9 +4,9 @@ description: 随时更新Adobe Target产品文档中的重要增补和更改。
 title: 在哪里可以视图文档更新以进行目标?
 feature: 发行说明
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '3790'
+source-wordcount: '3848'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 28%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 3月22日 | [“推荐”信息源处理服务器使用的 IP 地址](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | 更新了IP地址的列表。 |
+|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了“实体”下的“实体数”部分。 |
+|  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | 添加了有关 at.js 2 的信息。*请* 阅读“如何测试活动，好像我是来自其他位置的用户一样？” |
+|  | [发行说明](/help/r-release-notes/release-notes.md)：21.2.1 | 添加了以下部分： <ul><li>Recommendations源处理服务器的IP地址更改（2021年3月16日）</li></ul> |
 | 3月19日 | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | 添加了以下常见问题解答：<ul><li>为什么在取消激活活动后继续查看更多印象？</li></ul> |
 | 3月12日 | [A4T支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | 添加了以下新教程：<ul><li>如何在Analysis Workspace中设置A4T报表以用于自动目标活动</li></ul> |
 | 3月9日 | [限制](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>已更新允许的优惠大小限制。</li><li>更正了categoryId参数的字符限制。</li></ul> |

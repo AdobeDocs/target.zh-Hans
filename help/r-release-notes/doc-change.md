@@ -4,10 +4,10 @@ description: 随时更新Adobe Target产品文档中的重要增补和更改。
 title: 在哪里可以视图文档更新以进行目标?
 feature: 发行说明
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
 workflow-type: tm+mt
-source-wordcount: '3866'
-ht-degree: 29%
+source-wordcount: '3890'
+ht-degree: 28%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 29%
 | --- | --- | --- |
 | 3月23日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了 at.js 版本 2.4.1 的发行说明。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了 at.js 版本 2.4.1 的发行说明。 |
+|  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 更新了以下常见问题解答：<ul><li>我的目录中的项目更新需要多长时间才能反映在我的网站上？</li></ul> |
 | 3月22日 | [“推荐”信息源处理服务器使用的 IP 地址](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | 更新了IP地址的列表。 |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了“实体”下的“实体数”部分。 |
 |  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | 添加了有关 at.js 2 的信息。*请* 阅读“如何测试活动，好像我是来自其他位置的用户一样？” |

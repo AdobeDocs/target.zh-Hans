@@ -4,10 +4,10 @@ description: 视图目标 Recommendations源处理服务器中使用的IP地址�
 title: Recommendations源处理服务器使用哪些IP地址？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
+source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 13%
+source-wordcount: '138'
+ht-degree: 10%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 13%
 
 [!DNL Target] [!UICONTROL 建] 议在访问客户的FTP服务器时，活动使用以下IP地址：
 
-| CIDR 表示法 |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
 
 [!DNL Target]  RecommendationsAPI使用以下IP地址：
 
-| CIDR 表示法 |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
 
 >[!NOTE]
 >

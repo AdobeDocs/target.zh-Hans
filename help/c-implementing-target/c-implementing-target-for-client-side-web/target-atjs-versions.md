@@ -5,10 +5,10 @@ title: at.js的每个版本包含什么？
 feature: at.js
 role: 开发人员
 translation-type: tm+mt
-source-git-commit: bd8f1082cf6b1ce3542a222858c4e09abe7f9afe
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '4104'
-ht-degree: 83%
+source-wordcount: '4159'
+ht-degree: 82%
 
 ---
 
@@ -22,6 +22,14 @@ ht-degree: 83%
 >目标团队同时支持at.js 1。*x* 与 at.js 2.*x* 之间的映射。请升级到at.js的任一主要版本的最新更新，以确保您运行的是受支持的版本。
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch是升级at.js的首选方法。扩展开发人员会不断为其扩展添加新功能，并经常修复错误。 这些更新将打包到扩展的新版本中，并作为升级在[!DNL Launch]目录中提供。 有关详细信息，请参阅&#x200B;*《Experience Platform Launch用户指南》*&#x200B;中的[Extension Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
+
+## at.js 2.4.1（2021年3月23日）
+
+此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
+
+* 修复了mbox请求中包含targetPageParams的问题。 targetPageParams应仅包含在pageLoad请求中。 (TNT-40247)
+* [!DNL Adobe Experience Platform Launch]扩展中的优化窗口和文档全局引用。 (TNT-37124)
+* 升级了构建和测试依赖项以修复安全漏洞。
 
 ## at.js 2.4.0（2021年1月14日）
 

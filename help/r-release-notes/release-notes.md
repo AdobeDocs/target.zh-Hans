@@ -4,9 +4,9 @@ description: 了解 Adobe Target 当前版本包含的新增功能、增强功�
 title: 当前版本中包含哪些新增功能？
 feature: 发行说明
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: dbf38b7801ea6268c64ab323cc04258839fe6f48
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '664'
 ht-degree: 36%
 
 ---
@@ -30,7 +30,6 @@ ht-degree: 36%
 
 * 修复了mbox请求中包含targetPageParams的问题。 targetPageParams应仅包含在pageLoad请求中。 (TNT-40247)
 * [!DNL Adobe Experience Platform Launch]扩展中的优化窗口和文档全局引用。 (TNT-37124)
-* 升级了构建和测试依赖项以修复安全漏洞。
 
 ## Recommendations源处理服务器的IP地址更改（2021年3月16日）
 

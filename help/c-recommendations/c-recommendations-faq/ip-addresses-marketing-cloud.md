@@ -4,10 +4,10 @@ description: 视图目标 Recommendations源处理服务器中使用的IP地址�
 title: Recommendations源处理服务器使用哪些IP地址？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: b43db79ef75851921636e33e47bac5a906aed6b6
+source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 11%
+source-wordcount: '142'
+ht-degree: 13%
 
 ---
 
@@ -16,18 +16,23 @@ ht-degree: 11%
 
 列表[!DNL Adobe Target] [!DNL Recommendations]源处理服务器中使用的IP地址，以帮助您配置防火墙以允许来自Adobe服务器的IP地址。
 
-[!DNL Target] [!UICONTROL 建] 议在访问客户的FTP服务器时，活动使用以下IP地址（请务必查看以下链接以了解最新信息）：
+[!DNL Target] [!UICONTROL 建] 议在访问客户的FTP服务器时，活动使用以下IP地址：
 
-44.241.237.28
+| CIDR 表示法 |
+|---|
+| 44.241.237.28/32 |
+| 44.232.167.82/32 |
+| 52.41.252.205/32 |
 
-44.232.167.82
+[!DNL Target]  RecommendationsAPI使用以下IP地址：
 
-52.41.252.205
+| CIDR 表示法 |
+|---|
+| 44.241.237.28/32 |
+| 44.232.167.82/32 |
+| 52.41.252.205/32 |
 
-[!DNL Target] [!UICONTROL RecommendationsAPI] 使用以下IP地址（请务必检查以下链接以了解最新信息）：
+>[!NOTE]
+>
+>这些IP地址上次更新时间为2021年3月16日。 以前，访问FTP服务器的服务器位于192.243.242.0/24 IP地址CIDR块中。 承载Recommendations API的服务器位于192.243.224.0/20 IP地址CIDR块中。
 
-44.241.237.28
-
-44.232.167.82
-
-52.41.252.205

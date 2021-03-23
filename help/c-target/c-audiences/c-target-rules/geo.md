@@ -1,25 +1,25 @@
 ---
 keywords: 定位;A4T;地域;地域定位;地域定位的精准度;国家/地区;省/州;城市;邮政编码;DMA;移动设备运营商;城市代码;地区代码;国家/地区代码;大都市代码;配置文件脚本;地域定位配置文件脚本;地域定位移动设备
-description: 了解如何根据目标用户的地理位置（包括国家／地区、城市、邮政编码等）创建Adobe Target受众。
+description: 了解如何根据目标用户的地理位置（包括国家/地区、城市、邮政编码等）为他们创建Adobe Target受众。
 title: 我是否可以目标基于访客的位置？
-feature: Audiences
+feature: 受众
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 85%
+source-wordcount: '999'
+ht-degree: 68%
 
 ---
 
 
-# 地域{#geo}
+# Adobe Target 中的地域
 
-使用受众基于用户的地理位置（包括其国家/地区、省/自治区/直辖市、城市、邮编/邮政编码、DMA 或移动设备运营商）定位用户。
+使用[!DNL Adobe Target]中的受众根据用户的地理位置（包括其所在国家/省、城市、邮政编码、DMA或移动运营商）目标用户。
 
 地理位置参数允许您根据访客的地理位置来定位活动和体验。您可以根据访客的地理位置信息（包括其国家/地区、省/自治区/直辖市、城市、邮编/邮政编码、纬度、经度、DMA 或移动设备运营商）来包含或排除访客。此数据根据访客的 IP 地址确定，随每个 Target 请求一起传送。选择这些参数的方式与选择其他任何定位值一样。
 
-## 通过地域定位创建受众 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
+## 创建具有{#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}地理定位的受众
 
 1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 对受众进行命名。
@@ -50,7 +50,7 @@ ht-degree: 85%
 
 ## 精准度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-地域定位的精准度取决于多个因素。与蜂窝网络相比，使用 WiFi 连接进行地域定位会更加精准。如果访客使用的是蜂窝数据连接，则地理查询的精准度可能会受到位置、提供商与 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 之间的数据关系及其他因素的影响。使用基于蜂窝塔的网络连接进行地域定位可能没有使用有线或 WiFi 连接精准。此外，访客的 IP 地址可能已映射到其 ISP 位置，因此 IP 地址可能不是访客的真实位置。使用[地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可以解决一些移动地理位置问题。
+地域定位的精准度取决于多个因素。与蜂窝网络相比，使用 WiFi 连接进行地域定位会更加精准。如果访客使用的是蜂窝数据连接，则地理查询的精准度可能会受到位置、提供商与 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 之间的数据关系及其他因素的影响。使用基于蜂窝塔的网络连接进行地域定位可能没有使用有线或 WiFi 连接精准。此外，访客的IP地址可能会映射到访客的ISP位置，这可能与访客的实际位置不同。 使用[Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可以解决一些移动地理位置问题。
 
 下表显示了使用有线或 WiFi Internet 连接时根据 IP 获取的地理位置信息的精准度，此数据由 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 提供。DigitalEnvoy 能够提供业内最精准的数据。国家/地区级全局精准度超过 99.9%，城市级全局准确度高达 97%。此精准度信息不适用于基于蜂窝塔的网络。
 
@@ -116,11 +116,11 @@ ht-degree: 85%
 
 **使用移动设备时进行地域定位的效果如何？**
 
-绝大多数移动设备用户都会通过 WiFi 访问内容，这意味着使用移动设备时 Target 基于 IP 进行地域定位可达到与使用桌面时进行定位一样的精准度。使用基于蜂窝塔的连接时，会根据获取信号的塔所在的位置来确定访客的 IP 地址，因此精准度可能会有所降低。使用[地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可以解决一些移动地理位置问题。
+大多数移动设备用户通过WiFi访问内容，这意味着目标基于IP的地理定位与桌面一样准确。 使用基于蜂窝塔的连接时，会根据获取信号的塔所在的位置来确定访客的 IP 地址，因此精准度可能会有所降低。使用[Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可以解决一些移动地理位置问题。
 
 **地域定位功能如何处理来自 AOL（美国在线公司）的访客？**
 
-鉴于 AOL 采用的流量代理方式，我们只能在国家/地区级别对其进行定位。例如，如果将营销活动定位到法国，则将能够成功定位法国的 AOL 用户。但是如果营销活动定位到巴黎，则不能成功定位巴黎的 AOL 用户。如果您的目的是特别定位 AOL 用户，您可以将地区字段设为“aol”。实际上，您可以通过指定以下两个定位条件来定位美国的 AOL 用户：国家/地区完全匹配“美国”，而地区完全匹配“aol”。
+由于AOL代理其流量的方式，[!DNL Target]只能在国家/地区级别目标它们。 例如，一个活动成功地目标了法国的AOL用户。 但是，针对巴黎的活动未能成功目标巴黎的AOL用户。 如果您的目的是特别定位 AOL 用户，您可以将地区字段设为“aol”。实际上，您可以通过指定以下两个定位条件来定位美国的 AOL 用户：国家/地区完全匹配“美国”，而地区完全匹配“aol”。
 
 **地域定位提供了哪些位置粒度？**
 
@@ -133,25 +133,27 @@ ht-degree: 85%
 
 **我如何模拟其他位置的用户身份测试活动？**
 
-您可以使用其他位置的 IP 地址来覆盖您的 IP 地址，并使用 `mboxOverride.browserIp url` 参数。如果您的公司位于英国，但是您的全球营销活动要定位奥克兰和新西兰的访客，请使用以下形式的 URL（假设 `60.234.0.39` 是奥克兰的一个 IP 地址）：
+* **at.js 1.*x***:您可以使用不同位置的IP地址覆盖您的IP地址，并使用该 `mboxOverride.browserIp url` 参数。如果您的公司位于英国，但是您的全球营销活动要定位奥克兰和新西兰的访客，请使用以下形式的 URL（假设 `60.234.0.39` 是奥克兰的一个 IP 地址）：
 
-`https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
+   `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
-此操作前需要清除您的 Cookie。
+   在测试活动之前清除Cookie。
 
->[!NOTE]
->
->`mboxOverride.browserIp` 在at.js 1.jxonly中受&#x200B;** 支持。at.js 2不支持此功能。*x* 目前不支持选择加入支持。
+   >[!NOTE]
+   >
+   >`mboxOverride.browserIp` 在at.js 1中受支持。*x*。at.js 2中不支持此功能。*x* 目前不支持选择加入支持。
+
+* **at.js 1.*x***:使用at.js 2覆盖您的IP地址。*x*，安装浏览器扩展/插件（如Chrome或Firefox的X-Forwarded-For Header）。此扩展允许您在页面请求中传递x-forwarded-for头。
 
 **如何将波多黎各和中国香港特别行政区等区域映射到地理定位结构？**
 
 系统将波多黎各、中国香港特别行政区和其他区域视为单独的“国家/地区”值。
 
-**当活动 [!DNL Target] 被定位到地理位置定位功能时，是否会捕获（并存储）诸如邮政编码等信息？**
+**当活动 [!DNL Target] 定位到地理位置定位功能时，是否会捕获（并存储）诸如邮政编码等信息？**
 
-否，[!DNL Target]仅在会话期间使用地理数据，然后丢弃该数据。
+否，[!DNL Target]仅在会话期间使用地理数据，然后丢弃数据。
 
-## 培训视频：创建受众![教程标记](/help/assets/tutorial.png)
+## 培训视频：创建受众![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用受众类别的信息。
 

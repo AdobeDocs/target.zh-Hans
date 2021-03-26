@@ -4,10 +4,10 @@ description: 了解 Adobe Target 当前版本包含的新增功能、增强功�
 title: 当前版本中包含哪些新增功能？
 feature: 发行说明
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 8dc0e5084834102e387492eb4668761382e699f3
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 37%
+source-wordcount: '678'
+ht-degree: 36%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 37%
 此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
 
 * 修复了mbox请求中包含`targetPageParams`的问题。 `targetPageParams` 应仅包含在 `pageLoad` 请求中。(TNT-40247)
-* [!DNL Adobe Experience Platform Launch]扩展中的优化窗口和文档全局引用。 (TNT-37124)
+* 修复了A[!DNL dobe Experience Platform Launch]扩展中的文档和窗口全局对象的问题，方法是将Platform launch全局对象依赖项替换为对它们的直接引用。 (TNT-37124)
 
 ## Recommendations源处理服务器的IP地址更改（2021年3月16日）
 

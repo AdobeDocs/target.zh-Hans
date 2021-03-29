@@ -4,9 +4,9 @@ description: 随时更新Adobe Target产品文档中的重要增补和更改。
 title: 在哪里可以视图文档更新以进行目标?
 feature: 发行说明
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '3890'
+source-wordcount: '3911'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 3月29日 | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 新增了常见问题解答：<ul><li>基于最近查看的项目的推荐是否会跨多个设备保留以用于单个访客?</li></ul> |
 | 3月23日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了 at.js 版本 2.4.1 的发行说明。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了 at.js 版本 2.4.1 的发行说明。 |
 |  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 更新了以下常见问题解答：<ul><li>我的目录中的项目更新需要多长时间才能反映在我的网站上？</li></ul> |

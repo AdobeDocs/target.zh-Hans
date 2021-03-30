@@ -4,10 +4,10 @@ description: 视图目标 Recommendations源处理服务器中使用的IP地址�
 title: Recommendations源处理服务器使用哪些IP地址？
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
+source-git-commit: d90069169a23bc432c7731b3129ca7c9572f6cf4
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -16,21 +16,15 @@ ht-degree: 10%
 
 列表[!DNL Adobe Target] [!DNL Recommendations]源处理服务器中使用的IP地址，以帮助您配置防火墙以允许来自Adobe服务器的IP地址。
 
-[!DNL Target] [!UICONTROL 建] 议在访问客户的FTP服务器时，活动使用以下IP地址：
+[!DNL Target] [!UICONTROL 建] 议在访问客户的FTP服务器时，使用以下AWS主机：
 
-44.241.237.28
+| 位置 | 主机 |
+| --- | --- |
+| 俄勒冈州 | `44.241.237.28` |
+| 俄勒冈州 | `44.232.167.82` |
+| 俄勒冈州 | `52.41.252.205` |
 
-44.232.167.82
-
-52.41.252.205
-
-[!DNL Target]  RecommendationsAPI使用以下IP地址：
-
-44.241.237.28
-
-44.232.167.82
-
-52.41.252.205
+[!DNL Target] [!UICONTROL RecommendationsAPI] 也使用相同的AWS主机。
 
 >[!NOTE]
 >

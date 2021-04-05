@@ -1,16 +1,16 @@
 ---
-description: 了解旧版mbox.js对Adobe Target的实施。 迁移至Adobe Experience PlatformWeb SDK(AEP Web SDK)或最新版at.js。
+description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
 title: mbox.js使用哪些页面方法？
 feature: at.js
-role: Developer
+role: 开发人员
+exl-id: a0f7b956-7855-4165-b34c-33d81a8fac55
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '931'
 ht-degree: 88%
 
 ---
-
 
 # 按 mbox.js 库版本确定的 Target 页面方法{#target-page-methods-by-mbox-js-library-version}
 
@@ -18,9 +18,9 @@ Target 如何从您的页面发出调用以及如何响应从您的页面发出�
 
 >[!IMPORTANT]
 >
->**mbox.js终止使用**:2021年3月31日 [!DNL Adobe Target] 将不再支持mbox.js库。2021年3月31日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响[!DNL Target]活动运行的页面。
+>**mbox.js终止使用**:自2021年3月31日起， [!DNL Adobe Target] 不再支持mbox.js库。2021年3月31日之后，从mbox.js发出的所有调用将轻松失败，并会通过提供默认内容来影响运行[!DNL Target]活动的页面。
 >
->我们建议所有客户在此日期之前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
+>我们建议所有客户在此日期前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ Target 如何从您的页面发出调用以及如何响应从您的页面发出�
 | 创建方法 | mbox.js v57 | mbox.js v58 | mbox.js v59 | mbox.js v60 |
 |---|---|---|---|---|
 | 自动创建全局 mbox | 自动创建全局 mbox - 同步 | 自动创建全局 mbox - 异步 | 自动创建全局 mbox - 异步 | 自动创建全局 mbox - 异步 |
-| mboxCreate | 标准 | ajax | ajax | ajax |
+| mboxCreate | 标准 | aja | aja | aja |
 
 ## 有访客 ID 实施，且存在访客 ID  {#section_9CD4AE4C8186425D886398BC3CE6C46D}
 
@@ -83,4 +83,4 @@ Target 如何从您的页面发出调用以及如何响应从您的页面发出�
 | 创建方法 | mbox.js v57 | mbox.js v58 | mbox.js v59 | mbox.js v60 |
 |---|---|---|---|---|
 | 自动创建全局 mbox | 自动创建全局 mbox - 同步 | 自动创建全局 mbox - 同步 | 自动创建全局 mbox - 同步 | 自动创建全局 mbox - 异步（为将于 2016 年下半年发布的“数据协作”功能的开发提供支持） |
-| mboxCreate | 标准 | 标准 | 标准 | ajax |
+| mboxCreate | 标准 | 标准 | 标准 | aja |

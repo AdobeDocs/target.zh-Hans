@@ -3,14 +3,14 @@ keywords: 公告；技能创建者；开发者聊天；咖啡休息；事件;for
 description: 阅读公告并注册Adobe Target事件，包括Skill Builder会话、开发人员和产品经理聊天、网络研讨会等。
 title: 在哪里可以找到目标公告和事件?
 feature: 发行说明
+exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
-
 
 # 目标公告和事件
 
@@ -51,6 +51,6 @@ Adobe Target最近被Forrester和Gartner评为市场领导者。
 
 ## Adobe Target Skill Builder:开发人员聊天，将Adobe Target的mbox.js迁移到at.js {#skill-builder}
 
-随着mbox.js即将于2021年3月31日弃用，Adobe Target产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。
+随着mbox.js于2021年3月31日弃用，Adobe Target产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。
 
 * **[视图此处的网络研讨会录制](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)。**

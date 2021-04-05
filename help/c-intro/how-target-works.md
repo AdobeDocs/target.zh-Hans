@@ -3,14 +3,14 @@ keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk；搜索引擎�
 description: 了解Adobe Target的工作方式，包括有关目标 JavaScript库（at.js和AEP Web SDK）、Adobe数据中心和SEO测试的信息。
 title: 目标的工作原理
 feature: 概述
+exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2574'
 ht-degree: 31%
 
 ---
-
 
 # Adobe Target 的工作原理
 
@@ -33,7 +33,7 @@ ht-degree: 31%
 以下资源包含帮助您实施AEP Web SDK或at.js的详细信息：
 
 * [Adobe Experience Platform Web SDK扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [使用 Adobe Launch 实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [使用Adobe Experience Platform Launch实施目标](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 每次访客请求已针对[!DNL Target]优化的页面时，都会向定位系统发送请求。 请求有助于确定为该访客提供哪些内容。 此过程实时发生。 每次加载页面时，系统都会对内容发出请求并满足这些请求。 内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。每个网站访客最可能响应、交互或最终购买内容。 个性化内容有助于最大限度地提高响应率、赢取率和收入。
 
@@ -48,9 +48,9 @@ ht-degree: 31%
 您可以为每个体验指定百分比定位。在这种情况下，会生成随机编号，这个编号用于选择要显示的体验。最终的百分比可能与指定定位不完全匹配，但是流量越多，体验的划分应越接近定位目标。
 
 1. 客户向您的服务器请求一个页面，然后该页面显示在浏览器中。
-2. 在客户的浏览器中设置第一方Cookie以存储客户行为。
-3. 页面调用定位系统。
-4. 根据您的活动的规则显示内容。
+1. 在客户的浏览器中设置第一方Cookie以存储客户行为。
+1. 页面调用定位系统。
+1. 根据您的活动的规则显示内容。
 
 有关更多信息，请参阅[创建 A/B 测试](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)。
 
@@ -112,7 +112,7 @@ Multivariate Testing(MVT)比较页面上元素中的优惠组合，以确定哪�
 
 与响应来自单个位置的所有定位请求不同，请求由最接近访客的边缘群集处理。 此过程有助于减轻网络/Internet旅行时间的影响。
 
-![目标服务器类型映射](/help/c-intro/assets/target-servers.png)
+![显示不同类型目标服务器的映射](/help/c-intro/assets/target-servers.png)
 
 [!DNL Target] 托管在Amazon Web Services(AWS)上的Central Clusters包括：
 

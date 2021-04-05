@@ -3,14 +3,14 @@ keywords: 发行说明；新增功能；发行；更新；更新；发行；增�
 description: 了解 Adobe Target 当前版本包含的新增功能、增强功能和修复，包括 SDK、API 和 JavaScript 库。
 title: 当前版本中包含哪些新增功能？
 feature: 发行说明
+exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 8dc0e5084834102e387492eb4668761382e699f3
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 36%
 
 ---
-
 
 # Target 发行说明（当前版本）
 
@@ -18,7 +18,7 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->**mbox.js终止使用**:2021年3月31日， [!DNL Adobe Target] 将不再支持mbox.js库。2021年3月31日之后，从mbox.js发出的所有调用将轻松失败，并会通过提供默认内容来影响运行[!DNL Target]活动的页面。
+>**mbox.js终止使用**:自2021年3月31日起， [!DNL Adobe Target] 不再支持mbox.js库。2021年3月31日之后，从mbox.js发出的所有调用将轻松失败，并会通过提供默认内容来影响运行[!DNL Target]活动的页面。
 >
 >在此日期之前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
 

@@ -1,17 +1,17 @@
 ---
 keywords: mbox.js 更改;mbox.js 版本
-description: 了解旧版mbox.js对Adobe Target的实施。 迁移至Adobe Experience PlatformWeb SDK(AEP Web SDK)或最新版at.js。
+description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
 title: mbox.js的每个版本包含什么？
 feature: at.js
-role: Developer
+role: 开发人员
+exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2422'
 ht-degree: 94%
 
 ---
-
 
 # mbox.js 版本详细信息{#mbox-js-version-details}
 
@@ -19,9 +19,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->**mbox.js终止使用**:2021年3月31日 [!DNL Adobe Target] 将不再支持mbox.js库。2021年3月31日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响[!DNL Target]活动运行的页面。
+>**mbox.js终止使用**:自2021年3月31日起， [!DNL Adobe Target] 不再支持mbox.js库。2021年3月31日之后，从mbox.js发出的所有调用将轻松失败，并会通过提供默认内容来影响运行[!DNL Target]活动的页面。
 >
->我们建议所有客户在此日期之前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
+>我们建议所有客户在此日期前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ window.targetGlobalSettings = {
 
 * 为 Target Standard 自动创建的全局 mbox 响应不再使用 document.write() 或创建`<div>`元素。
 
-   这将消除mbox.js文件成为页面`<head>`中最后一项的要求。 升级至此新版本时建议完成严密的质量保证工作。
+   这将删除将mbox.js文件作为页面`<head>`中最后一项的要求。 升级至此新版本时建议完成严密的质量保证工作。
 
    此更改可能会导致在发送一些选件类型时行为发生变化。以下是需要考虑的特定情况：
 

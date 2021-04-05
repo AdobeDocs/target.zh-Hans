@@ -1,17 +1,17 @@
 ---
 keywords: mbox.js 高级设置;客户端;服务器域;xdomain;压缩等级;客户端会话 ID 支持;secureOnly;客户端 PC ID 支持;传递页面;引荐 URL;流量级别;流量持续时间;mboxParameters() 函数体;mboxSupported() 函数体;mboxCookieDomain() 函数体;额外的 JavaScript;SiteCatalyst 插件;以自解压 JavaScript 文件形式获取 mbox.js;闪烁;主体隐藏;隐藏主体
-description: 了解旧版mbox.js对Adobe Target的实施。 迁移至Adobe Experience PlatformWeb SDK(AEP Web SDK)或最新版at.js。
-title: 如何配置目标mbox.js库？
+description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
+title: 如何配置目标 mbox.js库？
 feature: at.js
-role: Developer
+role: 开发人员
+exl-id: 17821e60-2692-49af-a225-764bd1b6aec1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 70%
+source-wordcount: '473'
+ht-degree: 71%
 
 ---
-
 
 # 配置 mbox.js
 
@@ -19,9 +19,9 @@ ht-degree: 70%
 
 >[!IMPORTANT]
 >
->**mbox.js终止使用**:2021年3月31日 [!DNL Adobe Target] 将不再支持mbox.js库。2021年3月31日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响[!DNL Target]活动运行的页面。
+>**mbox.js终止使用**:自2021年3月31日起， [!DNL Adobe Target] 不再支持mbox.js库。2021年3月31日之后，从mbox.js发出的所有调用将轻松失败，并会通过提供默认内容来影响运行[!DNL Target]活动的页面。
 >
->我们建议所有客户在此日期之前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
+>我们建议所有客户在此日期前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
 
 [!DNL mbox.js] 函数库的默认设置可满足大多数 [!DNL Target] 客户的需求。
 
@@ -39,7 +39,7 @@ ht-degree: 70%
 
 Target 请求超时。
 
-查看[!UICONTROL 管理>实施]时，超时（秒）设置是目标请求超时。 默认情况下会将此值设置为 15 秒，但是我们建议将此值设置为介于 2 秒到 5 秒之间的某个值。
+查看[!UICONTROL 管理>实施]时，超时（秒）设置是您的目标请求超时。 默认情况下会将此值设置为 15 秒，但是我们建议将此值设置为介于 2 秒到 5 秒之间的某个值。
 
 ## XDomain
 

@@ -1,16 +1,16 @@
 ---
-keywords: FAQ;常见问题解答;Analytics for Target;区段;A4T;共享报表
-description: 使用Analytics for Adobe(A4T)时，查找有关共享指标、受众和报告的常见问题解答。 A4T允许您对Adobe Target活动使用Analytics报告。
-title: 哪里可以找到A4T中共享指标、受众和报告的常见问题解答？
+keywords: 常见问题解答，目标分析，区段，A4T，共享报告
+description: 查找有关在使用Analytics for 目标(A4T)时共享指标、受众和报告的常见问题解答。 A4T允许您对Adobe Target活动使用Analytics报告。
+title: 在哪里可以找到A4T中共享量度、受众和报表的常见问题解答？
 feature: Analytics for Target (A4T)
+exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a,6f250901-f109-4c2e-a023-ccc4c2b404b1,6f250901-f109-4c2e-a023-ccc4c2b404b1,59084e19-dfac-4796-a0b4-1da27ca9d43a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 7546db1b78825b969f5639b26c0d6a3e5319dd3a
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 70%
+source-wordcount: '254'
+ht-degree: 66%
 
 ---
-
 
 # 共享量度、受众和报表 - A4T 常见问题解答{#share-metrics-audiences-and-reports-a-t-faq}
 
@@ -26,4 +26,4 @@ ht-degree: 70%
 
 如果您在测试中使用的是特殊量度和区段，则您可能会考虑为优化团队创建一个用户组。这样便可以与该组而不是单个成员共享这些量度和区段，从而确保该组成员都有权访问区段和量度。不过，只有管理员才能与组进行共享。
 
-请参阅[共享区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html)和[共享计算的度量](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html)。
+请参阅[共享区段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html)和[共享计算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html)。

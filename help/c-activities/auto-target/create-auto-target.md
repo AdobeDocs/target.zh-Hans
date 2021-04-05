@@ -3,14 +3,14 @@ keywords: 创建自动目标;A/B测试；自动目标活动；新的a/b活动；
 description: 了解如何在启用目标的页面上使用Adobe Target中的Visual Experience Composer(VEC)直接创建自动目标A/B测试活动。
 title: 如何创建自动目标活动?
 feature: 自动定位
+exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 translation-type: tm+mt
-source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
+source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 56%
+source-wordcount: '930'
+ht-degree: 49%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMUMC创建自动目标活动
 
@@ -73,9 +73,9 @@ ht-degree: 56%
    | `-` | 减号 |
    | `@` | @ 符号 |
 
-1. 创建任何新体验（通过更改页面上的元素）。
+1. 通过更改页面上的元素创建任何体验。
 
-   创建新活动后，[!UICONTROL 可视化体验编辑器]会在左侧显示两个选项卡：“体验 A”和“体验 B”。其中，“体验 A”是控制体验。“体验 B”选项卡将为您的主要关注对象，您可以根据需要修改此选项卡。体验 B 是可添加到测试中的替代体验。您可以在测试中添加多个体验。如果您不想在体验选项中包含默认的网站体验，则也可以从活动中删除体验 A。
+   创建活动后，[!UICONTROL  Visual Experience Composer]左侧将显示两个选项卡：体验A和体验B。体验A是控制体验。 您的重点将放在体验B选项卡上，您可以根据需要修改该选项卡。 体验 B 是可添加到测试中的替代体验。您可以在测试中添加多个体验。如果您不想在体验选项中包含默认的网站体验，则也可以从活动中删除体验 A。
 
    有关如何在[!UICONTROL 可视化体验编辑器]中添加和修改体验的更多信息，请参阅[添加体验](/help/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)。要修改体验 B，请从步骤 3 开始操作。
 
@@ -107,7 +107,7 @@ ht-degree: 56%
 
    * **[!UICONTROL 手动（默认）]**：指定您希望看到各个体验的参加者所占的百分比。您可以将百分比平分到所有体验，或者也可以为每个体验指定较高或较低的百分比。所有体验的百分比总和必须等于 100%。有关详细信息，请参阅[创建A/B测试](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)。
 
-   * **[!UICONTROL 自动分配到最佳体验]**：将大多数活动参加者自动定向到具有更高性能的体验。为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。有关详细信息，请参阅[自动分配概述](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。
+   * **[!UICONTROL 自动分配到最佳体验]**:大多数活动进入者会自动转向表现更出色的体验。为继续探索各体验并识别性能趋势的变化，某些访客会分配到所有体验。有关详细信息，请参阅[自动分配概述](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。
 
    * **[!UICONTROL 自动目标，提供个性化体验]**: [!DNL Target] 使用高级机器学习来确定多个高性能、由营销人员定义的体验，从而个性化内容并推动转化率，然后根据访客的个人用户档案和类似访客的过去行为为客户提供最定制的体验。
    您还可以单击&#x200B;**[!UICONTROL 添加]**&#x200B;将其他体验添加到活动。

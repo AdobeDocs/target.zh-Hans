@@ -1,17 +1,17 @@
 ---
 keywords: 概述和参考;WebKit
-description: 了解旧版mbox.js对Adobe Target的实施。 迁移至Adobe Experience PlatformWeb SDK(AEP Web SDK)或最新版at.js。
+description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
 title: 在哪里可以找到mbox.js Cookies的相关信息？
 feature: at.js
-role: Developer
+role: 开发人员
+exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1654'
 ht-degree: 92%
 
 ---
-
 
 # mbox.js Cookie{#mbox-js-cookies}
 
@@ -19,15 +19,15 @@ Cookie 行为取决于它是第一方 Cookie、第三方和第一方 Cookie，�
 
 >[!IMPORTANT]
 >
->**mbox.js终止使用**:2021年3月31日 [!DNL Adobe Target] 将不再支持mbox.js库。2021年3月31日之后，mbox.js发出的所有调用将正常失败，并会通过提供默认内容影响[!DNL Target]活动运行的页面。
+>**mbox.js终止使用**:自2021年3月31日起， [!DNL Adobe Target] 不再支持mbox.js库。2021年3月31日之后，从mbox.js发出的所有调用将轻松失败，并会通过提供默认内容来影响运行[!DNL Target]活动的页面。
 >
->我们建议所有客户在此日期之前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
+>我们建议所有客户在此日期前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
 
 >[!NOTE]
 >
 >本主题包含有关 `mboxSession` 和 `mboxPC` 的信息。根据我们的实施最佳实践，建议您不要使用 Cookie 数据（`mboxSession` 或 `mboxPC`）链接或存储任何敏感信息。
 
-另请参阅[删除目标cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)。
+另请参阅[删除目标Cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)。
 
 ## 何时使用第一方或第三方 Cookie {#section_F71B29420C004A7FA3B1921E619B326E}
 

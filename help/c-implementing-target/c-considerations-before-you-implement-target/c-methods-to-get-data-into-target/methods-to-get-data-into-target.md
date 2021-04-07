@@ -6,10 +6,10 @@ feature: 实施
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
-source-wordcount: '1864'
-ht-degree: 90%
+source-wordcount: '1082'
+ht-degree: 84%
 
 ---
 
@@ -22,154 +22,18 @@ ht-degree: 90%
 | 方法 | 详细信息 |
 | --- | --- |
 | [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>页面参数（也称为“mbox 参数”） | 页面参数是直接通过页面代码传入的名称/值对，它们未存储在访客的配置文件中供将来使用。<br>页面参数可用于将其他页面数据发送到 Target，这些数据不需要与访客配置文件一起存储以供将来的定位使用，而是用来描述页面或用户在特定页面上执行的操作。 |
-| 页面内配置文件属性（也称为“in-mbox”配置文件属性） | 页面内配置文件属性是直接通过页面代码传递的名称/值对，它们存储在访客的配置文件中供将来使用。<br>页面内配置文件属性允许将特定于用户的数据存储在 Target 的配置文件中，供以后进行定位和分段。 |
-| 脚本配置文件属性 | 脚本配置文件属性是 Target 解决方案中定义的名称/值对。该值是在每个服务器调用时，通过在 Target 服务器上执行一段 JavaScript 代码来确定。<br>为访客评估受众和活动用户编写一小段代码，该代码片段会在每次 mbox 调用时、且在评估访客的受众群体和活动成员资格之前执行。 |
-| 数据提供者 | 数据提供商是一项功能，使您能够轻松地将数据从第三方传递到目标。 |
+| [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)<br>页面内配置文件属性（也称为“in-mbox”配置文件属性） | 页面内配置文件属性是直接通过页面代码传递的名称/值对，它们存储在访客的配置文件中供将来使用。<br>页面内配置文件属性允许将特定于用户的数据存储在 Target 的配置文件中，供以后进行定位和分段。 |
+| [脚本配置文件属性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md) | 脚本配置文件属性是 Target 解决方案中定义的名称/值对。该值是在每个服务器调用时，通过在 Target 服务器上执行一段 JavaScript 代码来确定。<br>为访客评估受众和活动用户编写一小段代码，该代码片段会在每次 mbox 调用时、且在评估访客的受众群体和活动成员资格之前执行。 |
+| [数据提供者](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md) | 数据提供商是一项功能，使您能够轻松地将数据从第三方传递到目标。 |
 | 批量配置文件更新 API | 通过 API 向 Target 发送一个 .csv 文件，该文件可包含许多访客的访客配置文件更新。每个访客配置文件均可以在一次调用中通过多个页面内配置文件属性进行更新。 |
 | 单个配置文件更新 API | 几乎与批量用户档案更新API相同，但每次更新一个访客用户档案，在API调用中排行，而不是.csv文件。 |
 | 客户属性 | 客户属性可让您通过 FTP 将访客配置文件数据上传到 Experience Cloud。上传后，即可在 Adobe Analytics 和 Adobe Target 中利用这些数据。 |
 
-## 页面内配置文件属性（也称为“in-mbox”配置文件属性）{#section_57E1C161AA7B444689B40B6F459302B6}
 
-页面内配置文件属性是直接通过页面代码传递的名称/值对，它们存储在访客的配置文件中供将来使用。
 
-页面内配置文件属性允许将特定于用户的数据存储在 Target 的配置文件中，供以后进行定位和分段。
 
-### 格式
 
-页面内配置文件属性作为成对的字符串名称/值，通过服务器调用进行传递，且在属性名称前带有前缀“profile.”。
 
-属性名称和值是可自定义的（但存在一些用于特定用途的“保留名称”）。
-
-示例：
-
-* `profile.membershipLevel=silver`
-* `profile.visitCount=3`
-
-### 使用示例
-
-**登录信息**：根据用户的登录信息，将非 PII（个人身份信息）数据共享到 Target。该数据可能是成员资格状态、订单历史记录或其他信息。
-
-**存储信息**：跟踪哪个商店是该用户最喜欢的位置。
-
-**以前的互动**：跟踪用户以前在该网站上的操作，以便为其将来的个性化提供参考依据。
-
-### 该方法的好处
-
-数据会被实时发送到 Target，并可用于得到该数据的同一服务器调用。
-
-### 注意事项
-
-需要更新页面代码（直接或通过标记管理系统）。
-
-属性和值在服务器调用中可见，因此访客可以查看这些值。如果要共享诸如信用等级或其他潜在的私人信息等内容，这可能不是最佳方法。
-
-### 代码示例
-
-targetPageParamsAll（将属性附加到页面上的所有 mbox 调用）：
-
-`function targetPageParamsAll() { return "profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-targetPageParams（将属性附加到页面上的全局 mbox）：
-
-`function targetPageParams() { return profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-mboxCreate 代码中的属性：
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','profile.param1=value1','profile.param2=value2'); </script>`
-
-### 相关信息链接
-
-[配置文件属性](/help/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201)
-
-[访客资料](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)
-
-## 脚本配置文件属性 {#section_3E27B58C841448C38BDDCFE943984F8D}
-
-脚本配置文件属性是 Target 解决方案中定义的名称/值对。该值是在每个服务器调用时，通过在 Target 服务器上执行一段 JavaScript 代码来确定。
-
-为访客评估受众和活动用户编写一小段代码，该代码片段会在每次 mbox 调用时、且在评估访客的受众群体和活动成员资格之前执行。
-
-### 格式
-
-脚本配置文件属性在 Target 的“受众”区域中创建。任何属性名称都是有效的，其属性值是由 Target 用户编写的 JavaScript 函数所产生的结果。该属性名称自动在 Target 中添加“user. ”作为前缀，以便与页面内配置文件属性区分开。
-
-代码片段以 Rhino JS 语言编写，可引用令牌和其他值。
-
-### 使用示例
-
-**购物车放弃**：当访客到达购物车时，将配置文件脚本设为 1。当访客转化后，将其重置为 0。如果值 = 1，则访客在购物车中有一个商品。
-
-**访问计数**：每新增一次访问，计数将增加 1，以跟踪访客返回网站的频率。
-
-### 该方法的好处
-
-不需要更新页面代码。
-
-在受众和活动成员资格决策之前执行，这样这些配置文件脚本属性会影响单个服务器调用的成员资格。
-
-此方法操作容量非常大。每个脚本可以执行多达 2,000 条指令。
-
-### 注意事项
-
-需要 JavaScript 知识。
-
-无法保证配置文件脚本的执行顺序，因此它们不能相互依赖。
-
-可能很难调试。
-
-### 代码示例
-
-配置文件脚本非常灵活：
-
-`user.purchase_recency: var dayInMillis = 3600 * 24 * 1000; if (mbox.name == 'orderThankyouPage') {  user.setLocal('lastPurchaseTime', new Date().getTime()); } var lastPurchaseTime = user.getLocal('lastPurchaseTime'); if (lastPurchaseTime) {  return ((new Date()).getTime()-lastPurchaseTime)/dayInMillis; }`
-
-### 相关信息链接
-
-[配置文件脚本属性](/help/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)
-
-## 数据提供程序{#section_14FF3BE20DAA42369E4812D8D50FBDAE}
-
-数据提供商是一项功能，使您能够轻松地将数据从第三方传递到目标。
-
-注意：数据提供程序需要使用 at.js 1.3 或更高版本。
-
-### 格式
-
-`window.targetGlobalSettings.dataProviders` 设置是一个数据提供程序数组。
-
-有关每个数据提供程序的结构的更多信息，请参阅[数据提供程序](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)。
-
-### 使用示例
-
-从第三方收集数据，例如气象服务、DMP，甚至您自己的 Web 服务。然后，您可以使用这些数据来构建受众、定位内容并丰富访客配置文件。
-
-### 该方法的好处
-
-通过此设置，客户可以从第三方数据提供程序收集数据，例如 Demandbase、BlueKai 和自定义服务，并将这些数据作为全局 mbox 请求中的 mbox 参数传递给 Target。
-
-支持通过异步和同步请求从多个提供程序收集数据。
-
-使用这种方法可以轻松管理默认页面内容的闪烁，同时包含每个提供程序的独立超时时间以限制对页面性能的影响
-
-### 注意事项
-
-如果数据提供程序异步添加到 `window.targetGlobalSettings.dataProviders`，则将并行执行。访客 API 请求将与添加到 `window.targetGlobalSettings.dataProviders` 的函数并行执行，以将等待时间最小化。
-
-at.js 不会尝试缓存数据。如果数据提供程序仅提取一次数据，则应确保数据已缓存，并且在调用提供程序函数时为第二次调用提供缓存的数据。
-
-### 代码示例
-
-在[数据提供程序](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)中可以找到几个示例。
-
-### 相关信息链接
-
-文档：[数据提供程序](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
-
-### 培训视频：
-
-* [在 Adobe Target 中使用数据提供程序](https://helpx.adobe.com/cn/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [在 Adobe Target 中实施数据提供程序](https://helpx.adobe.com/cn/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## 批量配置文件更新 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 

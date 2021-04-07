@@ -1,91 +1,33 @@
 ---
 keywords: 实施;设置;设定;页面参数;tomcat;url 编码;页面内配置文件属性;mbox 参数;页面内配置文件属性;脚本配置文件属性;批量配置文件更新 API;单个文件更新 API;客户属性;数据提供程序
-description: 将数据导入目标(页面参数、用户档案属性、脚本用户档案属性、数据提供者、单个和批量用户档案更新API、客户属性)。
-title: 如何将数据引入目标?
-feature: Implementation
+description: 将数据导入目标(页面参数、用户档案属性、脚本用户档案属性、数据提供商、单个和批量用户档案更新API、客户属性)。
+title: 如何将数据导入目标?
+feature: 实施
 role: Developer
+exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
 workflow-type: tm+mt
-source-wordcount: '1956'
-ht-degree: 93%
+source-wordcount: '1864'
+ht-degree: 90%
 
 ---
 
+# 方法概述
 
-# 将数据导入 Target 的方法
+有关将数据导入[!DNL Adobe Target]的不同方法的信息。
 
-有关将数据导入[!DNL Adobe Target]的不同方法的信息，包括页面参数、页面内用户档案属性、脚本用户档案属性、数据提供者、批量用户档案更新API、单个用户档案更新API和客户属性。
+可用的方法包括：
 
-## 页面参数（也称为“mbox 参数”）{#section_5A297816173C4FE48DC4FE03860CB42B}
-
-页面参数是直接通过页面代码传入的名称/值对，它们未存储在访客的配置文件中供将来使用。
-
-页面参数可用于将其他页面数据发送到 Target，这些数据不需要与访客配置文件一起存储以供将来的定位使用，而是用来描述页面或用户在特定页面上执行的操作。
-
-### 格式
-
-页面参数通过服务器调用作为字符串名称/值对传递给 Target。参数名称和值是可自定义的（但存在一些用于特定用途的“保留名称”）。
-
-示例：
-
-* `page=productPage`
-
-* `categoryId=homeLoans`
-
-### 使用示例
-
-**产品页面**：发送有关已查看的特定产品的信息（这就是“推荐”的工作方式）
-
-**订单详细信息**：发送订单 ID、orderTotal 和其他用于订单收集的信息
-
-**类别亲和度**：将已查看的类别信息发送到 Target，以了解用户对特定站点类别的亲和度
-
-**第三方数据**：发送来自第三方数据源的信息，例如天气定位提供程序、帐户数据（例如 DemandBase）、人口统计数据（例如 Experian）等。
-
-### 该方法的好处
-
-数据会被实时发送到 Target，并可用于得到该数据的同一服务器调用。
-
-### 注意事项
-
-* 需要更新页面代码（直接或通过标记管理系统）。
-* 如果要在后续页面/服务器调用中将数据用于定位，则需要将其转换为配置文件脚本。
-* 查询字符串只能包含符合 [Internet 工程任务组 (IETF) 标准](https://www.ietf.org/rfc/rfc3986.txt)的字符。
-
-   除了 IETF 站点上提到的那些字符之外，Target 还允许在查询字符串中使用以下字符：
-
-   `&lt; > # % &quot; { } | \\ ^ \[\] \``
-
-   其他所有字符都必须采用 URL 编码。该标准指定以下格式([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt))，如下所示：
-
-   ![](assets/ietf1.png)
-
-   或者，简单显示完整列表：
-
-   ![](assets/ietf2.png)
-
-### 代码示例
-
-targetPageParamsAll（将参数附加到页面上的所有 mbox 调用）：
-
-`function targetPageParamsAll() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-targetPageParams（将参数附加到页面上的全局 mbox）：
-
-`function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-mboxCreate 代码中的参数：
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
-
-### 相关信息链接
-
-推荐：[按照页面类型实施](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
-
-订单确认：[跟踪转化](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
-
-类别亲和度：[类别亲和度](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
+| 方法 | 详细信息 |
+| --- | --- |
+| [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>页面参数（也称为“mbox 参数”） | 页面参数是直接通过页面代码传入的名称/值对，它们未存储在访客的配置文件中供将来使用。<br>页面参数可用于将其他页面数据发送到 Target，这些数据不需要与访客配置文件一起存储以供将来的定位使用，而是用来描述页面或用户在特定页面上执行的操作。 |
+| 页面内配置文件属性（也称为“in-mbox”配置文件属性） | 页面内配置文件属性是直接通过页面代码传递的名称/值对，它们存储在访客的配置文件中供将来使用。<br>页面内配置文件属性允许将特定于用户的数据存储在 Target 的配置文件中，供以后进行定位和分段。 |
+| 脚本配置文件属性 | 脚本配置文件属性是 Target 解决方案中定义的名称/值对。该值是在每个服务器调用时，通过在 Target 服务器上执行一段 JavaScript 代码来确定。<br>为访客评估受众和活动用户编写一小段代码，该代码片段会在每次 mbox 调用时、且在评估访客的受众群体和活动成员资格之前执行。 |
+| 数据提供者 | 数据提供商是一项功能，使您能够轻松地将数据从第三方传递到目标。 |
+| 批量配置文件更新 API | 通过 API 向 Target 发送一个 .csv 文件，该文件可包含许多访客的访客配置文件更新。每个访客配置文件均可以在一次调用中通过多个页面内配置文件属性进行更新。 |
+| 单个配置文件更新 API | 几乎与批量用户档案更新API相同，但每次更新一个访客用户档案，在API调用中排行，而不是.csv文件。 |
+| 客户属性 | 客户属性可让您通过 FTP 将访客配置文件数据上传到 Experience Cloud。上传后，即可在 Adobe Analytics 和 Adobe Target 中利用这些数据。 |
 
 ## 页面内配置文件属性（也称为“in-mbox”配置文件属性）{#section_57E1C161AA7B444689B40B6F459302B6}
 
@@ -186,9 +128,9 @@ mboxCreate 代码中的属性：
 
 [配置文件脚本属性](/help/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)
 
-## 数据提供程序 {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
+## 数据提供程序{#section_14FF3BE20DAA42369E4812D8D50FBDAE}
 
-数据提供程序是一项功能，允许您轻松地将数据从第三方传递到 Target。
+数据提供商是一项功能，使您能够轻松地将数据从第三方传递到目标。
 
 注意：数据提供程序需要使用 at.js 1.3 或更高版本。
 
@@ -273,7 +215,7 @@ at.js 不会尝试缓存数据。如果数据提供程序仅提取一次数据�
 
 ## 单个配置文件更新 API {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
 
-与批量配置文件更新 API 几乎相同，但是它一次只能更新一个访客配置文件，且它通过 API 调用进行更新，而不是使用 .csv 文件。
+几乎与批量用户档案更新API相同，但每次更新一个访客用户档案，在API调用中排行，而不是.csv文件。
 
 ### 格式
 
@@ -335,7 +277,7 @@ Target Standard 客户可以使用 5 个属性，Target Premium 客户可以使�
 
 ### 代码示例
 
-详细信息可在[创建客户属性源并上传数据文件](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)中找到。
+有关详细信息，请参阅[创建客户属性源并上传数据文件](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)。
 
 ### 相关信息链接
 

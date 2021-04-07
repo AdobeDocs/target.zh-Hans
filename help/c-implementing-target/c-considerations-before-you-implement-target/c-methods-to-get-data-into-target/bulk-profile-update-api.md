@@ -4,8 +4,9 @@ description: 使用批量用户档案更新API将数据导入目标。
 title: 如何使用批量用户档案更新API将数据导入目标?
 feature: 实施
 role: Developer
+exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 78%

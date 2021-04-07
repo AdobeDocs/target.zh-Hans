@@ -4,8 +4,9 @@ description: 使用单个用户档案更新API将数据导入目标。
 title: 如何使用单个用户档案更新API将数据导入目标?
 feature: 实施
 role: Developer
+exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 41%

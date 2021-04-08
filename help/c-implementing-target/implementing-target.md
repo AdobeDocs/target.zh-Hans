@@ -4,15 +4,15 @@ description: 了解基本概念，熟悉 Target 工作的方式以及与您的�
 landing-page-description: 在开始使用 Adobe Target 之前，您应在您的站点上实施它，了解一些基本概念和术语，并熟悉 Target 的工作方式。
 title: 如何实施目标?
 feature: 实施
-role: 开发人员
+role: Developer
+exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 translation-type: tm+mt
-source-git-commit: 12cc95aca08621a52d5ab99d5ebcc23962caccb5
+source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '236'
 ht-degree: 27%
 
 ---
-
 
 # 实施 Target
 

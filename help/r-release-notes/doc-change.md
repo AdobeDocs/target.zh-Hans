@@ -3,14 +3,14 @@ keywords: 目标文档更改日志；文档更新；新主题；编辑；更新�
 description: 随时更新Adobe Target产品文档中的重要增补和更改。
 title: 在哪里可以视图文档更新以进行目标?
 feature: 发行说明
+exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
 workflow-type: tm+mt
-source-wordcount: '3911'
+source-wordcount: '3926'
 ht-degree: 28%
 
 ---
-
 
 # Adobe Target 产品文档中的文档更改
 
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 9 年 4 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了Target Standard/Premium 21.4.1版本的预发行信息（2021年4月19日） |
 | 3月29日 | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 新增了常见问题解答：<ul><li>基于最近查看的项目的推荐是否会跨多个设备保留以用于单个访客?</li></ul> |
 | 3月23日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了 at.js 版本 2.4.1 的发行说明。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了 at.js 版本 2.4.1 的发行说明。 |

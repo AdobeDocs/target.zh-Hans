@@ -1,18 +1,18 @@
 ---
 keywords: 电子邮件;ESP;电子邮件服务提供商;rawbox;交付 API;仅限下载模板;电子邮件模板;批量处理;构建时电子邮件
-description: 了解如何将电子邮件与Adobe Target·Recommendations集成，包括使用目标投放API、rawbox模板和仅下载模板。
+description: 了解如何将电子邮件与Adobe Target Recommendations集成，包括使用目标 投放 API、rawbox模板和仅下载模板。
 title: 如何将Recommendations与电子邮件集成？
 feature: Recommendations
+exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 88%
+source-wordcount: '1548'
+ht-degree: 84%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 将“推荐”与电子邮件集成{#integrate-recommendations-with-email}
+# ![PREMIUM](/help/assets/premium.png) 将“推荐”与电子邮件集成
 
 此信息介绍了将电子邮件与“推荐”集成的方法。
 
@@ -65,7 +65,7 @@ rawbox 类似于 mbox 请求，但适用于诸如电子邮件服务提供商 (ES
 
 >[!NOTE]
 >
->使用rawbox和[!DNL Target]时，请参阅[创建允许列表符下的重要安全声明，指定有权向目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机。
+>使用rawbox和[!DNL Target]时，请参阅[创建下的重要安允许列表全声明，该声明指定已授权向目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机。
 
 使用此方法，您可以跟踪推荐在电子邮件中的性能，像测试常规推荐那样测试电子邮件中的推荐，并继续跟踪网站。
 
@@ -73,7 +73,7 @@ rawbox 类似于 mbox 请求，但适用于诸如电子邮件服务提供商 (ES
 
 您使用的电子邮件系统应该能够处理以下情形：
 
-### 收到有效的答复，但没有建议
+### 收到有效的答复，但没有提出建议
 
 * 在这种情况下，响应内容将为 mboxDefault 参数值，而不论该参数设置为何值。请参阅下面有关此参数的说明。
 * 电子邮件提供商应具有可在这种情况下使用的默认 HTML 推荐块。
@@ -110,7 +110,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>（以下特定类型的标准需要使用此参数：已查看/已查看、已查看/已购买、已购买/已购买）。 | *entity_id* | 推荐所基于的产品 ID，例如在购物车中放弃的产品或以前购买的产品。<br>如果推荐标准具有相应要求，则 rawbox 必须包含 `entity.id`。 |  |
 | `entity.event.detailsOnly` | true | 如果传递了 `entity.id`，则强烈建议您也传递此参数，以阻止请求递增某个项目的页面查看统计次数，从而使基于产品查看的算法不会出现偏差。 |  |
 | `entity.categoryId`<br>（以下特定类型的标准需要使用此参数：按类别查看次数最多的项目和按类别最畅销的商品） | *category_id* | 推荐所基于的类别，例如某个类别中最畅销的商品。<br>如果推荐标准具有相应要求，则 rawbox 必须包含 `entity.categoryId`。 |  |
-| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 参数不存在，则 `mboxDefault` 应该是一个绝对 URL，在没有可用推荐的情况下，该 URL 将返回默认内容。默认内容可以是一个图像或其他静态内容。<br>如果 `mboxNoRedirect` 参数存在，则 `mboxDefault` 可以是用于指示没有推荐的任何文本，例如 `no_content`。<br>电子邮件提供商将需要处理返回此值的情况，并将默认 HTML 插入到电子邮件中。 <br> **安全最佳实践**:请注意，如果URL中使用的 `mboxDefault` 域未列入允许列表，则您可能面临“开放重定向”漏洞的风险。为避免第三方未授权使用重定向器链接或`mboxDefault`，我们建议您使用“授权主机”来允许列表默认重定向URL域。 目标使允许列表用主机要允许重定向的域。 有关详细信息，请参阅[创允许列表建指定有权向&#x200B;*Hosts*&#x200B;中的目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机的。 |  |
+| `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 参数不存在，则 `mboxDefault` 应该是一个绝对 URL，在没有可用推荐的情况下，该 URL 将返回默认内容。默认内容可以是一个图像或其他静态内容。<br>如果 `mboxNoRedirect` 参数存在，则 `mboxDefault` 可以是用于指示没有推荐的任何文本，例如 `no_content`。<br>电子邮件提供商将需要处理返回此值的情况，并将默认 HTML 插入到电子邮件中。 <br> **安全最佳实践**:请注意，如果URL中使用的 `mboxDefault` 域未列入允许列表，您可能会面临“开放重定向”漏洞的风险。为避免第三方未授权使用重定向器链接或`mboxDefault`，我们建议您使用“已授权主机”来允许列表默认重定向URL域。 目标使用主允许列表机要允许重定向的域。 有关详细信息，请参阅[创允许列表建，指定有权向&#x200B;*Hosts*&#x200B;中的目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机。 |  |
 | `mboxHost` | *mbox_host* | 这是调用触发时添加到默认环境（主机组）的域。 |  |
 | `mboxPC` | 留空 | （使用访客配置文件的推荐需要使用此参数。）<br>如果未提供“thirdPartyId”，则新的 tntId 将会生成，并在响应中返回。否则，此值将继续留空。<br>**注意：**&#x200B;请确保为每个电子邮件收件人（即，每个 API 调用）的 `mboxSession` 和 `mboxPC` 提供唯一值。如果您没有为这些字段提供唯一值，则由于在单个配置文件中会生成大量事件，API 响应可能变慢或失败。 | 1 &lt; 长度 &lt; 128<br>最多只能包含一个“.”（圆点）。<br>仅允许在配置文件位置后缀中使用圆点。 |
 
@@ -122,7 +122,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>（可选） | 1 | 默认情况下，如果未找到可交付的内容，则会重定向调用方。可用于禁用默认行为。 |  |
 | `mbox3rdPartyId` | *xxx* | 如果您具有用于配置文件定位的自定义访客 ID，请使用此参数。 |  |
 
-### 潜在目标服务器响应
+### 潜在的目标服务器响应
 
 | 响应 | 描述 |
 |--- |--- |
@@ -132,6 +132,15 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `Cannot redirect to default content, please specify mboxDefault parameter` | 请求不存在匹配项时，未指定 `mboxDefault` 参数，同时也未指定 `mboxNoRedirect` 参数。 |
 | `Invalid mbox name:= MBOX_NAME` | 指示 `mbox` 参数包含无效字符。 |
 | `Mbox name [MBOX_NAME] is too long` | 指示 `mbox` 参数长度超过 250 个字符。 |
+
+## 选项1和2 {#capacity}的容量指南
+
+以下容量准则适用于投放 API和rawbox电子邮件模板选项：
+
+* 请求的速率应限制为每秒1,000个请求或每日流量峰值的25倍
+* 以每秒200个请求的步骤提高流量
+
+如果您希望使用更高的费率限制，请与您的客户经理联系。
 
 ## 选项 3：使用“仅限下载”模板 {#section_518C279AF0094BE780F4EA40A832A164}
 

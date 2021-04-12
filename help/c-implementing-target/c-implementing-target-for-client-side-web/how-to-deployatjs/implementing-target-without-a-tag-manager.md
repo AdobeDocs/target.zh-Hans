@@ -6,10 +6,10 @@ feature: 实施服务器端
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 45e4489348c490aaa43007656fb994e3d01b9c3f
+source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 54%
+source-wordcount: '1697'
+ht-degree: 51%
 
 ---
 
@@ -44,6 +44,7 @@ ht-degree: 54%
 | [!UICONTROL 客户代码] | 客户端代码是指特定于客户端的字符序列，使用 Target API 时通常需要使用此设置。 |
 | [!UICONTROL IMS 组织 ID] | 此 ID 可将您的实施绑定到您的 [!DNL Adobe Experience Cloud] 帐户。 |
 | [!UICONTROL 设备上决策] | 要启用设备决策，请将切换滑至“开启”位置。<br>设备上决策允许您在服务器上缓存A/B和体验定位(XT)活动，并在接近零的延迟时执行内存中决策。有关详细信息，请参阅&#x200B;*Adobe Target SDK*&#x200B;指南中的[设备决策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)简介。 |
+| [!UICONTROL 在对象中包含所有现有的设备上决策限定活动。] | （视情况而定）如果启用设备决策，则显示此选项。<br>如果希望符合设备决策条件的所有实时目标活动自动包含在对象中，请将切换滑至“开启”位置。<br>关闭此切换意味着您必须重新创建并激活任何设备上决策活动，以便将它们包含在生成的规则对象中。 |
 
 ## 实现方法
 

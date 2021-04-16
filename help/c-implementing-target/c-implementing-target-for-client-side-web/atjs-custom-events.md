@@ -1,17 +1,17 @@
 ---
 keywords: 自定义事件;at.js;请求失败;请求成功;内容渲染失败;内容渲染成功;库已加载;请求开始;内容渲染开始;内容渲染无选件;内容渲染重定向
-description: 使用自定义事件，在mbox请求或优惠失败或成功时通知Adobe Targetat.js JavaScript库。
+description: 使用自定义事件，以便在mbox请求或优惠失败或成功时通知Adobe Target at.js JavaScript库。
 title: 如何使用at.js自定义事件?
 feature: at.js
 role: Developer
+exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 92%
+source-wordcount: '656'
+ht-degree: 87%
 
 ---
-
 
 # at.js 自定义事件
 
@@ -34,10 +34,11 @@ ht-degree: 92%
 
 | 键值 | 类型 | 描述 |
 |--- |--- |--- |
-| type | 字符串 | 在有些情况下，您希望了解如何跟踪、调试和自定义与 at.js 的交互。<br>下面列出的每个自定义事件都有两种格式：“常量”和“字符串值”。<ul><li>**常量**：前面预置 `adobe.target.event.`，全部大写，并包含下划线字符。要在加载 at.js *之后*、收到 mbox 响应&#x200B;*之前*&#x200B;订阅自定义事件，请使用常量。</li><li>**字符串值**：小写并包含破折号。要在加载 at.js *之前*&#x200B;订阅自定义事件，请使用字符串值。</li></ul>**请求失败**<br>&#x200B;常数：`adobe.target.event.REQUEST_FAILED`<br>字符串值：`at-request-failed`<br>说明：由于超时、错误的状态代码、JSON解析错误等原因，mbox请求失败。<br>**请求成功**<br>&#x200B;常量：`adobe.target.event.REQUEST_SUCCEEDED`<br>字符串值：`at-request-succeeded`<br>描述：mbox 请求成功。<br>**内容渲染失败**<br>&#x200B;常量：`adobe.target.event.CONTENT_RENDERING_FAILED`<br>字符串值：`at-content-rendering-failed`<br>描述：由于封装 mbox 元素缺失、无法找到选择器等原因，选件渲染失败。<br>**内容渲染成功**<br>&#x200B;常量：`adobe.target.event.CONTENT_RENDERING_SUCCEEDED`<br>字符串值：`at-content-rendering-succeeded`<br>描述：选件渲染已成功。已应用 DOM 更改。<br>**已加载库**<br>&#x200B;常量：`adobe.target.event.LIBRARY_LOADED`<br>字符串值：`at-library-loaded`<br>描述：此事件非常适用于跟踪 at.js 完全加载的时间。您可以使用此事件来自定义全局 mbox 执行。您也可以使用此事件来禁用全局 mbox，然后侦听此事件以便稍后再触发全局 mbox。<br>**请求启动**<br>&#x200B;常量：`adobe.target.event.REQUEST_START`<br>字符串值：`at-request-start`<br>描述：此事件在执行 HTTP 请求之前触发。您可以使用此事件进行使用 Resource Timing API 的性能测量。<br>**内容渲染启动**<br>&#x200B;常量：`adobe.target.event.CONTENT_RENDERING_START`<br>字符串值：`at-content-rendering-start`<br>描述：此事件在启动选择器轮询并将内容渲染到页面之前触发。您可以使用此事件来跟踪内容渲染进度。<br>**内容渲染（无选件）**<br>&#x200B;常量：`adobe.target.event.CONTENT_RENDERING_NO_OFFERS`<br>字符串值：`at-content-rendering-no-offers`<br>描述：此事件在未返回选件时触发。<br>**内容渲染重定向**<br>&#x200B;常量：`adobe.target.event.CONTENT_RENDERING_REDIRECT`<br>字符串值：`at-content-rendering-redirect`<br>描述：此事件在选件是重定向选件并且 Target 将重定向到其他 URL 时触发。 |
+| type | 字符串 | 在有些情况下，您希望了解如何跟踪、调试和自定义与 at.js 的交互。<br>下面列出的每个自定义事件都有两种格式：“常量”和“字符串值”。<ul><li>**常量**：前面预置 `adobe.target.event.`，全部大写，并包含下划线字符。要在加载 at.js *之后*、收到 mbox 响应&#x200B;*之前*&#x200B;订阅自定义事件，请使用常量。</li><li>**字符串值**：小写并包含破折号。要在加载 at.js *之前*&#x200B;订阅自定义事件，请使用字符串值。</li></ul>**请求失败**<br>&#x200B;常数：`adobe.target.event.REQUEST_FAILED`<br>字符串值：`at-request-failed`<br>说明：由于超时、错误的状态代码、JSON分析错误等原因，mbox请求失败。<br>**请求成功**<br>&#x200B;常量：`adobe.target.event.REQUEST_SUCCEEDED`<br>字符串值：`at-request-succeeded`<br>描述：mbox 请求成功。<br>**内容渲染失败**<br>&#x200B;常量：`adobe.target.event.CONTENT_RENDERING_FAILED`<br>字符串值：`at-content-rendering-failed`<br>描述：由于封装 mbox 元素缺失、无法找到选择器等原因，选件渲染失败。<br>**内容渲染成功**<br>&#x200B;常量：`adobe.target.event.CONTENT_RENDERING_SUCCEEDED`<br>字符串值：`at-content-rendering-succeeded`<br>描述：选件渲染已成功。已应用 DOM 更改。<br>**已加载库**<br>&#x200B;常量：`adobe.target.event.LIBRARY_LOADED`<br>字符串值：`at-library-loaded`<br>描述：此事件非常适用于跟踪 at.js 完全加载的时间。您可以使用此事件来自定义全局 mbox 执行。您也可以使用此事件来禁用全局 mbox，然后侦听此事件以便稍后再触发全局 mbox。<br>**请求启动**<br>&#x200B;常量：`adobe.target.event.REQUEST_START`<br>字符串值：`at-request-start`<br>描述：此事件在执行 HTTP 请求之前触发。您可以使用此事件进行使用 Resource Timing API 的性能测量。<br>**内容渲染启动**<br>&#x200B;常量：`adobe.target.event.CONTENT_RENDERING_START`<br>字符串值：`at-content-rendering-start`<br>描述：此事件在启动选择器轮询并将内容渲染到页面之前触发。您可以使用此事件来跟踪内容渲染进度。<br>**内容渲染（无选件）**<br>&#x200B;常量：`adobe.target.event.CONTENT_RENDERING_NO_OFFERS`<br>字符串值：`at-content-rendering-no-offers`<br>描述：此事件在未返回选件时触发。<br>**内容渲染重定向**<br>&#x200B;常量：`adobe.target.event.CONTENT_RENDERING_REDIRECT`<br>字符串值：`at-content-rendering-redirect`<br>描述：此事件在选件是重定向选件并且 Target 将重定向到其他 URL 时触发。 |
 | mbox | 字符串 | mbox 名称 |
 | message | 字符串 | 包含通俗易懂的描述，例如出现什么错误、错误消息等。 |
 | tracking | 对象 | 包含 `sessionId` 和 `deviceId`。在某些情况下，`deviceId` 可能缺失，因为 [!DNL Target] 无法从边缘服务器检索到它。 |
+| 类型 | 字符串 | **设备上决策伪像**<br>&#x200B;成功常<br>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<br>数：字符串值： `artifactDownloadSucceeded`<br>描述：成功下载设备上决策项目时调用。<br>**设备上决策伪像失**<br>&#x200B;败常量： `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<br>字符串值： `artifactDownloadFailed`<br>描述：在设备上决策项目下载失败时调用。 |
 
 ## 使用情况 {#section_0500FF09D3A04450B5DC8F85C6F793E0}
 

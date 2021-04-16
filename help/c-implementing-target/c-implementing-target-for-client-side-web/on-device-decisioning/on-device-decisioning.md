@@ -4,11 +4,12 @@ description: 了解如何使用at.js库执行设备上决策
 title: 设备上决策如何与at.js JavaScript库一起使用？
 feature: at.js
 role: Developer
+exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
 workflow-type: tm+mt
-source-wordcount: '3419'
-ht-degree: 5%
+source-wordcount: '3496'
+ht-degree: 7%
 
 ---
 
@@ -69,28 +70,22 @@ Adobe Target JS SDK可让客户灵活地在数据的性能与新鲜度之间做�
 
 以下列表与图中的数字相对应：
 
-1. 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)检索[!DNL Experience Cloud Visitor ID]。
-1. at.js 库会同步加载，并隐藏文档正文。
-
-   也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。
-
-1. at.js库隐藏正文以防止闪烁。
-1. 会发出一个页面加载请求，其中包含所有已配置的参数，如(ECID、客户ID、自定义参数、用户用户档案等)。
-1. 配置文件脚本在执行后进入配置文件存储区。
-
-   用户档案存储从受众库请求限定的受众(例如，从[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]等共享的受众)。
-
-   客户属性会以批量过程发送到配置文件存储区。
-
-1. 用户档案商店用于受众资格和分段以过滤活动。
-1. 从实时[!DNL Target]活动确定体验后，将选择生成的内容。
-1. at.js库会隐藏页面上与必须渲染的体验关联的相应元素。
-1. at.js库显示正文，以便能够加载页面的其余部分，以便访客到视图。
-1. at.js库操作DOM以从目标 Edge Network中呈现体验。
-1. 体验为访客呈现。
-1. 加载整个网页。
-1. [!DNL Analytics] 数据会发送到数据收集服务器。
-1. 目标数据通过SDID与[!DNL Analytics]数据匹配，并被处理到[!DNL Analytics]报告存储。 之后，便可以在 [!DNL Analytics] 和 [!DNL Analytics] 中通过 [!DNL Target] for Target[!UICONTROL  (A4T) 报表查看 ]Analytics 数据。
+| 步骤 | 描述 |
+| --- | --- |
+| 1 | 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)检索[!DNL Experience Cloud Visitor ID]。 |
+| 2 | at.js 库会同步加载，并隐藏文档正文。<br>   也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。 |
+| 3 | at.js库隐藏正文以防止闪烁。 |
+| 4 | 会发出一个页面加载请求，其中包含所有已配置的参数，如(ECID、客户ID、自定义参数、用户用户档案等)。 |
+| 5 | 配置文件脚本在执行后进入配置文件存储区。<br>用户档案 Store从受众库请求限定的受众(例如，从、 [!DNL Adobe Analytics]等共 [!DNL Adobe Audience Manager]享的受众)。<br>客户属性会以批量过程发送到配置文件存储区。 |
+| 6 | 用户档案商店用于受众资格和分段以过滤活动。 |
+| 7 | 从实时[!DNL Target]活动确定体验后，将选择生成的内容。 |
+| 8 | at.js库会隐藏页面上与必须渲染的体验关联的相应元素。 |
+| 9 | at.js库显示正文，以便能够加载页面的其余部分，以便访客到视图。 |
+| 10 | at.js库操作DOM以从目标 Edge Network中呈现体验。 |
+| 11 | 体验为访客呈现。 |
+| 12 | 加载整个网页。 |
+| 13 | [!DNL Analytics] 数据会发送到数据收集服务器。 |
+| 14 | 目标数据通过SDID与[!DNL Analytics]数据匹配，并被处理到[!DNL Analytics]报告存储。 之后，便可以在 [!DNL Analytics] 和 [!DNL Analytics] 中通过 [!DNL Target] for Target[!UICONTROL  (A4T) 报表查看 ]Analytics 数据。 |
 
 ### 仅限设备
 
@@ -98,7 +93,7 @@ Adobe Target JS SDK可让客户灵活地在数据的性能与新鲜度之间做�
 
 设备上决策可以以超快的速度提供您的体验和个性化活动，因为决策来自缓存的规则伪像，其中包含符合设备上决策资格的所有活动。
 
-要进一步了解哪些活动有资格进行设备上决策，请参阅支持的功能部分。
+要进一步了解哪些活动有资格进行设备上决策，请参阅[设备上决策中支持的功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)。
 
 仅当需要从[!DNL Target]进行决策的所有页面中的性能都非常关键时，才应使用此决策方法。 此外，请记住，当选择此决策方法时，不符合设备上决策条件的[!DNL Target]活动将不会交付或执行。 at.js库2.5+配置为仅查找缓存的规则对象以作出决策。
 
@@ -112,21 +107,20 @@ Adobe Target JS SDK可让客户灵活地在数据的性能与新鲜度之间做�
 >
 >[!DNL Adobe Target] 管理服务器可确定您所有有资格进行设备上决策的活动，生成JSON规则对象，并将其传播到Akamai CDN。系统会持续监视活动是否有更新，以输出要传播到Akamai CDN的新JSON规则对象。
 
-1. 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。
-1. at.js 库会同步加载，并隐藏文档正文。
-
-   也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。
-
-1. at.js库隐藏正文以防止闪烁。
-1. at.js库请求从最近的Akamai CDN检索JSON规则对象到访客。
-1. Akamai CDN使用JSON规则对象做出响应。
-1. JSON规则对象将在访客的浏览器上本地缓存。
-1. at.js库解释JSON规则对象，并执行检索体验和隐藏测试元素的决定。
-1. at.js库显示正文，以便能够加载页面的其余部分，以便访客到视图。
-1. at.js库处理DOM以从缓存的JSON规则对象中呈现体验。
-1. 体验为访客呈现。
-1. 加载整个网页。
-1. [!DNL Analytics] 数据会发送到数据收集服务器。目标数据通过SDID与[!DNL Analytics]数据匹配，并被处理到[!DNL Analytics]报告存储。 之后，便可以在 和 中通过 for Target (A4T) 报表查看 [!DNL Analytics][!DNL Analytics]Analytics 数据。[!DNL Target]
+| 步骤 | 描述 |
+| --- | --- |
+| 3 | 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。 |
+| 2 | at.js 库会同步加载，并隐藏文档正文。<br>也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。 |
+| 3 | at.js库隐藏正文以防止闪烁。 |
+| 4 | at.js库请求从最近的Akamai CDN检索JSON规则对象到访客。 |
+| 5 | Akamai CDN使用JSON规则对象做出响应。 |
+| 6 | JSON规则对象将在访客的浏览器上本地缓存。 |
+| 7 | at.js库解释JSON规则对象，并执行检索体验和隐藏测试元素的决定。 |
+| 8 | at.js库显示正文，以便能够加载页面的其余部分，以便访客到视图。 |
+| 9 | at.js库处理DOM以从缓存的JSON规则对象中呈现体验。 |
+| 10 | 体验为访客呈现。 |
+| 11 | 加载整个网页。 |
+| 12 | [!DNL Analytics] 数据会发送到数据收集服务器。目标数据通过SDID与[!DNL Analytics]数据匹配，并被处理到[!DNL Analytics]报告存储。 之后，便可以在 和 中通过 for Target (A4T) 报表查看 [!DNL Analytics][!DNL Analytics]Analytics 数据。[!DNL Target] |
 
 下图说明了访客、浏览器、at.js 2.5+与访客后续页面点击或返回访问缓存的JSON规则对象之间的交互。 由于JSON规则对象已缓存并可在浏览器上使用，因此无需进行阻止网络调用即可立即做出决策。 此流程图可捕获后续页面导航或返回访客。
 
@@ -138,19 +132,18 @@ Adobe Target JS SDK可让客户灵活地在数据的性能与新鲜度之间做�
 >
 >[!DNL Adobe Target] 管理服务器可确定您所有有资格进行设备上决策的活动，生成JSON规则对象，并将其传播到Akamai CDN。系统会持续监视活动是否有更新，以输出要传播到Akamai CDN的新JSON规则对象。
 
-1. 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。
-1. at.js 库会同步加载，并隐藏文档正文。
-
-   也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。
-
-1. at.js库隐藏正文以防止闪烁。
-1. at.js库解释JSON规则对象，并在内存中执行检索体验的决定。
-1. 已测试的元素处于隐藏状态。
-1. at.js库显示正文，以便能够加载页面的其余部分，以便访客到视图。
-1. at.js库处理DOM以从缓存的JSON规则对象中呈现体验。
-1. 体验为访客呈现。
-1. 加载整个网页。
-1. [!DNL Analytics] 数据会发送到数据收集服务器。目标数据通过SDID与[!DNL Analytics]数据匹配，并被处理到[!DNL Analytics]报告存储。 之后，便可以在 [!DNL Analytics] 和 [!DNL Analytics] 中通过 [!DNL Target] for Target[!UICONTROL  (A4T) 报表查看 ]Analytics 数据。
+| 步骤 | 描述 |
+| --- | --- |
+| 3 | 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。 |
+| 2 | at.js 库会同步加载，并隐藏文档正文。<br>也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。 |
+| 3 | at.js库隐藏正文以防止闪烁。 |
+| 4 | at.js库解释JSON规则对象，并在内存中执行检索体验的决定。 |
+| 5 | 已测试的元素处于隐藏状态。 |
+| 6 | at.js库显示正文，以便能够加载页面的其余部分，以便访客到视图。 |
+| 7 | at.js库处理DOM以从缓存的JSON规则对象中呈现体验。 |
+| 8 | 体验为访客呈现。 |
+| 9 | 加载整个网页。 |
+| 10 | [!DNL Analytics] 数据会发送到数据收集服务器。目标数据通过SDID与[!DNL Analytics]数据匹配，并被处理到[!DNL Analytics]报告存储。 之后，便可以在 [!DNL Analytics] 和 [!DNL Analytics] 中通过 [!DNL Target] for Target[!UICONTROL  (A4T) 报表查看 ]Analytics 数据。 |
 
 ### 混合
 
@@ -172,24 +165,23 @@ JSON规则对象包含元数据，用于通知at.jsmbox是运行服务器端活�
 >
 >[!DNL Adobe Target] 管理服务器可确定您所有有资格进行设备上决策的活动，生成JSON规则对象，并将其传播到Akamai CDN。系统会持续监视活动是否有更新，以输出要传播到Akamai CDN的新JSON规则对象。
 
-1. 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。
-1. at.js 库会同步加载，并隐藏文档正文。
-
-   也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。
-
-1. at.js库隐藏正文以防止闪烁。
-1. 会向Adobe Target Edge Network发出页面加载请求，包括所有已配置的参数，如(ECID、客户ID、自定义参数、用户用户档案等)。
-1. 同时，at.js请求从最近的Akamai CDN检索JSON规则对象到访客。
-1. (Adobe Target Edge Network)用户档案脚本执行，然后输入到用户档案存储中。 用户档案存储从受众库请求限定的受众(例如，从[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]等共享的受众)。
-1. Akamai CDN使用JSON规则对象做出响应。
-1. 用户档案商店用于受众资格和分段以过滤活动。
-1. 从实时[!DNL Target]活动确定体验后，将选择生成的内容。
-1. at.js库会隐藏页面上与必须渲染的体验关联的相应元素。
-1. at.js库显示正文，以便能够加载页面的其余部分，以便访客到视图。
-1. at.js库操作DOM以从目标 Edge Network中呈现体验。
-1. 体验为访客呈现。
-1. 加载整个网页。
-1. [!DNL Analytics] 数据会发送到数据收集服务器。目标数据通过SDID与[!DNL Analytics]数据匹配，并被处理到[!DNL Analytics]报告存储。 之后，便可以在 [!DNL Analytics] 和 [!DNL Analytics] 中通过 [!DNL Target] for Target[!UICONTROL  (A4T) 报表查看 ]Analytics 数据。
+| 步骤 | 描述 |
+| --- | --- |
+| 3 | 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。 |
+| 2 | at.js 库会同步加载，并隐藏文档正文。<br>也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。 |
+| 3 | at.js库隐藏正文以防止闪烁。 |
+| 4 | 会向Adobe Target Edge Network发出页面加载请求，包括所有已配置的参数，如(ECID、客户ID、自定义参数、用户用户档案等)。 |
+| 5 | 同时，at.js请求从最近的Akamai CDN检索JSON规则对象到访客。 |
+| 6 | (Adobe Target Edge Network)用户档案脚本执行，然后输入到用户档案存储中。 用户档案存储从受众库请求限定的受众(例如，从[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]等共享的受众)。 |
+| 7 | Akamai CDN使用JSON规则对象做出响应。 |
+| 8 | 用户档案商店用于受众资格和分段以过滤活动。 |
+| 9 | 从实时[!DNL Target]活动确定体验后，将选择生成的内容。 |
+| 10 | at.js库会隐藏页面上与必须渲染的体验关联的相应元素。 |
+| 11 | at.js库显示正文，以便能够加载页面的其余部分，以便访客到视图。 |
+| 12 | at.js库操作DOM以从目标 Edge Network中呈现体验。 |
+| 13 | 体验为访客呈现。 |
+| 14 | 加载整个网页。 |
+| 15 | [!DNL Analytics] 数据会发送到数据收集服务器。目标数据通过SDID与[!DNL Analytics]数据匹配，并被处理到[!DNL Analytics]报告存储。 之后，便可以在 [!DNL Analytics] 和 [!DNL Analytics] 中通过 [!DNL Target] for Target[!UICONTROL  (A4T) 报表查看 ]Analytics 数据。 |
 
 下图说明了访客、浏览器、at.js 2.5+和缓存的JSON规则对象之间的交互，用于后续页面导航或返回访问。 在此图中，只关注为后续页面导航或返回访问做出设备上决策的用例。 请记住，根据特定页面的实时活动，可以进行服务器端调用以执行服务器端决策。
 
@@ -201,20 +193,19 @@ JSON规则对象包含元数据，用于通知at.jsmbox是运行服务器端活�
 >
 >[!DNL Adobe Target] 管理服务器可确定您所有有资格进行设备上决策的活动，生成JSON规则对象，并将其传播到Akamai CDN。系统会持续监视活动是否有更新，以输出要传播到Akamai CDN的新JSON规则对象。
 
-1. 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。
-1. at.js 库会同步加载，并隐藏文档正文。
-
-   也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。
-
-1. at.js库隐藏正文以防止闪烁。
-1. 会请求以检索体验。
-1. at.js库确认已缓存JSON规则对象，并在内存中执行检索体验的决定。
-1. 已测试的元素处于隐藏状态。
-1. at.js库显示正文，以便能够加载页面的其余部分，以便访客到视图。
-1. at.js库处理DOM以从缓存的JSON规则对象中呈现体验。
-1. 体验为访客呈现。
-1. 加载整个网页。
-1. [!DNL Analytics] 数据会发送到数据收集服务器。目标数据通过SDID与[!DNL Analytics]数据匹配，并被处理到[!DNL Analytics]报告存储。 之后，便可以在 [!DNL Analytics] 和 [!DNL Analytics] 中通过 [!DNL Target] for Target[!UICONTROL  (A4T) 报表查看 ]Analytics 数据。
+| 步骤 | 描述 |
+| --- | --- |
+| 3 | 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。 |
+| 2 | at.js 库会同步加载，并隐藏文档正文。<br>也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。 |
+| 3 | at.js库隐藏正文以防止闪烁。 |
+| 4 | 会请求以检索体验。 |
+| 5 | at.js库确认已缓存JSON规则对象，并在内存中执行检索体验的决定。 |
+| 6 | 已测试的元素处于隐藏状态。 |
+| 7 | at.js库显示正文，以便能够加载页面的其余部分，以便访客到视图。 |
+| 8 | at.js库处理DOM以从缓存的JSON规则对象中呈现体验。 |
+| 9 | 体验为访客呈现。 |
+| 10 | 加载整个网页。 |
+| 11 | [!DNL Analytics] 数据会发送到数据收集服务器。目标数据通过SDID与[!DNL Analytics]数据匹配，并被处理到[!DNL Analytics]报告存储。 之后，便可以在 [!DNL Analytics] 和 [!DNL Analytics] 中通过 [!DNL Target] for Target[!UICONTROL  (A4T) 报表查看 ]Analytics 数据。 |
 
 ## 如何启用设备上决策？
 
@@ -258,6 +249,8 @@ JSON规则对象包含元数据，用于通知at.jsmbox是运行服务器端活�
    * [!UICONTROL 仅服务器端]
    * [!UICONTROL 仅限设备]
    * [!UICONTROL 混合]
+
+   ![编辑at.js设置面板](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/global-settings.png)
 
 ### 全局设置
 

@@ -1,14 +1,14 @@
 ---
-keywords: 实现；javascript库；js;atjs；设备上决策；设备上决策
+keywords: 实现；javascript库；js;atjs；设备上决策；设备上决策；at.js
 description: 了解如何使用at.js库执行设备上决策
 title: 设备上决策如何与at.js JavaScript库一起使用？
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3497'
 ht-degree: 7%
 
 ---
@@ -109,7 +109,7 @@ Adobe Target JS SDK可让客户灵活地在数据的性能与新鲜度之间做�
 
 | 步骤 | 描述 |
 | --- | --- |
-| 3 | 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。 |
+| 1 | 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 库会同步加载，并隐藏文档正文。<br>也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。 |
 | 3 | at.js库隐藏正文以防止闪烁。 |
 | 4 | at.js库请求从最近的Akamai CDN检索JSON规则对象到访客。 |

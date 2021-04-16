@@ -1,13 +1,13 @@
 ---
 user-guide-title: Adobe Target 指南
 breadcrumb-title: Target 指南
-user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
+user-guide-description: 了解如何定制和个性化客户体验，以最大限度地提高您网站和移动站点、App、社交媒体和其他数字渠道的收入。
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 63f56f91cf9a38c4375e811cebb47b4db4af5552
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 76%
+source-wordcount: '1607'
+ht-degree: 74%
 
 ---
 
@@ -193,7 +193,7 @@ ht-degree: 76%
       + Analytics 与 Target 集成 (A4T) 故障诊断 {#troubleshoot-a4t}
          + [A4T 故障诊断](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [在 A4T 中最大限度地减少夸大的访问和访客计数](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + A4T 常见问题解答  {#a4t-faq}
+      + A4T 常见问题解答 {#a4t-faq}
          + [初始配置 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [活动设置 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [查看报表 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)

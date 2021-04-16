@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
+source-git-commit: 2d09d6231bdcb24f4444a63deefa714a459eec31
 workflow-type: tm+mt
-source-wordcount: '3497'
+source-wordcount: '3499'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->设备上决策计划在Target Standard/Premium 21.4.1版本（2021年4月19日）中发布。
+>设备上决策功能计划在Target Standard/Premium 21.4.1版本（2021年4月19日）中发布。
 
 从版本2.5开始，at.js优惠设备上决策。 设备上决策允许您在浏览器上缓存[A/B测试](/help/c-activities/t-test-ab/test-ab.md)和[体验定位](/help/c-activities/t-experience-target/experience-target.md)(XT)活动，以执行内存中决策，而无需对[!DNL Adobe Target]边缘网络发出阻塞网络请求。
 
@@ -109,9 +109,9 @@ Adobe Target JS SDK可让客户灵活地在数据的性能与新鲜度之间做�
 
 | 步骤 | 描述 |
 | --- | --- |
-| 1 | 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。 |
+| 3 | 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 库会同步加载，并隐藏文档正文。<br>也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。 |
-| 3 | at.js库隐藏正文以防止闪烁。 |
+| 1 | at.js库隐藏正文以防止闪烁。 |
 | 4 | at.js库请求从最近的Akamai CDN检索JSON规则对象到访客。 |
 | 5 | Akamai CDN使用JSON规则对象做出响应。 |
 | 6 | JSON规则对象将在访客的浏览器上本地缓存。 |
@@ -167,7 +167,7 @@ JSON规则对象包含元数据，用于通知at.jsmbox是运行服务器端活�
 
 | 步骤 | 描述 |
 | --- | --- |
-| 3 | 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。 |
+| 1 | 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 库会同步加载，并隐藏文档正文。<br>也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。 |
 | 3 | at.js库隐藏正文以防止闪烁。 |
 | 4 | 会向Adobe Target Edge Network发出页面加载请求，包括所有已配置的参数，如(ECID、客户ID、自定义参数、用户用户档案等)。 |

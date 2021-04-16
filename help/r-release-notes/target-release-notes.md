@@ -5,10 +5,10 @@ title: 即将发布的版本中包含哪些新增功能？
 feature: 发行说明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 24%
+source-wordcount: '429'
+ht-degree: 22%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 24%
 
 本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2021 年 4 月 9 日**
+**上次更新日期：2021 年 4 月 16 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -52,6 +52,15 @@ ht-degree: 24%
    * 列表不包含
 
 * 修复了在创建推荐排除时更改环境后请求失败时导致无限加载的问题。 (TGT-39948)
+
+## at.js版本2.5.0（2021年4月19日）
+
+此版本的at.js包含以下增强功能：
+
+* 对at.js的设备上决策支持
+* 预览链接支持Automated Personalization活动
+
+此版本还删除了对Microsoft Internet Explorer 10及更高版本的支持。
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;获取选件;at.js;函数;函数
-description: 使用adobe.目标.getOffers()函数及其选项，Adobe Targetat.js库触发请求以获取多个目标优惠。 (at.js 2.x)
+description: 使用adobe.目标.getOffers()函数及其选项，使Adobe Target at.js库触发请求以获取多个目标优惠。 (at.js 2.x)
 title: 如何使用adobe.目标.getOffers()函数？
 feature: at.js
 role: Developer
+exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 90%
+source-wordcount: '1254'
+ht-degree: 89%
 
 ---
-
 
 # adobe.target.getOffers(options) - at.js 2.x
 
@@ -24,6 +24,7 @@ ht-degree: 90%
 | 键值 | 类型 | 必需？ | 描述 |
 | --- | --- | --- | --- |
 | consumerId | 字符串 | 否 | 如果未提供，则默认值为客户端的全局 mbox。可使用此键值生成用于 A4T 集成的补充数据 ID。此键值是每个访客的唯一字符串。 |
+| decisioningMethod | 字符串 | 否 | “服务器端”、“设备上”、“混合” |
 | request | 对象 | 是 | 请参阅下文的“请求”表。 |
 | timeout | 数值 | 否 | 请求超时。如果未指定，将使用默认的 at.js 超时值。 |
 
@@ -31,7 +32,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->有关以下所有字段的可接受类型的信息，请查阅[投放API文档](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
+>有关以下所有字段可接受类型的信息，请查阅[投放API文档](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
 
 | 字段名称 | 必需？ | 限制 | 描述 |
 | --- | --- | --- | --- |
@@ -86,7 +87,26 @@ adobe.target.getOffers({
 });
 ```
 
-## 调用getOffers()以使用传入的参数和视图参数检索最新用户档案
+## 调用getOffers()进行设备上决策
+
+```javascript
+adobe.target.getOffers({ 
+
+  decisioningMethod:"on-device", 
+  request: { 
+    execute: { 
+      mboxes: [ 
+        { 
+          index: 0, 
+          name: "homepage" 
+        } 
+      ] 
+    } 
+ } 
+}); 
+```
+
+## 调用getOffers()以使用传入参数和视图参数检索最新用户档案
 
 ```javascript
 adobe.target.getOffers({
@@ -186,7 +206,7 @@ adobe.target.getOffers({
 }
 ```
 
-然后，可通过[数据插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)将有效负荷转发到Adobe Analytics。
+然后，可以通过[数据插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)将负载转发到Adobe Analytics。
 
 ## 通过 getOffers() 和 applyOffers() 获取并渲染多个 mbox 的数据 {#multiple}
 
@@ -269,7 +289,7 @@ adobe.target.getOffers({
 
 ## 调用getOffers()以执行pageLoad
 
-以下示例演示如何对at.js 2使用getOffers()执行pageLoad。*x*
+以下示例显示如何对at.js 2使用getOffers()执行pageLoad。*x*
 
 ```javascript
 adobe.target.getOffers({

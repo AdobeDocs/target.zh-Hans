@@ -5,10 +5,10 @@ title: 如何使用目标个性化内容和测试页面设计？
 feature: 活动
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 96%
+source-wordcount: '2102'
+ht-degree: 92%
 
 ---
 
@@ -52,6 +52,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 | URL | URL 以浅色文本显示在名称下方。<br>活动的 URL 可标识该活动在哪里显示。这可以帮助您快速识别活动，并确定某个特定页面是否已在该活动上运行测试。<br>如果测试在多个 URL 上运行，则会有一个链接显示使用的 URL 数量。单击该链接可查看该活动的完整 URL 列表。<br>您可以根据 URL 进行搜索。使用“搜索”框旁边的下拉列表，然后选择[!UICONTROL 搜索 URL]。 |
 | 状态 | 活动的状态可以是下列状态之一：<ul><li>**实时**：该活动当前正在运行。</li><li>**草稿**：活动设置已开始，但尚未准备就绪来运行。</li><li>**已计划**：当到达指定的开始日期和时间时，该活动便可准备激活。</li><li>**不活跃**：该活动已暂停或停用。</li><li>**正在同步**：活动已经保存，并且正在同步到 Target 交付网络。</li><li>**已结束**：已到达指定的活动结束日期和时间，并且不再为该活动提供服务。</li><li>**已存档**：活动已经存档。您可以激活已存档的活动以便再次使用。</li></ul>**注意：**&#x200B;执行某些操作时，例如使用 API 方法在 UI 外部激活活动，可能需要最多 10 分钟才能将更新传播到 UI。 |
 | 源 | 显示活动是在哪里创建的：<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
+| 符合条件的设备上决策 | 在创建符合设备上决策条件的活动后，活动的“概述”页中将显示一个标签，其中显示有符合条件的“设备上决策”。<br>此标签并不意味着活动始终通过设备上决策提供。仅当将at.js 2.5.0+配置为使用设备上决策时，才会在设备上执行此活动。 如果at.js 2.5.0+未配置为使用设备上，则此活动仍将通过由at.js发出的服务器调用交付。<br>请参 [阅设备决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)。 |
 | 属性 | 显示活动的[属性](/help/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | 预计收入提升 | 如果 100% 的受众都看到了入选体验，则显示预计会有多少收入上的增长。<br>使用以下公式计算：<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>最多可以将得出的数值四舍五入到一位小数，但前提是四舍五入后小数点前面只有一位数字。例如：$1.6M、$60K、$900、$8.5K、$205K<br>此列显示“---”时，表示该活动没有足够的数据来确定入选者，或者没有成本估算。<br>请参阅[预计收入提升](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以了解更多信息。 |
 | 上次更新 | 活动上次更新的时间以及执行更新操作的人员。 |
@@ -108,6 +109,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 |--- |--- |
 | 类型 | A/B 测试：[手动](/help/c-activities/t-test-ab/test-ab.md)、[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和[自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md)。<br>[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[体验定位](/help/c-activities/t-experience-target/experience-target.md)<br>[多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[推荐](/help/c-recommendations/recommendations.md) |
 | 状态 | 实时<br>草稿<br>已计划<br>不活跃<br>正在同步<br>已结束<br>已存档 |
+| 符合条件的设备上决策 | 是<br>否 |
 | 报表源 | Target<br>Analytics |
 | 体验编辑器 | 可视<br>基于表单 |
 | 量度类型 | 转换<br>收入<br>参与度 |
@@ -117,16 +119,10 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 
 单击以下标题之一，可切换活动是按照所选标题的升序或降序方式列出。
 
-* 活动名称
-* 活动类型
+* 类型
+* 名称
 
 ![活动列表升序](/help/c-activities/assets/activities_list_ascending.png)
-
-## 提示和技巧 {#section_F77F30A246A14B538D9363B7F3639F97}
-
-通过了解各种功能的更多信息以充分利用 Adobe Target，并了解为什么要尝试这样做。“提示和技巧”功能提供了指向视频、用例、博客、文档等的链接。
-
-“提示和技巧”功能会定期显示在“活动”列表页面上。当阅读或取消提示后，在下一个提示可用之前，该提示不会再次显示。您可以通过单击“帮助”图标 >“[!UICONTROL 禁用每日提示]”，选择禁止显示所有提示。
 
 ![禁用每日提示](/help/c-activities/assets/tip-disable-new.png)
 

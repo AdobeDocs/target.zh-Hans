@@ -5,10 +5,10 @@ title: 即将发布的版本中包含哪些新增功能？
 feature: 发行说明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 22%
+source-wordcount: '458'
+ht-degree: 20%
 
 ---
 
@@ -28,37 +28,27 @@ ht-degree: 22%
 
 ## Target Standard/Premium 21.4.1（2021 年 4 月 19 日） 
 
-此版本包含以下新增功能。 括号中的问题编号供 [!DNL Adobe] 内部使用。
+此版本包含以下新增功能和增强功能。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
 | 功能 | 详细信息 |
 | --- | --- |
-| 对at.js的设备上决策支持 | 设备上决策允许营销人员和开发人员在用户浏览器上以接近零的延迟进行试验和个性化。 |
+| 对at.js的设备上决策支持 | 设备上决策允许营销人员和开发人员在用户浏览器上以接近零的延迟进行试验和个性化。<br>有关详细信息， [请参阅at.js的设备上决策。](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![基](/help/assets/premium.png) 于PremiumList的实体筛选规则运算符 | [!DNL Target Recommendations] 支持新的基于列表的运算符，用于实体筛选规则。(TGT-39234)<br>新添加的运算符包括：<br><ul><li>包含在列表中</li><li>未包含在列表中</li><li>列表包含</li><li>列表不包含</li><li>列表包含</li><li>列表不包含</li></ul>有关详细信息，请参阅[使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)中的“可用运算符”。 |
 
-此版本包含以下增强、修复和更改。
+此版本包含以下修复。
 
 * 修复了将活动更改为[!UICONTROL 所有受众]后，访客无法同步的问题。 (TGT-40259)
 * 修复了在[!UICONTROL Automated Personalization]活动中的不同位置使用优惠时，即使启用了[!UICONTROL 禁止重复]选项，也阻止复制的问题。 (TGT-39567)
 * 修复了阻止正确加载[!UICONTROL Administration] > [!UICONTROL Scene7配置]页面的问题。 (TGT-39918)
 * 修复了导致属性映射到错误工作区的问题。 (TGT-39869)
-* [!DNL Target Recommendations] 支持新的基于列表的运算符，用于实体筛选规则。(TGT-39234)
-
-   新添加的运算符包括：
-
-   * 包含在列表中
-   * 未包含在列表中
-   * 列表包含
-   * 列表不包含
-   * 列表包含
-   * 列表不包含
-
 * 修复了在创建推荐排除时更改环境后请求失败时导致无限加载的问题。 (TGT-39948)
 
 ## at.js版本2.5.0（2021年4月19日）
 
-此版本的at.js包含以下增强功能：
+此版本的at.js包含以下增强和更改：
 
-* 对at.js的设备上决策支持
-* 预览链接支持Automated Personalization活动
+* [对at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 的设备上决策支持
+* [预览](/help/c-activities/c-activity-qa/activity-qa.md) 链接支持Automated Personalization活动
 
 此版本还删除了对Microsoft Internet Explorer 10及更高版本的支持。
 

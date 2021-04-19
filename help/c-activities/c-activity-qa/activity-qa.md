@@ -3,14 +3,14 @@ keywords: qa;预览;预览链接；adobe目标;目标
 description: 了解如何使用Adobe Target QA URL轻松执行端到端活动QA，其中包含永不更改的预览链接、可选受众定位和与实时活动数据保持分段的QA报告。
 title: 如何确保活动?
 feature: 活动
+exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 79%
+source-wordcount: '1546'
+ht-degree: 78%
 
 ---
-
 
 # 活动 QA {#activity-qa}
 
@@ -21,6 +21,9 @@ ht-degree: 79%
 通过活动 QA，您能够在启动 Target 活动之前，对其进行全面的测试。活动 QA 具备以下功能：
 
 * 可与团队成员共享链接，不论体验或活动是否进行了更新，这些链接永远不会更改，也不需要重新生成。借助此功能，您可以在整个用户历程中全面测试您的活动。
+
+   在[at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)中添加了对[!UICONTROL Automated Personalization]活动的预览链接的支持。
+
 * 可选择遵守受众条件，在对体验外观进行 QA 时，营销人员可以选择测试定位标准或忽略定位标准，而不一定非要满足受众条件.
 * 可捕获 QA 报表，以便营销人员能够确认量度可按预期递增，并且 QA 报表数据可与生产报表（对于非 A4T 报表）分开保存。
 * 能够单独或与满足投放标准(页面/目标请求/受众)的其他实时活动一起预览体验。
@@ -32,7 +35,7 @@ ht-degree: 79%
 
 ## 访问和共享 QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. 在活动的“[!UICONTROL 概述]”页面（适用于除自动个性化以外的所有其他活动类型）中，单击&#x200B;**[!UICONTROL 活动 QA]** 链接。
+1. 从活动的[!UICONTROL 概述]页面，单击&#x200B;**[!UICONTROL 活动QA]**&#x200B;链接。
 
    ![“活动 QA”链接](assets/qa_link.png)
 

@@ -5,9 +5,9 @@ title: 当前版本中包含哪些新增功能？
 feature: 发行说明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '632'
 ht-degree: 35%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 35%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| 对at.js的设备上决策支持 | 设备上决策允许营销人员和开发人员在用户浏览器上以接近零的延迟进行试验和个性化。<br>有关详细信息， [请参阅at.js的设备上决策。](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| 对at.js<br>的设备上决策支持（宣布日期） | 设备上决策允许营销人员和开发人员在用户浏览器上以接近零的延迟进行试验和个性化。<br>有关详细信息， [请参阅at.js的设备上决策。](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
 | ![基](/help/assets/premium.png) 于PremiumList的实体筛选规则运算符 | [!DNL Target Recommendations] 支持新的基于列表的运算符，用于实体筛选规则。(TGT-39234)<br>新添加的运算符包括：<br><ul><li>包含在列表中</li><li>未包含在列表中</li><li>列表包含</li><li>列表不包含</li><li>列表包含</li><li>列表不包含</li></ul>有关详细信息，请参阅[使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)中的“可用运算符”。 |
 
 此版本包含以下修复。
@@ -41,7 +41,7 @@ ht-degree: 35%
 * 修复了导致属性映射到错误工作区的问题。 (TGT-39869)
 * 修复了在创建推荐排除时更改环境后请求失败时导致无限加载的问题。 (TGT-39948)
 
-## at.js版本2.5.0（2021年4月19日）
+## at.js版本2.5.0（宣布日期）
 
 此版本的at.js包含以下增强和更改：
 

@@ -5,9 +5,9 @@ title: 在哪里可以视图文档更新以进行目标?
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: c92d17d23f0eed6b32ec6ad6218c0d8824ef365b
 workflow-type: tm+mt
-source-wordcount: '4144'
+source-wordcount: '4155'
 ht-degree: 29%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 29%
 |  | [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 添加了以下信息：<ul><li>设备上决策伪像成功</li><li>设备上决策伪像失败</li></ul> |
 |  | [活动](/help/c-activities/activities.md) | 添加了有关设备决策的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.5.0 的信息。 |
+|  | [不通过标签管理器实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | 添加了有关设备决策的信息。 |
 |  | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 在[at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)中添加了对[!UICONTROL Automated Personalization]活动的预览链接的支持。 |
 |  | [使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 添加了有关以下新运算符的信息：<ul><li>包含在列表中</li><li> 未包含在列表中</li><li>列表包含</li><li>列表不包含</li><li>列表包含</li><li>列表不包含</li></ul> |
 |  | [Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud服务和* 管理指南) | 添加了有关“会话ID”的其他信息。 |

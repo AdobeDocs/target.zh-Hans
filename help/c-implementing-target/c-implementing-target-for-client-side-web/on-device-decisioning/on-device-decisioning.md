@@ -6,14 +6,18 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3506'
 ht-degree: 7%
 
 ---
 
 # at.js的设备上决策
+
+>[!NOTE]
+>
+>即将推出的[at.js 2.5.0版](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)将提供设备上决策。 即将宣布的日期。
 
 从版本2.5.0开始，at.js优惠设备上决策。 设备上决策允许您在浏览器上缓存[A/B测试](/help/c-activities/t-test-ab/test-ab.md)和[体验定位](/help/c-activities/t-experience-target/experience-target.md)(XT)活动，以执行内存中决策，而无需对[!DNL Adobe Target]边缘网络发出阻塞网络请求。
 
@@ -165,7 +169,7 @@ JSON规则对象包含元数据，用于通知at.jsmbox是运行服务器端活�
 | --- | --- |
 | 3 | 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 库会同步加载，并隐藏文档正文。<br>也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。 |
-| 1 | at.js库隐藏正文以防止闪烁。 |
+| 3 | at.js库隐藏正文以防止闪烁。 |
 | 4 | 会向Adobe Target Edge Network发出页面加载请求，包括所有已配置的参数，如(ECID、客户ID、自定义参数、用户用户档案等)。 |
 | 5 | 同时，at.js请求从最近的Akamai CDN检索JSON规则对象到访客。 |
 | 6 | (Adobe Target Edge Network)用户档案脚本执行，然后输入到用户档案存储中。 用户档案存储从受众库请求限定的受众(例如，从[!DNL Adobe Analytics]、[!DNL Adobe Audience Manager]等共享的受众)。 |

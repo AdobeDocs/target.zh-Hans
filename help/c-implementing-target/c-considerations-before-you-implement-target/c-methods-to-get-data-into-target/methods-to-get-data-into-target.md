@@ -2,7 +2,7 @@
 keywords: 实施;设置;设定;页面参数;tomcat;url 编码;页面内配置文件属性;mbox 参数;页面内配置文件属性;脚本配置文件属性;批量配置文件更新 API;单个文件更新 API;客户属性;数据提供程序
 description: 将数据导入目标(页面参数、用户档案属性、脚本用户档案属性、数据提供商、单个和批量用户档案更新API、客户属性)。
 title: 如何将数据导入目标?
-feature: 实施
+feature: Implementation
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt

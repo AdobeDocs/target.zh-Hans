@@ -2,7 +2,7 @@
 keywords: 发行说明；新增功能；发行；更新；更新；发行；增强；修复；错误修复；更新
 description: 了解 Adobe Target 当前版本包含的新增功能、增强功能和修复，包括 SDK、API 和 JavaScript 库。
 title: 当前版本中包含哪些新增功能？
-feature: 发行说明
+feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431

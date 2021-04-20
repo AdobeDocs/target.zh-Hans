@@ -2,7 +2,7 @@
 keywords: 已知问题；已解决问题；发行说明；错误；问题；修复
 description: 查找有关Adobe Target中已知问题的信息，包括解决方法信息。 问题解决后，它们将移至“已解决”部分。
 title: 在哪里可以找到有关已知问题和已解决问题的信息？
-feature: 发行说明
+feature: Release Notes
 translation-type: tm+mt
 source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt

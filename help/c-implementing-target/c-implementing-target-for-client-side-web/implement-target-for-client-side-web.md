@@ -3,7 +3,7 @@ keywords: 实施；实施；at.js;adobe experience platform web sdk;aep web sdk
 description: 了解如何使用Adobe Experience Platform Web SDK(AEP Web SDK)或目标 at.js JavaScript库实施用于客户端Web的Adobe Target。
 title: 如何为客户端Web实施目标
 feature: at.js
-role: 开发人员
+role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

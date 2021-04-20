@@ -2,7 +2,7 @@
 keywords: qa;预览;预览链接；adobe目标;目标
 description: 了解如何使用Adobe Target QA URL轻松执行端到端活动QA，其中包含永不更改的预览链接、可选受众定位和与实时活动数据保持分段的QA报告。
 title: 如何确保活动?
-feature: 活动
+feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
 source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3

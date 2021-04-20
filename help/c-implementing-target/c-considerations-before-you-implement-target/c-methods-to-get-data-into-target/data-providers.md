@@ -2,7 +2,7 @@
 keywords: 实现；实现；设置；设置；数据提供器
 description: 使用数据提供者将数据导入目标。
 title: 如何使用数据提供者将数据导入目标?
-feature: 实施
+feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt

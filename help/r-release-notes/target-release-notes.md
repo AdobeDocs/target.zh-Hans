@@ -2,7 +2,7 @@
 keywords: 发行说明；发行；更新；未来发行；增强；新增功能；修复；更新；预发行
 description: 了解即将发布的Adobe Target版本（包括SDK、API和JavaScript库）中包含的新功能、增强和修复。
 title: 即将发布的版本中包含哪些新增功能？
-feature: 发行说明
+feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431

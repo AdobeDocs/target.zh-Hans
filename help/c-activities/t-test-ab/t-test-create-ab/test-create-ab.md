@@ -2,7 +2,7 @@
 keywords: 创建A/B;A/B测试；A/B活动；新建a/b活动；创建a/b
 description: 了解如何在启用目标的页面上直接使用Adobe Target中的可视体验书写器(VEC)创建A/B测试活动。
 title: 如何创建A/B测试？
-feature: A/B 测试
+feature: A/B Tests
 translation-type: tm+mt
 source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt

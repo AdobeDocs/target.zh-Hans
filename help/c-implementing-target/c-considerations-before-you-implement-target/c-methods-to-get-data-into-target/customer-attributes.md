@@ -2,7 +2,7 @@
 keywords: 实现；实现；设置；设置；客户属性
 description: 使用客户属性将数据导入目标。
 title: 如何使用客户属性将数据导入目标?
-feature: 实施
+feature: Implementation
 role: Developer
 exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt

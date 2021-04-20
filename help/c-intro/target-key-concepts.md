@@ -2,7 +2,7 @@
 keywords: 概述和参考；活动类型；简介
 description: 了解Adobe Target的基础知识。 本文向您介绍目标、其活动类型和其他功能。
 title: 如何使用目标?
-feature: 概述
+feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9

@@ -3,7 +3,7 @@ keywords: 概述和参考;WebKit
 description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
 title: 在哪里可以找到mbox.js Cookies的相关信息？
 feature: at.js
-role: 开发人员
+role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

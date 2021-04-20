@@ -2,7 +2,7 @@
 keywords: 实现；实现；设置；设置；脚本用户档案属性
 description: 使用脚本目标属性将数据导入用户档案。
 title: 如何使用脚本目标属性将数据导入用户档案?
-feature: 实施
+feature: Implementation
 role: Developer
 exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt

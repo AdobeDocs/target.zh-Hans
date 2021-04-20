@@ -2,7 +2,7 @@
 keywords: 疑难解答；量度差异；常见问题解答；报告；新访客；新访客；返回访客；返回访客；返回访问；新访问
 description: 浏览有关Adobe Target 报告的常见问题解答列表。
 title: 在哪里可以找到有关目标报告的问题解答？
-feature: 报表
+feature: Reports
 translation-type: tm+mt
 source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt

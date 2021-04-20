@@ -3,7 +3,7 @@ keywords: mbox.js 高级设置;客户端;服务器域;xdomain;压缩等级;客�
 description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
 title: 如何配置目标 mbox.js库？
 feature: at.js
-role: 开发人员
+role: Developer
 exl-id: 17821e60-2692-49af-a225-764bd1b6aec1
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

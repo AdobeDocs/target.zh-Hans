@@ -3,7 +3,7 @@ keywords: 实施;mbox.js;DOM 操作库;target.js;可视化体验编辑器;iFrame
 description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
 title: 目标 mbox.js库具有哪些功能？
 feature: at.js
-role: 开发人员
+role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

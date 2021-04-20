@@ -2,7 +2,7 @@
 keywords: 实现目标；实现；实现at.js；标签管理器；设备上决策；设备上决策
 description: 了解如何指定设置（帐户详细信息、实现方法等） 来实施Adobe Target at.js库，而无需使用标签管理器。
 title: 我是否可以在没有标签管理器的情况下实施目标?
-feature: 实施服务器端
+feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt

@@ -3,7 +3,7 @@ keywords: 订单确认;orderConfirmPage
 description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
 title: 如何使用mbox.js创建订单确认mbox?
 feature: at.js
-role: 开发人员
+role: Developer
 exl-id: 952c2d1b-1ee8-4e9b-bce3-1c439127bb9b
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

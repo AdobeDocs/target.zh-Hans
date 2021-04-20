@@ -3,7 +3,7 @@ keywords: Target Standard;Recommendations;目标 Premium;Automated Personalizati
 description: 了解 Adobe Target Standard 和 Adobe Target Premium 的基础知识。Target Premium 包含标准产品中不提供的高级功能。
 landing-page-description: 个性化客户体验以最大限度地提升网站和移动站点、应用程序、社交媒体和其他数字渠道的收入。
 title: 什么是 Target？
-feature: 概述
+feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
 source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97

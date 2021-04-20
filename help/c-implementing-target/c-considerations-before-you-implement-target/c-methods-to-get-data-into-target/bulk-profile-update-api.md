@@ -2,7 +2,7 @@
 keywords: 实现；实现；设置；设置；批量用户档案更新
 description: 使用批量用户档案更新API将数据导入目标。
 title: 如何使用批量用户档案更新API将数据导入目标?
-feature: 实施
+feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt

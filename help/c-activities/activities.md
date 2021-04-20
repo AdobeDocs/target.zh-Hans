@@ -2,7 +2,7 @@
 keywords: 活动列表;活动;活动;活动类型；编辑活动;活动操作；活动属性；活动列表过滤器；活动限制；个性化；个性化
 description: 了解Adobe Target中的活动如何让您根据特定受众个性化内容并测试页面设计
 title: 如何使用目标个性化内容和测试页面设计？
-feature: 活动
+feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
 source-git-commit: e0a05d024170f819a417e50938c9765327f28b49

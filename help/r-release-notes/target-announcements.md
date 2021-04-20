@@ -2,7 +2,7 @@
 keywords: 公告；技能创建者；开发者聊天；咖啡休息；事件;forrester;gartner;webinar
 description: 阅读公告并注册Adobe Target事件，包括Skill Builder会话、开发人员和产品经理聊天、网络研讨会等。
 title: 在哪里可以找到目标公告和事件?
-feature: 发行说明
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

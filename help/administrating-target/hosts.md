@@ -2,8 +2,8 @@
 keywords: 主机；主机；主机组；疑难解答；最佳实践；ubox；重定向；重定向；白名单；允许列表；黑名单；阻止列表
 description: 了解如何在Adobe Target中组织网站和预制环境，以便轻松管理和分离报告。
 title: 什么是主持人以及如何使用他们？
-feature: 管理和配置
-role: 管理员
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

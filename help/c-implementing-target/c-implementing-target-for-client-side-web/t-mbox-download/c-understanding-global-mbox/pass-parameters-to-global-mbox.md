@@ -3,7 +3,7 @@ keywords: 全局 mbox 参数;targetPageParams;查询字符串;数组;JSON;DTM;�
 description: 了解如何使用targetPageParams函数将其他定位或上下文信息传递到Adobe Target全局mbox。
 title: 如何将参数传递给全局mbox?
 feature: at.js
-role: 开发人员
+role: Developer
 translation-type: tm+mt
 source-git-commit: a638da983bf39361be36a9cd68f3ef9f7eb39013
 workflow-type: tm+mt

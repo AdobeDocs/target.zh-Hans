@@ -2,7 +2,7 @@
 keywords: 响应式；移动视区；视区；设备；移动；响应式Web设计；rwd
 description: 移动视区可帮助您了解Adobe Target活动在各种尺寸的屏幕上的显示效果。 查找一列表流行的设备视口大小和分辨率。
 title: 如何使用移动视区实现响应式体验？
-feature: 可视化体验编辑器 (VEC)
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
 source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt

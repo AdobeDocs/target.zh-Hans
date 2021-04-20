@@ -2,7 +2,7 @@
 keywords: VEC;可视化体验编辑器;VEC;iframe;扩展;浏览器
 description: 了解为何某些网站可能无法在Visual Experience Composer(VEC)中可靠打开。 通过VEC Helper浏览器扩展，您可以在VEC中可靠地加载网站。
 title: 如何使用Visual Experience Composer(VEC)Helper Extension?
-feature: 可视化体验编辑器 (VEC)
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
 source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt

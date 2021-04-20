@@ -2,7 +2,7 @@
 keywords: 实现；实现；设置；设置；单个用户档案更新
 description: 使用单个用户档案更新API将数据导入目标。
 title: 如何使用单个用户档案更新API将数据导入目标?
-feature: 实施
+feature: Implementation
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt

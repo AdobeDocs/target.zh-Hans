@@ -2,7 +2,7 @@
 keywords: 文档.write;目标；实现；实现目标;dtm；动态标签管理；at.js;mbox.js;目标.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
 description: 通过在网页上引用目标库（at.js或mbox.js）来实施Adobe Target。
 title: 了解 Target JavaScript 库
-feature: 实施
+feature: Implementation
 translation-type: tm+mt
 source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 keywords: 响应令牌；令牌；插件；插件；at.js；响应
 description: 了解如何在Adobe Target中使用响应令牌输出特定信息以用于调试和与第三方系统（如Clicktale）集成。
 title: 什么是响应令牌，我如何使用它们？
-feature: 管理和配置
-role: 管理员
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 keywords: 工作区;管理属性;权限;产品配置;产品配置文件;角色;项目
 description: 了解如何创建单独的工作区(产品用户档案)，然后为用户分配针对各个页面、属性或网站的不同角色和权限。
 title: 什么是企业用户权限，我如何使用这些权限？
-feature: 管理和配置
-role: 管理员
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

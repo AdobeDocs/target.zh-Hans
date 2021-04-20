@@ -3,7 +3,7 @@ keywords: mbox.js 更改;mbox.js 版本
 description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
 title: mbox.js的每个版本包含什么？
 feature: at.js
-role: 开发人员
+role: Developer
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
 translation-type: tm+mt
 source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8

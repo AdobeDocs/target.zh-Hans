@@ -2,7 +2,7 @@
 keywords: 实现；实现；设置；设置；页面参数
 description: 使用页面内目标属性将数据导入用户档案。
 title: 如何使用页面内目标属性将数据导入用户档案?
-feature: 实施
+feature: Implementation
 role: Developer
 exl-id: c6000720-a862-4e9c-96a5-055963a79544
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: Adobe Target中使用的不同术语表示什么？ 查找常用术语的定义，帮助您获得更多的目标。
 title: 在哪里可以找到在目标中使用的术语和定义？
-feature: 概述
+feature: Overview
 translation-type: tm+mt
 source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt

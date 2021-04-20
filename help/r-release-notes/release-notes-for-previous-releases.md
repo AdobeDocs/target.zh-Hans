@@ -2,7 +2,7 @@
 keywords: 发行说明
 description: 视图一列表Adobe Target早期版本中包含的功能、增强和修复。
 title: 先前版本包含哪些功能？
-feature: 发行说明
+feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
 source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12

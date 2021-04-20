@@ -2,7 +2,7 @@
 keywords: 目标文档更改日志；文档更新；新主题；编辑；更新；更新
 description: 随时更新Adobe Target产品文档中的重要增补和更改。
 title: 在哪里可以视图文档更新以进行目标?
-feature: 发行说明
+feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431

@@ -2,7 +2,7 @@
 keywords: AB;A/B;AB...n；样本大小；样本大小计算器；自动分配；自动分配；计算器
 description: 了解运行A/B测试的时间。 在Adobe Target中成功进行A/B测试需要足够的访客（样本大小）来改进您的转化率。
 title: 我应运行A/B测试多久？
-feature: A/B 测试
+feature: A/B Tests
 translation-type: tm+mt
 source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
 workflow-type: tm+mt

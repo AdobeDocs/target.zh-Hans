@@ -2,7 +2,7 @@
 keywords: 实现；实现；设置；设置；页面参数
 description: 使用页面参数将数据导入目标。
 title: 如何使用页面参数将数据导入目标?
-feature: 实施
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 translation-type: tm+mt

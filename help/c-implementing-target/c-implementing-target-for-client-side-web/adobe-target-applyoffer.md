@@ -3,7 +3,7 @@ keywords: adobe.target.applyOffer;applyOffer;applyoffer;申请选件;at.js;函�
 description: 使用Adobe Target at.js JavaScript库的adobe.目标.applyOffer()函数应用响应内容。
 title: 如何使用adobe.目标.applyOffer()函数？
 feature: at.js
-role: 开发人员
+role: Developer
 translation-type: tm+mt
 source-git-commit: 3a71ae60a89a802ca469fa7acd583157221bdeee
 workflow-type: tm+mt

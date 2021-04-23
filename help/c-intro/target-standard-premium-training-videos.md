@@ -1,18 +1,18 @@
 ---
-keywords: 培训视频；youtube；视频；视频培训；教程；视频
-description: 观看培训视频可帮助您最有效地使用 Target Standard 和 Target Premium。
-title: 在哪里可以找到目标培训视频？
-feature: Overview
+keywords: 培训视频；youtube；视频；视频；视频培训；教程；视频
+description: 观看培训视频，帮助您充分利用 [!DNL Target] Standard and [!DNL Target] 高级。
+title: 在哪里可以找到 [!DNL Target] 培训视频？
+feature: 概述
+exl-id: 649eaf48-210c-4192-b727-53f0d146a1e2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 63%
+source-wordcount: '161'
+ht-degree: 44%
 
 ---
 
-
-# Adobe Target Standard 和 Premium 的培训视频{#training-videos-for-adobe-target-standard-and-premium}
+# Adobe [!DNL Target] Standard和Premium的培训视频
 
 观看培训视频可帮助您最有效地使用 Target Standard 和 Target Premium。
 
@@ -26,18 +26,18 @@ ht-degree: 63%
 * 实施和故障诊断
 * 营销用例
 
-## Adobe Target 帮助中的内嵌视频 {#section_53C618334E974FB89B3F093DEF789CCB}
+## 嵌入Adobe [!DNL Target]帮助{#section_53C618334E974FB89B3F093DEF789CCB}
 
 本指南的相关主题中内嵌有一些培训视频。单击视频图像可在不离开帮助页面的情况下播放视频。
 
-## Adobe Target - 教程和视频
+## Adobe[!DNL Target] -Tutorials和视频
 
-[Adobe Target·Experience League](https://guided.adobe.com/#recommended/solutions/target)页面上重点介绍目标功能的操作方法视频和教程集合。
+在[Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target)页面上突出显示目标功能的操作方法视频和教程的集合。
 
 ![Experience League 视频](/help/c-intro/assets/experience-league.png)
 
-## Adobe Target 教程 {#tutorials}
+## Adobe[!DNL Target]Tutorials{#tutorials}
 
-[Adobe TargetTutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)页面提供有关[!DNL Target]概念和工具的介绍视频。
+[Adobe TargetTutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)页面上提供了[!DNL Target]概念和工具的介绍。
 
 ![Adobe Target 教程](/help/c-intro/assets/adobe-target-tutorials-new.png)

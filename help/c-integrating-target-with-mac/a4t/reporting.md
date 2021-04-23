@@ -1,18 +1,18 @@
 ---
 keywords: analytics for 目标;a4t;analytics as 报告 source;analytics
-description: 了解如何使用Analytics进行目标(A4T)。 A4T提供对使用Analytics量度和受众区段的目标活动的Analytics报表的访问。
+description: 了解如何对使用Analytics量度和受众区段的 [!DNL Target] (A4T). A4T provides access to Analytics reports for [!DNL Target] 活动使用Analytics。
 title: 如何在A4T中使用报告?
 feature: Analytics for Target (A4T)
+exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 translation-type: tm+mt
-source-git-commit: 7b2d5251275f42da66d09370501d0882671d5cca
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '678'
 ht-degree: 28%
 
 ---
 
-
-# A4T 报表{#a-t-reporting}
+# A4T 报表
 
 使用[!DNL Adobe Analytics]作为[!DNL Adobe Target](A4T)的报告源，您可以访问[!DNL Target]活动的[!DNL Analytics]报表。
 
@@ -57,7 +57,7 @@ ht-degree: 28%
 
 有关详细信息和示例，请打开[分析和目标:分析](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教程的最佳实践，由Adobe Experience League提供。
 
-## Target 中的报表 {#section_C0D1F17F88374B6690BF904D7B83B42E}
+## [!DNL Target] {#section_C0D1F17F88374B6690BF904D7B83B42E}中的报告
 
 当[!DNL Analytics]用作报告源时，[!DNL Target]中的报表显示从[!DNL Analytics]收集的数据。 该报告与其他[!DNL Target]报告有所不同：
 
@@ -76,7 +76,7 @@ ht-degree: 28%
 
 在活动创建期间，您必须在“[!UICONTROL 设置]”页面中指定活动的目标。此目标将作为报表的默认量度并且在量度选择器中始终列为第一个选项。您将无法像设置常规 Target 活动的报表那样选择报表的区段。[!DNL Analytics]的测试使用[!DNL Adobe Analytics]段，而不是[!DNL Target]受众。
 
-## 为目标(A4T){#section_33A97A691F3A45D497DAF57A844388F0}的Analytics执行脱机计算
+## 正在为Adobe Target(A4T){#section_33A97A691F3A45D497DAF57A844388F0}的Analytics执行脱机计算
 
 您可以为 A4T 执行离线计算，但需要在 [!DNL Analytics] 中完成数据导出步骤。
 

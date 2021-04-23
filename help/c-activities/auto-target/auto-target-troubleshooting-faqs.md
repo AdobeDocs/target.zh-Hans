@@ -1,20 +1,20 @@
 ---
 keywords: 自动目标；定位；流量分配；常见问题；常见问题解答；疑难解答；故障排除；流量
-description: 浏览有关Adobe Target自动目标活动的疑难解答主题和常见问题解答。
+description: 浏览有关Adobe Target中自动目标活动的疑难解答主题和常见问题解答。
 title: 如何对自动目标活动进行疑难解答？
-feature: Auto-Target
+feature: 自动定位
+exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 68%
 
 ---
 
+# ![PREMIUMA自动](/help/assets/premium.png) 目标疑难解答和常见问题解答
 
-# ![Premiuma自](/help/assets/premium.png) 动目标疑难解答和常见问题解答
-
-有关[!UICONTROL [!DNL Adobe Target]中自动目标]的疑难解答和常见问题(FAQ)。
+关于[!DNL Adobe Target]中[!UICONTROL 自动目标]的疑难解答和常见问题解答(FAQ)。
 
 ## 自动定位常见问题解答 {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
@@ -33,13 +33,13 @@ ht-degree: 68%
 
 * 尽量不要在活动运行的过程中对体验做出重大更改。
 
-### 是否建议在构建模型之前，将自动目标与90(Control)/10（目标）拆分一起使用？
+### 是否建议在构建模型之前，将自动[!DNL Target]与90(Control)/10(Targeted)拆分一起使用？
 
 您的最佳流量分配分配取决于您想要完成的任务。
 
-如果您的目标是尽可能个性化流量，您可以在活动的整个生命周期中保持90%的目标和10%的控制。 如果您的目标是运行一个比较个性化算法与控制效果的实验，那么50/50分割最适合活动的生命周期。
+如果您的目标是尽可能个性化流量，您可以在活动的整个生命周期中坚持90%的目标和10%的控制。 如果您的目标是运行一个比较个性化算法与控制效果的实验，那么50/50分割最适合活动的生命周期。
 
-最佳实践是在活动的生命周期内保持流量分配分离，这样访客就不会在目标体验和控制体验之间切换。
+最佳实践是在活动的生命周期内保持流量分配拆分，这样访客就不会在目标体验和控制体验之间切换。
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
@@ -72,15 +72,15 @@ No, check marks for model generation show only the models built to date. There's
 
 ### 我需要等待多久才能构建模型？{#how-long}
 
-在[!UICONTROL 自动目标]活动中建立模型所花费的时间通常取决于到所选活动位置的流量以及与您活动成功量度相关的转化率。
+模型在[!UICONTROL 自动目标]活动中构建所需的时间通常取决于到所选活动位置的流量以及与您活动成功量度关联的转化率。
 
-[!UICONTROL Auto-Target] 不会尝试为特定体验构建个性化模型，直到该体验至少有50次转化。此外，如果所构建的模型质量不足（通过离线评估保留“测试”数据，使用[称为AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的度量来确定），则不会使用该模型以个性化方式服务流量。
+[!UICONTROL Auto-Target] 不会尝试为给定体验构建个性化模型，直到该体验至少转化了50次。此外，如果所构建的模型质量不足（通过离线评估保留“测试”数据，使用[称为AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的量度来确定），则不会使用该模型以个性化方式服务流量。
 
-还有一些关于[!UICONTROL 自动目标]的模型构建的注意事项：
+还有一些建议要牢记[!UICONTROL 自动目标]的模型构建：
 
-* 当活动处于实时状态时，[!UICONTROL 自动目标]在尝试构建模型时考虑最多45天的随机服务数据（即控制流量，以及我们的算法包含的一些额外随机服务数据）。
-* 当[!UICONTROL 每次访问的收入]是您的成功指标时，这些活动通常需要更多数据来构建模型，因为与转化率相比，访问收入中通常存在更高的数据差异。
-* 由于模型是基于每个体验构建的，因此将一个体验替换为另一个体验意味着必须为新体验收集足够的流量（即至少50个转化率），然后才能重新构建个性化模型。
+* 当活动处于实时状态时， [!UICONTROL 自动目标]在尝试构建模型时考虑最多45天随机提供的数据（即控制流量，以及我们算法保留的一些额外随机提供的数据）。
+* 当[!UICONTROL 每次访问的收入]是您的成功量度时，由于与转化率相比，访问收入中通常存在较高的数据差异，因此这些活动通常需要更多数据来构建模型。
+* 由于模型是基于每个体验构建的，因此将一种体验替换为另一种体验意味着必须为新体验收集足够的流量（即至少50次转换），然后才能重新构建个性化模型。
 
 ### 我的活动中已构建一个模型。对该体验的访问是否为个性化的？
 
@@ -98,9 +98,9 @@ No, check marks for model generation show only the models built to date. There's
 
 有关更多信息，请参阅[使用特定体验作为控制](/help/c-activities/t-automated-personalization/experience-as-control.md)。
 
-### 我是否可以在自动目标活动的中途更改目标度量？{#change-metric}
+### 我是否可以在自动目标活动的中途更改目标量度？{#change-metric}
 
-我们不建议您在活动中途更改目标量度。 虽然可以在使用[!DNL Target] UI的活动中更改目标度量，但您应始终开始新活动。 如果您在活动中更改目标量度后，该量度运行，我们不担保会发生什么情况。
+我们不建议您在活动中途更改目标量度。 尽管在使用[!DNL Target] UI的活动期间可以更改目标量度，但您应始终开始新活动。 我们不保证在目标量度运行后更改活动中的目标量度会发生什么情况。
 
 本建议适用于使用[!DNL Target]或[!DNL Analytics](A4T)作为报告源的[!UICONTROL 自动分配]、[!UICONTROL 自动目标]和[!UICONTROL Automated Personalization]活动。
 
@@ -108,11 +108,11 @@ No, check marks for model generation show only the models built to date. There's
 
 不建议对[!UICONTROL 自动目标]活动使用[!UICONTROL 重置报告数据]选项。 尽管它删除了可见的报告数据，但此选项并不删除[!UICONTROL 自动目标]模型中的所有培训记录。 对于[!UICONTROL 自动目标]活动，请不要使用[!UICONTROL 重置报告数据]选项，而是新建活动并取消激活原始活动。 (注：本指南还适用于[!UICONTROL 自动分配]和[!UICONTROL Automated Personalization]活动。)
 
-### 如果我从自动目标活动中删除单个体验，会发生什么情况？
+### 如果我从自动目标活动中删除单个体验，会出现什么情况？
 
-[!DNL Target] 为每个体验构建一个模型，因此删除一 [!DNL Target] 种体验方式只会构建一个较少的模型，不会影响其他体验的模型。
+[!DNL Target] 为每个体验构建一个模型，因此删除一个体 [!DNL Target] 验意味着只构建一个较少的模型，而不会影响其他体验的模型。
 
-例如，假设您有一个[!UICONTROL 自动目标]活动，具有8个体验，并且您不喜欢一个体验的性能。 您可以删除该体验，但不会影响其余七个体验的模型。
+例如，假设您有一个[!UICONTROL 自动目标]活动，其中有八个体验，而您不喜欢一个体验的性能。 您可以删除该体验，但不会影响其余七个体验的模型。
 
 ## [!UICONTROL 自动定位]故障诊断 {#section_23995AB813F24525AF294D20A20875C8}
 
@@ -149,4 +149,3 @@ AP 活动产生提升需要四个因素：
 在[!UICONTROL 自动定位]活动中，转化量度（无论是优化目标还是后期目标）发生转化后，用户将会从体验中释放，并且活动会重新开始。
 
 例如，一个活动拥有一个转化量度 (C1) 和一个其他量度 (A1)。A1 依赖于 C1。当访客首次进入活动，并且转化 A1 和 C1 的标准并未实现转化，那么由于成功量度的依赖关系，量度 A1 不会进行转化。如果访客先转化了 C1，然后转化了 A1，则 A1 仍不会实现转化，因为一旦 C1 完成转化，该访客便会被释放。
-

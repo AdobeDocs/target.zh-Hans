@@ -1,18 +1,18 @@
 ---
 keywords: 时间范围;开始日期;结束日期;开始/结束日期;定位时间计划;星期分开;日期分开;分开
-description: 了解如何使用开始/结束日期和时间来目标在特定时间段内访问您网站的用户。 您还可以设置“分周”和“分日”选项。
-title: 我是否可以目标在特定时间访问我网站的访客?
-feature: Audiences
+description: 了解如何使用开始/结束日期和时间来目标在特定时间范围内访问您网站的用户。 您还可以设置“分周”和“分日”选项。
+title: 我是否可以 [!DNL Target] 在特定时间访问我网站的访客?
+feature: 受众
+exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
-
-# 期限{#time-frame}
+# 时间范围
 
 您可以添加开始/结束日期和时间来定位在特定期限内访问您网站的用户。您也可以设置“将星期与日期分开”选项来为受众定位创建循环模式。
 

@@ -1,18 +1,18 @@
 ---
 keywords: 定位;受众;报表;成功量度
-description: 了解如何在Adobe Target选择使用户有资格享受报告受众的成功量度。
-title: 能否将报告受众应用于成功量度？
-feature: Success Metrics
+description: 了解如何在Adobe [!DNL Target] 中选择使用户有资格获得报告受众的成功量度。
+title: 我是否可以将报告受众应用于成功量度？
+feature: 成功量度
+exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 90%
 
 ---
 
-
-# 将报表受众应用于成功量度{#apply-a-reporting-audience-to-a-success-metric}
+# 将报表受众应用于成功量度
 
 可选择一个能够让用户符合报表受众条件的成功量度。
 
@@ -34,4 +34,3 @@ ht-degree: 90%
 要在报表中查看分段，请从活动报表中的“受众”下拉列表中选择所需的受众。
 
 ![](assets/reporting_audience_dropdown.png)
-

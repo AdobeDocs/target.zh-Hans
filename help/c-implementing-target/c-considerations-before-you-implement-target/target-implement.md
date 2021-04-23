@@ -1,18 +1,18 @@
 ---
 keywords: 文档.write;目标；实现；实现目标;dtm；动态标签管理；at.js;mbox.js;目标.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
-description: 通过在网页上引用目标库（at.js或mbox.js）来实施Adobe Target。
-title: 了解 Target JavaScript 库
-feature: Implementation
+description: 在网页上实施Adobe [!DNL Target] by referencing the [!DNL Target] 库（at.js或mbox.js）。
+title: 了解  [!DNL Target] JavaScript 库
+feature: 实施
 translation-type: tm+mt
-source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '476'
 ht-degree: 23%
 
 ---
 
 
-# 了解 Target JavaScript 库
+# 了解 [!DNL Target]JavaScript 库
 
 通过在网页上引用[!DNL Adobe Target]库(Adobe Experience Platform Web SDK或at.js)来实施[!DNL Adobe Target]。
 
@@ -20,7 +20,7 @@ ht-degree: 23%
 >
 >mbox.js 库将不再开发。所有客户必须在2021年3月31日之前从mbox.js迁移到at.js或[!UICONTROL Adobe Experience Platform Web SDK]。 有关详细信息，请参阅[从mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)或[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)迁移到at.js。
 
-## 目标 JavaScript库{#section_40117C78C2F84FECAC4F1BA40CC4F171}之间的差异
+## [!DNL Target] JavaScript库{#section_40117C78C2F84FECAC4F1BA40CC4F171}之间的差异
 
 下表说明了[!DNL Target] JavaScript库之间的差异：
 

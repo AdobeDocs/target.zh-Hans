@@ -1,16 +1,16 @@
 ---
 keywords: 受众;选择受众;选取受众;选择器
-description: 该受众决定哪些站点访客输入到您的Adobe Target活动。
-title: 如何在目标A/B活动中选择受众?
-feature: A/B Tests
+description: 该受众决定在您的Adobe [!DNL Target] 活动中输入哪些站点访客。
+title: 如何在a [!DNL Target] A/B受众中选择活动?
+feature: A/B 测试
+exl-id: 281ae227-c593-4b71-ad12-865430b332be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '445'
 ht-degree: 90%
 
 ---
-
 
 # 选择受众
 
@@ -60,7 +60,7 @@ ht-degree: 90%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### 活动工作流——定位(2:14)![教程徽章](/help/assets/tutorial.png)
+### 活动工作流 — 定位(2:14)![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关设置受众的信息。
 

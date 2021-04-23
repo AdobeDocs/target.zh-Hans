@@ -1,18 +1,18 @@
 ---
 keywords: 联系方式;法律;技术支持;支持;服务;职能;账单;反馈
-description: 了解更多资源，帮助您了解Adobe Target的功能以及在您需要目标帮助时如何联系Adobe。
+description: 了解其他资源，帮助您了解Adobe [!DNL Target] 的功能，以及如果您需要 [!DNL Target]的帮助，如何联系Adobe。
 title: 在哪里可以找到资源和联系信息以进行目标?
-feature: Release Notes,Overview
+feature: 发行说明，概述
+exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1231'
 ht-degree: 76%
 
 ---
 
-
-# 资源和联系信息{#resources-and-contact-information}
+# 资源和联系信息
 
 此信息介绍了可帮助您了解 Target 功能以及在需要 Target 帮助时如何联系 Adobe 的其他资源。
 
@@ -32,7 +32,7 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 
 注册信息以及指向以前的 Target 基础知识网络研讨会系列会议的链接，该研讨会系列是由社区为您提供的客户成功网络研讨会系列。
 
-[单击此处可观看过去的会话，或进一步了解即将举办的会话和注册信息](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)。
+[单击此处观看以前的会话或了解有关即将举办的会话和注册信息的更多信息](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)。
 
 
 ## Adobe 客户关怀团队办公时间 {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
@@ -45,11 +45,11 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 
 | 主题/运行时长/录制日期 | 您将了解的内容 |
 |--- |--- |
-| [at.js tips and overview](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br> 59:<br>12 2019年6月26日 | 您将学习：<ul><li>使用at.js的优势</li><li>at.js设置</li><li>闪烁处理</li><li>调试 at.js</li><li>已知问题</li><li>常见问题解答</li></ul>有关详细信息，请参阅[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)。 |
-| [目标高级工](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br>作区27<br>:49 2018年9月4日 | 您将会了解以下内容：<ul><li>创建工作区(产品用户档案)</li><li>创建属性</li><li>添加用户</li><li>更新实施</li></ul>有关更多信息，请参阅[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。 |
-| [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23 2017<br>年12月50 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>有关本指南中的更多信息，请参阅[体验](/help/c-experiences/experiences.md)。 |
+| [at.js提示和概述](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12 <br>2019年6月26日 | 您将了解：<ul><li>使用at.js的优势</li><li>at.js设置</li><li>闪烁处理</li><li>调试 at.js</li><li>已知问题</li><li>常见问题解答</li></ul>有关详细信息，请参阅[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)。 |
+| [目标 Premium Workspaces](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br> 27:<br>49 2018年9月4日 | 您将会了解以下内容：<ul><li>创建工作区(产品用户档案)</li><li>创建属性</li><li>添加用户</li><li>更新实施</li></ul>有关更多信息，请参阅[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。 |
+| [Visual Experience Composer(VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23 2017<br>年12月 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>有关本指南中的更多信息，请参阅[体验](/help/c-experiences/experiences.md)。 |
 | [Adobe Target:分析/目标集成(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33 2018<br>年1月 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
-| [at.js:优势和实施最佳](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>做法26:43<br> 2018年4月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul>有关本指南中的更多信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
+| [at.js:优势和实施最佳实践](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43 2018<br>年4月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul>有关本指南中的更多信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
 
 >[!NOTE]
 >
@@ -65,9 +65,9 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 
 如果您在使用 Target 时遇到问题或存在疑问，解决办法有以下几种
 
-如有疑问，您可以向[Experience Cloud社区](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)的Adobe Target专家咨询，或在Twitter上通过[@AdobeExpCare](https://twitter.com/adobeexpcare)向我们咨询。
+有关问题，您可以向[Experience Cloud社区](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)中的Adobe Target专家咨询，或在Twitter上通过[@AdobeExpCare](https://twitter.com/adobeexpcare)与我们联系。
 
-如果遇到技术问题或要记录错误，您可以联系客户关怀。要通过电话联系客户关怀，请拨打 1-800-497-0335。在[Adobe数字营销客户关怀地区电话号码](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)页面上可找到美国以外地区的免费电话号码。 当要求您选择产品的选项时，请按 3 联系 Target 团队。
+如果遇到技术问题或要记录错误，您可以联系客户关怀。要通过电话联系客户关怀，请拨打 1-800-497-0335。在[Adobe数字营销客户关怀区域电话号码](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)页面上可找到美国以外的免费电话号码。 当要求您选择产品的选项时，请按 3 联系 Target 团队。
 
 向客户关怀发送电子邮件，地址是 [!DNL customercare@adobe.com]。
 
@@ -117,7 +117,7 @@ Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提
 
 ### 反馈  {#section_8154D6D712054220A90D85FA8E92933E}
 
-我们欢迎您提供有关此解决方案的任何建议或反馈。可以在[Adobe TargetExperience League社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)中增加一些加强意见和建议。 单击[!UICONTROL Ideas]选项卡。
+我们欢迎您提供有关此解决方案的任何建议或反馈。可以向[Adobe Target Experience League社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)添加增强创意和建议。 单击[!UICONTROL Ideas]选项卡。
 
 ### 法律 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
@@ -128,4 +128,4 @@ Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. 更新的信息／其他第三方代码信息，请访问[https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/)。
+All third-party trademarks are the property of their respective owners. [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/)中提供的更新信息/其他第三方代码信息。

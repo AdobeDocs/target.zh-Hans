@@ -1,16 +1,16 @@
 ---
 keywords: 多个受众;体验版本;定位体验版本
-description: 了解如何在Adobe TargetA/B活动将相同体验的不同受众进行目标。
+description: 了解如何在Adobe [!DNL Target] A/B活动中将相同体验的版本目标到不同受众。
 title: 能否在A/B活动中使用多个体验版本？
-feature: A/B Tests
+feature: A/B 测试
+exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 92%
 
 ---
-
 
 # A/B 测试中的多个体验受众
 
@@ -53,4 +53,3 @@ ht-degree: 92%
 * 选择相互排斥的受众。如果活动是在 VEC 中创建的，且访客符合多个受众的条件，则会返回适用于所有受众的内容，但页面上显示的实际上是适用于最后一个所列受众的内容。
 * 活动图中定义的活动参加受众是通过“与”条件与体验受众进行组合的。因此，要参加活动，访客必须符合活动受众的条件，同时还必须符合某个体验受众的条件。
 * 将相同的受众作为报表中的区段进行添加。这样可帮助您查看较高级别的体验测试结果（如体验 A 与体验 B），以及较低级别的体验测试结果（如体验 A 与体验 B 的仅“浏览器语言 ja_JP”）。这仅适用于基于 Target 的报表，而不适用于基于 Analytics 的报表。
-

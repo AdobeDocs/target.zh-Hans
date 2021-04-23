@@ -1,13 +1,13 @@
 ---
 keywords: 公告；技能创建者；开发者聊天；咖啡休息；事件;forrester;gartner;webinar
-description: 阅读公告并注册Adobe Target事件，包括Skill Builder会话、开发人员和产品经理聊天、网络研讨会等。
-title: 在哪里可以找到目标公告和事件?
-feature: Release Notes
+description: 阅读公告并注册Adobe [!DNL Target] 事件，包括Skill Builder会话、开发人员和产品经理聊天、网络研讨会等。
+title: 在哪里可以找到 [!DNL Target] 公告和事件?
+feature: 发行说明
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Adobe Target最近被Forrester和Gartner评为市场领导者。
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## 网络研讨会：汇丰如何利用Adobe Target和AI大规模快速优化和提供个性化
+## 网络研讨会：HSBC如何利用Adobe [!DNL Target]和AI大规模快速优化和提供个性化
 
 * **[视图此处的网络研讨会录制](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)。**
 
@@ -49,7 +49,7 @@ Adobe Target最近被Forrester和Gartner评为市场领导者。
 
 *麦肯锡文章：&quot;[COVID-19恢复将是digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; 2020年5月
 
-## Adobe Target Skill Builder:开发人员聊天，将Adobe Target的mbox.js迁移到at.js {#skill-builder}
+## Adobe[!DNL Target]技能生成器：开发人员聊天，将Adobe [!DNL Target]的mbox.js迁移到at.js {#skill-builder}
 
 随着mbox.js于2021年3月31日弃用，Adobe Target产品经理David Son最近主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。
 

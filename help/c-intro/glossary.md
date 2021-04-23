@@ -1,17 +1,17 @@
 ---
-description: Adobe Target中使用的不同术语表示什么？ 查找常用术语的定义，帮助您获得更多的目标。
+description: Adobe [!DNL Target] 中使用的不同术语的含义是什么？ 查找常用术语的定义，以帮助您进一步了解 [!DNL Target]。
 title: 在哪里可以找到在目标中使用的术语和定义？
-feature: Overview
+feature: 概述
+exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2470'
 ht-degree: 90%
 
 ---
 
-
-# 术语表{#glossary}
+# 术语表
 
 术语的定义。
 

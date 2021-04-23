@@ -1,24 +1,24 @@
 ---
 keywords: 远程优惠；远程优惠选择矩阵；缓存内容；动态内容；url类型
-description: 了解如何使用Adobe Target的远程优惠托管外部内容（CMS或其他系统中的内容）。 了解您为何要使用远程优惠。
+description: 了解如何在Adobe [!DNL Target] 中使用远程优惠托管外部内容（CMS或其他系统中的内容）。 了解您为何可能希望使用远程优惠。
 title: 如何创建远程优惠?
-feature: Experiences and Offers
+feature: 体验和优惠
+exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1084'
 ht-degree: 47%
 
 ---
 
-
 # 创建远程选件
 
-可使用远程选件在 [!DNL Adobe Target] 以外托管内容，[!DNL Target] 会引用这些内容并将其交付到用户网站。此内容可能位于内容管理(CMS)或其他系统中，这是为了易于使用，或是出于安全原因。
+可使用远程选件在 [!DNL Adobe Target] 以外托管内容，[!DNL Target] 会引用这些内容并将其交付到用户网站。此内容可能位于内容管理(CMS)或其他系统中，以易于使用或出于安全原因。
 
 >[!NOTE]
 >
->远程优惠可以在[!UICONTROL 优惠] > [!UICONTROL 代码优惠]页面或在[基于Forms的体验书写器](/help/c-experiences/form-experience-composer.md)中创建。 不能在可视体验书写器(VEC)中创建或应用远程优惠。 内容将插入到[!DNL Target]请求位置，因此这些位置很可能不适合全局[!DNL Target]请求。
+>可以在[!UICONTROL 优惠] > [!UICONTROL 代码优惠]页或[基于Forms的体验书写器](/help/c-experiences/form-experience-composer.md)中创建远程优惠。 不能在Visual Experience Composer(VEC)中创建或应用远程优惠。 内容将插入到[!DNL Target]请求位置，因此这些内容很可能不适合全局[!DNL Target]请求。
 >
 >[!DNL Target Classic] 中提供了类似功能：[!UICONTROL 站内选件]和 [!UICONTROL Test&amp;Target 外部选件]。
 
@@ -37,13 +37,13 @@ ht-degree: 47%
 
 在活动中使用远程选件时需遵循以下最佳实践：
 
-* 如果优惠与[!DNL Target]请求位于同一域中，则使用[!UICONTROL  Cached]选项，可以使用相对URL描述优惠位置。
+* 如果您的优惠与[!DNL Target]请求位于同一域中，则使用[!UICONTROL  Cached]选项可以使用相对URL描述优惠位置。
 
    这意味着您将活动从测试服务器移到生产服务器后，无需手动更改 URL 即可自动访问内容。
 
 * 如果您的测试中包含由服务器动态生成的数据，则选择“[!UICONTROL 动态]”选项可能是正确的做法。
 * 如果您打算只测试现有远程选件内容的外观，请使用[!UICONTROL 可视化体验编辑器]来更改从内容管理系统返回的内容的外观。
-* 使用[远程优惠选择矩阵](#reference_B23BEDD29DDD47709A7651AFD27E776B)（下）帮助您选择最适合您的特定情况的优惠。 如果您有任何问题，请咨询客服专员。
+* 使用[远程优惠选择矩阵](#reference_B23BEDD29DDD47709A7651AFD27E776B)（下面）帮助您选择最适合您特定情况的优惠。 如果您有任何问题，请咨询客服专员。
 
 ## 从“代码优惠”页创建远程优惠
 
@@ -61,17 +61,17 @@ ht-degree: 47%
 
 1. 指定重定向URL类型。
 
-   请参阅[重定向URL类型：有关详细信息，请在下面缓存或Dynamic](#url-type)。
+   请参阅[重定向URL类型：有关详细信息，请访问下面的缓存或Dynamic](#url-type)。
 
 1. 指定远程优惠的远程URL。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-## 使用基于表单的体验书写器创建远程优惠
+## 使用基于表单的体验编辑器创建远程优惠
 
 1. 使用[基于表单的体验书写器](/help/c-experiences/form-experience-composer.md)创建活动时，选择显示&#x200B;**[!UICONTROL 内容]**&#x200B;部分的位置。
 
-   ![基于表单的体验书写器中的内容部分](/help/c-experiences/c-manage-content/assets/form-based-content.png)
+   ![基于表单的体验编辑器中的内容部分](/help/c-experiences/c-manage-content/assets/form-based-content.png)
 
 1. 单击&#x200B;**[!UICONTROL 默认内容]**&#x200B;下拉列表，然后单击&#x200B;**[!UICONTROL 更改远程优惠]**。
 
@@ -87,7 +87,7 @@ ht-degree: 47%
 
 1. 指定重定向URL类型。
 
-   请参阅[重定向URL类型：有关详细信息，请在下面缓存或Dynamic](#url-type)。
+   请参阅[重定向URL类型：有关详细信息，请访问下面的缓存或Dynamic](#url-type)。
 
 1. 指定远程优惠的远程URL。
 
@@ -95,7 +95,7 @@ ht-degree: 47%
 
 ## 重定向URL类型：缓存或动态{#url-type}
 
-以下信息可帮助您了解两个选项之间的差异：
+以下信息可帮助您了解两种选项之间的差异：
 
 ### 缓存的URL
 
@@ -103,7 +103,7 @@ ht-degree: 47%
 
 [!DNL Target] 每两小时从远程 URL 中提取一次内容，然后将该内容存储到 [!DNL Target] 中。如果访客加载的网站中具有包含远程选件的体验，则该选件会由 [!DNL Target] 交付。
 
-缓存的远程优惠提供增强的安全性，因为登录到[!DNL Target]的某人无法更改内容。 要更改内容，用户需登录到内容管理系统或其他系统并在其中更改内容。
+缓存的远程优惠提供了增强的安全性，因为登录到[!DNL Target]的某人无法更改内容。 要更改内容，用户需登录到内容管理系统或其他系统并在其中更改内容。
 
 您能够为已缓存的远程选件指定绝对 URL 或相对 URL。
 
@@ -113,19 +113,19 @@ ht-degree: 47%
 
 当访客加载的网站具有包含远程选件的体验时，您可能不希望由 [!DNL Target] 定期缓存并交付内容。相反，您需要调用托管内容的系统，可能会传递特定信息，以便为每个用户动态（或不同）返回的优惠。 例如，如果某位用户登录到一个信用卡网站，且该网站中具有包含动态远程选件的体验，则您能够将相应参数传递到 URL 中，以获取该用户的帐户信息。随后，网站便会提供特定于该用户的信息，例如账户余额。
 
-单击&#x200B;**[!UICONTROL 添加参数]**&#x200B;可添加一个或多个[!DNL Target]请求或请求参数。
+可以单击&#x200B;**[!UICONTROL 添加参数]**&#x200B;添加一个或多个[!DNL Target]请求或请求参数。
 
 ## 在活动中使用远程优惠
 
 必须使用[!UICONTROL 基于表单的体验书写器]应用远程优惠。 当前无法使用VEC应用远程优惠。
 
-[!DNL Adobe Target][!UICONTROL 基于表单的体验书写器]是非可视体验和优惠创建界面，在创建用于[!UICONTROL A/B测试]、[!UICONTROL 体验定位](XT)、[!UICONTROL Automated Personalization](AP)的体验中非常有用)和[!UICONTROL Recommendations]活动。 例如，您可以使用[!UICONTROL 基于表单的体验书写器]创建使用远程优惠的体验。
+[!DNL Adobe Target][!UICONTROL 基于表单的体验编辑器]是非可视体验和优惠创建界面，在创建用于[!UICONTROL A/B测试]、[!UICONTROL 体验定位](XT)、[!UICONTROL Automated Personalization](AP)的体验时很有用)和[!UICONTROL Recommendations]活动。 例如，您可以使用[!UICONTROL 基于表单的体验编辑器]创建使用远程优惠的体验。
 
 1. 在[!UICONTROL 基于表单的体验书写器]中创建或编辑活动。
 
    有关详细的分步说明，请参阅[基于表单的体验书写器](/help/c-experiences/form-experience-composer.md)。
 
-1. 指定所需的位置并根据需要添加任何受众细化。
+1. 指定所需的位置，并根据需要添加任何受众细化。
 
 1. 单击&#x200B;**[!UICONTROL Content]**&#x200B;部分的下拉列表，然后单击&#x200B;**[!UICONTROL 更改远程优惠]**。
 
@@ -139,7 +139,7 @@ ht-degree: 47%
 
 动态远程选件使用动态页面技术来向选件传递值。
 
-选件会在您提交页面后执行。不可见的iframe会收集数据，将其从框架中复制出来，并插入页面中，从而加载传递的值。
+选件会在您提交页面后执行。不可见的iframe会收集数据，将其复制出帧，并插入页面中，加载传递的值。
 
 ![](assets/remote_offer_howitworks_2.jpeg)
 

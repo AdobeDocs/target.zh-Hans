@@ -1,18 +1,18 @@
 ---
 keywords: 推荐;推荐算法;推荐活动;Recommendations Classic
-description: 查看信息，帮助您了解旧版Recommendations经典活动与Recommendations目标高级版之间的差异。
-title: Recommendations经典与Recommendations在目标溢价中有何不同？
+description: 查看相关信息，帮助您了解 [!DNL Target] Premium中旧版Recommendations Classic活动与Recommendations之间的差异。
+title: 在 [!DNL Target] Premium中，Recommendations Classic和Recommendations有何区别？
 feature: Recommendations
+exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 95%
+source-wordcount: '661'
+ht-degree: 94%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Recommendations Classic 与 Target Premium 中的“推荐”活动 {#recommendations-classic-versus-recommendations-activities-in-target-premium}
+# ![PREMIUMRecommendations Classic与](/help/assets/premium.png) Recommendations活动在Premium中的对 [!DNL Target] 比
 
 此信息可帮助您在 Recommendations Classic 与 Target Premium 中的“推荐”活动之间进行选择。
 
@@ -76,4 +76,3 @@ ht-degree: 95%
 在 [!DNL Target] 中，[!DNL Recommendations] 提供了改进的报表，现在，报表可以利用 [!DNL Target] 和 [!DNL Experience Cloud] 提供的各项功能。以前只会显示由 [!DNL Recommendations] 产生的提升度（与没有推荐的结果相比），但现在，您可以查看与 [!DNL Recommendations] 活动有关的各个方面的信息。
 
 ![](assets/overview_report.png)
-

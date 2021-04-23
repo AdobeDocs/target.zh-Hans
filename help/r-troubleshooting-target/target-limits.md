@@ -4,14 +4,14 @@ description: 视图列表字符限制和其他限制(优惠大小、受众、用
 title: Adobe Target中有哪些不同的字符、大小和其他限制？
 feature: Troubleshooting
 mini-toc-levels: 3
+exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 translation-type: tm+mt
-source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1162'
 ht-degree: 59%
 
 ---
-
 
 # 限制
 
@@ -234,7 +234,7 @@ ht-degree: 59%
 
 * **限制**：每个活动 50 个报表受众/区段。
 
-## Target UI 中的脚本配置文件输入框
+## [!DNL Target] UI中的脚本用户档案输入框
 
 * **建议限制**：2,000 个字符。
 
@@ -273,4 +273,3 @@ ht-degree: 59%
 * **建议的限制**:每个目标规则值有2,500个字符。
 * **建议限制**：各定位规则中每个受众 30,000 个唯一值。
 * **建议限制**：每个活动 100,000 个唯一定位规则值。
-

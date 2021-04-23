@@ -1,18 +1,18 @@
 ---
 keywords: FAQ;常见问题解答;Analytics for Target;A4T;配置;Adobe Experience Cloud
-description: 查找有关为目标(A4T)设置Analytics的常见问题的解答，Analytics报告可用于目标活动。
+description: 查找有关为 [!DNL Target] (A4T), which lets you use Analytics reporting for [!DNL Target] 活动设置Analytics的常见问题解答。
 title: 在哪里可以找到有关A4T初始配置的信息？
 feature: Analytics for Target (A4T)
+exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 68%
+source-wordcount: '476'
+ht-degree: 66%
 
 ---
 
-
-# 初始配置 - A4T 常见问题解答{#initial-provisioning-a-t-faq}
+# 初始配置 - A4T 常见问题解答
 
 本主题包含有关将[!DNL Adobe Analytics]设置为[!DNL Adobe Target](A4T)的报告源的常见问题的解答。
 
@@ -24,7 +24,7 @@ ht-degree: 68%
 
 * 对于网站上将仅跟踪 Analytics 量度的其余网页，则在这些页面上实施 Analytics。无需在这些页面上实施 Target。根据上一步中附加到该访客的 Targe 信息，在这些页面中捕获的 Analytics 量度会自动拼合到用户最初有资格参加的 Target 活动。
 
-## 如何判断我的 Target 帐户是否启用了 A4T？{#section_4437D284448F4313BF953D4B6EDBACA6}
+## 如何判断我的[!DNL Target]帐户是否启用了A4T?{#section_4437D284448F4313BF953D4B6EDBACA6}
 
 您需要具有一个 Analytics 用户帐户和一个 Target 用户帐户，才能在定义 Analytics 活动时选择报表包。必须按照相应文档中的所述来配置您的用户帐户。请参阅[用户权限要求](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)。
 
@@ -48,6 +48,6 @@ ht-degree: 68%
 
 请参阅“我的报表包为何没有加载？”（见上文）。这个问题的根本原因同上。
 
-## 为何我在 Target 中的报表是空的？  {#section_3837104757464CB488C5A83014A669A1}
+## 为什么我的报表[!DNL Target]为空？{#section_3837104757464CB488C5A83014A669A1}
 
 请参阅“我的报表包为何没有加载？”（见上文）。这个问题的根本原因同上。

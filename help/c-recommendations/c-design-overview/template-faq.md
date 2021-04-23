@@ -1,20 +1,20 @@
 ---
 keywords: 推荐;常见问题解答;FAQ
-description: 查看一列表常见问题解答(FAQ)及其对Adobe Target·Recommendations设计的解答。
-title: 哪里可以回答目标·Recommendations的设计问题？
+description: 查看常见问题解答(FAQ)的列表及其关于Adobe [!DNL Target] Recommendations设计的解答。
+title: 在哪里可以回答 [!DNL Target] Recommendations的设计问题？
 feature: Recommendations
+exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 82%
+source-wordcount: '411'
+ht-degree: 83%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) 设计常见问题解答
 
-# ![PREMIUM](/help/assets/premium.png) 设计常见问题解答{#design-faq}
-
-关于[!DNL Adobe Target]推荐设计的常见问题列表(FAQ)。
+关于[!DNL Adobe Target]推荐设计的常见问题解答(FAQ)列表。
 
 ## 推荐项目的价格并没有在小数点的右侧显示两个值。我该如何显示它们？
 
@@ -48,7 +48,7 @@ ht-degree: 82%
 
 ## 如何将现有的实体值替换为空格？例如，在促销活动结束后，需要清除某个项目的 entity.message。{#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-在JavaScript不间断空间中发送似乎就是这样。 让开发人员发送 `\u00A0` 作为值。示例：`entity.message=\u00A0`。在没有显示值的情况下，您应当考虑将此设为默认值，而不是为 null。
+在JavaScript不中断空间中发送似乎就是这样。 让开发人员发送 `\u00A0` 作为值。示例：`entity.message=\u00A0`。在没有显示值的情况下，您应当考虑将此设为默认值，而不是为 null。
 
 ## 能否在推荐设计中使用配置文件脚本？{#section_6BD55203984A4D80A0C6F241AD7806DF}
 

@@ -1,17 +1,17 @@
 ---
 keywords: 系统图；flicker;at.js;implementation;javascript库；js;atjs
-description: 了解目标at.js JavaScript库的功能，包括系统图，帮助您了解页面加载时的工作流。
+description: 了解 [!DNL Target] at.js JavaScript库如何运行，包括系统图以帮助您了解页面加载时的工作流程。
 title: at.js Javascript库的工作方式？
 feature: at.js
 role: Developer
+exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 85%
 
 ---
-
 
 # at.js 的工作原理
 
@@ -34,7 +34,7 @@ ht-degree: 85%
 从高层次来看，两个版本之间存在一些差异：
 
 * at.js 2.x 没有全局 mbox 请求概念，但有页面加载请求概念。页面加载请求可以视为检索应该被应用于网站初始页面加载的内容的请求。
-* at.js 2.x管理称为视图的概念，这些概念用于单页应用程序(SPA)。 at.js 1.*x* 并没有此概念。
+* at.js 2.x管理称为“视图”的概念，这些概念用于单页应用程序(SPA)。 at.js 1.*x* 并没有此概念。
 
 ## at.js 2.x 图
 
@@ -49,7 +49,7 @@ ht-degree: 85%
 | 3 | 将会发出页面加载请求，其中包括已配置的所有参数（例如，MCID、SDID 和客户 ID）。 |
 | 4 | 配置文件脚本在执行后进入配置文件存储区。存储区向受众库请求符合条件的受众（例如从 Adobe Analytics、Audience Management 等共享的受众）。<br>客户属性会以批量过程发送到配置文件存储区。 |
 | 5 | 根据 URL 请求参数和配置文件数据，[!DNL Target] 可决定将哪些活动和体验返回给查看当前页面和未来视图的访客。 |
-| 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>当前页面上的目标内容会在默认内容不发生闪烁的情况下尽快显示。<br>SPA中因用户操作而显示的视图的目标内容会缓存在浏览器中，因此当视图通过触发时，无需额外的服务器调用即可立即应用该内容 `triggerView()`。 |
+| 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>当前页面上的目标内容会在默认内容不发生闪烁的情况下尽快显示。<br>SPA中因用户操作而显示的视图的目标内容会在浏览器中缓存，因此当视图通过触发时，无需额外的服务器调用即可立即应用该内容 `triggerView()`。 |
 | 7 | Analytics 数据会发送到数据收集服务器。 |
 | 8 | 目标数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 Analytics for Target (A4T) 报表查看 <br>Analytics 数据。 |
 
@@ -66,7 +66,7 @@ ht-degree: 85%
 | 5 | Analytics 数据会发送到数据收集服务器。 |
 | 6 | Target 数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 A4T 报表查看 Analytics 数据。 |
 
-### 视频- at.js 2.x架构图
+### 视频 — at.js 2.x架构图
 
 at.js 2.x 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Cloud 解决方案集成。该视频介绍了如何将所有内容结合到一起。
 
@@ -80,12 +80,12 @@ at.js 2.x 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Clo
 
 | 步骤 | 描述 | 调用 | 描述 |
 |--- |--- |--- |--- |
-| 3 | 如果用户通过了身份验证，则调用会返回 [!DNL Experience Cloud ID] (MCID)；另一调用会同步客户 ID。 | 2 | at.js 库会同步加载，并隐藏文档正文。 |
-| 3 | 将会发出全局 mbox 请求，其中包括已配置的所有参数，例如 MCID、SDID 和访客 ID（可选）。 | 4 | 配置文件脚本在执行后进入配置文件存储区。存储区向[!UICONTROL 受众库]请求符合条件的受众（例如从 [!DNL Adobe Analytics]、[!DNL Audience Manager] 等共享的受众）。<br>客户属性会以批量过程发送到[!DNL Profile Store]。 |
+| 1 | 如果用户通过了身份验证，则调用会返回 [!DNL Experience Cloud ID] (MCID)；另一调用会同步客户 ID。 | 2 | at.js 库会同步加载，并隐藏文档正文。 |
+| 1 | 将会发出全局 mbox 请求，其中包括已配置的所有参数，例如 MCID、SDID 和访客 ID（可选）。 | 4 | 配置文件脚本在执行后进入配置文件存储区。存储区向[!UICONTROL 受众库]请求符合条件的受众（例如从 [!DNL Adobe Analytics]、[!DNL Audience Manager] 等共享的受众）。<br>客户属性会以批量过程发送到[!DNL Profile Store]。 |
 | 5 | [!DNL Target] 根据 URL、mbox 参数和配置文件数据确定要返回给访客的活动和体验。 | 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>体验会在默认内容不发生闪烁的情况下尽快显示。 |
 | 7 | [!DNL Analytics] 数据会发送到数据收集服务器。 | 8 | [!DNL Target] 数据会通过 SDID 匹配到 [!DNL Analytics] 数据，并且会进行相应处理以保存到 [!DNL Analytics] 报表存储中。<br>[!DNL Analytics]之后，便可以在 [!DNL Analytics] 和 [!DNL Target] 中通过 [!DNL Analytics for Target] (A4T) 报表查看  数据。 |
 
-### 视频——办公时间：at.js tips and overview（2019年6月26日）
+### 视频 — 办公时间：at.js提示和概述（2019年6月26日）
 
 此视频是“办公时间”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 

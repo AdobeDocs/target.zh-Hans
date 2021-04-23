@@ -1,19 +1,19 @@
 ---
 keywords: API;Adobe I/O
-description: 了解如何从Adobe Target经典传统API过渡到Adobe I/O的新API。
-title: 如何从传统API过渡到Adobe I/O?
-feature: Implement Server-side
+description: 了解如何从Adobe [!DNL Target] 经典旧版API过渡到Adobe I/O上的新API。
+title: 如何从旧版API过渡到Adobe I/O?
+feature: 实施服务器端
 role: Developer
+exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
-
-# 从 Target 旧版 API 迁移到 Adobe I/O
+# 过渡从[!DNL Target]旧API到Adobe I/O
 
 此信息可帮助您从 Target 旧版 API 迁移到 Adobe I/O 上的新版 API。
 

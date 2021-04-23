@@ -1,24 +1,24 @@
 ---
-keywords: 用户档案脚本；用户档案脚本属性；用户档案脚本最佳实践；调试；调试；脚本；用户档案脚本；属性；属性；参数
-description: 了解存储在访客用户档案中的访客特定属性，以提供可用于Adobe Target活动的信息。
+keywords: 用户档案脚本；用户档案脚本属性；用户档案脚本最佳实践；调试；调试；脚本；用户档案脚本；属性；参数
+description: 了解存储在访客用户档案中的访客特定属性，以提供可在Adobe [!DNL Target] 活动中使用的相关信息。
 title: 什么是用户档案属性？
-feature: Audiences
+feature: 受众
+exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2453'
 ht-degree: 76%
 
 ---
 
-
-# 配置文件属性{#profile-attributes}
+# 配置文件属性
 
 配置文件属性是特定于访客的参数。这些属性存储在访客的配置文件中，提供了可在您的活动中使用的关于访客的信息。
 
-用户用户档案包含网页访客的人口统计和行为信息，如年龄、性别、所购产品、上次访问时间等，目标使用这些信息来个性化其为访客提供的内容。
+用户用户档案包含网页访客的人口统计和行为信息，如年龄、性别、购买的产品、上次访问时间等，目标使用这些信息来个性化其为访客提供的内容。
 
-当访客浏览您的网站时，或当访客返回其他会话时，用户档案中保存的用户档案属性可用于目标内容或日志信息以进行细分筛选。
+当访客浏览您的网站时，或当访客返回其他会话时，用户档案中保存的用户档案属性可用于目标内容或日志信息以进行细分。
 
 设置用户档案属性：
 
@@ -34,7 +34,7 @@ ht-degree: 76%
 
    | 参数类型 | 描述 |
    |--- |--- |
-   | mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意：Target 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 Target，则可以使用配置文件更新 API 方法进行传递。有关详细信息，请参阅Adobe TargetAPI文档中的[用户档案更新](http://developers.adobetarget.com/api/#updating-profiles)。 |
+   | mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意：Target 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 Target，则可以使用配置文件更新 API 方法进行传递。有关详细信息，请参阅Adobe Target API文档](http://developers.adobetarget.com/api/#updating-profiles)中的[用户档案更新。 |
    | Profile | 直接使用 JavaScript 代码段定义。这些参数能够保存运行的总数，如消费者花费的总金额，并能基于每个 mbox 请求来执行。请参阅下面的“配置文件脚本属性”。 |
 
 ## 配置文件脚本属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -59,7 +59,7 @@ ht-degree: 76%
 
 ![“创建配置文件脚本”对话框](assets/profile-script.png)
 
-配置文件脚本会对每个位置请求运行配置文件属性“catchers”。收到位置请求后，Target 会确定应运行的活动，显示对该活动和该体验适用的内容，跟踪活动是否成功，并运行任何相关的配置文件脚本。这使您能够跟踪有关访问的信息，如访客的位置、一天中的时间、访客访问网站的次数（如果他们以前购买过）等。 然后，这些信息将添加到访客的配置文件中，以便您可以更好地跟踪访客在您网站上的活动。
+配置文件脚本会对每个位置请求运行配置文件属性“catchers”。收到位置请求后，Target 会确定应运行的活动，显示对该活动和该体验适用的内容，跟踪活动是否成功，并运行任何相关的配置文件脚本。这使您能够跟踪有关访问的信息，如访客的位置、时间、访客访问网站的次数（如果之前已购买）等。 然后，这些信息将添加到访客的配置文件中，以便您可以更好地跟踪访客在您网站上的活动。
 
 配置文件脚本属性在属性名称之前插入 `user.` 标记。例如：
 
@@ -77,9 +77,9 @@ if (mbox.name == 'Track_Interest') {
 * 保存下次使用 `user.setLocal('variable_name', 'value')` &#39;) 运行脚本时（对下一个 mbox 请求）可能访问的变量。使用 `user.getLocal('variable_name')` 引用变量。当您想引用上次请求的日期和时间时，此脚本非常有用。
 * 参数和值区分大小写。请匹配您在活动或测试期间接收到的参数和值的大小写。
 * 有关更多的 JavaScript 语法，请参阅下文中的“脚本配置文件参数的 JavaScript 引用”部分。
-* 在禁用脚本后，该参数将保留在用户档案中。 其用户档案已包含活动受众中使用的参数的用户将符合该活动的条件。
+* 禁用脚本后，该参数仍保留在用户档案中。 其用户档案已包含在活动受众中使用的参数的用户将有资格在该活动中。
 * 用户档案脚本在活动中使用时无法删除。
-* 不建议创建使用另一个用户档案脚本中一个用户档案脚本的结果的从属用户档案脚本。 不保证用户档案脚本的执行顺序。
+* 不建议创建使用另一个用户档案脚本中一个用户档案脚本结果的从属用户档案脚本。 不保证用户档案脚本执行的顺序。
 
 ## 查看配置文件脚本信息卡片 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
@@ -105,7 +105,7 @@ if (mbox.name == 'Track_Interest') {
 
 ## Target 在某些情况下会禁用配置文件脚本 {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-[!DNL Target] 在某些情况下自动禁用用户档案脚本，如执行脚本时间过长或指令过多。
+[!DNL Target] 在某些情况下自动禁用用户档案脚本，如执行时间过长或指令过多。
 
 禁用某个配置文件脚本后，Target UI 中的该配置文件脚本旁边会显示一个黄色警报图标，如下图所示：
 
@@ -119,7 +119,7 @@ if (mbox.name == 'Track_Interest') {
 
 * 引用了未定义的变量。
 * 引用了无效值。这通常是由于未进行正确验证而引用 URL 值和其他用户输入数据所导致。
-* 使用了过多 JavaScript 指令。Target 限制每个脚本只能使用 2,000 条 JavaScript 指令，但这不能简单地通过人工读取 JavaScript 的方式来计算。例如，Rhino 会将所有函数调用和“新”调用视为 100 条指令。这意味着对任何函数的任何调用都会消耗100个指令。 此外，任何输入数据（例如 URL 值）的大小可能会对指令计数产生影响。
+* 使用了过多 JavaScript 指令。Target 限制每个脚本只能使用 2,000 条 JavaScript 指令，但这不能简单地通过人工读取 JavaScript 的方式来计算。例如，Rhino 会将所有函数调用和“新”调用视为 100 条指令。这意味着对任何函数的任何调用都会使用100个指令。 此外，任何输入数据（例如 URL 值）的大小可能会对指令计数产生影响。
 * 不遵循以下[最佳实践](/help/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0)部分重点列举的项目。
 
 ## 最佳实践 {#best}
@@ -128,21 +128,21 @@ if (mbox.name == 'Track_Interest') {
 
 * 将当前脚本值设置为用户脚本中的本地变量，将故障转移设置为空字符串。
 * 通过确保局部变量为非空字符串验证局部变量。
-* 使用基于字符串的操作函数与常规表达式。
+* 与常规表达式相比，使用基于字符串的操作函数。
 * 使用限制性 for 循环与开放式 for 或 while 循环。
 * 切勿超过 1,300 个字符或 50 次循环迭代。
 * 切勿超过 2,000 条 JavaScript 指令。Target 限制每个脚本只能使用 2,000 条 JavaScript 指令，但这不能简单地通过人工读取 JavaScript 的方式来计算。例如，Rhino 会将所有函数调用和“新”调用视为 100 条指令。此外，任何输入数据（例如 URL 值）的大小可能会对指令计数产生影响。
-* 不仅要注意脚本性能，还要注意所有脚本的组合性能。作为最佳实践，我们建议指令总数要少于 5,000 条。计算指令数目并不明显，但需要注意的重要一点是，超过2,000个指令的脚本会自动禁用。 活动用户档案脚本的数量不应超过300。 每个脚本都通过每个mbox调用执行。 应只运行所需数量的脚本。
+* 不仅要注意脚本性能，还要注意所有脚本的组合性能。作为最佳实践，我们建议指令总数要少于 5,000 条。计算指令的数量并不明显，但需要注意的重要事项是，超过2,000个指令的脚本将自动禁用。 活动用户档案脚本数不应超过300。 每个脚本都通过每个mbox调用执行。 应只运行所需数量的脚本。
 * 在正则表达式中，几乎不需要在开头使用点和星形符号（例如：`/.*match/`、`/a|.*b/`）。正则表达式搜索将从字符串中的任意位置开始（除非与 `^` 绑定），因此其已经假定包含点和星形符号。如果此类正则表达式与足够长的输入数据相匹配（最少可达几百个字符），则脚本执行可能会中断。
 * 如果全部失败，则将脚本嵌套在 try/catch 中。
 * 以下建议可以帮助您限制用户档案脚本的复杂性。 用户档案脚本可以执行有限数量的指令。
 
    作为最佳实践：
 
-   * 尽量缩小用户档案脚本并简化脚本。
-   * 避免使用常规表达式，或仅使用非常简单的常规表达式。 即使是简单的表达式也可以接受许多说明进行评估。
+   * 使用户档案脚本尽可能小和简单。
+   * 避免常规表达式，或仅使用非常简单的常规表达式。 即使是简单的表达式，也可能需要执行许多说明来评估。
    * 避免递归。
-   * 用户档案脚本应经过性能测试，然后才能添加到目标。 所有用户档案脚本在每个mbox请求上执行。 如果用户档案脚本未正确执行，则执行mbox请求需要更长的时间。 这可能会影响流量和转化率。
+   * 用户档案脚本在添加到目标之前应经过性能测试。 所有用户档案脚本在每个mbox请求上执行。 如果用户档案脚本未正确执行，则执行mbox请求需要更长的时间。 这可能会影响流量和转化率。
    * 如果用户档案脚本过于复杂，请考虑改用[响应令牌](/help/administrating-target/response-tokens.md)。
 
 * 有关详细信息，请参阅JS Rhino引擎文档：[https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html)。
@@ -165,7 +165,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **使用 mboxTrace 调试工具来调试配置文件脚本。**
 
-   此方法需要通过单击&#x200B;**[!UICONTROL 目标]** > **[!UICONTROL 管理]** > **[!UICONTROL 实施]** > **[!UICONTROL 在[!UICONTROL 调试器工具]部分生成授权令牌]**&#x200B;来生成授权令牌。
+   此方法需要通过单击[!UICONTROL 调试器工具]部分中的&#x200B;**[!UICONTROL 目标]** > **[!UICONTROL 管理]** > **[!UICONTROL 实施]** > **[!UICONTROL 生成授权令牌]**&#x200B;生成授权令牌。
 
    然后，将以下两个参数添加到页面 URL 中的“?”之后：`mboxTrace=window&authorization=YOURTOKEN`。
 
@@ -181,7 +181,7 @@ if (mbox.name == 'Track_Interest') {
 
 ## 脚本配置文件参数的 JavaScript 引用
 
-要有效使用脚本用户档案，需要掌握简单的Javascript知识
+要有效地使用脚本用户档案，需要简单的Javascript知识
 参数。 本节提供了一个快速参考，借助此参考，您在几分钟内便可以高效地使用此功能。
 
 “脚本配置文件参数”位于 mbox/配置文件选项卡下。您可以编写返回任何 Javascript 类型（字符串、整数、数组等）的 Javascript 程序。
@@ -212,7 +212,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-创建一个名为`frequency`的变量，将其初始化为上一个值，如果没有上一个值，则创建为0。 如果 mbox 名称为 `orderThankyouPage`，则返回递增的值。
+创建一个名为`frequency`的变量，将其初始化为上一个值或0（如果没有上一个值）。 如果 mbox 名称为 `orderThankyouPage`，则返回递增的值。
 
 **名称：***user.monetaryValue*
 
@@ -236,7 +236,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-创建一个名为`adobeQA`的变量，以跟踪用户[活动QA](/help/c-activities/c-activity-qa/activity-qa.md)。
+创建名为`adobeQA`的变量，以跟踪用户的[活动QA](/help/c-activities/c-activity-qa/activity-qa.md)。
 
 ### 对象和方法
 
@@ -277,7 +277,7 @@ else if (mbox.param("adobeQA"))
 | `||` | 从逻辑上讲，对于“OR”左侧和右侧的表达式，仅当一侧为 true 时才为 true（否则为 false）。 |
 | `//` | 检查源是否包含目标布尔值所包含的所有元素（源数组，目标数组）。<br>`//` 从目标（对应于 regexp）中提取子字符串并将其解码为 `Array/*String*/ decode(String encoding, String regexp, String target)`。<br>该功能还支持使用常量字符串值、分组 (`condition1 || condition2) && condition3` 和正则表达式 (`/[^a-z]$/.test(landing.referring.url)`)。 |
 
-## 培训视频：用户档案脚本![教程标记](/help/assets/tutorial.png)
+## 培训视频：用户档案脚本![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用和创建配置文件脚本的信息。
 

@@ -1,18 +1,18 @@
 ---
 keywords: 受众;倾向;配置文件属性;比较;对比;创建受众
-description: 了解如何定义受众以比较目标受众库或仅活动受众中的两个用户档案属性。
-title: 我是否可以比较两个用户档案属性以用于受众?
-feature: Audiences
+description: 了解如何定义受众以比较 [!DNL Target] 受众库或仅活动受众中的两个用户档案属性。
+title: 是否可以比较两个用户档案属性以用于受众?
+feature: 受众
+exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 91%
 
 ---
 
-
-# 创建配置文件属性比较受众{#create-a-profile-attribute-comparison-audience}
+# 在 Adobe Target 中创建配置文件属性比较受众
 
 将受众定义为比较[受众库](/help/c-target/c-audiences/audiences.md)或[仅限该活动的受众](/help/c-target/creating-activity-only-audience.md)的两个配置文件属性。使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
 

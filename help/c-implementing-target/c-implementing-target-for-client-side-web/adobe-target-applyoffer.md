@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.applyOffer;applyOffer;applyoffer;申请选件;at.js;函数;函数
-description: 使用Adobe Target at.js JavaScript库的adobe.目标.applyOffer()函数应用响应内容。
+description: 对Adobe [!DNL Target] at.js JavaScript库使用adobe.目标.applyOffer()函数来应用响应内容。
 title: 如何使用adobe.目标.applyOffer()函数？
 feature: at.js
 role: Developer
+exl-id: d230d48f-0d6c-4f55-96a0-681dd31e8d16
 translation-type: tm+mt
-source-git-commit: 3a71ae60a89a802ca469fa7acd583157221bdeee
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 72%
+source-wordcount: '175'
+ht-degree: 73%
 
 ---
-
 
 # adobe.target.applyOffer(options)
 

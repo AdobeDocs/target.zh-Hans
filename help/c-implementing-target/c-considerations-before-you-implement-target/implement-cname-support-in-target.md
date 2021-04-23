@@ -1,17 +1,17 @@
 ---
 keywords: 客户关怀；cname；证书项目；规范名；cookie；证书；amc;adobe托管证书；digicert；域控制验证；dcv
-description: 与Adobe Client Care合作，在Adobe Target中实施CNAME（规范名称）支持，以处理广告阻塞问题或与ITP相关的Cookie策略。
+description: 与Adobe Client Care合作，在Adobe [!DNL Target] 中实施CNAME（规范名称）支持，以处理广告阻塞问题或与ITP相关的Cookie策略。
 title: 如何在目标中使用CNAME?
-feature: Privacy & Security
+feature: 隐私和安全
 role: Developer
+exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1160'
 ht-degree: 2%
 
 ---
-
 
 # CNAME 和 Adobe Target
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 否，[!DNL Target]需要单独的主机名和证书。
 
-### 我当前的目标实施是否受ITP 2.x影响？
+### 我当前的[!DNL Target]实现是否受ITP 2.x影响？
 
 在 Safari 浏览器中，导航到您拥有 [!DNL Target] JavaScript 库的网站。如果您在CNAME的上下文中看到[!DNL Target] cookie集，如`analytics.company.com`，则ITP 2.x不会影响您。
 

@@ -1,19 +1,19 @@
 ---
 keywords: mboxCreate;mboxcreate;mbox 创建;at.js;函数;函数
-description: 使用Adobe Targetat.js JavaScript库的mboxCreate()函数将优惠应用于具有mboxDefault类名的最近的DIV。 (at.js 1.x)
+description: 使用Adobe [!DNL Target] at.js JavaScript库的mboxCreate()函数将优惠应用于具有mboxDefault类名称的最接近的DIV。 (at.js 1.x)
 title: 如何使用mboxCreate()函数？
 feature: at.js
 role: Developer
+exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 85%
 
 ---
 
-
-# mboxCreate(mbox,params) - at.js 1.x {#reference_E68805FE86C64792B2066DB17B253D74}
+# mboxCreate(mbox,params) - at.js 1.x
 
 可使用 mboxDefault 类名称执行请求并将选件应用到最近的 DIV。
 

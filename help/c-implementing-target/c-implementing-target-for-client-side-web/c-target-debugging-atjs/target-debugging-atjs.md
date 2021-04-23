@@ -1,19 +1,19 @@
 ---
 keywords: at.js;调试 at.js;adobe Experience Cloud 调试器;experience cloud 调试器;mbox 跟踪;mbox 高亮;调试
-description: 使用Adobe Experience Cloud调试器视图库配置、检查请求、打开控制台记录、禁用目标调用请求等。
+description: 使用Adobe Experience Cloud调试器视图库配置、检查请求、打开控制台日志记录、禁用 [!DNL Target] 调用请求等。
 title: 如何使用Adobe Experience Cloud调试器调试at.Js?
 feature: at.js
 role: Developer
+exl-id: 764155e2-e55d-4637-8da3-44f70f3aa2a7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 69%
 
 ---
 
-
-# 使用 Adobe Experience Cloud 调试器调试 at.js{#debug-at-js-using-the-adobe-experience-cloud-debugger}
+# 使用 Adobe Experience Cloud 调试器调试 at.js
 
 有关使用 Adobe Experience Cloud 调试器扩展的信息，该扩展可帮助您快速、轻松地了解您的 Target 实施。
 
@@ -29,7 +29,7 @@ ht-degree: 69%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### 基本目标调试使用Adobe Experience Cloud调试器![概述徽章](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### 基本Adobe Target调试使用Adobe Experience Cloud调试器![概述徽章](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 

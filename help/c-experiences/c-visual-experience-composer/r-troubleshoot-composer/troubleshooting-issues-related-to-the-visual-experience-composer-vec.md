@@ -1,28 +1,28 @@
 ---
-keywords: 定位；可视体验书写器；vec；可视体验书写器疑难解答；疑难解答；tls;tls 1.2
-description: 了解如何对某些情况下Adobe Target视觉体验书写器(VEC)中有时出现的问题进行疑难解答。
+keywords: 定位；可视体验书写器；vec；可视体验书写器疑难解答；tls;tls 1.2
+description: 了解如何解决某些情况下Adobe [!DNL Target] Visual Experience Composer(VEC)中有时出现的问题。
 title: 如何解决与Visual Experience Composer相关的问题？
-feature: Visual Experience Composer (VEC)
+feature: 可视化体验编辑器 (VEC)
+exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 89%
+source-wordcount: '800'
+ht-degree: 87%
 
 ---
 
-
 # 与Visual Experience Composer相关的问题疑难解答
 
-在某些条件下，在[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)中有时会出现显示问题。
+在某些情况下，在[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)中有时会出现显示问题。
 
-## 在可视化体验编辑器中打开网站时，Target 库不加载。（仅 VEC） {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## 当我在Visual Experience Composer中打开我的网站时，不加载[!DNL Target]库。 （仅 VEC）{#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 在可视化体验编辑器中打开网站时，Target 会添加两个参数（`mboxEdit=1` 和 `mboxDisable=1`）。
 
 如果您的网站（特别是单页应用程序）裁切掉我们的参数，或者在从一个页面导航到另一个页面（不重新加载页面）时将它们实际删除，则 Target 功能会损坏并且 Target 库不会加载。为避免出现此问题，请确保不要裁切掉或删除这两个参数。
 
-## 我的页面无法在 EEC 中打开，或者加载速度缓慢。活动或体验在 VEC 中的加载速度缓慢。（仅 VEC）  {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## 我的页面无法在 EEC 中打开，或者加载速度缓慢。活动或体验在 VEC 中的加载速度缓慢。（仅 VEC） {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 有几个问题会影响 Target 体验编辑器中的页面性能。一些常见的问题包括：
 
@@ -32,7 +32,7 @@ ht-degree: 89%
 
 如果增强型体验编辑器中出现这些问题，请尝试关闭增强型体验编辑器并改用可视化体验编辑器。
 
-要禁用增强体验书写器，请转至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视体验书写器]**&#x200B;并关闭&#x200B;**[!UICONTROL 启用增强体验书写器]**&#x200B;选项。
+要禁用增强体验书写器，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视体验书写器]**&#x200B;并关闭&#x200B;**[!UICONTROL 启用增强体验书写器]**&#x200B;选项。
 
 某些用户会在控制台中看到以下错误消息：
 

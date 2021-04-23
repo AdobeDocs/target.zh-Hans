@@ -2,20 +2,20 @@
 keywords: 设置；设置；设置；设置；设置；管理
 description: 设置Adobe Target，包括首选项、实施、用户管理、属性、Scene7配置、主机管理和响应令牌。
 title: 如何管理目标?
-feature: Administration & Configuration
+feature: 管理和配置
 role: Administrator
+exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 13%
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
 
+# 管理[!DNL Target]概述
 
-# 管理 Target 概述{#administer-target}
-
-帮助您管理[!DNL Adobe Target]的信息，包括可视体验书写器(VEC)、报告、Scene7配置、实现、主机、环境、响应令牌和用户的配置设置。
+帮助您管理[!DNL Adobe Target]的信息，包括Visual Experience Composer(VEC)、报告、Scene7配置、实现、主机、环境、响应令牌和用户的配置设置。
 
 要访问[!UICONTROL Administration]菜单项，请单击顶部菜单栏中的&#x200B;**[!UICONTROL Administration]** ，然后单击左侧的所需选项卡：
 

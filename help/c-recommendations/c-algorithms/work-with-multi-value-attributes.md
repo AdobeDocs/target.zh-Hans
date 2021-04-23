@@ -1,28 +1,28 @@
 ---
-keywords: 多值；属性；推荐；多值；多值；多值
-description: 了解如何使用特殊的多值操作符在Adobe TargetRecommendations处理多值字段，例如，推荐与多个演员一起拍摄电影时。
-title: 我是否可以在Recommendations使用多值属性？
+keywords: 多值；属性；推荐；多值；多值；
+description: 了解如何使用特殊的多值运算符在Adobe [!DNL Target] Recommendations中使用多值字段，例如，推荐与多个演员一起观看的影片时。
+title: 我是否可以在Recommendations中使用多值属性？
 feature: Recommendations
+exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-
 # 使用多值属性
 
-有时，您可能希望使用多值字段。 请仔细研究下面的示例：
+有时您可能希望使用多值字段。 请仔细研究下面的示例：
 
-* 您向用户优惠电影。 一部电影有多个演员。
+* 您可以将影片优惠给用户。 一部电影有多名演员。
 * 你卖音乐会的票。 给定用户有多个喜欢的栏。
 * 你卖衣服。 衬衫有多种尺寸。
 
-要处理这些情况中的推荐，您可以将多值数据传递给[!DNL Target Recommendations]并使用特殊的多值运算符。
+要处理这些场景中的推荐，您可以将多值数据传递给[!DNL Target Recommendations]并使用特殊的多值运算符。
 
-要允许[!DNL Recommendations]识别多值数据，应将其作为JSON数组发送，如以下代码示例中所示。
+要允许[!DNL Recommendations]标识多值数据，应将其作为JSON数组发送，如下面的代码示例所示。
 
 ## 在JavaScript中传递多值参数
 
@@ -71,18 +71,18 @@ function targetPageParams() {
 
 >[!NOTE]
 >
->当将单值左侧与多值右侧进行比较时，当使用用户档案属性匹配或参数(mbox)属性匹配规则时，支持动态匹配到多值属性目前仅在标准中可用。 促销、实体属性匹配或包含规则左侧的列表当前不支持多值属性。
+>当将单值左侧与多值右侧进行比较时，当使用用户档案属性匹配或参数(mbox)属性匹配规则时，支持动态匹配到多值属性当前仅在标准中可用。 促销、实体属性匹配或包含规则左侧的列表当前不支持多值属性。
 
 ### 示例：排除最近监视的项目
 
-假定您希望阻止推荐用户最近十部观看的电影中的任何电影。 首先，编写一个名为`user.lastWatchedMovies`的用户档案脚本，将最近十次查看的电影作为JSON数组进行跟踪。 然后，您可以使用以下包含规则排除项目：
+假设您希望阻止推荐用户最近10部已观看影片中的任何影片。 首先，编写一个名为`user.lastWatchedMovies`的用户档案脚本，将最近10个查看的电影作为JSON数组进行跟踪。 然后，您可以使用以下包含规则排除项目：
 
 ```
 `Profile Attribute Matching`
 `id - is not contained in list - user.lastWatchedMovies`
 ```
 
-包含规则的JSON API表示：
+包含规则的JSON API表示形式：
 
 ```
 {
@@ -97,14 +97,14 @@ function targetPageParams() {
 
 ### 示例：推荐用户收藏夹中的项目
 
-假设您希望仅在乐队演奏是用户最喜爱的乐队之一时向音乐会推荐票。 首先，确保您有一个名为`profile.favoriteBands`的用户档案变量，它包含用户最喜爱的栏。 然后，确保您的目录包含一个属性`entity.artistPerforming`，该属性包括演唱会中表演的艺术家。 然后，您可以使用以下包含规则：
+假设您希望仅在演奏的乐队是用户最喜爱的乐队之一时，向音乐会推荐票证。 首先，确保您有一个名为`profile.favoriteBands`的用户档案变量，它包含用户最喜爱的栏。 然后，确保您的目录包含一个属性`entity.artistPerforming`，该属性包含演唱会中表演的艺术家。 然后，您可以使用以下包含规则：
 
 ```
 `Profile Attribute Matching`
 `artistPerforming - is contained in list - profile.favoriteBands`
 ```
 
-包含规则的JSON API表示：
+包含规则的JSON API表示形式：
 
 ```
 {
@@ -117,7 +117,7 @@ function targetPageParams() {
 }
 ```
 
-### 示例：API创建推荐用户收藏夹中的项目的条件
+### 示例：API创建推荐用户收藏夹中项目的条件
 
 使用多值筛选规则的条件（与所有条件一样）可以通过Adobe I/OAPI创建。 用于创建条件的示例API调用，其中mbox参数列表`favorites`中包含实体属性`id`:
 

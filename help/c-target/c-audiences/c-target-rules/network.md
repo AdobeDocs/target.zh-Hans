@@ -1,18 +1,18 @@
 ---
 keywords: 定位;网络;定位网络;ISP;域名;连接速度;定位 ISP;定位域名;定位连接速度
-description: 了解如何根据网络详细信息（如ISP、域名和连接速度）在Adobe Target创建受众。
-title: 我能否根据网络选项目标访客?
-feature: Audiences
+description: 了解如何根据网络详细信息（如ISP、域名和连接速度）在Adobe [!DNL Target] 中创建受众。
+title: 我是否可以 [!DNL Target] 基于网络选项的访客?
+feature: 受众
+exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '509'
 ht-degree: 94%
 
 ---
 
-
-# 网络{#network}
+# 网络
 
 您可以基于网络详细信息创建受众。
 
@@ -29,7 +29,7 @@ ht-degree: 94%
       |---|---|---|---|
       | Cablevision | Cablevision Systems Corp. | *.optonline.net | 68.196.130.239 |
       | CenturyLink | Qwest Communications Company, LLC | *.centurylink.net | 64.40.65.0 |
-      | Charter Communications | 《宪章通讯》 | *.charter.com | 71.85.225.124 |
+      | Charter Communications | 《宪章》 | *.charter.com | 71.85.225.124 |
       | Comcast | Comcast Cable Communications, Inc. | *.comcast.net | 76.27.24.28 |
       | Cox | Cox Communications Inc. | *cox.net | 68.224.174.22 |
       | Speakeasy | MegaPath Corporation | *.speakeasy.net | 66.93.240.0 |

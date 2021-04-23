@@ -1,19 +1,19 @@
 ---
 keywords: at.js;2.0;1.x;Cookie
-description: 有关 Adobe Target at.js 2.x 和 at.js 1.x 如何处理 Cookie 的详细信息
-title: at.js Cookies
+description: 有关Adobe [!DNL Target] at.js 2.x和at.js 1.x如何处理Cookie的详细信息
+title: at.js Cookie
 feature: at.js
 role: Developer
+exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 98%
+source-wordcount: '1819'
+ht-degree: 97%
 
 ---
 
-
-# at.js Cookie{#at-js-cookies}
+# at.js Cookie
 
 有关 at.js 2.x 和 at.js 1.*x* Cookie 行为的信息。
 
@@ -112,7 +112,7 @@ Cookie 有多个默认设置。您可以根据需要更改这些设置，但 Coo
 | Cookie 名称 | mbox。 |
 | Cookie 域 | 您从中提供内容的的第二级域和顶级域。由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`。 |
 | 服务器域 | `clientcode.tt.omtrdc.net`，使用您帐户的客户代码。 |
-| Cookie 持续时间 | 上次登录后两年，该Cookie仍保留在访客的浏览器上。 您不能更改 Cookie 持续时间。 |
+| Cookie 持续时间 | Cookie会在访客上次登录后两年内保留在浏览器上。 您不能更改 Cookie 持续时间。 |
 | P3P 政策 | 根据大多数浏览器默认设置的要求，使用 P3P 政策发布 Cookie。P3P 政策指示提供 Cookie 的浏览器以及使用该信息的方式。 |
 
 此 Cookie 保存一系列值，以控制您的访客体验营销活动的方式：
@@ -124,11 +124,11 @@ Cookie 有多个默认设置。您可以根据需要更改这些设置，但 Coo
 | check | 用来确定访客是否支持 Cookie 的简单测试值。每次用户请求页面时设置。 |
 | disable | 如果访客的加载时间超过了 mbox.js 文件中设置的超时值，则进行设置。默认情况下，该设置持续 1 小时。 |
 
-## 由于 Apple WebKit 跟踪更改而对 Safari 访客的 Target 产生的影响
+## 由于Apple WebKit跟踪更改对[!DNL Target]的Safari访客的影响
 
 请牢记以下内容：
 
-### Adobe Target 跟踪如何工作？
+### Adobe [!DNL Target]跟踪如何工作？
 
 | Cookie | 详细信息 |
 |--- |--- |

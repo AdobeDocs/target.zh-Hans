@@ -2,17 +2,17 @@
 keywords: 概述和参考
 description: 进一步了解访客用户档案，这些访客包含有关您的如何使用页面和其他优化内容位置的信息。
 title: 什么是访客用户档案?
-feature: Audiences
+feature: 受众
+exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 78%
 
 ---
 
-
-# 访客配置文件{#visitor-profiles}
+# 访客配置文件
 
 访客配置文件包含有关访客如何使用您的页面和其他已优化内容位置的信息
 

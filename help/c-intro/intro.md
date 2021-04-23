@@ -1,15 +1,15 @@
 ---
 keywords: Target Standard;Recommendations;目标 Premium;Automated Personalization；自动目标；自动目标；权限；什么是adobe目标;
-description: 了解 Adobe Target Standard 和 Adobe Target Premium 的基础知识。Target Premium 包含标准产品中不提供的高级功能。
+description: 了解Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] 高级版的基础知识，它包含标准产品中没有的高级功能。
 landing-page-description: 个性化客户体验以最大限度地提升网站和移动站点、应用程序、社交媒体和其他数字渠道的收入。
 title: 什么是 Target？
-feature: Overview
+feature: 概述
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
-source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 44%
+source-wordcount: '939'
+ht-degree: 41%
 
 ---
 
@@ -45,7 +45,7 @@ Target 包含以下高级功能：
 
 ### 自动定位
 
-[自动定](/help/c-activities/auto-target/auto-target-to-optimize.md) 位使用高级机器学习来识别多个由营销人员定义的卓越体验。[!UICONTROL 然后，自] 动定位为每位访客提供量身定制的体验。投放基于个别客户用户档案和以前具有相似用户档案的访客的行为。 [!UICONTROL Auto-Targep可] 以个性化内容并推动转化。
+[自动定](/help/c-activities/auto-target/auto-target-to-optimize.md) 位使用高级机器学习来识别多个由营销人员定义的卓越体验。[!UICONTROL 然后，自] 动定位为每位访客提供最定制的体验。投放基于个别客户用户档案和以前具有相似用户档案的访客的行为。 [!UICONTROL Auto-Targep可] 以个性化内容并推动转化。
 
 ### 推荐
 
@@ -90,7 +90,7 @@ Target 包含以下高级功能：
 
 有关更多信息，请参阅 [Recommendations Classic 文档](/help/assets/adobe-recommendations-classic.pdf)。
 
-## Experience League：Adobe Target 欢迎工具包 {#kit}
+## Experience League:Adobe[!DNL Target]欢迎套件{#kit}
 
 使用此欢迎工具包在[!DNL Adobe Target]上构建优化和个性化项目。 欢迎工具包包含关键信息、工具和资源，可帮助您准备并启动第一个[!DNL Target]活动。 该工具包包括短期快速赢取和长期优化策略的想法。
 

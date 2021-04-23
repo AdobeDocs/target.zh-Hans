@@ -1,18 +1,18 @@
 ---
-keywords: 推荐源；源；SAINT;ftp;csv；分类；分析分类
-description: 了解如何使用CSV文件、Google产品搜索源格式和Analytics产品分类将导入实体馈送到Adobe TargetRecommendations。
-title: 如何在目标Recommendations使用源？
+keywords: 推荐源；feed;SAINT;ftp;csv；分类；分析分类
+description: 了解如何使用CSV文件、Google产品搜索源格式和Analytics产品分类将导入实体导入Adobe [!DNL Target] Recommendations。
+title: 如何在 [!DNL Target] Recommendations中使用源？
 feature: Recommendations
+exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2522'
 ht-degree: 84%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 信息源{#feeds}
+# ![PREMIUM](/help/assets/premium.png) 信息源
 
 可使用信息源将实体导入到 [!DNL Adobe Target Recommendations] 中。可以使用 CSV 文件、Google Product Search 信息源格式和 Adobe Analytics 产品分类来发送实体。
 
@@ -29,7 +29,7 @@ ht-degree: 84%
 * 在设计中显示值
 * 定义条件包含规则
 * 将项目排序到不同的集合
-* 将排除应用于推荐
+* 将排除项应用于推荐
 
 项目说明可以使用源或mbox传递到[!DNL Target]。 如果同时通过实体源和 mbox 收集数据，则采用最新的数据。通常，最新的数据来自 mbox，因为 mbox 的查看频率更高。在极少数情况下，实体源数据和 mbox 数据的时间相同，这时使用 mbox 数据。
 
@@ -51,7 +51,7 @@ ht-degree: 84%
 >上传的实体和实体属性将在61天后过期。 这意味着：
 >
 >* 您的源应至少每月运行，以确保您的目录内容不会过期。
->* 从源文件删除项目不会从目录中删除该项目。 要从目录中删除项目，请通过目标UI或API手动删除项目。 或者，修改物料属性（如库存），以确保将物料排除在考虑之外。
+>* 从源文件中删除项目不会从目录中删除该项目。 要从目录中删除项目，请通过目标 UI或API手动删除项目。 或者，修改物料属性（如库存）以确保将物料排除在考虑之外。
 
 
 ## 源类型
@@ -118,13 +118,13 @@ Google Product Search 信息源类型使用 Google 格式。这与 Adobe 专有�
 >
 >无需使用 Google 数据。[!DNL Recommendations] 使用与 Google 相同的格式。您可以使用此方法上传您的任何数据，并且还可以使用可用的计划功能。但是，您必须在设置文件时保留 Google 的预定义属性名称。
 
-大多数零售商会将产品上传到 Google，因此当访客使用 Google Product Search 时，他们的产品将会显示出来。[!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。实体源可以通过。xml、.txt或。tsv发送到[!DNL Recommendations]，并可以使用Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定义的[属性。 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
+大多数零售商会将产品上传到 Google，因此当访客使用 Google Product Search 时，他们的产品将会显示出来。[!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。实体源可以通过.xml、.txt或.tsv发送到[!DNL Recommendations]，并可以使用Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定义的[属性。 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
 
 >[!NOTE]
 >
 >托管 Google 信息源内容的服务器上必须可以使用 POST 方法。
 
-由于[!DNL Recommendations]用户已配置。xml或。txt源以通过URL或FTP发送到Google，因此实体源接受该产品数据，并使用它构建推荐目录。 指定此信息源存在的位置后，推荐服务器随即会检索数据。
+由于[!DNL Recommendations]用户已配置.xml或.txt源以通过URL或FTP发送到Google，因此实体源接受该产品数据并使用它构建推荐目录。 指定此信息源存在的位置后，推荐服务器随即会检索数据。
 
 如果在使用 Google Product Search 进行实体信息源上传时，想要在此显示推荐或跟踪产品浏览次数以根据浏览次数进行算法交付，则页面上仍需要有产品页面 mbox。
 
@@ -301,7 +301,7 @@ Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件�
 | 正在等待下载 | Target 正准备下载信息源文件。 |
 | 正在下载信息源文件 | Target 正在下载信息源文件。 |
 | 正在导入项目 | Target 正在从信息源文件中导入项目。 |
-| 已在&#x200B;*指定时间*&#x200B;成功导入信息源 | Target 已将信息源文件导入其内容交付系统。已在内容交付系统中对项目属性进行了更改，并且此更改将很快地反映在交付的推荐中。如果没有看到预期的更改，请稍后重试并刷新包含推荐的页面。<br>注释:<ul><li>如果对项目属性所做的更改导致项目被排除在推荐之外，则将立即反映该排除。 如果项目是新添加的，或者对属性的更改导致该项目&#x200B;*不再*&#x200B;被排除在推荐之外，则在下一次算法更新之前不会反映此项目，此过程将在 24 小时内发生。</li><li>显示此状态时，更新可能尚未反映在目录搜索用户界面中。 “目录搜索”中会列出一个单独的状态，指示上次更新可搜索目录的时间。</li></ul> |
+| 已在&#x200B;*指定时间*&#x200B;成功导入信息源 | Target 已将信息源文件导入其内容交付系统。已在内容交付系统中对项目属性进行了更改，并且此更改将很快地反映在交付的推荐中。如果没有看到预期的更改，请稍后重试并刷新包含推荐的页面。<br>注释:<ul><li>如果对项目属性的更改导致项目从推荐中排除，则将立即反映排除。 如果项目是新添加的，或者对属性的更改导致该项目&#x200B;*不再*&#x200B;被排除在推荐之外，则在下一次算法更新之前不会反映此项目，此过程将在 24 小时内发生。</li><li>显示此状态时，更新可能尚未反映在目录搜索用户界面中。 “目录搜索”中会列出一个单独的状态，指示上次更新可搜索目录的时间。</li></ul> |
 | 未能编入索引 | 索引操作失败。请重试。 |
 | 未找到服务器 | FTP 或 URL 位置无效或无法访问。 |
 
@@ -309,7 +309,7 @@ Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件�
 
 >[!IMPORTANT]
 >
->上传的实体会在 61 天后过期。这意味着您应该至少每 60 天上传一次信息源文件，以避免对您的推荐活动造成干扰。如果某个项目未至少每60天包含一次馈送文件（或其他实体更新方法）,[!DNL Adobe Target]会推断该项目不再相关，并将其从目录中删除。
+>上传的实体会在 61 天后过期。这意味着您应该至少每 60 天上传一次信息源文件，以避免对您的推荐活动造成干扰。如果某个项目未至少每60天包含一次（或其他实体更新方法），[!DNL Adobe Target]会推断该项目不再相关，并将其从目录中删除。
 
 ### 信息源状态指示器 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 

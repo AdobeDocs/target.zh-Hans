@@ -1,22 +1,22 @@
 ---
 keywords: FAQ;常见问题解答;Analytics for Target;A4T;重定向;重定向选件;adobe-mc-sdid;adobe_mc_ref
-description: 查找有关在使用Analytics for 目标(A4T)时使用重定向优惠的问题的解答。 A4T允许您将Analytics报告用于目标活动。
+description: 在 [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] 优惠中使用Analytics时查找有关使用重定向活动的问题的解答。
 title: 在哪里可以找到有关使用A4T重定向优惠的常见问题解答？
 feature: Analytics for Target (A4T)
+exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1218'
 ht-degree: 69%
 
 ---
-
 
 # 重定向选件 - A4T 常见问题解答
 
 本主题包含有关使用[!DNL Adobe Analytics]作为[!DNL Adobe Target](A4T)的报告源时使用重定向优惠时常被问到的问题的解答。
 
-## Analytics for Target (A4T) 是否支持重定向选件？{#section_46B8B03ED4D542C6AD875F5F61176298}
+## Adobe Target(A4T)的Analytics是否支持重定向优惠?{#section_46B8B03ED4D542C6AD875F5F61176298}
 
 是，如果您的实现使用[!DNL at.js]。 但是，您的实施必须满足下列最低要求，才能在使用 Analytics 作为报表源的活动中使用[重定向选件](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
 

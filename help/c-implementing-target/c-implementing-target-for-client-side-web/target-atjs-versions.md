@@ -1,13 +1,13 @@
 ---
 keywords: at.js版本；at.js版本；发行说明
-description: 视图有关Adobe Target at.js JavaScript库各个版本中更改的详细信息。
+description: 视图有关Adobe [!DNL Target] at.js JavaScript库每个版本中更改的详细信息。
 title: at.js的每个版本包含什么？
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '4185'
+source-wordcount: '4184'
 ht-degree: 81%
 
 ---

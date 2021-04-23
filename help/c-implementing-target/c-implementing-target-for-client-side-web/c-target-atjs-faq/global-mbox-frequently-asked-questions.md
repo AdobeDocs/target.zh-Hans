@@ -1,23 +1,23 @@
 ---
 keywords: 故障诊断;常见问题解答;FAQ;全局;全局 mbox
-description: 阅读关于Adobe Target全球mbox的常见问题解答(FAQ)和答案。
+description: 阅读关于Adobe [!DNL Target] 全局mbox的常见问题解答(FAQ)和答案。
 title: 有关全球mbox的常见问题有哪些？
 feature: at.js
 role: Developer
+exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 93%
+source-wordcount: '312'
+ht-degree: 85%
 
 ---
 
-
-# 全局 mbox 常见问题解答{#global-mbox-frequently-asked-questions}
+# 全局 mbox 常见问题解答
 
 有关全局 mbox 的常见问题解答 (FAQ) 列表。
 
-## 如果我设置了跨多个域的 Target 帐户，那么我是否可以拥有多个全局 mbox？{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
+## 如果我的[!DNL Target]帐户跨多个域设置，我是否可以拥有多个全局mbox?{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 您的帐户仅支持一个全局 mbox。
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 
 您还可以在页面上使用 [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 来传递参数，然后在 [!UICONTROL 可视化体验编辑器] (VEC) 的“配置 URL”部分选择这些参数，或者在基于表单的体验编辑器中通过将参数添加为“细化”来选择这些参数。
 
-## 如何在 Target 全局 mbox 中传递收入数据？{#section_17AEA933BADA4D169CCEDF5833C41306}
+## 如何在[!DNL Target]全局mbox上传递收入数据？{#section_17AEA933BADA4D169CCEDF5833C41306}
 
 要在 target-global-mbox 中收集收入和订单信息，必须将“mbox 参数”发送到 Target。这些参数是名称/值对，用于将更多信息发送到 Target。Target 会自动查找这些参数（保留名称），以使用它们来填充收入数据。
 

@@ -1,19 +1,19 @@
 ---
 keywords: 移动设备应用程序;移动设备应用程序位置;定位移动设备应用程序;移动设备 Target 位置;移动设备应用程序成功量度
-description: 视图示例代码，帮助您了解如何在iOS应用程序中创建位置和成功指标，以便使用Adobe Target个性化和优化您的应用程序。
-title: 如何在iOS应用程序中创建目标位置和成功指标？
-feature: Implement Mobile
+description: 视图示例代码可帮助您了解如何在iOS应用程序中创建位置和成功量度，以便您能够使用Adobe [!DNL Target] 个性化和优化您的应用程序。
+title: 如何在iOS应用程序中创建 [!DNL Target] 位置和成功量度？
+feature: 实施移动
 role: Developer
+exl-id: c2f05478-b019-47a7-b1a5-3783929e6732
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 83%
+source-wordcount: '419'
+ht-degree: 81%
 
 ---
 
-
-# iOS - 创建 Target 位置和成功量度{#ios-create-a-target-location-and-success-metric}
+# iOS — 创建[!DNL Target]位置和成功量度
 
 要在移动设备应用程序中使用 Target，需创建位置和成功量度。
 
@@ -21,7 +21,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->有关所有可用列表方法的目标，请参阅[移动文档](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html)。
+>有关所有可用目标方法的列表，请参阅[移动文档](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html)。
 
 要在应用程序中创建 Target 位置并提出请求，主要可以使用以下两种方法：
 

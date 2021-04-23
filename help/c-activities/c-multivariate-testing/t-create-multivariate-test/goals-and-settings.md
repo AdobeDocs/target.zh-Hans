@@ -1,20 +1,20 @@
 ---
-keywords: 活动设置；目标和设置；multivariate;mvt
-description: 了解如何使用Adobe Target的“目标和设置”页指定有关Multivariate Test(MVT)活动目标的信息。
+keywords: 活动设置；目标和设置；多变量；mvt
+description: 了解如何使用Adobe [!DNL Target] 中的“目标和设置”页指定有关Multivariate Test(MVT)活动目标的信息。
 title: 如何在多变量测试(MVT)活动中指定目标和设置？
 feature: Multivariate Tests
+exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1281'
 ht-degree: 90%
 
 ---
 
-
 # 目标和设置(Multivariate Tests)
 
-在Adobe Target的“目标和设置”页面中，输入有关[!UICONTROL Multivariate](MVT)测试目标的信息。
+在Adobe Target的“目标和设置”页中，可输入有关[!UICONTROL Multivariate](MVT)测试目标的信息。
 
 * 活动设置
 * 报表设置
@@ -38,7 +38,7 @@ ht-degree: 90%
 
 如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。
 
-如果S[!UICONTROL Administration] > [!UICONTROL 报告]中未启用此选项（默认），请指定优先级：低、中或高。
+如果S[!UICONTROL Administration] > [!UICONTROL 报告]（默认）中未启用此选项，请指定优先级：低、中或高。
 
 要启用细粒度优先级，请单击[!UICONTROL 管理] > [!UICONTROL 报告]，然后将“启用细粒度优先级”选项切换到“开启”位置。
 
@@ -166,7 +166,7 @@ ht-degree: 90%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### 创建Multivariate Tests(9:25)![Tutorial徽章](/help/assets/tutorial.png)
+### 创建Multivariate Tests(9:25)![教程徽章](/help/assets/tutorial.png)
 
 以下视频演示了如何使用 Target 三步引导式工作流创建多变量测试。对目标和设置的讨论开始于 7:00。
 

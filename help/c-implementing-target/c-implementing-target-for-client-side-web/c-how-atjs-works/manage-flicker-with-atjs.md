@@ -1,19 +1,19 @@
 ---
 keywords: flicker;at.js；实现；异步；同步；同步
-description: 了解at.js和Adobe Target如何在页面或应用程序加载过程中防止闪烁(默认内容在被活动内容替换之前立即显示)。
+description: 了解at.js和Adobe [!DNL Target] 在页面或应用程序加载过程中如何防止闪烁(默认内容在被活动内容替换之前暂时显示)。
 title: at.js如何管理闪烁？
 feature: at.js
 role: Developer
+exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 76%
 
 ---
 
-
-# at.js 如何管理闪烁{#how-at-js-manages-flicker}
+# at.js 如何管理闪烁
 
 有关 Target at.js JavaScript 库如何在页面或应用程序加载期间阻止闪烁的信息。
 
@@ -27,7 +27,7 @@ ht-degree: 76%
 
 通过将不透明度设置为 0，可保持页面内容处于隐藏状态以防止闪烁，但浏览器仍会渲染页面并加载所有必需的资产，如 CSS、图像等。
 
-如果在您的实施中将不透明度设置为 0 不起作用，您还可以通过自定义 `bodyHiddenStyle` 并将其设置为 `body {visibility:hidden !important}` 来管理闪烁。您可以使用值体`{opacity:0 !important}`或`body {visibility:hidden !important}`，以最适合您的特定情况的方式。
+如果在您的实施中将不透明度设置为 0 不起作用，您还可以通过自定义 `bodyHiddenStyle` 并将其设置为 `body {visibility:hidden !important}` 来管理闪烁。您可以使用值body `{opacity:0 !important}`或`body {visibility:hidden !important}`，取最适合您的特定情况的值。
 
 下图显示了 at.js 1.*x* 和 at.js 2.x 中的“隐藏主体”和“显示主体”调用。
 
@@ -47,9 +47,9 @@ ht-degree: 76%
 
 您可以通过使用预先隐藏的代码片段来避免闪烁，在 [!DNL Target] 对相关 HTML 元素进行个性化后，系统会显示这些代码片段。
 
-at.js可以异步加载，直接嵌入到页面中或通过标签管理器(Adobe启动、动态标签管理器(DTM)等)。
+at.js可以异步加载，直接嵌入页面或通过标签管理器(Adobe启动、动态标签管理器(DTM)等)。
 
-如果at.js嵌入到页面中，则必须在加载at.js之前添加片段。 如果通过标记管理器加载at.js，则在加载标记管理器之前必须添加片段。 如果标记管理器同步加载，则脚本可能会包含在标记管理器中at.js之前。
+如果在页面上嵌入了at.js，则必须先添加片段，然后再加载at.js。 如果通过标签管理器加载at.js，则在加载标签管理器之前必须添加片段。 如果标签管理器是同步加载的，则脚本可能会包含在at.js之前的标签管理器中。
 
 预先隐藏的代码片段如下所示：
 
@@ -107,7 +107,7 @@ at.js可以异步加载，直接嵌入到页面中或通过标签管理器(Adobe
 body {opacity: 0 !important}
 ```
 
-## 管理at.js 2.x中的flickerView()
+## 管理at.js 2.x中的triggerView()的闪烁
 
 当使用 `triggerView()` 在 SPA 中显示目标内容时，开箱即用地提供闪烁管理。这意味着无需手动添加预先隐藏逻辑。相反，at.js 2.x 会在应用目标内容之前预先隐藏需要显示视图的位置。
 
@@ -134,7 +134,7 @@ adobe.target.getOffer({
 });
 ```
 
-## 在at.js 1.x（at.js 2.x中不支持）中使用带mboxCreate()的区域mbox
+## 在at.js 1.x（在at.js 2.x中不支持）中使用带mboxCreate()的区域mbox
 
 如果您使用区域 mbox 实施，则可以在配置以下类似示例代码的页面中使用 `mboxCreate()`：
 

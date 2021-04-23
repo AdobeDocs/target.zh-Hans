@@ -1,16 +1,16 @@
 ---
-keywords: Recommendations；简介；网络研讨会；演示
-description: 了解Adobe TargetRecommendations活动，它们会根据先前的用户活动或其他算法自动显示可能吸引客户的内容。
+keywords: Recommendations；介绍；介绍；webina；演示
+description: 了解Adobe [!DNL Target] 中的Recommendations活动，它会根据先前的用户活动或其他算法自动显示可能引起客户兴趣的内容。
 title: 什么是Recommendations活动?
 feature: Recommendations
+exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2117'
-ht-degree: 95%
+source-wordcount: '2115'
+ht-degree: 94%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations 简介
 
@@ -41,7 +41,7 @@ ht-degree: 95%
 * **游戏**：游戏公司使用 [!DNL Target] 向其控制台上的用户推荐游戏和内容。
 * **B2B 销售**：[企业对企业的公司使用 Target 向 B2B 潜在用户推荐视频、白皮书和博客文章；提供下载；并向现有客户提供帮助](https://theblog.adobe.com/testing-shifts-high-gear-intel)。
 
-* **旅行**: [一家德国旅行簿记员使用目标向旅客推荐酒店等](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
+* **旅行**: [一家德国旅游书店使用目标向旅客推荐酒店等](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
 
 * **零售业**：[一家行业领先的 BB 零售商使用 Target 在浏览器及移动应用程序中推荐顶级类别和产品，以吸引访客](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2。
 
@@ -57,7 +57,7 @@ ht-degree: 95%
 * **完善的模型**，可帮助了解您目录中的数百万个项目和各种交互活动。[!DNL Target] 拥有经过十多年经验积累的先进的机器学习功能，我们每年都会处理数十亿条推荐。
 * **用户上下文**，可确保推荐及时并且与用户相关。您不希望推荐某个用户刚刚观看过的视频，或者某个用户刚刚添加到购物车的衬衫。这时候，您可以在推荐中使用 Target 中丰富的用户配置文件来确保个性化。
 
-## 实施 Target 推荐
+## 实施[!DNL Target] Recommendations
 
 从策略开始。
 
@@ -129,7 +129,7 @@ ht-degree: 95%
 
 ![显示构成推荐活动各个部分（受众、标准和设计）的插图](/help/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] 开箱即用地包括 14 个内置受众、42 个内置标准和 10 个内置设计模板。您可以自定义每个项目或添加自己的项目。我们之前曾举办过[关于在[!DNL Target]中构建受众](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)的网络研讨会。 本节侧重于定义标准，这些标准可定义将推荐哪些项目。
+[!DNL Target] 开箱即用地包括 14 个内置受众、42 个内置标准和 10 个内置设计模板。您可以自定义每个项目或添加自己的项目。我们之前有过[网络研讨会，内容是在[!DNL Target]中构建受众](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)。 本节侧重于定义标准，这些标准可定义将推荐哪些项目。
 
 Target 使用标准卡片的概念。标准卡片就像个性化的配方。
 
@@ -195,6 +195,6 @@ Target 使用标准卡片的概念。标准卡片就像个性化的配方。
 
 完成上述推荐漏斗中所述的任务后，您将获得最终的推荐。要在 [!DNL Target] 中观看产品内演示，该演示在 *Adobe Target 基础知识网络研讨会*&#x200B;中的 21:00 分钟处开始，其链接如下。
 
-## Adobe Target 基础知识网络研讨会：Recommendations 简介{#intro-to-recs}
+## Adobe[!DNL Target]网络研讨会基础知识：Recommendations简介{#intro-to-recs}
 
 [Recommendations 简介](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

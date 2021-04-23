@@ -1,18 +1,18 @@
 ---
-description: 了解如何使用AdobeMobile SDK向您的移动应用程序访客展示最佳体验。
-title: 目标如何在移动应用程序中工作？
-feature: Implement Mobile
+description: 了解如何使用Adobe Mobile SDK向您的移动App访客展示最佳体验。
+title: 如何 [!DNL Target] 在移动应用程序中工作？
+feature: 实施移动
 role: Developer
+exl-id: 1a5f34dc-932d-47c7-b730-6d1658343fb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
-
-# Target 在移动设备应用程序中的工作原理{#how-target-works-in-mobile-apps}
+# [!DNL Target]如何在移动应用程序中工作
 
 Adobe Mobile SDK 连接到 Target 服务器以获取内容和其他数据点，从而向用户显示正确的体验。
 
@@ -33,4 +33,3 @@ Adobe Mobile SDK 连接到 Target 服务器以获取内容和其他数据点，�
 **了解 Target 在 SDK 中的工作原理**
 
 ![](assets/how-target-mobile-works.png)
-

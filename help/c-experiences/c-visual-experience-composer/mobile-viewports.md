@@ -1,16 +1,16 @@
 ---
 keywords: 响应式；移动视区；视区；设备；移动；响应式Web设计；rwd
-description: 移动视区可帮助您了解Adobe Target活动在各种尺寸的屏幕上的显示效果。 查找一列表流行的设备视口大小和分辨率。
+description: 移动视区可帮助您了解Adobe [!DNL Target] 活动在各种尺寸的屏幕上的显示情况。 查找一列表流行的设备视口大小和分辨率。
 title: 如何使用移动视区实现响应式体验？
-feature: Visual Experience Composer (VEC)
+feature: 可视化体验编辑器 (VEC)
+exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1165'
 ht-degree: 35%
 
 ---
-
 
 # 移动视区，提供响应式体验
 
@@ -45,7 +45,7 @@ ht-degree: 35%
 | iPhone 11 Xs Max | 414 x 896 | 1242 x 2688 |
 | iPhone11 | 414 x 896 | 828 x 1792 |
 | iPhone 11 Xr | 414 x 896 | 828 x 1792 |
-| iPhone 12 Pro | 375 x 812 | 1125 x 2436 |
+| iPhone 11 Pro | 375 x 812 | 1125 x 2436 |
 | iPhone 11 X | 375 x 812 | 1125 x 2436 |
 | iPhone 11 Xs | 375 x 812 | 1125 x 2436 |
 | iPhone X | 375 x 812 | 1125 x 2436 |

@@ -1,16 +1,16 @@
 ---
 keywords: 疑难解答；量度差异；常见问题解答；报告；新访客；新访客；返回访客；返回访客；返回访问；新访问
-description: 浏览有关Adobe Target 报告的常见问题解答列表。
-title: 在哪里可以找到有关目标报告的问题解答？
-feature: Reports
+description: 浏览有关Adobe [!DNL Target] 报告的常见问题解答列表。
+title: 在哪里可以找到有关 [!DNL Target] 报告的问题的答案？
+feature: 报表
+exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 23%
+source-wordcount: '1219'
+ht-degree: 24%
 
 ---
-
 
 # 报表常见问题解答
 

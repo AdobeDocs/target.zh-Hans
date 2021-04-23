@@ -1,18 +1,18 @@
 ---
 keywords: 创建推荐;推荐活动;新建推荐;推荐概述
-description: 了解如何使用Adobe Target可视化体验书写器(VEC)在启用目标的页面上直接创建Recommendations活动。
+description: 了解如何使用Adobe [!DNL Target] 可视体验书写器(VEC)直接在启用了 [!DNL Target]的页面上创建Recommendations活动。
 title: 如何创建Recommendations活动?
 feature: Recommendations
+exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 76%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 创建推荐活动{#create-a-recommendations-activity}
+# ![PREMIUM](/help/assets/premium.png) 创建推荐活动
 
 使用 Target 可视化体验编辑器 (VEC)，可直接在启用了 Target 的页面上创建“推荐”活动，并在 Target 中修改页面的各个部分。
 
@@ -32,7 +32,7 @@ ht-degree: 76%
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >上图中的[!UICONTROL [选择工作场所]](/help/administrating-target/c-user-management/property-channel/property-channel.md)选项是[目标Premium](/help/c-intro/intro.md)功能。 如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。
+   >上图中的[!UICONTROL [选择工作区]](/help/administrating-target/c-user-management/property-channel/property-channel.md)选项是[目标 Premium](/help/c-intro/intro.md)功能。 如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。
 
 1. （视情况而定）如果您是一位 [Target Premium 客户](/help/c-intro/intro.md#premium)，请选择一个[工作区](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -46,17 +46,17 @@ ht-degree: 76%
 
    单击“[!UICONTROL 下一步]”后，VEC 将会打开并显示您的页面。您可以将当前元素替换为推荐，也可以插入推荐。
 
-1. 单击页面上的某个元素，如果该元素所在的位置有推荐，请单击&#x200B;**[!UICONTROL 替换w/Recommendations]**、**[!UICONTROL 在]**&#x200B;之前插入Recommendations或&#x200B;**[!UICONTROL 在]**&#x200B;之后插入Recommendations。
+1. 单击页面上的某个元素，如果该元素所在的位置有可用的推荐，请单击&#x200B;**[!UICONTROL 替换w/ Recommendations]**、**[!UICONTROL 在]**&#x200B;之前插入Recommendations或&#x200B;**[!UICONTROL 在]**&#x200B;之后插入Recommendations。
 
-   仅当访客符合推荐条件时，网站的推荐内容才会显示。 不符合推荐条件的访客将看到默认内容。
+   访客只有在符合推荐条件时，才会看到推荐内容。 不符合推荐条件的访客将看到默认内容。
 
    ![“推荐”选项](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   * **[!UICONTROL 更换为Recommendations]**:将元素替换为推荐将删除当前内容并将其替换为推荐。当访客访问您的网站并符合推荐条件时，他们将在指定区域看到推荐项目，而不是现有内容。
-   * **[!UICONTROL 在以前插入Recommendations]**:在所选元素之前插入建议将推荐内容放在该元素之前。根据您的页面结构，推荐显示在选定元素的上方或左侧。
-   * **[!UICONTROL 在以下位置插入Recommendations]**:在选定元素后插入推荐将推荐内容放在该元素后。根据页面结构，建议显示在选定元素的下方或右侧。
+   * **[!UICONTROL 替换为Recommendations]**:将元素替换为推荐将删除当前内容，并将其替换为您的推荐。当访客访问您的网站并符合推荐条件时，他们将在指定区域中看到推荐项目，而不是现有内容。
+   * **[!UICONTROL 在以前插入Recommendations]**:在选定元素之前插入建议将建议的内容放在该元素之前。根据您的页面结构，推荐将显示在选定元素的上方或左侧。
+   * **[!UICONTROL 在以下位置后插入Recommendations]**:在选定元素后插入推荐将推荐内容放在该元素后。根据您的页面结构，建议将显示在选定元素的下方或右侧。
 
-   使用&#x200B;**[!UICONTROL 展开选择]**&#x200B;选项可以展开选定的位置(父容器)，从而帮助您更轻松地识别和包含所需的页面元素。
+   通过&#x200B;**[!UICONTROL 展开选择]**&#x200B;选项，可以展开所选位置(父容器)，从而帮助您更轻松地识别和包含所需的页面元素。
 
 1. 选择页面类型。
 
@@ -75,7 +75,7 @@ ht-degree: 76%
 
 1. 选择一个或多个[标准](/help/c-recommendations/c-algorithms/algorithms.md)。
 
-   标准会以卡片的形式显示，卡片中提供了每个标准的相关信息。默认情况下，[!UICONTROL 选择标准]屏幕显示与行业垂直标准以及上一步中选择的页面类型兼容的标准。 您可以更改这些选项以显示其他标准。
+   标准会以卡片的形式显示，卡片中提供了每个标准的相关信息。默认情况下，[!UICONTROL 选择标准]屏幕显示与您在上一步中选择的行业垂直和页面类型兼容的标准。 您可以更改这些选项以显示其他标准。
 
    >[!NOTE]
    >

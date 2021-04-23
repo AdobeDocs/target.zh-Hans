@@ -1,18 +1,18 @@
 ---
 keywords: 局部数据;部分数据;A4T;差异;analytics for target;孤立;虚拟报表包;虚拟;故障诊断;未拼合;夸大;未指定
-description: 了解在使用Analytics for 目标(A4t)时，如何将夸大的访问和访客计数的影响降至最低。 了解什么是“部分数据”以及如何减少数据。
+description: 了解在使用 [!DNL Target] (A4t)的Analytics时，如何将夸大的访问和访客计数的影响降至最低。 了解什么是“部分数据”以及如何减少数据。
 title: 如何将A4T中的夸大访问和访客计数降至最低？
 feature: Analytics for Target (A4T)
+exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1362'
 ht-degree: 48%
 
 ---
 
-
-# 在 A4T 中最大限度地减少夸大的访问和访客计数{#minimizing-inflated-visit-and-visitor-counts-in-a-t}
+# 在 A4T 中最大限度地减少夸大的访问和访客计数
 
 在将[!DNL Adobe Analytics]用作[!DNL Adobe Target](A4T)的报告源时，帮助您将夸大的“访问”和“访客”计数的影响降至最低的信息。
 

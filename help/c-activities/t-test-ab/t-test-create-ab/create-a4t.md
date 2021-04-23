@@ -1,22 +1,22 @@
 ---
-keywords: 定位；分析；跟踪服务器；目标分析；a4t
-description: 了解如何在Adobe Target配置活动以将Adobe Analytics用作报告源。 此集成称为目标分析(A4T)。
-title: 如何在目标中使用分析数据？
+keywords: 定位；分析；跟踪服务器；分析以目标;a4t
+description: 了解如何在Adobe [!DNL Target] to use Adobe Analytics as the reporting source. This integration is called Analytics for [!DNL Target] (A4T)中配置活动。
+title: 如何在目标中使用Analytics数据？
 feature: Analytics for Target (A4T)
+exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 85%
+source-wordcount: '543'
+ht-degree: 88%
 
 ---
-
 
 # 使用 Analytics 数据
 
 可以在[!DNL Adobe Target]中配置活动以使用[!DNL Adobe Analytics]作为报告源(A4T)。
 
-有关将Analytics设置为目标的数据源的详细信息，请参阅[将Adobe Analytics设置为Adobe Target的报告源](/help/c-integrating-target-with-mac/a4t/a4t.md)。
+有关将Analytics设置为目标的报告源的详细信息，请参阅[将Adobe Analytics设置为Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md)的源。
 
 在设置将 Analytics 用作报表源的活动之前，请先为该活动建立目标，例如提升每位访客带来的收入 (RPV) 或增加购物车的点击量。需为营销活动选择最终成功量度。尽管可以在 Analytics 中随时选择其他量度，但您仍然必须指定希望此测试影响的特定量度。
 

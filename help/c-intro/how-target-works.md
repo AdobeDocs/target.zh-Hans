@@ -5,9 +5,9 @@ title: 如何 [!DNL Target] 工作？
 feature: 概述
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2564'
 ht-degree: 31%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 31%
 
 了解[!DNL Adobe Target]的工作方式，包括有关[!DNL Adobe Experience Platform Web SDK]和JavaScript库（at.js和mbox.js）的信息。 本文还介绍了可以使用[!DNL Target]创建的各种活动类型。 您还可以了解[!DNL Target]边缘网络、搜索引擎优化(SEO)以及[!DNL Target]如何检测机器人程序。
 
-## 目标 Platform Web SDK和JavaScript库{#libraries}
+## [!DNL Target] 平台Web SDK和JavaScript库  {#libraries}
 
 [!DNL Target] 与使用或JavaScript库 [!DNL AEP Web SDK] 的网站集成：
 
@@ -41,7 +41,7 @@ ht-degree: 31%
 
 向访客显示的内容取决于您创建的活动类型：
 
-### A/B 测试
+### [!UICONTROL A/B 测试]
 
 基本A/B测试中显示的内容是从您分配给活动的体验中随机选择的。 您可以为每个体验分配流量分配百分比。 由于流量的随机分割，它可能需要大量初始流量才能使百分比均衡。 例如，如果您创建了两个体验，则会随机选取起始体验。如果流量很少，访客的百分比可能会偏向其中一个体验。随着流量的增加，百分比会相等。
 
@@ -54,25 +54,25 @@ ht-degree: 31%
 
 有关更多信息，请参阅[创建 A/B 测试](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)。
 
-### 自动分配
+### [!UICONTROL Auto-Allocate（自动分配）]
 
-“自动分配”可在两种或多种体验中确定优胜者。 “自动分配”会自动将更多流量重新分配给入选体验，这有助于在测试继续运行和学习的同时提高转化率。
+[!UICONTROL 自动分] 配可在两种或多种体验中确定优胜者。[!UICONTROL 自动分] 配会自动将更多流量重新分配给入选体验，这有助于在测试继续运行和学习的同时提高转化率。
 
-有关更多信息，请参阅[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+有关更多信息，请参阅[[!UICONTROL 自动分配]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
-### 自动定位 (AT)
+### [!UICONTROL 自动定位] (AT)
 
 自动目标使用高级机器学习从多个高性能营销人员定义的体验中进行选择。 自动目标为每位访客提供量身定制的体验。 体验投放基于个别客户用户档案和以前具有相似用户档案的访客的行为。 使用自动目标来个性化内容并推动转化。
 
 有关更多信息，请参阅[自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md)。
 
-### 自动个性化 (AP)
+### [!UICONTROL 自动个性化] (AP)
 
 Automated Personalization(AP)结合了优惠或消息，并使用高级机器学习将不同的优惠变量与每个访客相匹配。 体验投放基于个人客户用户档案，实现内容个性化并推动提升。
 
 有关更多信息，请参阅[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)。
 
-### 体验定位 (XT)
+### [!UICONTROL 体验定位] (XT)
 
 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。
 
@@ -80,13 +80,13 @@ Automated Personalization(AP)结合了优惠或消息，并使用高级机器学
 
 有关详细信息，请参阅[体验定位](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)。
 
-### 多变量测试 (MVT)
+### [!UICONTROL 多变量测试] (MVT)
 
 Multivariate Testing(MVT)比较页面上元素中的优惠组合，以确定哪种组合最适合特定受众。 MVT可帮助确定最影响活动成功的元素。
 
 更多信息，请参阅[多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)。
 
-### Recommendations
+### [!UICONTROL 推荐]
 
 “推荐”活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。“推荐”有助于将客户导向到他们可能还不知道的相关项目。
 
@@ -213,6 +213,6 @@ Adobe [!DNL Target]使用[DeviceAtlas](https://deviceatlas.com/device-data/user-
 * 创建或检索访客配置文件
 * 记录任何配置文件属性或执行配置文件脚本
 * 查找 Adobe Audience Manager (AAM) 区段（如果适用）
-* 使用机器人流量为Recommendations、自动目标、Automated Personalization或自动分配活动建模和提供个性化内容
+* 在为Recommendations、自动目标、Automated Personalization或[!UICONTROL 自动分配]活动建模和提供个性化内容时使用机器人流量
 * 记录活动访问情况以进行报告
 * 要发送到[!DNL Adobe Experience Cloud]平台的日志数据

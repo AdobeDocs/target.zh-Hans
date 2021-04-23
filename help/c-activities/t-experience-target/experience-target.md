@@ -1,16 +1,16 @@
 ---
 keywords: 定位;体验定位;XT;登陆页面;登陆页面营销活动
-description: 了解如何使用Adobe Target的体验定位(XT)活动根据一组由营销人员定义的规则和标准将内容交付到特定受众。
+description: 了解如何使用Adobe [!DNL Target] 中的体验定位(XT)活动，根据一组由营销人员定义的规则和标准将内容交付到特定受众。
 title: 什么是体验定位(XT)活动?
-feature: Experience Targeting
+feature: 体验定位
+exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 93%
 
 ---
-
 
 # 体验定位
 

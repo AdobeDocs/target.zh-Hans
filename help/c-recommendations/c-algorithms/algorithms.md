@@ -1,16 +1,16 @@
 ---
-keywords: 推荐；推荐活动；标准；算法；推荐键；自定义键；行业垂直；零售；eccommerce;lead generation;b2b；金融服务；媒体；发布
-description: 了解如何在Adobe TargetRecommendations使用标准。 标准是根据一组预定的访客行为确定推荐哪些内容的规则。
-title: 如何在目标Recommendations中使用标准？
+keywords: 推荐；推荐活动；标准；算法；推荐键；自定义键；行业垂直；零售；电子商务；商机生成；b2b；金融服务；媒体；发布
+description: 了解如何在Adobe [!DNL Target] Recommendations中使用标准。 标准是根据一组预定的访客行为确定推荐哪些内容的规则。
+title: 如何使用 [!DNL Target] Recommendations中的标准？
 feature: Recommendations
+exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1086'
 ht-degree: 52%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 标准 
 
@@ -20,7 +20,7 @@ ht-degree: 52%
 
 ## 垂直行业 {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-在创建标准时，您可以根据推荐活动的目标选择垂直行业。
+在创建标准时，您可以根据推荐活动的目标选择行业垂直。
 
 | 垂直行业 | 目标 |
 |--- |--- |
@@ -28,15 +28,15 @@ ht-degree: 52%
 | 潜在客户拓展/B2B/金融服务 | 转化但不购买 |
 | 媒体/出版 | 参与度 |
 
-其他条件选项会根据您选择的行业垂直而发生更改。 您可以在&#x200B;**[!UICONTROL Recommendations>设置]**&#x200B;页面上设置默认的行业垂直，也可以为每个条件指定行业垂直。
+其他条件选项会根据您选择的行业垂直而更改。 您可以在&#x200B;**[!UICONTROL Recommendations >设置]**&#x200B;页面上设置默认的行业垂直，也可以为每个标准指定行业垂直。
 
 ## 建议项{#section_885B3BB1B43048A88A8926F6B76FC482}
 
 您选择的推荐键决定了标准类型。标准类型具有以下几种（在设置 [!DNL Recommendations] 活动时，这些标准类型会显示为相应的标准卡片）。
 
-![“标准”页](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+![“条件”页](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
 
-下表说明了各种标准类型及其附带的键。 单击链接可获取有关每个键的更多详细信息。
+下表说明了各种标准类型及其随附键。 单击链接可了解有关每个键的详细信息。
 
 | 标准类型 | 键 |
 |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 52%
 | 自定义 | 根据自定义属性推荐项目。<ul><li>[自定义属性](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>如果要根据自定义属性来进行推荐，则必须选择自定义属性，然后再选择推荐类型。 |
 | 过去的行为 | 根据访客过去对某个项目所做的回应来推荐项目。例如，以前购买过某个特定品牌的客户更有可能会购买属于该品牌的其他项目。<ul><li>[上次购买的项目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[上次查看的项目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[查看次数最多的项目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[最喜爱类别](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
 | 人气 | 推荐最受欢迎的项目，例如相关类别中最热门的视频或网站上最常查看的产品。<ul><li>[热门程度](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
-| [最近查看的项目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | 推荐访客最近查看过的项目，例如访客上次访问您的网站时查看过的项目，或者目前趋势最为强劲的文章。 |
+| [最近查看的项目](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | 推荐访客最近查看过的项目，例如访客上次访问您网站时查看过的项目，或目前最热门的文章。 |
 
 ## 使用自定义推荐键{#custom-key}
 
@@ -52,33 +52,33 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->自定义用户档案参数可以通过JavaScript、API或集成传递到目标。 有关自定义用户档案属性的详细信息，请参阅[访客用户档案](/help/c-target/c-visitor-profile/visitor-profile.md)。
+>可以通过JavaScript、API或集成将自定义用户档案参数传递到目标。 有关自定义用户档案属性的详细信息，请参阅[访客用户档案](/help/c-target/c-visitor-profile/visitor-profile.md)。
 
-例如，假定您要根据用户最近添加到队列的电影来显示推荐的电影。
+例如，假设您希望根据用户最近添加到队列的影片来显示推荐的影片。
 
-1. 从[!UICONTROL 推荐键]下拉用户档案中选择您的自定义列表属性（例如，[!UICONTROL 添加到观察列表的上次显示]）。
+1. 从[!UICONTROL 推荐键]下拉列表中选择您的自定义用户档案属性（例如，[!UICONTROL 上次添加到观察列表的显示]）。
 
-1. 选择您的[!UICONTROL 推荐逻辑]（例如，[!UICONTROL 查看此内容的人员，查看该]）。
+1. 选择您的[!UICONTROL 推荐逻辑]（例如，[!UICONTROL 查看此项的人员，查看该]）。
 
-   ![“创建新条件”对话框](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+   ![“创建新标准”对话框](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
-如果您的自定义用户档案属性与单个实体ID不直接匹配，则有必要向[!DNL Recommendations]说明您希望如何与实体匹配。
+如果您的自定义用户档案属性与单个实体ID不直接匹配，则需要向[!DNL Recommendations]说明您希望如何与实体匹配。
 
-例如，假定您要显示来自用户喜爱品牌的畅销商品。
+例如，假设您要显示来自用户喜爱品牌的畅销商品。
 
-1. 从[!UICONTROL 推荐键]下拉用户档案中选择您的自定义列表属性（例如，[!UICONTROL 收藏品牌]）。
+1. 从[!UICONTROL 推荐键]下拉列表中选择您的自定义用户档案属性（例如[!UICONTROL 收藏品牌]）。
 
-1. 选择要与此键一起使用的[!UICONTROL 推荐逻辑]（例如，[!UICONTROL 热门卖家]）。
+1. 选择要与此键一起使用的[!UICONTROL 推荐逻辑]（例如[!UICONTROL 热门卖家]）。
 
    此时会显示[!UICONTROL 按以下项的唯一值分组]选项。
 
 1. 选择与您所选的键匹配的实体属性。在这种情况下，[!UICONTROL 收藏品牌]与`entity.brand`匹配。
 
-   [!DNL Recommendations] 现在为每个品牌生成“最畅销商品”列表，并根据“最喜爱品牌”配置文件属性中存储的值向用户显示相应的“最畅销 [!UICONTROL 商] 品”列表。
+   [!DNL Recommendations] 现在，为每个品牌生成一个“最畅销商品”列表，并根据Favorite Brandprofile属性中存储的值向用户显示相应的“最畅销商品”  列表。
 
-   ![Top Sellers attribute](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
+   ![“最畅销者”属性](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
-## 标准／算法{#criteria-algorithms}
+## 标准/算法{#criteria-algorithms}
 
 [!DNL Target Recommendations] 会使用复杂的算法来确定访客操作在何种情况下才符合活动中设置的标准。推荐键决定了可用的推荐逻辑选项。
 
@@ -91,7 +91,7 @@ ht-degree: 52%
 | [网站亲和度](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#site-affinity) | 根据项目间关系的确定性来推荐项目。 |
 | [最畅销商品](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#top-sellers) | 大多数已完成的订单中都包含的项目。同一项目在一个订单中购买多件会被计为一次订购。 |
 | [查看次数最多](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed) | 最常查看的项目或媒体。 |
-| [基于用户的Recommendations](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#user-based) | 根据每个访客的浏览、查看和购买历史记录推荐项目。 这些项目通常称为“推荐给您”。 |
+| [基于用户的Recommendations](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#user-based) | 根据每个访客的浏览、查看和购买历史记录推荐项目。 这些项目通常称为“为您推荐”。 |
 
 >[!NOTE]
 >
@@ -111,10 +111,10 @@ ht-degree: 52%
 
 ![“算法信息”选项卡](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-单击&#x200B;**[!UICONTROL 算法使用情况]**&#x200B;选项卡可查看引用所选标准的活动列表。卡列表处于活动状态、非活动状态和草稿活动。 单击“实时活动/非活动活动/拟定活动”下拉列表卡，视图引用该标准的整个活动列表。 您可以单击活动链接以打开活动进行编辑。
+单击&#x200B;**[!UICONTROL 算法使用情况]**&#x200B;选项卡可查看引用所选标准的活动列表。卡列表活动、非活动和草稿活动。 单击“实时活动”/“非活动活动”/“草稿活动”下拉列表，以视图引用该标准的整个活动列表。 您可以单击活动链接以打开活动进行编辑。
 
 ![“算法使用”选项卡](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->[!UICONTROL 算法使用]功能当前仅支持Recommendations活动。 A/B测试、自动分配、自动目标和体验定位(XT)活动当前不支持此功能，这些将[推荐作为优惠](/help/c-recommendations/recommendations-as-an-offer.md)。
+>[!UICONTROL 算法使用]功能当前仅支持Recommendations活动。 A/B测试、自动分配、自动目标和体验定位(XT)活动当前不支持此功能，这些应用程序将[推荐作为优惠](/help/c-recommendations/recommendations-as-an-offer.md)。

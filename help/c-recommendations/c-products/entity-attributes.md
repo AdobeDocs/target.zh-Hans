@@ -1,16 +1,16 @@
 ---
 keywords: 实体;实体属性;将信息传递到推荐;行为数据;数据计数器;定义相对 URL;显示库存水平;定义价格;定义利润率;自定义属性
-description: 了解如何使用实体属性将产品或内容信息传递给目标 Recommendations。
+description: 了解如何使用实体属性将产品或内容信息传递到 [!DNL Target] Recommendations。
 title: 如何使用实体属性？
 feature: Recommendations
+exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 translation-type: tm+mt
-source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1079'
 ht-degree: 56%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 实体属性
 

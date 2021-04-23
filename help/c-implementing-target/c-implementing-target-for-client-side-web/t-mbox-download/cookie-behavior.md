@@ -6,14 +6,14 @@ feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1652'
 ht-degree: 92%
 
 ---
 
-# mbox.js Cookie{#mbox-js-cookies}
+# mbox.js Cookie
 
 Cookie 行为取决于它是第一方 Cookie、第三方和第一方 Cookie，还是仅仅为第三方 Cookie。
 
@@ -117,7 +117,7 @@ Cookie 有多个默认设置。您可以根据需要更改这些设置，但 Coo
 | check | 用来确定访客是否支持 Cookie 的简单测试值。每次用户请求页面时设置。 |
 | disable | 如果访客的加载时间超过了 mbox.js 文件中设置的超时值，则进行设置。默认情况下，该设置持续 1 小时。 |
 
-## 由于 Apple WebKit 跟踪更改而对 Safari 访客的 Target 产生的影响 {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
+## 由于Apple WebKit跟踪更改对[!DNL Target]的Safari访客的影响{#section_2A2E5730ED7D4A0985C904AFEA310AAE}
 
 **Adobe Target 跟踪如何工作？**
 

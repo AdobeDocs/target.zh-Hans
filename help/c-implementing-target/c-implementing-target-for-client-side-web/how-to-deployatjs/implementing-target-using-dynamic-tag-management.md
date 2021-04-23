@@ -1,19 +1,19 @@
 ---
 keywords: 实施;标签管理器;dtm;at.js;动态标签管理
-description: 了解如何使用传统的动态标签管理(DTM)实施Adobe Targetat.js库。 Adobe启动是实现目标的首选方法。
-title: 我是否可以使用动态标签管理(DTM)实施目标?
-feature: Implement Server-side
+description: 了解如何使用旧版动态标签管理(DTM)实施Adobe [!DNL Target] at.js库。 Adobe启动是实现 [!DNL Target]的首选方法。
+title: 我是否可以使用动态标签管理(DTM)实现 [!DNL Target] ?
+feature: 实施服务器端
 role: Developer
+exl-id: 87df1326-a2d5-4bdb-82ba-ec58eaf17773
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 64%
+source-wordcount: '110'
+ht-degree: 59%
 
 ---
 
-
-# 使用动态标签管理 (DTM) 实施 Target
+# 使用动态标签管理(DTM)实施[!DNL Target]
 
 Adobe 动态标签管理 (DTM) 是 Adobe 的旧版标签管理器。
 

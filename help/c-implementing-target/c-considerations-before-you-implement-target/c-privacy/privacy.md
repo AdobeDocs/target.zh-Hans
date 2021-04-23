@@ -1,23 +1,23 @@
 ---
-keywords: 隐私；ip地址；地域分选择退出割；选择退出；选择退出；数据隐私；政府规定；规定；gdpr;ccpa
-description: 了解Adobe Target如何遵守适用的数据隐私法，包括IP地址的收集和处理以及选择退出说明。
-title: 目标如何处理隐私问题？
-feature: Privacy & Security
+keywords: 隐私；ip地址；地域分选择退出割；选择输出；选择退出；数据隐私；政府规章；gdpr;ccpa
+description: 了解Adobe [!DNL Target] 如何遵守适用的数据隐私法，包括IP地址的收集和处理以及选择退出说明。
+title: ' [!DNL Target] 如何处理隐私问题？'
+feature: 隐私和安全
 role: Developer
+exl-id: fb632923-fa36-4553-88a6-f27860472eb6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 73%
 
 ---
 
-
 # 隐私
 
 [!DNL Adobe Target] 启用了一些流程和设置，使您能够在遵守适用数据隐私法律的情况下使用 [!DNL Target]
 
-## IP地址集{#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## IP地址{#section_91BDB8105EBF4B85B7B8B8A14675AC85}的集合
 
 网站访客的 IP 地址会传输到 Adobe 数据处理中心 (DPC)。根据访客的网络配置，IP 地址不一定能代表访客计算机的 IP 地址。例如，IP 地址可能为网络地址转换 (NAT) 防火墙、HTTP 代理或互联网网关的外部 IP 地址。Target 不会存储用户的任何 IP 地址或任何个人身份信息 (PII)。IP 地址仅在会话持续期间由 Target 使用（位于内存中，永不保留）。
 
@@ -37,7 +37,7 @@ Adobe 制定了新的“从设计着手保护隐私”(privacy by design) 设置
 
 >[!NOTE]
 >
->[联系Adobe客](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 户端服务，确定您当前使用的设置或启用IP模糊化功能。
+>[联系Adobe Client ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Care，确定您当前使用的设置或启用IP模糊处理功能。
 
 ## 地域划分 {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -60,4 +60,4 @@ Adobe 制定了新的“从设计着手保护隐私”(privacy by design) 设置
 
 ## 隐私和数据保护法规
 
-请参阅[隐私和数据保护规定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)，了解有关欧洲合并的一般数据保护规定(GDPR)、加利福尼亚消费者隐私法(CCPA)和其他国际隐私要求以及这些规定如何影响您的组织和Adobe Target的信息。
+请参阅[隐私和数据保护规定](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)，了解有关欧洲合并的一般数据保护规定(GDPR)、加利福尼亚消费者隐私法(CCPA)和其他国际隐私要求的信息，以及这些规定对您的组织和Adobe Target有何影响。

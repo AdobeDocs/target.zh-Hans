@@ -1,18 +1,18 @@
 ---
 keywords: 自定义参数;Target 自定义参数;targetpageparams;定位 mbox 参数
-description: 了解如何将自定义参数传递给Adobe Target以便在受众中使用。
-title: 我是否可以根据自定义参数目标访客?
-feature: Audiences
+description: 了解如何将自定义参数传递给Adobe [!DNL Target] 以在受众中使用。
+title: 我是否可以 [!DNL Target] 基于自定义参数的访客?
+feature: 受众
+exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 84%
+source-wordcount: '410'
+ht-degree: 85%
 
 ---
 
-
-# 自定义参数{#custom-parameters}
+# 自定义参数
 
 自定义参数为 mbox 参数。如果将任何 mbox 参数传递到 mbox，或者使用 targetPageParams 函数，则此处将显示这些参数，以供在受众中使用。
 
@@ -54,9 +54,9 @@ ht-degree: 84%
 ## 注意事项 {#considerations}
 
 * 针对特定 mbox 评估受众和活动。例如，如果全局 mbox 传递了某个参数，但区域 mbox 没有，则针对该参数的活动/受众将不符合区域 mbox 上的条件。
-* 定位不会根据内部mbox参数（如mboxPC、mboxSession、mbox3rdPartyId、mboxMCSDID、mboxMCAVID、mboxMCGVID、mboxCount、mboxId和mboxVersion）进行评估。
+* 定位不会根据内部mbox参数（如mboxPC、mboxSession、mbox3rdPartyId、mboxMCSDID、mboxMCVID、mboxMCGVID、mboxCount、mboxId和mboxVersion）进行评估。
 
-## 培训视频：创建受众![教程标记](/help/assets/tutorial.png)
+## 培训视频：创建受众![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用受众类别的信息。
 

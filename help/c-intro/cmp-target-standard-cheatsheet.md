@@ -1,18 +1,18 @@
 ---
 keywords: Target Standard;faq;常见问题解答;速查表;备忘单
-description: 浏览有关使用Adobe Target功能的一列表常见问题，以及更多信息的信息和链接。
+description: 浏览有关使用Adobe Target中功能的常见问题列表，以及有关更多信息的信息和链接。
 title: 在哪里可以找到优化和个性化问题的答案？
-feature: Overview
+feature: 概述
+exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2918'
 ht-degree: 96%
 
 ---
 
-
-# Target 优化和个性化常见问题解答{#target-optimization-and-personalization-faq}
+# Target 优化和个性化常见问题解答
 
 有关使用 Adobe Target 中的功能的常见问题列表，以及更多信息和相关链接。
 
@@ -133,7 +133,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 有两种选项：
 
 * 默认选项，共三个等级（低/中/高）
-* 自定义选项，范围从 0 到 999。对于“自定义”，请启用“细粒度优先级”功能（“管理”>“可视体验书写器”）。
+* 自定义选项，范围从 0 到 999。对于“自定义”，请启用“细粒度优先级”功能（“管理”>“可视体验编辑器”）。
 
 ## 受众 {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -189,7 +189,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 此外，我们还提供了[基于表单的方法](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，这些方法可以帮助您。
 
-另请阅读[增强型体验编辑器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何时以及为何有用。您可能还需要联系您的 IT 部门，  [还允许列表要Adobe的](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) 代理服务器。
+另请阅读[增强型体验编辑器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何时以及为何有用。您可能还需要联系您的 IT 部门，  [允许列表也Adobe的代](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) 理服务器。
 
 **我有一个响应网站。在创建活动时，如何确定要使用的关键设备？**
 
@@ -197,7 +197,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **我有多个域。其中一个域需要启用增强型体验编辑器，而其他域则需要将其禁用。我该如何处理？**
 
-您始终可以在活动级别](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)使用[增强的体验书写器选项来覆盖默认设置（“管理”>“可视体验书写器”）。
+您始终可以使用活动级别](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的[增强体验书写器选项来覆盖默认设置（“管理”>“可视体验书写器”）。
 
 **为何我看不到交换图像的选项？**
 

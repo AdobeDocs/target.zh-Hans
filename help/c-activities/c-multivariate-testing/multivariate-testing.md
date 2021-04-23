@@ -1,16 +1,16 @@
 ---
-keywords: 多变量测试；mvt;full-factorial;mvt或a/b;multivariate a/b；流量估计器；何时使用mvt;mvt;mvt注意事项；multivariate;partial-factorial;partial-factorial;full-factorial;full-factorial
-description: 了解如何使用Adobe Target的Multivariate Testing(MVT)来比较页面上元素中的优惠组合，以确定最佳组合。
+keywords: 多变量测试；mvt;full-factorial;mvt或a/b;multivariate a/b；流量估计器；何时使用mvt;mvt;mvt考虑；multivariate;partial-factorial;partial-factorial；全因素
+description: 了解如何在Adobe [!DNL Target] 中使用Multivariate Testing(MVT)来比较页面上元素中的优惠组合，以确定最适合的组合。
 title: 什么是Multivariate Test?
 feature: Multivariate Tests
+exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1462'
 ht-degree: 87%
 
 ---
-
 
 # 多变量测试概述
 
@@ -56,23 +56,23 @@ ht-degree: 87%
 
 * 使用 MVT 测试来确定最重要的元素，然后对该元素进行更集中的 A/B 测试。
 
-   当不同体验的数量超过五个并且跨越两个或两个以上元素时，最好在运行A/B测试之前考虑MVT测试。 MVT 测试可显示页面中的哪些区域最有可能提高转化。这些是营销人员应关注的元素。例如，MVT 测试可能表明，行为召唤 (call to action) 是实现目标的最重要元素。确定哪些元素和内容最有助于您达到目标后，您可以运行 A/B 测试以进一步优化结果，例如分别测试两个特定图像，或者比较行为召唤的遣词造句或颜色。通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
+   当不同体验的数量超过5个并且跨越两个或多个元素时，最好在运行A/B测试之前考虑MVT测试。 MVT 测试可显示页面中的哪些区域最有可能提高转化。这些是营销人员应关注的元素。例如，MVT 测试可能表明，行为召唤 (call to action) 是实现目标的最重要元素。确定哪些元素和内容最有助于您达到目标后，您可以运行 A/B 测试以进一步优化结果，例如分别测试两个特定图像，或者比较行为召唤的遣词造句或颜色。通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
 
 ## 注意事项 {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
 * 当您至少有三个元素要进行测试时，请使用 MVT 测试。如果要测试的元素比这少，则运行一组 A/B 测试。
 * 请选择您认为对结果有最强影响的页面元素。
 * 不要在一个测试中包含太多的元素或位置。因为数量越多，测试时间就会越长。
-* 提前对测试设计进行规划。在测试开始生效并收集和分析开始后，不宜编辑测试。
+* 提前对测试设计进行规划。不建议在测试开始生效并收集和分析数据开始后编辑测试。
 * 建议元素之间维持相互独立的关系。
 
    例如，不要在同一测试中对布局和内容这两方面都进行测试。
 
-* 由于体验数量的增加，需计划为 QA 提供额外的时间。您还可以使用部分因数测试来减少多变量测试所需的流量。 有关详细信息，请参阅下面的部分因数测试：
+* 由于体验数量的增加，需计划为 QA 提供额外的时间。您还可以使用部分因数测试来减少多变量测试所需的流量。 有关详细信息，请参阅下面的片面测试：
 
-## 部分因数测试
+## 片面测试
 
-[!DNL Target] 提供全因子多变量测试作为内置活动选项。在统计学中，“实验设计”提供了多种方法或设计来确定哪些因素会影响结果。这种方法之一是[田口方法](https://en.wikipedia.org/wiki/Taguchi_methods)进行部分因数测试。 田口方法使营销人员能够制定一套假设，减少所需测试体验的排列数量，从而降低多变量测试的流量需求。在 [!DNL Target] 中，可以利用此[离线电子表格](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)来使用这种功能和测试方法。
+[!DNL Target] 提供全因子多变量测试作为内置活动选项。在统计学中，“实验设计”提供了多种方法或设计来确定哪些因素会影响结果。这种方法之一是[田口方法](https://en.wikipedia.org/wiki/Taguchi_methods)进行片面测试。 田口方法使营销人员能够制定一套假设，减少所需测试体验的排列数量，从而降低多变量测试的流量需求。在 [!DNL Target] 中，可以利用此[离线电子表格](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)来使用这种功能和测试方法。
 
 如果您的团队使用其他“实验设计”方法，则可以将此计算电子表格用作自定义实验设计的参考实施。
 
@@ -100,7 +100,7 @@ ht-degree: 87%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### 创建Multivariate Tests(9:25)![Tutorial徽章](/help/assets/tutorial.png)
+### 创建Multivariate Tests(9:25)![教程徽章](/help/assets/tutorial.png)
 
 本视频介绍如何了解和规划多变量测试，以及如何使用 Target 三步引导式工作流创建多变量测试。
 

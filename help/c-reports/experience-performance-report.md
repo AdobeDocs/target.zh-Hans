@@ -1,18 +1,18 @@
 ---
 keywords: 多变量测试;MVT;体验性能报表
-description: 了解如何使用Adobe Target体验定位活动的体验绩效报告，以显示活动中每个体验的表现。
+description: 了解如何对“体验定位”Adobe [!DNL Target] 活动使用“体验效果”报表，以显示活动中每个体验的效果。
 title: 如何使用Experience Performance Report for Multivariate Tests?
-feature: Reports
+feature: 报表
+exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 89%
 
 ---
 
-
-# 体验性能报表 (MVT){#experience-performance-report-mvt}
+# 体验性能报表 (MVT)
 
 “体验性能”报表显示了活动中每个体验的表现。此报表包含有关参加者数量、转化率、提升度和置信度的信息。
 

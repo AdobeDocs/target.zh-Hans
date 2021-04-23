@@ -1,18 +1,18 @@
 ---
 keywords: 常见问题解答，目标分析，区段，A4T，共享报告
-description: 查找有关在使用Analytics for 目标(A4T)时共享指标、受众和报告的常见问题解答。 A4T允许您对Adobe Target活动使用Analytics报告。
+description: 查找有关在 [!DNL Target] (A4T). A4T lets you use Analytics reporting for Adobe [!DNL Target] 活动使用Analytics时共享指标、受众和报告的常见问题解答。
 title: 在哪里可以找到A4T中共享量度、受众和报表的常见问题解答？
 feature: Analytics for Target (A4T)
 exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a,6f250901-f109-4c2e-a023-ccc4c2b404b1,6f250901-f109-4c2e-a023-ccc4c2b404b1,59084e19-dfac-4796-a0b4-1da27ca9d43a
 translation-type: tm+mt
-source-git-commit: 7546db1b78825b969f5639b26c0d6a3e5319dd3a
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 66%
+source-wordcount: '241'
+ht-degree: 69%
 
 ---
 
-# 共享量度、受众和报表 - A4T 常见问题解答{#share-metrics-audiences-and-reports-a-t-faq}
+# 共享量度、受众和报表 - A4T 常见问题解答
 
 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时共享量度、受众和报表的常见问题解答。
 

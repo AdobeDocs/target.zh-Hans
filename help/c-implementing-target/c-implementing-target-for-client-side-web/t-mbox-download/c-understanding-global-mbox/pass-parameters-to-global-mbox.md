@@ -1,17 +1,17 @@
 ---
 keywords: 全局 mbox 参数;targetPageParams;查询字符串;数组;JSON;DTM;动态标签管理
-description: 了解如何使用targetPageParams函数将其他定位或上下文信息传递到Adobe Target全局mbox。
+description: 了解如何使用targetPageParams函数将其他定位或上下文信息传递到Adobe [!DNL Target] 全局mbox。
 title: 如何将参数传递给全局mbox?
 feature: at.js
 role: Developer
+exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
 translation-type: tm+mt
-source-git-commit: a638da983bf39361be36a9cd68f3ef9f7eb39013
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '385'
 ht-degree: 63%
 
 ---
-
 
 # 将参数传递到全局 mbox
 

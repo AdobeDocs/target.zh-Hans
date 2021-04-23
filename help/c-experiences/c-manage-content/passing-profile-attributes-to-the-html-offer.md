@@ -1,20 +1,20 @@
 ---
 keywords: 动态数据;资产;数据;选件;个性化选件;个人选件;令牌替换
-description: 了解如何将动态数据传递到Adobe Target优惠。 浏览业务案例，了解您为何可能希望使用动态优惠、视图示例和实施信息。
-title: 如何将动态数据传递给优惠?
-feature: Experiences and Offers
+description: 了解如何将动态数据传递到Adobe [!DNL Target] 优惠。 浏览业务案例，了解您为何可能希望使用动态优惠、视图示例和实施信息。
+title: 如何将动态数据传递到优惠?
+feature: 体验和优惠
+exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 78%
+source-wordcount: '520'
+ht-degree: 77%
 
 ---
 
-
 # 将动态数据传递给选件
 
-您可以动态显示存储在[!DNL Adobe Target]访客中的用户档案信息。 同样，还可以使用活动信息（例如活动名称或体验名称）来创建单个选件，以根据访客兴趣、过去的行为和整个配置文件动态地返回个性化内容。
+可以动态显示存储在[!DNL Adobe Target]访客中的用户档案信息。 同样，还可以使用活动信息（例如活动名称或体验名称）来创建单个选件，以根据访客兴趣、过去的行为和整个配置文件动态地返回个性化内容。
 
 ## 业务案例
 
@@ -52,7 +52,7 @@ ht-degree: 78%
 
 ## 实施
 
-对于传入mbox的用户档案参数，请使用语法：
+对于传递到mbox的用户档案参数，请使用语法：
 
 `${profile.parameter}`
 
@@ -60,13 +60,13 @@ ht-degree: 78%
 
 `${user.parameter}`
 
-在[!DNL Recommendations]设计中使用动态属性时，必须在美元符号($)前插入反斜杠(\)，这样动态值才能正确呈现：
+在[!DNL Recommendations]设计中使用动态属性时，必须在美元符号($)前插入反斜杠(\)，以使动态值正确呈现：
 
 `\${user.endpoint.lastViewedEntity}`
 
 这些变量可以被服务器端的值所替换，因此不需要引用或其他 JavaScript 也能正确显示。
 
-还可以为要向优惠显示的值指定默认值。 语法如下：
+还可以为要向优惠公开的值指定默认值。 语法如下：
 
 `${user.testAttribute default="All Items!"}`
 

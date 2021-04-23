@@ -1,20 +1,20 @@
 ---
 keywords: 概述和参考
-description: 了解如何将Adobe Target与Adobe Campaign结合使用以优化电子邮件内容。
-title: 如何将目标与Adobe Campaign相集成？
-feature: Integrations
+description: 了解如何将Adobe [!DNL Target] 与Adobe Campaign结合使用以优化电子邮件内容。
+title: 如何将 [!DNL Target] 与Adobe Campaign集成？
+feature: 集成
+exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 47%
+source-wordcount: '382'
+ht-degree: 44%
 
 ---
 
+# 将[!DNL Target]与Adobe Campaign集成
 
-# 将 Target 与 Adobe Campaign 集成{#integrate-target-with-adobe-campaign}
-
-将[!DNL Target]与[!DNL Adobe Campaign]结合使用可优化电子邮件内容。
+将[!DNL Target]与[!DNL Adobe Campaign]一起使用可优化电子邮件内容。
 
 要优化电子邮件内容(例如，为男性和女性收件人显示不同的优惠)，您可以在[!DNL Target]中创建重定向优惠，然后使用[!DNL Adobe Campaign]管理电子邮件优惠。
 
@@ -26,7 +26,7 @@ Target 可以跟踪以下数据：
 * IP 地址
 * 地理位置
 * 与 Target 中的访客 ID 关联的区段（需获得法律批准）
-* 来自[!DNL Campaign]数据库的数据
+* [!DNL Campaign] Datamart中的数据
 
 存在以下几项限制：
 
@@ -39,7 +39,7 @@ Target 可以跟踪以下数据：
    *  中的 rawbox 和体验[!DNL Target]
    >[!NOTE]
    >
-   >使用rawbox和[!DNL Target]时，请参阅[创建允许列表符下的重要安全声明，指定有权向目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机。
+   >使用rawbox和[!DNL Target]时，请参阅[创建下的重要安允许列表全声明，该声明指定已授权向目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机。
 
    * [!DNL Campaign]中的投放
 
@@ -58,7 +58,7 @@ Target 可以跟踪以下数据：
 
 开始[!DNL Target]中的活动，然后设置集成的[!DNL Campaign]部分。
 
-## 将 Target 选件包含在 Adobe Campaign 电子邮件中 {#section_B201BBE27A704E18AF0D553F35695837}
+## 在Adobe Campaign电子邮件{#section_B201BBE27A704E18AF0D553F35695837}中包含[!DNL Target]优惠
 
 1. 在[!DNL Adobe Campaign]中创建电子邮件。
 1. 在电子邮件属性中，单击&#x200B;**[!UICONTROL 包含]** > **[!UICONTROL 由 Adobe Target 提供的动态图像]**。

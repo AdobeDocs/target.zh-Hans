@@ -2,18 +2,18 @@
 keywords: 工作区;管理属性;权限;产品配置;产品配置文件;角色;项目
 description: 了解如何创建单独的工作区(产品用户档案)，然后为用户分配针对各个页面、属性或网站的不同角色和权限。
 title: 什么是企业用户权限，我如何使用这些权限？
-feature: Administration & Configuration
+feature: 管理和配置
 role: Administrator
+exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3018'
 ht-degree: 59%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 企业用户权限{#enterprise-user-permissions}
+# ![PREMIUM](/help/assets/premium.png) 企业用户权限
 
 企业用户权限是正式管理企业范围内用户对[!DNL Adobe Target]的访问权限的一种方式。 将用户添加到[!DNL Target]，根据用户角色分配权限，并根据不同部门、全局位置、渠道和其他逻辑分组为团队创建工作区。 您可以为用户分配[!UICONTROL Observer]、[!UICONTROL Editor]或[!UICONTROL Approver]的角色。
 
@@ -295,7 +295,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### 办公时间：目标 Premium Workspaces
+### 办公时间：[!DNL Target]高级工作区
 
 此视频是“办公时间”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 

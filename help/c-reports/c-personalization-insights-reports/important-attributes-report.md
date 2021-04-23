@@ -1,24 +1,24 @@
 ---
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;FAQ;常见问题解答;重要属性
-description: 了解如何使用Adobe Target的重要属性报告，该报告显示影响个性化模型的顶级属性及其相对重要性。
-title: 什么是重要属性报告？
-feature: Reports
+description: 了解如何使用Adobe [!DNL Target] 中的“重要属性”报表，其中显示影响个性化模型的顶级属性及其相对重要性。
+title: 什么是重要属性报表？
+feature: 报表
+exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1656'
 ht-degree: 92%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 重要属性报表{#important-attributes-report}
+# ![PREMIUM](/help/assets/premium.png) 重要属性报表
 
 此信息介绍了重要属性报表，该报表是自动个性化 (AP) 和自动定位 (AT) 活动用户可以使用的两个专门报表之一。
 
 >[!NOTE]
 >
->使用个性化洞察报告时，请考虑以下事项：
+>使用个性化分析报表时，请考虑以下事项：
 >
 >* AP 和 AT 活动会作为 [!DNL Target Premium] 解决方案的一部分提供。在没有 [!DNL Target Premium] 许可证的情况下，它们将不会包含在 [!DNL Target Standard] 中。
    >
@@ -26,13 +26,13 @@ ht-degree: 92%
 * [!UICONTROL 个性化分析报表仅适用于使用转化优化目标的 AP 和 AT 活动。]活动上线后将优化目标从收入更改为转化的活动也不受支持。
    >
    >
-* [!UICONTROL 仅当] 从“报表量度”下拉 [!UICONTROL 列表] 中选择的主Goalis时， [!UICONTROL “个性化洞察”报表才] 可用。
+* [!UICONTROL 仅当] 从“报表量度”下拉 [!UICONTROL 列表] 中选择的“主Goalis”时， [!UICONTROL “个性化见解”报表才] 可用。
    >
    >
 * 仅[默认环境](/help/administrating-target/hosts.md)支持个性化分析报表。
    >
    >
-* [!UICONTROL 个] 性化洞察报表仅针对处于“实时”状  态且已激活并接收至少15天流量的活动生成。
+* [!UICONTROL “个] 性化洞察”报表仅针对处于“实时”状  态且已激活并接收至少15天流量的活动生成。
 
 
 在不同的活动中，不同的属性对模型如何决定进行个性化的重要性也大小不一。此报表可显示影响模型的排名靠前的属性及其相对重要性。
@@ -45,7 +45,7 @@ ht-degree: 92%
 
 1. 单击&#x200B;**[!UICONTROL 报表]**。
 
-   将显示[Automated Personalization摘要](/help/c-reports/reports-ap.md)或[自动目标摘要](/help/c-reports/auto-target-summary-report.md)报告，其中提供有关活动性能的信息，由第一个屏幕图标表示。 其他两个图标表示两个个性化分析报表：自动化区段和重要属性。请注意，自动定位还有一个图形图标，表示“[!UICONTROL 摘要]”报表的图形视图。
+   将显示[Automated Personalization Summary](/help/c-reports/reports-ap.md)或[自动目标摘要](/help/c-reports/auto-target-summary-report.md)报告，其中提供有关活动性能的信息，由第一个屏幕图标表示。 其他两个图标表示两个个性化分析报表：自动化区段和重要属性。请注意，自动定位还有一个图形图标，表示“[!UICONTROL 摘要]”报表的图形视图。
 
    ![](assets/personalization_insights.png)
 

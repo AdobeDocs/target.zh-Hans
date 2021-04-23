@@ -1,22 +1,22 @@
 ---
 keywords: 包含规则；包含条件；推荐；促销；动态过滤；静态过滤
-description: 了解如何使用Adobe TargetRecommendations的包含规则手动输入一个或多个静态值以进行筛选。
+description: 了解如何在Adobe [!DNL Target] Recommendations中手动输入一个或多个静态值以使用包含规则进行筛选。
 title: 如何按Recommendations活动中的静态值进行筛选？
 feature: Recommendations
+exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
-
-# ![PEF Tatic](/help/assets/premium.png) 过滤器
+# ![溢](/help/assets/premium.png) 价滤波器
 
 手动输入一个或多个静态值以使用[!DNL Adobe Target] [!DNL Recommendations]中的包含规则进行筛选。
 
-例如，仅推荐具有“G”或“PG”等级的电影关联(MPA)内容。
+例如，仅推荐具有“G”或“PG”等级的动画图片关联(MPA)内容。
 
 您可以根据需要创建不限数量的包含规则。包含规则使用“与”运算符进行结合。所有规则都必须得到满足，才能在推荐中包含某个项目。
 
@@ -26,7 +26,6 @@ ht-degree: 45%
 
 ## 推荐评级为G或PG的内容
 
-要创建包含规则，其中包含静态值可推荐MPA等级为“G”或“PG”（仅排除“R”和“NC17”内容）的内容，可创建以下过滤规则“电影等级为g-araded”和“电影等级为pg-araded”，如下所示。
+要创建包含规则(其静态值为推荐仅MPA等级为“G”或“PG”（不包括“R”和“NC17”内容）的内容)，可创建以下过滤规则“电影等级为g等级”和“电影等级为pg等级”，如下所示。
 
-![电影评级示例](/help/c-recommendations/c-algorithms/assets/movies.png)
-
+![movie-rating示例](/help/c-recommendations/c-algorithms/assets/movies.png)

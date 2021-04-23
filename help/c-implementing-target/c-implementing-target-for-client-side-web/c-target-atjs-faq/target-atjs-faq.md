@@ -1,19 +1,19 @@
 ---
 keywords: at.js FAQ;at.js 常见问题解答;FAQ;闪烁;加载器;页面加载器;跨域;文件大小;x-domain;at.js 和 mbox.js;仅限 x;Safari;单页应用程序;缺少选择器;选择器;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;IP 地址;httponly;HttpOnly;安全;IP;Cookie 域
-description: 阅读有关Adobe Targetat.js JavaScript库的常见问题解答。
-title: at.js有哪些常见问题和答案？
+description: 阅读有关Adobe [!DNL Target] at.js JavaScript库的常见问题解答。
+title: at.js有哪些常见问题和解答？
 feature: at.js
 role: Developer
+exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2703'
-ht-degree: 93%
+source-wordcount: '2700'
+ht-degree: 92%
 
 ---
 
-
-# at.js 常见问题解答{#at-js-frequently-asked-questions}
+# at.js 常见问题解答
 
 有关 at.js 的常见问题解答。
 
@@ -84,13 +84,13 @@ ht-degree: 93%
 
 如您所见，[!DNL at.js] 1.0.0 将会更快地完成请求。另外，[!DNL at.js] 请求是异步执行的，因此 Target 不会阻止页面渲染。即使请求需要几秒钟才能完成，您仍可以看到渲染的页面，在 Target 从其边缘网络获得响应之前，只有页面的某些部分将显示空白。
 
-## 我能否异步加载 Target 库？{#section_AB9A0CA30C5440C693413F1455841470}
+## 是否可以异步加载[!DNL Target]库？{#section_AB9A0CA30C5440C693413F1455841470}
 
 at.js 1.0.0 版本使您可以异步加载 Target 库。
 
 要异步加载 at.js，请执行以下操作：
 
-* 推荐的方法是通过标签管理器，例如 Adobe Launch 或 Adobe Dynamic Tag Manager (DTM)。有关详细信息，请参阅[在Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)网站中实施Experience Cloud教程的[添加Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)课程。
+* 推荐的方法是通过标签管理器，例如 Adobe Launch 或 Adobe Dynamic Tag Manager (DTM)。有关详细信息，请参阅[在包含Launch的网站中实施Experience Cloud教程的[添加Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)课程。](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)
 * 您还可以通过向加载 at.js 的脚本标记中添加 async 属性来异步加载 at.js。您应使用如下代码：
 
    ```
@@ -110,7 +110,7 @@ at.js 1.0.0 版本使您可以异步加载 Target 库。
 
 您可以避免闪烁，方法是使用预先隐藏的代码片段先隐藏页面（或指定部分），然后在完全加载 at.js 和全局请求后再显示该页面。在加载 at.js 之前，必须先添加该代码片段。
 
-如果要通过异步启动实现部署at.js，请务必在启动嵌入代码之前将预隐藏的片段直接包含在您的页面上，如[在Web站点中使用启动教程](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)实现目标的[添加预隐藏片段](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet)一节中所述。
+如果要通过异步启动实现部署at.js，请务必在启动嵌入代码之前将预隐藏的片段直接包含在您的页面上，如[在包含启动教程](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)的网站中实现目标的“添加预隐藏片段](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet)”部分中所述。[
 
 如果要通过同步 DTM 实施部署 at.js，则可通过页面顶部触发的“页面加载”规则添加预先隐藏的代码片段。
 
@@ -150,7 +150,7 @@ at.js 当前使用 jQuery 部分，因此您会在 at.js 顶部看到 MIT 许可
 
 不能在同一页面上并行运行。但是，在实施和测试 [!DNL at.js] 时，您可以在一些页面上运行 [!DNL at.js]，而在其他页面上则运行 [!DNL mbox.js]，直到您已完全验证 [!DNL at.js] 为止。
 
-## 我能否在单页应用程序中使用 Target 可视化体验编辑器？{#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
+## 我是否可以在单页应用程序中使用[!DNL Target] Visual Experience Composer?{#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
 能，如果您使用 at.js 2.x，则可以将 VEC 用于 SPA。有关更多信息，请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md)。
 
@@ -205,14 +205,14 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 如果看到此类警告消息，则根本原因可能如下所示：
 
 * 页面正在动态构建，at.js找不到元素。
-* 正在缓慢构建页面（由于网络速度慢）,at.js在DOM中找不到选择器。
+* 正在缓慢构建页面（由于网络速度慢），at.js在DOM中找不到选择器。
 * 正在运行活动的页面结构发生更改。如果您在可视化体验编辑器 (VEC) 中重新打开活动，则应会收到警告消息。您应更新活动，以便找到所有必需的元素。
 * 基础页面是单页应用程序 (SPA) 的一部分，或者该页面包含显示在页面更靠底部的元素，且 [!DNL at.js]“选择器轮询机制”无法找到这些元素。增加 `selectorsPollingTimeout` 可能会有所帮助。有关更多信息，请参阅 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 * 任何点击跟踪量度都会尝试将其自身添加到每个页面，而不考虑已设置量度的 URL。尽管不会产生不利影响，但此情况会显示许多此类消息。
 
    为获得最佳结果，请下载并使用最新版本的 [!DNL at.js]。有关更多信息，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)和[下载 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)。
 
-## Target 服务器调用所转到的域 tt.omtrdc.net 是什么域？{#section_999C29940E8B4CAD8A957A6B1D440317}
+## [!DNL Target]服务器调用转到的域tt.omtrdc.net是什么？{#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] 是 Adobe 的边缘网络的域名，用于接收 Target 的所有服务器调用。
 

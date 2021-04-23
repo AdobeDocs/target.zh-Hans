@@ -1,17 +1,17 @@
 ---
 keywords: 分析作为报告源；a4t;A4T；要求
-description: 了解如何配置在Adobe Target中使用Analytics for 目标(A4T)创建基于Adobe Analytics的活动所需的用户帐户要求。
+description: 了解如何在Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T)中配置创建基于Adobe Analytics的活动所需的用户帐户要求。
 title: A4T需要哪些用户权限要求？
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
+exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
 translation-type: tm+mt
-source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '307'
 ht-degree: 36%
 
 ---
-
 
 # 用户权限要求
 
@@ -56,6 +56,6 @@ ht-degree: 36%
    要能够使用[!DNL Analytics]作为[!DNL Target]的报告源，必须访问[!UICONTROL 中的] Web服务访问组。[!DNL Analytics]
 
 
-## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
+## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}
 
 无需其他权限。

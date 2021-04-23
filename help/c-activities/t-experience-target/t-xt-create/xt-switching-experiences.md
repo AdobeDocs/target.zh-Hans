@@ -1,16 +1,16 @@
 ---
 keywords: 优先级;体验创建;优先级;体验;受众;切换体验;可视化体验编辑器
-description: 了解访客如何在Adobe Target体验定位(XT)活动的用户档案发展过程中在体验之间切换。
+description: 了解访客如何在Adobe [!DNL Target] 体验定位(XT)活动中的体验之间切换，以了解其用户档案的发展。
 title: 访客能否在体验定位活动中切换体验？
-feature: Experience Targeting
+feature: 体验定位
+exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 96%
+source-wordcount: '916'
+ht-degree: 97%
 
 ---
-
 
 # 在体验定位中切换体验
 
@@ -72,4 +72,3 @@ ht-degree: 96%
    访客可能会符合多个受众的条件，在这种情况下，记住这一点十分重要。例如，如果您有两个体验：一个体验定位到“美国”，而另一个体验则定位到“纽约”，则位于纽约的访客将同时满足这两个受众的条件。因此，您必须确保在 Target UI 中先定义“纽约”体验，然后再定义“美国”体验。这样做可以确保定位更为精确的“纽约”体验具有较高优先级，如以下示例所示：
 
    ![优先级：纽约 > 美国](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
-

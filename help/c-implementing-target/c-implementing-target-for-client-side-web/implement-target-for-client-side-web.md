@@ -1,19 +1,19 @@
 ---
 keywords: 实施；实施；at.js;adobe experience platform web sdk;aep web sdk
-description: 了解如何使用Adobe Experience Platform Web SDK(AEP Web SDK)或目标 at.js JavaScript库实施用于客户端Web的Adobe Target。
-title: 如何为客户端Web实施目标
+description: 了解如何实现Adobe [!DNL Target] for client-side web using the Adobe Experience Platform Web SDK  (AEP Web SDK) or the [!DNL Target] at.js JavaScript库。
+title: '如何为客户端Web实现 [!DNL Target] '
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 18%
+source-wordcount: '340'
+ht-degree: 17%
 
 ---
 
-# 概述：为客户端 Web 实施 Target
+# 概述：为客户端web实现[!DNL Target]
 
 在 [!DNL Adobe Target] 的客户端实施中，[!DNL Target] 会将与活动相关联的体验直接交付给客户端浏览器。浏览器将决定要显示的体验，然后显示该体验。借助客户端实施，您可以使用 WYSIWYG 编辑器、[可视化体验编辑器](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)，或者非可视化界面（[基于表单的体验编辑器](/help/c-experiences/form-experience-composer.md)）来创建活动和个性化体验。
 

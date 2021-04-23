@@ -1,20 +1,20 @@
 ---
-keywords: 报告；块ip地址；从ip地址阻止访客；下载报告；csv;报告
-description: 了解如何使用Adobe Target的报告功能来检查活动的性能。 根据数据做出更好的决策以提高投资回报率。
+keywords: 报告；块ip地址；从ip地址块访客；下载报告；csv;报告
+description: 了解如何使用Adobe [!DNL Target] 中的报告功能来检查活动的性能。 根据数据做出更好的决策以提高ROI。
 title: 如何视图报告？
-feature: Reports
+feature: 报表
+exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 61%
 
 ---
 
+# 报表
 
-# 报表{#reports}
-
-报告提供有关[!DNL Adobe Target]活动进度和结果的信息，帮助您根据数据做出决策。 报告数据可以帮助您决定何时结束活动，向您展示哪种优惠体验是赢家，并提供您确定下一步行动所需的洞察或学习。
+报告提供有关[!DNL Adobe Target]活动的进度和结果的信息，这些信息可帮助您根据数据做出决策。 报告数据可以帮助您决定何时结束活动，向您展示哪种优惠体验是赢家，并提供您确定下一步行动所需的洞察或学习。
 
 ## 显示报告{#section_C4591A32F6D04C95A1AD5A377C27C28B}
 
@@ -53,15 +53,15 @@ ht-degree: 61%
 
 1. （可选）单击&#x200B;**[!UICONTROL 表格视图]**&#x200B;图标和&#x200B;**[!UICONTROL 图形视图]**&#x200B;图标，以在这两种报表格式之间进行切换。
 
-   ![表格和图形视图图标](/help/c-reports/assets/table-and-graph-icons.png)
+   ![表格和图表视图图标](/help/c-reports/assets/table-and-graph-icons.png)
 
-   根据您选择的报告类型，可能会提供其他视图和报告：
+   根据您选择的报表类型，可能会提供其他视图和报表：
 
    | 报表类型 | 查看 |
    | --- | --- |
-   | [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md) | 单击&#x200B;**[!UICONTROL 自动化区段]**&#x200B;或&#x200B;**[!UICONTROL 重要属性]**&#x200B;图标。<ul><li>[“自动细分”报告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)显示不同访客对AP/AT活动中的优惠/体验的不同响应方式。 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。</li><li>[重要属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)显示不同活动中不同属性对于模型决定如何个性化的重要性如何。 此报表可显示影响模型的排名靠前的属性及其相对重要性。</li></ul> |
-   | [自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) | 除了[Automated Personalization摘要报告](/help/c-reports/reports-ap.md)之外，您还可以单击&#x200B;**[!UICONTROL 自动区段]**&#x200B;或&#x200B;**[!UICONTROL 重要属性]**&#x200B;图标。<ul><li>[“自动细分”报告](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)显示不同访客对AP/AT活动中的优惠/体验的不同响应方式。 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。</li><li>[重要属性报告](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)显示不同活动中不同属性对于模型决定如何个性化的重要性如何。 此报表可显示影响模型的排名靠前的属性及其相对重要性。</li></ul> |
-   | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | 除了[体验性能报告](/help/c-reports/experience-performance-report.md)之外，您还可以单击[位置贡献](/help/c-reports/location-contribution-report.md)图标以切换报告，按位置显示贡献。 |
+   | [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md) | 单击&#x200B;**[!UICONTROL 自动区段]**&#x200B;或&#x200B;**[!UICONTROL 重要属性]**&#x200B;图标。<ul><li>[“自动细分”报表](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)显示不同访客对AP/AT活动中的优惠/体验的不同反应。 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。</li><li>[重要属性报表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)显示不同活动中不同属性对于模型决定如何个性化的重要程度如何。 此报表可显示影响模型的排名靠前的属性及其相对重要性。</li></ul> |
+   | [自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) | 除了[Automated Personalization摘要报告](/help/c-reports/reports-ap.md)之外，您还可以单击&#x200B;**[!UICONTROL 自动区段]**&#x200B;或&#x200B;**[!UICONTROL 重要属性]**&#x200B;图标。<ul><li>[“自动细分”报表](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)显示不同访客对AP/AT活动中的优惠/体验的不同反应。 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。</li><li>[重要属性报表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)说明在不同活动中，不同属性对于模型决定如何个性化的重要程度更高（或更少）。 此报表可显示影响模型的排名靠前的属性及其相对重要性。</li></ul> |
+   | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | 除了[体验性能报告](/help/c-reports/experience-performance-report.md)之外，您还可以单击[位置贡献](/help/c-reports/location-contribution-report.md)图标以切换报告以按位置显示贡献。 |
 
 ## 特定报告类型{#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}的其他活动信息
 
@@ -70,14 +70,14 @@ ht-degree: 61%
 | 活动类型 | 详细信息 |
 |--- |--- |
 | [A/B 测试](/help/c-activities/t-test-ab/test-ab.md) | 要了解 [!DNL Target] 中使用的提升度和置信度以及统计方法，请参阅[计划 A/B 测试](/help/c-activities/t-test-ab/sample-size-determination.md)。 |
-| [解释自动分配报告](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 通过检查[!DNL Target] UI中的重要指标（包括提升和置信度）来解释[!UICONTROL 自动分配] A/B活动的结果。 |
+| [解释自动分配报表](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 通过检查[!DNL Target] UI中的重要指标（包括提升和置信度）来解释[!UICONTROL 自动分配] A/B活动的结果。 |
 | [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) | 有关 AT 活动的[!UICONTROL 摘要]报表的信息。有关更多信息，请参阅[自动定位摘要报告](/help/c-reports/auto-target-summary-report.md)。<br>有关 AT 和 AP 活动的以下两个[!UICONTROL 个性化分析]报表的信息：[!UICONTROL 自动化区段]报表和[!UICONTROL 重要属性]报表。有关更多信息，请参阅[个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) | 有关 AP 活动的以下两个[!UICONTROL 自动个性化摘要]报表的信息：[!UICONTROL 活动级别]报表和[!UICONTROL 选件级别]报表。有关更多信息，请参阅[自动个性化摘要报表](/help/c-reports/reports-ap.md)。<br>有关 AT 和 AP 活动的以下两个[!UICONTROL 个性化分析]报表的信息：[!UICONTROL 自动化区段]报表和[!UICONTROL 重要属性]报表。有关更多信息，请参阅[个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)。 |
 | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | 有关 MVT 活动的以下两个报表的信息：[!UICONTROL 体验性能]报表和[!UICONTROL 位置贡献]报表。有关更多信息，请参阅[体验性能报表](/help/c-reports/experience-performance-report.md) (MVT) 和[位置贡献报表](/help/c-reports/location-contribution-report.md) (MVT)。 |
 | [将 Adobe Analytics 作为 Adobe Target 报表源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | 有关使用 [!DNL Adobe Analytics] 作为 [!DNL Target] 报表源的信息。通过 A4T，您可以访问 [!DNL Target] 活动的 [!DNL Analytics] 报表。有关更多信息，请参阅 [Analytics for Target (A4T) 报表](/help/c-reports/analytics-for-target-a4t-reporting.md)。 |
 
-## 阻止来自指定IP地址的报告数据
+## 块报告来自指定IP地址的数据
 
-您可以阻止将来自指定 IP 地址的访客计入报表。这非常有用，例如，阻止来自内部报告的访客数据。
+您可以阻止将来自指定 IP 地址的访客计入报表。这非常有用，例如，它可以阻止来自内部访客的报告数据。
 
-[请联系客户关怀团队以设置 IP 筛选器。](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)将[目标分析](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)(A4T)用作报告源时，此过滤不适用。
+[请联系客户关怀团队以设置 IP 筛选器。](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)将[Analytics for 目标](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)(A4T)用作报告源时，此过滤不适用。

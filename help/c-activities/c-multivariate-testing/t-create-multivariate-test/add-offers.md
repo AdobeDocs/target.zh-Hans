@@ -1,20 +1,20 @@
 ---
 keywords: mvt;multivariate test;优惠；组合
-description: 了解如何使用Adobe Target的可视体验书写器(VEC)创建要包含在Multivariate Test(MVT)中的优惠。
+description: 了解如何使用Adobe [!DNL Target] 中的可视体验书写器(VEC)创建要包含在Multivariate Test(MVT)中的优惠。
 title: 如何在Multivariate Tests(MVT)中创建组合？
 feature: Multivariate Tests
+exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '512'
 ht-degree: 88%
 
 ---
 
-
 # 创建组合
 
-使用[!DNL Adobe Target]中的[!UICONTROL 可视体验书写器](VEC)创建要包含在[!UICONTROL Multivariate Test](MVT)中的优惠。
+使用[!DNL Adobe Target]中的[!UICONTROL  Visual Experience Composer](VEC)创建要包含在[!UICONTROL  Multivariate Test](MVT)中的优惠。
 
 有关使用 VEC 创建和编辑选件的更多信息，请参阅[可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
@@ -65,4 +65,3 @@ ht-degree: 88%
 * 至少须测试三个元素。如果要测试的元素比这少，则运行一组 A/B 测试。
 * 建议每个元素的替代项之间存在显著的不同。
 * 虽然并不强制要求，但最好让每个元素具有相同数量的替代项。
-

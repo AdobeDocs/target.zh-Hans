@@ -1,21 +1,21 @@
 ---
 keywords: 自动个性化；优惠;目标;受众；定位规则；定位
-description: 了解如何使用Adobe Target的Automated Personalization(AP)活动将个别优惠目标到特定受众。
-title: 如何目标Automated Personalization优惠?
-feature: Automated Personalization
+description: 了解如何使用Adobe Target中的Automated Personalization(AP)活动将各个优惠目标到特定受众。
+title: 如何 [!DNL Target] Automated Personalization优惠?
+feature: 自动个性化
 solution: Target,Analytics
+exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 87%
 
 ---
 
+# ![PREMIUMA自](/help/assets/premium.png) [!DNL Target] 动个性化优惠
 
-# ![PREMIUM](/help/assets/premium.png) Target 自动个性化选件{#target-automated-personalization-offers}
-
-在[!DNL Adobe Target] [!DNL Automated Personalization](AP)活动中，您可以将优惠目标到特定受众。
+在[!DNL Adobe Target] [!DNL Automated Personalization](AP)活动中，可以将优惠目标到特定受众。
 
 使用此功能可减少特定访客有资格查看的选件数量。例如，以含有三个选件的 AP 活动为例。选件 1 有一个定位规则，该规则限制仅向受众 A 显示该选件。有两位访客看到了此 AP 活动。
 

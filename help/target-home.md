@@ -1,13 +1,13 @@
 ---
 keywords: 目标；主页；热门主题；adobe 目标；标准；高级；目标文档；adobe 目标文档
-title: 在哪里可以找到目标文档？
-description: 了解如何使用Adobe Target个性化您的客户体验，从而最大限度地提高您网站和移动站点、App和其他数字渠道的收入。
-feature: Overview
+title: 在哪里可以找到 [!DNL Target] 文档？
+description: 了解如何使用Adobe [!DNL Target] 个性化您的客户体验，以最大化您的Web和移动站点、App和其他数字渠道的收入。
+feature: 概述
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 45%
 
 ---

@@ -1,20 +1,20 @@
 ---
 keywords: Target 故障诊断;默认内容;测试未处于实时状态;活动未处于实时状态;定位无法运行;显示之前的体验;无法创建活动;创建活动;页面结构发生更改;页面结构已修改;错误消息;删除配置文件脚本时出错;ajax 无法运行
-description: 如果您的Adobe Target活动未出现在您的网站上，请查找故障排除建议。
+description: 如果您的Adobe [!DNL Target] 活动未显示在您的站点上，请查找疑难解答建议。
 title: 如何对活动进行疑难解答？
-feature: Activities
+feature: 活动
+exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 76%
+source-wordcount: '834'
+ht-degree: 75%
 
 ---
 
-
 # 活动故障诊断
 
-如果您的[!DNL Adobe Target]活动未出现在您的站点上，这些故障排除建议将帮助您找到解决方案。
+如果您的[!DNL Adobe Target]活动未出现在您的站点上，则这些疑难解答建议将帮助您找到解决方案。
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ ht-degree: 76%
 
 以下章节包含您可能遇到的问题及建议的解决方案。
 
-## 我使用活动UI创建了目标，无法通过API更新它。
+## 我使用[!DNL Target] UI创建了活动，无法通过API更新它。
 
-使用目标UI创建的活动应通过目标UI进行更新。 通过API创建的活动应通过API更新。 例如，如果您最初使用API创建活动，但随后通过目标UI编辑活动，则并不更新所有更改。 所有更改都存储在后端，并可以通过进行另一个API调用来更新。
+使用目标 UI创建的活动应通过目标 UI进行更新。 通过API创建的活动应通过API更新。 例如，如果您最初使用API创建活动，但后来通过目标 UI编辑活动，则不会更新所有更改。 所有更改都存储在后端上，并可以通过进行另一个API调用来更新。
 
 作为最佳实践，请尝试使用最初创建活动时所用的相同方法（UI或API）更新活动。
 
@@ -69,7 +69,7 @@ ht-degree: 76%
 * 尝试使用其他浏览器。
 * 使用私密/隐身模式。
 
-## 您最近已被添加到 Target，但无法创建活动。
+## 您最近已添加到[!DNL Target]，但无法创建活动。
 
 **验证：**&#x200B;单击创建活动。如果此选项不可用，很可能是因为您未获得足够的权限来创建活动。
 
@@ -78,7 +78,7 @@ ht-degree: 76%
 作为用户添加到 Target 后，您需要拥有“审批者”角色才能创建活动。
 
 * 请求您的帐户管理员将您设为“审批者”。
-* 如果您是管理员，请在目标中为您自己提供&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 用户]**&#x200B;的审批者角色。
+* 如果您是管理员，请为您自己指定目标中&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;的审批者角色。
 
    请参阅[为您自己分配“审批者”角色](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
@@ -141,6 +141,6 @@ ht-degree: 76%
 
 **注意：** 在同 [!DNL Target] 一页面上，使用相同名称但不同参数的多个ajax调用将无法工作。只有第一个调用可以运行。
 
-## 您使用活动API激活了目标，但活动在目标UI中显示状态为[!UICONTROL 非活动]。
+## 您使用[!DNL Target] API激活了活动，但该活动在[!DNL Target] UI中显示了[!UICONTROL  Inactive]的状态。
 
 执行某些操作（例如使用 Target API 在 UI 外部激活活动）时，更新可能最多需要 10 分钟才能传播到 UI 中。

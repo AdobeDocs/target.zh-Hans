@@ -1,19 +1,19 @@
 ---
 keywords: at.js 发行版;at.js 版本;单页应用程序;SPA;跨域;跨域
-description: 了解如何从Adobe Targetat.js 1.x升级到at.js 2.x。检查系统流图，了解新的和已弃用的函数等。
-title: 如何从at.js版本1.x升级到2.x?
+description: 了解如何从Adobe [!DNL Target] at.js 1.x升级到at.js 2.x。检查系统流图，了解新的和已弃用的函数等。
+title: 如何从at.js版本1.x升级到2.x版？
 feature: at.js
 role: Developer
+exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 91%
 
 ---
 
-
-# 从 at.js 1.*x* 升级到 at.js 2.*x* {#upgrading-from-atjs-1x-to-atjs-200}
+# 从 at.js 1.*x* 升级到 at.js 2.*x*
 
 [!DNL Adobe Target] 中最新版本的 at.js 提供了丰富的功能集，使您的企业能够在下一代客户端技术上实现个性化。这个新版本着重升级了 at.js 以与单页应用程序 (SPA) 进行良性的交互。
 
@@ -48,7 +48,7 @@ ht-degree: 91%
 | --- | --- |
 | 1 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
 | 2 | 从缓存中读取视图的目标内容。 |
-| 1 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
+| 3 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
 | 4 | 通知请求将发送到 [!DNL Target] 配置文件存储区，以计算活动中的访客和递增量度。 |
 | 5 | Analytics 数据会发送到数据收集服务器。 |
 | 6 | Target 数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 A4T 报表查看 Analytics 数据。 |
@@ -249,7 +249,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 ### at.js 中的全局 mbox 名称是否无关紧要？
 
-客户可以通过[!UICONTROL 目标>管理>实施>编辑at.js设置]指定全局mbox名称。 [!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为 [!DNL Target] UI 中显示的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并使用全局 mbox 名称创建受众。我们强烈建议您在[!UICONTROL “管理”>“可视体验书写器”]页面上配置相同的全局mbox名称，以防您仍有使用at.js 1的页面。*x* 或 mbox.js 的页面，如以下插图所示。
+客户可以通过[!UICONTROL 目标>管理>实施>编辑at.js设置]指定全局mbox名称。 [!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为 [!DNL Target] UI 中显示的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并使用全局 mbox 名称创建受众。我们强烈建议您还确保在[!UICONTROL “管理”>“可视体验书写器”]页面上配置相同的全局mbox名称，以防您仍有使用at.js 1的页面。*x* 或 mbox.js 的页面，如以下插图所示。
 
 ![修改 at.js 对话框](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -320,7 +320,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 不需要，在调用 `triggerView()` 之前，您不需要添加预隐藏代码。at.js 2.*x* 会在显示和应用视图之前管理预隐藏和闪烁逻辑。
 
-### 那是at.js 1。*at.* js 2中不支持用于创建受众的xparameter。*x*? {#audience-parameters}
+### 那是at.js 1。*at.* js 2中不支持用于创建受众的xparameters。*x*? {#audience-parameters}
 
 使用at.js 2时，当前支持以下at.js 1.x参数&#x200B;*NOT*&#x200B;进行受众创建。*x* 中的 Target 流程 - 页面加载请求：
 
@@ -413,7 +413,7 @@ at.js 2.*x*（与 at.js 1.*x* 一样）使用自定义事件 `at-request-succeed
 * at.js 2.*x* - 客户端代码将作为查询字符串参数发送，例如：
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-以下部分列出了每个 at.js 1.** xparameter、其描述和相应的2。*xJSON* 有效负荷（如果适用）:
+以下部分列出了每个 at.js 1.** xparameter、其描述和相应的2。** xJSON有效负荷（如果适用）：
 
 ### at_property
 
@@ -757,10 +757,10 @@ at.js 2.*x* JSON 有效负载：
 
 版本将通过 version 参数作为查询字符串参数发送。
 
-## 培训视频：at.js 2.** Xastercial Diagram概 ![述徽章](/help/assets/overview.png)
+## 培训视频：at.js 2.*架* 构图概 ![述徽章](/help/assets/overview.png)
 
 at.js 2.*x* 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Cloud 解决方案集成。该视频介绍了如何将所有内容结合到一起。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-请参阅[了解at.js 2的使用方法。*xwork* ](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 了解更多信息。
+请参阅[了解at.js 2的使用方法。*xworks* ](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 了解更多信息。

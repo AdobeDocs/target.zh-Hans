@@ -1,18 +1,18 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk；搜索引擎优化；搜索引擎优化；seo;edge clusters， central clusters;at.js;mbox.js;
-description: 了解Adobe Target的工作方式，包括有关目标 JavaScript库（at.js和AEP Web SDK）、Adobe数据中心和SEO测试的信息。
-title: 目标的工作原理
-feature: Overview
+description: 了解Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript库（at.js和AEP Web SDK）、Adobe数据中心和SEO测试。
+title: 如何 [!DNL Target] 工作？
+feature: 概述
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: '2565'
 ht-degree: 31%
 
 ---
 
-# Adobe Target 的工作原理
+# Adobe [!DNL Target]的工作方式
 
 了解[!DNL Adobe Target]的工作方式，包括有关[!DNL Adobe Experience Platform Web SDK]和JavaScript库（at.js和mbox.js）的信息。 本文还介绍了可以使用[!DNL Target]创建的各种活动类型。 您还可以了解[!DNL Target]边缘网络、搜索引擎优化(SEO)以及[!DNL Target]如何检测机器人程序。
 

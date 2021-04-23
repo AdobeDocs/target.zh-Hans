@@ -1,24 +1,24 @@
 ---
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;自动化区段;常见问题解答
-description: 通过查看“自动细分”报告，了解Adobe Target个性化模型定义的不同细分如何响应活动中的优惠/体验。
-title: 什么是自动细分报告？
-feature: Reports
+description: 查看“自动细分”报表，了解由Adobe [!DNL Target] 个性化模型定义的不同细分如何响应活动中的优惠/体验。
+title: 什么是自动细分报表？
+feature: 报表
+exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 92%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 自动化区段报表{#automated-segments-report}
+# ![PREMIUM](/help/assets/premium.png) 自动化区段报表
 
 此信息介绍了自动化区段报表，该报表是自动个性化 (AP) 和自动定位 (AT) 活动用户可以使用的两个专门报表之一。
 
 >[!NOTE]
 >
->使用个性化洞察报告时，请考虑以下事项：
+>使用个性化分析报表时，请考虑以下事项：
 >
 >* AP 和 AT 活动会作为 [!DNL Target Premium] 解决方案的一部分提供。在没有 [!DNL Target Premium] 许可证的情况下，它们将不会包含在 [!DNL Target Standard] 中。
    >
@@ -26,13 +26,13 @@ ht-degree: 92%
 * [!UICONTROL 个性化分析报表仅适用于使用转化优化目标的 AP 和 AT 活动。]活动上线后将优化目标从收入更改为转化的活动也不受支持。
    >
    >
-* [!UICONTROL 仅当] 从“报表量度”下拉 [!UICONTROL 列表] 中选择的主Goalis时， [!UICONTROL “个性化洞察”报表才] 可用。
+* [!UICONTROL 仅当] 从“报表量度”下拉 [!UICONTROL 列表] 中选择的“主Goalis”时， [!UICONTROL “个性化见解”报表才] 可用。
    >
    >
 * 仅[默认环境](/help/administrating-target/hosts.md)支持个性化分析报表。
    >
    >
-* [!UICONTROL 个] 性化洞察报表仅针对处于“实时”状  态且已激活并接收至少15天流量的活动生成。
+* [!UICONTROL “个] 性化洞察”报表仅针对处于“实时”状  态且已激活并接收至少15天流量的活动生成。
 
 
 不同的访客对您的 AP/AT 活动中的选件/体验做出的响应会有所不同。此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。
@@ -41,11 +41,11 @@ ht-degree: 92%
 
 1. 单击&#x200B;**[!UICONTROL 活动]**，然后单击列表中所需的[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)或[自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)活动。
 
-   如果您有许多活动，则可以从[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 属性]、[!UICONTROL 报告源]、[!UICONTROL 体验书写器]、[!UICONTROL 类型度量中选择选项来过滤列表]和[!UICONTROL 活动源]下拉列表。
+   如果您有许多活动，则可以通过从[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 属性]、[!UICONTROL 报告源]、[!UICONTROL 体验书写器]、[!UICONTROL 类型量度中选择选项来筛选列表]和[!UICONTROL 活动源]下拉列表。
 
 1. 单击&#x200B;**[!UICONTROL 报表]**。
 
-   将显示[Automated Personalization摘要](/help/c-reports/reports-ap.md)或[自动目标摘要](/help/c-reports/auto-target-summary-report.md)报告，其中提供有关活动性能的信息，由第一个屏幕图标表示。 其他两个图标表示两个个性化分析报表：自动化区段和重要属性。请注意，自动定位还有一个图形图标，表示“[!UICONTROL 摘要]”报表的图形视图。
+   将显示[Automated Personalization Summary](/help/c-reports/reports-ap.md)或[自动目标摘要](/help/c-reports/auto-target-summary-report.md)报告，其中提供有关活动性能的信息，由第一个屏幕图标表示。 其他两个图标表示两个个性化分析报表：自动化区段和重要属性。请注意，自动定位还有一个图形图标，表示“[!UICONTROL 摘要]”报表的图形视图。
 
    ![](assets/personalization_insights.png)
 
@@ -55,7 +55,7 @@ ht-degree: 92%
 
 1. 激活活动 15 天后，您可以单击&#x200B;**[!UICONTROL 自动化区段]**&#x200B;图标。
 
-   ![自动细分图标](/help/c-reports/assets/icon-automated-sements.png)
+   ![“自动细分”图标](/help/c-reports/assets/icon-automated-sements.png)
 
 1. 选择所需的日期范围。
 

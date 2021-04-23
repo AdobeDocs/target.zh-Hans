@@ -1,26 +1,26 @@
 ---
 keywords: 推荐;备用
-description: 了解如何在Adobe TargetRecommendations使用备份建议。 建议项不足，则显示备份算法的结果。
-title: 如何在Recommendations使用备份建议？
+description: 了解如何在Adobe [!DNL Target] Recommendations中使用备份建议。 建议没有足够的建议项显示备份算法的结果。
+title: 如何在Recommendations中使用备份推荐？
 feature: Recommendations
+exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) 使用备用推荐 
 
-# ![PREMIUM](/help/assets/premium.png) 使用备用推荐 {#use-a-backup-recommendation}
-
-如果您使用Adobe Target的备份推荐功能，则任何建议项目不足的建议将不显示默认内容。 “推荐”将改为显示备用算法的结果。
+如果您使用Adobe Target中的备份推荐功能，则任何建议没有足够的推荐项目将不显示默认内容。 “推荐”将改为显示备用算法的结果。
 
 如果您不使用备用推荐并且推荐中的项目不足以填满整个显示区域，则系统会向用户显示默认内容。
 
 >[!NOTE]
 >
->“创建条件”主题的“内容”部分包含其他信息，包括一个矩阵，该矩阵解释了将[!UICONTROL 部分设计渲染]和[!UICONTROL 显示备份Recommendations]选项结合使用时将观察到的结果。[](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)
+>“创建条件”主题的“内容”部分包含其他信息，其中包括一个矩阵，用于解释将[!UICONTROL 部分设计渲染]和[!UICONTROL 显示备份Recommendations]选项结合使用时将观察到的结果。[](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)
 
 备用推荐功能始终采用网站查看最多的项目来填充算法数据被使用后的剩余位置。例如，您的模板配置为显示 5 个推荐项目，并且您使用的是“*购买相关性*”算法。然而，您仅有足够的数据来填充 5 个位置中的两个，那么备用推荐功能就会使用查看最多的项目来填充其它 3 个位置。
 

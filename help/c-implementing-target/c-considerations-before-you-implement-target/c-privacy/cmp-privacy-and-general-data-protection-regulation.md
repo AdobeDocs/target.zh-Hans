@@ -1,21 +1,21 @@
 ---
 keywords: GDPR;EU;欧盟;隐私;FAQ;常见问题解答;《加州消费者隐私法案》;CCPA;隐私;数据保护;选择退出;选择退出;政府;法规
-description: 了解目标和欧洲合并一般数据保护规定(GDPR)、加利福尼亚消费者隐私法(CCPA)以及其他隐私要求。
-title: 目标如何处理隐私和数据保护规定？
-feature: Privacy & Security
+description: 了解 [!DNL Target] 和欧洲合并一般数据保护规定(GDPR)、加利福尼亚消费者隐私法(CCPA)以及其他隐私要求。
+title: ' [!DNL Target] 如何处理隐私和数据保护规定？'
+feature: 隐私和安全
 role: Developer
+exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2265'
-ht-degree: 90%
+source-wordcount: '2260'
+ht-degree: 88%
 
 ---
 
-
 # 隐私和数据保护法规
 
-有关欧洲合并的一般数据保护规定(GDPR)、加利福尼亚消费者隐私法(CCPA)和其他国际隐私要求的信息，以及这些规定对您的组织和[!DNL Adobe Target]的影响。
+有关欧洲合并的一般数据保护规定(GDPR)、加利福尼亚消费者隐私法(CCPA)和其他国际隐私要求的信息，以及这些规定对您的组织和[!DNL Adobe Target]有何影响。
 
 ## 隐私和《通用数据保护条例》(GDPR) 概述{#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
@@ -50,9 +50,9 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->当数据应用于CCPA时访问和删除数据的过程与GDPR的过程相同。
+>访问和删除应用于CCPA的数据与GDPR执行的过程相同。
 
-## Adobe Target 和 [!DNL Experience Platform Launch] 选择加入 {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe [!DNL Target]和[!DNL Experience Platform Launch] opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
 
 [!DNL Target] 通过 [!DNL Launch] 提供选择加入功能支持，以协助支持您的同意管理策略。选择加入功能让客户可自行决定如何以及何时触发 [!DNL Target] 标记。还有一个选项，即通过 [!DNL Launch] 预批准 [!DNL Target] 标记。要启用在 [!DNL Target] at.js 中使用选择加入的功能，您应该使用 `targetGlobalSettings` 并添加 `optinEnabled=true` 设置。在 [!DNL Launch] 中，您将需要从 [!DNL Launch] 扩展安装视图的 [!UICONTROL GDPR 选择加入]下拉列表中选择“启用”。有关更多详细信息，请参阅 [Launch 文档](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。
 
@@ -74,7 +74,7 @@ window.targetGlobalSettings = {
 
 1. **已通过 [!DNL Launch] 预批准 [!DNL Target] 标记（或者数据主体以前已经批准 [!DNL Target]）：**[!DNL Target] 标记不适用于征求同意，且会发挥预期的作用。
 1. **[!DNL Target] 标记没有获得预批准且 `bodyHidingEnabled` 设置为 FALSE：**&#x200B;只有在收到客户的同意之后，才会触发 [!DNL Target] 标记。在收到客户同意之前，仅默认内容可用。在收到客户同意之后，将调用 [!DNL Target] 并向数据主体（访客）提供个性化内容。因为在收到同意之前仅默认内容可用，所以利用适当的策略显得尤为重要，例如对可覆盖网页任何区域或内容的醒目页面进行自定义。这可确保数据主体（访客）获得一致的体验。
-1. **[!DNL Target] 标记没有获得预批准且 `bodyHidingEnabled` 设置为 TRUE：**&#x200B;只有在收到客户的同意之后，才会触发 [!DNL Target] 标记。在收到客户同意之前，仅默认内容可用。但是，因为 `bodyHidingEnabled` 设置为 true，`bodyHiddenStyle` 会指示在触发 [!DNL Target] 标记之前页面上需要隐藏的内容（或者数据主体拒绝使用选择加入功能，这种情况下会显示默认内容）。默认情况下，`bodyHiddenStyle`设置为`body { opacity:0;}`，它隐藏HTML body标签。 我们推荐采用下面的页面配置，以便隐藏除同意管理器对话框之外的整个页面正文，方法是将页面内容放在一个容器，而将同意管理器对话框放在另一容器中。这种设置会配置 [!DNL Target]，以便仅隐藏页面内容容器。关于如何配置这些设置的信息，请参阅 [ Launch 文档](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
+1. **[!DNL Target] 标记没有获得预批准且 `bodyHidingEnabled` 设置为 TRUE：**&#x200B;只有在收到客户的同意之后，才会触发 [!DNL Target] 标记。在收到客户同意之前，仅默认内容可用。但是，因为 `bodyHidingEnabled` 设置为 true，`bodyHiddenStyle` 会指示在触发 [!DNL Target] 标记之前页面上需要隐藏的内容（或者数据主体拒绝使用选择加入功能，这种情况下会显示默认内容）。默认情况下，`bodyHiddenStyle`设置为`body { opacity:0;}`，这会隐藏HTML body标签。 我们推荐采用下面的页面配置，以便隐藏除同意管理器对话框之外的整个页面正文，方法是将页面内容放在一个容器，而将同意管理器对话框放在另一容器中。这种设置会配置 [!DNL Target]，以便仅隐藏页面内容容器。关于如何配置这些设置的信息，请参阅 [ Launch 文档](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)。
 
    适用于情景 3 的推荐页面设置是：
 
@@ -144,7 +144,7 @@ window.targetGlobalSettings = {
 
 GDPR 和 CCPA 不会对您获得客户同意的时间造成任何影响，但会影响获得客户同意的方式。每位客户的同意策略取决于其数据收集和使用惯例，以及其隐私政策。同意管理不受 GDPR 和 CCPA 的支持，也不应通过 [!DNL Target] 为 GDPR 和 CCPA 获取同意管理。
 
-[!DNL Adobe] 目前不提供同意管理解决方案，不过，市面上有各种各样的开发工具，可用来解决一些新的需求。有关一般隐私工具（包括同意管理者）的详细信息，请参阅&#x200B;*国际隐私专业人士协会(iaap)*&#x200B;网站上的[2017隐私权技术供应商报告](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf)。
+[!DNL Adobe] 目前不提供同意管理解决方案，不过，市面上有各种各样的开发工具，可用来解决一些新的需求。有关一般隐私工具（包括同意管理者）的详细信息，请参阅&#x200B;*国际隐私专业人士协会(iaap)*&#x200B;网站上的[2017年隐私技术供应商报告](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf)。
 
 [!DNL Target] 通过 [!DNL Launch] 提供选择加入功能支持，以支持您的同意管理策略。选择加入功能让客户可自行决定如何以及何时触发 [!DNL Target] 标记。还有一个选项，即通过 [!DNL Launch] 预批准 [!DNL Target] 标记。推荐使用 [!DNL Launch] 管理选择加入功能。[!DNL Launch] 中提供了更加精细化的控制，可在触发 [!DNL Target] 标记之前隐藏页面的选定元素，这可能会有助于在您的同意策略中利用此功能。
 
@@ -160,7 +160,7 @@ GDPR 和 CCPA 不会对您获得客户同意的时间造成任何影响，但会
 
 例如，[!DNL Target] 将删除存储其 ID 的 Cookie，但 [!DNL Adobe Audience Manager] (AAM) 不删除存储在第三方 Cookie 中的 demdex ID。
 
-### Target GDPR 或 CCPA 请求中需要包含哪些信息？{#section_D29A4744AE6344E68AD7710B185FD6D0}
+### [!DNL Target] GDPR或CCPA请求中需要包含哪些信息？{#section_D29A4744AE6344E68AD7710B185FD6D0}
 
 除了核心隐私服务的要求之外，[!DNL Target] 的有效 GDPR 或 CCPA 消息还包含：
 
@@ -201,7 +201,7 @@ GDPR 和 CCPA 不会对您获得客户同意的时间造成任何影响，但会
 }
 ```
 
-### 我可以通过 GDPR API 从 Target 获得哪些类型的响应？{#section_F67263D2A72B4641A47CE36729CCAE8F}
+### 通过GDPR API从[!DNL Target]中可以期待哪些类型的响应？{#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | 请求状态 | Target 响应消息 | 情景 |
 |--- |--- |--- |
@@ -210,7 +210,7 @@ GDPR 和 CCPA 不会对您获得客户同意的时间造成任何影响，但会
 | 完成 | 不适用 - 未找到用户上下文 | Target 配置文件存储中不存在 GDPR 或 CCPA 请求中为特定访客或数据主体提供的 ID。<br>请注意，如果您尝试提交 Target 不支持的命名空间 ID 类型，则也会返回此结果（请参阅上面的受支持 ID）。 |
 | 错误 | 错误消息（详细信息取决于错误类型） | 获取或删除请求的数据主体配置文件时出错。<br>上传到 Azure 以请求访问时出错。 |
 
-### 对于访问请求，Target 会向 GDPR API 发送什么响应？{#section_D96D8FBEAF9C4BDAA638215FAFE00763}
+### [!DNL Target]向GDPR API发送什么访问请求响应？{#section_D96D8FBEAF9C4BDAA638215FAFE00763}
 
 在响应访问数据的请求时，将提供一份有关所讨论访客的 [!DNL Target] 配置文件摘要。请注意，这些响应信息将发送至 [!DNL Experience Cloud] GDPR API，而 Experience Cloud GDPR API 又会向“数据控制方”发送一个响应。
 
@@ -293,10 +293,10 @@ GDPR 和 CCPA 不会对您获得客户同意的时间造成任何影响，但会
 >
 >这是 [!DNL Target] 配置文件 JSON 的简化版本，用于提供说明。[!DNL Target] 配置文件的许多字段都不是标准字段。返回的内容取决于特定访客配置文件中的信息。
 
-### Target 是否支持 IP 模糊处理？ {#section_428907B0CD9842D9B245B38C66A53C6A}
+### [!DNL Target]是否支持IP模糊化？{#section_428907B0CD9842D9B245B38C66A53C6A}
 
 如果您选择将 IP 模糊处理用作 GDPR 或 CCPA 实施策略的一部分，则 [!DNL Target] 支持 IP 模糊处理。有关更多信息，请参阅[隐私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)。
 
-### 我是否需要采取一些措施来防止我的数据被共享或出售给第三方？
+### 我是否需要采取一些措施来阻止共享数据或将数据出售给第三方？
 
-目标无法允许客户直接从目标共享或向第三方销售数据，因此不会选择退出目标。
+目标无法允许客户直接从目标共享或将数据销售给第三方，因此不会选择退出目标。

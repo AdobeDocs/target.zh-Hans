@@ -1,16 +1,16 @@
 ---
 keywords: 系统更新;故障诊断;维护;系统状态;更新状态
-description: 视图Adobe Target的当前状态，帮助您确定可能遇到的问题是系统更新还是例行维护所致。
-title: 我可以在何处视图目标和其他Adobe产品的状态？
-feature: Release Notes
+description: 视图Adobe [!DNL Target] 的当前状态，帮助您确定可能遇到的问题是系统更新还是例行维护所致。
+title: 我可以在何处视图 [!DNL Target] 和其他Adobe产品的状态？
+feature: 发行说明
+exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
-
 
 # 系统状态更新和主动通知
 

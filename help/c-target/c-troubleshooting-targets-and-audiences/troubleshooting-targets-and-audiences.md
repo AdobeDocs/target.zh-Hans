@@ -1,24 +1,24 @@
 ---
 keywords: 故障诊断;常见问题解答;FAQ;定位;受众
-description: 视图关于体验定位和Adobe Target活动使用的受众的常见问题解答(FAQ)。
+description: 视图关于体验定位和Adobe [!DNL Target] 活动中使用的受众的常见问题解答(FAQ)。
 title: 在哪里可以找到有关目标和受众的问题和答案？
-feature: Audiences
+feature: 受众
+exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 66%
+source-wordcount: '948'
+ht-degree: 60%
 
 ---
 
-
-# 定位和受众常见问题解答{#targets-and-audiences-faq}
+# 定位和受众常见问题解答
 
 有关体验定位和受众的常见问题解答 (FAQ) 列表。
 
-## 目标如何评估定位中的URL?{#url}
+## [!DNL Target]如何评估定位中的URL?{#url}
 
-目标对URL的评估方式取决于您在创建活动时是使用受众URL定位，还是在创建受众时使用URL定位。
+目标的URL评估方式取决于您在创建活动时是使用受众URL定位，还是在创建受众时使用URL定位。
 
 请考虑以下URL:
 
@@ -26,11 +26,11 @@ ht-degree: 66%
 
 ### 受众URL定位
 
-要应用受众URL定位，请在创建活动时，在“体验”页面（三步指导式工作流的步骤一）上，单击齿轮图标，单击页面投放，然后指定所需的URL。
+要应用受众URL定位，在创建活动时，请在“体验”页面（三步引导式工作流的步骤一）中，单击齿轮图标，单击页面投放，然后指定所需的URL。
 
 ![页面投放URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-受众URL定位会查找精确的URL匹配。 如果URL匹配，目标不会考虑进一步的逻辑。 在上述URL中，如果活动设置为在`www.example.com`上触发，则以下URL的URL将匹配，因为受众URL定位与查询无关：
+受众URL定位会查找精确的URL匹配。 如果URL匹配，目标不会考虑进一步的逻辑。 在上述URL中，如果活动设置为在`www.example.com`上触发，则以下URL的URL匹配，因为受众URL定位与查询无关：
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -40,18 +40,18 @@ ht-degree: 66%
 
 ### URL定位
 
-要应用URL定位，在创建受众时，单击添加规则，单击站点页，从第一个下拉列表(当前页、上一页或登陆页)中选择一个选项，从第二个下拉列表中选择URL，指定评估器，然后指定所需的URL。
+要应用URL定位，在创建受众时，单击添加规则，单击站点页，从第一个下拉列表(当前页、上一页或登陆页)中选择一个选项，从第二个下拉列表中选择URL，指定计算器，然后指定所需的URL。
 
-![“站点页面”>“当前页面”>“URL”](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![网站页>当前页> URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
-URL定位会将URL转换为一组规则以进行评估：
+URL定位会将URL转换为一组要评估的规则：
 
 * URL域= `example.com`
 * 路径= path1/path2/path3
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## 创建复杂的URL字符串时，[!DNL Target]是否评估整个URL?
+## 创建复杂的URL字符串时，[!DNL Target]是否会评估整个URL?
 
 如果在URL字符串中多次使用相同的参数名称，HTTP会考虑第一个参数名称，并忽略后续具有相同名称的参数。
 
@@ -59,13 +59,13 @@ URL定位会将URL转换为一组规则以进行评估：
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-计算`Category`参数的第一个实例，并忽略第二个`Category`参数。
+计算`Category`参数的第一实例，忽略第二个`Category`参数。
 
 最佳实践是将多个值与单个类别关联，如下所示：
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
-## 构建受众时，为何会在其他类别下找到“定位库”下预先构建的受众？{#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
+## 在构建受众时，为什么在[!DNL Target]库下预建受众位于其他类别下？{#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
 “定位库”类别中预先构建的受众是旧版受众，它们存在于其他类别中。例如，旧版“定位库”>“新访客”中的受众在更新后会相应地移到“访客配置文件”>“新访客”。
 
@@ -83,7 +83,7 @@ URL定位会将URL转换为一组规则以进行评估：
 
 ![](assets/audiences_order.png)
 
-## 为何同一个受众在 Target、Adobe Audience Manager (AAM) 以及核心服务的受众库中具有不同的名称？{#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## 为什么[!DNL Target]、Adobe Audience Manager(AAM)和核心服务中的受众库中相同受众的名称不同？{#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 [!DNL Target] 中的受众名称是唯一的；但是，在 [!DNL AAM] 和 [!DNL Audience Library] 中，您可以使用同一个名称来命名多个受众（前提是这些受众位于不同的文件夹中）。如果 [!DNL Target] 中某个受众名称恰巧与 [!DNL AAM] 或 [!DNL Audience Library] 中相应受众的名称相同，则 [!DNL Target] 会将“#&lt;number>”附加到该受众名称。
 
@@ -93,7 +93,7 @@ URL定位会将URL转换为一组规则以进行评估：
 
 有些 Target 受众是预先构建的，例如“新访客”和“旧访客”。用户无法对这些预先构建的受众进行重命名。
 
-## 为何 Target 用户界面中并未显示所有配置文件参数？  {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## 为什么所有用户档案参数都未在[!DNL Target]用户界面中显示？{#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将 50 个以上的配置文件属性传递到 [!DNL Target]，则可以使用[!UICONTROL 配置文件更新] API 方法进行传递。有关更多信息，请参阅 Adobe Target API 文档中的[配置文件更新](https://developers.adobetarget.com/api/#authentication-tokens)。
 
@@ -101,7 +101,7 @@ URL定位会将URL转换为一组规则以进行评估：
 
 自动个性化活动会在每次会话中都进行一次评估。如果之前已有活跃会话符合某个特定体验的条件，且现在已在该体验中添加了新选件，则用户会同时看到新的内容以及之前显示的选件。因为用户之前符合这些体验的参加条件，因此他们在会话持续期间仍会看到这些体验。如果您希望在每一次进行页面访问时都进行评估，则应该切换到体验定位 (XT) 活动类型。
 
-## 为何对通过 API 创建的受众所做的更改没有反映在 Target UI 中？  {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## 为什么对通过API创建的受众所做的更改未反映在[!DNL Target] UI中？{#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 与选件和配置文件脚本不同，API 对通过 Target Standard 创建的受众所做的更改当前不会同步回 Target UI。
 
@@ -114,12 +114,12 @@ URL定位会将URL转换为一组规则以进行评估：
 | 值 | 定位标准 | 结果 |
 | --- | --- | --- |
 | 1.0 | 等于 1 | true |
-| 1 | equalsIgnoreCase 1.0 | 真 |
-| 1.230 | 等于 1 | 真 |
-| 1.500 | 等于 1.5 | 真 |
-| 1.200 | 小于 2 | 真 |
+| 1 | equalsIgnoreCase 1.0 | true |
+| 1.230 | 等于 1 | true |
+| 1.500 | 等于 1.5 | true |
+| 1.200 | 小于 2 | true |
 | 2 | 大于 3.0 | false |
-| 045 | 等于 45 | 真 |
+| 045 | 等于 45 | true |
 
 用科学记数法编写的数字将始终作为字符串进行比较。
 

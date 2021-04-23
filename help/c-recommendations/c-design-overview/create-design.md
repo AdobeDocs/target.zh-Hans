@@ -1,18 +1,18 @@
 ---
 keywords: 推荐设计;创建设计;复制设计
-description: 了解如何使用默认设计创建Adobe TargetRecommendations设计，或创建最适合页面布局的自定义设计。
-title: 如何在Recommendations创建设计？
+description: 了解如何使用默认设计或通过创建最适合页面布局的自定义设计来创建Adobe [!DNL Target] Recommendations设计。
+title: 如何在Recommendations中创建设计？
 feature: Recommendations
+exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 创建设计{#create-a-design}
+# ![PREMIUM](/help/assets/premium.png) 创建设计
 
 设计可定义推荐在页面上的显示方式。
 
@@ -23,9 +23,9 @@ ht-degree: 30%
 * 您可以使用默认设计创建推荐设计，也可以创建自定义设计。
 * 不能编辑或删除默认设计。
 * 您可以编辑、复制或删除自定义设计。
-* 要创建基于默认设计的设计，必须先复制设计，然后编辑副本。
+* 要基于默认设计创建设计，必须先复制设计，然后编辑副本。
 
-此插图显示默认的1 x 4设计：
+此插图显示了默认的1 x 4设计：
 
 ![1 x 4默认设计](/help/c-recommendations/c-design-overview/assets/default-design.png)
 
@@ -33,13 +33,13 @@ ht-degree: 30%
 
 ![自定义设计](/help/c-recommendations/c-design-overview/assets/custom-design.png)
 
-在活动创建过程中，您可以从Visual Experience Composer(VEC)或在活动创建之外的设计库中创建设计。 以下部分假定您是从库创建设计，但步骤相似。
+在活动创建过程中，您可以从Visual Experience Composer(VEC)中或在活动创建之外的设计库中创建设计。 以下部分假定您从库创建设计，但步骤类似。
 
 ## 创建设计
 
 您可以基于默认设计创建设计，也可以创建自定义设计。
 
-### 根据默认设计创建设计
+### 基于默认设计创建设计
 
 1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 设计]**&#x200B;以显示[!UICONTROL 设计]库。
 
@@ -53,19 +53,19 @@ ht-degree: 30%
 
    ![](assets/createDesign.png)
 
-1. 在&#x200B;**[!UICONTROL 信息]**&#x200B;面板中，添加&#x200B;**[!UICONTROL 内容名称]**&#x200B;和可选预览图像以在设计卡上显示。
+1. 在&#x200B;**[!UICONTROL 信息]**&#x200B;面板中，添加要在设计卡上显示的&#x200B;**[!UICONTROL 内容名称]**&#x200B;和可选预览图像。
 
-   使用默认设计时，设计名称和“复制”显示在&#x200B;**[!UICONTROL 内容名称]**&#x200B;字段中。 您可以编辑该名称。您还可以选择要在设计卡上显示的图像。
+   使用默认设计时，设计名称和“Copy”将显示在&#x200B;**[!UICONTROL 内容名称]**&#x200B;字段中。 您可以编辑该名称。您还可以选择要在设计卡上显示的图像。
 
 1. （视情况而定）根据需要编辑设计&#x200B;**[!UICONTROL 代码]**。
 
    推荐设计使用的是开源 Velocity 设计语言。有关Velocity的信息，请访问[https://velocity.apache.org](https://velocity.apache.org)和[使用Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md)自定义设计。
 
-   设计可以是 HTML 形式，也可以是非 HTML 形式。默认情况下，HTML 设计将使用`<div>`标记封装，以便允许在 Web 环境中进行点击跟踪。非 HTML 设计适用于无法进行点击跟踪的非 Web 环境。将[!UICONTROL HTML Design]切换到“关闭”位置以使用非HTML代码。
+   设计可以是 HTML 形式，也可以是非 HTML 形式。默认情况下，HTML 设计将使用`<div>`标记封装，以便允许在 Web 环境中进行点击跟踪。非 HTML 设计适用于无法进行点击跟踪的非 Web 环境。将[!UICONTROL HTML Design]切换到“off”位置以使用非HTML代码。
 
    >[!NOTE]
    >
-   >设计中可引用的最大图元数（硬编码或通过循环）为99。
+   >可在设计中引用的最大图元数为99。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -89,25 +89,25 @@ ht-degree: 30%
 
 请记住，您无法编辑或复制默认设计；您只能复制默认设计。
 
-将指针悬停在[!UICONTROL Design]库中的所需设计上，然后单击相应的图标：编辑、复制或删除。
+将鼠标悬停在[!UICONTROL Design]库中所需的设计上，然后单击相应的图标：编辑、复制或删除。
 
 ![悬停设计图标](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
-您可以复制现有设计以创建随后可以修改的重复设计。 这样，您可以更轻松地创建类似的设计。
+您可以复制现有设计以创建随后可以修改的重复设计。 这样您可以更轻松地创建类似的设计。
 
-请注意，整个客户都有设计可用。 在删除设计之前，请确保考虑这一点。 无法恢复已删除的设计。
+请注意，整个帐户中都提供设计。 在删除设计之前，请务必考虑这一点。 无法恢复已删除的设计。
 
 ## JSON 示例 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-以下示例显示如何通过基于表单的编辑器配置活动时返回JSON响应。
+以下示例显示如何在通过基于表单的编辑器配置活动时返回JSON响应。
 
-1. 从设计库或基于表单的工作流程中创建设计。 如果尝试在可视体验书写器(VEC)工作流程中进行此操作，则无法创建HTML设计以外的任何内容，该设计打包在`<div>`中，用于点击跟踪。
+1. 从设计库或基于表单的工作流程中创建设计。 如果在Visual Experience Composer(VEC)工作流程中尝试执行此操作，则不能创建除HTML设计之外的任何内容，HTML设计打包在`<div>`中，用于单击跟踪。
 
 1. 确保已关闭“HTML 设计”选项：
 
    ![](assets/html_design_toggle.png)
 
-1. 以下代码是可粘贴到设计中的示例：
+1. 以下代码是您可以粘贴到设计中的内容示例：
 
    ```javascript
        #* 
@@ -151,7 +151,7 @@ ht-degree: 30%
 
 1. 设置活动并将其激活后，您可以设置示例请求，以获取简洁的 JSON 响应。
 
-   从保存活动开始，[!DNL Target]将需要构建一个模型以支持选定的标准配置。 此过程可能会花费一些时间，具体时间取决于众多因素。构建模型后，便会显示结果。
+   保存活动后，[!DNL Target]将需要构建一个模型以支持选定的标准配置。 此过程可能会花费一些时间，具体时间取决于众多因素。构建模型后，便会显示结果。
 
    例如：
 
@@ -163,8 +163,8 @@ ht-degree: 30%
 
    | 参数 | 值 |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | 目标客户端代码(可在/help/target/products.html#recs设置>RecommendationsAPI令牌>客户端代码上找到。 |
-   | `[YOUR_MBOX_NAME]` | 您在基于表单的Recommendations的“位置”部分选择的名称，在本例中为Sample_Recs_Response。 |
+   | `[YOUR_CLIENT_CODE]` | 目标客户端代码(可在/help/target/products.html#recsSettings > Recommendations API令牌>客户端代码上找到。 |
+   | `[YOUR_MBOX_NAME]` | 您在基于表单的Recommendations的“位置”部分中选择的名称，在此例中为Sample_Recs_Response。 |
    | `[ENTITY_ID` | 您目录中的项目的 `entity.id`。 |
    | `[AT_PROPERTY_TOKEN]` | （可选）如果您在活动设置过程中选择了某个属性（“企业权限”的一部分），则需添加此参数。 |
 
@@ -320,7 +320,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## 培训视频：在Recommendations创建自定义设计(3:20)![概述徽章](/help/assets/overview.png)
+## 培训视频：在Recommendations中创建自定义设计(3:20)![概述徽章](/help/assets/overview.png)
 
 本视频包含以下信息：
 

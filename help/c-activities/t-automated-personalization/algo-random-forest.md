@@ -1,16 +1,16 @@
 ---
 keywords: 随机森林；决策树；ap;Automated Personalization
-description: 了解Adobe Target如何在Automated Personalization(AP)和自动目标活动中使用随机森林算法。
-title: 目标如何使用随机森林算法？
-feature: Automated Personalization
+description: 了解Adobe [!DNL Target] 如何在Automated Personalization(AP)和自动目标活动中使用随机林算法。
+title: 如何 [!DNL Target] 使用随机林算法？
+feature: 自动个性化
+exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 95%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 随机林算法
 
@@ -78,7 +78,7 @@ Target 使用它自动收集的数据以及您提供的自定义数据来构建�
 
 对于类别特性，会保留所有可能的特性集，可使用概率转换来减小数据量。对于数字特性，可通过校正来确保这些特性都具有普遍可比性。
 
-**在学习与个性化与多兵种强盗之间找到平衡**
+**在学习与个性化与多兵种的强盗之间找到平衡**
 
 在 Target 构建了可个性化流量的个性化模型之后，对于将来的活动访客，您需要做出明确的权衡：应当基于当前模型个性化所有流量，还是应当继续向新访客提供随机选件以向他们学习？您需要确保个性化算法在个性化大部分流量的同时，不断学习访客的新趋势。
 

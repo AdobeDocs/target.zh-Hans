@@ -1,16 +1,16 @@
 ---
 keywords: 体验定位;登陆页面测试
-description: '元素选择器是可标识一个或多个元素的CSS表达式。 了解如何在Adobe Target可视化体验书写器(VEC)中使用元素选择器。 '
+description: '元素选择器是可标识一个或多个元素的CSS表达式。 了解如何在Adobe [!DNL Target] Visual Experience Composer(VEC)中使用元素选择器。 '
 title: 我是否可以在可视体验书写器(VEC)中使用元素选择器？
-feature: Visual Experience Composer (VEC)
+feature: 可视化体验编辑器 (VEC)
+exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 82%
+source-wordcount: '430'
+ht-degree: 80%
 
 ---
-
 
 # 可视化体验编辑器中使用的元素选择器
 
@@ -28,7 +28,7 @@ ht-degree: 82%
 
 有关何时使用 CSS 选择器以及何时使用唯一 ID 的信息，请参阅[可视化体验编辑器最佳实践和限制](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
 
-## Adobe Target 如何为元素生成选择器 {#section_D89D954BCBFB486CA081BE183776A475}
+## Adobe [!DNL Target]如何为元素{#section_D89D954BCBFB486CA081BE183776A475}生成选择器
 
 Target 使用简单的算法来创建选择器。下面非常简略地介绍了生成逻辑：
 
@@ -100,4 +100,3 @@ Target 使用简单的算法来创建选择器。下面非常简略地介绍了�
 * 您可以使用任何 CSS 选择器，前提是该选择器可唯一标识 DOM 中的元素。
 * 上述方法即是 Target 使用的方法。Target 并不强制使用此方法。只要满足第 1 点中的要求，您便可以添加任何选择器。
 * 您可以在选择器中使用任何属性。本文档仅以类名称为例。
-

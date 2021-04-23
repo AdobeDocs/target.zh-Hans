@@ -1,16 +1,16 @@
 ---
 keywords: 实施
-description: 了解基本概念，熟悉 Target 工作的方式以及与您的基础架构集成的方式，并了解如何跟踪访问者。
-landing-page-description: 在开始使用 Adobe Target 之前，您应在您的站点上实施它，了解一些基本概念和术语，并熟悉 Target 的工作方式。
+description: 了解基本概念，熟悉 [!DNL Target] 如何工作并与基础结构集成，并了解如何跟踪访客。
+landing-page-description: 在开始使用Adobe Target之前，您应在您的站点上实施它，了解一些基本概念和术语，并熟悉 [!DNL Target] 的工作方式。
 title: 如何实施目标?
-feature: Implementation
+feature: 实施
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 translation-type: tm+mt
-source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 27%
+source-wordcount: '234'
+ht-degree: 7%
 
 ---
 

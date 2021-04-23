@@ -1,14 +1,14 @@
 ---
 keywords: 实现；实现；设置；设置；单个用户档案更新
-description: 使用单个用户档案更新API将数据导入目标。
-title: 如何使用单个用户档案更新API将数据导入目标?
-feature: Implementation
+description: 使用单个用户档案更新API将数据导入 [!DNL Target] 。
+title: 如何使用单个用户档案更新API将数据导入 [!DNL Target] ?
+feature: 实施
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 41%
 
 ---

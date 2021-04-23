@@ -1,22 +1,22 @@
 ---
 keywords: faq;常见问题解答;analytics for target;a4T;报表;报告;查看报表;查看报告;计数方法;展示次数;访客;访问次数;默认量度;活动转化;未指定
-description: 查找有关在使用Analytics进行目标(A4T)时查看报告时经常询问的问题的解答。 A4T允许您将Analytics报告用于目标活动。
+description: 查找有关在 [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] 活动使用Analytics时查看报告时经常出现的问题的解答。
 title: 查找有关使用A4T查看报表的问题的解答？
 feature: Analytics for Target (A4T)
+exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
 translation-type: tm+mt
-source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '2526'
-ht-degree: 38%
+source-wordcount: '2512'
+ht-degree: 37%
 
 ---
-
 
 # 查看报表 - A4T 常见问题解答
 
 本主题包含有关在将[!DNL Adobe Analytics]用作[!DNL Adobe Target](A4T)的报告源时查看报告时经常询问的问题的解答。
 
-## 是否可以在Analysis Workspace中视图目标活动数据？{#workspace}
+## 是否可以在Analysis Workspace中视图[!DNL Target]活动数据？{#workspace}
 
 您可以使用[!DNL Analysis Workspace]分析[!DNL Target]活动和体验。 [“目标分析”面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html)可让您查看多达三个成功量度的提升度和置信度。 您还可以使用表格和可视化功能更深入地了解。
 
@@ -28,7 +28,7 @@ ht-degree: 38%
 
 段也可以直接分层到自由形式表中，但请注意，必须将它覆盖到整个表中，以在A4T面板中保留提升和置信度计算。 面板中当前不支持列级段。
 
-## 当我对特定目标活动应用点击区段时，为何返回不相关的体验？{#activity-segmentation}
+## 当我为特定[!DNL Target]活动应用点击区段时，为何返回不相关的体验？{#activity-segmentation}
 
 发送到 [!DNL Target] 的 [!DNL Analytics] 变量具有 90 天的默认有效期。(注：到期期限可由客户服务部门根据需要进行调整)。 当访客在此过期窗口中导航站点时，它们是许多[!DNL Target]活动的一部分，所有这些都在维中收集。
 
@@ -75,7 +75,7 @@ ht-degree: 38%
 
 如果对该活动进行了分类，并且报表中仍显示“未指定”行，请确保报表未使用非[!DNL Target]量度显示数据。 除非报表使用特定于[!DNL Target]的量度，否则“未指定”行包含与未与[!DNL Target]关联的调用的事件。 该行不包含任何与[!DNL Target]相关的信息(例如，访客/访问/展示次数)。
 
-## 为什么即便在停用活动之后，Target 量度仍会被发送到 Analytics？{#section_38AA8380A4D54A18972F1EF3E73E22EF}
+## 为什么[!DNL Target]量度会在取消激活活动后发送到Analytics?{#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 发送到 [!DNL Target] 的 [!DNL Analytics] 变量具有 90 天的默认有效期。如有需要，可由客户服务部门调整此过期期限。 但是，这是针对所有活动的全局设置，不能仅针对一个案例进行调整。
 
@@ -93,7 +93,7 @@ ht-degree: 38%
 
 | 活动名称 | 实例（展示次数） | 页面查看次数 | 访问次数 | 独特访客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 5 | 3 | 3 |
 
 2 月 1 日，该用户返回了网站，查看了其他 5 个页面，并且未体验任何其他 Target 活动，而此时原来的活动已不再上线。即使该活动不再处于上线状态，它仍会通过 eVar 持久性跟踪该用户。现在，数据如下所示：
 
@@ -105,16 +105,16 @@ ht-degree: 38%
 
 | 活动名称 | 实例（展示次数） | 页面查看次数 | 访问次数 | 独特访客 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 3 |
-| ABC | 1 | 5 | 3 | 3 |
+| XYZ | 1 | 15 | 3 | 1 |
+| ABC | 1 | 5 | 1 | 1 |
 
 之后，该用户在 4 月 1 日再次返回网站，查看了另外 5 个页面，并进行了一次购买。第一个eVar值的90天到期将在4月1日重置，因此您可以在报告中看到这一点。 该用户查看的所有 Target 活动都会收到转化点数，但在转化点数总和中，会将重复计算的点数删除：
 
 | 活动名称 | 实例（展示次数） | 页面查看次数 | 访问次数 | 独特访客 | 订单数 |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 1 | 1 |
-| ABC | 3 | 10 | 2 | 1 | 3 |
-| 合计 | 2 | 20 | 1 | 1 | 3 |
+| XYZ | 1 | 20 | 4 | 1 | 1 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
+| 合计 | 2 | 20 | 1 | 1 | 1 |
 
 由于两种体验在转换前均可看到，因此它们都会获得订单的“信用”。 但在系统中只产生了一个订单，所以点数的总计值反映了这一点。对于[!DNL Target]报告，由于您没有将[!DNL Target]活动放在其他活动上以查看哪个更成功，因此用户看到的所有活动都获得信用并不重要。 您将比较单个活动中两个项目的结果。用户不可能在同一活动看到不同的体验，因此您不必担心订单信用的交叉污染。
 
@@ -124,7 +124,7 @@ ht-degree: 38%
 
 取消激活后A4T活动报表的展示源可以是QA模式流量。 目标通常不会记录已停用活动的事件，但Analytics无法了解展示次数来自QA模式。 从Analytics检索目标活动报表时，将显示这些印象。 这是按设计运行的，因为即使活动未使用QA模式处于活动状态，客户也需要检查A4T报表的方法。
 
-## 为什么 Analytics 和 Analytics for Target (A4T) 在计算“独特访客”量度时得到的数字不同？{#section_0C3B648AB54041F9A2AA839D51791883}
+## Adobe Target(A4T)的Analytics和Analytics为何以不同方式计算“唯一访客”量度的数字？{#section_0C3B648AB54041F9A2AA839D51791883}
 
 当您运行的 A/B 测试使用“学生 t 检验”（置信度量度）来选择测试的入选者时，其假设之一是存在固定的时间范围。因此，除非您查看的是固定样本量，否则该测试不具有统计意义。
 

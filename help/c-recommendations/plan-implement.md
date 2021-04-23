@@ -1,18 +1,18 @@
 ---
 keywords: 推荐;设置;首选项;垂直行业;筛选不兼容的标准;默认主机组;缩览图基本 URL;推荐 API 令牌
-description: '了解如何在Adobe Target实施Recommendations活动。 确保您的实施符合必要的先决条件要求。 '
+description: '了解如何在Adobe Target中实施Recommendations活动。 确保您的实施符合必要的先决条件要求。 '
 title: 如何实施Recommendations活动?
 feature: Recommendations
+exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1620'
 ht-degree: 95%
 
 ---
 
-
-# ![PREMIUMPlan](/help/assets/premium.png) 和实施Recommendations  {#plan-and-implement-recommendations}
+# ![PREMUMPlan](/help/assets/premium.png) 和实施Recommendations
 
 您在创建“推荐”活动之前需要了解的信息。
 

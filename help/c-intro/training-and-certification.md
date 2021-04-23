@@ -1,18 +1,18 @@
 ---
-keywords: 培训；认证；目标；在线课程；课程；课堂；课程
-description: 查找Adobe Target课程和Adobe培训服务提供的认证。
+keywords: 培训；认证；目标；在线课程；课程；课程；课程
+description: 查找Adobe培训服务提供的Adobe [!DNL Target] 课程和认证。
 title: 在哪里可以找到培训和认证课程？
-feature: Overview
+feature: 概述
+exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 47%
+ht-degree: 48%
 
 ---
 
-
-# 培训和认证{#training-and-certification}
+# 培训和认证
 
 Adobe培训服务为包括Adobe Target在内的Adobe产品和解决方案提供课程和认证。
 
@@ -24,4 +24,3 @@ Adobe培训服务为包括Adobe Target在内的Adobe产品和解决方案提供�
 |---|---|
 | 欧洲、中东和非洲 | [ats_emea@adobe.com](mailto:ats_emea@adobe.com) |
 | 亚太地区 | [ats_apac@adobe.com](mailto:ats_apac@adobe.com) |
-

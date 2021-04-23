@@ -2,16 +2,16 @@
 keywords: 主机；主机；主机组；疑难解答；最佳实践；ubox；重定向；重定向；白名单；允许列表；黑名单；阻止列表
 description: 了解如何在Adobe Target中组织网站和预制环境，以便轻松管理和分离报告。
 title: 什么是主持人以及如何使用他们？
-feature: Administration & Configuration
+feature: 管理和配置
 role: Administrator
+exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1080'
 ht-degree: 22%
 
 ---
-
 
 # 主机
 
@@ -64,7 +64,7 @@ ht-degree: 22%
 
 要搜索[!UICONTROL Hosts]列表，请在[!UICONTROL 搜索Hosts]框中键入搜索词。
 
-## 创允许列表建，指定有权向目标发送目标请求的主机。{#allowlist}
+## 创允许列表建用于指定有权向[!DNL Target]发送[!DNL Target]请求的主机的。 {#allowlist}
 
 您可以创建一允许列表个，它指定有权向[!DNL Target]发送[!DNL Target]请求的主机（域）。 所有生成请求的其他主机都会收到注释的授权错误响应。 默认情况下，任何包含[!DNL Target]请求的主机都会在[!UICONTROL 生产]环境中注册到[!DNL Target]，并有权访问所有活动和已批准的活动。 如果不需要此方法，您可以改允许列表用此记录有资格发出[!DNL Target]请求并接收[!DNL Target]内容的特定主机。 所有主机继续显示在[!UICONTROL  Hosts]列表中，而且仍可以使用环境对这些主机进行分组，并为每个主机分配不同的级别，例如主机是否可以看到活动和/或非活动活动。
 

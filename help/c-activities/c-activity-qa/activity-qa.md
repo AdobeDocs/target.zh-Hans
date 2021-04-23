@@ -1,18 +1,18 @@
 ---
 keywords: qa;预览;预览链接；adobe目标;目标
-description: 了解如何使用Adobe Target QA URL轻松执行端到端活动QA，其中包含永不更改的预览链接、可选受众定位和与实时活动数据保持分段的QA报告。
+description: 了解如何使用Adobe [!DNL Target] QA URL通过从不更改的预览链接、可选的受众定位和与实时活动数据保持分段的QA报告，轻松执行端到端的活动QA。
 title: 如何确保活动?
-feature: Activities
+feature: 活动
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1545'
 ht-degree: 78%
 
 ---
 
-# 活动 QA {#activity-qa}
+# 活动 QA
 
 使用[!DNL Adobe Target]中的QA URL对从未更改的预览链接、可选受众定位和与实时活动数据保持分段的QA报告执行轻松的端到端活动QA。
 

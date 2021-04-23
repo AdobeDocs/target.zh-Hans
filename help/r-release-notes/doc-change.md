@@ -1,14 +1,14 @@
 ---
 keywords: 目标文档更改日志；文档更新；新主题；编辑；更新；更新
-description: 随时更新Adobe Target产品文档中的重要增补和更改。
+description: 在Adobe [!DNL Target] 产品文档中添加重要内容和更改，以保持最新。
 title: 在哪里可以视图文档更新以进行目标?
-feature: Release Notes
+feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 31%
+source-wordcount: '898'
+ht-degree: 30%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 31%
 
 本页列表了对[!DNL Adobe Target]产品文档所做的重大更改。
 
-## Adobe Target Standard/Premium 21.4.1（2021 年 4 月 19 日） 
+## Adobe [!DNL Target] Standard/Premium 21.4.1（2021年4月19日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ ht-degree: 31%
 |  | [Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud服务和* 管理指南) | 添加了有关“会话ID”的其他信息。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：21.4.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
-## Adobe Target Standard/Premium 21.2.1（2021 年 3 月 9 日） 
+## Adobe [!DNL Target] Standard/Premium 21.2.1（2021年3月9日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ ht-degree: 31%
 |  | [实体属性](/help/c-recommendations/c-products/entity-attributes.md) | 添加了文本以指示entity.value必须采用小数格式（例如15.99而不是15,99）。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：21.2.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
-## Adobe Target Standard/Premium 21.1.1（2021 年 1 月 19 日） 
+## Adobe [!DNL Target] Standard/Premium 21.1.1（2021年1月19日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |

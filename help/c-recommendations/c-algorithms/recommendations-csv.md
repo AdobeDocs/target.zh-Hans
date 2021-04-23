@@ -1,32 +1,32 @@
 ---
 keywords: 创建自定义标准;算法;标准;推荐标准;CSV;FTP;上传 CSV
-description: 了解如何在Adobe Target·Recommendations上上传CSV文件以自定义您的建议。
-title: 如何在Recommendations上传自定义条件？
+description: 了解如何在Adobe [!DNL Target] Recommendations中上传CSV文件以自定义您的推荐。
+title: 如何在Recommendations中上传自定义条件？
 feature: Recommendations
+exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 61%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 上传自定义标准{#upload-custom-criteria}
+# ![PREMIUM](/help/assets/premium.png) 上传自定义标准
 
 可上传 CSV 文件以自定义您的推荐。
 
 可通过多种方式来访问“[!UICONTROL 创建新标准]”屏幕。某些屏幕选项会根据您访问该屏幕的方式而有所不同。
 
 * 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 标准]**&#x200B;库屏幕上，单击&#x200B;**[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准]**。 您在此处创建的标准会自动设置为可用于所有 [!DNL Recommendations] 活动。
-* 当您使用[!UICONTROL 可视体验书写器](VEC)创建[!DNL Recommendations]活动时，在页面上选择元素并单击[!UICONTROL 替换w/Recommendations]、[!UICONTROL 在]之前插入Recommendations后，将立即转到[!UICONTROL 选择标准]屏幕。或[!UICONTROL 在]后插入Recommendations。 然后，您可以选择可用的条件，也可以单击&#x200B;**[!UICONTROL 创建条件]**。 如果创建新标准，则可以保存标准以用于其他[!DNL Recommendations]活动。 有关详细信息，请参阅[创建Recommendations活动](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+* 当您使用[!UICONTROL 可视体验书写器](VEC)创建[!DNL Recommendations]活动时，在页面上选择元素并单击[!UICONTROL 替换w/ Recommendations]、[!UICONTROL 在]之前插入Recommendations后，将立即转到[!UICONTROL 选择标准]屏幕或[!UICONTROL 在]后插入Recommendations。 然后，您可以选择可用标准，也可以单击&#x200B;**[!UICONTROL 创建标准]**。 如果创建了新标准，您可以选择保存标准以用于其他[!DNL Recommendations]活动。 有关详细信息，请参阅[创建Recommendations活动](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 * 编辑 [!DNL Recommendations] 活动时，在页面上的[!UICONTROL 推荐位置]框中单击，然后选择&#x200B;**[!UICONTROL 更改标准]**。在[!UICONTROL 选择标准]屏幕上，单击&#x200B;**[!UICONTROL 创建标准]**。 您将可以选择保存新建的标准，以供在其他 [!DNL Recommendations] 活动中使用。
 
-以下步骤假定您使用第一种方法访问[!UICONTROL 创建新条件]屏幕：**[!UICONTROL Recommendations]** > **[!UICONTROL 标准]**&#x200B;库屏幕。
+以下步骤假定您使用第一种方法访问[!UICONTROL 创建新标准]屏幕：**[!UICONTROL Recommendations]** > **[!UICONTROL 标准]**&#x200B;库屏幕。
 
 1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 标准]**。
 
-1. 单击&#x200B;**[!UICONTROL 创建条件]** > **[!UICONTROL 上传自定义条件]**。
+1. 单击&#x200B;**[!UICONTROL 创建条件]** > **[!UICONTROL 上载自定义条件]**。
 
 1. 填写[基本信息](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info)部分中的信息。
 
@@ -38,9 +38,9 @@ ht-degree: 61%
 
 1. （视情况而定）填写[包含规则](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)部分中的信息。
 
-1. （视情况而定）填写[属性权重](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting)部分中的信息。
+1. （视情况而定）填写[属性加权](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting)部分中的信息。
 
-1. 在&#x200B;**[!UICONTROL 上传CSV]**&#x200B;部分，选择CSV文件的&#x200B;**[!UICONTROL 位置]**。
+1. 在&#x200B;**[!UICONTROL 上载CSV]**&#x200B;部分，选择CSV文件的&#x200B;**[!UICONTROL 位置]**。
 
    ![上传CSV部分](/help/c-recommendations/c-algorithms/assets/upload-csv.png)
 
@@ -49,7 +49,7 @@ ht-degree: 61%
    您可以选择以下两个位置：
 
    * **FTP：**&#x200B;要通过 FTP 服务器上传 CSV 文件，请选择 **[!UICONTROL FTP]**，然后输入所需信息。您可以选择使用 SSL，SSL 会使用 FTPS 协议安全地传输 CSV 文件。
-   * **URL:** 要从URL上传CSV文件，请选择 **[!UICONTROL URL]**，然后输入源URL。
+   * **URL：要** 通过URL上传您的CSV文件，请选 **[!UICONTROL 择]** URL，然后输入源URL。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -80,7 +80,7 @@ ht-degree: 61%
 
 ## 培训视频：在“推荐”中创建标准 (12:33)  ![教程徽章](/help/assets/tutorial.png)
 
-此视频包含以下信息（有关上传自定义条件的详细信息从11:43开始）:
+此视频包含以下信息（有关上传自定义条件的详细信息从11:43开始）：
 
 * 创建标准
 * 创建标准序列

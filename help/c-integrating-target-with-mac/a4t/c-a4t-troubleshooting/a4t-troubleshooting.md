@@ -1,18 +1,18 @@
 ---
 keywords: Analytics 跟踪服务器;A4T;Analytics 区段;报表包;数据不正确;孤立;SDID;VisitorAPI.js;mboxMCSDID;虚拟;未指定
-description: 浏览客户在使用Analytics for 目标(A4T)时遇到的常见问题。
-title: 如何对Analytics和目标集成(A4T)进行疑难解答
+description: 浏览客户在使用 [!DNL Target] (A4T)的Analytics时遇到的常见问题。
+title: 如何对Analytics和 [!DNL Target] 集成(A4T)进行疑难解答
 feature: Analytics for Target (A4T)
+exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 translation-type: tm+mt
-source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1000'
 ht-degree: 42%
 
 ---
 
-
-# Analytics 与 Target 集成 (A4T) 故障诊断
+# 对Analytics和[!DNL Target]集成(A4T)进行疑难解答
 
 本主题涵盖使用[!DNL Adobe Analytics]作为[!DNL Adobe Target](A4T)的报告源时遇到的一些常见问题。
 

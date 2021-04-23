@@ -1,22 +1,22 @@
 ---
 keywords: 亲和度;类别亲和度
-description: 了解Adobe Target的类别关联，该关联会自动捕获用户访问的类别，然后计算用户的类别，以便能够定位和细分用户。
+description: 了解Adobe [!DNL Target] 中的类别关联，该关联可自动捕获用户访问的类别，然后计算用户对类别的，以便能够定位和细分用户。
 title: 什么是类别关联?
-feature: Audiences
+feature: 受众
+exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '811'
 ht-degree: 94%
 
 ---
 
-
-# 类别亲和度{#category-affinity}
+# 类别亲和度
 
 类别亲和度功能会自动捕捉用户访问的类别，然后计算用户对该类别的喜爱程度，从而可以对用户进行定位和细分。这有助于确保内容会被定位到最有可能对该信息做出回应的访客。
 
-## 将类别亲和度信息传递到 Target {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## 将类别亲和度信息传递到 [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
 不论用户何时访问您的网站，都会将特定于访客的配置文件参数记录到 [!DNL Target] 数据库中。该数据将与用户的 Cookie 绑定。一个特别有用的参数是 `user.categoryId`，它是在产品页面上分配的 mbox 参数。访客持续浏览时，或离开后返回进行另一个会话时，都可以记录特定用户查看的产品类别。您还可以将类别信息作为任何 mbox（包括嵌套 mbox）中的 mbox 参数 `user.categoryId` 或作为 URL 参数 `user.categoryId` 进行传递，或者通过全局 mbox 在 Target 页面参数中进行传递，从而记录类别信息。有关更多详细信息，请咨询您的帐户代表。
 
@@ -131,7 +131,7 @@ ht-degree: 94%
    * 第四类别
    * 第五类别
 
-   “Favorite类别”和“First类别”选项是相等的。
+   “收藏类别”和“第一个类别”选项是相等的。
 
 1. 选择计算器：
 

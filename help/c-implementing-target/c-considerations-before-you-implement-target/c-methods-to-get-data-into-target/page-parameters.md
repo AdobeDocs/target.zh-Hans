@@ -1,15 +1,15 @@
 ---
 keywords: 实现；实现；设置；设置；页面参数
-description: 使用页面参数将数据导入目标。
-title: 如何使用页面参数将数据导入目标?
-feature: Implementation
+description: 使用页面参数将数据导入 [!DNL Target] 。
+title: 如何使用页面参数将数据导入 [!DNL Target] ?
+feature: 实施
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 translation-type: tm+mt
-source-git-commit: 8a12ef3581d3f99f21c0d6d50af0ac09e6aebd4c
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 45%
+source-wordcount: '377'
+ht-degree: 46%
 
 ---
 

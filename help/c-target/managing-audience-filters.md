@@ -1,18 +1,18 @@
 ---
 keywords: 定位；受众过滤器；受众；过滤器
-description: 了解如何使用Adobe Target的受众过滤器视图来自共享特定特征或特征集的访客组的数据。
+description: 了解如何使用Adobe [!DNL Target] 中的受众过滤器来视图共享特定特征或特征集的访客组的数据。
 title: 我是否可以将受众过滤器用于报告?
-feature: Audiences
+feature: 受众
+exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 79%
 
 ---
 
-
-# 适用于报表的受众筛选器{#audience-filters-for-reporting}
+# 适用于报表的受众筛选器
 
 受众筛选器（或称受众群）是指共同拥有某一特定特征或一组特征的访客群体。
 
@@ -22,7 +22,7 @@ ht-degree: 79%
 
 如果您计划在活动中使用受众筛选器，请考虑以下准则：
 
-* **访客可以属于多个受众。** 如果设置了两个受众(例如，“新访客”和“来自Google的访客”)，并且某人符合这两个标准，则会在这两个受众中计算和跟踪此访客。因此，受众中的访客总和并不等于活动中的访客数。
+* **访客可以属于多个受众。** 如果设置了两个受众(例如，“新访客”和“来自Google的访客”)，且某人符合这两个条件，则会在这两个受众中计算和跟踪此访客。因此，受众中的访客总和并不等于活动中的访客数。
 * **在启动受众之前设置活动。**&#x200B;不能以追溯方式检索受众数据。如果在启动活动之前您并未配置受众筛选器，而是决定在活动运行一段时间后再使用受众筛选器，则您将无法收集到已经运行的这段时间的数据。
 * **在开始时使用 2 到 4 个受众。**&#x200B;将重点放在基本信息上，例如流量源。
 * **根据需要重命名受众。**&#x200B;您可以在不影响数据的情况下重命名受众，以使受众名称对收集到的结果更有意义，即使活动处于活跃状态也可重命名。
@@ -38,4 +38,3 @@ ht-degree: 79%
 | 合并多个受众（如有需要）。 | [合并多个受众](/help/c-target/combining-multiple-audiences.md) |
 | 在活动的“目标和设置”页面上应用受众。 | A/B测试：[目标和设置](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>体验定位：[目标和设置](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>多变量测试： [目标和设置](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations:[Recommendations活动设置](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>活动设置：[活动设置](/help/c-activities/activity-settings.md) |
 | 查看包含受众筛选器相关信息的报表。 | [报表设置](/help/c-reports/c-report-settings/report-settings.md) |
-

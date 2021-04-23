@@ -1,13 +1,13 @@
 ---
 keywords: 自动定位;定位;流量分配;常见问题解答;faq;疑难解答;故障诊断
-description: 了解目标中的自动目标活动如何根据客户用户档案和类似访客的行为为每个访客提供最定制的体验。
+description: 了解 [!DNL Target] 中的自动目标活动如何根据客户用户档案和类似访客的行为为每个访客提供最定制的体验。
 title: 什么是自动目标活动?
-feature: Auto-Target
+feature: 自动定位
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1992'
 ht-degree: 69%
 
 ---

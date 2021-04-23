@@ -1,19 +1,19 @@
 ---
 keywords: QA;预览;预览链接;移动设备;移动设备预览
 description: 使用移动预览链接对移动应用程序活动执行端对端QA。 无需特殊测试设备，即可加入不同的体验。
-title: 如何在目标移动中使用移动预览链接？
-feature: Implement Mobile
+title: 如何使用 [!DNL Target] 移动设备中的移动预览链接？
+feature: 实施移动
 role: Developer
+exl-id: c66325b3-3995-401e-a1e3-839fdb1cf762
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '610'
 ht-degree: 82%
 
 ---
 
-
-# Target 移动设备预览{#target-mobile-preview}
+# Target 移动设备预览
 
 使用移动预览链接可对移动设备应用程序活动轻松执行端到端 QA，并且无需任何特殊的测试设备即可在您的设备上感受到不同的体验。
 
@@ -31,8 +31,8 @@ ht-degree: 82%
 
    有关下载适当 SDK 的说明，请参阅：
 
-   * **iOS：在** [开始](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) Mobile Services  *iOS帮助之前*。
-   * **Android：启** [动Mobile ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) Services  *Android帮助之前*。
+   * **iOS：在** [启动](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) Mobile Services  *iOS帮助之前*。
+   * **Android：在** [启动](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) Mobile Services  *Android帮助之前*。
 
 1. **设置 URL 方案：**&#x200B;预览链接需使用 URL 方案来打开应用程序。您必须为预览指定一个唯一的 URL 方案。
 
@@ -77,13 +77,13 @@ ht-degree: 82%
      }
    ```
 
-   要使移动预览适用于Android，如果使用Adobe移动SDK的版本5，则还必须在[!DNL AndroidManifest.xml]中添加以下代码片段：
+   要使Mobile 预览适用于Android，如果使用Adobe Mobile SDK的版本5，则还必须在[!DNL AndroidManifest.xml]中添加以下代码段：
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
-   如果您使用的是AdobeMobile SDK的版本4，请使用以下代码片段：
+   如果您使用的是Adobe Mobile SDK的版本4，请使用以下代码段：
 
    ```javascript
    <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />

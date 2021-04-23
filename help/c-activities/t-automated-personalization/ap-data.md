@@ -1,24 +1,24 @@
 ---
 keywords: 环境数据;会话数据;地理数据;设备数据;移动设备数据;属性;配置文件属性
-description: 了解Adobe Target在Automated Personalization(AP)和自动目标(AT)活动收集和使用哪些数据来构建其个性化算法。
+description: 了解哪些Adobe [!DNL Target] 在Automated Personalization(AP)和自动目标(AT)活动中收集和用于构建其个性化算法。
 title: 收集哪些数据以构建个性化算法？
-feature: Automated Personalization
+feature: 自动个性化
+exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1737'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png)[!DNL Target] 为 个性化算法收集数据
 
-# ![PREMIUM](/help/assets/premium.png) 为 Target 个性化算法收集数据
-
-[!DNL Adobe Target] 在Automated Personalization(AP)和自动目标(AT)活动 [!UICONTROL 中] ，自动收集并 [!UICONTROL 使用各种数据来构] 建其个性化算法。当访客进入AP或AT活动时，信息快照会传递到一组“培训记录”(个性化算法将学习的访客数据)。
+[!DNL Adobe Target] 在Automated Personalization(AP)和自动目标(AT)活动中自动收集和使用 [!UICONTROL 各种] 数据 [!UICONTROL 来构建其] 个性化算法。当访客进入AP或AT活动时，信息快照将传递到一组“培训记录”(个性化算法将学习的访客数据)。
 
 要进一步了解目标个性化算法，请参阅[随机林算法](/help/c-activities/t-automated-personalization/algo-random-forest.md)。
 
-下表显示了默认情况下由[!UICONTROL Automated Personalization]和[!UICONTROL 自动目标]收集的数据，无需营销人员执行任何操作，以及用于在[个性化分析报告](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中指示这些属性的命名规范。 您可以随时增加输入数据集。要了解有关如何上传其他数据的更多信息，请参阅[为 Target 个性化算法上传数据](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
+下表显示了默认情况下由[!UICONTROL Automated Personalization]和[!UICONTROL 自动目标]收集的数据，而营销人员无需执行任何操作，以及用于在[个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中指示这些属性的命名约定。 您可以随时增加输入数据集。要了解有关如何上传其他数据的更多信息，请参阅[为 Target 个性化算法上传数据](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
 | 数据类型 | 描述 | 数据类型命名约定 | 示例属性 |
 | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ ht-degree: 89%
 | Experience Cloud 区段 | 在 Audience Manager 或 Analytics 中创建并在 Experience Cloud 中共享的受众 | `Custom - Experience Cloud Audience - [Audience Name]` | 自定义数据 |
 | [地理数据](#geo) | 有关访客所在位置的信息。<br>请参阅下面的“地理数据”。 | `Geo - [geo attribute]` | 城市<br>国家/地区<br>地区/州<br>邮政编码<br>纬度<br>经度<br>ISP 或移动设备运营商 |
 | 配置文件属性 | 通过更新 API 直接上传到 Target 配置文件的配置文件脚本或属性 | `Custom - Visitor Profile - [attribute name]` | 自定义数据 |
-| 引荐 URL 参数 | 通常，引用URL是引用启动目标调用的特定页面的URL。<br>请注意，用户在您网站上的活动以及您网站的技术实施都可能会对此变量造成影响。 | `Custom - [Referring URL Parameter] - [Parameter value]` | 自定义数据 |
+| 引荐 URL 参数 | 通常，引荐URL是指引启动目标调用的特定页面的URL。<br>请注意，用户在您网站上的活动以及您网站的技术实施都可能会对此变量造成影响。 | `Custom - [Referring URL Parameter] - [Parameter value]` | 自定义数据 |
 | 报表区段 | 在活动设置中设置的任意区段。 | `Reporting Segment -[Segment Name]` | 自定义数据 |
 | [会话数据](#session) | 有关访客在访问活动时在会话中的行为的信息。 | `Visitor Profile - [Attribute Name]` | 访客配置文件 - 最近一次访问的开始时间 |
 | URL parameters（URL 参数） | Target 会检查 URL 以提取 URL 参数。 | `Custom - URL Parameter - [URL Parameter]` | 自定义数据 |

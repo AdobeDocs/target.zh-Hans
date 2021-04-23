@@ -1,19 +1,19 @@
 ---
 keywords: cookie;cookies；删除cookie；删除目标cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
-description: 了解如何删除目标浏览器cookies，以便验证您的体验。
-title: 如何删除目标Cookie?
-feature: Privacy & Security
+description: 了解如何删除您的 [!DNL Target] 浏览器cookies，以便您验证您的体验。
+title: 如何删除 [!DNL Target] Cookie?
+feature: 隐私和安全
 role: Developer
+exl-id: f2bc079e-593a-4689-a7cd-dfc6f86f6bb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 5%
+source-wordcount: '423'
+ht-degree: 4%
 
 ---
 
-
-# 删除 Target Cookie
+# 删除[!DNL Target] Cookie
 
 您可以删除[!DNL Adobe Target]浏览器cookie(mbox)，以便在测试过程中验证所有体验。
 
@@ -21,9 +21,9 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->下面的说明对于列出的浏览器和版本是正确的。 在Internet上搜索特定浏览器或版本的说明。
+>以下说明对列出的浏览器和版本正确。 在Internet上搜索特定浏览器或版本的说明。
 
-## 从Google Chrome中删除目标cookie
+## 从Google Chrome中删除[!DNL Target] Cookie
 
 版本 84.0.4147.105
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 1. 单击&#x200B;**查看所有Cookie和站点数据**。
 1. 展开`adobe.com`部分，选择&#x200B;**mbox** cookie，然后单击删除图标(X)。
 
-## 从Mozilla Firefox中删除目标cookie
+## 从Mozilla Firefox中删除[!DNL Target] Cookie
 
 版本 79.0
 
@@ -41,22 +41,22 @@ ht-degree: 5%
 
 1. 单击&#x200B;**Firefox**&#x200B;菜单> **首选项**。
 1. 单击&#x200B;**隐私和安全**&#x200B;选项卡。
-1. 在&#x200B;**Cookie和站点数据**&#x200B;下，单击&#x200B;**管理数据**。
+1. 在&#x200B;**Cookie和Site Data**&#x200B;下，单击&#x200B;**管理数据**。
 1. 选择`adobe.com`站点，然后单击&#x200B;**删除选定的**。
 
    >[!NOTE]
    >
-   >这将删除与`adobe.com`站点关联的所有Cookie。 如果要删除站点的单个cookie，请按照以下说明操作。
+   >这将删除与`adobe.com`站点关联的所有Cookie。 如果要删除站点的单个Cookie，请按照以下说明操作。
 
-### 删除单个cookie(mbox)
+### 删除单个Cookie(mbox)
 
-1. 在Firefox中，单击&#x200B;**工具** > **Web开发者** > **存储检查器**。
+1. 在Firefox中，单击&#x200B;**工具** > **Web开发人员** > **存储检查器**。
 1. 单击&#x200B;**高级**&#x200B;选项卡。
 1. 导航到包含要删除的Cookie的网页。
 1. 展开&#x200B;**Cookie**&#x200B;部分，然后单击`https://experience.adobe.com`。
 1. 右键单击&#x200B;**mbox** cookie，然后单击&#x200B;**删除**。
 
-## 从Microsoft Edge中删除目标cookie
+## 从Microsoft Edge中删除[!DNL Target] Cookie
 
 版本 84.0.522.52
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 1. 单击&#x200B;**查看所有Cookie和站点数据**。
 1. 展开`adobe.com`部分，选择&#x200B;**mbox** cookie，然后单击删除图标(X)。
 
-## 从Apple Safari中删除目标Cookie
+## 从Apple Safari中删除[!DNL Target] Cookie
 
 版本 13.1.2
 
@@ -79,15 +79,15 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >这将删除与`adobe.com`站点关联的所有Cookie。 如果要删除站点的单个cookie，请按照以下说明操作。
+   >这将删除与`adobe.com`站点关联的所有Cookie。 如果要删除站点的单个Cookie，请按照以下说明操作。
 
-### 删除单个cookie(mbox)
+### 删除单个Cookie(mbox)
 
 1. 单击&#x200B;**Safari**&#x200B;菜单> **首选项**。
 1. 单击&#x200B;**高级**&#x200B;选项卡。
-1. 选择菜单栏&#x200B;**中的“显示修改照片”菜单。**
+1. 选择菜单栏&#x200B;**中的**“显示修改照片”菜单。
 1. 导航到包含要删除的Cookie的网页。
-1. 单击&#x200B;**“开发”**&#x200B;菜单>“显示Web检查器”**。**
+1. 单击&#x200B;**“Develop**”菜单> **“Show Web Inspector**”。
 1. 单击&#x200B;**存储**&#x200B;选项卡。
 1. 展开&#x200B;**Cookie**&#x200B;部分，然后单击`www.adobe.com`。
 1. 右键单击&#x200B;**mbox** cookie，然后单击&#x200B;**删除**。

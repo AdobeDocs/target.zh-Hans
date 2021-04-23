@@ -1,18 +1,18 @@
 ---
 keywords: 报表;下载报表;CSV;成功量度;订单详细信息
-description: 了解如何以CVS格式从Adobe Target活动下载数据，以便快速导入Excel、Access或其他数据分析项目。
+description: 了解如何以CVS格式从Adobe [!DNL Target] 活动下载数据，以便快速导入Excel、Access或其他分析项目。
 title: 如何下载CSV文件中的报告数据？
-feature: Reports
+feature: 报表
+exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
-
-# 将数据下载到 CSV 文件{#downloading-data-in-a-csv-file}
+# 将数据下载到 CSV 文件
 
 可采用 .csv 格式下载数据，以便快速导入到 Excel、Access 或其他数据分析程序中。
 
@@ -41,7 +41,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->CSV报表仅包含原始数据，不包括用于A/B测试的计算指标，如每访客收入、提升率或置信度。 要计算这些计算的度量，请下载目标的[完整置信度计算器](/help/assets/complete_confidence_calculator.xlsx) Excel文件以输入活动的值，或查看目标](/help/assets/statistical-calculations.pdf)使用的[统计计算。
+>CSV报表仅包含原始数据，不包括用于A/B测试的计算量度，如每访客收入、提升率或置信度。 要计算这些计算量度，请下载目标的[完整置信度计算器](/help/assets/complete_confidence_calculator.xlsx) Excel文件以输入活动的值，或查看目标](/help/assets/statistical-calculations.pdf)使用的[统计计算。
 
 ## 将订单详细信息导出到 CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -84,7 +84,7 @@ ht-degree: 82%
 
 以下信息适用于“下载”选项：
 
-* 您可以下载A/B测试、Automated Personalization、体验定位和多变量活动的两种报告。 但是对于“推荐”活动，您无法下载“成功量度”报表。
+* 您可以下载A/B测试、Automated Personalization、体验定位和多变量活动的这两个报告。 但是对于“推荐”活动，您无法下载“成功量度”报表。
 * “下载”选项不适用于在 Target 版本 15.7.1（2015 年 7 月版）之前创建的 A/B 活动和体验定位活动。
 * 下载的报表中不会记录没有关联数据的体验。
 * Target 报表 UI 中应用的受众不会传递到下载的报表中。

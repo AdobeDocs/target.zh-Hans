@@ -1,18 +1,18 @@
 ---
 keywords: 自动个性化；优惠;报告；组；报告组
-description: 了解如何在Adobe TargetAutomated Personalization优惠中使用活动报告组。 使用报告组，目标仅为每个报告组创建一个个性化模型。
+description: 了解如何在Adobe [!DNL Target] Automated Personalization activities. Using reporting groups, [!DNL Target] 中使用优惠报告组，为每个报告组只创建一个个性化模型。
 title: 我是否可以在Automated Personalization活动中使用优惠报告组？
-feature: Reports
+feature: 报表
+exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 61%
+source-wordcount: '441'
+ht-degree: 63%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 自动个性化中的选件报表组{#offer-reporting-groups-in-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) 自动个性化中的选件报表组
 
 有关在[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP)活动中使用报告组的信息。
 
@@ -25,11 +25,11 @@ ht-degree: 61%
 
 如果您的活动设置没有足够的数据来为每个选件构建个性化模型，则报表组可以帮助降低使用自动个性化的数据要求。报表组还可以通过对相似选件进行分组来帮助解决新选件的“冷启动”问题，以便每个模型获得更多培训数据。对于定期向 AP 活动引入新选件的活动，还可使用建模组。
 
-如果访客以相同的方式响应组中的所有选件，则此方法很有效。最佳做法是对相似访客组以相似方式进行响应的选件进行分组。换句话说，对具有相似转化率的选件进行分组。您绝不应该将所有选件都放置到一个报表组中。将所有优惠分组或将具有非常不同转化率的优惠分组可能会降低[!DNL Target]个性化模型的有效性。
+如果访客以相同的方式响应组中的所有选件，则此方法很有效。最佳做法是对相似访客组以相似方式进行响应的选件进行分组。换句话说，对具有相似转化率的选件进行分组。您绝不应该将所有选件都放置到一个报表组中。对所有优惠进行分组或对具有非常不同转化率的优惠进行分组可能会降低[!DNL Target]个性化模型的有效性。
 
 >[!NOTE]
 >
->如果删除或替换特定建模组中的选件，则也会删除建模组中查看该特定选件的历史流量。换言之，已删除的优惠不会影响[!DNL Target]个性化模型所使用的数据。
+>如果删除或替换特定建模组中的选件，则也会删除建模组中查看该特定选件的历史流量。换句话说，已删除的优惠不会影响[!DNL Target]个性化模型所要学习的数据。
 
 **设置报表组：**
 
@@ -53,4 +53,3 @@ ht-degree: 61%
    要创建新报表组以将所选选件分配到该报表组，请选择&#x200B;**[!UICONTROL 新建]**，为新报表组命名，然后单击&#x200B;**[!UICONTROL 应用]**。
 
    ![](assets/ap_reporting_groups.png)
-

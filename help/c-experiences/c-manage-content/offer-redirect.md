@@ -1,16 +1,16 @@
 ---
 keywords: 重定向选件;创建重定向选件;添加 HTML 选件;在重定向中传递所有 URL 参数;在重定向中传递 mboxSessionId（仅当要重定向到其他域时才需使用此功能）
-description: '了解如何在Adobe Target创建重定向优惠以使浏览器重定向到新页面。 '
+description: '了解如何在Adobe [!DNL Target] 中创建重定向优惠，以使浏览器重定向到新页面。 '
 title: 如何创建重定向优惠?
-feature: Experiences and Offers
+feature: 体验和优惠
+exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1192'
 ht-degree: 48%
 
 ---
-
 
 # 创建重定向选件
 
@@ -20,7 +20,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
-> * 重定向优惠可以在[!UICONTROL 优惠] > [!UICONTROL 代码优惠]页面或在[基于Forms的体验书写器](/help/c-experiences/form-experience-composer.md)中创建。 不能在可视体验书写器(VEC)中创建或应用重定向优惠。 内容将插入到[!DNL Target]请求位置，因此这些位置很可能不适合全局[!DNL Target]请求。
+> * 可在[!UICONTROL 优惠] > [!UICONTROL 代码优惠]页或在[基于Forms的体验书写器](/help/c-experiences/form-experience-composer.md)中创建重定向优惠。 不能在Visual Experience Composer(VEC)中创建或应用重定向优惠。 内容将插入到[!DNL Target]请求位置，因此这些内容很可能不适合全局[!DNL Target]请求。
    >
    >
 * 您不能在 ajax mbox 中使用重定向选件 (`mboxUpdate`)。
@@ -60,13 +60,13 @@ ht-degree: 48%
 
 1. 选择以下所需选项以自定义您的重定向选件：
 
-   * **包括所有URL参** 数：如果希望上一页上存在的所有URL参数传播到重定向页面，请滑动切换以启用此选项。
+   * **包括所有URL参数：** 如果希望将上一页上存在的所有URL参数传播到重定向页面，请滑动切换以启用此选项。
 
       例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递 URL 中的动态参数，因为这样才能跟踪顾客是如何到达您的网站：是通过电子邮件、横幅广告、搜索广告还是自然访问。通过启用此选项，当您在URL框中输入的所有内容为`https://www.mycompany.com/mensShirts.html`时，页面`https://www.mycompany.com/mens.html?emailId=123`上的重定向优惠将自动变为`https://www.mycompany.com/mensShirts.html?emailId=123`。
 
-   * **传递mbox会话ID:** 需要重定向到其他域。如果希望将`sessionId`自动包含在重定向中，请滑动切换以启用此选项。 仅当您测试从电子邮件单击或从一个域到另一个域单击时，才需要此设置。 `sessionId` 与访客的 Cookie 相匹配，以便能够继续跟踪访客并显示相应的内容。
+   * **传递mbox会话ID:** 需要重定向到其他域。如果希望将`sessionId`自动包含在重定向中，请滑动切换选项以启用此选项。 仅当您测试从电子邮件进行的点击或从一个域到另一个域的点击时，才需要此项。 `sessionId` 与访客的 Cookie 相匹配，以便能够继续跟踪访客并显示相应的内容。
 
-      如果您使用第一方和第三方cookie设置，则跨域时无需传递mbox会话ID。 第三方 Cookie 中会一直保留此 ID，因此不必在 URL 中传递此 ID。
+      如果您使用第1方和第3方Cookie设置，则跨域时无需传递mbox会话ID。 第三方 Cookie 中会一直保留此 ID，因此不必在 URL 中传递此 ID。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -74,11 +74,11 @@ ht-degree: 48%
 >
 >请在启动这些测试前，咨询您的实施顾问。
 
-## 使用基于表单的体验书写器创建重定向优惠
+## 使用基于表单的体验编辑器创建重定向优惠
 
 1. 使用[基于表单的体验书写器](/help/c-experiences/form-experience-composer.md)创建活动时，选择显示&#x200B;**[!UICONTROL 内容]**&#x200B;部分的位置。
 
-   ![基于表单的体验书写器中的内容部分](/help/c-experiences/c-manage-content/assets/form-based-content.png)
+   ![基于表单的体验编辑器中的内容部分](/help/c-experiences/c-manage-content/assets/form-based-content.png)
 
 1. 单击&#x200B;**[!UICONTROL 默认内容]**&#x200B;下拉列表，然后单击&#x200B;**[!UICONTROL 更改重定向优惠]**。
 
@@ -100,13 +100,13 @@ ht-degree: 48%
 
 1. 选择以下所需选项以自定义您的重定向选件：
 
-   * **包括所有URL参** 数：如果希望上一页上存在的所有URL参数传播到重定向页面，请滑动切换以启用此选项。
+   * **包括所有URL参数：** 如果希望将上一页上存在的所有URL参数传播到重定向页面，请滑动切换以启用此选项。
 
       例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递 URL 中的动态参数，因为这样才能跟踪顾客是如何到达您的网站：是通过电子邮件、横幅广告、搜索广告还是自然访问。通过启用此选项，当您在URL框中输入的所有内容为`https://www.mycompany.com/mensShirts.html`时，页面`https://www.mycompany.com/mens.html?emailId=123`上的重定向优惠将自动变为`https://www.mycompany.com/mensShirts.html?emailId=123`。
 
-   * **传递mbox会话ID:** 需要重定向到其他域。如果希望将`sessionId`自动包含在重定向中，请滑动切换以启用此选项。 仅当您测试从电子邮件单击或从一个域到另一个域单击时，才需要此设置。 `sessionId` 与访客的 Cookie 相匹配，以便能够继续跟踪访客并显示相应的内容。
+   * **传递mbox会话ID:** 需要重定向到其他域。如果希望将`sessionId`自动包含在重定向中，请滑动切换选项以启用此选项。 仅当您测试从电子邮件进行的点击或从一个域到另一个域的点击时，才需要此项。 `sessionId` 与访客的 Cookie 相匹配，以便能够继续跟踪访客并显示相应的内容。
 
-      如果您使用第一方和第三方cookie设置，则跨域时无需传递mbox会话ID。 第三方 Cookie 中会一直保留此 ID，因此不必在 URL 中传递此 ID。
+      如果您使用第1方和第3方Cookie设置，则跨域时无需传递mbox会话ID。 第三方 Cookie 中会一直保留此 ID，因此不必在 URL 中传递此 ID。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -118,13 +118,13 @@ ht-degree: 48%
 
 必须使用[!UICONTROL 基于表单的体验书写器]应用重定向优惠。 当前无法使用VEC应用重定向优惠。
 
-[!DNL Adobe Target][!UICONTROL 基于表单的体验书写器]是非可视体验和优惠创建界面，在创建用于[!UICONTROL A/B测试]、[!UICONTROL 体验定位](XT)、[!UICONTROL Automated Personalization](AP)的体验中非常有用)和[!UICONTROL Recommendations]活动。 例如，您可以使用[!UICONTROL 基于表单的体验书写器]创建使用重定向优惠的体验。
+[!DNL Adobe Target][!UICONTROL 基于表单的体验编辑器]是非可视体验和优惠创建界面，在创建用于[!UICONTROL A/B测试]、[!UICONTROL 体验定位](XT)、[!UICONTROL Automated Personalization](AP)的体验时很有用)和[!UICONTROL Recommendations]活动。 例如，您可以使用[!UICONTROL 基于表单的体验书写器]创建使用重定向优惠的体验。
 
 1. 在[!UICONTROL 基于表单的体验书写器]中创建或编辑活动。
 
    有关详细的分步说明，请参阅[基于表单的体验书写器](/help/c-experiences/form-experience-composer.md)。
 
-1. 指定所需的位置并根据需要添加任何受众细化。
+1. 指定所需的位置，并根据需要添加任何受众细化。
 
 1. 单击&#x200B;**[!UICONTROL Content]**&#x200B;部分的下拉列表，然后单击&#x200B;**[!UICONTROL 更改重定向优惠]**。
 

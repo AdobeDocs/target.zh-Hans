@@ -1,22 +1,22 @@
 ---
 keywords: CSS 选择器;自定义代码;代码编辑器;移动设备 Web 体验编辑器
-description: 了解如何使用Adobe Target的“修改”面板视图页面修改和添加其他修改（CSS选择器、Mbox和自定义代码）。
+description: 了解如何使用Adobe [!DNL Target] 中的“修改”面板来视图页面修改和添加其他修改（CSS选择器、Mbox和自定义代码）。
 title: 我可以对页面进行哪些修改？
-feature: Visual Experience Composer (VEC)
+feature: 可视化体验编辑器 (VEC)
+exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2126'
 ht-degree: 95%
 
 ---
 
-
-# 修改{#modifications}
+# 修改
 
 有关[!DNL Adobe Target]中“修改”页面的信息，允许您将修改视图到页面并添加其他修改（CSS选择器、Mbox和自定义代码）。
 
-“修改”页面显示在可视体验书写器(VEC)中对页面所做的所有更改，并允许您通过单击页面上的每个元素并[选择操作](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)进行其他更改。 您所做的每个更改都会在“[!UICONTROL 修改]”列表中单独显示为一个操作或元素。您还可以添加修改，其中包括以下修改类型：CSS 选择器、Mbox 和自定义代码。
+“修改”页面显示在Visual Experience Composer(VEC)中对页面所做的所有更改，并允许您通过单击页面上的每个元素和[选择操作](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)进行其他更改。 您所做的每个更改都会在“[!UICONTROL 修改]”列表中单独显示为一个操作或元素。您还可以添加修改，其中包括以下修改类型：CSS 选择器、Mbox 和自定义代码。
 
 ## “修改”概述{#section_EE27E7572AA74397BBDED563B2B3D509}
 

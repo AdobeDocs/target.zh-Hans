@@ -1,22 +1,22 @@
 ---
-keywords: Automated Personalization;ap;预览；排除经验；
-description: 了解如何使用可视体验书写器(VEC)在Adobe Target的Automated Personalization(AP)活动中预览每个体验。
-title: 如何预览Automated Personalization在VEC中的体验？
-feature: Automated Personalization
+keywords: Automated Personalization;ap;预览；排除体验；
+description: 了解如何使用Visual Experience Composer(VEC)在Adobe [!DNL Target] 的Automated Personalization(AP)活动中预览每个体验。
+title: 如何在VEC中预览Automated Personalization体验？
+feature: 自动个性化
+exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 47%
+source-wordcount: '260'
+ht-degree: 48%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) 在可视化体验编辑器中预览自动个性化体验
 
-# ![PREMIUM](/help/assets/premium.png) 在可视化体验编辑器中预览自动个性化体验{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
+由于[!DNL Adobe Target] [!UICONTROL Automated Personalization](AP)活动会比较页面上的多个优惠，因此将页面预览为每个体验会很有帮助。
 
-由于[!DNL Adobe Target] [!UICONTROL Automated Personalization](AP)活动比较页面上的多个优惠，因此将页面预览到每个体验会很有帮助。
-
-1. 在[!UICONTROL 可视体验书写器](VEC)中，单击&#x200B;**[!UICONTROL 预览]**。
+1. 在[!UICONTROL Visual Experience Composer](VEC)中，单击&#x200B;**[!UICONTROL 预览]**。
 
    ![“预览”图标](/help/c-activities/t-automated-personalization/assets/preview.png)
 
@@ -38,7 +38,7 @@ ht-degree: 47%
 
    要排除一个体验，请将鼠标悬停在该体验上，然后单击&#x200B;**[!UICONTROL 排除]**&#x200B;图标。
 
-   要排除多个体验，请选中所需体验的复选框，然后单击列表右上方的&#x200B;**[!UICONTROL 排除]**&#x200B;图标。
+   要排除多个体验，请选中所需体验的复选框，然后单击列表右上角的&#x200B;**[!UICONTROL 排除]**&#x200B;图标。
 
    默认情况下，所有体验都包含在[!UICONTROL Automated Personalization]活动中。 要包含一个已排除的体验，请将鼠标悬停在该体验上，然后单击&#x200B;**[!UICONTROL 包含]**&#x200B;图标。
 

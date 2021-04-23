@@ -1,16 +1,16 @@
 ---
 keywords: 定位;EEC;可视化体验编辑器;增强型体验编辑器故障诊断;故障诊断
-description: 了解如何对Adobe Target增强体验书写器(EEC)在某些情况下有时会出现的问题进行疑难解答。
+description: 了解如何解决某些情况下Adobe [!DNL Target] 增强体验书写器(EEC)中有时出现的问题。
 title: 如何解决与增强体验书写器相关的问题？
-feature: Visual Experience Composer (VEC)
+feature: 可视化体验编辑器 (VEC)
+exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 61%
+source-wordcount: '452'
+ht-degree: 62%
 
 ---
-
 
 # 与增强体验书写器相关的问题疑难解答
 
@@ -20,7 +20,7 @@ ht-degree: 61%
 
 这可以通过列入允许列表以下IP地址来解决。 用作增强型体验编辑器代理的 Adobe 服务器使用这些 IP 地址。仅在编辑活动时才需要这些地址。访客到您的站点不需要这些IP地列入允许列表址
 
-请让您的IT团允许列表队以下IP地址：
+请让您的IT团队允许列表以下IP地址：
 
 | 区域 | IP 地址 | 主机名 |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ ht-degree: 61%
 
    **Remedy:** 允许列表上面列出的IP地址。
 
-* **问题：** IP地列入允许列表址已，但您的网站不支持TLS版本1.2。目标当前使用默认配置1.2。在目标18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。有关详细信息，请参阅 [TLS（传输层安全）加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
+* **问题：** IP地址已 [，但您的网站不支持TLS版本1.2。目标当前使用默认配置1.2。在目标18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。有关详细信息，请参](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)阅TLS（传输层安全）加密更改。
 
    **解决方案：**&#x200B;请参阅下一个问题（增强型可视化体验编辑器无法加载使用 TLS 1.2 的网站上的安全页面）。
 
 ## EEC 无法加载使用 TLS 1.0 的网站上的安全页面。（仅 EEC）{#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-如果以上 IP 地址已列入白名单，但您的网站不支持 TLS 版本 1.2，则您可能会看到在上面“增强型可视化体验编辑器无法加载我网站上的安全页面”中所述的错误消息。如果上述IP地列入允许列表址已，但您的网站不支持TLS 1.2版。目标当前使用默认配置1.2。在目标18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。有关详细信息，请参阅[TLS（传输层安全性）加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
+如果以上 IP 地址已列入白名单，但您的网站不支持 TLS 版本 1.2，则您可能会看到在上面“增强型可视化体验编辑器无法加载我网站上的安全页面”中所述的错误消息。如果上述IP地列入允许列表址已，但您的网站不支持TLS 1.2版。目标当前使用默认配置1.2。在目标18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。有关详细信息，请参阅[TLS（传输层安全）加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)。
 
 要使用 Firefox 检查您网站上的 TLS 版本（使用其他浏览器的步骤相似），请执行以下操作：
 

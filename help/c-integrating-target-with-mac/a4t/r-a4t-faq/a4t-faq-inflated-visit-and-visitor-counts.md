@@ -1,18 +1,18 @@
 ---
 keywords: FAQ;常见问题解答;Analytics for Target;A4T;夸大;访问;访客;局部点击;孤立;孤立项;局部点击
-description: 使用Analytics for 目标(A4T)时，查找有关夸大访问和访客计数的问题的答案。 了解如何将“部分数据”降至最低。
+description: 使用Analytics for [!DNL Target] (A4T)时，查找有关夸大访问和访客计数的问题的答案。 了解如何将“部分数据”降至最低。
 title: 在哪里可以找到有关A4T夸大访问和访客计数的常见问题解答？
 feature: Analytics for Target (A4T)
+exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 63%
+source-wordcount: '658'
+ht-degree: 61%
 
 ---
 
-
-# 夸大的访问和访客计数 - A4T 常见问题解答{#inflated-visit-and-visitor-counts-a-t-faq}
+# 夸大的访问和访客计数 - A4T 常见问题解答
 
 本主题包含有关在使用 Analytics 作为 Target 报表源 (A4T) 时出现夸大的访问和访客计数的常见问题解答。
 
@@ -50,12 +50,12 @@ ht-degree: 63%
 
 您还可以执行一些步骤，来最大程度地减少不完整数据点击。有关更多信息，请参阅“减少不完整数据的最佳实践有哪些？”，此内容位于[在 A4T 中最大限度地减少夸大的访问和访客计数](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
 
-## 如果从报告中删除了部分目标点击数据，我是否会丢失有价值的数据或Analytics数据？{#section_EBC39E8A0F6A40E58F51E776936F7D9E}
+## 如果从报告中删除了部分数据点击数据，我是否会丢失有价值的[!DNL Target]或Analytics数据？{#section_EBC39E8A0F6A40E58F51E776936F7D9E}
 
 在[!DNL Analytics]报告中包括部分数据确实提供了其他信息，但它也会导致与未运行[!DNL Target]活动的期间的历史数据不一致。 包含部分点击数据可能会导致[!DNL Analytics]用户在分析趋势随时间变化的问题。
 
 您可以执行一些步骤，来最大程度地减少不完整数据点击。有关更多信息，请参阅“减少不完整数据的最佳实践有哪些？”，此内容位于[在 A4T 中最大限度地减少夸大的访问和访客计数](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)。
 
-## 是否有任何特定类型的 Target 活动可能更容易产生不完整数据点击？{#section_69837442A9B84366BEFDA4588B31E574}
+## 是否存在更可能导致部分数据点击的特定类型的[!DNL Target]活动?{#section_69837442A9B84366BEFDA4588B31E574}
 
 重定向选件会立即将用户发送到另一个页面，这意味着 [!DNL Analytics] 调用不会在第一个页面上触发。

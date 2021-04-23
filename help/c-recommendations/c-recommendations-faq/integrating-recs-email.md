@@ -1,14 +1,14 @@
 ---
 keywords: 电子邮件;ESP;电子邮件服务提供商;rawbox;交付 API;仅限下载模板;电子邮件模板;批量处理;构建时电子邮件
-description: 了解如何将电子邮件与Adobe Target Recommendations集成，包括使用目标 投放 API、rawbox模板和仅下载模板。
+description: 了解如何将电子邮件与Adobe [!DNL Target] Recommendations, including using the [!DNL Target] 投放 API、rawbox模板和仅下载模板集成。
 title: 如何将Recommendations与电子邮件集成？
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 84%
+source-wordcount: '1540'
+ht-degree: 85%
 
 ---
 
@@ -78,7 +78,7 @@ rawbox 类似于 mbox 请求，但适用于诸如电子邮件服务提供商 (ES
 * 在这种情况下，响应内容将为 mboxDefault 参数值，而不论该参数设置为何值。请参阅下面有关此参数的说明。
 * 电子邮件提供商应具有可在这种情况下使用的默认 HTML 推荐块。
 
-### 目标服务器超时并返回而无数据
+### [!DNL Target]服务器超时并返回而无数据
 
 * 在这种情况下，Target 服务器将返回以下内容：
 
@@ -122,7 +122,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>（可选） | 1 | 默认情况下，如果未找到可交付的内容，则会重定向调用方。可用于禁用默认行为。 |  |
 | `mbox3rdPartyId` | *xxx* | 如果您具有用于配置文件定位的自定义访客 ID，请使用此参数。 |  |
 
-### 潜在的目标服务器响应
+### 潜在的[!DNL Target]服务器响应
 
 | 响应 | 描述 |
 |--- |--- |

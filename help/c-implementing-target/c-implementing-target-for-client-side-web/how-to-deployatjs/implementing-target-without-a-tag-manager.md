@@ -1,19 +1,19 @@
 ---
 keywords: 实现目标；实现；实现at.js；标签管理器；设备上决策；设备上决策
-description: 了解如何指定设置（帐户详细信息、实现方法等） 来实施Adobe Target at.js库，而无需使用标签管理器。
-title: 我是否可以在没有标签管理器的情况下实施目标?
-feature: Implement Server-side
+description: 了解如何指定设置（帐户详细信息、实现方法等） 来实现Adobe [!DNL Target] at.js库，而不使用标签管理器。
+title: 我是否可以在没有标签管理器的情况下实施 [!DNL Target] ?
+feature: 实施服务器端
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1692'
 ht-degree: 51%
 
 ---
 
-# 不通过标签管理器实施 Target
+# 无需标签管理器即可实现[!DNL Target]
 
 有关在不使用标签管理器（[!DNL Adobe Experience Platform Launch]或[!DNL Dynamic Tag Manager]）的情况下实现[!DNL Adobe Target]的信息。
 
@@ -124,14 +124,14 @@ ht-degree: 51%
 * 目标团队同时支持at.js 1。*x* 与 at.js 2.*x* 之间的映射。请升级到at.js的任一主要版本的最新更新，以确保您运行的是受支持的版本。 有关每个版本中功能的更多信息，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 
 
-### 使用目标接口{#section_1F5EE401C2314338910FC57F9592894E}下载at.js
+### 使用[!DNL Target]接口{#section_1F5EE401C2314338910FC57F9592894E}下载at.js
 
 要从 [!DNL Target] 界面下载 [!DNL at.js]，请执行以下操作：
 
 1. 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实施]**。
 1. 从[!UICONTROL 实现方法]部分，单击所需at.js版本旁边的&#x200B;**[!UICONTROL 下载]**&#x200B;按钮。
 
-### 使用目标 Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}下载at.js
+### 使用[!DNL Target]下载API {#section_C0D9D2A9068144708D08526BA5CA10D0}下载at.js
 
 要使用 API 下载 [!DNL at.js]，请执行以下操作：
 

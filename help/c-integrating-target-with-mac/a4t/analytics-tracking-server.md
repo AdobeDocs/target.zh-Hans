@@ -1,16 +1,16 @@
 ---
 keywords: analytics跟踪服务器；A4T;Adobe Experience Cloud调试器；Adobe Experience Platform调试器；报告源；开发人员工具
-description: '了解如何为使用Analytics for 目标(A4T)的活动指定Analytics跟踪服务器（如果您使用的是较旧版本的at.js或mbox.js）。 '
+description: '了解如何为使用Analytics for [!DNL Target] (A4T)的活动指定Analytics跟踪服务器（如果您使用的是at.js或mbox.js的旧版本）。 '
 title: 如何使用Analytics跟踪服务器？
 feature: Analytics for Target (A4T)
+exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 20%
 
 ---
-
 
 # 使用 Analytics 跟踪服务器
 
@@ -77,4 +77,3 @@ ht-degree: 20%
    >[!NOTE]
    >
    >选择[!UICONTROL Analytics作为报告源]，以便活动[!UICONTROL 跟踪服务器]字段可用。
-

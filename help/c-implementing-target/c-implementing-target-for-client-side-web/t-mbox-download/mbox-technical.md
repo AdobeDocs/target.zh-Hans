@@ -1,19 +1,19 @@
 ---
 keywords: 实施;mbox.js;DOM 操作库;target.js;可视化体验编辑器;iFrame;Angular 网站;单页应用程序;单页应用程序;SPA
 description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
-title: 目标 mbox.js库具有哪些功能？
+title: ' [!DNL Target] mbox.js库具有哪些功能？'
 feature: at.js
 role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '410'
 ht-degree: 74%
 
 ---
 
-# mbox.js 的功能{#what-mbox-js-does}
+# mbox.js 的功能
 
 此信息可帮助您的技术人员了解 mbox.js 实施以及它可能会对您的网站有何影响。
 

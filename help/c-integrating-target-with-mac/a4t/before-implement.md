@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations
-description: 了解目标分析(A4T)的实施要求以及实施此集成之前要考虑的事项。
+description: 了解Analytics的 [!DNL Target] (A4T)实施要求以及实施此集成前要考虑的事项。
 title: 在实施A4T之前，我应该了解什么？
 feature: Analytics for Target (A4T)
+exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '883'
 ht-degree: 33%
 
 ---
 
-
-# 实施之前{#before-you-implement}
+# 实施之前
 
 当[!DNL Adobe Analytics]启用为[!DNL Adobe Target](A4T)的报告源时，数据收集过程中会发生一些更改。
 

@@ -1,19 +1,19 @@
 ---
 keywords: 实施;mbox.js 非 javascript;AdBox;重定向器;mbox
-description: 了解如何在非JavaScript场景（如使用AdBox或重定向器）中实施Adobe Target。
-title: 如何实施电子邮件目标?
-feature: Implement Email
+description: 了解如何在非JavaScript场景（如使用AdBox或重定向器）中实现Adobe [!DNL Target] 。
+title: 如何为电子邮件实施 [!DNL Target] ?
+feature: 实施电子邮件
 role: Developer
+exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 77%
 
 ---
 
-
-# 电子邮件：实施 Target{#email-implement-target}
+# 电子邮件：实施 Target
 
 此信息介绍了如何在非 JavaScript 情景中实施 Target，例如使用 AdBox 或重定向器。
 
@@ -30,7 +30,7 @@ AdBox 广告和重定向器可用于任何类型的活动。下表比较了 Adbo
 
 ## 安全最佳实践{#security}
 
-请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列表默认重定向URL域。 目标使允许列表用主机要允许重定向的域。 有关详细信息，请参阅[创允许列表建指定有权向&#x200B;*Hosts*&#x200B;中的目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机的。
+请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列表默认重定向URL域。 目标使用主允许列表机要允许重定向的域。 有关详细信息，请参阅[创允许列表建，指定有权向&#x200B;*Hosts*&#x200B;中的目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机。
 
 ## 限制 {#section_38F559DCF1324271926608BCD4AB1227}
 

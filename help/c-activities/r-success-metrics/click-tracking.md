@@ -1,24 +1,24 @@
 ---
 keywords: 点击跟踪;跟踪点击次数;点击次数;AppMeasurement
-description: 了解Adobe Target如何将任何元素的点击量作为成功指标进行跟踪。
+description: 了解Adobe [!DNL Target] 如何作为成功量度跟踪任何元素的点击量。
 title: 什么是点击跟踪？
-feature: Success Metrics
+feature: 成功量度
+exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '886'
 ht-degree: 91%
 
 ---
 
-
 # 点击跟踪
 
-[!DNL Adobe Target] 可将任何元素的点击量作为成功量度进行跟踪。
+[!DNL Adobe Target] 允许您将任何元素的点击作为成功量度进行跟踪。
 
 >[!NOTE]
 >
->全局目标请求在基于表单的活动中用作位置时，不支持跟踪点击。
+>全局目标请求在基于表单的活动中用作位置时，不支持跟踪单击。
 
 ## 设置点击跟踪 {#section_5540C5A533114E57BAE022A600B02E72}
 
@@ -74,7 +74,7 @@ ht-degree: 91%
    有关更多信息，请参阅&#x200B;*可视化体验编辑器选项*&#x200B;中的[使用 DOM 路径浏览元素](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)。
 
 * 您可以浏览到其他页面，以跟踪您可能不会更改内容的页面上的点击次数。但前提是该页面必须包含在使用[多页面功能](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)的活动中，且该页面上必须实施了 [!DNL at.js] 或 [!DNL mbox.js]。
-* 如果您选择了多个元素，则当参加者点击任一选定元素时，即会被计为一次点击。要单独对每个项目进行计数，需为每个元素分别设置成功量度。要通过单击页面上的多个元素计算一个项，请编辑CSS元素选择器以匹配多个元素。
+* 如果您选择了多个元素，则当参加者点击任一选定元素时，即会被计为一次点击。要单独对每个项目进行计数，需为每个元素分别设置成功量度。要通过单击页面上的多个元素来计数一个项目，请编辑CSS元素选择器以匹配多个元素。
 * 务必选择要跟踪的元素的级别。例如，指定按钮时，请务必选择链接，而不要选择按钮文本。
 * 点击事件会在发生点击的同一页面上发送到 [!DNL Target]。
 * 如果点击跟踪量度是 A4T 活动的目标量度，则访客必须在页面加载的 60 秒内点击此元素，才能对量度进行跟踪。

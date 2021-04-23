@@ -2,17 +2,17 @@
 keywords: mbox;mbox3rdPartyId;配置文件同步;PCID
 description: 了解如何使用mbox3rdPartyId，它是您组织的访客ID，如会员ID或您组织的忠诚度项目。
 title: 如何对mbox3rdPartyId使用实时用户档案同步？
-feature: Audiences
+feature: 受众
+exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 76%
 
 ---
 
-
-# mbox3rdPartyId 的实时配置文件同步{#real-time-profile-syncing-for-mbox-rdpartyid}
+# mbox3rdPartyId 的实时配置文件同步
 
 mbox3rdPartyId 是您公司的访客 ID，例如您公司的忠诚度计划的会员 ID。
 
@@ -33,11 +33,11 @@ mbox3rdPartyId 是您公司的访客 ID，例如您公司的忠诚度计划的�
 
 >[!NOTE]
 >
->如果要区分已验证（已登录）的用户与非已验证的用户，请使用Adobe Experience Cloud身份服务(ECID)而不是mbox3rdPartyID。 在用户与mbox3rdPartyID关联后，即使在注销后，它仍与用户关联。
+>如果要区分已验证（已登录）的用户与非已验证的用户，请使用Adobe Experience Cloud Identity Service(ECID)，而不是mbox3rdPartyID。 在用户与mbox3rdPartyID关联后，即使在注销后，它仍与用户关联。
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] 在ID(EDID)更改(例如，访客更 [!DNL Adobe Experience Cloud] 改设备)时，将不会跟踪目标，即使可 [!DNL Target] 能基于mbox3rdPartyId合并用户档案，但仍具有活动信息。对于使用相同EDID(使用相同设备访问页面的访客)标识的用户，[!DNL Analytics for Target](A4T)应按预期工作。
+>[!DNL Adobe Analytics] 如果ID(EDID)发生更改(例如， [!DNL Adobe Experience Cloud] 访客更改设备)，则不会跟踪目标，即使 [!DNL Target] 用户档案可能基于mbox3rdPartyId合并且仍包含活动信息。对于使用相同EDID(使用相同设备访问页面的访客)标识的用户，[!DNL Analytics for Target](A4T)应按预期工作。
 
 ## 注意事项 {#considerations}
 

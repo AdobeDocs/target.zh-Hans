@@ -1,17 +1,17 @@
 ---
 keywords: 实现；api;用户档案;用户档案api设置；身份验证令牌
-description: 了解如何通过Adobe TargetAPI为批量更新配置身份验证并生成用户档案身份验证令牌。
-title: 如何使用用户档案API设置启用或禁用批量更新？
-feature: APIs/SDKs
+description: 了解如何通过Adobe [!DNL Target] API为批量更新配置身份验证，并生成用户档案身份验证令牌。
+title: 如何使用用户档案 API设置启用或禁用批量更新？
+feature: API/SDK
 role: Developer
+exl-id: 6346e11b-0853-47f1-9706-69e8635a6f25
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '328'
 ht-degree: 38%
 
 ---
-
 
 # 配置文件 API 设置
 
@@ -24,7 +24,7 @@ ht-degree: 38%
 **使用 Target UI 设置身份验证要求并生成访问令牌：**
 
 1. 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实施]**。
-1. 在&#x200B;**[!UICONTROL 用户档案API]**&#x200B;幻灯片下，**[!UICONTROL 需要身份验证]**&#x200B;切换到启用或禁用位置。
+1. 在&#x200B;**[!UICONTROL 用户档案API]**&#x200B;下，将&#x200B;**[!UICONTROL 要求身份验证]**&#x200B;切换到启用或禁用位置。
 
    ![](assets/profile_api_settings.png)
 
@@ -40,11 +40,11 @@ ht-degree: 38%
 
       有关[!DNL Target Standard]客户的详细信息，请参阅&#x200B;*Users*&#x200B;中的[指定角色和权限](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。 有关[!DNL Target Premium]客户的详细信息，请参阅[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)。
 
-   * 工作区／产品用户档案级别上的管理员角色
+   * 工作区/产品用户档案级别上的管理员角色
 
       工作区仅对[!DNL Target Premium]客户可用。 有关详细信息，请参阅[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)。
 
-   * [!DNL Adobe Target]产品级别上的管理权限（Sysadmin权限）
+   * [!DNL Adobe Target]产品级别上的管理员权限（Sysadmin权限）
    >[!NOTE]
    >
    >您也可以通过 API 生成配置文件身份验证令牌。有关更多信息，请参阅 [Adobe Target 开发人员网站](https://developers.adobetarget.com/)上的[配置文件](https://developers.adobetarget.com/api/#profiles)。

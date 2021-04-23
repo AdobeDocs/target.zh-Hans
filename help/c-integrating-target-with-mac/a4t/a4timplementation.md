@@ -1,18 +1,18 @@
 ---
 keywords: A4T;Adobe Analytics;基于 Analytics 的活动;Analytics 报表包;报表包;Analytics 与 Target 集成;配置报表包
-description: 按照在您的Adobe Target和Adobe Analytics解决方案中实施目标分析(A4T)所需的步骤操作。
-title: 如何为目标(A4T)实施Analytics?
+description: 按照为 [!DNL Target] (A4T) in your Adobe [!DNL Target] 和Adobe Analytics解决方案实施Analytics所需的步骤操作。
+title: 如何为 [!DNL Target] (A4T)实施Analytics?
 feature: Analytics for Target (A4T)
+exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '881'
 ht-degree: 30%
 
 ---
 
-
-# Analytics for Target 实施{#analytics-for-target-implementation}
+# [!DNL Target]实施的分析
 
 当将[!DNL Adobe Analytics]作为[!DNL Adobe Target](A4T)的报告源实施时，需要执行多个步骤。
 
@@ -168,4 +168,3 @@ Adobe建议您删除之前的集成，以简化实施并消除解决系统间差
 
 * **[!UICONTROL 如果选择为每个活动选择，您在创建每个活动时可以在 和 之间进行选择。]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL 如果选择 Adobe ，则会将 Analytics 设置为您创建的所有活动的报表源。]**[!DNL Analytics]
-

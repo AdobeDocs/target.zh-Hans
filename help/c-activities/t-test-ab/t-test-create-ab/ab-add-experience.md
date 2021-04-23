@@ -1,20 +1,20 @@
 ---
 keywords: 定位;体验;添加体验;体验添加
-description: 了解如何在Adobe Target使用可视体验书写器(VEC)。 VEC为在页面上添加和编辑体验提供了一个可视界面。
-title: 如何在目标A/B活动中添加体验？
-feature: A/B Tests
+description: 了解如何在Adobe Target中使用Visual Experience Composer(VEC)。 VEC为在页面上添加和编辑体验提供了一个可视界面。
+title: 如何在a [!DNL Target] A/B活动中添加体验？
+feature: A/B 测试
+exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '483'
 ht-degree: 79%
 
 ---
 
-
 # 添加体验
 
-Adobe Target可视化体验书写器(VEC)为在页面上添加和编辑体验提供了一个可视界面。
+Adobe Target Visual Experience Composer(VEC)为在页面上添加和编辑体验提供了一个可视界面。
 
 有关体验的更多详细信息，请参阅[体验](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
@@ -30,7 +30,7 @@ Adobe Target可视化体验书写器(VEC)为在页面上添加和编辑体验提
 
    将鼠标悬停在页面中的元素上时，这些元素会高亮显示。任何高亮显示的元素都可以使用体验编辑器进行更改。
 
-   如果您使用目标经典(以前称为Test&amp;目标)在页面上创建了[!DNL Target]请求，则该[!DNL Target]请求将显示为一个显示请求名称的元素，并且可以像修改任何其他元素一样进行修改。
+   如果您使用目标 Classic(以前称为Test&amp;目标)在页面上创建了[!DNL Target]请求，则该[!DNL Target]请求将显示为一个显示请求名称的元素，并且可以像修改任何其他元素一样修改。
 
    有关可对显示页面上的元素执行以更改体验的操作列表，请参阅[可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 

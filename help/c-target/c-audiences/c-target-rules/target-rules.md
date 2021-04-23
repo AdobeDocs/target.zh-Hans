@@ -1,18 +1,18 @@
 ---
 keywords: 定位;定位类别;定位条件;Audience Manager;自定义配置文件参数;访客配置文件;自定义用户参数;定位规则
 description: 了解如何使用类别(如浏览器、地理、网络、操作系统、访客用户档案)目标内容。
-title: 受众的类别是什么？
-feature: Audiences
+title: 什么是受众类别?
+feature: 受众
+exl-id: 37d6435d-4139-47c5-a871-6595e089d052
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 92%
 
 ---
 
-
-# 受众类别{#categories-for-audiences}
+# 受众类别
 
 您可以对任意类别进行定位。每种类别均以选项卡的方式工作，让您能够为每种类别创建定位规则（或组）。
 
@@ -28,7 +28,7 @@ ht-degree: 92%
 
 您可以按受众名称或上次修改日期对受众列表进行排序。要按名称或上次修改日期进行排序，请单击列标头，然后选择受众显示的顺序（升序或降序）。
 
-## 培训视频：创建受众![教程标记](/help/assets/tutorial.png)
+## 培训视频：创建受众![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用受众类别的信息。
 

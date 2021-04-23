@@ -1,16 +1,16 @@
 ---
 keywords: 诊断 Target 故障;Target 故障诊断
-description: 查看一列表主题，帮助您解决Adobe Target的问题，包括疑难解答主题、常见问题解答(FAQ)和其他有用主题。
-title: 如何诊断目标?
+description: 查看列表主题，帮助您解决Adobe Target中的问题，包括疑难解答主题、常见问题解答(FAQ)和其他有用主题。
+title: 如何排除目标?
 feature: Troubleshooting
+exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
-
 
 # Target 故障诊断
 
@@ -56,7 +56,7 @@ ht-degree: 90%
 * [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [设计常见问题解答](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Analytics 与 Target 集成 (A4T)
+## Analytics和[!DNL Target]集成(A4T)
 
 * [Analytics 与 Target 集成故障诊断](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * “办公时间”视频，“办公时间”是 Adobe 客户关怀团队发起的一项计划。请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)。
@@ -78,7 +78,7 @@ ht-degree: 90%
 * [Target 优化和个性化常见问题解答](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [定位和受众常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [配置文件脚本属性](/help/c-target/c-visitor-profile/profile-parameters.md)
-* [站点页面](/help/c-target/c-audiences/c-target-rules/site-pages.md)
+* [网站页面](/help/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## 内容
 

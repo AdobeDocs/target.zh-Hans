@@ -1,22 +1,22 @@
 ---
 keywords: multivariate;mvt;预览；体验
-description: 了解如何使用Visual Experience Composer(VEC)在Adobe Target的Multivariate Test(MVT)活动中预览每个体验。
+description: 了解如何使用Visual Experience Composer(VEC)在Adobe [!DNL Target] 的“Multivariate Test(MVT)”活动中预览每个体验。
 title: 如何预览多变量测试(MVT)的体验
 feature: Multivariate Tests
+exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 68%
+source-wordcount: '202'
+ht-degree: 67%
 
 ---
 
+# 预览多变量测试体验
 
-# 预览多变量测试体验{#preview-experiences-for-a-multivariate-test}
+由于[!DNL Adobe Target]中的[!UICONTROL  Multivariate Test]比较了页面上的多个体验，因此将页面与每个体验预览非常有帮助。
 
-由于[!DNL Adobe Target]中的[!UICONTROL  Multivariate Test]比较了页面上的多个体验，因此将页面与每个体验预览很有帮助。
-
-1. 在可视体验书写器(VEC)中，单击&#x200B;**[!UICONTROL 预览]**。
+1. 在Visual Experience Composer(VEC)中，单击&#x200B;**[!UICONTROL 预览]**。
 
    此时将显示一个包含所有体验的列表。
 
@@ -37,4 +37,3 @@ ht-degree: 68%
    默认情况下，多变量测试中包含所有体验。要包含之前已被排除的体验，请选择该排除的体验，然后单击&#x200B;**[!UICONTROL 包含]**。
 
 单击&#x200B;**[!UICONTROL 退出预览模式]**，以返回到体验编辑器，从而进行更改；或单击&#x200B;**[!UICONTROL 继续]**&#x200B;以转到测试摘要。
-

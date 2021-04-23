@@ -1,16 +1,16 @@
 ---
 keywords: 活动设置;体验定位目标和设置;XT 目标和设置;体验定位;报表设置;目标量度;成功量度;依赖的成功量度;高级设置;主要目标;其他量度;目的;优先级;持续时间;报表解决方案;目标;报表的受众;递增此量度之前必须实现哪些成功量度;用户遇到此目标量度后会出现什么情况;注释
-description: 了解如何使用Adobe Target的“目标和设置”页面指定有关体验定位(XT)活动目标的信息。
+description: 了解如何使用Adobe [!DNL Target] 中的“目标和设置”页面指定有关体验定位(XT)活动目标的信息。
 title: 如何在体验定位活动中指定目标和设置？
-feature: Experience Targeting
+feature: 体验定位
+exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 93%
+source-wordcount: '1309'
+ht-degree: 94%
 
 ---
-
 
 # 体验定位(XT)活动中的目标和设置
 

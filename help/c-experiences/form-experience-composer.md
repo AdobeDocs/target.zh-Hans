@@ -1,20 +1,20 @@
 ---
 keywords: 基于表单的体验编辑器;基于表单的编辑器;细化
-description: 了解如何使用Adobe Target基于表单的体验书写器创建非视觉体验。 当VEC不可用或不可实用时，请使用此书写器。
+description: 了解如何使用Adobe [!DNL Target] 基于表单的体验编辑器创建非可视体验。 当VEC不可用或不实用时，请使用此书写器。
 title: 如何使用基于表单的体验书写器？
-feature: Form-based Experience Composer
+feature: 基于表单的体验编辑器
+exl-id: d06a271b-f058-4c83-af75-da2a29774967
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '803'
 ht-degree: 66%
 
 ---
 
+# 基于表单的体验编辑器
 
-# 基于表单的体验编辑器{#form-based-experience-composer}
-
-[!DNL Adobe Target] [!UICONTROL 基于表单的体验书写器]是一个非可视体验和优惠创建界面，当可视体验书写器不可用或无法实际使用时，该界面可用于创建用于A/B测试、体验定位、Automated Personalization和Recommendations活动的体验。 例如，您可以使用基于表单的编辑器为电子邮件、网亭和语音助手中的交付创建体验和选件。
+[!DNL Adobe Target] [!UICONTROL 基于表单的体验编辑器]是一个非可视体验和优惠创建界面，当可视体验编辑器不可用或无法实际使用时，该界面可用于创建在A/B测试、体验定位、Automated Personalization和Recommendations活动中使用的体验。 例如，您可以使用基于表单的编辑器为电子邮件、网亭和语音助手中的交付创建体验和选件。
 
 如果您创建的是“推荐”活动，则不存在任何体验。需选择您的标准和设计。如果您选择多个标准或设计，则 Target 会自动生成体验。
 
@@ -32,7 +32,7 @@ ht-degree: 66%
    ![](assets/location_refinements.png)
 
    如果您创建的是“推荐”活动，此屏幕会有所不同。“推荐”活动不包含体验。
-1. 单击“[!UICONTROL 未命名活动]”命名活动。
+1. 单击&quot;[!UICONTROL 未命名活动]命名活动。&quot;
 1. 选择位置。
 
    单击[!UICONTROL 选择位置]框时，将显示可用位置列表。 从这些位置中选择一个位置。要选择通过 target.js 交付的全局位置，请选择“target-global-mbox”。
@@ -41,7 +41,7 @@ ht-degree: 66%
 
    >[!NOTE]
    >
-   >在创建活动时创建手动输入的位置不会自动创建新位置。 位置名称仅保存在活动的上下文中。 当有内容投放调用时，将创建该位置。 在创建位置后，它将可用于其他活动，用于创建受众等。 从可用位置的下拉列表。
+   >在创建活动时创建手动输入的位置不会自动创建新位置。 位置名称仅保存在活动的上下文中。 当有内容投放调用时创建位置。 在创建位置后，它将可用于其他活动，用于创建受众等。 的下拉列表。
 
 1. 单击&#x200B;**[!UICONTROL 添加受众细化]**，然后为此活动选择一个或多个[受众](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)。
 
@@ -98,8 +98,8 @@ ht-degree: 66%
 
    ![](assets/change_criteria_2.png)
 
-1. (可选，对于AB活动、Automated Personalization和体验定位)要对其他位置重复此过程，请单击&#x200B;**[!UICONTROL 添加位置]**&#x200B;并配置位置和内容。
-1. 单击&#x200B;**[!UICONTROL 下一步]**，然后按照您的活动类型的惯例完成活动创建步骤。
+1. (可选，适用于AB活动、Automated Personalization和Experience Targeting)要对其他位置重复此过程，请单击&#x200B;**[!UICONTROL 添加位置]**&#x200B;并配置位置和内容。
+1. 单击&#x200B;**[!UICONTROL 下一步]**，然后按照您的活动类型正常完成活动创建步骤。
 
 * [创建 A/B 测试](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [创建体验定位活动](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)

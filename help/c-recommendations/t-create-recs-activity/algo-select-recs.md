@@ -1,18 +1,18 @@
 ---
 keywords: 推荐；推荐活动；标准；算法
-description: 了解如何选择在您的Adobe TargetRecommendations活动中使用的标准（确定推荐哪些产品或内容的规则）。
-title: 如何为Recommendations活动选择标准？
+description: 了解如何选择在您的Adobe [!DNL Target] Recommendations活动中使用的条件（确定推荐哪些产品或内容的规则）。
+title: 如何为Recommendations活动选择条件？
 feature: Recommendations
+exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 72%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 选择标准{#select-criteria}
+# ![PREMIUM](/help/assets/premium.png) 选择标准
 
 选择要在[!DNL Adobe Target Recommendations]活动中使用的[条件](/help/c-recommendations/c-algorithms/algorithms.md)。 标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。
 
@@ -28,7 +28,7 @@ ht-degree: 72%
 
 **选择标准：**
 
-1. 当[创建新推荐](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)时，在&#x200B;**[!UICONTROL 选择标准]**&#x200B;对话框中，找到并选择一个或多个标准。
+1. 在[创建新推荐](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)时，在&#x200B;**[!UICONTROL 选择标准]**&#x200B;对话框中，找到并选择一个或多个标准。
 
    ![“选择标准”对话框](/help/c-recommendations/t-create-recs-activity/assets/filters.png)
 
@@ -36,6 +36,6 @@ ht-degree: 72%
 
    * **行业类型：**&#x200B;行业类型用于帮助对 [!DNL Recommendations] 标准进行分类。要更改默认的行业垂直设置，请单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL 设置]**&#x200B;并选择所需的默认&#x200B;**[!UICONTROL 行业垂直]**&#x200B;设置。
    * **页面类型：**&#x200B;页面类型可帮助您对推荐进行分类。每种页面类型还有一些内置标准，可供您选择。
-   * **兼容：**&#x200B;仅显示要求选定页面传递所需数据的标准。并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。可以在您的设置中禁用或启用此选项：**[!UICONTROL Recommendations]** > **[!UICONTROL 设置]**。
+   * **兼容：**&#x200B;仅显示要求选定页面传递所需数据的标准。并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。在您的设置中可以禁用或启用此选项：**[!UICONTROL Recommendations]** > **[!UICONTROL 设置]**。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以显示“[选择设计](/help/c-recommendations/c-design-overview/design-overview.md)”对话框。

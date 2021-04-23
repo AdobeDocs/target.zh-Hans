@@ -1,18 +1,18 @@
 ---
 keywords: MVT;多变量测试;位置贡献报表
-description: 了解如何使用Adobe Target体验定位活动的位置贡献报告，该报告显示每个元素和每个优惠的性能。
-title: 如何使用多变量测试的位置贡献报告？
-feature: Reports
+description: 了解如何对“Adobe [!DNL Target] 体验定位”活动使用位置贡献报表，显示每个元素和每个优惠的性能。
+title: 如何使用多变量测试的位置贡献报表？
+feature: 报表
+exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 83%
 
 ---
 
-
-# 位置贡献报表 (MVT){#location-contribution-report-mvt}
+# 位置贡献报表 (MVT)
 
 位置贡献报表显示每个元素和每个选件的性能。
 

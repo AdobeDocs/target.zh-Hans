@@ -1,16 +1,16 @@
 ---
 keywords: SPA VEC;React;Angular;react.js;SPA 可视化体验编辑器;SPA 体验编辑器选项;单页应用程序;single-page-app;SPA;移动设备体验选项;Target 视图
-description: 了解如何使用Adobe Target的SPA VEC在SPA上以自行动手的方式创建测试和个性化内容，而无需持续的开发依赖关系。
+description: 了解如何在Adobe [!DNL Target] 中使用SPA VEC，在SPA上以自己动手的方式创建测试和个性化内容，而无需持续的开发依赖关系。
 title: 如何使用单页应用程序可视体验书写器(SPA VEC)?
-feature: Visual Experience Composer (VEC)
+feature: 可视化体验编辑器 (VEC)
+exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3699'
+source-wordcount: '3700'
 ht-degree: 91%
 
 ---
-
 
 # 单页应用程序 (SPA) 可视化体验编辑器
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 现在，我们在最新版本中引入了 SPA VEC。使用 SPA VEC，营销人员能够以 DIY（自己动手）方式创建测试并对 SPA 上的内容进行个性化，而无需持续依赖开发。VEC 可用于在常用框架（例如 React 和 Angular）上创建 [A/B 测试](/help/c-activities/t-test-ab/test-ab.md)和[体验定位](/help/c-activities/t-experience-target/experience-target.md) (XT) 活动。
 
-## Adobe Target 视图和单页应用程序
+## Adobe[!DNL Target]视图和单页应用程序
 
 Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元素的逻辑组合，这些元素共同构成了 SPA 体验。因此，SPA 可以被认为是通过基于用户交互的视图（而不是 URL）进行的转换。“视图”通常可显示整个站点或某个站点中分组的可视化元素。
 
@@ -56,7 +56,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 现在，营销人员可能想要运行 A/B 测试，以查看与将两个交付选项的按钮颜色保持为蓝色相比，在选择“Express Delivery”（快递）后将按钮颜色从蓝色更改为红色是否可以提高转化率。
 
-## 实施 Adobe Target 视图
+## 实施Adobe[!DNL Target]视图
 
 既然我们介绍了 Adobe Target 视图的内容，我们可以在 Target 中利用这一概念，使营销人员能够通过 VEC 在 SPA 上运行 A/B 和 XT 测试。这将需要一次性开发人员设置。下面我们将完成这些步骤以进行此设置。
 
@@ -66,7 +66,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    ![“实施详细信息”对话框](/help/c-experiences/assets/imp-200.png)
 
-   通过位于[!UICONTROL 管理>实施]的Adobe TargetUI下载at.js 2.x。 也可以通过 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。但是，Adobe Target 扩展当前不是最新的，不受支持。
+   通过位于[!UICONTROL “管理”>“实施”]的Adobe Target UI下载at.js 2.x。 也可以通过 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。但是，Adobe Target 扩展当前不是最新的，不受支持。
 
 1. 在您的网站上实施 at.js 2.x 的最新函数：[triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)。
 
@@ -391,9 +391,9 @@ adobe.target.getOffers({
 进行了以下更改：
 
 * 更改了“主页”视图中的背景颜色，该视图位于以下 URL 下：[/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/。
-* 更改了“产品”视图中的按钮颜色，该颜色位于URL下：[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)。
+* 更改了“产品”视图中位于URL下的按钮颜色：[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)。
 
-考虑到上面的示例，将[!UICONTROL 页面投放]设置配置为仅包括：[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)位于SPA with at.js 2中。*x* 的 SPA 中），会出现什么情况？
+考虑到上述示例，将[!UICONTROL 页面投放]设置配置为仅包括：[https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)(在具有at.js 2的SPA中)。*x* 的 SPA 中），会出现什么情况？
 
 ![“页面交付”对话框](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -440,4 +440,4 @@ adobe.target.getOffers({
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-有关详细信息，请参阅Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)中的[使用单页应用程序的可视体验书写器(SPA VEC)。
+有关详细信息，请参阅Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)中的[使用单页应用程序的可视体验编辑器(SPA VEC)。

@@ -1,20 +1,20 @@
 ---
 keywords: 多页面;历程测试;多页面活动
-description: 了解如何在Adobe Target创建多页活动，让您能够使用特定于每个页面的设计在多个页面上创建文章。
+description: 了解如何在Adobe [!DNL Target] 中创建多页活动，允许您使用特定于每页的设计在多个页面上创建文章。
 title: 如何创建多页活动?
-feature: Visual Experience Composer (VEC)
+feature: 可视化体验编辑器 (VEC)
+exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 85%
 
 ---
 
-
 # 多页面活动
 
-[!DNL Adobe Target]中的多页活动允许您在多个页面上创建文章，其设计特定于每页。
+[!DNL Adobe Target]中的多页活动允许您在多个页面上创建文章，并且设计特定于每个页面。
 
 例如，您可能需要测试一个购买量超过一定数量后免运费的选件。您可能希望该选件显示在登陆页面、类别页面和某些产品页面上，但是对于每种类型的页面，您还希望以不同的大小、在不同的位置显示。您可以在主页上显示一个明显的选件，然后在其他相关页面上通过一些较小的选件来加强该选件。
 
@@ -46,4 +46,3 @@ ht-degree: 85%
    可使用此菜单重命名页面、在多页面活动中执行重定向测试，或删除页面。
 
 1. 使用可视化体验编辑器设计选件在各个页面上的外观。
-

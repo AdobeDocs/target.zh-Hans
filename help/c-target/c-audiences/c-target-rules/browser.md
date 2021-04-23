@@ -1,18 +1,18 @@
 ---
 keywords: 浏览器选项;类型;浏览器类型;浏览器语言;语言;版本;浏览器版本
-description: 了解如何在Adobe Target创建受众，以便目标访问您页面时使用特定浏览器或特定浏览器选项的用户。
-title: 我是否可以根据浏览器类型目标访客?
-feature: Audiences
+description: 了解如何在Adobe [!DNL Target] 中创建受众，以向访问页面时使用特定浏览器或特定浏览器选项的目标用户。
+title: 是否可以 [!DNL Target] 基于浏览器类型的访客?
+feature: 受众
+exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 94%
+source-wordcount: '661'
+ht-degree: 95%
 
 ---
 
-
-# 浏览器{#browser}
+# 浏览器
 
 您可以定位使用特定浏览器或特定浏览器选项访问您的页面的用户。
 

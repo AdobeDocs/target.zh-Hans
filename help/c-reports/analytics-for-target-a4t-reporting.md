@@ -1,18 +1,18 @@
 ---
 keywords: Analytics for Target;A4T;Analytics 作为报表源
-description: 了解如何使用Analytics进行目标(A4T)。 通过A4T集成，您可以访问针对Adobe Target活动的强大的Adobe Analytics报告。
-title: 如何将Analytics用于目标(A4T)报告?
+description: 了解如何将Analytics用于 [!DNL Target] (A4T). The A4T integration gives you access to robust Adobe Analytics reports for your Adobe [!DNL Target] 活动。
+title: 如何将Analytics用于 [!DNL Target] (A4T)报告?
 feature: Analytics for Target (A4T)
+exl-id: 43d31231-e258-458e-b371-08214fd903b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 62%
+source-wordcount: '83'
+ht-degree: 72%
 
 ---
 
-
-# Analytics for Target (A4T) 报表{#analytics-for-target-a-t-reporting}
+# Adobe Target(A4T)报告
 
 使用 Analytics 作为 Target 报表源 (A4T)，您可以访问 Target 活动的 Analytics 报表。
 

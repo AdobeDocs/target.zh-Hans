@@ -1,18 +1,18 @@
 ---
 keywords: 受众;受众规则;创建受众;定位受众;报表受众;区段;自定义配置文件参数;受众定义;受众列表
-description: 了解如何使用Adobe Target的受众页以及如何视图包含受众详细信息和使用信息的受众定义卡。
+description: 了解如何使用Adobe [!DNL Target] 中的受众页面，以及如何视图包含受众详细信息和使用信息的受众定义卡。
 title: 如何使用受众列表?
-feature: Audiences
+feature: 受众
+exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 92%
 
 ---
 
-
-# 创建受众{#create-audiences}
+# 创建受众
 
 Adobe Target 中的受众可决定将在定位活动中看到内容和体验的人群。
 

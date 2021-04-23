@@ -1,20 +1,20 @@
 ---
 keywords: A/B;活动量度;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
-description: 了解如何在Adobe TargetA/B活动中指定指标以确定访问成功的时间，如转化、收入和参与。
-title: 如何在A/B活动中设置目标指标？
-feature: A/B Tests
+description: 了解如何在Adobe [!DNL Target] A/B活动中指定量度以确定访问成功的时间，如转换、收入和参与。
+title: 如何在A/B活动中设置目标量度？
+feature: A/B 测试
+exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 81%
 
 ---
 
-
 # 设置量度
 
-在[!DNL Adobe Target] A/B活动中使用度量来确定访问成功的时间。
+在[!DNL Adobe Target] A/B活动中使用量度确定访问何时成功。
 
 有关成功量度的详细信息，请参阅[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
@@ -56,7 +56,7 @@ ht-degree: 81%
 | - | 减号 |
 | @ | @ 符号 |
 
-## 培训视频：活动度量(7:43)![教程标记](/help/assets/tutorial.png)
+## 培训视频：活动量度(7:43)![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用成功量度的信息。
 

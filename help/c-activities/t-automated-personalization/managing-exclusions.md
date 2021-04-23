@@ -1,21 +1,21 @@
 ---
 keywords: 重复数据消除；允许重复；排除重复优惠；自动个性化；不允许重复优惠；排除；默认内容；排除组；
-description: 在Adobe TargetAutomated Personalization(AP)活动管理排除。 创建排除组并排除重复优惠、特定体验和默认内容。
-title: 如何管理Automated Personalization活动的排除？
-feature: Automated Personalization
+description: 在Adobe [!DNL Target] Automated Personalization(AP)活动中管理排除。 创建排除组并排除重复优惠、特定体验和默认内容。
+title: 如何管理Automated Personalization活动中的排除？
+feature: 自动个性化
 solution: Target,Analytics
+exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 89%
+source-wordcount: '987'
+ht-degree: 90%
 
 ---
 
-
 # ![Premium 徽章](/help/assets/premium.png) 管理排除项
 
-通过创建排除组(不包括重复优惠，不包括特定体验)并排除[!DNL Adobe Target][!UICONTROL Automated Personalization](AP)活动中[!UICONTROL Automated Personalization](AP)活动的默认内容来管理排除。
+通过创建排除组(不包括重复优惠，不包括特定体验)和排除[!DNL Adobe Target] [!UICONTROL  Automated Personalization](AP)活动中[!UICONTROL Automated Personalization](AP)活动中的默认内容，管理排除。
 
 ## 创建排除组 {#task_AAAA6C7239A84F7696C8492F04B575A2}
 

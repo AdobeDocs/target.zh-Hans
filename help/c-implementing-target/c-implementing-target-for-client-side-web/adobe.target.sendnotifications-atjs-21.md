@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;发送通知;通知;at.js;函数;函数
-description: 使用at.js的adobe.目标.sendNotifications()在体验不使用applyOffer呈现时向目标边缘发送通知。 (at.js.2.1 +)
+description: 使用at.js的adobe.目标.sendNotifications()在呈现体验时不使用applyOffer(s)向 [!DNL Target] 边缘发送通知。 (at.js.2.1 +)
 title: 如何使用adobe.目标.sendNotifications()函数？
 feature: at.js
 role: Developer
+exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 95%
 
 ---
-
 
 # adobe.target.sendNotifications(options)
 

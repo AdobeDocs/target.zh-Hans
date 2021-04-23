@@ -1,20 +1,20 @@
 ---
 keywords: 多变量测试;MVT;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
-description: 了解如何在Adobe Target多变量测试活动中指定指标以确定访问成功的时间，如转化、收入和参与。
-title: 如何在多变量测试(MVT)活动中设置目标指标？
+description: 了解如何在“Adobe [!DNL Target] 多变量测试”活动中指定量度，以确定访问成功的时间，如“转化”、“收入”和“参与”。
+title: 如何在多变量测试(MVT)活动中设置目标量度？
 feature: Multivariate Tests
+exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 79%
 
 ---
 
+# 设置多变量测试的量度
 
-# 设置多变量测试的指标
-
-使用Adobe Target多变量测试中的指标确定访问成功的时间。
+使用Adobe Target Multivariate Test中的量度确定访问成功的时间。
 
 有关成功量度的详细信息，请参阅[成功量度](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
@@ -54,7 +54,7 @@ ht-degree: 79%
    | `-` | 减号 |
    | `@` | @ 符号 |
 
-## 培训视频：活动度量(7:43)![教程标记](/help/assets/tutorial.png)
+## 培训视频：活动量度(7:43)![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用成功量度的信息。
 

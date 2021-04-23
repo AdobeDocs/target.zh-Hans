@@ -1,18 +1,18 @@
 ---
-keywords: 站点页；目标站点页；定位；当前页；目标当前页；上一页；目标上一页；登陆页;目标登陆页;http头
-description: 了解如何使用Adobe Target目标访客，他们位于您网站的特定页面。
-title: 我是否可以根据网页目标访客?
-feature: Audiences
+keywords: 网页；目标网页；定位；当前页；目标当前页；上一页；目标上一页；登陆页;目标登陆页;http头
+description: 了解如何使用Adobe [!DNL Target] 目标站点上特定页面的访客。
+title: 我是否可以 [!DNL Target] 基于网页的访客?
+feature: 受众
+exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '889'
 ht-degree: 42%
 
 ---
 
-
-# 网页{#site-pages}
+# 网站页面
 
 您可以目标站点上特定页面的访客。
 
@@ -24,11 +24,11 @@ ht-degree: 42%
 
 1. 单击&#x200B;**[!UICONTROL 选择]**&#x200B;下拉列表，选择以下选项之一，然后根据需要配置规则。
 
-   规则中后续下拉列表中的可用选项和计算器因您选择的选项而异。 下图显示了选择[!UICONTROL 当前页]时可用的选项：
+   规则中后续下拉列表中的可用选项和计算器因您选择的选项而异。 下图显示了如果选择[!UICONTROL 当前页]，则可用的选项：
 
    ![当前页面](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
 
-   选择[!UICONTROL 选择]后，在初始下拉列表下，可以使用以下选项。
+   选择[!UICONTROL 选择]时，在初始下拉列表中提供以下选项。
 
    * **当前页** 面：用户当前所在的页面。
 
@@ -72,7 +72,7 @@ ht-degree: 42%
       如果选择此选项，则第二个下拉列表中提供以下选项：
 
       * Accept
-      * 接受——字符集
+      * 接受 — 字符集
       * 接受编码
       * Accept-Language
       * 授权
@@ -89,7 +89,7 @@ ht-degree: 42%
       * If-Modified-Since
       * If-None-Match
       * If-Range
-      * If-Uniquied-Since
+      * If-Unujified-Since
       * 最大转发
       * Pragma
       * 代理授权
@@ -98,10 +98,10 @@ ht-degree: 42%
       * TE
       * 升级
       * User-Agent
-      * Via
+      * 通过
       * 警告
 
-   如果选择“[!UICONTROL 当前页]、[!UICONTROL 前一页]或[!UICONTROL 登陆页]”，则[!UICONTROL 域]和[!UICONTROL 查询]选项可用。 选择这些选项时，请考虑以下事项：
+   如果选择了[!UICONTROL 当前页]、[!UICONTROL 上一页]或[!UICONTROL 登陆页]，则[!UICONTROL 域]和[!UICONTROL 查询]选项可用。 选择这些选项时，请考虑以下事项：
 
    * **域：**&#x200B;页面的完整域。指定域时，最佳做法是使用“包含”。例如，“域等于 facebook.com”将不接受 `m.facebook.com` 或 `www.facebook.com`。而“域包含 facebook.com”则将接受 facebook.com 的任何变体。
    * **查询：** URL 中第一个问号 (?) 后面的内容。
@@ -120,7 +120,7 @@ ht-degree: 42%
 使用：
 
 * 查询参数，如果用户选择的规则是“当前页面”、“登陆页面”或“上一页”。
-* 如果用户选择的规则是HTTP头，则为头。
+* 标题（如果用户选择的规则是HTTP头）。
 
 如下图所示：
 
@@ -128,20 +128,20 @@ ht-degree: 42%
 
 ## 疑难解答 {#ts}
 
-* 要使登陆页受众正常工作，请求必须设置`mboxReferrer`参数(对于投放API，设置at.js JavaScript库使用`document.referrer`属性从页面获取的`context.address.referringUrl`参数)。 此`HTMLDocument`属性返回用户从中导航的页面的URI。 当用户直接导航到页面时（不是通过链接，而是通过书签），此属性的值为空字符串。
+* 要使登陆页受众正常工作，请求必须设置`mboxReferrer`参数(对于投放 API，设置at.js JavaScript库使用`document.referrer`属性从页面获取的`context.address.referringUrl`参数)。 此`HTMLDocument`属性返回用户从中导航的页面的URI。 当用户直接导航到页面时（不是通过链接，而是通过书签），此属性的值是空字符串。
 
    如果此行为与您的要求不符，请考虑执行下列操作之一：
 
    * 将[mbox参数](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)传递到[!DNL Target]以用于定位。
-   * 使用[A/B测试活动](/help/c-activities/t-test-ab/test-ab.md)代替登陆页活动。 A/B测试活动不会为同一访客切换体验。
+   * 使用[A/B测试活动](/help/c-activities/t-test-ab/test-ab.md)而不是登陆页活动。 A/B测试活动不会切换相同访客的体验。
    * 请改用[访客用户档案](/help/c-target/c-audiences/c-target-rules/visitor-profile.md)。
 
-* 在包含逗号的字符串上使用“开始/结尾”计算器时，请注意这些
-将作为一组值进行计算，其中每个值以逗号分隔。 例如，如果我们有标题的值：`Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7`它将满足以下条件：
-   * 开始使用zh,
+* 对包含逗号的字符串使用“开始/结尾”计算器时，请注意这些
+作为一组值进行计算，其中每个值以逗号分隔。 例如，如果我们具有标题的值：`Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7`它将确定以下条件：
+   * 开始,
    * 开始,
    * 以0.7结束，
-   * 以0.8结束。
+   * 以0.8结尾。
 
 ## 培训视频：创建受众
 

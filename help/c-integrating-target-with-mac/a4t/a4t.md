@@ -1,18 +1,18 @@
 ---
 keywords: A4T;Analytics;Analytics for Target;Analytics 报表源;Adobe Analytics 作为 Target 报表源
-description: 使用Analytics for 目标(A4T)根据Analytics转化量度和受众区段创建活动，并使用Analytics报告检查结果。
-title: 什么是Analytics for 目标(A4T)?
+description: 使用Analytics for [!DNL Target] (A4T)根据Analytics转化量度和受众区段创建活动，并使用Analytics报告检查结果。
+title: 什么是 [!DNL Target] (A4T)的Analytics?
 feature: Analytics for Target (A4T)
+exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 40%
+source-wordcount: '1268'
+ht-degree: 39%
 
 ---
 
-
-# 将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)
+# Adobe Analytics作为Adobe [!DNL Target](A4T)的报告源
 
 [!DNL Adobe Analytics for Target] (A4T)是一种跨解决方案集成，可让您根据转化量度和活动 [!DNL Analytics] 细分创建受众。A4T集成允许您使用[!DNL Analytics]报告来检查结果。 如果使用[!DNL Analytics]作为活动的报告源，则该活动的所有报告和分段均基于[!DNL Analytics]数据收集。
 
@@ -110,7 +110,7 @@ ht-degree: 40%
 
 以下视频包含有关本主题中讨论的概念的更多信息。
 
-### 目标分析(A4T)(4:32)![概述徽章](/help/assets/overview.png)
+### Adobe Target(A4T)(4:32)![概述徽章](/help/assets/overview.png)
 
 此视频介绍如何在[!DNL Target]中使用[!DNL Analytics]作为报告源来驱动优化项目的分析。
 
@@ -120,7 +120,7 @@ ht-degree: 40%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### 分析/目标集成(A4T)(40:33)![教程徽章](/help/assets/tutorial.png)
+### Analytics / Adobe Target集成(A4T)(40:33)![教程徽章](/help/assets/tutorial.png)
 
 此视频是“[办公时间](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 

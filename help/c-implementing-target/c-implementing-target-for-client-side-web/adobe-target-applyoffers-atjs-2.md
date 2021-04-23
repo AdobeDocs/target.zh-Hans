@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;申请选件;at.js;函数;函数
-description: 使用Adobe Targetat.js JavaScript库的adobe.目标.applyOffers()函数在响应中应用多个优惠。 (at.js 2.x)
+description: 使用Adobe [!DNL Target] at.js JavaScript库的adobe.目标.applyOffers()函数在响应中应用多个优惠。 (at.js 2.x)
 title: 如何使用adobe.目标.applyOffers()函数？
 feature: at.js
 role: Developer
+exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 92%
 
 ---
-
 
 # adobe.target.applyOffers(options) - at.js 2.x
 
@@ -30,7 +30,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->有关以下所有字段的可接受类型的信息，请查阅[投放API文档](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
+>有关以下所有字段可接受类型的信息，请查阅[投放API文档](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
 
 | 字段名称 | 描述 |
 | --- | --- |

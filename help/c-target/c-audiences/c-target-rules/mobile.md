@@ -1,18 +1,18 @@
 ---
 keywords: 定位;移动设备;Target 移动设备;DeviceAtlas;iPhone;iPhone 机型;Device Atlas;displaywidth;显示屏宽度;显示屏高度;设备类型;displayheight;手机;平板电脑;设备型号
-description: 了解如何在Adobe Target创建受众，以根据移动设备、设备类型、设备供应商、屏幕尺寸（按像素）等参数目标移动设备。
-title: 我能否根据移动选项目标访客?
-feature: Audiences
+description: 了解如何在Adobe [!DNL Target] 中创建受众，以根据移动设备、设备类型、设备供应商、屏幕尺寸（按像素）等参数来目标移动设备。
+title: 我是否可以 [!DNL Target] 基于移动选项的访客?
+feature: 受众
+exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '609'
 ht-degree: 93%
 
 ---
 
-
-# 移动设备{#mobile}
+# 移动设备
 
 创建受众以根据移动设备、设备类型、设备供应商、屏幕大小（按像素）等参数定位移动设备。
 

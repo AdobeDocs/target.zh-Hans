@@ -1,16 +1,16 @@
 ---
 keywords: FAQ;常见问题解答;Analytics for Target;A4T;活动设置
-description: 使用Analytics for 目标(A4T)时，查找有关活动设置的问题解答。 A4T允许您将Analytics报告用于目标活动。
+description: 在 [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] 活动中使用Analytics时，查找有关活动设置的问题解答。
 title: 在哪里可以找到有关A4T活动设置的常见问题解答？
 feature: Analytics for Target (A4T)
+exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 22%
+source-wordcount: '502'
+ht-degree: 23%
 
 ---
-
 
 # 活动设置 - A4T 常见问题解答
 

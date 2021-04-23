@@ -1,32 +1,32 @@
 ---
-keywords: 定位；可视体验书写器；白名单；白名单；;;允许列表；增强的可视体验书写器；vec；可视体验书写器疑难解答；疑难排解；eec；增强的体验书写器；tls;tls 1.2
-description: 了解如何解决在Adobe Target可视化体验书写器(VEC)和增强体验书写器(EEC)中在某些情况下有时会出现的问题。
-title: 如何解决与Visual Experience Composer和增强的Experience Composer相关的问题？
-feature: Visual Experience Composer (VEC)
+keywords: 定位；可视体验书写器；白名单；白名单；允许列表;允许列表；增强的可视体验书写器；vec；可视体验书写器疑难解答；eec；增强的体验书写器；tls 1.2
+description: 了解如何在某些条件下解决Adobe [!DNL Target] Visual Experience Composer(VEC)和增强体验书写器(EEC)中有时出现的问题。
+title: 如何对与Visual Experience Composer和增强体验书写器相关的问题进行疑难解答？
+feature: 可视化体验编辑器 (VEC)
+exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 65%
+source-wordcount: '1404'
+ht-degree: 64%
 
 ---
 
-
 # 对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断
 
-在某些情况下，在[!DNL Adobe Target]可视体验书写器(VEC)和增强体验书写器(EEC)中有时会出现显示问题和其他问题。
+在某些情况下，在[!DNL Adobe Target] Visual Experience Composer(VEC)和Enhanced Experience Composer(EEC)中，有时会出现显示问题和其他问题。
 
-## 最近发布的Google Chrome SameSite cookie实施策略对VEC和EEC有何影响？{#samesite}
+## 最近发布的Google Chrome SameSite Cookie实施策略对VEC和EEC有何影响？{#samesite}
 
-使用Chrome 80+浏览器版本的所有用户，通过最新更改（2020年8月）:
+拥有Chrome 80+浏览器版本的所有用户在进行最新更改（2020年8月）后：
 
-* *不*&#x200B;能够在其站点的受密码保护的页面中使用VEC（安装或未启用VEC Helper扩展）。 这是因为他们的站点登录Cookie将被视为第三方Cookie，并且不会随登录请求一起发送。 唯一的例外情况是客户站点登录Cookie已将SameSite参数设置为“none”。
-* 在编辑活动时（当站点上尚未提供库时）,*是否*&#x200B;能够下载[!DNL Target]库。 这是因为下载调用是从客户域向安全Adobe域发出的，并且作为未验证而被拒绝。
+* *不*&#x200B;是否能够在受密码保护的站点页面中使用VEC（安装或未启用VEC Helper扩展）。 这是因为他们的站点登录Cookie将被视为第三方Cookie，并且不会随登录请求一起发送。 唯一的例外是当客户站点登录Cookie已将SameSite参数设置为“none”时。
+* 在编辑活动时（当站点上尚未下载库时）， *是否*&#x200B;能够下载[!DNL Target]库。 这是因为下载调用是从客户域向安全Adobe域发出的，并且作为未验证而被拒绝。
 * EEC将&#x200B;*不*&#x200B;对所有用户起作用，因为它无法为`adobemc.com domain`上的cookie设置SameSite属性。 如果没有此属性，浏览器将拒绝这些Cookie，导致EEC失败。
 
-Adobe已将更新的VEC帮助程序扩展提交到Google Chrome商店。 此扩展覆盖cookie属性以根据需要设置`SameSite="none"`属性。 [更新的扩展可在此](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)找到。 有关安装和使用VEC Helper Extension的详细信息，请参阅[Visual Experience Composer帮助程序扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
+Adobe已将更新的VEC帮助程序扩展提交到Google Chrome商店。 此扩展会覆盖cookie属性以根据需要设置`SameSite="none"`属性。 [更新的扩展可在此处](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)找到。 有关安装和使用VEC Helper Extension的详细信息，请参阅[ Visual Experience Composer Helper Extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
-对于您自己的网站Cookie，您必须按名称指定Cookie。 将[!UICONTROL Cookie]滑块切换到开启位置，然后按名称和cookie域指定cookie。 Cookie名称为“mbox”,Cookie域是您为mbox提供服务的域的第二级和顶级。 由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`. 有关详细信息，请参阅&#x200B;*Experience Cloud界面用户指南*&#x200B;中的[Adobe TargetCookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)。
+对于您自己的网站Cookie，您必须按名称指定Cookie。 将[!UICONTROL Cookie]滑块切换到打开位置，然后按名称和Cookie域指定Cookie。 Cookie名称为“mbox”，Cookie域是您从中提供mbox的域的第二级和顶级。 由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`. 有关详细信息，请参阅&#x200B;*Experience Cloud界面用户指南*&#x200B;中的[Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)。
 
 ![Cookie在VEC帮助程序扩展中切换](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -34,15 +34,15 @@ Adobe已将更新的VEC帮助程序扩展提交到Google Chrome商店。 此扩�
 
 使用以下选项之一确保您的VEC和EEC继续按预期工作：
 
-* 下载并使用更新的[VEC Helper extension](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
-* 使用Mozilla Firefox浏览器。 Firefox尚未执行此政策。
+* 下载并使用更新的[VEC帮助程序扩展](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
+* 使用Mozilla Firefox浏览器。 Firefox尚未执行此策略。
 * 继续使用Chrome，但将`chrome://flags/#same-site-by-default-cookies`标志设置为“Disabled”。
 
    >[!NOTE]
    >
    >如果Cookie已将服务器的SameSite属性设置为“Lax”或“Strict”，则这将不足以&#x200B;**。
 
-## Target 是否支持多级 iframe？
+## [!DNL Target]是否支持多级iframe?
 
 Target 不支持多级 iframe。如果您的网站加载的 iframe 具有子 iframe，则 Target 库（at.js 和 mbox.js）仅与父 iframe 进行交互。Target 库不会与子 iframe 进行交互。
 
@@ -52,7 +52,7 @@ Target 不支持多级 iframe。如果您的网站加载的 iframe 具有子 ifr
 
 如果 URL 包含 # 字符，则会出现此问题。要解决此问题，请在可视化体验编辑器中切换到“浏览”模式，然后再切换回“撰写”模式。此时，旋转图标应当消失，页面应会加载。
 
-## 我网站上的内容安全策略 (CSP) 标头会阻止 Target 库。（VEC 和 EEC）{#section_89A30C7A213D43BFA0822E66B482B803}
+## Content Security Policy(CSP)headers会阻止我网站上的[!DNL Target]库。 （VEC 和 EEC）{#section_89A30C7A213D43BFA0822E66B482B803}
 
 如果您网站的 CSP 标头会阻止 Target 库，从而导致加载了网站却无法进行编辑，则请确保 Target 库不受阻止。
 

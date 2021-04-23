@@ -1,20 +1,20 @@
 ---
 keywords: 推荐;设置;名称;目标;优先级;持续时间;报表设置;其他元数据
-description: 了解如何配置用于描述和控制Adobe TargetRecommendations活动的设置。
+description: 了解如何配置用于在Adobe Target中描述和控制Recommendations活动的设置。
 title: 如何配置Recommendations活动设置？
 feature: Recommendations
+exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 84%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png)“推荐”活动设置
 
-# ![PREMIUM](/help/assets/premium.png)“推荐”活动设置{#recommendations-activity-settings}
-
-有关用于描述和控制[!DNL Adobe Target]中[!UICONTROL Recommendations]活动的设置的信息。
+有关可用于描述和控制[!DNL Adobe Target]中[!UICONTROL Recommendations]活动的设置的信息。
 
 ![“推荐”活动目标和设置页面](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -35,7 +35,7 @@ ht-degree: 84%
 `-`
 `@`
 
-如果您指定的[!UICONTROL 推荐]活动名称已被 [!UICONTROL Recommendations Classic] 中的其他活动使用，则会使用新名称重新同步新活动。新名称是在原始名称后附加一个时间戳，以使其具有唯一性。此新名称显示在[!DNL Target Standard/Premium]和[!UICONTROL Recommendations经典]中。
+如果您指定的[!UICONTROL 推荐]活动名称已被 [!UICONTROL Recommendations Classic] 中的其他活动使用，则会使用新名称重新同步新活动。新名称是在原始名称后附加一个时间戳，以使其具有唯一性。此新名称同时显示在[!DNL Target Standard/Premium]和[!UICONTROL Recommendations Classic]中。
 
 ## 目标
 

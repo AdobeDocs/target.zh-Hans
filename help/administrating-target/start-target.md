@@ -1,23 +1,23 @@
 ---
 keywords: 管理;审批者角色;审批者
-description: 在收到通过电子邮件发送给Adobe Experience Cloud的邀请后，执行Adobe Target管理员应首先接受的任务。
+description: 执行Adobe [!DNL Target] 在收到已通过电子邮件发送给Adobe Experience Cloud的邀请后应接受的第一个任务。
 title: 从何处开始管理目标?
-feature: Administration & Configuration
+feature: 管理和配置
 role: Administrator
+exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
-
 # 管理员首要步骤
 
-本文包含[!DNL Adobe Target]管理员在收到通过电子邮件发送给[!DNL Adobe Experience Cloud]的邀请后应执行的第一步。
+本文包含[!DNL Adobe Target]管理员在收到通过电子邮件发送给[!DNL Adobe Experience Cloud]的邀请后应采取的第一步。
 
-## 受邀加入 Target {#task_3E0817630774431983FAA3D2CB2E75BD}
+## 获邀加入[!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 [!DNL Adobe Admin Console] 中的系统管理员必须通过邀请您加入，将您作为用户添加到 [!DNL Target] 中。之后，系统管理员应将您添加到一个或多个特定于角色的组。这两项任务均可在 [Adobe Admin Console](https://adminconsole.adobe.com) 中执行。
 

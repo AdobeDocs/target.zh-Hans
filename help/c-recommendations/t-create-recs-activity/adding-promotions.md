@@ -1,16 +1,16 @@
 ---
-keywords: 促销；前面促销；后面促销；促销类型；项目列表；按属性提升；提升集合
-description: 了解如何添加推广项目并控制它们在Adobe Target·Recommendations设计中的位置。 您可以添加静态和动态促销活动。
+keywords: promotions;front promotions;back promotions;promotions type;items的列表;promote by attribute;promote a collection
+description: 了解如何添加已提升的项目并控制其在您的Adobe [!DNL Target] Recommendations设计中的位置。 您可以添加静态和动态促销活动。
 title: 如何在Recommendations设计中添加促销？
 feature: Recommendations
+exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 56%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 添加促销活动
 
@@ -58,23 +58,23 @@ ht-degree: 56%
    * 选择&#x200B;**[!UICONTROL 促销收藏集]**，然后选择要促销的项目收藏集。
 
       您可以创建新的收藏集，以将其用于促销活动。请参阅[创建收藏集](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)，以了解更多信息。
-   如果选择&#x200B;**[!UICONTROL 列表项]**&#x200B;作为&#x200B;**[!UICONTROL 升级类型]**，则可根据需要选中&#x200B;**[!UICONTROL 随机化项目顺序]**&#x200B;复选框。
+   如果您选择&#x200B;**[!UICONTROL “项目]**&#x200B;的列表”作为&#x200B;**[!UICONTROL 促销类型]**，则可以根据需要选择&#x200B;**[!UICONTROL “随机化项目顺序]**”复选框。
 
-   项目[!UICONTROL 列表]的默认排序顺序基于您在目标UI或API中输入的顺序。 如果列表包含的项目数超过您为促销设置的插槽数，则[!UICONTROL 随机化项目顺序]选项会随机化设计中显示的升级项目。 选择此选项会导致[!DNL Target]在每次点击时从整个促销集中随机选择模板中启用的促销项目。
+   项目[!UICONTROL 列表]的默认排序顺序基于您在目标UI或API中输入的顺序。 如果您的列表包含的项目多于您为促销设置的插槽数，则[!UICONTROL 随机化项目顺序]选项将随机化设计中显示的促销项目。 选择此选项将导致从每次点击的整个促销集中随机选择模板中为促销启用的项目。[!DNL Target]
 
-   如果您的实体没有`entity.value`属性（例如，您不销售产品），则可以将数字值传递到`entity.value`属性，如发布日期。 在这种情况下，可以按降序根据最近的发布日期提升提升项目。 `entity.value`属性为多次类型；它不接受字符串。
+   如果您的实体没有`entity.value`属性（例如，您不销售产品），则可以将数值传递到`entity.value`属性，如发布日期。 在这种情况下，可以按降序根据最近的发布日期提升提升项目。 `entity.value`属性为多次类型；它不接受字符串。
 
-   如果选择了&#x200B;**[!UICONTROL 按属性提升]**&#x200B;或&#x200B;**[!UICONTROL 提升集合]**&#x200B;选项，则随机化顺序的选项不适用。
+   如果您选择了&#x200B;**[!UICONTROL 按属性提升]**&#x200B;或&#x200B;**[!UICONTROL 提升集合]**&#x200B;选项，则随机化顺序的选项不适用。
 
-   使用[!UICONTROL 按属性提升]或[!UICONTROL 提升集合]选项提升特定项目时，项目显示的默认顺序基于`entity.value`属性，以降序数字顺序。
+   使用[!UICONTROL 按属性提升]或[!UICONTROL 提升集合]选项提升特定项目时，项目的显示默认顺序基于`entity.value`属性，以降序数字顺序。
 
    下表说明了这些选项之间的差异：
 
    | 升级类型 | 默认排序 | 备份排序 | 动态筛选选项 |
    | --- | --- | --- | --- |
    | 项目列表 | 在目标UI/API中输入的订单 | 随机（通过UI/API选择时） | 否 |
-   | 按属性提升 | `entity.value` （降序） | 对每个请求随机化（当不存在`entity.value`属性时） | 是 |
-   | 提升集合 | `entity.value` （降序） | 对每个请求随机化（当不存在`entity.value`属性时） | 否 |
+   | 按属性提升 | `entity.value` （降序） | 对每个请求随机（当不存在`entity.value`属性时） | 是 |
+   | 提升集合 | `entity.value` （降序） | 对每个请求随机（当不存在`entity.value`属性时） | 否 |
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 

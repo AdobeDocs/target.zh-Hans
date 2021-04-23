@@ -1,18 +1,18 @@
 ---
-keywords: 多变量测试；活动url
-description: 了解如何指定活动URL，它确定测试中使用的页面以及使用Adobe Target设计多变量测试活动时打开的页面。
+keywords: Multivariate Tests;活动url
+description: 了解如何指定活动URL，该URL决定测试中使用的页面，并在使用Adobe Target设计Multivariate Test活动时打开。
 title: 多变量(MVT)活动中的活动URL是什么？
 feature: Multivariate Tests
+exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 79%
+source-wordcount: '305'
+ht-degree: 78%
 
 ---
 
-
-# 活动 URL{#activity-url}
+# 活动 URL
 
 活动 URL 可决定[!UICONTROL 多变量测试] (MVT) 中使用的页面，以及在 [!DNL Adobe Target] 中设计测试时打开的页面。
 
@@ -22,7 +22,7 @@ ht-degree: 79%
 >
 >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。因此，[!DNL `https://www.adobe.com`] 和 [!DNL `http://www.adobe.com`] 均匹配。
 
-默认情况下，[!UICONTROL 可视体验书写器](VEC)打开在[可视体验书写器设置](/help/administrating-target/visual-experience-composer-set-up.md)中指定的页面。 在活动创建过程中，您可以指定其他页面。
+默认情况下，[!UICONTROL Visual Experience Composer](VEC)将打开在[ Visual Experience Composer设置](/help/administrating-target/visual-experience-composer-set-up.md)中指定的页面。 在活动创建过程中，您可以指定其他页面。
 
 要在 VEC 打开后显示其他页面，请单击&#x200B;**[!UICONTROL 配置]**&#x200B;图标，选择&#x200B;**[!UICONTROL 页面交付]**，然后指定相应的 URL。
 

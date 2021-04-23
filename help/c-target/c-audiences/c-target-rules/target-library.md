@@ -1,18 +1,18 @@
 ---
 keywords: 定位;定位库;库
 description: 了解如何使用预建的传统访客定位受众。 最佳实践是使用较新的受众类别来改进性能。
-title: 我能否根据预建的定位规则目标访客?
-feature: Audiences
+title: 我是否可以 [!DNL Target] 基于预建定位规则的访客?
+feature: 受众
+exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
-
-# Target 库{#target-library}
+# 定位库
 
 可基于预先构建的定位规则定位用户。
 

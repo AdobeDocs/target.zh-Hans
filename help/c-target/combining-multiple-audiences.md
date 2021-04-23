@@ -1,18 +1,18 @@
 ---
 keywords: 受众;受众规则;合并受众;排除项;添加排除项;排除;临时受众
-description: 了解如何快速合并多个受众(包括Adobe Experience Cloud受众和目标受众)，以创建专门受众。
+description: 了解如何动态合并多个受众(包括Adobe Experience Cloud受众和 [!DNL Target] 受众)以创建临时受众。
 title: 我是否可以合并多个受众以创建新受众?
-feature: Audiences
+feature: 受众
+exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 95%
 
 ---
 
-
-# 合并多个受众{#combine-multiple-audiences}
+# 合并多个受众
 
 可随手合并多个受众（包括 Adobe Experience Cloud 受众和 Target 受众）以创建临时受众。您也可以创建排除规则，从某个规则中排除相应受众。
 
@@ -112,7 +112,7 @@ ht-degree: 95%
 
    单击所需活动以将其打开，然后单击&#x200B;**[!UICONTROL 编辑活动]**。
 
-1. 单击&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 受众]** > **[!UICONTROL 多受众]**。
+1. 单击&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 受众]** > **[!UICONTROL 多个受众]**。
 
    ![“配置”>“受众”>“多个受众”](/help/c-target/assets/combine_multiple_audiences7.png)
 

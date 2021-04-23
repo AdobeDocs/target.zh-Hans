@@ -1,17 +1,17 @@
 ---
 keywords: 全局 mbox;实施 mbox.js;实施 at.js
-description: 了解Adobe Target的全局mbox，该名称用于指在目标实施中每个网页顶部进行的单个服务器调用。
-title: 什么是全局mbox?
+description: 了解Adobe Target中的全局mbox，该名称用于引用在 [!DNL Target] 实施中每个网页顶部进行的单个服务器调用。
+title: 什么是全球mbox?
 feature: at.js
 role: Developer
+exl-id: 84d15feb-f5df-4879-ae35-a7f455c1b20f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
-
 
 # 了解全局 mbox
 

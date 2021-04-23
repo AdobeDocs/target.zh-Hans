@@ -1,16 +1,16 @@
 ---
 keywords: FAQ;常见问题解答;Analytics for Target;A4T;SiteCatalyst;营销活动>方法;Test&Target;集成
-description: 查找有关传统SiteCatalyst与Test&目标集成以及使用Analytics for 目标(A4T)的常见问题的解答。
+description: 查找有关Test&目标集成的旧SiteCatalyst以及 [!DNL Target] (A4T)使用Analytics的常见问题的解答。
 title: 在哪里可以找到与Test&目标集成SiteCatalyst相关的常见问题解答？
 feature: Analytics for Target (A4T)
+exl-id: cd16b08b-e58e-4208-95b5-97c5eb441fb7
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '179'
 ht-degree: 49%
 
 ---
-
 
 # 旧版 SiteCatalyst 与 Test&amp;Target 集成 - A4T 常见问题解答
 

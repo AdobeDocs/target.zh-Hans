@@ -2,15 +2,15 @@
 keywords: 已知问题；已解决问题；发行说明；错误；问题；修复
 description: 查找有关Adobe Target中已知问题的信息，包括解决方法信息。 问题解决后，它们将移至“已解决”部分。
 title: 在哪里可以找到有关已知问题和已解决问题的信息？
-feature: Release Notes
+feature: 发行说明
+exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 translation-type: tm+mt
-source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4373'
 ht-degree: 58%
 
 ---
-
 
 # 已知问题和已解决的问题
 
@@ -24,7 +24,7 @@ ht-degree: 58%
 
 下面部分列出了 [!DNL Target] 的已知问题：
 
-### 自动分配和自动目标活动的目标(A4T)量度分析
+### Adobe Target(A4T)自动分配和自动目标活动的分析量度
 
 [!DNL Target] UI允许用户选择不受支持的参与和收入量度作为在[!UICONTROL 自动分配]和[!UICONTROL 自动目标]活动中进行优化的主要目标量度。 支持转化量度；不支持&#x200B;*的参与度和收入指标。*&#x200B;如果您选择参与或收入目标量度，则不会构建优化模型。
 
@@ -120,7 +120,7 @@ ht-degree: 58%
 
 如果成功量度设置为每次印象增加，则每次目标访问此成功量度时，访客都会再次计数。 然后，Target 会将成功量度“成员资格”重置为 0，以便在下次展示时再次对其计数。因此，如果另一个量度要求先查看此量度，则目标永远不会识别用户已查看第一个量度。
 
-### Analytics for Target (A4T)
+### [!DNL Target](A4T)的分析
 
 在Analysis Workspace中使用目标活动印象和转换时，将“相同接触”Attribution IQ模型应用于量度，以确保准确计数。 要应用[非默认归因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)，请右键单击该量度以&#x200B;**修改列设置>启用使用非默认归因模型>选择相同触摸模型**。 如果不应用这一模型，这些指标就会被夸大。
 
@@ -134,7 +134,7 @@ ht-degree: 58%
 
 2020年5月10日，Adobe更新了GEO提供程序文件，这导致了一些不一致。 例如，添加了一些包含逗号的值；但是，现有受众中的值没有逗号。 并非所有Adobe投放服务器都受此更改影响。 因此，在2020年5月10日至7月22日之间，使用这些值的受众可能没有限定所有正确访客。
 
-### 报告 — 可下载.csv报告中的数据与目标UI中显示的报告不一致。 {#csv}
+### 报告 — 可下载.csv报告中的数据与[!DNL Target] UI中显示的报告不一致。 {#csv}
 
 如果活动使用多个量度，则生成的用于下载的.csv文件报告不一致。 可下载的报告仅基于报告设置生成，并考虑使用的任何其他量度的相同值。
 
@@ -150,7 +150,7 @@ ht-degree: 58%
 
 在Target Standard/Premium 20.10.1版本中修复了此问题。
 
-### Analytics for Target (A4T) 报表
+### Adobe Target(A4T)报告
 
 已解决与A4T相关的以下问题：
 
@@ -237,7 +237,7 @@ mbox.js 库不支持客户端模板语言，例如 Handlebars 和 Mustache。at.
 
 对于新配置的租户，在下载的 at.js 中将设置 `global_mbox_autocreate = false`。如果先下载 mbox.js，则 global\_mbox\_autocreate 将设置为“true”，并且在下载的 at.js 中也将设置 `global_mbox_autocreate = true`。(TGT-15929)
 
-### Target API 中的企业权限支持 {#api}
+### [!DNL Target] API {#api}中的企业权限支持
 
 如果使用 GET API 拉取选件列表，则“选件”库中从 Target UI 创建的代码选件将显示在默认工作区中。此问题将在 2019 年 3 月的第一个星期得到修复。完成此修复后，在从 API 拉取时，代码选件将显示在相应的工作区中。此问题&#x200B;*不*&#x200B;会影响从 API 创建的选件。例如，无论是使用 GET API 还是从 Target UI 中获取选件，从 API 创建的代码选件都将显示在创建这些选件的工作区中。
 
@@ -348,7 +348,7 @@ at.js 版本 0.9.6 中更改了对保存 Cookie 时应使用的顶级域进行�
 
 此问题已在 at.js 版本 1.2 中纠正。
 
-### Target Premium 的企业用户权限
+### [!DNL Target]高级版的企业用户权限
 
 作为企业权限迁移的一部分，所有 Target Premium 用户管理都已从 Adobe Target UI 迁移到 Adobe Admin Console。
 
@@ -439,7 +439,7 @@ Target 17.4.1 版本（2017 年 4 月 27 日版）中包含在报表中查看多
 
 已在 Recommendations 17.2.2.0 版本（2017 年 3 月 6 日版）中修复。
 
-### Analytics for Target (A4T) 报表
+### Adobe Target(A4T)报告
 
 切换报表量度时，报表不会更新。此问题仅影响UI。 对报表数据收集或交付没有影响。(TGT-22970)
 

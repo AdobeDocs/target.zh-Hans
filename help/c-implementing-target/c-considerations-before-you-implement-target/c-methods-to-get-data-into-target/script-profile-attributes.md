@@ -1,14 +1,14 @@
 ---
 keywords: 实现；实现；设置；设置；脚本用户档案属性
-description: 使用脚本目标属性将数据导入用户档案。
-title: 如何使用脚本目标属性将数据导入用户档案?
-feature: Implementation
+description: 使用脚本用户档案属性将数据导入 [!DNL Target] 。
+title: 如何将数据导入 [!DNL Target] 使用脚本用户档案属性？
+feature: 实施
 role: Developer
 exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '280'
 ht-degree: 83%
 
 ---

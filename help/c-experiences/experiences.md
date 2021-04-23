@@ -1,20 +1,20 @@
 ---
-keywords: 体验；可视体验书写器；增强的体验书写器；基于表单的体验书写器；表单书写器；可视书写器；体验书写器；混合内容；iframe;iframe;iframe busting;bust iframe;x帧选项；x帧选项；x帧来源；交叉来源问题；身份验证工作流
-description: 进一步了解Adobe Experience Composer - Visual Experience Composer(VEC)、基于表单的Experience Composer和单页可视体验书写器。
-title: 目标优惠哪些体验作曲家？
-feature: Experiences and Offers
+keywords: 体验；可视体验编辑器；增强的体验编辑器；基于表单的体验编辑器；表单编辑器；可视书写器；体验书写器；混合内容；iframe;iframe busting;bust iframe;x-frame-options;x-frame-options;x-frame来源；交叉来源问题；身份验证工作流
+description: 了解有关Adobe Experience Composer - Visual Experience Composer(VEC)、基于表单的体验书写器和单页可视体验书写器的更多信息。
+title: 哪个体验作曲家 [!DNL Target] 优惠?
+feature: 体验和优惠
+exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 79%
+source-wordcount: '383'
+ht-degree: 78%
 
 ---
 
-
 # 体验和选件
 
-[!DNL Adobe Target]中的体验决定当访客符合活动的受众条件时显示哪些内容。
+[!DNL Adobe Target]中的体验决定当访客满足活动的受众条件时显示哪些内容。
 
 体验可以是一个页面、整个网页、可能形成购买漏斗的一组页面或一些其他逻辑序列的页面上的一个选件、图像、文本、按钮、视频，以及这些不同元素的组合。它还可以是语音助手的回复、客户服务脚本，甚至是饮料机中提供的独特口味。您可以在 [!DNL Target] 活动中测试或个性化体验。
 

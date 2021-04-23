@@ -1,14 +1,14 @@
 ---
 keywords: 活动列表;活动;活动;活动类型；编辑活动;活动操作；活动属性；活动列表过滤器；活动限制；个性化；个性化
-description: 了解Adobe Target中的活动如何让您根据特定受众个性化内容并测试页面设计
+description: 了解Adobe [!DNL Target] 中的活动如何让您根据特定受众个性化内容并测试页面设计
 title: 如何使用目标个性化内容和测试页面设计？
-feature: Activities
+feature: 活动
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 92%
+source-wordcount: '2099'
+ht-degree: 91%
 
 ---
 
@@ -144,7 +144,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 
 有关可视化体验编辑器的额外限制，请参阅[可视化体验编辑器限制](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
 
-## 对于在 Target 外部更新的活动，其属性会导入到 Target 当中 {#section_802B0D174E6A44E1A96F404CA81AAE44}
+## 为在[!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}外部更新的活动导入[!DNL Target]的属性
 
 如果在 [!DNL Target] 中创建的活动从 [!DNL Target] 外部进行了更新（例如，通过 Adobe I/O），则下列活动属性将会导入到 [!DNL Target] 当中：
 

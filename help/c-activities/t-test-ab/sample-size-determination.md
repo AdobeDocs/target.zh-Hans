@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n；样本大小；样本大小计算器；自动分配；自动分配；计算器
-description: 了解运行A/B测试的时间。 在Adobe Target中成功进行A/B测试需要足够的访客（样本大小）来改进您的转化率。
+description: 了解运行A/B测试的时间。 在Adobe [!DNL Target] 中成功进行A/B测试需要足够的访客（样本大小）来改进转化率。
 title: 我应运行A/B测试多久？
-feature: A/B Tests
+feature: A/B 测试
+exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 translation-type: tm+mt
-source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3063'
 ht-degree: 63%
 
 ---
-
 
 # A/B 测试应该持续多长时间？
 
@@ -38,7 +38,7 @@ ht-degree: 63%
 
 有关详细信息，请参阅[自动分配概述](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。
 
-## Adobe Target 样本量计算器 {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Adobe[!DNL Target]示例大小计算器{#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 如果选择使用手动[!UICONTROL A/B测试]活动，而不是[!UICONTROL 自动分配]，则[!DNL Target]采样大小计算器可以帮助您确定成功测试所需的采样大小。 手动A/B测试是固定水平测试，因此计算器很有帮助。 使用[!UICONTROL 自动分配]活动的计算器是可选的，因为[!UICONTROL 自动分配]为您声明了入选方。 该计算器为您提供所需样本大小的粗略估计。 继续阅读可了解有关如何使用计算器的更多信息。
 

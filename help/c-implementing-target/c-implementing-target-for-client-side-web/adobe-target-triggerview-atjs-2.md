@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.triggerView;triggerView;triggerview;触发器视图;at.js;函数;函数;viewName;viewname;视图名称
-description: 使用Adobe Targetat.js JavaScript库的adobe.目标.triggerView()函数，以用于单页应用程序(SPA)。 (at.js 2.x)
+description: 对Adobe [!DNL Target] at.js JavaScript库使用adobe.目标.triggerView()函数，以在单页应用程序(SPA)中使用。 (at.js 2.x)
 title: 如何使用adobe.目标.triggerView()函数？
 feature: at.js
 role: Developer
+exl-id: 619d5166-d1d9-49a6-9807-338544782e66
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 84%
 
 ---
-
 
 # adobe.target.triggerView (viewName, options) - at.js 2.x
 
@@ -25,7 +25,7 @@ ht-degree: 84%
 | --- | --- | --- | --- |
 | viewName | 字符串 | 是 | 将任何名称作为要显示视图的字符串类型传递。此视图名称显示在 VEC 的[!UICONTROL 修改]面板中，供营销人员创建操作并运行其 A/B 和 XT 活动。 |
 | options | 对象 | 否 |  |
-| options > page | 布尔值 | 否 | **TRUE：** page 的默认值为 true。当 page=true 时，将向 [!DNL Target] 后端发送增加展示次数计数的通知。<br>默认情况下，在调用通知时 `triggerView` 始终发送通知，但选项>页设置为false时除外。<br>**FALSE：**&#x200B;当 page=false 时，将不会发送增加展示次数计数的通知。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
+| options > page | 布尔值 | 否 | **TRUE：** page 的默认值为 true。当 page=true 时，将向 [!DNL Target] 后端发送增加展示次数计数的通知。<br>默认情况下，通知始终在调用时 `triggerView` 发送，但选项>页面设置为false时除外。<br>**FALSE：**&#x200B;当 page=false 时，将不会发送增加展示次数计数的通知。当您只想在具有选件的页面上重新渲染组件时，才应该使用此选项。 |
 
 ## 示例：True
 

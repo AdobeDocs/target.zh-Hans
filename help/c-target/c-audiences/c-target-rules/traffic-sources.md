@@ -1,18 +1,18 @@
 ---
 keywords: 定位;流量源;定位流量源;定位搜索引擎;搜索引擎;登陆页面;定位登陆页面;引荐登陆页面
-description: 了解如何在Adobe Target创建受众，以根据搜索引擎或将目标引用到您网站的登陆页访客。
-title: 我是否可以根据搜索引擎或引用网站目标访客?
-feature: Audiences
+description: 了解如何在Adobe [!DNL Target] 中创建受众，以根据搜索引擎或将其引向您网站的登陆页来目标访客。
+title: 我是否可以 [!DNL Target] 基于搜索引擎或引荐站点的访客?
+feature: 受众
+exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 86%
 
 ---
 
-
-# 流量源{#traffic-sources}
+# 流量源
 
 创建受众以根据将访客引荐至您网站的搜索引擎或登陆页面来定位访客。
 

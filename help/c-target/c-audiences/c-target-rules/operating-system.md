@@ -1,18 +1,18 @@
 ---
 keywords: 定位;定位操作系统;操作系统;定位 OS;OS;定位 Linux;Linux;定位 Windows;Windows;定位 Macintosh;Macintosh;Mac;定位 Mac;Win;定位 Win
 description: 了解如何目标使用特定操作系统（Linux、Macintosh或Windows）的访客。
-title: 我是否可以基于操作系统目标访客?
-feature: Audiences
+title: 我是否可以 [!DNL Target] 基于操作系统的访客?
+feature: 受众
+exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 82%
 
 ---
 
-
-# 操作系统{#operating-system}
+# 操作系统
 
 您可以定位使用某种操作系统的访客。
 

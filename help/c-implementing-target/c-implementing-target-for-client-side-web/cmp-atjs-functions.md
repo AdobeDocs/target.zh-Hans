@@ -1,19 +1,19 @@
 ---
 keywords: at.js;函数;javascript 库
-description: 视图可与Adobe Target的at.js JavaScript库的1.x和2.x版一起使用的一列表函数。
+description: 视图可与Adobe Target中at.js JavaScript库的1.x和2.x版本一起使用的函数列表。
 title: 我可以与at.js一起使用哪些函数？
 feature: at.js
 role: Developer
+exl-id: a386e478-16f4-4bf6-9771-6b1e75f2e362
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 94%
 
 ---
 
-
-# at.js 函数{#at-js-functions}
+# at.js 函数
 
 可以与 Adobe Target at.js JavaScript 库一起使用的函数列表。单击“函数”列中的链接以获取更多信息和示例。
 
@@ -33,4 +33,3 @@ ht-degree: 94%
 | [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x) | 可提供用于注册特定扩展的标准方法。<br>**注意：**&#x200B;此函数仅可用于 at.js 版本 1.*x*。此函数已在 at.js 2.x 版本中弃用。如果与 at.js 2.x 一起使用，此函数将返回默认内容。 |
 | [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 通过 at.js 自定义事件，您可以知道 mbox 请求或选件何时成功或失败。 |
 | [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at.js 2.1.0) | 在不使用 `adobe.target.applyOffer()` 或 `adobe.target.applyOffers()` 呈现体验时，此函数会向 Target 边缘发送通知。<br>**注意**：此函数已在 at.js 2.1.0 中引入，可用于 2.1.0 以上的任何版本。 |
-

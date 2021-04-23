@@ -1,18 +1,18 @@
 ---
 keywords: 变量;配置文件;参数;内置配置文件;方法;URL 变量;地域配置文件;第三方配置文件;mbox 变量;营销活动变量;客户属性
-description: 视图各种用户档案、变量和参数的列表，这些、变量和参数在Adobe Target的用户档案脚本中非常有用。
+description: 视图各种用户档案、变量和参数的列表，它们在Adobe Target的用户档案脚本中非常有用。
 title: 哪些用户档案、变量和参数用于目标?
-feature: Audiences
+feature: 受众
+exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '593'
 ht-degree: 88%
 
 ---
 
-
-# 配置文件和变量一览表{#profile-and-variable-glossary}
+# 配置文件和变量一览表
 
 此页面列出了配置文件脚本中有用的配置文件、变量和参数。
 
@@ -43,7 +43,7 @@ ht-degree: 88%
 | user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | 从配置文件脚本创建的永久性配置文件属性。还会引用地理位置、访问计数等“系统”配置文件。 |
-| profile.get(&#39;param_name&#39;) | 获取用户档案脚本中使用的用户档案参数的正确方法是用户档案.get(&#39;param_name&#39;)方法。 |
+| profile.get(&#39;param_name&#39;) | 获取要在用户档案脚本中使用的用户档案参数的正确方法是用户档案.get(&#39;param_name&#39;)方法。 |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | 因带有 profile.   前缀而使其具有持久性的 mbox 参数。 |
 | profile.browserTime | 访客的本地浏览器时间。对于系统时间，在配置文件脚本中创建新的日期对象 |

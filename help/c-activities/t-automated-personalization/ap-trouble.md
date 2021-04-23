@@ -1,18 +1,18 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: 探索在Adobe Target使用Automated Personalization(AP)活动时可能面临的潜在挑战以及建议的解决方案。
+description: 探索在Adobe Target中使用Automated Personalization(AP)活动时可能面临的潜在挑战以及建议的解决方案。
 title: 如何诊断Automated Personalization?
-feature: Automated Personalization
+feature: 自动个性化
+exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 91%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 自动个性化故障诊断{#troubleshoot-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) 自动个性化故障诊断
 
 有时候，活动没有按预期进行。此处介绍了使用自动个性化时可能会遇到的一些潜在问题，以及一些解决方法建议。
 
@@ -40,7 +40,7 @@ ht-degree: 91%
 
 ## 我的 AP 活动 URL 在错误的页面上显示选件内容。  {#section_82A224406DBF4107B05204BEFBBE458C}
 
-在AP中，URL和模板测试规则被添加到[!DNL Target]请求条目约束(例如，目标-global-mbox)中，在这些约束中，只对它们进行一次评估。 一旦用户符合活动条件，目标请求级定位规则就不会重新评估。 但是，定位受众会添加到位置定位规则中。
+在AP中，URL和模板测试规则被添加到[!DNL Target]请求条目约束(例如，目标-global-mbox)中，其中仅对其进行一次评估。 一旦用户符合活动条件，目标请求级别定位规则就不会重新评估。 但是，定位受众会添加到位置定位规则中。
 
 **解决方案：**&#x200B;将必需的模板规则作为营销活动的输入受众进行添加。每次进行请求/调用时，都会进行受众评估。
 
@@ -58,4 +58,3 @@ ht-degree: 91%
 
 * 如果您无法在新选项卡中查看预览（由于浏览器缓存问题），请尝试刷新两三次，或者复制链接，然后在其他浏览器或新的会话中打开该链接。
 * 如果您已更改任何内容，请重新生成体验 URL 链接，并将新链接共享给同事。
-

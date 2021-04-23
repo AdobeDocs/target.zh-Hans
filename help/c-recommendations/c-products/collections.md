@@ -1,24 +1,24 @@
 ---
 keywords: 收藏集;定位
-description: 了解如何使用Adobe TargetRecommendations的集合。 收藏集是一组符合推荐标准的产品或项目。
-title: 如何使用Recommendations活动中的集合？
+description: 了解如何在Adobe [!DNL Target] Recommendations中使用集合。 收藏集是一组符合推荐标准的产品或项目。
+title: 如何在Recommendations活动中使用集合？
 feature: Recommendations
+exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 60%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) 收藏集
 
-# ![PREMIUM](/help/assets/premium.png) 收藏集 {#collections}
+收藏集是一组符合推荐标准的产品或项目。通过指定要成为集合一部分的项目必须满足的条件来定义集合。
 
-收藏集是一组符合推荐标准的产品或项目。通过指定要成为集合的一部分的项目必须满足的条件来定义集合。
+一般情况下，收藏集是一组相似或相关的项目，例如单个产品收藏集。但是，您可以将任何项目分组到对您的业务有意义的类别中，例如特定价格范围的产品或颜色，或在特定地理区域可能感兴趣的项目。
 
-一般情况下，收藏集是一组相似或相关的项目，例如单个产品收藏集。但是，您可以将任何对您的业务有意义的项目分组到类别中，例如特定价格范围的产品或颜色的产品，或在特定地理区域可能感兴趣的项目。
-
-使用收藏集，可将您的产品组织到逻辑分段中。例如，如果某些项目在一个区域可用，但在另一个区域不可用，则可以创建一个集合，排除访客区域中不可用的项目。 您还可以使用收藏集来组织季节性项目，或使用任何其他对您的业务适用的组织参数。
+使用收藏集，可将您的产品组织到逻辑分段中。例如，如果某些项目在一个区域中可用，但在另一个区域中不可用，则您可以创建一个集合，排除在访客区域中不可用的项目。 您还可以使用收藏集来组织季节性项目，或使用任何其他对您的业务适用的组织参数。
 
 为推荐中的每个标准生成的[备用推荐](/help/c-recommendations/c-algorithms/backup-recs.md)也使用该收藏集，因此备用推荐中仅包含收藏集中的项目。使用收藏集，您可以确保仅在某个位置显示对其有意义的产品。
 
@@ -36,13 +36,13 @@ ht-degree: 60%
 
 ## 创建收藏集 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
-创建集合以组织要在推荐中显示的产品或内容。
+创建一个集合以组织要在推荐中显示的产品或内容。
 
 1. 单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 收藏集]**&#x200B;以显示现有收藏集列表。
 
    ![收藏集列表](assets/collections_list.png)
 
-   [!UICONTROL 集合]页面显示现有集合的列表。 单击[!UICONTROL 创建集合]按钮可创建新集合。 您还可以通过将鼠标悬停在所需集合并单击所需图标来编辑、复制和删除现有集合。
+   [!UICONTROL 集合]页面显示现有集合的列表。 单击[!UICONTROL 创建收藏集]按钮可创建新收藏集。 您还可以通过将鼠标悬停在所需集合上并单击所需图标来编辑、复制和删除现有集合。
 
    ![悬停图标：编辑、复制和删除](/help/c-recommendations/c-products/assets/hover-icons.png)
 
@@ -62,7 +62,7 @@ ht-degree: 60%
 
    例如，您可以根据产品 ID 或类别、利润或列表中的任何其他参数来构建收藏集。
 
-   您可以添加规则，以使用多个参数来定义收藏集。多个规则与AND运算符相连。 必须匹配指定的所有规则，才能应用收藏集。
+   您可以添加规则，以使用多个参数来定义收藏集。多个规则与AND运算符联接。 必须匹配指定的所有规则，才能应用收藏集。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -86,7 +86,7 @@ ht-degree: 60%
 
 您可以复制现有集合以创建随后可以修改的重复集合。 这样，您可以更轻松地创建类似的排除。
 
-请注意，集合在整个帐户中都可用。 请确保在删除集合之前考虑此问题。 无法恢复已删除的集合。
+请注意，收藏集在整个帐户中都可用。 请确保在删除集合之前考虑此问题。 无法恢复已删除的集合。
 
 ## 在Recommendations活动中使用集合
 
@@ -98,11 +98,11 @@ ht-degree: 60%
 
    ![选择集合选项](/help/c-recommendations/c-products/assets/choose-collection.png)
 
-1. （视情况而定）要更改现有集合设置，请在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三部分指导式工作流的步骤2）上，单击放置推荐的位置，单击&#x200B;**[!UICONTROL 更改集合]**，然后选择所需的集合。
+1. （视情况而定）要更改现有集合设置，请在&#x200B;**[!UICONTROL 体验]**&#x200B;页（三部分指导工作流的步骤2）中，单击放置推荐的位置，单击&#x200B;**[!UICONTROL 更改集合]**，然后选择所需的集合。
 
-   ![更改集合选项](/help/c-recommendations/c-products/assets/change-collection.png)
+   ![更改收藏集选项](/help/c-recommendations/c-products/assets/change-collection.png)
 
-## 培训视频：在Recommendations创建集合和排除(7:05)![教程徽章](/help/assets/tutorial.png)
+## 培训视频：在Recommendations中创建集合和排除(7:05)![教程徽章](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

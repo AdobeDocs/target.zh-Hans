@@ -1,17 +1,17 @@
 ---
 keywords: 浏览器;先决条件;要求;Internet Explorer;Chrome;Firefox;Safari;Android;Surface
-description: 了解Adobe Target支持哪些Internet浏览器用于其界面和内容投放。
-title: 目标支持哪些浏览器？
-feature: Implementation
+description: 了解Adobe [!DNL Target] 支持哪些Internet浏览器的界面和内容投放。
+title: ' [!DNL Target] 支持哪些浏览器？'
+feature: 实施
 role: Developer
+exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '307'
 ht-degree: 58%
 
 ---
-
 
 # 支持的浏览器
 

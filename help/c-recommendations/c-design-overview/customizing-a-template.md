@@ -1,18 +1,18 @@
 ---
 keywords: 自定义设计;Velocity;小数;逗号;自定义设计
-description: 了解如何在Adobe TargetRecommendations使用开源Velocity设计语言自定义推荐设计。
+description: 了解如何使用开源Velocity设计语言在Adobe [!DNL Target] Recommendations中自定义推荐设计。
 title: 如何使用Velocity自定义设计？
 feature: Recommendations
+exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 60%
+ht-degree: 61%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 使用 Velocity 自定义设计{#customize-a-design-using-velocity}
+# ![PREMIUM](/help/assets/premium.png) 使用 Velocity 自定义设计
 
 使用开源Velocity设计语言在[!DNL Adobe Target Recommendations]中自定义推荐设计。
 
@@ -64,7 +64,7 @@ $entities[0].categoriesList[2]
 
 >[!NOTE]
 >
->设计中可引用的最大图元数（硬编码或通过循环）为99。 模板脚本最长可包含 65,000 个字符。
+>可在设计中引用的最大图元数为99。 模板脚本最长可包含 65,000 个字符。
 
 例如，如果您想要在设计中显示类似于下面的内容：
 
@@ -119,22 +119,22 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->如果要在指示变量名称的标记完成之前在变量的值之后添加文本，则可以使用形式记号来圈住变量的名称。 例如：`${entity1.thumbnailUrl}.gif`。
+>如果要在指示变量名称的标记完成之前在变量值之后添加文本，则可以使用形式表示法将变量名称括起来。 例如：`${entity1.thumbnailUrl}.gif`。
 
 您还可以在设计中将 `algorithm.name` 和 `algorithm.dayCount` 用作变量，以便使用一个设计来测试多个标准，并在该设计中动态显示标准名称。这样可指示访客查看了“最畅销商品”或属于“查看了这个项目，但购买了那个项目的人”。您甚至还可以使用这些变量来显示 `dayCount`（标准中使用的数据所对应的天数，例如“过去 2 天的最畅销商品”，等等）。
 
-## 在Velocity模板中使用数字
+## 在Velocity模板中处理数字
 
-默认情况下，Velocity模板将所有实体属性视为字符串值。 您可能希望将实体属性视为数字值，以执行数学运算或将其与另一个数值进行比较。 要将实体属性视为数字值，请执行以下步骤：
+默认情况下，“速度”模板将所有实体属性视为字符串值。 您可能希望将实体属性视为数值，以执行数学运算或将其与其他数值进行比较。 要将实体属性视为数值，请执行以下步骤：
 
 1. 声明一个伪变量，并将其初始化为任意整数或多次值。
-1. 确保要使用的实体属性不为空(目标Recommendations的模板分析器验证并保存模板时需要)。
-1. 在步骤1中创建的虚拟变量上，将entity属性传递到`parseInt`或`parseDouble`方法，将字符串转换为整数或多次值。
+1. 确保要使用的实体属性不为空(目标Recommendations的模板分析器验证和保存模板时需要)。
+1. 在步骤1中创建的虚拟变量上将实体属性传递到`parseInt`或`parseDouble`方法，以将字符串转换为整数或多次值。
 1. 对新数值执行数学运算或比较。
 
 ### 示例：计算折扣价格
 
-假定您希望将项目的显示价格降低0.99美元以应用折扣。 您可以采用以下方法来实现此效果：
+假设您要将某个项目的显示价格降低0.99美元以应用折扣。 您可以使用以下方法来实现此效果：
 
 ```
 #set( $Double = 0.1 )
@@ -147,9 +147,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-### 示例：根据项目的等级选择要显示的星数
+### 示例：根据项目的评级选择要显示的星形数
 
-假定您希望根据项目的数值平均客户评级显示适当数量的星星。 您可以采用以下方法来实现此效果：
+假设您希望根据项目的数值平均客户评级显示适当数量的星形。 您可以使用以下方法来实现此效果：
 
 ```
 #set( $Double = 0.1 )
@@ -172,9 +172,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-### 示例：根据项目长度（以分钟为单位）计算时间（以小时和分钟为单位）
+### 示例：根据项目的长度（以分钟为单位）计算时间（以小时和分钟为单位）
 
-假定您以分钟为单位存储电影的长度，但希望以小时和分钟为单位显示电影的长度。 您可以采用以下方法来实现此效果：
+假设您以分钟为单位存储电影的长度，但希望以小时和分钟为单位显示电影的长度。 您可以使用以下方法来实现此效果：
 
 ```
 #if( $entity1.get('length_minutes') )
@@ -210,7 +210,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## 在字符串值{#section_01F8C993C79F42978ED00E39956FA8CA}中执行替换
 
-您可以修改设计以替换字符串中的值。 例如，将美国使用的小数点分隔符替换为欧洲和其他国家／地区使用的逗号分隔符。
+您可以修改设计以替换字符串中的值。 例如，将美国使用的小数点分隔符替换为欧洲和其他国家使用的逗号分隔符。
 
 以下代码显示了条件销售定价示例中的一行内容：
 

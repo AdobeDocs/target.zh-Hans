@@ -1,28 +1,28 @@
 ---
 keywords: 远程选件;创建远程选件
-description: 了解如何在Adobe Target创建JSON优惠以用于基于表单的体验书写器。 JSON优惠对SPA框架或服务器端集成很有用。
+description: 了解如何在Adobe [!DNL Target] 中创建JSON优惠，以便在基于表单的体验编辑器中使用。 JSON优惠对SPA框架或服务器端集成很有用。
 title: 如何创建JSON优惠?
-feature: Experiences and Offers
+feature: 体验和优惠
+exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '413'
 ht-degree: 54%
 
 ---
 
+# 创建 JSON 选件
 
-# 创建 JSON 选件{#create-json-offers}
+在[!DNL Adobe Target]中的[!UICONTROL 优惠库]中创建JSON优惠，以在[!UICONTROL 基于表单的体验编辑器]中使用。
 
-在[!DNL Adobe Target]的[!UICONTROL 优惠库]中创建JSON优惠，以用于[!UICONTROL 基于表单的体验书写器]。
-
-JSON优惠可用于基于表单的活动，在这种情况下，需要[!DNL Target]的决策才能发送JSON格式的优惠以用于SPA框架或服务器端集成。
+JSON优惠可用于基于表单的活动中，在这些情况下，启用需要[!DNL Target]决策的用例，以JSON格式发送优惠以用于SPA框架或服务器端集成。
 
 ## JSON注意事项
 
 使用 JSON 选件时，请考虑以下信息：
 
-* JSON优惠当前仅适用于[!UICONTROL A/B测试]和[!UICONTROL 体验定位](XT)活动。
+* JSON优惠当前仅适用于[!UICONTROL A/B Test]和[!UICONTROL Experience Targeting](XT)活动。
 * JSON优惠只能用于[基于表单的活动](/help/c-experiences/form-experience-composer.md)。
 * 使用服务器端 API、Mobile SDK 或 NodeJS SDK 时，可以直接检索 JSON 选件。
 * 在浏览器中，只能通过 at.js 1.2.3（或更高版本）并使用 [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) 来检索 JSON 选件，检索时可以使用 `setJson` 操作进行筛选。
@@ -83,7 +83,7 @@ adobe.target.getOffer({
 ]
 ```
 
-要提取JSON优惠，请对操作进行迭代，找到具有`setJson`操作的操作，然后对内容数组进行迭代。
+要提取JSON优惠，请对操作进行迭代，找到包含`setJson`操作的操作，然后对内容数组进行迭代。
 
 ## 用例{#section_85B07907B51A43239C8E3498EF58B1E5}
 
@@ -135,7 +135,6 @@ adobe.target.getOffer({
 
 ## 按JSON优惠类型{#section_52533555BCE6420C8A95EB4EB8907BDE}筛选优惠
 
-您可以通过单击&#x200B;**[!UICONTROL 类型]**&#x200B;下拉优惠，然后选中&#x200B;**[!UICONTROL JSON]**&#x200B;复选框，按JSON优惠类型筛选[!UICONTROL 列表]库。
+单击&#x200B;**[!UICONTROL 类型]**&#x200B;下拉列表，然后选中&#x200B;**[!UICONTROL JSON]**&#x200B;复选框，即可按JSON优惠类型筛选[!UICONTROL 优惠]库。
 
 ![](assets/offer-json-filter.png)
-

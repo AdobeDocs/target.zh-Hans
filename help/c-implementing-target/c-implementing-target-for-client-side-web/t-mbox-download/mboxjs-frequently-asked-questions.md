@@ -1,19 +1,19 @@
 ---
 keywords: mbox.js FAQ;mbox.js 常见问题解答;document.write;tt.omtrdc.net;解析器阻塞
 description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
-title: 有关目标 mbox.js的一些常见问题？
+title: 有关 [!DNL Target] mbox.js的一些常见问题有哪些？
 feature: at.js
 role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 73%
+source-wordcount: '432'
+ht-degree: 71%
 
 ---
 
-# mbox.js 常见问题解答{#mbox-js-frequently-asked-questions}
+# mbox.js 常见问题解答
 
 有关 mbox.js 的常见问题解答。
 
@@ -39,7 +39,7 @@ ht-degree: 73%
 
 除非使用 targetGlobalSettings() 来自定义 `cookieDomain` 设置，否则在使用这些域时，新式浏览器将不会保存 Cookie。有关更多信息，请参阅[结合使用基于云的实例和 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566)。
 
-## Target 服务器调用所转到的域 tt.omtrdc.net 是什么域？{#section_999C29940E8B4CAD8A957A6B1D440317}
+## [!DNL Target]服务器调用转到的域tt.omtrdc.net是什么？{#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] 是 Adobe 的边缘网络的域名，用于接收 Target 的所有服务器调用。
 

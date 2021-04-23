@@ -1,20 +1,20 @@
 ---
-keywords: 自动个性化；ap;受众;ensemble;random forest;multi-furbed bandit;thompson采样；ml；机器学习
-description: 了解如何使用Adobe Target州的Automated Personalization(AP)活动，它们使用高级机器学习将不同优惠变量与每个访客相匹配。
+keywords: 自动个性化；ap;受众;ensemble;random forest;multi-firged bandit;thompson采样；ml；机器学习
+description: 了解如何在Adobe [!DNL Target] 中使用Automated Personalization(AP)活动，它们使用高级机器学习将不同优惠变量与每个访客相匹配。
 title: 什么是Automated Personalization(AP)活动?
-feature: Automated Personalization
+feature: 自动个性化
+exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 88%
+source-wordcount: '1033'
+ht-degree: 89%
 
 ---
 
+# ![高](/help/assets/premium.png) 级自动个性化(AP)
 
-# ![高级](/help/assets/premium.png) 自动个性化(AP)
-
-[!UICONTROL Automated Personalization] (AP)活动 [!DNL Adobe Target] 结合优惠或信息，使用高级机器学习根据其个别客户用户档案将不同的优惠变化与每个访客匹配，从而个性化内容并推动提升。
+[!UICONTROL Automated Personalization] (AP)活动结合了 [!DNL Adobe Target] 优惠或信息，并使用高级机器学习来根据每个访客各自的客户用户档案将不同的优惠变化匹配起来，从而个性化内容并推动提升。
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 88%
 
 与[!UICONTROL 自动定位]类似，[!UICONTROL 自动个性化]也使用随机林算法（一种领先的数据科学组合方法）作为其主要个性化算法，来确定向访客显示的最佳体验。[!UICONTROL 自动个性化在测试的探索阶段可能很有意义。]当定位各种不同的访客时，它也有助于机器学习确定最有效的内容。随着时间的推移，该算法会学习预测最有效的内容并显示最有可能实现您的目标的内容。
 
-要详细了解[!UICONTROL Automated Personalization]与[!UICONTROL 自动目标]有何不同，请参阅[自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)。
+要查找有关[!UICONTROL Automated Personalization]与[!UICONTROL 自动目标]有何不同的更多信息，请参阅[自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)。
 
 营销人员可在他们的网站上实施一个文件，使他们能够指向并单击任何内容，然后使用 VEC（[!UICONTROL 可视化体验编辑器]）为该区域直观地创建和选择其他内容选项。之后，该算法会根据系统提供的有关每一位访客的所有行为数据自动确定向该访客提供的内容块，从而提供个性化体验。由于[!UICONTROL 自动个性化]可以根据访客行为的变化进行相应调整，因此它可以在没有设定结束日期的情况下运行，以提供持续的提升和个性化。这有时被称为“始终运行”模式。营销人员不需要先运行测试、分析结果、交付入选者，然后再实现从优化中发现的提升，这是实施标准 A/B 活动结果的标准操作顺序。
 

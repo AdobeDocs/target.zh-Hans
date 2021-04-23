@@ -1,16 +1,16 @@
 ---
 keywords: 多变量测试;MVT;MVT 规划;多变量测试规则
-description: 了解如何在Adobe Target规划多变量测试，以便创建成功的测试。
+description: 了解如何在Adobe [!DNL Target] 中规划多变量测试，以便创建成功测试。
 title: 如何计划多变量测试？
 feature: Multivariate Tests
+exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 91%
+source-wordcount: '299'
+ht-degree: 90%
 
 ---
-
 
 # 规划多变量测试
 

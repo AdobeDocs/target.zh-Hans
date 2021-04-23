@@ -1,18 +1,18 @@
 ---
 keywords: 受众;受众规则;创建受众;仅限该活动;临时
-description: 了解如何在Adobe Target创建仅活动受众，这些活动在当前下一次性使用，而不存储在受众库中。
+description: 了解如何在Adobe [!DNL Target] 中创建仅活动受众，这些活动在当前中一次性使用，而不是存储在受众库中。
 title: 我是否可以创建只使用一次的受众?
-feature: Audiences
+feature: 受众
+exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 91%
 
 ---
 
-
-# 创建仅限该活动的受众{#create-an-activity-only-audience}
+# 在 Adobe Target 中创建仅限该活动的受众
 
 创建活动时，可在三步引导式工作流中创建仅限该活动的受众。这些临时受众可用于该相同活动内的其他位置，但不会存储在[!UICONTROL 受众库]中，因此无法用于其他活动。
 
@@ -52,4 +52,3 @@ ht-degree: 91%
 * 仅限该活动的受众具有两种状态：“[!UICONTROL 已使用]”或“[!UICONTROL 未使用]”。未使用的仅限该活动的受众在保存活动后将不会显示。如果将仅限该活动的受众保留为“未使用”状态，在您尝试保存活动时，系统会显示一条警告消息，告知您未使用的仅限该活动的受众将被删除。
 * 您可以从受众选取器中访问弹出卡片，以查看该卡片上的受众定义详细信息，而无需打开受众。
 * 您可以[合并多个受众](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)，以创建仅限该活动的受众。
-

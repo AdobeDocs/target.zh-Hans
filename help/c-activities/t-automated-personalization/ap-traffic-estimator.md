@@ -1,13 +1,13 @@
 ---
 keywords: 流量估计器；自动个性化；ap；流量估计；自动目标
-description: 使用Adobe Target流量估计器确定您是否有足够的流量使您的Automated Personalization活动成功。
+description: 使用Adobe [!DNL Target] 流量估计器确定您是否有足够的流量使Automated Personalization活动成功。
 title: 成功活动需要多少流量？
-feature: Automated Personalization
+feature: 自动个性化
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '752'
 ht-degree: 13%
 
 ---

@@ -1,16 +1,16 @@
 ---
 keywords: 故障诊断;常见问题解答;FAQ;推荐;特殊字符;属性权重;内容相似度
-description: 视图一列表关于Adobe Target Recommendations活动的常见问题解答。
-title: 在哪里可以找到有关目标 Recommendations的问题和答案？
+description: 视图关于Adobe [!DNL Target] Recommendations活动的常见问题解答列表。
+title: 在哪里可以找到关于 [!DNL Target] Recommendations的问题和答案？
 feature: Recommendations
+exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2691'
 ht-degree: 39%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) “推荐”常见问题解答 
 
@@ -130,7 +130,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ![](assets/content_similarity_example.png)
 
-## Target 为何有时无法显示推荐？{#section_DB3F40673AED42228E407C05437D99E9}
+## 为什么[!DNL Target]有时无法显示建议？{#section_DB3F40673AED42228E407C05437D99E9}
 
 Target 有时无法显示推荐，原因在于可用推荐的数量过低。
 
@@ -223,5 +223,3 @@ Target 有时无法显示推荐，原因在于可用推荐的数量过低。
 请注意，如果某个访客在一台设备上处于活动状态，然后几分钟后在另一台设备上变为活动状态，则仍会发生此行为。 第一个设备的会话不会过期30分钟，在将用户档案状态写入永久状态并进行处理之前，最多可能有5分钟的延迟。 在测试此行为时，允许35分钟会话过期和存储用户档案。
 
 如果访客不同时有两个活动会话，则只要会话结束，一个设备上最近查看的项目就会更新另一个设备上最近查看的项目。 在测试此行为时，允许会话过期35分钟。
-
-

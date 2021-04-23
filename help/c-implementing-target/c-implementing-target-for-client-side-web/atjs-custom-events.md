@@ -1,14 +1,14 @@
 ---
 keywords: 自定义事件;at.js;请求失败;请求成功;内容渲染失败;内容渲染成功;库已加载;请求开始;内容渲染开始;内容渲染无选件;内容渲染重定向
-description: 使用自定义事件，以便在mbox请求或优惠失败或成功时通知Adobe Target at.js JavaScript库。
+description: 使用自定义事件，使Adobe [!DNL Target] at.js JavaScript库在mbox请求或优惠失败或成功时得到通知。
 title: 如何使用at.js自定义事件?
 feature: at.js
 role: Developer
 exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt
-source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '655'
 ht-degree: 87%
 
 ---

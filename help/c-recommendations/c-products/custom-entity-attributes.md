@@ -1,21 +1,21 @@
 ---
 keywords: 多值实体属性;自定义实体属性;有效 JSON;实体属性值;JSON 数组;多值的;多值
-description: 了解如何使用单值和多值自定义实体属性定义有关Adobe TargetRecommendations目录中项目的其他信息。
+description: 了解如何使用单值和多值自定义实体属性定义有关Adobe [!DNL Target] Recommendations目录中项目的其他信息。
 title: 如何使用自定义实体属性？
 feature: Recommendations
 mini-toc-levels: 3
+exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 89%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) 自定义实体属性
 
-# ![PREMIUM](/help/assets/premium.png) 自定义实体属性{#custom-entity-attributes}
-
-使用[!DNL Adobe Target Recommendations]中的单值和多值自定义实体属性定义有关目录中项目的其他信息。
+使用[!DNL Adobe Target Recommendations]中的单值和多值自定义实体属性来定义有关目录中项目的其他信息。
 
 ## 限制 {#limits}
 
@@ -109,7 +109,7 @@ function targetPageParams() {
 
 ### 使用 API
 
-您可以使用mbox参数中的投放API作为包含转义JSON数组的字符串值传递多值属性。
+您可以使用mbox参数中的投放API将多值属性作为包含转义JSON数组的字符串值进行传递。
 
 ```javascript
 "execute": {
@@ -127,7 +127,7 @@ function targetPageParams() {
   }
 ```
 
-有关使用投放和保存实体API的信息，请参阅[Adobe RecommendationsAPI文档](http://developers.adobetarget.com/api/recommendations)。
+有关使用Adobe Recommendations和保存实体API的信息，请参阅[ 投放 API文档](http://developers.adobetarget.com/api/recommendations)。
 
 ## 使用具有多值属性{#section_83C2288A805242D9A02EBC4F07DEE945}的运算符
 
@@ -241,7 +241,7 @@ function targetPageParams() {
 
 ### 动态范围（仅在基于项目的算法中可用，仅限数字值）
 
-如果任何数字属性值位于指定范围内，则返回true。
+如果任何数值属性值位于指定范围内，则返回true。
 
 示例: `price dynamically ranges in 80% to 120% of 100`
 
@@ -254,7 +254,7 @@ function targetPageParams() {
 
 ## 设计{#section_F672E4F6E1D44B3196B7ADE89334ED4A}中的多值属性
 
-多值属性在设计中引用时显示为以逗号分隔的列表。
+当在设计中引用多值属性时，多值属性显示为以逗号分隔的列表。
 
 示例：
 

@@ -1,19 +1,19 @@
 ---
 keywords: 实施;mbox.js 非 javascript;重定向器;每次点击成本;每次点击收入
-description: 了解如何在电子邮件实施中使用重定向器，这与您在Adobe Target活动中使用mbox的方式类似。
-title: 我如何与重定向器合作？
-feature: Implement Email
+description: 了解如何在电子邮件实施中使用重定向器，就像您在Adobe [!DNL Target] 活动中使用mbox的方式一样。
+title: 如何与重定向器一起使用？
+feature: 实施电子邮件
 role: Developer
+exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '681'
 ht-degree: 66%
 
 ---
 
-
-# 使用重定向器{#work-with-redirectors}
+# 使用重定向器
 
 使用重定向器的方法和您在测试中使用 mbox 的方法类似。
 
@@ -46,7 +46,7 @@ ht-degree: 66%
 
    * 其中，`yourclientcode` 是您公司的客户端代码。您公司的客户端代码全部为小写字母，且不含任何特殊字符。
 
-      您的客户端代码位于[!DNL Target]接口的[!UICONTROL 管理>实施]页面顶部。
+      您的客户端代码位于[!DNL Target]接口的[!UICONTROL “管理”>“实施”]页面顶部。
 
    * `redirectorlink_456` 是出现在您帐户中并在营销活动和测试中使用的重定向器 mbox 的名称。
 
@@ -54,11 +54,11 @@ ht-degree: 66%
 
    * 其中，`http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` 是默认目标。
 
-      这必须是进行了编码的 URL，且必须是绝对引用。可以使用[HTML URL编码引用](https://www.w3schools.com/tags/ref_urlencode.asp)快速编码URL。
+      这必须是进行了编码的 URL，且必须是绝对引用。可以使用[HTML URL编码参考](https://www.w3schools.com/tags/ref_urlencode.asp)快速编码URL。
 
       >[!IMPORTANT]
       >
-      >请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列表默认重定向URL域。 目标使允许列表用主机要允许重定向的域。 有关详细信息，请参阅[创允许列表建指定有权向&#x200B;*Hosts*&#x200B;中的目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机的。
+      >请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列表默认重定向URL域。 目标使用主允许列表机要允许重定向的域。 有关详细信息，请参阅[创允许列表建，指定有权向&#x200B;*Hosts*&#x200B;中的目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机。
 
 1. 验证重定向器。
    1. *安全最佳实践*:确保重定向器中使用的域列入允许列表被，如上所示。如果您使用的域未列入允许列表,Adobe将阻止对该域的任何调用，以阻止恶意行为者使用重定向器重定向到可能的恶意域。
@@ -98,7 +98,7 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->最佳实践是使用&#x200B;**每次访问得分**&#x200B;参与度指标确定成本值。
+>最佳实践是使用&#x200B;**每次访问评分**&#x200B;参与量度确定成本值。
 
 将 `&mboxPageValue=-value` 添加到 URL。请注意负值。
 
@@ -115,7 +115,7 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 
 >[!NOTE]
 >
->最佳实践是使用&#x200B;**每次访问得分**&#x200B;参与度指标确定收入值。
+>最佳实践是使用&#x200B;**每次访问的分数**&#x200B;参与量度确定收入值。
 
 将 `&mboxPageValue=value` 添加到 URL。
 

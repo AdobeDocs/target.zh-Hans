@@ -1,33 +1,33 @@
 ---
-keywords: 可视体验书写器；vec；默认url；增强的体验书写器；eec；混合内容；体验快照；移动视口；css;css选择器
-description: 了解如何通过指定Adobe Target可视化体验书写器(VEC)的常规设置、移动视口配置和CSS选择器来配置它。
+keywords: 可视体验编辑器；vec；默认url；增强体验编辑器；eec；混合内容；体验快照；移动视口；css;css选择器
+description: '了解如何通过指定Adobe的常规设置、移动视口配置和CSS选择器来配置Visual Experience Composer(VEC)。 [!DNL Target] '
 title: 如何配置可视体验书写器(VEC)?
-feature: Administration & Configuration
+feature: 管理和配置
 role: Administrator
+exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '719'
 ht-degree: 49%
 
 ---
 
-
 # 配置可视体验书写器
 
-通过指定[!DNL Adobe Target] [!UICONTROL 可视体验书写器](VEC)的常规设置、移动视区配置和CSS选择器来配置。
+通过指定[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)的常规设置、移动视区配置和CSS选择器，配置 。
 
-要访问[!UICONTROL Visual Experience Composer]配置页，请单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]。**
+要访问[!UICONTROL Visual Experience Composer]配置页，请单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL Visual Experience Composer]。**
 
 >[!NOTE]
 >
 >请注意，此页上的设置应用于整个[!DNL Target]帐户。
 
-![“可视体验书写器”配置页](/help/administrating-target/assets/vec.png)
+![“可视体验编辑器”配置页](/help/administrating-target/assets/vec.png)
 
 ## 一般设置
 
-您可以指定可视体验书写器的常规设置。
+您可以指定可视体验编辑器的常规设置。
 
 ![“常规设置”部分](/help/administrating-target/assets/general-settings.png)
 
@@ -39,7 +39,7 @@ ht-degree: 49%
 
 ### 启用增强型体验编辑器 {#eec}
 
-允许在防 iFrame 嵌套网站和具有混合内容的网站上进行编辑。某些站点可能与增强版本不兼容。 如果取消选择此选项，则还原到原始的[!UICONTROL Visual Experience Composer]。 所做的这一选择不会对网站上的活动交付造成任何影响。
+允许在防 iFrame 嵌套网站和具有混合内容的网站上进行编辑。某些站点可能与增强版本不兼容。 如果取消选择此选项，将恢复到原始的[!UICONTROL Visual Experience Composer]。 所做的这一选择不会对网站上的活动交付造成任何影响。
 
 有关更多信息，请参阅[可视化体验编辑器故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
@@ -49,7 +49,7 @@ ht-degree: 49%
 
 使用[!UICONTROL 增强体验书写器](EEC)打开网站时启用混合内容。 启用此选项可避免通过[!DNL Target]代理服务器加载静态资源的额外开销。
 
-例如，如果：
+例如，此选项在以下情况下很有帮助：
 
 * 您的内容安全策略(CSP)标头允许在启用EEC的代理服务器的情况下加载混合内容。
 * 在EEC中，HTTP网站的加载时间会增加，其中JavaScript、图像等需要更长的时间才能通过代理加载。
@@ -58,7 +58,7 @@ ht-degree: 49%
 
 启用体验快照后，活动工作流程图中会生成体验的缩览图。但对于某些用户而言，禁用体验快照可能会提高性能。
 
-## ![高级徽](/help/assets/premium.png) 章移动视区配置
+## ![高级徽](/help/assets/premium.png) 章移动视口配置
 
 您可以添加预览体验时要使用的设备。每个设备都有一个关联的受众。
 
@@ -104,6 +104,6 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL Administration]菜单UI（以前称为[!UICONTROL Setup]）已重新设计，可提供改进的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。 以下视频中的信息通常是正确的；但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
+>已重新设计[!DNL Target] [!UICONTROL Administration]菜单UI（以前称为[!UICONTROL Setup]），以提供改进的性能、减少发布新功能所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的；但是，选项可能位于稍有不同的位置。 更新的视频将很快发布。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

@@ -1,20 +1,20 @@
 ---
-keywords: 定位；视觉体验书写器；增强的视觉体验书写器；vec；视觉体验书写器疑难解答；疑难解答；eec；增强的体验书写器；tls;tls 1.2
-description: 了解如何在某些条件下对Visual Experience Composer(VEC)和Enhanced Experience Composer(EEC)中有时出现的问题进行疑难解答。
-title: 如何诊断可视体验书写器和增强体验书写器的故障？
-feature: Visual Experience Composer (VEC)
+keywords: 定位；可视体验书写器；增强的可视体验书写器；vec；可视体验书写器疑难解答；疑难解答；eec；增强的体验书写器；tls 1.2
+description: 了解如何解决在某些情况下在Visual Experience Composer(VEC)和Enhanced Experience Composer(EEC)中有时出现的问题。
+title: 如何对Visual Experience Composer和增强的Experience Composer进行疑难解答？
+feature: 可视化体验编辑器 (VEC)
+exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '252'
 ht-degree: 70%
 
 ---
 
-
 # 可视化体验编辑器和增强型体验编辑器故障诊断
 
-在某些条件下，在[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)和[!UICONTROL  Enhanced Experience Composer](EEC)中有时会出现显示问题。
+在某些情况下，在[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)和[!UICONTROL  Enhanced Experience Composer](EEC)中有时会出现显示问题。
 
 VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC 编辑器，营销人员和设计人员可以使用可视化界面创建和更改内容。无需直接编辑代码，便可进行多种设计选择。使用编辑器提供的编辑选项也可以编辑 HTML 和 JavaScript。
 

@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: ee314b04ece148b453f64a8e5d0374b94fdaed33
+source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
 workflow-type: tm+mt
-source-wordcount: '3748'
-ht-degree: 6%
+source-wordcount: '3506'
+ht-degree: 7%
 
 ---
 
@@ -111,7 +111,7 @@ Adobe Target JS SDK可让客户灵活地在数据的性能与新鲜度之间做�
 | --- | --- |
 | 1 | 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 库会同步加载，并隐藏文档正文。<br>也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。 |
-| 1 | at.js库隐藏正文以防止闪烁。 |
+| 3 | at.js库隐藏正文以防止闪烁。 |
 | 4 | at.js库请求从最近的Akamai CDN检索JSON规则对象到访客。 |
 | 5 | Akamai CDN使用JSON规则对象做出响应。 |
 | 6 | JSON规则对象将在访客的浏览器上本地缓存。 |
@@ -197,7 +197,7 @@ JSON规则对象包含元数据，用于通知at.jsmbox是运行服务器端活�
 | --- | --- |
 | 1 | 从[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)检索[!DNL Experience Cloud Visitor ID]。 |
 | 2 | at.js 库会同步加载，并隐藏文档正文。<br>也可以异步加载at.js库，并在页面上实现一个可选的预隐藏片段。 |
-| 3 | at.js库隐藏正文以防止闪烁。 |
+| 1 | at.js库隐藏正文以防止闪烁。 |
 | 4 | 会请求以检索体验。 |
 | 5 | at.js库确认已缓存JSON规则对象，并在内存中执行检索体验的决定。 |
 | 6 | 已测试的元素处于隐藏状态。 |
@@ -329,63 +329,3 @@ adobe.target.getOffers({
 1. 创建并激活设备决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)支持的[活动类型，并验证设备决策符合条件。
 1. 通过at.js设置UI将&#x200B;**[!UICONTROL 决策方法]**&#x200B;设置为&#x200B;**[!UICONTROL &quot;Hybrid&quot;]**&#x200B;或&#x200B;**[!UICONTROL &quot;仅限设备&quot;]**。
 1. 下载At.js 2.5.0+并将其部署到您的页面。
-
-## Troubleshooting
-
-完成以下步骤以排除设备上决策故障：
-
-1. 为at.js启用控制台日志
-1. 在浏览器的“网络”选项卡中验证规则对象下载
-1. 使用at.js自定义事件验证规则对象下载
-
-以下各节将更详细地描述每个步骤：
-
-### 第1步：为at.js启用控制台日志
-
-附加URL参数`mboxDebug=1`可启用at.js在浏览器控制台中打印消息。
-
-所有邮件都包含前缀“AT：”，方便了概述。 要确保已成功加载对象，控制台日志中应包含类似以下消息：
-
-```
-AT: LD.ArtifactProvider fetching artifact - https://assets.adobetarget.com/your-client-cide/production/v1/rules.json
-AT: LD.ArtifactProvider artifact received - status=200
-```
-
-下图在控制台日志中显示这些消息：
-
-![包含对象消息的控制台日志](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/browser-console.png)
-
-### 第2步：在浏览器的“网络”选项卡中验证规则对象下载
-
-打开浏览器的“网络”选项卡。
-
-例如，要在Google Chrome中打开DevTools:
-
-1. 按Ctrl+Shift+J(Windows)或Command+Option+J(Mac)。
-1. 导航到“网络”选项卡。
-1. 按关键字“rules.json”过滤调用，以确保仅显示对象规则文件。
-
-   此外，您还可以按“/投放|rules.json/”进行筛选，以显示所有[!DNL Target]调用和项目rules.json。
-
-   ![Google Chrome中的“网络”选项卡](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
-
-### 第3步：使用at.js自定义事件验证规则对象下载
-
-at.js库调度两个新的自定义事件以支持设备决策。
-
-* `adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`
-* `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`
-
-订阅后，您可以在应用程序中侦听这些自定义事件，以便在项目规则文件下载成功或失败时执行操作。
-
-以下示例显示了侦听对象下载成功和失败事件的代码示例：
-
-```javascript
-document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED, function(e) { 
-  console.log("Artifact successfully downloaded", e.detail);
-}, false);
-
-document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_FAILED, function(e) { 
-  console.log("Artifact failed to download", e.detail);
-}, false);
-```

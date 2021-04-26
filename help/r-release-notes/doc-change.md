@@ -5,9 +5,9 @@ title: 在哪里可以视图文档更新以进行目标?
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '897'
 ht-degree: 30%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 30%
 | --- | --- | --- |
 | 9 年 4 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了at.js版本2.5.0的预发行信息（2021年4月19日） |
 | 9 年 4 月 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了Target Standard/Premium 21.4.1版本的预发行信息（2021年4月19日） |
-|  | [将“推荐”与电子邮件集成](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity) | 添加了以下部分：&quot;选项1和2的容量准则。&quot; |
+|  | [将“推荐”与电子邮件集成](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 增加了说明，说明选项1和2的容量准则。 |
 | 3月29日 | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 新增了常见问题解答：<ul><li>基于最近查看的项目的推荐是否会跨多个设备保留以用于单个访客?</li></ul> |
 | 3月23日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了 at.js 版本 2.4.1 的发行说明。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了 at.js 版本 2.4.1 的发行说明。 |

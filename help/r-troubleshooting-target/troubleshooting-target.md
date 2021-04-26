@@ -5,10 +5,10 @@ title: 如何排除目标?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 89%
+source-wordcount: '451'
+ht-degree: 88%
 
 ---
 
@@ -136,6 +136,10 @@ ht-degree: 89%
 ## 移动应用程序
 
 * [目标移动应用程序常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+
+## 设备上决策
+
+* [at.js的设备上决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
 
 ## 报表
 

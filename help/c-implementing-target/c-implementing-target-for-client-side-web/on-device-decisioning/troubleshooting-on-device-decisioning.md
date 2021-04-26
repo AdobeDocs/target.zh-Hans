@@ -5,22 +5,16 @@ title: 如何通过at.js JavaScript库对设备上决策进行疑难解答？
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
 # 对at.js的设备上决策进行疑难解答
 
-完成以下步骤，以通过at.js JavaScript库解决Adobe Target中的设备上决策问题：
-
-1. 为at.js启用控制台日志
-1. 在浏览器的“网络”选项卡中验证规则对象下载
-1. 使用at.js自定义事件验证规则对象下载
-
-以下各节将更详细地描述每个步骤：
+完成以下步骤以对[!DNL Adobe Target]中使用at.js JavaScript库的设备上决策进行疑难解答：
 
 ## 第1步：为at.js启用控制台日志
 

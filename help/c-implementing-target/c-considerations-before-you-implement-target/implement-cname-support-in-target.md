@@ -6,9 +6,9 @@ feature: 隐私和安全
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1150'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
    >
    >Adobe的证书颁发机构DigiCert在此步骤完成之前无法颁发证书。 因此，在此步骤完成之前， [!DNL Adobe]无法满足您对CNAME实现的请求。
 
-1. [填写此表](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) 单并在打开请求CNAME [支持的Adobe Client Care票证时包含它](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [填写此表](/help/assets/FPC_Request_Form.xlsx) 单并在打开请求CNAME [支持的Adobe Client Care票证时包含它](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
    * Adobe[!DNL Target]客户端代码：
    * SSL证书主机名(示例：`target.example.com target.example.org`):

@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 97%
+source-wordcount: '1827'
+ht-degree: 96%
 
 ---
 
@@ -112,7 +112,7 @@ Cookie 有多个默认设置。您可以根据需要更改这些设置，但 Coo
 | Cookie 名称 | mbox。 |
 | Cookie 域 | 您从中提供内容的的第二级域和顶级域。由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`。 |
 | 服务器域 | `clientcode.tt.omtrdc.net`，使用您帐户的客户代码。 |
-| Cookie 持续时间 | Cookie会在访客上次登录后两年内保留在浏览器上。 您不能更改 Cookie 持续时间。 |
+| Cookie 持续时间 | Cookie会在访客上次登录后两年内保留在浏览器上。<br>在 `deviceIdLifetime` at.js版本2. [3.1或更高版本中设置可覆盖](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。有关更多信息，请参阅 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 |
 | P3P 政策 | 根据大多数浏览器默认设置的要求，使用 P3P 政策发布 Cookie。P3P 政策指示提供 Cookie 的浏览器以及使用该信息的方式。 |
 
 此 Cookie 保存一系列值，以控制您的访客体验营销活动的方式：

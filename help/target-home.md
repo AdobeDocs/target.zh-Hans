@@ -5,9 +5,9 @@ description: 了解如何使用Adobe [!DNL Target] 个性化您的客户体验�
 feature: 概述
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 25192c5e36bb823660f3fec8115d4cdfe7bd5995
+source-git-commit: 8ae55b82d4c733ce27277ec64e0188637ca96baa
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 43%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 43%
 ## Adobe峰会：数字体验大会
 
 [单击此处以了解有关Adobe峰会的更多信息！](https://business.adobe.com/summit/adobe-summit.html)
+
+所有时间太平洋夏令时(PDT)-7 GMT。
 
 ![峰会](/help/assets/summit-2021.png)
 

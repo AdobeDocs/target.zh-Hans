@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 95%
+source-wordcount: '635'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 95%
 | Request > notifications > view > key | 字符串 | 否 | `<=` 512 个字符。 | 视图键。通过 API 在视图中设置的键。 |
 | Request > notifications > view > state | 字符串 | 否 |  | 视图状态令牌。 |
 
-**注意**：`Request > notifications > mbox > name` 允许使用以下字符：
+**注意**:以下字符 ** 不可用 `Request > notifications > mbox > name`:
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'

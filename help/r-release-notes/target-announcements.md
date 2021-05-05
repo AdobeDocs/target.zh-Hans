@@ -5,9 +5,9 @@ title: 在哪里可以找到 [!DNL Target] 公告和事件?
 feature: 发行说明
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,20 @@ Adobe Target最近被Forrester和Gartner评为市场领导者。
 | --- | --- |
 | Forrester | **Adobe在Forrester wave报告中就体验优化平台被评为领导者。**<br> Adobe在《Forrester Wave:体验优化平台， 2020年第4季度报告，其中介绍了在此领域的产品，Adobe Target Premium。Adobe在当前产品和市场表现类别以及建议和平台体验标准中在所有参与的供应商中获得最高分。 目标 Premium在体验优化技术创新和支持服务标准方面也获得了最高分。 该报告基于对10家体验优化平台提供商进行的全面评估，评估范围涵盖22个标准。<br>在Adobe博客上 [阅读](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)。 |
 | Gartner | **Adobe再次在Gartner Magic Quadrant个性化引擎排行榜中被评为领导者。**<br> Adobe在2020年Gartner个性化引擎魔力象限报告中再次被评为领导者。Gartner Magic Quadrant for Personalization Engine（Gartner个性化引擎魔力象限）评估了属于两个类别的15个供应商：愿景和执行能力的完整性。<br>[在Adobe博客上了解它](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)。 |
+
+## Adobe Target社区问答咖啡
+
+* 2021年5月12日星期三
+* 上午8点(PDT， GMT-7)
+* [单击此处了解更多信息](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-5-12-21-8am-pt-shannon/td-p/405341)
+
+[!DNL Adobe Target]的集团产品经理Shannon Hamilton将登录[!DNL Target]社区，回答您有关她所在专业领域的问题：
+
+* 集成
+* 统一用户档案
+* 目标 Adobe Experience Platform(AEP)集成
+* 与其他Adobe解决方案进行点集成
+* 核心UI工作流
 
 ## 网络研讨会：利用Adobe Target提供的设备上决策，在零延迟时进行个性化和测试
 

@@ -5,10 +5,10 @@ description: 了解如何使用Adobe [!DNL Target] 个性化您的客户体验�
 feature: 概述
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 8ae55b82d4c733ce27277ec64e0188637ca96baa
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 43%
+source-wordcount: '697'
+ht-degree: 46%
 
 ---
 
@@ -18,15 +18,7 @@ ht-degree: 43%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-## Adobe峰会：数字体验大会
-
-[单击此处以了解有关Adobe峰会的更多信息！](https://business.adobe.com/summit/adobe-summit.html)
-
-所有时间太平洋夏令时(PDT)-7 GMT。
-
-![峰会](/help/assets/summit-2021.png)
-
-**上次更新时间：2021年4月27日(请参 [阅更改内容](r-release-notes/doc-change.md) )**
+**上次更新日期：2021 年 5 月 5 日（[请参阅“更改了哪些内容”](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >

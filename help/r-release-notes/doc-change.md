@@ -5,9 +5,9 @@ title: 在哪里可以视图文档更新以进行目标?
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '957'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 5 年 5 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 增加了有关将于2021年5月12日星期三上午8时举行的Adobe Target社区问答咖啡会的信息。(PDT， GMT-7)。 |
 | 27 年 4 月 | [Cookie 设置](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | 已更新主题，指示at.js版本2.3.1或更高版本中的Cookie持续时间（`deviceIdLifetime`设置）可覆盖。 |
 |  | [Adobe Target指南](/help/target-home.md) | 添加了有关Adobe峰会的信息。 |
 | 26 年 4 月 | [对at.js的设备上决策进行疑难解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 新主题。 |

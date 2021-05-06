@@ -6,9 +6,9 @@ feature: 实施服务器端
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -42,3 +42,7 @@ ht-degree: 0%
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
 
 有关更多视频和教程，请参阅[Adobe TargetTutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)指南。
+
+## Adobe技术博客 — 第1部分：运行[!DNL Adobe Target] NodeJS SDK，在边缘平台(Akamai Edge Workers)上进行试验和个性化
+
+[单击此处访问博客文章](https://medium.com/adobetech/part-1-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-4d8660964ed9)。

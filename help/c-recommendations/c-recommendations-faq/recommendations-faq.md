@@ -5,10 +5,10 @@ title: 在哪里可以找到关于 [!DNL Target] Recommendations的问题和答�
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
+source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
 workflow-type: tm+mt
-source-wordcount: '2957'
-ht-degree: 36%
+source-wordcount: '2940'
+ht-degree: 33%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 36%
 | --- | --- |
 | 通过mbox或API更新的项属性 | <ul><li>Recommendations将在15分钟内更新。</li><li>在更新可用之前，将显示现有推荐和项目属性。</li><li>目录搜索在目录索引后更新（3-8小时）。</li></ul> |
 | 通过源更新的物料属性 | <ul><li>Recommendations在收录后（2-8小时）进行更新。</li><li>在更新可用之前，将显示现有推荐和项目属性。</li><li>目录搜索在源摄取（2-8小时）和后续目录索引（3-8小时）后更新。 目录搜索在总共5-16小时内更新。</li></ul> |
-| 通过目标 UI或API从目录中删除的项目 | <ul><li>Recommendations将在15分钟内更新。</li><li>在更新可用之前，将显示现有推荐和项目属性。</li><li>目录搜索在目录索引后更新（3-8小时）。</li></ul> |
+| 通过[!DNL Target] UI或API从目录中删除的项目 | <ul><li>Recommendations将在15分钟内更新。</li><li>在更新可用之前，将显示现有推荐和项目属性。</li><li>目录搜索在目录索引后更新（3-8小时）。</li></ul> |
 | 通过mbox或API添加到目录的项目 | <ul><li>Recommendations在算法运行后更新。 算法运行计划为1-2天算法每12小时运行一次，7天以上算法每24小时运行一次。</li><li>如果添加的项目不是请求的密钥，则在更新可用之前显示现有推荐。</li><li>如果添加的项是请求的键，则在更新可用之前显示备份建议。</li><li>目录搜索在目录索引后更新（3-8小时）。</li></ul> |
 | 通过源添加到目录的项目 | <ul><li>Recommendations在摄入源后（2-8小时）进行更新。 对于1-2天算法，后续算法运行每12小时计划一次，对于7天以上的算法，每24小时计划一次。 Recommendations在2-32小时内更新。</li><li>如果添加的项目不是请求的密钥，则在更新可用之前显示现有推荐。</li><li>如果添加的项是请求的键，则在更新可用之前显示备份建议。</li><li>目录搜索在源摄取（2-8小时）和目录索引（3-8小时）后更新。 目录搜索在总共5-16小时内更新。</li></ul> |
 
@@ -65,8 +65,8 @@ ht-degree: 36%
 
 ## 用户的行为（例如，单击产品A和购买产品B）需要多长时间才能反映在用户收到的推荐&#x200B;*中？*
 
-* 当前查看/购买的产品/内容会影响用户在同一页面查看/目标内容请求中收到的推荐。
-* 历史用户行为（如“上次查看的产品”、“最常查看的产品”）和总体查看/购买历史记录将使用该请求进行更新，并影响用户在下一页查看/目标内容请求时收到的推荐。 例如，“最近查看的项目”和“推荐给您”算法会随每个产品视图/购买进行更新，并反映在后续内容请求中。
+* 当前查看/购买的产品/内容会影响用户在同一页面查看/[!DNL Target]内容请求上收到的推荐。
+* 历史用户行为（如“上次查看的产品”、“最常查看的产品”）和总体查看/购买历史记录将使用该请求进行更新，并影响用户在下一页查看/[!DNL Target]内容请求时收到的推荐。 例如，“最近查看的项目”和“推荐给您”算法会随每个产品视图/购买进行更新，并反映在后续内容请求中。
 
 ## 用户的行为（例如，单击产品A和购买产品B）需要多长时间才能反映在用户收到的推荐&#x200B;*其他*&#x200B;中？
 
@@ -95,32 +95,32 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果您使用mbox中存在类别ID的位置，则条件选取器包含所有适用的条件。
 
-目标具有[“筛选器不兼容条件](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)”设置，用于控制算法选取器的智能筛选。
+[!DNL Target] 具有“滤 [镜不兼](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) 容标准”以控制算法选取器的智能过滤。
 
 >[!NOTE]
 >
->此设置仅适用于在可视化体验编辑器 (VEC) 中创建的活动。此设置不适用于在基于表单的体验编辑器中创建的活动（Target 没有位置上下文）。
+>此设置仅适用于在可视化体验编辑器 (VEC) 中创建的活动。此设置不适用于在基于表单的体验编辑器中创建的活动（[!DNL Target]没有位置上下文）。
 
 要访问“[!UICONTROL 筛选不兼容的标准]”设置，请单击“[!UICONTROL 推荐]”>“[!UICONTROL 设置]”：
 
 ![](assets/recs_settings_filter.png)
 
-如果“[!UICONTROL 筛选不兼容的标准]”设置未启用，则 Target 不会对算法选择器中的算法进行筛选，因而会显示所有算法。
+如果“[!UICONTROL 筛选不兼容的标准]”设置未启用，则 不会对算法选择器中的算法进行筛选，因而会显示所有算法。[!DNL Target]
 
-如果“[!UICONTROL 筛选不兼容的标准]”设置已启用，则在 VEC 活动中，Target 会从选定的位置中读取实体 ID 和类别 ID，然后根据 `currentItem|currentCategory` 显示算法（前提是该位置中存在相应的值）。因此，默认情况下，算法选择器中仅会显示选定位置的兼容算法。
+如果启用了[!UICONTROL “筛选器不兼容标准]”设置，则在VEC活动中，[!DNL Target]从所选位置读取entityId和类别ID，然后显示基于`currentItem|currentCategory`的算法（如果该位置存在相应的值）。 因此，默认情况下，算法选择器中仅会显示选定位置的兼容算法。
 
 如果“[!UICONTROL 筛选不兼容的标准]”设置已启用，您仍然能够查看不兼容的算法，方法是在选择标准时取消选中“[!UICONTROL 兼容]”复选框。
 
 ![](assets/compatible_checkbox.png)
 
-下面列出了 Target 不会显示“[!UICONTROL 兼容]”复选框的几种特殊情况：
+以下列表包含一些特殊情况，其中[!DNL Target]不显示[!UICONTROL 兼容]复选框：
 
 * 位置中同时存在实体 ID 和类别 ID，在这种情况下将不进行任何筛选。
 * 您使用的是 [!DNL mbox.js] 版本 55 或更低版本。
 * 未从页面触发任何 mbox 调用 (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
-* 未定义 Target 参数。
+* [!DNL Target] 未定义参数。
 
-## 如果“推荐”中的某个收藏集变为零 (0)，我应该怎么做？  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## 如果“推荐”中的某个收藏集变为零 (0)，我应该怎么做？{#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 如果您看到某个之前不为零的收藏集变为零，请考虑以下信息：
 
@@ -132,7 +132,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 * 索引是否为最新？转到[!DNL /target/products.html#productSearch]并检查索引的存在时间（例如，“3小时前已索引”）。 如有需要，您可以刷新索引。
 * 您是否更改过信息源或数据层，从而导致实体不再匹配收藏集规则？请确保大小写匹配（区分大小写）。
 * 信息源是否已成功运行？是否有人更改了FTP目录、密码等？
-* Target 会尽可能在最短的时间内生成交付更新（在客户的页面/应用程序中）。但是，目标还必须在UI中为营销人员提供一些表示。 目标不会延迟投放更新以等待UI更新同步。 您可以使用 [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) 来查看收到请求时系统中包含哪些内容。
+* [!DNL Target] 会尽可能在最短的时间内生成交付更新（在客户的页面/应用程序中）。但是，[!DNL Target]还必须在UI中为营销人员提供一些表示形式。 [!DNL Target] 不会延迟投放更新以等待UI更新同步。您可以使用 [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) 来查看收到请求时系统中包含哪些内容。
 
 ## 一般的属性权重与特定于内容相似度的属性权重之间有何区别？{#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -150,7 +150,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 为什么[!DNL Target]有时无法显示建议？{#section_DB3F40673AED42228E407C05437D99E9}
 
-Target 有时无法显示推荐，原因在于可用推荐的数量过低。
+[!DNL Target] 有时无法显示推荐，原因在于可用推荐的数量过低。
 
 每个标准生成的值数是设计中指定的图元数的三倍。 运行时筛选（例如库存和 mbox 属性匹配）将在生成 3 倍的值后进行应用，因此有可能在交付时最终生成的值不足 3 倍。要缓解这种情况，请通过隐藏其他图元来增加设计中的图元数。
 
@@ -167,7 +167,7 @@ Target 有时无法显示推荐，原因在于可用推荐的数量过低。
 
 ## 用于插入/更新产品的 API 调用的大小限制是多少？我能否使用 API 而不是信息源在一次调用中更新 50,000 个产品？  {#section_434FE1F187B7436AA39B7C14C7895168}
 
-目标在应用程序级别规定50-MB的员额限制；但是，仅当传递`application/x-www-form-urlencoded`内容类型标题时，才会出现这种情况。
+[!DNL Target] 在应用程序级别规定50-MB的员额限制；但是，仅当您传递内容类 `application/x-www-form-urlencoded` 型标题时。
 
 您当然可以尝试在一次调用中发送 50,000 个产品。如果失败，您可以将其分批处理。 Adobe建议客户将其调用分为5,000或10,000个产品批，以降低系统负载导致超时的可能性。
 
@@ -190,7 +190,7 @@ Target 有时无法显示推荐，原因在于可用推荐的数量过低。
 
 ## 可用于信息源上传的 CSV 文件的最大大小是多少？  {#section_20F1AF4839A447B9889B246D6E873538}
 
-对于上传信息源的 CSV 文件，其行数或文件大小没有硬性限制。但是，作为最佳实践，Adobe建议将CSV文件大小限制为1 GB，以避免在文件上传过程中出现故障。 如果文件大小超过1 GB，理想情况下可以将其拆分为多个源文件。 自定义属性列的最大数量为 100，自定义属性限制为 4,096 个字符。[“目标限制”页面](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)中提供了对所需列长度的其他限制。
+对于上传信息源的 CSV 文件，其行数或文件大小没有硬性限制。但是，作为最佳实践，Adobe建议将CSV文件大小限制为1 GB，以避免在文件上传过程中出现故障。 如果文件大小超过1 GB，理想情况下可以将其拆分为多个源文件。 自定义属性列的最大数量为 100，自定义属性限制为 4,096 个字符。在[[!DNL Target] 限制页面](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)中，可以使用对所需列长度的其他限制。
 
 ## 是否可以动态排除实体？{#exclude}
 
@@ -198,7 +198,7 @@ Target 有时无法显示推荐，原因在于可用推荐的数量过低。
 
 要启用排除功能，请使用 `excludedIds` mbox 参数。此参数指向一个以逗号分隔的实体 ID 列表。例如，`mboxCreate(..., "excludedIds=1,2,3,4,5")`。该值将在请求推荐时发送。
 
-仅对当前目标调用执行排除；除非再次传递`excludedIds`值，否则在后续目标调用中不排除项。 要从每页的推荐中排除购物车中的项目，请继续在每页传递`excludedIds`值。
+仅对当前[!DNL Target]调用执行排除；除非再次传递`excludedIds`值，否则在后续[!DNL Target]调用中不排除项。 要从每页的推荐中排除购物车中的项目，请继续在每页传递`excludedIds`值。
 
 >[!NOTE]
 >

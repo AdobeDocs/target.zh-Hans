@@ -1,14 +1,14 @@
 ---
 keywords: 动态数据;资产;数据;选件;个性化选件;个人选件;令牌替换
-description: 了解如何将动态数据传递到Adobe [!DNL Target] 优惠。 浏览业务案例，了解您为何可能希望使用动态优惠、视图示例和实施信息。
+description: 了解如何将动态数据传递到 [!DNL Adobe Target] 优惠。 浏览业务案例，了解您为何可能希望使用动态优惠、视图示例和实施信息。
 title: 如何将动态数据传递到优惠?
 feature: 体验和优惠
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 77%
+source-wordcount: '519'
+ht-degree: 78%
 
 ---
 

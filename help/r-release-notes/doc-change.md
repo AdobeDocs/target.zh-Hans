@@ -5,10 +5,10 @@ title: 在哪里可以视图文档更新以进行目标?
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
+source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 29%
+source-wordcount: '1044'
+ht-degree: 27%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 6 年 5 月 | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：<ul><li>对我的[!UICONTROL Recommendations]活动、优惠、促销或标准设置的配置进行更改需要多长时间才能反映在我的网站上？</li><li>用户的行为（例如，单击产品A和购买产品B）需要多长时间才能反映在用户收到的推荐&#x200B;*中？*</li><li>用户的行为（例如，单击产品A和购买产品B）需要多长时间才能反映在用户收到的推荐&#x200B;*其他*&#x200B;中？</li></ul> |
 | 5 年 5 月 | [目标公告和事件](/help/r-release-notes/target-announcements.md) | 增加了有关将于2021年5月12日星期三上午8时举行的Adobe Target社区问答咖啡会的信息。(PDT， GMT-7)。 |
 | 27 年 4 月 | [Cookie 设置](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | 已更新主题，指示at.js版本2.3.1或更高版本中的Cookie持续时间（`deviceIdLifetime`设置）可覆盖。 |
 |  | [Adobe Target指南](/help/target-home.md) | 添加了有关Adobe峰会的信息。 |

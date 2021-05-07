@@ -1,20 +1,20 @@
 ---
 keywords: 发行说明
-description: 视图一列表Adobe Target早期版本中包含的功能、增强和修复。
-title: 先前版本包含哪些功能？
+description: 查看 Adobe Target 早期版本中包括的功能、增强和修补的列表。
+title: 早期版本中包括什么功能？
 feature: 发行说明
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '30799'
-ht-degree: 83%
+source-wordcount: '30798'
+ht-degree: 99%
 
 ---
 
 # 以前版本的发行说明
 
-以前目标版本的发行说明，包括Target Standard/Premium、目标平台和目标 Javascript库(at.js)的发行说明。
+早期 Target 版本的发行说明，包括 Target Standard/Premium、Target 平台和 Target Javascript 库 (at.js) 的发行说明。
 
 发行说明按发布年月按降序排列。
 
@@ -22,7 +22,7 @@ ht-degree: 83%
 >
 >请参阅 [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
-## 发行说明 — 2021
+## 发行说明 - 2021 年
 
 ### at.js 2.4.1（2021年3月23日）
 
@@ -37,181 +37,181 @@ ht-degree: 83%
 
 ### Target Standard/Premium 21.2.1（2021 年 3 月 9 日）
 
-此维护版本包含以下增强功能、修复和更改。
+此维护版本包含以下增强、修复和更改。
 
 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-* 增加了允许的优惠大小(TGT-38304):
+* 提高了允许的选件大小 (TGT-38304)：
 
-   | 类型 | 上一个限制 | 新限制 |
+   | 类型 | 以前的限制 | 新限制 |
    | --- | --- | --- |
    | HTML | 256KB | 1024KB |
-   | 来自目标UI的可视优惠 | 64KB | 每个体验1024 KB |
-   | 通过API | 512KB | 1024KB |
+   | Target UI 中的可视选件 | 64KB | 每个体验 1024 KB |
+   | 通过 API | 512KB | 1024KB |
 
-* [!UICONTROL 现] 在每天都 [!UICONTROL 会为自动目标] (AT)和 [!UICONTROL Automated Personalization] (AP)活动制作个性化见解报表。您可以选择一个报告，其中提供过去15、30和60天的[!UICONTROL 自动区段]或[!UICONTROL 重要属性]。 已删除45天和90天选项，以启用其他回顾窗口设置以每天运行。 (TGT-39472)
-* 修复了当客户在活动的[!UICONTROL 目标和设置]页面上单击[!UICONTROL 编辑依赖关系]时，导致当前依赖关系不显示的问题。 (TGT-39340)
-* 修复了刷新工作区[!UICONTROL 受众库]时的问题。 刷新之前，将显示当前选定工作区的受众。 刷新后，将显示[!UICONTROL 默认工作区]及其受众。 当前工作区及其受众现在在刷新后保留。 (TGT-38871)
-* 修复了在复制[!UICONTROL Recommendations]活动并稍后通过更改原始活动的条件序列来编辑其时出现的问题。 原始活动中条件序列的更改也错误地应用于复制的活动。 (TGT-39155)
-* 修复了导致[!UICONTROL Recommendations]排除显示的产品数不正确的问题。 (TGT-39599)
+* 现在每天都生成[!UICONTROL 自动定位] (AT) 和[!UICONTROL 自动个性化] (AP) 活动的[!UICONTROL 个性化见解]报表。可选择提供过去 15、30 和 60 天[!UICONTROL “自动化区段”]或[!UICONTROL “重要属性”]的报表。已删除 45 天和 90 天的选项以使其他回溯时段设置可每天运行。(TGT-39472)
+* 修复了客户在活动的[!UICONTROL “目标和设置”]页面上单击[!UICONTROL “编辑依赖项”]时导致不显示当前依赖项的问题。(TGT-39340)
+* 修复了在刷新工作区的[!UICONTROL “受众库”]时发生的问题。在刷新之前，显示当前所选工作区的受众。在刷新之后，显示[!UICONTROL “默认工作区”]及其受众。当前工作区及其受众在刷新之后继续存在。(TGT-38871)
+* 修复了在复制[!UICONTROL “推荐”]活动，然后通过更改其标准顺序而编辑原始活动时发生的问题。原始活动中标准顺序的更改也被错误地应用于复制的活动。(TGT-39155)
+* 修复了导致为[!UICONTROL “推荐”]排除项显示的产品数量有误的问题。(TGT-39599)
 
 ### Target Standard/Premium 21.1.1（2021 年 1 月 19 日） 
 
-此维护版本包含以下增强功能、修复和更改。
+此维护版本包含以下增强、修复和更改。
 
 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-* 在[!UICONTROL 自动目标]活动中，将[!UICONTROL Analytics用作报告源](A4T)时，选择[!DNL Adobe Analytics]量度时添加了警告。 [!UICONTROL 自动定] 位模型经过优化，可与二进制（基于转换）指标结合使用。选择连续量度（如收入）可能会产生次优结果，而[!UICONTROL 个性化分析]报表可能不准确。 (TGT-38926)
-* 在使用A4T的[!UICONTROL 自动目标]活动的[!UICONTROL 自动目标摘要]报告中添加了状态图标。 报表中每个体验旁边的绿色复选标记表示已为该体验生成个性化的机器学习模型。时钟图标表示用于构建模型的流量不足。(TGT-38925)
-* 生成[!UICONTROL 自动区段]和[!UICONTROL 重要属性]报告，用于[!UICONTROL 使用A4T和[!DNL Analytics]转换量度的自动目标]活动，其外观与使用[!DNL Target]作为报告源时相同。 (TGT-38931)
-* 在[!UICONTROL Recommendations] [!UICONTROL 集合]列表中添加了环境过滤选项。 (TGT-38353)
-* 修复了导致在[!UICONTROL Recommendations]集合中显示不正确的产品计数的问题。 (TGT-39162)
-* 向[!UICONTROL Recommendations][!UICONTROL 目录搜索]添加了[!UICONTROL 上次更新]筛选器。 (TGT-38340)
-* 修复了[!UICONTROL Recommendations]中的一个问题，该问题导致在更改行业垂直后，[!UICONTROL 创建序列]页面挂起。 (TGT-38160)
-* 修复了在启用设备协作后，用户从[!DNL Target]作为活动源更改为[!DNL Analytics](A4T)时，无法保存报告的问题。 (TGT-38163)
-* 修复了阻止用户从[!UICONTROL Automated Personalization](AP)活动中的优惠中删除受众的问题。 (TGT-39058)
-* 修复了导致某些客户在[!UICONTROL 受众信息]卡中显示不正确的时间范围(开始和结束日期)的问题。 (TGT-39150)
-* 修复了导致某些客户无法在[!UICONTROL 默认工作区]中看到活动列表的问题。 (TGT-38526)
+* 添加了一个警告，在[!UICONTROL 自动定位]活动中使用 [!UICONTROL Analytics 作为报表源] (A4T) 时选择 [!DNL Adobe Analytics] 指标时显示该警告。[!UICONTROL 自动定位]模型经过优化，可与二分（基于转化）指标配合工作。选择连续指标（如收入）可能会产生次优结果，并且[!UICONTROL 个性化见解]报表可能不准确。(TGT-38926)
+* 在使用 A4T 的[!UICONTROL 自动定位]活动的[!UICONTROL 自动定位摘要]报表中添加了一个状态图标。报表中每个体验旁边的绿色复选标记表示已为该体验生成个性化的机器学习模型。时钟图标表示用于构建模型的流量不足。(TGT-38925)
+* 生成了使用 A4T 和 [!DNL Analytics] 转化指标的[!UICONTROL 自动定位]活动的[!UICONTROL “自动化区段”]和[!UICONTROL “重要属性”]报表，但这些报表看上去与使用 [!DNL Target] 作为报表源时相同。(TGT-38931)
+* 将一个环境筛选选项添加到[!UICONTROL 推荐][!UICONTROL 收藏集]列表。(TGT-38353)
+* 修复了导致在[!UICONTROL “推荐”]收藏集中显示的产品数量有误的问题。(TGT-39162)
+* 将一个[!UICONTROL “上次更新时间”]筛选条件添加到[!UICONTROL 推荐][!UICONTROL 目录搜索]。(TGT-38340)
+* 修复了[!UICONTROL 推荐]中的一个问题，该问题导致在更改行业垂直领域之后[!UICONTROL “创建序列”]页面挂起。(TGT-38160)
+* 修复了一个问题，如果启用了 Device Co-op，并且用户从将 [!DNL Target] 作为报表源变为 [!DNL Analytics] (A4T)，则该问题阻止保存活动。(TGT-38163)
+* 修复了一个问题，该问题阻止用户从[!UICONTROL 自动个性化] (AP) 活动中的某个选件删除受众。(TGT-39058)
+* 修复了一个问题，该问题导致在某些客户的[!UICONTROL “受众信息”]卡片中显示的时间范围（开始和结束日期）有误。(TGT-39150)
+* 修复了一个问题，该问题阻止某些客户在[!UICONTROL 默认工作区]中看到活动的列表。(TGT-38526)
 
-### at.js 2.4.0（2021年1月14日）
+### at.js 2.4.0（2021 年 1 月 14 日）
 
-此版本的at.js是维护版本，包括以下修复：
+at.js 的此版本是一个维护版本，其中包括以下修复：
 
-* 为投放 API customerId添加了对统一用户档案/平台ID的支持。
-* 修复了无效样式标签插入。
+* 新增支持将个人资料/平台 ID 统一成投放 API customerID。
+* 修复了无效的样式标签注入。
 
-## 发行说明 — 2020
+## 发行说明 - 2020 年
 
 ### Target Standard/Premium 20.10.1（2020 年 10 月 27 日） 
 
-此版本包含以下新增功能：
+此版本包含以下新功能：
 
 | 功能 | 详细信息 |
 | --- | --- |
-| [设备上决策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 在设备上决策允许营销人员和产品开发人员在接近零的延迟下，从用户设备内跨渠道交付实验和机器学习驱动的个性化。<br>速度和性能至关重要 — 在客户洞察和用户满意度方面。<br>通过设备决策，您可以将A/B测试和体验定位(XT)活动类型中的关键个性化和实验说明编译为“优化对象：”JSON对象，这些对象通过CDN加载到客户设备上。由于设备上决策与[!DNL Adobe Experience Cloud]产品本机连接，[!DNL Target]用户可获得快速分析和更快的体验迭代。<br>有关详细信息，请参[阅*设备决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)。 |
+| [设备上决策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 通过设备上决策，营销人员和产品开发人员均可在用户的设备内跨渠道几乎无延迟地提供试验性和机器学习驱动的个性化。<br>速度和性能至关重要 - 对于客户见解和用户满意度。<br>通过设备上决策，可将 A/B 测试和体验定位 (XT) 活动类型中的关键个性化和试验指令编译为“优化工件”：通过 CDN 加载到客户设备上的 JSON 对象。并且由于设备上决策与 [!DNL Adobe Experience Cloud] 产品存在固有联系，因此 [!DNL Target] 用户可获得快速的分析和更快的体验迭代。<br>有关详细信息，请参阅 *[设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)。 |
 
 此版本包含以下增强、修复和更改：
 
-* 修复了阻止[!UICONTROL 平均提升置信度间隔]和[!UICONTROL 置信度]在[!UICONTROL 总计]行的[!DNL Auto-Target]报告中显示的问题。 正确显示所有个体体验的度量值。 (TGT-37301)
-* 修复了从9月15日下午2:30开始影响[!DNL Adobe Target Premium]用户[!UICONTROL 自动目标]报告的问题。（太平洋夏令时）至10月6日上午9点25分(PDT)。 查看受影响转换量度的报表（使用“[!UICONTROL 已查看页面]”或“[!UICONTROL 已单击mbox]”选项进行配置）时，会错误报告转换率。 此时没有已知的投放问题。 有关如何重新同步和更正报告的信息，请参见&#x200B;*已解决问题*&#x200B;中的&#x200B;*已解决问题*&#x200B;下的[自动目标报告](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)。
-* 在[!UICONTROL 目录搜索]表中添加了可选的[!UICONTROL 上次更新时间]列和[!UICONTROL 上次更新时间]过滤器。 此增强功能可节省时间和精力，因为您不必打开每个项目即可查看上次更新的时间，并且您可以按上次更新项目的日期进行筛选。
+* 修复了一个问题，该问题阻止在 [!DNL Auto-Target] 报表中为[!UICONTROL “总计”]列显示[!UICONTROL “平均提升置信区间”]和[!UICONTROL “置信度”]。但可正确地显示所有个别体验的测量结果。(TGT-37301)
+* 修复了一个问题，该问题在 9 月 15 日下午 2:30 (PDT) 至 10 月 6 日上午 9:25 (PDT) 影响 [!DNL Adobe Target Premium] 用户的[!UICONTROL 自动定位]报表。在查看（使用“[!UICONTROL 查看了某个页面]”或“[!UICONTROL 单击了 mbox]”选项配置的）受影响的转化指标的报表时，所报告的转化率有误。目前没有已知的投放问题。有关如何重新同步和纠正报表的信息，请在&#x200B;*已知问题和已解决的问题*&#x200B;中的&#x200B;*已解决的问题*&#x200B;下参阅[自动定位报表](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)。
+* 在[!UICONTROL “目录搜索”]表中添加了一个可选的[!UICONTROL “上次更新时间”]列，并添加了一个[!UICONTROL “上次更新时间”]筛选条件。此增强可节省时间和精力，因为不必打开每个单独的项目以查看上次更新它的时间，并可按上次更新这些项目的日期进行筛选。
 
-   ![上次在列和滤镜处更新的插图](/help/r-release-notes/assets/column-and-filter.png)
+   ![“上次更新时间”列和筛选条件的插图](/help/r-release-notes/assets/column-and-filter.png)
 
-* 更新旨在帮助使目标 UI符合[Web内容可访问性准则](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 A级和AA成功标准(WCAG 2.0 AA)。 （TGT-34384 和 TGT-24679）
-* 对内容安全策略(CSP)进行了改进。 (TGT-37035)
-* 介绍了一种将客户端代码指定为使用CNAME的客户参数的方法。 (TNT-38571)
-* [!DNL Adobe Experience Cloud] 文档正在移 [!DNL Experience League]至在10月份，所有发行说明、文章、视频和教程都将从当前位于`docs.adobe.com`的位置移动到[!DNL Experience League]。 此移动可确保从单一位置提供所有学习、自助、支持和社区内容。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到[!DNL Experience League]。 我们将在切换开始时更新发行说明。
+* 作出了更新，以帮助使 Target UI 符合 [Web 内容无障碍指南](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 A 和 AA 级成功标准 (WCAG 2.0 AA)。（TGT-34384 和 TGT-24679）
+* 在内容安全策略 (CSP) 方面作出了改进。(TGT-37035)
+* 引入了一种使用 CNAME 为客户以参数形式指定客户端代码的方式。(TNT-38571)
+* [!DNL Adobe Experience Cloud] 文档正在移至 [!DNL Experience League]。在 10 月份，所有发行说明、文章、视频和教程都将从其当前位置 `docs.adobe.com` 移至 [!DNL Experience League]。此举确保从一处即可提供所有学习、自助、赋能和社区内容。在发生此更改时，您无需做任何事，因为所有链接都将重定向到 [!DNL Experience League]。开始割接后，我们将更新发行说明。
 
 ### Target Standard/Premium 20.9.1（2020 年 9 月 30 日）
 
 此维护版本包含以下增强、修复和更改：
 
-* 改进了仅键盘用户的导航和功能。 (TGT-34487、TGT-34516、TGT-34517、TGT-34514)
-* 在UI中添加了标签以帮助用户使用辅助技术。 (TGT-34500、TGT-34501、TGT-34502、TGT-24504)
-* 改进了UI中图像和文本的文本和颜色对比度。 (TGT-34513)
+* 为仅使用键盘的用户改进了导航和功能。（TGT-34487、TGT-34516、TGT-34517、TGT-34514）
+* 在 UI 中添加了若干标签以帮助用户使用辅助技术。（TGT-34500、TGT-34501、TGT-34502、TGT-24504）
+* 改进了 UI 中图像和文本的文本和颜色对比度。(TGT-34513)
 
 ### Target Standard/Premium 20.8.3（2020 年 9 月 15 日）
 
 | 功能 | 详细信息 |
 | --- | --- |
-| ![针对](/help/assets/premium.png) 目标的高级徽章分析(A4T)支持自动目标活动 | [!UICONTROL 自动定] 位活动现在支 [持Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此集成允许您使用自 [!UICONTROL 动定] 位机器学习算法，根据访客的用户档案、行为和上下文为每个选择最佳体验。<br>如果您已实施A4 [T以](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 便与A/B测试和体验定位活动一起使用，您就可以了！<br>有关详细信息，请 [参阅A4T支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
+| ![Premium 徽章](/help/assets/premium.png) 自动定位活动支持 Analytics for Target (A4T) | [!UICONTROL 自动定位]活动现在支持 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>通过这种整合，可使用[!UICONTROL 自动定位]集成机器学习算法，根据每位访客的个人资料、行为和上下文选择最适合该访客的体验。<br>如果您已[实现了 A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 与 A/B 测试和体验定位活动结合使用，那么您已经一切就绪！<br>有关详细信息，请参阅[自动分配和自动定位活动支持 A4T](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
 
 ### Target Standard/Premium 20.8.2（2020 年 9 月 10 日）
 
 | 功能 | 详细信息 |
 | --- | --- |
-| ![高级徽](/help/assets/premium.png) 章控制标准序列中的推荐插槽 | 标准序列现在允许您控制每个推荐标准占用的槽数，使您能够混合和匹配不同类型的项目或不同的算法逻辑。<br>请参 [阅创建](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) 条件序列以了解更多信息。 |
+| ![Premium 徽章](/help/assets/premium.png) 在标准序列中控制推荐空位 | 现在，通过“标准序列”可控制每个推荐标准占用的空位数，使您可混搭不同类型的项目或不同的算法逻辑。<br>请参阅[创建标准序列](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence)以了解详情。 |
 
 ### Target Standard/Premium 20.8.1（2020 年 9 月 2 日）
 
 此版本包含以下增强、修复和更改：
 
-* 修复了在切换组织后加载新的[!UICONTROL 管理]页面时导致显示错误的问题。 (TGT-37730)
-* 修复了导致在[!UICONTROL “管理”>“实施”]页上显示错误客户端代码的显示问题。 (TGT-37849)
-* 修复了成功加载VEC后，用户有时无法使用[!UICONTROL 可视体验书写器](VEC)中的编辑功能的问题。 (TGT-37162)
-* 修复了即使安装了VEC帮助程序扩展，也无法在VEC和增强体验书写器(EEC)中加载页面的问题。 这是由于Google Chrome 80+中的更改。 下载[更新的VEC Helper扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)。 (TGT-37893)
-* 修复了在切换组织后，有时会阻止用户从[!UICONTROL “管理”>“实施”]页面下载at.js的问题。 (TGT-37668)
-* 加载时，如果用户多次单击“下载”按钮，将禁用at.js下载按钮，以阻止[!DNL Target]发送多个请求。 (TGT-37633)
-* 修复了[!UICONTROL 体验定位](XT)活动中导致体验在较长时间段内显示“获取结果”的问题。 (TGT-37684)
-* 改进了仅键盘用户的导航和功能。 （TGT-34479 和 TGT-34473）
-* 在UI中添加了标签以帮助用户使用辅助技术。 (TGT-34480)
-* 改进了删除活动中当前使用的移动视图时的错误消息。 错误消息现在显示：&quot;此视口当前与一个或多个活动关联。 您需要先从这些活动中删除视口，然后才能删除它。” (TGT-37030)
-* 在VEC中添加了支持，以允许对与页面中多个元素匹配的css选择器进行单击跟踪。 (TGT-37323)
-* 修复了阻止某些用户显示[!UICONTROL 活动]列表的问题。 显示以下错误消息：&quot;无法获取URL建议。&quot; 对于在Adobe后端系统中使用回车符返回其FirstName(FirstName/r/n)的用户，发生错误。 (TGT-37330)
-* 修复了当工作区名称(在[!UICONTROL  Adobe Admin Console for Enterprise]中指定)包含撇号时，用户无法显示[!UICONTROL 活动]页的问题。 (TGT-37709)
-* 修复了在选择优化和转换量度时，在[!UICONTROL 自动分配]活动中出现的一个问题，即使已指定报表包，错误消息也会错误通知用户选择报表包。 (TGT-37689)
-* 修复了在导航到[!UICONTROL 定位]页面后返回后，有时导致[!UICONTROL 目标和设置]页面上的量度为空的问题。 (TGT-37691)
-* 修复了导致[!DNL Recommendations]条件的上次修改值不正确的问题。 (TGT-37666)
-* 修复了导致mbox ID显示在Mbox下拉列表而不是mbox名称中的问题。 (TGT-37739)
+* 修复了一个问题，该问题在切换组织后加载新的[!UICONTROL “管理”]页面时导致显示错误。(TGT-37730)
+* 修复了一个显示问题，该问题导致在[!UICONTROL “管理”>“实现”]页面上显示的客户端代码有误。(TGT-37849)
+* 修复了一个问题，该问题有时在成功加载 VEC 之后阻止用户使用[!UICONTROL 可视体验编辑器] (VEC) 中的编辑功能。(TGT-37162)
+* 修复了一个问题，即使装有 VEC Helper 扩展程序，该问题也会阻止在 VEC 和增强体验编辑器 (EEC) 中加载页面。这是 Google Chrome 80 和更高版本中的一些变化所致。下载[更新的 VEC Helper 扩展程序](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)。(TGT-37893)
+* 修复了一个问题，该问题在切换组织后有时阻止用户从[!UICONTROL “管理”>“实现”]页面下载 at.js。(TGT-37668)
+* 现在加载时禁用了 at.js 下载按钮，以防如果用户多次单击下载按钮，[!DNL Target] 发送多个请求。(TGT-37633)
+* 修复了[!UICONTROL 体验定位] (XT) 活动的一个问题，该问题导致体验长时间显示“正在获取结果”。(TGT-37684)
+* 为仅使用键盘的用户改进了导航和功能。（TGT-34479 和 TGT-34473）
+* 在 UI 中添加了若干标签以帮助用户使用辅助技术。(TGT-34480)
+* 改进了删除活动中当前使用的移动视口时的错误消息。该错误消息现在显示为：“此视口当前与一个或多个活动相关联。您需要先从这些活动中删除视口，然后才能将其删除。”(TGT-37030)
+* VEC 中新增支持对与页面中多个元素匹配的 css 选择器进行点击跟踪。(TGT-37323)
+* 修复了一个问题，该问题阻止某些用户显示[!UICONTROL “活动”]列表。显示以下错误消息：“无法获取 URL 建议。”在 Adobe 后端系统中对于在其名字中使用回车 (FirstName/r/n) 的用户发生该错误。(TGT-37330)
+* 修复了一个问题，如果（在 [!UICONTROL Adobe Admin Console 企业版]中指定的）工作区名称包含撇号，则该问题阻止用户显示[!UICONTROL “活动”]页面。(TGT-37709)
+* 修复了在选择优化和转化指标时[!UICONTROL 自动分配]活动中的一个问题：即使已指定报表套件，仍有一条错误消息不正确地通知用户选择报表套件。(TGT-37689)
+* 修复了一个问题，在导航到[!UICONTROL “定向”]页面然后返回之后，该问题有时导致[!UICONTROL “目标和设置”]页面上的指标为空。(TGT-37691)
+* 修复了一个问题，该问题导致 [!DNL Recommendations] 标准的 last-modified 值不正确。(TGT-37666)
+* 修复了一个问题，该问题导致在 mbox 下拉列表中显示 mbox ID 而非 mbox 名称。(TGT-37739)
 
-### at.js 2.3.2（2020年7月24日）
+### at.js 2.3.2（2020 年 7 月 24 日）
 
-此版本的at.js是维护版本，包含以下修复：
+at.js 的此版本是一个维护版本，其中包括以下修复：
 
-* 修复了脚本或代码向窗口或文档添加默认属性时的错误。
+* 修复了脚本或代码将默认属性添加到窗口或文档时产生的错误。
 
 ### Target Standard/Premium 20.7.1（2020 年 7 月 27 日） 
 
 此版本包含以下更改：
 
-#### [!UICONTROL 管] 理部分UI刷新
+#### [!UICONTROL “管理”]部分 UI 更新
 
-我们正在逐步使用新技术堆栈重写整个[!DNL Target] UI，以便能够优惠改进的性能、减少发布新功能时所需的维护时间以及改善整个产品的用户体验。 刷新的第一部分是[!UICONTROL Setup]部分，该部分已更名为[!UICONTROL Administration]。
+我们正在使用新技术栈逐渐改写整个 [!DNL Target] UI 以提高性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。更新的第一部分是[!UICONTROL “设置”]部分，它已被重命名为[!UICONTROL “管理”]。
 
-作为此刷新的一部分，您将能够使用[!UICONTROL 管理]部分中的页面轻松执行许多操作，例如：
+作为此更新的一部分，您将可使用[!UICONTROL “管理”]部分中的页面轻松地执行许多操作，如：
 
-* 从[!UICONTROL 实施]选项卡（**[!UICONTROL 管理]** > **[!UICONTROL 实施]**）下载最新的at.js文件。
-* 自定义您的at.js设置，并能够轻松查看您的更改（**[!UICONTROL 管理]** > **[!UICONTROL 实施]**）。
-* 修改增强的报告设置，如默认货币和时区、要从报告中排除的IP等。 (**[!UICONTROL 管理]** > **[!UICONTROL 报告]**)
-* 出于隐私原因模糊访客IP地址（**[!UICONTROL 管理]** > **[!UICONTROL 实施]**）
-* 在Adobe Admin Console（**[!UICONTROL 管理]** > **[!UICONTROL 用户]**）中管理用户之前，视图每个工作区及其角色的现有列表。
-* 搜索并筛选[!UICONTROL 管理]部分中的所有表。
+* 从[!UICONTROL “实现”]选项卡下载最新的 at.js 文件（**[!UICONTROL “管理”]**>**[!UICONTROL “实现”]**）。
+* 自定义您的 at.js 设置，并可轻松地检查您的更改（**[!UICONTROL “管理”]**>**[!UICONTROL “实现”]**）。
+* 修改增强的报表设置，如默认货币和时区、要从报表中排除的 IP 等等。（**[!UICONTROL “管理”]**>**[!UICONTROL “报表”]**）
+* 出于隐私原因，混淆访客 IP 地址（**[!UICONTROL “管理”]**>**[!UICONTROL “实现”]**）
+* 在 Adobe Admin Console 中查看每个工作区现有用户及其角色的列表，然后再管理用户（**[!UICONTROL “管理”]**>**[!UICONTROL “用户”]**）。
+* 在[!UICONTROL “管理”]部分中搜索和筛选所有表。
 
-有关详细信息，请参阅[管理目标概述](/help/administrating-target/administrating-target.md)。
+有关详细信息，请参阅[管理 Target 概述](/help/administrating-target/administrating-target.md)。
 
 #### 增强功能、修复和变更
 
 此版本包含以下增强、修复和更改：
 
-* 修复了在刷新后无法保留站点首选项的问题。 (TGT-37239)
-* 修复了导致[!UICONTROL 在]>[!UICONTROL 图像]之后插入无法对可缩放矢量图形(SVG)图像正常工作的问题。 (TGT-37242)
-* 修复了具有[!UICONTROL 发布者]角色的用户无法删除草稿活动的问题。 (TGT-37358)
-* 修复了在选择[!UICONTROL “我的所有工作区]”时，用户无法编辑活动的问题。 (TGT-37276)
+* 修复了一个问题，该问题阻止在刷新后保留网站首选项。(TGT-37239)
+* 修复了一个问题，该问题阻止[!UICONTROL “在此之后插入”]>[!UICONTROL “图像”]对可缩放矢量图形 (SVG) 图像正常发挥作用。(TGT-37242)
+* 修复了具有[!UICONTROL “发布者”]角色的用户的一个问题，该问题阻止删除活动草案。(TGT-37358)
+* 修复了一个问题，在选择了[!UICONTROL “我的所有工作区”]时，该问题阻止用户编辑活动。(TGT-37276)
 
 ### Target Standard/Premium 20.5.1（2020 年 6 月 17 日） 
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Analytics for Target (A4T) 支持[!UICONTROL 自动分配]活动 | [!UICONTROL 自动分] 配活动现在支 [持Analytics进行目标](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>此集成允许您使用自动 [!UICONTROL 分配] 多重绑定功能，在使用Adobe Analytics目标量度和/或Adobe分析报告和分析功能时 [!UICONTROL 推动流]   量增长以赢取体验。<br>如果您已实施A4 [T以](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 便与A/B测试和体验定位活动一起使用，您就可以了！<br>有关详细信息，请 [参阅A4T支持自动分配和自动目标活动](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
-| 用于自动目标和Automated Personalization活动的流量分配方法的响应令牌 | 已向[!UICONTROL 自动目标]和[!UICONTROL Automated Personalization]活动添加了两个[响应令牌](/help/administrating-target/response-tokens.md)，以便确定访客是否因被分配到“控制”或“目标”流量而获得了特定体验。<ul><li>`experience.trafficAllocationId` 如果访客从“控制”流量中获得体验，则返回0；如果访客从“目标”流量分配中获得体验，则返回1。</li><li>`experience.trafficAllocationType` 将返回“control”或“targeted”。</li></ul>有关控制与目标流量的详细信息，请参阅[选择Automated Personalization控件或自动目标活动](/help/c-activities/t-automated-personalization/experience-as-control.md)。 |
-| [!UICONTROL Publisherrole]  | 此新角色与当前[!UICONTROL Observer]角色类似(可以视图活动，但无法创建或编辑它们)。 但是，[!UICONTROL Publisher]角色具有激活活动的附加权限。<br>有关详细信息，请参阅： <ul><li>**目标标准用户**: [指定用户](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 的角 *色和权限*。</li><li>**目标 Premium用户**: [第6步：指定配置企](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 业权 *限中的角色和权限*。</li></ul> |
-| 2020年6月25日[!DNL Analysis Workspace]<br>中支持A4T | [!UICONTROL 现在，中支持目标] (A4T)的分析 [!DNL Analysis Workspace]。通过[!UICONTROL “目标分析(A4T)”面板]可分析[!DNL Analysis Workspace]中的[!DNL Adobe Target]活动和体验。<br>有关详细信息，请参 [阅《分析](/help/c-integrating-target-with-mac/a4t/reporting.md) 工具指南》(A4T) *中的Analytics* A4T报表 [和目标(A4T)面板中](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 的“报 **&#x200B;告”和“分析”(Analytics)面板。 |
+| Analytics for Target (A4T) 支持[!UICONTROL 自动分配]活动 | [!UICONTROL 自动分配]活动现在支持 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)。<br>通过这种整合，可在使用 [!UICONTROL Adobe Analytics] 目标指标和/或 [!UICONTROL Adobe Analytics] 报表和分析功能的同时，使用[!UICONTROL 自动分配]多臂赌博机功能将流量引向入选体验。<br>如果您已[实现了 A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 与 A/B 测试和体验定位活动结合使用，那么您已经一切就绪！<br>有关详细信息，请参阅[自动分配和自动定位活动支持 A4T](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
+| 自动定位和自动个性化活动的流量分配方法的响应令牌 | 已将两个[响应令牌](/help/administrating-target/response-tokens.md)添加到[!UICONTROL 自动定位]和[!UICONTROL 自动个性化]活动，以确定访客获得特定体验是因为被分配给“control”流量还是“targeted”流量。<ul><li>如果访客因处于“control”流量中而获得体验，则 `experience.trafficAllocationId` 将返回 0，如果访客从“targeted”流量分配获得体验，则将返回 1。</li><li>`experience.trafficAllocationType` 将返回“control”或“targeted”。</li></ul>有关对照流量与针对性流量的详细信息，请参阅[为您的“自动个性化”或“自动定位”活动选择对照](/help/c-activities/t-automated-personalization/experience-as-control.md)。 |
+| [!UICONTROL 发布者]角色 | 这个新角色类似于当前的[!UICONTROL 观察者]角色（可查看活动，但无法创建或编辑活动）。但是，[!UICONTROL 发布者]角色另有激活活动的权限。<br>有关详细信息，请参阅： <ul><li>**Target Standard 用户**：在&#x200B;*“用户”*&#x200B;中[指定角色和权限](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。</li><li>**Target Premium 用户**：在&#x200B;*“配置企业权限”*&#x200B;中[步骤 6：指定角色和权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80)。</li></ul> |
+| 在 [!DNL Analysis Workspace]<br> 中支持 A4T 2020 年 6 月 25 日 | 现在 [!DNL Analysis Workspace] 中支持 [!UICONTROL Anaytics for Target] (A4T)。通过 [!UICONTROL Analytics for Target (A4T) 面板]，可分析您在 [!DNL Analysis Workspace] 中的 [!DNL Adobe Target] 活动和体验。<br>有关详细信息，请参阅“A4T 报表”**&#x200B;中的 [Analytics 中的报表](/help/c-integrating-target-with-mac/a4t/reporting.md)和《Analytics 工具指南》**&#x200B;中的 [Analytics for Target (A4T) 面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hans)。 |
 
 **增强功能、修复和变更**
 
-* 修复了导致“访客”量度存储在活动定义中而非“UniqueVisitors”的问题。 (TGT-37098)
-* 修复了[!DNL Target] UI中导致垂直滚动条在[!UICONTROL 受众]页面上无法正确工作的问题。 (TGT-36968)
+* 修复了一个问题，该问题导致在活动的定义中存储“visitors”指标而非“UniqueVisitors”。(TGT-37098)
+* 修复了 [!DNL Target] UI 中的一个问题，该问题导致[!UICONTROL “受众”]页面上的垂直滚动条无法正常工作。(TGT-36968)
 
-### at.js 1.8.2和at.js 2.3.1版本（2020年6月15日）
+### at.js 1.8.2 和 at.js 2.3.1 版本（2020 年 6 月 15 日）
 
-[!DNL Target] at.js库中进行了以下改进和修复：
+在 [!DNL Target] at.js 库中已作出以下改进和修复：
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| at.js 1.8.2 | 此版本的at.js是维护版本，包含以下修复：<ul><li>修复了使用CNAME和边缘覆盖时at.js 1的问题。*xmight* 可能创建了服务器域，导致请 [!DNL Target] 求失败。(TNT-35064)</li></ul>有关详细信息，请参阅[at.js版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。 |
-| at.js 2.3.1 | 此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：<ul><li>使`deviceIdLifetime`设置通过[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)可覆盖。 (TNT-36349)</li><li>修复了使用CNAME和边缘覆盖时at.js 2的问题。*xmight* 可能创建了服务器域，导致请 [!DNL Target] 求失败。(TNT-35065)</li><li>修复了使用[!DNL Target] [!DNL Launch]扩展v2和[!DNL Adobe Analytics] [!DNL Launch]扩展时， [!DNL Target]延迟[!DNL Analytics] `sendBeacon`调用的问题。 (TNT-36407,TNT-35990,TNT-36000)</li></ul>有关详细信息，请参阅[at.js版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。 |
+| at.js 1.8.2 | at.js 的此版本是一个维护版本，其中包括以下修复：<ul><li>修复了在使用 CNAME 和边缘覆盖 at.js 1 时出现的问题。*x* 可能无法正确地创建服务器域，从而导致了 [!DNL Target] 请求失败。(TNT-35064)</li></ul>有关详细信息，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。 |
+| at.js 2.3.1 | 此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：<ul><li>使得可通过 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 覆盖 `deviceIdLifetime` 设置。(TNT-36349)</li><li>修复了在使用 CNAME 和边缘覆盖 at.js 2 时出现的问题。*x* 可能无法正确地创建服务器域，从而导致了 [!DNL Target] 请求失败。(TNT-35065)</li><li>修复了一个问题，在使用 [!DNL Target] [!DNL Launch] 扩展程序 v2 和 [!DNL Adobe Analytics] [!DNL Launch] 扩展程序时，[!DNL Target] 延迟了 [!DNL Analytics] `sendBeacon` 调用。（TNT-36407、TNT-35990、TNT-36000）</li></ul>有关详细信息，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。 |
 
-### 用户档案批处理状态API v2更改（2020年5月14日）
+### 个人资料批次状态 API v2 变更（2020 年 5 月 14 日）
 
-在5月20日版本中，“用户档案批处理”状态将仅返回行级故障数据（将不返回成功数据）。 未通过的用户档案ID将由API返回。
+从 5 月 20 日发布起，以后个人资料批次状态将仅返回行级失败数据（将不返回成功数据）。以后将由 API 返回失败的个人资料 ID。
 
-以前和新的API响应如下：
+以前和新的 API 响应如下：
 
 `ProfileBatchStatus Api
 http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 
-**目前，我们将响应视为：**
+**目前，我们看到的响应是：**
 
 ```
 <response>
@@ -249,7 +249,7 @@ http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 </response>
 ```
 
-**5月4日之后，我们将作出回应：**
+**5 月 4 日之后，响应将为：**
 
 ```
 <response>
@@ -275,167 +275,167 @@ http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 
 此版本包含以下增强、修复和更改：
 
-* 修复了对受众错误限定设备和浏览器类型的问题。 (TGT-36266)
-* 修复了在963像素以下的屏幕上查看报表数据时无法显示的问题。 (TGT-36549)
-* 修复了导致自动个性化报表无法正确呈现的问题。 (TGT-36619)
-* 修复了允许在使用Analytics进行目标(A4t)的“自动分配”和“自动目标”活动中选择不兼容量度的问题。 (TGT-36646)
-* 修复了导致Visual Experience Composer(VEC)中的某些选项无法正确显示的问题。 (TGT-36571)
-* 修复了目标UI中导致用户在单个体验中替换内容后其他Recommendations优惠预览显示已编辑内容的问题。 （TGT-36053 和 TGT-36894）
-* 修复了阻止某些用户从Recommendations目录删除项目的问题。 (TGT-36455)
-* 修复了用户无法在多页活动上保存Recommendations条件的问题。 (TGT-36249)
-* 修复了行为数据源单选按钮在连续第二次编辑条件时消失的问题。 (TGT-36796)
-* 修复了导致Recommendations算法在较长的时间段内显示“获取结果”的显示问题。 （TGT-36550 和 TGT-36551）
-* 更新了许多本地化为各种语言的UI字符串。
+* 修复了一个问题，该问题不正确地让受众有权访问某种设备和浏览器类型。(TGT-36266)
+* 修复了一个问题，在宽度小于 963 像素的屏幕上查看报表数据时，该问题阻止显示报表数据。(TGT-36549)
+* 修复了一个问题，该问题导致无法正确呈现自动个性化报表。(TGT-36619)
+* 修复了一个问题，该问题使得可在使用 Analytics for Target (A4t) 的自动分配和自动定位活动中选择不兼容的指标。(TGT-36646)
+* 修复了一个问题，该问题导致可视体验编辑器 (VEC) 中的某些选项显示得不正确。(TGT-36571)
+* 修复了 Target UI 中的一个问题，在用户替换了单个体验中的内容之后，该问题导致其他推荐选件预览显示编辑后的内容。（TGT-36053 和 TGT-36894）
+* 修复了一个问题，该问题阻止某些用户从推荐目录中删除项目。(TGT-36455)
+* 修复了一个问题，该问题阻止用户在多页活动上保存推荐标准。(TGT-36249)
+* 修复了一个问题，在连续第二次编辑标准时，该问题导致行为数据源单选按钮消失。(TGT-36796)
+* 修复了一个问题，该问题导致推荐算法长时间显示“正在获取结果”。（TGT-36550 和 TGT-36551）
+* 更新了许多以各种语言本地化的 UI 字符串。
 
-### 目标at.js（2020年3月25日）
+### Target at.js（2020 年 3 月 25 日）
 
-以下新版目标 at.js JavaScript库可用：
+Target at.js JavaScript 库有以下新版本可用：
 
-* at.js版本2.3.0
-* at.js版本1.8.1
+* at.js 2.3.0 版
+* at.js 1.8.1 版
 
-有关详细信息，请参阅[at.js版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+有关详细信息，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
 ### Target Standard/Premium 20.2.1（2020 年 3 月 23 日）
 
 此版本包含以下增强、修复和更改：
 
-* 修复了客户在执行目录搜索时无法选择集合的问题。 (TGT-36230)
-* 修复了通过API创建的条件(但不是由在目标 UI中创建的活动引用的条件)可能会从UI中错误删除的问题。 (TGT-35917)
-* 对内容安全策略(CSP)实施了安全改进。 (TGT-36190)
-* 修复了在将“属性加权”百分比栏滑至最左侧时导致显示“NaN%”的问题。 (TGT-36211)
-* 解决了本地化问题，以便正确显示各种语言的UI文本。
-* 我们弃用当前版本的Adobe Analytics API不支持的Adobe Analytics量度，从而标准化了目标(A4T)活动中可用量度的列表。 这将使我们能够扩展未来Adobe Target版本中的A4T支持。
+* 修复了一个问题，该问题阻止客户在执行目录搜索时选择收藏集。(TGT-36230)
+* 修复了一个问题，在该问题中可能会错误地从 UI 删除通过 API 创建但未被在 Target UI 中创建的某个活动引用的标准。(TGT-35917)
+* 对内容安全策略 (CSP) 实现了安全改进。(TGT-36190)
+* 修复了一个问题，在将“属性权重”百分比栏滑至最左侧时，该问题导致显示“NaN%”。(TGT-36211)
+* 解决了本地化问题，以使各种语言的 UI 文本均可正确显示。
+* 我们已通过弃用 Adobe Analytics API 的当前版本中不支持的 Adobe Analytics 指标，而将 Adobe Analytics for Target (A4T) 活动中可用指标的列表标准化。这样将使我们可在未来的 Adobe Target 版本中扩展我们对 A4T 的支持。
 
-   已进行以下更改：
+   已作出以下更改：
 
-   * “页面平均逗留时间”已替换为“网站平均逗留时间”。 任何将此用作主要目标量度的活动都将具有“平均在网站逗留时间”(注：以分（而非秒）为单位，在下次编辑活动时被选为主要目标量度。
-   * “访客”已替换为“唯一访客”。 任何使用此量度作为主要目标量度的活动在下次编辑该访客时，都会选择“唯一活动”作为主要目标量度。
+   * “平均页面逗留时间”已被“平均网站逗留时间”取代。任何将此指标用作主要目标指标的活动都将在下次编辑该活动时选择“平均网站逗留时间”（注意：度量单位为分钟而非秒）作为主要目标指标。
+   * “访客”已被“独特访客”取代。任何将此指标用作主要目标指标的活动都将在下次编辑该活动时选择“独特访客”作为主要目标指标。
 
-* 以下量度已弃用，在创建新的A4T活动时，无法再选择为主目标量度。
+* 以下指标已被弃用，无法在创建新 A4T 活动时被选为主要目标指标。
 
-   | 已弃用量度 | 建议的替换量度 |
+   | 已弃用的指标 | 建议的替代指标 |
    |--- |--- |
    | 每日访客、每小时访客、每月访客、季度访客、每周访客、每年访客 | 独特访客 |
-   | 平均访问深度 | n/a。未建议作为主要目标量度 |
-   | 机器人 | n/a。未建议作为主要目标量度 |
-   | 移动设备崩溃率、移动设备平均上一会话长度、移动App商店平均排名、移动App性能崩溃率、移动App商店平均评级 | n/a。未建议作为主要目标量度 |
+   | 平均访问深度 | 不适用。建议不要作为主要目标指标 |
+   | 机器人 | 不适用。建议不要作为主要目标指标 |
+   | 移动崩溃率、移动平均以前会话长度、移动应用商店平均排名、移动应用性能崩溃率、移动应用商店平均评分 | 不适用。建议不要作为主要目标指标 |
 
-### Adobe Experience Cloud导航（2019年2月22日）
+### Adobe Experience Cloud 导航（2019 年 2 月 22 日）
 
-* 登录[!DNL Adobe Experience Cloud]后，将转到新的标题导航。 它看起来与上次导航非常相似，顶部有黑条，但它提供了以下改进：
+* 当您登录到 [!DNL Adobe Experience Cloud] 时，您将被带入新的标题导航。它看起来与以前的导航非常相似，只是顶部有一个黑色的栏，但它提供以下改进：
 
-   * 更轻松地在[!DNL Identity Management System](IMS)组织之间切换或切换到其他解决方案。
-   * 改进的用户帮助：搜索结果包括[!DNL Target]产品文档中的结果、社区论坛和更多视频内容，让您能够更轻松地访问更多内容，从而帮助您充分利用[!DNL Target]。 我们还在[!UICONTROL 帮助]菜单中添加了反馈机制，使报告问题或分享您的想法更加容易。
+   * 可轻松地在 [!DNL Identity Management System] (IMS) 组织之间切换或切换到不同的解决方案。
+   * 改进了用户帮助：搜索结果包括 [!DNL Target] 产品文档以及社区论坛和更多视频内容所产生的结果，使您更轻松地访问更多内容以帮助充分利用 [!DNL Target]。我们还直接在[!UICONTROL “帮助”]菜单中添加了一种反馈机制，使报告问题或分享您的想法变得更轻松。
 
-   * 改进了Net Promoter Score(NPS)反馈功能，因此调查模式不会干扰您的工作流。
-   * 改进了登录流。 以前，所有[!DNL Target]客户在单击标题中的[!DNL Target]图标后登录到目标登陆页。 然后，此页允许客户继续使用[!DNL Target Standard/Premium]、[!DNL Search&Promote]或[!DNL Recommendations Classic]，如下所示：
+   * 改进了净推荐者分数 (NPS) 反馈功能，这样调查模式就不会打扰您的工作流程。
+   * 改进了登录流程。以前，所有 [!DNL Target] 客户在单击标题中的 [!DNL Target] 图标之后均登陆到 Target 登陆页面。然后，此页面允许客户继续运行 [!DNL Target Standard/Premium]、[!DNL Search&Promote] 或 [!DNL Recommendations Classic]，如下所示：
 
       ![登陆页面](/help/r-release-notes/assets/landing.png)
 
-      我们为所有客户消除了此登陆页。 现在，您始终可以单击新标题导航栏中的[!DNL Target]图标，直接转到[!UICONTROL 活动列表]页面。
+      我们为所有客户都消除了此登陆页面。现在，您在单击新的标题导航栏中的 [!DNL Target] 图标之后，总是被带到[!UICONTROL “活动列表”]页面。
 
-      如果您使用[!DNL Recommendations Classic]，则可以直接转到解决方案，也可以从在[!UICONTROL Recommendations]选项卡上创建的短链接中转到，如下所示：
+      如果使用 [!DNL Recommendations Classic]，则可直接转到解决方案，也可从在[!UICONTROL “推荐”]选项卡上创建的短链接进行跳转，如下所示：
 
-      ![Recs Classic深层链接](/help/r-release-notes/assets/recs-classic.png)
+      ![推荐经典深层链接](/help/r-release-notes/assets/recs-classic.png)
 
-      如果使用[!DNL Search&Promote]，则需要直接转到[Search&amp;PromoteURL](https://center.atomz.com/center/?ims=1)(https://center.atomz.com/center/?ims=1)。 从[!DNL Adobe Target]内部到达[!DNL Search&Promote]的路径已完全删除。
+      如果使用 [!DNL Search&Promote]，则需要直接转到 [Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)。已完全删除从 [!DNL Adobe Target] 内到达 [!DNL Search&Promote] 的路径。
 
-   * [!DNL Target]的通知当前在标题的[!UICONTROL Notifications]下拉菜单中不可用。
+   * 当前在标题中的[!UICONTROL “通知”]下拉菜单中无 [!DNL Target] 的通知可用。
    >[!NOTE]
    >
-   >作为新导航栏转出的一部分，您还会注意到一些URL更改。 所有以前已添加书签的链接都会继续工作，但我们建议您为新链接加入书签以加快打开速度。
+   >作为推出新导航栏的一部分，您还将注意到一些 URL 有变化。所有以前加入书签的链接仍有效，但我们提倡将新链接加入书签以更快地打开。
 
 ### Target Standard/Premium 20.1.1（2020 年 2 月 4 日） 
 
-Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改进。 此外，还包括以下修复：
+Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增强和改进。此外，还包括以下修复：
 
-* 修复了导致Adobe Analytics跟踪服务器字段在现有目标(A4T)活动Adobe的“目标和设置”页上为空的问题。 (TGT-35960)
-* 修复了用户界面中的一个问题，该问题导致在创建类别关联受众时，第二个下拉列表中的选择无法显示。 (TGT-36098)
+* 修复了一个问题，该问题导致现有 Adobe for Target (A4T) 活动的“目标和设置”页面上“Adobe Analytics 跟踪服务器”字段为空。(TGT-35960)
+* 修复了用户界面中的一个问题，在为类别亲和力创建受众时，该问题导致不显示您在第二个下拉列表中的选择。(TGT-36098)
 
 ## 发行说明 - 2019 {#releases-2019}
 
-### 目标 Java SDK版本1.1.0（2019年12月16日）
+### Target Java SDK 1.1.0 版（2019 年 12 月 16 日）
 
-* 由于@hisham-hassan提供的开放源代码贡献，增加了对代理配置的支持。
+* 支持因 @hisham-hassan 贡献的开放源代码而添加的代理配置。
 
-### 目标 Java SDK版本1.0.1（2019年11月11日）
+### Target Java SDK 1.0.1 版（2019 年 11 月 11 日）
 
-版本1.0.1中修复了以下问题：
+1.0.1 版中修复了以下问题：
 
-* 在目标请求中发送补充访客ID，即使不存在API Cookie时也是如此。
+* 即使在无访客 API Cookie 时，也在 Target 请求中发送补充的数据 ID。
 
-### 目标平台（2019年10月31日）
+### Target 平台（2019 年 10 月 31 日）
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Java SDK | 使用[!DNL Target] Java SDK可以部署[!DNL Target]服务器端。 此Java SDK可帮助您将[!DNL Target]与其他[!DNL Adobe Experience Cloud]解决方案（如[!DNL Adobe Experience Cloud Identity Service]、[!DNL Adobe Analytics]和[!DNL Adobe Audience Manager]）轻松集成。<br>Java SDK在通过我们的投放 API与集成时引入了最佳实践并消除了 [!DNL Target] 复杂性，从而使您的工程团队能够专注于业务逻辑。以下是我们在最新版本中介绍的一些值得注意的功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>支持在网页和服务器端混合集成[!DNL Target]时优化性能。 我们将引入一个名为`serverState`的设置，该设置由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 此方法可优化页面加载性能。</li><li>支持通过Java SDK检索VEC创建的活动，新的投放API使这成为可能。</li><li>开放源码，以便您的开发人员能够为[目标 Java SDK](https://github.com/adobe/target-java-sdk)做出贡献。</li></ul>通过新的目标 Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)Adobe技术博客[服务器端优化，进一步了解目标 Java SDK。 |
+| Java SDK | 通过 [!DNL Target] Java SDK，可部署 [!DNL Target] 服务器端。此 Java SDK 帮助您轻松地将 [!DNL Target] 与其他 [!DNL Adobe Experience Cloud] 解决方案（如 [!DNL Adobe Experience Cloud Identity Service]、[!DNL Adobe Analytics] 和 [!DNL Adobe Audience Manager]）集成。<br>Java SDK 引入最佳实践，并消除在通过我们的投放 API 与 [!DNL Target] 集成时产生的复杂因素，这样工程团队即可专心处理业务逻辑。以下是我们在最新版本中引入的重要功能：<ul><li>支持预取和通知，使您可以通过缓存优化性能。</li><li>支持在网页和服务器端都混合集成 [!DNL Target] 时优化性能。我们正在引入一个称为 `serverState` 的设置，由通过服务器端检索的体验填充它，这样 at.js 2.2 将不再进行额外的服务器调用以检索体验。此方法可优化页面加载性能。</li><li>支持通过 Java SDK 检索 VEC 创建的活动（通过新的投放 API 实现此检索）。</li><li>已开源，这样您的开发人员即可向 [Target Java SDK](https://github.com/adobe/target-java-sdk) 贡献代码。</li></ul>请在 Adobe Tech Blog - [用新的 Target Java SDK 进行服务器端优化](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)上详细了解 Target Java SDK。 |
 
 ### Target Standard/Premium 19.10.2（2019 年 10 月 31 日） 
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| ![高级](/help/assets/premium.png) 徽章多值属性 | 有时您希望使用多值字段。 请仔细研究下面的示例：<ul><li>您可以将影片优惠给用户。 一部电影有多名演员。</li><li>你卖音乐会的票。 给定用户有多个喜欢的栏。</li><li>你卖衣服。 衬衫有多种尺寸。</li></ul>要在这些情况下处理推荐，您可以将多值数据传递给目标 Recommendations并使用特殊的多值运算符。<br>有关详细信息，请 [参阅使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)。 |
+| ![Premium 徽章](/help/assets/premium.png) 多值属性 | 有时您要使用多值字段。请仔细研究下面的示例：<ul><li>您向用户提供电影。给定的电影有多个演员。</li><li>您出售音乐会门票。给定的用户有多个喜欢的乐队。</li><li>您出售服装。某款衬衫有多种尺寸可供选择。</li></ul>要在这些场景中处理推荐，可将多值数据传递给 Target 推荐，并使用特殊的多值运算符。<br>有关详细信息，请参阅[使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)。 |
 
 ### Target Standard/Premium 19.10.1（2019 年 10 月 22 日） 
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| ![高级](/help/assets/premium.png) 徽章基于用户的Recommendations<br>（2019年10月24日） | 根据每个访客的浏览、查看和购买历史记录推荐项目。 这些项目通常称为“为您推荐”。<br>该标准使您能够向新访客和回头客提供个性化内容和体验。推荐的列表会根据访客的最新活动进行加权，并在会话中更新，并随着访客浏览您的网站而变得更加个性化。<br>有关详细信息，请参阅标准/算法中的“基于 [用户的Recommendations”](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)。 |
+| ![Premium 徽章](/help/assets/premium.png) 基于用户的推荐<br>（2019 年 10 月 24 日） | 根据每位访客的浏览、查看和购买历史记录推荐商品。这些商品一般称为“为您推荐”。<br>通过此标准，对于新访客和回访访客均可投放个性化的内容和体验。推荐的列表根据访客最近的活动进行加权，在会话中更新，并随着访客浏览您的网站而逐渐更加个性化。<br>有关详细信息，请在[标准/算法](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)中参阅“基于用户的建议”。 |
 
-**Adobe Experience Cloud导航**
+**Adobe Experience Cloud 导航**
 
-* 登录[!DNL Adobe Experience Cloud]后，将转到新的标题导航。 它看起来与上次导航非常相似，顶部有黑条，但它提供了以下改进：
+* 当您登录到 [!DNL Adobe Experience Cloud] 时，您将被带入新的标题导航。它看起来与以前的导航非常相似，只是顶部有一个黑色的栏，但它提供以下改进：
 
-   * 更轻松地在[!DNL Identity Management System](IMS)组织之间切换或切换到其他解决方案。
-   * 改进的用户帮助：搜索结果包括[!DNL Target]产品文档中的结果、社区论坛和更多视频内容，让您能够更轻松地访问更多内容，从而帮助您充分利用[!DNL Target]。 我们还在[!UICONTROL 帮助]菜单中添加了反馈机制，使报告问题或分享您的想法更加容易。
+   * 可轻松地在 [!DNL Identity Management System] (IMS) 组织之间切换或切换到不同的解决方案。
+   * 改进了用户帮助：搜索结果包括 [!DNL Target] 产品文档以及社区论坛和更多视频内容所产生的结果，使您更轻松地访问更多内容以帮助充分利用 [!DNL Target]。我们还直接在[!UICONTROL “帮助”]菜单中添加了一种反馈机制，使报告问题或分享您的想法变得更轻松。
 
-   * 改进了Net Promoter Score(NPS)反馈功能，因此调查模式不会干扰您的工作流。
-   * 改进了登录流。 以前，所有[!DNL Target]客户在单击标题中的[!DNL Target]图标后登录到目标登陆页。 然后，此页允许客户继续使用[!DNL Target Standard/Premium]、[!DNL Search&Promote]或[!DNL Recommendations Classic]，如下所示：
+   * 改进了净推荐者分数 (NPS) 反馈功能，这样调查模式就不会打扰您的工作流程。
+   * 改进了登录流程。以前，所有 [!DNL Target] 客户在单击标题中的 [!DNL Target] 图标之后均登陆到 Target 登陆页面。然后，此页面允许客户继续运行 [!DNL Target Standard/Premium]、[!DNL Search&Promote] 或 [!DNL Recommendations Classic]，如下所示：
 
       ![登陆页面](/help/r-release-notes/assets/landing.png)
 
-      我们为所有客户消除了此登陆页。 现在，您始终可以单击新标题导航栏中的[!DNL Target]图标，直接转到[!UICONTROL 活动列表]页面。
+      我们为所有客户都消除了此登陆页面。现在，您在单击新的标题导航栏中的 [!DNL Target] 图标之后，总是被带到[!UICONTROL “活动列表”]页面。
 
-      如果您使用[!DNL Recommendations Classic]，则可以直接转到解决方案，也可以从在[!UICONTROL Recommendations]选项卡上创建的短链接中转到，如下所示：
+      如果使用 [!DNL Recommendations Classic]，则可直接转到解决方案，也可从在[!UICONTROL “推荐”]选项卡上创建的短链接进行跳转，如下所示：
 
-      ![Recs Classic深层链接](/help/r-release-notes/assets/recs-classic.png)
+      ![推荐经典深层链接](/help/r-release-notes/assets/recs-classic.png)
 
-      如果使用[!DNL Search&Promote]，则需要直接转到[Search&amp;PromoteURL](https://center.atomz.com/center/?ims=1)(https://center.atomz.com/center/?ims=1)。 从[!DNL Adobe Target]内部到达[!DNL Search&Promote]的路径已完全删除。
+      如果使用 [!DNL Search&Promote]，则需要直接转到 [Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)。已完全删除从 [!DNL Adobe Target] 内到达 [!DNL Search&Promote] 的路径。
 
-   * [!DNL Target]的通知当前在标题的[!UICONTROL Notifications]下拉菜单中不可用。
+   * 当前在标题中的[!UICONTROL “通知”]下拉菜单中无 [!DNL Target] 的通知可用。
    >[!NOTE]
    >
-   >这些功能不会同时推出，也不会一起推出给所有客户。 我们将在未来几周推出这些功能，从[!DNL Target Standard/Premium] 19.10.1（2019年10月22日）版本开始。
+   >不会立即推出这些功能，也不会向所有客户一起推出这些功能。我们将在未来几周内推出这些功能，从 [!DNL Target Standard/Premium] 19.10.1（2019 年 10 月 22 日）版本开始。
    >
-   >作为新导航栏转出的一部分，您还会注意到一些URL更改。 所有以前已添加书签的链接都会继续工作，但我们建议您为新链接加入书签以加快打开速度。
+   >作为推出新导航栏的一部分，您还将注意到一些 URL 有变化。所有以前加入书签的链接仍有效，但我们提倡将新链接加入书签以更快地打开。
 
-### at.js 2.2和1.8版（2019年10月10日）
-
-| 功能/增强 | 描述 |
-| --- | --- |
-| at.js版本2.2<br>和<br>at.js版本1.8 | 以下版本的at.js提供：<ul><li>在网页上同时使用Experience CloudID服务(ECID)4.4版和at.js 2.2版或at.js 1.8版时，性能得到改进。</li><li>以前，ECID在at.js获取体验之前发出了两次阻止调用。 这已降低为单个呼叫，这显着提高了性能。</li></ul> 为了利用这些性能改进，请升级到at.js 2.2或at.js 1.8以及ECID库v4.4。<br>at.js 2.2提供：<ul><li>**serverState**:at.js v2.2+中提供的设置可用于在实施目标的混合集成时优化页面性能。混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的投放 API或目标 SDK来提供体验。 `serverState` 赋予at.js v2.2+直接应用从服务器端获取的内容中获取的体验并作为所服务页面的一部分返回到客户端的功能。<br>有关详细信息，请参阅targetGlobalSettings中的 [“serverState”](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)。</li></ul> |
-
-### 目标平台（2019年10月9日）
+### at.js 2.2 和 1.8 版（2019 年 10 月 10 日）
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| Node.js SDK版本1.0 | 目标 Node.js SDK允许您在服务器端部署目标。<br>此Node.js SDK可帮助您将目标轻松集成到其他Experience Cloud解决方案，如Adobe Experience Cloud Identity Service、Adobe Analytics和Adobe Audience Manager。<br>Node.js SDK在通过我们的投放 API与Adobe Target集成时引入了最佳实践并消除了复杂性，使您的工程团队可以专注于业务逻辑。以下是我们在最新版本中介绍的一些值得注意的功能：<ul><li>支持预取和通知，允许您通过缓存优化性能。</li><li>支持在网页和服务器端混合集成目标时优化性能。 我们将引入一个名为`serverState`的设置，该设置将由通过服务器端检索的体验填充，这样at.js 2.2将不再进行额外的服务器调用来检索体验。 此方法可优化页面加载性能。</li><li> 支持通过Node.js SDK检索VEC创建的活动，新投放API使这成为可能。</li><li>开放源码，以便您的开发人员能够为Node.js SDK做出贡献。</li></ul> |
-| 投放 API | 生产中提供了全新的投放 API端点(/v1/投放)。 值得注意的功能有：<ul><li>一个端点，用于检索一个或多个mbox的体验。</li><li>通过API检索VEC创建的活动。</li><li>支持称为视图的全新对象，该对象用于单页应用程序(SPA)和移动应用程序。</li></ul> |
+| at.js 2.2 版<br>和<br>at.js 1.8 版 | at.js 的这些版本提供：<ul><li>在网页上同时使用 Experience Cloud ID Service (ECID) v4.4 和 at.js 2.2 或 at.js 1.8 时，提高了性能。</li><li>以前，只有在 ECID 作出两次阻塞调用之后，at.js 才能获取体验。此过程已减少为单次调用，从而显著提高性能。</li></ul> 要充分利用这些提高性能的优势，请升级到 at.js 2.2 或 at.js 1.8 并配合 ECID 库 v4.4。<br>at.js 2.2 提供：<ul><li>**serverState**：at.js 2.2 和更高版本中提高的一项设置，当实现 Target 的混合集成时，可使用该设置优化页面性能。混合集成指的是在客户端使用 at.js 2.2 和更高版本，在服务器端使用交付 API 或 Target SDK，二者相结合以交付体验。`serverState` 让 at.js 2.2 和更高版本可直接从在服务器端获取并作为所提供的页面的一部分返回客户端的内容应用体验。<br>有关详细信息，请在 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) 中参阅“serverState”。</li></ul> |
+
+### Target 平台（2019 年 10 月 9 日）
+
+| 功能/增强 | 描述 |
+| --- | --- |
+| Node.js SDK 1.0 版 | 通过 Target Node.js SDK 可部署 Target 服务器端。<br>此 Node.js SDK 帮助您轻松将 Target 与其他 Experience Cloud 解决方案（如 Adobe Experience Cloud Identity Service、Adobe Analytics 和 Adobe Audience Manager）集成。<br>Node.js SDK 引入最佳实践，并消除在通过我们的投放 API 与 Adobe Target 集成时产生的复杂因素，这样工程团队即可专心处理业务逻辑。以下是我们在最新版本中引入的重要功能：<ul><li>支持预取和通知，使您可以通过缓存优化性能。</li><li>支持在网页和服务器端都混合集成 Target 时优化性能。我们正在引入一个称为 `serverState` 的设置，将由通过服务器端检索的体验填充它，这样 at.js 2.2 将不再进行额外的服务器调用以检索体验。此方法可优化页面加载性能。</li><li> 支持通过 Node.js SDK 检索 VEC 创建的活动（通过新的投放 API 实现此检索）。</li><li>已开源，这样您的开发人员即可向 Node.js SDK 贡献代码。</li></ul> |
+| 投放 API | 有一个全新的投放 API 端点 (/v1/delivery) 可供投入生产。重要功能为：<ul><li>一个端点即可为一个或多个 mbox 检索体验。</li><li>通过该 API 检索由 VEC 创建的活动。</li><li>支持一种全新的对象，它称为“视图”，用于单页面应用程序 (SPA) 和移动应用程序。</li></ul> |
 
 ### Target Standard/Premium 19.9.2（2019 年 9 月 30 日）
 
 此维护版本包括以下增强功能：
 
 * 多个安全修复，包括对可视化体验编辑器 (VEC) 中富文本编辑器 (RTE) 的安全更新。(TGT-35383)
-* Recommendations优惠现在可以添加到A/B测试和体验定位活动中除DIV之外的其他元素（例如P、UL、H1）。 (TGT-34333)
-* 事件通知(目标UI中的铃形图标)不再可用。 通知的新外观即将推出。
+* 在 A/B 测试和体验定位活动中，现在可将推荐选件添加到不仅 DIV 元素，还可添加到 DIV 之外的其他元素（如 P、UL、H1）。(TGT-34333)
+* 事件通知（Target UI 中的铃铛图标）不再可用。即将推出通知的新外观。
 
 ### Target Standard/Premium 19.9.1（2019 年 9 月 10 日）
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| ![高级徽](/help/assets/premium.png) 章企业权限 | 在2019年9月的目标版本中，企业权限为客户提供了以下访问控制:<UL><li>您可以选择可将集成应用到的工作空间.</li><li>您可以对 Adobe I/O 集成应用以下角色：审批者、编辑者或观察者。</li></ul>有关分步说明和更多信息，请参阅[授予 Adobe I/O 集成访问工作区的权限并分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
+| ![Premium 徽章](/help/assets/premium.png) 企业权限 | 在 Target September 2019 版本中，企业权限为客户提供以下访问控制：<UL><li>您可以选择可将集成应用到的工作空间.</li><li>您可以对 Adobe I/O 集成应用以下角色：审批者、编辑者或观察者。</li></ul>有关分步说明和更多信息，请参阅[授予 Adobe I/O 集成访问工作区的权限并分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
 
 ### Target Standard/Premium 19.7.1（2019 年 7 月 24 日）{#tgt-19-7-1}
 
@@ -446,8 +446,8 @@ Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改�
 | 功能/增强 | 描述 |
 | --- | --- |
 | ![Premium 徽章](/help/assets/premium.png)<br>A/B 测试和体验定位 (XT) 活动中的推荐 | 推荐选件（算法）状态将显示在包含推荐选件的 A/B 测试和 XT 活动的“概述”页面上。状态包括：“结果已准备就绪”、“结果未准备就绪”和“信息源故障”。(TGT-33649)<br>请参阅[“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md#status)。 |
-| at.js 2.0 及更高版本通过 Experience Cloud ID (ECID) 库支持跨域跟踪 | 以前，at.js 2.*x* 不支持跨域跟踪。现在，在此版本中，使用 at.js 2.0 或更高版本的客户可以通过 ECID 库执行跨域跟踪。为使跨域跟踪正常运行，必须将 ECID 库与 at.js 2.0 或更高版本一起安装在页面上。[必须使用Experience CloudID](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 库4.3.0+。<br>请参阅 [at.js 2.x 中的跨域跟踪支持](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
-| Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple 的 ITP 2.1 和 ITP 2.2 | 现在，Target 客户可以通过利用 Adobe 的 CNAME 认证计划来应对 Apple 的 ITP 2.1 和 ITP 2.2。<br>在此版本中，目标引入了与ECID库4.3的无缝集成，ECID库4.3利用服务器端Cookie来缓解ITP 2.1和ITP 2.2。强烈建议目标客户将 [ECID库4.3+与目标的JavaScript库](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 一起部署，以缓解任何未来的ITP版本。ECID 库将持续增强，针对各浏览器推出的不断变化的 Cookie 策略提供完善的解决方案。<br>请参阅 [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
+| at.js 2.0 及更高版本通过 Experience Cloud ID (ECID) 库支持跨域跟踪 | 以前，at.js 2.*x* 不支持跨域跟踪。现在，在此版本中，使用 at.js 2.0 或更高版本的客户可以通过 ECID 库执行跨域跟踪。为使跨域跟踪正常运行，必须将 ECID 库与 at.js 2.0 或更高版本一起安装在页面上。必须使用 [Experience Cloud ID 库 4.3.0 和更高版本](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=zh-Hans)。<br>请参阅 [at.js 2.x 中的跨域跟踪支持](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
+| Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple 的 ITP 2.1 和 ITP 2.2 | 现在，Target 客户可以通过利用 Adobe 的 CNAME 认证计划来应对 Apple 的 ITP 2.1 和 ITP 2.2。<br>在此版本中，Target 引入与 ECID 库 4.3 的无缝集成，该库利用服务器端 Cookie 减轻 ITP 2.1 和 ITP 2.2 的影响。强烈建议 Target 客户将 [ECID 库 4.3 和更高版本](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html)与 Target 的 JavaScript 库一起部署以减轻任何未来 ITP 版本的影响。ECID 库将持续增强，针对各浏览器推出的不断变化的 Cookie 策略提供完善的解决方案。<br>请参阅 [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
 
 **增强功能、修复和更改**
 
@@ -698,15 +698,15 @@ Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>体验 </p> </td> 
-   <td colname="col2"> <p>现在，您可以复制体验定位 (XT) 活动中的体验，以便可以对其进行细微更改，而无需重头开始重新创建体验。这项功能已经可用于 A/B 测试。(TGT-31504) </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/create-targeting/xt-add-experience.html" format="html" scope="external">创建体验</a>。 </p> </td> 
+   <td colname="col2"> <p>现在，您可以复制体验定位 (XT) 活动中的体验，以便可以对其进行细微更改，而无需重头开始重新创建体验。这项功能已经可用于 A/B 测试。(TGT-31504) </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/create-targeting/xt-add-experience.html?lang=zh-Hans" format="html" scope="external">创建体验</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>自动个性化 (AP) 活动中的选件 </p> </td> 
-   <td colname="col2"> <p>在 2018 年 9 月版中，我们增加了一项增强功能，让您能够按报表组筛选选件。现在，您可以筛选“未分配选件”，以便将某个报表组分配给当前未分配给任何报表组的选件。(TGT-31882) </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/target/using/activities/automated-personalization/create-ap-activity.html" format="html" scope="external">创建自动个性化活动</a>。 </p> </td> 
+   <td colname="col2"> <p>在 2018 年 9 月版中，我们增加了一项增强功能，让您能够按报表组筛选选件。现在，您可以筛选“未分配选件”，以便将某个报表组分配给当前未分配给任何报表组的选件。(TGT-31882) </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/target/using/activities/automated-personalization/create-ap-activity.html?lang=zh-Hans" format="html" scope="external">创建自动个性化活动</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>活动报表源 </p> </td> 
-   <td colname="col2"> <p>在<span class="wintitle">管理</span> &gt; <span class="wintitle">可视体验书写器</span>中，可以为活动选择报告源，<span class="keyword">目标</span>或<span class="keyword"> Adobe Analytics </span>。 您也可以选择为每个活动分别选择报表源。 </p> <p>从这一版本开始，当您在<span class="wintitle">首选项</span>或根据活动选择报表源时，应注意一些重要的工作流注意事项。</p></td> 
+   <td colname="col2"> <p>在<span class="wintitle">“管理”</span>&gt;<span class="wintitle">“可视体验编辑器”</span>中，可选择活动的报表源，即或者是 <span class="keyword">Target</span>，或者是 <span class="keyword">Adobe Analytics</span>。您也可以选择为每个活动分别选择报表源。 </p> <p>从这一版本开始，当您在<span class="wintitle">首选项</span>或根据活动选择报表源时，应注意一些重要的工作流注意事项。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -720,9 +720,9 @@ Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改�
    * 如果在 AAM 中删除受众，则“[!UICONTROL 受众]”列表和受众选择器均会显示警告图标。UI 中的工具提示也会指示受众已在 AAM 中删除。
    * 如果您尝试将多个受众与已删除的受众合并，或者您想保存引用了已删除受众的活动，则会显示一条警告消息。
 
-   请参阅[受众简介](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)。
+   请参阅[受众简介](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hans)。
 
-* 修复了在将Adobe Analytics选为[!UICONTROL 管理]页面上的报告源时，某些情况下的用户无法创建活动的问题。 即使用户没有选择报表包的选项，他们仍会看到“请选择一个报表包”的消息。(TGT-31968)
+* 修复了一个问题，在[!UICONTROL “管理”]页面上选择了 Adobe Analytics 作为报表源时，该问题阻止处于某些状况下的用户创建活动。即使用户没有选择报表包的选项，他们仍会看到“请选择一个报表包”的消息。(TGT-31968)
 
 ### 平台（2018 年 10 月 19 日）
 
@@ -739,7 +739,7 @@ Target Standard/Premium 20.1.1版本是维护版本，包括后端增强和改�
    <td colname="col2"> <p>这是一个维护版本，该版本解决了以下问题： </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>修复了某些客户网站上出现的会导致无限“异步”循环的问题。 </p> </li> 
-     </ul> </p> <p> <p>重要信息：此外，at.js 版本 1.6.2 还包含 at.js 版本 1.6.1 和 1.6.0 中包含的所有增强功能和修复。这些版本不再可供下载。如果您使用的是 1.6.1 或 1.6.0，我们建议您升级到 1.6.2 版本。 </p> </p> <p>有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 版本详细信息</a>。 </p> </td> 
+     </ul> </p> <p> <p>重要信息：此外，at.js 版本 1.6.2 还包含 at.js 版本 1.6.1 和 1.6.0 中包含的所有增强功能和修复。这些版本不再可供下载。如果您使用的是 1.6.1 或 1.6.0，我们建议您升级到 1.6.2 版本。 </p> </p> <p>有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html?lang=zh-Hans" format="html" scope="external">at.js 版本详细信息</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -827,7 +827,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target 基础知识网络研讨会系列 </p> </td> 
-   <td colname="col2"> <p>加入新的 Target 基础网络研讨会系列，这是社区为您提供的客户成功网络研讨会系列。 </p> <p> 下一场网络研讨会（报表和值社会化中的最佳实践）定于 2018 年 8 月 22 日早上 8 点到 9 点（太平洋夏令时）召开。 </p> <p>请参阅 <a href="/help/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4" format="dita" scope="local">Target 基础知识网络研讨会系列</a>。 </p> </td> 
+   <td colname="col2"> <p>加入新的 Target 基础网络研讨会系列，这是社区为您提供的客户成功网络研讨会系列。 </p> <p> 下一场网络研讨会（报表和值社会化中的最佳实践）定于 2018 年 8 月 22 日早上 8 点到 9 点（太平洋夏令时）召开。 </p> <p>请参阅 <a href="/help/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4" format="dita" scope="local">Target 基础知识系列网络研讨会</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1210,7 +1210,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Marketing Cloud 进行了品牌重塑，现在更名为 Adobe Experience Cloud。 </p> </td> 
-   <td colname="col2"> <p>Experience Cloud 是 Adobe 推出的一整套集成化数字营销解决方案和服务。它还具备直观的界面，使您能够快速访问自己的云解决方案和核心服务。 </p> <p>品牌重塑和 UI 更改：Adobe Marketing Cloud 进行了品牌重塑，现在更名为 Adobe Experience Cloud。此外，您还将看到 Target 界面和解决方案切换器中进行的 UI 更改。 </p> <p>有关这些更改的更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/solutions-core-services.html" format="html" scope="external">关于 Experience Cloud 中的新增云名称</a>。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud 是 Adobe 推出的一整套集成化数字营销解决方案和服务。它还具备直观的界面，使您能够快速访问自己的云解决方案和核心服务。 </p> <p>品牌重塑和 UI 更改：Adobe Marketing Cloud 进行了品牌重塑，现在更名为 Adobe Experience Cloud。此外，您还将看到 Target 界面和解决方案切换器中进行的 UI 更改。 </p> <p>有关这些更改的更多信息，请参阅<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/solutions-core-services.html?lang=zh-Hans" format="html" scope="external">关于 Experience Cloud 中的新增云名称</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1293,7 +1293,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adobe Target Insider 时事通讯 </p> </td> 
-   <td colname="col2"> <p>Adobe Target Insider 是针对 Adobe Target 社区成员发布的每月时事通讯。可让您了解产品更新和未来计划、个性化和优化提示与技巧、客户成功案例、即将举行的活动、信息丰富的白皮书及热门博客文章，等等。请阅读此<a href="https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/" format="https" scope="external">公告函</a>以了解更多信息。 </p> <p> <a href="https://www.adobe.com/subscription/adobe_target_newsletter.html" format="html" scope="external">订阅时事通讯</a>可帮助您提供卓越的客户体验，从而助力企业取得成功。 </p> </td> 
+   <td colname="col2"> <p>Adobe Target Insider 是针对 Adobe Target 社区成员发布的每月时事通讯。可让您了解产品更新和未来计划、个性化和优化提示与技巧、客户成功案例、即将举行的活动、信息丰富的白皮书及热门博客文章，等等。请阅读此<a href="https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/" format="https" scope="external">公告函</a>以了解更多信息。 </p> <p> <a href="https://www.adobe.com/cn/subscription/adobe_target_newsletter.html" format="html" scope="external">订阅时事通讯</a>可帮助您提供卓越的客户体验，从而助力企业取得成功。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1350,7 +1350,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>选件 </p> </td> 
-   <td colname="col2"> <p> 如果用户具有“编辑者”权限，该用户将无法编辑引用了实时活动或计划活动的选件。 </p> <p> <p>注意：对于使用<a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html" format="html" scope="external">企业用户权限</a>的 Target Premium 客户，如果用户选择“所有工作区”选项，Target 会在各工作区中使用该用户的最高权限。如果最高权限为“编辑者”，则 Target 会限制编辑（如上所述）。 </p>。 </p> <p>此类限制适用于所有选件，而不只是在 Target 中创建的选件。(TGT-27276) </p> </td> 
+   <td colname="col2"> <p> 如果用户具有“编辑者”权限，该用户将无法编辑引用了实时活动或计划活动的选件。 </p> <p> <p>注意：对于使用<a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hans" format="html" scope="external">企业用户权限</a>的 Target Premium 客户，如果用户选择“所有工作区”选项，Target 会在各工作区中使用该用户的最高权限。如果最高权限为“编辑者”，则 Target 会限制编辑（如上所述）。 </p>。 </p> <p>此类限制适用于所有选件，而不只是在 Target 中创建的选件。(TGT-27276) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>响应令牌 </p> </td> 
@@ -1517,7 +1517,7 @@ target/r_release-notes-2018.xml
 
 有关更多信息，请参阅[在您的浏览器中启用混合内容](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)。
 
-* 改进了在“管理”、“受众”和“Recommendations”页面上配置选项时，当用户的目标会话超时时的工作流。 用户单击“保存”时，会显示会话过期消息，但重新登录后，会出现一个对话框，告知用户已成功登录，而 UI 会停留在 Target 中的同一页面上，且不会丢失任何数据。(TGT-25557)
+* 改进了在配置“管理”、“受众”和“推荐”页面上的选项时，当用户的 Target 会话超时后的工作流程。用户单击“保存”时，会显示会话过期消息，但重新登录后，会出现一个对话框，告知用户已成功登录，而 UI 会停留在 Target 中的同一页面上，且不会丢失任何数据。(TGT-25557)
 
 ### Target 平台更改（2017 年 9 月 27 日）  {#section_AC32516DFBA64AD2AC9A74171D452778}
 
@@ -1615,7 +1615,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>响应令牌 </p> </td> 
-   <td colname="col2"> <p>响应令牌允许您在用于交付活动（即显示 mbox）的 Target 响应中自动输出符合条件的变量（如配置文件属性）。响应令牌可用于调试目的，或用于与第三方提供程序（如 Clicktale）进行集成。 </p> <p>响应令牌类似于 <span class="keyword">Adobe Target Classic</span> 服务器插件，可在这两种解决方案之间实现功能对等性。 </p> <p> <p>注意： <span class="filepath"> at.js </span> 1.1或更高版本中提供响应令牌。</span> </p> </p> <p>有关更多信息，请参阅<a href="/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">响应令牌</a>。 </p> </td> 
+   <td colname="col2"> <p>响应令牌允许您在用于交付活动（即显示 mbox）的 Target 响应中自动输出符合条件的变量（如配置文件属性）。响应令牌可用于调试目的，或用于与第三方提供程序（如 Clicktale）进行集成。 </p> <p>响应令牌类似于 <span class="keyword">Adobe Target Classic</span> 服务器插件，可在这两种解决方案之间实现功能对等性。 </p> <p> <p>注意：<span class="filepath">at.js</span> 1.1 或更高版本中有响应令牌可用</span>。 </p> </p> <p>有关更多信息，请参阅<a href="/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">响应令牌</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1700,7 +1700,7 @@ target/r_release-notes-2018.xml
    * 受众 > 创建受众 > 访客配置文件
    * 推荐 > 信息源创建 > 时间源类型 > Analytics > 报表包选择器
 
-* 改进了网站将“X-Frame-options”设置为 SAMEORIGIN，且网站无法在可视化体验编辑器 (VEC) 中加载时显示的错误消息。该消息提示用户切换到“管理”>“可视体验编辑器”中的“增强体验编辑器”。 (TGT-17356)
+* 改进了网站将“X-Frame-options”设置为 SAMEORIGIN，且网站无法在可视化体验编辑器 (VEC) 中加载时显示的错误消息。消息提示用户在“管理”>“可视体验编辑器”中切换到“增强体验编辑器”。(TGT-17356)
 * 现在，Target Standard/Premium 中的报表会以您的帐户所在的时区来显示，而不是以 Target 服务器所在的时区（美国东部标准时间）来显示。(TGT-24868)
 * 如果在 [!DNL Target] 中创建的活动从 [!DNL Target] 外部进行了更新（例如，通过 Adobe I/O），则下列活动属性将会导入到 [!DNL Target] 当中：
 
@@ -1907,11 +1907,12 @@ target/r_release-notes-2018.xml
 * 现在，在将所有活动名称加载到列表中之前，“[!UICONTROL 活动]”页面上的“[!UICONTROL 创建活动]”按钮处于活跃状态。这项改进使用户可以更快地创建新活动，特别是当帐户配置了很多活动时。(TGT-21470)
 * 对增强型体验编辑器 (EEC) 进行了增强，缩短了通过代理访问运行 HTTPS 的网站时的网站加载时间。Target 不再通过代理获取静态资源。(TGT-21793)
 * 改进了“[!UICONTROL 目标和设置]”页面的性能，特别是缩短了为活动定义了多个量度时的加载时间。(TGT-21654)
-* 在所有活动的[!UICONTROL 目标和设置]页面上添加了工具提示，该页面使用[!UICONTROL Analytics for 目标](A4T)报告通知用户，如果活动的页面加载了at.js（版本0.9.1或更高版本），则不需要跟踪服务器。 (TGT-22607)
+* 在所有使用 [!UICONTROL Analytics for Target] (A4T) 报表的活动的[!UICONTROL “目标和设置”]页面上添加了一个工具提示，它告知用户，如果活动的页面加载了 at.js（0.9.1 版或更高版本），则不需要跟踪服务器。(TGT-22607)
 * 现在，量度名称可在“[!UICONTROL 目标和设置]”页面上显示，这样用户就无需展开每个量度来查看完整的量度名称。这项改进可提高用户编辑量度的速度和效率。(TGT-21276)
 * 现在，您可以将 [!DNL Recommendations] 包含规则应用到自定义标准（已通过 CSV 上传），操作方法与应用到任何其他标准一样。(TGT-21896)
 * 改进了“[!UICONTROL 选件]”页面的用户界面和易用性，特别是在创建或管理文件夹以及创建选件时的易用性。（TGT-22509 和 TGT-22187）
-* 改善了在[!UICONTROL 可视化体验编辑器] (VEC) 中选择要隐藏的项目时的用户体验。(TGT-22224)
+* 改善了在[!UICONTROL 可视化体验编辑器] (VEC) 中选择要隐藏的项目时的用户体验。
+(TGT-22224)
 * 改善了使用[!UICONTROL 基于表单的体验编辑器]创建活动时的用户体验。选择 mbox 位置时，在单击“[!UICONTROL 下一个]”之后，验证边框会保持高亮显示状态。(TGT-22221)
 * 增强了下载的报表，使其将活跃选件和已删除的选件区分开。(TGT-22449)
 * 修复了无法在 Experience Cloud Assets 核心服务用户界面的无限可滚动资产列表中显示较旧资产的问题。(TGT-19733)
@@ -1937,7 +1938,7 @@ target/r_release-notes-2018.xml
    <td colname="col1"> <p> <span class="codeph"> at.js</span> 版本 0.9.4 </p> </td> 
    <td colname="col2"> <p>2017 年 1 月 18 日 </p> <p> <span class="codeph">at.js</span> 版本 0.9.4 包含以下更改： </p> <p> 
      <ul id="ul_8F149C28E2D946B9888B4D2F45167C3C"> 
-      <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox名称现在可以包含特殊字符，包括&amp;符号(&amp;)。 (TNT-26144) </p> <p>有关更多信息，请参阅 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 配置</a>。 </p> </li> 
+      <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox 名称现在可包含特殊字符，这些字符包括与号 (&amp;)。(TNT-26144) </p> <p>有关更多信息，请参阅 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 配置</a>。 </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>添加了 <span class="codeph">secureOnly</span> 设置，以指示 <span class="codeph">at.js</span> 是应仅使用 HTTPS，还是可以根据页面协议在 HTTP 和 HTTPS 之间进行切换。这是一项高级设置，其默认值为 False，可以通过 <span class="codeph">targetGlobalSettings</span> 来覆盖此设置。(TNT-26183) </p> <p>有关更多信息，请参阅 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>。 </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p><span class="codeph">at.js</span> 版本 0.9.3 及更低版本中提供了“<span class="wintitle">旧版浏览器支持</span>”选项。此选项在 <span class="codeph">at.js</span> 版本 0.9.4 中已删除。 </p> <p>有关更多信息，请参阅 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 配置</a>。 </p> </li> 
      </ul> </p> <p>要详细了解 <span class="codeph">at.js</span> 各个版本中的更改，请参阅 <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 版本详细信息</a>。 </p> </td> 
@@ -2014,7 +2015,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>增强型可视化体验编辑器 (VEC) </p> </td> 
-   <td colname="col2"> <p>更新了用于增强型可视化体验编辑器 (VEC) 的 IP 地址。 </p> <p>如果允许列表用于VEC的IP地址，请添加新的IP地址。 </p> <p>有关更多信息，请参阅<a href="/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">可视化体验编辑器故障诊断</a>。 </p> </td> 
+   <td colname="col2"> <p>更新了用于增强型可视化体验编辑器 (VEC) 的 IP 地址。 </p> <p>如果将用于 VEC 的 IP 地址列入允许列表，请添加新的 IP 地址。 </p> <p>有关更多信息，请参阅<a href="/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">可视化体验编辑器故障诊断</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2053,11 +2054,11 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> 从 Target UI 生成 mboxTrace 身份验证令牌 </td> 
-   <td colname="col2"> <p>通过创建临时身份验证令牌，启用高级 <span class="keyword">Target</span> 调试工具。 </p> <p>在<span class="wintitle">实施详细信息</span>页（<span class="uicontrol">管理</span> &gt; <span class="uicontrol">实施</span>）上单击<span class="uicontrol">生成身份验证令牌</span>。 然后，您可以将生成的参数添加到网页 URL，以用于故障诊断。 </p> <p>有关更多信息，请参阅<a href="/help/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local">内容交付故障诊断</a>。 </p> </td> 
+   <td colname="col2"> <p>通过创建临时身份验证令牌，启用高级 <span class="keyword">Target</span> 调试工具。 </p> <p>在<span class="wintitle">“实现详细信息”</span>页面（<span class="uicontrol">“管理”</span>&gt;<span class="uicontrol">“实现”</span>）上单击<span class="uicontrol">“生成身份验证令牌”</span>。然后，您可以将生成的参数添加到网页 URL，以用于故障诊断。 </p> <p>有关更多信息，请参阅<a href="/help/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local">内容交付故障诊断</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 推荐：标准集排序 </td> 
-   <td colname="col2"> <p>在单个体验中使用由最多 5 个预先创建的标准组成的标准集，从而更好地控制呈现给访客的推荐。 </p> <p>有关更多信息，请参阅  <a href="/help/c-recommendations/c-algorithms/create-criteria-sequence.md"> 创建条件序 </a>列。 </p> </td> 
+   <td colname="col2"> <p>在单个体验中使用由最多 5 个预先创建的标准组成的标准集，从而更好地控制呈现给访客的推荐。 </p> <p>有关更多信息，请参阅<a href="/help/c-recommendations/c-algorithms/create-criteria-sequence.md">创建标准序列</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 推荐：插入外部促销活动 </td> 
@@ -2285,7 +2286,7 @@ Adobe Target Standard/Premium 16.7.1（2016 年 7 月 21 日）版本包括以�
  <tbody> 
   <tr> 
    <td colname="col1"> 活动的优先级设置 </td> 
-   <td colname="col2"> <p>现在，您可以设置活动优先级（从 0 到 999），这样一来，如果将具有相同受众的多个活动分配到同一个位置，便可以更精确地控制显示的活动。 </p> <p>必须在<span class="wintitle">管理</span> &gt; <span class="wintitle">报告</span>中启用此选项。 </p> <p>细粒度优先级选项适用于 A/B 测试活动、自动个性化活动、体验定位活动以及多变量测试活动。 </p> <p>有关更多信息，请参阅以下主题： </p> <p> 
+   <td colname="col2"> <p>现在，您可以设置活动优先级（从 0 到 999），这样一来，如果将具有相同受众的多个活动分配到同一个位置，便可以更精确地控制显示的活动。 </p> <p>必须在<span class="wintitle">“管理”</span>&gt;<span class="wintitle">“报表”</span>中启用此选项。 </p> <p>细粒度优先级选项适用于 A/B 测试活动、自动个性化活动、体验定位活动以及多变量测试活动。 </p> <p>有关更多信息，请参阅以下主题： </p> <p> 
      <ul id="ul_FD92CD06CF25480887AC171274262E18"> 
       <li id="li_D321FAED82944D2685DA69EB310D80BE"><b>A/B 测试：</b><a href="/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">目标和设置</a> </li> 
       <li id="li_12ECDFD71DB94E22A85AB13B487E8503"><b>自动个性化：</b><a href="/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">自动个性化</a> </li> 
@@ -2421,10 +2422,10 @@ Adobe Target Standard/Premium 16.5.1（2016 年 5 月 19 日）版本包括以�
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 推荐 CSV 下载 </td> 
-   <td colname="col2"> <p>现在，CSV下载包含所有环境的行，包括那些没有实体推荐的下载(例如： 
+   <td colname="col2"> <p>现在，下载的 CSV 有一行表示所有环境，包括没有实体推荐的那些环境（例如：
      <code>
        # environment: 1724 
-     </code>)。 </p> </td> 
+     </code>）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2488,7 +2489,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
       <li id="li_C47240826E5844D6843314F453F042FC">导航从左侧移到了顶部 </li> 
       <li id="li_3BB03504E98C40CC85583DCD9A4CEA06">改进了对话框 </li> 
       <li id="li_AE71506DF1E748A788C40E1F09951732">改进了活动创建流程 </li> 
-     </ul> </p> <p>此外，还更改了选择 Experience Cloud 解决方案（包括 Target）的方式。要访问 Experience Cloud 解决方案和服务，请单击菜单图标： </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>有关在登录 Experience Cloud 后访问 Target 并将 Target 设为默认页面的更多信息，请参阅<a href="/help/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local">从 Adobe Experience Cloud 访问 Target </a>。 </p> <p>有关用户界面改进的更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/core-services/interface/release-notes/marketing-cloud-interface.html" format="https" scope="external">Adobe Experience Cloud 2016 年春季版的新增功能</a>。 </p> </td> 
+     </ul> </p> <p>此外，还更改了选择 Experience Cloud 解决方案（包括 Target）的方式。要访问 Experience Cloud 解决方案和服务，请单击菜单图标： </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>有关在登录 Experience Cloud 后访问 Target 并将 Target 设为默认页面的更多信息，请参阅<a href="/help/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local">从 Adobe Experience Cloud 访问 Target </a>。 </p> <p>有关用户界面改进的更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/core-services/interface/release-notes/marketing-cloud-interface.html?lang=zh-Hans" format="https" scope="external">Adobe Experience Cloud 2016 年春季版的新增功能</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 可以为备用推荐禁用包含规则 </td> 
@@ -2588,7 +2589,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
 * Chrome 版本 48 更新引入了导致可视化体验编辑器无法在 Chrome 中正常使用的问题。Google 正在寻找解决方案。有关信息，请参阅 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)。要避开此问题，请执行以下操作：
 
    * 使用 Firefox 或 Internet Explorer。
-   * 启用增强的体验书写器，可以从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视体验书写器]**&#x200B;选项卡中进行配置。
+   * 启用“增强体验编辑器”，可从&#x200B;**[!UICONTROL “管理”]**>**[!UICONTROL “可视体验编辑器”]**&#x200B;选项卡中配置它。
 
 ### Adobe [!DNL Target] Standard/Premium 16.2.1（2016年2月18日）{#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -2610,7 +2611,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
 * Chrome 版本 48 更新引入了导致可视化体验编辑器无法在 Chrome 中正常使用的问题。Google 正在寻找解决方案。有关信息，请参阅 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)。要避开此问题，请执行以下操作：
 
    * 使用 Firefox 或 Internet Explorer。
-   * 启用增强的体验书写器，可以从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视体验书写器]**&#x200B;选项卡中进行配置。
+   * 启用“增强体验编辑器”，可从&#x200B;**[!UICONTROL “管理”]**>**[!UICONTROL “可视体验编辑器”]**&#x200B;选项卡中配置它。
 
 ### Adobe [!DNL Target] Standard/Premium 16.1.1（2016年1月28日）{#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -2688,7 +2689,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
 * Chrome 版本 48 更新引入了导致可视化体验编辑器无法在 Chrome 中正常使用的问题。Google 正在寻找解决方案。有关信息，请参阅 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)。要避开此问题，请执行以下操作：
 
    * 使用 Firefox 或 Internet Explorer。
-   * 启用增强的体验书写器，可以从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视体验书写器]**&#x200B;选项卡中进行配置。
+   * 启用“增强体验编辑器”，可从&#x200B;**[!UICONTROL “管理”]**>**[!UICONTROL “可视体验编辑器”]**&#x200B;选项卡中配置它。
 
 ## 2015 年版 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -2722,7 +2723,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>客户属性 </p> </td> 
-   <td colname="col2"> <p> 使用 Experience Cloud 核心服务上传第一方数据（称为“客户属性”），并选择要共享到 Target 的属性。3 月份为 Analytics 启用了此功能，现在此功能直接与 Target 相集成。 </p> <p> 例如，您可能会使用 CRM 或电子商务/POS 系统中的客户数据，其中包括会员资格状态（金会员、银会员，等）、购买历史记录、最喜爱的目标、当地商店等。现在，您可以将该数据上传到 Experience Cloud。用户在您的网站上进行身份验证后，Target 便可以将该数据与用户的 Web 行为进行匹配。 </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html" format="https" scope="external">客户属性</a>。 </p> </td> 
+   <td colname="col2"> <p> 使用 Experience Cloud 核心服务上传第一方数据（称为“客户属性”），并选择要共享到 Target 的属性。3 月份为 Analytics 启用了此功能，现在此功能直接与 Target 相集成。 </p> <p> 例如，您可能会使用 CRM 或电子商务/POS 系统中的客户数据，其中包括会员资格状态（金会员、银会员，等）、购买历史记录、最喜爱的目标、当地商店等。现在，您可以将该数据上传到 Experience Cloud。用户在您的网站上进行身份验证后，Target 便可以将该数据与用户的 Web 行为进行匹配。 </p> <p>请参阅<a href="https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans" format="https" scope="external">客户属性</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>当选择 Analytics 作为 Target 的报告源时，可以使用多个公司。 </p> </td> 
@@ -3416,11 +3417,11 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 适用于 Adobe Target 的 Adobe Analytics 增强的报告功能 </td> 
-   <td colname="col2"> 在<a href="/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local">测试设置过程</a>中，Adobe Analytics 客户可以选择将 Analytics 作为默认的报表源。这样一来，为了筛选您的结果，您就不再需要选择所有的成功量度或受众。在报告中，您可以选择 Analytics 中定义的任何成功量度或受众区段，并采用可追溯的方式将其应用到您的报表中，以此来扩展筛选并深入分析您的优化结果。 <p> <p>注意：若要申请访问此项功能，请访问 <a href="https://www.adobe.com/go/audiences_cn" format="http" scope="external">https://www.adobe.com/go/audiences_cn</a>。 </p> </p> </td> 
+   <td colname="col2"> 在<a href="/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local">测试设置过程</a>中，Adobe Analytics 客户可以选择将 Analytics 作为默认的报表源。这样一来，为了筛选您的结果，您就不再需要选择所有的成功量度或受众。在报告中，您可以选择 Analytics 中定义的任何成功量度或受众区段，并采用可追溯的方式将其应用到您的报表中，以此来扩展筛选并深入分析您的优化结果。 <p> <p>注意：若要申请访问此项功能，请访问 <a href="https://www.adobe.com/go/audiences_cn" format="http" scope="external"> https://www.adobe.com/go/audiences_cn </a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 主营销配置文件实时受众 </td> 
-   <td colname="col2"> 利用主营销配置文件，将访客 ID 和数据统一到单个可操作的配置文件中，以便跨解决方案使用。在 Adobe Analytics 的客户群创建流程期间出现的一个复选框，可允许该客户群在 Adobe Target 的自定义受众库中处于可用状态。在 Analytics 或 Audience Manager 中创建的区段可用于在 Target 中定位访客。 <p> <p>注意：若要申请访问此项功能，请访问 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences_cn</a>。 </p> </p> </td> 
+   <td colname="col2"> 利用主营销配置文件，将访客 ID 和数据统一到单个可操作的配置文件中，以便跨解决方案使用。在 Adobe Analytics 的客户群创建流程期间出现的一个复选框，可允许该客户群在 Adobe Target 的自定义受众库中处于可用状态。在 Analytics 或 Audience Manager 中创建的区段可用于在 Target 中定位访客。 <p> <p>注意：若要申请访问此项功能，请访问 <a href="https://www.adobe.com/go/audiences" format="http" scope="external"> https://www.adobe.com/go/audiences_cn </a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 依据活动类型而定位的体验 </td> 

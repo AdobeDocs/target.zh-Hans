@@ -1,13 +1,13 @@
 ---
-description: Adobe [!DNL Target] 中使用的不同术语的含义是什么？ 查找常用术语的定义，以帮助您进一步了解 [!DNL Target]。
-title: 在哪里可以找到在目标中使用的术语和定义？
+description: Adobe [!DNL Target] 中使用的不同术语的含义是什么？ 查找常用术语的定义以帮助您充分利用 [!DNL Target].
+title: 可在何处找到 Target 中使用的术语和定义？
 feature: 概述
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2470'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ A/B 测试可比较两个或更多版本的网站内容，以查看在预先指�
 
 **audience（受众）**
 
-一组将会看到定位活动的相似活动参加者。具有相同特征的一组人，如新访客、返回访客或来自中西部的help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds。 通过使用“受众”功能，您可以将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。如果某位访客被识别为目标受众的一员，则 Target 会根据在活动创建过程中定义的标准确定要向该访客显示的体验。
+一组将会看到定位活动的相似活动参加者。受众是具有相同特征的一群人，如新访客、回访访客或来自 Midwest 的 help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds。通过使用“受众”功能，您可以将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。如果某位访客被识别为目标受众的一员，则 Target 会根据在活动创建过程中定义的标准确定要向该访客显示的体验。
 
 **Auto-Allocate（自动分配）**
 
@@ -245,13 +245,13 @@ Target Standard 中活动的可视化表现形式。
 
 **新访客**
 
-如果满足以下条件之一，则“新访客”区段中会包含访客:
+如果符合以下条件之一，则将访客包括在“新访客”部分中：
 
-* 这是访客第一次访问网站。
-* 这是访客清除Cookie后首次访问网站。
-* 这是访客自[访客用户档案生命期](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)过期后首次访问站点。
+* 这是该访客第一次访问该网站。
+* 这是自清除 Cookie 以来该访客第一次访问该网站。
+* 这是自[访客个人资料生命周期](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)到期以来该访客第一次访问该网站。
 
-有关详细信息，请参阅[如何计算新访客和退回访客量度？](/help/c-reports/reporting-frequently-asked-questions.md#methodology) 中。与下面的“退回访客”对比。
+有关更多信息，请参见“报表常见问题”中的[如何计算“新访客”和“回访访客”指标？](/help/c-reports/reporting-frequently-asked-questions.md#methodology)。请与下方的“回访访客”进行对比。
 
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
@@ -293,9 +293,9 @@ Target Standard 中活动的可视化表现形式。
 
 **回访访客**
 
-如果用户之前访问过网站（至少离开30分钟），并使用相同的Cookie再次返回到该网站，则该访客将包含在“返回访客”区段中。 只要访客在其用户档案生命周期内返回，此访客就是返回访客。
+如果用户以前访问过该网站，停留了至少 30 分钟，然后带着相同的 Cookie 再次返回该网站，则该访问者被包括在“回访访客”区段中。只要访客在其个人资料生命周期内返回，此访客即为回访访客。
 
-有关详细信息，请参阅[在报告问题与答案中，新访客和返回访客量度的计数](/help/c-reports/reporting-frequently-asked-questions.md#methodology)。与上面的“新访客”对比。
+有关详细信息，请参阅“报表常见问题”中的[如何计算新访客和回访访客指标？](/help/c-reports/reporting-frequently-asked-questions.md#methodology)。请与上方的“新访客”进行对比。
 
 **role（角色）**
 
@@ -351,7 +351,7 @@ Target Standard 中活动的可视化表现形式。
 
 **visit**
 
-访问有时称为会话。 访问在非活动状态持续30分钟后结束，这意味着在服务器请求到目标之间至少已经过30分钟。
+访问有时称为会话。访问在无活动 30 分钟后结束，这表示向 Target 发出两次服务器请求之间已过去至少 30 分钟。
 
 **visitor（访客）**
 

@@ -1,50 +1,50 @@
 ---
-keywords: 欢迎套件；目标欢迎套件；介绍；入门
-description: 你在Adobe Target创造了第一个活动。 接下来是什么？ 使用本文查找指向其他资源、培训教程和操作方法视频的链接。
-title: 哪里可以找到更多资源以更有效地使用目标?
-feature: Overview
-translation-type: tm+mt
+keywords: 欢迎套件;target 欢迎套件;简介;简介;开始使用
+description: 您已在 Adobe Target 中创建了您的第一个活动。接下来做什么？使用本文查找其他资源、培训教程和操作方法视频的链接。
+title: 可在何处找到其他资源以更有效地使用 Target？
+feature: 概述
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '721'
+ht-degree: 100%
 
 ---
 
 
-# 第九章：后续步骤和资源
+# 第 9 章：后续步骤和资源
 
-我们已涵盖运行您的第一个活动的基础知识。 我们希望活动能向您和您的公司展示使用[!DNL Adobe Target]优化和个性化对于影响业务底线的巨大潜力。 这只是开始。 是时候考虑您将重点关注的第二个活动了？ 考虑为要运行的活动创建优先级列表。 您将惊奇地发现，您能以多快的速度看到活动如何通过活动改善客户体验并推动业务成功。
+我们已经介绍了运行您的第一个活动的基础知识。我们希望该活动向您和您的公司表明，使用 [!DNL Adobe Target] 进行优化和个性化对于提高业务盈利能力有着巨大潜力。而这仅仅是开始。现在应该考虑一下对于您的第二个活动将侧重于什么方面？请考虑创建要优先运行的活动的列表。您很快就会发现一个又一个活动将改善客户体验并促使业务取得成功，并为此感到震惊。
 
-顺便说一下，您有许多方法可以进一步了解测试、个性化和使用[!DNL Target]。 审查以下资源列表，以开始建立该知识。 在我们的网络研讨会上聆听，阅读Adobe Target博客，参加Adobe峰会，并在Adobe Target在线社区中活跃起来。 不要忘记，我们始终在此帮助您启动项目，并将其推向成功之路。 随时与他人联系。
+顺便说一下，您还有许多方式可详细了解测试、个性化和使用 [!DNL Target]。请查看下方的资源列表以开始积累这些知识。收听我们的网络研讨会、阅读 Adobe Target 博客、参加 Adobe Summit 并在 Adobe Target 网络社区中积极交流。不要忘记，我们会一直努力帮助您启动项目并获得成功。请随时联系。
 
-我们整理了有组织的有价值信息列表，以帮助您进一步了解使用[!DNL Target]进行优化和个性化。
+我们整理了一个列表，提供了许多宝贵信息，可帮助您获得更多关于使用 [!DNL Target] 进行优化和个性化的知识。
 
 ## 资源链接
 
-* **设置Adobe Target**:帮助您管理的信 [!DNL Adobe Target]息，包括Visual Experience Composer [!UICONTROL (VEC)、报告、配]  [!DNL Scene7] 置、实现、主机、环境、响应令牌和用户的配置设置。请参阅[管理目标概述](/help/administrating-target/administrating-target.md)。
-* **Adobe Target产品文档**:关于Adobe Target的一切。请参阅[Adobe Target产品文档](https://experienceleague.adobe.com/docs/target/using/target-home.html)。
-* **Adobe TargetAPI和SDK文档**:了解如何在客 [!DNL Target] 户端应用程序、服务器端应用程序、移动应用程序、物联网等上实施。此外，了解如何使用第三方解决方案交换您的[!DNL Target]数据。 请参阅[Adobe TargetAPI概述](/help/api/api-overview.md)。
-* **Adobe Target活动指南**:介绍您可以在中使用的不同活动 [!DNL Target]。请参阅[目标活动类型](/help/c-activities/target-activities-guide.md)。
-* **Adobe Target客户关怀**:被困在问题上？Adobe Target用户可以随时发送电子邮件或致电寻求支持！ 请参阅[目标企业支持页面](https://helpx.adobe.com/contact/enterprise-support.ec.html#target)。
+* **设置 Adobe Target**：帮助您管理 [!DNL Adobe Target] 的信息，包括[!UICONTROL 可视体验编辑器] (VEC)、报表、[!DNL Scene7] 配置、实现、主机、环境、响应令牌和用户的配置设置。请参阅[管理 Target 概述](/help/administrating-target/administrating-target.md)。
+* **Adobe Target 产品文档**：关于 Adobe Target 所需了解的一切。请参阅 [Adobe Target 产品文档](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=zh-Hans)。
+* **Adobe Target API 和 SDK 文档**：了解如何对客户端应用程序、服务器端应用程序、移动应用程序、物联网等上实现 [!DNL Target]。此外，还可了解如何与第三方解决方案交换您的 [!DNL Target] 数据。请参阅 [Adobe Target API 概述](/help/api/api-overview.md)。
+* **Adobe Target 活动指南**：对于可在 [!DNL Target] 中使用的各种活动的简介。请参阅 [Target 活动类型](/help/c-activities/target-activities-guide.md)。
+* **Adobe Target 客户关怀**：卡在一个问题上？Adobe Target 用户随时可使用电子邮件或电话寻求支持！请参阅 [Target 企业支持页面](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html#target)。
 
-## 培训和支持
+## 培训和赋能
 
-* **Adobe TargetTutorials**:学习基础知识或提高技能。请参阅[Adobe TargetTutorials页](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)。
-* **Adobe Target点播培训**:浏览我们优惠的各种目标课程。请参阅[Adobe培训和教程](https://helpx.adobe.com/learning.html?promoid=KAUDK)页。
-* **Adobe Target视频：** Woable观看 [!DNL Target] 视频，观看成功案例和解决方案功能。请参阅[Adobe Target标准版和高级版培训视频](/help/c-intro/target-standard-premium-training-videos.md)
-* **网络研讨会系列**:Adobe Target基础。加入我们的客户成功网络研讨会系列，探索与Adobe Target用户进行优化的基础知识。 请参阅[目标基础网络研讨会系列](/help/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4)。
-* **Adobe客户关怀办公时间**:“办公时间”是由Adobe客户关怀团队领导的一项计划。这些会话旨在通知和帮助参加者解决问题，并提供使用[!DNL Adobe Experience Cloud]解决方案（包括[!DNL Target]）取得成功的提示和技巧。 请参阅[Adobe客户关怀办公时间](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)。
-* **Adobe峰会**:参加今年最大的数字营销人员专业事件。
-   * [Adobe峰会](https://summit.adobe.com/na/) （北美）
-   * [Adobe峰会](http://summit-emea.adobe.com/emea/) (EMEA)
+* **Adobe Target 培训**：学习基础知识或提高您的技能。请参阅 [Adobe Target 培训](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hans)页面。
+* **Adobe Target 按需培训**：探索我们提供的各种 Target 课程。请参阅 [Adobe 培训和教程](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK)页面。
+* **Adobe Target 视频**：集中查看 [!DNL Target] 视频以观看成功案例和解决方案功能。请参阅 [Adobe Target Standard 和 Premium 的培训视频](/help/c-intro/target-standard-premium-training-videos.md)
+* **系列网络研讨会**：Adobe Target 基础知识。请参加我们的客户成功案例系列网络研讨会，从中可探索 Adobe Target 用户进行优化的基础知识。请参阅 [Target 基础知识系列网络研讨会](/help/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4)。
+* **Adobe 客户关怀办公时间**：“办公时间”是 Adobe 客户关怀团队发起的一项倡议。这些讲座旨在告知并帮助参与者排除问题，并提供提示和技巧以使 [!DNL Adobe Experience Cloud] 解决方案（包括 [!DNL Target]）发挥成效。请参阅 [Adobe 客户关怀办公时间](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)。
+* **Adobe Summit**：出席数字营销人员一年中最大的专业盛会。
+   * [Adobe Summit](https://summit.adobe.com/na/)（北美洲）
+   * [Adobe Summit](http://summit-emea.adobe.com/emea/) (EMEA)
 
 ## 其他资源
 
-* **Adobe Target主页**:主页，了 [!DNL Adobe Target]解我们的功能并在此处查看我们的最新成功案例。请参阅[Adobe Target](https://www.adobe.com/cn/marketing/target.html)。
-* **博客**:通过关注目标博客，了解最新新闻、提示和成功案例 [最新信息](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5)。
-* **Experience League**:探索您开展体验式业务所需的指南、事件和培训，与目标社区建立联系并找到您需要的答案。请参阅[Adobe Experience League主页](https://experienceleague.adobe.com/#home)。
-* **Adobe Target认证**:通过新的Adobe Target考试获得Adobe认证专家资格。计划此处的考试或培训课程。 请参阅[培训和认证](/help/c-intro/training-and-certification.md)。
-* **Adobe Target发行说明**:有关各版本的功能、增强和修复 [!DNL Target Standard] 的 [!DNL Target Premium] 信息。此外，还包含目标API、SDK、JavaScript库(at.js)的发行说明以及其他平台更改（如果适用）。 请参阅[目标发行说明（当前版本）](/help/r-release-notes/release-notes.md)。
-* **Adobe Target通讯**:了解产品更新和未来计划、个性化和优化提示与技巧、客户成功案例、即将推出的事件、热门博客帖子等。请参阅[目标内部新闻快讯](/help/r-release-notes/target-insider-newsletter.md)。
+* **Adobe Target 主页**：[!DNL Adobe Target] 的主页，从中可了解我们的能力并查看我们最新的成功案例。请参阅 [Adobe Target](https://www.adobe.com/cn/marketing/target.html)。
+* **博客**：关注 [Target 博客](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5)，即可掌握最新的动向、提示和成功案例。
+* **Experience League**：探索开展体验业务所需的指南、活动和培训，并与 Target 社区建立联系，从而找到您所寻找的答案。请参阅 [Adobe Experience League 主页](https://experienceleague.adobe.com/#home)。
+* **Adobe Target 认证**：通过新的 Adobe Target 考试获得 Adobe 认证专家身份。在此可安排考试或参加培训课程。请参阅[培训和认证](/help/c-intro/training-and-certification.md)。
+* **Adobe Target 发行说明**：关于每个 [!DNL Target Standard] 和 [!DNL Target Premium] 发行版的功能、增强和修复的信息。此外，在适用的情况下，还包括 Target API、SDK、JavaScript 库 (at.js) 的发行说明和其他平台变更。请参阅 [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md)。
+* **Adobe Target 新闻稿**：了解产品更新和未来计划、个性化和优化提示和技巧、客户成功案例、即将举行的活动、热门博客帖子等。请参阅 [Target Insider 新闻稿](/help/r-release-notes/target-insider-newsletter.md)。
 

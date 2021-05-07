@@ -1,5 +1,5 @@
 ---
-keywords: Experience Cloud；登录；语言；默认ui语言；默认语言
+keywords: Experience Cloud;登录;语言;默认 ui 语言;默认语言
 description: 了解如何访问 [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] UI和文档。
 title: 如何从Adobe Experience Cloud访问 [!DNL Target] ?
 feature: 概述
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 62%
+ht-degree: 88%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 62%
 
 ## 登录Adobe [!DNL Target]并设置默认视图
 
-1. 登录[Adobe Experience Cloud](https://experience.adobe.com/)。
+1. 登录到 [Adobe Experience Cloud](https://experience.adobe.com/)。
 
-1. 单击导航栏中的&#x200B;**[!UICONTROL 应用程序图标]**，然后单击&#x200B;**[!UICONTROL 目标]**。
+1. 单击导航栏中的&#x200B;**[!UICONTROL “应用程序”]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL “Target”]**。
 
-   您还可以单击主窗口中的[!DNL Target]面板以访问[!DNL Target]（或您有权访问的任何其他[!DNL Adobe Experience Cloud]解决方案）。
+   也可单击主窗口中的 [!DNL Target] 面板以访问 [!DNL Target]（或任何您有权访问的其他 [!DNL Adobe Experience Cloud] 解决方案）。
 
    ![应用程序图标](/help/c-intro/assets/appmenu-new.png)
 
@@ -32,15 +32,15 @@ ht-degree: 62%
 
 ## 更改[!DNL Target] UI {#language}的默认语言
 
-1. 登录[!DNL Adobe Experience Cloud ]或[!DNL Target]后，单击您的用户档案头像，然后单击&#x200B;**[!UICONTROL 编辑首选项]**。
+1. 登录到 [!DNL Adobe Experience Cloud ] 或 [!DNL Target] 之后，单击您的个人资料头像，然后单击&#x200B;**[!UICONTROL “编辑首选项”]**。
 
    ![编辑个人资料](/help/c-intro/assets/change-language.png)
 
-1. 单击&#x200B;**[!UICONTROL Adobe帐户]**&#x200B;以访问[!DNL Adobe]用户档案。
+1. 单击&#x200B;**[!UICONTROL “Adobe 帐户”]**&#x200B;以访问您的 [!DNL Adobe] 个人资料。
 
-   ![Adobe帐户](/help/c-intro/assets/adobe-account.png)
+   ![Adobe 帐户](/help/c-intro/assets/adobe-account.png)
 
-1. 单击顶部菜单栏中的&#x200B;**[!UICONTROL 通知]**&#x200B;选项卡，然后单击左侧的&#x200B;**[!UICONTROL 首选项]**&#x200B;选项卡。
+1. 单击顶部菜单栏中的&#x200B;**[!UICONTROL “通知”]**&#x200B;选项卡，然后单击左侧的&#x200B;**[!UICONTROL “首选项”]**&#x200B;选项卡。
 
    ![首选语言](/help/c-intro/assets/prefered-language.png)
 
@@ -48,7 +48,7 @@ ht-degree: 62%
 
 1. 选择首选（主要）语言，然后根据需要选择第二种语言。
 
-   [!DNL Target] UI提供以下语言版本；但是，通知的语言更多：
+   [!DNL Target] UI 支持以下几种语言；但是，通知支持更多语言：
 
    * 英语
    * 西班牙语

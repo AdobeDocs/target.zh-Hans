@@ -1,20 +1,20 @@
 ---
-keywords: 发行说明；发行；更新；未来发行；增强；新增功能；修复；更新；预发行
-description: 了解即将发布的Adobe Target版本（包括SDK、API和JavaScript库）中包含的新功能、增强和修复。
-title: 即将发布的版本中包含哪些新增功能？
-feature: Release Notes
+keywords: 发行说明;版本;更新;未来版本;增强;新功能;修复;更新;预发行
+description: 了解 Adobe Target 即将发布的版本中包括的新功能、增强和修复，包括 SDK、API 和 JavaScript 库。
+title: 即将发布的版本中包括什么新功能？
+feature: 发行说明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 20%
+ht-degree: 32%
 
 ---
 
 # Target 发行说明（预发行版本）
 
-本文包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。
+本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
 **上次更新日期：2021 年 4 月 16 日**
 
@@ -24,7 +24,7 @@ ht-degree: 20%
 >
 >**mbox.js终止使用**:自2021年3月31日起， [!DNL Adobe Target] 不再支持mbox.js库。2021年3月31日之后，从mbox.js发出的所有调用都会正常失败，并会通过提供默认内容影响运行[!DNL Target]活动的页面。
 >
->要避免站点出现任何潜在问题，请迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
+>要避免站点出现任何潜在问题，请迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本。 有关详细信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 ## Target Standard/Premium 21.4.1（2021 年 4 月 19 日） 
 
@@ -56,4 +56,4 @@ ht-degree: 20%
 
 若要提前了解有关 Target 和其他 Adobe Experience Cloud 解决方案即将推出的产品增强功能的通知，请注册“Adobe 产品更新早知道”：
 
-[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
+[https://www.adobe.com/cn/subscription/priority-product-update.html](https://www.adobe.com/cn/subscription/priority-product-update.html)

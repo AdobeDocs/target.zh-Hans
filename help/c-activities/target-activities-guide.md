@@ -1,24 +1,24 @@
 ---
 keywords: 活动指南;活动;活动类型;活动操作
-description: 下载一个交互式PDF，它描述Adobe Target的不同活动类型。
-title: 哪些活动类型在目标中可用？
-feature: Activities
-translation-type: tm+mt
+description: 下载一个交互式 PDF，其中说明 Adobe Target 中的各种活动类型。
+title: Target 中有什么活动类型可用？
+feature: 活动
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '1468'
+ht-degree: 100%
 
 ---
 
 
 # Target 活动类型
 
-下载一个交互式PDF，它描述[!DNL Adobe Target]中的不同活动类型(Recommendations除外)。
+下载一个交互式 PDF，其中说明 [!DNL Adobe Target] 中的各种活动类型（推荐除外）。
 
 >[!NOTE]
 >
->为获得最佳体验并与他人共享，请下载交互式[Adobe Target活动指南PDF](/help/assets/activities_guide_82817.pdf)。
+>为了获得最佳体验并与他人共享，请下载交互式 [Adobe Target 活动指南 PDF](/help/assets/activities_guide_82817.pdf)。
 
 ## 该活动有什么作用？{#section_4ECAACC68723402EB3649033190E1BBC}
 

@@ -1,14 +1,14 @@
 ---
-keywords: IP地址；IP地址；白名单；允许列表；防火墙；记录；源；服务器；adobe marketing cloud；推荐
+keywords: IP 地址;IP 地址;列入允许列表;允许列表;防火墙;推荐;信息源;服务器;adobe marketing cloud;推荐
 description: 视图 [!DNL Target] Recommendations源处理服务器中使用的IP地址列表，以帮助您配置防火墙以允许源自Adobe服务器的IP地址。
-title: Recommendations源处理服务器使用哪些IP地址？
+title: Recommendations 信息源处理服务器使用什么 IP 地址？
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 8%
+ht-degree: 24%
 
 ---
 

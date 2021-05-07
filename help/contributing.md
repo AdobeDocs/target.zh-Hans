@@ -1,7 +1,7 @@
 ---
 source-git-commit: b14736a6f49e4276c94490f2fa435a87f8d365ae
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '145'
 ht-degree: 100%
 
@@ -22,4 +22,4 @@ ht-degree: 100%
 
 ## 代码审阅
 
-应以拉取请求的形式提交所有提交，并需要由项目提交者进行审阅。请阅读 [GitHub 的提取请求文档](https://help.github.com/cn/articles/about-pull-requests/)，了解有关发送提取请求的更多信息。
+应以拉取请求的形式提交所有提交，并需要由项目提交者进行审阅。请阅读 [GitHub 的提取请求文档](https://help.github.com/articles/about-pull-requests/)，了解有关发送提取请求的更多信息。

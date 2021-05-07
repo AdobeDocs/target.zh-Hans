@@ -1,5 +1,5 @@
 ---
-keywords: Target Standard;Recommendations;目标 Premium;Automated Personalization；自动目标；自动目标；权限；什么是adobe目标;
+keywords: Target Standard;推荐;Target Premium;自动个性化;自动定位;自动定位;权限;adobe target 是什么;
 description: 了解Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] 高级版的基础知识，它包含标准产品中没有的高级功能。
 landing-page-description: 个性化客户体验以最大限度地提升网站和移动站点、应用程序、社交媒体和其他数字渠道的收入。
 title: 什么是 Target？
@@ -9,27 +9,27 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 41%
+ht-degree: 97%
 
 ---
 
 # Target 简介
 
-[!DNL Adobe Target] 是一款 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切。[!DNL Target] 帮助您最大限度地提高网站和移动站点、应用、社交媒体和其他数字渠道的收入。
+[!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，它提供量身定制客户的体验和使其个性化所需的一切。[!DNL Target] 帮助您最大限度地提高您的网站和移动站点、应用程序、社交媒体和其他数字渠道的收入。
 
-[!DNL Adobe Target]解决方案可授权为[!DNL Target Standard]或[!DNL Target Premium]。
+可将 [!DNL Adobe Target] 解决方案许可为 [!DNL Target Standard] 或 [!DNL Target Premium]。
 
 ## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] 前端，可帮 [!DNL Adobe Target] 助您直观地创建和管理A/B测试和基于规则的定位活动。[!DNL Target Standard] 支持在Visual Experience Composer(VEC)工作流中插入 [!UICONTROL 和插入] /退出自定义代码。[!DNL Target Standard] 优惠通过数字资产实现简化的实施战略。每个页面上的一行代码管理站点和之间所需的所有通信 [!DNL Target]。
+[!DNL Target Standard] 是 [!DNL Adobe Target] 的前端，它帮助您可视地创建和管理 A/B 测试以及基于规则的定位活动。[!DNL Target Standard] 支持在[!UICONTROL 可视体验编辑器] (VEC) 工作流程内外插入自定义代码。[!DNL Target Standard] 为您的数字财产提供简化的实现策略。只需在每个页面上加入一行代码即可管理您的网站与 [!DNL Target] 之间所需的所有通信。
 
-[!DNL Target Standard]中内置了行业最佳实践。 [!DNL Target Standard] 专为新用户和经验丰富的用户设计。如果您团队的其他成员也在使用 [!DNL Adobe Experience Cloud]，则您可以轻松地与他们共享数据和结果，并与其进行协作。
+[!DNL Target Standard] 中内置行业最佳实践。[!DNL Target Standard] 设计得既适合新用户，又适合有经验的用户。如果您团队的其他成员也在使用 [!DNL Adobe Experience Cloud]，则您可以轻松地与他们共享数据和结果，并与其进行协作。
 
 ## Target Premium {#premium}
 
-[!DNL Target Premium] 是一项高 [!DNL Target] 级产品，需要许可证才能向添加高级功能 [!DNL Target Standard]
+[!DNL Target Premium] 是一款高级 [!DNL Target] 产品，它需要许可证才能将高级功能添加到 [!DNL Target Standard]。
 
-本帮助指南中的所有[!DNL Target Premium]文章在每页顶部都包含高级徽章：
+本帮助指南中的全部 [!DNL Target Premium] 文章都在每页顶部加入了 Premium 徽章：
 
 ![Premium 徽章](/help/assets/premium.png)
 
@@ -37,15 +37,15 @@ Target 包含以下高级功能：
 
 ### 自动个性化
 
-[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP)提供先进的机器学习算法，以推动个性化体验并改进数字体验的转化率。
+[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) 提供高级机器学习算法以推进个性化体验并提高数字体验的转化率。
 
-[!UICONTROL 自动] 个性化在站点上记录访客活动，构建用户档案访客，使内容可以针对类似访客。AP追踪对内容的回应，无论是针对个人还是针对整个人口。 然后，AP使用复杂的建模方法自动目标每个人。 AP考虑每个访客的所有已知信息。
+[!UICONTROL 自动个性化]记录访客在网站上的活动、建立访客的个人资料，以使内容可面向类似的访客。AP 跟踪个人和整个人群对内容的反应。然后，AP 使用各种复杂的建模方法自动面向每个人。AP 考虑关于每位访客已知的一切。
 
-[!UICONTROL 自动] 化个性化可以自行学习，并且需要最少的人力分析。AP实现了完全自动化，不断学习。 该系统构建模型并自动学习个人访客最可能感兴趣的产品。 每次访客与站点交互时，都会在该访客的用户档案中收集和存储信息。 自动个性化可使用多个算法，为您的系统提供最适用的模型。
+[!UICONTROL 自动个性化]可自主学习，只需很少量的人工分析。AP 全自动地持续学习。该系统构建各种模型，并自动学习个别访客最有可能对哪些产品感兴趣。每次有访客与网站进行交互时，该系统均收集信息并将其存储在该访客的个人资料中。自动个性化可使用多个算法，为您的系统提供最适用的模型。
 
 ### 自动定位
 
-[自动定](/help/c-activities/auto-target/auto-target-to-optimize.md) 位使用高级机器学习来识别多个由营销人员定义的卓越体验。[!UICONTROL 然后，自] 动定位为每位访客提供最定制的体验。投放基于个别客户用户档案和以前具有相似用户档案的访客的行为。 [!UICONTROL Auto-Targep可] 以个性化内容并推动转化。
+[自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md)使用高级机器学习找出从多种由营销人员定义的体验中找出表现好的体验。然后，[!UICONTROL 自动定位]提供最适合每位访客的体验。投放基于个别客户个人资料以及个人资料相似的以往访客的行为。[!UICONTROL 自动定位]有助于使内容个性化并促进转化。
 
 ### 推荐
 
@@ -67,24 +67,24 @@ Target 包含以下高级功能：
 
 ### “推荐”作为选件
 
-[Recommendations作为](/help/c-recommendations/recommendations-as-an-offer.md) 一种产品，允许您在A/ [!UICONTROL B测试]、自动分 [!UICONTROL 配、自动目标]   、和体验定位(XT)活动中包含推荐。
+通过[选件形式的推荐](/help/c-recommendations/recommendations-as-an-offer.md)，可在 [!UICONTROL A/B 测试]、[!UICONTROL 自动分配]、[!UICONTROL 自动定位]和[!UICONTROL 体验定位] (XT) 活动中包括推荐。
 
 此功能提供了几项全新的功能，例如：
 
 * 可在同一活动中测试和定位推荐和非推荐内容。
 * 可轻松尝试在页面上放置推荐内容，包括为多个推荐排序。
 * 可使用[!UICONTROL 自动分配]自动将流量推送到性能最佳的推荐体验。
-* 使用[!UICONTROL 自动目标]，根据各个用户档案动态为定制的推荐体验分配访客。
+* 使用[!UICONTROL 自动定位]根据个别个人资料动态地将访客分配给量身定制的推荐体验。
 
 ### 企业用户权限
 
-[企业用](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 户权限功能允许您创建不同的项目(在中称为“产品用户档案 [!DNL Adobe Admin Console for Enterprise]”)。[!UICONTROL “企业用] 户权限”允许您为一个用户分配不同的权限，以指定该用户对每个项目的访问权限。这些不同的项目好比 [!DNL Adobe Analytics] 中各个报表包的工作方式。每个项目都可以拥有其特定用户，而这些用户可以具有适用于一组属性的特定角色。结果是客户能够限制对其用户的视图、编辑、批准和发布访问权限。 可以根据区域、环境(dev/stage/prod)、渠道或其他自定义条件来限制用户。
+通过[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)功能，可创建不同的项目（在 [!DNL Adobe Admin Console for Enterprise] 中称为“产品配置文件”）。通过[!UICONTROL 企业用户权限]，可为单个用户分配不同的权限，而这些权限规定该用户对于每个项目的访问权限。这些不同的项目好比 [!DNL Adobe Analytics] 中各个报表包的工作方式。每个项目都可以拥有其特定用户，而这些用户可以具有适用于一组属性的特定角色。结果是客户可限制其用户的查看、编辑、批准和发布访问权限。可根据区域、环境（开发/暂存/生产）、渠道或其他自定义标准限制用户。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] 是旧产品，不再向新客户授权。为获得最佳的[!DNL Recommendations]体验，请升级到上述[!DNL Adobe Target Premium]中提供的[!DNL Recommendations]活动。
+>[!DNL Recommendations Classic] 是一个旧版产品，不再许可给新客户。为了获得最佳的 [!DNL Recommendations] 体验，请升级到 [!DNL Adobe Target Premium] 中提供的 [!DNL Recommendations] 活动，如上所述。
 
 [!DNL Recommendations Classic] 可根据网站上以往的用户活动自动显示客户可能感兴趣的产品或内容。推荐可帮助将用户定向到若没有推荐他们可能无法了解到的项目，从而提高网站所产生的收入。
 
@@ -92,13 +92,13 @@ Target 包含以下高级功能：
 
 ## Experience League:Adobe[!DNL Target]欢迎套件{#kit}
 
-使用此欢迎工具包在[!DNL Adobe Target]上构建优化和个性化项目。 欢迎工具包包含关键信息、工具和资源，可帮助您准备并启动第一个[!DNL Target]活动。 该工具包包括短期快速赢取和长期优化策略的想法。
+用此欢迎套件在 [!DNL Adobe Target] 上构建您的优化和个性化项目。该欢迎套件包括关键信息、工具和资源，以帮助您准备和启动您的第一个 [!DNL Target] 活动。该套件包括短期快速入选和长期优化策略的想法。
 
-[Adobe Target欢迎工具包](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Adobe Target 欢迎套件](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## 培训视频：活动类型(9:03)![概述徽章](/help/assets/overview.png)
+## 培训视频：活动类型（9 分 3 秒）![概述徽章](/help/assets/overview.png)
 
-以下视频介绍了[!DNL Target Standard/Premium]中可用的活动类型，以及[!DNL Target]三步指导式工作流如何帮助您实现网站目标。
+以下视频介绍 [!DNL Target Standard/Premium] 中提供的活动类型以及 [!DNL Target] 三步引导式工作流程可怎样帮助您实现网站目标。
 
 * 介绍 [!DNL Adobe Target] 中包含的活动类型
 * 选择相应的活动类型以实现目标

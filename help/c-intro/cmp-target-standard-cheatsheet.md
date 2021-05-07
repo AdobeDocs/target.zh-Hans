@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;faq;常见问题解答;速查表;备忘单
-description: 浏览有关使用Adobe Target中功能的常见问题列表，以及有关更多信息的信息和链接。
-title: 在哪里可以找到优化和个性化问题的答案？
+description: 浏览关于使用 Adobe Target 中各项功能的常见问题的列表，以及信息和链接以了解详情。
+title: 可在何处找到优化和个性化问题的答案？
 feature: 概述
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2918'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 **我可以如何查看其他客户怎样利用 Adobe Target 以获得更好的结果？**
 
-这里是我们的[客户成功案例](https://www.adobe.com/in/marketing-cloud/target/resources.html#x)中的一部分。可以从中了解客户如何利用 Target 改进优化和个性化设置以实现业务目标。
+这里是我们的[客户成功案例](https://www.adobe.com/cn/marketing-cloud/target/resources.html#x)中的一部分。可以从中了解客户如何利用 Target 改进优化和个性化设置以实现业务目标。
 
 请注意，其中一些案例研究利用了 Adobe Target Premium 的功能。
 
@@ -62,7 +62,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **我是否可以执行一个活动，在该活动中采用一定程度的个性化作为该活动的一部分？**
 
-查看[自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)选项。
+查看[自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md)选项。
 
 **我如何知道哪类活动最适合我的需求？**
 
@@ -132,8 +132,8 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 有两种选项：
 
-* 默认选项，共三个等级（低/中/高）
-* 自定义选项，范围从 0 到 999。对于“自定义”，请启用“细粒度优先级”功能（“管理”>“可视体验编辑器”）。
+* 默认选项，共三个等级（低 / 中 / 高）
+* 自定义选项，范围从 0 到 999。对于“自定义”，请启用“细化优先级”功能（“管理”>“可视体验编辑器”）。
 
 ## 受众 {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -189,7 +189,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 此外，我们还提供了[基于表单的方法](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，这些方法可以帮助您。
 
-另请阅读[增强型体验编辑器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何时以及为何有用。您可能还需要联系您的 IT 部门，  [允许列表也Adobe的代](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) 理服务器。
+另请阅读[增强型体验编辑器](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何时以及为何有用。您可能还需要联系您的 IT 部门，[将 Adobe 的代理服务器列入允许列表](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
 
 **我有一个响应网站。在创建活动时，如何确定要使用的关键设备？**
 
@@ -197,7 +197,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **我有多个域。其中一个域需要启用增强型体验编辑器，而其他域则需要将其禁用。我该如何处理？**
 
-您始终可以使用活动级别](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的[增强体验书写器选项来覆盖默认设置（“管理”>“可视体验书写器”）。
+始终可使用[活动级别的增强体验编辑器选项](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)取代默认设置（“管理”>“可视体验编辑器”）。
 
 **为何我看不到交换图像的选项？**
 
@@ -235,7 +235,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 **我能否确保在用户可能使用的所有设备上都始终如一地提供相同的体验？**
 
-试试我们的 [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html)，它允许您通过 Co-op 确定性地和概率性地链接用户的多个设备。
+试试我们的 [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=zh-Hans)，它允许您通过 Co-op 确定性地和概率性地链接用户的多个设备。
 
 如果您在 Co-op 之中，只需单击“目标和设置”页面上的标志即可启用该功能。此时，报表会更改为反映“人员”而不是“访客”。请咨询您的 Adobe 联系人以获取有关此功能的更多信息，因为这不适用于所有区域。
 

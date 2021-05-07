@@ -1,6 +1,6 @@
 ---
-keywords: 内幕新闻快讯；新闻快讯；产品更新；提示与技巧；事件；客户成功；博客；博客；白皮书；白皮书
-description: 阅读有关Adobe Target的最新新闻。 查找有关即将到来的事件、客户成功案例、专家提供的信息和提示等信息。
+keywords: Insider 新闻稿;新闻稿;产品更新;提示和技巧;活动;客户成功;博客;博客;白皮书;白皮书
+description: 阅读关于 Adobe Target 的最新新闻。查找关于即将开展的活动的信息、客户成功案例、专家提供的信息和提示等。
 title: 什么是Adobe [!DNL Target] 内幕新闻稿？
 feature: 发行说明，概述
 exl-id: 39623bf0-093f-418a-b8c8-c621e0a56b00
@@ -8,11 +8,11 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2152'
-ht-degree: 41%
+ht-degree: 99%
 
 ---
 
-# 目标内幕新闻快讯
+# Target Insider 新闻稿
 
 Adobe Target Insider 是针对 Adobe Target 社区成员发布的每月时事通讯。可让您了解产品更新和未来计划、个性化和优化提示与技巧、客户成功案例、即将举行的活动、信息丰富的白皮书及热门博客文章，等等。
 
@@ -21,25 +21,25 @@ Adobe Target Insider 是针对 Adobe Target 社区成员发布的每月时事通
 
 >[!IMPORTANT]
 >
->[注册后，将在您的收件箱中自动接收Adobe Target Insider新闻快讯](https://www.adobe.com/subscription/adobe_target_newsletter.html)。
+>[注册以在收件箱中自动接收 Adobe Target Insider 新闻稿](https://www.adobe.com/cn/subscription/adobe_target_newsletter.html)。
 
 如果您错过了先前的时事通讯，请单击下面的链接，以确保不会遗漏任何内容：
 
 | 问题 | 详细信息 |
 |--- |--- |
-| [2019年12月（第2卷，第12期）](https://expleague.azureedge.net/assets/target/2019_12_Target_Newsletter_Dec_2019.html) | 当我们Adobe Target团队看到2019年即将结束时，回顾并反思2019年发生的一切是令人欣慰的。 在这个特殊的年终期刊中，我们将尽力做到这一点，表彰我们的一些出色客户和从业人员，并逐月公布年度亮点。 |
-| [2019年11月（第2卷，第11期）](https://expleague.azureedge.net/assets/target/2019_11_Target_Newsletter_Nov_2019.html) | 我们有好消息要告诉你！ 首先，Forrester在《Forrester Wave:数字智能平台，2019年第4季度。 我们刚刚发布了新的开放源Node.js SDK和功能强大的新的基于用户的Recommendations算法。 我们还获得了由Adobe Target从业者共享的有关个性化和优化的绝佳提示。 接着，社交媒体影响者Goldie Chan在最近两次LinkedIn Live节目中采访了Adobe Target的杰森·希基和我。 Adobe的Jamie Brighton对用于管理数据和将数据隐私作为与众不同的竞争优势的工具发表了自己的看法。 最后，移动应用程序开发人员可以参加最终的Mobile App Skill Builder。 |
-| [2019 年 10 月（第 2 卷，第 10 期）](https://expleague.azureedge.net/assets/target/2019_10_Target_Newsletter_Oct_2019.html) | 在本期刊中，我们为您提供了大量精彩的内容。 从在线新闻出版商McClatchy的Wendy Melemed那里获取个性化和优化提示。 注册并参加即将为移动应用程序开发人员举办的免费技能构建器虚拟实验室。 发现将Adobe Target与Adobe Campaign集成的大优势。 并下载体验个性化的制胜剧本，这是一个用于构建强大的个性化项目的逐场演播指南。 最后，我们将您指向Experience League上的Adobe Target，了解有助于您快速使用行业领先的个性化解决方案的资源。 |
-| 2019年9月 | 本月未发布Newsletter。 |
-| [2019 年 8 月（第 2 卷，第 8 期）](https://expleague.azureedge.net/assets/target/2019_08_Target_Newsletter_Aug_2019.html) | 随着学校重返课堂，强调我们Adobe Target团队提供的学习机会似乎是我们对您成功的承诺的一部分，这似乎在这个问题上是正确的。 注册Adobe Target Mobile Skill Builder实验室，了解如何个性化您的移动应用程序。 通过Adobe内幕之旅，在我们四个北美城市之一亲自与我们见面。 访问我们改良的Experience League在线自定进度课程选择。 然后阅读将Analytics用于目标(A4T)集成的令人信服的理由。 最后，了解我们如何帮助您的品牌遵守来自谷歌和苹果的最新cookie策略。 |
-| [2019 年 7 月（第 2 卷，第 7 期）](https://expleague.azureedge.net/assets/target/2019_07_Target_Newsletter_July_2019.html) | 了解有关个性化和优化的更多信息的最佳方式是听取专家(Adobe Target客户、分析师、与之合作的顾问以及向他们展示如何使用宝贵目标功能的培训人员)的意见。 在本月的新闻快讯中，请从汇丰的Sigi Bessen那里获得优化职业和项目建议。 阅读《2019年Gartner个性化引擎魔力象限》，了解Adobe的“领导者”地位。 报名参加面向移动应用程序开发人员的虚拟实验室系列以及在AARP大规模个性化网络研讨会。 了解用户档案脚本是什么以及如何使用这一强大的目标功能，从而解决问题。 |
-| [2019 年 6 月（第 2 卷，第 6 期）](https://expleague.azureedge.net/assets/target/2019_06_Target_Newsletter_June_2019.html) | 是否已准备好深入了解本月内容丰富的Adobe Target新闻快讯？ 在本月的期刊中，了解细分受众的最佳实践、澳大利亚的查尔斯·斯特特大学如何个性化预期的学生旅程，以及如何转变您的技术堆栈以提供创新体验。 阅读《财富100强》金融服务机构一位优化和个性化专家访谈的亮点。 了解Adobe Experience Cloud如何帮助您使用AI个性化客户体验。 然后，通过学习如何完成设置Adobe Target活动的活动设置部分，获得战术性和实用性。 |
-| [2019 年 5 月（第 2 卷，第 5 期）](https://expleague.azureedge.net/assets/target/2019_05_Target_Newsletter_May_2019.html) | 在此问题中，我们将重点介绍我们刚刚在Adobe EMEA峰会上宣布的最新移动应用程序可视体验编辑器，在线访问EMEA峰会上所有出色的个性化跟踪会话，个性化指导，Adobe Target如何提供节省时间的个性化体验，使用AI实现个性化的五种方式，以及使用Adobe Target实施个性化的移动应用程序体验。 |
-| [2019 年 4 月（第 2 卷，第 4 期）](https://expleague.azureedge.net/assets/target/2019_04_Target_Newsletter_Apr_2019.html) | 今年，我们又在美国举办了一次Adobe峰会，参加者超过17,000人。 在拉斯维加斯结识这么多客户，真是太棒了，让我们充满活力。 我迫不及待地想在不到一个月的时间里在伦敦的Adobe峰会EMEA上做同样的事！<br>在这期新闻稿中，我们分享了过去两年中我们的最重要帖子，关于开发优化项目的最佳实践，来自汤森路透的Steve Rude，数据驱动型体验设计的承诺，我们如何创建体验优化回报信息图，来自几十年移动调查的结果，以及将Adobe Target和Adobe Analytics结合使用的最佳实践。 |
-| [2019 年 3 月（第 2 卷，第 3 期）](https://expleague.azureedge.net/assets/target/2019_03_Target_Newsletter_Mar_2019.html) | 在这期中，我们收到了太多令人兴奋的消息。 首先，了解Adobe Target中围绕AI的新增功能和增强功能，了解现代Web以及我们即将推出的用于优化项目的更新在线自评工具。 然后，从SAP的B2B个性化专业人士James Skay那里了解最佳实践。 快速查看个性化轨道中的所有精彩会话，以便在Adobe峰会上进行选择。 |
-| [2019 年 2 月（第 2 卷，第 2 期）](https://expleague.azureedge.net/assets/target/2019_02_Target_Newsletter_Feb_2019.html) | 此时事通讯全部针对知识构建。 在Experience League上发现新的学习体验。 了解我们如何打开AI的黑匣子、实现个性化的实用步骤、宝贵的现成Adobe Target功能，以及如何让客户驱动自己的体验。 然后与我们的社区经理Amelia Waliany会面，获取更有价值的使用目标的提示和技巧。 |
-| [2019 年 2 月（第 1 卷，第 1 期）](https://expleague.azureedge.net/assets/target/2019_01_Target_Newsletter_Jan_2019.html) | 2019年快乐！ 在此版本中，了解Drew Burns对即将到来年的个性化预测，并获得参加2019 Adobe体验制作商奖大赛的灵感。 然后，了解将优化项目成熟化的最佳实践，以及如何与主管和利益相关方分享其成就。 最后，与我们的人工智能专家之一Shannon Hamilton会面，并学习如何使用Adobe Target中新的重要属性报告和自动细分。 |
-| [2018年12月（第1卷，第12期）](https://expleague.azureedge.net/assets/target/2018_12_Target_Newsletter_Dec_2018.html) | 今年是多么令人惊叹的一年。 在这本Adobe Target内幕新闻特刊的年终特刊中，我希望逐月回顾让2018年如此精彩的事件。 我还要感谢所有您，无论您是新客户还是与我们共事多年，选择Adobe Target作为您赖以构建并提升优化和个性化项目的解决方案。 我们知道，我们确实很幸运能与你合作，为你工作。 |
+| [2019 年 12 月（第 2 卷，第 12 期）](https://expleague.azureedge.net/assets/target/2019_12_Target_Newsletter_Dec_2019.html) | 值此一年即将结束之际，我们 Adobe Target 团队回顾 2019 年发生的一切感到很愉快。在本期年终特刊中，我们将向一些出色的客户和从业人员致谢，并逐月介绍今年的重要事件。 |
+| [2019 年 11 月（第 2 卷，第 11 期）](https://expleague.azureedge.net/assets/target/2019_11_Target_Newsletter_Nov_2019.html) | 我们有一个激动人心的好消息要告诉您！首先，Forrester 在 2019 年第四季度 The Forrester Wave: Digital Intelligence Platforms 中将 Adobe 评为佼佼者。我们刚刚发布了新的开源 Node.js SDK 和功能强大、基于用户的新推荐算法。还有 Adobe Target 从业人员针对个性化和优化分享的出色提示。此外，网红 Goldie Chan 在最近两次 LinkedIn Live 访谈中采访了 Adobe Target 的 Jason Hickey 和我。Adobe 的 Jamie Brighton 给出了他自己对于管理数据的工具以及使用数据隐私作为竞争优势的看法。最后，移动应用程序开发人员可参加最后一场“移动应用程序技能强化”。 |
+| [2019 年 10 月（第 2 卷，第 10 期）](https://expleague.azureedge.net/assets/target/2019_10_Target_Newsletter_Oct_2019.html) | 在本月的这期中，我们提供了许多精彩的内容供您发挥灵感。从在线新闻出版商 McClatchy 的 Wendy Melemed 获得个性化和优化的提示。注册并参加即将为移动应用程序开发人员免费举办的技能强化虚拟实验室。探索将 Adobe Target 与 Adobe Campaign 集成的巨大优势。还可下载《Winning Playbook for Experience Personalization》，这是一个逐个剧本进行介绍的指南，用于构建强大的个性化项目。最后但同样重要的是，我们将您引向 Adobe Target on Experience League，以获取可帮助您熟悉如何使用行业领先的个性化解决方案的各种资源。 |
+| 2019 年 9 月 | 本月未发布新闻稿。 |
+| [2019 年 8 月（第 2 卷，第 8 期）](https://expleague.azureedge.net/assets/target/2019_08_Target_Newsletter_Aug_2019.html) | 随着学校重新开学，本期中似乎应该重点介绍我们 Adobe Target 团队因承诺帮助您取得成功而提供的各种学习机会。注册 Adobe Target 移动版技能强化实验室，学习如何使您的移动应用程序个性化。亲临我们举办 Adobe Insider Tour 的四座北美城市之一与我们见面。访问我们经过改版的在线、自定进度的精选 Experience League 课程。然后阅读令人信服的使用 Analytics for Target (A4T) 集成的理由。最后，了解我们如何帮助您的品牌遵循 Google 和 Apple 最新的 Cookie 政策。 |
+| [2019 年 7 月（第 2 卷，第 7 期）](https://expleague.azureedge.net/assets/target/2019_07_Target_Newsletter_July_2019.html) | 详细了解个性化和优化的最佳方式就是听取专家的意见 - Adobe Target 客户、分析人员、与其合作的顾问以及向其展示如何使用有用的 Target 功能的培训师。在本月的新闻稿中，从汇丰银行的 Sigi Bessesen 获得优化工作在职业和项目方面的建议。了解 Adobe 在 2019 年 Gartner 个性化引擎魔力象限中作为佼佼者的地位。在 AARP 上注册针对移动应用程序开发人员的虚拟实验室系列和关于大规模进行个性化的网络研讨会。通过了解个人资料脚本是什么以及如何使用这项强大的 Target 功能而完善它。 |
+| [2019 年 6 月（第 2 卷，第 6 期）](https://expleague.azureedge.net/assets/target/2019_06_Target_Newsletter_June_2019.html) | 是否准备好深入了解本月这期内容丰富的 Adobe Target 新闻稿？在本月这期中，探索细分受众的最佳实践、澳大利亚的 Charles Sturt University 如何使潜在的学生历程个性化以及如何使技术体系转型以产生创新的体验。阅读采访财富 100 强金融服务机构的优化和个性化专业人士的重点内容。了解 Adobe Experience Cloud 可怎样帮助您通过 AI 使客户体验个性化。然后，通过学习如何完成设置 Adobe Target 活动的活动设置部分，变得有策略并可行。 |
+| [2019 年 5 月（第 2 卷，第 5 期）](https://expleague.azureedge.net/assets/target/2019_05_Target_Newsletter_May_2019.html) | 在本期中，我们将重点介绍刚刚在 Adobe Summit EMEA 上宣布的最新发布的用于移动应用程序的可视体验编辑器、在线访问 Summit EMEA 上所有精彩的个性化途径讲座、针对个性化的指导、一个 Adobe Target 如何投放力挽狂澜的个性化体验的案例、五种使用 AI 进行个性化的方式以及通过 Adobe Target 实现个性化的移动应用程序体验。 |
+| [2019 年 4 月（第 2 卷，第 4 期）](https://expleague.azureedge.net/assets/target/2019_04_Target_Newsletter_Apr_2019.html) | 我们又在美国成功举办了一届 Adobe Summit - 今年有 17000 多名与会者。在拉斯维加斯时见到了我们这么多的客户，真是太棒了，令人精神振奋。我迫不及待地要在距召开不足一个月的伦敦 Adobe Summit EMEA 上也这样做！<br>在本期新闻稿中，我们分享最近两年的热门帖子，Thomson Reuters 的 Steve Rude 发表开发优化项目的最佳实践、数据驱动的体验设计的前景、一窥我们如何创建体验优化收益图表、长达数十年的移动调查得出的结果以及共同使用 Adobe Target 和 Adobe Analytics 的最佳实践。 |
+| [2019 年 3 月（第 2 卷，第 3 期）](https://expleague.azureedge.net/assets/target/2019_03_Target_Newsletter_Mar_2019.html) | 在本期中，我们要公布许多令人振奋的消息。首先，了解 Adobe Target 在 AI 和现代 Web 方面的新功能和增强，以及我们针对您的优化项目即将推出、经过更新的在线自我评估工具。然后从一名 B2B 个性化专家 SAP 的 James Skay 那里探索最佳实践。快速浏览可在 Adobe Summit 选择的个性化途径的所有精彩讲座。 |
+| [2019 年 2 月（第 2 卷，第 2 期）](https://expleague.azureedge.net/assets/target/2019_02_Target_Newsletter_Feb_2019.html) | 此新闻稿通篇涉及知识积累。在 Experience League 上探索新的学习体验。了解我们如何揭秘 AI、个性化的实际步骤、有用的即用型 Adobe Target 功能以及如何让客户获得他们自己的体验。然后，还可结识我们的社区经理 Amelia Waliany，获得更多使用 Target 的宝贵提示和技巧。 |
+| [2019 年 2 月（第 1 卷，第 1 期）](https://expleague.azureedge.net/assets/target/2019_01_Target_Newsletter_Jan_2019.html) | 2019 年快乐！在本期中，了解 Drew Burns 对于明年个性化领域的预测，并获得灵感以参加 2019 Adobe Experience Maker Awards 竞赛。另外还可了解让您的优化项目趋于成熟的最佳做法以及如何向高管和利益相关者展示其成就。结识我们的一位 AI 专家 Shannon Hamilton 并了解如何使用 Adobe Target 中新的“重要属性”报表和“自动化区段”，顺利完成项目。 |
+| [2018 年 12 月（第 1 卷，第 12 期）](https://expleague.azureedge.net/assets/target/2018_12_Target_Newsletter_Dec_2018.html) | 过去的一年真是了不起。在 Adobe Target Insider 新闻稿的本期年终特刊中，我要逐月回顾让 2018 年如此辉煌的各项活动。我还要感谢大家所有人，无论您是全新客户还是我们多年的老客户，选择 Adobe Target 作为您以其为基础构建和发展优化和个性化项目的解决方案。能与您一起工作和为您工作，我们深感幸运。 |
 | [2018 年 11 月（第 1 卷，第 11 期）](https://expleague.azureedge.net/assets/target/newsletter-2018-november.html) | 在本期中，将随特邀发言人 James McCormick（Forrester 的首席分析师）一起了解我们最近举办的关于体验优化平台的网络研讨会。了解如何开发客户可反复使用的移动设备应用程序。来自 WestJet 的 Matt Ravlich 将提供有关优化成功的建议。探索由 Adobe Sensei 提供支持的两个强大的 AI 功能如何实现大规模个性化。另外，不要忘了为 Adobe Summit 的召开日期预留时间。 |
 | [2018 年 10 月（第 1 卷，第 10 期）](https://expleague.azureedge.net/assets/target/newsletter-2018-october.html) | 最近，我们为 Adobe Target 添加了许多出色的新功能和增强功能，包括近期的 TechCrunch 文章特别推荐的一些功能和增强功能。阅读相关的博客文章和最新的“Adobe Target 新增功能”，详细了解我们的新功能。此外，了解 David Parker 及其团队如何帮助一家电信巨头公司优化公司网站上的完整客户体验。 |
 | [2018 年 9 月（第 1 卷，第 9 期）](https://expleague.azureedge.net/assets/target/newsletter-2018-september.html) | 在本期 Adobe Target Insider 中，我们的暑期实习生 Leen Habbal 分享她在 Adobe Target 产品营销团队的实习经历。其次，我们还将介绍 Adobe Cloud Platform Auditor，这款工具可帮助您验证您是否正确实施了 Adobe 技术。此外，我们将介绍 AI 可如何提升您的客户体验以及如何使 Adobe Target 获得认证。最后，来自英国电信和媒体公司 Sky 的 Rob McLaughlin 还会向我们介绍关于如何向客户提供大规模个性化服务等方面的信息。 |

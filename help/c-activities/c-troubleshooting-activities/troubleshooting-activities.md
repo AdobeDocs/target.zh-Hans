@@ -1,20 +1,20 @@
 ---
 keywords: Target 故障诊断;默认内容;测试未处于实时状态;活动未处于实时状态;定位无法运行;显示之前的体验;无法创建活动;创建活动;页面结构发生更改;页面结构已修改;错误消息;删除配置文件脚本时出错;ajax 无法运行
 description: 如果您的Adobe [!DNL Target] 活动未显示在您的站点上，请查找疑难解答建议。
-title: 如何对活动进行疑难解答？
+title: 如何为活动排除故障？
 feature: 活动
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 75%
+ht-degree: 93%
 
 ---
 
 # 活动故障诊断
 
-如果您的[!DNL Adobe Target]活动未出现在您的站点上，则这些疑难解答建议将帮助您找到解决方案。
+如果您的网站上不显示您的 [!DNL Adobe Target] 活动，这些故障排除建议应该能帮助您找到解决方案。
 
 >[!NOTE]
 >
@@ -24,9 +24,9 @@ ht-degree: 75%
 
 ## 我使用[!DNL Target] UI创建了活动，无法通过API更新它。
 
-使用目标 UI创建的活动应通过目标 UI进行更新。 通过API创建的活动应通过API更新。 例如，如果您最初使用API创建活动，但后来通过目标 UI编辑活动，则不会更新所有更改。 所有更改都存储在后端上，并可以通过进行另一个API调用来更新。
+应通过 Target UI 更新使用 Target UI 创建的活动。应通过 API 更新通过 API 创建的活动。例如，如果最初使用 API 创建活动，但随后又通过 Target UI 编辑该活动，则并非所有更改都会更新。所有更改都存储在后端，可通过再次调用 API 更新这些更改。
 
-作为最佳实践，请尝试使用最初创建活动时所用的相同方法（UI或API）更新活动。
+作为最佳实践，请尝试使用最初用于创建该活动的相同方法（UI 或 API）更新该活动。
 
 ## 您看到的是默认内容。
 
@@ -78,7 +78,7 @@ ht-degree: 75%
 作为用户添加到 Target 后，您需要拥有“审批者”角色才能创建活动。
 
 * 请求您的帐户管理员将您设为“审批者”。
-* 如果您是管理员，请为您自己指定目标中&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;的审批者角色。
+* 如果您是管理员，请在 Target 中从&#x200B;**[!UICONTROL “管理”]**>**[!UICONTROL “用户”]**&#x200B;授予您自己“审批者”角色。
 
    请参阅[为您自己分配“审批者”角色](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
@@ -137,9 +137,9 @@ ht-degree: 75%
 * 重新删除。显示成功删除消息。
 * 等待大约 10 分钟，以使 Target Standard/Premium 导入程序运行。导入程序会更新配置文件脚本列表。
 
-## 某些ajax [!DNL Target]调用无效。
+## 某些 ajax [!DNL Target] 调用不起作用。
 
-**注意：** 在同 [!DNL Target] 一页面上，使用相同名称但不同参数的多个ajax调用将无法工作。只有第一个调用可以运行。
+**注意：**&#x200B;同名但参数不同的多个 ajax [!DNL Target] 调用将无法在同一页面上发挥作用。只有第一个调用可以运行。
 
 ## 您使用[!DNL Target] API激活了活动，但该活动在[!DNL Target] UI中显示了[!UICONTROL  Inactive]的状态。
 

@@ -1,14 +1,14 @@
 ---
-keywords: Recommendations；介绍；介绍；webina；演示
+keywords: 推荐;简介;简介;网络研讨会;演示
 description: 了解Adobe [!DNL Target] 中的Recommendations活动，它会根据先前的用户活动或其他算法自动显示可能引起客户兴趣的内容。
-title: 什么是Recommendations活动?
+title: “推荐”活动是什么？
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2115'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 94%
 * **游戏**：游戏公司使用 [!DNL Target] 向其控制台上的用户推荐游戏和内容。
 * **B2B 销售**：[企业对企业的公司使用 Target 向 B2B 潜在用户推荐视频、白皮书和博客文章；提供下载；并向现有客户提供帮助](https://theblog.adobe.com/testing-shifts-high-gear-intel)。
 
-* **旅行**: [一家德国旅游书店使用目标向旅客推荐酒店等](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
+* **旅游**：[一家德国旅游预订商使用 Target 向旅行者推荐酒店等产品](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
 
 * **零售业**：[一家行业领先的 BB 零售商使用 Target 在浏览器及移动应用程序中推荐顶级类别和产品，以吸引访客](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2。
 
@@ -129,7 +129,7 @@ ht-degree: 94%
 
 ![显示构成推荐活动各个部分（受众、标准和设计）的插图](/help/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] 开箱即用地包括 14 个内置受众、42 个内置标准和 10 个内置设计模板。您可以自定义每个项目或添加自己的项目。我们之前有过[网络研讨会，内容是在[!DNL Target]中构建受众](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)。 本节侧重于定义标准，这些标准可定义将推荐哪些项目。
+[!DNL Target] 开箱即用地包括 14 个内置受众、42 个内置标准和 10 个内置设计模板。您可以自定义每个项目或添加自己的项目。我们以前举办过一些[网络研讨会，介绍](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)在 [!DNL Target] 中吸引受众。本节侧重于定义标准，这些标准可定义将推荐哪些项目。
 
 Target 使用标准卡片的概念。标准卡片就像个性化的配方。
 

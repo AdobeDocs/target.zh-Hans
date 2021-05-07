@@ -1,14 +1,14 @@
 ---
 keywords: 诊断 Target 故障;Target 故障诊断
-description: 查看列表主题，帮助您解决Adobe Target中的问题，包括疑难解答主题、常见问题解答(FAQ)和其他有用主题。
-title: 如何排除目标?
-feature: Troubleshooting
+description: 查看可帮助您解决 Adobe Target 中各种问题的主题的列表，包括故障排除主题、常见问题 (FAQ) 和其他有用的主题。
+title: 如何为 Target 排除故障？
+feature: 故障排除
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
 source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 88%
 
 ### 自动定位
 
-* [自动目标疑难解答和常见问题解答](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [自动定位故障排除和常见问题](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
 ### 自动个性化 (AP)
 
@@ -135,7 +135,7 @@ ht-degree: 88%
 
 ## 移动应用程序
 
-* [目标移动应用程序常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [Target 移动应用程序版常见问题](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## 设备上决策
 

@@ -1,13 +1,13 @@
 ---
 keywords: 推荐;选件
-description: 了解如何在A/B测试(包括自动分配和自动目标)和体验定位(XT)活动中将Adobe Recommendations用作优惠。
-title: 如何将Recommendations用作其他活动类型的优惠?
+description: 了解如何在 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中使用选件形式的 Adobe Recommendations。
+title: 如何在其他活动类型中使用选件形式的推荐？
 feature: Recommendations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
@@ -121,6 +121,6 @@ ht-degree: 92%
 
 ![推荐选件状态](/help/c-recommendations/assets/recs-offer-status.png)
 
-## 培训视频：Recommendations作为优惠![概述徽章](/help/assets/overview.png)
+## 培训视频：选件形式的推荐![“概述”徽章](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)

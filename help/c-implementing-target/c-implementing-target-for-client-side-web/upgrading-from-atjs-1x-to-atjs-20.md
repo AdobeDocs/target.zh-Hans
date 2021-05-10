@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 91%
+source-wordcount: '2765'
+ht-degree: 92%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 91%
 | --- | --- |
 | 1 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
 | 2 | 从缓存中读取视图的目标内容。 |
-| 3 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
+| 1 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
 | 4 | 通知请求将发送到 [!DNL Target] 配置文件存储区，以计算活动中的访客和递增量度。 |
 | 5 | Analytics 数据会发送到数据收集服务器。 |
 | 6 | Target 数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 A4T 报表查看 Analytics 数据。 |
@@ -289,11 +289,11 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 但是，在 at.js 2.*x* 中，我们不再使用 HTTP GET，而是使用 HTTP POST。现在，通过 at.js 2.*x* 来使用 HTTP POST 将 JSON 有效负载发送到 Target 边缘服务器。这意味着检查浏览器是否支持第三方 Cookie 的重定向请求现在会中断。这是因为 HTTP GET 请求是幂等事务，而 HTTP POST 是非幂等事务，不能任意重复。因此，不再对 at.js 2.*x* 中的跨域跟踪功能提供开箱即用支持。只有 at.js 1.*x* 对跨域跟踪功能提供开箱即用支持。
 
-如果要使用跨域跟踪，则必须与at.js 2一起安装[ECID库v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html)。*x* 中不再对跨域跟踪提供开箱即用支持。ECID 库可以管理用于跨域识别访客的永久 ID。
+如果要使用跨域跟踪，则必须与at.js 2一起安装[ECID库v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=zh-Hans)。*x* 中不再对跨域跟踪提供开箱即用支持。ECID 库可以管理用于跨域识别访客的永久 ID。
 
 >[!NOTE]
 >
->安装 ECID 库 v4.3.0+ 和 at.js 2.*x* 之后，您将能够创建跨越独特域的活动并跟踪用户。请务必注意，此功能仅在会话过期后才可用。
+>安装 ECID 库 v4.3.0+ 和 at.js 2.*x* 之后，您将能够创建跨越独特域的活动并跟踪用户。需要注意的是，此功能仅在会话到期之后才起作用。
 
 ### 支持自动创建全局 Mbox
 
@@ -364,7 +364,6 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 | Adobe Launch 扩展 | [是](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | 调试程序 | 是 |
 | 审核 | at.js 2.*x* 尚未更新规则 |
-| 动态标签管理器 (DTM) | 是 |
 | 选择加入 | 否。[at.js 版本 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 支持满足 [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) 要求的选择加入支持。 |
 | 由 Adobe Target 提供支持的 AEM 增强型个性化 | 否 |
 

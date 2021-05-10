@@ -6,16 +6,16 @@ feature: 实施服务器端
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 51%
+source-wordcount: '1687'
+ht-degree: 52%
 
 ---
 
 # 无需标签管理器即可实现[!DNL Target]
 
-有关在不使用标签管理器（[!DNL Adobe Experience Platform Launch]或[!DNL Dynamic Tag Manager]）的情况下实现[!DNL Adobe Target]的信息。
+有关在不使用标签管理器([!DNL Adobe Experience Platform Launch])的情况下实现[!DNL Adobe Target]的信息。
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ ht-degree: 51%
 
 生成授权令牌以使用高级[!DNL Target]调试工具。 单击&#x200B;**[!UICONTROL 生成新身份验证令牌]**。
 
-![生成新身份验证令牌](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
+![生成新的身份验证令牌](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 ### 隐私
 
@@ -128,7 +128,7 @@ ht-degree: 51%
 
 要从 [!DNL Target] 界面下载 [!DNL at.js]，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实施]**。
+1. 单击&#x200B;**[!UICONTROL “管理”]**>**[!UICONTROL “实现”]**。
 1. 从[!UICONTROL 实现方法]部分，单击所需at.js版本旁边的&#x200B;**[!UICONTROL 下载]**&#x200B;按钮。
 
 ### 使用[!DNL Target]下载API {#section_C0D9D2A9068144708D08526BA5CA10D0}下载at.js
@@ -177,11 +177,11 @@ ht-degree: 51%
 
    加载此 URL 后，便会开始下载您的自定义 [!DNL at.js] 文件。
 
-## at.js实现{#concept_03CFA86973A147839BEB48A06FEE5E5A}
+## at.js 实现{#concept_03CFA86973A147839BEB48A06FEE5E5A}
 
 at.js 应该在您网站每个页面的 `<head>` 元素中实施。
 
-未使用[AdobePlatform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)或[动态标签管理](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96)等标签管理器的目标的典型实现如下所示：
+不使用标签管理器(如[Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25))的目标的典型实现如下所示：
 
 ```
 <!doctype html> 

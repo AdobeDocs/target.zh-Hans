@@ -1,29 +1,21 @@
 ---
 keywords: at.js；非生产；非生产；部署
-description: 了解旧版mbox.js对Adobe Target的实施。 迁移至Adobe Experience PlatformWeb SDK(AEP Web SDK)或最新版at.js。
+description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
 title: 如何将at.js部署到非生产环境?
 feature: at.js
 role: Developer
+exl-id: 607b2b5b-bb2a-4443-abc0-452b421fc009
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 82%
+source-wordcount: '306'
+ht-degree: 80%
 
 ---
-
 
 # 将at.js部署到非生产环境
 
 有关将 at.js 安全地部署到非生产环境的技术信息。
-
-## 部署到 DTM 测试环境
-
-如果您使用 DTM，则可以轻松地将 at.js 保存到 Adobe Target 工具配置中。
-
-保存该库后，可使用 DTM 切换工具来针对您的生产代码对其进行测试。这还方便 Adobe 顾问为您提供支持。
-
-有关更多信息，请参阅《使用动态标签管理实施 Adobe Target 的最佳实践》**&#x200B;指南中的[选项 3：通过由 DTM 托管的 Target JavaScript 库手动实施 Target](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html)。
 
 ## 使用“Requestly”Chrome 扩展映射到其他文件
 

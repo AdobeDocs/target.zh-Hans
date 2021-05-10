@@ -6,18 +6,16 @@ feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2221'
-ht-degree: 29%
+source-wordcount: '2200'
+ht-degree: 31%
 
 ---
 
 # targetGlobalSettings()
 
 您可以使用 `targetGlobalSettings()` 覆盖 at.js 库中的设置，而不是在 [!DNL Target] Standard/Premium UI 中或通过使用 REST API 来配置设置。
-
-在某些用例中，特别是当您想要覆盖某些设置而通过 [!DNL Dynamic Tag Management] (DTM) 传递 at.js 的情况下，可执行此类操作。
 
 ## 设置 {#section_42C759AE9B524A43B8659018677224B8}
 
@@ -357,7 +355,7 @@ var weatherProvider = {
 * 如果数据提供程序异步添加到 `window.targetGlobalSettings.dataProviders`，则将并行执行。访客 API 请求将与添加到 `window.targetGlobalSettings.dataProviders` 的函数并行执行，以将等待时间最小化。
 * at.js 不会尝试缓存数据。如果数据提供程序仅提取一次数据，则应确保数据已缓存，并且在调用提供程序函数时为第二次调用提供缓存的数据。
 
-## 内容安全策略{#content-security}
+## 内容安全策略 {#content-security}
 
 at.js 2.3.0+支持在应用已交付的目标优惠时，在附加到页面DOM的SCRIPT和STYLE标记上设置“内容安全策略”不可用。
 
@@ -382,7 +380,7 @@ window.targetGlobalSettings = {
 
 ## 混合个性化{#server-state}
 
-`serverState` 是at.js v2.2+中提供的设置，可用于在实施目标的混合集成时优化页面性能。混合集成意味着您在客户端同时使用at.js v2.2+和服务器端的投放 API或目标 SDK来提供体验。 `serverState` 赋予at.js v2.2+直接应用从服务器端获取的内容中获取的体验并作为所服务页面的一部分返回到客户端的功能。
+`serverState` 是at.js v2.2+中提供的设置，可用于在实施目标的混合集成时优化页面性能。混合集成指的是在客户端使用 at.js 2.2 和更高版本，在服务器端使用交付 API 或 Target SDK，二者相结合以交付体验。`serverState` 让 at.js 2.2 和更高版本可直接从在服务器端获取并作为所提供的页面的一部分返回客户端的内容应用体验。
 
 ### 先决条件
 

@@ -5,10 +5,10 @@ title: 如何实施Recommendations活动?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 95%
+source-wordcount: '1618'
+ht-degree: 94%
 
 ---
 
@@ -122,7 +122,7 @@ function targetPageParams() {
 
 必须使用有效的 JSON 格式。
 
-如果您要使用标签管理解决方案来实施页面，下面显示的 `targetPageParams` 函数会尤其有用。[!DNL Adobe Launch] 或 [!DNL Adobe Dynamic Tag Manager] (DTM) 会将 at.js/mbox.js 引用和 `targetPageParams` 函数放置在您的页面上，并允许您配置相应的值。您应当将该函数放置在 at.js/mbox.js 调用之前，或将其放到 at.js/mbox.js 中的“额外的 JavaScript”部分。
+如果您要使用标签管理解决方案来实施页面，下面显示的 `targetPageParams` 函数会尤其有用。[!DNL Adobe Experience Platform Launch] 将at.js/mbox.js引用和函 `targetPageParams` 数放在您的页面上，并允许您配置这些值。您应当将该函数放置在 at.js/mbox.js 调用之前，或将其放到 at.js/mbox.js 中的“额外的 JavaScript”部分。
 
 ## 所有页面 {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 

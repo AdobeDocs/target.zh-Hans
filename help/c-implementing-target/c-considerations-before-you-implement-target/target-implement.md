@@ -1,13 +1,13 @@
 ---
-keywords: 文档.write;目标；实现；实现目标;dtm；动态标签管理；at.js;mbox.js;目标.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
+keywords: 文档.write;目标；实现；实现目标;dtm;at.js;mbox.js;目标.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
 description: 在网页上实施Adobe [!DNL Target] by referencing the [!DNL Target] 库（at.js或mbox.js）。
 title: 了解  [!DNL Target] JavaScript 库
 feature: 实施
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 23%
+source-wordcount: '473'
+ht-degree: 24%
 
 ---
 

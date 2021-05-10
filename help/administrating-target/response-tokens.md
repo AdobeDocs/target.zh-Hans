@@ -6,10 +6,10 @@ feature: 管理和配置
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 76%
+source-wordcount: '1498'
+ht-degree: 74%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 76%
 | at.js | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本 at.js 的信息，请参阅[下载 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。有关每个 at.js 版本新功能的信息，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在 mbox.js 中存在，而在 at.js 中不存在；这些插件将被交付，但交付会失败。有关更多信息，请参阅 [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)。 |
 | mbox.js | 使用mbox.js时，将继续支持和提供插件。<br>但是，我们鼓励使用 mbox.js 和插件的客户改用 at.js 和响应令牌。有关与 mbox.js 相比使用 at.js 具有的优势的信息，请参阅 [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)。有关迁移的信息，请参阅[从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)。<br>在弃用 Target Classic（2017 年 11 月）之后，您可能需要联系客户关怀团队以编辑或停用现有插件。在弃用 Target Classic 并停用不需要的插件之前，您应该对插件先进行审核。<br>您不能在 Target Standard/Premium 中创建新插件。请改用响应令牌。<br>应停用旧的 SiteCatalyst 插件，并改为[将 Adobe Analytics 作为 Adobe Target 报表源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。ttMeta 插件应停用并替换为 [Adobe Experience Cloud 调试器](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)。 |
 
-## 使用响应令牌 {#section_A9E141DDCBA84308926E68D05FD2AC62}
+## 使用响应令牌{#section_A9E141DDCBA84308926E68D05FD2AC62}
 
 1. 确保您使用的是 [!DNL at.js] 版本 1.1 或更高版本。
 
@@ -95,31 +95,7 @@ ht-degree: 76%
 </html>
 ```
 
-以下步骤说明如何使用 Adobe Dynamic Tag Manager (DTM) 添加 [!DNL at.js] 自定义事件处理程序：
-
-1. 登录到 DTM。
-1. 浏览到相应的属性。
-1. 打开 Target 工具。
-
-   由于 DTM 本身不支持 at.js，因此您必须使用代码编辑器。
-
-1. 在代码编辑器中，将以下代码附加到 [!DNL at.js]：
-
-   ```json
-   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-     console.log("Request succeeded", e.detail); 
-   });
-   ```
-
-如果您想将所有内容都放到单个文件中，可以将以下代码片段添加到库页脚 [at.js 设置页面](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)中。
-
-```json
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-  console.log("Request succeeded", e.detail); 
-});
-```
-
-## 响应令牌常见问题解答 {#section_3DD5F32C668246289CDF9B4CDE1F536D}
+## 响应令牌常见问题{#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
 **激活或停用响应令牌需要使用哪个角色？**
 
@@ -133,7 +109,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
 
 响应令牌将传递给[!DNL at.js]目标响应，但不会传递给[!DNL mbox.js]响应。
 
-**我是否可以同时使用 Target Classic 插件和响应令牌？**
+**[!DNL Target Classic]我是否可以同时使用 插件和响应令牌？**
 
 插件和响应令牌可以并行使用；但是，将来会弃用插件。
 
@@ -165,7 +141,7 @@ Target 不会自动关闭令牌。如果您要删除配置文件脚本并且不�
 
 Target 会定期刷新属性。任何未开启的属性都会在下次刷新时被删除。但是，如果您有一个已开启的属性并且该属性已被删除（例如，您删除了一个用作令牌的配置文件脚本），则该属性将不会从属性列表中删除，除非您将其关闭。如果删除或重命名属性，Target 只会从列表中删除已关闭的属性。
 
-## 通过 at.js 向 Google Analytics 发送数据 {#section_04AA830826D94D4EBEC741B7C4F86156}
+## 通过at.js {#section_04AA830826D94D4EBEC741B7C4F86156}向Google Analytics发送数据
 
 通过在 HTML 页面中添加以下代码，即可通过 at.js 向 Google Analytics 发送数据：
 
@@ -231,7 +207,7 @@ Target 会定期刷新属性。任何未开启的属性都会在下次刷新时�
 </script>
 ```
 
-## 调试（类似于 ttMeta 插件）  {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## 调试（类似于 ttMeta 插件） {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 通过向 HTML 页面添加以下代码，可以创建与 ttMeta 插件等效的调试工具：
 

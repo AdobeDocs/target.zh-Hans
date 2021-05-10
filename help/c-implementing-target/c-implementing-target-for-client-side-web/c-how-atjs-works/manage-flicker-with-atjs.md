@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 76%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 76%
 
 您可以通过使用预先隐藏的代码片段来避免闪烁，在 [!DNL Target] 对相关 HTML 元素进行个性化后，系统会显示这些代码片段。
 
-at.js可以异步加载，直接嵌入页面或通过标签管理器(Adobe启动、动态标签管理器(DTM)等)。
+at.js可以异步加载，直接嵌入到页面中或通过标签管理器（例如[!DNL Adobe Experience Platform Launch]）。
 
 如果在页面上嵌入了at.js，则必须先添加片段，然后再加载at.js。 如果通过标签管理器加载at.js，则在加载标签管理器之前必须添加片段。 如果标签管理器是同步加载的，则脚本可能会包含在at.js之前的标签管理器中。
 

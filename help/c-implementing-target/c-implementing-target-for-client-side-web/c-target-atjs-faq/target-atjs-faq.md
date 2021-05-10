@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 92%
+source-wordcount: '2687'
+ht-degree: 93%
 
 ---
 
@@ -90,7 +90,7 @@ at.js 1.0.0 版本使您可以异步加载 Target 库。
 
 要异步加载 at.js，请执行以下操作：
 
-* 推荐的方法是通过标签管理器，例如 Adobe Launch 或 Adobe Dynamic Tag Manager (DTM)。有关详细信息，请参阅[在包含Launch的网站中实施Experience Cloud教程的[添加Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)课程。](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)
+* 建议的方法是通过[!DNL Adobe Experience Platform Launch]。 有关详细信息，请参阅[在包含Launch的网站中实施Experience Cloud教程的[添加Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html)课程。](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)
 * 您还可以通过向加载 at.js 的脚本标记中添加 async 属性来异步加载 at.js。您应使用如下代码：
 
    ```
@@ -118,7 +118,7 @@ at.js 1.0.0 版本使您可以异步加载 Target 库。
 
 ## at.js 是否与 Adobe Experience Manager 集成 (AEM) 兼容？{#section_6177AE10542344239753764C6165FDDC}
 
-现在，带有 FP-11577 的 [!DNL Adobe Experience Manager] 6.2（或更高版本）支持通过其 [!UICONTROL Adobe Target 云服务]集成来实施 [!DNL at.js]。有关更多信息，请参阅 Adobe Experience Manager 6.2 ** 文档中的[功能包](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html)和[与 Adobe Target 集成](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)。
+现在，带有 FP-11577 的 [!DNL Adobe Experience Manager] 6.2（或更高版本）支持通过其 [!DNL at.js]Adobe Target 云服务[!UICONTROL 集成来实施 ]。有关更多信息，请参阅 Adobe Experience Manager 6.2 ** 文档中的[功能包](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html)和[与 Adobe Target 集成](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)。
 
 ## 使用 at.js 时，我如何才能阻止页面加载闪烁？{#section_4D78AAAE73C24E578C974743A3C65919}
 

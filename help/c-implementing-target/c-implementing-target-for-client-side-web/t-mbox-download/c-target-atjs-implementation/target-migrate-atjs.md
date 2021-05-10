@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 96%
+source-wordcount: '856'
+ht-degree: 92%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 96%
 
    **您是否使用了标签管理器？**
 
-   * 动态标签管理
+   * Adobe Experience Platform Launch
    * Ensighten
    * Tealium
    * Signal/BrightTag
@@ -86,7 +86,11 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >如果您当前未使用标签管理器来部署 [!DNL Target]，现在可以考虑使用此方法。Adobe 的[动态标签管理](https://dtm.adobe.com)免费向 [!DNL Target] 客户提供，建议使用此方法来部署 [!DNL Target]。有关更多信息，请参阅[使用动态标签管理实施 Adobe Target 的最佳实践](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html)。
+   >如果您当前未使用标签管理器来部署 [!DNL Target]，现在可以考虑使用此方法。
+   >
+   >[!DNL Platform Launch] 是来自的新一代标签管理平 [!DNL Adobe] 台，是实现的首选方 [!DNL Adobe Target]法。[!DNL Platform Launch] 为客户提供了一种部署和管理分析、营销和广告标记的简单方式，这些标记是提升相关客户体验所必需的。
+   >
+   >有关详细信息，请参阅[使用 [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)实现 [!DNL Target] 。
 
 1. 确认当前所有活动和集成均可按预期运行。
 

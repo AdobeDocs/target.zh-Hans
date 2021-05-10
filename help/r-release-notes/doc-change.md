@@ -5,10 +5,10 @@ title: 可在何处查看 Target 的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 5d3d284f75ee00b7fd92b0083c6009334a5db2e5
+source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 61%
+source-wordcount: '1101'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 61%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 5 月 10 日 | “推荐”常见问题解答 | 添加了以下常见问题解答：&quot;我是否可以使用在[!DNL Recommendations Premium]中的[!DNL Adobe Recommendations Classic]中创建的算法？&quot; |
+| 5 月 10 日 | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：&quot;我是否可以使用在[!DNL Recommendations Premium]中的[!DNL Adobe Recommendations Classic]中创建的算法？&quot; |
+|  | [实施 [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | 指示不再支持[!DNL Adobe Dynamic Tag Manager]。 相反，[!DNL Adobe]建议使用[[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)实现。 |
 | 5 月 6 日 | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：<ul><li>对我的[!UICONTROL Recommendations]活动、优惠、促销或标准设置的配置进行更改需要多长时间才能反映在我的网站上？</li><li>用户的行为（例如，单击产品A和购买产品B）需要多长时间才能反映在用户收到的推荐&#x200B;*中？*</li><li>用户的行为（例如，单击产品A和购买产品B）需要多长时间才能反映在用户收到的推荐&#x200B;*其他*&#x200B;中？</li></ul> |
 |  | [设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 在Adobe技术博客上添加了以下博客文章的链接：<ul><li>第1部分：运行Adobe Target NodeJS SDK，在边缘平台上进行试验和个性化(Akamai Edge Worker)</li></ul> |
 | 5 月 5 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 增加了有关将于2021年5月12日星期三上午8时举行的Adobe Target社区问答咖啡会的信息。(PDT， GMT-7)。 |

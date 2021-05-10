@@ -6,9 +6,9 @@ feature: 管理和配置
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1454'
 ht-degree: 66%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 66%
 | 2. 创建工作区（产品配置文件） | [!DNL Adobe Admin Console for Enterprise] |
 | 3. 创建用户组（可选） | [!DNL Adobe Admin Console for Enterprise] |
 | 4. 创建属性 | [!DNL Target] 用户界面 |
-| 5：更新您的实施以包含 `at_property` 参数 | [!DNL Target] UI、at.js 函数、[!DNL Adobe Launch] 或 [!DNL Dynamic Tag Management] |
+| 5：更新您的实施以包含 `at_property` 参数 | [!DNL Target] UI、at.js函数或  [!DNL Adobe Experience Platform Launch] |
 | 6. 指定角色和权限 | [!DNL Adobe Admin Console for Enterprise] |
 
 对于在[!DNL Adobe Admin Console for Enterprise]中执行的任务，请按照以下步骤访问控制台：
@@ -151,12 +151,6 @@ ht-degree: 66%
 
       有关详细信息，请参阅&#x200B;*Adobe Experience Platform Launch*&#x200B;文档中的[添加全局目标参数](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params)。
 
-   * **通过 [!DNL Dynamic Tag Management] 中的“全局参数”：**
-
-      ![](assets/property_token_2.png)
-
-      有关更多信息，请参阅“动态标签管理产品文档”**&#x200B;中的[全局参数 - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target)。
-
    * **通过targetPageParams()函数：将** 以下代码放在 `<head>` at.js或mbox.js引用上方的标记中。
 
       ![](assets/property_token_1.png)
@@ -194,7 +188,7 @@ ht-degree: 66%
    | 审批者 | 可以创建、编辑，以及激活或停止活动。 |
    | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
    | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
-   | 发布者 | 与“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，“发布者”角色具有激活活动的其他权限。 |
+   | 发布者 | 与“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，发布者角色另有激活活动的权限。 |
 
    有关更多信息，请参阅《企业用户指南》**&#x200B;中的[在 Admin Console 中管理产品权限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
 

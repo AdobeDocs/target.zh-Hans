@@ -5,10 +5,10 @@ title: 在哪里可以找到关于 [!DNL Target] Recommendations的问题和答�
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
+source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
-source-wordcount: '2940'
-ht-degree: 59%
+source-wordcount: '2995'
+ht-degree: 58%
 
 ---
 
@@ -241,3 +241,9 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 如果某台设备上的访客处于活动状态，几分钟后在另一台设备上变为活动状态，则仍会发生此行为。 第一个设备的会话不会过期30分钟，在将用户档案状态写入永久状态并进行处理之前，最多可能有5分钟的延迟。 在测试此行为时，允许35分钟会话过期和存储用户档案。
 
 如果访客不同时有两个活动会话，则只要会话结束，一个设备上最近查看的项目就会更新另一个设备上最近查看的项目。 在测试此行为时，允许会话过期35分钟。
+
+## 我是否可以使用在[!DNL Recommendations Premium]中的[!DNL Adobe Recommendations Classic]中创建的算法？
+
+在[!DNL Recommendations Premium]中创建的算法不受支持。 [!DNL Recommendations Classic]您可能可以在[!DNL Target Premium]中使用旧算法；但是，在[!DNL Target Premium] UI中取消激活或删除活动时，算法会创建同步问题。 有关两种解决方案之间差异的详细信息，请参阅 [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] versus [!DNL Recommendations] 活动。
+
+

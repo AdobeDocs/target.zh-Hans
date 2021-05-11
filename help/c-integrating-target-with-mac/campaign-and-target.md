@@ -36,13 +36,12 @@ ht-degree: 36%
 
 使用[!DNL Target]和[!DNL Campaign]设置集成的不同部分：
 
-    *在>[!NOTE] [!DNL Target]
-    
-    >>使用rawbox和(
-    /help/administrating-target/hosts.md#allowlist)中
-     [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target]，原始框和体验。
-    
-    *投放 [!DNL Campaign]
+>[!NOTE]
+>在 [!DNL Target]
+>使用rawbox和(/help/administrating-target/hosts.md#allowlist)中
+>[!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target]，原始框和体验。
+
+* 投放 [!DNL Campaign]
 
 ## 开始{#section_FF19BF1BCA064260930BF6C141313B0E}之前
 

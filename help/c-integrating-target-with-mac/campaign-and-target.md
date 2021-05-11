@@ -5,10 +5,10 @@ title: 如何将 [!DNL Target] 与Adobe Campaign集成？
 feature: 集成
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: f3a9ee9827d635d335cb9707d3d92d0de1bd0304
+source-git-commit: 2a78828c0d04add812a73ea04f4b3927d3dbc392
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 36%
+source-wordcount: '382'
+ht-degree: 41%
 
 ---
 
@@ -36,12 +36,13 @@ ht-degree: 36%
 
 使用[!DNL Target]和[!DNL Campaign]设置集成的不同部分：
 
->[!NOTE]
->在 [!DNL Target]
->使用rawbox和(/help/administrating-target/hosts.md#allowlist)中
->[!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target]，原始框和体验。
+* [!DNL Target]中的原始框和体验
 
-* 投放 [!DNL Campaign]
+>[!NOTE]
+>
+>在使用 rawbox 和 [!DNL Target] 时，请参阅[创建允许列表，其中指定有权将 mbox 调用发送到 Target 的主机](/help/administrating-target/hosts.md#allowlist)下的重要安全声明。
+
+* [!DNL Campaign]中的投放
 
 ## 开始{#section_FF19BF1BCA064260930BF6C141313B0E}之前
 

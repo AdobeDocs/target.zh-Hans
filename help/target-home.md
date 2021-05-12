@@ -4,8 +4,7 @@ title: 在哪里可以找到 [!DNL Target] 文档？
 description: 了解如何使用Adobe [!DNL Target] 个性化您的客户体验，以最大化您的Web和移动站点、App和其他数字渠道的收入。
 feature: 概述
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-translation-type: tm+mt
-source-git-commit: 5d3d284f75ee00b7fd92b0083c6009334a5db2e5
+source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 95%
@@ -18,7 +17,7 @@ ht-degree: 95%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新日期：2021 年 5 月 10 日（[请参阅“更改了哪些内容”](r-release-notes/doc-change.md)）**
+**上次更新日期：2021 年 5 月 12 日（[请参阅“更改了哪些内容”](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >
@@ -69,12 +68,12 @@ ht-degree: 95%
 
 - [管理 Target](administrating-target/administrating-target.md)：说明如何添加用户和配置您的 [!DNL Target] 帐户。
 
-## 分析员  {#analysts}
+## 分析员 {#analysts}
 
 - [受众](c-target/target.md)：介绍如何确定谁可在有针对性的活动中看到内容和体验。
 - [报表](c-reports/reports.md)：说明如何解释活动的性能。
 
-## QA 工程师  {#qa}
+## QA 工程师 {#qa}
 
 - [活动](c-activities/activities.md)：说明如何设置、管理和 QA [!DNL Target] 活动。
 

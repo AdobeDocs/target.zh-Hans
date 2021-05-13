@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括什么新功能？
 feature: 发行说明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
+source-git-commit: f5047484b7cb113698b9b09f699d4e6a293b0b59
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 37%
+source-wordcount: '394'
+ht-degree: 36%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 37%
 ## [!DNL Adobe Experience Platform Web SDK] （2021年5月17日）
 
 此版本的[!DNL Platform Web SDK]包含对[!DNL Target]重定向的[!UICONTROL 目标](A4T)的分析支持。
+
+## [!DNL Target Standard/Premium] 21.5.1（2021年5月25日）
+
+随着发布日期的临近，将添加内容。
 
 ## [!DNL Target Standard/Premium] 21.5.2（确定日期）
 

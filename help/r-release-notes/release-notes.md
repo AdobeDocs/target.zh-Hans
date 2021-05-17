@@ -4,11 +4,10 @@ description: 了解 Adobe Target 当前版本包含的新增功能、增强功�
 title: 当前版本中包括什么新功能？
 feature: 发行说明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 59%
+source-wordcount: '642'
+ht-degree: 58%
 
 ---
 
@@ -23,6 +22,15 @@ ht-degree: 59%
 >请在此日期之前迁移到新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 库的最新版本，以避免您的网站出现任何潜在问题。有关详细信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## at.js版本2.5.0（2021年5月13日）
+
+此版本的at.js包含以下增强和更改：
+
+* [对at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 的设备上决策支持
+* [预览](/help/c-activities/c-activity-qa/activity-qa.md) 链接支持Automated Personalization活动
+
+此版本还删除了对Microsoft Internet Explorer 10、Internet Explorer 11和所有旧版本的支持。 at.js 2.5.0和更高版本中继续支持Microsoft Edge。
 
 ## Target Standard/Premium 21.4.1（2021 年 4 月 19 日） 
 
@@ -40,15 +48,6 @@ ht-degree: 59%
 * 修复了阻止正确加载[!UICONTROL Administration] > [!UICONTROL Scene7配置]页面的问题。 (TGT-39918)
 * 修复了导致属性映射到错误工作区的问题。 (TGT-39869)
 * 修复了在创建推荐排除时更改环境后请求失败时导致无限加载的问题。 (TGT-39948)
-
-## at.js版本2.5.0（宣布日期）
-
-此版本的at.js包含以下增强和更改：
-
-* [对at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 的设备上决策支持
-* [预览](/help/c-activities/c-activity-qa/activity-qa.md) 链接支持Automated Personalization活动。
-
-此版本还删除了对Microsoft Internet Explorer 10及更高版本的支持。
 
 ## 其他发行说明和版本详细信息
 

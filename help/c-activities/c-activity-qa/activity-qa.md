@@ -4,11 +4,10 @@ description: 了解如何使用Adobe [!DNL Target] QA URL通过从不更改的�
 title: 如何确保活动?
 feature: 活动
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 78%
+source-wordcount: '1525'
+ht-degree: 79%
 
 ---
 
@@ -21,9 +20,6 @@ ht-degree: 78%
 通过活动 QA，您能够在启动 Target 活动之前，对其进行全面的测试。活动 QA 具备以下功能：
 
 * 可与团队成员共享链接，不论体验或活动是否进行了更新，这些链接永远不会更改，也不需要重新生成。借助此功能，您可以在整个用户历程中全面测试您的活动。
-
-   在[at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)中添加了对[!UICONTROL Automated Personalization]活动的预览链接的支持。
-
 * 可选择遵守受众条件，在对体验外观进行 QA 时，营销人员可以选择测试定位标准或忽略定位标准，而不一定非要满足受众条件.
 * 可捕获 QA 报表，以便营销人员能够确认量度可按预期递增，并且 QA 报表数据可与生产报表（对于非 A4T 报表）分开保存。
 * 能够单独或与满足投放标准(页面/目标请求/受众)的其他实时活动一起预览体验。
@@ -67,7 +63,7 @@ ht-degree: 78%
 
 ## 注意事项 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* 各类型活动（自动个性化 (AP) 活动除外）的“[!UICONTROL 概述]”页面上均会显示“[!UICONTROL 活动 QA]”链接。对于 AP 活动，您可以使用[预览链接](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC)。
+* 各类型活动（自动个性化 (AP) 活动除外）的“[!UICONTROL 概述]”页面上均会显示“[!UICONTROL 活动 QA]”链接。
 * 如果帐户中保存的活动过多，则可能无法加载已保存活动的活动 QA 预览链接。重试预览链接应该有效。为了防止这种情况继续发生，请存档将不再积极使用的已保存活动。
 * 活动 QA URL 适用于将 Analytics 用作报表源 (A4T) 的活动。使用“活动 QA”执行 QA 时生成的点击将与活动数据传输到同一个报表包，即使在激活活动后也是如此。
 * “活动 QA”不会显示已存档活动或已过期活动的内容。如果停用已结束的活动，则必须再次保存该活动才能使“活动 QA”生效。

@@ -4,9 +4,9 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括什么新功能？
 feature: 发行说明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f5047484b7cb113698b9b09f699d4e6a293b0b59
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '413'
 ht-degree: 36%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 36%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2021 年 5 月 12 日**
+**上次更新日期：2021 年 5 月 17 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -25,11 +25,20 @@ ht-degree: 36%
 >
 >要避免站点出现任何潜在问题，请迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本。 有关详细信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
-## [!DNL Adobe Experience Platform Web SDK] （2021年5月17日）
+## at.js版本2.5.0（2021年5月13日）
+
+此版本的at.js包含以下增强和更改：
+
+* [对at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 的设备上决策支持
+* [预览](/help/c-activities/c-activity-qa/activity-qa.md) 链接支 [!UICONTROL 持Automated Personalization] (AP)活动
+
+此版本还删除了对Microsoft Internet Explorer 10、Internet Explorer 11和所有旧版本的支持。 at.js 2.5.0和更高版本中继续支持Microsoft Edge。 有关更多信息，请参阅[受支持的浏览器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)。
+
+## [!DNL Adobe Experience Platform Web SDK] 版本2.5.0（2021年5月24日）
 
 此版本的[!DNL Platform Web SDK]包含对[!DNL Target]重定向的[!UICONTROL 目标](A4T)的分析支持。
 
-## [!DNL Target Standard/Premium] 21.5.1（2021年5月25日）
+## [!DNL Target Standard/Premium] 21.5.1（2021年6月8日）
 
 随着发布日期的临近，将添加内容。
 
@@ -43,16 +52,7 @@ ht-degree: 36%
 
 此版本包含以下修复。
 
-* 将随着发行日期的临近而添加。
-
-## at.js版本2.5.0（待确定日期）
-
-此版本的at.js包含以下增强和更改：
-
-* [对at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 的设备上决策支持
-* [预览](/help/c-activities/c-activity-qa/activity-qa.md) 链接支持Automated Personalization活动
-
-此版本还删除了对Microsoft Internet Explorer 10及更高版本的支持。
+* 随着发布日期的临近，将添加内容。
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

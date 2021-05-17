@@ -4,19 +4,22 @@ description: 了解Analytics的 [!DNL Target] (A4T)实施要求以及实施此�
 title: 在实施A4T之前，我应该了解什么？
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 33%
+source-wordcount: '897'
+ht-degree: 31%
 
 ---
 
-# 实施之前
+# 在使用at.js实施Analytics for 目标(A4T)之前
 
 当[!DNL Adobe Analytics]启用为[!DNL Adobe Target](A4T)的报告源时，数据收集过程中会发生一些更改。
 
-在决定使用此集成之前，请先查阅以下部分并考虑此集成对报表流程的影响：
+在您决定使用此集成之前，请查看以下部分并考虑对报告流程的影响。
+
+>[!NOTE]
+>
+>本文仅适用于at.js实施。
 
 ## 实施要求 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -39,7 +42,7 @@ ht-degree: 33%
 要将重定向选件与 A4T 结合使用，您必须实施以下库版本（或更高版本）。所列的顺序即是操作顺序。
 
 * [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js版本2.3.0
-* [!DNL Adobe Target]:at.js版本1.6.2
+* [!DNL Adobe Target]: at.js 1.6.2 版
 
    **注意：** mbox.js 库不支持将重定向选件与 A4T 配合使用。您的实施必须使用 at.js。
 

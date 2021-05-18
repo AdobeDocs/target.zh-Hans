@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括什么新功能？
 feature: 发行说明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: 7eb44049a954f1f18c1e4a52d455d352d0fcfdf0
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 36%
+ht-degree: 60%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 36%
 
 **上次更新日期：2021 年 5 月 17 日**
 
-要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。这些页面上的信息可能相同，具体取决于发布时间。 括号中的问题编号供 [!DNL Adobe] 内部使用。
+要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
 >[!IMPORTANT]
 >
->**mbox.js终止使用**:自2021年3月31日起， [!DNL Adobe Target] 不再支持mbox.js库。2021年3月31日之后，从mbox.js发出的所有调用都会正常失败，并会通过提供默认内容影响运行[!DNL Target]活动的页面。
+>**mbox.js 生命周期结束**：从 2021 年 3 月 31 日起，[!DNL Adobe Target] 将不再支持 mbox.js 库。2021 年 3 月 31 日之后，所有从 mbox.js 进行的调用都会失败，并影响您通过提供默认内容而运行 [!DNL Target] 活动的页面。
 >
->要避免站点出现任何潜在问题，请迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本。 有关详细信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
+>请迁移到新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 库的最新版本，以避免您的网站出现任何潜在问题。有关详细信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 ## at.js版本2.5.0（2021年5月13日）
 
-此版本的at.js包含以下增强和更改：
+此版本的 at.js 包括以下增强功能和更改：
 
-* [对at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 的设备上决策支持
+* 对 at.js 的[设备上决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)支持。
 * [预览](/help/c-activities/c-activity-qa/activity-qa.md) 链接支 [!UICONTROL 持Automated Personalization] (AP)活动
 
 此版本还删除了对Microsoft Internet Explorer 10、Internet Explorer 11和所有旧版本的支持。 at.js 2.5.0和更高版本中继续支持Microsoft Edge。 有关更多信息，请参阅[受支持的浏览器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)。
@@ -38,13 +38,13 @@ ht-degree: 36%
 
 此版本的[!DNL Platform Web SDK]包含对[!DNL Target]重定向的[!UICONTROL 目标](A4T)的分析支持。
 
-## [!DNL Target Standard/Premium] 21.5.1（2021年6月8日）
+## [!DNL Target Standard/Premium] 21.5.1（2021年5月25日）
 
 随着发布日期的临近，将添加内容。
 
 ## [!DNL Target Standard/Premium] 21.5.2（确定日期）
 
-此版本包含以下新增功能和增强功能。 括号中的问题编号供 [!DNL Adobe] 内部使用。
+此版本包含以下新增功能和增强功能。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
 | 功能 | 详细信息 |
 | --- | --- |

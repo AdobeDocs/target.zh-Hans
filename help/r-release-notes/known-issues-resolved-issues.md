@@ -4,11 +4,10 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: 发行说明
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
 workflow-type: tm+mt
-source-wordcount: '4373'
-ht-degree: 98%
+source-wordcount: '4409'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +23,11 @@ ht-degree: 98%
 
 下面部分列出了 [!DNL Target] 的已知问题：
 
-### Adobe Target(A4T)自动分配和自动目标活动的分析量度
+### 存档[!UICONTROL 自动定位]活动可能会导致同步问题
+
+尝试存档不活动的[!UICONTROL 自动定位]活动可能会导致同步问题。 在此问题得到修复之前，请勿存档[!UICONTROL 自动定位]活动。 将它们保留为[!UICONTROL Inactive]状态。 (TGT-40885)
+
+### 自动分配和自动目标活动的 Analytics for Adobe Target (A4T) 指标
 
 通过 [!DNL Target] UI，用户可选择不支持的参与和收入指标作为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动中优化的主要目标指标。支持转化指标；但&#x200B;*不*&#x200B;支持参与和收入指标。如果选择参与或收入目标指标，则不构建优化模型。
 
@@ -49,7 +52,7 @@ ht-degree: 98%
 * 少量客户已报告，在配置了 Analytics for Target (A4T) 的活动中使用重定向选件时流量分布的差异程度较高。
 * at.js 实施中的重定向活动可能会导致预览 URL 进入循环（重复提供该选件）。您可以改为使用 [QA 模式](/help/c-activities/c-activity-qa/activity-qa.md)来执行预览和 QA。此问题不会影响选件的实际交付。(TGT-23019)
 
-### 在可视体验编辑器 (VEC) 中取消加载页面{#cancel}
+### 在可视体验编辑器 (VEC) 中取消加载页面 {#cancel}
 
 * 在包含重定向 URL 的 VEC 中取消加载 [!UICONTROL A/B 测试]或[!UICONTROL 体验定位] (XT) 活动时，当前存在以下已知问题。
 
@@ -63,7 +66,7 @@ ht-degree: 98%
 
 * 对于单页应用程序 (SPA) 网站，取消加载将禁止在[!UICONTROL 修改]面板下编辑操作。
 
-### Recommendations
+### 推荐
 
 以下是对于[!UICONTROL 推荐]活动已知的问题：
 
@@ -120,7 +123,7 @@ ht-degree: 98%
 
 将成功指标设置为每次展示递增时，Target 在每次有访客访问此成功指标时都再次计算访客数。然后，Target 会将成功量度“成员资格”重置为 0，以便在下次展示时再次对其计数。因此，如果另一指标要求首先看到此指标，则 Target 从不承认用户已看到第一个标准。
 
-### [!DNL Target](A4T)的分析
+### Analytics for [!DNL Target] (A4T)
 
 在 Analysis Workspace 中使用 Target 活动展示和转化时，请将“同一次接触”Attribution IQ 模型应用于指标以确保准确计数。要应用[非默认归因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=zh-Hans)，请右键单击指标以&#x200B;**修改“列设置”> 启用“使用非默认归因模型”> 选择“同一次接触”模型**。如果不应用此模型，则指标将被夸大。
 
@@ -134,7 +137,7 @@ ht-degree: 98%
 
 2020 年 5 月 10 日，Adobe 更新了地理位置提供商文件，因此产生了一些不一致的情况。例如，添加了一些包含逗号的值；但是，现有受众中的值没有逗号。并非所有 Adobe 投放服务器都受此更改影响。因此，在 2020 年 5 月 10 日至 7 月 22 日之间，使用此类值的受众可能没有为所有正确的访客授予资格。
 
-### 报告 — 可下载.csv报告中的数据与[!DNL Target] UI中显示的报告不一致。 {#csv}
+### 报表 - 可下载的 .csv 报告中的数据与 [!DNL Target] UI 中显示的报表不一致。 {#csv}
 
 如果活动使用多个指标，则为以 .csv 文件形式下载而生成的报表不一致。仅根据报告设置生成可下载的报表，并且该报表对于任何其他所使用的指标均考虑相同的值。
 
@@ -150,7 +153,7 @@ ht-degree: 98%
 
 Target Standard/Premium 20.10.1 版本中修复了此问题。
 
-### Adobe Target(A4T)报告
+### Analytics for Adobe Target (A4T) 报表
 
 已解决以下这些与 A4T 相关的问题：
 
@@ -237,7 +240,7 @@ mbox.js 库不支持客户端模板语言，例如 Handlebars 和 Mustache。at.
 
 对于新配置的租户，在下载的 at.js 中将设置 `global_mbox_autocreate = false`。如果先下载 mbox.js，则 global\_mbox\_autocreate 将设置为“true”，并且在下载的 at.js 中也将设置 `global_mbox_autocreate = true`。(TGT-15929)
 
-### [!DNL Target] API {#api}中的企业权限支持
+### [!DNL Target] API 中的企业权限支持  {#api}
 
 如果使用 GET API 拉取选件列表，则“选件”库中从 Target UI 创建的代码选件将显示在默认工作区中。此问题将在 2019 年 3 月的第一个星期得到修复。完成此修复后，在从 API 拉取时，代码选件将显示在相应的工作区中。此问题&#x200B;*不*&#x200B;会影响从 API 创建的选件。例如，无论是使用 GET API 还是从 Target UI 中获取选件，从 API 创建的代码选件都将显示在创建这些选件的工作区中。
 
@@ -255,7 +258,7 @@ mbox.js 库不支持客户端模板语言，例如 Handlebars 和 Mustache。at.
 
 要确定此问题是否影响了您的 Target 报表，请联系[客户关怀](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)。
 
-### Recommendations
+### 推荐
 
 * 如果 Recommendations 信息源中的项目与上一次运行中的项目相同，则该信息源索引会显示“正在等待编入索引”。要交付的产品引入不会受到影响。(RECS-6663)
 
@@ -348,7 +351,7 @@ at.js 版本 0.9.6 中更改了对保存 Cookie 时应使用的顶级域进行�
 
 此问题已在 at.js 版本 1.2 中纠正。
 
-### [!DNL Target]高级版的企业用户权限
+### [!DNL Target] Premium 的企业用户权限
 
 作为企业权限迁移的一部分，所有 Target Premium 用户管理都已从 Adobe Target UI 迁移到 Adobe Admin Console。
 
@@ -439,7 +442,7 @@ Target 17.4.1 版本（2017 年 4 月 27 日版）中包含在报表中查看多
 
 已在 Recommendations 17.2.2.0 版本（2017 年 3 月 6 日版）中修复。
 
-### Adobe Target(A4T)报告
+### Analytics for Adobe Target (A4T) 报表
 
 切换报表量度时，报表不会更新。此问题仅影响 UI。对报表数据收集或交付没有影响。(TGT-22970)
 

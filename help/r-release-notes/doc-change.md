@@ -1,13 +1,13 @@
 ---
 keywords: target 文档变更日志;文档更新;新主题;编辑;更新;更新
-description: 在Adobe [!DNL Target] 产品文档中添加重要内容和更改，以保持最新。
+description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和变更。
 title: 可在何处查看 Target 的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 57%
+source-wordcount: '1214'
+ht-degree: 90%
 
 ---
 
@@ -15,62 +15,63 @@ ht-degree: 57%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
-## Adobe [!DNL Target] Standard/Premium 21.4.1（2021年4月19日）
+## Adobe [!DNL Target] Standard/Premium 21.4.1（2021 年 4 月 19 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 5 月 17 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 at.js 版本 2.5.0 的信息。 |
-|  | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 已更新主题，指示预览链接可用于具有at.js 2.5.0（及更高版本）的[!UICONTROL Automated Personalization](AP)活动。 |
-|  | [支持的浏览器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 指示at.js 2.5.0版本删除了对Microsoft Internet Explorer 10、Internet Explorer 11和所有旧版本的支持。 at.js 2.5.0和更高版本中继续支持Microsoft Edge。 |
-|  | [与增强的Experience Composer相关的 [!UICONTROL 问题疑难解答]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | 已更新IP地址的列表以允许列表。 |
-| 5 月 12 日 | [[!DNL Target] 发行说明（预发行）](/help/r-release-notes/target-release-notes.md) | 为以下内容添加了预发行说明：<ul><li>Adobe Experience Platform Web SDK(2021年5月17日</li><li>Target Standard Premium 21.5.2</li></ul> |
-| 5 月 10 日 | [[!DNL Recommendations] 常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：&quot;我是否可以使用在[!DNL Recommendations Premium]中的[!DNL Adobe Recommendations Classic]中创建的算法？&quot; |
-|  | [实施 [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | 指示不再支持[!DNL Adobe Dynamic Tag Manager]。 相反，[!DNL Adobe]建议使用[[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)实现。 |
-| 5 月 6 日 | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：<ul><li>对我的[!UICONTROL Recommendations]活动、优惠、促销或标准设置的配置进行更改需要多长时间才能反映在我的网站上？</li><li>用户的行为（例如，单击产品A和购买产品B）需要多长时间才能反映在用户收到的推荐&#x200B;*中？*</li><li>用户的行为（例如，单击产品A和购买产品B）需要多长时间才能反映在用户收到的推荐&#x200B;*其他*&#x200B;中？</li></ul> |
-|  | [设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 在Adobe技术博客上添加了以下博客文章的链接：<ul><li>第1部分：运行Adobe Target NodeJS SDK，在边缘平台上进行试验和个性化(Akamai Edge Worker)</li></ul> |
-| 5 月 5 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 增加了有关将于2021年5月12日星期三上午8时举行的Adobe Target社区问答咖啡会的信息。(PDT， GMT-7)。 |
-| 4 月 27 日 | [Cookie 设置](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | 已更新主题，指示at.js版本2.3.1或更高版本中的Cookie持续时间（`deviceIdLifetime`设置）可覆盖。 |
-|  | [Adobe Target指南](/help/target-home.md) | 添加了有关Adobe峰会的信息。 |
-| 4 月 26 日 | [对at.js的设备上决策进行疑难解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 新主题。 |
-| 4 月 19 日 | [设备上决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 新增了以下文章：<ul><li>[设备上决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[支持的设备决策功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[设备上决策规则伪像](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
-|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | 添加了有关`decisioningMethod`的信息。 |
-|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了以下内容：<ul><li>有关`decisioningMethod`键的信息。</li><li>“getCallOffers()进行设备决策的示例。”</li></ul> |
-|  | [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 添加了以下信息：<ul><li>设备上决策伪像成功</li><li>设备上决策伪像失败</li></ul> |
-|  | [活动](/help/c-activities/activities.md) | 添加了有关设备决策的信息。 |
+| 5 月 20 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题： &quot;存档[!UICONTROL 自动定位]活动可能会导致同步问题。&quot; |
+| 17 月 5 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 at.js 版本 2.5.0 的信息。 |
+|  | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 更新了主题，以指示预览链接可用于使用at.js 2.5.0（及更高版本）的[!UICONTROL Automated Personalization](AP)活动。 |
+|  | [支持的浏览器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | 指示at.js 2.5.0版本移除了对Microsoft Internet Explorer 10、Internet Explorer 11和所有旧版本的支持。 at.js 2.5.0及更高版本仍支持Microsoft Edge。 |
+|  | [对与增强型体验编辑器有关的问 [!UICONTROL 题进行故障诊断]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | 更新了要的IP地址列允许列表表。 |
+| 12 月 5 日 | [[!DNL Target] 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了以下预发行说明：<ul><li>Adobe Experience Platform Web SDK(2021年5月17日</li><li>Target Standard Premium 21.5.2</li></ul> |
+| 10 月 5 日 | [[!DNL Recommendations] 常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：&quot;我能否使用在[!DNL Recommendations Premium]的[!DNL Adobe Recommendations Classic]中创建的算法？&quot; |
+|  | [实施 [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | 指示不再支持[!DNL Adobe Dynamic Tag Manager]。 [!DNL Adobe]建议使用[[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)进行实施。 |
+| 5 月 6 日 | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：<ul><li>对我的[!UICONTROL 推荐]活动、优惠、促销或标准设置做出的更改需要多久才能反映在我的网站上？</li><li>用户的行为（例如，单击产品 A 并购买产品 B）需要多久才能反映在&#x200B;*该*&#x200B;用户收到的推荐中？</li><li>用户的行为（例如，单击产品 A 并购买产品 B）需要多久才能反映在&#x200B;*其他*&#x200B;用户收到的推荐中？</li></ul> |
+|  | [设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 在 Adobe Tech Blog 上添加了指向以下博客帖子的链接：<ul><li>第 1 部分：在 Edge 平台上运行 Adobe Target NodeJS SDK 以提供试验性和个性化（Akamai Edge 工作者）</li></ul> |
+| 5 月 5 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于将在 2021 年 5 月 12 日星期三上午 8 点（PDT，GMT-7）举办的 Adobe Target 社区问答喝咖啡休息时间的信息。 |
+| 4 月 27 日 | [Cookie 设置](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | 更新了一个主题以指明 Cookie 时长（`deviceIdLifetime` 设置）可在 at.js version 2.3.1 或更高版本中覆盖。 |
+|  | [Adobe Target 指南](/help/target-home.md) | 添加了关于 Adobe Summit 的信息。 |
+| 4 月 26 日 | [对 at.js 的设备上决策疑难解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 新主题。 |
+| 4 月 19 日 | [设备上决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 添加了以下新文章：<ul><li>[设备上决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>对 at.js 的[设备上决策支持的功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[设备上决策规则构件](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | 添加了关于 `decisioningMethod` 的信息。 |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了以下内容：<ul><li>关于 `decisioningMethod` 键的信息。</li><li>关于“用以制定设备上决策的 getCallOffers()”的示例。</li></ul> |
+|  | [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 添加了以下信息：<ul><li>设备上决策构件已成功</li><li>设备上决策构件失败</li></ul> |
+|  | [活动](/help/c-activities/activities.md) | 添加了关于设备上决策的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.5.0 的信息。 |
-|  | [不通过标签管理器实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | 添加了有关设备决策的信息。 |
-|  | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 在[at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)中添加了对[!UICONTROL Automated Personalization]活动的预览链接的支持。 |
-|  | [使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 添加了有关以下新运算符的信息：<ul><li>包含在列表中</li><li> 未包含在列表中</li><li>列表包含</li><li>列表不包含</li><li>列表包含</li><li>列表不包含</li></ul> |
-|  | [Adobe Target cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud服务和* 管理指南) | 添加了有关“会话ID”的其他信息。 |
-|  | [发行说明](/help/r-release-notes/release-notes.md):21.4.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
+|  | [不通过标签管理器实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | 添加了关于设备上决策的信息。 |
+|  | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 为 [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 添加了对 [!UICONTROL Automated Personalization] 活动的预览链接的支持。 |
+|  | [使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 添加了关于以下新运算符的信息：<ul><li>包含在列表中</li><li> 不包含在列表中</li><li>列表中包含某个项目</li><li>列表中不包含某个项目</li><li>列表中包含所有项目</li><li>列表中不包含所有项目</li></ul> |
+|  | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html??lang=zh-Hans)<br>（*Experience Cloud Services 和管理*&#x200B;指南） | 添加了关于“会话 ID”的其他信息。 |
+|  | [发行说明](/help/r-release-notes/release-notes.md)：21.4.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
-## Adobe [!DNL Target] Standard/Premium 21.2.1（2021年3月9日）
+## Adobe [!DNL Target] Standard/Premium 21.2.1（2021 年 3 月 9 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 4 月 9 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了at.js版本2.5.0的预发行信息（2021年4月19日） |
-| 4 月 9 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了Target Standard/Premium 21.4.1版本的预发行信息（2021年4月19日） |
-|  | [将“推荐”与电子邮件集成](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 增加了说明，说明选项1和2的容量准则。 |
-| 3 月 29 日 | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 新增了常见问题解答：<ul><li>基于最近查看的项目的推荐是否会跨多个设备保留以用于单个访客?</li></ul> |
+| 4 月 9 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 为 at.js 版本 2.5.0 添加了预发行信息（2021 年 4 月 19 日） |
+| 4 月 9 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 为 Target Standard/Premium 21.4.1 版添加了预发行信息（2021 年 4 月 19 日） |
+|  | [将“推荐”与电子邮件集成](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 添加了描述选项 1 和 2 的容量准则的注释。 |
+| 3 月 29 日 | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 添加了新的常见问题解答：<ul><li>根据最近查看过的项目提供的推荐是否会保留在单个访客的多个设备中？</li></ul> |
 | 3 月 23 日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了 at.js 版本 2.4.1 的发行说明。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了 at.js 版本 2.4.1 的发行说明。 |
-|  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 更新了以下常见问题：<ul><li>对目录中项目的更新耗时多久才能反映在网站上？</li></ul> |
-| 3 月 22 日 | [“推荐”信息源处理服务器使用的 IP 地址](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | 更新了IP地址的列表。 |
-|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了“实体”下的“实体数”部分。 |
-|  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | 添加了有关 at.js 2 的信息。*请* 阅读“如何测试活动，好像我是来自其他位置的用户一样？” |
-|  | [发行说明](/help/r-release-notes/release-notes.md)：21.2.1 | 添加了以下部分： <ul><li>Recommendations源处理服务器的IP地址更改（2021年3月16日）</li></ul> |
-| 3 月 19 日 | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | 添加了以下常见问题解答：<ul><li>为什么在取消激活活动后继续查看更多印象？</li></ul> |
+|  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 更新了以下常见问题解答：<ul><li>对目录中项目的更新耗时多久才能反映在网站上？</li></ul> |
+| 3 月 22 日 | [推荐信息源处理服务器使用的 IP 地址](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | 更新了 IP 地址列表。 |
+|  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了“实体”下的“实体数量”部分。 |
+|  | [地域](/help/c-target/c-audiences/c-target-rules/geo.md) | 添加了有关 at.js 2 的信息。*x*“我如何模拟其他位置的用户身份测试活动？”下面 |
+|  | [发行说明](/help/r-release-notes/release-notes.md)：21.2.1 | 添加了以下部分： <ul><li>推荐信息源处理服务器的 IP 地址更改（2021 年 3 月 16 日）</li></ul> |
+| 3 月 19 日 | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | 添加了以下常见问题解答：<ul><li>为什么我的活动被停用后，我依旧会看到更多展示？</li></ul> |
 | 3 月 12 日 | [自动分配和自动定位活动支持 A4T](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | 添加了以下新教程：<ul><li>如何在 Analysis Workspace 中为自动定位活动设置 A4T 报表</li></ul> |
 | 3 月 9 日 | [限制](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>更新了允许的选件大小限制。</li><li>更正了 categoryId 参数的字符限制。</li></ul> |
 |  | [将 Target 边缘节点列入允许列表](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 更新了 [!DNL Target] 边缘 IP 地址。 |
 |  | [实体属性](/help/c-recommendations/c-products/entity-attributes.md) | 添加了文本以指示 entity.value 必须为小数格式（例如，15.99 而非 15,99）。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：21.2.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
-## Adobe [!DNL Target] Standard/Premium 21.1.1（2021年1月19日）
+## Adobe [!DNL Target] Standard/Premium 21.1.1（2021 年 1 月 19 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 2 月 22 日 | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 更新了以下常见问题：<ul><li>可在 Analysis Workspace 中的何处应用区段？</li></ul> |
+| 2 月 22 日 | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 更新了以下常见问题解答：<ul><li>可在 Analysis Workspace 中的何处应用区段？</li></ul> |
 | 2 月 16 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新了预发行说明中选件限制大小的文本。 |
 | 2 月 11 日 | [Target 的工作方式](/help/c-intro/how-target-works.md) | 更新了“机器人”部分。 |
 | 2 月 10 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于 2021 年 2 月 24 日星期三 Adobe Target 社区问答喝咖啡休息时间的信息。 |

@@ -5,9 +5,9 @@ title: 什么是响应令牌？如何使用它们？
 feature: 管理和配置
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: bc72070470be18c842dede61ecbc2f06ac00c0d1
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1601'
 ht-degree: 28%
 
 ---
@@ -76,7 +76,11 @@ ht-degree: 28%
 
 1. 创建一个活动。
 
-## ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Platform Web SDK] 使用Handle对象类标记
+## 监听响应和读取响应令牌
+
+用于侦听[!DNL Target]响应和读取响应令牌的过程会因您是使用[!DNL Platform Web SDK]还是at.js实施而异。
+
+### ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Platform Web SDK] 使用Handle对象类标记
 
 使用Handle对象类，该类具有元数据对象和数据对象来侦听[!DNL Target]响应并读取响应令牌。
 
@@ -143,7 +147,7 @@ ht-degree: 28%
 | Meta | 传递到页面的元数据。 |
 | 数据 | 传递到页面的元数据的值。 |
 
-## ![at.js使用](/help/assets/atjs.png) 自定义事件的badgeat.js
+### ![at.js使用](/help/assets/atjs.png) 自定义事件的badgeat.js
 
 使用 [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)来监听 响应并读取响应令牌。[!DNL Target]
 
@@ -212,13 +216,17 @@ ht-degree: 28%
 
 [!DNL Target] 会定期刷新属性。任何未打开的属性都将在下次刷新时删除。 但是，如果您有一个已打开且已删除的属性，则该脚本在您将其关闭之前不会从属性列表中删除。 例如，您删除了用作令牌的配置文件脚本。 [!DNL Target]如果删除或重命名属性， 只会从列表中删除已关闭的属性。
 
-## ![AEP徽](/help/assets/platform.png) 章通过Platform Web SDK向Google Analytics发送数据
+## 将数据发送到Google Analytics
+
+以下各节介绍如何将[!DNL Target]数据发送到Google Analytics:
+
+### ![AEP徽](/help/assets/platform.png) 章通过Platform Web SDK向Google Analytics发送数据
 
 Google Analytics可以通过Platform Web SDK版本2.5.0（或更高版本）通过在HTML页面中添加以下代码来发送数据：
 
 （待发代码）
 
-## ![at.js徽](/help/assets/atjs.png) 章通过at.js向Google Analytics发送数据 {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js徽](/help/assets/atjs.png) 章通过at.js向Google Analytics发送数据 {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 通过在 HTML 页面中添加以下代码，即可通过 at.js 向 Google Analytics 发送数据：
 

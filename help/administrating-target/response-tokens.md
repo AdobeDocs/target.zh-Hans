@@ -5,10 +5,10 @@ title: 什么是响应令牌？如何使用它们？
 feature: 管理和配置
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ddffc7d687d25cc87bb220af80bfec2c51b85542
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 29%
+source-wordcount: '1556'
+ht-degree: 28%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->响应令牌在[!DNL Adobe Experience Platform Web SDK]版本2.5.0或更高版本（计划于2021年5月24日发布）以及at.js版本1.1或更高版本中可用。
+>响应令牌在[!DNL Adobe Experience Platform Web SDK]版本2.5.0或更高版本（计划于2021年6月1日发布）以及at.js版本1.1或更高版本中可用。
 
 | Target SDK | 建议的操作 |
 |--- |--- |
@@ -212,13 +212,13 @@ ht-degree: 29%
 
 [!DNL Target] 会定期刷新属性。任何未打开的属性都将在下次刷新时删除。 但是，如果您有一个已打开且已删除的属性，则该脚本在您将其关闭之前不会从属性列表中删除。 例如，您删除了用作令牌的配置文件脚本。 [!DNL Target]如果删除或重命名属性， 只会从列表中删除已关闭的属性。
 
-## 通过Platform Web SDK向Google Analytics发送数据
+## ![AEP徽](/help/assets/platform.png) 章通过Platform Web SDK向Google Analytics发送数据
 
 Google Analytics可以通过Platform Web SDK版本2.5.0（或更高版本）通过在HTML页面中添加以下代码来发送数据：
 
 （待发代码）
 
-## 通过at.js向Google Analytics发送数据 {#section_04AA830826D94D4EBEC741B7C4F86156}
+## ![at.js徽](/help/assets/atjs.png) 章通过at.js向Google Analytics发送数据 {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 通过在 HTML 页面中添加以下代码，即可通过 at.js 向 Google Analytics 发送数据：
 
@@ -288,7 +288,7 @@ Google Analytics可以通过Platform Web SDK版本2.5.0（或更高版本）通�
 
 以下部分提供了有关调试响应令牌的信息：
 
-### Google Analytics和调试
+### ![at.js徽](/help/assets/atjs.png) 章Google Analytics和调试
 
 以下代码允许您使用Google Analytics进行调试：
 
@@ -405,7 +405,7 @@ Google Analytics可以通过Platform Web SDK版本2.5.0（或更高版本）通�
 </script>
 ```
 
-## 培训视频：响应令牌和 at.js 自定义事件![教程徽章](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.js](/help/assets/atjs.png) 培训视频：响应令牌和at.js自定义事件 {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 以下视频介绍如何使用响应令牌和at.js自定义事件将配置文件信息从[!DNL Target]共享到第三方系统。
 

@@ -5,16 +5,16 @@ title: 什么是响应令牌？如何使用它们？
 feature: 管理和配置
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: bc72070470be18c842dede61ecbc2f06ac00c0d1
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1598'
 ht-degree: 28%
 
 ---
 
 # 响应令牌
 
-响应令牌允许您自动将特定于[!DNL Adobe Target]的信息输出到品牌的网页。 此信息可以包括有关活动、选件、体验、用户配置文件、地理信息等的详细信息。 这些详细信息可提供额外的响应数据，以便与内部或第三方系统（如Clicktale）共享或用于调试。
+响应令牌允许您自动将特定于[!DNL Adobe Target]的信息输出到品牌的网页。 此信息可以包括有关活动、选件、体验、用户配置文件、地理信息等的详细信息。 这些详细信息可提供额外的响应数据，以便与内部或第三方工具共享或用于调试。
 
 响应令牌允许您选择要使用的变量（键值对中），然后允许将这些变量作为[!DNL Target]响应的一部分发送。 您使用交换机启用一个变量，该变量随[!DNL Target]响应一起发送，这些响应可在网络调用中验证。 响应令牌也可在[!UICONTROL 预览]模式下使用。
 

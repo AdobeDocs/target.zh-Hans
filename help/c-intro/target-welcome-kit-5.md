@@ -4,11 +4,10 @@ description: 使用 Adobe Target 可在何处找到关于测试和个性化活�
 title: 可在何处找到测试和个性化工作的灵感？
 feature: 概述
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 99%
+source-wordcount: '1054'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 99%
 
 例如，当一家电信公司的一名归入“严肃游戏玩家”的访客访问该公司的网站时，请投放一种体验，其中包括与游戏玩家产生共鸣的文案和图像以及高速互联网的选件。
 
-## 想法2:[!DNL Target]首次访客和重复客户的方式不同。
+## 想法 2：以不同方式面对首次访客和回访访客。
 
 数字营销人员凭直觉地意识到现有客户比新客户更宝贵，但他们往往未能优先考虑旨在留住回访访客的营销计划。为了避免这种常见的隐患，请分析回访访客的各种指标，以确定忠实客户在您的网站上有怎样的行为表现。根据这些见解创建针对购买过一两次的访客的活动，其中提供鼓励其更频繁访问网站的激励措施。
 

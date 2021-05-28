@@ -5,10 +5,10 @@ title: 什么是响应令牌？如何使用它们？
 feature: 管理和配置
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
+source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
 workflow-type: tm+mt
-source-wordcount: '1598'
-ht-degree: 28%
+source-wordcount: '1622'
+ht-degree: 27%
 
 ---
 
@@ -84,7 +84,14 @@ ht-degree: 28%
 
 使用Handle对象类，该类具有元数据对象和数据对象来侦听[!DNL Target]响应并读取响应令牌。
 
-以下代码示例可将[!DNL Platform Web SDK]自定义事件处理程序直接添加到HTML页面：
+以下响应示例将[!DNL Platform Web SDK]自定义事件处理程序直接添加到HTML页面（该表说明了代码中使用的对象）：
+
+| 对象 | 信息 |
+| --- | --- |
+| 类型 — Personalization.decision | 是由[!DNL Target]还是Offer decisioning提供商做出决定。 |
+| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] 将响应令牌元数据和值提供到页面。 |
+| Meta | 传递到页面的元数据。 |
+| 数据 | 传递到页面的元数据的值。 |
 
 ```html
 <html>
@@ -139,13 +146,6 @@ ht-degree: 28%
 
 </html>
 ```
-
-| 对象 | 信息 |
-| --- | --- |
-| 类型 — Personalization.decision | [!DNL Target] 和Offer decisioning数据将在此传递。 |
-| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] 将响应令牌元数据和值提供到页面。 |
-| Meta | 传递到页面的元数据。 |
-| 数据 | 传递到页面的元数据的值。 |
 
 ### ![at.js使用](/help/assets/atjs.png) 自定义事件的badgeat.js
 
@@ -218,7 +218,7 @@ ht-degree: 28%
 
 ## 将数据发送到Google Analytics
 
-以下各节介绍如何将[!DNL Target]数据发送到Google Analytics:
+以下各节介绍如何将[!DNL Target]数据发送到Google Analytics。 通过响应令牌发送的数据也可以发送到其他第三方集成。
 
 ### ![AEP徽](/help/assets/platform.png) 章通过Platform Web SDK向Google Analytics发送数据
 

@@ -1,13 +1,13 @@
 ---
 keywords: 响应令牌；令牌；插件；插件；at.js；响应
-description: 了解如何在Adobe [!DNL Target] 特定于输出的信息中使用响应令牌，以在调试和与第三方系统（如Clicktale）集成时使用。
+description: 了解如何在Adobe [!DNL Target] 特定于输出的信息中使用响应令牌，以用于调试和与第三方工具集成。
 title: 什么是响应令牌？如何使用它们？
 feature: 管理和配置
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
+source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1628'
 ht-degree: 27%
 
 ---
@@ -22,16 +22,16 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->响应令牌在[!DNL Adobe Experience Platform Web SDK]版本2.5.0或更高版本（计划于2021年6月1日发布）以及at.js版本1.1或更高版本中可用。
+>响应令牌在[!DNL Adobe Experience Platform Web SDK]版本2.6.0或更高版本（计划于2021年6月1日发布）以及at.js版本1.1或更高版本中可用。
 
 | Target SDK | 建议的操作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 确保您使用的是Platform Web SDK版本2.5.0或更高版本。 有关下载最新版Platform Web SDK的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)。 有关每个Platform Web SDK版本中新功能的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)。 |
+| [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版Platform Web SDK的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)。 有关每个Platform Web SDK版本中新功能的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)。 |
 | [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本 at.js 的信息，请参阅[下载 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。有关每个 at.js 版本新功能的信息，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在mbox.js中存在，但在at.js中不存在，这些插件会交付但失败。 有关更多信息，请参阅 [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)。 |
 
 ## 使用响应令牌 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. 确保您使用的是Platform Web SDK版本2.5.0（或更高版本）或at.js版本1.1（或更高版本）。
+1. 确保您使用的是Platform Web SDK版本2.6.0（或更高版本）或at.js版本1.1（或更高版本）。
 
    有关更多信息：
 
@@ -176,7 +176,7 @@ ht-degree: 27%
 
 响应令牌只能由具有[!DNL Target] [!UICONTROL 管理员]角色的用户激活或停用。
 
-**如果我运行的是[!DNL Platform Web SDK] 2.5.0（或更早版本），会发生什么情况？
+**如果我运行的是[!DNL Platform Web SDK] 2.6.0（或更早版本），会发生什么情况？
 
 您无权访问响应令牌。
 
@@ -222,9 +222,60 @@ ht-degree: 27%
 
 ### ![AEP徽](/help/assets/platform.png) 章通过Platform Web SDK向Google Analytics发送数据
 
-Google Analytics可以通过Platform Web SDK版本2.5.0（或更高版本）通过在HTML页面中添加以下代码来发送数据：
+Google Analytics可以通过Platform Web SDK版本2.6.0（或更高版本）通过在HTML页面中添加以下代码来发送数据。
 
-（待发代码）
+>[!NOTE]
+>
+>确保响应令牌键值对位于`alloy(“sendEvent”`对象下。
+
+```
+<script type="text/javascript"> 
+   (function(i, s, o, g, r, a, m) { 
+   i['GoogleAnalyticsObject'] = r; 
+   i[r] = i[r] || function() { 
+   (i[r].q = i[r].q || []).push(arguments) 
+   }, i[r].l = 1 * new Date(); 
+   
+   
+   a = s.createElement(o), 
+   m = s.getElementsByTagName(o)[0]; 
+   a.async = 1; 
+   a.src = g; 
+   m.parentNode.insertBefore(a, m) 
+   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
+   ga('create', 'Google Client Id', 'auto'); 
+</script> 
+<script type="text/javascript">
+   alloy("sendEvent", {
+   
+   
+   })
+   .then(({ renderedPropositions, nonRenderedPropositions }) => {
+   // concatenate all the propositions
+   const propositions = [...renderedPropositions, ...nonRenderedPropositions];
+   // extractResponseTokens() extract the meta from item -> meta
+   const tokens = extractResponseTokens(propositions);
+   const activityNames = []; 
+   const experienceNames = []; 
+   const uniqueTokens = distinct(tokens); 
+   
+   
+   uniqueTokens.forEach(token => { 
+   activityNames.push(token["activity.name"]); 
+   experienceNames.push(token["experience.name"]); 
+   }); 
+   
+   
+   ga('send', 'event', { 
+   eventCategory: "target", 
+   eventAction: experienceNames, 
+   eventLabel: activityNames 
+   }); 
+   
+   
+   });
+</script>
+```
 
 ### ![at.js徽](/help/assets/atjs.png) 章通过at.js向Google Analytics发送数据 {#section_04AA830826D94D4EBEC741B7C4F86156}
 

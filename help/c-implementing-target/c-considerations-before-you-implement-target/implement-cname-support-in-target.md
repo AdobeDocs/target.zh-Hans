@@ -5,14 +5,14 @@ title: 如何在Target中使用CNAME?
 feature: 隐私和安全
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 0327f4450ad7b764b01091a106e3dfd3160ffbaf
+source-git-commit: 1f27ebfb7fb4203558f4d10e5e98cced04a82f2b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1191'
+ht-degree: 1%
 
 ---
 
-# CNAME 和 Adobe Target
+# CNAME和Target
 
 有关与[!DNL Adobe]客户关怀团队一起在[!DNL Adobe Target]中实施CNAME（规范名称）支持的说明。 使用CNAME处理广告拦截问题或与ITP相关（智能防跟踪）Cookie策略。 使用CNAME，将对客户拥有的域进行调用，而不是对[!DNL Adobe]拥有的域进行调用。
 

@@ -4,10 +4,10 @@ description: 了解 Adobe Target 当前版本包含的新增功能、增强功�
 title: 当前版本中包括什么新功能？
 feature: 发行说明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d102e3b93e258199bad40de089443eda3a07d7fe
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 92%
+source-wordcount: '701'
+ht-degree: 84%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 92%
 >迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的网站出现任何潜在问题。 有关详细信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 版本2.6.0（2021年6月1日）
+
+此版本的[!DNL Platform Web SDK]支持以下功能：
+
+| 功能 | 详细信息 |
+| --- | --- |
+| 对[!UICONTROL Analytics for Target](A4T)的重定向支持 | 现在，使用[A4T](/help/c-integrating-target-with-mac/a4t/a4t.md)时，Platform Web SDK支持[!DNL Target]重定向。<br>有关更多信息，请参阅 [实施 [!DNL Target] 的Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
+| 响应令牌 | Platform Web SDK现在支持[!DNL Target]响应令牌。<br>有关更多信息，请参阅 [响应令牌](/help/administrating-target/response-tokens.md)。 |
 
 ## at.js版本2.5.0（2021年5月13日）
 

@@ -4,10 +4,10 @@ description: 查找有关在 [!DNL Target] (A4T). A4T lets you use Analytics rep
 title: 在哪里可以找到有关使用A4T重定向选件的常见问题解答？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 62%
+source-wordcount: '1341'
+ht-degree: 63%
 
 ---
 
@@ -109,10 +109,6 @@ Adobe建议您与IT团队沟通，以确保`adobe_mc_ref`和`adobe_mc_sdid`已�
 ## ![Adobe Experience Platform Web SDK徽](/help/assets/platform.png) 章是否 [!DNL Adobe Experience Platform Web SDK] 支持A4T的重定向选件？ {#platform}
 
 以下常见问题解答提供了有关将A4T和重定向选件与[!DNL Platform Web SDK]结合使用的更多信息。
-
->[!NOTE]
->
->本文中讨论的[!DNL Adobe Experience Platform Web SDK]实施中的A4T支持计划随[!DNL Platform Web SDK]版本2.5.0（2021年6月1日）一起提供。
 
 ### Analytics for Target (A4T) 是否支持重定向选件？
 

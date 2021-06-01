@@ -4,10 +4,10 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 85%
+source-wordcount: '1349'
+ht-degree: 84%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 85%
 |  | [实施 [!DNL Target] Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | 添加了新章节：<ul><li>[!DNL Adobe Experience Platform Web SDK]实施的实施步骤</li></ul> |
 |  | [重定向选件 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | 添加了有关将重定向选件与A4T和Platform Web SDK结合使用的信息。 |
 |  | [响应令牌](/help/administrating-target/response-tokens.md) | 添加了有关将响应令牌与[!DNL Adobe Experience Platform Web SDK]结合使用的信息。 |
+|  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关Adobe Experience Platform Web SDK 2.6.0（2021年6月1日）版本的信息。 |
 | 5 月 27 日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 添加了关于[!DNL Target] API调用的章节。 限制为每分钟50次呼叫。 |
 | 5 月 20 日 | [设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 在 Adobe Tech Blog 上添加了指向以下博客帖子的链接：<ul><li>Adobe技术博客 — 第2部分：运行[!DNL Adobe Target] NodeJS SDK，在边缘平台上进行实验和个性化(AWS Lambda@Edge)</li></ul> |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题： &quot;存档[!UICONTROL 自动定位]活动可能会导致同步问题。&quot; |

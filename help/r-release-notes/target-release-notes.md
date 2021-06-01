@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括什么新功能？
 feature: 发行说明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 43%
+source-wordcount: '486'
+ht-degree: 48%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 43%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| 对[!UICONTROL Analytics for Target](A4T)的重定向支持 | 现在，使用A4T时，Platform Web SDK支持[!DNL Target]重定向。 [!DNL Adobe Target]中的重定向选件会导致浏览器重定向到新页面。<br>有关更多信息，请参阅重定向选件。 |
-| 响应令牌 | Platform Web SDK现在支持[!DNL Target]响应令牌。<br> 响应令牌允许您自动将特定于 [!DNL Adobe Target] 您品牌网页的信息输出到。此信息可以包括有关活动、选件、体验、用户配置文件、地理信息等的详细信息。 这些详细信息可提供额外的响应数据，以便与内部或第三方系统共享或用于调试。<br>有关更多信息，请参阅 [响应令牌](/help/administrating-target/response-tokens.md)。 |
+| 对[!UICONTROL Analytics for Target](A4T)的重定向支持 | 现在，使用[A4T](/help/c-integrating-target-with-mac/a4t/a4t.md)时，Platform Web SDK支持[!DNL Target]重定向。<br>有关更多信息，请参阅 [实施 [!DNL Target] 的Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
+| 响应令牌 | Platform Web SDK现在支持[!DNL Target]响应令牌。<br>有关更多信息，请参阅 [响应令牌](/help/administrating-target/response-tokens.md)。 |
 
 ## [!DNL Target Standard/Premium] 21.5.1（2021年6月8日）
 

@@ -4,10 +4,10 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
+source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 84%
+source-wordcount: '1374'
+ht-degree: 83%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 84%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 6 月 3 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了有关将于2021年6月9日星期三上午8时举行的Adobe Target社区问答咖啡会的信息。（太平洋夏季时间，GMT-7）。 |
 | 6 月 1 日 | [CNAME和 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 添加了以下常见问题解答：<ul><li>如何结合使用包含CNAME的选择退出链接</li></ul> |
 |  | [隐私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 更新了“选择退出链接”部分，以说明如何将选择退出链接与CNAME结合使用。 |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | 添加了有关[!DNL Adobe Experience Platform Web SDK]的信息。 |

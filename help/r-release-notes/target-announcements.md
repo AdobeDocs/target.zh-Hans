@@ -4,29 +4,43 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: 发行说明
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: c9fcd9c2806c9af5b6a64170d89585fe4036059e
+source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 83%
 
 ---
 
 # Target 公告和活动
 
-关于即将举办的活动的公告和信息，包括 Adobe Target Skill Builder 讲座、开发人员聊天、网络研讨会和 Target Coffee Break 讲座。
+有关即将举办的活动的公告和信息，包括[!DNL Adobe Target]技能培养会议、开发人员聊天、网络研讨会和[!DNL Target]咖啡时间会议。
 
-## 对 Adobe Target 的认可
+## [!DNL Adobe Target]的识别
 
-Adobe Target 最近被 Forrester 和 Gartner 评为市场佼佼者。
+[!DNL Adobe Target] 最近被 Forrester 和 Gartner 评为市场佼佼者。
 
 | 研究机构 | 详细信息 |
 | --- | --- |
 | Forrester | **Adobe 在 Forrester Wave 报告中被评为体验优化平台的佼佼者。**<br>&#x200B;在 2020 年第四季度的 The Forrester Wave: Experience Optimization Platforms 报告中，Adobe 因其在这一领域的优秀产品 Adobe Target Premium 而被评为佼佼者。Adobe 在当前产品和市场占有率类别以及推荐和平台体验标准方面均获得所有参与厂商的最高分。Target Premium 也在体验优化技术创新和配套服务标准方面获得了最高分。该报告基于对 10 家体验优化平台提供商在 22 项标准上的全面评估。<br>请在 [Adobe 博客](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)上阅读该报告。 |
 | Gartner | **Adobe 在 Gartner 的个性化引擎魔力象限中再次被评为佼佼者。**<br>&#x200B;在第三年 Gartner 的 2020 年个性化引擎魔力象限报告中，Adobe 再次被评为佼佼者。Gartner 个性化引擎魔力象限基于两大类 15 项标准对各家供应商进行了评估：愿景完整性和执行能力。请在 <br>[Adobe 博客](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)上阅读该报告。 |
 
+## [!DNL Adobe Target] 社区问答型咖啡时间（2012年6月9日）
+
+* **2021年6月9日星期三**
+* **太平洋夏季时间上午8:00(GMT-7)**
+
+我们将与[!DNL Adobe Target]的高级解决方案顾问Moses Maxen一起，直接就此线程与您讨论有关[!DNL Target]专业领域的问题：
+
+* 优化和个性化策略
+* [!DNL Target] 实施
+* [!DNL Adobe]  Senseifeatures
+* Core UI 工作流
+
+[单击此处以了解更多信息.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-6-9-21-8am-pt-moses-maxen/td-p/410328)
+
 ## 网络研讨会：通过 Adobe Target 的设备上决策进行无延迟的个性化和测试
 
-相比以往，营销人员、产品所有者和开发人员需要更多地在网站上、应用程序中以及他们与客户联系的其他各个环节优化整体客户体验。若使用多种工具，再加上数据孤岛和复杂的实现方式，将无法完成这些任务。
+营销人员、产品所有者和开发人员比以往任何时候都更有责任优化网站、应用程序以及与其客户建立联系的其他任何地方的总体客户体验。 若使用多种工具，再加上数据孤岛和复杂的实现方式，将无法完成这些任务。
 
 在这场录播的网络研讨会中，Adobe Target 产品专家讨论了如何将关键的体验优化决策转移到设备上，无延迟地在本地执行，在为客户提高网站性能的同时创造激动人心的新用例。
 

@@ -5,9 +5,9 @@ title: 什么是响应令牌？如何使用它们？
 feature: 管理和配置
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: e5d1aaa3a182bf15466aa29d6632d9009dbcd698
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1651'
 ht-degree: 27%
 
 ---
@@ -22,7 +22,11 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->响应令牌在[!DNL Adobe Experience Platform Web SDK]版本2.6.0或更高版本以及at.js版本1.1或更高版本中均可用。
+>响应令牌在at.js版本1.1或更高版本中可用。
+
+>[!IMPORTANT]
+>
+>[!DNL Adobe Experience Platform Web SDK]的响应令牌功能将在将来的版本中提供（日期待定）。 以下关于响应令牌和Platform Web SDK的文档包含为潜在峰值。
 
 | Target SDK | 建议的操作 |
 |--- |--- |

@@ -4,10 +4,10 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
+source-git-commit: 92223e71001804d4649e5cb613810e632bec44c9
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 83%
+source-wordcount: '1393'
+ht-degree: 82%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 83%
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | 添加了有关[!DNL Adobe Experience Platform Web SDK]的信息。 |
 |  | [实施 [!DNL Target] Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | 添加了新章节：<ul><li>[!DNL Adobe Experience Platform Web SDK]实施的实施步骤</li></ul> |
 |  | [重定向选件 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | 添加了有关将重定向选件与A4T和Platform Web SDK结合使用的信息。 |
-|  | [响应令牌](/help/administrating-target/response-tokens.md) | 添加了有关将响应令牌与[!DNL Adobe Experience Platform Web SDK]结合使用的信息。 |
+|  | [响应令牌](/help/administrating-target/response-tokens.md) | 添加了有关将响应令牌与[!DNL Adobe Experience Platform Web SDK]结合使用的信息。<br>**注意**:此功能将在未来版本的平台Web SDK中发布。要确定的日期。 |
 |  | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关Adobe Experience Platform Web SDK 2.6.0（2021年6月1日）版本的信息。 |
 | 5 月 27 日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 添加了关于[!DNL Target] API调用的章节。 限制为每分钟50次呼叫。 |
 | 5 月 20 日 | [设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 在 Adobe Tech Blog 上添加了指向以下博客帖子的链接：<ul><li>Adobe技术博客 — 第2部分：运行[!DNL Adobe Target] NodeJS SDK，在边缘平台上进行实验和个性化(AWS Lambda@Edge)</li></ul> |

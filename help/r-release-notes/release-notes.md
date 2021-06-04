@@ -4,10 +4,10 @@ description: 了解 Adobe Target 当前版本包含的新增功能、增强功�
 title: 当前版本中包括什么新功能？
 feature: 发行说明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: c0c38ef739de71df314a1bdeae17c521280fb910
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 84%
+source-wordcount: '685'
+ht-degree: 86%
 
 ---
 
@@ -30,7 +30,6 @@ ht-degree: 84%
 | 功能 | 详细信息 |
 | --- | --- |
 | 对[!UICONTROL Analytics for Target](A4T)的重定向支持 | 现在，使用[A4T](/help/c-integrating-target-with-mac/a4t/a4t.md)时，Platform Web SDK支持[!DNL Target]重定向。<br>有关更多信息，请参阅 [实施 [!DNL Target] 的Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
-| 响应令牌 | Platform Web SDK现在支持[!DNL Target]响应令牌。<br>有关更多信息，请参阅 [响应令牌](/help/administrating-target/response-tokens.md)。 |
 
 ## at.js版本2.5.0（2021年5月13日）
 

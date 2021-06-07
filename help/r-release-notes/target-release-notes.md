@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括什么新功能？
 feature: 发行说明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
+source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 54%
+source-wordcount: '330'
+ht-degree: 69%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 54%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新时间：2021 年 6 月 1 日**
+**上次更新时间：2021 年 6 月 7 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -24,12 +24,6 @@ ht-degree: 54%
 >**mbox.js 生命周期结束**：从 2021 年 3 月 31 日起，[!DNL Adobe Target] 将不再支持 mbox.js 库。2021 年 3 月 31 日之后，所有从 mbox.js 进行的调用都会失败，并影响您通过提供默认内容而运行 [!DNL Target] 活动的页面。
 >
 >请迁移到新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 库的最新版本，以避免您的网站出现任何潜在问题。有关详细信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
-
-## [!DNL Target Standard/Premium] 21.5.1（2021年6月8日）
-
-| 功能 | 详细信息 |
-| --- | --- |
-| ![Premium徽](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL 章目录] SearchAPI | 通过API以编程方式搜索[!DNL Recommendations]产品和内容目录，以识别符合搜索条件的项目并简化目录管理。<br>**限制和说明**:<ul><li>项目超过2,000,000个的环境不支持通过API进行目录搜索。</li><li>与通过[!DNL Target] UI的目录搜索结果相比，通过API的目录搜索结果更新的速度要快。 [!DNL Target] UI中的目录搜索可能需要额外的时间才能反映最新结果。</li></ul>有关更多信息，请参阅&#x200B;*[!DNL Adobe Target][!DNL Recommendations] API*&#x200B;指南中的[搜索实体](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) 。 |
 
 ## [!DNL Target Standard/Premium] 21.5.2（确定日期）
 

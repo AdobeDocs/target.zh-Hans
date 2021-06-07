@@ -4,10 +4,10 @@ description: 了解 [!DNL Adobe Target]当前版本中包含的新增功能、�
 title: 当前版本中包括什么新功能？
 feature: 发行说明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
+source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 83%
+source-wordcount: '615'
+ht-degree: 58%
 
 ---
 
@@ -22,6 +22,19 @@ ht-degree: 83%
 >迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的网站出现任何潜在问题。 有关详细信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## Target Standard/Premium 21.6.1（2021 年 6 月 7 日） 
+
+此版本包括以下增强功能：
+
+| 功能 | 详细信息 |
+| --- | --- |
+| ![Premium徽](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL 章目录] SearchAPI | 通过API以编程方式搜索[!DNL Recommendations]产品和内容目录，以识别符合搜索条件的项目并简化目录管理。<br>**限制和说明**:<ul><li>项目超过2,000,000个的环境不支持通过API进行目录搜索。</li><li>与通过[!DNL Target] UI的目录搜索结果相比，通过API的目录搜索结果更新的速度要快。 [!DNL Target] UI中的目录搜索可能需要额外的时间才能反映最新结果。</li></ul>有关更多信息，请参阅&#x200B;*[!DNL Adobe Target][!DNL Recommendations] API*&#x200B;指南中的[搜索实体](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) 。 |
+
+此版本维护版本包含以下修复。
+
+* 修复了在刷新[!UICONTROL Audiences]页面时，导致默认工作区更改为其他工作区的问题。 (TGT-38871)
+* 修复了在[!UICONTROL Administration] > [!UICONTROL Implementation]中有时导致出现错误消息“您的全局mbox可能未同步”的问题。 请尝试重新保存它。”
 
 ## ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 版本2.5.0（2021年6月1日）
 
@@ -39,23 +52,6 @@ ht-degree: 83%
 * 对 Automated Personalization 活动的[预览链接](/help/c-activities/c-activity-qa/activity-qa.md)支持。
 
 此版本还删除了对Microsoft Internet Explorer 10、Internet Explorer 11和所有旧版本的支持。 at.js 2.5.0及更高版本仍支持Microsoft Edge。
-
-## Target Standard/Premium 21.4.1（2021 年 4 月 19 日）
-
-此版本包含以下新增功能和增强功能。括号中的问题编号供 [!DNL Adobe] 内部使用。
-
-| 功能 | 详细信息 |
-| --- | --- |
-| 对 at.js 的设备上决策支持<br>（日期尚未公布） | 通过设备上决策，营销人员和产品开发人员可在用户的浏览器中几乎无延迟地提供试验性和个性化。<br>有关详细信息，请参阅[针对 at.js 的设备上决策。](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
-| ![Premium](/help/assets/premium.png) 实体过滤规则的基于列表的运算符 | [!DNL Target Recommendations] 支持实体过滤规则的基于列表的新运算符。(TGT-39234)<br>新添加的预算符包括：<br><ul><li>包含在列表中</li><li>不包含在列表中</li><li>列表中包含某个项目</li><li>列表中不包含某个项目</li><li>列表中包含所有项目</li><li>列表中不包含所有项目</li></ul>有关更多信息，请参阅[使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)中的“可用运算符”。 |
-
-此版本包含以下修复。
-
-* 修复了一个问题，在将受众更改为[!UICONTROL 所有访客]后，该问题阻止同步活动。(TGT-40259)
-* 修改了一个问题，在 [!UICONTROL Automated Personalization] 中的不同位置使用选件时，即使启用了[!UICONTROL 不允许重复项]选项，该问题也会阻止系统复制这些选件。(TGT-39567)
-* 修复了一个问题，该问题会导致[!UICONTROL 管理] > [!UICONTROL Scene7 配置]页面无法正常加载。(TGT-39918)
-* 修复了一个问题，该问题会导致属性被映射到不正确的工作区。(TGT-39869)
-* 修复了一个问题，该问题会导致在请求失败（在创建推荐排除项时，更改环境之后）时发生无限加载。(TGT-39948)
 
 ## 其他发行说明和版本详细信息
 

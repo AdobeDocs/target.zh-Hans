@@ -1,22 +1,21 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;搜索引擎优化;搜索引擎优化;seo;边缘群集、中心群集;at.js;mbox.js;
-description: 了解Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript库（at.js和AEP Web SDK）、Adobe数据中心和SEO测试。
-title: 如何 [!DNL Target] 工作？
+description: 了解 Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript 库（at.js 和 AEP Web SDK）、Adobe 数据中心和 SEO 测试的工作原理。
+title: ' [!DNL Target] 的工作原理'
 feature: 概述
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: tm+mt
-source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '2563'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
-# Adobe [!DNL Target]的工作方式
+# Adobe [!DNL Target] 的工作原理
 
 了解 [!DNL Adobe Target] 的工作原理，包括关于 [!DNL Adobe Experience Platform Web SDK] 和 JavaScript 库（at.js 和 mbox.js）的信息。本文还介绍可使用 [!DNL Target] 创建的各种活动类型。还可了解 [!DNL Target] 边缘网络、搜索引擎优化 (SEO) 以及 [!DNL Target] 如何检测机器人。
 
-## [!DNL Target] 平台 Web SDK 和 JavaScript 库{#libraries}
+## [!DNL Target] 平台 Web SDK 和 JavaScript 库 {#libraries}
 
 [!DNL Target] 使用 [!DNL AEP Web SDK] 或 JavaScript 库与网站集成：
 
@@ -33,7 +32,7 @@ ht-degree: 97%
 以下资源包含帮助您实现 AEP Web SDK 或 at.js 的详细信息：
 
 * [Adobe Experience Platform Web SDK 扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=zh-Hans#configure-the-aep-web-sdk-extension)
-* [实 [!DNL Target] 施使用Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [使用 Adobe Experience Platform Launch 实现 [!DNL Target] ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 每次访客请求已针对 [!DNL Target] 优化的页面时，都将一个请求发送到定位系统。该请求有助于确定要向该访客提供什么内容。实时进行此过程。每次加载页面时，系统都提出并履行对内容的请求。内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。其中提供每个网站访客最有可能作出响应、与其交互或最终购买的内容。个性化的内容有助于充分提高响应率、获客率和收入。
 
@@ -54,9 +53,9 @@ ht-degree: 97%
 
 有关更多信息，请参阅[创建 A/B 测试](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)。
 
-### [!UICONTROL Auto-Allocate（自动分配）]
+### [!UICONTROL 自动分配]
 
-[!UICONTROL 自动分配在两个或更多体验中找出入选的体验。][!UICONTROL 自动分配自动将更多流量重新分配给入选的体验，这样有助于在测试继续运行和学习的同时提高转化率。]
+[!UICONTROL 自动分配]在两个或更多体验中找出入选的体验。[!UICONTROL 自动分配]自动将更多流量重新分配给入选的体验，这样有助于在测试继续运行和学习的同时提高转化率。
 
 有关更多信息，请参阅[[!UICONTROL 自动分配]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
@@ -66,13 +65,13 @@ ht-degree: 97%
 
 有关更多信息，请参阅[自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md)。
 
-### [!UICONTROL 自动个性化] (AP)
+### [!UICONTROL Automated Personalization] (AP)
 
 自动个性化 (AP) 将选件或消息组合在一起，并使用高级机器学习将不同的选件变体与每位访客相配。体验投放基于个别客户个人资料以使内容个性化并促进提升。
 
 有关更多信息，请参阅[自动个性化](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)。
 
-### [!UICONTROL 体验定位] (XT)
+### [!UICONTROL Experience Targeting] (XT)
 
 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。
 
@@ -92,7 +91,7 @@ ht-degree: 97%
 
 有关更多信息，请参阅[推荐](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)。
 
-## 边缘网络{#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## 边缘网络 {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
 “边缘”是一种按地理位置分布的服务架构，它确保请求内容的访客无论身在世界各地的何处，均可获得最佳的响应时间。
 
@@ -112,7 +111,7 @@ ht-degree: 97%
 
 距离访客最近的边缘群集处理请求，而非从单个地点响应所有定向请求。此过程有助于减轻穿行网络/Internet 的时间所造成的影响。
 
-![显示不同类型目标服务器的映射](/help/c-intro/assets/target-servers.png)
+![显示不同类型的 Target 服务器的地图](/help/c-intro/assets/target-servers.png)
 
 [!DNL Target] 中心群集，托管在 Amazon Web Services (AWS) 上，其中包括：
 
@@ -138,7 +137,7 @@ ht-degree: 97%
 
 如果需要，可将 [!DNL Target] 边缘群集列入允许列表。有关详细信息，请参阅[将 Target 边缘节点列入允许列表](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)。
 
-## 受保护的用户体验{#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe 确保定位基础设施的可用性和性能尽可能可靠。但是，访客的浏览器与 Adobe 的服务器之间通信中断可能会导致内容投放中断。
 
@@ -180,7 +179,7 @@ Google 提倡用户测试。Google 在其文档中声明，只要遵循特定准
 
    Adobe 不断寻找可行的解决方案以完全遵循搜索引擎准则。对于那些必须使用单独的 URL 进行测试的客户端，Adobe 确信恰当地实现 canonical 标签可减轻与此方法有关的风险。
 
-* **仅运行试验必要时长**：Adobe 认为“必要时长”就是实现统计学意义所需的时间。[!DNL Target][至于如何确定测试何时到达此时间点， 提供了最佳实践](https://docs.adobe.com/content/target-microsite/testcalculator.html)。Adobe 建议将入选测试的硬编码实现并入测试工作流程并分配适当的资源。
+* **仅运行试验必要时长**：Adobe 认为“必要时长”就是实现统计学意义所需的时间。[!DNL Target][至于如何确定测试何时到达此时间点， 提供了最佳实践](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)。Adobe 建议将入选测试的硬编码实现并入测试工作流程并分配适当的资源。
 
    建议不要将使用 [!DNL Target] 平台“发布”入选测试作为永久解决方案。如果在 100% 的时间内为 100% 的用户发布入选测试，则可在完成为入选测试进行硬编码的同时使用此方法。
 
@@ -213,6 +212,6 @@ Adobe [!DNL Target] 使用 [DeviceAtlas](https://deviceatlas.com/device-data/use
 * 创建或检索访客配置文件
 * 记录任何配置文件属性或执行配置文件脚本
 * 查找 Adobe Audience Manager (AAM) 区段（如果适用）
-* 在为Recommendations、自动目标、Automated Personalization或[!UICONTROL 自动分配]活动建模和提供个性化内容时使用机器人流量
+* 使用机器人流量为推荐、自动定位、自动个性化或[!UICONTROL 自动分配]活动建模并提供个性化内容
 * 记录活动访问情况以进行报告
 * 记录要发送到 [!DNL Adobe Experience Cloud] 平台的数据

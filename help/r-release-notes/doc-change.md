@@ -4,10 +4,10 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 82%
+source-wordcount: '1484'
+ht-degree: 79%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 82%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 6 月 8 日 | [在使用at.js实施Analytics for Target(A4T)之前](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 添加了注释，指示at.js 1.8.0或更高版本不再适用于2.5.0以前的访客API版本，无法传递[!DNL Adobe Audience Manager](AAM)参数。 |
+|  | [环境](/help/administrating-target/environments.md) | 添加了注释，指示如果指定[!UICONTROL 活动和不活动活动]，则此环境中的主机也会显示不活动的活动。 |
 | 6 月 7 日 | [发行说明](/help/r-release-notes/release-notes.md)：21.6.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1（2021 年 4 月 19 日）

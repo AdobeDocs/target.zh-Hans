@@ -4,10 +4,10 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: 发行说明
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
+source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
-source-wordcount: '4409'
-ht-degree: 99%
+source-wordcount: '4438'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 99%
 ## 已知问题 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 下面部分列出了 [!DNL Target] 的已知问题：
+
+### [!DNL Adobe Experience Platform] 区段名称不会显示在重要属 [!UICONTROL 性报] 表中。
+
+[!DNL Adobe Experience Platform] 区段名称不会显示在 [!UICONTROL Automated Personalization] (AP)和自动定 [!UICONTROL 位(AT)活动] 的重要属性 [!UICONTROL 报表中。] (TOP-3813)
 
 ### 存档[!UICONTROL 自动定位]活动可能会导致同步问题
 

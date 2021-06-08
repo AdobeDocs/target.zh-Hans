@@ -1,14 +1,13 @@
 ---
 keywords: 欢迎套件;target 欢迎套件;简介;简介;开始使用
-description: 阅读我们专家小组关于将Adobe [!DNL Target] 用作测试和个性化工作的一部分的提示。
+description: 阅读我们的专家小组关于使用 Adobe [!DNL Target] 作为测试和个性化工作的一部分给出的提示。
 title: 可在何处找到关于使用 Target 的提示和技巧？
 feature: 概述
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +27,7 @@ ht-degree: 98%
 
 有关详细信息，请参阅[将数据纳入到 Target 中的方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)。
 
-## 提示2:通过将[!DNL Target]受众与其他Adobe Experience Cloud受众相结合，实现更深层次的个性化。
+## 提示 2：通过将 [!DNL Target] 受众融入其他 Adobe Experience Cloud 受众，可更深入地进行个性化。
 
 融入存在于不同 [!DNL Adobe Experience Cloud] 解决方案中的受众，可让您更广泛地了解您的客户，并可更深入地进行个性化。例如，虽然 [!DNL Target] 提供实时受众数据，但 [!DNL Adobe Analytics] 提供历史受众数据。将这两种数据相结合可帮助您发现何时客户的行为保持不变，何时可能有机会作出新行为。只需在创建活动时点击“所有访客”旁的下拉菜单即可。接下来，选中最多二十个受众的框，然后依次单击“组合多个受众”和“保存”。
 
@@ -36,7 +35,7 @@ ht-degree: 98%
 
 **应了解的要点**：可自动在 [!DNL Target] 中找到 [!DNL Adobe Audience Manager] 受众。但共享 [!DNL Adobe Analytics] 受众需要进行一些手动设置。只需在 [!DNL Analytics] 中构建受众的过程中勾选标有“使此项成为 Experience Cloud 受众”的框。然后从 [!DNL Target] 中单击“导入 Experience Cloud 受众”。
 
-## 提示3:从[!DNL Target]导出数据以与第三方工具一起使用。
+## 提示 3：从 [!DNL Target] 导出数据以用于第三方工具。
 
 通过响应令牌，管理员可轻松地从 [!DNL Target] 取出数据并送入第三方工具。当您要将您的数据添加到在调查工具中收集的数据时，这样做可能很有帮助。例如，如果一项调查表明，某个群体样本为某个体验评了“9”分，另一群体样本为某个体验评了“4”分，那么可通过数据了解谁看到的是体验 A，谁看到的是体验 B。还可使用响应令牌将 [!DNL Target] 数据导出到内部数据仓库。只需单击“管理”，然后将所需的响应令牌旁的开关切换到开启位置。接下来，创建一个活动。随后，数据即准备好转移到第三方供应商。可使用调试工具确认 [!DNL Target] 正在导出数据。
 
@@ -110,7 +109,7 @@ ht-degree: 98%
 * 页面的转化率是多少？
 * 预计需要运行测试多久，才能确信地称之为完成？
 
-**有益的提示**：使用 Target [样本大小计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)帮助确定测试取得成功所需的样本大小。
+**有益的提示**：使用 Target [样本大小计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)帮助确定测试取得成功所需的样本大小。
 
 ## 提示 12：设计更简单的测试以确保您可创建和实现它们。
 

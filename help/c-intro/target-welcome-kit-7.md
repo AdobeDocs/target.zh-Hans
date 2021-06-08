@@ -1,18 +1,17 @@
 ---
 keywords: 欢迎套件;target 欢迎套件;简介;简介;开始使用
-description: 让我们从Adobe [!DNL Target] 中的第一个活动开始，这样您就可以获得投资回报率。
+description: 让我们开始您在 Adobe [!DNL Target] 中的第一个活动，以使您可从投资获得 ROI。
 title: 我需要在 Target 中创建我的第一个活动。我从哪里开始？
 feature: 概述
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
-# 第七章：创建并运行您的第一个[!DNL Target]活动
+# 第 7 章：创建并运行您的第一个 [!DNL Target] 活动
 
 那么，您已准备好开始您在 [!DNL Target] 中的第一个活动？非常好。让我们为您的网站、移动网站或移动应用程序策划一个活动，它并不十分复杂，但可迅速提供 ROI，并让您对于使用 [!DNL Target] 进行测试和个性化的潜力感到振奋。根据您的组织及其侧重点的不同，您对于这第一个活动可能要考虑遵循三种不同的途径之一。
 
@@ -92,7 +91,7 @@ ht-degree: 98%
 
 需要将一定数量的访客放入测试群体，才能从测试得出具有统计学意义的结论。试想，如果只有两个人参与您的测试，您对于结果是否还有把握？
 
-[!DNL Target] 依靠统计学原理确定测试结果在统计学上有效。Adobe [样本大小计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)帮助您根据在结果中需要达到的置信度确定要运行测试的时长。单击此框中的[!UICONTROL 了解详情]链接以打开并使用该计算器。
+[!DNL Target] 依靠统计学原理确定测试结果在统计学上有效。Adobe [样本大小计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)帮助您根据在结果中需要达到的置信度确定要运行测试的时长。单击此框中的[!UICONTROL 了解详情]链接以打开并使用该计算器。
 
 ### 此活动有多重要？
 
@@ -106,6 +105,6 @@ ht-degree: 98%
 
 您的活动结果一般为后续应采取的行动提供见解。如果某个体验变体非常成功，那么您可能要将它硬编码到您的网站中。您可能会发现有机会将该成功应用于其他类似页面上。结果可能会表明改善此页面上的客户体验还有更多工作要做。使用此区域记载从活动中汲取的关键经验教训并记载您将根据这些经验教训做什么。
 
-## 打开[!DNL Target]并创建并启动活动
+## 打开 [!DNL Target]，然后创建并启动您的活动
 
 您已填写完毕 Activity Planner。现在要进入解决方案并构建您的活动。[!DNL Target] 使得在[!UICONTROL 可视体验编辑器]中修改网页变得非常简便。

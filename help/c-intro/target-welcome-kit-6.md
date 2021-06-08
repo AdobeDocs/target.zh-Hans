@@ -1,14 +1,13 @@
 ---
 keywords: 欢迎套件;target 欢迎套件;简介;简介;开始使用
-description: 从他人的错误中汲取教训，以便在将Adobe [!DNL Target] 用作测试和个性化策略的一部分时不会犯同样的错误。
-title: 使用 [!DNL Target] 时常见的错误有哪些？如何避免这些错误？
+description: 从他人的错误中汲取经验教训，以使您在使用 Adobe [!DNL Target] 作为测试和个性化策略的一部分时不犯相同的错误。
+title: 使用 [!DNL Target] 时常犯的错误有哪些以及怎样才能避免它们？
 feature: 概述
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 91%
 
 | 陷阱 | 解决方案 |
 | --- | --- |
-| 流量不足，无法得出有统计学意义的结果。 | 提前使用 Adobe Target [样本大小计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)了解测试必须运行多久，然后再运行测试直至完毕。 |
+| 流量不足，无法得出有统计学意义的结果。 | 提前使用 Adobe Target [样本大小计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)了解测试必须运行多久，然后再运行测试直至完毕。 |
 | 作出的更改太小或不明显。 | 作出足够大的更改，以使您离屏幕较远就能看到更改。 |
 | 未能使活动与业务目标相符。 | 更加注重优先处理方法，并将该方法传达给内部利益相关者。 |
 | 几乎没有或完全没有备用的测试。 | 与内部利益相关者接触，并允许他们提交符合关键业务目标的测试。 |
@@ -30,7 +29,7 @@ ht-degree: 91%
 | 所选的活动成功指标数据对决策没有帮助。 | 记载所有主要的测试指标，并包括额外的指标以获得额外的见解。 |
 | 在测试期间作出可能影响结果的更改。 | 维护即将发生的促销和网站更改的日历。清楚地传达 [!DNL Target] 活动启动以避免冲突。 |
 | 在临近活动启动时更改测试体验或标准。 | 在测试活动过程的早期就要求关键利益相关者签发。 |
-| 在结果产生统计学意义之前就结束活动。 | 使用 Adobe [样本大小计算器](https://docs.adobe.com/content/target-microsite/testcalculator.html)验证测试持续时间。 |
+| 在结果产生统计学意义之前就结束活动。 | 使用 Adobe [样本大小计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)验证测试持续时间。 |
 | 从 [!DNL Target] 活动获得负面或持平的结果。 | 确认该活动值得测试。 |
 | 没有将入选体验硬编码。 | 使用活动数据显示值以获得硬编码的认可。 |
 | 没有在测试团队之外分享结果。 | 扩大传达范围以包括启动和经验教训、编制项目仪表板以及安排利益相关者会议。 |

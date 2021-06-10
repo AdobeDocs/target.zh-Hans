@@ -4,7 +4,7 @@ description: 了解 [!DNL Adobe Target]当前版本中包含的新增功能、�
 title: 当前版本中包括什么新功能？
 feature: 发行说明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
+source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 58%
@@ -23,7 +23,7 @@ ht-degree: 58%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## Target Standard/Premium 21.6.1（2021 年 6 月 7 日） 
+## Target Standard/Premium 21.5.1（2021 年 6 月 7 日） 
 
 此版本包括以下增强功能：
 

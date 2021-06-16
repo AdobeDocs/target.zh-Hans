@@ -1,15 +1,14 @@
 ---
 keywords: adobe.target.trackEvent;trackEvent;trackevent;跟踪事件;at.js;函数;函数;preventDefault;preventdefault;阻止默认值
-description: 使用Adobe [!DNL Target] at.js JavaScript库的adobe.目标.trackEvent()函数触发报告用户操作（如站点上的点击和转换）的请求。
-title: 如何使用adobe.目标.trackEvent()函数？
+description: 使用Adobe [!DNL Target] at.js JavaScript库的adobe.target.trackEvent()函数触发报告用户操作（如网站上的点击和转化）的请求。
+title: 如何使用adobe.target.trackEvent()函数？
 feature: at.js
 role: Developer
 exl-id: 36005236-ce18-4845-b4fb-e52056018bc7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 70%
+source-wordcount: '328'
+ht-degree: 69%
 
 ---
 
@@ -23,10 +22,10 @@ ht-degree: 70%
 
 | 键值 | 类型 | 必需 | 描述 |
 |--- |--- |--- |--- |
-| mbox | 字符串 | 是 | Mbox名称&#x200B;<br>**注意**:如果触发的trackEvent()调用的mbox名称已在页面上触发，则会重置trackEvent()的SDID，并且该SDID将与页面上的目标调用不同。 但是，使用不同mbox名称触发trackEvent()调用会使trackEvent()调用的SDID与页面上的页面加载请求/triggerView()调用保持一致。 |
+| mbox | 字符串 | 是 | Mbox名称&#x200B;<br>**注意**:如果触发的trackEvent()调用的mbox名称已在页面上触发，则trackEvent()的SDID将会重置，并且将与页面上的Target调用不同。 但是，如果触发具有不同mbox名称的trackEvent()调用，则该调用的SDID会与页面上的页面加载请求/triggerView()调用保持一致。 |
 | selector | 字符串 | 否 | 用于查找 HTML 元素的 CSS 选择器。事件监听程序将附加到找到的元素。 |
 | type | 字符串 | 否 | 表示已注册的事件类型。它既可以是 HTML 已知的事件，如：click、mousedown 等，也可以是自定义 HTML 事件。 |
-| preventDefault | 布尔值 | 否 | 表示是否在事件监听程序回调中使用 `event.preventDefault()`。默认为 false。<br>**注意**：仅支持 `form[submit] and `a[click]`。由于复杂性和要支持的方案数量太多，因此其他方案不受支持。 |
+| preventDefault | 布尔值 | 否 | 表示是否在事件监听程序回调中使用 `event.preventDefault()`。默认为 false。<br>**注意**:仅支 `form[submit]` 持 `a[click]` 和。由于复杂性和要支持的方案数量太多，因此其他方案不受支持。 |
 | 参数 | 对象 | 否 | Mbox 参数。键值对这一对象具有以下结构：<br>`{ "param1": "value1", "param2": "value2"}` |
 | timeout | 数值 | 否 | 以毫秒为单位的超时时间。<br>如果未指定，则使用默认值：<br>`...timeoutInSeconds: 0.15...}` |
 | success | 函数 | 否 | 用于表示该事件已报告的回调函数。 |

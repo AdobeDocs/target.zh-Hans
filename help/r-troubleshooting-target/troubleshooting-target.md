@@ -4,11 +4,10 @@ description: 查看可帮助您解决 Adobe Target 中各种问题的主题的�
 title: 如何为 Target 排除故障？
 feature: 故障排除
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-translation-type: tm+mt
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 97%
+source-wordcount: '458'
+ht-degree: 100%
 
 ---
 
@@ -38,12 +37,14 @@ ht-degree: 97%
 ### 自动定位
 
 * [自动定位故障排除和常见问题](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### 自动个性化 (AP)
 
 * [自动个性化常见问题解答](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [自动个性化故障诊断](/help/c-activities/t-automated-personalization/ap-trouble.md)
 * [自动个性化摘要报表](/help/c-reports/reports-ap.md)
+* [个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### 多变量测试 (MVT)
 
@@ -56,7 +57,7 @@ ht-degree: 97%
 * [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [设计常见问题解答](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Analytics和[!DNL Target]集成(A4T)
+## Analytics 与 [!DNL Target] 集成 (A4T)
 
 * [Analytics 与 Target 集成故障诊断](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * “办公时间”视频，“办公时间”是 Adobe 客户关怀团队发起的一项计划。请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)。
@@ -139,7 +140,7 @@ ht-degree: 97%
 
 ## 设备上决策
 
-* [对at.js的设备上决策进行疑难解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+* [对 at.js 的设备上决策疑难解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
 
 ## 报表
 
@@ -156,7 +157,7 @@ ht-degree: 97%
 
 ## 定位
 
-* [地域](/help/c-target/c-audiences/c-target-rules/geo.md)
+* [Adobe Target 中的地域](/help/c-target/c-audiences/c-target-rules/geo.md)
 
 ## 用户
 

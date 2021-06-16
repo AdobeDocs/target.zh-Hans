@@ -4,10 +4,10 @@ description: 了解 [!DNL Adobe Target]当前版本中包含的新增功能、�
 title: 当前版本中包括什么新功能？
 feature: 发行说明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 58%
+source-wordcount: '719'
+ht-degree: 50%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 58%
 >迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的网站出现任何潜在问题。 有关详细信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## Python SDK 1.0.0（2021年6月16日）
+
+新的[!DNL Adobe Target]具有设备上决策功能的Python SDK现已推出。 此最新添加内容可增强服务器端SDK的[!DNL Target]包。 这些SDK可帮助您与[!DNL Target]集成，并加快使用所选语言实现价值的速度。 由于市场正在向无Cookie的世界转变，在这个世界中，第一方数据很有价值，因此服务器端集成正成为一种热门选择。 Target SDK提供市场上最流行的编程语言(Python、Java、JavaScript、C# / .Net)。
+
+有关更多信息，请参阅[Adobe Target SDK指南](https://adobetarget-sdks.gitbook.io/docs/)中的[Python SDK文档](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)。
 
 ## Target Standard/Premium 21.5.1（2021 年 6 月 7 日） 
 

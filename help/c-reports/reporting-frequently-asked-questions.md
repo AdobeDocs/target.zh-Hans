@@ -4,22 +4,16 @@ description: 浏览有关Adobe [!DNL Target] 报告的常见问题解答列表�
 title: 在哪里可以找到有关 [!DNL Target] 报表的问题答案？
 feature: 报表
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 30%
+source-wordcount: '1219'
+ht-degree: 33%
 
 ---
 
 # 报表常见问题解答
 
 有关 [!DNL Adobe Target] 报表的常见问题解答列表。
-
-## [!UICONTROL Automated Personalization](AP)和[!UICONTROL 自动定位]模型的数据会保留多长时间？
-
-[!UICONTROL Automated Personalization] (AP) [!UICONTROL 和自] 动定位模型会针对活动最近45天的用户行为（用户配置文件、展示事件和转化事件）进行培训。
-
-[!UICONTROL Automated Personalization] (AP)和自 [!UICONTROL 动] 定位模型会将用户行为、培训记录和模型决策数据保留90天，以生成分析  报表。90天后，将丢弃培训记录和模型决策。 [!UICONTROL Automated Personalization] (AP)和自 [!UICONTROL 动定] 位模型还会在两年内保留用于报告目的的汇总体验/选件级别的展示和转化数据。此数据仅是聚合级别数据，不包含任何单个级别的用户档案数据。
 
 ## 如何计算“新访客”和“回访访客”指标？ {#methodology}
 

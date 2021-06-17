@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;搜索引擎优化;搜索引擎优化;seo;边缘群集、中心群集;at.js;mbox.js;
-description: 了解 Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript 库（at.js 和 AEP Web SDK）、Adobe 数据中心和 SEO 测试的工作原理。
+description: 了解Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript库(at.js和Experience PlatformWeb SDK)、Adobe数据中心和SEO测试的方式。
 title: ' [!DNL Target] 的工作原理'
 feature: 概述
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
 workflow-type: tm+mt
-source-wordcount: '2563'
-ht-degree: 99%
+source-wordcount: '2560'
+ht-degree: 95%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 99%
 
 ## [!DNL Target] 平台 Web SDK 和 JavaScript 库 {#libraries}
 
-[!DNL Target] 使用 [!DNL AEP Web SDK] 或 JavaScript 库与网站集成：
+[!DNL Target] 使用 [!DNL Experience Platform Web SDK] 或 JavaScript 库与网站集成：
 
-* **Adobe Experience Platform Web SDK：**[AEP Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 是一个新的客户端 JavaScript 库。AEP Web SDK 使 [!DNL Adobe Experience Cloud] 的客户可通过 [!DNL AEP] 边缘网络与 [!DNL Experience Cloud] 中的各种服务（包括 [!DNL Target]）进行交互。Adobe 建议所有新 [!DNL Target] 客户均实现 [!DNL AEP Web SDK]。
+* **Adobe Experience Platform Web SDK:** Experience Platform [](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) Web SDK是新的客户端JavaScript库。Experience PlatformWeb SDK允许[!DNL Adobe Experience Cloud]的客户通过[!DNL Experience Platform]边缘网络与[!DNL Experience Cloud]（包括[!DNL Target]）中的各种服务进行交互。 Adobe 建议所有新 [!DNL Target] 客户均实现 [!DNL Experience Platform Web SDK]。
 * **at.js：**[at.js 库](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)是 [!DNL Target] 的一个实现库。使用 at.js 可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。经常更新 at.js 以增加新功能。Adobe 建议所有使用 at.js 的客户都将其实现更新到 [at.js 的最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
-* **mbox.js：**[mbox.js 库](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)是 [!DNL Target] 旧版实现库。我们支持 mbox.js 库直到 2021 年 3 月 31 日；但是，将不再有功能更新。
+* **mbox.js：**[mbox.js 库](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)是 [!DNL Target] 旧版实现库。2021年3月31日之后，将不再支持mbox.js库。
 
 >[!IMPORTANT]
 >
->所有客户都应迁移到 [!DNL AEP Web SDK] 或 at.js 的最新版本。有关详细信息，请参阅 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 或[从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
+>所有客户都应迁移到 [!DNL Experience Platform Web SDK] 或 at.js 的最新版本。有关详细信息，请参阅 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 或[从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
 
-请在您网站上的每个页面上都引用 [!DNL AEP Web SDK] 或 at.js。例如，可将这些库之一添加到您的全局头部。或者，考虑使用 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=zh-Hans) 实现 [!DNL Target]。
+请在您网站上的每个页面上都引用 [!DNL Experience Platform Web SDK] 或 at.js。例如，可将这些库之一添加到您的全局头部。或者，考虑使用 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=zh-Hans) 实现 [!DNL Target]。
 
-以下资源包含帮助您实现 AEP Web SDK 或 at.js 的详细信息：
+以下资源包含可帮助您实施Experience PlatformWeb SDK或at.js的详细信息：
 
 * [Adobe Experience Platform Web SDK 扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=zh-Hans#configure-the-aep-web-sdk-extension)
 * [使用 Adobe Experience Platform Launch 实现 [!DNL Target] ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
@@ -107,7 +107,7 @@ ht-degree: 99%
 
 中心群集地点包含数据收集中心和数据处理中心。边缘群集地点仅包含数据收集中心。每个报表包均分配给一个特定的数据处理中心。
 
-七个边缘群集中距离最近的那个群集收集客户网站活动数据。这些数据被引向客户预先确定的中心群集目标（以下三个地点之一：俄勒冈、都柏林、新加坡）以供处理。访客个人资料数据存储在距离网站访客最近的边缘群集。边缘群集地点包括中心群集地点以及弗吉尼亚、阿姆斯特丹、悉尼、东京和香港。
+七个边缘群集中距离最近的那个群集收集客户网站活动数据。这些数据被引向客户预先确定的中心群集目标（以下三个地点之一：俄勒冈、都柏林、新加坡）以供处理。访客个人资料数据存储在距离网站访客最近的边缘群集。边缘群集位置包括中央群集位置和弗吉尼亚、孟买、悉尼和东京。
 
 距离访客最近的边缘群集处理请求，而非从单个地点响应所有定向请求。此过程有助于减轻穿行网络/Internet 的时间所造成的影响。
 
@@ -181,7 +181,7 @@ Google 提倡用户测试。Google 在其文档中声明，只要遵循特定准
 
 * **仅运行试验必要时长**：Adobe 认为“必要时长”就是实现统计学意义所需的时间。[!DNL Target][至于如何确定测试何时到达此时间点， 提供了最佳实践](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)。Adobe 建议将入选测试的硬编码实现并入测试工作流程并分配适当的资源。
 
-   建议不要将使用 [!DNL Target] 平台“发布”入选测试作为永久解决方案。如果在 100% 的时间内为 100% 的用户发布入选测试，则可在完成为入选测试进行硬编码的同时使用此方法。
+   建议不要将使用 [!DNL Target] 平台“发布”入选测试作为永久解决方案。如果100%的用户在100%的时间内发布了入选测试，则在完成对入选测试进行硬编码的过程时，可以使用此方法。
 
    考虑您的测试做出了哪些更改也很重要。仅仅更新按钮的颜色或页面上其他次要的非文本项不影响您的自然排名。但是，对文本所做的更改应当进行硬编码。
 

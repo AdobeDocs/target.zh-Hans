@@ -1,13 +1,12 @@
 ---
-keywords: 推荐源；feed;SAINT;ftp;csv；分类；分析分类
-description: 了解如何使用CSV文件、Google产品搜索源格式和Analytics产品分类将导入实体导入Adobe [!DNL Target] Recommendations。
-title: 如何在 [!DNL Target] Recommendations中使用源？
-feature: Recommendations
+keywords: 推荐信息源；信息源；SAINT;FTP;CSV；分类；Analytics分类
+description: 了解信息源如何使用CSV文件、Google Product Search信息源格式和Analytics产品分类将实体导入Adobe [!DNL Target] Recommendations。
+title: 如何在 [!DNL Target] Recommendations中使用信息源？
+feature: 推荐
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 062a47e2dd76fe6dc87a71ad7b17355d57d769dd
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2513'
 ht-degree: 84%
 
 ---
@@ -20,18 +19,18 @@ ht-degree: 84%
 
 信息源允许您传递[实体](/help/c-recommendations/c-products/products.md)，或者使用页面上没有提供或不能直接从页面安全发送（例如利润、COGS 等）的信息来扩充您的 mbox 数据。
 
-源允许您将详细的项目信息传递到[!DNL Recommendations]，如产品ID、类别、名称、消息和其他属性。
+信息源允许您将详细的项目信息传递到[!DNL Recommendations]中，如产品ID、类别、名称、消息和其他属性。
 
 您可以从 [!DNL Target] 产品分类文件或 Google Product Search 文件中选择要发送到 [!DNL Recommendations] 服务器的列。
 
-然后，可以使用有关每个项目的这些数据：
+然后，可以使用有关每个项目的这些数据段：
 
 * 在设计中显示值
-* 定义条件包含规则
-* 将项目排序到不同的集合
+* 定义标准包含规则
+* 将项目排序到不同的收藏集
 * 将排除项应用于推荐
 
-项目说明可以使用源或mbox传递到[!DNL Target]。 如果同时通过实体源和 mbox 收集数据，则采用最新的数据。通常，最新的数据来自 mbox，因为 mbox 的查看频率更高。在极少数情况下，实体源数据和 mbox 数据的时间相同，这时使用 mbox 数据。
+项目描述可以使用信息源或mbox传递到[!DNL Target]中。 如果同时通过实体源和 mbox 收集数据，则采用最新的数据。通常，最新的数据来自 mbox，因为 mbox 的查看频率更高。在极少数情况下，实体源数据和 mbox 数据的时间相同，这时使用 mbox 数据。
 
 “[!UICONTROL 信息源]”列表（**[!UICONTROL 推荐]** > **[!UICONTROL 信息源]**）提供了有关您创建的所有信息源的信息。
 
@@ -48,10 +47,10 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->上传的实体和实体属性将在61天后过期。 这意味着：
+>上传的实体和实体属性会在61天后过期。 这意味着：
 >
->* 您的源应至少每月运行，以确保您的目录内容不会过期。
->* 从源文件中删除项目不会从目录中删除该项目。 要从目录中删除项目，请通过目标 UI或API手动删除项目。 或者，修改物料属性（如库存）以确保将物料排除在考虑之外。
+>* 您的信息源应至少每月运行一次，以确保目录内容不会过期。
+>* 从信息源文件中删除某个项目时，不会从目录中删除该项目。 要从目录中删除项目，请通过Target UI或API手动删除该项目。 或者，修改项目属性（如库存），以确保将项目排除在考虑之外。
 
 
 ## 源类型
@@ -90,7 +89,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->无法使用空白值覆盖现有值。必须在其位置传递另一个值才能覆盖它。 对于销售价格，常用的解决方案是通过一个实际的“NULL”或某些其他消息传递。然后，可以写入一个模板规则，以排除具有该值的项目。
+>无法使用空白值覆盖现有值。必须在其位置传递另一个值才能覆盖该值。 对于销售价格，常用的解决方案是通过一个实际的“NULL”或某些其他消息传递。然后，可以写入一个模板规则，以排除具有该值的项目。
 
 成功上传产品实体约两个小时后，产品将显示在管理界面中。
 
@@ -118,13 +117,13 @@ Google Product Search 信息源类型使用 Google 格式。这与 Adobe 专有�
 >
 >无需使用 Google 数据。[!DNL Recommendations] 使用与 Google 相同的格式。您可以使用此方法上传您的任何数据，并且还可以使用可用的计划功能。但是，您必须在设置文件时保留 Google 的预定义属性名称。
 
-大多数零售商会将产品上传到 Google，因此当访客使用 Google Product Search 时，他们的产品将会显示出来。[!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。实体源可以通过.xml、.txt或.tsv发送到[!DNL Recommendations]，并可以使用Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定义的[属性。 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
+大多数零售商会将产品上传到 Google，因此当访客使用 Google Product Search 时，他们的产品将会显示出来。[!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。实体源可以通过.xml、.txt或.tsv发送到[!DNL Recommendations]，并且可以使用Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定义的[属性。 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
 
 >[!NOTE]
 >
 >托管 Google 信息源内容的服务器上必须可以使用 POST 方法。
 
-由于[!DNL Recommendations]用户已配置.xml或.txt源以通过URL或FTP发送到Google，因此实体源接受该产品数据并使用它构建推荐目录。 指定此信息源存在的位置后，推荐服务器随即会检索数据。
+由于[!DNL Recommendations]用户已将.xml或.txt信息源配置为通过URL或FTP发送到Google，因此实体信息源将接受这些产品数据并使用这些数据构建Recommendations目录。 指定此信息源存在的位置后，推荐服务器随即会检索数据。
 
 如果在使用 Google Product Search 进行实体信息源上传时，想要在此显示推荐或跟踪产品浏览次数以根据浏览次数进行算法交付，则页面上仍需要有产品页面 mbox。
 
@@ -207,9 +206,9 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-### Analytics 产品分类  {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### Analytics 产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件的详细信息，请参阅&#x200B;*分析组件*&#x200B;指南中的[关于分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 推荐需要的所有信息并非都可通过当前的实施获得，因此，如果要在分类文件中添加新内容，请按此用户指南操作。
+Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件的更多信息，请参阅&#x200B;*Analytics组件*&#x200B;指南中的[关于分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 推荐需要的所有信息并非都可通过当前的实施获得，因此，如果要在分类文件中添加新内容，请按此用户指南操作。
 
 >[!IMPORTANT]
 >
@@ -221,7 +220,7 @@ Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件�
 >* [!DNL Target] 仅支持产品分类。Analytics产品SKU必须映射到与[!DNL Recommendations] `entity.id`相同的级别。 可以使用 Adobe 咨询服务对自定义 Analytics 分类进行工程方面的处理。如有任何疑问，请联系您的帐户管理员。
 
 
-## 创建信息源  {#steps}
+## 创建信息源 {#steps}
 
 可创建一个信息源，以将有关产品或服务的信息插入到 [!DNL Recommendations] 中。
 
@@ -236,7 +235,7 @@ Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件�
    * Google 产品信息源
    * Analytics 分类
 
-   有关 CSV 和“Google 产品信息源”信息源类型的信息，请参阅[信息源概述](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。您还可以[下载CSV模型指南](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv)以帮助您正确设置源格式。
+   有关 CSV 和“Google 产品信息源”信息源类型的信息，请参阅[信息源概述](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)。您还可以[下载模型CSV指南](/help/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)以帮助您正确设置信息源的格式。
 
 1. （视情况而定）如果您选择 **[!UICONTROL CSV]** 或者 **[!UICONTROL Google 产品信息源]**，请指定可以访问信息源的位置。
 
@@ -284,7 +283,7 @@ Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件�
 
 如果状态显示为“成功”，则表示文件已找到且已正确解析。在将该文件编入索引之前，无法在 [!DNL Recommendations] 中使用相应的信息，编入索引可能需要一些时间，具体取决于文件的大小。如果该过程失败，则表示未找到文件（例如，您使用的 URL 不正确或您的 FTP 信息不正确），或者存在解析错误。
 
-## 信息源状态和指示器  {#concept_E475986720D1400999868B3DFD14A7A0}
+## 信息源状态和指示器 {#concept_E475986720D1400999868B3DFD14A7A0}
 
 有关可能的信息源状态及其指示器的信息。
 
@@ -301,7 +300,7 @@ Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件�
 | 正在等待下载 | Target 正准备下载信息源文件。 |
 | 正在下载信息源文件 | Target 正在下载信息源文件。 |
 | 正在导入项目 | Target 正在从信息源文件中导入项目。 |
-| 已在&#x200B;*指定时间*&#x200B;成功导入信息源 | Target 已将信息源文件导入其内容交付系统。已在内容交付系统中对项目属性进行了更改，并且此更改将很快地反映在交付的推荐中。如果没有看到预期的更改，请稍后重试并刷新包含推荐的页面。<br>注释:<ul><li>如果对项目属性的更改导致项目从推荐中排除，则将立即反映排除。 如果项目是新添加的，或者对属性的更改导致该项目&#x200B;*不再*&#x200B;被排除在推荐之外，则在下一次算法更新之前不会反映此项目，此过程将在 24 小时内发生。</li><li>显示此状态时，更新可能尚未反映在目录搜索用户界面中。 “目录搜索”中会列出一个单独的状态，指示上次更新可搜索目录的时间。</li></ul> |
+| 已在&#x200B;*指定时间*&#x200B;成功导入信息源 | Target 已将信息源文件导入其内容交付系统。已在内容交付系统中对项目属性进行了更改，并且此更改将很快地反映在交付的推荐中。如果没有看到预期的更改，请稍后重试并刷新包含推荐的页面。<br>注释:<ul><li>如果对项目属性所做的更改导致项目被排除在推荐之外，则会立即反映该排除项。 如果项目是新添加的，或者对属性的更改导致该项目&#x200B;*不再*&#x200B;被排除在推荐之外，则在下一次算法更新之前不会反映此项目，此过程将在 24 小时内发生。</li><li>显示此状态时，更新可能尚未反映在“目录搜索”用户界面中。 “目录搜索”中会列出一个单独的状态，指示上次更新可搜索目录的时间。</li></ul> |
 | 未能编入索引 | 索引操作失败。请重试。 |
 | 未找到服务器 | FTP 或 URL 位置无效或无法访问。 |
 
@@ -309,7 +308,7 @@ Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件�
 
 >[!IMPORTANT]
 >
->上传的实体会在 61 天后过期。这意味着您应该至少每 60 天上传一次信息源文件，以避免对您的推荐活动造成干扰。如果某个项目未至少每60天包含一次（或其他实体更新方法），[!DNL Adobe Target]会推断该项目不再相关，并将其从目录中删除。
+>上传的实体会在 61 天后过期。这意味着您应该至少每 60 天上传一次信息源文件，以避免对您的推荐活动造成干扰。如果某个项目未至少每60天包含一次馈送文件（或其他实体更新方法），则[!DNL Adobe Target]会推断该项目不再相关，并将其从目录中删除。
 
 ### 信息源状态指示器 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -351,7 +350,7 @@ Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件�
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### 创建信息源 (6:44)  ![教程徽章](/help/assets/tutorial.png)
+### 创建信息源 (6:44) ![教程徽章](/help/assets/tutorial.png)
 
 本视频包含以下信息：
 

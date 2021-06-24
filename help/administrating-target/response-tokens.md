@@ -5,9 +5,9 @@ title: 什么是响应令牌？如何使用它们？
 feature: 管理和配置
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: a63b123ed180a818de5338656781957931abd755
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1644'
 ht-degree: 27%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 27%
 | Target SDK | 建议的操作 |
 |--- |--- |
 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版Platform Web SDK的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)。 有关每个Platform Web SDK版本中新功能的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)。 |
-| [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本 at.js 的信息，请参阅[下载 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。有关每个 at.js 版本新功能的信息，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在mbox.js中存在，但在at.js中不存在，这些插件会交付但失败。 有关更多信息，请参阅 [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)。 |
+| [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本 at.js 的信息，请参阅[下载 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。有关每个 at.js 版本新功能的信息，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在mbox.js中存在，但在at.js中不存在，这些插件会交付但失败。 |
 
 ## 使用响应令牌 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 

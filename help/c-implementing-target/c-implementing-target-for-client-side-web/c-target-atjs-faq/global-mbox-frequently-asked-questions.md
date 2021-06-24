@@ -1,15 +1,14 @@
 ---
 keywords: 故障诊断;常见问题解答;FAQ;全局;全局 mbox
-description: 阅读关于Adobe [!DNL Target] 全局mbox的常见问题解答(FAQ)和答案。
-title: 有关全球mbox的常见问题有哪些？
+description: 阅读有关Adobe [!DNL Target] 全局mbox的常见问题解答(FAQ)和答案。
+title: 有关全局mbox的常见问题解答有哪些？
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 85%
+source-wordcount: '301'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 85%
 
 有关全局 mbox 的常见问题解答 (FAQ) 列表。
 
-## 如果我的[!DNL Target]帐户跨多个域设置，我是否可以拥有多个全局mbox?{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
+## 如果跨多个域设置了[!DNL Target]帐户，那么我是否可以拥有多个全局mbox? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 您的帐户仅支持一个全局 mbox。
 
@@ -25,13 +24,13 @@ ht-degree: 85%
 
 您还可以在页面上使用 [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 来传递参数，然后在 [!UICONTROL 可视化体验编辑器] (VEC) 的“配置 URL”部分选择这些参数，或者在基于表单的体验编辑器中通过将参数添加为“细化”来选择这些参数。
 
-## 如何在[!DNL Target]全局mbox上传递收入数据？{#section_17AEA933BADA4D169CCEDF5833C41306}
+## 如何在[!DNL Target]全局mbox中传递收入数据？ {#section_17AEA933BADA4D169CCEDF5833C41306}
 
 要在 target-global-mbox 中收集收入和订单信息，必须将“mbox 参数”发送到 Target。这些参数是名称/值对，用于将更多信息发送到 Target。Target 会自动查找这些参数（保留名称），以使用它们来填充收入数据。
 
-对于 `orderConfirmPage`，您应该传入 `orderTotal`、`orderId` 和 `productPurchasedId`。有关更多信息，请参阅[创建订单确认 mbox - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82)。
+对于 `orderConfirmPage`，您应该传入 `orderTotal`、`orderId` 和 `productPurchasedId`。
 
-必须通过 `targetPageParams()` () 将这些相同的参数发送到 target-global-mbox。有关更多信息，请参阅[将参数传递到全局 Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5)。
+必须通过`targetPageParams()`将这些参数发送到target-global-mbox。 有关更多信息，请参阅[将参数传递到全局 Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5)。
 
 您可能还想要向转化中添加定位功能，以便 Target 仅在有人查看了订单确认页面后才在 target-global-mbox 中计入转化次数，如下所示：
 

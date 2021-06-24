@@ -1,15 +1,14 @@
 ---
 keywords: mbox.js 更改;mbox.js 版本
-description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
-title: mbox.js的每个版本包含什么？
+description: 了解旧版mbox.js的Adobe Target实施。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
+title: mbox.js的每个版本中都包含哪些内容？
 feature: at.js
 role: Developer
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2410'
-ht-degree: 81%
+source-wordcount: '2377'
+ht-degree: 84%
 
 ---
 
@@ -19,34 +18,34 @@ ht-degree: 81%
 
 >[!IMPORTANT]
 >
->**mbox.js终止使用**:自2021年3月31日起， [!DNL Adobe Target] 不再支持mbox.js库。2021年3月31日之后，从mbox.js发出的所有调用将轻松失败，并会通过提供默认内容来影响运行[!DNL Target]活动的页面。
+>**mbox.js 生命周期结束**：从 2021 年 3 月 31 日起，[!DNL Adobe Target] 将不再支持 mbox.js 库。2021 年 3 月 31 日之后，所有从 mbox.js 进行的调用都将失败，并影响您通过提供默认内容而运行 [!DNL Target] 活动的页面。
 >
->在此日期之前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
+>请在此日期之前迁移到新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 库的最新版本，以避免您的网站出现任何潜在问题。有关详细信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 >[!NOTE]
 >
->Adobe建议所有mbox.js用户升级到57版或更高版本。 有些用户遇到了超时问题，无法加载 `target.js`。版本 57 已修复该问题。但是，如果您正在使用 [!DNL Experience Cloud Visitor ID] 服务，则要求使用版本 58 或更高版本。
+>Adobe建议所有mbox.js用户升级到版本57或更高版本。 有些用户遇到了超时问题，无法加载 `target.js`。版本 57 已修复该问题。但是，如果您正在使用 [!DNL Experience Cloud Visitor ID] 服务，则要求使用版本 58 或更高版本。
 
 Target 如何响应从您的页面发出的调用，取决于您使用的 Target 库的版本、访客 ID 实施是否存在以及访客 ID 是否存在。有关信息，请参阅 [Target 按库版本响应调用](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0)。
 
 >[!NOTE]
 >
->mbox.js 库将不再开发。所有客户都应该从 mbox.js 迁移到 at.js。有关更多信息，请参阅[从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
+>mbox.js 库将不再开发。所有客户都应该从 mbox.js 迁移到 at.js。
 
 ## mbox.js 版本 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
 **Target 版本：** 17.7.1
 
-[!DNL mbox.js] 版本 63 现已可用。有关更多信息，请参阅[下载 mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)。
+[!DNL mbox.js] 版本 63 现已可用。
 
 [!DNL mbox.js] 版本 63 中包含以下增强功能和修复：
 
-* 修复了使用 `mboxDefine()` 和 `mboxUpdate()` 生成 SDID 时出现的问题。此问题仅影响在页面上具有访客 API的客户端。
+* 修复了使用 `mboxDefine()` 和 `mboxUpdate()` 生成 SDID 时出现的问题。此问题仅影响在页面上具有访客API的客户端。
 
 ## mbox.js 版本 62 {#section_723A9119FE204183847D3B0929A99B41}
 
 * 修复了在 Google Chrome 浏览器中查看重定向活动时出现的闪烁问题。
-* 添加了 `secureOnly` 设置，以指示 mbox.js 是应仅使用 HTTPS，还是可以根据页面协议在 HTTP 和 HTTPS 之间进行切换。此设置是默认为False的高级设置。
+* 添加了 `secureOnly` 设置，以指示 mbox.js 是应仅使用 HTTPS，还是可以根据页面协议在 HTTP 和 HTTPS 之间进行切换。此设置是一个高级设置，其默认值为False。
 
 ## mbox.js 版本 61 {#section_F3B59C5578B64883AE013B9342151193}
 
@@ -71,7 +70,7 @@ mbox.js 版本 61 包含以下增强功能：
 
 **发行日期：** 2016 年 4 月 21 日
 
-默认情况下不会隐藏页面内容。仅当“自动创建全局 mbox”选项被启用时，版本 60 才会隐藏页面内容。它会使用 CSS `opacity:0` 属性隐藏页面，而非 `display:none`。此属性可确保响应式站点的正确投放，并与[!DNL at.js]对齐。
+默认情况下不会隐藏页面内容。仅当“自动创建全局 mbox”选项被启用时，版本 60 才会隐藏页面内容。它会使用 CSS `opacity:0` 属性隐藏页面，而非 `display:none`。此属性可确保正确交付响应式网站，并与[!DNL at.js]保持一致。
 
 您可以使用两个设置启用主体隐藏功能：
 
@@ -93,18 +92,18 @@ window.targetGlobalSettings = {
 </script>
 ```
 
-页面隐藏技术使用样式标记来添加和删除样式。此技术可确保页面隐藏代码执行后网站的样式保持不变。
+页面隐藏技术使用样式标记来添加和删除样式。此技术可确保在执行页面隐藏代码后，网站的样式保持不变。
 
-**DTM用户：** 此技术可阻止您使用自动导入选项，因为无法在目标 UI中保存上述配置。您必须使用上面的说明，然后将内容粘贴到“自定义”托管选项的代码框中。
+**DTM用户：** 此技术可阻止您使用自动导入选项，因为无法在Target UI中保存上述配置。您必须按照上述说明将内容粘贴到“自定义托管”选项的代码框中。
 
-此外，在版本 60 中，如果 Experience Cloud 访客 ID 服务存在 [!DNL visitorAPI.js] 文件，则所有 mbox 都将通过 AJAX 端点来请求。此过程是必需的，因为访客 API方法是异步的。 此方法的优势之一在于“开始呈现”时间显著缩短，因为 mbox 请求不会阻止呈现。但是，此方法也意味着所有[!DNL Target]优惠内容都以异步方式运行，因此必须相应地编写所有优惠代码。 包含`document.write`的优惠，以及假定在初始页面加载时运行的其他代码未按预期执行。
+此外，在版本 60 中，如果 Experience Cloud 访客 ID 服务存在 [!DNL visitorAPI.js] 文件，则所有 mbox 都将通过 AJAX 端点来请求。此过程是必需的，因为访客API方法是异步的。 此方法的优势之一在于“开始呈现”时间显著缩短，因为 mbox 请求不会阻止呈现。但是，此方法还意味着所有[!DNL Target]选件内容都以异步方式运行，因此必须相应地编写所有选件代码。 如果选件包含`document.write`以及其他假定在初始页面加载时运行的代码，该选件将无法按预期执行。
 
 * 版本 60 导步调用
 
-   在将版本 60 与访客 ID 服务一起使用时，所有 mbox 调用都以异步方式发起。这改变了 mbox 一直以来的工作方式，因此请谨慎升级到此版本。请参阅 [ 文档中的](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953)异步注意事项[!DNL at.js]部分（[!DNL at.js] 也使用异步调用）以了解可能面临的部分风险。
+   在将版本 60 与访客 ID 服务一起使用时，所有 mbox 调用都以异步方式发起。这改变了 mbox 一直以来的工作方式，因此请谨慎升级到此版本。
 * 新访客可能遇到闪烁的情况
 
-   当将v58到v60与访客id服务一起使用时，mbox调用会等待访客id在触发之前设置（或者超时发生之前）。 这种情况发生在新访客首次加载页面时。
+   在访客id服务中使用v58到v60时，mbox调用会等待访客id设置后再触发（或直到发生超时）。 这种情况发生在新访客首次加载页面时。
 
 ## mbox.js 版本 59 {#section_FF0E70C4C17E402D8374DE428C5D996E}
 
@@ -131,7 +130,7 @@ mbox.js 版本 58 可确保 Experience Cloud 访客 ID 服务在发起 Target �
 
 此更新还修复了当使用 Analytics 作为 Target 的报告源时，导致在 Analytics 中针对仅包含一个页面的访问报告的访客人数被夸大的问题。
 
-Mbox.js 会设置超时值，以防不返回访客 ID 服务。访客 ID 服务的默认超时值为 500 毫秒（0.5 秒）。额外的超时设置`<BODY>`标记隐藏时间的上限。 其默认值为 500 毫秒（0.5 秒）。在每个页面上的 mbox.js 引用前插入以下代码可更改这些超时：
+Mbox.js 会设置超时值，以防不返回访客 ID 服务。访客 ID 服务的默认超时值为 500 毫秒（0.5 秒）。额外的超时设置`<BODY>`标记隐藏时长的上限。 其默认值为 500 毫秒（0.5 秒）。在每个页面上的 mbox.js 引用前插入以下代码可更改这些超时：
 
 ```
 <script> 
@@ -154,7 +153,7 @@ window.targetGlobalSettings = {
 
 * 为 Target Standard 自动创建的全局 mbox 响应不再使用 document.write() 或创建`<div>`元素。
 
-   此更改删除了将mbox.js文件作为页面`<head>`中最后一项的要求。 升级至此新版本时建议完成严密的质量保证工作。
+   此更改不再要求mbox.js文件必须是页面`<head>`中的最后一个项目。 升级至此新版本时建议完成严密的质量保证工作。
 
    此更改可能会导致在发送一些选件类型时行为发生变化。以下是必须考虑的具体条件：
 
@@ -165,7 +164,7 @@ window.targetGlobalSettings = {
 
       `<script src='external-url' async='true'></script>`
 
-      `async`属性在Internet Explorer中的支持有限(详细信息如下：[https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility))，因此您应从包含这些第三方脚本的测试中排除使用旧版IE的访客。
+      `async`属性在Internet Explorer中的支持有限(详情请参见：[https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility))，因此您应从包含这些第三方脚本的测试中排除使用旧版IE的访客。
 
 * 修复了版本 56 中报告的由于 mbox.js 中的“额外 JavaScript”部分发生更改而导致的问题。同样，“额外 JavaScript”部分中的所有代码在全局范围内可用。
 
@@ -197,7 +196,7 @@ mbox.js 版本 57 还包含重要修复：
 此版本进行了以下更改：
 
 * 对 Premium Recommendations 进行了更改，以支持将参数传递到全局 mbox。
-* 向目标.js加载调用添加5秒超时。 在文件不加载的罕见情况下，页面会呈现且不显示Target Standard活动。
+* 向target.js加载调用添加了5秒的超时。 在极少数情况下，文件未加载，则会呈现页面，且不会显示Target Standard活动。
 * 将“额外 JavaScript”移动到在全局 mbox 之前执行。
 
    v56 及以上版本中的所有设置都具有命名空间。如果有函数在“额外的 JavaScript”中声明，则必须为它们添加前缀 `window`。
@@ -232,7 +231,7 @@ mbox.js 版本 57 还包含重要修复：
 
 **发行日期：** 2014 年 9 月 30 日
 
-将全局 mbox 实施从 document.write 更改为 AJAX。此更改删除了mbox.js文件成为页面`<head>`部分中最后一项的要求。 此版本只能通过 API 获取。客户端可以下载此版本并使用此 mbox.js 文件。某些网站在采用此实施时会出现内容闪烁的情况，因此请在您的网站上验证集成性。
+将全局 mbox 实施从 document.write 更改为 AJAX。此更改不再要求mbox.js文件必须是页面`<head>`部分中的最后一项。 此版本只能通过 API 获取。客户端可以下载此版本并使用此 mbox.js 文件。某些网站在采用此实施时会出现内容闪烁的情况，因此请在您的网站上验证集成性。
 
 ## mbox 版本 53
 
@@ -316,7 +315,7 @@ mboxDOMLoaded
 
 * 修复了流量限制以便只在启用 mbox.js 时发生
 
-   如果客户对其 mbox.js 设置了流量限制，导致超时设置无法正常起作用，则会出现此问题。这导致在等待目标服务器做出良好响应时刷新页面。
+   如果客户对其 mbox.js 设置了流量限制，导致超时设置无法正常起作用，则会出现此问题。这会在等待Target服务器做出良好响应时导致页面刷新。
 
 * 修复了 SiteCalyst 插件以始终使用 Ajax 抓取器
 

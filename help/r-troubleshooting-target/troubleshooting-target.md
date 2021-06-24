@@ -4,9 +4,9 @@ description: 查看可帮助您解决 Adobe Target 中各种问题的主题的�
 title: 如何为 Target 排除故障？
 feature: 故障排除
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '452'
 ht-degree: 100%
 
 ---
@@ -124,11 +124,6 @@ ht-degree: 100%
 * [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
 * “办公时间”视频，“办公时间”是 Adobe 客户关怀团队发起的一项计划。请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。
-
-### mbox.js
-
-* [mbox.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
-* [mbox.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
 
 ## 已知问题
 

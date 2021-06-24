@@ -1,15 +1,14 @@
 ---
 keywords: Target;at.js;迁移到 at.js;准备就绪;审核 at.js;集成 at.js
-description: 了解如何迁移到at.js，这是Adobe [!DNL Target] 的新实现库，专为典型Web实现和单页应用程序(SPA)设计。
+description: 了解如何迁移到at.js，这是适用于Adobe的新实施库 [!DNL Target] ，专为典型的Web实施和单页应用程序(SPA)而设计。
 title: 如何从 mbox.js 迁移到 at.js
 feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 92%
+source-wordcount: '847'
+ht-degree: 91%
 
 ---
 
@@ -88,16 +87,16 @@ ht-degree: 92%
    >
    >如果您当前未使用标签管理器来部署 [!DNL Target]，现在可以考虑使用此方法。
    >
-   >[!DNL Platform Launch] 是来自的新一代标签管理平 [!DNL Adobe] 台，是实现的首选方 [!DNL Adobe Target]法。[!DNL Platform Launch] 为客户提供了一种部署和管理分析、营销和广告标记的简单方式，这些标记是提升相关客户体验所必需的。
+   >[!DNL Platform Launch] 是中的下一代标签管理平 [!DNL Adobe] 台，是实施的首选方 [!DNL Adobe Target]法。[!DNL Platform Launch] 为客户提供了一种简单的方式来部署和管理用来改善相关客户体验的分析、营销和广告标签。
    >
-   >有关详细信息，请参阅[使用 [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)实现 [!DNL Target] 。
+   >有关更多信息，请参阅[使用 [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)实施 [!DNL Target] 。
 
 1. 确认当前所有活动和集成均可按预期运行。
 
    在测试过程中，您可以执行下面一些操作，以确认 [!DNL at.js] 可按预期运行：
 
    * 确保当前所有活动均可与新的 JavaScript 库配合使用。
-   * 确认所有[集成](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)和[插件](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)均可按预期运行。
+   * 确认所有[集成](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)和插件均可按预期运行。
    * 确保您可以顺利使用 [!DNL at.js] 提供的方法进行[调试](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)。
 
 **迁移到 at.js 时可能出现的问题**&#x200B;迁移到 at.js 后，有些客户报告了以下问题：
@@ -125,4 +124,4 @@ ht-degree: 92%
 
    有关如何使用代码编辑器执行此操作的更多信息，请参阅[代码编辑器](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)。
 
-* 由于所有 mbox 现在均为异步，因此它们不会阻止页面按照其触发的顺序进行呈现或返回。有关更多信息，请参阅“异步注意事项”，此内容位于 [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE)。
+* 由于所有 mbox 现在均为异步，因此它们不会阻止页面按照其触发的顺序进行呈现或返回。

@@ -4,9 +4,9 @@ description: 了解Adobe [!DNL Target] works, including information about the [!
 title: ' [!DNL Target] 的工作原理'
 feature: 概述
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2532'
 ht-degree: 95%
 
 ---
@@ -20,12 +20,8 @@ ht-degree: 95%
 [!DNL Target] 使用 [!DNL Experience Platform Web SDK] 或 JavaScript 库与网站集成：
 
 * **Adobe Experience Platform Web SDK:** Experience Platform [](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) Web SDK是新的客户端JavaScript库。Experience PlatformWeb SDK允许[!DNL Adobe Experience Cloud]的客户通过[!DNL Experience Platform]边缘网络与[!DNL Experience Cloud]（包括[!DNL Target]）中的各种服务进行交互。 Adobe 建议所有新 [!DNL Target] 客户均实现 [!DNL Experience Platform Web SDK]。
-* **at.js：**[at.js 库](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)是 [!DNL Target] 的一个实现库。使用 at.js 可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。经常更新 at.js 以增加新功能。Adobe 建议所有使用 at.js 的客户都将其实现更新到 [at.js 的最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
-* **mbox.js：**[mbox.js 库](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)是 [!DNL Target] 旧版实现库。2021年3月31日之后，将不再支持mbox.js库。
-
->[!IMPORTANT]
->
->所有客户都应迁移到 [!DNL Experience Platform Web SDK] 或 at.js 的最新版本。有关详细信息，请参阅 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 或[从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)。
+* **at.js：** at.js 库是 [!DNL Target] 的一个实现库。使用 at.js 可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。经常更新 at.js 以增加新功能。Adobe 建议所有使用 at.js 的客户都将其实现更新到 [at.js 的最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+* **mbox.js：** mbox.js 库是 [!DNL Target] 旧版实现库。2021年3月31日之后，将不再支持mbox.js库。
 
 请在您网站上的每个页面上都引用 [!DNL Experience Platform Web SDK] 或 at.js。例如，可将这些库之一添加到您的全局头部。或者，考虑使用 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=zh-Hans) 实现 [!DNL Target]。
 

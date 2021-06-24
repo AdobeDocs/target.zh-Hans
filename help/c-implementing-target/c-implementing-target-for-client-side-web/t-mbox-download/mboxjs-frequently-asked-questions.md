@@ -1,15 +1,14 @@
 ---
 keywords: mbox.js FAQ;mbox.js 常见问题解答;document.write;tt.omtrdc.net;解析器阻塞
-description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
-title: 有关 [!DNL Target] mbox.js的一些常见问题有哪些？
+description: 了解旧版mbox.js的Adobe Target实施。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
+title: 有关 [!DNL Target] mbox.js的一些常见问题？
 feature: at.js
 role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 71%
+source-wordcount: '329'
+ht-degree: 75%
 
 ---
 
@@ -19,31 +18,21 @@ ht-degree: 71%
 
 >[!IMPORTANT]
 >
->**mbox.js终止使用**:自2021年3月31日起， [!DNL Adobe Target] 不再支持mbox.js库。2021年3月31日之后，从mbox.js发出的所有调用将轻松失败，并会通过提供默认内容来影响运行[!DNL Target]活动的页面。
+>**mbox.js 生命周期结束**：从 2021 年 3 月 31 日起，[!DNL Adobe Target] 将不再支持 mbox.js 库。2021 年 3 月 31 日之后，所有从 mbox.js 进行的调用都将失败，并影响您通过提供默认内容而运行 [!DNL Target] 活动的页面。
 >
->我们建议所有客户在此日期前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
+>我们建议所有客户在此日期之前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的网站出现任何潜在问题。 有关详细信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
-## mbox.js 对页面加载时间有何影响？{#section_90B3B94FE0BF4B369577FCB97B67F089}
-
-有关更多信息，请参阅 [at.js 的好处](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)。
-
-## 使用 mbox.js 和 document.write 时，我的 Google Chrome 中为何会显示“解析器阻塞”警告消息？{#section_355A3A5BF02F42EEB8271C96EF41590A}
-
-在很多情况下，mbox.js 文件中会使用 `document.write` 函数，如果在这些情况中使用 Chrome，则会显示此控制台消息。这是一条警告消息，应该不会对您的活动设置过程造成影响。
-
-防止出现这种情况的最好方法是[将您的 Target 实施迁移到 at.js JavaScript 库](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)，该库不会用到 `document.write` 函数。与使用 mbox.js 相比，使用 at.js 可以带来很多益处。有关更多信息，请参阅 [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769)。
-
-## 为何 mbox 没有在我的网页上触发？{#section_4BA5DA424B734324AAB51E4588FA50F5}
+## 为何 mbox 没有在我的网页上触发？ {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
  客户有时会将基于云的实例与 [!DNL Target]Target 结合使用来进行测试或简单的概念验证。这些域以及其他许多域均是[公共后缀列表](https://publicsuffix.org/list/public_suffix_list.dat)的一部分。
 
 除非使用 targetGlobalSettings() 来自定义 `cookieDomain` 设置，否则在使用这些域时，新式浏览器将不会保存 Cookie。有关更多信息，请参阅[结合使用基于云的实例和 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566)。
 
-## [!DNL Target]服务器调用转到的域tt.omtrdc.net是什么？{#section_999C29940E8B4CAD8A957A6B1D440317}
+## [!DNL Target]服务器调用所转到的域tt.omtrdc.net是什么域？ {#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] 是 Adobe 的边缘网络的域名，用于接收 Target 的所有服务器调用。
 
-## 为什么 at.js 和 mbox.js 不使用 HttpOnly 和 Secure Cookie 标记？{#section_74527E3B41B54B0A83F217C3E664ED1F}
+## 为什么 at.js 和 mbox.js 不使用 HttpOnly 和 Secure Cookie 标记？ {#section_74527E3B41B54B0A83F217C3E664ED1F}
 
 HttpOnly 只能通过服务器端代码进行设置。Target Cookie（例如 mbox）通过 JavaScript 代码创建和保存，因此 Target 无法使用 HttpOnly Cookie 标记。
 

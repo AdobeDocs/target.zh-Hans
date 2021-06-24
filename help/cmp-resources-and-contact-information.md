@@ -1,14 +1,13 @@
 ---
 keywords: 联系方式;法律;技术支持;支持;服务;职能;账单;反馈
-description: 了解其他资源，帮助您了解Adobe [!DNL Target] 的功能，以及如果您需要 [!DNL Target]的帮助，如何联系Adobe。
+description: 了解其他资源以帮助您了解 Adobe [!DNL Target] 功能以及在 [!DNL Target]方面需要帮助时如何与 Adobe 联系。
 title: 可在何处找到 Target 的资源和联系信息？
 feature: 发行说明,概述
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '1231'
-ht-degree: 98%
+source-wordcount: '1222'
+ht-degree: 100%
 
 ---
 
@@ -49,7 +48,7 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 | [Target Premium 工作区](https://helpx.adobe.com/cn/customer-care-office-hours/target/premium-workspaces.html)<br>27 分 49 秒<br>2018 年 9 月 4 日 | 您将会了解以下内容：<ul><li>创建工作区（产品配置文件）</li><li>创建属性</li><li>添加用户</li><li>更新实现</li></ul>有关更多信息，请参阅[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | [可视体验编辑器 (VEC)](https://helpx.adobe.com/cn/customer-care-office-hours/target/visual-experience-composer.html)<br>50 分 23 秒<br>2017 年 12 月 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>有关本指南中的更多信息，请参阅[体验](/help/c-experiences/experiences.md)。 |
 | [Adobe Target：Analytics/Target 集成 (A4T)](https://helpx.adobe.com/cn/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40 分 33 秒<br>2018 年 1 月 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
-| [at.js：优势和实现最佳实践](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26 分 43 秒<br>2018 年 4 月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul>有关本指南中的更多信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。 |
+| [at.js：优势和实现最佳实践](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26 分 43 秒<br>2018 年 4 月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul> |
 
 >[!NOTE]
 >
@@ -97,7 +96,7 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 
 以下信息可帮助您联系 Adobe 以及了解与使用本产品和文档有关的法律问题。
 
-### 帮助和技术支持  {#section_354AC2658BA84A2A96E64C5B2C43B73B}
+### 帮助和技术支持 {#section_354AC2658BA84A2A96E64C5B2C43B73B}
 
 Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提供了大量的参与机制：
 
@@ -115,7 +114,7 @@ Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提
 
 您可能无法使用本文档中介绍的某些选项，具体取决于您的解决方案配置。由于每个帐户都是唯一的，请查阅您的合同，以了解价格、截止日期、使用条款和条件。若要增加服务或更改您的服务级别，或者遇到与您当前享有服务相关的问题，请联系您的帐户管理员。
 
-### 反馈  {#section_8154D6D712054220A90D85FA8E92933E}
+### 反馈 {#section_8154D6D712054220A90D85FA8E92933E}
 
 我们欢迎您提供有关此解决方案的任何建议或反馈。可在 [Adobe Target Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)提出关于增强的想法和建议。单击[!UICONTROL “想法”]选项卡。
 

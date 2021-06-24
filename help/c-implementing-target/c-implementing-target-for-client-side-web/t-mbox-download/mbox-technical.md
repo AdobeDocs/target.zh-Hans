@@ -1,15 +1,14 @@
 ---
 keywords: 实施;mbox.js;DOM 操作库;target.js;可视化体验编辑器;iFrame;Angular 网站;单页应用程序;单页应用程序;SPA
-description: 了解旧版mbox.js的Adobe Target实现。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
-title: ' [!DNL Target] mbox.js库具有哪些功能？'
+description: 了解旧版mbox.js的Adobe Target实施。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
+title: ' [!DNL Target] mbox.js库有何用途？'
 feature: at.js
 role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 74%
+source-wordcount: '299'
+ht-degree: 78%
 
 ---
 
@@ -19,22 +18,9 @@ ht-degree: 74%
 
 >[!IMPORTANT]
 >
->**mbox.js终止使用**:自2021年3月31日起， [!DNL Adobe Target] 不再支持mbox.js库。2021年3月31日之后，从mbox.js发出的所有调用将轻松失败，并会通过提供默认内容来影响运行[!DNL Target]活动的页面。
+>**mbox.js 生命周期结束**：从 2021 年 3 月 31 日起，[!DNL Adobe Target] 将不再支持 mbox.js 库。2021 年 3 月 31 日之后，所有从 mbox.js 进行的调用都将失败，并影响您通过提供默认内容而运行 [!DNL Target] 活动的页面。
 >
->我们建议所有客户在此日期前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的站点出现任何潜在问题。 有关详细信息，请参阅[概述：实现客户端web](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)的目标。
-
-Target Standard 要求使用 [!DNL mbox.js] 版本 58 或更高版本。有关如何下载和更新 [!DNL mbox.js] 的说明，请参阅 [Mbox 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)。
-
-对于 Target Standard，[!DNL mbox.js] 会调用另一个 JavaScript 文件 [!DNL target.js]。[!DNL Target.js] 由 Adobe 托管，并由 Adobe 自动更新。您不需要执行任何操作即可更新 [!DNL target.js]，而且也不存在任何特定于客户端的自定义设置。
-
-[!DNL Target.js] 会在您页面的 `<head>` 部分中创建一个名为 `target-global-mbox` 的 mbox。
-
-[!DNL Target.js] 由在 [!DNL mbox.js] 的“[!UICONTROL 额外的 JavaScript]”字段中添加的一行 JavaScript 代码，来从 [!DNL mbox.js] 中进行调用。禁用 [!DNL target.js] 的唯一方法是不包含这一行代码，这样做也会禁用 [!DNL Target]。
-
-[!DNL Target.js] 在 [!DNL Target] 中具有以下两项功能：
-
-* DOM 操作
-* 启用[!UICONTROL 可视化体验编辑器]的可视化元素
+>我们建议所有客户在此日期之前迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的网站出现任何潜在问题。 有关详细信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 ## DOM 操作 {#section_169F8D4C077948DCB4F891ABBB03FF63}
 
@@ -53,5 +39,3 @@ Target Standard 要求使用 [!DNL mbox.js] 版本 58 或更高版本。有关�
 ## 有关 Angular 网站和单页应用程序的注意事项 {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
 如果您是在 Angular 网站或任何单页应用程序 (SPA) 中实施 Target，您应该使用 at.js 库，而不应使用 mbox.js。
-
-有关更多信息，请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)。

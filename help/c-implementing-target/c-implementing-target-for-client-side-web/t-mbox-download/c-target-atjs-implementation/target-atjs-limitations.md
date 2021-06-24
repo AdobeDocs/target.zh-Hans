@@ -1,17 +1,16 @@
 ---
 keywords: 可视化体验编辑器限制;浏览器支持;集成;插件;异步注意事项
-description: 了解旧版mbox.js对Adobe Target的实施。 迁移至Adobe Experience PlatformWeb SDK(AEP Web SDK)或最新版at.js。
-title: at.js和mbox.js之间有何差异？
+description: 了解旧版mbox.js的Adobe Target实施。 迁移到Adobe Experience Platform Web SDK(AEP Web SDK)或at.js的最新版本。
+title: at.js和mbox.js之间有何区别？
 feature: at.js
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 2fd0db66-0b47-41c0-86b6-44e711d70027
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 92%
+source-wordcount: '436'
+ht-degree: 91%
 
 ---
-
 
 # at.js 限制
 
@@ -28,9 +27,8 @@ at.js 与 mbox.js 之间存在一些差异。本节列出了部分差异和限�
 [!DNL mbox.js] 中的某些函数在 [!DNL at.js] 中不可用。[!DNL at.js] 已不再支持内部 [mbox.js 对象和方法](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)（例如 `mbox`、`mboxCurrent`、`mboxFactoryDefault`、`mboxFactories` 等）（示例：`mboxFactoryDefault`）。这是特意设计的，其目的是阻止您“盗用”[!DNL at.js] 来开发不受支持的功能，因为如果长期使用不受支持的功能，可能会损坏实施，并使其无法升级。本文档的 API 页面中只介绍了已公开的方法。因此：
 
 * 与其他 Adobe 解决方案的基于页面的旧版[集成](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)可能无法正常运行，应该将其升级到较新版本的服务器端集成。
-* [为 mbox.js 开发的自定义插件](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)可能无法正常使用，除非针对 [!DNL at.js] 对其进行更新。
 
-   确保在测试中包含所有[插件](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)。
+   确保在测试中包含所有插件。
 
 ## 异步注意事项 {#section_B586360A3DD34E2995AE25A18E3FB953}
 
@@ -55,4 +53,3 @@ at.js 与 mbox.js 之间存在一些差异。本节列出了部分差异和限�
 * DOM 操作和重定向选件应通过 [!DNL at.js] 中自动创建的全局 mbox 来交付，且应在 `<head>` 中交付。
 
    `<body>` 顶部的 `mboxCreate()` 函数可能会导致默认内容闪烁。
-

@@ -1,13 +1,12 @@
 ---
 user-guide-title: Adobe [!DNL Target] 指南
 breadcrumb-title: Target 指南
-user-guide-description: 了解如何定制和个性化客户体验，以最大限度地提高您网站和移动站点、App、社交媒体和其他数字渠道的收入。
+user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-translation-type: tm+mt
-source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
+source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 88%
    + [Target Insider 新闻稿](/help/r-release-notes/target-insider-newsletter.md)
    + [已知问题和已解决的问题](r-release-notes/known-issues-resolved-issues.md)
    + [系统状态更新和主动通知](r-release-notes/system-status-updates.md)
-   + [文档更改](r-release-notes/doc-change.md)
+   + [Adobe Target 产品文档中的文档更改](r-release-notes/doc-change.md)
    + [以前版本的发行说明](r-release-notes/release-notes-for-previous-releases.md)
 + 简介 {#introduction}
    + [Target 简介](c-intro/intro.md)
@@ -31,9 +30,9 @@ ht-degree: 88%
    + [Target 关键概念](c-intro/target-key-concepts.md)
    + [了解 Target UI](/help/c-intro/understand-the-target-ui.md)
    + Adobe Target 欢迎套件{#welcome}
-      + [目标欢迎套件概述](/help/c-intro/target-welcome-kit.md)
+      + [Target 欢迎套件概述](/help/c-intro/target-welcome-kit.md)
       + [第 1 章：简介](/help/c-intro/target-welcome-kit-1.md)
-      + [第二章：目标一览](/help/c-intro/target-welcome-kit-2.md)
+      + [第 2 章：Target 概览](/help/c-intro/target-welcome-kit-2.md)
       + [第 3 章：形成您的测试和个性化想法](/help/c-intro/target-welcome-kit-3.md)
       + [第 4 章：关于使用 Target 的提示](/help/c-intro/target-welcome-kit-4.md)
       + [第 5 章：测试和个性化活动的灵感](/help/c-intro/target-welcome-kit-5.md)
@@ -47,12 +46,12 @@ ht-degree: 88%
    + [ Target Standard 和 Premium 的培训视频](c-intro/target-standard-premium-training-videos.md)
    + [Target 优化和个性化常见问题解答](c-intro/cmp-target-standard-cheatsheet.md)
 + 管理 Target {#administer}
-   + [管理目标概述](administrating-target/administrating-target.md)
+   + [管理 Target 概述](administrating-target/administrating-target.md)
    + [管理员首要步骤](administrating-target/start-target.md)
    + [配置可视体验编辑器](/help/administrating-target/visual-experience-composer-set-up.md)
    + 报表 {#reporting}
       + [配置报表](/help/administrating-target/reporting.md)
-      + [估计收益上升](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+      + [预计收入提升](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Scene7 配置](administrating-target/scene7-settings.md)
    + [实施](/help/administrating-target/implementation.md)
    + [主机](administrating-target/hosts.md)
@@ -75,6 +74,7 @@ ht-degree: 88%
       + 隐私和安全性{#privacy}
          + [隐私概述](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [隐私和数据保护法规](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Target Cookie](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [删除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite Cookie 策略](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
@@ -83,9 +83,9 @@ ht-degree: 88%
       + 将数据导入 Target 的方法 {#methods}
          + [方法概述](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [页面参数](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
-         + [页面内用户档案属性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
+         + [页面内个人资料属性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
          + [脚本配置文件属性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
-         + [数据提供者](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
+         + [数据提供程序](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
          + [批量配置文件更新 API](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/bulk-profile-update-api.md)
          + [单个配置文件更新 API](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
          + [客户属性](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
@@ -102,7 +102,7 @@ ht-degree: 88%
          + 设备上决策 {#on-device-decisioning}
             + [设备上决策概述](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
             + [受支持的功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
-            + [规则伪像](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
+            + [规则构件](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
             + [故障排除](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
          + at.js 的工作原理 {#at-js}
             + [at.js 的工作原理概述](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
@@ -110,10 +110,10 @@ ht-degree: 88%
             + [at.js 集成](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
          + 如何部署 at.js {#deploy-at-js}
             + [如何部署 at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [使用目标实现Platform launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [使用Platform launch实施Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [不通过标签管理器实施 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-            + [使用动态标签管理器(DTM)实施目标](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
-            + [为单页应用程序实施目标(SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
+            + [使用动态标签管理器(DTM)实施Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+            + [为单页面应用程序 (SPA) 实现 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
          + at.js 函数 {#functions-overview}
             + [at.js 函数概述](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
             + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
@@ -144,22 +144,21 @@ ht-degree: 88%
             + [如何从 mbox.js 迁移到 at.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)
             + [at.js 限制](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
             + [at.js 插件](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
-            + [将at.js部署到非生产环境](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
+            + [将 at.js 部署到非生产环境](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
          + [mbox.js 的功能](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
          + [配置 mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)
          + [下载 mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
-         + [按 mbox.js 库版本确定的 Target 页面方法](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
-         + [创建订单确认mbox - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
-         + [mbox.js常见问题解答](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
+         + [Target按 mbox.js 库版本确定的 页面方法](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
+         + [创建订单确认 mbox - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
+         + [mbox.js 常见问题解答](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
          + [mbox.js 函数](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
-         + [mbox.js Cookie](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [mbox.js 版本详细信息](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
       + 了解全局 mbox {#global-mbox}
-         + [了解全局mbox概述](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
-         + [自定义全局mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
-         + [使用旧版实施中的全局mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
-         + [将参数传递到全局mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
-         + [全局mbox常见问题](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+         + [了解全局 mbox 概述](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
+         + [自定义全局 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
+         + [使用旧版实施中的全局 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
+         + [将参数传递到全局 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
+         + [全局 mbox 常见问题解答](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
    + 适用于移动设备应用程序的 Target {#mobile-apps}
       + [适用于移动设备应用程序的 Target 概述](c-target-mobile-app/target-mobile-app.md)
       + [Target 在移动设备应用程序中的工作原理](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
@@ -169,7 +168,7 @@ ht-degree: 88%
       + [将活动信息发送到 Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target 移动设备预览](c-target-mobile-app/target-mobile-preview.md)
       + [预取选件内容](c-target-mobile-app/prefetch-offer-content.md)
-      + [Target 移动应用程序版常见问题](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Target 适用于移动设备应用程序的常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [使用位置服务](/help/c-target-mobile-app/use-location-service.md)
    + 服务器端：实施 Target {#server-side}
       + [服务器端：实施 Target 概述](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
@@ -182,7 +181,7 @@ ht-degree: 88%
       + [测试电子邮件图像 Adbox](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [使用重定向器](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + 将 Target 与 Experience Cloud 集成 {#integrate}
-   + 将 Analytics 作为 Adobe Target 报表源 (A4T) {#a4t}
+   + 将 Adobe Analytics 作为 Target 报表源 (A4T) {#a4t}
       + [A4T 概述](c-integrating-target-with-mac/a4t/a4t.md)
       + [实施之前](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analytics for Target 实施](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -220,11 +219,11 @@ ht-degree: 88%
       + [A/A 测试](/help/c-activities/t-test-ab/aa-testing.md)
       + 创建 A/B 测试 {#create}
          + [创建 A/B 测试](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-         + [Activity URL（活动 URL）](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
+         + [活动 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [添加体验](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [选择受众](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [目标和设置](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
-         + [使用分析数据](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
+         + [使用 Analytics 数据](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [设置量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [A/B 测试中的多个体验受众](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 自动分配 {#auto-allocate}
@@ -236,14 +235,14 @@ ht-degree: 88%
       + [自动定位概述](/help/c-activities/auto-target/auto-target-to-optimize.md)
       + [创建自动定位活动](/help/c-activities/auto-target/create-auto-target.md)
       + [自动定位故障排除和常见问题](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
-   + 自动个性化 {#automated-personalization}
+   + Automated Personalization {#automated-personalization}
       + [自动个性化概述](c-activities/t-automated-personalization/automated-personalization.md)
       + [随机林算法](c-activities/t-automated-personalization/algo-random-forest.md)
       + [创建自动个性化活动](c-activities/t-automated-personalization/create-ap-activity.md)
       + [为 Target 个性化算法上传数据](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [为 Target 个性化算法收集数据](c-activities/t-automated-personalization/ap-data.md)
       + [估算成功所需流量](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [预览Automated Personalization测试体验](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [预览 Automated Personalization 测试体验](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Target 自动个性化选件](c-activities/t-automated-personalization/ap-target-offers.md)
       + [管理排除项](c-activities/t-automated-personalization/managing-exclusions.md)
       + [选择用于自动个性化或自动定位活动的控制](c-activities/t-automated-personalization/experience-as-control.md)
@@ -254,7 +253,7 @@ ht-degree: 88%
       + [体验定位概述](c-activities/t-experience-target/experience-target.md)
       + 创建体验定位活动 {#create-targeting}
          + [创建活动](c-activities/t-experience-target/t-xt-create/xt-create.md)
-         + [Activity URL（活动 URL）](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
+         + [活动 URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
          + [创建体验](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
          + [在体验定位中切换体验](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
          + [目标和设置](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
@@ -265,7 +264,7 @@ ht-degree: 88%
       + [规划多变量测试](c-activities/c-multivariate-testing/plan-mvt.md)
       + 创建多变量测试 {#create-mvt}
          + [创建测试](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
-         + [Activity URL（活动 URL）](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
+         + [活动 URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
          + [创建组合](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
          + [预览多变量测试体验](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
          + [估算成功测试所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
@@ -280,7 +279,7 @@ ht-degree: 88%
    + 成功量度 {#success-metrics}
       + [成功量度](c-activities/r-success-metrics/success-metrics.md)
       + [点击跟踪](c-activities/r-success-metrics/click-tracking.md)
-      + [Capture得分](c-activities/r-success-metrics/capture-score.md)
+      + [捕捉分数](c-activities/r-success-metrics/capture-score.md)
    + [活动更改日志](c-activities/change-log.md)
    + 活动故障诊断 {#troubleshoot-activities}
       + [活动故障诊断概述](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
@@ -298,18 +297,18 @@ ht-degree: 88%
          + [受众类别概述](c-target/c-audiences/c-target-rules/target-rules.md)
          + [浏览器](c-target/c-audiences/c-target-rules/browser.md)
          + [自定义参数](c-target/c-audiences/c-target-rules/custom-parameters.md)
-         + [地域](c-target/c-audiences/c-target-rules/geo.md)
+         + [Adobe Target 中的地域](c-target/c-audiences/c-target-rules/geo.md)
          + [网络](c-target/c-audiences/c-target-rules/network.md)
-         + [Mobile](c-target/c-audiences/c-target-rules/mobile.md)
+         + [移动设备](c-target/c-audiences/c-target-rules/mobile.md)
          + [操作系统](c-target/c-audiences/c-target-rules/operating-system.md)
-         + [网页](c-target/c-audiences/c-target-rules/site-pages.md)
+         + [网站页面](c-target/c-audiences/c-target-rules/site-pages.md)
          + [Target 库](c-target/c-audiences/c-target-rules/target-library.md)
-         + [期限](c-target/c-audiences/c-target-rules/time-frame.md)
+         + [时间范围](c-target/c-audiences/c-target-rules/time-frame.md)
          + [流量源](c-target/c-audiences/c-target-rules/traffic-sources.md)
-         + [访客资料](c-target/c-audiences/c-target-rules/visitor-profile.md)
-      + [创建配置文件属性比较受众](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
+         + [访客配置文件](c-target/c-audiences/c-target-rules/visitor-profile.md)
+      + [在 Adobe Target 中创建配置文件属性比较受众](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
    + [合并多个受众](c-target/combining-multiple-audiences.md)
-   + [创建仅限该活动的受众](c-target/creating-activity-only-audience.md)
+   + [在 Adobe Target 中创建仅限该活动的受众](c-target/creating-activity-only-audience.md)
    + [适用于报表的受众筛选器](c-target/managing-audience-filters.md)
    + [将报表受众应用于成功量度](c-target/apply-reporting-audience-success-metric.md)
    + 访客配置文件 {#visitor-profiles}
@@ -325,7 +324,7 @@ ht-degree: 88%
       + [定位和受众常见问题解答](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + 体验和选件 {#experiences}
    + [体验和选件概述](c-experiences/experiences.md)
-   + 可视化体验编辑器 (VEC)  {#vec}
+   + 可视化体验编辑器 (VEC) {#vec}
       + [可视化体验编辑器概述](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [可视化体验编辑器选项](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [在相似页面上包含相同体验](c-experiences/c-visual-experience-composer/temtest.md)
@@ -334,8 +333,8 @@ ht-degree: 88%
       + 修改 {#modifications}
          + [修改概述](c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
          + [体验模板](c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)
-      + [在可视体验编辑器中使用的元素选择器](c-experiences/c-visual-experience-composer/vec-selectors.md)
-      + [移动视区，提供响应式体验](c-experiences/c-visual-experience-composer/mobile-viewports.md)
+      + [可视化体验编辑器中使用的元素选择器](c-experiences/c-visual-experience-composer/vec-selectors.md)
+      + [适用于响应式体验的移动设备视区](c-experiences/c-visual-experience-composer/mobile-viewports.md)
       + [可视化体验编辑器最佳实践和限制](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
       + 可视化体验编辑器故障诊断 {#troubleshoot-composer}
          + [可视化体验编辑器故障诊断概述](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
@@ -346,7 +345,7 @@ ht-degree: 88%
          + [页面修改方案](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [重定向到 URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [创建在视觉体验书写器中工作的轮盘](c-experiences/c-visual-experience-composer/vec-carousels.md)
+      + [创建可以在可视化体验编辑器中工作的轮播效果](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [基于表单的体验编辑器](c-experiences/form-experience-composer.md)
    + [单页应用程序 (SPA) 可视化体验编辑器](c-experiences/spa-visual-experience-composer.md)
    + 选件 {#offers}
@@ -364,7 +363,7 @@ ht-degree: 88%
    + [报表概述](c-reports/reports.md)
    + 报表设置 {#settings}
       + [报表设置概述](c-reports/c-report-settings/report-settings.md)
-      + [平均提升、提升范围和置信区间](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
+      + [平均提升度、提升度范围和置信区间](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [在报表中查看多个量度](c-reports/c-report-settings/view-multiple-metrics.md)
       + [排除极端值](c-reports/c-report-settings/excluding-extreme-orders.md)
    + [自动定位摘要报表](c-reports/auto-target-summary-report.md)
@@ -401,9 +400,9 @@ ht-degree: 88%
       + 动态和静态包含规则 {#dynamic-static}
          + [使用动态和静态包含规则](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [实体属性匹配](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
-         + [用户档案属性匹配](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [个人资料属性匹配](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
          + [参数匹配](/help/c-recommendations/c-algorithms/parameter-matching.md)
-         + [静态滤镜](/help/c-recommendations/c-algorithms/static-value.md)
+         + [静态筛选](/help/c-recommendations/c-algorithms/static-value.md)
       + [使用备用推荐](c-recommendations/c-algorithms/backup-recs.md)
       + [使用多值属性](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [将 Adobe Analytics 与推荐配合使用](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
@@ -416,7 +415,7 @@ ht-degree: 88%
       + [创建“推荐”活动](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [选择标准](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [添加促销活动](c-recommendations/t-create-recs-activity/adding-promotions.md)
-      + [Recommendations活动设置](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      + [“推荐”活动设置](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [预览和启动推荐活动](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [“推荐”作为选件](c-recommendations/recommendations-as-an-offer.md)
    + 常见问题解答 {#recommendations-faq}

@@ -4,9 +4,9 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1548'
 ht-degree: 78%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 78%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 6 月 24 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新了[!DNL Target Standard/Premium] 21.6.1版本（2021年6月30日）的预发行说明。 |
 | 6 月 16 日 | [[!DNL Target] 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关[!DNL Adobe Target] Python SDK版本1.0.0的信息。 |
 |  | [个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 添加了以下常见问题解答：<ul><li>[!UICONTROL Automated Personalization](AP)和[!UICONTROL 自动定位]模型的数据会保留多长时间？</li></ul> |
 | 6 月 8 日 | [在使用at.js实施Analytics for Target(A4T)之前](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 添加了注释，指示at.js 1.8.0或更高版本不再适用于2.5.0以前的访客API版本，无法传递[!DNL Adobe Audience Manager](AAM)参数。 |

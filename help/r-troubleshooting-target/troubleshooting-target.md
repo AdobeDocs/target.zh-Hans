@@ -6,7 +6,7 @@ feature: 故障排除
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '447'
 ht-degree: 100%
 
 ---
@@ -121,9 +121,8 @@ ht-degree: 100%
 
 * [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
 * [使用 Adobe Experience Cloud 调试器调试 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-* [at.js 限制](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* “办公时间”视频，“办公时间”是 Adobe 客户关怀团队发起的一项计划。请参阅 [at.js 实施](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)。
+* “办公时间”视频，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 
 ## 已知问题
 

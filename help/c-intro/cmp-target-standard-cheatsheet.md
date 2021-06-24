@@ -4,10 +4,9 @@ description: 浏览关于使用 Adobe Target 中各项功能的常见问题的�
 title: 可在何处找到优化和个性化问题的答案？
 feature: 概述
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2918'
+source-wordcount: '2847'
 ht-degree: 100%
 
 ---
@@ -35,14 +34,6 @@ ht-degree: 100%
 **Target 支持哪些浏览器？**
 
 有关更多详情，请阅读我们的[支持的浏览器](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)矩阵图。请注意，支持的浏览器分为两个方面：Target Standard/Premium Experience Cloud 界面支持，以及桌面/设备上的最终用户浏览器支持。
-
-## Target JavaScript 库（at.js 和 mbox.js） {#section_C2AC78DFDAD84981A8C84DF20893E340}
-
-**我应该使用哪个实施 JavaScript 文件，at.js 还是 mbox.js？**
-
-at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本。请参阅 [at.js 的好处](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)以了解这两个库之间的差异。所有新客户都应使用 at.js。
-
-所有现有的 mbox.js 客户都应迁移到 at.js。在进行迁移之前，请详细了解[从 mbox.js 迁移到 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) 中介绍的步骤。
 
 ## 活动 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -265,13 +256,13 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 使用包含 [JSON 选件](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)的[基于表单的活动](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)的强大功能来实现您的目标。
 
-## 报表（包括 Analytics for Target—A4T）{#section_8AECC69BEEB7422E894E7EC44A50BA0A}
+## 报表（包括 Analytics for Target—A4T） {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
 **我也有 Adobe Analytics，并希望将其与 Target 结合使用。将这两种解决方案集成之后，我可以获得哪些关键功能？**
 
 请了解一下产品的以下几个方面：
 
-* [目标分析(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [客户属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
@@ -310,7 +301,7 @@ at.js 是我们最新、最好的 JavaScript 库。mbox.js 是我们的旧版本
 
 我们的[响应令牌功能](/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)也为我们提供了解决方案。
 
-## 疑难解答 {#section_6B8B4DC62AE34066A8C55915E9EC6C19}
+## 故障排除 {#section_6B8B4DC62AE34066A8C55915E9EC6C19}
 
 **我如何了解 Adobe Target 的可用性状态？**
 

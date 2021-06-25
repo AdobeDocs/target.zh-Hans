@@ -18,7 +18,7 @@ ht-degree: 3%
 A4T集成允许您：
 
 * 使用[自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)的多臂老虎机功能，引导流量进入入选体验。
-* 使用[自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md)的组合机器学习算法为每个访客选择最佳体验。 自动定位在使用[!DNL Adobe Analytics]目标量度和[!DNL Adobe Analytics]`丰富的报告和分析功能时，会根据用户的配置文件、行为和上下文选择最佳体验。
+* 使用[自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md)的组合机器学习算法为每个访客选择最佳体验。 自动定位在使用[!DNL Adobe Analytics]目标量度和[!DNL Adobe Analytics]&grave;丰富的报告和分析功能时，会根据用户的配置文件、行为和上下文选择最佳体验。
 
 确保您已实施[A4T，以用于A/B测试和体验定位活动](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)。 如果您使用的是`analyticsLogging = client_side`，则还必须将`sessionId`值传递到[!DNL Analytics]。 有关更多信息，请参阅&#x200B;*Adobe Target SDK*&#x200B;指南中的[Analytics for Target(A4T)报表](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting)。
 

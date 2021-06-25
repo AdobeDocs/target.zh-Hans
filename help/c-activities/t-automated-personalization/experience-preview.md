@@ -1,28 +1,25 @@
 ---
 keywords: 体验预览;体验 URL;生成 URL;查看体验 URL
-description: 了解如何在Adobe [!DNL Target] Automated Personalization活动上使用体验预览URL，直接在站点上查看体验内容，然后活动开始生效。
-title: 如何在Automated Personalization活动中使用体验预览 URL?
+description: 了解如何在Adobe开始之前，将体验预览URL用于Automated Personalization活动 [!DNL Target] ，以便直接在您的网站上查看体验内容。
+title: 如何在Automated Personalization活动中使用体验预览URL?
 feature: 自动个性化
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 568760262622b1097dca9384ed9d1360cfadfb6f
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 65%
+source-wordcount: '758'
+ht-degree: 67%
 
 ---
 
-# ![PREMUMP查看](/help/assets/premium.png) 具有体验预览URL的Automated Personalization活动
+# ![](/help/assets/premium.png) 使用体验预览URL查看Automated Personalization活动
 
-可以为目标 Automated Personalization活动生成体验预览URL，以便在活动为预览和QA目的而实时之前，直接在您的站点上查看体验内容。 体验预览URL会绕过定位，以强制查看特定体验。
+可以为Target Automated Personalization活动生成体验预览URL，以便在活动开始之前直接在您的网站上查看体验内容，以便进行预览和QA。 体验预览URL会绕过定位，以强制查看特定体验。
 
 >[!NOTE]
 >
->Automated Personalization的预览URL与活动QA模式不同。 在“活动 QA”模式下，您可以为其他类型的活动创建活动 URL。有关更多信息，请参阅[活动 QA](/help/c-activities/c-activity-qa/activity-qa.md)。。
->
->AP活动的体验预览URL仅在使用at.js 1.x时可用。at.js 2.x当前不支持AP活动的体验预览URL。
+>Automated Personalization的体验预览URL与活动QA模式有所不同。 在“活动 QA”模式下，您可以为其他类型的活动创建活动 URL。有关更多信息，请参阅[活动 QA](/help/c-activities/c-activity-qa/activity-qa.md)。。
 
-使用体验预览URL与团队成员共享体验，跨浏览器和环境提供QA体验，无需创建单独的QA活动。 如果网站很复杂，或者您的安全策略不允许在模拟器中查看网站，则此功能将特别有用。
+使用体验预览URL与团队成员共享体验，并跨浏览器和环境进行QA体验，而无需创建单独的QA活动。 如果网站很复杂，或者您的安全策略不允许在模拟器中查看网站，则此功能将特别有用。
 
 1. 创建[自动个性化活动](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)，或单击相应的活动以将其打开。
 
@@ -38,7 +35,7 @@ ht-degree: 65%
    模态窗口会显示指向您网站上的体验的链接，以获取体验在 Target 可视化体验编辑器之外的“真实预览”。您必须通过共享消息中的链接来共享预览。如果单击链接，然后从页面复制生成的 URL，则不会起作用，因为 URL 包含只有在从消息中的链接访问页面时才会正确显示页面的参数。应当采取的正确操作是，复制模态窗口中的文本，然后通过电子邮件将整个文本发送给您的团队。
 1. 单击&#x200B;**[!UICONTROL 生成所有]**，然后单击每个体验以进行预览。
 
-   如果您随后对体验进行更改，请确保返回模态窗口并单击&#x200B;**续订链接**&#x200B;以获取新链接，从而为您的团队生成新的预览链接。
+   如果您随后对体验进行更改，请确保为团队生成新的预览链接，方法是返回到模式窗口，然后单击&#x200B;**续订链接**&#x200B;以获取新链接。
 
    **注意：**&#x200B;预览链接会在新的选项卡中打开，并且您浏览器中的弹出窗口阻止程序会被禁用。
 
@@ -67,10 +64,10 @@ ht-degree: 65%
 **使用体验预览URL查看体验**
 
 * 只要页面未发生更改，便可预览任何已保存的活动。
-* 无论活动是活动的还是非活动的，都可以使用体验预览URL。
-* 您无法预览处于“草稿”状态的体验。
-* 报告不受查看体验预览URL的影响。
+* 无论活动处于活动状态还是处于非活动状态，体验预览URL都可用。
+* 无法预览处于“草稿”状态的体验。
+* 查看体验预览URL不会对报表产生影响。
 
-**体验预览URL疑难解答**
+**体验预览URL故障诊断**
 
 * 如果您无法在新选项卡中查看预览（由于浏览器缓存问题），请尝试刷新两三次，或者复制链接，然后在其他浏览器、新的会话或私密浏览器模式中打开该链接。

@@ -4,11 +4,10 @@ description: 如果页面未显示预期的内容，可查找建议以帮助解�
 title: 如何为内容投放排除故障？
 feature: 活动
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 99%
+source-wordcount: '1268'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 99%
 
 当您在您的页面上设置 [!DNL Target] 以确保 [!DNL Target] 请求正在触发并且正在设置 Cookie 时，mboxDebug 特别有用。但是，在调试内容交付时，mboxDebug 并不会提供有用的详细信息。如果活动未显示在页面上或页面上显示了不需要的内容，请使用 mboxTrace 对页面进行细致的检查和调试。
 
-## 检索要用于调试工具的授权令牌{#section_BED130298E794D1FA229DB7C3358BA54}
+## 检索要用于调试工具的授权令牌 {#section_BED130298E794D1FA229DB7C3358BA54}
 
 由于 mboxTrace 和 mboxDebug 可将营销活动数据和配置文件数据披露给外部各方，因此需要授权令牌。可在 [!DNL Target] UI 中检索授权令牌。令牌的有效时间为 6 个小时。
 
@@ -57,7 +56,7 @@ ht-degree: 99%
 
 | mboxTrace 选项 | 结果 |
 |--- |--- |
-| `?mboxTrace=console` | 作为对象打印到控制台日志中。<br>对于 at.js，不会像在 mbox.js 中一样弹出新的浏览器窗口或输出到控制台，您而是将需要检查网络请求，并在“预览”(Chrome) 或“响应”(Firefox) 下查看。 |
+| `?mboxTrace=console` | 作为对象打印到控制台日志中。<br>对于at.js，不会像在mbox.js中一样弹出新的浏览器窗口或输出到控制台，您而是将需要检查网络请求，并在“预览”(Chrome)或“响应”(Firefox)下查看。 |
 | `?mboxTrace=json` | 作为 JSON 文字字符串打印到控制台日志中 |
 | `?mboxTrace=window` | 作为 JSON 字符串打印到弹出窗口中 |
 | `?mboxTrace=disable` | 关闭跟踪会话模式 |
@@ -117,39 +116,29 @@ ht-degree: 99%
 
 有关更多详细信息，请参阅[使用 Adobe Experience Cloud Debugger 调试 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)。
 
-## 如果 target.js 在交付过程中加载失败 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
-
-如果 target.js 在交付过程中加载失败，mbox.js 会向访客发送一个名为“em-disabled”的 Cookie。此 Cookie 可防止使用 Visual Experience Composer 创建的选件呈现在网站上。具有此 Cookie 的访客既不会看到测试内容，也不会被计入活动报表。所有其他选件内容（例如 Target Classic 中营销活动的选件内容）将继续加载。此 Cookie 的生命周期为自加载失败之时起 30 分钟。
-
 ## 推荐中未显示最畅销商品 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 *`SiteCatalyst: purchase`* 调用无法用于“购买”算法流量数据。请改用 *`orderConfirmPage`* 调用。
 
-## 检查活动优先级{#section_3D0DD07240F0465BAF655D0804100AED}
+## 检查活动优先级 {#section_3D0DD07240F0465BAF655D0804100AED}
 
 用 [!DNL Target Standard/Premium] 创建的基于表单的活动可能与在 [!DNL Target Classic] UI 中创建的优先级相同并使用相同 [!DNL Target] 请求的活动发生冲突。
 
-## 自定义代码在 Internet Explorer 8 中没有产生预期的结果。{#section_FAC3651F19144D12A37A3E4F14C06945}
+## 自定义代码无法在 Internet Explorer 8 中生成预期结果。 {#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Target 不再支持 IE 8。
-
-## 在使用 mbox.js 时，无法加载全局 [!DNL Target] 请求投放的 JavaScript 内容。{#section_03EC9B9C410B4F52A7FCD81840311709}
-
-请升级到 [!DNL mbox.js] 版本 58 或更高版本。
-
-mbox.js 58 版和更高版本在出现 HTML `BODY` 标签之后立即对全局 [!DNL Target] 请求执行非 JavaScript 内容。在触发 `DOMContentLoaded` 事件之后，执行全局 [!DNL Target] 请求的 `<script>` 标签内的 JavaScript 内容。这种内容投放顺序确保正确地投放并呈现全局 [!DNL Target] 请求的 JavaScript 内容。
 
 ## 未设置 Target Cookie {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 如果您的网站具有一个子域（例如 [!DNL us.domain.com]），但您需要在 [!DNL domain.com]（而不是 [!DNL us.domain.com]）上设置 Target Cookie，则必须覆盖 `cookieDomain` 设置。有关更多信息，请参阅 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 
-## 如果某个元素同时也是 AEM 个性化的一部分，则 Target 内容会闪烁或无法显示。{#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## 如果某个元素同时也是 AEM 个性化的一部分，则 Target 内容会闪烁或无法显示。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
 如果某个 DOM 元素是 Adobe Experience Manager (AEM) 个性化定位和 Target 活动的一部分，则 Target 内容可能会闪烁或无法显示。
 
 要修复此问题，您可以在运行 Target 的页面上禁用 AEM 个性化。
 
-## 由于 URL 无效，无法交付重定向选件和远程选件。  {#section_7D09043B687F43B39DAEDF17D00375AC}
+## 由于 URL 无效，无法交付重定向选件和远程选件。 {#section_7D09043B687F43B39DAEDF17D00375AC}
 
 如果重定向选件或远程选件使用无效的 URL，则可能无法交付该选件。
 
@@ -173,7 +162,7 @@ mbox.js 58 版和更高版本在出现 HTML `BODY` 标签之后立即对全局 [
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### 基本Adobe Target调试![教程徽章](/help/assets/tutorial.png)
+### 基本 Adobe Target 调试 ![课程徽章](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 

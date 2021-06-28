@@ -1,22 +1,21 @@
 ---
-keywords: 定位；可视体验书写器；vec；可视体验书写器疑难解答；tls;tls 1.2
-description: 了解如何解决某些情况下Adobe [!DNL Target] Visual Experience Composer(VEC)中有时出现的问题。
-title: 如何解决与Visual Experience Composer相关的问题？
+keywords: 定位；可视化体验编辑器；VEC；可视化体验编辑器故障诊断；故障诊断；TLS;TLS 1.2
+description: 了解如何对Adobe [!DNL Target] 可视化体验编辑器(VEC)在某些情况下有时出现的问题进行故障诊断。
+title: 如何对与可视化体验编辑器有关的问题进行故障诊断？
 feature: 可视化体验编辑器 (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
-# 与Visual Experience Composer相关的问题疑难解答
+# 对与可视化体验编辑器有关的问题进行故障诊断
 
-在某些情况下，在[!DNL Adobe Target] [!UICONTROL  Visual Experience Composer](VEC)中有时会出现显示问题。
+在某些情况下， [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器](VEC)有时会出现显示问题。
 
-## 当我在Visual Experience Composer中打开我的网站时，不加载[!DNL Target]库。 （仅 VEC）{#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## 我在可视化体验编辑器中打开网站时，不会加载[!DNL Target]库。 （仅 VEC） {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 在可视化体验编辑器中打开网站时，Target 会添加两个参数（`mboxEdit=1` 和 `mboxDisable=1`）。
 
@@ -32,7 +31,7 @@ ht-degree: 87%
 
 如果增强型体验编辑器中出现这些问题，请尝试关闭增强型体验编辑器并改用可视化体验编辑器。
 
-要禁用增强体验书写器，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视体验书写器]**&#x200B;并关闭&#x200B;**[!UICONTROL 启用增强体验书写器]**&#x200B;选项。
+要禁用增强型体验编辑器，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]**，然后关闭&#x200B;**[!UICONTROL 启用增强型体验编辑器]**&#x200B;选项。
 
 某些用户会在控制台中看到以下错误消息：
 
@@ -108,7 +107,7 @@ ht-degree: 87%
 
 设置扩展程序后，打开 Target。即使禁用了增强型体验编辑器，您的页面现在也应当能够在可视化体验编辑器中加载。
 
-## VEC 中不显示我的页面（仅 VEC）  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## VEC 中不显示我的页面（仅 VEC） {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * 浏览器不受支持。
 * 浏览器阻止安全网站上的不安全页面。
@@ -117,8 +116,8 @@ ht-degree: 87%
 * 您输入了无效的 URL。
 * 您尚未在帐户设置页面中输入默认 URL。
 
-请确保已启用此设置，然后在您的网站上下载并更新 mbox.js。
+确保已启用此设置，然后在您的网站上下载并更新at.js。
 
-## 使用浏览模式时，VEC 显示已损坏。（仅 VEC）  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## 使用浏览模式时，VEC 显示已损坏。（仅 VEC） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 使用浏览模式时，如果您访问的 URL 不具有 target.js 或包含 frame-buster 标头，则可视化体验编辑器会显示为已损坏。由于浏览器安全问题，Target 无法访问您导航到的 URL。

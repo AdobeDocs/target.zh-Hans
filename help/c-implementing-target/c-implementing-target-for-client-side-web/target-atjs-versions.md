@@ -1,13 +1,13 @@
 ---
 keywords: at.js版本；at.js版本；发行说明
-description: 视图有关Adobe [!DNL Target] at.js JavaScript库每个版本中更改的详细信息。
-title: at.js的每个版本包含什么？
+description: 查看有关Adobe [!DNL Target] at.js JavaScript库每个版本中更改的详细信息。
+title: at.js的每个版本中都包含哪些内容？
 feature: at.js
 role: Developer
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '4181'
-ht-degree: 88%
+source-wordcount: '4143'
+ht-degree: 89%
 
 ---
 
@@ -18,25 +18,25 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->目标团队同时支持at.js 1。*x* 与 at.js 2.*x* 之间的映射。请升级到at.js的任一主要版本的最新更新，以确保您运行的是受支持的版本。
+>Target团队同时支持at.js 1.*x* 与 at.js 2.*x* 之间的映射。请升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。
 >
->[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch是升级at.js的首选方法。扩展开发人员会不断为其扩展添加新功能，并经常修复错误。 这些更新将打包到扩展的新版本中，并作为升级在[!DNL Launch]目录中提供。 有关详细信息，请参阅&#x200B;*《Experience Platform Launch用户指南》*&#x200B;中的[Extension Upgrade](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
+>[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch是升级at.js的首选方法。扩展开发人员会不断向其扩展中添加新功能，并且会经常修复错误。 这些更新将打包到扩展的新版本中，并在[!DNL Launch]目录中作为升级提供。 有关更多信息，请参阅《Experience Platform Launch用户指南》**&#x200B;中的[扩展升级](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
 
 ## at.js 2.5.0（2021年5月13日）
 
-此版本的at.js包含以下增强和更改：
+此版本的 at.js 包括以下增强功能和更改：
 
-* [对at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 的设备上决策支持
-* [预览](/help/c-activities/c-activity-qa/activity-qa.md) 链接支持Automated Personalization活动
+* 对 at.js 的[设备上决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)支持。
+* 对 Automated Personalization 活动的[预览链接](/help/c-activities/c-activity-qa/activity-qa.md)支持。
 
-此版本还删除了对Microsoft Internet Explorer 10及更高版本的支持。
+此版本还移除了对 Microsoft Internet Explorer 10 及更高版本的支持。
 
-## at.js 2.4.1（2021年3月23日）
+## at.js 2.4.1（2021 年 3 月 23 日）
 
 此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
 
-* 修复了mbox请求中包含`targetPageParams`的问题。 `targetPageParams` 应仅包含在 `pageLoad` 请求中。(TNT-40247)
-* [!DNL Adobe Experience Platform Launch]扩展中的优化窗口和文档全局引用。 (TNT-37124)
+* 修复了 mbox 请求中包含的 `targetPageParams` 存在的问题。`targetPageParams` 只能包含在 `pageLoad` 请求中。(TNT-40247)
+* 优化了[!DNL Adobe Experience Platform Launch]扩展中的窗口和文档全局引用。 (TNT-37124)
 
 ## at.js 2.4.0（2021 年 1 月 14 日）
 
@@ -49,7 +49,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 at.js 的此版本是一个维护版本，其中包括以下修复：
 
-* 修复了与mbox单击跟踪和A4T相关的问题。 单击0n即可，目标使用正确的mbox和mbox参数触发了投放API调用。 但是，SDID与[!DNL Analytics]调用中的不匹配，因此没有点击拼接和转换。 (TNT-38372)
+* 修复了与mbox点击跟踪和A4T相关的问题。 通过单击0n，Target使用正确的mbox和mbox参数触发了交付API调用。 但是，SDID与[!DNL Analytics]调用中的SDID不匹配，因此没有点击拼合和转化。 (TNT-38372)
 
 ## at.js 2.3.2（2020 年 7 月 24 日）
 
@@ -75,8 +75,8 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
 
-* 支持在应用已交付的目标优惠时，在附加到页面DOM的SCRIPT和STYLE标记上设置“内容安全策略”不可用。 客户可以设置`targetGlobalSettings.cspScriptNonce`和`targetGlobalSettings.cspStyleNonce`，以便at.js可以在已应用的优惠上设置相应的脚本和样式标记不可用。 有关详细信息，请参阅[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
-* 修复了使用Google Closure编译器编译at.js以部署Google Tag Manager时的问题。
+* 在应用已交付的Target选件时，支持在附加到页面DOM的SCRIPT和STYLE标记中设置内容安全策略不参数。 客户可以设置`targetGlobalSettings.cspScriptNonce`和`targetGlobalSettings.cspStyleNonce`，以便at.js能够在已应用的选件上设置相应的脚本和样式标记nonces。 有关更多详细信息，请参阅[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
+* 修复了使用Google Tag Manager部署的Google Closure编译器编译at.js时的问题。
 * 将at.js检查Cookie从`check`重命名为`at_check`，以避免与客户实施发生冲突。
 
 ## at.js 版本 1.8.1（2020 年 3 月 25 日）
@@ -87,29 +87,29 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 ## at.js版本2.2.0（2019年10月10日）
 
-此版本的at.js包含以下增强和修复：
+此版本的at.js包含以下增强功能和修复：
 
-* 修复了当页面元素中不存在Adobe Analytics代码时，点击跟踪不会报告Analytics中的目标转换(A4T)的问题。
-* 在网页上同时使用Experience Cloud ID Service(ECID)v4.4和at.js 2.2时的性能得到改进。
+* 修复了当页面元素中不存在Adobe Analytics代码时，点击跟踪不会在Analytics for Target(A4T)中报告转化的问题。
+* 改进了在网页上同时使用Experience CloudID服务(ECID)v4.4和at.js 2.2时的性能。
 * 以前，只有在 ECID 作出两次阻塞调用之后，at.js 才能获取体验。此过程已减少为单次调用，从而显著提高性能。
-* 修复了预取的视图处理不正确的问题，即默认优惠中的事件令牌未包括在发送的通知中。
+* 修复了预取的视图处理不正确的问题，该问题导致默认选件中的事件令牌未包含在已发送的通知中。
 
    >[!NOTE]
    >
-   >将您的ECID Launch扩展升级到v4.4以利用此性能增强。
+   >将您的ECID Launch扩展升级到v4.4以利用此性能增强功能。
 
-* at.js版本2.2还提供一个名为`serverState`的新设置。 当实现目标的混合集成时，此设置可用于优化页面性能。 混合集成指的是在客户端使用 at.js 2.2 和更高版本，在服务器端使用交付 API 或 Target SDK，二者相结合以交付体验。`serverState` 让 at.js 2.2 和更高版本可直接从在服务器端获取并作为所提供的页面的一部分返回客户端的内容应用体验。有关详细信息，请在 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) 中参阅“serverState”。
+* at.js版本2.2还提供了一个名为`serverState`的新设置。 当实施Target的混合集成时，可使用此设置来优化页面性能。 混合集成指的是在客户端使用 at.js 2.2 和更高版本，在服务器端使用交付 API 或 Target SDK，二者相结合以交付体验。`serverState` 让 at.js 2.2 和更高版本可直接从在服务器端获取并作为所提供的页面的一部分返回客户端的内容应用体验。有关详细信息，请在 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) 中参阅“serverState”。
 
 ## at.js版本1.8.0（2019年10月10日）
 
-此版本的at.js包含以下增强和修复：
+此版本的at.js包含以下增强功能和修复：
 
-* 在网页上同时使用Experience Cloud ID Service(ECID)v4.4和at.js 1.8时的性能得到改进。
+* 改进了在网页上同时使用Experience CloudID服务(ECID)v4.4和at.js 1.8时的性能。
 * 以前，只有在 ECID 作出两次阻塞调用之后，at.js 才能获取体验。此过程已减少为单次调用，从而显著提高性能。
 
 >[!NOTE]
 >
->将您的ECID Launch扩展升级到v4.4以利用此性能增强。
+>将您的ECID Launch扩展升级到v4.4以利用此性能增强功能。
 
 ## at.js 版本 2.1.1（2019 年 7 月 24 日）
 
@@ -406,7 +406,7 @@ at.js 版本 1.0 中包含以下增强功能和修复：
 
 **日期：** 2016 年 9 月 21 日
 
-* 添加了 `optoutEnabled` 设置，用于启用或禁用“设备图表”的选择退出功能。如果将此设置设为 `true`，且访客已选择退出跟踪，则访客的浏览器不会发起任何 mbox 调用。“设备图表”当前处于测试阶段。默认情况下，此设置将设为 `false`，但是如果您正在使用“设备图表”，则必须将此设置设为 `true`。mbox.js 版本 61 中包含类似选项。
+* 添加了 `optoutEnabled` 设置，用于启用或禁用“设备图表”的选择退出功能。如果将此设置设为 `true`，且访客已选择退出跟踪，则访客的浏览器不会发起任何 mbox 调用。“设备图表”当前处于测试阶段。默认情况下，此设置将设为 `false`，但是如果您正在使用“设备图表”，则必须将此设置设为 `true`。
 * 为通知机制添加了 `CustomEvent` 支持。以前，无法通过标准的 DOM API（例如 `document.addEventListener()` ）来使用 at.js 事件通知机制。现在，您可以使用 `document.addEventListener()` 订阅 at.js 事件，例如请求事件和内容渲染事件。
 * 修复了与可视化体验编辑器 (VEC) 中创建的选件有关的问题。在此版本之前，Target 会隐藏选择器，并且只有在所有选择器都匹配时才会取消隐藏。在 at.js 0.9.2 中，当有选择器匹配时，Target 会立即取消隐藏匹配的选择器。
 
@@ -416,7 +416,7 @@ at.js 版本 1.0 中包含以下增强功能和修复：
 
 * 在 at.js 中为访客 ID 服务提供了一个超时，它与该服务自身的超时无关。
 * 更正了 0.9.0 中的一个问题，该问题会影响在某些页面上使用 at.js，而在其他页面上使用 mbox.js 的实施。
-* 如果您使用 Adobe Analytics 作为活动的报表源，并且使用的是 mbox.js 版本 61（或更高版本）或者 at.js 版本 0.9.1（或更高版本），则无需在活动创建期间指定跟踪服务器。mbox.js 或 at.js 库会自动将跟踪服务器值发送到 [!DNL Target]。在活动创建期间，您可以将“[!UICONTROL 目标和设置]”页面上的“[!UICONTROL 跟踪服务器]”字段留空。
+* 如果您使用 Adobe Analytics 作为活动的报表源，并且使用的是 mbox.js 版本 61（或更高版本）或者 at.js 版本 0.9.1（或更高版本），则无需在活动创建期间指定跟踪服务器。at.js库会自动将跟踪服务器值发送到[!DNL Target]。 在活动创建期间，您可以将“[!UICONTROL 目标和设置]”页面上的“[!UICONTROL 跟踪服务器]”字段留空。
 
 ## at.js 版本 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
@@ -434,7 +434,7 @@ at.js 版本 1.0 中包含以下增强功能和修复：
 
    * 必须更新现有扩展（如 AngularJS 扩展），才能使用 `registerExtension()` 方法。
 
-* 新的at.js通知API。
+* 新增了at.js通知API。
 
    此通知系统的目标是针对 [!DNL at.js] 在页面上的行为以及在出现问题时提供更多信息。VEC 存在的常见问题是 IT 版本更改页面、VEC 选择器中断以及测试停止正确交付内容。此通知系统的目标是将此交付问题公布到页面上，从而使开发人员可以访问此信息，将其传递到 [!DNL Adobe Analytics] 等系统，并且还可以向测试被中断的业务所有者发送警报。
 
@@ -451,10 +451,6 @@ at.js 版本 1.0 中包含以下增强功能和修复：
 [!DNL at.js] 是适用于 [!DNL Target] 的新实施库，专为典型的 Web 实施和单页应用程序而设计。
 
 [!DNL at.js] 取代了 [!DNL Adobe Target] 实施的 [!DNL mbox.js]。
-
->[!NOTE]
->
->尽管 [!DNL at.js] 取代了 [!DNL mbox.js]，但是 mbox.js 将继续受支持。对于大多数人而言，[!DNL at.js] 将能够比 [!DNL mbox.js] 提供更大的优势。这让您有充足的时间来测试 [!DNL at.js] 并更改页面上的实施。
 
 使用 [!DNL at.js] 具有许多好处，包括缩短 Web 实施的页面加载时间，增强安全性，以及为单页应用程序提供更好的实施选项，等等。
 

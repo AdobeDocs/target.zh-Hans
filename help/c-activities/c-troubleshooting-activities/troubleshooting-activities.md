@@ -1,14 +1,13 @@
 ---
 keywords: Target 故障诊断;默认内容;测试未处于实时状态;活动未处于实时状态;定位无法运行;显示之前的体验;无法创建活动;创建活动;页面结构发生更改;页面结构已修改;错误消息;删除配置文件脚本时出错;ajax 无法运行
-description: 如果您的Adobe [!DNL Target] 活动未显示在您的站点上，请查找疑难解答建议。
+description: 查找如果您的网站上不显示您的 Adobe [!DNL Target] 活动的故障排除建议。
 title: 如何为活动排除故障？
 feature: 活动
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 93%
+source-wordcount: '780'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 93%
 
 以下章节包含您可能遇到的问题及建议的解决方案。
 
-## 我使用[!DNL Target] UI创建了活动，无法通过API更新它。
+## 我使用 [!DNL Target] UI 创建了一个活动，但无法通过 API 更新它。
 
 应通过 Target UI 更新使用 Target UI 创建的活动。应通过 API 更新通过 API 创建的活动。例如，如果最初使用 API 创建活动，但随后又通过 Target UI 编辑该活动，则并非所有更改都会更新。所有更改都存储在后端，可通过再次调用 API 更新这些更改。
 
@@ -69,7 +68,7 @@ ht-degree: 93%
 * 尝试使用其他浏览器。
 * 使用私密/隐身模式。
 
-## 您最近已添加到[!DNL Target]，但无法创建活动。
+## 您最近已被添加到 [!DNL Target]，但无法创建活动。
 
 **验证：**&#x200B;单击创建活动。如果此选项不可用，很可能是因为您未获得足够的权限来创建活动。
 
@@ -105,15 +104,6 @@ ht-degree: 93%
 
 有关页面修改如何影响 Target 显示功能的更多信息，请参阅[页面修改方案](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
 
-## mbox.js 使所有后续代码弹出标头部分，而进入主体部分。
-
-**验证：**&#x200B;查看源代码，以确认是否有一个声明跟在 mbox.js 文件之后、结束`</body>`标记之前。
-
-**选项：**
-
-* 将 mbox.js 作为最后一项放入页面的 `<head>` 部分。
-* 对主体内最高级别的元素使用唯一的 div id。
-
 ## 同一页面上有其他活动在运行。
 
 **验证：**&#x200B;使用“冲突”选项卡，查看是否有其他活动在运行。
@@ -141,6 +131,6 @@ ht-degree: 93%
 
 **注意：**&#x200B;同名但参数不同的多个 ajax [!DNL Target] 调用将无法在同一页面上发挥作用。只有第一个调用可以运行。
 
-## 您使用[!DNL Target] API激活了活动，但该活动在[!DNL Target] UI中显示了[!UICONTROL  Inactive]的状态。
+## 您使用 [!DNL Target] API 激活了一个活动，但该活动在 [!DNL Target] UI 中显示[!UICONTROL 停用]状态。
 
 执行某些操作（例如使用 Target API 在 UI 外部激活活动）时，更新可能最多需要 10 分钟才能传播到 UI 中。

@@ -1,42 +1,37 @@
 ---
 keywords: 可视化体验编辑器;可视化体验编辑器最佳实践;可视化体验编辑器限制;可视化体验编辑器注意事项;vec 最佳实践;vec
-description: 了解在Adobe Target使用Visual Experience Composer(VEC)时让您的体验按预期工作的最佳实践。
-title: Visual Experience Composer的最佳实践和限制有哪些？
-feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+description: 了解在Adobe Target中使用可视化体验编辑器(VEC)时，确保体验按预期工作的最佳实践。
+title: 可视化体验编辑器的最佳实践和限制有哪些？
+feature: 可视化体验编辑器 (VEC)
+exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '2460'
-ht-degree: 95%
+source-wordcount: '2399'
+ht-degree: 93%
 
 ---
 
-
 # 可视化体验编辑器最佳实践和限制
 
-以下最佳实践有助于确保您的体验按预期运行。使用[!DNL Adobe Target]中的可视体验书写器(VEC)时，您还应注意其他提示和限制。
+以下最佳实践有助于确保您的体验按预期运行。在[!DNL Adobe Target]中使用可视化体验编辑器(VEC)时，您还应注意其他提示和限制。
 
 如果遵循这些最佳实践，那么您设计的体验就不太可能遇到意外问题。
 
 ## 最佳实践 {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**对于 mbox.js 版本 57 及更高版本以及 at.js，请将 mbox.js 或 at.js 引用放置在页面 `<head>` 部分的顶部。**
+**将at.js引用放置在页面部分 `<head>` 的顶部。**
 
-如果您还使用访客 API 服务，请将访客 API 脚本放置在 mbox.js 或 at.js 上方。
-
-**对于版本 57 之前的 mbox.js 版本，请将 mbox.js 代码尽可能放置在页面 `<head>` 部分的最底部。**
-
-将 mbox.js 放置在 `<head>` 部分的末尾，其后不再放置其他声明。否则，任何脚本或链接标记都会移动到 `<body>` 部分中。
+如果您还使用访客API服务，请将访客API脚本放在at.js上方。
 
 **您可以在帐户级别启用增强型体验编辑器（为该帐户中创建的所有活动启用），也可以在活动级别启用该编辑器。**
 
-要在帐户级别启用增强型体验书写器，请单击[!UICONTROL “管理”>“可视体验书写器”]，然后将切换到“开启”位置。
+要在帐户级别启用增强型体验编辑器，请单击[!UICONTROL 管理>可视化体验编辑器]，然后将开关切换到“开启”位置。
 
 在“可视化体验编辑器”中创建活动时，要在活动级别启用“增强型体验编辑器”，请单击[!UICONTROL 配置 > URL]，然后将开关切换到“开启”位置。
 
-**如果允许列表增强的视觉体验书写器无法加载到您站点上的安全页面上，则可以某些IP地址。**
+**如果增强允许列表型可视化体验编辑器无法在您网站的安全页面上加载，则可以某些IP地址。**
 
-加载增强的可视体验书写器时出现的问题，可列入允许列表以通过以下IP地址来解决。 用作增强型体验编辑器代理的 Adobe 服务器使用这些 IP 地址。仅在编辑活动时才需要这些地址。访客到您的站点不需要这些IP地列入允许列表址。
+通过以下IP地址，可以解决加载增强型可视化体列入允许列表验编辑器时出现的问题。 用作增强型体验编辑器代理的 Adobe 服务器使用这些 IP 地址。仅在编辑活动时才需要这些地址。您网站的访客不需要这些IP地列入允许列表址。
 
 美国：52.55.99.45、54.80.158.92 和 54.204.197.253
 
@@ -234,7 +229,7 @@ Target Standard 和 Premium 使用 JavaScript 来设置页面格式。使用 Jav
 
 **只能在 mbox 上执行交换选件操作。**
 
-mbox 中不允许使用“编辑类”和“重新排列”等操作。Mbox 内容由 mbox.js 提供。
+mbox 中不允许使用“编辑类”和“重新排列”等操作。
 
 **您不应重新排列和移动相同的元素。**
 

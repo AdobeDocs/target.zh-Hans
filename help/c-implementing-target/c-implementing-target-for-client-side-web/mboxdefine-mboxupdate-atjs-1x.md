@@ -1,12 +1,11 @@
 ---
 keywords: mboxDefine;mboxdefine;mbox 定义;mboxUpdate;mboxupdate;mbox 更新;at.js;函数;函数
-description: 使用Adobe [!DNL Target] at.js JavaScript库的mboxDefine()和mboxUpdate()函数定义或更新mbox。 (at.js 1.x)
+description: 使用Adobe [!DNL Target] at.js JavaScript库的mboxDefine()和mboxUpdate()函数来定义或更新mbox。 (at.js 1.x)
 title: 如何使用mboxDefine()和mboxUpdate()函数？
 feature: at.js
 role: Developer
 exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 86%

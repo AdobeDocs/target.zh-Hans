@@ -4,10 +4,10 @@ description: 了解如何在某些情况下，对Adobe [!DNL Target] 可视化�
 title: 如何对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断？
 feature: 可视化体验编辑器 (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 63%
+source-wordcount: '1341'
+ht-degree: 61%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe已将更新的VEC助手扩展提交到Google Chrome应用商店。 此扩�
 
 ## [!DNL Target]是否支持多级iframe?
 
-Target 不支持多级 iframe。如果您的网站加载的 iframe 具有子 iframe，则 Target 库（at.js 和 mbox.js）仅与父 iframe 进行交互。Target 库不会与子 iframe 进行交互。
+[!DNL Target] 不支持多级 iframe。如果您的网站加载的iframe具有子iframe，则at.js仅与父iframe交互。 [!DNL Target] 库不会与子 iframe 进行交互。
 
 作为解决方法，您可以在体验中添加一个页面，其中包含子 iframe 的 URL。
 

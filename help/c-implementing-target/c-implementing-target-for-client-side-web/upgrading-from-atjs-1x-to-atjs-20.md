@@ -5,10 +5,10 @@ title: 如何从at.js版本1.x升级到版本2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
+source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
 workflow-type: tm+mt
-source-wordcount: '2765'
-ht-degree: 92%
+source-wordcount: '2761'
+ht-degree: 91%
 
 ---
 
@@ -45,9 +45,9 @@ ht-degree: 92%
 
 | 调用 | 详细信息 |
 | --- | --- |
-| 3 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
+| 1 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
 | 2 | 从缓存中读取视图的目标内容。 |
-| 3 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
+| 1 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
 | 4 | 通知请求将发送到 [!DNL Target] 配置文件存储区，以计算活动中的访客和递增量度。 |
 | 5 | Analytics 数据会发送到数据收集服务器。 |
 | 6 | Target 数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 A4T 报表查看 Analytics 数据。 |
@@ -217,7 +217,7 @@ at.js 2.*x* 中有几个函数已被弃用。
 
 未使用 `getOffer()` 或 `applyOffer()` 替换 `mboxCreate()` 的客户可能无法交付选件。
 
-### 是否可以在某些页面上使用 at.js 2.*x*，而在其他页面上使用 at.js 1.*x* 或 mbox.js？
+### 是否可以在某些页面上使用 at.js 2.*x*，而在其他页面上使用 at.js 1.** xis在其他页面上？
 
 可以，系统会使用不同版本和库保留各个页面中的访客配置文件。Cookie 格式是相同的。
 
@@ -248,7 +248,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 ### at.js 中的全局 mbox 名称是否无关紧要？
 
-客户可以通过[!UICONTROL Target >管理>实施>编辑at.js设置]来指定全局mbox名称。 [!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为 [!DNL Target] UI 中显示的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并使用全局 mbox 名称创建受众。我们强烈建议您还确保在[!UICONTROL 管理>可视化体验编辑器]页面上配置相同的全局mbox名称，以防仍有使用at.js 1的页面。*x* 或 mbox.js 的页面，如以下插图所示。
+客户可以通过[!UICONTROL Target >管理>实施>编辑at.js设置]来指定全局mbox名称。 [!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为 [!DNL Target] UI 中显示的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并使用全局 mbox 名称创建受众。我们强烈建议您还确保在[!UICONTROL 管理>可视化体验编辑器]页面上配置相同的全局mbox名称，以防仍有使用at.js 1的页面。*x*，如下图所示。
 
 ![修改 at.js 对话框](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -276,7 +276,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 | 自动创建全局 Mbox | 是 |
 | 全局 Mbox 名称 | 是 |
 
-### at.js 2.x 中的跨域跟踪支持{#cross-domain}
+### at.js 2.x 中的跨域跟踪支持 {#cross-domain}
 
 跨域跟踪可拼合跨不同域的访客。因为必须为每个域创建新 Cookie，所以当访客在不同域之间导航时很难进行跟踪。要实现跨域跟踪，[!DNL Target] 会使用第三方 Cookie 来跟踪跨域访客。这让您能够创建跨越 `siteA.com` 与 `siteB.com` 的 Target 活动，同时让访客在不同域之间导航时保持相同的体验。此功能与 Target 的第三方和第一方 Cookie 行为相关联。
 

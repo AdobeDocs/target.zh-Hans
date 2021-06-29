@@ -4,9 +4,9 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1563'
 ht-degree: 77%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 77%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 6 月 29 日 | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 添加了兼容性矩阵，以显示使用不同Target JavaScript库时，哪些活动类型支持活动模式。 |
+| 6 月 29 日 | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 添加了以下章节：<ul><li>Target JavaScript库[!UICONTROL QA模式]兼容性</li><li>预览URL</li></ul> |
 | 6 月 24 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新了[!DNL Target Standard/Premium] 21.6.1版本（2021年6月30日）的预发行说明。 |
 | 6 月 16 日 | [[!DNL Target] 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关[!DNL Adobe Target] Python SDK版本1.0.0的信息。 |
 |  | [个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 添加了以下常见问题解答：<ul><li>[!UICONTROL Automated Personalization](AP)和[!UICONTROL 自动定位]模型的数据会保留多长时间？</li></ul> |

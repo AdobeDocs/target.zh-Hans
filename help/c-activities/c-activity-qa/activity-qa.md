@@ -4,10 +4,10 @@ description: 了解如何使用Adobe [!DNL Target] QA URL来执行简单的端�
 title: 如何进行QA活动？
 feature: 活动
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
+source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 37%
+source-wordcount: '1760'
+ht-degree: 36%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 37%
 
 * [!UICONTROL Target QA模式] UI仅显示多页面活动中体验的第一个URL。 假设您要创建历程测试，并从URL1移动到URL2。 但是，如果要单独转到 URL2，请复制针对 URL1 提供的所有 URL 参数，并在放置“?”后将其应用于 URL2，正如 URL1 中所看到的一样。
 
-## 目标JavaScript库[!UICONTROL QA模式]兼容性
+## Target JavaScript库[!UICONTROL QA模式]兼容性 {#compatibility}
 
 [!DNL Target] 支持以下JavaScript库：
 
@@ -128,18 +128,13 @@ ht-degree: 37%
 
 下表列出了各种活动类型，并指示每个库或API是否支持预览URL功能：
 
-| 活动类型 | at.js 1.x | at.js 2.x | 平台Web SDK | 投放 API | 管理员 API |
-| --- | --- | --- | --- | --- | --- |
-| [!UICONTROL A/B 测试] | 是 | 是 | 是 | 不适用 | 是 |
-| [!UICONTROL 自动分配] | 是 | 是 | 是 | 不适用 | 是 |
-| [!UICONTROL 自动定位] | 是 | 是 | 是 | 不适用 | 是 |
-| [!UICONTROL Automated Personalization] （美联社） | 是 | 是 | 否 | 不适用 | 是 |
-| [!UICONTROL 体验定位] (XT) | 是 | 是 | 是 | 不适用 | 是 |
-| [!UICONTROL 多变量测试] (MVT) | 是 | 是 | 是 | 不适用 | 是 |
-| [!UICONTROL 推荐] | 是 | 是 | 是 | 不适用 | 是 |
-
-
-
-
-
+| 活动类型 | at.js 1.x | at.js 2.x | 平台Web SDK |
+| --- | --- | --- | --- |
+| [!UICONTROL A/B 测试] | 是 | 是 | 是 |
+| [!UICONTROL 自动分配] | 是 | 是 | 是 |
+| [!UICONTROL 自动定位] | 是 | 是 | 是 |
+| [!UICONTROL Automated Personalization] （美联社） | 是 | 是 | 是 |
+| [!UICONTROL 体验定位] (XT) | 是 | 是 | 是 |
+| [!UICONTROL 多变量测试] (MVT) | 是 | 是 | 是 |
+| [!UICONTROL 推荐] | 是 | 是 | 是 |
 

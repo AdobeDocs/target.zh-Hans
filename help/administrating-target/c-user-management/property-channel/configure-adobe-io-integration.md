@@ -1,17 +1,16 @@
 ---
 keywords: 集成;角色;用户权限;Admin Console
-description: 了解如何授予现有的Adobe I/O集成功能对Adobe Target所有具有所需角色的工作区的访问权限。
-title: 如何授予Adobe I/O对工作区的访问权限并分配角色？
-feature: Administration & Configuration
-role: Administrator
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+description: 了解如何使用Adobe Target中的所需角色授予现有Adobe I/O集成访问所有工作区的权限。
+title: 如何授予Adobe I/O访问工作区的权限并分配角色？
+feature: 管理和配置
+role: Admin
+exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 83%
+source-wordcount: '623'
+ht-degree: 84%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 授予 Adobe I/O 集成访问工作区的权限并分配角色
 
@@ -23,7 +22,7 @@ ht-degree: 83%
 
 [!UICONTROL 企业权限]功能有助于跨团队高效地扩展优化程序。尽管该功能在 [!DNL Target] UI 中可用，但直到 2019 年年初管理员 API 一直缺少相应的支持。在 [!DNL Target] 2019 年 2 月版中，Adobe 更新了管理员 API，以便您可以使用集成帐户访问组织中创建的所有工作区。因此，尽管在以前版本中，管理员 API 限制为仅访问默认工作区，但是 2019 年 2 月的更新版授予了使用[!UICONTROL 审批者]访问权限访问所有工作区的访问权限。
 
-在2019年9月的[!DNL Target]版本中，[!DNL Target] [!UICONTROL 企业权限]为客户提供以下访问控制:
+在2019年9月版的[!DNL Target]中， [!DNL Target] [!UICONTROL 企业权限]为客户提供了以下访问控制：
 
 * 您可以选择可将集成应用到的工作空间
 * 您可以对 Adobe I/O 集成应用以下角色：[!UICONTROL 审批者]、[!UICONTROL 编辑者]或[!UICONTROL 观察者]。
@@ -39,7 +38,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->如果未执行这项操作，则在 [!DNL Target] 2019 年 9 月版发布之后，访问控制将会激活，而且如果您当前设置为仅访问默认工作区，那么您将看到激活后也只能访问默认工作区。预先设置集成不会产生不良影响。越早完成更改越好。根据组织中的工作区数量，此过程只需单击几下即可将现有集成添加到具有所需角色的工作区中。
+>如果未执行这项操作，则在 [!DNL Target] 2019 年 9 月版发布之后，访问控制将会激活，而且如果您当前设置为仅访问默认工作区，那么您将看到激活后也只能访问默认工作区。预先设置集成不会产生不良影响。越早完成更改越好。根据组织中的工作区数量，此过程只需单击几次，即可使用所需的角色将现有集成添加到工作区中。
 
 **要授予 Adobe I/O 集成访问工作区的权限并分配角色，请执行以下操作：**
 
@@ -66,4 +65,4 @@ ht-degree: 83%
    | 审批者 | 可以创建、编辑，以及激活或停止活动。 |
    | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
    | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
-   | 发布者 | 与“观察者”角色类似(可以视图活动，但不能创建或编辑它们)。 但是，“发布者”角色具有激活活动的其他权限。 |
+   | 发布者 | 与“观察者”角色类似（可以查看活动，但无法创建或编辑活动）。 但是，发布者角色另有激活活动的权限。 |

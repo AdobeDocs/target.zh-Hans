@@ -4,7 +4,7 @@ description: 查看关于 Adobe [!DNL Target] 推荐活动的常见问题和答�
 title: 可在何处找到关于 [!DNL Target] 推荐的问答？
 feature: 推荐
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
 source-wordcount: '3129'
 ht-degree: 93%
@@ -247,7 +247,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 如何仅推荐新文章或视频？ {#recommend-new-articles}
 
-媒体和发布领域的一些客户可能希望确保推荐的项目仅包含最新的文章或视频。 例如，[!DNL Target]客户使用以下方法推荐不到60天的文章：
+媒体和发布领域的一些客户希望确保推荐的项目仅包含最新的文章或视频。 例如，[!DNL Target]客户使用以下方法推荐不到60天的文章：
 
 1. 以YYYMDDD格式作为自定义实体属性传递文章发布日期。
 1. 创建日期减去60天且采用YYYYMMDD格式的配置文件脚本。

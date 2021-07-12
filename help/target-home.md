@@ -4,10 +4,10 @@ title: 可在何处找到 [!DNL Target] 文档？
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: 概述
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 99%
+source-wordcount: '692'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2021年6月29日(请参 [阅“更改了哪些内容](r-release-notes/doc-change.md) ”)**
+**上次更新时间：2021 年 7 月 11 日（[请参阅“更改了哪些内容”](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 99%
 
 - [Target 发行说明](r-release-notes/release-notes.md)：包含有关当前版本的信息、有关影响 [!DNL Target] 的已知问题的信息、此文档的重要更改列表，和以往发行说明的存档。
 - [Target 简介](c-intro/intro.md)：说明 [!DNL Target] 解决方案的核心概念。
-- 将 Target 与 Adobe Experience Cloud 集成：说明如何将 [!DNL Target] 与其他 [!DNL Experience Cloud] 解决方案集成，包括 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud 受众](/help/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) 和 [Experience Cloud 设备协作](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md)。
+- 将Target与Adobe Experience Cloud集成：说明如何将[!DNL Target]与其他[!DNL Experience Cloud]解决方案集成，包括[Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)、[Experience Cloud受众](/help/c-integrating-target-with-mac/mmp.md)和[Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)。
 - [Adobe Target 教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hans)：提供教程和视频，以帮助您充分利用 Target。
 - [Target 故障排除](r-troubleshooting-target/troubleshooting-target.md)：提供本指南中所含故障排除信息的链接，其中包括关于影响 [!DNL Target] 中活动和其他元素的字符限制和其他限制（选件大小、受众、配置文件、值、参数等）的信息。
 - [适用于移动设备应用程序的 Target](c-target-mobile-app/target-mobile-app.md)：说明 [!DNL Target] 如何用于移动设备应用程序优化和个性化。

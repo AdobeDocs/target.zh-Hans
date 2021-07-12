@@ -5,10 +5,10 @@ title: Adobe Target 中有哪些字符、大小和其他限制？
 feature: 故障排除
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 98%
+source-wordcount: '1206'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 
 ## Target API调用
 
-* **限制**:每分钟50次。
+* **限制**:每分钟50次，用于管理员、报告和批量配置文件更新API。此限制不适用于交付API和单个用户档案更新API。
 
    如果每分钟发起的API调用超过50次，则[!DNL Target]会返回“503 HTTP状态”错误消息。
 

@@ -3,12 +3,12 @@ keywords: 环境；故障诊断；最佳实践；Ubox；重定向；重定向；
 description: 了解如何使用Adobe [!DNL Target] 中的环境来组织您的网站和预生产环境，以便轻松管理和分隔报表。
 title: 什么是环境？如何使用它们？
 feature: 管理和配置
-role: Administrator
+role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: a72b28aa6522a0628c2d04c3b803538b935fd6f6
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '698'
+ht-degree: 61%
 
 ---
 

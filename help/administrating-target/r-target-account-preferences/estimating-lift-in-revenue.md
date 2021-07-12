@@ -1,12 +1,11 @@
 ---
 keywords: 收入提升;收入;预计收入提升;计算提升;预计值
-description: 如果趋势在测试中继续，则估计每位访客都能看到成功体验时可能获得的提升。
-title: 我估计收入增加了哪些？
+description: 如果趋势在测试期间继续显示，则估计在每位访客都看到入选体验时可能实现的提升。
+title: 我预计的收入提升是什么？
 feature: 管理和配置
-role: Administrator
+role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 88%
@@ -15,11 +14,11 @@ ht-degree: 88%
 
 # 预计收入提升
 
-使用[!DNL Adobe Target]估计所有用户视图入选体验后可获得的收入提升。
+使用[!DNL Adobe Target]估计在所有用户都查看成功体验时将获得的收入提升。
 
 >[!NOTE]
 >
->目前，估计提升不适用于[!UICONTROL 体验定位](XT)活动。
+>目前，预计提升不适用于[!UICONTROL 体验定位](XT)活动。
 
 默认情况下，预计提升功能处于关闭状态。您可以在帐户首选项中启用此功能。只有 Experience Cloud 管理员用户可以启用或禁用此功能。如果禁用预计提升，则界面中不会显示相应的字段。禁用此功能不会导致数据丢失，包括用于估算的数据。无论是否启用了此功能，都会根据所收集的数据进行估算。
 

@@ -4,9 +4,9 @@ description: 查看关于 Adobe [!DNL Target] 推荐活动的常见问题和答�
 title: 可在何处找到关于 [!DNL Target] 推荐的问答？
 feature: 推荐
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 36cfb8886df7912fdedc303749bb020575079856
+source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
 workflow-type: tm+mt
-source-wordcount: '3150'
+source-wordcount: '3129'
 ht-degree: 93%
 
 ---
@@ -245,21 +245,17 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 在[!DNL Recommendations Classic]中创建的算法在[!DNL Recommendations Premium]中不受支持。 您可能能够在[!DNL Target Premium]中使用旧版算法；但是，在[!DNL Target Premium] UI中取消激活或删除活动时，算法可能会创建同步问题。 有关两个解决方案之间差异的更多信息，请参阅 [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] versus [!DNL Recommendations] 活动。
 
-## 如何推荐不超过60天的文章？ {#less-than-60}
+## 如何仅推荐新文章或视频？ {#recommend-new-articles}
 
-例如，[!DNL Target]客户使用以下方法推荐不到60天的文章。
+媒体和发布领域的一些客户可能希望确保推荐的项目仅包含最新的文章或视频。 例如，[!DNL Target]客户使用以下方法推荐不到60天的文章：
 
-此客户不使用数据馈送。 收集的有关文章的所有数据都来自数据层，并在页面查看时传递到[!DNL Target]。
+1. 以YYYMDDD格式作为自定义实体属性传递文章发布日期。
+1. 创建日期减去60天且采用YYYYMMDD格式的配置文件脚本。
+1. 在标准中使用动态包含过滤器，以便`publish date > today’s date minus 60 days`。
 
-此客户使用以下方法：
+### 将发布日期作为自定义实体属性传递：
 
-* 以YYYYMMDD格式作为实体参数传递发布日期。
-* 创建了日期减去60天且也采用YYYYMMDD格式的配置文件脚本。
-* 在标准中使用了动态包含过滤器，以便`publish date > today’s date minus 60 days`。
-
-此客户捕获了以下数据字段：
-
-| 数据字段 | 示例 |
+| 实体属性 | 示例 |
 | --- | --- |
 | issueDate | 2021218 |
 | lastViewDate | 2021701 |
@@ -267,16 +263,14 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 | publishDate | 20210113 |
 | publishDateDisplay | 2021年1月13日 |
 
-此客户使用配置文件属性匹配的以下包含规则：
-
-![包含规则示例](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
-
-此客户使用以下配置文件脚本：
+### 配置配置文件脚本：
 
 ![示例配置文件脚本](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
+### 配置包含规则：
+
+![包含规则示例](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
 >[!NOTE]
 >
->此示例也可通过参数匹配和将`priorDate60`值作为mbox参数传递来完成。
-
-
+>此示例也可以使用参数匹配并将`priorDate60`值作为mbox参数进行传递来完成。

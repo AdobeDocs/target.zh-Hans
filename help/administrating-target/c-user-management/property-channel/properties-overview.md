@@ -3,9 +3,9 @@ keywords: 添加用户;项目;用户组;属性;工作区;管理属性;属性;at_
 description: 了解如何将用户添加到Adobe Target;创建工作区、用户组和属性；更新实施；和指定角色和权限。
 title: 如何配置企业权限？
 feature: 管理和配置
-role: Administrator
+role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 66%

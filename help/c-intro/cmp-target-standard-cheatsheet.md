@@ -4,9 +4,9 @@ description: 浏览关于使用 Adobe Target 中各项功能的常见问题的�
 title: 可在何处找到优化和个性化问题的答案？
 feature: 概述
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '2847'
+source-wordcount: '2755'
 ht-degree: 100%
 
 ---
@@ -223,12 +223,6 @@ ht-degree: 100%
 **我是一名前 Target Classic 用户。我是否可以在某些用例中使用我的 mbox？**
 
 使用[基于表单的方法](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)来创建活动。
-
-**我能否确保在用户可能使用的所有设备上都始终如一地提供相同的体验？**
-
-试试我们的 [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=zh-Hans)，它允许您通过 Co-op 确定性地和概率性地链接用户的多个设备。
-
-如果您在 Co-op 之中，只需单击“目标和设置”页面上的标志即可启用该功能。此时，报表会更改为反映“人员”而不是“访客”。请咨询您的 Adobe 联系人以获取有关此功能的更多信息，因为这不适用于所有区域。
 
 **为何我没有看到我想要看到的选件/体验，反而看到了一些其他的活动？**
 

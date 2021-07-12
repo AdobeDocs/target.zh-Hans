@@ -1,12 +1,11 @@
 ---
 keywords: 管理;审批者角色;审批者
-description: 执行Adobe [!DNL Target] 在收到已通过电子邮件发送给Adobe Experience Cloud的邀请后应接受的第一个任务。
-title: 从何处开始管理目标?
+description: 执行Adobe [!DNL Target] 在收到Adobe Experience Cloud的电子邮件邀请后，管理员应该执行的第一项任务。
+title: 我该从哪里开始管理Target?
 feature: 管理和配置
-role: Administrator
+role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 82%
@@ -15,13 +14,13 @@ ht-degree: 82%
 
 # 管理员首要步骤
 
-本文包含[!DNL Adobe Target]管理员在收到通过电子邮件发送给[!DNL Adobe Experience Cloud]的邀请后应采取的第一步。
+本文包含在收到[!DNL Adobe Experience Cloud]的电子邮件邀请后，管理员应该采取的首要步骤。[!DNL Adobe Target]
 
-## 获邀加入[!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
+## 受邀加入[!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 [!DNL Adobe Admin Console] 中的系统管理员必须通过邀请您加入，将您作为用户添加到 [!DNL Target] 中。之后，系统管理员应将您添加到一个或多个特定于角色的组。这两项任务均可在 [Adobe Admin Console](https://adminconsole.adobe.com) 中执行。
 
-有关详细信息，请参阅&#x200B;*Experience Cloud和核心服务帮助*&#x200B;中的[管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)。
+有关更多信息，请参阅&#x200B;*Experience Cloud和核心服务帮助*&#x200B;中的[管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 系统管理员执行这些步骤后，您将会收到一封邀请电子邮件。
 

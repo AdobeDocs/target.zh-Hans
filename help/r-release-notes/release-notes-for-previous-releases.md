@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: 发行说明
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '31047'
+source-wordcount: '31019'
 ht-degree: 99%
 
 ---
@@ -93,7 +93,6 @@ ht-degree: 99%
 * 修复了导致在[!UICONTROL “推荐”]收藏集中显示的产品数量有误的问题。(TGT-39162)
 * 将一个[!UICONTROL “上次更新时间”]筛选条件添加到[!UICONTROL 推荐][!UICONTROL 目录搜索]。(TGT-38340)
 * 修复了[!UICONTROL 推荐]中的一个问题，该问题导致在更改行业垂直领域之后[!UICONTROL “创建序列”]页面挂起。(TGT-38160)
-* 修复了一个问题，如果启用了 Device Co-op，并且用户从将 [!DNL Target] 作为报表源变为 [!DNL Analytics] (A4T)，则该问题阻止保存活动。(TGT-38163)
 * 修复了一个问题，该问题阻止用户从[!UICONTROL 自动个性化] (AP) 活动中的某个选件删除受众。(TGT-39058)
 * 修复了一个问题，该问题导致在某些客户的[!UICONTROL “受众信息”]卡片中显示的时间范围（开始和结束日期）有误。(TGT-39150)
 * 修复了一个问题，该问题阻止某些客户在[!UICONTROL 默认工作区]中看到活动的列表。(TGT-38526)
@@ -462,7 +461,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 | --- | --- |
 | ![Premium 徽章](/help/assets/premium.png) 企业权限 | 在 Target September 2019 版本中，企业权限为客户提供以下访问控制：<UL><li>您可以选择可将集成应用到的工作空间.</li><li>您可以对 Adobe I/O 集成应用以下角色：审批者、编辑者或观察者。</li></ul>有关分步说明和更多信息，请参阅[授予 Adobe I/O 集成访问工作区的权限并分配角色](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)。 |
 
-### Target Standard/Premium 19.7.1（2019 年 7 月 24 日）{#tgt-19-7-1}
+### Target Standard/Premium 19.7.1（2019 年 7 月 24 日）  {#tgt-19-7-1}
 
 此版本包括以下新增功能和增强功能：
 
@@ -527,7 +526,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 | 减少了文件大小 | at.js 的大小减少了约 24%。较小的文件大小可提高页面加载性能并缩短在页面上下载 at.js 的时间。 |
 | at.js 文档更新 | 要获取由于 at.js 2.1.0 的发行而更新的所有文章的完整列表，请参阅[文档更改](/help/r-release-notes/doc-change.md)中时间为 2019 年 6 月 3 日的条目。 |
 
-### [!DNL Target] Standard/Premium 19.5.1（2019 年 5 月 21 日）{#tgt-19-5-1-historical}
+### [!DNL Target] Standard/Premium 19.5.1（2019 年 5 月 21 日） {#tgt-19-5-1-historical}
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
@@ -541,7 +540,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 
 * 当您在 VEC 中取消载入页面后，系统会正确地显示出工具栏图标。如果某些特定的操作只有在完全载入页面后才能执行，那么相关的工具栏图标将会禁用。(TGT-33811)
 
-### [!DNL Target] Standard/Premium 19.4.2（2019 年 4 月 30 日）{#release-19-4-2}
+### [!DNL Target] Standard/Premium 19.4.2（2019 年 4 月 30 日） {#release-19-4-2}
 
 此版本包括以下功能、更改和增强功能：
 
@@ -570,7 +569,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 * 现在，从“收藏集”选取器中选择[!UICONTROL 建议]收藏项后，您必须单击[!UICONTROL 保存]按钮。这种工作流程与 [!DNL Target] 中的其他工作流程保持一致。(TGT-33205)
 * 修复了一个问题，该问题会导致一小部分的分析报表返回 0% 转化率，而不是实际的转化率。(TNT-32125)
 
-### [!DNL Target] Standard/Premium 19.4.1（2019 年 4 月 15 日）{#release-19-4-1}
+### [!DNL Target] Standard/Premium 19.4.1（2019 年 4 月 15 日） {#release-19-4-1}
 
 这个版本属于维护版本，它包括以下变更：
 
@@ -578,7 +577,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 
 * 更新了 [!DNL Adobe Experience Cloud] UI，以体现品牌和产品变化。（TGT-33546、TGT-33272 和 TGT-33331）
 
-#### [!DNL Target] Standard/Premium 19.3.1（2019 年 3 月 29 日）{#release-19-3-1}
+#### [!DNL Target] Standard/Premium 19.3.1（2019 年 3 月 29 日） {#release-19-3-1}
 
 此版本包括以下功能、更改和增强功能：
 
@@ -619,7 +618,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 | at.js 版本 2.0.0<br>2019 年 2 月 19 日 | at.js 2.x 现已可用。<br>最新版本的 at.js 提供了丰富的功能集，使您的企业能够在下一代客户端技术上实现个性化。这个新版本着重升级了 at.js 以与单页应用程序 (SPA) 进行良性的交互。<br>以下是使用 at.js 2.x 的一些好处，这些好处在以前的版本中未提供：<ul><li>能够在页面加载时缓存所有选件，将多次服务器调用减少至一次服务器调用。</li><li>由于选件是通过缓存立即显示的，不存在传统服务器调用引入的任何时间延迟，因此极大地提升了最终用户在您网站上的体验。</li><li>通过简单的单行代码和一次性开发人员设置，您的营销人员能够通过可视化体验编辑器 (VEC) 在单页应用程序上创建和运行 A/B 和体验 (XT) 活动。</li></ul>at.js 2.x 引入了以下新函数：<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>以下函数在引入 at.js 2.x 后被弃用：<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>有关更多信息，请参阅[从 at.js 1.x 升级到 at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) 和 [at.js 函数](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。<br>**注意**：如果您需要 Adobe 选择加入对[《通用数据保护条例》](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)(GDPR) 提供支持，则您当前必须使用 at.js 1.7.0。at.js 2.x 不支持选择加入支持。 |
 | at.js 版本 1.7.0<br>2019 年 2 月 14 日 | at.js 1.7.0 现在可用。<br>此版本提供了 Adobe 选择加入支持。通过 Adobe 选择加入，可轻松将 Adobe 解决方案与同意管理平台集成。<br>有关 Adobe 选择加入的更多信息，请参阅[隐私和通用数据保护条例](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)。<br>此版本还修复了 Target 可能使用来自重定向 URL 的参数覆盖重定向 URL 参数的问题。<br>**注意**：如果您需要 Adobe 选择加入对 GDPR 提供支持，则您当前必须使用 at.js 1.7.0。at.js 2.x 不支持选择加入支持。<br>有关所有版本的列表，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。 |
 
-### [!DNL Target] Standard/Premium 19.2.1（2019 年 2 月 19 日）{#target-19-2-1}
+### [!DNL Target] Standard/Premium 19.2.1（2019 年 2 月 19 日） {#target-19-2-1}
 
 此版本包括以下功能、更改和增强功能：
 
@@ -636,7 +635,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 
 * 现在，为了提高安全性，[!DNL Target] 在加载 VEC 时会阻止访问 Amazon Web Services (AWS) 元数据端点。(TGT-33129)
 
-### 平台更改（2019 年 1 月）{#platform-19-1-previous}
+### 平台更改（2019 年 1 月） {#platform-19-1-previous}
 
 | 功能/增强 | 描述 |
 | --- | --- |
@@ -644,7 +643,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 | 配置文件脚本<br>2019 年 1 月 17 日 | 出于性能原因，我们建议返回值不要再超过 256 个字符。<br>对于字符串返回值，如果返回值的大小超过 2,048 个字符，则系统将禁用该脚本。<br>对于数组返回值，如果数组的连接值的大小超过 2,048 个字符，则系统将禁用该脚本。<br>有关字符限制和会影响 Target 中活动和其他元素的其他限制（选件大小、受众、配置文件、值、参数等），请参阅[限制](/help/r-troubleshooting-target/target-limits.md)。 |
 | at.js<br>2019 年 1 月 16 日 | at.js 1.6.4 是一个维护版本，该版本解决了以下问题：<ul><li>修复了 Microsoft Internet Explorer 11 中出现的导致应用重复选件的争用条件问题。(TNT-31374)</li><li>修复了当存在包含点击令牌和 html 选件的默认选件时影响点击跟踪的问题。(TNT-31493)</li><li>扩展了 mboxEdgeCluster Cookie 以包含每个 Target 请求。仅当启用了 mboxEdgeOverride 时才使用此功能。(TNT-31485)</li></ul> |
 
-### [!DNL Target]Standard/Premium 19.1.1（2019 年 1 月 22 日）{#release-19-1-1-previous}
+### [!DNL Target]Standard/Premium 19.1.1（2019 年 1 月 22 日） {#release-19-1-1-previous}
 
 此版本包括以下功能、更改和增强功能：
 

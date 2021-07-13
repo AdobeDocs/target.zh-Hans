@@ -5,9 +5,9 @@ title: 有关at.js的常见问题和答案是什么？
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2609'
 ht-degree: 75%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 75%
 
 ![](assets/atjs_vesus_mboxjs.png)
 
-如上图所示，使用 mbox.js 时，在 [!DNL Target] 调用完成后才会开始加载页面内容。使用 at.js 时，在 [!DNL Target] 调用启动后即会开始加载页面内容，而不会等到调用完成才开始加载。
+如上图所示，使用mbox.js时，在[!DNL Target]调用完成后才会开始加载页面内容。 使用 at.js 时，在 [!DNL Target] 调用启动后即会开始加载页面内容，而不会等到调用完成才开始加载。
 
-## at.js 和 mbox.js 对页面加载时间有何影响？{#page-load}
+## at.js 和 mbox.js 对页面加载时间有何影响？ {#page-load}
 
 很多客户和顾问都想了解 [!DNL at.js] 和 [!DNL mbox.js] 对页面加载时间的影响，特别是对于新用户与旧用户的情况。但遗憾的是，由于每位客户的实施不尽相同，因此很难评测 [!DNL at.js] 或 [!DNL mbox.js] 对页面加载时间的影响并给出具体的数字。
 
@@ -131,7 +131,7 @@ at.js 文件在下载后大约为 109 KB。但是，由于大多数服务器会�
 
 at.js 实施使用单个库 ([!DNL at.js])，而 mbox.js 实施则实际使用两个库（[!DNL mbox.js] 和 [!DNL target.js]）。因此，更公平的比较方式是将 at.js 与 mbox.js *和* `target.js` 进行比较。若比较两个版本的 gzip 压缩文件大小，at.js 版本 1.2 的大小为 34 KB，而 mbox.js 版本 63 的大小则为 26.2 KB。
 
-at.js 更大，因为与 mbox.js 相比，它执行更多的 DOM 解析。该解析是必需的，因为 at.js 会在 JSON 响应中获取“原始”数据，并且必须了解这些数据的含义。mbox.js 使用 `document.write()`，所有解析均由浏览器完成。
+at.js 更大，因为与 mbox.js 相比，它执行更多的 DOM 解析。该解析是必需的，因为 at.js 会在 JSON 响应中获取“原始”数据，并且必须了解这些数据的含义。mbox.js使用`document.write()`，所有解析均由浏览器完成。
 
 尽管文件较大，但我们的测试表明，与使用 mbox.js 相比，使用 at.js 可加快页面加载速度。此外，at.js的安全性也更高，因为它不会动态加载其他文件或使用`document.write`。
 
@@ -144,10 +144,6 @@ at.js当前使用jQuery部分，因此您会在at.js顶部看到MIT许可通知�
 否，如果将跨域设置为“仅限x”，并且Safari禁用了第三方Cookie，则[!DNL mbox.js]和at.js都会设置一个禁用的Cookie，且不会为该特定客户端的域执行mbox请求。
 
 要支持 Safari 访客，X-Domain 最好为“已禁用”（仅设置第一方 Cookie）或“已启用”（仅在 Safari 上设置第一方 Cookie，而在其他浏览器上设置第一方和第三方 Cookie）。
-
-## 我能否并行运行 at.js 和 mbox.js？ {#section_4DCAF38DBAEB430CA486FAEFAE0E0A29}
-
-不能在同一页面上并行运行。但是，在实施和测试[!DNL at.js]时，您可以在某些页面上运行[!DNL at.js]，在其他页面上运行[!DNL mbox.js]，直到您验证[!DNL at.js]为止。
 
 ## 我能否在单页应用程序中使用[!DNL Target]可视化体验编辑器(VEC)? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 

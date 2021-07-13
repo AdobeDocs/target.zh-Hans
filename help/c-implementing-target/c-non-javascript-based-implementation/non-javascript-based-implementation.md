@@ -1,15 +1,14 @@
 ---
 keywords: 实施;mbox.js 非 javascript;AdBox;重定向器;mbox
-description: 了解如何在非JavaScript场景（如使用AdBox或重定向器）中实现Adobe [!DNL Target] 。
+description: 了解如何在非JavaScript情景（如使用AdBox或重定向器）中实施Adobe [!DNL Target] 。
 title: 如何为电子邮件实施 [!DNL Target] ?
 feature: 实施电子邮件
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 77%
+source-wordcount: '435'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 77%
 
 您可以跟踪对广告和其他站外内容的访问次数。您还能识别您站内和站外的同一用户，并根据其全部的网络活动情况展示符合其特点的体验。AdBox 通过使用一个 URL 来进行测试，而无需使用 JavaScript、[!DNL at.js] 或 [!DNL mbox.js]。
 
-AdBox 对于没有 [!DNL at.js] 或 [!DNL mbox.js] 的网站（例如联属网站）非常有用。如果您的活动需要动态创意（例如，您需要在广告中显示已从购物车中放弃的产品），那么您将不能使用 AdBox。
+AdBox对于没有[!DNL at.js]的网站（如联属网站）非常有用。 如果您的活动需要动态创意（例如，您需要在广告中显示已从购物车中放弃的产品），那么您将不能使用 AdBox。
 
 AdBox 广告和重定向器可用于任何类型的活动。下表比较了 Adbox 和重定向器，同时还介绍了二者分别在何时使用：
 
@@ -28,9 +27,9 @@ AdBox 广告和重定向器可用于任何类型的活动。下表比较了 Adbo
 | AdBox | 向广告返回不同的图像 | 改变广告的内容 | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | 重定向选件 | 图像 URL |
 | 重定向器 | 将访客重新导向另一个网页 | 改变广告的登陆页 | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | 重定向选件 | 页面 URL |
 
-## 安全最佳实践{#security}
+## 安全最佳实践 {#security}
 
-请注意，使用重定向器，您可能会面临开放重定向漏洞的风险。 为避免第三方未授权使用重定向器链接，我们建议您使用“授权主机”来允许列表默认重定向URL域。 目标使用主允许列表机要允许重定向的域。 有关详细信息，请参阅[创允许列表建，指定有权向&#x200B;*Hosts*&#x200B;中的目标](/help/administrating-target/hosts.md#allowlist)发送mbox调用的主机。
+请注意，使用重定向器，您可能会面临打开重定向漏洞的风险。 为避免第三方未经授权使用重定向器链接，我们建议您使用“已授权的主机”来允许列表默认的重定向URL域。 Target 使用主机将您要允许重定向到的域列入允许列表。有关详细信息，请在“主机”**&#x200B;中参阅[创建允许列表，其中指定有权将 mbox 调用发送到 Target 的主机](/help/administrating-target/hosts.md#allowlist)。
 
 ## 限制 {#section_38F559DCF1324271926608BCD4AB1227}
 

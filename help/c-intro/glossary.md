@@ -1,13 +1,12 @@
 ---
-description: Adobe [!DNL Target] 中使用的不同术语的含义是什么？ 查找常用术语的定义以帮助您充分利用 [!DNL Target].
+description: Adobe [!DNL Target] 中使用的各种术语表示什么？查找常用术语的定义以帮助您充分利用 [!DNL Target]。
 title: 可在何处找到 Target 中使用的术语和定义？
 feature: 概述
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2470'
-ht-degree: 99%
+source-wordcount: '2417'
+ht-degree: 100%
 
 ---
 
@@ -199,7 +198,7 @@ Target Standard 中活动的可视化表现形式。
 
 ## H  {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
-**host（主机）**
+**主机**
 
 您可以在项目的任何阶段从中提供内容的任何 Web 服务器（或 Web 域）。
 
@@ -219,7 +218,7 @@ Target Standard 中活动的可视化表现形式。
 
 登陆页活动允许您使用定位功能，针对不同的访问展示不同的登陆页内容。否则，登陆页将对每次访问均显示相同的内容。登陆页活动会比较不同的页面版本，帮助您查看哪个登陆页版本能产生更为成功的结果。在 Target Standard 中，被“体验定位”**&#x200B;所取代。
 
-**location（位置）**
+**位置**
 
 页面上的特定内容区域，通常包含在单个 DOM 元素中。在 MVT 方法中，有时将内容称为“因子”**。全因子多变量测试会比较您的位置中所有可能的选件组合。
 
@@ -228,10 +227,6 @@ Target Standard 中活动的可视化表现形式。
 **mbox**
 
 “营销框”，您网页上显示内容并记录访客行为的位置。有些 mbox 不显示任何内容，而是通过您的网站跟踪访客的进展，或跟踪该访客是否完成某个特定的成功量度，例如将一件物品添加到购物车或者完成一次购买。这一类型的 mbox 有“转化 mbox”**。
-
-**mbox.js**
-
-在 16.3.1 之前，[!DNL Target] 需要调用 [!DNL mbox.js] 来创建 [!DNL Adobe Target] 交付 [!DNL Target]Target 活动、跟踪点击和跟踪大多数成功量度所需的全局 mbox。此文件包含所有活动所需的库。您不需要为该文件维护特定于活动的不同版本。[!DNL at.js] 库取代了适用于 [!DNL Target] 实施的 [!DNL mbox.js]。
 
 **mbox parameter（mbox 参数）**
 

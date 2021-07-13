@@ -1,15 +1,14 @@
 ---
 keywords: 云实例;公共后缀列表;公共后缀;Cookie;第一方 Cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: 探索客户在使用基于云的实例测试Adobe [!DNL Target] 或用于概念验证时遇到的问题（使用解决方案）。
-title: 是否可以对基于云的实例使用 [!DNL Target] ?
+description: 探索客户在使用基于云的实例来测试Adobe [!DNL Target] 或进行概念验证时（与解决方案有关）遇到的问题。
+title: 我能否对基于云的实例使用 [!DNL Target] ?
 feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 82%
+source-wordcount: '168'
+ht-degree: 67%
 
 ---
 
@@ -25,6 +24,6 @@ ht-degree: 82%
 
 **问题：**&#x200B;如果您使用这些域，新式浏览器不会保存 Cookie。
 
-[!DNL at.js] 和 [!DNL mbox.js] JavaScript 库需要使用 Cookie 来跟踪用户，以确保 [!DNL Target] 始终提供一致的体验。如果 [!DNL Target] JavaScript 库无法保存 Cookie，则 [!DNL Target] 请求会被禁用。
+[!DNL at.js] JavaScript库使用Cookie跟踪用户，以确保[!DNL Target]始终提供一致的体验。 如果[!DNL Target] JavaScript库无法保存Cookie，则[!DNL Target]请求将被禁用。
 
 **解决方案：**&#x200B;最佳做法是，如果您打算将基于云的实例与公共后缀列表中包含的域结合使用，请务必自定义 `cookieDomain` 设置。有关更多信息，请参阅 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。

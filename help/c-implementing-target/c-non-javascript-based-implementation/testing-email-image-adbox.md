@@ -1,15 +1,14 @@
 ---
 keywords: 电子邮件；adbox；电子邮件图像adbox
-description: 了解如何使用Adobe [!DNL Target] 动态测试电子邮件中的图像，甚至在有人打开电子邮件时即时更改这些图像。
+description: 了解如何使用Adobe [!DNL Target] 动态测试电子邮件中的图像，甚至在用户打开电子邮件时即时更改这些图像。
 title: 如何测试电子邮件图像Adbox?
 feature: 实施电子邮件
 role: Developer
 exl-id: 87a918d7-83dc-4277-821b-d90302c59736
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 90%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
@@ -40,7 +39,7 @@ mboxPC={123456}” border=:"0"/>
 
 | 值 | 描述 |
 |--- |--- |
-| clientcode | 您公司的客户端代码。可在 at.js 或 mbox.js 中查找此代码，此代码以 `clientCode='yourclientcode'` 形式列出。此代码为全小写的字母，且无特殊字符。 |
+| clientcode | 您公司的客户端代码。在以`clientCode='yourclientcode'`形式列出的at.js中查找此代码。 此代码为全小写的字母，且无特殊字符。 |
 | image | 选件类型。对于图形广告，此代码始终为“image”；而对于重定向器，此代码始终为“page”。 |
 | email_header | adbox 的名称。 |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | 必需。将 URL 替换为 adbox 的相应默认内容。它必须为绝对引用，且必须为 URL 编码。 |

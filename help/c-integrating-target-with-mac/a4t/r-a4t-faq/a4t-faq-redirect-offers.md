@@ -4,10 +4,10 @@ description: 查找有关在 [!DNL Target] (A4T). A4T lets you use Analytics rep
 title: 在哪里可以找到有关使用A4T重定向选件的常见问题解答？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 63%
+source-wordcount: '1298'
+ht-degree: 62%
 
 ---
 
@@ -31,8 +31,6 @@ ht-degree: 63%
 * Adobe Analytics：[!DNL appMeasurement.js] 版本 2.1。
 * Adobe Target：[!DNL at.js] 版本 1.6.2 或更高版本。
 
-   [!DNL mbox.js] 库不支持将重定向选件与 A4T 配合使用。您的实施必须使用 [!DNL at.js]。
-
 具有重定向选件的页面和访客被重定向到的页面都必须包含这三个库。
 
 ## 为什么 A4T 与 Analytics 之间有时会出现数据差异？
@@ -50,10 +48,6 @@ ht-degree: 63%
 您希望对活动中包括默认（控制）体验在内的所有体验都使用重定向选件，因这样可以为所有体验施加相同的条件。例如，如果默认体验没有重定向选件，但其他体验具有重定向选件，则没有重定向选件的体验速度将具有一种内在优势。建议仅对临时方案（例如测试）使用重定向选件。不建议对永久性方案（例如个性化）使用重定向选件。确定“入选者”后，应删除重定向以提高页面加载性能。
 
 有关此问题的更多信息，请参阅[已知问题](/help/r-release-notes/known-issues-resolved-issues.md#redirect)中的“重定向选件”信息。
-
-## 如果我使用的是 mbox.js JavaScript 库，能否将重定向选件与 A4T 配合使用？ {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
-
-[!DNL mbox.js] 库不支持将重定向选件与 A4T 配合使用。您的实施必须使用 [!DNL at.js]。
 
 ## 可视化体验编辑器 (VEC) 和基于表单的体验编辑器是否均受支持？ {#section_FDA26FE7909B48539DA770559E687677}
 

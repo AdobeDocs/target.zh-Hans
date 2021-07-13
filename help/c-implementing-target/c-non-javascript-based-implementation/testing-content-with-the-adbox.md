@@ -1,21 +1,20 @@
 ---
-keywords: 实施;mbox.js 非 javascript;mbox;Adbox
-description: 使用AdBox在使用Adobe Target的非现场实施中传送图像。 AdBox就像mbox，但由URL而不是JavaScript控制。
+keywords: 实施；非Javascript;mbox;Adbox
+description: 使用AdBox在使用Adobe Target的站外实施中交付图像。 AdBox与mbox类似，但由URL而不是JavaScript控制。
 title: 如何为图像创建Adbox?
 feature: 实施电子邮件
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 73%
+source-wordcount: '329'
+ht-degree: 72%
 
 ---
 
 # 为图像创建 Adbox
 
-使用AdBox在使用Adobe Target的非现场实施中传送图像。
+使用AdBox在使用Adobe Target的站外实施中交付图像。
 
 AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 具有特殊的 AdBox URL，此 URL 会将“广告”mbox（或 AdBox）加载到您的 Adobe 帐户中。在活动中可使用此 AdBox 替代 mbox。在电子邮件或其他非 JavaScript 实施中可使用 AdBox URL，而不使用直接图像引用。
 
@@ -31,7 +30,7 @@ AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 
 
    * 其中，`myClientCode` 是您公司的客户端代码。您公司的客户端代码全部为小写字母，且不含任何特殊字符。
 
-      您的客户端代码位于[!DNL Target]接口的[!UICONTROL 管理>实施]页面顶部。
+      您的客户端代码位于[!DNL Target]界面的[!UICONTROL 管理>实施]页面顶部。
 
    * 其中，`image` 是调用类型。在此例中为图像。
 
@@ -39,7 +38,7 @@ AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 
 
    * 其中，`http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` 是 mbox 的默认内容。该内容必须是图像。
 
-      这必须是进行了编码的 URL，且必须是绝对引用。可以使用[HTML URL编码参考](https://www.w3schools.com/tags/ref_urlencode.asp)快速对URL进行编码。
+      这必须是进行了编码的 URL，且必须是绝对引用。您可以使用[HTML URL编码引用](https://www.w3schools.com/tags/ref_urlencode.asp)来快速对您的URL进行编码。
 
 1. 为每个替代图像创建[重定向选件](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
 

@@ -5,10 +5,10 @@ title: 如何使用adobe.target.getOffers()函数？
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 85%
+source-wordcount: '1291'
+ht-degree: 84%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 85%
 
 | 键值 | 类型 | 必需？ | 描述 |
 | --- | --- | --- | --- |
-| `consumerId` | 字符串 | 否 | 如果未提供，则默认值为客户端的全局 mbox。此键值用于生成用于A4T集成的补充数据ID(SDID)。 此键值是每个访客的唯一字符串。<br>使用时， `getOffers()`每个调用都会生成一个新的SDID。如果在同一页面上有多个mbox请求，并且想要保留SDID(以便它与target-global-mbox和Adobe Analytics SDID中的SDID匹配)，请使用`consumerId`参数。<br>如 `getOffers()` 果包含三个mbox（名为“mbox1”、“mbox2”和“mbox3”），则包括： `consumerId: "mbox1, mbox2, mbox3"` 中的 `getOffers()` 问题。 |
+| `consumerId` | 字符串 | 否 | 如果未提供，则默认值为客户端的全局 mbox。此键值用于生成用于A4T集成的补充数据ID(SDID)。 此键(consumerId)不唯一。<br>使用时， `getOffers()`每个调用都会生成一个新的SDID。如果在同一页面上有多个mbox请求，并且想要保留SDID(以便它与target-global-mbox和Adobe Analytics SDID中的SDID匹配)，请使用`consumerId`参数。<br>如 `getOffers()` 果包含三个mbox（名为“mbox1”、“mbox2”和“mbox3”），则包括： `consumerId: "mbox1, mbox2, mbox3"` 中的 `getOffers()` 问题。 |
 | `decisioningMethod` | 字符串 | 否 | “服务器端”、“设备上”、“混合” |
 | `request` | 对象 | 是 | 请参阅下文的“请求”表。 |
 | `timeout` | 数值 | 否 | 请求超时. 如果未指定，将使用默认的 at.js 超时值。 |

@@ -1,10 +1,10 @@
 ---
 keywords: target 文档变更日志;文档更新;新主题;编辑;更新;更新
 description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和变更。
-title: 可在何处查看 Target 的文档更新？
+title: 在哪里可以看到Target的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
+source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 70%

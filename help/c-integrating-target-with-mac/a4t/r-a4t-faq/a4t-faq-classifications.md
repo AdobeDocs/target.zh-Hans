@@ -1,13 +1,13 @@
 ---
-keywords: FAQ;常见问题解答;Analytics for Target;A4T;分类;分类导入程序;post-tnt-action
+keywords: FAQ；常见问题解答；Analytics for Target;A4T；分类；分类导入器；post-tnt-action；事件代码
 description: 查找有关分类和使用Analytics进行 [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] 活动的问题解答。
 title: 在哪里可以找到有关A4T分类的信息？
 feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
+source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 51%
+source-wordcount: '299'
+ht-degree: 46%
 
 ---
 

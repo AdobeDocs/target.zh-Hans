@@ -1,12 +1,12 @@
 ---
-keywords: Target;首页;热门主题;adobe target;standard;premium;target 文档;adobe target 文档
+keywords: Target;首页;热门主题;adobe target;standard;premium;target 文档;adobe target 文档;主页
 title: 可在何处找到 [!DNL Target] 文档？
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: 概述
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
+source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '693'
 ht-degree: 96%
 
 ---

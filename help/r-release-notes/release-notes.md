@@ -4,10 +4,10 @@ description: 了解 [!DNL Adobe Target]当前版本中包含的新增功能、�
 title: 当前版本中包括什么新功能？
 feature: 发行说明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 47%
+source-wordcount: '653'
+ht-degree: 54%
 
 ---
 
@@ -40,7 +40,6 @@ ht-degree: 47%
 | 功能 | 详细信息 |
 | --- | --- |
 | Analytics for Target (A4T) | 现在，在使用[!DNL Analytics]作为报表源(A4T)的活动中，单击[!UICONTROL Reports]页面上的“[!UICONTROL 在Analytics中查看]”链接，即会打开[!DNL Analysis Workspace]。 以前，链接会打开[!DNL Analytics]报表。 (TGT-36959) |
-| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | 以下增强功能适用于[!DNL Recommendations]流行算法：<ul><li>当[!DNL Target]是行为数据源时，新的六小时“回顾窗口”（数据范围）选项适用于所有常用（查看次数最多/最畅销的）算法。 （当[!DNL Adobe Analytics]是行为数据源时，此回顾窗口为&#x200B;*不*。）</li><li>选择后，以下算法大约每三小时运行一次（而不是每12小时运行一次）。<ul><li>查看次数最多</li><li>购买次数最多</li><li>按类别查看次数最多</li><li>按类别购买次数最多</li><li>按自定义属性查看次数最多的项目（使用groupBy功能）</li><li>按自定义属性购买的最多产品（使用groupBy功能）</li></ul></ul>发行日期待公布。 (TOP-1086) |
 
 ## Python SDK 1.0.0（2021年6月16日）
 

@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: 发行说明
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
+source-git-commit: 39bd28d7390781d4ac010f048d660fad10616a9d
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 80%
+source-wordcount: '575'
+ht-degree: 84%
 
 ---
 
@@ -23,12 +23,6 @@ ht-degree: 80%
 | --- | --- |
 | Forrester | **Adobe 在 Forrester Wave 报告中被评为体验优化平台的佼佼者。**<br>&#x200B;在 2020 年第四季度的 The Forrester Wave: Experience Optimization Platforms 报告中，Adobe 因其在这一领域的优秀产品 Adobe Target Premium 而被评为佼佼者。Adobe 在当前产品和市场占有率类别以及推荐和平台体验标准方面均获得所有参与厂商的最高分。Target Premium 也在体验优化技术创新和配套服务标准方面获得了最高分。该报告基于对 10 家体验优化平台提供商在 22 项标准上的全面评估。<br>请在 [Adobe 博客](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)上阅读该报告。 |
 | Gartner | **Adobe 在 Gartner 的个性化引擎魔力象限中再次被评为佼佼者。**<br>&#x200B;在第三年 Gartner 的 2020 年个性化引擎魔力象限报告中，Adobe 再次被评为佼佼者。Gartner 个性化引擎魔力象限基于两大类 15 项标准对各家供应商进行了评估：愿景完整性和执行能力。请在 <br>[Adobe 博客](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)上阅读该报告。 |
-
-## 网络研讨会：量化集成[!DNL Adobe Analytics] + [!DNL Adobe Target]的显着ROI、洞察和节省时间
-
-* **2021年7月20日星期二**
-* **上午8点（太平洋夏令时，UTC -7）**
-* **[单击此处了解更多信息并注册](https://www.adobeeventsonline.com/Webinar/2021/Quantifying/)。**
 
 ## [!DNL Adobe Target] 社区问答茶歇
 

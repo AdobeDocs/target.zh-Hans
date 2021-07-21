@@ -1,24 +1,27 @@
 ---
 keywords: 受众;受众规则;合并受众;排除项;添加排除项;排除;临时受众
-description: 了解如何动态合并多个受众(包括Adobe Experience Cloud受众和 [!DNL Target] 受众)以创建临时受众。
-title: 我是否可以合并多个受众以创建新受众?
+description: 了解如何即时合并多个受众(包括Adobe Experience Cloud受众和 [!DNL Target] 受众)以创建临时受众。
+title: 我是否可以合并多个受众以创建新受众？
 feature: 受众
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 95%
+source-wordcount: '931'
+ht-degree: 69%
 
 ---
 
 # 合并多个受众
 
-可随手合并多个受众（包括 Adobe Experience Cloud 受众和 Target 受众）以创建临时受众。您也可以创建排除规则，从某个规则中排除相应受众。
+即时合并多个受众（包括[!DNL Adobe Experience Cloud]、[!DNL Adobe Experience Platform]和[!DNL Target]受众），以创建临时受众。 您也可以创建排除规则，从某个规则中排除相应受众。
+
+>[!NOTE]
+>
+>[!DNL Adobe Experience Platform]源位于测试版测试程序中，但可供使用[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)的所有[!DNL Target]客户使用。 [!DNL Adobe Experience Platform]中可用的受众可以按原样使用，也可以与现有受众](/help/c-target/combining-multiple-audiences.md)组合使用[。
 
 假设您有两个受众：“新访客”和“Chrome 用户”。在某个特定活动中，您可能想要合并这两个现有受众，以定位使用 Chrome 浏览器的新访客。您可以在创建活动或编辑现有活动时合并这两个受众，而无需再另外创建一个受众，并将其存储到[!UICONTROL 受众]库中。
 
-再比如，为定位所有忠诚客户，您可以先包含一个状态为忠诚的特定 [!DNL Audience Manager] 区段，然后再将其与一个由在当前会话中注册了忠诚度计划的用户组成的 [!DNL Target] 区段合并，而无需再另外创建一个永久性受众。
+再比如，您可以定位所有忠诚客户。 例如，您可以为忠诚度状态包含特定的[!DNL Audience Manager]受众，并将其与由在当前会话中注册了忠诚度计划的用户组成的[!DNL Target]受众合并。 合并这两个受众比创建第三个永久受众更简单。
 
 您最多可以使用“与”和“或”运算符合并 10 个受众。
 
@@ -28,23 +31,25 @@ ht-degree: 95%
 
 在三步引导式工作流中，您可以在活动的[!UICONTROL 定位]页面上创建临时组合受众。
 
-1. 创建[活动](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在 **[!UICONTROL Target]** 页面上单击三个垂直省略号，然后单击&#x200B;**[!UICONTROL 替换受众]**。
+1. 创建[活动](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 定位]**&#x200B;页面上，单击三个垂直省略号，然后单击&#x200B;**[!UICONTROL 替换受众]**。
 
    ![步骤结果](assets/edit_audience.png)
 
 1. 在“[!UICONTROL 选择受众]”页面上，选中要用作组合受众构建基块的所需受众旁边的复选框。
 
+   单击[!UICONTROL 过滤器]按钮以缩小对所需受众的搜索范围。 您可以按受众的来源过滤受众：([!DNL Adobe Target]、[!DNL Adobe Target Classic]、[!DNL Experience Cloud]、[!DNL Adobe Experience Platform]（测试版）)。
+
    ![步骤结果](assets/combine_multiple_audiences1.png)
 
-1. 单击右上角的&#x200B;**[!UICONTROL 合并多个受众]**。
+1. 单击右上角的&#x200B;**[!UICONTROL 合并受众]**。
 
    ![步骤结果](assets/combine_multiple_audiences2.png)
 
 1. （可选）根据需要编辑新创建的组合受众。
 
-   使用“[!UICONTROL 编辑受众]”对话框，您可以从左侧将更多的受众构建基块拖放到新创建的组合受众中，还可以添加排除规则以排除受众。
+   通过[!UICONTROL 编辑受众]对话框，您可以将左侧的其他受众构建基块拖放到新的组合受众中。 您还可以添加排除规则并排除受众。
 
-   1. 您可以使用拖放功能，在现有区域中添加受众作为第 2 级构建基块。要添加第 1 级构建基块，请选中所需受众旁边的复选框，然后单击&#x200B;**[!UICONTROL 添加到规则中]**。
+   1. 使用拖放功能将现有部分中的受众添加为第2级构建基块。
 
       例如，假设您现在想要将 Safari 用户添加到上一示例的组合受众中。为此，可搜索“Safari 浏览器”受众，并将其拖到右侧的“Firefox 浏览器”框中，如以下示例所示：
 
@@ -56,17 +61,13 @@ ht-degree: 95%
       >
       >合并受众时，使用的运算符（“与”或“或”）必须保持相同。运算符不能混搭使用。
 
-   1. 要在规则中添加排除项，请单击&#x200B;**[!UICONTROL 排除项]** > **[!UICONTROL 添加排除项]**。
+   1. 要向规则中添加排除项，请单击&#x200B;**[!UICONTROL Exclude]**。
 
       ![](assets/combine_multiple_audiences3a.png)
 
-      将受众拖放到框中：
+      拖放受众。
 
-      ![](assets/combine_multiple_audiences3b.png)
-
-      例如，要从新访客中排除美国访客，您可以将“市场: 美国”受众拖放到框中，如下所示：
-
-      ![](assets/combine_multiple_audiences3b2.png)
+      例如，要从新访客中排除美国访客，您可以拖动市场：美国受众进入盒子。
 
       由此形成的组合受众将包含使用 Safari 或 Firefox 访问您网站的所有新访客（旧金山访客除外）。
 
@@ -74,7 +75,7 @@ ht-degree: 95%
 
       例如，您可以创建一个组合受众，以包含使用 Firefox 以外的其他所有浏览器访问您网站的所有新访客。与创建一个明确包含各种浏览器（Safari、Chrome 和 Internet Explorer）用户但不包含 Firefox 用户的组合受众相比，排除使用 Firefox 的访客要更加简单快速。
 
-1. 为组合受众提供一个描述性名称，然后单击&#x200B;**[!UICONTROL 保存]**。
+1. 为组合受众提供一个描述性名称，然后单击&#x200B;**[!UICONTROL 完成]**。
 
 ## 创建用于量度定位的组合受众 {#section_A42E795AFCBD4575809C5942039910F0}
 
@@ -114,10 +115,10 @@ ht-degree: 95%
 
 1. 单击&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 受众]** > **[!UICONTROL 多个受众]**。
 
-   ![“配置”>“受众”>“多个受众”](/help/c-target/assets/combine_multiple_audiences7.png)
+   ![“配置”>“受众”>“多个受众”](assets/combine_multiple_audiences7.png)
 
 1. 单击活动的当前受众旁边的更多选项图标（三个垂直省略号），然后单击&#x200B;**[!UICONTROL 更改受众]**。
 
-   ![更改受众](/help/c-target/assets/combine_multiple_audiences8.png)
+   ![更改受众](assets/combine_multiple_audiences8.png)
 
 1. 执行“创建活动时创建组合受众”中的[步骤 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以创建组合受众。

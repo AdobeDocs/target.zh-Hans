@@ -4,9 +4,9 @@ description: 了解如何在某些情况下，对Adobe [!DNL Target] 可视化�
 title: 如何对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断？
 feature: 可视化体验编辑器 (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 1da930f2dfe13fc7710da000f0d13d6aacd223b1
+source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1554'
 ht-degree: 49%
 
 ---
@@ -19,6 +19,13 @@ ht-degree: 49%
 
 请注意使用以下Chrome版本时对VEC和EEC所做的更改：
 
+>[!NOTE]
+>
+>以下更改会影响下面列出的所有三个更新：
+>
+> * *不*&#x200B;能够在其网站的受密码保护页面中使用VEC（无论是否安装并启用了VEC助手扩展）。 您的网站登录Cookie被视为第三方Cookie，随登录请求发送。 唯一的例外是您的网站登录Cookie已将SameSite参数设置为“none”。
+
+
 **Chrome 94（2021年9月21日）**:由于Chrome 94版本（2021年9月21日）即将进行的更改，以下更改将对使用Chrome 94及更高版本浏览器的所有用户造成影响：
 
 * 将删除命令行标记`--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`。
@@ -29,7 +36,6 @@ ht-degree: 49%
 
 **Chrome 80（2020年8月）**:通过在2020年8月实施更改，所有使用Chrome 80及更高浏览器版本的用户：
 
-* *不*&#x200B;能够在其网站的受密码保护页面中使用VEC（无论是否安装并启用了VEC助手扩展）。 您的网站登录Cookie被视为第三方Cookie，随登录请求发送。 唯一的例外是您的网站登录Cookie已将SameSite参数设置为“none”。
 * 在编辑活动时（如果这些库不在网站上）， *不能*&#x200B;下载[!DNL Target]库。 这是因为下载调用是从客户域向安全Adobe域发起的，并因未经身份验证而被拒绝。
 * EEC将对所有用户&#x200B;*不*&#x200B;起作用，因为它无法在`adobemc.com domain`上为Cookie设置SameSite属性。 如果没有此属性，浏览器将拒绝这些Cookie，从而导致EEC失败。
 

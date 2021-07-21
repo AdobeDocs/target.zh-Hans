@@ -1,14 +1,13 @@
 ---
 keywords: 浏览器选项;类型;浏览器类型;浏览器语言;语言;版本;浏览器版本
-description: 了解如何在Adobe [!DNL Target] 中创建受众，以向访问页面时使用特定浏览器或特定浏览器选项的目标用户。
-title: 是否可以 [!DNL Target] 基于浏览器类型的访客?
+description: 了解如何在 [!DNL Adobe Target] 中创建受众，以定位使用特定浏览器或特定浏览器选项访问您的页面的用户。
+title: 我是否可以根据浏览器类型定位访客？
 feature: 受众
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 95%
+source-wordcount: '669'
+ht-degree: 76%
 
 ---
 
@@ -19,42 +18,43 @@ ht-degree: 95%
 可以定位以下浏览器：
 
 * Chrome
-* Microsoft Edge
 * Firefox
-* Opera
 * Safari
-* iPad
 * Internet Explorer
+* Microsoft Edge
+* Opera
+* iPad
 * iPhone|
 
 定位浏览器的方式有两种：
 
-**预先构建的受众：**&#x200B;如果您希望仅定位使用特定浏览器访问您的网站的访客，请使用预先构建的受众。例如，如果您提供的产品是 Chrome 扩展，您将仅定位 Chrome 用户。
+* **预先构建的受众：**&#x200B;如果您希望仅定位使用特定浏览器访问您的网站的访客，请使用预先构建的受众。例如，如果您提供的产品是 Chrome 扩展，您将仅定位 Chrome 用户。
 
-1. 设置活动时，从受众下拉列表中选择浏览器。
+   1. 设置活动时，从下拉列表中选择浏览器。
 
-   此选项可将活动仅定位到使用指定浏览器的访客。
+      此选项可将活动仅定位到使用指定浏览器的访客。
 
-**自定义的浏览器受众规则：**&#x200B;通过自定义受众，您可以定位多种浏览器，或者针对特定浏览器、浏览器版本或浏览器语言设置规则或排除项。根据浏览器属性定位营销活动可提供很高的灵活性。
+      ![Target Chrome用户](/help/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
 
-1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
-1. 对受众进行命名。
-1. 单击&#x200B;**[!UICONTROL 添加规则]** > **[!UICONTROL 浏览器]**。
+* **自定义浏览器受众规则：** 自定义受众允许您定位多个浏览器，或为特定浏览器、浏览器版本或浏览器语言设置规则或排除项。根据浏览器属性定位活动时，此功能具有极大的灵活性。
 
-   ![“规则”>“浏览器”](assets/target_browser.png)
+   1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
+   1. 为受众命名并添加可选描述。
+   1. 将&#x200B;**[!UICONTROL Browser]**&#x200B;拖放到受众生成器窗格中。
 
-1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
+      ![规则>浏览器](assets/target_browser.png)
 
-   * **类型：**&#x200B;定位或排除特定浏览器。请参阅[类型](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)。
-   * **语言：**&#x200B;定位或排除设置为使用特定语言的特定浏览器。请参阅[语言](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)。
-   * **版本：**&#x200B;定位或排除特定浏览器版本。请参阅[版本](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)。
+   1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
-1. （可选）单击&#x200B;**[!UICONTROL 添加规则]**，然后为受众设置更多规则。
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+      * **类型：**&#x200B;定位或排除特定浏览器。请参阅[类型](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)。
+      * **语言：** 定位或排除设置为使用特定语言的某些浏览器。请参阅[语言](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)。
+      * **版本：**&#x200B;定位或排除特定浏览器版本。请参阅[版本](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)。
+   1. （可选）为受众设置其他规则。
+   1. 单击&#x200B;**[!UICONTROL 完成]**。
 
-以下示例显示受众为 Internet Explorer 版本 10 或 11 的用户：
+   以下示例显示了包含版本91或92的Microsoft Edge用户的受众：
 
-![定位 IE 10 和 11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
+   ![Target Edge 91或92](assets/target_edge.png)
 
 ## 浏览器选项 {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -113,13 +113,11 @@ ht-degree: 95%
 * 低于
 * 低于或等于
 
-键入版本号。
-
-在文本字段中只能输入主要版本。指定的版本包括该版本的任何次要版本。例如，如果您指定版本 10，则也会包括使用版本 10.1 的访客。
+键入版本号。在文本字段中只能输入主要版本。指定的版本包括该版本的任何次要版本。例如，如果您指定版本10，则版本10.1的访客也将包含在内。
 
 多个选项之间使用 OR 进行连接。
 
-## 培训视频：创建受众  ![教程徽章](/help/assets/tutorial.png)
+## 培训视频：创建受众 ![教程徽章](/help/assets/tutorial.png)
 
 以下视频包含有关使用受众类别的信息。
 

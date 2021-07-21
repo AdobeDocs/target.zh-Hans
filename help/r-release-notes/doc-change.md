@@ -4,9 +4,9 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 在哪里可以看到Target的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
+source-git-commit: db274f15be33c4bbbe1e7ba1a0c4880de48d3e77
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1876'
 ht-degree: 70%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 70%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 21 月 7 日 | [对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新了以下章节：<ul><li>Google Chrome SameSite Cookie实施策略对VEC和EEC有何影响？</li></ul> |
 | 19 月 7 日 | [分类 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 添加了有关事件代码–1或65535的信息。 |
 | 16 月 7 日 | [Target发行说明（当前版本）](/help/r-release-notes/release-notes.md)<br><br>[和at.js版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 版本 2.6.0 的信息。 |
 |  | [对与增强型体验编辑器有关的问 [!UICONTROL 题进行故障诊断]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | 更新了要的IP地址列允许列表表。 |

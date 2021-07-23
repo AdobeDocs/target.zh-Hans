@@ -1,36 +1,35 @@
 ---
-keywords: 概述和参考；活动类型；简介
-description: 了解 Adobe Target 的基础知识。本文向您介绍目标、其活动类型和其他功能。
+keywords: 概述和参考;活动类型;简介
+description: 了解 Adobe Target 的基础知识。本文向您介绍 Target、其活动类型以及其他功能。
 title: 如何使用 Target？
 feature: 概述
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-translation-type: tm+mt
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
 workflow-type: tm+mt
 source-wordcount: '1528'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Target 关键概念
 
-有关帮助您了解[!DNL Adobe Target]特性和功能的主要概念的信息。
+此信息介绍了有助于您了解 [!DNL Adobe Target] 特性和功能的关键概念。
 
 ## 活动和测试 {#section_BEA0A0C51A8847579B566060206DE7E8}
 
 活动可决定网站访客可能遇到的体验。
 
-例如，您可能会设计一个活动以对两个不同的登陆页面进行测试，其中一个页面着重显示夏季女鞋的相关信息，而另一个页面则重点展示更广泛的夏季服饰信息。此活动确定了用于控制这两个登陆页面分别何时显示的条件，以及用于决定哪个页面更为成功的量度。活动配置为在满足特定条件时开始和结束。 这些条件可包括在特定日期之间开始和结束活动，或在批准活动时结束开始，在停用时结束。
+例如，您可能会设计一个活动以对两个不同的登陆页面进行测试，其中一个页面着重显示夏季女鞋的相关信息，而另一个页面则重点展示更广泛的夏季服饰信息。此活动确定了用于控制这两个登陆页面分别何时显示的条件，以及用于决定哪个页面更为成功的量度。此活动配置为在满足特定条件时开始和结束。这些条件可能包括在特定日期之间开始和结束活动，或者在活动被批准时开始以及在活动被停用时结束。
 
-设计活动时，请谨慎规划。 确定活动开始的时间和持续时间。 然后，列出您的选件并为每个选件分配一组目标顾客。
+在设计活动时仔细规划。确定活动何时开始以及持续时间。然后，列出您的选件并为每个选件分配一组目标顾客。
 
-Target 包括多种活动类型。下表提供了每种活动类型的概述，其中包含可帮助您了解更多信息的链接。为了帮助您更好地选择最适合您的活动类型，目标团队还创建了[Adobe Target活动指南](/help/c-activities/target-activities-guide.md)。
+Target 包括多种活动类型。下表提供了每种活动类型的概述，其中包含可帮助您了解更多信息的链接。为了帮助您更好地选择符合要求的最佳活动类型，Target 团队还创建了 [Adobe Target 活动指南](/help/c-activities/target-activities-guide.md)。
 
 | 活动类型 | 描述 |
 |--- |--- |
 | [A/B 测试](/help/c-activities/t-test-ab/test-ab.md) | A/B 测试可比较两个或更多版本的网站内容，以查看在预先指定的测试期间，哪个版本最能提高转化。<br>**注意：**&#x200B;现在，您可以[在 A/B 测试活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
 | [自动分配](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 自动分配可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。<br>**注意：**&#x200B;现在，您可以[在自动分配活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
-| [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自动目标使用高级机器学习来识别多个由营销人员定义的卓越体验。 自动目标活动根据每位访客的个人客户用户档案和以前具有相似用户档案的访客的行为为每位提供最为定制的体验，从而个性化内容并推动转化。<br>**注意：**&#x200B;现在，您可以[在自动定位活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
+| [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 自动定位使用高级机器学习找出从多种由营销人员定义的体验中找出表现好的体验。自动定位活动会根据每位访客的个别客户个人资料以及个人资料相似的以往访客的行为，为每位访客提供最适合的体验，以使内容个性化并促进转化。<br>**注意：**&#x200B;现在，您可以[在自动定位活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
 | [使用 Analytics 数据](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | 您可以将活动配置为使用 [!DNL Adobe Analytics] 作为报表源。此活动类型要求您将 [!DNL Adobe Experience Cloud] 帐户与 [!DNL Analytics] 和 [!DNL Target] 均关联。 |
 | [多变量测试](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 多变量测试 (MVT) 可通过比较页面上各元素中的选件组合，来确定哪个组合对特定受众的效果最佳，以及哪个元素对活动成功的影响最大。 |
 | [体验定位](/help/c-activities/t-experience-target/experience-target.md) | 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。<br>**注意：**&#x200B;现在，您可以[在体验定位活动中包含推荐](/help/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/c-intro/intro.md#premium)。 |
@@ -50,11 +49,11 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 
 位置与受众相结合，可提供近乎无限数量的客户定位信息的选项。例如，如果访客以前从未访问过您的网站，您可以向这些新访客显示折扣券。同样，页面也可以更改为向回访客户显示更优化的选件。
 
-您还可以使用位置通过网站跟踪访客的进度。 您还可以使用位置跟踪访客是否完成特定成功量度，如向购物车中添加项目或完成购买。
+您还可以使用位置信息跟踪访客浏览您网站进度。您还可以使用位置信息跟踪访客是否完成特定的成功量度，例如将项目添加到购物车或完成购买。
 
 ## 体验和页面设计 {#section_B806FB752EC1470784755C1EB3D4AC70}
 
-体验（有时称为菜谱）可定义在您的页面上显示的内容，以及其他页面元素（如链接）。
+体验（有时也称为方法）可定义页面上显示的内容，以及其他页面元素，例如链接。
 
 当满足特定的定位条件时，体验会确定在特定位置显示哪些选件。例如，体验可决定当回访访客访问您的网站时，在页面顶部显示两天免运费优惠信息。体验还可决定当新访客首次访问页面时，在同一位置显示九折优惠信息。
 
@@ -82,7 +81,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 
 *体验*&#x200B;可决定满足特定条件时所显示的内容。
 
-## 受众{#section_3F32DA46BDF947878DD79DBB97040D01}
+## 受众 {#section_3F32DA46BDF947878DD79DBB97040D01}
 
 可为符合特定标准的活动参加者优化目标内容。
 
@@ -100,7 +99,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 |--- |--- |
 | 可重用受众 | 可以为任何活动选择可重用受众。对某个可重用受众进行更改时，该受众在使用它的所有活动中也会发生相应的更改。 |
 | 自定义区段 | 在 Target Classic 中，自定义区段（也称为“特定于营销活动”的区段）专门用于特定的营销活动。它们作为营销活动的一部分被创建，无法在其他营销活动中重复使用。 |
-| 共享受众 | 可以在 [!DNL Adobe Experience Cloud] 解决方案之间共享受众。有关示例，请参阅[受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans)。 |
+| 共享受众 | 可以在 [!DNL Adobe Experience Cloud] 解决方案之间共享受众。有关示例，请参阅[受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hans)。 |
 
 要了解访客配置文件如何跟踪与网站访客相关的信息，请参阅[访客配置文件](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)。
 

@@ -1,18 +1,17 @@
 ---
 keywords: 欢迎套件;target 欢迎套件;简介;简介;开始使用
-description: 还不熟悉 Adobe Target？使用Adobe [!DNL Target] 欢迎套件获取跳转开始。
+description: 还不熟悉 Adobe Target？用 Adobe [!DNL Target] 欢迎套件快速启动。
 title: 如何开始使用 Target
 feature: 概述
 exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Adobe [!DNL Target]欢迎套件
+# Adobe [!DNL Target] 欢迎套件
 
 欢迎使用 Adobe Target。
 

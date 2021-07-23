@@ -1,14 +1,13 @@
 ---
 keywords: 欢迎套件;target 欢迎套件;简介;简介;开始使用
-description: 用 Adobe Target 快速启动您的优化和个性化项目。Adobe [!DNL Target] 欢迎工具包是一个不错的起点。
+description: 用 Adobe Target 快速启动您的优化和个性化项目。Adobe [!DNL Target] 欢迎套件是一个很不错的起点。
 title: 如何开始使用 Target？
 feature: 概述
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

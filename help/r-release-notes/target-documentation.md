@@ -1,14 +1,13 @@
 ---
 keywords: adobe target;target;文档;api;apis;sdk;sdks;教程;文档;文档
-description: 访问Adobe [!DNL Target] 文档，包括联机帮助、教程、视频和开发人员文档（SDK、API和JavaScript库）。
+description: 访问 Adobe [!DNL Target] 文档，包括联机帮助、教程、视频和开发人员文档（SDK、API 和 JavaScript 库）。
 title: 可在何处找到 Target 的文档？
 feature: 发行说明
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

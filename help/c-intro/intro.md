@@ -1,15 +1,14 @@
 ---
 keywords: Target Standard;推荐;Target Premium;自动个性化;自动定位;自动定位;权限;adobe target 是什么;
-description: 了解Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] 高级版的基础知识，它包含标准产品中没有的高级功能。
+description: 了解 Adobe 基础知识 [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premium 包含标准产品中未提供的高级功能。
 landing-page-description: 个性化客户体验以最大限度地提升网站和移动站点、应用程序、社交媒体和其他数字渠道的收入。
 title: 什么是 Target？
 feature: 概述
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +89,7 @@ Target 包含以下高级功能：
 
 有关更多信息，请参阅 [Recommendations Classic 文档](/help/assets/adobe-recommendations-classic.pdf)。
 
-## Experience League:Adobe[!DNL Target]欢迎套件{#kit}
+## Experience League：Adobe [!DNL Target] 欢迎工具包 {#kit}
 
 用此欢迎套件在 [!DNL Adobe Target] 上构建您的优化和个性化项目。该欢迎套件包括关键信息、工具和资源，以帮助您准备和启动您的第一个 [!DNL Target] 活动。该套件包括短期快速入选和长期优化策略的想法。
 

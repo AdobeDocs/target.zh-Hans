@@ -69,7 +69,7 @@ No, check marks for model generation show only the models built to date. There's
 
 如果您希望对[!UICONTROL 自动定位]活动中的内容进行重大更改，最佳实践是开始一个新活动，以便其他用户查看报表时不会将过去的结果与不同内容混淆或相关联。
 
-### 我需要等待多久才能构建模型？{#how-long}
+### 我需要等待多久才能构建模型？ {#how-long}
 
 在[!UICONTROL 自动定位]活动中构建模型的耗时一般取决于所选活动位置的流量以及与活动成功指标相关的转化率。
 
@@ -97,7 +97,7 @@ No, check marks for model generation show only the models built to date. There's
 
 有关更多信息，请参阅[使用特定体验作为控制](/help/c-activities/t-automated-personalization/experience-as-control.md)。
 
-### 能否在自动定位活动中途更改目标指标？{#change-metric}
+### 能否在自动定位活动中途更改目标指标？ {#change-metric}
 
 我们建议不要在活动中途更改目标指标。虽然可在活动期间使用 [!DNL Target] UI 更改目标指标，但总是应开始新的活动。如果在活动运行之后更改其中的目标指标，我们不保证将发生什么情况。
 

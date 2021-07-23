@@ -1,13 +1,13 @@
 ---
 keywords: 响应令牌；令牌；插件；插件；at.js；响应
-description: 了解如何在Adobe [!DNL Target] 特定于输出的信息中使用响应令牌，以用于调试和与第三方工具集成。
+description: 了解如何在 [!DNL Adobe Target] 中使用响应令牌来输出特定于调试和与第三方工具集成的信息。
 title: 什么是响应令牌？如何使用它们？
 feature: 管理和配置
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1642'
 ht-degree: 27%
 
 ---
@@ -180,7 +180,7 @@ ht-degree: 27%
 
 响应令牌只能由具有[!DNL Target] [!UICONTROL 管理员]角色的用户激活或停用。
 
-**如果我运行的是[!DNL Platform Web SDK] 2.6.0（或更早版本），会发生什么情况？
+**如果我运行的是2.6. [!DNL Platform Web SDK] 0（或更早版本），会发生什么情况？**
 
 您无权访问响应令牌。
 

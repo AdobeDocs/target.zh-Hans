@@ -1,22 +1,21 @@
 ---
 keywords: 推荐;简介;简介;网络研讨会;演示
-description: 了解Adobe [!DNL Target] 中的Recommendations活动，它会根据先前的用户活动或其他算法自动显示可能引起客户兴趣的内容。
+description: 了解 Adobe [!DNL Target] 中的“推荐”活动，这些活动根据以前的用户活动或其他算法自动显示可能让客户感兴趣的内容。
 title: “推荐”活动是什么？
-feature: Recommendations
+feature: 推荐
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2115'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations 简介
+# ![PREMIUM](/help/assets/premium.png)“推荐”简介
 
-本文中的文本来自“Recommendations 简介”**&#x200B;网络研讨会，您可以在下面查看全文。
+本文中的文本来自““推荐”简介”**&#x200B;网络研讨会，您可以在下面查看全文。
 
-**“Recommendations 简介”网络研讨会包括对如何利用 [!DNL Adobe Target Recommendations] 价值的深入探讨。了解此 [!DNL Target] 活动如何通过基于先前的访问优化实时建议来自动显示客户可能感兴趣的产品或内容。此外，深入了解 [!DNL Target] UI，获取有关如何构建 [!DNL Recommendations] 活动的分步概述。
+**““推荐”简介”网络研讨会包括对如何利用 [!DNL Adobe Target Recommendations] 价值的深入探讨。了解此 [!DNL Target] 活动如何通过基于先前的访问优化实时建议来自动显示客户可能感兴趣的产品或内容。此外，深入了解 [!DNL Target] UI，获取有关如何构建 [!DNL Recommendations] 活动的分步概述。
 
 ## 简介
 
@@ -57,7 +56,7 @@ ht-degree: 98%
 * **完善的模型**，可帮助了解您目录中的数百万个项目和各种交互活动。[!DNL Target] 拥有经过十多年经验积累的先进的机器学习功能，我们每年都会处理数十亿条推荐。
 * **用户上下文**，可确保推荐及时并且与用户相关。您不希望推荐某个用户刚刚观看过的视频，或者某个用户刚刚添加到购物车的衬衫。这时候，您可以在推荐中使用 Target 中丰富的用户配置文件来确保个性化。
 
-## 实施[!DNL Target] Recommendations
+## 实现 [!DNL Target] 推荐
 
 从策略开始。
 
@@ -195,6 +194,6 @@ Target 使用标准卡片的概念。标准卡片就像个性化的配方。
 
 完成上述推荐漏斗中所述的任务后，您将获得最终的推荐。要在 [!DNL Target] 中观看产品内演示，该演示在 *Adobe Target 基础知识网络研讨会*&#x200B;中的 21:00 分钟处开始，其链接如下。
 
-## Adobe[!DNL Target]网络研讨会基础知识：Recommendations简介{#intro-to-recs}
+## Adobe [!DNL Target] 基础知识网络研讨会：“推荐”简介 {#intro-to-recs}
 
-[Recommendations 简介](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[“推荐”简介](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

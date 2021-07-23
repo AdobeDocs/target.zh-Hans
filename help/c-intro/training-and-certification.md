@@ -1,14 +1,13 @@
 ---
 keywords: 培训;认证;target;在线课程;课程;课程;课程
-description: 查找Adobe培训服务提供的Adobe [!DNL Target] 课程和认证。
+description: 查找 Adobe 培训服务提供的 Adobe [!DNL Target] 课程和认证。
 title: 可在何处找到培训和认证课程？
 feature: 概述
 exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 

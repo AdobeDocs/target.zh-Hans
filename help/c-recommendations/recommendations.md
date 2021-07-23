@@ -1,18 +1,17 @@
 ---
 keywords: 推荐;推荐标准;推荐算法;推荐活动;标准;推荐定向;推荐
-description: 了解Adobe [!DNL Target] 中的Recommendations活动，它会根据先前的用户活动或其他算法自动显示可能引起客户兴趣的内容。
-title: 什么是 [!DNL Target] Recommendations?
-feature: Recommendations
+description: 了解 Adobe [!DNL Target] 中的“推荐”活动，这些活动根据以前的用户活动或其他算法自动显示可能让客户感兴趣的内容。
+title: ' [!DNL Target] 推荐是什么？'
+feature: 推荐
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-translation-type: tm+mt
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations
+# ![PREMIUM](/help/assets/premium.png) 推荐
 
 [!DNL Adobe Target Recommendations] 活动根据以前的用户活动、偏好或其他标准，自动显示可能让访客感兴趣的产品、服务或内容。[!DNL Target Recommendations] 有助于引导访客查看在其他情况下他们可能不知道的相关项目。通过 [!DNL Recommendations]，可在正确的时间和正确的地点为访客提供相关的内容。
 
@@ -72,8 +71,8 @@ ht-degree: 97%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target 基础知识网络研讨会：Recommendations 简介![教程徽章](/help/assets/tutorial.png) {#intro-to-recs}
+## Adobe Target 基础知识网络研讨会：“推荐”简介![教程徽章](/help/assets/tutorial.png) {#intro-to-recs}
 
-**“Recommendations 简介”网络研讨会包括对如何利用 [!DNL Adobe Target Recommendations] 价值的深入探讨。了解此 [!DNL Target] 活动如何通过基于先前的访问优化实时建议来自动显示客户可能感兴趣的产品或内容。此外，深入了解 [!DNL Target] UI，获取有关如何构建 [!DNL Recommendations] 活动的分步概述。
+**““推荐”简介”网络研讨会包括对如何利用 [!DNL Adobe Target Recommendations] 价值的深入探讨。了解此 [!DNL Target] 活动如何通过基于先前的访问优化实时建议来自动显示客户可能感兴趣的产品或内容。此外，深入了解 [!DNL Target] UI，获取有关如何构建 [!DNL Recommendations] 活动的分步概述。
 
-[Recommendations 简介](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[“推荐”简介](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

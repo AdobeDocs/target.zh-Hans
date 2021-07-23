@@ -4,15 +4,14 @@ description: 纵览 Adobe Target。了解可用的活动、渠道、实现、集
 title: 可在何处找到 Target 的概括性介绍？
 feature: 概述
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2520'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 第二章：Adobe[!DNL Target]概览
+# 第 2 章：Adobe [!DNL Target] 概览
 
 在您开始使用 [!DNL Adobe Target] 之前，大致了解一下该解决方案可能对您有帮助。在本章中，可了解该解决方案的关键功能、可在上面使用它的品牌接触点、实现方式、重要的用户界面功能和工作流程、治理功能及其在整个 [!DNL Adobe Experience Cloud] 中的角色。除非指出本章中的某项为 [!DNL Adobe Target Premium] 功能，否则 [!DNL Adobe Target Premium] 和 [!DNL Adobe Target Standard] 均提供该功能。有关详细信息，请参阅 [Target 简介](/help/c-intro/intro.md)。
 

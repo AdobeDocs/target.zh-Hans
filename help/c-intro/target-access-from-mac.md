@@ -1,22 +1,21 @@
 ---
 keywords: Experience Cloud;登录;语言;默认 ui 语言;默认语言
-description: 了解如何访问 [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] UI和文档。
-title: 如何从Adobe Experience Cloud访问 [!DNL Target] ?
+description: 了解如何访问  [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] UI 和文档。
+title: 如何从 Adobe Experience Cloud 访问 [!DNL Target] ？
 feature: 概述
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# 从Adobe Experience Cloud访问[!DNL Target]
+# 从 Adobe Experience Cloud 访问 [!DNL Target]
 
-有关从 [!DNL Adobe Experience Cloud] 访问 [!DNL Adobe Target]，设置默认登陆页面以及更改 [!DNL Target] 用户界面语言的信息。
+有关从 [!DNL Adobe Experience Cloud] 访问 [!DNL Adobe Target]，设置默认登陆页以及更改 [!DNL Target] 用户界面语言的信息。
 
-## 登录Adobe [!DNL Target]并设置默认视图
+## 登录 Adobe [!DNL Target] 并设置您的默认视图
 
 1. 登录到 [Adobe Experience Cloud](https://experience.adobe.com/)。
 
@@ -30,7 +29,7 @@ ht-degree: 88%
 
    ![登陆页面](/help/c-intro/assets/pagepref-new.png)
 
-## 更改[!DNL Target] UI {#language}的默认语言
+## 更改 [!DNL Target] UI 的默认语言 {#language}
 
 1. 登录到 [!DNL Adobe Experience Cloud ] 或 [!DNL Target] 之后，单击您的个人资料头像，然后单击&#x200B;**[!UICONTROL “编辑首选项”]**。
 
@@ -65,7 +64,7 @@ ht-degree: 88%
 
 1. 从 [!DNL Adobe Experience Cloud] 或 [!DNL Target] 注销，然后重新登录以使更改生效。
 
-## 更改[!DNL Target]产品文档{#doc-lang}的语言
+## 更改 [!DNL Target] 产品文档的语言 {#doc-lang}
 
 您的操作系统或浏览器设置应会检测您的首选语言，并以该语言显示文档（如果适用）。[!DNL Target] 文档会自动翻译，并在对英文文档做出更改后的几小时内与英文版本保持同步。
 

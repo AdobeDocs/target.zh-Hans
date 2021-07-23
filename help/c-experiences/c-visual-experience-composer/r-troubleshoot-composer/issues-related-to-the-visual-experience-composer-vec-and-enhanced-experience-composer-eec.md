@@ -4,9 +4,9 @@ description: 了解如何在某些情况下，对Adobe [!DNL Target] 可视化�
 title: 如何对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断？
 feature: 可视化体验编辑器 (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1561'
 ht-degree: 49%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 49%
 >
 >以下更改会影响下面列出的所有三个更新：
 >
-> * *不*&#x200B;能够在其网站的受密码保护页面中使用VEC（无论是否安装并启用了VEC助手扩展）。 您的网站登录Cookie被视为第三方Cookie，随登录请求发送。 唯一的例外是您的网站登录Cookie已将SameSite参数设置为“none”。
+> * *不*&#x200B;能够在受密码保护的网站页面中使用VEC（无论是否安装并启用了VEC助手扩展）。 您的网站登录Cookie被视为第三方Cookie，随登录请求发送。 唯一的例外是您的网站登录Cookie已将SameSite参数设置为`none`和`Secure.`
 
 
 **Chrome 94（2021年9月21日）**:由于Chrome 94版本（2021年9月21日）即将进行的更改，以下更改将对使用Chrome 94及更高版本浏览器的所有用户造成影响：
@@ -36,7 +36,7 @@ ht-degree: 49%
 
 **Chrome 80（2020年8月）**:通过在2020年8月实施更改，所有使用Chrome 80及更高浏览器版本的用户：
 
-* 在编辑活动时（如果这些库不在网站上）， *不能*&#x200B;下载[!DNL Target]库。 这是因为下载调用是从客户域向安全Adobe域发起的，并因未经身份验证而被拒绝。
+* 在编辑活动时（如果这些库不在网站上）， *不能*&#x200B;下载[!DNL Target]库。 这是因为下载调用是从客户域向安全的[!DNL Adobe]域发起的，并因未验证而被拒绝。
 * EEC将对所有用户&#x200B;*不*&#x200B;起作用，因为它无法在`adobemc.com domain`上为Cookie设置SameSite属性。 如果没有此属性，浏览器将拒绝这些Cookie，从而导致EEC失败。
 
 ### 确定阻止的Cookie
@@ -56,7 +56,7 @@ ht-degree: 49%
 
 ### Google VEC助手扩展
 
-Adobe已将更新的VEC助手扩展提交到Google Chrome应用商店。 此扩展会覆盖Cookie属性，以根据需要设置`SameSite="none"`属性。 可在此处](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)找到[更新的扩展。 有关安装和使用VEC助手扩展的更多信息，请参阅[可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
+[!DNL Adobe] 已将更新的VEC助手扩展提交到Google Chrome应用商店。此扩展会覆盖Cookie属性，以根据需要设置`SameSite="none"`属性。 可在此处](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)找到[更新的扩展。 有关安装和使用VEC助手扩展的更多信息，请参阅[可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
 对于您自己的网站Cookie，必须按名称指定Cookie。
 
@@ -74,7 +74,7 @@ Adobe已将更新的VEC助手扩展提交到Google Chrome应用商店。 此扩�
 
 * 下载并使用更新的[VEC助手扩展](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
 * 使用Mozilla Firefox浏览器。 Firefox尚未强制实施此策略。
-* 使用以下标记从命令行运行Google Chrome，直到2021年9月21日。 9月21日后，您的网站在VEC中将无法再正常使用。 如果更新到Chrome 94，则必须在您的网站上手动生成包含`SameSite=none`和`Secure`的Cookie。
+* 使用以下标记从命令行运行Google Chrome，直到2021年9月21日。 9月21日之后，VEC中将不再提供需要Cookie的功能，例如登录或Cookie同意弹出窗口。 如果更新到Chrome 94，则必须在您的网站上手动生成包含`SameSite=none`和`Secure`的Cookie。
 
    ```
    --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure

@@ -1,20 +1,19 @@
 ---
 keywords: 推荐;推荐算法;推荐活动;Recommendations Classic
-description: 查看相关信息，帮助您了解 [!DNL Target] Premium中旧版Recommendations Classic活动与Recommendations之间的差异。
-title: 在 [!DNL Target] Premium中，Recommendations Classic和Recommendations有何区别？
-feature: Recommendations
+description: 查看信息以帮助您了解旧版 Recommendations Classic 与 Recommendations activities in [!DNL Target] Premium 之间的区别。
+title: Recommendations Classic 与 [!DNL Target] Premium 中的推荐之间有什么区别？
+feature: 推荐
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# ![PREMIUMRecommendations Classic与](/help/assets/premium.png) Recommendations活动在Premium中的对 [!DNL Target] 比
+# ![PREMIUM](/help/assets/premium.png) Recommendations Classic 与 Recommendations activities in [!DNL Target] Premium
 
-此信息可帮助您在 Recommendations Classic 与 Target Premium 中的“推荐”活动之间进行选择。
+此信息可帮助您在 Recommendations Classic 与 Recommendations activities in Target Premium 之间进行选择。
 
 >[!NOTE]
 >

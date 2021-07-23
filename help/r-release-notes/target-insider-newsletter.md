@@ -1,14 +1,13 @@
 ---
 keywords: Insider 新闻稿;新闻稿;产品更新;提示和技巧;活动;客户成功;博客;博客;白皮书;白皮书
 description: 阅读关于 Adobe Target 的最新新闻。查找关于即将开展的活动的信息、客户成功案例、专家提供的信息和提示等。
-title: 什么是Adobe [!DNL Target] 内幕新闻稿？
+title: Adobe [!DNL Target] Insider 新闻稿是什么？
 feature: 发行说明，概述
 exl-id: 39623bf0-093f-418a-b8c8-c621e0a56b00
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2152'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

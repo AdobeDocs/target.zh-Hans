@@ -1,18 +1,17 @@
 ---
 keywords: target 用户界面;用户界面;ui
 description: 熟悉用户界面并查找更深入的信息的链接，以帮助您充分利用 Target。
-title: 如何使用 [!DNL Target] UI?
+title: 如何使用 [!DNL Target] UI？
 feature: 概述
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 了解[!DNL Target] UI
+# 了解 [!DNL Target] UI
 
 该用户界面按符合逻辑并且便于用户使用的形式进行排列，以帮助您充分利用 [!DNL Adobe Target]。以下简要概述将帮助您熟悉 [!DNL Target]，并提供更深入的信息和分步说明的链接。
 
@@ -86,7 +85,7 @@ ht-degree: 98%
 
 有关 [!DNL Target] 中提供的选件类型的深入信息以及要详细了解[!UICONTROL “选件”]列表的用户界面，请参阅[选件](/help/c-experiences/c-manage-content/manage-content.md)。
 
-## Recommendations
+## 推荐
 
 单击&#x200B;**[!UICONTROL “推荐”]**&#x200B;选项卡以访问 [!DNL Target Recommendations]。
 

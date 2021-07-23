@@ -1,14 +1,13 @@
 ---
 keywords: 欢迎套件;target 欢迎套件;简介;简介;开始使用
-description: 只需“执行摘要结果”模板，即可帮助您用Adobe [!DNL Target] 活动交流成功案例。
-title: 如何与我的组织共享 [!DNL Target] 活动的结果？
+description: 使用执行摘要结果模板帮助您传达您的 Adobe [!DNL Target] 活动取得成功的情况。
+title: 如何才能与我的组织分享我的 [!DNL Target] 活动的结果？
 feature: 概述
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 

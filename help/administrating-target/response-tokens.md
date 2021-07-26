@@ -5,7 +5,7 @@ title: 什么是响应令牌？如何使用它们？
 feature: 管理和配置
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 27%
@@ -84,7 +84,7 @@ ht-degree: 27%
 
 用于侦听[!DNL Target]响应和读取响应令牌的过程会因您是使用[!DNL Platform Web SDK]还是at.js实施而异。
 
-### ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Platform Web SDK] 使用Handle对象类标记
+### ![Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Platform Web SDK] 使用Handle对象类标记 {#platform-web-sdk}
 
 使用Handle对象类，该类具有元数据对象和数据对象来侦听[!DNL Target]响应并读取响应令牌。
 

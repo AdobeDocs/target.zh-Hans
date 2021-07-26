@@ -5,9 +5,9 @@ title: 如何使用Experience PlatformWeb SDK实施？
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 5b5a94c6dc586e12789de7465f42c483bf268de0
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,6 @@ ht-degree: 4%
 
 | 主题 | 描述 |
 | --- | --- |
-| [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 使用[!DNL Adobe Target]中的QA URL来执行简单的端到端活动QA，它提供了永不更改的预览链接、可选的受众定位以及从实时活动数据中分段的QA报表。 [!UICONTROL 活动] QA允许您在启动活动 [!DNL Target] 之前对其进行全面测试。<br>请参 [阅Target JavaScript库 [!UICONTROL QA] 兼容性](/help/c-activities/c-activity-qa/activity-qa.md#compatibility)。 |
+| [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 通过[!DNL Adobe Target]中的QA URL，可以通过永不更改的预览链接、可选的受众定位以及从实时活动数据中分段的QA报表，轻松执行端到端活动QA。 在启动[!DNL Target]活动之前，您需要对其进行完全测试。<br>请参 [阅Target JavaScript库 [!UICONTROL QA] 兼容性](/help/c-activities/c-activity-qa/activity-qa.md#compatibility)。 |
 | [响应令牌](/help/administrating-target/response-tokens.md) | 响应令牌允许您将Target数据发送到Google Analytics和其他第三方集成。<br>请参 [阅通过Platform Web SDK向Google Analytics发送数据](/help/administrating-target/response-tokens.md#platform-web-sdk)。 |
 

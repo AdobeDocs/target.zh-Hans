@@ -1,13 +1,13 @@
 ---
-keywords: 响应令牌；令牌；插件；插件；at.js；响应
+keywords: 响应令牌；令牌；插件；插件；at.js；响应；platform web sdk
 description: 了解如何在 [!DNL Adobe Target] 中使用响应令牌来输出特定于调试和与第三方工具集成的信息。
 title: 什么是响应令牌？如何使用它们？
 feature: 管理和配置
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 46df34e8b486cbd5a21279fe960ab72b8b51ee71
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1645'
 ht-degree: 27%
 
 ---

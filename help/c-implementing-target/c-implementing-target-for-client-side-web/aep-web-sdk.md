@@ -5,7 +5,7 @@ title: 如何使用Experience PlatformWeb SDK实施？
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 0cfab8d09b74b3eb0ead33a0c37f9dab68a88305
+source-git-commit: eb3cae982ecb62f7745549562ea144228ad895fa
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 7%
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 ## 本指南中的推荐文档
 
-除了上述[!DNL Platform Web SKD]文档之外，本指南中的主题还包含与[!DNL Target]特性和功能相关的特定信息。[!DNL Platform Web SDK]
+除了上述[!DNL Platform Web SDK]文档之外，本指南中的主题还包含与[!DNL Target]特性和功能相关的特定信息。[!DNL Platform Web SDK]
 
 | 功能 | 描述/链接 |
 | --- | --- |

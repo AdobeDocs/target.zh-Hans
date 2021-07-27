@@ -5,9 +5,9 @@ title: 如何使用Experience PlatformWeb SDK实施？
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 36d9f041315c215c8a2e56b4c208f2f8c9e6dd7d
+source-git-commit: 28be06a329d017fd25d069986a0b7b047ddda206
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '447'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 * 欲知全面信息：[什么是Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * 有关[!DNL Target]的特定信息：[Target概述](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 
-## 本指南中的推荐文档
+## 推荐文档
 
 除了上述[!DNL Platform Web SDK]文档之外，本指南中的主题还包含与[!DNL Target]特性和功能相关的特定信息。[!DNL Platform Web SDK]
 
@@ -32,5 +32,5 @@ ht-degree: 6%
 | [受众](/help/c-target/target.md) | [!DNL Adobe Target]中的受众可确定在目标活动中看到内容和体验的受众。<br>请参 [阅使用受众](/help/c-target/c-audiences/audiences.md#use-list) 列 [表合并多个受众](/help/c-target/combining-multiple-audiences.md)。 |
 | [重定向选件 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 重定向选件会导致访客的浏览器重定向到新页面。<br>请参 [阅是 [!DNL Adobe Experience Platform Web SDK] 否支持A4T的重定向选件？](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [响应令牌](/help/administrating-target/response-tokens.md) | 响应令牌允许您将Target数据发送到Google Analytics和其他第三方集成。<br>请参 [阅通过Platform Web SDK向Google Analytics发](/help/administrating-target/response-tokens.md#platform-web-sdk) 送数据，以查看如何完成此任务的代码示例。 |
-| [单页应用程序实施](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) | [!UICONTROL Adobe Experience Platform Web ] SDK提供了丰富的功能，使您的企业能够在下一代客户端技术(如单页应用程序(SPA))上实现个性化。<br>本主题位于平台Web SDK *概述指* 南中。 |
+| [平台Web SDK概述指](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) 南中的单 *页应用程序* 实施。 | [!UICONTROL Adobe Experience Platform Web ] SDK提供了丰富的功能，使您的企业能够在下一代客户端技术(如单页应用程序(SPA))上实现个性化。 |
 | [TLS（传输层安全性）加密更改](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | TLS（传输层安全性）可帮助您保持最高的安全标准并提升客户数据的安全性。 |

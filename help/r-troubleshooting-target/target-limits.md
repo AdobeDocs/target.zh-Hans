@@ -5,10 +5,10 @@ title: Adobe Target 中有哪些字符、大小和其他限制？
 feature: 故障排除
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 95%
+source-wordcount: '1319'
+ht-degree: 88%
 
 ---
 
@@ -59,6 +59,24 @@ ht-degree: 95%
 ## categoryId 参数
 
 * **限制**：250 个字符。
+
+## 内容交付 {#content-delivery}
+
+* **限制**:100个并发内 [!DNL Target] 容交付请求。
+
+   如果客户为给定用户会话并发[!DNL Target]内容交付请求超过100个，则该用户会话的所有后续请求都将被阻止。 如果在收到请求中任意一个的请求的响应之前，请求全部发送到[!DNL Target]服务器，则认为是并发请求。 [!DNL Target] 按顺序处理同一会话的并发请求。
+
+* **错误行为**:
+
+   * 交付API和批量Mbox v2:
+      * 错误代码：HTTP 420请求过多
+      * 错误消息：&quot;具有相同会话ID的请求过多&quot;
+   * 旧版mbox API:
+      * 带有注释“具有相同会话ID的请求过多”的默认内容
+   * at.js:
+      * 显示的默认内容
+
+
 
 ## 客户属性
 

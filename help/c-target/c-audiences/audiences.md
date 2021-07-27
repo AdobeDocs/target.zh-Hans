@@ -4,7 +4,7 @@ description: 了解如何使用 [!DNL Adobe Target]中的[!UICONTROL Audiences]�
 title: 如何使用受众列表？
 feature: 受众
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: f7d73de376c2345b628e3ebadb1d4ab4dc598693
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 31%
@@ -30,7 +30,7 @@ ht-degree: 31%
 
    在 [!DNL Target] 中，仅当使用 [!DNL Target] 作为报表源时，才能配置报表受众。如果您使用 [ Adobe Analytics 作为报表源](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，则必须在 [!DNL Analytics] 中配置报表受众。
 
-## 使用[!UICONTROL Audiences]列表
+## 使用[!UICONTROL Audiences]列表 {#use-list}
 
 要访问“[!UICONTROL 受众]”列表，请单击顶部菜单栏中的&#x200B;**[!UICONTROL 受众]**：
 

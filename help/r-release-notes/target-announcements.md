@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: 发行说明
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 39bd28d7390781d4ac010f048d660fad10616a9d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 84%
+source-wordcount: '581'
+ht-degree: 82%
 
 ---
 
@@ -26,17 +26,15 @@ ht-degree: 84%
 
 ## [!DNL Adobe Target] 社区问答茶歇
 
-* **2021年7月21日星期三**
+* **2021年8月11日星期三**
 * **上午8点（太平洋夏令时，UTC -7）**
-* **[单击此处了解更多信息并注册](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171)。**
+* **[单击此处了解更多信息并注册](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742)。**
 
-[!DNL Target]高级产品经理David Son将回答您有关其专业领域的问题：
+[!DNL Adobe Target]的首席解决方案顾问James McTiernan将回答客户有关他在[!DNL Target]中的专业领域的问题：
 
-* [!DNL Adobe Experience Platform Web SDK]
-* 设备上决策
-* at.js
-* 移动设备
-* Target API
+* 推荐
+* A/B和多变量(MVT)测试
+* 个性化
 
 ## 网络研讨会：通过 Adobe Target 的设备上决策进行无延迟的个性化和测试
 

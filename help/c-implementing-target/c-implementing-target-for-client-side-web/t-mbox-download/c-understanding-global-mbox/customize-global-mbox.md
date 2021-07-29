@@ -5,16 +5,16 @@ title: 如何自定义全局mbox?
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 22%
+source-wordcount: '222'
+ht-degree: 18%
 
 ---
 
 # 自定义全局 mbox
 
-此信息可帮助您自定义适用于at.js的全局mbox。
+此信息可帮助您自定义适用于at.js的[!DNL Adobe Target]全局mbox。
 
 1. 单击&#x200B;**[!UICONTROL “管理”]**>**[!UICONTROL “实现”]**。
 
@@ -40,4 +40,5 @@ ht-degree: 22%
 
    >[!IMPORTANT]
    >
-   >您帐户中的所有活动均与此mbox同步。 如果此mbox不在您的网站上，则所有活动都将停止运行。
+   >您帐户中的所有活动均与此mbox同步。 确保您的网站上存在全局mbox，以便活动可以继续运行。 请务必编辑并重新保存之前通过与此mbox同步的可视化体验编辑器(VEC)创建的受影响活动。 无需重新保存在基于表单的体验编辑器中或通过API创建的活动。
+

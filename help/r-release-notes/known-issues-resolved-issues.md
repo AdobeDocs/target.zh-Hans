@@ -4,10 +4,10 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: 发行说明
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '4390'
-ht-degree: 98%
+source-wordcount: '4419'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 98%
 ## 已知问题 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 下面部分列出了 [!DNL Target] 的已知问题：
+
+### 增强型体验编辑器(EEC)不支持PUT请求。
+
+EEC当前存在一个问题，该问题导致EEC无法支持PUT请求，并导致504超时错误。 (TGT-41493)
 
 ### [!DNL Adobe Experience Platform] 区段名称不会显示在重要属 [!UICONTROL 性报] 表中。
 

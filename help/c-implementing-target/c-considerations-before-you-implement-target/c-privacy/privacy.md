@@ -5,10 +5,10 @@ title: ' [!DNL Target] 如何处理隐私问题？'
 feature: 隐私和安全
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 58%
+source-wordcount: '669'
+ht-degree: 63%
 
 ---
 
@@ -60,12 +60,6 @@ https://my.cname.domain/optout?client=clientcode。
 点击该链接的任何访客都不会包含在通过浏览会话调用的任何 mbox 请求中，直到他们删除 Cookie 或两年后（以时间在先者为准）为止。这通过在 `disableClient` 域中为访客设置称为 `clientcode.tt.omtrdc.net` 的 Cookie 实现。
 
 即使您使用第一方 Cookie 实施，提供的选择退订也将通过第三方 Cookie 进行设置。如果客户端只使用第一方 Cookie，则 Target 将会检查是否设置了选择退订 Cookie。
-
-## 功能使用数据的收集 {#feature-usage}
-
-为内部[!DNL Adobe]收集单个功能使用数据，以识别[!DNL Target]功能是否按预期执行，还是识别正在使用不足的功能。 收集各种延迟测量以帮助解决性能问题。 不会收集个人数据。
-
-您可以通过将配置文件中的`telemetryEnabled`设置为`false`来选择禁用报告使用情况数据。
 
 ## 隐私和数据保护法规
 

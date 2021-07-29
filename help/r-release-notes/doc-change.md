@@ -4,10 +4,10 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 在哪里可以看到Target的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 68%
+source-wordcount: '2036'
+ht-degree: 67%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 68%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 29 月 7 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了有关[!DNL Adobe Target]社区问答时间的信息：2021年8月11日星期三。 |
+|  | [自定义全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 更新了重要说明，以指示您必须在自定义全局mbox后编辑并重新保存在VEC中创建的受影响活动。 |
+|  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题：<ul><li>增强型体验编辑器(EEC)不支持PUT请求。</li></ul> |
 | 7 月 27 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 添加了新章节：<ul><li>推荐文档</li></ul> |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md#content-delivery) | 添加了新章节：<ul><li>内容交付</li></ul> |
-|  | [隐私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#feature-usage) | 添加了新章节：<ul><li>功能使用数据的收集</li></ul> |
 | 26 月 7 日 | [在Adobe Target Web SDK概述指南中](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) 将Adobe Experience Platform与 *Platform Web SDK结* 合使用 | 添加了新章节：<ul><li>平台Web SDK系统图</li></ul> |
 | 23 月 7 日 | [对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新了以下章节，以提供更多详细信息：<ul><li>Google Chrome SameSite Cookie实施策略对VEC和EEC有何影响？</li></ul> |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 在“体验”下添加了新章节“每个体验的修改”。 |

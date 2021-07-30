@@ -4,9 +4,9 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 在哪里可以看到Target的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2045'
 ht-degree: 67%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 67%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 30 月 7 日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了以下章节：<ul><li>entity.id</li><li>productPurchasedId 参数</li></ul> |
 | 29 月 7 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了有关[!DNL Adobe Target]社区问答时间的信息：2021年8月11日星期三。 |
 |  | [自定义全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 更新了重要说明，以指示您必须在自定义全局mbox后编辑并重新保存在VEC中创建的受影响活动。 |
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题：<ul><li>增强型体验编辑器(EEC)不支持PUT请求。</li></ul> |

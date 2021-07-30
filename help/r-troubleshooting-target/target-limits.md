@@ -5,10 +5,10 @@ title: Adobe Target 中有哪些字符、大小和其他限制？
 feature: 故障排除
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 88%
+source-wordcount: '1320'
+ht-degree: 86%
 
 ---
 
@@ -243,7 +243,7 @@ ht-degree: 88%
 
 ## productPurchasedId 参数
 
-* **限制**：每个逗号分隔值的限制为 47 个字符，总限制为 250 个字符。系统可能会截断长度大于 47 个字符的个别值。总长度大于 250 个字符可能会导致 400 错误。
+* **限制**：每个逗号分隔值的限制为 50 个字符，总限制为 250 个字符。超过50个字符的单个值将被系统截断。 超过250个字符的总长度会导致400错误。
 
 ## 配置文件脚本
 

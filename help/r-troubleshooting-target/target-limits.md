@@ -5,10 +5,10 @@ title: Adobe Target 中有哪些字符、大小和其他限制？
 feature: 故障排除
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
+source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 86%
+source-wordcount: '1364'
+ht-degree: 83%
 
 ---
 
@@ -115,9 +115,15 @@ ht-degree: 86%
 
    多值实体自定义属性最多可以包含 500 个值。每个值的限制为 100 个字符。所有值的字符总数必须符合单值实体自定义属性的最大长度限制（请参阅上文）。
 
-### entityID 参数
+### entity.id
 
-* **限制**：1,000 个字符。
+* **需要捕获购买信息的实施限制**:50个字符。
+
+   此限制是由于`productPurchasedId` mbox参数捕获entity.ids而强制执行的，这会将字符计数限制为50。
+
+* **仅限需要基于视图的算法的实施：** 1,000个字符。
+
+   基于视图的算法包括查看/查看、查看次数最多、最近查看次数等。
 
 ## excludedIds {#excludedid}
 

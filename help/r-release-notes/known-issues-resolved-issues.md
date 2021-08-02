@@ -4,10 +4,10 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: 发行说明
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
 workflow-type: tm+mt
-source-wordcount: '4419'
-ht-degree: 97%
+source-wordcount: '4480'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,16 @@ ht-degree: 97%
 
 下面部分列出了 [!DNL Target] 的已知问题：
 
+### 使用A4T自动分配活动的流量分配 {#aa-a4t}
+
+在某些情况下，使用[!UICONTROL Analytics for Target](A4T)的[!UICONTROL 自动分配]活动的流量分配可能会因每个体验报告的转化率而异。 回访访客流量比例较高的活动通常会出现这种情况。 受影响的客户将收到有关受影响活动的通知。 (TOP-131)
+
+### 自动分配和自动目标活动的 Analytics for Adobe Target (A4T) 指标
+
+通过 [!DNL Target] UI，用户可选择不支持的参与和收入指标作为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动中优化的主要目标指标。支持转化指标；但&#x200B;*不*&#x200B;支持参与和收入指标。如果选择参与或收入目标指标，则不构建优化模型。
+
+有关支持和不支持的目标指标的列表，请参阅[自动分配和自动定位活动支持 A4T](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。(TNT-38409)
+
 ### 增强型体验编辑器(EEC)不支持PUT请求。
 
 EEC当前存在一个问题，该问题导致EEC无法支持PUT请求，并导致504超时错误。 (TGT-41493)
@@ -34,12 +44,6 @@ EEC当前存在一个问题，该问题导致EEC无法支持PUT请求，并导�
 ### 存档[!UICONTROL 自动定位]活动可能会导致同步问题
 
 尝试存档不活动的[!UICONTROL 自动定位]活动可能会导致同步问题。 在此问题得到修复之前，请勿存档[!UICONTROL 自动定位]活动。 将它们保留为[!UICONTROL Inactive]状态。 (TGT-40885)
-
-### 自动分配和自动目标活动的 Analytics for Adobe Target (A4T) 指标
-
-通过 [!DNL Target] UI，用户可选择不支持的参与和收入指标作为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动中优化的主要目标指标。支持转化指标；但&#x200B;*不*&#x200B;支持参与和收入指标。如果选择参与或收入目标指标，则不构建优化模型。
-
-有关支持和不支持的目标指标的列表，请参阅[自动分配和自动定位活动支持 A4T](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。(TNT-38409)
 
 ### 页面交付 {#page-delivery}
 

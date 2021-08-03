@@ -4,9 +4,9 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 在哪里可以看到Target的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2101'
 ht-degree: 66%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 66%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 8 月 3 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发行的[!DNL Target Standard/Premium] 21.8.1版本（2021年8月4日）的信息。 |
+| 8 月 3 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关[!UICONTROL Target交付API]版本的信息。 |
+|  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发行的[!DNL Target Standard/Premium] 21.8.1版本（2021年8月4日）的信息。 |
 | 8 月 2 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题：<ul><li>使用A4T自动分配活动的流量分配</li></ul> |
 |  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发行的[!UICONTROL Target交付API]版本的信息。 |
 | 30 月 7 日 | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了以下章节：<ul><li>entity.id</li><li>productPurchasedId 参数</li></ul> |

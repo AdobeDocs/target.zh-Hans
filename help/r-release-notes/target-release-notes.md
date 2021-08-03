@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括什么新功能？
 feature: 发行说明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 61%
+source-wordcount: '351'
+ht-degree: 58%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 61%
 * `categoryId`的限制已增加到256个字符。 以前的限制为128个字符。
 * 向交付API中添加了以下[!DNL Adobe Audience Manager](AAM)详细信息：
 
-   * AAM UUID(Adobe Audience Manager独特用户ID)
-   * dataPartnerId
-   * dataPartnerUserId
+   * AAM UUID:用于唯一标识用户的内部AAM ID。
+   * dataPartnerId:数据合作伙伴的ID。
+   * dataPartnerUserId:数据合作伙伴提供的用户ID。
 
    以前，交付API仅包含`dcsLocationHint`和`blob`。 (TNT-41644)
 

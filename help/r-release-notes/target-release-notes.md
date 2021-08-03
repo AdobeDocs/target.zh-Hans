@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括什么新功能？
 feature: 发行说明
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
+source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 74%
+source-wordcount: '336'
+ht-degree: 61%
 
 ---
 
@@ -24,6 +24,12 @@ ht-degree: 74%
 >**mbox.js 生命周期结束**：从 2021 年 3 月 31 日起，[!DNL Adobe Target] 将不再支持 mbox.js 库。2021 年 3 月 31 日之后，所有从 mbox.js 进行的调用都会失败，并影响您通过提供默认内容而运行 [!DNL Target] 活动的页面。
 >
 >请迁移到新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 库的最新版本，以避免您的网站出现任何潜在问题。有关详细信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
+
+## [!DNL Target Standard/Premium] 21.8.1（2021年8月4日）
+
+此维护版本包含许多后端增强功能，包括以下面向客户的更改：
+
+* 修复了导致在[!UICONTROL 基于表单的体验编辑器]中创建的[!UICONTROL 自动个性化]活动的报表引用报表中已删除的选件的问题。 此问题导致显示以下错误消息：“检索此报表的数据时遇到问题。 如果问题仍然存在，请联系Adobe客户关怀。” (TGT-41028)
 
 ## Target交付API（确定日期）
 

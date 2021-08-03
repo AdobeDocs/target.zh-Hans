@@ -5,7 +5,7 @@ title: Adobe Target 中有哪些字符、大小和其他限制？
 feature: 故障排除
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 83%
@@ -58,7 +58,7 @@ ht-degree: 83%
 
 ## categoryId 参数
 
-* **限制**：250 个字符。
+* **限制**：256 个字符。
 
 ## 内容交付 {#content-delivery}
 
@@ -196,7 +196,7 @@ ht-degree: 83%
 
    **投放 API 端点**：
 
-   * mbox 参数数量 50
+   * mbox 参数数量 100
    * mbox 参数名称最大长度 128
    * mbox 参数值不得为 null
    * mbox 参数值 5000

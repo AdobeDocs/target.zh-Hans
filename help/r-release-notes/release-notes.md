@@ -4,10 +4,10 @@ description: 了解 [!DNL Adobe Target]当前版本中包含的新增功能、�
 title: 当前版本中包括什么新功能？
 feature: 发行说明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 54%
+source-wordcount: '721'
+ht-degree: 49%
 
 ---
 
@@ -22,6 +22,20 @@ ht-degree: 54%
 >迁移到新[!DNL Adobe Experience Platform Web SDK]或at.js JavaScript库的最新版本，以避免您的网站出现任何潜在问题。 有关详细信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## Target交付API（2021年8月3日）
+
+此版本包含以下增强功能：
+
+* mbox参数限制已增加到100个参数。 以前的限制是50个参数。 (TNT-41717)
+* `categoryId`的限制已增加到256个字符。 以前的限制为128个字符。
+* 向交付API中添加了以下[!DNL Adobe Audience Manager](AAM)详细信息：
+
+   * AAM UUID(Adobe Audience Manager独特用户ID)
+   * dataPartnerId
+   * dataPartnerUserId
+
+   以前，交付API仅包含`dcsLocationHint`和`blob`。 (TNT-41644)
 
 ## at.js 2.6.0（2021年7月16日）
 

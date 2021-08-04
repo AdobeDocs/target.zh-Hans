@@ -4,7 +4,7 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 在哪里可以看到Target的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
+source-git-commit: d577ef0268e5f1bca4bf78a8c5ad4d0547adb68f
 workflow-type: tm+mt
 source-wordcount: '2149'
 ht-degree: 66%
@@ -20,7 +20,7 @@ ht-degree: 66%
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 8 月 4 日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 添加了有关 `optinEnabled` 设置的信息。 |
-|  | [Target发行说明（当前版本）](/help/r-release-notes/release-notes.md):21.6.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
+|  | [Target发行说明（当前版本）](/help/r-release-notes/release-notes.md):21.8.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1（2021 年 6 月 30 日）
 

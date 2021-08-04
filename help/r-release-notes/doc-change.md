@@ -4,9 +4,9 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 在哪里可以看到Target的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
+source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2143'
 ht-degree: 66%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 66%
 # Adobe Target 产品文档中的文档更改
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
+
+## Adobe [!DNL Target] Standard/Premium 21.8.1（2021 年 8 月 4 日）
+
+| 日期 | 主题 | 更改 |
+| --- | --- | --- |
+| 8 月 4 日 | [Target发行说明（当前版本）](/help/r-release-notes/release-notes.md):21.6.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1（2021 年 6 月 30 日）
 

@@ -4,9 +4,9 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
+source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2138'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 93%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 8 月 5 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了说明[!DNL Target Standard/Premium] 18.8.1版本延迟的说明。 |
+|  | [自动分配概述](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | 添加了以下常见问题解答：<ul><li>我是否可以在[!UICONTROL 自动分配]活动的中途更改报表源？</li></ul> |
 | 8 月 4 日 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 添加了有关 `optinEnabled` 设置的信息。 |
 | 8 月 3 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关[!UICONTROL Target交付API]版本的信息。 |
 |  | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关即将发行的[!DNL Target Standard/Premium] 21.8.1版本（2021年8月4日）的信息。 |

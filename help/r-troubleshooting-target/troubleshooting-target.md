@@ -36,15 +36,15 @@ ht-degree: 100%
 
 ### 自动定位
 
-* [自动定位故障排除和常见问题](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
-* [个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+* [自动定位故障排除和常见问题解答](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [个性化见解报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### 自动个性化 (AP)
 
-* [自动个性化常见问题解答](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
-* [自动个性化故障诊断](/help/c-activities/t-automated-personalization/ap-trouble.md)
-* [自动个性化摘要报表](/help/c-reports/reports-ap.md)
-* [个性化分析报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+* [Automated Personalization 常见问题解答](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Automated Personalization 疑难解答](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Automated Personalization 摘要报表](/help/c-reports/reports-ap.md)
+* [个性化见解报表](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### 多变量测试 (MVT)
 
@@ -120,7 +120,7 @@ ht-degree: 100%
 ### at.js
 
 * [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-* [使用 Adobe Experience Cloud 调试器调试 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
+* [使用 Adobe Experience Cloud Debugger 调试 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
 * [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
 * “办公时间”视频，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 
@@ -130,7 +130,7 @@ ht-degree: 100%
 
 ## 移动应用程序
 
-* [Target 移动应用程序版常见问题](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [Target 移动应用程序版常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## 设备上决策
 
@@ -151,7 +151,7 @@ ht-degree: 100%
 
 ## 定位
 
-* [Adobe Target 中的地域](/help/c-target/c-audiences/c-target-rules/geo.md)
+* [地域](/help/c-target/c-audiences/c-target-rules/geo.md)
 
 ## 用户
 

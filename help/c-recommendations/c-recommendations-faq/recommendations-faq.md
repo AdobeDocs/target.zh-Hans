@@ -7,7 +7,7 @@ exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
 source-wordcount: '3129'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 >[!NOTE]
 >
->此设置仅适用于在[!UICONTROL 可视化体验编辑器](VEC)中创建的活动。 此设置不适用于在基于表单的体验编辑器中创建的活动（[!DNL Target] 没有位置上下文）。
+>此设置仅适用于在[!UICONTROL 可视化体验编辑器] (VEC) 中创建的活动。此设置不适用于在基于表单的体验编辑器中创建的活动（[!DNL Target] 没有位置上下文）。
 
 要访问[!UICONTROL 筛选不兼容的标准]设置，请依次单击[!UICONTROL 推荐] > [!UICONTROL 设置]：
 
@@ -241,27 +241,27 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果该访客并非同时具有两个活动会话，那么只要会话已结束，一台设备上最近查看过的项目就会更新另一台设备上最近查看过的项目。测试此行为时，请等待 35 分钟以使会话过期。
 
-## 我能否使用在[!DNL Recommendations Premium]的[!DNL Adobe Recommendations Classic]中创建的算法？
+## 我是否可以在 [!DNL Recommendations Premium] 中使用在 [!DNL Adobe Recommendations Classic] 中创建的算法？
 
-在[!DNL Recommendations Classic]中创建的算法在[!DNL Recommendations Premium]中不受支持。 您可能能够在[!DNL Target Premium]中使用旧版算法；但是，在[!DNL Target Premium] UI中取消激活或删除活动时，算法可能会创建同步问题。 有关两个解决方案之间差异的更多信息，请参阅 [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] versus [!DNL Recommendations] 活动。
+[!DNL Recommendations Premium] 不支持 [!DNL Recommendations Classic] 中创建的算法。您或许可以使用 [!DNL Target Premium] 中的旧算法；但是，在 [!DNL Target Premium] UI 中停用或删除活动时，该算法可能会产生同步问题。有关这两种解决方案之间的差异的更多信息，请参阅  [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md) 中的 [[!DNL Recommendations Classic] versus [!DNL Recommendations]  活动。
 
-## 如何仅推荐新文章或视频？ {#recommend-new-articles}
+## 如何只推荐新文章或视频？ {#recommend-new-articles}
 
-媒体和发布领域的一些客户希望确保推荐的项目仅包含最新的文章或视频。 例如，[!DNL Target]客户使用以下方法推荐不到60天的文章：
+媒体和出版行业中的一些客户希望确保推荐项目仅包含最新的文章或视频。例如，[!DNL Target] 客户使用了以下方法推荐存在时间少于 60 天的文章：
 
-1. 以YYYMDDD格式作为自定义实体属性传递文章发布日期。
-1. 创建日期减去60天且采用YYYYMMDD格式的配置文件脚本。
-1. 在标准中使用动态包含过滤器，以便`publish date > today’s date minus 60 days`。
+1. 以 YYMMDDD 格式传递文章发布日期作为自定义实体属性。
+1. 创建一个日期为今天日期减去 60 天并且也是 YYYYMMDD 格式的配置文件脚本。
+1. 在条件中使用动态包含过滤器，以便`publish date > today’s date minus 60 days`。
 
-### 将发布日期作为自定义实体属性传递：
+### 传递作为自定义实体属性的发布日期：
 
 | 实体属性 | 示例 |
 | --- | --- |
 | issueDate | 2021218 |
 | lastViewDate | 2021701 |
-| parentCategory | 评论 |
+| parentCategory | 注释 |
 | publishDate | 20210113 |
-| publishDateDisplay | 2021年1月13日 |
+| publishDateDisplay | 2021 年 1 月 13 日 |
 
 ### 配置配置文件脚本：
 
@@ -269,8 +269,8 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ### 配置包含规则：
 
-![包含规则示例](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+![示例包含规则](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
 
 >[!NOTE]
 >
->此示例也可以使用参数匹配并将`priorDate60`值作为mbox参数进行传递来完成。
+>此示例还可以使用匹配 `priorDate60` 值并将其作为 mbox 参数进行传递的参数来完成。

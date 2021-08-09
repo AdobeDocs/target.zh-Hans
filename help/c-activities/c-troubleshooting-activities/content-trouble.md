@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '1268'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 
 * 工作区/产品配置文件级别的管理员角色
 
-   工作区仅对 [!DNL Target Premium] 客户可用。有关详细信息，请参阅[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)。
+   工作区仅对 [!DNL Target Premium] 客户可用。有关更多信息，请参阅[配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md)。
 
 * [!DNL Adobe Target] 产品级别的管理员权限（系统管理员权限）
 
@@ -56,7 +56,7 @@ ht-degree: 97%
 
 | mboxTrace 选项 | 结果 |
 |--- |--- |
-| `?mboxTrace=console` | 作为对象打印到控制台日志中。<br>对于at.js，不会像在mbox.js中一样弹出新的浏览器窗口或输出到控制台，您而是将需要检查网络请求，并在“预览”(Chrome)或“响应”(Firefox)下查看。 |
+| `?mboxTrace=console` | 作为对象打印到控制台日志中。<br>对于 at.js，不会像在 mbox.js 中一样弹出新的浏览器窗口或输出到控制台，而是需要检查网络请求，并在“预览”(Chrome) 或“响应”(Firefox) 下查看。 |
 | `?mboxTrace=json` | 作为 JSON 文字字符串打印到控制台日志中 |
 | `?mboxTrace=window` | 作为 JSON 字符串打印到弹出窗口中 |
 | `?mboxTrace=disable` | 关闭跟踪会话模式 |
@@ -71,8 +71,8 @@ ht-degree: 97%
 
 * **SegmentId**：客户群的 ID，来自可重复使用的客户群库或为特定营销活动创建的匿名客户群库。
 * **TargetId**：定位的 ID，来自定位表达式库或营销活动中任意客户群的匿名定位。
-* **不匹配**：在此调用中，请求不符合这些客户群或定位的要求。
-* **匹配**：请求符合指定客户群或定位的要求。
+* **Unmatched**：在此调用中，请求不符合这些客户群或定位的要求。
+* **Matched**：请求符合指定客户群或定位的要求。
 
 **在推荐页面上使用 mboxTrace**：在具有推荐的页面上添加 mboxTrace 作为查询参数会将页面上的推荐设计替换为 mboxTrace 详细信息窗口，后者显示关于您的推荐的深入信息，包括：
 
@@ -108,7 +108,7 @@ ht-degree: 97%
 >
 >确保 URL 片段位于查询字符串参数之后。第一个 `#` 之后的任何内容均为片段标识符，并导致调试参数无法正常运行。
 
-## Adobe Experience Cloud 调试器 {#section_A2798ED3A431409690A4BE08A1BFCF17}
+## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
 借助 Adobe Experience Cloud 调试器，您可以快速、轻松地了解 Target 实施。您可以快速查看库配置、检查请求以确保正确传递自定义参数、打开控制台日志记录以及禁用所有 Target 请求。在 Experience Cloud 中通过身份验证，即可使用强大的 MboxTrace 工具检查活动和受众资格以及访客个人资料。
 
@@ -132,7 +132,7 @@ Target 不再支持 IE 8。
 
 如果您的网站具有一个子域（例如 [!DNL us.domain.com]），但您需要在 [!DNL domain.com]（而不是 [!DNL us.domain.com]）上设置 Target Cookie，则必须覆盖 `cookieDomain` 设置。有关更多信息，请参阅 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 
-## 如果某个元素同时也是 AEM 个性化的一部分，则 Target 内容会闪烁或无法显示。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## 如果某个元素也是 AEM 个性化的一部分，则 Target 内容会闪烁或无法显示。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
 如果某个 DOM 元素是 Adobe Experience Manager (AEM) 个性化定位和 Target 活动的一部分，则 Target 内容可能会闪烁或无法显示。
 

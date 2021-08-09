@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
 source-wordcount: '4505'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 96%
 
 EEC当前存在一个问题，该问题导致EEC无法支持PUT请求，并导致504超时错误。 (TGT-41493)
 
-### [!DNL Adobe Experience Platform] 区段名称不会显示在重要属 [!UICONTROL 性报] 表中。
+### [!DNL Adobe Experience Platform] 区段名称未显示在[!UICONTROL 重要属性]报告中。
 
-[!DNL Adobe Experience Platform] 区段名称不会显示在 [!UICONTROL Automated Personalization] (AP)和自动定 [!UICONTROL 位(AT)活动] 的重要属性 [!UICONTROL 报表中。] (TOP-3813)
+[!DNL Adobe Experience Platform] 区段名称未显示在 [!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 自动定位] (AT) 活动的[!UICONTROL 重要属性]报告中。(TOP-3813)
 
 ### 存档[!UICONTROL 自动定位]活动可能会导致同步问题
 
-尝试存档不活动的[!UICONTROL 自动定位]活动可能会导致同步问题。 在此问题得到修复之前，请勿存档[!UICONTROL 自动定位]活动。 将它们保留为[!UICONTROL Inactive]状态。 (TGT-40885)
+尝试存档无效的[!UICONTROL 自动定位]活动可能会导致同步问题。在解决此问题之前，请勿存档[!UICONTROL 自动定位]活动。请让它们处于[!UICONTROL 无效]状态。(TGT-40885)
 
 ### 页面交付 {#page-delivery}
 
@@ -151,7 +151,7 @@ EEC当前存在一个问题，该问题导致EEC无法支持PUT请求，并导�
 
 2020 年 5 月 10 日，Adobe 更新了地理位置提供商文件，因此产生了一些不一致的情况。例如，添加了一些包含逗号的值；但是，现有受众中的值没有逗号。并非所有 Adobe 投放服务器都受此更改影响。因此，在 2020 年 5 月 10 日至 7 月 22 日之间，使用此类值的受众可能没有为所有正确的访客授予资格。
 
-### 报表 - 可下载的 .csv 报告中的数据与 [!DNL Target] UI 中显示的报表不一致。 {#csv}
+### 报表 - 可下载的 .csv 报表中的数据与 [!DNL Target] UI 中显示的报表不一致。 {#csv}
 
 如果活动使用多个指标，则为以 .csv 文件形式下载而生成的报表不一致。仅根据报告设置生成可下载的报表，并且该报表对于任何其他所使用的指标均考虑相同的值。
 
@@ -284,7 +284,7 @@ Target Standard/Premium 20.10.1 版本中修复了此问题。
 
 页面上出现的争用情况可能会导致同时计入原始页面和重定向页面上的页面查看次数。我们计划对 at.js 实施进行更新，以确保避免出现这种争用情况。
 
-已现在 at.js 1.6.3 中修复此问题。
+已在 at.js 1.6.3 中修复此问题。
 
 ### 排除组
 
@@ -321,7 +321,7 @@ Adobe I/O 上的 v1 版选件 API 将通过 Target 创建的所有选件存储�
 
 默认工作区中通过 API 删除的活动继续显示在 Target UI 中。作为解决方法，请使用 Target UI 删除默认工作区中的所有活动。(TGT-31315)
 
-已于 2018 年 10 月 25 日修复
+已于 2018 年 10 月 25 日修复。
 
 ### 自动个性化 (AP) 选件报表
 
@@ -381,7 +381,7 @@ at.js 版本 0.9.6 中更改了对保存 Cookie 时应使用的顶级域进行�
 
 **重要信息**：此问题不会自动修复。您必须重新保存任何受影响的活动才能修复此问题。
 
-此问题已于 2017 年 6 月 29 日修复
+此问题已于 2017 年 6 月 29 日修复。
 
 ### 基于表单的体验编辑器
 

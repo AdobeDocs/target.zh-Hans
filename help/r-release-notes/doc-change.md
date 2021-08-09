@@ -4,9 +4,9 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: 发行说明
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 51e36576439ff365bbdac14da67cb971c36431d6
+source-git-commit: 083a92c53d11d865738b456acf47cf9663fddcd1
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2181'
 ht-degree: 92%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 92%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 8 月 9 日 | [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 更新了主题。 |
 | 8 月 6 日 | [使用 at.js 实施 Analytics for Target (A4T) 之前](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 更新了以下说明：<ul><li>at.js 1.8.0及更高版本和at.js 2.x及更高版本不再适用于2.5.0以前的访客API版本，进而无法传递Adobe Audience Manager(AAM)参数。</li></ul> |
 | 8 月 5 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了说明[!DNL Target Standard/Premium] 18.8.1版本延迟的说明。 |
 |  | [自动分配概述](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | 添加了以下常见问题解答：<ul><li>我是否可以在[!UICONTROL 自动分配]活动的中途更改报表源？</li></ul> |

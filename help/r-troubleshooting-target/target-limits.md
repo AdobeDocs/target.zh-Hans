@@ -8,7 +8,7 @@ exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -36,11 +36,11 @@ ht-degree: 83%
 
 * **建议的限制**：10000 个有效的已保存（但未结束）的活动。
 
-## Target API调用
+## Target API 调用
 
-* **限制**:每分钟50次，用于管理员、报告和批量配置文件更新API。此限制不适用于交付API和单个用户档案更新API。
+* **限制**：管理员、报表和批量配置文件更新 API 每分钟调用 50 次。此限制不适用于交付和单个配置文件更新 API。
 
-   如果每分钟发起的API调用超过50次，则[!DNL Target]会返回“503 HTTP状态”错误消息。
+   如果您每分钟进行的 API 调用超过 50 次，[!DNL Target] 将返回一个“503 HTTP 状态”错误消息。
 
 ## 受众
 
@@ -257,7 +257,7 @@ ht-degree: 83%
 
 * **建议的每个帐户个人资料脚本总数的限制**：2000
 
-* **建议限制个人资料脚本复杂度**：个人资料脚本只能执行有限数量的指令。有关详细信息，请参阅“配置文件属性”**&#x200B;中的[最佳实践](/help/c-target/c-visitor-profile/profile-parameters.md#best)。
+* **建议限制个人资料脚本复杂度**：个人资料脚本只能执行有限数量的指令。有关更多信息，请参阅“配置文件属性”**&#x200B;中的[最佳实践](/help/c-target/c-visitor-profile/profile-parameters.md#best)。
 
 ## 属性
 

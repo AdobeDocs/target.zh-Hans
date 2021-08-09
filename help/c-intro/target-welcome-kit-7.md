@@ -1,13 +1,13 @@
 ---
-keywords: 欢迎套件;target 欢迎套件;简介;简介;开始使用
+keywords: 欢迎套件;target 欢迎套件;简介;简介;快速入门
 description: 让我们开始您在 Adobe [!DNL Target] 中的第一个活动，以使您可从投资获得 ROI。
-title: 我需要在Target中创建第一个活动。 我从哪里开始？
+title: 我需要在 Target 中创建我的第一个活动。我从哪里开始？
 feature: 概述
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
 workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 99%
 
 ### 需要什么资源/团队参与活动？
 
-如果您的活动需要设计人员、Web 开发人员或数据分析人员的协助，请记载到此处，并解释作为活动的一部分他们将需要做什么。
+如果您的活动需要设计人员、Web 开发人员或数据分析员的协助，请记载到此处，并解释作为活动的一部分他们将需要做什么。
 
 ### 如果运行测试，则此测试需要运行多久才能产生意义？
 

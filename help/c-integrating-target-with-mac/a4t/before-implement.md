@@ -33,7 +33,7 @@ ht-degree: 26%
 
 如果您不打算将重定向选件与 A4T 结合使用，此集成要求您实施以下库版本（或更高版本）。所列的顺序即是操作顺序。
 
-* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js版本1.8.0
+* &#x200B;[!DNL Experience Cloud Visitor ID Service]:visitorAPI.js版本1.8.0
 * [!DNL Adobe Target]: at.js 0.9.1 版
 * Adobe Analytics：appMeasurement.js 版本 1.7.0
 
@@ -41,7 +41,7 @@ ht-degree: 26%
 
 要将重定向选件与 A4T 结合使用，您必须实施以下库版本（或更高版本）。所列的顺序即是操作顺序。
 
-* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js版本2.3.0
+* &#x200B;[!DNL Experience Cloud Visitor ID Service]:visitorAPI.js版本2.3.0
 
    >[!NOTE]
    >

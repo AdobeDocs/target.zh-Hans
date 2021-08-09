@@ -19,7 +19,7 @@ ht-degree: 100%
 
 **我可以如何查看其他客户怎样利用 Adobe Target 以获得更好的结果？**
 
-这里是我们的[客户成功案例](https://www.adobe.com/cn/marketing-cloud/target/resources.html#x)中的一部分。可以从中了解客户如何利用 Target 改进优化和个性化设置以实现业务目标。
+这里是我们的[客户成功案例](https://www.adobe.com/in/marketing-cloud/target/resources.html#x)中的一部分。可以从中了解客户如何利用 Target 改进优化和个性化设置以实现业务目标。
 
 请注意，其中一些案例研究利用了 Adobe Target Premium 的功能。
 
@@ -305,7 +305,7 @@ ht-degree: 100%
 
 很抱歉您遇到了问题。请试试 [Target 故障诊断](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)，其中提供许多故障诊断主题的链接。
 
-## Target 移动设备应用程序 {#section_07BA89F2C38747158ECD5B153274AEAF}
+## Target 移动应用程序 {#section_07BA89F2C38747158ECD5B153274AEAF}
 
 **我们有一个移动版 SKU。我是否可以在移动设备上创建活动？**
 

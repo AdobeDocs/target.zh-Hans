@@ -1,5 +1,5 @@
 ---
-keywords: 欢迎套件;target 欢迎套件;简介;简介;开始使用
+keywords: 欢迎套件;target 欢迎套件;简介;简介;快速入门
 description: 阅读我们的专家小组关于使用 Adobe [!DNL Target] 作为测试和个性化工作的一部分给出的提示。
 title: 可在何处找到关于使用 Target 的提示和技巧？
 feature: 概述
@@ -7,7 +7,7 @@ exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 **应了解的要点**：由于 [!DNL Target] 是一种开放而无特定要求的平台，它与多种不同的技术配合得都很好，因此可按多种不同的方式添加 CRM 或购买的数据。这意味着可选择一种最适合您组织的方法。
 
-有关详细信息，请参阅[将数据纳入到 Target 中的方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)。
+有关更多信息，请参阅[将数据纳入到 Target 中的方法](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)。
 
 ## 提示 2：通过将 [!DNL Target] 受众融入其他 Adobe Experience Cloud 受众，可更深入地进行个性化。
 
@@ -61,7 +61,7 @@ ht-degree: 99%
 
 使得易于使用您组织的数据，同时确保其安全。[!DNL Target Premium] 允许管理员控制授予不同内部和外部团队的访问权限级别。
 
-有关详细信息，请参阅[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
+有关更多信息，请参阅[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。
 
 **有益的提示**：在添加用户时，如果某个团队成员的名称以前未添加到您的组织，比如可能是第三方机构员工，则输入其电子邮件地址和密码将触发通过电子邮件邀请其加入团队的工作区。
 
@@ -137,7 +137,7 @@ ht-degree: 99%
 
 例如，某个金融服务客户运行了一项信用卡的促销活动，其中提供观看职业体育赛事的激励条件。通过对其登陆页面进行部分因子多变量测试，客户能够最优地在关于信用卡权益的宣传信息与观看体育赛事的激励之间取得平衡，从而锁定其客户群中独特的受众。这种方法使得该公司可在重大体育赛事前后时效性很强的时段内从转化获得利益并充分提高转化率。
 
-## 提示17:仅当您知道可以对数据执行操作时，才会启动测试，从而使测试变得有用。
+## 提示 17：仅在您知道可根据数据采取行动的情况下启动测试，从而让测试发挥作用。
 
 如果不清楚如何根据数据采取行动，那么测试就毫无意义。其中要了解您的关键成功指标、需要发生什么才能产生入选体验、您将如何跟进测试结果以及您将如何处理受众信息。为使测试迅速取得成功，重要的是在该测试启动之前，每个参与该测试的团体（开发人员、创意人员、测试专家和其他人员）都要了解自己的角色。
 
@@ -174,7 +174,7 @@ ht-degree: 99%
 
 在我们进入下一章“测试和个性化活动的灵感”之前，请考虑以下各种想法。
 
-### 在创建测试时请勿过度装点，而是要意图明确。
+### 在创建测试时请勿过度装饰，而是要意图明确。
 
 * 用侧重于转化点的有意目光路径控制流向。
 * 确保善加利用版面空间。

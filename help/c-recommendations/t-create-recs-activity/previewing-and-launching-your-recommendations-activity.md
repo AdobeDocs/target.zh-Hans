@@ -29,9 +29,9 @@ ht-degree: 17%
 
 状态结果包括以下内容，如下图所示：
 
-* [!UICONTROL 结果就绪]:指示算法已返回结果
-* [!UICONTROL 结果未准备就绪]:表示算法尚未完成运行。
-* [!UICONTROL 信息源失败]:指示无法检索自定义标准信息源文件。
+* &#x200B;[!UICONTROL 结果就绪]:指示算法已返回结果
+* &#x200B;[!UICONTROL 结果未准备就绪]:表示算法尚未完成运行。
+* &#x200B;[!UICONTROL 信息源失败]:指示无法检索自定义标准信息源文件。
 
 ![“结果”对话框](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 

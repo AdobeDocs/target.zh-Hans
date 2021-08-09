@@ -50,7 +50,7 @@ ht-degree: 65%
 
 ## at.js 2.6.0（2021 年 7 月 27 日）
 
-* 每当 at.js 设置 `secureOnly` 设为 `true` 时，都向 Cookie 添加了安全属性
+* 每当 at.js 设置 `secureOnly` 设为 `true` 时，都向 Cookie 添加了安全属性。
 * 现在可以在使用 `triggerView()` 时使用响应令牌。
 * 修复了与 `CONTENT_RENDERING_NO_OFFERS` 事件相关的问题。现在，每当 [!DNL Target] 没有返回内容时，就会正确触发此事件。
 * 使用 `prefetch` 请求时，正确返回了 [!DNL Anlytics for Target] (A4T) 单击指标详细信息。

@@ -7,7 +7,7 @@ exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
 source-wordcount: '1920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 * 尽量不要在活动运行的过程中对体验做出重大更改。
 
-### 是否建议在构建模型之前，将[!UICONTROL 自动定位]与90（控制）/10（目标）拆分结合使用？
+### 是否建议我们以 90（对照）/10（针对性）的分摊使用[!UICONTROL 自动定位]直到构建模型为止？
 
 最优的流量分配分摊取决于要实现的目标。
 

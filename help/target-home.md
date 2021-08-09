@@ -25,7 +25,7 @@ ht-degree: 100%
 >
 >**[Forrester Wave 体验优化平台报告。](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target 在 2020 年第四季度的 The Forrester Wave: Experience Optimization Platforms 报告中被评为佼佼者。
 >
->**[Gartner 个性化引擎魔力象限。](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Adobe Target 在第三年 Gartner 的 2020 年个性化引擎魔力象限报告中再次被评为佼佼者。
+>**[Gartner 个性化引擎魔力象限。](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Adobe Target 在 Gartner 第三年（2020 年）的个性化引擎魔力象限报告中再次被评为佼佼者。
 
 以下部分将向您介绍本指南中的有用链接，这些链接是按照目标受众并基于典型的工作职能来排列的：
 

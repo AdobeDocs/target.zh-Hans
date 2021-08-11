@@ -1,13 +1,13 @@
 ---
-keywords: Apple;ITP；智能防跟踪；Experience Cloud ID;ECID
+keywords: Apple;ITP；智能防跟踪；Experience Cloud ID;ECID;ITP
 description: 了解Adobe [!DNL Target] 以及Apple智能防跟踪(ITP)计划（旨在保护Safari用户隐私）的影响。
 title: ' [!DNL Target] 如何处理Apple ITP支持？'
 feature: 隐私和安全
 role: Developer
 exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
-source-git-commit: 083a92c53d11d865738b456acf47cf9663fddcd1
+source-git-commit: 898a18cbd9c6f499f9e7b74078575bc149c9a292
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '591'
 ht-degree: 38%
 
 ---

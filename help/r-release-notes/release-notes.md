@@ -5,10 +5,10 @@ landing-page-description: 了解 [!DNL Adobe Target]当前版本中包含的新�
 title: 当前版本中包括什么新功能？
 feature: 发行说明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2d11409e9bab2db5d12c5961c7336040b8544614
+source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 65%
+source-wordcount: '705'
+ht-degree: 61%
 
 ---
 
@@ -23,6 +23,13 @@ ht-degree: 65%
 >请迁移到新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 库的最新版本，以避免您的网站出现任何潜在问题。有关更多信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target] node.js SDK 2.1.8（2021年8月11日）
+
+* 添加了SDK遥测数据收集
+* 自动交付API客户端openapi代码生成
+
+有关此版本和以前版本的更多信息，请参阅Github上[Target node.js SDK文档](https://github.com/adobe/target-nodejs-sdk)中的[更改日志](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) 。
 
 ## [!DNL Target Standard/Premium] 21.8.1（确定日期）
 

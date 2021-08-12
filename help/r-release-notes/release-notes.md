@@ -5,7 +5,7 @@ landing-page-description: 了解 [!DNL Adobe Target]当前版本中包含的新�
 title: 当前版本中包括什么新功能？
 feature: 发行说明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
+source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 61%
@@ -24,7 +24,7 @@ ht-degree: 61%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target] node.js SDK 2.1.8（2021年8月11日）
+## [!DNL Target] node.js SDK 2.2.0（2021年8月11日）
 
 * 添加了SDK遥测数据收集
 * 自动交付API客户端openapi代码生成

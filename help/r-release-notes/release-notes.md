@@ -5,10 +5,10 @@ landing-page-description: 了解 [!DNL Adobe Target]当前版本中包含的新�
 title: 当前版本中包含哪些新增功能？
 feature: 发行说明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e7f074fd09be89548c56c89e1321d344200c18aa
+source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 60%
+source-wordcount: '721'
+ht-degree: 58%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 60%
 >请迁移到新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 库的最新版本，以避免您的网站出现任何潜在问题。有关更多信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## at.js 2.6.1（2021年8月16日）
+
+* 修复了使用设备上决策时“没有可用于混合模式的缓存项目”的错误。
 
 ## [!DNL Target] node.js SDK 2.2.0（2021年8月11日）
 

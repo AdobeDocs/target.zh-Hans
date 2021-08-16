@@ -4,10 +4,10 @@ description: 查看有关Adobe [!DNL Target] at.js JavaScript库每个版本中�
 title: at.js的每个版本中都包含哪些内容？
 feature: at.js
 role: Developer
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
 workflow-type: tm+mt
-source-wordcount: '4216'
-ht-degree: 87%
+source-wordcount: '4232'
+ht-degree: 89%
 
 ---
 
@@ -22,15 +22,19 @@ ht-degree: 87%
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch是升级at.js的首选方法。扩展开发人员会不断向其扩展中添加新功能，并且会经常修复错误。 这些更新将打包到扩展的新版本中，并在[!DNL Launch]目录中作为升级提供。 有关更多信息，请参阅《Experience Platform Launch用户指南》**&#x200B;中的[扩展升级](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)。
 
-## at.js 2.6.0（2021年7月16日）
+## at.js 2.6.1（2021年8月16日）
 
-* 每当at.js设置`secureOnly`设置为`true`时，都向Cookie添加了安全属性。
-* 现在，使用`triggerView()`时，可使用响应令牌。
-* 修复了与`CONTENT_RENDERING_NO_OFFERS`事件相关的问题。 现在，当没有从[!DNL Target]返回内容时，可正确触发此事件。
-* [!DNL Anlytics for Target] (A4T)使用请求时，可正确返回点击量度详细 `prefetch` 信息。
-* UUID生成不再使用`Math.random()`，而是依赖于`window.crypto`。
-* 在每次网络调用中，`sessionId` Cookie到期正确延长。
-* [!UICONTROL 单页应用程序](SPA)视图缓存初始化现已得到正确处理，并遵循`viewsEnable`设置。
+* 修复了使用设备上决策时“没有可用于混合模式的缓存项目”的错误。
+
+## at.js 2.6.0（2021 年 7 月 16 日）
+
+* 每当 at.js 设置 `secureOnly` 设为 `true` 时，都向 Cookie 添加了安全属性。
+* 现在可以在使用 `triggerView()` 时使用响应令牌。
+* 修复了与 `CONTENT_RENDERING_NO_OFFERS` 事件相关的问题。现在，每当 [!DNL Target] 没有返回内容时，就会正确触发此事件。
+* 使用 `prefetch` 请求时，正确返回了 [!DNL Anlytics for Target] (A4T) 单击指标详细信息。
+* UUID 生成功能不再使用 `Math.random()`，而是依赖于 `window.crypto`。
+* 在每次网络调用时都会正确延长 `sessionId` Cookie 到期日。
+* [!UICONTROL 单页面应用程序] (SPA) 视图缓存初始化现在可以被正确处理并遵循 `viewsEnable` 设置。
 
 ## at.js 2.5.0（2021年5月13日）
 

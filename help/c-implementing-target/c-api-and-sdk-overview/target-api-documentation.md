@@ -1,19 +1,18 @@
 ---
 keywords: API;Adobe I/O
-description: 了解如何从Adobe [!DNL Target] 经典旧版API过渡到Adobe I/O上的新API。
-title: 如何从旧版API过渡到Adobe I/O?
+description: 了解如何在Adobe上从 [!DNL Target] 经典旧版API迁移到新的API。
+title: 如何从旧版API迁移到Adobe I/O?
 feature: 实施服务器端
 role: Developer
 exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 87%
+ht-degree: 82%
 
 ---
 
-# 过渡从[!DNL Target]旧API到Adobe I/O
+# 从[!DNL Target]旧版API迁移到Adobe I/O
 
 此信息可帮助您从 Target 旧版 API 迁移到 Adobe I/O 上的新版 API。
 
@@ -39,7 +38,7 @@ Target Classic 停用后，旧版 API 也会随之停用：
 
 上述时间表不会影响 Recommendations Classic API。
 
-## 等效方法  {#section_DDB42CCC172545B09CB728D794CC466B}
+## 等效方法 {#section_DDB42CCC172545B09CB728D794CC466B}
 
 下表列出了各旧版 API 方法所对应的新版 Target API 等效方法。旧版 API 返回 XML 响应，而新版 API 则返回 JSON。
 
@@ -47,26 +46,26 @@ Target Classic 停用后，旧版 API 也会随之停用：
 
 | 分组 | 旧版 API 方法 | 新版 API 方法 | 注释 |
 |--- |--- |--- |--- |
-| 营销活动/活动 | 营销活动创建 | [创建 AB 活动](http://developers.adobetarget.com/api/#create-ab-activity)<br>[创建 XT 活动](http://developers.adobetarget.com/api/#create-xt-activity) | 新版 API 为 AB 活动和 XT 活动提供了不同的创建方法。 |
-|  | 营销活动更新 | [更新 AB 活动](http://developers.adobetarget.com/api/#update-ab-activity)<br>[更新 XT 活动](http://developers.adobetarget.com/api/#update-xt-activity) |  |
+| 营销活动/活动 | 营销活动创建 | [创建 AB 活动](https://developers.adobetarget.com/api/#create-ab-activity)<br>[创建 XT 活动](https://developers.adobetarget.com/api/#create-xt-activity) | 新版 API 为 AB 活动和 XT 活动提供了不同的创建方法。 |
+|  | 营销活动更新 | [更新 AB 活动](https://developers.adobetarget.com/api/#update-ab-activity)<br>[更新 XT 活动](https://developers.adobetarget.com/api/#update-xt-activity) |  |
 |  | 复制营销活动 | 不适用 | 使用活动创建 API。 |
-|  | 营销活动列表 | [列出活动](http://developers.adobetarget.com/api/#list-activities) |  |
-|  | 营销活动状态 | [更新活动状态](http://developers.adobetarget.com/api/#update-activity-state) |  |
-|  | 营销活动查看 | [按 ID 获取 AB 活动](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[按 ID 获取 XT 活动](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
+|  | 营销活动列表 | [列出活动](https://developers.adobetarget.com/api/#list-activities) |  |
+|  | 营销活动状态 | [更新活动状态](https://developers.adobetarget.com/api/#update-activity-state) |  |
+|  | 营销活动查看 | [按 ID 获取 AB 活动](https://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[按 ID 获取 XT 活动](https://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
 |  | 第三方营销活动 ID | 不适用 | 如果您使用的是 thirdpartyID，则可以使用相关的活动方法。 |
-| 选件 | 选件创建 | [创建选件](http://developers.adobetarget.com/api/#create-offer) |  |
-|  | 选件获取 | [按 ID 获取选件](http://developers.adobetarget.com/api/#get-offer-by-id) |  |
-|  | 选件列表 | [列出选件](http://developers.adobetarget.com/api/#list-offers) |  |
+| 选件 | 选件创建 | [创建选件](https://developers.adobetarget.com/api/#create-offer) |  |
+|  | 选件获取 | [按 ID 获取选件](https://developers.adobetarget.com/api/#get-offer-by-id) |  |
+|  | 选件列表 | [列出选件](https://developers.adobetarget.com/api/#list-offers) |  |
 |  | 文件夹列表 | 不适用 | Target Standard/Premium 不支持文件夹。 |
-| 报表 | 营销活动性能报表 | [获取 AB 性能报表](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[获取 XT 性能报表](http://developers.adobetarget.com/api/#get-xt-performance-report) |  |
-|  | 审计报表 | [获取审计报表](http://developers.adobetarget.com/api/#get-audit-report) |  |
-|  | 1-1 内容报表 | [获取 AP 性能报表](http://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |
-| 帐户设置 | 获取主机组 | [列出环境](http://developers.adobetarget.com/api/#list-environments) |  |
+| 报表 | 营销活动性能报表 | [获取 AB 性能报表](https://developers.adobetarget.com/api/#get-ab-performance-report)<br>[获取 XT 性能报表](https://developers.adobetarget.com/api/#get-xt-performance-report) |  |
+|  | 审计报表 | [获取审计报表](https://developers.adobetarget.com/api/#get-audit-report) |  |
+|  | 1-1 内容报表 | [获取 AP 性能报表](https://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |
+| 帐户设置 | 获取主机组 | [列出环境](https://developers.adobetarget.com/api/#list-environments) |  |
 
 ## 例外 {#section_09CF9A0E289149279783B4801D1B6D4C}
 
 如果您需要设置例外，请联系您的客户成功经理。
 
-## 帮助  {#section_591F850E2B7A4342B1C233693425415C}
+## 帮助 {#section_591F850E2B7A4342B1C233693425415C}
 
 如果您在迁移到 Adobe I/O 上的新版 Target API 时遇到任何问题或需要任何帮助，请联系 Adobe Target 客户关怀团队 (tt-support@adobe.com)。

@@ -1,15 +1,14 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;申请选件;at.js;函数;函数
-description: 使用Adobe [!DNL Target] at.js JavaScript库的adobe.目标.applyOffers()函数在响应中应用多个优惠。 (at.js 2.x)
-title: 如何使用adobe.目标.applyOffers()函数？
+description: 使用Adobe [!DNL Target] at.js JavaScript库的adobe.target.applyOffers()函数，在响应中应用多个选件。 (at.js 2.x)
+title: 如何使用adobe.target.applyOffers()函数？
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -23,14 +22,14 @@ ht-degree: 92%
 
 | 键值 | 类型 | 必需？ | 描述 |
 | --- | --- | --- | --- |
-| selector | 字符串 | 否 | HTML 元素或 CSS 选择器，用于标识 [!DNL Target] 应将选件内容放置在其中的 HTML 元素。如果未提供选择器，[!DNL Target]将假定要使用的HTML元素是HTMLHEAD。 |
+| selector | 字符串 | 否 | HTML 元素或 CSS 选择器，用于标识 [!DNL Target] 应将选件内容放置在其中的 HTML 元素。如果未提供选择器，则[!DNL Target]会假定要使用的HTML元素是HTMLHEAD。 |
 | 响应 | 对象 | 是 | 来自 `getOffers()` 的响应对象。<br>请参阅下文的“请求”表。 |
 
 ## 响应
 
 >[!NOTE]
 >
->有关以下所有字段可接受类型的信息，请查阅[投放API文档](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
+>有关下面列出的所有字段可接受类型的信息，请参阅[交付API文档](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
 
 | 字段名称 | 描述 |
 | --- | --- |

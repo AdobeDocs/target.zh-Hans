@@ -4,10 +4,10 @@ description: 了解如何在 [!DNL Adobe Target]中使用客户关系管理(CRM)
 title: 什么是客户属性？如何使用这些属性？
 feature: 受众
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 36%
+source-wordcount: '1476'
+ht-degree: 35%
 
 ---
 
@@ -145,7 +145,6 @@ ht-degree: 36%
 有关在 [!DNL Target] 中使用客户属性的更多信息，请参阅以下资源：
 
 * [创建客户属性来源并上传“Experience Cloud服](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) 务和管理” *文档中的数据文件*
-* 数字营销产品组的博客文章&#x200B;**[客户属性：了解的越多，关联的越好](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## 客户经常遇到的问题 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 

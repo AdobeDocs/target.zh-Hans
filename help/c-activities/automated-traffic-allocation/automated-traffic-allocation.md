@@ -4,14 +4,14 @@ description: 了解如何在Adobe [!DNL Target] 中使用自动分配活动，�
 title: 什么是自动分配活动？
 feature: 自动分配
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '3454'
 ht-degree: 50%
 
 ---
 
-# [!UICONTROL 自动分配概述]
+# [!UICONTROL 自动分配]概述
 
 [!DNL Adobe Target]中的[!UICONTROL 自动分配]活动可在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
 
@@ -33,7 +33,7 @@ ht-degree: 50%
 
 [!UICONTROL 自动分配可执行各体验之间的隐式比较并得出“真实”入选者。]测试中没有“控制”体验的概念。
 
-[!UICONTROL 自动分配] 会智能地将新访客分配给体验，直到最佳体验的置信区间与任何其他体验的置信区间不重叠为止。通常，此过程可能会产生误报，但[!UICONTROL 自动分配]使用基于[Bernstein不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory))的置信区间来抵消重复评估的影响。 目前，有一个真正的赢家。 当[!UICONTROL 自动分配]停止时，如果访问页面的访客没有实质性的时间依赖关系，则至少有95%的机会会发生以下情况：[!UICONTROL 自动分配]返回的体验的真实响应不比入选体验的真实响应低1%（相对）。
+[!UICONTROL 自动分配] 会智能地将新访客分配给体验，直到最佳体验的置信区间与任何其他体验的置信区间不重叠为止。通常，此过程可能会产生误报，但[!UICONTROL 自动分配]使用基于[Bernstein不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)的置信区间来抵消重复评估的影响。 目前，有一个真正的赢家。 当[!UICONTROL 自动分配]停止时，如果访问页面的访客没有实质性的时间依赖关系，则至少有95%的机会会发生以下情况：[!UICONTROL 自动分配]返回的体验的真实响应不比入选体验的真实响应低1%（相对）。
 
 ## 何时使用[!UICONTROL 自动分配]与A/B或[!UICONTROL Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
@@ -189,7 +189,7 @@ ht-degree: 50%
 
 此建议适用于使用 [!DNL Target] 或 [!DNL Analytics] (A4T) 作为报表源的[!UICONTROL 自动分配]、[!UICONTROL 自动定位]和[!UICONTROL 自动个性化]活动。
 
-### 我是否可以在[!UICONTROL 自动分配]活动的中途更改报表源？ {#change-reporting}
+### 能否在[!UICONTROL 自动分配]活动期间更改报表源？ {#change-reporting}
 
 [!DNL Adobe] 不建议您在活动中途更改报表源。尽管在使用[!DNL Target] UI的活动期间可以将报表源（从[!DNL Target]更改为A4T或反之），但您应始终启动新活动。 [!DNL Adobe] 不保证在活动运行后更改活动中的报表源时会发生什么情况。
 

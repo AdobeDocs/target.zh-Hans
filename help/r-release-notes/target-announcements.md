@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: 发行说明
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 93%
+source-wordcount: '578'
+ht-degree: 94%
 
 ---
 
@@ -26,15 +26,16 @@ ht-degree: 93%
 
 ## [!DNL Adobe Target] 社区问答喝咖啡休息时间
 
-* **2021年8月11日星期三**
+* **2021年9月8日星期三**
 * **上午 8 点（PDT，UTC -7）**
-* **[单击此处了解更多信息和注册](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742)。**
+* **[单击此处了解更多信息和注册](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497)。**
 
-[!DNL Adobe Target]的首席解决方案顾问James McTiernan将回答客户有关他在[!DNL Target]中的专业领域的问题：
+[!DNL Adobe Target]的高级产品经理Vishal Chordia将回答客户有关其专业领域的问题：
 
-* 推荐
-* A/B和多变量(MVT)测试
-* 个性化
+* [!DNL Adobe Experience Platform]
+* 基于受众的个性化
+* [!DNL Real-time Customer Data Platform] (RTCDP)与  [!DNL Target]
+* 常规[!DNL Target]主题
 
 ## 网络研讨会：通过 Adobe Target 的设备上决策进行无延迟的个性化和测试
 

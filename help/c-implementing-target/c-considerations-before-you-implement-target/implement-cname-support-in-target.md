@@ -5,10 +5,10 @@ title: 如何在Target中使用CNAME?
 feature: 隐私和安全
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 1f27ebfb7fb4203558f4d10e5e98cced04a82f2b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 1%
+source-wordcount: '1176'
+ht-degree: 2%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 ### 新SSL证书过期多长时间？
 
-2020年9月1日以前签发的证书为两年。 2020年9月1日或之后签发的证书为一年期证书。 您可以在此处](https://www.digicert.com/position-on-1-year-certificates)阅读有关迁移到一年证书的更多信息。[
+2020年9月1日以前签发的证书为两年。 2020年9月1日或之后签发的证书为一年期证书。
 
 ### 我应选择哪些主机名？ 我应选择每个域的主机名数量？
 
@@ -140,7 +140,7 @@ ht-degree: 1%
    >
    >如果此命令失败但上述`validateEdgeFpsslSni`命令成功，请等待DNS更新完全传播。 DNS记录具有关联的[TTL（生存时间）](https://en.wikipedia.org/wiki/Time_to_live#DNS_records)，该TTL指示这些记录的DNS回复的缓存过期时间。 因此，您可能需要至少等待TTL的长时间。 您可以使用`dig target.example.com`命令或[G Suite Toolbox](https://toolbox.googleapps.com/apps/dig/#CNAME)查找特定TTL。
 
-### 如何结合使用包含CNAME的选择退出链接
+### 如何将选择退出链接与 CNAME 配合使用
 
 如果您使用的是CNAME，则选择退出链接应包含“client=`clientcode`参数，例如：
 `https://my.cname.domain/optout?client=clientcode`。

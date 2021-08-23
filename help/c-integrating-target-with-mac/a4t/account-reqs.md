@@ -1,14 +1,13 @@
 ---
-keywords: 分析作为报告源；a4t;A4T；要求
+keywords: Analytics作为报表源；a4t;A4T；要求
 description: 了解如何在Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T)中配置创建基于Adobe Analytics的活动所需的用户帐户要求。
 title: A4T需要哪些用户权限要求？
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '308'
 ht-degree: 36%
 
 ---
@@ -29,31 +28,31 @@ ht-degree: 36%
 
 您的 [!DNL Analytics] 和 [!DNL Target] 用户帐户必须已关联到您的 Adobe ID。
 
-有关详细信息，请参阅[组织和帐户链接](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html)。
+有关更多信息，请参阅[组织和帐户关联](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)。
 
 ### 配置 Experience Cloud 组成员资格
 
 您必须是一个或多个拥有 [!DNL Analytics] 和 [!DNL Target] 访问权限的 [!DNL Experience Cloud] 组的成员。
 
-有关详细信息，请参阅[管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)。
+有关更多信息，请参阅[管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-要在给定报表包上使用A4T，您必须有权访问该报表包并授予对[!DNL Web Services Access]组的访问权限。
+要在给定的报表包上使用A4T，您必须有权访问该报表包并授予对[!DNL Web Services Access]组的访问权限。
 
-1. 在&#x200B;**[!UICONTROL Admin Console]**&#x200B;中，单击[!DNL Analytics]产品用户档案，然后单击&#x200B;**[!UICONTROL 权限]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL Admin Console]**&#x200B;中，单击[!DNL Analytics]产品配置文件，然后单击&#x200B;**[!UICONTROL 权限]**&#x200B;选项卡。
 
-   然后，您可以查看用户档案有权访问的报表包。
+   然后，您可以查看配置文件有权访问的报表包。
 
-1. 确保您要访问的[!DNL Target]报表包是您所属产品用户档案中列出的报表包之一。
+1. 确保要在[!DNL Target]中访问的报表包是您所属的产品配置文件中列出的报表包之一。
 
-   下图是可访问所有报表包的产品用户档案的示例：
+   下图是有权访问所有报表包的产品配置文件示例：
 
    ![Admin Console权限选项卡](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 1. 配置对[!UICONTROL Web服务访问]组的访问。
 
-   要能够使用[!DNL Analytics]作为[!DNL Target]的报告源，必须访问[!UICONTROL 中的] Web服务访问组。[!DNL Analytics]
+   需要访问[!DNL Analytics]中的[!UICONTROL Web服务访问]组，才能将[!DNL Analytics]用作[!DNL Target]的报表源。
 
 
 ## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}

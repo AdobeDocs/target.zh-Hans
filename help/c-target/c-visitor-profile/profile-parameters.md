@@ -4,7 +4,7 @@ description: 了解存储在访客配置文件中的特定于访客的属性，�
 title: 什么是配置文件属性？
 feature: 受众
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 49%
@@ -33,7 +33,7 @@ ht-degree: 49%
 
    | 参数类型 | 描述 |
    |--- |--- |
-   | mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意： 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。[!DNL Target]如果必须将50个以上的配置文件属性传递到[!DNL Target]，请使用配置文件更新API方法进行传递。 有关更多信息，请参阅 [!DNL Adobe Target] API文档](http://developers.adobetarget.com/api/#updating-profiles)中的[配置文件更新。 |
+   | mbox | 创建 mbox 时，直接通过页面代码传入。请参阅[将参数传递到全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)。<br>****&#x200B;注意： 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。[!DNL Target]如果必须将50个以上的配置文件属性传递到[!DNL Target]，请使用配置文件更新API方法进行传递。 有关更多信息，请参阅 [!DNL Adobe Target] API文档](https://developers.adobetarget.com/api/#updating-profiles)中的[配置文件更新。 |
    | Profile | 直接使用 JavaScript 代码段定义。这些片段可以存储运行总数，如消费者所花费的总资金，并在每个mbox请求中执行。 请参阅下面的“配置文件脚本属性”。 |
 
 ## 配置文件脚本属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}

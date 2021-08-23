@@ -4,7 +4,7 @@ description: 了解如何通过检查重要指标（包括提升度和置信度�
 title: 如何解读自动分配报表？
 feature: 自动分配
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 47%
@@ -41,7 +41,7 @@ ht-degree: 47%
 
 自动分配不使用基于 p 值的置信度。
 
-自动分配活动的“置信度”列（如下图所示）显示了在 1% 的误差范围（即，算法使用的最高转化率与第二高转化率之间的最低可检测效果为 1%）内某个体验成为入选者的概率。请注意，算法使用 [Bernstein 不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory))来计算此概率。
+自动分配活动的“置信度”列（如下图所示）显示了在 1% 的误差范围（即，算法使用的最高转化率与第二高转化率之间的最低可检测效果为 1%）内某个体验成为入选者的概率。请注意，算法使用 [Bernstein 不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)来计算此概率。
 
 常规 A/B 测试将基于 p 值计算置信度。自动分配则不使用 p 值。p 值可“大致”计算出某个特定体验与控制体验存在差异的概率。这些 p 值只能用于确定体验是否与控制体验存在差异。这些值不能用于确定体验是否与其他体验（非控制体验）存在差异。
 
@@ -49,7 +49,7 @@ ht-degree: 47%
 >
 >Target在预定义的最低转化次数后显示入选者；但是，挑选入选者的最终决定应始终取决于Adobe Target [样本量计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)的结果。 Target不考虑网站的基本转化率以及输入计算器以确定活动持续时间的其他重要方面。 因此，Target可能会在最低转化次数的基础上提前显示入选者。 有关更多信息，请参阅[样本量计算器](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)。
 
-## 了解自动分配活动中的提升度和置信度报表{#lift-confidence}
+## 了解自动分配活动中的提升度和置信度报表 {#lift-confidence}
 
 在自动分配活动中，第一个体验（默认情况下命名为体验A）始终在“报表”选项卡上被定义为“控制”体验。 在用于确定体验性能的建模中，此体验不会被视为真正的统计控制，但会将其视为报表中某些数字的参考或基线。
 

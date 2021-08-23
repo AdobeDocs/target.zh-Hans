@@ -4,7 +4,7 @@ description: 了解如何在Adobe [!DNL Target] 活动中使用AEM体验片段�
 title: 如何使用Adobe Experience Manager(AEM)体验片段？
 feature: 体验和选件
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 603d98a972d1b421dae2047b70d65d0037b7a068
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 21%
@@ -47,9 +47,9 @@ ht-degree: 21%
 有关详细信息，请参阅：
 
 * **Adobe I/O**: [使用“管理用户指南”文档中的AdobeI/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html) 与Adobe Target _集_ 成。
-* **[!DNL AEM]6.3**: [在Adobe Experience Manager 6.3文](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) 档中选 _择加入Adobe Analytics和Adobe_ 定位。
-* **[!DNL AEM]6.4**: [在Adobe Experience Manager 6.4 ](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) 文档中 _选择加入Adobe Analytics和Adobe_ 定位。
-* **[!DNL AEM]6.5**: [在Adobe Experience Manager 6.5 ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) 文档中 *选择加入Adobe Analytics和Adobe* 定位。
+* **[!DNL AEM]6.3**: [在Adobe Experience Manager 6.3文](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) 档中选 _择加入Adobe Analytics和Adobe_ 定位。
+* **[!DNL AEM]6.4**: [在Adobe Experience Manager 6.4 ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) 文档中 _选择加入Adobe Analytics和Adobe_ 定位。
+* **[!DNL AEM]6.5**: [在Adobe Experience Manager 6.5 ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en) 文档中 *选择加入Adobe Analytics和Adobe* 定位。
 
 ### 步骤 2：创建体验片段
 

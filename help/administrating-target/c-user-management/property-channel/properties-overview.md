@@ -5,9 +5,9 @@ title: 如何配置企业权限？
 feature: 管理和配置
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1458'
 ht-degree: 66%
 
 ---
@@ -148,7 +148,7 @@ ht-degree: 66%
 
    * **通过 [!DNL Adobe Launch] 中的“全局参数”：**
 
-      有关更多信息，请参阅&#x200B;*Adobe Experience Platform Launch*&#x200B;文档中的[Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params)。
+      有关更多信息，请参阅&#x200B;*Adobe Experience Platform Launch*&#x200B;文档中的[Add Global Target Params](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params)。
 
    * **通过targetPageParams()函数：** 将以下代码置于 `<head>` 标记中at.js引用的上方。
 

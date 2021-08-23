@@ -5,7 +5,7 @@ title: 如何使用adobe.target.getOffers()函数？
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: 22b94dd303a25be3bfa1d120b13c9c9cc2cc7680
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 85%
@@ -31,7 +31,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->有关下面列出的所有字段可接受类型的信息，请参阅[交付API文档](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
+>有关下面列出的所有字段可接受类型的信息，请参阅[交付API文档](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
 
 | 字段名称 | 必需？ | 限制 | 描述 |
 | --- | --- | --- | --- |

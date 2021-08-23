@@ -4,9 +4,9 @@ description: 了解存储在访客配置文件中的特定于访客的属性，�
 title: 什么是配置文件属性？
 feature: 受众
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2403'
 ht-degree: 49%
 
 ---
@@ -142,7 +142,7 @@ if (mbox.name == 'Track_Interest') {
    * 配置文件脚本在添加到[!DNL Target]之前应该先进行性能测试。 所有配置文件脚本都会在每个mbox请求中执行。 如果配置文件脚本无法正确执行，则执行mbox请求的时间会更长，这可能会影响流量和转化。
    * 如果配置文件脚本过于复杂，请考虑改用[响应令牌](/help/administrating-target/response-tokens.md)。
 
-* 有关更多信息，请参阅JS Rhino引擎文档：[https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html)。
+* 有关更多信息，请参阅JS Rhino引擎文档。
 
 ## 调试配置文件脚本 {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 

@@ -4,9 +4,9 @@ description: 了解 Adobe [!DNL Target] 中的“推荐”活动，这些活动�
 title: “推荐”活动是什么？
 feature: 推荐
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '2115'
+source-wordcount: '2107'
 ht-degree: 100%
 
 ---
@@ -196,4 +196,4 @@ Target 使用标准卡片的概念。标准卡片就像个性化的配方。
 
 ## Adobe [!DNL Target] 基础知识网络研讨会：“推荐”简介 {#intro-to-recs}
 
-[“推荐”简介](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[“推荐”简介](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

@@ -1,24 +1,23 @@
 ---
-keywords: 移动应用；移动应用位置；目标移动应用；移动目标位置；位置服务；adobe experience cloud位置服务；pois;interest;sdk；位置
-description: 了解如何使用Adobe Experience Platform位置服务启用具有位置感知功能的移动应用程序。
+keywords: 移动设备应用程序；移动设备应用程序位置；定位移动设备应用程序；移动设备Target位置；位置服务；adobe experience cloud位置服务；POI；目标点；SDK；位置
+description: 了解如何使用Adobe Experience Platform位置服务，通过位置感知功能启用移动设备应用程序。
 title: 如何使用Adobe位置服务？
-feature: Implement Mobile
+feature: 实施移动设备
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 130d78e6-f361-4e8a-aa0e-f31bfd6b4dfa
+source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 0%
+source-wordcount: '178'
+ht-degree: 1%
 
 ---
 
-
 # 使用位置服务
 
-位置是了解移动用户并与其互动的重要环境。 通过使用这一背景，移动App开发人员可以增强App设计并使其成为更个性化、更具吸引力的体验。
+位置是了解和与移动设备用户互动的重要上下文。 通过使用此上下文，移动设备应用程序开发人员可以增强应用程序设计，并使其成为更加个性化和引人入胜的体验。
 
-Adobe Experience Platform位置服务（位置服务）是一种地理位置服务，它通过使用丰富且易于使用的SDK界面以及灵活的兴趣点数据库(POI)，使具有位置感知的移动应用程序能够了解位置上下文。
+[!DNL Adobe Experience Platform Location Service] ([!DNL Location Service])是一项地理位置服务，通过此服务，具有位置感知功能的移动设备应用程序可以使用丰富且易于使用的SDK界面(随附了灵活的兴趣点(POI)数据库)来了解位置上下文。
 
-您可以将位置服务与目标结合使用，以利用[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)中的规则，将您的Places数据附加到您的Adobe TargetSDK事件。
+您可以将[!DNL Location Service]与[!DNL Target]一起使用，以利用 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)中带有[标记的规则，将Places数据附加到[!DNL Adobe Target] SDK事件。
 
-有关详细信息，请参阅[Adobe Experience Platform位置服务指南](https://experienceleague.adobe.com/docs/places/using/home.html)中的[将位置服务与Adobe Target一起使用。](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html)
+有关更多信息，请参阅[Adobe Experience Platform位置服务指南](https://experienceleague.adobe.com/docs/places/using/home.html)中的[将位置服务与Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html)一起使用。

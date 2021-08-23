@@ -4,10 +4,10 @@ description: 了解 Adobe  [!DNL Target] works, including information about the 
 title: ' [!DNL Target] 的工作原理'
 feature: 概述
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
 workflow-type: tm+mt
 source-wordcount: '2532'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 100%
 * **at.js：** at.js 库是 [!DNL Target] 的一个实施库。使用 at.js 可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。经常更新 at.js 以增加新功能。Adobe 建议所有使用 at.js 的客户都将其实现更新到 [at.js 的最新版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 * **mbox.js：** mbox.js 库是 [!DNL Target] 旧版实施库。2021 年 3 月 31 日后不再支持 mbox.js 库。
 
-请在您网站上的每个页面上都引用 [!DNL Experience Platform Web SDK] 或 at.js。例如，可将这些库之一添加到您的全局头部。或者，考虑使用 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=zh-Hans) 实现 [!DNL Target]。
+请在您网站上的每个页面上都引用 [!DNL Experience Platform Web SDK] 或 at.js。例如，可将这些库之一添加到您的全局头部。或者，请考虑在Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)中使用[标记来实施[!DNL Target]。
 
 以下资源包含帮助您实施 Experience Platform Web SDK 或 at.js 的详细信息：
 
-* [Adobe Experience Platform Web SDK 扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=zh-Hans#configure-the-aep-web-sdk-extension)
-* [使用 Adobe Experience Platform Launch 实施 [!DNL Target] ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Adobe Experience Platform Web SDK扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
+* [使用 Adobe Experience Platform 实施 [!DNL Target] ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 每次访客请求已针对 [!DNL Target] 优化的页面时，都将一个请求发送到定位系统。该请求有助于确定要向该访客提供什么内容。实时进行此过程。每次加载页面时，系统都提出并履行对内容的请求。内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。其中提供每个网站访客最有可能作出响应、与其交互或最终购买的内容。个性化的内容有助于充分提高响应率、获客率和收入。
 

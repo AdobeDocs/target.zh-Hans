@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包含哪些新增功能？
 feature: 发行说明
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
+source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 90%
 * 每当 at.js 设置 `secureOnly` 设为 `true` 时，都向 Cookie 添加了安全属性。
 * 现在可以在使用 `triggerView()` 时使用响应令牌。
 * 修复了与 `CONTENT_RENDERING_NO_OFFERS` 事件相关的问题。现在，每当 [!DNL Target] 没有返回内容时，就会正确触发此事件。
-* 使用 `prefetch` 请求时，正确返回了 [!DNL Anlytics for Target] (A4T) 单击指标详细信息。
+* 使用 `prefetch` 请求时，正确返回了 [!DNL Analytics for Target] (A4T) 单击指标详细信息。
 * UUID 生成功能不再使用 `Math.random()`，而是依赖于 `window.crypto`。
 * 在每次网络调用时都会正确延长 `sessionId` Cookie 到期日。
 * [!UICONTROL 单页面应用程序] (SPA) 视图缓存初始化现在可以被正确处理并遵循 `viewsEnable` 设置。

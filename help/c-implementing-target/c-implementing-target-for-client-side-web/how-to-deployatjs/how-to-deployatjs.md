@@ -1,13 +1,13 @@
 ---
 keywords: 实施;at.js;javascript 库
-description: 了解如何使用Adobe Experience Platform Launch或不使用标签管理器来部署Adobe [!DNL Target] at.js JavaScript库。
+description: 了解如何在Adobe Experience Platform中或不使用标签管理器时使用标签部署Adobe [!DNL Target] at.js JavaScript库。
 title: 如何部署at.js?
 feature: 实施服务器端
 role: Developer
 exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '289'
 ht-degree: 6%
 
 ---

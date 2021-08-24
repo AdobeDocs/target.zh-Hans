@@ -5,10 +5,10 @@ title: 如何从mbox.js迁移到at.js?
 feature: at.js
 role: Developer
 exl-id: 1d95faeb-7caa-44d6-b637-a06db393e50e
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: e0713ccd25da71c2655b567ff8715a22203f46fb
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 90%
+source-wordcount: '343'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ at.js 库是适用于 [!DNL Adobe Target] 的新实施库，专为典型的 Web 
 
 >[!NOTE]
 >
->带有 FP-11577 的 Adobe Experience Manager (AEM) 6.2（或更高版本）支持通过其 Adobe Target 云服务集成来实施 at.js。有关更多信息，请参阅 Adobe Experience Manager 6.2 文档&#x200B;**&#x200B;中的[功能包](https://docs.adobe.com/docs/zh-Hans/aem/6-2/release-notes/feature-packs.html)和[与 Adobe Target 集成](https://docs.adobe.com/docs/zh-Hans/aem/6-2/administer/integration/marketing-cloud/target.html)。
+>带有 FP-11577 的 Adobe Experience Manager (AEM) 6.2（或更高版本）支持通过其 Adobe Target 云服务集成来实施 at.js。有关更多信息，请参阅 Adobe Experience Manager 6.2 文档&#x200B;**&#x200B;中的[功能包](https://experienceleague.adobe.com/docs/)和[与 Adobe Target 集成](https://experienceleague.adobe.com/docs/)。
 
 ## 实施 at.js {#implement}
 

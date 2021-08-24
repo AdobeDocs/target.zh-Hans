@@ -5,10 +5,10 @@ title: 什么是企业用户权限？如何使用这些权限？
 feature: 管理和配置
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 60%
+source-wordcount: '3020'
+ht-degree: 59%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 60%
 
 ### 属性
 
-属性与[!DNL Adobe Platform Launch]中的属性类似，因为它们使用唯一的代码片段来区分它们。
+属性与[!DNL Adobe Experience Platform]中的属性类似，因为它们使用唯一的代码片段来区分它们。
 
 Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或多个域和子域的任意组合。
 
@@ -264,7 +264,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 ### 为什么我会收到一则错误消息，指示没有与此活动相关联的属性，即使分配了属性也是如此？
 
-如果使用 [!DNL Adobe Experience Platform Launch] 实施了 [!DNL Target] 并收到一则错误消息，指示没有与活动关联的属性，请使用 `targetPageParams` 函数传递 `at_property` 参数。
+如果您在[!DNL Adobe Experience Platform]中通过标记实施了[!DNL Target] ，并收到一条错误消息，指示没有与活动关联的属性，请使用`targetPageParams`函数传递`at_property`参数。
 
 ### 如果重定向页面和活动 URL 属于不同的属性，那么是否会记录点击跟踪转化？
 

@@ -5,9 +5,9 @@ title: 有关 [!DNL Target] 移动设备应用程序的常见问题解答有哪�
 feature: 实施移动设备
 role: Developer
 exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
-source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 有关移动设备应用程序[!DNL Target]的常见问题解答列表。
 
-## 我应该使用[!DNL Adobe Experience Platform Launch]来部署SDK，还是我是否可以在不使用[!DNL Launch]的情况下部署SDK?
+## 我应该在[!DNL Adobe Experience Platform]中使用标记来部署SDK吗？我是否可以在不使用[!DNL Launch]的情况下部署SDK?
 
 该SDK位于[Adobe Marketing Cloud git](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)上。 如果不在Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)中使用[标记，则必须管理自己的设置文件，并在应用程序中对其进行管理。
 

@@ -5,9 +5,9 @@ title: 我能否在没有标签管理器的情况下实施 [!DNL Target] ?
 feature: 实施服务器端
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1674'
 ht-degree: 52%
 
 ---
@@ -117,10 +117,10 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->* [Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launch是实施Target和at.js库的首选方法。以下信息不适用于使用AdobePlatform launch实施Target时。
+>* [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 是实施和at.js [!DNL Target] 库的首选方法。在[!DNL Adobe Experience Platform]中使用标记实施[!DNL Target]时，以下信息不适用。
    >
    >
-* Target团队同时支持at.js 1.*x* 与 at.js 2.*x* 之间的映射。请升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。 有关每个版本中功能的更多信息，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+* [!DNL Target]团队同时支持at.js 1.*x* 与 at.js 2.*x* 之间的映射。请升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。 有关每个版本中功能的更多信息，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 
 
 ### 使用[!DNL Target]界面下载at.js {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ ht-degree: 52%
 
 at.js 应该在您网站每个页面的 `<head>` 元素中实施。
 
-不使用标签管理器(如[AdobePlatform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25))的典型Target实施如下所示：
+不使用标签管理器（例如[[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)中的标签）的典型Target实施如下所示：
 
 ```
 <!doctype html> 

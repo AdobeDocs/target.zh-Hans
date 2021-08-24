@@ -4,9 +4,9 @@ description: 了解如何在Adobe [!DNL Target] 活动中使用AEM体验片段�
 title: 如何使用Adobe Experience Manager(AEM)体验片段？
 feature: 体验和选件
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 0437d7c83734ee707d4d42996d856f9e19416c3d
+source-git-commit: a13070602a9761bf49923c4add4a0f740b253a2d
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1157'
 ht-degree: 21%
 
 ---
@@ -55,8 +55,8 @@ ht-degree: 21%
 
 体验片段是在[!DNL AEM]中创建的。 有关详细信息，请参阅：
 
-* **[!DNL AEM]6.3**: [](https://experienceleague.adobe.com/docs/) Adobe Experience Manager 6.3 *文档中的体* 验片段。
-* **[!DNL AEM]6.4**: [](https://experienceleague.adobe.com/docs/) Adobe Experience Manager 6.4 *文档中的体* 验片段。
+* **[!DNL AEM]6.3**: [](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) Adobe Experience Manager 6.3 *文档中的体* 验片段。
+* **[!DNL AEM]6.4**: [](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=en) Adobe Experience Manager 6.4 *文档中的体* 验片段。
 * **[!DNL AEM]6.5**: [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) Adobe Experience Manager 6.5 *文档中的体* 验片段。
 
 ### 步骤3:配置[!DNL AEM]以与[!DNL Target]共享体验片段

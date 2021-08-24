@@ -5,10 +5,10 @@ title: 如何配置企业权限？
 feature: 管理和配置
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 66%
+source-wordcount: '1460'
+ht-degree: 64%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 66%
 
 | 任务 | 执行位置 |
 |--- |--- |
-| 1. 添加用户（可选） | [!DNL Adobe Admin Console for Enterprise] |
-| 2. 创建工作区（产品配置文件） | [!DNL Adobe Admin Console for Enterprise] |
-| 3. 创建用户组（可选） | [!DNL Adobe Admin Console for Enterprise] |
-| 4. 创建属性 | [!DNL Target] 用户界面 |
-| 5：更新您的实施以包含 `at_property` 参数 | [!DNL Target] UI、at.js函数或  [!DNL Adobe Experience Platform Launch] |
+| 1.添加用户（可选） | [!DNL Adobe Admin Console for Enterprise] |
+| 2.创建工作区（产品配置文件） | [!DNL Adobe Admin Console for Enterprise] |
+| 3.创建用户组（可选） | [!DNL Adobe Admin Console for Enterprise] |
+| 4.创建资产 | [!DNL Target] 用户界面 |
+| 5:更新您的实施以包含`at_property`参数 | [!DNL Target] UI、at.js函数或  [!DNL Adobe Experience Platform] |
 | 6. 指定角色和权限 | [!DNL Adobe Admin Console for Enterprise] |
 
 对于在[!DNL Adobe Admin Console for Enterprise]中执行的任务，请按照以下步骤访问控制台：
@@ -146,9 +146,9 @@ ht-degree: 66%
 
    您可以通过多种方法来更新 [!DNL Target] 实施。例如，对于网页，可以使用以下方法：
 
-   * **通过 [!DNL Adobe Launch] 中的“全局参数”：**
+   * **通过中标记中的“全局参数  [!DNL Adobe Experience Platform]:**
 
-      有关更多信息，请参阅&#x200B;*Adobe Experience Platform Launch*&#x200B;文档中的[Add Global Target Params](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params)。
+      有关更多信息，请参阅&#x200B;*标记概述*&#x200B;文档中的[添加全局Target参数](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) 。
 
    * **通过targetPageParams()函数：** 将以下代码置于 `<head>` 标记中at.js引用的上方。
 

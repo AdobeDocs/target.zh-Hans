@@ -4,10 +4,10 @@ description: 访问 Adobe [!DNL Target] 文档，包括联机帮助、教程、�
 title: 可在何处找到 Target 的文档？
 feature: 发行说明
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 98%
+source-wordcount: '467'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 | [Adobe Target 产品文档](/help/target-home.md)<br>（本指南） | 概述信息、步骤和屏幕快照，重点介绍通过用户界面与 [!DNL Target] 交互。本指南概述所有可用的操作和选项，包括要避免的“隐患”。这是关于使用 [!DNL Target] UI 最详细的资源。 |
 | [Adobe Target 教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hans) | 可帮助您学习 [!DNL Target] 的许多组件的视频和教程。 |
 | [Adobe Experience League Target 内容库](https://guided.adobe.com/#recommended/solutions/target) | 可在 [!DNL Adobe Target Experience League] 页面上找到着重介绍 [!DNL Target] 功能的一系列操作方法视频和教程。 |
-| [Adobe Experience Platform Launch Target 文档](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 关于使用 [!DNL Adobe] 新一代标签管理平台 [!DNL Adobe Experience Platform Launch] 实现 [!DNL Target] 的信息。这是实现 [!DNL Target] 的首选方法。 |
+| [Adobe Experience Platform Target 文档](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 有关在[!DNL Adobe Experience Platform]（[!DNL Adobe]的下一代标签管理平台）中使用标签实施[!DNL Target]的信息。 这是实现 [!DNL Target] 的首选方法。 |
 | [Adobe 客户关怀团队办公时间](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | 关于 Adobe 客户关怀团队发起的一项倡议“办公时间”的信息。这些讲座旨在告知并帮助参与者排除问题，并提供提示和技巧以使 [!DNL Adobe Experience Cloud] 解决方案（包括 [!DNL Target]）发挥成效。 |
 | [Target 基础知识系列网络研讨会](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | [!DNL Target] 基础知识系列网络研讨会（社区为您提供的一种客户成功案例系列网络研讨会）以前各场讲座的注册信息和链接。 |
 | [Adobe Target 开发人员](https://developers.adobetarget.com/) | 关于 Adobe Target 开发人员网站的信息帮助您在客户端应用程序、服务器端应用程序、移动应用程序、物联网等上实现 [!DNL Target]。还可将 [!DNL Target] 数据导出到第三方解决方案。 |

@@ -5,9 +5,9 @@ title: 如何从at.js版本1.x升级到版本2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2758'
 ht-degree: 91%
 
 ---
@@ -54,11 +54,11 @@ ht-degree: 91%
 
 ## 部署 at.js 2.*x* {#deploy-atjs-200}
 
-1. 通过以下方式部署 at.js 2.*x*：[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 扩展。
+1. 部署 at.js 2.** 扩展中的xvia [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 标记。
 
    >[!NOTE]
    >
-   > 首选方法是使用 Adobe Launch 部署 at.js。
+   > 首选方法是在[!DNL Adobe Experience Platform]中使用标记部署at.js。
 
    或
 
@@ -360,7 +360,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 | 受众 | 是 |
 | 客户属性 | 是 |
 | AEM 体验片段 | 是 |
-| Adobe Launch 扩展 | [是](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] 扩展 | [是](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | 调试程序 | 是 |
 | 审核 | at.js 2.*x* 尚未更新规则 |
 | 选择加入 | 否。[at.js 版本 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 支持满足 [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) 要求的选择加入支持。 |

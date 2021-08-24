@@ -5,10 +5,10 @@ title: 如何在我的网站上实施 [!DNL Target] ?
 feature: 管理和配置
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 18%
+source-wordcount: '152'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform Launch] 是实施的首选方法 [!DNL Target]。[!DNL Launch] 为客户提供了一种简单的方式来部署和管理所有用来加强相关客户体验的分析、营销和广告标签。有关更多信息，请参阅[使用AdobeLaunch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)实施Target。
+>[!DNL Adobe Experience Platform]中的标记是实施[!DNL Target]的首选方法。 [!DNL Adobe Experience Platform]中的标记是[!DNL Adobe]中推出的下一代标记管理功能。 标记为客户提供了一种简单的方式来部署和管理用来改善相关客户体验的分析、营销和广告标记。 有关更多信息，请参阅[使用 [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)实施 [!DNL Target] 。
 
 1. 要访问[!UICONTROL 实施]页面，请单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实施]**。
 

@@ -5,10 +5,10 @@ title: at.js Javascript库如何工作？
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 86%
+source-wordcount: '1107'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ at.js 库是适用于 Target 的新实施库。使用 at.js 可缩短 Web 实施
 
 有关更多信息，请参阅 [Target JavaScript 库](/help/c-intro/how-target-works.md#libraries)。
 
-在下图所示的[!DNL Target]实施中，实施了以下[!DNL Adobe Experience Cloud]解决方案：Analytics、Target和Audience Manager。 此外，还实施了以下 Experience Cloud 核心服务：Adobe Launch、受众和访客 ID 服务。
+在下图所示的[!DNL Target]实施中，实施了以下[!DNL Adobe Experience Cloud]解决方案：Analytics、Target和Audience Manager。 此外，还实施了以下Experience Cloud核心服务：[!DNL Adobe Experience Platform]、[!DNL Audiences]和[!DNL Visitor ID Service]。
 
 ## at.js 1.*x* 和 at.js 2.x 工作流程图之间有何差异？
 
@@ -58,9 +58,9 @@ at.js 库是适用于 Target 的新实施库。使用 at.js 可缩短 Web 实施
 
 | 步骤 | 详细信息 |
 | --- | --- |
-| 3 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
+| 1 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
 | 2 | 从缓存中读取视图的目标内容。 |
-| 3 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
+| 1 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
 | 4 | 通知请求将发送到 [!DNL Target] 配置文件存储区，以计算活动中的访客和递增量度。 |
 | 5 | Analytics 数据会发送到数据收集服务器。 |
 | 6 | Target 数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 A4T 报表查看 Analytics 数据。 |
@@ -79,8 +79,8 @@ at.js 2.x 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Clo
 
 | 步骤 | 描述 | 调用 | 描述 |
 |--- |--- |--- |--- |
-| 3 | 如果用户通过了身份验证，则调用会返回 [!DNL Experience Cloud ID] (MCID)；另一调用会同步客户 ID。 | 2 | at.js 库会同步加载，并隐藏文档正文。 |
-| 3 | 将会发出全局 mbox 请求，其中包括已配置的所有参数，例如 MCID、SDID 和访客 ID（可选）。 | 4 | 配置文件脚本在执行后进入配置文件存储区。存储区向[!UICONTROL 受众库]请求符合条件的受众（例如从 [!DNL Adobe Analytics]、[!DNL Audience Manager] 等共享的受众）。<br>客户属性会以批量过程发送到[!DNL Profile Store]。 |
+| 1 | 如果用户通过了身份验证，则调用会返回 [!DNL Experience Cloud ID] (MCID)；另一调用会同步客户 ID。 | 2 | at.js 库会同步加载，并隐藏文档正文。 |
+| 1 | 将会发出全局 mbox 请求，其中包括已配置的所有参数，例如 MCID、SDID 和访客 ID（可选）。 | 4 | 配置文件脚本在执行后进入配置文件存储区。存储区向[!UICONTROL 受众库]请求符合条件的受众（例如从 [!DNL Adobe Analytics]、[!DNL Audience Manager] 等共享的受众）。<br>客户属性会以批量过程发送到[!DNL Profile Store]。 |
 | 5 | [!DNL Target] 根据 URL、mbox 参数和配置文件数据确定要返回给访客的活动和体验。 | 6 | 目标内容会发送回页面，其中可能包含其他个性化的配置文件值。<br>体验会在默认内容不发生闪烁的情况下尽快显示。 |
 | 7 | [!DNL Analytics] 数据会发送到数据收集服务器。 | 8 | [!DNL Target] 数据会通过 SDID 匹配到 [!DNL Analytics] 数据，并且会进行相应处理以保存到 [!DNL Analytics] 报表存储中。<br>[!DNL Analytics]之后，便可以在 [!DNL Analytics] 和 [!DNL Target] 中通过 [!DNL Analytics for Target] (A4T) 报表查看  数据。 |
 

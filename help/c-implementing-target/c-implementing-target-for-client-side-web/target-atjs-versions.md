@@ -4,9 +4,9 @@ description: 查看有关Adobe [!DNL Target] at.js JavaScript库每个版本中�
 title: at.js的每个版本中都包含哪些内容？
 feature: at.js
 role: Developer
-source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '4229'
+source-wordcount: '4228'
 ht-degree: 89%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 89%
 >
 >Target团队同时支持at.js 1.*x* 与 at.js 2.*x* 之间的映射。请升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。
 >
->[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch是升级at.js的首选方法。扩展开发人员会不断向其扩展中添加新功能，并且会经常修复错误。 这些更新将打包到扩展的新版本中，并在[!DNL Launch]目录中作为升级提供。 有关更多信息，请参阅&#x200B;*标记概述*&#x200B;指南中的[扩展升级](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 。
+>[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)中的标记是升级at.js的首选方法。 扩展开发人员会不断向其扩展中添加新功能，并且会经常修复错误。 这些更新将打包到扩展的新版本中，并在[!DNL Adobe Experience Platform]目录中作为升级提供。 有关更多信息，请参阅&#x200B;*标记概述*&#x200B;指南中的[扩展升级](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 。
 
 ## at.js 2.6.1（2021年8月16日）
 
@@ -50,7 +50,7 @@ ht-degree: 89%
 此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
 
 * 修复了 mbox 请求中包含的 `targetPageParams` 存在的问题。`targetPageParams` 只能包含在 `pageLoad` 请求中。(TNT-40247)
-* 优化了[!DNL Adobe Experience Platform Launch]扩展中的窗口和文档全局引用。 (TNT-37124)
+* 优化了[!DNL Adobe Experience Platform]扩展中的窗口和文档全局引用。 (TNT-37124)
 
 ## at.js 2.4.0（2021 年 1 月 14 日）
 
@@ -83,7 +83,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 * 使得可通过 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 覆盖 `deviceIdLifetime` 设置。(TNT-36349)
 * 修复了在使用 CNAME 和边缘覆盖 at.js 2 时出现的问题。*x* 可能无法正确地创建服务器域，从而导致了 [!DNL Target] 请求失败。(TNT-35065)
-* 修复了一个问题，在使用 [!DNL Target] [!DNL Launch] 扩展程序 v2 和 [!DNL Adobe Analytics] [!DNL Launch] 扩展程序时，[!DNL Target] 延迟了 [!DNL Analytics] `sendBeacon` 调用。（TNT-36407、TNT-35990、TNT-36000）
+* 修复了一个问题，在使用 [!DNL Target]  扩展程序 v2 和 [!DNL Adobe Analytics] [!DNL Launch] 扩展程序时，[!DNL Target] 延迟了 [!DNL Analytics] `sendBeacon` 调用。（TNT-36407、TNT-35990、TNT-36000）
 
 ## at.js 版本 2.3.0（2020 年 3 月 25 日）
 
@@ -110,7 +110,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
    >[!NOTE]
    >
-   >将您的ECID Launch扩展升级到v4.4以利用此性能增强功能。
+   >将您的ECID扩展升级到v4.4以利用此性能增强功能。
 
 * at.js版本2.2还提供了一个名为`serverState`的新设置。 当实施Target的混合集成时，可使用此设置来优化页面性能。 混合集成指的是在客户端使用 at.js 2.2 和更高版本，在服务器端使用交付 API 或 Target SDK，二者相结合以交付体验。`serverState` 让 at.js 2.2 和更高版本可直接从在服务器端获取并作为所提供的页面的一部分返回客户端的内容应用体验。有关详细信息，请在 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) 中参阅“serverState”。
 
@@ -123,7 +123,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 >[!NOTE]
 >
->将您的ECID Launch扩展升级到v4.4以利用此性能增强功能。
+>将您的ECID扩展升级到v4.4以利用此性能增强功能。
 
 ## at.js 版本 2.1.1（2019 年 7 月 24 日）
 

@@ -4,14 +4,14 @@ description: 了解如何在Adobe [!DNL Target] 中使用SPA VEC，以DIY（自�
 title: 如何使用单页应用程序可视化体验编辑器(SPA VEC)?
 feature: 可视化体验编辑器 (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3699'
-ht-degree: 91%
+source-wordcount: '3702'
+ht-degree: 90%
 
 ---
 
-# 单页应用程序 (SPA) 可视化体验编辑器
+# 单页面应用程序 (SPA) 可视化体验编辑器
 
 在 [!DNL Adobe Target] 中，[!UICONTROL 可视化体验编辑器] (VEC) 为营销人员提供了一种 DIY（自己动手）功能，可创建能够通过 Adobe Target 的全局 mbox 在传统的多页面应用程序上动态交付的活动和个性化体验。但是，这种方法依赖于页面加载或后续服务器调用中的检索选件，这会导致延迟，如下图所示。此方法不适用于单页应用程序 (SPA)，因为它会降低用户体验和应用程序性能。
 
@@ -65,7 +65,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    ![“实施详细信息”对话框](/help/c-experiences/assets/imp-200.png)
 
-   通过位于[!UICONTROL 管理>实施]中的Adobe Target UI下载at.js 2.x。 也可以通过 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 部署 at.js 2.x。但是，Adobe Target 扩展当前不是最新的，不受支持。
+   通过位于[!UICONTROL 管理>实施]中的Adobe Target UI下载at.js 2.x。 at.js 2.x也可以通过[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)中的标记进行部署。 但是，Adobe Target扩展当前不是最新的，不受支持。
 
 1. 在您的网站上实施 at.js 2.x 的最新函数：[triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)。
 

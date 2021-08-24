@@ -5,10 +5,10 @@ title: 有关at.js的常见问题和答案是什么？
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 75%
+source-wordcount: '2543'
+ht-degree: 77%
 
 ---
 
@@ -89,7 +89,7 @@ at.js 1.0.0 版本使您可以异步加载 Target 库。
 
 要异步加载 at.js，请执行以下操作：
 
-* 推荐的方法是通过[!DNL Adobe Experience Platform Launch]。 有关更多信息，请参阅[使用Launch在网站中实施Experience Cloud](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html)教程中的[添加Adobe Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html)课程。
+* 推荐的方法是通过[!DNL Adobe Experience Platform]中的标记。
 * 您还可以通过向加载 at.js 的脚本标记中添加 async 属性来异步加载 at.js。使用如下内容：
 
    ```
@@ -109,7 +109,7 @@ at.js 1.0.0 版本使您可以异步加载 Target 库。
 
 您可以避免闪烁，方法是使用预先隐藏的代码片段隐藏页面（或指定的部分），然后在加载at.js和全局请求后显示该页面。 在加载 at.js 之前，必须先添加该代码片段。
 
-如果要通过异步Launch实施部署at.js，请确保在页面的Launch嵌入代码之前插入预先隐藏的代码片段，如[“使用Launch在网站中实施Experience Cloud”教程](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html)的[添加Target预先隐藏的代码片段](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet)部分中所述。
+如果要通过异步[!DNL Adobe Experience Platform]实施部署at.js，请确保在使用[!DNL Adobe Experience Platform]嵌入代码的实施[!DNL Target]之前，将预先隐藏的代码片段直接包含在您的页面中。
 
 如果要通过同步 DTM 实施部署 at.js，则可通过页面顶部触发的“页面加载”规则添加预先隐藏的代码片段。
 

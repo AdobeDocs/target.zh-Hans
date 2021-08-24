@@ -5,10 +5,10 @@ title: ' [!DNL Target] 如何处理隐私和数据保护法规？'
 feature: 隐私和安全
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2ee87e2c6e8bbdb62eedf709e6454a0467197749
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '2204'
-ht-degree: 55%
+source-wordcount: '2195'
+ht-degree: 54%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 55%
 >
 >访问和删除应用于CCPA的数据的过程与GDPR的过程相同。
 
-## Adobe[!DNL Target]和[!DNL Adobe Experience Platform Launch]选择加入 {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe[!DNL Target]和[!DNL Adobe Experience Platform]选择加入 {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] 通过 [!DNL Platform Launch] 提供选择加入功能支持，以协助支持您的同意管理策略。选择加入功能让客户可自行决定如何以及何时触发 [!DNL Target] 标记。还有一个选项，即通过 [!DNL Platform Launch] 预批准 [!DNL Target] 标记。要启用在 [!DNL Target] at.js 中使用选择加入的功能，您应该使用 `targetGlobalSettings` 并添加 `optinEnabled=true` 设置。在[!DNL Platform Launch]中，从[!DNL Platform Launch]扩展安装视图的[!UICONTROL GDPR选择加入]下拉列表中选择“启用”。 有关更多详细信息，请参阅[Platform launch文档](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)。
+[!DNL Target] 通过中的标记提供选择加入功能支持， [!DNL Adobe Experience Platform] 以帮助支持您的同意管理策略。选择加入功能让客户可自行决定如何以及何时触发 [!DNL Target] 标记。还有一个选项，即通过 [!DNL Adobe Experience Platform] 预批准 [!DNL Target] 标记。要启用在 [!DNL Target] at.js 中使用选择加入的功能，您应该使用 `targetGlobalSettings` 并添加 `optinEnabled=true` 设置。在[!DNL Adobe ExperiencePlatform]中，从扩展安装视图的[!UICONTROL GDPR选择加入]下拉列表中选择“启用”。 有关更多详细信息，请参阅[使用 [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)实施 [!DNL Target] 。
 
 以下代码片段显示了如何启用 `optinEnabled=true` 设置：
 
@@ -67,13 +67,13 @@ window.targetGlobalSettings = {
 >
 >at.js 版本 1.7.0 和 at.js 2.1.0 或更高版本都支持选择加入功能。at.js 版本 2.0.0 和 2.0.1 不支持选择加入功能。
 >
->推荐使用 [!DNL Platform Launch] 管理选择加入功能。[!DNL Platform Launch]中提供了更精细的控制，可在[!DNL Target]触发之前隐藏页面的选定元素，这有助于在您的同意策略中使用这些元素。
+>推荐使用 [!DNL Adobe Experience Platform] 管理选择加入功能。[!DNL Adobe Experience Platform]中提供了更精细的控制，可在[!DNL Target]触发之前隐藏页面的选定元素，这有助于在您的同意策略中使用这些元素。
 
 使用选择加入功能时需要考虑三种情景：
 
-1. **已通过 [!DNL Platform Launch] 预批准 [!DNL Target] 标记（或者数据主体以前已经批准 [!DNL Target]）：**[!DNL Target] 标记不适用于征求同意，且会发挥预期的作用。
+1. **已通过 [!DNL Adobe Experience Platform] 预批准 [!DNL Target] 标记（或者数据主体以前已经批准 [!DNL Target]）：**[!DNL Target] 标记不适用于征求同意，且会发挥预期的作用。
 1. **[!DNL Target] 标记没有获得预批准且 `bodyHidingEnabled` 设置为 FALSE：**&#x200B;只有在收到客户的同意之后，才会触发 [!DNL Target] 标记。在收到客户同意之前，仅默认内容可用。在收到客户同意之后，将调用 [!DNL Target] 并向数据主体（访客）提供个性化内容。由于只有默认内容在同意前才可用，因此务必使用适当的策略，例如包含页面任何部分或可能进行个性化内容的启动页面。 此过程可确保数据主体（访客）的体验保持一致。
-1. **[!DNL Target] 标记没有获得预批准且 `bodyHidingEnabled` 设置为 TRUE：**&#x200B;只有在收到客户的同意之后，才会触发 [!DNL Target] 标记。在收到客户同意之前，仅默认内容可用。但是，因为 `bodyHidingEnabled` 设置为 true，`bodyHiddenStyle` 会指示在触发 [!DNL Target] 标记之前页面上需要隐藏的内容（或者数据主体拒绝使用选择加入功能，这种情况下会显示默认内容）。默认情况下，将`bodyHiddenStyle`设置为`body { opacity:0;}`，这将隐藏HTML主体标记。 Adobe推荐的页面配置如下所示，以便隐藏除同意管理器对话框之外的整个页面正文，方法是将页面内容放在一个容器中，将同意管理器对话框放在单独的容器中。 这种设置会配置 [!DNL Target]，以便仅隐藏页面内容容器。有关如何配置这些设置的详细信息，请参阅[Platform launch文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)。
+1. **[!DNL Target] 标记没有获得预批准且 `bodyHidingEnabled` 设置为 TRUE：**&#x200B;只有在收到客户的同意之后，才会触发 [!DNL Target] 标记。在收到客户同意之前，仅默认内容可用。但是，因为 `bodyHidingEnabled` 设置为 true，`bodyHiddenStyle` 会指示在触发 [!DNL Target] 标记之前页面上需要隐藏的内容（或者数据主体拒绝使用选择加入功能，这种情况下会显示默认内容）。默认情况下，将`bodyHiddenStyle`设置为`body { opacity:0;}`，这将隐藏HTML主体标记。 Adobe推荐的页面配置如下所示，以便隐藏除同意管理器对话框之外的整个页面正文，方法是将页面内容放在一个容器中，将同意管理器对话框放在单独的容器中。 这种设置会配置 [!DNL Target]，以便仅隐藏页面内容容器。请参阅[Privacy Service概述](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)。
 
    适用于情景 3 的推荐页面设置是：
 
@@ -145,9 +145,9 @@ GDPR和CCPA不会因您必须获得同意的时间而发生更改，但会因您
 
 [!DNL Adobe] 目前不提供同意管理解决方案，不过，市面上有各种各样的开发工具，可用来解决一些新的需求。有关一般隐私工具（包括同意管理器）的更多信息，请参阅&#x200B;*国际隐私专业协会(iaap)*&#x200B;网站上的[2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf)。
 
-[!DNL Target] 通过提供选择加入功能支持， [!DNL Platform Launch] 以支持您的同意管理策略。选择加入功能让客户可自行决定如何以及何时触发 [!DNL Target] 标记。还有一个选项，即通过 [!DNL Platform Launch] 预批准 [!DNL Target] 标记。推荐使用 [!DNL Platform Launch] 管理选择加入功能。[!DNL Platform Launch]中提供了更精细的控制，可在[!DNL Target]触发之前隐藏页面的选定元素，这可能会有助于在您的同意策略中使用该控件。
+[!DNL Target] 通过提供选择加入功能支持， [!DNL Adobe Experience Platform] 以支持您的同意管理策略。选择加入功能让客户可自行决定如何以及何时触发 [!DNL Target] 标记。还有一个选项，即通过 [!DNL Adobe Experience Platform] 预批准 [!DNL Target] 标记。推荐使用 [!DNL Adobe Experience Platform] 管理选择加入功能。[!DNL Adobe Experience Platform]中提供了更精细的控制，可在[!DNL Target]触发之前隐藏页面的选定元素，这可能会有助于在您的同意策略中使用该控件。
 
-有关GDPR、CCPA和[!DNL Launch]的更多信息，请参阅[Adobe隐私JavaScript库和GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)。 另请参阅上文中 *Adobe Target 和 Experience Platform Launch 选择加入功能*&#x200B;部分。
+有关GDPR、CCPA和[!DNL Adobe Experience Platform]的更多信息，请参阅[Adobe隐私JavaScript库和GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)。 另请参阅上面的&#x200B;*Adobe Target和Adobe Experience Platform选择加入*&#x200B;部分。
 
 ### `AdobePrivacy.js` 是否向 GDPR API 提交信息？ {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 

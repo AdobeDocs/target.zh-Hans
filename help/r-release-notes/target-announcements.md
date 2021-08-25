@@ -2,11 +2,11 @@
 keywords: 公告;skill builder;开发人员聊天;coffee break;活动;forrester;gartner;网络研讨会
 description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Skill Builder 讲座、开发人员和产品经理聊天、网络研讨会等。
 title: 可在何处找到 [!DNL Target] 公告和活动？
-feature: 发行说明
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '576'
 ht-degree: 94%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 94%
 
 | 研究机构 | 详细信息 |
 | --- | --- |
-| Forrester | **Adobe 在 Forrester Wave 报告中被评为体验优化平台的佼佼者。**<br>&#x200B;在 2020 年第四季度的 The Forrester Wave: Experience Optimization Platforms 报告中，Adobe 因其在这一领域的优秀产品 Adobe Target Premium 而被评为佼佼者。Adobe 在当前产品和市场占有率类别以及推荐和平台体验标准方面均获得所有参与厂商的最高分。Target Premium 也在体验优化技术创新和配套服务标准方面获得了最高分。该报告基于对 10 家体验优化平台提供商在 22 项标准上的全面评估。<br>请在 [Adobe 博客](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)上阅读该报告。 |
-| Gartner | **Adobe 在 Gartner 的个性化引擎魔力象限中再次被评为佼佼者。**<br>&#x200B;在 Gartner 第三年（2020 年）的个性化引擎魔力象限报告中，Adobe 再次被评为佼佼者。Gartner 个性化引擎魔力象限基于两大类 15 项标准对各家供应商进行了评估：愿景完整性和执行能力。请在 <br>[Adobe 博客](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)上阅读该报告。 |
+| Forrester | **Adobe 在 Forrester Wave 报告中被评为体验优化平台的领导者。**<br>&#x200B;在 2020 年第四季度的 The Forrester Wave: Experience Optimization Platforms 报告中，Adobe 因其在这一领域的优秀产品 Adobe Target Premium 而被评为领导者。Adobe 在当前产品和市场占有率类别以及推荐和平台体验标准方面均获得所有参与厂商的最高分。Target Premium 也在体验优化技术创新和配套服务标准方面获得了最高分。该报告基于对 10 家体验优化平台提供商在 22 项标准上的全面评估。<br>请在 [Adobe 博客](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)上阅读该报告。 |
+| Gartner | **Adobe 在 Gartner 的个性化引擎魔力象限中再次被评为领导者。**<br>&#x200B;在 Gartner 第三年（2020 年）的个性化引擎魔力象限报告中，Adobe 再次被评为领导者。Gartner 个性化引擎魔力象限基于两大类 15 项标准对各家供应商进行了评估：愿景完整性和执行能力。请在 <br>[Adobe 博客](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)上阅读该报告。 |
 
 ## [!DNL Adobe Target] 社区问答喝咖啡休息时间
 

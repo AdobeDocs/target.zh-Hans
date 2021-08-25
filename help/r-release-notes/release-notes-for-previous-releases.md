@@ -2,11 +2,11 @@
 keywords: 发行说明
 description: 查看 Adobe Target 早期版本中包括的功能、增强和修补的列表。
 title: 早期版本中包括什么功能？
-feature: 发行说明
+feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
-source-wordcount: '31347'
+source-wordcount: '31345'
 ht-degree: 99%
 
 ---

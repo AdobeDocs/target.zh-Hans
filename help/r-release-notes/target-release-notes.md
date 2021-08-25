@@ -2,11 +2,11 @@
 keywords: 发行说明;版本;更新;未来版本;增强;新功能;修复;更新;预发行
 description: 了解 Adobe Target 即将发布的版本中包括的新功能、增强和修复，包括 SDK、API 和 JavaScript 库。
 title: 即将发布的版本中包括什么新功能？
-feature: 发行说明
+feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 99%
 
 ---

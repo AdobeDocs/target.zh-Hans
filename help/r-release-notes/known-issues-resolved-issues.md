@@ -2,12 +2,12 @@
 keywords: 已知问题;已解决的问题;发行说明;错误;问题;修复
 description: 查找关于 Adobe Target 中已知问题的信息，包括解决方法信息。解决问题后，问题被移至“已解决”部分。
 title: 可在何处找到关于已知问题和已解决的问题的信息？
-feature: 发行说明
+feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '4505'
-ht-degree: 97%
+source-wordcount: '4503'
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 97%
 
 下面部分列出了 [!DNL Target] 的已知问题：
 
-### 使用A4T自动分配活动的流量分配 {#aa-a4t}
+### 使用 A4T 的自动分配活动的流量分配 {#aa-a4t}
 
-在某些情况下，使用[!UICONTROL Analytics for Target](A4T)的[!UICONTROL 自动分配]活动的流量分配可能会因每个体验报告的转化率而异。 回访访客流量比例较高的活动通常会出现这种情况。 受影响的客户将收到有关受影响活动的通知。
+在某些情况下，使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自动分配]活动的流量分配，可能会与基于每个体验所报告转化率的流量分配不同。这种情况经常出现在具有较高的回访访客流量比例的活动中。受影响的客户会收到有关受影响活动的通知。
 
-在解决此问题之前，请将[!UICONTROL 自动分配]与标准[!DNL Target]报表结合使用，或将标准A/B测试与[!DNL Analytics]报表结合使用，作为[!UICONTROL 自动分配]与[!DNL Analytics]报表的替代方法。 (TOP-131)
+在此问题解决之前，请将[!UICONTROL 自动分配]用于标准 [!DNL Target] 报表，或者将标准 A/B 测试用于 [!DNL Analytics] 报表，作为将[!UICONTROL 自动分配]用于 [!DNL Analytics] 报表的替代。(TOP-131)
 
 ### 自动分配和自动目标活动的 Analytics for Adobe Target (A4T) 指标
 
@@ -35,9 +35,9 @@ ht-degree: 97%
 
 有关支持和不支持的目标指标的列表，请参阅[自动分配和自动定位活动支持 A4T](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。(TNT-38409)
 
-### 增强型体验编辑器(EEC)不支持PUT请求。
+### 增强体验编辑器 (EEC) 不支持 PUT 请求。
 
-EEC当前存在一个问题，该问题导致EEC无法支持PUT请求，并导致504超时错误。 (TGT-41493)
+目前，EEC 的一个问题使其无法支持 PUT 请求，导致出现 504 超时错误。(TGT-41493)
 
 ### [!DNL Adobe Experience Platform] 区段名称未显示在[!UICONTROL 重要属性]报告中。
 
@@ -228,7 +228,7 @@ Target Standard/Premium 20.10.1 版本中修复了此问题。
 
 此问题已得到解决。
 
-### 使用 Google Chrome 80 和更高版本时，在可视体验编辑器 (VEC) 或 增强体验编辑器 (EEC) 中不加载页面
+### 使用 Google Chrome 80 和更高版本时，在可视体验编辑器 (VEC) 或增强体验编辑器 (EEC) 中不加载页面
 
 这个已知问题与 Google 从 Chrome 80 版开始更改无 SameSite 属性的 Cookie 的默认行为的这一决定有关。在作出该更改之前，Chrome 将所有无 SameSite 属性的 Cookie 默认视为“SameSite=None”，现在它默认视为“SameSite=Lax”，而这样改变了在 GET 和 POST 请求上发送 Cookie 的方式。请参阅 [SameSite 更新](https://www.chromium.org/updates/same-site)。
 

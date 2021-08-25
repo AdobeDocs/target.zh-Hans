@@ -2,11 +2,11 @@
 keywords: Target;首页;热门主题;adobe target;standard;premium;target 文档;adobe target 文档;主页
 title: 可在何处找到 [!DNL Target] 文档？
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
-feature: 概述
+feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '692'
 ht-degree: 99%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Adobe Target 最近在以下报告中被评为佼佼者：
+>Adobe Target 最近在以下报告中被评为领导者：
 >
->**[Forrester Wave 体验优化平台报告。](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target 在 2020 年第四季度的 The Forrester Wave: Experience Optimization Platforms 报告中被评为佼佼者。
+>**[Forrester Wave 体验优化平台报告。](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target 在 2020 年第四季度的 The Forrester Wave: Experience Optimization Platforms 报告中被评为领导者。
 >
->**[Gartner 个性化引擎魔力象限。](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Adobe Target 在 Gartner 第三年（2020 年）的个性化引擎魔力象限报告中再次被评为佼佼者。
+>**[Gartner 个性化引擎魔力象限。](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Adobe Target 在 Gartner 第三年（2020 年）的个性化引擎魔力象限报告中再次被评为领导者。
 
 以下部分将向您介绍本指南中的有用链接，这些链接是按照目标受众并基于典型的工作职能来排列的：
 
@@ -33,12 +33,12 @@ ht-degree: 99%
 - [营销人员](#marketers)
 - [开发人员](#developers)
 - [Target 和 Adobe Experience Cloud 管理员](#admins)
-- [分析员](#analysts)
+- [分析人员](#analysts)
 - [QA 工程师](#qa)
 
 ## 所有 [!DNL Target] 用户 {#all}
 
-营销人员、开发人员、管理员、分析员和质量保证工程师。
+营销人员、开发人员、管理员、分析人员和质量保证工程师。
 
 - [Target 发行说明](r-release-notes/release-notes.md)：包含有关当前版本的信息、有关影响 [!DNL Target] 的已知问题的信息、此文档的重要更改列表，和以往发行说明的存档。
 - [Target 简介](c-intro/intro.md)：说明 [!DNL Target] 解决方案的核心概念。
@@ -68,7 +68,7 @@ ht-degree: 99%
 
 - [管理 Target](administrating-target/administrating-target.md)：说明如何添加用户和配置您的 [!DNL Target] 帐户。
 
-## 分析员 {#analysts}
+## 分析人员 {#analysts}
 
 - [受众](c-target/target.md)：介绍如何确定谁可在有针对性的活动中看到内容和体验。
 - [报表](c-reports/reports.md)：说明如何解释活动的性能。

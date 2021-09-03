@@ -5,9 +5,9 @@ title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,16 +26,16 @@ ht-degree: 94%
 
 ## [!DNL Adobe Target] 社区问答喝咖啡休息时间
 
-* **2021年9月8日星期三**
+* **2021 年 9 月 8 日星期三**
 * **上午 8 点（PDT，UTC -7）**
 * **[单击此处了解更多信息和注册](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497)。**
 
-[!DNL Adobe Target]的高级产品经理Vishal Chordia将回答客户有关其专业领域的问题：
+[!DNL Adobe Target] 高级产品经理 Vishal Chordia 将解答客户对他的专业领域存有的疑问：
 
 * [!DNL Adobe Experience Platform]
 * 基于受众的个性化
-* [!DNL Real-time Customer Data Platform] (RTCDP)与  [!DNL Target]
-* 常规[!DNL Target]主题
+* [!DNL Real-time Customer Data Platform] (RTCDP) 与 [!DNL Target] 集成
+* 一般 [!DNL Target] 主题
 
 ## 网络研讨会：通过 Adobe Target 的设备上决策进行无延迟的个性化和测试
 

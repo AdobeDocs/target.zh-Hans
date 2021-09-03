@@ -5,9 +5,9 @@ title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2277'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 97%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 8 月 24 日 | [ [!DNL Target] 实施 [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] 已在中作为一套数据收集技术进行了重新 [!DNL Adobe Experience Platform]命名。因此，在产品文档中推出了一些术语更改。 |
-| 8 月 23 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了有关以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间<ul><li>2021年9月8日星期三</li><li>上午 8 点（PDT，UTC -7）</li></ul></li></ul> |
+| 8 月 24 日 | [使用  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 实施 [!DNL Target]  | [!DNL Adobe Experience Platform Launch] 已更名为 [!DNL Adobe Experience Platform] 中的一套数据收集技术。因此，产品文档中的术语有一些改动。 |
+| 8 月 23 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间<ul><li>2021 年 9 月 8 日星期三</li><li>上午 8 点（PDT，UTC -7）</li></ul></li></ul> |
 | 8 月 19 日 | [查看报表 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | 更新了以下常见问题解答：<ul><li>A4T 是否支持虚拟报表包？</li></ul> |
-| 8 月 16 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md)<br>和 <br>[at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了at.js 2.6.1的发行说明。 |
-|  | [设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 添加了“最佳实践”章节。 |
-| 8 月 11 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了[!DNL Target] node.js SDK版本2.2.0的发行说明。 |
+| 8 月 16 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md)<br>和 <br>[at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了 at.js 2.6.1 的发行说明。 |
+|  | [设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 添加了“最佳实践”部分。 |
+| 8 月 11 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了 [!DNL Target] node.js SDK 版本 2.2.0 的发行说明。 |
 | 8 月 9 日 | [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 更新了主题。 |
 | 8 月 6 日 | [使用 at.js 实施 [!UICONTROL Analytics for Target] (A4T) 之前](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 更新了以下注释：<ul><li>at.js 1.8.0+ 和 at.js 2.x+ 不再适用于 2.5.0 之前的访客 API 版本，无法传递 Adobe Audience Manager (AAM) 参数。</li></ul> |
 | 8 月 5 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了注释，指明 [!DNL Target Standard/Premium] 18.8.1 的发行延迟。 |
@@ -62,7 +62,7 @@ ht-degree: 97%
 | 7 月 12 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>网络研讨会：量化集成 Adobe Analytics + [!DNL Adobe Target] 的显著 ROI、见解和时间节省值。</li><li>将在 2021 年 7 月 21 日星期三上午 8 点（PDT，GMT-7）举办的 [!DNL Adobe Target] 社区问答喝咖啡休息时间。</li></ul> |
 |  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 添加了以下常见问题解答：“如何只推荐新文章或视频？” |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了“Target API 调用”部分中的文本。 |
-|  | [adobe.target.getOffers()- at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 更新了 `consumerId` 键的描述。 |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 更新了 `consumerId` 键的描述。 |
 |  | [自定义全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 更新了步骤 1 以指示在您选择新的 mbox 后会自动保存更改。 |
 |  | Experience Cloud 设备协作 | 已删除的主题。此功能已被弃用。 |
 | 6 月 29 日 | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 添加了以下章节：<ul><li>Target JavaScript 库 [!UICONTROL QA 模式]兼容性</li><li>预览 URL</li></ul> |
@@ -104,7 +104,7 @@ ht-degree: 97%
 | 4 月 26 日 | [对 at.js 的设备上决策疑难解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 新主题。 |
 | 4 月 19 日 | [设备上决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 添加了以下新文章：<ul><li>[设备上决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>对 at.js 的[设备上决策支持的功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[设备上决策规则构件](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | 添加了关于 `decisioningMethod` 的信息。 |
-|  | [adobe.target.getOffers()- at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了以下内容：<ul><li>关于 `decisioningMethod` 键的信息。</li><li>关于“用以制定设备上决策的 getCallOffers()”的示例。</li></ul> |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了以下内容：<ul><li>关于 `decisioningMethod` 键的信息。</li><li>关于“用以制定设备上决策的 getCallOffers()”的示例。</li></ul> |
 |  | [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 添加了以下信息：<ul><li>设备上决策构件已成功</li><li>设备上决策构件失败</li></ul> |
 |  | [活动](/help/c-activities/activities.md) | 添加了关于设备上决策的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.5.0 的信息。 |

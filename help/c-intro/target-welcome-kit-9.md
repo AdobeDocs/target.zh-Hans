@@ -2,12 +2,12 @@
 keywords: 欢迎套件;target 欢迎套件;简介;简介;开始使用
 description: 您已在 Adobe Target 中创建了您的第一个活动。接下来做什么？使用本文查找其他资源、培训教程和操作方法视频的链接。
 title: 可在何处找到其他资源以更有效地使用 Target？
-feature: 概述
+feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
-workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '720'
+ht-degree: 100%
 
 ---
 

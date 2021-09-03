@@ -2,12 +2,12 @@
 keywords: 推荐;简介;简介;网络研讨会;演示
 description: 了解 Adobe [!DNL Target] 中的“推荐”活动，这些活动根据以前的用户活动或其他算法自动显示可能让客户感兴趣的内容。
 title: “推荐”活动是什么？
-feature: 推荐
+feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
-workflow-type: tm+mt
-source-wordcount: '2107'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '2106'
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 99%
 
 您需要确保 [!DNL Target] 了解用户正在查看和购买的项目。如果购买与上下文无关，则可能需要跟踪不同类型的转化事件，例如，下载 PDF、完成调查、订阅新闻稿、观看视频等等。
 
-如果您已经使用 [!DNL Target] 在网站上运行 A/B 测试活动，则可能已经完成了此步骤。或者，如果您已经使用 [!DNL Adobe Analytics] 来报告网站访问情况和转化行为，则可以使用 [!DNL Analytics] 作为行为数据源。如果没有，最简单的方法就是使用标签管理器（例如[[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)中的标签）来设置此设置。 也可以通过实时 API 将离线或应用程序内的交互发送到 [!DNL Target]。
+如果您已经使用 [!DNL Target] 在网站上运行 A/B 测试活动，则可能已经完成了此步骤。或者，如果您已经使用 [!DNL Adobe Analytics] 来报告网站访问情况和转化行为，则可以使用 [!DNL Analytics] 作为行为数据源。如果没有，进行此设置最简单的方法是使用标签管理器，例如 [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 中的标签。也可以通过实时 API 将离线或应用程序内的交互发送到 [!DNL Target]。
 
 ### 使用正确的上下文信息获取推荐
 

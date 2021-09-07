@@ -1,13 +1,13 @@
 ---
 keywords: 定位;移动设备;Target 移动设备;DeviceAtlas;iPhone;iPhone 机型;Device Atlas;displaywidth;显示屏宽度;显示屏高度;设备类型;displayheight;手机;平板电脑;设备型号
-description: 了解如何在 [!DNL Adobe Target] 中创建受众，以根据移动设备、设备类型、设备供应商、屏幕大小（按像素）等参数定位移动设备。
+description: 了解如何在 [!DNL Adobe Target] 中创建受众以定位移动设备。
 title: 我是否可以根据移动设备选项来定位访客？
-feature: 受众
+feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 43%
+source-wordcount: '669'
+ht-degree: 40%
 
 ---
 
@@ -56,12 +56,6 @@ ht-degree: 43%
 
    >[!NOTE]
    >
-   >由于iOS 12.2中引入了新更改，因此使用由[!UICONTROL 设备营销名称]和[!UICONTROL 设备型号]定义的规则创建受众（用于指定iPhone型号）会受到影响。 [!DNL Target] 无法再定位安装了iOS 12.2（或更高版本）的iPhone的用户。但是，如果这些用户没有iOS 12.2（或更高版本），则“iPhone型号”定位将继续正常运行。
-   >
-   >iOS 12.2（或更高版本）更新不影响以下型号的标识，因为这些型号不支持升级到iOS 12.2:iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad/Retina显示屏、iPad Retina（第4代）、iPod Touch 4和iPod Touch 5。
-
-   >[!NOTE]
-   >
    >您可以使用[地域设置](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)通过移动设备运营商进行定位。
 
 1. （可选）为受众设置其他规则。
@@ -70,6 +64,20 @@ ht-degree: 43%
 下图展示了一个受众，它定位的是使用由Google制造的移动设备的访客。
 
 ![定位移动设备](assets/target_mobile.png)
+
+## 注意事项
+
+定位移动设备时请考虑以下信息：
+
+### 定位运行iOS 12.2或更高版本的设备
+
+由于iOS 12.2中引入了新更改，因此使用由[!UICONTROL 设备营销名称]和[!UICONTROL 设备型号]定义的规则创建受众（用于指定iPhone型号）会受到影响。 [!DNL Target] 无法再定位安装了iOS 12.2（或更高版本）的iPhone的用户。但是，如果这些用户没有iOS 12.2（或更高版本），则“iPhone型号”定位将继续正常运行。
+
+iOS 12.2（或更高版本）更新不影响以下型号的标识，因为这些型号不支持升级到iOS 12.2:iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad/Retina显示屏、iPad Retina（第4代）、iPod Touch 4和iPod Touch 5。
+
+### 定位运行Safari 14.0.2（或更高版本）的设备
+
+当使用移动规则定位在macOS上运行Safari版本14.0.2（或更高版本）的设备时，由于涉及Apple用户代理和DeviceAtlas的已知问题， [!DNL Target]会将Mac设备上的Safari错误地识别为iPad版本。 这个问题将在将来得到解决。
 
 ## 培训视频：创建受众
 

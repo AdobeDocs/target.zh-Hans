@@ -2,13 +2,13 @@
 keywords: 多值实体属性;自定义实体属性;有效 JSON;实体属性值;JSON 数组;多值的;多值
 description: 了解如何使用单值和多值自定义实体属性来定义有关Adobe [!DNL Target] Recommendations目录中项目的其他信息。
 title: 如何使用自定义实体属性？
-feature: 推荐
+feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 73e213bfbf2b84f982549ff265aa9c98d9f3a461
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 89%
+source-wordcount: '1397'
+ht-degree: 88%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 89%
 
 ## 实施多值属性 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-使用信息源 (CSV)、`targetPageParams`、交付 API 和保存实体 API 上传产品时，支持多值自定义实体属性。新值会替换当前值，而不进行附加。空数组 ( [] ) 会被视为没有值。
+使用信息源(CSV)、`targetPageParams`和交付API上传产品时，支持多值自定义实体属性。 新值会替换当前值，而不进行附加。空数组 ( [] ) 会被视为没有值。
 
 必须对双引号进行转义。例如，`"[""test"", ""value""]"` 是可在 CSV 中使用的有效 JSON 数组。
 

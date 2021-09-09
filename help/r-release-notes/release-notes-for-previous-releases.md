@@ -4,10 +4,10 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
-workflow-type: ht
-source-wordcount: '31345'
-ht-degree: 100%
+source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,37 @@ ht-degree: 100%
 >请参阅 [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2021
+
+### at.js 2.6.1（2021 年 8 月 16 日）
+
+* 修复了使用设备上决策时“混合模式没有缓存的构件可用”错误。
+
+### [!DNL Target] node.js SDK 2.2.0（2021 年 8 月 11 日）
+
+* 添加了 SDK 遥测数据收集
+* 自动交付 API 客户端 openapi codegen
+
+有关此版本及以前版本的更多信息，请参阅 Github 上 [Target node.js SDK 文档](https://github.com/adobe/target-nodejs-sdk)中的[更改日志](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)。
+
+### [!DNL Target Standard/Premium] 21.8.1（2021 年 8 月 10 日）
+
+此维护版本提供了多种后端增强功能，包括以下面向客户的更改：
+
+* 修复了一个问题，该问题导致在[!UICONTROL 基于表单的体验编辑器]中创建的[!UICONTROL 自动个性化]活动报表引用报表中删除的选件。此问题导致显示以下错误消息：“我们在检索此报表的数据时遇到问题。如果问题仍然存在，请联系 Adobe 客户关怀部门。“(TGT-41028)
+
+### Target 投放 API（2021 年 8 月 3 日）
+
+此版本包含以下增强功能：
+
+* mbox 的参数数量限制已增加到 100 个参数。以前的限制为 50 个参数。(TNT-41717)
+* `categoryId` 的限制已增加到 256 个字符。以前的限制为 128 个字符。
+* 投放 API 中添加了以下 [!DNL Adobe Audience Manager] (AAM) 详细信息：
+
+   * AAM UUID：用于唯一标识用户的内部 AAM ID。
+   * dataPartnerId：数据合作伙伴的 ID。
+   * dataPartnerUserId：数据合作伙伴提供的用户 ID。
+
+   以前，投放 API 仅包含 `dcsLocationHint` 和 `blob`。(TNT-41644)
 
 ### [!DNL Target Standard/Premium] 21.6.1（2021 年 6 月 30 日）
 
@@ -506,7 +537,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 | --- | --- |
 | ![Premium 徽章](/help/assets/premium.png)<br>A/B 测试和体验定位 (XT) 活动中的推荐 | 推荐选件（算法）状态将显示在包含推荐选件的 A/B 测试和 XT 活动的“概述”页面上。状态包括：“结果已准备就绪”、“结果未准备就绪”和“信息源故障”。(TGT-33649)<br>请参阅[“推荐”作为选件](/help/c-recommendations/recommendations-as-an-offer.md#status)。 |
 | at.js 2.0 及更高版本通过 Experience Cloud ID (ECID) 库支持跨域跟踪 | 以前，at.js 2.*x* 不支持跨域跟踪。现在，在此版本中，使用 at.js 2.0 或更高版本的客户可以通过 ECID 库执行跨域跟踪。为使跨域跟踪正常运行，必须将 ECID 库与 at.js 2.0 或更高版本一起安装在页面上。必须使用 [Experience Cloud ID 库 4.3.0 和更高版本](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=zh-Hans)。<br>请参阅 [at.js 2.x 中的跨域跟踪支持](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)。 |
-| Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple 的 ITP 2.1 和 ITP 2.2 | 现在，Target 客户可以通过利用 Adobe 的 CNAME 认证计划来应对 Apple 的 ITP 2.1 和 ITP 2.2。<br>在此版本中，Target 引入与 ECID 库 4.3 的无缝集成，该库利用服务器端 Cookie 减轻 ITP 2.1 和 ITP 2.2 的影响。强烈建议 Target 客户将 [ECID 库 4.3 和更高版本](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=zh-Hans)与 Target 的 JavaScript 库一起部署以减轻任何未来 ITP 版本的影响。ECID 库将持续增强，针对各浏览器推出的不断变化的 Cookie 策略提供完善的解决方案。<br>请参阅 [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
+| Target 通过 Experience Cloud ID (ECID) 库 4.3 支持 Apple 的 ITP 2.1 和 ITP 2.2 | 现在，Target 客户可以通过利用 Adobe 的 CNAME 认证计划来应对 Apple 的 ITP 2.1 和 ITP 2.2。<br>在此版本中，Target 引入与 ECID 库 4.3 的无缝集成，该库利用服务器端 Cookie 减轻 ITP 2.1 和 ITP 2.2 的影响。强烈建议 Target 客户将 [ECID 库 4.3 和更高版本](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html)与 Target 的 JavaScript 库一起部署以减轻任何未来 ITP 版本的影响。ECID 库将持续增强，针对各浏览器推出的不断变化的 Cookie 策略提供完善的解决方案。<br>请参阅 [Apple 智能防跟踪 (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)。 |
 
 **增强功能、修复和更改**
 
@@ -1589,7 +1620,7 @@ target/r_release-notes-2018.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
    <td colname="col2"> <p><b>2017 年 9 月 27 日</b> </p> <p> <span class="filepath">at.js</span> 版本 1.2.0 现已作为维护版本提供，其中包含大多数错误修复。有关更多信息，请参阅 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">at.js 版本详细信息</a>。 </p> <p> 
      <ul id="ul_D11024549C3643C7A756988087498D24"> 
       <li id="li_E1B3994125B64F6AB20B29FE8BCD8459"> <p>修复了阻止对点击跟踪特殊案例执行默认操作的问题。(TNT-28089) </p> </li> 
@@ -1651,7 +1682,7 @@ target/r_release-notes-2018.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
    <td colname="col2"> <p><b>2017 年 8 月 3 日</b> </p> <p> <span class="filepath">at.js</span> 版本 1.1 现已可用。有关更多信息，请参阅<a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">下载 at.js</a>。 </p> <p><span class="filepath">at.js</span> 版本 1.1 中包含以下增强功能和修复： </p> <p> 
      <ul id="ul_B7408267413347888938E2E7D48ABDBD"> 
       <li id="li_4DDF6DCFE6014C6795B6A9C9DFB54C21"> <p>添加了响应令牌处理功能。有关更多信息，请参阅<a href="/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">响应令牌</a>。 </p> </li> 
@@ -1885,7 +1916,7 @@ target/r_release-notes-2018.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
    <td colname="col2"> <p> <span class="filepath">at.js</span> 版本 0.9.6 现已可用。有关更多信息，请参阅<a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">下载 at.js</a>。 </p> <p><span class="filepath">at.js</span> 版本 0.9.6 中包含以下增强功能和修复： </p> <p> 
      <ul id="ul_108DF85393614C69988E299485D338FD"> 
       <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>对 A4T 的重定向选件支持。下载并安装 <span class="filepath">at.js</span> 版本 0.9.6 后，您可以在将 <span class="keyword">Adobe Analytics</span> 用作 <span class="keyword">Target</span> 报表源（即使用 A4T）的活动中使用重定向选件。除了 <span class="filepath">at.js</span> 版本 0.9.6 之外，您的实施还必须满足其他最低要求，才能使用重定向选件和 A4T。有关更多信息以及其他应了解的重要信息，请参阅<a href="/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local">重定向选件 - A4T 常见问题解答</a>。 </p> </li> 
@@ -1915,7 +1946,7 @@ target/r_release-notes-2018.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Analytics for Target (A4T) </p> <p>重定向选件 </p> </td> 
+   <td colname="col1"> <p>Analytics for Target(A4T) </p> <p>重定向选件 </p> </td> 
    <td colname="col2"> <p><b>更新日期：2017 年 4 月 13 日。</b> </p> <p>现在，您可以在将 <span class="keyword">Analytics</span> 用作报表源的活动中使用重定向选件。 </p> <p>具有重定向选件的页面和访客被重定向到的页面都必须包含这些库。这项更改的其中一部分内容是：如果您的网站上实施了访客 ID 服务，则无论您是否将 Analytics 用作活动的报表源，都会将新的 URL 参数自动添加到您的重定向 URL 中。 </p> <p>有关更多信息，请参阅<a href="/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local">重定向选件 - A4T 常见问题解答</a>。 </p> </td> 
   </tr> 
   <tr> 
@@ -2000,7 +2031,7 @@ target/r_release-notes-2018.xml
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox 名称现在可包含特殊字符，这些字符包括与号 (&amp;)。(TNT-26144) </p> <p>有关更多信息，请参阅 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 配置</a>。 </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>添加了 <span class="codeph">secureOnly</span> 设置，以指示 <span class="codeph">at.js</span> 是应仅使用 HTTPS，还是可以根据页面协议在 HTTP 和 HTTPS 之间进行切换。这是一项高级设置，其默认值为 False，可以通过 <span class="codeph">targetGlobalSettings</span> 来覆盖此设置。(TNT-26183) </p> <p>有关更多信息，请参阅 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>。 </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p><span class="codeph">at.js</span> 版本 0.9.3 及更低版本中提供了“<span class="wintitle">旧版浏览器支持</span>”选项。此选项在 <span class="codeph">at.js</span> 版本 0.9.4 中已删除。 </p> <p>有关更多信息，请参阅 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 配置</a>。 </p> </li> 
-     </ul> </p> <p>要详细了解 <span class="codeph">at.js</span> 各个版本中的更改，请参阅 <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html?lang=zh-Hans" format="html" scope="external">at.js 版本详细信息</a>。 </p> </td> 
+     </ul> </p> <p>要详细了解 <span class="codeph">at.js</span> 各个版本中的更改，请参阅 <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 版本详细信息</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3480,7 +3511,7 @@ target/r_release-notes-2014.xml
   </tr> 
   <tr> 
    <td colname="col1"> 主营销配置文件实时受众 </td> 
-   <td colname="col2"> 利用主营销配置文件，将访客 ID 和数据统一到单个可操作的配置文件中，以便跨解决方案使用。在 Adobe Analytics 的客户群创建流程期间出现的一个复选框，可允许该客户群在 Adobe Target 的自定义受众库中处于可用状态。在 Analytics 或 Audience Manager 中创建的区段可用于在 Target 中定位访客。 <p> <p>注意：若要申请访问此项功能，请访问 <a href="https://www.adobe.com/go/audiences_cn" format="http" scope="external"> https://www.adobe.com/go/audiences_cn </a>。 </p> </p> </td> 
+   <td colname="col2"> 利用主营销配置文件，将访客 ID 和数据统一到单个可操作的配置文件中，以便跨解决方案使用。在 Adobe Analytics 的客户群创建流程期间出现的一个复选框，可允许该客户群在 Adobe Target 的自定义受众库中处于可用状态。在 Analytics 或 Audience Manager 中创建的区段可用于在 Target 中定位访客。 <p> <p>注意：若要申请访问此项功能，请访问 <a href="https://www.adobe.com/go/audiences" format="http" scope="external"> https://www.adobe.com/go/audiences_cn </a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 依据活动类型而定位的体验 </td> 

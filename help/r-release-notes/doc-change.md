@@ -4,9 +4,9 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6957eb88e2ee7d54fdad5afeaedf75b091b601e7
+source-git-commit: f5bbdf2e37867765ef387821cc78660dfa8c57f6
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2398'
 ht-degree: 99%
 
 ---
@@ -15,11 +15,17 @@ ht-degree: 99%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
+## [!DNL Adobe Target Standard/Premium] 21.9.1（2021年9月14日）
+
+| 日期 | 主题 | 更改 |
+| --- | --- | --- |
+| 9 月 14 日 | [发行说明](/help/r-release-notes/release-notes.md)：21.9.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
+
 ## Adobe [!DNL Target] Standard/Premium 21.8.1（2021 年 8 月 10 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 9 月 14 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关[!DNL Target Standard/Premium] 21.9.1（2021年9月14日）版本的信息。 此信息将于今天晚些时候移至[Target发行说明（当前版本）](/help/r-release-notes/release-notes.md)。 |
+| 9 月 14 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关[!DNL Target Standard/Premium] 21.9.1（2021年9月14日）版本的信息。 |
 | 9 月 7 日 | [移动设备](/help/c-target/c-audiences/c-target-rules/mobile.md) | 更新了“注意事项”部分中关于运行 Safari 14.0.2（或更高版本）的定位设备的信息。 |
 |  | [分类 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 更新了关于[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动使用的内部标识符 `targettype` 和 `algorithmId` 的信息。 |
 | 8 月 24 日 | [使用  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 实施 [!DNL Target]  | [!DNL Adobe Experience Platform Launch] 已更名为 [!DNL Adobe Experience Platform] 中的一套数据收集技术。因此，产品文档中的术语有一些改动。 |
@@ -28,6 +34,7 @@ ht-degree: 99%
 | 8 月 16 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md)<br>和 <br>[at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了 at.js 2.6.1 的发行说明。 |
 |  | [设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 添加了“最佳实践”部分。 |
 | 8 月 11 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了 [!DNL Target] node.js SDK 版本 2.2.0 的发行说明。 |
+| 8 月 10 日 | [发行说明](/help/r-release-notes/release-notes.md)：21.8.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1（2021 年 6 月 30 日）
 

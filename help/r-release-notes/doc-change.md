@@ -4,10 +4,10 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f5bbdf2e37867765ef387821cc78660dfa8c57f6
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 99%
+source-wordcount: '2520'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 9 月 22 日 | [点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md) | 添加了以下注意事项：<ul><li>点击跟踪量度不会链接到活动中的任何特定体验。</li><li>如果需要限制点击跟踪量度的范围，请使用受众。</li><li>多个活动可以为同一选择器定义点击跟踪量度。 如果是，则当访客符合其中某个活动的条件并单击该选择器时，该访客符合条件的所有关联活动的点击跟踪量度都会相应增加。</li></ul> |
+|  | [使用  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 实施 [!DNL Target]  | 在“使用[!DNL Target]扩展实施at.js的优势”章节中添加了注释。 |
+|  | [mbox3rdPartyId 的实时配置文件同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 更新了“注意事项”章节，添加了新信息。 |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 更新了“secureOnly”部分。 |
+|  | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | 更新了以下常见问题解答：“为什么at.js不始终使用HttpOnly和Secure Cookie标记？” |
 | 9 月 14 日 | [发行说明](/help/r-release-notes/release-notes.md)：21.9.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.8.1（2021 年 8 月 10 日）

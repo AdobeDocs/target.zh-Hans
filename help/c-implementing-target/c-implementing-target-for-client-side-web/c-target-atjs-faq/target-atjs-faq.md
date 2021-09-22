@@ -5,16 +5,16 @@ title: 有关at.js的常见问题和答案是什么？
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 77%
+source-wordcount: '2521'
+ht-degree: 60%
 
 ---
 
 # at.js 常见问题解答
 
-有关 at.js 的常见问题解答。
+有关[!DNL Adobe Target] at.js JavaScript库的常见问题解答。
 
 ## 与 mbox.js 相比，使用 at.js 具有什么好处？ {#section_FE30D01A577C46ACB0F787B85F5E0F6B}
 
@@ -47,45 +47,45 @@ ht-degree: 77%
 1. 如果已启用全局 mbox 自动创建，则 Target JavaScript 库会执行以下操作：
 
    * 对访客对象实例化。
-   * Target 库尝试检索 Experience Cloud 访客 ID 数据。
+   * [!DNL Target]库尝试检索[!DNL Experience Cloud Visitor ID]数据。
    * 由于此访客是新访客，因此访客API会触发对demdex.net的跨域请求。
-   * 检索 Experience Cloud 访客 ID 数据后，将触发对 Target 的请求。
+   * 检索[!DNL Experience Cloud Visitor ID]数据后，将触发对[!DNL Target]的请求。
 
 ### 旧访客
 
 1. 加载、解析并执行访客 API。
 1. 加载、解析并执行 at.js/mbox.js。
-1. 如果已启用全局 mbox 自动创建，则 Target JavaScript 库会执行以下操作：
+1. 如果启用了全局mbox自动创建，则[!DNL Target] JavaScript库：
 
    * 对访客对象实例化。
-   * Target 库尝试检索 Experience Cloud 访客 ID 数据。
+   * [!DNL Target]库尝试检索[!DNL Experience Cloud Visitor ID]数据。
    * 访客 API 从 Cookie 中检索数据。
-   * 检索 Experience Cloud 访客 ID 数据后，将触发对 Target 的请求。
+   * 检索[!DNL Experience Cloud Visitor ID]数据后，将触发对[!DNL Target]的请求。
 
 >[!NOTE]
 >
->对于新访客，如果存在访客 API，则 Target 必须进行多次联网，以确保 Target 请求中包含 Experience Cloud 访客 ID 数据。对于旧访客，Target 只会连接到其自身来检索个性化内容。
+>对于新访客，当访客API存在时，[!DNL Target]必须经过多次布线，以确保[!DNL Target]请求包含[!DNL Experience Cloud Visitor ID]数据。 对于回访访客，[!DNL Target]仅通过电汇至[!DNL Target]以检索个性化内容。
 
 ## 为何从以前版本的 at.js 升级到版本 1.0.0 后，响应时间似乎变长了？ {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
-[!DNL at.js] 版本 1.0.0 及更高版本可并行触发所有请求。以前的版本则按顺序执行请求，这意味着请求会被放入队列中，Target 需要等待第一个请求完成后才会执行下一个请求。
+[!DNL at.js] 版本 1.0.0 及更高版本可并行触发所有请求。以前的版本会按顺序执行请求，这意味着请求会被放入队列中，[!DNL Target]会等待第一个请求完成后再转到下一个请求。
 
-以前版本的 [!DNL at.js] 执行请求的方式容易受到“队头阻塞”的影响。在 [!DNL at.js] 1.0.0 及更高版本中，Target 转为使用并行请求执行模式。
+以前版本的 [!DNL at.js] 执行请求的方式容易受到“队头阻塞”的影响。在 [!DNL at.js] 1.0.0 及更高版本中， 转为使用并行请求执行模式。[!DNL Target]
 
 例如，如果您查看 [!DNL at.js] 0.9.1 的网络选项卡瀑布图，您会看到上一个 请求完成后才会启动下一个 Target 请求。[!DNL Target][!DNL at.js] 1.0.0及更高版本的序列不同，所有请求基本上都同时启动。
 
 从响应时间的角度来看，从数学上来说，这个序列可以概括为如下
 
 <ul class="simplelist"> 
- <li> at.js 0.9.1：所有 Target 请求的响应时间 = 请求响应时间总和 </li> 
- <li> at.js 1.0.0 及更高版本：所有 Target 请求的响应时间 = 请求响应时间的最大值 </li> 
+ <li> at.js 0.9.1:所有[!DNL Target]请求的响应时间=请求响应时间总和 </li> 
+ <li> at.js 1.0.0及更高版本：所有[!DNL Target]请求的响应时间=请求响应时间的最大值 </li> 
 </ul>
 
-[!DNL at.js]库版本1.0.0更快地完成请求。 另外，[!DNL at.js] 请求是异步执行的，因此 不会阻止页面渲染。[!DNL Target]即使请求需要几秒钟才能完成，您仍会看到渲染的页面，在Target从Target边缘网站获得响应之前，页面的某些部分会一直显示为空白。
+[!DNL at.js]库版本1.0.0更快地完成请求。 另外，[!DNL at.js] 请求是异步执行的，因此 不会阻止页面渲染。[!DNL Target]即使请求需要几秒钟才能完成，您仍会看到渲染的页面，在[!DNL Target]从[!DNL Target]边缘获得响应之前，页面的某些部分会一直显示为空白。
 
 ## 我能否异步加载[!DNL Target]库？ {#section_AB9A0CA30C5440C693413F1455841470}
 
-at.js 1.0.0 版本使您可以异步加载 Target 库。
+at.js 1.0.0版本允许异步加载[!DNL Target]库。
 
 要异步加载 at.js，请执行以下操作：
 
@@ -115,7 +115,7 @@ at.js 1.0.0 版本使您可以异步加载 Target 库。
 
 有关更多信息，请参阅 [at.js 如何管理闪烁](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。
 
-## at.js是否与Adobe Experience Manager集成(Experience Manager)兼容？ {#section_6177AE10542344239753764C6165FDDC}
+## at.js是否与[!DNL Adobe Experience Manager]集成(Experience Manager)兼容？ {#section_6177AE10542344239753764C6165FDDC}
 
 现在，带有 FP-11577 的 [!DNL Adobe Experience Manager] 6.2（或更高版本）支持通过其 [!DNL at.js]Adobe Target 云服务[!UICONTROL 集成来实施 ]。
 
@@ -149,7 +149,7 @@ at.js当前使用jQuery部分，因此您会在at.js顶部看到MIT许可通知�
 
 能，如果您使用at.js 2.x，则可以将VEC用于SPA。有关更多信息，请参阅[单页(SPA)可视化体验编辑器](/help/c-experiences/spa-visual-experience-composer.md)。
 
-## 我能否将 Adobe Experience Cloud 调试器与 at.js 实施结合使用？ {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
+## 我能否将[!DNL Adobe Experience Cloud]调试器与at.js实施结合使用？ {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
 是. 您也可以使用 mboxTrace 来进行调试或使用浏览器的开发人员工具来检查网络请求，并按“mbox”进行筛选以隔离出 mbox 调用。
 
@@ -159,13 +159,13 @@ at.js当前使用jQuery部分，因此您会在at.js顶部看到MIT许可通知�
 
 ## 为何 mbox 没有在我的网页上触发？ {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
- 客户有时会将基于云的实例与 [!DNL Target]Target 结合使用来进行测试或简单的概念验证。这些域以及其他许多域均是[公共后缀列表](https://publicsuffix.org/list/public_suffix_list.dat)的一部分。
+[!DNL Target] 客户有时会将基于云的实例与 [!DNL Target] 结合使用来进行测试或简单的概念验证。这些域以及其他许多域均是[公共后缀列表](https://publicsuffix.org/list/public_suffix_list.dat)的一部分。
 
 除非使用targetGlobalSettings()自定义`cookieDomain`设置，否则在使用这些域时，新式浏览器不会保存Cookie。 有关更多信息，请参阅[结合使用基于云的实例和 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)。
 
 ## 使用 at.js 时，IP 地址能否用作 Cookie 域？ {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-能，只要您使用的是 [at.js 版本 1.2 或更高版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。但是，Adobe强烈建议您保持最新版本。
+能，只要您使用的是 [at.js 版本 1.2 或更高版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。[!DNL Adobe] 但是，强烈建议您保持最新版本。
 
 >[!NOTE]
 >
@@ -201,8 +201,8 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 
 * 页面是动态构建的，at.js找不到该元素。
 * 页面生成速度缓慢（由于网络速度缓慢），at.js在DOM中找不到选择器。
-* 正在运行活动的页面结构发生更改。如果您在可视化体验编辑器 (VEC) 中重新打开活动，则应会收到警告消息。更新活动，以便找到所有必需的元素。
-* 基础页面是单页应用程序 (SPA) 的一部分，或者该页面包含显示在页面更靠底部的元素，且 [!DNL at.js]“选择器轮询机制”无法找到这些元素。增加 `selectorsPollingTimeout` 可能会有所帮助。有关更多信息，请参阅 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
+* activit[!UICONTROL y在上运行的页面结构已更改。 如果在]可视化体验编辑器(VEC)中重新打开活动，则应会收到一条警告消息。 更新活动，以便找到所有必需的元素。
+* 基础页面是[!UICONTROL 单页应用程序](SPA)的一部分，或者该页面包含显示在页面更靠底部的元素，且[!DNL at.js]“选择器轮询机制”无法找到这些元素。 增加 `selectorsPollingTimeout` 可能会有所帮助。有关更多信息，请参阅 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 * 任何点击跟踪量度都会尝试将其自身添加到每个页面，而不考虑已设置量度的 URL。尽管不会产生不利影响，但此情况会显示许多此类消息。
 
    为获得最佳结果，请下载并使用最新版本的 [!DNL at.js]。有关更多信息，请参阅 [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)和[下载 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。
@@ -211,17 +211,17 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 
 [!DNL tt.omtrdc.net] 是 Adobe 的边缘网络的域名，用于接收 Target 的所有服务器调用。
 
-## 为什么 at.js 和 mbox.js 不使用 HttpOnly 和 Secure Cookie 标记？ {#section_74527E3B41B54B0A83F217C3E664ED1F}
+## 为什么at.js不始终使用HttpOnly和Secure Cookie标记？ {#section_74527E3B41B54B0A83F217C3E664ED1F}
 
-HttpOnly 只能通过服务器端代码进行设置。Target Cookie（例如 mbox）通过 JavaScript 代码创建和保存，因此 Target 无法使用 HttpOnly Cookie 标记。
+HttpOnly 只能通过服务器端代码进行设置。[!DNL Target] Cookie（例如 mbox）通过 JavaScript 代码创建和保存，因此 无法使用 HttpOnly Cookie 标记。[!DNL Target][!DNL Target] 在启用跨域时，会对从服务器端设置的第三方Cookie使用设置HttpOnly 。
 
-只有在通过 HTTPS 加载页面时，才能通过 JavaScript 设置 Secure 标记。如果页面最初通过 HTTP 加载，则 JavaScript 无法设置此标记。此外，如果使用安全标记，则Cookie仅在HTTPS页面上可用。
+只有在通过 HTTPS 加载页面时，才能通过 JavaScript 设置 Secure 标记。如果页面最初通过 HTTP 加载，则 JavaScript 无法设置此标记。此外，如果使用安全标记，则Cookie仅在HTTPS页面上可用。 对于通过HTTPS加载的页面，[!DNL Target]会设置Secure和SameSite=None属性。
 
-为确保 Target 能够正确跟踪用户，并且还由于 Cookie 是在客户端生成的，Target 不会使用这些标记中的任何一个。
+为确保[!DNL Target]能够正确跟踪用户，并且由于Cookie是在客户端生成的，因此[!DNL Target]不会使用这两个标记，但上述情况除外。
 
 ## at.js 多久触发一次网络请求？ {#section_57C5235DF7694AF093A845D73EABADFD}
 
-Adobe Target 可在服务器端执行其所有决策。这意味着每次重新加载页面或调用 at.js 公共 API 时，at.js 都会触发网络请求。
+[!DNL Target] 可在服务器端执行其所有决策。这意味着每次重新加载页面或调用 at.js 公共 API 时，at.js 都会触发网络请求。
 
 ## 在最佳情况下，当执行隐藏、替换和显示内容这类页面加载操作时，用户是否不会受到明显影响？ {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
@@ -234,11 +234,11 @@ at.js会尝试避免在较长的时间内预先隐藏HTML主体或其他DOM元�
 1. 页面加载。
 1. at.js 预先隐藏 HTML 主体。有一个设置可用来预先隐藏特定容器而不是 HTML 主体。
 1. at.js 请求触发。
-1. 收到 Target 响应后，Target 提取 CSS 选择器。
-1. 借助 CSS 选择器，Target 创建 STYLE 标记以预先隐藏将要自定义的 DOM 元素。
+1. 收到[!DNL Target]响应后，[!DNL Target]会提取CSS选择器。
+1. 使用CSS选择器，[!DNL Target]会创建STYLE标记以预隐藏将要自定义的DOM元素。
 1. 删除 HTML 主体预先隐藏 STYLE。
-1. Target 对 DOM 元素启动轮询。
-1. 如果找到 DOM 元素，则 Target 应用 DOM 更改和已删除预先隐藏 STYLE 的元素。
+1. [!DNL Target] 对 DOM 元素启动轮询。
+1. 如果找到DOM元素，[!DNL Target]将应用DOM更改，并删除预隐藏的STYLE元素。
 1. 如果找不到DOM元素，则全局超时会取消隐藏这些元素，以避免页面损坏。
 
 ## 当at.js最终取消隐藏活动正在更改的元素时，系统将以何种频率充分加载和显示页面内容？ {#section_01AFF476EFD046298A2E17FE3ED85075}
@@ -249,17 +249,17 @@ at.js 不会阻止页面呈现。用户可能会注意到页面上存在一些�
 
 ## 已完全缓存的页面对上述情景有何影响？活动内容是否很可能会在页面的其他内容加载相当一段时间后才会显示？ {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
-如果页面缓存在靠近用户位置，但不在 Target 边缘附近的 CDN 上，则该用户可能会遇到一些延迟。目标边缘在全球范围内分布良好，因此大多数情况下这不是问题。
+如果页面缓存在靠近用户位置，但不靠近[!DNL Target]边缘的CDN上，则该用户可能会看到一些延迟。 [!DNL Target] 边缘在全球分布得很好，因此大多数情况下这不是问题。
 
 ## 是否可以先显示主页图像，然后在短暂延迟后将其换掉？ {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 请考虑以下情况：
 
-Target 已超时五秒。用户加载的页面具有自定义主页图像的活动。at.js 发送请求以确定是否有可应用的活动，但没有收到初始响应。因为未从 Target 收到关于是否存在相关活动的响应，所以假设用户看到了主页图像的常规内容。四秒钟后，Target 会返回包含活动内容的响应。
+[!DNL Target]超时为5秒。 用户加载的页面具有自定义主页图像的活动。at.js 发送请求以确定是否有可应用的活动，但没有收到初始响应。假设用户看到了主页图像的常规内容，因为未收到有关是否存在关联活动的[!DNL Target]响应。 四秒后，[!DNL Target]会返回包含活动内容的响应。
 
 此时，是否可以显示替代版本？那么四秒后，是否可以换掉主页图像？同时，用户是否可以查看此图像切换过程？
 
-最初，主页图像 DOM 元素处于隐藏状态。收到 Target 的响应后，at.js 会应用 DOM 更改，例如替换 IMG 并显示自定义的主页图像。
+最初，主页图像 DOM 元素处于隐藏状态。收到[!DNL Target]的响应后，at.js会应用DOM更改，例如替换IMG并显示自定义的主页图像。
 
 ## at.js 需要何种 HTML doctype？
 
@@ -269,4 +269,4 @@ at.js 需要 HTML 5 doctype。
 
 `<!DOCTYPE html>`
 
-HTML 5 doctype 可确保页面以标准模式加载。在 Quirks 模式下加载时，at.js 所依赖的一些 JS API 将被禁用。Target 会在 Quirks 模式下禁用 at.js。
+HTML 5 doctype 可确保页面以标准模式加载。在 Quirks 模式下加载时，at.js 所依赖的一些 JS API 将被禁用。[!DNL Target] 会在 Quirks 模式下禁用 at.js。

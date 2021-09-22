@@ -5,9 +5,9 @@ title: 如何使用targetGlobalSettings()函数？
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2332'
 ht-degree: 30%
 
 ---
@@ -187,7 +187,7 @@ ht-degree: 30%
 
 * **类型**:布尔值
 * **默认值**:false
-* **描述**:指示at.js是应仅使用HTTPS，还是可以根据页面协议在HTTP和HTTPS之间进行切换。
+* **描述**:指示at.js是应仅使用HTTPS，还是可以根据页面协议在HTTP和HTTPS之间进行切换。当设置为true时，secureOnly还会将Secure和SameSite属性设置为mbox Cookie。
 
 ### selectorsPollingTimeout
 

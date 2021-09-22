@@ -1,20 +1,19 @@
 ---
 keywords: 推荐;常见问题解答;FAQ
-description: 查看常见问题解答(FAQ)的列表及其关于Adobe [!DNL Target] Recommendations设计的解答。
+description: 查看有关Adobe [!DNL Target] Recommendations设计的常见问题解答(FAQ)列表及其答案。
 title: 在哪里可以回答 [!DNL Target] Recommendations的设计问题？
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c7d5c8eb50b28ee3f7651e510d005e3f37912f62
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 83%
+source-wordcount: '456'
+ht-degree: 68%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) 设计常见问题解答
 
-关于[!DNL Adobe Target]推荐设计的常见问题解答(FAQ)列表。
+有关[!DNL Adobe Target] [!DNL Recommendations]设计的常见问题解答(FAQ)列表。
 
 ## 推荐项目的价格并没有在小数点的右侧显示两个值。我该如何显示它们？
 
@@ -30,26 +29,26 @@ ht-degree: 83%
 
    `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## 设计中为何没有显示类别？我使用的是 $entity1.categoryId。{#section_073309B8051049C7953D396A93EA0713}
+## 设计中为何没有显示类别？我在使用`$entity1.categoryId`。 {#section_073309B8051049C7953D396A93EA0713}
 
 类别 ID 无法在设计中显示。由于可以存储多个类别，因此系统不知道要显示哪个类别。
 
 ## 我应该如何更改设计才能实现即时更新？ {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
-对当前正在使用的设计进行更改后，需要等待一段时间才会更新。要立即更改设计，请创建新设计，在活动中选择它并保存建议。
+对当前正在使用的设计进行更改后，需要等待一段时间才会更新。要立即更改设计，请创建新设计，在活动中选择该设计，然后保存推荐。
 
-## 如何捕捉要在设计中显示的关键信息？示例：如果我们想要显示关键产品的类别，如何在 Velocity 设计中对该值进行编码？  {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## 如何捕捉要在设计中显示的关键信息？示例：如果我们想要显示关键产品的类别，如何在 Velocity 设计中对该值进行编码？ {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 `$key. *`value`*` 参数可以捕捉要在设计中显示的大多数关键产品信息。示例：如果您需要显示关键产品的缩略图，则应当使用 `$key.thumbnailURL`。
 
-## 使用哪个版本的 Velocity？{#section_28F00E15A4A54A768782A3F5BB0CDB21}
+## 使用哪个版本的 Velocity？ {#section_28F00E15A4A54A768782A3F5BB0CDB21}
 
 没有添加任何其他工具或库的 1.7 版。仅提供基本的 Velocity 功能。
 
-## 如何将现有的实体值替换为空格？例如，在促销活动结束后，需要清除某个项目的 entity.message。{#section_B88F2C2925DC4508974B2F8B13F961CB}
+## 如何将现有的实体值替换为空格？例如，在促销活动结束后，需要清除某个项目的 entity.message。 {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-在JavaScript不中断空间中发送似乎就是这样。 让开发人员发送 `\u00A0` 作为值。示例：`entity.message=\u00A0`。在没有显示值的情况下，您应当考虑将此设为默认值，而不是为 null。
+以JavaScript不间断空格的形式发送似乎可以实现此目的。 让开发人员发送 `\u00A0` 作为值。示例：`entity.message=\u00A0`。在没有显示值的情况下，您应当考虑将此设为默认值，而不是为 null。
 
-## 能否在推荐设计中使用配置文件脚本？{#section_6BD55203984A4D80A0C6F241AD7806DF}
+## 我能否在[!DNL Recommendations]设计中使用配置文件脚本？ {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-是. 但是，您必须在配置文件脚本名称中的 $ 符号前面添加一个反斜杠 (\)。
+是. 要在[!DNL Recommendations]设计中使用配置文件脚本，请将名称包装在`\${...}`中。 例如，如果您的配置文件脚本名为`user.basket`，请在设计中将其称为`\${user.basket}`。 请注意，反斜线意味着配置文件脚本不由Velocity呈现。 因此，您无法对Velocity模板中的配置文件脚本执行任何操作。 值将直接打印在页面上。

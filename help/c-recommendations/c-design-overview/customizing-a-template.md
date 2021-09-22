@@ -1,20 +1,19 @@
 ---
 keywords: 自定义设计;Velocity;小数;逗号;自定义设计
-description: 了解如何使用开源Velocity设计语言在Adobe [!DNL Target] Recommendations中自定义推荐设计。
+description: 了解如何在Adobe [!DNL Target] Recommendations中使用开源Velocity设计语言自定义推荐设计。
 title: 如何使用Velocity自定义设计？
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1026'
 ht-degree: 61%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) 使用 Velocity 自定义设计
 
-使用开源Velocity设计语言在[!DNL Adobe Target Recommendations]中自定义推荐设计。
+在[!DNL Adobe Target Recommendations]中使用开源Velocity设计语言自定义推荐设计。
 
 ## Velocity 概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -64,7 +63,7 @@ $entities[0].categoriesList[2]
 
 >[!NOTE]
 >
->可在设计中引用的最大图元数为99。 模板脚本最长可包含 65,000 个字符。
+>设计中可引用（无论是硬编码还是通过循环引用）的最大实体数为99。 模板脚本最长可包含 65,000 个字符。
 
 例如，如果您想要在设计中显示类似于下面的内容：
 
@@ -119,43 +118,43 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->如果要在指示变量名称的标记完成之前在变量值之后添加文本，则可以使用形式表示法将变量名称括起来。 例如：`${entity1.thumbnailUrl}.gif`。
+>如果要在表示变量名称的标记完成之前的变量值之后添加文本，则可以使用正式符号将变量名称括起来。 例如：`${entity1.thumbnailUrl}.gif`。
 
 您还可以在设计中将 `algorithm.name` 和 `algorithm.dayCount` 用作变量，以便使用一个设计来测试多个标准，并在该设计中动态显示标准名称。这样可指示访客查看了“最畅销商品”或属于“查看了这个项目，但购买了那个项目的人”。您甚至还可以使用这些变量来显示 `dayCount`（标准中使用的数据所对应的天数，例如“过去 2 天的最畅销商品”，等等）。
 
-## 在Velocity模板中处理数字
+## 在Velocity模板中使用数字
 
-默认情况下，“速度”模板将所有实体属性视为字符串值。 您可能希望将实体属性视为数值，以执行数学运算或将其与其他数值进行比较。 要将实体属性视为数值，请执行以下步骤：
+默认情况下，Velocity模板会将所有实体属性视为字符串值。 您可能需要将实体属性视为数值，以执行数学运算或将其与其他数值进行比较。 要将实体属性视为数值，请执行以下步骤：
 
-1. 声明一个伪变量，并将其初始化为任意整数或多次值。
-1. 确保要使用的实体属性不为空(目标Recommendations的模板分析器验证和保存模板时需要)。
-1. 在步骤1中创建的虚拟变量上将实体属性传递到`parseInt`或`parseDouble`方法，以将字符串转换为整数或多次值。
+1. 声明一个虚拟变量，并将其初始化为任意整数或双值。
+1. 确保要使用的实体属性不为空(Target Recommendations的模板解析器验证和保存模板时需要此属性)。
+1. 在步骤1中创建的虚拟变量上，将实体属性传递到`parseInt`或`parseDouble`方法，以将字符串转换为整数或双值。
 1. 对新数值执行数学运算或比较。
 
 ### 示例：计算折扣价格
 
-假设您要将某个项目的显示价格降低0.99美元以应用折扣。 您可以使用以下方法来实现此效果：
+假定您要将项目的显示价格降低$0.99以应用折扣。 您可以使用以下方法来实现此结果：
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('priceBeforeDiscount') != '' )
-    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    #set( $discountedPrice = $double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
     Item price: $$discountedPrice
 #else
     Item price unavailable
 #end
 ```
 
-### 示例：根据项目的评级选择要显示的星形数
+### 示例：根据项目的评级选择要显示的星数
 
-假设您希望根据项目的数值平均客户评级显示适当数量的星形。 您可以使用以下方法来实现此效果：
+假定您要根据项目的数值平均客户评分显示适当数量的星。 您可以使用以下方法来实现此结果：
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('rating') != '' )
-    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #set( $rating = $double.parseDouble($entity1.get('rating')) )
     #if( $rating >= 4.5 )
         <img src="5_stars.jpg">
     #elseif( $rating >= 3.5 )
@@ -174,7 +173,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ### 示例：根据项目的长度（以分钟为单位）计算时间（以小时和分钟为单位）
 
-假设您以分钟为单位存储电影的长度，但希望以小时和分钟为单位显示电影的长度。 您可以使用以下方法来实现此效果：
+假定您以分钟为单位存储影片的长度，但希望以小时和分钟为单位显示该长度。 您可以使用以下方法来实现此结果：
 
 ```
 #if( $entity1.get('length_minutes') )
@@ -185,7 +184,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-## 使用推荐的产品{#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}显示关键项
+## 显示关键项目和推荐产品 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 您可以对设计进行修改，以便同时显示关键项目和其他推荐产品。例如，您可能想要在推荐产品旁边显示当前项目，以供访客参考。
 
@@ -208,9 +207,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 创建 [!DNL Recommendations] 活动时，如果关键项目是从访客的配置文件中获取的（例如“上次购买的项目”），则 [!DNL Target] 会在[!UICONTROL 可视化体验编辑器] (VEC) 中显示一个随机产品。这是因为在您设计活动时配置文件不可用。访客查看页面时，他们将看到预期的关键项目。
 
-## 在字符串值{#section_01F8C993C79F42978ED00E39956FA8CA}中执行替换
+## 在字符串值中执行替换 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-您可以修改设计以替换字符串中的值。 例如，将美国使用的小数点分隔符替换为欧洲和其他国家使用的逗号分隔符。
+您可以修改设计以替换字符串中的值。 例如，将美国使用的小数点分隔符替换为欧洲和其他国家/地区使用的逗号分隔符。
 
 以下代码显示了条件销售定价示例中的一行内容：
 
@@ -234,7 +233,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                     </span>
 ```
 
-## 自定义模板大小并检查空值{#default}
+## 自定义模板大小并检查空值 {#default}
 
 下面的模板使用 Velocity 脚本控制实体显示的动态大小，从而可容纳一对多结果，这样当 [!DNL Recommendations] 未返回足够的匹配实体时，便无需创建空的 HTML 元素。此脚本非常适用于备份推荐没有意义且已启用“[!UICONTROL 部分模板渲染]”的情景。
 

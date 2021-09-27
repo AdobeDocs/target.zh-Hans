@@ -4,9 +4,9 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a1a4cb6294692836530c445d5f9546b5323479bb
+source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2570'
 ht-degree: 94%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 94%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 9 月 27 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间<ul><li>2021年10月13日星期三</li><li>上午 8 点（PDT，UTC -7）</li></ul></li></ul> |
 | 9 月 22 日 | [使用 Velocity 自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 将代码示例中的`$Double`更改为`$double`，以防止可能出现歧义。 |
 |  | [设计常见问题解答](/help/c-recommendations/c-design-overview/template-faq.md) | 更新了以下常见问题解答：<ul><li>我能否在[!DNL Recommendations]设计中使用配置文件脚本？</li></ul> |
 |  | [点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md) | 添加了以下注意事项：<ul><li>点击跟踪量度不会链接到活动中的任何特定体验。</li><li>如果需要限制点击跟踪量度的范围，请使用受众。</li><li>多个活动可以为同一选择器定义点击跟踪量度。 如果是，则当访客符合其中某个活动的条件并单击该选择器时，该访客符合条件的所有关联活动的点击跟踪量度都会相应增加。</li></ul> |

@@ -5,9 +5,9 @@ title: 如何配置企业权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: aeb80fadbab4f1f11452c84b3fc0e1479569c5e4
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 63%
 
 ---
@@ -142,9 +142,9 @@ ht-degree: 63%
 
    您可以通过多种方法来更新 [!DNL Target] 实施。例如，对于网页，可以使用以下方法：
 
-   * **通过中标记中的全局参数  [!DNL Adobe Experience Platform]:**
+   * **通过以下项中标记中的“自定义参数” [!DNL Adobe Experience Platform]:**
 
-      有关更多信息，请参阅&#x200B;*标记概述*&#x200B;文档中的[添加全局Target参数](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) 。
+      有关更多信息，请参阅&#x200B;*标记概述*&#x200B;文档中的[添加Mbox参数](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) 。
 
    * **通过targetPageParamsAll()函数：** 将以下代码置于 `<head>` 标记中at.js引用的上方。
 

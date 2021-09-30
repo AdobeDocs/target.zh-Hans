@@ -4,9 +4,9 @@ description: 了解如何解释Adobe [!DNL Target] 报表，这些报表包括�
 title: 如何查看平均提升度、提升度范围和置信区间？
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
+source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '836'
 ht-degree: 71%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 71%
 
 ## 了解如何确定提升的置信区间 {#pdf}
 
-下载提升度的[置信区间pdf](/help/assets/confidence_interval_lift.pdf)以了解更多信息。
+有关更多信息，请下载提升pdf文件的[置信区间](/help/assets/confidence_interval_lift.pdf)。
 
 ## 如何计算提升度范围？ {#section_1D360781D972483693680BE0F07AEAD1}
 

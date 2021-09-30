@@ -4,9 +4,9 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
+source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
 workflow-type: tm+mt
-source-wordcount: '2633'
+source-wordcount: '2634'
 ht-degree: 92%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 92%
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 9 月 30 日 | 将活动信息发送到[!DNL Adobe Analytics] | 删除了整个主题，因为为了将[!DNL Target]移动应用程序活动信息发送到[!DNL Analytics]以进行临时分段，不再需要上述步骤。 |
-|  | [平均提升度、提升度范围和置信区间](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | 添加了pdf文件，用于说明如何计算提升度的置信区间。 |
+|  | [平均提升度、提升度范围和置信区间](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | 添加了pdf文件，以说明如何计算提升度的置信区间。 |
 |  | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 在“步骤5更新您的实施以包含`at_property`参数”中，将`targetPageParams`更改为`targetPageParamsAll`。 |
 | 9 月 27 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间<ul><li>2021年10月13日星期三</li><li>上午 8 点（PDT，UTC -7）</li></ul></li></ul> |
 | 9 月 22 日 | [使用 Velocity 自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 将代码示例中的`$Double`更改为`$double`，以防止可能出现歧义。 |

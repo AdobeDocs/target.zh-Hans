@@ -4,10 +4,10 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
+source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
 workflow-type: tm+mt
-source-wordcount: '2570'
-ht-degree: 94%
+source-wordcount: '2613'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 94%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 9 月 30 日 | 将活动信息发送到[!DNL Adobe Analytics] | 删除了整个主题，因为为了将[!DNL Target]移动应用程序活动信息发送到[!DNL Analytics]以进行临时分段，不再需要上述步骤。 |
+|  | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 在“步骤5更新您的实施以包含`at_property`参数”中，将`targetPageParams`更改为`targetPageParamsAll`。 |
 | 9 月 27 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间<ul><li>2021年10月13日星期三</li><li>上午 8 点（PDT，UTC -7）</li></ul></li></ul> |
 | 9 月 22 日 | [使用 Velocity 自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 将代码示例中的`$Double`更改为`$double`，以防止可能出现歧义。 |
 |  | [设计常见问题解答](/help/c-recommendations/c-design-overview/template-faq.md) | 更新了以下常见问题解答：<ul><li>我能否在[!DNL Recommendations]设计中使用配置文件脚本？</li></ul> |

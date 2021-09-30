@@ -2,13 +2,13 @@
 keywords: 添加用户;项目;用户组;属性;工作区;管理属性;属性;at_property;角色;权限
 description: 了解如何将用户添加到Adobe Target;创建工作区、用户组和属性；更新实施；和指定角色和权限。
 title: 如何配置企业权限？
-feature: 管理和配置
+feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 64%
+source-wordcount: '1458'
+ht-degree: 63%
 
 ---
 
@@ -150,17 +150,25 @@ ht-degree: 64%
 
       有关更多信息，请参阅&#x200B;*标记概述*&#x200B;文档中的[添加全局Target参数](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) 。
 
-   * **通过targetPageParams()函数：** 将以下代码置于 `<head>` 标记中at.js引用的上方。
+   * **通过targetPageParamsAll()函数：** 将以下代码置于 `<head>` 标记中at.js引用的上方。
 
-      ![](assets/property_token_1.png)
+      ```javascript
+      <script>
+       function targetPageParamsAll() {
+        return {
+         "at_property": "5f8bd98b-1456-a84c-2a96-11s9b8e2b112"
+        };
+       }
+      </script>
+      ```
 
-      有关如何使用 at.js 完成此操作的更多信息，请参阅 [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)。
+      有关如何使用at.js执行此操作的更多信息，请参阅[targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)。
 
    * **通过 mboxCreate() 函数：**
 
       ![](assets/property_token_3.png)
 
-      有关如何使用 at.js 完成此操作的更多信息，请参阅 [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 和 [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
+      有关如何使用 at.js 完成此操作的更多信息，请参阅  [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) targetPageParamsAlland   [mboxCreate(mbox，params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
 
 ## 步骤6:指定角色和权限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

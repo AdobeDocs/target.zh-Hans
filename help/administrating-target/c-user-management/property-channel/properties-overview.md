@@ -5,9 +5,9 @@ title: 如何配置企业权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
+source-git-commit: aeb80fadbab4f1f11452c84b3fc0e1479569c5e4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1432'
 ht-degree: 63%
 
 ---
@@ -108,8 +108,6 @@ ht-degree: 63%
 1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 属性]**&#x200B;以显示[!UICONTROL 属性]列表。
 1. 单击&#x200B;**创建属性**。
 
-   ![“新建属性”对话框](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
-
    填写以下字段：
 
    * **属性名称（必需）：** 为属性指定一个描述性名称。
@@ -144,7 +142,7 @@ ht-degree: 63%
 
    您可以通过多种方法来更新 [!DNL Target] 实施。例如，对于网页，可以使用以下方法：
 
-   * **通过中标记中的“全局参数  [!DNL Adobe Experience Platform]:**
+   * **通过中标记中的全局参数  [!DNL Adobe Experience Platform]:**
 
       有关更多信息，请参阅&#x200B;*标记概述*&#x200B;文档中的[添加全局Target参数](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) 。
 
@@ -161,12 +159,6 @@ ht-degree: 63%
       ```
 
       有关如何使用at.js执行此操作的更多信息，请参阅[targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)。
-
-   * **通过 mboxCreate() 函数：**
-
-      ![](assets/property_token_3.png)
-
-      有关如何使用 at.js 完成此操作的更多信息，请参阅  [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) targetPageParamsAlland   [mboxCreate(mbox，params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)。
 
 ## 步骤6:指定角色和权限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

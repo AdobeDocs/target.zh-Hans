@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] 指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
-workflow-type: ht
-source-wordcount: '1541'
+source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
+workflow-type: tm+mt
+source-wordcount: '1535'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,6 @@ ht-degree: 100%
       + [在 SDK 中启用 Target](c-target-mobile-app/mobile-enable-target-in-sdk.md)
       + [iOS - 创建 Target 位置和成功量度](c-target-mobile-app/mobile-create-location-and-metric.md)
       + [iOS - 发送自定义用户数据](c-target-mobile-app/mobile-custom-user-data.md)
-      + [将活动信息发送到 Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target 移动设备预览](c-target-mobile-app/target-mobile-preview.md)
       + [预取选件内容](c-target-mobile-app/prefetch-offer-content.md)
       + [Target 移动应用程序版常见问题解答](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)

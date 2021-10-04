@@ -1,14 +1,13 @@
 ---
 keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;发送通知;通知;at.js;函数;函数
-description: 使用at.js的adobe.目标.sendNotifications()在呈现体验时不使用applyOffer(s)向 [!DNL Target] 边缘发送通知。 (at.js.2.1 +)
-title: 如何使用adobe.目标.sendNotifications()函数？
+description: 使用at.js的adobe.target.sendNotifications()在呈现体验时不使用applyOffer(s)向 [!DNL Target] edge发送通知。 (at.js.2.1 +)
+title: 如何使用adobe.target.sendNotifications()函数？
 feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
-translation-type: tm+mt
-source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
+source-git-commit: 07ef58419f1785633bee930e2f9bd5451394ad93
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '634'
 ht-degree: 94%
 
 ---
@@ -35,8 +34,8 @@ ht-degree: 94%
 | Request > notifications > address | 对象 | 否 |  |  |
 | Request > notifications > address > url | 字符串 | 否 |  | 从中触发通知的 URL。 |
 | Request > notifications > address > referringUrl | 字符串 | 否 |  | 从中触发通知的引荐 URL。 |
-| Request > notifications > parameters | 对象 | 否 | 参数不允许使用以下名称：<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>请考虑以下事项：<ul><li>参数上限为 50 个。</li><li>参数名称不应为空。</li><li>参数名称的最大长度为 128。</li><li>参数名称不应以“profile”开头。</li><li>参数值的最大长度为 5000。</li></ul> |  |
-| Request > notifications > profileParameters | 对象 | 否 | 参数不允许使用以下名称：<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>请考虑以下事项：<ul><li>参数上限为 50 个。</li><li>参数名称不应为空。</li><li>参数名称的最大长度为 128。</li><li>参数名称不应以“profile”开头。</li><li>参数值的最大长度为 5000。</li></ul> |  |
+| Request > notifications > parameters | 字符串 | 否 | 参数不允许使用以下名称：<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>请考虑以下事项：<ul><li>参数上限为 50 个。</li><li>参数名称不应为空。</li><li>参数名称的最大长度为 128。</li><li>参数名称不应以“profile”开头。</li><li>参数值的最大长度为 5000。</li></ul> |  |
+| Request > notifications > profileParameters | 字符串 | 否 | 参数不允许使用以下名称：<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>请考虑以下事项：<ul><li>参数上限为 50 个。</li><li>参数名称不应为空。</li><li>参数名称的最大长度为 128。</li><li>参数名称不应以“profile”开头。</li><li>参数值的最大长度为 5000。</li></ul> |  |
 | Request > notifications > order | 对象 | 否 |  | 描述订单详细信息的对象。 |
 | Request > notifications > order > id | 字符串 | 否 | `<=` 250 个字符。 | 订单 ID。 |
 | Request > notifications > order > total | 字符串 | 否 | `>=` 0 | 订单总计。 |
@@ -58,7 +57,7 @@ ht-degree: 94%
 | Request > notifications > view > key | 字符串 | 否 | `<=` 512 个字符。 | 视图键。通过 API 在视图中设置的键。 |
 | Request > notifications > view > state | 字符串 | 否 |  | 视图状态令牌。 |
 
-**注意**:以下字符 ** 不可用 `Request > notifications > mbox > name`:
+**注意**:不允许使用 ** 以下字 `Request > notifications > mbox > name`符：
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'

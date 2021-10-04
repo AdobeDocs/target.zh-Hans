@@ -2,13 +2,13 @@
 keywords: 环境；故障诊断；最佳实践；Ubox；重定向；重定向；白名单；黑名单；阻止列表允许列表;
 description: 了解如何使用Adobe [!DNL Target] 中的环境来组织您的网站和预生产环境，以便轻松管理和分隔报表。
 title: 什么是环境？如何使用它们？
-feature: 管理和配置
+feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: cc4ea47aff73a6a1f67bec56f048a19b5e009c05
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 61%
+source-wordcount: '696'
+ht-degree: 62%
 
 ---
 
@@ -77,7 +77,12 @@ ht-degree: 61%
 >
 >Recommendations活动作为[!DNL Target] Premium解决方案的一部分提供。 如果没有 [!DNL Target] Premium 许可证，它们将无法在 [!DNL Target] Standard 中使用。
 
-环境可用于为不同用途而分隔目录中的可用项目。 例如，您可以将主机组用于[!UICONTROL Development]和[!UICONTROL Production]环境、不同品牌或不同的地理位置。 默认情况下，“目录搜索”、“收藏集”和“排除项”中的预览结果均基于默认的主机组。（也可以使用“环境”筛选器来选择要预览结果的不同主机组。）默认情况下，新添加的项目在所有主机组中都可用，除非在创建或更新项目时指定了环境 ID。交付的“推荐”取决于请求中指定的主机组。
+环境可用于为不同用途而分隔目录中的可用项目。 例如，您可以将主机组用于[!UICONTROL Development]和[!UICONTROL Production]环境、不同品牌或不同的地理位置。 默认情况下，“目录搜索”、“收藏集”和“排除项”中的预览结果均基于默认的主机组。（也可以使用“环境”筛选器来选择要预览结果的不同主机组。）默认情况下，新添加的项目在所有主机组中都可用，除非在创建或更新项目时指定了环境 ID。
+
+>[!NOTE]
+>
+>交付的“推荐”取决于请求中指定的主机组。
+
 
 如果您看不到产品，请确保您使用的是正确的主机组。例如，如果您将推荐设置为使用测试环境并将您的主机组设置为“测试”，则您可能需要在测试环境中重新创建收藏集，之后才会显示产品。要查看每个环境中提供了哪些产品，请在每个环境中使用“目录搜索”。您还可以预览选定环境（主机组）的“推荐”收藏集和排除项内容。
 

@@ -2,11 +2,11 @@
 keywords: 受众;受众规则;创建受众;定位受众;报表受众;区段;自定义配置文件参数;受众定义;受众列表
 description: 了解如何使用 [!DNL Adobe Target]中的[!UICONTROL Audiences]列表。
 title: 如何使用受众列表？
-feature: 受众
+feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '759'
 ht-degree: 31%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 31%
 
    >[!NOTE]
    >
-   >[!DNL Adobe Experience Platform]源位于测试版测试程序中，但可供使用[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)的所有[!DNL Target]客户使用。 [!DNL Adobe Experience Platform]中可用的受众可以按原样使用，也可以与现有受众](/help/c-target/combining-multiple-audiences.md)组合使用[。
+   >[!DNL Adobe Experience Platform]源可供使用[Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)的所有[!DNL Target]客户使用。 [!DNL Adobe Experience Platform]中可用的受众可以按原样使用，也可以与现有受众](/help/c-target/combining-multiple-audiences.md)组合使用[。
 
 无法重命名预定义受众，如“[!UICONTROL 新访客]”和“[!UICONTROL 旧访客]”。
 

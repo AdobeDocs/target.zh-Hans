@@ -2,11 +2,11 @@
 keywords: 自定义参数;Target 自定义参数;targetpageparams;定位 mbox 参数
 description: 了解如何将自定义参数传递到 [!DNL Adobe Target] 以供在受众中使用。
 title: 我是否可以根据自定义参数定位访客？
-feature: 受众
+feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '459'
 ht-degree: 42%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 42%
 
 1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 为受众命名并添加可选描述。
-1. 将&#x200B;**[!UICONTROL Custom]**&#x200B;拖放到受众生成器窗格中。
+1. 将&#x200B;**[!UICONTROL Custom]**&#x200B;拖放到Audience Builder中。
 
    要选择所需的参数，请执行以下操作：
 
@@ -56,7 +56,7 @@ ht-degree: 42%
 1. （可选）为受众设置其他规则。
 1. 单击&#x200B;**[!UICONTROL 完成]**。
 
-受众的[定义详细信息弹出卡片](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)会在“规则”部分中显示参数名称。没有对用于筛选的 mbox 的引用。
+受众的[定义详细信息弹出卡片](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)会在“规则”部分中显示参数名称。****&#x200B;没有对用于筛选的 mbox 的引用。
 
 >[!NOTE]
 >

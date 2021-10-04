@@ -1,12 +1,12 @@
 ---
 keywords: 受众;受众规则;创建受众
-description: 了解如何创建自定义受众并将其保存到 [!DNL Adobe Target] [!UICONTROL Audiences] 库，以供在您的活动中使用。
+description: 了解如何创建自定义受众并将其保存到 [!DNL Adobe Target] [!UICONTROL Audiences] 库以用于活动。
 title: 如何构建受众？
-feature: 受众
+feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 61%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 61%
 
 1. （视情况而定）继续添加和定义所需的属性。
 
-   要创建另一个容器，请单击&#x200B;**[!UICONTROL 添加容器]**，或者只需将其他属性拖到中间框架中即可。 然后，您可以使用下拉列表调整运算符（AND或OR）。
+   要创建另一个容器，请单击&#x200B;**[!UICONTROL 添加容器]**，或只是将其他属性拖到Audience Builder窗格中。 然后，您可以使用下拉列表调整运算符（AND或OR）。
 
 1. 单击&#x200B;**[!UICONTROL 完成]**。
 

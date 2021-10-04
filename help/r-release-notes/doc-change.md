@@ -4,10 +4,10 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '2606'
-ht-degree: 93%
+source-wordcount: '2649'
+ht-degree: 97%
 
 ---
 
@@ -15,27 +15,29 @@ ht-degree: 93%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
-## [!DNL Adobe Target Standard/Premium] 21.9.1（2021年9月14日）
+## [!DNL Adobe Target Standard/Premium] 21.9.1（2021 年 9 月 14 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 10 月 4 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新了Target Standard/Premium 21.10.1版本的预发行说明（2021年10月6日）。 |
 | 9 月 30 日 | 将活动信息发送到[!DNL Adobe Analytics] | 删除了整个主题，因为为了将[!DNL Target]移动应用程序活动信息发送到[!DNL Analytics]以进行临时分段，不再需要上述步骤。 |
-|  | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 在步骤2中，将`targetPageParams`更改为`targetPageParamsAll`。 |
+|  | [平均提升度、提升度范围和置信区间](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | 添加了pdf文件，以说明如何计算提升度的置信区间。 |
+|  | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 在“步骤5更新您的实施以包含`at_property`参数”中，将`targetPageParams`更改为`targetPageParamsAll`。 |
 | 9 月 27 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间<ul><li>2021年10月13日星期三</li><li>上午 8 点（PDT，UTC -7）</li></ul></li></ul> |
-| 9 月 22 日 | [使用 Velocity 自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 将代码示例中的`$Double`更改为`$double`，以防止可能出现歧义。 |
-|  | [设计常见问题解答](/help/c-recommendations/c-design-overview/template-faq.md) | 更新了以下常见问题解答：<ul><li>我能否在[!DNL Recommendations]设计中使用配置文件脚本？</li></ul> |
-|  | [点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md) | 添加了以下注意事项：<ul><li>点击跟踪量度不会链接到活动中的任何特定体验。</li><li>如果需要限制点击跟踪量度的范围，请使用受众。</li><li>多个活动可以为同一选择器定义点击跟踪量度。 如果是，则当访客符合其中某个活动的条件并单击该选择器时，该访客符合条件的所有关联活动的点击跟踪量度都会相应增加。</li></ul> |
-|  | [使用  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 实施 [!DNL Target]  | 在“使用[!DNL Target]扩展实施at.js的优势”章节中添加了注释。 |
-|  | [mbox3rdPartyId 的实时配置文件同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 更新了“注意事项”章节，添加了新信息。 |
+| 9 月 22 日 | [使用 Velocity 自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 已将代码示例中的 `$Double` 更改为 `$double`，以防止可能出现的歧义。 |
+|  | [设计常见问题解答](/help/c-recommendations/c-design-overview/template-faq.md) | 更新了以下常见问题解答：<ul><li>能否在 [!DNL Recommendations] 设计中使用配置文件脚本？</li></ul> |
+|  | [点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md) | 添加了以下注意事项：<ul><li>点击跟踪量度未关联活动中的任何特定体验。</li><li>如果有必要限制点击跟踪量度的范围，则使用受众。</li><li>多个活动可以为同一个选择器定义一个点击跟踪量度。如果是这样，当访客符合这些活动中的某个活动的资格并单击该选择器时，访客符合资格的所有相关活动的点击跟踪量度都会增加。</li></ul> |
+|  | [使用  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 实施  [!DNL Target]  | 在“使用 [!DNL Target] 扩展实施 at.js 的好处”部分中添加了注释。 |
+|  | [mbox3rdPartyId 的实时配置文件同步](/help/c-target/c-visitor-profile/3rd-party-id.md) | 更新了“注意事项”部分中的信息。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 更新了“secureOnly”部分。 |
-|  | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | 更新了以下常见问题解答：“为什么at.js不始终使用HttpOnly和Secure Cookie标记？” |
+|  | [at.js 常见问题解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | 更新了以下常见问题解答：“为什么 at.js 并不总是使用 HttpOnly 和 Secure Cookie 标志？” |
 | 9 月 14 日 | [发行说明](/help/r-release-notes/release-notes.md)：21.9.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.8.1（2021 年 8 月 10 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 9 月 14 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关[!DNL Target Standard/Premium] 21.9.1（2021年9月14日）版本的信息。 |
+| 9 月 14 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 21.9.1 版（2021 年 9 月 14 日）的信息。 |
 | 9 月 7 日 | [移动设备](/help/c-target/c-audiences/c-target-rules/mobile.md) | 更新了“注意事项”部分中关于运行 Safari 14.0.2（或更高版本）的定位设备的信息。 |
 |  | [分类 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 更新了关于[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动使用的内部标识符 `targettype` 和 `algorithmId` 的信息。 |
 | 8 月 24 日 | [使用  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 实施 [!DNL Target]  | [!DNL Adobe Experience Platform Launch] 已更名为 [!DNL Adobe Experience Platform] 中的一套数据收集技术。因此，产品文档中的术语有一些改动。 |

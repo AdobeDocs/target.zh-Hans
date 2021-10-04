@@ -2,11 +2,11 @@
 keywords: 浏览器选项;类型;浏览器类型;浏览器语言;语言;版本;浏览器版本
 description: 了解如何在 [!DNL Adobe Target] 中创建受众，以定位使用特定浏览器或特定浏览器选项访问您的页面的用户。
 title: 我是否可以根据浏览器类型定位访客？
-feature: 受众
+feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 76%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 76%
 
    1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
    1. 为受众命名并添加可选描述。
-   1. 将&#x200B;**[!UICONTROL Browser]**&#x200B;拖放到受众生成器窗格中。
+   1. 将&#x200B;**[!UICONTROL Browser]**&#x200B;拖放到Audience Builder中。
 
       ![规则>浏览器](assets/target_browser.png)
 

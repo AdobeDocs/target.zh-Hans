@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括什么新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0d5d31a421acb595702e6420c74e969124cc3daf
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 93%
+source-wordcount: '292'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2021 年 9 月 27 日**
+**上次更新：2021 年 10 月 4 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -32,6 +32,7 @@ ht-degree: 93%
 | 功能 | 详细信息 |
 | --- | --- |
 | 受众UI刷新 | 我们正在使用新技术栈逐渐改写整个 [!DNL Target] UI 以提高性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。[管理](/help/administrating-target/administrating-target.md)部分于2020年更新。 [!UICONTROL Audiences]部分是第二次主要UI刷新。 |
+| ![Premium徽](/help/assets/premium.png) 章推荐标准创建和编辑 | [!UICONTROL Recommendations标准]创建和编辑工作流已得到简化，可简化选择正确的推荐算法和设置以实现您的目标。 |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

@@ -5,9 +5,9 @@ title: 如何使推荐基于推荐键？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: c3092f63dbcb91aca4afe2ba35715cbd3f658506
+source-git-commit: 17004e002e6ff7eb0a50f637561c5ec25823a2eb
 workflow-type: tm+mt
-source-wordcount: '3143'
+source-wordcount: '3142'
 ht-degree: 47%
 
 ---
@@ -207,7 +207,7 @@ ht-degree: 47%
 >
 >[!UICONTROL “最近查] 看的项目”兼顾了排除全局设置和活动的选定收藏集设置。如果某个项目被全局排除排除所排除，或者未包含在选定的收藏集中，则不会显示该项目。因此，在使用[!UICONTROL 最近查看的项目]标准时，通常应使用“所有收藏集”设置。
 
-### 为您推荐 {#user-based}
+### 为您推荐 {#recommended-for-you}
 
 根据每位访客的浏览、查看和购买历史记录推荐项目。
 

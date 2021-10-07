@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么新功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
-workflow-type: ht
-source-wordcount: '727'
-ht-degree: 100%
+source-git-commit: 874c27fe7d0144b0485545cf687d50215309d416
+workflow-type: tm+mt
+source-wordcount: '714'
+ht-degree: 58%
 
 ---
 
@@ -24,22 +24,16 @@ ht-degree: 100%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target Standard/Premium] 21.9.1（2021 年 9 月 14 日）
+## [!DNL Target Standard/Premium] 21.10.1（2021年10月6日）
 
-此维护版本包含以下增强功能、修复和更改。
+此版本包含以下新功能：
 
-* 修复了某些 Web 浏览器中针对第三方 Cookie 的新安全策略导致客户无法登录[!UICONTROL 可视体验编辑器] (VEC) 的问题。[排除与可视体验编辑器和增强体验编辑器相关的问题](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)中的“使用 Google Chrome 80 和更高版本时，在可视体验编辑器 (VEC) 或增强体验编辑器 (EEC) 中不加载页面”中讨论了此问题。
-* 修复了一个问题，该问题导致 VEC 中的选件名称显示选件路径而非选件的友好名称。(TGT-41300)
-* A4T 活动的体验名称现在反映在 [!DNL Analysis Workspace] 中 (TGT-38674)
-* 修复了 [!DNL Recommendations] 中的一个问题，该问题导致错误地将重复活动的促销中的实体 ID 更改应用于原始活动。(TGT-41482)
-* 修复了一个问题，该问题导致“编辑标准”按钮无法在 VEC 中的 [!DNL Recommendations] 活动的[!UICONTROL 体验]页面上正常显示。(TGT-39512)
-* 修复了一个问题，该问题导致在复制到测试工作区时无法同步活动。(TGT-40686)
-* 修复了一个问题，该问题导致在 VEC 中使用[!UICONTROL 在此之后插入]时无法修改带[体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)的选择器。(TGT-41802)
-* 修复了一个问题，该问题导致无法将选件中的空 JSON 内容发送到后端。[!DNL Target] 现在可发送 JSON 对象，即使该对象为空也是如此。(TGT-41555)
-* 修复了一个问题，该问题导致当客户在查看报告时单击[!UICONTROL 在 Analytics 中查看]的情况下，打开旧 [!DNL Analytics] 报告而非 [!DNL Analysis Workspace]。(TGT-41867)
-* 向客户尝试选择 [!DNL Analytics] 作为 [!UICONTROL Automated Personalization] 活动的报告源 (A4T) 时显示的 UI 消息中添加了附加说明。该消息指明“[!DNL Target] 是唯一受支持的 [!UICONTROL Automated Personalization] 活动的源。”(TGT-41954)
-* 向客户尝试使用“换行符”而不是逗号分隔主机时显示的错误消息中添加了附加说明。(TGT-40671)
-* 修复了一个问题，该问题导致一些活动的[!UICONTROL 上次更新日期]与西班牙客户和日本客户的英语 UI 中的不同（在查看西班牙语和日语版的 UI 时）。(TGT-38980)
+| 功能 | 详细信息 |
+| --- | --- |
+|  受众UI刷新 | 作为[!DNL Adobe Target]团队持续努力改善[!DNL Target]用户用户体验的一部分，此版本会刷新[!DNL Target] UI中的[!UICONTROL Audiences]和[!UICONTROL 配置文件脚本]页面。 此更新可统一和标准化以前不一致的设计模式，同时添加新的增强功能，例如：<ul><li>能够同时选择和删除多个受众</li><li>刷新的[受众生成器设计](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL Audience]库规则生成器中支持排除规则</li><li>新的“受众源”过滤器，允许更快地发现受众</li><li>会话永久搜索和过滤选项</li></ul>有关更多信息，请参阅[受众](/help/c-target/target.md)。<br>**注意**:此UI刷新仅影响EMEA地区的客户。包括北美在内的世界其他地区的客户将于下周看到更新后的UI。 |
+| [!UICONTROL 配置文] 件脚本UI刷新 | [!UICONTROL 配置文件脚本]库也已更新，其中包括更新的界面以及若干生产效率更新：<ul><li>能够同时选择和删除多个配置文件脚本</li><li>配置文件脚本的新代码编辑器</li><li>代码编辑器中的语法突出显示和错误检查</li><li>通过键盘快捷键自动完成令牌（mbox或配置文件）参数</li></ul>有关更多信息，请参阅[访客配置文件](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注意**:此UI刷新仅影响EMEA地区的客户。包括北美在内的世界其他地区的客户将于下周看到更新后的UI。 |
+| ![Premium徽](/help/assets/premium.png) 章推荐标准创建和编辑 | [!UICONTROL Recommendations标准]创建和编辑工作流已得到简化，可简化选择正确的推荐算法和设置以实现您的目标。<br>有关更多信息，请参阅 [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
+| ![Premium徽](/help/assets/premium.png) 章推荐回顾窗口和算法刷新率改进 | 您现在可以运行“查看次数最多”和“最畅销商品”算法，并在六小时的回顾时间范围内捕获最新趋势内容。 选择六小时回顾窗口后，每3到6小时更新一次推荐结果。<br>有关更多信息，请参 [阅创](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) 建标 *准*&#x200B;中的数据源。 |
 
 ## 其他发行说明和版本详细信息
 

@@ -4,9 +4,9 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
+source-git-commit: 088912db2bd404978ec1403144779b0b87ba95f1
 workflow-type: tm+mt
-source-wordcount: '2727'
+source-wordcount: '2741'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 10 月 11 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 21.10.2版本（2021年10月13日）的信息。 |
 | 10 月 6 日 | [在中构建受众 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 更新了文本和图像，以反映更新的[!DNL Target] [!UICONTROL 受众] UI。 在[!UICONTROL Audiences]主题中也进行了类似的更改。 |
 |  | [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 更新了以下部分：<ul><li>基本信息</li><li>数据源</li></ul> |
 |  | [上传自定义标准](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 更新了反映新工作流的说明。 |

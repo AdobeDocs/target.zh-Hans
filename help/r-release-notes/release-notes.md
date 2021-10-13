@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么新功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bd7032b915bf1b333fa5cc3cb4825eaa7e4f83fb
+source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 59%
+source-wordcount: '816'
+ht-degree: 50%
 
 ---
 
@@ -24,14 +24,46 @@ ht-degree: 59%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
+## [!DNL Target Standard/Premium] 21.10.2（2021年10月13日）
+
+在将[!DNL Target] [!UICONTROL Audiences]与[!DNL Adobe Experience Platform Web SDK]一起使用时，添加了以下增强功能：
+
+* 在[!DNL Target] UI的不同位置添加了警告图标、浏览器和消息，以指示受众已在源位置删除，不再可用于[!DNL Target]活动。
+
+   下图显示了图标、浏览器和消息显示的一些位置：
+
+   *  活动列表页面
+
+      ![在“活动”列表页面的源消息中删除的受众](assets/deleted-at-source-audiences-list.png)
+
+   * 活动[!UICONTROL 概述]页面：
+
+      ![在“概述”页面上的源消息中删除的受众](assets/deleted-at-source-overview.png)
+
+   *  活动创建工作流的体验步骤：
+
+      ![“体验”页面上的源消息中已删除的  受众](assets/deleted-at-source-experiences.png)
+
+   *  活动创建工作流的定位步骤：
+
+      ![定位页面上的源消息中删除的  受众](assets/deleted-at-source-targeting.png)
+
+   * [!UICONTROL 活动创] 建工作流的目标和设置步骤：
+
+      ![在“目标和设置”页面上的源消息 [!UICONTROL 中删除的] 受众](assets/deleted-at-source-goals-settings.png)
+
+   * 受众细化（活动创建工作流的[!UICONTROL 定位]步骤中的“替换受众]”）：[!UICONTROL 
+
+* 如果您尝试使用“合并受众”功能，并且源中删除了其中一个受众，则[!UICONTROL 保存]会被禁用。
+
 ## [!DNL Target Standard/Premium] 21.10.1（2021年10月6日）
 
 此版本包含以下新功能：
 
 | 功能 | 详细信息 |
 | --- | --- |
-|  受众UI刷新 | 作为[!DNL Adobe Target]团队持续努力改善[!DNL Target]用户用户体验的一部分，此版本会刷新[!DNL Target] UI中的[!UICONTROL Audiences]和[!UICONTROL 配置文件脚本]页面。 此更新可统一和标准化以前不一致的设计模式，同时添加新的增强功能，例如：<ul><li>能够同时选择和删除多个受众</li><li>刷新的[受众生成器设计](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL Audience]库规则生成器中支持排除规则</li><li>新的“受众源”过滤器，允许更快地发现受众</li><li>会话永久搜索和过滤选项</li></ul>有关更多信息，请参阅[受众](/help/c-target/target.md)。<br>**注意**:下周，  新的 [!UICONTROL 受众] 和配置文件脚本UI将推出到所有区域。 |
-| [!UICONTROL 配置文] 件脚本UI刷新 | [!UICONTROL 配置文件脚本]库也已更新，其中包括更新的界面以及若干生产效率更新：<ul><li>能够同时选择和删除多个配置文件脚本</li><li>配置文件脚本的新代码编辑器</li><li>代码编辑器中的语法突出显示和错误检查</li><li>通过键盘快捷键自动完成令牌（mbox或配置文件）参数</li></ul>有关更多信息，请参阅[访客配置文件](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注意**:下周，  新的 [!UICONTROL 受众] 和配置文件脚本UI将推出到所有区域。 |
+|  受众UI刷新 | 作为[!DNL Adobe Target]团队持续努力改善[!DNL Target]用户用户体验的一部分，此版本会刷新[!DNL Target] UI中的[!UICONTROL Audiences]和[!UICONTROL 配置文件脚本]页面。 此更新可统一和标准化以前不一致的设计模式，同时添加新的增强功能，例如：<ul><li>能够同时选择和删除多个受众</li><li>刷新的[受众生成器设计](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL Audience]库规则生成器中支持排除规则</li><li>新的“受众源”过滤器，允许更快地发现受众</li><li>会话永久搜索和过滤选项</li></ul>有关更多信息，请参阅[受众](/help/c-target/target.md)。 |
+| [!UICONTROL 配置文] 件脚本UI刷新 | [!UICONTROL 配置文件脚本]库也已更新，其中包括更新的界面以及若干生产效率更新：<ul><li>能够同时选择和删除多个配置文件脚本</li><li>配置文件脚本的新代码编辑器</li><li>代码编辑器中的语法突出显示和错误检查</li><li>通过键盘快捷键自动完成令牌（mbox或配置文件）参数</li></ul>有关更多信息，请参阅[访客配置文件](/help/c-target/c-visitor-profile/visitor-profile.md)。 |
 | ![Premium徽](/help/assets/premium.png) 章推荐标准创建和编辑 | [!UICONTROL Recommendations标准]创建和编辑工作流已得到简化，可简化选择正确的推荐算法和设置以实现您的目标。<br>有关更多信息，请参阅 [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
 | ![Premium徽](/help/assets/premium.png) 章推荐回顾窗口和算法刷新率改进 | 您现在可以运行“查看次数最多”和“最畅销商品”算法，并在六小时的回顾时间范围内捕获最新趋势内容。 选择六小时回顾窗口后，每3到6小时更新一次推荐结果。<br>有关更多信息，请参 [阅创](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) 建标 *准*&#x200B;中的数据源。 |
 

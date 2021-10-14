@@ -4,10 +4,10 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
+source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 96%
+source-wordcount: '2778'
+ht-degree: 97%
 
 ---
 
@@ -15,10 +15,11 @@ ht-degree: 96%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
-## [!DNL Adobe Target Standard/Premium] 21.10.1（2021年10月6日）
+## [!DNL Adobe Target Standard/Premium]21.10.1（2021 年 10 月 6 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 10 月 14 日 | [活动设置 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 添加了以下常见问题解答：“我能否在[!UICONTROL 自动分配]活动中将区段应用为优化目标的情况下使用二项式[!DNL Analytics]量度？” |
 | 10 月 13 日 | [发行说明](/help/r-release-notes/release-notes.md)：21.10.2 | 添加了有关[!DNL Target Standard/Premium] 21.10.2版本（2021年10月13日）的信息。 |
 | 10 月 11 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 21.10.2版本（2021年10月13日）的信息。 |
 | 10 月 6 日 | [在中构建受众 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 更新了文本和图像，以反映更新的[!DNL Target] [!UICONTROL 受众] UI。 在[!UICONTROL Audiences]主题中也进行了类似的更改。 |
@@ -30,11 +31,11 @@ ht-degree: 96%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 10 月 4 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新了Target Standard/Premium 21.10.1版本的预发行说明（2021年10月6日）。 |
-| 9 月 30 日 | 将活动信息发送到[!DNL Adobe Analytics] | 删除了整个主题，因为为了将[!DNL Target]移动应用程序活动信息发送到[!DNL Analytics]以进行临时分段，不再需要上述步骤。 |
-|  | [平均提升度、提升度范围和置信区间](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | 添加了pdf文件，以说明如何计算提升度的置信区间。 |
-|  | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 在“步骤5更新您的实施以包含`at_property`参数”中，将`targetPageParams`更改为`targetPageParamsAll`。 |
-| 9 月 27 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间<ul><li>2021年10月13日星期三</li><li>上午 8 点（PDT，UTC -7）</li></ul></li></ul> |
+| 10 月 4 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 更新了 Target Standard/Premium 20.10.1 版（2021 年 10 月 6 日）的预发行说明。 |
+| 9 月 30 日 | 将活动信息发送到 [!DNL Adobe Analytics] | 删除了整个主题，因为不再需要执行描述的步骤来将 [!DNL Target] 移动应用活动信息发送给 [!DNL Analytics] 进行事后分段。 |
+|  | [平均提升度、提升度范围和置信区间](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | 添加了一个 pdf 文件来解释如何计算提升度的置信区间。 |
+|  | [配置企业权限](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 在“第 5 步：更新您的实现以包含 `at_property`  参数”中已将 `targetPageParams` 更改为 `targetPageParamsAll`。 |
+| 9 月 27 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间<ul><li>2021 年 10 月 13 日星期三</li><li>上午 8 点（PDT，UTC -7）</li></ul></li></ul> |
 | 9 月 22 日 | [使用 Velocity 自定义设计](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 已将代码示例中的 `$Double` 更改为 `$double`，以防止可能出现的歧义。 |
 |  | [设计常见问题解答](/help/c-recommendations/c-design-overview/template-faq.md) | 更新了以下常见问题解答：<ul><li>能否在 [!DNL Recommendations] 设计中使用配置文件脚本？</li></ul> |
 |  | [点击跟踪](/help/c-activities/r-success-metrics/click-tracking.md) | 添加了以下注意事项：<ul><li>点击跟踪量度未关联活动中的任何特定体验。</li><li>如果有必要限制点击跟踪量度的范围，则使用受众。</li><li>多个活动可以为同一个选择器定义一个点击跟踪量度。如果是这样，当访客符合这些活动中的某个活动的资格并单击该选择器时，访客符合资格的所有相关活动的点击跟踪量度都会增加。</li></ul> |

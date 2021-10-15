@@ -4,9 +4,9 @@ description: 了解如何在 [!DNL Adobe Target] 中创建受众以定位移动�
 title: 我是否可以根据移动设备选项来定位访客？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
+source-git-commit: 05619301a4cd145d07abb4bf5fbe9fd44bb3d65f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 40%
 
 可通过分析用户-代理字符串来实现设备检测。但是，有些设备制造商（例如 Apple）不会在用户-代理中提供足够的信息，从而无法使用此功能。
 
-例如，Apple 设备不会在用户-代理中共享特定于设备型号的令牌。因此，无法使用基于关键字的简单方法来检测iPhone型号（如iPhone 12 Pro、iPhone 12、iPhone 11 Pro Max等）。
+例如，Apple 设备不会在用户-代理中共享特定于设备型号的令牌。因此，无法使用基于关键字的简单方法来检测iPhone模型(例如iPhone 12 Pro、iPhone 12、iPhone 11 Pro Max等)。
 
 要解决此问题，[!DNL Target]会收集其他数据，以使用以下参数准确检测iPhone和其他Apple设备：
 
@@ -71,13 +71,13 @@ ht-degree: 40%
 
 ### 定位运行iOS 12.2或更高版本的设备
 
-由于iOS 12.2中引入了新更改，因此使用由[!UICONTROL 设备营销名称]和[!UICONTROL 设备型号]定义的规则创建受众（用于指定iPhone型号）会受到影响。 [!DNL Target] 无法再定位安装了iOS 12.2（或更高版本）的iPhone的用户。但是，如果这些用户没有iOS 12.2（或更高版本），则“iPhone型号”定位将继续正常运行。
+由于iOS 12.2中引入了新更改，因此使用由[!UICONTROL 设备营销名称]和[!UICONTROL 设备型号]定义的规则创建受众(用于指定iPhone型号)会受到影响。 [!DNL Target] 无法再定位安装了iOS 12.2（或更高版本）的iPhone的用户。但是，如果这些用户没有iOS 12.2（或更高版本），则iPhone模型定位将继续正常运行。
 
-iOS 12.2（或更高版本）更新不影响以下型号的标识，因为这些型号不支持升级到iOS 12.2:iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad/Retina显示屏、iPad Retina（第4代）、iPod Touch 4和iPod Touch 5。
+iOS 12.2（或更高版本）更新不影响以下型号的识别，因为这些型号不支持升级到iOS 12.2:iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad/Retina显示屏、iPad Retina（第4代）、iPod Touch 4和iPod Touch 5。
 
 ### 定位运行Safari 14.0.2（或更高版本）的设备
 
-当使用移动规则定位在macOS上运行Safari版本14.0.2（或更高版本）的设备时，由于涉及Apple用户代理和DeviceAtlas的已知问题， [!DNL Target]会将Mac设备上的Safari错误地识别为iPad版本。 这个问题将在将来得到解决。
+当使用移动规则定位在macOS上运行Safari版本14.0.2（或更高版本）的设备时，由于涉及Apple用户代理和DeviceAtlas的已知问题， [!DNL Target]会在Mac和iPad设备上错误地标识Safari。 这个问题将在将来得到解决。
 
 ## 培训视频：创建受众
 

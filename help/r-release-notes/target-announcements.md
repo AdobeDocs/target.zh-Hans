@@ -5,9 +5,9 @@ title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 95%
 
 ## [!DNL Adobe Target] 社区问答喝咖啡休息时间
 
-* **2021年10月13日星期三**
+* **2021 年 10 月 13 日星期三**
 * **上午 8 点（PDT，UTC -7）**
 * **[单击此处了解更多信息和注册](https://adobe.ly/3CoUIVz)。**
 
-[!DNL Adobe Target]的高级解决方案顾问Gentry Lin将回答客户有关她专业领域的问题：
+[!DNL Adobe Target] 高级解决方案顾问 Gentry Lin 将解答与其专长领域相关的客户问题：
 
 * 实施
 * 个性化
-* 核心Web创作工作流
+* 核心 Web 创作工作流
 * [!DNL Adobe Experience Cloud] 集成
 
 ## 网络研讨会：通过 Adobe Target 的设备上决策进行无延迟的个性化和测试

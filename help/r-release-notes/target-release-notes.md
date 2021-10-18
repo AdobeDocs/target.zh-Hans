@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括什么新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f6efc1e921535abdd11501979d6f44e84e443a1f
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 55%
+source-wordcount: '317'
+ht-degree: 67%
 
 ---
 
@@ -25,37 +25,15 @@ ht-degree: 55%
 >
 >请迁移到新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 库的最新版本，以避免您的网站出现任何潜在问题。有关更多信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
-## [!DNL Target Standard/Premium] 21.10.2（2021年10月13日）
+## [!DNL Target Standard/Premium] 21.10.3 (October 19, 2021)
 
-在将[!DNL Target] [!UICONTROL Audiences]与[!DNL Adobe Experience Platform Web SDK]一起使用时，添加了以下增强功能：
+此维护版本包含以下增强、修复和更改：
 
-* 在[!DNL Target] UI的不同位置添加了警告图标、浏览器和消息，以指示受众已在源位置删除，不再可用于[!DNL Target]活动。
-
-   下图显示了图标、浏览器和消息显示的一些位置：
-
-   *  活动列表页面
-
-      ![在“活动”列表页面的源消息中删除的受众](assets/deleted-at-source-audiences-list.png)
-
-   * 活动[!UICONTROL 概述]页面：
-
-      ![在“概述”页面上的源消息中删除的受众](assets/deleted-at-source-overview.png)
-
-   *  活动创建工作流的体验步骤：
-
-      ![“体验”页面上的源消息中已删除的  受众](assets/deleted-at-source-experiences.png)
-
-   *  活动创建工作流的定位步骤：
-
-      ![定位页面上的源消息中删除的  受众](assets/deleted-at-source-targeting.png)
-
-   * [!UICONTROL 活动创] 建工作流的目标和设置步骤：
-
-      ![在“目标和设置”页面上的源消息 [!UICONTROL 中删除的] 受众](assets/deleted-at-source-goals-settings.png)
-
-   * 受众细化（活动创建工作流的[!UICONTROL 定位]步骤中的“替换受众]”）：[!UICONTROL 
-
-* 如果您尝试使用“合并受众”功能，并且源中删除了其中一个受众，则[!UICONTROL 保存]会被禁用。
+* 修复了阻止客户打开 [!UICONTROL A4T] 面板 [!DNL Analysis Workspace] 单击 [!UICONTROL 在Analytics中查看] 按钮 [!DNL Target] 活动报表。 (TGT-42099、TGT-42100)
+* 修复了导致 [!UICONTROL 编辑设计] 按钮 [!UICONTROL A/B测试] 和 [!UICONTROL 体验定位] (XT)活动 [!UICONTROL 基于表单的体验编辑器]. (TGT-41980)
+* 修复了阻止 [!UICONTROL 兼容] 复选框，以在创建新 [!UICONTROL Recommendations] 活动。 (TGT-42053)
+* 修复了无法选择 [!DNL Analytics] 作为报表源(A4T)，因为 [!DNL Analytics] 权限。 (TGT-41954)
+* Implemented multiple accessibility fixes to improve keyboard navigation across the [!DNL Target] UI.
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

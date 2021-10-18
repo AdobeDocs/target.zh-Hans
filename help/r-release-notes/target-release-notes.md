@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括什么新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
+source-git-commit: 4df8c526636e2ab99eea39eb5298475c9670a840
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 67%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 67%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新时间：2021 年 10 月 11 日**
+**上次更新时间：2021 年 10 月 18 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -25,7 +25,7 @@ ht-degree: 67%
 >
 >请迁移到新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 库的最新版本，以避免您的网站出现任何潜在问题。有关更多信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
-## [!DNL Target Standard/Premium] 21.10.3 (October 19, 2021)
+## [!DNL Target Standard/Premium] 21.10.3（2021年10月19日）
 
 此维护版本包含以下增强、修复和更改：
 
@@ -33,7 +33,7 @@ ht-degree: 67%
 * 修复了导致 [!UICONTROL 编辑设计] 按钮 [!UICONTROL A/B测试] 和 [!UICONTROL 体验定位] (XT)活动 [!UICONTROL 基于表单的体验编辑器]. (TGT-41980)
 * 修复了阻止 [!UICONTROL 兼容] 复选框，以在创建新 [!UICONTROL Recommendations] 活动。 (TGT-42053)
 * 修复了无法选择 [!DNL Analytics] 作为报表源(A4T)，因为 [!DNL Analytics] 权限。 (TGT-41954)
-* Implemented multiple accessibility fixes to improve keyboard navigation across the [!DNL Target] UI.
+* 实施了多项辅助功能修复，以改进 [!DNL Target] UI。
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

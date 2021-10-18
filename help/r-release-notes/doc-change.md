@@ -4,9 +4,9 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '2778'
+source-wordcount: '2789'
 ht-degree: 97%
 
 ---
@@ -19,10 +19,11 @@ ht-degree: 97%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 10 月 14 日 | [活动设置 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 添加了以下常见问题解答：“我能否在[!UICONTROL 自动分配]活动中将区段应用为优化目标的情况下使用二项式[!DNL Analytics]量度？” |
-| 10 月 13 日 | [发行说明](/help/r-release-notes/release-notes.md)：21.10.2 | 添加了有关[!DNL Target Standard/Premium] 21.10.2版本（2021年10月13日）的信息。 |
+| 10 月 19 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 21.10.3版本（2021年10月19日）。 |
+| 10 月 14 日 | [活动设置 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 添加了以下常见问题解答：“我能用二项式 [!DNL Analytics] 量度中应用了区段作为 [!UICONTROL 自动分配] 活动？” |
+| 10 月 13 日 | [发行说明](/help/r-release-notes/release-notes.md)：21.10.2 | 添加了有关 [!DNL Target Standard/Premium] 21.10.2版本（2021年10月13日）。 |
 | 10 月 11 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关Target Standard/Premium 21.10.2版本（2021年10月13日）的信息。 |
-| 10 月 6 日 | [在中构建受众 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 更新了文本和图像，以反映更新的[!DNL Target] [!UICONTROL 受众] UI。 在[!UICONTROL Audiences]主题中也进行了类似的更改。 |
+| 10 月 6 日 | [在中构建受众 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 更新了文本和图像，以反映更新的 [!DNL Target] [!UICONTROL 受众] UI。 在 [!UICONTROL 受众] 主题。 |
 |  | [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 更新了以下部分：<ul><li>基本信息</li><li>数据源</li></ul> |
 |  | [上传自定义标准](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 更新了反映新工作流的说明。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：21.10.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |

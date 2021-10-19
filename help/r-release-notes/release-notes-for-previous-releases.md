@@ -4,10 +4,10 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
+source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
-source-wordcount: '31881'
-ht-degree: 100%
+source-wordcount: '32456'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,59 @@ ht-degree: 100%
 >请参阅 [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2021
+
+### [!DNL Target Standard/Premium] 21.10.3（2021年10月19日）
+
+此维护版本包含以下增强、修复和更改：
+
+* 修复了阻止客户打开 [!UICONTROL A4T] 面板 [!DNL Analysis Workspace] 单击 [!UICONTROL 在Analytics中查看] 按钮 [!DNL Target] 活动报表。 (TGT-42099、TGT-42100)
+* 修复了导致 [!UICONTROL 编辑设计] 按钮，在编辑时不显示 [!UICONTROL A/B测试] 和 [!UICONTROL 体验定位] (XT)活动 [!UICONTROL 基于表单的体验编辑器]. (TGT-41980)
+* 修复了阻止 [!UICONTROL 兼容] 复选框，以在创建新 [!UICONTROL Recommendations] 活动。 (TGT-42053)
+* 修复了在无法选择 [!DNL Analytics] 作为报表源(A4T)，因为 [!DNL Analytics] 权限。 (TGT-41954)
+* 实施了多项辅助功能修复，以改进 [!DNL Target] UI。
+
+### [!DNL Target Standard/Premium] 21.10.2（2021年10月13日）
+
+在使用 [!DNL Target] [!UICONTROL 受众] 和 [!DNL Adobe Experience Platform Web SDK]:
+
+* 在 [!DNL Target] 用于指示受众已在源位置删除，不再可在中使用的UI [!DNL Target] 活动。
+
+   下图显示了图标、浏览器和消息显示的一些位置：
+
+   * [!UICONTROL 活动] 列表页面
+
+      ![在“活动”列表页面的源消息中删除的受众](assets/deleted-at-source-audiences-list.png)
+
+   * 活动 [!UICONTROL 概述] 页面：
+
+      ![在“概述”页面上的源消息中删除的受众](assets/deleted-at-source-overview.png)
+
+   * [!UICONTROL 体验] 活动创建工作流的步骤：
+
+      ![在上的源消息上删除的受众 [!UICONTROL 体验] 页面](assets/deleted-at-source-experiences.png)
+
+   * [!UICONTROL 定位] 活动创建工作流的步骤：
+
+      ![在上的源消息上删除的受众 [!UICONTROL 定位] 页面](assets/deleted-at-source-targeting.png)
+
+   * [!UICONTROL 目标和设置] 活动创建工作流的步骤：
+
+      ![受众在 [!UICONTROL 目标和设置] 页面](assets/deleted-at-source-goals-settings.png)
+
+   * 受众细化([!UICONTROL 替换受众] 在 [!UICONTROL 定位] 活动创建工作流的步骤):
+
+* 如果您尝试使用“合并受众”功能，但源中删除了其中一个受众， [!UICONTROL 保存] 已禁用。
+
+### [!DNL Target Standard/Premium]21.10.1（2021 年 10 月 6 日）
+
+此版本包含以下新功能：
+
+| 功能 | 详细信息 |
+| --- | --- |
+| [!UICONTROL 受众 UI 刷新] | 作为 [!DNL Adobe Target] 团队持续努力，以改进 [!DNL Target] 用户，此版本将刷新 [!UICONTROL 受众] 和 [!UICONTROL 配置文件脚本] 页面 [!DNL Target] UI。 此更新可统一和标准化以前不一致的设计模式，同时添加新的增强功能，例如：<ul><li>能够同时选择和删除多个受众</li><li>已刷新 [受众生成器设计](/help/c-target/c-audiences/create-audience.md)</li><li>在 [!UICONTROL 受众] 库规则生成器</li><li>新的“受众源”过滤器，允许更快地发现受众</li><li>会话永久搜索和过滤选项</li></ul>有关更多信息，请参阅[受众](/help/c-target/target.md)。<br>**注意**:新 [!UICONTROL 受众] 除当前位于 [!DNL Target] 测试版计划。 此UI刷新将于2021年10月19日星期二为部分客户以及10月21日星期四为所有其余客户重新启用。 |
+| [!UICONTROL 配置文件脚本] UI刷新 | 的 [!UICONTROL 配置文件脚本] 此外，还更新了库，其中包括更新的界面以及多项生产效率更新：<ul><li>能够同时选择和删除多个配置文件脚本</li><li>配置文件脚本的新代码编辑器</li><li>代码编辑器中的语法突出显示和错误检查</li><li>通过键盘快捷键自动完成令牌（mbox或配置文件）参数</li></ul>有关更多信息，请参阅 [访客配置文件](/help/c-target/c-visitor-profile/visitor-profile.md). |
+| ![Premium徽章](/help/assets/premium.png) Recommendations标准创建和编辑 | 的 [!UICONTROL Recommendations标准] 通过简化创建和编辑工作流，可简化选择正确的推荐算法和设置以实现您的目标。<br>有关更多信息，请参阅 [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Premium徽章](/help/assets/premium.png) Recommendations回顾窗口和算法刷新率改进 | 您现在可以运行“查看次数最多”和“最畅销商品”算法，并在六小时的回顾时间范围内捕获最新趋势内容。 选择六小时回顾窗口后，每3到6小时更新一次推荐结果。<br>有关更多信息，请参阅 [数据源](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *创建标准*. |
 
 ### [!DNL Target Standard/Premium] 21.9.1（2021 年 9 月 14 日）
 
@@ -1637,7 +1690,7 @@ target/r_release-notes-2018.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p><b>2017 年 9 月 27 日</b> </p> <p> <span class="filepath">at.js</span> 版本 1.2.0 现已作为维护版本提供，其中包含大多数错误修复。有关更多信息，请参阅 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">at.js 版本详细信息</a>。 </p> <p> 
      <ul id="ul_D11024549C3643C7A756988087498D24"> 
       <li id="li_E1B3994125B64F6AB20B29FE8BCD8459"> <p>修复了阻止对点击跟踪特殊案例执行默认操作的问题。(TNT-28089) </p> </li> 
@@ -1699,7 +1752,7 @@ target/r_release-notes-2018.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p><b>2017 年 8 月 3 日</b> </p> <p> <span class="filepath">at.js</span> 版本 1.1 现已可用。有关更多信息，请参阅<a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">下载 at.js</a>。 </p> <p><span class="filepath">at.js</span> 版本 1.1 中包含以下增强功能和修复： </p> <p> 
      <ul id="ul_B7408267413347888938E2E7D48ABDBD"> 
       <li id="li_4DDF6DCFE6014C6795B6A9C9DFB54C21"> <p>添加了响应令牌处理功能。有关更多信息，请参阅<a href="/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">响应令牌</a>。 </p> </li> 
@@ -1933,7 +1986,7 @@ target/r_release-notes-2018.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p> <span class="filepath">at.js</span> 版本 0.9.6 现已可用。有关更多信息，请参阅<a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">下载 at.js</a>。 </p> <p><span class="filepath">at.js</span> 版本 0.9.6 中包含以下增强功能和修复： </p> <p> 
      <ul id="ul_108DF85393614C69988E299485D338FD"> 
       <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>对 A4T 的重定向选件支持。下载并安装 <span class="filepath">at.js</span> 版本 0.9.6 后，您可以在将 <span class="keyword">Adobe Analytics</span> 用作 <span class="keyword">Target</span> 报表源（即使用 A4T）的活动中使用重定向选件。除了 <span class="filepath">at.js</span> 版本 0.9.6 之外，您的实施还必须满足其他最低要求，才能使用重定向选件和 A4T。有关更多信息以及其他应了解的重要信息，请参阅<a href="/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local">重定向选件 - A4T 常见问题解答</a>。 </p> </li> 

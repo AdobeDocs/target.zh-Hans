@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '32456'
+source-wordcount: '32512'
 ht-degree: 98%
 
 ---
@@ -22,6 +22,14 @@ ht-degree: 98%
 >请参阅 [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2021
+
+### [!DNL Target Standard/Premium] 21.10.4（2021年10月21日）
+
+此维护版本包含以下增强功能：
+
+| 功能 | 详细信息 |
+| --- | --- |
+| 基于购物车的Recommendations | 一系列新算法，可根据访客购物车的内容提供推荐。<br>有关更多信息，请参阅 [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 和“购物车加货/购物车查看/结账页面”以及“排除访客购物车中已有的项目”(位于 [规划和实施Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3（2021年10月19日）
 

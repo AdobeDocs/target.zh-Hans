@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么新功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 44%
+source-wordcount: '1032'
+ht-degree: 42%
 
 ---
 
@@ -23,6 +23,14 @@ ht-degree: 44%
 >请迁移到新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 库的最新版本，以避免您的网站出现任何潜在问题。有关更多信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 21.10.4（2021年10月21日）
+
+此维护版本包含以下增强功能：
+
+| 功能 | 详细信息 |
+| --- | --- |
+| 基于购物车的Recommendations | 一系列新算法，可根据访客购物车的内容提供推荐。<br>有关更多信息，请参阅 [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 和“购物车加货/购物车查看/结账页面”以及“排除访客购物车中已有的项目”(位于 [规划和实施Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3（2021年10月19日）
 

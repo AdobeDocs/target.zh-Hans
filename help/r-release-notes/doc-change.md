@@ -4,10 +4,10 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 42fa0bbe0c7ab23cd41352ea011d351aa5a277d2
 workflow-type: tm+mt
-source-wordcount: '2820'
-ht-degree: 96%
+source-wordcount: '2807'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 96%
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 10 月 20 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 21.10.4版本（2021年10月21日）。 |
-|  | [计划和实施推荐](/help/c-recommendations/plan-implement.md#section_D37E48700F074556B925D0CA0291405E) | 更新了“购物车页面”部分中的代码片段。 |
 |  | [计划和实施推荐](/help/c-recommendations/plan-implement.md) | 更新了整个主题。 |
 | 10 月 19 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 21.10.3版本（2021年10月19日）。 |
 | 10 月 14 日 | [活动设置 - A4T 常见问题解答](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 添加了以下常见问题解答：“我能用二项式 [!DNL Analytics] 量度中应用了区段作为 [!UICONTROL 自动分配] 活动？” |

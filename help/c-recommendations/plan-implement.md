@@ -4,28 +4,26 @@ description: '了解如何在Adobe Target中实施Recommendations活动。 '
 title: 如何实施Recommendations活动？
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 37%
+source-wordcount: '1279'
+ht-degree: 36%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) 规划和实施Recommendations
+# ![PREMIUM](/help/assets/premium.png) 计划和实施 [!DNL Recommendations]
 
 在设置您的首个 [!DNL Recommendations] 活动 [!DNL Adobe Target]，请完成以下步骤：
 
-| 步骤 | 详细信息 |
-|--- |--- |
-| ![步骤 1](/help/c-recommendations/assets/step1_red.png) | [实施 [!DNL Adobe Target]](#implement-target) 和移动设备应用程序界面（用于捕获用户行为和提供推荐）。 |
-| ![步骤 2](/help/c-recommendations/assets/step2_red.png) | [设置 [!DNL Recommendations] 目录](#rec-catalog) 产品或内容的受众。 |
-| ![步骤 3](/help/c-recommendations/assets/step3_red.png) | [传递行为信息和上下文](#pass-behavioral) to [!DNL Adobe Target Recommendations] 以便提供个性化的推荐。 |
-| ![步骤 4](/help/c-recommendations/assets/step4_red.png) | [配置全局排除](#exclusions). |
-| ![步骤 5](/help/c-recommendations/assets/step5_red.png) | [配置 [!DNL Recommendations] 设置](#concept_C1E1E2351413468692D6C21145EF0B84). |
+1. [实施 [!DNL Target]](#implement-target) 和移动设备应用程序界面（用于捕获用户行为和提供推荐）。
+1. [设置 [!DNL Recommendations] 目录](#rec-catalog) 产品或内容的受众。
+1. [传递行为信息和上下文](#pass-behavioral) to [!DNL Target Recommendations] 以便提供个性化的推荐。
+1. [配置全局排除](#exclusions).
+1. [配置 [!DNL Recommendations] 设置](#concept_C1E1E2351413468692D6C21145EF0B84).
 
-## 实施Adobe Target {#implement-target}
+## 实施 [!DNL Target] {#implement-target}
 
-[!DNL Target Recommendations] 需要您实施 [!DNL Adobe Experience Platform Web SDK] 或at.js 0.9.2（或更高版本）。 请参阅 [实施Target](/help/c-implementing-target/implementing-target.md) 以了解更多信息。
+[!DNL Target Recommendations] 需要您实施 [!DNL Adobe Experience Platform Web SDK] 或at.js 0.9.2（或更高版本）。 请参阅 [实施 [!DNL Target]](/help/c-implementing-target/implementing-target.md) 以了解更多信息。
 
 ## 设置Recommendations目录 {#rec-catalog}
 
@@ -41,7 +39,7 @@ ht-degree: 37%
 | --- | --- | --- | --- |
 | 目录馈送 | 计划信息源(CSV、Google产品XML或 [!DNL Analytics Product Classifications])，以便每天上传和摄取。 | 用于一次发送有关多个项目的信息。 用于发送不常更改的信息。 | 请参阅 [信息源](/help/c-recommendations/c-products/feeds.md). |
 | 实体API | 调用API以发送单个项目的即时更新。 | 用于在每次发生大约一个项目时发送更新。 用于发送频繁更改的信息（例如，价格、库存/库存水平）。 | 请参阅 [实体API开发人员文档](https://developers.adobetarget.com/api/recommendations/#tag/Entities). |
-| 在页面上传递更新 | 使用页面上的JavaScript或使用交付API，发送单个项目的即时更新。 | 用于在每次发生大约一个项目时发送更新。 用于发送频繁更改的信息（例如，价格、库存/库存水平）。 | 请参阅下面的项目查看次数/产品页面。 |
+| 在页面上传递更新 | 使用页面上的JavaScript或使用交付API，发送单个项目的即时更新。 | 用于在每次发生大约一个项目时发送更新。 用于发送频繁更改的信息（例如，价格、库存/库存水平）。 | 请参阅 [项目查看/产品页面](#items-product-pages) 下。 |
 
 大多数客户应至少实施一个信息源。 然后，您可以选择使用实体API或页面内方法，通过经常更改的属性或项目的更新来补充您的信息源。
 
@@ -49,7 +47,7 @@ ht-degree: 37%
 
 您应该传递到的行为信息和上下文 [!DNL Target] 取决于访客正在执行的操作，该操作通常与访客正在交互的页面类型相关联。
 
-### 项目查看/产品页面
+### 项目查看/产品页面 {#items-product-pages}
 
 在访客正在查看单个项目的页面（如产品详细信息页面）上，您应传递访客正在查看的项目的标识。 您还应传递访客正在查看的项目的最精细类别，以允许将推荐过滤到当前类别。
 

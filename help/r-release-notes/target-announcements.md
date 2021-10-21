@@ -4,29 +4,16 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+source-git-commit: fa4dbcf7ac584247f9fb991dfe16b953c273612c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Target 公告和活动
 
 关于即将举办的活动的公告和信息，包括 [!DNL Adobe Target] Skill Builder 讲座、开发人员聊天、网络研讨会和 [!DNL Target] Coffee Break 讲座。
-
-## [!DNL Adobe Target] 社区问答喝咖啡休息时间
-
-* **2021 年 10 月 13 日星期三**
-* **上午 8 点（PDT，UTC -7）**
-* **[单击此处了解更多信息和注册](https://adobe.ly/3CoUIVz)。**
-
-[!DNL Adobe Target] 高级解决方案顾问 Gentry Lin 将解答与其专长领域相关的客户问题：
-
-* 实施
-* 个性化
-* 核心 Web 创作工作流
-* [!DNL Adobe Experience Cloud] 集成
 
 ## 网络研讨会：通过 Adobe Target 的设备上决策进行无延迟的个性化和测试
 

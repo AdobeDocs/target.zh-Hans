@@ -2,12 +2,12 @@
 keywords: 调试 mbox;mbox 故障诊断;mbox 问题;闪烁;mboxDebug;mboxTrace;令牌;调试器;优先级;活动优先级;Adobe Experience Cloud 调试器;orderConfirmPage mbox;SiteCatalyst 购买 mbox;最畅销;最畅销商品
 description: 如果页面未显示预期的内容，可查找建议以帮助解决问题。了解如何在 Adobe Target 中调试内容投放。
 title: 如何为内容投放排除故障？
-feature: 活动
+feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 100%
+source-wordcount: '1628'
+ht-degree: 68%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 * 使用 mboxTrace 或 mboxDebug 为 [!DNL Target] 请求排除故障。
 * 使用 Adobe Experience Cloud Debugger（一个易于使用的工具，它与 mboxDebug 提供几乎相同的信息）为 [!DNL Target] 请求排除故障。
 
-当您在您的页面上设置 [!DNL Target] 以确保 [!DNL Target] 请求正在触发并且正在设置 Cookie 时，mboxDebug 特别有用。但是，在调试内容交付时，mboxDebug 并不会提供有用的详细信息。如果活动未显示在页面上或页面上显示了不需要的内容，请使用 mboxTrace 对页面进行细致的检查和调试。
+在设置 [!DNL Target] ，以确保触发Target请求并设置Cookie。 但是，在调试内容交付时，mboxDebug 并不会提供有用的详细信息。如果活动未显示在页面上或页面上显示了不需要的内容，请使用 mboxTrace 对页面进行细致的检查和调试。
 
 ## 检索要用于调试工具的授权令牌 {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 | mboxTrace 选项 | 结果 |
 |--- |--- |
-| `?mboxTrace=console` | 作为对象打印到控制台日志中。<br>对于 at.js，不会像在 mbox.js 中一样弹出新的浏览器窗口或输出到控制台，而是需要检查网络请求，并在“预览”(Chrome) 或“响应”(Firefox) 下查看。 |
+| `?mboxTrace=console` | 作为对象打印到控制台日志中。<br>对于at.js，不会像在mbox.js中一样弹出新的浏览器窗口或输出到控制台，您而是需要检查网络请求，并在“预览”(Chrome)或“响应”(Firefox)下查看。 |
 | `?mboxTrace=json` | 作为 JSON 文字字符串打印到控制台日志中 |
 | `?mboxTrace=window` | 作为 JSON 字符串打印到弹出窗口中 |
 | `?mboxTrace=disable` | 关闭跟踪会话模式 |
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-输出会显示与您的内容相关的非常详细的信息。mboxTrace 会显示与您的营销活动或活动以及配置文件相关的详细信息。它还提供执行前配置文件的快照，以及执行后所做更改的快照。同时，也显示为各个位置评估了哪些营销活动或活动。
+输出会显示有关您的内容的详细信息。 mboxTrace显示有关您的营销活动或活动及用户档案的详细信息。它还提供了执行前配置文件的快照，以及执行后更改的内容的快照。 同时，也显示为各个位置评估了哪些营销活动或活动。
 
 某些信息包含匹配和不匹配的客户群和定位 ID：
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 您不需要在查询参数中包含 `=console`、`=json` 或 `=window`。完成 mboxTrace 详细信息后，添加 `=disable`，然后按 **[!UICONTROL Enter]** 返回到正常显示模式。
 
-您网站的正常功能和外观不受 mboxTrace 的影响。访客将看到您的常规“推荐”设计。
+您网站的正常功能和外观不受 mboxTrace 的影响。访客可以看到您的常规Recommendations设计。
 
 ## mboxDebug {#mboxdebug}
 
@@ -114,7 +114,7 @@ ht-degree: 100%
 
 有关更多信息，请参阅下面的培训视频：
 
-有关更多详细信息，请参阅[使用 Adobe Experience Cloud Debugger 调试 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)。
+有关更多详细信息，请参阅 [使用Adobe Experience Cloud调试器调试at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## 推荐中未显示最畅销商品 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -132,11 +132,11 @@ Target 不再支持 IE 8。
 
 如果您的网站具有一个子域（例如 [!DNL us.domain.com]），但您需要在 [!DNL domain.com]（而不是 [!DNL us.domain.com]）上设置 Target Cookie，则必须覆盖 `cookieDomain` 设置。有关更多信息，请参阅 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 
-## 如果某个元素也是 AEM 个性化的一部分，则 Target 内容会闪烁或无法显示。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## 如果某个元素同时也是Adobe Experience Manager个性化的一部分，则Target内容会闪烁或无法显示。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
 如果某个 DOM 元素是 Adobe Experience Manager (AEM) 个性化定位和 Target 活动的一部分，则 Target 内容可能会闪烁或无法显示。
 
-要修复此问题，您可以在运行 Target 的页面上禁用 AEM 个性化。
+要解决此问题，您可以在运行Target的页面上禁用AEM个性化。
 
 ## 由于 URL 无效，无法交付重定向选件和远程选件。 {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -150,9 +150,45 @@ Target 不再支持 IE 8。
 
 可在浏览器中或使用 mboxTrace 检查 [!DNL Target] 响应。有关有效 URL 的更多信息，请参阅 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66)。
 
-## 我的网站上不触发 Target 请求。
+## [!DNL Target]我的网站上不触发 请求。
 
 如果所使用的 doctype 无效，则 at.js 不触发 Target 请求。at.js 需要 HTML 5 doctype。
+
+## 确保 [!DNL Target] 活动通过查询字符串参数正确处理URL {#query-strings}
+
+的 [!UICONTROL 活动URL] 确定符合活动访客条件并向用户呈现活动体验的页面。 在活动创建过程中，如果出现提示，键入完整的URL并不总能确保内容是在该网站页面上交付的，尤其是包含查询字符串参数的URL。
+
+默认情况下， [!UICONTROL 可视化体验编辑器] (VEC)打开您的 [可视化体验编辑器设置](/help/administrating-target/visual-experience-composer-set-up.md). 您还可以在活动创建期间指定其他页面。
+
+要在VEC打开后显示其他页面，请单击 **[!UICONTROL 配置齿轮图标]** >选择 **[!UICONTROL 页面交付]** > ，然后在 [!UICONTROL 活动URL] 字段。
+
+![配置页面交付设置UI](assets/configure-page-delivery.png)
+
+但是，如果URL包含查询字符串参数，该怎么办？ 它是否有效并显示个性化内容？ 在此方案中，无论您的目标受众是什么，您都可以在基本URL之外还包含模板规则来定义查询参数。
+
+以下选项可用于包含其他模板规则：
+
+### 选项1:复制URL并将其保留在模板规则中，并使用“包含”选项。
+
+此选项可确保此URL符合活动条件，但请注意，其中附加了一些可能影响报表数据的拐角案例，这些案例会向包含基本URL的URL添加其他记录。
+
+在此方案中，URL为 `https://shopping.mycart.com?type=Summers%20Offers` 和其他模板规则“包含”相同的URL（由OR运算符分隔）：
+
+![在模板规则中复制URL](assets/option1.png)
+
+### 选项2:限制仅包含查询字符串的URL“包含”条件。
+
+此选项中将应用上一个选项中讨论的拐角大小写，但此处的条件设置仅限于查询字符串。
+
+在此方案中，URL为 `https://shopping.mycart.com?type=Summers%20Offers` 和其他模板规则“包含”的“仅”查询字符串，并使用OR运算符分隔：
+
+![模板规则仅包含查询字符串](assets/option2.png)
+
+### 选项3:利用URL的特定部分，而不是定位完整的URL。
+
+在此方案中，URL为 `https://shopping.mycart.com?type=Summers%20Offers` 和其他模板规则指定 [!UICONTROL 查询] with [!UICONTROL type] > [!UICONTROL 为（区分大小写）] > type=Summers%20Offers，由OR运算符分隔：
+
+![利用URL特定部分的模板规则](assets/option3.png)
 
 ## 培训视频
 

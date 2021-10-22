@@ -4,7 +4,7 @@ description: 如果页面未显示预期的内容，可查找建议以帮助解�
 title: 如何为内容投放排除故障？
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 68%
@@ -154,7 +154,7 @@ Target 不再支持 IE 8。
 
 如果所使用的 doctype 无效，则 at.js 不触发 Target 请求。at.js 需要 HTML 5 doctype。
 
-## 确保 [!DNL Target] 活动通过查询字符串参数正确处理URL {#query-strings}
+## 确保 [!DNL Target] 活动可正确处理包含查询字符串参数的URL。 {#query-strings}
 
 的 [!UICONTROL 活动URL] 确定符合活动访客条件并向用户呈现活动体验的页面。 在活动创建过程中，如果出现提示，键入完整的URL并不总能确保内容是在该网站页面上交付的，尤其是包含查询字符串参数的URL。
 

@@ -4,7 +4,7 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括什么新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8a011f9076cd4d5041fa17485441c83de43581e5
+source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 53%
@@ -25,7 +25,7 @@ ht-degree: 53%
 >
 >请迁移到新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 库的最新版本，以避免您的网站出现任何潜在问题。有关更多信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
-## [!DNL Target Standard/Premium] 21.10.5（2021年10月26日）
+## [!DNL Target Standard/Premium] 21.10.5（2021年10月28日）
 
 此维护版本包含以下增强功能：
 

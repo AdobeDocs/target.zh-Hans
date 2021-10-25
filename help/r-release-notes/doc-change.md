@@ -4,9 +4,9 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
 workflow-type: tm+mt
-source-wordcount: '2848'
+source-wordcount: '2859'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 10 月 25 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 21.10.5版本（2021年10月26日）。 |
 | 10 月 22 日 | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 添加了以下部分：<ul><li>确保 [!DNL Target] 活动通过查询字符串参数正确处理URL</li></ul> |
 | 10 月 21 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答时间（2021年11月10日）</li><li>[!DNL Adobe Target] 社区问答型咖啡时间（2021年12月8日）</li></ul> |
 | 10 月 20 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 21.10.4版本（2021年10月21日）。 |

@@ -4,10 +4,10 @@ description: 浏览Adobe Target可视化体验编辑器(VEC)中提供的选项�
 title: 如何使用可视化体验编辑器(VEC)选项？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 3779c64b5e09accda3063548d29d9d3a0c339ed6
+source-git-commit: 823694603c0248316e471f0b15070c0a34356620
 workflow-type: tm+mt
-source-wordcount: '2608'
-ht-degree: 76%
+source-wordcount: '2626'
+ht-degree: 71%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 76%
 >
 >可用选项取决于所编辑的活动类型。
 
-### 编辑
+### [!UICONTROL 编辑]
 
 以下选项可供选择：
 
-#### 文本/HTML {#edit-text-html}
+#### [!UICONTROL 文本/HTML] {#edit-text-html}
 
 更改元素的 HTML 代码，例如文本区域、按钮或链接的文本。
 
@@ -46,13 +46,13 @@ ht-degree: 76%
 | `<del>` | `<ul>`、`<ol>`、`<menu>`、`<h1-h6>`、`<p>` |
 | `<label>` | `<p>` |
 
-#### 背景颜色
+#### [!UICONTROL 背景颜色]
 
 使用拾色器选择或配置背景颜色。您可以选择一个色样，并使用 RGB 值或十六进制颜色代码对其进行调整。拾色器中的红色 x 可使背景透明。
 
 **注意：**&#x200B;此选项不适用于已设置背景图像的元素。
 
-#### 样式 {#styles}
+#### [!UICONTROL 样式] {#styles}
 
 使用[!UICONTROL 样式]面板可查看或编辑所选元素现有样式的值。您还可以添加其他样式。
 
@@ -72,7 +72,7 @@ ht-degree: 76%
 >
 >布局更改、背景颜色、调整大小和移动的快速操作也可在 VEC 菜单中作为单独的操作使用。这些选项可用作单独的操作，您也可以使用“样式”菜单，如下所述。
 
-* **背景**
+* **[!UICONTROL 背景]**
 
    更改背景颜色和图像。
 
@@ -86,7 +86,7 @@ ht-degree: 76%
       * 单击顶部的下拉列表以选择 border-box、padding-box、content-box 或 text
       * 单击底部的下拉列表以选择自动音频或音频
 
-* **排版规则**
+* **[!UICONTROL 排版规则]**
 
    更改元素的排版规则。排版规则编辑既快速又简便。
 
@@ -94,28 +94,28 @@ ht-degree: 76%
 
    您可以编辑以下排版样式：
 
-   * 字体大小
-   * 字体粗细
-   * 字体样式
-   * 颜色（指定颜色代码或使用拾色器）
-   * 字间距
-   * 行高
-   * 文本对齐方式
+   * [!UICONTROL 字体大小]
+   * [!UICONTROL 字体粗细]
+   * [!UICONTROL 字体样式]
+   * [!UICONTROL 颜色] （指定颜色代码或使用拾色器）
+   * [!UICONTROL 字间距]
+   * [!UICONTROL 行高]
+   * [!UICONTROL 文本对齐方式]
 
-* **边距**
+* **[!UICONTROL 边距]**
 
    更改所选元素的边距。您可以更改左边距、右边距、下边距和上边距。
 
    单击每个边距的下拉图标，从以下选项中进行选择：
 
-   * 自动
-   * 值（拖动滑块以设置边距或指定每个边距的像素数）
+   * [!UICONTROL 自动]
+   * [!UICONTROL 值] （拖动滑块以设置边距或指定每个边距的像素数）
 
    边距支持正值和负值。
 
    Target还支持其他大小单位，如rem、pc、em。 有关这些单位的详细信息，请参阅 [网页样式表CSS提示和技巧](https://www.w3.org/Style/Examples/007/units.en.html).
 
-* **内边距**
+* **[!UICONTROL 内边距]**
 
    更改所选元素的内边距。您可以更改左内边距、右内边距、下内边距和上内边距。
 
@@ -125,65 +125,66 @@ ht-degree: 76%
 
    Target还支持 [其他大小单位](https://www.w3.org/Style/Examples/007/units.en.html)，例如rem、pc、em。
 
-* **边框**
+* **[!UICONTROL 边框]**
 
    单击面板顶部的边框图标可更改所选元素的边框。
 
    您可以编辑每个边框的以下样式（上边框、右边框、下边框和左边框）：
 
-   * 边框样式（无、隐藏、点线、虚线、实线或双线）
-   * 边框颜色（指定颜色代码或使用拾色器）
-   * 边框宽度（拖动滑块以选择边框宽度或以像素为单位指定宽度）
+   * [!UICONTROL 边框样式] （无、隐藏、点线、虚线、实线或双线）
+   * [!UICONTROL 边框颜色] （指定颜色代码或使用拾色器）
+   * [!UICONTROL 边框宽度] （拖动滑块以选择边框宽度或以像素为单位指定宽度）
 
    边框支持的宽度范围从 0 开始。
 
    Target还支持 [其他大小单位](https://www.w3.org/Style/Examples/007/units.en.html)，例如rem、pc、em。
 
-* **位置**
+* **[!UICONTROL 位置]**
 
    将所选元素从当前位置移动。您可以更改元素的顶部、底部、左侧、右侧和 [Z指数](https://www.w3schools.com/cssref/pr_pos_z-index.asp) 位置。
 
    单击[!UICONTROL 静态]下拉列表，从以下位置选项中进行选择：
 
-   * 静态
-   * 相对
-   * 绝对
-   * 置顶
-   * 固定
+   * [!UICONTROL 静态]
+   * [!UICONTROL 相对]
+   * [!UICONTROL 绝对]
+   * [!UICONTROL 置顶]
+   * [!UICONTROL 固定]
 
    单击每个位置的下拉图标，从以下选项中进行选择：
 
-   * 自动
-   * 值（拖动滑块以定位元素或指定要移动元素的像素数）
+   * [!UICONTROL 自动]
+   * [!UICONTROL 值] （拖动滑块以定位元素或指定要移动元素的像素数）
 
    位置支持正值和负值。
 
    Target还支持 [其他大小单位](https://www.w3.org/Style/Examples/007/units.en.html)，例如rem、pc、em。
 
-* **大小**
+* **[!UICONTROL 大小]**
 
    更改所选元素的宽度和高度。
 
    单击[!UICONTROL 宽度]和[!UICONTROL 高度]旁边的下拉图标，从以下选项中进行选择：
 
-   * 自动
-   * 值（拖动滑块以调整元素的大小或指定每个维度的像素数）
+   * [!UICONTROL 自动]
+   * [!UICONTROL 值] （拖动滑块以调整元素大小或指定每个维度的像素数）
 
-* **过滤器**
+* **[!UICONTROL 过滤器]**
 
    拖动每个筛选器选项的滑块或指定所需的百分比：
 
-   * 棕褐色
-   * 对比度
-   * 亮度
-   * 灰度
-   * 模糊
-   * 不透明度
-   * 反转
-   * 色相旋转
-   * 饱和度
+   * [!UICONTROL 棕褐色]
+   * [!UICONTROL 对比度]
+   * [!UICONTROL 亮度]
+   * [!UICONTROL 灰度]
+   * [!UICONTROL 模糊]
+   * [!UICONTROL 不透明度]
+   * [!UICONTROL 反转]
+*
+[!UICONTROL  色相旋转]
+   * [!UICONTROL 饱和度]
 
-* **CSS 编辑器**
+* **[!UICONTROL CSS 编辑器]**
 
    如果您习惯使用层叠样式表 (CSS)，或者从开发人员那里接收代码，则可以使用实时 CSS 编辑器查看更改并添加样式。
 
@@ -201,23 +202,23 @@ ht-degree: 76%
    >
    >您可以使用 CSS 编辑器来应用背景图像，但可能会导致闪烁。请在部署之前测试您的更改。
 
-#### CSS 类
+#### [!UICONTROL CSS 类]
 
 指定用于元素的预定义 CSS 类。如果选择多个元素，请用空格分隔多个 CSS 类。
 
 其可用于 [!UICONTROL A/B]、[!UICONTROL 自动个性化]和[!UICONTROL 多变量测试]活动。
 
-#### 链接
+#### [!UICONTROL 链接]
 
 更改链接中的 URL。
 
 使用编辑链接来更新选择器，以指向相同的图像元素。但是，不支持链接到不同的图像元素。要链接到不同的图像元素，请从代码编辑器中删除原始操作，并使用[!UICONTROL 可视化体验编辑器]将该操作应用于其他图像元素。
 
-### 此项前插入
+### [!UICONTROL 此项前插入]
 
 以下选项可供选择：
 
-#### 图像、HTML 和文本
+#### [!UICONTROL 图像], [!UICONTROL HTML]和 [!UICONTROL 文本]
 
 除了修改现有的内容之外，还可以向页面添加任何类型的元素。可添加文本、代码、列表等，以创建完全不同的体验来进行测试。
 
@@ -233,15 +234,15 @@ ht-degree: 76%
 
 将推荐包含到 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中。有关更多信息，请参阅[将推荐作为选件](/help/c-recommendations/recommendations-as-an-offer.md)。
 
-#### 体验片段
+#### [!UICONTROL 体验片段]
 
 将在 [!DNL Adobe Experience Manager] (AEM) 中创建的体验片段插入 [!DNL Target] 活动，以协助优化或进行个性化处理。有关更多信息，请参阅 [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)。
 
-### 此项后插入
+### [!UICONTROL 此项后插入]
 
 以下选项可供选择：
 
-#### 图像、HTML 和文本
+#### [!UICONTROL 图像], [!UICONTROL HTML]和 [!UICONTROL 文本]
 
 除了修改现有的内容之外，还可以向页面添加任何类型的元素。可添加文本、代码、列表等，以创建完全不同的体验来进行测试。
 
@@ -257,15 +258,15 @@ ht-degree: 76%
 
 将推荐包含到 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中。有关更多信息，请参阅[将推荐作为选件](/help/c-recommendations/recommendations-as-an-offer.md)。
 
-#### 体验片段
+#### [!UICONTROL 体验片段]
 
 将在 [!DNL Adobe Experience Manager] (AEM) 中创建的体验片段插入 [!DNL Target] 活动，以协助优化或进行个性化处理。有关更多信息，请参阅 [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)。
 
-### 替换为
+### [!UICONTROL 替换为]
 
 以下选项可供选择：
 
-#### 图像
+#### [!UICONTROL 图像]
 
 从内容库中选择一个不同的图像。可用于交换的图像包括上传到 Experience Cloud 资产文件夹和上传到 Target 内容库的图像。
 
@@ -283,7 +284,7 @@ ht-degree: 76%
 
 **注意：**&#x200B;交换图像要求使用 Adobe Scene7 Publishing System 帐户。
 
-#### HTML 选件
+#### [!UICONTROL HTML 选件]
 
 从[!UICONTROL 内容库]中选择一个不同的选件。
 
@@ -295,51 +296,51 @@ HTML选件最多可达256 KB。
 
 将推荐包含到 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中。有关更多信息，请参阅[将推荐作为选件](/help/c-recommendations/recommendations-as-an-offer.md)。
 
-#### 体验片段
+#### [!UICONTROL 体验片段]
 
 将在 [!DNL Adobe Experience Manager] (AEM) 中创建的体验片段插入 [!DNL Target] 活动，以协助优化或进行个性化处理。有关更多信息，请参阅 [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)。
 
-### 版式
+### [!UICONTROL 版式]
 
 以下选项可供选择：
 
-#### 重新排列
+#### [!UICONTROL 重新排列]
 
 在元素拖放到同一父元素或 DIV 内的其他位置。需要移动其他元素的位置以为重新排列的元素腾出空间。
 
 **注意：**&#x200B;点击跟踪对重新排列的元素无效。
 
-#### 调整大小
+#### [!UICONTROL 调整大小]
 
 调整页面上的元素大小。选择 [!UICONTROL 调整大小]，则元素的右下角会显示一个手柄，通过该手柄可拖动该角以调整大小。 按住 Shift 键保持相同的宽高比。
 
 **注意：**&#x200B;无法调整内联元素的大小。
 
-#### 移动 {#move}
+#### [!UICONTROL 移动] {#move}
 
 移动页面上的元素。与“[!UICONTROL 重新排列]”选项不同，“[!UICONTROL 移动]”选项不会移动其他元素来为正在移动的元素腾出空间。可使用箭头键来微调移动。(计划中的增强功能：支持确保移动的元素不会隐藏在其他元素之后。)
 
 在某些情况下，例如，当CSS限制要求将元素保留在其父元素内时，您不能将该元素移到其父元素之外。 无法将元素移动到具有以下 CSS 属性的容器之外：`overflow: hidden`。
 
-#### 隐藏
+#### [!UICONTROL 隐藏]
 
 隐藏元素。保留空格但会删除内容。
 
-#### 删除
+#### [!UICONTROL 删除]
 
 删除元素。删除图像后面的空格，并且折叠元素所在的空间。
 
 **注意：**&#x200B;使用此选项无法删除“classic”mbox（Target Classic 促销活动中创建的一个 mbox）中的项目。
 
-### 展开选定内容
+### [!UICONTROL 展开选定内容]
 
 除了最初选定的元素外，还需要选择父元素。选择任意父元素时，该元素的所有子元素均会自动选定。您可以多次展开选定内容。
 
-### 导航到链接
+### [!UICONTROL 导航到链接]
 
 打开链接的目标。
 
-### 撤消/重做
+### [!UICONTROL 撤消]/[!UICONTROL 重做]
 
 在编辑会话期间撤消对活动所做的更改。您也可以重做先前已撤消的更改。
 
@@ -357,14 +358,21 @@ VEC支持 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Component
 >
 >当前不支持对自定义元素的VEC支持 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
-自定义事件和自定义事件中支持大多数VEC操作。 以下操作不可用：
+自定义事件和自定义事件中支持大多数VEC操作，但有以下例外：
 
-* 编辑
-   * 文本/HTML
-   * 链接
-   * 编辑源
+以下操作在自定义元素上不可用：
 
-* 替换内容
+* [!UICONTROL 编辑]
+   * [!UICONTROL 文本/HTML]
+   * [!UICONTROL 链接]
+   * [!UICONTROL 编辑源]
+
+* [!UICONTROL 替换内容]
+
+自定义元素中不提供以下操作：
+
+* [!UICONTROL 版式]
+   * [!UICONTROL 重新排列]
 
 ## 使用 DOM 路径浏览元素 {#dom-path}
 

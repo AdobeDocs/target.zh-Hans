@@ -1,20 +1,19 @@
 ---
-keywords: 可视化体验编辑器选项;体验编辑器选项;体验选项;编辑文本;编辑 html;编辑文本/html;编辑背景颜色;背景颜色;插入元素;编辑链接;链接;可视化体验编辑器链接;编辑 css 类;css 类;交换选件;选件交换;交换图像;图像交换;删除项目;项目删除;隐藏项目;项目隐藏;重新排列;移动元素;元素移动;调整元素大小;元素大小调整;元素;展开选定内容;导航到此链接;导航链接;链接导航;导航;撤消;重做;撤消/重做
-description: 浏览Adobe Target可视化体验书写器(VEC)中提供的选项。 只需单击某个元素，即可查看该元素有哪些可用选项。
-title: 如何使用可视体验书写器(VEC)选项？
+keywords: 可视化体验编辑器选项；体验编辑器选项；编辑文本；编辑HTML；编辑文本/HTML；编辑背景颜色；插入元素；编辑链接；链接；可视化体验编辑器链接；编辑CSS类；CSS类；交换选件；交换图像；交换图像；移动项目；删除项目；隐藏项目；隐藏项目；重新排列；移动元素；调整元素大小；元素；展开选择；导航到此链接；链接；导航；撤消；重做/重做；Web组件
+description: 浏览Adobe Target可视化体验编辑器(VEC)中提供的选项。 只需单击某个元素，即可查看该元素可用的选项。
+title: 如何使用可视化体验编辑器(VEC)选项？
 feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
+source-git-commit: 3779c64b5e09accda3063548d29d9d3a0c339ed6
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 93%
+source-wordcount: '2608'
+ht-degree: 76%
 
 ---
 
-
 # 可视化体验编辑器选项
 
-单击[!DNL Adobe Target] [!UICONTROL 可视体验书写器](VEC)中的页面元素时，将显示可用于该元素类型的选项。 此外，页面底部会显示一个 DOM 路径，可让您轻松浏览页面结构。
+单击 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)，会显示一个菜单，其中提供了可用于该元素类型的选项。 此外，页面底部会显示一个 DOM 路径，可让您轻松浏览页面结构。
 
 ## VEC 选项
 
@@ -57,21 +56,21 @@ ht-degree: 93%
 
 使用[!UICONTROL 样式]面板可查看或编辑所选元素现有样式的值。您还可以添加其他样式。
 
-要访问[!UICONTROL Styles]面板，请单击VEC中的页面元素，然后单击&#x200B;**[!UICONTROL 编辑]** > **[!UICONTROL 样式]**。
+访问 [!UICONTROL 样式] 面板中，单击VEC中的某个页面元素，然后单击 **[!UICONTROL 编辑]** > **[!UICONTROL 样式]**.
 
 [!UICONTROL 样式]面板将显示在 VEC 的右侧。该面板包括一个样式列表，允许您编辑样式或将其添加到所选元素。如果您习惯使用层叠样式表 (CSS)，或者从开发人员那里接收代码，则可以使用实时 CSS 编辑器查看更改并添加样式。
 
 ![“样式”面板](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-应用不同的样式时，您始终可以在对任意部分进行更改后，通过单击[!UICONTROL 样式]面板右上角显示的[!UICONTROL 还原]图标还原您所做的更改。请注意，单击[!UICONTROL 还原]图标将还原在当前部分的面板上所做的所有更改。
+应用不同的样式时，您始终可以通过单击 [!UICONTROL 还原] 图标(位于 [!UICONTROL 样式] 面板。 单击 [!UICONTROL 还原] 图标会还原当前部分面板上的所有更改。
 
 展开每个部分以编辑或添加样式，具体如下文中所述。要保存更改，请单击面板顶部的“返回”图标以返回到面板的主显示屏，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-请注意，主面板上以及各个部分面板上每个选项旁边的蓝色圆点所表示的意思是，您已经对相应的样式进行了更改。这样，您就可以在单击[!UICONTROL 保存]之前轻松查看更改。
+主面板上以及各个部分面板上每个选项旁边的蓝色圆点表示您更改了相应的样式。 通过此可视指示器，您可以轻松地在单击 [!UICONTROL 保存].
 
 >[!NOTE]
 >
->布局更改、背景颜色、调整大小和移动的快速操作也可在 VEC 菜单中作为单独的操作使用。这些选项可以作为单独的操作使用，您也可以使用“样式”菜单，具体如下文中所述。
+>布局更改、背景颜色、调整大小和移动的快速操作也可在 VEC 菜单中作为单独的操作使用。这些选项可用作单独的操作，您也可以使用“样式”菜单，如下所述。
 
 * **背景**
 
@@ -91,7 +90,7 @@ ht-degree: 93%
 
    更改元素的排版规则。排版规则编辑既快速又简便。
 
-   尽管可以使用富文本编辑器（编辑文本/HTML）进行微调，但可通过此选项快速执行对整个元素进行更改的操作。如果要仅对部分文本（而非全文）应用排版规则更改，请使用[富文本编辑器](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)。
+   尽管富文本编辑器(编辑文本/HTML)可供微调，但可通过此选项快速执行更改整个元素的操作。 如果要仅对部分文本（而非全文）应用排版规则更改，请使用[富文本编辑器](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)。
 
    您可以编辑以下排版样式：
 
@@ -114,7 +113,7 @@ ht-degree: 93%
 
    边距支持正值和负值。
 
-   Target 还支持其他大小单位，例如 rem、pc、em 等。有关这些单元的详细信息，请参阅[Web样式表CSS提示与技巧](https://www.w3.org/Style/Examples/007/units.en.html)。
+   Target还支持其他大小单位，如rem、pc、em。 有关这些单位的详细信息，请参阅 [网页样式表CSS提示和技巧](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **内边距**
 
@@ -124,7 +123,7 @@ ht-degree: 93%
 
    内边距支持的宽度范围从 0 开始。
 
-   目标还支持[其他大小单位](https://www.w3.org/Style/Examples/007/units.en.html)，如rem、pc、em等。
+   Target还支持 [其他大小单位](https://www.w3.org/Style/Examples/007/units.en.html)，例如rem、pc、em。
 
 * **边框**
 
@@ -138,11 +137,11 @@ ht-degree: 93%
 
    边框支持的宽度范围从 0 开始。
 
-   目标还支持[其他大小单位](https://www.w3.org/Style/Examples/007/units.en.html)，如rem、pc、em等。
+   Target还支持 [其他大小单位](https://www.w3.org/Style/Examples/007/units.en.html)，例如rem、pc、em。
 
 * **位置**
 
-   将所选元素从当前位置移动。可以更改元素的顶部、底部、左侧、右侧和[Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)位置。
+   将所选元素从当前位置移动。您可以更改元素的顶部、底部、左侧、右侧和 [Z指数](https://www.w3schools.com/cssref/pr_pos_z-index.asp) 位置。
 
    单击[!UICONTROL 静态]下拉列表，从以下位置选项中进行选择：
 
@@ -159,7 +158,7 @@ ht-degree: 93%
 
    位置支持正值和负值。
 
-   目标还支持[其他大小单位](https://www.w3.org/Style/Examples/007/units.en.html)，如rem、pc、em等。
+   Target还支持 [其他大小单位](https://www.w3.org/Style/Examples/007/units.en.html)，例如rem、pc、em。
 
 * **大小**
 
@@ -192,11 +191,11 @@ ht-degree: 93%
 
    ![包含更改的 CSS 编辑器](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-   请注意上图中[!UICONTROL 排版规则]、[!UICONTROL 边框]和 [!UICONTROL 大小]选项旁边的蓝色圆点。这些圆点表示您已对这些部分进行了更改。如果打开这些部分的面板，则蓝色圆点将显示在您更改的特定选项旁边。
+   请注意上图中[!UICONTROL 排版规则]、[!UICONTROL 边框]和 [!UICONTROL 大小]选项旁边的蓝色圆点。这些圆点表示您已更改了这些部分。 如果打开这些部分的面板，则蓝色圆点将显示在您更改的特定选项旁边。
 
    如果[!UICONTROL 样式]中默认未提供所需的样式，则可以键入自己的代码。
 
-   请注意，CSS 编辑器仅显示当前会话的详细信息。如果保存更改后重新打开编辑器，那么即使再次选择相同的元素，编辑器中也不会显示有关先前更改的详细信息。
+   CSS编辑器仅显示当前会话的详细信息。 如果保存更改后重新打开编辑器，那么即使再次选择相同的元素，编辑器中也不会显示有关先前更改的详细信息。
 
    >[!IMPORTANT]
    >
@@ -290,7 +289,7 @@ ht-degree: 93%
 
 **注意：**[!DNL Target]HTML 选件存储在 服务器上。
 
-HTML 选件的大小最多可达 256KB。
+HTML选件最多可达256 KB。
 
 #### 推荐
 
@@ -312,15 +311,15 @@ HTML 选件的大小最多可达 256KB。
 
 #### 调整大小
 
-调整页面上的元素大小。当您选择[!UICONTROL 调整大小]时，在元素的右下角会显示一个控柄，可通过它来拖动该角以进行大小调整。按住 Shift 键保持相同的宽高比。
+调整页面上的元素大小。选择 [!UICONTROL 调整大小]，则元素的右下角会显示一个手柄，通过该手柄可拖动该角以调整大小。 按住 Shift 键保持相同的宽高比。
 
 **注意：**&#x200B;无法调整内联元素的大小。
 
-#### 移动  {#move}
+#### 移动 {#move}
 
-移动页面上的元素。与“[!UICONTROL 重新排列]”选项不同，“[!UICONTROL 移动]”选项不会移动其他元素来为正在移动的元素腾出空间。可使用箭头键来微调移动。（计划的增强功能：提供相关支持以确保所移动的元素不会隐藏在其他元素后面。）
+移动页面上的元素。与“[!UICONTROL 重新排列]”选项不同，“[!UICONTROL 移动]”选项不会移动其他元素来为正在移动的元素腾出空间。可使用箭头键来微调移动。(计划中的增强功能：支持确保移动的元素不会隐藏在其他元素之后。)
 
-在某些情况下，如 CSS 限制要求将元素保留在其父元素内时，您不能将该元素移到其父元素之外。无法将元素移动到具有以下 CSS 属性的容器之外：`overflow: hidden`。
+在某些情况下，例如，当CSS限制要求将元素保留在其父元素内时，您不能将该元素移到其父元素之外。 无法将元素移动到具有以下 CSS 属性的容器之外：`overflow: hidden`。
 
 #### 隐藏
 
@@ -347,6 +346,25 @@ HTML 选件的大小最多可达 256KB。
 ## 注意事项 {#considerations}
 
 * 如果选件包含 HTML 内容，请参阅 [at.js 工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render)中的“at.js 如何渲染包含 HTML 内容的选件”了解更多信息。
+
+## 自定义元素支持（2021年10月26日发布） {#custom}
+
+VEC支持 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components) 用于根据自定义元素和自定义元素中的元素创建和测试个性化体验和选件。 VEC中提供了此功能，适用于所有人 [!DNL Target] 活动类型。
+
+>[!NOTE]
+>
+>支持对自定义元素的VEC支持 [at.js版本](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 2.7.0（或更高版本）。 确保您的网站已部署所需版本。 如果您使用 [可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，则还必须部署所需版本的at.js。 上述VEC选项不可见，可用于不受支持的at.js版本。
+>
+>当前不支持对自定义元素的VEC支持 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+
+自定义事件和自定义事件中支持大多数VEC操作。 以下操作不可用：
+
+* 编辑
+   * 文本/HTML
+   * 链接
+   * 编辑源
+
+* 替换内容
 
 ## 使用 DOM 路径浏览元素 {#dom-path}
 

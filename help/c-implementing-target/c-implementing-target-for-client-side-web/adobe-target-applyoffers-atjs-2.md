@@ -1,14 +1,14 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;申请选件;at.js;函数;函数
-description: 使用Adobe [!DNL Target] at.js JavaScript库的adobe.target.applyOffers()函数，在响应中应用多个选件。 (at.js 2.x)
+description: 使用adobe.target.applyOffers()函数进行Adobe [!DNL Target] at.js JavaScript库来在响应中应用多个选件。 (at.js 2.x)
 title: 如何使用adobe.target.applyOffers()函数？
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: f057df3b20325c04e29f55a90e03934a9343a254
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 93%
+source-wordcount: '836'
+ht-degree: 88%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 93%
 
 | 键值 | 类型 | 必需？ | 描述 |
 | --- | --- | --- | --- |
-| selector | 字符串 | 否 | HTML 元素或 CSS 选择器，用于标识 [!DNL Target] 应将选件内容放置在其中的 HTML 元素。如果未提供选择器，则[!DNL Target]会假定要使用的HTML元素是HTMLHEAD。 |
+| selector | 字符串 | 否 | HTML 元素或 CSS 选择器，用于标识 [!DNL Target] 应将选件内容放置在其中的 HTML 元素。如果未提供选择器， [!DNL Target] 假定要使用的HTML元素是HTMLHEAD。 |
 | 响应 | 对象 | 是 | 来自 `getOffers()` 的响应对象。<br>请参阅下文的“请求”表。 |
 
 ## 响应
 
 >[!NOTE]
 >
->有关下面列出的所有字段可接受类型的信息，请参阅[交付API文档](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)。
+>请查阅 [交付API文档](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) 有关下面列出的所有字段可接受类型的信息。
 
 | 字段名称 | 描述 |
 | --- | --- |
@@ -108,7 +108,7 @@ adobe.target.applyOffers({response:{
 }});
 ```
 
-## 使用 `getOffers()` 和 `applyOffers()` 链接的示例 Promise 调用，因为这些函数基于 Promise
+## 使用链接的示例Promise调用 `getOffers()` 和 `applyOffers()`，因为这些函数基于Promise
 
 ```javascript
 adobe.target.getOffers({...})
@@ -116,3 +116,22 @@ adobe.target.getOffers({...})
 .then(() => console.log("Success"))
 .catch(error => console.log("Error", error));
 ```
+
+有关如何使用getOffers()的更多示例，请参阅getOffers [文档](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html)
+
+### 页面加载请求示例
+
+
+```javascript
+adobe.target.getOffers({
+    request: {
+        execute: {
+            pageLoad: {}
+        }
+    }
+}).
+then(response => adobe.target.applyOffers({ response: response }))
+.then(() => console.log("Success"))
+.catch(error => console.log("Error", error));
+```
+

@@ -1,22 +1,22 @@
 ---
 keywords: 客户关怀；CNAME；证书程序；规范名称；Cookie；证书；AMC;Adobe托管证书；Digicert；域控制验证；DCV
-description: 与Adobe客户关怀团队合作，在Adobe中实施CNAME（规范名称）支持 [!DNL Target] 以处理广告拦截问题。
+description: 使用 [!DNL Adobe] Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target] 以处理广告拦截问题。
 title: 如何在Target中使用CNAME?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: e51c7805939e8bf32d7f358036c9070931580187
+source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
 
-# CNAME和Target
+# CNAME 和 [!DNL Target]
 
 使用说明 [!DNL Adobe] 客户关怀团队，在中实施CNAME（规范名称）支持 [!DNL Adobe Target]. 使用CNAME处理广告拦截问题或与ITP相关（智能防跟踪）Cookie策略。 通过CNAME，会调用客户拥有的域，而不是客户拥有的域 [!DNL Adobe].
 
-## 在Target中请求CNAME支持
+## 在中请求CNAME支持 [!DNL Target]
 
 1. 确定您的SSL证书所需的主机名列表（请参阅下面的常见问题解答）。
 
@@ -30,13 +30,13 @@ ht-degree: 1%
 
    >[!IMPORTANT]
    >
-   >Adobe的证书颁发机构DigiCert在此步骤完成之前无法颁发证书。 因此， [!DNL Adobe] 在此步骤完成之前，无法完成您对CNAME实施的请求。
+   >[!DNL Adobe]的证书颁发机构DigiCert在此步骤完成之前无法颁发证书。 因此， [!DNL Adobe] 在此步骤完成之前，无法完成您对CNAME实施的请求。
 
-1. [填好这张表](/help/assets/FPC_Request_Form.xlsx) 在您 [打开Adobe客户关怀票证，请求CNAME支持](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [填好这张表](/help/assets/FPC_Request_Form.xlsx) 在您 [打开 [!DNL Adobe] 客户关怀票证，请求CNAME支持](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
-   * Adobe [!DNL Target] 客户端代码：
+   * [!DNL Adobe Target] client code:
    * SSL证书主机名(示例： `target.example.com target.example.org`):
-   * SSL证书购买者(强烈建议购买Adobe，请参阅常见问题解答):Adobe/客户
+   * SSL证书购买者([!DNL Adobe] 强烈建议，请参阅常见问题解答):Adobe/客户
    * 如果客户购买的证书也称为“自带证书”(BYOC)，请填写以下附加详细信息：
       * 证书组织(示例：Example Company Inc):
       * 证书组织单位(可选，示例：营销):
@@ -44,7 +44,7 @@ ht-degree: 1%
       * 证书状态/区域(示例：加州):
       * 证书城市(示例：圣何塞):
 
-1. 如果 [!DNL Adobe] 购买证书， [!DNL Adobe] 与DigiCert合作，在Adobe的生产服务器上购买并部署您的证书。
+1. 如果 [!DNL Adobe] 购买证书， [!DNL Adobe] 与DigiCert合作，在 [!DNL Adobe]的生产服务器。
 
    如果客户购买证书(BYOC), [!DNL Adobe] 客户关怀团队会向您发送证书签名请求(CSR)。 通过您选择的证书颁发机构购买证书时，请使用CSR。 证书签发后，将证书副本和任何中间证书发送至 [!DNL Adobe] 客户关怀团队进行部署。
 
@@ -66,13 +66,13 @@ ht-degree: 1%
 
 ### 新SSL证书过期多长时间？
 
-所有Adobe购买的证书的有效期为一年。 请参阅 [Digicert关于1年证书的文章](https://www.digicert.com/blog/position-on-1-year-certificates) 以了解更多信息。
+全部 [!DNL Adobe] — 购买的证书有效期为一年。 请参阅 [Digicert关于1年证书的文章](https://www.digicert.com/blog/position-on-1-year-certificates) 以了解更多信息。
 
 ### 我应选择哪些主机名？ 我应选择每个域的主机名数量？
 
-[!DNL Target] CNAME实施在SSL证书和客户DNS中每个域只需要一个主机名。 Adobe建议每个域使用一个主机名。 某些客户出于自身目的而要求每个域的主机名更多（例如，在暂存环境中进行测试），这是受支持的。
+[!DNL Target] CNAME实施在SSL证书和客户DNS中每个域只需要一个主机名。 [!DNL Adobe] 建议每个域一个主机名。 某些客户出于自身目的而要求每个域的主机名更多（例如，在暂存环境中进行测试），这是受支持的。
 
-大多数客户选择的主机名如 `target.example.com`. Adobe建议遵循此做法，但最终由您选择。 请求现有DNS记录的主机名。 这样做会导致冲突并延迟解决 [!DNL Target] CNAME请求。
+大多数客户选择的主机名如 `target.example.com`. [!DNL Adobe] 建议遵循此做法，但最终由您选择。 请求现有DNS记录的主机名。 这样做会导致冲突并延迟解决 [!DNL Target] CNAME请求。
 
 ### 我已在 [!DNL Adobe Analytics]，我能否使用相同的证书或主机名？
 
@@ -80,8 +80,7 @@ ht-degree: 1%
 
 ### 我当前的实施是 [!DNL Target] 受ITP 2.x的影响？
 
-Apple智能防跟踪(ITP)版本2.3引入了其CNAME隐藏缓解功能，该功能可检测Adobe Target CNAME实施并将Cookie的过期时间缩短为七天。 当前 [!DNL Target] 没有解决ITP CNAME隐匿问题的方法。 有关ITP的更多信息，请参阅 [Apple智能防跟踪(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
-
+Apple智能防跟踪(ITP)版本2.3引入了其CNAME隐匿缓解功能，该功能能够检测到 [!DNL Adobe Target] CNAME实施，并将Cookie的过期时间缩短为7天。 当前 [!DNL Target] 没有解决ITP CNAME隐匿问题的方法。 有关ITP的更多信息，请参阅 [Apple智能防跟踪(ITP)2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
 ### 部署CNAME实施后，我可以期待哪种服务中断？
 
@@ -329,7 +328,7 @@ Apple智能防跟踪(ITP)版本2.3引入了其CNAME隐藏缓解功能，该功�
 
    >[!NOTE]
    >
-   >如果此验证命令在DNS验证时失败，但您已进行必要的DNS更改，则可能需要等待DNS更新完全传播。 DNS记录具有关联 [TTL（存留期）](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) 指示这些记录的DNS回复的缓存过期时间。 因此，您可能需要至少等待TTL的长时间。 您可以使用 `dig target.example.com` 命令或 [G Suite工具箱](https://toolbox.googleapps.com/apps/dig/#CNAME) 查找您的特定TTL。 要检查DNS在世界各地的传播，请参阅 [whatsmydns.net](https://whatsmydns.net/#CNAME).
+   >如果此验证命令在DNS验证时失败，但您已经进行了必要的DNS更改，则可能需要等待DNS更新完全传播。 DNS记录具有关联 [TTL（存留期）](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) 指示这些记录的DNS回复的缓存过期时间。 因此，您可能需要至少等待TTL的长时间。 您可以使用 `dig target.example.com` 命令或 [G Suite工具箱](https://toolbox.googleapps.com/apps/dig/#CNAME) 查找您的特定TTL。 要检查DNS在世界各地的传播，请参阅 [whatsmydns.net](https://whatsmydns.net/#CNAME).
 
 ### 如何将选择退出链接与 CNAME 配合使用
 

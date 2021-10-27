@@ -4,10 +4,10 @@ description: '了解如何在Adobe Target中实施Recommendations活动。 '
 title: 如何实施Recommendations活动？
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
+source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 36%
+source-wordcount: '1545'
+ht-degree: 30%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 36%
 要提供高质量的推荐， [!DNL Target] 必须知道要推荐的产品或内容。 您的目录通常应包含三种类型的有关要推荐项目的信息。 假定您推荐电影。 包括以下内容：
 
 1. 要向收到推荐的用户显示的数据。例如，您可以显示电影的名称和电影海报缩略图的URL。
-1. 用于应用营销和销售控制的数据。例如，您可以显示影片的评级，以便不推荐NC-17影片。
+1. 用于应用营销和销售控制的数据。For example, you can display the rating of the movie so that you do not recommend NC-17 movies.
 1. 用于确定项目与其他项目的相似度的数据。 例如，您可以显示电影的流派和电影的导演。
 
 [!DNL Target] 提供了多个用于填充目录的集成选项。 这些选项可以组合使用来更新目录中的不同项目，或更新不同频率上的不同项目属性。
@@ -38,7 +38,7 @@ ht-degree: 36%
 | 方法 | 是什么 | 何时使用 | 其他信息 |
 | --- | --- | --- | --- |
 | 目录馈送 | 计划信息源(CSV、Google产品XML或 [!DNL Analytics Product Classifications])，以便每天上传和摄取。 | 用于一次发送有关多个项目的信息。 用于发送不常更改的信息。 | 请参阅 [信息源](/help/c-recommendations/c-products/feeds.md). |
-| 实体API | 调用API以发送单个项目的即时更新。 | 用于在每次发生大约一个项目时发送更新。 用于发送频繁更改的信息（例如，价格、库存/库存水平）。 | 请参阅 [实体API开发人员文档](https://developers.adobetarget.com/api/recommendations/#tag/Entities). |
+| 实体API | Call an API to send to-the-minute updates for a single item. | 用于在每次发生大约一个项目时发送更新。 For sending information that changes frequently (for example price, inventory/stock level). | 请参阅 [实体API开发人员文档](https://developers.adobetarget.com/api/recommendations/#tag/Entities). |
 | 在页面上传递更新 | 使用页面上的JavaScript或使用交付API，发送单个项目的即时更新。 | 用于在每次发生大约一个项目时发送更新。 用于发送频繁更改的信息（例如，价格、库存/库存水平）。 | 请参阅 [项目查看/产品页面](#items-product-pages) 下。 |
 
 大多数客户应至少实施一个信息源。 然后，您可以选择使用实体API或页面内方法，通过经常更改的属性或项目的更新来补充您的信息源。
@@ -70,7 +70,7 @@ function targetPageParams() {
 
 ### 类别查看/类别页面
 
-在类别页面上，您可能希望将推荐限制为该类别中的产品或内容。 为此，请确保传递当前已查看类别的标识。
+On a category page, you likely want to restrict your recommendations to products or content within that category. To do so, ensure you pass the identity of the currently viewed category.
 
 ```
 function targetPageParams() { 
@@ -82,7 +82,7 @@ function targetPageParams() {
 }
 ```
 
-### 购物车加货/购物车查看/结帐页面
+### 购物车加货/购物车查看/结帐页面 {#cart}
 
 在购物车页面上，您可以根据访客当前购物车的内容推荐项目。 为此，请使用特殊参数传递访客当前购物车中所有项目的ID `cartIds`.
 
@@ -93,6 +93,22 @@ function targetPageParams() {
       }
 }
 ```
+
+基于购物车的推荐逻辑与“[!UICONTROL 推荐给您]“基于用户的算法”和“[!UICONTROL 查看了这些项目，购买了这些项目的人]&quot;和&quot;[!UICONTROL 购买了这些，也购买了那些的人]“基于项目的算法。
+
+[!DNL Target] 使用协作筛选技术确定访客购物车中每个项目的相似性，然后将每个项目中的这些行为相似性合并在一起，以获得合并列表。
+
+[!DNL Target] 此外，营销人员还可以选择在单个会话或多个会话中查看访客行为：
+
+* **在单个会话中**:基于其他访客在单个会话中的操作。
+
+* **跨多个会话**:基于其他访客在多个会话中执行的操作。 
+
+无论您是查看单个会话中的访客行为，还是查看多个会话中的访客行为， [!DNL Target] 根据此访客当前购物车中的项目为其提供推荐。
+
+当有一种感觉，即产品会根据使用情况、时机或事件强烈地“一起使用”时，在单个会话中查看行为可能会很有意义。 例如，访客正在购买打印机，并且可能还需要墨水和纸张。 或者，游客正在购买花生酱，可能还需要面包和果冻。
+
+当有一种感觉，即产品会根据访客偏好或品味强烈地彼此“一起使用”时，跨多个会话查看行为可能会很有意义。 例如，访客喜欢《星球大战》，也可能喜欢《印第安纳·琼斯》，即使该访客不一定想在同一座位上观看两个电影。 或者，访客喜欢棋盘游戏“代号”，也可能喜欢棋盘游戏“Avalon”，即使访客不能同时玩两个游戏。
 
 ### 排除访客购物车中已有的项目
 

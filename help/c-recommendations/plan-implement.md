@@ -4,7 +4,7 @@ description: '了解如何在Adobe Target中实施Recommendations活动。 '
 title: 如何实施Recommendations活动？
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 152d9f0b942956363aece1ba279aeaa7b93f43e6
+source-git-commit: 2910fd1130030df79b96160b64e6bd1bdf295814
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 30%
@@ -108,7 +108,7 @@ function targetPageParams() {
 
    当有一种感觉，即产品会根据访客偏好或品味强烈地彼此“一起使用”时，跨多个会话查看行为可能会很有意义。 例如，访客喜欢《星球大战》，也可能喜欢《印第安纳·琼斯》，即使该访客不一定想在同一座位上观看两个电影。 或者，访客喜欢棋盘游戏“代号”，也可能喜欢棋盘游戏“Avalon”，即使访客不能同时玩两个游戏。 
 
-无论您是查看单个会话中的访客行为，还是查看多个会话中的访客行为， [!DNL Target] 根据此访客当前购物车中的项目为其提供推荐。
+无论您是查看单个会话中的访客行为还是查看多个会话中的访客行为， [!DNL Target] 根据每位访客当前购物车中的项目，为其提供推荐。
 
 ### 排除访客购物车中已有的项目
 

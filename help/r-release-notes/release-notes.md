@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么新功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 9f2947355c3857add5ea47d41c1adc2e3e8bba08
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 80%
+source-wordcount: '1144'
+ht-degree: 73%
 
 ---
 
@@ -23,6 +23,20 @@ ht-degree: 80%
 >请迁移到新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 库的最新版本，以避免您的网站出现任何潜在问题。有关更多信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## at.js版本2.7.0（2021年10月28日）
+
+此版本包含以下增强功能：
+
+* 添加了 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 要在自定义元素和自定义元素内的元素上创建和测试个性化体验和选件，需要使用此版本的at.js。 此功能包含在 [!DNL Target Standard/Premium] 21.10.5版本。
+
+## [!DNL Target Standard/Premium] 21.10.5（2021年10月28日）
+
+此维护版本包含以下增强功能：
+
+| 功能 | 详细信息 |
+| --- | --- |
+| 可视化体验编辑器 (VEC) | 添加了 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 可以在自定义元素和自定义元素内的元素上创建和测试个性化体验和选件。<br>有关更多信息，请参阅 [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
 ## [!DNL Target Standard/Premium] 21.10.4（2021年10月21日）
 

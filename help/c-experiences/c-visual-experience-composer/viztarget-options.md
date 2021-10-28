@@ -4,9 +4,9 @@ description: 浏览Adobe Target可视化体验编辑器(VEC)中提供的选项�
 title: 如何使用可视化体验编辑器(VEC)选项？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '2626'
+source-wordcount: '2624'
 ht-degree: 71%
 
 ---
@@ -348,7 +348,7 @@ HTML选件最多可达256 KB。
 
 * 如果选件包含 HTML 内容，请参阅 [at.js 工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render)中的“at.js 如何渲染包含 HTML 内容的选件”了解更多信息。
 
-## 自定义元素支持（2021年10月28日发布） {#custom}
+## 自定义元素支持 {#custom}
 
 VEC支持 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components) 用于根据自定义元素和自定义元素中的元素创建和测试个性化体验和选件。 VEC中提供了此功能，适用于所有人 [!DNL Target] 活动类型。
 

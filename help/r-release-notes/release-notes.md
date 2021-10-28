@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么新功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f17d98f30b1fb25b5ffcafcd6cb8368adad99f97
+source-git-commit: 9f2947355c3857add5ea47d41c1adc2e3e8bba08
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 42%
+source-wordcount: '1041'
+ht-degree: 80%
 
 ---
 
@@ -42,37 +42,37 @@ ht-degree: 42%
 * 修复了在无法选择 [!DNL Analytics] 作为报表源(A4T)，因为 [!DNL Analytics] 权限。 (TGT-41954)
 * 实施了多项辅助功能修复，以改进 [!DNL Target] UI。
 
-## [!DNL Target Standard/Premium] 21.10.2（2021年10月13日）
+## [!DNL Target Standard/Premium] 21.10.2（2021 年 10 月 13 日）
 
-在使用 [!DNL Target] [!UICONTROL 受众] 和 [!DNL Adobe Experience Platform Web SDK]:
+在将 [!DNL Target] [!UICONTROL 受众]与 [!DNL Adobe Experience Platform Web SDK] 结合使用时，添加了以下增强功能：
 
-* 在 [!DNL Target] 用于指示受众已在源位置删除，不再可在中使用的UI [!DNL Target] 活动。
+* 在 [!DNL Target] UI 中的各个位置添加了警告图标、弹出框和消息，以指示已从来源中删除受众，并且受众不再可用于 [!DNL Target] 活动中。
 
-   下图显示了图标、浏览器和消息显示的一些位置：
+   下图显示了这些图标、弹出框和消息的一些显示位置：
 
-   * [!UICONTROL 活动] 列表页面
+   * [!UICONTROL 活动]列表页面
 
-      ![在“活动”列表页面的源消息中删除的受众](assets/deleted-at-source-audiences-list.png)
+      ![“活动”列表页面上的“已从来源中删除受众”消息](assets/deleted-at-source-audiences-list.png)
 
-   * 活动 [!UICONTROL 概述] 页面：
+   * 活动[!UICONTROL 概述]页面：
 
-      ![在“概述”页面上的源消息中删除的受众](assets/deleted-at-source-overview.png)
+      ![概述页面上的“已从来源中删除受众”消息](assets/deleted-at-source-overview.png)
 
-   * [!UICONTROL 体验] 活动创建工作流的步骤：
+   * 活动创建工作流的[!UICONTROL 体验]步骤：
 
-      ![在上的源消息上删除的受众 [!UICONTROL 体验] 页面](assets/deleted-at-source-experiences.png)
+      ![[!UICONTROL 体验]页面上的“已从来源中删除受众”消息](assets/deleted-at-source-experiences.png)
 
-   * [!UICONTROL 定位] 活动创建工作流的步骤：
+   * 活动创建工作流的[!UICONTROL 定位]步骤：
 
-      ![在上的源消息上删除的受众 [!UICONTROL 定位] 页面](assets/deleted-at-source-targeting.png)
+      ![[!UICONTROL 定位]页面上的“已从来源中删除受众”消息](assets/deleted-at-source-targeting.png)
 
-   * [!UICONTROL 目标和设置] 活动创建工作流的步骤：
+   * 活动创建工作流的[!UICONTROL 目标与设置]步骤：
 
-      ![受众在 [!UICONTROL 目标和设置] 页面](assets/deleted-at-source-goals-settings.png)
+      ![[!UICONTROL 目标与设置]页面上的“已从来源中删除受众”消息](assets/deleted-at-source-goals-settings.png)
 
-   * 受众细化([!UICONTROL 替换受众] 在 [!UICONTROL 定位] 活动创建工作流的步骤):
+   * 受众细化（活动创建工作流的[!UICONTROL 定位]步骤中的[!UICONTROL 替换受众]）：
 
-* 如果您尝试使用“合并受众”功能，但源中删除了其中一个受众， [!UICONTROL 保存] 已禁用。
+* 如果您尝试使用“合并受众”功能，而其中某个受众已从来源中删除，则将禁用[!UICONTROL 保存]。
 
 ## [!DNL Target Standard/Premium]21.10.1（2021 年 10 月 6 日）
 
@@ -80,10 +80,10 @@ ht-degree: 42%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| [!UICONTROL 受众 UI 刷新] | 作为 [!DNL Adobe Target] 团队持续努力，以改进 [!DNL Target] 用户，此版本将刷新 [!UICONTROL 受众] 和 [!UICONTROL 配置文件脚本] 页面 [!DNL Target] UI。 此更新可统一和标准化以前不一致的设计模式，同时添加新的增强功能，例如：<ul><li>能够同时选择和删除多个受众</li><li>已刷新 [受众生成器设计](/help/c-target/c-audiences/create-audience.md)</li><li>在 [!UICONTROL 受众] 库规则生成器</li><li>新的“受众源”过滤器，允许更快地发现受众</li><li>会话永久搜索和过滤选项</li></ul>有关更多信息，请参阅[受众](/help/c-target/target.md)。<br>**注意**:新 [!UICONTROL 受众] 除当前位于 [!DNL Target] 测试版计划。 将在10月19日星期二为部分客户以及以后的所有其余客户重新启用此UI刷新。 |
-| [!UICONTROL 配置文件脚本] UI刷新 | 的 [!UICONTROL 配置文件脚本] 此外，还更新了库，其中包括更新的界面以及多项生产效率更新：<ul><li>能够同时选择和删除多个配置文件脚本</li><li>配置文件脚本的新代码编辑器</li><li>代码编辑器中的语法突出显示和错误检查</li><li>通过键盘快捷键自动完成令牌（mbox或配置文件）参数</li></ul>有关更多信息，请参阅 [访客配置文件](/help/c-target/c-visitor-profile/visitor-profile.md). |
-| ![Premium徽章](/help/assets/premium.png) Recommendations标准创建和编辑 | 的 [!UICONTROL Recommendations标准] 通过简化创建和编辑工作流，可简化选择正确的推荐算法和设置以实现您的目标。<br>有关更多信息，请参阅 [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
-| ![Premium徽章](/help/assets/premium.png) Recommendations回顾窗口和算法刷新率改进 | 您现在可以运行“查看次数最多”和“最畅销商品”算法，并在六小时的回顾时间范围内捕获最新趋势内容。 选择六小时回顾窗口后，每3到6小时更新一次推荐结果。<br>有关更多信息，请参阅 [数据源](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *创建标准*. |
+| [!UICONTROL 受众] UI 刷新 | 作为 [!DNL Adobe Target] 团队努力改进的 [!DNL Target] 用户体验的一部分，此版本刷新了 [!DNL Target] UI 中的[!UICONTROL 受众]和[!UICONTROL 个人资料脚本]页面。此更新统一并标准化了以前不一致的设计模式，并添加了新的增强功能，例如：<ul><li>同时选择和删除多个受众的功能</li><li>刷新的[受众生成器设计](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 受众]库规则生成器中的排除规则支持</li><li>新的“受众来源”筛选器，可用于更快地发现受众</li><li>会话持久搜索和筛选选项</li></ul>有关更多信息，请参阅[受众](/help/c-target/target.md)。<br>**注意**:新 [!UICONTROL 受众] UI仅供选择的客户使用。 从2022年1月起，该更新将逐步推广到所有客户。 |
+| [!UICONTROL 个人资料脚本] UI 刷新 | [!UICONTROL 个人资料脚本]库也已更新，并且包含一个更新后的界面和几项生产力更新：<ul><li>同时选择和删除多个个人资料脚本的功能</li><li>个人资料脚本的新代码编辑器</li><li>代码编辑器中的语法突出显示和错误检查</li><li>通过键盘快捷键自动完成令牌（mbox 或 profile）参数</li></ul>有关更多信息，请参阅[访客个人资料](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注意**:新 [!UICONTROL 配置文件脚本] UI仅供选择的客户使用。 从2022年1月起，该更新将逐步推广到所有客户。 |
+| ![Premium 徽章](/help/assets/premium.png) 推荐标准的创建和编辑 | [!UICONTROL 推荐标准]的创建和编辑工作流已经过简化，以简化选择正确的推荐算法和设置以实现目标的过程。<br>有关更多信息，请参阅[创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
+| ![Premium 徽章](/help/assets/premium.png) 推荐的回溯时段和算法刷新率改进 | 您现在可以运行具有 6 小时的回溯时段的“查看次数最多”和“最畅销商品”算法，以捕获最近流行的内容。选择 6 小时的回溯时段后，您的推荐结果会全天每 3-6 小时更新一次。<br>有关更多信息，请参阅&#x200B;*创建标准*&#x200B;中的[数据源](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)。 |
 
 ## 其他发行说明和版本详细信息
 

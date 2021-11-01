@@ -4,7 +4,7 @@ description: 了解如何创建控制Adobe Recommendations活动内容的标准�
 title: 如何在Recommendations中创建标准？
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 4117407d38112f5161a40fb6175957fb164df954
 workflow-type: tm+mt
 source-wordcount: '2810'
 ht-degree: 53%
@@ -81,7 +81,6 @@ ht-degree: 53%
    | [!UICONTROL 基于用户] | 根据用户的行为进行推荐。 | <ul><li>最近查看的项目</li><li>为您推荐</li></ul> |
 
    |[!UICONTROL 自定义标准]|根据您上传的自定义文件进行推荐。|<ul><li>自定义算法</li></ul>|
-
 
    >[!NOTE]
    >

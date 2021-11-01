@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '32575'
+source-wordcount: '32584'
 ht-degree: 99%
 
 ---
@@ -37,13 +37,13 @@ ht-degree: 99%
 | --- | --- |
 | 可视化体验编辑器 (VEC) | 添加了 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 可以在自定义元素和自定义元素内的元素上创建和测试个性化体验和选件。<br>有关更多信息，请参阅 [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
-### [!DNL Target Standard/Premium] 21.10.4（2021年10月21日）
+## [!DNL Target Standard/Premium] 21.10.4（2021年10月21日）
 
 此维护版本包含以下增强功能：
 
 | 功能 | 详细信息 |
 | --- | --- |
-| 基于购物车的Recommendations | 添加了一系列新的算法，用于根据访客购物车的内容提供推荐。<br>有关更多信息，请参阅 [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 和“购物车加货/购物车查看/结账页面”以及“排除访客购物车中已有的项目”(位于 [规划和实施Recommendations](/help/c-recommendations/plan-implement.md). |
+| 基于购物车的Recommendations | 添加了一系列新的算法，用于根据访客购物车的内容提供推荐。<br>有关更多信息，请参阅 [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md)、“购物车加货/购物车查看/结帐页面”和“排除访客购物车中已有的项目”(位于 [规划和实施Recommendations](/help/c-recommendations/plan-implement.md)，以及 [使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3（2021年10月19日）
 

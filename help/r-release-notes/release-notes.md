@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么新功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 73%
+source-wordcount: '1153'
+ht-degree: 72%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 73%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| 基于购物车的Recommendations | 添加了一系列新的算法，用于根据访客购物车的内容提供推荐。<br>有关更多信息，请参阅 [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 和“购物车加货/购物车查看/结账页面”以及“排除访客购物车中已有的项目”(位于 [规划和实施Recommendations](/help/c-recommendations/plan-implement.md). |
+| 基于购物车的Recommendations | 添加了一系列新的算法，用于根据访客购物车的内容提供推荐。<br>有关更多信息，请参阅 [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md)、“购物车加货/购物车查看/结帐页面”和“排除访客购物车中已有的项目”(位于 [规划和实施Recommendations](/help/c-recommendations/plan-implement.md)，以及 [使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3（2021年10月19日）
 

@@ -4,10 +4,10 @@ description: '了解如何在Adobe Target中实施Recommendations活动。 '
 title: 如何实施Recommendations活动？
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 6d601c0099e9e8451571af7b75641620a94578fc
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 30%
+source-wordcount: '1295'
+ht-degree: 36%
 
 ---
 
@@ -94,21 +94,7 @@ function targetPageParams() {
 }
 ```
 
-基于购物车的推荐逻辑与“[!UICONTROL 推荐给您]“基于用户的算法”和“[!UICONTROL 查看了这些项目，购买了这些项目的人]&quot;和&quot;[!UICONTROL 购买了这些，也购买了那些的人]“基于项目的算法。
-
-[!DNL Target] 使用协作筛选技术确定访客购物车中每个项目的相似性，然后将每个项目中的这些行为相似性合并在一起，以获得合并列表。
-
-[!DNL Target] 此外，营销人员还可以选择在单个会话或多个会话中查看访客行为：
-
-* **在单个会话中**:基于其他访客在单个会话中的操作。
-
-   当有一种感觉，即产品会根据使用情况、时机或事件强烈地“一起使用”时，在单个会话中查看行为可能会很有意义。 例如，访客正在购买打印机，并且可能还需要墨水和纸张。 或者，游客正在购买花生酱，可能还需要面包和果冻。
-
-* **跨多个会话**:基于其他访客在多个会话中执行的操作。
-
-   当有一种感觉，即产品会根据访客偏好或品味强烈地彼此“一起使用”时，跨多个会话查看行为可能会很有意义。 例如，访客喜欢《星球大战》，也可能喜欢《印第安纳·琼斯》，即使该访客不一定想在同一座位上观看两个电影。 或者，访客喜欢棋盘游戏“代号”，也可能喜欢棋盘游戏“Avalon”，即使访客不能同时玩两个游戏。 
-
-[!DNL Target] 无论您是查看单个会话中的访客行为还是多个会话中的访客行为，都会根据每个访客当前购物车中的项目为其提供推荐。
+有关 [!UICONTROL 基于购物车] 推荐，请参阅 [基于购物车](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *使推荐基于推荐键*.
 
 ### 排除访客购物车中已有的项目
 

@@ -4,9 +4,9 @@ description: 了解如何创建控制Adobe Recommendations活动内容的标准�
 title: 如何在Recommendations中创建标准？
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 4117407d38112f5161a40fb6175957fb164df954
+source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
 workflow-type: tm+mt
-source-wordcount: '2810'
+source-wordcount: '2797'
 ht-degree: 53%
 
 ---
@@ -75,12 +75,11 @@ ht-degree: 53%
 
    | 算法类型 | 何时使用 | 可用算法 |
    | --- | --- | --- |
-   | [!UICONTROL 基于购物车] | 根据用户的购物车内容进行推荐。 | <ul><li>查看了这些项目，也查看了这些项目的人</li><li>查看了这些项目，购买了这些项目的人</li><li>购买了这些，也购买了那些的人</li></ul>有关更多信息，请参阅 [基于购物车](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *使推荐基于推荐键*. |
+   | [!UICONTROL 基于购物车] | 根据用户的购物车内容进行推荐。 | <ul><li>查看了这些项目，也查看了这些项目的人</li><li>查看了这些项目，购买了这些项目的人</li><li>购买了这些，也购买了那些的人</li></ul> |
    | [!UICONTROL 基于热门程度] | 根据网站上某个项目的整体受欢迎程度或用户最喜爱或最常查看的类别、品牌、流派等项目的受欢迎程度，提出推荐。 | <ul><li>整个网站查看次数最多</li><li>按类别查看次数最多</li><li>按项目属性查看次数最多</li><li>网站最畅销商品</li><li>按类别划分的最畅销商品</li><li>按物料属性列出的最畅销商品</li><li>按Analytics量度排名最前</li></ul> |
    | [!UICONTROL 基于项目] | 根据查找与用户当前正在查看或最近已查看的项目类似的项目来提供推荐。 | <ul><li>查看了这个项目，也查看了那个项目的人</li><li>查看了这个项目，但购买了那个项目的人</li><li>购买了这个项目，也购买了那个项目的人</li><li>具有相似属性的项目</li></ul> |
    | [!UICONTROL 基于用户] | 根据用户的行为进行推荐。 | <ul><li>最近查看的项目</li><li>为您推荐</li></ul> |
-
-   |[!UICONTROL 自定义标准]|根据您上传的自定义文件进行推荐。|<ul><li>自定义算法</li></ul>|
+   | [!UICONTROL 自定义标准] | 根据您上传的自定义文件进行推荐。 | <ul><li>自定义算法</li></ul> |
 
    >[!NOTE]
    >

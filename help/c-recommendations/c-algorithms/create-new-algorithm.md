@@ -4,9 +4,9 @@ description: 了解如何创建控制Adobe Recommendations活动内容的标准�
 title: 如何在Recommendations中创建标准？
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
+source-git-commit: 3cccd4879133a8d222b970c92ebcef3df7a028a3
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2832'
 ht-degree: 53%
 
 ---
@@ -87,7 +87,9 @@ ht-degree: 53%
 
 1. 根据需要，选择 **物料属性** 和 **要匹配的配置文件属性**, a **推荐键**, **筛选键**&#x200B;和/或 **Analytics量度** 来配置算法。
 
-有关选择推荐键的更多信息，请参阅 [使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+其余的算法配置选项因所选算法而异。 要完成算法配置，请选择 [!UICONTROL 推荐键], [!UICONTROL 筛选键], [!UICONTROL 共发生基准], [!UICONTROL Analytics量度]和/或 [!UICONTROL 物料属性] 和 [!UICONTROL 要匹配的配置文件属性].
+
+有关选择 [!UICONTROL 推荐键]，请参阅 [使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL 数据源] {#data-source}
 

@@ -4,9 +4,9 @@ description: 了解Analytics的实施要求，适用于 [!DNL Target] (A4T)以�
 title: 实施A4T之前，我应该了解什么？
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 9a1603cbbe773638693f5836b6cf7c62dc0b56b8
+source-git-commit: 00f7a31a1772d72d929f39a481d896ffbdf5bd2d
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '958'
 ht-degree: 26%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 26%
 * [!DNL Adobe Target]: at.js 0.9.1 版
 * Adobe Analytics：appMeasurement.js 版本 1.7.0
 
+有关使用实施A4T的信息 [!DNL Platform Web SDK]，请参阅 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+
 ### 将重定向选件与 A4T 结合使用时需要满足的要求
 
 要将重定向选件与 A4T 结合使用，您必须实施以下库版本（或更高版本）。所列的顺序即是操作顺序。
@@ -56,6 +58,8 @@ ht-degree: 26%
 * Adobe Analytics：appMeasurement.js 版本 2.1
 
 下载和部署说明列在 [Analytics for Target实施](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
+
+有关使用实施A4T的信息 [!DNL Platform Web SDK]，请参阅 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
 ## 实施前注意事项 {#section_50D49CC52E11414089C89FB67F9B88F5}
 

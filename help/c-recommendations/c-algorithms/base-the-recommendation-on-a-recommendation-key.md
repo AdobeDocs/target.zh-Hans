@@ -5,9 +5,9 @@ title: 如何使推荐基于推荐键？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: d075a2904fde233c54a80b1a670ecdb13a931ebf
+source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
 workflow-type: tm+mt
-source-wordcount: '3834'
+source-wordcount: '3820'
 ht-degree: 41%
 
 ---
@@ -16,19 +16,11 @@ ht-degree: 41%
 
 Recommendations基于算法使用访客行为上下文显示相关结果 [!DNL Adobe Target] [!DNL Recommendations] 活动。
 
-中有五种算法类型 [!DNL Target Recommendations]:
-
-* [!UICONTROL 基于购物车]
-* [!UICONTROL 基于热门程度]
-* [!UICONTROL 基于项目]
-* [!UICONTROL 基于用户]
-* [!UICONTROL 自定义标准]
-
 每种算法类型为其类型提供不同的算法，如下表所示：
 
 | 算法类型 | 何时使用 | 可用算法 |
 | --- | --- | --- |
-| [!UICONTROL 基于购物车] | （即将推出）根据用户的购物车内容进行推荐。 | <ul><li>查看了这些项目，也查看了这些项目的人</li><li>查看了这些项目，购买了这些项目的人</li><li>购买了这些，也购买了那些的人</li></ul> |
+| [!UICONTROL 基于购物车] | 根据用户的购物车内容进行推荐。 | <ul><li>查看了这些项目，也查看了这些项目的人</li><li>查看了这些项目，购买了这些项目的人</li><li>购买了这些，也购买了那些的人</li></ul> |
 | [!UICONTROL 基于热门程度] | 根据网站上某个项目的整体受欢迎程度或用户最喜爱或最常查看的类别、品牌、流派等项目的受欢迎程度，提出推荐。 | <ul><li>整个网站查看次数最多</li><li>按类别查看次数最多</li><li>按项目属性查看次数最多</li><li>网站最畅销商品</li><li>按类别划分的最畅销商品</li><li>按物料属性列出的最畅销商品</li><li>按Analytics量度排名最前</li></ul> |
 | [!UICONTROL 基于项目] | 根据查找与用户当前正在查看或最近已查看的项目类似的项目来提供推荐。 | <ul><li>查看了这个项目，也查看了那个项目的人</li><li>查看了这个项目，但购买了那个项目的人</li><li>购买了这个项目，也购买了那个项目的人</li><li>具有相似属性的项目</li></ul> |
 | [!UICONTROL 基于用户] | 根据用户的行为进行推荐。 | <ul><li>最近查看的项目</li><li>为您推荐</li></ul> |

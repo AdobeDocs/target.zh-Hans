@@ -5,10 +5,10 @@ title: 如何使推荐基于推荐键？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
+source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
 workflow-type: tm+mt
-source-wordcount: '3820'
-ht-degree: 41%
+source-wordcount: '3877'
+ht-degree: 40%
 
 ---
 
@@ -139,7 +139,11 @@ Recommendations基于算法使用访客行为上下文显示相关结果 [!DNL A
 
 ### 按项目属性查看次数最多
 
-（即将提供信息）
+推荐与网站上查看次数最多的项目或媒体类似的项目或媒体。
+
+此算法允许您选择要基于推荐的项目属性，例如“名称”或“品牌”。
+
+然后，您可以选择要匹配的访客配置文件中存储的配置文件属性，例如“最喜爱的品牌”、“添加到购物车的最后项目”或“查看次数最多的节目”。
 
 ### 网站最畅销商品 {#top-sellers}
 
@@ -151,7 +155,7 @@ Recommendations基于算法使用访客行为上下文显示相关结果 [!DNL A
 
 按类别显示包含在最完成订单中的项目。 同一项目在一个订单中购买多件会被计为一次订购。
 
-此算法允许您根据类别为网站上的最畅销项目创建推荐，以提高转化率和收入。 此逻辑尤其适用于首次访问您网站的访客。
+此算法允许您根据类别为网站上的最畅销项目创建推荐，以增加转化和收入。 此逻辑尤其适用于首次访问您网站的访客。
 
 如果选择“按类别查看次数最多”算法，则可以选择以下Recommendations键：
 

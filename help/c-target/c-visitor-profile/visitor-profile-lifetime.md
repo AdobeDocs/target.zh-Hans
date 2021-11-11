@@ -1,24 +1,22 @@
 ---
 keywords: 概述和参考
-description: 进一步了解访客配置文件在 [!DNL Adobe Target]中的过期时间。
+description: 进一步了解访客配置文件在 [!DNL Adobe Target].
 title: 访客配置文件的生命周期是多少，我可以延长它吗？
-feature: 受众
+feature: Audiences
 exl-id: 70cb5e3b-ed6d-450d-8c6e-f1bfe8d26e54
-source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
+source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 45%
+source-wordcount: '143'
+ht-degree: 62%
 
 ---
 
-# 访客配置文件生命周期
+# 访客个人资料生命周期
 
-默认情况下，[!DNL Adobe Target]中的访客配置文件在该访客处于不活动状态14天后过期。 配置文件生命周期可延长。
+默认情况下， [!DNL Adobe Target] 在该访客处于不活动状态14天后过期。 配置文件生命周期可延长。
 
 [请联系客户关怀团队或您的 Adobe 顾问](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，以免费延长配置文件生命周期。生命周期可设置为长达 90 天。
 
-如果您的配置文件扩展范围超出默认范围，则无需下载新的[!DNL Platform Web SDK]文件或at.js文件。
+您无需下载新 [!DNL Platform Web SDK] 文件或at.js文件。
 
 没有为现有的配置文件重置到期日期。如果旧访客 15 天没有回访，则配置文件会过期。如果旧访客在原始两周配置文件过期之前回访，则将配置文件重置到延长的生命周期。所有新访客配置文件均被设置为延长的配置文件生命周期。
-
-在以下场景中，假定使用[!DNL Platform Web SDK]实现了一个或两个站点。 如果两个网站都位于一个客户端代码下，且访客访问了两个网站，则配置文件会设置为上次访问的任何网站上配置文件的生命周期。 例如，假设网站1的配置文件生命周期为84天。 网站2的生命周期为14天。 如果访客先访问网站1，然后再访问网站2，则该访客的配置文件将在访客处于不活动状态14天后过期。 但如果访客先访问网站 2，然后再访问网站 1，则访客的配置文件会在访客处于不活动状态 84 天后过期。

@@ -4,10 +4,10 @@ description: 了解如何Adobe [!DNL Target] 显示和计算每个体验的转�
 title: 如何查看转化率、提升度和置信水平？
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '2136'
-ht-degree: 58%
+source-wordcount: '2138'
+ht-degree: 59%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 58%
 
 如果您插入下单(`orderConfirmPage`)mbox并将其选作转化mbox。
 
-## 置信度和置信区间 {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## 置信水平和置信区间 {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
 对于每个体验，都会显示置信度和置信区间。
 
@@ -58,7 +58,9 @@ ht-degree: 58%
 
 ### 置信度 {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-显示的体验或选件的置信度是获得结果的概率（以百分比表示），该结果比实际观察到的结果要小，如果空假设为真，即该体验或选件与控制体验/选件之间的转化率没有差异。 对于p值，显示的置信度为1 - p值。 更简单地说，置信度越高，表示数据与控制选件/非控制选件/体验具有相等转化率的假设不一致。 置信度如果大于或等于 99.995%，则向上舍入为 100.00%。
+显示的体验或选件的置信度是获得结果的概率（以百分比表示），该结果比实际观察到的结果要小，如果空假设为真，（实质上，如果该体验或选件与控制体验/选件之间的转化率没有差异）。 对于p值，显示的置信度为1 - p值。 更简单地说，置信度越高，表示数据与控制选件/非控制选件/体验具有相等转化率的假设不一致。
+
+置信度如果大于或等于 99.995%，则向上舍入为 100.00%。
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 

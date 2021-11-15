@@ -4,9 +4,9 @@ description: 查找有关使用Analytics for [!DNL Target] (A4T). A4T lets you u
 title: 在哪里可以找到有关A4T提升度和置信度的信息？
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 29%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 29%
 
 ## A4T 如何处理置信度计算？ {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T以与使用二进制量度的常规t测试不同的方式计算置信度/p值。 具体而言，A4T使用的计算允许每个用户产生连续的量度结果（而不是每个用户仅有1或0个），以便准确计算每个体验的方差（或相关的标准偏差）。 不考虑极端订单。 此外，置信度计算不会对多个选件应用Bonferroni校正。
+[!DNL Adobe Analytics] 将所有量度都视为非二进制，因此，会以与在常规t测试中使用二进制量度不同的方式计算置信度/p值。 具体而言，A4T使用的计算允许每个用户产生连续的量度结果（而不是每个用户仅有1或0个），因此必须相应地计算每个体验的方差（或相关的标准偏差）。 不考虑极端订单。 此外，置信度计算不会对多个选件应用Bonferroni校正。
 
 ## Ad Hoc 和 Report Builder 中是否会计算提升度和置信度？如果不会在本机计算，那么我能否自行计算？ {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 

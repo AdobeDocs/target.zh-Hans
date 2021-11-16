@@ -1,21 +1,21 @@
 ---
 keywords: 定位；可视化体验编辑器；白名单；白名单；;允许列表允许列表；增强型可视化体验编辑器；VEC；可视化体验编辑器故障诊断；故障诊断；EEC；增强型体验编辑器；TLS;TLS 1.2
-description: 了解如何在某些情况下，对Adobe [!DNL Target] 可视化体验编辑器(VEC)和增强型体验编辑器(EEC)有时会出现的问题进行故障诊断。
+description: 了解如何对Adobe中有时出现的问题进行故障诊断 [!DNL Target] 在某些情况下，可视化体验编辑器(VEC)和增强型体验编辑器(EEC)会出现这种情况。
 title: 如何对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断？
-feature: 可视化体验编辑器 (VEC)
+feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: cf8bb1a438681ccb5bf9e825503f9f929fbcfdbf
 workflow-type: tm+mt
-source-wordcount: '1561'
-ht-degree: 49%
+source-wordcount: '1421'
+ht-degree: 52%
 
 ---
 
 # 对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断
 
-在某些情况下， [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器](VEC)和[!UICONTROL 增强型体验编辑器](EEC)有时会出现显示问题和其他问题。
+显示问题和其他问题有时会在 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)和 [!UICONTROL 增强型体验编辑器] (EEC)。
 
-## Google Chrome SameSite Cookie实施策略对VEC和EEC有何影响？ {#samesite}
+## Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？ {#samesite}
 
 请注意使用以下Chrome版本时对VEC和EEC所做的更改：
 
@@ -23,64 +23,56 @@ ht-degree: 49%
 >
 >以下更改会影响下面列出的所有三个更新：
 >
-> * *不*&#x200B;能够在受密码保护的网站页面中使用VEC（无论是否安装并启用了VEC助手扩展）。 您的网站登录Cookie被视为第三方Cookie，随登录请求发送。 唯一的例外是您的网站登录Cookie已将SameSite参数设置为`none`和`Secure.`
+> * 将 *not* 在网站的受密码保护页面中未安装并启用VEC助手扩展的情况下，便能使用VEC。 在“浏览”模式下，您的网站登录Cookie被视为第三方Cookie，不会随VEC编辑器中的登录请求一起发送。 唯一的例外是您的网站登录Cookie已具有 `SameSite=None` 和 `Secure` 属性集。
 
 
 **Chrome 94（2021年9月21日）**:由于Chrome 94版本（2021年9月21日）即将进行的更改，以下更改将对使用Chrome 94及更高版本浏览器的所有用户造成影响：
 
-* 将删除命令行标记`--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`。
+* 命令行标记 `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` 将被删除。
 
 **Chrome 91（2021年5月25日）**:通过为Chrome 91版本（2021年5月25日）实施更改，以下更改将对使用Chrome 91及更高版本浏览器的所有用户产生影响：
 
-* 标记`#same-site-by-default-cookies`和`#cookies-without-same-site-must-be-secure`已从`chrome://flags`中删除。 此行为现在默认启用。
+* 旗子 `#same-site-by-default-cookies` 和 `#cookies-without-same-site-must-be-secure` 已从 `chrome://flags`. 此行为现在默认启用。
 
 **Chrome 80（2020年8月）**:通过在2020年8月实施更改，所有使用Chrome 80及更高浏览器版本的用户：
 
-* 在编辑活动时（如果这些库不在网站上）， *不能*&#x200B;下载[!DNL Target]库。 这是因为下载调用是从客户域向安全的[!DNL Adobe]域发起的，并因未验证而被拒绝。
-* EEC将对所有用户&#x200B;*不*&#x200B;起作用，因为它无法在`adobemc.com domain`上为Cookie设置SameSite属性。 如果没有此属性，浏览器将拒绝这些Cookie，从而导致EEC失败。
+* 将 *not* 能够下载 [!DNL Target] 库（当网站上尚未提供这些库时）。 这是因为下载调用是从客户域向安全域发起的 [!DNL Adobe] 域，因未经身份验证而被拒绝。
+* EEC将 *not* 函数，因为无法在上为cookie设置SameSite属性 `adobemc.com domain`. 如果没有此属性，浏览器将拒绝这些Cookie，从而导致EEC失败。
 
 ### 确定阻止的Cookie
 
 要确定哪些Cookie因SameSite Cookie实施策略而被阻止，请使用Chrome中的开发人员工具。
 
-1. 要访问开发人员工具，请在Chrome中查看VEC时，单击Chrome右上角的&#x200B;**[!UICONTROL 省略号]**&#x200B;图标> **[!UICONTROL 更多工具]** > **[!UICONTROL 开发人员工具]**。
-1. 单击&#x200B;**[!UICONTROL Network]**&#x200B;选项卡> ，然后查找阻止的Cookie。
+1. 在Chrome中查看VEC时，要访问开发人员工具，请单击 **[!UICONTROL 省略号]** 图标> **[!UICONTROL 更多工具]** > **[!UICONTROL 开发人员工具]**.
+1. 单击 **[!UICONTROL 网络]** 选项卡> ，然后查找阻止的Cookie。
 
    >[!NOTE]
    >
-   >使用&#x200B;**[!UICONTROL 已阻止Cookie]**&#x200B;复选框，更便于查找已阻止的Cookie。
+   >使用 **[!UICONTROL 已阻止Cookie]** 复选框，以便更轻松地查找阻止的Cookie。
 
    下图显示了阻止的Cookie:
 
    ![显示已阻止的Cookie的开发人员工具>网络选项卡](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
 
-### Google VEC助手扩展
+### [!DNL Adobe Target] VEC助手扩展
 
-[!DNL Adobe] 已将更新的VEC助手扩展提交到Google Chrome应用商店。此扩展会覆盖Cookie属性，以根据需要设置`SameSite="none"`属性。 可在此处](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)找到[更新的扩展。 有关安装和使用VEC助手扩展的更多信息，请参阅[可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
+从版本0.7.1开始， [!DNL Adobe Target] VEC助手浏览器扩展将 `SameSite=None` 和 `Secure` 当在扩展UI中打开“Cookie”切换开关时，将属于来自VEC中编辑的网页的响应中的所有Cookie:
 
-对于您自己的网站Cookie，必须按名称指定Cookie。
-
->[!NOTE]
->
->仅当在单个域中设置了所有Cookie时，此方法才适用。 VEC助手不允许[!DNL Target]为多个域指定Cookie。
-
-将[!UICONTROL Cookie]滑块切换到开位置，然后按名称和Cookie域指定Cookie。 Cookie名称为“mbox”，Cookie域是您提供mbox的域的二级和顶级域。 由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`. 有关更多信息，请参阅《Experience Cloud界面用户指南》**&#x200B;中的[Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html??lang=zh-Hans)。
-
-![Cookie在VEC助手扩展中切换](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+![Adobe Target VEC助手扩展UIAdobe Target VEC助手扩展UI](assets/cookies-vec-helper.png)
 
 ### 备选方案和解决方法
 
 使用以下选项之一确保您的VEC和EEC继续按预期工作：
 
-* 下载并使用更新的[VEC助手扩展](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)。
+* 下载并使用更新的 [VEC助手扩展](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
 * 使用Mozilla Firefox浏览器。 Firefox尚未强制实施此策略。
-* 使用以下标记从命令行运行Google Chrome，直到2021年9月21日。 9月21日之后，VEC中将不再提供需要Cookie的功能，例如登录或Cookie同意弹出窗口。 如果更新到Chrome 94，则必须在您的网站上手动生成包含`SameSite=none`和`Secure`的Cookie。
+* 使用以下标记从命令行运行Google Chrome，直到2021年9月21日。 9月21日之后，VEC中将不再提供需要Cookie的功能，例如登录或Cookie同意弹出窗口。 如果您更新到Chrome 94，则必须通过 `SameSite=none` 和 `Secure` 在您的网站上。
 
    ```
    --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
    ```
 
-## [!DNL Target]是否支持多级iframe?
+## 是 [!DNL Target] 是否支持多级iframe?
 
 [!DNL Target] 不支持多级 iframe。如果您的网站加载的iframe具有子iframe，则at.js仅与父iframe交互。 [!DNL Target] 库不会与子 iframe 进行交互。
 
@@ -90,7 +82,7 @@ ht-degree: 49%
 
 如果URL包含#字符，则可能会发生这种情况。 要解决此问题，请在可视化体验编辑器中切换到“浏览”模式，然后再切换回“撰写”模式。此时，旋转图标应当消失，页面应会加载。
 
-## 内容安全策略(CSP)标头会阻止我网站上的[!DNL Target]库。 （VEC 和 EEC） {#section_89A30C7A213D43BFA0822E66B482B803}
+## 内容安全策略(CSP)标头会阻止 [!DNL Target] 库。 （VEC 和 EEC） {#section_89A30C7A213D43BFA0822E66B482B803}
 
 如果您网站的 CSP 标头会阻止 Target 库，从而导致加载了网站却无法进行编辑，则请确保 Target 库不受阻止。
 
@@ -121,11 +113,11 @@ ht-degree: 49%
 
 ## 我在页面上更改一个元素时，多个元素会发生更改。（VEC 和 EEC） {#section_309188ACF34942989BE473F63C5710AF}
 
-如果页面上的多个元素使用相同的 DOM 元素 ID，则更改其中一个元素会导致具有该 ID 的所有元素都发生更改。为防止这种情况发生，一个 ID 只应在每个页面上使用一次。此做法是标准的HTML最佳实践。 有关更多信息，请参阅[页面修改方案](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+如果页面上的多个元素使用相同的 DOM 元素 ID，则更改其中一个元素会导致具有该 ID 的所有元素都发生更改。为防止这种情况发生，一个 ID 只应在每个页面上使用一次。此做法是标准的HTML最佳实践。 有关更多信息，请参阅 [页面修改方案](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## 我无法编辑防 iFrame 嵌套网站的体验。（VEC 和 EEC） {#section_9FE266B964314F2EB75604B4D7047200}
 
-启用增强型体验编辑器即可解决此问题。单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]**，然后选中启用增强型体验编辑器的复选框。 增强型体验编辑器使用 Adobe 管理的代理来加载页面以进行编辑。此代理允许在防iFrame嵌套的网站上进行编辑，并允许在尚未添加Adobe Target代码的网站和页面上进行编辑。 在添加代码之前，活动不会向网站交付内容。有些网站可能无法通过增强型体验编辑器来加载，在这种情况下，您可以取消选中此选项以通过 iFrame 加载可视化体验编辑器。
+启用增强型体验编辑器即可解决此问题。单击 **[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]**，然后选中启用增强型体验编辑器的复选框。 增强型体验编辑器使用 Adobe 管理的代理来加载页面以进行编辑。此代理允许在防iFrame嵌套的网站上进行编辑，并允许在尚未添加Adobe Target代码的网站和页面上进行编辑。 在添加代码之前，活动不会向网站交付内容。有些网站可能无法通过增强型体验编辑器来加载，在这种情况下，您可以取消选中此选项以通过 iFrame 加载可视化体验编辑器。
 
 >[!NOTE]
 >

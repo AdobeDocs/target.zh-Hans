@@ -4,14 +4,14 @@ description: 了解如何在 [!DNL Adobe Target].
 title: 什么是客户属性？如何使用这些属性？
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 19b012a0fcbf5195b12990f0a634a90597850899
+source-git-commit: 970d0fd90d517b14fff7a36fd4406a37932d8d2e
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 32%
+source-wordcount: '1572'
+ht-degree: 33%
 
 ---
 
-# [未定义](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)
+# 客户属性
 
 有关在中使用客户关系管理(CRM)数据库中的企业客户数据进行内容定位的信息 [!DNL Adobe Target] 在 [!DNL Adobe Enterprise Cloud People] 服务。
 

@@ -4,10 +4,10 @@ description: 了解如何在 [!DNL Adobe Target].
 title: 什么是客户属性？如何使用这些属性？
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 970d0fd90d517b14fff7a36fd4406a37932d8d2e
+source-git-commit: a600559cd4aa6bf4335af4ef1143472183a998ff
 workflow-type: tm+mt
-source-wordcount: '1572'
-ht-degree: 33%
+source-wordcount: '1575'
+ht-degree: 32%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 33%
 * 请注意有关文件上载的限制，如 [关于客户属性的数据文件和数据源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) 在 *Experience Cloud中心界面组件指南*. 作为最佳实践：
 
    * 上载单个大文件(在 [指定的限制](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en))。 与多个较小文件相比，首选使用单个大文件。
-   * 如果必须将上传拆分为多个文件，请确保在提交新文件之前已完全处理文件。 在提交下一批之前，请确保对批处理中的每个文件进行了完全处理。
+   * 如果必须将上传拆分为多个文件，请确保在提交新文件之前已完全处理文件。 确保在提交批处理中的下一个文件之前，已完全处理批处理中的每个文件。
 
 * [!DNL Adobe] 不保证100%的来自CRM数据库的客户属性（访客配置文件）数据会载入到 [!DNL Experience Cloud] 因此，可用于在 [!DNL Target]. 在当前设计中，可能未载入少量数据（大型生产批次的0.1%）。
 * 从 [!DNL Experience Cloud] to [!DNL Target] 取决于访客配置文件的生命周期，默认为14天。 有关更多信息，请参阅 [访客配置文件生命周期](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).

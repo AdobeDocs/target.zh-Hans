@@ -4,10 +4,10 @@ description: 了解如何将电子邮件与 Adobe  [!DNL Target Recommendations]
 title: 如何将“推荐”与电子邮件集成？
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: cd7b60ce00d9890cf7e84047621641fb9e8d2c8f
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 81%
+source-wordcount: '1712'
+ht-degree: 80%
 
 ---
 
@@ -82,7 +82,7 @@ curl -X POST \
 
 ## 方法2:使用rawbox电子邮件模板 {#rawbox}
 
-rawbox 类似于 mbox 请求，但适用于诸如电子邮件服务提供商 (ESP) 之类的非 Web 环境。由于没有可用于 rawbox 请求的 [!DNL mbox.js] 或 [!DNL at.js]，因此您必须手动创建请求。以下示例介绍了如何在电子邮件中处理 rawbox 请求。
+rawbox 类似于 mbox 请求，但适用于诸如电子邮件服务提供商 (ESP) 之类的非 Web 环境。因为你没有 [!DNL Adobe Experience Platform Web SDK] 或 [!DNL at.js] 要在rawbox请求中使用，您必须手动创建请求。 以下示例介绍了如何在电子邮件中处理 rawbox 请求。
 
 >[!NOTE]
 >

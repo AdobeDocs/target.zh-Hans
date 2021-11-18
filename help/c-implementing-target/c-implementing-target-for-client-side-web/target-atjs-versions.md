@@ -4,9 +4,9 @@ description: 查看有关每个版本的Adobe更改的详细信息 [!DNL Target]
 title: at.js的每个版本中都包含哪些内容？
 feature: at.js
 role: Developer
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '4278'
+source-wordcount: '4280'
 ht-degree: 88%
 
 ---
@@ -435,7 +435,7 @@ at.js 版本 1.0 中包含以下增强功能和修复：
 **日期：** 2016 年 7 月 14 日
 
 * 在 at.js 中为访客 ID 服务提供了一个超时，它与该服务自身的超时无关。
-* 更正了 0.9.0 中的一个问题，该问题会影响在某些页面上使用 at.js，而在其他页面上使用 mbox.js 的实施。
+* 更正了0.9.0中的一个问题，该问题会影响在某些页面上使用at.js，而在其他页面上使用mbox.js（现已弃用）的实施。
 * 如果您使用 Adobe Analytics 作为活动的报表源，并且使用的是 mbox.js 版本 61（或更高版本）或者 at.js 版本 0.9.1（或更高版本），则无需在活动创建期间指定跟踪服务器。at.js库会自动将跟踪服务器值发送到 [!DNL Target]. 在活动创建期间，您可以将“[!UICONTROL 目标和设置]”页面上的“[!UICONTROL 跟踪服务器]”字段留空。
 
 ## at.js 版本 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}

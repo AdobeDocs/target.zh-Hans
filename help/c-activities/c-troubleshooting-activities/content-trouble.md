@@ -4,9 +4,9 @@ description: 如果页面未显示预期的内容，可查找建议以帮助解�
 title: 如何为内容投放排除故障？
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1630'
 ht-degree: 68%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 68%
 
 | mboxTrace 选项 | 结果 |
 |--- |--- |
-| `?mboxTrace=console` | 作为对象打印到控制台日志中。<br>对于at.js，不会像在mbox.js中一样弹出新的浏览器窗口或输出到控制台，您而是需要检查网络请求，并在“预览”(Chrome)或“响应”(Firefox)下查看。 |
+| `?mboxTrace=console` | 作为对象打印到控制台日志中。<br>对于at.js，不会像在mbox.js中一样弹出新的浏览器窗口或输出到控制台（现在已弃用），您而是需要检查网络请求，并在“预览”(Chrome)或“响应”(Firefox)下查看。 |
 | `?mboxTrace=json` | 作为 JSON 文字字符串打印到控制台日志中 |
 | `?mboxTrace=window` | 作为 JSON 字符串打印到弹出窗口中 |
 | `?mboxTrace=disable` | 关闭跟踪会话模式 |

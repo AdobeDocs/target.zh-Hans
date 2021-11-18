@@ -1,15 +1,14 @@
 ---
 keywords: mboxCreate;mboxcreate;mbox 创建;at.js;函数;函数
-description: 使用Adobe [!DNL Target] at.js JavaScript库的mboxCreate()函数将优惠应用于具有mboxDefault类名称的最接近的DIV。 (at.js 1.x)
+description: 使用mboxCreate()函数进行Adobe [!DNL Target] at.js JavaScript库来使用mboxDefault类名称将选件应用到最近的DIV。 (at.js 1.x)
 title: 如何使用mboxCreate()函数？
 feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 85%
+source-wordcount: '205'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 85%
 >
 >此函数仅可用于 at.js 版本 1.*x*。此函数已在 at.js 2.x 版本中弃用。如果与 at.js 2.x 一起使用，此函数将返回默认内容。
 
-此函数内置于 [!DNL at.js]，主要用于简化从 [!DNL mbox.js] 到 [!DNL at.js] 的转换。`mboxCreate()` 的最新替代方案是 `adobe.target.getOffer()`/`adobe.target.applyOffer()` 或 Angular 指令。
+此函数内置于 [!DNL at.js] 主要是为了简化 [!DNL mbox.js] （现已弃用） [!DNL at.js]. `mboxCreate()` 的最新替代方案是 `adobe.target.getOffer()`/`adobe.target.applyOffer()` 或 Angular 指令。
 
 ## 示例
 

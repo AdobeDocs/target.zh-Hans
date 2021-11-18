@@ -4,10 +4,10 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '4503'
-ht-degree: 100%
+source-wordcount: '4504'
+ht-degree: 98%
 
 ---
 
@@ -244,9 +244,9 @@ Target Standard/Premium 20.10.1 版本中修复了此问题。
 
 在“实现”选项卡（[!UICONTROL “管理”>“实现”]）上，对于新配置的租户，[!UICONTROL “全局 Mbox 自动创建”]字段默认将为“false”。
 
-在配置后首次下载 mbox.js 时，“[!UICONTROL 全局 Mbox 自动创建]”字段在下载的 mbox.js 文件和 [!DNL Target] 后端中将设置为“true”，但它将继续在 UI 中的“[!UICONTROL 实施]”页面上显示为“false”，直到页面刷新为止（页面刷新后，状态将为“true”）。
+在配置后首次下载at.js时， [!UICONTROL 全局Mbox自动创建] 字段中的值被设置为“true”，则在下载的at.js文件和 [!DNL Target] 后端，但它将继续在 [!UICONTROL 实施] 页面刷新之前（页面刷新后，状态将为“true”）。
 
-对于新配置的租户，在下载的 at.js 中将设置 `global_mbox_autocreate = false`。如果先下载 mbox.js，则 global\_mbox\_autocreate 将设置为“true”，并且在下载的 at.js 中也将设置 `global_mbox_autocreate = true`。(TGT-15929)
+对于新配置的租户，在下载的 at.js 中将设置 `global_mbox_autocreate = false`。如果先下载mbox.js（现已弃用），则全局\_mbox\_autocreate会设置为“true”，并且at.js也会在 `global_mbox_autocreate = true`. (TGT-15929)
 
 ### [!DNL Target] API 中的企业权限支持  {#api}
 
@@ -440,7 +440,7 @@ Target 17.4.1 版本（2017 年 4 月 27 日版）中包含在报表中查看多
 
 ### at.js {#at-js-7}
 
-当用户在更新 at.js 设置后尝试从“实施详细信息”页面下载 at.js 时，将会下载 mbox.js 而不是 at.js。(TGT-23069)
+当用户在更新 at.js 设置后尝试从“实施详细信息”页面下载 at.js 时，将会下载 而不是 at.js。(TGT-23069)
 
 已在 Target 17.3.1 版本（2017 年 3 月 30 日版）中修复。
 

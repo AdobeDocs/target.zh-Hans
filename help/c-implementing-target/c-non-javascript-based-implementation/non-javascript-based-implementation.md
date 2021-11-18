@@ -1,14 +1,14 @@
 ---
-keywords: 实施;mbox.js 非 javascript;AdBox;重定向器;mbox
-description: 了解如何在非JavaScript情景（如使用AdBox或重定向器）中实施Adobe [!DNL Target] 。
-title: 如何为电子邮件实施 [!DNL Target] ?
-feature: 实施电子邮件
+keywords: 实施；at.js非javascript;Adbox；重定向器；mbox
+description: 了解如何实施Adobe [!DNL Target] 在非JavaScript情景中，例如使用AdBox或重定向器。
+title: 如何实施 [!DNL Target] 电子邮件？
+feature: Implement Email
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 81%
+source-wordcount: '432'
+ht-degree: 78%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 81%
 
 此信息介绍了如何在非 JavaScript 情景中实施 Target，例如使用 AdBox 或重定向器。
 
-您可以跟踪对广告和其他站外内容的访问次数。您还能识别您站内和站外的同一用户，并根据其全部的网络活动情况展示符合其特点的体验。AdBox 通过使用一个 URL 来进行测试，而无需使用 JavaScript、[!DNL at.js] 或 [!DNL mbox.js]。
+您可以跟踪对广告和其他站外内容的访问次数。您还能识别您站内和站外的同一用户，并根据其全部的网络活动情况展示符合其特点的体验。AdBox通过使用单个URL进行测试，而无需使用JavaScript或 [!DNL at.js].
 
-AdBox对于没有[!DNL at.js]的网站（如联属网站）非常有用。 如果您的活动需要动态创意（例如，您需要在广告中显示已从购物车中放弃的产品），那么您将不能使用 AdBox。
+AdBox对于没有 [!DNL at.js]，如附属活动。 如果您的活动需要动态创意（例如，您需要在广告中显示已从购物车中放弃的产品），那么您将不能使用 AdBox。
 
 AdBox 广告和重定向器可用于任何类型的活动。下表比较了 Adbox 和重定向器，同时还介绍了二者分别在何时使用：
 

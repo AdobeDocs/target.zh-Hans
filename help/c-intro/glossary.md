@@ -1,12 +1,12 @@
 ---
 description: Adobe [!DNL Target] 中使用的各种术语表示什么？查找常用术语的定义以帮助您充分利用 [!DNL Target]。
 title: 可在何处找到 Target 中使用的术语和定义？
-feature: 概述
+feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 100%
+source-wordcount: '2425'
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ A/B 测试可比较两个或更多版本的网站内容，以查看在预先指�
 
 测试并跟踪对广告和其他站外内容的访问。您还可以使用行为广告来识别您站内和站外的同一用户，并根据其全部的网络活动情况展示符合其特点的体验。
 
-## C  {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
+## C {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
 
 **campaign（营销活动）**
 
@@ -108,7 +108,7 @@ A/B 测试可比较两个或更多版本的网站内容，以查看在预先指�
 
 确定要推荐哪些产品或内容的规则。标准可基于流行趋势、访客的当前与过去行为，或相似的产品和内容。
 
-## D  {#section_CD712B37316C45F58F82113707A98D5C}
+## D {#section_CD712B37316C45F58F82113707A98D5C}
 
 **DAM**
 
@@ -138,7 +138,7 @@ A/B 测试可比较两个或更多版本的网站内容，以查看在预先指�
 
 使用动态页面技术将值传递给选件。
 
-## E  {#section_55C3D8AF3D31494784C70090D8343244}
+## E {#section_55C3D8AF3D31494784C70090D8343244}
 
 **engagement（参与度）**
 
@@ -172,7 +172,7 @@ A/B 测试可比较两个或更多版本的网站内容，以查看在预先指�
 
 体验定位 (XT) 可根据营销人员定义的一组规则和标准，将内容交付给指定的受众。
 
-## F  {#section_45450032955C4DD2B607B85A23C4E21A}
+## F {#section_45450032955C4DD2B607B85A23C4E21A}
 
 **feed（信息源）**
 
@@ -196,7 +196,7 @@ Target Standard 中活动的可视化表现形式。
 
 表示活动取得成果的转化或结果。如果没有设定目标来以某种特定方式做出改进，最好不要运行测试。
 
-## H  {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **主机**
 
@@ -212,7 +212,7 @@ Target Standard 中活动的可视化表现形式。
 
 从 mbox 传递到访客 Cookie 的访客特定参数。回访客户就属于一种 mbox 内配置文件参数。
 
-## L  {#section_9F81FB4EED15412BB51B286512E1C5FC}
+## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
 **landing page activity（登陆页活动）**
 
@@ -222,11 +222,15 @@ Target Standard 中活动的可视化表现形式。
 
 页面上的特定内容区域，通常包含在单个 DOM 元素中。在 MVT 方法中，有时将内容称为“因子”**。全因子多变量测试会比较您的位置中所有可能的选件组合。
 
-## M  {#section_FA130A5F610F4B5DA7A88CF119B8F422}
+## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
 “营销框”，您网页上显示内容并记录访客行为的位置。有些 mbox 不显示任何内容，而是通过您的网站跟踪访客的进展，或跟踪该访客是否完成某个特定的成功量度，例如将一件物品添加到购物车或者完成一次购买。这一类型的 mbox 有“转化 mbox”**。
+
+**mbox.js**
+
+A [!DNL Target] 已弃用的JavaScript实施库。
 
 **mbox parameter（mbox 参数）**
 
@@ -272,7 +276,7 @@ Target Standard 中活动的可视化表现形式。
 
 如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。
 
-## R  {#section_86725D549B6F46A6ADEE424F33595705}
+## R {#section_86725D549B6F46A6ADEE424F33595705}
 
 **recipe（方法）**
 

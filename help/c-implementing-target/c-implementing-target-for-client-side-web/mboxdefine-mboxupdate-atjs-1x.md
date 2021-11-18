@@ -1,14 +1,14 @@
 ---
 keywords: mboxDefine;mboxdefine;mbox 定义;mboxUpdate;mboxupdate;mbox 更新;at.js;函数;函数
-description: 使用Adobe [!DNL Target] at.js JavaScript库的mboxDefine()和mboxUpdate()函数来定义或更新mbox。 (at.js 1.x)
+description: 将mboxDefine()和mboxUpdate()函数用于Adobe [!DNL Target] at.js JavaScript库来定义或更新mbox。 (at.js 1.x)
 title: 如何使用mboxDefine()和mboxUpdate()函数？
 feature: at.js
 role: Developer
 exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 86%
+source-wordcount: '200'
+ht-degree: 75%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 86%
 
 ## mboxDefine {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
 
-创建 nodeId 和 mbox 名称之间的内部映射，但不执行请求。与 `mboxUpdate()` 一起使用。内置于 [!DNL at.js]，主要用于简化从 [!DNL mbox.js] 到 [!DNL at.js] 的转换。
+创建 nodeId 和 mbox 名称之间的内部映射，但不执行请求。与 `mboxUpdate()` 一起使用。内置于 [!DNL at.js] 主要是为了简化 [!DNL mbox.js] （现已弃用） [!DNL at.js].
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
-执行请求并将选件应用到由 `nodeId` () 中的 `mboxDefine()` 标识的元素。也可以用来更新由 `mboxCreate` 发起的 mbox。内置于 [!DNL at.js]，主要用于简化从 [!DNL mbox.js] 到 [!DNL at.js] 的转换。`mboxDefine()`/`mboxUpdate()` 可以使用选项器替换为 [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) 和 [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)。
+执行请求并将选件应用到由 `nodeId` () 中的 `mboxDefine()` 标识的元素。也可以用来更新由 `mboxCreate` 发起的 mbox。内置于 [!DNL at.js] 主要是为了简化 [!DNL mbox.js] （现已弃用） [!DNL at.js]. `mboxDefine()`/`mboxUpdate()` 可以使用选项器替换为 [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) 和 [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)。
 
 ## 示例 {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 

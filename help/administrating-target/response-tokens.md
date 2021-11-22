@@ -5,9 +5,9 @@ title: 什么是响应令牌？如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1620'
 ht-degree: 27%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 27%
    |  | `profile.thirdPartyId` | 返回访客的第三方 ID。 |
    |  | `profile.categoryAffinity` | 返回访客最喜欢的类别。 |
    |  | `profile.categoryAffinities` | 将该访客排名前 5 的类别的数组作为字符串返回。 |
-   | 活动 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 当前活动的详细信息。请注意，“option”等同于“offer”。 |
+   | 活动 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 当前活动的详细信息。<br> 请注意，选件参数的值将在体验级别进行评估。 |
    | 地域 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 请参阅[地域](/help/c-target/c-audiences/c-target-rules/geo.md)以了解在活动中使用地域定位的详细信息。 |
    | 流量分配方法<br>(适用于 [!UICONTROL 自动定位] 和 [!UICONTROL Automated Personalization] 活动。) | `experience.trafficAllocationId` | 如果访客从“控制”流量中收到体验，则返回0；如果访客从“目标”流量分发中收到体验，则返回1。 |
    |  | `experience.trafficAllocationType` | 返回“控制”或“已定位”。 |

@@ -5,9 +5,9 @@ title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -15,29 +15,29 @@ ht-degree: 84%
 
 关于即将举办的活动的公告和信息，包括 [!DNL Adobe Target] Skill Builder 讲座、开发人员聊天、网络研讨会和 [!DNL Target] Coffee Break 讲座。
 
-## [!DNL Adobe Target] 社区问答喝咖啡休息时间 （2021年11月10日）
+## [!DNL Adobe Target] 社区问答喝咖啡休息时间（2021 年 11 月 10 日）
 
-* **2021年11月10日星期三**
-* **早上8点。（太平洋标准时间，UTC -8）**
+* **2021 年 11 月 10 日星期三**
+* **上午 8 点（PST，UTC -8）**
 * **[更多信息和注册信息](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
 
-Cristinel &quot;Muti&quot; Anastasoaie，高级产品经理 [!DNL Adobe Target]，将回答有关其专业领域的问题：
+[!DNL Adobe Target] 高级产品经理 Cristinel &quot;Muti&quot; Anastasoaie 将解答您对他的专业领域存有的疑问：
 
 * [!DNL Target] 用户界面
 * [!DNL Target] 集成
-* [!UICONTROL 企业权限] 和 [!UICONTROL 工作区]
+* [!UICONTROL 企业权限]和[!UICONTROL 工作区]
 
-## [!DNL Adobe Target] 社区问答型咖啡时间（2021年12月8日）
+## [!DNL Adobe Target] 社区问答喝咖啡休息时间（2021 年 12 月 8 日）
 
-* **2021年12月8日星期三**
-* **早上8点。（太平洋标准时间，UTC -8）**
+* **2021 年 12 月 8 日星期三**
+* **上午 8 点（PST，UTC -8）**
 * **[更多信息和注册信息](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697)**
 
-Robert Calangiu，高级产品经理 [!DNL Adobe Target]，将回答有关其专业领域的问题：
+[!DNL Adobe Target] 高级产品经理 Robert Calangiu 将解答您对他的专业领域存有的疑问：
 
-* [!DNL Target] 设置和管理UI
-* [!UICONTROL Analytics for Target] (A4T)集成
-* [!DNL Adobe Audience Manager] (AEM)集成
+* [!DNL Target] 设置和管理 UI
+* [!UICONTROL Analytics for Target] (A4T) 集成
+* [!DNL Adobe Audience Manager] (AEM) 集成
 * 常规 [!DNL Target] UI
 
 ## 网络研讨会：通过 Adobe Target 的设备上决策进行无延迟的个性化和测试

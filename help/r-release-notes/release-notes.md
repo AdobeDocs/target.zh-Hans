@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
 source-wordcount: '1153'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -24,37 +24,37 @@ ht-degree: 72%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## at.js版本2.7.0（2021年10月28日）
+## at.js 版本 2.7.0（2021 年 10 月 28 日）
 
 此版本包含以下增强功能：
 
-* 添加了 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 要在自定义元素和自定义元素内的元素上创建和测试个性化体验和选件，需要使用此版本的at.js。 此功能包含在 [!DNL Target Standard/Premium] 21.10.5版本。
+* 添加了对 [Web 组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支持。在自定义元素以及自定义元素内部的元素上创建和测试个性化的体验及方案时，需要此版本的 at.js。此功能包括在 [!DNL Target Standard/Premium] 21.10.5 版本中。
 
-## [!DNL Target Standard/Premium] 21.10.5（2021年10月28日）
-
-此维护版本包含以下增强功能：
-
-| 功能 | 详细信息 |
-| --- | --- |
-| 可视化体验编辑器 (VEC) | 添加了 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 可以在自定义元素和自定义元素内的元素上创建和测试个性化体验和选件。<br>有关更多信息，请参阅 [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
-
-## [!DNL Target Standard/Premium] 21.10.4（2021年10月21日）
+## [!DNL Target Standard/Premium] 21.10.5（2021 年 10 月 28 日）
 
 此维护版本包含以下增强功能：
 
 | 功能 | 详细信息 |
 | --- | --- |
-| 基于购物车的Recommendations | 添加了一系列新的算法，用于根据访客购物车的内容提供推荐。<br>有关更多信息，请参阅 [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md)、“购物车加货/购物车查看/结帐页面”和“排除访客购物车中已有的项目”(位于 [规划和实施Recommendations](/help/c-recommendations/plan-implement.md)，以及 [使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
+| 可视化体验编辑器 (VEC) | 添加了对 [Web 组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支持。可以在自定义元素以及自定义元素内部的元素上创建和测试个性化的体验和方案。<br>有关更多信息，请参阅[可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom)。 |
 
-## [!DNL Target Standard/Premium] 21.10.3（2021年10月19日）
+## [!DNL Target Standard/Premium] 21.10.4（2021 年 10 月 21 日）
 
-此维护版本包含以下增强、修复和更改：
+此维护版本包含以下增强功能：
 
-* 修复了阻止客户打开 [!UICONTROL A4T] 面板 [!DNL Analysis Workspace] 单击 [!UICONTROL 在Analytics中查看] 按钮 [!DNL Target] 活动报表。 (TGT-42099、TGT-42100)
-* 修复了导致 [!UICONTROL 编辑设计] 按钮，在编辑时不显示 [!UICONTROL A/B测试] 和 [!UICONTROL 体验定位] (XT)活动 [!UICONTROL 基于表单的体验编辑器]. (TGT-41980)
-* 修复了阻止 [!UICONTROL 兼容] 复选框，以在创建新 [!UICONTROL Recommendations] 活动。 (TGT-42053)
-* 修复了在无法选择 [!DNL Analytics] 作为报表源(A4T)，因为 [!DNL Analytics] 权限。 (TGT-41954)
-* 实施了多项辅助功能修复，以改进 [!DNL Target] UI。
+| 功能 | 详细信息 |
+| --- | --- |
+| 基于购物车的推荐 | 添加了新的算法系列，可根据访客购物车的内容提供推荐。<br>有关更多信息，请参阅[创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md)中的“基于购物车”，[计划和实施推荐](/help/c-recommendations/plan-implement.md)中的“购物车添加/购物车查看/结账页面”和“排除访客购物车中已有的商品”，以及[根据推荐键提供推荐](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)中的“基于购物车”。 |
+
+## [!DNL Target Standard/Premium] 21.10.3（2021 年 10 月 19 日）
+
+此维护版本包含以下增强功能、修复和更改：
+
+* 修复了阻止客户在 [!DNL Analysis Workspace] 中通过单击 [!DNL Target] 活动报告中的[!UICONTROL 在 Analytics 中查看]按钮来打开 [!UICONTROL A4T] 面板的问题。（TGT-42099、TGT-42100）
+* 修复了在使用[!UICONTROL 基于表单的体验编辑器]来编辑 [!UICONTROL A/B 测试]和[!UICONTROL 体验定位] (XT) 活动时，导致[!UICONTROL 编辑设计]按钮不显示的问题。(TGT-41980)
+* 修复了在创建新的[!UICONTROL 推荐]活动时，导致在标准选择中不显示[!UICONTROL 兼容]复选框的问题。(TGT-42053)
+* 修复了由于缺少 [!DNL Analytics] 权限而无法选择 [!DNL Analytics] 作为报表源 (A4T) 时显示的不正确的错误消息。(TGT-41954)
+* 实施了多个辅助功能修复，以改进 [!DNL Target] UI 中的键盘导航功能。
 
 ## [!DNL Target Standard/Premium] 21.10.2（2021 年 10 月 13 日）
 
@@ -94,8 +94,8 @@ ht-degree: 72%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| [!UICONTROL 受众] UI 刷新 | 作为 [!DNL Adobe Target] 团队努力改进的 [!DNL Target] 用户体验的一部分，此版本刷新了 [!DNL Target] UI 中的[!UICONTROL 受众]和[!UICONTROL 个人资料脚本]页面。此更新统一并标准化了以前不一致的设计模式，并添加了新的增强功能，例如：<ul><li>同时选择和删除多个受众的功能</li><li>刷新的[受众生成器设计](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 受众]库规则生成器中的排除规则支持</li><li>新的“受众来源”筛选器，可用于更快地发现受众</li><li>会话持久搜索和筛选选项</li></ul>有关更多信息，请参阅[受众](/help/c-target/target.md)。<br>**注意**:新 [!UICONTROL 受众] UI仅供选择的客户使用。 从2022年1月起，该更新将逐步推广到所有客户。 |
-| [!UICONTROL 个人资料脚本] UI 刷新 | [!UICONTROL 个人资料脚本]库也已更新，并且包含一个更新后的界面和几项生产力更新：<ul><li>同时选择和删除多个个人资料脚本的功能</li><li>个人资料脚本的新代码编辑器</li><li>代码编辑器中的语法突出显示和错误检查</li><li>通过键盘快捷键自动完成令牌（mbox 或 profile）参数</li></ul>有关更多信息，请参阅[访客个人资料](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注意**:新 [!UICONTROL 配置文件脚本] UI仅供选择的客户使用。 从2022年1月起，该更新将逐步推广到所有客户。 |
+| [!UICONTROL 受众] UI 刷新 | 作为 [!DNL Adobe Target] 团队努力改进的 [!DNL Target] 用户体验的一部分，此版本刷新了 [!DNL Target] UI 中的[!UICONTROL 受众]和[!UICONTROL 个人资料脚本]页面。此更新统一并标准化了以前不一致的设计模式，并添加了新的增强功能，例如：<ul><li>同时选择和删除多个受众的功能</li><li>刷新的[受众生成器设计](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 受众]库规则生成器中的排除规则支持</li><li>新的“受众来源”筛选器，可用于更快地发现受众</li><li>会话持久搜索和筛选选项</li></ul>有关更多信息，请参阅[受众](/help/c-target/target.md)。<br>**注意**：新的[!UICONTROL 受众] UI 仅向部分客户提供。该更新将于 2022 年 1 月面向所有客户逐步推出。 |
+| [!UICONTROL 个人资料脚本] UI 刷新 | [!UICONTROL 个人资料脚本]库也已更新，并且包含一个更新后的界面和几项生产力更新：<ul><li>同时选择和删除多个个人资料脚本的功能</li><li>个人资料脚本的新代码编辑器</li><li>代码编辑器中的语法突出显示和错误检查</li><li>通过键盘快捷键自动完成令牌（mbox 或 profile）参数</li></ul>有关更多信息，请参阅[访客个人资料](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注意**：新的[!UICONTROL 个人资料脚本] UI 仅向部分客户提供。该更新将于 2022 年 1 月面向所有客户逐步推出。 |
 | ![Premium 徽章](/help/assets/premium.png) 推荐标准的创建和编辑 | [!UICONTROL 推荐标准]的创建和编辑工作流已经过简化，以简化选择正确的推荐算法和设置以实现目标的过程。<br>有关更多信息，请参阅[创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md)。 |
 | ![Premium 徽章](/help/assets/premium.png) 推荐的回溯时段和算法刷新率改进 | 您现在可以运行具有 6 小时的回溯时段的“查看次数最多”和“最畅销商品”算法，以捕获最近流行的内容。选择 6 小时的回溯时段后，您的推荐结果会全天每 3-6 小时更新一次。<br>有关更多信息，请参阅&#x200B;*创建标准*&#x200B;中的[数据源](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)。 |
 

@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 68%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 * 使用 mboxTrace 或 mboxDebug 为 [!DNL Target] 请求排除故障。
 * 使用 Adobe Experience Cloud Debugger（一个易于使用的工具，它与 mboxDebug 提供几乎相同的信息）为 [!DNL Target] 请求排除故障。
 
-在设置 [!DNL Target] ，以确保触发Target请求并设置Cookie。 但是，在调试内容交付时，mboxDebug 并不会提供有用的详细信息。如果活动未显示在页面上或页面上显示了不需要的内容，请使用 mboxTrace 对页面进行细致的检查和调试。
+当您在您的页面上设置 [!DNL Target] 以确保触发 Target 请求并且设置 Cookie 时，mboxDebug 特别有用。但是，在调试内容交付时，mboxDebug 并不会提供有用的详细信息。如果活动未显示在页面上或页面上显示了不需要的内容，请使用 mboxTrace 对页面进行细致的检查和调试。
 
 ## 检索要用于调试工具的授权令牌 {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -65,7 +65,7 @@ ht-degree: 68%
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-输出会显示有关您的内容的详细信息。 mboxTrace显示有关您的营销活动或活动及用户档案的详细信息。它还提供了执行前配置文件的快照，以及执行后更改的内容的快照。 同时，也显示为各个位置评估了哪些营销活动或活动。
+输出显示有关您内容的详细信息。mboxTrace 显示有关您的营销活动或者活动和个人资料的详细信息。它还提供执行之前的个人资料快照，以及在执行之后所发生变化的快照。同时，也显示为各个位置评估了哪些营销活动或活动。
 
 某些信息包含匹配和不匹配的客户群和定位 ID：
 
@@ -85,7 +85,7 @@ ht-degree: 68%
 
 您不需要在查询参数中包含 `=console`、`=json` 或 `=window`。完成 mboxTrace 详细信息后，添加 `=disable`，然后按 **[!UICONTROL Enter]** 返回到正常显示模式。
 
-您网站的正常功能和外观不受 mboxTrace 的影响。访客可以看到您的常规Recommendations设计。
+您网站的正常功能和外观不受 mboxTrace 的影响。访客可以看到您的常规推荐设计。
 
 ## mboxDebug {#mboxdebug}
 
@@ -114,7 +114,7 @@ ht-degree: 68%
 
 有关更多信息，请参阅下面的培训视频：
 
-有关更多详细信息，请参阅 [使用Adobe Experience Cloud调试器调试at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+有关更多详细信息，请参阅[使用 Adobe Experience Cloud Debugger 调试 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)。
 
 ## 推荐中未显示最畅销商品 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -132,11 +132,11 @@ Target 不再支持 IE 8。
 
 如果您的网站具有一个子域（例如 [!DNL us.domain.com]），但您需要在 [!DNL domain.com]（而不是 [!DNL us.domain.com]）上设置 Target Cookie，则必须覆盖 `cookieDomain` 设置。有关更多信息，请参阅 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
 
-## 如果某个元素同时也是Adobe Experience Manager个性化的一部分，则Target内容会闪烁或无法显示。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## 如果某个元素也是 Adobe Experience Manager 个性化的一部分，则 Target 内容会闪烁或无法显示。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
 如果某个 DOM 元素是 Adobe Experience Manager (AEM) 个性化定位和 Target 活动的一部分，则 Target 内容可能会闪烁或无法显示。
 
-要解决此问题，您可以在运行Target的页面上禁用AEM个性化。
+要修复这种状况，您可以在运行 Target 的页面上禁用 AEM 个性化。
 
 ## 由于 URL 无效，无法交付重定向选件和远程选件。 {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -150,45 +150,45 @@ Target 不再支持 IE 8。
 
 可在浏览器中或使用 mboxTrace 检查 [!DNL Target] 响应。有关有效 URL 的更多信息，请参阅 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66)。
 
-## [!DNL Target]我的网站上不触发 请求。
+## 我的网站上不触发 [!DNL Target] 请求。
 
 如果所使用的 doctype 无效，则 at.js 不触发 Target 请求。at.js 需要 HTML 5 doctype。
 
-## 确保 [!DNL Target] 活动可正确处理包含查询字符串参数的URL。 {#query-strings}
+## 确保 [!DNL Target] 活动正确处理包含查询字符串参数的 URL。 {#query-strings}
 
-的 [!UICONTROL 活动URL] 确定符合活动访客条件并向用户呈现活动体验的页面。 在活动创建过程中，如果出现提示，键入完整的URL并不总能确保内容是在该网站页面上交付的，尤其是包含查询字符串参数的URL。
+[!UICONTROL 活动 URL] 确定授予访客参加活动资格并向用户呈现活动体验的页面。在活动创建期间出现提示时，键入完整的 URL 并不总是能确保在该网站页面上提供内容，尤其是当 URL 包含查询字符串参数时。
 
-默认情况下， [!UICONTROL 可视化体验编辑器] (VEC)打开您的 [可视化体验编辑器设置](/help/administrating-target/visual-experience-composer-set-up.md). 您还可以在活动创建期间指定其他页面。
+默认情况下，[!UICONTROL 可视化体验编辑器] (VEC) 打开[可视化体验编辑器设置](/help/administrating-target/visual-experience-composer-set-up.md)中指定的页面。您也可以在活动创建期间指定不同页面。
 
-要在VEC打开后显示其他页面，请单击 **[!UICONTROL 配置齿轮图标]** >选择 **[!UICONTROL 页面交付]** > ，然后在 [!UICONTROL 活动URL] 字段。
+要在 VEC 打开后显示不同的页面，请单击&#x200B;**[!UICONTROL 配置齿轮图标]** > 选择&#x200B;**[!UICONTROL 页面传递]** > 在[!UICONTROL 活动 URL] 字段中指定所需 URL。
 
-![配置页面交付设置UI](assets/configure-page-delivery.png)
+![配置页面传递设置 UI](assets/configure-page-delivery.png)
 
-但是，如果URL包含查询字符串参数，该怎么办？ 它是否有效并显示个性化内容？ 在此方案中，无论您的目标受众是什么，您都可以在基本URL之外还包含模板规则来定义查询参数。
+但是，如果 URL 包含查询字符串参数呢？它是否会生效并显示个性化内容？在此场景中，无论目标受众是谁，您都可以在基础 URL 之外包括模板规则，以定义您的查询参数。
 
-以下选项可用于包含其他模板规则：
+以下选项可用于包括额外的模板规则：
 
-### 选项1:复制URL并将其保留在模板规则中，并使用“包含”选项。
+### 选项 1：复制 URL 并使用“包含”选项将其保留在模板规则中。
 
-此选项可确保此URL符合活动条件，但请注意，其中附加了一些可能影响报表数据的拐角案例，这些案例会向包含基本URL的URL添加其他记录。
+此选项确保该 URL 符合活动的条件，但请注意，其上可能会附加极端情况，会影响您的报告数据，包含基础 URL 的 URL 会有额外的记录。
 
-在此方案中，URL为 `https://shopping.mycart.com?type=Summers%20Offers` 和其他模板规则“包含”相同的URL（由OR运算符分隔）：
+在此场景中，URL 是 `https://shopping.mycart.com?type=Summers%20Offers` 而额外的模板规则“包含”相同的 URL，以 OR 分隔符分隔：
 
-![在模板规则中复制URL](assets/option1.png)
+![在模板规则中复制 URL](assets/option1.png)
 
-### 选项2:限制仅包含查询字符串的URL“包含”条件。
+### 选项 2：限制 URL“包含”只具有查询字符串的条件。
 
-此选项中将应用上一个选项中讨论的拐角大小写，但此处的条件设置仅限于查询字符串。
+之前选项中讨论的极端情况适用于此选项，但这里的条件性设置仅限为查询字符串。
 
-在此方案中，URL为 `https://shopping.mycart.com?type=Summers%20Offers` 和其他模板规则“包含”的“仅”查询字符串，并使用OR运算符分隔：
+在此场景中，URL 是 `https://shopping.mycart.com?type=Summers%20Offers` 而额外的模板规则仅“包含”查询字符串，以 OR 分隔符分隔：
 
-![模板规则仅包含查询字符串](assets/option2.png)
+![仅包含查询字符串的模板规则](assets/option2.png)
 
-### 选项3:利用URL的特定部分，而不是定位完整的URL。
+### 选项 3：不定向到完整 URL，而是利用 URL 的特定部分。
 
-在此方案中，URL为 `https://shopping.mycart.com?type=Summers%20Offers` 和其他模板规则指定 [!UICONTROL 查询] with [!UICONTROL type] > [!UICONTROL 为（区分大小写）] > type=Summers%20Offers，由OR运算符分隔：
+在此场景中，URL 是 `https://shopping.mycart.com?type=Summers%20Offers`，额外的模板规则指定[!UICONTROL 查询] 的 [!UICONTROL type ] > [!UICONTROL  为（区分大小写）] > type=Summers%20Offers，以 OR 分隔符分隔：
 
-![利用URL特定部分的模板规则](assets/option3.png)
+![模板规则利用 URL 的特定部分](assets/option3.png)
 
 ## 培训视频
 

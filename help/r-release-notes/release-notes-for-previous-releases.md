@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
 source-wordcount: '32584'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,37 +23,37 @@ ht-degree: 99%
 
 ## 发行说明 - 2021
 
-### at.js版本2.7.0（2021年10月28日）
+### at.js 版本 2.7.0（2021 年 10 月 28 日）
 
 此版本包含以下增强功能：
 
-* 添加了 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 要在自定义元素和自定义元素内的元素上创建和测试个性化体验和选件，需要使用此版本的at.js。 此功能包含在 [!DNL Target Standard/Premium] 21.10.5版本。
+* 添加了对 [Web 组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支持。在自定义元素以及自定义元素内部的元素上创建和测试个性化的体验及方案时，需要此版本的 at.js。此功能包括在 [!DNL Target Standard/Premium] 21.10.5 版本中。
 
-### [!DNL Target Standard/Premium] 21.10.5（2021年10月28日）
-
-此维护版本包含以下增强功能：
-
-| 功能 | 详细信息 |
-| --- | --- |
-| 可视化体验编辑器 (VEC) | 添加了 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 可以在自定义元素和自定义元素内的元素上创建和测试个性化体验和选件。<br>有关更多信息，请参阅 [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
-
-## [!DNL Target Standard/Premium] 21.10.4（2021年10月21日）
+### [!DNL Target Standard/Premium] 21.10.5（2021 年 10 月 28 日）
 
 此维护版本包含以下增强功能：
 
 | 功能 | 详细信息 |
 | --- | --- |
-| 基于购物车的Recommendations | 添加了一系列新的算法，用于根据访客购物车的内容提供推荐。<br>有关更多信息，请参阅 [创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md)、“购物车加货/购物车查看/结帐页面”和“排除访客购物车中已有的项目”(位于 [规划和实施Recommendations](/help/c-recommendations/plan-implement.md)，以及 [使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
+| 可视化体验编辑器 (VEC) | 添加了对 [Web 组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支持。可以在自定义元素以及自定义元素内部的元素上创建和测试个性化的体验和方案。<br>有关更多信息，请参阅[可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom)。 |
 
-### [!DNL Target Standard/Premium] 21.10.3（2021年10月19日）
+## [!DNL Target Standard/Premium] 21.10.4（2021 年 10 月 21 日）
 
-此维护版本包含以下增强、修复和更改：
+此维护版本包含以下增强功能：
 
-* 修复了阻止客户打开 [!UICONTROL A4T] 面板 [!DNL Analysis Workspace] 单击 [!UICONTROL 在Analytics中查看] 按钮 [!DNL Target] 活动报表。 (TGT-42099、TGT-42100)
-* 修复了导致 [!UICONTROL 编辑设计] 按钮，在编辑时不显示 [!UICONTROL A/B测试] 和 [!UICONTROL 体验定位] (XT)活动 [!UICONTROL 基于表单的体验编辑器]. (TGT-41980)
-* 修复了阻止 [!UICONTROL 兼容] 复选框，以在创建新 [!UICONTROL Recommendations] 活动。 (TGT-42053)
-* 修复了在无法选择 [!DNL Analytics] 作为报表源(A4T)，因为 [!DNL Analytics] 权限。 (TGT-41954)
-* 实施了多项辅助功能修复，以改进 [!DNL Target] UI。
+| 功能 | 详细信息 |
+| --- | --- |
+| 基于购物车的推荐 | 添加了新的算法系列，可根据访客购物车的内容提供推荐。<br>有关更多信息，请参阅[创建标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md)中的“基于购物车”，[计划和实施推荐](/help/c-recommendations/plan-implement.md)中的“购物车添加/购物车查看/结账页面”和“排除访客购物车中已有的商品”，以及[根据推荐键提供推荐](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)中的“基于购物车”。 |
+
+### [!DNL Target Standard/Premium] 21.10.3（2021 年 10 月 19 日）
+
+此维护版本包含以下增强功能、修复和更改：
+
+* 修复了阻止客户在 [!DNL Analysis Workspace] 中通过单击 [!DNL Target] 活动报告中的[!UICONTROL 在 Analytics 中查看]按钮来打开 [!UICONTROL A4T] 面板的问题。（TGT-42099、TGT-42100）
+* 修复了在使用[!UICONTROL 基于表单的体验编辑器]来编辑 [!UICONTROL A/B 测试]和[!UICONTROL 体验定位] (XT) 活动时，导致[!UICONTROL 编辑设计]按钮不显示的问题。(TGT-41980)
+* 修复了在创建新的[!UICONTROL 推荐]活动时，导致在标准选择中不显示[!UICONTROL 兼容]复选框的问题。(TGT-42053)
+* 修复了由于缺少 [!DNL Analytics] 权限而无法选择 [!DNL Analytics] 作为报表源 (A4T) 时显示的不正确的错误消息。(TGT-41954)
+* 实施了多个辅助功能修复，以改进 [!DNL Target] UI 中的键盘导航功能。
 
 ### [!DNL Target Standard/Premium] 21.10.2（2021 年 10 月 13 日）
 
@@ -102,7 +102,7 @@ ht-degree: 99%
 
 此维护版本包含以下增强功能、修复和更改。
 
-* 修复了某些 Web 浏览器中针对第三方 Cookie 的新安全策略导致客户无法登录[!UICONTROL 可视体验编辑器] (VEC) 的问题。[排除与可视体验编辑器和增强体验编辑器相关的问题](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)中的“使用 Google Chrome 80 和更高版本时，在可视体验编辑器 (VEC) 或增强体验编辑器 (EEC) 中不加载页面”中讨论了此问题。
+* 修复了某些 Web 浏览器中针对第三方 Cookie 的新安全策略导致客户无法登录[!UICONTROL 可视化体验编辑器] (VEC) 的问题。[排除与可视化体验编辑器和增强体验编辑器相关的问题](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)中的“使用 Google Chrome 80 和更高版本时，在可视化体验编辑器 (VEC) 或增强体验编辑器 (EEC) 中不加载页面”中讨论了此问题。
 * 修复了一个问题，该问题导致 VEC 中的选件名称显示选件路径而非选件的友好名称。(TGT-41300)
 * A4T 活动的体验名称现在反映在 [!DNL Analysis Workspace] 中 (TGT-38674)
 * 修复了 [!DNL Recommendations] 中的一个问题，该问题导致错误地将重复活动的促销中的实体 ID 更改应用于原始活动。(TGT-41482)
@@ -220,7 +220,7 @@ ht-degree: 99%
 
 ### Target Standard/Premium 21.2.1（2021 年 3 月 9 日）
 
-此维护版本包含以下增强、修复和更改。
+此维护版本包含以下增强功能、修复和更改。
 
 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -240,7 +240,7 @@ ht-degree: 99%
 
 ### Target Standard/Premium 21.1.1（2021 年 1 月 19 日）
 
-此维护版本包含以下增强、修复和更改。
+此维护版本包含以下增强功能、修复和更改。
 
 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -272,7 +272,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 | --- | --- |
 | [设备上决策](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 通过设备上决策，营销人员和产品开发人员均可在用户的设备内跨渠道几乎无延迟地提供试验性和机器学习驱动的个性化。<br>速度和性能至关重要 - 对于客户见解和用户满意度。<br>通过设备上决策，可将 A/B 测试和体验定位 (XT) 活动类型中的关键个性化和试验指令编译为“优化工件”：通过 CDN 加载到客户设备上的 JSON 对象。并且由于设备上决策与 [!DNL Adobe Experience Cloud] 产品存在固有联系，因此 [!DNL Target] 用户可获得快速的分析和更快的体验迭代。<br>有关更多信息，请参阅 *[设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)。 |
 
-此版本包含以下增强、修复和更改：
+此版本包含以下增强功能、修复和更改：
 
 * 修复了一个问题，该问题阻止在 [!DNL Auto-Target] 报表中为[!UICONTROL “总计”]列显示[!UICONTROL “平均提升置信区间”]和[!UICONTROL “置信度”]。但可正确地显示所有个别体验的测量结果。(TGT-37301)
 * 修复了一个问题，该问题在 9 月 15 日下午 2:30 (PDT) 至 10 月 6 日上午 9:25 (PDT) 影响 [!DNL Adobe Target Premium] 用户的[!UICONTROL 自动定位]报表。在查看（使用“[!UICONTROL 查看了某个页面]”或“[!UICONTROL 单击了 mbox]”选项配置的）受影响的转化指标的报表时，所报告的转化率有误。目前没有已知的投放问题。有关如何重新同步和纠正报表的信息，请在&#x200B;*已知问题和已解决的问题*&#x200B;中的&#x200B;*已解决的问题*&#x200B;下参阅[自动定位报表](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)。
@@ -287,7 +287,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 ### Target Standard/Premium 20.9.1（2020 年 9 月 30 日）
 
-此维护版本包含以下增强、修复和更改：
+此维护版本包含以下增强功能、修复和更改：
 
 * 为仅使用键盘的用户改进了导航和功能。（TGT-34487、TGT-34516、TGT-34517、TGT-34514）
 * 在 UI 中添加了若干标签以帮助用户使用辅助技术。（TGT-34500、TGT-34501、TGT-34502、TGT-24504）
@@ -307,11 +307,11 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 ### Target Standard/Premium 20.8.1（2020 年 9 月 2 日）
 
-此版本包含以下增强、修复和更改：
+此版本包含以下增强功能、修复和更改：
 
 * 修复了一个问题，该问题在切换组织后加载新的[!UICONTROL “管理”]页面时导致显示错误。(TGT-37730)
 * 修复了一个显示问题，该问题导致在[!UICONTROL “管理”>“实现”]页面上显示的客户端代码有误。(TGT-37849)
-* 修复了一个问题，该问题有时在成功加载 VEC 之后阻止用户使用[!UICONTROL 可视体验编辑器] (VEC) 中的编辑功能。(TGT-37162)
+* 修复了一个问题，该问题有时在成功加载 VEC 之后阻止用户使用[!UICONTROL 可视化体验编辑器] (VEC) 中的编辑功能。(TGT-37162)
 * 修复了一个问题，即使装有 VEC Helper 扩展程序，该问题也会阻止在 VEC 和增强体验编辑器 (EEC) 中加载页面。这是 Google Chrome 80 和更高版本中的一些变化所致。下载[更新的 VEC Helper 扩展程序](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)。(TGT-37893)
 * 修复了一个问题，该问题在切换组织后有时阻止用户从[!UICONTROL “管理”>“实现”]页面下载 at.js。(TGT-37668)
 * 现在加载时禁用了 at.js 下载按钮，以防如果用户多次单击下载按钮，[!DNL Target] 发送多个请求。(TGT-37633)
@@ -354,7 +354,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 #### 增强功能、修复和变更
 
-此版本包含以下增强、修复和更改：
+此版本包含以下增强功能、修复和更改：
 
 * 修复了一个问题，该问题阻止在刷新后保留网站首选项。(TGT-37239)
 * 修复了一个问题，该问题阻止[!UICONTROL “在此之后插入”]>[!UICONTROL “图像”]对可缩放矢量图形 (SVG) 图像正常发挥作用。(TGT-37242)
@@ -455,13 +455,13 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 ### Target Standard/Premium 20.4.1（2020 年 5 月 6 日）
 
-此版本包含以下增强、修复和更改：
+此版本包含以下增强功能、修复和更改：
 
 * 修复了一个问题，该问题不正确地让受众有权访问某种设备和浏览器类型。(TGT-36266)
 * 修复了一个问题，在宽度小于 963 像素的屏幕上查看报表数据时，该问题阻止显示报表数据。(TGT-36549)
 * 修复了一个问题，该问题导致无法正确呈现自动个性化报表。(TGT-36619)
 * 修复了一个问题，该问题使得可在使用 Analytics for Target (A4t) 的自动分配和自动定位活动中选择不兼容的指标。(TGT-36646)
-* 修复了一个问题，该问题导致可视体验编辑器 (VEC) 中的某些选项显示得不正确。(TGT-36571)
+* 修复了一个问题，该问题导致可视化体验编辑器 (VEC) 中的某些选项显示得不正确。(TGT-36571)
 * 修复了 Target UI 中的一个问题，在用户替换了单个体验中的内容之后，该问题导致其他推荐选件预览显示编辑后的内容。（TGT-36053 和 TGT-36894）
 * 修复了一个问题，该问题阻止某些用户从推荐目录中删除项目。(TGT-36455)
 * 修复了一个问题，该问题阻止用户在多页活动上保存推荐标准。(TGT-36249)
@@ -480,7 +480,7 @@ Target at.js JavaScript 库有以下新版本可用：
 
 ### Target Standard/Premium 20.2.1（2020 年 3 月 23 日）
 
-此版本包含以下增强、修复和更改：
+此版本包含以下增强功能、修复和更改：
 
 * 修复了一个问题，该问题阻止客户在执行目录搜索时选择收藏集。(TGT-36230)
 * 修复了一个问题，在该问题中可能会错误地从 UI 删除通过 API 创建但未被在 Target UI 中创建的某个活动引用的标准。(TGT-35917)
@@ -888,7 +888,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
   </tr> 
   <tr> 
    <td colname="col1"> <p>活动报表源 </p> </td> 
-   <td colname="col2"> <p>在<span class="wintitle">“管理”</span>&gt;<span class="wintitle">“可视体验编辑器”</span>中，可选择活动的报表源，即或者是 <span class="keyword">Target</span>，或者是 <span class="keyword">Adobe Analytics</span>。您也可以选择为每个活动分别选择报表源。 </p> <p>从这一版本开始，当您在<span class="wintitle">首选项</span>或根据活动选择报表源时，应注意一些重要的工作流注意事项。</p></td> 
+   <td colname="col2"> <p>在<span class="wintitle">“管理”</span>&gt;<span class="wintitle">“可视化体验编辑器”</span>中，可选择活动的报表源，即或者是 <span class="keyword">Target</span>，或者是 <span class="keyword">Adobe Analytics</span>。您也可以选择为每个活动分别选择报表源。 </p> <p>从这一版本开始，当您在<span class="wintitle">首选项</span>或根据活动选择报表源时，应注意一些重要的工作流注意事项。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -1882,7 +1882,7 @@ target/r_release-notes-2018.xml
    * 受众 > 创建受众 > 访客配置文件
    * 推荐 > 信息源创建 > 时间源类型 > Analytics > 报表包选择器
 
-* 改进了网站将“X-Frame-options”设置为 SAMEORIGIN，且网站无法在可视化体验编辑器 (VEC) 中加载时显示的错误消息。消息提示用户在“管理”>“可视体验编辑器”中切换到“增强体验编辑器”。(TGT-17356)
+* 改进了网站将“X-Frame-options”设置为 SAMEORIGIN，且网站无法在可视化体验编辑器 (VEC) 中加载时显示的错误消息。消息提示用户在“管理”>“可视化体验编辑器”中切换到“增强体验编辑器”。(TGT-17356)
 * 现在，Target Standard/Premium 中的报表会以您的帐户所在的时区来显示，而不是以 Target 服务器所在的时区（美国东部标准时间）来显示。(TGT-24868)
 * 如果在 [!DNL Target] 中创建的活动从 [!DNL Target] 外部进行了更新（例如，通过 Adobe I/O），则下列活动属性将会导入到 [!DNL Target] 当中：
 
@@ -2771,7 +2771,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
 * Chrome 版本 48 更新引入了导致可视化体验编辑器无法在 Chrome 中正常使用的问题。Google 正在寻找解决方案。有关信息，请参阅 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)。要避开此问题，请执行以下操作：
 
    * 使用 Firefox 或 Internet Explorer。
-   * 启用“增强体验编辑器”，可从&#x200B;**[!UICONTROL “管理”]**>**[!UICONTROL “可视体验编辑器”]**&#x200B;选项卡中配置它。
+   * 启用“增强体验编辑器”，可从&#x200B;**[!UICONTROL “管理”]**>**[!UICONTROL “可视化体验编辑器”]**&#x200B;选项卡中配置它。
 
 ### Adobe [!DNL Target] Standard/Premium 16.2.1（2016 年 2 月 18 日） {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -2793,7 +2793,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
 * Chrome 版本 48 更新引入了导致可视化体验编辑器无法在 Chrome 中正常使用的问题。Google 正在寻找解决方案。有关信息，请参阅 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)。要避开此问题，请执行以下操作：
 
    * 使用 Firefox 或 Internet Explorer。
-   * 启用“增强体验编辑器”，可从&#x200B;**[!UICONTROL “管理”]**>**[!UICONTROL “可视体验编辑器”]**&#x200B;选项卡中配置它。
+   * 启用“增强体验编辑器”，可从&#x200B;**[!UICONTROL “管理”]**>**[!UICONTROL “可视化体验编辑器”]**&#x200B;选项卡中配置它。
 
 ### Adobe [!DNL Target] Standard/Premium 16.1.1（2016 年 1 月 28 日） {#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -2871,7 +2871,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
 * Chrome 版本 48 更新引入了导致可视化体验编辑器无法在 Chrome 中正常使用的问题。Google 正在寻找解决方案。有关信息，请参阅 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)。要避开此问题，请执行以下操作：
 
    * 使用 Firefox 或 Internet Explorer。
-   * 启用“增强体验编辑器”，可从&#x200B;**[!UICONTROL “管理”]**>**[!UICONTROL “可视体验编辑器”]**&#x200B;选项卡中配置它。
+   * 启用“增强体验编辑器”，可从&#x200B;**[!UICONTROL “管理”]**>**[!UICONTROL “可视化体验编辑器”]**&#x200B;选项卡中配置它。
 
 ## 2015 版 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 

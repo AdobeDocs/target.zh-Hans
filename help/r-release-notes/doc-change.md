@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
 workflow-type: tm+mt
 source-wordcount: '3045'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 95%
 |  | [排除与可视化体验编辑器和增强体验编辑器相关的问题](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新了“Google Chrome SameSite Cookie实施策略对VEC和EEC有何影响？” 部分，其中包含有关帮助程序扩展最新版本的信息。 |
 |  | [可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 更新了“获取并安装VEC助手浏览器扩展”章节。 |
 | 11 月 12 日 | [集成 [!DNL Recommendations] 使用电子邮件](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 添加了新的介绍性信息。 |
-| 10 月 28 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关以下版本的信息：<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5。</li></ul> |
+| 10 月 28 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了关于以下版本的信息：<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.7.0 版本的信息。 |
-|  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | 添加了以下章节：&quot;自定义元素支持。&quot; |
-| 10 月 27 日 | [使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 添加了有关基于购物车的推荐的信息。 |
+|  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | 添加了以下部分：“自定义元素支持”。 |
+| 10 月 27 日 | [根据推荐键提供推荐](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 添加了关于基于购物车的推荐的信息： |
 | 10 月 26 日 | [CNAME 和 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 更新了整个主题。 |
 | 10 月 25 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 21.10.5 版（2021 年 10 月 28 日）的信息。 |
-| 10 月 22 日 | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 添加了以下部分：<ul><li>确保 [!DNL Target] 活动通过查询字符串参数正确处理URL</li></ul> |
-| 10 月 21 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答时间（2021年11月10日）</li><li>[!DNL Adobe Target] 社区问答型咖啡时间（2021年12月8日）</li></ul> |
+| 10 月 22 日 | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 添加了以下部分：<ul><li>确保 [!DNL Target] 活动正确处理包含查询字符串参数的 URL</li></ul> |
+| 10 月 21 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2021 年 11 月 10 日）</li><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2021 年 12 月 8 日）</li></ul> |
 | 10 月 20 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 21.10.4 版（2021 年 10 月 21 日）的信息。 |
 |  | [计划和实施推荐](/help/c-recommendations/plan-implement.md) | 更新了整个主题。 |
 | 10 月 19 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 21.10.3 版（2021 年 10 月 19 日）的信息。 |

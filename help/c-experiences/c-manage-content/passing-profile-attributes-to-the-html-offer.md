@@ -4,9 +4,9 @@ description: 了解如何将动态数据传递到 [!DNL Adobe Target] 选件。
 title: 如何将动态数据传递到选件？
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: ae4b2e85db508e4ef00f8ed4c59e0e35782708b6
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '531'
 ht-degree: 63%
 
 ---
@@ -81,4 +81,4 @@ ht-degree: 63%
 
 对于在选件内容中使用的选件参数(offer.name、offer.id):
 
-如果该选件是某个体验的多组选件之一，则上次添加选件的值会填充参数的值。 这意味着，这些参数将在体验级别进行评估。
+如果该选件是某个体验中设置的多个选件之一，则上次添加选件的值会填充参数的值。 这意味着，这些参数将在体验级别进行评估。

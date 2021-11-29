@@ -5,10 +5,10 @@ title: 什么是响应令牌？如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: 20b0f7e0eddcf40d5ea891e03e7c7c891d952b8c
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 27%
+source-wordcount: '1631'
+ht-degree: 26%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 27%
 
    ![](assets/response_tokens-new.png)
 
-1. 激活所需的响应令牌，例如 `activity.id` 和 `option.id`.
+1. 激活所需的响应令牌，例如 `activity.id` 和 `offer.id`.
 
    以下参数默认可用：
 
@@ -435,8 +435,8 @@ Google Analytics可以通过Platform Web SDK版本2.6.0（或更高版本），�
         'CampaignId' : token["activity.id"], 
         'RecipeName': token["experience.name"], 
         'RecipeId': token["experience.id"], 
-        'OfferId': token["option.id"], 
-        'OfferName': token["option.name"], 
+        'OfferId': token["offer.id"], 
+        'OfferName': token["offer.name"], 
         'MboxName': e.detail.mbox}); 
       console.log(ttMETA); 
     }); 
@@ -471,5 +471,7 @@ Google Analytics可以通过Platform Web SDK版本2.6.0（或更高版本），�
 >[!NOTE]
 >
 >的 [!DNL Target] [!UICONTROL 管理] 菜单UI(以前称为 [!UICONTROL 设置])进行了重新设计，以提高性能，缩短发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息正确；但是，选项的位置略有不同。
+>
+>视频提及次数 `option.name` 和 `option.id`，以 `offer.name` 和 `offer.id`，分别为。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)

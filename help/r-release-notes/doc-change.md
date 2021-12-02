@@ -4,10 +4,10 @@ description: 及时了解对 Adobe [!DNL Target] 产品文档的重要补充和�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
+source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
 workflow-type: tm+mt
-source-wordcount: '3045'
-ht-degree: 96%
+source-wordcount: '3078'
+ht-degree: 99%
 
 ---
 
@@ -19,11 +19,12 @@ ht-degree: 96%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 11 月 18 日 | [修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 在Mbox行中添加了注释，指示 [!UICONTROL 可视化体验编辑器] (VEC)。*x* 目前不支持选择加入支持。 |
-| 11 月 16 日 | [客户属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 添加了有关文件上传(包含指向 [关于客户属性的数据文件和数据源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) 在 *Experience Cloud中心界面组件指南*. |
-|  | [排除与可视化体验编辑器和增强体验编辑器相关的问题](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新了“Google Chrome SameSite Cookie实施策略对VEC和EEC有何影响？” 部分，其中包含有关帮助程序扩展最新版本的信息。 |
-|  | [可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 更新了“获取并安装VEC助手浏览器扩展”章节。 |
-| 11 月 12 日 | [集成 [!DNL Recommendations] 使用电子邮件](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 添加了新的介绍性信息。 |
+| 12 月 2 日 | [根据推荐键提供推荐](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 更新了基于购物车的算法，以包含通过mbox参数cartId以逗号分隔值提供推荐键。 仅考虑前10个值。 |
+| 11 月 18 日 | [修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 在 Mbox 行中添加了一条注释，指明使用 at.js 2.x 的页面中的[!UICONTROL 可视体验编辑器] (VEC) 不再支持 mbox *。* |
+| 11 月 16 日 | [客户属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 添加了有关文件上传限制的信息，以及指向 *Experience Cloud 中央界面组件指南*&#x200B;中的[关于客户属性的数据文件和数据源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)的链接。 |
+|  | [排除与可视化体验编辑器和增强体验编辑器相关的问题](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 使用有关助手扩展最新版本的信息更新了“Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？”部分。 |
+|  | [可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 更新了“获取并安装 VEC Helper 浏览器扩展”部分。 |
+| 11 月 12 日 | [将 [!DNL Recommendations] 与电子邮件集成](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 添加了新的介绍信息。 |
 | 10 月 28 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了关于以下版本的信息：<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.7.0 版本的信息。 |
 |  | [可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | 添加了以下部分：“自定义元素支持”。 |

@@ -5,9 +5,9 @@ title: 如何使推荐基于推荐键？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
+source-git-commit: 48cdfce8ed39e2bf2cc2d808484db5cf996b57d7
 workflow-type: tm+mt
-source-wordcount: '3894'
+source-wordcount: '3937'
 ht-degree: 40%
 
 ---
@@ -168,7 +168,7 @@ Recommendations基于算法使用访客行为上下文显示相关结果 [!DNL A
 
 ### 按Analytics量度排名最前
 
-（即将提供信息）
+显示“Top x”，其中x是任意的 [!DNL Analytics] 量度。 使用mbox中的行为数据时，您只能使用“最畅销”或“最常查看”（x =“已销售”或x =“已查看”）。 如果您使用的是 [!DNL Adobe Analytics]，您可以使用x =“购物车加货”或其他 [!DNL Analytics] 量度。
 
 ## [!UICONTROL 基于项目]
 

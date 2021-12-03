@@ -4,9 +4,9 @@ title: 可在何处找到 Target 中使用的术语和定义？
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2425'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ Target Standard 中活动的可视化表现形式。
 
 **mbox.js**
 
-A [!DNL Target] 已弃用的JavaScript实施库。
+已弃用的 [!DNL Target] JavaScript 实现库。
 
 **mbox parameter（mbox 参数）**
 

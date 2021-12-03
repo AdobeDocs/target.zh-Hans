@@ -21,7 +21,7 @@ ht-degree: 99%
 | --- | --- | --- |
 | 12 月 2 日 | [根据推荐键提供推荐](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 更新了基于购物车的算法，以包含通过mbox参数cartId以逗号分隔值提供推荐键。 仅考虑前10个值。 |
 | 11 月 18 日 | [修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 在 Mbox 行中添加了一条注释，指明使用 at.js 2.x 的页面中的[!UICONTROL 可视体验编辑器] (VEC) 不再支持 mbox *。* |
-| 11 月 16 日 | [客户属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 添加了有关文件上传限制的信息，以及指向 *Experience Cloud 中央界面组件指南*&#x200B;中的[关于客户属性的数据文件和数据源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)的链接。 |
+| 11 月 16 日 | [客户属性](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 添加了有关文件上传限制的信息，以及指向 *Experience Cloud 中央界面组件指南*&#x200B;中的[关于客户属性的数据文件和数据源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=zh-Hans)的链接。 |
 |  | [排除与可视化体验编辑器和增强体验编辑器相关的问题](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 使用有关助手扩展最新版本的信息更新了“Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？”部分。 |
 |  | [可视化体验编辑器助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 更新了“获取并安装 VEC Helper 浏览器扩展”部分。 |
 | 11 月 12 日 | [将 [!DNL Recommendations] 与电子邮件集成](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 添加了新的介绍信息。 |

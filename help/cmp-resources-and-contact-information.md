@@ -5,9 +5,9 @@ title: 可在何处找到 Target 的资源和联系信息？
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 | [Target Premium 工作区](https://helpx.adobe.com/cn/customer-care-office-hours/target/premium-workspaces.html)<br>27 分 49 秒<br>2018 年 9 月 4 日 | 您将会了解以下内容：<ul><li>创建工作区（产品配置文件）</li><li>创建属性</li><li>添加用户</li><li>更新实现</li></ul>有关更多信息，请参阅[企业用户权限](/help/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | [可视体验编辑器 (VEC)](https://helpx.adobe.com/cn/customer-care-office-hours/target/visual-experience-composer.html)<br>50 分 23 秒<br>2017 年 12 月 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>有关本指南中的更多信息，请参阅[体验](/help/c-experiences/experiences.md)。 |
 | [Adobe Target：Analytics/Target 集成 (A4T)](https://helpx.adobe.com/cn/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40 分 33 秒<br>2018 年 1 月 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)。 |
-| [at.js：优势和实现最佳实践](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26 分 43 秒<br>2018 年 4 月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js相对于已弃用的mbox.js的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul> |
+| [at.js：优势和实现最佳实践](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26 分 43 秒<br>2018 年 4 月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与已弃用的 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul> |
 
 >[!NOTE]
 >

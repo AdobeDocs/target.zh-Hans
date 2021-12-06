@@ -4,9 +4,9 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
-workflow-type: ht
-source-wordcount: '628'
+source-git-commit: bfa58435fcaa90cad9cd3808fabbdd2554e5e5a5
+workflow-type: tm+mt
+source-wordcount: '581'
 ht-degree: 100%
 
 ---
@@ -14,18 +14,6 @@ ht-degree: 100%
 # Target 公告和活动
 
 关于即将举办的活动的公告和信息，包括 [!DNL Adobe Target] Skill Builder 讲座、开发人员聊天、网络研讨会和 [!DNL Target] Coffee Break 讲座。
-
-## [!DNL Adobe Target] 社区问答喝咖啡休息时间（2021 年 11 月 10 日）
-
-* **2021 年 11 月 10 日星期三**
-* **上午 8 点（PST，UTC -8）**
-* **[更多信息和注册信息](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
-
-[!DNL Adobe Target] 高级产品经理 Cristinel &quot;Muti&quot; Anastasoaie 将解答您对他的专业领域存有的疑问：
-
-* [!DNL Target] 用户界面
-* [!DNL Target] 集成
-* [!UICONTROL 企业权限]和[!UICONTROL 工作区]
 
 ## [!DNL Adobe Target] 社区问答喝咖啡休息时间（2021 年 12 月 8 日）
 

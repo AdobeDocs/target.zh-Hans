@@ -5,7 +5,7 @@ title: 如何使推荐基于推荐键？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: ce5a9428602c6ef5547a407bbc56ff2cbd7631b6
+source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
 workflow-type: tm+mt
 source-wordcount: '3936'
 ht-degree: 40%
@@ -312,7 +312,7 @@ Recommendations基于算法使用访客行为上下文显示相关结果 [!DNL A
 * 您希望运行离线算法并使用结果为推荐提供支持，但必须确保永远不推荐缺货项目。
 * 您想要只包含属于访客最喜爱类别的项目。
 
-## 推荐键
+## 推荐键 {#keys}
 
 在 [!UICONTROL 推荐键] 下拉列表：
 

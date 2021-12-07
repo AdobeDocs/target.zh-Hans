@@ -3,10 +3,10 @@ user-guide-title: Adobe [!DNL Target] 指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
-workflow-type: ht
-source-wordcount: '1535'
-ht-degree: 100%
+source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
+workflow-type: tm+mt
+source-wordcount: '1540'
+ht-degree: 99%
 
 ---
 
@@ -378,6 +378,7 @@ ht-degree: 100%
       + [创建标准](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [创建标准序列](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
+      + [Recommendations算法背后的科学](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [上传自定义标准](c-recommendations/c-algorithms/recommendations-csv.md)
       + 动态和静态包含规则 {#dynamic-static}
          + [使用动态和静态包含规则](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)

@@ -1,17 +1,17 @@
 ---
 keywords: 推荐算法；模型培训；模型提供；内容交付；基于项目；基于用户；基于热门程度；基于购物车；自定义标准
 description: 了解 [!DNL Target Recommendations]，包括模型培训和模型服务。
-title: 我在哪里可以了解Recommendations算法背后的科学？
+title: 我在哪里可以了解TargetRecommendations算法背后的科学？
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2797'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations算法背后的科学
+# ![PREMIUM](/help/assets/premium.png) Target推荐算法背后的科学
 
 对中使用的算法的深入描述 [!DNL Adobe Target Recommendations]包括模型训练的逻辑和数学细节以及模型服务过程。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
       为避免在计算所有N x N项之间的相似性时出现显着的复杂性， *tf-idf* 矢量被截断为仅包含其最大500个条目，然后使用此截断矢量表示计算项目之间的余弦相似度。 与其他近似近邻(ANN)技术（如局部敏感哈希）相比，该方法对稀疏向量相似度计算更加稳健。
 
-* **模型服务**:此过程与上一节所述的物料 — 物料协同筛选技术相同。
+   * **模型服务**:此过程与上一节所述的物料 — 物料协同筛选技术相同。
 
 ## 多键推荐
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
    ![公式公式](assets/formula4.png)
 
-   * **项目相似度模型评估**:模型评估是采用上一步中生成的推荐对测试数据集进行预测。 通过在测试数据集中按时间顺序排列每个用户的项目使用情况，然后对项目的排序子集提出100条建议，以尝试预测后续的查看和购买，从而模拟在线评分阶段。 信息检索量度， [平均精度](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision))来评估这些推荐的质量。 此量度会考虑推荐的顺序，并且青睐推荐列表中排名靠前的相关项目，这是对系统进行排名的重要属性。
+   * **项目相似度模型评估**:模型评估是采用上一步中生成的推荐对测试数据集进行预测。 通过在测试数据集中按时间顺序排列每个用户的项目使用情况，然后对项目的排序子集提出100条建议，以尝试预测后续的查看和购买，从而模拟在线评分阶段。 信息检索量度， [平均精度](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)，用于评估这些推荐的质量。 此量度会考虑推荐的顺序，并且青睐推荐列表中排名靠前的相关项目，这是对系统进行排名的重要属性。
    * **模型选择**:离线评估后，将选择平均精度最高的模型，并为其计算所有单个项目 — 项目推荐。
    * **脱机过滤**:模型训练的最后阶段是应用任何适用的动态滤波器。 在此步骤之后，会全局缓存预计算的推荐以便提供。
 

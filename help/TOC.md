@@ -3,7 +3,7 @@ user-guide-title: Adobe [!DNL Target] 指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
+source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 99%

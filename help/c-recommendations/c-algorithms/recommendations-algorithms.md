@@ -4,7 +4,7 @@ description: 了解 [!DNL Target Recommendations]，包括模型培训和模型�
 title: 我在哪里可以了解Recommendations算法背后的科学？
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
+source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 0%

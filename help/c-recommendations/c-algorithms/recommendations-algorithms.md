@@ -4,9 +4,9 @@ description: 了解 [!DNL Target Recommendations]，包括模型培训和模型�
 title: 我在哪里可以了解TargetRecommendations算法背后的科学？
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: 85958d8398fb934e1e5428fb5c562e5463f72c55
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2841'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ ht-degree: 0%
 
 例如，如果
 
-![公式](assets/formula.png)
+![已查看/已购买算法的公式](assets/formula.png)
 
 则不应将项目B与项目A一起推荐。提供了此对数似然比相似度计算的完整详细信息 [在此PDF中](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 以下示意图中显示了实际算法实现的逻辑流程：
 
-![示意图](assets/diagram1.png)
+![已查看/已购买算法的示意图](assets/diagram1.png)
 
 这些步骤的详细信息如下：
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 尽管 [!DNL Target]其内容相似度算法与其他基于项目的算法相同，模型训练步骤截然不同，涉及一系列自然语言处理和预处理步骤，如下图所示。 相似度计算的核心是使用修改的tf-idf向量的余弦相似度来表示目录中的每个项目。
 
-![图2](assets/diagram2.png)
+![显示内容相似度流程的图表](assets/diagram2.png)
 
 这些步骤的详细信息如下：
 
@@ -96,13 +96,13 @@ ht-degree: 0%
    * **n-gram创建**:在上述步骤之后，每个词都会被视为令牌。 将连续的令牌序列合并为单个令牌的过程称为n-gram创建。 [!DNL Target]的算法考虑的最多为2克。
    * **tf-idf计算**:下一步涉及创建tf-idf矢量，以反映令牌在项目描述中的相对重要性。 对于项目i中的每个令牌/术语t，在目录D中使用 |D|项，首先计算术语频度TF(t，i)（该术语在项i中出现的次数），以及文档频度DF(t，D)。 实质上，令牌存在的项数。 然后，将tf-idf测量
 
-      ![公式](assets/formula2.png)
+      ![显示tf-idf度量的公式](assets/formula2.png)
 
       [!DNL Target] 使用Apache Spark的 *tf-idf* 功能实施，该实施在hood下将每个令牌哈希为218个令牌空间。 在此步骤中，还通过根据 [标准](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
    * **项目相似度计算**:最终项目相似度计算是使用近似余弦相似度来完成的。 对于两个项目， *A* 和 *B*，对于向量tA和tB，余弦相似度定义为：
 
-      ![公式公式](assets/formula3.png)
+      ![显示项目相似度计算的公式](assets/formula3.png)
 
       为避免在计算所有N x N项之间的相似性时出现显着的复杂性， *tf-idf* 矢量被截断为仅包含其最大500个条目，然后使用此截断矢量表示计算项目之间的余弦相似度。 与其他近似近邻(ANN)技术（如局部敏感哈希）相比，该方法对稀疏向量相似度计算更加稳健。
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 以下图表显示了模型培训和评分步骤的逻辑：
 
-![图表](assets/diagram3.png)
+![显示模型培训和评分步骤逻辑的图表](assets/diagram3.png)
 
 这些步骤的详细信息如下：
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
    训练步骤会计算几种类型的矢量相似度：LLR相似度([此处讨论](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf))、余弦相似度（以前定义）和标准化的L2相似度，定义如下：
 
-   ![公式公式](assets/formula4.png)
+   ![显示训练计算的公式](assets/formula4.png)
 
    * **项目相似度模型评估**:模型评估是采用上一步中生成的推荐对测试数据集进行预测。 通过在测试数据集中按时间顺序排列每个用户的项目使用情况，然后对项目的排序子集提出100条建议，以尝试预测后续的查看和购买，从而模拟在线评分阶段。 信息检索量度， [平均精度](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)，用于评估这些推荐的质量。 此量度会考虑推荐的顺序，并且青睐推荐列表中排名靠前的相关项目，这是对系统进行排名的重要属性。
    * **模型选择**:离线评估后，将选择平均精度最高的模型，并为其计算所有单个项目 — 项目推荐。
@@ -149,7 +149,7 @@ ht-degree: 0%
 
 以下图像说明了这些过程，访客在其中查看了项目A和购买的项目B。可使用每个项目标签下方显示的离线相似度得分来检索各个推荐。 检索后，推荐会与加权相似度得分合并。 最后，在客户指定之前查看过和购买过的项目必须过滤掉的情况下，过滤步骤会从推荐列表中删除项目A和B。
 
-![图示图](assets/diagram4.png)
+![显示多键算法处理情况的图表](assets/diagram4.png)
 
 ## 基于热门程度
 

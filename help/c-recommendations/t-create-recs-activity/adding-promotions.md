@@ -1,24 +1,23 @@
 ---
-keywords: promotions;front promotions;back promotions;promotions type;items的列表;promote by attribute;promote a collection
-description: 了解如何添加已提升的项目并控制其在您的Adobe [!DNL Target] Recommendations设计中的位置。 您可以添加静态和动态促销活动。
-title: 如何在Recommendations设计中添加促销？
+keywords: 促销活动；前端促销活动；后端促销活动；促销活动类型；项目列表；按属性促销；促销收藏集
+description: 了解如何添加促销项目并控制它们在Adobe中的放置位置 [!DNL Target] Recommendations设计。 您可以添加静态和动态促销活动。
+title: 如何在Recommendations设计中添加促销活动？
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 0d8d04091968923c7d343692140279c026d579f4
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 56%
+source-wordcount: '688'
+ht-degree: 49%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) 添加促销活动
 
-可添加促销项目并控制它们在 Adobe Target“推荐”设计中的放置位置。您可以添加静态和动态促销活动。
+添加促销项目并控制它们在 [!DNL Adobe Target Recommendations] 设计。 您可以添加静态和动态促销活动。
 
 >[!IMPORTANT]
 >
->静态和动态排除规则是可帮助您完成营销工作的强大功能。有关详细信息、示例和用例情景，请参阅[使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
+>静态和动态排除规则是可帮助您完成营销工作的强大功能。有关详细信息、示例和用例情景，请参阅 [使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
 创建 [!DNL Recommendations] 活动时，您可以选择将促销项目包含在您的 [!DNL Recommendations] 设计中。促销活动使用设计中的可用版块，且优先于标准结果和备用推荐。例如，如果您的设计中有六个版块，而您将其中两个用于促销活动，则其余四个可用于基于标准推荐的项目。
 
@@ -26,7 +25,7 @@ ht-degree: 56%
 
 您可以促销特定项目、动态促销项目、基于属性促销项目或促销收藏集。
 
-![](assets/add_promotion_toggles.png)
+![[!UICONTROL 前端促销] 和 [!UICONTROL 后退促销] 选项 [!DNL Target] UI](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
@@ -39,6 +38,7 @@ ht-degree: 56%
    ![“添加前端促销活动”选项](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
    您可以将促销活动插入到标准结果之前“及”之后。**
+
 1. 设置要用于促销项目的设计版块数量。
 
    您最多可以使用 20 个版块，具体取决于您的 [!DNL Recommendations] 设计。对于基于您的标准返回的推荐，您所使用的各个版块会变得均不可用。
@@ -53,28 +53,28 @@ ht-degree: 56%
 
    * 选择&#x200B;**[!UICONTROL 按属性促销]**，然后添加规则以定义要促销的项目的属性。
 
-      如果选择“按属性促销”，您可以创建动态匹配。有关更多信息，请参阅[使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
+      如果您选择 [!UICONTROL 按属性促销]，则可以创建动态匹配。 有关更多信息，请参阅 [使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
    * 选择&#x200B;**[!UICONTROL 促销收藏集]**，然后选择要促销的项目收藏集。
 
-      您可以创建新的收藏集，以将其用于促销活动。请参阅[创建收藏集](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)，以了解更多信息。
-   如果您选择&#x200B;**[!UICONTROL “项目]**&#x200B;的列表”作为&#x200B;**[!UICONTROL 促销类型]**，则可以根据需要选择&#x200B;**[!UICONTROL “随机化项目顺序]**”复选框。
+      您可以创建新的收藏集，以将其用于促销活动。请参阅 [创建收藏集](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) 以了解更多信息。
+   如果您选择 **[!UICONTROL 项目列表]** 作为 **[!UICONTROL 促销类型]**，您可以选择 **[!UICONTROL 随机排列项目顺序]** 的双曲余切值。
 
-   项目[!UICONTROL 列表]的默认排序顺序基于您在目标UI或API中输入的顺序。 如果您的列表包含的项目多于您为促销设置的插槽数，则[!UICONTROL 随机化项目顺序]选项将随机化设计中显示的促销项目。 选择此选项将导致从每次点击的整个促销集中随机选择模板中为促销启用的项目。[!DNL Target]
+   的默认排序顺序 [!UICONTROL 项目列表] 基于您在 [!DNL Target] UI或API。 如果列表中包含的项目数多于您为促销活动设置的版块数，则 [!UICONTROL 随机排列项目顺序] 选项可随机显示设计中显示的促销项目。 选择此选项将导致 [!DNL Target] 从每次点击的整个促销活动集中随机选择模板中为促销活动启用的项目。
 
-   如果您的实体没有`entity.value`属性（例如，您不销售产品），则可以将数值传递到`entity.value`属性，如发布日期。 在这种情况下，可以按降序根据最近的发布日期提升提升项目。 `entity.value`属性为多次类型；它不接受字符串。
+   如果您的实体没有 `entity.value` 属性（例如，您不销售产品），您可以将一个数值传递到 `entity.value` 属性，如发布日期。 在这种情况下，可以根据最近的发布日期以降序方式提升促销项目。 的 `entity.value` 属性为双精度类型；它不接受字符串。
 
-   如果您选择了&#x200B;**[!UICONTROL 按属性提升]**&#x200B;或&#x200B;**[!UICONTROL 提升集合]**&#x200B;选项，则随机化顺序的选项不适用。
+   如果您选择了 **[!UICONTROL 按属性促销]** 或 **[!UICONTROL 提升收藏集]** 选项，则随机排列顺序的选项不适用。
 
-   使用[!UICONTROL 按属性提升]或[!UICONTROL 提升集合]选项提升特定项目时，项目的显示默认顺序基于`entity.value`属性，以降序数字顺序。
+   使用 [!UICONTROL 按属性促销] 或 [!UICONTROL 提升收藏集] 选项，则项目的默认显示顺序基于 `entity.value` 属性，按降序数字顺序排列。
 
    下表说明了这些选项之间的差异：
 
-   | 升级类型 | 默认排序 | 备份排序 | 动态筛选选项 |
+   | 促销类型 | 默认排序 | 备份排序 | 动态筛选选项 |
    | --- | --- | --- | --- |
-   | 项目列表 | 在目标UI/API中输入的订单 | 随机（通过UI/API选择时） | 否 |
-   | 按属性提升 | `entity.value` （降序） | 对每个请求随机（当不存在`entity.value`属性时） | 是 |
-   | 提升集合 | `entity.value` （降序） | 对每个请求随机（当不存在`entity.value`属性时） | 否 |
+   | [!UICONTROL 项目列表] | 在Target UI/API中输入的订单 | 随机（通过UI/API选择时） | 否 |
+   | [!UICONTROL 按属性促销] | `entity.value` （降序） | 无随机化 | 是 |
+   | [!UICONTROL 提升收藏集] | `entity.value` （降序） | 无随机化 | 否 |
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 

@@ -4,9 +4,9 @@ breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
 source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1541'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -378,7 +378,7 @@ ht-degree: 99%
       + [创建标准](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [创建标准序列](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [Target推荐算法背后的科学](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
+      + [Target 的推荐算法背后的科学原理](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [上传自定义标准](c-recommendations/c-algorithms/recommendations-csv.md)
       + 动态和静态包含规则 {#dynamic-static}
          + [使用动态和静态包含规则](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)

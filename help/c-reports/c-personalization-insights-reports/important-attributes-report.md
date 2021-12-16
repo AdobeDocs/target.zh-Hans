@@ -1,59 +1,58 @@
 ---
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;FAQ;常见问题解答;重要属性
-description: 了解如何使用Adobe [!DNL Target] 中的“重要属性”报表，其中显示影响个性化模型的顶级属性及其相对重要性。
+description: 了解如何使用 [!UICONTROL 重要属性] 此报表显示影响个性化模型的排名最前的属性及其相对重要性。
 title: 什么是重要属性报表？
-feature: 报表
+feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 92%
+source-wordcount: '1661'
+ht-degree: 86%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) 重要属性报表
 
-此信息介绍了重要属性报表，该报表是自动个性化 (AP) 和自动定位 (AT) 活动用户可以使用的两个专门报表之一。
+有关 [!UICONTROL 重要属性] 报告，用户可使用的两个专门报告之一 [!UICONTROL Automated Personalization] （美联社）和 [!UICONTROL 自动定位] (AT)活动。
 
 >[!NOTE]
 >
->使用个性化分析报表时，请考虑以下事项：
+>使用 [!UICONTROL 个性化分析] 报表：
 >
 >* AP 和 AT 活动会作为 [!DNL Target Premium] 解决方案的一部分提供。在没有 [!DNL Target Premium] 许可证的情况下，它们将不会包含在 [!DNL Target Standard] 中。
-   >
-   >
-* [!UICONTROL 个性化分析报表仅适用于使用转化优化目标的 AP 和 AT 活动。]活动上线后将优化目标从收入更改为转化的活动也不受支持。
-   >
-   >
-* [!UICONTROL 仅当] 从“报表量度”下拉 [!UICONTROL 列表] 中选择的“主Goalis”时， [!UICONTROL “个性化见解”报表才] 可用。
-   >
-   >
-* 仅[默认环境](/help/administrating-target/hosts.md)支持个性化分析报表。
-   >
-   >
-* [!UICONTROL “个] 性化洞察”报表仅针对处于“实时”状  态且已激活并接收至少15天流量的活动生成。
+>
+>* [!UICONTROL 个性化分析报表仅适用于使用转化优化目标的 AP 和 AT 活动。]活动上线后将优化目标从收入更改为转化的活动也不受支持。
+>
+>* [!UICONTROL 个性化分析] 仅当 [!UICONTROL 主要目标] 的 [!UICONTROL 报表量度] 下拉列表。
+>
+>* 仅[默认环境](/help/administrating-target/hosts.md)支持个性化分析报表。
+>
+>* [!UICONTROL 个性化分析] 仅为中的活动生成报表 [!UICONTROL 实时] 状态和，且已激活且接收流量至少15天。
 
 
 在不同的活动中，不同的属性对模型如何决定进行个性化的重要性也大小不一。此报表可显示影响模型的排名靠前的属性及其相对重要性。
 
-## 访问重要属性报表 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## 访问 [!UICONTROL 重要属性] 报告 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 单击&#x200B;**[!UICONTROL 活动]**，然后单击列表中所需的[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)或[自动目标](/help/c-activities/auto-target/auto-target-to-optimize.md)活动。
+1. 单击 **[!UICONTROL 活动]**，然后单击所需的 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [自动定位](/help/c-activities/auto-target/auto-target-to-optimize.md) 活动。
 
    如果您拥有多个活动，可以通过从[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 报表源]、[!UICONTROL 体验编辑器]、[!UICONTROL 量度类型]和[!UICONTROL 活动来源]下拉列表中选择相应选项来筛选列表。
 
 1. 单击&#x200B;**[!UICONTROL 报表]**。
 
-   将显示[Automated Personalization Summary](/help/c-reports/reports-ap.md)或[自动目标摘要](/help/c-reports/auto-target-summary-report.md)报告，其中提供有关活动性能的信息，由第一个屏幕图标表示。 其他两个图标表示两个个性化分析报表：自动化区段和重要属性。请注意，自动定位还有一个图形图标，表示“[!UICONTROL 摘要]”报表的图形视图。
+   的 [Automated Personalization摘要](/help/c-reports/reports-ap.md) 或 [自动定位摘要](/help/c-reports/auto-target-summary-report.md) 报表会显示，其中提供了有关活动性能的信息，由第一个屏幕图标表示。 另外两个图标代表这两个 [!UICONTROL 个性化分析] 报表： [!UICONTROL 自动化区段] 和 [!UICONTROL 重要属性].
 
-   ![](assets/personalization_insights.png)
+   ![Automated Personalization活动的摘要报表](assets/summary-report-ap.png)
+
+   请注意 [!UICONTROL 自动定位] 还有一个图形图标，用于 [!UICONTROL 概要] 报表。
+
+   ![自动定位活动的摘要报表](assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL 重要属性]报表只有在您激活活动至少 15 天后才能使用。在此初始阶段，您将无法访问此报表，也无法单击“[!UICONTROL 重要属性]”图标。15 天过后，如果您的活动中有足够的个性化流量，将可以使用“[!UICONTROL 重要属性]”报表。
+   >[!UICONTROL 重要属性]报表只有在您激活活动至少 15 天后才能使用。在此初始阶段，您将无法访问此报表，也无法单击“[!UICONTROL 重要属性]”图标。15天过后，如果您的活动中有足够的个性化流量，则 [!UICONTROL 重要属性] 报表可用。
 
-1. 激活活动 15 天后，您可以单击&#x200B;**[!UICONTROL 重要属性]**&#x200B;图标。
+1. 激活活动15天后，单击 **[!UICONTROL 重要属性]** 图标。
 
    ![](assets/model_attribute_ranking.png)
 

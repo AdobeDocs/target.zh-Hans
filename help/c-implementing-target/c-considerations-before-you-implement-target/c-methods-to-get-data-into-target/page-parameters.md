@@ -1,14 +1,14 @@
 ---
 keywords: 实施；设置；设置；页面参数
-description: 使用页面参数将数据导入 [!DNL Target] 。
-title: 如何使用页面参数将数据导入 [!DNL Target] ?
-feature: 实施
+description: 将数据导入 [!DNL Target] 使用页面参数。
+title: 如何将数据导入 [!DNL Target] 使用页面参数？
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
+source-git-commit: a4ef9fdc34ac167cd927dacb66a2f2cc53e8ddd8
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 46%
+source-wordcount: '372'
+ht-degree: 45%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 46%
 
    ```< > # % " { } | \ ^ [ ] ` ```
 
-   其他所有字符都必须采用 URL 编码。该标准指定以下格式([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt))，如下图所示：
+   其他所有字符都必须采用 URL 编码。该标准指定以下格式( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) )，如下图所示：
 
    ![](assets/ietf1.png)
 
@@ -66,10 +66,6 @@ targetPageParamsAll（将参数附加到页面上的所有 mbox 调用）：
 targetPageParams（将参数附加到页面上的全局 mbox）：
 
 `function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-mboxCreate 代码中的参数：
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
 
 ## 相关信息的链接
 

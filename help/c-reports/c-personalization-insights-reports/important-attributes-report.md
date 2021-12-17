@@ -4,10 +4,10 @@ description: 了解如何使用 [!UICONTROL 重要属性] 此报表显示影响�
 title: 什么是重要属性报表？
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
+source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 86%
+source-wordcount: '1709'
+ht-degree: 82%
 
 ---
 
@@ -58,7 +58,13 @@ ht-degree: 86%
 
 1. 选择所需的日期范围。
 
-   与“[!UICONTROL 摘要]”报表（性能报表）不同，“[!UICONTROL 个性化分析]”（包括“[!UICONTROL 重要属性]”）仅适用于固定日期范围：15 天、30 天、45 天、60 天和 90 天。通过这些固定日期范围，“[!UICONTROL 个性化分析]”可以使用足够多的数据来降低您从活动中的短生存期模式获取分析的可能性。您可以决定日期范围的“结束日期”和“持续时间”。您会注意到“开始”显示为灰色。开始日期会根据您选择的结束日期和持续时间自动进行更改。
+   与 [!UICONTROL 概要] 报告（性能报告）、 [!UICONTROL 个性化分析]，包括 [!UICONTROL 重要属性]，则仅适用于固定日期范围：15天，30天，60天。
+
+   >[!NOTE]
+   >
+   >的 [!DNL Target] UI当前允许您选择45天和90天的日期范围。 但是， [!DNL Target] 后端不会处理这两个范围。 由于使用模式并为了提高性能，这些日期范围已被弃用。 UI将进行更新，以反映当前允许的范围：15天、30天和60天。
+
+   通过这些固定日期范围，“[!UICONTROL 个性化分析]”可以使用足够多的数据来降低您从活动中的短生存期模式获取分析的可能性。您可以决定日期范围的“结束日期”和“持续时间”。您会注意到“开始”显示为灰色。开始日期会根据您选择的结束日期和持续时间自动进行更改。
 
    ![](assets/personalization_insights_calendar_1.png)
 

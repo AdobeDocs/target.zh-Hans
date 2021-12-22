@@ -5,9 +5,9 @@ title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3153'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 12 月 17 日 | [重要属性报表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 在查看重要属性报表时添加了以下有关日期范围的注释：<ul><li>的 [!DNL Target] UI当前允许您选择45天和90天的日期范围。 但是， [!DNL Target] 后端不会处理这两个范围。 由于使用模式并为了提高性能，这些日期范围已被弃用。 UI将进行更新，以反映当前允许的范围：15天、30天和60天。</li></ul> |
+| 12 月 17 日 | [重要属性报表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 添加了关于查看重要属性报表时显示的时间范围的以下说明：<ul><li>[!DNL Target] 用户界面目前允许用户选择 45 天和 90 天作为日期范围。但是，[!DNL Target] 后端不会处理这两个日期范围。出于使用模式和性能改进方面的原因，这两个日期范围已弃用。用户界面将会更新，以显示目前允许的时间范围：15 天、30 天和 60 天。</li></ul> |
 | 12 月 7 日 | [Target 的推荐算法背后的科学原理](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新主题。 |
 | 12 月 2 日 | [使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 更新了基于 Cart 的算法，以逗号分隔值形式包括通过 mbox 参数 cartIds 提供的推荐键。仅考虑前 10 个值。 |
 | 11 月 18 日 | [修改](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 在 Mbox 行中添加了一条注释，指明使用 at.js 2.x 的页面中的[!UICONTROL 可视体验编辑器] (VEC) 不再支持 mbox *。* |
@@ -120,7 +120,7 @@ ht-degree: 97%
 | 7 月 12 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>网络研讨会：量化集成 Adobe Analytics + [!DNL Adobe Target] 的显著 ROI、见解和时间节省值。</li><li>将在 2021 年 7 月 21 日星期三上午 8 点（PDT，GMT-7）举办的 [!DNL Adobe Target] 社区问答喝咖啡休息时间。</li></ul> |
 |  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 添加了以下常见问题解答：“如何只推荐新文章或视频？” |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了“Target API 调用”部分中的文本。 |
-|  | [adobe.target.getOffers()- at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 更新了 `consumerId` 键的描述。 |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 更新了 `consumerId` 键的描述。 |
 |  | [自定义全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 更新了步骤 1 以指示在您选择新的 mbox 后会自动保存更改。 |
 |  | Experience Cloud 设备协作 | 已删除的主题。此功能已被弃用。 |
 | 6 月 29 日 | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 添加了以下章节：<ul><li>Target JavaScript 库 [!UICONTROL QA 模式]兼容性</li><li>预览 URL</li></ul> |
@@ -153,7 +153,7 @@ ht-degree: 97%
 |  | [与[!UICONTROL 增强体验编辑器]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)相关的问题疑难解答 | 将 IP 地址列表更新为了允许列表。 |
 | 5 月 12 日 | [[!DNL Target] 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了以下各项的预发行说明：<ul><li>Adobe Experience Platform Web SDK（2021 年 5 月 17 日）</li><li>Target Standard Premium 21.5.2</li></ul> |
 | 5 月 10 日 | [[!DNL Recommendations] 常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：“我是否可以在 [!DNL Recommendations Premium] 中使用在 [!DNL Adobe Recommendations Classic] 中创建的算法？” |
-|  | [实施 [!DNL Target] 使用 [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | 指明了不再支持 [!DNL Adobe Dynamic Tag Manager]。相反，[!DNL Adobe] 建议使用 [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 进行实施。 |
+|  | [使用 [!DNL Dynamic Tag Manager] (DTM) 实施 [!DNL Target] ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | 指明了不再支持 [!DNL Adobe Dynamic Tag Manager]。相反，[!DNL Adobe] 建议使用 [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 进行实施。 |
 | 5 月 6 日 | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：<ul><li>对我的[!UICONTROL 推荐]活动、优惠、促销或标准设置做出的更改需要多久才能反映在我的网站上？</li><li>用户的行为（例如，单击产品 A 并购买产品 B）需要多久才能反映在&#x200B;*该*&#x200B;用户收到的推荐中？</li><li>用户的行为（例如，单击产品 A 并购买产品 B）需要多久才能反映在&#x200B;*其他*&#x200B;用户收到的推荐中？</li></ul> |
 |  | [设备上决策](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 在 Adobe Tech Blog 上添加了指向以下博客帖子的链接：<ul><li>第 1 部分：在 Edge 平台上运行 Adobe Target NodeJS SDK 以提供试验性和个性化（Akamai Edge 工作者）</li></ul> |
 | 5 月 5 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于将在 2021 年 5 月 12 日星期三上午 8 点（PDT，GMT-7）举办的 Adobe Target 社区问答喝咖啡休息时间的信息。 |
@@ -162,7 +162,7 @@ ht-degree: 97%
 | 4 月 26 日 | [对 at.js 的设备上决策疑难解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 新主题。 |
 | 4 月 19 日 | [设备上决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 添加了以下新文章：<ul><li>[设备上决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>对 at.js 的[设备上决策支持的功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[设备上决策规则构件](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | 添加了关于 `decisioningMethod` 的信息。 |
-|  | [adobe.target.getOffers()- at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了以下内容：<ul><li>关于 `decisioningMethod` 键的信息。</li><li>关于“用以制定设备上决策的 getCallOffers()”的示例。</li></ul> |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了以下内容：<ul><li>关于 `decisioningMethod` 键的信息。</li><li>关于“用以制定设备上决策的 getCallOffers()”的示例。</li></ul> |
 |  | [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 添加了以下信息：<ul><li>设备上决策构件已成功</li><li>设备上决策构件失败</li></ul> |
 |  | [活动](/help/c-activities/activities.md) | 添加了关于设备上决策的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.5.0 的信息。 |

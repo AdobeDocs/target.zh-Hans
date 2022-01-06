@@ -1,13 +1,13 @@
 ---
-keywords: 可视化体验编辑器选项；体验编辑器选项；编辑文本；编辑HTML；编辑文本/HTML；编辑背景颜色；插入元素；编辑链接；链接；可视化体验编辑器链接；编辑CSS类；CSS类；交换选件；交换图像；交换图像；移动项目；删除项目；隐藏项目；隐藏项目；重新排列；移动元素；调整元素大小；元素；展开选择；导航到此链接；链接；导航；撤消；重做/重做；Web组件
-description: 浏览Adobe Target可视化体验编辑器(VEC)中提供的选项。 只需单击某个元素，即可查看该元素可用的选项。
-title: 如何使用可视化体验编辑器(VEC)选项？
+keywords: 可视化体验编辑器选项；体验编辑器选项；体验选项；编辑文本；编辑HTML；编辑文本/HTML；编辑背景颜色；插入元素；编辑链接；链接；可视化体验编辑器链接；编辑css类；css类；交换选件；交换图像；交换图像；交换图像；移除项目；删除项目；隐藏项目；项目隐藏；重新排列；移动元素；元素移动；调整元素大小；元素；展开选择；导航到此链接；导航；链接；撤消；重做/重做事件；自定义事件；Web组件；选件决策
+description: 浏览 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)。
+title: 如何使用 [!UICONTROL 可视化体验编辑器] (VEC)选项？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: fb9c9e4d2a3d0cf330724dfd02e329fedc388f01
 workflow-type: tm+mt
-source-wordcount: '2624'
-ht-degree: 71%
+source-wordcount: '2810'
+ht-degree: 65%
 
 ---
 
@@ -15,21 +15,19 @@ ht-degree: 71%
 
 单击 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)，会显示一个菜单，其中提供了可用于该元素类型的选项。 此外，页面底部会显示一个 DOM 路径，可让您轻松浏览页面结构。
 
-## VEC 选项
-
-各种可视化体验编辑器 (VEC) 操作被分组为相应的菜单选项，可让您更快速、更高效地工作。
+各种 [!UICONTROL 可视化体验编辑器] (VEC)操作被分组到相应的菜单选项中，以便更快、更高效地完成工作：
 
 ![VEC 选项菜单](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
->可用选项取决于所编辑的活动类型。
+>可用选项取决于您创建或编辑的活动类型。
 
-### [!UICONTROL 编辑]
+## [!UICONTROL 编辑]
 
 以下选项可供选择：
 
-#### [!UICONTROL 文本/HTML] {#edit-text-html}
+### [!UICONTROL 文本/HTML] {#edit-text-html}
 
 更改元素的 HTML 代码，例如文本区域、按钮或链接的文本。
 
@@ -46,13 +44,13 @@ ht-degree: 71%
 | `<del>` | `<ul>`、`<ol>`、`<menu>`、`<h1-h6>`、`<p>` |
 | `<label>` | `<p>` |
 
-#### [!UICONTROL 背景颜色]
+### [!UICONTROL 背景颜色]
 
 使用拾色器选择或配置背景颜色。您可以选择一个色样，并使用 RGB 值或十六进制颜色代码对其进行调整。拾色器中的红色 x 可使背景透明。
 
 **注意：**&#x200B;此选项不适用于已设置背景图像的元素。
 
-#### [!UICONTROL 样式] {#styles}
+### [!UICONTROL 样式] {#styles}
 
 使用[!UICONTROL 样式]面板可查看或编辑所选元素现有样式的值。您还可以添加其他样式。
 
@@ -64,7 +62,7 @@ ht-degree: 71%
 
 应用不同的样式时，您始终可以通过单击 [!UICONTROL 还原] 图标(位于 [!UICONTROL 样式] 面板。 单击 [!UICONTROL 还原] 图标会还原当前部分面板上的所有更改。
 
-展开每个部分以编辑或添加样式，具体如下文中所述。要保存更改，请单击面板顶部的“返回”图标以返回到面板的主显示屏，然后单击&#x200B;**[!UICONTROL 保存]**。
+展开每个部分以编辑或添加样式，具体如下文中所述。要保存更改，请单击 [!UICONTROL 返回] 图标以返回到面板的主显示屏，然后单击 **[!UICONTROL 保存]**.
 
 主面板上以及各个部分面板上每个选项旁边的蓝色圆点表示您更改了相应的样式。 通过此可视指示器，您可以轻松地在单击 [!UICONTROL 保存].
 
@@ -90,7 +88,7 @@ ht-degree: 71%
 
    更改元素的排版规则。排版规则编辑既快速又简便。
 
-   尽管富文本编辑器(编辑文本/HTML)可供微调，但可通过此选项快速执行更改整个元素的操作。 如果要仅对部分文本（而非全文）应用排版规则更改，请使用[富文本编辑器](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)。
+   尽管富文本编辑器(编辑文本/HTML)可进行微调，但可通过此选项快速执行更改整个元素的操作。 如果要仅对部分文本（而非全文）应用排版规则更改，请使用[富文本编辑器](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)。
 
    您可以编辑以下排版样式：
 
@@ -202,23 +200,31 @@ ht-degree: 71%
    >
    >您可以使用 CSS 编辑器来应用背景图像，但可能会导致闪烁。请在部署之前测试您的更改。
 
-#### [!UICONTROL CSS 类]
+### [!UICONTROL CSS 类]
 
 指定用于元素的预定义 CSS 类。如果选择多个元素，请用空格分隔多个 CSS 类。
 
 其可用于 [!UICONTROL A/B]、[!UICONTROL 自动个性化]和[!UICONTROL 多变量测试]活动。
 
-#### [!UICONTROL 链接]
+### [!UICONTROL 链接]
 
 更改链接中的 URL。
 
 使用编辑链接来更新选择器，以指向相同的图像元素。但是，不支持链接到不同的图像元素。要链接到不同的图像元素，请从代码编辑器中删除原始操作，并使用[!UICONTROL 可视化体验编辑器]将该操作应用于其他图像元素。
 
-### [!UICONTROL 此项前插入]
+## [!UICONTROL 此项前插入]
 
 以下选项可供选择：
 
-#### [!UICONTROL 图像], [!UICONTROL HTML]和 [!UICONTROL 文本]
+### [!UICONTROL 选件决策]
+
+添加 [创建的选件 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}，通过offer decisioning向客户展示最佳选件和体验。
+
+**注意：** 在编辑或创建时，此选项可用 [手动 [!UICONTROL A/B测试]](/help/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 体验定位]](/help/c-activities/t-experience-target/experience-target.md) (XT)活动。 此选项不适用于其他活动类型。
+
+有关更多信息，请参阅 [使用优惠决策](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL 图像], [!UICONTROL HTML]和 [!UICONTROL 文本]
 
 除了修改现有的内容之外，还可以向页面添加任何类型的元素。可添加文本、代码、列表等，以创建完全不同的体验来进行测试。
 
@@ -230,19 +236,27 @@ ht-degree: 71%
 
 **注意：**&#x200B;插入图像需要启用 [!DNL Adobe Scene7 Publishing System]，以便您可以访问图像库。
 
-#### 推荐
+### 推荐
 
 将推荐包含到 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中。有关更多信息，请参阅[将推荐作为选件](/help/c-recommendations/recommendations-as-an-offer.md)。
 
-#### [!UICONTROL 体验片段]
+### [!UICONTROL 体验片段]
 
 将在 [!DNL Adobe Experience Manager] (AEM) 中创建的体验片段插入 [!DNL Target] 活动，以协助优化或进行个性化处理。有关更多信息，请参阅 [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)。
 
-### [!UICONTROL 此项后插入]
+## [!UICONTROL 此项后插入]
 
 以下选项可供选择：
 
-#### [!UICONTROL 图像], [!UICONTROL HTML]和 [!UICONTROL 文本]
+### [!UICONTROL 选件决策]
+
+添加 [创建的选件 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}，通过offer decisioning向客户展示最佳选件和体验。
+
+**注意：** 在编辑或创建时，此选项可用 [手动 [!UICONTROL A/B测试]](/help/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 体验定位]](/help/c-activities/t-experience-target/experience-target.md) (XT)活动。 此选项不适用于其他活动类型。
+
+有关更多信息，请参阅 [使用优惠决策](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL 图像], [!UICONTROL HTML]和 [!UICONTROL 文本]
 
 除了修改现有的内容之外，还可以向页面添加任何类型的元素。可添加文本、代码、列表等，以创建完全不同的体验来进行测试。
 
@@ -254,19 +268,27 @@ ht-degree: 71%
 
 **注意：**&#x200B;插入图像需要启用 [!DNL Adobe Scene7 Publishing System]，以便您可以访问图像库。
 
-#### 推荐
+### 推荐
 
 将推荐包含到 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中。有关更多信息，请参阅[将推荐作为选件](/help/c-recommendations/recommendations-as-an-offer.md)。
 
-#### [!UICONTROL 体验片段]
+### [!UICONTROL 体验片段]
 
 将在 [!DNL Adobe Experience Manager] (AEM) 中创建的体验片段插入 [!DNL Target] 活动，以协助优化或进行个性化处理。有关更多信息，请参阅 [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)。
 
-### [!UICONTROL 替换为]
+## [!UICONTROL 替换内容]
 
 以下选项可供选择：
 
-#### [!UICONTROL 图像]
+### [!UICONTROL 选件决策]
+
+添加 [创建的选件 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}，通过offer decisioning向客户展示最佳选件和体验。
+
+**注意：** 在编辑或创建时，此选项可用 [手动 [!UICONTROL A/B测试]](/help/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 体验定位]](/help/c-activities/t-experience-target/experience-target.md) (XT)活动。 此选项不适用于其他活动类型。
+
+有关更多信息，请参阅 [使用优惠决策](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL 图像]
 
 从内容库中选择一个不同的图像。可用于交换的图像包括上传到 Experience Cloud 资产文件夹和上传到 Target 内容库的图像。
 
@@ -284,7 +306,7 @@ ht-degree: 71%
 
 **注意：**&#x200B;交换图像要求使用 Adobe Scene7 Publishing System 帐户。
 
-#### [!UICONTROL HTML 选件]
+### [!UICONTROL HTML 选件]
 
 从[!UICONTROL 内容库]中选择一个不同的选件。
 
@@ -292,55 +314,55 @@ ht-degree: 71%
 
 HTML选件最多可达256 KB。
 
-#### 推荐
+### 推荐
 
 将推荐包含到 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中。有关更多信息，请参阅[将推荐作为选件](/help/c-recommendations/recommendations-as-an-offer.md)。
 
-#### [!UICONTROL 体验片段]
+### [!UICONTROL 体验片段]
 
 将在 [!DNL Adobe Experience Manager] (AEM) 中创建的体验片段插入 [!DNL Target] 活动，以协助优化或进行个性化处理。有关更多信息，请参阅 [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md)。
 
-### [!UICONTROL 版式]
+## [!UICONTROL 版式]
 
 以下选项可供选择：
 
-#### [!UICONTROL 重新排列]
+### [!UICONTROL 重新排列]
 
 在元素拖放到同一父元素或 DIV 内的其他位置。需要移动其他元素的位置以为重新排列的元素腾出空间。
 
 **注意：**&#x200B;点击跟踪对重新排列的元素无效。
 
-#### [!UICONTROL 调整大小]
+### [!UICONTROL 调整大小]
 
 调整页面上的元素大小。选择 [!UICONTROL 调整大小]，则元素的右下角会显示一个手柄，通过该手柄可拖动该角以调整大小。 按住 Shift 键保持相同的宽高比。
 
 **注意：**&#x200B;无法调整内联元素的大小。
 
-#### [!UICONTROL 移动] {#move}
+### [!UICONTROL 移动] {#move}
 
 移动页面上的元素。与“[!UICONTROL 重新排列]”选项不同，“[!UICONTROL 移动]”选项不会移动其他元素来为正在移动的元素腾出空间。可使用箭头键来微调移动。(计划中的增强功能：支持确保移动的元素不会隐藏在其他元素之后。)
 
 在某些情况下，例如，当CSS限制要求将元素保留在其父元素内时，您不能将该元素移到其父元素之外。 无法将元素移动到具有以下 CSS 属性的容器之外：`overflow: hidden`。
 
-#### [!UICONTROL 隐藏]
+### [!UICONTROL 隐藏]
 
 隐藏元素。保留空格但会删除内容。
 
-#### [!UICONTROL 删除]
+### [!UICONTROL 删除]
 
 删除元素。删除图像后面的空格，并且折叠元素所在的空间。
 
 **注意：**&#x200B;使用此选项无法删除“classic”mbox（Target Classic 促销活动中创建的一个 mbox）中的项目。
 
-### [!UICONTROL 展开选定内容]
+## [!UICONTROL 展开选定内容]
 
 除了最初选定的元素外，还需要选择父元素。选择任意父元素时，该元素的所有子元素均会自动选定。您可以多次展开选定内容。
 
-### [!UICONTROL 导航到链接]
+## [!UICONTROL 导航到链接]
 
 打开链接的目标。
 
-### [!UICONTROL 撤消]/[!UICONTROL 重做]
+## [!UICONTROL 撤消]/[!UICONTROL 重做]
 
 在编辑会话期间撤消对活动所做的更改。您也可以重做先前已撤消的更改。
 

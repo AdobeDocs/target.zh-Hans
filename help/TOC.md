@@ -3,10 +3,10 @@ user-guide-title: Adobe [!DNL Target] 指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
-workflow-type: ht
-source-wordcount: '1541'
-ht-degree: 100%
+source-git-commit: 89adab57c2f84d6d92056c9c445ca3102f181f38
+workflow-type: tm+mt
+source-wordcount: '1550'
+ht-degree: 99%
 
 ---
 
@@ -188,7 +188,9 @@ ht-degree: 100%
          + [共享量度、受众和报表 - A4T 常见问题解答](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [旧版 SiteCatalyst 与 Test&amp;Target 集成 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [使用和不使用 A4T 时，Target 和 Analytics 之间的预期数据差异](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + [Experience Cloud 受众](c-integrating-target-with-mac/mmp.md)
+   + 将Target与Adobe Journey Optimizer集成 {#ajo}
+      + [使用优惠决策](/help/c-integrating-target-with-mac/ajo/offer-decision.md)
+   + [Experience Cloud 受众](/help/c-integrating-target-with-mac/mmp.md)
    + [将 Target 与 Adobe Audience Manager 集成](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [将 Target 与 Adobe Campaign 集成](c-integrating-target-with-mac/campaign-and-target.md)
 + 活动 {#activities}

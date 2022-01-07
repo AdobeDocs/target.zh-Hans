@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么新功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 100%
+source-wordcount: '1140'
+ht-degree: 96%
 
 ---
 
@@ -24,11 +24,9 @@ ht-degree: 100%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## at.js 版本 2.7.0（2021 年 10 月 28 日）
+## at.js版本2.8.0（2022年1月7日）
 
-此版本包含以下增强功能：
-
-* 添加了对 [Web 组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支持。在自定义元素以及自定义元素内部的元素上创建和测试个性化的体验及方案时，需要此版本的 at.js。此功能包括在 [!DNL Target Standard/Premium] 21.10.5 版本中。
+的 [!DNL Target] at.js JavaScript库现在可收集功能使用情况和性能遥测数据。 不会收集个人数据。 通过设置 `telemetryEnabled` 为false `targetGlobalSettings`. 有关更多信息，请参阅 [targetGlobalSettings中已启用遥测](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## [!DNL Target Standard/Premium] 21.10.5（2021 年 10 月 28 日）
 

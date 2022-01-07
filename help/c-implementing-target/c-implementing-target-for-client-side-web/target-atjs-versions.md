@@ -4,13 +4,13 @@ description: 查看有关每个版本的Adobe更改的详细信息 [!DNL Target]
 title: at.js的每个版本中都包含哪些内容？
 feature: at.js
 role: Developer
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '4280'
+source-wordcount: '4318'
 ht-degree: 88%
 
 ---
-
 
 # at.js 版本详细信息
 
@@ -22,11 +22,15 @@ ht-degree: 88%
 >
 >中的标记 [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是升级at.js的首选方法。 扩展开发人员会不断向其扩展中添加新功能，并且会经常修复错误。 这些更新将打包到扩展的新版本中，并在 [!DNL Adobe Experience Platform] 目录作为升级。 有关更多信息，请参阅 [扩展升级](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 在 *标记概述* 的双曲余切值。
 
-## at.js版本2.7.0（2021年10月28日）
+## at.js版本2.8.0（2022年1月7日）
+
+的 [!DNL Target] at.js JavaScript库现在可收集功能使用情况和性能遥测数据。 不会收集个人数据。 通过设置 `telemetryEnabled` 为false `targetGlobalSettings`. 有关更多信息，请参阅 [targetGlobalSettings中已启用遥测](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+
+## at.js 版本 2.7.0（2021 年 10 月 28 日）
 
 此版本包含以下增强功能：
 
-* 添加了 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 要在自定义元素和自定义元素内的元素上创建和测试个性化体验和选件，需要使用此版本的at.js。 此功能包含在 [!DNL Target Standard/Premium] 21.10.5版本。
+* 添加了对 [Web 组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支持。在自定义元素以及自定义元素内部的元素上创建和测试个性化的体验及方案时，需要此版本的 at.js。此功能包括在 [!DNL Target Standard/Premium] 21.10.5 版本中。
 
 ## at.js 2.6.1（2021 年 8 月 16 日）
 
@@ -105,7 +109,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 * 将at.js检查Cookie从 `check` to `at_check` 以避免与客户实施发生冲突。
 
-## at.js版本2.2.0（2019年10月10日）
+## at.js 版本 2.2.0（2019 年 10 月 10 日）
 
 此版本的at.js包含以下增强功能和修复：
 
@@ -120,7 +124,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 * at.js版本2.2还提供了一个名为 `serverState`. 当实施Target的混合集成时，可使用此设置来优化页面性能。 混合集成指的是在客户端使用 at.js 2.2 和更高版本，在服务器端使用交付 API 或 Target SDK，二者相结合以交付体验。`serverState` 让 at.js 2.2 和更高版本可直接从在服务器端获取并作为所提供的页面的一部分返回客户端的内容应用体验。有关详细信息，请在 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) 中参阅“serverState”。
 
-## at.js版本1.8.0（2019年10月10日）
+## at.js 版本 1.8.0（2019 年 10 月 10 日）
 
 此版本的at.js包含以下增强功能和修复：
 

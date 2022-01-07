@@ -1,20 +1,26 @@
 ---
 keywords: 隐私；IP地址；地域划分；选择退出；选择退出；数据隐私；政府法规；法规；GDPR;CCPA
-description: 了解Adobe [!DNL Target] 如何遵守适用的数据隐私法，包括IP地址的收集和处理以及选择退出说明。
-title: ' [!DNL Target] 如何处理隐私问题？'
-feature: 隐私和安全
+description: 了解如何Adobe [!DNL Target] 遵循适用的数据隐私法，包括IP地址的收集和处理以及选择退出说明。
+title: 操作方法 [!DNL Target] 处理隐私问题？
+feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 63%
+source-wordcount: '738'
+ht-degree: 57%
 
 ---
 
 # 隐私
 
 [!DNL Adobe Target] 启用了一些流程和设置，使您能够在遵守适用数据隐私法律的情况下使用 [!DNL Target]
+
+## 功能使用数据的收集
+
+为内部收集单个功能使用数据 [!DNL Adobe] 用于确定 [!DNL Target] 功能按预期执行，或识别正在使用不足的功能。 收集各种延迟测量以帮助解决性能问题。 不会收集个人数据。
+
+您可以通过设置 `telemetryEnabled` 设置为false。 有关更多信息，请参阅 [targetGlobalSettings中已启用遥测](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## IP地址集合 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -36,7 +42,7 @@ Target接收完整的IP地址，并按照指定的方式将其模糊处理（如
 
 >[!NOTE]
 >
->[联系Adobe客](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 户关怀团队，以确定您当前使用的设置或启用IP模糊处理功能。
+>[联系Adobe客户关怀](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 以确定您当前使用的设置，或启用IP模糊处理功能。
 
 ## 地域划分 {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -52,10 +58,9 @@ Target接收完整的IP地址，并按照指定的方式将其模糊处理（如
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
 
-1. （视情况而定）如果您使用的是CNAME，则链接应包含“client=`clientcode`参数，例如：
-https://my.cname.domain/optout?client=clientcode。
+1. （视情况而定）如果您使用的是CNAME，则该链接应包含“client=`clientcode` 参数，例如：https://my.cname.domain/optout?client=clientcode。
 
-1. 将`clientcode`替换为您的客户端代码，并将要链接的文本或图像添加到选择退出URL。
+1. 替换 `clientcode` ，并将要链接的文本或图像添加到选择退出URL。
 
 点击该链接的任何访客都不会包含在通过浏览会话调用的任何 mbox 请求中，直到他们删除 Cookie 或两年后（以时间在先者为准）为止。这通过在 `disableClient` 域中为访客设置称为 `clientcode.tt.omtrdc.net` 的 Cookie 实现。
 
@@ -63,4 +68,4 @@ https://my.cname.domain/optout?client=clientcode。
 
 ## 隐私和数据保护法规
 
-请参阅[隐私和数据保护法规](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) ，以了解有关欧盟《通用数据保护条例》(GDPR)、《加州消费者隐私法案》(CCPA)和其他国际隐私要求以及这些法规对贵组织和Adobe Target有何影响的信息。
+请参阅 [隐私和数据保护法规](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) 有关欧盟《通用数据保护条例》(GDPR)、《加州消费者隐私法案》(CCPA)和其他国际隐私要求，以及这些法规对贵组织和Adobe Target有何影响的信息。

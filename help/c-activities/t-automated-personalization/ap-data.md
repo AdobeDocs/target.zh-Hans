@@ -4,10 +4,10 @@ description: 了解哪些数据Adobe [!DNL Target] 收集并使用以在 [!UICON
 title: 收集哪些数据来构建机器学习算法？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: d017f753f8eabdfb5a7e50af50c0c332a65867ea
+source-git-commit: e830bd2de96884b6dd0c1f56b380874e1e1f7c04
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 46%
+source-wordcount: '2114'
+ht-degree: 47%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 46%
 
 ## 环境数据 {#env}
 
-|属性名称|属性描述|示例值|系统名称| | — | — | — | — | |浏览器 — 每周日期|访客在一周中访问活动的日期。|0到6。<br>（0表示星期日）|ENV_DAY_OF_WEEK_HOUR| |浏览器 — 每天的小时|访客在一天中访问活动的小时。|0至23<br>（0表示午夜）|ENV_USER_HOUR| |浏览器 — 每周时间|访客在一周中访问活动的时间。|0 - 168<br>（星期日的午夜为0）|ENV_WeekHour| |浏览器 — 语言设置|访客用于访问活动的浏览器中指定的语言。|英语<br>德语|ENV_Language| |浏览器 — 屏幕高度(px)|访客用于访问活动的设备的浏览器屏幕高度（以像素为单位）。|1、2、3等|ENV_browserHeight| |浏览器 — 屏幕宽度(px)|访客用于访问活动的设备的浏览器屏幕宽度（以像素为单位）。|1、2、3等|ENV_browserWidth| |浏览器 — 时间|访客访问活动时浏览器在一天中的哪个时间。|0、6、12、18<br>(0表示深夜，6表示上午，<br>12表示下午，18表示晚上)|ENV_LOCAL_TIME_PERIOD| |浏览器 — 时区|访客访问活动时所在的时区。|太平洋时间<br>东部时间<br>GMT|ENV_BrowserTimezoneOffsetMinutes| |浏览器 — 类型|访客访问活动时使用的浏览器类型。|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>其他|ENV_Browser| |浏览器 — 工作日/周末|访客访问活动时的工作状态（周末、工作时间或工作日休息时间）。|星期六和星期日为周末<br>星期一至星期五上午9时至下午6时为工作时间<br>1800到900的星期一 — 星期五是工作日自由时间|ENV_USER_HOUR_TYPE| |浏览器 — 窗口高度(px)|访客用于访问活动的浏览器的窗口高度（以像素为单位）。|1、2、3等|ENV_BrowserHeight| |浏览器 — 窗口宽度(px)|访客用于访问活动的浏览器的窗口宽度（以像素为单位）。|1、2、3等|ENG_BrowserWidth| |设备 — 屏幕高度|访客用于访问活动的设备屏幕高度。|1、2、3等|ENV_SCREEN_HEIGHT| |设备 — 屏幕宽度|访客用于访问活动的设备的屏幕宽度。|1、2、3等|ENV_SCREEN_WIDTH| |操作系统|访客设备上用于访问活动的操作系统。|Mac OS<br>Windows<br>Linux<br>搜索机器人<br>未知的OS|ENV_OperatingSystem| |操作系统 — 版本|访客用于访问活动的操作系统版本。|Windows 10<br>Mac OS 10|ENV_OPERATING_SYSTEM_VERSION| |流量源 — 引荐登陆页面URL|访客访问您的网站时看到的第一个页面。|`https://www.adobe.com/ecloud.html`|ENG_REFERRER|
+|属性名称|属性描述|示例值|系统名称| | — | — | — | — | |浏览器 — 每周日期|访客在一周中访问活动的日期。|0到6。<br>（0表示星期日）|ENV_DAY_OF_WEEK_HOUR| |浏览器 — 每天的小时|访客在一天中访问活动的小时。|0至23<br>（0表示午夜）|ENV_USER_HOUR| |浏览器 — 每周时间|访客在一周中访问活动的时间。|0 - 168<br>（星期日的午夜为0）|ENV_WeekHour| |浏览器 — 语言设置|访客用于访问活动的浏览器中指定的语言。|英语<br>德语|ENV_Language| |浏览器 — 屏幕宽度(px)|访客用于访问活动的设备的浏览器屏幕宽度（以像素为单位）。|1、2、3等|ENV_browserWidth| |浏览器 — 时间|访客访问活动时浏览器在一天中的哪个时间。|0、6、12、18<br>(0表示深夜，6表示上午，<br>12表示下午，18表示晚上)|ENV_LOCAL_TIME_PERIOD| |浏览器 — 时区|访客访问活动时所在的时区。|太平洋时间<br>东部时间<br>GMT|ENV_BrowserTimezoneOffsetMinutes| |浏览器 — 类型|访客访问活动时使用的浏览器类型。|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>其他|ENV_Browser| |浏览器 — 工作日/周末|访客访问活动时的工作状态（周末、工作时间或工作日休息时间）。|星期六和星期日为周末<br>星期一至星期五上午9时至下午6时为工作时间<br>1800到900的星期一 — 星期五是工作日自由时间|ENV_USER_HOUR_TYPE| |浏览器 — 窗口高度(px)|访客用于访问活动的浏览器的窗口高度（以像素为单位）。|1、2、3等|ENV_BrowserHeight| |浏览器 — 窗口宽度(px)|访客用于访问活动的浏览器的窗口宽度（以像素为单位）。|1、2、3等|ENV_BrowserWidth| |设备 — 屏幕高度|访客用于访问活动的设备屏幕高度。|1、2、3等|ENV_SCREEN_HEIGHT| |设备 — 屏幕宽度|访客用于访问活动的设备的屏幕宽度。|1、2、3等|ENV_SCREEN_WIDTH| |操作系统|访客设备上用于访问活动的操作系统。|Mac OS<br>Windows<br>Linux<br>搜索机器人<br>未知的OS|ENV_OperatingSystem| |操作系统 — 版本|访客用于访问活动的操作系统版本。|Windows 10<br>Mac OS 10|ENV_OPERATING_SYSTEM_VERSION| |流量源 — 引荐登陆页面URL|访客访问您的网站时看到的第一个页面。|`https://www.adobe.com/ecloud.html`|ENV_REFERRER|
 
 ## 地理数据 {#geo}
 

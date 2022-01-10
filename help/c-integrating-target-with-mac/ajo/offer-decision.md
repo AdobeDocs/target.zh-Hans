@@ -1,11 +1,12 @@
 ---
 keywords: 可视化体验编辑器选项；体验编辑器选项；体验选项；选件决策；offer decisioning;ajorey optimizer
 description: 了解如何添加在 [!DNL Adobe Journey Optimizer] 到活动。
-title: '如何使用优惠决策？ '
+title: 如何使用优惠决策？
 feature: Visual Experience Composer (VEC)
-source-git-commit: 39d278747cec838ef7855116c820e3c80160d364
+exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 >
 >本主题中描述的选件决策功能计划于2022年1月13日发布，其中包含 [!DNL Target Standard/Premium] 22.1.1版本。
 
-有关 [!DNL Adobe Journey Optimizer]，请参阅 [开始使用Journey Optimizer](https://experienceleague-review.corp.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 在 *Journey Optimizer* 文档。
+有关 [!DNL Adobe Journey Optimizer]，请参阅 [开始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 在 *Journey Optimizer* 文档。
 
 有关选件决策的更多信息，请参阅 [关于决策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) 在 *[!DNL Journey Optimizer]文档*.
 
@@ -40,15 +41,20 @@ ht-degree: 0%
 
 ### 体育推销
 
-作为体育联盟的营销人员，您希望在您的主页（在桌面和移动网站上）上个性化内容。 您希望根据访客最喜爱的团队和最近的玩家行动来对内容进行个性化，以便向他们提供购买相关特许经营商品的优惠。 例如，为以下每个区域提供个性化体验：多特蒙德、法兰克福和波鸿以及这些球队的隐性和显性粉丝用户。 作为量度，您需要查看对商品网站的访问和点击。
+作为体育联盟的营销人员，您希望在您的主页（在桌面和移动网站上）上个性化内容。 您希望基于多个维度对内容进行个性化，并向商店相关的特许经营商品提供优惠。 您感兴趣的是：
 
-您需要在默认体验和个性化体验（包括针对每个区域和团队的选件决策）之间设计一个A/B测试活动(50/50拆分)。 您需要使用此活动来确定个性化体验与控制体验的转化和提升度。
+* 访客最喜爱的团队
+* 最近的运动员/运动员活动（例如，团队运动、合同更新或受伤）
+
+例如，您希望为以下每个区域提供个性化体验：多特蒙德、法兰克福和波鸿以及这些球队的隐性和显性粉丝用户。 作为量度，您需要查看对商品网站的访问和点击。
+
+要设计 [!UICONTROL A/B测试] 活动(50/50拆分)，分为默认体验和个性化体验（包括针对每个地区和团队的选件决策）。 您需要使用此活动来确定个性化体验与控制体验的转化和提升度。
 
 ### 游戏流平台
 
-作为体育组织的营销人员，您希望为来自不同地理位置的桌面用户和移动设备用户提供一个个性化的游戏流平台选件：德国、法国、墨西哥和巴西。 当访客从其中一个地区访问桌面或移动设备网站时，您希望提供使用当地语言进行游戏流播放的选件，并支付相应的当地货币价格。
+作为游戏组织的营销人员，您希望为来自不同地理位置的桌面用户和移动用户提供一个个性化的游戏流平台选件：德国、法国、墨西哥和巴西。 当访客从其中一个地区访问桌面或移动设备网站时，您希望提供使用当地语言进行游戏流播放的选件，并支付相应的当地货币价格。
 
-在 [!DNL Adobe Journey Optimizer]，您可以为每个定位的地理位置创建一个个性化主页主页主页主页选件，以及一个具有默认主页主页主页主页主页的后备选件。 然后，您可以创建一个选件决策，其中纳入了这些选件及其资格规则。 然后，在 [!DNL Target]，您可以创建 [!DNL Experience Targeting] (XT)活动，并将该选件决策插入到您的桌面或移动设备网站中，以向访客提供个性化体验。
+在 [!DNL Adobe Journey Optimizer]，您可以为每个定位的地理位置创建一个个性化主页主页主页主页选件，以及一个具有默认主页主页主页主页主页的后备选件。 然后，您可以创建选件决策，以包含这些选件及其资格规则。 然后，在 [!DNL Target]，您可以创建 [!DNL Experience Targeting] (XT)活动，并将该选件决策插入到您的桌面或移动设备网站中，以向访客提供个性化体验。
 
 ## 创建使用选件决策的体验：
 
@@ -105,11 +111,3 @@ ht-degree: 0%
 * [!DNL Target] 报表不提供选件决策级别的报表。
 
 * 可视化 [QA链接](/help/c-activities/c-activity-qa/activity-qa.md) 表示 [!DNL Target] 包含选件决策的体验会影响 [!DNL Adobe Journey Optimizer] 来做决定。
-
-
-
-
-
-
-
-

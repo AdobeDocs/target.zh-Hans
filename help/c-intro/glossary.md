@@ -3,10 +3,10 @@ description: Adobe [!DNL Target] 中使用的各种术语表示什么？查找�
 title: 可在何处找到 Target 中使用的术语和定义？
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '2425'
-ht-degree: 100%
+source-git-commit: 2ec0808000fab6698802d25397aaac96865d592a
+workflow-type: tm+mt
+source-wordcount: '2493'
+ht-degree: 97%
 
 ---
 
@@ -271,6 +271,10 @@ Target Standard 中活动的可视化表现形式。
 **page count（页面计数）**
 
 一种参与量度，用于测量访客访问的页面数量，从该访客第一次看到活动中第一个展示型 mbox 开始计数。
+
+**页面查看**
+
+页面查看是指移动设备或浏览器应用程序、电子邮件或互联网站点网页的单一视图，包括应用程序屏幕视图、应用程序屏幕状态、移动网页和社交网络页面。 每次加载或刷新网页、加载应用程序、呈现或生成目标内容或通过打开或查看的电子邮件显示页面查看次数。
 
 **priority（优先级）**
 

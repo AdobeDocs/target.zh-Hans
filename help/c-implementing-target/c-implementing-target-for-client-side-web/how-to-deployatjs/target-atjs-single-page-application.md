@@ -1,16 +1,16 @@
 ---
 keywords: 单页应用程序实施；实施单页应用程序；SPA;at.js 2.x;at.js；单页应用程序；单页应用程序；SPA;SPA
-description: 了解如何使用Adobe [!DNL Target] at.js 2.x to implement [!DNL Target] (SPA)。
+description: 了解如何使用Adobe [!DNL Target] at.js 2.x实施 [!DNL Target] (SPA)。
 title: 我能否实施 [!DNL Target] (SPA)?
 feature: Implement Server-side
 role: Developer
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
+source-git-commit: a2a70136dba70a8b5b448b00199d3113f5f14da4
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2764'
 ht-degree: 70%
 
 ---
-
 
 # 单页应用程序实施
 
@@ -70,7 +70,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    首先，我们需要安装 at.js 2.x。开发此版本的 at.js 时考虑了 SPA。at.js和mbox.js的早期版本（现已弃用）不支持Adobe Target视图和SPA VEC。
 
-   通过位于 [!UICONTROL 管理>实施]. at.js 2.x也可以通过 [!DNL Adobe Experience Platform]. 但是， [!DNL Adobe Target] 扩展当前不是最新的，不受支持。
+   通过位于 [!UICONTROL 管理>实施]. at.js 2.x也可以通过 [!DNL Adobe Experience Platform].
 
 1. 在您的网站上实施 at.js 2.x 的最新函数：`triggerView()`。
 

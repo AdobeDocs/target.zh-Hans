@@ -4,9 +4,9 @@ title: 可在何处找到 [!DNL Target] 文档？
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '690'
 ht-degree: 99%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 99%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2022年1月7日( [查看更改了哪些内容](r-release-notes/doc-change.md) )**
+**上次更新时间：2022年1月11日( [查看更改了哪些内容](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
->Adobe Target 最近在以下报告中被评为领导者：
+>[!DNL Adobe Target] 最近在以下报告中被评为领导者：
 >
 >**[Forrester Wave 体验优化平台报告。](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target 在 2020 年第四季度的 The Forrester Wave: Experience Optimization Platforms 报告中被评为领导者。
 >

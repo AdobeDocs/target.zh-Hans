@@ -4,10 +4,10 @@ description: 通过对 [!DNL Adobe Target] 文档。
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
+source-git-commit: 4c18eb0febccf1a93ef0e423c46eeb08f8817b43
 workflow-type: tm+mt
-source-wordcount: '3228'
-ht-degree: 98%
+source-wordcount: '3245'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 1 月 12 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 添加了指向教程的链接，其中包含实施说明 [!DNL Adobe Experience Cloud] 和Web SDK。 |
 | 1 月 11 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间 (2022 年 1 月 19 日)</li></ul> |
 | 1 月 7 日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了有关at.js版本2.8.0的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关at.js版本2.8.0的信息。 |

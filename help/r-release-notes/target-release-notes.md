@@ -5,7 +5,7 @@ title: 即将发布的版本中包括什么新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
 ht-degree: 100%
 

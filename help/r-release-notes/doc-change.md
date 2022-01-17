@@ -1,13 +1,13 @@
 ---
 keywords: target 文档变更日志;文档更新;新主题;编辑;更新;更新
-description: 通过对 [!DNL Adobe Target] 文档。
+description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更。
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 4c18eb0febccf1a93ef0e423c46eeb08f8817b43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3245'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 97%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 1 月 12 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 添加了指向教程的链接，其中包含实施说明 [!DNL Adobe Experience Cloud] 和Web SDK。 |
-| 1 月 11 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间 (2022 年 1 月 19 日)</li></ul> |
-| 1 月 7 日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了有关at.js版本2.8.0的信息。 |
-|  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关at.js版本2.8.0的信息。 |
+| 1 月 12 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 添加了指向教程的链接，其中提供有关使用 Web SDK 实施 [!DNL Adobe Experience Cloud] 的说明。 |
+| 1 月 11 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 1 月 19 日）</li></ul> |
+| 1 月 7 日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了有关 at.js 2.8.0 版本发布的信息。 |
+|  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.8.0 版本发布的信息。 |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | 添加了有关 `telemetry` 设置的信息。 |
-|  | [隐私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 添加了以下章节：“功能使用数据的收集。” |
-|  | [使用的数据 [!DNL Target] 机器学习算法](/help/c-activities/t-automated-personalization/ap-data.md) | 更新了整个主题，包括：<ul><li>新章节：“阻止功能来自 [!DNL Target] 机器学习算法”</li><li>向多个表添加了“系统名称”列和信息。</li></ul> |
+|  | [隐私](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 添加了以下部分：“功能使用数据集合”。 |
+|  | [ [!DNL Target] 机器学习算法](/help/c-activities/t-automated-personalization/ap-data.md)使用的数据 | 更新了整个主题，包括：<ul><li>新的部分：“阻止 [!DNL Target] 机器学习算法的功能”</li><li>在多个表中添加了“系统名称”列和信息。</li></ul> |
 | 12 月 17 日 | [重要属性报表](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 添加了关于查看重要属性报表时显示的时间范围的以下说明：<ul><li>[!DNL Target] 用户界面目前允许用户选择 45 天和 90 天作为日期范围。但是，[!DNL Target] 后端不会处理这两个日期范围。出于使用模式和性能改进方面的原因，这两个日期范围已弃用。用户界面将会更新，以显示目前允许的时间范围：15 天、30 天和 60 天。</li></ul> |
 | 12 月 7 日 | [Target 的推荐算法背后的科学原理](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新主题。 |
 | 12 月 2 日 | [使推荐基于推荐键](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 更新了基于 Cart 的算法，以逗号分隔值形式包括通过 mbox 参数 cartIds 提供的推荐键。仅考虑前 10 个值。 |
@@ -127,7 +127,7 @@ ht-degree: 97%
 | 7 月 12 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>网络研讨会：量化集成 Adobe Analytics + [!DNL Adobe Target] 的显著 ROI、见解和时间节省值。</li><li>将在 2021 年 7 月 21 日星期三上午 8 点（PDT，GMT-7）举办的 [!DNL Adobe Target] 社区问答喝咖啡休息时间。</li></ul> |
 |  | [“推荐”常见问题解答](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 添加了以下常见问题解答：“如何只推荐新文章或视频？” |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 更新了“Target API 调用”部分中的文本。 |
-|  | [adobe.target.getOffers()- at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 更新了 `consumerId` 键的描述。 |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 更新了 `consumerId` 键的描述。 |
 |  | [自定义全局 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 更新了步骤 1 以指示在您选择新的 mbox 后会自动保存更改。 |
 |  | Experience Cloud 设备协作 | 已删除的主题。此功能已被弃用。 |
 | 6 月 29 日 | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 添加了以下章节：<ul><li>Target JavaScript 库 [!UICONTROL QA 模式]兼容性</li><li>预览 URL</li></ul> |
@@ -169,7 +169,7 @@ ht-degree: 97%
 | 4 月 26 日 | [对 at.js 的设备上决策疑难解答](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 新主题。 |
 | 4 月 19 日 | [设备上决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 添加了以下新文章：<ul><li>[设备上决策](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>对 at.js 的[设备上决策支持的功能](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[设备上决策规则构件](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | 添加了关于 `decisioningMethod` 的信息。 |
-|  | [adobe.target.getOffers()- at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了以下内容：<ul><li>关于 `decisioningMethod` 键的信息。</li><li>关于“用以制定设备上决策的 getCallOffers()”的示例。</li></ul> |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 添加了以下内容：<ul><li>关于 `decisioningMethod` 键的信息。</li><li>关于“用以制定设备上决策的 getCallOffers()”的示例。</li></ul> |
 |  | [at.js 自定义事件](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 添加了以下信息：<ul><li>设备上决策构件已成功</li><li>设备上决策构件失败</li></ul> |
 |  | [活动](/help/c-activities/activities.md) | 添加了关于设备上决策的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.5.0 的信息。 |

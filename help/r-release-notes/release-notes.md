@@ -6,9 +6,9 @@ title: 当前版本中包括什么新功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1140'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 96%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## at.js版本2.8.0（2022年1月7日）
+## at.js 版本 2.8.0（2022 年 1 月 7 日）
 
-的 [!DNL Target] at.js JavaScript库现在可收集功能使用情况和性能遥测数据。 不会收集个人数据。 通过设置 `telemetryEnabled` 为false `targetGlobalSettings`. 有关更多信息，请参阅 [targetGlobalSettings中已启用遥测](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+[!DNL Target] at.js JavaScript 库现在收集功能使用情况和性能遥测数据。不收集个人数据。可以在 `targetGlobalSettings` 中将 `telemetryEnabled` 设置为 false 来选择退出此功能。有关详细信息，请参阅 [targetGlobalSettings 中的 telemetryEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry)。
 
 ## [!DNL Target Standard/Premium] 21.10.5（2021 年 10 月 28 日）
 

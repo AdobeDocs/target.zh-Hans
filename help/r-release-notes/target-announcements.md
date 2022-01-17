@@ -5,9 +5,9 @@ title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 94%
 
 关于即将举办的活动的公告和信息，包括 [!DNL Adobe Target] Skill Builder 讲座、开发人员聊天、网络研讨会和 [!DNL Target] Coffee Break 讲座。
 
-## [!DNL Adobe Target] 社区问答喝咖啡休息时间 (2022 年 1 月 19 日)
+## [!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 1 月 19 日）
 
-* **2022年1月19日星期三**
+* **2022 年 1 月 19 日星期三**
 * **上午 8 点（PST，UTC -8）**
 * **[更多信息和注册信息](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
 
-Jon Tehero，负责 [!DNL Adobe Target]，将回答有关其专业领域的问题：
+[!DNL Adobe Target] 小组产品经理 Jon Tehero 将解答您对他的专业领域存有的疑问：
 
-* [!DNL Adobe Target] 集成 [!DNL Adobe Journey Optimizer] (AJO)
+* [!DNL Adobe Target] 与 [!DNL Adobe Journey Optimizer] 集成 (AJO)
 * [!DNL Adobe Target] 用户界面
 * 一般 [!DNL Adobe Target] 主题
 
-## 网络研讨会：通过 的设备上决策进行无延迟的个性化和测试[!DNL Adobe Target]
+## 网络研讨会：通过 [!DNL Adobe Target] 的设备上决策进行无延迟的个性化和测试
 
 相比以往，营销人员、产品所有者和开发人员需要更多地在网站上、应用程序中以及他们与客户联系的其他各个环节优化整体客户体验。若使用多种工具，再加上数据孤岛和复杂的实现方式，将无法完成这些任务。
 

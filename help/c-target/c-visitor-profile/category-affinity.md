@@ -1,23 +1,23 @@
 ---
 keywords: 亲和度;类别亲和度
-description: 了解Adobe [!DNL Target] 中的类别亲和度，该类别会自动捕获用户访问的类别，然后计算用户对该类别的亲和度，以便可以对其进行定位和细分。
+description: 了解Adobe中的类别亲和度 [!DNL Target] 会自动捕获用户访问的类别，然后计算用户对该类别的喜爱程度，从而可以对其进行定位和细分。
 title: 什么是类别亲和度？
-feature: 受众
+feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
+source-git-commit: 064620bea693ab52af9819b3409a386c1faf8864
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 74%
+source-wordcount: '798'
+ht-degree: 68%
 
 ---
 
-# 类别亲和度
+# 类别亲和力
 
-[!DNL Adobe Target]中的类别亲和度功能会自动捕捉用户访问的类别，然后计算用户对该类别的喜爱程度，从而可以对用户进行定位和细分。 类别亲和度有助于确保内容被定位到最有可能对该信息采取行动的访客。
+中的类别亲和度功能 [!DNL Adobe Target] 自动捕获用户访问的类别，然后计算用户对该类别的喜爱程度，从而可以对其进行定位和细分。 类别亲和度有助于确保内容被定位到最有可能对该信息采取行动的访客。
 
 ## 将类别亲和度信息传递到 [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-不论用户何时访问您的网站，都会将特定于访客的配置文件参数记录到 [!DNL Target] 数据库中。该数据将与用户的 Cookie 绑定。一个有用的参数是`user.categoryId`，它是在产品页面上分配的mbox参数。 访客持续浏览时，或离开后返回进行另一个会话时，都可以记录特定用户查看的产品类别。您还可以将类别信息作为任何 mbox（包括嵌套 mbox）中的 mbox 参数 `user.categoryId` 或作为 URL 参数 `user.categoryId` 进行传递，或者通过全局 mbox 在 Target 页面参数中进行传递，从而记录类别信息。有关更多详细信息，请咨询您的帐户代表。
+不论用户何时访问您的网站，都会将特定于访客的配置文件参数记录到 [!DNL Target] 数据库中。该数据将与用户的 Cookie 绑定。一个有用的参数是 `user.categoryId`，产品页面上分配的mbox参数。 访客持续浏览时，或离开后返回进行另一个会话时，都可以记录特定用户查看的产品类别。您还可以将类别信息作为任何 mbox（包括嵌套 mbox）中的 mbox 参数 `user.categoryId` 或作为 URL 参数 `user.categoryId` 进行传递，或者通过全局 mbox 在 页面参数中进行传递，从而记录类别信息。[!DNL Target]有关更多详细信息，请咨询您的帐户代表。
 
 要将一个项目包含在多个类别中，请使用逗号分隔类别。例如：
 
@@ -25,15 +25,15 @@ ht-degree: 74%
 
 根据对您的产品类别进行访问的频率和近期情况，会记录用户所具有的类别亲和度（如果有）。类别亲和度可用于为活动定位访客群体。
 
-您可以在配置文件脚本中使用 `user.categoryAffinities[]` 以返回访客填充的一组喜好。
+您可以在配置文件脚本中使用 `user.categoryAffinities[]` 以返回访客填充的一组喜好。有关更多信息，请参阅 [“配置文件属性”中“对象和方法”下的user.categoryAffinities](/help/c-target/c-visitor-profile/profile-parameters.md#objects).
 
 >[!IMPORTANT]
 >
->用于类别亲和度算法的`user.categoryId`属性不同于用于[!DNL Adobe Target Recommendations]产品和内容推荐的`entity.categoryId`属性。 要跟踪用户喜爱的类别，需要使用 `user.categoryId`。要根据当前页面或当前项目所属的类别进行推荐，需要使用 `entity.categoryId`。如果要同时使用这两项功能，请将这两个值都传递给 Adobe Target。
+>的 `user.categoryId` 类别亲和度算法所使用的属性与 `entity.categoryId` 用于 [!DNL Adobe Target Recommendations]“产品和内容推荐”。 要跟踪用户喜爱的类别，需要使用 `user.categoryId`。要根据当前页面或当前项目所属的类别进行推荐，需要使用 `entity.categoryId`。将两个值都传递给 [!DNL Target] 要同时使用这两项功能。
 
 ## 类别亲和度的商业案例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
-访客在某次会话中的活动（例如访客在此次会话中查看次数最多的类别）可在后续访问中用来进行定位。系统会捕捉访客在一次会话中查看的各类别页面，并根据新近度和频率模型来计算出访客“最喜爱”的类别。之后，访客每次返回到主页时，便可以对主页图像区域进行定位，使其显示与该访客最喜爱的类别有关的内容。
+访客在一个会话中的活动（如访客最常查看的类别）可用于在后续访问中进行定位。 系统会捕捉访客在一次会话中查看的各类别页面，并根据新近度和频率模型来计算出访客“最喜爱”的类别。之后，访客每次返回到主页时，便可以对主页图像区域进行定位，使其显示与该访客最喜爱的类别有关的内容。
 
 ## 使用类别亲和度的示例 {#section_A4AC0CA550924CB4875F4F4047554C18}
 
@@ -100,7 +100,7 @@ ht-degree: 74%
 
 ### 创建要使用类别亲和度的受众 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. 从&#x200B;**[!UICONTROL 受众]**&#x200B;列表中，单击&#x200B;**[!UICONTROL 创建受众]**。
+1. 从 **[!UICONTROL 受众]** 列表，单击 **[!UICONTROL 创建受众]**.
 
    或
 
@@ -114,7 +114,7 @@ ht-degree: 74%
 
 1. 选择所需类别：
 
-   ![“类别亲和度”>“类别”](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![“类别亲和度”>“类别”](assets/affinity-category.png)
 
    类别包括：
 
@@ -138,4 +138,4 @@ ht-degree: 74%
 
 ### 在活动中使用类别亲和度受众 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-您可以在任何活动中使用类别亲和度受众。 在三步引导式工作流中，在[!UICONTROL Target]步骤中，选择所需的受众。
+您可以在任何活动中使用类别亲和度受众。 在三步引导式工作流中， [!UICONTROL Target] 步骤中，选择所需的受众。

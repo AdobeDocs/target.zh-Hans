@@ -1,19 +1,19 @@
 ---
 keywords: 亲和度;类别亲和度
-description: 了解Adobe中的类别亲和度 [!DNL Target] 会自动捕获用户访问的类别，然后计算用户对该类别的喜爱程度，从而可以对其进行定位和细分。
+description: 了解 [!DNL Adobe Target] 会自动捕获用户访问的类别，然后计算用户对该类别的喜爱程度，从而可以对其进行定位和细分。
 title: 什么是类别亲和度？
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 064620bea693ab52af9819b3409a386c1faf8864
+source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '801'
 ht-degree: 68%
 
 ---
 
 # 类别亲和力
 
-中的类别亲和度功能 [!DNL Adobe Target] 自动捕获用户访问的类别，然后计算用户对该类别的喜爱程度，从而可以对其进行定位和细分。 类别亲和度有助于确保内容被定位到最有可能对该信息采取行动的访客。
+中的类别亲和度功能 [!DNL Adobe Target] 自动捕获用户在您网站上访问的类别，然后计算用户对每个类别的亲和度，以便可以对其进行定位和细分。 类别亲和度有助于确保内容被定位到最有可能对该信息采取行动的访客。
 
 ## 将类别亲和度信息传递到 [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 

@@ -1,14 +1,14 @@
 ---
 keywords: at.js 发行版;at.js 版本;单页应用程序;SPA;跨域;跨域
-description: 了解如何从Adobe [!DNL Target] at.js 1.x升级到at.js 2.x。检查系统流程图，了解新函数和已弃用函数等。
+description: 了解如何从Adobe升级 [!DNL Target] at.js 1.x到at.js 2.x的版本。检查系统流程图，了解新函数和已弃用函数等。
 title: 如何从at.js版本1.x升级到版本2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
+source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
 workflow-type: tm+mt
-source-wordcount: '2758'
-ht-degree: 91%
+source-wordcount: '2821'
+ht-degree: 89%
 
 ---
 
@@ -47,18 +47,18 @@ ht-degree: 91%
 | --- | --- |
 | 1 | 在 SPA 中调用 `triggerView()` 以渲染视图并应用操作来修改可视化元素。 |
 | 2 | 从缓存中读取视图的目标内容。 |
-| 1 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
+| 3 | 目标内容会在默认内容不发生闪烁的情况下尽快显示。 |
 | 4 | 通知请求将发送到 [!DNL Target] 配置文件存储区，以计算活动中的访客和递增量度。 |
 | 5 | Analytics 数据会发送到数据收集服务器。 |
 | 6 | Target 数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 A4T 报表查看 Analytics 数据。 |
 
 ## 部署 at.js 2.*x* {#deploy-atjs-200}
 
-1. 部署 at.js 2.** 扩展中的xvia [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 标记。
+1. 部署 at.js 2.*x* 通过 [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 扩展。
 
    >[!NOTE]
    >
-   > 首选方法是在[!DNL Adobe Experience Platform]中使用标记部署at.js。
+   > 在中使用标记部署at.js [!DNL Adobe Experience Platform] 是首选方法。
 
    或
 
@@ -217,7 +217,7 @@ at.js 2.*x* 中有几个函数已被弃用。
 
 未使用 `getOffer()` 或 `applyOffer()` 替换 `mboxCreate()` 的客户可能无法交付选件。
 
-### 是否可以在某些页面上使用 at.js 2.*x*，而在其他页面上使用 at.js 1.** xis在其他页面上？
+### 是否可以在某些页面上使用 at.js 2.*x*，而在其他页面上使用 at.js 1.*x* 在其他页面上吗？
 
 可以，系统会使用不同版本和库保留各个页面中的访客配置文件。Cookie 格式是相同的。
 
@@ -248,7 +248,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 ### at.js 中的全局 mbox 名称是否无关紧要？
 
-客户可以通过[!UICONTROL Target >管理>实施>编辑at.js设置]来指定全局mbox名称。 [!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为 [!DNL Target] UI 中显示的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并使用全局 mbox 名称创建受众。我们强烈建议您还确保在[!UICONTROL 管理>可视化体验编辑器]页面上配置相同的全局mbox名称，以防仍有使用at.js 1的页面。*x*，如下图所示。
+客户可以通过 [!UICONTROL Target >管理>实施>编辑at.js设置]. [!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为 [!DNL Target] UI 中显示的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并使用全局 mbox 名称创建受众。我们强烈建议您还确保在 [!UICONTROL 管理>可视化体验编辑器] 页面，以防仍有使用at.js 1.*x*，如下图所示。
 
 ![修改 at.js 对话框](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -288,7 +288,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 但是，在 at.js 2.*x* 中，我们不再使用 HTTP GET，而是使用 HTTP POST。现在，通过 at.js 2.*x* 来使用 HTTP POST 将 JSON 有效负载发送到 Target 边缘服务器。这意味着检查浏览器是否支持第三方 Cookie 的重定向请求现在会中断。这是因为 HTTP GET 请求是幂等事务，而 HTTP POST 是非幂等事务，不能任意重复。因此，不再对 at.js 2.*x* 中的跨域跟踪功能提供开箱即用支持。只有 at.js 1.*x* 对跨域跟踪功能提供开箱即用支持。
 
-如果要使用跨域跟踪，必须安装[ECID库v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=zh-Hans)和at.js 2.*x* 中不再对跨域跟踪提供开箱即用支持。ECID 库可以管理用于跨域识别访客的永久 ID。
+如果要使用跨域跟踪，则必须安装 [ECID库v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=zh-Hans) 与at.js 2.*x* 中不再对跨域跟踪提供开箱即用支持。ECID 库可以管理用于跨域识别访客的永久 ID。
 
 >[!NOTE]
 >
@@ -300,7 +300,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 ### 支持全局 Mbox 名称
 
-客户可以通过[!UICONTROL Target >管理>实施>编辑]来指定全局mbox名称。 [!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为输入的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并创建针对全局 mbox 的受众。
+客户可以通过 [!UICONTROL Target >管理>实施>编辑]. [!DNL Target] 边缘服务器使用此设置来将 execute > pageLoad 转换为输入的全局 mbox 名称。这允许客户继续使用服务器端 API、基于表单的编辑器、配置文件脚本，并创建针对全局 mbox 的受众。
 
 ### 以下 at.js 自定义事件是否适用于 `triggerView()`，还是仅适用于 `applyOffer()` 或 `applyOffers()`？
 
@@ -311,7 +311,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 是，at.js 自定义事件也适用于 `triggerView()`。
 
-### 上文说，当我使用&amp;lbrace;`“page” : “true”`&amp;rbrace；调用`triggerView()`时，它会向[!DNL Target]后端发送通知并增加展示次数。 它是否还会导致系统执行配置文件脚本？
+### 我打电话的时候 `triggerView()` 带有&amp;lbrace;`“page” : “true”`&amp;rbrace;，它将向 [!DNL Target] 后端，并增加展示次数。 它是否还会导致系统执行配置文件脚本？
 
 当对 [!DNL Target] 后端进行预取调用时，将会执行配置文件脚本。此后，受影响的配置文件数据将被加密并传递回客户端。在调用使用 `{"page": "true"}` 的 `triggerView()` 后，将会发送通知以及加密的配置文件数据。之后，[!DNL Target] 后端将解密配置文件数据并将其存储到数据库中。
 
@@ -319,9 +319,9 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 不需要，在调用 `triggerView()` 之前，您不需要添加预隐藏代码。at.js 2.*x* 会在显示和应用视图之前管理预隐藏和闪烁逻辑。
 
-### 哪个at.js 1.*at.js 2.* *x*? {#audience-parameters}
+### 哪个at.js 1.*x* at.js 2.*x*? {#audience-parameters}
 
-使用at.js 2时，当前支持创建受众的以下at.js 1.x参数为&#x200B;*NOT*。*x* 中的 Target 流程 - 页面加载请求：
+以下at.js 1.x参数包括 *NOT* 当前支持在使用at.js 2.*x* 中的 Target 流程 - 页面加载请求：
 
 * browserHeight
 * browserWidth
@@ -331,10 +331,15 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 * screenOrientation
 * colorDepth
 * devicePixelRatio
+* vst.*参数([请参阅下文](#vst))
+
+### at.js 2.*x* 不支持使用vst创建受众。*参数 {#vst}
+
+at.js 1.*x* 能够使用vst。*用于创建受众的mbox参数。 at.js 1.*x* 将mbox参数发送到 [!DNL Target] 后端。 迁移到at.js 2.*x*，则无法再使用这些参数创建受众，因为at.js 2.*x* 会以不同方式发送mbox参数。
 
 ## at.js 兼容性
 
-以下表格介绍了 at.js. 2.*x*&#x200B;与不同活动类型、集成、功能和at.js函数的兼容性。
+以下表格介绍了 at.js. 2.*x* 与不同活动类型、集成、功能和at.js函数的兼容性。
 
 ### 活动类型 {#types}
 
@@ -411,7 +416,7 @@ at.js 2.*x*（与 at.js 1.*x* 一样）使用自定义事件 `at-request-succeed
 * at.js 2.*x* - 客户端代码将作为查询字符串参数发送，例如：
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-以下部分列出了每个 at.js 1.** xparameter、其描述以及相应的2。** xJSON有效负载（如果适用）：
+以下部分列出了每个 at.js 1.*x* 参数、其描述以及相应的2。*x* JSON有效负载（如果适用）：
 
 ### at_property
 
@@ -755,10 +760,10 @@ at.js 2.*x* JSON 有效负载：
 
 版本将通过 version 参数作为查询字符串参数发送。
 
-## 培训视频：at.js 2.** 架构图概 ![述徽章](/help/assets/overview.png)
+## 培训视频：at.js 2.*x* 架构图 ![概述徽章](/help/assets/overview.png)
 
 at.js 2.*x* 增强了 Adobe Target 对 SPA 的支持，并与其他 Experience Cloud 解决方案集成。该视频介绍了如何将所有内容结合到一起。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-请参阅[了解at.js 2.** ](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) xwork以了解更多信息。
+请参阅 [了解at.js 2.*x* 作品](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 以了解更多信息。

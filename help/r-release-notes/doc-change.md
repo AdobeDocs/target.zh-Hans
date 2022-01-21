@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
+source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
 workflow-type: tm+mt
-source-wordcount: '3266'
+source-wordcount: '3276'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 1 月 21 日 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | 添加了有关 at.js 1.8.3 版本的信息。 |
 | 1 月 19 日 | [从 at.js 1.*x* 升级到 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | 添加了以下章节：“at.js 2.*x* 不支持使用vst创建受众。* parameters&quot; |
 | 1 月 12 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 添加了指向教程的链接，其中提供有关使用 Web SDK 实施 [!DNL Adobe Experience Cloud] 的说明。 |
 | 1 月 11 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 1 月 19 日）</li></ul> |

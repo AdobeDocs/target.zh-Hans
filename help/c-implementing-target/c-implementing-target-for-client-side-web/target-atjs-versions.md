@@ -5,9 +5,9 @@ title: at.js的每个版本中都包含哪些内容？
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
 workflow-type: tm+mt
-source-wordcount: '4318'
+source-wordcount: '4357'
 ht-degree: 88%
 
 ---
@@ -22,15 +22,22 @@ ht-degree: 88%
 >
 >中的标记 [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是升级at.js的首选方法。 扩展开发人员会不断向其扩展中添加新功能，并且会经常修复错误。 这些更新将打包到扩展的新版本中，并在 [!DNL Adobe Experience Platform] 目录作为升级。 有关更多信息，请参阅 [扩展升级](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 在 *标记概述* 的双曲余切值。
 
-## at.js版本2.8.0（2022年1月7日）
+## at.js 版本 2.8.0（2022 年 1 月 7 日）
 
-的 [!DNL Target] at.js JavaScript库现在可收集功能使用情况和性能遥测数据。 不会收集个人数据。 通过设置 `telemetryEnabled` 为false `targetGlobalSettings`. 有关更多信息，请参阅 [targetGlobalSettings中已启用遥测](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+[!DNL Target] at.js JavaScript 库现在收集功能使用情况和性能遥测数据。不收集个人数据。可以在 `targetGlobalSettings` 中将 `telemetryEnabled` 设置为 false 来选择退出此功能。有关详细信息，请参阅 [targetGlobalSettings 中的 telemetryEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry)。
 
 ## at.js 版本 2.7.0（2021 年 10 月 28 日）
 
 此版本包含以下增强功能：
 
 * 添加了对 [Web 组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支持。在自定义元素以及自定义元素内部的元素上创建和测试个性化的体验及方案时，需要此版本的 at.js。此功能包括在 [!DNL Target Standard/Premium] 21.10.5 版本中。
+
+## at.js 1.8.3（2021年9月21日） {#183}
+
+此版本包含以下更改：
+
+* 删除了 `reactor-window` 和 `reactor-document` [!DNL Adobe Experience Platform Launch] 模块，以确保 [!DNL Platform Launch] 为具有 `window.default` 或 `document-default` 设置。
+* at.js 1.8.3现在已明确设置 `Samesite=None` 和 `Secure` 以确保正确设置第三方域cookie。
 
 ## at.js 2.6.1（2021 年 8 月 16 日）
 

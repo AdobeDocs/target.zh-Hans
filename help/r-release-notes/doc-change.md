@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
 workflow-type: tm+mt
 source-wordcount: '3276'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 1 月 21 日 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | 添加了有关 at.js 1.8.3 版本的信息。 |
-| 1 月 19 日 | [从 at.js 1.*x* 升级到 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | 添加了以下章节：“at.js 2.*x* 不支持使用vst创建受众。* parameters&quot; |
+| 1 月 19 日 | [从 at.js 1.*x* 升级到 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | 添加了以下部分：“at.js 2.*x* 不支持使用 vst.* 参数创建受众” |
 | 1 月 12 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 添加了指向教程的链接，其中提供有关使用 Web SDK 实施 [!DNL Adobe Experience Cloud] 的说明。 |
 | 1 月 11 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 1 月 19 日）</li></ul> |
 | 1 月 7 日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了有关 at.js 2.8.0 版本发布的信息。 |
@@ -107,7 +107,7 @@ ht-degree: 99%
 |  | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题：<ul><li>增强体验编辑器 (EEC) 不支持 PUT 请求。</li></ul> |
 | 7 月 27 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 添加了新章节：<ul><li>推荐文档</li></ul> |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md#content-delivery) | 添加了新章节：<ul><li>内容投放</li></ul> |
-| 7 月 26 日 | *Adobe Experience Platform Web SDK 概览*&#x200B;指南中的[将 Adobe Target 与 Platform Web SDK 结合使用](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=zh_Hans) | 添加了新章节：<ul><li>Platform Web SDK 系统图</li></ul> |
+| 7 月 26 日 | *Adobe Experience Platform Web SDK 概览*&#x200B;指南中的[将 Adobe Target 与 Platform Web SDK 结合使用](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=zh-Hans) | 添加了新章节：<ul><li>Platform Web SDK 系统图</li></ul> |
 | 7 月 23 日 | [排除与可视化体验编辑器和增强体验编辑器相关的问题](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新了以下章节以提供更多详细信息：<ul><li>Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？</li></ul> |
 |  | [限制](/help/r-troubleshooting-target/target-limits.md) | 在“体验”下添加了新的章节“每体验的修改数”。 |
 | 7 月 21 日 | [排除与可视化体验编辑器和增强体验编辑器相关的问题](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新了以下部分：<ul><li>Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？</li></ul> |

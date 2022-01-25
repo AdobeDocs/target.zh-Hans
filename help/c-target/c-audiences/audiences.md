@@ -1,12 +1,12 @@
 ---
 keywords: 受众;受众规则;创建受众;定位受众;报表受众;区段;自定义配置文件参数;受众定义;受众列表
-description: 了解如何使用 [!UICONTROL 受众] 列表 [!DNL Adobe Target].
+description: 了解如何在中使用受众 [!DNL Adobe Target].
 title: 如何使用受众列表？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: d8b18c77d6df2fb9db01b64268e555f9a4b10adf
+source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '772'
 ht-degree: 30%
 
 ---

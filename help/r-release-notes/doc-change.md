@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
+source-git-commit: 7c8620df9cefe422f499d4edb681d024e74529ce
 workflow-type: tm+mt
-source-wordcount: '3276'
-ht-degree: 100%
+source-wordcount: '3318'
+ht-degree: 99%
 
 ---
 
@@ -15,13 +15,22 @@ ht-degree: 100%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
+## [!DNL Adobe Target Standard/Premium] 22.1.1（2022年1月12日）
+
+| 日期 | 主题 | 更改 |
+| --- | --- | --- |
+| 1 月 26 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了关于 Target Standard/Premium 22.1.2 版的信息。 |
+|  | [创建受众](/help/c-target/c-audiences/audiences.md) | 添加了有关 [!DNL Adobe Experience Platform] 受众。 |
+|  | [合并多个受众](/help/c-target/combining-multiple-audiences.md) | 添加了有关 [!DNL Adobe Experience Platform] 受众。 |
+| 1 月 21 日 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | 添加了有关 at.js 1.8.3 版本的信息。 |
+| 1 月 19 日 | [从 at.js 1.*x* 升级到 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | 添加了以下部分：“at.js 2.*x* 不支持使用 vst.* 参数创建受众” |
+| 1 月 12 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了关于 Target Standard/Premium 22.1.1 版的信息。 |
+|  | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 添加了指向教程的链接，其中提供有关使用 Web SDK 实施 [!DNL Adobe Experience Cloud] 的说明。 |
+
 ## [!DNL Adobe Target Standard/Premium] 21.10.1（2021 年 10 月 6 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 1 月 21 日 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | 添加了有关 at.js 1.8.3 版本的信息。 |
-| 1 月 19 日 | [从 at.js 1.*x* 升级到 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | 添加了以下部分：“at.js 2.*x* 不支持使用 vst.* 参数创建受众” |
-| 1 月 12 日 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 添加了指向教程的链接，其中提供有关使用 Web SDK 实施 [!DNL Adobe Experience Cloud] 的说明。 |
 | 1 月 11 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 1 月 19 日）</li></ul> |
 | 1 月 7 日 | [发行说明](/help/r-release-notes/release-notes.md) | 添加了有关 at.js 2.8.0 版本发布的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.8.0 版本发布的信息。 |

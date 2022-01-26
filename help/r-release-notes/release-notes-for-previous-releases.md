@@ -4,10 +4,10 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 315ddd7444e96e473285c30c32f2ce379e0380ac
 workflow-type: tm+mt
-source-wordcount: '32584'
-ht-degree: 100%
+source-wordcount: '32655'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,14 @@ ht-degree: 100%
 >[!NOTE]
 >
 >请参阅 [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
+
+## 发行说明 - 2022
+
+### [!DNL Target Standard/Premium] 22.1.2（2022年1月12日）
+
+| 功能 | 详细信息 |
+| --- | --- |
+| 在中使用选件决策 [!DNL Target] 活动 | 您现在可以使用 [!DNL Adobe Journey Optimizer] 优惠决策 [!DNL Adobe Target] A/B测试和体验定位(XT)活动，确定并在Web和移动设备上为访客提供下一个最佳选件。<br>**注意**:此功能适用于 [!DNL Target] 还有权访问 [!DNL Offer Decisioning] 而且 [!DNL Target] 基于Adobe Experience Platform Web SDK的实施。<br>有关更多信息，请参阅 [使用优惠决策](/help/c-integrating-target-with-mac/ajo/offer-decision.md). |
 
 ## 发行说明 - 2021
 
@@ -37,7 +45,7 @@ ht-degree: 100%
 | --- | --- |
 | 可视化体验编辑器 (VEC) | 添加了对 [Web 组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components)的支持。可以在自定义元素以及自定义元素内部的元素上创建和测试个性化的体验和方案。<br>有关更多信息，请参阅[可视化体验编辑器选项](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom)。 |
 
-## [!DNL Target Standard/Premium] 21.10.4（2021 年 10 月 21 日）
+### [!DNL Target Standard/Premium] 21.10.4（2021 年 10 月 21 日）
 
 此维护版本包含以下增强功能：
 

@@ -4,22 +4,18 @@ description: 了解如何添加在 [!DNL Adobe Journey Optimizer] 到活动。
 title: 如何使用优惠决策？
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
+source-git-commit: 9843b146b35de3a42408b689f4326fce12bbee5d
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
 
-# 使用优惠决策
+# 使用选件决策
 
 使用 [!DNL Adobe Target] with [!DNL Adobe Journey Optimizer] 选件决策，以确定并在web和移动设备上为访客提供下一个最佳选件。
 
 添加在中创建的选件决策 [!DNL Adobe Journey Optimizer] to [!DNL Target] 活动（手动） [!UICONTROL A/B测试] 或 [!UICONTROL 体验定位])使用 [!UICONTROL 可视化体验编辑器] (VEC)或 [!UICONTROL 基于表单的编辑器] 在由 [!DNL Target].
-
->[!NOTE]
->
->本主题中介绍的目前为测试版的选件决策功能，仅供选定客户使用。
 
 有关 [!DNL Adobe Journey Optimizer]，请参阅 [开始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 在 *Journey Optimizer* 文档。
 

@@ -4,10 +4,10 @@ description: 了解如何合并多个受众(包括Adobe Experience Cloud受众�
 title: 我是否可以合并多个受众以创建新受众？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 0ac66c49b319b1ab1791fd91428fd2764f48c3ec
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 69%
+source-wordcount: '937'
+ht-degree: 68%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 69%
 >[!NOTE]
 >
 >的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 使用 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). 受众 [!DNL Adobe Experience Platform] 可以按原样使用，或与现有受众组合使用，如本主题中所述)。
+>
+>有关详细信息，请参阅 [使用来自Adobe Experience Platform的受众](/help/c-target/c-audiences/audiences.md#aep).
 
 假设您有两个受众：“新访客”和“Chrome 用户”。在某个特定活动中，您可能想要合并这两个现有受众，以定位使用 Chrome 浏览器的新访客。您可以在创建活动或编辑现有活动时合并这两个受众，而无需再另外创建一个受众，并将其存储到[!UICONTROL 受众]库中。
 

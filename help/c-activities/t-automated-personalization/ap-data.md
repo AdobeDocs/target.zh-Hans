@@ -1,12 +1,12 @@
 ---
 keywords: 环境数据；会话数据；地理数据；设备数据；移动设备数据；属性；配置文件属性；个性化算法；机器学习算法
-description: 了解哪些数据Adobe [!DNL Target] 收集并使用以在 [!UICONTROL Automated Personalization] （美联社）和 [!UICONTROL 自动定位] (AT)活动。
+description: 了解哪些数据Adobe [!DNL Target] 收集并使用来构建其机器学习算法。
 title: 收集哪些数据来构建机器学习算法？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 330e48f55e8342a8ac5f27abae392b3950b300db
+source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2077'
 ht-degree: 48%
 
 ---

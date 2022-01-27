@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7c8620df9cefe422f499d4edb681d024e74529ce
+source-git-commit: 9887358f905b8fda8cf42f0cbd721c1ad13632d4
 workflow-type: tm+mt
-source-wordcount: '3318'
+source-wordcount: '3329'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 1 月 27 日 | [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 更新了主题并添加了有关 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0]. |
 | 1 月 26 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了关于 Target Standard/Premium 22.1.2 版的信息。 |
 |  | [创建受众](/help/c-target/c-audiences/audiences.md) | 添加了有关 [!DNL Adobe Experience Platform] 受众。 |
 |  | [合并多个受众](/help/c-target/combining-multiple-audiences.md) | 添加了有关 [!DNL Adobe Experience Platform] 受众。 |

@@ -4,7 +4,7 @@ description: 了解哪些数据Adobe [!DNL Target] 收集并使用以在 [!UICON
 title: 收集哪些数据来构建机器学习算法？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: d191274f18098edeba1f6f87c75d9ca20ba0c412
+source-git-commit: 330e48f55e8342a8ac5f27abae392b3950b300db
 workflow-type: tm+mt
 source-wordcount: '2085'
 ht-degree: 48%
@@ -77,7 +77,7 @@ ht-degree: 48%
 | 属性名称 | 属性描述 | 示例值 | 系统名称 |
 | --- | --- | --- | --- |
 | 地域 - 城市 | 访客访问活动时所在的城市。 | 旧金山 | Geo_City |
-| 地域 - 国家/地区 | 访客访问活动时所在的国家/地区。 | 德国 | 地域县 |
+| 地域 - 国家/地区 | 访客访问活动时所在的国家/地区。 | 德国 | 地域(_C) |
 | 地域 - DMA | 访客访问活动时所在的指定营销区域 (DMA)。 | 夏洛茨维尔 | Geo_DMA |
 | 地域 - 纬度 | 访客访问活动时所在位置的纬度。 | 47.269<br>四舍五入到小数点后三位（精度约为 100 米） | GEO_Latitude |
 | 地域 - 经度 | 访客访问活动时所在位置的经度。 | -122.269<br>四舍五入到小数点后三位（精度约为 100 米） | GEO_Longitude |

@@ -5,9 +5,9 @@ title: at.js的每个版本中都包含哪些内容？
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '4357'
+source-wordcount: '4390'
 ht-degree: 88%
 
 ---
@@ -21,6 +21,12 @@ ht-degree: 88%
 >Target团队同时支持at.js 1.*x* 与 at.js 2.*x* 之间的映射。请升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。
 >
 >中的标记 [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是升级at.js的首选方法。 扩展开发人员会不断向其扩展中添加新功能，并且会经常修复错误。 这些更新将打包到扩展的新版本中，并在 [!DNL Adobe Experience Platform] 目录作为升级。 有关更多信息，请参阅 [扩展升级](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 在 *标记概述* 的双曲余切值。
+
+## at.js 版本 2.8.1（2022 年 1 月 28 日）
+
+* 已修复 `pageLoad` 未映射到 [!UICONTROL 关于Device Decisioning] (ODD)混合执行模式。
+* 修复了mbox请求的分析详细信息问题。
+* 升级了开发依赖项以修复安全漏洞。
 
 ## at.js 版本 2.8.0（2022 年 1 月 7 日）
 

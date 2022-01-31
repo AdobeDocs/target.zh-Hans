@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括什么新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
-workflow-type: ht
-source-wordcount: '200'
-ht-degree: 100%
+source-git-commit: 80e9e516ad6a6e0d3683d0001812ce58eb7dfb19
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 65%
 
 ---
 
@@ -15,15 +15,16 @@ ht-degree: 100%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2022 年 1 月 10 日**
+**上次更新日期：2022 年 1 月 31 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
->[!IMPORTANT]
->
->**mbox.js 生命周期结束**：从 2021 年 3 月 31 日起，[!DNL Adobe Target] 将不再支持 mbox.js 库。2021 年 3 月 31 日之后，所有从 mbox.js 进行的调用都会失败，并影响您通过提供默认内容而运行 [!DNL Target] 活动的页面。
->
->请迁移到新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 库的最新版本，以避免您的网站出现任何潜在问题。有关更多信息，请参阅[概述：为客户端 Web 实现 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)。
+## Target Standard/Premium 22.2.1（2022 年 2 月 1 日）
+
+此维护版本包含以下针对新 [!UICONTROL 受众] 在 [Target Standard/Premium 22.1.2版](/help/r-release-notes/release-notes.md) 这将在未来六周内推广到所有地区的客户。 这些修复使在中创建的受众的功能保持一致 [!DNL Adobe Target Standard/Premium].
+
+* 修复了导入受众无法从 [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]和 [!DNL Adobe Target Classic] 分配为报表受众。 (TGT-43140)
+* 添加了 [!UICONTROL 删除] 选项 [!UICONTROL 受众] 从中导入受众的列表 [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]和 [!DNL Adobe Target Classic]. 还添加了批量删除功能。 (TGT-42914)
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

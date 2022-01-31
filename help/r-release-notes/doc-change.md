@@ -15,7 +15,7 @@ ht-degree: 99%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
-## [!DNL Adobe Target Standard/Premium] 22.1.1（2022年1月12日）
+## [!DNL Adobe Target Standard/Premium] 22.1.1（2022 年 1 月 12 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
@@ -23,8 +23,8 @@ ht-degree: 99%
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.8.1 版本的信息。 |
 | 1 月 27 日 | [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 更新了主题并添加了有关 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0]. |
 | 1 月 26 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了关于 Target Standard/Premium 22.1.2 版的信息。 |
-|  | [创建受众](/help/c-target/c-audiences/audiences.md) | 添加了有关 [!DNL Adobe Experience Platform] 受众。 |
-|  | [合并多个受众](/help/c-target/combining-multiple-audiences.md) | 添加了有关 [!DNL Adobe Experience Platform] 受众。 |
+|  | [创建受众](/help/c-target/c-audiences/audiences.md) | 添加了关于 [!DNL Adobe Experience Platform] 受众的信息。 |
+|  | [合并多个受众](/help/c-target/combining-multiple-audiences.md) | 添加了关于 [!DNL Adobe Experience Platform] 受众的信息。 |
 | 1 月 21 日 | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | 添加了有关 at.js 1.8.3 版本的信息。 |
 | 1 月 19 日 | [从 at.js 1.*x* 升级到 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | 添加了以下部分：“at.js 2.*x* 不支持使用 vst.* 参数创建受众” |
 | 1 月 12 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了关于 Target Standard/Premium 22.1.1 版的信息。 |

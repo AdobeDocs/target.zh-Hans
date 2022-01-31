@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: a7f28b4d94cb18bb3e50c7b04918a516f0d10616
 workflow-type: tm+mt
 source-wordcount: '32598'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 99%
 
 ## 发行说明 - 2022
 
-### [!DNL Target Standard/Premium] 22.1.1（2022年1月12日）
+### [!DNL Target Standard/Premium] 22.1.1（2022 年 1 月 12 日）
 
-此版本包括错误修复和未来集成的先决条件功能。
+此版本包含错误修复和未来集成所需的功能。
 
 ## 发行说明 - 2021
 
@@ -569,7 +569,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| ![Premium 徽章](/help/assets/premium.png) 基于用户的推荐<br>（2019 年 10 月 24 日） | 根据每位访客的浏览、查看和购买历史记录推荐商品。这些商品一般称为“为您推荐”。<br>通过此标准，对于新访客和回访访客均可投放个性化的内容和体验。推荐的列表根据访客最近的活动进行加权，在会话中更新，并随着访客浏览您的网站而逐渐更加个性化。<br>有关详细信息，请在[标准/算法](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)中参阅“基于用户的建议”。 |
+| ![Premium 徽章](/help/assets/premium.png) 基于用户的推荐<br>（2019 年 10 月 24 日） | 根据每位访客的浏览、查看和购买历史记录推荐商品。这些商品一般称为“为您推荐”。<br>通过此标准，对于新访客和回访访客均可投放个性化的内容和体验。推荐的列表根据访客最近的活动进行加权，在会话中更新，并随着访客浏览您的网站而逐渐更加个性化。<br>有关更多信息，请在[标准/算法](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)中参阅“基于用户的建议”。 |
 
 **Adobe Experience Cloud 导航**
 
@@ -602,7 +602,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| at.js 2.2 版<br>和<br>at.js 1.8 版 | at.js 的这些版本提供：<ul><li>在网页上同时使用 Experience Cloud ID Service (ECID) v4.4 和 at.js 2.2 或 at.js 1.8 时，提高了性能。</li><li>以前，只有在 ECID 作出两次阻塞调用之后，at.js 才能获取体验。此过程已减少为单次调用，从而显著提高性能。</li></ul> 要充分利用这些提高性能的优势，请升级到 at.js 2.2 或 at.js 1.8 并配合 ECID 库 v4.4。<br>at.js 2.2 提供：<ul><li>**serverState**：at.js 2.2 和更高版本中提高的一项设置，当实现 Target 的混合集成时，可使用该设置优化页面性能。混合集成指的是在客户端使用 at.js 2.2 和更高版本，在服务器端使用交付 API 或 Target SDK，二者相结合以交付体验。`serverState` 让 at.js 2.2 和更高版本可直接从在服务器端获取并作为所提供的页面的一部分返回客户端的内容应用体验。<br>有关详细信息，请在 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) 中参阅“serverState”。</li></ul> |
+| at.js 2.2 版<br>和<br>at.js 1.8 版 | at.js 的这些版本提供：<ul><li>在网页上同时使用 Experience Cloud ID Service (ECID) v4.4 和 at.js 2.2 或 at.js 1.8 时，提高了性能。</li><li>以前，只有在 ECID 作出两次阻塞调用之后，at.js 才能获取体验。此过程已减少为单次调用，从而显著提高性能。</li></ul> 要充分利用这些提高性能的优势，请升级到 at.js 2.2 或 at.js 1.8 并配合 ECID 库 v4.4。<br>at.js 2.2 提供：<ul><li>**serverState**：at.js 2.2 和更高版本中提高的一项设置，当实现 Target 的混合集成时，可使用该设置优化页面性能。混合集成指的是在客户端使用 at.js 2.2 和更高版本，在服务器端使用交付 API 或 Target SDK，二者相结合以交付体验。`serverState` 让 at.js 2.2 和更高版本可直接从在服务器端获取并作为所提供的页面的一部分返回客户端的内容应用体验。<br>有关更多信息，请在 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) 中参阅“serverState”。</li></ul> |
 
 ### Target 平台（2019 年 10 月 9 日）
 

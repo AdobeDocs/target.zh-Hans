@@ -4,10 +4,10 @@ description: 了解如何在中使用受众 [!DNL Adobe Target].
 title: 如何使用受众列表？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: fd1d276cd01221be1fbde7931b4350edefe1965c
+source-git-commit: f8076bd8e9b88ae6ef6af93efe83591fc261ea3f
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 24%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -125,6 +125,7 @@ Keep the following points in mind as you work with imported audiences:
 有关更多信息，请参阅以下主题：
 
 * [目标发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
+* [为同一页面和下一页面个性化配置个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}
 * [自定义个性化连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} *目标概述* 指南
 * [Adobe Target连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} *目标概述* 指南
 * [为同一页面和下一页个性化用例配置个性化目标](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}

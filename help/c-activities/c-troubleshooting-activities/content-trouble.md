@@ -4,10 +4,10 @@ description: 如果页面未显示预期的内容，可查找建议以帮助解�
 title: 如何为内容投放排除故障？
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 97%
+source-wordcount: '1649'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 97%
 
 | mboxTrace 选项 | 结果 |
 |--- |--- |
-| `?mboxTrace=console` | 作为对象打印到控制台日志中。<br>对于at.js，不会像在mbox.js中一样弹出新的浏览器窗口或输出到控制台（现在已弃用），您而是需要检查网络请求，并在“预览”(Chrome)或“响应”(Firefox)下查看。 |
+| `?mboxTrace=console` | 作为对象打印到控制台日志中。<br>对于 at.js，不会像在 mbox.js 中一样弹出新的浏览器窗口或输出到控制台（现已弃用），而是需要检查网络请求，并在“预览”(Chrome) 或“响应”(Firefox) 下查看。 |
 | `?mboxTrace=json` | 作为 JSON 文字字符串打印到控制台日志中 |
 | `?mboxTrace=window` | 作为 JSON 字符串打印到弹出窗口中 |
 | `?mboxTrace=disable` | 关闭跟踪会话模式 |
@@ -98,10 +98,7 @@ ht-degree: 97%
 | URL 参数 | 用途 |
 |--- |--- |
 | `mboxDebug=1` | 调试器<br>将此参数添加到任何定义了 Target 请求的 URL 将打开一个弹出窗口，其中显示有用的调试详细信息。Cookie 信息、PCid 和会话 ID 值都会写出，并且用户可看到所有 URL。单击 Target 请求 URL 以显示对该 [!DNL Target] 要求的响应。有关更多信息，请参阅 [mbox_debug.pdf](/help/assets/mbox_debug.pdf)。 |
-| `mboxDebug=x-cookie` | 修改 Cookie |
 | `mboxDisable=1` | 停用页面上的 mbox |
-| `mboxDebug=x-profile` | 查看配置文件集。 |
-| `mboxDebug=x-time` | 显示每个 [!DNL Target] 请求的响应时间 |
 | `mboxOverride.browserIp=<Insert IP address>` | 测试地理定位<br>使用此 URL 参数测试地理定位。输入 IP 地址作为此属性的值，Test&amp;Target 的地理定位功能会评估该 IP 地址，查找营销活动中设置的与其匹配的任何地理定位或客户群。 |
 
 >[!NOTE]
@@ -189,6 +186,19 @@ Target 不再支持 IE 8。
 在此场景中，URL 是 `https://shopping.mycart.com?type=Summers%20Offers`，额外的模板规则指定[!UICONTROL 查询] 的 [!UICONTROL type ] > [!UICONTROL  为（区分大小写）] > type=Summers%20Offers，以 OR 分隔符分隔：
 
 ![模板规则利用 URL 的特定部分](assets/option3.png)
+
+## 在中转义双引号 [!DNL Target] 配置文件属性值无法按预期工作。 {#escape}
+
+当您发送的值中包含双引号时， [!DNL Target] 配置文件属性时，必须对其进行双重转义，如下所示。
+
+```
+adobe.target.trackEvent({
+    "mbox": "data-collection",
+    "params":    {
+        "profile.tagLine": "Escape \\\"Double Quotes\\\" like this."
+    }
+});
+```
 
 ## 培训视频
 

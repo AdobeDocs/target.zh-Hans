@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 201877ba0c8bc167c404744b4d33658a9e373f69
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3397'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2 月 2 日 | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 添加了以下章节：&quot;在 [!DNL Target] 配置文件属性值无法按预期工作。” |
 | 2 月 1 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.2.1版本。 |
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1（2022 年 1 月 12 日）
@@ -28,7 +29,7 @@ ht-degree: 0%
 | 1 月 31 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.2.1版本。 |
 | 1 月 28 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 at.js 2.8.1 版本的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.8.1 版本的信息。 |
-| 1 月 27 日 | [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 更新了主题并添加了有关 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0]. |
+| 1 月 27 日 | [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 更新了主题并添加了有关 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0] 的信息。 |
 | 1 月 26 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了关于 Target Standard/Premium 22.1.2 版的信息。 |
 |  | [创建受众](/help/c-target/c-audiences/audiences.md) | 添加了关于 [!DNL Adobe Experience Platform] 受众的信息。 |
 |  | [合并多个受众](/help/c-target/combining-multiple-audiences.md) | 添加了关于 [!DNL Adobe Experience Platform] 受众的信息。 |
@@ -197,7 +198,7 @@ ht-degree: 0%
 |  | [不通过标签管理器实施 Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | 添加了关于设备上决策的信息。 |
 |  | [活动 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 为 [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 添加了对 [!UICONTROL Automated Personalization] 活动的预览链接的支持。 |
 |  | [使用动态和静态包含规则](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 添加了关于以下新运算符的信息：<ul><li>包含在列表中</li><li> 不包含在列表中</li><li>列表中包含某个项目</li><li>列表中不包含某个项目</li><li>列表中包含所有项目</li><li>列表中不包含所有项目</li></ul> |
-|  | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html??lang=zh-Hans)<br>（*Experience Cloud Services 和管理*&#x200B;指南） | 添加了关于“会话 ID”的其他信息。 |
+|  | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=zh-Hans)<br>（*Experience Cloud Services 和管理*&#x200B;指南） | 添加了关于“会话 ID”的其他信息。 |
 |  | [发行说明](/help/r-release-notes/release-notes.md)：21.4.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.2.1（2021 年 3 月 9 日）

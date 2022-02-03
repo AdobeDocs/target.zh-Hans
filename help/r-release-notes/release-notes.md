@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 211540256d2bbaddf3053eb1cba2b30b058af8fd
+source-git-commit: 5d3e5a15a262d29bd1d95af71baae52ed288b33e
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 90%
+source-wordcount: '773'
+ht-degree: 80%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 90%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| [!DNL Target] 中的 [!DNL Adobe Experience Platform] 受众 | 您现在可以继续使用 [!DNL Target] 中的 [!DNL Adobe Experience Platform] 受众。[!DNL Target] 团队、[!DNL Experience Platform] [!DNL Destinations] 团队和 [!DNL Unified Profile Service] 团队很高兴地宣布推出“同一页面/下一页面个性化”用例。<br>利用在 [!DNL Adobe Experience Platform] 中创建的受众可提供更丰富的客户数据，从而带来更强大的个性化功能。[Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans){target=_blank} (RTCP) 构建于 [!DNL Adobe Experience Platform]，可帮助公司汇总来自多个企业的已知和匿名数据，创建客户档案，用于实时提供跨所有渠道和设备的个性化客户体验。<br>有关更多信息，请参阅&#x200B;*创建受众*&#x200B;中的[利用来自 Adobe Experience Platform 的受众](/help/c-target/c-audiences/audiences.md#aep)。<br>请务必阅读 Adobe 博客并观看视频：[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] and [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}。 |
+| [!DNL Target] 中的 [!DNL Adobe Experience Platform] 受众 | 您现在可以继续使用 [!DNL Target] 中的 [!DNL Adobe Experience Platform] 受众。[!DNL Target] 团队、[!DNL Experience Platform] [!DNL Destinations] 团队和 [!DNL Unified Profile Service] 团队很高兴地宣布推出“同一页面/下一页面个性化”用例。<br>利用在 [!DNL Adobe Experience Platform] 中创建的受众可提供更丰富的客户数据，从而带来更强大的个性化功能。的 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans){target=_blank}(RTCDP)，内置于 [!DNL Adobe Experience Platform] 帮助公司整合来自多个企业来源的已知和匿名数据，以创建客户配置文件，以便用于在所有渠道和设备上实时提供个性化的客户体验。<br>有关更多信息，请参阅 [使用来自Adobe Experience Platform的受众](/help/c-target/c-audiences/audiences.md#aep) in *创建受众* 和 [同页和下一页个性化用例](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} *目标概述* 的双曲余切值。 |
 | [!UICONTROL 受众] UI 刷新 | 作为 [!DNL Adobe Target] 团队努力改进的 [!DNL Target] 用户体验的一部分，此版本刷新了 [!DNL Target] UI 中的[!UICONTROL 受众]和[!UICONTROL 个人资料脚本]页面。此更新统一并标准化了以前不一致的设计模式，并添加了新的增强功能，例如：<ul><li>同时选择和删除多个受众的功能</li><li>刷新的[受众生成器设计](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 受众]库规则生成器中的排除规则支持</li><li>新的“受众来源”筛选器，可用于更快地发现受众</li><li>会话持久搜索和筛选选项</li><li>为 [!DNL Target Premium] 客户在工作区之间移动受众的功能。</li></ul>有关更多信息，请参阅[受众](/help/c-target/target.md)。<br>**注意**：此功能将在八周后向不同地区的客户推出。 |
 | [!UICONTROL 个人资料脚本] UI 刷新 | [!UICONTROL 个人资料脚本]库也已更新，并且包含一个更新后的界面和几项生产力更新：<ul><li>同时选择和删除多个个人资料脚本的功能</li><li>个人资料脚本的新代码编辑器</li><li>代码编辑器中的语法突出显示和错误检查</li><li>通过键盘快捷键自动完成令牌（mbox 或 profile）参数</li></ul>有关更多信息，请参阅[访客个人资料](/help/c-target/c-visitor-profile/visitor-profile.md)。<br>**注意**：此功能将在八周后向不同地区的客户推出。 |
 

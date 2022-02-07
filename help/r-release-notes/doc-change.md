@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
 workflow-type: tm+mt
 source-wordcount: '3412'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 98%
 | --- | --- | --- |
 | 2 月 3 日 | [创建受众](/help/c-target/c-audiences/audiences.md#RTCDP) | 添加了新章节和视频：“视频：使用实时CDP实现下一次点击的个性化，以及 [!DNL Adobe Target].&quot; |
 | 2 月 2 日 | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 添加了以下章节：&quot;在 [!DNL Target] 配置文件属性值无法按预期工作。” |
-| 2 月 1 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.2.1版本。 |
+| 2 月 1 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.2.1 版本的信息。 |
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1（2022 年 1 月 12 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 1 月 31 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.2.1版本。 |
+| 1 月 31 日 | [Target 发行说明（预发行版本）](/help/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.2.1 版的预发行信息。 |
 | 1 月 28 日 | [Target 发行说明（当前版本）](/help/r-release-notes/release-notes.md) | 添加了有关 at.js 2.8.1 版本的信息。 |
 |  | [at.js 版本详细信息](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.8.1 版本的信息。 |
 | 1 月 27 日 | [AEM 体验片段](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 更新了主题并添加了有关 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0] 的信息。 |

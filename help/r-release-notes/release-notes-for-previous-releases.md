@@ -7,13 +7,13 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: 211540256d2bbaddf3053eb1cba2b30b058af8fd
 workflow-type: tm+mt
 source-wordcount: '32988'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 以前版本的发行说明
 
-以前的发行说明 [!DNL Adobe Target] 版本，包括 [!DNL Target Standard/Premium], [!DNL Target] 平台，以及 [!DNL Target] Javascript库(at.js)。
+以前 [!DNL Adobe Target] 版本的发行说明，包括 [!DNL Target Standard/Premium]、[!DNL Target] 平台和 [!DNL Target] JavaScript 库 (at.js) 的发行说明。
 
 发行说明按发布年月按降序排列。
 

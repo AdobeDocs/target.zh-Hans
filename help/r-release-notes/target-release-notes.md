@@ -5,9 +5,9 @@ title: 即将发布的版本中包括什么新功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 80e9e516ad6a6e0d3683d0001812ce58eb7dfb19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 65%
 
 ## Target Standard/Premium 22.2.1（2022 年 2 月 1 日）
 
-此维护版本包含以下针对新 [!UICONTROL 受众] 在 [Target Standard/Premium 22.1.2版](/help/r-release-notes/release-notes.md) 这将在未来六周内推广到所有地区的客户。 这些修复使在中创建的受众的功能保持一致 [!DNL Adobe Target Standard/Premium].
+此维护版本包含接下来六周内向世界各地客户推出的 [Target Standard/Premium 22.1.2 版](/help/r-release-notes/release-notes.md)中公布的新 [!UICONTROL Audiences] UI 的以下修复和增强。这些修复与在 [!DNL Adobe Target Standard/Premium] 中创建的受众功能对应。
 
-* 修复了导入受众无法从 [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]和 [!DNL Adobe Target Classic] 分配为报表受众。 (TGT-43140)
-* 添加了 [!UICONTROL 删除] 选项 [!UICONTROL 受众] 从中导入受众的列表 [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud]和 [!DNL Adobe Target Classic]. 还添加了批量删除功能。 (TGT-42914)
+* 修复了一个问题，该问题阻止将从 [!DNL Adobe Experience Platform]、[!DNL Adobe Experience Cloud] 和 [!DNL Adobe Target Classic] 导入的受众分配为报表受众。(TGT-43140)
+* 在从 [!DNL Adobe Experience Platform]、[!DNL Adobe Experience Cloud] 和 [!DNL Adobe Target Classic] 导入的受众的 [!UICONTROL Audiences] 列表中添加了[!UICONTROL 删除]选项。还添加了批量删除功能。(TGT-42914)
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

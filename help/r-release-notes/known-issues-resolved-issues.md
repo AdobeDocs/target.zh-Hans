@@ -4,10 +4,10 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '4504'
-ht-degree: 100%
+source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+workflow-type: tm+mt
+source-wordcount: '4561'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 100%
 ## 已知问题 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 下面部分列出了 [!DNL Target] 的已知问题：
+
+### 可视化体验编辑器(VEC)使用服务工作程序加载网站
+
+当前，在尝试使用VEC打开使用服务工作程序的网站时存在一些限制。 一种解决方法是从Chrome开发人员工具>应用程序选项卡中禁用服务工作程序，然后启用服务工作程序部分下的“绕过网络”复选框。 (KB-2006)
 
 ### 使用 A4T 的自动分配活动的流量分配 {#aa-a4t}
 

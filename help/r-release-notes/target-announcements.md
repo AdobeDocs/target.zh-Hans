@@ -5,9 +5,9 @@ title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 94%
 
 关于即将举办的活动的公告和信息，包括 [!DNL Adobe Target] Skill Builder 讲座、开发人员聊天、网络研讨会和 [!DNL Target] Coffee Break 讲座。
 
-## [!DNL Adobe Target] 社区问答喝咖啡休息时间 （2022年2月23日）
+## [!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 2 月 23 日）
 
-* **2022年2月23日星期三**
+* **2022 年 2 月 23 日星期三**
 * **上午 8 点（PST，UTC -8）**
 * **[更多信息和注册信息](https://adobe.ly/3skO6DV)**
 
-高级产品经理Vishal Chordia将回答客户有关其以下专业领域的问题：
+高级产品经理 Vishal Chordia 将针对其擅长的下列专业领域解答客户问题：
 
 * [!DNL Adobe Experience Platform]
 * 基于受众的个性化
 * [!DNL Real-time Customer Data Platform] (RTCDP) 与 [!DNL Target] 集成
 * 一般 [!DNL Target] 主题
 
-技术支持工程师Mihnea Docea将协助Vishal。
+技术支持工程师 Mihnea Docea 将协助 Vishal 解答问题。
 
 ## 网络研讨会：通过 [!DNL Adobe Target] 的设备上决策进行无延迟的个性化和测试
 

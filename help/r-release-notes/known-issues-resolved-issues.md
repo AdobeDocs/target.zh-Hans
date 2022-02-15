@@ -5,9 +5,9 @@ title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4738'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 95%
 
 下面部分列出了 [!DNL Target] 的已知问题：
 
-### 可视化体验编辑器(VEC)使用服务工作程序加载网站
+### 通过可视体验编辑器 (VEC) 加载使用 Service Worker 的网站
 
-当前，在尝试使用VEC打开使用的网站时存在一些限制 [服务人员](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank}(SW)。
+在尝试使用 VEC 打开使用 [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW) 的网站时，目前存在一些限制。
 
-软件是一种Web技术，可用于拦截网页所安装域的请求。 软件在页面访问期间过期，并在后续访问时激活它。 软件会决定通过哪些请求以及哪些请求会被拦截并从缓存中提供。
+SW 是一种 Web 技术，可用于拦截对网页所安装的域的请求。SW 在页面访问中留存，并在后续访问中自我激活。SW 可以决定哪些请求将通过，哪些请求被拦截并从缓存中提供服务。
 
-软件可以控制缓存；可以缓存网页本身、静态资源(如JS、CSS、IMG、AJAX请求)、其内容及其响应标头，包括我们的 [Target VEC助手扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 尝试删除，如X-Frame-Options:SAMEORIGIN、CSP(Content-Security-Policy)或Set-Cookie。
+SW 可以控制缓存；可以缓存网页本身、静态资源（例如 JS、CSS、IMG、AJAX 请求）、它们的内容和响应头，包括我们的 [Target VEC Helper 扩展](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)尝试删除的项，例如 X-Frame-Options：SAMEORIGIN、CSP (Content-Security-Policy) 或 Set-Cookie。
 
-遗憾的是，用于截获Web请求的Chrome扩展API不会收到软件截获并处理的请求。 因此，如果网页请求是由软件从缓存中提供的，则扩展无法修复标头和Cookie，因为由于也缓存了X-Frame-Options或CSP标头，因此VEC中无法加载网页。
+不幸的是，拦截 Web 请求的 Chrome 扩展 API 不会收到已由 SW 拦截和处理的请求。因此，如果网页请求是由 SW 从缓存中提供的，则扩展无法修复标头和 Cookie，因为网页将不会在 VEC 中加载（原因是，X-Frame-Options 或 CSP 标头也已被缓存）。
 
-作为潜在的解决方法，您可以从Chrome开发人员工具>应用程序选项卡中禁用服务工作程序，然后启用服务工作程序部分下的“绕过网络”复选框。 (KB-2006)
+作为一种潜在的解决方法，您可以从 Chrome 的“开发人员工具”>“应用程序”选项卡中禁用 Service Worker，然后选中“Service Workers”部分下的“绕过网络”复选框。(KB-2006)
 
 ### 使用 A4T 的自动分配活动的流量分配 {#aa-a4t}
 

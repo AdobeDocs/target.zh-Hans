@@ -4,7 +4,7 @@ description: 了解 [!DNL Adobe Target] 会自动捕获用户访问的类别，�
 title: 什么是类别亲和度？
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
+source-git-commit: fd292f72fbd9a245848bc917c7bfe5d27d43a4b9
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 68%

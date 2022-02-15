@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
 workflow-type: tm+mt
 source-wordcount: '3449'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 2 月 10 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题：<ul><li>可视化体验编辑器(VEC)使用服务工作程序加载网站</li></ul> |
+| 2 月 10 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题：<ul><li>通过可视体验编辑器 (VEC) 加载使用 Service Worker 的网站</li></ul> |
 | 2 月 7 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 2 月 23 日）</li></ul> |
 | 2 月 3 日 | [创建受众](/help/c-target/c-audiences/audiences.md#RTCDP) | 添加了新的部分和视频：“视频：利用实时 CDP 和 [!DNL Adobe Target] 的下一次点击个性化”。 |
 | 2 月 2 日 | [内容交付故障诊断](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 添加了新的部分：“[!DNL Target] 配置文件属性值中的转义双引号无法按预期发挥作用”。 |

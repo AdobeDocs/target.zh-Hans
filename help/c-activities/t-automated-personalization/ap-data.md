@@ -4,10 +4,10 @@ description: 了解哪些数据Adobe [!DNL Target] 收集并使用来构建其�
 title: 收集哪些数据来构建机器学习算法？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
+source-git-commit: 32f2c32c697f5afa169d9e453fdc454dda533f8b
 workflow-type: tm+mt
-source-wordcount: '2077'
-ht-degree: 48%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 48%
 | URL parameters（URL 参数） | URL | 当前查看的页面的URL和任何URL参数。 | 自定义 — URL参数 —  [URL参数] |
 | 反向链接 URL | 参考 | 引荐URL和引荐URL的任何URL参数。 | 自定义 —  [引荐URL参数] - [参数值] |
 | Adobe Experience Cloud共享受众 | AAM | 与共享的所有受众 [!DNL Target] 其他 [!DNL Adobe Experience Cloud] 解决方案(例如， [!DNL Adobe Audience Manager] 和 [!DNL Adobe Analytics]，通过 [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank})。 | 自定义 — Experience Cloud受众 —  [受众名称] |
-| Adobe Experience Platform RTCDP受众 | UPS | 与共享的AEP RTCDP受众 [!DNL Target] 通过目标。<br>请注意，此功能尚未在 [!DNL Target] 但将在未来实施。 |  |
+| Adobe Experience Platform RTCDP受众 | UPS | 与共享的AEP RTCDP受众 [!DNL Target] 通过目标。 |  |
 
 ## 阻止功能 [!DNL Target] 机器学习算法
 

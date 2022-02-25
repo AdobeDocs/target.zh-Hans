@@ -4,7 +4,7 @@ description: 了解如何在Adobe中解释自动分配A/B活动的结果 [!DNL T
 title: 如何解读自动分配报表？
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
+source-git-commit: 9e559f0695a6a72c6a98c278d8099b41d5ee8744
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 44%
@@ -78,7 +78,7 @@ ht-degree: 44%
 * 仅当入选体验达到 60% 的置信度后，自动分配才会开始显示置信度。这些置信水平通常会在常规A/B测试完成所需时间的一半左右（尽管这并不是保证的）时出现。 要确定常规A/B测试运行的时长，请使用 [样本量计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html):将控制体验的转化率插入“基线转化率”，将“5%”插入“提升度”，将95%插入“置信度”。 通常情况下，在每个体验达到其所需样本量的至少 50% 之后，置信度便会开始显示。这可使您了解置信度将从何时开始显示。
 * 如果报表中所有置信度值均显示为 0%，则有可能是进入活动的时间过早。
 
-## 是否有“无入选者”、“入选者”和“星形”徽章，适用于 [!UICONTROL 自动分配] 使用 [!UICONTROL 将Analytics作为报表源] (A4T)?
+### 是否有“无入选者”、“入选者”和“星形”徽章，适用于 [!UICONTROL 自动分配] 使用 [!UICONTROL 将Analytics作为报表源] (A4T)?
 
 “尚未入选者”和“入选者”徽章当前在 [!UICONTROL A4T] 面板 [!DNL Analysis Workspace]. 如果在中查看同一报表，则这些徽章也将不可用 [!DNL Target]. 入选者“星形”标记，显示在 [!DNL Target] 报表 [!UICONTROL 自动分配] 应忽略使用A4T的活动。
 

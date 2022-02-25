@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+source-git-commit: f203a7298ca0ee2c5f58fe5b0fdb43a13bb9680b
 workflow-type: tm+mt
-source-wordcount: '3449'
-ht-degree: 100%
+source-wordcount: '3493'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2 月 25 日 | [自动分配和自动定位活动支持 A4T](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 更新了以下部分：<ul><li>[自动分配和自动定位](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自动分配](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
+|  | [解释自动分配报表](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 添加了新的常见问题解答：<ul><li>是否有“无入选者”、“入选者”和“星形”徽章，适用于 [!UICONTROL 自动分配] 使用 [!UICONTROL 将Analytics作为报表源] (A4T)?</li></ul> |
 | 2 月 10 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题：<ul><li>通过可视体验编辑器 (VEC) 加载使用 Service Worker 的网站</li></ul> |
 | 2 月 7 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 2 月 23 日）</li></ul> |
 | 2 月 3 日 | [创建受众](/help/c-target/c-audiences/audiences.md#RTCDP) | 添加了新的部分和视频：“视频：利用实时 CDP 和 [!DNL Adobe Target] 的下一次点击个性化”。 |

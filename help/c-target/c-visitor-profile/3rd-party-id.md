@@ -4,10 +4,10 @@ description: 了解如何使用mbox3rdPartyId（即您组织的访客ID），例
 title: 如何对mbox3rdPartyId使用实时配置文件同步？
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 47772ebbdec10f78ec120d2e4437eccad969b338
+source-git-commit: 8969b3b04b8f02a4ae9860bafe4b0a1c80a6f35e
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 24%
+source-wordcount: '737'
+ht-degree: 23%
 
 ---
 
@@ -36,11 +36,11 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] 在 [!DNL Adobe Experience Cloud] ID(ECID)会更改（例如，访客会更改设备），即使 [!DNL Target] 配置文件可能会根据mbox3rdPartyId进行合并，并且仍然具有活动信息。 对于使用相同ECID标识的访客（使用相同设备访问该页面的访客）， [!DNL Analytics for Target] (A4T)应按预期工作。
+>[!DNL Adobe Analytics] 如果 [!DNL Adobe Experience Cloud] ID(ECID)会更改（例如，访客会更改设备），即使 [!DNL Target] 配置文件可能会根据mbox3rdPartyId进行合并，并且仍然具有活动信息。 对于使用相同ECID标识的访客（使用相同设备访问该页面的访客）， [!DNL Analytics for Target] (A4T)应按预期工作。
 
 ## 注意事项 {#considerations}
 
-* 如果您的页面包含多个mbox且只有部分用户使用 `3rdPartyID`, [!DNL Target] 每个访客请求没有单独的访客配置文件/上下文。 的 `3rdPartyID` 上下文优先于PCID上下文。 一个mbox就足够通过 `3rdPartyId` 因为其上下文优先于PCID。
+* 如果您的页面包含多个mbox，并且只有部分用户使用 `3rdPartyID`, [!DNL Target] 每个访客请求没有单独的访客配置文件/上下文。 的 `3rdPartyID` 上下文优先于PCID上下文。 一个mbox就足够通过 `3rdPartyId` 因为其上下文优先于PCID。
 
    例如，假定访客在登录之前访问了某个页面并看到了某个体验。 全局 mbox 没有使用 `3rdPartyID`. 登录后，访客将看到三个使用子 mbox 体验的其中一个，其中一些 mbox 使用 `3rdPartyID`. 访客访问网站上的各种页面，然后使用“返回”按钮返回到登录前访问的主页，并将看到一个不同的体验。在此方案中，全局mbox未传递 `3rdPartyID`，但一个或多个子mbox执行了此操作。 `3rdPartyID` 优先于PCID。
 
@@ -56,6 +56,8 @@ ht-degree: 24%
       * `setCustomerId` 是一个函数，当页面上有VisitorAPI.js时，您可以在客户端（浏览器）实施中使用该函数。
       * `customerIds` 是直接在交付API有效负载中设置参数名称时使用的参数名称，通常在服务器端或IOT（物联网）实施中完成。
       * 不同 `mbox3rdPartyId`/`thirdPartyId`，则您可以在此方法中作为列表发送多个ID，但是因为 [!DNL Target] 每个TnT ID仅支持一个客户ID，它使用列表中的第一个ID和已知别名（在客户属性UI中配置的别名）。
+
+   您可以使用 `mbox3rdPartyId`/`thirdPartyId` if [!DNL Target] 仅 [!DNL Adobe Experience Cloud] 解决方案，则您不希望使用客户属性。 对于所有其他情况，我们建议您使用 `setCustomerId`/`customerIds` 用于发送客户ID。
 
    >[!IMPORTANT]
    >

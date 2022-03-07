@@ -1,14 +1,14 @@
 ---
 keywords: 实施；at.js;adobe experience platform web sdk;aep web sdk
-description: 了解如何实施Adobe [!DNL Target] for client-side web using the Adobe Experience Platform Web SDK  (AEP Web SDK) or the [!DNL Target] at.js JavaScript库。
+description: 了解如何实施Adobe [!DNL Target] 适用于客户端Web，使用Adobe Experience Platform Web SDK(AEP Web SDK)或 [!DNL Target] at.js JavaScript库。
 title: 如何实施 [!DNL Target] 适用于客户端Web的
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 49bb4545f172af384c4b9a00248334b285632259
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 47%
+source-wordcount: '219'
+ht-degree: 31%
 
 ---
 
@@ -19,14 +19,12 @@ ht-degree: 47%
 实施 [!DNL Adobe Target] 客户端，您必须使用以下JavaScript库之一：
 
 * [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+
+   的 [!UICONTROL Adobe Experience Platform Web SDK] 允许您与 [!DNL Experience Cloud] (包括 [!DNL Target])。 如果您选择迁移到 [!DNL Adobe Experience Platform Web SDK]，请参阅 [什么是Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 在 *Web SDK指南*.
+
 * [Target at.js JavaScript库](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 
->[!IMPORTANT]
->
->**生命周期结束**：从 2021 年 3 月 31 日起，[!DNL Adobe Target] 将不再支持 mbox.js 库。2021 年 3 月 31 日之后，所有从 mbox.js 进行的调用都会失败，并影响您通过提供默认内容而运行 [!DNL Target] 活动的页面。Adobe 建议所有客户都在此日期之前迁移到新 [!DNL Adobe Experience Platform Web SDK] 或 at.js JavaScript 库的最新版本，以避免您的网站出现任何潜在问题。
->
->* **Adobe Experience Platform Web SDK**:的 [!UICONTROL Adobe Experience Platform Web SDK] 允许您与 [!DNL Experience Cloud] (包括 [!DNL Target])。 如果您选择迁移到 [!DNL Adobe Experience Platform Web SDK]，请参阅 [什么是Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 在 *Web SDK指南*.
->
->* **at.js**:at.js JavaScript库可缩短Web实施的页面加载时间，增强安全性，并为单页应用程序提供更好的实施选项。 如果您选择迁移到at.js，请参阅 [At.js的工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 和 [Adobe Target技能培养：开发人员聊天，将Adobe Target的mbox.js迁移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+   at.js JavaScript库可缩短Web实施的页面加载时间，增强安全性，并为单页应用程序提供更好的实施选项。 如果您选择迁移到at.js，请参阅 [At.js的工作原理](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 和 [Adobe Target技能培养：开发人员聊天，将Adobe Target的mbox.js迁移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+
 
 

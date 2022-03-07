@@ -4,10 +4,10 @@ description: 了解如何在中使用受众 [!DNL Adobe Target].
 title: 如何使用受众列表？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 5d3e5a15a262d29bd1d95af71baae52ed288b33e
+source-git-commit: 099c1a4ba45ef06f3987f6f4dcffcebb724e8f69
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 24%
+source-wordcount: '1333'
+ht-degree: 23%
 
 ---
 
@@ -132,13 +132,27 @@ Keep the following points in mind as you work with imported audiences:
 
 ### 其他信息
 
+在使用 [!DNL Adobe Experience Platform]:
+
+#### 个性化用例
+
+下表显示了使用 [!DNL Adobe Experience Platform Web SDK] 与使用at.js:
+
+| 实施 | 已启用解决方案/用例 |
+| --- | --- |
+| at.js | **解决方案**:<ul><li>[!DNL Adobe Audience Manager] (AAM)和 [!DNL Target]</li><li>[!DNL RTCDP] （Premium或Ultimate）和 [!DNL Target]</li><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]和 [!DNL Target]</li></ul>**用例**:<ul><li>下一会话个性化</li></ul> |
+| [!DNL Platform Web SDK] 或 [!DNL AEP Server-Side API] | **解决方案**:<ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul>**用例**:<ul><li>下一会话个性化</li><li>通过Edge进行同页个性化</li><li>在共享区段时强制实施管理</li></ul>**解决方案**:<ul><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]和 [!DNL Target]</li></ul>**用例**:<ul><li>下一会话个性化</li><ul><li>[!DNL AAM] 区段</li><li>通过 [!DNL AAM]</li></ul><li>通过Edge进行同页个性化</li><ul><li>[!DNL RTCDP] 区段</li><li>在共享区段时强制实施管理</li></ul> |
+| 混合 [!UICONTROL at.js] 和 [!DNL Platform Web SDK] | **解决方案**:<ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul>**用例**:<ul><li>下一会话个性化</li><ul><li>适用于 [!UICONTROL at.js]</li></ul><li>同页个性化</li><ul><li>适用于 [!DNL Platform Web SDK]</li></ul></ul>**解决方案**:<ul><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]和 [!DNL Target]</li></ul>**用例**:<ul><li>下一会话个性化</li><ul><li>适用于 [!UICONTROL at.js]</li><li>[!DNL AAM] 区段</li><li>通过 [!DNL AAM]</li></ul> |
+
+#### 区段评估时间
+
 下表显示了来自不同实施方案的事件的区段评估时间：
 
 | 情景 | 边缘区段（毫秒评估） | 流区段（分钟评估） | 批量区段评估 |
 | --- | --- | --- | --- |
-| 来自Adobe Experience Platform SDK的事件/数据 | 是 | 是 | 不适用 |
-| at.js中的事件 | 否 | 是 | 不适用 |
-| Target Mobile SDK中的事件 | 否 | 是 | 不适用 |
+| 来自的事件/数据 [!DNL Adobe Experience Platform] SDK | 是 | 是 | 不适用 |
+| 事件来自 [!UICONTROL at.js] | 否 | 是 | 不适用 |
+| 事件来自 [!DNL Target Mobile] SDK | 否 | 是 | 不适用 |
 | 批量上传事件 | 否 | 否 | 是 |
 | 离线数据（流）中的事件 | 否 | 是 | 是 |
 

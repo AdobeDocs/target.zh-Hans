@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
-workflow-type: ht
-source-wordcount: '578'
-ht-degree: 100%
+source-git-commit: 91fe1cc485daa89936b0560039901dc3e78ad27f
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 94%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 100%
 
 关于即将举办的活动的公告和信息，包括 [!DNL Adobe Target] Skill Builder 讲座、开发人员聊天、网络研讨会和 [!DNL Target] Coffee Break 讲座。
 
-## [!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 2 月 23 日）
+## [!DNL Adobe Target] 社区问答喝咖啡休息时间 （2022年3月30日）
 
-* **2022 年 2 月 23 日星期三**
-* **上午 8 点（PST，UTC -8）**
-* **[更多信息和注册信息](https://adobe.ly/3skO6DV)**
+* **2022年3月30日星期三**
+* **早上8点。（太平洋夏令时，UTC -7）**
+* **[更多信息和注册信息](https://adobe.ly/3sIS5Mg)**
 
-高级产品经理 Vishal Chordia 将针对其擅长的下列专业领域解答客户问题：
+高级解决方案顾问Ryan Pizzuto将回答客户有关其以下专业领域的问题：
 
-* [!DNL Adobe Experience Platform]
-* 基于受众的个性化
-* [!DNL Real-time Customer Data Platform] (RTCDP) 与 [!DNL Target] 集成
-* 一般 [!DNL Target] 主题
+* [!UICONTROL 自动定位]
+* [!UICONTROL 自动个性化]
+* [!UICONTROL 推荐]
+* 常规 [!UICONTROL Adobe Target] 主题
 
 技术支持工程师 Mihnea Docea 将协助 Vishal 解答问题。
 

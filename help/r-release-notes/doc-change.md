@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 023c667310b1897f92295612e74e71b3b6791886
+source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
 workflow-type: tm+mt
-source-wordcount: '3519'
+source-wordcount: '3536'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 3 月 8 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间 （2022年3月30日）</li></ul> |
 | 3 月 7 日 | [创建受众](/help/c-target/c-audiences/audiences.md#aep) | 在“从以下位置使用受众”下添加了新章节 [!DNL Adobe Experience Platform]:&quot;<ul><li>个性化用例</li></ul> |
 | 2 月 25 日 | [自动分配和自动定位活动支持 A4T](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 更新了以下部分：<ul><li>[自动分配和自动定位](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自动分配](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [解释自动分配报表](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 添加了新的常见问题解答：<ul><li>对于使用 [!UICONTROL Analytics 作为报表源] (A4T) 的[!UICONTROL 自动分配]活动，是否有“无入选项目”、“入选项目”和“星标”徽章可用？</li></ul> |

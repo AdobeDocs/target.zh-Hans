@@ -4,10 +4,10 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: ht
-source-wordcount: '4738'
-ht-degree: 100%
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
+workflow-type: tm+mt
+source-wordcount: '4819'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,10 @@ SW 可以控制缓存；可以缓存网页本身、静态资源（例如 JS、CS
 不幸的是，拦截 Web 请求的 Chrome 扩展 API 不会收到已由 SW 拦截和处理的请求。因此，如果网页请求是由 SW 从缓存中提供的，则扩展无法修复标头和 Cookie，因为网页将不会在 VEC 中加载（原因是，X-Frame-Options 或 CSP 标头也已被缓存）。
 
 作为一种潜在的解决方法，您可以从 Chrome 的“开发人员工具”>“应用程序”选项卡中禁用 Service Worker，然后选中“Service Workers”部分下的“绕过网络”复选框。(KB-2006)
+
+### 删除在基于表单的体验编辑器中创建的活动中具有临时选件的位置 {#ad-hoc}
+
+如果在基于表单的体验编辑器中创建的活动中，这些位置使用临时选件（在活动中创建的选件），请避免删除这些位置。 删除位置可能会导致活动损坏。 的 [!DNL Target] 团队正在为此修复问题。 作为解决方法，您可以通过 [!UICONTROL 选件库] 并将它们与位置结合使用，或者根据需要创建新体验。 (KB-2014)
 
 ### 使用 A4T 的自动分配活动的流量分配 {#aa-a4t}
 

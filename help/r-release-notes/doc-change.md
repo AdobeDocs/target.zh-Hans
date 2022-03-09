@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3561'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 3 月 9 日 | [已知问题和已解决的问题](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 添加了以下已知问题：<ul><li>删除在基于表单的体验编辑器中创建的活动中具有临时选件的位置</li></ul> |
 | 3 月 8 日 | [Target 公告和活动](/help/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间 （2022年3月30日）</li></ul> |
 | 3 月 7 日 | [创建受众](/help/c-target/c-audiences/audiences.md#aep) | 在“利用来自 [!DNL Adobe Experience Platform] 的受众”下添加了新的部分：<ul><li>个性化用例</li></ul> |
 | 2 月 25 日 | [自动分配和自动定位活动支持 A4T](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 更新了以下部分：<ul><li>[自动分配和自动定位](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自动分配](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |

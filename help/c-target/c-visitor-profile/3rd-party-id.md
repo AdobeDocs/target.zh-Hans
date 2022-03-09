@@ -4,10 +4,10 @@ description: 了解如何使用mbox3rdPartyId（即您组织的访客ID），例
 title: 如何对mbox3rdPartyId使用实时配置文件同步？
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 8969b3b04b8f02a4ae9860bafe4b0a1c80a6f35e
+source-git-commit: 211931f4456f5360efb1fbaa4f0bc23f5bfbcfc1
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 23%
+source-wordcount: '735'
+ht-degree: 21%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 23%
 
 如果访客访问的页面启用了 [!DNL Target]，则会为该访客分配一个 [!DNL Target] PCID。如果访客随后登录，并且实施通过 `mbox3rdPartyId` to [!DNL Target], [!DNL Target] 连接该访客的 `mbox3rdPartyId` 和 [!DNL Target] PCID。
 
-每三到五分钟，更新内容就会与数据库同步一次。当访客注销时，合并的数据会替换之前与 `mbox3rdPartyId`，以创建该访客操作的完整记录。 如果两个ID中存在相同的属性 — 例如，PCID具有category=hats，并且 `mbox3rdPartyId` 具有category=skis，或者如果访客在登录之前查看了体验A，但体验B存储在 `mbox3rdPartyId` — 存储在 `mbox3rdPartyId` 覆盖PCID中的属性。 如果访客在登录之前位于某个活动或体验中，但在 `mbox3rdPartyId`，则登录后，该访客将被置于 `mbox3rdPartyId` 活动和体验。
+更新每5-10分钟与配置文件存储同步一次。 当访客的会话结束时，合并的数据将替换与 `mbox3rdPartyId`，以创建该访客操作的完整记录。 如果两个ID中存在相同的属性 — 例如，PCID具有category=hats，并且 `mbox3rdPartyId` 具有category=skis，或者如果访客在登录之前查看了体验A，但体验B存储在 `mbox3rdPartyId` — 存储在 `mbox3rdPartyId` 覆盖PCID中的属性。 如果访客在登录之前位于某个活动或体验中，但在 `mbox3rdPartyId`，则登录后，该访客将被置于 `mbox3rdPartyId` 活动和体验。
 
 | PCID（未登录） | mbox3rdPartyId（已登录） | 合并且保存至 mbox3rdPartyId 的内容 |
 |---|---|---|

@@ -5,9 +5,9 @@ title: 有关 [!DNL Target] 移动设备应用程序？
 feature: Implement Mobile
 role: Developer
 exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '311'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Adobe Experience Platform Mobile SDK当前支持iOS、Android和React。 有关�
 
 ## 根据经纬度的验证，基于位置的功能的频率是多少？
 
-请参阅 [Adobe位置文档](https://placesdocs.com/places-services-by-adobe-documentation/) 以了解更多信息。
+请参阅 [Adobe位置服务文档](https://experienceleague.adobe.com/docs/places/using/home.html) 以了解更多信息。
 
 ## 我是否需要at.js才能使用Adobe Experience Platform Mobile SDK?
 

@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3eec0717d1ade69c9d33407409ec87b9b2d6f1a3
 workflow-type: tm+mt
-source-wordcount: '3582'
-ht-degree: 99%
+source-wordcount: '3664'
+ht-degree: 98%
 
 ---
 
@@ -15,13 +15,24 @@ ht-degree: 99%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
+## Adobe Target Standard/Premium 22.3.1(2022年4月4日至6日；交错发布)
+
+| 日期 | 主题 | 更改 |
+| --- | --- | --- |
+| 4 月 4 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.3.1 版本的信息。 |
+
 ## Adobe Target Standard/Premium 22.2.1（2022 年 2 月 1 日） 
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 3 月 30 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target] 平台版本。 |
+| 3 月 28 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target] 平台版本。 |
+| 3 月 22 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 客户工程修复版本。 |
+|  | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.3.1 版的预发行信息。 |
+| 3 月 17 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 客户工程修复版本。 |
 | 3 月 9 日 | [已知问题和已解决的问题](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 添加了以下已知问题：<ul><li>删除在基于表单的体验编辑器中创建的活动中具有临时选件的位置</li></ul> |
 |  | [mbox3rdPartyId 的实时配置文件同步](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | 更新了以下关于配置文件同步的句子：“更新每5-10分钟与配置文件存储同步一次。” |
-| 3 月 8 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间 （2022年3月30日）</li></ul> |
+| 3 月 8 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 3 月 30 日）</li></ul> |
 | 3 月 7 日 | [创建受众](/help/main/c-target/c-audiences/audiences.md#aep) | 在“利用来自 [!DNL Adobe Experience Platform] 的受众”下添加了新的部分：<ul><li>个性化用例</li></ul> |
 | 2 月 25 日 | [自动分配和自动定位活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 更新了以下部分：<ul><li>[自动分配和自动定位](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自动分配](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [解释自动分配报表](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | 添加了新的常见问题解答：<ul><li>对于使用 [!UICONTROL Analytics 作为报表源] (A4T) 的[!UICONTROL 自动分配]活动，是否有“无入选项目”、“入选项目”和“星标”徽章可用？</li></ul> |

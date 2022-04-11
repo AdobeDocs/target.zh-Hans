@@ -4,9 +4,9 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
 workflow-type: tm+mt
-source-wordcount: '4819'
+source-wordcount: '4818'
 ht-degree: 98%
 
 ---
@@ -59,7 +59,7 @@ SW 可以控制缓存；可以缓存网页本身、静态资源（例如 JS、CS
 
 [!DNL Adobe Experience Platform] 区段名称未显示在 [!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 自动定位] (AT) 活动的[!UICONTROL 重要属性]报告中。(TOP-3813)
 
-### 存档[!UICONTROL 自动定位]活动可能会导致同步问题
+### 存档 [!UICONTROL 自动定位] 活动可能导致同步问题
 
 尝试存档无效的[!UICONTROL 自动定位]活动可能会导致同步问题。在解决此问题之前，请勿存档[!UICONTROL 自动定位]活动。请让它们处于[!UICONTROL 无效]状态。(TGT-40885)
 

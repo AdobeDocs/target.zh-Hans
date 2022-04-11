@@ -1,13 +1,13 @@
 ---
-keywords: 发行说明
+keywords: 发行说明；预发行说明；未来增强功能；未来修复；未来功能；即将发布的版本
 description: 查看 Adobe Target 早期版本中包括的功能、增强和修补的列表。
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '32988'
-ht-degree: 100%
+source-wordcount: '33051'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,13 @@ ht-degree: 100%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2022
+
+### Target Standard/Premium 22.2.1（2022 年 2 月 1 日）
+
+此维护版本包含接下来六周内向世界各地客户推出的 Target Standard/Premium 22.1.2 版中公布的新 [!UICONTROL Audiences] UI 的以下修复和增强。这些修复与在 [!DNL Adobe Target Standard/Premium] 中创建的受众功能对应。
+
+* 修复了一个问题，该问题阻止将从 [!DNL Adobe Experience Platform]、[!DNL Adobe Experience Cloud] 和 [!DNL Adobe Target Classic] 导入的受众分配为报表受众。(TGT-43140)
+* 在从 [!DNL Adobe Experience Platform]、[!DNL Adobe Experience Cloud] 和 [!DNL Adobe Target Classic] 导入的受众的 [!UICONTROL Audiences] 列表中添加了[!UICONTROL 删除]选项。还添加了批量删除功能。(TGT-42914)
 
 ### at.js 版本 2.8.1（2022 年 1 月 28 日）
 
@@ -1166,7 +1173,7 @@ target/r_release-notes-2018.xml
 
 此 [!DNL Target] 版本包括以下增强功能、修复和更改：
 
-* 推荐 CSV 下载的“备用”行现在有一个前导 &quot;*&quot;（用双引号将星号引起来）而不是 *（仅单个星号）。
+* 现在，Recommendations CSV下载的“备份”行具有前导“&#42;&quot;（用双引号将星号括起来） &#42; （一个星号）。
 * 推荐 CSV 下载中的“最畅销/查看次数最多”行不再具有前导逗号。
 
 ### Target 平台更改（2018 年 6 月 19 日） {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -1233,7 +1240,6 @@ target/r_release-notes-2018.xml
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>在基于表单的体验编辑器中选择推荐标准时，现在有一个指向所选标准卡片的直接链接，以便您快速方便地对标准进行编辑。(TGT-28483) </p> <p>有关更多信息，请参阅<a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">基于表单的体验编辑器</a>。 </p> </li> 
       <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>现在，创建推荐标准、推荐促销活动和模板测试规则时，允许直接使用 mbox 参数，而不必强制指定 mbox 名称。mbox 名称现在是可选的。通过这项更改，您可以使用多个 mbox 中的参数或引用尚未记录到 Edge 的参数。或者，您也可以使用 mbox 名称筛选器对 mbox 参数进行筛选。 </p> <p>这一改进也已扩展到自定义受众的创建。 </p> <p>有关更多信息，请参阅<a href="/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local">“推荐”常见问题解答</a>。 </p> </li> 
       <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>更新了“推荐”设计卡片的 UI。 </p> </li> 
-      <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>可在 <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external">Adobe I/0 Adobe Target 网站</a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html) 上找到 Target 推荐 API 文档。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

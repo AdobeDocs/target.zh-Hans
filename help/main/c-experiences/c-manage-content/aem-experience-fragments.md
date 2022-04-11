@@ -4,10 +4,10 @@ description: 了解如何使用 [!DNL Adobe Experience Manager] 体验片段 [!D
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM)体验片段？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 726cc500cd2a633adbd3c8ef5777e810bd7144a9
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 20%
+source-wordcount: '1218'
+ht-degree: 19%
 
 ---
 
@@ -100,6 +100,8 @@ ht-degree: 20%
 >[!NOTE]
 >
 >要充分利用 [!DNL Target] AI和ML功能，您可以选择 [自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 或 [自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 创建A/B测试时。
+>
+>中不支持体验片段 [!DNL Recommendations] 活动。 但是，要将体验片段用于推荐，您可以创建 [!UICONTROL A/B测试] 活动(包括 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位])或 [!UICONTROL 体验定位] (XT)活动和 [将推荐作为选件](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 **要使用VEC使用体验片段，请执行以下操作：**
 

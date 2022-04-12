@@ -5,9 +5,9 @@ title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 94%
 
 关于即将举办的活动的公告和信息，包括 [!DNL Adobe Target] Skill Builder 讲座、开发人员聊天、网络研讨会和 [!DNL Target] Coffee Break 讲座。
 
-## [!DNL Adobe Target] 社区问答喝咖啡休息时间 （2022年3月30日）
+## [!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 3 月 30 日）
 
-* **2022年3月30日星期三**
-* **早上8点。（太平洋夏令时，UTC -7）**
+* **2022 年 3 月 30 日星期三**
+* **上午 8 点（PDT，UTC -7）**
 * **[更多信息和注册信息](https://adobe.ly/3sIS5Mg)**
 
-高级解决方案顾问Ryan Pizzuto将回答客户有关其以下专业领域的问题：
+高级解决方案顾问 Ryan Pizzuto 将针对其擅长的下列专业领域解答客户问题：
 
 * [!UICONTROL 自动定位]
-* [!UICONTROL 自动个性化]
-* [!UICONTROL 推荐]
-* 常规 [!UICONTROL Adobe Target] 主题
+* [!UICONTROL Automated Personalization]
+* [!UICONTROL Recommendations]
+* [!UICONTROL Adobe Target] 一般主题
 
 技术支持工程师 Mihnea Docea 将协助 Vishal 解答问题。
 

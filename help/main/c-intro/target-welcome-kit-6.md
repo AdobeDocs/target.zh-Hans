@@ -5,7 +5,7 @@ title: 使用 [!DNL Target] 时常犯的错误有哪些以及怎样才能避免�
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
 ht-degree: 100%
 

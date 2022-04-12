@@ -5,7 +5,7 @@ title: 可在何处找到 Target 的资源和联系信息？
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
 ht-degree: 100%
 

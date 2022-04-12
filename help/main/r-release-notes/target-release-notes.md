@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发行的版本中包含哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: dd8c0f3781625985f53aeb3b659fb4498a3e10e8
+source-git-commit: 01c36c0288a15d68f99a6c2f136da9066ccf2e62
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 37%
+source-wordcount: '392'
+ht-degree: 34%
 
 ---
 
@@ -15,9 +15,15 @@ ht-degree: 37%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2022 年 4 月 11 日**
+**上次更新日期：2022 年 4 月 13 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+## Target平台版本（2022年4月13日）
+
+此版本包含以下更新：
+
+* 修复了在使用配置文件脚本捕获IP地址的最后八位字节时，确保正确进行模糊处理的问题。 (TNT-44076)
 
 ## [!DNL Target Standard/Premium] 22.3.1（错开发行，日期待定）
 

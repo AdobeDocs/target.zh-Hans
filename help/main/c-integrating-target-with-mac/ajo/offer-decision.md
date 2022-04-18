@@ -4,10 +4,10 @@ description: 了解如何添加在 [!DNL Adobe Journey Optimizer] 到活动。
 title: 如何使用优惠决策？
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 4a2b0f52d00ca40609f3bfbddf7cb2b2bee6a33e
+source-git-commit: b34f58bee9759eb7c621f8cbf763837d7eafb3fe
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 0%
+source-wordcount: '995'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +17,11 @@ ht-degree: 0%
 
 添加在中创建的选件决策 [!DNL Adobe Journey Optimizer] to [!DNL Target] 活动（手动） [!UICONTROL A/B测试] 或 [!UICONTROL 体验定位])使用 [!UICONTROL 可视化体验编辑器] (VEC)或 [!UICONTROL 基于表单的编辑器] 在由 [!DNL Target].
 
-有关 [!DNL Adobe Journey Optimizer]，请参阅 [开始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 在 *Journey Optimizer* 文档。
+有关 [!DNL Adobe Journey Optimizer] 和选件决策，请参阅 *[!DNL Journey Optimizer]* 文档：
 
-有关选件决策的更多信息，请参阅 [关于决策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) 在 *[!DNL Journey Optimizer]* 文档。
+* [开始使用 Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+
+* [关于决策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
 
 ## 先决条件
 
@@ -96,7 +98,7 @@ ht-degree: 0%
 
 ## 注释和限制
 
-在处理选件决策时，请考虑以下注释和限制：
+处理选件决策时，请考虑以下信息：
 
 * offer decisioning集成适用于 [!DNL Target] 基于 [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). 此功能在实施时不可用 [!DNL Target] 使用at.js或其他 [!DNL Target] SDK。
 

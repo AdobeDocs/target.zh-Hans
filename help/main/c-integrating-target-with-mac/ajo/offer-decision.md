@@ -4,7 +4,7 @@ description: 了解如何添加在 [!DNL Adobe Journey Optimizer] 到活动。
 title: 如何使用优惠决策？
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4a2b0f52d00ca40609f3bfbddf7cb2b2bee6a33e
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 有关 [!DNL Adobe Journey Optimizer]，请参阅 [开始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 在 *Journey Optimizer* 文档。
 
-有关选件决策的更多信息，请参阅 [关于决策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) 在 *[!DNL Journey Optimizer]文档*.
+有关选件决策的更多信息，请参阅 [关于决策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) 在 *[!DNL Journey Optimizer]* 文档。
 
 ## 先决条件
 

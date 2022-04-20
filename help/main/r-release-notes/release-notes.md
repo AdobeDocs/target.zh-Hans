@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 47%
+source-wordcount: '489'
+ht-degree: 65%
 
 ---
 
@@ -24,37 +24,15 @@ ht-degree: 47%
 
 * 修复了在使用配置文件脚本捕获IP地址的最后八位字节时，确保正确进行模糊处理的问题。 (TNT-44076)
 
-## [!DNL Target Standard/Premium] 22.3.1（错开发行，日期待定）
+## [!DNL Target Standard/Premium] 22.3.1（2022年4月5日）
 
 此版本包含以下更改和增强功能：
 
-* 修复了在编辑、激活和停用配置文件脚本后，对配置文件脚本所做的编辑还原到原始未编辑脚本的问题。 配置文件脚本现在保持其编辑状态。 (TGT-43249)
-* 修复了导致 [!DNL Target] 在移动活动中使用的具有“草稿”状态的受众时使用UI:“我们无法完成您的请求。 如果问题仍然存在，请联系Adobe客户关怀。” (TGT-43212)
 * 修复了导致 [!UICONTROL 包括] 和 [!UICONTROL 排除] 用于编辑活动时禁用组合受众的选项。 (TGT-43422)
 * 修复了某些客户在编辑活动时无法看到可用受众列表的问题。 (TGT-43404)
 * 修复了导致某些客户无法从“[!UICONTROL 要从中排除的IP [!DNL Target] 报告数据]&quot;列表 [!UICONTROL 管理] > [!UICONTROL 报表]. (TGT-43384)
 * 修复了在受众标准中无法使用负数的问题，该负数会检查任何变量是否“大于”、“大于或等于”、“小于”或“小于或等于”。 (TGT-43367)
 * 修复了阻止客户查看 [!UICONTROL 受众详细信息] 卡片。 (TGT-43303)
-* 修复了导致 [!DNL Target] UI或新 [!UICONTROL 受众] UI为某些客户过早超时。 （TGT-42590 和 TGT-43273）
-
-## [!DNL Target] 平台版本（3月30日）
-
-此版本包含以下增强功能：
-
-* 对于使用Analytics作为报表源(A4T)并在客户端处理事件的活动，点击跟踪量度将在交付API请求中包含分析有效负载。 (TNT-43073)
-
-## [!DNL Target Standard] 受众刷新（3月28日）
-
-此版本包含以下更新：
-
-* 新 [!UICONTROL 受众] 将为所有用户启用UI [!DNL Target Standard] 客户。
-
-## Target Standard/Premium客户工程修复（2022年3月22日）
-
-此维护版本包含以下增强功能：
-
-* 添加了返回 [!DNL Analytics] 有效负载数据 `prefetch` 视图和 `pageLoad` 使用 [!UICONTROL 交付API] 活动 [!UICONTROL 将Analytics作为报表源] (A4T)。 (TNT-43198)
-* 更新了机器人过滤用户代理列表，以允许使用在日本常用的浏览器类型。 (TNT-43867)
 
 ## 其他发行说明和版本详细信息
 

@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '33051'
+source-wordcount: '33165'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,25 @@ ht-degree: 99%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2022
+
+### [!DNL Target] 平台版本（3月30日）
+
+此版本包含以下增强功能：
+
+* 对于使用Analytics作为报表源(A4T)并在客户端处理事件的活动，点击跟踪量度将在交付API请求中包含分析有效负载。 (TNT-43073)
+
+### [!DNL Target Standard] 受众刷新（3月28日）
+
+此版本包含以下更新：
+
+* 新 [!UICONTROL 受众] 将为所有用户启用UI [!DNL Target Standard] 客户。
+
+### Target Standard/Premium客户工程修复（2022年3月22日）
+
+此维护版本包含以下增强功能：
+
+* 添加了返回 [!DNL Analytics] 有效负载数据 `prefetch` 视图和 `pageLoad` 使用 [!UICONTROL 交付API] 活动 [!UICONTROL 将Analytics作为报表源] (A4T)。 (TNT-43198)
+* 更新了机器人过滤用户代理列表，以允许使用在日本常用的浏览器类型。 (TNT-43867)
 
 ### Target Standard/Premium 22.2.1（2022 年 2 月 1 日）
 

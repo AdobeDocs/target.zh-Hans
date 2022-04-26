@@ -4,9 +4,9 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '4818'
+source-wordcount: '4783'
 ht-degree: 98%
 
 ---
@@ -77,9 +77,6 @@ SW 可以控制缓存；可以缓存网页本身、静态资源（例如 JS、CS
 
 ### 重定向选件 {#redirect}
 
-以下是重定向选件存在的已知问题：
-
-* 少量客户已报告，在配置了 Analytics for Target (A4T) 的活动中使用重定向选件时流量分布的差异程度较高。
 * at.js 实施中的重定向活动可能会导致预览 URL 进入循环（重复提供该选件）。您可以改为使用 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)来执行预览和 QA。此问题不会影响选件的实际交付。(TGT-23019)
 
 ### 在可视体验编辑器 (VEC) 中取消加载页面 {#cancel}

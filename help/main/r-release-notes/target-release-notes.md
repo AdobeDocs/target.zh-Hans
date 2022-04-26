@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发行的版本中包含哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3b6666b55a6dee9ce137802888dbf23f893b2cae
+source-git-commit: f5c9b6e4b9c37027049e3d8b2d0dc31002853df7
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 50%
+source-wordcount: '241'
+ht-degree: 53%
 
 ---
 
@@ -26,8 +26,6 @@ ht-degree: 50%
 * 在此版本中，您可以为 [!UICONTROL 自动个性化] （美联社）和 [!UICONTROL 自动定位] (AT)活动(以前不返回 [!DNL Target])。 如果AP/AT活动位于交付路径上，且优先级高于使用相同位置进行内容交付的其他AB/XT活动，则这可能会更改最终用户在预取调用（“执行”流程未发生更改）时看到的体验。
 
 ## [!DNL Target Standard/Premium] 22.4.1（2022年4月28日）
-
-此版本将按照以下交错的计划提供：
 
 此版本包含以下修复：
 

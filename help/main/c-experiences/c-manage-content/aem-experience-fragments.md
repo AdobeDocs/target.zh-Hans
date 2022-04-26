@@ -4,9 +4,9 @@ description: 了解如何使用 [!DNL Adobe Experience Manager] 体验片段 [!D
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM)体验片段？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 726cc500cd2a633adbd3c8ef5777e810bd7144a9
+source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1277'
 ht-degree: 19%
 
 ---
@@ -149,6 +149,12 @@ ht-degree: 19%
 * 体验片段将导入到 [!DNL Target] 作为HTML选件。 体验片段的“主”版本保留在 [!DNL AEM]. 您无法在 [!DNL Target].
 * 您不能使用 [!DNL Adobe I/O]. 如上所述，使用AEM创建体验片段。
 * 如果您在AEM中更新体验片段，则必须将该体验片段发布并导出到 [!DNL Target] 再次如此 [!DNL Target] 可以使用最新更改。
+
+## 从导出到Target的体验片段中删除ClientLib
+
+在 [!DNL Target] 在由AEM交付的页面上，目标页面已包含所有必需的客户端库。 此外，XF选件中的无关HTML也不需要。
+
+有关更多信息，请参阅 [此博客帖子](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}。
 
 ## 培训视频：将AEM体验片段与 [!DNL Adobe Target]
 

@@ -4,10 +4,10 @@ description: 了解存储在访客配置文件中的特定于访客的属性，�
 title: 什么是配置文件属性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 49%
+source-wordcount: '2423'
+ht-degree: 48%
 
 ---
 
@@ -72,6 +72,9 @@ if (mbox.name == 'Track_Interest') {
 
 * 在代码中使用 `user.get('parameterName')`.
 * 保存下次运行脚本时（对下一个mbox请求）可访问的变量，使用 `user.setLocal('variable_name', 'value')`. 使用 `user.getLocal('variable_name')` 引用变量。当您想引用上次请求的日期和时间时，此过程非常有用。
+
+   这些值会像配置文件脚本一样保留，但您只能在设置的脚本中访问它们。
+
 * 参数和值区分大小写。 匹配您在活动或测试期间收到的参数和值的大小写。
 * 有关更多的 JavaScript 语法，请参阅下文中的“脚本配置文件参数的 JavaScript 引用”部分。
 * 禁用脚本后，参数会保留在配置文件中。 其用户档案已包含活动受众中使用的参数，且该用户有资格参与该活动。

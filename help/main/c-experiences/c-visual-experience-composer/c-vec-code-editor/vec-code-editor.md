@@ -4,7 +4,7 @@ description: 了解如何在Adobe中使用修改面板 [!DNL Target] 查看页�
 title: 我可以对页面进行哪些修改？
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: e65a830c7bb92b65ac999c135bed1687af177cc5
+source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 91%
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 # 修改
 
-有关 [!DNL Adobe Target] 允许您查看对页面所做的修改并添加其他修改（CSS选择器、Mbox和自定义代码）。
+有关 [!UICONTROL 修改] 页面 [!DNL Adobe Target] 允许您查看对页面所做的修改并添加其他修改（CSS选择器、Mbox和自定义代码）。
 
 “修改”页面显示在可视化体验编辑器(VEC)中对您的页面所做的所有更改，并允许您通过单击页面上的每个元素进行其他更改，以及 [选择操作](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). 您所做的每个更改都会在“[!UICONTROL 修改]”列表中单独显示为一个操作或元素。您还可以添加修改，其中包括以下修改类型：CSS 选择器、Mbox 和自定义代码。
 

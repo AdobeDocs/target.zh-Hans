@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 92%
+source-wordcount: '831'
+ht-degree: 66%
 
 ---
 
@@ -30,6 +30,36 @@ ht-degree: 92%
 * [!UICONTROL Adobe Target] 一般主题
 
 技术支援工程师陈敏会协助詹姆斯。
+
+## 网络研讨会：使用Adobe Target进行实时个性化（2022年4月28日）
+
+* **2022年4月28日星期四**
+* **下午1时至2时（美国东部夏令时，UTC -4）**
+* **[更多信息和注册信息](https://real-time.dxfieldmarketing.adobeevents.com/)**
+
+现在，如何使用这些不同的用户档案源个性化您的数字体验？ 您如何定位您的团队以在将来取得成功？ 在优化每次客户互动的同时，让品牌真正了解并尊重其客户有何好处？
+
+在本课程中，了解如何 [!DNL Adobe Target] 在我们讨论的过程中，弥合了在合并跨多个源的数据以实现实时个性化方面的差距：
+
+* 为什么个性化性能和速度对于推动更快的业务增长至关重要
+* 团队如何构建第一方数据战略并解决其数据碎片化难题
+* 用于以毫秒为单位提供个性化体验的端到端工作流
+* 品牌的独特用例，用于通过相关的消息、内容和选件实时吸引客户和潜在客户。
+
+## [!DNL Adobe Target] 社区问答时间（2022年5月25日）
+
+* **2022年5月25日星期三**
+* **上午 8 点（PDT，UTC -7）**
+* **[更多信息和注册信息](https://adobe.ly/3LbOj4G)**
+
+Adobe Target产品营销团队的Brent Kostak和Drew Burns将回答客户有关其专业领域的问题。 我们邀请客户发布与以下主题相关的问题，这些主题在4/28/22实时个性化网络研讨会中已涵盖：
+
+* 使用Adobe Target和Real-Time CDP创建共享受众
+* 构建第一方数据战略以解决数据碎片化挑战
+* 为毫秒个性化部署端到端工作流
+* 实时提供相关的消息、内容和优惠以提高参与度
+
+技术支持工程师Kai Motoyama也将参与讨论，提供额外支持。
 
 ## 网络研讨会：通过 [!DNL Adobe Target] 的设备上决策进行无延迟的个性化和测试
 

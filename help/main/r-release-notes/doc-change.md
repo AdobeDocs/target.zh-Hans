@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2aee434066576ccd09222b402c113c5d16bcc706
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '3777'
-ht-degree: 96%
+source-wordcount: '3817'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 96%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 4 月 26 日 | [重定向选件 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | 添加了以下常见问题解答：<ul><li>在A4T活动中使用重定向选件时，如何最大限度地减少流量分配中的差异？</li></ul> |
+| 4 月 26 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了有关以下事件的信息：<ul><li>网络研讨会：使用Adobe Target进行实时个性化（2022年4月28日）</li><li>[!DNL Adobe Target] 社区问答时间（2022年5月25日）</li></ul> |
+|  | [重定向选件 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | 添加了以下常见问题解答：<ul><li>在A4T活动中使用重定向选件时，如何最大限度地减少流量分配中的差异？</li></ul> |
+|  | [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 添加了以下部分：<ul><li>从导出到Target的体验片段中删除ClientLib和无关HTML</li></ul> |
 | 4 月 21 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target] 平台发布计划于2022年4月17日发布。 |
 | 4 月 20 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.4.1 版的预发行信息。 |
 | 4 月 14 日 | [可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 在“重新排列”部分添加了相关信息，以说明如何处理与 [!UICONTROL 移动] 和 [!UICONTROL 重新排列] 操作。 |

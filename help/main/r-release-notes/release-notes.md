@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 65%
+source-wordcount: '566'
+ht-degree: 56%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 65%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外， [!DNL Target] API、SDK、 [!DNL Adobe Experience Platform Web SDK]、 at.js和其他平台更改（如果适用）也包含在内。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target] 平台版本（2022年4月27日）
+
+此版本包含以下更改：
+
+* 在此版本中，您可以为 [!UICONTROL 自动个性化] （美联社）和 [!UICONTROL 自动定位] (AT)活动(以前不返回 [!DNL Target])。 如果AP/AT活动位于交付路径上，且优先级高于使用相同位置进行内容交付的其他AB/XT活动，则这可能会更改最终用户在预取调用（“执行”流程未发生更改）时看到的体验。
 
 ## Target平台版本（2022年4月13日）
 

@@ -5,10 +5,10 @@ title: 什么是企业用户权限？如何使用这些权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 59%
+source-wordcount: '3132'
+ht-degree: 57%
 
 ---
 
@@ -261,6 +261,22 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 很遗憾，您无法将活动从一个工作区移动到另一个工作区。但是，您可以将活动复制到任何工作区，因为您知道报表数据不会结转。 有关详细信息，请参阅[使用工作区时复制/编辑活动](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)中的“使用工作区时复制/编辑活动”。
 
 迁移之前创建的活动将继续在默认工作区中以相同的方式运行，除非已对它们进行编辑，已为它们分配属性。特定工作区下的活动将采用分配给该工作区的属性，因此，行为可能与迁移前有所不同。
+
+### 我是否可以将受众从一个工作区移动到另一个工作区？ {#move-audience}
+
+是，您可以使用 [!UICONTROL 更多操作] 选项 [!UICONTROL 受众] 页面。
+
+1. 单击 **[!UICONTROL 更多操作]** 按钮（三个省略号），然后单击 **[!UICONTROL 移动]**.
+
+   ![更多操作>移动](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
+
+1. 从 **[!UICONTROL 工作区]** 下拉列表，然后单击 **[!UICONTROL 移动]**.
+
+   ![选择要移动到新工作区的所需受众](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
+
+>[!NOTE]
+>
+>您必须拥有相应的权限才能编辑受众。 此外，受众不得用于其他活动。 如果受众正在其他活动中使用，并且您仍希望将受众移动到其他工作站，请将受众从正在使用的其他活动中删除。
 
 ### 为什么我会收到一则错误消息，指示没有与此活动相关联的属性，即使分配了属性也是如此？
 

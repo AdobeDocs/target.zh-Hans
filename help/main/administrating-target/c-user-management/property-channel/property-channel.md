@@ -5,9 +5,9 @@ title: 什么是企业用户权限？如何使用这些权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
+source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
 workflow-type: tm+mt
-source-wordcount: '3132'
+source-wordcount: '3133'
 ht-degree: 57%
 
 ---
@@ -214,7 +214,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
    * 在“我的所有工作区”视图中创建活动、受众或选件时，必须选择要在其中创建项目的工作区。只能选择您拥有编辑者或审批者权限的工作区。
    * 在“我的所有工作区”视图中复制活动、受众或选件时，必须选择要在其中复制项目的工作区。只能选择您拥有编辑者或审批者权限的工作区。
 
-* 以下“管理”页面上的任何设置都可以由任何工作区中的任何审批者控制：
+* 管理员在以下方面的任何设置定额页面可由任何工作区中的任何审批者控制：
 
    * 可视化体验编辑器
    * 报表

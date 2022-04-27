@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发行的版本中包含哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2eba98d780cfcd0e5a7388ad47301aecb90133dd
+source-git-commit: 97ec17366e567f7e2f4cb0bf24a39c653718431f
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,6 +28,6 @@ ht-degree: 68%
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
-若要提前了解有关 Target 和其他 Adobe Experience Cloud 解决方案即将推出的产品增强功能的通知，请注册“Adobe 产品更新早知道”：
+若要提前通知您即将推出的产品增强功能，请执行以下操作： [!DNL Target] 其他 [!DNL Adobe Experience Cloud] 解决方案，注册 [!DNL Adobe Priority Product Update]:
 
 [https://www.adobe.com/cn/subscription/priority-product-update.html](https://www.adobe.com/cn/subscription/priority-product-update.html)

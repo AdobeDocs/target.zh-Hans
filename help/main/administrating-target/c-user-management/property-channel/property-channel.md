@@ -5,7 +5,7 @@ title: 什么是企业用户权限？如何使用这些权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
+source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
 workflow-type: tm+mt
 source-wordcount: '3133'
 ht-degree: 57%
@@ -276,7 +276,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 >[!NOTE]
 >
->您必须拥有相应的权限才能编辑受众。 此外，受众不得用于其他活动。 如果受众正在其他活动中使用，并且您仍希望将受众移动到其他工作站，请将受众从正在使用的其他活动中删除。
+>您必须拥有相应的权限才能编辑受众。 此外，受众不得用于其他活动。 如果受众正在其他活动中使用，并且您仍希望将该受众移动到其他工作区，请从正在使用该受众的其他活动中删除该受众。
 
 ### 为什么我会收到一则错误消息，指示没有与此活动相关联的属性，即使分配了属性也是如此？
 

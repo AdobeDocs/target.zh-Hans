@@ -5,10 +5,10 @@ title: Adobe Target 中有哪些字符、大小和其他限制？
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: bdfa05b8eb259bbd23e27ec0dce9c3cac41a5ab1
+source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
 workflow-type: tm+mt
 source-wordcount: '1363'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 100%
 
 ### 每个活动的体验数
 
-* **限制**：每个体验定位 (XT)、A/B 测试、多变量测试 (MVT) 和自动定位活动 2,000 个体验。
+* **限制**:每个体验2,000个 [!UICONTROL 体验定位] (XT)、 [!UICONTROL A/B测试], [!UICONTROL 多变量测试] (MVT)和 [!UICONTROL 自动定位] 活动。
 
    每个自动个性化 (AP) 活动 30,000 个体验。
 

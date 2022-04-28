@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用自动分配活动 [!DNL Target] 可�
 title: 什么是自动分配活动？
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3453'
-ht-degree: 50%
+source-wordcount: '3559'
+ht-degree: 49%
 
 ---
 
@@ -206,6 +206,16 @@ ht-degree: 50%
 如果点击发生在其他（非默认）环境中，则流量会根据默认环境中观察到的转化行为进行分配。 该点击的结果（转化或非转化）会为报告目的而记录，但不会在 [!UICONTROL 自动分配] 模型。
 
 选择其他环境时，报表会显示该环境的流量和转化。 报表的默认选定环境是所选帐户范围的默认环境。 默认环境不能基于每个活动进行设置。
+
+### 能否 [!UICONTROL 自动分配] 活动会调整测试过程中的回顾窗口，以考虑随时间变化的趋势？
+
+例如，活动是否可以考虑12月份的月份来决定如何分配流量，而不是查看9月份的访客数据（测试开始时）？
+
+不， [!UICONTROL 自动分配] 考虑整个活动的绩效。
+
+### 是 [!UICONTROL 自动分配] 如果入选体验与访客在符合活动资格条件时看到的体验不同，则向回访访客显示入选体验？
+
+[!UICONTROL 自动分配] 出于与 [!UICONTROL A/B测试] 活动具有粘滞性。 流量分配仅适用于新访客。
 
 ## 培训视频 {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 

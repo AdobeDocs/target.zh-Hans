@@ -5,10 +5,10 @@ title: 什么是企业用户权限？如何使用这些权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3133'
-ht-degree: 57%
+source-wordcount: '3150'
+ht-degree: 56%
 
 ---
 
@@ -197,6 +197,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
    ![](assets/channel_options.png)
 
 * **受众创建：** 创建受众时，该受众会创建在当前选定的工作区中。
+* **受众列表：** 您可以使用 [!UICONTROL 更多操作] > [!DNL Move] 选项 [!UICONTROL 受众] 页面。
 * **选件创建：** 创建选件时，该选件会创建在当前选定的工作区中。
 * **属性页面（管理>属性）：** 您可以使用 [!UICONTROL 搜索] 框 [!UICONTROL 属性] 列表。
 
@@ -214,7 +215,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
    * 在“我的所有工作区”视图中创建活动、受众或选件时，必须选择要在其中创建项目的工作区。只能选择您拥有编辑者或审批者权限的工作区。
    * 在“我的所有工作区”视图中复制活动、受众或选件时，必须选择要在其中复制项目的工作区。只能选择您拥有编辑者或审批者权限的工作区。
 
-* 管理员在以下方面的任何设置定额页面可由任何工作区中的任何审批者控制：
+* 以下项的任何设置 [!UICONTROL 管理] 页面可由任何 [!UICONTROL 审批者] 在任何工作区中：
 
    * 可视化体验编辑器
    * 报表

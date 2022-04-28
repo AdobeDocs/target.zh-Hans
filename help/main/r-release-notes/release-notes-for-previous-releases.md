@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '33165'
+source-wordcount: '33321'
 ht-degree: 99%
 
 ---
@@ -66,6 +66,22 @@ ht-degree: 99%
 ### [!DNL Target Standard/Premium] 22.1.1（2022 年 1 月 12 日）
 
 此版本包含错误修复和未来集成所需的功能。
+
+### Target平台版本（2022年4月13日）
+
+此版本包含以下更新：
+
+* 修复了在使用配置文件脚本捕获IP地址的最后八位字节时，确保正确进行模糊处理的问题。 (TNT-44076)
+
+### [!DNL Target Standard/Premium] 22.3.1（2022年4月5日）
+
+此版本包含以下更改和增强功能：
+
+* 修复了导致 [!UICONTROL 包括] 和 [!UICONTROL 排除] 用于编辑活动时禁用组合受众的选项。 (TGT-43422)
+* 修复了某些客户在编辑活动时无法看到可用受众列表的问题。 (TGT-43404)
+* 修复了导致某些客户无法从“[!UICONTROL 要从中排除的IP [!DNL Target] 报告数据]&quot;列表 [!UICONTROL 管理] > [!UICONTROL 报表]. (TGT-43384)
+* 修复了在受众标准中无法使用负数的问题，该负数会检查任何变量是否“大于”、“大于或等于”、“小于”或“小于或等于”。 (TGT-43367)
+* 修复了阻止客户查看 [!UICONTROL 受众详细信息] 卡片。 (TGT-43303)
 
 ### at.js 版本 2.8.0（2022 年 1 月 7 日）
 

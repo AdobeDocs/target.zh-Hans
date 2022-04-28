@@ -1,14 +1,14 @@
 ---
 keywords: 字符限制;mbox 参数;批量投放 api;配置文件参数;限制;内置配置文件;最大值;限制;约束;字符;最佳实践;orderid;orderTotal;mbox3rdPartyID;类别;categoryID;故障排除
-description: 查看字符限制和其他限制（选件大小、受众、配置文件、值、参数等）的列表。会影响 Adobe Target 中活动和其他元素的其他限制（选件大小、受众、配置文件、值、参数等）。
-title: Adobe Target 中有哪些字符、大小和其他限制？
+description: 查看影响 [!DNL Adobe Target].
+title: 中的各种字符、大小和其他限制 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
+source-git-commit: 516dd288f2aa8116d05f1a9f28c5074df0932e8c
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 98%
+source-wordcount: '1352'
+ht-degree: 96%
 
 ---
 

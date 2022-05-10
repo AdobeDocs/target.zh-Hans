@@ -5,10 +5,10 @@ title: 我能否实施 [!DNL Target] 没有标签管理器？
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 52%
+source-wordcount: '1794'
+ht-degree: 49%
 
 ---
 
@@ -83,6 +83,20 @@ ht-degree: 52%
 | 自定义库标题 | 将任何自定义 JavaScript 添加到库顶部。 |
 | 自定义库页脚 | 将任何自定义 JavaScript 添加到库底部。 |
 
+### 使用设备上决策的实施方法
+
+从版本2.5.0开始，at.js提供了设备决策功能。 设备内决策允许您缓存 [A/B测试](/help/main/c-activities/t-test-ab/test-ab.md) 和 [体验定位](/help/main/c-activities/t-experience-target/experience-target.md) (XT)在浏览器上执行内存决策的活动，而无需对 [!DNL Adobe Target] 边缘网络。
+
+有关更多信息，请参阅：
+
+* 客户端： [at.js的设备内决策](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* 服务器端： [设备上决策简介](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* 服务器端： [设备内决策](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
+* Node.js: [为贵组织启用设备决策](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
+* Java: [为贵组织启用设备决策](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
+* .NET: [为贵组织启用设备决策](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
+* Python: [为贵组织启用设备决策](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
+
 ### 配置文件API
 
 可为通过 API 进行的批量更新启用或禁用身份验证，并生成配置文件身份验证令牌。
@@ -103,7 +117,7 @@ ht-degree: 52%
 
 * 最后八位字节模糊处理
 * 整个IP模糊处理
-* None
+* 无
 
 有关更多信息，请参阅[隐私](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)。
 

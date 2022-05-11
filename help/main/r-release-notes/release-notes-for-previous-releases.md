@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '33321'
+source-wordcount: '33448'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,19 @@ ht-degree: 99%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2022
+
+### [!DNL Target Standard/Premium] 22.4.1（2022 年 4 月 28 日）
+
+此版本包含以下修复：
+
+* 修复了一个问题，该问题导致在 [!DNL Target] 后端上，三个基于购物车的算法使用相同的已购买/已购买条件。(TGT-43456)
+* 已启用 [!DNL Target] 为启用了的组织刷新UI令牌 [业务ID帐户](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank}和基于策略的身份验证(PBA)。 (TGT-42590)
+
+### [!DNL Target] 平台版本（2022年4月27日）
+
+此版本包含以下更改：
+
+* 在此版本中，您可以为 [!UICONTROL 自动个性化] （美联社）和 [!UICONTROL 自动定位] (AT)活动(以前不返回 [!DNL Target])。 如果AP/AT活动位于交付路径上，且优先级高于使用相同位置进行内容交付的其他AB/XT活动，则这可能会更改最终用户在预取调用（“执行”流程未发生更改）时看到的体验。
 
 ### [!DNL Target] 平台版本（3月30日）
 
@@ -67,21 +80,21 @@ ht-degree: 99%
 
 此版本包含错误修复和未来集成所需的功能。
 
-### Target平台版本（2022年4月13日）
+### Target 平台发行（2022 年 4 月 13 日）
 
 此版本包含以下更新：
 
-* 修复了在使用配置文件脚本捕获IP地址的最后八位字节时，确保正确进行模糊处理的问题。 (TNT-44076)
+* 修复了一个问题，以确保在使用配置文件脚本捕获时，能够正确地模糊处理 IP 地址的最后一个八位字节。(TNT-44076)
 
-### [!DNL Target Standard/Premium] 22.3.1（2022年4月5日）
+### [!DNL Target Standard/Premium] 22.3.1（2022 年 4 月 5 日）
 
 此版本包含以下更改和增强功能：
 
-* 修复了导致 [!UICONTROL 包括] 和 [!UICONTROL 排除] 用于编辑活动时禁用组合受众的选项。 (TGT-43422)
-* 修复了某些客户在编辑活动时无法看到可用受众列表的问题。 (TGT-43404)
-* 修复了导致某些客户无法从“[!UICONTROL 要从中排除的IP [!DNL Target] 报告数据]&quot;列表 [!UICONTROL 管理] > [!UICONTROL 报表]. (TGT-43384)
-* 修复了在受众标准中无法使用负数的问题，该负数会检查任何变量是否“大于”、“大于或等于”、“小于”或“小于或等于”。 (TGT-43367)
-* 修复了阻止客户查看 [!UICONTROL 受众详细信息] 卡片。 (TGT-43303)
+* 修复了一个问题，该问题会在编辑活动时，导致为合并受众禁用[!UICONTROL 包含]和[!UICONTROL 排除]选项。(TGT-43422)
+* 修复了一个问题，该问题使得某些客户在编辑活动时看不到可用受众列表。(TGT-43404)
+* 修复了一个问题，该问题使得一些客户无法从[!UICONTROL 管理] > [!UICONTROL 报表]的[!UICONTROL 从 [!DNL Target] 报表数据中排除的 IP 地址]列表中删除 IP 地址。(TGT-43384)
+* 修复了一个问题，该问题使得在检查任何变量“大于”、“大于或等于”、“小于”或“小于或等于”的受众标准中无法使用负数。(TGT-43367)
+* 修复了一个问题，该问题使得客户创建合并受众时无法查看[!UICONTROL 受众详细信息]卡。(TGT-43303)
 
 ### at.js 版本 2.8.0（2022 年 1 月 7 日）
 
@@ -1902,7 +1915,7 @@ target/r_release-notes-2018.xml
    <td colname="col1"> <p>成功量度 </p> </td> 
    <td colname="col2"> <p>以前，Target 允许存在对单个量度的依赖关系，且必须先达到该量度，然后才能递增其计数。现在，您可以提供对多个量度的依赖关系，并且还可以灵活选择是否应实现指定的量度才能递增计数。 </p> <p>在以下情况下，不支持使用多量度依赖关系功能： </p> <p> 
      <ul id="ul_EC856F910B704D648065EA7DA13EE5B0"> 
-      <li id="li_1A82414FE50B414CAA1A0A88E80BCC1B"> <p>“推荐”活动。其他所有活动类型均支持此功能。 </p> </li> 
+      <li id="li_1A82414FE50B414CAA1A0A88E80BCC1B"> <p>Recommendations 活动. 其他所有活动类型均支持此功能。 </p> </li> 
       <li id="li_2D6CF42264D445FCB6C400ED321DE952"> <p>使用 Analytics 作为报表源 (A4T)。 </p> </li> 
       <li id="li_E3A983A70BB04AE8B25A7CEC1F5FE1D9"> <p>量度类型为“已查看页面”。 </p> </li> 
       <li id="li_9AAF6BB275F7489BA691676E308172D5"> <p>可视化体验编辑器 (VEC) 活动的量度类型为“已单击元素”。 </p> </li> 

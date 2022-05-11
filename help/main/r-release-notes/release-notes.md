@@ -5,37 +5,48 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 68%
+source-wordcount: '692'
+ht-degree: 52%
 
 ---
 
 # Target 发行说明（当前版本）
 
-这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外， [!DNL Target] API、SDK、 [!DNL Adobe Experience Platform Web SDK]、 at.js和其他平台更改（如果适用）也包含在内。
+这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target Standard/Premium] 22.4.1（2022年4月28日）
+## [!DNL Target Standard/Premium] 22.5.1(错开释放；2022年5月11至13日)
 
-此版本包含以下修复：
+此版本将按照以下分批次计划提供：
 
-* 修复了导致三个基于购物车的算法在 [!DNL Target] 后端。 (TGT-43456)
-* 已启用 [!DNL Target] 为启用了的组织刷新UI令牌 [业务ID帐户](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank}和基于策略的身份验证(PBA)。 (TGT-42590)
+* **5月11日**:亚太地区
+* **5月12日**:北美洲(NA)地区
+* **5月13日**:欧洲、中东和非洲(EMEA)地区
 
-## [!DNL Target] 平台版本（2022年4月27日）
+此版本包含以下增强功能和修复：
 
-此版本包含以下更改：
-
-* 在此版本中，您可以为 [!UICONTROL 自动个性化] （美联社）和 [!UICONTROL 自动定位] (AT)活动(以前不返回 [!DNL Target])。 如果AP/AT活动位于交付路径上，且优先级高于使用相同位置进行内容交付的其他AB/XT活动，则这可能会更改最终用户在预取调用（“执行”流程未发生更改）时看到的体验。
+* 修复了导致JavaScript错误并阻止某些客户访问特定活动详细信息的问题 [!UICONTROL Automated Personalization] (AP)活动。 (TGT-43526)
+* 修复了导致某些客户无法向AP活动添加（或编辑）特定选件的问题。 (TGT-43503)
+* 修复了 [!DNL Target] 显示以下错误消息的UI:“您的全局mbox可能不同步。 请尝试重新保存它。”此问题是UI问题，不会影响客户的实施。 (TGT-43475)
+* 修复了在新建客户之前创建细化和受众时，导致一位客户无法编辑体验级别的活动细化和受众的问题 [!UICONTROL 受众] 已部署UI。 (TGT-43433)
+* 修复了允许客户选择重复项的问题 [!DNL Adobe Audience Manager] (AAM)受众。 (TGT-43430)
+* 修复了阻止客户在不同工作区中创建重复受众的问题。 (TGT-43423)
+* 修复了阻止客户删除在 [!UICONTROL 基于表单的体验编辑器]. (TGT-43315)
+* 修复了在单击图像选件并刷新UI后阻止客户访问代码选件的问题。 (TGT-43566)
+* 确保 [!DNL Target] 创建使用 [!DNL Analytics for Target] (A4T)仅显示由 [!DNL Adobe Analytics]. (TGT-43294)
+* 修复了在编辑、激活和停用配置文件脚本后，对配置文件脚本所做的编辑还原到原始未编辑脚本的问题。 配置文件脚本现在保持其编辑状态。 (TGT-43249)
+* 修复了在尝试将受众移动到其他工作区时导致以下错误的问题：“我们无法完成您的请求。 如果问题仍然存在，请联系Adobe客户关怀团队。” (TGT-43212)
+* 修复了在克隆单页应用程序(SPA)页面的自定义代码修改时导致错误的错误。 (TGT-43137)
+* 修复了在复制体验并编辑促销活动后，导致原始促销活动受到影响的问题。 (TGT-41775)
 
 ## 其他发行说明和版本详细信息
 
 | 资源 | 详细信息 |
 |--- |--- |
-| [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
+| [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh_Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
 | [at.js 版本详细信息](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明

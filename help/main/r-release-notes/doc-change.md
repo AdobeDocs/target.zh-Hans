@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d92340218f6e5f906aef15584740a179ace30a77
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '3943'
 ht-degree: 96%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 96%
 # 文档更改
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
+
+## Adobe Target Standard/Premium 22.5.1(错开发行；2022年5月11至13日)
+
+| 日期 | 主题 | 更改 |
+| --- | --- | --- |
+| 5 月 11 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.5.1和Target平台（2022年5月11-13日）版本。 |
 
 ## Adobe Target Standard/Premium 22.4.1（4月28日）
 

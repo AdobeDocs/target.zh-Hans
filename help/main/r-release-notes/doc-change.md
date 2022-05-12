@@ -27,7 +27,7 @@ ht-degree: 94%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 5 月 10 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.5.1 版的预发行信息。 |
+| 5 月 10 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 22.5.1 的预发行信息。 |
 | 4 月 28 日 | [企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | 添加了以下常见问题解答：<ul><li>我是否可以将受众从一个工作区移动到另一个工作区？</li></ul> |
 |  | [[!UICONTROL 自动分配]概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | 添加了以下常见问题解答：<ul><li>能否 [!UICONTROL 自动分配] 活动会调整测试过程中的回顾窗口，以考虑随时间变化的趋势？</li><li>是 [!UICONTROL 自动分配] 如果入选体验与访客在符合活动资格条件时看到的体验不同，则向回访访客显示入选体验？</li></ul> |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.4.1和Target平台（2022年4月27日）版本。 |
@@ -41,22 +41,22 @@ ht-degree: 94%
 |  | [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 添加了以下部分：<ul><li>从导出到Target的体验片段中删除ClientLib和无关HTML</li></ul> |
 | 21 月 4 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target] 平台发布计划于2022年4月17日发布。 |
 | 4 月 20 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.4.1 版的预发行信息。 |
-| 4 月 14 日 | [可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 在“重新排列”部分中添加了信息，说明如何使用[!UICONTROL 移动]和[!UICONTROL 重新排列]操作，处理由于 DOM 元素延迟加载造成的 VEC 行为不一致。 |
+| 4 月 14 日 | [可视体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 向“重新排列”部分添加了解释如何使用[!UICONTROL 移动]和[!UICONTROL 重新排列]操作处理因延迟加载 DOM 元素而产生 VEC 行为不一致的信息。 |
 | 4 月 13 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 4 月 27 日）</li></ul> |
-|  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target] 平台版本的发布信息。 |
-| 4 月 4 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 更新了有关 [!DNL Target Standard/Premium] 22.3.1 版的信息。 |
+|  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target] 平台版本的发行信息。 |
+| 4 月 4 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 更新了关于 [!DNL Target Standard/Premium] 22.3.1 版的信息。 |
 
 ## Adobe Target Standard/Premium 22.2.1（2022 年 2 月 1 日） 
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 3 月 30 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target] 平台版本的发布信息。 |
-| 3 月 28 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target] 平台版本的预发布信息。 |
-| 3 月 22 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 客户工程修复版本的发布信息。 |
-|  | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.3.1 版的预发行信息。 |
-| 3 月 17 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 客户工程修复版本的预发布信息。 |
-| 3 月 9 日 | [已知问题和已解决的问题](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 添加了以下已知问题：<ul><li>删除具有临时选件（这些选件位于在基于表单的体验编辑器中创建的活动内）的位置</li></ul> |
-|  | [mbox3rdPartyId 的实时配置文件同步](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | 更新了以下有关配置文件同步的说法：“每 5-10 分钟与配置文件存储同步更新。” |
+| 3 月 30 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target] 平台版本的发行信息。 |
+| 3 月 28 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target] 平台版本的预发行信息。 |
+| 3 月 22 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 客户工程修复版本的发行信息。 |
+|  | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 22.3.1 的预发行信息。 |
+| 3 月 17 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 客户工程修复版本的预发行信息。 |
+| 3 月 9 日 | [已知问题和已解决的问题](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 添加了以下已知问题：<ul><li>删除在基于表单的体验编辑器中创建的活动中具有临时选件的位置</li></ul> |
+|  | [mbox3rdPartyId 的实时配置文件同步](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | 更新了以下有关配置文件同步的句子：“每 5-10 分钟与配置文件存储同步一次更新”。 |
 | 3 月 8 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 3 月 30 日）</li></ul> |
 | 3 月 7 日 | [创建受众](/help/main/c-target/c-audiences/audiences.md#aep) | 在“利用来自 [!DNL Adobe Experience Platform] 的受众”下添加了新的部分：<ul><li>个性化用例</li></ul> |
 | 2 月 25 日 | [自动分配和自动定位活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 更新了以下部分：<ul><li>[自动分配和自动定位](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[自动分配](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |

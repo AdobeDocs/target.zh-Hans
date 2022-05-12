@@ -1,19 +1,19 @@
 ---
-keywords: experience cloud调试器；mbox跟踪
-description: 调试Adobe [!DNL Target] 使用Adobe Experience Cloud Debugger。
-title: 调试 [!DNL Target] Experience Cloud Debugger
+keywords: experience cloud debugger;mbox 跟踪
+description: 使用 Adobe Experience Cloud Debugger 调试 Adobe [!DNL Target] 。
+title: '使用 Experience Cloud Debugger 调试 [!DNL Target] '
 feature: Troubleshooting
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '71'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 
-# 调试 [!DNL Target] Experience Cloud Debugger
+# 使用 Experience Cloud Debugger 调试 [!DNL Target]
 
-调试 [!DNL Adobe Target] 使用 [!DNL Adobe Experience Cloud Debugger].
+使用 [!DNL Adobe Experience Cloud Debugger] 调试 [!DNL Adobe Target]。
 
 ## 添加扩展
 
@@ -29,6 +29,6 @@ ht-degree: 9%
 
 ## 其他资源
 
-+ [Adobe Experience Cloud Debugger（在Chrome应用商店中）](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [Target故障诊断帮助文档](/help/main/r-troubleshooting-target/troubleshooting-target.md)
-+ [如何使用Experience Cloud Debugger视频](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Chrome Store 中的 Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
++ [Target 帮助文档故障排除](/help/main/r-troubleshooting-target/troubleshooting-target.md)
++ [“如何使用 Experience Cloud Debugger”视频](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)

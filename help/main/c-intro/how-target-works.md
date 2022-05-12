@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;搜索引擎优化;搜索引擎优化;seo;边缘群集、中心群集;at.js;mbox.js;
-description: 了解如何Adobe [!DNL Target] 作品，包括 [!DNL Target] JavaScript库(at.js和Experience PlatformWeb SDK)、Adobe数据中心和SEO测试。
+description: 了解 Adobe [!DNL Target] 的工作原理，包括关于 [!DNL Target] JavaScript 库（at.js 和 Experience Platform Web SDK）、Adobe 数据中心和 SEO 测试的信息。
 title: ' [!DNL Target] 的工作原理'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2536'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 99%
 [!DNL Target] 使用 [!DNL Experience Platform Web SDK] 或 JavaScript 库与网站集成：
 
 * **Adobe Experience Platform Web SDK：**[Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 是一个新的客户端 JavaScript 库。Experience Platform Web SDK 使 [!DNL Adobe Experience Cloud] 的客户可通过 [!DNL Experience Platform] 边缘网络与 [!DNL Experience Cloud] 中的各种服务（包括 [!DNL Target]）进行交互。Adobe 建议所有新 [!DNL Target] 客户均实施 [!DNL Experience Platform Web SDK]。
-* **at.js：** at.js 库是 [!DNL Target] 的一个实施库。使用 at.js 可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。经常更新 at.js 以增加新功能。Adobe 建议所有使用 at.js 的客户都将其实现更新到 [at.js 的最新版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+* **at.js：** at.js 库是 [!DNL Target] 的一个实施库。使用 at.js 库可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。经常更新 at.js 以增加新功能。Adobe 建议所有使用 at.js 的客户都将其实现更新到 [at.js 的最新版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
 * **mbox.js：** mbox.js 库是 [!DNL Target] 旧版实施库。2021 年 3 月 31 日后不再支持 mbox.js 库。
 
 请在您网站上的每个页面上都引用 [!DNL Experience Platform Web SDK] 或 at.js。例如，可将这些库之一添加到您的全局头部。或者，考虑使用 [Adobe Experience Platform 中的标签](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)来实施 [!DNL Target]。
 
 以下资源包含帮助您实施 Experience Platform Web SDK 或 at.js 的详细信息：
 
-* [Adobe Experience Platform Web SDK 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
+* [Adobe Experience Platform Web SDK 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=zh-Hans)
 * [使用 Adobe Experience Platform 实施 [!DNL Target] ](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 每次访客请求已针对 [!DNL Target] 优化的页面时，都将一个请求发送到定位系统。该请求有助于确定要向该访客提供什么内容。实时进行此过程。每次加载页面时，系统都提出并履行对内容的请求。内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。其中提供每个网站访客最有可能作出响应、与其交互或最终购买的内容。个性化的内容有助于充分提高响应率、获客率和收入。

@@ -6,16 +6,16 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 4848b811-04f8-4857-8309-f5d3f9086197
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '84'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
-# 用户管理疑难解答
+# 用户管理故障诊断
 
 有关在 Adobe Target 中管理用户的故障诊断信息。
 
-## 我邀请了一个用户加入Target，但“用户”列表（“管理”>“用户”）中未显示其用户名。 {#section_13A1A9697BA44537BA569C81CF136160}
+## 我邀请用户加入 Target，但其姓名未显示在“用户”列表中（“管理”>“用户”）。 {#section_13A1A9697BA44537BA569C81CF136160}
 
-您将不会在 [!UICONTROL 用户] 页面，直到用户使用其Adobe Experience Cloud帐户登录，然后登录到 [!DNL Target Standard/Premium].
+只有在用户登录其 Adobe Experience Cloud 帐户并随后登录到 [!DNL Target Standard/Premium] 中时，您才会看到新用户在[!UICONTROL 用户]页面中列出。

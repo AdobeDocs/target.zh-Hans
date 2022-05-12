@@ -4,9 +4,9 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: db632225d21c2e061e82269bec168341b410575a
+source-git-commit: a820a1cbc56332cc6414dc9f5ce4578fa0349481
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1165'
 ht-degree: 30%
 
 ---
@@ -34,7 +34,9 @@ ht-degree: 30%
 
 注册以下网络研讨会，以了解客户如何使用 [!DNL Adobe Target] 要实现其个性化和优化目标，请执行以下操作：
 
-### 迪克的体育用品：个性化与零售业不断变化的格局
+### 迪克的体育用品：零售业的个性化和不断变化的环境（2022年5月19日）
+
++++单击我
 
 * **2022年5月19日星期四**
 * **下午1时至2时(EDT， UTC-4)**
@@ -49,15 +51,22 @@ ht-degree: 30%
 * 通过在Web和移动设备中扩展个性化和实验活动，对业务产生总体影响
 * 使用分析数据将普通访客转变为回访运动员的零售提示和技巧
 
-### Adobe:个性化行业内部人士 — 金融服务和保险
++++
+
+### Adobe:个性化行业内部人士 — 金融服务和保险（2022年5月24日）
+
++++单击我
 
 * **2022年5月24日星期二**
 * **下午1时至2时(EDT， UTC-4)**
 * **[更多信息和注册信息](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-与Christopher Young(Director，行业战略金融服务部)和James Capasso(AdobePremier Support，目标顾问)一起了解品牌如何响应即时的需求变化，同时将个性化放在其客户参与的中心。 了解金融服务公司如何支持和通知世界各地担心最近通货膨胀模式和投资情况的客户。 
+与Christopher Young(Director，行业战略金融服务部)和James Capasso(AdobePremier Support，目标顾问)一起了解品牌如何响应即时的需求变化，同时将个性化放在其客户参与的中心。 了解金融服务公司如何支持和通知世界各地担心最近通货膨胀模式和投资情况的客户。
++++ 
 
-### 城市国家银行：如何在数字优化中实现最高1%
+### 城市国家银行：如何在数字优化中实现前1%（2022年5月26日）
+
++++单击我
 
 * **2022年5月26日星期四**
 * **下午1时至2时(EDT， UTC-4)**
@@ -72,7 +81,11 @@ ht-degree: 30%
 * 通过提高参与度和采用个性化优惠来加快业务增长
 * 优化多渠道营销活动，以实现价值并实现投资回报。
 
-### Adobe:精确个性化 —  [!DNL Adobe Analytics] 和 [!DNL Target]
++++
+
+### Adobe:精确个性化 —  [!DNL Adobe Analytics] 和 [!DNL Target] （2022年6月2日）
+
++++单击我
 
 * **2022年6月2日星期四**
 * **下午1时至2时(EDT， UTC-4)**
@@ -85,15 +98,22 @@ ht-degree: 30%
 * 逐步引导式导览 [!DNL Adobe Analytics] 和 [!DNL Target] 用于个性化、定位和测试的工作流
 * 主要用例，用于解锁哪些属性可预测访客行为以及哪些属性对关键可视化和分段分析最为重要的
 
-### 城市国家银行：从零到主页 — 启动和扩展个性化项目
++++
+
+### 城市国家银行：Zero to Hero — 启动和扩展个性化计划（2022年6月9日）
+
++++单击我
 
 * **2022年6月9日星期四**
 * **下午1时至2时(EDT， UTC-4)**
 * **即将提供更多信息和注册信息**
 
 与Heather Adkins（SVP营销技术）一起学习最佳做法，成为“关系银行”，以提高品牌忠诚度，以及如何推动人员和流程构建和扩展成功的个性化计划。
++++
 
-### Adobe:发现极具影响力的优化机会
+### Adobe:发现极具影响力的优化机会（2022年6月16日）
+
++++单击我
 
 * **2022年6月16日星期四**
 * **下午1时至2时(EDT， UTC-4)**
@@ -106,13 +126,18 @@ ht-degree: 30%
 * 利用客户的个性化亲和度
 * 还有更多可帮助您在组织中发现极具影响力的机会的想法
 
-### Adobe:个性化行业内部人士 — 零售 
++++
+
+### Adobe:个性化行业内幕 — 零售（2022年6月21日）
+
++++单击我
 
 * **2022年6月21日星期四**
 * **下午1时至2时(EDT， UTC-4)**
 * **[更多信息和注册信息](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 与Michael Klein(行业战略零售部Director)和Leina Betzer(AdobePremier Support部目标顾问)一起讨论随着消费者购买模式和行为的转变以及对某些市场商品和服务的更高需求，零售电子商务销售如何飞涨。
++++
 
 ## 以往网络研讨会和技能培养会议的录像
 

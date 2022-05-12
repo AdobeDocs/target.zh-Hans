@@ -4,7 +4,7 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a820a1cbc56332cc6414dc9f5ce4578fa0349481
+source-git-commit: 1997fb8e290541fc9e194d582ccc2587595ccfa7
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 30%

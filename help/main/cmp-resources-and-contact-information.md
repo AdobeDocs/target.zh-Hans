@@ -4,8 +4,8 @@ description: 了解其他资源以帮助您了解 Adobe [!DNL Target] 功能以�
 title: 可在何处找到 Target 的资源和联系信息？
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
+workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 
 | 主题 / 运行时长 / 录制日期 | 您将了解的内容 |
 |--- |--- |
-| [at.js 提示和概述](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59 分 12 秒<br>2019 年 6 月 26 日 | 您将了解以下各项：<ul><li>使用 at.js 的优点</li><li>at.js 设置</li><li>处理闪烁的情况</li><li>调试 at.js</li><li>已知问题</li><li>常见问题解答</li></ul>有关更多信息，请参阅 [at.js 的工作方式](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)。 |
+| [at.js 提示和概述](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59 分 12 秒<br>2019 年 6 月 26 日 | 您将会了解以下内容：<ul><li>使用 at.js 的优点</li><li>at.js 设置</li><li>处理闪烁的情况</li><li>调试 at.js</li><li>已知问题</li><li>常见问题解答</li></ul>有关更多信息，请参阅 [at.js 的工作方式](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)。 |
 | [Target Premium 工作区](https://helpx.adobe.com/cn/customer-care-office-hours/target/premium-workspaces.html)<br>27 分 49 秒<br>2018 年 9 月 4 日 | 您将会了解以下内容：<ul><li>创建工作区（产品配置文件）</li><li>创建属性</li><li>添加用户</li><li>更新实现</li></ul>有关更多信息，请参阅[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | [可视体验编辑器 (VEC)](https://helpx.adobe.com/cn/customer-care-office-hours/target/visual-experience-composer.html)<br>50 分 23 秒<br>2017 年 12 月 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>有关本指南中的更多信息，请参阅[体验](/help/main/c-experiences/experiences.md)。 |
 | [Adobe Target：Analytics/Target 集成 (A4T)](https://helpx.adobe.com/cn/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40 分 33 秒<br>2018 年 1 月 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。 |

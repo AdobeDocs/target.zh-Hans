@@ -5,10 +5,10 @@ title: 什么是企业用户权限？如何使用这些权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 56%
+source-wordcount: '3149'
+ht-degree: 59%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->“属性和权限”功能作为  Premium 解决方案的一部分提供。[!DNL Target]如果没有 [!DNL Target] Premium 许可证，它们将无法在 [!DNL Target] Standard 中使用。
+>属性和权限功能作为 [!DNL Target] Premium 解决方案的一部分提供。如果没有 [!DNL Target] Premium 许可证，它们将无法在 [!DNL Target] Standard 中使用。
 >
 >您的 [!DNL Target] 实施可以使用任何版本的at.js。
 
-您可以通过单击 [!UICONTROL 管理] 链接 [!DNL Target] UI。
+您可以在 [!DNL Target] UI 的顶部单击[!UICONTROL 管理]链接，确定组织使用的是 Standard 还是 Premium 许可。
 
-* **[!DNL Target Standard]客户**:如果您看到 [!UICONTROL 用户] 选项卡([!UICONTROL 管理>用户])(而不是 [!UICONTROL 属性] 选项卡)，则贵组织具有 [!DNL Target Standard] 许可证。 [!DNL Target Standard] 客户应按照 [用户](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) 在 [!DNL Adobe Admin Console].
+* **[!DNL Target Standard]客户**：如果您看到[!UICONTROL 用户]选项卡（[!UICONTROL 管理 > 用户]）（而不是[!UICONTROL 属性]选项卡），则组织具有 [!DNL Target Standard] 许可。[!DNL Target Standard] 客户应按照 [用户](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) 在 [!DNL Adobe Admin Console].
 
 * **[!DNL Target Premium]客户**:如果您看到 [!UICONTROL 属性] 选项卡([!UICONTROL 管理>属性])和 [!UICONTROL 用户] 选项卡，则您的组织具有 [!DNL Target Premium] 许可证。 [!DNL Target Premium] 客户应按照本文章和[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)中的相关说明进行操作。
 
@@ -91,7 +91,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 | 审批者 | 可以创建、编辑，以及激活或停止活动。 |
 | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
 | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
-| 发布者 | 与“观察者”角色类似（可以查看活动，但无法创建或编辑活动）。 但是，发布者角色另有激活活动的权限。 |
+| 发布者 | 类似于观察者角色（可查看活动，但无法创建或编辑活动）。但是，发布者角色另有激活活动的权限。 |
 
 ### 渠道
 
@@ -120,7 +120,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 | 审批者 | 可以创建、编辑，以及激活或停止活动。 |
 | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
 | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
-| 发布者 | 与“观察者”角色类似（可以查看活动，但无法创建或编辑活动）。 但是，发布者角色另有激活活动的权限。 |
+| 发布者 | 类似于观察者角色（可查看活动，但无法创建或编辑活动）。但是，发布者角色另有激活活动的权限。 |
 
 请注意，每个用户的角色都适用于您帐户中包含 [!DNL Target] 标记的每个页面、属性或网站，如下所示：
 
@@ -231,7 +231,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 * 从 [!DNL Audiences] 页面查看受众时，页面加载速度低于预期。如果您以任何方式与搜索栏进行互动，则会加快受众的显示速度。此问题已知，将在即将进行的更新中修复。 此问题不会影响在活动创建工作流中选择受众。
 * 以下资源属于新的企业权限模型的一部分：
 
-   * 客户获得权限后，在 Target Standard/Premium 中创建的活动、受众和代码选件。（注意：客户必须获得 Target Premium 的使用授权。）
+   * 在中创建的活动、受众和代码选件 [!DNL Target Standard/Premium] 在客户启用权限后，即可使用。 (注：客户必须有权 [!DNL Target Premium].)
    * 属性可添加到默认工作区中的现有活动；但是，这种方法可能会发生变化。
    * 只有在Target Premium中创建的新资源（例如活动、代码选件和受众）才可按权限进行限制（在启用企业权限后）。
    * 外部资源仅供默认工作区中的用户使用。默认工作区中的用户角色会应用到全局（适用于所有 Target 请求和所有 Target 资源）。
@@ -322,6 +322,6 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 >[!NOTE]
 >
->的 [!DNL Target] [!UICONTROL 管理] 菜单UI(以前称为 [!UICONTROL 设置])进行了重新设计，以提高性能，缩短发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息正确；但是，选项的位置可能略有不同。
+>[!DNL Target][!UICONTROL 管理] 菜单 UI（以前的[!UICONTROL 设置]）经过重新设计，以提供更好的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。以下视频中的信息正确；但是，选项的位置可能略有不同。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)

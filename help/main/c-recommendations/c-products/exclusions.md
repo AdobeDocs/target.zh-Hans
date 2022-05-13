@@ -4,10 +4,10 @@ description: 了解如何在Adobe中创建排除项 [!DNL Target] Recommendation
 title: 如何在Recommendations活动中使用排除项？
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 44%
+source-wordcount: '614'
+ht-degree: 43%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 44%
 * 不应推荐的产品（可能系统中存在某些产品的SKU，但它不是可购买的产品，或者QA团队模拟购买而不实际订购某些产品的假SKU，等等）
 
 >[!IMPORTANT]
+>
+>排除规则将全局应用于所有环境。
 >
 >静态和动态排除规则是可帮助您完成营销工作的强大功能。有关详细信息、示例和用例情景，请参阅[使用动态和静态包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
 

@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 52%
+source-wordcount: '666'
+ht-degree: 54%
 
 ---
 
@@ -36,7 +36,6 @@ ht-degree: 52%
 * 修复了阻止客户在不同工作区中创建重复受众的问题。 (TGT-43423)
 * 修复了阻止客户删除在 [!UICONTROL 基于表单的体验编辑器]. (TGT-43315)
 * 修复了在单击图像选件并刷新UI后阻止客户访问代码选件的问题。 (TGT-43566)
-* 确保 [!DNL Target] 创建使用 [!DNL Analytics for Target] (A4T)仅显示由 [!DNL Adobe Analytics]. (TGT-43294)
 * 修复了在编辑、激活和停用配置文件脚本后，对配置文件脚本所做的编辑还原到原始未编辑脚本的问题。 配置文件脚本现在保持其编辑状态。 (TGT-43249)
 * 修复了在尝试将受众移动到其他工作区时导致以下错误的问题：“我们无法完成您的请求。 如果问题仍然存在，请联系Adobe客户关怀团队。” (TGT-43212)
 * 修复了在克隆单页应用程序(SPA)页面的自定义代码修改时导致错误的错误。 (TGT-43137)

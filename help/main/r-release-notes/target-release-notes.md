@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 41db493ad71a2e0909346f81b897d2b1db631116
+source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 29%
+source-wordcount: '463'
+ht-degree: 30%
 
 ---
 
@@ -37,7 +37,6 @@ ht-degree: 29%
 * 修复了阻止客户在不同工作区中创建重复受众的问题。 (TGT-43423)
 * 修复了阻止客户删除在 [!UICONTROL 基于表单的体验编辑器]. (TGT-43315)
 * 修复了在单击图像选件并刷新UI后阻止客户访问代码选件的问题。 (TGT-43566)
-* 确保 [!DNL Target] 创建使用 [!DNL Analytics for Target] (A4T)仅显示由 [!DNL Adobe Analytics]. (TGT-43294)
 * 修复了在编辑、激活和停用配置文件脚本后，对配置文件脚本所做的编辑还原到原始未编辑脚本的问题。 配置文件脚本现在保持其编辑状态。 (TGT-43249)
 * 修复了在尝试将受众移动到其他工作区时导致以下错误的问题：“我们无法完成您的请求。 如果问题仍然存在，请联系Adobe客户关怀团队。” (TGT-43212)
 * 修复了在克隆单页应用程序(SPA)页面的自定义代码修改时导致错误的错误。 (TGT-43137)

@@ -5,7 +5,7 @@ title: at.js如何管理闪烁？
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 76%
@@ -48,7 +48,7 @@ ht-degree: 76%
 
 at.js可以异步加载，即直接嵌入到页面上或通过标签管理器(例如 [!DNL Adobe Experience Platform Launch])。
 
-如果页面上嵌入了at.js，则必须先添加代码片段，然后再加载at.js。 如果您通过标签管理器加载at.js（该管理器也异步加载），则必须在加载标签管理器之前添加代码片段。 如果标签管理器同步加载，则脚本可能会在at.js之前包含在标签管理器中。
+如果页面上嵌入了at.js，则必须先添加代码片段，然后再加载at.js。 如果您通过标签管理器加载at.js（该管理器也异步加载），则必须在加载标签管理器之前添加代码片段。 如果同步加载标签管理器，则脚本可能会在at.js之前包含在标签管理器中。
 
 预先隐藏的代码片段如下所示：
 

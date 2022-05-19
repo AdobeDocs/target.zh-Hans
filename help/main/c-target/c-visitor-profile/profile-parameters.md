@@ -7,7 +7,7 @@ exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
 source-wordcount: '2423'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ if (mbox.name == 'Track_Interest') {
 * 在代码中使用 `user.get('parameterName')` 引用配置文件脚本属性（包括本身）。
 * 使用 `user.setLocal('variable_name', 'value')` 保存下次运行脚本时可以访问的变量（在下一个 mbox 请求上）。使用 `user.getLocal('variable_name')` 引用变量。在您需要引用上个请求的日期和时间时，此过程非常有用。
 
-   这些值会像配置文件脚本一样保留，但您只能在设置的脚本中访问它们。
+   这些值就像配置文件脚本一样持续存在，但您只能在设置这些值的脚本中访问它们。
 
 * 参数和值区分大小写。请对照您在活动或测试期间收到的参数和值的大小写。
 * 有关更多 JavaScript 语法，请参阅下方的“脚本配置文件参数的 JavaScript 参考”部分。

@@ -1,5 +1,5 @@
 ---
-keywords: 公告;skill builder;开发人员聊天;coffee break;活动;forrester;gartner;网络研讨会
+keywords: 公告;skill builder;开发人员聊天;喝咖啡休息时间;活动;forrester;gartner;网络研讨会
 description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Skill Builder 讲座、开发人员和产品经理聊天、网络研讨会等。
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
@@ -7,71 +7,71 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: d7bb5becfabccc283bb3528985dc3f9f85b628d3
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 25%
+ht-degree: 80%
 
 ---
 
 # Target 公告和活动
 
-关于即将举办的活动的公告和信息，包括 [!DNL Adobe Target] Skill Builder 讲座、开发人员聊天、网络研讨会和 [!DNL Target] Coffee Break 讲座。
+关于即将举办的活动的公告和信息，包括 [!DNL Adobe Target] Skill Builder 讲座、开发人员聊天、网络研讨会和 [!DNL Target]喝咖啡休息时间讲座。
 
-## [!DNL Adobe Target] 社区问答喝咖啡休息时间 （2022年5月25日）
+## [!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 5 月 25 日）
 
-布伦特·科斯塔克和德鲁·伯恩斯 [!DNL Adobe Target] 产品营销团队将回答客户有关其专业领域的问题。
+[!DNL Adobe Target] 产品营销团队的 Brent Kostak 和 Drew Burns 将解答客户对其专业领域存有的疑问。 
 
 +++单击我
 
-* **2022年5月25日星期三**
+* **2022 年 5 月 25 日星期三**
 * **上午 8 点（PDT，UTC -7）**
 * **[更多信息和注册信息](https://adobe.ly/3LbOj4G)**
 
-我们邀请客户发布与4/28/22实时个性化网络研讨会期间涵盖的以下主题相关的问题（访问记录如下）：
+邀请客户就 2022 年 4 月 28 日的实时个性化网络研讨会（可访问以下录像）中涉及的以下主题进行提问：
 
-* 通过创建共享受众 [!DNL Adobe Target] 和Real-Time CDP
+* 使用 [!DNL Adobe Target] 和实时 CDP 创建共享受众
 * 构建第一方数据战略以解决数据碎片化挑战
-* 为毫秒个性化部署端到端工作流
-* 实时提供相关的消息、内容和优惠以提高参与度
+* 部署用于毫秒个性化的端到端工作流
+* 实时提供相关的信息、内容和服务，以推动参与度
 
-技术支持工程师Kai Motoyama也将参与讨论，提供额外支持。
+技术支持工程师 Kai Motoyama 也将参与讨论，提供其他支持。
 +++
 
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 
-注册以下网络研讨会，以了解客户如何使用 [!DNL Adobe Target] 要实现其个性化和优化目标，请执行以下操作：
+注册参加以下网络研讨会，了解客户如何使用 [!DNL Adobe Target] 来实现其个性化和优化目标：
 
-### 迪克的体育用品：零售业的个性化和不断变化的环境（2022年5月19日）
+### 迪克体育用品：个性化和零售业的变化 （2022 年 5 月 19 日）
 
 了解有关大规模实施个性化计划的最佳实践。 看看迪克的体育用品如何使用 [!DNL Adobe Target] 吸引顶尖运动员和品牌。
 
 +++单击我
 
-* **2022年5月19日星期四**
-* **下午1时至2时(EDT， UTC-4)**
-* **[更多信息和注册信息](https://changing-landscape.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **2022 年 5 月 19 日星期四**
+* **下午 1:00 到 2:00 (EDT, UTC-4)**
+* **[更多信息和注册信息 ](https://changing-landscape.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 与Shawn Wilkinson（电子商务个性化经理）一起了解如何 [!DNL Target] 正在帮助迪克的体育用品公司把普通游客变成返回的运动员。
 
-了解迪克的体育用品如何在我们打开包装的同时推动两位数的增长：
+了解迪克体育用品如何推动两位数增长：
 
-* 如何规划和启动面向零售的高性能个性化计划
-* 为什么在整个组织内获得支持对于克服障碍和障碍至关重要
-* 通过在Web和移动设备中扩展个性化和实验活动，对业务产生总体影响
-* 使用分析数据将普通访客转变为回访运动员的零售提示和技巧
+* 如何为零售业规划和启动高性能个性化计划
+* 为什么获得整个组织的认可对于克服障碍和阻碍至关重要
+* 通过在网络和移动设备上扩展个性化和实验活动，对整体业务产生影响
+* 使用分析数据将普通访客转化为回访访客的零售技巧
 
 +++
 
-### Adobe:个性化行业内部人士 — 金融服务和保险（2022年5月24日）
+### Adobe：个性化行业内幕 — 金融服务和保险 （2022 年 5 月 24 日）
 
 了解金融服务公司如何通过个性化为客户提供支持和通知，以便为通货膨胀模式和投资策略做好准备。
 
 +++单击我
 
-* **2022年5月24日星期二**
-* **下午1时至2时(EDT， UTC-4)**
-* **[更多信息和注册信息](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **2022 年 5 月 24 日星期二**
+* **下午 1:00 到 2:00 (EDT, UTC-4)**
+* **[更多信息和注册信息 ](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-与Christopher Young(Director，行业战略金融服务部)和James Capasso(AdobePremier Support，目标顾问)一起了解品牌如何响应即时的需求变化，同时将个性化放在其客户参与的中心。 了解金融服务公司如何支持和通知世界各地担心最近通货膨胀模式和投资情况的客户。
-+++ 
+加入 Christopher Young（行业战略金融服务总监）和
+James Capasso（Adobe Premier Support 的 Target 顾问），了解品牌如何应对需求的即时变化，同时将个性化作为客户互动的中心。 了解金融服务公司如何支持和通知世界各地关注近期通货膨胀模式和投资环境的客户。+++ 
 
 ### 城市国家银行：如何在数字优化中实现前1%（2022年5月26日）
 
@@ -79,99 +79,99 @@ ht-degree: 25%
 
 +++单击我
 
-* **2022年5月26日星期四**
-* **下午1时至2时(EDT， UTC-4)**
-* **[更多信息和注册信息](https://digital-optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **2022 年 5 月 26 日星期四**
+* **下午 1:00 到 2:00 (EDT, UTC-4)**
+* **[更多信息和注册信息 ](https://digital-optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-与Heather Adkins（SVP营销技术经理）一起了解城市国家银行如何成为最复杂的“支持数字化的关系银行”之一。
+加入 Heather Adkins（高级营销技术副总裁），了解国民城市银行如何成为最先进的“数字化关系银行”之一。
 
-了解城市国家银行如何利用 [!DNL Target] 至：
+了解国民城市银行如何利用 [!DNL Target] 来：
 
-* 扩展测试和实验、个性化和AI自动化活动
-* 推动跨渠道的入选体验，以建立真正的关系
-* 通过提高参与度和采用个性化优惠来加快业务增长
-* 优化多渠道营销活动，以实现价值并实现投资回报。
+* 规模测试和实验、个性化和人工智能自动化活动
+* 推动跨渠道的获胜体验，发展真实的关系
+* 通过增加参与度和个性化优惠的采用，加快业务增长
+* 优化多渠道营销活动，以实现时间价值和 ROI。
 
 +++
 
-### Adobe:精确个性化 —  [!DNL Adobe Analytics] 和 [!DNL Target] （2022年6月2日）
+### Adobe：精准个性化 — [!DNL Adobe Analytics] 和 [!DNL Target] （2022年6月2日）
 
 了解人工智能如何随着机器学习模型和数据洞察为营销人员、开发人员和产品所有者打开了新的大门，以便通过重要的个性化体验吸引消费者，从而继续重新定义消费者期望。 逐步浏览 [!DNL Adobe Analytics] + [!DNL Adobe Target] 用于个性化、定位和测试的工作流。
 
 +++单击我
 
-* **2022年6月2日星期四**
-* **下午1时至2时(EDT， UTC-4)**
-* **[更多信息和注册信息](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **2022 年 6 月 2 日星期四**
+* **下午 1:00 到 2:00 (EDT, UTC-4)**
+* **[更多信息和注册信息 ](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-加入Jordan Ison(Jordan Ison), [!DNL Adobe])讨论：
+加入 Jordan Ison（[!DNL Adobe] 的首席专家解决方案顾问）参与讨论：
 
-* 营销人员、开发人员和产品团队如何打开AI的“黑匣子”以推动未来的测试和个性化策略
-* 克服在优化Web、移动应用程序、电子邮件、IoT和每个数字接触点以提高转化率和参与度方面的挑战
-* 逐步引导式导览 [!DNL Adobe Analytics] 和 [!DNL Target] 用于个性化、定位和测试的工作流
-* 主要用例，用于解锁哪些属性可预测访客行为以及哪些属性对关键可视化和分段分析最为重要的
+* 营销人员、开发人员和产品团队如何打开人工智能的“黑匣子”，推动未来的测试和个性化战略
+* 克服优化网络、移动应用程序、电子邮件、物联网和每个数字接触点以实现更高转化率和参与度方面的挑战
+* 逐步引导浏览个性化、目标和测试的 [!DNL Adobe Analytics] 和 [!DNL Target] 工作流
+* 用于解锁哪些属性可以预测访客行为，以及哪些属性对关键可视化和细分分析最重要的顶级用例
 
 +++
 
-### 城市国家银行：Zero to Hero — 启动和扩展个性化计划（2022年6月9日）
+### 国民城市银行：从零到英雄 — 启动并扩展个性化计划 （2022年6月9日）
 
 了解如何成为“关系银行”以提高品牌忠诚度的最佳实践。 了解如何推动人员和流程构建和扩展成功的个性化计划。
 
 +++单击我
 
-* **2022年6月9日星期四**
-* **下午1时至2时(EDT， UTC-4)**
-* **即将提供更多信息和注册信息**
+* **2022 年 6 月 9 日星期四**
+* **下午 1:00 到 2:00 (EDT, UTC-4)**
+* **更多信息和注册信息即将发行**
 
-与Heather Adkins（SVP营销技术）一起学习最佳做法，成为“关系银行”，以提高品牌忠诚度，以及如何推动人员和流程构建和扩展成功的个性化计划。
+加入 Heather Adkins（高级营销技术副总裁）学习成为“关系银行”的最佳实践，以提高品牌忠诚度，以及学习如何改善人员和流程以建立和扩大成功的个性化计划。
 +++
 
-### Adobe:发现极具影响力的优化机会（2022年6月16日）
+### Adobe：发现高影响力的优化机会 （2022年6月16日）
 
 了解当我们进入新常态时（比以前更数字化的常态），组织应如何利用每一个机会提供卓越的数字体验，这一点至关重要。 足够好已不够真正好。 要保持竞争力，需要出色的经验。
 
 +++单击我
 
-* **2022年6月16日星期四**
-* **下午1时至2时(EDT， UTC-4)**
-* **[更多信息和注册信息](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **2022 年 6 月 16 日星期四**
+* **下午 1:00 到 2:00 (EDT, UTC-4)**
+* **[更多信息和注册信息 ](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-加入Kaitlin White(Adobe产品营销经理)，我们将分享一些行之有效的策略来帮助您启动个性化计划，包括：
+加入 Kaitlin White（Adobe 产品营销经理），我们将分享行之有效的策略，帮助您启动个性化计划，包括：
 
-* 开箱即用的购买新潜在客户或客户的想法
-* 修复用户摩擦，提供更直观的体验
-* 利用客户的个性化亲和度
-* 还有更多可帮助您在组织中发现极具影响力的机会的想法
+* 获得新商机或客户的发散性思维
+* 修复用户摩擦以获得更直观的体验
+* 挖掘客户亲和力以实现个性化
+* 还有更多想法等您解锁，助您在贵组织中发现高影响力的机会
 
 +++
 
-### Adobe:个性化行业内幕 — 零售（2022年6月21日）
+### Adobe：个性化行业内幕 — 零售业(2022 年 6 月 21 日)
 
 2022年为企业提供了动态且瞬息万变的运行和运营环境。 了解行业专家如何在员工和旅行者的生活开始恢复正常的同时，看到新的消费者趋势正在形成。 
 
 +++单击我
 
-* **2022年6月21日星期四**
-* **下午1时至2时(EDT， UTC-4)**
-* **[更多信息和注册信息](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **2022 年 6 月 21 日星期四**
+* **下午 1:00 到 2:00 (EDT, UTC-4)**
+* **[更多信息和注册信息 ](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-与Michael Klein(行业战略零售部Director)和Leina Betzer(AdobePremier Support部目标顾问)一起讨论随着消费者购买模式和行为的转变以及对某些市场商品和服务的更高需求，零售电子商务销售如何飞涨。
+加入 Michael Klein（行业战略零售总监）和 Leina Betzer（Adobe Premier Support Target 顾问），讨论随着消费者购买模式和行为的转变，在特定市场对商品和服务的需求更高，零售电子商务销售是如何飞速增长的。
 +++
 
-## 以往网络研讨会和技能培养会议的录像
+## 过去的网络研讨会和技能培训课程录像
 
-注册并查看最近事件的记录：
+注册并查看近期活动的录像：
 
-### 通过 [!DNL Adobe Target]
+### [!DNL Adobe Target] 的实时个性化服务
 
-**[注册以查看网络研讨会录像](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+**[注册观看该网络研讨会的录像 ](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-在本课程中，了解如何 [!DNL Adobe Target] 在我们讨论的过程中，弥合了在合并跨多个源的数据以实现实时个性化方面的差距：
+在本课程中，了解 [!DNL Adobe Target] 如何在我们讨论的跨多个源组合数据以实现实时个性化方面弥合差距：
 
-* 为什么个性化性能和速度对于推动更快的业务增长至关重要
-* 团队如何构建第一方数据战略并解决其数据碎片化难题
-* 用于以毫秒为单位提供个性化体验的端到端工作流
-* 品牌的独特用例，用于通过相关的消息、内容和选件实时吸引客户和潜在客户
+* 为什么个性化性能和速度对加快业务增长至关重要
+* 团队如何构建第一方数据战略并解决其数据碎片化挑战
+* 以毫秒为单位提供个性化体验的端到端工作流
+* 为品牌提供独特的使用案例，通过相关的信息、内容和优惠实时吸引客户和潜在客户
 
 ### 网络研讨会：通过 [!DNL Adobe Target] 的设备上决策进行无延迟的个性化和测试
 

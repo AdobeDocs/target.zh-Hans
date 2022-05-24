@@ -3,10 +3,10 @@ user-guide-title: Adobe [!DNL Target] 指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 8f3eb3adcbd27a0f2592684266d9b6419151f890
+source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 99%
+source-wordcount: '1566'
+ht-degree: 98%
 
 ---
 
@@ -194,6 +194,7 @@ ht-degree: 99%
    + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
    + [将Target与Adobe Experience Manager集成](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
    + [将 Target 与 Adobe Audience Manager 集成](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + [与Real-time Customer Data Platform集成](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [将 Target 与 Adobe Campaign 集成](c-integrating-target-with-mac/campaign-and-target.md)
 + 活动 {#activities}
    + [活动概述](c-activities/activities.md)

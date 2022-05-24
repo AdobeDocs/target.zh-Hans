@@ -2,9 +2,9 @@
 keywords: 可视化体验编辑器选项；体验编辑器选项；体验选项；选件决策；offer decisioning;ajorey optimizer
 description: 了解如何添加在 [!DNL Adobe Journey Optimizer] 到活动。
 title: 如何使用优惠决策？
-feature: Visual Experience Composer (VEC)
+feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: d68f35017ba4354704df12668cdb4f800cc2feaa
+source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%

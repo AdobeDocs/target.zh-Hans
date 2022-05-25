@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: d7bb5becfabccc283bb3528985dc3f9f85b628d3
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 80%
+source-wordcount: '1263'
+ht-degree: 98%
 
 ---
 
@@ -15,39 +15,17 @@ ht-degree: 80%
 
 关于即将举办的活动的公告和信息，包括 [!DNL Adobe Target] Skill Builder 讲座、开发人员聊天、网络研讨会和 [!DNL Target]喝咖啡休息时间讲座。
 
-## [!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 5 月 25 日）
-
-[!DNL Adobe Target] 产品营销团队的 Brent Kostak 和 Drew Burns 将解答客户对其专业领域存有的疑问。 
-
-+++单击我
-
-* **2022 年 5 月 25 日星期三**
-* **上午 8 点（PDT，UTC -7）**
-* **[更多信息和注册信息](https://adobe.ly/3LbOj4G)**
-
-邀请客户就 2022 年 4 月 28 日的实时个性化网络研讨会（可访问以下录像）中涉及的以下主题进行提问：
-
-* 使用 [!DNL Adobe Target] 和实时 CDP 创建共享受众
-* 构建第一方数据战略以解决数据碎片化挑战
-* 部署用于毫秒个性化的端到端工作流
-* 实时提供相关的信息、内容和服务，以推动参与度
-
-技术支持工程师 Kai Motoyama 也将参与讨论，提供其他支持。
-+++
-
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 
 注册参加以下网络研讨会，了解客户如何使用 [!DNL Adobe Target] 来实现其个性化和优化目标：
 
-### 迪克体育用品：个性化和零售业的变化 （2022 年 5 月 19 日）
+### 迪克体育用品：个性化和零售业的变化（2022 年 5 月 19 日）
 
-了解有关大规模实施个性化计划的最佳实践。 看看迪克的体育用品如何使用 [!DNL Adobe Target] 吸引顶尖运动员和品牌。
+了解大规模提升个性化计划的最佳实践。了解 Dick&#39;s Sporting Goods 如何使用 [!DNL Adobe Target] 吸引顶级运动员和品牌。
+
+* [录制链接](https://video.tv.adobe.com/v/343042){target=_blank}
 
 +++单击我
-
-* **2022 年 5 月 19 日星期四**
-* **下午 1:00 到 2:00 (EDT, UTC-4)**
-* **[更多信息和注册信息 ](https://changing-landscape.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 与Shawn Wilkinson（电子商务个性化经理）一起了解如何 [!DNL Target] 正在帮助迪克的体育用品公司把普通游客变成返回的运动员。
 
@@ -60,9 +38,9 @@ ht-degree: 80%
 
 +++
 
-### Adobe：个性化行业内幕 — 金融服务和保险 （2022 年 5 月 24 日）
+### Adobe：个性化行业内幕 — 金融服务和保险（2022 年 5 月 24 日）
 
-了解金融服务公司如何通过个性化为客户提供支持和通知，以便为通货膨胀模式和投资策略做好准备。
+了解金融服务公司如何使用个性化来支持和通知客户，为通货膨胀模式和投资策略做好准备。
 
 +++单击我
 
@@ -70,12 +48,12 @@ ht-degree: 80%
 * **下午 1:00 到 2:00 (EDT, UTC-4)**
 * **[更多信息和注册信息 ](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-加入 Christopher Young（行业战略金融服务总监）和
-James Capasso（Adobe Premier Support 的 Target 顾问），了解品牌如何应对需求的即时变化，同时将个性化作为客户互动的中心。 了解金融服务公司如何支持和通知世界各地关注近期通货膨胀模式和投资环境的客户。+++ 
+加入 Christopher Young（行业战略金融服务总监）和 James Capasso（Adobe Premier Support 的 Target 顾问），了解品牌如何应对需求的即时变化，同时将个性化作为客户互动的中心。了解金融服务公司如何支持和通知世界各地关注近期通货膨胀模式和投资环境的客户。
++++ 
 
-### 城市国家银行：如何在数字优化中实现前1%（2022年5月26日）
+### 国民城市银行 (City National Bank)：如何在数字优化中实现前 1% 的目标（2022 年 5 月 26 日）
 
-查看用于实施跨功能个性化策略的工具包和用例。 看看CNB是如何从行业最底层的26%变为最顶层的1%的 [!DNL Adobe Target].
+查看用于实施跨职能个性化策略的工具包和用例。了解 CNB 如何通过 [!DNL Adobe Target] 从行业底部的 26% 上升到前 1%。
 
 +++单击我
 
@@ -94,9 +72,9 @@ James Capasso（Adobe Premier Support 的 Target 顾问），了解品牌如何�
 
 +++
 
-### Adobe：精准个性化 — [!DNL Adobe Analytics] 和 [!DNL Target] （2022年6月2日）
+### Adobe：精准个性化 — [!DNL Adobe Analytics] 和 [!DNL Target]（2022 年 6 月 2 日）
 
-了解人工智能如何随着机器学习模型和数据洞察为营销人员、开发人员和产品所有者打开了新的大门，以便通过重要的个性化体验吸引消费者，从而继续重新定义消费者期望。 逐步浏览 [!DNL Adobe Analytics] + [!DNL Adobe Target] 用于个性化、定位和测试的工作流。
+了解人工智能如何继续重新定义消费者的期望，因为机器学习模型和数据见解为营销人员、开发人员和产品所有者打开了新的大门，让消费者获得重要的个性化体验。逐步了解个性化、定位和测试的 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流。
 
 +++单击我
 
@@ -113,9 +91,9 @@ James Capasso（Adobe Premier Support 的 Target 顾问），了解品牌如何�
 
 +++
 
-### 国民城市银行：从零到英雄 — 启动并扩展个性化计划 （2022年6月9日）
+### 国民城市银行：从零到英雄 — 启动并扩展个性化计划（2022 年 6 月 9 日）
 
-了解如何成为“关系银行”以提高品牌忠诚度的最佳实践。 了解如何推动人员和流程构建和扩展成功的个性化计划。
+了解如何成为“关系银行”以提高品牌忠诚度的最佳实践。了解如何推动人员和流程来构建和扩展成功的个性化计划。
 
 +++单击我
 
@@ -126,9 +104,9 @@ James Capasso（Adobe Premier Support 的 Target 顾问），了解品牌如何�
 加入 Heather Adkins（高级营销技术副总裁）学习成为“关系银行”的最佳实践，以提高品牌忠诚度，以及学习如何改善人员和流程以建立和扩大成功的个性化计划。
 +++
 
-### Adobe：发现高影响力的优化机会 （2022年6月16日）
+### Adobe：发现高影响力的优化机会（2022 年 6 月 16 日）
 
-了解当我们进入新常态时（比以前更数字化的常态），组织应如何利用每一个机会提供卓越的数字体验，这一点至关重要。 足够好已不够真正好。 要保持竞争力，需要出色的经验。
+了解我们如何进入比以往任何时候都更加数字化的新常态，组织利用每一个机会提供卓越的数字体验至关重要。足够好不再是真正的足够好。保持竞争力需要丰富的经验。
 
 +++单击我
 
@@ -145,9 +123,9 @@ James Capasso（Adobe Premier Support 的 Target 顾问），了解品牌如何�
 
 +++
 
-### Adobe：个性化行业内幕 — 零售业(2022 年 6 月 21 日)
+### Adobe：个性化行业内幕 — 零售业（2022 年 6 月 21 日）
 
-2022年为企业提供了动态且瞬息万变的运行和运营环境。 了解行业专家如何在员工和旅行者的生活开始恢复正常的同时，看到新的消费者趋势正在形成。 
+2022 年为企业提供了一个动态且快速变化的运行和运营环境。了解行业专家如何看到新的消费趋势正在形成，同时工人和旅行者的生活开始恢复正常。 
 
 +++单击我
 

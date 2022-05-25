@@ -5,9 +5,9 @@ title: at.js的每个版本中都包含哪些内容？
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '4390'
+source-wordcount: '4414'
 ht-degree: 88%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 88%
 >Target团队同时支持at.js 1.*x* 与 at.js 2.*x* 之间的映射。请升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。
 >
 >中的标记 [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 是升级at.js的首选方法。 扩展开发人员会不断向其扩展中添加新功能，并且会经常修复错误。 这些更新将打包到扩展的新版本中，并在 [!DNL Adobe Experience Platform] 目录作为升级。 有关更多信息，请参阅 [扩展升级](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 在 *标记概述* 的双曲余切值。
+
+## at.js 版本 2.9.0（2022 年 5 月 27 日）
+
+* 添加了 [用户代理客户端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 支持。
+* 修复了同一页面上的多个mbox请求具有不同展示ID的错误。
 
 ## at.js 版本 2.8.1（2022 年 1 月 28 日）
 
@@ -453,7 +458,7 @@ at.js 版本 1.0 中包含以下增强功能和修复：
 
 * 在 at.js 中为访客 ID 服务提供了一个超时，它与该服务自身的超时无关。
 * 更正了0.9.0中的一个问题，该问题会影响在某些页面上使用at.js，而在其他页面上使用mbox.js（现已弃用）的实施。
-* 如果您使用 Adobe Analytics 作为活动的报表源，并且使用的是 mbox.js 版本 61（或更高版本）或者 at.js 版本 0.9.1（或更高版本），则无需在活动创建期间指定跟踪服务器。at.js库会自动将跟踪服务器值发送到 [!DNL Target]. 在活动创建期间，您可以将“[!UICONTROL 目标和设置]”页面上的“[!UICONTROL 跟踪服务器]”字段留空。
+* 如果您使用 Adobe Analytics 作为活动的报表源，并且使用的是 mbox.js 版本 61（或更高版本）或者 at.js 版本 0.9.1（或更高版本），则无需在活动创建期间指定跟踪服务器。at.js 库自动将跟踪服务器值发送到 [!DNL Target]。在活动创建期间，您可以将[!UICONTROL 目标和设置]页面上的[!UICONTROL 跟踪服务器]字段留空。
 
 ## at.js 版本 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 

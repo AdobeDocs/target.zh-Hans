@@ -4,9 +4,10 @@ description: 了解如何 [!DNL Adobe Target] 使用用户代理和客户端提�
 title: 用户代理和客户端提示
 feature: at.js
 role: Developer
-source-git-commit: 2527608fc781913024d5d6ffee49aff9eb6c2f42
+exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1332'
 ht-degree: 3%
 
 ---
@@ -14,6 +15,11 @@ ht-degree: 3%
 # 用户代理和客户端提示
 
 [!DNL Adobe Target] 使用用户代理来确定访客是否符合分段和个性化条件。
+
+>[!NOTE]
+>
+>本文中的信息适用于 [at.js版本2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) （或更高版本）。
+
 
 每次Web浏览器向服务器发出请求时，请求的标题中都会包含有关浏览器以及浏览器运行环境的信息。 自Internet问世初期以来，此数据已汇总到一个名为用户代理的字符串中。
 
@@ -158,11 +164,13 @@ Target中的以下用例需要客户端提示：
 
 #### Sec-CH-UA-Arch
 
-熵：高文档： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank}受众属性：配置文件脚本用法： `user.clientHint('sec-ch-ua-arch')`
+熵：高文档： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank}受众属性：通过配置文件脚本向用户公开。
+配置文件脚本用法： `user.clientHint('sec-ch-ua-arch')`
 
 #### Sec-CH-UA-Bitness
 
-熵：高文档： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank}受众属性：配置文件脚本用法： `user.clientHint('sec-ch-ua-bitness')`
+熵：高文档： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank}受众属性：通过配置文件脚本向用户公开。
+配置文件脚本用法： `user.clientHint('sec-ch-ua-bitness')`
 
 #### Sec-CH-UA-Full-Version-List
 
@@ -182,7 +190,8 @@ Target中的以下用例需要客户端提示：
 
 #### Sec-CH-UA-Platform-Version
 
-熵：高文档： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank}受众属性：配置文件脚本用法： `user.clientHint('sec-ch-ua-platform-version')`
+熵：高文档： [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank}受众属性：通过配置文件脚本向用户公开。
+配置文件脚本用法： `user.clientHint('sec-ch-ua-platform-version')`
 
 ## 如何将客户端提示传递到 [!DNL Adobe Target]
 
@@ -197,15 +206,3 @@ Target中的以下用例需要客户端提示：
 ### 服务器端SDK
 
 有关如何通过服务器端SDK传递客户端提示的更多信息，请参阅 [客户端提示](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank} *Adobe Target SDK* 文档。
-
-
-
-
-
-
-
-
-
-
-
-

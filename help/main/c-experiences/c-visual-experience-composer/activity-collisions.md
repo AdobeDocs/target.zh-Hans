@@ -4,10 +4,10 @@ description: 如果设置了多个活动来将内容交付到同一页面，则�
 title: 如何避免活动冲突？
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 430b2ebb053460ec04c01da53aadacaba9e99599
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 79%
+ht-degree: 72%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 79%
 * 在设置新活动之前确认页面上是否已有测试在运行
 * 在未显示预期内容时，对活动进行故障诊断
 
-的 [!UICONTROL 冲突] 列表显示每个 [!DNL Target] 使用了mbox且使用相同URL的场景。 对于每个潜在冲突，此列表都会显示可能发生冲突的活动 URL 和 mbox 名称，以及匹配上述两个条件的任何活动。如果存在多个 mbox，则会列出每个 mbox。
+的 [!UICONTROL 冲突] 列表显示每个 [!DNL Target] 使用了mbox且使用相同URL的场景。 对于每个潜在的冲突，该列表会显示活动URL、可能发生冲突的mbox名称，以及任何与这两个条件均匹配的活动。 如果存在多个 mbox，则会列出每个 mbox。
 
 此列表还会显示每个潜在冲突的状态和优先级，以及其他相关信息。您可以使用状态和优先级来帮助确定冲突发生的可能性。例如，如果两个活动之间存在潜在冲突，而其中一个活动处于不活跃状态，则实际上不会发生冲突，除非将不活跃的活动激活。如果是两个活跃的活动之间存在潜在冲突，且两个活动具有相同的优先级和受众，则会发生冲突。您可以更改优先级或状态来阻止冲突发生。
 

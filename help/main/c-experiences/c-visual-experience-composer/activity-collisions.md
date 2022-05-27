@@ -4,10 +4,10 @@ description: 如果设置了多个活动来将内容交付到同一页面，则�
 title: 如何避免活动冲突？
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-source-git-commit: 430b2ebb053460ec04c01da53aadacaba9e99599
+source-git-commit: b34701113ebdc9f539e5a3d7163aa3dd85368af3
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 72%
+source-wordcount: '352'
+ht-degree: 66%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 72%
 
 当多个活动被设置为将内容发布到同一页面时，就会发生活动冲突。如果发生活动冲突，您可能无法在页面上看到预期内容。
 
-如果您的活动包含潜在冲突，“活动概述”页面上会显示“[!UICONTROL 冲突]”选项卡。同一 URL 上的所有活动均会列出，而不考虑每个活动中的任何受众定位。打开该选项卡后，会显示可能发生冲突的活动列表。单击列表中的某个活动即可查看该活动的概述页面。如果冲突改变了预期体验，则需编辑相应的活动。
+的 [!UICONTROL 冲突] 选项卡在“活动概述”页面上可用，可以通知您活动是否包含潜在冲突。 同一 URL 上的所有活动均会列出，而不考虑每个活动中的任何受众定位。打开该选项卡后，会显示可能发生冲突的活动列表。单击列表中的某个活动即可查看该活动的概述页面。如果冲突改变了预期体验，则需编辑相应的活动。
 
 的 [!UICONTROL 冲突] 列表可帮助您：
 

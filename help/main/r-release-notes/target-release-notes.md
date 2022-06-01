@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,24 +19,24 @@ ht-degree: 90%
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## Target平台版本（2022年5月25日）
+## Target 平台版本（2022 年 5 月 25 日）
 
 此版本包含以下增强功能和修复：
 
-* 添加了 [用户代理客户端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 支持。
-* 修复了在渲染时间歇性导致超时的问题 [!UICONTROL 选件决策] in [!UICONTROL 体验定位] (XT)活动。 (TNT-44611)
+* 添加了对[用户代理客户端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)的支持。
+* 修复了一个问题，在[!UICONTROL 体验定位] (XT) 活动中呈现[!UICONTROL 优惠决策]时，该问题间歇性地导致超时。(TNT-44611)
 
 ## at.js 版本 2.9.0（2022 年 5 月 27 日）
 
-* 添加了 [用户代理客户端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 支持。
-* 修复了同一页面上的多个mbox请求具有不同展示ID的错误。
+* 添加了对[用户代理客户端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)的支持。
+* 修复了同一页面上的多个 mbox 请求具有不同印象 ID 的错误。
 
 ## [!DNL Target Standard/Premium] 22.5.1（2022 年 5 月 11 日至 13 日，交错发行）
 
 此版本将按照以下交错发行计划发行：
 
 * **5 月 11 日**：亚太 (APAC) 地区
-* **5月12日**:美洲地区
+* **5 月 12 日**：美洲区域
 * **5 月 13 日**：欧洲、中东和非洲 (EMEA) 地区
 
 此版本包含以下增强功能和修复：
@@ -58,4 +58,4 @@ ht-degree: 90%
 
 要提前收到关于 [!DNL Target] 和其他 [!DNL Adobe Experience Cloud] 解决方案即将发行产品改良的通知，请注册 [!DNL Adobe Priority Product Update]：
 
-[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/cn/subscription/priority-product-update.html)
+[https://www.adobe.com/cn/subscription/priority-product-update.html](https://www.adobe.com/cn/subscription/priority-product-update.html)

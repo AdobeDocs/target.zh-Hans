@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: a40aba388ae89079f6977082fd77c7670618a4e1
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 
 ## Adobe Target社区休息时间（2022年6月29日）
 
-+++单击我
++++单击这里
 
 * **2022年6月29日星期三**
 * **上午8时至9时（太平洋夏令时，UTC-7）**
@@ -110,9 +110,9 @@ ht-degree: 83%
 
 * [录制链接](https://video.tv.adobe.com/v/343042){target=_blank}
 
-+++单击我
++++单击这里
 
-与Shawn Wilkinson（电子商务个性化经理）一起了解如何 [!DNL Target] 正在帮助迪克的体育用品公司把普通游客变成返回的运动员。
+与 Shawn Wilkinson（电子商务个性化经理）一同了解 [!DNL Target] 如何帮助迪克体育用品使普通访客成为运动员回头客。
 
 了解迪克体育用品如何推动两位数增长：
 
@@ -129,7 +129,7 @@ ht-degree: 83%
 
 [录制链接](https://video.tv.adobe.com/v/343240){target=_blank}
 
-+++单击我
++++单击这里
 
 加入 Christopher Young（行业战略金融服务总监）和 James Capasso（Adobe Premier Support 的 Target 顾问），了解品牌如何应对需求的即时变化，同时将个性化作为客户互动的中心。了解金融服务公司如何支持和通知世界各地关注近期通货膨胀模式和投资环境的客户。
 +++ 
@@ -140,7 +140,7 @@ ht-degree: 83%
 
 [录制链接](https://video.tv.adobe.com/v/343344){target=_blank}
 
-+++单击我
++++单击这里
 
 加入 Heather Adkins（高级营销技术副总裁），了解国民城市银行如何成为最先进的“数字化关系银行”之一。
 
@@ -157,7 +157,7 @@ ht-degree: 83%
 
 **[注册观看该网络研讨会的录像 ](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-+++单击我
++++单击这里
 
 在本课程中，了解 [!DNL Adobe Target] 如何在我们讨论的跨多个源组合数据以实现实时个性化方面弥合差距：
 
@@ -172,7 +172,7 @@ ht-degree: 83%
 
 [录制链接](https://video.tv.adobe.com/v/328148){target=_blank}
 
-+++单击我
++++单击这里
 
 相比以往，营销人员、产品所有者和开发人员需要更多地在网站上、应用程序中以及他们与客户联系的其他各个环节优化整体客户体验。若使用多种工具，再加上数据孤岛和复杂的实现方式，将无法完成这些任务。
 
@@ -183,7 +183,7 @@ ht-degree: 83%
 
 * **[录制链接](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
-+++单击我
++++单击这里
 
 McKinsey Digital 报道称“我们仅用了大约 8 周时间，就将消费者和商业数字化采用程度向前推进了 5 年。”*
 

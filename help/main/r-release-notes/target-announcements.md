@@ -4,7 +4,7 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a40aba388ae89079f6977082fd77c7670618a4e1
+source-git-commit: 6826a9e434ba9d8a2f1a8a56b5ca053445aac1fc
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 85%
@@ -15,7 +15,7 @@ ht-degree: 85%
 
 有关即将发布的公告和信息 [!DNL Adobe Target] 事件，包括 [!DNL Target] 茶歇， [!DNL Target] 网络研讨会系列， [!DNL Target] 技能培养会议、开发人员聊天等。 如果可用，则包含指向过去录制的链接。
 
-## Adobe Target社区休息时间（2022年6月29日）
+## Adobe Target社区咖啡休息（2022年6月29日）
 
 +++单击这里
 

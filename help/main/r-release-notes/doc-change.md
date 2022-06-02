@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: f29d01b8851efee1ab0b412f8cba3692c68efc7b
 workflow-type: tm+mt
 source-wordcount: '4110'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 5 月 31 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md#webinar-series) | 添加了有关即将 [!DNL Adobe Target] 社区咖啡休息（2022年6月29日） |
-| 5 月 25 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target] 平台版本（2022年5月25日）和at.js 2.9.0版本（2022年5月27日）。 |
+| 5 月 31 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md#webinar-series) | 添加了关于即将举办的 [!DNL Adobe Target] 社区咖啡时间活动的信息（2022 年 6 月 29 日） |
+| 5 月 25 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target] Platform 版（2022 年 5 月 25 日）和 at.js 2.9.0 版（2022 年 5 月 27 日）的信息。 |
 |  | [at.js 版本详细信息](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.9.0 版的信息。 |
 |  | [用户代理和客户端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | 新主题。 |
 |  | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md#webinar-series) | 添加了以下网络研讨会的录制链接：迪克的体育用品：零售业的个性化及变化（2022 年 5 月 19 日） |

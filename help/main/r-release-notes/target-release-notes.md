@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 56%
 
 ---
 
@@ -15,44 +15,24 @@ ht-degree: 100%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2022 年 5 月 25 日**
+**上次更新时间：2022 年 6 月 6 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## Target 平台版本（2022 年 5 月 25 日）
-
-此版本包含以下增强功能和修复：
-
-* 添加了对[用户代理客户端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)的支持。
-* 修复了一个问题，在[!UICONTROL 体验定位] (XT) 活动中呈现[!UICONTROL 优惠决策]时，该问题间歇性地导致超时。(TNT-44611)
-
-## at.js 版本 2.9.0（2022 年 5 月 27 日）
-
-* 添加了对[用户代理客户端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)的支持。
-* 修复了同一页面上的多个 mbox 请求具有不同印象 ID 的错误。
-
-## [!DNL Target Standard/Premium] 22.5.1（2022 年 5 月 11 日至 13 日，交错发行）
+## [!DNL Target Standard/Premium] 22.6.1(错开释放；2022年6月7日至9日)
 
 此版本将按照以下交错发行计划发行：
 
-* **5 月 11 日**：亚太 (APAC) 地区
-* **5 月 12 日**：美洲区域
-* **5 月 13 日**：欧洲、中东和非洲 (EMEA) 地区
+* **6月7日**:亚太地区
+* **6月8日**:美洲地区
+* **6月9日**:欧洲、中东和非洲(EMEA)地区
 
 此版本包含以下增强功能和修复：
 
-* 修复了一个问题，该问题导致 JavaScript 错误并阻止一些客户访问某些 [!UICONTROL Automated Personalization] (AP) 活动的详细信息。 (TGT-43526)
-* 修复了一个问题，该问题阻止某些客户在 AP 活动中添加（或编辑）特定优惠的问题。 (TGT-43503)
-* 修复了在 [!DNL Target] UI 中显示以下错误消息的问题：“您的全局 mbox 可能不同步。 请尝试重新保存它。”这是一个 UI 问题，不会影响客户的实施。 (TGT-43475)
-* 修复了一个问题，如果在部署新的[!UICONTROL 受众] UI 之前创建活动的体验级细化和受众，该问题阻止单个客户编辑这些体验级细化和受众。(TGT-43433)
-* 修复了一个问题，该问题允许客户在编辑活动的报告受众时选择重复的 [!DNL Adobe Audience Manager] (AAM) 受众。 (TGT-43430)
-* 修复了一个阻止客户在不同工作区创建重复受众的问题。 (TGT-43423)
-* 修复了一个问题，该问题阻止客户删除在 [!UICONTROL 基于表单的体验生成器] 创建的活动中享有临时优惠的位置。 (TGT-43315)
-* 修复了一个问题，该问题阻止客户在单击图像优惠信息然后刷新 UI 后访问代码优惠信息。 (TGT-43566)
-* 修复了一个问题，该问题导致对配置文件脚本的编辑在脚本被编辑、激活然后停用后，恢复为原始的未编辑脚本。 配置文件脚本现在仍处于编辑状态。 (TGT-43249)
-* 修复了试图将受众移动到另一个工作区时导致以下错误的问题：“我们无法完成您的请求。 如果问题仍然存在，请联系 Adobe 客户关怀部门。” (TGT-43212)
-* 修复了一个问题，该问题导致克隆单页面应用程序 (SPA) 页面的自定义代码修改时出现错误。 (TGT-43137)
-* 修复了在复制体验并编辑促销后导致原始促销受到影响的问题。 (TGT-41775)
+* 具有 [!UICONTROL 编辑器] 角色现在可以编辑实时活动中的受众。 (TGT-43582)
+* 感叹号(! )在受众名称的开头不是有效的字符。 现在，如果用户尝试将带有感叹号的受众保存为第一个字符（例如！London），则会显示一条消息。 (TGT-43643)
+* 修复了在 [!DNL Target] UI。 的 [!UICONTROL 编辑受众] 页面显示了一个要编辑的属性，尽管受众具有多个属性。 (TGT-43552)
+* 修复了Target UI创建“空”容器时导致某些客户无法保存组合受众的问题。 (TGT-43588)
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

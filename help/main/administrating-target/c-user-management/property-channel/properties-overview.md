@@ -5,10 +5,10 @@ title: 如何配置企业权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 63%
+source-wordcount: '1437'
+ht-degree: 67%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 63%
 当您开始使用新的[!UICONTROL 属性]功能时，必须在 [!DNL Adobe Admin Console for Enterprise] 中执行所有用户管理。但是，[!DNL Target] 中的所有现有用户都将从 [!DNL Target] 迁移到 [!DNL Admin Console for Enterprise]。
 
 1. [在 Admin Console 中](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)，单击页面顶部的&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 添加用户]**，以创建新用户或编辑现有用户。
-1. 按照《企业用户指南》**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/enterprise/help/users.html)中的说明进行操作。
+1. 按照企业用户指南&#x200B;**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/enterprise/help/users.html)中的说明进行操作。
 
 ## 步骤 2. 创建工作区（产品配置文件） {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
@@ -162,7 +162,7 @@ ht-degree: 63%
 
 ## 步骤6:指定角色和权限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
-1. 在 Admin Console 中，单击&#x200B;****&#x200B;产品，然后选择所需产品的名称。
+1. 在 Admin Console 中，单击&#x200B;**[!UICONTROL 产品]**，然后选择所需产品的名称。
 
    ![工作区](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
@@ -178,16 +178,16 @@ ht-degree: 63%
 
 1. 使用 [!UICONTROL 产品角色] 列。
 
-   ![产品角色下拉列表](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
+   ![“产品角色”下拉列表](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | 角色 | 描述 |
    |--- |--- |
    | 审批者 | 可以创建、编辑，以及激活或停止活动。 |
-   | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
+   | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。可以编辑实时活动中的受众。 |
    | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
-   | 发布者 | 与“观察者”角色类似（可以查看活动，但无法创建或编辑活动）。 但是，发布者角色另有激活活动的权限。 |
+   | 发布者 | 类似于观察者角色（可查看活动，但无法创建或编辑活动）。但是，发布者角色另有激活活动的权限。 |
 
-   有关更多信息，请参阅《企业用户指南》**&#x200B;中的[在 Admin Console 中管理产品权限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
+   有关更多信息，请参阅企业用户指南&#x200B;**&#x200B;中的[在 Admin Console 中管理产品权限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
 
 ## 培训视频
 
@@ -195,7 +195,7 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->的 [!DNL Target] [!UICONTROL 管理] 菜单UI(以前称为 [!UICONTROL 设置])进行了重新设计，以提高性能，缩短发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常是正确的；但是，选项的位置可能略有不同。 更新的视频将很快发布。
+>[!DNL Target][!UICONTROL 管理] 菜单 UI（以前的[!UICONTROL 设置]）经过重新设计，以提供更好的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。以下视频中的信息通常是正确的；但是，选项的位置可能略有不同。 更新后的视频很快就会发布。
 
 ### 如何配置Adobe Target工作区(6:55) ![教程徽章](/help/main/assets/tutorial.png)
 

@@ -4,9 +4,9 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
-source-wordcount: '4783'
+source-wordcount: '4549'
 ht-degree: 100%
 
 ---
@@ -22,18 +22,6 @@ ht-degree: 100%
 ## 已知问题 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 下面部分列出了 [!DNL Target] 的已知问题：
-
-### 通过可视体验编辑器 (VEC) 加载使用 Service Worker 的网站
-
-在尝试使用 VEC 打开使用 [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW) 的网站时，目前存在一些限制。
-
-SW 是一种 Web 技术，可用于拦截对网页所安装的域的请求。SW 在页面访问中留存，并在后续访问中自我激活。SW 可以决定哪些请求将通过，哪些请求被拦截并从缓存中提供服务。
-
-SW 可以控制缓存；可以缓存网页本身、静态资源（例如 JS、CSS、IMG、AJAX 请求）、它们的内容和响应头，包括我们的 [Target VEC Helper 扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)尝试删除的项，例如 X-Frame-Options：SAMEORIGIN、CSP (Content-Security-Policy) 或 Set-Cookie。
-
-不幸的是，拦截 Web 请求的 Chrome 扩展 API 不会收到已由 SW 拦截和处理的请求。因此，如果网页请求是由 SW 从缓存中提供的，则扩展无法修复标头和 Cookie，因为网页将不会在 VEC 中加载（原因是，X-Frame-Options 或 CSP 标头也已被缓存）。
-
-作为一种潜在的解决方法，您可以从 Chrome 的“开发人员工具”>“应用程序”选项卡中禁用 Service Worker，然后选中“Service Workers”部分下的“绕过网络”复选框。(KB-2006)
 
 ### 删除具有临时选件（这些选件位于在基于表单的体验编辑器中创建的活动内）的位置 {#ad-hoc}
 

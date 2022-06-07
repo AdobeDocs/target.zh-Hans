@@ -4,10 +4,10 @@ description: 了解为什么某些网站可能无法在可视化体验编辑器(
 title: 如何使用可视化体验编辑器(VEC)助手扩展？
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 55%
+source-wordcount: '1011'
+ht-degree: 65%
 
 ---
 
@@ -25,6 +25,16 @@ ht-degree: 55%
 * 网站位于 iframe 中。
 * 尚未在网站上实施 at.js 库。
 * 客户的 QA 和/或测试网站不适用于外部环境（网站为内部网站）。
+* 在尝试使用 VEC 打开使用 [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW) 的网站时，目前存在一些限制。
+
+SW 是一种 Web 技术，可用于拦截对网页所安装的域的请求。SW 在页面访问中留存，并在后续访问中自我激活。SW 可以决定哪些请求将通过，哪些请求被拦截并从缓存中提供服务。
+
+SW 可以控制缓存；可以缓存网页本身、静态资源（例如 JS、CSS、IMG、AJAX 请求）、它们的内容和响应头，包括我们的 [Target VEC Helper 扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)尝试删除的项，例如 X-Frame-Options：SAMEORIGIN、CSP (Content-Security-Policy) 或 Set-Cookie。
+
+不幸的是，拦截 Web 请求的 Chrome 扩展 API 不会收到已由 SW 拦截和处理的请求。因此，如果网页请求是由 SW 从缓存中提供的，则扩展无法修复标头和 Cookie，因为网页将不会在 VEC 中加载（原因是，X-Frame-Options 或 CSP 标头也已被缓存）。
+
+作为一种潜在的解决方法，您可以从 Chrome 的“开发人员工具”>“应用程序”选项卡中禁用 Service Worker，然后选中“Service Workers”部分下的“绕过网络”复选框。
+
 * 您正在将Google Chrome 80及更高版本与增强的SameSite Cookie实施策略结合使用。 有关更多信息，请参阅 [最近宣布的Google Chrome SameSite Cookie实施策略对VEC和EEC有何影响](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
 适用于 Chrome 的 VEC 助手浏览器扩展可以解决网站加载问题，目前，客户依赖于 [!DNL Target][ 增强型体验编辑器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)或第三方扩展（例如 Requestly）来解决该问题.

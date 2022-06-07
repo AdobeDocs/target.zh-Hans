@@ -4,10 +4,10 @@ description: 了解如何使用Adobe [!DNL Target] QA URL用于执行简单的�
 title: 如何进行QA活动？
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 37%
+source-wordcount: '1800'
+ht-degree: 38%
 
 ---
 
@@ -93,6 +93,7 @@ ht-degree: 37%
    | `adobe_mc_sdid` |  |  | 传递 [!DNL Supplemental Data Id] (SDID)和 [!DNL Experience Cloud Org Id] 从默认页面到新页面。 传递这些ID允许 [!UICONTROL Analytics for Target] (A4T)将 [!DNL Target] 在默认页面上请求，其中 [!DNL Analytics] 请求。 |
 
 * 的 [!UICONTROL Target QA模式] UI仅显示多页面活动中体验的第一个URL。 假设您要创建历程测试，并从URL1移动到URL2。 但是，如果要单独转到 URL2，请复制针对 URL1 提供的所有 URL 参数，并在放置“?”后将其应用于 URL2，正如 URL1 中所看到的一样。
+* 如果帐户中保存的活动过多，则可能无法加载已保存活动的活动 QA 预览链接。重试这些预览链接。将已保存但不再主动使用的活动存档，以防继续发生此问题。
 
 ## Target JavaScript 库 [!UICONTROL QA 模式]兼容性 {#compatibility}
 
@@ -112,7 +113,7 @@ ht-degree: 37%
 | [!UICONTROL 自当个性化] (AP) | 否 | 否 | 否 |
 | [!UICONTROL Experience Targeting] (XT) | 是 | 是 | 是 |
 | [!UICONTROL 多变量测试] (MVT) | 是 | 是 | 是 |
-| [!UICONTROL 推荐] | 是 | 是 | 是 |
+| [!UICONTROL Recommendations] | 是 | 是 | 是 |
 
 ## 预览 URL {#preview}
 
@@ -136,5 +137,5 @@ ht-degree: 37%
 | [!UICONTROL 自当个性化] (AP) | 是 | 是 | 是 |
 | [!UICONTROL 体验定位] (XT) | 是 | 是 | 是 |
 | [!UICONTROL 多变量测试] (MVT) | 是 | 是 | 是 |
-| [!UICONTROL 推荐] | 是 | 是 | 是 |
+| [!UICONTROL Recommendations] | 是 | 是 | 是 |
 

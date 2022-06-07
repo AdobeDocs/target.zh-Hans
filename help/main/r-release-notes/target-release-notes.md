@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 56%
+source-wordcount: '244'
+ht-degree: 62%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 56%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新时间：2022 年 6 月 6 日**
+**上次更新时间：2022 年 6 月 7 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target Standard/Premium] 22.6.1(错开释放；2022年6月7日至9日)
+## [!DNL Target Standard/Premium] 客户工程修复(错开发行：2022年6月7日至9日)
 
 此版本将按照以下交错发行计划发行：
 
@@ -29,9 +29,8 @@ ht-degree: 56%
 
 此版本包含以下增强功能和修复：
 
-* 具有 [!UICONTROL 编辑器] 角色现在可以编辑实时活动中的受众。 (TGT-43582)
-* 感叹号(! )在受众名称的开头不是有效的字符。 现在，如果用户尝试将带有感叹号的受众保存为第一个字符（例如！London），则会显示一条消息。 (TGT-43643)
-* 修复了在 [!DNL Target] UI。 的 [!UICONTROL 编辑受众] 页面显示了一个要编辑的属性，尽管受众具有多个属性。 (TGT-43552)
+* 具有 [!UICONTROL 编辑器] 角色无法再编辑实时活动中的受众。 (TGT-43582)
+* 为 [!UICONTROL 受众] 页面，以防止过去存储受众的旧数据库与直接从后端检索信息的新架构之间出现不一致的状态。 (TGT-43552)
 * 修复了Target UI创建“空”容器时导致某些客户无法保存组合受众的问题。 (TGT-43588)
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}

@@ -5,10 +5,10 @@ title: 如何添加用户和管理权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 99%
+source-wordcount: '911'
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 99%
    | 角色 | 描述 |
    |--- |--- |
    | 审批者 | 可以创建、编辑，以及激活或停止活动。 |
-   | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。可以编辑实时活动中的受众。 |
+   | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
    | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
    | 发布者 | 类似于观察者角色（可查看活动，但无法创建或编辑活动）。但是，发布者角色另有激活活动的权限。 |
 

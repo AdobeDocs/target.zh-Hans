@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 100%
+source-wordcount: '837'
+ht-degree: 89%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 100%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 客户工程修复(错开发行：2022年6月7日至9日)
+
+此版本将按照以下交错发行计划发行：
+
+* **6月7日**:亚太地区
+* **6月8日**:美洲地区
+* **6月9日**:欧洲、中东和非洲(EMEA)地区
+
+此版本包含以下增强功能和修复：
+
+* 具有 [!UICONTROL 编辑器] 角色无法再编辑实时活动中的受众。 (TGT-43582)
+* 为 [!UICONTROL 受众] 页面，以防止过去存储受众的旧数据库与直接从后端检索信息的新架构之间出现不一致的状态。 (TGT-43552)
+* 修复了Target UI创建“空”容器时导致某些客户无法保存组合受众的问题。 (TGT-43588)
 
 ## Target 平台版本（2022 年 5 月 25 日）
 

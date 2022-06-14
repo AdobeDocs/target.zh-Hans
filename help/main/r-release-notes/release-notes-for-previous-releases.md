@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
 workflow-type: tm+mt
-source-wordcount: '33448'
+source-wordcount: '33779'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,29 @@ ht-degree: 99%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2022
+
+### [!DNL Target Standard/Premium] 22.5.1（2022 年 5 月 11 日至 13 日，交错发行）
+
+此版本将按照以下交错发布计划发布：
+
+* **5 月 11 日**：亚太 (APAC) 地区
+* **5 月 12 日**：美洲区域
+* **5 月 13 日**：欧洲、中东和非洲 (EMEA) 地区
+
+此版本包含以下增强功能和修复：
+
+* 修复了一个问题，该问题导致 JavaScript 错误并阻止一些客户访问某些 [!UICONTROL Automated Personalization] (AP) 活动的详细信息。 (TGT-43526)
+* 修复了一个问题，该问题阻止某些客户在 AP 活动中添加（或编辑）特定优惠的问题。 (TGT-43503)
+* 修复了在 [!DNL Target] UI 中显示以下错误消息的问题：“您的全局 mbox 可能不同步。 请尝试重新保存它。”这是一个 UI 问题，不会影响客户的实施。 (TGT-43475)
+* 修复了一个问题，如果在部署新的[!UICONTROL 受众] UI 之前创建活动的体验级细化和受众，该问题阻止单个客户编辑这些体验级细化和受众。(TGT-43433)
+* 修复了一个问题，该问题允许客户在编辑活动的报告受众时选择重复的 [!DNL Adobe Audience Manager] (AAM) 受众。 (TGT-43430)
+* 修复了一个阻止客户在不同工作区创建重复受众的问题。 (TGT-43423)
+* 修复了一个问题，该问题阻止客户删除在 [!UICONTROL 基于表单的体验生成器] 创建的活动中享有临时优惠的位置。 (TGT-43315)
+* 修复了一个问题，该问题阻止客户在单击图像优惠信息然后刷新 UI 后访问代码优惠信息。 (TGT-43566)
+* 修复了一个问题，该问题导致对配置文件脚本的编辑在脚本被编辑、激活然后停用后，恢复为原始的未编辑脚本。 配置文件脚本现在仍处于编辑状态。 (TGT-43249)
+* 修复了试图将受众移动到另一个工作区时导致以下错误的问题：“我们无法完成您的请求。 如果问题仍然存在，请联系 Adobe 客户关怀部门。” (TGT-43212)
+* 修复了一个问题，该问题导致克隆单页面应用程序 (SPA) 页面的自定义代码修改时出现错误。 (TGT-43137)
+* 修复了在复制体验并编辑促销后导致原始促销受到影响的问题。 (TGT-41775)
 
 ### [!DNL Target Standard/Premium] 22.4.1（2022 年 4 月 28 日）
 

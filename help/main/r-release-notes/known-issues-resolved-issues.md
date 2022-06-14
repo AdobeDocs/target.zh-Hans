@@ -5,9 +5,9 @@ title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4506'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 98%
 
 ## 已解决的问题 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-上述已知问题在解决后将移至以下部分。 如有必要，还会添加其他注释。
+上述已知问题在解决后将移至以下部分。如有必要，还将添加其他注释。
 
 ### at.js
 
@@ -137,7 +137,7 @@ ht-degree: 98%
 
    at.js 2.2.0 中包括此问题的修复。升级到 [at.js 的最新版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)或仅对低于 2.2.0 的 at.js 版本使用上述解决方法。(TNT-33366)
 
-* 使用2.2.0之前的at.js版本，点击跟踪不会报告 [!UICONTROL Analytics for Target] (A4T)如果 [!DNL Adobe Analytics] 页面元素（如按钮）上不存在代码。
+* 在使用低于 2.2.0 的 at.js 版本时，如果页面元素（如按钮）上不存在 [!DNL Adobe Analytics] 代码，则点击跟踪不会在 [!UICONTROL Analytics for Target] (A4T) 中报告转化。
 
    at.js 2.2.0 已针对此问题进行了修复。如果您遇到此问题，[请升级到最新版本的 at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
 
@@ -145,17 +145,17 @@ ht-degree: 98%
 
 2020 年 5 月 10 日，Adobe 更新了地理位置提供商文件，因此产生了一些不一致的情况。例如，添加了一些包含逗号的值；但是，现有受众中的值没有逗号。并非所有 Adobe 投放服务器都受此更改影响。因此，在 2020 年 5 月 10 日至 7 月 22 日之间，使用此类值的受众可能没有为所有正确的访客授予资格。
 
-### 复制 [!UICONTROL Recommendations] 活动
+### 复制[!UICONTROL 推荐]活动
 
-复制 [!UICONTROL Recommendations] 活动时，复制活动中的任何更改当前也会影响原始活动，反之亦然。 (TGT-39155)
+在复制目前有促销的[!UICONTROL 推荐]活动时，活动副本中的任何更改当前也会影响原始活动，反之亦然。(TGT-39155)
 
-此问题已在 [!DNL Target Standard/Premium] 21.2.1版本。
+已在 [!DNL Target Standard/Premium] 21.2.1 版本中修复了此问题。
 
 ### 推荐活动的 QA 模式
 
 如果活动中使用的标准基于项目或基于类别，则有一个已知的问题阻止预览。(TNT-37455)
 
-此问题已在2022年1月修复。 (TNT-37455)
+此问题已于 2022 年 1 月修复。(TNT-37455)
 
 ### 页面交付 {#page-delivery}
 

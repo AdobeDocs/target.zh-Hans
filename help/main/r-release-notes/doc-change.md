@@ -20,13 +20,13 @@ ht-degree: 99%
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 14 月 6 日 | [计划和实施推荐](/help/main/c-recommendations/plan-implement.md) | 更新了以下部分中的代码示例：<ul><li>购物车加货/购物车查看/结帐页面</li><li>排除访客购物车中已有的项目</li></ul> |
-| 6 月 7 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.6.1版本。 |
+| 6 月 7 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.6.1 版的发行说明。 |
 
 ## Adobe Target Standard/Premium 22.5.1（2022 年 5 月 11 至 13 日，交错发行）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 6 月 7 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.6.1版本。 |
+| 6 月 7 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 22.6.1 版的预发行信息。 |
 | 5 月 31 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md#webinar-series) | 添加了关于即将举办的 [!DNL Adobe Target] 社区咖啡时间活动的信息（2022 年 6 月 29 日） |
 | 5 月 25 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target] Platform 版（2022 年 5 月 25 日）和 at.js 2.9.0 版（2022 年 5 月 27 日）的信息。 |
 |  | [at.js 版本详细信息](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | 添加了有关 at.js 2.9.0 版的信息。 |
@@ -112,7 +112,7 @@ ht-degree: 99%
 | 12 月 7 日 | [Target 的推荐算法背后的科学原理](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md) | 新主题。 |
 | 12 月 2 日 | [使推荐基于推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 更新了基于 Cart 的算法，以逗号分隔值形式包括通过 mbox 参数 cartIds 提供的推荐键。仅考虑前 10 个值。 |
 | 11 月 18 日 | [修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 在 Mbox 行中添加了一条注释，指明使用 at.js 2.x 的页面中的[!UICONTROL 可视体验编辑器] (VEC) 不再支持 mbox *x*。 |
-| 11 月 16 日 | [客户属性](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md) | 添加了有关文件上传限制的信息，以及指向《Experience Cloud 中央界面组件指南》**&#x200B;中的[关于客户属性的数据文件和数据源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=zh-Hans)的链接。 |
+| 11 月 16 日 | [客户属性](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md) | 添加了有关文件上传限制的信息，以及指向《Experience Cloud 中央界面组件指南》**&#x200B;中的[关于客户属性的数据文件和数据源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=cn)的链接。 |
 |  | [排除与可视化体验编辑器和增强体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 使用有关助手扩展最新版本的信息更新了“Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？”部分。 |
 |  | [可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 更新了“获取并安装 VEC Helper 浏览器扩展”部分。 |
 | 11 月 12 日 | [将 [!DNL Recommendations] 与电子邮件集成](/help/main/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 添加了新的介绍信息。 |
@@ -187,7 +187,7 @@ ht-degree: 99%
 |  | [已知问题和已解决的问题](/help/main/r-release-notes/known-issues-resolved-issues.md) | 添加了以下已知问题：<ul><li>增强体验编辑器 (EEC) 不支持 PUT 请求。</li></ul> |
 | 7 月 27 日 | [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 添加了新章节：<ul><li>推荐文档</li></ul> |
 |  | [限制](/help/main/r-troubleshooting-target/target-limits.md#content-delivery) | 添加了新章节：<ul><li>内容投放</li></ul> |
-| 7 月 26 日 | **《Adobe Experience Platform Web SDK 概览指南》中的[将 Adobe Target 与 Platform Web SDK 结合使用](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=zh-Hans) | 添加了新章节：<ul><li>Platform Web SDK 系统图</li></ul> |
+| 7 月 26 日 | **《Adobe Experience Platform Web SDK 概览指南》中的[将 Adobe Target 与 Platform Web SDK 结合使用](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=cn) | 添加了新章节：<ul><li>Platform Web SDK 系统图</li></ul> |
 | 7 月 23 日 | [排除与可视化体验编辑器和增强体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新了以下章节以提供更多详细信息：<ul><li>Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？</li></ul> |
 |  | [限制](/help/main/r-troubleshooting-target/target-limits.md) | 在“体验”下添加了新的章节“每体验的修改数”。 |
 | 7 月 21 日 | [排除与可视化体验编辑器和增强体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 更新了以下部分：<ul><li>Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？</li></ul> |
@@ -258,7 +258,7 @@ ht-degree: 99%
 |  | [不通过标签管理器实施 Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | 添加了关于设备上决策的信息。 |
 |  | [活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 为 [at.js 2.5.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 添加了对 [!UICONTROL Automated Personalization] 活动的预览链接的支持。 |
 |  | [使用动态和静态包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 添加了关于以下新运算符的信息：<ul><li>包含在列表中</li><li> 不包含在列表中</li><li>列表中包含某个项目</li><li>列表中不包含某个项目</li><li>列表中包含所有项目</li><li>列表中不包含所有项目</li></ul> |
-|  | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=zh-Hans)<br>（**《Experience Cloud Services 和管理指南》） | 添加了关于“会话 ID”的其他信息。 |
+|  | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>（**《Experience Cloud Services 和管理指南》） | 添加了关于“会话 ID”的其他信息。 |
 |  | [发行说明](/help/main/r-release-notes/release-notes.md)：21.4.1 | 此版本包括一些增强功能和修复。您可以阅读这些内容并从发行说明链接到相应的文档。此版本还更新了帮助中的多个文档。 |
 
 ## Adobe [!DNL Target] Standard/Premium 21.2.1（2021 年 3 月 9 日）

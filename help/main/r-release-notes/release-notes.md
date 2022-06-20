@@ -5,9 +5,9 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
+source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '489'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,6 @@ ht-degree: 100%
 
 此版本包含以下增强功能和修复：
 
-* 具有[!UICONTROL 编辑者]角色的用户无法再编辑直播活动中的受众。(TGT-43582)
 * 对新的[!UICONTROL 受众]页面进行了增强，以防止过去存储受众的旧数据库与直接从后端检索信息的新架构之间出现不一致的状态。(TGT-43552)
 * 修复了由于 Target UI 创建“空”容器而导致某些客户无法保存合并受众的问题。 (TGT-43588)
 

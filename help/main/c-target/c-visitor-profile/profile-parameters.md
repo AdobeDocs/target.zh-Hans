@@ -4,7 +4,7 @@ description: 了解访客专属的一些属性，这些属性存储在访客的�
 title: 什么是配置文件属性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
+source-git-commit: 4defa243e1e8afb02a481e979ac78c89642beb8a
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 100%
@@ -245,7 +245,7 @@ else if (mbox.param("adobeQA"))
 | --- | --- |
 | `page.url` | 当前 URL。 |
 | `page.protocol` | 页面使用的协议（http 或 https）。 |
-| `page.domain` | 当前的 URL 域（第一个斜杠之前的所有内容）。例如，`http://www.acme.com/categories/men_jeans?color=blu e&size=small` 中的 `www.acme.com`。 |
+| `page.domain` | 当前的 URL 域（第一个斜杠之前的所有内容）。例如，`http://www.acme.com/categories/men_jeans?color=blue&size=small` 中的 `www.acme.com`。 |
 | `page.query` | 当前页面的查询字符串。“?”之后的所有内容。例如，`http://www.acme.com/categories/mens_jeans?color=blue&size=small` 中的 `blue&size=small`。 |
 | `page.param(‘<par_name>’)` | `<par_name>` 表示的参数的值。如果当前 URL 是 Google 搜索页面，而且您已经输入 `page.param('hl')`，则对于 URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`，您将获得“en”。 |
 | `page.referrer` | 与上述相同的一组操作适用于反向链接和登陆（即 referrer.url 是反向链接的 url 地址）。 |

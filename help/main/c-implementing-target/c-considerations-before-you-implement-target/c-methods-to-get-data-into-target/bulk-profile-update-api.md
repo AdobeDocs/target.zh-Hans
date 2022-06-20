@@ -5,10 +5,10 @@ title: 如何将数据导入 [!DNL Target] 是否使用批量配置文件更新A
 feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 95566b428d7404b0f336221881849c13707bb314
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 79%
+source-wordcount: '392'
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 79%
 * 客户属性使用 FTP 上传，而 Target 批量配置文件更新 API 则使用 HTTP POST API。
 * 客户属性数据可以与 Analytics 共享。批量配置文件更新只能在 Target 中使用。
 * 客户属性支持为尚未使用 Target 的用户创建配置文件。批量配置文件更新 API 仅更新现有的 Target 配置文件。
-* 客户属性需要使用 Experience Cloud ID (ECID)。批量配置文件更新 API 需要 TNT ID 或 `mbox3rdPartyId`。
+* 客户属性要求使用Experience CloudID(ECID)和源ID，如CRM ID或忠诚度ID。
+* 批量配置文件更新 API 需要 TNT ID 或 `mbox3rdPartyId`。
 * 不能在 `mbox3rdPartyID` 中发送下列字符：加号 (+) 和正斜线 (/)。
 
 ## 格式

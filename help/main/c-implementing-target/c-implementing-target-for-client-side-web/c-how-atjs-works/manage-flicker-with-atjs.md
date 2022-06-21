@@ -5,10 +5,10 @@ title: at.js如何管理闪烁？
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
+source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 68%
 
 ---
 
@@ -108,7 +108,7 @@ body {opacity: 0 !important}
 
 ## 在at.js 2.x的triggerView()中管理闪烁
 
-当使用 `triggerView()` 在 SPA 中显示目标内容时，开箱即用地提供闪烁管理。这意味着无需手动添加预先隐藏逻辑。相反，at.js 2.x 会在应用目标内容之前预先隐藏需要显示视图的位置。
+DOM预隐藏仅适用于初始页面加载。 对于SPA,DOM会在 `triggerView()` 调用。 SPA向DOM渲染内容时和at.js更新之间可能会出现短暂的闪烁 [!DNL Target] 选件。  为了最大限度地减少闪烁，如果您使用 `triggerView` 要修改页面加载内容，应在页面呈现后立即调用“triggerView”。
 
 ## 使用getOffer()和applyOffer()管理闪烁
 

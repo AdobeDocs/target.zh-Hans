@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 71%
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target Standard/Premium] 22.6.2（2022年6月24日）
+## [!DNL Target Standard/Premium] 22.6.2（2022 年 6 月 24 日）
 
 此版本包含以下增强功能和修复：
 
 * 具有[!UICONTROL 编辑者]角色的用户无法再编辑直播活动中的受众。(TGT-43582)
-* 从共享的客户属性 [!DNL Adobe Experience Platform] to [!DNL Target] 在 [!DNL Platform] UI在 [!DNL Target] UI。 (TGT-43150)
-* 如果客户尝试保存带有感叹号(! )作为受众名称的第一个字符（例如！London）。 (TGT-43643)
-* 修复了导致某些客户的受众定义详细信息卡片显示已结束活动仍处于活动状态的问题。 (TGT-43527)
+* 在 [!DNL Platform] UI 中从 [!DNL Adobe Experience Platform] 到 [!DNL Target] 共享的客户属性在 [!DNL Target] UI 中可见。(TGT-43150)
+* 如果客户试图将感叹号 (！) 作为受众名称的第一个字符（例如 !London）来保存受众，则会显示警告消息。(TGT-43643)
+* 修复了导致某些客户的受众定义详细信息卡指示已结束活动仍处于活动状态的问题。(TGT-43527)
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

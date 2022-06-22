@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fd49060cc193ef07d9309ceb11373b8747902f5c
 workflow-type: tm+mt
 source-wordcount: '4167'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 99%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
-## Adobe Target Standard/Premium 22.6.1(错开发行：2022年6月7日至9日)
+## Adobe Target Standard/Premium 22.6.1（交错发布：2022 年 6 月 7 日- 9 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 14 月 6 日 | [计划和实施推荐](/help/main/c-recommendations/plan-implement.md) | 更新了以下部分中的代码示例：<ul><li>购物车加货/购物车查看/结帐页面</li><li>排除访客购物车中已有的项目</li></ul> |
+| 6 月 14 日 | [计划和实施 Recommendations](/help/main/c-recommendations/plan-implement.md) | 更新了以下部分中的代码示例：<ul><li>购物车添加/购物车视图/结账页面</li><li>排除访客购物车中已有的项目</li></ul> |
 | 6 月 7 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.6.1 版的发行说明。 |
 
 ## Adobe Target Standard/Premium 22.5.1（2022 年 5 月 11 至 13 日，交错发行）

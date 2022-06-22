@@ -4,9 +4,9 @@ description: 熟悉用户界面并查找更深入的信息的链接，以帮助�
 title: 如何使用 [!DNL Target] UI？
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6df387b22e9ef0ee56649057c37f474a8e4fe128
+source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1313'
 ht-degree: 47%
 
 ---
@@ -115,6 +115,11 @@ ht-degree: 47%
    * 与我共享：当某人与您共享对象时。
    * 内容更新：当某人对您创建或跟踪的对象进行编辑、删除或注释时。
    * 其他:
+
+   >[!NOTE]
+   >
+   >“新版本”和“内容更新”是适用于 [!DNL Target]. 其他类别适用于其他Adobe解决方案。
+
 
 1. 选择要被视为高优先级的类别。
 1. 选择要在浏览器中显示警报的通知。

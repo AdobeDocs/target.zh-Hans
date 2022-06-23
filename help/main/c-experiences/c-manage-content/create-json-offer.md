@@ -4,10 +4,10 @@ description: 了解如何在Adobe中创建JSON选件 [!DNL Target] ，以在基�
 title: 如何创建JSON选件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 53%
+source-wordcount: '416'
+ht-degree: 51%
 
 ---
 
@@ -24,9 +24,9 @@ JSON选件可用于基于表单的活动，在这些活动中，可启用 [!DNL 
 * JSON选件当前仅适用于 [!UICONTROL A/B测试] 和 [!UICONTROL 体验定位] (XT)活动。
 * JSON选件可用于 [基于表单的活动](/help/main/c-experiences/form-experience-composer.md) 仅。
 * 使用服务器端 API、Mobile SDK 或 NodeJS SDK 时，可以直接检索 JSON 选件。
-* 在浏览器中，只能通过 at.js 1.2.3（或更高版本）并使用 [getOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) 来检索 JSON 选件，检索时可以使用 `setJson` 操作进行筛选。
+* 在浏览器中，只能通过 at.js 1.2.3（或更高版本）并使用 [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/) 来检索 JSON 选件，检索时可以使用 `setJson` 操作进行筛选。
 * JSON 选件可作为原生 JSON 对象而不是字符串来交付。这些对象的用户不必再将对象作为字符串处理后再将其转换为 JSON 对象。
-* 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。开发人员必须编写相应代码，以便使用 [getOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)。
+* 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。开发人员必须编写相应代码，以便使用 [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/)。
 
 ## 创建JSON选件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 

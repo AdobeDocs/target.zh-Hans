@@ -4,10 +4,10 @@ description: 查看可帮助您解决 Adobe Target 中各种问题的主题的�
 title: 如何为 Target 排除故障？
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: db632225d21c2e061e82269bec168341b410575a
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 100%
+source-wordcount: '515'
+ht-degree: 86%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 ## 全局 mbox
 
-* [全局 mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+* [全局 mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
 
 ## 主机/环境
 
@@ -110,18 +110,18 @@ ht-degree: 100%
 
 ### 常规实施
 
-* [支持的浏览器](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
-* [结合使用基于云的实例和 Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
+* [支持的浏览器](https://developer.adobe.com/target/before-implement/supported-browsers/)
+* [结合使用基于云的实例和 Target](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)
 
 ### 全局 mbox
 
-* [全局 mbox 常见问题解答](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+* [全局 mbox 常见问题解答](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
 
 ### at.js
 
-* [at.js 常见问题解答](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-* [使用 Adobe Experience Cloud Debugger 调试 at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-* [at.js 版本详细信息](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+* [at.js 常见问题解答](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/)
+* [使用 Adobe Experience Cloud 调试器调试 at.js](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
+* [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
 * “办公时间”视频，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 
 ## 已知问题
@@ -130,11 +130,7 @@ ht-degree: 100%
 
 ## 移动应用程序
 
-* [Target 移动应用程序版常见问题解答](/help/main/c-target-mobile-app/target-for-mobile-apps-faq.md)
-
-## 设备上决策
-
-* [对 at.js 的设备上决策疑难解答](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+* [Target 移动应用程序版常见问题](https://developer.adobe.com/target/implement/mobile/mobile-faq/)
 
 ## 报表
 
@@ -143,11 +139,11 @@ ht-degree: 100%
 
 ## 搜索引擎优化 (SEO)
 
-* [搜索引擎优化 (SEO) 友好测试](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [搜索引擎优化 (SEO) 友好测试](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
 
 ## 安全性
 
-* [内容安全策略 (CSP) 指令](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+* [内容安全策略 (CSP) 指令](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/)
 
 ## 系统状态
 

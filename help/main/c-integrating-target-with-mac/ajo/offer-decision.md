@@ -4,9 +4,9 @@ description: 了解如何添加在 [!DNL Adobe Journey Optimizer] 到活动。
 title: 如何使用优惠决策？
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 在中使用选件决策 [!DNL Target]，则需要满足以下条件：
 
-* [!DNL Adobe Target Standard] 或 [!DNL Adobe Target Premium] 使用实施 [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+* [!DNL Adobe Target Standard] 或 [!DNL Adobe Target Premium] 使用实施 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
 
    实施时，该功能不可用 [!DNL Target] 使用at.js或其他 [!DNL Target] SDK。
 
@@ -100,7 +100,7 @@ ht-degree: 1%
 
 处理选件决策时，请考虑以下信息：
 
-* offer decisioning集成适用于 [!DNL Target] 基于 [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). 此功能在实施时不可用 [!DNL Target] 使用at.js或其他 [!DNL Target] SDK。
+* offer decisioning集成适用于 [!DNL Target] 基于 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). 此功能在实施时不可用 [!DNL Target] 使用at.js或其他 [!DNL Target] SDK。
 
 * Target/Adobe Journey Optimizer集成支持 [手动 [!UICONTROL A/B测试]](/help/main/c-activities/t-test-ab/test-ab.md#types) 和 [[!UICONTROL 体验定位]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动。 此功能不适用于其他活动类型。
 

@@ -5,9 +5,9 @@ title: 设备上决策如何与at.js JavaScript库一起使用？
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '3490'
+source-wordcount: '3546'
 ht-degree: 7%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 7%
 * 受众定位
 * 分配方法
 
-有关更多信息，请参阅 [支持的设备决策功能](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md).
+有关更多信息，请参阅 [支持的设备决策功能](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
 
 ## 设备内决策的工作原理是什么？
 
-在启用设备决策的情况下部署和初始化at.js时， [规则对象](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md) 其中包括对A/B和XT活动、受众和资产的设备内决策，将从与访客最近的Akamai CDN下载并缓存到访客的本地浏览器中。 当从at.js发出请求以检索体验时，系统会根据缓存的规则对象中编码的元数据，在内存中决定要返回哪个体验。
+在启用设备决策的情况下部署和初始化at.js时， [规则对象](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) 其中包括对A/B和XT活动、受众和资产的设备内决策，将从与访客最近的Akamai CDN下载并缓存到访客的本地浏览器中。 当从at.js发出请求以检索体验时，系统会根据缓存的规则对象中编码的元数据，在内存中决定要返回哪个体验。
 
 ## 决策方法
 
@@ -88,7 +88,7 @@ ht-degree: 7%
 
 设备上决策可以以惊人的速度提供您的体验和个性化活动，因为决策是根据缓存的规则对象做出的，该对象包含符合设备上决策资格条件的所有活动。
 
-要了解有关哪些活动符合设备上决策的资格的更多信息，请参阅 [设备内决策支持的功能](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md).
+要了解有关哪些活动符合设备上决策的资格的更多信息，请参阅 [设备内决策支持的功能](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
 
 仅当性能在所有需要做出决策的页面中都非常关键时，才应使用此决策方法 [!DNL Target]. 此外，请记住，当选择此决策方法时，您的 [!DNL Target] 不符合设备上决策条件的活动将不会交付或执行。 at.js库2.5.0及更高版本配置为仅查找缓存的规则对象以做出决策。
 
@@ -222,7 +222,7 @@ JSON规则对象包含元数据，用于通知at.jsmbox是运行服务器端活�
 
    关闭此切换开关意味着您必须重新创建并激活任何设备上决策活动，以便将这些活动包含在生成的规则对象中。 换言之，在打开 [!UICONTROL 设备内决策] 切换未包含在规则对象中。
 
-启用 [!UICONTROL 设备内决策] 切换， [!DNL Target] 开始生成和传播 [规则工件](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md) 给你的客户。
+启用 [!UICONTROL 设备内决策] 切换， [!DNL Target] 开始生成和传播 [规则工件](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) 给你的客户。
 
 >[!IMPORTANT]
 >
@@ -249,7 +249,7 @@ JSON规则对象包含元数据，用于通知at.jsmbox是运行服务器端活�
 
 ### 全局设置
 
-您可以配置默认 [!UICONTROL 决策方法] 全部 [!DNL Target] 决策。 各种决策方法包括 [!UICONTROL 仅服务器端], [!UICONTROL 仅限设备内]和 [!UICONTROL 混合]. 在Target UI中选择的决策方法在 `window.targetGlobalSettings` 下 `decisioningMethod` 字段。 进一步了解 `decisioningMethod` in [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+您可以配置默认 [!UICONTROL 决策方法] 全部 [!DNL Target] 决策。 各种决策方法包括 [!UICONTROL 仅服务器端], [!UICONTROL 仅限设备内]和 [!UICONTROL 混合]. 在Target UI中选择的决策方法在 `window.targetGlobalSettings` 下 `decisioningMethod` 字段。 进一步了解 `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ```javascript
 <head> 
@@ -269,7 +269,7 @@ JSON规则对象包含元数据，用于通知at.jsmbox是运行服务器端活�
 
 ### 自定义设置
 
-如果您将 `decisioningMethod` in `window.targetGlobalSettings`，但是希望覆盖 `decisioningMethod` 对于根据您的用例做出的每个Adobe Target决策，您可以通过指定 `decisioningMethod` 在At.js2.5.0+的 [getOffers()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 呼叫。
+如果您将 `decisioningMethod` in `window.targetGlobalSettings`，但是希望覆盖 `decisioningMethod` 对于根据您的用例做出的每个Adobe Target决策，您可以通过指定 `decisioningMethod` 在At.js2.5.0+的 [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) 呼叫。
 
 ```javascript
 adobe.target.getOffers({ 
@@ -321,6 +321,6 @@ adobe.target.getOffers({
 
    第一个JSON规则对象生成最多可能需要10分钟。
 
-1. 创建和激活 [设备决策支持的活动类型](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)，并确认其符合设备上决策的条件。
+1. 创建和激活 [设备决策支持的活动类型](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/)，并确认其符合设备上决策的条件。
 1. 设置 **[!UICONTROL 决策方法]** 选择 **[!UICONTROL &quot;混合&quot;]** 或 **[!UICONTROL &quot;仅限设备&quot;]** 通过at.js设置UI。
 1. 将At.js 2.5.0及更高版本下载并部署到您的页面。

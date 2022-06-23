@@ -4,9 +4,9 @@ description: 了解如何使用Adobe [!DNL Target] 可视化体验编辑器(VEC)
 title: 如何创建Recommendations活动？
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1313'
 ht-degree: 76%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 76%
 
    >[!NOTE]
    >
-   >并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。“[!UICONTROL 兼容]”选项可能不会显示，具体取决于您的“推荐”设置（**[!UICONTROL 推荐]** > **[!UICONTROL 设置]** > **[!UICONTROL 筛选不兼容的标准]**）。有关更多信息，请参阅[设置](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)。
+   >并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。“[!UICONTROL 兼容]”选项可能不会显示，具体取决于您的“推荐”设置（**[!UICONTROL 推荐]** > **[!UICONTROL 设置]** > **[!UICONTROL 筛选不兼容的标准]**）。有关更多信息，请参阅[设置](https://developer.adobe.com/target/implement/recommendations/)。
 
    ![“选择标准”对话框](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

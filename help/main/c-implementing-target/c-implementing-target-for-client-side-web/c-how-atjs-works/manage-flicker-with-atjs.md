@@ -5,10 +5,10 @@ title: at.js如何管理闪烁？
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 68%
+source-wordcount: '691'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 68%
 
 ## 使用自动创建的全局mbox {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-如果启用[自动创建全局 Mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) 设置，at.js 会在页面加载时通过更改不透明度设置来管理闪烁。加载 at.js 时，它会将`<body>`元素的不透明度设置更改为“0”，从而使访客在最初时看不到该页面。收到来自 Target 的响应后，或者如果检测到 Target 请求出错，at.js 会将不透明度重置为“1”。这可确保访客只有在应用您的活动内容后才会看到该页面。
+如果启用[自动创建全局 Mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-overview/) 设置，at.js 会在页面加载时通过更改不透明度设置来管理闪烁。加载 at.js 时，它会将`<body>`元素的不透明度设置更改为“0”，从而使访客在最初时看不到该页面。收到来自 Target 的响应后，或者如果检测到 Target 请求出错，at.js 会将不透明度重置为“1”。这可确保访客只有在应用您的活动内容后才会看到该页面。
 
 在配置 at.js 时，如果您启用该设置，at.js 会将 HTML 主体样式的不透明度设置为 0。收到来自 Target 的响应后，at.js 会将 HTML 主体的不透明度重置为 1。
 
@@ -38,7 +38,7 @@ ht-degree: 68%
 
 ![](assets/target-flow2.png)
 
-有关 `bodyHiddenStyle` 覆盖的更多信息，请参阅 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
+有关 `bodyHiddenStyle` 覆盖的更多信息，请参阅 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
 
 ## 异步加载 at.js 时管理闪烁
 

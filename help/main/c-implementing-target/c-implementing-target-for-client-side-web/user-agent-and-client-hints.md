@@ -5,10 +5,10 @@ title: 用户代理和客户端提示
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
-workflow-type: ht
-source-wordcount: '1332'
-ht-degree: 100%
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+workflow-type: tm+mt
+source-wordcount: '1344'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->本文中的信息适用于 [at.js 2.9.0 或更高版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。
+>本文中的信息适用于 [at.js 2.9.0 或更高版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
 
 
 每次 Web 浏览器向服务器发出请求时，请求的标题中都包含有关浏览器和浏览器运行环境的信息。自互联网出现之初，这些数据就被聚合在一个称为用户代理的字符串中。
@@ -223,4 +223,4 @@ Target 中的以下用例需要客户端提示：
 
 ### 服务器端 SDK
 
-有关如何通过服务器端 SDK 传递客户端提示的更多信息，请参阅 [Adobe Target SDK](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints) 文档中的&#x200B;*客户端提示*{target=_blank}。
+有关如何通过服务器端SDK传递客户端提示的更多信息，请参阅 [客户端提示](https://developer.adobe.com/target/implement/server-side/sdk-guides/core-principles/audience-targeting/)下的{target=_blank} *受众定位* 在 *Adobe Target SDK* 文档。

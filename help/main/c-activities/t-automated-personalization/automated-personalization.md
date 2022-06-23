@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用Automated Personalization(AP)活动 [!
 title: 什么是Automated Personalization(AP)活动？
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 89%
+source-wordcount: '1049'
+ht-degree: 87%
 
 ---
 
@@ -67,9 +67,9 @@ ht-degree: 89%
 
 在构建个性化模型时，离线数据（例如 CRM 信息或客户流失倾向评分）可能会有极大的价值。可通过多种方式在[!UICONTROL 自动个性化] (AP) 和[!UICONTROL 自动定位]个性化算法中输入数据。
 
-* [mbox 参数](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
-* [配置文件参数](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
-* [用于配置文件更新的服务器端 API](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)
+* [mbox 参数](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+* [配置文件参数](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+* [用于配置文件更新的服务器端 API](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
 
 有关[!UICONTROL 自动个性化]和[!UICONTROL 自动定位]个性化算法自动收集和使用的数据的信息，请参阅[自动个性化数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 

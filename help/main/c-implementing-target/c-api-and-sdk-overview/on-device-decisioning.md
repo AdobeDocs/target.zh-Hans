@@ -5,10 +5,10 @@ title: 什么是设备上决策？
 feature: Implement Server-side
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 10%
+source-wordcount: '700'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,10 @@ ht-degree: 10%
 
 设备内决策提供了缓存 [!DNL Adobe Target] [!UICONTROL A/B测试] 和 [!UICONTROL 体验定位] (XT)活动，并在接近零的延迟下执行内存中决策，而不会阻止向 [!DNL Adobe Target] 边缘网络。
 
-有关更多信息，请参阅 [设备上决策简介](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) 在 *[Adobe Target SDK文档](https://adobetarget-sdks.gitbook.io/docs/)*.
+有关更多信息，请参阅主题：
+
+* [客户端设备上决策](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [服务器端设备上决策](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
 
 ## 网络研讨会：通过 [!DNL Adobe Target] 的设备上决策进行无延迟的个性化和测试
 
@@ -65,6 +68,6 @@ Adobe建议在使用设备上决策时遵循以下最佳实践：
 
 [单击此处访问博客帖子](https://medium.com/adobetech/part-1-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-4d8660964ed9).
 
-## Adobe Tech Blog - 第 2 部分：在 Edge 平台上运行 [!DNL Adobe Target] NodeJS SDK 以提供试验性和个性化 (AWS Lambda@Edge)
+## Adobe Tech Blog — 第 2 部分：在 Edge 平台上运行 [!DNL Adobe Target] NodeJS SDK 以提供试验性和个性化 (AWS Lambda@Edge)
 
 [单击此处访问博客帖子](https://medium.com/adobetech/part-2-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-aws-4d6bdac24563).

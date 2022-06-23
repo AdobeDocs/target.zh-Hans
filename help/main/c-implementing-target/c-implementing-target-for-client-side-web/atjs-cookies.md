@@ -5,10 +5,10 @@ title: at.js Cookie
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1825'
-ht-degree: 96%
+source-wordcount: '1846'
+ht-degree: 95%
 
 ---
 
@@ -111,7 +111,7 @@ Cookie 有多个默认设置。您可以根据需要更改这些设置，但 Coo
 | Cookie 名称 | mbox。 |
 | Cookie 域 | 您从中提供内容的的第二级域和顶级域。由于这是来自您的公司域，所以此 Cookie 是第一方 Cookie。示例: `mycompany.com`。 |
 | 服务器域 | `clientcode.tt.omtrdc.net`，使用您帐户的客户代码。 |
-| Cookie 持续时间 | 自上次登录起，该Cookie将在访客的浏览器上保留两年。<br>的 `deviceIdLifetime` 中的设置可覆盖 [at.js版本2.3.1或更高版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). 有关更多信息，请参阅 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。 |
+| Cookie 持续时间 | 自上次登录起，该Cookie将在访客的浏览器上保留两年。<br>的 `deviceIdLifetime` 中的设置可覆盖 [at.js版本2.3.1或更高版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). 有关更多信息，请参阅 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。 |
 | P3P 政策 | 根据大多数浏览器默认设置的要求，使用 P3P 政策发布 Cookie。P3P 政策指示提供 Cookie 的浏览器以及使用该信息的方式。 |
 
 此 Cookie 保存一系列值，以控制您的访客体验营销活动的方式：
@@ -152,5 +152,5 @@ Cookie 有多个默认设置。您可以根据需要更改这些设置，但 Coo
 
 | 受影响的功能 | 详细信息 |
 |--- |--- |
-| 选择退出支持 | Apple 的 WebKit 跟踪更改会中断选择退出支持。<br>Target 选择退出使用 `clientcode.tt.omtrdc.net` 域中的一个 Cookie。有关更多详细信息，请参阅[隐私](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)。<br>Target 支持两种选择退出方式：<ul><li>一种是按客户端退出（客户端管理选择退出链接）。</li><li>另一种是通过 Adobe 使用户从所有客户的所有 Target 功能中退出。</li></ul>这两种方法都使用第三方 Cookie。 |
+| 选择退出支持 | Apple 的 WebKit 跟踪更改会中断选择退出支持。<br>Target 选择退出使用 `clientcode.tt.omtrdc.net` 域中的一个 Cookie。有关更多详细信息，请参阅[隐私](https://developer.adobe.com/target/before-implement/privacy/privacy/)。<br>Target 支持两种选择退出方式：<ul><li>一种是按客户端退出（客户端管理选择退出链接）。</li><li>另一种是通过 Adobe 使用户从所有客户的所有 Target 功能中退出。</li></ul>这两种方法都使用第三方 Cookie。 |
 | Target 活动 | 客户可以为他们的 Target 帐户选择[配置文件生命周期](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md)，最长为 90 天。问题在于如果帐户的配置文件生命周期超过 30 天，并且因客户的域已被标记为跨站点跟踪用户而清除了第一方 Cookie，则 Safari 访客的行为将在 Target 的以下区域中受到影响：<br>**Target 报表**：如果 Safari 用户进入活动，30 天后返回活动，然后进行转化，则该用户将会被计为两个访客和一次转化。<br>对于使用 Analytics 作为报表源 (A4T) 的活动，此行为是相同的。<br>**配置文件和活动成员资格**:<ul><li>第一方 Cookie 过期后会擦除配置文件数据。</li><li>第一方 Cookie 过期后会擦除活动成员资格。</li><li> 对于使用第三方 Cookie 实施或第一方和第三方 Cookie 实施的帐户，Target 无法在 Safari 中使用。请注意，这不是一种新的行为。Safari 暂时还不允许使用第三方 Cookie。</li></ul><br>**建议**：如果您担心客户域可能会被标记为跨会话跟踪访客，则最安全的做法是将 Target 中的配置文件生命周期设置为等于或少于 30 天。这可确保在 Safari 和所有其他浏览器中以类似的方式对用户进行跟踪。 |

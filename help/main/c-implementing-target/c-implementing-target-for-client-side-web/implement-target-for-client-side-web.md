@@ -5,10 +5,10 @@ title: 如何实施 [!DNL Target] 适用于客户端Web的
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 31%
+source-wordcount: '247'
+ht-degree: 27%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 31%
 
 实施 [!DNL Adobe Target] 客户端，您必须使用以下JavaScript库之一：
 
-* [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+* [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/)
 
-   的 [!UICONTROL Adobe Experience Platform Web SDK] 允许您与 [!DNL Experience Cloud] (包括 [!DNL Target])。 如果您选择迁移到 [!DNL Adobe Experience Platform Web SDK]，请参阅 [什么是Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 在 *Web SDK指南*.
+   的 [!UICONTROL Adobe Experience Platform Web SDK] 允许您与 [!DNL Experience Cloud] (包括 [!DNL Target])。 如果您选择迁移到 [!DNL Adobe Experience Platform Web SDK]，请参阅 [什么是Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) 在 *Web SDK指南*.
 
-* [Target at.js JavaScript库](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [Target at.js JavaScript库](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
 
-   at.js JavaScript库可缩短Web实施的页面加载时间，增强安全性，并为单页应用程序提供更好的实施选项。 如果您选择迁移到at.js，请参阅 [At.js的工作原理](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 和 [Adobe Target技能培养：开发人员聊天，将Adobe Target的mbox.js迁移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+   at.js JavaScript库可缩短Web实施的页面加载时间，增强安全性，并为单页应用程序提供更好的实施选项。 如果您选择迁移到at.js，请参阅 [At.js的工作原理](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) 和 [Adobe Target技能培养：开发人员聊天，将Adobe Target的mbox.js迁移到at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
 
 
 

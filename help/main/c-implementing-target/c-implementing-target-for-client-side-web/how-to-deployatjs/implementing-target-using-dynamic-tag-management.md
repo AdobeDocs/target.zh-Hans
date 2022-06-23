@@ -5,10 +5,10 @@ title: 我能否实施 [!DNL Target] 使用 [!DNL Dynamic Tag Manager] (DTM)?
 feature: Implement Server-side
 role: Developer
 exl-id: 87df1326-a2d5-4bdb-82ba-ec58eaf17773
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 13%
+source-wordcount: '106'
+ht-degree: 12%
 
 ---
 
@@ -18,5 +18,5 @@ ht-degree: 13%
 
 中的标记 [!DNL Adobe Experience Platform] 是 [!DNL Adobe]. 标记为客户提供了一种简单的方式来部署和管理用来改善相关客户体验的分析、营销和广告标记。
 
-有关更多信息，请参阅 [实施 [!DNL Target] 使用 [!DNL Adobe Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+有关更多信息，请参阅 [实施 [!DNL Target] 使用 [!DNL Adobe Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
 

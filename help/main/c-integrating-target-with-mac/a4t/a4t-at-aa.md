@@ -4,9 +4,9 @@ description: 了解如何在Adobe中创建自动分配和自动定位活动 [!DN
 title: A4T是否支持自动分配和自动定位活动？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1246'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ A4T集成允许您：
 * 使用 [自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)提供多臂老虎机功能，可引导流量获得成功体验。
 * 使用 [自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)的集成机器学习算法，为每个访客选择最佳体验。 自动定位在使用 [!DNL Adobe Analytics] 目标量度和 [!DNL Adobe Analytics]“丰富的报告和分析功能。
 
-确保您已 [实施了用于A/B测试和体验定位活动的A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 如果您使用 `analyticsLogging = client_side`，则还必须通过 `sessionId` 值 [!DNL Analytics]. 有关更多信息，请参阅 [Analytics for Target(A4T)报表](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) 在 *Adobe Target SDK* 的双曲余切值。
+确保您已 [实施了用于A/B测试和体验定位活动的A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 如果您使用 `analyticsLogging = client_side`，则还必须通过 `sessionId` 值 [!DNL Analytics]. 有关更多信息，请参阅 [Analytics for Target(A4T)报表](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/) 在 *Adobe Target SDK* 的双曲余切值。
 
 若要开始，请执行以下操作：
 

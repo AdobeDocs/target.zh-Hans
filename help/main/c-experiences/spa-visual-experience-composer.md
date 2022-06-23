@@ -4,9 +4,9 @@ description: 了解如何在Adobe中使用SPA VEC [!DNL Target] 以DIY（自己�
 title: 如何使用单页应用程序可视化体验编辑器(SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '3698'
+source-wordcount: '3720'
 ht-degree: 90%
 
 ---
@@ -65,9 +65,9 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    ![“实施详细信息”对话框](/help/main/c-experiences/assets/imp-200.png)
 
-   通过位于的Adobe Target UI下载at.js 2.x [!UICONTROL 管理>实施]. at.js 2.x也可以通过 [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). 但是，Adobe Target扩展当前不是最新的，不受支持。
+   通过位于的Adobe Target UI下载at.js 2.x [!UICONTROL 管理>实施]. at.js 2.x也可以通过 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). 但是，Adobe Target扩展当前不是最新的，不受支持。
 
-1. 在您的网站上实施 at.js 2.x 的最新函数：[triggerView()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)。
+1. 在您的网站上实施 at.js 2.x 的最新函数：[triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)。
 
    在定义要运行 A/B 或 XT 测试的 SPA 视图之后，实施 at.js 2.x 的 `triggerView()` 函数，并将视图作为参数传递。这允许营销人员使用 VEC 来针对所定义的那些视图设计和运行 A/B 和 XT 测试。如果没有为这些视图定义 `triggerView()` 函数，则 VEC 将不会检测到视图，因此营销人员将无法使用 VEC 来设计和运行 A/B 和 XT 测试。
 
@@ -354,7 +354,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 是 |
 | [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md) | 是 |
-| [客户属性](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md) | 是 |
+| [客户属性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/) | 是 |
 | [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 是 |
 
 ## 受支持的功能 {#supported-features}

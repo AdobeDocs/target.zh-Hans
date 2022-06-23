@@ -5,10 +5,10 @@ title: 我能用 [!DNL Target] 是否使用基于云的实例？
 feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 67%
+source-wordcount: '175'
+ht-degree: 64%
 
 ---
 
@@ -26,4 +26,4 @@ ht-degree: 67%
 
 的 [!DNL at.js] JavaScript库使用Cookie来跟踪用户，以确保 [!DNL Target] 始终提供一致的体验。 如果 [!DNL Target] JavaScript库无法保存Cookie， [!DNL Target] 请求处于禁用状态。
 
-**解决方案：**&#x200B;最佳做法是，如果您打算将基于云的实例与公共后缀列表中包含的域结合使用，请务必自定义 `cookieDomain` 设置。有关更多信息，请参阅 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
+**解决方案：**&#x200B;最佳做法是，如果您打算将基于云的实例与公共后缀列表中包含的域结合使用，请务必自定义 `cookieDomain` 设置。有关更多信息，请参阅 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。

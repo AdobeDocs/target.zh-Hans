@@ -5,10 +5,10 @@ title: 如何为图像创建Adbox?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 72%
+source-wordcount: '337'
+ht-degree: 70%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 72%
 
 AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 具有特殊的 AdBox URL，此 URL 会将“广告”mbox（或 AdBox）加载到您的 Adobe 帐户中。在活动中可使用此 AdBox 替代 mbox。在电子邮件或其他非 JavaScript 实施中可使用 AdBox URL，而不使用直接图像引用。
 
-如果要查看有关选择正确设置的帮助，请参阅[不基于 JavaScript 的实施](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)。
+如果要查看有关选择正确设置的帮助，请参阅[不基于 JavaScript 的实施](https://developer.adobe.com/target/implement/email/)。
 
 1. 创建 AdBox URL：
 
@@ -48,7 +48,7 @@ AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 
 
 1. 创建活动。
 
-   请参阅[不基于 JavaScript 的实施](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)，以了解如何正确设置来实现您的目标。
+   请参阅[不基于 JavaScript 的实施](https://developer.adobe.com/target/implement/email/)，以了解如何正确设置来实现您的目标。
 1. 完成活动 QA。
 
    最佳做法是，创建一个虚拟页面，并确认在所有环境中，所有体验、默认内容和报表在所有类型的浏览器上的行为均符合预期。

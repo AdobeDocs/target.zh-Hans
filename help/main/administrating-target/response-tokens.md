@@ -5,10 +5,10 @@ title: 什么是响应令牌？如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 26%
+source-wordcount: '1676'
+ht-degree: 28%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 26%
 
 | Target SDK | 建议的操作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版本的Platform Web SDK的信息，请参阅 [安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 在 *平台Web SDK概述* 的双曲余切值。 有关每个Platform Web SDK版本中新功能的信息，请参阅 [发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 在 *平台Web SDK概述* 的双曲余切值。 |
-| [at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本 at.js 的信息，请参阅[下载 at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。有关每个 at.js 版本新功能的信息，请参阅 [at.js 版本详细信息](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)。<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在mbox.js（现已弃用）中存在，而在at.js中不存在，但这些插件会交付，但交付失败。 |
+| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版本的Platform Web SDK的信息，请参阅 [安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 在 *平台Web SDK概述* 的双曲余切值。 有关每个Platform Web SDK版本中新功能的信息，请参阅 [发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 在 *平台Web SDK概述* 的双曲余切值。 |
+| [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本 at.js 的信息，请参阅[下载 at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)。有关每个 at.js 版本新功能的信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在mbox.js（现已弃用）中存在，而在at.js中不存在，但这些插件会交付，但交付失败。 |
 
 ## 使用响应令牌 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -36,7 +36,7 @@ ht-degree: 26%
    有关更多信息：
 
    * **平台Web SDK**:请参阅 [安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 在 *平台Web SDK概述* 的双曲余切值。
-   * **at.js**:请参阅 [下载at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   * **at.js**:请参阅 [下载at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
 
 1. 在 [!DNL Target]，单击 **[!UICONTROL 管理]** > **[!UICONTROL 响应令牌]**.
 
@@ -149,7 +149,7 @@ ht-degree: 26%
 
 ### ![at.js徽章](/help/main/assets/atjs.png) at.js使用自定义事件
 
-使用 [at.js 自定义事件](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)来监听 响应并读取响应令牌。[!DNL Target]
+使用 [at.js 自定义事件](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/)来监听 响应并读取响应令牌。[!DNL Target]
 
 以下代码示例可将一个 [!DNL at.js] 自定义事件处理程序直接添加到 HTML 页面：
 
@@ -470,7 +470,7 @@ Google Analytics可以通过Platform Web SDK版本2.6.0（或更高版本），�
 
 >[!NOTE]
 >
->的 [!DNL Target] [!UICONTROL 管理] 菜单UI(以前称为 [!UICONTROL 设置])进行了重新设计，以提高性能，缩短发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息正确；但是，选项的位置略有不同。
+>[!DNL Target][!UICONTROL 管理] 菜单 UI（以前的[!UICONTROL 设置]）经过重新设计，以提供更好的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。以下视频中的信息正确；但是，选项的位置略有不同。
 >
 >视频提及次数 `option.name` 和 `option.id`，以 `offer.name` 和 `offer.id`，分别为。
 

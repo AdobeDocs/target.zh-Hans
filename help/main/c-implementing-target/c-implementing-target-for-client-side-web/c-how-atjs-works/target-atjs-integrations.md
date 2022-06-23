@@ -5,10 +5,10 @@ title: at.js支持哪些集成？
 feature: at.js
 role: Developer
 exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 82%
+source-wordcount: '499'
+ht-degree: 79%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 82%
 | Analytics for Target (A4T) | 请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)。 |
 | Profiles &amp; Audiences (P&amp;A) | 请参阅 [受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hans) 在 *核心服务用户指南*. |
 | Experience Cloud ID 服务 | 请参阅 [Adobe Experience Cloud ID 服务文档](https://experienceleague.adobe.com/docs/id-service/using/home.html)。 |
-| 中的标记 [!DNL Adobe Experience Platform] | 中的标记 [!DNL Adobe Experience Platform] 是 [!DNL Adobe]. 标记为客户提供了一种简单的方式来部署和管理用来改善相关客户体验的分析、营销和广告标记。 请参阅 [实施 [!DNL Target] 使用 [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25). |
+| 中的标记 [!DNL Adobe Experience Platform] | 中的标记 [!DNL Adobe Experience Platform] 是 [!DNL Adobe]. 标记为客户提供了一种简单的方式来部署和管理用来改善相关客户体验的分析、营销和广告标记。 请参阅 [实施 [!DNL Target] 使用 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). |
 | Adobe Experience Manager (AEM) 云服务 | AEM 云服务支持在 AEM 工作流中创建 A/B 测试和体验定位活动。带有 FP-11577（或更高版本）的 Adobe Experience Manager 6.2 支持 at.js。有关更多信息，请参阅[与 Adobe Target 集成](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)，并选择您的 AEM 版本。 |
 | AEM 体验片段 | 通过在 Target 活动的 AEM 中创建的体验片段，您可以将 AEM 中这一简单易用的功能与 Target 中强大的自动化智能 (AI) 和机器学习 (ML) 功能结合使用，从而测试和个性化大量体验。AEM 可将您的所有内容和资产汇集到一个中心位置，以帮助实施您的个性化策略。通过 AEM，您能够在一个位置轻松创建适用于桌面、平板电脑和移动设备的内容，而无需编写代码。您无需为每种设备分别创建页面，因为 AEM 可以使用您的内容自动调整每个体验。请参阅[AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8)。 |
 
@@ -42,4 +42,4 @@ ht-degree: 82%
 | 集成 | 详细信息 |
 |--- |--- |
 | 其他标签管理器 | at.js 应该可以在非 Adobe 标签管理平台中使用，但是使用由其他供应商开发的自定义集成功能时要小心谨慎。其他供应商提供的集成可能会依赖一些内部 mbox.js 函数，而 at.js 中已不再存在这些函数。 |
-| 第三方数据提供程序（例如 Demandbase、Bluekai、天气 API） | 使用 at.js [数据提供程序](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)功能，可以集成许多用于补充 Target 用户分析的第三方数据提供程序. |
+| 第三方数据提供程序（例如 Demandbase、Bluekai、天气 API） | 使用 at.js [数据提供程序](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)功能，可以集成许多用于补充 Target 用户分析的第三方数据提供程序. |

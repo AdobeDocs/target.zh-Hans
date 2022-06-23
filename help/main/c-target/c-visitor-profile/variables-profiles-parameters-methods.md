@@ -4,10 +4,10 @@ description: 查看在Adobe Target的配置文件脚本中有用的各种配置�
 title: Target中使用了哪些配置文件、变量和参数？
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 86%
+source-wordcount: '598'
+ht-degree: 85%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 86%
 
 ## 内置配置文件 {#section_2B694370003C4F8E8E29E0B2F6E52045}
 
-| Profile | 注释 |
+| 配置文件 | 注释 |
 |--- |--- |
 | user.activeActivities<br>user.activeCampaigns | 返回用户参与的所有营销活动/活动的 ID，即使用户未在当前会话中与营销活动/活动进行交互。 |
 | user.pcId |  |
@@ -82,7 +82,7 @@ ht-degree: 86%
 | mbox.param(&#39;param_name&#39;) |  |
 | 与每个请求一起自动传递的参数：<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | 与订单 mbox 一起传递的参数：<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | 用于将客户 ID 同步到 Target mboxPCID 的 mbox 参数。客户 ID 是指贵公司用于跟踪访客的 ID，例如 CRM ID、会员 ID 或诸如此类的 ID。此 ID 随后可用于通过配置文件 API 和[客户属性](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md)。 |
+| mbox3rdPartyId | 用于将客户 ID 同步到 Target mboxPCID 的 mbox 参数。客户 ID 是指贵公司用于跟踪访客的 ID，例如 CRM ID、会员 ID 或诸如此类的 ID。此 ID 随后可用于通过配置文件 API 和[客户属性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)。 |
 | mboxPageValue | 在每个 mbox 调用中，都会为页面分配值。 |
 | mboxDebug | 仅用于调试信息。已添加到at.js所查找的页面URL中。 |
 | mboxOverride.browserIp | 设置与实际位置不同的地理位置，以便测试在其他位置时的情况。<br>**注意：** mboxOverride 参数仅应在测试活动时使用，而不应在生产中使用。使用 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) 时，使用任何 mboxOverride 参数都可能导致报表不一致。您应使用[活动 QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)，以确保活动在推送到实时环境之前可以按预期方式运行。 |

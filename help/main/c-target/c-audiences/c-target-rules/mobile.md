@@ -4,9 +4,9 @@ description: 了解如何在 [!DNL Adobe Target] 来定位移动设备。
 title: 我是否可以根据移动设备选项来定位访客？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '674'
 ht-degree: 40%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->使用Mobile SDK的客户无需执行任何操作即可应用此功能。 使用 at.js 的客户必须[升级至 at.js 版本 1.5.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)（或更高版本）。
+>使用Mobile SDK的客户无需执行任何操作即可应用此功能。 使用 at.js 的客户必须[升级至 at.js 版本 1.5.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)（或更高版本）。
 
 您可以选择多个移动设备属性。使用OR运算符连接多个选择。
 

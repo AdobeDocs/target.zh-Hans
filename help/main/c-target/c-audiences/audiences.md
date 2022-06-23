@@ -4,10 +4,10 @@ description: 了解如何在中使用受众 [!DNL Adobe Target].
 title: 如何使用受众列表？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 23%
+source-wordcount: '1339'
+ht-degree: 26%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 使用 [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). 受众 [!DNL Adobe Experience Platform] 可以按原样使用，或 [与现有受众组合](/help/main/c-target/combining-multiple-audiences.md).
+   >的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 使用 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). 受众 [!DNL Adobe Experience Platform] 可以按原样使用，或 [与现有受众组合](/help/main/c-target/combining-multiple-audiences.md).
    >
    >用户必须 [!UICONTROL 审批者] 或 [!DNL Target] 配置 [!DNL Target] [!UICONTROL 目标] AEP/RTCDP中的信息卡([!DNL Real-time Customer Data Platform])。
    >
@@ -109,7 +109,7 @@ Keep the following points in mind as you work with imported audiences:
 
 利用在 [!DNL Adobe Experience Platform] 中创建的受众可提供更丰富的客户数据，从而带来更强大的个性化功能。的 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans){target=_blank}(RTCDP)，内置于 [!DNL Adobe Experience Platform]，可帮助公司将来自多个企业来源的已知和匿名数据汇集在一起。 通过此流程，您可以创建客户配置文件，以便用于在所有渠道和设备中实时提供个性化的客户体验。
 
-通过连接 [!DNL Target] 到 [!DNL Real-time Customer Data Platform]，客户可以通过解锁之前可能无法访问的新区段来扩充其Web个性化 [!DNL Target] 用于在客户的Web访问首页上实时进行毫秒个性化。 使用在中创建的受众 [!DNL Adobe Experience Platform] 允许您扩展可用的数据点，以便进行更丰富的个性化。
+连接 [!DNL Target] 和 [!DNL Real-time Customer Data Platform] 后，客户可以通过解锁 [!DNL Target] 以前可能无法访问的新分段来丰富其 Web 个性化，从而在客户 Web 访问的第一个页面上在毫秒内实现实时个性化。使用 [!DNL Adobe Experience Platform] 中创建的受众可以扩展可用的数据点，以实现更丰富的个性化。
 
 此集成可通过RTCDP解锁关键用例：
 

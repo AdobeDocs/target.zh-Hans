@@ -5,10 +5,10 @@ title: 实施之前，我应该了解什么？
 feature: Implementation
 role: Developer
 exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 69%
+source-wordcount: '159'
+ht-degree: 50%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 69%
 >
 >对at.js或 [!DNL Adobe Experience Platform Web SDK] 不受Adobe客户关怀团队支持。
 
-- [准备实施 Target](prepare-to-implement-target.md)
-- [隐私](c-privacy/privacy.md)
-- [将数据导入 Target 的方法](c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
-- [Target 安全性概述](target-security-overview.md)
-- [支持的浏览器](supported-browsers.md)
-- [TLS（传输层安全性）加密更改](tls-transport-layer-security-encryption.md)
-- [CNAME 和 Adobe Target](implement-cname-support-in-target.md)
-- [将 Target 边缘节点列入允许列表](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [准备实施 Target](https://developer.adobe.com/target/before-implement/prepare-to-implement-target/)
+- [隐私](https://developer.adobe.com/target/before-implement/privacy/privacy/)
+- [将数据导入 Target 的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+- [Target 安全概述](https://developer.adobe.com/target/before-implement/target-security-overview/)
+- [支持的浏览器](https://developer.adobe.com/target/before-implement/supported-browsers/)
+- [TLS（传输层安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)
+- [CNAME 和 Adobe Target](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/)
+- [将 Target 边缘节点列入允许列表](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/)

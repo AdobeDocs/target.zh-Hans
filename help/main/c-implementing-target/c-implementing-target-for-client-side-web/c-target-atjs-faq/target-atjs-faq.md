@@ -5,10 +5,10 @@ title: 有关at.js的常见问题和答案是什么？
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2517'
-ht-degree: 60%
+source-wordcount: '2586'
+ht-degree: 59%
 
 ---
 
@@ -113,7 +113,7 @@ at.js 1.0.0版本允许加载 [!DNL Target] 库是异步的。
 
 如果要通过同步 DTM 实施部署 at.js，则可通过页面顶部触发的“页面加载”规则添加预先隐藏的代码片段。
 
-有关更多信息，请参阅 [at.js 如何管理闪烁](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)。
+有关更多信息，请参阅 [at.js 如何管理闪烁](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)。
 
 ## at.js是否与 [!DNL Adobe Experience Manager] 集成(Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
 
@@ -121,7 +121,7 @@ at.js 1.0.0版本允许加载 [!DNL Target] 库是异步的。
 
 ## 使用 at.js 时，我如何才能阻止页面加载闪烁？ {#section_4D78AAAE73C24E578C974743A3C65919}
 
-Target 提供了多种方法来阻止页面加载闪烁。有关更多信息，请参阅[使用 at.js 阻止闪烁](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA)。
+Target 提供了多种方法来阻止页面加载闪烁。有关更多信息，请参阅[使用 at.js 阻止闪烁](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)。
 
 ## at.js 的文件大小是多少？ {#section_6A25C9A14C66441785A7635FEF5C4475}
 
@@ -161,17 +161,17 @@ at.js当前使用jQuery部分，因此您会在at.js顶部看到MIT许可通知�
 
 [!DNL Target] 客户有时会将基于云的实例与 [!DNL Target] 结合使用来进行测试或简单的概念验证。这些域以及其他许多域均是[公共后缀列表](https://publicsuffix.org/list/public_suffix_list.dat)的一部分。
 
-除非您自定义 `cookieDomain` 设置。 有关更多信息，请参阅[结合使用基于云的实例和 Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)。
+除非您自定义 `cookieDomain` 设置。 有关更多信息，请参阅[结合使用基于云的实例和 Target](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)。
 
 ## 使用 at.js 时，IP 地址能否用作 Cookie 域？ {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-能，只要您使用的是 [at.js 版本 1.2 或更高版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。[!DNL Adobe] 但是，强烈建议您保持最新版本。
+能，只要您使用的是 [at.js 版本 1.2 或更高版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。[!DNL Adobe] 但是，强烈建议您保持最新版本。
 
 >[!NOTE]
 >
 >如果您使用的是 at.js 版本 1.2 或更高版本，则无需查看以下示例。
 
-根据您使用 [targetGlobalSettings](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 的方式，您可能需要在下载 at.js 后对代码进行额外的修改。例如，如果您需要对不同网站上的 [!DNL Target] 实施进行稍微不同的设置，而又无法使用自定义 JavaScript 动态定义这些设置，则需在下载该文件之后以及将该文件上传到相应网站之前手动自定义这些设置。
+根据您使用 [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) 的方式，您可能需要在下载 at.js 后对代码进行额外的修改。例如，如果您需要对不同网站上的 [!DNL Target] 实施进行稍微不同的设置，而又无法使用自定义 JavaScript 动态定义这些设置，则需在下载该文件之后以及将该文件上传到相应网站之前手动自定义这些设置。
 
 以下示例允许您使用 `targetGlobalSettings()` at.js 函数插入一个代码片段来支持 IP 地址：
 
@@ -202,10 +202,10 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 * 页面是动态构建的，at.js找不到该元素。
 * 页面生成速度缓慢（由于网络速度缓慢），at.js在DOM中找不到选择器。
 * 激活的页面结构[!UICONTROL 运行的y已更改。 如果您在 ]可视化体验编辑器(VEC)时，您应会收到一条警告消息。 更新活动，以便找到所有必需的元素。
-* 基础页面是 [!UICONTROL 单页应用程序] (SPA)或页面包含显示在 [!DNL at.js] “选择器轮询机制”找不到这些元素。 增加 `selectorsPollingTimeout` 可能会有所帮助。有关更多信息，请参阅 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
+* 基础页面是 [!UICONTROL 单页应用程序] (SPA)或页面包含显示在 [!DNL at.js] “选择器轮询机制”找不到这些元素。 增加 `selectorsPollingTimeout` 可能会有所帮助。有关更多信息，请参阅 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
 * 任何点击跟踪量度都会尝试将其自身添加到每个页面，而不考虑已设置量度的 URL。尽管不会产生不利影响，但此情况会显示许多此类消息。
 
-   为获得最佳结果，请下载并使用最新版本的 [!DNL at.js]。有关更多信息，请参阅 [at.js 版本详细信息](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)和[下载 at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)。
+   为获得最佳结果，请下载并使用最新版本的 [!DNL at.js]。有关更多信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)和[下载 at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)。
 
 ## tt.omtrdc.net是什么域 [!DNL Target] 服务器调用转到？ {#section_999C29940E8B4CAD8A957A6B1D440317}
 
@@ -225,7 +225,7 @@ HttpOnly 只能通过服务器端代码进行设置。[!DNL Target] Cookie（例
 
 ## 在最佳情况下，当执行隐藏、替换和显示内容这类页面加载操作时，用户是否不会受到明显影响？ {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-at.js会尝试避免在较长的时间内预先隐藏HTML主体或其他DOM元素，但这取决于网络条件和活动设置。 at.js 会提供[设置](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)，您可以使用这些设置来自定义主体隐藏 CSS 样式，这样您可以预先隐藏页面的某些部分，而不清空整个 HTML 主体。预期的情况是这些部分包含必须进行“个性化”的 DOM 元素。
+at.js会尝试避免在较长的时间内预先隐藏HTML主体或其他DOM元素，但这取决于网络条件和活动设置。 at.js 会提供[设置](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)，您可以使用这些设置来自定义主体隐藏 CSS 样式，这样您可以预先隐藏页面的某些部分，而不清空整个 HTML 主体。预期的情况是这些部分包含必须进行“个性化”的 DOM 元素。
 
 ## 在用户符合活动条件的一般场景中，事件的序列是怎样的？ {#section_56E6F448E901403FB77DF02F44C44452}
 

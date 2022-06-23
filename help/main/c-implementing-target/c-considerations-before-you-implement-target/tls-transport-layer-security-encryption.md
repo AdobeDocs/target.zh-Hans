@@ -5,9 +5,9 @@ title: 操作方法 [!DNL Target] 是否使用TLS来提供安全性？
 feature: Privacy & Security
 role: Developer
 exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1148'
 ht-degree: 54%
 
 ---
@@ -56,7 +56,7 @@ Adobe 会分阶段地将客户移到 TLS 1.2。针对域已经符合 1.2 的客�
 * 请注意，Target 报表中的访客数量可能会显示略微降低。
 * 您可能需要更改专门针对不支持TLS 1.2的旧设备或浏览器创建的受众。将这些设备和浏览器交付到这些设备和浏览器将不再有效。
 
-有关支持的浏览器及其版本的更多详细信息，请参阅 [支持的浏览器](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+有关支持的浏览器及其版本的更多详细信息，请参阅 [支持的浏览器](https://developer.adobe.com/target/before-implement/supported-browsers/).
 
 ## Adobe [!DNL Target] API {#section_88797FA5434049EC89F908853CC76903}
 
@@ -68,7 +68,7 @@ Adobe 会分阶段地将客户移到 TLS 1.2。针对域已经符合 1.2 的客�
 
 ## 访问Experience Cloud解决方案界面 {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-由于 Target Standard/Premium 界面已要求使用[现代化的 Web 浏览器](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)，因此我们预计不会出现任何问题。如果您无法连接 Target，则应将您的浏览器升级到最新版本。
+由于 Target Standard/Premium 界面已要求使用[现代化的 Web 浏览器](https://developer.adobe.com/target/before-implement/supported-browsers/)，因此我们预计不会出现任何问题。如果您无法连接 Target，则应将您的浏览器升级到最新版本。
 
 ## 如何检查您的浏览器使用的TLS版本 {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 

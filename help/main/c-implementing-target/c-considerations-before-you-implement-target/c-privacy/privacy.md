@@ -5,10 +5,10 @@ title: ' [!DNL Target] 如何处理隐私问题？'
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '738'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '752'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 单独的功能使用情况数据会被收集用于内部 [!DNL Adobe] 用途，确定 [!DNL Target] 功能是否按意图执行或者确定利用率不足的功能。各个延迟测量值会被收集用于帮助解决性能问题。不收集个人数据。
 
-您可在客户端初始化选项中，通过将 `telemetryEnabled` 设置为 false 来选择在 SDK 中禁用报表使用情况数据。有关更多信息，请参阅 [targetGlobalSettings 中的 telemetryEnabled](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry)。
+您可在客户端初始化选项中，通过将 `telemetryEnabled` 设置为 false 来选择在 SDK 中禁用报表使用情况数据。有关更多信息，请参阅 [targetGlobalSettings 中的 telemetryEnabled](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
 
 ## IP 地址收集 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -69,4 +69,4 @@ https://my.cname.domain/optout?client=clientcode.
 
 ## 隐私和数据保护法规
 
-有关欧盟的通用数据保护条例 (GDPR)、加州消费者隐私法案 (CCPA) 和其他国际隐私要求的信息，以及这些法规对您的组织和 Adobe Target 的影响，请参阅[隐私和数据保护法规](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)。
+有关欧盟的通用数据保护条例 (GDPR)、加州消费者隐私法案 (CCPA) 和其他国际隐私要求的信息，以及这些法规对您的组织和 Adobe Target 的影响，请参阅[隐私和数据保护法规](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)。

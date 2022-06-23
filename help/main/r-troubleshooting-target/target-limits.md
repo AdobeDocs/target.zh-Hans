@@ -5,9 +5,9 @@ title: 中的各种字符、大小和其他限制 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f99fc9e122c57fb4e633fec9a3af7f8ffd40b183
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1348'
 ht-degree: 96%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 96%
 
    如果使用批量投放 API，则每个批处理请求的限制为 50 个 mbox。
 
-   如果您在 Mobile Services SDK 中使用[批量交付 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)，则该 API 本身的限制为 50 个 mbox 参数、50 个配置文件参数和 50 个其他参数类型。无法使用批量交付 API 发送包含的参数超过这些数量的请求。如果请求中的参数大于这些限制，则该 API 将返回以下错误消息：
+   如果您在 Mobile Services SDK 中使用批量交付 API，则该 API 本身的限制为 50 个 mbox 参数、50 个配置文件参数和 50 个其他参数类型。无法使用批量交付 API 发送包含的参数超过这些数量的请求。如果请求中的参数大于这些限制，则该 API 将返回以下错误消息：
 
    “mbox 参数的数量不得超过 50。”
 

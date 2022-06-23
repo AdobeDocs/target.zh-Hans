@@ -4,10 +4,10 @@ description: 了解如何将自定义参数传递到 [!DNL Adobe Target] ，以�
 title: 我是否可以根据自定义参数定位访客？
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 42%
+source-wordcount: '467'
+ht-degree: 41%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 42%
 
 自定义参数是 [!DNL Adobe Target]. 如果您将任何mbox参数传递到mbox，或者使用 `targetPageParams` 函数中，这些参数将显示在此处以供在受众中使用。
 
-有关更多信息，请参阅 [将参数传递到全局mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
+有关更多信息，请参阅 [将参数传递到全局mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).
 
 创建基于 mbox 参数的自定义受众时，`mboxParameter` 将不再提示您输入 `mboxName`。mbox 名称现在是可选的。通过这项更改，您可以使用多个 mbox 中的参数或引用尚未记录到 Edge 的参数。
 

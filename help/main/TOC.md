@@ -3,10 +3,10 @@ user-guide-title: Adobe [!DNL Target] 指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 98%
+source-wordcount: '1202'
+ht-degree: 99%
 
 ---
 
@@ -68,102 +68,6 @@ ht-degree: 98%
          + [授予 Adobe I/O 集成访问工作区的权限并分配角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
 + 实施 Target {#implement-target}
    + [实施 Target 概述](c-implementing-target/implementing-target.md)
-   + 实施之前 {#before-implement}
-      + [实施之前](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
-      + [准备实施 Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + 隐私和安全性 {#privacy}
-         + [隐私概述](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [隐私和数据保护法规](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
-         + [Target Cookie](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
-         + [删除 Target Cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
-         + [Google Chrome SameSite Cookie 策略](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple 智能防跟踪 (ITP) 2.x](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [内容安全策略 (CSP) 指令](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [将 Target 边缘节点列入允许列表](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
-      + 将数据导入 Target 的方法 {#methods}
-         + [方法概述](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
-         + [页面参数](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
-         + [页面内个人资料属性](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
-         + [脚本配置文件属性](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
-         + [数据提供程序](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
-         + [批量配置文件更新 API](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/bulk-profile-update-api.md)
-         + [单个配置文件更新 API](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
-         + [客户属性](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
-         + [配置文件 API 设置](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
-      + [Target 安全性概述](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
-      + [支持的浏览器](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
-      + [TLS（传输层安全性）加密更改](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
-      + [CNAME 和 Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
-   + 客户端 Web：实施 Target {#client-side}
-      + [概述：为客户端 Web 实施 Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
-      + Adobe Experience Platform Web SDK 实施 {#aep-implementation}
-         + [AEP Web SDK 概述](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
-      + at.js 实施 {#at-js-implementation}
-         + 设备上决策 {#on-device-decisioning}
-            + [设备上决策概述](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-            + [受支持的功能](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
-            + [规则构件](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
-            + [故障排除](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
-         + at.js 的工作原理 {#at-js}
-            + [at.js 的工作原理概述](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
-            + [at.js 如何管理闪烁](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
-            + [at.js 集成](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
-         + 如何部署 at.js {#deploy-at-js}
-            + [如何部署 at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [使用 Adobe Experience Platform 实施 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
-            + [不通过标记管理器实施 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-            + [使用动态标记管理器 (DTM) 实施 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
-            + [为单页面应用程序 (SPA) 实施 Target](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
-         + at.js 函数 {#functions-overview}
-            + [at.js 函数概述](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
-            + [adobe.target.getOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
-            + [adobe.target.getOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
-            + [adobe.target.applyOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
-            + [adobe.target.applyOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
-            + [adobe.target.triggerView() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
-            + [adobe.target.trackEvent()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
-            + [mboxCreate() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
-            + [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
-            + [mboxDefine() 和 mboxUpdate() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
-            + [targetPageParams()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
-            + [targetPageParamsAll()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
-            + [registerExtension() - at.js 1.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
-            + [sendNotifications() - at.js 2.1](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
-            + [at.js 自定义事件](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
-            + [使用 Adobe Experience Cloud Debugger 调试 at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-            + [结合使用基于云的实例和 Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
-         + at.js 常见问题解答 {#faq-at-js}
-            + [at.js 常见问题解答](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-         + [at.js 版本详细信息](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-         + [从 at.js 1.x 升级到 at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
-         + [at.js Cookie](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
-         + [用户代理和客户端提示](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md)
-      + 了解全局 mbox {#global-mbox}
-         + [了解全局 mbox 概述](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
-         + [自定义全局 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
-         + [使用旧版实施中的全局 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
-         + [将参数传递到全局 mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
-         + [全局 mbox 常见问题解答](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
-   + 适用于移动应用程序的 Target {#mobile-apps}
-      + [适用于移动应用程序的 Target 概述](c-target-mobile-app/target-mobile-app.md)
-      + [Target 在移动应用程序中的工作原理](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
-      + [在 SDK 中启用 Target](c-target-mobile-app/mobile-enable-target-in-sdk.md)
-      + [iOS - 创建 Target 位置和成功量度](c-target-mobile-app/mobile-create-location-and-metric.md)
-      + [iOS - 发送自定义用户数据](c-target-mobile-app/mobile-custom-user-data.md)
-      + [Target 移动设备预览](c-target-mobile-app/target-mobile-preview.md)
-      + [预取选件内容](c-target-mobile-app/prefetch-offer-content.md)
-      + [Target 移动应用程序版常见问题解答](/help/main/c-target-mobile-app/target-for-mobile-apps-faq.md)
-      + [使用位置服务](/help/main/c-target-mobile-app/use-location-service.md)
-   + 服务器端：实施 Target {#server-side}
-      + [服务器端：实施 Target 概述](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [从 Target 旧版 API 迁移到 Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
-      + [设备上决策](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
-   + [混合实施](/help/main/c-implementing-target/hybrid-implementation.md)
-   + 电子邮件：实施 Target {#implement-email}
-      + [电子邮件：实施 Target 概述](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
-      + [为图像创建 Adbox](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
-      + [测试电子邮件图像 Adbox](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
-      + [使用重定向程序](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + 将 Target 与 Experience Cloud 集成 {#integrate}
    + 将 Adobe Analytics 作为 Target 报表源 (A4T) {#a4t}
       + [A4T 概述](c-integrating-target-with-mac/a4t/a4t.md)
@@ -194,7 +98,7 @@ ht-degree: 98%
    + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
    + [将Target与Adobe Experience Manager集成](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
    + [将 Target 与 Adobe Audience Manager 集成](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
-   + [与Real-time Customer Data Platform集成](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
+   + [与 Real-time Customer Data Platform 集成](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [将 Target 与 Adobe Campaign 集成](c-integrating-target-with-mac/campaign-and-target.md)
 + 活动 {#activities}
    + [活动概述](c-activities/activities.md)

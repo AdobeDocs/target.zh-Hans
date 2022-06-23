@@ -5,9 +5,9 @@ title: 什么是主机？如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1084'
 ht-degree: 22%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 22%
 
 >[!IMPORTANT]
 >
->**安全最佳实践**:如果您使用 [!DNL Target]，此允许列表选项还控制 [重定向器](/help/main/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 可以导航。 确保在将ubox用作实施的一部分时，添加要重定向到的任何域。 如果允许列表未指定， [!DNL Adobe] 无法验证重定向URL并防止潜在的恶意重定向。
+>**安全最佳实践**:如果您使用 [!DNL Target]，此允许列表选项还控制 [重定向器](https://developer.adobe.com/target/implement/email/working-with-redirectors/) 可以导航。 确保在将ubox用作实施的一部分时，添加要重定向到的任何域。 如果允许列表未指定， [!DNL Adobe] 无法验证重定向URL并防止潜在的恶意重定向。
 >
 >允许列表优先于环境。 在使用“”功能之前清除所允许列表有主机，则只有“”允许的主允许列表机才会显示在“主机”列表中。 然后，您可以将主机移到所需的环境中。
 
@@ -124,6 +124,6 @@ ht-degree: 22%
 
 如果请求 [!DNL Target] 从域生成。 您常常可以看到来自蜘蛛引擎、语言翻译网站或者本地磁盘驱动器的域。如果列出的域不是您的团队所使用的域，则可以单击“[!UICONTROL 删除]”将其移除。
 
-**我的 [!DNL Target] 请求返回/*无显示 — 未授权的mbox主机*/。**
+**我的 [!DNL Target] 请求返回/&#42; 无显示 — 未授权的mbox主机 &#42;/.**
 
-如果 [!DNL Target] 请求是对未授权的主机发出的，该请求以/*无显示 — 未授权的mbox主机*/进行响应。
+如果 [!DNL Target] 对未授权的主机发出请求，该请求以/&#42; 无显示 — 未授权的mbox主机 &#42;/.

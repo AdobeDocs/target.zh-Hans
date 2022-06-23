@@ -4,10 +4,10 @@ description: 了解 Adobe [!DNL Target] 的工作原理，包括关于 [!DNL Tar
 title: ' [!DNL Target] 的工作原理'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '2536'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '2563'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 100%
 
 [!DNL Target] 使用 [!DNL Experience Platform Web SDK] 或 JavaScript 库与网站集成：
 
-* **Adobe Experience Platform Web SDK：**[Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 是一个新的客户端 JavaScript 库。Experience Platform Web SDK 使 [!DNL Adobe Experience Cloud] 的客户可通过 [!DNL Experience Platform] 边缘网络与 [!DNL Experience Cloud] 中的各种服务（包括 [!DNL Target]）进行交互。Adobe 建议所有新 [!DNL Target] 客户均实施 [!DNL Experience Platform Web SDK]。
-* **at.js：** at.js 库是 [!DNL Target] 的一个实施库。使用 at.js 库可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。经常更新 at.js 以增加新功能。Adobe 建议所有使用 at.js 的客户都将其实现更新到 [at.js 的最新版本](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+* **Adobe Experience Platform Web SDK：**[Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) 是一个新的客户端 JavaScript 库。Experience Platform Web SDK 使 [!DNL Adobe Experience Cloud] 的客户可通过 [!DNL Experience Platform] 边缘网络与 [!DNL Experience Cloud] 中的各种服务（包括 [!DNL Target]）进行交互。Adobe 建议所有新 [!DNL Target] 客户均实施 [!DNL Experience Platform Web SDK]。
+* **at.js：** at.js 库是 [!DNL Target] 的一个实施库。使用 at.js 库可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。经常更新 at.js 以增加新功能。Adobe 建议所有使用 at.js 的客户都将其实现更新到 [at.js 的最新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
 * **mbox.js：** mbox.js 库是 [!DNL Target] 旧版实施库。2021 年 3 月 31 日后不再支持 mbox.js 库。
 
 请在您网站上的每个页面上都引用 [!DNL Experience Platform Web SDK] 或 at.js。例如，可将这些库之一添加到您的全局头部。或者，考虑使用 [Adobe Experience Platform 中的标签](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)来实施 [!DNL Target]。
@@ -28,7 +28,7 @@ ht-degree: 100%
 以下资源包含帮助您实施 Experience Platform Web SDK 或 at.js 的详细信息：
 
 * [Adobe Experience Platform Web SDK 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=zh-Hans)
-* [使用 Adobe Experience Platform 实施 [!DNL Target] ](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [使用 Adobe Experience Platform 实施 [!DNL Target] ](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
 
 每次访客请求已针对 [!DNL Target] 优化的页面时，都将一个请求发送到定位系统。该请求有助于确定要向该访客提供什么内容。实时进行此过程。每次加载页面时，系统都提出并履行对内容的请求。内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。其中提供每个网站访客最有可能作出响应、与其交互或最终购买的内容。个性化的内容有助于充分提高响应率、获客率和收入。
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 每个边缘群集都具有响应访问者的内容请求并跟踪该请求的分析数据所需的所有信息。访客请求被路由到最近的边缘群集。
 
-有关更多信息，请参阅[《Adobe Target 安全概述》](https://www.adobe.com/cn/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮书。
+有关更多信息，请参阅[《Adobe Target 安全概述》](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf)白皮书。
 
 [!DNL Target] 解决方案托管在世界各地的 Adobe 自有和 Adobe 租赁的数据中心内。
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 >
 >[!DNL Adobe Target] 目前在中国没有边缘群集，因此中国 [!DNL Target] 客户的访客表现仍然受限。由于该国存在防火墙和缺乏边缘群集，因此部署了 [!DNL Target] 的网站的体验可能受影响。体验可能呈现得较慢，并且页面加载可能受影响。此外，营销人员可能在使用 [!DNL Target] 创作 UI 时经历延迟的情况。
 
-如果需要，可将 [!DNL Target] 边缘群集列入允许列表。有关更多信息，请参阅[将 Target 边缘节点列入允许列表](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)。
+如果需要，可将 [!DNL Target] 边缘群集列入允许列表。有关更多信息，请参阅[将 Target 边缘节点列入允许列表](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/)。
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

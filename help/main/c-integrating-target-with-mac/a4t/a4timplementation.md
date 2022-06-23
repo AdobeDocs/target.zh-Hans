@@ -4,10 +4,10 @@ description: 按照实施Analytics(适用于 [!DNL Target] (A4T)Adobe [!DNL Targ
 title: 如何为实施Analytics [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 24%
+source-wordcount: '1153'
+ht-degree: 25%
 
 ---
 
@@ -116,9 +116,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-然后，可以通过 [数据插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). 对于自动分配和自动定位活动，还必须转发sessionId。 有关更多信息，请参阅 [Analytics for Target(A4T)报表](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) 在 *Adobe Target SDK* 的双曲余切值。
+然后，可以通过 [数据插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). 对于自动分配和自动定位活动，还必须转发sessionId。 有关更多信息，请参阅 [Analytics for Target(A4T)报表](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/) 在 *Adobe Target SDK* 的双曲余切值。
 
-如果不希望进行全局设置并且希望使用按需方法，请使用at.js函数 [getOffers()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 通过传递 **analytics日志记录：&quot;client_side&quot;**. 仅会为此调用返回分析有效负载，并且 [!DNL Target] 后端不会将有效负载转发到 [!DNL Analytics]. 通过采用这种方法，每个at.js [!DNL Target] 默认情况下，请求会返回有效负载，但只有在需要和指定时才会返回。
+如果不希望进行全局设置并且希望使用按需方法，请使用at.js函数 [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) 通过传递 **analytics日志记录：&quot;client_side&quot;**. 仅会为此调用返回分析有效负载，并且 [!DNL Target] 后端不会将有效负载转发到 [!DNL Analytics]. 通过采用这种方法，每个at.js [!DNL Target] 默认情况下，请求会返回有效负载，但只有在需要和指定时才会返回。
 
 例如：
 

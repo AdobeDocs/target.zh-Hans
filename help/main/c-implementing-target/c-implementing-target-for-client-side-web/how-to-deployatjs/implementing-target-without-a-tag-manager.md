@@ -5,10 +5,10 @@ title: 我能否实施 [!DNL Target] 没有标签管理器？
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1794'
-ht-degree: 49%
+source-wordcount: '1824'
+ht-degree: 48%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->中的标记 [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 是实现 [!DNL Target] 和at.js库。 在中使用标记时，以下信息不适用 [!DNL Adobe Experience Platform] 实施 [!DNL Target].
+>中的标记 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 是实现 [!DNL Target] 和at.js库。 在中使用标记时，以下信息不适用 [!DNL Adobe Experience Platform] 实施 [!DNL Target].
 
 访问 [!UICONTROL 实施] 页面，单击 **[!UICONTROL 管理]** > **[!UICONTROL 实施]**.
 
@@ -32,7 +32,7 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->您可以覆盖 at.js 库中的设置，而不是在 [!DNL Target Standard/Premium] UI 中或通过使用 REST API 来配置设置。有关更多信息，请参阅 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)。
+>您可以覆盖 at.js 库中的设置，而不是在 [!DNL Target Standard/Premium] UI 中或通过使用 REST API 来配置设置。有关更多信息，请参阅 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
 
 ## 帐户详细信息
 
@@ -42,7 +42,7 @@ ht-degree: 49%
 | --- | --- |
 | [!UICONTROL 客户代码] | 客户端代码是指特定于客户端的字符序列，使用 [!DNL Target] API 时通常需要使用此设置。 |
 | [!UICONTROL IMS 组织 ID] | 此 ID 可将您的实施绑定到您的 [!DNL Adobe Experience Cloud] 帐户。 |
-| [!UICONTROL 设备内决策] | 要启用设备上的决策，请将切换开关滑动到“开”位置。<br>设备内决策允许您缓存A/B和 [!UICONTROL 体验定位] (XT)营销活动，并在接近零的延迟下执行内存决策。 有关更多信息，请参阅 [设备上决策简介](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) 在 *[!DNL Adobe Target]SDK* 的双曲余切值。 |
+| [!UICONTROL 设备内决策] | 要启用设备上的决策，请将切换开关滑动到“开”位置。<br>设备内决策允许您缓存A/B和 [!UICONTROL 体验定位] (XT)营销活动，并在接近零的延迟下执行内存决策。 有关更多信息，请参阅 [设备上决策简介](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/) 在 *[!DNL Adobe Target]SDK* 的双曲余切值。 |
 | [!UICONTROL 在对象中包含所有现有的设备上决策合格活动。] | （视情况而定）如果您启用设备决策，则会显示此选项。<br>如果您希望所有符合设备决策条件的实时Target活动自动包含在项目中，请将切换开关滑动到“开”位置。<br>关闭此切换开关意味着您必须重新创建并激活任何设备上决策活动，才能将这些活动包含在生成的规则对象中。 |
 
 ## 实施方法
@@ -59,7 +59,7 @@ ht-degree: 49%
 | --- | --- |
 | 启用页面加载（自动创建全局mbox） | 选择是否要将全局 mbox 调用嵌入到 at.js 文件中，以使其在每次加载页面时自动触发。 |
 | 全局 mbox | 为全局 mbox 选择一个名称。默认情况下，此名称为 target-global-mbox。<br>使用 at.js 的 mbox 名称中可以使用特殊字符，包括与号 (&amp;)。 |
-| 超时（秒） | 如果 [!DNL Target] 未在定义的时间段内做出响应并显示相应内容，则服务器调用会超时，此时会显示默认内容。在访客会话期间会继续尝试发起其他调用。默认时间为 5 秒。<br>at.js 库使用的是 `XMLHttpRequest` 中的超时设置。超时从请求被触发时开始，直到 [!DNL Target] 收到来自服务器的响应时结束。有关更多信息，请参阅 Mozilla 开发人员网络上的 [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout)。<br>如果在指定的超时内未收到响应，则会显示默认内容，且访客可能会被计为活动的参加者，因为所有数据收集都是在 [!DNL Target] 边缘网络中进行的。如果 [!DNL Target] 边缘网络收到了请求，则访客会被计为参加者。<br>配置超时设置时，请考虑以下事项：<ul><li>如果超时值过低，则用户大部分时间可能都会看到默认内容，即使访客可被计为活动参加者也是如此。</li><li>如果超时值过高，则在延长的时间段内，访客可能会在您的网页上看到空白区域，如果您使用了主体隐藏技术，则可能还会看到空白页面。</li></ul>要更好地了解 mbox 响应时间，请查看浏览器“开发人员工具”中的“网络”选项卡。您还可以使用第三方 Web 性能监测工具，例如 Catchpoint。<br>**注意**：[visitorApiTimeout](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 设置可确保 [!DNL Target] 等待访客 API 响应的时间不会太长。此设置和此处介绍的 at.js 中的“超时”设置不会相互影响。 |
+| 超时（秒） | 如果 [!DNL Target] 未在定义的时间段内做出响应并显示相应内容，则服务器调用会超时，此时会显示默认内容。在访客会话期间会继续尝试发起其他调用。默认时间为 5 秒。<br>at.js 库使用的是 `XMLHttpRequest` 中的超时设置。超时从请求被触发时开始，直到 [!DNL Target] 收到来自服务器的响应时结束。有关更多信息，请参阅 Mozilla 开发人员网络上的 [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout)。<br>如果在指定的超时内未收到响应，则会显示默认内容，且访客可能会被计为活动的参加者，因为所有数据收集都是在 [!DNL Target] 边缘网络中进行的。如果 [!DNL Target] 边缘网络收到了请求，则访客会被计为参加者。<br>配置超时设置时，请考虑以下事项：<ul><li>如果超时值过低，则用户大部分时间可能都会看到默认内容，即使访客可被计为活动参加者也是如此。</li><li>如果超时值过高，则在延长的时间段内，访客可能会在您的网页上看到空白区域，如果您使用了主体隐藏技术，则可能还会看到空白页面。</li></ul>要更好地了解 mbox 响应时间，请查看浏览器“开发人员工具”中的“网络”选项卡。您还可以使用第三方 Web 性能监测工具，例如 Catchpoint。<br>**注意**：[visitorApiTimeout](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) 设置可确保 [!DNL Target] 等待访客 API 响应的时间不会太长。此设置和此处介绍的 at.js 中的“超时”设置不会相互影响。 |
 | 配置文件生命周期 | 此设置可决定访客配置文件的存储时长。默认情况下，配置文件会存储两周时间。此设置最多可增加90天。<br>要更改“配置文件生命周期”设置，请联系[客户关怀团队](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)。 |
 
 ### 主要实现方法
@@ -87,21 +87,16 @@ ht-degree: 49%
 
 从版本2.5.0开始，at.js提供了设备决策功能。 设备内决策允许您缓存 [A/B测试](/help/main/c-activities/t-test-ab/test-ab.md) 和 [体验定位](/help/main/c-activities/t-experience-target/experience-target.md) (XT)在浏览器上执行内存决策的活动，而无需对 [!DNL Adobe Target] 边缘网络。
 
-有关更多信息，请参阅：
+有关更多信息，请参阅主题：
 
-* 客户端： [at.js的设备内决策](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-* 服务器端： [设备上决策简介](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* 服务器端： [设备内决策](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
-* Node.js: [为贵组织启用设备决策](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
-* Java: [为贵组织启用设备决策](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
-* .NET: [为贵组织启用设备决策](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
-* Python: [为贵组织启用设备决策](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
+* [客户端设备上决策](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [服务器端设备上决策](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
 
 ### 配置文件API
 
 可为通过 API 进行的批量更新启用或禁用身份验证，并生成配置文件身份验证令牌。
 
-有关更多信息，请参阅 [配置文件API设置](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md).
+有关更多信息，请参阅 [配置文件API设置](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/).
 
 ### 调试器工具
 
@@ -119,11 +114,11 @@ ht-degree: 49%
 * 整个IP模糊处理
 * 无
 
-有关更多信息，请参阅[隐私](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)。
+有关更多信息，请参阅[隐私](https://developer.adobe.com/target/before-implement/privacy/privacy/)。
 
 >[!NOTE]
 >
->at.js版本0.9.3及更低版本中提供了“旧版浏览器支持”选项。 at.js 版本 0.9.4 中已删除此选项。要获取 at.js 支持的浏览器列表，请参阅[受支持的浏览器](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)。<br>旧版浏览器是指早期推出的不完全支持 CORS（跨域资源共享）的浏览器。这些浏览器包括：Internet Explorer 版本 11 之前的浏览器，以及 Safari 版本 6 及更低版本。如果禁用了“旧版浏览器支持”，则Target不会在这些浏览器的报表中提供内容或计数访客。 如果启用了此选项，则建议跨旧版浏览器进行质量保证，以确保获得良好的客户体验。
+>at.js版本0.9.3及更低版本中提供了“旧版浏览器支持”选项。 at.js 版本 0.9.4 中已删除此选项。要获取 at.js 支持的浏览器列表，请参阅[受支持的浏览器](https://developer.adobe.com/target/before-implement/supported-browsers/)。<br>旧版浏览器是指早期推出的不完全支持 CORS（跨域资源共享）的浏览器。这些浏览器包括：Internet Explorer 版本 11 之前的浏览器，以及 Safari 版本 6 及更低版本。如果禁用了“旧版浏览器支持”，则Target不会在这些浏览器的报表中提供内容或计数访客。 如果启用了此选项，则建议跨旧版浏览器进行质量保证，以确保获得良好的客户体验。
 
 ## 下载 at.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -131,9 +126,9 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->* [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 是实现 [!DNL Target] 和at.js库。 在中使用标记时，以下信息不适用 [!DNL Adobe Experience Platform] 实施 [!DNL Target].
+>* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 是实现 [!DNL Target] 和at.js库。 在中使用标记时，以下信息不适用 [!DNL Adobe Experience Platform] 实施 [!DNL Target].
 >
->* 的 [!DNL Target] 团队同时支持at.js 1.*x* 与 at.js 2.*x* 之间的映射。请升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。 有关每个版本中功能的更多信息，请参阅 [at.js 版本详细信息](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+>* 的 [!DNL Target] 团队同时支持at.js 1.*x* 与 at.js 2.*x* 之间的映射。请升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。 有关每个版本中功能的更多信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
 
 
 ### 使用 [!DNL Target] 界面 {#section_1F5EE401C2314338910FC57F9592894E}
@@ -185,7 +180,7 @@ ht-degree: 49%
 
    >[!IMPORTANT]
    >
-   >Target 团队仅维护两个版本的 [!DNL at.js]：当前版本和当前版本的上一个版本。请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。有关每个版本中功能的更多信息，请参阅 [at.js 版本详细信息](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+   >Target 团队仅维护两个版本的 [!DNL at.js]：当前版本和当前版本的上一个版本。请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。有关每个版本中功能的更多信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
 
    加载此 URL 后，便会开始下载您的自定义 [!DNL at.js] 文件。
 
@@ -193,7 +188,7 @@ ht-degree: 49%
 
 at.js 应该在您网站每个页面的 `<head>` 元素中实施。
 
-不使用标签管理器的典型Target实施，例如 [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 如下所示：
+不使用标签管理器的典型Target实施，例如 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 如下所示：
 
 ```
 <!doctype html> 
@@ -252,7 +247,7 @@ at.js 应该在您网站每个页面的 `<head>` 元素中实施。
 * HTML5 Doctype(例如， `<!doctype html>`)。 不受支持或较旧的 doctypes 可能会导致 Target 无法提出请求。
 * “预连接”和“预提取”选项可帮助提升网页加载速度。如果您使用这些配置，请确保将 `<client code>` 使用您自己的客户端代码，您可以从 **[!UICONTROL 管理]** > **[!UICONTROL 实施] 页面。
 * 如果您拥有数据层，那么在 at.js 加载之前，最好在页面的 `<head>` 中定义尽可能多的数据层。此位置允许在Target中最大限度地使用此信息进行个性化。
-* 特殊 Target 函数（例如 `targetPageParams()`、`targetPageParamsAll()`、数据提供程序和 `targetGlobalSettings()`）应在 at.js 加载之前，数据层加载之后进行定义。或者，这些函数也可以保存在 [!UICONTROL 库标题] 部分 [!UICONTROL 编辑at.js设置] 页面，并另存为at.js库本身的一部分。 有关这些函数的更多信息，请参阅 [at.js函数](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+* 特殊 Target 函数（例如 `targetPageParams()`、`targetPageParamsAll()`、数据提供程序和 `targetGlobalSettings()`）应在 at.js 加载之前，数据层加载之后进行定义。或者，这些函数也可以保存在 [!UICONTROL 库标题] 部分 [!UICONTROL 编辑at.js设置] 页面，并另存为at.js库本身的一部分。 有关这些函数的更多信息，请参阅 [at.js函数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
 * 如果您使用JavaScript帮助程序库（如jQuery），请在Target之前包含这些库，以便在构建Target体验时可以使用它们的语法和方法。
 * 将 at.js 包含在您页面的 `<head>` 中。
 

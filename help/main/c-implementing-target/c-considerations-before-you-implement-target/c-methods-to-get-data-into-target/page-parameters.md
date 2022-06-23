@@ -5,10 +5,10 @@ title: 如何将数据导入 [!DNL Target] 使用页面参数？
 feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 45%
+source-wordcount: '385'
+ht-degree: 44%
 
 ---
 
@@ -69,8 +69,8 @@ targetPageParams（将参数附加到页面上的全局 mbox）：
 
 ## 相关信息的链接
 
-推荐：[按照页面类型实施](/help/main/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
+推荐：[按照页面类型实施](https://developer.adobe.com/target/implement/recommendations/)
 
-订单确认：[跟踪转化](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
+订单确认：[跟踪转化](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)
 
 类别亲和度：[类别亲和度](/help/main/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)

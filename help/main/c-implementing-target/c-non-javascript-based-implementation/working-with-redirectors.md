@@ -5,10 +5,10 @@ title: 如何使用重定向器？
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 71%
+source-wordcount: '689'
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 71%
 
 * 找出哪个登陆页能引起更多的转化
 
-有关确定正确设置的帮助信息，请参阅 [不基于 JavaScript 的实施](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)。
+有关确定正确设置的帮助信息，请参阅 [不基于 JavaScript 的实施](https://developer.adobe.com/target/implement/email/)。
 
 ## 创建重定向器 {#redirector}
 
@@ -66,7 +66,7 @@ ht-degree: 71%
 1. 如果您要为一个广告测试不同目标，则请为每个版本创建[重定向选件](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
 1. 创建营销活动。
 
-   请参阅[不基于 JavaScript 的实施](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)，以了解如何正确设置来实现您的目标。
+   请参阅[不基于 JavaScript 的实施](https://developer.adobe.com/target/implement/email/)，以了解如何正确设置来实现您的目标。
 1. 完成营销活动质量保证工作。
 
    使用包含重定向器 URL 的 `<a href>` 创建一个虚拟页面。示例：

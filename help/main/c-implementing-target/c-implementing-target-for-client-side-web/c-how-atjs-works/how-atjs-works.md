@@ -5,10 +5,10 @@ title: at.js Javascript 库如何工作？
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1106'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '1136'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 什么是 at.js？
 
-at.js 库是适用于 Target 的新实施库。使用 at.js 库可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。at.js 是推荐使用的实施库，会经常更新功能。我们建议所有客户都实施或迁移到[最新版本的 at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)。
+at.js 库是适用于 Target 的新实施库。使用 at.js 库可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。at.js 是推荐使用的实施库，会经常更新功能。我们建议所有客户都实施或迁移到[最新版本的 at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
 
 有关更多信息，请参阅 [Target JavaScript 库](/help/main/c-intro/how-target-works.md#libraries)。
 
@@ -28,7 +28,7 @@ at.js 库是适用于 Target 的新实施库。使用 at.js 库可缩短 Web 实
 
 ## at.js 1.*x* 和 at.js 2.x 工作流程图之间有何差异？
 
-请参阅[从 at.js 1.x 升级到 at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)，以了解有关 2.O 与 1.*x* 之间的差异。
+请参阅[从 at.js 1.x 升级到 at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)，以了解有关 2.O 与 1.*x* 之间的差异。
 
 从高层次来看，两个版本之间存在一些差异：
 
@@ -37,7 +37,7 @@ at.js 库是适用于 Target 的新实施库。使用 at.js 库可缩短 Web 实
 
 ## at.js 2.x 图
 
-下图可帮助您了解含有视图的 at.js 2.x 工作流程以及其如何增强 SPA 集成。要更好地了解 at.js 2.x 中使用的概念，请参阅[单页应用程序实施](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。
+下图可帮助您了解含有视图的 at.js 2.x 工作流程以及其如何增强 SPA 集成。要更好地了解 at.js 2.x 中使用的概念，请参阅[单页应用程序实施](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)。
 
 ![使用 at.js 2.x 的 Target 流程](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -52,7 +52,7 @@ at.js 库是适用于 Target 的新实施库。使用 at.js 库可缩短 Web 实
 | 7 | Analytics 数据会发送到数据收集服务器。 |
 | 8 | 目标数据会通过 SDID 匹配到 Analytics 数据，并且会进行相应处理以保存到 Analytics 报表存储中。之后，便可以在 Analytics 和 Target 中通过 Analytics for Target (A4T) 报表查看 <br>Analytics 数据。 |
 
-现在，无论在 SPA 上的什么位置实施 `triggerView()`，都会从缓存中检索查看次数和操作，并在没有服务器调用的情况下显示给用户。`triggerView()` 还会向 [!DNL Target] 后端发出通知请求，以增加和记录展示次数计数。有关带有视图的 SPA 的 at.js 的更多信息，请参阅[单页应用程序实施](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。
+现在，无论在 SPA 上的什么位置实施 `triggerView()`，都会从缓存中检索查看次数和操作，并在没有服务器调用的情况下显示给用户。`triggerView()` 还会向 [!DNL Target] 后端发出通知请求，以增加和记录展示次数计数。有关带有视图的 SPA 的 at.js 的更多信息，请参阅[单页应用程序实施](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)。
 
 ![Target 流程 at.js 2.x triggerView](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 

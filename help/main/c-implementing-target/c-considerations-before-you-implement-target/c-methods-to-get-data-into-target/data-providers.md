@@ -5,10 +5,10 @@ title: 如何将数据导入 [!DNL Target] 使用数据提供程序？
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 67%
+source-wordcount: '322'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 67%
 
 `window.targetGlobalSettings.dataProviders` 设置是一个数据提供程序数组。
 
-有关每个数据提供程序的结构的更多信息，请参阅[数据提供程序](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)。
+有关每个数据提供程序的结构的更多信息，请参阅[数据提供程序](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
 
 ## 用例示例
 
@@ -44,11 +44,11 @@ at.js不会尝试缓存数据。 如果数据提供程序仅提取一次数据�
 
 ## 代码示例
 
-在[数据提供程序](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)中可以找到几个示例。
+在[数据提供程序](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)中可以找到几个示例。
 
 ## 相关信息的链接
 
-文档：[数据提供程序](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
+文档：[数据提供程序](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)
 
 ## 培训视频：
 

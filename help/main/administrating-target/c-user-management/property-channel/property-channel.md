@@ -5,9 +5,9 @@ title: 什么是企业用户权限？如何使用这些权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '3149'
+source-wordcount: '3150'
 ht-degree: 59%
 
 ---
@@ -251,7 +251,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
    在将来的版本中，即使在不具有 `at_property` 令牌的页面或具有不同 `at_property` 令牌的页面上，Target 也将能正常工作。
 
-* [Adobe I/O API 调用](https://developers.adobetarget.com)不支持企业用户权限功能。
+* [Adobe I/O API 调用](https://developer.adobe.com/target/)不支持企业用户权限功能。
 
 ## 常见问题解答 {#faqs}
 

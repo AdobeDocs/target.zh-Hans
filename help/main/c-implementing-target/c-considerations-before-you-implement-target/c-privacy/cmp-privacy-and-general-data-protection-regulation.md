@@ -5,10 +5,10 @@ title: ' [!DNL Target] 如何处理隐私和数据保护法规？'
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
-workflow-type: ht
-source-wordcount: '2209'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '2229'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 ## Adobe [!DNL Target] 和 [!DNL Adobe Experience Platform] 选择启用 {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] 通过 [!DNL Adobe Experience Platform] 中的标记提供选择启用功能支持，以帮助支持您的同意管理策略。选择加入功能让客户可自行决定如何以及何时触发 [!DNL Target] 标记。还有一个选项，即通过 [!DNL Adobe Experience Platform] 预批准 [!DNL Target] 标记。要启用在 [!DNL Target] at.js 中使用选择加入的功能，您应该使用 `targetGlobalSettings` 并添加 `optinEnabled=true` 设置。在 [!DNL Adobe ExperiencePlatform] 中，从扩展安装视图的 [!UICONTROL GDPR 选择启用]下拉列表中选择“启用”。有关更多信息，请参阅[使用 [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)实施 [!DNL Target] 。
+[!DNL Target] 通过 [!DNL Adobe Experience Platform] 中的标记提供选择启用功能支持，以帮助支持您的同意管理策略。选择加入功能让客户可自行决定如何以及何时触发 [!DNL Target] 标记。还有一个选项，即通过 [!DNL Adobe Experience Platform] 预批准 [!DNL Target] 标记。要启用在 [!DNL Target] at.js 中使用选择加入的功能，您应该使用 `targetGlobalSettings` 并添加 `optinEnabled=true` 设置。在 [!DNL Adobe ExperiencePlatform] 中，从扩展安装视图的 [!UICONTROL GDPR 选择启用]下拉列表中选择“启用”。有关更多信息，请参阅[使用 [!DNL Target] 实施 [!DNL Adobe Experience Platform]。](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
 
 以下代码段显示了如何启用 `optinEnabled=true` 设置：
 
@@ -133,7 +133,7 @@ window.targetGlobalSettings = {
 | 用户 ID | 命名空间 ID 类型 | 命名空间 ID | 定义 |
 |--- |--- |--- |--- |
 | Experience Cloud ID (ECID) | Standard | 4 | [!UICONTROL Adobe Experience Cloud ID]，以前称为访客 ID 或 Experience Cloud ID。您可以使用 JavaScript API 来查找此 ID（请参阅下面的详细信息）。 |
-| TnT ID / Cookie ID(TNTID) | Standard | 9 | 在访客的浏览器中设置为 Cookie 的 [!DNL Target] 标识符。您可以使用 JavaScript API 来查找此 ID（请参阅下面的详细信息）。 |
+| TnT ID / Cookie ID(TNTID) | 标准 | 9 | 在访客的浏览器中设置为 Cookie 的 [!DNL Target] 标识符。您可以使用 JavaScript API 来查找此 ID（请参阅下面的详细信息）。 |
 | 第三方 ID / CRM ID (THIRDPARTYID) | [!DNL Target] 特定 | 不适用 | 在为您的客户向 [!DNL Target] 提供 CRM 或其他唯一标识符信息时。 |
 
 >[!NOTE]
@@ -148,7 +148,7 @@ window.targetGlobalSettings = {
 
 [!DNL Target] 不通过 [!DNL Adobe Experience Platform] 支持选择启用功能以支持您的同意管理策略。选择加入功能让客户可自行决定如何以及何时触发 [!DNL Target] 标记。还有一个选项，即通过 [!DNL Adobe Experience Platform] 预批准 [!DNL Target] 标记。推荐使用 [!DNL Adobe Experience Platform] 管理选择加入功能。[!DNL Adobe Experience Platform] 中存在更细粒度的控制，用于在触发 [!DNL Target] 之前隐藏页面上的选定元素，这对于在同意策略中的使用会非常有帮助。
 
-有关 GDPR、CCPA 和 [!DNL Adobe Experience Platform] 的更多信息，请参阅 [Adobe 隐私 JavaScript 库和 GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans)。此外，请参阅上文的 *Adobe Target 和 Adobe Experience Platform 选择启用*&#x200B;部分。
+有关 GDPR、CCPA 和 [!DNL Adobe Experience Platform] 的更多信息，请参阅 [Adobe 隐私 JavaScript 库和 GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)。此外，请参阅上文的 *Adobe Target 和 Adobe Experience Platform 选择启用*&#x200B;部分。
 
 ### `AdobePrivacy.js` 是否向 GDPR API 提交信息？ {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -284,7 +284,7 @@ window.targetGlobalSettings = {
 
 | 字段 | 描述 |
 |--- |--- |
-| Sample_Parameter | [!DNL Target] 配置文件中的许多信息都由“数据控制方”上传或直接提供。在此示例中，可使用配置文件更新 API 将参数上传到 [!DNL Target] 配置文件中。有关更多信息，请参阅[将数据导入 [!DNL Target]](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) 的方法。 |
+| Sample_Parameter | [!DNL Target] 配置文件中的许多信息都由“数据控制方”上传或直接提供。在此示例中，可使用配置文件更新 API 将参数上传到 [!DNL Target] 配置文件中。有关更多信息，请参阅 [将数据导入的方法 [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
 | user.ReturnTimeOfDay | 此标准字段包括用户最近一次回访的时间。 |
 | firstSessionStart | 该标准字段包括用户第一次开始会话的时间。 |
 | user.sessionCountScript | [!DNL Target] 配置文件中的许多信息都由“数据控制方”上传或直接提供。在此示例中，配置文件脚本将会增加此访客在“数据控制方”站点上的会话数。有关更多信息，请参阅[配置文件脚本属性](/help/main/c-target/c-visitor-profile/profile-parameters.md)中的“查看配置文件脚本信息卡片”部分。 |
@@ -295,7 +295,7 @@ window.targetGlobalSettings = {
 
 ### [!DNL Target] 是否支持 IP 模糊处理？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-如果您选择将 IP 模糊处理用作 GDPR 或 CCPA 实施策略的一部分，则 [!DNL Target] 支持 IP 模糊处理。有关更多信息，请参阅[隐私](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)。
+如果您选择将 IP 模糊处理用作 GDPR 或 CCPA 实施策略的一部分，则 [!DNL Target] 支持 IP 模糊处理。有关更多信息，请参阅[隐私](https://developer.adobe.com/target/before-implement/privacy/privacy/)。
 
 ### 我是否需要做些什么来防止第三方共享或出售我的数据？
 

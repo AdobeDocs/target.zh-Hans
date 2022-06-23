@@ -5,10 +5,10 @@ title: 如何配置企业权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 68%
+source-wordcount: '1444'
+ht-degree: 67%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 68%
 
 ### 获取工作区ID {#workspace-id}
 
-您需要传递工作区 ID 才能使用 [Target API](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) 中的企业权限。
+您需要传递工作区 ID 才能使用 [Target API](https://developer.adobe.com/target/implement/server-side/) 中的企业权限。
 
 1. 在 [Adobe Admin Console](https://adminconsole.adobe.com) 中，单击[!UICONTROL 产品]选项卡，然后单击左侧菜单中的产品以显示 PLC（工作区）列表。
 1. 单击所需的 PLC（工作区），然后在 URL 中找到“配置文件”ID，如下所示。
@@ -138,7 +138,7 @@ ht-degree: 68%
 
    1. 右键单击高亮显示的实施代码以将其复制到剪贴板。
 
-1. 更新 [!DNL Target] 使用在上一步中获取的实施代码实施。
+1. 更新 [!DNL Target] 使用在上一步中获取的实施代码进行实施。
 
    您可以通过多种方法来更新 [!DNL Target] 实施。例如，对于网页，可以使用以下方法：
 
@@ -158,7 +158,7 @@ ht-degree: 68%
       </script>
       ```
 
-      有关如何使用at.js完成此操作的更多信息，请参阅 [targetPageParamsAll](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
+      有关如何使用at.js完成此操作的更多信息，请参阅 [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/).
 
 ## 步骤6:指定角色和权限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

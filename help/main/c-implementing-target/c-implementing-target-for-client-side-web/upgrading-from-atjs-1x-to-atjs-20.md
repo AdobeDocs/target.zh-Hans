@@ -5,10 +5,10 @@ title: 如何从at.js版本1.x升级到版本2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2821'
-ht-degree: 89%
+source-wordcount: '2874'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 89%
 
 ## at.js 2.*x* 系统图
 
-下图可帮助您了解含有视图的 at.js 2.*x* 工作流程以及其如何增强 SPA 集成。要更好地了解 at.js 2.*x* 中使用的概念，请参阅[单页应用程序实施](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)。
+下图可帮助您了解含有视图的 at.js 2.*x* 工作流程以及其如何增强 SPA 集成。要更好地了解 at.js 2.*x* 中使用的概念，请参阅[单页应用程序实施](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)。
 
 ![使用 at.js 2.*x*](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png) 的 Target 流程
 
@@ -54,7 +54,7 @@ ht-degree: 89%
 
 ## 部署 at.js 2.*x* {#deploy-atjs-200}
 
-1. 部署 at.js 2.*x* 通过 [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 扩展。
+1. 部署 at.js 2.*x* 通过 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 扩展。
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ ht-degree: 89%
 
    或
 
-   使用 Target UI 手动下载 at.js 2.*x*，并使用[您选择的方法](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)进行部署。
+   使用 Target UI 手动下载 at.js 2.*x*，并使用[您选择的方法](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/)进行部署。
 
 ## 已弃用的 at.js 函数
 
@@ -72,7 +72,7 @@ at.js 2.*x* 中有几个函数已被弃用。
 >
 >在部署 at.js 2.*x* 时，如果在您的网站上仍使用这些已弃用的函数，则将会看到控制台警告。升级时，建议在测试环境中测试 at.js 2.*x* 的部署，并确保查看控制台中已记录的每个警告，然后将已弃用的函数转换为 at.js 2.*x* 中引入的新函数。
 
-您可以在下面找到已弃用的函数及其对应的等效函数。有关函数的完整列表，请参阅 [at.js 函数](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)。
+您可以在下面找到已弃用的函数及其对应的等效函数。有关函数的完整列表，请参阅 [at.js 函数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/)。
 
 >[!NOTE]
 >at.js 2.*x* 不再自动预隐藏 `mboxDefault` 标记的元素。因此，客户必须在网站上手动或通过标签管理器容纳预隐藏逻辑。
@@ -288,7 +288,7 @@ at.js 2.*x* 使用一个新的 API，我们称之为“交付 API”。为了调
 
 但是，在 at.js 2.*x* 中，我们不再使用 HTTP GET，而是使用 HTTP POST。现在，通过 at.js 2.*x* 来使用 HTTP POST 将 JSON 有效负载发送到 Target 边缘服务器。这意味着检查浏览器是否支持第三方 Cookie 的重定向请求现在会中断。这是因为 HTTP GET 请求是幂等事务，而 HTTP POST 是非幂等事务，不能任意重复。因此，不再对 at.js 2.*x* 中的跨域跟踪功能提供开箱即用支持。只有 at.js 1.*x* 对跨域跟踪功能提供开箱即用支持。
 
-如果要使用跨域跟踪，则必须安装 [ECID库v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=zh-Hans) 与at.js 2.*x* 中不再对跨域跟踪提供开箱即用支持。ECID 库可以管理用于跨域识别访客的永久 ID。
+如果要使用跨域跟踪，则必须安装 [ECID库v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=zh-Hans) 与at.js 2.*x* 使用跨域跟踪功能时。ECID 库可以管理用于跨域识别访客的永久 ID。
 
 >[!NOTE]
 >
@@ -365,10 +365,10 @@ at.js 1.*x* 能够使用vst。*用于创建受众的mbox参数。 at.js 1.*x* �
 | 受众 | 是 |
 | 客户属性 | 是 |
 | AEM 体验片段 | 是 |
-| [!DNL Adobe Experience Platform] 扩展 | [是](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] 扩展 | [是](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
 | 调试程序 | 是 |
 | 审核 | at.js 2.*x* 尚未更新规则 |
-| 选择加入 | 否。[at.js 版本 2.1.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 支持满足 [GDPR](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) 要求的选择加入支持。 |
+| 选择加入 | 否。[at.js 版本 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 支持满足 [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) 要求的选择加入支持。 |
 | 由 Adobe Target 提供支持的 AEM 增强型个性化 | 否 |
 
 ### 功能

@@ -4,9 +4,9 @@ description: 浏览关于使用 Adobe Target 中各项功能的常见问题的�
 title: 可在何处找到优化和个性化问题的答案？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2789'
 ht-degree: 98%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 **Target 支持哪些浏览器？**
 
-有关更多详情，请阅读我们的[支持的浏览器](https://developer.adobe.com/target/before-implement/supported-browsers/)矩阵图。请注意，支持的浏览器分为两个方面：Target Standard/Premium Experience Cloud 界面支持，以及桌面/设备上的最终用户浏览器支持。
+请阅读我们的 [支持的浏览器](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}矩阵，以了解更多详细信息。 请注意，支持的浏览器分为两个方面：Target Standard/Premium Experience Cloud 界面支持，以及桌面/设备上的最终用户浏览器支持。
 
 ## 活动 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 

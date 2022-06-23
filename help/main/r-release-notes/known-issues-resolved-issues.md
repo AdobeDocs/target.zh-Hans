@@ -4,10 +4,10 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '4520'
-ht-degree: 99%
+source-wordcount: '4524'
+ht-degree: 98%
 
 ---
 
@@ -135,11 +135,11 @@ ht-degree: 99%
 
    作为解决方法，请在体验内容中使用空格。
 
-   at.js 2.2.0 中包括此问题的修复。升级到 [at.js 的最新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)或仅对低于 2.2.0 的 at.js 版本使用上述解决方法。(TNT-33366)
+   at.js 2.2.0中已修复此问题。请升级到 [最新版本或at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}或仅对低于2.2.0的at.js版本使用上述解决方法。  (TNT-33366)
 
 * 在使用低于 2.2.0 的 at.js 版本时，如果页面元素（如按钮）上不存在 [!DNL Adobe Analytics] 代码，则点击跟踪不会在 [!UICONTROL Analytics for Target] (A4T) 中报告转化。
 
-   at.js 2.2.0 已针对此问题进行了修复。如果您遇到此问题，[请升级到最新版本的 at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
+   at.js 2.2.0已针对此问题进行了修复。 [请升级到最新的at.js版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
 ### 地理定位
 

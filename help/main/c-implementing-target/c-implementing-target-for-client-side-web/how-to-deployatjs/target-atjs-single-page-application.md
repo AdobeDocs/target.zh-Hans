@@ -5,9 +5,9 @@ title: 我能否实施 [!DNL Target] (SPA)?
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2788'
+source-wordcount: '2790'
 ht-degree: 70%
 
 ---
@@ -233,7 +233,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 * 在视图开始渲染之前触发自定义事件
 * 在视图完成渲染时触发自定义事件
 
-at.js 2.x 添加了一个新的 API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/) 函数。您应该使用 `triggerView()` 来通知 at.js 视图将开始渲染。
+at.js 2.x添加了一个新API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank}函数。 您应该使用 `triggerView()` 来通知 at.js 视图将开始渲染。
 
 要了解如何组合自定义事件、at.js 2.x 和 Analytics，请参阅一个示例。此示例假设 HTML 页面包含访客 API，其后依次是 at.js 2.x 和 AppMeasurement。
 

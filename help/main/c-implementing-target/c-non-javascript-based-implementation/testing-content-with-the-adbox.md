@@ -5,10 +5,10 @@ title: 如何为图像创建Adbox?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 70%
+source-wordcount: '339'
+ht-degree: 66%
 
 ---
 
@@ -48,7 +48,7 @@ AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 
 
 1. 创建活动。
 
-   请参阅[不基于 JavaScript 的实施](https://developer.adobe.com/target/implement/email/)，以了解如何正确设置来实现您的目标。
+   请参阅 [不基于JavaScript的实施](https://developer.adobe.com/target/implement/email/){target=_blank}，以了解如何正确设置来实现您的目标。
 1. 完成活动 QA。
 
    最佳做法是，创建一个虚拟页面，并确认在所有环境中，所有体验、默认内容和报表在所有类型的浏览器上的行为均符合预期。

@@ -5,10 +5,10 @@ title: 如何自定义全局mbox?
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 17%
+source-wordcount: '231'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 17%
 
 1. 实施 [!DNL at.js] 库。
 
-   请参阅 [如何部署at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/) 以了解更多信息。
+   请参阅 [如何部署at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/){target=_blank}以了解详细信息。
 
 1. 在您的版本中安排进行转换。
 

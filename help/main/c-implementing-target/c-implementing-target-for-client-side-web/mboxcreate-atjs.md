@@ -5,10 +5,10 @@ title: 如何使用mboxCreate()函数？
 feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 76%
+source-wordcount: '214'
+ht-degree: 73%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 76%
 
 `mboxCreate()` 现在使用“json”端点而不是“standard”端点且会异步触发。因此：
 
-* [调试](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)稍有不同。
+* [调试](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank}稍有不同。
 * 避免出现需要同步且阻止调用的选件代码。
 
    例如，设置由站点代码或稍后出现在页面上的其他 mbox 所使用的 JavaScript 变量的选件。

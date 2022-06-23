@@ -4,9 +4,9 @@ description: 了解 Adobe [!DNL Target] 的工作原理，包括关于 [!DNL Tar
 title: ' [!DNL Target] 的工作原理'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2565'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 [!DNL Target] 使用 [!DNL Experience Platform Web SDK] 或 JavaScript 库与网站集成：
 
-* **Adobe Experience Platform Web SDK：**[Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) 是一个新的客户端 JavaScript 库。Experience Platform Web SDK 使 [!DNL Adobe Experience Cloud] 的客户可通过 [!DNL Experience Platform] 边缘网络与 [!DNL Experience Cloud] 中的各种服务（包括 [!DNL Target]）进行交互。Adobe 建议所有新 [!DNL Target] 客户均实施 [!DNL Experience Platform Web SDK]。
+* **Adobe Experience Platform Web SDK:** 的 [Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}是新的客户端JavaScript库。 Experience Platform Web SDK 使 [!DNL Adobe Experience Cloud] 的客户可通过 [!DNL Experience Platform] 边缘网络与 [!DNL Experience Cloud] 中的各种服务（包括 [!DNL Target]）进行交互。Adobe 建议所有新 [!DNL Target] 客户均实施 [!DNL Experience Platform Web SDK]。
 * **at.js：** at.js 库是 [!DNL Target] 的一个实施库。使用 at.js 库可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。经常更新 at.js 以增加新功能。Adobe 建议所有使用 at.js 的客户都将其实现更新到 [at.js 的最新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
 * **mbox.js：** mbox.js 库是 [!DNL Target] 旧版实施库。2021 年 3 月 31 日后不再支持 mbox.js 库。
 

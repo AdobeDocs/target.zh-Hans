@@ -5,9 +5,9 @@ title: 设备上决策如何与at.js JavaScript库一起使用？
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '3546'
+source-wordcount: '3552'
 ht-degree: 7%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 7%
 
 ## 设备内决策的工作原理是什么？
 
-在启用设备决策的情况下部署和初始化at.js时， [规则对象](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) 其中包括对A/B和XT活动、受众和资产的设备内决策，将从与访客最近的Akamai CDN下载并缓存到访客的本地浏览器中。 当从at.js发出请求以检索体验时，系统会根据缓存的规则对象中编码的元数据，在内存中决定要返回哪个体验。
+在启用设备决策的情况下部署和初始化at.js时， [规则对象](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/){target=_blank}（包括您针对A/B和XT活动、受众和资产的设备决策）将从距离您访客最近的Akamai CDN下载并缓存到访客浏览器本地。 当从at.js发出请求以检索体验时，系统会根据缓存的规则对象中编码的元数据，在内存中决定要返回哪个体验。
 
 ## 决策方法
 
@@ -222,7 +222,7 @@ JSON规则对象包含元数据，用于通知at.jsmbox是运行服务器端活�
 
    关闭此切换开关意味着您必须重新创建并激活任何设备上决策活动，以便将这些活动包含在生成的规则对象中。 换言之，在打开 [!UICONTROL 设备内决策] 切换未包含在规则对象中。
 
-启用 [!UICONTROL 设备内决策] 切换， [!DNL Target] 开始生成和传播 [规则工件](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) 给你的客户。
+启用 [!UICONTROL 设备内决策] 切换， [!DNL Target] 开始生成和传播 [规则工件](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/){target=_blank}。
 
 >[!IMPORTANT]
 >
@@ -269,7 +269,7 @@ JSON规则对象包含元数据，用于通知at.jsmbox是运行服务器端活�
 
 ### 自定义设置
 
-如果您将 `decisioningMethod` in `window.targetGlobalSettings`，但是希望覆盖 `decisioningMethod` 对于根据您的用例做出的每个Adobe Target决策，您可以通过指定 `decisioningMethod` 在At.js2.5.0+的 [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) 呼叫。
+如果您将 `decisioningMethod` in `window.targetGlobalSettings`，但是希望覆盖 `decisioningMethod` 对于根据您的用例做出的每个Adobe Target决策，您可以通过指定 `decisioningMethod` 在At.js2.5.0+的 [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}调用。
 
 ```javascript
 adobe.target.getOffers({ 

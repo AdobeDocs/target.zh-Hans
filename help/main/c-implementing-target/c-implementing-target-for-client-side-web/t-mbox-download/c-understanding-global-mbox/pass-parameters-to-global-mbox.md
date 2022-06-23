@@ -5,9 +5,9 @@ title: 如何将参数传递到全局mbox?
 feature: at.js
 role: Developer
 exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 59%
 
 ---
@@ -22,7 +22,7 @@ JavaScript `targetPageParams` 函数将参数传递到 [!DNL Adobe Target]. 在�
 
 >[!NOTE]
 >
->如果您想要将参数添加到页面上的所有mbox，而不只是全局mbox，请使用 [targetPageParamsAll()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/) 函数。
+>如果您想要将参数添加到页面上的所有mbox，而不只是全局mbox，请使用 [targetPageParamsAll()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}函数。
 
 您可以按照以下任一方式使用 `targetPageParams()` 函数将参数传递到 `target-global-mbox`：
 

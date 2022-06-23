@@ -4,10 +4,10 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '34154'
-ht-degree: 98%
+source-wordcount: '34166'
+ht-degree: 97%
 
 ---
 
@@ -260,7 +260,7 @@ ht-degree: 98%
 
 具有设备上决策功能的新 [!DNL Adobe Target] Python SDK 现已推出。此最新添加支持服务器端 SDK 的 [!DNL Target] 套件。这些 SDK 可帮助您以所选择的语言与 [!DNL Target] 集成并加快实现价值的时间。鉴于市场正在转向第一方数据很有价值的无 Cookie 领域，服务器端集成正在成为一种很受欢迎的选择。Target SDK 采用市场上最受欢迎的编程语言（Python、Java、JavaScript、C# / .Net）。
 
-有关更多信息，请参阅 [Python SDK文档](https://developer.adobe.com/target/implement/server-side/python/) 在 [Adobe Target开发人员指南](https://developer.adobe.com/target/).
+有关更多信息，请参阅 [Python SDK文档](https://developer.adobe.com/target/implement/server-side/python/){target=_blank} [Adobe Target开发人员指南](https://developer.adobe.com/target/).
 
 ### Target Standard/Premium 21.5.1（2021 年 6 月 7 日）
 
@@ -287,7 +287,7 @@ ht-degree: 98%
 
 此版本的 at.js 包括以下增强功能和更改：
 
-* 对 at.js 的[设备上决策](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/)支持。
+* [设备内决策](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/)对at.js的{target=_blank}支持。
 * 对 Automated Personalization 活动的[预览链接](/help/main/c-activities/c-activity-qa/activity-qa.md)支持。
 
 此版本还移除了对 Microsoft Internet Explorer 10、Internet Explorer 11 和所有较旧版本的支持。at.js 2.5.0 及更高版本继续支持 Microsoft Edge。
@@ -372,7 +372,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 | 功能 | 详细信息 |
 | --- | --- |
-| 设备上决策 | 通过设备上决策，营销人员和产品开发人员均可在用户的设备内跨渠道几乎无延迟地提供试验性和机器学习驱动的个性化。<br>速度和性能至关重要 - 对于客户见解和用户满意度。<br>通过设备上决策，可将 A/B 测试和体验定位 (XT) 活动类型中的关键个性化和试验指令编译为“优化工件”：通过 CDN 加载到客户设备上的 JSON 对象。并且由于设备上决策与 [!DNL Adobe Experience Cloud] 产品存在固有联系，因此 [!DNL Target] 用户可获得快速的分析和更快的体验迭代。<br>有关更多信息，请参阅*[at.js的设备内决策](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/) 和 [设备上决策简介](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/)用于服务器端的{target=_blank}。 |
+| 设备上决策 | 通过设备上决策，营销人员和产品开发人员均可在用户的设备内跨渠道几乎无延迟地提供试验性和机器学习驱动的个性化。<br>速度和性能至关重要 - 对于客户见解和用户满意度。<br>通过设备上决策，可将 A/B 测试和体验定位 (XT) 活动类型中的关键个性化和试验指令编译为“优化工件”：通过 CDN 加载到客户设备上的 JSON 对象。并且由于设备上决策与 [!DNL Adobe Experience Cloud] 产品存在固有联系，因此 [!DNL Target] 用户可获得快速的分析和更快的体验迭代。<br>有关更多信息，请参阅*[at.js的设备内决策](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/){target=_blank}和 [设备上决策简介](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/)用于服务器端的{target=_blank}。 |
 
 此版本包含以下增强功能、修复和更改：
 
@@ -875,8 +875,8 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 
 | 功能/增强 | 描述 |
 | --- | --- |
-| at.js 版本 2.0.0<br>2019 年 2 月 19 日 | at.js 2.x 现已可用。<br>最新版本的 at.js 提供了丰富的功能集，使您的企业能够在下一代客户端技术上实现个性化。这个新版本着重升级了 at.js 以与单页应用程序 (SPA) 进行良性的交互。<br>以下是使用 at.js 2.x 的一些好处，这些好处在以前的版本中未提供：<ul><li>能够在页面加载时缓存所有选件，将多次服务器调用减少至一次服务器调用。</li><li>由于选件是通过缓存立即显示的，不存在传统服务器调用引入的任何时间延迟，因此极大地提升了最终用户在您网站上的体验。</li><li>通过简单的单行代码和一次性开发人员设置，您的营销人员能够通过可视化体验编辑器 (VEC) 在单页应用程序上创建和运行 A/B 和体验 (XT) 活动。</li></ul>at.js 2.x 引入了以下新函数：<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>以下函数在引入 at.js 2.x 后被弃用：<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>有关更多信息，请参阅[从 at.js 1.x 升级到 at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 和 [at.js 函数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/)。<br>**注意**：如果您需要 Adobe 选择加入对[《通用数据保护条例》](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)(GDPR) 提供支持，则您当前必须使用 at.js 1.7.0。at.js 2.x 不支持选择加入支持。 |
-| at.js 版本 1.7.0<br>2019 年 2 月 14 日 | at.js 1.7.0 现在可用。<br>此版本提供了 Adobe 选择加入支持。通过 Adobe 选择加入，可轻松将 Adobe 解决方案与同意管理平台集成。<br>有关 Adobe 选择加入的更多信息，请参阅[隐私和通用数据保护条例](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) (GDPR)。<br>此版本还修复了 Target 可能使用来自重定向 URL 的参数覆盖重定向 URL 参数的问题。<br>**注意**：如果您需要 Adobe 选择加入对 GDPR 提供支持，则您当前必须使用 at.js 1.7.0。at.js 2.x 不支持选择加入支持。<br>有关所有版本的列表，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。 |
+| at.js 版本 2.0.0<br>2019 年 2 月 19 日 | at.js 2.x 现已可用。<br>最新版本的 at.js 提供了丰富的功能集，使您的企业能够在下一代客户端技术上实现个性化。这个新版本着重升级了 at.js 以与单页应用程序 (SPA) 进行良性的交互。<br>以下是使用 at.js 2.x 的一些好处，这些好处在以前的版本中未提供：<ul><li>能够在页面加载时缓存所有选件，将多次服务器调用减少至一次服务器调用。</li><li>由于选件是通过缓存立即显示的，不存在传统服务器调用引入的任何时间延迟，因此极大地提升了最终用户在您网站上的体验。</li><li>通过简单的单行代码和一次性开发人员设置，您的营销人员能够通过可视化体验编辑器 (VEC) 在单页应用程序上创建和运行 A/B 和体验 (XT) 活动。</li></ul>at.js 2.x 引入了以下新函数：<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>以下函数在引入 at.js 2.x 后被弃用：<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>有关更多信息，请参阅 [从at.js 1.x升级到at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}和 [at.js函数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).<br>**注意**:如果您需要Adobe选择加入支持 [《通用数据保护条例》](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}(GDPR)，您当前必须使用at.js 1.7.0。at.js 2.x不支持选择加入支持。 |
+| at.js 版本 1.7.0<br>2019 年 2 月 14 日 | at.js 1.7.0 现在可用。<br>此版本提供了 Adobe 选择加入支持。通过 Adobe 选择加入，可轻松将 Adobe 解决方案与同意管理平台集成。<br>有关Adobe选择加入的更多信息，请参阅 [隐私和《通用数据保护条例》](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}(GDPR)。<br>此版本还修复了 Target 可能使用来自重定向 URL 的参数覆盖重定向 URL 参数的问题。<br>**注意**：如果您需要 Adobe 选择加入对 GDPR 提供支持，则您当前必须使用 at.js 1.7.0。at.js 2.x 不支持选择加入支持。<br>有关所有版本的列表，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。 |
 
 ### [!DNL Target] Standard/Premium 19.2.1（2019 年 2 月 19 日） {#target-19-2-1}
 

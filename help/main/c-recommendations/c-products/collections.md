@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用收藏集 [!DNL Target] Recommendation
 title: 如何在Recommendations活动中使用收藏集？
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 60%
+source-wordcount: '886'
+ht-degree: 59%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 60%
 
    ![悬停图标：编辑、复制和删除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL 收藏集]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数量。请参阅[设置](https://developer.adobe.com/target/implement/recommendations/)以更改默认主机组。
+   [!UICONTROL 收藏集]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数量。请参阅 [设置](https://developer.adobe.com/target/implement/recommendations/){target=_blank}更改默认主机组。
 
 1. 单击&#x200B;**[!UICONTROL 创建收藏集]**。
 

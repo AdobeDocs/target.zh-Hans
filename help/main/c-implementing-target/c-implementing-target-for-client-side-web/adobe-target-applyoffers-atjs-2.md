@@ -5,9 +5,9 @@ title: 如何使用adobe.target.applyOffers()函数？
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '836'
 ht-degree: 87%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->请查阅 [交付API文档](https://developer.adobe.com/target/before-administer/) 有关下面列出的所有字段可接受类型的信息。
+>请查阅 [交付API文档](https://developer.adobe.com/target/before-administer/){target=_blank}以了解有关下面列出的所有字段可接受类型的信息。
 
 | 字段名称 | 描述 |
 | --- | --- |

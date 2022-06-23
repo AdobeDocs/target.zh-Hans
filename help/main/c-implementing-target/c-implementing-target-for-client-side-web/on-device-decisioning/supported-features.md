@@ -5,9 +5,9 @@ title: 设备上决策支持哪些功能
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '478'
 ht-degree: 13%
 
 ---
@@ -73,7 +73,7 @@ window.adobe.target.getOffers({
 })
 ```
 
-但是，如果您无法在服务器上执行IP到地域查找，但仍希望对 [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) 请求包含基于地域的受众，也支持此受众。 这种方法的缺点是它使用远程IP到地域查找，这会增加每个 `getOffers` 呼叫。 此延迟应小于 `getOffers` 通过服务器端决策调用，因为它会命中靠近您服务器的CDN。 在您请求SDK检索访客IP地址的地理位置的上下文中，仅在地理对象中提供“ipAddress”字段。 如果除了“ipAddress”之外还提供了任何其他字段，则 [!DNL Target] SDK将不会获取用于解析的地理位置元数据。
+但是，如果您无法在服务器上执行IP到地域查找，但仍希望对 [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/)包含基于地理位置的受众的{target=_blank}请求，也支持此请求。 这种方法的缺点是它使用远程IP到地域查找，这会增加每个 `getOffers` 呼叫。 此延迟应小于 `getOffers` 通过服务器端决策调用，因为它会命中靠近您服务器的CDN。 在您请求SDK检索访客IP地址的地理位置的上下文中，仅在地理对象中提供“ipAddress”字段。 如果除了“ipAddress”之外还提供了任何其他字段，则 [!DNL Target] SDK将不会获取用于解析的地理位置元数据。
 
 ```javascript
 window.adobe.target.getOffers({ 

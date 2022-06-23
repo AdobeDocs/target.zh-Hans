@@ -5,10 +5,10 @@ title: at.js支持哪些集成？
 feature: at.js
 role: Developer
 exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 79%
+source-wordcount: '501'
+ht-degree: 75%
 
 ---
 
@@ -42,4 +42,4 @@ ht-degree: 79%
 | 集成 | 详细信息 |
 |--- |--- |
 | 其他标签管理器 | at.js 应该可以在非 Adobe 标签管理平台中使用，但是使用由其他供应商开发的自定义集成功能时要小心谨慎。其他供应商提供的集成可能会依赖一些内部 mbox.js 函数，而 at.js 中已不再存在这些函数。 |
-| 第三方数据提供程序（例如 Demandbase、Bluekai、天气 API） | 使用 at.js [数据提供程序](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)功能，可以集成许多用于补充 Target 用户分析的第三方数据提供程序. |
+| 第三方数据提供程序（例如 Demandbase、Bluekai、天气 API） | 使用at.js，可以集成许多用于补充Target用户分析的第三方数据提供程序 [数据提供程序](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}功能。 |

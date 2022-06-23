@@ -5,10 +5,10 @@ title: 什么是响应令牌？如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1676'
-ht-degree: 28%
+source-wordcount: '1680'
+ht-degree: 27%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 28%
 
 | Target SDK | 建议的操作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版本的Platform Web SDK的信息，请参阅 [安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 在 *平台Web SDK概述* 的双曲余切值。 有关每个Platform Web SDK版本中新功能的信息，请参阅 [发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 在 *平台Web SDK概述* 的双曲余切值。 |
+| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版本的Platform Web SDK的信息，请参阅 [安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} *平台Web SDK概述* 的双曲余切值。 有关每个Platform Web SDK版本中新功能的信息，请参阅 [发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 在 *平台Web SDK概述* 的双曲余切值。 |
 | [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本 at.js 的信息，请参阅[下载 at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)。有关每个 at.js 版本新功能的信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在mbox.js（现已弃用）中存在，而在at.js中不存在，但这些插件会交付，但交付失败。 |
 
 ## 使用响应令牌 {#section_A9E141DDCBA84308926E68D05FD2AC62}
@@ -149,7 +149,7 @@ ht-degree: 28%
 
 ### ![at.js徽章](/help/main/assets/atjs.png) at.js使用自定义事件
 
-使用 [at.js 自定义事件](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/)来监听 响应并读取响应令牌。[!DNL Target]
+使用 [at.js自定义事件](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/){target=_blank}来侦听 [!DNL Target] 响应并读取响应令牌。
 
 以下代码示例可将一个 [!DNL at.js] 自定义事件处理程序直接添加到 HTML 页面：
 

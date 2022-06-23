@@ -4,10 +4,10 @@ description: 了解如何在Adobe中构建个性化模型时上传离线数据�
 title: 如何为个性化算法上传数据？
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 73%
+source-wordcount: '301'
+ht-degree: 63%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 73%
 
 在中构建个性化模型时，离线数据（如CRM信息或客户流失倾向得分）可能会非常有价值 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)活动。
 
-可通过多种方式在[!UICONTROL 自动个性化] (AP) 和[!UICONTROL 自动定位]个性化算法中输入数据。除了[将数据导入 Target 的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)中的方法之外，我们的算法中还使用了 Experience Cloud 共享受众（Adobe Analytics、Audience Management）和活动中的报表受众。
+可通过多种方式在[!UICONTROL 自动个性化] (AP) 和[!UICONTROL 自动定位]个性化算法中输入数据。除了 [将数据导入Target的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)、Experience Cloud共享受众(Adobe Analytics、受众管理){target=_blank}和活动中报表受众也在我们的算法中使用。
 
 有关自动个性化和自动定位个性化算法自动收集和使用的数据的信息，请参阅[自动个性化数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 

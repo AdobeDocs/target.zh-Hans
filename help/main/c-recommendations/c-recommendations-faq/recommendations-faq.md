@@ -4,9 +4,9 @@ description: 查看关于 Adobe [!DNL Target] 推荐活动的常见问题和答�
 title: 可在何处找到关于 [!DNL Target] 推荐的问答？
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '3133'
+source-wordcount: '3135'
 ht-degree: 99%
 
 ---
@@ -94,7 +94,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果使用 mbox 中存在类别 ID 的位置，则标准选取器包含所有适用的标准。
 
-[!DNL Target] 具有[“筛选不兼容的标准”](https://developer.adobe.com/target/implement/recommendations/)设置以控制算法选取器的智能筛选。
+[!DNL Target] 具有 [筛选不兼容的标准](https://developer.adobe.com/target/implement/recommendations/){target=_blank}设置，用于控制算法选取器的智能筛选。
 
 >[!NOTE]
 >

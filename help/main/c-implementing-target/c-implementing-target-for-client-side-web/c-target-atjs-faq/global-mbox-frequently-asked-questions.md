@@ -5,10 +5,10 @@ title: 有关全局mbox的常见问题解答有哪些？
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 77%
+source-wordcount: '318'
+ht-degree: 64%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 77%
 
 您可以通过向活动中添加 URL 规则来限制活动运行的位置。有关更多信息，请参阅[在相似页面上包含相同体验](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)。
 
-您还可以在页面上使用 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/) 来传递参数，然后在 [!UICONTROL 可视化体验编辑器] (VEC) 的“配置 URL”部分选择这些参数，或者在基于表单的体验编辑器中通过将参数添加为“细化”来选择这些参数。
+您还可以在页面上使用 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}，然后在 [!UICONTROL 可视化体验编辑器] (VEC)或在基于表单的体验编辑器中通过将参数添加为“细化”来实现。
 
 ## 如何在 [!DNL Target] 全局mbox? {#section_17AEA933BADA4D169CCEDF5833C41306}
 

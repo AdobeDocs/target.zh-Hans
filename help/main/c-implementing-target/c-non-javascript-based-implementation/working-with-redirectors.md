@@ -5,10 +5,10 @@ title: 如何使用重定向器？
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 70%
+source-wordcount: '691'
+ht-degree: 68%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 70%
 1. 如果您要为一个广告测试不同目标，则请为每个版本创建[重定向选件](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
 1. 创建营销活动。
 
-   请参阅[不基于 JavaScript 的实施](https://developer.adobe.com/target/implement/email/)，以了解如何正确设置来实现您的目标。
+   请参阅 [不基于JavaScript的实施](https://developer.adobe.com/target/implement/email/){target=_blank}，以了解如何正确设置来实现您的目标。
 1. 完成营销活动质量保证工作。
 
    使用包含重定向器 URL 的 `<a href>` 创建一个虚拟页面。示例：

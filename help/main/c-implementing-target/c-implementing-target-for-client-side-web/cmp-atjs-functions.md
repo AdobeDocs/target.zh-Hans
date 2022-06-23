@@ -5,10 +5,10 @@ title: 我可以将哪些函数与at.js一起使用？
 feature: at.js
 role: Developer
 exl-id: a386e478-16f4-4bf6-9771-6b1e75f2e362
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 78%
+source-wordcount: '657'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 78%
 | [adobe.target.getOffers(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/)<br>(at.js 2.x) | 此函数允许您通过传递多个 mbox 来检索多个选件。此外，还可以针对活跃活动中的所有视图检索多个选件。<br>**注意：**&#x200B;此函数已在 at.js 2.x 中引入。但此函数不适用于 at.js 版本 1.*x*。 |
 | [adobe.target.applyOffer(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-applyoffer/) | 此函数用于应用响应内容。 |
 | [adobe.target.applyOffers(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-applyoffers-atjs-2/)<br>(at.js 2.x) | 此函数允许您应用 adobe.target.getOffers() 检索到的多个选件。<br>**注意：**&#x200B;此函数已在 at.js 2.x 中引入。但此函数不适用于 at.js 版本 1.*x* 目前不支持选择加入支持。 |
-| [adobe.target.triggerView (viewName, options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)<br>(at.js 2.x) | 每当加载新页面或重新渲染页面上的组件时，都可以调用此函数。<br>应该为单页应用程序 (SPA) 实施此函数，以便使用可视化体验编辑器 (VEC) 创建 A/B 测试和体验定位 (XT) 活动。 |
+| [adobe.target.triggerView (viewName, options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)<br>(at.js 2.x) | 每当加载新页面或重新渲染页面上的组件时，都可以调用此函数。<br> 应该为单页应用程序(SPA){target=_blank}实施此函数，以便使用可视化体验编辑器(VEC)创建A/B测试和体验定位(XT)活动。 |
 | [adobe.target.trackEvent(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-trackevent/) | 此函数会触发用户操作（例如点击和转化）报告请求。它不会在响应中交付活动。 |
 | [mboxCreate(mbox,params)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/mboxcreate-atjs/)<br>(at.js 1.x) | 可使用 mboxDefault 类名称执行请求并将选件应用到最近的 DIV。<br>**注意：**&#x200B;此函数仅可用于 at.js 版本 1.*x*。此函数已在 at.js 2.x 版本中弃用。如果与 at.js 2.x 一起使用，此函数将返回默认内容。 |
 | [mboxDefine(options) 和 mboxUpdate(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/mboxdefine-mboxupdate-atjs-1x/)<br>(at.js 1.x) | 定义和更新 mbox。<br>**注意：**&#x200B;此函数仅可用于 at.js 版本 1.*x*。此函数已在 at.js 2.x 版本中弃用。如果与 at.js 2.x 一起使用，此函数将返回默认内容。 |

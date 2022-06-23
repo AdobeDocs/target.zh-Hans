@@ -5,10 +5,10 @@ title: 浏览器的功能 [!DNL Target] 支持？
 feature: Implementation
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 44%
+source-wordcount: '347'
+ht-degree: 40%
 
 ---
 
@@ -42,4 +42,4 @@ ht-degree: 44%
 * 对于 [!DNL at.js] 实施，在较低版本的 Internet Explorer 中，[!DNL Target] 会显示默认内容；在上面所列其他浏览器的较低版本中，Target 可能会显示默认内容。
 * Internet Explorer将所有未知元素（如自定义元素）视为相同的元素类型。 因此，交付不适用于自定义元素。
 * [!DNL Target]在上面未列出的浏览器以及使用[怪异模式](https://en.wikipedia.org/wiki/Quirks_mode)的浏览器中， 会显示默认内容。at.js 要求使用可在标准模式下渲染的文档类型，例如：`<!DOCTYPE html>`。
-* Adobe 交付基础架构已确定在 2018 年 9 月 12 日之后“不”支持 TLS 1.0 设备和浏览器。请参阅 [TLS（传输层安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)以了解此更改带来的总体影响。
+* Adobe 交付基础架构已确定在 2018 年 9 月 12 日之后“不”支持 TLS 1.0 设备和浏览器。请参阅 [TLS（传输层安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}以了解此更改的总体影响。

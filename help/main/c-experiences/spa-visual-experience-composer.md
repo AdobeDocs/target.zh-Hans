@@ -4,9 +4,9 @@ description: 了解如何在Adobe中使用SPA VEC [!DNL Target] 以DIY（自己�
 title: 如何使用单页应用程序可视化体验编辑器(SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '3720'
+source-wordcount: '3722'
 ht-degree: 90%
 
 ---
@@ -67,7 +67,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    通过位于的Adobe Target UI下载at.js 2.x [!UICONTROL 管理>实施]. at.js 2.x也可以通过 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). 但是，Adobe Target扩展当前不是最新的，不受支持。
 
-1. 在您的网站上实施 at.js 2.x 的最新函数：[triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)。
+1. 实施at.js 2.x的最新函数： [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank}。
 
    在定义要运行 A/B 或 XT 测试的 SPA 视图之后，实施 at.js 2.x 的 `triggerView()` 函数，并将视图作为参数传递。这允许营销人员使用 VEC 来针对所定义的那些视图设计和运行 A/B 和 XT 测试。如果没有为这些视图定义 `triggerView()` 函数，则 VEC 将不会检测到视图，因此营销人员将无法使用 VEC 来设计和运行 A/B 和 XT 测试。
 

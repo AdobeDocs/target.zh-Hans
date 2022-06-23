@@ -5,10 +5,10 @@ title: 有关at.js的常见问题和答案是什么？
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2586'
-ht-degree: 59%
+source-wordcount: '2590'
+ht-degree: 57%
 
 ---
 
@@ -205,7 +205,7 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 * 基础页面是 [!UICONTROL 单页应用程序] (SPA)或页面包含显示在 [!DNL at.js] “选择器轮询机制”找不到这些元素。 增加 `selectorsPollingTimeout` 可能会有所帮助。有关更多信息，请参阅 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
 * 任何点击跟踪量度都会尝试将其自身添加到每个页面，而不考虑已设置量度的 URL。尽管不会产生不利影响，但此情况会显示许多此类消息。
 
-   为获得最佳结果，请下载并使用最新版本的 [!DNL at.js]。有关更多信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)和[下载 at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)。
+   为获得最佳结果，请下载并使用最新版本的 [!DNL at.js]。有关更多信息，请参阅 [at.js版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}和 [下载at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
 
 ## tt.omtrdc.net是什么域 [!DNL Target] 服务器调用转到？ {#section_999C29940E8B4CAD8A957A6B1D440317}
 
@@ -225,7 +225,7 @@ HttpOnly 只能通过服务器端代码进行设置。[!DNL Target] Cookie（例
 
 ## 在最佳情况下，当执行隐藏、替换和显示内容这类页面加载操作时，用户是否不会受到明显影响？ {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-at.js会尝试避免在较长的时间内预先隐藏HTML主体或其他DOM元素，但这取决于网络条件和活动设置。 at.js 会提供[设置](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)，您可以使用这些设置来自定义主体隐藏 CSS 样式，这样您可以预先隐藏页面的某些部分，而不清空整个 HTML 主体。预期的情况是这些部分包含必须进行“个性化”的 DOM 元素。
+at.js会尝试避免在较长的时间内预先隐藏HTML主体或其他DOM元素，但这取决于网络条件和活动设置。 at.js提供 [设置](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}您可以使用自定义主体隐藏CSS样式，这样您就可以预先隐藏页面的某些部分，而不清空整个HTML主体。 预期的情况是这些部分包含必须进行“个性化”的 DOM 元素。
 
 ## 在用户符合活动条件的一般场景中，事件的序列是怎样的？ {#section_56E6F448E901403FB77DF02F44C44452}
 

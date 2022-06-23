@@ -5,10 +5,10 @@ title: ' [!DNL Target] 如何处理隐私问题？'
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 98%
+source-wordcount: '754'
+ht-degree: 92%
 
 ---
 
@@ -69,4 +69,4 @@ https://my.cname.domain/optout?client=clientcode.
 
 ## 隐私和数据保护法规
 
-有关欧盟的通用数据保护条例 (GDPR)、加州消费者隐私法案 (CCPA) 和其他国际隐私要求的信息，以及这些法规对您的组织和 Adobe Target 的影响，请参阅[隐私和数据保护法规](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)。
+请参阅 [隐私和数据保护法规](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} ，以了解有关欧盟《通用数据保护条例》(GDPR)、《加州消费者隐私法案》(CCPA)和其他国际隐私要求以及这些法规对贵组织和Adobe Target有何影响的信息。

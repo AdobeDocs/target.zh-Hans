@@ -5,10 +5,10 @@ title: at.js Javascript 库如何工作？
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1136'
-ht-degree: 97%
+source-wordcount: '1138'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ at.js 库是适用于 Target 的新实施库。使用 at.js 库可缩短 Web 实
 
 ## at.js 1.*x* 和 at.js 2.x 工作流程图之间有何差异？
 
-请参阅[从 at.js 1.x 升级到 at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)，以了解有关 2.O 与 1.*x* 之间的差异。
+请参阅 [从at.js 1.x升级到at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} ，以了解有关2.O与1.*x* 之间的差异。
 
 从高层次来看，两个版本之间存在一些差异：
 

@@ -5,10 +5,10 @@ title: 如何从at.js版本1.x升级到版本2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2874'
-ht-degree: 88%
+source-wordcount: '2878'
+ht-degree: 87%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 88%
 
 ## 部署 at.js 2.*x* {#deploy-atjs-200}
 
-1. 部署 at.js 2.*x* 通过 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 扩展。
+1. 部署 at.js 2.*x* 通过 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}扩展。
 
    >[!NOTE]
    >
@@ -368,7 +368,7 @@ at.js 1.*x* 能够使用vst。*用于创建受众的mbox参数。 at.js 1.*x* �
 | [!DNL Adobe Experience Platform] 扩展 | [是](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
 | 调试程序 | 是 |
 | 审核 | at.js 2.*x* 尚未更新规则 |
-| 选择加入 | 否。[at.js 版本 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 支持满足 [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) 要求的选择加入支持。 |
+| 选择加入 | 否。支持 [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)支持{target=_blank} [at.js版本2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
 | 由 Adobe Target 提供支持的 AEM 增强型个性化 | 否 |
 
 ### 功能

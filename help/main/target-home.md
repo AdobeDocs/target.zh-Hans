@@ -1,17 +1,17 @@
 ---
 keywords: Target;主页;热门主题;adobe target;target standard;target premium;target 文档;adobe target 文档;主目录
-title: 可在何处找到 [!DNL Target] 文档？
+title: Adobe Target Business Pactier Guide
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: f8c5492d001166c054752d9577bb6b9ddc846e48
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 90%
+source-wordcount: '528'
+ht-degree: 88%
 
 ---
 
-# [!DNL Adobe Target]指南
+# Adobe Target Business Pactier Guide
 
 ![横幅](assets/target-home-banner-simple.png)
 

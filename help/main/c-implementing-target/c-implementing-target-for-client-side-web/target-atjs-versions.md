@@ -5,10 +5,10 @@ title: at.js的每个版本中都包含哪些内容？
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '4584'
-ht-degree: 84%
+source-wordcount: '4618'
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 84%
 >
 >Target团队同时支持at.js 1.*x* 与 at.js 2.*x* 之间的映射。请升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。
 >
->中的标记 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}是升级at.js的首选方法。 扩展开发人员会不断向其扩展中添加新功能，并且会经常修复错误。 这些更新将打包到扩展的新版本中，并在 [!DNL Adobe Experience Platform] 目录作为升级。 有关更多信息，请参阅 [扩展升级](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 在 *标记概述* 的双曲余切值。
+>中的标记 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}是升级at.js的首选方法。 扩展开发人员会不断向其扩展中添加新功能，并且会经常修复错误。 这些更新将打包到扩展的新版本中，并在 [!DNL Adobe Experience Platform] 目录作为升级。 有关更多信息，请参阅 [扩展升级](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html){target=_blank} *标记概述* 的双曲余切值。
 
 ## at.js 版本 2.9.0（2022 年 5 月 27 日）
 
@@ -35,7 +35,7 @@ ht-degree: 84%
 
 ## at.js 版本 2.8.0（2022 年 1 月 7 日）
 
-[!DNL Target] at.js JavaScript 库现在收集功能使用情况和性能遥测数据。不收集个人数据。可以在 `targetGlobalSettings` 中将 `telemetryEnabled` 设置为 false 来选择退出此功能。有关更多信息，请参阅 [targetGlobalSettings 中的 telemetryEnabled](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
+[!DNL Target] at.js JavaScript 库现在收集功能使用情况和性能遥测数据。不收集个人数据。可以在 `targetGlobalSettings` 中将 `telemetryEnabled` 设置为 false 来选择退出此功能。有关更多信息，请参阅 [targetGlobalSettings中已启用遥测](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## at.js 版本 2.7.0（2021 年 10 月 28 日）
 
@@ -109,7 +109,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 此版本的 at.js 是一个维护版本，它包括以下增强功能和修复：
 
-* 使得可通过 [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) 覆盖 `deviceIdLifetime` 设置。(TNT-36349)
+* 使 `deviceIdLifetime` 设置可覆盖的通道 [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。 (TNT-36349)
 * 修复了在使用 CNAME 和边缘覆盖 at.js 2 时出现的问题。*x* 可能无法正确地创建服务器域，从而导致了 [!DNL Target] 请求失败。(TNT-35065)
 * 修复了一个问题，在使用 [!DNL Target]  扩展程序 v2 和 [!DNL Adobe Analytics] [!DNL Launch] 扩展程序时，[!DNL Target] 延迟了 [!DNL Analytics] `sendBeacon` 调用。（TNT-36407、TNT-35990、TNT-36000）
 
@@ -140,7 +140,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
    >
    >将您的ECID扩展升级到v4.4以利用此性能增强功能。
 
-* at.js版本2.2还提供了一个名为 `serverState`. 当实施Target的混合集成时，可使用此设置来优化页面性能。 混合集成指的是在客户端使用 at.js 2.2 和更高版本，在服务器端使用交付 API 或 Target SDK，二者相结合以交付体验。`serverState` 让 at.js 2.2 和更高版本可直接从在服务器端获取并作为所提供的页面的一部分返回客户端的内容应用体验。有关更多信息，请在 [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) 中参阅“serverState”。
+* at.js版本2.2还提供了一个名为 `serverState`. 当实施Target的混合集成时，可使用此设置来优化页面性能。 混合集成指的是在客户端使用 at.js 2.2 和更高版本，在服务器端使用交付 API 或 Target SDK，二者相结合以交付体验。`serverState` 让 at.js 2.2 和更高版本可直接从在服务器端获取并作为所提供的页面的一部分返回客户端的内容应用体验。有关更多信息，请参阅 [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## at.js 版本 1.8.0（2019 年 10 月 10 日）
 
@@ -175,7 +175,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 此版本包括以下功能和增强功能：
 
-* **Adobe 选择加入支持**：通过 Adobe 选择加入，可轻松将 Adobe 解决方案与同意管理平台集成。有关 Adobe 选择加入的更多信息，请参阅[隐私和《通用数据保护条例》(GDPR)](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)。
+* **Adobe 选择加入支持**：通过 Adobe 选择加入，可轻松将 Adobe 解决方案与同意管理平台集成。有关Adobe选择加入的更多信息，请参阅 [隐私和《通用数据保护条例》(GDPR)](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}。
 
 * **符合行业标准 CSP**：at.js 不再使用 eval() 执行 JavaScript。
 
@@ -185,7 +185,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 
 * **发送通知**：允许开发人员在通过代码而不是使用 `applyOffer()` 或 `applyOffers()` 呈现体验时发送通知。
 
-   有关更多信息，请参阅 [adobe.target.sendNotifications(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-sendnotifications-atjs-21/)。
+   有关更多信息，请参阅 [adobe.target.sendNotifications(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-sendnotifications-atjs-21/){target=_blank}。
 
 * **at.js 大小减少了约 24%**：at.js 的大小减少了约 24%。较小的文件大小可提高页面加载性能并缩短在页面上下载 at.js 的时间。
 
@@ -231,23 +231,23 @@ at.js 2.x 引入了以下新函数：
 * mboxDefine
 * registerExtension()
 
-有关更多信息，请参阅 [从at.js 1.x升级到at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}和 [at.js函数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
+有关更多信息，请参阅 [从at.js 1.x升级到at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}和 [at.js函数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}。
 
 >[!NOTE]
 >
->如果您需要Adobe选择加入支持 [《通用数据保护条例》](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}(GDPR)，您当前必须使用at.js 1.7.0或at.js 2.1.0。
+>如果您需要Adobe选择加入支持 [《通用数据保护条例》](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}(GDPR){target=_blank}，您当前必须使用at.js 1.7.0或at.js 2.1.0。
 
 ## at.js 版本 1.7.0 {#at-js-170}
 
 at.js 1.7.0 提供了 Adobe 选择加入支持。通过 Adobe 选择加入，可轻松将 Adobe 解决方案与同意管理平台集成。
 
-有关Adobe选择加入的更多信息，请参阅 [隐私和《通用数据保护条例》](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}(GDPR)。
+有关Adobe选择加入的更多信息，请参阅 [隐私和《通用数据保护条例》](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}(GDPR){target=_blank}。
 
 此版本还修复了 Target 可能使用来自重定向 URL 的参数覆盖重定向 URL 参数的问题。
 
 >[!NOTE]
 >
->如果您需要使用满足 GDPR 要求的 Adobe 选择加入支持，则当前必须使用 at.js 1.7.0 或 2.1.0。<br>有关所有版本的列表，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
+>如果您需要Adobe选择加入对GDPR提供支持，则当前必须使用at.js 1.7.0或2.1.0。<br>有关所有版本的列表，请参阅 [at.js版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
 ## at.js 版本 1.6.4 {#at-js-164}
 
@@ -323,18 +323,18 @@ at.js 版本 1.3.0 现已可用。
    * CONTENT_RENDERING_NO_OFFERS
    * CONTENT_RENDERING_REDIRECT
 
-   有关更多信息，请参阅 [at.js 自定义事件](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/)。
+   有关更多信息，请参阅 [at.js自定义事件](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/){target=_blank}。
 
 * 您可以使用来自数据提供程序的其他参数来增强 at.js 请求。应将数据提供程序添加到 `dataProviders key` 下方的 `window.targetGlobalSettings`。
 
-   有关更多信息，请参阅[数据提供程序](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
+   有关更多信息，请参阅 [数据提供程序](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 * at.js 请求现在使用 GET，但当 URL 大小超过 2048 个字符时，它会转为使用 POST。新增了一个名为 `urlSizeLimit` 的属性，如有必要，您可以在此属性中提高大小限制。通过这项更改，Target 可以使 at.js 与使用相同技术的 AppMeasurement 保持一致。
 * 现在，Target 强制要求在 `adobe.target.applyOffer(options)` 函数中使用 `mbox` 键。以往，这些键值是要求使用的，但现在，Target 强制使用该键值以确保 Target 正确验证并且客户正确地使用该函数。
 * at.js 改进了事件和点击跟踪功能。at.js 会使用 `navigator.sendBeacon()` 发送事件跟踪数据，如果 `navigator.sendBeacon()` 不受支持，则将回退到同步 XHR。此回退行为主要影响 Internet Explorer 10 和 11 以及 Safari 的某些版本。Safari 在即将发布的 iOS 11.3 版本中将添加对 `navigator.sendBeacon()` 的支持。
 * 现在，即使页面在后台选项卡中打开，at.js 也能渲染选件。有些 Target 客户遇到 `requestAnimationFrame()` 因浏览器对后台选项卡的限制行为而被禁用的问题。
 * 此版本执行了许多性能方面的改进，包括缩短了检查 Chrome CPU 配置文件时的调用堆栈。
-* at.js 1.3.0 不再支持在 Microsoft Internet Explorer 9 上交付内容。有关支持的浏览器列表，请参阅[支持的浏览器](https://developer.adobe.com/target/before-implement/supported-browsers/)。今后，所有请求都将通过支持 CORS 的 `XMLHttpRequest` 来执行，而不使用 JSONP 请求。这项更改显著提高了安全性。
+* at.js 1.3.0 不再支持在 Microsoft Internet Explorer 9 上交付内容。有关支持的浏览器列表，请参阅 [支持的浏览器](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}。 今后，所有请求都将通过支持 CORS 的 `XMLHttpRequest` 来执行，而不使用 JSONP 请求。这项更改显著提高了安全性。
 
 ## at.js 版本 1.2.3 {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
 
@@ -396,7 +396,7 @@ at.js 版本 1.0 中包含以下增强功能和修复：
 * 在活动交付期间报告自定义事件的错误。
 * 修复了 Microsoft Internet Explorer 11 中的性能问题。
 * 修复了在某些网站上发生错误的 `getOffer()` 函数。
-* 以异步方式加载 Target 库。有关更多信息，请参阅 [at.js 常见问题解答](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/)。
+* 以异步方式加载 Target 库。有关更多信息，请参阅 [at.js常见问题解答](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/){target=_blank}。
 
 ## at.js 版本 0.9.7 {#section_6C7B698BE21E40E495FD2850EFBF3E80}
 
@@ -417,8 +417,8 @@ at.js 版本 1.0 中包含以下增强功能和修复：
 
    [!DNL at.js] 0.9.6 已更改此行为，即使将 `visitorApiTimeout` 设置为 1 毫秒，Target 仍会尝试收集 SDID、跟踪服务器和客户 ID 数据，并在 Target 请求中发送这些数据。
 
-* 添加了 `selectorsPollingTimeout` 设置。有关更多信息，请参阅 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
-* 更改了来自 `getOffer()` 的响应格式。有关更多信息，请参阅 [adobe.target.getOffer(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/)。
+* 添加了 `selectorsPollingTimeout` 设置。有关更多信息，请参阅 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
+* 更改了来自 `getOffer()` 的响应格式。有关更多信息，请参阅 [adobe.target.getOffer(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}。
 * 为不支持的 `<!DOCTYPE>` 声明添加了控制台日志记录。
 * 修复了将多个默认选件交付到单个 mbox 时，无法正确应用 [!DNL Target Classic] 插件的问题。(TGT-22664)
 * 改进了双字符顶级域 (TLD) 的 Cookie 设置，以确保为这些域（例如，[!DNL test.no]、[!DNL autodrives.ca] 等）正确设置 mbox Cookie。
@@ -431,7 +431,7 @@ at.js 版本 1.0 中包含以下增强功能和修复：
 
 * mbox 名称现在可包含特殊字符，这些字符包括与号 (&amp;)。
 
-   有关允许使用的特殊字符列表，请参阅 [at.js 配置](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)。
+   有关允许使用的特殊字符列表，请参阅 [at.js配置](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}。
 
 * 添加了 `secureOnly` 设置，以指示 at.js 是应仅使用 HTTPS，还是可以根据页面协议在 HTTP 和 HTTPS 之间进行切换。这是一项高级设置，其默认值为 False，可以通过 `targetGlobalSettings` 来覆盖此设置。
 * at.js 版本 0.9.3 及更低版本中提供了“[!UICONTROL 旧版浏览器支持]”选项。此选项在 at.js 版本 0.9.4 中已删除。

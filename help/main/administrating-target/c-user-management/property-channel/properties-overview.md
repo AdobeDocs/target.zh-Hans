@@ -5,10 +5,10 @@ title: 如何配置企业权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 67%
+source-wordcount: '1448'
+ht-degree: 66%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 67%
 
 ### 获取工作区ID {#workspace-id}
 
-您需要传递工作区 ID 才能使用 [Target API](https://developer.adobe.com/target/implement/server-side/) 中的企业权限。
+您需要传递工作区ID才能在 [Target API](https://developer.adobe.com/target/implement/server-side/){target=_blank}。
 
 1. 在 [Adobe Admin Console](https://adminconsole.adobe.com) 中，单击[!UICONTROL 产品]选项卡，然后单击左侧菜单中的产品以显示 PLC（工作区）列表。
 1. 单击所需的 PLC（工作区），然后在 URL 中找到“配置文件”ID，如下所示。
@@ -158,7 +158,7 @@ ht-degree: 67%
       </script>
       ```
 
-      有关如何使用at.js完成此操作的更多信息，请参阅 [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/).
+      有关如何使用at.js完成此操作的更多信息，请参阅 [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}。
 
 ## 步骤6:指定角色和权限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

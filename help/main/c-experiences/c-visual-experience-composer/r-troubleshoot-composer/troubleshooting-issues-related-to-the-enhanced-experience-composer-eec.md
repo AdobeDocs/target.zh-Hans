@@ -4,10 +4,10 @@ description: 了解如何对Adobe中有时出现的问题进行故障诊断 [!DN
 title: 如何对与增强型体验编辑器有关的问题进行故障诊断？
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 45%
+source-wordcount: '454'
+ht-degree: 40%
 
 ---
 
@@ -43,13 +43,13 @@ ht-degree: 45%
 
    **补救措施：** 允许列表上面列出的IP地址。
 
-* **问题：** IP地址已列入允许列表，但您的网站不支持TLS版本1.2。 [!DNL Target] 当前使用1.2的默认配置。在 [!DNL Target] 18.4.1（2018年4月25日），默认配置支持TLS 1.0。有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
+* **问题：** IP地址已列入允许列表，但您的网站不支持TLS版本1.2。 [!DNL Target] 当前使用1.2的默认配置。在 [!DNL Target] 18.4.1（2018年4月25日），默认配置支持TLS 1.0。有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}。
 
    **解决方案：**[!UICONTROL 请参阅下一个问题（增强型可视化体验编辑器无法加载使用 TLS 1.2 的网站上的安全页面）。]
 
 ## EEC 无法加载使用 TLS 1.0 的网站上的安全页面。（仅 EEC） {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-您可能会在 [!UICONTROL 增强型可视化体验编辑器] 无法加载到我网站上的安全页面上。” 上述IP地址已，列入允许列表但您的网站不支持TLS版本1.2。 [!DNL Target] 当前使用1.2的默认配置。在 [!DNL Target] 18.4.1（2018年4月25日），默认配置支持TLS 1.0。有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
+您可能会在 [!UICONTROL 增强型可视化体验编辑器] 无法加载到我网站上的安全页面上。” 上述IP地址已，列入允许列表但您的网站不支持TLS版本1.2。 [!DNL Target] 当前使用1.2的默认配置。在 [!DNL Target] 18.4.1（2018年4月25日），默认配置支持TLS 1.0。有关更多信息，请参阅 [TLS（传输层安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}。
 
 要使用 Firefox 检查您网站上的 TLS 版本（使用其他浏览器的步骤相似），请执行以下操作：
 
@@ -66,7 +66,7 @@ ht-degree: 45%
 
    ![](assets/firefox_more_info_3.png)
 
-1. 如果发现您的网站显示的是 TLS 1.0，请参阅 [TLS（传输层安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}以了解有关Target的TLS支持策略的信息。 目前要解决这种情况（有效期至 2018 年 9 月 12 日），请与[客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)联系，以获取 TLS 版本和域的配置。
+1. 如果发现您的网站显示的是 TLS 1.0，请参阅 [TLS（传输层安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}以了解有关Target的TLS支持策略的信息。 目前要解决这种情况（有效期至2018年9月12日）{target=_blank}，请联系 [客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，以便使用您的TLS版本和域进行配置。
 
 ## 加载启用了代理的网站时，我遇到超时或“拒绝访问”错误。（仅 EEC） {#section_60CBB9022DC449F593606C0E6252302D}
 

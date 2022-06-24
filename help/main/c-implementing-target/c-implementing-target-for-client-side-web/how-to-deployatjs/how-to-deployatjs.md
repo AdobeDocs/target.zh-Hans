@@ -5,10 +5,10 @@ title: 如何部署at.js?
 feature: Implement Server-side
 role: Developer
 exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 16%
+source-wordcount: '308'
+ht-degree: 15%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 16%
 
 您可以使用以下方法部署 at.js：
 
-* **[实施 [!DNL Target] 在 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)**:中的标记 [!DNL Adobe Experience Platform] 是 [!DNL Adobe]. 标记为客户提供了一种简单的方式来部署和管理用来改善相关客户体验的分析、营销和广告标记。
+* **[实施 [!DNL Target] 在 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}**:中的标记 [!DNL Adobe Experience Platform] 是 [!DNL Adobe]. 标记为客户提供了一种简单的方式来部署和管理用来改善相关客户体验的分析、营销和广告标记。
 
    >[!NOTE]
    >
    >[!DNL Adobe Experience Platform Launch] 已更名为 [!DNL Adobe Experience Platform] 中的一套数据收集技术。因此，产品文档中的术语有一些改动。请参阅以下内容 [文档](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) ，以获取术语更改的综合参考。
 
-* **[不通过标签管理器实施Target](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)**:您无需使用标签管理器即可实施Target(例如， [!DNL Adobe Experience Platform])。
-* **使用第三方标签管理器实施Target**: [中的标记 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} is the preferred method to implement Target; however, you can also implement Target using a third-party tag manager, including Tealium, Ensighten, and Google Tag. For a list of benefits of using Launch, see [Advantages of implementing at.js using the [!DNL Adobe Target] 扩展](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
+* **[不通过标签管理器实施Target](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}**:您无需使用标签管理器即可实施Target(例如， [!DNL Adobe Experience Platform])。
+* **使用第三方标签管理器实施Target**: [中的标记 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} is the preferred method to implement Target; however, you can also implement Target using a third-party tag manager, including Tealium, Ensighten, and Google Tag. For a list of benefits of using Launch, see [Advantages of implementing at.js using the [!DNL Adobe Target] 扩展](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}。
 
    但是，如果您知道如何实施 [!DNL Target] 如果没有标签管理器，您可以使用第三方标签管理器轻松实施，而无需在网站代码中硬编码at.js。
 
@@ -36,4 +36,4 @@ ht-degree: 16%
 
    有关更多信息，请务必查看第三方标签管理器的文档。
 
-实施 [!DNL Target] 使用单页应用程序(SPA)时，请参阅 [单页应用程序实施](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
+实施 [!DNL Target] 使用单页应用程序(SPA)时，请参阅 [单页应用程序实施](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}。

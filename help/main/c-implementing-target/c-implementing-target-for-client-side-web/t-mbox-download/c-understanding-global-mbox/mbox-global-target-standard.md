@@ -5,9 +5,9 @@ title: 我能否使用旧版实施中的全局mbox?
 feature: at.js
 role: Developer
 exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '311'
 ht-degree: 35%
 
 ---
@@ -44,4 +44,4 @@ ht-degree: 35%
 
 ### 为何全局 mbox 未加载？或为何页面加载时全局 mbox 的加载有所延迟？
 
-确保at.js引用是页面上的首次JavaScript调用。 有关此问题的其他解决方案，请参阅 [全局mbox常见问题解答](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/).
+确保at.js引用是页面上的首次JavaScript调用。 有关此问题的其他解决方案，请参阅 [全局mbox常见问题解答](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/){target=_blank}。

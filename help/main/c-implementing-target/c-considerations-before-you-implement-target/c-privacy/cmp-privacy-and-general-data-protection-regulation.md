@@ -5,10 +5,10 @@ title: ' [!DNL Target] 如何处理隐私和数据保护法规？'
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2231'
-ht-degree: 98%
+source-wordcount: '2235'
+ht-degree: 97%
 
 ---
 
@@ -284,7 +284,7 @@ window.targetGlobalSettings = {
 
 | 字段 | 描述 |
 |--- |--- |
-| Sample_Parameter | [!DNL Target] 配置文件中的许多信息都由“数据控制方”上传或直接提供。在此示例中，可使用配置文件更新 API 将参数上传到 [!DNL Target] 配置文件中。有关更多信息，请参阅 [将数据导入的方法 [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
+| Sample_Parameter | [!DNL Target] 配置文件中的许多信息都由“数据控制方”上传或直接提供。在此示例中，可使用配置文件更新 API 将参数上传到 [!DNL Target] 配置文件中。有关更多信息，请参阅 [将数据导入的方法 [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}。 |
 | user.ReturnTimeOfDay | 此标准字段包括用户最近一次回访的时间。 |
 | firstSessionStart | 该标准字段包括用户第一次开始会话的时间。 |
 | user.sessionCountScript | [!DNL Target] 配置文件中的许多信息都由“数据控制方”上传或直接提供。在此示例中，配置文件脚本将会增加此访客在“数据控制方”站点上的会话数。有关更多信息，请参阅[配置文件脚本属性](/help/main/c-target/c-visitor-profile/profile-parameters.md)中的“查看配置文件脚本信息卡片”部分。 |
@@ -295,7 +295,7 @@ window.targetGlobalSettings = {
 
 ### [!DNL Target] 是否支持 IP 模糊处理？ {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-如果您选择将 IP 模糊处理用作 GDPR 或 CCPA 实施策略的一部分，则 [!DNL Target] 支持 IP 模糊处理。有关更多信息，请参阅[隐私](https://developer.adobe.com/target/before-implement/privacy/privacy/)。
+如果您选择将 IP 模糊处理用作 GDPR 或 CCPA 实施策略的一部分，则 [!DNL Target] 支持 IP 模糊处理。有关更多信息，请参阅 [隐私](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}。
 
 ### 我是否需要做些什么来防止第三方共享或出售我的数据？
 

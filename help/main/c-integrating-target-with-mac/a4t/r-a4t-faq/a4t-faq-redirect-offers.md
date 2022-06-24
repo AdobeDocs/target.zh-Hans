@@ -4,10 +4,10 @@ description: 查找有关在使用Analytics for [!DNL Target] (A4T)。 A4T允许
 title: 在哪里可以找到有关使用A4T重定向选件的常见问题解答？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 55%
+source-wordcount: '1477'
+ht-degree: 54%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 55%
 
 ## 为何有时会同时计入原始页面和重定向页面上的查看次数？ {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-使用at.js版本1.6.3或更高版本时，计算两个页面上的页面查看次数不会出现问题。 这种争用情况仅影响使用早期版本的客户。Target 团队维护两个版本的 at.js：当前版本和当前版本的上一个版本。根据需要升级 at.js，以确保您运行的是[受支持的版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
+使用at.js版本1.6.3或更高版本时，计算两个页面上的页面查看次数不会出现问题。 这种争用情况仅影响使用早期版本的客户。Target 团队维护两个版本的 at.js：当前版本和当前版本的上一个版本。根据需要升级at.js，以确保您运行的 [受支持版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
 如果您使用的是不受支持的早期 at.js 版本，则可能会发生某种争用情况，这种情况可能导致先触发 Analytics 调用，然后再在第一个页面上执行重定向。这种情况可能会导致计算原始页面和重定向页面上的所有页面查看次数。 在这种情况下，第一个页面上的页面查看次数便是多余的，因为当时访客实际上从未“查看过”该页面。
 

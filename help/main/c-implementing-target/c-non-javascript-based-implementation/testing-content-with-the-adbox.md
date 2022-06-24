@@ -5,10 +5,10 @@ title: 如何为图像创建Adbox?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 66%
+source-wordcount: '341'
+ht-degree: 65%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 66%
 
 AdBox 与 mbox 类似，但它由 URL 控制而非 JavaScript。创建的 AdBox 具有特殊的 AdBox URL，此 URL 会将“广告”mbox（或 AdBox）加载到您的 Adobe 帐户中。在活动中可使用此 AdBox 替代 mbox。在电子邮件或其他非 JavaScript 实施中可使用 AdBox URL，而不使用直接图像引用。
 
-如果要查看有关选择正确设置的帮助，请参阅[不基于 JavaScript 的实施](https://developer.adobe.com/target/implement/email/)。
+如果要查看有关选择正确设置的帮助，请参阅 [不基于JavaScript的实施](https://developer.adobe.com/target/implement/email/){target=_blank}。
 
 1. 创建 AdBox URL：
 

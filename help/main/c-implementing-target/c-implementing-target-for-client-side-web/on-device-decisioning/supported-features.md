@@ -5,9 +5,9 @@ title: 设备上决策支持哪些功能
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '480'
 ht-degree: 13%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 13%
 
 ### 设备上决策的地域定位
 
-为了通过基于地理的受众保持设备上决策活动的最短延迟，Adobe建议您在调用 [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/). 在请求的上下文中设置Geo对象。 这表示从浏览器中确定每个访客位置的方法。 例如，您可以使用您配置的服务执行IP到地域查找。 某些托管提供程序(例如Google Cloud)通过每个 `HttpServletRequest`.
+为了通过基于地理的受众保持设备上决策活动的最短延迟，Adobe建议您在调用 [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}。 在请求的上下文中设置Geo对象。 这表示从浏览器中确定每个访客位置的方法。 例如，您可以使用您配置的服务执行IP到地域查找。 某些托管提供程序(例如Google Cloud)通过每个 `HttpServletRequest`.
 
 ```javascript
 window.adobe.target.getOffers({ 

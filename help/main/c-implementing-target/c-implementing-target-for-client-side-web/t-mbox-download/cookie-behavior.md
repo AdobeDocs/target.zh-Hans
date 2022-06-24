@@ -5,9 +5,9 @@ title: 我可以在哪里找到有关 [!DNL Target] 饼干？
 feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1557'
 ht-degree: 58%
 
 ---
@@ -20,7 +20,7 @@ Cookie 行为取决于它是第一方 Cookie、第三方和第一方 Cookie，�
 >
 >本主题包含有关 `mboxSession` 和 `mboxPC` 的信息。实施最佳实践建议您不要使用Cookie数据链接或存储敏感信息： `mboxSession` 或 `mboxPC`.
 
-另请参阅 [删除Target Cookie](https://developer.adobe.com/target/before-implement/privacy/cookie-deleting/).
+另请参阅 [删除Target Cookie](https://developer.adobe.com/target/before-implement/privacy/cookie-deleting/){target=_blank}。
 
 ## 何时使用第一方或第三方 Cookie {#section_F71B29420C004A7FA3B1921E619B326E}
 
@@ -137,5 +137,5 @@ Cookie会保留各种值以管理访客体验营销活动的方式：
 
 | 受影响的功能 | 详细信息 |
 |--- |--- |
-| 选择退出支持 | Apple 的 WebKit 跟踪更改会中断选择退出支持。<br>[!DNL Target] 选择退出使用 `clientcode.tt.omtrdc.net` 域中的一个 Cookie。有关更多详细信息，请参阅[隐私](https://developer.adobe.com/target/before-implement/privacy/privacy/)。<br>[!DNL Target] 支持两种选择退出方式：<ul><li>一种是按客户端退出（客户端管理选择退出链接）。</li><li>一个通道 [!DNL Adobe] 从所有用户中选择 [!DNL Target] 功能。</li></ul>这两种方法都使用第三方 Cookie。 |
+| 选择退出支持 | Apple 的 WebKit 跟踪更改会中断选择退出支持。<br>[!DNL Target] 选择退出使用 `clientcode.tt.omtrdc.net` 域中的一个 Cookie。有关更多详细信息，请参阅 [隐私](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}。<br>[!DNL Target] 支持两种选择退出方式：<ul><li>一种是按客户端退出（客户端管理选择退出链接）。</li><li>一个通道 [!DNL Adobe] 从所有用户中选择 [!DNL Target] 功能。</li></ul>这两种方法都使用第三方 Cookie。 |
 | [!DNL Target] 活动 | 客户可以选择 [配置文件生命周期长度](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) 为 [!DNL Target] 帐户（最长90天）。 问题在于如果帐户的配置文件生命周期超过30天，并且由于客户的域已被标记为跨站点跟踪用户而清除了第一方Cookie，则Safari访客的行为会在 [!DNL Target]:<br>**[!DNL Target] 报告&#x200B;**:如果Safari用户进入活动，30天后返回，然后进行转化，则该用户将计为两个访客和一次转化。<br>[!DNL Analytics]对于使用 作为报表源 (A4T) 的活动，此行为是相同的。<br>**&#x200B;用户档案和活动成员资格&#x200B;**:<ul><li>第一方 Cookie 过期后会擦除配置文件数据。</li><li>第一方 Cookie 过期后会擦除活动成员资格。</li><li> [!DNL Target]对于使用第三方 Cookie 实施或第一方和第三方 Cookie 实施的帐户， 无法在 Safari 中使用。这不是一种新的行为。Safari有一段时间不允许使用第三方Cookie。</li></ul><br>**建议**:如果担心客户域可能会被标记为跨会话跟踪访客的一个域，则最安全的做法是将配置文件生命周期设置为在 [!DNL Target]. 此限制可确保在Safari和所有其他浏览器中以类似的方式跟踪用户。 |

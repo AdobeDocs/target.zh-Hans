@@ -5,9 +5,9 @@ title: 如何使用重定向器？
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '693'
 ht-degree: 68%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 68%
 
 * 找出哪个登陆页能引起更多的转化
 
-有关确定正确设置的帮助信息，请参阅 [不基于 JavaScript 的实施](https://developer.adobe.com/target/implement/email/)。
+有关确定正确设置的帮助信息，请参阅 [不基于JavaScript的实施](https://developer.adobe.com/target/implement/email/){target=_blank}。
 
 ## 创建重定向器 {#redirector}
 

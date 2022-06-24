@@ -5,9 +5,9 @@ title: 用户代理和客户端提示
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1348'
 ht-degree: 95%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->本文中的信息适用于 [at.js版本2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}（或更高版本）。
+>本文中的信息适用于 [at.js版本2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}（或更高版本）{target=_blank}。
 
 
 每次 Web 浏览器向服务器发出请求时，请求的标题中都包含有关浏览器和浏览器运行环境的信息。自互联网出现之初，这些数据就被聚合在一个称为用户代理的字符串中。

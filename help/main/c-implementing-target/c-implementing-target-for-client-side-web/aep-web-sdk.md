@@ -5,10 +5,10 @@ title: 如何使用Experience PlatformWeb SDK实施？
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 16%
+source-wordcount: '563'
+ht-degree: 15%
 
 ---
 
@@ -39,4 +39,4 @@ ht-degree: 16%
 | [重定向选件 — A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 重定向选件会导致访客的浏览器重定向到新页面。<br>请参阅 [是否 [!DNL Adobe Experience Platform Web SDK] 是否支持A4T的重定向选件？](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [响应令牌](/help/main/administrating-target/response-tokens.md) | 响应令牌允许您将Target数据发送到Google Analytics和其他第三方集成。<br>请参阅 [通过Platform Web SDK向Google Analytics发送数据](/help/main/administrating-target/response-tokens.md#platform-web-sdk) 查看如何完成此任务的代码示例。 |
 | [单页应用程序实施](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) 在 *平台Web SDK概述* 的双曲余切值。 | [!UICONTROL Adobe Experience Platform Web SDK] 提供了丰富的功能，使您的企业能够在下一代客户端技术(如单页应用程序(SPA))上实现个性化。 |
-| [TLS（传输层安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) | TLS（传输层安全性）{target=_blank}可帮助您保持最高的安全标准并提升客户数据的安全性。 |
+| [TLS（传输层安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} | TLS（传输层安全性）{target=_blank}可帮助您保持最高的安全标准并提升客户数据的安全性。 |

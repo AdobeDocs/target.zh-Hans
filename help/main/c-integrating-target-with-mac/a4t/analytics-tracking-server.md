@@ -4,10 +4,10 @@ description: '了解如何为使用Analytics for [!DNL Target] (A4T)。 '
 title: 如何使用Analytics跟踪服务器？
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 26%
+source-wordcount: '697'
+ht-degree: 25%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 26%
 >
 >如果您使用 at.js 版本 0.9.1（或更高版本），则在活动创建期间无需指定跟踪服务器。at.js 库自动将跟踪服务器值发送到 [!DNL Target]。在活动创建期间，您可以将[!UICONTROL 目标和设置]页面上的[!UICONTROL 跟踪服务器]字段留空。
 >
->的 [!DNL Target] 团队同时支持at.js 1.*x* 与 at.js 2.*x* 之间的映射。请升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。 有关更多信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
+>的 [!DNL Target] 团队同时支持at.js 1.*x* 与 at.js 2.*x* 之间的映射。请升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。 有关更多信息，请参阅 [at.js版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
 确保 [!DNL Target] 转到 [!DNL Analytics]，则A4T要求在从 [!DNL Target]. 对于使用多个跟踪服务器的实施，请使用 [!DNL Adobe Experience Platform Debugger] 或浏览器的开发人员工具来确定适用于您活动的正确跟踪服务器。
 

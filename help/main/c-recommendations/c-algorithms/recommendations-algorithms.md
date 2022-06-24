@@ -5,9 +5,9 @@ title: 我在哪里可以了解TargetRecommendations算法背后的科学？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 这些步骤的详细信息如下：
 
-* **输入数据**:行为数据，以在您收集的访客的查看次数和购买次数的形式显示 [实施Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank}或 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **输入数据**:行为数据，以在您收集的访客的查看次数和购买次数的形式显示 [实施Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank}或 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}。
 
 * **模型培训**:
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 这些步骤的详细信息如下：
 
-* **输入数据**:如前所述，此算法完全基于目录数据(摄取到 [!DNL Target] 通过 [目录馈送、实体API或页面上的更新](https://developer.adobe.com/target/implement/recommendations/).
+* **输入数据**:如前所述，此算法完全基于目录数据(摄取到 [!DNL Target] 通过 [目录馈送、实体API或页面上的更新](https://developer.adobe.com/target/implement/recommendations/){target=_blank}。
 
 * **模型培训**:
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 这些步骤的详细信息如下：
 
-* **输入数据**:这与项目 — 项目协作过滤(CF)方法相同。 [!UICONTROL 都建议您] 和基于购物车的算法使用行为数据，以在您 [实施Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank}或 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **输入数据**:这与项目 — 项目协作过滤(CF)方法相同。 [!UICONTROL 都建议您] 和基于购物车的算法使用行为数据，以在您 [实施Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank}或 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}。
 
 * **模型培训**:
 

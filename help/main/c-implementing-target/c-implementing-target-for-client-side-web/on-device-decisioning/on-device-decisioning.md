@@ -5,9 +5,9 @@ title: 设备上决策如何与at.js JavaScript库一起使用？
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3552'
+source-wordcount: '3560'
 ht-degree: 7%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 7%
 * 受众定位
 * 分配方法
 
-有关更多信息，请参阅 [支持的设备决策功能](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+有关更多信息，请参阅 [支持的设备决策功能](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}。
 
 ## 设备内决策的工作原理是什么？
 
@@ -88,7 +88,7 @@ ht-degree: 7%
 
 设备上决策可以以惊人的速度提供您的体验和个性化活动，因为决策是根据缓存的规则对象做出的，该对象包含符合设备上决策资格条件的所有活动。
 
-要了解有关哪些活动符合设备上决策的资格的更多信息，请参阅 [设备内决策支持的功能](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+要了解有关哪些活动符合设备上决策的资格的更多信息，请参阅 [设备内决策支持的功能](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}。
 
 仅当性能在所有需要做出决策的页面中都非常关键时，才应使用此决策方法 [!DNL Target]. 此外，请记住，当选择此决策方法时，您的 [!DNL Target] 不符合设备上决策条件的活动将不会交付或执行。 at.js库2.5.0及更高版本配置为仅查找缓存的规则对象以做出决策。
 
@@ -249,7 +249,7 @@ JSON规则对象包含元数据，用于通知at.jsmbox是运行服务器端活�
 
 ### 全局设置
 
-您可以配置默认 [!UICONTROL 决策方法] 全部 [!DNL Target] 决策。 各种决策方法包括 [!UICONTROL 仅服务器端], [!UICONTROL 仅限设备内]和 [!UICONTROL 混合]. 在Target UI中选择的决策方法在 `window.targetGlobalSettings` 下 `decisioningMethod` 字段。 进一步了解 `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+您可以配置默认 [!UICONTROL 决策方法] 全部 [!DNL Target] 决策。 各种决策方法包括 [!UICONTROL 仅服务器端], [!UICONTROL 仅限设备内]和 [!UICONTROL 混合]. 在Target UI中选择的决策方法在 `window.targetGlobalSettings` 下 `decisioningMethod` 字段。 进一步了解 `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ```javascript
 <head> 
@@ -321,6 +321,6 @@ adobe.target.getOffers({
 
    第一个JSON规则对象生成最多可能需要10分钟。
 
-1. 创建和激活 [设备决策支持的活动类型](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/)，并确认其符合设备上决策的条件。
+1. 创建和激活 [设备决策支持的活动类型](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}，并验证它是否符合设备上决策的条件。
 1. 设置 **[!UICONTROL 决策方法]** 选择 **[!UICONTROL &quot;混合&quot;]** 或 **[!UICONTROL &quot;仅限设备&quot;]** 通过at.js设置UI。
 1. 将At.js 2.5.0及更高版本下载并部署到您的页面。

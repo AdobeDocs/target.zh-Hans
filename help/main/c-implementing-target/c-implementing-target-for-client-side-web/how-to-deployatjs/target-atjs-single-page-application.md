@@ -5,10 +5,10 @@ title: 我能否实施 [!DNL Target] (SPA)?
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2790'
-ht-degree: 70%
+source-wordcount: '2794'
+ht-degree: 69%
 
 ---
 
@@ -187,7 +187,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 ## at.js 2.x 系统图
 
-下图可帮助您了解含有视图的 at.js 2.x 工作流程以及其如何增强 SPA 集成。要更好地了解 at.js 2.x 中使用的概念，请参阅[单页应用程序实施](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)。
+下图可帮助您了解含有视图的 at.js 2.x 工作流程以及其如何增强 SPA 集成。要更好地了解at.js 2.x中使用的概念，请参阅 [单页应用程序实施](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}。
 
 ![使用 at.js 2.x 的 Target 流程](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -233,7 +233,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 * 在视图开始渲染之前触发自定义事件
 * 在视图完成渲染时触发自定义事件
 
-at.js 2.x添加了一个新API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank}函数。 您应该使用 `triggerView()` 来通知 at.js 视图将开始渲染。
+at.js 2.x添加了一个新API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank}函数。 您应该使用 `triggerView(){target=_blank}` 来通知 at.js 视图将开始渲染。
 
 要了解如何组合自定义事件、at.js 2.x 和 Analytics，请参阅一个示例。此示例假设 HTML 页面包含访客 API，其后依次是 at.js 2.x 和 AppMeasurement。
 
@@ -268,7 +268,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >您必须触发 `at-view-start` 和 `at-view-end` 事件。这些事件并不是 at.js 自定义事件的一部分。
 
-尽管这些示例使用的是JavaScript代码，但如果您使用的是标签管理器（例如中的标签），则可以简化所有这些代码 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
+尽管这些示例使用的是JavaScript代码，但如果您使用的是标签管理器（例如中的标签），则可以简化所有这些代码 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}。
 
 如果遵循上述步骤，则应该针对 SPA 提供一个强大的 A4T 解决方案。
 

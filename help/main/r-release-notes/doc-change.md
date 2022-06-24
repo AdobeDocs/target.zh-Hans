@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 94%
+source-wordcount: '1050'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 6 月 14 日 | [计划和实施 Recommendations](https://developer.adobe.com/target/implement/recommendations/) | 更新了以下部分中的代码示例：<ul><li>购物车添加/购物车视图/结账页面</li><li>排除访客购物车中已有的项目</li></ul> |
+| 6 月 14 日 | [计划和实施 Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | 更新了以下部分中的代码示例：<ul><li>购物车添加/购物车视图/结账页面</li><li>排除访客购物车中已有的项目</li></ul> |
 | 6 月 7 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.6.1 版的发行说明。 |
 
 ## Adobe Target Standard/Premium 22.5.1（2022 年 5 月 11 至 13 日，交错发行）
@@ -29,12 +29,12 @@ ht-degree: 94%
 | 6 月 7 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 22.6.1 版的预发行信息。 |
 | 5 月 31 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md#webinar-series) | 添加了关于即将举办的 [!DNL Adobe Target] 社区咖啡时间活动的信息（2022 年 6 月 29 日） |
 | 5 月 25 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target] Platform 版（2022 年 5 月 25 日）和 at.js 2.9.0 版（2022 年 5 月 27 日）的信息。 |
-|  | [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | 添加了有关 at.js 2.9.0 版的信息。 |
-|  | [用户代理和客户端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) | 新主题。 |
+|  | [at.js版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 添加了有关 at.js 2.9.0 版的信息。 |
+|  | [用户代理和客户端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | 新主题。 |
 |  | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md#webinar-series) | 添加了以下网络研讨会的录制链接：迪克的体育用品：零售业的个性化及变化（2022 年 5 月 19 日） |
 | 5 月 23 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了 at.js 2.9.0 版（2022 年 5 月 25 日）预发行版本说明 |
 | 5 月 11 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md#webinar-series) | 添加了以下网络研讨会的信息和注册链接：<ul><li>迪克体育用品：个性化和零售业的变化</li><li>Adobe：个性化行业内幕 — 金融服务和保险</li><li>国民城市银行 (City National Bank)：如何在数字优化中实现前 1% 的目标</li><li>Adobe：精准个性化 — [!DNL Adobe Analytics] 和 [!DNL Target]</li><li>国民城市银行：从零到英雄 — 启动并扩展个性化计划</li><li>Adobe：发现高影响力的优化机会</li><li>Adobe：个性化行业内幕 — 零售业</li></ul>添加了以下网络研讨会的录像：<ul><li>[!DNL Adobe Target] 的实时个性化服务</li></ul> |
-|  | [内容安全策略 (CSP) 指令](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/) | 添加了常见问题解答部分。 |
+|  | [内容安全策略 (CSP) 指令](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank} | 添加了常见问题解答部分。 |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 22.5.1 和 Target 平台（2022 年 5 月 11 日至 13 日）发行信息. |
 
 ## Adobe Target Standard/Premium 22.4.1（4 月 28 日）
@@ -88,12 +88,12 @@ ht-degree: 94%
 | --- | --- | --- |
 | 1 月 31 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.2.1 版的预发行信息。 |
 | 1 月 28 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关 at.js 2.8.1 版本的信息。 |
-|  | [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | 添加了有关 at.js 2.8.1 版本的信息。 |
+|  | [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 添加了有关 at.js 2.8.1 版本的信息。 |
 | 1 月 27 日 | [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 更新了主题并添加了有关 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0] 的信息。 |
 | 1 月 26 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 Target Standard/Premium 22.1.2 版的信息。 |
 |  | [创建受众](/help/main/c-target/c-audiences/audiences.md) | 添加了关于 [!DNL Adobe Experience Platform] 受众的信息。 |
 |  | [合并多个受众](/help/main/c-target/combining-multiple-audiences.md) | 添加了关于 [!DNL Adobe Experience Platform] 受众的信息。 |
-| 1 月 21 日 | [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | 添加了有关 at.js 1.8.3 版本的信息。 |
+| 1 月 21 日 | [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 添加了有关 at.js 1.8.3 版本的信息。 |
 | 1 月 19 日 | [从 at.js 1.** 升级到 at.js 2.x *x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 添加了以下部分：“at.js 2.*x* 不支持使用 vst.* 参数创建受众” |
 | 1 月 12 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 Target Standard/Premium 22.1.1 版的信息。 |
-|  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | 添加了指向教程的链接，其中提供有关使用 Web SDK 实施 [!DNL Adobe Experience Cloud] 的说明。 |
+|  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | 添加了指向教程的链接，其中提供有关使用 Web SDK 实施 [!DNL Adobe Experience Cloud] 的说明。 |

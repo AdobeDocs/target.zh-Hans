@@ -5,9 +5,9 @@ title: 如何在Target中使用CNAME?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1195'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
    [!DNL Adobe] 客户关怀会在您的实施准备就绪后通知您。
 
-1. 更新 `serverDomain` ([文档](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank}到新CNAME主机名并设置 `overrideMboxEdgeServer` to `false` ([文档](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank}。
+1. 更新 `serverDomain` ([文档](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}){target=_blank}到新CNAME主机名并设置 `overrideMboxEdgeServer` to `false` ([文档](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}){target=_blank}。
 
 ## 常见问题解答
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 ### 我当前的实施是 [!DNL Target] 受ITP 2.x的影响？
 
-Apple智能防跟踪(ITP)版本2.3引入了其CNAME隐匿缓解功能，该功能能够检测到 [!DNL Adobe Target] CNAME实施，并将Cookie的过期时间缩短为7天。 当前 [!DNL Target] 没有解决ITP CNAME隐匿问题的方法。 有关ITP的更多信息，请参阅 [Apple智能防跟踪(ITP)2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/).
+Apple智能防跟踪(ITP)版本2.3引入了其CNAME隐匿缓解功能，该功能能够检测到 [!DNL Adobe Target] CNAME实施，并将Cookie的过期时间缩短为7天。 当前 [!DNL Target] 没有解决ITP CNAME隐匿问题的方法。 有关ITP的更多信息，请参阅 [Apple智能防跟踪(ITP)2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/){target=_blank}。
 
 ### 部署CNAME实施后，我可以期待哪种服务中断？
 
@@ -335,7 +335,7 @@ Apple智能防跟踪(ITP)版本2.3引入了其CNAME隐匿缓解功能，该功�
 如果您使用的是CNAME，则选择退出链接应包含“client=`clientcode` 参数，例如：
 `https://my.cname.domain/optout?client=clientcode`.
 
-替换 `clientcode` ，然后将要链接的文本或图像添加到 [选择禁用URL](https://developer.adobe.com/target/before-implement/privacy/privacy/).
+替换 `clientcode` ，然后将要链接的文本或图像添加到 [选择禁用URL](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}。
 
 ## 已知限制
 

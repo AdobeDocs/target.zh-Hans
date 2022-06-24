@@ -4,9 +4,9 @@ description: 浏览 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (V
 title: 如何使用 [!UICONTROL 可视化体验编辑器] (VEC)选项？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2932'
+source-wordcount: '2936'
 ht-degree: 62%
 
 ---
@@ -380,9 +380,9 @@ VEC支持 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Component
 
 >[!NOTE]
 >
->支持对自定义元素的VEC支持 [at.js版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0（或更高版本）。 确保您的网站已部署所需版本。 如果您使用 [可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，则还必须部署所需版本的at.js。 上述VEC选项不可见，可用于不受支持的at.js版本。
+>支持对自定义元素的VEC支持 [at.js版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0（或更高版本）{target=_blank}。 确保您的网站已部署所需版本。 如果您使用 [可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，则还必须部署所需版本的at.js。 上述VEC选项不可见，可用于不受支持的at.js版本。
 >
->当前不支持对自定义元素的VEC支持 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
+>当前不支持对自定义元素的VEC支持 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}。
 
 自定义事件和自定义事件中支持大多数VEC操作，但有以下例外：
 

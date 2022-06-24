@@ -4,10 +4,10 @@ description: 浏览关于使用 Adobe Target 中各项功能的常见问题的�
 title: 可在何处找到优化和个性化问题的答案？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 98%
+source-wordcount: '2795'
+ht-degree: 96%
 
 ---
 
@@ -309,10 +309,10 @@ ht-degree: 98%
 
 **我们有一个移动版 SKU。我是否可以在移动设备上创建活动？**
 
-要在移动设备上进行优化和个性化，您需要使用[基于表单的活动](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)以及 [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/)。了解更多[适用于移动设备应用程序的 Target](https://developer.adobe.com/target/implement/mobile/) 的信息。
+要在移动设备上进行优化和个性化，您需要使用 [基于表单的活动](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 以及 [AdobeSDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}。 查看有关 [适用于移动设备应用程序的Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}。
 
 ## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **我在哪里可以了解有关 Target API 的更多信息？**
 
-我们提供了关于 API 的详尽文档。请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://developer.adobe.com/target/implement/server-side/)。
+我们提供了关于 API 的详尽文档。请参阅 [交付API、NodeJS SDK和Recommendations API文档](https://developer.adobe.com/target/implement/server-side/){target=_blank}。

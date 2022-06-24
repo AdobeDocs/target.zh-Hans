@@ -5,10 +5,10 @@ title: 如何从旧版API迁移到Adobe I/O?
 feature: Implement Server-side
 role: Developer
 exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 82%
+source-wordcount: '610'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 82%
 
 Adobe Target Classic 停用后，与 Target Classic 帐户关联的 API 也无法使用。本文档将帮助您从基于旧版 API 的集成迁移到由 Adobe I/O 提供支持的 Target API。
 
-有关 Target API 文档的更多信息，请参阅 [Target API 和 NodeJS SDK](https://developer.adobe.com/target/implement/server-side/)。
+有关 Target API 文档的更多信息，请参阅 [Target API和NodeJS SDK](https://developer.adobe.com/target/implement/server-side/){target=_blank}。
 
 ## 术语 {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 

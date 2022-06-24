@@ -5,10 +5,10 @@ title: 如何从at.js版本1.x升级到版本2.x?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2878'
-ht-degree: 87%
+source-wordcount: '2888'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 87%
 
 ## at.js 2.*x* 系统图
 
-下图可帮助您了解含有视图的 at.js 2.*x* 工作流程以及其如何增强 SPA 集成。要更好地了解 at.js 2.*x* 中使用的概念，请参阅[单页应用程序实施](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)。
+下图可帮助您了解含有视图的 at.js 2.*x* 工作流程以及其如何增强 SPA 集成。以更好地了解at.js 2.*x*，请参阅 [单页应用程序实施](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}。
 
 ![使用 at.js 2.*x*](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png) 的 Target 流程
 
@@ -62,7 +62,7 @@ ht-degree: 87%
 
    或
 
-   使用 Target UI 手动下载 at.js 2.*x*，并使用[您选择的方法](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/)进行部署。
+   手动下载at.js 2.*x* 使用Target UI并使用 [您选择的方法](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/){target=_blank}。
 
 ## 已弃用的 at.js 函数
 
@@ -72,7 +72,7 @@ at.js 2.*x* 中有几个函数已被弃用。
 >
 >在部署 at.js 2.*x* 时，如果在您的网站上仍使用这些已弃用的函数，则将会看到控制台警告。升级时，建议在测试环境中测试 at.js 2.*x* 的部署，并确保查看控制台中已记录的每个警告，然后将已弃用的函数转换为 at.js 2.*x* 中引入的新函数。
 
-您可以在下面找到已弃用的函数及其对应的等效函数。有关函数的完整列表，请参阅 [at.js 函数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/)。
+您可以在下面找到已弃用的函数及其对应的等效函数。有关函数的完整列表，请参阅 [at.js函数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}。
 
 >[!NOTE]
 >at.js 2.*x* 不再自动预隐藏 `mboxDefault` 标记的元素。因此，客户必须在网站上手动或通过标签管理器容纳预隐藏逻辑。
@@ -365,10 +365,10 @@ at.js 1.*x* 能够使用vst。*用于创建受众的mbox参数。 at.js 1.*x* �
 | 受众 | 是 |
 | 客户属性 | 是 |
 | AEM 体验片段 | 是 |
-| [!DNL Adobe Experience Platform] 扩展 | [是](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
+| [!DNL Adobe Experience Platform] 扩展 | [是](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} |
 | 调试程序 | 是 |
 | 审核 | at.js 2.*x* 尚未更新规则 |
-| 选择加入 | 否。支持 [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)支持{target=_blank} [at.js版本2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
+| 选择加入 | 否。支持 [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)支持{target=_blank} [at.js版本2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。 |
 | 由 Adobe Target 提供支持的 AEM 增强型个性化 | 否 |
 
 ### 功能

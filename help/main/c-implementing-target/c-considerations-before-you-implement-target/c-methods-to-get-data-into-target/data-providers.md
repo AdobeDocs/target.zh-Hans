@@ -5,10 +5,10 @@ title: 如何将数据导入 [!DNL Target] 使用数据提供程序？
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 62%
+source-wordcount: '326'
+ht-degree: 55%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 62%
 
 `window.targetGlobalSettings.dataProviders` 设置是一个数据提供程序数组。
 
-有关每个数据提供程序的结构的更多信息，请参阅[数据提供程序](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
+有关每个数据提供程序结构的更多信息，请参阅 [数据提供程序](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## 用例示例
 
@@ -44,7 +44,7 @@ at.js不会尝试缓存数据。 如果数据提供程序仅提取一次数据�
 
 ## 代码示例
 
-在[数据提供程序](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)中可以找到几个示例。
+在 [数据提供程序](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## 相关信息的链接
 

@@ -4,9 +4,9 @@ description: 了解如何使用实体属性将产品或内容信息传递到 [!D
 title: 如何使用实体属性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1091'
 ht-degree: 53%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 53%
 
 >[!NOTE]
 >
->如果您使用的是at.js 2.*x*, `mboxCreate` （如以下示例中所示）不再受支持。 将产品或内容信息传递到 [!DNL Recommendations] 使用at.js 2.*x*，使用 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/). 有关示例，请参阅 [规划和实施Recommendations](https://developer.adobe.com/target/implement/recommendations/).
+>如果您使用的是at.js 2.*x*, `mboxCreate` （如以下示例中所示）不再受支持。 将产品或内容信息传递到 [!DNL Recommendations] 使用at.js 2.*x*，使用 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}。 有关示例，请参阅 [规划和实施Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}。
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

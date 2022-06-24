@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用SPA VEC [!DNL Target] 以DIY（自己�
 title: 如何使用单页应用程序可视化体验编辑器(SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3722'
-ht-degree: 90%
+source-wordcount: '3726'
+ht-degree: 89%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    ![“实施详细信息”对话框](/help/main/c-experiences/assets/imp-200.png)
 
-   通过位于的Adobe Target UI下载at.js 2.x [!UICONTROL 管理>实施]. at.js 2.x也可以通过 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). 但是，Adobe Target扩展当前不是最新的，不受支持。
+   通过位于的Adobe Target UI下载at.js 2.x [!UICONTROL 管理>实施]. at.js 2.x也可以通过 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}。 但是，Adobe Target扩展当前不是最新的，不受支持。
 
 1. 实施at.js 2.x的最新函数： [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank}。
 
@@ -354,7 +354,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 是 |
 | [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md) | 是 |
-| [客户属性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/) | 是 |
+| [客户属性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank} | 是 |
 | [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 是 |
 
 ## 受支持的功能 {#supported-features}

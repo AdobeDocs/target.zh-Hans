@@ -4,9 +4,9 @@ description: 纵览 Adobe Target。了解可用的活动、渠道、实现、集
 title: 可在何处找到 Target 的概括性介绍？
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2536'
 ht-degree: 99%
 
 ---
@@ -52,8 +52,8 @@ ht-degree: 99%
 
 | 实现类型 | 详细信息 |
 | --- | --- |
-| 客户端 | 对于 [!DNL Target] 的这种实现，[!DNL Target] 将与某个活动关联的体验直接提供给客户端浏览器。浏览器将决定要显示的体验，然后显示该体验。对于客户端，可使用所见即所得编辑器&#x200B;**[!UICONTROL 可视体验编辑器]** (VEC) 或非可视界面&#x200B;**[!UICONTROL 基于表格的体验编辑器]**&#x200B;创建您的测试和个性化体验。[了解更多](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)。 |
-| 服务器端 | 在此类型的 [!DNL Target] 实现中，客户端设备通过您的服务器提出体验请求，您的服务器将该请求发送给 [!DNL Target]，[!DNL Target] 将响应发回您的服务器，然后您的服务器决定将什么体验提供给客户端设备以供其呈现。体验不一定显示在浏览器中；它能够以电子邮件或网亭形式显示，还可以通过语音助手或者其他一些非可视化体验或不基于浏览器的设备显示。由于您的服务器位于客户端和 [!DNL Target] 之间，因此如果您需要更好地控制体验并提高其安全性，或者您希望在服务器上运行复杂的后端进程，则此类实施是最佳选择。[了解更多](https://developer.adobe.com/target/implement/server-side/)。 |
+| 客户端 | 对于 [!DNL Target] 的这种实现，[!DNL Target] 将与某个活动关联的体验直接提供给客户端浏览器。浏览器将决定要显示的体验，然后显示该体验。对于客户端，可使用所见即所得编辑器&#x200B;**[!UICONTROL 可视体验编辑器]** (VEC) 或非可视界面&#x200B;**[!UICONTROL 基于表格的体验编辑器]**&#x200B;创建您的测试和个性化体验。[了解更多](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}。 |
+| 服务器端 | 在此类型的 [!DNL Target] 实现中，客户端设备通过您的服务器提出体验请求，您的服务器将该请求发送给 [!DNL Target]，[!DNL Target] 将响应发回您的服务器，然后您的服务器决定将什么体验提供给客户端设备以供其呈现。体验不一定显示在浏览器中；它能够以电子邮件或网亭形式显示，还可以通过语音助手或者其他一些非可视化体验或不基于浏览器的设备显示。由于您的服务器位于客户端和 [!DNL Target] 之间，因此如果您需要更好地控制体验并提高其安全性，或者您希望在服务器上运行复杂的后端进程，则此类实施是最佳选择。[了解更多](https://developer.adobe.com/target/implement/server-side/){target=_blank}。 |
 | 混合实现 | 在此实现中，您选择最适合给定用例的实现方法。例如，您可能会使用客户端实现对主页上巨型横幅中的选件进行 A/B 测试，但还可能会使用服务器端实现确定要在客户端浏览器上显示的内部搜索结果、要在智能汽车仪表板上显示的体验或要从语音助手发出的语音响应。 |
 
 ## 活动元素

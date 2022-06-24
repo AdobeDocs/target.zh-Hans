@@ -5,10 +5,10 @@ title: 有关全局mbox的常见问题解答有哪些？
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 64%
+source-wordcount: '322'
+ht-degree: 60%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 64%
 
 您可以通过向活动中添加 URL 规则来限制活动运行的位置。有关更多信息，请参阅[在相似页面上包含相同体验](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)。
 
-您还可以在页面上使用 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}，然后在 [!UICONTROL 可视化体验编辑器] (VEC)或在基于表单的体验编辑器中通过将参数添加为“细化”来实现。
+您还可以在页面上使用 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}，然后在 [!UICONTROL 可视化体验编辑器] (VEC){target=_blank}或在基于表单的体验编辑器中通过将参数添加为“细化”来实现。
 
 ## 如何在 [!DNL Target] 全局mbox? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
@@ -30,7 +30,7 @@ ht-degree: 64%
 
 对于 `orderConfirmPage`，您应该传入 `orderTotal`、`orderId` 和 `productPurchasedId`。
 
-这些参数必须通过 `targetPageParams()`. 有关更多信息，请参阅[将参数传递到全局 Mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/)。
+这些参数必须通过 `targetPageParams()`. 有关更多信息，请参阅 [将参数传递到全局mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}。
 
 您可能还想要向转化中添加定位功能，以便 Target 仅在有人查看了订单确认页面后才在 target-global-mbox 中计入转化次数，如下所示：
 

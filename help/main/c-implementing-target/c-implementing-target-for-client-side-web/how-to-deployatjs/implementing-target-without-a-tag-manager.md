@@ -5,10 +5,10 @@ title: 我能否实施 [!DNL Target] 没有标签管理器？
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 47%
+source-wordcount: '1848'
+ht-degree: 43%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->您可以覆盖 at.js 库中的设置，而不是在 [!DNL Target Standard/Premium] UI 中或通过使用 REST API 来配置设置。有关更多信息，请参阅 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)。
+>您可以覆盖 at.js 库中的设置，而不是在 [!DNL Target Standard/Premium] UI 中或通过使用 REST API 来配置设置。有关更多信息，请参阅 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## 帐户详细信息
 
@@ -96,7 +96,7 @@ ht-degree: 47%
 
 可为通过 API 进行的批量更新启用或禁用身份验证，并生成配置文件身份验证令牌。
 
-有关更多信息，请参阅 [配置文件API设置](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/).
+有关更多信息，请参阅 [配置文件API设置](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/){target=_blank}。
 
 ### 调试器工具
 
@@ -114,11 +114,11 @@ ht-degree: 47%
 * 整个IP模糊处理
 * 无
 
-有关更多信息，请参阅[隐私](https://developer.adobe.com/target/before-implement/privacy/privacy/)。
+有关更多信息，请参阅 [隐私](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}。
 
 >[!NOTE]
 >
->at.js版本0.9.3及更低版本中提供了“旧版浏览器支持”选项。 at.js 版本 0.9.4 中已删除此选项。要获取 at.js 支持的浏览器列表，请参阅[受支持的浏览器](https://developer.adobe.com/target/before-implement/supported-browsers/)。<br>旧版浏览器是指早期推出的不完全支持 CORS（跨域资源共享）的浏览器。这些浏览器包括：Internet Explorer 版本 11 之前的浏览器，以及 Safari 版本 6 及更低版本。如果禁用了“旧版浏览器支持”，则Target不会在这些浏览器的报表中提供内容或计数访客。 如果启用了此选项，则建议跨旧版浏览器进行质量保证，以确保获得良好的客户体验。
+>at.js版本0.9.3及更低版本中提供了“旧版浏览器支持”选项。 at.js版本0.9.4中已删除此选项。有关at.js支持的浏览器列表，请参阅 [支持的浏览器](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}。<br>旧版浏览器是指早期推出的不完全支持 CORS（跨域资源共享）的浏览器。这些浏览器包括：Internet Explorer 版本 11 之前的浏览器，以及 Safari 版本 6 及更低版本。如果禁用了“旧版浏览器支持”，则Target不会在这些浏览器的报表中提供内容或计数访客。 如果启用了此选项，则建议跨旧版浏览器进行质量保证，以确保获得良好的客户体验。
 
 ## 下载 at.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -128,7 +128,7 @@ ht-degree: 47%
 >
 >* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}是实施 [!DNL Target] 和at.js库。 在中使用标记时，以下信息不适用 [!DNL Adobe Experience Platform] 实施 [!DNL Target].
 >
->* 的 [!DNL Target] 团队同时支持at.js 1.*x* 与 at.js 2.*x* 之间的映射。请升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。 有关每个版本中功能的更多信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
+>* 的 [!DNL Target] 团队同时支持at.js 1.*x* 与 at.js 2.*x* 之间的映射。请升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。 有关每个版本中功能的更多信息，请参阅 [at.js版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
 
 ### 使用 [!DNL Target] 界面 {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ ht-degree: 47%
 
    >[!IMPORTANT]
    >
-   >Target 团队仅维护两个版本的 [!DNL at.js]：当前版本和当前版本的上一个版本。请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。有关每个版本中功能的更多信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)。
+   >Target 团队仅维护两个版本的 [!DNL at.js]：当前版本和当前版本的上一个版本。请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。有关每个版本中功能的更多信息，请参阅 [at.js版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
    加载此 URL 后，便会开始下载您的自定义 [!DNL at.js] 文件。
 
@@ -247,7 +247,7 @@ at.js 应该在您网站每个页面的 `<head>` 元素中实施。
 * HTML5 Doctype(例如， `<!doctype html>`)。 不受支持或较旧的 doctypes 可能会导致 Target 无法提出请求。
 * “预连接”和“预提取”选项可帮助提升网页加载速度。如果您使用这些配置，请确保将 `<client code>` 使用您自己的客户端代码，您可以从 **[!UICONTROL 管理]** > **[!UICONTROL 实施] 页面。
 * 如果您拥有数据层，那么在 at.js 加载之前，最好在页面的 `<head>` 中定义尽可能多的数据层。此位置允许在Target中最大限度地使用此信息进行个性化。
-* 特殊 Target 函数（例如 `targetPageParams()`、`targetPageParamsAll()`、数据提供程序和 `targetGlobalSettings()`）应在 at.js 加载之前，数据层加载之后进行定义。或者，这些函数也可以保存在 [!UICONTROL 库标题] 部分 [!UICONTROL 编辑at.js设置] 页面，并另存为at.js库本身的一部分。 有关这些函数的更多信息，请参阅 [at.js函数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
+* 特殊 Target 函数（例如 `targetPageParams()`、`targetPageParamsAll()`、数据提供程序和 `targetGlobalSettings()`）应在 at.js 加载之前，数据层加载之后进行定义。或者，这些函数也可以保存在 [!UICONTROL 库标题] 部分 [!UICONTROL 编辑at.js设置] 页面，并另存为at.js库本身的一部分。 有关这些函数的更多信息，请参阅 [at.js函数](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}。
 * 如果您使用JavaScript帮助程序库（如jQuery），请在Target之前包含这些库，以便在构建Target体验时可以使用它们的语法和方法。
 * 将 at.js 包含在您页面的 `<head>` 中。
 

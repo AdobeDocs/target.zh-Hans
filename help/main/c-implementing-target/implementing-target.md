@@ -6,9 +6,9 @@ title: 如何实施 [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 5ae32fbbc51b6277794fb702a4188133b5e29029
+source-git-commit: dfbe46289b09ffd95e0e30b8b5bd2af215e8ed81
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '190'
 ht-degree: 2%
 
 ---
@@ -21,18 +21,18 @@ ht-degree: 2%
 
 开发人员门户包含有关以下实施类型的信息：
 
-* 客户端：有关使用实施的信息 [!DNL Adobe Experience Platform Web SDK] 或 [!DNL Target Web SDK] (at.js)。
-* 服务器端：有关使用Node.JS、JAVA、.NET和Python SDK进行实施的信息。
-* 混合：有关在您使用客户端和服务器端实施的组合时实施的信息。
-* Recommendations:可帮助您实施的信息 [!DNL Recommendations], a [Target Premium](/help/main/c-intro/intro.md#premium) 服务。
-* 移动设备应用程序：可帮助您使用 [!DNL Adobe Experience Platform Mobile] SDK。
-* 电子邮件：可帮助您实施的信息 [!DNL Target] 电子邮件中。
+* **客户端**:有关使用实施的信息 [!DNL Adobe Experience Platform Web SDK] 或 [!DNL Target Web SDK] (at.js)。
+* **服务器端**:有关使用Node.JS、JAVA、.NET和Python SDK进行实施的信息。
+* **混合**:有关在您使用客户端和服务器端实施的组合时实施的信息。
+* **Recommendations**:可帮助您实施的信息 [!DNL Recommendations], a [Target Premium](/help/main/c-intro/intro.md#premium) 服务。
+* **移动设备应用程序**:可帮助您使用 [!DNL Adobe Experience Platform Mobile] SDK。
+* **电子邮件**:可帮助您实施的信息 [!DNL Target] 电子邮件中。
 
 有关更多信息，请参阅 [Adobe Target开发人员指南门户](https://developer.adobe.com/target/){target=_blank}。
 
 >[!NOTE]
 >
->之前包含在 *实施Target* 部分( *Adobe Target从业人员指南*)现在包含在开发人员门户中。
+>之前包含在 *实施Target* 部分( *Adobe Target从业人员指南*)现在包含在 [开发人员门户](https://developer.adobe.com/target/){target=_blank}。
 
 
 

@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用Multivariate Testing(MVT) [!DNL Target
 title: 什么是多变量测试？
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
 source-wordcount: '1460'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 88%
 
 * 使用 MVT 测试来确定最重要的元素，然后对该元素进行更集中的 A/B 测试。
 
-   如果不同体验的数量超过5个，并且这些体验包含两个或更多元素，则最好在运行A/B测试之前先运行MVT测试。 MVT 测试可显示页面中的哪些区域最有可能提高转化。这些是营销人员应关注的元素。例如，MVT 测试可能表明，行为召唤 (call to action) 是实现目标的最重要元素。确定哪些元素和内容最有助于您达到目标后，您可以运行 A/B 测试以进一步优化结果，例如分别测试两个特定图像，或者比较行为召唤的遣词造句或颜色。通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
+   如果不同体验的数量超过5个，并且这些体验包含两个或更多元素，则最好在运行A/B测试之前先运行MVT测试。 MVT 测试可显示页面中的哪些区域最有可能提高转化。这些是营销人员应关注的元素。例如，MVT 测试可能表明，行为召唤 (call to action) 是实现目标的最重要元素。确定哪些元素和内容对帮助您实现目标最有用后，您可以运行A/B测试以进一步优化结果，例如测试两个特定图像，或比较行动动员的措辞或颜色。 通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
 
 ## 注意事项 {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 

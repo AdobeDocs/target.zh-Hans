@@ -6,9 +6,9 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -43,20 +43,20 @@ ht-degree: 92%
 
 此版本包含以下增强功能和修复：
 
-* 添加了 [用户代理客户端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)支持{target=_blank}。
+* 添加了[用户代理客户端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}支持功能。
 * 修复了一个问题，在[!UICONTROL 体验定位] (XT) 活动中呈现[!UICONTROL 优惠决策]时，该问题间歇性地导致超时。(TNT-44611)
 
 ## at.js 版本 2.9.0（2022 年 5 月 27 日）
 
-* 添加了 [用户代理客户端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)支持{target=_blank}。
+* 添加了[用户代理客户端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}支持功能。
 * 修复了同一页面上的多个 mbox 请求具有不同印象 ID 的错误。
 
 ## 其他发行说明和版本详细信息
 
 | 资源 | 详细信息 |
 |--- |--- |
-| [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=cn) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

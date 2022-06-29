@@ -5,9 +5,9 @@ title: ' [!DNL Target] 的工作原理'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2571'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 96%
 
 [!DNL Target] 使用 [!DNL Experience Platform Web SDK] 或 JavaScript 库与网站集成：
 
-* **Adobe Experience Platform Web SDK:** 的 [Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}是新的客户端JavaScript库。 Experience PlatformWeb SDK允许 [!DNL Adobe Experience Cloud] 与 [!DNL Experience Cloud] (包括 [!DNL Target]){target=_blank}通过 [!DNL Experience Platform] 边缘网络。 Adobe 建议所有新 [!DNL Target] 客户均实施 [!DNL Experience Platform Web SDK]。
-* **at.js：** at.js 库是 [!DNL Target] 的一个实施库。使用 at.js 库可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。经常更新 at.js 以增加新功能。Adobe建议所有使用at.js的客户将其实施更新到 [最新版本的at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
+* **Adobe Experience Platform Web SDK：**[Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} 是一个新的客户端 JavaScript 库。Experience Platform Web SDK 使 [!DNL Adobe Experience Cloud] 的客户可通过 [!DNL Experience Platform] 边缘网络与 [!DNL Experience Cloud] 中的各种服务（包括 [!DNL Target]）{target=_blank}进行交互。Adobe 建议所有新 [!DNL Target] 客户均实施 [!DNL Experience Platform Web SDK]。
+* **at.js：** at.js 库是 [!DNL Target] 的一个实施库。使用 at.js 库可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。经常更新 at.js 以增加新功能。Adobe 建议所有使用 at.js 的客户都将其实施更新到 [at.js 的最新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 * **mbox.js：** mbox.js 库是 [!DNL Target] 旧版实施库。2021 年 3 月 31 日后不再支持 mbox.js 库。
 
 请在您网站上的每个页面上都引用 [!DNL Experience Platform Web SDK] 或 at.js。例如，可将这些库之一添加到您的全局头部。或者，考虑使用 [Adobe Experience Platform 中的标签](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)来实施 [!DNL Target]。
@@ -131,7 +131,7 @@ ht-degree: 96%
 >
 >[!DNL Adobe Target] 目前在中国没有边缘群集，因此中国 [!DNL Target] 客户的访客表现仍然受限。由于该国存在防火墙和缺乏边缘群集，因此部署了 [!DNL Target] 的网站的体验可能受影响。体验可能呈现得较慢，并且页面加载可能受影响。此外，营销人员可能在使用 [!DNL Target] 创作 UI 时经历延迟的情况。
 
-如果需要，可将 [!DNL Target] 边缘群集列入允许列表。有关更多信息，请参阅 [允许列表Target边缘节点](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}。
+如果需要，可将 [!DNL Target] 边缘群集列入允许列表。有关详细信息，请参阅[将 Target 边缘节点列入允许列表](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}。
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
 workflow-type: tm+mt
 source-wordcount: '1097'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 89%
 | 6 月 7 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 22.6.1 版的预发行信息。 |
 | 5 月 31 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md#webinar-series) | 添加了关于即将举办的 [!DNL Adobe Target] 社区咖啡时间活动的信息（2022 年 6 月 29 日） |
 | 5 月 25 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target] Platform 版（2022 年 5 月 25 日）和 at.js 2.9.0 版（2022 年 5 月 27 日）的信息。 |
-|  | [at.js版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 添加了有关 at.js 2.9.0 版的信息。 |
+|  | [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 添加了有关 at.js 2.9.0 版的信息。 |
 |  | [用户代理和客户端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | 新主题。 |
 |  | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md#webinar-series) | 添加了以下网络研讨会的录制链接：迪克的体育用品：零售业的个性化及变化（2022 年 5 月 19 日） |
 | 5 月 23 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了 at.js 2.9.0 版（2022 年 5 月 25 日）预发行版本说明 |

@@ -1,13 +1,13 @@
 ---
 keywords: 混合内容;安全;不安全;chrome;故障排除;vec;可视体验编辑器;不安全;http;https;firefox;internet explorer
-description: 如果安全内容与不安全内容混合在一起，某些浏览器可能会阻止页面显示。了解如何在 Chrome、Firefox 和 Edge 中启用混合内容。
-title: 如何在我的浏览器中启用混合内容？
+description: 了解如何在Chrome、Firefox和Edge中启用混合内容。 当浏览器阻止页面显示时，您可以启用混合内容，因为安全内容与不安全内容混合在一起。
+title: 如何在浏览器中启用混合内容
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 如果安全内容与不安全内容混合在一起，现代浏览器可能会阻止页面显示或者显示警告消息。
 
-如果 [!DNL Target] 中的[!UICONTROL 可视体验编辑器] (VEC) 尝试打开包含混合内容的页面，则会显示警告消息。此消息告知您如何在浏览器中禁用阻止。禁用阻止可允许您打开 HTTP 网站或具有混合调用（HTTPS 和 HTTP）的网站。
+如果 [!DNL Adobe Target] 中的[!UICONTROL 可视体验编辑器] (VEC) 尝试打开包含混合内容的页面，则会显示警告消息。此消息告知您如何在浏览器中禁用阻止。禁用阻止可允许您打开 HTTP 网站或具有混合调用（HTTPS 和 HTTP）的网站。
 
 ![混合内容警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 

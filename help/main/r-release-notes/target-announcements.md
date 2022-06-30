@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 100%
+source-wordcount: '1334'
+ht-degree: 95%
 
 ---
 
@@ -15,30 +15,42 @@ ht-degree: 100%
 
 关于即将举办的 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
 
-## Adobe Target 社区茶歇（2022 年 6 月 29 日）
-
-+++单击这里
-
-* **2022 年 6 月 29 日，星期三**
-* **上午 8:00 到 9:00 (PDT, UTC-7)**
-* **[更多信息和注册信息 ](https://adobe.ly/3wKhcQS){target=_blank}**
-
-Adobe 解决方案咨询团队的 Jordan Ison、Kati McKinney、Justine Lee 和 Kaela Cusack 将与我们一起就他们的专业领域与您直接交谈。他们还将回答与 2022 年 6 月 2 日“精准个性化：Adobe Analytics 和 Target 网络研讨会”中涵盖的主题相关的任何问题（更多信息如下）：
-
-* 营销人员、开发人员和产品团队如何打开人工智能的“黑匣子”，推动未来的测试和个性化战略
-* 如何克服优化网络、移动应用程序、电子邮件、物联网和每个数字接触点以实现更高转化率和参与度方面的挑战
-* 用于个性化、定位和测试的 Adobe Analytics 和 Adobe Target 工作流程
-* 了解用于解锁哪些属性可以预测访客行为，以及哪些属性对关键可视化和细分分析最重要的用例
-
-+++
-
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 
 注册参加以下网络研讨会，了解客户如何使用 [!DNL Adobe Target] 来实现其个性化和优化目标：
 
+### Adobe:个性化行业内幕 — 零售（2022年8月11日）
+
+2022 年为企业提供了一个动态且快速变化的运行和运营环境。了解行业专家如何发现，随着上班族和旅行者的生活开始恢复正常，新的消费趋势正在形成。
+
++++单击这里
+
+* **2022 年 6 月 21 日星期四**
+* **下午 1:00 到 2:00 (EDT, UTC-4)**
+* **[更多信息和注册信息 ](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+加入 Michael Klein（行业战略零售总监）和 Leina Betzer（Adobe Premier Support Target 顾问），讨论随着消费者购买模式和行为的转变，在特定市场对商品和服务的需求更高，零售电子商务销售是如何飞速增长的。
++++
+
+### 计划的网络研讨会系列
+
+计划在不久的将来推出以下网络研讨会系列：
+
+* 业内人士：个性化行业内部人士：旅游和酒店
+* 业内人士：个性化行业内部人士：媒体和娱乐
+* 技能培养者：新的高级用户/产品经理、移动设备开发人员、营销人员、分析师、业务用户
+
+请在 [Adobe Target社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}。
+
+## 过去的网络研讨会和技能培训课程录像
+
+访问以往活动的录像：
+
 ### Adobe：精准个性化 - [!DNL Adobe Analytics] 和 [!DNL Target]（2022 年 6 月 2 日）
 
 了解人工智能如何继续重新定义消费者的期望，因为机器学习模型和数据见解为营销人员、开发人员和产品所有者打开了新的大门，让消费者获得重要的个性化体验。逐步了解个性化、定位和测试的 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流。
+
+* [录制链接](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
 
 +++单击这里
 
@@ -59,6 +71,8 @@ Adobe 解决方案咨询团队的 Jordan Ison、Kati McKinney、Justine Lee 和 
 
 了解如何成为“关系银行”以提高品牌忠诚度的最佳实践。了解如何推动人员和流程来构建和扩展成功的个性化计划。
 
+* [录制链接](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
+
 +++单击这里
 
 * **2022 年 6 月 9 日星期四**
@@ -71,6 +85,8 @@ Adobe 解决方案咨询团队的 Jordan Ison、Kati McKinney、Justine Lee 和 
 ### Adobe：发现高影响力的优化机会（2022 年 6 月 16 日）
 
 了解我们如何进入比以往任何时候都更加数字化的新常态，组织利用每一个机会提供卓越的数字体验至关重要。足够好不再是真正的足够好。保持竞争力需要丰富的经验。
+
+* [录制链接](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
 +++单击这里
 
@@ -86,23 +102,6 @@ Adobe 解决方案咨询团队的 Jordan Ison、Kati McKinney、Justine Lee 和 
 * 还有更多想法等您解锁，助您在贵组织中发现高影响力的机会
 
 +++
-
-### Adobe：个性化行业内幕 — 零售业（2022 年 6 月 21 日）
-
-2022 年为企业提供了一个动态且快速变化的运行和运营环境。了解行业专家如何发现，随着上班族和旅行者的生活开始恢复正常，新的消费趋势正在形成。 
-
-+++单击这里
-
-* **2022 年 6 月 21 日星期四**
-* **下午 1:00 到 2:00 (EDT, UTC-4)**
-* **[更多信息和注册信息 ](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-加入 Michael Klein（行业战略零售总监）和 Leina Betzer（Adobe Premier Support Target 顾问），讨论随着消费者购买模式和行为的转变，在特定市场对商品和服务的需求更高，零售电子商务销售是如何飞速增长的。
-+++
-
-## 过去的网络研讨会和技能培训课程录像
-
-访问以往活动的录像：
 
 ### 迪克体育用品：个性化和零售业的变化（2022 年 5 月 19 日）
 

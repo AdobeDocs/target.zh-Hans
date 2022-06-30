@@ -4,10 +4,10 @@ description: 熟悉用户界面并查找更深入的信息的链接，以帮助�
 title: 如何使用 [!DNL Target] UI？
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 5dc59dbc712acb66b305a8dfb884aecb43a4b224
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 45%
+source-wordcount: '1344'
+ht-degree: 46%
 
 ---
 
@@ -44,10 +44,6 @@ ht-degree: 45%
 ## 通知和公告 {#notifications-announcements}
 
 [!UICONTROL “通知”]和[!UICONTROL “公告”]面板帮助您及时了解 [!DNL Adobe Target] 的所有最新进展。主动通知有助于您及时了解 [!DNL Adobe Experience Cloud] 解决方案和 [!DNL Target] 事件。 主动公告提醒您发生断电事件和维护事件。
-
->[!NOTE]
->
->有关增强功能的信息 [!UICONTROL 通知和公告] 此部分中的面板当前适用于select [!DNL Target] 客户，并将在未来几个月向所有客户推出。
 
 单击标题中的铃铛图标以查看通知：
 

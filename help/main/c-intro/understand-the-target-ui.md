@@ -1,12 +1,12 @@
 ---
-keywords: target 用户界面;用户界面;ui；公告；事件
+keywords: target 用户界面;用户界面;ui；公告；事件；通知
 description: 熟悉用户界面并查找更深入的信息的链接，以帮助您充分利用 [!DNL Target].
 title: 如何使用 [!DNL Target] UI？
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 5dc59dbc712acb66b305a8dfb884aecb43a4b224
+source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 46%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 46%
 
 ![通知](assets/notifications.png)
 
-以下部分包含有关每个选项卡以及如何配置通知和公告的信息。
+以下部分包含有关每个选项卡以及如何配置通知和公告的信息：
 
 ### 通知
 

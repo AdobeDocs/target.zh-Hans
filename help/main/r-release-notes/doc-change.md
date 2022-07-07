@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 6 月 30 日 | [Adobe Target开发人员指南](https://developer.adobe.com/target/){target=_blank} | 启动了 *Adobe Target开发人员指南* 合并所有 [!DNL Target] 在一个方便的门户中提供开发人员内容。 该门户包含有关实施 [!DNL Target] 和 [!DNL Recommendations]、[!DNL Target] SDK 以及 [!DNL Target] API 的信息。 |
+| 6 月 30 日 | [Adobe Target 开发人员指南](https://developer.adobe.com/target/){target=_blank} | 发布了 *Adobe Target 开发人员指南*，将所有[!DNL Target]开发者内容整合到一个方便的门户中。该门户包含有关实施 [!DNL Target] 和 [!DNL Recommendations]、[!DNL Target] SDK 以及 [!DNL Target] API 的信息。 |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.6.2 版的发行说明。 |
 |  | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了以往网络研讨会会议的录制链接。 |
 | 6 月 14 日 | [计划和实施 Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | 更新了以下部分中的代码示例：<ul><li>购物车添加/购物车视图/结账页面</li><li>排除访客购物车中已有的项目</li></ul> |

@@ -1,17 +1,17 @@
 ---
-user-guide-title: Adobe Target Business Pactier Guide
+user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
 source-git-commit: dd30d27b55a9a21b083af75024fce74057791f94
 workflow-type: tm+mt
 source-wordcount: '1209'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
-# Adobe Target Business Pactier Guide {#using}
+# Adobe Target 从业者指南 {#using}
 
 + [Adobe Target Business Pactier Guide主页](target-home.md)
 + Target 发行说明 {#release-notes}

@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: d54f3c4c75031788316a94acf3d14a8db2a17366
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 78%
+source-wordcount: '966'
+ht-degree: 60%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 78%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target] 平台版本（2022年7月20日）
+
+此版本包含以下功能、增强功能和修复：
+
+| 功能 | 描述 |
+| --- | --- |
+| 通过支持IPv6(TNT-43364、TNT-44692)，提高了受众评估的准确性并减少了最终用户延迟 | 访客的地理位置现在由IPv6地址（如果可用）来确定，而不是仅由IPv4地址来确定。 交付API还支持IPv6输入参数。 筛选和允许列表支持IPv4和IPv6地址。 此版本中的IPv6支持意味着访客将更准确地包含在受众中（更准确地符合活动资格或包含在筛选标准中）。 它还改善了数据延迟，因为IPv6客户端将直接路由，从而避免了IPv6到IPv4网关的开销。 |
+| 修复了A4T客户端有效负载处理问题(TNT-44926) | 通过A4T服务器端集成，如果Adobe Target将请求标识为来自机器人的请求，则不会将有效负载转发到Analytics，并且中未记录任何mod_stats事件 [!DNL Target] 日志。 在此版本中，A4T客户端日志记录已得到增强，因此与A4T有效负载相关的行为与与A4T服务器端的行为相同：被识别为机器人的访客将被排除在 [!DNL Target] 计数/报告。 (请注意，相关问题仅限于使用客户端负载处理的实施；未影响服务器端。 在此版本中，服务器端和客户端负载处理的行为现在都保持一致。) |
 
 ## [!DNL Target Standard/Premium] 22.6.2（2022 年 6 月 30 日）
 

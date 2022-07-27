@@ -5,9 +5,9 @@ title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1334'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 注册参加以下网络研讨会，了解客户如何使用 [!DNL Adobe Target] 来实现其个性化和优化目标：
 
-### Adobe:个性化行业内幕 — 零售（2022年8月11日）
+### Adobe: Personalization Industry Insider - 零售（2022 年 8 月 11 日）
 
 2022 年为企业提供了一个动态且快速变化的运行和运营环境。了解行业专家如何发现，随着上班族和旅行者的生活开始恢复正常，新的消费趋势正在形成。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 * 业内人士：个性化行业内部人士：媒体和娱乐
 * 技能培养者：新的高级用户/产品经理、移动设备开发人员、营销人员、分析师、业务用户
 
-请在 [Adobe Target社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}。
+请在 [Adobe Target 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}。
 
 ## 过去的网络研讨会和技能培训课程录像
 

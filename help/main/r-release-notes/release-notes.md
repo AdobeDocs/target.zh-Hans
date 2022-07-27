@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: d54f3c4c75031788316a94acf3d14a8db2a17366
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 60%
+ht-degree: 78%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 60%
 
 ## [!DNL Target] 平台版本（2022年7月20日）
 
-此版本包含以下功能、增强功能和修复：
+此版本包含以下功能、增强和修复：
 
 | 功能 | 描述 |
 | --- | --- |
@@ -29,12 +29,12 @@ ht-degree: 60%
 
 ## [!DNL Target Standard/Premium] 22.6.2（2022 年 6 月 30 日）
 
-此版本包含以下功能、增强功能和修复：
+此版本包含以下功能、增强和修复：
 
 | 功能 | 描述 |
 | --- | ---  |
 | 产品内通知 | 获取以下相关的产品内通知：<ul><li>**活动**:批准或停用活动时（手动或达到活动开始或结束日期时），所有活动类型的通知。 通知包含带有活动概述页面链接的活动名称。</li><li>**配置文件脚本** 手动或Target激活或停用配置文件脚本时的通知。</li><li>**Recommendations信息源**:手动或由Target激活或停用Recommendations馈送时的通知。 当Recommendations馈送失败时，也会发送通知。</li></ul> 默认情况下，产品管理员、发布者和批准者会收到通知。 通知可在Experience Cloud首选项中进行配置。<br>有关详细信息，请参阅 [通知和公告](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
-| *Adobe Target开发人员指南* | 的 *Adobe Target开发人员指南* 合并所有 [!DNL Target] 开发人员内容。 本指南包含有关实施的信息 [!DNL Target] 和 [!DNL Recommendations], [!DNL Target] SDK和 [!DNL Target] API。<br>有关更多信息，请参阅 [Adobe Target开发人员指南](https://developer.adobe.com/target/){target=_blank}。 |
+| *Adobe Target 开发人员指南* | *Adobe Target 开发人员指南* 便于合并所有 [!DNL Target] 开发人员内容。 [!DNL Target][!DNL Recommendations][!DNL Target][!DNL Target]<br>有关更多信息，请参阅 [Adobe Target 开发人员指南](https://developer.adobe.com/target/){target=_blank}。 |
 
 * 具有[!UICONTROL 编辑者]角色的用户无法再编辑直播活动中的受众。(TGT-43582)
 * 如果客户试图将感叹号 (！) 作为受众名称的第一个字符（例如 !London）来保存受众，则会显示警告消息。(TGT-43643)

@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 99%
 | 5 月 23 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了 at.js 2.9.0 版（2022 年 5 月 25 日）预发行版本说明 |
 | 5 月 11 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md#webinar-series) | 添加了以下网络研讨会的信息和注册链接：<ul><li>迪克体育用品：个性化和零售业的变化</li><li>Adobe：个性化行业内幕 — 金融服务和保险</li><li>国民城市银行 (City National Bank)：如何在数字优化中实现前 1% 的目标</li><li>Adobe：精准个性化 — [!DNL Adobe Analytics] 和 [!DNL Target]</li><li>国民城市银行：从零到英雄 — 启动并扩展个性化计划</li><li>Adobe：发现高影响力的优化机会</li><li>Adobe：个性化行业内幕 — 零售业</li></ul>添加了以下网络研讨会的录像：<ul><li>[!DNL Adobe Target] 的实时个性化服务</li></ul> |
 |  | [内容安全策略 (CSP) 指令](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank} | 添加了常见问题解答部分。 |
-|  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 22.5.1 和 Target 平台（2022 年 5 月 11 日至 13 日）发行信息. |
+|  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 22.5.1 和 Target 平台（2022 年 5 月 11 日至 13 日）发行信息。 |
 
 ## Adobe Target Standard/Premium 22.4.1（4 月 28 日）
 
@@ -81,7 +81,7 @@ ht-degree: 99%
 |  | [创建仅限活动的受众](/help/main/c-target/creating-activity-only-audience.md) | 在“注意事项”部分中添加了讨论排除规则的信息。 |
 | 2 月 10 日 | [可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 添加了有关在可视化体验编辑器 (VEC) 中使用 Service Worker 加载网站的信息。 |
 | 2 月 7 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 2 月 23 日）</li></ul> |
-| 2 月 3 日 | [创建受众](/help/main/c-target/c-audiences/audiences.md#RTCDP) | 添加了新的部分和视频：“视频：利用实时 CDP 和 [!DNL Adobe Target] 的下一次点击个性化”。 |
+| 2 月 3 日 | [创建受众](/help/main/c-target/c-audiences/audiences.md#RTCDP) | 添加了新的部分和视频：“视频：利用 Real-time CDP 和 [!DNL Adobe Target] 的下一次点击个性化”。 |
 | 2 月 2 日 | [内容交付故障诊断](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 添加了新的部分：“[!DNL Target] 配置文件属性值中的转义双引号无法按预期发挥作用”。 |
 | 2 月 1 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.2.1 版本的信息。 |
 
@@ -97,6 +97,6 @@ ht-degree: 99%
 |  | [创建受众](/help/main/c-target/c-audiences/audiences.md) | 添加了关于 [!DNL Adobe Experience Platform] 受众的信息。 |
 |  | [合并多个受众](/help/main/c-target/combining-multiple-audiences.md) | 添加了关于 [!DNL Adobe Experience Platform] 受众的信息。 |
 | 1 月 21 日 | [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 添加了有关 at.js 1.8.3 版本的信息。 |
-| 1 月 19 日 | [从 at.js 1.** 升级到 at.js 2.x *x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 添加了以下部分：“at.js 2.*x* 不支持使用 vst.* 参数创建受众” |
+| 1 月 19 日 | [从 at.js 1.*x* 升级到 at.js 2.x *x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 添加了以下部分：“at.js 2.*x* 不支持使用 vst.* 参数创建受众” |
 | 1 月 12 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 Target Standard/Premium 22.1.1 版的信息。 |
 |  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | 添加了指向教程的链接，其中提供有关使用 Web SDK 实施 [!DNL Adobe Experience Cloud] 的说明。 |

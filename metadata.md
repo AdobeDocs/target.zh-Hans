@@ -4,7 +4,7 @@ product: target
 solution: Target
 audience: end-user
 type: Documentation
-git-repo: https://git.corp.adobe.com/AdobeDocs/target.zh-Hans
+git-repo: https://github.com/AdobeDocs/target.zh-Hans
 index: true
 role: User
 level: Intermediate

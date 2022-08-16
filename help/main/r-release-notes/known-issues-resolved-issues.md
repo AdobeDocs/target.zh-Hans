@@ -5,9 +5,9 @@ title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4651'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -210,11 +210,11 @@ Target Standard/Premium 20.10.1 版本中修复了此问题。
 
 （TGT-38522、CSO 20201006007）
 
-### 自动定位和Automated Personalization型号可用性指示器 {#at-ap-model}
+### 自动定位和 Automated Personalization 模型可用性指示器 {#at-ap-model}
 
-自动定位和Automated Personalization活动的“模型可用性”功能在2022年6月1日至2022年7月19日期间间歇性地失败。 这意味着，即使在自动定位或Automated Personalization活动中以个性化方式提供体验或选件，Target报表UI仍可能未能显示绿色复选标记，指示已成功构建模型。
+自动定位和 Automated Personalization 活动的模型可用性功能在 2022 年 6 月 1 日至 2022 年 7 月 19 日断断续续地发生故障。这意味着即使正在自动定位或 Automated Personalization 中提供个性化的体验或选件，Target 报表 UI 仍可能无法显示指示成功构建了模型的绿色复选标记。
 
-请注意 **个性化模型构建** 未受到影响，并且在整个期间成功构建了模型。 只有模型可用性系统受此错误影响。 **报表数据也未受到影响**. 换言之，体验和选件的性能（访问次数、转化次数和转化率）未受到影响。 只有表示个性化模型可用性的绿色复选标记可能未能显示。
+请注意，不影响&#x200B;**构建自身的个性化模型**，并在整个期间成功构建了模型。此错误仅影响模型可用性系统。**也不影响报表数据**。也就是说不影响体验和选件的表现（访问次数、转化次数和转化率）。可能仅无法显示指示个性化模型可用性的绿色复选标记。
 
 ### 报表 {#conversions-audiences}
 

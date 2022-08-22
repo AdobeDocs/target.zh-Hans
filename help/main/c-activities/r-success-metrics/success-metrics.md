@@ -4,9 +4,9 @@ description: 了解Adobe中的成功量度 [!DNL Target] 来帮助您确定活�
 title: 什么是成功量度？
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1171'
 ht-degree: 43%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->对于使用 [将Analytics作为报表源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)目标量度将始终使用[!UICONTROL 递增计数并保持用户处于活动中]&quot;和&quot;[!UICONTROL 每次展示时]“ ”设置。 这是 *not* 可配置。
+>对于使用 [将Analytics作为报表源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，目标量度将始终使用[!UICONTROL 递增计数并保持用户处于活动中]&quot;和&quot;[!UICONTROL 每次展示时]“ ”设置。 这是 *not* 可配置。
 
 可用的成功量度如下所示：
 
@@ -75,7 +75,7 @@ ht-degree: 43%
 
 依赖关系功能是 *not* 支持以下内容：
 
-* [!UICONTROL “推荐”活动。]其他所有活动类型均支持此功能。
+* [!UICONTROL Recommendations] 活动. 其他所有活动类型均支持此功能。
 * 如果您使用 [Analytics作为报表源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。
 * 量度类型为“已查看页面”。
 * 可视化体验编辑器 (VEC) 活动的量度类型为“已单击元素”。

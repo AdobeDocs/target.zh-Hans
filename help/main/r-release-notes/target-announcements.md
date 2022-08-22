@@ -4,9 +4,9 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
+source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1878'
 ht-degree: 70%
 
 ---
@@ -21,7 +21,7 @@ Gartner已确认 [!DNL Adobe Target] 在其最新的个性化引擎幻方图(PE)
 
 有关更多信息，请参阅 [Adobe Experience Cloud博客文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
-## [!DNL Adobe Target] 社区问答茶歇
+## [!DNL Adobe Target] 社区问答时间（2022年8月31日）
 
 * **2022 年 8 月 31 日星期三**
 * **上午 9:00 到 10:00 (PDT, UTC-7)**
@@ -58,7 +58,7 @@ Gartner已确认 [!DNL Adobe Target] 在其最新的个性化引擎幻方图(PE)
 * 创建超个性化体验
 +++
 
-## [!DNL Adobe Target] 技能培养者 — 移动体验优化（2022年9月6日）
+### [!DNL Adobe Target] 技能培养者 — 移动体验优化（2022年9月6日）
 
 移动体验推动了营销和工程团队如何利用产品主导的策略在Web和应用程序中实现跨渠道个性化方面的创新。 加入 [!DNL Adobe] 技能培养者会议并了解如何 [!DNL Adobe Target] 为营销人员、开发人员和产品所有者解锁新的潜在参与度和收入增长，以构建欣欣向荣的产品社区。
 
@@ -70,7 +70,7 @@ Gartner已确认 [!DNL Adobe Target] 在其最新的个性化引擎幻方图(PE)
 
 +++
 
-## [!DNL Adobe Target] 技能培养者 — AI驱动的个性化和Recommendations（2022年9月15日）
+### [!DNL Adobe Target] 技能培养者 — AI驱动的个性化和Recommendations（2022年9月15日）
 
 实验和个性化中的自动化继续为营销、工程和产品团队带来最高的转化率和ROI。 加入 [!DNL Adobe] 技能培养课程和了解如何使用 [!DNL Adobe Target] 高级AI驱动的用例和功能以及产品和内容建议，可始终领先于竞争对手并赢得每个体验。
 

@@ -4,10 +4,10 @@ description: 查找有关在使用Analytics for [!DNL Target] (A4T)。 A4T允许
 title: 查找有关使用A4T查看报表的问题解答？
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 36%
+source-wordcount: '2551'
+ht-degree: 33%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 36%
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 5 | 1 | 1 |
 
-2 月 1 日，该用户返回了网站，查看了其他 5 个页面，并且未体验任何其他 Target 活动，而此时原来的活动已不再上线。即使该活动不再处于上线状态，它仍会通过 eVar 持久性跟踪该用户。现在，数据如下所示：
+用户于2月1日返回，查看了另外五个页面，并且不会再遇到Target活动，并且原始活动不再处于活动状态。 即使该活动不再处于上线状态，它仍会通过 eVar 持久性跟踪该用户。现在，数据如下所示：
 
 | 活动名称 | 实例（展示次数） | 页面查看次数 | 访问次数 | 独特访客 |
 |--- |--- |--- |--- |--- |
@@ -125,9 +125,9 @@ ht-degree: 36%
 
 ## 为什么Analytics和Analytics for Adobe Target(A4T)在计算“独特访客”量度时得到的数字不同？ {#section_0C3B648AB54041F9A2AA839D51791883}
 
-当您运行的 A/B 测试使用“学生 t 检验”（置信度量度）来选择测试的入选者时，其假设之一是存在固定的时间范围。因此，除非您查看的是固定样本量，否则该测试不具有统计意义。
+运行A/B测试时，该测试使用 [韦尔奇的T检验](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}（置信度量度）来选择测试的入选者，其中一个假设是存在固定的时间范围。 除非您查看的是该固定样本量，否则测试在统计上无效。
 
-的 [!UICONTROL 独特访客] 量度在 [!DNL Analytics] 和 [!DNL Target] 仅当您查看的时段比实际测试的时段短。 如果您未达到样本量，则测试并不可靠。有关详细信息，请参阅 [Evan Miller 的网站](https://www.evanmiller.org/index.html)上的[如何正确运行 A/B 测试](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
+的 [!UICONTROL 独特访客] 量度在 [!DNL Analytics] 和 [!DNL Target] 仅当您查看的时段比实际测试的时段短。 如果未达到样本量，测试就不那么可靠。 有关详细信息，请参阅 [Evan Miller 的网站](https://www.evanmiller.org/index.html)上的[如何正确运行 A/B 测试](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
 
 的 [!UICONTROL 独特访客] 量度显示在指定时间段内访问过网站的测试参与者数量。 这些人是测试的一部分，应该被计数。 如果您只想查看一周内接触过该测试的人数，则可以创建一个具有活动展示次数的访客区段并将其应用于报表。
 

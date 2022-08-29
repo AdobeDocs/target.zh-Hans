@@ -4,10 +4,10 @@ description: 了解如何Adobe [!DNL Target] 显示和计算每个体验的转�
 title: 如何查看转化率、提升度和置信水平？
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 59%
+source-wordcount: '2146'
+ht-degree: 53%
 
 ---
 
@@ -98,9 +98,9 @@ ht-degree: 59%
 
 您可以为 A4T 执行离线计算，但需要在 [!DNL Analytics] 中完成数据导出步骤。
 
-对于 A4T，我们会使用 Student t 检验来计算连续变量（而非二进制量度）。在 Analytics 中，会始终跟踪访客，并计入所执行的每项操作。因此，如果访客进行了多次购买或多次访问了某个成功量度，则会计入这些额外的点击。这会使量度变为连续变量。要执行Student t检验计算，需要“平方和”来计算方差，该方差用在t统计量的分母中。 [本文档介绍了](/help/main/assets/statistical-calculations.pdf) 所用的数学公式。 平方和可从 [!DNL Analytics]. 要获取平方和数据，您需要导出样本时间段内要优化的量度在访客级别对应的数值。
+对于A4T，我们使用 [韦尔奇的T检验](https://en.wikipedia.org/wiki/Welch%27s_t-test)连续变量（而非二进制量度）的{target=_blank}计算。 在 Analytics 中，会始终跟踪访客，并计入所执行的每项操作。因此，如果访客进行了多次购买或多次访问了某个成功量度，则会计入这些额外的点击。这会使量度变为连续变量。要执行Welch的t检验计算，需要“平方和”来计算方差，该方差用在t统计量的分母中。 [本文档介绍了](/help/main/assets/statistical-calculations.pdf) 所用的数学公式。 平方和可从 [!DNL Analytics]. 要获取平方和数据，您需要导出样本时间段内要优化的量度在访客级别对应的数值。
 
-例如，如果您要优化每位访客的页面查看次数，您将需要导出特定期限内（或许是几天）每位访客查看页面的总次数样本（您只需要几千个数据点）。之后，您可以对每个值求平方，然后将总数相加（此处的运算顺序至关重要）。此“平方和”值随后可用在完整置信度计算器中。应在该电子表格的“收入”部分中使用这些值。
+例如，如果您优化为每位访客的页面查看次数，那么您将导出一个特定时间段（可能是几天）内每位访客总页面查看次数的样本（您只需要几千个数据点）。 之后，您可以对每个值求平方，然后将总数相加（此处的运算顺序至关重要）。此“平方和”值随后可用在完整置信度计算器中。应在该电子表格的“收入”部分中使用这些值。
 
 **使用 [!DNL Analytics] 数据导出功能执行此操作：**
 
@@ -113,9 +113,9 @@ ht-degree: 59%
    | 字段 | 说明 |
    |--- |--- |
    | 请求名称 | 指定请求的名称。 |
-   | 报告日期 | 指定时间段和时间粒度。<br>对于首次请求，最好选择不超过 1 小时或 1 天的数据。请求的时间段越长，Data Warehouse 文件处理的时间也就会越长，因此第一次最好请求较短时间段内的数据，以确保文件返回预期的结果。之后，转到“请求管理器”，复制您的请求，然后在第二次请求中请求更多的数据。另外，如果您将时间粒度切换为“无”之外的任何其他选项，则文件大小都将显著增加。<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
+   | 报告日期 | 指定时间段和时间粒度。<br>对于首次请求，最好选择不超过 1 小时或 1 天的数据。请求的时间段越长，Data Warehouse 文件处理的时间也就会越长，因此第一次最好请求较短时间段内的数据，以确保文件返回预期的结果。之后，转到“请求管理器”，复制您的请求，然后在第二次请求中请求更多的数据。此外，如果将粒度切换为“无”以外的任何内容，则文件大小将会急剧增加。<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
    | 可用区段 | 根据需要应用区段。 |
-   | 划分 | 选择所需的维度：“标准”维度为开箱即用 (OOTB) 维度，而“自定义”维度包含 eVar 和 prop。如果需要访客 ID 级别的信息，建议您使用“访客 ID”，而不是“Experience Cloud 访客 ID”。<ul><li>访客 ID 是 Analytics 使用的最终 ID。访客 ID 将为 AID（如果客户是旧客户）或 MID（如果客户是新客户，或者清除了自 MC 访客 ID 服务启动以来的 Cookie）。</li><li>仅当客户是新客户，或者清除了自 MC 访客 ID 服务启动以来的 Cookie 时，才会为客户设置 Experience Cloud 访客 ID。</li></ul> |
+   | 划分 | 选择所需的维度：“标准”维度为开箱即用 (OOTB) 维度，而“自定义”维度包含 eVar 和 prop。如果需要访客ID级别信息，建议您使用“访客ID”，而不是“Experience Cloud访客ID”。<ul><li>访客 ID 是 Analytics 使用的最终 ID。访客 ID 将为 AID（如果客户是旧客户）或 MID（如果客户是新客户，或者清除了自 MC 访客 ID 服务启动以来的 Cookie）。</li><li>仅当客户是新客户，或者清除了自 MC 访客 ID 服务启动以来的 Cookie 时，才会为客户设置 Experience Cloud 访客 ID。</li></ul> |
    | 量度 | 选择所需的量度。“标准”量度为开箱即用量度，而“自定义”量度包含自定义事件。 |
    | 报表预览 | 在计划报表之前查看您的设置。<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
    | 计划提交 | 输入要将文件提交到的电子邮件地址，为文件命名，然后选择[!UICONTROL 立即发送]。<br>注意：可通过[!UICONTROL 高级提交选项]<br>![计划提交](/help/main/c-reports/assets/datawarehouse3.png)下方的 FTP 来提交文件。 |
@@ -124,7 +124,7 @@ ht-degree: 59%
 
    根据请求的数据数量，文件提交最多可能需要 72 小时。您可以随时查看请求的进度，方法是单击“[!UICONTROL 工具]”>“[!UICONTROL Data Warehouse]”>“[!UICONTROL 请求管理器]”。
 
-   如果您想要重新请求之前已请求过的数据，则可以根据需要从“[!UICONTROL 请求管理器]”中复制之前的请求。
+   如果您希望重新请求过去请求的数据，则可以复制 [!UICONTROL 请求管理器] 根据需要。
 
 有关 [!DNL Data Warehouse] 的更多信息，请访问 [!DNL Analytics] 帮助文档中的以下链接：
 
@@ -168,7 +168,7 @@ ht-degree: 59%
 >
 >通常情况下，计数取决于 Cookie 和会话活动。但是，如果您达到了活动的最终转化点，然后又重新进入活动，则您会被视为新参加者，而您对活动的访问也会被视为新访问。即使用户的 PCID 和 `sessionID` 值不变，也是如此。
 
-## 为什么 [!DNL Target] 建议使用Student的T测试？ {#t-test}
+## 为什么 [!DNL Target] 建议使用韦尔奇的t检验？ {#t-test}
 
 A/B测试是一种实验，用于将控制变体（也称为体验）中某些业务量度的平均值与一个或多个替代体验中该相同量度的平均值进行比较。
 

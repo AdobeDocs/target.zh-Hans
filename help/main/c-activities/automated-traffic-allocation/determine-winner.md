@@ -4,7 +4,7 @@ description: 了解如何在Adobe中解释自动分配A/B活动的结果 [!DNL T
 title: 如何解读自动分配报表？
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 45%
@@ -71,7 +71,7 @@ ht-degree: 45%
 
 * 手动 A/B 测试和自动分配使用不同的统计数据来显示置信度值。
 
-   手动 A/B 测试使用的是基于 [Student t 检验](https://en.wikipedia.org/wiki/Student%27s_t-test)的 p 值。P 值是指在体验与控制体验之间找到观察到的差异（或更极端的差异）的概率（但实际上根本不存在这样的差异）。这些 P 值只能用于确定在给定体验与控制体验相同的情况下，观察到的数据是否一致。这些值不能用于确定体验是否与其他体验（非控制体验）存在差异。
+   手动A/B测试使用基于 [韦尔奇的T检验](https://en.wikipedia.org/wiki/Welch%27s_t-test). P 值是指在体验与控制体验之间找到观察到的差异（或更极端的差异）的概率（但实际上根本不存在这样的差异）。这些 P 值只能用于确定在给定体验与控制体验相同的情况下，观察到的数据是否一致。这些值不能用于确定体验是否与其他体验（非控制体验）存在差异。
 
    自动分配显示的是某个特定体验是所有活动体验中的入选者的真实性概率。这意味着只有入选体验（最有可能入选的体验）的置信度值将为非零数值。所有其他体验很有可能落选，因此将显示 0% 的置信度值。
 

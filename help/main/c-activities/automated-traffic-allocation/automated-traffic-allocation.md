@@ -4,14 +4,14 @@ description: 了解如何在Adobe中使用自动分配活动 [!DNL Target] 可�
 title: 什么是自动分配活动？
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '3559'
-ht-degree: 49%
+source-wordcount: '3567'
+ht-degree: 50%
 
 ---
 
-# [!UICONTROL 自动分配]概述
+# [!UICONTROL 自动分配] 概述
 
 安 [!UICONTROL 自动分配] 活动 [!DNL Adobe Target] 在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间自动为入选者重新分配更多流量以提高转化。
 
@@ -29,7 +29,7 @@ ht-degree: 49%
 
 中的常规A/B测试 [!DNL Target] 仅显示与控制对象的两两比较。 例如，如果活动包含体验：A、B、C和D，其中A是控制，正常 [!DNL Target] A/B测试将比较A与B、A与C、A与D。
 
-在此类测试中，大多数产品，包括 [!DNL Target]，则使用Student t测试生成基于p值的置信度。 然后，使用该置信度值来确定挑战体验与控制体验之间是否存在足够的差异。但是， [!DNL Target] 不会自动执行查找“最佳”体验所需的隐式比较（B与C、B与D、C与D）。 因此，营销人员必须手动分析结果来确定“最佳”体验。
+在此类测试中，大多数产品，包括 [!DNL Target]，使用 [韦尔奇的T检验](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}生成基于p值的置信度。 然后，使用该置信度值来确定挑战体验与控制体验之间是否存在足够的差异。但是， [!DNL Target] 不会自动执行查找“最佳”体验所需的隐式比较（B与C、B与D、C与D）。 因此，营销人员必须手动分析结果来确定“最佳”体验。
 
 [!UICONTROL 自动分配可执行各体验之间的隐式比较并得出“真实”入选者。]测试中没有“控制”体验的概念。
 
@@ -207,13 +207,13 @@ ht-degree: 49%
 
 选择其他环境时，报表会显示该环境的流量和转化。 报表的默认选定环境是所选帐户范围的默认环境。 默认环境不能基于每个活动进行设置。
 
-### 能否 [!UICONTROL 自动分配] 活动会调整测试过程中的回顾窗口，以考虑随时间变化的趋势？
+### [!UICONTROL 自动分配] 活动能否在测试过程中调整回看窗口，以考虑随时间变化的趋势？
 
 例如，活动是否可以考虑12月份的月份来决定如何分配流量，而不是查看9月份的访客数据（测试开始时）？
 
 不， [!UICONTROL 自动分配] 考虑整个活动的绩效。
 
-### 是 [!UICONTROL 自动分配] 如果入选体验与访客在符合活动资格条件时看到的体验不同，则向回访访客显示入选体验？
+### 如果获胜体验与访客在获得活动资格时看到的不同，那么 [!UICONTROL 自动分配] 是否向回访访客显示获胜体验？
 
 [!UICONTROL 自动分配] 出于与 [!UICONTROL A/B测试] 活动具有粘滞性。 流量分配仅适用于新访客。
 

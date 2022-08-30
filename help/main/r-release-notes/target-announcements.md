@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
 source-wordcount: '1878'
-ht-degree: 70%
+ht-degree: 98%
 
 ---
 
@@ -15,68 +15,68 @@ ht-degree: 70%
 
 关于即将举办的 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
 
-## [!DNL Target] 在Gartner个性化引擎幻方图（2022年）中被任命为领导者
+## [!DNL Target] 在个性化引擎的 Gartner Magic Quadrant 方面评选佼佼者 (2022)
 
-Gartner已确认 [!DNL Adobe Target] 在其最新的个性化引擎幻方图(PE)中连续第五年位居榜首。 [!DNL Adobe] 在所有三个主要用例中，也获得了最高分，并且年均显着增长：数字营销、数字商务、服务和支持。 [!DNL Target] 在所评估的所有供应商中，我们的测试功能也获得了最高分。
+Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年将 [!DNL Adobe Target] 评为佼佼者。 [!DNL Adobe] 在所有三个主要用例中，也获得了最高分，并且年均显着增长：数字营销、数字商务、服务和支持。 在所有评估的供应商中，[!DNL Target] 的测试能力得分同样最高。
 
-有关更多信息，请参阅 [Adobe Experience Cloud博客文章](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
+有关更多信息，请参阅 [Adobe Experience Cloud 博客帖子](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA) {target=_blank}。
 
-## [!DNL Adobe Target] 社区问答时间（2022年8月31日）
+## [!DNL Adobe Target] 社区问答喝咖啡休息时间 （2022年8月31日）
 
 * **2022 年 8 月 31 日星期三**
 * **上午 9:00 到 10:00 (PDT, UTC-7)**
-* **[注册信息](https://adobe.ly/3buoDUt){target=_blank}**
+* **[注册信息](https://adobe.ly/3buoDUt) {target=_blank}**
 
-我们会有大佬 [!DNL Adobe] Premier Support顾问Moses Maxen谈论您的 [!DNL Adobe Target] 与最近 [8/11/22零售个性化行业内部人士网络研讨会](https://video.tv.adobe.com/v/346323){target=_blank}，以及他的专业领域 [!DNL Target]:
+高级 [!DNL Adobe] Premier Support 顾问 Moses Maxen 将与我们一起讨论您的 [!DNL Adobe Target] 问题，这些问题与最近 [2022 年 8 月 11 日零售个性化行业内部人士网络研讨会](https://video.tv.adobe.com/v/346323) {target=_blank} 中涉及的主题有关，而且是 Moses 顾问在 [!DNL Target] 方面的专长：
 
-* 随着消费者购买模式和行为在过去几个月发生变化，包括消费者包装产品在内的某些市场对商品和服务的需求增加，零售电子商务销售如何飞涨
-* 相关的优化和个性化策略
+* 过去几个月，随着消费者购买模式和行为的转变，在特定市场（包括包装消费品）对商品和服务的需求增加，零售电子商务销售额如何飞速增长的。
+* 相关优化和个性化策略
 * [!DNL Target] 实施
-* [!DNL Adobe] Sensei功能
+* [!DNL Adobe] Sensei 功能
 * Core UI 工作流
 
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 
 注册参加以下网络研讨会，了解客户如何使用 [!DNL Adobe Target] 来实现其个性化和优化目标：
 
-### 厨师系列：个性化方法（2022年8月30日）
+### 厨师的收藏集：个性化食谱（2022 年 8 月 30 日）
 
-加入 [!DNL Adobe Target] [!DNL ]团队，为您提供有关如何从Target中实现最大价值的新想法。 根据我们最新的电子书《厨师系列：个性化构思”。
+加入 [!DNL Adobe Target] [!DNL ]团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 基于我们最新的电子书，“厨师的收藏集：个性化想法”。
 
 +++单击这里
 
-* **2022年8月30日星期四**
+* **2022 年 8 月 30 日星期四**
 * **下午 1:00 到 2:00 (EDT, UTC-4)**
 * **[更多信息和注册信息 ](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
 
-我们将深入研究顾客的“厨师”故事，以及他们在自己的个性化厨房里烹饪的东西。
+我们将深入了解客户“厨师”的故事，以及他们在自己的个性化厨房里所做的事。
 
-让我们来探索以下概念：
+让我们探讨以下方面的想法：
 
 * 如何使用个性化来建立忠诚度
-* 优化以获得竞争优势
-* 创建超个性化体验
+* 优化竞争优势
+* 创造超个性化体验
 +++
 
-### [!DNL Adobe Target] 技能培养者 — 移动体验优化（2022年9月6日）
+### [!DNL Adobe Target] Skill Builders – 移动体验优化（2022 年 9 月 6 日）
 
-移动体验推动了营销和工程团队如何利用产品主导的策略在Web和应用程序中实现跨渠道个性化方面的创新。 加入 [!DNL Adobe] 技能培养者会议并了解如何 [!DNL Adobe Target] 为营销人员、开发人员和产品所有者解锁新的潜在参与度和收入增长，以构建欣欣向荣的产品社区。
+移动体验正在推动营销和工程团队进行创新，探索如何在网络和应用程序中利用以产品为导向的跨渠道个性化策略。 加入 [!DNL Adobe] Skill Builders 课程，了解 [!DNL Adobe Target] 如何为营销人员、开发人员和产品所有者解锁新的潜在参与度和收入增长点，以构建繁荣的产品社区。
 
 +++单击这里
 
-* **2022年9月6日星期四**
+* **2022 年 9 月 6 日星期四**
 * **下午 1:00 到 2:00 (EDT, UTC-4)**
 * **[更多信息和注册信息 ](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 +++
 
-### [!DNL Adobe Target] 技能培养者 — AI驱动的个性化和Recommendations（2022年9月15日）
+### [!DNL Adobe Target] Skill Builders – 人工智能驱动的个性化和推荐（2022 年 9 月 15 日）
 
-实验和个性化中的自动化继续为营销、工程和产品团队带来最高的转化率和ROI。 加入 [!DNL Adobe] 技能培养课程和了解如何使用 [!DNL Adobe Target] 高级AI驱动的用例和功能以及产品和内容建议，可始终领先于竞争对手并赢得每个体验。
+实验和个性化方面的自动化继续推动提升市场营销、工程和产品团队的最高转化率和 ROI。 加入 [!DNL Adobe] Skill Builders 课程，学习如何使用 [!DNL Adobe Target] 高级人工智能驱动的用例和功能以及产品和内容推荐，在竞争中保持领先地位并在每一次体验中表现出色。
 
 +++单击这里
 
-* **2022年9月15日星期四**
+* **2022 年 9 月 15 日星期四**
 * **下午 1:00 到 2:00 (EDT, UTC-4)**
 * **[更多信息和注册信息 ](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -84,26 +84,26 @@ Gartner已确认 [!DNL Adobe Target] 在其最新的个性化引擎幻方图(PE)
 
 ## 过去的网络研讨会和技能培训课程录像
 
-访问过去事件的录像（如果可用）：
+访问以往活动的录像（如果可用）：
 
-### 实时忠诚度激活（2022年8月25日）
+### 实时忠诚度激活（2022 年 8 月 25 日）
 
-在供应链问题加速、服务失败和人手有限的时代，忠诚度不断提高是大多数旅游、酒店和餐饮品牌面临的一个挑战。 在AI时代，品牌如何在没有离开行业所需资源的情况下扩展体验。 数字化进展加快了20-25倍，不仅支持加速的客户期望，还支持通过自动化来扩展团队。
+在供应链问题激化、服务中断和人员有限的情况下，如何不断提高客户忠诚度是大多数旅游、酒店和餐饮品牌面临的挑战。 在人工智能时代，品牌如何在没有行业所需资源的情况下扩展体验。 数字化进程加快了 20 – 25 倍，以期在支持不断增加的客户期望的同时，通过自动化扩展团队。
 
 +++单击这里
 
-* **2022年8月25日星期四**
-* **晚上10时至11时（太平洋夏令时，UTC-7）**
+* **2022 年 8 月 25 日星期四**
+* **下午 10:00 到 11:00 (PDT, UTC-7)**
 * **[更多信息和注册信息 ](https://dxfieldmarketing.adobeevents.com/api/redirect_to_page?page=registration&amp;event_id=e54793e9-107f-4e4e-8373-5a380974392b){target=_blank}**
 
-在2022年，系统在提供持续智能以实时激活忠诚度的能力上已达到临界点。
+2022 年，系统在提供持续智能以实现实时忠诚度激活的能力方面达到了转折点。
 
 我们将探讨的主题：
 
-* 人工智能数字中断的加速与崛起
-* 为什么早期采用者在总收入和利润增长中都胜出
-* 在旅行中自动实现个性化
-* 实时忠诚度激活
+* 数字中断的加速和人工智能的兴起
+* 为什么早期采用者在顶线和底线增长方面都表现出色
+* 旅行中的个性化自动化
+* 行动中的实时忠诚度激活
 +++
 
 ### Adobe: Personalization Industry Insider - 零售（2022 年 8 月 11 日）
@@ -115,7 +115,7 @@ Gartner已确认 [!DNL Adobe Target] 在其最新的个性化引擎幻方图(PE)
 +++单击这里
 
 * **2022年8月11日星期四**
-* **下午1时至2时()**
+* **下午 1:00 到 2:00 ()**
 * **[更多信息和注册信息 ](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 加入 Michael Klein（行业战略零售总监）和 Leina Betzer（Adobe Premier Support Target 顾问），讨论随着消费者购买模式和行为的转变，在特定市场对商品和服务的需求更高，零售电子商务销售是如何飞速增长的。

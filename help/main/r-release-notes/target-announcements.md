@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
+source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 98%
+source-wordcount: '1777'
+ht-degree: 91%
 
 ---
 
@@ -21,42 +21,11 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 有关更多信息，请参阅 [Adobe Experience Cloud 博客帖子](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA) {target=_blank}。
 
-## [!DNL Adobe Target] 社区问答喝咖啡休息时间 （2022年8月31日）
-
-* **2022 年 8 月 31 日星期三**
-* **上午 9:00 到 10:00 (PDT, UTC-7)**
-* **[注册信息](https://adobe.ly/3buoDUt) {target=_blank}**
-
-高级 [!DNL Adobe] Premier Support 顾问 Moses Maxen 将与我们一起讨论您的 [!DNL Adobe Target] 问题，这些问题与最近 [2022 年 8 月 11 日零售个性化行业内部人士网络研讨会](https://video.tv.adobe.com/v/346323) {target=_blank} 中涉及的主题有关，而且是 Moses 顾问在 [!DNL Target] 方面的专长：
-
-* 过去几个月，随着消费者购买模式和行为的转变，在特定市场（包括包装消费品）对商品和服务的需求增加，零售电子商务销售额如何飞速增长的。
-* 相关优化和个性化策略
-* [!DNL Target] 实施
-* [!DNL Adobe] Sensei 功能
-* Core UI 工作流
 
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 
 注册参加以下网络研讨会，了解客户如何使用 [!DNL Adobe Target] 来实现其个性化和优化目标：
 
-### 厨师的收藏集：个性化食谱（2022 年 8 月 30 日）
-
-加入 [!DNL Adobe Target] [!DNL ]团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 基于我们最新的电子书，“厨师的收藏集：个性化想法”。
-
-+++单击这里
-
-* **2022 年 8 月 30 日星期四**
-* **下午 1:00 到 2:00 (EDT, UTC-4)**
-* **[更多信息和注册信息 ](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
-
-我们将深入了解客户“厨师”的故事，以及他们在自己的个性化厨房里所做的事。
-
-让我们探讨以下方面的想法：
-
-* 如何使用个性化来建立忠诚度
-* 优化竞争优势
-* 创造超个性化体验
-+++
 
 ### [!DNL Adobe Target] Skill Builders – 移动体验优化（2022 年 9 月 6 日）
 
@@ -85,6 +54,25 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 ## 过去的网络研讨会和技能培训课程录像
 
 访问以往活动的录像（如果可用）：
+
+### 厨师的收藏集：个性化食谱（2022 年 8 月 30 日）
+
+加入 [!DNL Adobe Target] [!DNL ]团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 根据我们最新的电子书《厨师系列：个性化构思”。
+
++++单击这里
+
+* **2022 年 8 月 30 日星期四**
+* **下午 1:00 到 2:00 (EDT, UTC-4)**
+* **[更多信息和注册信息 ](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
+
+我们将深入研究顾客的“厨师”故事，以及他们在自己的个性化厨房里烹饪的东西。
+
+让我们探讨以下方面的想法：
+
+* 如何使用个性化来建立忠诚度
+* 优化竞争优势
+* 创造超个性化体验
++++
 
 ### 实时忠诚度激活（2022 年 8 月 25 日）
 
@@ -135,7 +123,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 加入 Jordan Ison（[!DNL Adobe] 的首席专家解决方案顾问）参与讨论：
 
-* 营销人员、开发人员和产品团队如何打开人工智能的“黑匣子”，推动未来的测试和个性化战略
+* 营销人员、开发人员和产品团队如何打开AI的“黑匣子”以推动未来的测试和个性化策略
 * 克服优化网络、移动应用程序、电子邮件、物联网和每个数字接触点以实现更高转化率和参与度方面的挑战
 * 逐步引导浏览个性化、目标和测试的 [!DNL Adobe Analytics] 和 [!DNL Target] 工作流
 * 用于解锁哪些属性可以预测访客行为，以及哪些属性对关键可视化和细分分析最重要的顶级用例
@@ -188,7 +176,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 与 Shawn Wilkinson（电子商务个性化经理）一同了解 [!DNL Target] 如何帮助迪克体育用品使普通访客成为运动员回头客。
 
-了解迪克体育用品如何推动两位数增长：
+了解迪克的体育用品如何在我们打开包装的同时推动两位数的增长：
 
 * 如何为零售业规划和启动高性能个性化计划
 * 为什么获得整个组织的认可对于克服障碍和阻碍至关重要
@@ -248,7 +236,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++单击这里
 
-相比以往，营销人员、产品所有者和开发人员需要更多地在网站上、应用程序中以及他们与客户联系的其他各个环节优化整体客户体验。若使用多种工具，再加上数据孤岛和复杂的实现方式，将无法完成这些任务。
+相比以往，营销人员、产品所有者和开发人员需要更多地在网站上、应用程序中以及他们与客户联系的其他各个环节优化整体客户体验。具有数据孤岛和复杂实施的多个工具无法剪切。
 
 在这场录播的网络研讨会中，Adobe Target 产品专家讨论了如何将关键的体验优化决策转移到设备上，无延迟地在本地执行，在为客户提高网站性能的同时创造激动人心的新用例。
 +++
@@ -259,17 +247,17 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++单击这里
 
-McKinsey Digital 报道称“我们仅用了大约 8 周时间，就将消费者和商业数字化采用程度向前推进了 5 年。”*
+麦肯锡数字报告称，“我们在消费者和商业数字应用方面已推进了5年，大约在8周的时间内。” *
 
 消费者需求正在迅速膨胀，因此汇丰银行采用了 Adobe Target 进行优化，以便快速地测试新的客户历程并使之个性化，使得某些开发和启动周期从 6 个月骤降至 1 周！
 
 在此网络研讨会上向 Adobe 和汇丰银行了解以下各项：
 
-* 汇丰银行在优化和个性化方面的工作如何在组织中推动快速变革？
+* 汇丰的优化和个性化工作如何推动组织的快速变革
 * AI 与 Analytics 如何为其工作提速并产生明确、显著的业务影响
 * 汇丰银行如何成功构建了一个提供 3000 多种活动的大规模项目
 
-*McKinsey 文章：“[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)”，2020 年 5 月
+*麦肯锡的文章：&quot;[COVID-19的恢复将是数字化的](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)，” 2020年5月
 +++
 
 ### Adobe [!DNL Target] Skill Builder：开发人员聊天，将 Adobe [!DNL Target] 的 mbox.js 迁移到 at.js {#skill-builder}

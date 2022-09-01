@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 78c394a2e82bdf02f124240f0755f4b747804cf6
+source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 52%
+source-wordcount: '411'
+ht-degree: 38%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2022 年 8 月 29 日**
+**上次更新日期：2022 年 9 月 1 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -23,18 +23,24 @@ ht-degree: 52%
 
 此版本将按照以下交错发布计划发布：
 
-* **9月6日**:欧洲、中东和非洲(EMEA)地区
-* **9月7日**:美洲地区
-* **9月8日**:亚太地区
+* **9月13日**:欧洲、中东和非洲(EMEA)地区
+* **9月14日**:美洲地区
+* **9月15日**:亚太地区
 
 此版本包含以下增强功能和修复：
 
 * 添加了 [!UICONTROL 跨域] 下载at.js 2.9.1（及更高版本）以允许或禁用设置第三方Cookie时使用的选项(TGT-43674)
+* 更新了 [!DNL Target] UI可告知客户活动已启用、禁用，并已达到目标和提升度阈值。 (TGT-35811)
+* 在 [!UICONTROL Automated Personalization] （美联社）和 [!UICONTROL 自动定位] 活动。
 * 修复了导致 [!UICONTROL 决策选件] 不能在 [!UICONTROL 可视化体验编辑器] (VEC)。 (TGT-43866)
 * 修复了在选择 [!UICONTROL 已单击元素] 转化目标 [!UICONTROL Multivariate Testing] (MVT)活动。 (TGT-43842)
 * 修复了阻止 [!UICONTROL 展示次数] 的下载CSV报表文件中显示的 [!UICONTROL Automated Personalization] (AP)活动。 (TGT-43780)
 * 修复了在使用 [!UICONTROL 基于表单的体验编辑器]. (TGT-43633)
 * 修复了阻止客户复制 [!UICONTROL A/B测试] 活动从非默认工作区移动到其他非默认工作区。 (TGT-41910)
+* 修复了一个问题，以确保客户能够使用 [!DNL Target] 中的UI [!UICONTROL A/B测试] 和 [!UICONTROL 体验定位] (XT)包含推荐的活动。 (TGT-42331)
+* 修复了导致在 [!DNL Target] 获取参数时的UI。 (TGT-43737)
+* 进行了UI更新，以确保某些拖放操作可通过键盘访问。 (TGT-42969)
+* 进行了UI更新，以确保文本字符串正确本地化。
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

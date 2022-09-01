@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
+source-git-commit: 6c74ea26dfe1bf66f0557a442f06a6d44ddbd0e5
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 38%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 38%
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 22.9.1（错开发行，2022年9月6日至8日）
+## [!DNL Target] Standard/Premium 22.9.1（错开发行，2022年9月13日至15日）
 
 此版本将按照以下交错发布计划发布：
 

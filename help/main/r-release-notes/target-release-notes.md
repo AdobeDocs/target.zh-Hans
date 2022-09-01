@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6c74ea26dfe1bf66f0557a442f06a6d44ddbd0e5
+source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '411'
+ht-degree: 38%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 此版本包含以下增强功能和修复：
 
-* 添加了 [!UICONTROL 跨域] 下载at.js 2.9.1（及更高版本）以允许或禁用设置第三方Cookie时使用的选项(TGT-43674)
+* 添加了 [!UICONTROL 跨域] 下载at.js 2.9.1（及更高版本）以允许或禁用设置第三方Cookie时，会选择此选项。 (TGT-43674)
 * 更新了 [!DNL Target] UI可告知客户活动已启用、禁用，并已达到目标和提升度阈值。 (TGT-35811)
 * 在 [!UICONTROL Automated Personalization] （美联社）和 [!UICONTROL 自动定位] 活动。
 * 修复了导致 [!UICONTROL 决策选件] 不能在 [!UICONTROL 可视化体验编辑器] (VEC)。 (TGT-43866)

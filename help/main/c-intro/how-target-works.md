@@ -1,34 +1,34 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;搜索引擎优化;搜索引擎优化;seo;边缘群集、中心群集;at.js;mbox.js;
-description: 了解如何 [!DNL Adobe Target] 工作区，包括有关JavaScript库(AEP Web SDK at.js)、Adobe数据中心、SEO测试和机器人的信息。
+description: 了解  [!DNL Adobe Target]  的工作原理，包括有关 JavaScript 库 (AEP Web SDK at.js)、Adobe 数据中心、SEO 测试和机器人的信息。
 title: ' [!DNL Target] 的工作原理'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 0d00315b7460a36aceaa4d4d0ce4bb5402824c73
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2568'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
-# 如何 [!DNL Adobe Target] 作品
+# [!DNL Adobe Target] 的工作原理
 
-了解如何 [!DNL Adobe Target] 工作，包括有关JavaScript库([!DNL Adobe Experience Platform Web SDK] 和at.js)。 本文还介绍了您可以使用创建的各种活动类型 [!DNL Target]. 还可了解 [!DNL Target] 边缘网络、搜索引擎优化 (SEO) 以及 [!DNL Target] 如何检测机器人。
+了解 [!DNL Adobe Target] 的工作原理，包括有关 JavaScript 库（[!DNL Adobe Experience Platform Web SDK] 和 at.js）的信息。 本文还介绍可使用 [!DNL Target] 创建的各种活动类型。 还可了解 [!DNL Target] 边缘网络、搜索引擎优化 (SEO) 以及 [!DNL Target] 如何检测机器人。
 
-## [!DNL Adobe Target] JavaScript库 {#libraries}
+## [!DNL Adobe Target] JavaScript 库 {#libraries}
 
-[!DNL Target] 与使用的网站集成 [!DNL Experience Platform Web SDK] 或at.js:
+[!DNL Target] 使用 [!DNL Experience Platform Web SDK] 或 at.js 与网站集成：
 
-* **[!DNL Adobe Experience Platform Web SDK]:** 的 [Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}是新的客户端JavaScript库。 的 [!DNL Experience Platform Web SDK] 允许客户 [!DNL Adobe Experience Cloud] 与 [!DNL Experience Cloud] (包括 [!DNL Target])至 [!DNL Experience Platform] 边缘网络。 [!DNL Adobe] 建议所有新 [!DNL Target] 客户均实施 [!DNL Experience Platform Web SDK]。
+* **[!DNL Adobe Experience Platform Web SDK]：** [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} 是一个新的客户端 JavaScript 库。 [!DNL Experience Platform Web SDK] 让 [!DNL Adobe Experience Cloud] 的客户通过 [!DNL Experience Platform] Edge Network 与 [!DNL Experience Cloud]（包括 [!DNL Target]）中的各种服务进行交互。 [!DNL Adobe] 建议所有新 [!DNL Target] 客户均实施 [!DNL Experience Platform Web SDK]。
 * **at.js：** at.js 库是 [!DNL Target] 的一个实施库。使用 at.js 库可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。经常更新 at.js 以增加新功能。[!DNL Adobe] 建议所有使用 at.js 的客户都将其实施更新到 [at.js 的最新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
 
 >[!NOTE]
 >
->mbox.js库是适用于 [!DNL Target]. 2021 年 3 月 31 日后不再支持 mbox.js 库。升级到Experience PlatformWeb SDK（首选）或最新版本的at.js。
+>mbox.js 库是 [!DNL Target] 的旧版实施库。 2021 年 3 月 31 日后不再支持 mbox.js 库。升级到 Experience Platform Web SDK（首选）或最新版本的 at.js。
 
 请在您网站上的每个页面上都引用 [!DNL Experience Platform Web SDK] 或 at.js。例如，可将这些库之一添加到您的全局头部。或者，考虑使用 [Adobe Experience Platform 中的标签](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)来实施 [!DNL Target]。
 
-以下资源包含可帮助您实施 [!DNL Experience Platform Web SDK] 或at.js:
+以下资源包含帮助您实施 [!DNL Experience Platform Web SDK] 或 at.js 的详细信息：
 
 * [[!DNL Adobe Experience Platform Web SDK] 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=zh-Hans)
 * [使用  [!DNL Adobe Experience Platform] 实施  [!DNL Target] ](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
@@ -60,43 +60,43 @@ ht-degree: 80%
 
 ### [!UICONTROL 自动定位] (AT)
 
-[!UICONTROL 自动定位使用高级机器学习从多种由营销人员定义的体验中选择表现好的体验。][!UICONTROL 自动定位提供最适合每位访客的体验。]体验投放基于个别客户个人资料以及个人资料相似的以往访客的行为。使用 [!UICONTROL 自动定位] 以个性化内容并促进转化。
+[!UICONTROL 自动定位使用高级机器学习从多种由营销人员定义的体验中选择表现好的体验。][!UICONTROL 自动定位提供最适合每位访客的体验。]体验投放基于个别客户个人资料以及个人资料相似的以往访客的行为。使用[!UICONTROL 自动定位]使内容个性化并促进转化。
 
 有关更多信息，请参阅[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 
 ### [!UICONTROL 自当个性化] (AP)
 
-[!UICONTROL Automated Personalization] (AP)将选件或消息进行组合，并使用先进的机器学习技术将不同的选件变体与每位访客进行匹配。 体验投放基于个别客户个人资料以使内容个性化并促进提升。
+[!UICONTROL Automated Personalization] (AP) 将选件或消息组合在一起，并使用高级机器学习将不同的选件变体与每位访客相配。 体验投放基于个别客户个人资料以使内容个性化并促进提升。
 
 有关更多信息，请参阅[自动个性化](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)。
 
 ### [!UICONTROL Experience Targeting] (XT)
 
-[!UICONTROL 体验定位] (XT)根据营销人员定义的一组规则和标准，将内容交付给特定受众。
+[!UICONTROL 体验定位] (XT) 根据一组营销人员定义的规则和标准向特定受众提供内容。
 
-体验定位（包括地理定位）对于定义规则以将特定体验或内容定位到特定受众非常有用。可以在活动中定义多个规则，以将不同的内容变体交付到不同的受众。访客查看您的网站时， [!UICONTROL 体验定位] (XT)会对其进行评估，以确定它们是否符合您设置的标准。 如果他们符合标准，则可以进入活动，并会看到专为符合条件的受众设计的体验。您可以在一个活动中为多个受众创建体验。
+体验定位（包括地理定位）对于定义规则以将特定体验或内容定位到特定受众非常有用。可以在活动中定义多个规则，以将不同的内容变体交付到不同的受众。当访客查看您的网站时，[!UICONTROL 体验定位] (XT) 会进行评估以确定访客是否符合您设置的标准。 如果他们符合标准，则可以进入活动，并会看到专为符合条件的受众设计的体验。您可以在一个活动中为多个受众创建体验。
 
 有关更多信息，请参阅[体验定位](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)。
 
 ### [!UICONTROL 多变量测试] (MVT)
 
-[!UICONTROL Multivariate Testing] (MVT)比较页面上元素中的选件组合，以确定哪个组合对特定受众的效果最佳。 MVT 有助于找出哪个元素对活动取得成功影响最大。
+[!UICONTROL Multivariate Testing] (MVT) 比较页面上各元素中选件的不同组合以确定哪个组合对特定受众的表现最好。 MVT 有助于找出哪个元素对活动取得成功影响最大。
 
 更多信息，请参阅[多变量测试](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)。
 
 ### [!UICONTROL 推荐]
 
-“[!UICONTROL 推荐]”活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。Recommendations可帮助将客户引导至他们可能还不知道的相关项目。
+“[!UICONTROL 推荐]”活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。“推荐”有助于引导客户查看在其他情况下他们可能不知道的相关项目。
 
 有关更多信息，请参阅[推荐](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)。
 
 ## 边缘网络 {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
-“边缘”是分布在不同地理位置的服务架构，不论访客位于全球哪个位置，均可确保为请求内容的访客提供最佳响应时间，
+“边缘”是一种按地理位置分布的服务架构，它确保请求内容的访客无论身在世界各地的何处，均可获得最佳的响应时间。
 
 为了改善响应时间，[!DNL Target] 边缘仅存放活动逻辑、缓存的个人资料和选件信息。
 
-活动和内容数据库， [!DNL Analytics] 数据、API和营销人员用户界面都存储在Adobe的中心群集中。 然后将更新发送到 [!DNL Target] 边缘。中心群集和边缘群集自动同步以不断更新已缓存的活动数据。所有 1:1 建模也都存储在每个边缘上，因此也可在边缘上处理那些更加复杂的请求。
+活动和内容数据库、[!DNL Analytics] 数据、API 和营销人团用户界面存放在 Adobe 的中心群集中。 然后将更新发送到 [!DNL Target] 边缘。中心群集和边缘群集自动同步以不断更新已缓存的活动数据。所有 1:1 建模也都存储在每个边缘上，因此也可在边缘上处理那些更加复杂的请求。
 
 每个边缘群集都具有响应访问者的内容请求并跟踪该请求的分析数据所需的所有信息。访客请求被路由到最近的边缘群集。
 
@@ -106,7 +106,7 @@ ht-degree: 80%
 
 中心群集地点包含数据收集中心和数据处理中心。边缘群集地点仅包含数据收集中心。每个报表包均分配给一个特定的数据处理中心。
 
-七个边缘群集中距离最近的那个群集收集客户网站活动数据。此数据被定向到客户预先确定的中央群集目标(三个位置之一：俄勒冈、都柏林、新加坡)进行处理。 访客个人资料数据存储在距离网站访客最近的边缘群集。边缘群集地点包括中心群集地点以及弗吉尼亚、孟买、悉尼和东京。
+七个边缘群集中距离最近的那个群集收集客户网站活动数据。这些数据被引向客户预先确定的中心群集目标（以下三个地点之一：俄勒冈、都柏林、新加坡）以供处理。 访客个人资料数据存储在距离网站访客最近的边缘群集。边缘群集地点包括中心群集地点以及弗吉尼亚、孟买、悉尼和东京。
 
 距离访客最近的边缘群集处理请求，而非从单个地点响应所有定向请求。此过程有助于减轻穿行网络/Internet 的时间所造成的影响。
 
@@ -132,17 +132,17 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 目前在中国没有边缘群集，且访客性能在 [!DNL Target] 客户。 由于该国存在防火墙和缺乏边缘群集，因此部署了 [!DNL Target] 的网站的体验可能受影响。体验可能呈现得较慢，并且页面加载可能受影响。此外，营销人员可能在使用 [!DNL Target] 创作 UI 时经历延迟的情况。
+>[!DNL Adobe Target] 目前在中国没有边缘群集，因此中国 [!DNL Target] 客户的访客表现仍然受限。 由于该国存在防火墙和缺乏边缘群集，因此部署了 [!DNL Target] 的网站的体验可能受影响。体验可能呈现得较慢，并且页面加载可能受影响。此外，营销人员可能在使用 [!DNL Target] 创作 UI 时经历延迟的情况。
 
 如果需要，可将 [!DNL Target] 边缘群集列入允许列表。有关详细信息，请参阅[将 Target 边缘节点列入允许列表](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}。
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
-[!DNL Adobe] 确保定位基础设施的可用性和性能尽可能可靠。但是，访客浏览器与 [!DNL Adobe] 服务器可能会导致内容交付中断。
+[!DNL Adobe] 确保定位基础设施的可用性和性能尽可能可靠。但是，访客的浏览器与 [!DNL Adobe] 的服务器之间通信中断可能会导致内容投放中断。
 
-为了防止发生服务中断和连接问题，所有地点均设置为包括（由客户端定义的）默认内容。如果用户的浏览器无法连接到，则会显示此默认内容 [!DNL Target].
+为了防止发生服务中断和连接问题，所有地点均设置为包括（由客户端定义的）默认内容。如果用户的浏览器无法连接到 [!DNL Target]，则显示此默认内容。
 
-如果用户的浏览器无法在定义的超时时间段内连接，则不会对页面进行任何更改(默认情况下：15秒)。 如果达到此超时阈值，则会显示默认位置内容。
+如果用户的浏览器无法在定义的超时期限（默认情况下：15 秒）内连接，则不会对页面进行任何更改。 如果达到此超时阈值，则会显示默认位置内容。
 
 [!DNL Adobe] 通过优化和保障性能来保护用户体验。
 
@@ -155,7 +155,7 @@ ht-degree: 80%
 
 [!DNL Adobe Target] 将遵循搜索引擎准则来进行测试。
 
-Google 提倡用户测试。Google在其文件中指出，A/B和 [!UICONTROL Multivariate Testing] 如果您遵循某些准则，则不会损害自然搜索引擎排名。
+Google 提倡用户测试。Google 在其文档中声明，只要遵循特定准则，A/B 和 [!UICONTROL Multivariate Testing] 就不会影响自然搜索引擎排名。
 
 有关更多信息，请参阅以下 Google 资源：
 
@@ -168,7 +168,7 @@ Google 提倡用户测试。Google在其文件中指出，A/B和 [!UICONTROL Mul
 
    [!DNL Target]作为一个平台， 已被配置为采用相同的方式对待搜索引擎机器人和任何用户。因此，如果随机选择机器人，并且机器人可“看到”测试变体，则可在活动中包括这些机器人。
 
-* **使用 rel=&quot;canonical&quot;**：有时必须将 A/B 测试设置为对变体使用不同的 URL。在这些情况下，所有变体都应当包含一个引用了原始（控制）URL 的 `rel="canonical"` 标记。例如，假定 [!DNL Adobe] 正在对其主页使用每个变体的不同URL进行测试。 主页的以下 canonical 标记将放入每个变体的 `<head>` 标签：
+* **使用 rel=&quot;canonical&quot;**：有时必须将 A/B 测试设置为对变体使用不同的 URL。在这些情况下，所有变体都应当包含一个引用了原始（控制）URL 的 `rel="canonical"` 标记。例如，假设 [!DNL Adobe] 正在测试其主页，其中对每个变体使用不同的 URL。 主页的以下 canonical 标记将放入每个变体的 `<head>` 标签：
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
@@ -176,9 +176,9 @@ Google 提倡用户测试。Google在其文件中指出，A/B和 [!UICONTROL Mul
 
    302 重定向是服务器端重定向，而 [!DNL Target] 和大多数优化提供者都使用客户端功能。因此，重定向是一个 [!DNL Target] 不完全遵循 Google 建议的方面。但是，这种做法仅影响一小部分测试。通过 [!DNL Target] 运行测试的标准方法要求在单个 URL 中更改内容，因此无需重定向。在有些情况下，客户端必须使用多个 URL 表示其测试变体。在这些情况下，[!DNL Target] 使用 JavaScript `window.location` 命令。此命令指示用户测试变体，这样就不会明确表示重定向是 301 还是 302。
 
-   [!DNL Adobe] 不断寻找可行的解决方案以完全遵循搜索引擎准则。对于必须使用单独URL进行测试的客户端， [!DNL Adobe] 确信正确实施规范标记可以缓解与此方法相关的风险。
+   [!DNL Adobe] 不断寻找可行的解决方案以完全遵循搜索引擎准则。对于那些必须使用单独的 URL 进行测试的客户端，[!DNL Adobe] 确信恰当地实现 canonical 标记可减轻与此方法有关的风险。
 
-* **仅在所需时间内运行实验**: [!DNL Adobe] 认为&quot;必要时&quot;应当是达到统计意义的时间。 [!DNL Target][至于如何确定测试何时到达此时间点， 提供了最佳实践](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)。[!DNL Adobe] 建议将入选测试的硬编码实现并入测试工作流程并分配适当的资源。
+* **仅运行试验必要时长**：[!DNL Adobe] 认为“必要时长”就是实现统计显著性所需的时间。 [!DNL Target][至于如何确定测试何时到达此时间点， 提供了最佳实践](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)。[!DNL Adobe] 建议将入选测试的硬编码实现并入测试工作流程并分配适当的资源。
 
    建议不要将使用 [!DNL Target] 平台“发布”入选测试作为永久解决方案。如果在 100% 的时间内为 100% 的用户发布入选测试，则可在完成为入选测试进行硬编码的同时使用此方法。
 
@@ -194,7 +194,7 @@ Google 指出，遵循这些准则“应会使您的测试对您的网站在搜�
 
 Google 举例说明“如果某个网站的原始页面加载了与向用户显示的组合无关的关键词，则我们可能会从索引中删除该网站。”
 
-[!UICONTROL Adobe 认为难以无意中改变测试变体中原始内容的含义。]但是， [!UICONTROL Adobe] 建议注意页面上的关键词主题并维护这些主题。 对页面内容所做的更改，特别是添加或删除相关的关键词，可能会导致 URL 在自然搜索中的排名发生变化。[!DNL Adobe] 建议与 SEO 合作伙伴合作制定测试协议。
+[!UICONTROL Adobe 认为难以无意中改变测试变体中原始内容的含义。]但是，[!UICONTROL Adobe] 建议了解页面上的关键字主题并保持这些主题。 对页面内容所做的更改，特别是添加或删除相关的关键词，可能会导致 URL 在自然搜索中的排名发生变化。[!DNL Adobe] 建议与 SEO 合作伙伴合作制定测试协议。
 
 ## 机器人 {#bots}
 
@@ -210,15 +210,15 @@ Adobe [!DNL Target] 使用 [DeviceAtlas](https://deviceatlas.com/device-data/use
 
 * 创建或检索访客配置文件
 * 记录任何配置文件属性或执行配置文件脚本
-* 查找 [!DNL Adobe Audience Manager] (AAM)区段（如果适用）
-* 在为 [!UICONTROL Recommendations], [!UICONTROL 自动定位], [!UICONTROL Automated Personalization]或 [!UICONTROL 自动分配] 活动
+* 查找 [!DNL Adobe Audience Manager] (AAM) 区段（如果适用）
+* 使用机器人流量为[!UICONTROL 推荐]、[!UICONTROL 自动定位]、[!UICONTROL Automated Personalization] 或[!UICONTROL 自动分配]活动建模并提供个性化内容
 * 记录活动访问情况以进行报告
 * 记录要发送到 [!DNL Adobe Experience Cloud] 平台的数据
 
-使用 [!UICONTROL Analytics for Target] (A4T)、 [!DNL Target] 不会：
+对于使用 [!UICONTROL Analytics for Target] (A4T) 时的已知机器人流量，[!DNL Target] 不会：
 
-* 将事件发送到 [!DNL Analytics]
+* 发送事件到 [!DNL Analytics]
 
-对于使用客户端日志记录时的已知机器人流量， [!DNL Target] 不返回：
+对于使用客户端日志记录时的已知机器人流量，[!DNL Target] 不会返回：
 
-* nta有效负载
+* tnta 有效负荷

@@ -6,9 +6,9 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '977'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target Standard/Premium] 22.8.1（错开发行，2022年8月17日至18日）
+## [!DNL Target Standard/Premium] 22.8.1（2022 年 8 月 17 至 18 日，交错发行）
 
 此维护版本包括后端和本地化修复。
 

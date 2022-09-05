@@ -5,9 +5,9 @@ title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: eaf27594f471c694101217ec2c8ac780fe017d96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1194'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 94%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
-## Adobe Target Standard/Premium 22.8.1(错开发行：2022年8月17至18日)
+## Adobe Target Standard/Premium 22.8.1（交错发布：2022 年 8 月 17 日至 18 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 8 月 22 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了有关以下公告的信息：<ul><li>[!DNL Target] 在Gartner个性化引擎幻方图（2022年）中被任命为领导者</li></ul>添加了有关以下即将发生的事件的信息：<ul><li>[!DNL Adobe Target] 社区问答时间（2022年8月31日）</li><li>厨师系列：个性化方法（2022年8月30日）</li><li>[!DNL Adobe Target] 技能培养者 — 移动体验优化（2022年9月6日）</li><li>[!DNL Adobe Target] 技能培养者 — AI驱动的个性化和Recommendations（2022年9月15日）</li></ul>为以下过去的网络研讨会会话添加了录制链接：<ul><li>Adobe: Personalization Industry Insider - 零售（2022 年 8 月 11 日）</li></ul> |
+| 8 月 22 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下公告的信息：<ul><li>[!DNL Target] 在个性化引擎的 Gartner Magic Quadrant 方面评选佼佼者 (2022)</li></ul>添加了关于以下即将发生的事件的信息：<ul><li>[!DNL Adobe Target] 社区问答茶歇（2022 年 8 月 31 日）</li><li>厨师的收藏集：个性化食谱（2022 年 8 月 30 日）</li><li>[!DNL Adobe Target] Skill Builders – 移动体验优化（2022 年 9 月 6 日）</li><li>[!DNL Adobe Target] Skill Builders – 人工智能驱动的个性化和推荐（2022 年 9 月 15 日）</li></ul>为以下过去的网络研讨会添加了录制链接：<ul><li>Adobe: Personalization Industry Insider – 零售（2022 年 8 月 11 日）</li></ul> |
 | 8 月 22 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.8.1 版的发行说明。 |
 
 ## Adobe Target Standard/Premium 22.6.1（交错发布：2022 年 6 月 7 日- 9 日）
@@ -63,7 +63,7 @@ ht-degree: 94%
 | 4 月 26 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下活动的信息：<ul><li>网络研讨会：Adobe Target 实时个性化（2022 年 4 月 28 日）</li><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 5 月 25 日）</li></ul> |
 |  | [重定向选件 — A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | 添加了以下常见问题解答：<ul><li>在 A4T 活动中使用重定向选件时，如何最大限度地减少流量分布的差异？</li></ul> |
 |  | [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 添加了以下部分：<ul><li>从导出到目标的体验片段中移除 ClientLib 和无关 HTML</li></ul> |
-| 21 月 4 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target] 平台计划于 2022 年 4 月 17 日发行的预发行信息。 |
+| 4 月 21 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target] 平台计划于 2022 年 4 月 17 日发行的预发行信息。 |
 | 4 月 20 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.4.1 版的预发行信息。 |
 | 4 月 14 日 | [可视体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 向“重新排列”部分添加了解释如何使用[!UICONTROL 移动]和[!UICONTROL 重新排列]操作处理因延迟加载 DOM 元素而产生 VEC 行为不一致的信息。 |
 | 4 月 13 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 4 月 27 日）</li></ul> |

@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 38%
+ht-degree: 68%
 
 ---
 
@@ -19,24 +19,24 @@ ht-degree: 38%
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 22.9.1（错开发行，2022年9月13日至15日）
+## [!DNL Target] Standard/Premium 22.9.1（交错发布：2022 年 9 月 13 日至 15 日）
 
 此版本将按照以下交错发布计划发布：
 
-* **9月13日**:欧洲、中东和非洲(EMEA)地区
-* **9月14日**:美洲地区
-* **9月15日**:亚太地区
+* **9 月 13 日**：欧洲、中东和非洲 (EMEA) 区域
+* **9 月 14 日**：美洲区域
+* **9 月 15 日**：亚太 (APAC) 区域
 
 此版本包含以下增强功能和修复：
 
-* 添加了 [!UICONTROL 跨域] 下载at.js 2.9.1（及更高版本）以允许或禁用设置第三方Cookie时，会选择此选项。 (TGT-43674)
+* 添加了 [!UICONTROL 跨域] 下载at.js 2.9.1（及更高版本）以允许或禁用设置第三方Cookie时，会选择此选项。(TGT-43674)
 * 更新了 [!DNL Target] UI可告知客户活动已启用、禁用，并已达到目标和提升度阈值。 (TGT-35811)
 * 在 [!UICONTROL Automated Personalization] （美联社）和 [!UICONTROL 自动定位] 活动。
-* 修复了导致 [!UICONTROL 决策选件] 不能在 [!UICONTROL 可视化体验编辑器] (VEC)。 (TGT-43866)
-* 修复了在选择 [!UICONTROL 已单击元素] 转化目标 [!UICONTROL Multivariate Testing] (MVT)活动。 (TGT-43842)
-* 修复了阻止 [!UICONTROL 展示次数] 的下载CSV报表文件中显示的 [!UICONTROL Automated Personalization] (AP)活动。 (TGT-43780)
-* 修复了在使用 [!UICONTROL 基于表单的体验编辑器]. (TGT-43633)
-* 修复了阻止客户复制 [!UICONTROL A/B测试] 活动从非默认工作区移动到其他非默认工作区。 (TGT-41910)
+* 修复了导致 [!UICONTROL Decision Offers] 在 [!UICONTROL Visual Experience Composer] (VEC) 中无法正常工作的问题。 (TGT-43866)
+* 修复了在创建 [!UICONTROL Multivariate Testing] (MVT) 活动时选择[!UICONTROL 单击了一个元素]转换目标时导致显示错误消息的问题。 (TGT-43842)
+* 修复了导致[!UICONTROL 印象]列无法显示在下载的 [!UICONTROL Automated Personalization] (AP) 活动的 CSV 报告文件中的问题。 (TGT-43780)
+* 修复了在使用[!UICONTROL 基于表单的体验生成器]时，客户在复制体验后无法编辑 HTML/JSON 优惠的问题。 (TGT-43633)
+* 修复了阻止客户将 [!UICONTROL A/B Test] 活动从非默认工作区复制到另一个非默认工作区的问题。 (TGT-41910)
 * 修复了一个问题，以确保客户能够使用 [!DNL Target] 中的UI [!UICONTROL A/B测试] 和 [!UICONTROL 体验定位] (XT)包含推荐的活动。 (TGT-42331)
 * 修复了导致在 [!DNL Target] 获取参数时的UI。 (TGT-43737)
 * 进行了UI更新，以确保某些拖放操作可通过键盘访问。 (TGT-42969)

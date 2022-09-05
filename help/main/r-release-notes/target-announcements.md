@@ -7,17 +7,17 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
 workflow-type: tm+mt
 source-wordcount: '1777'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
-# [!DNL Adobe Target] 公告和活动
+# [!DNL Adobe Target]公告和活动
 
 关于即将举办的 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
 
 ## [!DNL Target] 在个性化引擎的 Gartner Magic Quadrant 方面评选佼佼者 (2022)
 
-Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年将 [!DNL Adobe Target] 评为佼佼者。 [!DNL Adobe] 在所有三个主要用例中，也获得了最高分，并且年均显着增长：数字营销、数字商务、服务和支持。 在所有评估的供应商中，[!DNL Target] 的测试能力得分同样最高。
+Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年将 [!DNL Adobe Target] 评为佼佼者。 [!DNL Adobe] 在三个主要用例（数字营销、数字商务以及服务和支持）方面也获得了高分，并同比大幅增长。 在所有评估的供应商中，[!DNL Target] 的测试能力得分同样最高。
 
 有关更多信息，请参阅 [Adobe Experience Cloud 博客帖子](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA) {target=_blank}。
 

@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 在哪里可以找到 [!DNL Target] 公告和事件信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a37a530a4ea163070e82820801f7acdfa1eae7c5
+source-git-commit: 6faecb3cb0bbe08c9420389c8f038edf46842d2f
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 98%
+source-wordcount: '1614'
+ht-degree: 97%
 
 ---
 
@@ -46,31 +46,18 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 移动体验正在推动营销和工程团队进行创新，探索如何在网络和应用程序中利用以产品为导向的跨渠道个性化策略。 加入 [!DNL Adobe] Skill Builders 课程，了解 [!DNL Adobe Target] 如何为营销人员、开发人员和产品所有者解锁新的潜在参与度和收入增长点，以构建繁荣的产品社区。
 
-+++详细信息
-
-* **2022 年 9 月 6 日星期四**
-* **下午 1:00 到 2:00 (EDT, UTC-4)**
-* **[更多信息和注册信息 ](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++
-
 ### 厨师的收藏集：个性化食谱（2022 年 8 月 30 日）
 
 加入 [!DNL Adobe Target] [!DNL ]团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 基于我们最新的电子书《Chef&#39;s Collection: Ideas for Personalization》。
 
 +++详细信息
 
-* **2022 年 8 月 30 日星期四**
-* **下午 1:00 到 2:00 (EDT, UTC-4)**
-* **[更多信息和注册信息 ](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
-
-我们将深入了解我们的客户“厨师”的故事，以及他们在自己的个性化厨房里做了些什么。
-
-让我们探讨以下方面的想法：
+探索以下方面的想法：
 
 * 如何使用个性化来建立忠诚度
 * 优化竞争优势
 * 创造超个性化体验
+
 +++
 
 ### 实时忠诚度激活（2022 年 8 月 25 日）
@@ -78,10 +65,6 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 在供应链问题激化、服务中断和人员有限的情况下，如何不断提高客户忠诚度是大多数旅游、酒店和餐饮品牌面临的挑战。 在人工智能时代，品牌如何在没有行业所需资源的情况下扩展体验。 数字化进程加快了 20 – 25 倍，以期在支持不断增加的客户期望的同时，通过自动化扩展团队。
 
 +++详细信息
-
-* **2022 年 8 月 25 日星期四**
-* **下午 10:00 到 11:00 (PDT, UTC-7)**
-* **[更多信息和注册信息 ](https://dxfieldmarketing.adobeevents.com/api/redirect_to_page?page=registration&amp;event_id=e54793e9-107f-4e4e-8373-5a380974392b){target=_blank}**
 
 2022 年，系统在提供持续智能以实现实时忠诚度激活的能力方面达到了转折点。
 
@@ -91,6 +74,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 * 为什么早期采用者在顶线和底线增长方面都表现出色
 * 旅行中的个性化自动化
 * 行动中的实时忠诚度激活
+
 +++
 
 ### [!DNL Adobe]: Personalization Industry Insider – 零售（2022 年 8 月 11 日）
@@ -101,11 +85,8 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++详细信息
 
-* **2022年8月11日星期四**
-* **下午 1:00 到 2:00 ()**
-* **[更多信息和注册信息 ](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
 加入 Michael Klein（行业战略零售总监）和 Leina Betzer（Adobe Premier Support Target 顾问），讨论随着消费者购买模式和行为的转变，在特定市场对商品和服务的需求更高，零售电子商务销售是如何飞速增长的。
+
 +++
 
 ### [!DNL Adobe]：精准个性化 - [!DNL Adobe Analytics] 和 [!DNL Target]（2022 年 6 月 2 日）
@@ -115,10 +96,6 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 * [录制链接](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
 
 +++详细信息
-
-* **2022 年 6 月 2 日星期四**
-* **下午 1:00 到 2:00 (EDT, UTC-4)**
-* **[更多信息和注册信息 ](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 加入 Jordan Ison（[!DNL Adobe] 的首席专家解决方案顾问）参与讨论：
 
@@ -137,11 +114,8 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++详细信息
 
-* **2022 年 6 月 9 日星期四**
-* **下午 1:00 到 2:00 (EDT, UTC-4)**
-* **[更多信息和注册信息 ](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
 加入 Heather Adkins（高级营销技术副总裁）学习成为“关系银行”的最佳实践，以提高品牌忠诚度，以及学习如何改善人员和流程以建立和扩大成功的个性化计划。
+
 +++
 
 ### [!DNL Adobe]:发现极具影响力的优化机会（2022年6月16日）
@@ -151,10 +125,6 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 * [录制链接](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
 +++详细信息
-
-* **2022 年 6 月 16 日星期四**
-* **下午 1:00 到 2:00 (EDT, UTC-4)**
-* **[更多信息和注册信息 ](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 加入 Kaitlin White（Adobe 产品营销经理），我们将分享行之有效的策略，帮助您启动个性化计划，包括：
 
@@ -193,7 +163,8 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 +++详细信息
 
 加入 Christopher Young（行业战略金融服务总监）和 James Capasso（Adobe Premier Support 的 Target 顾问），了解品牌如何应对需求的即时变化，同时将个性化作为客户互动的中心。了解金融服务公司如何支持和通知世界各地关注近期通货膨胀模式和投资环境的客户。
-+++ 
+
++++
 
 ### 国民城市银行 (City National Bank)：如何在数字优化中实现前 1% 的目标（2022 年 5 月 26 日）
 
@@ -238,6 +209,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 相比以往，营销人员、产品所有者和开发人员需要更多地在网站上、应用程序中以及他们与客户联系的其他各个环节优化整体客户体验。具有数据筒仓和复杂实现的多个工具无法解决这一问题。
 
 在这场录播的网络研讨会中，Adobe Target 产品专家讨论了如何将关键的体验优化决策转移到设备上，无延迟地在本地执行，在为客户提高网站性能的同时创造激动人心的新用例。
+
 +++
 
 ### 网络研讨会：汇丰银行如何利用 Adobe [!DNL Target] 和 AI 快速而大规模地进行优化和提供个性化服务
@@ -257,6 +229,7 @@ McKinsey Digital 报告称，“在大约 8 周的时间内，我们在消费者
 * 汇丰银行如何成功构建了一个提供 3000 多种活动的大规模项目
 
 *McKinsey article: &quot;[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; May 2020
+
 +++
 
 ### [!DNL Adobe Target] Skill Builder：开发人员聊天，将 [!DNL Adobe Target] 的 mbox.js 迁移到 at.js {#skill-builder}

@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
 workflow-type: tm+mt
 source-wordcount: '1777'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 ### 厨师的收藏集：个性化食谱（2022 年 8 月 30 日）
 
-加入 [!DNL Adobe Target] [!DNL ]团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 根据我们最新的电子书《厨师系列：个性化构思”。
+加入 [!DNL Adobe Target] [!DNL ]团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 基于我们最新的电子书《Chef&#39;s Collection: Ideas for Personalization》。
 
 +++单击这里
 
@@ -65,7 +65,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 * **下午 1:00 到 2:00 (EDT, UTC-4)**
 * **[更多信息和注册信息 ](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
 
-我们将深入研究顾客的“厨师”故事，以及他们在自己的个性化厨房里烹饪的东西。
+我们将深入了解我们的客户“厨师”的故事，以及他们在自己的个性化厨房里做了些什么。
 
 让我们探讨以下方面的想法：
 
@@ -123,7 +123,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 加入 Jordan Ison（[!DNL Adobe] 的首席专家解决方案顾问）参与讨论：
 
-* 营销人员、开发人员和产品团队如何打开AI的“黑匣子”以推动未来的测试和个性化策略
+* 营销人员、开发人员和产品团队如何打开人工智能的“黑匣子”，以推动发展未来的测试和个性化策略
 * 克服优化网络、移动应用程序、电子邮件、物联网和每个数字接触点以实现更高转化率和参与度方面的挑战
 * 逐步引导浏览个性化、目标和测试的 [!DNL Adobe Analytics] 和 [!DNL Target] 工作流
 * 用于解锁哪些属性可以预测访客行为，以及哪些属性对关键可视化和细分分析最重要的顶级用例
@@ -176,7 +176,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 与 Shawn Wilkinson（电子商务个性化经理）一同了解 [!DNL Target] 如何帮助迪克体育用品使普通访客成为运动员回头客。
 
-了解迪克的体育用品如何在我们打开包装的同时推动两位数的增长：
+了解 Dick&#39;s Sporting Goods 如何推动两位数的增长：
 
 * 如何为零售业规划和启动高性能个性化计划
 * 为什么获得整个组织的认可对于克服障碍和阻碍至关重要
@@ -236,7 +236,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++单击这里
 
-相比以往，营销人员、产品所有者和开发人员需要更多地在网站上、应用程序中以及他们与客户联系的其他各个环节优化整体客户体验。具有数据孤岛和复杂实施的多个工具无法剪切。
+相比以往，营销人员、产品所有者和开发人员需要更多地在网站上、应用程序中以及他们与客户联系的其他各个环节优化整体客户体验。具有数据筒仓和复杂实现的多个工具无法解决这一问题。
 
 在这场录播的网络研讨会中，Adobe Target 产品专家讨论了如何将关键的体验优化决策转移到设备上，无延迟地在本地执行，在为客户提高网站性能的同时创造激动人心的新用例。
 +++
@@ -247,17 +247,17 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++单击这里
 
-麦肯锡数字报告称，“我们在消费者和商业数字应用方面已推进了5年，大约在8周的时间内。” *
+McKinsey Digital 报告称，“在大约 8 周的时间内，我们在消费者和企业数字采纳方面跨越了五年的发展。”*
 
 消费者需求正在迅速膨胀，因此汇丰银行采用了 Adobe Target 进行优化，以便快速地测试新的客户历程并使之个性化，使得某些开发和启动周期从 6 个月骤降至 1 周！
 
 在此网络研讨会上向 Adobe 和汇丰银行了解以下各项：
 
-* 汇丰的优化和个性化工作如何推动组织的快速变革
+* HSBC 的优化和个性化努力如何推动组织的快速变革
 * AI 与 Analytics 如何为其工作提速并产生明确、显著的业务影响
 * 汇丰银行如何成功构建了一个提供 3000 多种活动的大规模项目
 
-*麦肯锡的文章：&quot;[COVID-19的恢复将是数字化的](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)，” 2020年5月
+*McKinsey article: &quot;[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; May 2020
 +++
 
 ### Adobe [!DNL Target] Skill Builder：开发人员聊天，将 Adobe [!DNL Target] 的 mbox.js 迁移到 at.js {#skill-builder}

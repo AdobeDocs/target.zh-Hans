@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
+source-git-commit: c3f6c67d1e9626d45d0e4cf879260fd5584e5b90
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 71%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,17 +29,17 @@ ht-degree: 71%
 
 此版本包含以下增强功能和修复：
 
-* 添加了 [!UICONTROL 跨域] 下载at.js 2.9.1（及更高版本）以允许或禁用设置第三方Cookie时，会选择此选项。(TGT-43674)
-* 更新了 [!DNL Target] UI可告知客户活动已启用、禁用，并已达到目标和提升度阈值。 (TGT-35811)
+* 在下载 at.js 2.10.0（及更高版本）时添加了 [!UICONTROL Cross-Domain] 选项以允许或禁用设置第三方 cookie. (TGT-43674)
+* 更新 [!DNL Target]UI 中的通知，通知客户活动已启用、禁用，并已达到目标和提升阈值。(TGT-35811)
 * 修复了导致 [!UICONTROL Decision Offers] 在 [!UICONTROL Visual Experience Composer] (VEC) 中无法正常工作的问题。 (TGT-43866)
 * 修复了在创建 [!UICONTROL Multivariate Testing] (MVT) 活动时选择[!UICONTROL 单击了一个元素]转换目标时导致显示错误消息的问题。 (TGT-43842)
 * 修复了导致[!UICONTROL 印象]列无法显示在下载的 [!UICONTROL Automated Personalization] (AP) 活动的 CSV 报告文件中的问题。 (TGT-43780)
 * 修复了在使用[!UICONTROL 基于表单的体验生成器]时，客户在复制体验后无法编辑 HTML/JSON 优惠的问题。 (TGT-43633)
 * 修复了阻止客户将 [!UICONTROL A/B Test] 活动从非默认工作区复制到另一个非默认工作区的问题。 (TGT-41910)
-* 修复了一个问题，以确保客户能够使用 [!DNL Target] 中的UI [!UICONTROL A/B测试] 和 [!UICONTROL 体验定位] (XT)包含推荐的活动。 (TGT-42331)
-* 修复了导致在 [!DNL Target] 获取参数时的UI。 (TGT-43737)
-* 进行了UI更新，以确保某些拖放操作可通过键盘访问。 (TGT-42969)
-* 进行了UI更新，以确保文本字符串正确本地化。
+* 修复了一个问题，以确保客户可以使用包含建议的 [!DNL Target]A/B 测试[!UICONTROL 和]体验定位 (XT) [!UICONTROL 活动中的 UI 正确编辑和删除对象（设计、标准、集合等）。](TGT-42331)
+* 修复了在获取参数时导致 [!DNL Target]UI 中出现网络超时警报的问题。(TGT-43737)
+* 进行了 UI 更新，以确保键盘可以进行某些拖放操作。(TGT-42969)
+* 进行了 UI 更新，以确保文本字符串正确本地化。
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

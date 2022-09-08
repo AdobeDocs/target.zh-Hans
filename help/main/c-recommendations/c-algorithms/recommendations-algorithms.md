@@ -5,10 +5,10 @@ title: 我在哪里可以了解TargetRecommendations算法背后的科学？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
 workflow-type: tm+mt
-source-wordcount: '2864'
-ht-degree: 0%
+source-wordcount: '2858'
+ht-degree: 1%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 最近添加的 [!DNL Target] 推荐算法包包括 [!UICONTROL 推荐给您] 以及一系列基于购物车的推荐算法。 这两种算法都使用协作筛选技术来形成基于项目的单个推荐。 然后，在服务时，用户浏览历史记录中的多个项目(对于 [!UICONTROL 推荐给您])，或者用户当前的购物车（对于基于购物车的推荐）用于检索这些基于项目的推荐，这些推荐随后会进行合并以形成推荐的最终列表。 请注意，存在多种类型的个性化推荐算法。 选择多键算法意味着，在访客具有任何浏览历史记录且推荐可以更新以响应最新访客行为后，便可立即使用推荐。
 
-这些算法基于基于项目的推荐部分中描述的基本协作筛选技术，但也加入了超参数调整以确定项目之间的最佳相似度量度。 该算法对每个用户的行为数据按时间顺序进行拆分，并在尝试预测用户稍后查看或购买的项目时对早期数据训练推荐模型。 可产生最佳值的相似度量度 [平均精度](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision) 选择。
+这些算法基于基于项目的推荐部分中描述的基本协作筛选技术，但也加入了超参数调整以确定项目之间的最佳相似度量度。 该算法对每个用户的行为数据按时间顺序进行拆分，并在尝试预测用户稍后查看或购买的项目时对早期数据训练推荐模型。 可产生最佳值的相似度量度 [平均精度](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)。
 
 以下图表显示了模型培训和评分步骤的逻辑：
 
@@ -138,7 +138,7 @@ ht-degree: 0%
 
    ![显示训练计算的公式](assets/formula4.png)
 
-   * **项目相似度模型评估**:模型评估是采用上一步中生成的推荐对测试数据集进行预测。 通过在测试数据集中按时间顺序排列每个用户的项目使用情况，然后对项目的排序子集提出100条建议，以尝试预测后续的查看和购买，从而模拟在线评分阶段。 信息检索量度， [平均精度](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)，用于评估这些推荐的质量。 此量度会考虑推荐的顺序，并且青睐推荐列表中排名靠前的相关项目，这是对系统进行排名的重要属性。
+   * **项目相似度模型评估**:模型评估是采用上一步中生成的推荐对测试数据集进行预测。 通过在测试数据集中按时间顺序排列每个用户的项目使用情况，然后对项目的排序子集提出100条建议，以尝试预测后续的查看和购买，从而模拟在线评分阶段。 信息检索量度， [平均精度](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)，用于评估这些推荐的质量。 此量度会考虑推荐的顺序，并且青睐推荐列表中排名靠前的相关项目，这是对系统进行排名的重要属性。
    * **模型选择**:离线评估后，将选择平均精度最高的模型，并为其计算所有单个项目 — 项目推荐。
    * **脱机过滤**:模型训练的最后阶段是应用任何适用的动态滤波器。 在此步骤之后，会全局缓存预计算的推荐以便提供。
 

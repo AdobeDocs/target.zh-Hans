@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
-workflow-type: ht
-source-wordcount: '977'
-ht-degree: 100%
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 90%
 
 ---
 
@@ -18,56 +18,27 @@ ht-degree: 100%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target Standard/Premium] 22.8.1（2022 年 8 月 17 至 18 日，交错发行）
-
-此维护版本包括后端和本地化修复。
-
-## [!DNL Target] Platform 版本（2022 年 7 月 20 日）
-
-此版本包含以下功能、增强和修复：
-
-| 功能 | 描述 |
-| --- | --- |
-| 通过 IPv6 支持 (TNT-43364、TNT-44692) 提高受众评估准确性并减少最终用户延迟 | 访客的地理位置现在由 IPv6 地址（如果可用）决定，而不仅仅是 IPv4 地址决定。 投放 API 还支持 IPv6 输入参数。 过滤和允许列表同时支持 IPv4 和 IPv6 地址。 本版本中的 IPv6 支持意味着访客将更准确地包括在受众中（更准确地符合活动资格或筛选标准）。 它还改善了数据延迟，因为 IPv6 客户端将直接路由，避免了 IPv6 到 IPv4 网关的开销。 |
-| 修复了 A4T 客户端有效负载处理问题 (TNT-44926) | 通过 A4T 服务器端集成，如果 Adobe Target 识别来自机器人的请求，则不会将有效负载转发给 Analytics，并且 [!DNL Target] 日志中没有记录 mod_stats 事件。 通过此版本，A4T 客户端记录功能得到了增强，因此 A4T 有效负载的行为与 A4T 服务器端相同：被识别为机器人的访客不计入 [!DNL Target] 计数/报告。 （注意，问题仅限于使用客户端有效负载处理的实施；服务器端没有受到影响。 有了这个版本，服务器端和客户端有效负载处理的行为现在都是一致的。） |
-
-## [!DNL Target Standard/Premium] 22.6.2（2022 年 6 月 30 日）
-
-此版本包含以下功能、增强和修复：
-
-| 功能 | 描述 |
-| --- | ---  |
-| 产品内通知 | 获取以下相关的产品内通知：<ul><li>**活动**:批准或停用活动时（手动或达到活动开始或结束日期时），所有活动类型的通知。 通知包含带有活动概述页面链接的活动名称。</li><li>**配置文件脚本** 手动或Target激活或停用配置文件脚本时的通知。</li><li>**Recommendations信息源**:手动或由Target激活或停用Recommendations馈送时的通知。 当Recommendations馈送失败时，也会发送通知。</li></ul> 默认情况下，产品管理员、发布者和批准者会收到通知。 通知可在Experience Cloud首选项中进行配置。<br>有关详细信息，请参阅 [通知和公告](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
-| *Adobe Target 开发人员指南* | *Adobe Target 开发人员指南* 便于合并所有 [!DNL Target] 开发人员内容。 [!DNL Target][!DNL Recommendations][!DNL Target][!DNL Target]<br>有关更多信息，请参阅 [Adobe Target 开发人员指南](https://developer.adobe.com/target/){target=_blank}。 |
-
-* 具有[!UICONTROL 编辑者]角色的用户无法再编辑直播活动中的受众。(TGT-43582)
-* 如果客户试图将感叹号 (！) 作为受众名称的第一个字符（例如 !London）来保存受众，则会显示警告消息。(TGT-43643)
-* 修复了导致某些客户的受众定义详细信息卡指示已结束活动仍处于活动状态的问题。(TGT-43527)
-
-## [!DNL Target Standard/Premium] 22.6.1（2022 年 6 月 7 日至 9 日，交错发行）
+## [!DNL Target] Standard/Premium 22.9.1（交错发布：2022 年 9 月 13 日至 15 日）
 
 此版本将按照以下交错发布计划发布：
 
-* **6 月 7 日**：亚太 (APAC) 地区
-* **6 月 8 日**：美洲地区
-* **6 月 9 日**：欧洲、中东和非洲 (EMEA) 地区
+* **9 月 13 日**：欧洲、中东和非洲 (EMEA) 区域
+* **9 月 14 日**：美洲区域
+* **9 月 15 日**：亚太 (APAC) 区域
 
 此版本包含以下增强功能和修复：
 
-* 对新的[!UICONTROL 受众]页面进行了增强，以防止过去存储受众的旧数据库与直接从后端检索信息的新架构之间出现不一致的状态。(TGT-43552)
-* 修复了由于 Target UI 创建“空”容器而导致某些客户无法保存合并受众的问题。 (TGT-43588)
-
-## Target 平台版本（2022 年 5 月 25 日）
-
-此版本包含以下增强功能和修复：
-
-* 添加了[用户代理客户端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}支持功能。
-* 修复了一个问题，在[!UICONTROL 体验定位] (XT) 活动中呈现[!UICONTROL 优惠决策]时，该问题间歇性地导致超时。(TNT-44611)
-
-## at.js 版本 2.9.0（2022 年 5 月 27 日）
-
-* 添加了[用户代理客户端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}支持功能。
-* 修复了同一页面上的多个 mbox 请求具有不同印象 ID 的错误。
+* 在下载 at.js 2.10.0（及更高版本）时添加了 [!UICONTROL Cross-Domain] 选项以允许或禁用设置第三方 cookie. (TGT-43674)
+* 更新了 [!DNL Target] UI，用于通知客户是否导入 [!DNL Recommendations] 馈送失败。 (TGT-35811)
+* 修复了导致 [!UICONTROL Decision Offers] 在 [!UICONTROL Visual Experience Composer] (VEC) 中无法正常工作的问题。 (TGT-43866)
+* 修复了在创建 [!UICONTROL Multivariate Testing] (MVT) 活动时选择[!UICONTROL 单击了一个元素]转换目标时导致显示错误消息的问题。 (TGT-43842)
+* 修复了导致[!UICONTROL 印象]列无法显示在下载的 [!UICONTROL Automated Personalization] (AP) 活动的 CSV 报告文件中的问题。 (TGT-43780)
+* 修复了在使用[!UICONTROL 基于表单的体验生成器]时，客户在复制体验后无法编辑 HTML/JSON 优惠的问题。 (TGT-43633)
+* 修复了阻止客户将 [!UICONTROL A/B Test] 活动从非默认工作区复制到另一个非默认工作区的问题。 (TGT-41910)
+* 修复了确保客户能够正确显示 [!DNL Recommendations] 对象（设计、标准、收藏集等） [!UICONTROL A/B测试] 和 [!UICONTROL 体验定位] (XT)活动，该活动包含推荐，同时还会删除不再使用的标准对象 [!DNL Target] UI和 [!DNL Recommendations] 后端。 (TGT-42331)
+* 修复了在获取参数时导致 [!DNL Target]UI 中出现网络超时警报的问题。(TGT-43737)
+* 进行了 UI 更新，以确保键盘可以进行某些拖放操作。(TGT-42969)
+* 进行了 UI 更新，以确保文本字符串正确本地化。
 
 ## 其他发行说明和版本详细信息
 

@@ -4,10 +4,10 @@ description: 熟悉用户界面并查找更深入的信息的链接，以帮助�
 title: 如何使用 [!DNL Target] UI？
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 46%
+ht-degree: 48%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 46%
 
 以下部分包含有关每个选项卡以及如何配置通知和公告的信息：
 
-### 通知
+### 通知 {#notifications}
 
 [!DNL Target] 事件通知包括以下内容：
 
@@ -86,6 +86,7 @@ ht-degree: 46%
 
    * `Feed  {target.feed.name} has been activated`
    * `Feed {target.feed.name} has been deactivated`
+   * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
 您可以将单个通知标记为已读，方法是将鼠标悬停在所需通知上，然后单击复选标记。 您可以将所有通知标记为已读，或通过单击 [!UICONTROL &quot;标记为已读&quot;] 或 [!UICONTROL &quot;查看全部&quot;] 在面板底部。
@@ -177,7 +178,7 @@ ht-degree: 46%
 
 ![推荐](/help/main/c-intro/assets/recommendations.png)
 
-“[!UICONTROL 推荐]”活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。Recommendations可帮助将客户引导至他们可能还不知道的相关项目。
+“[!UICONTROL 推荐]”活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。“推荐”有助于引导客户查看在其他情况下他们可能不知道的相关项目。
 
 有关 [!DNL Target] 中提供的[!UICONTROL 推荐]的深入信息以及要详细了解[!UICONTROL “选件”]的用户界面，请参阅[选件](/help/main/c-recommendations/recommendations.md)。
 

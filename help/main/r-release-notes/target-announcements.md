@@ -4,9 +4,9 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
+source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1837'
 ht-degree: 88%
 
 ---
@@ -69,9 +69,13 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 移动体验正在推动营销和工程团队进行创新，探索如何在网络和应用程序中利用以产品为导向的跨渠道个性化策略。 加入 [!DNL Adobe] Skill Builders 课程，了解 [!DNL Adobe Target] 如何为营销人员、开发人员和产品所有者解锁新的潜在参与度和收入增长点，以构建繁荣的产品社区。
 
+* [录制链接](https://video.tv.adobe.com/v/347360){target=_blank}
+
 ### 厨师的收藏集：个性化食谱（2022 年 8 月 30 日）
 
 加入 [!DNL Adobe Target] [!DNL ]团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 基于我们最新的电子书《Chef&#39;s Collection: Ideas for Personalization》。
+
+* [录制链接](https://video.tv.adobe.com/v/346970/){target=_blank}
 
 +++详细信息
 

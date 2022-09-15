@@ -1,13 +1,13 @@
 ---
 keywords: 公告;skill builder;开发人员聊天;喝咖啡休息时间;活动;forrester;gartner;网络研讨会
 description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Skill Builder 讲座、开发人员和产品经理聊天、网络研讨会等。
-title: 在哪里可以找到 [!DNL Target] 公告和事件信息？
+title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 6faecb3cb0bbe08c9420389c8f038edf46842d2f
+source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 97%
+source-wordcount: '1829'
+ht-degree: 88%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 97%
 
 ## [!DNL Target] 在个性化引擎的 Gartner Magic Quadrant 方面评选佼佼者 (2022)
 
-Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年将 [!DNL Adobe Target] 评为佼佼者。 [!DNL Adobe] 在三个主要用例（数字营销、数字商务以及服务和支持）方面也获得了高分，并同比大幅增长。 [!DNL Target] 在所有评估的供应商中，我们的测试功能获得了最高分。
+Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年将 [!DNL Adobe Target] 评为佼佼者。 [!DNL Adobe] 在三个主要用例（数字营销、数字商务以及服务和支持）方面也获得了高分，并同比大幅增长。 在所有评估的供应商中，[!DNL Target] 的测试能力得分也同样最高。
 
-有关更多信息，请参阅 [Adobe Experience Cloud 博客帖子](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA) {target=_blank}。
+有关更多信息，请参阅 [Adobe Experience Cloud 博客帖子](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
 
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
@@ -38,6 +38,29 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++
 
+### 优化AI支持的个性化：的新增功能 [!DNL Adobe Target] （2022年10月11日）
+
+请加入我们，参加此特殊产品公告网络研讨会！
+
+我们很高兴能够与大家分享一些“非常大”的突破性新闻，这些新闻涉及大规模的个性化 [!DNL Adobe Target]:新的过滤和智能功能，可增强 [!DNL Target] 用户可以微调AI支持的个性化活动，以便直接影响对每个活动影响最大的业务量度。
+
++++详细信息
+
+这一新产品发布是及时且极其关键的，因为我们看到，无论行业如何，在过去几年中，个性化需求都在不断上升。 它已成为公司在客户历程中严格区分自身与竞争的一种手段。 个性化可以在“所有地方”实现高效：从访客的首次接触开始，将基本数据用于客户获取用例，一直用于客户服务和忠诚度用例。
+
+在本课程中，了解如何利用 [!DNL Adobe Target]我们讨论的新增功能：
+
+* 增强了内的模型控件 [!UICONTROL Automated Personalization] 和 [!UICONTROL 自动定位] 活动
+* 解锁从 [!DNL Adobe]&#39;s [!DNL Real-Time Customer Data Platform]
+* 各大品牌如何通过微调其AI支持的算法来实现更快的速度和决策
+* 提供一对一个性化的独特用例
+
+* **2022年10月11日星期二**
+* **下午 1:00 到 2:00 (EDT, UTC-4)**
+* **[更多信息和注册信息 ](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++
+
 ## 过去的网络研讨会和技能培训课程录像
 
 访问以往活动的录像（如果可用）：
@@ -52,7 +75,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++详细信息
 
-探索以下方面的想法：
+探讨以下方面的想法：
 
 * 如何使用个性化来建立忠诚度
 * 优化竞争优势
@@ -77,7 +100,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++
 
-### [!DNL Adobe]: Personalization Industry Insider – 零售（2022 年 8 月 11 日）
+### [!DNL Adobe]：个性化行业内幕 - 零售（2022 年 8 月 11 日）
 
 2022 年为企业提供了一个动态且快速变化的运行和运营环境。了解行业专家如何发现，随着上班族和旅行者的生活开始恢复正常，新的消费趋势正在形成。
 
@@ -85,7 +108,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++详细信息
 
-加入 Michael Klein（行业战略零售总监）和 Leina Betzer（Adobe Premier Support Target 顾问），讨论随着消费者购买模式和行为的转变，在特定市场对商品和服务的需求更高，零售电子商务销售是如何飞速增长的。
+与 Michael Klein（行业战略零售总监）和 Leina Betzer（Adobe Premier Support Target 顾问）一起讨论随着消费者购买模式和行为的转变，在特定市场对商品和服务的需求更高的情况下，零售电子商务销售是如何飞速增长的。
 
 +++
 
@@ -97,7 +120,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++详细信息
 
-加入 Jordan Ison（[!DNL Adobe] 的首席专家解决方案顾问）参与讨论：
+与 Jordan Ison（[!DNL Adobe] 的首席专家解决方案顾问）一起讨论：
 
 * 营销人员、开发人员和产品团队如何打开人工智能的“黑匣子”，以推动发展未来的测试和个性化策略
 * 克服优化网络、移动应用程序、电子邮件、物联网和每个数字接触点以实现更高转化率和参与度方面的挑战
@@ -114,11 +137,11 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++详细信息
 
-加入 Heather Adkins（高级营销技术副总裁）学习成为“关系银行”的最佳实践，以提高品牌忠诚度，以及学习如何改善人员和流程以建立和扩大成功的个性化计划。
+与 Heather Adkins（高级营销技术副总裁）一起学习成为“关系银行”的最佳实践，以提高品牌忠诚度，以及学习如何改善人员和流程以建立和扩大成功的个性化计划。
 
 +++
 
-### [!DNL Adobe]:发现极具影响力的优化机会（2022年6月16日）
+### [!DNL Adobe]：发现高影响力的优化机会（2022 年 6 月 16 日）
 
 了解我们如何进入比以往任何时候都更加数字化的新常态，组织利用每一个机会提供卓越的数字体验至关重要。足够好不再是真正的足够好。保持竞争力需要丰富的经验。
 
@@ -143,7 +166,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++详细信息
 
-与 Shawn Wilkinson（电子商务个性化经理）一同了解 [!DNL Target] 如何帮助迪克体育用品使普通访客成为运动员回头客。
+与 Shawn Wilkinson（电子商务个性化经理）一起了解 [!DNL Target] 如何帮助迪克体育用品使普通访客成为运动员回头客。
 
 了解 Dick&#39;s Sporting Goods 如何推动两位数的增长：
 
@@ -154,7 +177,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++
 
-### [!DNL Adobe]:个性化行业内部人士 — 金融服务和保险（2022年5月24日）
+### [!DNL Adobe]：个性化行业内幕 - 金融服务和保险（2022 年 5 月 24 日）
 
 了解金融服务公司如何使用个性化来支持和通知客户，为通货膨胀模式和投资策略做好准备。
 
@@ -162,7 +185,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 +++详细信息
 
-加入 Christopher Young（行业战略金融服务总监）和 James Capasso（Adobe Premier Support 的 Target 顾问），了解品牌如何应对需求的即时变化，同时将个性化作为客户互动的中心。了解金融服务公司如何支持和通知世界各地关注近期通货膨胀模式和投资环境的客户。
+与 Christopher Young（行业战略金融服务总监）和 James Capasso（Adobe Premier Support 的 Target 顾问）一起了解品牌如何应对需求的即时变化，同时将个性化作为客户互动的中心。了解金融服务公司如何支持和通知世界各地关注近期通货膨胀模式和投资环境的客户。
 
 +++
 

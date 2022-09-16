@@ -4,7 +4,7 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
+source-git-commit: bcb90bf8bc1943d9f91b6132d0d8b41afaebec2b
 workflow-type: tm+mt
 source-wordcount: '1837'
 ht-degree: 88%
@@ -91,16 +91,16 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 在供应链问题激化、服务中断和人员有限的情况下，如何不断提高客户忠诚度是大多数旅游、酒店和餐饮品牌面临的挑战。 在人工智能时代，品牌如何在没有行业所需资源的情况下扩展体验。 数字化进程加快了 20 – 25 倍，以期在支持不断增加的客户期望的同时，通过自动化扩展团队。
 
-+++详细信息
+* +++详细信息
 
-2022 年，系统在提供持续智能以实现实时忠诚度激活的能力方面达到了转折点。
+   2022 年，系统在提供持续智能以实现实时忠诚度激活的能力方面达到了转折点。
 
-我们将探讨的主题：
+   我们将探讨的主题：
 
-* 数字中断的加速和人工智能的兴起
-* 为什么早期采用者在顶线和底线增长方面都表现出色
-* 旅行中的个性化自动化
-* 行动中的实时忠诚度激活
+   * 数字中断的加速和人工智能的兴起
+   * 为什么早期采用者在顶线和底线增长方面都表现出色
+   * 旅行中的个性化自动化
+   * 行动中的实时忠诚度激活
 
 +++
 
@@ -110,9 +110,9 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 * [录制链接](https://video.tv.adobe.com/v/346323){target=_blank}
 
-+++详细信息
+* +++详细信息
 
-与 Michael Klein（行业战略零售总监）和 Leina Betzer（Adobe Premier Support Target 顾问）一起讨论随着消费者购买模式和行为的转变，在特定市场对商品和服务的需求更高的情况下，零售电子商务销售是如何飞速增长的。
+   与 Michael Klein（行业战略零售总监）和 Leina Betzer（Adobe Premier Support Target 顾问）一起讨论随着消费者购买模式和行为的转变，在特定市场对商品和服务的需求更高的情况下，零售电子商务销售是如何飞速增长的。
 
 +++
 

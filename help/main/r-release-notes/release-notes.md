@@ -6,9 +6,9 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 3d8da94a52046e70a89dc24d7923f743bee5c458
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,21 +28,21 @@ ht-degree: 90%
 
 此版本包含以下增强功能和修复：
 
-* 在下载 at.js 2.10.0（及更高版本）时添加了 [!UICONTROL Cross-Domain] 选项以允许或禁用设置第三方 cookie. (TGT-43674)
-* 更新了 [!DNL Target] UI，用于通知客户是否导入 [!DNL Recommendations] 馈送失败。 (TGT-35811)
+* 在下载 at.js 2.10.0（及更高版本）时添加了一个 [!UICONTROL Cross-Domain] 选项以允许或禁止设置第三方 Cookie。(TGT-43674)
+* 更新了 [!DNL Target] UI 中的通知，如果导入 [!DNL Recommendations] 源失败，则通知客户。(TGT-35811)
 * 修复了导致 [!UICONTROL Decision Offers] 在 [!UICONTROL Visual Experience Composer] (VEC) 中无法正常工作的问题。 (TGT-43866)
 * 修复了在创建 [!UICONTROL Multivariate Testing] (MVT) 活动时选择[!UICONTROL 单击了一个元素]转换目标时导致显示错误消息的问题。 (TGT-43842)
 * 修复了导致[!UICONTROL 印象]列无法显示在下载的 [!UICONTROL Automated Personalization] (AP) 活动的 CSV 报告文件中的问题。 (TGT-43780)
 * 修复了在使用[!UICONTROL 基于表单的体验生成器]时，客户在复制体验后无法编辑 HTML/JSON 优惠的问题。 (TGT-43633)
 * 修复了阻止客户将 [!UICONTROL A/B Test] 活动从非默认工作区复制到另一个非默认工作区的问题。 (TGT-41910)
-* 修复了确保客户能够正确显示 [!DNL Recommendations] 对象（设计、标准、收藏集等） [!UICONTROL A/B测试] 和 [!UICONTROL 体验定位] (XT)活动，该活动包含推荐，同时还会删除不再使用的标准对象 [!DNL Target] UI和 [!DNL Recommendations] 后端。 (TGT-42331)
+* 修复了一个问题，以确保客户可正确地显示包含推荐的 [!UICONTROL A/B 检验]和[!UICONTROL 体验定位] (XT) 活动中 [!DNL Recommendations] 对象（设计、条件、集合等）的使用情况，还可从 [!DNL Target] UI 和 [!DNL Recommendations] 后端删除不再使用的条件对象。(TGT-42331)
 * 修复了在获取参数时导致 [!DNL Target]UI 中出现网络超时警报的问题。(TGT-43737)
 * 进行了 UI 更新，以确保键盘可以进行某些拖放操作。(TGT-42969)
 * 进行了 UI 更新，以确保文本字符串正确本地化。
 
-## at.js版本2.10.0（2022年9月13日）
+## at.js 版本 2.10.0（2022 年 9 月 13 日）
 
-* 在下载 at.js 2.10.0（及更高版本）时添加了 [!UICONTROL Cross-Domain] 选项以允许或禁用设置第三方 cookie. (TGT-43674)
+* 在下载 at.js 2.10.0（及更高版本）时添加了一个 [!UICONTROL Cross-Domain] 选项以允许或禁止设置第三方 Cookie。(TGT-43674)
 
 ## 其他发行说明和版本详细信息
 

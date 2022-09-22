@@ -4,7 +4,7 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
+source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 95%
@@ -26,12 +26,6 @@ ht-degree: 95%
 ### 删除具有临时选件（这些选件位于在基于表单的体验编辑器中创建的活动内）的位置 {#ad-hoc}
 
 如果位置位于在基于表单的体验编辑器中创建的活动内并且使用临时选件（在活动中创建的选件），请避免删除这些位置。删除位置会导致活动损坏。[!DNL Target] 团队正在努力修复此问题。作为解决方法，您可以从[!UICONTROL 选件库]创建全局选件并将它们与位置配合使用，或者在需要时创建新体验。(KB-2014)
-
-### 自动分配和自动目标活动的 Analytics for Adobe Target (A4T) 指标
-
-通过 [!DNL Target] UI，用户可选择不支持的参与和收入指标作为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动中优化的主要目标指标。支持转化指标；但&#x200B;*不*&#x200B;支持参与和收入指标。如果选择参与或收入目标指标，则不构建优化模型。
-
-有关支持和不支持的目标指标的列表，请参阅[自动分配和自动定位活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。(TNT-38409)
 
 ### 增强体验编辑器 (EEC) 不支持 PUT 请求。
 
@@ -122,6 +116,12 @@ ht-degree: 95%
 ## 已解决的问题 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 上述已知问题在解决后将移至以下部分。如有必要，还将添加其他注释。
+
+### 自动分配和自动目标活动的 Analytics for Adobe Target (A4T) 指标
+
+通过 [!DNL Target] UI，用户可选择不支持的参与和收入指标作为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动中优化的主要目标指标。支持转化指标；但&#x200B;*不*&#x200B;支持参与和收入指标。如果选择参与或收入目标指标，则不构建优化模型。
+
+有关支持和不支持的目标指标的列表，请参阅[自动分配和自动定位活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。(TNT-38409)
 
 ### 流量分布 [!DNL Auto-Allocate] 使用A4T的活动 {#aa-a4t}
 

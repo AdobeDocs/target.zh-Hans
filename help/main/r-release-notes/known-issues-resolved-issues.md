@@ -4,10 +4,10 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
-workflow-type: ht
-source-wordcount: '4651'
-ht-degree: 100%
+source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
+workflow-type: tm+mt
+source-wordcount: '4617'
+ht-degree: 95%
 
 ---
 
@@ -26,12 +26,6 @@ ht-degree: 100%
 ### 删除具有临时选件（这些选件位于在基于表单的体验编辑器中创建的活动内）的位置 {#ad-hoc}
 
 如果位置位于在基于表单的体验编辑器中创建的活动内并且使用临时选件（在活动中创建的选件），请避免删除这些位置。删除位置会导致活动损坏。[!DNL Target] 团队正在努力修复此问题。作为解决方法，您可以从[!UICONTROL 选件库]创建全局选件并将它们与位置配合使用，或者在需要时创建新体验。(KB-2014)
-
-### 使用 A4T 的自动分配活动的流量分配 {#aa-a4t}
-
-在某些情况下，使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自动分配]活动的流量分配，可能会与基于每个体验所报告转化率的流量分配不同。这种情况经常出现在具有较高的回访访客流量比例的活动中。受影响的客户会收到有关受影响活动的通知。
-
-在此问题解决之前，请将[!UICONTROL 自动分配]用于标准 [!DNL Target] 报表，或者将标准 A/B 测试用于 [!DNL Analytics] 报表，作为将[!UICONTROL 自动分配]用于 [!DNL Analytics] 报表的替代。(TOP-131)
 
 ### 自动分配和自动目标活动的 Analytics for Adobe Target (A4T) 指标
 
@@ -129,6 +123,10 @@ ht-degree: 100%
 
 上述已知问题在解决后将移至以下部分。如有必要，还将添加其他注释。
 
+### 流量分布 [!DNL Auto-Allocate] 使用A4T的活动 {#aa-a4t}
+
+在某些情况下，使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自动分配]活动的流量分配，可能会与基于每个体验所报告转化率的流量分配不同。这种情况经常出现在具有较高的回访访客流量比例的活动中。(TOP-131)
+
 ### at.js
 
 * 如果您使用 at.js 2.1.1 或更早版本（例如某个默认体验）创建未进行任何修改的体验，则该体验可能不会计入报告、Analytics for Target (A4T)、Adobe Analytics 或 Google Analytics 中。此外，ttMeta 插件可能无法正确工作。
@@ -161,9 +159,9 @@ ht-degree: 100%
 
 如果添加模板规则，如[页面交付](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)中包含的 URL (/checkout、/cart)，则会在规则前添加额外的空格。这些额外的空间仅为装饰性，不影响创建受众定义和投放选件。(TGT-35920)
 
-### 图像选件显示“正在处理”标签
+### 显示“正在处理”标签的图像选件
 
-上传图像之后，“选件”页面上的图像选件有时保持“正在处理”标签数小时。在大多数情况下，这只是标签的问题：仍可在活动中使用并可投放图像选件。（MCUI-10264、TGT-37458）
+“选件”页面上的图像选件有时会在上传图像后的数小时内保留“处理”标签。 在大多数情况下，这只是标签的问题：仍可在活动中使用并可投放图像选件。（MCUI-10264、TGT-37458）
 
 Target Standard/Premium 20.10.1 版本中修复了此问题。
 
@@ -200,7 +198,7 @@ Target Standard/Premium 20.10.1 版本中修复了此问题。
 
 ### 自动定位报表 {#at-metrics}
 
-已解决一个问题，该问题在 9 月 15 日下午 2:30 (PDT) 至 10 月 6 日上午 9:25 (PDT) 影响 [!DNL Adobe Target Premium] 用户的[!UICONTROL 自动定位]报表。在查看（使用“[!UICONTROL 查看了某个页面]”或“[!UICONTROL 单击了 mbox]”选项配置的）受影响的转化指标的报表时，所报告的转化率有误。目前没有已知的投放问题。
+已解决一个受 [!DNL Adobe Target Premium] 用户 [!UICONTROL 自动定位] 9月15日下午2点30分起报道（太平洋夏令时）至10月6日上午九点二刻（太平洋夏令时）。 查看受影响转化量度的报表时(使用[!UICONTROL 已查看页面]&quot;或&quot;[!UICONTROL 点击了mbox]“选项”)，则转化率会被错误报告。 目前没有已知的投放问题。
 
 要重新同步并更正您的报表，请执行以下操作：
 
@@ -236,7 +234,7 @@ Target Standard/Premium 20.10.1 版本中修复了此问题。
 
 ### 使用 Google Chrome 80 和更高版本时，在可视体验编辑器 (VEC) 或增强体验编辑器 (EEC) 中不加载页面
 
-这个已知问题与 Google 从 Chrome 80 版开始更改无 SameSite 属性的 Cookie 的默认行为的这一决定有关。在作出该更改之前，Chrome 将所有无 SameSite 属性的 Cookie 默认视为“SameSite=None”，现在它默认视为“SameSite=Lax”，而这样改变了在 GET 和 POST 请求上发送 Cookie 的方式。请参阅 [SameSite 更新](https://www.chromium.org/updates/same-site)。
+这个已知问题与 Google 从 Chrome 80 版开始更改无 SameSite 属性的 Cookie 的默认行为的这一决定有关。在进行更改之前，Chrome将所有没有SameSite属性的Cookie默认为“SameSite=None”，现在默认为“SameSite=Lax”，这会更改Cookie在GET和POST请求中的发送方式。 请参阅 [SameSite 更新](https://www.chromium.org/updates/same-site)。
 
 有关更多信息和修复，请参见“最近公布的 Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？”（在[排除与可视体验编辑器和增强体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中）。
 
@@ -408,7 +406,7 @@ at.js 版本 0.9.6 中更改了对保存 Cookie 时应使用的顶级域进行�
 
 ### 报表：A/B 活动和体验定位 (XT) 活动
 
-在 4 月 27 日晚上 9 点（太平洋标准时间）到 5 月 5 日早上 6:00（太平洋标准时间）期间，如果创建或编辑了 A/B 活动和 XT 活动，且其中包含任何使用“已查看页面”转化操作的量度（不基于其他量度），则这些活动可能会错误地记录转化次数。此问题现已解决；但是，在受影响的时间段内，有关这些活动的“已查看页面”转化操作的报表可能不准确，且遗憾的是，这些报表无法更正。我们建议，在基于这些活动的“已查看页面”转化操作做出任何决策时，您只应信赖在受影响时间段之前或之后记录的数据。
+从4月27日晚上9点（太平洋标准时间）到5月5日早上6点（太平洋标准时间）之间，使用“已查看页面”转化操作（不基于其他量度）的任何量度创建或编辑的A/B和XT活动，可能会错误地记录转化。 此问题现已解决；但是，在受影响的时间段内报告这些活动的“已查看页面”转化操作可能不准确，很遗憾，无法更正。 对于基于这些活动“已查看页面”转化操作的任何决策，我们建议您仅依赖在受影响的时段之前或之后记录的数据。
 
 其他量度的报表数据仍然可用，因为它们没有受到影响。
 

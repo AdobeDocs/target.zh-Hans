@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b5fc060ca944a9bf59b353fa3eda6399e4d1a8e8
+source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 97%
+source-wordcount: '2044'
+ht-degree: 93%
 
 ---
 
@@ -21,6 +21,27 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 有关更多信息，请参阅 [Adobe Experience Cloud 博客帖子](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
+
+## [!DNL Adobe Target] 社区问答型咖啡时间（2022年9月28日）
+
+与林晋栋和布伦特·科斯塔克一起，实时回答 [!DNL Adobe Target] 特定于事件的客户 [!UICONTROL Target社区] 讨论主题。 此咖啡时间将是网络研讨会问答对话的扩展，该对话来自 [!DNL Adobe Target] 技能培养者 — 移动设备体验优化网络研讨会。
+
++++详细信息
+
+* **2022 年 9 月 28 日星期三**
+* **上午 8:00 到 9:00 (PDT, UTC-7)**
+* **[注册链接](https://adobe.ly/3pYkmMG){target=_blank}**
+
+您将受邀发布与 [[!DNL Adobe Target] 关于移动体验优化的技能培养团队系列网络研讨会](https://video.tv.adobe.com/v/347360){target=_blank}，以及与Gentry和Brent的专业领域有关的其他人员 [!DNL Target]:
+
+* [!UICONTROL A/B测试], [!UICONTROL 多变量测试] (MVT)、 [!UICONTROL 体验定位] (XT)活动、自动测试和个性化
+* 分步活动设置工作流
+* 批量体验预取，为移动设备启用始终运行的个性化
+* 生命周期量度，用于跨客户体验、移动SDK和API以及iOS和Android平台实施进行测试和定位
+* 核心 Web 创作工作流
+* [!DNL Adobe Experience Cloud] 集成
+
++++
 
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 
@@ -75,11 +96,11 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
    课程图：
 
-   * [!UICONTROL A/B测试], [!UICONTROL Multivariate Testing] (MVT)、(XT)以及自动测试和个性化
+   * [!UICONTROL A/B 测试]、[!UICONTROL Multivariate Testing] (MVT)、(XT) 以及自动化测试和个性化
    * 活动设置的分步工作流
-   * 批量体验预取，用于为移动设备启用始终运行的个性化
+   * 批量体验预获取，实现移动设备的始终运行个性化
    * 用于跨客户体验进行测试和定位的生命周期量度
-   * Mobile SDK =适用于灵活实施(iOS和Android平台)的API
+   * Mobile SDK = 用于灵活实施的 API（iOS 和 Android 平台）
 
 +++
 
@@ -277,4 +298,4 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 随着已在 2021 年 3 月 31 日弃用 mbox.js，Adobe Target 产品经理 David Son 最近主持了一次开发人员聊天，其中讨论了将 mbox.js 迁移到 at.js 的好处。
 
-* **[录制链接](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)**
+* **[录像链接](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)**

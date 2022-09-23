@@ -4,7 +4,7 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
+source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 95%
@@ -22,10 +22,6 @@ ht-degree: 95%
 ## 已知问题 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 下面部分列出了 [!DNL Target] 的已知问题：
-
-### 删除具有临时选件（这些选件位于在基于表单的体验编辑器中创建的活动内）的位置 {#ad-hoc}
-
-如果位置位于在基于表单的体验编辑器中创建的活动内并且使用临时选件（在活动中创建的选件），请避免删除这些位置。删除位置会导致活动损坏。[!DNL Target] 团队正在努力修复此问题。作为解决方法，您可以从[!UICONTROL 选件库]创建全局选件并将它们与位置配合使用，或者在需要时创建新体验。(KB-2014)
 
 ### 增强体验编辑器 (EEC) 不支持 PUT 请求。
 
@@ -116,6 +112,10 @@ ht-degree: 95%
 ## 已解决的问题 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 上述已知问题在解决后将移至以下部分。如有必要，还将添加其他注释。
+
+### 删除具有临时选件（这些选件位于在基于表单的体验编辑器中创建的活动内）的位置 {#ad-hoc}
+
+如果位置位于在基于表单的体验编辑器中创建的活动内并且使用临时选件（在活动中创建的选件），请避免删除这些位置。删除位置会导致活动损坏。[!DNL Target] 团队正在努力修复此问题。作为解决方法，您可以从[!UICONTROL 选件库]创建全局选件并将它们与位置配合使用，或者在需要时创建新体验。(KB-2014)
 
 ### 自动分配和自动目标活动的 Analytics for Adobe Target (A4T) 指标
 

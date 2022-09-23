@@ -4,9 +4,9 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
+source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
 workflow-type: tm+mt
-source-wordcount: '4617'
+source-wordcount: '4593'
 ht-degree: 95%
 
 ---
@@ -98,10 +98,6 @@ ht-degree: 95%
 在 Analysis Workspace 中使用 Target 活动展示和转化时，请将“同一次接触”Attribution IQ 模型应用于指标以确保准确计数。要应用[非默认归因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=zh-Hans)，请右键单击指标以&#x200B;**修改“列设置”> 启用“使用非默认归因模型”> 选择“同一次接触”模型**。如果不应用此模型，则指标将被夸大。
 
 所有当前的 Analytics 包均可通过 Attribution IQ 添加此模型。如果您无权访问 Attribution IQ，请在 Reports &amp; Analytics 中依靠 A4T 数据。
-
-### Target API
-
-客户无法通过 Adobe I/O 上的 v3 版 A/B 活动 API 对自动分配活动执行 CRUD 操作。
 
 ### 报表 - 可下载的 .csv 报表中的数据与 [!DNL Target] UI 中显示的报表不一致。 {#csv}
 

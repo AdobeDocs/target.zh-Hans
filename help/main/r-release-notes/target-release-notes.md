@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
+source-git-commit: bd12d615b784b26e2b5a7b9e391f3e7d5a9cc8c5
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 32%
+source-wordcount: '473'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 32%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2022 年 7 月 9 日**
+**上次更新日期：2022 年 27 月 9 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -40,7 +40,7 @@ ht-degree: 32%
 * 修复了阻止某些客户存档的问题 [!UICONTROL A/B测试] 使用 [!UICONTROL 自动定位]. (TGT-40978)
 * 添加了在单个报表组中的多个位置自动使用单个选件的功能。 (TGT-43974)
 * 在 [!UICONTROL 选件] 列表。 (TGT-43121)
-* 修复了允许客户插入JSON的问题 [!UICONTROL 体验片段] 选件。 JSON选件只能使用 [!UICONTROL 基于表单的体验] 编辑器。 (TGT-43846)
+* 修复了允许客户插入JSON的问题 [!UICONTROL 体验片段] 选件，但不支持此功能。 JSON选件仅在使用 [!UICONTROL 基于表单的体验] 编辑器。 (TGT-43846)
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6058ebcf8150f9161d591a1c1c315af40babc6ef
+source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 32%
 
 ---
 
@@ -15,31 +15,32 @@ ht-degree: 100%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2022 年 9 月 9 日**
+**上次更新日期：2022 年 7 月 9 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 22.9.1（交错发布：2022 年 9 月 13 日至 15 日）
+## [!DNL Target] Standard/Premium 22.10.1（错开发行，2022年10月4日至6日）
 
 此版本将按照以下交错发布计划发布：
 
-* **9 月 13 日**：欧洲、中东和非洲 (EMEA) 区域
-* **9 月 14 日**：美洲区域
-* **9 月 15 日**：亚太 (APAC) 区域
+* **10月4日**:欧洲、中东和非洲(EMEA)地区
+* **10月5日**:亚太地区
+* **10月6日**:美洲地区
 
-此版本包含以下增强功能和修复：
+此版本包含以下新增功能、增强功能和修复：
 
-* 在下载 at.js 2.10.0（及更高版本）时添加了一个 [!UICONTROL Cross-Domain] 选项以允许或禁止设置第三方 Cookie。(TGT-43674)
-* 更新了 [!DNL Target] UI 中的通知，如果导入 [!DNL Recommendations] 源失败，则通知客户。(TGT-35811)
-* 修复了导致 [!UICONTROL Decision Offers] 在 [!UICONTROL Visual Experience Composer] (VEC) 中无法正常工作的问题。 (TGT-43866)
-* 修复了在创建 [!UICONTROL Multivariate Testing] (MVT) 活动时选择[!UICONTROL 单击了一个元素]转换目标时导致显示错误消息的问题。 (TGT-43842)
-* 修复了导致[!UICONTROL 印象]列无法显示在下载的 [!UICONTROL Automated Personalization] (AP) 活动的 CSV 报告文件中的问题。 (TGT-43780)
-* 修复了在使用[!UICONTROL 基于表单的体验生成器]时，客户在复制体验后无法编辑 HTML/JSON 优惠的问题。 (TGT-43633)
-* 修复了阻止客户将 [!UICONTROL A/B Test] 活动从非默认工作区复制到另一个非默认工作区的问题。 (TGT-41910)
-* 修复了一个问题，以确保客户可正确地显示包含推荐的 [!UICONTROL A/B 检验]和[!UICONTROL 体验定位] (XT) 活动中 [!DNL Recommendations] 对象（设计、条件、集合等）的使用情况，还可从 [!DNL Target] UI 和 [!DNL Recommendations] 后端删除不再使用的条件对象。(TGT-42331)
-* 修复了在获取参数时导致 [!DNL Target]UI 中出现网络超时警报的问题。(TGT-43737)
-* 进行了 UI 更新，以确保键盘可以进行某些拖放操作。(TGT-42969)
-* 进行了 UI 更新，以确保文本字符串正确本地化。
+| 功能 | 详细信息 |
+| --- | --- |
+| 新建 [!UICONTROL 可视化体验编辑器] 适用于Google Chrome的扩展 | 新 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)Chrome扩展可在Chrome网上应用店中获取。<br>自2023年1月起， [!DNL Target] VEC助手扩展将停止在Google Chrome中工作，因为Google不允许使用清单V2的扩展。 下载新扩展以继续在 [!DNL Target] 从新年开始。 |
+| 针对 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位]<br>（确切的发行日期待定。） | 请注意以下更改：<ul><li>在 [!UICONTROL Analytics for Target] 适用于的A4T报表 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动</li><li>删除了 [!UICONTROL 自动定位] 活动</li><li>保留现有活动的行为，直到2023年2月20日。 在此日期之后，将停止活动以强制现有活动迁移到新行为</li><li>自2023年2月20日起，支持 `averagetimespentonsite`, `bouncerate`和 `entries` 量度 [!DNL Target] 活动将被弃用。</li></ul> |
+
+* 修复了受众规则信息无法在 [!UICONTROL 受众细化] 信息窗口。 (TGT-43917)
+* 改进了 [!DNL Target] 加载接近 [建议的定位规则限制](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
+* 修复了导致某些组件无法在 [!UICONTROL 修改] 面板 [!UICONTROL 体验] 从 [!UICONTROL 撰写] to [!UICONTROL 浏览] 模式。 (TGT-43300)
+* 修复了阻止某些客户存档的问题 [!UICONTROL A/B测试] 使用 [!UICONTROL 自动定位]. (TGT-40978)
+* 添加了在单个报表组中的多个位置自动使用单个选件的功能。 (TGT-43974)
+* 在 [!UICONTROL 选件] 列表。 (TGT-43121)
+* 修复了允许客户插入JSON的问题 [!UICONTROL 体验片段] 选件。 JSON选件只能使用 [!UICONTROL 基于表单的体验] 编辑器。 (TGT-43846)
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

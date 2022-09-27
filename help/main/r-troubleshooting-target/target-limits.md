@@ -5,7 +5,7 @@ title: 中的各种字符、大小和其他限制 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 96%
@@ -301,8 +301,8 @@ ht-degree: 96%
 
    这是指定位文本区域中以行分隔的值的数量。例如，在邮政编码定位中输入 1,000 个邮政编码。
 
-### 定位规则
+### 定位规则 {#targeting-rules}
 
 * **建议的限制**：每个定位规则值 2500 个字符。
-* **建议限制**：各定位规则中每个受众 30,000 个唯一值。
+* **建议限制**：各定位规则中每个受众 50,000 个唯一值。
 * **建议限制**：每个活动 100,000 个唯一定位规则值。

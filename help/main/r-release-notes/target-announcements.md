@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
 workflow-type: tm+mt
 source-wordcount: '2044'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,22 +22,22 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 有关更多信息，请参阅 [Adobe Experience Cloud 博客帖子](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
 
-## [!DNL Adobe Target] 社区问答型咖啡时间（2022年9月28日）
+## [!DNL Adobe Target]社区问答茶歇时间（2022 年 9 月 28 日）
 
-与林晋栋和布伦特·科斯塔克一起，实时回答 [!DNL Adobe Target] 特定于事件的客户 [!UICONTROL Target社区] 讨论主题。 此咖啡时间将是网络研讨会问答对话的扩展，该对话来自 [!DNL Adobe Target] 技能培养者 — 移动设备体验优化网络研讨会。
+与 Gentry Lin 和 Brent Kostak 一起实时解答 [!DNL Adobe Target] 客户在活动专属的 [!UICONTROL Target 社区]讨论主题中提出的疑问。这次茶歇将作为最近举办的“[!DNL Adobe Target] 技能强化 - 移动体验优化”网络研讨会中的网络研讨会问答对话的延伸。
 
 +++详细信息
 
 * **2022 年 9 月 28 日星期三**
-* **上午 8:00 到 9:00 (PDT, UTC-7)**
+* **上午 8:00 到 9:00（PDT，UTC-7）**
 * **[注册链接](https://adobe.ly/3pYkmMG){target=_blank}**
 
-您将受邀发布与 [[!DNL Adobe Target] 关于移动体验优化的技能培养团队系列网络研讨会](https://video.tv.adobe.com/v/347360){target=_blank}，以及与Gentry和Brent的专业领域有关的其他人员 [!DNL Target]:
+邀请您提出与 [[!DNL Adobe Target] 关于移动体验优化的技能强化探索系列网络研讨会](https://video.tv.adobe.com/v/347360){target=_blank}中涵盖的主题有关的疑问以及其他与 Gentry 和 Brent 的 [!DNL Target] 专业领域有关的疑问：
 
-* [!UICONTROL A/B测试], [!UICONTROL 多变量测试] (MVT)、 [!UICONTROL 体验定位] (XT)活动、自动测试和个性化
+* [!UICONTROL A/B 测试]、[!UICONTROL 多变量测试] (MVT)、[!UICONTROL 体验定位] (XT) 活动、自动化测试和个性化
 * 分步活动设置工作流
-* 批量体验预取，为移动设备启用始终运行的个性化
-* 生命周期量度，用于跨客户体验、移动SDK和API以及iOS和Android平台实施进行测试和定位
+* 批量体验预获取，从而始终可为移动设备实现个性化
+* 在客户体验、移动 SDK 和 API 以及 iOS 和 Android 平台实施间进行测试和定位的生命周期指标
 * 核心 Web 创作工作流
 * [!DNL Adobe Experience Cloud] 集成
 

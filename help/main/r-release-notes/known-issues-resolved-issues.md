@@ -5,9 +5,9 @@ title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
-workflow-type: tm+mt
-source-wordcount: '4593'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 95%
 
 有关支持和不支持的目标指标的列表，请参阅[自动分配和自动定位活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。(TNT-38409)
 
-### 流量分布 [!DNL Auto-Allocate] 使用A4T的活动 {#aa-a4t}
+### 使用 A4T 进行的 [!DNL Auto-Allocate] 活动的流量分配 {#aa-a4t}
 
 在某些情况下，使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自动分配]活动的流量分配，可能会与基于每个体验所报告转化率的流量分配不同。这种情况经常出现在具有较高的回访访客流量比例的活动中。(TOP-131)
 
@@ -155,9 +155,9 @@ ht-degree: 95%
 
 如果添加模板规则，如[页面交付](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)中包含的 URL (/checkout、/cart)，则会在规则前添加额外的空格。这些额外的空间仅为装饰性，不影响创建受众定义和投放选件。(TGT-35920)
 
-### 显示“正在处理”标签的图像选件
+### 图像选件显示“正在处理”标签
 
-“选件”页面上的图像选件有时会在上传图像后的数小时内保留“处理”标签。 在大多数情况下，这只是标签的问题：仍可在活动中使用并可投放图像选件。（MCUI-10264、TGT-37458）
+上传图像之后，“选件”页面上的图像选件有时保留“正在处理”标签长达数小时。在大多数情况下，这只是标签的问题：仍可在活动中使用并可投放图像选件。（MCUI-10264、TGT-37458）
 
 Target Standard/Premium 20.10.1 版本中修复了此问题。
 
@@ -194,7 +194,7 @@ Target Standard/Premium 20.10.1 版本中修复了此问题。
 
 ### 自动定位报表 {#at-metrics}
 
-已解决一个受 [!DNL Adobe Target Premium] 用户 [!UICONTROL 自动定位] 9月15日下午2点30分起报道（太平洋夏令时）至10月6日上午九点二刻（太平洋夏令时）。 查看受影响转化量度的报表时(使用[!UICONTROL 已查看页面]&quot;或&quot;[!UICONTROL 点击了mbox]“选项”)，则转化率会被错误报告。 目前没有已知的投放问题。
+已解决一个问题，该问题影响 [!DNL Adobe Target Premium] 用户在 9 月 15 日下午 2:30 (PDT) 至 10 月 6 日上午 9:25 (PDT) 生成的[!UICONTROL 自动定位]报表。在查看报表中（使用“[!UICONTROL 查看了某个页面]”或“[!UICONTROL 单击了 mbox]”选项配置的）受影响的转化指标时，所报告的转化率有误。目前没有已知的投放问题。
 
 要重新同步并更正您的报表，请执行以下操作：
 
@@ -230,7 +230,7 @@ Target Standard/Premium 20.10.1 版本中修复了此问题。
 
 ### 使用 Google Chrome 80 和更高版本时，在可视体验编辑器 (VEC) 或增强体验编辑器 (EEC) 中不加载页面
 
-这个已知问题与 Google 从 Chrome 80 版开始更改无 SameSite 属性的 Cookie 的默认行为的这一决定有关。在进行更改之前，Chrome将所有没有SameSite属性的Cookie默认为“SameSite=None”，现在默认为“SameSite=Lax”，这会更改Cookie在GET和POST请求中的发送方式。 请参阅 [SameSite 更新](https://www.chromium.org/updates/same-site)。
+这个已知问题与 Google 从 Chrome 80 版开始更改无 SameSite 属性的 Cookie 的默认行为的这一决定有关。在作出该更改之前，Chrome 将所有无 SameSite 属性的 Cookie 默认视为“SameSite=None”，现在它默认视为“SameSite=Lax”，而这样改变了在 GET 和 POST 请求上发送 Cookie 的方式。请参阅 [SameSite 更新](https://www.chromium.org/updates/same-site)。
 
 有关更多信息和修复，请参见“最近公布的 Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？”（在[排除与可视体验编辑器和增强体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)中）。
 
@@ -402,7 +402,7 @@ at.js 版本 0.9.6 中更改了对保存 Cookie 时应使用的顶级域进行�
 
 ### 报表：A/B 活动和体验定位 (XT) 活动
 
-从4月27日晚上9点（太平洋标准时间）到5月5日早上6点（太平洋标准时间）之间，使用“已查看页面”转化操作（不基于其他量度）的任何量度创建或编辑的A/B和XT活动，可能会错误地记录转化。 此问题现已解决；但是，在受影响的时间段内报告这些活动的“已查看页面”转化操作可能不准确，很遗憾，无法更正。 对于基于这些活动“已查看页面”转化操作的任何决策，我们建议您仅依赖在受影响的时段之前或之后记录的数据。
+在 PST 时间 4 月 27 日晚上 9 点至 PST 时间 5 月 5 日上午 6:00 用任何使用“查看了某个页面”转化操作的指标创建或编辑的（不基于其他指标的）A/B 和 XT 活动可能错误地记录了转化。现已解决此问题；但是，在受影响的时段内报告这些活动的“查看了某个页面”转化操作可能不准确，并且很遗憾地无法更正。我们建议，对于任何根据这些活动的“查看了某个页面”转化操作作出的决策，请仅依赖在受影响的期间之前或之后记录的数据。
 
 其他量度的报表数据仍然可用，因为它们没有受到影响。
 

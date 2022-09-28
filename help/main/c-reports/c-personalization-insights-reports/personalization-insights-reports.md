@@ -4,10 +4,10 @@ description: 了解如何使用专门的Automated Personalization(AP)和自动�
 title: 如何使用个性化分析报表？
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 60%
+source-wordcount: '909'
+ht-degree: 57%
 
 ---
 
@@ -58,6 +58,8 @@ ht-degree: 60%
 | 页面参数（也称为“mbox 参数”） | 直接通过页面代码传入的名称/值对，它们未存储在访客的配置文件中供将来使用。 | `Custom - Mbox Parameter - [parameter name]` |
 | 客户属性 | 客户属性可让您通过 FTP 将访客配置文件数据上传到 Experience Cloud。上传后，即可在 Adobe Analytics 和 Adobe Target 中利用这些数据。 | `Custom - Customer Attributes - [parameter name]` |
 | 共享受众（Adobe Audience Manager 或 Adobe Analytics） | 通过 Adobe Audience Manager 或 Adobe Analytics 创建并与 Target 共享的受众。 | `Custom - Experience Cloud Segment - [segment name]` |
+| 共享受众(Adobe Experience Platform/Real-time CDP) | 通过Adobe Experience Platform/Real-time CDP创建的受众，并通过目标与Target共享。 | `Custom - Adobe Experience Platform Segment - [segment name]` |
+| 共享属性(Adobe Experience Platform/Real-time CDP) | 通过Adobe Experience Platform/Real-time CDP创建并通过目标与Target共享的属性。 此功能目前处于测试阶段。 | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
 | 活动内报表受众/区段 | 在 AP 或自动定位活动中的“目标和量度”设置期间定义的受众。 | `Custom - Reporting Segment - [segment name]` |
 
 ## 常见问题解答

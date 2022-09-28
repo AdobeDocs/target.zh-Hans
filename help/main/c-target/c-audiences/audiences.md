@@ -4,10 +4,10 @@ description: 了解如何在中使用受众 [!DNL Adobe Target].
 title: 如何使用受众列表？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 342d26bdda5740d23682768b15a788921a0a3001
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 26%
+source-wordcount: '1500'
+ht-degree: 21%
 
 ---
 
@@ -108,19 +108,30 @@ Keep the following points in mind as you work with imported audiences:
 ## 使用受众 [!DNL Adobe Experience Platform] {#aep}
 
 利用在 [!DNL Adobe Experience Platform] 中创建的受众可提供更丰富的客户数据，从而带来更强大的个性化功能。的 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans){target=_blank}(RTCDP)，内置于 [!DNL Adobe Experience Platform]，可帮助公司将来自多个企业来源的已知和匿名数据汇集在一起。 通过此流程，您可以创建客户配置文件，以便用于在所有渠道和设备中实时提供个性化的客户体验。
++通过连接 [!DNL Target] 到 [!DNL Real-time Customer Data Platform]，客户可以通过解锁之前可能无法访问的新区段来扩充其Web个性化 [!DNL Target] 用于在客户的Web访问首页上实时进行毫秒个性化。 使用在 [!DNL Adobe Experience Platform] 允许您扩展可用的数据点，以便进行更丰富的个性化。
 
-连接 [!DNL Target] 和 [!DNL Real-time Customer Data Platform] 后，客户可以通过解锁 [!DNL Target] 以前可能无法访问的新分段来丰富其 Web 个性化，从而在客户 Web 访问的第一个页面上在毫秒内实现实时个性化。使用 [!DNL Adobe Experience Platform] 中创建的受众可以扩展可用的数据点，以实现更丰富的个性化。
-
-此集成可通过RTCDP解锁关键用例：
+此集成可通过Real-time CDP解锁关键用例：
 
 * 同页/下次点击个性化
 * 首次/未知用户个性化
 
 主要功能包括：
 
-* 直接Target与RTCDP集成/[!DNL Adobe Experience Platform] 在边缘上(删除对 [!DNL Audience Core services] - AAM)
-* [!UICONTROL Target边缘目标卡] 实施治理
-* 使用统一配置文件进行边缘分割和边缘配置文件
+* 直接Target与实时CDP的集成/[!DNL Adobe Experience Platform] 在边缘上(删除对 [!DNL Audience Core services] - AAM)
+* [!UICONTROL Target边缘目标卡] 管理和政策执行
+* 实时CDP区段和共享配置文件属性
+
+Real-time CDP Profile Attributes功能限制和注意事项：
+
+* 给定选件中的属性必须来自同一AEP沙盒。 （换言之，选件不能包含来自不同AEP沙箱的属性。）
+* 给定选件内的属性可能来自不同的来源；即，Target配置文件和AEP配置文件。（换言之，无论属性来自Target还是AEP配置文件，您都可以组合属性。）
+* 在定义选件时，您可以为实时CDP配置文件属性分配默认值，以防该属性没有明确值。 例如，如果同意或管理策略阻止在个性化服务中使用的属性，则可以改用默认值。
+* 共享后，在自动定位和Automated Personalization的人工智能/机器学习个性化模型中会使用实时CDP配置文件属性。
+
+>[!NOTE]
+>
+>Real-time CDP Profile Attributes功能目前在测试版中提供，适用于HTML选件和 [JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
 
 有关更多信息，请参阅以下主题：
 

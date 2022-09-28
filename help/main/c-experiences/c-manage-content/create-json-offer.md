@@ -4,10 +4,10 @@ description: 了解如何在Adobe中创建JSON选件 [!DNL Target] ，以在基�
 title: 如何创建JSON选件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 49%
+source-wordcount: '535'
+ht-degree: 38%
 
 ---
 
@@ -130,6 +130,16 @@ adobe.target.getOffer({
   } 
 });
 ```
+
+## JSON选件示例（使用实时CDP配置文件属性）
+
+可以与Target共享实时CDP配置文件属性，以用于HTML选件和JSON选件。 （请注意，此功能目前处于测试阶段。）
+
+示例用例：作为在线营销人员，Grace希望AEP/统一配置文件与Target共享属性值，以便提供实时个性化。 通过使用实时CDP配置文件属性，Grace可以使用令牌替换在Target选件中显示AEP属性的值。 例如，她可以使用 `${aep.profile.favoriteColor}`，或者使用令牌的忠诚度等级和忠诚度点值 `${aep.loyalty.tier}` 和 `${aep.loyalty.points}`.
+
+![](assets/offer-json-aep-shared-attribute.png)
+
+在上面显示的示例中，请注意，分配默认值是可选的。
 
 ## 按JSON选件类型筛选选件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 

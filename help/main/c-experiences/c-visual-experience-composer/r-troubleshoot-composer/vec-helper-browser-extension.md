@@ -4,10 +4,10 @@ description: 了解为什么某些网站可能无法在可视化体验编辑器(
 title: 如何使用可视化体验编辑器(VEC)助手扩展？
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 65%
+source-wordcount: '1058'
+ht-degree: 56%
 
 ---
 
@@ -15,9 +15,11 @@ ht-degree: 65%
 
 的 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)适用于Google Chrome的助手浏览器扩展允许您在VEC内可靠地加载网站，以快速创作和QA Web体验。
 
->[!NOTE]
+VEC助手浏览器是一个Chrome扩展程序。 使用Mozilla Firefox时，不需要进行此扩展。
+
+>[!IMPORTANT]
 >
->VEC助手浏览器是一个Chrome扩展程序。 使用Mozilla Firefox时，不需要进行此扩展。
+>自2023年1月起， [!DNL Target] VEC助手扩展将停止在Google Chrome中工作，因为Google不允许使用清单V2的扩展。 下载新扩展以继续在 [!DNL Target] 从新年开始。 有关更多信息，请参阅 [Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension).
 
 ## 某些网站可能无法在VEC中可靠打开的原因
 
@@ -31,7 +33,7 @@ SW 是一种 Web 技术，可用于拦截对网页所安装的域的请求。SW 
 
 SW 可以控制缓存；可以缓存网页本身、静态资源（例如 JS、CSS、IMG、AJAX 请求）、它们的内容和响应头，包括我们的 [Target VEC Helper 扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)尝试删除的项，例如 X-Frame-Options：SAMEORIGIN、CSP (Content-Security-Policy) 或 Set-Cookie。
 
-不幸的是，拦截 Web 请求的 Chrome 扩展 API 不会收到已由 SW 拦截和处理的请求。因此，如果网页请求是由 SW 从缓存中提供的，则扩展无法修复标头和 Cookie，因为网页将不会在 VEC 中加载（原因是，X-Frame-Options 或 CSP 标头也已被缓存）。
+遗憾的是，用于截获Web请求的Chrome扩展API不会收到软件截获并处理的请求。 因此，如果网页请求是由软件从缓存中提供的，则扩展无法修复标头和Cookie，因为由于也缓存了X-Frame-Options或CSP标头，因此VEC中无法加载网页。
 
 作为一种潜在的解决方法，您可以从 Chrome 的“开发人员工具”>“应用程序”选项卡中禁用 Service Worker，然后选中“Service Workers”部分下的“绕过网络”复选框。
 

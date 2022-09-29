@@ -4,14 +4,14 @@ description: 了解如何对Adobe中有时出现的问题进行故障诊断 [!DN
 title: 如何对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断？
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 52%
 
 ---
 
-# 对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断
+# 与 [!UICONTROL 可视化体验编辑器] 和 [!UICONTROL 增强型体验编辑器]
 
 显示问题和其他问题有时会在 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)和 [!UICONTROL 增强型体验编辑器] (EEC)。
 

@@ -4,7 +4,7 @@ description: 了解为什么某些网站可能无法在可视化体验编辑器(
 title: 如何使用可视化体验编辑器(VEC)助手扩展？
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 56%
@@ -19,7 +19,7 @@ VEC助手浏览器是一个Chrome扩展程序。 使用Mozilla Firefox时，不�
 
 >[!IMPORTANT]
 >
->自2023年1月起， [!DNL Target] VEC助手扩展将停止在Google Chrome中工作，因为Google不允许使用清单V2的扩展。 下载新扩展以继续在 [!DNL Target] 从新年开始。 有关更多信息，请参阅 [Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension).
+>自2023年1月起， [!DNL Target] VEC助手扩展将停止在Google Chrome中工作，因为Google不允许使用清单V2的扩展。 下载新扩展以继续在 [!DNL Target] 从新年开始。 有关更多信息，请参阅 [Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
 ## 某些网站可能无法在VEC中可靠打开的原因
 

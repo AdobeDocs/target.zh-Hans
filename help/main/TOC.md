@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 01b8ed3ecae20859a6d9a5dacc3fc280a3a426b1
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 98%
@@ -234,7 +234,7 @@ ht-degree: 98%
          + [增强型体验编辑器故障诊断](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [在浏览器中启用混合内容](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [页面修改方案](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
-         + [Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension)
+         + [Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [重定向到 URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [创建可以在可视化体验编辑器中工作的轮播效果](c-experiences/c-visual-experience-composer/vec-carousels.md)

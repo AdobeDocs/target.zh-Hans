@@ -4,7 +4,7 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 224f95c21db67d27b31f0a3fc44216ee6033f874
+source-git-commit: f567203808ef31191754773079450bc7a323dde7
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 28%
@@ -31,7 +31,7 @@ ht-degree: 28%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| [!DNL Adobe Experience Manager] (AEM)体验片段 | AEM体验片段功能的更新包括：<ul><li>在 [!UICONTROL 选件] 列表。 (TGT-43121)</li><li>修复了允许客户插入JSON的问题 [!UICONTROL 体验片段] 选件，但不支持此功能。 JSON选件仅在使用 [!UICONTROL 基于表单的体验] 编辑器。 (TGT-43846)</li></ul>有关更多信息，请参阅AEM [体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
+| [!DNL Adobe Experience Manager] (AEM)体验片段 | 对AEM体验片段功能的更新包括：<ul><li>在 [!UICONTROL 选件] 列表。 (TGT-43121)</li><li>修复了允许客户插入JSON的问题 [!UICONTROL 体验片段] 选件，但不支持此功能。 JSON选件仅在使用 [!UICONTROL 基于表单的体验] 编辑器。 (TGT-43846)</li></ul>有关更多信息，请参阅AEM [体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
 | 新建 [!UICONTROL 可视化体验编辑器] 适用于Google Chrome的扩展 | 新 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)Chrome扩展可在Chrome网上应用店中获取。<br>自2023年1月起， [!DNL Target] VEC助手扩展将停止在Google Chrome中工作，因为Google不允许使用清单V2的扩展。 下载新扩展以继续在 [!DNL Target] 从新年开始。<br>以下链接显示了Chrome Web Store中的两个扩展：<ul><li>[新扩展](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[旧扩展](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul> |
 | 针对 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位]<br>（确切的发行日期待定。） | 请注意以下更改：<ul><li>在 [!UICONTROL Analytics for Target] 适用于的A4T报表 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动</li><li>删除了 [!UICONTROL 自动定位] 活动</li><li>保留现有活动的行为，直到2023年2月20日。 在此日期之后，将停止活动以强制现有活动迁移到新行为</li><li>自2023年2月20日起，支持 `averagetimespentonsite`, `bouncerate`和 `entries` 量度 [!DNL Target] 活动将被弃用。</li></ul> |
 
@@ -39,7 +39,7 @@ ht-degree: 28%
 * 改进了 [!DNL Target] 加载接近 [建议的定位规则限制](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
 * 修复了导致某些组件无法在 [!UICONTROL 修改] 面板 [!UICONTROL 体验] 从 [!UICONTROL 撰写] to [!UICONTROL 浏览] 模式。 (TGT-43300)
 * 修复了阻止某些客户存档的问题 [!UICONTROL A/B测试] 使用 [!UICONTROL 自动定位]. (TGT-40978)
-* 添加了在单个报表组中的多个位置自动使用单个选件的功能。 (TGT-43974)
+* 添加了在单个报表组中的多个位置自动使用单个选件的功能。 (TGT-40689)
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

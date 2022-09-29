@@ -3,10 +3,10 @@ keywords: VEC;可视化体验编辑器;VEC;iframe;扩展;浏览器
 description: 了解为什么某些网站可能无法在 [!UICONTROL 可视化体验编辑器] (VEC)。 的 [!UICONTROL 可视化编辑助手] 通过浏览器扩展，您可以在VEC内可靠地加载网站。
 title: 如何使用 [!UICONTROL 可视化编辑助手] 扩展？
 feature: Visual Experience Composer (VEC)
-source-git-commit: 70ab1ec7f5313d8c1f8ecaa9b436d95919cf479a
+source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 28%
+source-wordcount: '568'
+ht-degree: 25%
 
 ---
 
@@ -56,12 +56,6 @@ ht-degree: 28%
 
    * 如果您尝试使用加载失败的VEC来加载网站，则会显示一条消息，建议您安装 [!UICONTROL 可视化编辑助手] 浏览器扩展。
    * 如果尚未在网站上实施at.js或alloy.js，则VEC中会显示一条消息，建议您安装扩展。
-
-## 有关此功能的更多帮助
-
-* [对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [对与可视化体验编辑器有关的问题进行故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [对与增强型体验编辑器有关的问题进行故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
 
 
 

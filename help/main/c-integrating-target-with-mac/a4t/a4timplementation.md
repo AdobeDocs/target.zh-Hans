@@ -4,9 +4,9 @@ description: 按照实施Analytics(适用于 [!DNL Target] (A4T)Adobe [!DNL Targ
 title: 如何为实施Analytics [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: a9504930865531788bbd60f01ee1cc88b125706e
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1155'
 ht-degree: 25%
 
 ---
@@ -192,7 +192,7 @@ Adobe建议您删除之前的集成，以简化实施，并消除解决系统间
 
 ### 步骤 10：启用可将 Analytics 用作 Target 报表源的选项
 
-在 [!DNL Target]，单击 **[!UICONTROL 管理>可视化体验编辑器]** 选择 **[!UICONTROL 为每个活动选择]** 或 **[!UICONTROL Adobe Analytics]** 以启用选项。
+在 [!DNL Target]，单击 **[!UICONTROL 管理>报表]** 选择 **[!UICONTROL 为每个活动选择]** 或 **[!UICONTROL Adobe Analytics]** 以启用选项。
 
 * **[!UICONTROL 如果选择为每个活动选择，您在创建每个活动时可以在 和 之间进行选择。]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL 如果选择 Adobe ，则会将 Analytics 设置为您创建的所有活动的报表源。]**[!DNL Analytics]

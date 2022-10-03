@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7deebcf7f6f6b0044748f598c53f165402d1cda3
-workflow-type: ht
-source-wordcount: '1257'
-ht-degree: 100%
+source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 10 月 3 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 更新了 [!DNL Target Standard/Premium] 22.10.1版本。 |
 | 9 月 22 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下活动的信息：<ul><li>[!DNL Adobe Target]社区问答茶歇时间（2022 年 9 月 28 日）</li></ul> |
 | 9 月 15 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下网络研讨会的信息：<ul><li>微调 AI 支持的个性化：[!DNL Adobe Target] 中的新增功能（2022 年 10 月 11 日）</li></ul> |
 | 9 月 13 日 | [了解  [!DNL Target]  UI](/help/main/c-intro/understand-the-target-ui.md) | 添加了有关在 [!DNL Recommendations] 馈送失败时发送的通知的信息。 |

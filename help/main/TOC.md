@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1219'
 ht-degree: 98%
 
 ---
@@ -270,7 +270,6 @@ ht-degree: 98%
    + [体验性能报表 (MVT)](c-reports/experience-performance-report.md)
    + [位置贡献报表 (MVT)](c-reports/location-contribution-report.md)
    + [Analytics for Target (A4T) 报表](c-reports/analytics-for-target-a4t-reporting.md)
-   + [转化率](c-reports/conversion-rate.md)
    + [将数据下载到 CSV 文件](c-reports/downloading-data-in-csv-file.md)
    + [报表常见问题解答](c-reports/reporting-frequently-asked-questions.md)
 + 推荐 {#recommendations}

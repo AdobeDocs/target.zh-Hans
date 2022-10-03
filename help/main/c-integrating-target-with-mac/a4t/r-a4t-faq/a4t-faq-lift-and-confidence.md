@@ -4,10 +4,10 @@ description: 查找有关使用Analytics for [!DNL Target] (A4T)。 A4T允许您
 title: 在哪里可以找到有关A4T提升度和置信度的信息？
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 28%
+source-wordcount: '541'
+ht-degree: 25%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 28%
 
 ## 我能否为 A4T 执行离线计算？ {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-您可以为 A4T 执行离线计算，但需要在 [!DNL Analytics] 中完成数据导出步骤。有关更多信息，请参阅[置信水平和置信区间](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)中的“为 Analytics for Target (A4T) 执行离线计算”。
+您可以为 A4T 执行离线计算，但需要在 [!DNL Analytics] 中完成数据导出步骤。有关更多信息，请参阅 [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 如何计算提升度？ {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -25,7 +25,7 @@ ht-degree: 28%
 
 ## 如何计算置信度？ {#section_97DB24D833E742988318CA65DA65DAD9}
 
-置信水平是一个概率，以百分比表示，等于 `1 - p-value`，其中 `p-value` 从t测试计算。 请参阅 [转化率](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+置信水平是一个概率，以百分比表示，等于 `1 - p-value`，其中 `p-value` 从t测试计算。 请参阅 [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 我为何看不到计算量度的提升度和置信度？ {#lift-confidence}
 

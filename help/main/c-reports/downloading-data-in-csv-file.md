@@ -4,7 +4,7 @@ description: 了解如何从Adobe下载数据 [!DNL Target] 以CVS格式的活�
 title: 如何以CSV文件下载报表数据？
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 83%
@@ -40,7 +40,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->CSV报表仅包含原始数据，而不包含计算量度，例如A/B测试中使用的每位访客带来的收入、提升度或置信度。 要计算这些计算量度，请下载Target的 [完整置信度计算器](/help/main/assets/complete_confidence_calculator.xlsx) 用于输入活动值的Excel文件，或查看 [Target使用的统计计算](/help/main/assets/statistical-calculations.pdf).
+>CSV报表仅包含原始数据，而不包含计算量度，例如A/B测试中使用的每位访客带来的收入、提升度或置信度。 要计算这些计算量度，请下载Target的 [完整置信度计算器](/help/main/assets/complete_confidence_calculator.xlsx) 用于输入活动值或查看的Excel文件 [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 将订单详细信息导出到 CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 

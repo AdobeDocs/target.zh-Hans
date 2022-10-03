@@ -4,9 +4,9 @@ description: 了解如何在Adobe中使用自动分配活动 [!DNL Target] 可�
 title: 什么是自动分配活动？
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '3567'
+source-wordcount: '3568'
 ht-degree: 50%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 50%
 
 不支持以下高级量度设置： [!UICONTROL 递增计数], [!UICONTROL 发行用户], [!UICONTROL 允许再次进入和递增计数]和 [!UICONTROL 释放用户和阻止再次进入].
 
-**频繁回访的旧访客可能会夸大体验转化率。**
+**频繁回访的访客可能会夸大体验转化率。**
 
 如果查看体验 A 的访客经常回访并进行多次转化，则体验 A 的转化率 (CR) 会被人为地提高。将此结果与体验B进行比较，在体验B中，访客进行转化，但不经常回访。 因此，体验A的CR看起来比体验B的CR好，因此新访客更有可能被分配到A而不是B。如果您选择为每个参加者计数一次，则A的CR和B的CR可能是相同的。
 

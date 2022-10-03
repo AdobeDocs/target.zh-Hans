@@ -4,9 +4,9 @@ description: 了解如何Adobe [!DNL Target] 显示和计算每个体验的转�
 title: 如何查看转化率、提升度和置信水平？
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2150'
 ht-degree: 53%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 53%
 
 [下载的 CSV 报表](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)仅包含原始数据，而不包含计算量度，如 A/B 测试中使用的每位访客带来的收入、提升度或置信度。
 
-要计算这些计算量度，请下载Target的 [完整置信度计算器](/help/main/assets/complete_confidence_calculator.xlsx) 用于输入活动值的Excel文件，或查看 [Target使用的统计计算](/help/main/assets/statistical-calculations.pdf).
+要计算这些计算量度，请下载Target的 [完整置信度计算器](/help/main/assets/complete_confidence_calculator.xlsx) 用于输入活动值或查看的Excel文件 [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ ht-degree: 53%
 
 您可以为 A4T 执行离线计算，但需要在 [!DNL Analytics] 中完成数据导出步骤。
 
-对于A4T，我们使用 [韦尔奇的T检验](https://en.wikipedia.org/wiki/Welch%27s_t-test)连续变量（而非二进制量度）的{target=_blank}计算。 在 Analytics 中，会始终跟踪访客，并计入所执行的每项操作。因此，如果访客进行了多次购买或多次访问了某个成功量度，则会计入这些额外的点击。这会使量度变为连续变量。要执行Welch的t检验计算，需要“平方和”来计算方差，该方差用在t统计量的分母中。 [本文档介绍了](/help/main/assets/statistical-calculations.pdf) 所用的数学公式。 平方和可从 [!DNL Analytics]. 要获取平方和数据，您需要导出样本时间段内要优化的量度在访客级别对应的数值。
+对于A4T，我们使用 [韦尔奇的T检验](https://en.wikipedia.org/wiki/Welch%27s_t-test)连续变量（而非二进制量度）的{target=_blank}计算。 在 Analytics 中，会始终跟踪访客，并计入所执行的每项操作。因此，如果访客进行了多次购买或多次访问了某个成功量度，则会计入这些额外的点击。这会使量度变为连续变量。要执行Welch的t检验计算，需要“平方和”来计算方差，该方差用在t统计量的分母中。 [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) 解释所用数学公式的详细信息。 平方和可从 [!DNL Analytics]. 要获取平方和数据，您需要导出样本时间段内要优化的量度在访客级别对应的数值。
 
 例如，如果您优化为每位访客的页面查看次数，那么您将导出一个特定时间段（可能是几天）内每位访客总页面查看次数的样本（您只需要几千个数据点）。 之后，您可以对每个值求平方，然后将总数相加（此处的运算顺序至关重要）。此“平方和”值随后可用在完整置信度计算器中。应在该电子表格的“收入”部分中使用这些值。
 

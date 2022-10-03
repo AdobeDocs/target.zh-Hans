@@ -4,7 +4,7 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '34593'
 ht-degree: 96%
@@ -428,7 +428,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 此版本包含以下增强功能、修复和更改：
 
 * 修复了一个问题，该问题阻止在 [!DNL Auto-Target] 报表中为[!UICONTROL “总计”]列显示[!UICONTROL “平均提升置信区间”]和[!UICONTROL “置信度”]。但可正确地显示所有个别体验的测量结果。(TGT-37301)
-* 修复了影响 [!DNL Adobe Target Premium] 用户 [!UICONTROL 自动定位] 9月15日下午2点30分起报道（太平洋夏令时）至10月6日上午九点二刻（太平洋夏令时）。 查看受影响转化量度的报表时(使用[!UICONTROL 已查看页面]&quot;或&quot;[!UICONTROL 点击了mbox]“选项”)，则转化率会被错误报告。 目前没有已知的投放问题。有关如何重新同步和纠正报表的信息，请在&#x200B;*已知问题和已解决的问题*&#x200B;中的&#x200B;*已解决的问题*&#x200B;下参阅[自动定位报表](/help/main/r-release-notes/known-issues-resolved-issues.md#at-metrics)。
+* 修复了影响 [!DNL Adobe Target Premium] 用户 [!UICONTROL 自动定位] 9月15日下午2点30分起报道（太平洋夏令时）至10月6日上午九点二刻（太平洋夏令时）。 在查看报表中（使用“[!UICONTROL 查看了某个页面]”或“[!UICONTROL 单击了 mbox]”选项配置的）受影响的转化指标时，所报告的转化率有误。目前没有已知的投放问题。有关如何重新同步和纠正报表的信息，请在&#x200B;*已知问题和已解决的问题*&#x200B;中的&#x200B;*已解决的问题*&#x200B;下参阅[自动定位报表](/help/main/r-release-notes/known-issues-resolved-issues.md#at-metrics)。
 * 在[!UICONTROL “目录搜索”]表中添加了一个可选的[!UICONTROL “上次更新时间”]列，并添加了一个[!UICONTROL “上次更新时间”]筛选条件。此增强可节省时间和精力，因为不必打开每个单独的项目以查看上次更新它的时间，并可按上次更新这些项目的日期进行筛选。
 
    ![“上次更新时间”列和筛选条件的插图](/help/main/r-release-notes/assets/column-and-filter.png)
@@ -2289,7 +2289,7 @@ target/r_release-notes-2018.xml
       <li id="li_0B634602BB044AEDB26DAF78189AB833"> <p>重新设计了报表用户界面。 </p> </li> 
       <li id="li_309435D10AE84E8795C4CCC1F36747F7"> <p>现在，Target 报表有一个选项，用于重置报表数据以删除旧数据。(TGT-5933) </p> </li> 
       <li id="li_9D30BFCC4CD6461B9DDCD5797A5E2B3A"> <p>报表的计数方法选项包括“访客数”（默认）、“访问次数”和“活动展示次数”。(TGT-10002) </p> </li> 
-     </ul> </p> <p>有关更多信息，请参阅<a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">报表设置</a>和<a href="/help/main/c-reports/conversion-rate.md#concept_EC19BC897D66411BABAF2FA27BCE89AA" format="dita" scope="local">计数方法</a>。 </p> <p>现在，为可下载的 CSV 报表提供了以下报表增强功能： </p> <p> 
+     </ul> </p> <p>有关更多信息，请参阅<a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">报表设置</a>和<a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">计数方法</a>。 </p> <p>现在，为可下载的 CSV 报表提供了以下报表增强功能： </p> <p> 
      <ul id="ul_18B0636A41B94F9F903ABFE3E13285DA"> 
       <li id="li_2422075AA0A34F868809C5D580FC5D4B"> <p>现在，选件级别的 CSV 报表包含每个选件的更多详细信息。(TGT-18995) </p> </li> 
       <li id="li_659D126E846348D4BE4544962F41539F"> <p>现在，下载的选件级别的 CSV 文件始终包含<span class="wintitle">自动个性化</span>报表的控制区段和目标区段中的数据。(TGT-22000) </p> </li> 
@@ -2955,7 +2955,7 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
   </tr> 
   <tr> 
    <td colname="col1"> 在 Target 报表中查看连续变量的“置信区间”(CI) </td> 
-   <td colname="col2"> <p>针对收入量度类型（RPV、AOV、销售额、订单量）和参与量度显示相应的“置信区间范围”。 </p> <p>例如，如果 RPV = 200.00 且 CI 范围 = 50.00，那么应该显示为 RPV: 200.00 +/- 50.00 </p> <p>此更改适用于 A/B、体验定位和多变量测试。 </p> <p>请参阅<a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local">置信水平别和置信区间</a>。 </p> </td> 
+   <td colname="col2"> <p>针对收入量度类型（RPV、AOV、销售额、订单量）和参与量度显示相应的“置信区间范围”。 </p> <p>例如，如果 RPV = 200.00 且 CI 范围 = 50.00，那么应该显示为 RPV: 200.00 +/- 50.00 </p> <p>此更改适用于 A/B、体验定位和多变量测试。 </p> <p>请参阅<a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">置信水平别和置信区间</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visual Experience Composer URL 规则增强 </td> 
@@ -3212,7 +3212,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> 二进制量度的置信区间 </td> 
-   <td colname="col2"> <p>与控件相比，使用基于 Target 的数据的更新报表会显示提升的置信区间。 </p> <p>请参阅<a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local">置信水平别和置信区间</a>。 </p> </td> 
+   <td colname="col2"> <p>与控件相比，使用基于 Target 的数据的更新报表会显示提升的置信区间。 </p> <p>请参阅<a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">置信水平别和置信区间</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 下载导出活动报表数据 </td> 

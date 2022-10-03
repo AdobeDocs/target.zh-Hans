@@ -4,10 +4,10 @@ description: 了解如何将Analytics用于 [!DNL Target] (A4T)。 通过A4T，�
 title: 如何在A4T中使用报表？
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 29%
+source-wordcount: '1300'
+ht-degree: 47%
 
 ---
 
@@ -75,8 +75,39 @@ When [!DNL Analytics] 用作报表源，报表位于 [!DNL Target] 显示从 [!D
 
 在活动创建期间，您必须在“[!UICONTROL 设置]”页面中指定活动的目标。此目标将作为报表的默认量度并且在量度选择器中始终列为第一个选项。您将无法像设置常规 Target 活动的报表那样选择报表的区段。测试 [!DNL Analytics] 使用 [!DNL Adobe Analytics] 区段而不是 [!DNL Target] 受众。
 
-## 为Analytics for Adobe Target(A4T)执行离线计算 {#section_33A97A691F3A45D497DAF57A844388F0}
+## 为Analytics for Adobe Target(A4T)执行离线计算 {#section_B34BD016C8274C97AC9564F426B9607E}
 
 您可以为 A4T 执行离线计算，但需要在 [!DNL Analytics] 中完成数据导出步骤。
 
-有关更多信息，请参阅[为 Analytics for Target (A4T) 执行离线计算](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)。
+对于A4T，我们使用 [韦尔奇的T检验](https://en.wikipedia.org/wiki/Welch%27s_t-test)连续变量（而非二进制量度）的{target=_blank}计算。 在 Analytics 中，会始终跟踪访客，并计入所执行的每项操作。因此，如果访客进行了多次购买或多次访问了某个成功量度，则会计入这些额外的点击。这会使量度变为连续变量。要执行Welch的t检验计算，需要“平方和”来计算方差，该方差用在t统计量的分母中。 [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) 解释所用数学公式的详细信息。 平方和可从 [!DNL Analytics]. 要获取平方和数据，您需要导出样本时间段内要优化的量度在访客级别对应的数值。
+
+例如，如果您优化为每位访客的页面查看次数，那么您将导出一个特定时间段（可能是几天）内每位访客总页面查看次数的样本（您只需要几千个数据点）。 之后，您可以对每个值求平方，然后将总数相加（此处的运算顺序至关重要）。此“平方和”值随后可用在完整置信度计算器中。应在该电子表格的“收入”部分中使用这些值。
+
+**使用 [!DNL Analytics] 数据导出功能执行此操作：**
+
+1. 登录到 [!DNL Adobe Analytics]。
+1. 单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]**。
+1. 在 **[!UICONTROL Data Warehouse 请求]**&#x200B;选项卡中，填写相应的字段。
+
+   有关各个字段的更多信息，请参阅 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html) 中的“Data Warehouse 请求描述”。
+
+   | 字段 | 说明 |
+   |--- |--- |
+   | 请求名称 | 指定请求的名称。 |
+   | 报告日期 | 指定时间段和时间粒度。<br>对于首次请求，最好选择不超过 1 小时或 1 天的数据。请求的时间段越长，Data Warehouse 文件处理的时间也就会越长，因此第一次最好请求较短时间段内的数据，以确保文件返回预期的结果。之后，转到“请求管理器”，复制您的请求，然后在第二次请求中请求更多的数据。此外，如果将粒度切换为“无”以外的任何内容，则文件大小将会急剧增加。<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
+   | 可用区段 | 根据需要应用区段。 |
+   | 划分 | 选择所需的维度：“标准”维度为开箱即用 (OOTB) 维度，而“自定义”维度包含 eVar 和 prop。如果需要访客ID级别信息，建议您使用“访客ID”，而不是“Experience Cloud访客ID”。<ul><li>访客 ID 是 Analytics 使用的最终 ID。访客 ID 将为 AID（如果客户是旧客户）或 MID（如果客户是新客户，或者清除了自 MC 访客 ID 服务启动以来的 Cookie）。</li><li>仅当客户是新客户，或者清除了自 MC 访客 ID 服务启动以来的 Cookie 时，才会为客户设置 Experience Cloud 访客 ID。</li></ul> |
+   | 量度 | 选择所需的量度。“标准”量度为开箱即用量度，而“自定义”量度包含自定义事件。 |
+   | 报表预览 | 在计划报表之前查看您的设置。<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
+   | 计划提交 | 输入要将文件提交到的电子邮件地址，为文件命名，然后选择[!UICONTROL 立即发送]。<br>注意：可通过[!UICONTROL 高级提交选项]<br>![计划提交](/help/main/c-reports/assets/datawarehouse3.png)下方的 FTP 来提交文件。 |
+
+1. 单击&#x200B;**[!UICONTROL 请求此报表]**。
+
+   根据请求的数据数量，文件提交最多可能需要 72 小时。您可以随时查看请求的进度，方法是单击“[!UICONTROL 工具]”>“[!UICONTROL Data Warehouse]”>“[!UICONTROL 请求管理器]”。
+
+   如果您希望重新请求过去请求的数据，则可以复制 [!UICONTROL 请求管理器] 根据需要。
+
+有关 [!DNL Data Warehouse] 的更多信息，请访问 [!DNL Analytics] 帮助文档中的以下链接：
+
+* [创建 Data Warehouse 请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [data warehouse最佳实践](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

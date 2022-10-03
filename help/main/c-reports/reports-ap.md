@@ -4,10 +4,10 @@ description: 了解如何解释Adobe Target中的Automated Personalization摘要
 title: 如何使用Automated Personalization摘要报表？
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 38%
+source-wordcount: '673'
+ht-degree: 37%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 38%
 
 ![活动级别的报表](/help/main/c-reports/assets/box_plot_ap.png)
 
-用于解释 A/B 测试结果的标准规则仍然适用，包括提升度、置信度、趋势、持续时间等。有关结果解释的更多信息，请参阅[关于转化率](/help/main/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)。
+用于解释 A/B 测试结果的标准规则仍然适用，包括提升度、置信度、趋势、持续时间等。有关结果解释的更多信息，请参阅 [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 选件级别报表 {#section_CAA6409879E349C6906E2BE8156D87A1}
 

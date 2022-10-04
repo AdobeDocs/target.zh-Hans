@@ -4,10 +4,10 @@ description: 了解如何在Adobe Target中配置报表设置，包括量度、�
 title: 如何配置报表设置？
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 68%
+source-wordcount: '1917'
+ht-degree: 67%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 68%
 1. 选择要编辑的预设。
 1. 根据需要编辑报表的配置（量度、日期范围、受众、高级设置等）。
 
-   在编辑报表的配置后单击“[!UICONTROL 保存]”，预设名称后面会显示一个星号 ( * )，表示预设已更改，如下所示：
+   在单击 [!UICONTROL 保存] 编辑报表的配置后，显示星号( &#42; )会在预设名称后显示，以表示预设已更改，如下所示：
 
    ![带有星号的报表预设](/help/main/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
@@ -167,7 +167,7 @@ ht-degree: 68%
 
 ![“下载”图标](/help/main/c-reports/c-report-settings/assets/download-icon.png)
 
-有关更多信息，请参阅[将数据下载到 CSV 文件](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)。
+有关更多信息，请参阅[将数据下载到 CSV 文件](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)。
 
 ## 刷新 {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -192,7 +192,7 @@ ht-degree: 68%
 
 报表包含一些数据点和可视化图表，有助于了解与您的活动相关的提升度范围和置信水平。这可帮助您更准确地确定入选者。
 
-有关更多信息，请参阅[平均提升度、提升度范围和置信区间](/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129)。
+有关更多信息，请参阅 [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 请考虑以下事项：
 

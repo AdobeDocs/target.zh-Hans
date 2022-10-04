@@ -4,7 +4,7 @@ description: 了解如何改善表现、避免发生问题以及纠正在 Adobe 
 title: 多变量测试的最佳实践是什么？
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 100%
@@ -45,8 +45,8 @@ ht-degree: 100%
 
 ## 分析 {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* 经常使用[位置贡献报表](/help/main/c-reports/location-contribution-report.md)来监测各个位置和各个选件的性能。
-* 在[体验性能报表](/help/main/c-reports/experience-performance-report.md)中，根据使用“5 个最佳”和“5 个最差”筛选器显示的数据做出决策。
+* 经常使用[位置贡献报表](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)来监测各个位置和各个选件的性能。
+* 在[体验性能报表](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)中，根据使用“5 个最佳”和“5 个最差”筛选器显示的数据做出决策。
 
    使用“[!UICONTROL 全部]”筛选器时，很难获得所需的信息，而且并非所有体验都会显示在图形中。如果您想要查看的特定体验不在最佳或最差的 5 个体验之中，则可以使用“[!UICONTROL 全部]”筛选器。
 

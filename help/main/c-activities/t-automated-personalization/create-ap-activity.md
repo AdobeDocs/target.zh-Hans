@@ -4,10 +4,10 @@ description: 了解如何创建 [!UICONTROL Automated Personalization] (AP) [!DN
 title: 如何创建 [!UICONTROL Automated Personalization] 活动？
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2048'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 91%
 
 1. （视情况而定）单击&#x200B;**[!UICONTROL 选件]**&#x200B;以选择内容片段并将其分配给报表组，或通过定位仅允许特定访客查看特定选件。
 
-   有关更多信息，请参阅[自动个性化中的选件报表组](/help/main/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C)。
+   有关更多信息，请参阅[自动个性化中的选件报表组](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)。
 
    使用[!UICONTROL 位置]列表可按位置筛选选件。使用[!UICONTROL 报表组]列表可按报表组筛选选件。您还可以使用“[!UICONTROL 报表组]”来筛选“[!UICONTROL 未分配选件]”，以便将某个报表组分配给当前未分配给任何报表组的选件。
 
@@ -121,7 +121,7 @@ ht-degree: 91%
    ![“流量分配目标”下拉列表](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
    * **评估个性化算法 (50/50)：**&#x200B;如果您的目标是测试算法，则可以在控制和目标算法之间按 50/50 的百分比拆分访客。这种拆分可让您对提升进行最精确的评估。建议将“随机体验”用作控制。
-   * **最大化个性化流量 (90/10)：**&#x200B;如果您的目标是创建“一直开启”的活动，则可以在控制中放入 10% 的访客，以确保算法有足够的数据来不断学习。请注意，这里做出的权衡是，为了对更大一部分的流量进行个性化，提升度的准确性将会降低。无论您的目标如何，在使用特定体验作为控制时，都建议按此比例拆分流量。
+   * **最大化个性化流量(90/10):** 如果您的目标是创建“一直开启”的活动，请将10%的访客置于控制中，以确保算法有足够的数据来不断学习。 请注意，这里做出的权衡是，为了对更大一部分的流量进行个性化，提升度的准确性将会降低。无论您的目标如何，在使用特定体验作为控制时，都建议按此比例拆分流量。
    * **自定义分配：**&#x200B;根据需要手动拆分百分比。
 
 1. （视情况而定）从“[!UICONTROL 控制]”下拉列表中，[选择要用作控制的特定体验](/help/main/c-activities/t-automated-personalization/experience-as-control.md)，或选择“[!UICONTROL 随机体验]”。
@@ -164,4 +164,4 @@ ht-degree: 91%
 
 单击&#x200B;**[!UICONTROL 创建]**&#x200B;后，将显示“活动摘要”。单击&#x200B;**预览体验**&#x200B;可预览体验在交付时的外观。您可以使用显示的弹出窗口在您的网站上查看 AP 体验和共享该体验的链接，以便在 Target 的可视化体验编辑器以外“真正预览”体验。您必须通过共享消息中的链接来共享预览。如果单击链接，然后直接从页面复制 URL，则不会起作用，因为 URL 包含只有在从消息中的链接访问页面时才会正确显示页面的参数。
 
-有关报表的信息，请参阅[自动个性化报表](/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A)。
+有关报表的信息，请参阅[自动个性化报表](/help/main/c-reports/personalization-reports/reports-ap.md)。

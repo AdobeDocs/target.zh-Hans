@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: afb2e988aebb1aa1795bf79cae100350af501952
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 98%
+source-wordcount: '1217'
+ht-degree: 97%
 
 ---
 
@@ -255,22 +255,23 @@ ht-degree: 98%
    + [报表概述](c-reports/reports.md)
    + 报表设置 {#settings}
       + [报表设置概述](c-reports/c-report-settings/report-settings.md)
-      + [平均提升度、提升度范围和置信区间](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [在报表中查看多个量度](c-reports/c-report-settings/view-multiple-metrics.md)
       + [排除极端值](c-reports/c-report-settings/excluding-extreme-orders.md)
+      + [将数据下载到 CSV 文件](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + 统计方法 {#statistical-methodology}
       + [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + [自动定位摘要报表](c-reports/auto-target-summary-report.md)
-   + [Automated Personalization 摘要报表](c-reports/reports-ap.md)
+   + 个性化报表 {#personalization-reports}
+      + [自动定位摘要报表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
+      + [Automated Personalization 摘要报表](/help/main/c-reports/personalization-reports/reports-ap.md)
+      + [Automated Personalization 中的选件报表组](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)
    + 个性化见解报表 {#insights}
       + [个性化见解报表概述](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [自动化区段报表](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [重要属性报表](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + [Automated Personalization 中的选件报表组](c-reports/offer-reporting-groups-in-automated-personalization.md)
-   + [体验性能报表 (MVT)](c-reports/experience-performance-report.md)
-   + [位置贡献报表 (MVT)](c-reports/location-contribution-report.md)
+   + 多变量测试报表 {#multivariate-test-reports}
+      + [体验性能报表 (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
+      + [位置贡献报表 (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Analytics for Target (A4T) 报表](c-reports/analytics-for-target-a4t-reporting.md)
-   + [将数据下载到 CSV 文件](c-reports/downloading-data-in-csv-file.md)
    + [报表常见问题解答](c-reports/reporting-frequently-asked-questions.md)
 + 推荐 {#recommendations}
    + [推荐概述](c-recommendations/recommendations.md)

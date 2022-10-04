@@ -4,10 +4,10 @@ description: 查看可帮助您解决 Adobe Target 中各种问题的主题的�
 title: 如何为 Target 排除故障？
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 86%
 
 * [Automated Personalization 常见问题解答](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Automated Personalization 疑难解答](/help/main/c-activities/t-automated-personalization/ap-trouble.md)
-* [Automated Personalization 摘要报表](/help/main/c-reports/reports-ap.md)
+* [Automated Personalization 摘要报表](/help/main/c-reports/personalization-reports/reports-ap.md)
 * [个性化见解报表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### 多变量测试 (MVT)

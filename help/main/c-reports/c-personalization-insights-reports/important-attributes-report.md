@@ -4,10 +4,10 @@ description: 了解如何使用 [!UICONTROL 重要属性] 此报表显示影响�
 title: 什么是重要属性报表？
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 83%
 
 1. 单击&#x200B;**[!UICONTROL 报表]**。
 
-   的 [Automated Personalization摘要](/help/main/c-reports/reports-ap.md) 或 [自动定位摘要](/help/main/c-reports/auto-target-summary-report.md) 报表会显示，其中提供了有关活动性能的信息，由第一个屏幕图标表示。 另外两个图标代表这两个 [!UICONTROL 个性化分析] 报表： [!UICONTROL 自动化区段] 和 [!UICONTROL 重要属性].
+   的 [Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md) 或 [自动定位摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 报表会显示，其中提供了有关活动性能的信息，由第一个屏幕图标表示。 另外两个图标代表这两个 [!UICONTROL 个性化分析] 报表： [!UICONTROL 自动化区段] 和 [!UICONTROL 重要属性].
 
-   ![Automated Personalization活动的摘要报表](assets/summary-report-ap.png)
+   ![Automated Personalization活动的摘要报表](/help/main/c-reports/assets/summary-report-ap.png)
 
    请注意 [!UICONTROL 自动定位] 还有一个图形图标，用于 [!UICONTROL 概要] 报表。
 
-   ![自动定位活动的摘要报表](assets/personalization_insights.png)
+   ![自动定位活动的摘要报表](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -54,7 +54,7 @@ ht-degree: 83%
 
 1. 激活活动15天后，单击 **[!UICONTROL 重要属性]** 图标。
 
-   ![](assets/model_attribute_ranking.png)
+   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. 选择所需的日期范围。
 
@@ -66,16 +66,15 @@ ht-degree: 83%
 
    通过这些固定日期范围，“[!UICONTROL 个性化分析]”可以使用足够多的数据来降低您从活动中的短生存期模式获取分析的可能性。您可以决定日期范围的“结束日期”和“持续时间”。您会注意到“开始”显示为灰色。开始日期会根据您选择的结束日期和持续时间自动进行更改。
 
-   ![](assets/personalization_insights_calendar_1.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    您可以从“[!UICONTROL 选择持续时间]”下拉列表中访问可用的固定日期范围。
 
-   ![](assets/personalization_insights_calendar_2.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. 查看“[!UICONTROL 重要属性]”报表数据。
 
-   ![](assets/model_attribute_ranking_report.png)
-
+   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. （可选）[以 CSV 格式下载报表](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)，以便在 Excel 和其他工具中进行分析。
 
@@ -118,7 +117,7 @@ ht-degree: 83%
 
 **个性化分析是如何创建的？**
 
-[!UICONTROL 个性化分析是采用名为 MAGIX（与模型无关的全局可理解解释）的 Adobe 技术创建的，该技术正在申请专利。]您可以在 [arXiv.org 网站](https://arxiv.org/abs/1706.07160)上 Adobe 研究团队发表的论文中了解有关 MAGIX 的更多信息。
+[!UICONTROL 个性化分析是采用名为 MAGIX（与模型无关的全局可理解解释）的 Adobe 技术创建的，该技术正在申请专利。]您可以在Adobe研究团队发表的关于 [arXiv.org网站](https://arxiv.org/abs/1706.07160).
 
 **个性化分析是否可用于基于收入的建模目标/主要目标？**
 
@@ -136,7 +135,7 @@ ht-degree: 83%
 * 存在容量较低的活动，在这些活动中某些选件或体验没有构建模型。
 * 存在容量较低的活动，在这些活动中一些选件/体验的模型构建速度快于其他选件/体验。例如，假设附加模型是在第 22 天构建的，而您查看的是第 10 天至第 24 天的数据。
 * 针对特定选件的定位规则限制了哪些访客可以查看哪些选件/体验。
-* 分析报表中没有置信区间。但是，如果转化率足够接近，则模型可能会提供流量，以便提高点数，但这些数字并不具有“统计学差异”。
+* 分析报表中没有置信区间。但是，如果转化率足够接近，则模型可能会提供流量，以便点数更高，但这些数字并不“具有统计学差异”。
 
 了解模型如何提供流量很有用。系统会根据每个人的总体配置文件为其提供流量。但是，分析报表对此行为进行了归纳，以便于人们理解。因此，区段间并不互相排斥。这会导致多个区段展示此类行为，因为同一个人可以出现在多个区段中。
 

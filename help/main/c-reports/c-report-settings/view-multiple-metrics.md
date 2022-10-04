@@ -4,7 +4,7 @@ description: 了解如何使用Adobe Target选择要在报表中查看的多个�
 title: 如何在报表中查看多个量度？
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 59%
@@ -19,7 +19,7 @@ ht-degree: 59%
 
 * 可以查看多个量度 [A/B测试](/help/main/c-activities/t-test-ab/test-ab.md), [自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)和 [体验定位](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动。
 * 对于使用 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。 您可以向报表中添加活动中所有数量的量度，以便添加已执行此操作的活动 *not* 使用A4T。
-* 如果您选择了多个量度，则将无法使用“[](/help/main/c-reports/downloading-data-in-csv-file.md)下载”选项将报表下载到 CSV 文件中。要启用“[!UICONTROL 下载]”选项，您必须只选择一个量度。
+* 如果您选择了多个量度，则将无法使用“[](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)下载”选项将报表下载到 CSV 文件中。要启用“[!UICONTROL 下载]”选项，您必须只选择一个量度。
 * 您无法查看2015年7月之前创建的活动的多个量度 [!DNL Target] 版本（2015年7月30日）。
 
 **选择要在报表中显示的多个量度：**

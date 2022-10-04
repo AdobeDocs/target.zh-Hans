@@ -4,7 +4,7 @@ description: 浏览关于使用 Adobe Target 中各项功能的常见问题的�
 title: 可在何处找到优化和个性化问题的答案？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 96%
@@ -166,7 +166,7 @@ ht-degree: 96%
 
 **我已经厌烦了当我尝试在可视化体验编辑器 (VEC) 中加载我的页面时，一直看到“允许您的浏览器加载脚本”消息。怎样才能让我不再看到这条消息？**
 
-这是因为您的网站具有混合内容，即网站从 HTTP 和 HTTPS 两种资源提取内容。请让您的 IT 团队将网站内容全部移到 HTTPS。
+这是因为您的站点包含混合内容，即一个同时获取HTTP和HTTPS资源的站点。 请让您的 IT 团队将网站内容全部移到 HTTPS。
 
 在此之前，请按照[在浏览器中启用混合内容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的说明来允许浏览器加载混合内容。这是目前大多数浏览器采用的一种安全功能。
 
@@ -279,7 +279,7 @@ ht-degree: 96%
 
 **我是否可以执行离线报表计算？**
 
-使用“报表”页面上的[“将报表导出为 CSV”和“将订单详细信息下载到 CSV”选项](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)，即可下载所需的报表数据。
+使用“报表”页面上的[“将报表导出为 CSV”和“将订单详细信息下载到 CSV”选项](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)，即可下载所需的报表数据。
 
 **我是否可以更改用于评估报表的控制体验？或者将计数方法从“访客”更改为“访问次数”？**
 
@@ -315,4 +315,4 @@ ht-degree: 96%
 
 **我在哪里可以了解有关 Target API 的更多信息？**
 
-我们提供了关于 API 的详尽文档。请参阅 [交付API、NodeJS SDK和Recommendations API文档](https://developer.adobe.com/target/implement/server-side/){target=_blank}。
+我们提供了关于 API 的详尽文档。请参阅 [交付API、NodeJS SDK和Recommendations API文档](https://developer.adobe.com/target/实施/服务器端/){target=_blank}。

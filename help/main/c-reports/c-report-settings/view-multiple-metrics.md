@@ -4,10 +4,10 @@ description: 了解如何使用Adobe Target选择要在报表中查看的多个�
 title: 如何在报表中查看多个量度？
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 59%
+source-wordcount: '444'
+ht-degree: 58%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 59%
 1. 要显示报表，请单击&#x200B;**[!UICONTROL 活动]**，从列表中单击所需的活动，然后单击&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡。
 1. 单击&#x200B;**[!UICONTROL 报表量度]**&#x200B;下拉列表，以显示“[!UICONTROL 显示的量度]”和“[!UICONTROL 隐藏的量度]”列表。
 
-   ![](assets/multiple_metrics.png)
+   ![multiple_metrics图像](assets/multiple_metrics.png)
 
    您可以使用“[!UICONTROL 搜索]”框快速查找可用量度，以将其添加到“[!UICONTROL 显示的量度]”列表中。
 
@@ -46,10 +46,10 @@ ht-degree: 59%
 1. 完成后单击&#x200B;**[!UICONTROL 保存]**。
 1. （视情况而定）在 [!UICONTROL 表视图]，将鼠标指针悬停在任何量度的列标题上可显示蓝色箭头。 单击该箭头可展开表格，以便显示该量度的[!UICONTROL 提升度]和[!UICONTROL 置信度]。
 
-   ![](assets/multiple_metrics_table.png)
+   ![multiple_metrics_table图像](assets/multiple_metrics_table.png)
 
    您一次只能展开一个量度/列。再次单击该箭头可折叠列。
 
 1. （视情况而定）在“图形视图”中查看报表时，您可以从下拉列表中选择要显示的单个量度：
 
-   ![](assets/multiple_metrics_graph.png)
+   ![multiple_metrics_graph图像](assets/multiple_metrics_graph.png)

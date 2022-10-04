@@ -4,9 +4,9 @@ description: 了解如何在Adobe中使用Multivariate Testing(MVT) [!DNL Target
 title: 什么是多变量测试？
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1462'
 ht-degree: 84%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 84%
 
 在 Target 中，每个组合都是一个体验。多变量测试会比较每个体验，这样您可以了解哪些组合是最成功的。同时，系统会收集和分析数据以了解每个位置和选件对成功量度的影响如何。
 
-![](assets/multivariate.png)
+![多变量图像](assets/multivariate.png)
 
 由于可能生成大量的组合，因此多变量测试需要的时间和流量多于 A/B 测试。页面必须获得足够的流量才能为每个体验产生具有统计意义的结果。要获得有用的结果，您需要了解页面接收的流量，并在适当的一段时间内测试最佳组合数以获得所需结果。Target 的[流量估算器](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)可以帮助您设计适用于您的流量的测试。在使用流量估算器之前，您应已拥有合适的统计数据，该数据可显示您的网站通常会收到的展示次数和转化次数。思考一下您每天的流量级别。活动中的体验越多，活动需要包含的流量就越多，或者活动需要运行的时间就越长。如果您获得的流量不多，则应减少测试的组合数量；否则，产生有意义的测试结果所需的时间可能会过长而导致结果无用。
 

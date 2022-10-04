@@ -4,10 +4,10 @@ description: 了解如何定义受众以比较两个配置文件属性。
 title: 我是否可以比较在受众中使用的两个配置文件属性？
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 58%
+source-wordcount: '431'
+ht-degree: 59%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 58%
 
 1. 选择要与初始属性进行比较的其他属性。
 
-   ![](assets/propensity_score_4.png)
+   ![prodiate_score_4图像](assets/propensity_score_4.png)
 
 1. 单击&#x200B;**[!UICONTROL 完成]**。
 

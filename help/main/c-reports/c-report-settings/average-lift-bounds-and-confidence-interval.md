@@ -4,10 +4,10 @@ description: 了解如何解释Adobe [!DNL Target] 报表，包括数据点和�
 title: 如何查看平均提升度、提升度范围和置信区间？
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 62%
+source-wordcount: '911'
+ht-degree: 60%
 
 ---
 
@@ -57,18 +57,18 @@ ht-degree: 62%
 
 可使用下列公式计算提升度范围：
 
-![](assets/lift_diagram.png)
+![lift_diagram图像](assets/lift_diagram.png)
 
 还需要额外进行一些计算，才能得出计算提升度范围所需的输入值：
 
 * **t 值：** 95% 置信水平对应的统计量临界值为 1.96。您可以在此处了解更多有关 [t 值](https://en.wikipedia.org/wiki/T-statistic)的信息。
 * **提升度方差：**&#x200B;需要知道体验 N 成功量度的标准误差和控制体验成功量度的标准误差，才能确定提升度方差；可使用下列公式计算此值（下列公式中的成功量度为转化）。
 
-   ![](assets/lift_variance.png)
+   ![lift_variance图像](assets/lift_variance.png)
 
 * **转化率/成功量度标准误差：**&#x200B;可使用下列公式以同样的方式计算体验 N 和控制体验的标准误差（下列公式中的成功量度为转化）。您可以在此处了解更多有关[标准误差](https://en.wikipedia.org/wiki/Standard_error)的信息。
 
-   ![](assets/standard_error.png)
+   ![standard_error图像](assets/standard_error.png)
 
    >[!NOTE]
    >
@@ -87,25 +87,25 @@ ht-degree: 62%
 
 **体验 A（控制）的标准误差**
 
-![](assets/standard_error_A.png)
+![standard_error_A图像](assets/standard_error_A.png)
 
 **体验 B 的标准误差**
 
-![](assets/standard_error_B.png)
+![standard_error_B图像](assets/standard_error_B.png)
 
 **体验 B 的提升度方差**
 
-![](assets/lift_variance_B.png)
+![lift_variance_B图像](assets/lift_variance_B.png)
 
 **体验 B 的提升度范围**
 
 体验 B 的预期提升度为：
 
-![](assets/lift_bounds_B.png)
+![lift_bounds_B图像](assets/lift_bounds_B.png)
 
 因此，体验 B 的提升度范围为：
 
-![](assets/lift_bounds_B2.png)
+![lift_bounds_B2图像](assets/lift_bounds_B2.png)
 
 >[!NOTE]
 >

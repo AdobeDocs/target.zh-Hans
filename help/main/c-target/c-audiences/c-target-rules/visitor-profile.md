@@ -4,10 +4,10 @@ description: 了解如何在 [!DNL Adobe Target] 以定位满足特定配置文�
 title: 我是否可以定位满足特定配置文件参数的访客？
 feature: Audiences
 exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 47%
+source-wordcount: '251'
+ht-degree: 46%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 47%
 
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
-   ![](assets/target_visitor_profile.png)
+   ![target_visitor_profile图像](assets/target_visitor_profile.png)
 
    访客配置文件参数通过 mbox（配置文件）进行传递。您可以定位新访客或回访访客，也可以包含所有用户。
 

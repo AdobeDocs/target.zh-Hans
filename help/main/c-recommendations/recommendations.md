@@ -4,10 +4,10 @@ description: 了解 Adobe [!DNL Target] 中的“推荐”活动，这些活动�
 title: ' [!DNL Target] 推荐是什么？'
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 100%
+source-wordcount: '931'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 下图显示了某个网页上的推荐：
 
-![](assets/velocity_example.png)
+![velocity_example图像](assets/velocity_example.png)
 
 推荐根据访客在网站上的活动，决定如何将产品推荐给该访客。例如：
 

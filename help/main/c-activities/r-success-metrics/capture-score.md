@@ -4,9 +4,9 @@ description: 了解Adobe中的“捕捉分数”参与量度 [!DNL Target] 它�
 title: 什么是捕捉分数量度？
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '769'
 ht-degree: 48%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 48%
 
 下面的例子显示了在对两个体验（一个包含猫的图像，一个包含狗的图像）进行测试的营销活动中，如何计算分数参与量度。
 
-![](assets/example_score.png)
+![example_score图像](assets/example_score.png)
 
 在这个例子中，第一个访客选择了包含猫图像的体验。假设全局 [!DNL Target] 请求会根据页面的值在页面得分中传递。 如果营销人员已在与关联的成功量度上捕捉到页面计数参与度 `**any Target request**`，则对于在猫图像周围的显示请求之后看到的任何请求，都会累积访问分数。
 
@@ -25,7 +25,7 @@ ht-degree: 48%
 
 通过 adbox 和重定向器，您可以考虑购置成本和联属链接收入，详见下述页流程图中的描述。请注意，在本例中， [!DNL Target] 文章页面上的请求传递了一个分数，可能表示已知的CPM。
 
-![](assets/example_score2.png)
+![example_score2图像](assets/example_score2.png)
 
 ## 分配页面分数
 

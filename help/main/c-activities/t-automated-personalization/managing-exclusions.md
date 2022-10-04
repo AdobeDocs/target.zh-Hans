@@ -5,10 +5,10 @@ title: 如何管理Automated Personalization活动中的排除项？
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 90%
+source-wordcount: '1001'
+ht-degree: 88%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 90%
 
    您可以在“[!UICONTROL 管理内容]”下方看到使用指定的选件创建的体验。您会注意到，“[!UICONTROL 管理内容]”中不存在使用已排除的默认选件创建的任何体验。
 
-   ![](assets/exclude_content_vec_4.png)
+   ![exclude_content_vec_4图像](assets/exclude_content_vec_4.png)
 
 **使用基于表单的体验编辑器排除默认内容：**
 
@@ -130,14 +130,14 @@ ht-degree: 90%
 
    对于文本/HTML 内容：
 
-   ![](assets/exclude_content_form_1.png)
+   ![exclude_content_form_1图像](assets/exclude_content_form_1.png)
 
    对于图像/视频内容：
 
-   ![](assets/exclude_content_form_2.png)
+   ![exclude_content_form_2图像](assets/exclude_content_form_2.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    您可以在“[!UICONTROL 管理内容]”下方看到使用指定的选件创建的体验。您会注意到，“[!UICONTROL 管理内容]”中不存在使用已排除的默认选件创建的任何体验。
 
-   ![](assets/exclude_content_form_3.png)
+   ![exclude_content_form_3图像](assets/exclude_content_form_3.png)

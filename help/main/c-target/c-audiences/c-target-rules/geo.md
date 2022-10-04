@@ -5,10 +5,10 @@ title: 我是否可以根据位置定位访客？
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 49%
+source-wordcount: '990'
+ht-degree: 50%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 49%
 
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
-   * [!UICONTROL 国家/地区]
+   * [!UICONTROL 国家/区域]
    * [!UICONTROL 省/自治区/直辖市]
    * [!UICONTROL 城市]
    * [!UICONTROL 邮政编码]
@@ -45,7 +45,7 @@ ht-degree: 49%
 
 下图展示了一个受众，它定位的是从纬度大于44°和经度小于22°访问活动的用户。
 
-![](assets/target_geo.png)
+![target_geo图像](assets/target_geo.png)
 
 ## 精准度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 

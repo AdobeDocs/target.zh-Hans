@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '34593'
+source-wordcount: '34597'
 ht-degree: 96%
 
 ---
@@ -2195,7 +2195,7 @@ target/r_release-notes-2018.xml
 * 更新了 [!DNL Target] 用户界面，以支持在将 [!UICONTROL Analytics for Target] (A4T) 用作报表源的活动中使用重定向选件。此功能需要 [!DNL at.js] 0.9.6，该版本不久将会推出。
 * 更新了 [!DNL Target] 用户界面中的以下几处位置：
 
-   * 在报表和活动中，有些选项（“[!UICONTROL 编辑]”、“[!UICONTROL 共享到信息源]”、“[!UICONTROL 查看体验 URL]”等）现在可以通过单击[!UICONTROL 更多选项]图标 (![](assets/icon_more_options.png)
+   * 在报表和活动中，有些选项（“[!UICONTROL 编辑]”、“[!UICONTROL 共享到信息源]”、“[!UICONTROL 查看体验 URL]”等）现在可以通过单击[!UICONTROL 更多选项]图标 (![icon_more_options图像](assets/icon_more_options.png)
 
       ) 来访问。
    * 现在，在[!UICONTROL 选件]库中，选件以列表而非卡片形式显示。此外，还在整个[!UICONTROL 选件]库 UI 中进行了其他一些微小的 UI 更改。

@@ -4,9 +4,9 @@ description: 浏览关于使用 Adobe Target 中各项功能的常见问题的�
 title: 可在何处找到优化和个性化问题的答案？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2800'
 ht-degree: 96%
 
 ---
@@ -212,13 +212,13 @@ ht-degree: 96%
 
 使用编辑和浏览功能，导航至所选页面并开始创建您的体验。
 
-![](assets/vec2.png)
+![vec2图像](assets/vec2.png)
 
 **我如何才能转到在 Target 三步引导式工作流步骤 2（“定位”页面）中所选择的体验？**
 
 单击步骤 2 中的体验名称前面的缩略图，便可来到您选择的体验。
 
-![](assets/thumbnail_experiences.png)
+![thumbnail_experiences图像](assets/thumbnail_experiences.png)
 
 **我是一名前 Target Classic 用户。我是否可以在某些用例中使用我的 mbox？**
 

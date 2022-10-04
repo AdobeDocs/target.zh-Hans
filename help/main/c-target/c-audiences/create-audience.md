@@ -4,9 +4,9 @@ description: 了解如何创建自定义受众并将它们保存到 [!DNL Adobe 
 title: 如何构建受众？
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '521'
 ht-degree: 61%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 61%
 
 1. 单击顶部菜单栏中的&#x200B;**[!UICONTROL 受众]**。
 
-   ![](assets/audiences_list.png)
+   ![audiences_list图像](assets/audiences_list.png)
 
 1. 从 [!UICONTROL 受众] 列表，单击 **[!UICONTROL 创建受众]**.
 
@@ -66,7 +66,7 @@ ht-degree: 61%
 
    新创建的受众需经过几秒钟的处理后才会显示在列表中。如果受众未立即显示在列表中，请尝试搜索该受众或刷新列表。
 
-## 培训视频：创建受众 ![概述徽章](/help/main/assets/overview.png)
+## 培训视频：创建受众 ![“概述”标记](/help/main/assets/overview.png)
 
 以下视频包含有关创建受众的信息。
 

@@ -4,9 +4,9 @@ description: 了解如何使用Recommendations目录搜索来查找产品或内�
 title: 如何使用Recommendations目录搜索？
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1041'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 22%
 
 1. （可选）您可以优化搜索，方法是在单击搜索字段中的向下箭头时，从显示的选项菜单中选择搜索选项。
 
-   ![](assets/searchproductsmenu.png)
+   ![searchproducts菜单图像](assets/searchproductsmenu.png)
 
    搜索选项包括：
 

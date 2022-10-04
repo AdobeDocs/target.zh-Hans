@@ -4,10 +4,10 @@ description: 了解如何在Adobe中创建多页面活动 [!DNL Target] 允许�
 title: 如何创建多页面活动？
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 85%
+source-wordcount: '383'
+ht-degree: 84%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 85%
 
    屏幕左侧会显示一个导航栏。
 
-   ![](assets/multipage_nav.png)
+   ![multipage_nav图像](assets/multipage_nav.png)
 
 1. 使用该导航栏指定页面并设置默认页面。
 
@@ -40,7 +40,7 @@ ht-degree: 85%
 
    单击三个垂直省略号图标可显示“操作”菜单：
 
-   ![](assets/multipage_menu.png)
+   ![多页面菜单图像](assets/multipage_menu.png)
 
    可使用此菜单重命名页面、在多页面活动中执行重定向测试，或删除页面。
 

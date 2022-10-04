@@ -4,9 +4,9 @@ description: 了解如何在Adobe中创建JSON选件 [!DNL Target] ，以在基�
 title: 如何创建JSON选件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 38%
 
 ---
@@ -36,7 +36,7 @@ JSON选件可用于基于表单的活动，在这些活动中，可启用 [!DNL 
 
 1. 单击&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL JSON 选件]**。
 
-   ![](assets/offer-json.png)
+   ![offer-json图像](assets/offer-json.png)
 
 1. 键入选件名称。
 1. 在&#x200B;**[!UICONTROL 代码]**&#x200B;框中键入或粘贴您的 JSON 代码。
@@ -137,7 +137,7 @@ adobe.target.getOffer({
 
 示例用例：作为在线营销人员，Grace希望AEP/统一配置文件与Target共享属性值，以便提供实时个性化。 通过使用实时CDP配置文件属性，Grace可以使用令牌替换在Target选件中显示AEP属性的值。 例如，她可以使用 `${aep.profile.favoriteColor}`，或者使用令牌的忠诚度等级和忠诚度点值 `${aep.loyalty.tier}` 和 `${aep.loyalty.points}`.
 
-![](assets/offer-json-aep-shared-attribute.png)
+![offer-json-aep-shared-attribute图像](assets/offer-json-aep-shared-attribute.png)
 
 在上面显示的示例中，请注意，分配默认值是可选的。
 
@@ -145,4 +145,4 @@ adobe.target.getOffer({
 
 您可以过滤 [!UICONTROL 选件] 库(通过单击 **[!UICONTROL 类型]** 下拉列表中，然后选择 **[!UICONTROL JSON]** 复选框。
 
-![](assets/offer-json-filter.png)
+![offer-json-filter图像](assets/offer-json-filter.png)

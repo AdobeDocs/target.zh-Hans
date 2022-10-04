@@ -4,10 +4,10 @@ description: 了解如何对Adobe中有时出现的问题进行故障诊断 [!DN
 title: 如何对与可视化体验编辑器和增强型体验编辑器有关的问题进行故障诊断？
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 52%
+source-wordcount: '1427'
+ht-degree: 51%
 
 ---
 
@@ -90,11 +90,11 @@ ht-degree: 52%
 >
 >除了以下信息外，您还可以使用适用于 Google Chrome 的 [Adobe Target VEC 助手浏览器扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
-![](assets/cps_headers.png)
+![cps_headers图像](assets/cps_headers.png)
 
 作为解决方法，您可以配置 Requestly 规则以删除 CSP 标头，如下所示：
 
-![](assets/cps_headers_2.png)
+![cps_headers_2图像](assets/cps_headers_2.png)
 
 您可以为导致资源无法在 VEC 中加载的任何标头配置类似的 Requestly 规则。
 

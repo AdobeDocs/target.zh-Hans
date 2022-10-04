@@ -4,9 +4,9 @@ description: 了解如何在Adobe中使用可视化体验编辑器(VEC) [!DNL Ta
 title: 如何创建多变量测试？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '570'
 ht-degree: 87%
 
 ---
@@ -88,11 +88,11 @@ ht-degree: 87%
 
    下图指示活动流量不足。
 
-   ![](assets/estimator.png)
+   ![估计图像](assets/estimator.png)
 
    下图指示活动流量不足。
 
-   ![](assets/estimator2.png)
+   ![估算器2图像](assets/estimator2.png)
 
 1. 单击 **[!UICONTROL 下一个]** 向 [!UICONTROL 定位] 页面。
 

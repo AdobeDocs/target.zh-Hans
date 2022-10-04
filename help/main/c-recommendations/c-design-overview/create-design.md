@@ -4,9 +4,9 @@ description: 了解如何创建Adobe [!DNL Target] Recommendations设计（使�
 title: 如何在Recommendations中创建设计？
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1029'
 ht-degree: 30%
 
 ---
@@ -46,11 +46,11 @@ ht-degree: 30%
 
 1. 将鼠标悬停在要创建的设计的卡片上，然后单击 **[!UICONTROL 复制]** 图标。
 
-   ![](assets/Card_CopyDesign.png)
+   ![Card_CopyDesign图像](assets/Card_CopyDesign.png)
 
    的 [!UICONTROL 创建设计] 对话框。
 
-   ![](assets/createDesign.png)
+   ![createDesign图像](assets/createDesign.png)
 
 1. 在 **[!UICONTROL 信息]** 面板，添加 **[!UICONTROL 内容名称]** 和要在设计卡片上显示的可选预览图像。
 
@@ -104,7 +104,7 @@ ht-degree: 30%
 
 1. 确保已关闭“HTML 设计”选项：
 
-   ![](assets/html_design_toggle.png)
+   ![html_design_toggle图像](assets/html_design_toggle.png)
 
 1. 以下代码是可粘贴到设计中的示例：
 
@@ -169,7 +169,7 @@ ht-degree: 30%
 
 在运行算法并获取结果后，您的响应应当类似于以下示例：
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![json_recommendation图像](assets/json_recommendation.png){width=&quot;575px&quot;}
 
 ## 其他JSON对象提示和技巧 {#section_C305673C68944749969DB239E3221DC2}
 

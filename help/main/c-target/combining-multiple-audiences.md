@@ -4,9 +4,9 @@ description: 了解如何合并多个受众(包括Adobe Experience Cloud受众�
 title: 我是否可以合并多个受众以创建新受众？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '960'
 ht-degree: 64%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 64%
 
       例如，假设您现在想要将 Safari 用户添加到上一示例的组合受众中。为此，可搜索“Safari 浏览器”受众，并将其拖到右侧的“Firefox 浏览器”框中，如以下示例所示：
 
-      ![](assets/combine_multiple_audiences3.png)
+      ![combine_multiple_audiences3图像](assets/combine_multiple_audiences3.png)
 
       请注意，这两个基于浏览器类型的受众之间使用的运算符为“与”。选择 [!UICONTROL 和] 下拉列表，并将其更改为“或”，以便为使用Firefox或Safari的新访客创建新的组合受众。 务必要避免创建会将所有潜在受众成员都排除在外的规则。例如，某个人不可能同时使用 Firefox 和 Safari 访问页面。
 
@@ -65,7 +65,7 @@ ht-degree: 64%
 
    1. 要向规则添加排除项，请单击 **[!UICONTROL 排除]**.
 
-      ![](assets/combine_multiple_audiences3a.png)
+      ![combine_multiple_audiences3a图像](assets/combine_multiple_audiences3a.png)
 
       拖放受众。
 
@@ -86,12 +86,12 @@ ht-degree: 64%
 1. 编辑或创建[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上选择&#x200B;**[!UICONTROL 转化]**&#x200B;作为成功量度，然后选择已查看 Mbox **[!UICONTROL 作为操作。]**
 1. 在&#x200B;**[!UICONTROL 搜索 mbox]** 字段中选择所需的 mbox。
 
-   ![](assets/combine_multiple_audiences4.png)
+   ![combine_multiple_audiences4图像](assets/combine_multiple_audiences4.png)
 
 1. 单击齿轮图标，然后单击&#x200B;**[!UICONTROL 添加受众定位]**。
 1. 单击&#x200B;**[!UICONTROL 添加受众/定位条件]**&#x200B;链接，以显示“[!UICONTROL 选择受众]”对话框。
 
-   ![](assets/combine_multiple_audiences5.png)
+   ![combine_multiple_audiences5图像](assets/combine_multiple_audiences5.png)
 
 1. 执行“创建活动时创建组合受众”中的[步骤 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以创建组合受众。
 
@@ -101,7 +101,7 @@ ht-degree: 64%
 
 1. 编辑或创建[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上单击&#x200B;**[!UICONTROL 报表的受众]**&#x200B;下方的“[!UICONTROL 添加受众]”图标，以显示“[!UICONTROL 选择受众]”页面。
 
-   ![](assets/combine_multiple_audiences6.png)
+   ![combine_multiple_audiences6图像](assets/combine_multiple_audiences6.png)
 
 1. 执行“创建活动时创建组合受众”中的[步骤 2](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)，以创建组合受众。
 

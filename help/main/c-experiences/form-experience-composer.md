@@ -4,10 +4,10 @@ description: 了解如何使用Adobe [!DNL Target] 基于表单的体验编辑�
 title: 如何使用基于表单的体验编辑器？
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 46%
+source-wordcount: '871'
+ht-degree: 45%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 46%
 
    的 [!UICONTROL 基于表单的体验编辑器] 打开。
 
-   ![](assets/location_refinements.png)
+   ![location_refinements图像](assets/location_refinements.png)
 
    如果您创建的是 [!UICONTROL Recommendations] 活动。 [!UICONTROL “推荐”活动不包含体验。]
 
@@ -46,13 +46,13 @@ ht-degree: 46%
 
 1. 单击 **[!UICONTROL 添加受众细化]**，选择一个或多个 [受众](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) 对于此活动，单击 **[!UICONTROL 完成]**.
 
-   ![](assets/location_refinements_2.png)
+   ![location_refinements_2图像](assets/location_refinements_2.png)
 
    在 [!UICONTROL 基于表单的体验编辑器]，则细化已被替换为完整的受众功能。 现有活动的细化已迁移至 [仅限该活动的受众](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. 选择要在该位置中显示的内容类型。
 
-   ![](assets/form_content.png)
+   ![form_content图像](assets/form_content.png)
 
 1. 为选定的内容类型指定内容。
 
@@ -96,11 +96,11 @@ ht-degree: 46%
 
    在基于表单的体验编辑器中选择推荐标准时，现在有一个指向所选标准卡片的直接链接，以便您快速方便地对标准进行编辑。
 
-   ![](assets/change_criteria.png)
+   ![change_criteria图像](assets/change_criteria.png)
 
    从 Target 三步引导式工作流的“定位”页面中：
 
-   ![](assets/change_criteria_2.png)
+   ![change_criteria_2图像](assets/change_criteria_2.png)
 
    **添加选件决策：**
 

@@ -4,10 +4,10 @@ description: 了解如何在 [!DNL Adobe Target] 让用户符合报表受众的�
 title: 是否可以将报表受众应用到成功量度？
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 54%
+source-wordcount: '301'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 54%
 
 对于所有活动，您都可以通过“[!UICONTROL 应用位置]”下拉列表将受众应用于成功量度，以便查看达到成功量度后的报表数量以及后续操作的报表数量。
 
-![](assets/success_metric.png)
+![success_metric图像](assets/success_metric.png)
 
 例如，假设您为所有从您的主页进入并到达转化页面的访客创建了一个活动，但是您还希望进一步了解在转化之前向购物车中添加的商品金额高于 $50 的访客。
 
@@ -32,4 +32,4 @@ ht-degree: 54%
 
 要在报表中查看分段，请从 [!UICONTROL 受众] 下拉列表。
 
-![](assets/reporting_audience_dropdown.png)
+![reporting_audience_dropdown图像](assets/reporting_audience_dropdown.png)

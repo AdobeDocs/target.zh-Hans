@@ -4,9 +4,9 @@ description: 了解如何设置最多包含五个标准的序列，以更好地�
 title: 如何在Recommendations中创建标准序列？
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '835'
 ht-degree: 34%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 34%
 
 1. 单击 **[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准序列]**.
 
-   ![](assets/CreateCriteriaSequence.png)
+   ![CreateCriteriaSequence图像](assets/CreateCriteriaSequence.png)
 
 1. 在 [基本信息](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) 中。
 

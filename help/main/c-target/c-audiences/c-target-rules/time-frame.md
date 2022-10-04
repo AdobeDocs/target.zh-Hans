@@ -4,10 +4,10 @@ description: 了解如何使用开始和结束日期和时间来定位在特定�
 title: 我能否定位在特定时间访问我网站的访客？
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 45%
+source-wordcount: '428'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 45%
 1. 为受众命名并添加可选描述。
 1. 拖放 **[!UICONTROL 期限]** 进入受众生成器窗格。
 
-   ![](assets/target_timeframe_dialog.png)
+   ![target_timefram_dialog图像](assets/target_timeframe_dialog.png)
 
 1. 指定 [!UICONTROL 开始] 和 [!UICONTROL 结束] 受众的日期和时间。
 

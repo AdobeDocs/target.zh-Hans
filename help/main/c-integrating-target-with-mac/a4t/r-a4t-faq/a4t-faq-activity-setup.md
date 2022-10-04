@@ -4,9 +4,9 @@ description: 查找有关使用Analytics for [!DNL Target] (A4T)。 A4T允许您
 title: 在哪里可以找到有关A4T活动设置的常见问题解答？
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '565'
 ht-degree: 20%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 20%
 1. 在 [!DNL Target]，单击 **[!UICONTROL 管理]**.
 1. 在&#x200B;**[!UICONTROL 用于报表的 Experience Cloud 解决方案]**&#x200B;下拉列表中，单击&#x200B;**[!UICONTROL 为每个活动选择]**。
 
-![](assets/select-per-activity.png)
+![按活动选择图像](assets/select-per-activity.png)
 
 随即会在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;屏幕中启用&#x200B;**[!UICONTROL 报表源]**&#x200B;下拉列表，以用于创建和编辑活动。
 

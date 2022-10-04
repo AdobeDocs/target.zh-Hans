@@ -4,10 +4,10 @@ description: 了解如何在Adobe中解释自动分配A/B活动的结果 [!DNL T
 title: 如何解读自动分配报表？
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 45%
+source-wordcount: '1235'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 45%
 
 在宣布明确的入选者后，[!DNL Target] 会显示“入选者: 体验 X。”
 
-![](assets/winner.png)
+![入选者图像](assets/winner.png)
 
 >[!NOTE]
 >

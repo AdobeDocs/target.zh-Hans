@@ -4,10 +4,10 @@ description: 查看信息以帮助您了解旧版 Recommendations Classic 与 Re
 title: Recommendations Classic 与 [!DNL Target] Premium 中的推荐之间有什么区别？
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '669'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 [!DNL Target Recommendations] 具有一个标准库，其中包含预先打包的规则集和配置集。而在 [!DNL Recommendations Classic] 中，需要通过填写表单并从很长的规则列表中选择规则来手动构建每个推荐。现在，创建 [!DNL Recommendations] 活动时，您只需选择预先配置的标准集即可。您仍可创建自定义推荐，但是标准库中包含很多最常用的配置，这些配置是为了简化流程而预先构建的，而且使用的是用户易于理解的语言。您可以原封不动地使用这些预先打包的标准，也可以复制并编辑这些标准以满足您的具体需求。
 
-![](assets/overview_criteria.png)
+![overview_criteria图像](assets/overview_criteria.png)
 
 预先配置的标准按垂直行业、页面类型和实施进行排序。例如，您可以查找以下标准：适用于零售行业，要用在产品页面上，且显示属于某个特定类别（由 `entity.categoryID` 参数定义）的产品。
 
@@ -68,10 +68,10 @@ ht-degree: 100%
 
 在 [!DNL Recommendations Classic] 中，有 6 个定位选项，而“推荐”活动可使用 Target 的全部定位选项。使用 [!DNL Target] 或其他 [!DNL Adobe Experience Cloud] 受众（例如 [!DNL Audience Manager] 和 [!DNL Analytics]）定义受众，然后选择看到每个设计的活动参加者所占的百分比，以及看到控制的参加者所占的百分比。
 
-![](assets/overview_targeting.png)
+![overview_targeting图像](assets/overview_targeting.png)
 
 ## 报表 {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
 在 [!DNL Target] 中，[!DNL Recommendations] 提供了改进的报表，现在，报表可以利用 [!DNL Target] 和 [!DNL Experience Cloud] 提供的各项功能。以前只会显示由 [!DNL Recommendations] 产生的提升度（与没有推荐的结果相比），但现在，您可以查看与 [!DNL Recommendations] 活动有关的各个方面的信息。
 
-![](assets/overview_report.png)
+![overview_report图像](assets/overview_report.png)

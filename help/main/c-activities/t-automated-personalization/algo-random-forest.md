@@ -4,10 +4,10 @@ description: 了解如何Adobe [!DNL Target] 在Automated Personalization(AP)和
 title: 操作方法 [!DNL Target] 是否使用随机林算法？
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 95%
+source-wordcount: '1427'
+ht-degree: 94%
 
 ---
 
@@ -34,13 +34,13 @@ Target 在自动个性化和自动定位中使用的主要个性化算法是随�
 
 此操作会产生我们决策树的第一层：
 
-![](assets/decsion_tree_1.png)
+![decsion_tree_1图像](assets/decsion_tree_1.png)
 
 决策树会询问“哪个变量最具预测性？”。在我们的示例中，只有两个变量，因此答案显然是性别。决策树现在将完成类似的操作来拆分“每个分支中”**&#x200B;的数据。我们首先考虑 11111、22222 和 33333 分支。在这些邮政编码中，如果男性与女性之间的转化存在差异，则形成两个叶子（男性和女性），此分支完成。在另一个分支（44444 和 55555）中，我们假定男性与女性的转化方式之间不存在任何统计差异。在这种情况下，第一个分支变为最后一个拆分。
 
 我们的示例会生成以下树：
 
-![](assets/decsion_tree_2.png)
+![decsion_tree_2图像](assets/decsion_tree_2.png)
 
 ## 随机林如何使用决策树？ {#section_536C105EF9F540C096D60450CAC6F627}
 
@@ -52,7 +52,7 @@ Target 在自动个性化和自动定位中使用的主要个性化算法是随�
 
 下图总结了如何为自动定位或自动个性化活动构建模型：
 
-![](assets/random_forest_flow.png)
+![random_forest_flow图像](assets/random_forest_flow.png)
 
 1. Target 在随机提供体验/选件的同时收集有关访客的数据
 1. Target 在达到临界数据量时执行功能工程化

@@ -4,10 +4,10 @@ description: 了解访客专属的一些属性，这些属性存储在访客的�
 title: 什么是配置文件属性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: ht
-source-wordcount: '2441'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 99%
 
 ---
 
@@ -109,11 +109,11 @@ if (mbox.name == 'Track_Interest') {
 
 禁用某个配置文件脚本后，Target UI 中的该配置文件脚本旁边会显示一个黄色警报图标，如下图所示：
 
-![](assets/profile_script_invalid.png)
+![profile_script_invalid图像](assets/profile_script_invalid.png)
 
 将鼠标悬停在该配置文件脚本上时，会显示有关错误的详细信息，如下图所示：
 
-![](assets/profile_script_hover.png)
+![profile_script_hover图像](assets/profile_script_hover.png)
 
 系统禁用配置文件脚本的典型原因包括：
 
@@ -161,7 +161,7 @@ if (mbox.name == 'Track_Interest') {
 
    只要加载上面有 [!DNL Target] 的网站的页面，[!DNL Target] 产生的部分响应就会包含给定配置文件脚本的值，如下所示：
 
-   ![](assets/debug_profile_script_1.png)
+   ![debug_profile_script_1图像](assets/debug_profile_script_1.png)
 
 * **使用 mboxTrace 调试工具调试配置文件脚本。**
 
@@ -171,7 +171,7 @@ if (mbox.name == 'Track_Interest') {
 
    添加这些参数比响应令牌能够提供更多的信息，因为您可以获得配置文件的执行前快照和执行后快照。它还显示您所有可用的配置文件。
 
-   ![](assets/debug_profile_script_2.png)
+   ![debug_profile_script_2图像](assets/debug_profile_script_2.png)
 
 ## 配置文件脚本常见问题解答 {#section_1389497BB6D84FC38958AE43AAA6E712}
 

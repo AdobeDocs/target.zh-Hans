@@ -4,9 +4,9 @@ description: 了解如何在Adobe中使用自动分配活动 [!DNL Target] 可�
 title: 什么是自动分配活动？
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3570'
 ht-degree: 50%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 50%
 
 下图显示了算法如何在包含四个体验的测试中执行运算：
 
-![](assets/auto-allocate.png)
+![自动分配图像](assets/auto-allocate.png)
 
 该图显示了在确定明确的入选者之前，分配给每个体验的流量在活动生命周期的几个轮次中是如何变化的。
 

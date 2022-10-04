@@ -5,10 +5,10 @@ title: 如何使用自定义实体属性？
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1400'
-ht-degree: 88%
+source-wordcount: '1411'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 
 自定义实体属性可以包含单个值或多个值。实体属性值会显示在产品视图中。
 
-![](assets/multi-value_product.png)
+![multi_value_product图像](assets/multi-value_product.png)
 
 具有单个值的自定义实体属性的构成方式与单值预定义实体属性相同：
 
@@ -93,11 +93,11 @@ function targetPageParams() {
 
 原始 CSV 将如下所示：
 
-![](assets/multi-value_example_raw.png)
+![multi_value_example_raw图像](assets/multi-value_example_raw.png)
 
 电子表格中的相同目录将如下所示：
 
-![](assets/multi-value_example_excel.png)
+![multi_value_example_excel图像](assets/multi-value_example_excel.png)
 
 在转换为 .csv 格式时，电子表格软件会在单元格内容两侧添加双引号，以防止单元格内的逗号充当列分隔符。它还会在自定义多值属性中包含的 JSON 字符串值两侧添加双引号标记。这样可直接处理庞杂的原始文件。例如：
 

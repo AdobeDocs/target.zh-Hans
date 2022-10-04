@@ -4,9 +4,9 @@ description: 了解如何在Adobe中将同一体验的版本定位到不同的�
 title: 我能否在A/B活动中使用多个体验版本？
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 92%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 92%
 
 1. 单击&#x200B;**[!UICONTROL 添加受众]**，然后选择要定位的第一个受众。对每个受众重复执行上述步骤。
 
-   ![](assets/exp-versions.png)
+   ![exp-versions图像](assets/exp-versions.png)
 
    如果受众尚不存在，请单击[创建受众](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)，然后对其进行设置。
 

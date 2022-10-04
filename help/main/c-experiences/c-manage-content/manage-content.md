@@ -4,9 +4,9 @@ description: 了解如何使用Adobe Target中的选件库管理代码和图像�
 title: 如何管理代码和图像选件？
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '563'
 ht-degree: 37%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 37%
 
 1. （可选）单击 **[!UICONTROL 类型]** 用于按类型筛选选件的下拉列表(HTML选件、 [体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect.md), [远程选件](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md)和 [文件夹](/help/main/c-experiences/c-manage-content/create-content-folder.md))。
 
-   ![](assets/offers_filter.png)
+   ![offers_filter图像](assets/offers_filter.png)
 
 1. （可选）单击 **[!UICONTROL 来源]** 用于按源筛选选件的下拉列表(Adobe Target、Adobe Target Classic和Adobe Experience Manager)。
 
@@ -66,7 +66,7 @@ ht-degree: 37%
 
 例如，通过将鼠标悬停在HTML选件上的选件上，可访问该选件的以下选件定义卡片 [!UICONTROL 内容] 列表，然后单击信息图标：
 
-![](assets/offer-card-html.png)
+![offer-card-html图像](assets/offer-card-html.png)
 
 其中提供了以下信息：
 
@@ -79,11 +79,11 @@ ht-degree: 37%
 
 在每个选件的定义弹出卡片中单击“[!UICONTROL 选件使用情况]”选项卡，可查看引用了代码选件的活动。此功能不适用于图像选件。利用此功能，您可以避免在编辑选件时对其他活动造成影响。信息包括 [!UICONTROL 实时活动] 和 [!UICONTROL 不活动的活动].
 
-![](assets/offer-card-usage.png)
+![选件卡使用图像](assets/offer-card-usage.png)
 
 下面是一个重定向选件的定义卡片：
 
-![](assets/offer-card-redirect.png)
+![offer-card-redirect图像](assets/offer-card-redirect.png)
 
 其中提供了以下信息：
 
@@ -99,7 +99,7 @@ ht-degree: 37%
 
 下面是一个远程选件的定义卡片：
 
-![](assets/offer-card-remote.png)
+![offer-card-remote映像](assets/offer-card-remote.png)
 
 其中提供了以下信息：
 
@@ -112,7 +112,7 @@ ht-degree: 37%
 * 重定向 URL 类型
 * 绝对或相对 URL
 
-## 培训视频：内容存储库 ![概述徽章](/help/main/assets/overview.png)
+## 培训视频：内容存储库 ![“概述”标记](/help/main/assets/overview.png)
 
 以下视频包含有关管理选件的信息。
 

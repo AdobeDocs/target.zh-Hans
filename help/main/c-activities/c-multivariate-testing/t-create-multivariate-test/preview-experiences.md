@@ -4,10 +4,10 @@ description: 了解如何在Adobe中预览多变量测试(MVT)活动中的每个
 title: 如何预览多变量测试(MVT)的体验
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 68%
+source-wordcount: '202'
+ht-degree: 67%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 
    此时将显示一个包含所有体验的列表。
 
-   ![](assets/preview.png)
+   ![预览图像](assets/preview.png)
 
 1. 单击列表中的某个体验，以查看该体验。
 

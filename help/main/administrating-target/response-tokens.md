@@ -5,10 +5,10 @@ title: 什么是响应令牌？如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1690'
-ht-degree: 25%
+source-wordcount: '1697'
+ht-degree: 26%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 25%
 
 1. 在 [!DNL Target]，单击 **[!UICONTROL 管理]** > **[!UICONTROL 响应令牌]**.
 
-   ![](assets/response_tokens-new.png)
+   ![response_tokens-new image](assets/response_tokens-new.png)
 
 1. 激活所需的响应令牌，例如 `activity.id` 和 `offer.id`.
 
@@ -72,7 +72,7 @@ ht-degree: 25%
 
    单击 **[!UICONTROL 添加响应令牌]**，提供令牌名称，然后单击 **[!UICONTROL 激活]**.
 
-   ![](assets/response_token_create.png)
+   ![response_token_create图像](assets/response_token_create.png)
 
 1. 创建一个活动。
 

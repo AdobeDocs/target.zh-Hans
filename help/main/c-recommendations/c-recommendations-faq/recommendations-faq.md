@@ -4,10 +4,10 @@ description: 查看关于 Adobe [!DNL Target] 推荐活动的常见问题和答�
 title: 可在何处找到关于 [!DNL Target] 推荐的问答？
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3135'
-ht-degree: 99%
+source-wordcount: '3153'
+ht-degree: 98%
 
 ---
 
@@ -102,7 +102,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 要访问[!UICONTROL 筛选不兼容的标准]设置，请依次单击[!UICONTROL 推荐] > [!UICONTROL 设置]：
 
-![](assets/recs_settings_filter.png)
+![recs_settings_filter图像](assets/recs_settings_filter.png)
 
 如果[!UICONTROL 筛选不兼容的标准]设置未启用，则 [!DNL Target] 不会对算法选择器中的算法进行筛选，因而会显示所有算法。
 
@@ -110,7 +110,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果“[!UICONTROL 筛选不兼容的标准]”设置已启用，您仍然能够查看不兼容的算法，方法是在选择标准时取消选中“[!UICONTROL 兼容]”复选框。
 
-![](assets/compatible_checkbox.png)
+![compatible_checkbox图像](assets/compatible_checkbox.png)
 
 下面列出了 [!DNL Target] 不会显示[!UICONTROL 兼容]复选框的几种特殊情况：
 
@@ -126,7 +126,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 * 可重新保存该收藏集，然后查看它是否更新数字。通过重新保存，该收藏集重新运行所有使用该收藏集的算法。
 * 您所查看的环境是否正确？请转到 [!DNL /target/products.html#recsSettings] 进行复查（如下所示）。
 
-   ![](assets/product_catalog.png)
+   ![product_catalog图像](assets/product_catalog.png)
 
 * 索引是否为最新？转到 [!DNL /target/products.html#productSearch]，并检查索引存在了多少个小时（例如，“3 小时前编制了索引”）。如有需要，您可以刷新索引。
 * 您是否更改过信息源或数据层，从而导致实体不再匹配收藏集规则？请确保大小写匹配（区分大小写）。
@@ -139,13 +139,13 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 “标准属性权重”适用于大部分（如果不是适用于全部）标准类型（不仅仅包括内容相似度）。此类型的权重会赋予某些属性值较高的权重。在以下示例中，输出推荐中增加了耐克产品。
 
-![](assets/attribute_weighting_example.png)
+![attribute_weighting_example图像](assets/attribute_weighting_example.png)
 
 “内容相似度属性权重”仅适用于内容相似度标准。
 
 这是一种更为动态的权重类型，以当前的“推荐键”（当前查看的项目）为基础。在以下示例中（品牌 x 16），如果访客在查看耐克运动鞋，则很有可能向该访客推荐其他耐克产品（不一定只是运动鞋），而不是向其推荐竞争品牌的运动鞋。如果访客正在查看阿迪达斯运动鞋，则更有可能为该访客推荐阿迪达斯产品。
 
-![](assets/content_similarity_example.png)
+![content_similarity_example图像](assets/content_similarity_example.png)
 
 ## [!DNL Target] 为何有时无法显示推荐？ {#section_DB3F40673AED42228E407C05437D99E9}
 

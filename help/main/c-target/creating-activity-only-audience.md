@@ -4,9 +4,9 @@ description: 了解如何在Adobe中创建仅限该活动的受众 [!DNL Target]
 title: 我可以创建只使用一次的受众吗？
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '451'
 ht-degree: 53%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 53%
 
 1. 单击 **[!UICONTROL 仅此活动]**.
 
-   ![](assets/activity-only-aud.png)
+   ![activity-only-aud图像](assets/activity-only-aud.png)
 
 1. 键入描述性受众名称。
 1. 将所需的属性拖放到受众生成器中。

@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用目标和设置页面 [!DNL Target] �
 title: 如何在多变量测试(MVT)活动中指定目标和设置？
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 91%
+source-wordcount: '1282'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 可用的设置取决于您是使用 Target 还是 Analytics 作为数据源。
 
-![](assets/mvt_settings.png)
+![mvt_settings图像](assets/mvt_settings.png)
 
 ## 活动设置 {#section_DCBDC354261F420EBD4B43EA34947BAC}
 

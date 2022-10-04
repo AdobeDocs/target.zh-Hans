@@ -4,9 +4,9 @@ description: 了解如何使用Adobe [!DNL Target] QA URL用于执行简单的�
 title: 如何进行QA活动？
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1832'
 ht-degree: 38%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 38%
 
    您可以导航网站以查看其他页面，因为 [!UICONTROL 活动QA] 模式粘滞。 对于使用版本2的at.js实施，情况是如此。*x* 或更晚。 对于at.js 1.*x* 实施中，仅当访客的浏览器不阻止第三方Cookie时，这种情况才会出现。
 
-1. 要查看从活动链接URL生成的报表，请单击活动的 **[!UICONTROL 报表]** 页面，单击 **[!UICONTROL 设置]** 图标(  ![](assets/icon_gear.png) )，然后选择 **[!UICONTROL QA模式流量]** 从 **[!UICONTROL 环境]** 下拉列表。
+1. 要查看从活动链接URL生成的报表，请单击活动的 **[!UICONTROL 报表]** 页面，单击 **[!UICONTROL 设置]** 图标(  ![icon_gear图像](assets/icon_gear.png) )，然后选择 **[!UICONTROL QA模式流量]** 从 **[!UICONTROL 环境]** 下拉列表。
 
 ## 注意事项 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 

@@ -4,9 +4,9 @@ description: 了解如何在Adobe中使用远程选件 [!DNL Target] 托管外�
 title: 如何创建远程选件？
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1085'
 ht-degree: 47%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 47%
 
 选件会在您提交页面后执行。不可见的iframe会收集数据，将其从框架中复制出来，然后插入到页面中，从而加载传递的值。
 
-![](assets/remote_offer_howitworks_2.jpeg)
+![remote_offer_howitworks_2图像](assets/remote_offer_howitworks_2.jpeg)
 
 ## 远程选件选择表 {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 

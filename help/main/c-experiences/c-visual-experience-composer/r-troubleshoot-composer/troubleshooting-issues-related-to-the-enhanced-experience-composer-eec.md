@@ -4,10 +4,10 @@ description: 了解如何对Adobe中有时出现的问题进行故障诊断 [!DN
 title: 如何对与增强型体验编辑器有关的问题进行故障诊断？
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 40%
+source-wordcount: '469'
+ht-degree: 36%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 40%
 
 `Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
-![](assets/EEC_error.png)
+![EEC_error图像](assets/EEC_error.png)
 
 以下是您可能会看到此错误消息的原因以及相应的补救措施：
 
@@ -56,17 +56,17 @@ ht-degree: 40%
 1. 在 Firefox 中打开受影响的网站。
 1. 单击浏览器地址栏上的&#x200B;**[!UICONTROL 显示网站信息]**&#x200B;图标。
 
-   ![](assets/firefox_more_info.png)
+   ![firefox_more_info图像](assets/firefox_more_info.png)
 
 1. 单击&#x200B;**[!UICONTROL 显示连接详细信息]** > **[!UICONTROL 更多信息]**。
 
-   ![](assets/firefox_more_info_2.png)
+   ![firefox_more_info_2图像](assets/firefox_more_info_2.png)
 
 1. 检查“技术详细信息”下的 TLS 版本信息：
 
-   ![](assets/firefox_more_info_3.png)
+   ![firefox_more_info_3图像](assets/firefox_more_info_3.png)
 
-1. 如果发现您的网站显示的是 TLS 1.0，请参阅 [TLS（传输层安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}以了解有关Target的TLS支持策略的信息。 目前要解决这种情况（有效期至2018年9月12日）{target=_blank}，请联系 [客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，以便使用您的TLS版本和域进行配置。
+1. 如果您发现网站显示的是TLS 1.0，请参阅 [TLS（传输层安全性）加密更改](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank}以了解有关Target的TLS支持策略的信息。 目前要解决这种情况（有效期至2018年9月12日）{target=_blank}，请联系 [客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) ，以便使用您的TLS版本和域进行配置。
 
 ## 加载启用了代理的网站时，我遇到超时或“拒绝访问”错误。（仅 EEC） {#section_60CBB9022DC449F593606C0E6252302D}
 

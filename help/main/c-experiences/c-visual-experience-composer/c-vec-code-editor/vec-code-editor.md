@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用修改面板 [!DNL Target] 查看页�
 title: 我可以对页面进行哪些修改？
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2137'
-ht-degree: 91%
+source-wordcount: '2185'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 “[!UICONTROL 修改]”页面会显示您在 VEC 中对页面进行的所有更改。您所做的每个更改都会在“[!UICONTROL 修改]”列表中单独显示为一个操作或元素。
 
-![](assets/codeeditor_page_mods.png)
+![codeeditor_page_mods图像](assets/codeeditor_page_mods.png)
 
 在使用 VEC 对内容交付方式进行配置时，可使用“修改”页面来对 Target 所选的选择器进行细微更改。您可以更改内容，也可以更改 HTML 属性。您还可以编辑代码以在 mbox 中创建 HTML 选件的等效内容。
 
@@ -29,39 +29,39 @@ ht-degree: 91%
 
 * 查看在可视化编辑器中执行的操作。
 
-   ![](assets/codeeditor_viewchange.png)
+   ![codeeditor_viewchange图像](assets/codeeditor_viewchange.png)
 
 * 编辑现有的操作。将鼠标悬停在所需的修改上，然后单击&#x200B;**[!UICONTROL 修改]**&#x200B;图标。
 
-   ![](assets/codeeditor_edit.png)
+   ![codeeditor_edit image](assets/codeeditor_edit.png)
 
    进行更改。
 
-   ![](assets/codeeditor_changechange1.png)
+   ![codeeditor_changechange1图像](assets/codeeditor_changechange1.png)
 
-* 删除现有的操作。将鼠标悬停在所需的修改上，然后单击&#x200B;**[!UICONTROL 删除]**&#x200B;图标。
+* 删除现有的操作. 将鼠标悬停在所需的修改上，然后单击&#x200B;**[!UICONTROL 删除]**&#x200B;图标。
 
-   ![](assets/codeditor_delete.png)
+   ![codeditor_delete图像](assets/codeditor_delete.png)
 
 * 添加新修改。单击&#x200B;**[!UICONTROL 添加修改]**&#x200B;或“+”图标，然后按照以下所述指定更改。
 
-   ![](assets/codeeditor_new.png)
+   ![codeeditor_new image](assets/codeeditor_new.png)
 
    请注意，创建一个修改后，Target 会在“修改”面板顶部显示一个“+”图标，而不是在面板底部显示“添加修改”按钮。
 
 * 将“修改”面板垂直停放在 Target UI 侧面或水平停放在底部。单击[!UICONTROL 停放]图标可在两种设置之间切换。
 
-   ![](assets/codeditor_dock.png)
+   ![codeditor_dock图像](assets/codeditor_dock.png)
 
    下图显示了停放在屏幕底部的“修改”面板：
 
-   ![](assets/codeeditor_dock_bottom.png)
+   ![codeeditor_dock_bottom图像](assets/codeeditor_dock_bottom.png)
 
 ## 添加修改 {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
 1. 要显示所选体验的[!UICONTROL 修改]页面，请在 VEC 中单击&#x200B;**[!UICONTROL 修改]** &lt;/> 图标。
 
-   ![](assets/codeeditor_icon_big.png)
+   ![codeeditor_icon_big image](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
@@ -69,11 +69,11 @@ ht-degree: 91%
 
    此时会打开“[!UICONTROL 修改]”页面，该页面将屏幕分为两部分，左侧为可视化模式，右侧为“修改”面板。单击[!UICONTROL 停放]图标，将“修改”面板垂直停放在 Target UI 侧面或水平停放在底部。请注意，以下图示中的体验 A 先前未进行任何修改。
 
-   ![](assets/codeeditor_page.png)
+   ![codeeditor_page图像](assets/codeeditor_page.png)
 
    在右侧的“[!UICONTROL 修改]”面板中，体验 B 显示了先前进行的修改。
 
-   ![](assets/codeeditor_page_mods.png)
+   ![codeeditor_page_mods图像](assets/codeeditor_page_mods.png)
 
 1. 要添加修改，请执行以下操作：
 
@@ -82,7 +82,7 @@ ht-degree: 91%
 
    “修改”面板将显示：
 
-   ![](assets/codeeditor_page_mods_add.png)
+   ![codeeditor_page_mods_add图像](assets/codeeditor_page_mods_add.png)
 
 1. 从&#x200B;**[!UICONTROL 修改类型]**&#x200B;下拉列表中，选择所需类型：
 
@@ -104,7 +104,7 @@ ht-degree: 91%
 
 “自定义代码”面板通常用于将 JavaScript 或 CSS 添加到页面的顶部。
 
-![](assets/codeeditor_custom.png)
+![codeeditor_custom image](assets/codeeditor_custom.png)
 
 使用&#x200B;**[!UICONTROL 自定义代码]**&#x200B;选项卡可执行以下操作：
 
@@ -215,7 +215,7 @@ Target 将值为“CDQID”的新元素 ID 应用于由 Target 修改的页面�
 
 可以使用“浏览”模式找到缺少的选择器。我们建议您按照警告消息中的指示，删除每个体验然后重新创建，以确保您的内容如预期般显示。
 
-![](assets/code_editor_2.png)
+![code_editor_2图像](assets/code_editor_2.png)
 
 ***当我删除一个元素时，我看到一条警告显示“删除此操作可能影响后续的操作”。这是什么意思？***
 

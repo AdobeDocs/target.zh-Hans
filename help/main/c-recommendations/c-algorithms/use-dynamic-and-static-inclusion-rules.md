@@ -5,10 +5,10 @@ title: 如何在Recommendations中使用动态和静态包含规则？
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 17%
+source-wordcount: '2094'
+ht-degree: 16%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 
 [创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)时，单击&#x200B;**[!UICONTROL 包含规则]**&#x200B;下的&#x200B;**[!UICONTROL 添加筛选规则]**。
 
-![](assets/inclusion_options_new.png)
+![inclusion_options_new图像](assets/inclusion_options_new.png)
 
 可用选项取决于所选垂直行业和推荐键。
 
@@ -30,7 +30,7 @@ ht-degree: 17%
 
 [创建促销活动](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14)时，选择&#x200B;**[!UICONTROL 按属性促销]**，然后单击&#x200B;**[!UICONTROL 添加筛选规则]**。
 
-![](assets/inclusion_options.png)
+![inclusion_options图像](assets/inclusion_options.png)
 
 ## 筛选类型 {#section_0125F1ED10A84C0EB45325122460EBCD}
 
@@ -93,9 +93,9 @@ ht-degree: 17%
 
 以前，如果值为空，则不会返回任何结果。如果标准包含空值，则“如果 *x* 为空”下拉列表允许您选择适当的操作，如下图所示：
 
-![](assets/empty_value.png)
+![empty_value图像](assets/empty_value.png)
 
-要选择所需的操作，请将鼠标悬停在齿轮图标 (![](assets/icon_gear.png)) 上，然后选择所需的操作：
+要选择所需的操作，请将鼠标悬停在齿轮图标(![icon_gear图像](assets/icon_gear.png))，然后选择所需的操作：
 
 | 操作 | 适用选项 | 详细信息 |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 17%
 >
 >在运行时，不同的数据类型属性可能在动态标准或促销活动中与“等于”和“不等于”运算符不兼容。使用 [!UICONTROL 值], [!UICONTROL 边距], [!UICONTROL 库存]和 [!UICONTROL 环境] 如果左侧具有预定义属性或自定义属性，则在右侧的值会明智。
 
-![](assets/left_right.png)
+![left_right图像](assets/left_right.png)
 
 下表显示了有效规则和在运行时可能不兼容的规则：
 

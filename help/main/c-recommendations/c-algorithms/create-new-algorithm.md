@@ -4,9 +4,9 @@ description: 了解如何创建控制Adobe Recommendations活动内容的标准�
 title: 如何在Recommendations中创建标准？
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2843'
 ht-degree: 52%
 
 ---
@@ -184,7 +184,7 @@ ht-degree: 52%
 
 选择 **[!UICONTROL 基于项目]**/ **[!UICONTROL 具有相似属性的媒体]**，则您可以选择创建规则，以在确定推荐时提高或降低特定项目属性的重要性。 对于书籍等项目，您可能希望提升“流派”**、“作者”**、“系列”**&#x200B;等属性的重要性，以便推荐类似的书籍。
 
-![](assets/ContentSimilarity.png)
+![内容相似度图像](assets/ContentSimilarity.png)
 
 由于内容相似度使用关键字来比较项目，因此某些属性（例如“消息”**&#x200B;或“描述”**）可能会在比较中引入“干扰信息”。您可以创建规则来忽略这些属性。
 
@@ -224,7 +224,7 @@ ht-degree: 52%
 1. 设置您要推荐的产品的最低库存量。
 1. 将推荐配置为仅显示满足特定条件的项目。
 
-   ![](assets/Recs_InclusionRules.png)
+   ![Recs_InclusionRules图像](assets/Recs_InclusionRules.png)
 
    您可以指定仅当列表中的某个属性符合或不符合一个或多个指定的条件时才包含项目。
 
@@ -254,7 +254,7 @@ ht-degree: 52%
 
    例如，完整的规则可能是“类别包含子字符串鞋”。
 
-   ![](assets/Recs_AttributeWeighting.png)
+   ![Recs_AttributeWeighting图像](assets/Recs_AttributeWeighting.png)
 
 1. 选择要分配给规则的权重。
 

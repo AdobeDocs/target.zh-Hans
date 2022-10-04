@@ -4,9 +4,9 @@ description: 了解如何在Adobe中创建受众 [!DNL Target] 可根据将访�
 title: 我是否可以根据搜索引擎或引荐网站定位访客？
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '270'
 ht-degree: 63%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 63%
    1. 为受众命名并添加可选描述。
 1. 拖放 **[!UICONTROL 流量源]** 进入受众生成器窗格。
 
-   ![](assets/target_traffic_source.png)
+   ![target_traffic_source图像](assets/target_traffic_source.png)
 
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
@@ -43,7 +43,7 @@ ht-degree: 63%
 
 您可以定位由特定搜索引擎或从特定登陆页面引荐至您网站的用户。
 
-## 培训视频：创建受众 ![概述徽章](/help/main/assets/overview.png)
+## 培训视频：创建受众 ![“概述”标记](/help/main/assets/overview.png)
 
 以下视频包含有关使用受众类别的信息。
 

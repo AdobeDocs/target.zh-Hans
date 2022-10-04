@@ -4,9 +4,9 @@ description: 了解如何使用 [!DNL Adobe Experience Manager] 体验片段 [!D
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM)体验片段？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1379'
 ht-degree: 18%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 18%
    >
    >[!UICONTROL 与体验片段交换]选项不适用于图像。如果您想要对图像使用此选项，请单击包含所需图像的容器元素。
 
-   ![](assets/experience_fragment_list.png)
+   ![experience_fragment_list图像](assets/experience_fragment_list.png)
 
 1. 选择所需的体验片段，然后单击 **[!UICONTROL 完成]**.
 1. 完成活动配置。
@@ -140,7 +140,7 @@ ht-degree: 18%
 
 1. 在 [!DNL Target]，在中创建或编辑体验时 [基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，选择要插入的页面位置 [!DNL AEM] 内容，然后选择 **[!UICONTROL 更改体验片段]** 以显示 [!UICONTROL 选择体验片段] 列表。
 
-   ![](assets/experience_fragment_list.png)
+   ![experience_fragment_list图像](assets/experience_fragment_list.png)
 
    的 [!UICONTROL 体验片段] 列表显示在 [!DNL AEM] 现在可从内部本地访问 [!DNL Target].
 

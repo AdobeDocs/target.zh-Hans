@@ -4,10 +4,10 @@ description: 了解如何Adobe [!DNL Target] 显示和计算每个体验的转�
 title: 如何查看转化率、提升度和置信水平？
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2150'
-ht-degree: 53%
+source-wordcount: '2164'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 53%
 
 下图显示了一个示例活动的图表表头，其中高亮显示了“[!UICONTROL 转化率]”、“[!UICONTROL 提升度]”和“[!UICONTROL 置信度]”表头。
 
-![](assets/conversion-rate.jpg)
+![转化率图像](assets/conversion-rate.jpg)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ ht-degree: 53%
 
 例如，请查看以下“转化率”报表列：
 
-![](assets/conversion-rate-detail.jpg)
+![转化率细节图像](assets/conversion-rate-detail.jpg)
 
 第一行是控制体验。该行显示的转化率为 15%，转化次数为 3。第二行（体验 B）显示的转化率为 15%，置信区间为 ±15.65%，转化次数为 3。
 
@@ -62,7 +62,7 @@ ht-degree: 53%
 
 置信度如果大于或等于 99.995%，则向上舍入为 100.00%。
 
-![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
+![conf_report图像](assets/conf_report.png)  ![conf_report_detail图像](assets/conf_report_detail.png)
 
 在做出任何业务决策之前，请尝试等待一段时间，直到样本量足够大，并且一个或多个体验的四个置信度条块在一段连续的时间内保持一致，从而确保结果稳定。
 
@@ -75,7 +75,7 @@ ht-degree: 53%
 
 的 *置信区间* 是一系列估计值，在这些估计值中可以在给定置信水平找到该量度的真实值。 Target始终显示95%的置信度间隔。 在“转化率”列中，置信区间显示为浅灰色 +/- 百分比值。在以下示例中，体验 B 的提升度所具有的置信区间为 +/- 15.65%。
 
-![](assets/conversion_rate.png)
+![conversion_rate图像](assets/conversion_rate.png)
 
 **示例：** 体验的RPV为10美元，其95% **置信区间** 是5到15。 对我们来说，真正的RPV是12美元。 然后，如果我们多次运行此测试，则我们计算的置信区间的95%将包含 _true_ RPV的价值$12。
 

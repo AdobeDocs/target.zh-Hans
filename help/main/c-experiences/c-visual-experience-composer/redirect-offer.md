@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用“重定向到URL”选项 [!DNL Targ
 title: 是否可以将页面重定向到其他URL?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 84%
+source-wordcount: '440'
+ht-degree: 80%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 84%
 要创建重定向选件，请执行以下操作：
 
 1. 创建一个体验。
-1. 将鼠标悬停在创建的体验上，然后单击“重定向到 URL”图标 (![](assets/icon_redirect_url.png))。
+1. 将鼠标悬停在带有鼠标的体验上，然后单击“重定向到URL”图标(![icon_redirect_url图像](assets/icon_redirect_url.png))。
 
-   ![](assets/exp_actions.png)
+   ![exp_actions图像](assets/exp_actions.png)
 
 1. 键入 URL。
 1. 如有需要，选择用于包括当前查询参数的选项。

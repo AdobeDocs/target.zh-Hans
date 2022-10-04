@@ -4,10 +4,10 @@ description: 了解如何使用开源Velocity设计语言在Adobe中自定义推
 title: 如何使用Velocity自定义设计？
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 61%
+source-wordcount: '1032'
+ht-degree: 60%
 
 ---
 
@@ -67,7 +67,7 @@ $entities[0].categoriesList[2]
 
 例如，如果您想要在设计中显示类似于下面的内容：
 
-![](assets/velocity_example.png)
+![velocity_example图像](assets/velocity_example.png)
 
 您可使用以下代码：
 
@@ -203,7 +203,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 最终生成的设计如下所示，其中有一列显示了关键项目。
 
-![](assets/rec_key.png)
+![rec_key图像](assets/rec_key.png)
 
 创建 [!DNL Recommendations] 活动时，如果关键项目是从访客的配置文件中获取的（例如“上次购买的项目”），则 [!DNL Target] 会在[!UICONTROL 可视化体验编辑器] (VEC) 中显示一个随机产品。这是因为在您设计活动时配置文件不可用。访客查看页面时，他们将看到预期的关键项目。
 

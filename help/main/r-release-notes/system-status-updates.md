@@ -4,10 +4,10 @@ description: 查看 Adobe [!DNL Target] 的当前状态，以帮助您确定可�
 title: 可在何处查看 [!DNL Target] 和其他 Adobe 产品的状态？
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 要查看 [!DNL Experience Cloud] 解决方案（包括 [!DNL Target]）的状态，请单击 [!UICONTROL Experience Cloud] 选项卡。
 
-![](assets/system_status.png)
+![system_status图像](assets/system_status.png)
 
 页面顶部包含有关正在进行的维护事件的信息，以及一个用于订阅各个解决方案更新的链接。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 页面底部包含过去七天的日历，其中显示了每个解决方案每天的状态信息。将鼠标悬停在状态指示器上可获取更多信息：
 
-![](assets/system_status_indicator.png)
+![system_status_indicator图像](assets/system_status_indicator.png)
 
 ## 主动通知
 

@@ -4,10 +4,10 @@ description: 了解如何在Adobe Target中配置报表设置，包括量度、�
 title: 如何配置报表设置？
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1917'
-ht-degree: 67%
+source-wordcount: '1923'
+ht-degree: 66%
 
 ---
 
@@ -276,16 +276,16 @@ ht-degree: 67%
 
 下图提供了一个示例，其中显示的活动图形含有 26 个体验：
 
-![](assets/graph_1.png)
+![graph_1图像](assets/graph_1.png)
 
 该图形显示了前 16 个体验的线条（有些线条存在重叠，因此显示的线条不到 16 个）。左侧“体验”窗格中每个体验名称旁边的彩色圆点表示该体验的绘制线条以相应的颜色显示。
 
 如果在“体验”窗格中向下滚动，您会看到第 17 到 26 个体验的名称都处于灰显状态，如下图所示：
 
-![](assets/graph_2.png)
+![graph_2图像](assets/graph_2.png)
 
 如果将鼠标悬停在某个灰显的体验上，图形中会暂时显示与该体验对应的新绘制线条，该线条为灰色。
 
 假设您希望显示体验 R 的绘制线条，而不显示体验 P 的线条，那么可以单击体验 P 的名称来取消选择该体验，然后单击体验 R 的名称来将其选中，如下所示：
 
-![](assets/graph_3.png)
+![graph_3图像](assets/graph_3.png)

@@ -1,13 +1,13 @@
 ---
 keywords: 体验定位;登陆页面测试
-description: '元素选择器是可标识一个或多个元素的CSS表达式。 了解如何在Adobe中使用元素选择器 [!DNL Target] 可视化体验编辑器(VEC)。 '
+description: 元素选择器是可标识一个或多个元素的CSS表达式。 了解如何在Adobe中使用元素选择器 [!DNL Target] 可视化体验编辑器(VEC)。
 title: 我能否在可视化体验编辑器(VEC)中使用元素选择器？
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 80%
+source-wordcount: '429'
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 80%
 
 您可以设置要在帐户首选项中使用元素类还是元素 ID。单击 **[!UICONTROL 管理>可视化体验编辑器]**，然后选择首选的CSS选择器。
 
-![](assets/css_selectors.png)
+![css_selectors图像](assets/css_selectors.png)
 
 >[!NOTE]
 >

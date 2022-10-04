@@ -4,9 +4,9 @@ description: 了解如何对Adobe中有时出现的问题进行故障诊断 [!DN
 title: 如何对与可视化体验编辑器有关的问题进行故障诊断？
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '804'
 ht-degree: 85%
 
 ---
@@ -81,12 +81,12 @@ ht-degree: 85%
 
       * 将&#x200B;**[!UICONTROL 等于]**&#x200B;更改为&#x200B;**[!UICONTROL 包含]**&#x200B;以作为源 URL 的条件，并输入您尝试在 VEC 中加载的活动的 URL。
 
-      ![](assets/chrome_extension.png)
+      ![chrome_extension图像](assets/chrome_extension.png)
 
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   ![](assets/requestly.png)
+   ![请求图像](assets/requestly.png)
 
    现在，您应当能够使用可视化体验编辑器快速加载页面。
 
@@ -101,7 +101,7 @@ ht-degree: 85%
 1. 单击&#x200B;**[!UICONTROL 添加]**。
 1. 单击&#x200B;**[!UICONTROL 开始]**。
 
-![](assets/firefox_extension.png)
+![firefox_extension图像](assets/firefox_extension.png)
 
 设置扩展程序后，打开 Target。即使禁用了增强型体验编辑器，您的页面现在也应当能够在可视化体验编辑器中加载。
 

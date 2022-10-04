@@ -5,9 +5,9 @@ title: 什么是主机？如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1089'
 ht-degree: 22%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 22%
 
 要管理主机，请单击 **[!UICONTROL 管理]** > **[!UICONTROL 主机]**.
 
-![](assets/hosts_list.png)
+![hosts_list图像](assets/hosts_list.png)
 
 ## 识别主机 {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 

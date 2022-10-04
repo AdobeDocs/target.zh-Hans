@@ -5,10 +5,10 @@ title: 什么是企业用户权限？如何使用这些权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3152'
-ht-degree: 59%
+source-wordcount: '3171'
+ht-degree: 58%
 
 ---
 
@@ -105,13 +105,13 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 新 [!UICONTROL 权限] 功能允许您在 [!DNL Adobe Admin Console for Enterprise])。 利用“项目”，您可以为单个用户分配不同的权限，以规定该用户对每个项目的访问权限。 这些不同的项目好比 [!DNL Adobe Analytics] 中各个报表包的工作方式。每个项目都可以拥有其特定用户，而这些用户可以具有适用于一组属性的特定角色。这样，客户便能够根据区域、环境（开发/暂存/生产）、渠道或其他自定义标准来限制其用户的查看、编辑和批准权限，如下所示：
 
-![](assets/permissions.png)
+![权限图像](assets/permissions.png)
 
 例如，某一位特定用户可能在美国网站上具有“批准”访问权限，但在欧洲移动设备应用程序上仅具有“查看”访问权限。该用户可能无法访问甚至无法查看亚太地区的 Web 和移动设备属性上提供的活动。
 
 当前 [!DNL Target][!UICONTROL “权限]”模型具有三种权限角色（观察者、编辑者和审批者），如下图所示：
 
-![](assets/permissions_1.png)
+![permissions_1图像](assets/permissions_1.png)
 
 每个角色都具有不同级别的权限：
 
@@ -124,17 +124,17 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 请注意，每个用户的角色都适用于您帐户中包含 [!DNL Target] 标记的每个页面、属性或网站，如下所示：
 
-![](assets/permissions_2.png)
+![permissions_2图像](assets/permissions_2.png)
 
 新的 [!DNL Target][!UICONTROL “权限]”模型具有相同的三种权限角色（观察者、编辑者和审批者）；但是，您可以为各个页面、属性或网站分别分配用户的权限角色，如下所示：
 
-![](assets/permissions_3.png)
+![permissions_3图像](assets/permissions_3.png)
 
 在此示例中，Jan 拥有美国主页和美国网站的审批者权限，拥有法国网站的观察者权限。
 
 此外，Jan在中看不到页面、属性或网站 [!DNL Target] 权限查看，如下所示：
 
-![](assets/permissions_4.png)
+![permissions_4图像](assets/permissions_4.png)
 
 在此示例中，Jan 无法查看产品页面、俄罗斯网站和职业网站。
 
@@ -190,18 +190,18 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 * **“工作区”（“产品配置文件”）下拉列表：**“工作区”下拉列表显示在“[!UICONTROL 活动]”、“[!UICONTROL 受众]”和“[!UICONTROL 选件]”页面的顶部。选择所需的工作区对列表进行筛选，可以只显示所选工作区中的项目。
 
-   ![](assets/workspace_drop-down.png)
+   ![workspace_down图像](assets/workspace_drop-down.png)
 
 * **活动创建：** 创建活动时，该活动会创建在当前选定的工作区中。 您会在第一个对话框中看到渠道选择选项，通过该选项可以为活动选择所需的渠道：Web、移动设备应用程序、电子邮件或其他/API。
 
-   ![](assets/channel_options.png)
+   ![channel_options图像](assets/channel_options.png)
 
 * **受众创建：** 创建受众时，该受众会创建在当前选定的工作区中。
 * **受众列表：** 您可以使用 [!UICONTROL 更多操作] > [!DNL Move] 选项 [!UICONTROL 受众] 页面。
 * **选件创建：** 创建选件时，该选件会创建在当前选定的工作区中。
 * **属性页面（管理>属性）：** 您可以使用 [!UICONTROL 搜索] 框 [!UICONTROL 属性] 列表。
 
-   ![](assets/properties_list.png)
+   ![properties_list图像](assets/properties_list.png)
 
 ## 注意事项 {#section_9714311B1CD9497A86F4910F8AE635E2}
 

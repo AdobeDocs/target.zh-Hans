@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c5445903e7bbab210d0e72200c54ab07975c21c5
+source-git-commit: dea956fe5d28200515a9638306a7d879585cb794
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 85%
+source-wordcount: '841'
+ht-degree: 75%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 85%
 | [!DNL Adobe Experience Manager] (AEM)体验片段 | 对AEM体验片段功能的更新包括：<ul><li>在 [!UICONTROL 选件] 列表。 (TGT-43121)</li><li>修复了允许客户插入JSON的问题 [!UICONTROL 体验片段] 选件，但不支持此功能。 JSON选件仅在使用 [!UICONTROL 基于表单的体验] 编辑器。 (TGT-43846)</li></ul>有关更多信息，请参阅AEM [体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
 | 适用于 Google Chrome 的新 [!UICONTROL Visual Experience Composer] 扩展程序 | Chrome Web Store 中提供了适用于 Chrome 的新 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) 扩展程序。<br>从 2023 年 1 月开始，当前的 [!DNL Target] VEC Helper 扩展程序将停止在 Google Chrome 中运行，因为 Google 不允许使用 Manifest V2 的扩展程序。 下载新的扩展程序，从新的一年开始，继续在 [!DNL Target] 中以视觉方式创作您的网站。<br>以下链接显示了Chrome Web Store中的两个扩展：<ul><li>[新扩展](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[旧扩展](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>有关更多信息，请参阅 [Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
 | 为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]<br>优化了 A4T 指标（具体发布日期待定。） | 请注意以下更改：<ul><li>在[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动的[!UICONTROL 定位分析] A4T 报表中添加了对二进制和最大化指标的支持</li><li>保留现有活动的行为直至 2023 年 2 月 20 日。在此日期之后，将停止活动以强制现有活动迁移到新行为</li><li>从 2023 年 2 月 20 日开始，将不再支持 [!DNL Target] 活动中的 `averagetimespentonsite`、`bouncerate` 和 `entries` 指标。</li></ul> |
+| 文档更新 | 主要文档更新包括：<ul><li>新增和更新 [Adobe Target管理和报表API文档](https://developer.adobe.com/target/administer/admin-api/){target=_blank}包括对管理员和报表API端点的全面覆盖，包括属性、选件、主机、环境、客户端、受众、活动等。<br>请参阅 [[!DNL Adobe Target] [!UICONTROL 开发人员指南]](https://developer.adobe.com/target/){target=_blank}。</li><li>[A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)<br>本文记录了A/Bn手动测试中使用的详细统计计算 [!DNL Adobe Target].<br>本文中的信息将 *Adobe Target A/B测试计算* 之前可在此网站上下载的pdf文件。</li></ul> |
 
 * 修复了导致[!UICONTROL 受众细化]信息窗口中无法正确显示受众规则信息的问题。(TGT-43917)
 * 提高了在加载的受众数接近[推荐的定位规则限制](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules)时 [!DNL Target] 用户界面的性能。(TGT-43675)

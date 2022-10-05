@@ -3,18 +3,22 @@ keywords: 报表；统计方法；统计计算；统计数据；平均值；转�
 description: 了解手动中使用的统计计算 [!UICONTROL A/B测试] 活动 [!DNL Adobe Target].
 title: 如何了解 [!UICONTROL A/B测试] 活动？
 feature: Reports
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1096'
 ht-degree: 2%
 
 ---
 
 # A/Bn测试中的统计计算
 
-本页记录了在 [!DNL Adobe Target]. 对转化率、转化率的置信区间、提升度、提升度的置信区间和置信度提供了定义。
+本文记录了A/Bn手动测试中使用的详细统计计算 [!DNL Adobe Target]. 定义已提供 [!UICONTROL 转化率], [!UICONTROL 转化率的置信区间], [!UICONTROL 提升度], [!UICONTROL 提升的置信区间]和 [!UICONTROL 置信度].
 
-![显示A/B测试活动的转化率、平均提升度和置信区间以及置信度的Target报表。](/help/main/c-reports/statistical-methodology/img/target_report.png)
+>[!NOTE]
+>
+>本文中的信息将 *Adobe Target A/B测试计算* 之前可在此网站上下载的pdf文件。
+
+![显示 [!UICONTROL 转化率], [!UICONTROL 平均提升度和置信区间]和 [!UICONTROL 置信度] A/B测试活动。](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## 平均性能
 
@@ -36,15 +40,15 @@ ht-degree: 2%
 
 * 单位总和 *i* 取决于计数方法的选择。
 
-   * 如果 *访客* 用作计数方法，则每个单位都是一个独特访客，在活动生命周期内定义为活动中的独特参与者。
-   * 如果 *访问次数* 用作计数方法，则每个单位都是一个独特访问，定义为在 [!DNL Target] 会话(具有唯一 `sessionId`)。 当 `sessionId` 更改，或访客达到转化步骤，则计为一次新访问。
-   * 如果 *活动展示次数* 用作计数方法，则每个单元都是一个唯一的展示，定义为每次访客加载活动的任何页面时。
+   * 如果 *[!UICONTROL 访客]* 用作计数方法，则每个单位都是一个独特访客，在活动生命周期内定义为活动中的独特参与者。
+   * 如果 *[!UICONTROL 访问次数]* 用作计数方法，则每个单位都是一个独特访问，定义为在 [!DNL Target] 会话(具有唯一 `sessionId`)。 当 `sessionId` 更改，或访客达到转化步骤，则计为一次新访问。
+   * 如果 *[!UICONTROL 活动展示次数]* 用作计数方法，则每个单元都是一个唯一的展示，定义为每次访客加载活动的任何页面时。
 
-## 平均/转化率的置信区间
+## [!UICONTROL 平均置信区间]/[!UICONTROL 转化率]
 
 转化率的置信区间被直观地定义为与基础数据一致的可能转化率范围。
 
-运行实验时，我们针对给定体验所观察的转化率是 *估计* “true”转化率的值。 为了量化此估计中的不确定性，我们可以使用置信区间。 [!DNL Target] 始终报告95%的置信区间，这意味着从长远来看，计算出的95%的置信区间包含体验的真实转化率。
+运行实验时，给定体验的转化率是 *估计* “true”转化率的值。 为了量化这一估计的不确定性， [!DNL Target] 使用置信区间。 [!DNL Target] 始终报告95%的置信区间，这意味着从长远来看，计算出的95%的置信区间包含体验的真实转化率。
 
 转化率的95%置信区间 *μ<sub>ν</sub>* 定义为值范围：
 
@@ -64,7 +68,7 @@ ht-degree: 2%
 
 ## 提升度
 
-下图显示了 [!DNL Target] 报告。 数字表示提升度范围的平均值，箭头表示提升度是正值还是负值。 箭头以灰色显示，直到置信度超过95%为止。 置信度超过阈值后，箭头会根据正提升度或负提升度显示为绿色或红色。
+下图显示了 [!UICONTROL 提升度] 和 [!UICONTROL 提升的置信区间] 在 [!DNL Target] 报告。 数字表示提升度范围的平均值，箭头表示提升度是正值还是负值。 箭头以灰色显示，直到置信度超过95%为止。 置信度超过阈值后，箭头会根据正提升度或负提升度显示为绿色或红色。
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
@@ -80,9 +84,9 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 如果控制体验的转化率 *ν<sub>0</sub>* 为0时，没有提升度。
 
-## 提升的置信区间
+## [!DNL Confidence Interval of Lift]
 
-中的箱形图 [!UICONTROL 平均提升度和置信区间] 列表示提升的平均值和95%置信区间。 当给定非控制体验的置信区间与控制体验的置信区间存在重叠时，箱形图将显示为灰色；当给定体验的置信区间范围高于或低于控制体验的置信区间时，箱形图将显示为绿色或红色。
+中的箱形图 [!UICONTROL 平均提升度和置信区间] 列表示平均值和95% [!UICONTROL 提升的置信区间]. 当给定非控制体验的置信区间与控制体验的置信区间存在重叠时，箱形图将显示为灰色；当给定体验的置信区间范围高于或低于控制体验的置信区间时，箱形图将显示为绿色或红色。
 
 体验之间提升度的标准错误  *ν*，以及控制体验  *ν<sub>0</sub>* 定义为：
 
@@ -94,9 +98,9 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 此计算使用“Delta”方法，并对其进行了说明 [在本文档中有更详细的内容](/help/main/assets/confidence_interval_lift.pdf)
 
-## 置信度
+## [!UICONTROL 置信度]
 
-最后一列显示 [!DNL Target] 报表。 体验的置信度是获得结果的概率（以百分比表示），该结果比假设空假设为true时实际观察到的结果更为极端。 对于p值，显示的置信度为 *1 - p值*. 直观而言，较高的置信度意味着控制体验和非控制体验具有相同转化率的可能性较小。
+最后一列显示 [!DNL Target] 报表。 体验的置信度是获得结果的概率（以百分比表示），结果比实际观察到的结果更为极端，前提是空假设为真。 对于p值，显示的置信度为 *1 - p值*. 直观而言，较高的置信度意味着控制体验和非控制体验具有相同转化率的可能性较小。
 
 在 [!DNL Target]，双尾 **韦尔奇的T检验** 在测试体验和控制体验之间执行，以测试测试和控制体验的方式是否相同。 因为在运行实验之前，我们通常不知道两组样本的大小和差异是否相同， [!DNL Target] 此外，我们还允许您拥有发送到每个体验的不同流量百分比，我们不假定每个体验的差异相等。 因此，选择韦尔奇的t型考试，而不是学生的t型考试。
 
@@ -126,7 +130,7 @@ where *σ<sup>2</sup><sub>v</sub>* 和 *σ<sup>2</sup><sub>v<sub>0</sub></sub>* 
 
 <p style="text-align:center;"><img width="20%" src="img/p_value.png"></p>
 
-最后，信心报告 [!DNL Target] 定义为：
+最后， [!DNL Target] 定义为：
 
 <p style="text-align:center;"><img width="20%" src="img/confidence.png"></p>
 

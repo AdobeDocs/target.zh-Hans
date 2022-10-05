@@ -4,7 +4,7 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ff70cddb7a6c97d6b4dccf86e73a0d147981e88e
+source-git-commit: c5445903e7bbab210d0e72200c54ab07975c21c5
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 79%
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新时间：2022 年 10 月 3 日**
+**上次更新时间：2022 年 10 月 4 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 

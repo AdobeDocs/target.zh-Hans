@@ -4,16 +4,23 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
+source-git-commit: dddca90ac9280b6bab25b7e01d5ced33d1feead5
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 99%
+source-wordcount: '1320'
+ht-degree: 97%
 
 ---
 
 # 文档更改
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
+
+## [!DNL Adobe Target]标准版/高级版 22.10.1（交错发布：2022 年 10 月 10 日至 13 日）
+
+| 日期 | 主题 | 更改 |
+| --- | --- | --- |
+| 10 月 4 日 | [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 新主题。<br>本文中的信息将 *Adobe Target A/B测试计算* 之前可在此网站上下载的pdf文件。 |
+|  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.10.1 版的发行说明。 |
 
 ## [!DNL Adobe Target] Standard/Premium 22.9.1（交错发布：2022 年 9 月 13 日至 15 日）
 

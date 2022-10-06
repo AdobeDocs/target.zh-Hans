@@ -4,9 +4,9 @@ description: 了解如何解释Adobe Target中的Automated Personalization摘要
 title: 如何使用Automated Personalization摘要报表？
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '679'
 ht-degree: 37%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 37%
 
 单击体验算法（随机林或控制）可查看 [!UICONTROL 选件级别] 报表。
 
-![](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
+![Adobe Target中的选件级别报表](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 选件可以在报表组中显示，而这些报表组可以折叠或展开。在下拉列表中选择“[!UICONTROL 报表组]”，可查看按报表组（而不是选件）汇总的信息。
 

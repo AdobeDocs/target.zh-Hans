@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用优惠报表组 [!DNL Target] Automate
 title: 我能否在Automated Personalization活动中使用选件报表组？
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 62%
+source-wordcount: '463'
+ht-degree: 59%
 
 ---
 
@@ -34,16 +34,16 @@ ht-degree: 62%
 
 1. 在 [!UICONTROL 体验] 页面，单击 **[!UICONTROL 管理内容]** 图标。
 
-   ![](/help/main/c-reports/assets/ap_manage_content.png)
+   ![“管理内容”图标](/help/main/c-reports/assets/ap_manage_content.png)
 
 1. 单击“**[!UICONTROL 管理内容]**”对话框顶部的[!UICONTROL 选件]选项卡。
 1. （视情况而定）将特定体验添加到报表组，方法是将鼠标悬停在所需的选件上，然后单击&#x200B;**[!UICONTROL 报表组]**&#x200B;文件夹图标。
 
-   ![](/help/main/c-reports/assets/ap_manage_content_2.png)
+   ![“报表组”图标](/help/main/c-reports/assets/ap_manage_content_2.png)
 
 1. （视情况而定）在报表组中批量添加体验，方法是选中相关体验的复选框，然后单击对话框右上角的&#x200B;**[!UICONTROL 报表组]**&#x200B;文件夹图标。
 
-   ![](/help/main/c-reports/assets/ap_manage_content_3.png)
+   ![“报表组”图标](/help/main/c-reports/assets/ap_manage_content_3.png)
 
 1. （视情况而定）要将选定选件分配给现有报表组，请选择 **[!UICONTROL 现有]**，从下拉列表中选择所需的报表组，然后单击 **[!UICONTROL 应用]**.
 
@@ -51,4 +51,4 @@ ht-degree: 62%
 
    要创建新报表组以将所选选件分配到该报表组，请选择&#x200B;**[!UICONTROL 新建]**，为新报表组命名，然后单击&#x200B;**[!UICONTROL 应用]**。
 
-   ![](/help/main/c-reports/assets/ap_reporting_groups.png)
+   ![用于创建新报表组的新图标](/help/main/c-reports/assets/ap_reporting_groups.png)

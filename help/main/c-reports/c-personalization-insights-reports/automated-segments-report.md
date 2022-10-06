@@ -4,9 +4,9 @@ description: 了解由Adobe定义的不同区段 [!DNL Target] 个性化模型�
 title: 什么是自动化区段报表？
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2143'
 ht-degree: 73%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 73%
 
    的 [Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md) 或 [自动定位摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 报表会显示，其中提供了有关活动性能的信息，由第一个屏幕图标表示。 其他两个图标表示两个个性化分析报表：自动化区段和重要属性。自动定位具有一个额外的图形图标，用于显示 [!UICONTROL 概要] 报表。
 
-   ![](/help/main/c-reports/assets/personalization_insights.png)
+   ![Adobe Target中的个性化分析报表](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -56,11 +56,11 @@ ht-degree: 73%
 
    与 [!UICONTROL 概要] 报告（性能报告）、 [!UICONTROL 个性化分析]，包括 [!UICONTROL 自动化区段]，则仅适用于固定日期范围：15天，30天，60天。 通过这些固定日期范围，“[!UICONTROL 个性化分析]”可以使用足够多的数据来降低您从活动中的短生存期模式获取分析的可能性。您可以决定日期范围的“结束日期”和“持续时间”。您会注意到“开始”呈灰显状态。 开始日期会根据您选择的结束日期和持续时间自动进行更改。
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Adobe Target报表中的日历](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    您可以从“[!UICONTROL 选择持续时间]”下拉列表中访问可用的固定日期范围。
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![持续时间下拉列表(位于Adobe Target中)](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. 查看“[!UICONTROL 自动化区段]”报表数据。
 

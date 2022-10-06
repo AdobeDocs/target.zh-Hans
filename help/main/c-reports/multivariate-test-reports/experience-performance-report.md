@@ -4,10 +4,10 @@ description: 了解如何使用体验性能报表进行Adobe [!DNL Target] 体�
 title: 如何将体验性能报表用于多变量测试？
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 您可以选择一个或多个体验来进行比较。单击某个体验，然后选择&#x200B;**[!UICONTROL 预览]**，以在浏览器选项卡中打开该体验。
 
-![](/help/main/c-reports/assets/experienceperformancetable.png)
+![Adobe Target中的体验性能报表](/help/main/c-reports/assets/experienceperformancetable.png)
 
 报表顶部显示了报表中使用的量度、开始和结束日期以及受众。您可以对所有这些元素进行更改。
 

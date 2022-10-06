@@ -4,10 +4,10 @@ description: 了解如何使用 [!UICONTROL 重要属性] 此报表显示影响�
 title: 什么是重要属性报表？
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 81%
+source-wordcount: '1744'
+ht-degree: 80%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 81%
 
 1. 激活活动15天后，单击 **[!UICONTROL 重要属性]** 图标。
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
+   ![Adobe Target报表中的“重要属性”图标](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. 选择所需的日期范围。
 
@@ -66,15 +66,15 @@ ht-degree: 81%
 
    通过这些固定日期范围，“[!UICONTROL 个性化分析]”可以使用足够多的数据来降低您从活动中的短生存期模式获取分析的可能性。您可以决定日期范围的“结束日期”和“持续时间”。您会注意到“开始”显示为灰色。开始日期会根据您选择的结束日期和持续时间自动进行更改。
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Adobe Target报表中的日历](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    您可以从“[!UICONTROL 选择持续时间]”下拉列表中访问可用的固定日期范围。
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![在报表中选择持续时间下拉列表](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. 查看“[!UICONTROL 重要属性]”报表数据。
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
+   ![Adobe Target中的重要属性报表](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. （可选）[以 CSV 格式下载报表](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)，以便在 Excel 和其他工具中进行分析。
 

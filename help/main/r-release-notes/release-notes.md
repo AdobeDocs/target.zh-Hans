@@ -5,7 +5,7 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
+source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 87%
@@ -23,7 +23,7 @@ ht-degree: 87%
 此版本将按照以下交错发布计划发布：
 
 * **10 月 10 日**：亚太 (APAC) 区域
-* **10 月 11 日**：美洲区域
+* **10 月 12 日**：美洲区域
 * **10 月 13 日**：欧洲、中东和非洲 (EMEA) 区域
 
 此版本包含以下新功能、增强和修复：

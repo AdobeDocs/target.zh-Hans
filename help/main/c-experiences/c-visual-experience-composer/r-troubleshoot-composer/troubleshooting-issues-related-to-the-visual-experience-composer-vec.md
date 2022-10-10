@@ -4,10 +4,10 @@ description: 了解如何对Adobe中有时出现的问题进行故障诊断 [!DN
 title: 如何对与可视化体验编辑器有关的问题进行故障诊断？
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 85%
+source-wordcount: '869'
+ht-degree: 78%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 85%
 
 设置扩展程序后，打开 Target。即使禁用了增强型体验编辑器，您的页面现在也应当能够在可视化体验编辑器中加载。
 
-## VEC 中不显示我的页面（仅 VEC） {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## VEC 中不显示我的页面（仅 VEC） {#does-not-load}
 
 * 浏览器不受支持。
 * 浏览器阻止安全网站上的不安全页面。
@@ -114,7 +114,11 @@ ht-degree: 85%
 * 您输入了无效的 URL。
 * 您尚未在帐户设置页面中输入默认 URL。
 
-确保已启用此设置，然后在您的网站上下载并更新at.js。
+   确保已启用此设置，然后在您的网站上下载并更新at.js。
+
+* 如果您尝试使用 [新建 [!UICONTROL 可视化编辑助手] 扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 然后回到 [旧扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 和 [!DNL Target] 无法加载您的网站、清除所有浏览器数据并禁用新扩展。
+
+* 如果您的网站无法在VEC中加载，或者行为异常，则可能的修复是：在尝试在中加载网站之前，先在浏览器中接受您网站上的Cookie [!DNL Target].
 
 ## 使用浏览模式时，VEC 显示已损坏。（仅 VEC） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 

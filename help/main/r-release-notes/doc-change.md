@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: dddca90ac9280b6bab25b7e01d5ced33d1feead5
+source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 100%
+source-wordcount: '1327'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 10 月 10 日 | [[!UICONTROL 可视化编辑帮助程序]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新文章。 |
 | 10 月 4 日 | [A/Bn 测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 新主题。<br>本文中的信息取代了&#x200B;*用于 A/B 测试的 Adobe Target 计算* pdf 文件，以前可在此站点上下载。 |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.10.1 版的发行说明。 |
 

@@ -5,7 +5,7 @@ description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化�
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 477785eb6db2dfd50f63787d419bdfce36ee44d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
 ht-degree: 100%
 

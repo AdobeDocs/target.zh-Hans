@@ -5,9 +5,9 @@ title: 如何在 A4T 中将夸大的访问数和访客数降至最低？
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1345'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Adobe 有一些客户遇到了 [!DNL Analytics] 中的部分数据比例较高�
 
 下图显示了该虚拟报表包的区段定义：
 
-![ts_a4t图像](assets/ts_a4t.png)
+![ts_a4t 图像](assets/ts_a4t.png)
 
 创建虚拟报表包时，请为区段定义指定以下配置（如上图所示）：
 

@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
-## [!DNL Adobe Target]Standard/Premium 22.10.1（交错发布：2022 年 10 月 10 日至 13 日）
+## [!DNL Adobe Target] Standard/Premium 22.10.1（交错发布：2022 年 10 月 10 日至 13 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |

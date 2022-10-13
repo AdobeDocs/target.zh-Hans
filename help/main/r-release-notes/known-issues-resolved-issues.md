@@ -4,9 +4,9 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '4528'
+source-wordcount: '4326'
 ht-degree: 100%
 
 ---
@@ -23,21 +23,9 @@ ht-degree: 100%
 
 下面部分列出了 [!DNL Target] 的已知问题：
 
-### 增强体验编辑器 (EEC) 不支持 PUT 请求。
-
-目前，EEC 的一个问题使其无法支持 PUT 请求，导致出现 504 超时错误。(TGT-41493)
-
-### [!DNL Adobe Experience Platform] 区段名称未显示在[!UICONTROL 重要属性]报告中。
-
-[!DNL Adobe Experience Platform] 区段名称未显示在 [!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 自动定位] (AT) 活动的[!UICONTROL 重要属性]报告中。(TOP-3813)
-
 ### 存档[!UICONTROL 自动定位]活动可能会导致同步问题
 
 尝试存档无效的[!UICONTROL 自动定位]活动可能会导致同步问题。在解决此问题之前，请勿存档[!UICONTROL 自动定位]活动。请让它们处于[!UICONTROL 无效]状态。(TGT-40885)
-
-### 重定向选件 {#redirect}
-
-* at.js 实施中的重定向活动可能会导致预览 URL 进入循环（重复提供该选件）。您可以改为使用 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)来执行预览和 QA。此问题不会影响选件的实际交付。(TGT-23019)
 
 ### 在可视体验编辑器 (VEC) 中取消加载页面 {#cancel}
 
@@ -86,12 +74,6 @@ ht-degree: 100%
 * at.js 可能不适用于 Cordova/Hybrid 应用程序，因为它们当前不支持第一方 Cookie。(TNT-26166)
 
    **解决方法**：请在启用“仅限 x”选项的情况下配置 at.js，并在调用中传递 `mboxThirdPartyId` 以管理用户。
-
-### 成功量度
-
-其高级选项“计数将如何递增”被设置为“每次展示”或“每次展示（不包括刷新）”的成功指标无法用作另一指标所依赖的成功指标。
-
-将成功指标设置为每次展示递增时，Target 在每次有访客访问此成功指标时都再次计算访客数。然后，Target 会将成功量度“成员资格”重置为 0，以便在下次展示时再次对其计数。因此，如果另一指标要求首先看到此指标，则 Target 从不承认用户已看到第一个标准。
 
 ### Analytics for [!DNL Target] (A4T)
 

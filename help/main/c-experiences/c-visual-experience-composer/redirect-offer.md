@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用“重定向到URL”选项 [!DNL Targ
 title: 是否可以将页面重定向到其他URL?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 80%
+source-wordcount: '485'
+ht-degree: 82%
 
 ---
 
@@ -51,4 +51,9 @@ ht-degree: 80%
    * 话题标签 (#) 片段
    * 查询
    * mbox 参数
+
    可以使用 AND 或 OR 将其他规则连接到活动 URL。您添加的所有规则将使用 AND 进行相互评估。
+
+## 已知问题
+
+* at.js 实施中的重定向活动可能会导致预览 URL 进入循环（重复提供该选件）。您可以改为使用 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)来执行预览和 QA。此问题不会影响选件的实际交付。(TGT-23019)

@@ -4,10 +4,10 @@ description: 了解Adobe中的成功量度 [!DNL Target] 来帮助您确定活�
 title: 什么是成功量度？
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 43%
+source-wordcount: '1267'
+ht-degree: 42%
 
 ---
 
@@ -77,8 +77,8 @@ ht-degree: 43%
 
 * [!UICONTROL Recommendations] 活动. 其他所有活动类型均支持此功能。
 * 如果您使用 [Analytics作为报表源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。
-* 量度类型为“已查看页面”。
-* 可视化体验编辑器 (VEC) 活动的量度类型为“已单击元素”。
+* “已查看页面”量度类型。
+* 可视化体验编辑器(VEC)活动的“已单击元素”量度类型。
 
 在以下情况下，具有依赖关系的成功量度将无法转化：
 
@@ -106,6 +106,12 @@ ht-degree: 43%
 * 每个参加者一次
 * 每次展示时（页面刷新除外）
 * 每次展示时
+
+## 已知问题
+
+* 其高级选项“计数将如何递增”被设置为“每次展示”或“每次展示（不包括刷新）”的成功指标无法用作另一指标所依赖的成功指标。
+
+将成功量度设置为每次展示时递增时， [!DNL Target] 每次访客访问此成功量度时，都会再次计算该访客。 [!DNL Target]然后， 会将成功量度“成员资格”重置为 0，以便在下次展示时再次对其计数。因此，如果其他量度要求先查看此量度， [!DNL Target] 从不识别用户已查看第一个量度。
 
 ## 培训视频：活动量度
 

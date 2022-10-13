@@ -4,9 +4,9 @@ description: 了解如何使用 [!UICONTROL 重要属性] 此报表显示影响�
 title: 什么是重要属性报表？
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1776'
 ht-degree: 80%
 
 ---
@@ -148,3 +148,9 @@ ht-degree: 80%
 * 了解哪些属性对模型的学习方式最为关键。
 * 查看个性化模型中使用的属性，并了解它们的重要性。
 * 确定您可以将其他数据点传递到 Target 的机会，以便为您的个性化提供更多信息。
+
+## 已知问题
+
+以下问题当前正由 [!DNL Target] 工程团队。
+
+* [!DNL Adobe Experience Platform] 区段名称未显示在 [!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 自动定位] (AT) 活动的[!UICONTROL 重要属性]报告中。(TOP-3813)

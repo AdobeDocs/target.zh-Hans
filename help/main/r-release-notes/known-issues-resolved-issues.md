@@ -4,9 +4,9 @@ description: 查找关于 Adobe Target 中已知问题的信息，包括解决�
 title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
 workflow-type: tm+mt
-source-wordcount: '4326'
+source-wordcount: '4229'
 ht-degree: 100%
 
 ---
@@ -74,12 +74,6 @@ ht-degree: 100%
 * at.js 可能不适用于 Cordova/Hybrid 应用程序，因为它们当前不支持第一方 Cookie。(TNT-26166)
 
    **解决方法**：请在启用“仅限 x”选项的情况下配置 at.js，并在调用中传递 `mboxThirdPartyId` 以管理用户。
-
-### Analytics for [!DNL Target] (A4T)
-
-在 Analysis Workspace 中使用 Target 活动展示和转化时，请将“同一次接触”Attribution IQ 模型应用于指标以确保准确计数。要应用[非默认归因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=zh-Hans)，请右键单击指标以&#x200B;**修改“列设置”> 启用“使用非默认归因模型”> 选择“同一次接触”模型**。如果不应用此模型，则指标将被夸大。
-
-所有当前的 Analytics 包均可通过 Attribution IQ 添加此模型。如果您无权访问 Attribution IQ，请在 Reports &amp; Analytics 中依靠 A4T 数据。
 
 ## 已解决的问题 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 

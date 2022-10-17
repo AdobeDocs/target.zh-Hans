@@ -21,7 +21,7 @@ ht-degree: 99%
 | --- | --- | --- |
 | 10 月 14 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了有关 [!DNL Adobe Target] 社区问答型咖啡时间（2022年10月26日）。 |
 | 10 月 10 日 | [[!UICONTROL 可视化编辑帮助程序]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新文章。 |
-|  | [对与可视化体验编辑器有关的问题进行故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 更新“[VEC 中不显示我的页面（仅 VEC）](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)”部分。 |
+|  | [排除与可视化体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 更新了“[VEC 中不显示我的页面（仅 VEC）](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)”部分。 |
 | 10 月 4 日 | [A/Bn 测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 新主题。<br>本文中的信息取代了&#x200B;*用于 A/B 测试的 Adobe Target 计算* pdf 文件，以前可在此站点上下载。 |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.10.1 版的发行说明。 |
 

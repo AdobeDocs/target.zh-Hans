@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: afb2e988aebb1aa1795bf79cae100350af501952
+source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 97%
+source-wordcount: '1214'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 97%
    + [Target 发行说明（当前版本）](r-release-notes/release-notes.md)
    + [Target 发行说明（预发行版本）](r-release-notes/target-release-notes.md)
    + [Target 文档概述](/help/main/r-release-notes/target-documentation.md)
-   + [Target 内参新闻稿](/help/main/r-release-notes/target-insider-newsletter.md)
    + [已知问题和已解决的问题](r-release-notes/known-issues-resolved-issues.md)
    + [系统状态更新和主动通知](r-release-notes/system-status-updates.md)
    + [文档更改](r-release-notes/doc-change.md)
@@ -234,7 +233,7 @@ ht-degree: 97%
          + [增强型体验编辑器故障诊断](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [在浏览器中启用混合内容](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [页面修改方案](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
-         + [Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
+         + [可视化编辑帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [重定向到 URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [创建可以在可视化体验编辑器中工作的轮播效果](c-experiences/c-visual-experience-composer/vec-carousels.md)
@@ -259,7 +258,7 @@ ht-degree: 97%
       + [排除极端值](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [将数据下载到 CSV 文件](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + 统计方法 {#statistical-methodology}
-      + [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
+      + [A/Bn 测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + 个性化报表 {#personalization-reports}
       + [自动定位摘要报表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 摘要报表](/help/main/c-reports/personalization-reports/reports-ap.md)

@@ -4,20 +4,20 @@ description: 您已在 Adobe Target 中创建了您的第一个活动。接下�
 title: 可在何处找到其他资源以更有效地使用 Target？
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '720'
-ht-degree: 100%
+source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 83%
 
 ---
 
 # 第 9 章：后续步骤和资源
 
-我们已经介绍了运行您的第一个活动的基础知识。我们希望该活动向您和您的公司表明，使用 [!DNL Adobe Target] 进行优化和个性化对于提高业务盈利能力有着巨大潜力。而这仅仅是开始。现在应该考虑一下对于您的第二个活动将侧重于什么方面？请考虑创建要优先运行的活动的列表。您很快就会发现一个又一个活动将改善客户体验并促使业务取得成功，并为此感到震惊。
+我们介绍了运行您的第一个活动的基础知识。 我们希望该活动向您和您的公司表明，使用 [!DNL Adobe Target] 进行优化和个性化对于提高业务盈利能力有着巨大潜力。而这仅仅是开始。该考虑下第二项活动要关注的内容了吗？ 请考虑创建要优先运行的活动的列表。您会惊讶地发现，按活动划分的活动可以以多快的速度改善客户体验并推动业务成功。
 
-顺便说一下，您还有许多方式可详细了解测试、个性化和使用 [!DNL Target]。请查看下方的资源列表以开始积累这些知识。收听我们的网络研讨会、阅读 Adobe Target 博客、参加 Adobe Summit 并在 Adobe Target 网络社区中积极交流。不要忘记，我们会一直努力帮助您启动项目并获得成功。请随时联系。
+顺便说一下，您还有许多方式可详细了解测试、个性化和使用 [!DNL Target]。请查看下方的资源列表以开始积累这些知识。收听我们的网络研讨会、阅读 Adobe Target 博客、参加 Adobe Summit 并在 Adobe Target 网络社区中积极交流。请不要忘记，我们始终在这里帮助您启动您的计划并将其推向成功之路。 请随时联系。
 
-我们整理了一个列表，提供了许多宝贵信息，可帮助您获得更多关于使用 [!DNL Target] 进行优化和个性化的知识。
+我们整理了一份有组织的有价值信息列表，以帮助您进一步了解如何使用 [!DNL Target].
 
 ## 资源链接
 
@@ -42,7 +42,6 @@ ht-degree: 100%
 
 * **Adobe Target 主页**：[!DNL Adobe Target] 的主页，从中可了解我们的能力并查看我们最新的成功案例。请参阅 [Adobe Target](https://www.adobe.com/cn/marketing/target.html)。
 * **博客**：关注 [Target 博客](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5)，即可掌握最新的动向、提示和成功案例。
-* **Experience League**：探索开展体验业务所需的指南、活动和培训，并与 Target 社区建立联系，从而找到您所寻找的答案。请参阅 [Adobe Experience League 主页](https://experienceleague.adobe.com/#home)。
+* **Experience League**:了解开始您的体验业务所需的指南、活动和培训，并与Target社区建立联系，找到您想要的答案。 请参阅 [Adobe Experience League 主页](https://experienceleague.adobe.com/#home)。
 * **Adobe Target 认证**：通过新的 Adobe Target 考试获得 Adobe 认证专家身份。在此可安排考试或参加培训课程。请参阅[培训和认证](/help/main/c-intro/training-and-certification.md)。
 * **Adobe Target 发行说明**：关于每个 [!DNL Target Standard] 和 [!DNL Target Premium] 发行版的功能、增强和修复的信息。此外，在适用的情况下，还包括 Target API、SDK、JavaScript 库 (at.js) 的发行说明和其他平台变更。请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md)。
-* **Adobe Target 新闻稿**：了解产品更新和未来计划、个性化和优化提示和技巧、客户成功案例、即将举行的活动、热门博客帖子等。请参阅 [Target Insider 新闻稿](/help/main/r-release-notes/target-insider-newsletter.md)。

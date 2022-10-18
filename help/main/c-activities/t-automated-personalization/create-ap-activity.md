@@ -4,10 +4,10 @@ description: 了解如何创建 [!UICONTROL Automated Personalization] (AP) [!DN
 title: 如何创建 [!UICONTROL Automated Personalization] 活动？
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 89%
+source-wordcount: '2078'
+ht-degree: 88%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 89%
 
    >[!NOTE]
    >
-   >尽管您在 AP 活动中最多可以创建 30,000 个体验，但只有当使用的体验少于 5,000 个时，活动效果才会最佳。
+   >尽管您在 AP 活动中最多可以创建 30,000 个体验，但只有当使用的体验少于 5,000 个时，活动效果才会最佳。即使活动启用了 [!UICONTROL 显示重复项] 选项。
 
    “[!UICONTROL 体验]”列表显示了为活动选择的每个内容块以及该活动被分配到的位置。
 
@@ -106,7 +106,7 @@ ht-degree: 89%
 
    ![“管理内容”对话框的“排除组”选项卡](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   尽管您在 AP 测试中最多可以创建 30,000 个体验，但只有当使用的不同体验少于 10,000 个时，算法才能提供最佳运算结果。
+   尽管您在 AP 测试中最多可以创建 30,000 个体验，但只有当使用的不同体验少于 10,000 个时，算法才能提供最佳运算结果。即使活动启用了 [!UICONTROL 显示重复项] 选项。
 
    如果活动中当前未包含任何排除组，请单击&#x200B;**创建排除组**。您可以进行筛选以创建一个仅显示要排除的组合的列表。命名排除组，然后单击&#x200B;**保存**。
 

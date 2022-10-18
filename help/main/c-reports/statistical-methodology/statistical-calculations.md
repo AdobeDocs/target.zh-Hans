@@ -3,20 +3,20 @@ keywords: 报表；统计方法；统计计算；统计数据；平均值；转�
 description: 了解手动中使用的统计计算 [!UICONTROL A/B测试] 活动 [!DNL Adobe Target].
 title: 如何了解 [!UICONTROL A/B测试] 活动？
 feature: Reports
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 2%
+source-wordcount: '1091'
+ht-degree: 5%
 
 ---
 
-# A/Bn测试中的统计计算
+# A/Bn 测试中的统计计算
 
 本文记录了A/Bn手动测试中使用的详细统计计算 [!DNL Adobe Target]. 定义已提供 [!UICONTROL 转化率], [!UICONTROL 转化率的置信区间], [!UICONTROL 提升度], [!UICONTROL 提升的置信区间]和 [!UICONTROL 置信度].
 
 >[!NOTE]
 >
->本文中的信息将 *Adobe Target A/B测试计算* 之前可在此网站上下载的pdf文件。
+>本文中的信息取代了&#x200B;*用于 A/B 测试的 Adobe Target 计算* pdf 文件，以前可在此站点上下载。
 
 ![显示 [!UICONTROL 转化率], [!UICONTROL 平均提升度和置信区间]和 [!UICONTROL 置信度] A/B测试活动。](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
@@ -138,4 +138,4 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 [下载的 CSV 报表](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)仅包含原始数据，而不包含计算量度，如 A/B 测试中使用的每位访客带来的收入、提升度或置信度。
 
-要计算这些统计数量，请下载Target的 [完整置信度计算器](/help/main/assets/complete_confidence_calculator.xlsx) 用于输入活动值的Excel文件。
+要计算这些统计数量，请下载 [!DNL Target] [完整置信度计算器](/help/main/assets/complete_confidence_calculator.xlsx) 用于输入活动值的Excel文件。

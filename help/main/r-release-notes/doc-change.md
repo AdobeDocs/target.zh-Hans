@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 99%
+source-wordcount: '1458'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 10 月 14 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了有关 [!DNL Adobe Target] 社区问答型咖啡时间（2022年10月26日）。 |
+| 10 月 18 日 | [[!UICONTROL 创建 Automated Personalization 活动]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | 更新了文本，以说明尽管您在AP测试中最多可以创建30,000个体验，但算法在使用的不同体验少于10,000个时表现最佳。 即使活动启用了 [!UICONTROL 显示重复项] 选项。 |
+|  | [自动个性化常见问题](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | 更新了文本，以说明尽管您在AP测试中最多可以创建30,000个体验，但算法在使用的不同体验少于10,000个时表现最佳。 即使活动启用了 [!UICONTROL 显示重复项] 选项。 |
+| 10 月 14 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于 [!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 10 月 26 日）的注册信息。 |
 | 10 月 10 日 | [[!UICONTROL 可视化编辑帮助程序]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新文章。 |
 |  | [排除与可视化体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 更新了“[VEC 中不显示我的页面（仅 VEC）](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)”部分。 |
 | 10 月 4 日 | [A/Bn 测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 新主题。<br>本文中的信息取代了&#x200B;*用于 A/B 测试的 Adobe Target 计算* pdf 文件，以前可在此站点上下载。 |
@@ -39,7 +41,7 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 8 月 22 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下公告的信息：<ul><li>[!DNL Target] 在个性化引擎的 Gartner Magic Quadrant 方面评选佼佼者 (2022)</li></ul>添加了关于以下即将发生的事件的信息：<ul><li>[!DNL Adobe Target] 社区问答茶歇（2022 年 8 月 31 日）</li><li>厨师的收藏集：个性化食谱（2022 年 8 月 30 日）</li><li>[!DNL Adobe Target] Skill Builders – 移动体验优化（2022 年 9 月 6 日）</li><li>[!DNL Adobe Target] Skill Builders – 人工智能驱动的个性化和推荐（2022 年 9 月 15 日）</li></ul>为以下过去的网络研讨会添加了录制链接：<ul><li>Adobe: Personalization Industry Insider – 零售（2022 年 8 月 11 日）</li></ul> |
+| 8 月 22 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下公告的信息：<ul><li>[!DNL Target] 在个性化引擎的 Gartner Magic Quadrant 方面评选佼佼者 (2022)</li></ul>添加了关于以下即将发生的事件的信息：<ul><li>[!DNL Adobe Target] 社区问答茶歇（2022 年 8 月 31 日）</li><li>厨师的收藏集：个性化食谱（2022 年 8 月 30 日）</li><li>[!DNL Adobe Target] Skill Builders – 移动体验优化（2022 年 9 月 6 日）</li><li>[!DNL Adobe Target] Skill Builders – 人工智能驱动的个性化和推荐（2022 年 9 月 15 日）</li></ul>为以下过去的网络研讨会添加了录像链接：<ul><li>Adobe: Personalization Industry Insider – 零售（2022 年 8 月 11 日）</li></ul> |
 | 8 月 22 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.8.1 版的发行说明。 |
 
 ## Adobe Target Standard/Premium 22.6.1（交错发布：2022 年 6 月 7 日- 9 日）
@@ -48,7 +50,7 @@ ht-degree: 99%
 | --- | --- | --- |
 | 6 月 30 日 | [Adobe Target 开发人员指南](https://developer.adobe.com/target/){target=_blank} | 发布了 *Adobe Target 开发人员指南*，将所有[!DNL Target]开发者内容整合到一个方便的门户中。该门户包含有关实施 [!DNL Target] 和 [!DNL Recommendations]、[!DNL Target] SDK 以及 [!DNL Target] API 的信息。 |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.6.2 版的发行说明。 |
-|  | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了以往网络研讨会会议的录制链接。 |
+|  | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了以往网络研讨会会议的录像链接。 |
 | 6 月 14 日 | [计划和实施 Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | 更新了以下部分中的代码示例：<ul><li>购物车添加/购物车视图/结账页面</li><li>排除访客购物车中已有的项目</li></ul> |
 | 6 月 7 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.6.1 版的发行说明。 |
 
@@ -61,7 +63,7 @@ ht-degree: 99%
 | 5 月 25 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target] Platform 版（2022 年 5 月 25 日）和 at.js 2.9.0 版（2022 年 5 月 27 日）的信息。 |
 |  | [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 添加了有关 at.js 2.9.0 版的信息。 |
 |  | [用户代理和客户端提示](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | 新主题。 |
-|  | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md#webinar-series) | 添加了以下网络研讨会的录制链接：迪克的体育用品：零售业的个性化及变化（2022 年 5 月 19 日） |
+|  | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md#webinar-series) | 添加了以下网络研讨会的录像链接：迪克的体育用品：零售业的个性化及变化（2022 年 5 月 19 日） |
 | 5 月 23 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了 at.js 2.9.0 版（2022 年 5 月 25 日）预发行版本说明 |
 | 5 月 11 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md#webinar-series) | 添加了以下网络研讨会的信息和注册链接：<ul><li>迪克体育用品：个性化和零售业的变化</li><li>Adobe：个性化行业内幕 — 金融服务和保险</li><li>国民城市银行 (City National Bank)：如何在数字优化中实现前 1% 的目标</li><li>Adobe：精准个性化 — [!DNL Adobe Analytics] 和 [!DNL Target]</li><li>国民城市银行：从零到英雄 — 启动并扩展个性化计划</li><li>Adobe：发现高影响力的优化机会</li><li>Adobe：个性化行业内幕 — 零售业</li></ul>添加了以下网络研讨会的录像：<ul><li>[!DNL Adobe Target] 的实时个性化服务</li></ul> |
 |  | [内容安全策略 (CSP) 指令](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank} | 添加了常见问题解答部分。 |

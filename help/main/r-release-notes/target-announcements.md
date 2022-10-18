@@ -5,9 +5,9 @@ title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1927'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 ## [!DNL Adobe Target] 社区问答喝咖啡休息时间
 
-Drew Burns，Analytics的集团产品营销经理 [!DNL Adobe Target]，将回答 [!DNL Target] 与最近发布的关于AI功能智能和控制以及所有个性化内容的令人兴奋的最新公告相关的问题。
+我们最近宣布了一个好消息，AI 功能的智能和控制得以增强，并且所有事物均可个性化，[!DNL Adobe Target] 的集团产品营销经理 Drew Burns 将为您解答与此相关的各种 [!DNL Target] 疑问。
 
-* **10月26日星期三**
-* **上午 9:00 到 10:00 (PDT, UTC-7)**
-* **[注册信息](https://adobe.ly/3e6gqHe) {target=_blank}**
+* **10 月 26 日星期三**
+* **上午 9:00 到 10:00（PDT，UTC-7）**
+* **[注册信息](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}**
 
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 
 注册参加以下网络研讨会，了解客户如何使用 [!DNL Adobe Target] 来实现其个性化和优化目标：
 
-此时没有计划。
+目前没有任何安排。
 
 ## 过去的网络研讨会和技能培训课程录像
 
@@ -45,7 +45,7 @@ Drew Burns，Analytics的集团产品营销经理 [!DNL Adobe Target]，将回�
 
 我们很高兴与大家分享一些在 [!DNL Adobe Target] 的大规模个性化方面的“非常重大的”突破性消息：新的筛选和智能功能将增强 [!DNL Target] 用户微调 AI 支持的个性化活动的能力，从而直接影响对活动最重要的业务量度。
 
-* [录制链接](https://video.tv.adobe.com/v/3410117){target=_blank}
+* [录像链接](https://video.tv.adobe.com/v/3410117){target=_blank}
 
    +++详细信息
 
@@ -64,13 +64,13 @@ Drew Burns，Analytics的集团产品营销经理 [!DNL Adobe Target]，将回�
 
 实验和个性化方面的自动化继续推动提升市场营销、工程和产品团队的最高转化率和 ROI。 加入 [!DNL Adobe] Skill Builders 课程，学习如何使用 [!DNL Adobe Target] 高级人工智能驱动的用例和功能以及产品和内容推荐，在竞争中保持领先地位并在每一次体验中表现出色。
 
-* [录制链接](https://video.tv.adobe.com/v/3409352/){target=_blank}
+* [录像链接](https://video.tv.adobe.com/v/3409352/){target=_blank}
 
 ### [!DNL Adobe Target] Skill Builders – 移动体验优化（2022 年 9 月 6 日）
 
 移动体验正在推动营销和工程团队进行创新，探索如何在网络和应用程序中利用以产品为导向的跨渠道个性化策略。 加入 [!DNL Adobe] Skill Builders 课程，了解 [!DNL Adobe Target] 如何为营销人员、开发人员和产品所有者解锁新的潜在参与度和收入增长点，以构建繁荣的产品社区。
 
-* [录制链接](https://video.tv.adobe.com/v/347360){target=_blank}
+* [录像链接](https://video.tv.adobe.com/v/347360){target=_blank}
 
    +++详细信息
 
@@ -88,7 +88,7 @@ Drew Burns，Analytics的集团产品营销经理 [!DNL Adobe Target]，将回�
 
 加入 [!DNL Adobe Target] [!DNL ]团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 基于我们最新的电子书《Chef&#39;s Collection: Ideas for Personalization》。
 
-* [录制链接](https://video.tv.adobe.com/v/346970/){target=_blank}
+* [录像链接](https://video.tv.adobe.com/v/346970/){target=_blank}
 
    +++详细信息
 
@@ -123,7 +123,7 @@ Drew Burns，Analytics的集团产品营销经理 [!DNL Adobe Target]，将回�
 
 2022 年为企业提供了一个动态且快速变化的运行和运营环境。了解行业专家如何发现，随着上班族和旅行者的生活开始恢复正常，新的消费趋势正在形成。
 
-* [录制链接](https://video.tv.adobe.com/v/346323){target=_blank}
+* [录像链接](https://video.tv.adobe.com/v/346323){target=_blank}
 
    +++详细信息
 
@@ -135,7 +135,7 @@ Drew Burns，Analytics的集团产品营销经理 [!DNL Adobe Target]，将回�
 
 了解人工智能如何继续重新定义消费者的期望，因为机器学习模型和数据见解为营销人员、开发人员和产品所有者打开了新的大门，让消费者获得重要的个性化体验。逐步了解个性化、定位和测试的 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流。
 
-* [录制链接](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
+* [录像链接](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
 
    +++详细信息
 
@@ -152,7 +152,7 @@ Drew Burns，Analytics的集团产品营销经理 [!DNL Adobe Target]，将回�
 
 了解如何成为“关系银行”以提高品牌忠诚度的最佳实践。了解如何推动人员和流程来构建和扩展成功的个性化计划。
 
-* [录制链接](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
+* [录像链接](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
 
    +++详细信息
 
@@ -164,7 +164,7 @@ Drew Burns，Analytics的集团产品营销经理 [!DNL Adobe Target]，将回�
 
 了解我们如何进入比以往任何时候都更加数字化的新常态，组织利用每一个机会提供卓越的数字体验至关重要。足够好不再是真正的足够好。保持竞争力需要丰富的经验。
 
-* [录制链接](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
+* [录像链接](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
    +++详细信息
 
@@ -181,7 +181,7 @@ Drew Burns，Analytics的集团产品营销经理 [!DNL Adobe Target]，将回�
 
 了解大规模提升个性化计划的最佳实践。了解 Dick&#39;s Sporting Goods 如何使用 [!DNL Adobe Target] 吸引顶级运动员和品牌。
 
-* [录制链接](https://video.tv.adobe.com/v/343042){target=_blank}
+* [录像链接](https://video.tv.adobe.com/v/343042){target=_blank}
 
    +++详细信息
 
@@ -200,7 +200,7 @@ Drew Burns，Analytics的集团产品营销经理 [!DNL Adobe Target]，将回�
 
 了解金融服务公司如何使用个性化来支持和通知客户，为通货膨胀模式和投资策略做好准备。
 
-* [录制链接](https://video.tv.adobe.com/v/343240){target=_blank}
+* [录像链接](https://video.tv.adobe.com/v/343240){target=_blank}
 
    +++详细信息
 
@@ -212,7 +212,7 @@ Drew Burns，Analytics的集团产品营销经理 [!DNL Adobe Target]，将回�
 
 查看用于实施跨职能个性化策略的工具包和用例。了解 CNB 如何通过 [!DNL Adobe Target] 从行业底部的 26% 上升到前 1%。
 
-* [录制链接](https://video.tv.adobe.com/v/343344){target=_blank}
+* [录像链接](https://video.tv.adobe.com/v/343344){target=_blank}
 
    +++详细信息
 
@@ -244,7 +244,7 @@ Drew Burns，Analytics的集团产品营销经理 [!DNL Adobe Target]，将回�
 
 ### 网络研讨会：通过 [!DNL Adobe Target] 的设备上决策进行无延迟的个性化和测试
 
-* [录制链接](https://video.tv.adobe.com/v/328148){target=_blank}
+* [录像链接](https://video.tv.adobe.com/v/328148){target=_blank}
 
    +++详细信息
 

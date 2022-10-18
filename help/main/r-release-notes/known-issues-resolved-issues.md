@@ -5,7 +5,7 @@ title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4229'
 ht-degree: 100%
 

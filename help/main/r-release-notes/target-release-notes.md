@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
+source-git-commit: 12145d022ac2d880fde8eb03c36b031ca36b530d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '369'
+ht-degree: 63%
 
 ---
 
@@ -15,31 +15,28 @@ ht-degree: 0%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新时间：2022 年 10 月 5 日**
+**上次更新时间：2022 年 10 月 19 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target]Standard/Premium 22.10.1（交错发布：2022 年 10 月 10 日至 13 日）
+## [!DNL Target] Standard/Premium 22.10.3（交错发布：2022 年 25 月 10 日至 27 日）
 
 此版本将按照以下交错发布计划发布：
 
-* **10 月 10 日**：亚太 (APAC) 区域
-* **10 月 12 日**：美洲区域
-* **10 月 13 日**：欧洲、中东和非洲 (EMEA) 区域
+* **10 月 25 日**：欧洲、中东和非洲 (EMEA) 区域
+* **26 月 10 日**：亚太 (APAC) 区域
+* **10 月 27 日**：美洲区域
 
 此版本包含以下新功能、增强和修复：
 
 | 功能 | 详细信息 |
 | --- | --- |
-| [!DNL Adobe Experience Manager] (AEM) 体验片段 | AEM 体验片段功能更新包括以下内容：<ul><li>在 [!UICONTROL Offers] 列表中添加了按类型（HTML 或 JSON）筛选 AEM 体验片段的功能。(TGT-43121)</li><li>修复了允许客户在使用 VEC 时插入不受支持的 JSON [!UICONTROL 体验片段]的问题。只有在使用[!UICONTROL 基于表单的体验]编写器时，才能插入 JSON 提供的内容。(TGT-43846)</li></ul>有关详细信息，请参阅 AEM [体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)。 |
-| 适用于 Google Chrome 的新 [!UICONTROL Visual Experience Composer] 扩展程序 | Chrome Web Store 中提供了适用于 Chrome 的新 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) 扩展程序。<br>从 2023 年 1 月开始，当前的 [!DNL Target] VEC Helper 扩展程序将停止在 Google Chrome 中运行，因为 Google 不允许使用 Manifest V2 的扩展程序。 下载新的扩展程序，从新的一年开始，继续在 [!DNL Target] 中以视觉方式创作您的网站。<br>以下链接显示了 Chrome 网络商店中的两个扩展：<ul><li>[新的扩展 ](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[旧的扩展 ](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>有关更多信息，请参阅[可视化编辑帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。 |
-| 文档更新 | 主要文档更新如下所示：<ul><li>新的和更新的[Adobe Target 管理和报告 API 文档](https://developer.adobe.com/target/administer/admin-api/){target=_blank} 全面涵盖了管理和报告 API 端点，包括属性、优惠、主机、环境、客户端、受众、活动等。<br>在[[!DNL Adobe Target] [!UICONTROL 开发人员指南]](https://developer.adobe.com/target/){target=_blank}中查看此内容和其他开发人员内容。</li><li>[A/Bn 测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)<br>本文记录了在手动 A/Bn 测试中使用的详细统计计算 [!DNL Adobe Target]。<br>本文中的信息取代了&#x200B;*用于 A/B 测试的 Adobe Target 计算* pdf 文件，以前可在此站点上下载。</li></ul> |
+| 连续量度 | 添加了在 [!UICONTROL 自动定位] 和 [!UICONTROL Allocate-Allocate] 活动。<br>以前， [!UICONTROL 自动定位] 和 [!UICONTROL 自动分配] 模型经过优化，仅能使用二进制（基于转化）量度。 （TGT-43649 和 TGT-43649） |
+| [!DNL Recommendations] 友好名称 | 在 [!UICONTROL Analytics for Target] A4T报表。 以前， [!DNL Target] 列出的体验ID。 此增强功能可帮助客户简化A4T中的构建报表。 (TGT-41853 |
 
-* 修复了导致[!UICONTROL 受众细化]信息窗口中无法正确显示受众规则信息的问题。(TGT-43917)
-* 提高了在加载的受众数接近[推荐的定位规则限制](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules)时 [!DNL Target] 用户界面的性能。(TGT-43675)
-* 修复了一个问题，在 VEC 中从[!UICONTROL 书写]模式切换到[!UICONTROL 浏览]模式后创建或编辑活动时，该问题导致无法在[!UICONTROL 体验]页面上的[!UICONTROL 修改]面板中正确显示某些组件。(TGT-43300)
-* 修复了一个问题，该问题导致某些客户无法将使用[!UICONTROL 自动定位]的 [!UICONTROL A/B 测试] 活动存档。(TGT-40978)
-* 添加了自动在单个报表组内的多个位置使用单个选件的功能。(TGT-40689)
+* 在 [!DNL Target] UI可帮助客户更有效地导航受众生成器。 (TGT-44139)
+* 添加了阻止客户编辑已禁用的活动的功能 [!DNL Target] 因为它使用的量度不受支持。 UI中的一条消息会引导客户复制活动，然后更新转化量度。 (TGT-43860、TGT-43861和TGT-43650)
+* 在 [!DNL Target] UI可帮助客户在创建或编辑 [!UICONTROL 自动定位] 活动。 (TGT-43713)
 
 ## 其他发行说明和版本详细信息
 

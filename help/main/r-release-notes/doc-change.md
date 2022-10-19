@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 94%
+source-wordcount: '1477'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 94%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 10 月 19 日 | [类别亲和度](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 添加了注释以说明在单个mbox调用中传递多个类别时的评分。 |
 | 10 月 18 日 | [[!UICONTROL 创建 Automated Personalization 活动]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | 更新了文本，以说明尽管您在AP测试中最多可以创建30,000个体验，但算法在使用的不同体验少于10,000个时表现最佳。 即使活动启用了 [!UICONTROL 显示重复项] 选项。 |
 |  | [自动个性化常见问题](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | 更新了文本，以说明尽管您在AP测试中最多可以创建30,000个体验，但算法在使用的不同体验少于10,000个时表现最佳。 即使活动启用了 [!UICONTROL 显示重复项] 选项。 |
 | 10 月 14 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于 [!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 10 月 26 日）的注册信息。 |

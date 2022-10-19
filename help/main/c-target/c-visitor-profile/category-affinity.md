@@ -4,10 +4,10 @@ description: 了解 [!DNL Adobe Target] 会自动捕获用户访问的类别，�
 title: 什么是类别亲和度？
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 68%
+source-wordcount: '830'
+ht-degree: 66%
 
 ---
 
@@ -49,6 +49,10 @@ ht-degree: 68%
 * 如果已点击（已看到）某个类别，则再次点击该类别时，所有其他类别中不会减去1分
 * 如果点击了第六个新类别，则将从计算中删除前五个类别中得分最低的类别
 * 会话结束时将所有值除以 2
+
+>[!NOTE]
+>
+>在单个mbox调用中传递多个类别时， `categoryAffinities` 不保证。 首先记录任意类别，得10分。
 
 ### 示例：类别亲和度算法
 

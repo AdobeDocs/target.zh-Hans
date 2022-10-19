@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 12145d022ac2d880fde8eb03c36b031ca36b530d
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 63%
+source-wordcount: '430'
+ht-degree: 54%
 
 ---
 
@@ -31,11 +31,14 @@ ht-degree: 63%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| 连续量度 | 添加了在 [!UICONTROL 自动定位] 和 [!UICONTROL Allocate-Allocate] 活动。<br>以前， [!UICONTROL 自动定位] 和 [!UICONTROL 自动分配] 模型经过优化，仅能使用二进制（基于转化）量度。 （TGT-43649 和 TGT-43649） |
-| [!DNL Recommendations] 友好名称 | 在 [!UICONTROL Analytics for Target] A4T报表。 以前， [!DNL Target] 列出的体验ID。 此增强功能可帮助客户简化A4T中的构建报表。 (TGT-41853 |
+| 连续量度 | 添加了在 [!UICONTROL 自动定位] 和 [!UICONTROL Allocate-Allocate] 活动。<br>以前， [!UICONTROL 自动定位] 和 [!UICONTROL 自动分配] 模型经过优化，仅能使用二进制（基于转化）量度。 (TGT-43649和TGT-43649)<BR>请注意，此功能仅适用于部分客户。 此功能将在未来版本中提供给所有客户。 |
+| [!DNL Recommendations] 友好名称 | 在 [!UICONTROL Analytics for Target] A4T报表。 以前， [!DNL Target] 仅列出体验ID。 此增强功能将报表与 [!DNL Adobe Analytics] 和 [!DNL Target] 并帮助客户简化A4T中的构建报表。 (TGT-41853 |
 
-* 在 [!DNL Target] UI可帮助客户更有效地导航受众生成器。 (TGT-44139)
-* 添加了阻止客户编辑已禁用的活动的功能 [!DNL Target] 因为它使用的量度不受支持。 UI中的一条消息会引导客户复制活动，然后更新转化量度。 (TGT-43860、TGT-43861和TGT-43650)
+* 在 [!DNL Target] UI可帮助客户更高效地导航受众生成器，并了解如何使用可能不熟悉的功能。 (TGT-44139)
+* 添加了阻止客户编辑已禁用的活动的功能 [!DNL Target] 因为它使用的量度不受支持。 UI中的一条消息会引导客户复制活动，然后更新转化量度。
+
+   在此版本中 `averagetimespentonsite`, `bouncerate`和 `entries` 量度 [!DNL Target] 新活动将弃用活动。 现有活动可继续使用这些量度，直到2023年2月6日。 (TGT-43860、TGT-43861和TGT-43650)
+
 * 在 [!DNL Target] UI可帮助客户在创建或编辑 [!UICONTROL 自动定位] 活动。 (TGT-43713)
 
 ## 其他发行说明和版本详细信息

@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
+source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 100%
+source-wordcount: '1036'
+ht-degree: 83%
 
 ---
 
@@ -17,6 +17,28 @@ ht-degree: 100%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target] Standard/Premium 22.10.3（交错发布：2022 年 25 月 10 日至 27 日）
+
+此版本将按照以下交错发布计划发布：
+
+* **10 月 25 日**：欧洲、中东和非洲 (EMEA) 区域
+* **26 月 10 日**：亚太 (APAC) 区域
+* **10 月 27 日**：美洲区域
+
+此版本包含以下新功能、增强和修复：
+
+| 功能 | 详细信息 |
+| --- | --- |
+| [!DNL Recommendations] | 在 [!UICONTROL Analytics for Target] A4T报表。 以前， [!DNL Target] 仅列出体验ID。 此增强功能将报表与 [!DNL Adobe Analytics] 和 [!DNL Target] 并帮助客户简化A4T中的构建报表。 (TGT-41853) |
+| 针对 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位]<br>(可供选择的客户进行测试。 将在未来版本中向所有客户提供。) | 请注意以下更改：<ul><li>在[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动的[!UICONTROL 定位分析] A4T 报表中添加了对二进制和最大化指标的支持</li><li>保留现有活动的行为，直到2023年2月。 在此日期之后，将停止活动以强制现有活动迁移到新行为</li><li>从 2023 年 2 月 20 日开始，将不再支持 [!DNL Target] 活动中的 `averagetimespentonsite`、`bouncerate` 和 `entries` 指标。</li></ul> |
+
+* 在 [!DNL Target] UI可帮助客户更高效地导航受众生成器，并了解如何使用可能不熟悉的功能。 (TGT-44139)
+* 添加了阻止客户编辑已禁用的活动的功能 [!DNL Target] 因为它使用的量度不受支持。 UI中的一条消息会引导客户复制活动，然后更新转化量度。
+
+   在此版本中 `averagetimespentonsite`, `bouncerate`和 `entries` 量度 [!DNL Target] 新活动将弃用活动。 现有活动可继续使用这些量度，直到2023年2月为止。 (TGT-43860、TGT-43861和TGT-43650)
+
+* 在 [!DNL Target] UI可帮助客户在创建或编辑 [!UICONTROL 自动定位] 活动。 (TGT-43713)
 
 ## [!DNL Target]Standard/Premium 22.10.1（交错发布：2022 年 10 月 10 日至 13 日）
 

@@ -5,9 +5,9 @@ title: 可在何处找到关于已知问题和已解决的问题的信息？
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 5408c0ae5318250fa1f035f8cb8211a16600cf24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3974'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 98%
 以下是对于[!UICONTROL 推荐]活动已知的问题：
 
 * 当 [!DNL Target] 用 getOffer() 返回 JSON 选件时，它返回的是 JSON 类型。但是，如果您返回 JSON 推荐设计，则它返回的是 HTML 类型。
-* 在通过信息源或API未收到更新的60天后，过期的实体会正确过期；但是，过期后不会从目录搜索索引中删除过期的实体。 通过信息源或API删除的实体当前也不会从“目录搜索”索引中删除。 (IRI-857)
-* A/B 活动和体验定位活动中的 Recommendations 选件不显示 Recommendations 栏的可视预览。
+* 60 天未通过信息源或 API 收到更新之后，已到期的实体可正确地到期；但是，在到期后并不从目录搜索的索引中删除已到期的实体。当前也不从目录搜索的索引中删除通过信息源或 API 删除的实体。(IRI-857)
+* A/B 活动和体验定位活动中的推荐选件不显示推荐栏的可视预览 (TGT-33426)
 * 在 Target 用户界面中看不到通过 API 创建的收藏集、排除项、标准和设计，而只能通过 API 编辑它们。类似地，如果您在 Target 界面中创建任何此类项目，然后通过 API 编辑它们，则这些更改不反映在 Target UI 中。通过 API 编辑的项目应继续通过 API 编辑，以免丢失任何修改。(TGT-35777)
 * 通过 API 创建的 Recommendations 活动可在用户界面中查看，但只能通过 API 进行编辑。
 * “标准”列表（卡片）视图中显示的“自定义标准”信息源状态每十分钟刷新一次，在极少情况下可能会超过十分钟。在“自定义标准”编辑视图中显示的状态是实时获取的，因此始终为最新。(TGT-35896、TGT-36173)

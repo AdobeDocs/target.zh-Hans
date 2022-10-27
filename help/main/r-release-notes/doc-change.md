@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 10 月 25 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.10.3 版的发行说明。 |
-| 10 月 19 日 | [类别亲和度](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 添加了注释以说明在单个mbox调用中传递多个类别时的评分。 |
+| 10 月 19 日 | [类别亲和力](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 添加了一条注释，说明在单个 mbox 调用中传递多个类别时的评分。 |
 | 10 月 18 日 | [创建 [!UICONTROL Automated Personalization] 活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | 更新了文本以指示尽管可在一次 AP 测试中创建最多 30000 个体验，但在使用小于 10000 个不同的体验时算法才能发挥最佳效果。即使为活动启用了[!UICONTROL 不允许重复项]选项后，也适用同样的限制。 |
 |  | [Automated Personalization 常见问题](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | 更新了文本以指示尽管可在一次 AP 测试中创建最多 30000 个体验，但在使用小于 10000 个不同的体验时算法才能发挥最佳效果。即使为活动启用了[!UICONTROL 不允许重复项]选项后，也适用同样的限制。 |
 | 10 月 14 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于 [!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 10 月 26 日）的注册信息。 |

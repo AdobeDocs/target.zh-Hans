@@ -4,10 +4,10 @@ description: 查找有关在使用Analytics for [!DNL Target] (A4T)。 A4T允许
 title: 在哪里可以找到有关使用A4T重定向选件的常见问题解答？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 54%
+source-wordcount: '1431'
+ht-degree: 52%
 
 ---
 
@@ -18,10 +18,6 @@ ht-degree: 54%
 ## Analytics for Adobe Target(A4T)是否支持重定向选件？ {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 是，如果您的实施使用 [!DNL at.js]. 但是，您的实施必须满足下列最低要求，才能在使用 Analytics 作为报表源的活动中使用[重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
-
->[!NOTE]
->
->存在一个已知问题，该问题会导致将重定向与 A4T 结合使用的有限数量的客户看到较高的未经整合点击率百分比。请参阅[已知问题和已解决的问题](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect)。
 
 ## 将重定向选件与A4T结合使用时，有哪些最低要求？ {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -61,8 +57,6 @@ ht-degree: 54%
 由于代码在页面上的执行位置，因此建议使用基于表单的编辑器来构建重定向活动，以提高页面重定向速度。 此外，还建议为每个体验各创建一个重定向选件，甚至对默认体验（在默认体验中重定向会返回原始页面）也是如此。为每个体验创建重定向选件可确保在发生误计数时，该选件会在所有体验中发生。 报表和分析仍对测试有效。
 
 您希望对活动中包括默认（控制）体验在内的所有体验都使用重定向选件，因这样可以为所有体验施加相同的条件。例如，如果默认体验没有重定向选件，但其他体验具有重定向选件，则没有重定向选件的体验速度将具有一种内在优势。建议仅对临时方案（例如测试）使用重定向选件。不建议对永久性方案（例如个性化）使用重定向选件。确定“入选者”后，应删除重定向以提高页面加载性能。
-
-有关此问题的更多信息，请参阅[已知问题](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect)中的“重定向选件”信息。
 
 ## 可视化体验编辑器 (VEC) 和基于表单的体验编辑器是否均受支持？ {#section_FDA26FE7909B48539DA770559E687677}
 

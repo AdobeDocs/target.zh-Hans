@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1209'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 98%
    + [Target 发行说明（当前版本）](r-release-notes/release-notes.md)
    + [Target 发行说明（预发行版本）](r-release-notes/target-release-notes.md)
    + [Target 文档概述](/help/main/r-release-notes/target-documentation.md)
-   + [已知问题和已解决的问题](r-release-notes/known-issues-resolved-issues.md)
    + [系统状态更新和主动通知](r-release-notes/system-status-updates.md)
    + [文档更改](r-release-notes/doc-change.md)
    + [以前版本的发行说明](r-release-notes/release-notes-for-previous-releases.md)

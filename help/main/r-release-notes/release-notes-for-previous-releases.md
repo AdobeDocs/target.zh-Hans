@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '34887'
+source-wordcount: '34833'
 ht-degree: 96%
 
 ---
@@ -454,7 +454,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 此版本包含以下增强功能、修复和更改：
 
 * 修复了一个问题，该问题阻止在 [!DNL Auto-Target] 报表中为[!UICONTROL “总计”]列显示[!UICONTROL “平均提升置信区间”]和[!UICONTROL “置信度”]。但可正确地显示所有个别体验的测量结果。(TGT-37301)
-* 修复了影响 [!DNL Adobe Target Premium] 用户 [!UICONTROL 自动定位] 9月15日下午2点30分起报道（太平洋夏令时）至10月6日上午九点二刻（太平洋夏令时）。 在查看报表中（使用“[!UICONTROL 查看了某个页面]”或“[!UICONTROL 单击了 mbox]”选项配置的）受影响的转化指标时，所报告的转化率有误。目前没有已知的投放问题。有关如何重新同步和纠正报表的信息，请在&#x200B;*已知问题和已解决的问题*&#x200B;中的&#x200B;*已解决的问题*&#x200B;下参阅[自动定位报表](/help/main/r-release-notes/known-issues-resolved-issues.md#at-metrics)。
+* 修复了影响 [!DNL Adobe Target Premium] 用户 [!UICONTROL 自动定位] 9月15日下午2点30分起报道（太平洋夏令时）至10月6日上午九点二刻（太平洋夏令时）。 在查看报表中（使用“[!UICONTROL 查看了某个页面]”或“[!UICONTROL 单击了 mbox]”选项配置的）受影响的转化指标时，所报告的转化率有误。目前没有已知的投放问题。
 * 在[!UICONTROL “目录搜索”]表中添加了一个可选的[!UICONTROL “上次更新时间”]列，并添加了一个[!UICONTROL “上次更新时间”]筛选条件。此增强可节省时间和精力，因为不必打开每个单独的项目以查看上次更新它的时间，并可按上次更新这些项目的日期进行筛选。
 
    ![“上次更新时间”列和筛选条件的插图](/help/main/r-release-notes/assets/column-and-filter.png)
@@ -824,7 +824,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 | --- | --- |
 | 可视化体验编辑器 (VEC) | **新 VEC 菜单选项**：单击 VEC 中的某个页面元素时，相应菜单会显示适用于该元素类型的选项。<ul><li>您现在可以使用[!UICONTROL “样式”>“背景”]选项更改选定元素的背景图像和颜色。(TGT-15001)</li></ul>请参阅[可视化体验选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)中的“样式”**&#x200B;部分。<br>**点击跟踪改进**：我们改进了在 VEC 和单页应用程序 (SPA) VEC 中配置点击跟踪的过程。<ul><li>当选择要在点击跟踪中使用的元素时，所有可用元素的名称都会显示在右侧的“修改”面板中，从而允许快速、轻松地选择所需元素。</li><li>三步引导式活动工作流中的“[!UICONTROL 目标和设置]”页面上会显示一个数字，用于指示为点击跟踪选择的元素数量。您可以将鼠标悬停在此数字上，以查看所有选定元素的名称。(TGT-33878)</li></ul>请参阅[点击跟踪](/help/main/c-activities/r-success-metrics/click-tracking.md)。 |
 | 单页应用程序可视化体验编辑器 (SPA VEC) | **引导式工作流**：新的引导式工作流可帮助您了解应如何配置页面交付规则设置，以便为单页应用程序成功执行和运行活动。(TGT-33718)<br> 请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/main/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)。<br>**克隆修改**：您现在可以使用 SPA VEC 定义修改，然后克隆该修改，以供在单页应用程序内的其他视图中使用。(TGT-33882)<br>请参阅[单页应用程序 (SPA) 可视化体验编辑器](/help/main/c-experiences/spa-visual-experience-composer.md)。 |
-| ![Premium 徽章](/help/main/assets/premium.png) 自动个性化 (AP) 和自动定位 | **将体验指定为控制**：在创建 AP 或自动定位活动时，您可以选择要用作控制的体验。通过此功能，您可以根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据该体验的控制流量评估个性化流量的性能报表。当前控制选项（随机提供的体验）将继续可用。（TGT-32801、TGT-26572 和 TGT-26571）<br>请参阅[选择用于自动个性化或自动定位活动的控制](/help/main/c-activities/t-automated-personalization/experience-as-control.md)。请注意，此功能当前存在一个[已知问题](/help/main/r-release-notes/known-issues-resolved-issues.md)。<br>**个性化见解报表**：当访客在特定位置看到特定内容时，对营销人员友好的属性命名可提供更多有意义的信息。（TGT-33421 和 TGT-34957）<br>请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。 |
+| ![Premium 徽章](/help/main/assets/premium.png) 自动个性化 (AP) 和自动定位 | **将体验指定为控制**：在创建 AP 或自动定位活动时，您可以选择要用作控制的体验。通过此功能，您可以根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据该体验的控制流量评估个性化流量的性能报表。当前控制选项（随机提供的体验）将继续可用。（TGT-32801、TGT-26572 和 TGT-26571）<br>请参阅[选择用于自动个性化或自动定位活动的控制](/help/main/c-activities/t-automated-personalization/experience-as-control.md)。<br>**个性化见解报表**：当访客在特定位置看到特定内容时，对营销人员友好的属性命名可提供更多有意义的信息。（TGT-33421 和 TGT-34957）<br>请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。 |
 | ![Premium 徽章](/help/main/assets/premium.png) 推荐 | 在创建“最近查看的项目”逻辑时，您可以使用“推荐以前购买的项目”切换。(TGT-34030)<br>有关更多信息，请参阅“创建标准”中的[最近查看的项目](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)。 |
 | Google Chrome SameSite Cookie 策略 | Google 近日宣布从 Chrome 76（计划于 2019 年 7 月 30 日发布）开始，开发人员必须明确指定哪些 Cookie 可以在各个网站中运行以及哪些 Cookie 可以跟踪用户。<br>当整个行业都在努力为消费者创建更加安全的 Web 时，Target 也不遗余力地为客户提供个性化体验，同时满足甚至超越访客的隐私保护期望。<br>请参阅 [Google Chrome SameSite Cookie策略](https://developer.adobe.com/target/before-implement/privacy/google-chrome-samesite-cookie-policies/){target=_blank}。 |
 
@@ -944,7 +944,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 | 单页应用程序可视化体验编辑器 | 使用单页应用程序 (SPA) 的可视化体验编辑器 (VEC)，营销人员能够以 DIY（自己动手）方式创建测试并对 SPA 上的内容进行个性化，而无需持续依赖开发。VEC 可用于在大多数常用框架上创建活动，例如 React 和 Angular。(TGT-27916)<br>有关更多信息，请参阅 [单页应用程序(SPA)可视化体验编辑器](/help/main/c-experiences/spa-visual-experience-composer.md) 和 [单页应用程序集成](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}。<br>除了上述文章之外，还有许多与 SPA 和 at.js 相关的主题，这些主题介绍了此功能以及其实施方式。有关更多信息，请参阅[文档更改](/help/main/r-release-notes/doc-change.md)。 |
 | 可视化体验编辑器 | 可视化体验编辑器 (VEC) 包含以下增强功能，可让您更快、更高效地完成工作：<ul><li>现在，您可以在插入 [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)时使用 VEC 中的“此项前插入”和“此项后插入”选项。请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。(TGT-32385)</li><li>借助适用于 Google Chrome 的 [!DNL Adobe Target] VEC 助手浏览器扩展，您可以在 VEC 内可靠地加载网站，以快速创作和 QA Web 体验。请参阅[可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。(TGT-32746)</li></ul> |
 | ![Premium 徽章](/help/main/assets/premium.png)<br>[!UICONTROL A/B 测试]和[!UICONTROL 体验定位]活动中的推荐 | 现在，您可以在 [!UICONTROL A/B 测试]（包括[!UICONTROL 自动分配]和[!UICONTROL 自动定位]）和[!UICONTROL 体验定位] (XT) 活动中包含推荐。此功能提供了几项全新的功能，例如：<ul><li>可在同一活动中测试和定位推荐和非推荐内容。</li><li>可轻松尝试在页面上放置推荐内容，包括为多个推荐排序。</li><li>可使用[!UICONTROL 自动分配]自动将流量推送到性能最佳的推荐体验。</li><li>可使用[!UICONTROL 自动定位]根据访客的各个配置文件动态地为他们分配量身定制的推荐体验。</li></ul>要开始使用此功能，请使用 VEC 创建 [!UICONTROL A/B 测试]或[!UICONTROL 体验定位]活动，然后执行[!UICONTROL 此项前插入]、[!UICONTROL 此项后插入]或[!UICONTROL 替换为]操作以向体验添加推荐。(RECS-6166)<br>有关更多信息，请参阅[推荐作为选件](/help/main/c-recommendations/recommendations-as-an-offer.md)。 |
-| ![Premium 徽章](/help/main/assets/premium.png)<br>Target API 中的企业权限支持 | 现在，[Adobe Target 管理员 API](https://developers.adobetarget.com/api/#admin-apis) 将充分利用 Target UI 中的相同企业权限功能。从 **2019 年 2 月 21 日**&#x200B;开始，系统管理员能够以编程方式访问报表数据，以及在任何工作区内创建和管理活动、选件和受众。以前，这些操作仅可在默认工作区中执行。未来版本中将支持自动个性化 (AP) 活动。<br>**注意：**&#x200B;此功能存在一个[已知问题](/help/main/r-release-notes/known-issues-resolved-issues.md#api)。 |
+| ![Premium 徽章](/help/main/assets/premium.png)<br>Target API 中的企业权限支持 | 现在，[Adobe Target 管理员 API](https://developers.adobetarget.com/api/#admin-apis) 将充分利用 Target UI 中的相同企业权限功能。从 **2019 年 2 月 21 日**&#x200B;开始，系统管理员能够以编程方式访问报表数据，以及在任何工作区内创建和管理活动、选件和受众。以前，这些操作仅可在默认工作区中执行。未来版本中将支持自动个性化 (AP) 活动。 |
 
 **增强功能、修复和更改**
 
@@ -1902,7 +1902,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>Target Premium 的企业用户权限 </p> </td> 
-   <td colname="col2"> <p>在 Target 中创建单独的工作区，然后为用户分配对各个数字属性的不同角色和权限。 </p> <p>有关更多信息，请参阅<a href="/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local">企业用户权限</a>。 </p> <p>请参阅<a href="/help/main/r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541" format="dita" scope="local">已知问题和已解决的问题</a>，以了解有关此推出版本的更多信息。 </p> </td> 
+   <td colname="col2"> <p>在 Target 中创建单独的工作区，然后为用户分配对各个数字属性的不同角色和权限。 </p> <p>有关更多信息，请参阅<a href="/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local">企业用户权限</a>。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>QA 模式 </p> </td> 

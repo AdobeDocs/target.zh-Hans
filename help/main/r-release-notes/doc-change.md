@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 100%
+source-wordcount: '1486'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 11 月 2 日 | 已知问题和已解决的问题 | 删除了页面并将相关问题重新定位到相应的页面，以便将信息置于上下文中。 |
 | 10 月 25 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.10.3 版的发行说明。 |
 | 10 月 19 日 | [类别亲和力](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 添加了一条注释，说明在单个 mbox 调用中传递多个类别时的评分。 |
 | 10 月 18 日 | [创建 [!UICONTROL Automated Personalization] 活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | 更新了文本以指示尽管可在一次 AP 测试中创建最多 30000 个体验，但在使用小于 10000 个不同的体验时算法才能发挥最佳效果。即使为活动启用了[!UICONTROL 不允许重复项]选项后，也适用同样的限制。 |
@@ -103,7 +104,6 @@ ht-degree: 100%
 | 3 月 22 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 客户工程修复版本的发行信息。 |
 |  | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 22.3.1 的预发行信息。 |
 | 3 月 17 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 客户工程修复版本的预发行信息。 |
-| 3 月 9 日 | [已知问题和已解决的问题](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 添加了以下已知问题：<ul><li>删除在基于表单的体验编辑器中创建的活动中具有临时选件的位置</li></ul> |
 |  | [mbox3rdPartyId 的实时配置文件同步](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | 更新了以下有关配置文件同步的句子：“每 5-10 分钟与配置文件存储同步一次更新”。 |
 | 3 月 8 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 3 月 30 日）</li></ul> |
 | 3 月 7 日 | [创建受众](/help/main/c-target/c-audiences/audiences.md#aep) | 在“利用来自 [!DNL Adobe Experience Platform] 的受众”下添加了新的部分：<ul><li>个性化用例</li></ul> |

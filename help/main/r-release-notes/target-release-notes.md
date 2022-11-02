@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 1b737f963fe63770cb04d05f3414ed946548d882
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 100%
 * 在 [!DNL Target] UI 中添加了工具提示以帮助客户更高效地在受众生成器中导航并了解如何使用可能不熟悉的功能。(TGT-44139)
 * 添加了阻止客户编辑被 [!DNL Target] 禁用的活动（因为它使用不支持的指标）的功能。UI 中的一条消息指示客户重复该活动，然后更新转化指标。
 
-   在此版本中，将为新活动弃用 [!DNL Target] 活动中的 `averagetimespentonsite`、`bouncerate` 和 `entries` 指标。现有活动可继续使用这些指标直至 2023 年 2 月。（TGT-43860、TGT-43861 和 TGT-43650）
+   在此版本中，将为新活动弃用 [!DNL Target] 活动中的 `averagetimespentonsite`、`bouncerate` 和 `entries` 指标。在2023年5月之前，现有活动可以继续使用这些量度。
 
-* 在 [!DNL Target] UI 中添加了工具提示以帮助客户在创建或编辑使用 A4T 的[!UICONTROL 自动定位]活动时选择优化标准。(TGT-43713)
+* 在 [!DNL Target] UI 中添加了工具提示以帮助客户在创建或编辑使用 A4T 的[!UICONTROL 自动定位]活动时选择优化标准。
 
 ## 其他发行说明和版本详细信息
 

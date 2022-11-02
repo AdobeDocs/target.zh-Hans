@@ -4,10 +4,10 @@ description: 了解如何解释Adobe Target中的Automated Personalization摘要
 title: 如何使用Automated Personalization摘要报表？
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 37%
+ht-degree: 31%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 37%
 
 ![活动级别的报表](/help/main/c-reports/assets/box_plot_ap.png)
 
-用于解释 A/B 测试结果的标准规则仍然适用，包括提升度、置信度、趋势、持续时间等。有关结果解释的更多信息，请参阅 [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+用于解释 A/B 测试结果的标准规则仍然适用，包括提升度、置信度、趋势、持续时间等。有关结果解释的更多信息，请参阅 [A/Bn 测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 选件级别报表 {#section_CAA6409879E349C6906E2BE8156D87A1}
 
@@ -48,11 +48,11 @@ ht-degree: 37%
 
 ![Adobe Target中的选件级别报表](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
-选件可以在报表组中显示，而这些报表组可以折叠或展开。在下拉列表中选择“[!UICONTROL 报表组]”，可查看按报表组（而不是选件）汇总的信息。
-
 >[!NOTE]
 >
->时钟图标指示仍在构建算法模型。复选标记图标表示已建立基本算法。
+>时钟图标指示仍在构建算法模型。 复选标记图标表示已建立基本算法。
+
+选件可在 [报告组](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)，并且这些报表组可以折叠和展开。 单击 **[!UICONTROL 控制]** 或 **[!UICONTROL 目标]** ，以按报表组而不是选件查看汇总信息。
 
 ## 自动化区段
 

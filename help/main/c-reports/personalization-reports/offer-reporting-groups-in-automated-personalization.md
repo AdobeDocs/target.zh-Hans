@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用优惠报表组 [!DNL Target] [!UICONT
 title: 我能否在Automated Personalization活动中使用选件报表组？
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 60655a93b515095bd8c67a4af2193d36789ab96e
+source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 52%
+source-wordcount: '542'
+ht-degree: 47%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 52%
 >
 >如果删除或替换特定建模组中的选件，则也会删除建模组中查看该特定选件的历史流量。换句话说，已删除的选件不会对用于 [!DNL Target] 个性化模型以便了解。
 
-**设置报表组：**
+## 设置报表组
 
 1. 在 **[!UICONTROL 体验]** 页面，单击 **[!UICONTROL 管理内容]** 图标。
 
@@ -52,3 +52,17 @@ ht-degree: 52%
    要创建新报表组以将所选选件分配到该报表组，请选择&#x200B;**[!UICONTROL 新建]**，为新报表组命名，然后单击&#x200B;**[!UICONTROL 应用]**。
 
    ![用于创建新报表组的新图标](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+## 在报表组中查看选件
+
+1. 单击 **[!UICONTROL 活动]**，请单击所需的 [!UICONTROL Automated Personalization] 活动，然后单击 **[!UICONTROL 报表]** 选项卡 [选件级别](/help/main/c-reports/personalization-reports/reports-ap.md) 报表。
+
+   如果您有多种活动，则可以对活动列表进行筛选，方法是从“[!UICONTROL 类型]”下拉列表中选择“[!UICONTROL 自动个性化]”。
+
+1. 单击 **[!UICONTROL 控制]** 或 **[!UICONTROL 目标]** 在表中显示报表组内未分组的选件和选件。
+
+   ![选件组：控制和目标](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+
+有关使用 [!UICONTROL Automated Personalization] 报告(包括 [!UICONTROL 选件级别] 报表)，请参阅 [Automated Personalization摘要报表](/help/main/c-reports/personalization-reports/reports-ap.md).
+
+

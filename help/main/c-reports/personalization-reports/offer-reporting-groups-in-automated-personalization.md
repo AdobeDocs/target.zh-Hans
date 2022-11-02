@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用优惠报表组 [!DNL Target] [!UICONT
 title: 我能否在Automated Personalization活动中使用选件报表组？
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
+source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 47%
+source-wordcount: '698'
+ht-degree: 36%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 47%
 
 如果活动设置没有足够的数据来为每个选件构建个性化模型，则报表组可以帮助降低使用的数据要求 [!UICONTROL Automated Personalization]. 报表组还可以通过对相似选件进行分组来帮助解决新选件的“冷启动”问题，以便每个模型获得更多培训数据。建模组还可用于定期向AP活动引入新选件的活动。
 
-如果访客以相同的方式响应组中的所有选件，则此方法很有效。最佳做法是对相似访客组以相似方式进行响应的选件进行分组。换句话说，对具有相似转化率的选件进行分组。您绝不应该将所有选件都放置到一个报表组中。对具有非常不同转化率的所有选件或选件进行分组可能会降低 [!DNL Target] 个性化模型。
+如果访客以相同的方式响应组中的所有选件，则此方法很有效。最佳做法是对相似访客组以相似方式进行响应的选件进行分组。换句话说，对具有相似转化率的选件进行分组。您绝不应该将所有选件都放置到一个报表组中。对具有不同转化率的所有选件或选件进行分组可能会降低 [!DNL Target] 个性化模型。
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ ht-degree: 47%
 
    ![“报表组”图标](/help/main/c-reports/assets/ap_manage_content_2.png)
 
-1. （视情况而定）在报表组中批量添加体验，方法是选中相关体验的复选框，然后单击对话框右上角的&#x200B;**[!UICONTROL 报表组]**&#x200B;文件夹图标。
+1. （视情况而定）在报表组中批量添加体验，方法是选中相关体验的复选框，然后单击 **[!UICONTROL 报表组]** 文件夹图标。
 
    ![“报表组”图标](/help/main/c-reports/assets/ap_manage_content_3.png)
 
@@ -49,9 +49,17 @@ ht-degree: 47%
 
    或
 
-   要创建新报表组以将所选选件分配到该报表组，请选择&#x200B;**[!UICONTROL 新建]**，为新报表组命名，然后单击&#x200B;**[!UICONTROL 应用]**。
+   要创建报表组以将选定选件分配到，请选择 **[!UICONTROL 新建]**，命名新报表组，然后单击 **[!UICONTROL 应用]**.
 
    ![用于创建新报表组的新图标](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+您可以使用 [!UICONTROL 位置] 列表按位置筛选选件。 使用[!UICONTROL 报表组]列表可按报表组筛选选件。您还可以使用“[!UICONTROL 报表组]”来筛选“[!UICONTROL 未分配选件]”，以便将某个报表组分配给当前未分配给任何报表组的选件。
+
+有关将选件定位到特定受众的信息，请参阅 [Target AP选件](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+
+## 注意事项
+
+* 请务必了解报表组对 [!DNL Target] 建立模型。 因此， [!DNL Adobe] 建议仅当您计划在活动开始时替换或添加新选件时，才使用报表组。 如果在实时活动中引入了新选件，则将新选件放入具有现有类似选件的组中后，计算机将能够使用已收集到的用于其组中其他选件的数据来了解新选件。 您绝不应该将所有选件都放置到一个报表组中。
 
 ## 在报表组中查看选件
 

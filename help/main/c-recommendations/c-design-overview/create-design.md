@@ -6,7 +6,7 @@ feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1027'
 ht-degree: 30%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 30%
 
 在运行算法并获取结果后，您的响应应当类似于以下示例：
 
-![json_recommendation图像](assets/json_recommendation.png){width=&quot;575px&quot;}
+![json_recommendation图像](assets/json_recommendation.png){width="575px"}
 
 ## 其他JSON对象提示和技巧 {#section_C305673C68944749969DB239E3221DC2}
 

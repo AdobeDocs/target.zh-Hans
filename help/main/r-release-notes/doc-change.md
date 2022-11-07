@@ -5,9 +5,9 @@ title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1486'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 11 月 2 日 | 已知问题和已解决的问题 | 删除了页面并将相关问题重新定位到相应的页面，以便将信息置于上下文中。 |
+| 11 月 2 日 | 已知问题和已解决的问题 | 已移除页面并将相关问题重新定位到适当的页面，以便信息带有相应的上下文。 |
 | 10 月 25 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.10.3 版的发行说明。 |
 | 10 月 19 日 | [类别亲和力](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 添加了一条注释，说明在单个 mbox 调用中传递多个类别时的评分。 |
 | 10 月 18 日 | [创建 [!UICONTROL Automated Personalization] 活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | 更新了文本以指示尽管可在一次 AP 测试中创建最多 30000 个体验，但在使用小于 10000 个不同的体验时算法才能发挥最佳效果。即使为活动启用了[!UICONTROL 不允许重复项]选项后，也适用同样的限制。 |

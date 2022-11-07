@@ -7,8 +7,8 @@ feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 99%
 * 在 [!DNL Target] UI 中添加了工具提示以帮助客户更高效地在受众生成器中导航并了解如何使用可能不熟悉的功能。(TGT-44139)
 * 添加了阻止客户编辑被 [!DNL Target] 禁用的活动（因为它使用不支持的指标）的功能。UI 中的一条消息指示客户重复该活动，然后更新转化指标。
 
-   在此版本中，将为新活动弃用 [!DNL Target] 活动中的 `averagetimespentonsite`、`bouncerate` 和 `entries` 指标。在2023年5月之前，现有活动可以继续使用这些量度。
+   在此版本中，将为新活动弃用 [!DNL Target] 活动中的 `averagetimespentonsite`、`bouncerate` 和 `entries` 指标。现有活动可继续使用这些量度直至 2023 年 5 月。
 
-* 在 [!DNL Target] UI 中添加了工具提示以帮助客户在创建或编辑使用 A4T 的[!UICONTROL 自动定位]活动时选择优化标准。
+* 在 [!DNL Target] UI 中添加了工具提示，帮助客户在创建或编辑使用 A4T 的[!UICONTROL 自动定位]活动时选择优化标准。
 
 ## [!DNL Target]Standard/Premium 22.10.1（交错发布：2022 年 10 月 10 日至 13 日）
 

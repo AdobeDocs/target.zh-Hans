@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
-workflow-type: ht
-source-wordcount: '1486'
-ht-degree: 100%
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+workflow-type: tm+mt
+source-wordcount: '1609'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 100%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 11 月 8 日 | [A/B 测试应该持续多长时间？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 添加了以下重要注释：要获得准确的结果，您必须先重新加载页面，然后才能更改 [!DNL Adobe Target] [!UICONTROL 样本量计算器]. 还在 [计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}。 |
+|  | [重定向选件 — A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 更新了 `adobe_mc_sdid` 参数。 |
+|  | [活动故障诊断](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 添加了新章节：“活动转化后，访客不在任何体验中。” |
+|  | [自定义参数](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | 添加了您从 [!UICONTROL 过滤依据] 创建活动时未保存下拉列表。 利用此选项，可根据所选的mbox筛选参数。 |
+|  | [目标限制](/help/main/r-troubleshooting-target/target-limits.md#mbox-parameters) | 更正了配置文件参数值的最大长度。 限制为256个字符。 |
 | 11 月 2 日 | 已知问题和已解决的问题 | 已移除页面并将相关问题重新定位到适当的页面，以便信息带有相应的上下文。 |
 | 10 月 25 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.10.3 版的发行说明。 |
 | 10 月 19 日 | [类别亲和力](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 添加了一条注释，说明在单个 mbox 调用中传递多个类别时的评分。 |

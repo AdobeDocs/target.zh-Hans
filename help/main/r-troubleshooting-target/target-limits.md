@@ -5,7 +5,7 @@ title: 中的各种字符、大小和其他限制 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 96%
@@ -163,7 +163,7 @@ ht-degree: 96%
 
 * **限制**：250 个字符。
 
-### mbox 参数
+### mbox 参数 {#mbox-parameters}
 
 * **限制**：以下限制适用于 mbox 参数：
 
@@ -192,7 +192,7 @@ ht-degree: 96%
    * 配置文件参数数量 50
    * 配置文件参数名称最大长度 128
    * 配置文件参数值不得为 null
-   * 配置文件参数值最大长度 5000
+   * 配置文件参数值最大长度 256
 
    **投放 API 端点**：
 
@@ -203,7 +203,7 @@ ht-degree: 96%
    * 配置文件参数数量 50
    * 配置文件参数名称最大长度 128
    * 配置文件参数值不得为 null
-   * 配置文件参数值最大长度 5000
+   * 配置文件参数值最大长度 256
 
 
 

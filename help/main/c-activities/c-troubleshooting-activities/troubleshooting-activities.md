@@ -4,10 +4,10 @@ description: 查找如果您的网站上不显示您的 Adobe [!DNL Target] 活�
 title: 如何为活动排除故障？
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 100%
+source-wordcount: '852'
+ht-degree: 50%
 
 ---
 
@@ -19,21 +19,21 @@ ht-degree: 100%
 >
 >除了以下故障诊断信息之外，还可以参阅 [Target 故障诊断](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)，以获取指向以下内容的链接：其他故障诊断主题、常见问题解答，以及有关 [!DNL Adobe Target] 中活动故障诊断以及其他功能的其他有用信息。
 
-以下章节包含您可能遇到的问题及建议的解决方案。
+以下部分包含您可能遇到的问题以及建议的解决方案。
 
 ## 我使用 [!DNL Target] UI 创建了一个活动，但无法通过 API 更新它。
 
-应通过 Target UI 更新使用 Target UI 创建的活动。应通过 API 更新通过 API 创建的活动。例如，如果最初使用 API 创建活动，但随后又通过 Target UI 编辑该活动，则并非所有更改都会更新。所有更改都存储在后端，可通过再次调用 API 更新这些更改。
+使用创建的活动 [!DNL Target] 应通过 [!DNL Target] UI。 应通过 API 更新通过 API 创建的活动。例如，如果您最初使用API创建活动，稍后又通过 [!DNL Target] UI，并非所有更改都会更新。 所有更改都存储在后端，并可通过发起另一个API调用进行更新。
 
 作为最佳实践，请尝试使用最初用于创建该活动的相同方法（UI 或 API）更新该活动。
 
 ## 您看到的是默认内容。
 
-确保您的活动已完成，且已激活。
+确保活动已完成并已激活。
 
 ## 活动未处于实时状态。
 
-**验证：**&#x200B;转到“概述”选项卡，然后查看测试是否标记为不活跃或草稿。
+**验证：** 转到 [!UICONTROL 概述] 选项卡，查看测试是否标记为不活动或草稿。
 
 **选项：**
 
@@ -51,11 +51,11 @@ ht-degree: 100%
 
 ## 页面不符合页面定位条件。
 
-**验证：**&#x200B;在“概述”页面上，确定页面是否在定位条件范围之外。
+**验证：** 在 [!UICONTROL 概述] 页面，确定页面是否在定位条件之外。
 
 **选项：**
 
-* 转到可视化体验编辑器，然后单击“URL”>“高级”>“当前页面”。
+* 转到 [!UICONTROL 可视化体验编辑器]，单击URL >高级>当前页面。
 
 ## 显示的是之前的体验而不是新体验。
 
@@ -64,51 +64,50 @@ ht-degree: 100%
 **选项：**
 
 * 清除缓存和 Cookie，然后重试。
-
 * 尝试使用其他浏览器。
 * 使用私密/隐身模式。
 
 ## 您最近已被添加到 [!DNL Target]，但无法创建活动。
 
-**验证：**&#x200B;单击创建活动。如果此选项不可用，很可能是因为您未获得足够的权限来创建活动。
+**验证：**&#x200B;单击[!UICONTROL 创建活动]。如果此选项不可用，很可能是因为您未获得足够的权限来创建活动。
 
 **选项：**
 
-作为用户添加到 Target 后，您需要拥有“审批者”角色才能创建活动。
+将您作为用户添加到 [!DNL Target]，您需要 [!UICONTROL 审批者] 角色。
 
-* 请求您的帐户管理员将您设为“审批者”。
-* 如果您是管理员，请在 Target 中从&#x200B;**[!UICONTROL “管理”]**>**[!UICONTROL “用户”]**&#x200B;授予您自己“审批者”角色。
+* 要求您帐户的管理员将您设为审批者。
+* 如果您是管理员，请为您自己提供 [!UICONTROL 审批者] 角色 **[!UICONTROL 管理]** > **[!UICONTROL 用户]** in [!DNL Target].
 
    请参阅[为您自己分配“审批者”角色](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
 ## 设置活动后，页面的结构发生了更改。
 
-**验证：**&#x200B;转到现有活动的可视化体验编辑器。查找指示选择器（或结构）已发生更改的警告消息。
+**验证：**[!UICONTROL 转到现有活动的可视化体验编辑器。]查找指示选择器（或结构）已发生更改的警告消息。
 
 **选项：**
 
 * 重新构建活动。
 
-有关页面修改如何影响 Target 显示功能的更多信息，请参阅[页面修改方案](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+有关页面修改如何影响的更多信息 [!DNL Target]的显示功能，请参阅 [页面修改方案](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## 页面的结构在页面加载期间（运行时）发生了修改。
 
 **验证：**&#x200B;询问开发人员。
 
-**注意：**&#x200B;为使 Target 能够识别应当应用活动更改的位置，请避免动态插入具有相同类的元素，或避免动态修改任何同级元素的类。
+**注意：** 为 [!DNL Target] 要识别应在何处应用活动更改，请避免动态插入具有相同类的元素或动态修改任何同级的类。
 
 **选项：**
 
-* 更新页面代码，以使其唯一标识将测试的每个元素（使用 id）。
+* 更新页面代码以唯一标识每个已测试的元素（使用ID）。
 * 停止对上述类或同级元素进行动态修改。
 
-有关页面修改如何影响 Target 显示功能的更多信息，请参阅[页面修改方案](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+有关页面修改如何影响的更多信息 [!DNL Target]的显示功能，请参阅 [页面修改方案](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## 同一页面上有其他活动在运行。
 
-**验证：**&#x200B;使用“冲突”选项卡，查看是否有其他活动在运行。
+**验证：** 使用 [!UICONTROL 冲突] 选项卡，以查看其他活动是否正在运行。
 
-**注意：**“冲突”选项卡在“模板测试”模块中不可用。
+**注意：**[!UICONTROL “冲突”选项卡在“模板测试”模块中不可用。]
 
 **选项：**
 
@@ -118,19 +117,25 @@ ht-degree: 100%
 
 ## 删除配置文件脚本时出现错误消息。
 
-**验证：**&#x200B;从 Target Standard/Premium 中删除配置文件脚本时，显示错误消息：“未能删除配置文件脚本。”
+**验证：**[!DNL Target]从 中删除配置文件脚本时，显示错误消息：“未能删除配置文件脚本。”
 
 **选项：**
 
 执行以下操作之一：
 
-* 重新删除。显示成功删除消息。
-* 等待大约 10 分钟，以使 Target Standard/Premium 导入程序运行。导入程序会更新配置文件脚本列表。
+* 再次删除配置文件脚本。 显示成功删除消息。
+* 等待10分钟 [!DNL Target] 导入程序。 导入程序会更新配置文件脚本列表。
 
 ## 某些 ajax [!DNL Target] 调用不起作用。
 
-**注意：**&#x200B;同名但参数不同的多个 ajax [!DNL Target] 调用将无法在同一页面上发挥作用。只有第一个调用可以运行。
+**注意：** 多ajax [!DNL Target] 具有相同名称但参数不同的调用在同一页面上不起作用。 只进行第一次调用。
 
 ## 您使用 [!DNL Target] API 激活了一个活动，但该活动在 [!DNL Target] UI 中显示[!UICONTROL 停用]状态。
 
-执行某些操作（例如使用 Target API 在 UI 外部激活活动）时，更新可能最多需要 10 分钟才能传播到 UI 中。
+执行某些操作时，例如使用在UI外部激活活动 [!DNL Target] API中，更新可能最多需要10分钟才能传播到UI。
+
+## 活动转化后，访客不在任何体验中。
+
+如果活动的转化量度符合体验的条件，则会在同一 [!DNL Target] 请求作为活动资格，则在发送请求后，访客可能不在任何体验中。 在这种情况下，访客会看到默认内容。 [!DNL Adobe] 建议不要在同一请求中发送活动转化和资格鉴定。
+
+如果要在同一请求中发送两个设置，可以使用 [!UICONTROL 高级设置] 以指定访客在转化后停留在同一体验中。

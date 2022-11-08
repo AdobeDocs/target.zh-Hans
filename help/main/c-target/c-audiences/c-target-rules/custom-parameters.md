@@ -4,10 +4,10 @@ description: 了解如何将自定义参数传递到 [!DNL Adobe Target] ，以�
 title: 我是否可以根据自定义参数定位访客？
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 41%
+source-wordcount: '497'
+ht-degree: 40%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 41%
    * 如果您记得mbox名称，但没有记住参数名称，请使用 [!UICONTROL 过滤依据] 下拉列表，用于筛选传递所需参数的已知mbox。
 
    无论使用哪种方法，mbox 和参数之间均没有链接。受众基于传递该参数的所有mbox中的参数工作。
+
+   >[!NOTE]
+   >
+   >您从 [!UICONTROL 过滤依据] 创建活动时未保存下拉列表。 利用此选项，可根据所选的mbox筛选参数。
 
    如果您编辑现有受众，则会显示筛选标准以及在创建期间提供的 mbox 名称。
 

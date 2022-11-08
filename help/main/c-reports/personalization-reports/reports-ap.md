@@ -4,7 +4,7 @@ description: 了解如何解释Adobe Target中的Automated Personalization摘要
 title: 如何使用Automated Personalization摘要报表？
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 31%
@@ -52,7 +52,7 @@ ht-degree: 31%
 >
 >时钟图标指示仍在构建算法模型。 复选标记图标表示已建立基本算法。
 
-选件可在 [报告组](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)，并且这些报表组可以折叠和展开。 单击 **[!UICONTROL 控制]** 或 **[!UICONTROL 目标]** ，以按报表组而不是选件查看汇总信息。
+选件可在 [报告组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)，并且这些报表组可以折叠和展开。 单击 **[!UICONTROL 控制]** 或 **[!UICONTROL 目标]** ，以按报表组而不是选件查看汇总信息。
 
 ## 自动化区段
 

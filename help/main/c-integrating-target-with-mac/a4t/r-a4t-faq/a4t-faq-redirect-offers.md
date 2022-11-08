@@ -4,10 +4,10 @@ description: 查找有关在使用Analytics for [!DNL Target] (A4T)。 A4T允许
 title: 在哪里可以找到有关使用A4T重定向选件的常见问题解答？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 52%
+source-wordcount: '1456'
+ht-degree: 51%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 52%
 
 | 参数 | 描述 |
 |--- |--- |
-| `adobe_mc_sdid` | 的 `adobe_mc_sdid` 参数可将补充数据ID(SDID)和Experience Cloud组织ID从默认页面传递到新页面。 这些ID允许A4T将默认页面上的Target请求与新页面上的Analytics请求“拼合”到一起。 |
+| `adobe_mc_sdid` | 的 `adobe_mc_sdid` 参数可将补充数据ID(SDID)和Experience Cloud组织ID从默认页面传递到新页面。 这些ID允许A4T将默认页面上的Target请求与新页面上的Analytics请求“拼合”到一起。<br>在URL中传递sdid的预期格式（对于混合应用程序，或从一个应用程序传递到网站或一个网站到另一个应用程序）是 `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
 | `adobe_mc_ref` | `adobe_mc_ref` 参数可将默认页面的引荐 URL 传递到新页面。当与AppMeasurement.js版本2.1（或更高版本）一起使用时，Analytics会将此参数值用作新页面上的引荐URL。 |
 
 在 VEC 和基于表单的体验编辑器中使用内置的重定向选件时，如果已在页面上实施访客 ID 服务，则这两个参数会自动添加到重定向 URL 中。如果您在 VEC 或基于表单的编辑器中使用自己的自定义重定向代码，则必须确保使用自定义代码传递这两个参数。

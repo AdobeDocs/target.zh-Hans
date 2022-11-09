@@ -5,7 +5,7 @@ title: 中的各种字符、大小和其他限制 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 96%
@@ -192,7 +192,7 @@ ht-degree: 96%
    * 配置文件参数数量 50
    * 配置文件参数名称最大长度 128
    * 配置文件参数值不得为 null
-   * 配置文件参数值最大长度 256
+   * 配置文件参数值最大长度 5000
 
    **投放 API 端点**：
 
@@ -203,7 +203,7 @@ ht-degree: 96%
    * 配置文件参数数量 50
    * 配置文件参数名称最大长度 128
    * 配置文件参数值不得为 null
-   * 配置文件参数值最大长度 256
+   * 配置文件参数值最大长度 5000
 
 
 

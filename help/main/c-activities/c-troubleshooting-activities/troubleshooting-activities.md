@@ -4,9 +4,9 @@ description: 查找如果您的网站上不显示您的 Adobe [!DNL Target] 活�
 title: 如何为活动排除故障？
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '863'
 ht-degree: 50%
 
 ---
@@ -136,6 +136,6 @@ ht-degree: 50%
 
 ## 活动转化后，访客不在任何体验中。
 
-如果活动的转化量度符合体验的条件，则会在同一 [!DNL Target] 请求作为活动资格，则在发送请求后，访客可能不在任何体验中。 在这种情况下，访客会看到默认内容。 [!DNL Adobe] 建议不要在同一请求中发送活动转化和资格鉴定。
+在极少数情况下，如果活动的转化量度符合体验条件是在与活动资格条件相同的请求中发送的，则访客在发送请求后可能不会处于任何体验中。 在这种情况下，访客会看到默认内容，通过令牌捕获的体验ID将为–1。 [!DNL Adobe] 不建议在同一活动中发送活动资格和转化 [!DNL Target] 请求。
 
-如果要在同一请求中发送两个设置，可以使用 [!UICONTROL 高级设置] 以指定访客在转化后停留在同一体验中。
+如果要在同一请求中发送两个量度，可以使用 [!UICONTROL 高级设置] 以指定访客在转化后停留在同一体验中。

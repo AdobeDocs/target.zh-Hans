@@ -4,9 +4,9 @@ description: 了解A/B测试的运行时间。 成功的A/BAdobe [!DNL Target] �
 title: A/B测试应该持续多长时间？
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
+source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
 workflow-type: tm+mt
-source-wordcount: '3088'
+source-wordcount: '3093'
 ht-degree: 57%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 57%
 
 在设置A/B测试之前，请访问 [!DNL Adobe Target] [样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-![Adobe Target 样本量计算器](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
+![Adobe Target 样本量计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)
 
 在执行任何A/B测试之前，请务必确定足够的样本量（访客数），以便确定活动在评估结果之前应运行的时间。 仅仅监控活动直到达到统计意义为止会导致置信区间被大大低估，从而导致测试不可靠。 此结果的依据是，如果检测到具有统计意义的结果，则停止测试并确定入选者。但是，如果结果不具有统计意义，则允许测试继续。此过程非常容易产生正面的结果，这会增加误报率，并因此扭曲测试的有效显著性水平。
 

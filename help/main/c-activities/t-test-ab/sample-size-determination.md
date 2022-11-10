@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n；样本量；样本量计算器；自动分配；自动分配；计算器
-description: 了解A/B测试的运行时间。 成功的A/BAdobe [!DNL Target] 需要足够的访客（样本量）来提高转化率。
+description: 了解A/B测试的运行时间。 中成功的A/B测试 [!DNL Adobe Target] 需要足够的访客（样本量）来提高转化率。
 title: A/B测试应该持续多长时间？
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
+source-git-commit: 216134ba7d0ce7ebdad2ba477b9ad1e9fab1dff2
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3092'
 ht-degree: 57%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 57%
 
 如果您选择使用手动 [!UICONTROL A/B测试] 活动而非 [!UICONTROL 自动分配], [!DNL Target] 样本量计算器可帮助您确定成功测试所需的样本量。 手动A/B测试是固定水平测试，因此计算器很有帮助。 使用计算器 [!UICONTROL 自动分配] 活动是可选的，因为 [!UICONTROL 自动分配] 宣布入选者。 计算器可粗略估计所需的样本量。 继续阅读可了解有关如何使用计算器的更多信息。
 
-在设置A/B测试之前，请访问 [!DNL Adobe Target] [样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+在设置A/B测试之前，请访问 [!DNL Adobe Target] [样本量计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).
 
-![Adobe Target 样本量计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)
+![Adobe Target 样本量计算器](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 在执行任何A/B测试之前，请务必确定足够的样本量（访客数），以便确定活动在评估结果之前应运行的时间。 仅仅监控活动直到达到统计意义为止会导致置信区间被大大低估，从而导致测试不可靠。 此结果的依据是，如果检测到具有统计意义的结果，则停止测试并确定入选者。但是，如果结果不具有统计意义，则允许测试继续。此过程非常容易产生正面的结果，这会增加误报率，并因此扭曲测试的有效显著性水平。
 

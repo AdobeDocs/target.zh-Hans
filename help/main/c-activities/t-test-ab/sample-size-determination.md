@@ -4,10 +4,10 @@ description: 了解A/B测试的运行时间。 成功的A/BAdobe [!DNL Target] �
 title: A/B测试应该持续多长时间？
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 58%
+source-wordcount: '3088'
+ht-degree: 57%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 58%
 
 如果您选择使用手动 [!UICONTROL A/B测试] 活动而非 [!UICONTROL 自动分配], [!DNL Target] 样本量计算器可帮助您确定成功测试所需的样本量。 手动A/B测试是固定水平测试，因此计算器很有帮助。 使用计算器 [!UICONTROL 自动分配] 活动是可选的，因为 [!UICONTROL 自动分配] 宣布入选者。 计算器可粗略估计所需的样本量。 继续阅读可了解有关如何使用计算器的更多信息。
 
-在设置A/B测试之前，请访问Adobe Target [样本量计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).
+在设置A/B测试之前，请访问 [!DNL Adobe Target] [样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ![Adobe Target 样本量计算器](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -61,8 +61,7 @@ ht-degree: 58%
 
 >[!IMPORTANT]
 >
->要获得准确的结果，您必须先重新加载页面，然后再更改任何参数编号。
-
+>要获得准确的结果，您必须先重新加载页面，然后再更改任何参数编号。 每次更改任何参数编号时，请重复此过程。
 
 对于 A/B 测试，由分析人员设置统计意义、统计功效、能够可靠检测到的最小提升度和基准线转化率，然后根据这些数字计算所需的访客数量。本文讨论了这些元素，并提供了如何为特定测试确定这些量度的准则。
 

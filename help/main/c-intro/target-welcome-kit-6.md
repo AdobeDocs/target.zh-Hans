@@ -4,10 +4,10 @@ description: 从他人的错误中汲取经验教训，以使您在使用 Adobe 
 title: 使用 [!DNL Target] 时常犯的错误有哪些以及怎样才能避免它们？
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '411'
-ht-degree: 100%
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 89%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 100%
 
 | 陷阱 | 解决方案 |
 | --- | --- |
-| 流量不足，无法得出有统计学意义的结果。 | 提前使用 Adobe Target [样本大小计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)了解测试必须运行多久，然后再运行测试直至完毕。 |
+| 流量不足，无法得出有统计学意义的结果。 | 使用 [!DNL Adobe Target] [样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) 先了解测试必须运行多长时间，然后运行测试以完成。 |
 | 作出的更改太小或不明显。 | 作出足够大的更改，以使您离屏幕较远就能看到更改。 |
 | 未能使活动与业务目标相符。 | 更加注重优先处理方法，并将该方法传达给内部利益相关者。 |
 | 几乎没有或完全没有备用的测试。 | 与内部利益相关者接触，并允许他们提交符合关键业务目标的测试。 |
 | 活动启动延长到最后期限之后。 | 改进活动的文档，加入测试设置的具体详细信息。 |
-| 所选的活动成功指标数据对决策没有帮助。 | 记载所有主要的测试指标，并包括额外的指标以获得额外的见解。 |
+| 选择无助于决策的活动成功量度数据。 | 记载所有主要的测试指标，并包括额外的指标以获得额外的见解。 |
 | 在测试期间作出可能影响结果的更改。 | 维护即将发生的促销和网站更改的日历。清楚地传达 [!DNL Target] 活动启动以避免冲突。 |
 | 在临近活动启动时更改测试体验或标准。 | 在测试活动过程的早期就要求关键利益相关者签发。 |
-| 在结果产生统计学意义之前就结束活动。 | 使用 Adobe [样本大小计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)验证测试持续时间。 |
+| 在结果产生统计学意义之前就结束活动。 | 使用验证测试持续时间 [!DNL Adobe Target] [样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6). |
 | 从 [!DNL Target] 活动获得负面或持平的结果。 | 确认该活动值得测试。 |
 | 没有将入选体验硬编码。 | 使用活动数据显示值以获得硬编码的认可。 |
 | 没有在测试团队之外分享结果。 | 扩大传达范围以包括启动和经验教训、编制项目仪表板以及安排利益相关者会议。 |

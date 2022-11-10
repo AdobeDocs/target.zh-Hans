@@ -4,9 +4,9 @@ description: 了解如何在Adobe中使用自动分配活动 [!DNL Target] 可�
 title: 什么是自动分配活动？
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '3570'
+source-wordcount: '3565'
 ht-degree: 50%
 
 ---
@@ -173,7 +173,10 @@ ht-degree: 50%
 
 ### 使用 [!UICONTROL 自动分配] 要估计活动确定入选者所花费的时长？
 
-您可以使用现有 [样本量计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) 以估算测试运行的时长。 （与传统A/B测试一样，如果您测试的选件超过两个或多个转化量度/假设，则应用Bonferroni校正。） 此计算器专为传统的固定水平A/B测试而设计，仅提供估算。 使用计算器 [!UICONTROL 自动分配] 活动是可选的，因为 [!UICONTROL 自动分配] 宣布入选者。 您无需选择固定的时间点来查看测试结果。 提供的值始终具有统计学上的有效性。 在我们的实验中，我们发现了以下内容：
+您可以使用现有 [!DNL Adobe Target] [样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) 以估算测试运行的时长。 （与传统A/B测试一样，如果您测试的选件超过两个或多个转化量度/假设，则应用Bonferroni校正。） 此计算器专为传统的固定水平A/B测试而设计，仅提供估算。 使用计算器 [!UICONTROL 自动分配] 活动是可选的，因为 [!UICONTROL 自动分配] 宣布入选者。 您无需选择固定的时间点来查看测试结果。 提供的值始终具有统计学上的有效性。
+
+在我们的实验中，我们发现了以下内容：
+
 * 在仅测试两个体验时， [!UICONTROL 自动分配] 当体验之间的性能差异较大时，比固定水平测试（即样本量计算器建议的时间范围）更快地找到入选者。 但是， [!UICONTROL 自动分配] 当体验之间的性能差异较小时，可能需要额外时间来确定入选者。 在这些情况下，固定水平测试通常会在没有统计意义显着结果的情况下结束。
 * 在测试两个以上的体验时， [!UICONTROL 自动分配] 当单个体验的效果远远超出所有其他体验时，比固定水平测试（即样本量计算器建议的时间范围）更快地找到入选者。 当两个或两个以上的体验都“胜出”于其他体验，但彼此之间又紧密匹配时， [!UICONTROL 自动分配] 可能需要额外的时间来确定哪个更优秀。 在这些情况下，固定视野测试通常会通过以下结论结束： “入选”体验优于性能较低的体验，但没有确定哪个体验更优。
 

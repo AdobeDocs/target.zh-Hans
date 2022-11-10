@@ -4,9 +4,9 @@ description: 了解如何在Adobe中解释自动分配A/B活动的结果 [!DNL T
 title: 如何解读自动分配报表？
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1222'
 ht-degree: 44%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 44%
 
 >[!IMPORTANT]
 >
->Target在预定义的最低转化次数后显示入选者；但是，挑选入选者的最终决定应始终取决于Adobe Target的结果 [样本量计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html). Target不考虑网站的基本转化率以及输入计算器以确定活动持续时间的其他重要方面。 因此，Target可能会在最低转化次数的基础上提前显示入选者。 有关更多信息，请参阅 [样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target在预定义的最低转化次数后显示入选者；但是，挑选入选者的最终决定应始终取决于 [!DNL Adobe Target] 样本量计算器。 [!DNL Target] 不考虑网站的基本转化率以及输入计算器以确定活动持续时间的其他重要方面。 因此，Target可能会在最低转化次数的基础上提前显示入选者。 有关更多信息，请参阅 [样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## 了解自动分配活动中的提升度和置信度报表 {#lift-confidence}
 
@@ -75,7 +75,8 @@ ht-degree: 44%
 
    自动分配显示的是某个特定体验是所有活动体验中的入选者的真实性概率。这意味着只有入选体验（最有可能入选的体验）的置信度值将为非零数值。所有其他体验很有可能落选，因此将显示 0% 的置信度值。
 
-* 仅当入选体验达到 60% 的置信度后，自动分配才会开始显示置信度。这些置信水平通常会在常规A/B测试完成所需时间的一半左右（尽管这并不是保证的）时出现。 要确定常规A/B测试运行的时长，请使用 [样本量计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html):将控制体验的转化率插入“基线转化率”，将“5%”插入“提升度”，将95%插入“置信度”。 通常情况下，在每个体验达到其所需样本量的至少 50% 之后，置信度便会开始显示。这可使您了解置信度将从何时开始显示。
+* 仅当入选体验达到 60% 的置信度后，自动分配才会开始显示置信度。这些置信水平通常会在常规A/B测试完成所需时间的一半左右（尽管这并不是保证的）时出现。 要确定常规A/B测试运行的时长，请使用 [!DNL Adobe Target] [样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6):将控制体验的转化率插入“基线转化率”，将“5%”插入“提升度”，将95%插入“置信度”。 通常情况下，在每个体验达到其所需样本量的至少 50% 之后，置信度便会开始显示。这可使您了解置信度将从何时开始显示。
+
 * 如果报表中所有置信度值均显示为 0%，则有可能是进入活动的时间过早。
 
 ### 对于使用 [!UICONTROL Analytics 作为报表源] (A4T) 的[!UICONTROL 自动分配]活动，是否有“无入选项目”、“入选项目”和“星标”徽章可用？

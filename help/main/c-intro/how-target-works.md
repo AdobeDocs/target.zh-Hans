@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target]  的工作原理，包括有关 JavaScr
 title: ' [!DNL Target] 的工作原理'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 0d00315b7460a36aceaa4d4d0ce4bb5402824c73
-workflow-type: ht
-source-wordcount: '2568'
-ht-degree: 100%
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+workflow-type: tm+mt
+source-wordcount: '2583'
+ht-degree: 98%
 
 ---
 
@@ -178,7 +178,7 @@ Google 提倡用户测试。Google 在其文档中声明，只要遵循特定准
 
    [!DNL Adobe] 不断寻找可行的解决方案以完全遵循搜索引擎准则。对于那些必须使用单独的 URL 进行测试的客户端，[!DNL Adobe] 确信恰当地实现 canonical 标记可减轻与此方法有关的风险。
 
-* **仅运行试验必要时长**：[!DNL Adobe] 认为“必要时长”就是实现统计显著性所需的时间。 [!DNL Target][至于如何确定测试何时到达此时间点， 提供了最佳实践](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)。[!DNL Adobe] 建议将入选测试的硬编码实现并入测试工作流程并分配适当的资源。
+* **仅运行试验必要时长**：[!DNL Adobe] 认为“必要时长”就是实现统计显著性所需的时间。 [!DNL Target] 提供最佳实践和 [!DNL Adobe Target] [样本量计算器] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)来确定测试何时到达此点。 [!DNL Adobe] 建议将入选测试的硬编码实现并入测试工作流程并分配适当的资源。
 
    建议不要将使用 [!DNL Target] 平台“发布”入选测试作为永久解决方案。如果在 100% 的时间内为 100% 的用户发布入选测试，则可在完成为入选测试进行硬编码的同时使用此方法。
 

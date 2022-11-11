@@ -5,8 +5,8 @@ title: 可在何处查看 Target 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '1596'
 ht-degree: 100%
 
 ---

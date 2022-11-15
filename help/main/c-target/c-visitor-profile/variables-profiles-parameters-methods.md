@@ -1,13 +1,13 @@
 ---
 keywords: 变量;配置文件;参数;内置配置文件;方法;URL 变量;地域配置文件;第三方配置文件;mbox 变量;营销活动变量;客户属性
 description: 查看在Adobe Target的配置文件脚本中有用的各种配置文件、变量和参数的列表。
-title: Target中使用了哪些配置文件、变量和参数？
+title: 在中使用哪些配置文件、变量和参数 [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 967202f9de92afa79f4bef33470123504c0a8f53
+source-git-commit: dfb718d2ba0395e76c09234f7ccb69a69f1b976c
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 83%
+source-wordcount: '634'
+ht-degree: 78%
 
 ---
 
@@ -38,7 +38,8 @@ ht-degree: 83%
 | user.header(&#39;accept&#39;) | 访客语言和字符编码 |
 | user.header(&#39;connection&#39;) | 服务器连接。例如：keep-live |
 | user.header(&#39;referrer&#39;) | 访客当前页面的网站 URL。不适用于 Internet Explorer。 |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.getLocal(&#39;param_name&#39;); | 检索您使用 `user.setLocal`. |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | 在配置文件脚本中创建持久配置文件值。 这些值会像配置文件脚本一样保留，但您只能在其设置的脚本中访问它。 |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | 从配置文件脚本创建的永久性配置文件属性。还引用“系统”配置文件，如地理位置、访问计数等。 |
 | profile.get(&#39;param_name&#39;) | 获取要在配置文件脚本中使用的配置文件参数的正确方法是profile.get(&#39;param_name&#39;)方法。 |

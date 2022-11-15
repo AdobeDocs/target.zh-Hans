@@ -4,10 +4,10 @@ description: 查看在Adobe Target的配置文件脚本中有用的各种配置�
 title: Target中使用了哪些配置文件、变量和参数？
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 967202f9de92afa79f4bef33470123504c0a8f53
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 85%
+source-wordcount: '596'
+ht-degree: 83%
 
 ---
 
@@ -39,9 +39,8 @@ ht-degree: 85%
 | user.header(&#39;connection&#39;) | 服务器连接。例如：keep-live |
 | user.header(&#39;referrer&#39;) | 访客当前页面的网站 URL。不适用于 Internet Explorer。 |
 | user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
 | user.get(&#39;param_name&#39;) |  |
-| user.parameter | 从配置文件脚本创建的永久性配置文件属性。还会引用地理位置、访问计数等“系统”配置文件。 |
+| user.parameter | 从配置文件脚本创建的永久性配置文件属性。还引用“系统”配置文件，如地理位置、访问计数等。 |
 | profile.get(&#39;param_name&#39;) | 获取要在配置文件脚本中使用的配置文件参数的正确方法是profile.get(&#39;param_name&#39;)方法。 |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | 因带有 profile.   前缀而使其具有持久性的 mbox 参数。 |

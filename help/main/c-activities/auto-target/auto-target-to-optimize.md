@@ -4,14 +4,14 @@ description: 了解如何在 [!DNL Target] 根据客户配置文件和类似访�
 title: 什么是自动定位活动？
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: e79f7b277f82debcf9a3780eae4ad26c320efc00
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1989'
 ht-degree: 66%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 自动定位概述
+# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL 自动定位] 概述
 
 [!UICONTROL 自动定位] 活动 [!DNL Adobe Target] 使用先进的机器学习技术从营销人员定义的多个高性能体验中进行选择，以个性化内容并促进转化。 自动定位根据单个客户配置文件和具有相似配置文件的先前访客的行为，为每个访客提供量身定制的体验。
 

@@ -1,13 +1,13 @@
 ---
 keywords: target 文档变更日志;文档更新;新主题;编辑;更新;更新
 description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更。
-title: 可在何处查看 Target 的文档更新？
+title: 在哪里可以看到 [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
+source-git-commit: 5735bc3e68aa583ff00bdac11ea16c0f330c3f72
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 98%
+source-wordcount: '1614'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 11 月 16 日 | [Adobe Target公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了以下事件的注册信息：<ul><li>[!DNL Adobe Target] 社区问答时间（11月29日）</li></ul> |
+| 11 月 16 日 | [Adobe Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了以下事件的注册信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（11 月 29 日）</li></ul> |
 | 11 月 8 日 | [A/B 测试应该持续多长时间？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 添加了重要说明：要获得准确的结果，您在更改[!DNL Adobe Target][!UICONTROL 样本量计算器]中的任何参数数量之前必须重新加载页面。另外还在实际的[计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}中添加了一条说明。 |
 |  | [重定向选件 — A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 在表中更新了对 `adobe_mc_sdid` 参数的描述。 |
 |  | [活动故障诊断](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 新增部分：“活动转换后，访客没有任何体验。” |

@@ -5,9 +5,9 @@ title: 中的各种字符、大小和其他限制 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
+source-git-commit: 97d53f25261f30d3255323fba7efff51744cb74e
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1346'
 ht-degree: 96%
 
 ---
@@ -271,7 +271,7 @@ ht-degree: 96%
 
 * **建议限制**：2,000 个字符。
 
-   取决于编码字符串的大小，其大小可能比原始字符串长很多。如果字符串太大，则会在进入 Adobe Target 之前失败。
+   取决于编码字符串的大小，其大小可能比原始字符串长很多。如果字符串太大，在转到 [!DNL Adobe Target].
 
 ## 脚本配置文件
 

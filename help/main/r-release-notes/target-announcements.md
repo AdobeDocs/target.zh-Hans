@@ -5,9 +5,9 @@ title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1990'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,21 +21,21 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 有关更多信息，请参阅 [Adobe Experience Cloud 博客帖子](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
-## [!DNL Adobe Target] 社区问答喝咖啡休息时间 (11 月 29 日)
+## [!DNL Adobe Target] 社区问答喝咖啡休息时间（11 月 29 日）
 
-* **2022年11月29日星期二**
-* **上午8时至9时(PST GMT-8)**
+* **2022 年 11 月 29 日，周二**
+* **上午 8:00 至 9:00 (PST GMT-8)**
 * **[注册信息](https://adobe.ly/3UtQoxv){target=_blank}**
 
-我们将由Cristinel Anastasoaie加入，他是 [!DNL Adobe Target]，谁将回答与 [!DNL Adobe Target] 网络研讨会 [AI驱动的个性化和Recommendations](#AI).
+我们将邀请 [!DNL Adobe Target] 的高级产品经理 Cristinel Anastasoaie 解答您与关于 [AI 驱动的个性化和推荐](#AI)的 [!DNL Adobe Target] 网络研讨会有关的疑问。
 
-请务必查看网络研讨会记录，然后提出后续问题，以便针对您的独特用例提供全面的分析、更深入的解释和战略建议。
+请务必回顾网络研讨会录像后再提出后续疑问，以便形成全面的见解、更深入的解释和针对您独特用例的战略建议。
 
-* 优化实时推荐、一键式个性化活动和自动化选件
-* 使用 [!UICONTROL 可视化体验编辑器] (VEC)
-* 集成 [!DNL Adobe Experience Platform] (AEP)用于实时区段和配置文件属性共享
+* 优化实时推荐、一键个性化活动和自动促销
+* 使用[!UICONTROL 视觉体验生成器] (VEC) 创建和发起 AI 驱动的个性化活动
+* 与 [!DNL Adobe Experience Platform] (AEP) 集成，以便实时共享区段和配置文件属性
 
-[!DNL Adobe] 技术支持工程师Simon Chen将为您的问题提供更多的见解和答案。
+[!DNL Adobe] 技术支持工程师 Simon Chen 将提供其他见解并解答您的疑问。
 
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 

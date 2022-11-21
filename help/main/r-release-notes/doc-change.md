@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 在哪里可以看到 [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5735bc3e68aa583ff00bdac11ea16c0f330c3f72
+source-git-commit: 58f85f2a067b6d79c07d17633d8123928bf4fec8
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1608'
 ht-degree: 99%
 
 ---
@@ -129,10 +129,10 @@ ht-degree: 99%
 | 1 月 28 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关 at.js 2.8.1 版本的信息。 |
 |  | [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 添加了有关 at.js 2.8.1 版本的信息。 |
 | 1 月 27 日 | [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 更新了主题并添加了有关 [!DNL AEM as a Cloud Service] 和 [!DNL Adobe I/0] 的信息。 |
-| 1 月 26 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 Target Standard/Premium 22.1.2 版的信息。 |
+| 1 月 26 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.1.2 版本的信息。 |
 |  | [创建受众](/help/main/c-target/c-audiences/audiences.md) | 添加了关于 [!DNL Adobe Experience Platform] 受众的信息。 |
 |  | [合并多个受众](/help/main/c-target/combining-multiple-audiences.md) | 添加了关于 [!DNL Adobe Experience Platform] 受众的信息。 |
 | 1 月 21 日 | [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 添加了有关 at.js 1.8.3 版本的信息。 |
 | 1 月 19 日 | [从 at.js 1.*x* 升级到 at.js 2.x *x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 添加了以下部分：“at.js 2.*x* 不支持使用 vst.* 参数创建受众” |
-| 1 月 12 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 Target Standard/Premium 22.1.1 版的信息。 |
+| 1 月 12 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关 [!DNL Target Standard/Premium] 22.1.1 版本的信息。 |
 |  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | 添加了指向教程的链接，其中提供有关使用 Web SDK 实施 [!DNL Adobe Experience Cloud] 的说明。 |

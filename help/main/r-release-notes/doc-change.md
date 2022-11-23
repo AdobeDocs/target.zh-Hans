@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 58f85f2a067b6d79c07d17633d8123928bf4fec8
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '1608'
-ht-degree: 100%
+source-wordcount: '1639'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 11 月 23 日 | [使用 at.js 实施 Analytics for Target (A4T) 之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | 更新了指向 [Marketing Cloud集成配置表单](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}。 |
 | 11 月 16 日 | [Adobe Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了以下活动的注册信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（11 月 29 日）</li></ul> |
 | 11 月 8 日 | [A/B 测试应该持续多长时间？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 添加了重要说明：要获得准确的结果，您在更改[!DNL Adobe Target][!UICONTROL 样本量计算器]中的任何参数数量之前必须重新加载页面。另外还在实际的[计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}中添加了一条说明。 |
 |  | [重定向选件 — A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 在表中更新了对 `adobe_mc_sdid` 参数的描述。 |

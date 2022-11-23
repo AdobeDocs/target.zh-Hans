@@ -4,10 +4,10 @@ description: 了解Analytics的实施要求，适用于 [!DNL Target] (A4T)以�
 title: 实施A4T之前，我应该了解什么？
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 24%
+source-wordcount: '995'
+ht-degree: 25%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 24%
 
 >[!IMPORTANT]
 >
->在开始使用A4T之前，您必须请求配置您的帐户以进行集成。 使用 [Marketing Cloud集成配置表单](https://www.adobe.com/go/audiences_cn) 请求进行配置。
+>在开始使用A4T之前，您必须请求配置您的帐户以进行集成。 使用 [Marketing Cloud集成配置表单](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}请求进行配置。
 
 根据您是否要将重定向选件与A4T结合使用，此A4T集成要求您实施以下库版本（或更高版本）。
 
@@ -97,7 +97,7 @@ When [疑难解答](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troublesh
 
 ## 共享受众
 
-在 [Marketing Cloud集成配置表单](https://www.adobe.com/go/audiences)，请注意以下与 [!UICONTROL 共享受众] “[!UICONTROL 您请求为其配置哪些功能]?&quot;
+在 [Marketing Cloud集成配置表单](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}，请注意以下与 [!UICONTROL 共享受众] “[!UICONTROL 您请求为其配置哪些功能]?&quot;
 
 ![请求表单](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 

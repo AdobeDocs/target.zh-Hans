@@ -4,9 +4,9 @@ description: 按照实施Analytics(适用于 [!DNL Target] (A4T)Adobe [!DNL Targ
 title: 如何为实施Analytics [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
+source-git-commit: f19d7de5b248ab1a55e7aad47d2e445eadf69717
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1162'
 ht-degree: 24%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 ### 步骤1:请求配置 [!DNL Analytics] 和 [!DNL Target]
 
-在实施A4T之前，您必须配置 [!DNL Analytics] 和 [!DNL Target]. [使用此表单请求进行配置](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES).
+在实施A4T之前，您必须配置 [!DNL Analytics] 和 [!DNL Target]. [使用此表单请求进行配置](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y).
 
 ### 步骤 2：设置用户权限
 

@@ -4,9 +4,9 @@ description: 了解哪些数据Adobe [!DNL Target] 收集并使用来构建其�
 title: 收集哪些数据来构建机器学习算法？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2029'
 ht-degree: 48%
 
 ---
@@ -48,9 +48,7 @@ ht-degree: 48%
 
 功能可以从 [!DNL Target] 机器学习算法，防止它们被用于任何 [!UICONTROL 自动定位] 或 [!UICONTROL Automated Personalization] 模型或活动。
 
-要阻止 [!DNL Target] 机器学习算法，联系人 [Adobe客户关怀](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) 并使用上述提供的系统前缀指定要阻止的功能类别。
-
-阻止 [!DNL Target] 机器学习算法，联系人 [Adobe客户关怀](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) 并使用以下提供的系统名称指定应阻止的特定功能名称。 以下部分包含各种数据类型的详细信息，包括属性名称、属性描述和示例值。
+有关更多信息，请参阅 [模型API(列入阻止列表)概述](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} *Adobe Target开发人员指南*.
 
 ## 设备和移动设备数据 {#device-mobile}
 

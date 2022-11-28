@@ -4,7 +4,7 @@ description: 了解哪些数据Adobe [!DNL Target] 收集并使用来构建其�
 title: 收集哪些数据来构建机器学习算法？
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
+source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 48%
@@ -48,7 +48,7 @@ ht-degree: 48%
 
 功能可以从 [!DNL Target] 机器学习算法，防止它们被用于任何 [!UICONTROL 自动定位] 或 [!UICONTROL Automated Personalization] 模型或活动。
 
-有关更多信息，请参阅 [模型API(列入阻止列表)概述](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} *Adobe Target开发人员指南*.
+有关更多信息，请参阅 [模型API(列入阻止列表)概述](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} *Adobe Target开发人员指南*.
 
 ## 设备和移动设备数据 {#device-mobile}
 

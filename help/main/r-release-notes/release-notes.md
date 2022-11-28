@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8c348f40be8df5018d63c6b6fe75e1f8e804eafc
-workflow-type: ht
-source-wordcount: '1001'
-ht-degree: 100%
+source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 94%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 100%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## Models API版本（2022年11月23日）
+
+新 [!DNL Adobe Target] 模型API（也称为API）允阻止列表许用户查看和管理机器学习模型中使用的功能列表 [!UICONTROL Automated Personalization] （美联社）和 [!UICONTROL 自动定位] (AT)活动。
+
+有关更多信息，请参阅 [模型API概述](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} *Adobe Target开发人员指南*.
 
 ## [!DNL Target] Standard/Premium 22.10.3（交错发布：2022 年 10 月 25 日至 27 日）
 

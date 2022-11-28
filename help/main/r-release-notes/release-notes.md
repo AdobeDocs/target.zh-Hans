@@ -5,14 +5,14 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
+source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1055'
 ht-degree: 94%
 
 ---
 
-# Target 发行说明（当前版本）
+# [!DNL Target]发行说明（当前版本）
 
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 

@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1693'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 | --- | --- | --- |
 | 11 月 28 日 | [模型API(列入阻止列表)概述](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} *Adobe Target开发人员指南*. | 新模型API。<br>功能可以从 [!DNL Target] 机器学习算法，防止它们被用于任何 [!UICONTROL 自动定位] 或 [!UICONTROL Automated Personalization] 模型或活动。 |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关模型API版本（2022年11月23日）的信息。 |
-| 11 月 23 日 | [使用 at.js 实施 Analytics for Target (A4T) 之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | 更新了指向 [Marketing Cloud集成配置表单](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}。 |
+| 11 月 23 日 | [使用 at.js 实施 Analytics for Target (A4T) 之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | 更新了链接 [Marketing Cloud 集成设置表单](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}。 |
 | 11 月 16 日 | [Adobe Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了以下活动的注册信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（11 月 29 日）</li></ul> |
 | 11 月 8 日 | [A/B 测试应该持续多长时间？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 添加了重要说明：要获得准确的结果，您在更改[!DNL Adobe Target][!UICONTROL 样本量计算器]中的任何参数数量之前必须重新加载页面。另外还在实际的[计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}中添加了一条说明。 |
 |  | [重定向选件 — A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 在表中更新了对 `adobe_mc_sdid` 参数的描述。 |

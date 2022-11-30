@@ -5,10 +5,10 @@ title: 我是否可以根据位置定位访客？
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 50%
+source-wordcount: '1041'
+ht-degree: 41%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 50%
    * [!UICONTROL DMA]
    * [!UICONTROL 移动设备运营商]
 
-   访客的 IP 地址使用 mbox 请求来传递，以分析该访客的地域定位参数，每个访问（会话）进行一次。
+   访客的地域信息由 [!DNL Target] 位置请求（mbox请求）。 IP到地域的解决方案在新会话的首次调用中完成。 这意味着，如果访客的IP地址在访问会话期间发生更改，则地理信息仍基于首次调用的IP地址。
 
    对于 [!UICONTROL 移动设备运营商], [!DNL Target] 使用IP地址注册数据（即拥有IP地址块的用户）来确定使用的相应移动运营商 [移动设备国家/地区代码(MCC)和移动设备网络代码(MNC)](https://www.mcc-mnc.com).
 
@@ -49,7 +49,7 @@ ht-degree: 50%
 
 ## 精准度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-地域定位的精准度取决于多个因素。与蜂窝网络相比，使用 WiFi 连接进行地域定位会更加精准。如果访客使用的是蜂窝数据连接，则地理查询的精准度可能会受到位置、提供商与 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 之间的数据关系及其他因素的影响。使用基于蜂窝塔的网络连接进行地域定位可能没有使用有线或 WiFi 连接精准。此外，访客的IP地址可能会映射到访客的ISP位置，该位置可能与访客的实际位置不同。 使用 [地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+地域定位的精准度取决于多个因素。与蜂窝网络相比，使用 WiFi 连接进行地域定位会更加精准。当访客使用蜂窝数据连接时，地理查询的准确性可能会受位置、提供商与 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)，以及其他因素。 使用基于蜂窝塔的网络连接进行地域定位可能没有使用有线或 WiFi 连接精准。此外，访客的IP地址可能会映射到访客的ISP位置，该位置可能与访客的实际位置不同。 使用 [地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 下表显示了使用有线或 WiFi Internet 连接时根据 IP 获取的地理位置信息的精准度，此数据由 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 提供。DigitalEnvoy 能够提供业内最精准的数据。国家/地区级全局精准度超过 99.9%，城市级全局准确度高达 97%。此精准度信息不适用于基于蜂窝塔的网络。
 
@@ -110,21 +110,29 @@ ht-degree: 50%
 
 ### 如何指定纬度和经度？
 
++++查看详细信息
 * 纬度和经度的值应该是度数值。
 * 纬度和经度的值最大精度可以小数位五位。
 * 纬度值应介于 -90 到 90 之间。
 * 经度值应介于 -180 到 180 之间。
 
++++
+
 ### 地域定位在移动设备上的工作原理是什么？
 
-大多数移动设备用户通过WiFi访问内容，这意味着 [!DNL Target]的基于IP的地理定位与桌面一样准确。 使用基于蜂窝塔的连接时，会根据获取信号的塔所在的位置来确定访客的 IP 地址，因此精准度可能会有所降低。使用 [地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
++++查看详细信息大多数移动设备用户通过WiFi访问内容，这意味着 [!DNL Target]的基于IP的地理定位与桌面一样准确。 使用基于蜂窝塔的连接时，会根据获取信号的塔所在的位置来确定访客的 IP 地址，因此精准度可能会有所降低。使用 [地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+
++++
 
 ### 地域定位功能如何处理来自 AOL（美国在线公司）的访客？
 
-由于AOL代理其流量的方式， [!DNL Target] 只能在国家/地区级别定位。 例如，定位到法国的营销活动成功定位了法国的AOL用户。 但是，定位到巴黎的营销活动无法成功定位巴黎的AOL用户。 如果您的目的是特别定位 AOL 用户，您可以将地区字段设为“aol”。实际上，您可以通过指定以下两个定位条件来定位美国的 AOL 用户：国家/地区完全匹配“美国”，而地区完全匹配“aol”。
++++查看详细信息由于AOL代理其流量的方式， [!DNL Target] 只能在国家/地区级别定位。 例如，定位到法国的营销活动成功定位了法国的AOL用户。 但是，定位到巴黎的营销活动无法成功定位巴黎的AOL用户。 如果您的目的是特别定位 AOL 用户，您可以将地区字段设为“aol”。实际上，您可以通过指定以下两个定位条件来定位美国的 AOL 用户：国家/地区完全匹配“美国”，而地区完全匹配“aol”。
+
++++
 
 ### 地域定位功能提供哪些位置选项？
 
++++查看详细信息
 * 国家/地区 - 全球
 * 州/省/地区 - 全球
 * 市 - 全球
@@ -132,8 +140,11 @@ ht-degree: 50%
 * DMA/ITV (UK) - 美国、英国
 * 移动设备运营商 - 全球
 
++++
+
 ### 我如何模拟其他位置的用户身份测试活动？
 
++++查看详细信息
 * **at.js 1.*x***:您可以使用其他位置的IP地址覆盖您的IP地址，并使用 `mboxOverride.browserIp url` 参数。 例如，如果您的公司位于英国，但您的全球营销活动定位的是新西兰奥克兰的访客，请使用此类型的URL(假定 `60.234.0.39` 是奥克兰的一个IP地址：
 
    `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
@@ -146,13 +157,19 @@ ht-degree: 50%
 
 * **at.js 2.*x***:使用at.js 2.*x*，请安装浏览器扩展/插件（例如适用于Chrome或Firefox的X-Forwarded-For Header）。 此扩展允许您在页面请求中传递x-forwarded-for标头。
 
++++
+
 ### 如何将波多黎各和中国香港特别行政区等区域映射到地理定位结构？
 
-系统将波多黎各、中国香港特别行政区和其他区域视为单独的“国家/地区”值。
++++请参阅详细信息波多黎各、香港和其他地区将被视为单独的“国家/地区”值。
+
++++
 
 ### 是 [!DNL Target] 使用地理位置定位功能定位活动时，是否会捕获（和存储）邮政编码等信息？
 
-不， [!DNL Target] 仅在会话期间使用地理数据，然后会丢弃该数据。
++++详情否， [!DNL Target] 仅在会话期间使用地理数据，然后会丢弃该数据。
+
++++
 
 ## 培训视频：创建受众 ![教程徽章](/help/main/assets/tutorial.png)
 

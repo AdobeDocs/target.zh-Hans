@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
+source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 97%
+source-wordcount: '1761'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 97%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 11 月 29 日 | [地域](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 通过添加以下段落澄清了文本：<ul><li>访客的地域信息由 [!DNL Target] 位置请求（mbox请求）。 IP到地域的解决方案在新会话的首次调用中完成。 这意味着，如果访客的IP地址在访问会话期间发生更改，则地理信息仍基于首次调用的IP地址。</li></ul> |
 | 11 月 28 日 | [模型API(列入阻止列表)概述](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} *Adobe Target开发人员指南*. | 新模型API。<br>功能可以从 [!DNL Target] 机器学习算法，防止它们被用于任何 [!UICONTROL 自动定位] 或 [!UICONTROL Automated Personalization] 模型或活动。 |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关模型API版本（2022年11月23日）的信息。 |
 | 11 月 23 日 | [使用 at.js 实施 Analytics for Target (A4T) 之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | 更新了链接 [Marketing Cloud 集成设置表单](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}。 |

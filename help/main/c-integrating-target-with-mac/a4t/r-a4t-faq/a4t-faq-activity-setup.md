@@ -4,9 +4,9 @@ description: 查找有关使用Analytics for [!DNL Target] (A4T)。 A4T允许您
 title: 在哪里可以找到有关A4T活动设置的常见问题解答？
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: a623f2563516b5250e67728b0bed4c935c4979a4
+source-git-commit: ed4fadc338bf5a1afad87e2b245a9b00e225b92c
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '571'
 ht-degree: 16%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 16%
 
 ## 哪些活动类型支持将 Analytics 作为报表源 (A4T)？ {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
-+++更多详细信息有关完整列表，请参阅 [Adobe Analytics作为Adobe Target报表源(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
++++回答有关完整列表，请参阅 [Adobe Analytics作为Adobe Target报表源(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 +++
 
 ## 在配置目标量度时，为何无法访问高级设置？
 
-+++有关使用 [!DNL Analytics] 作为报表源(A4T)，目标量度使用[!UICONTROL 递增计数并保持用户处于活动中]&quot;和&quot;[!UICONTROL 每次展示时]“ ”设置。 这些设置包括 *not* 可配置。
++++回答使用 [!DNL Analytics] 作为报表源(A4T)，目标量度使用[!UICONTROL 递增计数并保持用户处于活动中]&quot;和&quot;[!UICONTROL 每次展示时]“ ”设置。 这些设置包括 *not* 可配置。
 
 有关更多信息，请参阅“配置目标量度时，为何无法访问高级设置选项？” in [量度定义 — A4T常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
@@ -31,13 +31,14 @@ ht-degree: 16%
 
 ## 我刚刚创建了一个活动。但是为何看不到任何数据？ {#section_9F8092BE4225442896F926540292F221}
 
-+++更多详细信息创建活动后， [!DNL Target] 将分类文件发送到 [!DNL Analytics]. 尽管 [!DNL Analytics] 捕获和处理数据时，在更新分类文件之前不会在报表中显示该信息。 此过程最长可能需要24小时。 如果 48 小时后您还没有看到数据，请[联系客户关怀团队](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。或者，如果您知道自己启动了活动，则可以事前几天创建活动，并在保存活动时发送分类。 这样一来，数据在活动启动时就会显示在报表中。请注意，在中处理数据需要45-90分钟 [!DNL Analytics].
+
++++回答创建活动后， [!DNL Target] 将分类文件发送到 [!DNL Analytics]. 尽管 [!DNL Analytics] 捕获和处理数据时，在更新分类文件之前不会在报表中显示该信息。 此过程最长可能需要24小时。 如果 48 小时后您还没有看到数据，请[联系客户关怀团队](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。或者，如果您知道自己启动了活动，则可以事前几天创建活动，并在保存活动时发送分类。 这样一来，数据在活动启动时就会显示在报表中。请注意，在中处理数据需要45-90分钟 [!DNL Analytics].
 
 +++
 
 ## 在创建活动时，为何无法选择Analytics作为报表源？ {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-+++更多详细信息您可以更改 [!UICONTROL 报表设置] 选项 [!UICONTROL 管理].
++++回答您可以更改 [!UICONTROL 报表设置] 选项 [!UICONTROL 管理].
 
 1. 在 [!DNL Target]，单击 **[!UICONTROL 管理]**.
 1. 在&#x200B;**[!UICONTROL 用于报表的 Experience Cloud 解决方案]**&#x200B;下拉列表中，单击&#x200B;**[!UICONTROL 为每个活动选择]**。
@@ -52,7 +53,7 @@ ht-degree: 16%
 
 ## 在使用A4T的自动定位活动中，访客能否在不同访问中的目标体验和受控体验之间进行切换？
 
-+++更多详细信息如果访客的visitorId在两次访问之间没有发生更改，则情况如下。
++++回答以下情况：假定访客的visitorId在两次访问之间没有发生更改。
 
 如果在活动期间调整了流量分配百分比，则访客可能会在目标体验和控制体验之间移动。
 
@@ -65,6 +66,6 @@ ht-degree: 16%
 
 ## 我能否使用二项式 [!DNL Analytics] 量度中应用了区段作为 [!UICONTROL 自动分配] 活动？ {#binomial}
 
-+++更多详细信息您不能使用 [!DNL Analytics] 量度中应用了区段作为 [!UICONTROL 自动分配] 活动。 作为解决方法，您可以定义一个实现相同目标的自定义事件，并将其用作优化目标量度。
++++回答您无法使用 [!DNL Analytics] 量度中应用了区段作为 [!UICONTROL 自动分配] 活动。 作为解决方法，您可以定义一个实现相同目标的自定义事件，并将其用作优化目标量度。
 
 +++

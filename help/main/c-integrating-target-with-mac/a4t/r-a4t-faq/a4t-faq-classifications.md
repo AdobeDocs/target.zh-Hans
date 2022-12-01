@@ -4,10 +4,10 @@ description: 查找有关分类和使用 [!UICONTROL Analytics for Target] (A4T)
 title: 在哪里可以找到有关A4T分类的信息？
 feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 29%
+source-wordcount: '318'
+ht-degree: 21%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 29%
 
 ## 使用 [!UICONTROL 分类导入器] 要下载分类，如何将post-tnt-action值与活动名称进行匹配？ {#section_6045DAC488B248418F430E663C38D001}
 
-您可以从管理员工具的[分类导入程序](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html)中下载 A4T/TNT 字符串的分类。该变量在导出列表中称为“TNT”。下载的数据包含活动和体验等内容的友好名称。
++++回答您可以从管理工具中下载A4T/TNT字符串的分类 [分类导入器](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html). 在导出列表中，变量称为“TNT”。 下载的数据包含活动和体验等内容的友好名称。
 
 此查找文件对于接收 [!DNL Adobe]的点击流数据馈送。 该文件为 `post_tnt` 和 `post_tnt_action` 列提供了友好名称。
 
@@ -42,3 +42,5 @@ activityId:experienceId:targettype:algorithmId|event
 * 事件–1或65535表示用户已从活动或体验中删除。 当访客进行转化时，通常会发生这种情况。 该访客已从体验中发布，现在可用于任何其他体验。
 
 您可以经常使用 [浏览器导入](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) 或 [FTP导入](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en). 您也可以联系工程服务部门，以便在获取点击流数据信息源的同时一起获取该文件作为查询表。
+
++++

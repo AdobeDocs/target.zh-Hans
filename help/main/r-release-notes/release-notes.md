@@ -6,9 +6,9 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1055'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 94%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## Models API版本（2022年11月23日）
+## 模型 API 版本（2022 年 11 月 23 日）
 
-新 [!DNL Adobe Target] 模型API（也称为API）允阻止列表许用户查看和管理机器学习模型中使用的功能列表 [!UICONTROL Automated Personalization] （美联社）和 [!UICONTROL 自动定位] (AT)活动。
+新的 [!DNL Adobe Target] 模型 API（也称为阻止列表 API）可让用户查看和管理机器学习模型中用于 [!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 自动定位] (AT) 活动的功能的列表。
 
-有关更多信息，请参阅 [模型API概述](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} *Adobe Target开发人员指南*.
+有关详细信息，请参阅 *Adobe Target 开发人员指南* 中的[模型 API 概述](https://developer.adobe.com/target/before-administer/models-api/){target=_blank}。
 
 ## [!DNL Target] Standard/Premium 22.10.3（交错发布：2022 年 10 月 25 日至 27 日）
 

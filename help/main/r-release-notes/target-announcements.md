@@ -4,42 +4,26 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
-workflow-type: ht
-source-wordcount: '1990'
-ht-degree: 100%
+source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
+workflow-type: tm+mt
+source-wordcount: '1873'
+ht-degree: 95%
 
 ---
 
 # [!DNL Adobe Target]公告和活动
 
-关于即将举办的 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
+有关的公告和信息 [!DNL Adobe Target] 事件，包括 [!DNL Target] 茶歇， [!DNL Target] 网络研讨会系列， [!DNL Target] 技能培养会议、开发人员聊天等。 包括以往录像（如果有的话）的链接。
 
 ## [!DNL Target] 在个性化引擎的 Gartner Magic Quadrant 方面评选佼佼者 (2022)
 
-Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年将 [!DNL Adobe Target] 评为佼佼者。 [!DNL Adobe] 在三个主要用例（数字营销、数字商务以及服务和支持）方面也获得了高分，并同比大幅增长。 在所有受评估的供应商中，[!DNL Target] 获得了最高的检验能力分数。
+Gartner已提名 [!DNL Adobe Target] 在其最新的个性化引擎幻方图(PE)中连续第五年位居榜首。 [!DNL Adobe] 在三个主要用例（数字营销、数字商务以及服务和支持）方面也获得了高分，并同比大幅增长。 [!DNL Target] 在所评估的所有供应商中，其测试功能获得了最高分。
 
 有关更多信息，请参阅 [Adobe Experience Cloud 博客帖子](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
-## [!DNL Adobe Target] 社区问答喝咖啡休息时间（11 月 29 日）
-
-* **2022 年 11 月 29 日，周二**
-* **上午 8:00 至 9:00 (PST GMT-8)**
-* **[注册信息](https://adobe.ly/3UtQoxv){target=_blank}**
-
-我们将邀请 [!DNL Adobe Target] 的高级产品经理 Cristinel Anastasoaie 解答您与关于 [AI 驱动的个性化和推荐](#AI)的 [!DNL Adobe Target] 网络研讨会有关的疑问。
-
-请务必回顾网络研讨会录像后再提出后续疑问，以便形成全面的见解、更深入的解释和针对您独特用例的战略建议。
-
-* 优化实时推荐、一键个性化活动和自动促销
-* 使用[!UICONTROL 视觉体验生成器] (VEC) 创建和发起 AI 驱动的个性化活动
-* 与 [!DNL Adobe Experience Platform] (AEP) 集成，以便实时共享区段和配置文件属性
-
-[!DNL Adobe] 技术支持工程师 Simon Chen 将提供其他见解并解答您的疑问。
-
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 
-注册参加以下网络研讨会，了解客户如何使用 [!DNL Adobe Target] 来实现其个性化和优化目标：
+注册参加以下网络研讨会，了解客户如何使用 [!DNL Target] 来实现其个性化和优化目标：
 
 目前没有任何安排。
 
@@ -284,6 +268,6 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 ### [!DNL Adobe Target] Skill Builder：开发人员聊天，将 [!DNL Adobe Target] 的 mbox.js 迁移到 at.js {#skill-builder}
 
-随着已在 2021 年 3 月 31 日弃用 mbox.js，Adobe Target 产品经理 David Son 最近主持了一次开发人员聊天，其中讨论了将 mbox.js 迁移到 at.js 的好处。
+在2021年3月31日弃用mbox.js后，Adobe Target产品经理David Son主持了一个开发人员聊天，讨论将mbox.js迁移到at.js的好处。
 
 * **[录像链接](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)**

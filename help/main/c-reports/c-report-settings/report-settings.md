@@ -4,9 +4,9 @@ description: 了解如何在Adobe Target中配置报表设置，包括量度、�
 title: 如何配置报表设置？
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
 workflow-type: tm+mt
-source-wordcount: '1923'
+source-wordcount: '1959'
 ht-degree: 66%
 
 ---
@@ -145,9 +145,14 @@ ht-degree: 66%
 
 选择在计算和比较提升度时要使用的控制体验。
 
-### 环境
+### 环境 {#environment}
 
 选择要用于报表的环境（主机组）。 有关更多信息，请参阅[主机](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
+
+>[!NOTE]
+>
+>如果贵组织使用 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank}(AEP)将量度数据发送到 [!DNL Target]，则AEP数据流中的环境应与 [!DNL Target] 报表设置。
+
 
 ### 重置报表数据
 
@@ -192,7 +197,7 @@ ht-degree: 66%
 
 报表包含一些数据点和可视化图表，有助于了解与您的活动相关的提升度范围和置信水平。这可帮助您更准确地确定入选者。
 
-有关更多信息，请参阅 [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+有关更多信息，请参阅 [A/Bn 测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 请考虑以下事项：
 

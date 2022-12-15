@@ -4,7 +4,7 @@ description: 了解如何使用配置文件属性在Adobe中设置测试 [!DNL T
 title: 我能否使用配置文件脚本来测试互斥的活动？
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 34db233e0790f8ef04309c3f4b5acd12b7cdd5ad
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 74%
@@ -30,7 +30,7 @@ ht-degree: 74%
 
 ```javascript
 if (!user.get('twogroups')) { 
-    var ran_number = Math.floor(Math.random() * 99); 
+    var ran_number = Math.floor(Math.random() * 100); 
     if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
@@ -41,9 +41,9 @@ if (!user.get('twogroups')) {
 
 * `if (!user.get('twogroups'))` 确定 *twogroups* 配置文件属性是否针对当前访客设定。如果是，则无需进行下一步操作。
 
-* `var ran_number=Math.floor(Math.random() *99)` 声明了一个名为 ran_number 的新变量，将其值设置为介于 0 和 1 之间的随机小数，然后乘以 99 并进行四舍五入以创建 100 (0-99) 以内的范围，这用于指定查看活动的访客百分比。
+* `var ran_number=Math.floor(Math.random() *100)` 声明了一个名为 ran_number 的新变量，将其值设置为介于 0 和 1 之间的随机小数，然后乘以 100 并进行四舍五入以创建 100 (0-100) 以内的范围，这用于指定查看活动的访客百分比。
 
-* `if (ran_number <= 49)` 开始一个例程，确定访客属于哪一群组。如果返回 0-49，则将访客分配到 GroupA。如果返回 50-99，则分配到 GroupB。组决定了访客可查看的活动。
+* `if (ran_number <= 49)` 开始一个例程，确定访客属于哪一群组。如果返回 0-49，则将访客分配到 GroupA。如果返回 50-100，则分配到 GroupB。组决定了访客可查看的活动。
 
 创建配置文件属性后，请设置第一个活动以通过要求用户配置文件参数来定位所需的群体 `user.twogroups` 与为GroupA指定的值匹配。
 
@@ -61,7 +61,7 @@ if (!user.get('twogroups')) {
 
 ```javascript
 if (!user.get('fourgroups')) { 
-    var ran_number = Math.floor​(Math.random() * 99); 
+    var ran_number = Math.floor​(Math.random() * 100); 
     if (ran_number <= 24) { 
         return 'GroupA'; 
     } else if (ran_number <= 49) { 
@@ -78,17 +78,17 @@ if (!user.get('fourgroups')) {
 
 如果创建了奇数个组或者群组数量无法被 100 整除，则不应将小数向下取整。不取小数的整数就会指定一个非整数范围。要实现此操作，请将以下行：
 
-`var ran_number=Math.floor(Math.random()*99);`
+`var ran_number=Math.floor(Math.random()*100);`
 
 更改为：
 
-`var ran_number=Math.random()*99;`
+`var ran_number=Math.random()*100;`
 
 例如，若要将访客划分到三个相等的群组时，可使用如下代码：
 
 ```javascript
 if (!user.get('threegroups')) { 
-    var ran_number = Math.random() * 99; 
+    var ran_number = Math.random() * 100; 
     if (ran_number <= 32.33) { 
         return 'GroupA'; 
     } else if (ran_number <= 65.66) { 

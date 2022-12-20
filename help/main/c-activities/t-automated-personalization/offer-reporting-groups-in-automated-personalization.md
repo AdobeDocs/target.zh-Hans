@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用优惠报表组 [!DNL Target] [!UICONT
 title: 我能否在Automated Personalization活动中使用选件报表组？
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 36%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,6 +60,14 @@ ht-degree: 36%
 ## 注意事项
 
 * 请务必了解报表组对 [!DNL Target] 建立模型。 因此， [!DNL Adobe] 建议仅当您计划在活动开始时替换或添加新选件时，才使用报表组。 如果在实时活动中引入了新选件，则将新选件放入具有现有类似选件的组中后，计算机将能够使用已收集到的用于其组中其他选件的数据来了解新选件。 您绝不应该将所有选件都放置到一个报表组中。
+
+* AP活动包含位置+选件（可建模型）的组合。 When [!DNL Target] 在报表中记录数据， [!DNL Target] 考虑这些组合，以便明确选件来自哪个事件（显示、点击等）。
+
+   例如，一个活动可能具有多个位置和多个选件，这些位置和选件可能会重叠。 如果访客在不同位置看到这些选件中的多个选件， [!DNL Target] 仅记录这些选件的数据。 如果同一访客稍后点击某个选件， [!DNL Target] 仅记录该组合中的事件（而非所有组合）。
+
+   同样，如果点击来自其他位置（该位置位于量度中，但未显示选件），则此事件将记录在活动下，但不会记录到任何选件+位置组合。 因此，此选件不会显示在选件报表组中。
+
+   此行为是由于点击可能来自其他mbox，而不是提供选件的mbox所致。 因此，量度与活动关联，但与选件不关联。
 
 ## 在报表组中查看选件
 

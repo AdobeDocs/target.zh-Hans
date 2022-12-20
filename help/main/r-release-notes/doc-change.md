@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
-workflow-type: ht
-source-wordcount: '1778'
-ht-degree: 100%
+source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
+workflow-type: tm+mt
+source-wordcount: '1793'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 12 月 20 日 | [[!UICONTROL Automated Personalization 中的选件报表组]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | 在“注意事项”下添加了有关报表组的其他信息。 |
 | 12 月 14 日 | [报表设置](/help/main/c-reports/c-report-settings/report-settings.md#environment) | 在“环境”部分下添加了关于使用 [!DNL Adobe Experience Platform](AEP) 将指标数据发送到 [!DNL Target] 的注释。 |
 | 11 月 29 日 | [地域](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 通过添加以下段落来澄清文本：<ul><li>访问者的地理信息是根据 [!DNL Target] 位置请求（mbox 请求）的原始 IP 地址确定的。IP 到地理位置的解析是在新会话的第一次调用时完成的。这意味着，如果访问者的 IP 地址在访问期间发生变化，地理信息仍基于第一次调用的 IP 地址。</li></ul> |
 | 11 月 28 日 | *Adobe Target 开发人员指南* 中的[模型（阻止列表）API 概述](https://developer.adobe.com/target/before-administer/models-api/){target=_blank}。 | 新的模型 API。<br>可以从 [!DNL Target] 机器学习算法中阻止功能，防止在任何[!UICONTROL 自动定位]或[!UICONTROL 自动个性化]模型或活动中使用它们。 |

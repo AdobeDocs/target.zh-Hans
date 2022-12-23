@@ -5,9 +5,9 @@ title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1793'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -4,10 +4,10 @@ description: 了解如何使用开源Velocity设计语言在Adobe中自定义推
 title: 如何使用Velocity自定义设计？
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 60%
+source-wordcount: '1066'
+ht-degree: 46%
 
 ---
 
@@ -21,22 +21,24 @@ ht-degree: 60%
 
 所有 Velocity 逻辑、语法等内容均可用于推荐设计。这表示您可以使用 Velocity 而非 JavaScript 来创建 *for* 循环、*if* 语句和其他代码。
 
-任何在 `productPage` mbox 中或通过 CSV 上传方式发送到 [!DNL Recommendations] 的变量均可在设计中显示。这些值引用了下列语法：
+发送到的实体属性 [!DNL Recommendations] 在 `productPage` mbox或CSV上传可以在设计中显示，但“多值”属性除外。 可以发送任何类型的属性；但是， [!DNL Target] 不会将“多值”类型的属性作为模板可在其上迭代的数组(例如 `entityN.categoriesList`)。
+
+这些值引用了下列语法：
 
 ```
 $entityN.variable
 ```
 
-变量名称必须遵循 Velocity 简写表示法，即以 *$* 字符开头，后跟 Velocity 模板语言 (VTL) 标识符。VTL 标识符必须以字母字符（a-z 或 A-Z）开头。
+实体属性名称必须遵循Velocity速记法，该速记法由前导 *$* 字符，后跟Velocity模板语言(VTL)标识符。 VTL 标识符必须以字母字符（a-z 或 A-Z）开头。
 
-Velocity 变量名称只能使用以下类型的字符：
+Velocity实体属性名称仅限于以下类型的字符：
 
 * 字母（a-z、A-Z）
 * 数字 (0-9)
 * 连字符 ( - )
 * 下划线 ( _ )
 
-以下变量可用作 Velocity 数组。因此，可通过索引对这些变量进行迭代或引用。
+以下属性可用作Velocity数组。 因此，可通过索引对这些变量进行迭代或引用。
 
 * `entities`
 * `entityN.categoriesList`
@@ -57,7 +59,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-有关 Velocity 变量的详细信息，请参阅 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables)。
+有关Velocity变量（属性）的更多信息，请参阅 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 如果您在设计中使用配置文件脚本，脚本名称前的 $ 符号必须使用 \ 进行转义。例如，`\${user.script_name}`。
 
@@ -118,16 +120,16 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->如果要在表示变量名称的标记完成之前的变量值之后添加文本，则可以使用正式符号将变量名称括起来。 例如：`${entity1.thumbnailUrl}.gif`。
+>如果要在属性值之后添加文本，以在表示属性名称的标记完成之前添加文本，则可以使用形式符号将属性名称括起来。 例如：`${entity1.thumbnailUrl}.gif`。
 
-您还可以在设计中将 `algorithm.name` 和 `algorithm.dayCount` 用作变量，以便使用一个设计来测试多个标准，并在该设计中动态显示标准名称。这样可指示访客查看了“最畅销商品”或属于“查看了这个项目，但购买了那个项目的人”。您甚至还可以使用这些变量来显示 `dayCount`（标准中使用的数据所对应的天数，例如“过去 2 天的最畅销商品”，等等）。
+您还可以使用 `algorithm.name` 和 `algorithm.dayCount` 作为设计中的实体属性，以便使用一个设计来测试多个标准，并且标准名称可以在设计中动态显示。 这样可指示访客查看了“最畅销商品”或属于“查看了这个项目，但购买了那个项目的人”。您甚至可以使用这些属性来显示 `dayCount` (标准中使用的数据的天数，如“过去2天的最畅销商品”等。
 
 ## 在Velocity模板中使用数字
 
 默认情况下，Velocity模板会将所有实体属性视为字符串值。 您可能需要将实体属性视为数值，以执行数学运算或将其与其他数值进行比较。 要将实体属性视为数值，请执行以下步骤：
 
 1. 声明一个虚拟变量，并将其初始化为任意整数或双值。
-1. 确保要使用的实体属性不为空(Target Recommendations的模板解析器验证和保存模板时需要此属性)。
+1. 确保要使用的实体属性不为空( [!DNL Target Recommendations]“模板解析器，用于验证和保存模板)。
 1. 将实体属性传递到 `parseInt` 或 `parseDouble` 方法将字符串转换为整数或双值。
 1. 对新数值执行数学运算或比较。
 
@@ -214,7 +216,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 以下代码显示了条件销售定价示例中的一行内容：
 
 ```
-<span class="price">$entity1.value.replace(".", ",") €</span><br>
+<span class="price">$entity1.value.replace(".", ",") &euro;</span><br>
 ```
 
 以下代码显示了完整的条件销售价格示例：
@@ -222,9 +224,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 ```
 <div class="price"> 
     #if($entity1.hasSalesprice==true) 
-    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") €</s></span><br> 
-    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") €<br> #else 
-    <span class="price">$entity1.value.replace(".", ",") €</span><br> #end 
+    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") &euro;</s></span><br> 
+    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") &euro;<br> #else 
+    <span class="price">$entity1.value.replace(".", ",") &euro;</span><br> #end 
     <span style="font-weight:normal; font-size:10px;"> 
                                         $entity1.vatclassDisplay 
                                         <br/> 

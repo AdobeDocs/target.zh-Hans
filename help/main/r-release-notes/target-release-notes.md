@@ -4,9 +4,9 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
+source-git-commit: 92851dc763f9bc6bb5a26a449d0f08bceceb583f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 52%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 52%
 
 * 在 [!UICONTROL Automated Personalization] (AP)活动。 (TGT-41460)
 * 添加了按AEM标记搜索和过滤选件的功能。 (TGT-43837)
-* 已重命名“[!UICONTROL 体验片段]“可视化体验编辑器”工作流中的“ ”选项。 选项现在为“[!UICONTROL HTMLXF]&quot;
+* 已重命名“[!UICONTROL 体验片段]“可视化体验编辑器”工作流中的“ ”选项。 选项现在为“[!UICONTROL HTMLXF].&quot; (TGT-44132)
 * 添加了在选件信息工具提示中查看体验片段选件元数据的功能。 (TGT-43838)
 * 从AP中删除了45天和90天日历选项，并且 [!UICONTROL 自动定位] [!UICONTROL 个性化分析] 和 [!UICONTROL 重要属性] 报表 [!DNL Target] UI。 由于使用模式和为了提高性能，这些日期范围已被弃用。 更新了UI以反映当前允许的范围：15天、30天和60天。 (TGT-39357)
 * 删除了更改 [!UICONTROL 与优化目标相同] 设置 [!UICONTROL 目标和设置] 页面。 (TGT-43923)

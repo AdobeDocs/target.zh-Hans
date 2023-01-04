@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8c348f40be8df5018d63c6b6fe75e1f8e804eafc
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 52%
 
 ---
 
@@ -15,30 +15,24 @@ ht-degree: 100%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2022 年 10 月 19 日**
+**上次更新日期：2023 年 1 月 4 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 22.10.3（交错发布：2022 年 10 月 25 日至 27 日）
-
-此版本将按照以下交错发布计划发布：
-
-* **10 月 25 日**：欧洲、中东和非洲 (EMEA) 地区
-* **10 月 26 日**：亚太 (APAC) 地区
-* **10 月 27 日**：美洲地区
+## [!DNL Target]Standard/Premium 23.1.1（2023 年 1 月 23 日）
 
 此版本包含以下新功能、增强和修复：
 
 | 功能 | 详细信息 |
 | --- | --- |
-| 为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]<br>优化了 A4T 指标（可供某些客户进行测试。将在未来版本中提供给所有客户。） | 请注意以下更改：<ul><li>在 [!UICONTROL Auto-Allocate] 和 [!UICONTROL Auto-Target] 活动的 [!UICONTROL Analytics for Target] A4T 报表中添加了对非二分和最大化指标的支持</li><li>保留现有活动的行为直至 2023 年 2 月。在此日期之后，将停止活动以强制现有活动迁移到新行为</li><li>从 2023 年 2 月 20 日开始，将不再支持 [!DNL Target] 活动中的 `averagetimespentonsite`、`bouncerate` 和 `entries` 指标。</li></ul> |
+| AEM内容片段<br>（此功能的确切发布日期有待确定。） | 使用在中创建的内容片段 [!DNL Adobe Experience Manager] (AEM)in [!DNL Target] 活动来帮助优化或个性化。<br>在中使用在AEM中创建的内容片段 [!DNL Target] 通过活动，您可以将AEM的易用性和强大功能与 [!DNL Target] 以大规模测试和个性化体验。 |
 
-* 在 [!DNL Target] UI 中添加了工具提示以帮助客户更高效地在受众生成器中导航并了解如何使用可能不熟悉的功能。(TGT-44139)
-* 添加了阻止客户编辑被 [!DNL Target] 禁用的活动（因为它使用不支持的指标）的功能。UI 中的一条消息指示客户重复该活动，然后更新转化指标。
-
-   在此版本中，将为新活动弃用 [!DNL Target] 活动中的 `averagetimespentonsite`、`bouncerate` 和 `entries` 指标。现有活动可继续使用这些量度直至 2023 年 5 月。
-
-* 在 [!DNL Target] UI 中添加了工具提示，帮助客户在创建或编辑使用 A4T 的[!UICONTROL 自动定位]活动时选择优化标准。
+* 在 [!UICONTROL Automated Personalization] (AP)活动。 (TGT-41460)
+* 添加了按AEM标记搜索和过滤选件的功能。 (TGT-43837)
+* 已重命名“[!UICONTROL 体验片段]“可视化体验编辑器”工作流中的“ ”选项。 选项现在为“[!UICONTROL HTMLXF]&quot;
+* 添加了在选件信息工具提示中查看体验片段选件元数据的功能。 (TGT-43838)
+* 从AP中删除了45天和90天日历选项，并且 [!UICONTROL 自动定位] [!UICONTROL 个性化分析] 和 [!UICONTROL 重要属性] 报表 [!DNL Target] UI。 由于使用模式和为了提高性能，这些日期范围已被弃用。 更新了UI以反映当前允许的范围：15天、30天和60天。 (TGT-39357)
+* 删除了更改 [!UICONTROL 与优化目标相同] 设置 [!UICONTROL 目标和设置] 页面。 (TGT-43923)
 
 ## 其他发行说明和版本详细信息
 

@@ -21,7 +21,7 @@ ht-degree: 100%
 | --- | --- | --- |
 | 12 月 21 日 | [使用 Velocity 自定义设计](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | 阐明了发送到 `productPage` mbox 中的 [!DNL Recommendations] 或 CSV 上传的实体属性可以在设计中显示，但“多值”属性除外。 |
 | 12 月 20 日 | [[!UICONTROL Automated Personalization 中的选件报表组]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | 在“注意事项”下添加了有关报表组的其他信息。 |
-| 12 月 14 日 | [报表设置](/help/main/c-reports/c-report-settings/report-settings.md#environment) | 在“环境”部分下添加了关于使用 [!DNL Adobe Experience Platform](AEP) 将指标数据发送到 [!DNL Target] 的注释。 |
+| 12 月 14 日 | [报表设置](/help/main/c-reports/c-report-settings/report-settings.md#environment) | 在“环境”部分下添加了关于使用 [!DNL Adobe Experience Platform] (AEP) 将指标数据发送到 [!DNL Target] 的注释。 |
 | 11 月 29 日 | [地域](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 通过添加以下段落来澄清文本：<ul><li>访问者的地理信息是根据 [!DNL Target] 位置请求（mbox 请求）的原始 IP 地址确定的。IP 到地理位置的解析是在新会话的第一次调用时完成的。这意味着，如果访问者的 IP 地址在访问期间发生变化，地理信息仍基于第一次调用的 IP 地址。</li></ul> |
 | 11 月 28 日 | *Adobe Target 开发人员指南* 中的[模型（阻止列表）API 概述](https://developer.adobe.com/target/before-administer/models-api/){target=_blank}。 | 新的模型 API。<br>可以从 [!DNL Target] 机器学习算法中阻止功能，防止在任何[!UICONTROL 自动定位]或[!UICONTROL 自动个性化]模型或活动中使用它们。 |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关模型 API 版本（2022 年 11 月 23 日）的信息。 |

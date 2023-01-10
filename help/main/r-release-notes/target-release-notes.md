@@ -25,14 +25,14 @@ ht-degree: 99%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| AEM 内容片段<br>（此功能的确切发布日期待定。） | 使用在 [!DNL Target] 活动中的 [!DNL Adobe Experience Manager] (AEM) 内创建的内容片段，以协助优化或进行个性化处理。<br>通过在 [!DNL Target] 活动中使用 AEM 中创建的内容片段，您可以将 AEM 中这一简单易用的功能与 中强大的人工智能 (AI) 和机器学习 (ML) 功能结合使用，从而测试和个性化大量体验。[!DNL Target] |
+| AEM 内容片段<br>（此功能的确切发布日期待定。） | 使用在 [!DNL Target] 活动中的 [!DNL Adobe Experience Manager] (AEM) 内创建的内容片段，以协助优化或进行个性化处理。<br>通过在 [!DNL Target] 活动中使用在 AEM 中创建的内容片段，可将 AEM 的简单易用和强大与 [!DNL Target] 中强大的人工智能 (AI) 和机器学习 (ML) 功能相结合，以测试和大规模个性化体验。 |
 
-* 使用基于表单的体验编辑器在 [!UICONTROL Automated Personalization] (AP) 活动中添加了对 JSON 优惠的支持。(TGT-41460)
-* 添加了按 AEM 标签搜索和过滤优惠的功能。(TGT-43837)
-* 在视觉体验编辑器工作流程中重命名了“[!UICONTROL 体验片段]”选项。该选项现在是“[!UICONTROL HTML XF]”。(TGT-44132)
-* 添加了在优惠信息工具提示中查看体验片段优惠元数据的功能。(TGT-43838)
-* 从 UI 中的 AP 和[!UICONTROL 自动目标][!UICONTROL 个性化洞察]和[!UICONTROL 重要属性]报告中删除了 45 天和 90 天[!DNL Target]日历选项。出于使用模式和改进性能方面的原因，这两个日期范围已弃用。用户界面已更新，以显示目前允许的时间范围：15 天、30 天和 60 天。(TGT-39357)
-* 删除了在活动上线后更改[!UICONTROL “目标和设置”]页面上的[!UICONTROL “与优化目标相同”]设置的功能。(TGT-43923)
+* 使用基于表单的体验编辑器在 [!UICONTROL Automated Personalization] (AP) 活动中添加了对 JSON 选件的支持。(TGT-41460)
+* 添加了按 AEM 标签搜索和过滤选件的功能。(TGT-43837)
+* 重命名了视觉体验编辑器工作流程中的“[!UICONTROL 体验片段]”选项。该选项现为“[!UICONTROL HTML XF]”。(TGT-44132)
+* 添加了在选件信息工具提示中查看体验片段选件元数据的功能。(TGT-43838)
+* 从 [!DNL Target] UI 中的 AP 和[!UICONTROL 自动目标][!UICONTROL 个性化洞察]和[!UICONTROL 重要属性]报告中删除了 45 天和 90 天日历选项。由于使用模式和为了提高性能，已弃用这些日期范围。UI 已更新，以反映当前允许的范围：15 天、30 天和 60 天。(TGT-39357)
+* 删除了在活动上线后更改[!UICONTROL 目标和设置]页面上的[!UICONTROL 与优化目标相同]设置的功能。(TGT-43923)
 
 ## 其他发行说明和版本详细信息
 

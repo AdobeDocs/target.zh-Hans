@@ -4,10 +4,10 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
-workflow-type: ht
-source-wordcount: '528'
-ht-degree: 100%
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2022 年 12 月 20 日（[查看更新详情](r-release-notes/doc-change.md)）**
+**上次更新时间：2023 年 1 月 12 日（[查看更改内容](r-release-notes/doc-change.md)）**
 
 以下部分将向您介绍本指南中的有用链接，这些链接是按照目标受众并基于典型的工作职能来排列的：
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 - 将 Target 与 Adobe Experience Cloud 集成：说明如何将 [!DNL Target] 与其他 [!DNL Experience Cloud] 解决方案集成，其中包括 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)和 [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md)。
 - [Adobe Target 教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hans)：提供教程和视频，以帮助您充分利用 Target。
 - [Target 故障排除](r-troubleshooting-target/troubleshooting-target.md)：提供本指南中所含故障排除信息的链接，其中包括关于影响 [!DNL Target] 中活动和其他元素的字符限制和其他限制（选件大小、受众、配置文件、值、参数等）的信息。
-- [Target 移动应用程序版](https://developer.adobe.com/target/implement/mobile/){target=_blank}：介绍如何将 [!DNL Target] 用于移动应用程序优化和个性化。
+- [适用于移动设备应用程序的 Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}：说明 [!DNL Target] 如何用于移动设备应用程序优化和个性化。
 - [资源和联系信息](cmp-resources-and-contact-information.md)：提供关于更多资源的信息，以帮助您了解 [!DNL Target] 功能以及如果您需要帮助，如何联系 [!DNL Adobe]。
 
 ## 营销人员 {#marketers}
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ## 开发人员 {#developers}
 
-- [Adobe Target 开发人员指南](https://developer.adobe.com/target/){target=_blank}：此门户为 [!DNL Adobe Target] 开发人员提供实施 [!DNL Target] 所需的资源和指南，包括 API 和 SDK 文档。
+- [Adobe Target开发人员指南](https://developer.adobe.com/target/){target=_blank}:此门户提供了 [!DNL Adobe Target] 开发人员，包括用于实施的API和SDK文档 [!DNL Target].
 
 ## Target 和 Adobe Experience Cloud 管理员 {#admins}
 

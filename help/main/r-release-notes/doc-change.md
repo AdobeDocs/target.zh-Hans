@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 97%
+source-wordcount: '1853'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 97%
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 1 月 12 日 | [可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 更新了说明当前状态的重要说明 [!UICONTROL 可视化体验编辑器] 帮助程序扩展。 |
+|  | [定位和受众常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 添加了相关信息以说明如何通过 [!UICONTROL 模板规则] 将评估为URL定位。 |
 |  | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了22.13.3版本的预发行说明。 |
 | 12 月 21 日 | [使用 Velocity 自定义设计](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | 阐明了发送到 `productPage` mbox 中的 [!DNL Recommendations] 或 CSV 上传的实体属性可以在设计中显示，但“多值”属性除外。 |
 | 12 月 20 日 | [[!UICONTROL Automated Personalization 中的选件报表组]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | 在“注意事项”下添加了有关报表组的其他信息。 |

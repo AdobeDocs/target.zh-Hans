@@ -4,9 +4,9 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 02105c00a856e755ef2fd0bb41620fd35ed609d2
+source-git-commit: c12df34c9c7392a0ea50e8d1dea32147e8b7b165
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 52%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2023 年 1 月 4 日**
+**上次更新日期：2023 年 1 月 12 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -24,7 +24,7 @@ ht-degree: 52%
 此版本包含以下新功能、增强和修复：
 
 * 使用基于表单的体验编辑器在 [!UICONTROL Automated Personalization] (AP) 活动中添加了对 JSON 选件的支持。(TGT-41460)
-* 已实施 [QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md) （在AP活动中）。
+* 已实施 [QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md) （在AP活动中）。 (TGT-44341)
 * 中的体验名称 [!DNL Recommendations] 活动现在以友好名称显示，以便客户能够更好地将 [!DNL Adobe Analytics] 在 [!DNL Target] UI。 (TGT-41853)
 * 修复了导致 [!UICONTROL A/B测试] 和 [!UICONTROL 体验定位] (XT)包含推荐的活动。 此问题是在 [!DNL Target] 未能从 [!DNL Target] UI和 [!DNL Recommendations] 后端。 (TGT-44383)
 * 从 [!UICONTROL 选件级别] 报表 [!UICONTROL Automated Personalization] 活动。 此更改使报表更易读。 (TGT-44294)

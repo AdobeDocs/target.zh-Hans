@@ -4,7 +4,7 @@ description: 了解为什么某些网站可能无法在[!UICONTROL 可视化体�
 title: 如何使用[!UICONTROL 可视化编辑帮助程序]扩展？
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 83%
@@ -32,7 +32,7 @@ Google Chrome 的[!DNL Adobe Experience Cloud][!UICONTROL 可视化编辑帮助�
 * 隐含地从网站中删除所有令 iframe 失效的标头，如 `X-Frame-Options` 和 `Content-Security-Policy`。没有必要创建复杂的 Requestly 规则。
 * 如果网页尚未包含 [!DNL Target] at.js 库，您可以使用该扩展来插入库，这样您便可以为该网站创作体验。然后，您可以创建活动并使用预览链接进行 QA。
 
-使用[增强型体验编写器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)时，扩展未注入 at.js，但仍存在 SameSite Cookie 功能。要在网页上插入 at.js，请关闭 EEC。
+   使用[增强型体验编写器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)时，扩展未注入 at.js，但仍存在 SameSite Cookie 功能。要在网页上插入 at.js，请关闭 EEC。
 
 * 即使没有[!UICONTROL 增强型体验编写器 (EEC)]，也支持[移动视口](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
 * 对于 [!DNL Target] 的新客户，即便在其 IT 开发人员尚未在其网站上实施 [!DNL Target] 的情况下，也可以使用此扩展来试用 [!DNL Target]。

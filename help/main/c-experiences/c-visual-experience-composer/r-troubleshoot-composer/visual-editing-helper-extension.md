@@ -1,12 +1,13 @@
 ---
-keywords: VEC;可视化体验编辑器;VEC;iframe;扩展;浏览器
+keywords: VEC;可视化体验编辑器;VEC;iframe;扩展;浏览器;faq
 description: 了解为什么某些网站可能无法在[!UICONTROL 可视化体验编辑器 (VEC) ]中以可靠的方式打开。[!UICONTROL 可视化体验编辑器]浏览器扩展允许您在 VEC 中以可靠的方式加载网站。
 title: 如何使用[!UICONTROL 可视化编辑帮助程序]扩展？
 feature: Visual Experience Composer (VEC)
-source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
-workflow-type: ht
-source-wordcount: '595'
-ht-degree: 100%
+exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 83%
 
 ---
 
@@ -16,7 +17,7 @@ Google Chrome 的[!DNL Adobe Experience Cloud][!UICONTROL 可视化编辑帮助�
 
 >[!IMPORTANT]
 >
->新的扩展取代了以前的 [Target VEC 帮助程序浏览器扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
+>新的扩展取代了以前的 [Target VEC 帮助程序浏览器扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。请参阅该文章顶部的重要说明。
 
 ## 为什么某些网站可能无法在可视化体验编辑器 (VEC) 中以可靠的方式打开
 
@@ -39,7 +40,7 @@ Google Chrome 的[!DNL Adobe Experience Cloud][!UICONTROL 可视化编辑帮助�
 
 ## 获得并安装[!UICONTROL 可视化编辑帮助程序]浏览器扩展
 
-1. 导航至[[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]  Chrome 网络商店中的浏览器扩展](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}。
+1. 导航至[[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]  Chrome 网络商店中的浏览器扩展](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. 点击&#x200B;**[!UICONTROL 添加至 Chrome]** > **[!UICONTROL 添加扩展。]**
 1. 打开 [!DNL Target] 中的 VEC。
 1. 要使用扩展，请在 VEC 或 QA 模式下，单击 Chrome 浏览器工具栏中的[!UICONTROL 可视化编辑帮助程序]浏览器扩展图标（![可视化编辑扩展图标](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）。
@@ -58,6 +59,12 @@ Google Chrome 的[!DNL Adobe Experience Cloud][!UICONTROL 可视化编辑帮助�
    * 如果网站上尚未实施 at.js 或 alloy.js，则 VEC 中将显示一条消息，建议您安装扩展。
 * 如果尝试使用新扩展，然后改回[旧扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，而 [!DNL Target] 未能加载您的网站，请清除所有浏览器数据并禁用新扩展。
 
+## 常见问题解答
 
+### 该扩展在处于活动状态时，在以外使用时，会执行任何操作 [!DNL Adobe Target] 或 [!UICONTROL Adobe Journey Optimizer] (AJO)?
 
+仅当相关网站在iFrame中加载时，该扩展才会激活 [!DNL Adobe] 产品([!DNL Target], [!DNL AJO])。 在此流程之外，扩展不会尝试添加、删除或修改任何标头，并且扩展也不会尝试在网站中插入任何代码。
 
+### 扩展在中处于活动状态时会执行哪些操作 [!DNL Adobe Target] VEC?
+
+当网站加载到 [!DNL Adobe] 产品([!DNL Target], [!DNL AJO])，扩展在网站上插入代码（与扩展捆绑在一起），并从下载帮助程序文件 [!DNL Adobe] CDN以启用可视化创作。

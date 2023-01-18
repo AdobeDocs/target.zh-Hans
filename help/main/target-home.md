@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化�
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 96%
 
 ## 开发人员 {#developers}
 
-- [Adobe Target开发人员指南](https://developer.adobe.com/target/){target=_blank}:此门户提供了 [!DNL Adobe Target] 开发人员，包括用于实施的API和SDK文档 [!DNL Target].
+- [Adobe Target 开发人员指南](https://developer.adobe.com/target/){target=_blank}：此门户为 [!DNL Adobe Target] 开发人员提供实施 [!DNL Target] 所需的资源和指南，包括 API 和 SDK 文档。
 
 ## Target 和 Adobe Experience Cloud 管理员 {#admins}
 

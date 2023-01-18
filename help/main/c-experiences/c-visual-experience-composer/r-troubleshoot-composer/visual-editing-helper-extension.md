@@ -1,13 +1,13 @@
 ---
-keywords: VEC;可视化体验编辑器;VEC;iframe;扩展;浏览器;faq
+keywords: VEC;可视化体验编辑器;VEC;iframe;扩展;浏览器；常见问题
 description: 了解为什么某些网站可能无法在[!UICONTROL 可视化体验编辑器 (VEC) ]中以可靠的方式打开。[!UICONTROL 可视化体验编辑器]浏览器扩展允许您在 VEC 中以可靠的方式加载网站。
 title: 如何使用[!UICONTROL 可视化编辑帮助程序]扩展？
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
 source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Google Chrome 的[!DNL Adobe Experience Cloud][!UICONTROL 可视化编辑帮助�
 
 ## 获得并安装[!UICONTROL 可视化编辑帮助程序]浏览器扩展
 
-1. 导航至[[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]  Chrome 网络商店中的浏览器扩展](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
+1. 导航至[[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]  Chrome 网络商店中的浏览器扩展](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}。
 1. 点击&#x200B;**[!UICONTROL 添加至 Chrome]** > **[!UICONTROL 添加扩展。]**
 1. 打开 [!DNL Target] 中的 VEC。
 1. 要使用扩展，请在 VEC 或 QA 模式下，单击 Chrome 浏览器工具栏中的[!UICONTROL 可视化编辑帮助程序]浏览器扩展图标（![可视化编辑扩展图标](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）。
@@ -61,10 +61,10 @@ Google Chrome 的[!DNL Adobe Experience Cloud][!UICONTROL 可视化编辑帮助�
 
 ## 常见问题解答
 
-### 该扩展在处于活动状态时，在以外使用时，会执行任何操作 [!DNL Adobe Target] 或 [!UICONTROL Adobe Journey Optimizer] (AJO)?
+### 当扩展在 [!DNL Adobe Target] 或 [!UICONTROL Adobe Journey Optimizer] (AJO) 之外使用时，处于活动状态时会执行任何操作吗？
 
-仅当相关网站在iFrame中加载时，该扩展才会激活 [!DNL Adobe] 产品([!DNL Target], [!DNL AJO])。 在此流程之外，扩展不会尝试添加、删除或修改任何标头，并且扩展也不会尝试在网站中插入任何代码。
+只有当相关网站加载到 [!DNL Adobe] 产品（[!DNL Target]、[!DNL AJO]）的 iFrame 中时，该扩展程序才会激活。在此流程之外，扩展程序不会尝试添加、删除或修改任何标头，并且扩展程序不会尝试在网站内注入任何代码。
 
-### 扩展在中处于活动状态时会执行哪些操作 [!DNL Adobe Target] VEC?
+### 当扩展在 [!DNL Adobe Target] VEC 中处于活动状态时会做什么？
 
-当网站加载到 [!DNL Adobe] 产品([!DNL Target], [!DNL AJO])，扩展在网站上插入代码（与扩展捆绑在一起），并从下载帮助程序文件 [!DNL Adobe] CDN以启用可视化创作。
+当网站加载到 [!DNL Adobe] 产品（[!DNL Target]、[!DNL AJO]）的 iFrame 中时，扩展程序会在网站上注入代码（与扩展程序捆绑在一起）并下载来自 [!DNL Adobe] CDN 的帮助文件，以启用可视化创作。

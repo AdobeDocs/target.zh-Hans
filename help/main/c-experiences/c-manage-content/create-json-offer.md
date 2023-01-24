@@ -1,13 +1,13 @@
 ---
 keywords: 远程选件;创建远程选件
-description: 了解如何在Adobe中创建JSON选件 [!DNL Target] ，以在基于表单的体验编辑器中使用。 JSON选件对于SPA框架或服务器端集成非常有用。
+description: 了解如何在Adobe中创建JSON选件 [!DNL Target] ，以在基于表单的体验编辑器中使用。
 title: 如何创建JSON选件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 38%
+source-wordcount: '529'
+ht-degree: 29%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 38%
 
 在中创建JSON选件 [!UICONTROL 选件库] in [!DNL Adobe Target] ，在中使用 [!UICONTROL 基于表单的体验编辑器].
 
-JSON选件可用于基于表单的活动，在这些活动中，可启用 [!DNL Target]要发送JSON格式的选件以供在SPA框架或服务器端集成中使用，需要使用的决策。
+JSON选件可用于基于表单的活动，在这些活动中，可启用 [!DNL Target] 决策需要以JSON格式发送选件，以便在SPA框架或服务器端集成中使用。
 
 ## JSON注意事项
 
 使用 JSON 选件时，请考虑以下信息：
 
-* JSON选件当前仅适用于 [!UICONTROL A/B测试] 和 [!UICONTROL 体验定位] (XT)活动。
+* JSON选件当前仅适用于 [!UICONTROL A/B测试]、Automated Personalization（美联社）和 [!UICONTROL 体验定位] (XT)活动。
 * JSON选件可用于 [基于表单的活动](/help/main/c-experiences/form-experience-composer.md) 仅。
-* 使用服务器端 API、Mobile SDK 或 NodeJS SDK 时，可以直接检索 JSON 选件。
-* 在浏览器中，只能通过 at.js 1.2.3（或更高版本）并使用 [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}，方法是使用 `setJson` 操作。
+* 使用 [服务器端API和Mobile Node.js、Java、.NET和Python SDK](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+* 在浏览器中，JSON选件只能通过at.js 1.2.3（或更高版本）和使用 [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} (通过使用 `setJson` 操作。
 * JSON 选件可作为原生 JSON 对象而不是字符串来交付。这些对象的用户不必再将对象作为字符串处理后再将其转换为 JSON 对象。
-* 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。开发人员必须编写相应代码，以便使用 [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}。
+* 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。开发人员必须编写相应代码，以便使用 [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}.
 
 ## 创建JSON选件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
@@ -44,7 +44,7 @@ JSON选件可用于基于表单的活动，在这些活动中，可启用 [!DNL 
 
 ## JSON示例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-JSON选件仅在使用 [基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md). 目前，唯有通过直接 API 调用才能使用 JSON 选件。
+JSON选件仅在使用 [基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md). 目前，能够使用JSON选件的唯一方法是通过直接API/SDK调用。
 
 示例如下：
 
@@ -68,7 +68,7 @@ adobe.target.getOffer({
 }
 ```
 
-操作数组将具有以下结构：
+操作数组具有以下结构：
 
 ```json
 [ 
@@ -133,13 +133,13 @@ adobe.target.getOffer({
 
 ## JSON选件示例（使用实时CDP配置文件属性）
 
-可以与Target共享实时CDP配置文件属性，以用于HTML选件和JSON选件。 （请注意，此功能目前处于测试阶段。）
+Real-time CDP Profile Attributes可与 [!DNL Target] 用于HTML选件和JSON选件。 （请注意，此功能目前处于测试阶段。）
 
-示例用例：作为在线营销人员，Grace希望AEP/统一配置文件与Target共享属性值，以便提供实时个性化。 通过使用实时CDP配置文件属性，Grace可以使用令牌替换在Target选件中显示AEP属性的值。 例如，她可以使用 `${aep.profile.favoriteColor}`，或者使用令牌的忠诚度等级和忠诚度点值 `${aep.loyalty.tier}` 和 `${aep.loyalty.points}`.
+示例用例：作为在线营销人员，Grace希望AEP/统一配置文件与共享属性值 [!DNL Target] 以便提供实时个性化。 通过使用实时CDP配置文件属性，Grace可以在 [!DNL Target] 选件。 例如，她可以使用 `${aep.profile.favoriteColor}`，或者使用令牌的忠诚度等级和忠诚度点值 `${aep.loyalty.tier}` 和 `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute图像](assets/offer-json-aep-shared-attribute.png)
 
-在上面显示的示例中，请注意，分配默认值是可选的。
+请注意，指定默认值是可选的。
 
 ## 按JSON选件类型筛选选件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 

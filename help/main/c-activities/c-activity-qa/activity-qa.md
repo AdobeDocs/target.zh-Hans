@@ -4,9 +4,9 @@ description: 了解如何使用Adobe [!DNL Target] QA URL用于执行简单的�
 title: 如何进行QA活动？
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1832'
+source-wordcount: '1881'
 ht-degree: 38%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 38%
 * 可与团队成员共享链接，不论体验或活动是否进行了更新，这些链接永远不会更改，也不需要重新生成. 此功能允许您在整个用户历程中全面测试您的活动。
 * 可选择遵守受众条件，在对体验外观进行 QA 时，营销人员可以选择测试定位标准或忽略定位标准，而不一定非要满足受众条件.
 * 可捕获 QA 报表，以便营销人员能够确认量度可按预期递增，并且 QA 报表数据可与生产报表（对于非 A4T 报表）分开保存。
-* 能够单独预览体验，或预览符合交付标准（页面/Target请求/受众）的其他实时活动。
+* 能够单独预览体验，或预览符合交付标准(页面/[!DNL Target] 请求/受众)。
 * 能够对整个用户历程进行 QA。在活动 QA 过程中，只需使用 QA 链接访问网站一次，即可浏览整个网站。您可以一直停留在“活动 QA”模式中，直到您结束会话或使用 [Target QA书签](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 逼自己离开 [!UICONTROL 活动QA]. 如果您的活动跨多个网页，则此功能非常有用。
 
    >[!NOTE]
@@ -29,7 +29,7 @@ ht-degree: 38%
 
 ## 访问和共享 QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. 从活动的 [!UICONTROL 概述] 页面，单击 **[!UICONTROL 活动QA]** 链接。
+1. 从活动的 [!UICONTROL 概述] 页面，单击 **[!UICONTROL 活动QA]**.
 
    ![“活动 QA”链接](assets/qa_link.png)
 
@@ -51,7 +51,7 @@ ht-degree: 38%
 1. 单击 **[!UICONTROL 完成]**，以保存所做的更改。
 1. 与组织成员共享活动链接URL以进行测试。
 
-   活动链接永远不会过期，如果有人更改活动或体验，您无需重新发送链接。 但是，如果您应用的受众与 [!UICONTROL 受众库]，而不是简单地编辑活动，而是会生成一个必须重新共享的新链接。
+   活动链接永远不会过期，如果有人更改活动或体验，您无需重新发送链接。 但是，如果您应用的受众与 [!UICONTROL 受众库]，而不是简单地编辑活动，而是会生成一个必须再次共享的新链接。
 
    每个活动链接URL（体验A、体验B等的活动链接URL）均允许您从相应的体验开始用户历程。 单击为体验生成的URL，然后继续正常的网站浏览，以在多个页面（如果存在多个页面）上查看体验。 每个体验只会生成一个 URL，即使体验涉及多个页面（模板测试或多页面测试）也是如此。
 
@@ -61,9 +61,14 @@ ht-degree: 38%
 
 ## 注意事项 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* 的 [!UICONTROL 活动QA] 链接显示在 [!UICONTROL 概述] 所有活动类型的页面( [!UICONTROL 自动定位] 和 [!UICONTROL Automated Personalization] （美联社）。
+* 的 [!UICONTROL 活动QA] 链接显示在 [!UICONTROL 概述] 所有活动类型的页面( [!UICONTROL Automated Personalization] （美联社）。
+
+   >[!NOTE]
+   >
+   >[活动QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 对于AP活动，目前可供测试版计划中的选定客户使用。 在初始测试阶段之后，所有客户都将可以使用此功能。
+
 * [!UICONTROL 如果帐户中保存的活动过多，则可能无法加载已保存活动的活动 QA 预览链接。]重试预览链接应该有效。 为防止这种情况继续发生，请存档不再积极使用的已保存活动。
-* [!UICONTROL 活动 QA URL 适用于将 Analytics 用作报表源 (A4T) 的活动。]使用执行QA时生成的点击 [!UICONTROL 活动QA] 即使在活动开始后，活动数据仍会流向同一报表包。
+* [!UICONTROL 活动QA] URL可用于 [将Analytics作为报表源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。 使用执行QA时生成的点击 [!UICONTROL 活动QA] 即使在活动开始后，活动数据仍会流向同一报表包。
 * [!UICONTROL “活动 QA”不会显示已存档活动或已过期活动的内容。]如果停用已结束的活动，则必须再次保存该活动，以便 [!UICONTROL 活动QA] 工作。
 * 导入到 [!DNL Target Standard/Premium] (从 [!DNL Target Classic]，例如)不支持QA URL。
 * 在 [!UICONTROL 自动分配] 和 [!UICONTROL Recommendations] 活动时，模型不会受中捕获的访问次数的影响 [!UICONTROL 活动QA].
@@ -72,13 +77,13 @@ ht-degree: 38%
    您也可以手动强制自己退出该模式，方法是在网站上使用具有空值的 `at_preview_token` 参数（例如 `https://www.mysite.com/?at_preview_token=`）来加载页面。
 
 * 如果在创建活动时指定了“URL is” [基于表单的编辑器中的细化](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 或 [可视化体验编辑器中的页面交付选项)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81),QA URL不起作用，因为 [!UICONTROL 活动QA] 附加URL参数。 要解决此问题，请单击 QA URL 以转到您的网站，并从该 URL 中删除附加的参数，然后再加载新的 URL。
-* 如果您有at.js 1.*x*, [!UICONTROL 活动QA] 模式不具有粘滞性。 在这些情况下，必须将预览参数添加到您导航到的每个URL。 如果已实施，则情况相同 [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/){target=_blank}。
+* 如果您有at.js 1.*x*, [!UICONTROL 活动QA] 模式不具有粘滞性。 在这些情况下，必须将预览参数添加到您导航到的每个URL。 如果已实施，则情况相同 [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/){target=_blank}.
 * 如果活动使用多个体验受众（例如同一活动中包含的美国和英国网站），则不会为这四种组合（体验A/美国网站、体验A/英国网站、体验B/美国网站、体验B/英国网站）生成QA链接。 而是只会创建两个 QA 链接（体验 A 和体验 B），且用户必须符合相应受众条件才能看到相应的页面。英国QA人员看不到美国网站。
 * 所有 `at_preview` 参数和值均已进行 URL 编码。大多数时候，一切都会按预期运行。 但是，某些客户必须加载平衡器或尝试对查询字符串参数再次进行编码的Web服务器。
 
    由于此双重编码，当 [!DNL Target] 尝试解码 `at_preview_token`, [!DNL Target] 无法提取正确的令牌值，从而导致无法预览。
 
-   Adobe建议您与IT团队沟通，以确保所有预列入允许列表览参数，以便这些值不会发生任何形式的改变。
+   [!DNL Adobe] 建议您与IT团队联系，以确保所有预列入允许列表览参数，以便这些值不会发生任何形式的改变。
 
    下表列出了可在域中列入允许列表的参数：
 
@@ -115,6 +120,10 @@ ht-degree: 38%
 | [!UICONTROL 多变量测试] (MVT) | 是 | 是 | 是 |
 | [!UICONTROL Recommendations] | 是 | 是 | 是 |
 
+>[!NOTE]
+>
+>[活动QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 对于AP活动，目前可供测试版计划中的选定客户使用。 在初始测试阶段之后，所有客户都将可以使用此功能。
+
 ## 预览 URL {#preview}
 
 可以为所有人生成体验预览URL [!DNL Target] 活动类型。 预览URL允许您在活动开始之前直接在网站上查看体验内容，以便进行预览和QA。 体验预览URL会绕过定位，以强制查看特定体验。
@@ -135,7 +144,7 @@ ht-degree: 38%
 | [!UICONTROL 自动分配] | 是 | 是 | 是 |
 | [!UICONTROL 自动定位] | 是 | 是 | 是 |
 | [!UICONTROL 自当个性化] (AP) | 是 | 是 | 是 |
-| [!UICONTROL 体验定位] (XT) | 是 | 是 | 是 |
+| [!UICONTROL Experience Targeting] (XT) | 是 | 是 | 是 |
 | [!UICONTROL 多变量测试] (MVT) | 是 | 是 | 是 |
 | [!UICONTROL Recommendations] | 是 | 是 | 是 |
 

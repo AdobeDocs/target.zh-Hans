@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
-workflow-type: ht
-source-wordcount: '1873'
-ht-degree: 100%
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+workflow-type: tm+mt
+source-wordcount: '1931'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,21 @@ ht-degree: 100%
 
 Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年将 [!DNL Adobe Target] 评为佼佼者。[!DNL Adobe] 在三个主要用例（数字营销、数字商务以及服务和支持）方面也获得了高分，并同比大幅增长。在所有受评估的供应商中，[!DNL Target] 获得了最高的检验能力分数。
 
-有关更多信息，请参阅 [Adobe Experience Cloud 博客帖子](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
+有关更多信息，请参阅 [Adobe Experience Cloud 博客帖子](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!DNL Adobe Target] 社区问答喝咖啡休息时间
+
+* **体验优化的移动设备和经过身份验证的用例**
+* **2023 年 2 月 1 日星期三**
+* **上午8:00 - 9:00（太平洋标准时间，GMT-8）**
+* **[注册](https://adobe.ly/3IWsAiX){target=_blank}**
+
+我们将与Brent Kostak一起，该公司的产品营销经理 [!DNL Adobe Target]，他将在此线程中直接与您聊天，关于您的 [!DNL Target] 与Experience Optimization的Mobile和Authenticated用例相关的问题：
+
+* 在中设置活动的工作流 [!DNL Target]
+* 用于测试和定位移动体验的客户生命周期量度
+* 利用AI/ML在Web和应用程序中实现跨渠道个性化
+* Mobile SDK和API，用于支持iOS和Android平台的灵活实施
 
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 
@@ -96,7 +110,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 在供应链问题激化、服务中断和人员有限的情况下，如何不断提高客户忠诚度是大多数旅游、酒店和餐饮品牌面临的挑战。 在人工智能时代，品牌如何在没有行业所需资源的情况下扩展体验。 数字化进程加快了 20 – 25 倍，以期在支持不断增加的客户期望的同时，通过自动化扩展团队。
 
-* **[注册观看该网络研讨会的录像 ](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[注册以查看网络研讨会录像](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++详细信息
 
@@ -221,7 +235,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 ### [!DNL Adobe Target] 的实时个性化服务
 
-* **[注册观看该网络研讨会的录像 ](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[注册以查看网络研讨会录像](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++详细信息
 

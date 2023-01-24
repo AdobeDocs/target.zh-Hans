@@ -4,7 +4,7 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: e8159e8015e0f804c035fc8f921f1a593cfc9ac2
 workflow-type: tm+mt
 source-wordcount: '1926'
 ht-degree: 98%
@@ -21,7 +21,7 @@ ht-degree: 98%
 | --- | --- | --- |
 | 1 月 25 日 | [创建 JSON 选件](/help/main/c-experiences/c-manage-content/create-json-offer.md) | 表示在 [!UICONTROL Automated Personalization] (AP)使用基于表单的体验编辑器的活动现已可用。 |
 |  | [Adobe Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间:体验优化的移动设备和经过身份验证的用例</li></ul> |
-|  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.10.1 版的发行说明。 |
+|  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.13.3 版的发行说明。 |
 
 ## [!DNL Adobe Target] Standard/Premium 22.10.1（交错发布：2022 年 10 月 10 日至 13 日）
 

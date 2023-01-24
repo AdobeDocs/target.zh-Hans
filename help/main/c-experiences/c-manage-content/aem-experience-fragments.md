@@ -4,9 +4,9 @@ description: 了解如何使用 [!DNL Adobe Experience Manager] 体验片段 [!D
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM)体验片段？
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1380'
 ht-degree: 18%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 18%
 您必须在 [!DNL Target]. 此外，您必须使用 [!DNL AEM] as a Cloud Service或 [!DNL AEM] 6.4（或更高版本）。 您的客服专员可以帮助您确保满足使用此功能的要求：
 
 * [!DNL Adobe Experience Manager ] as a Cloud Service
-* [!DNL Adobe Experience Manager] 6.5。
+* [!DNL Adobe Experience Manager] 6.5.
 * [!DNL Adobe Experience Manager] 6.4.
 * [!DNL Adobe Target Standard] 或 [!DNL Adobe Target Premium] 帐户。
 
@@ -50,18 +50,18 @@ ht-degree: 18%
 
 有关更多信息，请参阅：
 
-* **AEMas a Cloud Service**: [与Adobe Target集成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html){target=_blank} *Experience Manageras a Cloud Service* 的双曲余切值。
-* **Adobe I/O**: [使用Adobe Target I/0与Adobe集成](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html){target=_blank} *Administering用户指南* 文档。
-* **[!DNL AEM]6.5**: [选择加入Adobe Analytics和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en){target=_blank} *Adobe Experience Manager 6.5* 文档。
-* **[!DNL AEM]6.4**: [选择加入Adobe Analytics和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html){target=_blank} *Adobe Experience Manager 6.4* 文档。
+* **AEMas a Cloud Service**: [与Adobe Target集成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html){target=_blank} 在 *Experience Manageras a Cloud Service* 的双曲余切值。
+* **Adobe I/O**: [使用Adobe Target I/0与Adobe集成](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html){target=_blank} 在 *Administering用户指南* 文档。
+* **[!DNL AEM]6.5**: [选择加入Adobe Analytics和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en){target=_blank} 在 *Adobe Experience Manager 6.5* 文档。
+* **[!DNL AEM]6.4**: [选择加入Adobe Analytics和Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html){target=_blank} 在 *Adobe Experience Manager 6.4* 文档。
 
 ### 步骤 2：创建体验片段
 
 体验片段是在中创建的 [!DNL AEM]. 有关更多信息，请参阅：
 
-* **AEMas a Cloud Service**: [体验片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html?lang=en){target=_blank} *Experience Manageras a Cloud Service* 的双曲余切值。
-* **[!DNL AEM]6.5**: [体验片段](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=en){target=_blank} *Adobe Experience Manager 6.5* 文档。
-* **[!DNL AEM]6.4**: [体验片段](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=en){target=_blank} *Adobe Experience Manager 6.4* 文档。
+* **AEMas a Cloud Service**: [体验片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html?lang=en){target=_blank} 在 *Experience Manageras a Cloud Service* 的双曲余切值。
+* **[!DNL AEM]6.5**: [体验片段](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=en){target=_blank} 在 *Adobe Experience Manager 6.5* 文档。
+* **[!DNL AEM]6.4**: [体验片段](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=en){target=_blank} 在 *Adobe Experience Manager 6.4* 文档。
 
 ### 步骤3:配置 [!DNL AEM] 与共享体验片段 [!DNL Target]
 
@@ -78,9 +78,9 @@ ht-degree: 18%
 
 根据您的 [!DNL AEM] 版本中，请参阅以下链接以获取分步说明：
 
-* **AEMas a Cloud Service**: [将体验片段导出到Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank} *Experience Manageras a Cloud Service* 的双曲余切值。
-* **[!DNL AEM]6.5**: [将体验片段导出到Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} *Adobe Experience Manager 6.5* 文档。
-* **[!DNL AEM]6.4**: [将体验片段导出到Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank} *Adobe Experience Manager 6.4* 文档。
+* **AEMas a Cloud Service**: [将体验片段导出到Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank} 在 *Experience Manageras a Cloud Service* 的双曲余切值。
+* **[!DNL AEM]6.5**: [将体验片段导出到Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} 在 *Adobe Experience Manager 6.5* 文档。
+* **[!DNL AEM]6.4**: [将体验片段导出到Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank} 在 *Adobe Experience Manager 6.4* 文档。
 
 ## 在中使用体验片段 [!DNL Target] 活动 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -92,6 +92,8 @@ ht-degree: 18%
 >
 >* 体验片段将导入到 [!DNL Target] 作为HTML或JSON选件。 体验片段“主”版本保留在 [!DNL AEM]. 您无法在 [!DNL Target].
 
+
+您可以按 [!UICONTROL HTMLXF] 和 [!UICONTROL JSON XF] 以帮助您区分导出到的体验片段类型 [!DNL Target].
 
 您可以将鼠标悬停在列表中的某个体验片段上，然后单击 [!UICONTROL 查看] 图标 ![“查看”图标](assets/icon_info.png) 查看有关体验片段的其他信息，包括其公共选件交付URL及其 [!DNL AEM] 路径。
 
@@ -160,7 +162,7 @@ ht-degree: 18%
 
 有时，整个HTML页面会隐藏体验片段并导致问题。 确保体验片段是一段小的HTML，而不是包含HTML、HEAD、正文等的完整HTML页面。
 
-有关更多信息，请参阅以下博客文章： [AEM 6.5:从导出到Target的体验片段中删除ClientLib](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}。
+有关更多信息，请参阅以下博客文章： [AEM 6.5:从导出到Target的体验片段中删除ClientLib](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
 
 ## 培训视频：将AEM体验片段与 [!DNL Adobe Target]
 

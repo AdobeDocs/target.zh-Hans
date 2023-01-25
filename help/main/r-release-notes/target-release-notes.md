@@ -4,9 +4,9 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 888c50e7052229c22136526d632f89fbaa548298
+source-git-commit: d49b339bef9b24ca83a262983abe1a2fac44d7e5
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '603'
 ht-degree: 89%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 89%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| 自动个性化 (AP) | 使用基于表单的体验编辑器在 [!UICONTROL Automated Personalization] (AP) 活动中添加了对 JSON 选件的支持。<br>有关更多信息，请参阅 [创建JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
+| [JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md) 在Automated Personalization支持(AP) | 使用基于表单的体验编辑器在 [!UICONTROL Automated Personalization] (AP) 活动中添加了对 JSON 选件的支持。(TGT-41460) |
 | 推荐 | 中的友好名称 [!UICONTROL Analytics for Target] A4T报表现已可用。 [!DNL Target] 以前仅列出体验 ID。此增强使 [!DNL Adobe Analytics] 和 [!DNL Target] 之间的报表保持一致，并帮助客户简化在 A4T 中构建报表。(TGT-41853) |
-| AEM 体验片段 | 添加了区分 [!DNL Adobe Experience Manager] 片段(AEM XF)类型 [!DNL Target]. 而不是“体验片段”选项， [!DNL Target] 现在，您可以按“HTMLXF”和“JSON XF”进行过滤和搜索。 <br>[有关详细信息，请参阅 AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)。(TGT-44132) |
+| [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 添加了区分 [!DNL Adobe Experience Manager] 片段(AEM XF)类型 [!DNL Target]. 而不是“体验片段”选项， [!DNL Target] 现在，您可以按“HTMLXF”和“JSON XF”进行过滤和搜索。 (TGT-44132) |
 
 * 修复了在 [!UICONTROL A/B 测试]和 [!UICONTROL Experience Targeting] (XT) 活动中导致“500 错误”的问题，并包含建议。当 [!DNL Target] 无法从 [!DNL Target] UI 和 [!DNL Recommendations] 后端正确删除不再使用的条件对象时，会导致此问题。(TGT-44383)
 * 从 [!UICONTROL Offer Level] 报告中为 [!UICONTROL Automated Personalization] 活动显示的优惠名称中删除了位置。此更改使报告更具可读性。(TGT-44294)

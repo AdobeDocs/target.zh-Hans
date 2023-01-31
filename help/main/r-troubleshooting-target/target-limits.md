@@ -5,10 +5,10 @@ title: 中的各种字符、大小和其他限制 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 97d53f25261f30d3255323fba7efff51744cb74e
+source-git-commit: 495feb03fb338ff70ad6b25a7e01a572bed723e4
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 96%
+source-wordcount: '1387'
+ht-degree: 93%
 
 ---
 
@@ -159,9 +159,21 @@ ht-degree: 96%
 
 * **限制**：128 个字符。
 
-### mbox 名称
+### mbox 名称 {#mbox-names}
 
 * **限制**：250 个字符。
+
+对于交付API(at.js 2.*x*)、批量mbox V2和AEP Web SDK(alloy.js)集成，mbox名称 *can* 包含字母数字字符(A-Z、a-z、0-9)和以下任意字符：
+
+```
+- , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
+```
+
+对于at.js 1.*x* 集成， mbox名称 *无法* 包含以下任意字符：
+
+```
+' " %22 %27 < > %3C %3E 
+```
 
 ### mbox 参数 {#mbox-parameters}
 

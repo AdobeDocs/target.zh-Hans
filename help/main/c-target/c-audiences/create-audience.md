@@ -4,10 +4,10 @@ description: 了解如何创建自定义受众并将它们保存到 [!DNL Adobe 
 title: 如何构建受众？
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 61%
+source-wordcount: '539'
+ht-degree: 59%
 
 ---
 
@@ -46,6 +46,15 @@ ht-degree: 61%
    从 [!UICONTROL 受众] 列表，单击 **[!UICONTROL 更多操作]** 图标（省略号图标），然后单击 **[!UICONTROL 复制]**. 然后，您可以对受众进行编辑以创建一个类似的受众。
 
 1. 键入唯一的描述性受众名称和可选描述。
+
+   受众名称不能以以下字符开头：
+
+   `=  +  -  !  @`
+
+   受众名称不能包含以下任意字符序列：
+
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+
 1. 从 **[!UICONTROL 属性]** 列表。
 
    ![拖放属性](assets/drag-attribute.png)

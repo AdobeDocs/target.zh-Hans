@@ -4,14 +4,14 @@ description: 了解如何对Adobe中有时出现的问题进行故障诊断 [!DN
 title: 如何对与可视化体验编辑器有关的问题进行故障诊断？
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
+source-git-commit: 3d2dec3d897e98be84e8a46c5d5bd274615f46bc
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 78%
+source-wordcount: '971'
+ht-degree: 68%
 
 ---
 
-# 对与可视化体验编辑器有关的问题进行故障诊断
+# 排除与可视化体验编辑器相关的问题
 
 有时， [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)。
 
@@ -122,4 +122,8 @@ ht-degree: 78%
 
 ## 使用浏览模式时，VEC 显示已损坏。（仅 VEC） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-使用浏览模式时，如果您访问的 URL 不具有 target.js 或包含 frame-buster 标头，则可视化体验编辑器会显示为已损坏。由于浏览器安全问题，Target 无法访问您导航到的 URL。
+在使用浏览模式时，如果您访问的URL没有 [!DNL Target] 已实施的库([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank})或包含frame-buster标头时，VEC显示为已损坏。 出于对浏览器安全性的考虑， [!DNL Target] 无法正确访问您导航到的URL，或者如果页面加载，VEC URL不会持续更新。
+
+出现此问题的原因是VEC在 `<iframe>`. 浏览器的当前安全机制会阻止 [!DNL Target] UI访问给定帧的元素，因为存在相同原点策略。 浏览器会阻止尝试访问具有不同原点且包含以下信息的框架的脚本 `location.href`.
+
+您必须使用新 [Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) （推荐）或 [旧扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 注入 [!DNL Target] 库添加到页面中，以便以最佳方式浏览页面。

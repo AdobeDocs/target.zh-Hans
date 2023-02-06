@@ -4,9 +4,9 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
-workflow-type: ht
-source-wordcount: '1931'
+source-git-commit: cead599ec57e0532cabe29295d19380eb80575f9
+workflow-type: tm+mt
+source-wordcount: '1843'
 ht-degree: 100%
 
 ---
@@ -20,20 +20,6 @@ ht-degree: 100%
 Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年将 [!DNL Adobe Target] 评为佼佼者。[!DNL Adobe] 在三个主要用例（数字营销、数字商务以及服务和支持）方面也获得了高分，并同比大幅增长。在所有受评估的供应商中，[!DNL Target] 获得了最高的检验能力分数。
 
 有关更多信息，请参阅 [Adobe Experience Cloud 博客帖子](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
-
-## [!DNL Adobe Target] 社区问答喝咖啡休息时间
-
-* **移动&amp;经验证的体验优化用例**
-* **2023 年 2 月 1 日星期三**
-* **上午 8 点至 9 点 (PST, GMT-8)**
-* **[注册](https://adobe.ly/3IWsAiX){target=_blank}**
-
-[!DNL Adobe Target] 的产品营销经理 Brent Kostak 将加入我们的行列，他将在此主题中直接与您讨论与“移动&amp;经验证的体验优化用例”相关的 [!DNL Target]：
-
-* [!DNL Target] 中的活动设置的工作流
-* 用于测试和定位移动体验的客户生命周期量度
-* 利用 AI/ML 在 Web 和应用程序中实现跨渠道个性化
-* Mobile SDK 和用于灵活实施的 API（支持 iOS 和 Android 平台）
 
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 

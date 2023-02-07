@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
 source-wordcount: '1978'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 2 月 2 日 | [排除与可视化体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 更新了以下部分：<ul><li>使用浏览模式时，VEC显示为已损坏</li></ul> |
+| 2 月 2 日 | [排除与可视化体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 更新了以下部分：<ul><li>使用浏览模式时，VEC 显示已损坏</li></ul> |
 |  | [在 Target 中构建受众](/help/main/c-target/c-audiences/create-audience.md) | 添加了无法在受众名称中使用的字符和字符序列列表。 |
 | 1 月 31 日 | [限制](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | 添加了 mbox 名称中允许和不允许使用的字符的列表。 |
 | 1 月 25 日 | [创建 JSON 选件](/help/main/c-experiences/c-manage-content/create-json-offer.md) | 表明使用基于表单的体验编辑器在 [!UICONTROL Automated Personalization] (AP) 活动中对 JSON 选件的支持现在可用。 |
@@ -42,7 +42,7 @@ ht-degree: 98%
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了有关模型 API 版本（2022 年 11 月 23 日）的信息。 |
 | 11 月 23 日 | [使用 at.js 实施 Analytics for Target (A4T) 之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | 更新了链接 [Marketing Cloud 集成设置表单](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}。 |
 | 11 月 16 日 | [Adobe Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了以下活动的注册信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（11 月 29 日）</li></ul> |
-| 11 月 8 日 | [A/B 测试应该持续多长时间？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 添加了重要说明：要获得准确的结果，您在更改[!DNL Adobe Target][!UICONTROL 样本量计算器]中的任何参数数量之前必须重新加载页面。另外还在实际的[计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}中添加了一条说明。 |
+| 11 月 8 日 | [A/B 测试应该持续多长时间？](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 添加了重要说明：要获得准确的结果，您在更改[!DNL Adobe Target][!UICONTROL 样本量计算器]中的任何参数数量之前必须重新加载页面。另外还在实际的[计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=zh-Hans){target=_blank}中添加了一条说明。 |
 |  | [重定向选件 — A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 在表中更新了对 `adobe_mc_sdid` 参数的描述。 |
 |  | [活动故障诊断](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 新增部分：“活动转换后，访客没有任何体验。” |
 |  | [自定义参数](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | 添加了说明：您从[!UICONTROL 筛选依据]下拉列表中选择的 mbox 在创建活动时不会保存。此选项允许您根据选定的 mbox 筛选参数。 |

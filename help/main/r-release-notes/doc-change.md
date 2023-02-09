@@ -21,7 +21,7 @@ ht-degree: 100%
 | --- | --- | --- |
 | 2 月 8 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 at.js 2.10.1 的发行说明。 |
 | 2 月 2 日 | [排除与可视化体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 更新了以下部分：<ul><li>使用浏览模式时，VEC 显示已损坏</li></ul> |
-|  | [在 Target 中构建受众](/help/main/c-target/c-audiences/create-audience.md) | 添加了不能在受众名称中使用的字符和字符序列列表。 |
+|  | [在 Target 中构建受众](/help/main/c-target/c-audiences/create-audience.md) | 添加了不能在受众名称中使用的字符和字符序列的列表。 |
 | 1 月 31 日 | [限制](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | 添加了 mbox 名称中允许和不允许使用的字符的列表。 |
 | 1 月 25 日 | [创建 JSON 选件](/help/main/c-experiences/c-manage-content/create-json-offer.md) | 表明使用基于表单的体验编辑器在 [!UICONTROL Automated Personalization] (AP) 活动中对 JSON 选件的支持现在可用。 |
 |  | [Adobe Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下事件的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间：移动&amp;经验证的体验优化用例</li></ul> |

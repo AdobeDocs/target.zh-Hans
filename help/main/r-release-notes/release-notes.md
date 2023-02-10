@@ -6,9 +6,9 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 93%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## at.js版本2.10.1（2023年2月2日）
+## at.js 版本 2.10.1 2023 年 2 月 2 日
 
-* 修复了以下错误：涉及受众规则的活动（其中包含名称中带有圆点的参数）不会返回预期的设备决策体验。
-* 修复了at.js 2.6.0中at.js触发投放调用的错误，即使在 `mboxDisable` 已启用。
+* 已修复涉及受众规则的活动（包含名称中带有点的参数）未返回预期体验以进行设备上决策的错误。
+* 已修复 at.js 2.6.0 中 at.js 即使启用了 `mboxDisable` 仍会触发投放调用的错误。
 
-有关所有at.js版本的信息，请参阅 [at.js版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+有关所有 at.js 版本的信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
 
 ## [!DNL Target] Standard/Premium 22.13.3（2023 年 1 月 25 日至 26 日）
 

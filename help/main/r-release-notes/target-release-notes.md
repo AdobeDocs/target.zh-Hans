@@ -1,13 +1,13 @@
 ---
 keywords: 发行说明;版本;更新;未来版本;增强;新功能;修复;更新;预发行
 description: 了解 Adobe Target 即将发布的版本中包括的新功能、增强和修复，包括 SDK、API 和 JavaScript 库。
-title: 即将发布的版本中包括哪些新增功能和增强功能？
+title: 即将推出的功能和增强功能包括哪些新增功能和增强功能 [!DNL Target] 释放？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: da159c10bd5100519b58cf2cb9c3d4ce15c4b2d0
+source-git-commit: 3ddc6c2c8ed86ebdac77eb76c0eb5dfd913553c7
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 100%
+source-wordcount: '264'
+ht-degree: 70%
 
 ---
 
@@ -15,35 +15,22 @@ ht-degree: 100%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2023 年 1 月 26 日**
+**上次更新时间：2023 年 2 月 10 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 22.13.3（2023 年 1 月 25 日至 26 日）
+## [!DNL Target] Standard/Premium 22.14.5（2023年2月13日–15日）
 
 此版本将按照以下交错发布计划发布：
 
-* **1 月 25 日**：欧洲、中东和非洲 (EMEA) 地区
-* **1 月 25 日**：亚太 (APAC) 地区
-* **1 月 26 日**：美洲区域
+* **2月13日**:美洲地区
+* **2月15日**:欧洲、中东和非洲(EMEA)地区
+* **2月15日**:亚太地区
 
-此版本包含以下新功能、增强和修复：
+此版本包含以下修复：
 
-| 功能 | 详细信息 |
-| --- | --- |
-| [JSON ](/help/main/c-experiences/c-manage-content/create-json-offer.md)在 Automated Personalization (AP) 中提供支持 | 使用基于表单的体验编辑器在 [!UICONTROL Automated Personalization] (AP) 活动中添加了对 JSON 选件的支持。(TGT-41460) |
-| [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 添加了区分导出到 [!DNL Target] 的 [!DNL Adobe Experience Manager] 片段 (AEM XF) 类型的功能。[!DNL Target] 现在允许您按“HTML XF”和“JSON XF”过滤和搜索，而不是“体验片段”选项。(TGT-44132) |
-
-* 修复了在 [!UICONTROL A/B 测试]和 [!UICONTROL Experience Targeting] (XT) 活动中导致“500 错误”的问题，并包含建议。当 [!DNL Target] 无法从 [!DNL Target] UI 和 [!DNL Recommendations] 后端正确删除不再使用的条件对象时，会导致此问题。(TGT-44383)
-* 从 [!UICONTROL Offer Level] 报告中为 [!UICONTROL Automated Personalization] 活动显示的优惠名称中删除了位置。此更改使报告更具可读性。(TGT-44294)
-* 从 [!DNL Target] UI 中的 AP 和[!UICONTROL 自动目标][!UICONTROL 个性化洞察]和[!UICONTROL 重要属性]报告中删除了 45 天和 90 天日历选项。由于使用模式和为了提高性能，已弃用这些日期范围。UI 已更新，以反映当前允许的范围：15 天、30 天和 60 天。(TGT-39357)
-* 禁用了在活动上线后更改[!UICONTROL 目标和设置]页面上的[!UICONTROL 与优化目标相同]设置的功能。(TGT-43923)
-* 修复了从 [!DNL Target Standard] 升级到 [!DNL Target Premium] 时导致 [!DNL Target] 后端默认工作区出现问题的情况。（TGT-44081 和 TGT-44306）
-* 进行了更改以允许包含点字符 “.” 的 [!DNL Analytics] 报表包。在它们的名称中用于在 [!DNL Target]UI 中创建 [!DNL Analytics]分类提要。
-* 更改了[!UICONTROL 实施]页面（[!UICONTROL 管理]>[!UICONTROL 实施]）上“设备上决策的实现方法”的链接，使其指向说明如何为所有受支持的 SDK（Node.js、Java、.NET 和 Python）使用设备上决策的页面。有关更多信息，请参阅 [Target SDK 快速入门](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
-* 修复了使用 [!DNL Scene7] 和 [!DNL Target] 时导致文件上传问题的情况。
-* 通过使用内部可用性审计的结果，增强了 [!DNL Target] UI 对残障人士提供的可访问性。这些增强的辅助功能包括访问以前无法通过键盘访问的功能、替代文本增强功能、缩放 UI 部分以提高可用性的能力、改进键盘焦点等等。(TGT-42759)
-* 对整个 [!DNL Target] UI 进行了各种本地化修复。
+* 修复了即使在Automated Personalization(AP)活动中指定了属性，仍会导致出现以下错误消息的问题：“错误：至少有一个属性必须属于非默认工作区”(TGT-44607)
+* 修复了影响服务器端Recommendations馈送的潜在安全问题。 (TGT-43769)
 
 ## 其他发行说明和版本详细信息
 

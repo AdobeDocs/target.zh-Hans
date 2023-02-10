@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
+source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1999'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2 月 10 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.14.5 版的发行说明。 |
 | 2 月 8 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 at.js 2.10.1 的发行说明。 |
 | 2 月 2 日 | [排除与可视化体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 更新了以下部分：<ul><li>使用浏览模式时，VEC 显示已损坏</li></ul> |
 |  | [在 Target 中构建受众](/help/main/c-target/c-audiences/create-audience.md) | 添加了不能在受众名称中使用的字符和字符序列的列表。 |

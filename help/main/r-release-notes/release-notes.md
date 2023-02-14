@@ -1,5 +1,5 @@
 ---
-keywords: 发行说明；新增功能；版本；更新；发行；增强功能；增强功能；修复；错误修复；更新
+keywords: 发行说明;新功能;版本;更新;更新;版本;增强;增强;修复;错误修复;更新
 description: 了解  [!DNL Adobe Target] 当前版本中包括的新功能、增强和修复，包括 SDK、API 和 JavaScript 库。
 landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功能、增强功能和修复。
 title: 当前版本中包括什么功能？
@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 89%
 ## at.js 版本 2.10.1 2023 年 2 月 2 日
 
 * 已修复涉及受众规则的活动（包含名称中带有点的参数）未返回预期体验以进行设备上决策的错误。
-* 修复了at.js 2.6.0中引入的以下错误：即使在 `mboxDisable` 已启用。
+* 修复了在 at.js 2.6.0 中引入的一个错误，其中即使在启用了 `mboxDisable` 后 at.js 仍触发投放调用。
 
 有关所有 at.js 版本的信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
 

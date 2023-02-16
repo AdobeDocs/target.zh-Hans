@@ -5,10 +5,10 @@ title: 如何使推荐基于推荐键？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
 workflow-type: tm+mt
-source-wordcount: '3936'
-ht-degree: 40%
+source-wordcount: '3942'
+ht-degree: 37%
 
 ---
 
@@ -34,7 +34,7 @@ Recommendations基于算法使用访客行为上下文显示相关结果 [!DNL A
 
 ## 基于购物车 {#cart-based}
 
-的 [!UICONTROL 基于购物车] 算法类型允许根据访客当前购物车的内容推荐项目。 推荐键通过mbox参数提供 `cartIds` 以逗号分隔值表示。 仅考虑前 10 个值。
+的 [!UICONTROL 基于购物车] 算法类型允许根据访客当前购物车的内容推荐项目。 推荐键通过 [mbox参数 `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} 以逗号分隔值表示。 仅考虑前 10 个值。
 
 基于购物车的推荐逻辑与“[!UICONTROL 推荐给您]“基于用户的算法”和“[!UICONTROL 查看了这些项目，购买了这些项目的人]&quot;和&quot;[!UICONTROL 购买了这些，也购买了那些的人]“基于项目的算法。
 
@@ -356,22 +356,22 @@ Recommendations基于算法使用访客行为上下文显示相关结果 [!DNL A
 
 您可以使推荐基于自定义配置文件属性的值。例如，假定您要根据访客最近添加到其队列中的影片显示推荐的影片。
 
-1. 从&#x200B;**[!UICONTROL 推荐键]**&#x200B;下拉列表中选择自定义配置文件属性（例如“最近添加到观看列表的节目”）。
+1. 从 **[!UICONTROL 推荐键]** 下拉列表（例如“最近添加到观看列表的节目”）。
 1. 然后，选择&#x200B;**[!UICONTROL 推荐逻辑]**（例如“查看了这个项目，也查看了那个项目的人”）。
 
    ![“创建新标准”对话框](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-如果自定义配置文件属性与单个实体 ID 不直接匹配，则需要向 [!DNL Recommendations] 说明您希望如何与实体进行匹配。例如，假定您要显示访客最喜爱的品牌中的最畅销商品。
+如果自定义配置文件属性与单个实体 ID 不直接匹配，则需要向 [!DNL Recommendations] 说明您希望如何与实体进行匹配。例如，假定您要显示访客最喜爱的品牌中的最畅销项目。
 
-1. 从&#x200B;**[!UICONTROL 推荐键]**&#x200B;下拉列表中选择自定义配置文件属性（例如，“最喜爱的品牌”）。
+1. 从 **[!UICONTROL 推荐键]** 下拉列表（例如“最喜爱的品牌”）。
 
 1. 然后，选择要用于此键的&#x200B;**[!UICONTROL 推荐逻辑]**（例如，“最畅销商品”）。
 
    此时会显示[!UICONTROL 按以下项的唯一值分组]选项。
 
-1. 选择与您所选的键匹配的实体属性。在本例中，“最喜爱的品牌”与 `entity.brand` 匹配。
+1. 选择与您选择的键匹配的实体属性。 在本例中，“最喜爱的品牌”与 `entity.brand`.
 
-   现在，[!DNL Recommendations] 将为每个品牌生成“最畅销商品”列表，并根据访客“最喜爱的品牌”配置文件属性中存储的值向访客展示相应的“最畅销商品”列表。
+   [!DNL Recommendations] 现在，会为每个品牌生成“最畅销商品”列表，并根据访客“最喜爱的品牌”配置文件属性中存储的值向访客显示相应的“最畅销商品”列表。
 
    ![“创建新标准”对话框 2](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 

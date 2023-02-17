@@ -1,13 +1,13 @@
 ---
 keywords: 发行说明;版本;更新;未来版本;增强;新功能;修复;更新;预发行
 description: 了解 Adobe Target 即将发布的版本中包括的新功能、增强和修复，包括 SDK、API 和 JavaScript 库。
-title: 即将推出的功能和增强功能包括哪些新增功能和增强功能 [!DNL Target] 释放？
+title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 3ddc6c2c8ed86ebdac77eb76c0eb5dfd913553c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 70%
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 22.14.5（2023年2月13日–15日）
+## [!DNL Target] Standard/Premium 22.14.5（2023 年 2 月 13 至 15 日）
 
-此版本将按照以下交错发布计划发布：
+将按以下交错的时间表发布此版本：
 
-* **2月13日**:美洲地区
-* **2月15日**:欧洲、中东和非洲(EMEA)地区
-* **2月15日**:亚太地区
+* **2 月 13 日**：美洲区域
+* **2 月 15 日**：欧洲、中东和非洲 (EMEA) 地区
+* **2 月 15 日**：亚太 (APAC) 地区
 
 此版本包含以下修复：
 
-* 修复了即使在Automated Personalization(AP)活动中指定了属性，仍会导致出现以下错误消息的问题：“错误：至少有一个属性必须属于非默认工作区”(TGT-44607)
-* 修复了影响服务器端Recommendations馈送的潜在安全问题。 (TGT-43769)
+* 修复了一个问题，其中即使在 Automated Personalization (AP) 活动中指定了属性，仍导致以下错误消息：“错误：至少一个属性必须属于非默认工作区”(TGT-44607)
+* 修复了一个影响服务器端 Recommendations 信息源的潜在安全问题。(TGT-43769)
 
 ## 其他发行说明和版本详细信息
 

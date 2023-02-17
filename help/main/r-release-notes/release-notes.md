@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 92%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target] Standard/Premium 22.14.5（2023年2月13日–15日）
+## [!DNL Target] Standard/Premium 22.14.5（2023 年 2 月 13 至 15 日）
 
-此版本将按照以下交错发布计划发布：
+将按以下交错的时间表发布此版本：
 
-* **2月13日**:美洲地区
-* **2月15日**:欧洲、中东和非洲(EMEA)地区
-* **2月15日**:亚太地区
+* **2 月 13 日**：美洲区域
+* **2 月 15 日**：欧洲、中东和非洲 (EMEA) 地区
+* **2 月 15 日**：亚太 (APAC) 地区
 
 此版本包含以下修复：
 
-* 修复了即使在Automated Personalization(AP)活动中指定了属性，仍会导致出现以下错误消息的问题：“错误：至少有一个属性必须属于非默认工作区”(TGT-44607)
-* 修复了影响服务器端Recommendations馈送的潜在安全问题。 (TGT-43769)
+* 修复了一个问题，其中即使在 Automated Personalization (AP) 活动中指定了属性，仍导致以下错误消息：“错误：至少一个属性必须属于非默认工作区”(TGT-44607)
+* 修复了一个影响服务器端 Recommendations 信息源的潜在安全问题。(TGT-43769)
 
 ## at.js 版本 2.10.1 2023 年 2 月 2 日
 
@@ -40,7 +40,7 @@ ht-degree: 92%
 
 ## [!DNL Target] Standard/Premium 22.13.3（2023 年 1 月 25 日至 26 日）
 
-此版本将按照以下交错发布计划发布：
+将按以下交错的时间表发布此版本：
 
 * **1 月 25 日**：欧洲、中东和非洲 (EMEA) 地区
 * **1 月 25 日**：亚太 (APAC) 地区

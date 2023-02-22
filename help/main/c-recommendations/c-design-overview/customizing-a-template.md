@@ -4,10 +4,10 @@ description: 了解如何使用开源Velocity设计语言在Adobe中自定义推
 title: 如何使用Velocity自定义设计？
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
+source-git-commit: b143ecfa248fcffe0ea8e3be65eea5c4c6fecc66
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 46%
+source-wordcount: '1067'
+ht-degree: 44%
 
 ---
 
@@ -61,7 +61,9 @@ $entities[0].categoriesList[2]
 
 有关Velocity变量（属性）的更多信息，请参阅 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-如果您在设计中使用配置文件脚本，脚本名称前的 $ 符号必须使用 \ 进行转义。例如，`\${user.script_name}`。
+如果在设计中使用配置文件脚本，脚本名称前的$符号必须使用 `\` （反斜线）。 例如：
+
+`\${user.script_name}`
 
 >[!NOTE]
 >

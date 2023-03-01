@@ -1,21 +1,21 @@
 ---
-keywords: 定位；可视化体验编辑器；VEC；可视化体验编辑器故障诊断；故障诊断；TLS;TLS 1.2
-description: 了解如何对Adobe中有时出现的问题进行故障诊断 [!DNL Target] 可视化体验编辑器(VEC)。
-title: 如何对与可视化体验编辑器有关的问题进行故障诊断？
+keywords: 定位；可视化体验编辑器；VEC；可视化体验编辑器故障诊断；故障诊断；TLS；TLS 1.2
+description: 了解如何对Adobe中有时出现的问题进行故障排除 [!DNL Target] 在某些情况下，会使用可视化体验编辑器(VEC)。
+title: 如何解决与可视化体验编辑器相关的问题？
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 3d2dec3d897e98be84e8a46c5d5bd274615f46bc
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 68%
+source-wordcount: '975'
+ht-degree: 67%
 
 ---
 
 # 排除与可视化体验编辑器相关的问题
 
-有时， [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)。
+有时会出现显示问题 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)时，不会将反向链接计算在内。
 
-## 当我在可视化体验编辑器中打开我的网站时， [!DNL Target] 库不会加载。 （仅 VEC） {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## 在可视化体验编辑器中打开我的网站时， [!DNL Target] 库不加载。 （仅 VEC） {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 在可视化体验编辑器中打开网站时，Target 会添加两个参数（`mboxEdit=1` 和 `mboxDisable=1`）。
 
@@ -31,7 +31,7 @@ ht-degree: 68%
 
 如果增强型体验编辑器中出现这些问题，请尝试关闭增强型体验编辑器并改用可视化体验编辑器。
 
-要禁用增强型体验编辑器，请转到 **[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]** 关掉 **[!UICONTROL 启用增强型体验编辑器]** 选项。
+要禁用增强型体验编辑器，请转到 **[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]** 然后关闭 **[!UICONTROL 启用增强型体验编辑器]** 选项。
 
 某些用户会在控制台中看到以下错误消息：
 
@@ -86,7 +86,7 @@ ht-degree: 68%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-   ![请求图像](assets/requestly.png)
+   ![requestly图像](assets/requestly.png)
 
    现在，您应当能够使用可视化体验编辑器快速加载页面。
 
@@ -114,16 +114,16 @@ ht-degree: 68%
 * 您输入了无效的 URL。
 * 您尚未在帐户设置页面中输入默认 URL。
 
-   确保已启用此设置，然后在您的网站上下载并更新at.js。
+   请确保已启用此设置，然后在您的网站上下载和更新at.js。
 
-* 如果您尝试使用 [新建 [!UICONTROL 可视化编辑助手] 扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 然后回到 [旧扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 和 [!DNL Target] 无法加载您的网站、清除所有浏览器数据并禁用新扩展。
+* 如果您尝试使用 [新 [!UICONTROL 可视化编辑帮助程序] 扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 然后返回 [旧扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 和 [!DNL Target] 无法加载您的网站，请清除所有浏览器数据并禁用新扩展。
 
-* 如果您的网站无法在VEC中加载，或者行为异常，则可能的修复是：在尝试在中加载网站之前，先在浏览器中接受您网站上的Cookie [!DNL Target].
+* 如果您的网站无法在VEC中加载，或行为异常，潜在的修复方法是先在浏览器中接受您网站上的Cookie，然后再尝试在中加载该网站 [!DNL Target].
 
-## 使用浏览模式时，VEC 显示已损坏。（仅 VEC） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## 使用浏览模式时，VEC 显示已损坏. （仅 VEC） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-在使用浏览模式时，如果您访问的URL没有 [!DNL Target] 已实施的库([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank})或包含frame-buster标头时，VEC显示为已损坏。 出于对浏览器安全性的考虑， [!DNL Target] 无法正确访问您导航到的URL，或者如果页面加载，VEC URL不会持续更新。
+在使用浏览模式时，如果您访问的URL没有 [!DNL Target] 已实现的库([at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank})或包含帧终结器标头，则VEC显示为已损坏。 由于浏览器安全问题， [!DNL Target] 无法正确访问您导航到的URL，或者如果页面加载，VEC URL无法一致更新。
 
-出现此问题的原因是VEC在 `<iframe>`. 浏览器的当前安全机制会阻止 [!DNL Target] UI访问给定帧的元素，因为存在相同原点策略。 浏览器会阻止尝试访问具有不同原点且包含以下信息的框架的脚本 `location.href`.
+出现此问题的原因是VEC将网页加载到 `<iframe>`. 浏览器的当前安全机制阻止 [!DNL Target] 由于同域策略而禁止访问给定框架的元素的UI。 浏览器会阻止脚本尝试访问具有不同来源且包含如下信息的帧： `location.href`.
 
-您必须使用新 [Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) （推荐）或 [旧扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 注入 [!DNL Target] 库添加到页面中，以便以最佳方式浏览页面。
+您必须使用新的 [可视化编辑帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) （推荐）或 [旧扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 以插入 [!DNL Target] 库放入页面中，以便优化浏览。

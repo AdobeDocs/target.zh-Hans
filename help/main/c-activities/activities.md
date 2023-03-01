@@ -1,12 +1,12 @@
 ---
-keywords: 活动列表；活动；活动类型；编辑活动；活动操作；活动属性；活动列表筛选器；活动限制；个性化
-description: 了解活动在Adobe中的情况 [!DNL Target] 允许您将内容个性化到特定受众并测试页面设计
-title: 如何使用Target个性化内容和测试页面设计？
+keywords: 活动列表；活动；活动类型；编辑活动；活动操作；活动属性；活动列表过滤器；活动限制；个性化；个性化
+description: 了解Adobe中的活动方式 [!DNL Target] 允许您为特定受众个性化内容并测试页面设计
+title: 如何使用Target使内容个性化并测试页面设计？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2075'
 ht-degree: 92%
 
 ---
@@ -51,7 +51,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 | URL | URL 以浅色文本显示在名称下方。<br>活动的 URL 可标识该活动在哪里显示。这可以帮助您快速识别活动，并确定某个特定页面是否已在该活动上运行测试。<br>如果测试在多个 URL 上运行，则会有一个链接显示使用的 URL 数量。单击该链接可查看该活动的完整 URL 列表。<br>您可以根据 URL 进行搜索。使用“搜索”框旁边的下拉列表，然后选择[!UICONTROL 搜索 URL]。 |
 | 状态 | 活动的状态可以是下列状态之一：<ul><li>**实时**：该活动当前正在运行。</li><li>**草稿**：活动设置已开始，但尚未准备就绪来运行。</li><li>**已计划**：当到达指定的开始日期和时间时，该活动便可准备激活。</li><li>**不活跃**：该活动已暂停或停用。</li><li>**正在同步**：活动已经保存，并且正在同步到 Target 交付网络。</li><li>**已结束**：已到达指定的活动结束日期和时间，并且不再为该活动提供服务。</li><li>**已存档**：活动已经存档。您可以激活已存档的活动以便再次使用。</li></ul>**注意：**&#x200B;执行某些操作时，例如使用 API 方法在 UI 外部激活活动，可能需要最多 10 分钟才能将更新传播到 UI。 |
 | 来源 | 显示活动是在哪里创建的：<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
-| 设备内决策符合条件 | 在您创建符合设备决策条件的活动后，活动的“概述”页面中会显示一个标签，其中显示了“符合设备决策条件”的内容。<br>此标签并不表示活动将始终通过设备决策来交付。 只有当at.js 2.5.0及更高版本配置为使用设备上决策时，才会在设备上执行此活动。 如果at.js 2.5.0及更高版本未配置为使用设备上的，则此活动仍将通过使用at.js发起的服务器调用来交付。<br>请参阅 [设备内决策](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/){target=_blank}。 |
+| 符合设备上决策条件 | 创建符合设备上决策条件的活动后，会在活动的“概述”页面中显示一个标签，其中显示“符合设备上决策条件”。<br>此标签并不意味着始终通过设备上决策来交付活动。 仅当at.js 2.5.0及更高版本配置为使用设备上决策时，此活动才会在设备上执行。 如果at.js 2.5.0及更高版本未配置为使用设备端，则此活动仍将通过从at.js发出的服务器调用进行交付。<br>参见 [设备上决策](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html){target=_blank}. |
 | 属性 | 显示活动的[属性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | 预计收入提升 | 如果 100% 的受众都看到了入选体验，则显示预计会有多少收入上的增长。<br>使用以下公式计算：<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>最多可以将得出的数值四舍五入到一位小数，但前提是四舍五入后小数点前面只有一位数字。例如：$1.6M、$60K、$900、$8.5K、$205K<br>此列显示“---”时，表示该活动没有足够的数据来确定入选者，或者没有成本估算。<br>请参阅[预计收入提升](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以了解更多信息。 |
 | 上次更新 | 活动上次更新的时间以及执行更新操作的人员。 |
@@ -69,7 +69,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 | 激活 | 启动不活跃或准备就绪的活动。 |
 | 存档 | 将活动发送到存档中。默认情况下，已存档的活动不会再显示在“活动”列表中。要查看这些活动，请更改活动列表的筛选器使其包含已存档活动。您可以激活已存档的活动以便再次使用。<br>如果您停用活动或将活动存档，稍后又重新激活它，并且在停用活动或将活动存档之前有访客处于活动中，则该访客在重新激活活动后将继续成为该活动的一部分。在这两个事件之间的时段内记录的任何转化量度不会归因于该活动。 |
 | 复制 | 复制活动。任何活动都可以复制。复制活动将会创建一个具有相同名称的新活动，只不过新的活动名称会附加“副本”两个字。例如，名为“浏览器选件”的测试会被复制到“浏览器选件副本”。<br>可视化选件会与活动一起复制。您可以安全地编辑副本中的选件，而不会影响原始活动。唯一的例外是保存在“内容/资产”文件夹中的选件和图像。 |
-| 删除 | 删除草稿或活动。<BR>**注意**：删除的活动将无法恢复。除非您确定再也不需要此活动，否则请使用“[!UICONTROL 存档]”操作。然后，您可以根据需要重新激活活动。 |
+| 删除 | 删除草稿或活动。<BR>**注意**：删除的活动将无法恢复。除非您确定再也不需要此活动，否则请使用“[!UICONTROL 存档]”操作。之后，您可以根据需要重新激活该活动。 |
 
 请注意有关“活动”列表的以下详细信息：
 
@@ -108,7 +108,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 |--- |--- |
 | 类型 | A/B 测试：[手动](/help/main/c-activities/t-test-ab/test-ab.md)、[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)和[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。<br>[自动个性化](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>[体验定位](/help/main/c-activities/t-experience-target/experience-target.md)<br>[多变量测试](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[推荐](/help/main/c-recommendations/recommendations.md) |
 | 状态 | 实时<br>草稿<br>已计划<br>不活跃<br>正在同步<br>已结束<br>已存档 |
-| 设备内决策符合条件 | 是<br>否 |
+| 符合设备上决策条件 | 是<br>否 |
 | 报表源 | Target<br>Analytics |
 | 体验编辑器 | 可视<br>基于表单 |
 | 量度类型 | 转换<br>收入<br>参与度 |
@@ -143,7 +143,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 
 有关可视化体验编辑器的额外限制，请参阅[可视化体验编辑器限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
 
-## 导入到的属性 [!DNL Target] 对于在 [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
+## 属性导入到 [!DNL Target] 对于在外部更新的活动 [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 如果在 [!DNL Target] 中创建的活动从 [!DNL Target] 外部进行了更新（例如，通过 Adobe I/O），则下列活动属性将会导入到 [!DNL Target] 当中：
 

@@ -4,9 +4,9 @@ description: 浏览关于使用 Adobe Target 中各项功能的常见问题的�
 title: 可在何处找到优化和个性化问题的答案？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '2800'
+source-wordcount: '2796'
 ht-degree: 96%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 96%
 
 **Target 支持哪些浏览器？**
 
-请阅读我们的 [支持的浏览器](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}矩阵，以了解更多详细信息。 请注意，支持的浏览器分为两个方面：Target Standard/Premium Experience Cloud 界面支持，以及桌面/设备上的最终用户浏览器支持。
+有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=en)矩阵图。{target=_blank}请注意，支持的浏览器分为两个方面：Target Standard/Premium Experience Cloud 界面支持，以及桌面/设备上的最终用户浏览器支持。
 
 ## 活动 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ ht-degree: 96%
 请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客户属性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [客户属性](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 体验 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -166,7 +166,7 @@ ht-degree: 96%
 
 **我已经厌烦了当我尝试在可视化体验编辑器 (VEC) 中加载我的页面时，一直看到“允许您的浏览器加载脚本”消息。怎样才能让我不再看到这条消息？**
 
-这是因为您的站点包含混合内容，即一个同时获取HTTP和HTTPS资源的站点。 请让您的 IT 团队将网站内容全部移到 HTTPS。
+这是因为您的网站具有混合内容 — 它是一个同时获取HTTP和HTTPS资源的网站。 请让您的 IT 团队将网站内容全部移到 HTTPS。
 
 在此之前，请按照[在浏览器中启用混合内容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的说明来允许浏览器加载混合内容。这是目前大多数浏览器采用的一种安全功能。
 
@@ -256,9 +256,9 @@ ht-degree: 96%
 
 请了解一下产品的以下几个方面：
 
-* [Analytics for Target(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [客户属性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [客户属性](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -309,10 +309,10 @@ ht-degree: 96%
 
 **我们有一个移动版 SKU。我是否可以在移动设备上创建活动？**
 
-要在移动设备上进行优化和个性化，您需要使用 [基于表单的活动](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 以及 [AdobeSDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}。 查看有关 [适用于移动设备应用程序的Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}。
+要在移动设备上实现优化和个性化，您需要使用 [基于表单的活动](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 以及 [ADOBESDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/enable-target-in-sdk.html){target=_blank}. Check out more details about [Target for mobile apps](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/overview.html){target=_blank}.
 
 ## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **我在哪里可以了解有关 Target API 的更多信息？**
 
-我们提供了关于 API 的详尽文档。请参阅 [交付API、NodeJS SDK和Recommendations API文档](https://developer.adobe.com/target/实施/服务器端/){target=_blank}。
+我们提供了关于 API 的详尽文档。参见 [交付API、NodeJS SDK和Recommendations API文档](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.

@@ -4,10 +4,10 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 71b94d57ed1da951a1bd4ae6d5746f57ebabe927
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+source-git-commit: 906ddb81bf6913f56b900e51757ace1bbda6e598
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 - 将 Target 与 Adobe Experience Cloud 集成：说明如何将 [!DNL Target] 与其他 [!DNL Experience Cloud] 解决方案集成，其中包括 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)和 [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md)。
 - [Adobe Target 教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hans)：提供教程和视频，以帮助您充分利用 Target。
 - [Target 故障排除](r-troubleshooting-target/troubleshooting-target.md)：提供本指南中所含故障排除信息的链接，其中包括关于影响 [!DNL Target] 中活动和其他元素的字符限制和其他限制（选件大小、受众、配置文件、值、参数等）的信息。
-- [适用于移动设备应用程序的 Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}：说明 [!DNL Target] 如何用于移动设备应用程序优化和个性化。
+- [适用于移动设备应用程序的 Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/overview.html){target=_blank}：说明 [!DNL Target] 如何用于移动设备应用程序优化和个性化。
 - [资源和联系信息](cmp-resources-and-contact-information.md)：提供关于更多资源的信息，以帮助您了解 [!DNL Target] 功能以及如果您需要帮助，如何联系 [!DNL Adobe]。
 
 ## 营销人员 {#marketers}
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ## 开发人员 {#developers}
 
-- [Adobe Target 开发人员指南](https://developer.adobe.com/target/){target=_blank}：此门户为 [!DNL Adobe Target] 开发人员提供实施 [!DNL Target] 所需的资源和指南，包括 API 和 SDK 文档。
+- [Adobe Target 开发人员指南](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}：此门户为 [!DNL Adobe Target] 开发人员提供实施 [!DNL Target] 所需的资源和指南，包括 API 和 SDK 文档。
 
 ## Target 和 Adobe Experience Cloud 管理员 {#admins}
 
@@ -68,4 +68,4 @@ ht-degree: 100%
 
 | Adobe [!DNL Target] 解决方案帮助 | [!DNL Adobe Experience Cloud] 资源 |
 |--- |--- |
-| <ul><li>[Adobe Target 学习和支持](https://helpx.adobe.com/cn/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=zh-Hans)</li><li>[Target API 文档](https://developer.adobe.com/target/){target=_blank}</li></ul> | <ul><li>[Target 社区论坛](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)</li><li>[Experience Cloud 帮助主页](https://helpx.adobe.com/cn/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=zh-Hans)</li><li>[Adobe 培训和教程](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target 学习和支持](https://helpx.adobe.com/cn/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=zh-Hans)</li><li>[Target API 文档](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/target-api-overview.html){target=_blank}</li></ul> | <ul><li>[Target 社区论坛](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)</li><li>[Experience Cloud 帮助主页](https://helpx.adobe.com/cn/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=zh-Hans)</li><li>[Adobe 培训和教程](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK)</li></ul> |  |

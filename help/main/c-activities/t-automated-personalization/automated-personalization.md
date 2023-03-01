@@ -4,10 +4,10 @@ description: 了解如何在Adobe中使用Automated Personalization (AP)活动 [
 title: 什么是Automated Personalization (AP)活动？
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 81%
+source-wordcount: '1049'
+ht-degree: 89%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 81%
 |---|---|
 | 多臂老虎机 | 多臂老虎机优化方法可在探索式学习和对该学习的利用之间进行平衡。 |
 | 随机森林 | 随机林是一种领先的机器学习方法。从数据科学领域来讲，它是一种基于访客和访问属性构建大量决策树的组合分类或回归方法。在 Target 中，随机林用来确定对于每个特定访客而言，哪个体验的转化可能性最高（或每次访问带来的收入最高）。有关 Target 中随机林的更多信息，请参阅[随机林算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)。 |
-| 汤普森采样 | 汤普森采样的目标是确定哪个体验是最佳的整体（非个性化）体验，同时最大限度地降低找到该体验的“成本”。 即便两种体检之间没有统计意义上的差异，汤普森采样算法还是会选出一个入选者。有关更多信息，请参阅[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling)。 |
+| 汤普森采样 | 汤普森采样的目的是确定整体来看哪个体验最好（非个性化），同时最大限度地减少找到该体验的“成本”。即便两种体检之间没有统计意义上的差异，汤普森采样算法还是会选出一个入选者。有关更多信息，请参阅[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling)。 |
 
 使用[!UICONTROL 自动个性化]时请考虑以下详细信息：
 
@@ -47,7 +47,7 @@ ht-degree: 81%
 
 **个性化模型会根据访客行为的变化进行相应调整。**
 
-* 多臂老虎机确保模型始终“花费”一小部分流量以在活动期间继续学习，并防止过度利用以前学习到的趋势。
+* 多臂老虎机可确保模型经常“消耗”一小部分流量，以便在整个活动的生命周期内不断学习，同时防止过度利用先前已学习过的趋势。
 * 系统会每 24 小时使用最新的访客行为数据重新构建基础模型，以确保 Target 始终利用不断发生更改的访客偏好。
 * 如果该算法无法为单个访客确定入选体验，则会自动切换为显示整体性能最佳的体验，同时仍继续寻找个性化的入选者。性能最佳的体验将使用[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling)来查找。
 
@@ -61,15 +61,15 @@ ht-degree: 81%
 
 **[!DNL Adobe Experience Cloud]Target 会自动使用所有 共享受众来构建个性化模型。**
 
-* 您无需执行任何特定操作来将受众添加到模型中。有关将 [!DNL Experience Cloud Audiences] 与 [!DNL Target] 配合使用的信息，请参阅 [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)。
+* 您无需执行任何特定操作即可将受众添加到该模型中。有关将 [!DNL Experience Cloud Audiences] 与 [!DNL Target] 配合使用的信息，请参阅 [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)。
 
 **营销人员可以上传离线数据、倾向得分或其他自定义数据来构建个性化模型。**
 
 在构建个性化模型时，离线数据（例如 CRM 信息或客户流失倾向评分）可能会有极大的价值。可通过多种方式在[!UICONTROL 自动个性化] (AP) 和[!UICONTROL 自动定位]个性化算法中输入数据。
 
-* [mbox 参数](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
-* [配置文件参数](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
-* [用于配置文件更新的服务器端 API](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [mbox 参数](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}
+* [配置文件参数](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}
+* [用于配置文件更新的服务器端 API](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
 
 有关[!UICONTROL 自动个性化]和[!UICONTROL 自动定位]个性化算法自动收集和使用的数据的信息，请参阅[自动个性化数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 

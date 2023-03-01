@@ -4,9 +4,9 @@ description: 探索中可用的选项 [!DNL Adobe Target] [!UICONTROL 可视化�
 title: 如何使用 [!UICONTROL 可视化体验编辑器] (VEC)选项？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '2923'
+source-wordcount: '2920'
 ht-degree: 63%
 
 ---
@@ -372,7 +372,7 @@ HTML选件最长可达256 KB。
 
 ## 注意事项 {#considerations}
 
-* 如果选件包含 HTML 内容，请参阅 [at.js 工作原理](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)中的“at.js 如何渲染包含 HTML 内容的选件”了解更多信息。{target=_blank}
+* 如果选件包含 HTML 内容，请参阅 [at.js 工作原理](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)中的“at.js 如何渲染包含 HTML 内容的选件”了解更多信息。{target=_blank}
 
 ## 自定义元素支持 {#custom}
 
@@ -380,9 +380,9 @@ VEC支持 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Component
 
 >[!NOTE]
 >
->中支持自定义元素的VEC支持 [at.js版本](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. 确保您的网站已部署所需的版本。 如果您使用 [可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，还必须部署所需的at.js版本。 上述VEC选项不可见，并且可用于不受支持的at.js版本。
+>中支持自定义元素的VEC支持 [at.js版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (or later){target=_blank}. 确保您的网站已部署所需的版本。 如果您使用 [可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，还必须部署所需的at.js版本。 上述VEC选项不可见，并且可用于不受支持的at.js版本。
 >
->当前不支持对自定义元素的VEC支持 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+>当前不支持对自定义元素的VEC支持 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 自定义事件和自定义事件内支持大多数VEC操作，但以下情况除外：
 

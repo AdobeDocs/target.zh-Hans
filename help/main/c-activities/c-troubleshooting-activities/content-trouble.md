@@ -4,10 +4,10 @@ description: 如果页面未显示预期的内容，可查找建议以帮助解�
 title: 如何为内容投放排除故障？
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 94%
+source-wordcount: '1664'
+ht-degree: 96%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 94%
 
 有关更多信息，请参阅下面的培训视频：
 
-有关更多详细信息，请参阅 [使用Adobe Experience Cloud调试器调试at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+有关更多详细信息，请参阅 [使用Adobe Experience Cloud调试器调试at.js](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank}.
 
 ## 推荐中未显示最畅销商品 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target 不再支持 IE 8。
 
 ## 未设置 Target Cookie {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-如果您的网站具有一个子域（例如 [!DNL us.domain.com]），但您需要在 [!DNL domain.com]（而不是 [!DNL us.domain.com]）上设置 Target Cookie，则必须覆盖 `cookieDomain` 设置。有关更多信息，请参阅 [targetGlobalSettings()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}。
+如果您的网站具有一个子域（例如 [!DNL us.domain.com]），但您需要在 [!DNL domain.com]（而不是 [!DNL us.domain.com]）上设置 Target Cookie，则必须覆盖 `cookieDomain` 设置。有关更多信息，请参阅 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}。
 
 ## 如果某个元素也是 Adobe Experience Manager 个性化的一部分，则 Target 内容会闪烁或无法显示。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -165,7 +165,7 @@ Target 不再支持 IE 8。
 
 以下选项可用于包括额外的模板规则：
 
-### 选项1：复制URL，并使用“包含”选项将其保留在模板规则中。
+### 选项 1：复制 URL 并使用“包含”选项将其保留在模板规则中。
 
 此选项确保该 URL 符合活动的条件，但请注意，其上可能会附加极端情况，会影响您的报告数据，包含基础 URL 的 URL 会有额外的记录。
 
@@ -173,7 +173,7 @@ Target 不再支持 IE 8。
 
 ![在模板规则中复制 URL](assets/option1.png)
 
-### 选项2：限制URL仅“包含”查询字符串的条件。
+### 选项 2：限制 URL“包含”只具有查询字符串的条件。
 
 之前选项中讨论的极端情况适用于此选项，但这里的条件性设置仅限为查询字符串。
 

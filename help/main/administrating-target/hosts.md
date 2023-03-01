@@ -5,9 +5,9 @@ title: 什么是主机以及如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1087'
 ht-degree: 22%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 22%
 
 >[!IMPORTANT]
 >
->**安全最佳实践**：如果您使用的ubox功能 [!DNL Target]，此允许列表还控制 [重定向器](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} 可以导航。 确保在实施中使用ubox时添加要重定向到的任何域。 如果将允许列表保留为未指定， [!DNL Adobe] 无法验证重定向URL并防止潜在的恶意重定向。
+>**安全最佳实践**：如果您使用的ubox功能 [!DNL Target]，此允许列表还控制 [重定向器](https://developer.adobe.com/target/implement/email/working-with-redirectors/){target=_blank} 可以导航。 确保在实施中使用ubox时添加要重定向到的任何域。 如果将允许列表保留为未指定， [!DNL Adobe] 无法验证重定向URL并防止潜在的恶意重定向。
 >
 >允许列表优先于环境。 允许列表 允许列表在使用功能之前，请清除所有主机，然后只有由允许的主机才会显示在主机列表中。 然后，您可以将主机移到所需的环境中。
 

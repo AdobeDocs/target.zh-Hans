@@ -5,10 +5,10 @@ title: 什么是响应令牌以及如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 26%
+source-wordcount: '1669'
+ht-degree: 27%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 26%
 
 | Target SDK | 建议的操作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版Platform Web SDK的信息，请参阅 [安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} 在 *Platform Web SDK概述* 指南。 有关Platform Web SDK各个版本中新增功能的信息，请参阅 [发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 在 *Platform Web SDK概述* 指南。 |
-| [at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本at.js的信息，请参阅 [下载at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在mbox.js（现已弃用）中存在，但在at.js中不存在，这些插件虽然交付但会失败。 |
+| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版Platform Web SDK的信息，请参阅 [安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} 在 *Platform Web SDK概述* 指南。 有关Platform Web SDK各个版本中新增功能的信息，请参阅 [发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 在 *Platform Web SDK概述* 指南。 |
+| [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本at.js的信息，请参阅 [下载at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在mbox.js（现已弃用）中存在，但在at.js中不存在，这些插件虽然交付但会失败。 |
 
 ## 使用响应令牌 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -36,7 +36,7 @@ ht-degree: 26%
    有关更多信息：
 
    * **平台Web SDK**：请参阅 [安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 在 *Platform Web SDK概述* 指南。
-   * **at.js**：请参阅 [下载at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+   * **at.js**：请参阅 [下载at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 1. In [!DNL Target]，单击 **[!UICONTROL 管理]** > **[!UICONTROL 响应令牌]**.
 
@@ -149,7 +149,7 @@ ht-degree: 26%
 
 ### ![at.js徽章](/help/main/assets/atjs.png) 使用自定义事件的at.js
 
-使用 [at.js 自定义事件](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html)来监听 响应并读取响应令牌。{target=_blank}[!DNL Target]
+使用 [at.js 自定义事件](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/)来监听 响应并读取响应令牌。{target=_blank}[!DNL Target]
 
 以下代码示例可将一个 [!DNL at.js] 自定义事件处理程序直接添加到 HTML 页面：
 
@@ -226,7 +226,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->确保响应令牌密钥值对位于 `alloy("sendEvent"` 对象。
+>确保响应令牌密钥值对位于 `alloy(“sendEvent”` 对象。
 
 ```
 <script type="text/javascript"> 

@@ -4,10 +4,10 @@ description: 了解如何对Adobe中有时出现的问题进行故障排除 [!DN
 title: 如何解决与可视化体验编辑器相关的问题？
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 67%
+source-wordcount: '971'
+ht-degree: 68%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 67%
 
 ## 使用浏览模式时，VEC 显示已损坏. （仅 VEC） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-在使用浏览模式时，如果您访问的URL没有 [!DNL Target] 已实现的库([at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank})或包含帧终结器标头，则VEC显示为已损坏。 由于浏览器安全问题， [!DNL Target] 无法正确访问您导航到的URL，或者如果页面加载，VEC URL无法一致更新。
+在使用浏览模式时，如果您访问的URL没有 [!DNL Target] 已实现的库([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank})或包含帧终结器标头，则VEC显示为已损坏。 由于浏览器安全问题， [!DNL Target] 无法正确访问您导航到的URL，或者如果页面加载，VEC URL无法一致更新。
 
 出现此问题的原因是VEC将网页加载到 `<iframe>`. 浏览器的当前安全机制阻止 [!DNL Target] 由于同域策略而禁止访问给定框架的元素的UI。 浏览器会阻止脚本尝试访问具有不同来源且包含如下信息的帧： `location.href`.
 

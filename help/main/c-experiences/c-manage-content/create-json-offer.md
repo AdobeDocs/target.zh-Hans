@@ -4,10 +4,10 @@ description: 了解如何在Adobe中创建JSON选件 [!DNL Target] ，以便在�
 title: 如何创建JSON选件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 27%
+source-wordcount: '529'
+ht-degree: 29%
 
 ---
 
@@ -23,10 +23,10 @@ JSON选件可用于基于表单的活动，由此在以下情况下启用用例�
 
 * JSON选件当前仅适用于 [!UICONTROL A/B测试]、Automated Personalization (AP)和 [!UICONTROL 体验定位] (XT)活动。
 * JSON选件可用于 [基于表单的活动](/help/main/c-experiences/form-experience-composer.md) 仅此而已。
-* 使用时，可以直接检索JSON选件 [服务器端API和移动节点.js、Java、.NET和Python SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
-* 在浏览器中，只能通过at.js 1.2.3（或更高版本）并使用以下方式检索JSON选件 [getOffer()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} 通过使用 `setJson` 操作。
+* 使用时，可以直接检索JSON选件 [服务器端API和移动节点.js、Java、.NET和Python SDK](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+* 在浏览器中，只能通过at.js 1.2.3（或更高版本）并使用以下方式检索JSON选件 [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} 通过使用 `setJson` 操作。
 * JSON 选件可作为原生 JSON 对象而不是字符串来交付。这些对象的用户不必再将对象作为字符串处理后再将其转换为 JSON 对象。
-* 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。开发人员必须编写相应代码，以便使用 [getOffer()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
+* 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。开发人员必须编写相应代码，以便使用 [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}.
 
 ## 创建JSON选件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 

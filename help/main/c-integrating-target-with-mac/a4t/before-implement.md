@@ -4,10 +4,10 @@ description: 了解Analytics的实施要求 [!DNL Target] (A4T)以及在实施�
 title: 在实施A4T之前，我应该了解什么？
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 24%
+source-wordcount: '985'
+ht-degree: 26%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->以下要求列出了 *最小值* 实施A4T所需的at.js版本。 此 [!DNL Target] 团队仅维护两个版本的 [!DNL at.js] — 当前版本和当前版本的上一个版本。 请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。有关每个版本中功能的更多信息，请参阅 [at.js版本详细信息](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+>以下要求列出了 *最小值* 实施A4T所需的at.js版本。 此 [!DNL Target] 团队仅维护两个版本的 [!DNL at.js] — 当前版本和当前版本的上一个版本。 请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。有关每个版本中功能的更多信息，请参阅 [at.js版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### *未*&#x200B;将重定向选件与 A4T 结合使用时需要满足的要求
 
@@ -41,7 +41,7 @@ ht-degree: 24%
 * [!DNL Adobe Target]: at.js 0.9.1 版
 * Adobe Analytics：appMeasurement.js 版本 1.7.0
 
-有关使用实施A4T的信息 [!DNL Platform Web SDK]，请参见 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+有关使用实施A4T的信息 [!DNL Platform Web SDK]，请参见 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 ### 将重定向选件与 A4T 结合使用时需要满足的要求
 
@@ -59,7 +59,7 @@ ht-degree: 24%
 
 中列出了下载和部署说明 [Analytics for Target实施](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-有关使用实施A4T的信息 [!DNL Platform Web SDK]，请参见 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+有关使用实施A4T的信息 [!DNL Platform Web SDK]，请参见 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 ## 实施前注意事项 {#section_50D49CC52E11414089C89FB67F9B88F5}
 

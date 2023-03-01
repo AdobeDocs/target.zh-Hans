@@ -5,10 +5,10 @@ title: 如何实施 [!DNL Target] 在我的网站上？
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 1%
+source-wordcount: '166'
+ht-degree: 6%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->中的标记 [!DNL Adobe Experience Platform] 是首选的实施方法 [!DNL Target]. 中的标记 [!DNL Adobe Experience Platform] 是推出的新一代标签管理功能 [!DNL Adobe]. 标记为客户提供了一种简单的方式来部署和管理用来加强相关客户体验的分析、营销和广告标记。 有关更多信息，请参阅 [实施 [!DNL Target] 使用 [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}.
+>中的标记 [!DNL Adobe Experience Platform] 是首选的实施方法 [!DNL Target]. 中的标记 [!DNL Adobe Experience Platform] 是推出的新一代标签管理功能 [!DNL Adobe]. 标记为客户提供了一种简单的方式来部署和管理用来加强相关客户体验的分析、营销和广告标记。 有关更多信息，请参阅 [实施 [!DNL Target] 使用 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}.
 
 1. 要访问 [!UICONTROL 实现] 页面，单击 **[!UICONTROL 管理]** > **[!UICONTROL 实现]**.
 
-1. 有关适用于此页面上的设置的信息，请参阅 [不通过标签管理器实施Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+1. 有关适用于此页面上的设置的信息，请参阅 [不通过标签管理器实施Target](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 ![“实施”页面](/help/main/administrating-target/assets/implementation.png)

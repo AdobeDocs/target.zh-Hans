@@ -1,14 +1,14 @@
 ---
 keywords: 字符限制;mbox 参数;批量投放 api;配置文件参数;限制;内置配置文件;最大值;限制;约束;字符;最佳实践;orderid;orderTotal;mbox3rdPartyID;类别;categoryID;故障排除
-description: 查看影响 [!DNL Adobe Target].
-title: 中的各种字符、大小和其他限制 [!DNL Adobe Target]?
+description: 查看影响中活动和其他元素的字符限制和其他限制的列表 [!DNL Adobe Target].
+title: 中的各种字符、大小和其他限制是什么？ [!DNL Adobe Target]？
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
+source-git-commit: 0a8842f0c29b61ee8cd362edf3e4e4afecbe847a
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 93%
+source-wordcount: '1582'
+ht-degree: 81%
 
 ---
 
@@ -66,17 +66,33 @@ ht-degree: 93%
 
    如果某个客户的给定用户会话超过了 100 个并发 [!DNL Target] 内容投放请求，则会阻止该用户会话的所有后续请求。如果有两个或更多请求均发送到 [!DNL Target] 服务器且尚未收到任何请求的响应，则将这些请求视为并发请求。[!DNL Target] 按顺序处理相同会话的并发请求。
 
-* **错误行为**：
+   * **错误行为**：
 
-   * 投放 API 和批量 Mbox v2：
-      * 错误代码：HTTP 420 请求太多
-      * 错误消息：“相同会话 ID 的请求太多”
-   * 旧版 mbox API：
-      * 显示默认内容，并带有注释“相同会话 ID 的请求太多”
-   * at.js：
-      * 显示默认内容
+      * 投放 API 和批量 Mbox v2：
+         * 错误代码：HTTP 420 请求太多
+         * 错误消息：“相同会话 ID 的请求太多”
+      * 旧版 mbox API：
+         * 显示默认内容，并带有注释“相同会话 ID 的请求太多”
+      * at.js：
+         * 显示默认内容
 
 
+
+* **限制**：每台50个mbox [!DNL Target] 内容投放批次mbox请求。
+
+   超过50个mbox，每 [!DNL Target] 内容投放批次mbox请求导致响应错误代码 `HTTP 400` 带有错误消息 `size must be between 0 and 50`.
+
+   按顺序处理批量mbox请求，从而增加每个迭代的整体响应时间。 批量请求上的mbox越多，预期的响应延迟越多，因此可能会超时。 如果在这些高延迟的批量请求上阻止体验渲染，则延迟可能会导致用户体验降低，因为用户会等待体验渲染。
+
+* **限制**：60 MB HTTPPOST正文大小 [!DNL Target] 内容投放请求。
+
+   超过60 MB的HTTPPOST正文大小 [!DNL Target] 内容投放请求导致响应错误代码 `HTTP 413 Request Entity Too Large`.
+
+* **建议限制**：每个50个通知 [!DNL Target] 投放批次请求。
+
+   超过50个通知，每 [!DNL Target] 投放批次请求可能会导致响应延迟和超时增加。
+
+   批量通知请求按顺序处理，从而增加每个迭代的整体响应时间。 批处理请求上的通知越多，预期的响应延迟越多，因此可能会超时。 对于某些客户，批处理通知请求可能会出现一些额外的延迟，但请注意，超时和任何后续重试都可能导致更长的延迟。
 
 ## 客户属性
 
@@ -139,7 +155,7 @@ ht-degree: 93%
 
 ### 每个活动的体验数
 
-* **限制**:每个体验2,000个 [!UICONTROL 体验定位] (XT)、 [!UICONTROL A/B测试], [!UICONTROL 多变量测试] (MVT)和 [!UICONTROL 自动定位] 活动。
+* **限制**：每台2000个体验 [!UICONTROL 体验定位] (XT)， [!UICONTROL A/B测试]， [!UICONTROL 多变量测试] (MVT)，以及 [!UICONTROL 自动定位] 活动。
 
    每个自动个性化 (AP) 活动 30,000 个体验。
 
@@ -163,13 +179,13 @@ ht-degree: 93%
 
 * **限制**：250 个字符。
 
-   对于交付API(at.js 2.*x*)、批量mbox V2和AEP Web SDK(alloy.js)集成，mbox名称 *can* 包含字母数字字符(A-Z、a-z、0-9)和以下任意字符：
+   用于交付API (at.js 2.*x*)、批处理mbox V2和AEP Web SDK (alloy.js)集成、mbox名称 *可以* 包含字母数字字符(A-Z、a-z、0-9)和以下任意字符：
 
    ```
    - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
    ```
 
-   对于at.js 1.*x* 集成， mbox名称 *无法* 包含以下任意字符：
+   对于at.js 1.*x* 集成， mbox名称 *无法* 包含以下任一字符：
 
    ```
    ' " %22 %27 < > %3C %3E 
@@ -283,7 +299,7 @@ ht-degree: 93%
 
 * **建议限制**：2,000 个字符。
 
-   取决于编码字符串的大小，其大小可能比原始字符串长很多。如果字符串太大，在转到 [!DNL Adobe Target].
+   取决于编码字符串的大小，其大小可能比原始字符串长很多。如果字符串过大，则在到达之前，它将失败 [!DNL Adobe Target].
 
 ## 脚本配置文件
 

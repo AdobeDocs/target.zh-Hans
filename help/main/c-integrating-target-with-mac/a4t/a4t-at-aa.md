@@ -1,30 +1,30 @@
 ---
 keywords: a4t;A4T;Analytics 作为 Target 报表源
-description: 了解如何在Adobe中创建自动分配和自动定位活动 [!DNL Target] Analytics作为报表源(A4T)的其他应用程序。
-title: A4T是否支持自动分配和自动定位活动？
+description: 了解如何创建 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 中的活动 [!DNL Target] 使用 [!DNL Analytics] 作为报表源(A4T)。
+title: A4T是否支持 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 2%
+source-wordcount: '1354'
+ht-degree: 3%
 
 ---
 
-# 自动分配和自动定位活动支持 A4T
+# 的A4T支持 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动
 
 此 [!DNL Adobe Target]-to-[!DNL Adobe Analytics] 集成，称为 [目标分析](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)支持 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动。
 
 通过A4T集成，您可以：
 
 * 使用 [自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)的多臂老虎机功能可将流量引向入选的体验。
-* 使用 [自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)的集成机器学习算法，用于为每个访客选择最佳体验。 自动定位可在使用时根据用户的配置文件、行为和上下文选择最佳体验。 [!DNL Adobe Analytics] 目标量度和 [!DNL Adobe Analytics]&#39;丰富的报表和分析功能。
+* 使用 [自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)的集成机器学习算法，用于为每个访客选择最佳体验。 [!UICONTROL 自动定位] 在使用时，根据用户的配置文件、行为和上下文选择最佳体验 [!DNL Adobe Analytics] 目标量度和 [!DNL Adobe Analytics]&#39;丰富的报表和分析功能。
 
 确保您拥有 [实施了A4T以用于A/B测试和体验定位活动](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 如果您使用 `analyticsLogging = client_side`，您还必须传递 `sessionId` 值至 [!DNL Analytics]. 有关更多信息，请参阅 [Analytics for Target (A4T)报表](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} 在 *ADOBE TARGET SDK* 指南。
 
 若要开始，请执行以下操作：
 
-1. 创建A/B测试活动时，在 **[!UICONTROL 定位]** 页面上，选择以下选项之一作为 **[!UICONTROL 流量分配方法]**：
+1. 创建 [!UICONTROL A/B测试] 活动，在 **[!UICONTROL 定位]** 页面上，选择以下选项之一作为 **[!UICONTROL 流量分配方法]**：
 
    * [!UICONTROL 自动分配到最佳体验]
    * [!UICONTROL 自动定位以提供个性化体验]
@@ -37,7 +37,7 @@ ht-degree: 2%
 
    ![“目标和设置”页面上的“报表源”部分](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
 
-1. 选择一个主要目标量度。
+1. 选择 [!UICONTROL 主要目标] 量度。
 
    * 使用 [!DNL Adobe Target] 要指定优化目标，请选择 **[!UICONTROL 转化]** .
    * 选择 **[!UICONTROL 使用Analytics量度]** 然后从中选择一个量度 [!DNL Analytics] 用作优化目标。 您可以使用现成的 [!DNL Analytics] 转化量度或 [!DNL Analytics] 自定义事件。
@@ -62,18 +62,39 @@ ht-degree: 2%
 * [!DNL Adobe Analytics] 转化量度
 * [!DNL Adobe Analytics] 个自定义事件
 
-[!UICONTROL A4T] 对象 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 要求您选择基于二项式事件的量度。 发生或不发生二项式事件。 二项式事件包括点击、转化、排序等。 这些事件类型有时也称为伯努利事件、二元事件或离散事件。
+[!DNL Target] 允许您在使用时，选择基于二项式事件的量度或基于连续事件的量度 [!UICONTROL A4T] 对象 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动。
 
-[!UICONTROL A4T] 对象 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 不支持连续量度的优化。 连续量度包括收入、订购的产品数量、会话持续时间、会话中的页面查看次数等。 这些不受支持的量度类型有时也称为非二项式或非Bernoulli量度。
+* **基于二项式事件的量度**：二项式事件不会发生。 二项式事件包括点击、转化、排序等。 这些事件类型有时也称为伯努利事件、二元事件或离散事件。
 
-不支持将以下指标类型作为主要目标指标：
+* **基于连续事件的量度**. 连续量度包括收入、订购的产品数量、会话持续时间、会话中的页面查看次数等。 这些类型的事件有时也称为非二项式或非伯努利量度。
 
-* [!DNL Adobe Target] 参与和收入量度
-* [!DNL Adobe Analytics] 参与和收入量度
+>[!IMPORTANT]
+>
+>截至 [!DNL Adobe Target Standard/Premium] 22.15.1版（2023年3月8日和9日）， [!DNL Target] 通过现在不受支持的量度（如下表中所列）继续支持现有活动。 但是，在2023年9月9日之后，现有活动将不再支持这些量度，并且所有使用不受支持的量度的活动都将停止，以强制现有活动迁移到新行为。
 
-   可以选择 [!DNL Analytics] 将参与或收入量度作为您的主要目标量度，因为 [!DNL Target] 无法识别和排除的所有参与和收入量度 [!DNL Analytics]. 仅从中选择二项式转化量度或自定义事件 [!DNL Analytics].
+### 对的影响 [!UICONTROL 自动分配] 活动
 
-* [!DNL Adobe Analytics] 计算量度
+| Metric name（量度名称） | 不再支持： |
+| --- | --- |
+| [!UICONTROL averagepagedepth] | 转化率，RPV |
+| [!UICONTROL averagetimespentonsite] | 转化率，RPV |
+| [!UICONTROL 退回] | 转化率，RPV |
+| [!UICONTROL bounces] | 转化率，RPV |
+| [!UICONTROL 条目] | 转化率，RPV |
+| [!UICONTROL 退出点] | 转化率，RPV |
+| [!UICONTROL 页面查看次数] | RPV |
+| [!UICONTROL 重新载入] | RPV |
+| [!UICONTROL 访客数] | 转化率，RPV |
+| [!UICONTROL 访问次数] | RPV |
+
+### 对的影响 [!UICONTROL 自动定位] 活动
+
+| Metric name（量度名称） | 不再支持： |
+| --- | --- |
+| [!UICONTROL 卡特勒莫瓦尔] | RPV |
+| [!UICONTROL 页面查看次数] | RPV |
+| [!UICONTROL 访客数] | 转化率，RPV |
+| [!UICONTROL 访问次数] | RPV |
 
 ## 限制和注释
 
@@ -82,7 +103,7 @@ ht-degree: 2%
 ### 自动分配和自动定位 {#both}
 
 * 使用时 [!DNL Adobe Analytics] 作为的报表源 [!UICONTROL 自动分配] 或 [!UICONTROL 自动定位]，您应始终在中查看报表 [!DNL Analytics].
-* 无法更改报表源 [!DNL Analytics] 到 [!DNL Target] 或在激活活动后返回。
+* 无法更改报表源 [!DNL Analytics] 到 [!DNL Target] 在激活活动后，反之亦然。
 * 尽管不支持将计算量度作为主要目标量度，但通常可以通过选择自定义事件作为主要目标量度来实现预期结果。 例如，如果要优化某个指标（如“每位访客的表单完成次数”），请选择与“表单完成次数”对应的自定义事件作为主要目标指标。 [!DNL Target] 自动标准化基于每次访问的转化量度以考虑不均衡的流量分布，因此无需使用计算量度来执行标准化。
 * 使用时 [!DNL Adobe Analytics] 作为的报表源 [!UICONTROL 自动分配] 或 [!UICONTROL 自动定位] 活动，您应始终在中查看报表 [!DNL Analytics].
 * 无法更改报表源 [!DNL Analytics] 到 [!DNL Target] 在激活活动后，反之亦然。
@@ -97,15 +118,28 @@ ht-degree: 2%
 
 ### 自动定位 {#at}
 
-* [!UICONTROL 自动定位] 和往常一样，模型每隔24小时训练一次。 但是，转化事件数据来自 [!DNL Analytics] 又延迟了6到24小时。 这种延迟是指流量分配方式 [!DNL Target] 跟踪中记录的最新事件 [!DNL Analytics]. 在活动最初激活后的前48小时内，此延迟具有最大的影响。 活动的性能将更紧密地反映出来 [!DNL Analytics] 5天后的转化行为。 考虑使用 [!UICONTROL 自动分配] 而不是 [!UICONTROL 自动定位] 对于短期活动，其大多数流量发生在活动寿命的前五天内。
+* [!UICONTROL 自动定位] 和往常一样，模型每隔24小时训练一次。 但是，转化事件数据来自 [!DNL Analytics] 又延迟了6到24小时。 这种延迟是指流量分配方式 [!DNL Target] 跟踪中记录的最新事件 [!DNL Analytics]. 在活动最初激活后的前48小时内，此延迟具有最大的影响。 该活动的性能镜像得更加紧密 [!DNL Analytics] 5天后的转化行为。
+
+   考虑使用 [!UICONTROL 自动分配] 而不是 [!UICONTROL 自动定位] 对于短期活动，其大多数流量发生在活动寿命的前五天内。
+
 * 使用时 [!DNL Analytics] 作为 [!UICONTROL 自动定位] 活动，会话在六小时后结束。 六小时后发生的转化不计算在内。
 
 有关更多信息，请参阅 [归因模型和回顾时间范围](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) 在 *Analytics工具指南*.
 
-## 教程：如何在Analysis Workspace中为自动定位活动设置A4T报表 {#tutorial}
+## 教程
 
-尽管中提供了丰富的分析功能， [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace]，对默认进行了一些修改 [!UICONTROL 目标分析] 需要面板才能正确解释自动定位活动。 由于试验活动之间的差异(手动A/B和 [!UICONTROL 自动分配])和个性化活动([!UICONTROL 自动定位])。
+尽管中提供了丰富的分析功能， [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace]，对默认进行了一些修改 [!UICONTROL 目标分析] 需要面板才能正确解释 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动。 由于试验活动之间的差异(手动A/B和 [!UICONTROL 自动分配])和个性化活动([!UICONTROL 自动定位])。
 
-本教程将指导您完成建议的用于分析的修改 [!UICONTROL 自动定位] 中的活动 [!UICONTROL 工作区].
+### 在中设置A4T报表 [!DNL Analysis Workspace] 对象 [!UICONTROL 自动分配] 活动
 
-有关更多信息，请参阅 [如何在Analysis Workspace中为自动定位活动设置A4T报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) 在 *Adobe TargetTutorials*.
+本教程将指导您完成建议的用于分析的修改 [!UICONTROL 自动分配] 中的活动 [!DNL Analysis Workspace].
+
+有关更多信息，请参阅 [如何在Analysis Workspace中为自动分配活动设置A4T报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} 在 *Adobe TargetTutorials*.
+
+### 在中设置A4T报表 [!DNL Analysis Workspace] 对象 [!UICONTROL 自动定位] 活动
+
+本教程将指导您完成建议的用于分析的修改 [!UICONTROL 自动定位] 中的活动 [!DNL Analysis Workspace].
+
+有关更多信息，请参阅 [如何在Analysis Workspace中为自动定位活动设置A4T报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank} 在 *Adobe TargetTutorials*.
+
+

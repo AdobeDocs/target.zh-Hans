@@ -1,19 +1,19 @@
 ---
 keywords: 活动;活动类型;编辑活动;编辑;草稿
-description: 了解在Adobe Target中编辑现有活动的不同方式，包括以草稿形式保存活动。
+description: 了解在Adobe Target中编辑现有活动的各种方式，包括以草稿形式保存活动。
 title: 如何编辑活动或另存为草稿？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 95%
+source-wordcount: '1211'
+ht-degree: 91%
 
 ---
 
 # 编辑活动或另存为草稿
 
-有关您可以在 [!DNL Adobe Target]，包括以草稿形式保存活动。
+有关您可以在中编辑现有活动的不同方法的信息 [!DNL Adobe Target]，包括以草稿形式保存活动。
 
 您可以在 Target UI 中的多个位置编辑现有活动。根据您选择的方法，编辑过程会有所不同。
 
@@ -105,3 +105,11 @@ ht-degree: 95%
 * 如果是将活动复制到其他工作区，则活动会被复制到其他工作区，而不是在活动创建流程中打开活动。成功复制活动后，会显示一条指示活动已成功复制的消息，消息中还包含用于打开新活动的链接。
 
 如果您的环境未启用“企业用户权限”功能，则在复制之前所有活动都将在编辑模式中打开。
+
+## 最佳实践
+
+* 作为最佳实践，请尝试使用最初用于创建该活动的相同方法（UI 或 API）更新该活动。
+
+   使用创建的活动 [!DNL Target] UI应通过更新 [!DNL Target] UI。 应通过 API 更新通过 API 创建的活动。例如，如果您最初使用API创建活动，但随后又通过 [!DNL Target] UI，并非所有更改都会更新。 所有更改都存储在后端，可通过再次调用API来更新这些更改。
+
+

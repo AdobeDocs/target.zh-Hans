@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3ddc6c2c8ed86ebdac77eb76c0eb5dfd913553c7
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 55%
 
 ---
 
@@ -15,22 +15,31 @@ ht-degree: 100%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新时间：2023 年 2 月 10 日**
+**上次更新日期：2023 年 8 月 3 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 22.14.5（2023 年 2 月 13 至 15 日）
+## [!DNL Target] Standard/Premium 22.15.1（2023年3月8日和9日）
 
 将按以下交错的时间表发布此版本：
 
-* **2 月 13 日**：美洲区域
-* **2 月 15 日**：欧洲、中东和非洲 (EMEA) 地区
-* **2 月 15 日**：亚太 (APAC) 地区
+* **3月8日**：美洲区域
+* **3月9日**：欧洲、中东和非洲(EMEA)区域
+* **3月9日**：亚太(APAC)区域
 
-此版本包含以下修复：
+此版本包含以下新增功能和增强功能：
 
-* 修复了一个问题，其中即使在 Automated Personalization (AP) 活动中指定了属性，仍导致以下错误消息：“错误：至少一个属性必须属于非默认工作区”(TGT-44607)
-* 修复了一个影响服务器端 Recommendations 信息源的潜在安全问题。(TGT-43769)
+| 功能 | 详细信息 |
+| --- | --- |
+| 优化了A4T指标 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] | [!DNL Target] 允许您在使用时，选择基于二项式事件的量度或基于连续事件的量度 [!UICONTROL A4T] 对象 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动。<P>请注意支持的量度中的以下更改：<ul><li>[!DNL Target] 保留现有活动的先前行为，直到（日期待定）。 在此日期之后，将停止使用不受支持的指标的活动，以强制现有活动迁移到新行为。</li></ul>有关更多信息，请参阅 [支持的目标量度](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) 在 *自动分配和自动定位活动支持A4T*. |
+| [!UICONTROL 自动分配] 使用 [!UICONTROL 目标分析] (A4T) | 新教程：<ul><li>[在中设置A4T报表 [!DNL Analysis Workspace] 对象 [!UICONTROL 自动分配] 活动](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
+| [!UICONTROL 自动定位] 使用 [!UICONTROL 目标分析] (A4T) | 新教程：<ul><li>[在中设置A4T报表 [!DNL Analysis Workspace] 对象 [!UICONTROL 自动定位] 活动](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+
+## at.js 版本 2.10.2（2023 年 3 月 7 日）
+
+* 修复了导致 `trackEvent` 函数始终返回错误。
+
+有关所有 at.js 版本的信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
 
 ## 其他发行说明和版本详细信息
 

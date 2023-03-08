@@ -5,10 +5,10 @@ landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的�
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 68%
 
 ---
 
@@ -18,51 +18,27 @@ ht-degree: 100%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target] Standard/Premium 22.14.5（2023 年 2 月 13 至 15 日）
+## [!DNL Target] Standard/Premium 22.15.1（2023年3月8日和9日）
 
 将按以下交错的时间表发布此版本：
 
-* **2 月 13 日**：美洲区域
-* **2 月 15 日**：欧洲、中东和非洲 (EMEA) 地区
-* **2 月 15 日**：亚太 (APAC) 地区
+* **3月8日**：美洲区域
+* **3月9日**：欧洲、中东和非洲(EMEA)区域
+* **3月9日**：亚太(APAC)区域
 
-此版本包含以下修复：
-
-* 修复了一个问题，其中即使在 Automated Personalization (AP) 活动中指定了属性，仍导致以下错误消息：“错误：至少一个属性必须属于非默认工作区”(TGT-44607)
-* 修复了一个影响服务器端 Recommendations 信息源的潜在安全问题。(TGT-43769)
-
-## at.js 版本 2.10.1 2023 年 2 月 2 日
-
-* 已修复涉及受众规则的活动（包含名称中带有点的参数）未返回预期体验以进行设备上决策的错误。
-* 修复了在 at.js 2.6.0 中引入的一个错误，其中即使在启用了 `mboxDisable` 后 at.js 仍触发投放调用。
-
-有关所有 at.js 版本的信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
-
-## [!DNL Target] Standard/Premium 22.13.3（2023 年 1 月 25 日至 26 日）
-
-将按以下交错的时间表发布此版本：
-
-* **1 月 25 日**：欧洲、中东和非洲 (EMEA) 地区
-* **1 月 25 日**：亚太 (APAC) 地区
-* **1 月 26 日**：美洲区域
-
-此版本包含以下新功能、增强和修复：
+此版本包含以下新增功能和增强功能：
 
 | 功能 | 详细信息 |
 | --- | --- |
-| [JSON ](/help/main/c-experiences/c-manage-content/create-json-offer.md)在 Automated Personalization (AP) 中提供支持 | 使用基于表单的体验编辑器在 [!UICONTROL Automated Personalization] (AP) 活动中添加了对 JSON 选件的支持。(TGT-41460) |
-| [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 添加了区分导出到 [!DNL Target] 的 [!DNL Adobe Experience Manager] 片段 (AEM XF) 类型的功能。[!DNL Target] 现在允许您按“HTML XF”和“JSON XF”过滤和搜索，而不是“体验片段”选项。(TGT-44132) |
+| 优化了A4T指标 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] | [!DNL Target] 允许您在使用时，选择基于二项式事件的量度或基于连续事件的量度 [!UICONTROL A4T] 对象 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动。<P>请注意支持的量度中的以下时效性更改：<ul><li>[!DNL Target] 保留现有活动先前的行为，直到2023年9月9日。 在此日期之后，将停止使用不受支持的指标的活动，以强制现有活动迁移到新行为。</li></ul>有关更多信息，请参阅 [支持的目标量度](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) 在 *自动分配和自动定位活动支持A4T*. |
+| [!UICONTROL 自动分配] 使用 [!UICONTROL 目标分析] (A4T) | 新教程：<ul><li>[在中设置A4T报表 [!DNL Analysis Workspace] 对象 [!UICONTROL 自动分配] 活动](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
+| [!UICONTROL 自动定位] 使用 [!UICONTROL 目标分析] (A4T) | 新教程：<ul><li>[在中设置A4T报表 [!DNL Analysis Workspace] 对象 [!UICONTROL 自动定位] 活动](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 
-* 修复了在 [!UICONTROL A/B 测试]和 [!UICONTROL Experience Targeting] (XT) 活动中导致“500 错误”的问题，并包含建议。当 [!DNL Target] 无法从 [!DNL Target] UI 和 [!DNL Recommendations] 后端正确删除不再使用的条件对象时，会导致此问题。(TGT-44383)
-* 从 [!UICONTROL Offer Level] 报告中为 [!UICONTROL Automated Personalization] 活动显示的优惠名称中删除了位置。此更改使报告更具可读性。(TGT-44294)
-* 从 [!DNL Target] UI 中的 AP 和[!UICONTROL 自动目标][!UICONTROL 个性化洞察]和[!UICONTROL 重要属性]报告中删除了 45 天和 90 天日历选项。由于使用模式和为了提高性能，已弃用这些日期范围。UI 已更新，以反映当前允许的范围：15 天、30 天和 60 天。(TGT-39357)
-* 禁用了在活动上线后更改[!UICONTROL 目标和设置]页面上的[!UICONTROL 与优化目标相同]设置的功能。(TGT-43923)
-* 修复了从 [!DNL Target Standard] 升级到 [!DNL Target Premium] 时导致 [!DNL Target] 后端默认工作区出现问题的情况。（TGT-44081 和 TGT-44306）
-* 进行了更改以允许包含点字符 “.” 的 [!DNL Analytics] 报表包。在它们的名称中用于在 [!DNL Target]UI 中创建 [!DNL Analytics]分类提要。
-* 更改了[!UICONTROL 实施]页面（[!UICONTROL 管理]>[!UICONTROL 实施]）上“设备上决策的实现方法”的链接，使其指向说明如何为所有受支持的 SDK（Node.js、Java、.NET 和 Python）使用设备上决策的页面。有关更多信息，请参阅 [Target SDK 快速入门](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
-* 修复了使用 [!DNL Scene7] 和 [!DNL Target] 时导致文件上传问题的情况。
-* 通过使用内部可用性审计的结果，增强了 [!DNL Target] UI 对残障人士提供的可访问性。这些增强的辅助功能包括访问以前无法通过键盘访问的功能、替代文本增强功能、缩放 UI 部分以提高可用性的能力、改进键盘焦点等等。(TGT-42759)
-* 对整个 [!DNL Target] UI 进行了各种本地化修复。
+## at.js 版本 2.10.2（2023 年 3 月 7 日）
+
+* 修复了导致 `trackEvent` 函数始终返回错误。
+
+有关所有 at.js 版本的信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
 
 ## 其他发行说明和版本详细信息
 

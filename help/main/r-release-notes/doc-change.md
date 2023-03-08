@@ -4,7 +4,7 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: a4c74086ff765d0790ec28dfd28881addd56f785
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 95%
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
-## ## [!DNL Target] Standard/Premium 22.15.1（2023年3月8日和9日）
+## [!DNL Target] Standard/Premium 22.15.1（2023年3月8日和9日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |

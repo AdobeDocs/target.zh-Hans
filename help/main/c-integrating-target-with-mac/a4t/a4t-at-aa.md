@@ -4,10 +4,10 @@ description: 了解如何创建 [!UICONTROL 自动分配] 和 [!UICONTROL 自动
 title: A4T是否支持 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 3%
+source-wordcount: '1382'
+ht-degree: 2%
 
 ---
 
@@ -76,25 +76,25 @@ ht-degree: 3%
 
 | Metric name（量度名称） | 不再支持： |
 | --- | --- |
-| [!UICONTROL averagepagedepth] | 转化率，RPV |
-| [!UICONTROL averagetimespentonsite] | 转化率，RPV |
-| [!UICONTROL 退回] | 转化率，RPV |
-| [!UICONTROL bounces] | 转化率，RPV |
-| [!UICONTROL 条目] | 转化率，RPV |
-| [!UICONTROL 退出点] | 转化率，RPV |
-| [!UICONTROL 页面查看次数] | RPV |
-| [!UICONTROL 重新载入] | RPV |
-| [!UICONTROL 访客数] | 转化率，RPV |
-| [!UICONTROL 访问次数] | RPV |
+| [!UICONTROL averagepagedepth] | 转化率，最大化量度值 |
+| [!UICONTROL averagetimespentonsite] | 转化率，最大化量度值 |
+| [!UICONTROL 退回] | 转化率，最大化量度值 |
+| [!UICONTROL bounces] | 转化率，最大化量度值 |
+| [!UICONTROL 条目] | 转化率，最大化量度值 |
+| [!UICONTROL 退出点] | 转化率，最大化量度值 |
+| [!UICONTROL 页面查看次数] | 最大化量度值 |
+| [!UICONTROL 重新载入] | 最大化量度值 |
+| [!UICONTROL 访客数] | 转化率，最大化量度值 |
+| [!UICONTROL 访问次数] | 最大化量度值 |
 
 ### 对的影响 [!UICONTROL 自动定位] 活动
 
 | Metric name（量度名称） | 不再支持： |
 | --- | --- |
-| [!UICONTROL 卡特勒莫瓦尔] | RPV |
-| [!UICONTROL 页面查看次数] | RPV |
-| [!UICONTROL 访客数] | 转化率，RPV |
-| [!UICONTROL 访问次数] | RPV |
+| [!UICONTROL 卡特勒莫瓦尔] | 最大化量度值 |
+| [!UICONTROL 页面查看次数] | 最大化量度值 |
+| [!UICONTROL 访客数] | 转化率，最大化量度值 |
+| [!UICONTROL 访问次数] | 最大化量度值 |
 
 ## 限制和注释
 

@@ -4,10 +4,10 @@ description: 了解  [!DNL Adobe Target]  的工作原理，包括有关 JavaScr
 title: ' [!DNL Target] 的工作原理'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
-workflow-type: ht
-source-wordcount: '2583'
-ht-degree: 100%
+source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
+workflow-type: tm+mt
+source-wordcount: '2562'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 100%
 
 [!DNL Target] 使用 [!DNL Experience Platform Web SDK] 或 at.js 与网站集成：
 
-* **[!DNL Adobe Experience Platform Web SDK]：** [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} 是一个新的客户端 JavaScript 库。 [!DNL Experience Platform Web SDK] 让 [!DNL Adobe Experience Cloud] 的客户通过 [!DNL Experience Platform] Edge Network 与 [!DNL Experience Cloud]（包括 [!DNL Target]）中的各种服务进行交互。 [!DNL Adobe] 建议所有新 [!DNL Target] 客户均实施 [!DNL Experience Platform Web SDK]。
-* **at.js：** at.js 库是 [!DNL Target] 的一个实施库。使用 at.js 库可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。经常更新 at.js 以增加新功能。[!DNL Adobe] 建议所有使用 at.js 的客户都将其实施更新到 [at.js 的最新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}。
+* **[!DNL Adobe Experience Platform Web SDK]：** 此 [Experience PlatformWeb SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} 是一个新的客户端JavaScript库。 [!DNL Experience Platform Web SDK] 让 [!DNL Adobe Experience Cloud] 的客户通过 [!DNL Experience Platform] Edge Network 与 [!DNL Experience Cloud]（包括 [!DNL Target]）中的各种服务进行交互。 [!DNL Adobe] 建议所有新 [!DNL Target] 客户均实施 [!DNL Experience Platform Web SDK]。
+* **at.js：** at.js 库是 [!DNL Target] 的一个实施库。使用 at.js 库可缩短 Web 实施的页面加载时间，并为单页应用程序提供更好的实施选项。经常更新 at.js 以增加新功能。[!DNL Adobe] 建议所有使用 at.js 的客户都将其实施更新到 [at.js 的最新版本](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ ht-degree: 100%
 >
 >[!DNL Adobe Target] 目前在中国没有边缘群集，因此中国 [!DNL Target] 客户的访客表现仍然受限。 由于该国存在防火墙和缺乏边缘群集，因此部署了 [!DNL Target] 的网站的体验可能受影响。体验可能呈现得较慢，并且页面加载可能受影响。此外，营销人员可能在使用 [!DNL Target] 创作 UI 时经历延迟的情况。
 
-如果需要，可将 [!DNL Target] 边缘群集列入允许列表。有关详细信息，请参阅[将 Target 边缘节点列入允许列表](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}。
+如果需要，可将 [!DNL Target] 边缘群集列入允许列表。有关详细信息，请参阅[将 Target 边缘节点列入允许列表](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -178,7 +178,7 @@ Google 提倡用户测试。Google 在其文档中声明，只要遵循特定准
 
    [!DNL Adobe] 不断寻找可行的解决方案以完全遵循搜索引擎准则。对于那些必须使用单独的 URL 进行测试的客户端，[!DNL Adobe] 确信恰当地实现 canonical 标记可减轻与此方法有关的风险。
 
-* **仅运行试验必要时长**：[!DNL Adobe] 认为“必要时长”就是实现统计显著性所需的时间。 [!DNL Target] 提供最佳实践和 [!DNL Adobe Target] [样本量计算器] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)，以确定您的测试何时达到此程度。[!DNL Adobe] 建议将入选测试的硬编码实现并入测试工作流程并分配适当的资源。
+* **仅运行试验必要时长**：[!DNL Adobe] 认为“必要时长”就是实现统计显著性所需的时间。 [!DNL Target] 提供最佳实践和 [!DNL Adobe Target] [样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) 以确定测试何时达到此时间。 [!DNL Adobe] 建议将入选测试的硬编码实现并入测试工作流程并分配适当的资源。
 
    建议不要将使用 [!DNL Target] 平台“发布”入选测试作为永久解决方案。如果在 100% 的时间内为 100% 的用户发布入选测试，则可在完成为入选测试进行硬编码的同时使用此方法。
 

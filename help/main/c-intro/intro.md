@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;推荐;Target Premium;自动个性化;自动定位;自动定位;权限;adobe target 是什么;
-description: 了解Adobe基础知识 [!DNL Target] 标准和Adobe [!DNL Target] Premium。 [!DNL Target]  Premium 包含标准产品中不提供的高级功能。
+description: 了解Adobe的基础知识 [!DNL Target] 标准和Adobe [!DNL Target] Premium。 [!DNL Target]  Premium 包含标准产品中不提供的高级功能。
 landing-page-description: 个性化客户体验以最大限度地提升网站和移动站点、应用程序、社交媒体和其他数字渠道的收入。
 title: 什么是 Target？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 99%
+source-wordcount: '1017'
+ht-degree: 89%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 99%
 
 ## Target Premium {#premium}
 
+[!BADGE Premium]{type=Positive}
+
 [!DNL Target Premium] 是一款高级 [!DNL Target] 产品，它需要许可证才能将高级功能添加到 [!DNL Target Standard]。
 
-本帮助指南中的全部 [!DNL Target Premium] 文章都在每页顶部加入了 Premium 徽章：
+全部 [!DNL Target Premium] Target指南中的文章包括在每个页面顶部或受影响文本附近的内联的Premium徽章。 Premium徽章可点击，并包含指向此部分的链接。
 
-![Premium 徽章](/help/main/assets/premium.png)
-
-Target 包含以下高级功能：
+[!DNL Target Premium] 包括以下功能：
 
 ### 自动个性化
 
@@ -78,6 +78,14 @@ Target 包含以下高级功能：
 ### 企业用户权限
 
 通过[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)功能，可创建不同的项目（在 [!DNL Adobe Admin Console for Enterprise] 中称为“产品配置文件”）。通过[!UICONTROL 企业用户权限]，可为单个用户分配不同的权限，而这些权限规定该用户对于每个项目的访问权限。这些不同的项目好比 [!DNL Adobe Analytics] 中各个报表包的工作方式。每个项目都可以拥有其特定用户，而这些用户可以具有适用于一组属性的特定角色。结果是客户可限制其用户的查看、编辑、批准和发布访问权限。可根据区域、环境（开发/暂存/生产）、渠道或其他自定义标准限制用户。
+
+## 测试版功能 {#beta}
+
+[!BADGE 测试版]{type=Informative}
+
+此 [!DNL Adobe Target] 团队经常会先为选定的客户开启功能，以便测试和获取反馈，然后再为未来版本中的所有客户启用这些功能。
+
+中的文章 [!DNL Target] 描述Beta版功能的指南包括在每个页面顶部或受影响文本附近的内联的Beta版徽章。 Beta徽章可点击，并包含指向此部分的链接。
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 

@@ -5,10 +5,10 @@ landing-page-description: 个性化客户体验以最大限度地提升网站和
 title: 什么是 Target？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
+source-git-commit: b92b1af7052e1db4d7540c29ce68b13c169da625
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 89%
+source-wordcount: '1026'
+ht-degree: 88%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 89%
 
 [!DNL Target Premium] 是一款高级 [!DNL Target] 产品，它需要许可证才能将高级功能添加到 [!DNL Target Standard]。
 
-全部 [!DNL Target Premium] Target指南中的文章包括在每个页面顶部或受影响文本附近的内联的Premium徽章。 Premium徽章可点击，并包含指向此部分的链接。
+全部 [!DNL Target Premium] 中的文章 [!DNL Target] 指南包括 [!UICONTROL Premium] 徽章位于每个页面的顶部或受影响文本附近的内联。 此 [!UICONTROL Premium] 徽章可点击，并包含指向此部分的链接。
 
-[!DNL Target Premium] 包括以下功能：
+**[!DNL Target Premium]包括以下功能：**
 
 ### 自动个性化
 
@@ -83,7 +83,7 @@ ht-degree: 89%
 
 [!BADGE 测试版]{type=Informative}
 
-此 [!DNL Adobe Target] 团队经常会先为选定的客户开启功能，以便测试和获取反馈，然后再为未来版本中的所有客户启用这些功能。
+此 [!DNL Adobe Target] 团队经常为特定客户启用新功能以进行测试和提供反馈。 在测试期完成后，将来将为所有客户启用这些功能 [!DNL Target Standard/Premium] 版本和发行说明中宣布。
 
 中的文章 [!DNL Target] 描述Beta版功能的指南包括在每个页面顶部或受影响文本附近的内联的Beta版徽章。 Beta徽章可点击，并包含指向此部分的链接。
 

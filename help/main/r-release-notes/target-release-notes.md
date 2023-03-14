@@ -5,9 +5,9 @@ title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强�
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -19,25 +19,25 @@ ht-degree: 55%
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 22.15.1（2023年3月8日和9日）
+## [!DNL Target] Standard/Premium 22.15.1（2023 年 3 月 8 日和 9 日）
 
 将按以下交错的时间表发布此版本：
 
-* **3月8日**：美洲区域
-* **3月9日**：欧洲、中东和非洲(EMEA)区域
-* **3月9日**：亚太(APAC)区域
+* **3 月 8 日**：美洲地区
+* **3 月 9 日**：欧洲、中东和非洲 (EMEA) 地区
+* **3 月 9 日**：亚太 (APAC) 地区
 
 此版本包含以下新增功能和增强功能：
 
 | 功能 | 详细信息 |
 | --- | --- |
-| 优化了A4T指标 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] | [!DNL Target] 允许您在使用时，选择基于二项式事件的量度或基于连续事件的量度 [!UICONTROL A4T] 对象 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动。<P>请注意支持的量度中的以下更改：<ul><li>[!DNL Target] 保留现有活动的先前行为，直到（日期待定）。 在此日期之后，将停止使用不受支持的指标的活动，以强制现有活动迁移到新行为。</li></ul>有关更多信息，请参阅 [支持的目标量度](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) 在 *自动分配和自动定位活动支持A4T*. |
-| [!UICONTROL 自动分配] 使用 [!UICONTROL 目标分析] (A4T) | 新教程：<ul><li>[在中设置A4T报表 [!DNL Analysis Workspace] 对象 [!UICONTROL 自动分配] 活动](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
-| [!UICONTROL 自动定位] 使用 [!UICONTROL 目标分析] (A4T) | 新教程：<ul><li>[在中设置A4T报表 [!DNL Analysis Workspace] 对象 [!UICONTROL 自动定位] 活动](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+| 为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]优化了 A4T 指标 | 通过 [!DNL Target]，可在使用 [!UICONTROL A4T] 进行[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动时，根据二项式事件或连续事件选择指标。<P>请注意，在支持的指标中发生了以下变化：<ul><li>[!DNL Target] 保留现有活动以前的行为直至（待定日期）。在此日期之后，将不再继续执行使用不支持的指标的活动，以强制现有活动采用新行为。</li></ul>有关更多信息，请参阅&#x200B;*自动分配和自动定位活动支持 A4T* 中的[支持的目标指标](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)。 |
+| 使用 [!UICONTROL Analytics for Target (A4T)] 进行的[!UICONTROL 自动分配] | 新的教程：<ul><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动分配]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
+| 使用 [!UICONTROL Analytics for Target (A4T)] 进行的[!UICONTROL 自动定位] | 新的教程：<ul><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动定位]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 
 ## at.js 版本 2.10.2（2023 年 3 月 7 日）
 
-* 修复了导致 `trackEvent` 函数始终返回错误。
+* 修复了导致 `trackEvent` 函数始终返回错误的问题。
 
 有关所有 at.js 版本的信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
 

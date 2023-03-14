@@ -4,14 +4,14 @@ description: 了解如何创建 [!UICONTROL 自动分配] 和 [!UICONTROL 自动
 title: A4T是否支持 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
+source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 2%
+source-wordcount: '1292'
+ht-degree: 5%
 
 ---
 
-# 的A4T支持 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动
+# [!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动支持 A4T
 
 此 [!DNL Adobe Target]-to-[!DNL Adobe Analytics] 集成，称为 [目标分析](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)支持 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动。
 
@@ -62,39 +62,18 @@ ht-degree: 2%
 * [!DNL Adobe Analytics] 转化量度
 * [!DNL Adobe Analytics] 个自定义事件
 
-[!DNL Target] 允许您在使用时，选择基于二项式事件的量度或基于连续事件的量度 [!UICONTROL A4T] 对象 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动。
+[!UICONTROL A4T] 对象 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 要求您选择基于二项式事件的量度。 发生或不发生二项式事件。 二项式事件包括点击、转化、排序等。 这些事件类型有时也称为伯努利事件、二元事件或离散事件。
 
-* **基于二项式事件的量度**：二项式事件不会发生。 二项式事件包括点击、转化、排序等。 这些事件类型有时也称为伯努利事件、二元事件或离散事件。
+[!UICONTROL A4T] 对象 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 不支持连续量度的优化。 连续量度包括收入、订购的产品数量、会话持续时间、会话中的页面查看次数等。 这些不受支持的量度类型有时也称为非二项式或非Bernoulli量度。
 
-* **基于连续事件的量度**. 连续量度包括收入、订购的产品数量、会话持续时间、会话中的页面查看次数等。 这些类型的事件有时也称为非二项式或非伯努利量度。
+不支持将以下指标类型作为主要目标指标：
 
->[!IMPORTANT]
->
->截至 [!DNL Adobe Target Standard/Premium] 22.15.1版（2023年3月8日和9日）， [!DNL Target] 通过现在不受支持的量度（如下表中所列）继续支持现有活动。 但是，在2023年9月9日之后，现有活动将不再支持这些量度，并且所有使用不受支持的量度的活动都将停止，以强制现有活动迁移到新行为。
+* [!DNL Adobe Target] 参与和收入量度
+* [!DNL Adobe Analytics] 参与和收入量度
 
-### 对的影响 [!UICONTROL 自动分配] 活动
+   可以选择 [!DNL Analytics] 将参与或收入量度作为您的主要目标量度，因为 [!DNL Target] 无法识别和排除的所有参与和收入量度 [!DNL Analytics]. 仅从中选择二项式转化量度或自定义事件 [!DNL Analytics].
 
-| Metric name（量度名称） | 不再支持： |
-| --- | --- |
-| [!UICONTROL averagepagedepth] | 转化率，最大化量度值 |
-| [!UICONTROL averagetimespentonsite] | 转化率，最大化量度值 |
-| [!UICONTROL 退回] | 转化率，最大化量度值 |
-| [!UICONTROL bounces] | 转化率，最大化量度值 |
-| [!UICONTROL 条目] | 转化率，最大化量度值 |
-| [!UICONTROL 退出点] | 转化率，最大化量度值 |
-| [!UICONTROL 页面查看次数] | 最大化量度值 |
-| [!UICONTROL 重新载入] | 最大化量度值 |
-| [!UICONTROL 访客数] | 转化率，最大化量度值 |
-| [!UICONTROL 访问次数] | 最大化量度值 |
-
-### 对的影响 [!UICONTROL 自动定位] 活动
-
-| Metric name（量度名称） | 不再支持： |
-| --- | --- |
-| [!UICONTROL 卡特勒莫瓦尔] | 最大化量度值 |
-| [!UICONTROL 页面查看次数] | 最大化量度值 |
-| [!UICONTROL 访客数] | 转化率，最大化量度值 |
-| [!UICONTROL 访问次数] | 最大化量度值 |
+* [!DNL Adobe Analytics] 计算量度
 
 ## 限制和注释
 
@@ -130,13 +109,13 @@ ht-degree: 2%
 
 尽管中提供了丰富的分析功能， [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace]，对默认进行了一些修改 [!UICONTROL 目标分析] 需要面板才能正确解释 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动。 由于试验活动之间的差异(手动A/B和 [!UICONTROL 自动分配])和个性化活动([!UICONTROL 自动定位])。
 
-### 在中设置A4T报表 [!DNL Analysis Workspace] 对象 [!UICONTROL 自动分配] 活动
+### 在 [!DNL Analysis Workspace] 中为[!UICONTROL 自动分配]活动设置 A4T 报表
 
 本教程将指导您完成建议的用于分析的修改 [!UICONTROL 自动分配] 中的活动 [!DNL Analysis Workspace].
 
 有关更多信息，请参阅 [如何在Analysis Workspace中为自动分配活动设置A4T报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} 在 *Adobe TargetTutorials*.
 
-### 在中设置A4T报表 [!DNL Analysis Workspace] 对象 [!UICONTROL 自动定位] 活动
+### 在 [!DNL Analysis Workspace] 中为[!UICONTROL 自动定位]活动设置 A4T 报表
 
 本教程将指导您完成建议的用于分析的修改 [!UICONTROL 自动定位] 中的活动 [!DNL Analysis Workspace].
 

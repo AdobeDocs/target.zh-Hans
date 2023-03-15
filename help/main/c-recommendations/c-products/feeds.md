@@ -2,16 +2,17 @@
 keywords: 推荐信息源；信息源；SAINT;FTP;CSV；分类；Analytics分类
 description: 了解信息源如何将实体导入Adobe [!DNL Target] Recommendations（使用CSV文件）、Google产品搜索信息源格式和Analytics产品分类。
 title: 如何在中使用信息源 [!DNL Target] Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2511'
 ht-degree: 84%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 信息源
+# 信息源
 
 可使用信息源将实体导入到 [!DNL Adobe Target Recommendations] 中。可以使用 CSV 文件、Google Product Search 信息源格式和 Adobe Analytics 产品分类来发送实体。
 
@@ -341,7 +342,7 @@ Analytics 产品分类是唯一可用于推荐的分类。有关此分类文件�
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 了解“推荐”中的信息源 (3:01) ![概述徽章](/help/main/assets/overview.png)
+### 了解“推荐”中的信息源 (3:01) ![“概述”标记](/help/main/assets/overview.png)
 
 本视频包含以下信息：
 

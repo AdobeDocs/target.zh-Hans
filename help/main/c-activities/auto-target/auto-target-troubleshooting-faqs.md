@@ -2,16 +2,17 @@
 keywords: 自动定位;定位;流量分配;常见问题;常见问题;故障排除;故障排除;流量
 description: 探索关于 Adobe Target 中自动定位活动的故障排除主题和常见问题。
 title: 如何为自动定位活动排除故障？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1920'
 ht-degree: 58%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 自动定位常见问题解答和疑难解答
+# 自动定位 常见问题解答和疑难解答
 
 故障诊断和常见问题解答(FAQ)关于 [!UICONTROL 自动定位] 活动 [!DNL Adobe Target].
 

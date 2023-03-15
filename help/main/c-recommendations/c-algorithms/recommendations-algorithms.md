@@ -2,17 +2,18 @@
 keywords: 推荐算法；模型培训；模型提供；内容交付；基于项目；基于用户；基于热门程度；基于购物车；自定义标准
 description: 了解 [!DNL Target Recommendations]，包括模型培训和模型服务。
 title: 我在哪里可以了解TargetRecommendations算法背后的科学？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2839'
 ht-degree: 1%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Target推荐算法背后的科学
+# Target 的推荐算法背后的科学原理
 
 对中使用的算法的深入描述 [!DNL Adobe Target Recommendations]包括模型训练的逻辑和数学细节以及模型服务过程。
 
@@ -64,7 +65,7 @@ ht-degree: 1%
 
 这些步骤的详细信息如下：
 
-* **输入数据**:行为数据，以在您收集的访客的查看次数和购买次数的形式显示 [实施Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank}或 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}。
+* **输入数据**:行为数据，以在您收集的访客的查看次数和购买次数的形式显示 [实施Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **模型培训**:
 
@@ -88,7 +89,7 @@ ht-degree: 1%
 
 这些步骤的详细信息如下：
 
-* **输入数据**:如前所述，此算法完全基于目录数据(摄取到 [!DNL Target] 通过 [目录馈送、实体API或页面上的更新](https://developer.adobe.com/target/implement/recommendations/){target=_blank}。
+* **输入数据**:如前所述，此算法完全基于目录数据(摄取到 [!DNL Target] 通过 [目录馈送、实体API或页面上的更新](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
 * **模型培训**:
 
@@ -126,7 +127,7 @@ ht-degree: 1%
 
 这些步骤的详细信息如下：
 
-* **输入数据**:这与项目 — 项目协作过滤(CF)方法相同。 [!UICONTROL 都建议您] 和基于购物车的算法使用行为数据，以在您 [实施Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank}或 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}。
+* **输入数据**:这与项目 — 项目协作过滤(CF)方法相同。 [!UICONTROL 都建议您] 和基于购物车的算法使用行为数据，以在您 [实施Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **模型培训**:
 

@@ -2,16 +2,17 @@
 keywords: 推荐;备用
 description: 了解如何在Adobe中使用备用推荐 [!DNL Target] Recommendations。 推荐没有足够推荐项目时，将显示备用算法的结果。
 title: 如何在Recommendations中使用备用推荐？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 82%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 使用备用推荐 
+# 使用备用推荐
 
 如果您在Adobe Target中使用备用推荐功能，则任何没有足够推荐项目的推荐将不会显示默认内容。 “推荐”将改为显示备用算法的结果。
 

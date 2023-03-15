@@ -2,17 +2,18 @@
 keywords: 多值实体属性;自定义实体属性;有效 JSON;实体属性值;JSON 数组;多值的;多值
 description: 了解如何使用单值和多值自定义实体属性来定义有关Adobe中项目的其他信息 [!DNL Target] Recommendations目录。
 title: 如何使用自定义实体属性？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 87%
+source-wordcount: '1408'
+ht-degree: 88%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 自定义实体属性
+# 自定义实体属性
 
 在中使用单值和多值自定义实体属性 [!DNL Adobe Target Recommendations] 以定义有关目录中项目的其他信息。
 
@@ -36,7 +37,7 @@ ht-degree: 87%
 
 多值自定义实体属性必须作为有效的 JSON 数组来发送：
 
-`entity.genre=[“genre1”, “genre2”]`
+`entity.genre=["genre1", "genre2"]`
 
 [!DNL Recommendations] 支持的有效 JSON 数组的示例：
 
@@ -126,7 +127,7 @@ function targetPageParams() {
   }
 ```
 
-请参阅 [Adobe Recommendations API文档](https://developer.adobe.com/target/implement/recommendations/){target=_blank}以了解有关使用交付和保存实体API的信息。
+有关使用交付和保存实体 API 的信息，请参阅 [Adobe 推荐 API 文档](https://developer.adobe.com/target/implement/recommendations/){target=_blank}。
 
 ## 将运算符与多值属性结合使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

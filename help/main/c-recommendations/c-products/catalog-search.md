@@ -2,16 +2,17 @@
 keywords: 目录搜索；目录；搜索；排除项；收藏集；筛选器
 description: 了解如何使用Recommendations目录搜索来查找产品或内容、创建收藏集或排除项、从目录中删除项目，等等。
 title: 如何使用Recommendations目录搜索？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 22%
+source-wordcount: '1040'
+ht-degree: 23%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 目录搜索
+# 目录搜索
 
 的 [!UICONTROL 目录搜索] 页面 [!DNL Adobe Recommendations] 可帮助您在目录中查找产品或内容。 在此页面上可以执行的最基本任务是搜索项目。 此外，您还可以更改环境、将搜索结果保存到收藏集或排除项、添加过滤器彩块化、修改表中的列、添加新的搜索彩块化等。
 

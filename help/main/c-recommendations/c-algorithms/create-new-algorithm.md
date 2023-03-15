@@ -2,16 +2,17 @@
 keywords: 标准；算法；垂直行业；页面类型；推荐键；推荐逻辑；逻辑；数据范围；回顾窗口；行为数据源；部分设计；备份推荐；属性权重；当前类别；自定义属性；上次购买的项目；上次查看的项目；最近查看的项目；最近查看的项目；最常查看的项目；收藏类别；受欢迎程度；最近查看的项目；上次购买的；最近查看的；最近查看的；最近查看的；最近查看的
 description: 了解如何创建控制Adobe Recommendations活动内容的标准，以显示最适合您活动的推荐。
 title: 如何在Recommendations中创建标准？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2842'
 ht-degree: 52%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 创建标准
+# 创建标准
 
 中的标准 [!UICONTROL Adobe Target] [!UICONTROL Recommendations] 控制 [!UICONTROL Recommendations] 活动。 可创建标准以显示最适合您的活动的推荐。这些标准使用访客的操作来确定要显示的内容或产品。
 

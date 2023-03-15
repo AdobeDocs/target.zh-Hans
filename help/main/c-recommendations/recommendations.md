@@ -2,16 +2,17 @@
 keywords: 推荐;推荐标准;推荐算法;推荐活动;标准;推荐定向;推荐
 description: 了解 Adobe [!DNL Target] 中的“推荐”活动，这些活动根据以前的用户活动或其他算法自动显示可能让客户感兴趣的内容。
 title: ' [!DNL Target] 推荐是什么？'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 99%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 推荐
+# 推荐
 
 [!DNL Adobe Target Recommendations] 活动根据以前的用户活动、偏好或其他标准，自动显示可能让访客感兴趣的产品、服务或内容。[!DNL Target Recommendations] 有助于引导访客查看在其他情况下他们可能不知道的相关项目。通过 [!DNL Recommendations]，可在正确的时间和正确的地点为访客提供相关的内容。
 

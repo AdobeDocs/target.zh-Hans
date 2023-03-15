@@ -2,16 +2,17 @@
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: 探索在Adobe Target中使用Automated Personalization(AP)活动时可能遇到的潜在挑战，以及建议的解决方案。
 title: 如何对Automated Personalization进行故障诊断？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '724'
 ht-degree: 91%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 自动个性化故障诊断
+# Automated Personalization 疑难解答
 
 有时候，活动没有按预期进行。此处介绍了使用自动个性化时可能会遇到的一些潜在问题，以及一些解决方法建议。
 

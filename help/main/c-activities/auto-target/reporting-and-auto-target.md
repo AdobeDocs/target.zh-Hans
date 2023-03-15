@@ -2,15 +2,16 @@
 keywords: 自动定位；定位；流量分配；常见问题解答；FAQ；故障诊断；报表；自动定位摘要报表；摘要报表；自动化区段；重要属性
 description: 了解如何解释 [!UICONTROL 自动定位] 活动报表 [!DNL Target].
 title: 如何解读 [!UICONTROL 自动定位] 报告？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
-source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 22%
+source-wordcount: '195'
+ht-degree: 24%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 报表和 [!UICONTROL 自动定位]
+# 报表和[!UICONTROL 自动定位]
 
 有关如何解释 [!UICONTROL 自动定位摘要] 报表 [!DNL Adobe Target]，包括 [!UICONTROL 自动化区段] 和 [!UICONTROL 重要属性] 报表。
 

@@ -2,16 +2,17 @@
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;自动化区段;常见问题解答;常见问题解答;重要属性
 description: 了解如何使用专门的Automated Personalization(AP)和自动定位(AT)活动报表 — 自动化区段和重要属性。
 title: 如何使用个性化分析报表？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 57%
+source-wordcount: '908'
+ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 个性化分析报表
+# 个性化见解报表
 
 “[!UICONTROL 自动个性化]”(AP) 和自动定位 (AT) 活动的用户可以使用两个专门的报表：“[!UICONTROL 自动化区段]”和重要属性报表。
 
@@ -47,20 +48,20 @@ ht-degree: 57%
 
 在 AP 或自动定位模型中使用的“[!UICONTROL 个性化分析]”中显示有两种类型的属性：
 
-* **自动收集的属性：**[!DNL Target]Target 使用基础数据集在 AP 和 AT 活动中构建其个性化算法，这些算法将反映在个性化分析中。请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)，以了解数据类型、示例属性及其[!UICONTROL 个性化分析]命名约定。请注意，这些属性虽然会被考虑在内，但单个活动的模型可能不会在最终模型中使用所有这些属性。
-* **传递给 Target 的属性：**&#x200B;请参阅[为 Target 个性化算法上传数据](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
+* **自动收集的属性：**[!DNL Target]Target 使用基础数据集在 AP 和 AT 活动中构建其个性化算法，这些算法将反映在个性化分析中。请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)，以了解数据类型、示例属性及其[!UICONTROL 个性化分析]命名约定。请注意，尽管考虑了这些属性，但单个活动的模型可能不会在最终模型中使用所有这些属性。
+* **传递到Target的属性：** 请参阅 [为Target个性化算法上传数据](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 [!DNL Target] 为您提供了许多方法，用于将其他数据传递给 ，以丰富用于在 AP 和 AT 活动中构建其个性化算法的基础数据集：[!DNL Target]
 
 | 数据类型 | 描述 | 数据类型命名约定 |
 |--- |--- |--- |
 | 配置文件属性，包括配置文件脚本、配置文件更新 API 和页面内配置文件属性 | 您决定要包含在 Target 用户配置文件中的任何信息。<br>这些信息可能来自配置文件脚本、使用配置文件更新 API 上传的信息，或 mbox 内前缀为“profile”的配置文件参数。 | `Custom - Profile - [parameter name]` |
-| 页面参数（也称为“mbox 参数”） | 直接通过页面代码传入的名称/值对，它们未存储在访客的配置文件中供将来使用。 | `Custom - Mbox Parameter - [parameter name]` |
+| 页面参数（也称为“mbox参数”） | 直接通过页面代码传入的名称/值对，它们未存储在访客的配置文件中供将来使用。 | `Custom - Mbox Parameter - [parameter name]` |
 | 客户属性 | 客户属性可让您通过 FTP 将访客配置文件数据上传到 Experience Cloud。上传后，即可在 Adobe Analytics 和 Adobe Target 中利用这些数据。 | `Custom - Customer Attributes - [parameter name]` |
 | 共享受众（Adobe Audience Manager 或 Adobe Analytics） | 通过 Adobe Audience Manager 或 Adobe Analytics 创建并与 Target 共享的受众。 | `Custom - Experience Cloud Segment - [segment name]` |
 | 共享受众(Adobe Experience Platform/Real-time CDP) | 通过Adobe Experience Platform/Real-time CDP创建的受众，并通过目标与Target共享。 | `Custom - Adobe Experience Platform Segment - [segment name]` |
 | 共享属性(Adobe Experience Platform/Real-time CDP) | 通过Adobe Experience Platform/Real-time CDP创建并通过目标与Target共享的属性。 此功能目前处于测试阶段。 | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
-| 活动内报表受众/区段 | 在 AP 或自动定位活动中的“目标和量度”设置期间定义的受众。 | `Custom - Reporting Segment - [segment name]` |
+| 活动内报表受众/区段 | 在“目标和量度”中设置期间，在AP或自动定位活动中定义的受众。 | `Custom - Reporting Segment - [segment name]` |
 
 ## 常见问题解答
 

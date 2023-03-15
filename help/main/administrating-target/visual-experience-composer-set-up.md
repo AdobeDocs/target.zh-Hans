@@ -5,10 +5,10 @@ title: 如何配置可视化体验编辑器(VEC)?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 50%
+source-wordcount: '726'
+ht-degree: 57%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 50%
 
 启用体验快照后，活动工作流程图中会生成体验的缩览图。但对于某些用户而言，禁用体验快照可能会提高性能。
 
-## ![Premium徽章](/help/main/assets/premium.png) 移动设备视区配置
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="查看Target Premium中包含的内容。"}
 
 您可以添加预览体验时要使用的设备。每个设备都有一个关联的受众。
 
@@ -103,6 +103,6 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->的 [!DNL Target] [!UICONTROL 管理] 菜单UI(以前称为 [!UICONTROL 设置])进行了重新设计，以提高性能，缩短发布新功能时所需的维护时间，并改善整个产品的用户体验。 以下视频中的信息通常正确；但是，选项的位置可能略有不同。 更新的视频将很快发布。
+>[!DNL Target][!UICONTROL 管理] 菜单 UI（以前的[!UICONTROL 设置]）经过重新设计，以提供更好的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。以下视频中的信息通常正确，但是，选项可能位于不同的位置。更新后的视频很快就会发布。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

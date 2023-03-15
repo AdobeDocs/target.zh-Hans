@@ -2,17 +2,18 @@
 keywords: 集成;角色;用户权限;Admin Console
 description: 了解如何使用Adobe Target中的所需角色授予现有Adobe I/O集成访问所有工作区的权限。
 title: 如何授予Adobe I/O访问工作区的权限并分配角色？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 84%
+source-wordcount: '620'
+ht-degree: 87%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 授予 Adobe I/O 集成访问工作区的权限并分配角色
+# 授予 Adobe I/O 集成访问工作区的权限并分配角色
 
 [!UICONTROL 企业权限]允许 [!DNL Target] 客户使用单个组织，但会根据其不同的团队或工作流程将其划分为多个工作区。
 
@@ -65,4 +66,4 @@ ht-degree: 84%
    | 审批者 | 可以创建、编辑，以及激活或停止活动。 |
    | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
    | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
-   | 发布者 | 与“观察者”角色类似（可以查看活动，但无法创建或编辑活动）。 但是，发布者角色另有激活活动的权限。 |
+   | 发布者 | 类似于观察者角色（可查看活动，但无法创建或编辑活动）。但是，发布者角色另有激活活动的权限。 |

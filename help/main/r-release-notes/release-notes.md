@@ -28,22 +28,22 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->由于此后已修复的问题，针对以下项的“优化的A4T指标 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位]3月8日和9日发行的功能已暂时删除。 经过进一步的内部测试后，该功能将在未来几周内再次发布。
+>由于以后已修复的问题， [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位]3月8日和9日发布的“ ”功能已暂时删除。 经过进一步的内部测试后，该功能将在未来几周内再次发布。
 
 此版本包含以下修复：
 
-* 更新了自定义Web组件创作 [!UICONTROL 可视化体验编辑器] (VEC)：
+* 更新了自定义Web组件使用 [!UICONTROL 可视化体验编辑器] (VEC):
 
-   * 通过改进创作过程修复了VEC中的影子DOM元素选择，因此不依赖于 [!DNL Target] 创作影子根目录时的实施类型。 现在，在VEC中选择影子DOM元素应该适用于任何网站。
-   * 修复了导致无法在VEC中使用DOM加载HTML元素#Shadow问题。 (TGT-35801)
+   * 通过改进创作过程，修复了VEC中的阴影DOM元素选择问题，从而不依赖于 [!DNL Target] 创作阴影根时的实施类型。 现在，在VEC中选择“阴影DOM”元素适用于任何网站。
+   * 修复了阻止在VEC中使用#Shadow DOM加载HTML元素的问题。 (TGT-35801)
    * 修复了使用ShadowDOM的SPA网站的VEC问题。 (TGT-43169)
-   * 修复了优化目标“单击了某个元素”的问题，该问题未能正确识别ShadowDOM中的CSS选择器。
+   * 修复了优化目标的问题：未在ShadowDOM中正确识别CSS选择器的“已单击元素”。
 
 >[!NOTE]
 >
->要确保交付在VEC中创作的更改，请确保您使用的是 [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js))，版本高于2.8。
+>要确保交付在VEC中创作的更改，请确保您使用 [!DNL Target] SDK([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js))，其版本大于2.8。
 
-**已知问题**：使用时对影子根元素进行点击跟踪 [!DNL Adobe Experience Platform Web SDK] 无法正常工作。 (TNT-47012)
+**已知问题**:使用 [!DNL Adobe Experience Platform Web SDK] 无法正常工作。 (TNT-47012)
 
 ## at.js 版本 2.10.2（2023 年 3 月 7 日）
 

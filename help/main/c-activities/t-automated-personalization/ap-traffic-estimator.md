@@ -2,16 +2,17 @@
 keywords: 流量估算器；自动个性化；AP；估计流量；自动定位
 description: 使用Adobe [!DNL Target] 流量估算器来确定您是否有足够的流量使Automated Personalization活动成功。
 title: 成功活动需要多少流量？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '749'
 ht-degree: 13%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 估算成功所需流量
+# 估算成功所需流量
 
 的 [!DNL Adobe Target] [!UICONTROL 流量估算器] 提供反馈，让您知道自己是否有足够的流量 [!UICONTROL Automated Personalization] 活动成功。
 

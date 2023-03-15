@@ -2,16 +2,17 @@
 keywords: 产品;收藏集
 description: 了解Adobe中的实体 [!DNL Target] Recommendations。 实体是指您想使用 [!DNL Target]，如文章、电影或产品。
 title: 如何使用实体？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: ffe23eea-b914-4c86-ad54-c63c1cc1c0d7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '104'
 ht-degree: 74%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 实体 
+# 实体
 
 实体是指您想推荐的项目。实体可以是任何事物，例如产品、内容（文章、幻灯片、图像、电影和电视节目）、工作列表、餐馆等。
 

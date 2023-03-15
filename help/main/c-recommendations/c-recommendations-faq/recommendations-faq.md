@@ -2,16 +2,17 @@
 keywords: 故障诊断;常见问题解答;FAQ;推荐;特殊字符;属性权重;内容相似度
 description: 查看关于 Adobe [!DNL Target] 推荐活动的常见问题和答案的列表。
 title: 可在何处找到关于 [!DNL Target] 推荐的问答？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '3402'
+source-wordcount: '3399'
 ht-degree: 91%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) “推荐”常见问题解答 
+# 推荐 常见问题解答
 
 关于 [!DNL Adobe Target] [!DNL Recommendations] 活动的常见问题 (FAQ) 的列表。
 
@@ -94,7 +95,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果使用 mbox 中存在类别 ID 的位置，则标准选取器包含所有适用的标准。
 
-[!DNL Target] 具有 [筛选不兼容的标准](https://developer.adobe.com/target/implement/recommendations/){target=_blank}设置，用于控制算法选取器的智能筛选。
+[!DNL Target] 具有[“筛选不兼容的标准”](https://developer.adobe.com/target/implement/recommendations/){target=_blank}设置以控制算法选取器的智能筛选。
 
 >[!NOTE]
 >

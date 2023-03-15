@@ -2,16 +2,17 @@
 keywords: 行为数据源；Analytics；推荐；标准；产品变量
 description: 了解如何使用 [!DNL Adobe Analytics] 作为行为数据源，以使用 [!DNL Analytics] in [!DNL Target Recommendations].
 title: 如何使用 [!DNL Adobe Analytics] with [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 使用 [!DNL Adobe Analytics] with [!DNL Recommendations]
+# 使用 [!DNL Adobe Analytics] with [!DNL Recommendations]
 
 使用 [!DNL Adobe Analytics] 作为行为数据源，允许客户使用 [!DNL Analytics] in [!DNL Adobe Target] [!DNL Recommendations] 活动。 当 [!DNL Target Recommendations] 设置是新的，并且 [!DNL Analytics] 有大量历史数据可供使用。
 

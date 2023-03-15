@@ -2,16 +2,17 @@
 keywords: 推荐;简介;简介;网络研讨会;演示
 description: 了解 Adobe [!DNL Target] 中的“推荐”活动，这些活动根据以前的用户活动或其他算法自动显示可能让客户感兴趣的内容。
 title: “推荐”活动是什么？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '2116'
-ht-degree: 98%
+source-wordcount: '2113'
+ht-degree: 91%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png)“推荐”简介
+# “推荐”简介
 
 本文中的文本来自““推荐”简介”**&#x200B;网络研讨会，您可以在下面查看全文。
 
@@ -25,7 +26,7 @@ ht-degree: 98%
 
 ![显示其他人随新手机一起购买的配件的推荐。](/help/main/c-recommendations/assets/intro-1.png)
 
-但我们并不总是在考虑数字化优先品牌如何提高客户期望。我们使用媒体和内容的方式也越来越多地受到个性化推荐的驱动。请想想您打开 Netflix、Spetify 或 YouTube 时看到的第一个内容。这些品牌就是通过推荐来开始客户体验。在一个比以往任何时候都有更多可供选择内容的世界中，重要的是要在交互时为客户确定最相关的内容。
+但我们并不总是在考虑数字化优先品牌如何提高客户期望。 我们使用媒体和内容的方式也越来越多地受到个性化推荐的驱动。请想想您打开 Netflix、Spetify 或 YouTube 时看到的第一个内容。这些品牌就是通过推荐来开始客户体验。在一个比以往任何时候都有更多可供选择内容的世界中，重要的是要在交互时为客户确定最相关的内容。
 
 ![显示数字优先品牌的推荐](/help/main/c-recommendations/assets/intro-2.png)
 
@@ -52,9 +53,9 @@ ht-degree: 98%
 
 出色的推荐应具有相关性和个性化。这意味着您需要以下三个元素来提高相关性和个性化：
 
-* **营销人员控件**，可帮助驱动所推荐项目的相关性。作为营销人员，您可以为表格提供有价值的上下文信息，而且您知道产品或内容的哪些属性与要考虑的推荐模型相关。如果您正在运营一个视频网站，并且知道用户可能有兴趣观看同一导演拍摄的电影，但可能并不关注由同一工作室制作的电影。[!DNL Target] 可为您提供允许您使用此域知识来增强算法的控件。
+* **营销人员控件**，可帮助驱动所推荐项目的相关性。作为营销人员，您可以为表格提供有价值的上下文信息，而且您知道产品或内容的哪些属性与要考虑的推荐模型相关。如果您运行的是视频网站，您知道用户可能有兴趣观看同一导演拍摄的电影，但可能并不关心由同一工作室制作的电影。 [!DNL Target] 可为您提供允许您使用此域知识来增强算法的控件。
 * **完善的模型**，可帮助了解您目录中的数百万个项目和各种交互活动。[!DNL Target] 拥有经过十多年经验积累的先进的机器学习功能，我们每年都会处理数十亿条推荐。
-* **用户上下文**，可确保推荐及时并且与用户相关。您不希望推荐某个用户刚刚观看过的视频，或者某个用户刚刚添加到购物车的衬衫。这时候，您可以在推荐中使用 Target 中丰富的用户配置文件来确保个性化。
+* **用户上下文**，可确保推荐及时并且与用户相关。您不希望推荐某人刚刚观看的视频或某人刚刚添加到购物车的衬衫。 Target的丰富用户配置文件可用于推荐，以确保个性化。
 
 ## 实现 [!DNL Target] 推荐
 
@@ -102,9 +103,9 @@ ht-degree: 98%
 
 ![显示如何捕获用户行为的插图](/help/main/c-recommendations/assets/intro-9.png)
 
-您需要确保 [!DNL Target] 了解用户正在查看和购买的项目。如果购买与上下文无关，则可能需要跟踪不同类型的转化事件，例如，下载 PDF、完成调查、订阅新闻稿、观看视频等等。
+您需要确保 [!DNL Target] 了解用户正在查看和购买的项目。如果购买与您的上下文无关，您可能希望跟踪不同类型的转化事件，例如，下载PDF、完成调查、订阅新闻通讯、观看视频等。
 
-如果您已经使用 [!DNL Target] 在网站上运行 A/B 测试活动，则可能已经完成了此步骤。或者，如果您已经使用 [!DNL Adobe Analytics] 来报告网站访问情况和转化行为，则可以使用 [!DNL Analytics] 作为行为数据源。如果没有，最简单的方法就是使用标签管理器（例如中的标签）来设置 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}。 也可以通过实时 API 将离线或应用程序内的交互发送到 [!DNL Target]。
+如果您已经使用 [!DNL Target] 在网站上运行 A/B 测试活动，则可能已经完成了此步骤。或者，如果您已经使用 [!DNL Adobe Analytics] 来报告网站访问情况和转化行为，则可以使用 [!DNL Analytics] 作为行为数据源。如果没有，最简单的方法就是使用标签管理器（例如中的标签）来设置 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. 也可以将离线或应用程序内交互发送到 [!DNL Target] 通过实时API。
 
 ### 使用正确的上下文信息获取推荐
 
@@ -128,7 +129,7 @@ ht-degree: 98%
 
 ![显示构成推荐活动各个部分（受众、标准和设计）的插图](/help/main/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] 开箱即用地包括 14 个内置受众、42 个内置标准和 10 个内置设计模板。您可以自定义每个项目或添加自己的项目。我们以前举办过一些[网络研讨会，介绍](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)在 [!DNL Target] 中吸引受众。本节侧重于定义标准，这些标准可定义将推荐哪些项目。
+[!DNL Target] 开箱即用地包括 14 个内置受众、42 个内置标准和 10 个内置设计模板。您可以自定义每个项目或添加自己的项目。我们之前 [关于构建受众的网络研讨会](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 本节侧重于定义标准，这些标准可定义将推荐哪些项目。
 
 Target 使用标准卡片的概念。标准卡片就像个性化的配方。
 

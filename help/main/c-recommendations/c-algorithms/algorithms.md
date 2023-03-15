@@ -2,16 +2,17 @@
 keywords: 推荐；推荐活动；标准；算法；推荐键；自定义键；垂直行业；零售；电子商务；商机拓展；b2b；金融服务；媒体；发布
 description: 了解如何在Adobe中使用标准 [!DNL Target] [!DNL Recommendations].
 title: 如何在 [!DNL Target] Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '710'
 ht-degree: 23%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 标准 
+# 标准
 
 中的标准 [!DNL Adobe Target] [!DNL Recommendations] 是规则，可根据预先确定的一组访客行为来确定要推荐的产品或内容。 标准可基于流行趋势、访客的当前与过去行为，或相似的产品和内容。您可以添加多个标准，以便对多个推荐类型进行相互测试。
 

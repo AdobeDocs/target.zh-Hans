@@ -2,16 +2,17 @@
 keywords: 报表；自动定位；AT；报表
 description: 了解如何解释Adobe Target中的自动定位摘要报表。 您可以从此报表切换到自动化区段和重要属性报表。
 title: 如何使用自动定位摘要报表？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-source-git-commit: 90be7394b4493a99dd07ebcd74dc4945526a0933
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 51%
+source-wordcount: '688'
+ht-degree: 52%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 自动定位摘要报表
+# 自动定位摘要报表
 
 有关如何解释 [!UICONTROL 自动定位摘要] 报表 [!DNL Adobe Target].
 

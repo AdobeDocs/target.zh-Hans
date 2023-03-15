@@ -2,16 +2,17 @@
 keywords: 推荐;选件
 description: 了解如何在 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中使用选件形式的 Adobe Recommendations。
 title: 如何在其他活动类型中使用选件形式的推荐？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 99%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png)“推荐”作为选件
+# Recommendations 作为选件
 
 现在，您可以在 [!UICONTROL A/B 测试]（包括[!UICONTROL 自动分配]和[!UICONTROL 自动定位]）和[!UICONTROL 体验定位] (XT) 活动中包含推荐。
 

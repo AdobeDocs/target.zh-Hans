@@ -2,16 +2,17 @@
 keywords: 自动定位；定位；流量分配；常见问题解答；FAQ；故障诊断；故障排除
 description: 了解 [!UICONTROL 自动定位] 活动 [!DNL Target] 根据客户配置文件和类似访客的行为，向每位访客提供量身定制的体验。
 title: 什么是 [!UICONTROL 自动定位] 活动？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 3e567236b30db453e2cd1bbb7c92c58ae4528ff4
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1965'
 ht-degree: 50%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL 自动定位] 概述
+# [!UICONTROL 自动定位概述]
 
 [!UICONTROL 自动定位] 活动 [!DNL Adobe Target] 使用先进的机器学习技术从营销人员定义的多个高性能体验中进行选择，以个性化内容并促进转化。 [!UICONTROL 自动定位] 根据单个客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验。
 

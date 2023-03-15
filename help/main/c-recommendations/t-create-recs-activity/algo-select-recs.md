@@ -2,16 +2,17 @@
 keywords: 推荐；推荐活动；标准；算法
 description: 了解如何选择要在您的Adobe中使用的标准（确定要推荐的产品或内容的规则） [!DNL Target] Recommendations活动。
 title: 如何为Recommendations活动选择标准？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '403'
 ht-degree: 72%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 选择标准
+# 选择标准
 
 选择 [标准](/help/main/c-recommendations/c-algorithms/algorithms.md) 在 [!DNL Adobe Target Recommendations] 活动。 标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。
 

@@ -2,16 +2,17 @@
 keywords: IP 地址;IP 地址;列入允许列表;允许列表;防火墙;推荐;信息源;服务器;adobe marketing cloud;推荐
 description: 查看在 [!DNL Target] 推荐信息源处理服务器中使用的 IP 地址的列表，以帮助您将防火墙配置为允许来自 Adobe 服务器的 IP 地址。
 title: Recommendations 信息源处理服务器使用什么 IP 地址？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png)“推荐”信息源处理服务器使用的 IP 地址
+# “推荐”信息源处理服务器使用的 IP 地址
 
 [!DNL Adobe Target] [!DNL Recommendations]信息源处理服务器中使用的 IP 地址列表，以帮助您将防火墙配置为允许来自 Adobe 服务器的 IP 地址。
 

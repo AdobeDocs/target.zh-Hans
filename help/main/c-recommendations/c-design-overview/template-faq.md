@@ -2,16 +2,17 @@
 keywords: 推荐;常见问题解答;FAQ
 description: 查看常见问题解答(FAQ)列表及其有关Adobe的解答 [!DNL Target] Recommendations设计。
 title: 在哪里可以回答的设计问题 [!DNL Target] Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 70%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 设计常见问题解答
+# 设计常见问题解答
 
 有关的常见问题解答(FAQ)列表 [!DNL Adobe Target] [!DNL Recommendations] 设计。
 

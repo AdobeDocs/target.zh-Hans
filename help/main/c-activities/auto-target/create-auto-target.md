@@ -2,16 +2,17 @@
 keywords: 创建自动定位；A/B测试；自动定位活动；新建A/B活动；自动定位；自动定位以提供个性化体验；个性化；优化
 description: 了解如何在Adobe中使用可视化体验编辑器(VEC) [!DNL Target] 要直接在 [!DNL Target]-enabled页面。
 title: 如何创建自动定位活动？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '927'
 ht-degree: 49%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 创建自动定位活动
+# 创建自动定位活动
 
 使用 [!UICONTROL 可视化体验编辑器] (VEC) [!DNL Adobe Target] 创建 [!UICONTROL 自动定位] [!UICONTROL A/B测试] 直接在 [!DNL Target] — 启用页面，并在 [!DNL Target].
 

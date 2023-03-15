@@ -2,16 +2,17 @@
 keywords: 随机林；决策树；AP;Automated Personalization
 description: 了解如何Adobe [!DNL Target] 在Automated Personalization(AP)和自动定位活动中均使用随机林算法。
 title: 操作方法 [!DNL Target] 是否使用随机林算法？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1426'
 ht-degree: 94%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 随机林算法
+# 随机林算法
 
 Target 在自动个性化和自动定位中使用的主要个性化算法是随机林算法。相较于从任何组成学习算法获得的性能而言，诸如随机林之类的组合方法可使用多种学习算法获得更好的预测性能。自动个性化中的随机林算法是一种分类或回归分析方法，该方法通过在训练时构建大量的决策树来执行运算。
 

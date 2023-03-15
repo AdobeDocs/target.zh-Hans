@@ -2,16 +2,17 @@
 keywords: 包含规则；包含标准；推荐；促销活动；动态筛选；动态；实体属性匹配
 description: 了解如何在Adobe中动态筛选 [!DNL Target] Recommendations ，方法是将潜在项目池与用户交互的特定项目进行比较。
 title: 如何在Recommendations活动中按实体属性匹配进行过滤？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 实体属性匹配
+# 实体属性匹配
 
 动态筛选 [!DNL Adobe Target] [!DNL Recommendations] 通过将潜在推荐项目池与用户交互的特定项目进行比较。
 

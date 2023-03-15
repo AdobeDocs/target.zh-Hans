@@ -2,16 +2,17 @@
 keywords: Automated Personalization;AP；预览；排除体验；
 description: 了解如何在Automated Personalization(AP)活动中以Adobe预览每个体验 [!DNL Target] 使用可视化体验编辑器(VEC)。
 title: 如何在VEC中预览Automated Personalization体验？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '257'
 ht-degree: 47%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 在可视化体验编辑器中预览自动个性化体验
+# !在可视化体验编辑器中预览自动个性化体验
 
 因为 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)活动会对页面上的多个选件进行比较，因此预览每个体验中的页面将会很有帮助。
 

@@ -2,16 +2,17 @@
 keywords: 体验预览;体验 URL;生成 URL;查看体验 URL
 description: 了解如何使用体验预览URL进行Adobe [!DNL Target] Automated Personalization活动，以便在活动开始之前直接在您的网站上查看体验内容。
 title: 如何在Automated Personalization活动中使用体验预览URL?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 50%
+source-wordcount: '719'
+ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 使用体验预览URL预览Automated Personalization活动
+# 用体验预览 URL 预览 Automated Personalization 活动
 
 可以为生成体验预览URL [!DNL Target] [!UICONTROL Automated Personalization] 活动，以便在活动开始之前直接在您的网站上查看体验内容，以进行预览和QA。 体验预览URL会绕过定位，以强制查看特定体验。
 

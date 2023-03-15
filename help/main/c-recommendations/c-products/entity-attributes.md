@@ -1,17 +1,18 @@
 ---
 keywords: 实体;实体属性;将信息传递到推荐;行为数据;数据计数器;定义相对 URL;显示库存水平;定义价格;定义利润率;自定义属性
 description: 了解如何使用实体属性将产品或内容信息传递到 [!DNL Target] Recommendations。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 title: 如何使用实体属性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 53%
+source-wordcount: '1078'
+ht-degree: 54%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 实体属性
+# 实体属性
 
 可使用实体属性，将产品或内容信息传递到 [!DNL Adobe Target Recommendations].
 
@@ -30,7 +31,7 @@ ht-degree: 53%
 
 >[!NOTE]
 >
->如果您使用的是at.js 2.*x*, `mboxCreate` （如以下示例中所示）不再受支持。 将产品或内容信息传递到 [!DNL Recommendations] 使用at.js 2.*x*，使用 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}。 有关示例，请参阅 [规划和实施Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}。
+>如果您使用的是at.js 2.*x*, `mboxCreate` （如以下示例中所示）不再受支持。 将产品或内容信息传递到 [!DNL Recommendations] 使用at.js 2.*x*，使用 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. For an example, see [Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -113,7 +114,7 @@ mboxCreate('productPage',
 例如，在以下代码中，妇女类别被分为若干子类别：
 
 ```javascript
-mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
+mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
 对于 mbox 提交，会对键值使用最长的属性名称。如果属性名称长度相同，则使用最后一个属性。在以上示例中，类别键为Womens:Outerwear:夹克：卡班。

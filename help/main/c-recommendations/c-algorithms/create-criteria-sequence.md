@@ -2,16 +2,17 @@
 keywords: 标准序列；多个标准；算法；标准；推荐标准；序列；返回的项目数限制；插槽级别控制；插槽
 description: 了解如何设置最多包含五个标准的序列，以更好地控制Adobe中显示的项目 [!DNL Target] Recommendations活动。
 title: 如何在Recommendations中创建标准序列？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '834'
 ht-degree: 34%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 创建标准序列
+# 创建标准序列
 
 可使用最多包含五个标准的序列来加强对“[!UICONTROL 推荐]”活动中显示的项目的控制。您还可以限制返回的项目数量（有时称为“插槽级别控制”）。
 

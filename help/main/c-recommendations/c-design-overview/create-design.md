@@ -2,16 +2,17 @@
 keywords: 推荐设计;创建设计;复制设计
 description: 了解如何创建Adobe [!DNL Target] Recommendations设计（使用默认设计或通过创建自定义设计来最适合页面布局）。
 title: 如何在Recommendations中创建设计？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1026'
 ht-degree: 30%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 创建设计
+# 创建设计
 
 设计可定义推荐在页面上的显示方式。
 

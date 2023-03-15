@@ -2,16 +2,17 @@
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;FAQ;常见问题解答;重要属性
 description: 了解如何使用 [!UICONTROL 重要属性] 此报表显示影响个性化模型的排名最前的属性及其相对重要性。
 title: 什么是重要属性报表？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1723'
 ht-degree: 79%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 重要属性报表
+# 重要属性报表
 
 有关 [!UICONTROL 重要属性] 报告，用户可使用的两个专门报告之一 [!UICONTROL Automated Personalization] （美联社）和 [!UICONTROL 自动定位] (AT)活动。
 

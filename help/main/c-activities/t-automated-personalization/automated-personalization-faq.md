@@ -2,16 +2,17 @@
 keywords: 故障诊断；常见问题解答；FAQ；自动个性化；控制；默认体验；最佳实践
 description: 浏览有关Adobe Target中Automated Personalization(AP)活动的常见问题解答(FAQ)和答案列表。
 title: 如何找到有关Automated Personalization活动的常见问题解答？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 76%
+source-wordcount: '2003'
+ht-degree: 77%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Automated Personalization常见问题解答
+# Automated Personalization 常见问题
 
 有关自动个性化 (AP) 的常见问题解答 (FAQ) 列表。
 
@@ -58,7 +59,7 @@ ht-degree: 76%
 
 [!DNL Target] 具有 30,000 个体验的硬限制，但在创建的体验少于 10,000 个时，它的效果最佳。
 
-即使活动启用了 [!UICONTROL 显示重复项] 选项。
+即使为活动启用了[!UICONTROL 不允许重复项]选项后，也适用同样的限制。
 
 ### 如何实施选件级别的定位？ {#section_9D7A86EA93D74E9B8C81072A681263A4}
 

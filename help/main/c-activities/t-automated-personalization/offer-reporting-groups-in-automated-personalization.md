@@ -2,16 +2,17 @@
 keywords: 自动个性化；选件；报表；组；报表组；AP
 description: 了解如何在Adobe中使用优惠报表组 [!DNL Target] [!UICONTROL Automated Personalization] 活动。
 title: 我能否在Automated Personalization活动中使用选件报表组？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '867'
+ht-degree: 29%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png)[!UICONTROL  自动个性化中的选件报表组]
+# [!UICONTROL Automated Personalization 中的选件报表组]
 
 有关在 [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)活动。
 

@@ -2,11 +2,12 @@
 keywords: 实施
 description: 了解基本概念，熟悉如何 [!DNL Target] 可与您的基础架构配合使用并集成，并了解访客的跟踪方式。
 landing-page-description: 开始使用Adobe Target之前，必须在您的网站上实施它。
+short-description: Before you start using Adobe Target, you must implement it on your site.
 title: 如何实施 [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 7%

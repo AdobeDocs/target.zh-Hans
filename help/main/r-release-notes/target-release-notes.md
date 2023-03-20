@@ -4,9 +4,9 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 04d4cf13e0054a767e9bf08770cdace1e130067f
+source-git-commit: 7b8390042a0e15df6c05d176b2f525ddd83c9608
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '735'
 ht-degree: 49%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 49%
 * 更新了 [!DNL Target] UI指向新 [Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * 增强了安全性，以防止在 [!DNL Recommendations] 信息源。 (TGT-43769)
 * 修复了阻止客户在 [!DNL Recommendations] 图像名称包含时的设计 [GB18030字符](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* 修复了导致 [GB18030字符](https://en.wikipedia.org/wiki/GB_18030){target=_blank} 在 [!UICONTROL 修改] 编辑时显示面板 [!UICONTROL 文本/HTML] 活动 [!UICONTROL 体验] 页面。
+* 修复了导致 [GB18030字符](https://en.wikipedia.org/wiki/GB_18030){target=_blank} 在 [!UICONTROL 修改] 编辑时显示面板 [!UICONTROL 文本/HTML] 活动 [!UICONTROL 体验] 页面。 (TGT-44600)
 * 对整个 [!DNL Target] UI 进行了各种本地化修复。
 
 

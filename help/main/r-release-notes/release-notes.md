@@ -7,9 +7,9 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -29,22 +29,22 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->由于以后已修复的问题， [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位]3月8日和9日发布的“ ”功能已暂时删除。 经过进一步的内部测试后，该功能将在未来几周内再次发布。
+>由于问题已经解决，3月8日和9日发布的“[!UICONTROL 自动分配]和[!UICONTROL 自动目标]的优化 A4T 量度”功能已被暂时删除。经过进一步的内部测试后，该功能将在未来几周内再次发布。
 
 此版本包含以下修复：
 
-* 更新了自定义Web组件使用 [!UICONTROL 可视化体验编辑器] (VEC):
+* 使用 [!UICONTROL Visual Experience Composer] (VEC) 编写自定义 Web 组件的更新：
 
-   * 通过改进创作过程，修复了VEC中的阴影DOM元素选择问题，从而不依赖于 [!DNL Target] 创作阴影根时的实施类型。 现在，在VEC中选择“阴影DOM”元素适用于任何网站。
-   * 修复了阻止在VEC中使用#Shadow DOM加载HTML元素的问题。 (TGT-35801)
-   * 修复了使用ShadowDOM的SPA网站的VEC问题。 (TGT-43169)
-   * 修复了优化目标的问题：未在ShadowDOM中正确识别CSS选择器的“已单击元素”。
+   * 通过改进创作过程修复了 VEC 中的 Shadow DOM 元素选择，因此在创作阴影根目录时不依赖于 [!DNL Target] 实现类型。现在，在 VEC 中选择 Shadow DOM 元素应该适用于任何网站。
+   * 修复了阻止在 VEC 中使用#Shadow DOM 加载 HTML 元素的问题。(TGT-35801)
+   * 修复了使用 ShadowDOM 的 SPA 网站的 VEC 问题。(TGT-43169)
+   * 修复了优化目标的问题：“单击元素”未正确识别 ShadowDOM 中的 CSS 选择器。
 
 >[!NOTE]
 >
->要确保交付在VEC中创作的更改，请确保您使用 [!DNL Target] SDK([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js))，其版本大于2.8。
+>为确保交付在 VEC 中编写的更改，请确保您使用高于 2.8 的 [!DNL Target]SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) 版本 。
 
-**已知问题**:使用 [!DNL Adobe Experience Platform Web SDK] 无法正常工作。 (TNT-47012)
+**已知问题**：使用 [!DNL Adobe Experience Platform Web SDK] 时，阴影根文件元素上的点击跟踪功能无法正常工作。(TNT-47012)
 
 ## at.js 版本 2.10.2（2023 年 3 月 7 日）
 

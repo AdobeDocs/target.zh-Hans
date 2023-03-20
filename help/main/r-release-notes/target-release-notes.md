@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
-workflow-type: ht
-source-wordcount: '446'
-ht-degree: 100%
+source-git-commit: 04d4cf13e0054a767e9bf08770cdace1e130067f
+workflow-type: tm+mt
+source-wordcount: '734'
+ht-degree: 49%
 
 ---
 
@@ -15,42 +15,43 @@ ht-degree: 100%
 
 本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
 
-**上次更新日期：2023 年 3 月 14 日**
+**上次更新日期：2023 年 3 月 20 日**
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 22.15.1（2023 年 3 月 8 日和 9 日）
+## [!DNL Target] Standard/Premium 23.3.1（2023年3月28日至30日）
 
 将按以下交错的时间表发布此版本：
 
-* **3 月 8 日**：美洲地区
-* **3 月 9 日**：欧洲、中东和非洲 (EMEA) 地区
-* **3 月 9 日**：亚太 (APAC) 地区
+* **3 月 28 日**：欧洲、中东和非洲 (EMEA) 地区
+* **3 月 29 日**：亚太 (APAC) 地区
+* **3 月 30 日**：美洲地区
 
->[!NOTE]
->
->由于问题已经解决，3 月 8 日和 9 日发布的“[!UICONTROL 自动分配]和[!UICONTROL 自动目标]的优化 A4T 量度”功能已被暂时删除。经过进一步的内部测试后，该功能将在未来几周内再次发布。
+此版本包含以下新功能、增强和修复：
 
-此版本包含以下修复：
+| 功能 | 详细信息 |
+|--- |--- |
+| 用于无头个性化和实验的AEM内容片段 | 使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段] in [!DNL Target] 活动。 将AEM的易用性和强大功能与 [!DNL Target] 以大规模测试和个性化体验。 |
+| 为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]优化了 A4T 指标 | 通过 [!DNL Target]，可在使用 [!UICONTROL A4T] 进行[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动时，根据二项式事件或连续事件选择指标。<P>请注意，在支持的指标中发生了以下变化：<ul><li>[!DNL Target] 保留现有活动以前的行为直至 2023 年 9 月 9 日。在此日期之后，将不再继续执行使用不支持的指标的活动，以强制现有活动采用新行为。</li></ul> |
+| 使用 [!UICONTROL Analytics for Target (A4T)] 进行的[!UICONTROL 自动分配] | 更新了教程：<ul><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动分配]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
+| 使用 [!UICONTROL Analytics for Target (A4T)] 进行的[!UICONTROL 自动定位] | 更新了教程：<ul><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动定位]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 
-* 使用 [!UICONTROL Visual Experience Composer] (VEC) 编写自定义 Web 组件的更新：
+* 增强了受众和活动同步，以便在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Audience Manager] 在 [!DNL Target] UI更快。 (TGT-44568)
+* 进行了相应更改，以允许用户删除 [!UICONTROL 默认URL] 在 [!UICONTROL 管理] > [!UICONTROL 可视化体验编辑器] > [!UICONTROL 默认URL]. 此更改允许客户将默认URL更改回空字符串，此前在初始配置后无法执行此更改。 (TGT-44577)
+* 删除了阻止客户编辑或删除现成受众（具有保留名称的受众）的限制。 (TGT-44655)
+* 已禁用[!UICONTROL 完成]“ ”选项，此选项在 [!DNL Target] 创建时的UI [合并受众](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
+* 修复了 [!UICONTROL 语言] 链接 [!UICONTROL 受众] 页面，以便它正确链接到“[!UICONTROL 帐户通信首选项]”页面。 (TGT-43562)
+* 解决了有时阻止客户创建 [!UICONTROL A/B测试] 活动 [!UICONTROL Adobe Analytics] 选项 [!UICONTROL 管理] > [!UICONTROL 报表] > [!UICONTROL 报表Experience Cloud解决方案]. (TGT-44844)
+* 修复了阻止客户查看 [!UICONTROL 多变量测试] 活动，其中包含许多体验 [!UICONTROL 可视化体验编辑器] (VEC)。 的 [DOM路径](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 有时，VEC底部的显示屏会阻止客户查看上一个体验。 (TGT-44578)
+* 修复了在VEC中的浏览URL无法反映在需要授权或调用重定向的常规浏览器会话中可见的当前页面的问题。 (TGT-44350)
+* 修复了阻止客户更改 [!UICONTROL 筛选不兼容的标准] 设置 [!UICONTROL Recommendations] > [!UICONTROL 设置]. (TGT-44398)
+* 修复了导致POST请求新建的问题 [!DNL Recommendations] 使用 [!UICONTROL Analytics分类] 报表包的名称中带有圆点。 (TGT-44598)
+* 更新了 [!DNL Target] UI指向新 [Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
+* 增强了安全性，以防止在 [!DNL Recommendations] 信息源。 (TGT-43769)
+* 修复了阻止客户在 [!DNL Recommendations] 图像名称包含时的设计 [GB18030字符](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
+* 修复了导致 [GB18030字符](https://en.wikipedia.org/wiki/GB_18030){target=_blank} 在 [!UICONTROL 修改] 编辑时显示面板 [!UICONTROL 文本/HTML] 活动 [!UICONTROL 体验] 页面。
+* 对整个 [!DNL Target] UI 进行了各种本地化修复。
 
-   * 通过改进创作过程修复了 VEC 中的 Shadow DOM 元素选择，因此在创作阴影根目录时不依赖于 [!DNL Target] 实现类型。现在，在 VEC 中选择 Shadow DOM 元素应该适用于任何网站。
-   * 修复了阻止在 VEC 中使用#Shadow DOM 加载 HTML 元素的问题。(TGT-35801)
-   * 修复了使用 ShadowDOM 的 SPA 网站的 VEC 问题。(TGT-43169)
-   * 修复了优化目标的问题：“单击元素”未正确识别 ShadowDOM 中的 CSS 选择器。
-
->[!NOTE]
->
->为确保交付在 VEC 中编写的更改，请确保您使用高于 2.8 的[!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) 版本 。
-
-**已知问题**：使用 [!DNL Adobe Experience Platform Web SDK] 时，阴影根文件元素上的点击跟踪功能无法正常工作。(TNT-47012)
-
-## at.js 版本 2.10.2（2023 年 3 月 7 日）
-
-* 修复了导致 `trackEvent` 函数始终返回错误的问题。
-
-有关所有 at.js 版本的信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
 
 ## 其他发行说明和版本详细信息
 

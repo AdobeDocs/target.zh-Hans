@@ -49,7 +49,7 @@ ht-degree: 100%
 * 更新了 [!DNL Target] UI 中的链接以指向新的 [Visual Editing Helper 扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。(TGT-44459)
 * 增强安全性以防止 [!DNL Recommendations] 提要中的服务器端请求伪造 (SSRF) 尝试。(TGT-43769)
 * 修复了如果图像名称包含 [GB18030 字符](https://en.wikipedia.org/wiki/GB_18030){target=_blank} 时客户无法查看 [!DNL Recommendations] 设计中的预览图像的问题。(TGT-44614)
-* 修复了在活动的[!UICONTROL 体验]页面上编辑[!UICONTROL 文本/HTML]时，导致[!UICONTROL 修改]面板中的一些 [GB18030字符](https://en.wikipedia.org/wiki/GB_18030){target=_blank}被转义的问题。(TGT-44600)
+* 修复了在活动的[!UICONTROL 体验]页面上编辑[!UICONTROL 文本/HTML] 时，导致在[!UICONTROL 修改]面板中将某些 [GB18030 字符](https://en.wikipedia.org/wiki/GB_18030){target=_blank}转义的问题。(TGT-44600)
 * 对整个 [!DNL Target] UI 进行了各种本地化修复。
 
 

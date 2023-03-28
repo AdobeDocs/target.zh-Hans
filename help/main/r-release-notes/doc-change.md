@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a4c74086ff765d0790ec28dfd28881addd56f785
+source-git-commit: db5740419f8d32ef7a6302f50bbb9b462795ce75
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2197'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,6 @@ ht-degree: 100%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 2 月 23 日 | [将 Target 从 at.js 2.*x* 迁移到 Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} | 添加了新教程。 |
 | 2 月 21 日 | [将 Target 边缘节点列入允许列表](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 更新了 IP 地址的列表以将 [Adobe Target 开发者指南](https://developer.adobe.com/target/){target=_blank}中的所有地区均列入允许列表。 |
 |  | [修改](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | 添加了文字说明，使用 JQuery 的示例假设当 [!DNL Target] 执行优惠时，客户的网站在页面上有 JQuery 可用。 |
 | 2 月 10 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.14.5 版的发行说明。 |

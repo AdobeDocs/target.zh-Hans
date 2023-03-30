@@ -4,10 +4,10 @@ description: 了解如何创建 [!UICONTROL 自动分配] 和 [!UICONTROL 自动
 title: A4T是否支持 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 9b2439f4f7a36150808aa366972beb85808f75cb
+source-git-commit: 1c9728b447ee1402cc133d38845a25da3038d0ca
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 5%
+source-wordcount: '1265'
+ht-degree: 7%
 
 ---
 
@@ -62,18 +62,39 @@ A4T集成允许您：
 * [!DNL Adobe Analytics] 转化量度
 * [!DNL Adobe Analytics] 个自定义事件
 
-[!UICONTROL A4T] 表示 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 要求您选择基于二项式事件的量度。 二项式事件是否发生。 二项式事件包括点击、转换、订购等。 这些类型的事件有时也称为伯努利、二进制或离散事件。
+通过 [!DNL Target]，可在使用 [!UICONTROL A4T] 进行[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动时，根据二项式事件或连续事件选择指标。
 
-[!UICONTROL A4T] 表示 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 不支持对连续量度进行优化。 连续量度包括收入、订购的产品数量、会话持续时间、会话中的页面查看次数，等等。 这些不受支持的量度类型有时也称为非二项式或非伯努利量度。
+* **基于二项式事件的量度**:二项式事件是否发生。 二项式事件包括点击、转换、订购等。 这些类型的事件有时也称为伯努利、二进制或离散事件。
 
-不支持将以下量度类型作为主要目标量度：
+* **基于连续事件的量度**. 连续量度包括收入、订购的产品数量、会话持续时间、会话中的页面查看次数，等等。 这些类型的事件有时也称为非二项式或非伯努利量度。
 
-* [!DNL Adobe Target] 参与度和收入量度
-* [!DNL Adobe Analytics] 参与度和收入量度
+>[!IMPORTANT]
+>
+>截至 [!DNL Adobe Target Standard/Premium] 22.15.1版本（2023年3月8日和9日）， [!DNL Target] 继续支持现有活动的量度，这些量度现在不受支持（下表中列出）。 但是，2023年9月9日之后，现有活动将不再支持这些量度，并且所有使用不受支持量度的活动都将停止，以强制现有活动迁移到新行为。
 
-   可以选择 [!DNL Analytics] 参与或收入量度作为主要目标量度，因为 [!DNL Target] 无法识别和排除 [!DNL Analytics]. 仅从 [!DNL Analytics].
+### 对 [!UICONTROL 自动分配] 活动
 
-* [!DNL Adobe Analytics] 计算量度
+| Metric name（量度名称） | 不再支持： |
+| --- | --- |
+| [!UICONTROL averagepagedepth] | 转化率，最大化量度值 |
+| [!UICONTROL averagetimespentonsite] | 转化率，最大化量度值 |
+| [!UICONTROL 跳出] | 转化率，最大化量度值 |
+| [!UICONTROL bounces] | 转化率，最大化量度值 |
+| [!UICONTROL 条目] | 转化率，最大化量度值 |
+| [!UICONTROL 退出] | 转化率，最大化量度值 |
+| [!UICONTROL pageviews] | 最大化量度值 |
+| [!UICONTROL 重新加载] | 最大化量度值 |
+| [!UICONTROL 访客数] | 转化率，最大化量度值 |
+| [!UICONTROL 访问次数] | 最大化量度值 |
+
+### 对 [!UICONTROL 自动定位] 活动
+
+| Metric name（量度名称） | 不再支持： |
+| --- | --- |
+| [!UICONTROL 卡特雷瓦斯] | 最大化量度值 |
+| [!UICONTROL pageviews] | 最大化量度值 |
+| [!UICONTROL 访客数] | 转化率，最大化量度值 |
+| [!UICONTROL 访问次数] | 最大化量度值 |
 
 ## 限制和说明
 

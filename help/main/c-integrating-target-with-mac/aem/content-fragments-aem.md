@@ -1,19 +1,21 @@
 ---
-keywords: 体验；JSON;AEM;Adobe Experience Manager；导出到Adobe Target；内容片段；片段；CF;CF
+keywords: 体验；JSON;AEM;Adobe Experience Manager；导出到Adobe Target；内容片段；片段；CF;CF；无头；个性化；实验
 description: 了解如何使用 [!DNL Adobe Experience Manager] [!UICONTROL 内容片段] in [!DNL Adobe Target] 活动。
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: a29a52c38e80781697a9925bc1dd88bf9d99ebe1
+source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 2%
+source-wordcount: '760'
+ht-degree: 3%
 
 ---
 
 # AEM [!UICONTROL 内容片段]
 
-使用 [!UICONTROL 内容片段] (CF)在中创建 [!DNL Adobe Experience Manager] (AEM)in [!DNL Target] 活动来帮助优化或个性化。
+使用 [!UICONTROL 内容片段] (CF)在中创建 [!DNL Adobe Experience Manager] (AEM)in [!DNL Target] 帮助进行无头个性化和实验的活动。
+
+用于无头个性化和实验的 AEM 内容片段
 
 >[!NOTE]
 >

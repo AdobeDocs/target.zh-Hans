@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b9dd74e40e1c7a4eeafc749aca585aa538511c70
+source-git-commit: cf82c6cc75dfe42b002cf6d8e17287cb11704870
 workflow-type: tm+mt
-source-wordcount: '35989'
+source-wordcount: '35947'
 ht-degree: 96%
 
 ---
@@ -30,10 +30,6 @@ ht-degree: 96%
 * **3 月 8 日**：美洲地区
 * **3 月 9 日**：欧洲、中东和非洲 (EMEA) 地区
 * **3 月 9 日**：亚太 (APAC) 地区
-
->[!NOTE]
->
->由于问题已经解决，3月8日和9日发布的“[!UICONTROL 自动分配]和[!UICONTROL 自动目标]的优化 A4T 量度”功能已被暂时删除。经过进一步的内部测试后，该功能将在未来几周内再次发布。
 
 此版本包含以下修复：
 

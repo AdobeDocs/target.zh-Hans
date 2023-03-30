@@ -4,10 +4,10 @@ description: 了解 Adobe Target 即将发布的版本中包括的新功能、�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
+source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 94%
+source-wordcount: '239'
+ht-degree: 84%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 | 功能 | 详细信息 |
 |--- |--- |
-| 用于无头个性化和实验的 AEM 内容片段 | 在 [!DNL Target] 活动中使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]。将简单易用的 AEM 与 [!DNL Target] 中强大的人工智能 (AI) 和机器学习 (ML) 功能结合使用，从而测试和个性化大量体验。 |
+| 用于无头个性化和实验的 AEM 内容片段 | 在 [!DNL Target] 活动中使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]。将AEM的易用性和强大功能与 [!DNL Target] 帮助进行无头的个性化和实验。 |
 
 ## 其他发行说明和版本详细信息
 

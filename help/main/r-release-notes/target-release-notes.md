@@ -1,21 +1,25 @@
 ---
 keywords: 发行说明;版本;更新;未来版本;增强;新功能;修复;更新;预发行
-description: 了解 Adobe Target 即将发布的版本中包括的新功能、增强和修复，包括 SDK、API 和 JavaScript 库。
+description: 了解即将发行的 [!DNL Adobe Target]，包括SDK、API和JavaScript库。
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
+source-git-commit: a791fbe805735b278f650ff1f087b85898a66a07
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 84%
+source-wordcount: '243'
+ht-degree: 64%
 
 ---
 
-# Target 发行说明（预发行版本）
+# [!DNL Target]发行说明（预发行版本）
 
-本文包含预发行版本信息。发布日期、功能及其他信息如有更改，恕不另行通知。
+本文包含即将发布的预发行信息 [!DNL Adobe Target] 版本，包括SDK、API和JavaScript库。
 
 **上次更新日期：2023 年 3 月 30 日**
+
+>[!NOTE]
+>
+>发布日期、功能及其他信息如有更改，恕不另行通知。
 
 要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
@@ -25,13 +29,13 @@ ht-degree: 84%
 
 | 功能 | 详细信息 |
 |--- |--- |
-| 用于无头个性化和实验的 AEM 内容片段 | 在 [!DNL Target] 活动中使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]。将AEM的易用性和强大功能与 [!DNL Target] 帮助进行无头的个性化和实验。 |
+| AEM [!UICONTROL 内容片段] 用于无头个性化和实验 | 在 [!DNL Target] 活动中使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]。将AEM的易用性和强大功能与 [!DNL Target] 帮助进行无头的个性化和实验。 |
 
 ## 其他发行说明和版本详细信息
 
 | 资源 | 详细信息 |
 |--- |--- |
-| [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
+| [发行说明： [!UICONTROL Adobe Target Platform Experience Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
 | [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 

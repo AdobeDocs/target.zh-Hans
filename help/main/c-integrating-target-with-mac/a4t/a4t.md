@@ -4,10 +4,10 @@ description: 使用 [!DNL Analytics] for [!DNL Target] (A4T) 根据 [!DNL Analyt
 title: ' [!DNL Analytics] for [!DNL Target] (A4T) 是什么?'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: ht
-source-wordcount: '1140'
-ht-degree: 100%
+source-git-commit: 3493ea35ee161d4a643dc45feab01347f9d14ef1
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 |--- |--- |--- |
 | [使用手动流量拆分的 A/B 活动](/help/main/c-activities/t-test-ab/test-ab.md) | 是 |  |
 | [使用自动分配的 A/B 活动](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 | 请参阅[自动分配和自动定位活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [使用自动定位的 A/B 活动](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 是 | 请参阅[自动分配和自动定位活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
+| [使用自动定位的 A/B 活动](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 否 |  |
 | [体验定位 (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 是 |  |
 | [多变量测试 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 需要基于 mbox 的目标指标以获取[!UICONTROL 元素贡献]报表。[!UICONTROL 元素贡献]报表当前不支持 [!DNL Analytics] 指标。 |
 | [Automated Personalization (AP) 活动](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |  |

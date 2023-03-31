@@ -5,9 +5,9 @@ title: 如何使推荐基于推荐键？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
+source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
 workflow-type: tm+mt
-source-wordcount: '3942'
+source-wordcount: '3999'
 ht-degree: 37%
 
 ---
@@ -164,7 +164,11 @@ Recommendations基于算法使用访客行为上下文显示相关结果 [!DNL A
 
 ### 按物料属性列出的最畅销商品
 
-（即将提供信息）
+推荐与网站上购买次数最多的项目或媒体类似的项目或媒体。
+
+此算法允许您选择要基于推荐的项目属性，例如“名称”或“品牌”。
+
+然后，您可以选择要匹配的访客配置文件中存储的配置文件属性，例如“最喜爱的品牌”、“添加到购物车的最后项目”或“查看次数最多的节目”。
 
 ### 按Analytics量度排名最前
 

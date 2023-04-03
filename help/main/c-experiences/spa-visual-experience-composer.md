@@ -1,13 +1,13 @@
 ---
 keywords: SPA VEC;React;Angular;react.js;SPA 可视化体验编辑器;SPA 体验编辑器选项;单页应用程序;single-page-app;SPA;移动设备体验选项;Target 视图
-description: 了解如何在Adobe中使用SPA VEC [!DNL Target] 在SPA上以DIY（自己动手）方式创建测试并个性化内容，而无需持续依赖开发。
-title: 如何使用单页应用程序可视化体验编辑器(SPA VEC)？
+description: 了解如何在Adobe中使用SPA VEC [!DNL Target] 以DIY（自己动手）方式创建测试并对SPA上的内容进行个性化，而无需持续依赖开发。
+title: 如何使用单页应用程序可视化体验编辑器(SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: f7a9c08567669160684bff8ae5098d57c6237463
 workflow-type: tm+mt
-source-wordcount: '3720'
-ht-degree: 90%
+source-wordcount: '3748'
+ht-degree: 87%
 
 ---
 
@@ -25,17 +25,17 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 为进一步说明“视图”的概念，让我们浏览一下这个在 React 中实施的假定的在线电子商务网站，并探索一些“视图”示例。单击下面的链接可在新浏览器选项卡中打开此站点。
 
-**链接： [Home站点](https://target.enablementadobe.com/react/demo/#/)**
+**链接： [主页网站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
 ![home 站点](/help/main/c-experiences/assets/home.png)
 
 导航到主页时，我们可以立即看到展示复活节促销活动的主页图像，以及网站上销售的最新产品。在这种情况下，可以将“视图”定义为整个 home 站点。这种方式很容易记忆，我们将在下面的“实施 Adobe Target 视图”章节中对此进行详细介绍。
 
-**链接： [产品站点](https://target.enablementadobe.com/react/demo/#/products)**
+**链接： [产品网站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
 ![产品站点](/help/main/c-experiences/assets/product-site.png)
 
-随着我们对产品的兴趣增加，我们决定单击“Products”（产品）链接。与主页网站类似，可将整个产品站点定义为一个“视图”。我们可以将此视图命名为“products”（产品），就像 `https://target.enablementadobe.com/react/demo/#/products` 中的路径名称一样。
+随着我们对产品的兴趣增加，我们决定单击“Products”（产品）链接。与主页网站类似，可将整个产品站点定义为一个“视图”。我们可以将此视图命名为“products”（产品），就像 `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products` 中的路径名称一样。
 
 ![产品网站 2](/help/main/c-experiences/assets/product-site-2.png)
 
@@ -45,7 +45,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 我们决定单击“Load More”（了解更多）按钮，以浏览站点上的更多产品。在这种情况下，网站 URL 不会发生更改。但是，这里的视图只能呈现上面显示的第二行产品。此视图名称可称为“PRODUCTS-PAGE-2”。
 
-**链接： [结账](https://target.enablementadobe.com/react/demo/#/checkout)**
+**链接： [结帐](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
 ![结帐页面](/help/main/c-experiences/assets/checkout.png)
 
@@ -55,7 +55,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
 现在，营销人员可能想要运行 A/B 测试，以查看与将两个交付选项的按钮颜色保持为蓝色相比，在选择“Express Delivery”（快递）后将按钮颜色从蓝色更改为红色是否可以提高转化率。
 
-## 实施Adobe [!DNL Target] 查看次数
+## 实施Adobe [!DNL Target] 视图
 
 既然我们介绍了 Adobe Target 视图的内容，我们可以在 Target 中利用这一概念，使营销人员能够通过 VEC 在 SPA 上运行 A/B 和 XT 测试。这将需要一次性开发人员设置。下面我们将完成这些步骤以进行此设置。
 
@@ -65,7 +65,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    ![“实施详细信息”对话框](/help/main/c-experiences/assets/imp-200.png)
 
-   通过位于的Adobe Target UI下载at.js 2.x [!UICONTROL 管理>实施]. at.js 2.x也可以通过中的标记部署 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. 但是，Adobe Target扩展当前不是最新的，不受支持。
+   通过位于的Adobe Target UI下载at.js 2.x [!UICONTROL 管理>实施]. at.js 2.x也可以通过 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. 但是，Adobe Target扩展当前不是最新的，不受支持。
 
 1. 在您的网站上实施 at.js 2.x 的最新函数：[triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)。{target=_blank}
 
@@ -81,7 +81,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
 
    现在，我们来查看一些关于如何在 React 中为假定的电子商务 SPA 调用 `triggerView()` 函数的示例用例：
 
-   **链接： [Home站点](https://target.enablementadobe.com/react/demo/#/)**
+   **链接： [主页网站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
    ![home-react-1](/help/main/c-experiences/assets/react1.png)
 
@@ -112,7 +112,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **链接： [产品站点](https://target.enablementadobe.com/react/demo/#/products)**
+   **链接： [产品网站](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
    现在，我们来看一个比较复杂的示例。假设我们是营销人员，想要在用户单击“Load More”（加载更多）按钮后将价格标签颜色更改为红色，以对第二行的产品进行个性化。
 
@@ -141,7 +141,7 @@ Adobe Target 中 SPA VEC 利用了称作“视图”的新概念，即视觉元�
    }
    ```
 
-   **链接： [结账](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **链接： [结帐](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
 
    ![react checkout](/help/main/c-experiences/assets/react6.png)
 
@@ -389,10 +389,10 @@ adobe.target.getOffers({
 
 进行了以下更改：
 
-* 更改了“主页”视图中的背景颜色，该视图位于以下 URL 下：[/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/。
-* 更改了“产品”视图中的按钮颜色，该视图位于URL下： [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* 更改了“主页”视图中背景颜色，该视图位于URL下： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* 更改了“产品”视图中位于URL下方的按钮颜色： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 
-根据上面的示例，当我们配置 [!UICONTROL 页面交付] 设置仅包括： [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) SPA使用at.js 2.*x* 的 SPA 中），会出现什么情况？
+根据上面的示例，当我们配置 [!UICONTROL 页面交付] 设置仅包括： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) 的SPA中。*x* 的 SPA 中），会出现什么情况？
 
 ![“页面交付”对话框](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -402,22 +402,22 @@ adobe.target.getOffers({
 
 **用户历程 1**
 
-* 用户直接导航到 [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x* 向Edge发出查询，以了解是否需要为该URL执行任何活动： [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* 用户直接导航到 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* at.js 2.*x* 向Edge发出查询，以查看是否需要为URL执行任何活动： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
 * 在步骤 6 中，Target Edge 会返回“主页”和“产品”视图的操作，以便在浏览器中缓存它们。
 
-**结果**：用户看到“主页”视图中的背景颜色显示为绿色。当用户随后导航到 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products 时，会看到按钮的背景颜色显示为蓝色，因为该操作已缓存在浏览器中的“产品”视图下。
+**结果**：用户看到“主页”视图中的背景颜色显示为绿色。用户随后导航到 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)，则会看到按钮的背景颜色显示为蓝色，因为该操作已缓存在浏览器中的“产品”视图下。
 
-注意：用户导航到 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) 未触发页面加载。
+注意：用户导航到 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) 未触发页面加载。
 
 **用户历程 2**
 
-* 用户直接导航到 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x* 向Edge发出查询，以了解是否需要为该URL执行任何活动： [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* 没有符合条件的活动 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* 用户直接导航到 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* at.js 2.*x* 向Edge发出查询，以查看是否需要为URL执行任何活动： [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* 没有符合条件的活动 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 * 由于没有符合条件的活动，因此不存在要缓存以供 at.js 2.*x* 从中触发的操作和视图。
 
-**结果**：即使您已经为“产品”视图定义了 `triggerView()` 并通过 SPA VEC 对“产品”视图执行了操作，您也不会看到预期的操作，因为您未在“页面交付”设置中创建包含 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products 的规则。
+**结果**:即使您已定义 `triggerView()` 对于“产品”视图，并通过SPA VEC对“产品”视图执行了操作，您将看不到预期的操作，因为您没有创建包含的规则 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) 中。
 
 ### 最佳实践
 
@@ -439,4 +439,4 @@ adobe.target.getOffers({
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-参见 [在Adobe Target中使用单页应用程序的可视化体验编辑器(SPA VEC)](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) 了解更多信息。
+请参阅 [在Adobe Target中使用单页应用程序的可视化体验编辑器(SPA VEC)](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) 以了解更多信息。

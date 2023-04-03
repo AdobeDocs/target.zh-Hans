@@ -4,7 +4,7 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
+source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 97%
@@ -24,7 +24,7 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 ## [!UICONTROL Adobe Target 社区问答喝咖啡休息时间]
 
 * **2023 年 4 月 12 日，星期三**
-* **8:00至9:00 a.m.（太平洋夏令时，GMT -7）
+* **上午8时至9时（太平洋夏令时，GMT -7）**
 * **[注册信息](https://adobe.ly/42gQGfv){target=_blank}**
 
 与Matthew Bailie和Georgia Frailey一起，这两家公司都是 [!DNL Adobe Target]，他们会直接与您聊聊您的 [!DNL Adobe Target] 与 [!DNL Target] AI功能，特别是 [!UICONTROL Automated Personalization] 和 [!UICONTROL 自动定位].

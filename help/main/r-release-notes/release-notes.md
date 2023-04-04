@@ -45,7 +45,7 @@ ht-degree: 87%
 * 修复了导致POST请求创建 [!DNL Recommendations] 使用 [!UICONTROL Analytics分类] 报表包的名称中带有圆点。 (TGT-44598)
 * 更新了 [!DNL Target] UI 中的链接以指向新的 [Visual Editing Helper 扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。(TGT-44459)
 * 增强安全性以防止 [!DNL Recommendations] 提要中的服务器端请求伪造 (SSRF) 尝试。(TGT-43769)
-* 对整个 [!DNL Target] UI 进行了各种本地化修复。
+* 在整个 [!DNL Target] UI 中作出了多项本地化修复。
 
 ## at.js 版本 2.10.2（2023 年 3 月 7 日）
 

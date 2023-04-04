@@ -139,7 +139,7 @@ ht-degree: 95%
 | --- | --- | --- |
 | 4 月 26 日 | [Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下活动的信息：<ul><li>网络研讨会：Adobe Target 实时个性化（2022 年 4 月 28 日）</li><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间（2022 年 5 月 25 日）</li></ul> |
 |  | [重定向选件 — A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | 添加了以下常见问题解答：<ul><li>在 A4T 活动中使用重定向选件时，如何最大限度地减少流量分布的差异？</li></ul> |
-|  | [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 添加了以下部分：<ul><li>从导出到目标的体验片段中移除 ClientLib 和无关 HTML</li></ul> |
+|  | [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 添加了以下部分：<ul><li>从导出到 Target 的体验片段中删除 ClientLib 和无关的 HTML</li></ul> |
 | 4 月 21 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target] 平台计划于 2022 年 4 月 17 日发行的预发行信息。 |
 | 4 月 20 日 | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target Standard/Premium] 22.4.1 版的预发行信息。 |
 | 4 月 14 日 | [可视体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 向“重新排列”部分添加了解释如何使用[!UICONTROL 移动]和[!UICONTROL 重新排列]操作处理因延迟加载 DOM 元素而产生 VEC 行为不一致的信息。 |

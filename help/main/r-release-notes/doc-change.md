@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
+source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 95%
+source-wordcount: '2336'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 4 月 5 日 | [使用选件决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 添加了用于指示 [!UICONTROL 将Analytics作为报表源] (A4t)在使用选件决策的活动中不受支持。 |
 | 4 月 3 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了有关 [!UICONTROL Adobe Target社区] 定于2023年4月12日星期三休息。 |
 |  | [将 Target 边缘节点列入允许列表](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 添加了注释以允许列表全部 [!DNL Adobe Analytics] IP地址块。 |
 | 3 月 30 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 更新了适用于 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 功能，让您能够在使用 [!UICONTROL A4T] 表示 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动。 |

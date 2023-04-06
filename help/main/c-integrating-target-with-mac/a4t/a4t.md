@@ -5,9 +5,9 @@ title: ' [!DNL Analytics] for [!DNL Target] (A4T) 是什么?'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: 3493ea35ee161d4a643dc45feab01347f9d14ef1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1131'
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 * 了解要在 Analytics 中使用的理想报表
 * 关于 A4T 的常见问题解答
 
-[Analytics/Target 集成 (A4T) 办公时间](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Analytics/Target 集成 (A4T) 办公时间](https://helpx.adobe.com/cn/customer-care-office-hours/target/analytics-target-A4T-integration.html)
 
 >[!MORELIKETHIS]
 >

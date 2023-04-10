@@ -4,18 +4,16 @@ description: 了解如何在 [!DNL Adobe Target] 活动中使用 [!DNL Adobe Exp
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]？
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 27dfb1c2d3f25cec1e74994a6af832c08e107ae1
+source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 100%
+source-wordcount: '744'
+ht-degree: 97%
 
 ---
 
 # AEM [!UICONTROL 内容片段]
 
 在 [!DNL Target] 活动中使用在 [!DNL Adobe Experience Manager] (AEM) 中创建的[!UICONTROL 内容片段] (CF) 帮助进行 Headless 个性化或试验。
-
-用于 Headless 个性化和试验的 AEM 内容片段
 
 >[!NOTE]
 >
@@ -25,18 +23,18 @@ ht-degree: 100%
 >
 >在 [!DNL Target] 中使用 AEM [!UICONTROL 内容片段]时，请考虑以下内容：
 > 
->* 此功能要求您是 [!DNL Adobe Experience Manager] (AEM) 客户。有关更多信息，请参阅下面的[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
+>* 此功能要求您是 [!DNL Adobe Experience Manager as a Cloud Service] 客户。 有关更多信息，请参阅下面的[要求](#section_AE6F0971E1574B3AA324003599B96E5A)。
 >
 >* 以下活动类型有此功能可用：[!UICONTROL A/B 测试]、[!UICONTROL 自动分配]、[!UICONTROL 自动定位]、[!UICONTROL 自动个性化] (AP) 和[!UICONTROL 体验定位] (XT)。在[!UICONTROL 多变量测试] (MVT) 和[!UICONTROL 推荐] 活动中无此功能可用。
 >
->* 您只能通过[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)在 [!DNL Target] 活动中使用[!UICONTROL 内容片段]。您无法通过[!UICONTROL 视觉体验编辑器] (VEC) 使用[!UICONTROL 内容片段]。
+>* 您只能通过[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)在 [!DNL Target] 活动中使用[!UICONTROL 内容片段]。
 
 
 要详细了解 AEM [!UICONTROL 内容片段]和[!UICONTROL 体验片段]，请参阅 [AEM [!UICONTROL 体验片段]和[!UICONTROL 内容片段]概述](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)。
 
 ## 要求 {#requirements}
 
-必须在 [!DNL Target] 中为您配置[!UICONTROL 内容片段]功能。此外，还必须使用 [!DNL AEM] as a Cloud Service。您的客户代表可帮助确保您满足使用此功能的要求：
+必须在 [!DNL Target] 中为您配置[!UICONTROL 内容片段]功能。此外，您必须使用 [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. 您的客户代表可帮助确保您满足使用此功能的要求：
 
 请联系 [Adobe Target 客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以启用集成并为您提供身份验证详细信息。
 

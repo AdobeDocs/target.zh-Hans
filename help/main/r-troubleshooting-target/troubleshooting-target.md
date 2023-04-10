@@ -1,13 +1,13 @@
 ---
-keywords: 诊断 Target 故障;Target 故障诊断
+keywords: Target故障诊断；Target故障诊断；解决问题
 description: 查看可帮助您解决 Adobe Target 中各种问题的主题的列表，包括故障排除主题、常见问题 (FAQ) 和其他有用的主题。
 title: 如何为 Target 排除故障？
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +69,6 @@ ht-degree: 88%
    * [提升度和置信度 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
    * [量度定义 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
    * [共享量度、区段和报表 - A4T 常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
-   * [夸大的访问和访客计数 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
    * [分类 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
    * [旧版 SiteCatalyst 与 Test&amp;Target 集成 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 

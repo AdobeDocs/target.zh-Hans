@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1222'
 ht-degree: 96%
 
 ---
@@ -85,7 +85,6 @@ ht-degree: 96%
          + [重定向选件 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
          + [提升度和置信度 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
          + [量度定义 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
-         + [夸大的访问和访客计数 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [分类 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
          + [共享量度、受众和报表 - A4T 常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [旧版 SiteCatalyst 与 Test&amp;Target 集成 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)

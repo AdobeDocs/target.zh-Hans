@@ -4,9 +4,9 @@ description: 查看可帮助您解决 Adobe Target 中各种问题的主题的�
 title: 如何为 Target 排除故障？
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '503'
 ht-degree: 88%
 
 ---
@@ -62,7 +62,6 @@ ht-degree: 88%
 * [Analytics 与 Target 集成故障诊断](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * “办公时间”视频，“办公时间”是 Adobe 客户关怀团队发起的一项计划。请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。
 * A4T 常见问题解答
-   * [在 A4T 中最大限度地减少夸大的访问和访客计数](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [初始配置 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
    * [活动设置 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
    * [查看报表 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)

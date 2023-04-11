@@ -3,10 +3,10 @@ keywords: aem；experience manager；adobe experience manager；集成；集成�
 description: 了解如何在  [!DNL Adobe Target]  活动中使用 [!DNL Adobe Experience Manager] 体验和内容片段。
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 体验片段]和[!UICONTROL 内容片段]？
 feature: Integrations
-source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
+source-git-commit: 02ecd1fea95937ab53e6787ca8b56cb62bca38fd
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 84%
+source-wordcount: '383'
+ht-degree: 76%
 
 ---
 
@@ -26,9 +26,21 @@ ht-degree: 84%
 
 在 [!DNL Target] 中使用 AEM [!UICONTROL 体验片段]和[!UICONTROL 内容片段]时，请考虑以下内容：
 * 这些功能要求您是 [!DNL Adobe Experience Manager] (AEM) 客户。确保您满足[体验片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements)或[内容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements)每种片段类型的要求。
-* 以下活动类型有这些功能可用：[!UICONTROL A/B 测试]、[!UICONTROL 自动分配]、[!UICONTROL 自动定位]、[!UICONTROL 自动个性化] (AP) 和[!UICONTROL 体验定位] (XT)。此功能不适用于 [!UICONTROL 多变量测试] (MVT)和 [!UICONTROL Recommendations] 活动。
-* 可通过[可视化体验编辑器 (VEC) ](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)或[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)在 [!DNL Target] 活动中使用[!UICONTROL 体验片段]。
-* 您只能在[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)中使用[!UICONTROL 内容片段]。
+* [!UICONTROL 体验片段] 和 [!UICONTROL 内容片段] 可用于以下活动类型：
+
+   * [[!UICONTROL A/B 测试]](/help/main/c-activities/t-test-ab/test-ab.md)
+   * [[!UICONTROL 自动分配]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+   * [[!UICONTROL 自动定位]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * [[!UICONTROL Automated Personalization] （美联社）](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL Experience Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+
+* [!UICONTROL 体验片段] 和 [!UICONTROL 内容片段] 不可用于以下活动类型：
+
+   * [[!UICONTROL 多变量测试] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
+
+* 您可以使用 [!UICONTROL 体验片段] in [!DNL Target] 活动 [可视化体验编辑器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和 [基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md).
+* 您只能通过[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)在 [!DNL Target] 活动中使用[!UICONTROL 内容片段]。
 
 ## [!UICONTROL 体验片段]与[!UICONTROL 内容片段]之间有什么区别？
 

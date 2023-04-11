@@ -6,8 +6,8 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

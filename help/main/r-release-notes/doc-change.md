@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
 source-wordcount: '2336'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 4 月 5 日 | [使用选件决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 添加了用于指示 [!UICONTROL 将Analytics作为报表源] (A4t)在使用选件决策的活动中不受支持。 |
+| 4 月 5 日 | [使用选件决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 添加了一段文字，表示在使用选件决策的活动中不支持[!UICONTROL 将 Analytics 作为报告来源] (A4t)。 |
 | 4 月 3 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于安排在 2023 年 4 月 12 日，星期三的 [!UICONTROL Adobe Target 社区]问答喝咖啡休息时间的信息。 |
 |  | [将 Target 边缘节点列入允许列表](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 添加了注释以将所有 [!DNL Adobe Analytics] IP 地址块列入允许列表。 |
 | 3 月 30 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 更新了[!UICONTROL 自动分配]和[!UICONTROL 自动定位]功能的优化 A4T 量度的版本的发行说明，可让您在使用 [!UICONTROL A4T] 进行[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动时，根据二项式事件或连续事件选择量度。 |

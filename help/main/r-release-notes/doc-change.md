@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 72c2a09f120e97a031e564cc5422bdd35cdf8f9c
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 98%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 4 月 12 日 | [重要属性报表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 添加了以下常见问题解答：<ul><li>我看到一个或多个不希望模型用于培训的属性。 我是否可以从培训模型中删除这些属性？</li></ul> |
+| 4 月 12 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了用于注册以下网络研讨会的链接：<ul><li>每次提供个性化的客户体验！</li></ul> |
+|  | [重要属性报表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 添加了以下常见问题解答：<ul><li>我看到一个或多个不希望模型用于培训的属性。 我是否可以从培训模型中删除这些属性？</li></ul> |
 |  | [企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 添加了以下常见问题解答：<ul><li>如果用户具有多个角色和权限，会发生什么情况？</li></ul> |
 |  | [AEM 内容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 新主题。请注意，出于测试目的，此功能处于“预发行”状态。 |
 | 4 月 5 日 | [使用选件决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 添加了一段文字，表示在使用选件决策的活动中不支持[!UICONTROL 将 Analytics 作为报告来源] (A4t)。 |

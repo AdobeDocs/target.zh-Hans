@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
-workflow-type: ht
-source-wordcount: '1890'
-ht-degree: 100%
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,28 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 注册参加以下网络研讨会，了解客户如何使用 [!DNL Target] 来实现其个性化和优化目标：
 
-目前没有任何安排。
+### 每次提供个性化的客户体验！
+
+* **2023年4月27日星期四**
+* **上午9时至10时（英国夏令时，格林威治标准时间+1），晚上10:00至11:00(CEST， GMT +2)**
+* **[注册信息](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
+
+通过 [!DNL Adobe Target]强大的测试和个性化功能。 通过在Web、移动和数字设备中提供动态的情境式体验，确保您无处不在。
+
++++详细信息
+
+网络研讨会将涵盖：
+
+* 为什么个性化是任何策略的关键部分
+* 识别和使用不同的活动类型
+* 焦点 — 行业用例
+* Recommendations推动个性化
+* 演示 [!DNL Target] 用户界面，突出显示
+   * 受众创建
+   * 设置 [!UICONTROL 体验定位] (XT)活动
+   * 设置 [!UICONTROL 自动定位] 和 [!UICONTROL 自动个性化] 活动
+
++++
 
 ## 过去的网络研讨会和技能培训课程录像
 

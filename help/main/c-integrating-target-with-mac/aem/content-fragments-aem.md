@@ -2,12 +2,13 @@
 keywords: 体验;json;AEM;Adobe Experience Manager;导出到 Adobe Target;内容片段;片段;CF;cf;Headless;个性化;试验
 description: 了解如何在 [!DNL Adobe Target] 活动中使用 [!DNL Adobe Experience Manager] [!UICONTROL 内容片段]。
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]？
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
+badgePrerelease: label="Prerelease"
 feature: Integrations
-source-git-commit: 47e1c7290011c21fd0710280d35c862a81b4f558
+exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
+source-git-commit: 1cc328732bed41303ab0b1c6857dcbc812940022
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 88%
+source-wordcount: '779'
+ht-degree: 87%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->此功能将于2023年4月12日发布。
+>此功能将于2023年4月12日作为预发行功能提供，并将于2023年4月26日正式发布（正式发布）。
 
 ## 注意事项
 

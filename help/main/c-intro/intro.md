@@ -1,15 +1,15 @@
 ---
 keywords: Target Standard;推荐;Target Premium;自动个性化;自动定位;自动定位;权限;adobe target 是什么;
 description: 了解Adobe基础知识 [!DNL Target] 标准和Adobe [!DNL Target] Premium。 [!DNL Target]  Premium 包含标准产品中不提供的高级功能。
-landing-page-description: 个性化客户体验以最大限度地提升网站和移动站点、应用程序、社交媒体和其他数字渠道的收入。
-short-description: Personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
+landing-page-description: 个性化客户体验以最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
+short-description: 个性化客户体验以最大限度地提升网站和移动站点、应用程序、社交媒体和其他数字渠道的收入。
 title: 什么是 Target？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 88%
+source-wordcount: '1046'
+ht-degree: 89%
 
 ---
 

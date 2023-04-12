@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c9e588149cd53c9af886e4918e1c83a3e52d9e4e
+source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 89%
+source-wordcount: '292'
+ht-degree: 83%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->此功能将于2023年4月12日作为预发行功能提供，并将于2023年4月26日正式发布（正式发布）。
+>此功能于2023年4月12日作为预发行功能提供。 作为预发行功能，您可以尝试 [!UICONTROL 内容片段] 使用开发和暂存环境，但不能在生产环境中使用。
+>
+>此功能将于2023年4月26日正式发布（正式发布）。
 
 此版本包含以下新功能：
 

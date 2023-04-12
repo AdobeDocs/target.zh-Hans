@@ -5,10 +5,10 @@ title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片�
 badgePrerelease: label="Prerelease"
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: 1cc328732bed41303ab0b1c6857dcbc812940022
+source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 87%
+source-wordcount: '790'
+ht-degree: 85%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->此功能将于2023年4月12日作为预发行功能提供，并将于2023年4月26日正式发布（正式发布）。
+>此功能于2023年4月12日作为预发行功能提供。 作为预发行功能，您可以尝试 [!UICONTROL 内容片段] 使用开发和暂存环境，但不能在生产环境中使用。
+>
+>此功能将于2023年4月26日正式发布（正式发布）。
 
 ## 注意事项
 
@@ -50,7 +52,7 @@ ht-degree: 87%
 
 ## 在 [!DNL AEM] 中配置和使用[!UICONTROL 内容片段] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-要导出[!UICONTROL 内容片段]以在 [!DNL Target] 活动中使用，您必须在 AEM 中执行一些预备步骤。有关更多信息，请参阅 *Experience Manager as a Cloud Service 文档*&#x200B;中的[将内容片段导出到 Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}。此链接将在发行日（2023年4月12日）提供
+要导出[!UICONTROL 内容片段]以在 [!DNL Target] 活动中使用，您必须在 AEM 中执行一些预备步骤。有关更多信息，请参阅 [Experience Manager as a Cloud Service 文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html)中的{target=_blank}将内容片段导出到 Adobe Target **。
 
 有关设计、创建、策划和发布[!UICONTROL 内容片段]的信息，请参阅[[!UICONTROL 内容片段]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=zh-Hans){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}。
 

@@ -1,27 +1,27 @@
 ---
-keywords: 工作区;管理属性;权限;产品配置;产品配置文件;角色;项目
+keywords: 工作区；管理属性；权限；产品配置；产品配置文件；角色；项目；观察者；编辑者；审批者
 description: 了解如何创建单独的工作区（产品配置文件），然后为用户分配各个页面、属性或网站的不同角色和权限。
 title: 什么是企业用户权限？如何使用这些权限？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 59%
+source-wordcount: '3214'
+ht-degree: 57%
 
 ---
 
 # 企业用户权限
 
-企业用户权限是对企业范围的用户访问权限进行正式管理的一种方式 [!DNL Adobe Target]. 将用户添加到 [!DNL Target]、根据不同的部门、全球位置、渠道和其他逻辑分组为团队分配权限和创建工作区。 您可以为用户分配 [!UICONTROL 观察者], [!UICONTROL 编辑器]或 [!UICONTROL 审批者].
+企业用户权限是对企业范围的用户访问权限进行正式管理的一种方式 [!DNL Adobe Target]. 将用户添加到 [!DNL Target]、根据不同的部门、全球位置、渠道和其他逻辑分组为团队分配权限和创建工作区。 您可以为用户分配 [!UICONTROL 观察者], [!UICONTROL 编辑器], [!UICONTROL 审批者]或 [!UICONTROL 发布者].
 
 ## 确定您是否拥有企业用户权限
 
 >[!NOTE]
 >
->属性和权限功能作为 [!DNL Target] Premium 解决方案的一部分提供。如果没有 [!DNL Target] Premium 许可证，它们将无法在 [!DNL Target] Standard 中使用。
+>[!UICONTROL 属性和权限]功能作为 [!DNL Target] Premium 解决方案的一部分提供。如果没有 [!DNL Target] Premium 许可证，它们将无法在 [!DNL Target] Standard 中使用。
 >
 >您的 [!DNL Target] 实施可以使用任何版本的at.js。
 
@@ -89,10 +89,10 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 | 角色 | 描述 |
 |--- |--- |
-| 审批者 | 可以创建、编辑，以及激活或停止活动。 |
-| 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
-| 观察者 | 可以查看活动，但不能创建或编辑活动。 |
-| 发布者 | 类似于观察者角色（可查看活动，但无法创建或编辑活动）。但是，发布者角色另有激活活动的权限。 |
+| [!UICONTROL 审批者] | 可以创建、编辑，以及激活或停止活动。 |
+| [!UICONTROL 编辑者] | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
+| [!UICONTROL 观察者] | 可以查看活动，但不能创建或编辑活动。 |
+| [!UICONTROL 发布者] | 与 [!UICONTROL 观察者] 角色（可以查看活动，但无法创建或编辑活动）。 但是，[!UICONTROL 发布者]角色另有激活活动的权限。 |
 
 ### 渠道
 
@@ -257,6 +257,10 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 ## 常见问题解答 {#faqs}
 
 关于企业权限的常见问题解答包含以下内容：
+
+### 如果用户具有多个角色和权限，会发生什么情况？
+
+如果用户具有多个角色和权限，则会应用具有更高权限的角色。 例如，如果用户 [!UICONTROL 观察者] 和 [!UICONTROL 审批者] 角色， [!UICONTROL 审批者] 角色。
 
 ### 我是否可以将活动从一个工作区移动到另一个工作区？
 

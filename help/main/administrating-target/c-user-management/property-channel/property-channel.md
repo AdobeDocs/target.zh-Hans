@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '3214'
+source-wordcount: '3215'
 ht-degree: 57%
 
 ---
@@ -258,7 +258,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 关于企业权限的常见问题解答包含以下内容：
 
-### 如果用户具有多个角色和权限，会发生什么情况？
+### 如果用户具有多个角色和权限，会发生什么情况？ [#multiple-roles]
 
 如果用户具有多个角色和权限，则会应用具有更高权限的角色。 例如，如果用户 [!UICONTROL 观察者] 和 [!UICONTROL 审批者] 角色， [!UICONTROL 审批者] 角色。
 

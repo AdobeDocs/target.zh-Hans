@@ -5,10 +5,10 @@ title: 什么是重要属性报表？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '1723'
-ht-degree: 79%
+source-wordcount: '1847'
+ht-degree: 74%
 
 ---
 
@@ -90,7 +90,9 @@ ht-degree: 79%
 
 ## 重要属性常见问题解答 {#section_740910A52FA646B4AC9452F98C2F5719}
 
-**我的活动还无法使用个性化分析报表。为什么？**
+有关使用的常见问题的解答，请参阅以下常见问题解答 [!UICONTROL 重要属性] 报表。
+
+### 我的活动还无法使用个性化分析报表。为什么？
 
 您的活动可能还不能使用[!UICONTROL 个性化分析]报表的原因包括以下几点：
 
@@ -98,33 +100,39 @@ ht-degree: 79%
 * 您的活动在指定的时间范围内没有足够的流量。15 天过后，如果您的活动中有[足够的个性化流量](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)来构建个性化模型，将可以使用自动化区段和重要属性报表。
 * 您的活动包含收入优化目标。目前，“[!UICONTROL 个性化分析]”仅适用于转化优化目标活动。我们将在未来的版本中添加对收入优化目标活动的支持。
 
-**什么是属性？**
+### 什么是属性？
 
 属性是关于个性化算法为了解如何个性化流量而使用的访客或其特定访问的信息。例如，属性可以是浏览器类型、位置、访问时间等。
 
 有关 [!DNL Target] 在其个性化模型中使用的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。有关如何将新属性上传到Target以在Target的个性化模型中使用的更多信息，请参阅 [将数据导入Target的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
 
-**[!UICONTROL 自动化区段]和[!UICONTROL 重要属性]报表中的信息与 CSV 下载中的信息相同吗？**
+### 我看到一个或多个不希望模型用于培训的属性。 我是否可以从培训模型中删除这些属性？ {#models-api}
+
+的 [!UICONTROL 模型API]，也称为API阻止列表，它允许用户查看和管理在机器学习模型中使用的属性（也称为功能）列表 [!UICONTROL Automated Personalization] （美联社）和 [!UICONTROL 自动定位] (AT)活动。 如果要从AP或AT活动的模型中排除一个或多个属性，可以使用模型API将这些属性添加到“阻止列表”。
+
+有关详细信息，请参阅 [模型API概述](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}.
+
+### [!UICONTROL 自动化区段]和[!UICONTROL 重要属性]报表中的信息与 CSV 下载中的信息相同吗？
 
 不相同，UI 报表包含选择的信息，而以 CSV 格式下载的报表则包含其他详细信息。下载的自动化区段分析报表除了包含 UI 中所包含的排名靠前的区段之外，还包含其他自动化区段，以及这些区段对您的选件或体验的性能表现。重要属性报表包含排名靠前的 100 个访客属性及其相对重要性，而 UI 则仅包含排名靠前的 10 个访客属性。
 
-**我能否在自定义日期范围内查看个性化分析？**
+### 我能否在自定义日期范围内查看个性化分析？
 
 个性化分析报表（“[!UICONTROL 自动化区段]”和“[!UICONTROL 重要属性]”）仅适用于固定日期范围：15 天、30 天、45 天、60 天和 90 天。通过这些固定日期范围，“[!UICONTROL 个性化分析]”可以使用足够多的数据来降低您从活动中的短生存期模式获取分析的可能性。您可以为任何结束日期（此时活动中有足够的数据来满足持续时间）选择这些持续时间。
 
-**个性化分析是如何创建的？**
+### 个性化分析是如何创建的？
 
 [!UICONTROL 个性化分析是采用名为 MAGIX（与模型无关的全局可理解解释）的 Adobe 技术创建的，该技术正在申请专利。]您可以在Adobe研究团队发表的关于 [arXiv.org网站](https://arxiv.org/abs/1706.07160).
 
-**个性化分析是否可用于基于收入的建模目标/主要目标？**
+### 是 [!UICONTROL 个性化分析] 适用于基于收入的建模目标/主要目标？
 
 目前，“[!UICONTROL 个性化分析]”仅适用于转化优化目标活动。我们将在未来的版本中添加对收入优化目标活动的支持。
 
-**重要属性报表中的属性重要性得分是什么？**
+### 重要属性报表中的属性重要性得分是什么？
 
 该报表的“属性重要性排名”部分中的重要性得分为以下方面提供了依据：在算法确定如何将所有访客划分到其识别的区段时，算法用于学习的哪些变量最为重要。它为模型使用的排名靠前的 100 个属性分配了百分比得分。
 
-**为什么在特定自动化区段中一些转化率较低的选件/体验接收的流量比其他选件/体验多？**
+### 为什么在特定自动化区段中一些转化率较低的选件/体验接收的流量比其他选件/体验多？
 
 在自动化区段中，您可能会看到转化率较低的选件/体验获得的访问次数更多，其潜在原因有多个，具体包括：
 
@@ -136,7 +144,7 @@ ht-degree: 79%
 
 了解模型如何提供流量很有用。系统会根据每个人的总体配置文件为其提供流量。但是，分析报表对此行为进行了归纳，以便于人们理解。因此，区段间并不互相排斥。这会导致多个区段展示此类行为，因为同一个人可以出现在多个区段中。
 
-**我可以通过哪些不同的方法来利用个性化分析中的信息？**
+### 我可以通过哪些不同的方法来利用个性化分析中的信息？
 
 * 发现要定位的新受众：如果您发现某个特定自动化区段的性能表现极好，则可以考虑创建一个受众，以便您可以在其他报表中重复使用该区段。
 * 测试您针对以下内容所做的假设：哪种类型的访客会对您的哪些体验做出响应。

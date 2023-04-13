@@ -4,10 +4,10 @@ description: 了解如何使用 [!DNL Target]/[!DNL Real-time Customer Data Plat
 title: 如何将 [!DNL Target] 与 [!DNL Real-time Customer Data Platform] 集成？
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 78d53323474b49d248537a28e57d5de8a08bbfb5
+source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 23%
+source-wordcount: '894'
+ht-degree: 22%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 23%
 
 ## 使用受众 [!DNL Adobe Experience Platform] {#aep}
 
-利用在 [!DNL Adobe Experience Platform] 中创建的受众可提供更丰富的客户数据，从而带来更强大的个性化功能。的 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans){target=_blank} (RTCDP)，内置于 [!DNL Adobe Experience Platform]，可帮助公司将来自多个企业来源的已知和匿名数据汇集在一起。 通过此流程，您可以创建客户配置文件，以便用于在所有渠道和设备中实时提供个性化的客户体验。
+使用 [受众](/help/main/c-target/c-audiences/audiences.md) 创建于 [!DNL Adobe Experience Platform] 提供更丰富的客户数据，从而实现更具影响力的个性化。 的 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans){target=_blank} (RTCDP)，内置于 [!DNL Adobe Experience Platform]，可帮助公司将来自多个企业来源的已知和匿名数据汇集在一起。 通过此流程，您可以创建客户配置文件，以便用于在所有渠道和设备中实时提供个性化的客户体验。
 
 连接 [!DNL Target] 和 [!DNL Real-time Customer Data Platform] 后，客户可以通过解锁 [!DNL Target] 以前可能无法访问的新分段来丰富其 Web 个性化，从而在客户 Web 访问的第一个页面上在毫秒内实现实时个性化。使用在 [!DNL Adobe Experience Platform] 允许您扩展可用的数据点，以便进行更丰富的个性化。
 
@@ -37,9 +37,9 @@ ht-degree: 23%
 Real-time CDP Profile Attributes功能限制和注意事项：
 
 * 给定选件中的属性必须来自同一AEP沙盒。 （换言之，选件不能包含来自不同AEP沙箱的属性。）
-* 给定选件内的属性可能来自不同的来源；即，Target配置文件和AEP配置文件。（换言之，无论属性来自Target还是AEP配置文件，您都可以组合属性。）
+* 给定选件内的属性可能来自不同的来源；即 [!DNL Target] 配置文件和AEP配置文件。 (换言之，无论属性来自 [!DNL Target] 或从AEP配置文件中删除。)
 * 在定义选件时，您可以为实时CDP配置文件属性分配默认值，以防该属性没有明确值。 例如，如果同意或管理策略阻止在个性化服务中使用的属性，则可以改用默认值。
-* 共享后，在自动定位和Automated Personalization的人工智能/机器学习个性化模型中会使用实时CDP配置文件属性。
+* 共享后，将在用于 [!UICONTROL 自动定位] 和 [!UICONTROL Automated Personalization] 活动。
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ Real-time CDP Profile Attributes功能限制和注意事项：
 
 ### 视频：使用实时CDP实现下一次点击的个性化，以及 [!DNL Adobe Target]{#RTCDP}
 
-了解如何在下次点击时使用进行个性化设置 [!DNL Real-time Customer Data Platform] 和 [!DNL Adobe Target]. 的 [!DNL Adobe Target] 目标 [!DNL Real-time CDP] 允许您使用 [!DNL Experience Platform] 区段 [!DNL Adobe Target] 具有管理和隐私支持的同一页面和下一页个性化。
+了解如何在下次点击时使用进行个性化设置 [!DNL Real-time Customer Data Platform] 和 [!DNL Adobe Target]. 的 [!DNL Adobe Target] 目标 [!DNL Real-time CDP] 允许您使用 [!DNL Experience Platform] 区段 [!DNL Adobe Target] 具有管理和隐私支持的相同页面个性化和下一页个性化。
 
 有关更多信息，请参阅 [使用实时CDP和Adobe Target实现下一次点击的个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} 在 *平台Tutorials* 的双曲余切值。
 
@@ -93,9 +93,9 @@ Real-time CDP Profile Attributes功能限制和注意事项：
 
 ## 与共享Real-time CDP Profile Attributes [!DNL Target] {#rtcdp-profile-attributes}
 
-Real-time CDP Profile Attributes可与 [!DNL Target] 用于HTML选件和JSON选件。 （请注意，此功能目前处于测试阶段。）
+Real-time CDP Profile Attributes可与 [!DNL Target] 用于HTML选件和 [JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md). （请注意，此功能目前处于测试阶段。）
 
-示例用例：作为在线营销人员，Grace希望AEP/统一配置文件与共享属性值 [!DNL Target] 以便提供实时个性化。 通过使用实时CDP配置文件属性，Grace可以在 [!DNL Target] 选件。 例如，她可以使用 `${aep.profile.favoriteColor}`，或者使用令牌的忠诚度等级和忠诚度点值 `${aep.loyalty.tier}` 和 `${aep.loyalty.points}`.
+示例用例：作为在线营销人员，您希望AEP/统一配置文件与共享属性值 [!DNL Target] 以便提供实时个性化。 通过使用实时CDP配置文件属性，您可以在 [!DNL Target] 选件。 例如，您可以使用 `${aep.profile.favoriteColor}`，或者使用令牌的忠诚度等级和忠诚度点值 `${aep.loyalty.tier}` 和 `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute图像](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 

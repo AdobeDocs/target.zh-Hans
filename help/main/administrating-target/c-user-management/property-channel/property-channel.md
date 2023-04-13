@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
+source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
 workflow-type: tm+mt
-source-wordcount: '3215'
+source-wordcount: '3216'
 ht-degree: 57%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 57%
 >
 >[!UICONTROL 属性和权限]功能作为 [!DNL Target] Premium 解决方案的一部分提供。如果没有 [!DNL Target] Premium 许可证，它们将无法在 [!DNL Target] Standard 中使用。
 >
->您的 [!DNL Target] 实施可以使用任何版本的at.js。
+>您的 [!DNL Target] 实施可以使用任何版本的at.js或 [!DNL Adobe Experience Platform Web SDK].
 
 您可以在 [!DNL Target] UI 的顶部单击[!UICONTROL 管理]链接，确定组织使用的是 Standard 还是 Premium 许可。
 

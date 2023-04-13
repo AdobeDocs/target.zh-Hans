@@ -4,7 +4,7 @@ description: 了解如何使用 [!DNL Target]/[!DNL Real-Time Customer Data Plat
 title: 如何将 [!DNL Target] 与 [!DNL Real-Time Customer Data Platform] 集成？
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
+source-git-commit: 08422323607f7238a7cf9bac5b863032ce734662
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 9%
@@ -104,7 +104,7 @@ Real-Time CDP配置文件属性可以与 [!DNL Target] 用于HTML选件和 [JSON
 
 ![offer-json-aep-shared-attribute图像](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
-### 指向更多信息的链接
+## 指向更多信息的链接
 
 有关更多信息，请参阅以下主题：
 

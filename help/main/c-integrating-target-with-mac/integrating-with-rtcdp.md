@@ -4,14 +4,14 @@ description: 了解如何使用 [!DNL Target]/[!DNL Real-time Customer Data Plat
 title: 如何将 [!DNL Target] 与 [!DNL Real-time Customer Data Platform] 集成？
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: c14365b6d3296ab09d599ecb33239470a857efce
+source-git-commit: 22dc0d43f64d927028b2d7a44f1bd983e2f669d3
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '904'
 ht-degree: 20%
 
 ---
 
-# 与 Real-time Customer Data Platform 集成
+# 集成对象 [!DNL Real-time Customer Data Platform]
 
 基于 [!DNL Adobe Experience Platform] 的 [!DNL Real-time Customer Data Platform] (RTCDP) 可帮助各大公司汇集来自多个企业来源的已知和匿名数据，以创建可用于实时跨所有渠道和设备提供个性化客户体验的客户档案。
 
@@ -36,29 +36,6 @@ ht-degree: 20%
 * [!UICONTROL Target边缘目标卡] 管理和政策执行
 * 实时CDP区段和共享配置文件属性
 
-### Real-time CDP Profile Attributes功能限制和注意事项
-
-请考虑以下事项：
-
-* 给定选件中的属性必须来自同一AEP沙盒。 （换言之，选件不能包含来自不同AEP沙箱的属性。）
-* 给定选件内的属性可能来自不同的来源；即 [!DNL Target] 配置文件和AEP配置文件。 (换言之，无论属性来自 [!DNL Target] 或从AEP配置文件中删除。)
-* 在定义选件时，您可以为实时CDP配置文件属性分配默认值，以防该属性没有明确值。 例如，如果同意或管理策略阻止在个性化服务中使用的属性，则可以改用默认值。
-* 共享后，将在用于 [!UICONTROL 自动定位] 和 [!UICONTROL Automated Personalization] 活动。
-
->[!NOTE]
->
->Real-time CDP Profile Attributes功能目前在测试版中提供，适用于HTML选件和 [JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md).
-
-### 指向更多信息的链接
-
-有关更多信息，请参阅以下主题：
-
-* [目标发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} 在 *Adobe Experience Platform发行说明*
-* [为同一页面和下一页面个性化配置个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} 在 *目标概述* 的双曲余切值。
-* [自定义个性化连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} 在 *目标概述* 指南
-* [Adobe Target连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} 在 *目标概述* 指南
-* [为同一页面和下一页个性化用例配置个性化目标](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} 在 *目标概述* 指南
-
 ### 个性化用例
 
 下表显示了使用 [!DNL Adobe Experience Platform Web SDK] 与使用at.js:
@@ -81,11 +58,36 @@ ht-degree: 20%
 | 批量上传事件 | 否 | 否 | 是 |
 | 离线数据（流）中的事件 | 否 | 是 | 是 |
 
+### 指向更多信息的链接
+
+有关更多信息，请参阅以下主题：
+
+* [目标发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} 在 *Adobe Experience Platform发行说明*
+* [为同一页面和下一页面个性化配置个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} 在 *目标概述* 的双曲余切值。
+* [自定义个性化连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} 在 *目标概述* 指南
+* [Adobe Target连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} 在 *目标概述* 指南
+* [为同一页面和下一页个性化用例配置个性化目标](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} 在 *目标概述* 指南
+
 ## 与共享Real-time CDP Profile Attributes [!DNL Target] {#rtcdp-profile-attributes}
 
-Real-time CDP Profile Attributes可与 [!DNL Target] 用于HTML选件和 [JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md). （请注意，此功能目前处于测试阶段。）
+Real-time CDP Profile Attributes可与 [!DNL Target] 用于HTML选件和 [JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
-示例用例：作为在线营销人员，您希望AEP/统一配置文件与共享属性值 [!DNL Target] 以便提供实时个性化。 通过使用实时CDP配置文件属性，您可以在 [!DNL Target] 选件。 例如，您可以使用 `${aep.profile.favoriteColor}`，或者使用令牌的忠诚度等级和忠诚度点值 `${aep.loyalty.tier}` 和 `${aep.loyalty.points}`.
+### Real-time CDP Profile Attributes功能限制和注意事项
+
+>[!NOTE]
+>
+>Real-time CDP Profile Attributes功能目前在测试版中提供，适用于HTML选件和 [JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
+请考虑以下事项：
+
+* 给定选件中的属性必须来自同一AEP沙盒。 （换言之，选件不能包含来自不同AEP沙箱的属性。）
+* 给定选件内的属性可能来自不同的来源；即 [!DNL Target] 配置文件和AEP配置文件。 (换言之，无论属性来自 [!DNL Target] 或从AEP配置文件中删除。)
+* 在定义选件时，您可以为实时CDP配置文件属性分配默认值，以防该属性没有明确值。 例如，如果同意或管理策略阻止在个性化服务中使用的属性，则可以改用默认值。
+* 共享后，将在用于 [!UICONTROL 自动定位] 和 [!UICONTROL Automated Personalization] 活动。
+
+### 示例用例
+
+作为在线营销人员，您希望AEP/统一配置文件与共享属性值 [!DNL Target] 以便提供实时个性化。 通过使用实时CDP配置文件属性，您可以在 [!DNL Target] 选件。 例如，您可以使用 `${aep.profile.favoriteColor}`，或者使用令牌的忠诚度等级和忠诚度点值 `${aep.loyalty.tier}` 和 `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute图像](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 

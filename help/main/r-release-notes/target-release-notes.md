@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
+source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 83%
+source-wordcount: '325'
+ht-degree: 73%
 
 ---
 
@@ -15,27 +15,22 @@ ht-degree: 83%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2023 年 4 月 12 日**
+**上次更新日期：2023 年 4 月 13 日**
 
 >[!NOTE]
 >
 >发布日期、功能及其他信息如有更改，恕不另行通知。
-
-要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
-
-## [!DNL Adobe Experience Manager] (AEM) 和 [!DNL Adobe Target] [!UICONTROL 内容片段]版本（2023 年 4 月 12 日）
-
->[!NOTE]
 >
->此功能于2023年4月12日作为预发行功能提供。 作为预发行功能，您可以尝试 [!UICONTROL 内容片段] 使用开发和暂存环境，但不能在生产环境中使用。
->
->此功能将于2023年4月26日正式发布（正式发布）。
+>要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-此版本包含以下新功能：
+## [!DNL Target] Standard/Premium 23.4.1（2023年4月25日–27日）
+
+此版本包含以下新功能、增强和修复：
 
 | 功能 | 详细信息 |
 |--- |--- |
-| 用于 Headless 个性化和试验的 AEM [!UICONTROL 内容片段] | 在 [!DNL Target] 活动中使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]。将简单易用的 AEM 与 [!DNL Target] 中强大的人工智能 (AI) 和机器学习 (ML) 功能结合使用，帮助进行 Headless 个性化和试验。<P>有关更多信息，请参阅 [AEM [!UICONTROL 内容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
+| 用于 Headless 个性化和试验的 AEM [!UICONTROL 内容片段] | 在 [!DNL Target] 活动中使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]。将简单易用的 AEM 与 [!DNL Target] 中强大的人工智能 (AI) 和机器学习 (ML) 功能结合使用，帮助进行 Headless 个性化和试验。<P>有关更多信息，请参阅 [AEM [!UICONTROL 内容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**注意**:此功能自2023年4月12日起作为预发行功能提供。 作为预发行功能，您可以尝试 [!UICONTROL 内容片段] 使用开发和暂存环境，但不使用生产环境。 此功能将在 [!DNL Target Standard/Premium] 23.4.1版本。 |
+| Real-Time CDP与共享的配置文件属性 [!DNL Target] | [!UICONTROL Real-Time CDP配置文件属性] 可与共享 [!DNL Target] 用于HTML和JSON选件。<P>有关更多信息，请参阅 [与共享Real-Time CDP配置文件属性 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 ## 其他发行说明和版本详细信息
 

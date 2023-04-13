@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
+source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2432'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 4 月 13 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target] Standard/Premium 23.4.1版本（2023年4月25日至27日）。 |
 | 4 月 12 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了用于注册以下网络研讨会的链接：<ul><li>每次提供个性化的客户体验！</li></ul> |
 |  | [重要属性报表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 添加了以下常见问题解答：<ul><li>我看到一个或多个不希望模型用于培训的属性。 我是否可以从培训模型中删除这些属性？</li></ul> |
 |  | [企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 添加了以下常见问题解答：<ul><li>如果用户具有多个角色和权限，会发生什么情况？</li></ul> |

@@ -4,10 +4,10 @@ description: 了解如何使用 [!DNL Target]/[!DNL Real-time Customer Data Plat
 title: 如何将 [!DNL Target] 与 [!DNL Real-time Customer Data Platform] 集成？
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 22dc0d43f64d927028b2d7a44f1bd983e2f669d3
+source-git-commit: 21065da5b96413af5d93f2a158137ce3e68e2cf7
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 20%
+source-wordcount: '909'
+ht-degree: 19%
 
 ---
 
@@ -38,13 +38,27 @@ ht-degree: 20%
 
 ### 个性化用例
 
-下表显示了使用 [!DNL Adobe Experience Platform Web SDK] 与使用at.js:
+以下部分显示了在使用不同的实施方法时，可用的个性化用例类型（下一会话或同一页面）：
 
-| 实施 | 已启用解决方案/用例 |
+#### at.js 实施
+
+| 解决方案 | 启用用例 |
 | --- | --- |
-| at.js | **解决方案**:<ul><li>[!DNL Adobe Audience Manager] (AAM)和 [!DNL Target]</li><li>[!DNL RTCDP] （Premium或Ultimate）和 [!DNL Target]</li><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]和 [!DNL Target]</li></ul>**用例**:<ul><li>下一会话个性化</li></ul> |
-| [!DNL Platform Web SDK] 或 [!DNL AEP Server-Side API] | **解决方案**:<ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul>**用例**:<ul><li>下一会话个性化</li><li>通过Edge进行同页个性化</li><li>在共享区段时强制实施管理</li></ul>**解决方案**:<ul><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]和 [!DNL Target]</li></ul>**用例**:<ul><li>下一会话个性化</li><ul><li>[!DNL AAM] 区段</li><li>通过 [!DNL AAM]</li></ul><li>通过Edge进行同页个性化</li><ul><li>[!DNL RTCDP] 区段</li><li>在共享区段时强制实施管理</li></ul> |
-| 混合 [!UICONTROL at.js] 和 [!DNL Platform Web SDK] | **解决方案**:<ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul>**用例**:<ul><li>下一会话个性化</li><ul><li>适用于 [!UICONTROL at.js]</li></ul><li>同页个性化</li><ul><li>适用于 [!DNL Platform Web SDK]</li></ul></ul>**解决方案**:<ul><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]和 [!DNL Target]</li></ul>**用例**:<ul><li>下一会话个性化</li><ul><li>适用于 [!UICONTROL at.js]</li><li>[!DNL AAM] 区段</li><li>通过 [!DNL AAM]</li></ul> |
+| <ul><li>[!DNL Adobe Audience Manager] (AAM)和 [!DNL Target]</li><li>[!DNL RTCDP] （Premium或Ultimate）和 [!DNL Target]</li><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]和 [!DNL Target]</li></ul> | 下一会话个性化 |
+
+#### Adobe Experience Platform Web SDK或AEP服务器端API实施
+
+| 解决方案 | 启用用例 |
+| --- | --- |
+| <ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul> | <ul><li>下一会话个性化</li><li>通过Edge进行同页个性化</li><li>在共享区段时强制实施管理</li></ul> |
+| <ul><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]和 [!DNL Target]</li></ul> | <ul><li>下一会话个性化</li><ul><li>[!DNL AAM] 区段</li><li>通过 [!DNL AAM]</li></ul><li>通过Edge进行同页个性化</li><ul><li>[!DNL RTCDP] 区段</li><li>在共享区段时强制实施管理</li></ul> |
+
+#### 混合 [!UICONTROL at.js] 和 [!DNL Platform Web SDK] 实施
+
+| 解决方案 | 启用用例 |
+| --- | --- |
+| <ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul> | <ul><li>下一会话个性化</li><ul><li>适用于 [!UICONTROL at.js]</li></ul><li>同页个性化</li><ul><li>适用于 [!DNL Platform Web SDK]</li></ul> |
+| <ul><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]和 [!DNL Target]</li></ul> | <ul><li>下一会话个性化</li><ul><li>适用于 [!UICONTROL at.js]</li><li>[!DNL AAM] 区段</li><li>通过 [!DNL AAM]</li></ul> |
 
 ### 区段评估时间
 
@@ -105,6 +119,6 @@ Real-time CDP Profile Attributes可与 [!DNL Target] 用于HTML选件和 [JSON�
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-### Adobe Target博客和视频：
+### Adobe Target博客和视频：同页增强的个性化
 
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] 和 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+[[!DNL Adobe] announces Same-Page Enhanced Personalization with [!DNL Adobe Target] 和 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}

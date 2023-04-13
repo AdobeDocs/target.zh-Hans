@@ -1,13 +1,13 @@
 ---
-keywords: Real-time Customer Data Platform;rtcdp;个性化;aep 受众;Adobe Experience Platform 受众
+keywords: Real-time Customer Data Platform;RTCDP；个性化；AEP受众；Adobe Experience Platform受众；配置文件属性
 description: 了解如何使用 [!DNL Target]/[!DNL Real-time Customer Data Platform] (RTCDP) 集成提供更丰富的客户数据和更有效的个性化。
 title: 如何将 [!DNL Target] 与 [!DNL Real-time Customer Data Platform] 集成？
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 9bc31a2de295cdc5ea29dfb5ebf60fdf36705e98
+source-git-commit: e9fd075db7c533c77154af7806076d8ed0198979
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 22%
+source-wordcount: '905'
+ht-degree: 20%
 
 ---
 

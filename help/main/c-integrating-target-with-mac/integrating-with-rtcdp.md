@@ -4,9 +4,9 @@ description: 了解如何使用 [!DNL Target]/[!DNL Real-time Customer Data Plat
 title: 如何将 [!DNL Target] 与 [!DNL Real-time Customer Data Platform] 集成？
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
+source-git-commit: 9bc31a2de295cdc5ea29dfb5ebf60fdf36705e98
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '903'
 ht-degree: 22%
 
 ---
@@ -28,13 +28,17 @@ ht-degree: 22%
 * 同页/下次点击个性化
 * 首次/未知用户个性化
 
+### 主要功能
+
 主要功能包括：
 
 * 直接 [!DNL Target] 与实时CDP集成/[!DNL Adobe Experience Platform] 在边缘上(删除对 [!DNL Audience Core services] - AAM)
 * [!UICONTROL Target边缘目标卡] 管理和政策执行
 * 实时CDP区段和共享配置文件属性
 
-Real-time CDP Profile Attributes功能限制和注意事项：
+### Real-time CDP Profile Attributes功能限制和注意事项
+
+请考虑以下事项：
 
 * 给定选件中的属性必须来自同一AEP沙盒。 （换言之，选件不能包含来自不同AEP沙箱的属性。）
 * 给定选件内的属性可能来自不同的来源；即 [!DNL Target] 配置文件和AEP配置文件。 (换言之，无论属性来自 [!DNL Target] 或从AEP配置文件中删除。)
@@ -45,6 +49,8 @@ Real-time CDP Profile Attributes功能限制和注意事项：
 >
 >Real-time CDP Profile Attributes功能目前在测试版中提供，适用于HTML选件和 [JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
+### 指向更多信息的链接
+
 有关更多信息，请参阅以下主题：
 
 * [目标发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} 在 *Adobe Experience Platform发行说明*
@@ -53,7 +59,7 @@ Real-time CDP Profile Attributes功能限制和注意事项：
 * [Adobe Target连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} 在 *目标概述* 指南
 * [为同一页面和下一页个性化用例配置个性化目标](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} 在 *目标概述* 指南
 
-### 其他信息
+### 其他详细信息
 
 在使用 [!DNL Adobe Experience Platform]:
 
@@ -79,18 +85,6 @@ Real-time CDP Profile Attributes功能限制和注意事项：
 | 批量上传事件 | 否 | 否 | 是 |
 | 离线数据（流）中的事件 | 否 | 是 | 是 |
 
-### 视频：使用实时CDP实现下一次点击的个性化，以及 [!DNL Adobe Target]{#RTCDP}
-
-了解如何在下次点击时使用进行个性化设置 [!DNL Real-time Customer Data Platform] 和 [!DNL Adobe Target]. 的 [!DNL Adobe Target] 目标 [!DNL Real-time CDP] 允许您使用 [!DNL Experience Platform] 区段 [!DNL Adobe Target] 具有管理和隐私支持的相同页面个性化和下一页个性化。
-
-有关更多信息，请参阅 [使用实时CDP和Adobe Target实现下一次点击的个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} 在 *平台Tutorials* 的双曲余切值。
-
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
-
-### Adobe Target博客和视频：
-
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] 和 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
-
 ## 与共享Real-time CDP Profile Attributes [!DNL Target] {#rtcdp-profile-attributes}
 
 Real-time CDP Profile Attributes可与 [!DNL Target] 用于HTML选件和 [JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md). （请注意，此功能目前处于测试阶段。）
@@ -100,3 +94,15 @@ Real-time CDP Profile Attributes可与 [!DNL Target] 用于HTML选件和 [JSON�
 ![offer-json-aep-shared-attribute图像](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
 请注意，指定默认值是可选的。
+
+## 视频：使用实时CDP实现下一次点击的个性化，以及 [!DNL Adobe Target]{#RTCDP}
+
+了解如何在下次点击时使用进行个性化设置 [!DNL Real-time Customer Data Platform] 和 [!DNL Adobe Target]. 的 [!DNL Adobe Target] 目标 [!DNL Real-time CDP] 允许您使用 [!DNL Experience Platform] 区段 [!DNL Adobe Target] 具有管理和隐私支持的相同页面个性化和下一页个性化。
+
+有关更多信息，请参阅 [使用实时CDP和Adobe Target实现下一次点击的个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} 在 *平台Tutorials* 的双曲余切值。
+
+>[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+## Adobe Target博客和视频：
+
+[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] 和 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}

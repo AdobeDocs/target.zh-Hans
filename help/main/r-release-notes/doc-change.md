@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
 source-wordcount: '2432'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 97%
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 4 月 13 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了有关 [!DNL Target] Standard/Premium 23.4.1版本（2023年4月25日至27日）。 |
-| 4 月 12 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了用于注册以下网络研讨会的链接：<ul><li>每次提供个性化的客户体验！</li></ul> |
-|  | [重要属性报表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 添加了以下常见问题解答：<ul><li>我看到一个或多个不希望模型用于培训的属性。 我是否可以从培训模型中删除这些属性？</li></ul> |
-|  | [企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 添加了以下常见问题解答：<ul><li>如果用户具有多个角色和权限，会发生什么情况？</li></ul> |
-|  | [AEM 内容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 新主题。请注意，出于测试目的，此功能处于“预发行”状态。 |
+| 4 月 12 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了注册以下网络研讨会的链接：<ul><li>每次都提供个性化的客户体验！</li></ul> |
+|  | [重要属性报表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 添加了以下常见问题解答：<ul><li>我看到一个或多个我不希望模型用于训练的属性。我可以从训练模型中移除这些属性吗？</li></ul> |
+|  | [企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 添加了以下常见问题解答：<ul><li>如果用户具有多个角色和权限会怎样？</li></ul> |
+|  | [AEM 内容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 新主题。请注意，出于测试目的，此功能处于“预发布”状态。 |
 | 4 月 5 日 | [使用选件决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 添加了一段文字，表示在使用选件决策的活动中不支持[!UICONTROL 将 Analytics 作为报告来源] (A4t)。 |
 | 4 月 3 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于安排在 2023 年 4 月 12 日，星期三的 [!UICONTROL Adobe Target 社区]问答喝咖啡休息时间的信息。 |
 |  | [将 Target 边缘节点列入允许列表](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 添加了注释以将所有 [!DNL Adobe Analytics] IP 地址块列入允许列表。 |

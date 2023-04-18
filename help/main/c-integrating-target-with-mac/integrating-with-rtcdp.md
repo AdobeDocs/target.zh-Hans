@@ -7,7 +7,7 @@ exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 source-git-commit: 08422323607f7238a7cf9bac5b863032ce734662
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 9%
+ht-degree: 49%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 9%
 主要功能包括：
 
 * 直接 [!DNL Target] 与Real-Time CDP集成/[!DNL Adobe Experience Platform] 在边缘上(删除对 [!DNL Audience Core services] - AAM)
-* [!UICONTROL Target边缘目标卡] 管理和政策执行
-* 实时CDP区段和共享配置文件属性
+* [!UICONTROL Target Edge Destinations Card] 具有治理和政策执行功能
+* Real-time CDP 片段和共享个人资料属性
 
 ## 实施方案
 
@@ -33,43 +33,43 @@ ht-degree: 9%
 
 | 解决方案 | 启用用例 |
 | --- | --- |
-| <ul><li>[!DNL Adobe Audience Manager] (AAM)和 [!DNL Target]</li><li>[!DNL RTCDP] （Premium或Ultimate）和 [!DNL Target]</li><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]和 [!DNL Target]</li></ul> | 下一会话个性化 |
+| <ul><li>[!DNL Adobe Audience Manager] (AAM) 和[!DNL Target]</li><li>[!DNL RTCDP]（Premium 或 Ultimate）和[!DNL Target]</li><li>[!DNL RTCDP]（任何 SKU），[!DNL AAM]，和[!DNL Target]</li></ul> | 下一个会话个性化 |
 
 ### [!DNL Adobe Experience Platform Web SDK] 或 [!DNL Experience Platform Server-Side API] 实施
 
 | 解决方案 | 启用用例 |
 | --- | --- |
-| <ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul> | <ul><li>下一会话个性化</li><li>通过Edge进行同页个性化</li><li>在共享区段时强制实施管理</li></ul> |
-| <ul><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]和 [!DNL Target]</li></ul> | <ul><li>下一会话个性化</li><ul><li>[!DNL AAM] 区段</li><li>通过 [!DNL AAM]</li></ul><li>通过Edge进行同页个性化</li><ul><li>[!DNL RTCDP] 区段</li><li>在共享区段时强制实施管理</li></ul> |
+| <ul><li>[!DNL RTCDP]（任何 SKU）和 [!DNL Target]</li></ul> | <ul><li>下一个会话个性化</li><li>通过 Edge 实现同一页面个性化</li><li>共享片段时强制执行治理</li></ul> |
+| <ul><li>[!DNL RTCDP]（任何 SKU），[!DNL AAM]，和[!DNL Target]</li></ul> | <ul><li>下一个会话个性化</li><ul><li>[!DNL AAM] 区段</li><li>通过 [!DNL AAM] 的第三方片段</li></ul><li>通过 Edge 实现同一页面个性化</li><ul><li>[!DNL RTCDP] 区段</li><li>共享片段时强制执行治理</li></ul> |
 
 ### 混合 [!UICONTROL at.js] 和 [!DNL Platform Web SDK] 实施
 
 | 解决方案 | 启用用例 |
 | --- | --- |
-| <ul><li>[!DNL RTCDP] （任何SKU）和 [!DNL Target]</li></ul> | <ul><li>下一会话个性化</li><ul><li>适用于 [!UICONTROL at.js]</li></ul><li>同页个性化</li><ul><li>适用于 [!DNL Platform Web SDK]</li></ul> |
-| <ul><li>[!DNL RTCDP] （任何SKU）、 [!DNL AAM]和 [!DNL Target]</li></ul> | <ul><li>下一会话个性化</li><ul><li>适用于 [!UICONTROL at.js]</li><li>[!DNL AAM] 区段</li><li>通过 [!DNL AAM]</li></ul> |
+| <ul><li>[!DNL RTCDP]（任何 SKU）和 [!DNL Target]</li></ul> | <ul><li>下一个会话个性化</li><ul><li>对于带有 [!UICONTROL at.js] 的所有页面</li></ul><li>同一页面个性化</li><ul><li>对于带有 [!DNL Platform Web SDK] 的所有页面</li></ul> |
+| <ul><li>[!DNL RTCDP]（任何 SKU），[!DNL AAM]，和[!DNL Target]</li></ul> | <ul><li>下一个会话个性化</li><ul><li>对于带有 [!UICONTROL at.js] 的所有页面</li><li>[!DNL AAM] 区段</li><li>通过 [!DNL AAM] 的第三方片段</li></ul> |
 
-## 区段评估时间
+## 片段评估时间
 
-下表显示了来自不同实施方案的事件的区段评估时间：
+下表显示了来自不同实施场景的事件的片段评估时间：
 
-| 情景 | 边缘区段（毫秒评估） | 流区段（分钟评估） | 批量区段评估 |
+| 场景 | Edge 片段（毫秒评估） | 流式处理片段（分钟评价） | 批次片段评估 |
 | --- | --- | --- | --- |
-| 来自的事件/数据 [!DNL Adobe Experience Platform] SDK | 是 | 是 | 不适用 |
-| 事件来自 [!UICONTROL at.js] | 否 | 是 | 不适用 |
-| 事件来自 [!DNL Target Mobile] SDK | 否 | 是 | 不适用 |
-| 批量上传事件 | 否 | 否 | 是 |
-| 离线数据（流）中的事件 | 否 | 是 | 是 |
+| 来自 [!DNL Adobe Experience Platform] SDK 的事件/数据 | 是 | 是 | 不适用 |
+| 来自 [!UICONTROL at.js] 的事件 | 否 | 是 | 不适用 |
+| 来自 [!DNL Target Mobile] SDK 的事件 | 否 | 是 | 不适用 |
+| 批次上传事件 | 否 | 否 | 是 |
+| 来自离线数据的事件（流） | 否 | 是 | 是 |
 
-## 使用受众 [!DNL Adobe Experience Platform] {#aep}
+## 使用来自 [!DNL Adobe Experience Platform] 的受众 {#aep}
 
-使用 [受众](/help/main/c-target/c-audiences/audiences.md) 创建于 [!DNL Adobe Experience Platform] 提供更丰富的客户数据，从而实现更具影响力的个性化。 的 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans){target=_blank} (RTCDP)，内置于 [!DNL Adobe Experience Platform]，可帮助公司将来自多个企业来源的已知和匿名数据汇集在一起。 通过此流程，您可以创建客户配置文件，以便用于在所有渠道和设备中实时提供个性化的客户体验。
+使用在 [!DNL Adobe Experience Platform] 中创建的[受众](/help/main/c-target/c-audiences/audiences.md)可提供更丰富的客户数据，从而带来更强大的个性化功能。 的 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans){target=_blank} (RTCDP)，内置于 [!DNL Adobe Experience Platform]，可帮助公司将来自多个企业来源的已知和匿名数据汇集在一起。 此过程允许您创建配置文件，这些资料可用于在所有渠道和设备中实时提供个性化的客户体验。
 
-通过连接 [!DNL Target] 到 [!DNL Real-Time Customer Data Platform]，客户可以丰富其Web个性化。 此集成允许您解锁之前可能无法访问的新区段 [!DNL Target] 用于在客户的Web访问首页上实时进行毫秒个性化。 使用在 [!DNL Adobe Experience Platform] 允许您扩展可用的数据点，以便进行更丰富的个性化。
+通过连接 [!DNL Target] 到 [!DNL Real-Time Customer Data Platform]，客户可以丰富其Web个性化。 此集成允许您解锁之前可能无法访问的新区段 [!DNL Target] 用于在客户的Web访问首页上实时进行毫秒个性化。 使用在 [!DNL Adobe Experience Platform] 中创建的受众和个人资料属性，可以扩展可用的数据点，以实现更丰富的个性化内容。
 
 此集成可解锁Real-Time CDP的关键用例：
 
-* 同页/下次点击个性化
+* “同一页面”/“下一个点击”个性化
 * 首次/未知用户个性化
 
 ## 与共享Real-Time CDP配置文件属性 [!DNL Target] {#rtcdp-profile-attributes}
@@ -86,11 +86,11 @@ Real-Time CDP配置文件属性可以与 [!DNL Target] 用于HTML选件和 [JSON
 
 * 给定选件中的属性必须来自相同的 [!UICONTROL Experience Platform] 沙盒。 (换言之，选件不能包含来自不同 [!UICONTROL Experience Platform] 沙盒。)
 * 给定选件内的属性可能来自不同的来源；即 [!DNL Target] 用户档案和 [!UICONTROL Experience Platform] 配置文件。 (换言之，无论属性来自 [!DNL Target] 或 [!UICONTROL Experience Platform] 配置文件。)
-* 在定义选件时，您可以为 [!UICONTROL Real-Time CDP配置文件属性]，则属性没有显式值。 例如，如果同意或管理策略阻止在个性化服务中使用的属性，则可以改用默认值。
+* 在定义选件时，您可以为 [!UICONTROL Real-Time CDP配置文件属性]，则属性没有显式值。 例如，如果同意或治理策略阻止个性化服务中使用的属性，则可以使用默认值。
 
 ### JSON示例用例
 
-作为在线营销人员，您希望AEP/统一配置文件与共享属性值 [!DNL Target] 提供实时个性化。 使用 [!UICONTROL Real-Time CDP配置文件属性]，则可以显示 [!UICONTROL Experience Platform] 属性 [!DNL Target] 选件。 例如，您可以使用 `${aep.profile.favoriteColor}`，或者使用令牌的忠诚度等级和忠诚度点值 `${aep.loyalty.tier}` 和 `${aep.loyalty.points}`.
+作为在线营销人员，您希望AEP/统一配置文件与共享属性值 [!DNL Target] 提供实时个性化。 使用 [!UICONTROL Real-Time CDP配置文件属性]，则可以显示 [!UICONTROL Experience Platform] 属性 [!DNL Target] 选件。 例如，您可以使用 `${aep.profile.favoriteColor}` 根据客户最喜欢的颜色进行个性化设置，或者使用标记 `${aep.loyalty.tier}` 和 `${aep.loyalty.points}` 根据他们的忠诚度等级和忠诚度积分值进行个性化设置。
 
 创建JSON选件以与共享AEP/统一配置文件属性 [!DNL Target]:
 
@@ -102,24 +102,24 @@ Real-Time CDP配置文件属性可以与 [!DNL Target] 用于HTML选件和 [JSON
 
 下图显示了两个配置文件属性： `loyalty.tier` 和 `loyalty.points` 已添加到JSON选件中。
 
-![offer-json-aep-shared-attribute图像](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
+![offer-json-aep-shared-attribute 图像](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
-## 指向更多信息的链接
+## 更多信息的链接
 
 有关更多信息，请参阅以下主题：
 
-* [目标发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} 在 *Adobe Experience Platform发行说明*
-* [为同一页面和下一页面个性化配置个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} 在 *目标概述* 的双曲余切值。
-* [Adobe Target连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} 在 *目标概述* 指南
+* *Adobe Experience Platform 发行说明*&#x200B;中的[目标发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans#destinations){target=_blank}
+* 在&#x200B;*目标概述*&#x200B;指南中[为同一页面和下一个页面个性化配置个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}。
+* *目标概述*&#x200B;指南中的 [Adobe Target 连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}
 * [映射属性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=en#map-attributes){target=_blank} 在 *目标概述* 的双曲余切值。
 
 ## 视频和博客帖子
 
-以下视频和博客文章提供了有关使用Target和RTCDP增强个性化的更多信息：
+以下视频和博客帖子提供了有关使用 Target 和 RTCDP 增强个性化的更多信息：
 
 ### 视频：使用Real-Time CDP和 [!DNL Adobe Target]{#RTCDP}
 
-了解如何在下次点击时使用进行个性化设置 [!DNL Real-Time Customer Data Platform] 和 [!DNL Adobe Target]. 的 [!DNL Adobe Target] 目标 [!DNL Real-Time CDP] 允许您使用 [!DNL Experience Platform] 区段 [!DNL Adobe Target] 具有管理和隐私支持的相同页面个性化和下一页个性化。
+了解如何使用 [!DNL Real-Time Customer Data Platform] 和 [!DNL Adobe Target] 对下一次点击进行个性化。[!DNL Real-Time CDP] 中的 [!DNL Adobe Target] 目标允许您使用 [!DNL Adobe Target] 中的 [!DNL Experience Platform] 片段进行相同页面个性化和下一页面个性化，同时提供数据治理和隐私支持。
 
 有关更多信息，请参阅 [使用Real-Time CDP和Adobe Target进行下一次点击的个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} 在 *平台Tutorials* 的双曲余切值。
 

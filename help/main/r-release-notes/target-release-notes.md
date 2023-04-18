@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 73%
+ht-degree: 76%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 73%
 
 | 功能 | 详细信息 |
 |--- |--- |
-| 用于 Headless 个性化和试验的 AEM [!UICONTROL 内容片段] | 在 [!DNL Target] 活动中使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]。将简单易用的 AEM 与 [!DNL Target] 中强大的人工智能 (AI) 和机器学习 (ML) 功能结合使用，帮助进行 Headless 个性化和试验。<P>有关更多信息，请参阅 [AEM [!UICONTROL 内容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**注意**:此功能自2023年4月12日起作为预发行功能提供。 作为预发行功能，您可以尝试 [!UICONTROL 内容片段] 使用开发和暂存环境，但不使用生产环境。 此功能将在 [!DNL Target Standard/Premium] 23.4.1版本。 |
+| 用于 Headless 个性化和试验的 AEM [!UICONTROL 内容片段] | 在 [!DNL Target] 活动中使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]。将简单易用的 AEM 与 [!DNL Target] 中强大的人工智能 (AI) 和机器学习 (ML) 功能结合使用，帮助进行 Headless 个性化和试验。<P>有关详细信息，请参阅 [AEM [!UICONTROL 内容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)。<P>**注意**:此功能自2023年4月12日起作为预发行功能提供。 作为预发行功能，您可以尝试 [!UICONTROL 内容片段] 使用开发和暂存环境，但不使用生产环境。 此功能将在 [!DNL Target Standard/Premium] 23.4.1版本。 |
 | Real-Time CDP与共享的配置文件属性 [!DNL Target] | [!UICONTROL Real-Time CDP配置文件属性] 可与共享 [!DNL Target] 用于HTML和JSON选件。<P>有关更多信息，请参阅 [与共享Real-Time CDP配置文件属性 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 ## 其他发行说明和版本详细信息

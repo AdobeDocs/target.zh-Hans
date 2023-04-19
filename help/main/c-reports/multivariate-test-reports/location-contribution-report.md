@@ -1,13 +1,13 @@
 ---
 keywords: MVT;多变量测试;位置贡献报表
-description: 了解如何使用位置贡献报表进行Adobe [!DNL Target] 体验定位活动，显示每个元素和每个选件的性能。
-title: 如何将位置贡献报表用于多变量测试？
+description: 了解如何使用位置贡献报表进行Adobe [!DNL Target] [!UICONTROL 体验定位] 显示每个元素和每个选件性能的活动。
+title: 如何使用 [!UICONTROL 位置贡献] 报表 [!UICONTROL 多变量测试] 活动？
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 6f70ff18cfbee5c02e6bb2bd345acbd2e1b2006f
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 61%
+source-wordcount: '298'
+ht-degree: 37%
 
 ---
 
@@ -19,15 +19,22 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->受众和量度选取器仅在 [!DNL Analytics] 用作报表源。
+>在使用 [!UICONTROL 位置贡献] 报表：
+>
+>* 受众和量度选取器仅在以下情况下才可用 [!DNL Analytics] 用作报表源(A4T)。
+>
+>* 的数据 [!UICONTROL 位置贡献] 从获取报表 [!DNL Target] 后端，即使将活动配置为使用 [!UICONTROL 将Analytics作为报表源] (A4T)。
+>
+>* 的数据 [!UICONTROL 位置贡献] 即使在 [!DNL Target] 帐户级别。
+
 
 的 [!UICONTROL 位置贡献] 报表包含两个表。
 
-第一个表显示了每个元素的相对影响力。通过该表，您可以看出在您添加了选件的元素中，哪个元素产生的转化最多。
+第一个表显示了每个元素的相对影响力。此表显示您在其中添加了选件的元素中，哪个元素的转化率最高。
 
 ![Adobe Target中的位置贡献报表](/help/main/c-reports/assets/locationcontributiontop.png)
 
-第二个表提供了选件级别的报表。该表显示了每个元素中每个选件的转化率、提升度和置信度。这有助于您确定哪些选件最成功。第二列显示了选件的选定量度（转化率、RPV、AOV、订单或参与度量度）所对应的值以及一个标准化。
+第二个表提供了选件级别的报表。该表显示了每个元素中每个选件的转化率、提升度和置信度。此表可帮助您确定哪些选件最为成功。 第二列显示了选件的选定量度（转化率、RPV、AOV、订单或参与度量度）所对应的值以及一个标准化。
 
 ![Adobe Target中的位置贡献报表](/help/main/c-reports/assets/locationcontributionbottom.png)
 

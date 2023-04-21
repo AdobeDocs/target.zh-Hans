@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 9ae9cc67512d689b4b5a825c67abfca5ff8821b4
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 4 月 19 日 | [位置贡献报表 (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | 更新了注释中的信息。 |
+| 4 月 19 日 | [[!UICONTROL 位置贡献] 报表 (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | 更新注释中的信息。 |
 | 4 月 13 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了关于 [!DNL Target] Standard/Premium 23.4.1 版（2023 年 4 月 25 日至 27 日）的信息。 |
 | 4 月 12 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了注册以下网络研讨会的链接：<ul><li>每次都提供个性化的客户体验！</li></ul> |
 |  | [重要属性报表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 添加了以下常见问题解答：<ul><li>我看到一个或多个我不希望模型用于训练的属性。我可以从训练模型中移除这些属性吗？</li></ul> |

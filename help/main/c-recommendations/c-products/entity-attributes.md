@@ -5,10 +5,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: 如何使用实体属性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 54%
+source-wordcount: '1080'
+ht-degree: 53%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->如果您使用的是at.js 2.*x*, `mboxCreate` （如以下示例中所示）不再受支持。 将产品或内容信息传递到 [!DNL Recommendations] 使用at.js 2.*x*，使用 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. For an example, see [Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+>如果您使用的是at.js 2.*x*, `mboxCreate` （如以下示例中所示）不再受支持。 将产品或内容信息传递到 [!DNL Recommendations] 使用at.js 2.*x*，使用 [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

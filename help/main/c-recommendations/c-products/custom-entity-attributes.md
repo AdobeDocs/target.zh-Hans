@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1409'
 ht-degree: 88%
 
 ---
@@ -127,7 +127,7 @@ function targetPageParams() {
   }
 ```
 
-有关使用交付和保存实体 API 的信息，请参阅 [Adobe 推荐 API 文档](https://developer.adobe.com/target/implement/recommendations/){target=_blank}。
+有关使用交付和保存实体 API 的信息，请参阅 [Adobe 推荐 API 文档](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
 ## 将运算符与多值属性结合使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

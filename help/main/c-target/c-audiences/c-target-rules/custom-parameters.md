@@ -4,10 +4,10 @@ description: 了解如何将自定义参数传递到 [!DNL Adobe Target] ，以�
 title: 我是否可以根据自定义参数定位访客？
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 40%
+source-wordcount: '495'
+ht-degree: 41%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 40%
 
 自定义参数是 [!DNL Adobe Target]. 如果您将任何mbox参数传递到mbox，或者使用 `targetPageParams` 函数中，这些参数将显示在此处以供在受众中使用。
 
-有关更多信息，请参阅 [将参数传递到全局mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}。
+有关更多信息，请参阅 [将参数传递到全局mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
 
 创建基于 mbox 参数的自定义受众时，`mboxParameter` 将不再提示您输入 `mboxName`。mbox 名称现在是可选的。通过这项更改，您可以使用多个 mbox 中的参数或引用尚未记录到 Edge 的参数。
 
@@ -32,7 +32,7 @@ ht-degree: 40%
 
    >[!NOTE]
    >
-   >您从 [!UICONTROL 过滤依据] 创建活动时未保存下拉列表。 利用此选项，可根据所选的mbox筛选参数。
+   >您从 [!UICONTROL 过滤依据] 创建活动时未保存下拉列表。 此选项允许您根据选定的 mbox 筛选参数。
 
    如果您编辑现有受众，则会显示筛选标准以及在创建期间提供的 mbox 名称。
 

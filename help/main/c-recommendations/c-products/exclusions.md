@@ -4,10 +4,10 @@ description: 了解如何在Adobe中创建排除项 [!DNL Target] Recommendation
 title: 如何在Recommendations活动中使用排除项？
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 42%
+source-wordcount: '623'
+ht-degree: 43%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 42%
 
    ![exclusions_list图像](assets/exclusions_list.png)
 
-   [!UICONTROL 排除项]列表视图中为每个排除项报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。请参阅 [设置](https://developer.adobe.com/target/implement/recommendations/){target=_blank}更改默认主机组。
+   [!UICONTROL 排除项]列表视图中为每个排除项报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。请参阅[设置](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html)以更改默认主机组。{target=_blank}
 
 1. 单击&#x200B;**[!UICONTROL 创建排除项]**。
 

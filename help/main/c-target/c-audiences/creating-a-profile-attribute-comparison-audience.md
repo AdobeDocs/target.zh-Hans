@@ -4,10 +4,10 @@ description: 了解如何定义受众以比较两个配置文件属性。
 title: 我是否可以比较在受众中使用的两个配置文件属性？
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 59%
+ht-degree: 58%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 59%
 
 您可以创建一个受众，将其定义为购买餐厅家具的倾向大于购买客厅家具的倾向。[!DNL Target]然后， 将动态比较特定访客的餐厅和客厅倾向得分，以确定访客是否符合该受众的条件。
 
-有关更多信息，请参阅 [将数据导入Target的方法](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}。
+有关更多信息，请参阅 [将数据导入Target的方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## 创建配置文件属性比较受众 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

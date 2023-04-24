@@ -5,7 +5,7 @@ title: 如何使推荐基于推荐键？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '3999'
 ht-degree: 37%
@@ -34,7 +34,7 @@ Recommendations基于算法使用访客行为上下文显示相关结果 [!DNL A
 
 ## 基于购物车 {#cart-based}
 
-的 [!UICONTROL 基于购物车] 算法类型允许根据访客当前购物车的内容推荐项目。 推荐键通过 [mbox参数 `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} 以逗号分隔值表示。 仅考虑前 10 个值。
+的 [!UICONTROL 基于购物车] 算法类型允许根据访客当前购物车的内容推荐项目。 推荐键通过 [mbox参数 `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 以逗号分隔值表示。 仅考虑前 10 个值。
 
 基于购物车的推荐逻辑与“[!UICONTROL 推荐给您]“基于用户的算法”和“[!UICONTROL 查看了这些项目，购买了这些项目的人]&quot;和&quot;[!UICONTROL 购买了这些，也购买了那些的人]“基于项目的算法。
 

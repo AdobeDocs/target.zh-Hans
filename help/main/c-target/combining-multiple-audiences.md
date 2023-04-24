@@ -4,10 +4,10 @@ description: 了解如何合并多个受众(包括Adobe Experience Cloud受众�
 title: 我是否可以合并多个受众以创建新受众？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 64%
+source-wordcount: '961'
+ht-degree: 63%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 使用 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}。 受众 [!DNL Adobe Experience Platform] 可以按原样使用，也可以与现有受众结合使用，如本主题中所述。
+>的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 使用 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. 受众 [!DNL Adobe Experience Platform] 可以按原样使用，也可以与现有受众结合使用，如本主题中所述。
 >
 >有关详细信息，请参阅 [使用来自Adobe Experience Platform的受众](/help/main/c-target/c-audiences/audiences.md#aep).
 

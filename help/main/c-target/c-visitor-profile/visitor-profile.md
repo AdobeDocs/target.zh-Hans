@@ -4,10 +4,10 @@ description: 了解访客配置文件，其中包含有关访客如何使用您�
 title: 什么是访客配置文件？
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 37%
+source-wordcount: '114'
+ht-degree: 36%
 
 ---
 
@@ -24,6 +24,6 @@ ht-degree: 37%
 - [访客个人资料生命周期](visitor-profile-lifetime.md)
 - [配置文件属性](profile-parameters.md)
 - [类别亲和力](category-affinity.md)
-- [客户属性](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+- [客户属性](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [mbox3rdPartyID 的实时配置文件同步](3rd-party-id.md)
 - [配置文件和变量一览表](variables-profiles-parameters-methods.md)

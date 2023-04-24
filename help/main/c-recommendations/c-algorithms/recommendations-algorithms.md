@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2839'
-ht-degree: 1%
+source-wordcount: '2842'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 这些步骤的详细信息如下：
 
-* **输入数据**:行为数据，以在您收集的访客的查看次数和购买次数的形式显示 [实施Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **输入数据**:行为数据，以在您收集的访客的查看次数和购买次数的形式显示 [实施Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **模型培训**:
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 这些步骤的详细信息如下：
 
-* **输入数据**:如前所述，此算法完全基于目录数据(摄取到 [!DNL Target] 通过 [目录馈送、实体API或页面上的更新](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+* **输入数据**:如前所述，此算法完全基于目录数据(摄取到 [!DNL Target] 通过 [目录馈送、实体API或页面上的更新](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **模型培训**:
 
@@ -127,7 +127,7 @@ ht-degree: 1%
 
 这些步骤的详细信息如下：
 
-* **输入数据**:这与项目 — 项目协作过滤(CF)方法相同。 [!UICONTROL 都建议您] 和基于购物车的算法使用行为数据，以在您 [实施Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **输入数据**:这与项目 — 项目协作过滤(CF)方法相同。 [!UICONTROL 都建议您] 和基于购物车的算法使用行为数据，以在您 [实施Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **模型培训**:
 

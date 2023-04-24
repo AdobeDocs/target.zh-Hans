@@ -5,10 +5,10 @@ title: 如何创建Recommendations活动？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 76%
+source-wordcount: '1313'
+ht-degree: 75%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 76%
 
    >[!NOTE]
    >
-   >并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。“[!UICONTROL 兼容]”选项可能不会显示，具体取决于您的“推荐”设置（**[!UICONTROL 推荐]** > **[!UICONTROL 设置]** > **[!UICONTROL 筛选不兼容的标准]**）。有关更多信息，请参阅 [设置](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+   >并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于活动，请清除&#x200B;**[!UICONTROL 兼容]**&#x200B;复选框。“[!UICONTROL 兼容]”选项可能不会显示，具体取决于您的“推荐”设置（**[!UICONTROL 推荐]** > **[!UICONTROL 设置]** > **[!UICONTROL 筛选不兼容的标准]**）。有关更多信息，请参阅 [设置](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![“选择标准”对话框](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

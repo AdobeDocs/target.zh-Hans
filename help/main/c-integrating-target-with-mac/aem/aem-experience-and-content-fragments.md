@@ -4,7 +4,7 @@ description: 了解如何在  [!DNL Adobe Target]  活动中使用 [!DNL Adobe E
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 体验片段]和[!UICONTROL 内容片段]？
 feature: Integrations
 exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
-source-git-commit: 7c81362a82ca6692bb8c183b8e8fc50c6329e2e8
+source-git-commit: f39ec80d9804fff2c65fce98ca2be5400d99aad0
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 100%

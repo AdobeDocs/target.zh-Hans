@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ce36e74605468466ed7bdc83f412f78941151845
+source-git-commit: b7ae9d841c4b455b59d31795ec5f6ee2ef742d21
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 93%
+source-wordcount: '333'
+ht-degree: 90%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 93%
 | 功能 | 详细信息 |
 |--- |--- |
 | 用于 Headless 个性化和试验的 AEM [!UICONTROL 内容片段] | 在 [!DNL Target] 活动中使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]。将简单易用的 AEM 与 [!DNL Target] 中强大的人工智能 (AI) 和机器学习 (ML) 功能结合使用，帮助进行 Headless 个性化和试验。<P>有关详细信息，请参阅 [AEM [!UICONTROL 内容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)。<P>**注意**：此功能自 2023 年 4 月 12 日起作为预发布功能提供。作为预发布功能，您可以尝试在开发和暂存环境中使用[!UICONTROL 内容片段]，但不能在生产环境中使用。此功能将于2023年4月26日面向所有客户提供。 |
-| 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。 |
+| 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。<p>此功能将于2023年5月9日面向所有客户提供。 |
 
 ## 其他发行说明和版本详细信息
 

@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '35960'
+source-wordcount: '36438'
 ht-degree: 95%
 
 ---
@@ -22,6 +22,34 @@ ht-degree: 95%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2023
+
+### [!DNL Target] Standard/Premium 23.3.1（2023 年 3 月 28-30 日）
+
+此版本包含以下新功能、增强和修复：
+
+| 功能 | 详细信息 |
+|--- |--- |
+| 为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]优化了 A4T 指标<p>（发布日期：2023 年 3 月 30 日） | 通过 [!DNL Target]，可在使用 [!UICONTROL A4T] 进行[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动时，根据二项式事件或连续事件选择指标。<P>请注意，在支持的指标中发生了以下变化：<ul><li>[!DNL Target] 保留现有活动以前的行为直至 2023 年 9 月 9 日。在此日期之后，将不再继续执行使用不支持的指标的活动，以强制现有活动采用新行为。</li></ul>有关更多信息，请参阅[[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) 中的“支持的目标量度”。<br>以下教程已随此功能一并更新：<ul><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动分配]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动定位]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+
+* 增强了受众和活动同步，以便在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Audience Manager] 中创建的项目可更快地在 [!DNL Target] UI 中可用。(TGT-44568)
+* 增强了 UI，可让用户在[!UICONTROL 管理] > [!UICONTROL 视觉体验编辑器] > [!UICONTROL 默认 URL] 下删除 [!UICONTROL 默认 URL]。此更改允许客户将默认 URL 更改回空字符串，这在以前的初始配置后是不可能实现的。(TGT-44577)
+* 删除了阻止客户编辑或删除开箱即用的受众（具有保留名称的受众）的限制。(TGT-44655)
+* 禁用了在创建[组合受众](/help/main/c-target/combining-multiple-audiences.md)时，加载微调器在 [!DNL Target] UI 中可见时的[!UICONTROL “完成”]选项。(TGT-44079)
+* 修复了[!UICONTROL 受众]页面底部的[!UICONTROL 语言]链接，使其正确链接到“[!UICONTROL 帐户通讯偏好]”页面。(TGT-43562)
+* 解决了有时阻止客户在[!UICONTROL 管理]>[!UICONTROL 报告]>[!UICONTROL 报告体验云解决方案]下选择 [!UICONTROL Adobe Analytics] 选项后创建 [!UICONTROL A/B 测试]活动的问题。(TGT-44844)
+* 修复了使客户无法查看[!UICONTROL 多元测试]活动中的最后一次体验，该活动具有[!UICONTROL 视觉体验编辑器]（VEC）中提供的许多体验。VEC 底部的 [DOM 路径](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)有时会阻止客户看到上次体验。(TGT-44578)
+* 修复了导致 VEC 中的浏览 URL 无法反映在正常浏览器会话中可见的当前页面（如果页面需要授权或调用重定向）的问题。(TGT-44350)
+* 修复了阻止客户更改[!UICONTROL 建议]>[!UICONTROL 设置]中的[!UICONTROL 过滤器不兼容标准]设置的问题。(TGT-44398)
+* 修复了在名称中带有点的报表包中使用 [!UICONTROL Analytics Classifications] 时导致创建 [!DNL Recommendations] 源的 POST 请求失败的问题。(TGT-44598)
+* 更新了 [!DNL Target] UI 中的链接以指向新的 [Visual Editing Helper 扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。(TGT-44459)
+* 增强安全性以防止 [!DNL Recommendations] 提要中的服务器端请求伪造 (SSRF) 尝试。(TGT-43769)
+* 在整个 [!DNL Target] UI 中作出了多项本地化修复。
+
+### at.js 版本 2.10.2（2023 年 3 月 7 日）
+
+* 修复了导致 `trackEvent` 函数始终返回错误的问题。
+
+有关所有 at.js 版本的信息，请参阅 [at.js 版本详细信息](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}。
 
 ### [!DNL Target] Standard/Premium 22.15.1（2023 年 3 月 8 日和 9 日）
 

@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+source-git-commit: 7ce7df9d1553cc0eebd25b8812a480c2326ddbfa
 workflow-type: tm+mt
-source-wordcount: '2503'
+source-wordcount: '2502'
 ht-degree: 95%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 95%
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 4 月 24 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了有关以下Adobe Target社区咖啡时间问答的信息：<ul><li>适用于已验证环境的移动体验优化和个性化</li></ul> |
-| 3 月 28 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.4.1 版的发行说明。 |
+|  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.4.1 版的发行说明。 |
 
 ## [!DNL Target] Standard/Premium 23.3.1（2023 年 3 月 28-30 日）
 

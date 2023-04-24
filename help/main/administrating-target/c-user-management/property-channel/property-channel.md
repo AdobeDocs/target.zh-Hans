@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3213'
 ht-degree: 57%
 
 ---
@@ -252,13 +252,13 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
    在将来的版本中，即使在不具有 `at_property` 令牌的页面或具有不同 `at_property` 令牌的页面上，Target 也将能正常工作。
 
-* [Adobe I/O API 调用](https://developer.adobe.com/target/){target=_blank}不支持企业用户权限功能。
+* Adobe I/O API 调用不支持企业用户权限功能。
 
 ## 常见问题解答 {#faqs}
 
 关于企业权限的常见问题解答包含以下内容：
 
-### 如果用户具有多个角色和权限，会发生什么情况？ [#multiple-roles]
+### 如果用户具有多个角色和权限会怎样？[#multiple-roles]
 
 如果用户具有多个角色和权限，则会应用具有更高权限的角色。 例如，如果用户 [!UICONTROL 观察者] 和 [!UICONTROL 审批者] 角色， [!UICONTROL 审批者] 角色。
 

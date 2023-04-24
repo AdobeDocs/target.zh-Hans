@@ -5,10 +5,10 @@ title: 什么是重要属性报表？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 75%
+source-wordcount: '1855'
+ht-degree: 74%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 75%
 
 的 [!UICONTROL 模型API]，也称为API阻止列表，它允许用户查看和管理在机器学习模型中使用的属性（也称为功能）列表 [!UICONTROL Automated Personalization] （美联社）和 [!UICONTROL 自动定位] (AT)活动。 如果要从AP或AT活动的模型中排除一个或多个属性，可以使用模型API将这些属性添加到“阻止列表”。
 
-有关详细信息，请参阅 [模型API概述](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}.
+有关详细信息，请参阅 [模型API概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### [!UICONTROL 自动化区段]和[!UICONTROL 重要属性]报表中的信息与 CSV 下载中的信息相同吗？
 

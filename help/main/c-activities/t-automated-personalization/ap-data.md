@@ -5,9 +5,9 @@ title: 收集哪些数据来构建机器学习算法？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2025'
 ht-degree: 50%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 50%
 
 可以从 [!DNL Target] 机器学习算法中阻止功能，防止在任何[!UICONTROL 自动定位]或[!UICONTROL 自动个性化]模型或活动中使用它们。
 
-有关更多信息，请参阅 [模型API(列入阻止列表)概述](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} 在 *Adobe Target开发人员指南*.
+有关更多信息，请参阅 [模型API(列入阻止列表)概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} 在 *Adobe Target开发人员指南*.
 
 ## 设备和移动设备数据 {#device-mobile}
 

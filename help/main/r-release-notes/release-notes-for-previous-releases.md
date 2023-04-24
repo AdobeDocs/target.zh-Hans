@@ -4,10 +4,10 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '35948'
-ht-degree: 96%
+source-wordcount: '35960'
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->为确保交付在 VEC 中编写的更改，请确保您使用高于 2.8 的 [!DNL Target]SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) 版本 。
+>为确保交付在 VEC 中编写的更改，请确保您使用高于 2.8 的 [!DNL Target]SDK ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) 版本 。
 
 **已知问题**：使用 [!DNL Adobe Experience Platform Web SDK] 时，阴影根文件元素上的点击跟踪功能无法正常工作。(TNT-47012)
 
@@ -50,7 +50,7 @@ ht-degree: 96%
 
 * 修复了导致 `trackEvent` 函数始终返回错误的问题。
 
-有关所有 at.js 版本的信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
+有关所有 at.js 版本的信息，请参阅 [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}。
 
 ### [!DNL Target] Standard/Premium 22.14.5（2023 年 2 月 13 至 15 日）
 
@@ -70,7 +70,7 @@ ht-degree: 96%
 * 已修复涉及受众规则的活动（包含名称中带有点的参数）未返回预期体验以进行设备上决策的错误。
 * 修复了在 at.js 2.6.0 中引入的一个错误，其中即使在启用了 `mboxDisable` 后 at.js 仍触发投放调用。
 
-有关所有 at.js 版本的信息，请参阅 [at.js 版本详细信息](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
+有关所有 at.js 版本的信息，请参阅 [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}。
 
 ### [!DNL Target] Standard/Premium 22.13.3（2023 年 1 月 25 日至 26 日）
 
@@ -93,7 +93,7 @@ ht-degree: 96%
 * 禁用了在活动上线后更改[!UICONTROL 目标和设置]页面上的[!UICONTROL 与优化目标相同]设置的功能。(TGT-43923)
 * 修复了从 [!DNL Target Standard] 升级到 [!DNL Target Premium] 时导致 [!DNL Target] 后端默认工作区出现问题的情况。（TGT-44081 和 TGT-44306）
 * 进行了更改以允许包含点字符 “.” 的 [!DNL Analytics] 报表包。在它们的名称中用于在 [!DNL Target]UI 中创建 [!DNL Analytics]分类提要。
-* 更改了[!UICONTROL 实施]页面（[!UICONTROL 管理]>[!UICONTROL 实施]）上“设备上决策的实现方法”的链接，使其指向说明如何为所有受支持的 SDK（Node.js、Java、.NET 和 Python）使用设备上决策的页面。有关更多信息，请参阅 [Target SDK 快速入门](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}。
+* 更改了[!UICONTROL 实施]页面（[!UICONTROL 管理]>[!UICONTROL 实施]）上“设备上决策的实现方法”的链接，使其指向说明如何为所有受支持的 SDK（Node.js、Java、.NET 和 Python）使用设备上决策的页面。有关更多信息，请参阅 [Target SDK 快速入门](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}。
 * 修复了使用 [!DNL Scene7] 和 [!DNL Target] 时导致文件上传问题的情况。
 * 通过使用内部可用性审计的结果，增强了 [!DNL Target] UI 对残障人士提供的可访问性。这些增强的辅助功能包括访问以前无法通过键盘访问的功能、替代文本增强功能、缩放 UI 部分以提高可用性的能力、改进键盘焦点等等。(TGT-42759)
 * 对整个 [!DNL Target] UI 进行了各种本地化修复。

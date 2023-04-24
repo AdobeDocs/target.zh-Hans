@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2463'
 ht-degree: 96%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 96%
 |  | [AEM 内容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 新主题。请注意，出于测试目的，此功能处于“预发布”状态。 |
 | 4 月 5 日 | [使用选件决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 添加了一段文字，表示在使用选件决策的活动中不支持[!UICONTROL 将 Analytics 作为报告来源] (A4t)。 |
 | 4 月 3 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于安排在 2023 年 4 月 12 日，星期三的 [!UICONTROL Adobe Target 社区]问答喝咖啡休息时间的信息。 |
-|  | [将 Target 边缘节点列入允许列表](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 添加了注释以将所有 [!DNL Adobe Analytics] IP 地址块列入允许列表。 |
+|  | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 添加了注释以将所有 [!DNL Adobe Analytics] IP 地址块列入允许列表。 |
 | 3 月 30 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 更新了[!UICONTROL 自动分配]和[!UICONTROL 自动定位]功能的优化 A4T 量度的版本的发行说明，可让您在使用 [!UICONTROL A4T] 进行[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动时，根据二项式事件或连续事件选择量度。 |
 |  | [[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 更新了“支持的目标量度”部分，以包含有关使用 [!UICONTROL Analytics for Target] (A4T) [!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动的支持（和不支持）的量度的信息 |
 |  | [Adobe Target 教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | 更新了以下教程：<ul><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动分配]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动定位]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |

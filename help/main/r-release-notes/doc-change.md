@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7ce7df9d1553cc0eebd25b8812a480c2326ddbfa
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '2502'
-ht-degree: 95%
+source-wordcount: '2600'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,9 @@ ht-degree: 95%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 4 月 26 日 | [AEM [!UICONTROL 体验片段]和[!UICONTROL 内容片段]概述](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | 的 [!UICONTROL AEM内容片段] 功能现在可供所有人使用 [!DNL Target customers]. |
+|  | [[!UICONTROL AEM 内容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 的 [!UICONTROL AEM内容片段] 功能现在可供所有人使用 [!DNL Target customers]. |
+|  | [*Adobe Target 开发人员指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target开发人员指南* 已迁移至 *Adobe Experience League*. 移动到 *Experience League* 有助于将文本本地化为其他语言，使搜索在 *Experience League* 提供两个指南的搜索结果，并提供其他好处。<P>将来几天将实施来自先前位置的重定向。 请更新您的书签。 |
 | 4 月 24 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了有关以下Adobe Target社区咖啡时间问答的信息：<ul><li>适用于已验证环境的移动体验优化和个性化</li></ul> |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.4.1 版的发行说明。 |
 

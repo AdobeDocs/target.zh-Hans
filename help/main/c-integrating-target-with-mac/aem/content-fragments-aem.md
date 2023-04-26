@@ -2,12 +2,11 @@
 keywords: 体验;json;AEM;Adobe Experience Manager;导出到 Adobe Target;内容片段;片段;CF;cf;Headless;个性化;试验
 description: 了解如何在 [!DNL Adobe Target] 活动中使用 [!DNL Adobe Experience Manager] [!UICONTROL 内容片段]。
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]？
-badgePrerelease: label="Prerelease"
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '748'
 ht-degree: 100%
 
 ---
@@ -15,12 +14,6 @@ ht-degree: 100%
 # AEM [!UICONTROL 内容片段]
 
 在 [!DNL Target] 活动中使用在 [!DNL Adobe Experience Manager] (AEM) 中创建的[!UICONTROL 内容片段] (CF) 帮助进行 Headless 个性化或试验。
-
->[!NOTE]
->
->此功能于 2023 年 4 月 12 日作为预发布功能提供。作为预发布功能，您可以尝试在开发和暂存环境中使用[!UICONTROL 内容片段]，但不能在生产环境中使用。
->
->此功能将于 2023 年 4 月 26 日在 GA（全面上市）版本中提供。
 
 ## 注意事项
 

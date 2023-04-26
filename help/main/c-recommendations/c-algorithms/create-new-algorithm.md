@@ -5,7 +5,7 @@ title: 如何在Recommendations中创建标准？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: b5fbf23e9c2dfd76565fd6287ae07df2b7df2e21
 workflow-type: tm+mt
 source-wordcount: '2842'
 ht-degree: 52%
@@ -122,7 +122,7 @@ ht-degree: 52%
 
    可用的数据范围包括：
 
-   | 回顾窗口选项 | 更新了频度（悬停时显示） | 支持的alogrithms |
+   | 回顾窗口选项 | 更新了频度（悬停时显示） | 支持的算法 |
    | --- | --- | --- |
    | 六小时 | 算法每3-6小时运行一次 | [!UICONTROL 基于热门程度] 算法 [!UICONTROL 行为数据源] is [!DNL Adobe Target] |
    | 一天 | 算法每12-24小时运行一次 | [!UICONTROL 基于热门程度] 算法 |

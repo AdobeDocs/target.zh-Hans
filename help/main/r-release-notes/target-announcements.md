@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
 workflow-type: tm+mt
-source-wordcount: '2152'
-ht-degree: 90%
+source-wordcount: '1843'
+ht-degree: 100%
 
 ---
 
@@ -21,55 +21,11 @@ Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年
 
 有关更多信息，请参阅 [Adobe Experience Cloud 博客帖子](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
 
-## [!UICONTROL Adobe Target社区] 茶歇问答：适用于已验证环境的移动体验优化和个性化
-
-* **2023 年 4 月 26 日，星期三**
-* **下午1:00(EDT， UTC-4)**
-* **[注册信息](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-4-26-23-mobile-experience-optimization-amp/td-p/586372){target=_blank}**
-
-加入 [!DNL Adobe Target] 市场经理Brent Kostak，他讨论了 [!DNL Target] 和 [Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) (RTCDP)可以在受监管的行业中提高参与度、增加收入和提高客户忠诚度。
-
-+++详细信息
-
-品牌需要根据特定客户需求和行为提供高度个性化的相关体验。 由于存在有关营销技术中无Cookie未来的问题，受监管行业希望采用更稳健的客户参与框架，同时优化每个客户互动，以提供正确的内容和选件。
-
-跨金融服务和保险、零售、旅游和服务业以及电信行业的品牌如何采用最佳实践来在经过身份验证的环境中进行优化和个性化？ 了解移动应用程序对忠诚客户参与和维系的重要性，品牌如何启用数字自助服务或通过个性化体验增加新功能的采用率？
-
-在本课程中，了解如何 [!DNL Target] 和 [!DNL Real-Time Customer Data Platform] 在我们讨论的过程中，可以在受监管行业内提高参与度、增加收入和提高客户忠诚度：
-
-* 团队如何为匿名访客和经过身份验证的访客提供个性化体验
-* 通过个性化了解消费者权限和隐私标准
-* 通过匿名身份向经过身份验证的访客提供个性化内容和选件
-* 跨Web和移动设备的经过身份验证的安全网站的独特用例
-
-+++
-
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 
 注册参加以下网络研讨会，了解客户如何使用 [!DNL Target] 来实现其个性化和优化目标：
 
-### 每次都提供个性化的客户体验！
-
-* **2023 年 4 月 27 日，星期四**
-* **上午 9:00 至 10:00（英国夏令时，GMT +1），上午 10:00 至 11:00（中欧夏令时，GMT +2）**
-* **[注册信息](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
-
-凭借 [!DNL Adobe Target] 强大的测试和个性化功能，满足客户个性化需求。 通过在 Web、移动和数字设备上提供动态上下文体验，确保您与客户如影随形。
-
-+++详细信息
-
-网络研讨会将涵盖：
-
-* 为什么个性化是任何战略的关键部分
-* 识别和使用不同的活动类型
-* 聚焦 - 行业用例
-* 推动个性化的建议
-* [!DNL Target] 用户界面演示，突出显示
-   * 受众创建
-   * 建立[!UICONTROL 体验定位] (XT) 活动
-   * 配置[!UICONTROL 自动定位]和[!UICONTROL 自动个性化]活动
-
-+++
+目前没有任何安排。
 
 ## 过去的网络研讨会和技能培训课程录像
 

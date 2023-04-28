@@ -5,9 +5,9 @@ title: ' [!DNL Target] 的工作原理'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2565'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 以下资源包含帮助您实施 [!DNL Experience Platform Web SDK] 或 at.js 的详细信息：
 
 * [[!DNL Adobe Experience Platform Web SDK] 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* [使用  [!DNL Target]  实施  [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
+* [使用  [!DNL Adobe Experience Platform] 实施  [!DNL Target] ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
 
 每次访客请求已针对 [!DNL Target] 优化的页面时，都将一个请求发送到定位系统。该请求有助于确定要向该访客提供什么内容。实时进行此过程。每次加载页面时，系统都提出并履行对内容的请求。内容受营销人员控制的活动和体验的规则约束，并已定位到各个网站访客。其中提供每个网站访客最有可能作出响应、与其交互或最终购买的内容。个性化的内容有助于充分提高响应率、获客率和收入。
 

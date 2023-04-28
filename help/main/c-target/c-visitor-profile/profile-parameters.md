@@ -5,9 +5,9 @@ title: 什么是配置文件属性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2455'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
    | 参数类型 | 描述 |
    |--- |--- |
-   | mbox | 创建 mbox 时，直接通过页面代码传入。请参阅 [将参数传递到全局Mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**注意**：[!DNL Target] 对于每个 mbox 调用有 50 个唯一配置文件属性的限制。如果必须将超过 50 个配置文件属性传递到 [!DNL Target]，请使用配置文件更新 API 方法传递它们。有关详细信息，请参阅 [ [!DNL Adobe Target]  API 文档中的“配置文件更新”](https://developers.adobetarget.com/api/#updating-profiles)。 |
+   | mbox | 创建 mbox 时，直接通过页面代码传入。请参阅 [将参数传递到全局 Mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}。<br>**注意**：[!DNL Target] 对于每个 mbox 调用有 50 个唯一配置文件属性的限制。如果必须将超过 50 个配置文件属性传递到 [!DNL Target]，请使用配置文件更新 API 方法传递它们。有关详细信息，请参阅 [ [!DNL Adobe Target]  API 文档中的“配置文件更新”](https://developers.adobetarget.com/api/#updating-profiles)。 |
    | 配置文件 | 直接使用 JavaScript 代码段定义。这些代码段可存储运行总计，如消费者消费的总金额，并在每次 mbox 请求时执行这些代码段。请参阅以下“配置文件脚本属性”。 |
 
 ## 配置文件脚本属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -177,7 +177,7 @@ if (mbox.name == 'Track_Interest') {
 
 **是否可以使用配置文件脚本捕获位于数据层中的页面信息？**
 
-由于配置文件脚本在服务器端执行，因此它们无法直接读取页面。数据必须通过 mbox 请求或其他 [将数据导入Target的方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. 当数据进入 [!DNL Target] 之后，配置文件脚本可按照 mbox 参数或配置文件参数的形式读取数据。
+由于配置文件脚本在服务器端执行，因此它们无法直接读取页面。数据必须通过 mbox 请求或其他 [将数据传入 Target 的方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。 当数据进入 [!DNL Target] 之后，配置文件脚本可按照 mbox 参数或配置文件参数的形式读取数据。
 
 ## 脚本配置文件参数的 JavaScript 参考
 
@@ -246,14 +246,14 @@ else if (mbox.param("adobeQA"))
 | `page.url` | 当前 URL。 |
 | `page.protocol` | 页面使用的协议（http 或 https）。 |
 | `page.domain` | 当前的 URL 域（第一个斜杠之前的所有内容）。例如，`http://www.acme.com/categories/men_jeans?color=blue&size=small` 中的 `www.acme.com`。 |
-| `page.query` | 当前页面的查询字符串。“？”之后的所有内容。 例如，`http://www.acme.com/categories/mens_jeans?color=blue&size=small` 中的 `blue&size=small`。 |
-| `page.param('<par_name>')` | `<par_name>` 表示的参数的值。如果当前URL是Google的搜索页面，并且您已经输入 `page.param('hl')`，则对于URL，您将获得“en” `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
+| `page.query` | 当前页面的查询字符串。“?”之后的所有内容。例如，`http://www.acme.com/categories/mens_jeans?color=blue&size=small` 中的 `blue&size=small`。 |
+| `page.param('<par_name>')` | `<par_name>` 表示的参数的值。如果当前 URL 是 Google 搜索页面，而且您已经输入 `page.param('hl')`，则对于 URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`，您将获得“en”。 |
 | `page.referrer` | 与上述相同的一组操作适用于反向链接和登陆（即 referrer.url 是反向链接的 url 地址）。 |
 | `landing.url`, `landing.protocol`, `landing.query`, 和 `landing.param` | 类似于此类页面，但登陆页面除外。 |
 | `mbox.name` | 活动 mbox 的名称。 |
 | `mbox.param('<par_name>')` | 活动 mbox 中给定名称的 mbox 参数。 |
-| `profile.get('<par_name>')` | 客户端创建的用户配置文件参数，名称为 `<par_name>`。例如，如果用户设置了名为“gender”的配置文件参数，则可以使用“profile.gender”提取该值。 返回“`profile.<par_name>`“为当前访客设置；如果未设置任何值，则返回null。 请注意，`profile.get(<par_name>)` 被认定为函数调用。 |
-| `user.get('<par_name>')` | 返回“`user.<par_name>`“为当前访客设置；如果未设置任何值，则返回null。 |
+| `profile.get('<par_name>')` | 客户端创建的用户配置文件参数，名称为 `<par_name>`。例如，如果用户设置了名为“gender”的配置文件参数，则可以使用“profile.gender”提取该值。返回为当前访客设置的“`profile.<par_name>`”值；如果尚未设置任何值，则返回 null。请注意，`profile.get(<par_name>)` 被认定为函数调用。 |
+| `user.get('<par_name>')` | 返回为当前访客设置的“`user.<par_name>`”值；如果尚未设置任何值，则返回 null。 |
 | `user.categoryAffinity` | 返回最佳类别的名称。 |
 | `user.categoryAffinities` | 返回具有最佳类别的数组。 |
 | `user.isFirstSession` | 如果这是访客的第一个会话，则返回 true。 |
@@ -264,7 +264,7 @@ else if (mbox.param("adobeQA"))
 
 所有标准的 JavaScript 运算符均已列出并可用。JavaScript 运算符可用于字符串和数字（和其他数据类型）。简要介绍：
 
-| 操作员 | 描述 |
+| 运算符 | 描述 |
 | --- | --- |
 | `==` | 表示相等。当两边的操作数相等时，为 true。 |
 | `!=` | 表示不相等。当两边的操作数不相等时，为 true。 |
@@ -272,8 +272,8 @@ else if (mbox.param("adobeQA"))
 | `>` | 表示左侧的变量大于右侧的变量。如果变量相等，则得出的值为 false。 |
 | `<=` | 除了如果变量相等，则其所得的值为 true 之外，与 `<` 相同。 |
 | `>=` | 除了如果变量相等，则其所得的值为 true 之外，与 `>` 相同。 |
-| `&&` | 从逻辑上讲，“AND”左侧和右侧的表达式仅在两侧均为true时才为true（否则为false）。 |
-| `||` | 从逻辑上讲，“OR”左侧和右侧的表达式仅在一侧为true时才为true（否则为false）。 |
+| `&&` | 从逻辑上讲，对于“AND”左侧和右侧的表达式，仅当两侧都为 true 时才为 true（否则为 false）。 |
+| `||` | 从逻辑上讲，对于“OR”左侧和右侧的表达式，仅当一侧为 true 时才为 true（否则为 false）。 |
 | `//` | 检查源是否包含目标布尔值所包含的所有元素（源数组，目标数组）。<br>`//` 从（正则表达式对应的）目标提取子字符串并将它解码 `Array/*String*/ decode(String encoding, String regexp, String target)`。<br>该功能还支持使用常量字符串值、分组 (`condition1 || condition2) && condition3` 和正则表达式 (`/[^a-z]$/.test(landing.referring.url)`)。 |
 
 ## 培训视频：配置文件脚本 ![“教程”标记](/help/main/assets/tutorial.png)

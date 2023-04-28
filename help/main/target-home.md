@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化�
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 107556e43b088d5a2033b80e3f5ef63ee3fe0632
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->除本指南外，还有以下内容 [!DNL Adobe Target] 指南也可用：
+>除本指南外，还提供了以下 [!DNL Adobe Target] 指南：
 >
 >- [*Adobe Target 开发人员指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}
 >
 >- [*Adobe Target 教程*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank}
 >
->有关发行信息，请参阅 [Target发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) 中。
+>有关发行信息，请参阅本指南中的 [Target 发行说明（最新）](/help/main/r-release-notes/release-notes.md)。
 
 以下部分将向您介绍本指南中的有用链接，这些链接是按照目标受众并基于典型的工作职能来排列的：
 

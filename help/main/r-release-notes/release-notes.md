@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 85%
 |--- |--- |
 | 用于 Headless 个性化和试验的 AEM [!UICONTROL 内容片段] | 在 [!DNL Target] 活动中使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]。将简单易用的 AEM 与 [!DNL Target] 中强大的人工智能 (AI) 和机器学习 (ML) 功能结合使用，帮助进行 Headless 个性化和试验。<P>有关详细信息，请参阅 [AEM [!UICONTROL 内容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)。 |
 | 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。<p>**注意**：将在 2023 年 5 月 9 日为所有客户推出此功能。 |
-| [*Adobe Target 开发人员指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | 的 *Adobe Target开发人员指南* 已迁移至 *[!UICONTROL Adobe Experience League]*. 移动到 *[!UICONTROL Experience League]* 辅助以其他语言定位文本，使搜索在 *Experience League* 来跨越和提供来自 *[!UICONTROL Adobe Target Business Pactier Guide]* 和 *[!UICONTROL Adobe Target开发人员指南]*，并提供其他好处。<P>系统会将您从上一个位置重定向到 *[!UICONTROL Experience League]* 自动。 请根据需要更新您的书签。 |
+| [*Adobe Target 开发人员指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 开发人员指南*&#x200B;已迁移至 *[!UICONTROL Adobe Experience League]*。转移到&#x200B;*[!UICONTROL Experience League]* 有助于用其他语言对文本进行本地化，统一&#x200B;*Experience League* 中的搜索，以跨越并提供 *[!UICONTROL Adobe Target 商业实践指南]*&#x200B;和 *[!UICONTROL Adobe Target 开发人员指南]*&#x200B;中的搜索结果，并提供额外的益处。<P>您将会自动从以前的位置重定向到 *[!UICONTROL Experience League]*。请根据需要更新您的书签。 |
 
 ## 其他发行说明和版本详细信息
 

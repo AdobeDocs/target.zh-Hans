@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
+source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
 workflow-type: tm+mt
-source-wordcount: '2615'
-ht-degree: 100%
+source-wordcount: '2648'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 5 月 3 日 | [查看报表 — A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 添加了以下常见问题解答：<ul><li>如何跟踪 [!DNL Analysis Workspace] 使用 [!UICONTROL Analytics for Target] (A4T)?</li></ul> |
+|  | [配置文件属性](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | 向“landing.URL”行添加了其他信息。 |
 | 4 月 26 日 | [AEM [!UICONTROL 体验片段]和[!UICONTROL 内容片段]概述](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | [!UICONTROL AEM 内容片段]功能现在可供所有 [!DNL Target customers] 使用。 |
 |  | [[!UICONTROL AEM 内容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | [!UICONTROL AEM 内容片段]功能现在可供所有 [!DNL Target customers]使用。 |
 |  | [*Adobe Target 开发人员指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 开发人员指南*&#x200B;已迁移至 *[!UICONTROL Adobe Experience League]*。迁移到 *[!UICONTROL Experience League]* 有助于用其他语言将文字本地化、统一在 *Experience League* 中进行搜索以跨越 *[!UICONTROL Adobe Target 商业实践指南]*&#x200B;和 *[!UICONTROL Adobe Target 开发人员指南]*&#x200B;并提供来自二者的搜索结果，还可带来额外益处。<P>您将自动从以前的位置重定向到 *[!UICONTROL Experience League]*。请根据需要更新您的书签。 |

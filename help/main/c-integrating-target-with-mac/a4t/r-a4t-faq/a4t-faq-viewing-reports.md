@@ -4,9 +4,9 @@ description: 查找有关在使用Analytics for [!DNL Target] (A4T)。 A4T允许
 title: 查找有关使用A4T查看报表的问题解答？
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
 workflow-type: tm+mt
-source-wordcount: '2654'
+source-wordcount: '2714'
 ht-degree: 29%
 
 ---
@@ -154,7 +154,7 @@ ht-degree: 29%
 
 ## 为什么 [!DNL Analytics] 和 [!UICONTROL 适用于Adobe Target的Analytics] (A4T)计算 [!UICONTROL 独特访客] 量度不同？ {#section_0C3B648AB54041F9A2AA839D51791883}
 
-+++运行A/B测试时回答，该测试使用 [韦尔奇的T检验](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}（置信度量度）来选择测试的入选者，其中一个假设是存在固定的时间范围。 除非您查看的是该固定样本量，否则测试在统计上无效。
++++运行A/B测试时回答，该测试使用 [韦尔奇的T检验](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} （置信度量度）选择测试的入选者时，其中一个假设是存在固定的时间范围。 除非您查看的是该固定样本量，否则测试在统计上无效。
 
 的 [!UICONTROL 独特访客] 量度在 [!DNL Analytics] 和 [!DNL Target] 仅当您查看的时段比实际测试的时段短。 如果未达到样本量，测试就不那么可靠。 有关详细信息，请参阅 [Evan Miller 的网站](https://www.evanmiller.org/index.html)上的[如何正确运行 A/B 测试](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
 
@@ -198,5 +198,19 @@ ht-degree: 29%
 * 如果转化在报表窗口之外发生，则转化在 [!DNL Analytics].
 * 在“目标”流量部分中， [!UICONTROL 自动定位] 活动时，访客可能会在一个会话到下一个会话期间看到不同的体验。 例如，如果其用户档案或上下文已更改且 [!DNL Target]的机器学习算法决定，它们更有可能根据新体验进行转化。 随着访客在体验之间移动，所看到的每个体验的访问计数都会递增。 这与常规A/B测试活动不同，在这些活动中，体验在每次访问时都对访客具有粘滞性。
 * 如果访客在每次访问中看到多个体验，则任何转化始终都会归因于访客最近查看的体验。 如前所述，访客查看的每个体验的访问计数都会递增。 在“ ”下查看体验时，这可能会人为地降低每个体验的转化率[!UICONTROL 目标]“维度” [!DNL Adobe Analytics] 报表。
+
++++
+
+## 如何跟踪 [!DNL Analysis Workspace] 使用 [!UICONTROL Analytics for Target] (A4T)? {#activity-impressions}
+
++++回答
+
+要查看 [!DNL Analysis Workspace]:
+
+1. 在 [!DNL Target] UI，单击 **[!UICONTROL 在Analytics中查看]**.
+1. 添加 **[!UICONTROL 活动展示次数]** 列 [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} 报表。
+1. 在 **[!UICONTROL 活动展示次数]** 列中，单击 [!UICONTROL 齿轮] 图标。
+1. 单击 **[!UICONTROL 使用非默认的归因模型]**.
+1. 选择 **[!UICONTROL 同一接触模型]** > **[!UICONTROL 应用]**.
 
 +++

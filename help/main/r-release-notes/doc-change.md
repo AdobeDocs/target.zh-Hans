@@ -19,7 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 5 月 3 日 | [查看报表 — A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 添加了以下常见问题解答：<ul><li>如何跟踪 [!DNL Analysis Workspace] 使用 [!UICONTROL Analytics for Target] (A4T)?</li></ul> |
+| 5 月 3 日 | [查看报表 — A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 添加了以下常见问题解答：<ul><li>使用 [!UICONTROL Analytics for Target] (A4T) 时如何跟踪 [!DNL Analysis Workspace] 中的活动印象？</li></ul> |
 |  | [配置文件属性](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | 向“landing.URL”行添加了其他信息。 |
 | 4 月 26 日 | [AEM [!UICONTROL 体验片段]和[!UICONTROL 内容片段]概述](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | [!UICONTROL AEM 内容片段]功能现在可供所有 [!DNL Target customers] 使用。 |
 |  | [[!UICONTROL AEM 内容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | [!UICONTROL AEM 内容片段]功能现在可供所有 [!DNL Target customers]使用。 |

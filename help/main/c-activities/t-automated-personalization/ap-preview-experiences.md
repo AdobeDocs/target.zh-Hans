@@ -5,14 +5,14 @@ title: 如何在VEC中预览Automated Personalization体验？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: bfe25200407086680b2f2a4e9f33f8ec130c25ad
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 47%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# !在可视化体验编辑器中预览自动个性化体验
+# 在可视化体验编辑器中预览自动个性化体验
 
 因为 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)活动会对页面上的多个选件进行比较，因此预览每个体验中的页面将会很有帮助。
 

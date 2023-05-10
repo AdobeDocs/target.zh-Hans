@@ -4,9 +4,9 @@ description: 了解如何创建 [!UICONTROL 自动分配] 和 [!UICONTROL 自动
 title: A4T是否支持 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
+source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1271'
 ht-degree: 7%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 7%
 A4T集成允许您：
 
 * 使用 [自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) 多臂老虎机功能，可引导流量获得成功体验。
-* 使用 [自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 组合机器学习算法，为每个访客选择最佳体验。 [!UICONTROL 自动定位] 使用 [!DNL Adobe Analytics] 目标量度和 [!DNL Adobe Analytics]“丰富的报告和分析功能。
+* 使用 [自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 组合机器学习算法，为每个访客选择最佳体验。 [!UICONTROL 自动定位] 在使用 [!DNL Adobe Analytics] 目标量度以及 [!DNL Adobe Analytics].
 
-确保您已 [实施了用于A/B测试和体验定位活动的A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 如果您使用 `analyticsLogging = client_side`，则还必须通过 `sessionId` 值 [!DNL Analytics]. 有关更多信息，请参阅 [Analytics for Target(A4T)报表](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} 在 *Adobe Target SDK* 的双曲余切值。
+确保您具有 [实施了用于A/B测试和体验定位活动的A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 如果您使用 `analyticsLogging = client_side`，则还必须通过 `sessionId` 值 [!DNL Analytics]. 有关更多信息，请参阅 [Analytics for Target(A4T)报表](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} 在 *Adobe Target开发人员指南*.
 
 若要开始，请执行以下操作：
 
@@ -110,7 +110,7 @@ A4T集成允许您：
 
 * **培训频度**: [!UICONTROL 自动分配] 和往常一样，模特们继续每小时训练一次。
 * **归因模型**: [!DNL Target] 使用 [!DNL Adobe Analytics] 默认归因模型[!UICONTROL  自动分配] 使用A4T的活动。
-* **置信度**:使用的置信度公式 [!UICONTROL 自动分配] 活动与 [!DNL Adobe Analytics] [!UICONTROL A4T] 的上界。 [如下所述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL 自动分配] 使用比常规更保守的置信区间 [!UICONTROL A/B测试] 活动。 这些保守的置信水平补偿了重复的数据评价(peek)。 因此， [!DNL Adobe Analytics] 显示的置信区间比使用的置信区间窄 [!UICONTROL 自动分配] 算法。 但是，您可以根据哪些体验具有更多独特访客被发送到该体验，来确定算法最喜欢哪个体验。
+* **置信度**:使用的置信度公式 [!UICONTROL 自动分配] 活动与 [!DNL Adobe Analytics] [!UICONTROL A4T] 的上界。 [如下所述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL 自动分配] 使用比常规更保守的置信区间 [!UICONTROL A/B测试] 活动。 这些保守的置信水平补偿了重复的数据评价(peek)。 因此， [!DNL Adobe Analytics] 显示的置信区间比使用的区间窄 [!UICONTROL 自动分配] 算法。 但是，您可以根据哪些体验具有更多独特访客被发送到该体验，来确定算法最喜欢哪个体验。
 * **入选者状态**:目前， [“还没有入选者”和“入选者”徽章](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) 在 [!UICONTROL A4T] 面板 [!DNL Analysis Workspace]. 如果在中查看同一报表，则这些徽章也将不可用 [!DNL Target]. 入选者“星形”标记，显示在 [!DNL Target] 报表 [!UICONTROL 自动分配] 应忽略使用A4T的活动。 此徽章反映的是常规的置信度计算，而不是 [!UICONTROL 自动分配].
 
 ### 自动定位 {#at}

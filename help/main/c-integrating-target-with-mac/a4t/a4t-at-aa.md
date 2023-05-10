@@ -4,7 +4,7 @@ description: 了解如何创建 [!UICONTROL 自动分配] 和 [!UICONTROL 自动
 title: A4T是否支持 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
+source-git-commit: 99bd509988a7d1545a6a1fe59aa59f35ef0a7d11
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 7%
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # [!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动支持 A4T
 
-的 [!DNL Adobe Target] — 对 — [!DNL Adobe Analytics] 集成，称为 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)支持 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动。
+的 [!DNL Adobe Target] — 对 — [!DNL Adobe Analytics] 集成，称为 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，支持 [!UICONTROL 自动分配] 和 [!UICONTROL 自动定位] 活动。
 
 A4T集成允许您：
 

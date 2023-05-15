@@ -4,8 +4,8 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
-workflow-type: ht
+source-git-commit: 8c9693d6c20f7441bd1972188bf082c33f6a73c5
+workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新日期：2023 年 5 月 3 日（[请参阅“变更内容”](r-release-notes/doc-change.md)）**
+**上次更新日期：2023 年 5 月 15 日（[请参阅“变更内容”](r-release-notes/doc-change.md)）**
 
 >[!NOTE]
 >

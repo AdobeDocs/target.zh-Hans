@@ -5,10 +5,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: 如何使用实体属性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 53%
+source-wordcount: '1081'
+ht-degree: 54%
 
 ---
 
@@ -79,7 +79,7 @@ mboxCreate('productPage',
 
 此必填参数可识别产品。此字母数字 ID 必须在使用的所有 [!DNL Adobe Experience Cloud] 产品（包括 [!DNL Analytics]）中均相同，以便各个产品能够识别该项目并共享与其相关的数据。
 
-的 `entity.id` 值必须 *not* 包含斜杠、与号、问号、百分比符号、逗号或其他在REST API调用中传递时需要URL编码的标点字符。 允许使用连字符和下划线。 在 `entity.id` 值中包含无效标点符号会导致某些 [!DNL Recommendations] 功能失败。
+的 `entity.id` 值必须 *not* 包含空格、斜杠、与号、问号、百分比符号、逗号或其他在REST API调用中传递时需要URL编码的标点字符。 允许使用连字符和下划线。 在 `entity.id` 值中包含无效标点符号会导致某些 [!DNL Recommendations] 功能失败。
 
 示例: `'entity.id=67833'`
 

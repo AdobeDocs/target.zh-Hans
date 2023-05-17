@@ -5,8 +5,8 @@ title: 什么是配置文件属性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
-workflow-type: tm+mt
-source-wordcount: '2466'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -249,7 +249,7 @@ else if (mbox.param("adobeQA"))
 | `page.query` | 当前页面的查询字符串。“?”之后的所有内容。例如，`http://www.acme.com/categories/mens_jeans?color=blue&size=small` 中的 `blue&size=small`。 |
 | `page.param('<par_name>')` | `<par_name>` 表示的参数的值。如果当前 URL 是 Google 搜索页面，而且您已经输入 `page.param('hl')`，则对于 URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`，您将获得“en”。 |
 | `page.referrer` | 与上述相同的一组操作适用于反向链接和登陆（即 referrer.url 是反向链接的 url 地址）。 |
-| `landing.url`, `landing.protocol`, `landing.query`, 和 `landing.param` | 类似于此类页面，但登陆页面除外。<P>要使登陆页面 URL 按预期工作，请设置 `context` > `browser` > 。`host` |
+| `landing.url`, `landing.protocol`, `landing.query`, 和 `landing.param` | 类似于此类页面，但登陆页面除外。<P>要使登陆页面 URL 按预期工作，请设置 `context` > `browser` > `host`。 |
 | `mbox.name` | 活动 mbox 的名称。 |
 | `mbox.param('<par_name>')` | 活动 mbox 中给定名称的 mbox 参数。 |
 | `profile.get('<par_name>')` | 客户端创建的用户配置文件参数，名称为 `<par_name>`。例如，如果用户设置了名为“gender”的配置文件参数，则可以使用“profile.gender”提取该值。返回为当前访客设置的“`profile.<par_name>`”值；如果尚未设置任何值，则返回 null。请注意，`profile.get(<par_name>)` 被认定为函数调用。 |

@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
+source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 100%
+source-wordcount: '1850'
+ht-degree: 94%
 
 ---
 
@@ -15,11 +15,15 @@ ht-degree: 100%
 
 关于 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
 
-## [!DNL Target] 在个性化引擎的 Gartner Magic Quadrant 方面评选佼佼者 (2022)
+## [!UICONTROL Adobe Target 社区]问答喝咖啡休息时间
 
-Gartner 在其最新的个性化引擎 (PE) Magic Quadrant 方面连续第五年将 [!DNL Adobe Target] 评为佼佼者。[!DNL Adobe] 在三个主要用例（数字营销、数字商务以及服务和支持）方面也获得了高分，并同比大幅增长。在所有受评估的供应商中，[!DNL Target] 获得了最高的检验能力分数。
+* **星期三2023年5月24日**
+* **8:00-9:00 a.m.(PT， UTC-7)**
+* **[注册信息](https://adobe.ly/3BgfeZZ){target=_blank}**
 
-有关更多信息，请参阅 [Adobe Experience Cloud 博客帖子](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}。
+我们将与瑞恩·罗伯茨、金特里·林和瑞恩·皮祖托一起 [!UICONTROL Adobe Target咨询] 团队和Mihnea Docea [!UICONTROL Adobe技术支持工程] 团队，将登录到 [Adobe Target社区](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank} 在此线程上直接与您聊天，关于 [!DNL Adobe Target] 与 [!DNL Target] @ [!UICONTROL Adobe Summit] 2023年。
+
+请随时查看 [按需Adobe Target峰会会议录像](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} 以便在此聊天中提出后续问题。
 
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 

@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5e500973dda9feba7e2599502c9ef61c894ddd39
+source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
 workflow-type: tm+mt
-source-wordcount: '2731'
+source-wordcount: '2749'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 5 月 17 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了有关 [!UICONTROL Adobe Target社区] 2023年5月24日星期三的问答时间。 |
 | 5 月 16 日 | [实体属性](/help/main/c-recommendations/c-products/entity-attributes.md) | 表示不允许在 `entity.id` 值。 |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 已更新 `viewsEnabled` 描述。 |
 |  | [单页应用程序实施](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 进行了以下更新：<ul><li>在步骤2之后的“实施Adobe Target视图”下添加了注释。</li><li>更新了“初始页面加载的操作顺序”下的步骤2“执行Target请求”。</li></ul> |

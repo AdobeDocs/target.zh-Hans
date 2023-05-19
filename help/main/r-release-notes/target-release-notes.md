@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
+source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 94%
+source-wordcount: '406'
+ht-degree: 68%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2023 年 5 月 15 日**
+**上次更新日期：2023 年 5 月 19 日**
 
 >[!NOTE]
 >
@@ -23,13 +23,37 @@ ht-degree: 94%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 23.5.1（2023年5月23日–25日）
+## [!DNL Target] Standard/Premium 23.5.1（2023 年 5 月 23-25 日）
 
-此版本包含以下新增功能、增强功能和修复：
+将按以下交错的时间表发布此版本：
+
+5月23日：欧洲、中东和非洲(EMEA)地区5月24日：亚太地区5月25日：美洲地区
+
+此版本包含以下新功能、增强和修复：
 
 | 功能 | 详细信息 |
 |--- |--- |
 | 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。 |
+
+* 修复了阻止某些客户使用“大于”或“小于”运算符创建访客配置文件受众的问题。 (TGT-45271)
+
+## [!DNL Target] Standard/Premium 23.5.2（2023 年 5 月 31 日）
+
+此版本包含以下增强功能和修复：
+
+* 修复了在生成配置文件API授权令牌时显示空白页面的问题。 (TGT-45387)
+* 修复了导致图像无法在 [!UICONTROL 创建设计] 图像名称包含GB 18030字符时，会显示此面板。 (TGT-44614)
+* 修复了导致 [!UICONTROL 自动个性化] 活动冻结。 (TGT-44820)
+
+## [!DNL Target] Standard/Premium 23.5.3（确定日期）
+
+此版本包含以下增强功能：
+
+| 功能 | 详细信息 |
+|--- |--- |
+| [!UICONTROL QA模式] 表示 [!UICONTROL Automated Personalization] 活动 | [!DNL Adobe Target] [!UICONTROL QA模式] 现在可供使用 [!UICONTROL Automated Personalization] 活动，替换 [!UICONTROL 预览链接] 功能。<P>有关更多信息，请参阅[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)。。 |
+
+* 改进了使用 [!UICONTROL 不允许重复项] 选项，同时 [管理排除项](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] 活动。
 
 ## 其他发行说明和版本详细信息
 

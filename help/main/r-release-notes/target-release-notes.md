@@ -4,9 +4,9 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
+source-git-commit: f326a689420e4d351aba20eec665fdd8cd721139
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '409'
 ht-degree: 68%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 68%
 
 将按以下交错的时间表发布此版本：
 
-5月23日：欧洲、中东和非洲(EMEA)地区5月24日：亚太地区5月25日：美洲地区
+5月23日：歐洲、中東和非洲(EMEA)區域5月24日：亞太(APAC)區域5月25日：美洲區域
 
 此版本包含以下新功能、增强和修复：
 
@@ -35,25 +35,25 @@ ht-degree: 68%
 |--- |--- |
 | 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。 |
 
-* 修复了阻止某些客户使用“大于”或“小于”运算符创建访客配置文件受众的问题。 (TGT-45271)
+* 已修正導致某些客戶無法使用「大於」或「小於」運運算元，以訪客設定檔建立對象的問題。 (TGT-45271)
 
 ## [!DNL Target] Standard/Premium 23.5.2（2023 年 5 月 31 日）
 
 此版本包含以下增强功能和修复：
 
-* 修复了在生成配置文件API授权令牌时显示空白页面的问题。 (TGT-45387)
-* 修复了导致图像无法在 [!UICONTROL 创建设计] 图像名称包含GB 18030字符时，会显示此面板。 (TGT-44614)
-* 修复了导致 [!UICONTROL 自动个性化] 活动冻结。 (TGT-44820)
+* 修正產生設定檔API授權權杖時導致顯示空白頁面的問題。 (TGT-45387)
+* 修正影像無法在「 」中顯示的問題。 [!UICONTROL 建立設計] 面板(如果影像名稱包含GB 18030字元)。 (TGT-44614)
+* 修正導致下列專案產生報表的問題： [!UICONTROL 自動個人化] 分析期間凍結的活動。 (TGT-44820)
 
-## [!DNL Target] Standard/Premium 23.5.3（确定日期）
+## [!DNL Target] Standard/Premium 23.5.3 （日期待定）
 
 此版本包含以下增强功能：
 
 | 功能 | 详细信息 |
 |--- |--- |
-| [!UICONTROL QA模式] 表示 [!UICONTROL Automated Personalization] 活动 | [!DNL Adobe Target] [!UICONTROL QA模式] 现在可供使用 [!UICONTROL Automated Personalization] 活动，替换 [!UICONTROL 预览链接] 功能。<P>有关更多信息，请参阅[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)。。 |
+| [!UICONTROL QA模式] 的 [!UICONTROL Automated Personalization] 活動 | [!DNL Adobe Target] [!UICONTROL QA模式] 現在已適用於 [!UICONTROL Automated Personalization] 活動，取代 [!UICONTROL 預覽連結] 功能。<P>有关更多信息，请参阅[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)。。 |
 
-* 改进了使用 [!UICONTROL 不允许重复项] 选项，同时 [管理排除项](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] 活动。
+* 效能增強功能，不允許重複資料功能（包括減少載入時間），同時 [管理排除專案](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) 在 [!UICONTROL Automated Personalization] 活動。
 
 ## 其他发行说明和版本详细信息
 

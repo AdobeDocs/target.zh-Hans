@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f553151e480d48178389132a0a97fa7de4e04c5
+source-git-commit: f44514c0b5ab643dec35aa230e46b88428f9e42b
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 54%
+source-wordcount: '549'
+ht-degree: 52%
 
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 54%
 | 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。 |
 
 * 已修正導致某些客戶無法使用「大於」或「小於」運運算元，以訪客設定檔建立對象的問題。 (TGT-45271)
+* 在整个 [!DNL Target] UI 中作出了多项本地化修复。
+* 已在多個位置更新Target UI，以便近期進行UI重新整理（在發佈更新之前，功能標幟後面會有變更）。
 
 ## [!DNL Target] Standard/Premium 23.5.2（2023 年 5 月 31 日）
 

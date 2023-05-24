@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f44514c0b5ab643dec35aa230e46b88428f9e42b
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 52%
+source-wordcount: '457'
+ht-degree: 72%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2023 年 5 月 22 日**
+**上次更新日期：2023 年 5 月 24 日**
 
 >[!NOTE]
 >
@@ -23,43 +23,28 @@ ht-degree: 52%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 23.5.1（2023 年 5 月 23-25 日）
-
-将按以下交错的时间表发布此版本：
-
-5月23日：歐洲、中東和非洲(EMEA)區域5月24日：亞太(APAC)區域5月25日：美洲區域
-
-此版本包含以下新功能、增强和修复：
-
-| 功能 | 详细信息 |
-|--- |--- |
-| 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。 |
-
-* 已修正導致某些客戶無法使用「大於」或「小於」運運算元，以訪客設定檔建立對象的問題。 (TGT-45271)
-* 在整个 [!DNL Target] UI 中作出了多项本地化修复。
-* 已在多個位置更新Target UI，以便近期進行UI重新整理（在發佈更新之前，功能標幟後面會有變更）。
-
 ## [!DNL Target] Standard/Premium 23.5.2（2023 年 5 月 31 日）
 
 此版本包含以下增强功能和修复：
 
-* 修正產生設定檔API授權權杖時導致顯示空白頁面的問題。 (TGT-45387)
-* 修正影像無法在「 」中顯示的問題。 [!UICONTROL 建立設計] 面板(如果影像名稱包含GB 18030字元)。 (TGT-44614)
-* 修正導致下列專案產生報表的問題： [!UICONTROL 自動個人化] 分析期間凍結的活動。 (TGT-44820)
-* 已修正導致某些客戶的預設工作區的Target UI中未顯示任何活動的問題。 (TGT-45286)
-* 更新「不允許重複專案」標幟的行為。 排除的重複選件旗標已更新，如果重複選件是預設內容選件（適用於API v3、v4），則允許重複選件；如果選項參考預設內容選件且未定義範本，則允許重複選項。 (TNT-46617)
-* 修正在URL中新增查詢引數，導致頁面無法在視覺化體驗撰寫器(VEC)中載入的問題。 (TGT-44873)
-* 修正體驗中文字/HTML部分字元錯誤逸出的問題。 (TGT-44600)
+* 修复了导致在生成配置文件 API 授权令牌时显示空白页面的问题。(TGT-45387)
+* 修复了在图像名称包含 GB 18030 个字符时组织图像在[!UICONTROL 创建设计]面板中显示的问题。(TGT-44614)
+* 修复了导致[!UICONTROL 自动个性化]活动的报告在分析过程中冻结的问题。(TGT-44820)
+* 修复了导致某些客户的默认工作区的Target UI中不显示任何活动的问题。 (TGT-45286)
+* 更新了“不允许重复项”标记的行为。 排除的重复选件标记已更新，如果重复选件是默认内容选件（适用于API v3、v4），则允许重复选件；如果选项引用默认内容选件且未定义模板，则允许重复选项。 (TNT-46617)
+* 修复了向URL添加查询参数导致页面无法在可视化体验编辑器(VEC)中加载的问题。 (TGT-44873)
+* 修复了体验中的文本/HTML中某些字符被错误转义的问题。 (TGT-44600)
 
-## [!DNL Target] Standard/Premium 23.5.3 （日期待定）
+## [!DNL Target]Standard/Premium 23.5.3（日期待定）
 
 此版本包含以下增强功能：
 
 | 功能 | 详细信息 |
 |--- |--- |
-| [!UICONTROL QA模式] 的 [!UICONTROL Automated Personalization] 活動 | [!DNL Adobe Target] [!UICONTROL QA模式] 現在已適用於 [!UICONTROL Automated Personalization] 活動，取代 [!UICONTROL 預覽連結] 功能。<P>有关更多信息，请参阅[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)。。 |
+| [!UICONTROL Automated Personalization] 活动的[!UICONTROL 质检模式] | [!DNL Adobe Target][!UICONTROL 质检模式]现在可用于 [!UICONTROL Automated Personalization] 活动，以更换[!UICONTROL 预览链接]功能。<P>有关更多信息，请参阅[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)。。 |
+| 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。 |
 
-* 效能增強功能，不允許重複資料功能（包括減少載入時間），同時 [管理排除專案](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) 在 [!UICONTROL Automated Personalization] 活動。
+* 性能增强，不允许重复项功能（包括减少加载时间），同时 [管理排除项](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) 在 [!UICONTROL Automated Personalization] 活动。
 
 ## 其他发行说明和版本详细信息
 

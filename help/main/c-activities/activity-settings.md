@@ -1,6 +1,6 @@
 ---
 keywords: 目标和设置；目标；优先级；持续时间
-description: 了解如何在Adobe中使用活动设置 [!DNL Target] 管理活动的目标、优先级和持续时间。
+description: 了解如何使用Adobe中的活动设置 [!DNL Target] 管理活动的目标、优先级和持续时间。
 title: 如何指定活动设置？
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # 活动设置
 
-使用 [!UICONTROL 活动设置] in [!DNL Adobe Target] 管理活动的目标、优先级和持续时间。
+使用 [!UICONTROL 活动设置] 在 [!DNL Adobe Target] 管理活动的目标、优先级和持续时间。
 
 1. 输入有关活动目标的注释。
 
@@ -24,9 +24,9 @@ ht-degree: 79%
 
    如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。
 
-   如果 [!UICONTROL 管理] > [!UICONTROL 报表] （默认），指定优先级：“低”、“中”或“高”。
+   如果未在中启用此选项 [!UICONTROL 管理] > [!UICONTROL 报告] （默认），指定优先级：“低”、“中”或“高”。
 
-   要启用细粒度优先级，请单击 [!UICONTROL 管理] > [!UICONTROL 报表]，然后切换 [!UICONTROL 启用细粒度优先级] 选项。
+   要启用细粒度优先级，请单击 [!UICONTROL 管理] > [!UICONTROL 报告]，然后切换 [!UICONTROL 启用细粒度优先级] 选项到“开”位置。
 
    如果已启用此选项，请指定一个介于 0 到 999 之间值：
 

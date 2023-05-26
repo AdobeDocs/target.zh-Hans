@@ -1,7 +1,7 @@
 ---
 keywords: 推荐
-description: 浏览一些常见情景，其中显示了在可视化体验编辑器(VEC)中对页面所做的更改如何影响Adobe Target显示体验的功能。
-title: 有哪些常见的页面修改方案？
+description: 浏览常见情景，这些情景显示了在可视化体验编辑器(VEC)中对页面所做的更改如何影响Adobe Target显示体验的功能。
+title: 哪些是常见的页面修改方案？
 feature: Visual Experience Composer (VEC)
 exl-id: 7a05fbf9-3427-436e-a54f-4f1dd16d885a
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 90%
 
 # 页面修改方案
 
-本主题中的情景显示对页面所做的更改如何影响Adobe Target显示体验的功能。
+本主题中的方案显示了对页面所做的更改如何影响Adobe Target显示体验的功能。
 
 Target 选择器可决定要在何处显示体验。如果页面在 Target 之外进行修改，则所做的更改可能会影响 Target 显示体验的功能。
 

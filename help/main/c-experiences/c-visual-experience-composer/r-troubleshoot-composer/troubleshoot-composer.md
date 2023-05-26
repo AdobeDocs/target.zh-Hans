@@ -1,7 +1,7 @@
 ---
-keywords: 定位；可视化体验编辑器；增强型可视化体验编辑器；VEC；可视化体验编辑器故障诊断；故障诊断；EEC；增强型体验编辑器；TLS;TLS 1.2
-description: 了解如何在某些情况下，对可视化体验编辑器(VEC)和增强型体验编辑器(EEC)有时会出现的问题进行故障诊断。
-title: 如何对可视化体验编辑器和增强型体验编辑器进行故障诊断？
+keywords: 定位；可视化体验编辑器；增强型可视化体验编辑器；VEC；可视化体验编辑器故障诊断；故障诊断；EEC；增强型体验编辑器；TLS；TLS 1.2
+description: 了解如何对在某些情况下，有时在可视化体验编辑器(VEC)和增强型体验编辑器(EEC)中发生的问题进行故障排除。
+title: 如何为可视化体验编辑器和增强型体验编辑器排除故障？
 feature: Visual Experience Composer (VEC)
 exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 # 可视化体验编辑器和增强型体验编辑器故障诊断
 
-有时， [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)和 [!UICONTROL 增强型体验编辑器] (EEC)。
+有时会出现显示问题 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)和 [!UICONTROL 增强型体验编辑器] (EEC)在一定条件下。
 
 VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC 编辑器，营销人员和设计人员可以使用可视化界面创建和更改内容。无需直接编辑代码，便可进行多种设计选择。使用编辑器提供的编辑选项也可以编辑 HTML 和 JavaScript。
 

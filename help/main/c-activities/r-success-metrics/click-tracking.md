@@ -1,7 +1,7 @@
 ---
 keywords: 点击跟踪;跟踪点击次数;点击次数;AppMeasurement
-description: 了解如何 [!DNL Adobe Target] 允许您跟踪任何作为成功量度的元素的点击量。
-title: 什么是点击跟踪？
+description: 了解如何 [!DNL Adobe Target] 用于将任何元素的点击作为成功量度进行跟踪。
+title: 点击跟踪是什么？
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,11 +13,11 @@ ht-degree: 67%
 
 # 点击跟踪
 
-[!DNL Adobe Target] 允许您跟踪任何作为成功量度的元素的点击量。
+[!DNL Adobe Target] 用于将任何元素的点击作为成功量度进行跟踪。
 
 >[!NOTE]
 >
->全局不支持跟踪点击 [!DNL Target] 请求。
+>全局上不支持跟踪点击 [!DNL Target] 请求（当它在基于表单的活动中用作位置时）。
 
 ## 设置点击跟踪 {#section_5540C5A533114E57BAE022A600B02E72}
 
@@ -30,17 +30,17 @@ ht-degree: 67%
 
    有关选择元素的提示，请参阅下面的&#x200B;*注意事项*&#x200B;部分。
 
-1. 单击 **[!UICONTROL 保存]** 来保存您所做的选择。
+1. 单击 **[!UICONTROL 保存]** 以保存您的选择。
 
 当活动参加者点击某个选定元素时，该点击即会被计为一次转化。
 
 ## “选定的元素”面板 {#selected-elements}
 
-对于 [!UICONTROL A/B测试], [!UICONTROL 体验定位] (XT)、 [!UICONTROL Automated Personalization] （美联社）和 [!UICONTROL 多变量测试] (MVT)活动， [!UICONTROL 选定的元素] 面板右侧列出了用于点击跟踪的选定元素。
+对象 [!UICONTROL A/B测试]， [!UICONTROL 体验定位] (XT)， [!UICONTROL Automated Personalization] (AP)，和 [!UICONTROL 多变量测试] (MVT)活动， [!UICONTROL 选定的元素] 面板在右侧列出了为点击跟踪选择的元素。
 
 ![“选定的元素”面板](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-将鼠标悬停在 [!UICONTROL 选定的元素] 的上界。 下表介绍了可对元素执行的各项操作：
+将鼠标悬停在 [!UICONTROL 选定的元素] 面板。 下表介绍了可对元素执行的各项操作：
 
 | 操作 | 描述 |
 | --- | --- |
@@ -50,7 +50,7 @@ ht-degree: 67%
 
 ### 添加元素
 
-如果您已经知道选择器的DOM路径，则可以通过单击面板顶部的加号图标来手动添加该路径。
+如果您已经知道选择器的DOM路径，则可以通过单击面板顶部的加号图标手动添加该路径。
 
 ![“添加元素”图标](/help/main/c-activities/r-success-metrics/assets/add-element.png)
 
@@ -68,15 +68,15 @@ ht-degree: 67%
 
    ![DOM 路径插图](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   与在活动创建工作流的步骤1中创建体验类似，您也可以通过页面底部的DOM路径选择器来选择一个元素。 在从 DOM 路径中选择元素时，VEC 中的相应元素将显示为“已选定”。要取消选择选定的元素，您可以在DOM路径选择器中再次单击该元素，或单击VEC中的“已选定”框。
+   与在活动创建工作流的步骤1中创建体验类似，您可以通过页面底部的DOM路径选择器来选择元素。 在从 DOM 路径中选择元素时，VEC 中的相应元素将显示为“已选定”。要取消选择选定的元素，您可以再次单击DOM路径选择器中的元素，或单击VEC中的“选定”框。
 
    有关更多信息，请参阅&#x200B;*可视化体验编辑器选项*&#x200B;中的[使用 DOM 路径浏览元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)。
 
-* 您可以浏览到其他页面，以跟踪您可能不会更改内容的页面上的点击次数。但前提是该页面必须包含在使用 [多页面功能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) 和 [!DNL at.js] 必须在其上实施。
-* 如果您选择了多个元素，则当参加者点击任一选定元素时，即会被计为一次点击。要单独对每个项目进行计数，需为每个元素分别设置成功量度。要通过单击页面上的多个元素来计数一个项目，请编辑CSS元素选择器以匹配多个元素。
+* 您可以浏览到其他页面，以跟踪您可能不会更改内容的页面上的点击次数。但前提是该页面必须包含在使用 [多页功能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) 和 [!DNL at.js] 必须在其上实施。
+* 如果您选择了多个元素，则当参加者点击任一选定元素时，即会被计为一次点击。要单独对每个项目进行计数，需为每个元素分别设置成功量度。要通过单击页面上的多个元素而计算一项，请编辑CSS元素选择器以匹配多个元素。
 * 务必选择要跟踪的元素的级别。例如，指定按钮时，请务必选择链接，而不要选择按钮文本。
 * 点击事件会在发生点击的同一页面上发送到 [!DNL Target]。
-* 如果点击跟踪量度是 [!UICONTROL Analytics for Target] (A4T)活动时，访客必须在页面加载后60秒内单击此元素，才能跟踪量度。
+* 如果点击跟踪指标是的目标指标， [!UICONTROL 目标分析] (A4T)活动，访客必须在页面加载后60秒内单击此元素，才能跟踪指标。
 * 如果元素的选择器中包含转义字符（包括以下字符），则无法对这些元素执行点击跟踪：
 
    | 字符 | 描述 |
@@ -95,14 +95,14 @@ ht-degree: 67%
 
    1. 调用 `event.preventDefault()`。
 
-   1. 火 [!DNL Target] 请求。
+   1. Fire [!DNL Target] 请求。
 
-   1. 开 [!DNL Target] 请求成功或错误回调，执行默认行为：
+   1. 日期 [!DNL Target] 请求成功或错误回调，执行默认行为：
 
       * `A`（链接）标记：默认行为是导航到由 HREF 属性定义的 URL。
       * `FORM` 标记：默认行为是提交表单。
 
-   此默认行为可能会干扰 [!DNL Analytics] 点击跟踪。 如果您使用 [!DNL Analytics]，则您应该依赖 [!DNL Analytics] ，而不是 [!DNL Target].
+   此默认行为可能会妨碍 [!DNL Analytics] 点击跟踪。 如果您使用 [!DNL Analytics]，您应该依靠 [!DNL Analytics] 的点击跟踪，而不是 [!DNL Target].
 
 * 如果页面和活动 URL 属于不同的属性，则不会在该页面上记录点击跟踪。企业用户权限是 [!DNL Target Premium] 功能。 有关更多信息，请参阅[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -117,7 +117,7 @@ ht-degree: 67%
 以下视频包含有关创建点击跟踪成功量度的信息。
 
 * 了解“目标”量度
-* 了解并构建 [!UICONTROL 转化], [!UICONTROL 收入]和 [!UICONTROL 参与度] 量度
+* 了解和构建 [!UICONTROL 转化]， [!UICONTROL 收入]、和 [!UICONTROL 参与] 量度
 * 构建点击跟踪量度
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

@@ -13,7 +13,7 @@ ht-degree: 95%
 
 # Adobe Target 从业者指南 {#using}
 
-+ [Adobe Target Business Pactier Guide主页](target-home.md)
++ [Adobe Target商业从业者指南主页](target-home.md)
 + Target 发行说明 {#release-notes}
    + [Target 公告和活动](/help/main/r-release-notes/target-announcements.md)
    + [Target 发行说明（当前版本）](r-release-notes/release-notes.md)
@@ -89,16 +89,16 @@ ht-degree: 95%
          + [共享量度、受众和报表 - A4T 常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [旧版 SiteCatalyst 与 Test&amp;Target 集成 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [使用和不使用 A4T 时，Target 和 Analytics 之间的预期数据差异](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + 将Target与Adobe Journey Optimizer集成(AJO) {#ajo}
+   + 将Target与Adobe Journey Optimizer (AJO)集成 {#ajo}
       + [使用选件决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
-   + 将Target与Adobe Experience Manager集成(AEM) {#aem}
+   + 将Target与Adobe Experience Manager (AEM)集成 {#aem}
       + [将Target与AEM集成概述](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 体验片段和内容片段 {#fragments}
          + [AEM 体验片段和内容片段概述](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM 体验片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [AEM 内容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
-   + [将Target与Adobe Audience Manager集成(AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + [将Target与Adobe Audience Manager (AAM)集成](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [与 Real-time Customer Data Platform 集成](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [将 Target 与 Adobe Campaign 集成](c-integrating-target-with-mac/campaign-and-target.md)
 + 活动 {#activities}

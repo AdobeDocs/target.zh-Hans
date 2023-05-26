@@ -125,27 +125,27 @@ Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选�
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-### 影片：設定 [!DNL Adobe Target] 目的地位於 [!DNL Real-Time Customer Data Platform]
+### 视频：配置 [!DNL Adobe Target] 目标位置 [!DNL Real-Time Customer Data Platform]
 
-瞭解如何設定 [!DNL Adobe Target] 目的地位於 [!DNL Real-Time Customer Data Platform] 開始傳送區段和設定檔屬性的方式 [!DNL Real-Time CDP] 至 [!DNL Target].
+了解如何配置 [!DNL Adobe Target] 目标位置 [!DNL Real-Time Customer Data Platform] 开始发送区段和配置文件属性 [!DNL Real-Time CDP] 到 [!DNL Target].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
 
-### 影片：啟用區段和設定檔屬性
+### 视频：激活区段和配置文件属性
 
-瞭解如何從啟動區段和設定檔屬性 [!DNL Adobe Real-Time Customer Data Platform] 至 [!DNL Adobe Target] 在您的網站、行動應用程式和其他數位屬性中顯示即時個人化內容。
+了解如何从激活区段和配置文件属性 [!DNL Adobe Real-Time Customer Data Platform] 到 [!DNL Adobe Target] 在您的网站、移动应用程序和其他数字资产中显示实时个性化内容。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
 
-### 影片：使用 [!DNL Real-Time CDP] 中的區段 [!DNL Target]
+### 视频：使用 [!DNL Real-Time CDP] 中的区段 [!DNL Target]
 
-瞭解如何使用 [!DNL Real-Time Customer Data Platform] 中的區段 [!DNL Adobe Target] 在您的網站和行動應用程式上提供個人化體驗。
+了解如何使用 [!DNL Real-Time Customer Data Platform] 中的区段 [!DNL Adobe Target] 在您的网站和移动应用程序上提供个性化体验。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
 
-### 影片：使用 [!DNL Real-Time CDP] 中的設定檔屬性 [!DNL Adobe Target]
+### 视频：使用 [!DNL Real-Time CDP] 中的配置文件属性 [!DNL Adobe Target]
 
-瞭解如何使用 [!DNL Adobe Real-Time Customer Data Platform] 中的設定檔屬性 [!DNL Adobe Target] 在您的網站和行動應用程式上提供個人化體驗。
+了解如何使用 [!DNL Adobe Real-Time Customer Data Platform] 中的配置文件属性 [!DNL Adobe Target] 在您的网站和移动应用程序上提供个性化体验。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 

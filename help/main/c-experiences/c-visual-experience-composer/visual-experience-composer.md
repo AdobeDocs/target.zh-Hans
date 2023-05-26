@@ -1,7 +1,7 @@
 ---
-keywords: 可视化体验编辑器；vec;wysiwy
-description: 了解在Adobe Target中使用可视化体验编辑器(VEC)的基础知识。 VEC是一款WYSIWYG编辑器，可让您轻松创建个性化体验。
-title: 如何使用可视化体验编辑器(VEC)?
+keywords: 可视化体验编辑器；vec；wysiwyg
+description: 了解在Adobe Target中使用可视化体验编辑器(VEC)的基础知识。 VEC是一个WYSIWYG编辑器，可让您轻松创建个性化体验。
+title: 如何使用可视化体验编辑器(VEC)？
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
 source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
@@ -13,13 +13,13 @@ ht-degree: 92%
 
 # 可视化体验编辑器 (VEC)
 
-有关使用 [!UICONTROL 可视化体验编辑器] (VEC) [!DNL Adobe Target].
+有关使用的信息 [!UICONTROL 可视化体验编辑器] (VEC) in [!DNL Adobe Target].
 
-VEC是一个WYSIWYG用户界面，允许您在站点环境中轻松创建和测试个性化体验和选件。 您可以通过拖放、交换和修改网页（或选件）或移动网页的布局和内容来为 Target 活动创建体验和选件。
+VEC是一个WYSIWYG用户界面，可让您轻松地在站点上下文中创建和测试个性化体验和选件。 您可以通过拖放、交换和修改网页（或选件）或移动网页的布局和内容来为 Target 活动创建体验和选件。
 
 VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和设计人员可以使用可视化界面创建和更改内容。无需直接编辑代码，便可进行多种设计选择。使用编辑器提供的编辑选项也可以编辑 HTML 和 JavaScript。
 
-在目标上 **[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]** 选项卡，则可以输入默认的可视化体验编辑器URL。
+在目标上 **[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]** 选项卡，您可以输入默认可视化体验编辑器URL。
 
 ![默认 VEC URL 设置](/help/main/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -108,7 +108,7 @@ VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 可视化体验编辑器（第1个，共2个）(7:17) ![教程徽章](/help/main/assets/tutorial.png)
+### 可视化体验编辑器(1/2) (7:17) ![教程徽章](/help/main/assets/tutorial.png)
 
 * 更改页面的内容
 * 更改页面的布局

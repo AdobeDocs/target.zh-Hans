@@ -1,21 +1,21 @@
 ---
-keywords: 定位；Analytics；跟踪服务器；Analytics for Target;A4T
-description: 了解如何在Adobe中配置活动 [!DNL Target] 以使用Adobe Analytics作为报表源。 此集成称为Analytics，用于 [!DNL Target] (A4T)。
+keywords: 定位；analytics；跟踪服务器；analytics for target；a4t
+description: 了解如何在Adobe中配置活动 [!DNL Target] 以使用Adobe Analytics作为报表源。 此集成称为Analytics for [!DNL Target] (A4T)。
 title: 如何在Target中使用Analytics数据？
 feature: Analytics for Target (A4T)
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
 # 使用 Analytics 数据
 
-您可以在 [!DNL Adobe Target] 使用 [!DNL Adobe Analytics] 作为报表源(A4T)。
+您可以在中配置活动 [!DNL Adobe Target] 使用 [!DNL Adobe Analytics] 作为报表源(A4T)。
 
-有关将Analytics设置为Target数据源的详细信息，请参阅 [Adobe Analytics作为Adobe Target报表源](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+有关将Analytics设置为Target数据源的详细信息，请参阅 [将Adobe Analytics作为Adobe Target报表源](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 在设置将 Analytics 用作报表源的活动之前，请先为该活动建立目标，例如提升每位访客带来的收入 (RPV) 或增加购物车的点击量。需为营销活动选择最终成功量度。尽管可以在 Analytics 中随时选择其他量度，但您仍然必须指定希望此测试影响的特定量度。
 
@@ -29,7 +29,7 @@ ht-degree: 78%
 
 >[!NOTE]
 >
->如果您使用Adobe Analytics作为活动的报表源，并且使用的是at.js版本0.9.1（或更高版本），则在活动创建期间无需指定跟踪服务器。 at.js库会自动将跟踪服务器值发送到 [!DNL Target]. 在活动创建期间，您可以将“[!UICONTROL 目标和设置]”页面上的“[!UICONTROL 跟踪服务器]”字段留空。
+>如果您使用Adobe Analytics作为活动的报表源，并且使用的是at.js版本0.9.1（或更高版本），则无需在活动创建期间指定跟踪服务器。 at.js 库自动将跟踪服务器值发送到 [!DNL Target]。在活动创建期间，您可以将[!UICONTROL 目标和设置]页面上的[!UICONTROL 跟踪服务器]字段留空。
 
 将 Analytics 设置为报表源后，在设置活动时，不会显示用于设置报表受众的选项。Analytics 区段在“目标活动”报表中可用。
 

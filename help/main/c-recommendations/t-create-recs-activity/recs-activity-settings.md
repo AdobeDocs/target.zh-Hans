@@ -1,6 +1,6 @@
 ---
 keywords: 推荐;设置;名称;目标;优先级;持续时间;报表设置;其他元数据
-description: 了解如何配置用于在Adobe Target中描述和控制Recommendations活动的设置。
+description: 了解如何配置用于描述和控制Adobe Target中Recommendations活动的设置。
 title: 如何配置Recommendations活动设置？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
@@ -14,7 +14,7 @@ ht-degree: 84%
 
 # “推荐”活动设置
 
-有关可用于描述和控制 [!UICONTROL Recommendations] 活动 [!DNL Adobe Target].
+有关可用于描述和控制的设置的信息 [!UICONTROL Recommendations] 中的活动 [!DNL Adobe Target].
 
 ![“推荐”活动目标和设置页面](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -35,7 +35,7 @@ ht-degree: 84%
 `-`
 `@`
 
-如果您指定的[!UICONTROL 推荐]活动名称已被 [!UICONTROL Recommendations Classic] 中的其他活动使用，则会使用新名称重新同步新活动。新名称是在原始名称后附加一个时间戳，以使其具有唯一性。此新名称会同时显示在 [!DNL Target Standard/Premium] 和 [!UICONTROL Recommendations Classic].
+如果您指定的[!UICONTROL 推荐]活动名称已被 [!UICONTROL Recommendations Classic] 中的其他活动使用，则会使用新名称重新同步新活动。新名称是在原始名称后附加一个时间戳，以使其具有唯一性。此新名称会同时显示在两个中 [!DNL Target Standard/Premium] 和 [!UICONTROL Recommendations Classic].
 
 ## 目标
 
@@ -55,7 +55,7 @@ ht-degree: 84%
 
 ## 报表设置
 
-* **报表源：** 选择报表源： [!DNL Adobe Target] 或 [Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md). 活动开始后，请勿更改报表源。在活动开始后更改报表源会导致报表不一致。
+* **报表源：** 选择报表源： [!DNL Adobe Target] 或 [分析](/help/main/c-integrating-target-with-mac/a4t/a4t.md). 活动开始后，请勿更改报表源。在活动开始后更改报表源会导致报表不一致。
 * **目标量度：**&#x200B;选择用于确定活动是否成功的成功量度。
 * **其他量度：**&#x200B;配置要在报表中使用的其他成功量度。
 * **报表的受众：**&#x200B;定义可在筛选报表时使用的受众。

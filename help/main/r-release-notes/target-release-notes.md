@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: f44514c0b5ab643dec35aa230e46b88428f9e42b
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 72%
+source-wordcount: '549'
+ht-degree: 73%
 
 ---
 
@@ -15,13 +15,31 @@ ht-degree: 72%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2023 年 5 月 24 日**
+**上次更新日期：2023 年 5 月 22 日**
 
 >[!NOTE]
 >
 >发布日期、功能及其他信息如有更改，恕不另行通知。
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+## [!DNL Target] Standard/Premium 23.5.1（2023 年 5 月 23-25 日）
+
+将按以下交错的时间表发布此版本：
+
+5 月 23 日：欧洲、中东和非洲（EMEA）地区
+5 月 24 日：亚太（APAC）地区
+5 月 25 日：美洲区
+
+此版本包含以下新功能、增强和修复：
+
+| 功能 | 详细信息 |
+|--- |--- |
+| 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。 |
+
+* 修复了阻止某些客户使用“大于”或“小于”运算符创建具有访客配置文件的受众的问题。(TGT-45271)
+* 在整个 [!DNL Target] UI 中作出了多项本地化修复。
+* 已在多个位置更新了Target UI，以便即将进行UI刷新（在发布更新之前，更改会一直保留在功能标记后面）。
 
 ## [!DNL Target] Standard/Premium 23.5.2（2023 年 5 月 31 日）
 
@@ -42,7 +60,6 @@ ht-degree: 72%
 | 功能 | 详细信息 |
 |--- |--- |
 | [!UICONTROL Automated Personalization] 活动的[!UICONTROL 质检模式] | [!DNL Adobe Target][!UICONTROL 质检模式]现在可用于 [!UICONTROL Automated Personalization] 活动，以更换[!UICONTROL 预览链接]功能。<P>有关更多信息，请参阅[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)。。 |
-| 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。 |
 
 * 性能增强，不允许重复项功能（包括减少加载时间），同时 [管理排除项](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) 在 [!UICONTROL Automated Personalization] 活动。
 

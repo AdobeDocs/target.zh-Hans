@@ -1,6 +1,6 @@
 ---
 keywords: MVT;多变量测试;多变量测试创建;MVT 创建;MVT 工作原理;多变量测试工作原理
-description: 了解如何在Adobe中使用可视化体验编辑器(VEC) [!DNL Target] 要直接在 [!DNL Target]-enabled页面。
+description: 了解如何在Adobe中使用可视化体验编辑器(VEC) [!DNL Target] 要在上创建多变量测试(MVT) [!DNL Target]-enabled页。
 title: 如何创建多变量测试？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 使用 [!DNL Adobe Target] 中的[!UICONTROL 可视化体验编辑器] (VEC)，可以轻松地在启用了 Target 的页面上直接创建测试，并在 [!DNL Target] 中修改页面的各个部分。
 
-的 [!DNL Target] 通过点击式编辑器，您可以选择任意位置并添加多个选件。
+此 [!DNL Target] 使用点击式编辑器，您可以选择任意位置并添加多个选件。
 
 [!UICONTROL 多变量测试] (MVT) 会生成单页报表。换言之，多变量测试会在某个特定的 URL 上运行，而测试中包含为该页面设计的所有体验。
 
@@ -55,7 +55,7 @@ ht-degree: 87%
 
    ![活动名称字段](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
-   活动名称不能以以下任何字符开头：
+   活动名称不能以下列任何字符开头：
 
    | 字符 | 描述 |
    |--- |--- |
@@ -88,13 +88,13 @@ ht-degree: 87%
 
    下图指示活动流量不足。
 
-   ![估计图像](assets/estimator.png)
+   ![估算器图像](assets/estimator.png)
 
    下图指示活动流量不足。
 
-   ![估算器2图像](assets/estimator2.png)
+   ![estimator2图像](assets/estimator2.png)
 
-1. 单击 **[!UICONTROL 下一个]** 向 [!UICONTROL 定位] 页面。
+1. 单击 **[!UICONTROL 下一个]** 以前进到 [!UICONTROL 定位] 页面。
 
 1. 选择受众，以及您希望参加活动的符合条件的访客所占的百分比。
 

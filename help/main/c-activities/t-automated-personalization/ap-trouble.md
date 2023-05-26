@@ -1,7 +1,7 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: 探索在Adobe Target中使用Automated Personalization(AP)活动时可能遇到的潜在挑战，以及建议的解决方案。
-title: 如何对Automated Personalization进行故障诊断？
+description: 探索您在Adobe Target中使用Automated Personalization (AP)活动时可能面临的挑战以及建议的解决方案。
+title: 如何为Automated Personalization排除故障？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
@@ -40,7 +40,7 @@ ht-degree: 91%
 
 ## 我的 AP 活动 URL 在错误的页面上显示选件内容。 {#section_82A224406DBF4107B05204BEFBBE458C}
 
-在AP中，URL和模板测试规则将添加到 [!DNL Target] 请求条目约束（例如target-global-mbox），在该约束中，只对它们进行一次评估。 用户符合活动条件后，不会重新评估Target请求级别的定位规则。 但是，定位受众会添加到位置定位规则中。
+在AP中，URL和模板测试规则将添加到 [!DNL Target] 请求条目约束（例如target-global-mbox），其中只计算一次。 用户符合活动资格后，不会重新评估Target请求级别的定位规则。 但是，定位受众会添加到位置定位规则中。
 
 **解决方案：**&#x200B;将必需的模板规则作为营销活动的输入受众进行添加。每次进行请求/调用时，都会进行受众评估。
 

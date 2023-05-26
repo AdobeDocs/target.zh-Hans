@@ -1,7 +1,7 @@
 ---
-keywords: 体验；可视化体验编辑器；增强型体验编辑器；基于表单的体验编辑器；表单编辑器；可视化编辑器；体验编辑器；混合内容；iframe；防iframe嵌套；嵌套iframe;x-frame-options;x框架选项；跨域；跨域问题；身份验证工作流
-description: 了解有关Adobe体验编辑器 — 可视化体验编辑器(VEC)、基于表单的体验编辑器和单页可视化体验编辑器的更多信息。
-title: 哪些体验编辑器可以 [!DNL Target] 选件？
+keywords: 体验；可视化体验编辑器；增强型体验编辑器；基于表单的体验编辑器；表单编辑器；可视化编辑器；体验编辑器；混合内容；iframe；防iframe嵌套；嵌套iframe；x-frame-options；x框架选项；跨域；跨域问题；身份验证工作流
+description: 详细了解Adobe体验编辑器 — 可视化体验编辑器(VEC)、基于表单的体验编辑器和单页可视化体验编辑器。
+title: 体验编辑器做什么 [!DNL Target] 选件？
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # 体验和选件
 
-体验 [!DNL Adobe Target] 确定访客满足活动的受众标准时显示的内容。
+在中体验 [!DNL Adobe Target] 确定当访客满足活动的受众条件时显示的内容。
 
 体验可以是一个页面、整个网页、可能形成购买漏斗的一组页面或一些其他逻辑序列的页面上的一个选件、图像、文本、按钮、视频，以及这些不同元素的组合。它还可以是语音助手的回复、客户服务脚本，甚至是饮料机中提供的独特口味。您可以在 [!DNL Target] 活动中测试或个性化体验。
 

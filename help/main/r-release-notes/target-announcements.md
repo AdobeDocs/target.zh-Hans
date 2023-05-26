@@ -5,7 +5,7 @@ title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 100%
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 ## [!UICONTROL Adobe Target 社区]问答茶歇休息时间
 
 * **2023 年 5 月 24 日星期三**
-* 上午 **8:00-9:00（太平洋时间，UTC-7）**
+* **8:00-9:00 a.m.（太平洋时间，UTC-7）**
 * **[注册信息](https://adobe.ly/3BgfeZZ){target=_blank}**
 
-[!UICONTROL Adobe Target 咨询]团队的 Ryan Roberts、Gentry Lin 和 Ryan Pizzuto 和 [!UICONTROL Adobe 技术支持工程]团队的 Mihnea Docea 将登录到 [Adobe Target 社区](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank}，直接与您就此话题交谈，讨论与 [!DNL Adobe Target] 相关的问题以及 [!UICONTROL Adobe Summit] 2023 上与 [!DNL Target] 相关的问题。
+[!UICONTROL Adobe Target 咨询]团队的 Ryan Roberts、Gentry Lin 和 Ryan Pizzuto 和[!UICONTROL  Adobe 技术支持工程]团队的 Mihnea Docea 将会登录 [Adobe Target 社区](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank}，并在该线程上直接与您沟通，讨论与 [!DNL Adobe Target] 相关的问题以及与 [!DNL Target] @ [!UICONTROL Adobe Summit] 2023 相关的问题。
 
-可随意提前查看[点播 Adobe Target Summit 答疑录像](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank}以将您的后续疑问带入此交谈。
+请随时提前查看[点播 Adobe Target Summit 会议录制内容](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank}，以将您的后续问题带到本次沟通交流中。
 
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 

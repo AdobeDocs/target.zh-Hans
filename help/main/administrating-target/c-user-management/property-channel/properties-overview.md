@@ -1,6 +1,6 @@
 ---
 keywords: 添加用户;项目;用户组;属性;工作区;管理属性;属性;at_property;角色;权限
-description: 了解如何将用户添加到Adobe Target;创建工作区、用户组和属性；更新实施；和指定角色和权限。
+description: 了解如何将用户添加到Adobe Target；创建工作区、用户组和属性；更新您的实施；以及指定角色和权限。
 title: 如何配置企业权限？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
@@ -15,7 +15,7 @@ ht-degree: 66%
 
 # 配置企业权限
 
-有关将用户添加到 [!DNL Target] 实施；创建工作区、用户组和属性；更新 [!DNL Target] 实施以包含 `at_property` 参数；和指定角色和权限。
+有关将用户添加到所需的任务的信息 [!DNL Target] 实施；创建工作区、用户组和属性；更新 [!DNL Target] 实施以包括 `at_property` 参数；并指定角色和权限。
 
 >[!NOTE]
 >
@@ -29,10 +29,10 @@ ht-degree: 66%
 | 2.创建工作区（产品配置文件） | [!DNL Adobe Admin Console for Enterprise] |
 | 3.创建用户组（可选） | [!DNL Adobe Admin Console for Enterprise] |
 | 4.创建资产 | [!DNL Target] 用户界面 |
-| 5:更新您的实施以包含 `at_property` 参数 | [!DNL Target] UI、at.js函数或 [!DNL Adobe Experience Platform] |
+| 5：更新您的实施以包含 `at_property` 参数 | [!DNL Target] 中的UI、at.js函数或标记 [!DNL Adobe Experience Platform] |
 | 6. 指定角色和权限 | [!DNL Adobe Admin Console for Enterprise] |
 
-对于在 [!DNL Adobe Admin Console for Enterprise]，请按照以下步骤访问控制台：
+对于在中执行的那些任务 [!DNL Adobe Admin Console for Enterprise]中，请按照以下步骤访问该控制台：
 
 1. 在Adobe Target中，单击 **[!UICONTROL 管理]** > **[!UICONTROL 属性]** > **[!UICONTROL 将属性分配给工作区]**.
 
@@ -54,7 +54,7 @@ ht-degree: 66%
 
 工作区（产品配置文件）允许组织为一组特定用户分配一组特定属性。 工作区在许多方面与 [!DNL Analytics] 中的报表包相似。
 
-组织可以通过在 [!DNL Admin Console]，分配 [!DNL Target] 属性移到这些工作区，并将用户从“默认工作区”配置移到这些较新的、访问受限的工作区。
+组织可以通过在中创建新工作区来开始利用企业权限功能 [!DNL Admin Console]，分配 [!DNL Target] 属性到这些工作区，并将用户从“默认工作区”配置移动到这些较新、限制访问的工作区。
 
 客户可以使用这些工作区按地区、业务部门、网站区域或通过他们选择的任何其他方法，将访问权限划分给不同的团队。
 
@@ -84,7 +84,7 @@ ht-degree: 66%
 
 ### 获取工作区ID {#workspace-id}
 
-您需要传递工作区ID才能在 [Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+您需要传递工作区ID才能在中利用企业权限 [Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
 
 1. 在 [Adobe Admin Console](https://adminconsole.adobe.com) 中，单击[!UICONTROL 产品]选项卡，然后单击左侧菜单中的产品以显示 PLC（工作区）列表。
 1. 单击所需的 PLC（工作区），然后在 URL 中找到“配置文件”ID，如下所示。
@@ -100,30 +100,30 @@ ht-degree: 66%
 
 ## 步骤 4. 创建属性 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-通过通过通过任何调用（Target调用、API调用等）将特定名称/值对添加为参数来启用属性 可以启用属性。
+通过添加特定名称/值对作为任何调用（Target调用、API调用等）的参数，可启用属性 可以启用属性。
 
 属性属于特定的渠道（Web、移动设备、电子邮件和 API/其他）。
 
 **提示**：请观看下方的视频，以了解有关如何创建属性的更多信息。
 
-1. 在 [!DNL Target]，单击 **[!UICONTROL 管理]** > **[!UICONTROL 属性]** 以显示 [!UICONTROL 属性] 列表。
+1. In [!DNL Target]，单击 **[!UICONTROL 管理]** > **[!UICONTROL 属性]** 以显示 [!UICONTROL 属性] 列表。
 1. 单击&#x200B;**创建属性**。
 
    填写以下字段：
 
-   * **属性名称（必需）：** 为属性指定描述性名称。
+   * **属性名称（必需）：** 为属性指定一个描述性名称。
    * **描述：**&#x200B;为属性指定可选描述。
    * **渠道：**&#x200B;为属性选择所需的渠道：Web、移动设备应用程序、电子邮件或其他/API（例如机顶盒或 PlayStation 游戏机）。
 
-1. 单击 **[!UICONTROL 复制]** 将代码复制到剪贴板，以执行 [5:更新您的实施以包含at_property参数](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
+1. 单击 **[!UICONTROL 复制]** 以将代码复制到剪贴板，您将在其中执行步骤时使用 [5：更新您的实施以包含at_property参数](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
 1. 完成后单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!NOTE]
 >请观看下面的视频，以了解有关创建属性的更多信息。
 
-## 步骤5:更新您的实施以包含at_property参数 {#section_9B17A59807A94712BE642942442EBBC8}
+## 步骤5：更新您的实施以包含at_property参数 {#section_9B17A59807A94712BE642942442EBBC8}
 
-使用 [!DNL Target] 用户权限功能中，您必须 `at_property` 参数到要点击的任何调用 [!DNL Target] （Target调用、API调用等）。
+要使用 [!DNL Target] 用户权限功能，您必须添加 `at_property` 参数到点击的任何调用 [!DNL Target] （Target调用、api调用等）。
 
 **获取 `at_property` 参数代码：**
 
@@ -131,7 +131,7 @@ ht-degree: 66%
 
    或
 
-   在 [!DNL Target]，单击 **[!UICONTROL 管理]** > **[!UICONTROL 属性]** 以显示 [!UICONTROL 属性] 列表。
+   In [!DNL Target]，单击 **[!UICONTROL 管理]** > **[!UICONTROL 属性]** 以显示 [!UICONTROL 属性] 列表。
 
    1. 将鼠标指针悬停在要显示的所需属性的“[!UICONTROL 上次更新]”列上，然后单击“[!UICONTROL 代码]”图标。
 
@@ -139,15 +139,15 @@ ht-degree: 66%
 
    1. 右键单击高亮显示的实施代码以将其复制到剪贴板。
 
-1. 更新 [!DNL Target] 使用在上一步中获取的实施代码实施。
+1. 更新您的 [!DNL Target] 使用在上一步中获得的实施代码实施。
 
    您可以通过多种方法来更新 [!DNL Target] 实施。例如，对于网页，可以使用以下方法：
 
-   * **通过 [!DNL Adobe Experience Platform]:**
+   * **通过标记中的“自定义参数” [!DNL Adobe Experience Platform]：**
 
       有关更多信息，请参阅 [Add Mbox Params](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) 在 *标记概述* 文档。
 
-   * **通过targetPageParamsAll()函数：** 将以下代码置于 `<head>` 标记中at.js引用上方的位置。
+   * **通过targetPageParamsAll()函数：** 将以下代码放入 `<head>` 标记中at.js引用的上方。
 
       ```javascript
       <script>
@@ -159,9 +159,9 @@ ht-degree: 66%
       </script>
       ```
 
-      有关如何使用at.js完成此操作的更多信息，请参阅 [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}.
+      有关如何使用at.js执行此操作的更多信息，请参阅 [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}.
 
-## 步骤6:指定角色和权限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
+## 步骤6：指定角色和权限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
 1. 在 Admin Console 中，单击&#x200B;**[!UICONTROL 产品]**，然后选择所需产品的名称。
 
@@ -177,7 +177,7 @@ ht-degree: 66%
 
    ![配置用户](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. 使用 [!UICONTROL 产品角色] 列。
+1. 使用中每个用户的下拉列表选择所需的权限角色（审批者、编辑者、观察者或发布者）。 [!UICONTROL 产品角色] 列。
 
    ![“产品角色”下拉列表](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
@@ -196,7 +196,7 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->[!DNL Target][!UICONTROL 管理] 菜单 UI（以前的[!UICONTROL 设置]）经过重新设计，以提供更好的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。以下视频中的信息通常是正确的；但是，选项的位置可能略有不同。 更新后的视频很快就会发布。
+>[!DNL Target][!UICONTROL 管理] 菜单 UI（以前的[!UICONTROL 设置]）经过重新设计，以提供更好的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。以下视频中的信息通常正确；但是，选项可能位于稍有不同的位置。 更新后的视频很快就会发布。
 
 ### 如何配置Adobe Target工作区(6:55) ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -212,7 +212,7 @@ ht-degree: 66%
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### 如何在Adobe Target中创建属性(3:05) ![教程徽章](/help/main/assets/tutorial.png)
+### 如何在Adobe Target中创建资产(3:05) ![教程徽章](/help/main/assets/tutorial.png)
 
 * 如何在 [!DNL Adobe Target] 界面中创建属性
 * 如何生成要包含在属性实施中的属性令牌

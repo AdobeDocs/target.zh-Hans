@@ -1,7 +1,7 @@
 ---
 keywords: 多个受众;体验版本;定位体验版本
-description: 了解如何在Adobe中将同一体验的版本定位到不同的受众 [!DNL Target] A/B活动。
-title: 我能否在A/B活动中使用多个体验版本？
+description: 了解如何在Adobe中将同一Experience的版本定位到不同的受众 [!DNL Target] A/B活动。
+title: 能否在A/B活动中使用多个体验版本？
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 # A/B 测试中的多个体验受众
 
-您可以在 [!DNL Adobe Target] A/B活动。 在可视化体验编辑器或基于表单的体验编辑器中，您可以为一个体验设置多个受众。
+您可以将相同体验的版本定位到中的不同受众 [!DNL Adobe Target] A/B活动。 在可视化体验编辑器或基于表单的体验编辑器中，您可以为一个体验设置多个受众。
 
 随着用户配置文件发生更改，用户可以在多个体验受众之间进行切换。用户在活动的生命周期内并不仅限于参加同一个体验。
 
@@ -23,7 +23,7 @@ ht-degree: 92%
 
 通过创建体验的不同版本，您可以获取更准确的信息，而无需进行手动计算，也无需做出假设。
 
-## 情景
+## 场景
 
 您要测试两个体验，分别是已进行地理定位的横幅与通用横幅。不同的地理位置需要不同的横幅，但是这个测试的主要目的在于确定进行地理定位是否会比显示通用内容取得的效果更好。如果您为每个位置都设置单独的体验，那么您实际上是要对比各地理位置的表现情况，而不是测试与使用通用横幅相比，进行地理定位是否有助于您实现成功目标。
 
@@ -39,7 +39,7 @@ ht-degree: 92%
 
 1. 单击&#x200B;**[!UICONTROL 添加受众]**，然后选择要定位的第一个受众。对每个受众重复执行上述步骤。
 
-   ![exp-versions图像](assets/exp-versions.png)
+   ![exp-version图像](assets/exp-versions.png)
 
    如果受众尚不存在，请单击[创建受众](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)，然后对其进行设置。
 

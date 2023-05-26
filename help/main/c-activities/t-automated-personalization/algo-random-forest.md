@@ -1,7 +1,7 @@
 ---
-keywords: 随机林；决策树；AP;Automated Personalization
-description: 了解如何Adobe [!DNL Target] 在Automated Personalization(AP)和自动定位活动中均使用随机林算法。
-title: 操作方法 [!DNL Target] 是否使用随机林算法？
+keywords: 随机林；决策树；ap；Automated Personalization
+description: 了解如何Adobe [!DNL Target] 在Automated Personalization (AP)和自动定位活动中使用随机林算法。
+title: 如何 [!DNL Target] 是否使用随机林算法？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
@@ -35,13 +35,13 @@ Target 在自动个性化和自动定位中使用的主要个性化算法是随�
 
 此操作会产生我们决策树的第一层：
 
-![decsion_tree_1图像](assets/decsion_tree_1.png)
+![decision_tree_1图像](assets/decsion_tree_1.png)
 
 决策树会询问“哪个变量最具预测性？”。在我们的示例中，只有两个变量，因此答案显然是性别。决策树现在将完成类似的操作来拆分“每个分支中”**&#x200B;的数据。我们首先考虑 11111、22222 和 33333 分支。在这些邮政编码中，如果男性与女性之间的转化存在差异，则形成两个叶子（男性和女性），此分支完成。在另一个分支（44444 和 55555）中，我们假定男性与女性的转化方式之间不存在任何统计差异。在这种情况下，第一个分支变为最后一个拆分。
 
 我们的示例会生成以下树：
 
-![decsion_tree_2图像](assets/decsion_tree_2.png)
+![decision_tree_2图像](assets/decsion_tree_2.png)
 
 ## 随机林如何使用决策树？ {#section_536C105EF9F540C096D60450CAC6F627}
 

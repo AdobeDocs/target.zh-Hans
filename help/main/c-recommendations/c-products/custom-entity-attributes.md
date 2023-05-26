@@ -15,7 +15,7 @@ ht-degree: 88%
 
 # 自定义实体属性
 
-在中使用单值和多值自定义实体属性 [!DNL Adobe Target Recommendations] 以定义有关目录中项目的其他信息。
+在中使用单值和多值自定义实体属性 [!DNL Adobe Target Recommendations] 以定义有关目录中项目的附加信息。
 
 ## 限制 {#limits}
 
@@ -29,7 +29,7 @@ ht-degree: 88%
 
 自定义实体属性可以包含单个值或多个值。实体属性值会显示在产品视图中。
 
-![multi_value_product图像](assets/multi-value_product.png)
+![multi-value_product图像](assets/multi-value_product.png)
 
 具有单个值的自定义实体属性的构成方式与单值预定义实体属性相同：
 
@@ -63,7 +63,7 @@ ht-degree: 88%
 
 ## 实施多值属性 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-使用信息源(CSV)时，支持多值自定义实体属性； `targetPageParams`、和用于上传产品的交付API。 新值会替换当前值，而不进行附加。空数组 ( [] ) 会被视为没有值。
+使用信息源(CSV)时支持多值自定义实体属性， `targetPageParams`和交付API来上传产品。 新值会替换当前值，而不进行附加。空数组 ( [] ) 会被视为没有值。
 
 必须对双引号进行转义。例如，`"[""test"", ""value""]"` 是可在 CSV 中使用的有效 JSON 数组。
 
@@ -94,11 +94,11 @@ function targetPageParams() {
 
 原始 CSV 将如下所示：
 
-![multi_value_example_raw图像](assets/multi-value_example_raw.png)
+![multi-value_example_raw图像](assets/multi-value_example_raw.png)
 
 电子表格中的相同目录将如下所示：
 
-![multi_value_example_excel图像](assets/multi-value_example_excel.png)
+![multi-value_example_excel图像](assets/multi-value_example_excel.png)
 
 在转换为 .csv 格式时，电子表格软件会在单元格内容两侧添加双引号，以防止单元格内的逗号充当列分隔符。它还会在自定义多值属性中包含的 JSON 字符串值两侧添加双引号标记。这样可直接处理庞杂的原始文件。例如：
 
@@ -109,7 +109,7 @@ function targetPageParams() {
 
 ### 使用 API
 
-您可以使用mbox参数中的交付API作为包含转义JSON数组的字符串值来传递多值属性。
+您可以在mbox参数中使用投放API传递多值属性，作为包含转义JSON数组的字符串值。
 
 ```javascript
 "execute": {
@@ -129,7 +129,7 @@ function targetPageParams() {
 
 有关使用交付和保存实体 API 的信息，请参阅 [Adobe 推荐 API 文档](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
-## 将运算符与多值属性结合使用 {#section_83C2288A805242D9A02EBC4F07DEE945}
+## 将运算符用于多值属性 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 在算法包含规则、目录规则和排除规则中将运算符应用于多值自定义属性时，如果列表中至少有一个值符合运算规则（布尔运算“或”**），则结果将为 *true*。
 
@@ -150,7 +150,7 @@ function targetPageParams() {
 
 * 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值等于 `abc`。
 * 用例 2：`entity.genre = ["abc", "de", "ef"]`结果为 true，因为有一个值等于 `abc`。
-* 用例3: `entity.genre = ["abcde", "de", "ef"]`. 结果为 false，因为 `abc` 不等于列表中的任何元素。
+* 用例3： `entity.genre = ["abcde", "de", "ef"]`. 结果为 false，因为 `abc` 不等于列表中的任何元素。
 
 ### 不等于
 
@@ -160,7 +160,7 @@ function targetPageParams() {
 
 * 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 true，因为没有值等于 `abc`。
 * 用例 2：`entity.genre = ["abc", "de", "ef"]`结果为 false，因为有一个值等于 `abc`。
-* 用例3: `entity.genre = ["abcde", "de", "ef"]`. 结果为 true，因为 `abc` 不等于列表中的任何元素。
+* 用例3： `entity.genre = ["abcde", "de", "ef"]`. 结果为 true，因为 `abc` 不等于列表中的任何元素。
 
 ### 包含
 
@@ -188,7 +188,7 @@ function targetPageParams() {
 
 * 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值开始于 `abc`。
 * 用例 2：`entity.genre = ["abcde", "de", "ef"]`结果为 true，因为有一个值开始于 `abc`。
-* 用例3: `entity.genre = ["ab", "de", "abc"]`. 结果为 true，因为有一个值开始于 `abc`（不一定是列表中的第一个元素）。
+* 用例3： `entity.genre = ["ab", "de", "abc"]`. 结果为 true，因为有一个值开始于 `abc`（不一定是列表中的第一个元素）。
 
 ### 结束于
 
@@ -241,7 +241,7 @@ function targetPageParams() {
 
 ### 动态范围（仅在基于项目的算法中可用，仅限数字值）
 
-如果有任何数值属性值位于指定的范围内，则结果为true。
+如果有任何数字属性值位于指定的范围内，则结果为true。
 
 示例: `price dynamically ranges in 80% to 120% of 100`
 
@@ -254,7 +254,7 @@ function targetPageParams() {
 
 ## 设计中的多值属性 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-当在设计中引用多值属性时，该属性将显示为以逗号分隔的列表。
+在设计引用多值属性时，该属性显示为逗号分隔的列表。
 
 示例：
 

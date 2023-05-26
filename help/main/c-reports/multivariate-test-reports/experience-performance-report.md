@@ -1,6 +1,6 @@
 ---
 keywords: 多变量测试;MVT;体验性能报表
-description: 了解如何使用体验性能报表进行Adobe [!DNL Target] 体验定位活动，显示活动中每个体验的表现。
+description: 了解如何使用体验性能报表进行Adobe [!DNL Target] 显示活动中每个体验表现的体验定位活动。
 title: 如何将体验性能报表用于多变量测试？
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
@@ -17,7 +17,7 @@ ht-degree: 88%
 
 您可以选择一个或多个体验来进行比较。单击某个体验，然后选择&#x200B;**[!UICONTROL 预览]**，以在浏览器选项卡中打开该体验。
 
-![Adobe Target中的体验性能报表](/help/main/c-reports/assets/experienceperformancetable.png)
+![Adobe Target中的“体验性能”报表](/help/main/c-reports/assets/experienceperformancetable.png)
 
 报表顶部显示了报表中使用的量度、开始和结束日期以及受众。您可以对所有这些元素进行更改。
 

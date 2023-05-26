@@ -7,7 +7,7 @@ exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
 source-wordcount: '2250'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -213,7 +213,7 @@ Target 将值为“CDQID”的新元素 ID 应用于由 Target 修改的页面�
 
 **使用时不会执行自定义代码 `triggerView`.**
 
-在以下情况下，不会重新呈现VEC中的自定义代码选件 `triggerView()` 调用方式 `{page: false}` 作为选项。
+当调用 `triggerView()` 并以 `{page: false}` 作为选项时，不重新呈现 VEC 中的自定义代码选件。
 
 **我收到一个警告，指出由于页面中的结构变化，无法应用某个操作。这是什么意思？**
 

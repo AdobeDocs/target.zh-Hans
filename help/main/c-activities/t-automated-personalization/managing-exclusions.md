@@ -1,6 +1,6 @@
 ---
-keywords: 重复数据删除；允许重复项；排除重复的选件；自动个性化；不允许重复的选件；排除；默认内容；排除组
-description: 在Adobe中管理排除项 [!DNL Target] Automated Personalization(AP)活动。 创建排除组并排除重复的选件、特定体验和默认内容。
+keywords: 重复数据删除；允许重复项；排除重复的选件；自动个性化；不允许重复的选件；排除；默认内容；排除组；
+description: 管理Adobe中的排除项 [!DNL Target] Automated Personalization (AP)活动。 创建排除组并排除重复的选件、特定体验和默认内容。
 title: 如何管理Automated Personalization活动中的排除项？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 # 管理排除项
 
-通过创建排除组、排除重复的选件、排除特定体验以及排除 [!UICONTROL Automated Personalization] (AP) [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)活动。
+通过创建排除组、排除重复的选件、排除特定体验以及排除中的默认内容来管理排除项 [!UICONTROL Automated Personalization] (AP)中的活动 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)活动。
 
 ## 创建排除组 {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
@@ -99,7 +99,7 @@ ht-degree: 88%
 
 **使用可视化体验编辑器 (VEC) 排除默认内容：**
 
-1. While [创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)，选择要替换的内容并单击以访问 **[!UICONTROL 更改文本/HTML]**, **[!UICONTROL 更改图像]**&#x200B;或 **[!UICONTROL 更改背景颜色]**.
+1. While [创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)，选择要替换的内容，然后单击以访问 **[!UICONTROL 更改文本/HTML]**， **[!UICONTROL 更改图像]**，或 **[!UICONTROL 更改背景颜色]**.
 1. 在出现的对话框中，创建新的内容，然后取消选中默认内容右侧的&#x200B;**包含**&#x200B;复选框（或在“选择内容”屏幕中取消选中“默认图像/视频”）。
 
    “[!UICONTROL 包含]”复选框的位置可能会因内容/选件类型而略有不同。

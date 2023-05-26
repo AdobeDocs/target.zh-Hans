@@ -1,6 +1,6 @@
 ---
-keywords: 体验定位；XT；活动URL;URL
-description: 了解如何指定活动URL，以确定测试中使用的页面以及在使用Adobe Target设计体验定位活动时打开的页面。
+keywords: 体验定位；XT；活动URL；URL
+description: 了解如何指定活动URL，以确定测试中使用的页面，以及在使用Adobe Target设计体验定位活动时打开的页面。
 title: 体验定位(XT)活动中的活动URL是什么？
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
@@ -13,7 +13,7 @@ ht-degree: 63%
 
 # 体验定位(XT)活动中的活动URL
 
-的 [!UICONTROL 活动URL] 确定 [!DNL Adobe Target] [!UICONTROL 体验定位] (XT)活动，且在 [!UICONTROL 可视化体验编辑器] (VEC)或 [!UICONTROL 基于表单的体验编辑器] 设计活动时。
+此 [!UICONTROL 活动URL] 确定在中使用的页面 [!DNL Adobe Target] [!UICONTROL 体验定位] (XT)活动，以及在中打开的页面 [!UICONTROL 可视化体验编辑器] (VEC)或 [!UICONTROL 基于表单的体验编辑器] （当活动被设计时）。
 
 1. 在[创建 XT 活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)时，如果出现提示，请指定活动 URL。应键入完整的 URL（包括 `https://`），然后单击&#x200B;**[!UICONTROL 创建活动]**。
 
@@ -21,7 +21,7 @@ ht-degree: 63%
    >
    >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。因此，[!DNL `https://www.adobe.com`] 和 [!DNL `http://www.adobe.com`] 均匹配。
    >
-   >默认情况下，VEC或基于表单的体验编辑器会打开您在 [可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md). 在活动创建过程中，您可以指定其他页面。
+   >默认情况下，VEC或基于表单的体验编辑器会打开中指定的页面 [可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md). 在活动创建过程中，您可以指定其他页面。
    >
    >如果您指定的 URL 所对应的网站不包含 Target Standard JavaScript 代码，则您将无法选择页面元素。
 

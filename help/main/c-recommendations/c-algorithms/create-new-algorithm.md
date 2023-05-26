@@ -1,6 +1,6 @@
 ---
-keywords: 标准；算法；垂直行业；页面类型；推荐键；推荐逻辑；逻辑；数据范围；回顾窗口；行为数据源；部分设计；备份推荐；属性权重；当前类别；自定义属性；上次购买的项目；上次查看的项目；最近查看的项目；最近查看的项目；最常查看的项目；收藏类别；受欢迎程度；最近查看的项目；上次购买的；最近查看的；最近查看的；最近查看的；最近查看的
-description: 了解如何创建控制Adobe Recommendations活动内容的标准，以显示最适合您活动的推荐。
+keywords: 标准；算法；垂直行业；页面类型；推荐键；推荐逻辑；数据范围；回顾窗口；行为数据源；部分设计；备用推荐；包含规则；属性权重；当前类别；自定义属性；上次购买的项目；上次查看的项目；查看次数最多的项目；最喜爱的类别；人气；最近查看的项目；上次购买；上次查看次数最多；最喜爱；最近查看
+description: 了解如何创建标准来控制Adobe Recommendations活动的内容，以显示最适合您的活动的推荐。
 title: 如何在Recommendations中创建标准？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
@@ -16,17 +16,17 @@ ht-degree: 52%
 
 中的标准 [!UICONTROL Adobe Target] [!UICONTROL Recommendations] 控制 [!UICONTROL Recommendations] 活动。 可创建标准以显示最适合您的活动的推荐。这些标准使用访客的操作来确定要显示的内容或产品。
 
-以下各节介绍如何创建新标准。
+以下部分将说明如何创建新标准。
 
 ## 访问“创建新标准”屏幕
 
 可通过多种方式来访问“[!UICONTROL 创建新标准]”屏幕。某些屏幕选项会根据您访问该屏幕的方式而有所不同。
 
 * 在 **[!UICONTROL Recommendations]** > **[!UICONTROL 标准]** 库屏幕，单击 **[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准]**. 您在此处创建的标准会自动设置为可用于所有 [!DNL Recommendations] 活动。
-* 创建 [!DNL Recommendations] 活动 [!UICONTROL 可视化体验编辑器] (VEC)，您会立即转到 [!UICONTROL 选择标准] 屏幕，在您的页面上选择元素并单击 [!UICONTROL 替换为Recommendations], [!UICONTROL 此项前插入Recommendations]或 [!UICONTROL 此项后插入Recommendations]. 然后，您可以选择可用的标准，或单击 **[!UICONTROL 创建标准]**. 如果您创建新标准，则可以选择保存标准以供与其他 [!DNL Recommendations] 活动。 有关更多信息，请参阅 [创建Recommendations活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+* 创建时 [!DNL Recommendations] 使用 [!UICONTROL 可视化体验编辑器] (VEC)，您会立即转到 [!UICONTROL 选择标准] 屏幕上，然后在页面上选择一个元素并单击 [!UICONTROL 替换为Recommendations]， [!UICONTROL 在之前插入Recommendations]，或 [!UICONTROL 在后面插入Recommendations]. 然后，您可以选择可用的标准，也可以单击 **[!UICONTROL 创建标准]**. 如果创建新标准，则可以选择保存标准以供其他人员使用 [!DNL Recommendations] 活动。 有关更多信息，请参阅 [创建Recommendations活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 * 编辑 [!DNL Recommendations] 活动时，在页面上的[!UICONTROL 推荐位置]框中单击，然后选择&#x200B;**[!UICONTROL 更改标准]**。在 [!UICONTROL 选择标准] 屏幕，单击 **[!UICONTROL 创建标准]**. 您将可以选择保存新建的标准，以供在其他 [!DNL Recommendations] 活动中使用。
 
-以下步骤假定您访问 [!UICONTROL 创建新标准] 使用第一种方法进行筛选：the **[!UICONTROL Recommendations]** > **[!UICONTROL 标准]** 库屏幕。
+以下步骤假定您访问 [!UICONTROL 创建新标准] 使用第一种方法筛选： **[!UICONTROL Recommendations]** > **[!UICONTROL 标准]** 库屏幕。
 
 1. 单击 **[!UICONTROL Recommendations]** > **[!UICONTROL 标准]**.
 
@@ -34,7 +34,7 @@ ht-degree: 52%
 
    ![创建新标准](assets/CreateNewCriteria_full-new.png)
 
-1. 在以下部分中配置信息。
+1. 配置以下部分中的信息。
 
 ## [!UICONTROL 基本信息] {#info}
 
@@ -50,9 +50,9 @@ ht-degree: 52%
 
 1. 键入对标准的简短&#x200B;**[!UICONTROL 描述]**。
 
-   描述应该有助于您识别标准，并可能包含有关标准用途的信息。
+   描述应该有助于您识别标准，并且可以包含有关标准用途的信息。
 
-1. 根据“推荐”活动的目标，选择垂直行业。
+1. 根据推荐活动的目标选择垂直行业。
 
    | 垂直行业 | 目标 |
    |--- |--- |
@@ -70,35 +70,35 @@ ht-degree: 52%
 
 ## [!UICONTROL Recommendations算法] {#rec-algo}
 
-1. 选择 **[!UICONTROL 算法类型]** 和 **[!UICONTROL 算法]**:
+1. 选择 **[!UICONTROL 算法类型]** 和 **[!UICONTROL 算法]**：
 
-   ![推荐的算法部分](assets/recommended-algorithm.png)
+   ![“推荐的算法”部分](assets/recommended-algorithm.png)
 
    | 算法类型 | 何时使用 | 可用算法 |
    | --- | --- | --- |
-   | [!UICONTROL 基于购物车] | 根据用户的购物车内容进行推荐。 | <ul><li>查看了这些项目，也查看了这些项目的人</li><li>查看了这些项目，购买了这些项目的人</li><li>购买了这些，也购买了那些的人</li></ul> |
-   | [!UICONTROL 基于热门程度] | 根据网站上某个项目的整体受欢迎程度或用户最喜爱或最常查看的类别、品牌、流派等项目的受欢迎程度，提出推荐。 | <ul><li>整个网站查看次数最多</li><li>按类别查看次数最多</li><li>按项目属性查看次数最多</li><li>网站最畅销商品</li><li>按类别划分的最畅销商品</li><li>按物料属性列出的最畅销商品</li><li>按Analytics量度排名最前</li></ul> |
-   | [!UICONTROL 基于项目] | 根据查找与用户当前正在查看或最近已查看的项目类似的项目来提供推荐。 | <ul><li>查看了这个项目，也查看了那个项目的人</li><li>查看了这个项目，但购买了那个项目的人</li><li>购买了这个项目，也购买了那个项目的人</li><li>具有相似属性的项目</li></ul> |
-   | [!UICONTROL 基于用户] | 根据用户的行为进行推荐。 | <ul><li>最近查看的项目</li><li>为您推荐</li></ul> |
-   | [!UICONTROL 自定义标准] | 根据您上传的自定义文件进行推荐。 | <ul><li>自定义算法</li></ul> |
+   | [!UICONTROL 基于购物车] | 根据用户的购物车内容提供推荐。 | <ul><li>查看了这些项目，也查看了那些项目的人</li><li>查看了这些商品的人们购买了那些商品</li><li>购买了这个项目，也购买了那个项目的人</li></ul> |
+   | [!UICONTROL 基于热门程度] | 根据某个项目在整个网站中的整体受欢迎程度，或根据某个用户最喜爱或查看次数最多的类别、品牌、流派等内的项目受欢迎程度提供推荐。 | <ul><li>整个网站查看次数最多</li><li>按类别查看的次数最多</li><li>按项目属性查看的次数最多</li><li>全网站最畅销商品</li><li>按类别列出的最畅销商品</li><li>按项目属性列出的最畅销商品</li><li>按Analytics量度排名</li></ul> |
+   | [!UICONTROL 基于项目] | 根据查找与用户当前正在查看或最近查看过的项目类似的项目来提供推荐。 | <ul><li>查看了这个项目，也查看了那个项目的人</li><li>查看了这个项目，但购买了那个项目的人</li><li>购买了这个项目，也购买了那个项目的人</li><li>具有相似属性的项目</li></ul> |
+   | [!UICONTROL 基于用户] | 根据用户的行为提供推荐。 | <ul><li>最近查看的项目</li><li>为您推荐</li></ul> |
+   | [!UICONTROL 自定义标准] | 根据您上传的自定义文件提出建议。 | <ul><li>自定义算法</li></ul> |
 
    >[!NOTE]
    >
-   >如果您选择 **[!UICONTROL 项目]**/ **[!UICONTROL 具有相似属性的媒体]**，则您将可以选择 [内容相似度规则](#similarity).
+   >如果您选择 **[!UICONTROL 项目]**/ **[!UICONTROL 具有相似属性的媒体]**，您可以选择设置 [内容相似度规则](#similarity).
 
-1. 根据需要，选择 **物料属性** 和 **要匹配的配置文件属性**, a **推荐键**, **筛选键**&#x200B;和/或 **Analytics量度** 来配置算法。
+1. 根据需要，选择 **项目属性** 和 **要匹配的配置文件属性**， a **推荐键**， **筛选键**，和/或 **Analytics指标** 以配置算法。
 
-其余的算法配置选项因所选算法而异。 要完成算法配置，请选择 [!UICONTROL 推荐键], [!UICONTROL 筛选键], [!UICONTROL 共发生基准], [!UICONTROL Analytics量度]和/或 [!UICONTROL 物料属性] 和 [!UICONTROL 要匹配的配置文件属性].
+其余算法配置选项因所选算法而异。 要完成算法配置，请选择 [!UICONTROL 推荐键]， [!UICONTROL 筛选键]， [!UICONTROL 共现基础]， [!UICONTROL Analytics指标]，和/或 [!UICONTROL 项目属性] 和 [!UICONTROL 要匹配的配置文件属性].
 
-有关选择 [!UICONTROL 推荐键]，请参阅 [使推荐基于推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+有关选择 [!UICONTROL 推荐键]，请参见 [使推荐基于推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL 数据源] {#data-source}
 
-1. 选择所需的 **[!UICONTROL 行为数据源]**: [!UICONTROL Adobe Target] 或 [!UICONTROL Analytics].
+1. 选择所需的 **[!UICONTROL 行为数据源]**： [!UICONTROL Adobe Target] 或 [!UICONTROL 分析].
 
    >[!NOTE]
    >
-   >的 [!UICONTROL 行为数据源] 部分 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。
+   >此 [!UICONTROL 行为数据源] 部分仅在您的实施使用 [目标分析](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。
 
    ![行为数据源部分](assets/data-source.png)
 
@@ -106,25 +106,25 @@ ht-degree: 52%
 
    如果标准使用 [!DNL Adobe Analytics] 作为行为数据源，创建标准后，其可用性的时间取决于所选报表包和回顾窗口是否已用于任何其他标准，如下所述：
 
-   * **一次性报表包设置**：首次将报表包与给定数据范围回顾时间范围一起使用时，[!DNL Target Recommendations] 可能需要 2 到 7 天的时间才能从 [!DNL Analytics] 完全下载所选报表包的行为数据。此时间范围取决于 [!DNL Analytics] 系统负载。
+   * **一次性报表包设置**：首次将报表包与给定数据范围回顾时间范围一起使用时，[!DNL Target Recommendations] 可能需要 2 到 7 天的时间才能从 [!DNL Analytics] 完全下载所选报表包的行为数据。此时间范围取决于 [!DNL Analytics] 系统加载。
    * **使用已经可用的报表包新建或编辑标准**：在创建新标准或编辑现有标准时，如果所选报表包已经与 [!DNL Target Recommendations] 一起使用，并且其数据范围等于或小于所选的数据范围，则数据立即可用，而无需一次性设置。在这种情况下，或者如果在未修改所选报表包或数据范围的情况下对算法的设置进行编辑，则该算法将在 12 小时内运行或者重新运行。
    * **持续的算法运行**：数据每天从 [!DNL Analytics] 流向 [!DNL Target Recommendations]。例如，对于[!UICONTROL 已查看的亲和度]推荐，当用户查看产品时，产品查看跟踪调用将以近实时的方式传递到 [!DNL Analytics]。[!DNL Analytics] 数据会在第二天早些时候被推送到 [!DNL Target]，然后 [!DNL Target] 会在 12 小时内运行算法。
 
-   有关更多信息，请参阅 [将Adobe Analytics与Target Recommendations结合使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+   有关更多信息，请参阅 [将Adobe Analytics与Target Recommendations一起使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-1. 设置 **[!UICONTROL 回顾窗口]** ，以确定在确定要显示的推荐时要使用的可用历史用户行为数据的时间范围。 此选项适用于除具有相似属性的项目和自定义算法之外的所有算法。
+1. 设置 **[!UICONTROL 回看窗口期]** 用于确定在决定要显示的推荐时所使用的可用历史用户行为数据的时间范围。 此选项适用于所有算法，但具有相似属性的项和自定义算法除外。
 
-   ![回顾窗口滑块](assets/data-range.png)
+   ![“回顾窗口”滑块](assets/data-range.png)
 
    如果您的网站拥有大量流量且行为更改频繁，请选择较短的数据范围。较短的范围可使 [!DNL Recommendations] 能够更好地响应市场和业务的变化。例如，较短的范围意味着 [!DNL Recommendations] 将在访客开始季节性购物时就检测到访客行为的变化（例如返校购物季或圣诞节），并推荐适合这些购物季的项目。
 
-   如果您没有大量数据，或访客行为不经常更改，则您可以选择较长的范围。但是，对于许多网站，较短的范围会产生更高质量的推荐。
+   如果您没有大量数据，或访客行为不经常更改，则您可以选择较长的范围。但是，对于许多网站，较短的窗口会产生质量较高的推荐。
 
    可用的数据范围包括：
 
-   | 回顾窗口选项 | 更新了频度（悬停时显示） | 支持的算法 |
+   | 回顾窗口选项 | 更新频率（悬停时显示） | 支持的算法 |
    | --- | --- | --- |
-   | 六小时 | 算法每3-6小时运行一次 | [!UICONTROL 基于热门程度] 算法 [!UICONTROL 行为数据源] is [!DNL Adobe Target] |
+   | 6小时 | 算法每3-6小时运行一次 | [!UICONTROL 基于热门程度] 算法（在选择时） [!UICONTROL 行为数据源] 是 [!DNL Adobe Target] |
    | 一天 | 算法每12-24小时运行一次 | [!UICONTROL 基于热门程度] 算法 |
    | 两天 | 算法每12-24小时运行一次 | <ul><li>[!UICONTROL 基于热门程度] 算法</li><li>[!UICONTROL 基于项目] 算法</li><li>[!UICONTROL 基于用户] 算法</li><li>[!UICONTROL 基于购物车] 算法</li></ul> |
    | 一周 | 算法每24-48小时运行一次 | <ul><li>[!UICONTROL 基于热门程度] 算法</li><li>[!UICONTROL 基于项目] 算法</li><li>[!UICONTROL 基于用户] 算法</li><li>[!UICONTROL 基于购物车] 算法</li></ul> |
@@ -134,27 +134,27 @@ ht-degree: 52%
 
 ## [!UICONTROL 备份内容] {#content}
 
-[!UICONTROL 备份内容] 规则决定了如果推荐项目数量未填充您的 [推荐设计](/help/main/c-recommendations/c-design-overview/design-overview.md). 有可能 [!DNL Recommendations] 标准，可返回的推荐少于您的设计所需的推荐数量。 例如，如果您的设计有四个项目的版块，但您的标准仅导致推荐两个项目，则可以将剩余版块留空，可以使用备用推荐来填充额外的版块，或者您可以选择不显示推荐。
+[!UICONTROL 备份内容] 规则可确定推荐项目数量未填满 [推荐设计](/help/main/c-recommendations/c-design-overview/design-overview.md). 它可以 [!DNL Recommendations] 用于返回比设计要求更少的推荐的标准。 例如，如果您的设计有四个项目的版块，但您的标准导致仅推荐两个项目，您可以将剩余版块留空，可以使用备用推荐来填充额外的版块，也可以选择不显示推荐。
 
 ![内容部分](assets/content.png)
 
-1. （可选）将 **[!UICONTROL 部分设计渲染]** 切换到“开”位置。
+1. （可选）滑动 **[!UICONTROL 局部设计渲染]** 切换到“开”位置。
 
-   将尽可能多地填充槽，但设计模板可能包含剩余槽的空白空间。 如果禁用此选项，并且没有足够的内容来填充所有可用的版块，则不会提供推荐，而是会显示默认内容。
+   系统会尽可能多地填充版块，但设计模板可能包含空白空间，以放置剩余的版块。 如果禁用了此选项，并且内容不足以填充所有可用的版块，则不会提供推荐，而是显示默认内容。
 
-   如果您希望推荐与空白版块一起提供，请启用此选项。 如果您希望根据您的标准在推荐推荐时段中填充内容，而空白时段中填充了您网站中类似或热门内容，请使用备用推荐，如下一步中所述。
+   如果您希望将推荐与空白版块一起提供，请启用此选项。 如果您希望推荐版块中填充基于您的标准的内容，并且空白版块中填充有您网站中类似或受欢迎的内容（如下一步中所述），请使用备用推荐。
 
-1. （可选）将 **[!UICONTROL 显示备份内容]** 切换到“开”位置。
+1. （可选）滑动 **[!UICONTROL 显示备份内容]** 切换到“开”位置。
 
-   在设计中的任何剩余空版块中，使用您网站上查看次数最多的产品的随机选择填充。
+   从整个网站中随机选择查看次数最多的产品，来填满设计中剩余的空版块。
 
-   使用备用推荐可确保您的推荐设计填满所有可用的版块。 假定您有4 x 1设计，如下图所示：
+   使用备用推荐可确保您的推荐设计填充所有可用的版块。 假设您采用4 x 1设计，如下所示：
 
    ![4 x 1设计](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   假定您的标准仅导致推荐两个项目。 如果启用 [!UICONTROL 部分设计渲染] 选项，前两个插槽已填满，但其余两个插槽仍为空。 但是，如果启用 [!UICONTROL 显示备用Recommendations] 选项，将根据您指定的标准填充前两个版块，并根据您的备用推荐填充其余两个版块。
+   假定您的标准导致只推荐两个项目。 如果您启用 [!UICONTROL 局部设计渲染] 选项，则前两个插槽已满，但剩余两个插槽仍留空。 但是，如果启用 [!UICONTROL 显示备用Recommendations] 选项，前两个版块会根据您指定的标准填充，剩余两个版块会根据您的备用推荐填充。
 
-   下面的矩阵显示了在使用 [!UICONTROL 部分设计渲染] 和 [!UICONTROL 备份内容] 选项：
+   以下矩阵显示了使用时将观察到的结果 [!UICONTROL 局部设计渲染] 和 [!UICONTROL 备份内容] 选项：
 
    | 局部设计渲染 | 备份内容 | 结果 |
    |--- |--- |--- |
@@ -165,11 +165,11 @@ ht-degree: 52%
 
    有关更多信息，请参阅 [使用备用推荐](/help/main/c-recommendations/c-algorithms/backup-recs.md).
 
-1. （视情况而定）如果您选择 **[!UICONTROL 显示备份内容]** 在上一步中，您可以 **[!UICONTROL 将包含规则应用于备用推荐]**.
+1. （视情况而定）如果您选择 **[!UICONTROL 显示备份内容]** 在上一步中，您可以启用 **[!UICONTROL 将包含规则应用于备份推荐]**.
 
-   包含规则可确定推荐中包含哪些项目。 可用的选项取决于您的垂直行业。
+   包含规则确定推荐中包含哪些项目。 可用的选项取决于您的垂直行业。
 
-   有关更多详细信息，请参阅 [指定包含规则](#inclusion) 下。
+   有关更多详细信息，请参阅 [指定包含规则](#inclusion) 下面的。
 
 ## 内容相似度 {#similarity}
 
@@ -177,15 +177,15 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->如果已选择 **[!UICONTROL 基于项目]**/ **[!UICONTROL 具有相似属性的媒体]** 作为“算法类型”和“算法”，您可以选择设置内容相似度规则。
+>如果您已选择 **[!UICONTROL 基于项目]**/ **[!UICONTROL 具有相似属性的媒体]** 对于算法类型和算法，您可以选择设置内容相似度规则。
 
 内容相似度会比较项目属性关键字，并根据不同项目共有的关键字数量进行推荐。基于内容相似度的推荐不需要过去的数据便可交付高效的结果。
 
 使用内容相似度生成推荐对于新项目尤其有效，这些新项目不可能会显示在使用“查看了这个项目，也查看了那个项目的人”**&#x200B;以及基于过去行为的其他逻辑的推荐中。您还可以使用内容相似度为没有过去购买数据或其他历史数据的新访客生成有用的推荐。
 
-选择 **[!UICONTROL 基于项目]**/ **[!UICONTROL 具有相似属性的媒体]**，则您可以选择创建规则，以在确定推荐时提高或降低特定项目属性的重要性。 对于书籍等项目，您可能希望提升“流派”**、“作者”**、“系列”**&#x200B;等属性的重要性，以便推荐类似的书籍。
+当您选择时 **[!UICONTROL 基于项目]**/ **[!UICONTROL 具有相似属性的媒体]**，您可以选择创建规则以在确定推荐时提高或降低特定项目属性的重要性。 对于书籍等项目，您可能希望提升“流派”**、“作者”**、“系列”**&#x200B;等属性的重要性，以便推荐类似的书籍。
 
-![内容相似度图像](assets/ContentSimilarity.png)
+![ContentSimilarity图像](assets/ContentSimilarity.png)
 
 由于内容相似度使用关键字来比较项目，因此某些属性（例如“消息”**&#x200B;或“描述”**）可能会在比较中引入“干扰信息”。您可以创建规则来忽略这些属性。
 
@@ -193,7 +193,7 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->内容相似度算法可能使用随机采样来计算项目之间的相似度。 因此，项目之间的相似度等级可能会因算法运行的不同而有所不同。
+>内容相似度算法可能使用随机抽样来计算项目之间的相似度。 因此，项目之间的相似度评级可能会因算法运行而异。
 
 ## 包含规则 {#inclusion}
 
@@ -217,9 +217,9 @@ ht-degree: 52%
 
 如前所述，要创建一个简单的包含规则以仅显示库存超过 50 双且价格在 25 美元至 45 美元之间的女鞋，请执行以下步骤：
 
-1. （视情况而定）将 **[!UICONTROL 是否允许推荐最近购买的项目？]** 切换到“开”位置。
+1. （视情况而定）滑动 **[!UICONTROL 是否允许推荐最近购买的项目？]** 切换到“开”位置。
 
-   此设置基于 `productPurchasedId`。默认行为是不推荐以前购买的项目。在大多数情况下，您不想促销客户最近购买的项目。如果您销售的是人们通常只买一次的物品，例如皮划艇，那么此选项很有用。如果您销售的是人们反复回来购买的物品，例如洗发水或其他个人物品，则应启用此选项。
+   此设置基于 `productPurchasedId`。默认行为是不推荐以前购买的项目。在大多数情况下，您不想促销客户最近购买的项目。如果您销售的是人们通常只买一次的物品，例如皮划艇，那么此选项很有用。如果您销售的是人们会重复回头再次购买的物品，例如洗发水或其他个人物品，则应该启用此选项。
 
 1. 设置您要推荐的产品的价格范围。
 1. 设置您要推荐的产品的最低库存量。
@@ -241,7 +241,7 @@ ht-degree: 52%
 
 ## 属性权重 {#weighting}
 
-您可以添加多个规则，以根据有关内容目录的重要信息或元数据“微移”算法，这样某些项目更有可能显示。
+您可以添加多个规则，以根据有关内容目录的重要信息或元数据“轻推”算法，以便更有可能显示某些项目。
 
 例如，您可以对促销项目应用更高的权重，以便它们更频繁地显示在推荐中。非促销项目不会完全排除，但它们的显示频率会降低。可以将多个加权属性应用到同一算法，并且可以在推荐中对拆分流量测试加权属性。
 
@@ -253,7 +253,7 @@ ht-degree: 52%
 
 1. 键入关键字以完成规则属性。
 
-   例如，完整的规则可能是“类别包含子字符串鞋”。
+   例如，完整的规则可以是“类别包含子字符串鞋”。
 
    ![Recs_AttributeWeighting图像](assets/Recs_AttributeWeighting.png)
 

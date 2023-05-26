@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1667'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -165,7 +165,7 @@ Target 不再支持 IE 8。
 
 以下选项可用于包括额外的模板规则：
 
-### 选项1:复制URL并将其保留在模板规则中，并使用“包含”选项。
+### 选项1：复制URL，并使用“包含”选项将其保留在模板规则中。
 
 此选项确保该 URL 符合活动的条件，但请注意，其上可能会附加极端情况，会影响您的报告数据，包含基础 URL 的 URL 会有额外的记录。
 
@@ -173,7 +173,7 @@ Target 不再支持 IE 8。
 
 ![在模板规则中复制 URL](assets/option1.png)
 
-### 选项2:限制仅包含查询字符串的URL“包含”条件。
+### 选项2：限制URL仅“包含”查询字符串的条件。
 
 之前选项中讨论的极端情况适用于此选项，但这里的条件性设置仅限为查询字符串。
 
@@ -187,9 +187,9 @@ Target 不再支持 IE 8。
 
 ![模板规则利用 URL 的特定部分](assets/option3.png)
 
-## 在中转义双引号 [!DNL Target] 配置文件属性值无法按预期工作。 {#escape}
+## 转义双引号 [!DNL Target] 配置文件属性值未按预期工作。 {#escape}
 
-当您发送的值中包含双引号时， [!DNL Target] 配置文件属性时，必须对其进行双重转义，如下所示。
+当您发送包含双引号的值时 [!DNL Target] 配置文件属性，必须双重转义，如下所示。
 
 ```
 adobe.target.trackEvent({

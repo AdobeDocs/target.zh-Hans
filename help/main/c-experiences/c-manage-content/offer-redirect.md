@@ -1,6 +1,6 @@
 ---
 keywords: 重定向选件;创建重定向选件;添加 HTML 选件;在重定向中传递所有 URL 参数;在重定向中传递 mboxSessionId（仅当要重定向到其他域时才需使用此功能）
-description: '了解如何在Adobe中创建重定向选件 [!DNL Target] 以使浏览器重定向到新页面。 '
+description: 了解如何在Adobe中创建重定向选件 [!DNL Target] 以使浏览器重定向到新页面。
 title: 如何创建重定向选件？
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
@@ -15,11 +15,11 @@ ht-degree: 48%
 
 中的重定向选件 [!DNL Adobe Target] 导致浏览器重定向到新页面。
 
-您可能有两个完全不同的页面来进行测试，而非只更改页面中的部分内容。在这种情况下，您的A/B测试会比较页面A与页面B。请设置一个包含两个体验的A/B测试活动：一个选件指向默认页面A，而另一个则重定向到页面B。该选件配置为将访客重定向到其他页面。
+您可能有两个完全不同的页面来进行测试，而非只更改页面中的部分内容。在这种情况下，您的A/B测试会比较页面A与页面B。使用两个体验设置A/B测试活动：一个体验指向默认页面A，另一个体验重定向到页面B。该选件配置为将访客重定向到其他页面。
 
 >[!NOTE]
 >
-> * 可以在 [!UICONTROL 选件] > [!UICONTROL 代码选件] 页面或 [基于Forms的体验编辑器](/help/main/c-experiences/form-experience-composer.md). 无法在可视化体验编辑器(VEC)中创建或应用重定向选件。 内容将插入 [!DNL Target] 请求位置，因此这些位置很可能不适合全局 [!DNL Target] 请求。
+> * 可以在以下位置创建重定向选件： [!UICONTROL 选件] > [!UICONTROL 代码选件] 页面或中的 [基于Forms的体验编辑器](/help/main/c-experiences/form-experience-composer.md). 您无法在可视化体验编辑器(VEC)中创建或应用重定向选件。 内容将插入到 [!DNL Target] 请求位置，因此这些位置可能不适合全局 [!DNL Target] 请求。
 >
 >* 您不能在 ajax mbox 中使用重定向选件 (`mboxUpdate`)。
 >
@@ -34,11 +34,11 @@ ht-degree: 48%
 >
 >如果您希望传递登陆页的引荐链接值，建议您使用 HTML 选件，而不是重定向选件。
 
-## 从代码选件页面创建重定向选件
+## 从“代码选件”页面创建重定向选件
 
 1. 单击&#x200B;**[!UICONTROL 选件]**，然后选择&#x200B;**[!UICONTROL 代码选件]**&#x200B;选项卡。
 
-   ![代码选件选项卡](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
+   ![“代码选件”选项卡](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
 
 1. 单击&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL 重定向选件]**。
 
@@ -56,13 +56,13 @@ ht-degree: 48%
 
 1. 选择以下所需选项以自定义您的重定向选件：
 
-   * **包括所有URL参数：** 如果您希望将上一页面存在的所有URL参数都传播到重定向的页面，请滑动切换开关以启用此选项。
+   * **包含所有URL参数：** 如果要将上一页中存在的所有URL参数都传播到重定向页面，请滑动切换开关以启用此选项。
 
-      例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递 URL 中的动态参数，因为这样才能跟踪顾客是如何到达您的网站：是通过电子邮件、横幅广告、搜索广告还是自然访问。启用此选项后，您的重定向选件即会显示在页面上 `https://www.mycompany.com/mens.html?emailId=123` 将自动变为 `https://www.mycompany.com/mensShirts.html?emailId=123` 当您在URL框中输入的 `https://www.mycompany.com/mensShirts.html`.
+      例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递 URL 中的动态参数，因为这样才能跟踪顾客是如何到达您的网站：是通过电子邮件、横幅广告、搜索广告还是自然访问。启用此选项后，您的重定向选件将出现在页面上 `https://www.mycompany.com/mens.html?emailId=123` 将自动变为 `https://www.mycompany.com/mensShirts.html?emailId=123` 当您在URL框中输入的是 `https://www.mycompany.com/mensShirts.html`.
 
-   * **传递mbox会话ID:** 重定向到其他域时需要。 如果您希望 `sessionId` 自动包含在重定向中。 仅当您测试来自电子邮件的点击量或跨域的点击量时，才需要此功能。 `sessionId` 与访客的 Cookie 相匹配，以便能够继续跟踪访客并显示相应的内容。
+   * **传递mbox会话ID：** 需要重定向到其他域。 滑动切换开关以启用此选项 `sessionId` 自动包含在重定向中。 仅当测试来自电子邮件的点击或从一个域到另一个域的点击时才需要此项。 `sessionId` 与访客的 Cookie 相匹配，以便能够继续跟踪访客并显示相应的内容。
 
-      如果您使用第一方和第三方Cookie设置，则跨域时无需传递mbox会话ID。 第三方 Cookie 中会一直保留此 ID，因此不必在 URL 中传递此 ID。
+      如果您使用第一方和第三方Cookie设置，则在跨域时，无需传递mbox会话ID。 第三方 Cookie 中会一直保留此 ID，因此不必在 URL 中传递此 ID。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -72,7 +72,7 @@ ht-degree: 48%
 
 ## 使用基于表单的体验编辑器创建重定向选件
 
-1. 在使用 [基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)，选择显示 **[!UICONTROL 内容]** 中。
+1. 使用创建活动时 [基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)，选择要显示的位置 **[!UICONTROL 内容]** 部分。
 
    ![基于表单的体验编辑器中的“内容”部分](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
 
@@ -96,13 +96,13 @@ ht-degree: 48%
 
 1. 选择以下所需选项以自定义您的重定向选件：
 
-   * **包括所有URL参数：** 如果您希望将上一页面存在的所有URL参数都传播到重定向的页面，请滑动切换开关以启用此选项。
+   * **包含所有URL参数：** 如果要将上一页中存在的所有URL参数都传播到重定向页面，请滑动切换开关以启用此选项。
 
-      例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递 URL 中的动态参数，因为这样才能跟踪顾客是如何到达您的网站：是通过电子邮件、横幅广告、搜索广告还是自然访问。启用此选项后，您的重定向选件即会显示在页面上 `https://www.mycompany.com/mens.html?emailId=123` 将自动变为 `https://www.mycompany.com/mensShirts.html?emailId=123` 当您在URL框中输入的 `https://www.mycompany.com/mensShirts.html`.
+      例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递 URL 中的动态参数，因为这样才能跟踪顾客是如何到达您的网站：是通过电子邮件、横幅广告、搜索广告还是自然访问。启用此选项后，您的重定向选件将出现在页面上 `https://www.mycompany.com/mens.html?emailId=123` 将自动变为 `https://www.mycompany.com/mensShirts.html?emailId=123` 当您在URL框中输入的是 `https://www.mycompany.com/mensShirts.html`.
 
-   * **传递mbox会话ID:** 重定向到其他域时需要。 如果您希望 `sessionId` 自动包含在重定向中。 仅当您测试来自电子邮件的点击量或跨域的点击量时，才需要此功能。 `sessionId` 与访客的 Cookie 相匹配，以便能够继续跟踪访客并显示相应的内容。
+   * **传递mbox会话ID：** 需要重定向到其他域。 滑动切换开关以启用此选项 `sessionId` 自动包含在重定向中。 仅当测试来自电子邮件的点击或从一个域到另一个域的点击时才需要此项。 `sessionId` 与访客的 Cookie 相匹配，以便能够继续跟踪访客并显示相应的内容。
 
-      如果您使用第一方和第三方Cookie设置，则跨域时无需传递mbox会话ID。 第三方 Cookie 中会一直保留此 ID，因此不必在 URL 中传递此 ID。
+      如果您使用第一方和第三方Cookie设置，则在跨域时，无需传递mbox会话ID。 第三方 Cookie 中会一直保留此 ID，因此不必在 URL 中传递此 ID。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -112,27 +112,27 @@ ht-degree: 48%
 
 ## 在活动中使用重定向选件
 
-您必须使用 [!UICONTROL 基于表单的体验编辑器]. 当前无法使用VEC应用重定向选件。
+您必须使用应用重定向选件 [!UICONTROL 基于表单的体验编辑器]. 您当前无法使用VEC应用重定向选件。
 
-的 [!DNL Adobe Target] [!UICONTROL 基于表单的体验编辑器] 是一个非可视化体验和选件创建界面，在创建要在中使用的体验时非常有用 [!UICONTROL A/B测试], [!UICONTROL 体验定位] (XT)、 [!UICONTROL Automated Personalization] （美联社）和 [!UICONTROL Recommendations] 活动。 例如，您可以使用 [!UICONTROL 基于表单的体验编辑器] 创建使用重定向选件的体验。
+此 [!DNL Adobe Target] [!UICONTROL 基于表单的体验编辑器] 是一个非可视化体验和选件创建界面，在创建在中使用的体验时非常有用。 [!UICONTROL A/B测试]， [!UICONTROL 体验定位] (XT)， [!UICONTROL Automated Personalization] (AP)，和 [!UICONTROL Recommendations] 当可视化体验编辑器不可用或不实用时的活动。 例如，您可以使用 [!UICONTROL 基于表单的体验编辑器] 以创建使用重定向选件的体验。
 
-1. 在 [!UICONTROL 基于表单的体验编辑器].
+1. 在中创建或编辑活动 [!UICONTROL 基于表单的体验编辑器].
 
-   请参阅 [基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md) 详细的分步说明。
+   参见 [基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md) 详细的分步说明。
 
-1. 指定所需的位置并根据需要添加任何受众细化。
+1. 指定所需位置并根据需要添加任何受众细化。
 
-1. 单击 **[!UICONTROL 内容]** ，然后单击 **[!UICONTROL 更改重定向选件]**.
+1. 单击 **[!UICONTROL 内容]** 部分，然后单击 **[!UICONTROL 更改重定向选件]**.
 
    ![更改重定向选件选项](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
 
-1. 从 [!UICONTROL 选择远程选件] 对话框，然后单击 **[!UICONTROL 完成]**.
+1. 从中选择所需的重定向选件 [!UICONTROL 选择远程选件] 对话框，然后单击 **[!UICONTROL 完成]**.
 
-1. 完成活动配置。
+1. 配置完活动。
 
 ## 培训视频：基于表单的编辑器 ![教程徽章](/help/main/assets/tutorial.png)
 
-此视频演示了基于表单的编辑器，您可以使用该编辑器创建重定向选件。
+本视频提供了基于表单的编辑器演示，您可以使用它来创建重定向选件。
 
 * 使用基于表单的体验编辑器创建活动
 * 了解何时使用基于表单的体验编辑器，何时使用可视化体验编辑器

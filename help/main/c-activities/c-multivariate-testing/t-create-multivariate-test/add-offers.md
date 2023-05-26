@@ -1,6 +1,6 @@
 ---
 keywords: MVT；多变量测试；选件；组合
-description: 了解如何在Adobe中使用可视化体验编辑器(VEC) [!DNL Target] 创建要包含在多变量测试(MVT)中的选件。
+description: 了解如何在Adobe中使用可视化体验编辑器(VEC) [!DNL Target] 以创建要包含在多变量测试(MVT)中的选件。
 title: 如何在多变量测试(MVT)中创建组合？
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
@@ -13,7 +13,7 @@ ht-degree: 88%
 
 # 创建组合
 
-使用 [!UICONTROL 可视化体验编辑器] (VEC) [!DNL Adobe Target] 创建要包含在 [!UICONTROL 多变量测试] (MVT)。
+使用 [!UICONTROL 可视化体验编辑器] (VEC) in [!DNL Adobe Target] 以创建要包含在 [!UICONTROL 多变量测试] (MVT)。
 
 有关使用 VEC 创建和编辑选件的更多信息，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 

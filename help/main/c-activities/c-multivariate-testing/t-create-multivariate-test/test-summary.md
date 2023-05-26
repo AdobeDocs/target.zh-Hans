@@ -1,6 +1,6 @@
 ---
 keywords: 摘要
-description: 查看多变量测试(MVT)活动的摘要，该摘要可视化地概述您在Adobe Target中的MVT活动。
+description: 查看多变量测试(MVT)活动的摘要，该摘要提供您在Adobe Target中的MVT活动的可视化概述。
 title: 如何查看多变量测试(MVT)活动的摘要？
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
@@ -13,7 +13,7 @@ ht-degree: 62%
 
 # 测试摘要（多变量测试）
 
-测试摘要提供了您的 [!DNL Adobe Target] [!UICONTROL 多变量测试].
+测试摘要提供了 [!DNL Adobe Target] [!UICONTROL 多变量测试].
 
 ![“测试摘要”对话框](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
 

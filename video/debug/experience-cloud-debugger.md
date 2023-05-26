@@ -1,10 +1,10 @@
 ---
 keywords: experience cloud debugger;mbox 跟踪
 description: 使用 Adobe Experience Cloud Debugger 调试 Adobe [!DNL Target] 。
-title: '使用 Experience Cloud Debugger 调试 [!DNL Target] '
+title: 使用 Experience Cloud Debugger 调试 [!DNL Target]
 feature: Troubleshooting
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 100%
 

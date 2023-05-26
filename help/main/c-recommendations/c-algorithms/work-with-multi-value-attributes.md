@@ -1,6 +1,6 @@
 ---
 keywords: 多值；属性；推荐；多值；多值
-description: 了解如何在Adobe中使用多值字段 [!DNL Target] Recommendations使用特殊的多值运算符，例如，推荐具有多个演员的电影时。
+description: 了解如何在Adobe中使用多值字段 [!DNL Target] Recommendations使用特殊的多值运算符，例如，推荐具有多个演员的影片时。
 title: 我能否在Recommendations中使用多值属性？
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
@@ -19,9 +19,9 @@ ht-degree: 8%
 * 您出售音乐会门票。给定的用户有多个喜欢的乐队。
 * 您出售服装。某款衬衫有多种尺寸可供选择。
 
-要处理这些情景中的推荐，您可以将多值数据传递到 [!DNL Target Recommendations] 使用特殊的多值运算符。
+要处理这些场景中的推荐，可将多值数据传递到 [!DNL Target Recommendations] 并使用特殊的多值运算符。
 
-允许 [!DNL Recommendations] 要识别多值数据，应将其作为JSON数组发送，如以下代码示例中所示。
+允许 [!DNL Recommendations] 要识别多值数据，应以JSON数组的形式发送它，如以下代码示例所示。
 
 ## 在JavaScript中传递多值参数
 
@@ -40,7 +40,7 @@ function targetPageParams() {
 }
 ```
 
-有关更多信息，请参阅 [实施多值属性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *自定义实体属性*.
+有关更多信息，请参阅 [实施多值属性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) 在 *自定义实体属性*.
 
 ## 在CSV文件中传递多值实体属性
 
@@ -59,22 +59,22 @@ function targetPageParams() {
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-当根据上述格式将实体属性、配置文件属性或mbox参数作为多值提供时， [!DNL Recommendations] 自动推断字段是多值。
+当按照上述格式以多值形式提供实体属性、配置文件属性或mbox参数时， [!DNL Recommendations] 自动推断字段为多值。
 
 以下运算符可用于多值实体、配置文件和mbox属性：
 
-* [!UICONTROL 列表中包含]
-* [!UICONTROL 列表中未包含]
+* [!UICONTROL 包含在列表中]
+* [!UICONTROL 不包含在列表中]
 
 ## 在包含规则中使用多值属性
 
 >[!NOTE]
 >
->当将单个值左侧与多值右侧进行比较时，仅当使用配置文件属性匹配或参数(mbox)属性匹配规则时，才支持动态匹配到多值属性，此支持当前仅在标准中可用。 促销活动、实体属性匹配或包含规则左侧的列表当前不支持多值属性。
+>当前，仅当使用配置文件属性匹配或参数(mbox)属性匹配规则比较左侧的单个值和多值右侧时，才支持与多值属性的动态匹配。 促销、实体属性匹配或包含规则左侧的列表当前不支持多值属性。
 
-### 示例：排除最近监视的项目
+### 示例：排除最近观看的项目
 
-假设您希望阻止推荐用户最近十个观看影片中的任何影片。 首先，编写一个名为 `user.lastWatchedMovies` 以将最近查看的十个影片跟踪为JSON数组。 然后，您可以使用以下包含规则排除项目：
+假定您想要阻止推荐用户最近十次观看的电影中的任何电影。 首先，编写一个名为的配置文件脚本 `user.lastWatchedMovies` 以JSON数组形式跟踪最近查看的十部电影。 然后，您可以使用以下包含规则排除这些项目：
 
 ```
 `Profile Attribute Matching`
@@ -96,7 +96,7 @@ function targetPageParams() {
 
 ### 示例：推荐用户收藏夹中的项目
 
-假设您希望仅在演奏的乐队是用户最喜爱的乐队之一时才向音乐会推荐票。 首先，确保您有一个名为 `profile.favoriteBands` 包含用户喜爱的乐队。 然后，确保您的目录包含属性 `entity.artistPerforming` 包括演唱会的艺术家。 然后，您可以使用以下包含规则：
+假设您只想在演唱会中推荐门票（如果正在播放的乐队是用户最喜爱的乐队之一）。 首先，确保您有一个名为的配置文件变量 `profile.favoriteBands` 包含用户最喜爱的乐队。 然后，确保您的目录中包含属性 `entity.artistPerforming` 包括演唱会里的艺人。 然后，您可以使用以下包含规则：
 
 ```
 `Profile Attribute Matching`
@@ -116,9 +116,9 @@ function targetPageParams() {
 }
 ```
 
-### 示例：创建推荐用户收藏夹中项目的标准API
+### 示例：API创建推荐用户收藏夹中项目的标准
 
-与所有标准一样，使用多值过滤规则的标准也可以通过Adobe I/OAPI创建。 用于创建实体属性标准的示例API调用 `id` 包含在mbox参数列表中 `favorites` 提供于此处：
+使用多值过滤规则的标准（与所有标准一样）可以通过Adobe I/OAPI创建。 创建标准（其中实体属性）的示例API调用 `id` 包含在mbox参数列表中 `favorites` 此处提供：
 
 ```
 curl -X POST \
@@ -155,7 +155,7 @@ curl -X POST \
 }'
 ```
 
-这将与页面上的JavaScript配对，以传入收藏夹内容：
+此操作将与页面上的JavaScript配对，以传入收藏夹内容：
 
 ```
 <!-- pass in the value of mbox parameter “favorites” as JSON array -->

@@ -1,7 +1,7 @@
 ---
 keywords: 故障诊断;常见问题解答;FAQ;定位;受众
-description: 查看有关体验定位和Adobe中使用的受众的常见问题解答(FAQ) [!DNL Target] 活动。
-title: 在哪里可以找到有关目标和受众的问题和答案？
+description: 查看有关Adobe定位和体验中使用的受众的常见问题解答(FAQ) [!DNL Target] 活动。
+title: 可在何处找到有关目标和受众的问答？
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 source-git-commit: f3b420631681a922b66b0e58febda536e9812815
@@ -15,21 +15,21 @@ ht-degree: 62%
 
 有关体验定位和受众的常见问题解答 (FAQ) 列表。
 
-## 如何 [!DNL Target] 是否在定位中评估URL? {#url}
+## 如何 [!DNL Target] 是否在定位中评估URL？ {#url}
 
-Target根据您在创建活动时是使用受众URL定位，还是在创建受众时使用URL定位，对URL的评估方式有所不同。
+根据您在创建活动时是使用受众URL定位还是在创建受众时使用URL定位，Target会以不同的方式评估URL。
 
-请考虑以下URL:
+请考虑以下URL：
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
 ### 受众URL定位
 
-要在创建活动时应用受众URL定位，请在“体验”页面（三步引导式工作流的步骤1）中，单击齿轮图标，单击页面交付，然后指定所需的URL。
+要在创建活动时应用受众URL定位，请在体验页面（三步引导式工作流的步骤一）上，单击齿轮图标，单击页面交付，然后指定所需的URL。
 
 ![页面交付URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-受众URL定位会查找与之完全匹配的URL。 如果URL匹配，则Target不会考虑其他逻辑。 在上述URL中，如果活动设置为在 `www.example.com`，则与以下URL的URL匹配，因为受众URL定位与查询无关：
+受众URL定位会查找完全匹配的URL。 如果URL匹配，则Target不会考虑进一步的逻辑。 在上述URL中，如果将活动设置为触发， `www.example.com`，则URL与以下URL匹配，因为受众URL定位与查询无关：
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -37,15 +37,15 @@ Target根据您在创建活动时是使用受众URL定位，还是在创建受�
 
 除了URL上的受众定位之外，您还可以指定查询中可以包含的特定值。
 
-通过 [!UICONTROL 模板规则] 评估为URL定位（请参阅下面的URL定位）。
+通过以下方式添加受众URL定位和URL定位 [!UICONTROL 模板规则] 评估为URL定位（请参阅下面的URL定位）。
 
 ### URL定位
 
-要在创建受众时应用URL定位，请单击 [!UICONTROL 添加规则]，单击 [!UICONTROL 网站页面]，从第一个下拉列表中选择一个选项([!UICONTROL 当前页面], [!UICONTROL 上一页]或 [!UICONTROL 登陆页面])，选择 [!UICONTROL URL] 从第二个下拉列表中，指定计算器，然后指定所需的URL。
+要在创建受众时应用URL定位，请单击 [!UICONTROL 添加规则]，单击 [!UICONTROL 网页]，从第一个下拉列表中选择一个选项([!UICONTROL 当前页面]， [!UICONTROL 上一页]，或 [!UICONTROL 登陆页面])，选择 [!UICONTROL URL] 从第二个下拉列表中，指定计算器，然后指定所需的URL。
 
-![网页>当前页面> URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![“网站页面”>“当前页面”>“URL”](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
-URL定位会将URL转换为一组用于评估的规则：
+URL定位会将URL转换为一组规则以进行评估：
 
 * URL = `example.com/path1?query=something`
 * URL域= `example.com`
@@ -53,17 +53,17 @@ URL定位会将URL转换为一组用于评估的规则：
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## 创建复杂URL字符串时，会 [!DNL Target] 是否评估整个URL?
+## 创建复杂的URL字符串时，会 [!DNL Target] 是否评估整个URL？
 
-如果您在URL字符串中多次使用同一参数名称，HTTP会考虑第一个参数名称，并忽略具有相同名称的后续参数。
+如果在URL字符串中多次使用相同的参数名称，HTTP会考虑第一个参数名称，并忽略具有相同名称的后续参数。
 
 例如，在以下URL字符串中：
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-第一个实例 `Category` 参数将被计算，第二个参数 `Category` 参数被忽略。
+第一个实例 `Category` 将计算参数，第二个 `Category` 参数将被忽略。
 
-最佳做法是将多个值与单个类别关联，如下所示：
+最佳实践为将多个值关联到单个类别，如下所示：
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
@@ -103,7 +103,7 @@ URL定位会将URL转换为一组用于评估的规则：
 
 自动个性化活动会在每次会话中都进行一次评估。如果之前已有活跃会话符合某个特定体验的条件，且现在已在该体验中添加了新选件，则用户会同时看到新的内容以及之前显示的选件。因为用户之前符合这些体验的参加条件，因此他们在会话持续期间仍会看到这些体验。如果您希望在每一次进行页面访问时都进行评估，则应该切换到体验定位 (XT) 活动类型。
 
-## 为何对通过API创建的受众所做的更改没有反映在 [!DNL Target] UI? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## 为什么对通过API创建的受众所做的更改未反映在 [!DNL Target] 用户界面？ {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 与选件和配置文件脚本不同，API 对通过 Target Standard 创建的受众所做的更改当前不会同步回 Target UI。
 

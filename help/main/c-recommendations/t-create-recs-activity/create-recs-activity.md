@@ -1,6 +1,6 @@
 ---
 keywords: 创建推荐;推荐活动;新建推荐;推荐概述
-description: 了解如何使用Adobe [!DNL Target] 可视化体验编辑器(VEC)，可直接在 [!DNL Target]-enabled页面。
+description: 了解如何使用Adobe [!DNL Target] Recommendations可视化体验编辑器(VEC)，可直接在 [!DNL Target]-enabled页。
 title: 如何创建Recommendations活动？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
@@ -8,7 +8,7 @@ exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '1313'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 75%
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
    >
-   >的 [!UICONTROL [选择工作区]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 上图中的选项是 [Target Premium](/help/main/c-intro/intro.md) 功能。 如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。
+   >此 [!UICONTROL [选择工作区]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 上图中的选项为 [Target Premium](/help/main/c-intro/intro.md) 功能。 如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。
 
 1. （视情况而定）如果您是一位 [Target Premium 客户](/help/main/c-intro/intro.md#premium)，请选择一个[工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -46,17 +46,17 @@ ht-degree: 75%
 
    单击“[!UICONTROL 下一步]”后，VEC 将会打开并显示您的页面。您可以将当前元素替换为推荐，也可以插入推荐。
 
-1. 单击页面上的某个元素，如果该元素所在的位置有可用推荐，请单击 **[!UICONTROL 替换为Recommendations]**, **[!UICONTROL 此项前插入Recommendations]**&#x200B;或 **[!UICONTROL 此项后插入Recommendations]**.
+1. 单击页面上的某个元素，如果该元素所在的位置有可用推荐，请单击 **[!UICONTROL 替换为Recommendations]**， **[!UICONTROL 在之前插入Recommendations]**，或 **[!UICONTROL 在后面插入Recommendations]**.
 
-   仅当网站的访客符合推荐的条件时，他们才会看到推荐内容。 不符合推荐资格的访客将看到默认内容。
+   只有在访客符合推荐资格时，您网站的访客才会看到推荐的内容。 不符合推荐条件的访客将看到默认内容。
 
    ![“推荐”选项](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   * **[!UICONTROL 替换为Recommendations]**:将元素替换为推荐会删除当前内容并将其替换为推荐。 当访客访问您的网站并符合推荐条件时，他们将在指定区域中看到推荐项目，而不是现有内容。
-   * **[!UICONTROL 此项前插入Recommendations]**:在选定元素之前插入推荐会将推荐内容放在该元素之前。 根据您的页面构建，推荐会显示在选定元素的上方或左侧。
-   * **[!UICONTROL 此项后插入Recommendations]**:在选定元素后插入推荐会将推荐内容放在该元素之后。 根据您的页面构建，推荐会显示在选定元素的下方或右侧。
+   * **[!UICONTROL 替换为Recommendations]**：将元素替换为推荐会删除当前内容并将其替换为推荐。 当访客访问您的网站并符合推荐资格时，他们将在指定区域中看到推荐的项目，而不是现有内容。
+   * **[!UICONTROL 在之前插入Recommendations]**：在选定元素之前插入推荐，会将推荐内容放置在该元素之前。 根据您的页面结构，推荐将显示在所选元素的上方或左侧。
+   * **[!UICONTROL 在后面插入Recommendations]**：在选定元素之后插入推荐，会将推荐内容放在该元素之后。 根据您的页面结构，推荐将显示在所选元素的下方或右侧。
 
-   的 **[!UICONTROL 展开选定内容]** 选项可让您展开选定的位置（父容器），以帮助您更轻松地识别和包含所需的页面元素。
+   此 **[!UICONTROL 展开选定内容]** 选项允许您展开选定的位置（父容器），以帮助您更轻松地识别和包含所需的页面元素。
 
 1. 选择页面类型。
 
@@ -75,7 +75,7 @@ ht-degree: 75%
 
 1. 选择一个或多个[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)。
 
-   标准会以卡片的形式显示，卡片中提供了每个标准的相关信息。默认情况下， [!UICONTROL 选择标准] 屏幕显示与垂直行业和您在上一步中选择的页面类型兼容的标准。 您可以更改这些选项以显示其他标准。
+   标准会以卡片的形式显示，卡片中提供了每个标准的相关信息。默认情况下， [!UICONTROL 选择标准] 屏幕显示与您的垂直行业兼容的标准，以及您在上一步中选择的页面类型。 您可以更改这些选项以显示其他标准。
 
    >[!NOTE]
    >
@@ -89,13 +89,13 @@ ht-degree: 75%
 
       [!DNL Recommendations] 中提供了一些自带标准。您和您的团队也可以创建自己的自定义标准。
 
-   * 要创建新标准，请单击 **[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准]**，然后填写有关新标准的信息。 有关创建新标准的信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
-   * 您还可以将标准分组到序列中。要创建新标准序列，请单击 **[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准序列]**. 请参阅 [创建标准序列](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) 以了解更多信息。
+   * 要创建新标准，请单击 **[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准]**，然后填写有关新条件的信息。 有关创建新标准的信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
+   * 您还可以将标准分组到序列中。要创建新标准序列，请单击 **[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准序列]**. 参见 [创建标准序列](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) 了解更多信息。
 
 1. 单击&#x200B;**[!UICONTROL 下一步]**。
 1. 选择一个[设计](/help/main/c-recommendations/c-design-overview/design-overview.md)。
 
-   设计是一种模板，可决定页面上各个位置的外观。[!DNL Target] 包括多个预配置设计。 您也可以创建自己的自定义设计。有关更多信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自定义设计](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
+   设计是一种模板，可决定页面上各个位置的外观。[!DNL Target] 包括多个预配置的设计。 您也可以创建自己的自定义设计。有关更多信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)和[自定义设计](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)。
 
    ![“选择设计”对话框](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -164,8 +164,8 @@ ht-degree: 75%
 
    * 激活活动
    * 编辑活动
-   * 将活动共享到Experience Cloud馈送
-   * 活动QA
+   * 将活动共享到Experience Cloud信息源
+   * QA活动
    * 查看体验 URL
    * 下载数据
    * 更改看到控制体验的活动参加者所占的百分比

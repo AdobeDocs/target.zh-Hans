@@ -12,7 +12,7 @@ ht-degree: 97%
 
 ---
 
-# 推荐 Classic与Recommendations中的活动 [!DNL Target] Premium
+# 推荐 中的Classic与Recommendations活动 [!DNL Target] Premium
 
 此信息可帮助您在 Recommendations Classic 与 Recommendations activities in Target Premium 之间进行选择。
 
@@ -69,7 +69,7 @@ ht-degree: 97%
 
 在 [!DNL Recommendations Classic] 中，有 6 个定位选项，而“推荐”活动可使用 Target 的全部定位选项。使用 [!DNL Target] 或其他 [!DNL Adobe Experience Cloud] 受众（例如 [!DNL Audience Manager] 和 [!DNL Analytics]）定义受众，然后选择看到每个设计的活动参加者所占的百分比，以及看到控制的参加者所占的百分比。
 
-![overview_targeting图像](assets/overview_targeting.png)
+![overview_target图像](assets/overview_targeting.png)
 
 ## 报表 {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 

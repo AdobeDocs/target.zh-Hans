@@ -1,6 +1,6 @@
 ---
 keywords: 体验模板;自定义代码;横幅;灯箱;轮播;倒计时;功能区;按钮
-description: 了解如何使用体验模板，这些模板是带有可配置输入的预编码示例，用于执行Adobe Target中的常见营销人员用例。
+description: 了解如何使用Experience Templates，体验模板是经过预编码的示例，带有用于在Adobe Target中执行常见营销人员用例的可配置输入。
 title: Target中提供了哪些体验模板？
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
@@ -13,7 +13,7 @@ ht-degree: 77%
 
 # 体验模板
 
-有关 [!DNL Adobe Target] 体验模板，以在自定义代码中使用。 [!DNL Target] 体验模板是具有可配置输入的预编码示例，用于执行常见的营销人员用例。
+有关信息 [!DNL Adobe Target] 在自定义代码中使用的体验模板。 [!DNL Target] 体验模板是具有可配置输入的预编码示例，用于执行常见的营销人员用例。
 
 这些体验模板将作为执行常见用例的起始点，通过 VEC 或基于表单的体验编辑器免费提供给开发人员和营销人员。
 
@@ -35,7 +35,7 @@ Adobe Marketing Cloud GitHub 上目前提供以下模板，请参阅 [Target 体
 
 [横幅倒计时体验模板](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown)是一个在中心包含倒计时的大型横幅，通常用于主页和登陆页面或其他大容量条目页面。
 
-![exp-template-banner-coundpow图像](assets/exp-template-banner-countdown.png)
+![exp-template-banner-countdown图像](assets/exp-template-banner-countdown.png)
 
 ## 按钮生成器 {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
 

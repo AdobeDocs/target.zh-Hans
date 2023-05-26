@@ -5,7 +5,7 @@ title: Target 中有什么活动类型可用？
 feature: Activities
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1451'
 ht-degree: 100%
 

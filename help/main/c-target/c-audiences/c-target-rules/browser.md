@@ -1,7 +1,7 @@
 ---
 keywords: 浏览器选项;类型;浏览器类型;浏览器语言;语言;版本;浏览器版本
-description: 了解如何在 [!DNL Adobe Target] 定位使用特定浏览器或特定浏览器选项访问您的页面的用户。
-title: 我是否可以根据浏览器类型定位访客？
+description: 了解如何在中创建受众 [!DNL Adobe Target] 定位访问您的页面时使用特定浏览器或特定浏览器选项的用户。
+title: 我能否根据浏览器类型定位访客？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -36,11 +36,11 @@ ht-degree: 76%
 
       ![Target Chrome用户](/help/main/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
 
-* **自定义的浏览器受众规则：** 通过自定义受众，您可以定位多个浏览器，或为特定浏览器、浏览器版本或浏览器语言设置规则或排除项。 根据浏览器属性定位活动时，此功能具有极大的灵活性。
+* **自定义的浏览器受众规则：** 通过自定义受众，您可以定位多个浏览器，或者为特定浏览器、浏览器版本或浏览器语言设置规则或排除项。 在基于浏览器属性定位活动时，此功能提供了很大的灵活性。
 
    1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
    1. 为受众命名并添加可选描述。
-   1. 拖放 **[!UICONTROL 浏览器]** 到Audience Builder中。
+   1. 拖放 **[!UICONTROL 浏览器]** 放入受众生成器中。
 
       ![规则>浏览器](assets/target_browser.png)
 
@@ -52,7 +52,7 @@ ht-degree: 76%
    1. （可选）为受众设置其他规则。
    1. 单击&#x200B;**[!UICONTROL 完成]**。
 
-   以下示例显示了包含版本91或92的Microsoft Edge用户的受众：
+   以下示例显示了一个受众，其中包含版本91或92上的Microsoft Edge用户：
 
    ![Target Edge 91或92](assets/target_edge.png)
 
@@ -113,7 +113,7 @@ ht-degree: 76%
 * 低于
 * 低于或等于
 
-键入版本号。在文本字段中只能输入主要版本。指定的版本包括该版本的任何次要版本。例如，如果您指定版本10，则版本10.1的访客也将包含在内。
+键入版本号。在文本字段中只能输入主要版本。指定的版本包括该版本的任何次要版本。例如，如果您指定版本10，则还包括版本10.1上的访客。
 
 多个选项之间使用 OR 进行连接。
 

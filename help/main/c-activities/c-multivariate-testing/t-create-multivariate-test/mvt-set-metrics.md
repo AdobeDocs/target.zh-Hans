@@ -1,7 +1,7 @@
 ---
 keywords: 多变量测试;MVT;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
-description: 了解如何在Adobe中指定量度 [!DNL Target] 多变量测试活动，用于确定访问何时被视为成功，例如转化、收入和参与度。
-title: 如何在多变量测试(MVT)活动中设置目标量度？
+description: 了解如何在Adobe中指定指标 [!DNL Target] 多变量测试活动，用于确定访问何时成功，例如转化、收入和参与度。
+title: 如何在多变量测试(MVT)活动中设置目标指标？
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # 设置多变量测试的量度
 
-在Adobe Target多变量测试中使用量度来确定访问何时被视为成功。
+可在Adobe Target多变量测试中使用量度来确定访问何时被视为成功。
 
 有关成功量度的详细信息，请参阅 [成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 

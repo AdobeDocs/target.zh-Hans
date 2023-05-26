@@ -1,7 +1,7 @@
 ---
-keywords: 可视化体验编辑器；VEC；默认URL；增强型体验编辑器；EEC；混合内容；体验快照；移动设备视区；CSS;CSS选择器
+keywords: 可视化体验编辑器；vec；默认url；增强型体验编辑器；eec；混合内容；体验快照；移动设备视区；css；css选择器
 description: 了解如何配置Adobe [!DNL Target] 可视化体验编辑器(VEC)，方法是指定其常规设置、移动设备视区配置和CSS选择器。
-title: 如何配置可视化体验编辑器(VEC)?
+title: 如何配置可视化体验编辑器(VEC)？
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
@@ -14,9 +14,9 @@ ht-degree: 57%
 
 # 配置可视体验编辑器
 
-配置 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)来检索JSON选件，检索时可指定其常规设置、移动设备视区配置和CSS选择器。
+配置 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)，方法是指定其常规设置、移动设备视区配置和CSS选择器。
 
-访问 [!UICONTROL 可视化体验编辑器] 配置页面，单击 **[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器].**
+要访问 [!UICONTROL 可视化体验编辑器] 配置页面，单击 **[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器].**
 
 >[!NOTE]
 >
@@ -38,20 +38,20 @@ ht-degree: 57%
 
 ### 启用增强型体验编辑器 {#eec}
 
-允许在防 iFrame 嵌套网站和具有混合内容的网站上进行编辑。某些网站可能与增强版本不兼容。 取消选择此选项可还原到原始 [!UICONTROL 可视化体验编辑器]. 所做的这一选择不会对网站上的活动交付造成任何影响。
+允许在防 iFrame 嵌套网站和具有混合内容的网站上进行编辑。某些网站可能与增强型版本不兼容。 取消选择此选项以还原为原始版本 [!UICONTROL 可视化体验编辑器]. 所做的这一选择不会对网站上的活动交付造成任何影响。
 
 有关更多信息，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
-您还可以启用 [!UICONTROL 增强型体验编辑器] 在活动级别。
+您也可以启用 [!UICONTROL 增强型体验编辑器] 在活动级别。
 
 ### 加载混合内容
 
-在使用 [!UICONTROL 增强型体验编辑器] (EEC)。 启用此选项可避免通过加载静态资源所产生的额外开销 [!DNL Target] 代理服务器。
+在使用打开网站时启用混合内容 [!UICONTROL 增强型体验编辑器] (EEC)。 启用此选项可避免通过以下方式加载静态资源所产生的额外开销 [!DNL Target] 代理服务器。
 
-例如，如果：
+例如，在以下情况下，此选项非常有用：
 
-* 您的内容安全策略(CSP)标头允许在启用EEC的情况下，无需使用代理服务器即可加载混合内容。
-* 在EEC中，您的HTTP网站加载时间会增加，其中通过代理加载JavaScript、图像等所需的时间会更长。
+* 您的内容安全策略(CSP)标头允许在启用EEC的情况下加载混合内容，而无需使用代理服务器。
+* 您的HTTP网站在EEC中的加载时间增加，其中JavaScript、图像等内容通过代理加载所需的时间更长。
 
 ### 在活动流程图中生成体验快照
 
@@ -61,7 +61,7 @@ ht-degree: 57%
 
 您可以添加预览体验时要使用的设备。每个设备都有一个关联的受众。
 
-![移动设备视区配置部分](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
+![“移动设备视区配置”部分](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
 单击 **[!UICONTROL 添加]**，为移动设备视区指定描述性名称，指定宽度和高度，选择所需的操作系统，然后单击 [!UICONTROL 保存].
 
@@ -87,15 +87,15 @@ ht-degree: 57%
 
 >[!NOTE]
 >
->尽管已采取各种措施来确保准确性，但请注意，使用类可能会导致错误。 如果您未选择任何选项，准确性也会受到影响。准确性由高到低的顺序为：选择 ID > 选择类 > 未选择任何选项。请务必测试页面，以确保选择器正确无误。
+>虽然已采取各种措施来确保准确性，但请注意，使用类仍可能会导致出现错误。 如果您未选择任何选项，准确性也会受到影响。准确性由高到低的顺序为：选择 ID > 选择类 > 未选择任何选项。请务必测试页面，以确保选择器正确无误。
 
 您可以为每个活动覆盖此设置（单击“设置”齿轮图标，然后选择 [!UICONTROL CSS 选择器]）。如果您使用不同的方式配置了多个网站，此操作会特别有用。
 
 >[!NOTE]
 >
->在中，无法为每个活动覆盖设置 [!UICONTROL Automated Personalization] 和 [!UICONTROL Multivariate Testing] 活动。  请参阅[可视化体验编辑器中使用的元素选择器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)，以了解更多有关选择器的信息。
+>无法覆盖中每个活动的设置 [!UICONTROL Automated Personalization] 和 [!UICONTROL Multivariate Testing] 活动。  请参阅[可视化体验编辑器中使用的元素选择器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)，以了解更多有关选择器的信息。
 
-## 培训视频：帐户首选项(7:33) ![概述徽章](/help/main/assets/overview.png)
+## 培训视频：帐户首选项(7:33) ![“概述”标记](/help/main/assets/overview.png)
 
 以下视频包含有关帐户首选项的信息。
 

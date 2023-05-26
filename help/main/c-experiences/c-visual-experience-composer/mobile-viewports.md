@@ -5,9 +5,9 @@ title: 如何将移动视区用于响应式体验？
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1154'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >
 >许多网站列出常用设备的视区大小。例如，请参阅 `https://viewportsizer.com/devices/`。有关最准确和最新的信息，请参考设备制造商的网站。
 
-| 设备 | 视区大小（宽度 x 高度） | 设备分辨率（宽度 x 高度） |
+| 设备 | 视区大小（宽度x高度） | 设备分辨率（宽度 x 高度） |
 |---|---|---|
 | iPhone 12 | 390 x 844 | 1170 x 2532 |
 | iPhone 12 Mini | 360 x 780 | 1080 x 2340 |

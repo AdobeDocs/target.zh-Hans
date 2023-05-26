@@ -1,7 +1,7 @@
 ---
 keywords: 管理;审批者角色;审批者
-description: 执行第一个任务Adobe [!DNL Target] 管理员应在收到Adobe Experience Cloud的电子邮件邀请后接受。
-title: 我该从哪里开始管理Target?
+description: 执行第一个任务Adobe [!DNL Target] 管理员在收到Adobe Experience Cloud的电子邮件邀请后应该接受。
+title: 我该从何处开始管理Target？
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
@@ -14,7 +14,7 @@ ht-degree: 82%
 
 # 管理员首要步骤
 
-本文包含首要步骤 [!DNL Adobe Target] 在收到 [!DNL Adobe Experience Cloud].
+本文包含首要步骤 [!DNL Adobe Target] 管理员在收到电子邮件邀请后应该接受 [!DNL Adobe Experience Cloud].
 
 ## 受邀加入 [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 

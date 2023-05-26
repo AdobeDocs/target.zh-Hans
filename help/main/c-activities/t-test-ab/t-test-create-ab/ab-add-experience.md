@@ -1,7 +1,7 @@
 ---
 keywords: 定位;体验;添加体验;体验添加
 description: 了解如何在Adobe Target中使用可视化体验编辑器(VEC)。 VEC提供了一个可视化界面，用于在您的页面上添加和编辑体验。
-title: 如何在 [!DNL Target] A/B活动？
+title: 如何在中添加体验 [!DNL Target] A/B活动？
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -29,7 +29,7 @@ Adobe Target可视化体验编辑器(VEC)提供了一个可视化界面，用于
 
    将鼠标悬停在页面中的元素上时，这些元素会高亮显示。任何高亮显示的元素都可以使用体验编辑器进行更改。
 
-   如果您创建了 [!DNL Target] 使用Target Classic（以前称为Test&amp;Target）在页面上请求 [!DNL Target] 请求将显示为一个元素，其中显示了请求名称，并且可以像任何其他元素一样进行修改。
+   如果您创建了 [!DNL Target] 在页面上使用Target Classic（以前称为Test&amp;Target）请求，并且 [!DNL Target] 请求将显示为一个元素，该元素显示请求名称，并且可以像任何其他元素一样进行修改。
 
    有关可对显示页面上的元素执行以更改体验的操作列表，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 

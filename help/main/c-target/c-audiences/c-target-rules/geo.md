@@ -1,28 +1,28 @@
 ---
 keywords: 定位;A4T;地域;地域定位;地域定位的精准度;国家/地区;省/州;城市;邮政编码;DMA;移动设备运营商;城市代码;地区代码;国家/地区代码;大都市代码;配置文件脚本;地域定位配置文件脚本;地域定位移动设备
-description: 了解如何在 [!DNL Adobe Target] 以根据用户的地理位置来定位用户。
-title: 我是否可以根据位置定位访客？
+description: 了解如何在中创建受众 [!DNL Adobe Target] 根据用户的地理位置定位用户。
+title: 我能否根据位置定位访客？
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 41%
+ht-degree: 47%
 
 ---
 
 # 地域
 
-在中使用受众 [!DNL Adobe Target] 以根据用户的地理位置来定位用户。
+在中使用受众 [!DNL Adobe Target] 根据用户的地理位置定位用户。
 
-地理位置参数允许您根据访客的地理位置定位活动和体验。 您可以根据访客的地理位置信息（包括其国家/地区、省/自治区/直辖市、城市、邮编/邮政编码、纬度、经度、DMA 或移动设备运营商）来包含或排除访客。此数据随每个 [!DNL Target] 请求，且基于访客的IP地址。 选择这些参数的方式与选择其他任何定位值一样。
+地理位置参数允许您根据访客的地理位置定位活动和体验。 您可以根据访客的地理位置信息（包括其国家/地区、省/自治区/直辖市、城市、邮编/邮政编码、纬度、经度、DMA 或移动设备运营商）来包含或排除访客。此数据将随每个 [!DNL Target] 请求，并基于访客的IP地址。 选择这些参数的方式与选择其他任何定位值一样。
 
 ## 通过地域定位创建受众 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
 1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 为受众命名并添加可选描述。
-1. 拖放 **[!UICONTROL 地域]** 进入受众生成器窗格。
+1. 拖放 **[!UICONTROL 地域]** 放入受众生成器窗格。
 
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
@@ -35,21 +35,21 @@ ht-degree: 41%
    * [!UICONTROL DMA]
    * [!UICONTROL 移动设备运营商]
 
-   访客的地域信息由 [!DNL Target] 位置请求（mbox请求）。 IP到地域的解决方案在新会话的首次调用中完成。 这意味着，如果访客的IP地址在访问会话期间发生更改，则地理信息仍基于首次调用的IP地址。
+   访问者的地理信息是根据 [!DNL Target] 位置请求（mbox 请求）的原始 IP 地址确定的。IP 到地理位置的解析是在新会话的第一次调用时完成的。这意味着，如果访问者的 IP 地址在访问期间发生变化，地理信息仍基于第一次调用的 IP 地址。
 
-   对于 [!UICONTROL 移动设备运营商], [!DNL Target] 使用IP地址注册数据（即拥有IP地址块的用户）来确定使用的相应移动运营商 [移动设备国家/地区代码(MCC)和移动设备网络代码(MNC)](https://www.mcc-mnc.com).
+   对象 [!UICONTROL 移动设备运营商]， [!DNL Target] 使用IP地址注册数据（即IP地址块的所有者）来确定使用的相应移动运营商 [移动设备国家/地区代码(MCC)和移动设备网络代码(MNC)](https://www.mcc-mnc.com).
 
 1. 指定运算符和相应的值。
 1. （可选）为受众设置其他规则。
 1. 单击&#x200B;**[!UICONTROL 完成]**。
 
-下图展示了一个受众，它定位的是从纬度大于44°和经度小于22°访问活动的用户。
+下图展示了一个受众，它定位的是从纬度大于44°且经度小于22°的纬度访问活动的用户。
 
 ![target_geo图像](assets/target_geo.png)
 
 ## 精准度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-地域定位的精准度取决于多个因素。与蜂窝网络相比，使用 WiFi 连接进行地域定位会更加精准。当访客使用蜂窝数据连接时，地理查询的准确性可能会受位置、提供商与 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)，以及其他因素。 使用基于蜂窝塔的网络连接进行地域定位可能没有使用有线或 WiFi 连接精准。此外，访客的IP地址可能会映射到访客的ISP位置，该位置可能与访客的实际位置不同。 使用 [地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+地域定位的精准度取决于多个因素。与蜂窝网络相比，使用 WiFi 连接进行地域定位会更加精准。当访客使用蜂窝数据连接时，地理查找的准确性可能受位置、提供商与的数据关系影响。 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)和其他因素。 使用基于蜂窝塔的网络连接进行地域定位可能没有使用有线或 WiFi 连接精准。此外，访客的IP地址可能会被映射到访客的ISP位置，该位置可能与访客的实际位置不同。 使用可以解决一些移动设备地理位置问题 [地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 下表显示了使用有线或 WiFi Internet 连接时根据 IP 获取的地理位置信息的精准度，此数据由 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 提供。DigitalEnvoy 能够提供业内最精准的数据。国家/地区级全局精准度超过 99.9%，城市级全局准确度高达 97%。此精准度信息不适用于基于蜂窝塔的网络。
 
@@ -86,9 +86,9 @@ ht-degree: 41%
 
 `return profile.geolocation.country == 'united states' || profile.geolocation.country == 'canada' || profile.geolocation.country == 'mexico';`
 
-## 将地理定位值用作令牌 {#section_E7F7FDF62C3B4934A6565D04B24655F6}
+## 使用地理定位值作为令牌 {#section_E7F7FDF62C3B4934A6565D04B24655F6}
 
-您可以使用 `profile.geolocation` 值会直接作为选件、插件等中的令牌。
+您可以使用 `profile.geolocation` 值直接作为选件、插件等中的令牌。
 
 例如，使用：
 
@@ -106,27 +106,27 @@ ht-degree: 41%
 
 ## 地域定位常见问题解答 {#section_DD308A53AF0F48FA8C81423580561FE7}
 
-以下是有关地域定位的常见问题：
+以下是关于地理定位的常见问题：
 
 ### 如何指定纬度和经度？
 
 +++查看详细信息
-* 纬度和经度的值应该是度数值。
-* 纬度和经度的值最大精度可以小数位五位。
+* 纬度和经度的值应为以度为单位的数字值。
+* 纬度和经度的值最多可以精确到五位小数。
 * 纬度值应介于 -90 到 90 之间。
 * 经度值应介于 -180 到 180 之间。
 
 +++
 
-### 地域定位在移动设备上的工作原理是什么？
+### 移动设备如何进行地理定位？
 
-+++查看详细信息大多数移动设备用户通过WiFi访问内容，这意味着 [!DNL Target]的基于IP的地理定位与桌面一样准确。 使用基于蜂窝塔的连接时，会根据获取信号的塔所在的位置来确定访客的 IP 地址，因此精准度可能会有所降低。使用 [地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
++++查看详细信息大多数移动设备用户通过WiFi访问内容，这意味着 [!DNL Target]的基于IP的地理定位与在桌面上一样准确。 使用基于蜂窝塔的连接时，会根据获取信号的塔所在的位置来确定访客的 IP 地址，因此精准度可能会有所降低。使用可以解决一些移动设备地理位置问题 [地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 +++
 
 ### 地域定位功能如何处理来自 AOL（美国在线公司）的访客？
 
-+++查看详细信息由于AOL代理其流量的方式， [!DNL Target] 只能在国家/地区级别定位。 例如，定位到法国的营销活动成功定位了法国的AOL用户。 但是，定位到巴黎的营销活动无法成功定位巴黎的AOL用户。 如果您的目的是特别定位 AOL 用户，您可以将地区字段设为“aol”。实际上，您可以通过指定以下两个定位条件来定位美国的 AOL 用户：国家/地区完全匹配“美国”，而地区完全匹配“aol”。
++++查看详细信息由于AOL代理其流量的方式， [!DNL Target] 只能在国家一级针对他们。 例如，以法国为目标的营销活动成功地以法国的AOL用户为目标。 但针对巴黎的营销活动无法成功针对巴黎的AOL用户。 如果您的目的是特别定位 AOL 用户，您可以将地区字段设为“aol”。实际上，您可以通过指定以下两个定位条件来定位美国的 AOL 用户：国家/地区完全匹配“美国”，而地区完全匹配“aol”。
 
 +++
 
@@ -145,7 +145,7 @@ ht-degree: 41%
 ### 我如何模拟其他位置的用户身份测试活动？
 
 +++查看详细信息
-* **at.js 1.*x***:您可以使用其他位置的IP地址覆盖您的IP地址，并使用 `mboxOverride.browserIp url` 参数。 例如，如果您的公司位于英国，但您的全球营销活动定位的是新西兰奥克兰的访客，请使用此类型的URL(假定 `60.234.0.39` 是奥克兰的一个IP地址：
+* **at.js 1.*x***：您可以使用其他位置的IP地址覆盖您的IP地址，并使用 `mboxOverride.browserIp url` 参数。 例如，如果您的公司位于英国，但您的全球营销活动目标访客位于新西兰的奥克兰，则可使用以下形式的URL： `60.234.0.39` 是奥克兰的一个IP地址：
 
    `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
@@ -155,19 +155,19 @@ ht-degree: 41%
    >
    >`mboxOverride.browserIp` at.js 1.*x*。at.js 2.*x*。
 
-* **at.js 2.*x***:使用at.js 2.*x*，请安装浏览器扩展/插件（例如适用于Chrome或Firefox的X-Forwarded-For Header）。 此扩展允许您在页面请求中传递x-forwarded-for标头。
+* **at.js 2.*x***：使用at.js 2.*x*，安装浏览器扩展/插件（例如Chrome或Firefox的X-Forwarded-For标头）。 通过此扩展，您可以在页面请求中传递x-forwarded-for标头。
 
 +++
 
 ### 如何将波多黎各和中国香港特别行政区等区域映射到地理定位结构？
 
-+++请参阅详细信息波多黎各、香港和其他地区将被视为单独的“国家/地区”值。
++++请参阅详细信息，将波多黎各、香港和其他地区视为单独的“国家/地区”值。
 
 +++
 
-### 是 [!DNL Target] 使用地理位置定位功能定位活动时，是否会捕获（和存储）邮政编码等信息？
+### Do [!DNL Target] 使用地理位置定位功能定位活动时，是否捕获（和存储）信息（例如邮政编码）？
 
-+++详情否， [!DNL Target] 仅在会话期间使用地理数据，然后会丢弃该数据。
++++查看详细信息否， [!DNL Target] 仅在会话期间使用地理数据，则会丢弃该数据。
 
 +++
 

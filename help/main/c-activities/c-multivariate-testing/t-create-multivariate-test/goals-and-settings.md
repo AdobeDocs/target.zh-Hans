@@ -1,6 +1,6 @@
 ---
-keywords: 活动设置；目标和设置；多变量；MVT
-description: 了解如何在Adobe中使用目标和设置页面 [!DNL Target] 以指定有关多变量测试(MVT)活动目标的信息。
+keywords: 活动设置；目标和设置；多变量；mvt
+description: 了解如何使用Adobe中的“目标和设置”页面 [!DNL Target] 指定有关多变量测试(MVT)活动目标的信息。
 title: 如何在多变量测试(MVT)活动中指定目标和设置？
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
@@ -13,7 +13,7 @@ ht-degree: 90%
 
 # 目标和设置（多变量测试）
 
-在Adobe Target的“目标和设置”页面中，您可以输入有关目标的信息 [!UICONTROL 多变量] (MVT)测试。
+在Adobe Target的“目标和设置”页面中，您可以输入有关 [!UICONTROL 多变量] (MVT)测试。
 
 * 活动设置
 * 报表设置
@@ -37,9 +37,9 @@ ht-degree: 90%
 
 如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。
 
-如果S中未启用此选项[!UICONTROL 管理] > [!UICONTROL 报表] （默认），指定优先级：“低”、“中”或“高”。
+如果未在S中启用此选项[!UICONTROL 管理] > [!UICONTROL 报告] （默认），指定优先级：“低”、“中”或“高”。
 
-要启用细粒度优先级，请单击 [!UICONTROL 管理] > [!UICONTROL 报表]，然后将“启用细粒度优先级”选项切换到“开”位置。
+要启用细粒度优先级，请单击 [!UICONTROL 管理] > [!UICONTROL 报告]，然后将“启用细粒度优先级”选项切换到“开”位置。
 
 如果已启用此选项，请指定一个介于 0 到 999 之间值：
 

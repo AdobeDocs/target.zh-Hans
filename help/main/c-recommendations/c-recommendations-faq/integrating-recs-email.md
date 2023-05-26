@@ -26,7 +26,7 @@ ht-degree: 96%
 
 如果要使用方法 1 或方法 2，那么您的 ESP 需要对每个客户/每封电子邮件调用外部 API，并等待返回内容。并非所有 ESP 都支持这些方法；请联系您的 ESP 以确定它是否支持此集成模式。
 
-如果要使用方法 3，则您的 ESP 需要按产品 ID 或类别 ID 将推荐列表加入您的电子邮件列表。此方法可以基于客户上次查看的产品、上次购买的产品或查看次数最多的类别等属性。 但是，您的 ESP 必须有权访问其客户个人资料中的此数据才能执行加入。请联系您的 ESP 以确定它是否有权访问此数据以及是否支持此集成模式。
+如果要使用方法 3，则您的 ESP 需要按产品 ID 或类别 ID 将推荐列表加入您的电子邮件列表。此方法可以基于诸如客户上次查看的产品、上次购买的产品或查看次数最多的类别等属性。 但是，您的 ESP 必须有权访问其客户个人资料中的此数据才能执行加入。请联系您的 ESP 以确定它是否有权访问此数据以及是否支持此集成模式。
 
 [!DNL Adobe Target] 不支持个性化设置推荐的打开时间。
 
@@ -125,7 +125,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | 参数 | 值 | 描述 | 验证 |
 |--- |--- |--- |--- |
-| `client_code` | *client_code* | 客户端在Recommendations中使用的代码。 您的 Adobe 顾问可以提供此值。 |  |
+| `client_code` | *client_code* | Recommendations中使用的客户端代码。 您的 Adobe 顾问可以提供此值。 |  |
 | `mbox` | *mboxName* | 用于定位的 mbox 名称。 | 验证方式与所有 mbox 调用相同。<br>250 个字符限制。<br>不能包含以下任一字符：`', ", %22, %27, <, >, %3C, %3E` |
 | `mboxXDomain` | disabled | 阻止响应在非 Web 环境中设置 Cookie。 |  |
 | `entity.id`<br>（以下特定类型的标准需要使用此参数：已查看/已查看、已查看/已购买、已购买/已购买）。 | *entity_id* | 推荐所基于的产品 ID，例如在购物车中放弃的产品或以前购买的产品。<br>如果推荐标准具有相应要求，则 rawbox 必须包含 `entity.id`。 |  |
@@ -133,7 +133,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.categoryId`<br>（以下特定类型的标准需要使用此参数：按类别查看次数最多的项目和按类别最畅销的商品） | *category_id* | 推荐所基于的类别，例如某个类别中最畅销的商品。<br>如果推荐标准具有相应要求，则 rawbox 必须包含 `entity.categoryId`。 |  |
 | `mboxDefault` | *`https://www.default.com`* | 如果 `mboxNoRedirect` 参数不存在，则 `mboxDefault` 应该是一个绝对 URL，在没有可用推荐的情况下，该 URL 将返回默认内容。此 URL 可以是一个图像或其他静态内容。<br>如果 `mboxNoRedirect` 参数存在，则 `mboxDefault` 可以是用于指示没有推荐的任何文本，例如 `no_content`。<br>电子邮件提供商必须处理返回此值的情况，并将默认 HTML 插入到电子邮件中。<br> **安全最佳实践**：如果在 `mboxDefault` URL 中使用的域未被列入允许列表，则可能面临开放重定向漏洞的风险。为避免第三方未经授权即使用重定向程序链接或 `mboxDefault`，Adobe 建议您使用“授权的主机”将默认的重定向 URL 域列入允许列表。Target 使用主机将您要允许重定向到的域列入允许列表。有关更多信息，请参阅[创建允许列表，其中指定有权将 mbox 调用发送到 [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist)的主机（在&#x200B;*主机*&#x200B;中）。 |  |
 | `mboxHost` | *mbox_host* | 这是调用触发时添加到默认环境（主机组）的域。 |  |
-| `mboxPC` | 留空 | （使用访客配置文件的推荐需要使用此参数。）<br>如果未提供“thirdPartyId”，则会生成一个新的tntId，并在响应中返回该tntId。 否则，此值将继续留空。<br>**注意：**&#x200B;请确保为每个电子邮件收件人（即，每个 API 调用）的 `mboxSession` 和 `mboxPC` 提供唯一值。如果您没有为这些字段提供唯一值，则由于在单个配置文件中会生成大量事件，API 响应可能变慢或失败。 | 1 &lt; 长度 &lt; 128<br>最多只能包含一个“.”（圆点）。<br>仅允许在配置文件位置后缀中使用圆点。 |
+| `mboxPC` | 留空 | （使用访客配置文件的推荐需要使用此参数。）<br>如果未提供“thirdPartyId”，则会生成新的tntId，并将其作为响应的一部分返回。 否则，此值将继续留空。<br>**注意：**&#x200B;请确保为每个电子邮件收件人（即，每个 API 调用）的 `mboxSession` 和 `mboxPC` 提供唯一值。如果您没有为这些字段提供唯一值，则由于在单个配置文件中会生成大量事件，API 响应可能变慢或失败。 | 1 &lt; 长度 &lt; 128<br>最多只能包含一个“.”（圆点）。<br>仅允许在配置文件位置后缀中使用圆点。 |
 
 ### 可选参数
 

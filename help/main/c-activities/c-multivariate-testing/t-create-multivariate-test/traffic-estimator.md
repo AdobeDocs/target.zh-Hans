@@ -1,6 +1,6 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: 了解如何使用流量估算器，以告知您是否有足够的流量用于Adobe [!DNL Target] 多变量测试活动成功。
+description: 了解如何使用流量估算器，让您知道自己的Adobe是否有足够的流量 [!DNL Target] 多变量测试活动将成功。
 title: 多变量测试(MVT)活动需要多少流量？
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
@@ -35,7 +35,7 @@ ht-degree: 91%
 
    此时将打开流量估算器。您可以再次单击&#x200B;**[!UICONTROL 流量]**&#x200B;图标以隐藏流量估算器。
 
-   ![估计图像](assets/estimatorempty.png)
+   ![估计极点图像](assets/estimatorempty.png)
 
 1. 提供典型转化率、预计每日访客数和测试持续时间。
 
@@ -48,7 +48,7 @@ ht-degree: 91%
 
    系统会计算您输入的值并在流量估算器的顶部区域附近显示计算结果。
 
-   ![估计不足图像](assets/estimatorinsufficient.png)
+   ![估算图像不足](assets/estimatorinsufficient.png)
 
    当您更改这些数字时，估算的结果也会相应改变。例如，如果您测试的体验数量很多，而转化率和展示次数过低，则流量估算器会显示测试取得成功所需的运行时间。或者，如果您的流量较低，流量估算器可能会建议您减少体验数量，以便能够将测试运行所需的天数。
 
@@ -59,4 +59,4 @@ ht-degree: 91%
 
    调整数字直到流量估算器表示已有足够流量，然后对您的测试进行相应设计。
 
-   ![估计图像](assets/estimatorok.png)
+   ![estimatorok图像](assets/estimatorok.png)

@@ -1,6 +1,6 @@
 ---
 keywords: Experience Cloud;登录;语言;默认 ui 语言;默认语言
-description: 了解如何访问 [!DNL Target] 在Adobe Experience Cloud中，设置默认视图，然后更改 [!DNL Target] 用户界面和文档。
+description: 了解如何访问 [!DNL Target] 在Adobe Experience Cloud中设置默认视图，然后更改 [!DNL Target] 用户界面和文档。
 title: 如何从 Adobe Experience Cloud 访问 [!DNL Target] ？
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76

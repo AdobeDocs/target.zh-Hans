@@ -1,6 +1,6 @@
 ---
 keywords: 创建体验;体验创建;优先级;受众;体验;可视化体验编辑器
-description: 了解如何使用Adobe [!DNL Target] 可视化体验编辑器(VEC)，用于在体验定位(XT)活动中创建和编辑页面上的体验。
+description: 了解如何使用Adobe [!DNL Target] 可视化体验编辑器(VEC)，用于在体验定位(XT)活动中的页面上创建和编辑体验。
 title: 如何在体验定位活动中创建体验？
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 # 在体验定位(XT)活动中创建体验
 
-的 [!UICONTROL 可视化体验编辑器] (VEC) [!DNL Adobe Target] 提供了一个可视化界面，用于编辑 [!UICONTROL 体验定位] (XT)活动。
+此 [!UICONTROL 可视化体验编辑器] (VEC) in [!DNL Adobe Target] 提供了一个可视化界面，用于编辑您的页面上的体验 [!UICONTROL 体验定位] (XT)活动。
 
 1. 选择要更改的元素，然后进行所需的更改。
 
@@ -25,7 +25,7 @@ ht-degree: 87%
 
    将鼠标悬停在页面中的元素上时，这些元素会高亮显示。任何高亮显示的元素都可以使用 VEC 进行更改。有关为更改体验而可对元素执行的操作列表，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
-   如果您创建了 [!DNL Target] 使用 [!DNL Target Classic], [!DNL Target] 请求将显示为一个元素，其中显示了请求名称，并且可以像任何其他元素一样进行修改。
+   如果您创建了 [!DNL Target] 使用以下方式在页面上请求 [!DNL Target Classic]，即 [!DNL Target] 请求将显示为一个元素，该元素显示请求名称，并且可以像任何其他元素一样进行修改。
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ ht-degree: 87%
    >
    >除了选择现有受众之外，您还可以合并多个受众来创建临时组合受众，而不是创建新受众。有关更多信息，请参阅[合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-   创建受众时，您可以选择一个位置并指定该位置的参数。 在 [!UICONTROL 自定义] （创建受众>添加规则>自定义），选择位置，然后指定所需的参数。
+   创建受众时，您可以选择位置并指定该位置的参数。 下 [!UICONTROL 自定义] （创建受众>添加规则>自定义），选择位置，然后指定所需的参数。
 
    >[!NOTE]
    >

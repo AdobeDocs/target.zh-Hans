@@ -1,6 +1,6 @@
 ---
 keywords: 体验定位;XT;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
-description: 了解如何在Adobe中指定量度 [!DNL Target] 体验定位活动来确定访问何时被视为成功，例如转化、收入和参与度。
+description: 了解如何在Adobe中指定指标 [!DNL Target] 用于确定访问何时成功的体验定位活动，例如转化、收入和参与度。
 title: 如何在体验定位活动中设置目标量度？
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # 在体验定位(XT)活动中设置量度
 
-在 [!DNL Adobe Target] [!UICONTROL 体验定位] (XT)活动来确定访问何时被视为成功。
+在中使用量度 [!DNL Adobe Target] [!UICONTROL 体验定位] (XT)活动，用于确定访问何时被视为成功。
 
 有关成功量度的详细信息，请参阅 [成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 

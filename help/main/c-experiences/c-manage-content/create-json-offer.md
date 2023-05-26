@@ -1,6 +1,6 @@
 ---
 keywords: 远程选件;创建远程选件
-description: 了解如何在Adobe中创建JSON选件 [!DNL Target] ，以在基于表单的体验编辑器中使用。
+description: 了解如何在Adobe中创建JSON选件 [!DNL Target] ，以便在基于表单的体验编辑器中使用。
 title: 如何创建JSON选件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
@@ -13,18 +13,18 @@ ht-degree: 32%
 
 # 创建 JSON 选件
 
-在中创建JSON选件 [!UICONTROL 选件库] in [!DNL Adobe Target] ，在中使用 [!UICONTROL 基于表单的体验编辑器].
+在中创建JSON选件 [!UICONTROL 选件库] 在 [!DNL Adobe Target] 在中使用 [!UICONTROL 基于表单的体验编辑器].
 
-JSON选件可用于基于表单的活动，在这些活动中，可启用 [!DNL Target] 决策需要以JSON格式发送选件，以便在SPA框架或服务器端集成中使用。
+JSON选件可用于基于表单的活动，由此在以下情况下启用用例： [!DNL Target] 需要决策才能以JSON格式发送选件，以便在SPA框架或服务器端集成中使用。
 
 ## JSON注意事项
 
 使用 JSON 选件时，请考虑以下信息：
 
-* JSON选件当前仅适用于 [!UICONTROL A/B测试]、Automated Personalization（美联社）和 [!UICONTROL 体验定位] (XT)活动。
-* JSON选件可用于 [基于表单的活动](/help/main/c-experiences/form-experience-composer.md) 仅。
-* 使用 [服务器端API和Mobile Node.js、Java、.NET和Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
-* 在浏览器中，JSON选件只能通过at.js 1.2.3（或更高版本）和使用 [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} (通过使用 `setJson` 操作。
+* JSON选件当前仅适用于 [!UICONTROL A/B测试]、Automated Personalization (AP)和 [!UICONTROL 体验定位] (XT)活动。
+* JSON选件可用于 [基于表单的活动](/help/main/c-experiences/form-experience-composer.md) 仅此而已。
+* 使用时，可以直接检索JSON选件 [服务器端API和移动节点.js、Java、.NET和Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+* 在浏览器中，只能通过at.js 1.2.3（或更高版本）并使用以下方式检索JSON选件 [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} 通过使用 `setJson` 操作。
 * JSON 选件可作为原生 JSON 对象而不是字符串来交付。这些对象的用户不必再将对象作为字符串处理后再将其转换为 JSON 对象。
 * 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。开发人员必须编写相应代码，以便使用 [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
 
@@ -32,7 +32,7 @@ JSON选件可用于基于表单的活动，在这些活动中，可启用 [!DNL 
 
 1. 单击 **[!UICONTROL 选件]** > **[!UICONTROL 代码选件]**.
 
-   ![选件>代码选件选项卡](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![“选件”>“代码选件”选项卡](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
 1. 单击&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL JSON 选件]**。
 
@@ -44,7 +44,7 @@ JSON选件可用于基于表单的活动，在这些活动中，可启用 [!DNL 
 
 ## JSON示例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-JSON选件仅在使用 [基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md). 目前，能够使用JSON选件的唯一方法是通过直接API/SDK调用。
+只有在使用创建的活动中才支持JSON选件 [基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md). 目前，能够使用JSON选件的唯一方法是通过直接API/SDK调用。
 
 示例如下：
 
@@ -68,7 +68,7 @@ adobe.target.getOffer({
 }
 ```
 
-操作数组具有以下结构：
+操作数组的结构如下：
 
 ```json
 [ 
@@ -131,14 +131,14 @@ adobe.target.getOffer({
 });
 ```
 
-## JSON选件示例（使用实时CDP配置文件属性）
+## 使用实时CDP配置文件属性的JSON选件示例
 
-Real-time CDP Profile Attributes可与 [!DNL Target] 用于HTML选件和JSON选件。 （请注意，此功能目前处于测试阶段。）
+Real-time CDP配置文件属性可与共享 [!DNL Target] 用于HTML选件和JSON选件。 （请注意，此功能当前处于Beta阶段。）
 
-有关更多信息，请参阅 [与共享Real-time CDP Profile Attributes [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
+有关更多信息，请参阅 [与共享Real-time CDP配置文件属性 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
 ## 按JSON选件类型筛选选件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-您可以过滤 [!UICONTROL 选件] 库(通过单击 **[!UICONTROL 类型]** 下拉列表中，然后选择 **[!UICONTROL JSON]** 复选框。
+您可以筛选 [!UICONTROL 选件] 库，方法是单击 **[!UICONTROL 类型]** 下拉列表，然后通过选择 **[!UICONTROL JSON]** 复选框。
 
 ![offer-json-filter图像](assets/offer-json-filter.png)

@@ -1,6 +1,6 @@
 ---
 keywords: 可视化体验编辑器;VEC;轮播
-description: 了解如何创建可在Adobe中编辑的轮播 [!DNL Target] 可视化体验编辑器(VEC)。
+description: 了解如何创建可以在Adobe中编辑的轮播 [!DNL Target] 可视化体验编辑器(VEC)。
 title: 如何在可视化体验编辑器中创建轮播效果？
 feature: Visual Experience Composer (VEC)
 exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 # 创建可以在可视化体验编辑器中工作的轮播效果
 
-本主题将演示如何创建可以在 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)。
+本主题说明如何创建可以在以下位置编辑的轮播： [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)。
 
 执行以下步骤时，[!DNL Target] 始终知道选定的幻灯片具有“选择器”，可选出正确的幻灯片，即使几秒钟后可视化体验编辑器中的幻灯片发生更改也是如此。
 

@@ -1,6 +1,6 @@
 ---
 keywords: 访客配置文件;Target 访客配置文件
-description: 了解如何在 [!DNL Adobe Target] 以定位满足特定配置文件参数（如新访客或回访访客、类别亲和度等）的访客。
+description: 了解如何在中创建受众 [!DNL Adobe Target] 定位满足特定配置文件参数（如新访客或回访访客、类别亲和度等）的访客。
 title: 我是否可以定位满足特定配置文件参数的访客？
 feature: Audiences
 exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
@@ -13,11 +13,11 @@ ht-degree: 46%
 
 # 访客个人资料
 
-在中创建受众 [!DNL Adobe Target] 以定位满足特定配置文件参数的访客。
+在中创建受众 [!DNL Adobe Target] 定位符合特定配置文件参数的访客。
 
 1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 为受众命名并添加可选描述。
-1. 拖放 **[!UICONTROL 访客资料]** 进入受众生成器窗格。
+1. 拖放 **[!UICONTROL 访客资料]** 放入受众生成器窗格。
 
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
@@ -33,16 +33,16 @@ ht-degree: 46%
    * [!UICONTROL 不是会话首页]
    * [!UICONTROL 类别亲和力]
 
-   使用新的 `mboxPC` 为每个 mbox 调用在本地 Edge 内存中创建访客配置文件。处于不活动状态30分钟后，该用户档案会保存到 [!DNL Target] 数据库，并可从其他边缘访问。
+   使用新的 `mboxPC` 为每个 mbox 调用在本地 Edge 内存中创建访客配置文件。处于非活动状态30分钟后，会将用户档案保存到 [!DNL Target] 并从其他边缘访问。
 
-   网站访客在会话期间登录并 `3rdpartyId`，所有之前加载的与 `3rdPartyId` 将立即可用。
+   网站访客在会话期间登录并获得 `3rdpartyId`，所有以前加载的与关联的配置文件属性 `3rdPartyId` 立即可用。
 
-   您可以定位自定义配置文件参数和 `user.` 参数。选择要用来定位活动的参数。如果未显示所需的参数，则表示该参数未被mbox触发。
+   您可以定位自定义配置文件参数和 `user.` 参数。选择要用来定位活动的参数。如果未显示所需的参数，则表示该参数未由mbox触发。
 
 1. （可选）为受众设置其他规则。
 1. 单击&#x200B;**[!UICONTROL 完成]**。
 
-## 培训视频：创建受众 ![概述徽章](/help/main/assets/overview.png)
+## 培训视频：创建受众 ![“概述”标记](/help/main/assets/overview.png)
 
 以下视频包含有关使用受众类别的信息。
 

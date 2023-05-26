@@ -5,7 +5,7 @@ title: 如何使用[!UICONTROL 可视化编辑帮助程序]扩展？
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
 source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 100%
 

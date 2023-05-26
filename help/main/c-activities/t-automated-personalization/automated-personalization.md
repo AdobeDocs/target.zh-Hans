@@ -1,7 +1,7 @@
 ---
 keywords: 自动个性化；AP；受众；组合；随机林；多臂老虎机；汤普森采样；ML；机器学习
-description: 了解如何在Adobe中使用Automated Personalization(AP)活动 [!DNL Target] 可使用先进的机器学习技术将不同的选件变体与每位访客进行匹配。
-title: 什么是Automated Personalization(AP)活动？
+description: 了解如何在Adobe中使用Automated Personalization (AP)活动 [!DNL Target] 高级机器学习将不同的选件变体与每位访客相配。
+title: 什么是Automated Personalization (AP)活动？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
@@ -14,7 +14,7 @@ ht-degree: 82%
 
 # Automated Personalization (AP)
 
-[!UICONTROL Automated Personalization] (AP) [!DNL Adobe Target] 合并选件或消息，并使用先进的机器学习技术根据每位访客的个人客户配置文件将不同的选件变体与其匹配，以便个性化内容并促进提升。
+[!UICONTROL Automated Personalization] (AP)中的活动 [!DNL Adobe Target] 可组合选件或消息，并使用先进的机器学习技术，根据每位访客的个人客户配置文件将不同的选件变体与其匹配，以便个性化内容并促进提升。
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 82%
 
 与[!UICONTROL 自动定位]类似，[!UICONTROL 自动个性化]也使用随机林算法（一种领先的数据科学组合方法）作为其主要个性化算法，来确定向访客显示的最佳体验。[!UICONTROL 自动个性化在测试的探索阶段可能很有意义。]当定位各种不同的访客时，它也有助于机器学习确定最有效的内容。随着时间的推移，该算法会学习预测最有效的内容并显示最有可能实现您的目标的内容。
 
-查找有关如何 [!UICONTROL Automated Personalization] 不同 [!UICONTROL 自动定位]，请参阅 [自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+查找有关以下内容的更多信息： [!UICONTROL Automated Personalization] 不同于 [!UICONTROL 自动定位]，请参见 [自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
 营销人员可在他们的网站上实施一个文件，使他们能够指向并单击任何内容，然后使用 VEC（[!UICONTROL 可视化体验编辑器]）为该区域直观地创建和选择其他内容选项。之后，该算法会根据系统提供的有关每一位访客的所有行为数据自动确定向该访客提供的内容块，从而提供个性化体验。由于[!UICONTROL 自动个性化]可以根据访客行为的变化进行相应调整，因此它可以在没有设定结束日期的情况下运行，以提供持续的提升和个性化。这有时被称为“始终运行”模式。营销人员不需要先运行测试、分析结果、交付入选者，然后再实现从优化中发现的提升，这是实施标准 A/B 活动结果的标准操作顺序。
 
@@ -32,7 +32,7 @@ ht-degree: 82%
 |---|---|
 | 多臂老虎机 | 多臂老虎机优化方法可在探索式学习和对该学习的利用之间进行平衡。 |
 | 随机森林 | 随机林是一种领先的机器学习方法。从数据科学领域来讲，它是一种基于访客和访问属性构建大量决策树的组合分类或回归方法。在 Target 中，随机林用来确定对于每个特定访客而言，哪个体验的转化可能性最高（或每次访问带来的收入最高）。有关 Target 中随机林的更多信息，请参阅[随机林算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)。 |
-| 汤普森采样 | 汤普森采样的目标是确定哪个体验总体上最好（非个性化），同时最大限度地降低查找该体验的“成本”。 即便两种体检之间没有统计意义上的差异，汤普森采样算法还是会选出一个入选者。有关更多信息，请参阅[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling)。 |
+| 汤普森采样 | 汤普森采样的目标是确定哪个体验是最佳的整体（非个性化）体验，同时最大限度地降低找到该体验的“成本”。 即便两种体检之间没有统计意义上的差异，汤普森采样算法还是会选出一个入选者。有关更多信息，请参阅[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling)。 |
 
 使用[!UICONTROL 自动个性化]时请考虑以下详细信息：
 
@@ -48,7 +48,7 @@ ht-degree: 82%
 
 **个性化模型会根据访客行为的变化进行相应调整。**
 
-* 多臂老虎机可确保模型始终“花费”一小部分流量，以便在整个活动生命周期中继续学习，并防止过度利用以前学到的趋势。
+* 多臂老虎机确保模型始终“花费”一小部分流量以在活动期间继续学习，并防止过度利用以前学习到的趋势。
 * 系统会每 24 小时使用最新的访客行为数据重新构建基础模型，以确保 Target 始终利用不断发生更改的访客偏好。
 * 如果该算法无法为单个访客确定入选体验，则会自动切换为显示整体性能最佳的体验，同时仍继续寻找个性化的入选者。性能最佳的体验将使用[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling)来查找。
 
@@ -74,7 +74,7 @@ ht-degree: 82%
 
 有关[!UICONTROL 自动个性化]和[!UICONTROL 自动定位]个性化算法自动收集和使用的数据的信息，请参阅[自动个性化数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 
-## ![概述徽章](/help/main/assets/overview.png) 培训视频：活动类型
+## ![“概述”标记](/help/main/assets/overview.png) 培训视频：活动类型
 
 以下视频介绍了 [!DNL Target Standard/Premium] 中可用的活动类型。[!UICONTROL 对自动个性化的讨论开始于 5:55。]
 

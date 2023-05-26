@@ -1,6 +1,6 @@
 ---
 keywords: 多变量测试；活动URL
-description: 了解如何指定活动URL，以确定测试中使用的页面以及在使用Adobe Target设计多变量测试活动时打开的页面。
+description: 了解如何指定活动URL，以确定测试中使用的页面，以及在使用Adobe Target设计多变量测试活动时打开的页面。
 title: 多变量(MVT)活动中的活动URL是什么？
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425

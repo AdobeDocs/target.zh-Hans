@@ -1,5 +1,5 @@
 ---
-keywords: target 用户界面;用户界面;ui；公告；事件；通知
+keywords: target 用户界面;用户界面;ui；公告；活动；通知
 description: 熟悉用户界面并查找更深入的信息的链接，以帮助您充分利用 [!DNL Target].
 title: 如何使用 [!DNL Target] UI？
 feature: Overview
@@ -13,13 +13,13 @@ ht-degree: 48%
 
 # 了解 [!DNL Target] UI
 
-该用户界面按符合逻辑并且便于用户使用的形式进行排列，以帮助您充分利用 [!DNL Adobe Target]。以下简要概述可帮助您熟悉 [!DNL Target] 和提供了更多详细信息和分步说明的链接。
+该用户界面按符合逻辑并且便于用户使用的形式进行排列，以帮助您充分利用 [!DNL Adobe Target]。以下简要概述可帮助您熟悉 [!DNL Target] 和提供了更深入的信息和分步说明的链接。
 
-顶部的标题 [!DNL Target] UI包含一些选项卡和选项，可帮助您导航解决方案的不同功能。 您还可以切换组织和 [!DNL Adobe Experience Cloud] 解决方案，获取帮助和通知，管理 [!DNL Adobe] 配置文件，并注销 [!DNL Target].
+顶部标题 [!DNL Target] UI包含一些选项卡和选项，可帮助您导航解决方案的不同功能。 您还可以切换组织和 [!DNL Adobe Experience Cloud] 解决方案、获取帮助和通知、管理您的 [!DNL Adobe] 配置文件，并注销 [!DNL Target].
 
 ![Target 标题](/help/main/c-intro/assets/target-header.png)
 
-使用左侧的选项卡，可访问 [!DNL Target]，稍后将讨论。 在转入这些选项卡之前，我们先来讨论右侧的各个选项。
+通过沿左侧的选项卡，可访问的各项功能 [!DNL Target]，将在后面讨论。 在转入这些选项卡之前，我们先来讨论右侧的各个选项。
 
 ## 组织
 
@@ -37,19 +37,19 @@ ht-degree: 48%
 
 ## 帮助
 
-通过“帮助”图标，可访问信息、视频、博客等以帮助您更有效地使用 [!DNL Target]。您可以创建支持票证、查找支持电话号码、通过Twitter提出问题或提供有关 [!DNL Target] 让我们知道 [!DNL Target] 团队在做。
+通过“帮助”图标，可访问信息、视频、博客等以帮助您更有效地使用 [!DNL Target]。您可以创建支持工单、查找支持电话号码、通过Twitter提问或提供以下方面的反馈 [!DNL Target] 让我们知道 [!DNL Target] 团队正在做。
 
 ![帮助](/help/main/c-intro/assets/help.png)
 
 ## 通知和公告 {#notifications-announcements}
 
-[!UICONTROL “通知”]和[!UICONTROL “公告”]面板帮助您及时了解 [!DNL Adobe Target] 的所有最新进展。主动通知有助于您及时了解 [!DNL Adobe Experience Cloud] 解决方案和 [!DNL Target] 事件。 主动公告提醒您发生断电事件和维护事件。
+[!UICONTROL “通知”]和[!UICONTROL “公告”]面板帮助您及时了解 [!DNL Adobe Target] 的所有最新进展。主动通知帮助您及时了解 [!DNL Adobe Experience Cloud] 解决方案和 [!DNL Target] 事件。 主动公告提醒您发生断电事件和维护事件。
 
 单击标题中的铃铛图标以查看通知：
 
 ![通知和公告的铃铛图标](assets/bell-icon.png)
 
-该面板包含的选项卡适用于 [!UICONTROL 通知] 和 [!UICONTROL 公告].
+该面板包含选项卡 [!UICONTROL 通知] 和 [!UICONTROL 公告].
 
 ![通知](assets/notifications.png)
 
@@ -61,37 +61,37 @@ ht-degree: 48%
 
 * **活动**:批准或停用活动时（手动或达到活动开始或结束日期时），所有活动类型的通知。 通知包含带有活动概述页面链接的活动名称。
 
-   默认情况下，活动工作区中的产品管理员、发布者和批准者可以配置并接收通知，以便 [!DNL Target Premium] 帐户。 对于 [!DNL Target Standard] 帐户、通知由所有发布者和批准者接收。
+   通知是可配置的，默认情况下由产品管理员、发布者和批准者在活动工作区中接收。 [!DNL Target Premium] 帐户。 对象 [!DNL Target Standard] 帐户，通知将由所有发布者和批准者接收。
 
-   通知的格式如下所示：
+   通知的格式与以下示例类似：
 
    * `Activity {target.activity.name} has been activated`
 
    * `Activity {target.activity.name} has been deactivated`
 
-* **配置文件脚本**:手动或由 [!DNL Target].
+* **配置文件脚本**：手动或由激活或停用配置文件脚本时的通知 [!DNL Target].
 
-   通知是可配置的，默认情况下，产品管理员和批准者会接收这两种通知 [!DNL Target Premium] 和 [!DNL Target Standard] 帐户。
+   通知是可配置的，默认情况下由产品管理员和批准者接收 [!DNL Target Premium] 和 [!DNL Target Standard] 帐户。
 
-   通知的格式如下所示：
+   通知的格式与以下示例类似：
 
    * `Profile Script {target.profileScript.name} has been activated`
    * `Profile Script {target.profileScript.name} has been deactivated`
 
-* **Recommendations信息源**:通知 [!DNL Recommendations] 手动或由 [!DNL Target]. 通知也会在 [!DNL Recommendations] 馈送失败。
+* **Recommendations信息源**：通知 [!DNL Recommendations] 信息源已手动激活或停用，或由以下方式激活： [!DNL Target]. 在以下情况下也会发送通知： [!DNL Recommendations] 馈送失败。
 
-   通知是可配置的，默认情况下，产品管理员和批准者会接收通知 [!DNL Target Premium] 帐户。 [!DNL Recommendations] 是 [!DNL Target Premium] 功能，在 [!DNL Target Standard].
+   通知是可配置的，默认情况下由产品管理员和批准者接收 [!DNL Target Premium] 帐户。 [!DNL Recommendations] 是 [!DNL Target Premium] 功能和不可用于 [!DNL Target Standard].
 
-   通知的格式如下所示：
+   通知的格式与以下示例类似：
 
    * `Feed  {target.feed.name} has been activated`
    * `Feed {target.feed.name} has been deactivated`
    * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
-您可以将单个通知标记为已读，方法是将鼠标悬停在所需通知上，然后单击复选标记。 您可以将所有通知标记为已读，或通过单击 [!UICONTROL &quot;标记为已读&quot;] 或 [!UICONTROL &quot;查看全部&quot;] 在面板底部。
+您可以将单个通知标记为已读，方法是将鼠标悬停在所需的通知上，然后单击复选标记。 您可以通过单击将所有通知标记为已读或查看所有通知 [!UICONTROL “标记为已读”] 或 [!UICONTROL &quot;查看全部&quot;] 位于面板底部。
 
-您还可以将鼠标悬停在通知上，单击“[!UICONTROL 提醒我]“ ”图标，然后选择要通知的时间：5分钟、15分钟、1小时或明天。
+您也可以将鼠标悬停在通知上，单击“[!UICONTROL 提醒我]”图标，然后选择您希望收到通知的时间：5分钟、15分钟、1小时或明天。
 
 ### 公告
 
@@ -104,28 +104,28 @@ ht-degree: 48%
 要编辑通知首选项，请执行以下操作：
 
 1. 单击齿轮图标，然后单击 **[!UICONTROL 通知]**.
-1. 在 **[!UICONTROL Target]**，单击 **[!UICONTROL 自定义]**.
+1. 下 **[!UICONTROL Target]**，单击 **[!UICONTROL 自定义]**.
 1. 选择或取消选择要接收通知的类别：
 
-   * 请求：当有人向您发送请求以批准对象或授予对对象的访问权限时。 您无法取消订阅此类别。
-   * 分配给我：当有人为您分配对象时。
-   * 提及次数：某人在评论中提及您时。
+   * 请求：有人向您发送请求以批准对象或授予对象访问权限时。 您无法取消订阅此类别。
+   * 指定给我：当有人将对象指定给您时。
+   * 提及：当有人在评论中提及您时。
    * 新版本：当您有权访问的产品或服务有新版本可用时。
-   * 与我共享：当某人与您共享对象时。
-   * 内容更新：当某人对您创建或跟踪的对象进行编辑、删除或注释时。
+   * 与我共享：其他人与您共享对象时。
+   * 内容更新：有人编辑、删除或评论您创建或关注的对象时。
    * 其他:
 
    >[!NOTE]
    >
-   >“新版本”和“内容更新”是适用于 [!DNL Target]. 其他类别适用于其他Adobe解决方案。
+   >“新版本”和“内容更新”是唯一适用于的通知类别 [!DNL Target]. 其他类别适用于其他Adobe解决方案。
 
 
-1. 选择要被视为高优先级的类别。
-1. 选择要在浏览器中显示警报的通知。
+1. 选择您希望被视为高优先级的类别。
+1. 选择您希望在浏览器中显示警报的通知。
 
-   这些警报会在浏览器的右上角显示几秒钟。 您可以选择查看高优先级类别、所有类别，或隐藏所有通知弹出窗口。 您还可以配置是希望通知在关闭之前一直保持可见，还是配置通知持续时间。
+   这些警报会出现在浏览器的右上角几秒钟。 您可以选择查看高优先级类别、所有类别或隐藏所有通知弹出窗口。 您还可以配置是否希望通知保持可见，直到关闭它们，或者配置通知持续时间。
 
-1. 选择要接收通知电子邮件的频率：
+1. 选择接收通知电子邮件的频率：
 
    * 不发送电子邮件
    * 即时通知
@@ -150,7 +150,7 @@ ht-degree: 48%
 
 ## 受众
 
-单击 **[!UICONTROL 受众]** 选项卡 [!UICONTROL 受众] 列表，您可以在其中创建受众并管理现有受众。
+单击 **[!UICONTROL 受众]** 选项卡以显示 [!UICONTROL 受众] 列出可在其中创建受众和管理现有受众的信息。
 
 ![“受众”列表](/help/main/c-intro/assets/audience-list.png)
 
@@ -160,7 +160,7 @@ ht-degree: 48%
 
 ## 选件
 
-单击 **[!UICONTROL 选件]** 选项卡 [!UICONTROL 选件] 列表中列出了您可以创建体验和选件，以及管理现有体验和选件的位置。
+单击 **[!UICONTROL 选件]** 选项卡以显示 [!UICONTROL 选件] 可在其中创建体验和选件以及管理现有体验和选件的列表。
 
 ![“选件”列表](/help/main/c-intro/assets/offers.png)
 

@@ -1,24 +1,24 @@
 ---
 keywords: 收入提升;收入;预计收入提升;计算提升;预计值
-description: 如果趋势在测试期间继续显示，则估计在每位访客都看到入选体验时可能实现的提升。
-title: 我预计的收入提升是什么？
+description: 如果每个访客都看到入选体验，并且测试期间的趋势保持不变，则预计可能会实现的提升。
+title: 我预计收入增长情况如何？
 feature: Administration & Configuration
 role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
 # 预计收入提升
 
-使用 [!DNL Adobe Target] 要估计在所有用户都查看成功体验时将获得的收入提升。
+使用 [!DNL Adobe Target] 以估计在所有用户都查看成功体验时将获得的收入提升。
 
 >[!NOTE]
 >
->预计提升度不适用于 [!UICONTROL 体验定位] (XT)活动。
+>预计提升度不可用于 [!UICONTROL 体验定位] (XT)当前的活动。
 
 默认情况下，预计提升功能处于关闭状态。您可以在帐户首选项中启用此功能。只有 Experience Cloud 管理员用户可以启用或禁用此功能。如果禁用预计提升，则界面中不会显示相应的字段。禁用此功能不会导致数据丢失，包括用于估算的数据。无论是否启用了此功能，都会根据所收集的数据进行估算。
 
@@ -30,7 +30,7 @@ ht-degree: 88%
 
 预计收入提升是根据从主要目标量度中获取的每次访问带来的收入 (RPV) 计算出来的。
 
-预计提升的计算公式为：（&lt;入选体验 RPV> - &lt;控制体验 RPV>)*&lt;活动中的访客总数>
+预计提升的计算公式如下： (&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />&lt;total number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>&#42;
 
 最多可以将得出的数值四舍五入到一位小数，但前提是四舍五入后小数点前面只有一位数字。例如：$1.6M、$60K、$900、$8.5K、$205K
 

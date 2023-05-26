@@ -1,6 +1,6 @@
 ---
-keywords: 可视化体验编辑器选项；体验编辑器选项；体验选项；编辑文本；编辑HTML；编辑文本/HTML；编辑背景颜色；插入元素；编辑链接；链接；可视化体验编辑器链接；编辑css类；css类；交换选件；交换图像；交换图像；交换图像；移除项目；删除项目；隐藏项目；项目隐藏；重新排列；移动元素；元素移动；调整元素大小；元素；展开选择；导航到此链接；导航；链接；撤消；重做/重做事件；自定义事件；Web组件；选件决策
-description: 浏览 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)。
+keywords: 可视化体验编辑器选项；体验编辑器选项；体验选项；编辑文本；编辑html；编辑文本/html；编辑背景颜色；背景颜色；插入元素；编辑链接；链接；可视化体验编辑器链接；编辑css类；css类；交换选件；选件交换；交换图像；图像交换；移除项；项移除；隐藏项；项隐藏；重新排列；移动元素；元素移动；调整元素大小；元素大小；扩展选择；导航到此链接；导航链接；导航；链接；撤消；重做；撤消/重做；自定义事件；Web组件；选件决策；offer decisioning
+description: 探索中可用的选项 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)。
 title: 如何使用 [!UICONTROL 可视化体验编辑器] (VEC)选项？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
@@ -13,15 +13,15 @@ ht-degree: 63%
 
 # 可视化体验编辑器选项
 
-单击 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)，会显示一个菜单，其中提供了可用于该元素类型的选项。 此外，页面底部会显示一个 DOM 路径，可让您轻松浏览页面结构。
+当您单击页面元素 [!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)，此时一个菜单会显示可用于该元素类型的选项。 此外，页面底部会显示一个 DOM 路径，可让您轻松浏览页面结构。
 
-各种 [!UICONTROL 可视化体验编辑器] (VEC)操作被分组到相应的菜单选项中，以便更快、更高效地完成工作：
+各种 [!UICONTROL 可视化体验编辑器] (VEC)操作将分组到相应的菜单选项中，以使您的工作更快捷、更有效：
 
 ![VEC 选项菜单](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
->可用选项取决于您创建或编辑的活动类型。
+>可用的选项取决于您创建或编辑的活动类型。
 
 ## [!UICONTROL 编辑]
 
@@ -54,21 +54,21 @@ ht-degree: 63%
 
 使用[!UICONTROL 样式]面板可查看或编辑所选元素现有样式的值。您还可以添加其他样式。
 
-访问 [!UICONTROL 样式] 面板中，单击VEC中的某个页面元素，然后单击 **[!UICONTROL 编辑]** > **[!UICONTROL 样式]**.
+要访问 [!UICONTROL 样式] 面板中，单击VEC中的某个页面元素，然后单击 **[!UICONTROL 编辑]** > **[!UICONTROL 样式]**.
 
 [!UICONTROL 样式]面板将显示在 VEC 的右侧。该面板包括一个样式列表，允许您编辑样式或将其添加到所选元素。如果您习惯使用层叠样式表 (CSS)，或者从开发人员那里接收代码，则可以使用实时 CSS 编辑器查看更改并添加样式。
 
 ![“样式”面板](/help/main/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-应用不同的样式时，您始终可以通过单击 [!UICONTROL 还原] 图标(位于 [!UICONTROL 样式] 面板。 单击 [!UICONTROL 还原] 图标会还原当前部分面板上的所有更改。
+应用不同的样式时，您始终可以通过单击 [!UICONTROL 还原] 图标显示在的右上角 [!UICONTROL 样式] 面板。 单击 [!UICONTROL 还原] 图标还原在当前部分的面板上所做的所有更改。
 
 展开每个部分以编辑或添加样式，具体如下文中所述。要保存更改，请单击 [!UICONTROL 返回] 图标以返回到面板的主显示屏，然后单击 **[!UICONTROL 保存]**.
 
-主面板上以及各个部分面板上每个选项旁边的蓝色圆点表示您更改了相应的样式。 通过此可视指示器，您可以轻松地在单击 [!UICONTROL 保存].
+主面板上以及各个部分面板上每个选项旁边的蓝点表示您已更改了相应的样式。 通过此视觉指示器，您可以轻松地在单击之前查看更改 [!UICONTROL 保存].
 
 >[!NOTE]
 >
->布局更改、背景颜色、调整大小和移动的快速操作也可在 VEC 菜单中作为单独的操作使用。这些选项可用作单独的操作，您也可以使用“样式”菜单，如下所述。
+>布局更改、背景颜色、调整大小和移动的快速操作也可在 VEC 菜单中作为单独的操作使用。这些选项可用作单独的操作，您也可以使用“样式”菜单，如此处所述。
 
 * **[!UICONTROL 背景]**
 
@@ -88,7 +88,7 @@ ht-degree: 63%
 
    更改元素的排版规则。排版规则编辑既快速又简便。
 
-   尽管富文本编辑器(编辑文本/HTML)可进行微调，但可通过此选项快速执行更改整个元素的操作。 如果要仅对部分文本（而非全文）应用排版规则更改，请使用[富文本编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)。
+   尽管可以使用富文本编辑器(编辑文本/HTML)进行微调，但可通过此选项快速执行更改整个元素的操作。 如果要仅对部分文本（而非全文）应用排版规则更改，请使用[富文本编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)。
 
    您可以编辑以下排版样式：
 
@@ -111,7 +111,7 @@ ht-degree: 63%
 
    边距支持正值和负值。
 
-   Target还支持其他大小单位，如rem、pc、em。 有关这些单位的详细信息，请参阅 [网页样式表CSS提示和技巧](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target还支持其他大小单位，例如rem、pc、em。 有关这些单位的更多信息，请参见 [Web样式表CSS提示和技巧](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **[!UICONTROL 内边距]**
 
@@ -139,7 +139,7 @@ ht-degree: 63%
 
 * **[!UICONTROL 位置]**
 
-   将所选元素从当前位置移动。您可以更改元素的顶部、底部、左侧、右侧和 [Z指数](https://www.w3schools.com/cssref/pr_pos_z-index.asp) 位置。
+   将所选元素从当前位置移动。您可以更改元素的顶部、底部、左侧、右侧和 [Z索引](https://www.w3schools.com/cssref/pr_pos_z-index.asp) 位置。
 
    单击[!UICONTROL 静态]下拉列表，从以下位置选项中进行选择：
 
@@ -165,7 +165,7 @@ ht-degree: 63%
    单击[!UICONTROL 宽度]和[!UICONTROL 高度]旁边的下拉图标，从以下选项中进行选择：
 
    * [!UICONTROL 自动]
-   * [!UICONTROL 值] （拖动滑块以调整元素大小或指定每个维度的像素数）
+   * [!UICONTROL 值] （拖动滑块以调整元素的大小或指定每个维度的像素数）
 
 * **[!UICONTROL 过滤器]**
 
@@ -190,7 +190,7 @@ ht-degree: 63%
 
    ![包含更改的 CSS 编辑器](/help/main/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-   请注意上图中[!UICONTROL 排版规则]、[!UICONTROL 边框]和 [!UICONTROL 大小]选项旁边的蓝色圆点。这些圆点表示您已更改了这些部分。 如果打开这些部分的面板，则蓝色圆点将显示在您更改的特定选项旁边。
+   请注意上图中[!UICONTROL 排版规则]、[!UICONTROL 边框]和 [!UICONTROL 大小]选项旁边的蓝色圆点。这些圆点表示您已更改这些部分。 如果打开这些部分的面板，则蓝色圆点将显示在您更改的特定选项旁边。
 
    如果[!UICONTROL 样式]中默认未提供所需的样式，则可以键入自己的代码。
 
@@ -216,15 +216,15 @@ ht-degree: 63%
 
 以下选项可供选择：
 
-### [!UICONTROL 选件决策]
+### [!UICONTROL 优惠决策]
 
-添加 [创建的选件 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} 使用offer decisioning为客户提供最佳选件和体验。
+添加 [优惠创建于 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} 使用offer decisioning向客户提供最佳优惠和体验。
 
-**注意：** 在编辑或创建时，此选项可用 [手动 [!UICONTROL A/B测试]](/help/main/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 体验定位]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动。 此选项不适用于其他活动类型。
+**注意：** 在编辑或创建时，此选项可用 [手动 [!UICONTROL A/B测试]](/help/main/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 体验定位]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)仅限活动。 此选项不适用于其他活动类型。
 
 有关更多信息，请参阅 [使用优惠决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)。
 
-### [!UICONTROL 图像], [!UICONTROL HTML]和 [!UICONTROL 文本]
+### [!UICONTROL 图像]， [!UICONTROL HTML]、和 [!UICONTROL 文本]
 
 除了修改现有的内容之外，还可以向页面添加任何类型的元素。可添加文本、代码、列表等，以创建完全不同的体验来进行测试。
 
@@ -248,15 +248,15 @@ ht-degree: 63%
 
 以下选项可供选择：
 
-### [!UICONTROL 选件决策]
+### [!UICONTROL 优惠决策]
 
-添加 [创建的选件 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} 使用offer decisioning为客户提供最佳选件和体验。
+添加 [优惠创建于 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} 使用offer decisioning向客户提供最佳优惠和体验。
 
-**注意：** 在编辑或创建时，此选项可用 [手动 [!UICONTROL A/B测试]](/help/main/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 体验定位]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动。 此选项不适用于其他活动类型。
+**注意：** 在编辑或创建时，此选项可用 [手动 [!UICONTROL A/B测试]](/help/main/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 体验定位]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)仅限活动。 此选项不适用于其他活动类型。
 
 有关更多信息，请参阅 [使用优惠决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)。
 
-### [!UICONTROL 图像], [!UICONTROL HTML]和 [!UICONTROL 文本]
+### [!UICONTROL 图像]， [!UICONTROL HTML]、和 [!UICONTROL 文本]
 
 除了修改现有的内容之外，还可以向页面添加任何类型的元素。可添加文本、代码、列表等，以创建完全不同的体验来进行测试。
 
@@ -280,11 +280,11 @@ ht-degree: 63%
 
 以下选项可供选择：
 
-### [!UICONTROL 选件决策]
+### [!UICONTROL 优惠决策]
 
-添加 [创建的选件 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} 使用offer decisioning为客户提供最佳选件和体验。
+添加 [优惠创建于 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} 使用offer decisioning向客户提供最佳优惠和体验。
 
-**注意：** 在编辑或创建时，此选项可用 [手动 [!UICONTROL A/B测试]](/help/main/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 体验定位]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动。 此选项不适用于其他活动类型。
+**注意：** 在编辑或创建时，此选项可用 [手动 [!UICONTROL A/B测试]](/help/main/c-activities/t-test-ab/test-ab.md#types) 或 [[!UICONTROL 体验定位]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)仅限活动。 此选项不适用于其他活动类型。
 
 有关更多信息，请参阅 [使用优惠决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)。
 
@@ -312,7 +312,7 @@ ht-degree: 63%
 
 **注意：**[!DNL Target]HTML 选件存储在 服务器上。
 
-HTML选件最多可达256 KB。
+HTML选件最长可达256 KB。
 
 ### 推荐
 
@@ -330,23 +330,23 @@ HTML选件最多可达256 KB。
 
 在元素拖放到同一父元素或 DIV 内的其他位置。需要移动其他元素的位置以为重新排列的元素腾出空间。
 
-**注意**:点击跟踪对重新排列的项目不起作用。
+**注释**：点击跟踪对重新排列的项目不起作用。
 
-当前，某些VEC操作，例如 [!UICONTROL 重新排列] 和 [!UICONTROL 移动]，假设源元素和目标父元素的同级元素已完全加载。 如果在父DOM元素（源或目标）下发生延迟加载，则这些VEC操作可能会导致行为不一致。 我们正在研究一种更可靠的方法，以使VEC操作在延迟加载的DOM元素中正常工作。 作为临时解决方法，您可以使用 [!UICONTROL 自定义代码] 在这些情况下渲染体验。
+目前，某些VEC操作，例如 [!UICONTROL 重新排列] 和 [!UICONTROL 移动]，假定源元素和目标父元素的同级元素已完全加载。 如果在父DOM元素（源或目标）下发生延迟加载，则这些VEC操作可能会导致不一致的行为。 我们正在研究一种更可靠的方法，以使VEC操作在延迟加载的DOM元素中正常工作。 作为临时解决方法，您可以使用 [!UICONTROL 自定义代码] 在这些场景中渲染您的体验。
 
 ### [!UICONTROL 调整大小]
 
-调整页面上的元素大小。选择 [!UICONTROL 调整大小]，则元素的右下角会显示一个手柄，通过该手柄可拖动该角以调整大小。 按住 Shift 键保持相同的宽高比。
+调整页面上的元素大小。当您选择时 [!UICONTROL 调整大小]，元素的右下角会出现一个手柄，您可以通过拖动该角来调整大小。 按住 Shift 键保持相同的宽高比。
 
 **注意：**&#x200B;无法调整内联元素的大小。
 
 ### [!UICONTROL 移动] {#move}
 
-移动页面上的元素。与“[!UICONTROL 重新排列]”选项不同，“[!UICONTROL 移动]”选项不会移动其他元素来为正在移动的元素腾出空间。可使用箭头键来微调移动。(计划中的增强功能：支持确保移动的元素不会隐藏在其他元素之后。)
+移动页面上的元素。与“[!UICONTROL 重新排列]”选项不同，“[!UICONTROL 移动]”选项不会移动其他元素来为正在移动的元素腾出空间。可使用箭头键来微调移动。（计划的增强功能：支持确保移动的元素不会隐藏在其他元素后面。）
 
-在某些情况下，例如，当CSS限制要求将元素保留在其父元素内时，您不能将该元素移到其父元素之外。 无法将元素移动到具有以下 CSS 属性的容器之外：`overflow: hidden`。
+在某些情况下，如CSS限制要求将元素保留在其父元素内时，您不能将该元素移到其父元素之外。 无法将元素移动到具有以下 CSS 属性的容器之外：`overflow: hidden`。
 
-请参阅 [!UICONTROL 重新排列] 以了解有关与 [!UICONTROL 移动] 和 [!UICONTROL 重新排列] 操作。
+参见 [!UICONTROL 重新排列] 以上内容以了解有关与不一致行为的更多信息 [!UICONTROL 移动] 和 [!UICONTROL 重新排列] 操作的原因是DOM元素加载缓慢。
 
 ### [!UICONTROL 隐藏]
 
@@ -376,15 +376,15 @@ HTML选件最多可达256 KB。
 
 ## 自定义元素支持 {#custom}
 
-VEC支持 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components) 用于根据自定义元素和自定义元素中的元素创建和测试个性化体验和选件。 VEC中提供了此功能，适用于所有人 [!DNL Target] 活动类型。
+VEC支持 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components) 允许您针对自定义元素和自定义元素内的元素创建和测试个性化体验和选件。 此功能在VEC中适用于所有 [!DNL Target] 活动类型。
 
 >[!NOTE]
 >
->支持对自定义元素的VEC支持 [at.js版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. 确保您的网站已部署所需版本。 如果您使用 [可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，则还必须部署所需版本的at.js。 上述VEC选项不可见，可用于不受支持的at.js版本。
+>中支持自定义元素的VEC支持 [at.js版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. 确保您的网站已部署所需的版本。 如果您使用 [可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，还必须部署所需的at.js版本。 上述VEC选项不可见，并且可用于不受支持的at.js版本。
 >
 >当前不支持对自定义元素的VEC支持 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
-自定义事件和自定义事件中支持大多数VEC操作，但有以下例外：
+自定义事件和自定义事件内支持大多数VEC操作，但以下情况除外：
 
 以下操作在自定义元素上不可用：
 
@@ -395,7 +395,7 @@ VEC支持 [Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Component
 
 * [!UICONTROL 替换内容]
 
-自定义元素中不提供以下操作：
+以下操作在自定义元素中不可用：
 
 * [!UICONTROL 版式]
    * [!UICONTROL 重新排列]

@@ -1,7 +1,7 @@
 ---
 keywords: 受众;选择受众;选取受众;选择器
-description: 受众可确定哪些网站访客进入您的Adobe [!DNL Target] 活动。
-title: 如何选择 [!DNL Target] A/B活动？
+description: 受众可确定哪些网站访客进入了您的Adobe [!DNL Target] 活动。
+title: 如何在中选择受众 [!DNL Target] A/B活动？
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839

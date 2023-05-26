@@ -1,6 +1,6 @@
 ---
-keywords: 活动URL;URL；不同的URL
-description: 了解如何指定活动URL，以确定测试中使用的页面以及在使用Adobe Target设计测试时打开的页面。
+keywords: 活动url；url；其他url
+description: 了解如何指定活动URL，以确定测试中使用的页面，以及在使用Adobe Target设计测试时打开的页面。
 title: A/B活动中的活动URL是什么？
 feature: A/B Tests
 exl-id: 7482ae10-fb7e-42ba-9ea0-97b82ed85bff
@@ -13,7 +13,7 @@ ht-degree: 73%
 
 # 活动 URL
 
-活动URL可确定测试中使用的页面以及在使用Adobe Target设计测试时打开的页面。
+活动URL可决定测试中使用的页面，以及使用Adobe Target设计测试时打开的页面。
 
 在活动创建过程中，如果收到相应的提示，请指定活动 URL。应键入完整的 URL（包括 `https://`**[!UICONTROL ），然后单击创建]**。
 
@@ -23,7 +23,7 @@ ht-degree: 73%
 
 ## 指定其他 URL
 
-默认情况下， [!UICONTROL 可视化体验编辑器] 打开在 [可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md)
+默认情况下， [!UICONTROL 可视化体验编辑器] 打开中指定的页面 [可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md)
 . 在活动创建过程中，您可以指定其他页面。
 
 要在[!UICONTROL 可视化体验编辑器]打开后显示其他页面，请单击&#x200B;**[!UICONTROL 配置]**&#x200B;齿轮图标，然后选择&#x200B;**[!UICONTROL 页面交付]**。在“活动 URL”字段中输入相应的 URL。

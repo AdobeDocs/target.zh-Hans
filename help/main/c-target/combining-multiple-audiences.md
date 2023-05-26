@@ -1,7 +1,7 @@
 ---
 keywords: 受众;受众规则;合并受众;排除项;添加排除项;排除;临时受众
-description: 了解如何合并多个受众(包括Adobe Experience Cloud受众和 [!DNL Target] 受众)以创建临时受众。
-title: 我是否可以合并多个受众以创建新受众？
+description: 了解如何合并多个受众(包括Adobe Experience Cloud受众和 [!DNL Target] （受众）来动态创建临时受众。
+title: 我可以合并多个受众以创建新受众吗？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
@@ -13,19 +13,19 @@ ht-degree: 63%
 
 # 合并多个受众
 
-合并多个受众(包括 [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform]和 [!DNL Target] 受众)以创建临时受众。 您也可以创建排除规则，从某个规则中排除相应受众。
+合并多个受众(包括 [!DNL Adobe Experience Cloud]， [!DNL Adobe Experience Platform]、和 [!DNL Target] （受众）来动态创建临时受众。 您也可以创建排除规则，从某个规则中排除相应受众。
 
 >[!NOTE]
 >
->的 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 使用 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. 受众 [!DNL Adobe Experience Platform] 可以按原样使用，也可以与现有受众结合使用，如本主题中所述。
+>此 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 客户使用 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. 受众可从 [!DNL Adobe Experience Platform] 可按原样使用或与现有受众组合，如本主题中所述。
 >
 >有关详细信息，请参阅 [使用来自Adobe Experience Platform的受众](/help/main/c-target/c-audiences/audiences.md#aep).
 
 假设您有两个受众：“新访客”和“Chrome 用户”。在某个特定活动中，您可能想要合并这两个现有受众，以定位使用 Chrome 浏览器的新访客。您可以在创建活动或编辑现有活动时合并这两个受众，而无需再另外创建一个受众，并将其存储到[!UICONTROL 受众]库中。
 
-再比如，您可以定位所有忠诚客户。 例如，您可以包含 [!DNL Audience Manager] 忠诚度状态的受众，并将其与 [!DNL Target] 受众由在当前会话中注册了忠诚度计划的用户组成。 合并这两个受众比创建第三个永久受众更简单。
+再比如，您可以定位所有忠诚客户。 例如，您可以包含特定 [!DNL Audience Manager] 受众以了解忠诚度状态并将其与 [!DNL Target] 受众由在当前会话中注册了忠诚度计划的用户组成。 合并这两个受众比创建第三个永久受众更容易。
 
-您最多可以使用“与”和“或”运算符合并20个受众。
+您最多可以使用AND和OR运算符组合20个受众。
 
 您可以在 [!DNL Target] UI 中的多个位置创建并使用组合受众。
 
@@ -33,23 +33,23 @@ ht-degree: 63%
 
 在三步引导式工作流中，您可以在活动的[!UICONTROL 定位]页面上创建临时组合受众。
 
-1. 创建 [活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)，在 **[!UICONTROL 定位]** 页面，单击三个垂直省略号，然后单击 **[!UICONTROL 替换受众]**.
+1. 创建 [活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)，位于 **[!UICONTROL 定位]** 页面上，单击三个垂直省略号，然后单击 **[!UICONTROL 替换受众]**.
 
    ![步骤结果](assets/edit_audience.png)
 
 1. 在“**[!UICONTROL 选择受众]**”页面上，选中要用作组合受众构建基块的所需受众旁边的复选框。
 
-   使用 [!UICONTROL 搜索受众] 框来缩小对所需受众的搜索范围。
+   使用 [!UICONTROL 搜索受众] 框，以缩小所需受众的搜索范围。
 
    ![步骤结果](assets/combine_multiple_audiences1.png)
 
-1. 单击 **[!UICONTROL 合并多个受众]** 中。
+1. 单击 **[!UICONTROL 合并多个受众]** 在右上角。
 
    ![步骤结果](assets/combine_multiple_audiences2.png)
 
 1. （可选）根据需要编辑新创建的组合受众。
 
-   的 [!UICONTROL 编辑受众] 利用对话框，可将左侧的其他受众构建基块拖放到新的组合受众中。 您还可以添加排除规则并排除受众。
+   此 [!UICONTROL 编辑受众] 通过对话框，您可以将其他受众构建块从左侧拖放到新的组合受众中。 您还可以添加排除规则和排除受众。
 
    1. 使用拖放功能将现有部分中的受众添加为第2级构建基块。
 
@@ -57,19 +57,19 @@ ht-degree: 63%
 
       ![combine_multiple_audiences3图像](assets/combine_multiple_audiences3.png)
 
-      请注意，这两个基于浏览器类型的受众之间使用的运算符为“与”。选择 [!UICONTROL 和] 下拉列表，并将其更改为“或”，以便为使用Firefox或Safari的新访客创建新的组合受众。 务必要避免创建会将所有潜在受众成员都排除在外的规则。例如，某个人不可能同时使用 Firefox 和 Safari 访问页面。
+      请注意，这两个基于浏览器类型的受众之间使用的运算符为“与”。选择 [!UICONTROL 和] 下拉列表并将其更改为“或”，以便为使用Firefox或Safari的新访客创建新的组合受众。 务必要避免创建会将所有潜在受众成员都排除在外的规则。例如，某个人不可能同时使用 Firefox 和 Safari 访问页面。
 
       >[!NOTE]
       >
       >合并受众时，使用的运算符（“与”或“或”）必须保持相同。运算符不能混搭使用。
 
-   1. 要向规则添加排除项，请单击 **[!UICONTROL 排除]**.
+   1. 要将排除项添加到规则，请单击 **[!UICONTROL 排除]**.
 
       ![combine_multiple_audiences3a图像](assets/combine_multiple_audiences3a.png)
 
       拖放受众。
 
-      例如，要从新访客中排除美国访客，您可以拖动市场：美国受众进入盒子。
+      例如，要从新访客中排除美国访客，您可以将“市场：美国”受众拖到框中。
 
       由此形成的组合受众将包含使用 Safari 或 Firefox 访问您网站的所有新访客（旧金山访客除外）。
 

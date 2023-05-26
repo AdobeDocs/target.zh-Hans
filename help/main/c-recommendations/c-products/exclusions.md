@@ -1,33 +1,33 @@
 ---
 keywords: 排除项
-description: 了解如何在Adobe中创建排除项 [!DNL Target] Recommendations，以防止向访客推荐产品或内容。
+description: 了解如何在Adobe中创建排除项 [!DNL Target] Recommendations ，以防止向访客推荐产品或内容。
 title: 如何在Recommendations活动中使用排除项？
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 43%
+ht-degree: 44%
 
 ---
 
 # 排除项
 
-在中创建排除项 [!DNL Adobe Target Recommendations] 以防止向访客推荐产品或内容。 排除是不应推荐给访客的产品或内容的子集。
+在中创建排除项 [!DNL Adobe Target Recommendations] 防止向访客推荐产品或内容。 排除项是不向访客推荐的产品或内容的子集。
 
-排除项在整个帐户中可用。 与收藏集不同，在创建收藏集时，您可以为每个体验指定一个特定的收藏集 [!UICONTROL Recommendations] 活动，则排除项适用于帐户中的所有活动。 在活动创建期间，没有可用于分配排除组的选项。
+排除项可在整个帐户中使用。 与收藏集不同，收藏集可在创建体验时为每个体验指定特定的收藏集 [!UICONTROL Recommendations] 活动，排除项适用于帐户中的所有活动。 在活动创建期间没有分配排除组的选项。
 
-使用排除项的一些示例包括：
+您使用排除项的一些次数示例包括：
 
-* 已停用的产品
-* 秋季/冬季目录现在是唯一应联机显示的目录。 夏季目录中的任何项目都不再可供购买。
-* 在大多数页面/屏幕上可能不适合推荐的项目（成人产品、NC-17电影等）
-* 元数据字段不完整（缺少缩略图、价格或其他重要元数据）的产品
-* 不应推荐的产品（可能系统中存在某些产品的SKU，但它不是可购买的产品，或者QA团队模拟购买而不实际订购某些产品的假SKU，等等）
+* 已停产的产品
+* 秋/冬目录现在是唯一应在线显示的目录。 Summer目录中的任何项目都不再可供购买。
+* 可能不适合在大多数页面/屏幕上推荐的项目（成人产品、NC-17电影等）
+* 元数据字段不完整的产品（缺少缩略图、价格或其他重要元数据）
+* 绝不应该推荐的产品（可能系统中存在某个东西的SKU，但它不是可购买的项目，或者可能它是QA团队模拟购买而不实际订购东西的虚假SKU等）
 
 >[!IMPORTANT]
 >
->排除规则将全局应用于所有环境。
+>排除规则会全局应用于所有环境。
 >
 >静态和动态排除规则是可帮助您完成营销工作的强大功能。有关详细信息、示例和用例情景，请参阅[使用动态和静态包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
 
@@ -55,25 +55,25 @@ ht-degree: 43%
 
 ## 使用高级搜索创建排除项
 
-您还可以使用 [!UICONTROL 高级搜索] 在 [目录搜索](/help/main/c-recommendations/c-products/catalog-search.md#save-as) 页面( [!UICONTROL Recommendations] > [!UICONTROL 目录搜索] > [!UICONTROL 高级搜索])。
+您还可以使用以下方式创建排除项 [!UICONTROL 高级搜索] 在 [目录搜索](/help/main/c-recommendations/c-products/catalog-search.md#save-as) 页面( [!UICONTROL Recommendations] > [!UICONTROL 目录搜索] > [!UICONTROL 高级搜索])。
 
-![另存为对话框](/help/main/c-recommendations/c-products/assets/save-as.png)
+![“另存为”对话框](/help/main/c-recommendations/c-products/assets/save-as.png)
 
 例如，在使用“ID”>“包含”创建搜索后，您可以单击“[!UICONTROL 另存为]”>“[!UICONTROL 排除项]”。
 
 >[!IMPORTANT]
 >
->的 [!UICONTROL 高级搜索] 功能不区分大小写；但是，在交付时返回的产品基于区分大小写的搜索。 这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建排除项时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个排除项，以用于排除包含“holiday”的产品，则只会排除包含“holiday”的产品，而不会排除包含“Holiday”的产品。
+>此 [!UICONTROL 高级搜索] 功能不区分大小写，但是在交付时返回的产品基于区分大小写的搜索。 这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建排除项时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个排除项，以用于排除包含“holiday”的产品，则只会排除包含“holiday”的产品，而不会排除包含“Holiday”的产品。
 
 ## 编辑、复制或删除排除项
 
 将鼠标悬停在列表中所需的排除项上，然后单击相应的图标：编辑、复制或删除。
 
-![将鼠标悬停在排除项的图标上](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
+![将鼠标悬停在排除项图标上](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
 
-您可以复制现有排除项以创建重复的排除项，然后可以对其进行修改。 这样，您就可以更轻松地创建类似的排除项。
+您可以复制现有排除项以创建重复排除项，然后对其进行修改。 这样，您就可以用更少的工作量创建一个类似的排除项。
 
-请注意，排除项在整个帐户中均可用。 在删除排除项之前，请确保考虑这一点。 无法恢复已删除的排除项。
+请注意，排除项可在整个帐户中使用。 确保在删除排除项之前考虑这一点。 无法恢复已删除的排除项。
 
 ## 培训视频：在Recommendations中创建收藏集和排除项(7:05) ![教程徽章](/help/main/assets/tutorial.png)
 

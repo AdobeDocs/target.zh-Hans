@@ -1,7 +1,7 @@
 ---
-keywords: 自动个性化；选件；定位；受众；定位规则
-description: 了解如何使用Adobe Target中的Automated Personalization(AP)活动将各个选件定位到特定受众。
-title: 如何 [!DNL Target] Automated Personalization选件？
+keywords: 自动个性化；选件；定位；受众；定位规则；定位
+description: 了解如何使用Adobe Target中的Automated Personalization (AP)活动将单个选件定位到特定受众。
+title: 我该怎么做 [!DNL Target] Automated Personalization选件？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics

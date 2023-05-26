@@ -1,7 +1,7 @@
 ---
 keywords: 定位;流量源;定位流量源;定位搜索引擎;搜索引擎;登陆页面;定位登陆页面;引荐登陆页面
-description: 了解如何在Adobe中创建受众 [!DNL Target] 可根据将访客引荐至您网站的搜索引擎或登陆页面来定位访客。
-title: 我是否可以根据搜索引擎或引荐网站定位访客？
+description: 了解如何在Adobe中创建受众 [!DNL Target] 根据将访客引荐至您的网站的搜索引擎或登陆页面来定位访客。
+title: 我可以根据搜索引擎或反向链接网站定位访客吗？
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -13,7 +13,7 @@ ht-degree: 63%
 
 # 流量源
 
-在中创建受众 [!DNL Adobe Target] 可根据将访客引荐至您网站的搜索引擎或登陆页面来定位访客。
+在中创建受众 [!DNL Adobe Target] 根据将访客引荐至您的网站的搜索引擎或登陆页面来定位访客。
 
 例如，您可以根据访客的浏览器、搜索引擎或引荐登陆页面来确定目标。引荐登陆页面是指一个会话中的某个网页，访客通过在该网页中点击而来到当前网站。（例如，如果访客点击了 Google 上的一则广告后，它将访客引荐至 `adobe.com` 主页，则 `google.com` 即为引荐登陆页面。）
 
@@ -22,7 +22,7 @@ ht-degree: 63%
 1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 
    1. 为受众命名并添加可选描述。
-1. 拖放 **[!UICONTROL 流量源]** 进入受众生成器窗格。
+1. 拖放 **[!UICONTROL 流量源]** 放入受众生成器窗格。
 
    ![target_traffic_source图像](assets/target_traffic_source.png)
 
@@ -36,7 +36,7 @@ ht-degree: 63%
    * **[!UICONTROL 引荐登陆页面: 域]**
    * **[!UICONTROL 引荐登陆页面: 查询]**
 
-   根据您的选择，您必须提供其他信息（计算器和/或值）。
+   根据您的选择，您可能必须提供其他信息（计算器和/或值）。
 
 1. （可选）为受众设置其他规则。
 1. 单击&#x200B;**[!UICONTROL 完成]**。

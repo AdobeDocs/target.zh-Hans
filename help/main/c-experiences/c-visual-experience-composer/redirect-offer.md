@@ -1,7 +1,7 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: 了解如何在Adobe中使用“重定向到URL”选项 [!DNL Target] 您希望将访客发送到其他页面而不是在同一页面上显示内容时。
-title: 是否可以将页面重定向到其他URL?
+description: 了解如何在Adobe中使用“重定向到URL”选项 [!DNL Target] ，而不是在同一页面上显示内容。
+title: 我是否可以将页面重定向到其他URL？
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
@@ -13,7 +13,7 @@ ht-degree: 82%
 
 # 重定向到 URL
 
-使用 [!UICONTROL 重定向到URL] 选项 [!DNL Adobe Target] 您希望将访客发送到其他页面而不是在同一页面上显示内容时。
+使用 [!UICONTROL 重定向到URL] 中的选项 [!DNL Adobe Target] ，而不是在同一页面上显示内容。
 
 您可能有两个完全不同的页面来进行测试，而非只更改页面中的部分内容。在此示例中，您的 A/B 测试要比较页面 A 与页面 B。为此，需设置一个包含两个体验的 A/B 测试营销活动：其中一个体验指向默认的页面 A，而另一个体验则重定向到页面 B。在“体验操作”菜单中（可通过单击体验所对应的字母标签找到此菜单），选择&#x200B;**[!UICONTROL 重定向到 URL]**，并指定页面 B 的 URL。该选件会配置为将访客重定向到其他页面。
 
@@ -31,7 +31,7 @@ ht-degree: 82%
 要创建重定向选件，请执行以下操作：
 
 1. 创建一个体验。
-1. 将鼠标悬停在带有鼠标的体验上，然后单击“重定向到URL”图标(![icon_redirect_url图像](assets/icon_redirect_url.png))。
+1. 将鼠标悬停在鼠标体验上，然后单击重定向到URL图标(![icon_redirect_url图像](assets/icon_redirect_url.png))。
 
    ![exp_actions图像](assets/exp_actions.png)
 

@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e4029b203ad4d7c1ea12ba04f72628b272703973
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '2798'
-ht-degree: 99%
+source-wordcount: '2839'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,19 @@ ht-degree: 99%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
+## [!DNL Target] Standard/Premium 23.5.1（2023 年 5 月 23-25 日）
+
+| 日期 | 主题 | 更改 |
+| --- | --- | --- |
+| 5 月 23 日 | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 更新了重要说明。 |
+|  | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为即将发布的版本更新了预发行说明。 |
+|  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.5.1 版的发行说明。 |
+
 ## [!DNL Target] Standard/Premium 23.4.1（2023 年 4 月 25-27 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 5 月 22 日 | [集成对象 [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | 新增了以下视频：<ul><li>配置 [!DNL Adobe Target] 目标位置 [!DNL Real-Time Customer Data Platform]</li><li>激活区段和配置文件属性</li><li>使用 [!DNL Real-Time CDP] 中的区段 [!DNL Target]</li><li>使用 [!DNL Real-Time CDP] 中的配置文件属性 [!DNL Adobe Target]</li></ul> |
+| 5 月 22 日 | [集成对象 [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | 新增了以下视频：<ul><li>在 [!DNL Real-Time Customer Data Platform] 中配置 [!DNL Adobe Target] 目标</li><li>激活区段和配置文件属性</li><li>在 [!DNL Target] 中使用 [!DNL Real-Time CDP] 区段</li><li>在 [!DNL Adobe Target] 中使用 [!DNL Real-Time CDP] 配置文件属性</li></ul> |
 |  | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 更新了重要说明。 |
 | 5 月 19 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为即将发布的版本更新了预发行说明。 |
 | 5 月 17 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于 2023 年 5 月 24 日星期三 [!UICONTROL Adobe Target 社区]问答茶歇休息时间的信息。 |

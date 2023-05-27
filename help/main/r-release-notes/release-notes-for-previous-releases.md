@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '36438'
+source-wordcount: '36580'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 96%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2023
+
+### [!DNL Target] Standard/Premium 23.4.1（2023 年 4 月 25-27 日）
+
+此版本包含安全更新和以下新功能：
+
+| 功能 | 详细信息 |
+|--- |--- |
+| 用于 Headless 个性化和试验的 AEM [!UICONTROL 内容片段] | 在 [!DNL Target] 活动中使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]。将简单易用的 AEM 与 [!DNL Target] 中强大的人工智能 (AI) 和机器学习 (ML) 功能结合使用，帮助进行 Headless 个性化和试验。<P>有关详细信息，请参阅 [AEM [!UICONTROL 内容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)。 |
+| [*Adobe Target 开发人员指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 开发人员指南*&#x200B;已迁移至 *[!UICONTROL Adobe Experience League]*。迁移到 *[!UICONTROL Experience League]* 有助于用其他语言将文字本地化、统一在 *Experience League* 中进行搜索以跨越 *[!UICONTROL Adobe Target 商业实践指南]*&#x200B;和 *[!UICONTROL Adobe Target 开发人员指南]*&#x200B;并提供来自二者的搜索结果，还可带来额外益处。<P>您将自动从以前的位置重定向到 *[!UICONTROL Experience League]*。请根据需要更新您的书签。 |
 
 ### [!DNL Target] Standard/Premium 23.3.1（2023 年 3 月 28-30 日）
 

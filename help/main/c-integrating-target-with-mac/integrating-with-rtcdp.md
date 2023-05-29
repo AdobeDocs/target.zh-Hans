@@ -5,13 +5,13 @@ title: 如何将 [!DNL Target] 与 [!DNL Real-Time Customer Data Platform] 集�
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1029'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# 集成对象 [!DNL Real-Time Customer Data Platform]
+# 与 [!DNL Real-Time Customer Data Platform] 集成
 
 基于 [!DNL Adobe Experience Platform]，[!DNL Real-Time Customer Data Platform] (RTCDP) 可帮助公司汇集来自多个企业来源的已知和匿名数据。RTCDP 允许您创建配置文件，这些资料可用于在所有渠道和设备中实时提供个性化的客户体验。
 
@@ -111,7 +111,7 @@ Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选�
 * *Adobe Experience Platform 发行说明*&#x200B;中的[目标发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans#destinations){target=_blank}
 * 在&#x200B;*目标概述*&#x200B;指南中[为同一页面和下一个页面个性化配置个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}。
 * *目标概述*&#x200B;指南中的 [Adobe Target 连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}
-* *目标概述*&#x200B;指南中的[地图属性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=en#map-attributes){target=_blank}。
+* *目标概述*&#x200B;指南中的[地图属性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=zh-Hans#map-attributes){target=_blank}。
 
 ## 视频和博客帖子 {#videos-blogs}
 
@@ -125,27 +125,27 @@ Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选�
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-### 视频：配置 [!DNL Adobe Target] 目标位置 [!DNL Real-Time Customer Data Platform]
+### 视频：配置 [!DNL Real-Time Customer Data Platform] 中的 [!DNL Adobe Target] 目标
 
-了解如何配置 [!DNL Adobe Target] 目标位置 [!DNL Real-Time Customer Data Platform] 开始发送区段和配置文件属性 [!DNL Real-Time CDP] 到 [!DNL Target].
+了解如何配置 [!DNL Real-Time Customer Data Platform] 中的 [!DNL Adobe Target] 目标以开始从 [!DNL Real-Time CDP] 到 [!DNL Target] 发送区段和配置文件属性。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
 
 ### 视频：激活区段和配置文件属性
 
-了解如何从激活区段和配置文件属性 [!DNL Adobe Real-Time Customer Data Platform] 到 [!DNL Adobe Target] 在您的网站、移动应用程序和其他数字资产中显示实时个性化内容。
+了解如何从 [!DNL Adobe Real-Time Customer Data Platform] 到 [!DNL Adobe Target] 激活区段和配置文件属性，以在您的网站、移动应用程序和其他数字资产中显示实时个性化内容。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
 
-### 视频：使用 [!DNL Real-Time CDP] 中的区段 [!DNL Target]
+### 视频：在 [!DNL Target] 中使用 [!DNL Real-Time CDP] 区段
 
-了解如何使用 [!DNL Real-Time Customer Data Platform] 中的区段 [!DNL Adobe Target] 在您的网站和移动应用程序上提供个性化体验。
+了解如何在 [!DNL Adobe Target] 中使用 [!DNL Real-Time Customer Data Platform] 区段，以在您的网站和移动应用程序上提供个性化体验。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
 
-### 视频：使用 [!DNL Real-Time CDP] 中的配置文件属性 [!DNL Adobe Target]
+### 视频：在 [!DNL Adobe Target] 中使用 [!DNL Real-Time CDP] 配置文件属性
 
-了解如何使用 [!DNL Adobe Real-Time Customer Data Platform] 中的配置文件属性 [!DNL Adobe Target] 在您的网站和移动应用程序上提供个性化体验。
+了解如何在 [!DNL Adobe Target] 中使用 [!DNL Adobe Real-Time Customer Data Platform] 配置文件属性，以在您的网站和移动应用程序上提供个性化体验。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 

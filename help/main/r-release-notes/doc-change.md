@@ -27,7 +27,7 @@ ht-degree: 100%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 5 月 22 日 | [集成对象 [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | 新增了以下视频：<ul><li>在 [!DNL Real-Time Customer Data Platform] 中配置 [!DNL Adobe Target] 目标</li><li>激活区段和配置文件属性</li><li>在 [!DNL Target] 中使用 [!DNL Real-Time CDP] 区段</li><li>在 [!DNL Adobe Target] 中使用 [!DNL Real-Time CDP] 配置文件属性</li></ul> |
+| 5 月 22 日 | [与  [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) 集成 | 添加了以下新视频：<ul><li>在 [!DNL Real-Time Customer Data Platform] 中配置 [!DNL Adobe Target] 目标</li><li>激活区段和配置文件属性</li><li>在 [!DNL Target] 中使用 [!DNL Real-Time CDP] 区段</li><li>在 [!DNL Adobe Target] 中使用 [!DNL Real-Time CDP] 配置文件属性</li></ul> |
 |  | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 更新了重要说明。 |
 | 5 月 19 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为即将发布的版本更新了预发行说明。 |
 | 5 月 17 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于 2023 年 5 月 24 日星期三 [!UICONTROL Adobe Target 社区]问答茶歇休息时间的信息。 |

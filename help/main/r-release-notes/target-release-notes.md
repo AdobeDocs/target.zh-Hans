@@ -4,9 +4,9 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
-workflow-type: tm+mt
-source-wordcount: '457'
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
+workflow-type: ht
+source-wordcount: '281'
 ht-degree: 100%
 
 ---
@@ -22,18 +22,6 @@ ht-degree: 100%
 >发布日期、功能及其他信息如有更改，恕不另行通知。
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
-
-## [!DNL Target] Standard/Premium 23.5.2（2023 年 5 月 31 日）
-
-此版本包含以下增强功能和修复：
-
-* 修复了导致在生成配置文件 API 授权令牌时显示空白页面的问题。(TGT-45387)
-* 修复了如果图像名称包含 GB 18030 个字符，阻止在[!UICONTROL 创建设计]面板中显示该图像的问题。(TGT-44614)
-* 修复了导致反映在分析过程中 [!UICONTROL Auto Personalization] 活动停滞的问题。(TGT-44820)
-* 修复了一个问题，该问题导致对于某些客户的默认工作区，在 Target UI 中不显示任何活动。(TGT-45286)
-* 更新了“不允许重复”标志的行为。更新了被排除的重复优惠标志，以便可重复优惠（如果优惠为默认内容优惠（对于 API v3、v4））并可重复选项（如果选项引用默认内容优惠且未定义模板）。(TNT-46617)
-* 修复了一个问题，在该问题中，将一个查询参数添加到 URL，导致无法加载在可视化体验编辑器 (VEC) 中加载该页面。(TGT-44873)
-* 修复了一个问题，在该问题中，体验中的文本/HTML 中有一些字符转义不当。(TGT-44600)
 
 ## [!DNL Target] Standard/Premium 23.5.3（日期待定）
 

@@ -4,9 +4,9 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
+source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,6 @@ ht-degree: 100%
 | 功能 | 详细信息 |
 |--- |--- |
 | [!UICONTROL Automated Personalization] 活动的 [!UICONTROL QA 模式] | [!DNL Adobe Target] [!UICONTROL QA 模式]现在取代[!UICONTROL 预览链接]功能，可供 [!UICONTROL Automated Personalization] 活动使用。<P>有关更多信息，请参阅[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)。。 |
-| 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。 |
 
 * 不允许在 [!UICONTROL Automated Personalization] 活动中[管理排除项](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037)的同时使用重复功能，从而增强了性能（包括缩短了加载时间）。
 

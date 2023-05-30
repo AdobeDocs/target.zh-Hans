@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
+source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 92%
+source-wordcount: '1989'
+ht-degree: 87%
 
 ---
 
@@ -44,6 +44,14 @@ Adobe Target专家拉蒙·切斯佩德斯和凯文·杰米森将加入我们。 
 ## 过去的网络研讨会和技能培训课程录像
 
 访问以往活动的录像（如果可用）：
+
+### 通过个性化推动增长的历程
+
+通过Adobe客户成功经理Ramon Cespedes展示您的组织实现个性化的能力。
+
+关键分析师报告显示，在个性化方面表现出色的公司产生的收入比同行多40%。 为了满足在每次点击时都获得相关且高度个性化的新体验的需求，营销人员需要制定正确的框架和策略。 在此网络研讨会中，与Adobe的专家一起了解如何利用数据驱动框架构建组织的个性化计划并促进成功。
+
+* [录像链接](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### 微调 AI 支持的个性化：[!DNL Adobe Target] 中的新增功能（2022 年 10 月 11 日）
 

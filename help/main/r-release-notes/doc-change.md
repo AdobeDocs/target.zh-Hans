@@ -22,7 +22,7 @@ ht-degree: 98%
 | 5 月 30 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.5.2 版的发行说明。 |
 |  | [与  [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) 集成 | 更新了包含有关共享信息的文章 [!UICONTROL Real-Time CDP配置文件属性] 替换为 [!DNL Target] 用于HTML和JSON选件。 |
 |  | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下即将举行的喝咖啡休息时间活动的信息：<ul><li>[!DNL Adobe Target Recommendations] 茶歇（6月7日）</li><li>个性化计划准备工作网络研讨会跟进（6月21日）</li></ul> |
-| 5 月 23 日 | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 更新了重要说明。 |
+| 5 月 23 日 | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hans){target=_blank} | 更新了重要说明。 |
 |  | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为即将发布的版本更新了预发行说明。 |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.5.1 版的发行说明。 |
 
@@ -31,17 +31,17 @@ ht-degree: 98%
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 5 月 22 日 | [与  [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) 集成 | 添加了以下新视频：<ul><li>在 [!DNL Real-Time Customer Data Platform] 中配置 [!DNL Adobe Target] 目标</li><li>激活区段和配置文件属性</li><li>在 [!DNL Target] 中使用 [!DNL Real-Time CDP] 区段</li><li>在 [!DNL Adobe Target] 中使用 [!DNL Real-Time CDP] 配置文件属性</li></ul> |
-|  | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 更新了重要说明。 |
+|  | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hans){target=_blank} | 更新了重要说明。 |
 | 5 月 19 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为即将发布的版本更新了预发行说明。 |
 | 5 月 17 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于 2023 年 5 月 24 日星期三 [!UICONTROL Adobe Target 社区]问答茶歇休息时间的信息。 |
 | 5 月 16 日 | [实体属性](/help/main/c-recommendations/c-products/entity-attributes.md) | 表示 `entity.id` 值中不允许使用“空格”。 |
-|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 更新的 `viewsEnabled` 描述。 |
-|  | [单页应用程序实施](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 做出了以下更新：<ul><li>在“实施 Adobe Target 视图”下的第 2 步之后添加了注释。</li><li>更新了“初始页面加载的操作顺序”下的步骤 2“执行 Target 请求”。</li></ul> |
-| 5 月 4 日 | [为 Adobe Target API 配置身份验证](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | 添加了说明需要从 JWT 凭证迁移到 OAuth 服务器到服务器凭证的注释。 |
+|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=zh-Hans){target=_blank} | 更新的 `viewsEnabled` 描述。 |
+|  | [单页应用程序实施](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html?lang=zh-Hans){target=_blank} | 做出了以下更新：<ul><li>在“实施 Adobe Target 视图”下的第 2 步之后添加了注释。</li><li>更新了“初始页面加载的操作顺序”下的步骤 2“执行 Target 请求”。</li></ul> |
+| 5 月 4 日 | [为 Adobe Target API 配置身份验证](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=zh-Hans){target=_blank} | 添加了说明需要从 JWT 凭证迁移到 OAuth 服务器到服务器凭证的注释。 |
 | 5 月 3 日 | [查看报表 — A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 添加了以下常见问题解答：<ul><li>使用 [!UICONTROL Analytics for Target] (A4T) 时如何跟踪 [!DNL Analysis Workspace] 中的活动印象？</li></ul> |
 | 4 月 26 日 | [AEM [!UICONTROL 体验片段]和[!UICONTROL 内容片段]概述](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | [!UICONTROL AEM 内容片段]功能现在可供所有 [!DNL Target customers] 使用。 |
 |  | [[!UICONTROL AEM 内容片段]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | [!UICONTROL AEM 内容片段]功能现在可供所有 [!DNL Target customers]使用。 |
-|  | [*Adobe Target 开发人员指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 开发人员指南*&#x200B;已迁移至 *[!UICONTROL Adobe Experience League]*。迁移到 *[!UICONTROL Experience League]* 有助于用其他语言将文字本地化、统一在 *Experience League* 中进行搜索以跨越 *[!UICONTROL Adobe Target 商业实践指南]*&#x200B;和 *[!UICONTROL Adobe Target 开发人员指南]*&#x200B;并提供来自二者的搜索结果，还可带来额外益处。<P>您将自动从以前的位置重定向到 *[!UICONTROL Experience League]*。请根据需要更新您的书签。 |
+|  | [*Adobe Target 开发人员指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans){target=_blank} | *Adobe Target 开发人员指南*&#x200B;已迁移至 *[!UICONTROL Adobe Experience League]*。迁移到 *[!UICONTROL Experience League]* 有助于用其他语言将文字本地化、统一在 *Experience League* 中进行搜索以跨越 *[!UICONTROL Adobe Target 商业实践指南]*&#x200B;和 *[!UICONTROL Adobe Target 开发人员指南]*&#x200B;并提供来自二者的搜索结果，还可带来额外益处。<P>您将自动从以前的位置重定向到 *[!UICONTROL Experience League]*。请根据需要更新您的书签。 |
 | 4 月 24 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于接下来的 Adobe Target 社区茶歇问答的信息：<ul><li>针对经身份验证的环境的移动体验优化和个性化</li></ul> |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.4.1 版的发行说明。 |
 
@@ -57,10 +57,10 @@ ht-degree: 98%
 |  | [AEM 内容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 新主题。请注意，出于测试目的，此功能处于“预发布”状态。 |
 | 4 月 5 日 | [使用选件决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 添加了一段文字，表示在使用选件决策的活动中不支持[!UICONTROL 将 Analytics 作为报告来源] (A4t)。 |
 | 4 月 3 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于安排在 2023 年 4 月 12 日，星期三的 [!UICONTROL Adobe Target 社区]问答喝咖啡休息时间的信息。 |
-|  | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 添加了注释以将所有 [!DNL Adobe Analytics] IP 地址块列入允许列表。 |
+|  | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hans){target=_blank} | 添加了注释以将所有 [!DNL Adobe Analytics] IP 地址块列入允许列表。 |
 | 3 月 30 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 更新了[!UICONTROL 自动分配]和[!UICONTROL 自动定位]功能的优化 A4T 量度的版本的发行说明，可让您在使用 [!UICONTROL A4T] 进行[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动时，根据二项式事件或连续事件选择量度。 |
 |  | [[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 更新了“支持的目标量度”部分，以包含有关使用 [!UICONTROL Analytics for Target] (A4T) [!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动的支持（和不支持）的量度的信息 |
-|  | [Adobe Target 教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | 更新了以下教程：<ul><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动分配]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动定位]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+|  | [Adobe Target 教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hans){target=_blank} | 更新了以下教程：<ul><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动分配]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hans){target=_blank}</li><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动定位]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hans){target=_blank}</li></ul> |
 |  | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了 [!DNL Adobe Experience Manager] (AEM) 和 [!DNL Adobe Target] [!UICONTROL 内容片段]版本的信息。（2023 年 4 月 6 日） |
 | 3 月 28 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.3.1 版的发行说明。 |
 

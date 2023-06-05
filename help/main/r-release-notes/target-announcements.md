@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
+source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 87%
+source-wordcount: '2159'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 87%
 
 * **星期三2023年6月7日**
 * **8:00-9:上午00(PDT，UTC-7)**
-* **[更多信息](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
+* **[更多信息](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ev-p/596872){target=_blank}**
 
 我们将加入 [!DNL Adobe Target] 专家：Bill Ozinga、John Mosbaugh、Justin Patrick和Eric Thibeault。 在此AMA (Ask Me Anything)活动中，专家将登录并准备好回答您提出的任何与 [!DNL Target Recommendations] 功能。
 
@@ -44,6 +44,21 @@ Adobe Target专家拉蒙·切斯佩德斯和凯文·杰米森将加入我们。 
 ## 过去的网络研讨会和技能培训课程录像
 
 访问以往活动的录像（如果可用）：
+
+### 针对身份验证环境的移动体验优化和个性化（2023年4月26日）
+
+品牌需要根据特定的客户需求和行为提供高度个性化和相关的体验。由于对营销技术中不使用 Cookie 的未来存在疑问，受监管的行业正在寻求采用更强大的客户参与框架，并对每一次客户互动进行优化以提供合适的内容和优惠。
+
+金融服务和保险、零售、旅游和酒店以及电信行业的品牌如何在经过身份验证的环境中采用有关优化和个性化的最佳实践？了解移动应用程序对于忠诚客户的参与和保留的重要性，品牌如何实现数字自助服务或通过个性化体验来增加新功能的采用？
+
+在本次会议中，了解 [!DNL Adobe Target] 和 [!DNL Real-Time CDP] 如何能够提高受监管行业内的参与度、收入和客户忠诚度，正如我们下面的讨论：
+
+* 团队如何为匿名访问者和经过身份验证的访问者提供个性化体验
+* 通过个性化了解消费者权限和隐私标准
+* 向经过身份验证的访问者乃至匿名身份访问者提供个性化的内容和优惠
+* 针对经过身份验证的安全站点的跨网站和移动设备的独特用例
+
+[录像链接](https://video.tv.adobe.com/v/3418987){target=_blank}
 
 ### 通过个性化推动增长的历程
 

@@ -4,10 +4,10 @@ description: 查看有关Adobe定位和体验中使用的受众的常见问题�
 title: 可在何处找到有关目标和受众的问答？
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 62%
+source-wordcount: '962'
+ht-degree: 63%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 62%
 
 通过以下方式添加受众URL定位和URL定位 [!UICONTROL 模板规则] 评估为URL定位（请参阅下面的URL定位）。
 
-### URL定位
+### URL定位 {#url-targeting}
 
 要在创建受众时应用URL定位，请单击 [!UICONTROL 添加规则]，单击 [!UICONTROL 网页]，从第一个下拉列表中选择一个选项([!UICONTROL 当前页面]， [!UICONTROL 上一页]，或 [!UICONTROL 登陆页面])，选择 [!UICONTROL URL] 从第二个下拉列表中，指定计算器，然后指定所需的URL。
 
@@ -47,11 +47,10 @@ ht-degree: 62%
 
 URL定位会将URL转换为一组规则以进行评估：
 
-* URL = `example.com/path1?query=something`
-* URL域= `example.com`
-* 路径= path1/path2/path3
-* queryStringParam1 = test123
-* queryStringParam2 = test7
+* URL = `example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+* 域 = `example.com`
+* 路径 = `path1/path2/path3`
+* 查询 = `queryStringParam1=test123&queryStringParam2=test7`
 
 ## 创建复杂的URL字符串时，会 [!DNL Target] 是否评估整个URL？
 

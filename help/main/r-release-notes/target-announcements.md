@@ -4,9 +4,9 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
+source-git-commit: aabe75fd8bc93baf5afa896eb44ec061c5f6a010
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2155'
 ht-degree: 88%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 88%
 
 * **星期三2023年6月7日**
 * **8:00-9:上午00(PDT，UTC-7)**
-* **[更多信息](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ev-p/596872){target=_blank}**
+* **[更多信息](https://shorturl.at/irzD5){target=_blank}**
 
 我们将加入 [!DNL Adobe Target] 专家：Bill Ozinga、John Mosbaugh、Justin Patrick和Eric Thibeault。 在此AMA (Ask Me Anything)活动中，专家将登录并准备好回答您提出的任何与 [!DNL Target Recommendations] 功能。
 

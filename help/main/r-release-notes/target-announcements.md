@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: aabe75fd8bc93baf5afa896eb44ec061c5f6a010
+source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
 workflow-type: tm+mt
-source-wordcount: '2155'
-ht-degree: 88%
+source-wordcount: '2104'
+ht-degree: 99%
 
 ---
 
@@ -15,25 +15,17 @@ ht-degree: 88%
 
 关于 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
 
-## [!UICONTROL Adobe Target社区] 问答喝咖啡休息时间
+## [!UICONTROL Adobe Target 社区]问答咖啡时间活动
 
-有关以下即将到来的喝咖啡休息时间的信息：
+关于即将举办的咖啡时间活动的信息：
 
-### [!DNL Adobe Target Recommendations] 茶歇
+### 个性化计划就绪网络研讨会跟进
 
-* **星期三2023年6月7日**
-* **8:00-9:上午00(PDT，UTC-7)**
-* **[更多信息](https://shorturl.at/irzD5){target=_blank}**
-
-我们将加入 [!DNL Adobe Target] 专家：Bill Ozinga、John Mosbaugh、Justin Patrick和Eric Thibeault。 在此AMA (Ask Me Anything)活动中，专家将登录并准备好回答您提出的任何与 [!DNL Target Recommendations] 功能。
-
-### 个性化计划准备工作网络研讨会跟进
-
-* **星期三2023年6月21日**
-* **8:00-9:上午00(PDT，UTC-7)**
+* **2023 年 6 月 21 日，星期三**
+* 上午 **8:00-9:00 (PDT, UTC-7)**
 * **[更多信息](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
 
-Adobe Target专家拉蒙·切斯佩德斯和凯文·杰米森将加入我们。 在这场AMA（向我询问任何内容）活动中，专家将登录并准备好回答您提出的与上一个5/24网络研讨会中讨论的主题相关的任何问题。 [通过个性化推动增长的历程](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
+Adobe Target 专家 Ramon Cespedes 和 Kevin Jemison 将加入我们。在本次 AMA (Ask Me Anything) 活动中，专家将登录并准备好回答您提出的有关 5 月 24 日举行的[利用个性化加快增长的历程](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}网络研讨会所涵盖主题的任何问题。
 
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 
@@ -60,11 +52,11 @@ Adobe Target专家拉蒙·切斯佩德斯和凯文·杰米森将加入我们。 
 
 [录像链接](https://video.tv.adobe.com/v/3418987){target=_blank}
 
-### 通过个性化推动增长的历程
+### 利用个性化加快增长的历程
 
-通过Adobe客户成功经理Ramon Cespedes展示您的组织实现个性化的能力。
+增强您组织交付个性化的能力（由 Adobe 客户成功经理 Ramon Cespedes 主持）。
 
-关键分析师报告显示，在个性化方面表现出色的公司产生的收入比同行多40%。 为了满足在每次点击时都获得相关且高度个性化的新体验的需求，营销人员需要制定正确的框架和策略。 在此网络研讨会中，与Adobe的专家一起了解如何利用数据驱动框架构建组织的个性化计划并促进成功。
+主要分析报告表明，擅长个性化的公司获得的收益比同行多 40%。为了满足每次点击对新的、相关的、高度个性化的体验的需求，营销人员需要采用适当的框架和策略。在本网络研讨会中，与 Adobe 的专家一起了解如何利用数据驱动型框架来制定您组织的个性化计划并加快取得成功。
 
 * [录像链接](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 

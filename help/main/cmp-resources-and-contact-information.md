@@ -4,10 +4,10 @@ description: 了解其他资源以帮助您了解 Adobe [!DNL Target] 功能以�
 title: 可在何处找到 Target 的资源和联系信息？
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 96%
+source-wordcount: '1201'
+ht-degree: 97%
 
 ---
 
@@ -64,7 +64,7 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 
 如果您在使用 Target 时遇到问题或存在疑问，解决办法有以下几种：
 
-如有疑问，您可以向Adobe Target专家咨询 [Adobe Target社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank} or ask us on [Twitter](https://twitter.com/adobeglobal){target=_blank}.
+如有疑问，您可以向Adobe Target专家咨询 [Adobe Target社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
 
 如果遇到技术问题或要记录错误，您可以联系客户关怀。要通过电话联系客户关怀，请拨打 1-800-497-0335。可在 [Adobe 数字营销客户服务各地区电话号码](https://helpx.adobe.com/cn/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)页面上找到美国境外的免费号码。当要求您选择产品的选项时，请按 3 联系 Target 团队。
 
@@ -101,7 +101,6 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提供了大量的参与机制：
 
 * [查看 Experience Cloud 帮助页面，以获取建议、提示和常见问题解答](https://helpx.adobe.com/cn/marketing-cloud.html)
-* 询问我们 [twitter](https://twitter.com/adobeglobal){target=_blank}
 * [提交工单以从支持人员获得帮助](https://experienceleague.adobe.com/?support-solution=Target#support)
 * [直接联系客户关怀团队](https://helpx.adobe.com/cn/marketing-cloud/contact-support.html)
 * [查看 Experience Cloud 解决方案的可用性和状态](https://status.adobe.com/)

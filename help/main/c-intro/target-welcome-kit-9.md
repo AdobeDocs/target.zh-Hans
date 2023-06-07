@@ -4,10 +4,10 @@ description: 您已在 Adobe Target 中创建了您的第一个活动。接下�
 title: 可在何处找到其他资源以更有效地使用 Target？
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 83%
+source-wordcount: '690'
+ht-degree: 82%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 83%
 ## 其他资源
 
 * **Adobe Target 主页**：[!DNL Adobe Target] 的主页，从中可了解我们的能力并查看我们最新的成功案例。请参阅 [Adobe Target](https://www.adobe.com/cn/marketing/target.html)。
-* **博客**：关注 [Target 博客](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5)，即可掌握最新的动向、提示和成功案例。
+* **博客**：关注 [Target 博客](https://blog.adobe.com/en/topics/target)，即可掌握最新的动向、提示和成功案例。
 * **Experience League**：探索开展体验业务所需的指南、活动和培训，并与Target社区建立联系，从而找到您所寻找的答案。 请参阅 [Adobe Experience League 主页](https://experienceleague.adobe.com/#home)。
 * **Adobe Target 认证**：通过新的 Adobe Target 考试获得 Adobe 认证专家身份。在此可安排考试或参加培训课程。请参阅[培训和认证](/help/main/c-intro/training-and-certification.md)。
 * **Adobe Target 发行说明**：关于每个 [!DNL Target Standard] 和 [!DNL Target Premium] 发行版的功能、增强和修复的信息。此外，在适用的情况下，还包括 Target API、SDK、JavaScript 库 (at.js) 的发行说明和其他平台变更。请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md)。

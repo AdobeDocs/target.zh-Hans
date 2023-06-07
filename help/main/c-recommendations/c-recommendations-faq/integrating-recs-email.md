@@ -5,7 +5,7 @@ title: 如何将“推荐”与电子邮件集成？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 96%
@@ -78,7 +78,7 @@ curl -X POST \
 >
 >请确保为每个电子邮件收件人（例如，每个 API 调用）的 `sessionId` 和 `tntId` 或 `thirdPartyId` 两者之一均提供唯一值。如果您没有为这些字段提供唯一值，则由于在单个配置文件中会生成许多事件，API 响应可能变慢或失败。
 
-有关更多信息，请参阅[交付 API 文档](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/delivery-api/overview.html)。{target=_blank}
+有关更多信息，请参阅[交付 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html)。{target=_blank}
 
 ## 方法 2：使用 rawbox 电子邮件模板 {#rawbox}
 

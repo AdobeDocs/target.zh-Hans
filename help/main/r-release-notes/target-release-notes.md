@@ -5,9 +5,9 @@ title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强�
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 87595187e4d45ce8ba042d43ebf45a9ca9ec9a47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 23.5.4（6月27日至28日）
+## [!DNL Target] Standard/Premium 23.5.4（6 月 27 日 - 28 日）
 
 此版本包含以下增强功能：
 

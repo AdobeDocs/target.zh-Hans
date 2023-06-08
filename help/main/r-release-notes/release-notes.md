@@ -7,7 +7,7 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '654'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 |--- |--- |
 | 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。 |
 
-* 修复了导致在生成配置文件 API 授权令牌时显示空白页面的问题。（TGT-45387 和 TGT-45423）
+* 修复了一个问题，该问题导致在生成配置文件 API 授权令牌时显示空白页。（TGT-45387 和 TGT-45423）
 * 修复了如果图像名称包含 GB 18030 个字符，阻止在[!UICONTROL 创建设计]面板中显示该图像的问题。(TGT-44614)
 * 修复了一个问题，在该问题中，体验中的文本/HTML 内有一些 GB 18030 符号字符转义不当。(TGT-44600)
 * 修复了导致反映在分析过程中 [!UICONTROL Auto Personalization] 活动停滞的问题。(TGT-44820)

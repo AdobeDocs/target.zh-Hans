@@ -23,8 +23,8 @@ ht-degree: 95%
 |  | [将报表受众应用于成功量度](/help/main/c-target/apply-reporting-audience-success-metric.md) | 更新了“注意事项”部分，并添加了“示例”部分。 |
 |  | [定位和受众常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | 更新了“URL定位”部分。 |
 | 5 月 30 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.5.2 版的发行说明。 |
-|  | [与  [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) 集成 | 更新了包含有关与 [!DNL Target] 共享 [!UICONTROL Real-Time CDP 配置文件属性]以用于 HTML 和 JSON 选件的信息。 |
-|  | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下即将举办的咖啡时间活动的信息：<ul><li>[!DNL Adobe Target Recommendations]咖啡时间活动（6 月 7 日）</li><li>个性化计划就绪网络研讨会跟进（6 月 21 日）</li></ul> |
+|  | [与  [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) 集成 | 更新了文章，加入有关与 [!DNL Target] 共享 [!UICONTROL Real-Time CDP 配置文件属性]以供在 HTML 和 JSON 选件中使用这些属性的信息。 |
+|  | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下即将举办的咖啡时间活动的信息：<ul><li>[!DNL Adobe Target Recommendations]咖啡时间活动（6 月 7 日）</li><li>个性化计划就绪网络研讨会后续活动（6 月 21 日）</li></ul> |
 | 5 月 23 日 | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hans){target=_blank} | 更新了重要说明。 |
 |  | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为即将发布的版本更新了预发行说明。 |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.5.1 版的发行说明。 |

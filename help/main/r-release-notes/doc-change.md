@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 3e7157e8c8b8189e0e8c7f12a363b91d300ca259
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 95%
+source-wordcount: '1146'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 6 月 12 日 | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | 更新了 *《Experience Cloud中央界面组件指南》* 使用的Cookie说明 [!DNL Target]. |
 | 6 月 5 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 更新了以下活动的信息：<ul><li>更新了注册链接 [!DNL Adobe Target Recommendations] 茶歇（2023年6月7日，星期三）</li><li>添加了有关最近网络研讨会“身份验证环境的移动体验优化和个性化”的信息，并添加了指向该录像的链接。</li></ul> |
 |  | [将报表受众应用于成功量度](/help/main/c-target/apply-reporting-audience-success-metric.md) | 更新了“注意事项”部分，并添加了“示例”部分。 |
 |  | [定位和受众常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | 更新了“URL定位”部分。 |

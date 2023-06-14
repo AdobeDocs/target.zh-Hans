@@ -22,9 +22,9 @@ ht-degree: 94%
 | 6 月 12 日 | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | 更新了 *《Experience Cloud中央界面组件指南》* 使用的Cookie说明 [!DNL Target]. |
 |  | [初始化Java SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | 添加了有关“environment”参数的信息。 |
 |  | [初始化Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | 添加了有关“environment”参数的信息。 |
-| 6 月 5 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 更新了关于以下活动的信息：<ul><li>更新了[!DNL Adobe Target Recommendations] 喝咖啡休息时间（2023 年 6 月 7 日，星期三）的注册链接</li><li>添加了有关最近的网络研讨会“针对经身份验证的环境的移动体验优化和个性化”的信息，并添加了指向录像的链接。</li></ul> |
-|  | [将报表受众应用于成功量度](/help/main/c-target/apply-reporting-audience-success-metric.md) | 更新了“注意事项”部分并添加了“示例”部分。 |
-|  | [定位和受众常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | 更新了“URL 定位”部分。 |
+| 6 月 5 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 更新了关于以下活动的信息：<ul><li>更新了 [!DNL Adobe Target Recommendations] 喝咖啡休息时间（2023 年 6 月 7 日，星期三）的注册链接</li><li>添加了有关最近的网络研讨会“针对经身份验证的环境的移动体验优化和个性化”的信息，并添加了录像链接。</li></ul> |
+|  | [将报表受众应用于成功指标](/help/main/c-target/apply-reporting-audience-success-metric.md) | 更新了“注意事项”部分并添加了“示例”部分。 |
+|  | [目标和受众常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | 更新了“URL 定位”部分。 |
 | 5 月 30 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.5.2 版的发行说明。 |
 |  | [与  [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) 集成 | 更新了文章，加入有关与 [!DNL Target] 共享 [!UICONTROL Real-Time CDP 配置文件属性]以供在 HTML 和 JSON 选件中使用这些属性的信息。 |
 |  | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下即将举办的咖啡时间活动的信息：<ul><li>[!DNL Adobe Target Recommendations]咖啡时间活动（6 月 7 日）</li><li>个性化计划就绪网络研讨会后续活动（6 月 21 日）</li></ul> |

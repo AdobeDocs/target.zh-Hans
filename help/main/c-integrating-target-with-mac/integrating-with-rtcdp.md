@@ -4,9 +4,9 @@ description: 了解如何使用 [!DNL Target]/[!DNL Real-Time Customer Data Plat
 title: 如何将 [!DNL Target] 与 [!DNL Real-Time Customer Data Platform] 集成？
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 92990584efd21ab81f6a4cadab2f46529e1bc182
+source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1060'
 ht-degree: 95%
 
 ---
@@ -77,10 +77,6 @@ ht-degree: 95%
 Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 [JSON 选件](/help/main/c-experiences/c-manage-content/create-json-offer.md)。
 
 ### Real-Time CDP 配置文件属性功能限制和考虑
-
->[!NOTE]
->
->Real-Time CDP 配置文件属性功能在 Beta 版中可用于 HTML 选件和 [JSON 选件](/help/main/c-experiences/c-manage-content/create-json-offer.md)。
 
 请考虑以下事项：
 

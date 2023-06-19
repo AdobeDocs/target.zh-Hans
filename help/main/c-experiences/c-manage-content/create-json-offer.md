@@ -4,9 +4,9 @@ description: 了解如何在Adobe中创建JSON选件 [!DNL Target] ，以便在�
 title: 如何创建JSON选件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '458'
 ht-degree: 32%
 
 ---
@@ -133,7 +133,7 @@ adobe.target.getOffer({
 
 ## 使用实时CDP配置文件属性的JSON选件示例
 
-Real-time CDP配置文件属性可与共享 [!DNL Target] 用于HTML选件和JSON选件。 （请注意，此功能当前处于Beta阶段。）
+Real-time CDP配置文件属性可与共享 [!DNL Target] 用于HTML选件和JSON选件。
 
 有关更多信息，请参阅 [与共享Real-time CDP配置文件属性 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 

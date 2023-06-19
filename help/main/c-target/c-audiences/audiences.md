@@ -4,10 +4,10 @@ description: 了解如何在中使用受众 [!DNL Adobe Target].
 title: 如何使用受众列表？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 32%
+source-wordcount: '861'
+ht-degree: 30%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 32%
 * **定位受众：** 用于向不同类型的访客交付不同的内容。
 * **报表受众：** 用于确定不同类型的访客对同一内容有何响应，以便您分析测试结果。
 
-   在 [!DNL Target] 中，仅当使用 [!DNL Target] 作为报表源时，才能配置报表受众。如果您使用 [ Adobe Analytics 作为报表源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，则必须在 [!DNL Analytics] 中配置报表受众。
+  在 [!DNL Target] 中，仅当使用 [!DNL Target] 作为报表源时，才能配置报表受众。如果您使用 [ Adobe Analytics 作为报表源](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)，则必须在 [!DNL Analytics] 中配置报表受众。
 
 ## 使用 [!UICONTROL 受众] 列表 {#use-list}
 
@@ -43,13 +43,13 @@ ht-degree: 32%
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
 
-   >[!NOTE]
-   >
-   >此 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 客户使用 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. 受众可从 [!DNL Adobe Experience Platform] 可以按原样使用或 [与现有受众相结合](/help/main/c-target/combining-multiple-audiences.md).
-   >
-   >用户必须具有 [!UICONTROL 审批者] 或高于以下项中的状态 [!DNL Target] 配置 [!DNL Target] [!UICONTROL 目标] AEP/RTCDP中的卡([!DNL Real-time Customer Data Platform])。
-   >
-   >有关详细信息，请参阅 [使用来自Adobe Experience Platform的受众](#aep).
+  >[!NOTE]
+  >
+  >此 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 客户使用 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. 受众可从 [!DNL Adobe Experience Platform] 可以按原样使用或 [与现有受众相结合](/help/main/c-target/combining-multiple-audiences.md).
+  >
+  >用户必须具有 [!UICONTROL 审批者] 或高于以下项中的状态 [!DNL Target] 配置 [!DNL Target] [!UICONTROL 目标] AEP/RTCDP中的卡([!DNL Real-time Customer Data Platform])。
+  >
+  >有关详细信息，请参阅 [使用来自Adobe Experience Platform的受众](#aep).
 
 预定义受众，如&quot;[!UICONTROL 新访客]“ ”和“ ”[!UICONTROL 旧访客]不能重命名“ ”。
 
@@ -110,6 +110,12 @@ Keep the following points in mind as you work with imported audiences:
 使用在 [!DNL Adobe Experience Platform] 中创建的受众可提供更丰富的客户数据，从而带来更强大的个性化功能。 
 
 有关更多信息，请参阅 [使用来自的受众 [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+
+## 在HTML和JSON选件中使用Real-time CDP配置文件属性
+
+Real-time CDP配置文件属性可与Target共享，以用于HTML选件和JSON选件。 有关更多信息，请参阅将与集成 [!DNL Real-Time Customer Data Platform].
+
+有关更多信息，请参阅 [管理内容](/help/main/c-experiences/c-manage-content/manage-content.md) 和 [创建JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## 培训视频：使用受众 ![教程徽章](/help/main/assets/tutorial.png)
 

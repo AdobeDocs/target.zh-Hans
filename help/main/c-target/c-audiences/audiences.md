@@ -4,10 +4,10 @@ description: 了解如何在中使用受众 [!DNL Adobe Target].
 title: 如何使用受众列表？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 30%
+source-wordcount: '818'
+ht-degree: 32%
 
 ---
 
@@ -110,12 +110,6 @@ Keep the following points in mind as you work with imported audiences:
 使用在 [!DNL Adobe Experience Platform] 中创建的受众可提供更丰富的客户数据，从而带来更强大的个性化功能。 
 
 有关更多信息，请参阅 [使用来自的受众 [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
-
-## 在HTML和JSON选件中使用Real-time CDP配置文件属性
-
-Real-time CDP配置文件属性可与Target共享，以用于HTML选件和JSON选件。 有关更多信息，请参阅将与集成 [!DNL Real-Time Customer Data Platform].
-
-有关更多信息，请参阅 [管理内容](/help/main/c-experiences/c-manage-content/manage-content.md) 和 [创建JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## 培训视频：使用受众 ![教程徽章](/help/main/assets/tutorial.png)
 

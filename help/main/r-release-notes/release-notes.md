@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
-workflow-type: ht
-source-wordcount: '654'
-ht-degree: 100%
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 98%
 
 ---
 
@@ -23,20 +23,24 @@ ht-degree: 100%
 
 此版本包含以下增强功能和修复：
 
-| 功能 | 详细信息 |
-|--- |--- |
-| 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。 |
-
 * 修复了一个问题，该问题导致在生成配置文件 API 授权令牌时显示空白页。（TGT-45387 和 TGT-45423）
 * 修复了如果图像名称包含 GB 18030 个字符，阻止在[!UICONTROL 创建设计]面板中显示该图像的问题。(TGT-44614)
 * 修复了一个问题，在该问题中，体验中的文本/HTML 内有一些 GB 18030 符号字符转义不当。(TGT-44600)
 * 修复了导致反映在分析过程中 [!UICONTROL Auto Personalization] 活动停滞的问题。(TGT-44820)
-* 修复了一个问题，如果活动名称包含方括号（[ 或 ]），则该问题妨碍在[!UICONTROL 活动]页面上搜索该活动。(TGT-44777)
+* 修复了一个问题，如果活动名称包含方括号（[!UICONTROL  或 ]），则该问题妨碍在[活动]页面上搜索该活动。(TGT-44777)
 * 修复了一个问题，如果活动的目标包含特殊字符，则该问题阻碍该活动进行同步。(TGT-44982)
 * 修复了一个问题，该问题导致对于某些客户的默认工作区，在 [!DNL Target] UI 中不显示任何活动。(TGT-45286)
 * 更新了“不允许重复”标志的行为。更新了被排除的重复优惠标志，以便可重复优惠（如果优惠为默认内容优惠（对于 API v3、v4））并可重复选项（如果选项引用默认内容优惠且未定义模板）。(TNT-46617)
 * 修复了一个问题，其中为 URL 添加了一个查询参数，该参数阻碍在[!UICONTROL 可视化体验编辑器] (VEC) 中加载页面。(TGT-44873)
 * 纠正了整个 [!DNL Target] UI 中的多处本地化错误。
+
+## 共享的Real-Time CDP配置文件属性 [!DNL Target]|[!UICONTROL Real-Time CDP配置文件属性] （2023年6月13日）
+
+此版本包含以下增强功能：
+
+| 功能 | 详细信息 |
+|--- |--- |
+| 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。 |
 
 ## [!DNL Target] Standard/Premium 23.5.1（2023 年 5 月 23-25 日）
 

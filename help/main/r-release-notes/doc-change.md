@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 967d85354daaf485f84c704c014275d780827b8a
 workflow-type: tm+mt
 source-wordcount: '1182'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 94%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 6 月 12 日 | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | 更新了 *《Experience Cloud中央界面组件指南》* 使用的Cookie说明 [!DNL Target]. |
-|  | [初始化Java SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | 添加了有关“environment”参数的信息。 |
-|  | [初始化Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | 添加了有关“environment”参数的信息。 |
+| 6 月 12 日 | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | 更新了《Experience Cloud 中央界面组件指南》**&#x200B;中解释 [!DNL Target] 使用的 Cookie 的文章。 |
+|  | [初始化 Java SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | 添加了关于“环境”参数的信息。 |
+|  | [初始化 Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | 添加了关于“环境”参数的信息。 |
 | 6 月 5 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 更新了关于以下活动的信息：<ul><li>更新了 [!DNL Adobe Target Recommendations] 喝咖啡休息时间（2023 年 6 月 7 日，星期三）的注册链接</li><li>添加了有关最近的网络研讨会“针对经身份验证的环境的移动体验优化和个性化”的信息，并添加了录像链接。</li></ul> |
 |  | [将报表受众应用于成功指标](/help/main/c-target/apply-reporting-audience-success-metric.md) | 更新了“注意事项”部分并添加了“示例”部分。 |
 |  | [目标和受众常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | 更新了“URL 定位”部分。 |

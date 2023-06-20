@@ -5,7 +5,7 @@ title: 如何将 [!DNL Target] 与 [!DNL Real-Time Customer Data Platform] 集�
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 100%
 

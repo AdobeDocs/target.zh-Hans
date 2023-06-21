@@ -4,10 +4,10 @@ description: 了解如何使用 [!DNL Target]/[!DNL Real-Time Customer Data Plat
 title: 如何将 [!DNL Target] 与 [!DNL Real-Time Customer Data Platform] 集成？
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
+source-git-commit: 210e9de954dba813972b0da9a7db5b9383d3e303
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选�
 * 在&#x200B;*目标概述*&#x200B;指南中[为同一页面和下一个页面个性化配置个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}。
 * *目标概述*&#x200B;指南中的 [Adobe Target 连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}
 * *目标概述*&#x200B;指南中的[地图属性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=zh-Hans#map-attributes){target=_blank}。
-* [在&#x200B;*目标概览*&#x200B;指南中，激活受众到边缘个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.htm){target=_blank}。
+* [在&#x200B;*目标概览*&#x200B;指南中，激活受众到边缘个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank}。
 * [通过&#x200B;*目标概览*&#x200B;指南中“常见问题”下的 [!DNL Adobe Target] 和自定义个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank}实现同页和下页个性化。
 
 ## 视频和博客帖子 {#videos-blogs}

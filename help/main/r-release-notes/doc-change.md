@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 967d85354daaf485f84c704c014275d780827b8a
+source-git-commit: f7a23cd485e445a0e9f9c420b42dfca3adb85895
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 100%
+source-wordcount: '1203'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 6 月 26 日 | [适用于移动应用程序的 Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=zh-Hans){target=_blank} | 添加了实施链接 [!DNL Adobe Experience Cloud] 在移动应用程序教程中。 |
 | 6 月 12 日 | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | 更新了《Experience Cloud 中央界面组件指南》**&#x200B;中解释 [!DNL Target] 使用的 Cookie 的文章。 |
 |  | [初始化 Java SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | 添加了关于“环境”参数的信息。 |
 |  | [初始化 Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | 添加了关于“环境”参数的信息。 |

@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 37610e658a25027ae614818b0be425dfc9dbffc6
 workflow-type: tm+mt
-source-wordcount: '36579'
+source-wordcount: '36917'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,37 @@ ht-degree: 96%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2023
+
+### [!DNL Target] Standard/Premium 23.5.2（2023 年 5 月 31 日）
+
+此版本包含以下增强功能和修复：
+
+* 修复了一个问题，该问题导致在生成配置文件 API 授权令牌时显示空白页。（TGT-45387 和 TGT-45423）
+* 修复了如果图像名称包含 GB 18030 个字符，阻止在[!UICONTROL 创建设计]面板中显示该图像的问题。(TGT-44614)
+* 修复了一个问题，在该问题中，体验中的文本/HTML 内有一些 GB 18030 符号字符转义不当。(TGT-44600)
+* 修复了导致反映在分析过程中 [!UICONTROL Auto Personalization] 活动停滞的问题。(TGT-44820)
+* 修正了如果活动名称包含方括号（[或]），则无法在[!UICONTROL 活动]页面上搜索活动的问题。(TGT-44777)
+* 修复了一个问题，如果活动的目标包含特殊字符，则该问题阻碍该活动进行同步。(TGT-44982)
+* 修复了一个问题，该问题导致对于某些客户的默认工作区，在 [!DNL Target] UI 中不显示任何活动。(TGT-45286)
+* 更新了“不允许重复”标志的行为。更新了被排除的重复优惠标志，以便可重复优惠（如果优惠为默认内容优惠（对于 API v3、v4））并可重复选项（如果选项引用默认内容优惠且未定义模板）。(TNT-46617)
+* 修复了一个问题，其中为 URL 添加了一个查询参数，该参数阻碍在[!UICONTROL 可视化体验编辑器] (VEC) 中加载页面。(TGT-44873)
+* 纠正了整个 [!DNL Target] UI 中的多处本地化错误。
+
+### 与[!DNL Target]共享 Real-Time CDP 配置文件属性 [!UICONTROL Real-Time CDP 配置文件属性]（2023 年 6 月 13 日）
+
+此版本包含以下增强功能：
+
+| 功能 | 详细信息 |
+|--- |--- |
+| 与 [!DNL Target] 共享的 Real-Time CDP 配置文件属性 | Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选件和 JSON 选件。<P>有关更多信息，请参阅 [与  [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes) 共享 Real-Time CDP 配置文件属性。 |
+
+### [!DNL Target] Standard/Premium 23.5.1（2023 年 5 月 23-25 日）
+
+此版本包含以下新增强功能和修复：
+
+* 修复了阻止某些客户使用“大于”或“小于”运算符创建具有访客配置文件的受众的问题。(TGT-45271)
+* 纠正了整个 [!DNL Target] UI 中的多处本地化错误。
+* 为即将推出的新 UI 更新了多个位置的 Target UI（直到发布更新为止，这些更改都隐藏在功能标志的后面）。
 
 ### [!DNL Target] Standard/Premium 23.4.1（2023 年 4 月 25-27 日）
 
@@ -150,7 +181,7 @@ ht-degree: 96%
 * 在 [!DNL Target] UI 中添加了工具提示以帮助客户更高效地在受众生成器中导航并了解如何使用可能不熟悉的功能。(TGT-44139)
 * 添加了阻止客户编辑被 [!DNL Target] 禁用的活动（因为它使用不支持的指标）的功能。UI 中的一条消息指示客户重复该活动，然后更新转化指标。
 
-   在此版本中，将为新活动弃用 [!DNL Target] 活动中的 `averagetimespentonsite`、`bouncerate` 和 `entries` 指标。现有活动可继续使用这些量度直至 2023 年 5 月。
+  在此版本中，将为新活动弃用 [!DNL Target] 活动中的 `averagetimespentonsite`、`bouncerate` 和 `entries` 指标。现有活动可继续使用这些量度直至 2023 年 5 月。
 
 * 在 [!DNL Target] UI 中添加了工具提示，帮助客户在创建或编辑使用 A4T 的[!UICONTROL 自动定位]活动时选择优化标准。
 
@@ -386,27 +417,27 @@ ht-degree: 96%
 
 * 在 [!DNL Target] UI 中的各个位置添加了警告图标、弹出框和消息，以指示已从来源中删除受众，并且受众不再可用于 [!DNL Target] 活动中。
 
-   下图显示了这些图标、弹出框和消息的一些显示位置：
+  下图显示了这些图标、弹出框和消息的一些显示位置：
 
    * [!UICONTROL 活动]列表页面
 
-      ![“活动”列表页面上的“已从来源中删除受众”消息](assets/deleted-at-source-audiences-list.png)
+     ![“活动”列表页面上的“已从来源中删除受众”消息](assets/deleted-at-source-audiences-list.png)
 
    * 活动[!UICONTROL 概述]页面：
 
-      ![概述页面上的“已从来源中删除受众”消息](assets/deleted-at-source-overview.png)
+     ![概述页面上的“已从来源中删除受众”消息](assets/deleted-at-source-overview.png)
 
    * 活动创建工作流的[!UICONTROL 体验]步骤：
 
-      ![[!UICONTROL 体验]页面上的“已从来源中删除受众”消息](assets/deleted-at-source-experiences.png)
+     ![[!UICONTROL 体验]页面上的“已从来源中删除受众”消息](assets/deleted-at-source-experiences.png)
 
    * 活动创建工作流的[!UICONTROL 定位]步骤：
 
-      ![[!UICONTROL 定位]页面上的“已从来源中删除受众”消息](assets/deleted-at-source-targeting.png)
+     ![[!UICONTROL 定位]页面上的“已从来源中删除受众”消息](assets/deleted-at-source-targeting.png)
 
    * 活动创建工作流的[!UICONTROL 目标与设置]步骤：
 
-      ![[!UICONTROL 目标与设置]页面上的“已从来源中删除受众”消息](assets/deleted-at-source-goals-settings.png)
+     ![[!UICONTROL 目标与设置]页面上的“已从来源中删除受众”消息](assets/deleted-at-source-goals-settings.png)
 
    * 受众细化（活动创建工作流的[!UICONTROL 定位]步骤中的[!UICONTROL 替换受众]）：
 
@@ -469,7 +500,7 @@ ht-degree: 96%
    * dataPartnerId：数据合作伙伴的 ID。
    * dataPartnerUserId：数据合作伙伴提供的用户 ID。
 
-   以前，投放 API 仅包含 `dcsLocationHint` 和 `blob`。(TNT-41644)
+  以前，投放 API 仅包含 `dcsLocationHint` 和 `blob`。(TNT-41644)
 
 ### [!DNL Target Standard/Premium] 21.6.1（2021 年 6 月 30 日）
 
@@ -551,11 +582,11 @@ ht-degree: 96%
 
 * 提高了允许的选件大小 (TGT-38304)：
 
-   | 类型 | 以前的限制 | 新限制 |
-   | --- | --- | --- |
-   | HTML | 256KB | 1024KB |
-   | Target UI 中的可视选件 | 64KB | 每个体验 1024 KB |
-   | 通过 API | 512KB | 1024KB |
+  | 类型 | 以前的限制 | 新限制 |
+  | --- | --- | --- |
+  | HTML | 256KB | 1024KB |
+  | Target UI 中的可视选件 | 64KB | 每个体验 1024 KB |
+  | 通过 API | 512KB | 1024KB |
 
 * 现在每天都生成[!UICONTROL 自动定位] (AT) 和[!UICONTROL 自动个性化] (AP) 活动的[!UICONTROL 个性化见解]报表。可选择提供过去 15、30 和 60 天[!UICONTROL “自动化区段”]或[!UICONTROL “重要属性”]的报表。已删除 45 天和 90 天的选项以使其他回溯时段设置可每天运行。(TGT-39472)
 * 修复了客户在活动的[!UICONTROL “目标和设置”]页面上单击[!UICONTROL “编辑依赖项”]时导致不显示当前依赖项的问题。(TGT-39340)
@@ -603,7 +634,7 @@ at.js 的此版本是一个维护版本，其中包括以下修复：
 * 修复了会对下列内容造成影响的问题 [!DNL Adobe Target Premium] 用户 [!UICONTROL 自动定位] 从9月15日下午2:30 （太平洋夏令时间）到10月6日上午9:25 （太平洋夏令时间）的报告。 在查看报表中（使用“[!UICONTROL 查看了某个页面]”或“[!UICONTROL 单击了 mbox]”选项配置的）受影响的转化指标时，所报告的转化率有误。目前没有已知的投放问题。
 * 在[!UICONTROL “目录搜索”]表中添加了一个可选的[!UICONTROL “上次更新时间”]列，并添加了一个[!UICONTROL “上次更新时间”]筛选条件。此增强可节省时间和精力，因为不必打开每个单独的项目以查看上次更新它的时间，并可按上次更新这些项目的日期进行筛选。
 
-   ![“上次更新时间”列和筛选条件的插图](/help/main/r-release-notes/assets/column-and-filter.png)
+  ![“上次更新时间”列和筛选条件的插图](/help/main/r-release-notes/assets/column-and-filter.png)
 
 * 作出了更新，以帮助使 Target UI 符合 [Web 内容无障碍指南](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 A 和 AA 级成功标准 (WCAG 2.0 AA)。（TGT-34384 和 TGT-24679）
 * 在内容安全策略 (CSP) 方面作出了改进。(TGT-37035)
@@ -814,19 +845,19 @@ Target at.js JavaScript 库有以下新版本可用：
 * 解决了本地化问题，以使各种语言的 UI 文本均可正确显示。
 * 我们通过弃用Adobe Analytics for Target (A4T)活动的当前版本Adobe Analytics API中不支持的Adobe Analytics量度，使中的可用量度列表标准化。 这样将使我们可在未来的 Adobe Target 版本中扩展我们对 A4T 的支持。
 
-   已作出以下更改：
+  已作出以下更改：
 
    * “平均页面逗留时间”已被“平均网站逗留时间”取代。任何将此指标用作主要目标指标的活动都将在下次编辑该活动时选择“平均网站逗留时间”（注意：度量单位为分钟而非秒）作为主要目标指标。
    * “访客”已被“独特访客”取代。任何将此指标用作主要目标指标的活动都将在下次编辑该活动时选择“独特访客”作为主要目标指标。
 
 * 以下指标已被弃用，无法在创建新 A4T 活动时被选为主要目标指标。
 
-   | 已弃用的指标 | 建议的替代指标 |
-   |--- |--- |
-   | 每日访客、每小时访客、每月访客、季度访客、每周访客、每年访客 | 独特访客 |
-   | 平均访问深度 | 不适用。建议不要作为主要目标指标 |
-   | 机器人 | 不适用。建议不要作为主要目标指标 |
-   | 移动崩溃率、移动平均以前会话长度、移动应用商店平均排名、移动应用性能崩溃率、移动应用商店平均评分 | 不适用。建议不要作为主要目标指标 |
+  | 已弃用的指标 | 建议的替代指标 |
+  |--- |--- |
+  | 每日访客、每小时访客、每月访客、季度访客、每周访客、每年访客 | 独特访客 |
+  | 平均访问深度 | 不适用。建议不要作为主要目标指标 |
+  | 机器人 | 不适用。建议不要作为主要目标指标 |
+  | 移动崩溃率、移动平均以前会话长度、移动应用商店平均排名、移动应用性能崩溃率、移动应用商店平均评分 | 不适用。建议不要作为主要目标指标 |
 
 ### Adobe Experience Cloud 导航（2019 年 2 月 22 日）
 
@@ -838,9 +869,10 @@ Target at.js JavaScript 库有以下新版本可用：
    * 改进了净推荐者分数(NPS)反馈功能，以便调查模式不会打扰您的工作流程。
 
    * 当前在标题中的[!UICONTROL “通知”]下拉菜单中无 [!DNL Target] 的通知可用。
-   >[!NOTE]
-   >
-   >作为推出新导航栏的一部分，您还将注意到一些 URL 有变化。所有以前加入书签的链接仍有效，但我们提倡将新链接加入书签以更快地打开。
+
+  >[!NOTE]
+  >
+  >作为推出新导航栏的一部分，您还将注意到一些 URL 有变化。所有以前加入书签的链接仍有效，但我们提倡将新链接加入书签以更快地打开。
 
 ### Target Standard/Premium 20.1.1（2020 年 2 月 4 日）
 
@@ -889,11 +921,12 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
    * 改进了净推荐者分数(NPS)反馈功能，以便调查模式不会打扰您的工作流程。
 
    * 当前在标题中的[!UICONTROL “通知”]下拉菜单中无 [!DNL Target] 的通知可用。
-   >[!NOTE]
-   >
-   >不会立即推出这些功能，也不会向所有客户一起推出这些功能。我们将在未来几周内推出这些功能，从 [!DNL Target Standard/Premium] 19.10.1（2019 年 10 月 22 日）版本开始。
-   >
-   >作为推出新导航栏的一部分，您还将注意到一些 URL 有变化。所有以前加入书签的链接仍有效，但我们提倡将新链接加入书签以更快地打开。
+
+  >[!NOTE]
+  >
+  >不会立即推出这些功能，也不会向所有客户一起推出这些功能。我们将在未来几周内推出这些功能，从 [!DNL Target Standard/Premium] 19.10.1（2019 年 10 月 22 日）版本开始。
+  >
+  >作为推出新导航栏的一部分，您还将注意到一些 URL 有变化。所有以前加入书签的链接仍有效，但我们提倡将新链接加入书签以更快地打开。
 
 ### at.js 2.2 和 1.8 版（2019 年 10 月 10 日）
 
@@ -1018,12 +1051,12 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 * 我们改进了您在使用 VEC 删除资产时的工作流程。现在，已删除的资产将会从[!UICONTROL “选件”库]和 [!DNL Scene7]（如果适用）中移除。已删除的资产将不会继续出现在搜索结果中。(TGT-31981)
 * 现在，即使资产文件夹中包含图像（非空文件夹），您也可以将其删除。(TGT-33265)
 
-   以前，您无法从 Target 图像选件库中删除非空文件夹（[!UICONTROL 选件] > [!UICONTROL 图像选件]）。您会收到“文件夹不为空！” 通知。借助此功能，我们将添加允许您执行文件夹删除的功能，以便删除包含任意数量的资产和子文件夹的整个文件夹。此功能在 Target UI 以及 Adobe Experience Cloud Assets UI 中均可用。
+  以前，您无法从 Target 图像选件库中删除非空文件夹（[!UICONTROL 选件] > [!UICONTROL 图像选件]）。您会收到“文件夹不为空！” 通知。借助此功能，我们将添加允许您执行文件夹删除的功能，以便删除包含任意数量的资产和子文件夹的整个文件夹。此功能在 Target UI 以及 Adobe Experience Cloud Assets UI 中均可用。
 
    * 可以删除“图像选件”库中的非空文件夹。如果该文件夹中的所有图像均未在任何活动中引用，则将删除整个文件夹及其内容。如果在任何活动中引用了该文件夹中的某些图像，则将删除所有未引用的图像，但会保留已引用的图像和包含这些图像的文件夹。
    * 位于“图像资产”选取器中的图像选件的渲染速度更快、效率更高。
 
-   有关更多信息，请参阅[处理库中的内容](/help/main/c-experiences/c-manage-content/assets-working.md)。(TGT-32897)
+  有关更多信息，请参阅[处理库中的内容](/help/main/c-experiences/c-manage-content/assets-working.md)。(TGT-32897)
 
 * 我们改进了“资产”选取器中图像选件的呈现方式。现在可以更加快捷、高效地显示和选择图像选件。(TGT-32897)
 * 我们改进了当您在 VEC 中取消载入页面时，对 URL 重定向的处理。(TGT-33815)
@@ -1205,7 +1238,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
    * 如果在 AAM 中删除受众，则“[!UICONTROL 受众]”列表和受众选择器均会显示警告图标。UI 中的工具提示也会指示受众已在 AAM 中删除。
    * 如果您尝试将多个受众与已删除的受众合并，或者您想保存引用了已删除受众的活动，则会显示一条警告消息。
 
-   请参阅[受众简介](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hans)。
+  请参阅[受众简介](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hans)。
 
 * 修复了一个问题，在[!UICONTROL “管理”]页面上选择了 Adobe Analytics 作为报表源时，该问题阻止处于某些状况下的用户创建活动。即使用户没有选择报表包的选项，他们仍会看到“请选择一个报表包”的消息。(TGT-31968)
 
@@ -1458,9 +1491,9 @@ target/r_release-notes-2018.xml
 
 * 更新了设备列表以包含最新的手机机型。添加了使用“设备营销名称”或“设备型号”向特定 iPhone 机型提供定位内容的功能。
 
-   使用 Mobile SDK 的客户无需执行任何操作即可使用此功能。使用 at.js 的客户必须升级到 at.js 版本 1.5.0。
+  使用 Mobile SDK 的客户无需执行任何操作即可使用此功能。使用 at.js 的客户必须升级到 at.js 版本 1.5.0。
 
-   有关更多信息，请参阅[移动设备](/help/main/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89)。（TNT-26714 和 TNT-28288）
+  有关更多信息，请参阅[移动设备](/help/main/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89)。（TNT-26714 和 TNT-28288）
 
 ### Target 下载 API（2018 年 6 月 5 日） {#section_B8729DA10F18433C8D8E01B04F308ED2}
 
@@ -1994,7 +2027,7 @@ target/r_release-notes-2018.xml
 
 * 现在，拥有“审批者”权限的用户可以生成并启用配置文件 API 身份验证令牌。(TGT-24074)
 
-   有关更多信息，请参阅 [配置文件API设置](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/profile-api-settings.html){target=_blank}.
+  有关更多信息，请参阅 [配置文件API设置](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/profile-api-settings.html){target=_blank}.
 
 * 在可视化体验编辑器中创建活动时，如果用户重新加载页面，则活动 URL 以及关联的属性会保留在 UI 中。如果活动使用的是混合内容（安全内容和不安全内容混合在一起）或存在权限问题，则可能需要重新加载页面。(TGT-28230)
 * 改进了活动使用混合内容（安全内容和不安全内容混合在一起）时显示的消息。消息中提供的信息可帮助用户执行所需的必要步骤，以打开 HTTP 网站或具有混合调用（HTTPS 和 HTTP）的网站。(TGT-26271)
@@ -2174,7 +2207,7 @@ target/r_release-notes-2018.xml
 
 * 改进了用户在创建或编辑活动或选件时发生 [!DNL Target] 会话超时情况的工作流。用户单击“[!UICONTROL 保存]”时，会显示会话过期消息，但重新登录后，会出现一个对话框，告知用户已成功登录，而 UI 会停留在 [!DNL Target] 中的同一页面上，且不会丢失任何数据。
 
-   如果用户在 [!DNL Target] 页面上执行间歇性操作时遇到会话超时情况，则系统会指引用户重新登录，之后会将用户定向到在 [!DNL Target] UI 中处理的最后一个页面。
+  如果用户在 [!DNL Target] 页面上执行间歇性操作时遇到会话超时情况，则系统会指引用户重新登录，之后会将用户定向到在 [!DNL Target] UI 中处理的最后一个页面。
 
 * 修复了当用户离开当前浏览内容（更改体验、切换页面、切换受众或单击“下一步”等等）且忘记保存更改时，导致自定义代码更改丢失的问题。现在，系统会提示用户保存更改。(TGT-23766)
 * 将活动存档后，会显示“已将此活动存档”，而不是“正在更新此活动”。(KB-1517)
@@ -2188,19 +2221,19 @@ target/r_release-notes-2018.xml
 * 现在，Target Standard/Premium 中的报表会以您的帐户所在的时区来显示，而不是以 Target 服务器所在的时区（美国东部标准时间）来显示。(TGT-24868)
 * 如果在 [!DNL Target] 中创建的活动从 [!DNL Target] 外部进行了更新（例如，通过 Adobe I/O），则下列活动属性将会导入到 [!DNL Target] 当中：
 
-   `thirdpartyId`
+  `thirdpartyId`
 
-   `startDate`
+  `startDate`
 
-   `endDate`
+  `endDate`
 
-   `status`
+  `status`
 
-   `priority`
+  `priority`
 
-   `marketingCloudMetadata(remoteModifiedBy)`
+  `marketingCloudMetadata(remoteModifiedBy)`
 
-   此导入作业将在活动页面打开时运行，最长会有 10 分钟延迟。(KB-1526)
+  此导入作业将在活动页面打开时运行，最长会有 10 分钟延迟。(KB-1526)
 
 ### Target Standard/Premium 17.6.2（2017 年 6 月 22 日） {#section_F0372B07B56E454CB048CE79FF56E9CD}
 
@@ -2369,7 +2402,7 @@ target/r_release-notes-2018.xml
 
    * 在报表和活动中，有些选项（“[!UICONTROL 编辑]”、“[!UICONTROL 共享到信息源]”、“[!UICONTROL 查看体验 URL]”等）现在可以通过单击[!UICONTROL 更多选项]图标 (![icon_more_options图像](assets/icon_more_options.png)
 
-      ) 来访问。
+     ) 来访问。
    * 现在，在[!UICONTROL 选件]库中，选件以列表而非卡片形式显示。此外，还在整个[!UICONTROL 选件]库 UI 中进行了其他一些微小的 UI 更改。
 
 * 显著改进了[!UICONTROL 活动]列表和[!UICONTROL 受众]列表的性能。此外，还大大缩短了返回搜索结果的加载时间。
@@ -2406,7 +2439,7 @@ target/r_release-notes-2018.xml
 * 修复了导致“[!UICONTROL 禁用 JavaScript]”选项在多页面活动中无法正常使用的问题。(TGT-15130)
 * 如果您使用基于表单的体验编辑器来编辑 mbox 而不是自动创建全局 mbox (`target-global-mbox`)，然后选择一个参与度量度作为成功量度，则该量度只会在具有活动中所用 mbox 的页面上递增。例如，如果您的 mbox 为 `homepage_mbox`，则“[!UICONTROL 每次访问页数]”量度便是该访问期间对 `homepage_mbox` 进行点击的次数。
 
-   如果这并不是您想要的效果，可以将其他位置添加到活动中，并将全局 mbox 分配到该位置并为其提供默认内容。此解决方法可将全局 mbox 连接到该活动，并允许 Target 计算报表量度。
+  如果这并不是您想要的效果，可以将其他位置添加到活动中，并将全局 mbox 分配到该位置并为其提供默认内容。此解决方法可将全局 mbox 连接到该活动，并允许 Target 计算报表量度。
 
 ### Target 平台更改（2017 年 1 月 18 日） {#section_EA41802B2B24426FBA88D25E17DBE360}
 
@@ -2840,16 +2873,16 @@ Adobe Target Standard/Premium 16.7.1（2016 年 7 月 21 日）版本包括以�
 
 * 相应文档中介绍了“重定向 URL”复选框的预期行为。但是，由于存在错误，该复选框未在默认情况下显示为选中状态。此缺陷将很快得到修复。
 
-   要在包含重定向选件的现有活动中选中此选项，请使用以下解决方法：
+  要在包含重定向选件的现有活动中选中此选项，请使用以下解决方法：
 
    1. 打开“重定向到 URL”弹出窗口。
    1. 将 URL 更改为虚拟 URL，然后进行保存。
    1. 再将该虚拟 URL 更改为营销活动的预期重定向 URL。
    1. 选中“包括当前查询参数”选项，然后进行保存。
 
-   如果您在创建新的重定向选件时选中此选项，则查询参数应会包含在重定向中。
+  如果您在创建新的重定向选件时选中此选项，则查询参数应会包含在重定向中。
 
-   对于之前的活动，如果在活动的体验编辑器中选中此选项，则意味着重定向中会包含查询参数。如果未选中此选项，则重定向中将不会包含当前的查询参数。
+  对于之前的活动，如果在活动的体验编辑器中选中此选项，则意味着重定向中会包含查询参数。如果未选中此选项，则重定向中将不会包含当前的查询参数。
 
 ### Adobe [!DNL Target] Standard/Premium 16.5.1（2016 年 5 月 19 日） {#section_406CE09317994F55A26C2FDB77C77FEA}
 
@@ -2869,7 +2902,7 @@ Adobe Target Standard/Premium 16.5.1（2016 年 5 月 19 日）版本包括以�
   </tr> 
   <tr> 
    <td colname="col1"> QA/预览 URL </td> 
-   <td colname="col2"> <p>现在，可以在基于表单的体验编辑器中使用预览 URL。 </p> <p>请参阅<a href="/help/main/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC" format="dita" scope="local">查看体验 URL</a>。 </p> </td> 
+   <td colname="col2"> <p>现在，可以在基于表单的体验编辑器中使用预览 URL。 </p> <p>请参阅<a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">查看体验 URL</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 推荐自定义算法 </td> 
@@ -2945,14 +2978,14 @@ at.js 包含 target.js 中所包含的组件，因此不再有 target.js 调用�
 * 现在，可以从 Target 界面下载 at.js 版本 0.8.0。
 * Target API 已更改。`applyOffer` 现在需要 `mbox param [0]`。
 
-   ```
-   adobe.target.applyOffer({ 
-       "mbox": "target-global-mbox", 
-    "params": {"test": "true"}, 
-       "selector": ".banner-text", 
-       "offer": offer 
-   });
-   ```
+  ```
+  adobe.target.applyOffer({ 
+      "mbox": "target-global-mbox", 
+   "params": {"test": "true"}, 
+      "selector": ".banner-text", 
+      "offer": offer 
+  });
+  ```
 
 ### Adobe [!DNL Target] Standard/Premium 16.4.1（2016 年 4 月 21 日） {#section_C968860FAB81485BA12BD588F4ECA401}
 

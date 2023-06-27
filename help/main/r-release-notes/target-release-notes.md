@@ -4,7 +4,7 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 1578308c3f374f2d96f6b790111a0914ac973d71
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2023 年 5 月 24 日**
+**上次更新时间：2023 年 6 月 26 日**
 
 >[!NOTE]
 >

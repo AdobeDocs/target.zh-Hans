@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 62d3253a1a5637dc3d1dfca16f582a3d91a2461b
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1215'
 ht-degree: 95%
 
 ---
@@ -141,7 +141,6 @@ ht-degree: 95%
       + [Automated Personalization 中的选件报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
       + [选择用于 Automated Personalization 或自动定位活动的控制](c-activities/t-automated-personalization/experience-as-control.md)
       + [Automated Personalization 常见问题解答](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [用体验预览 URL 预览 Automated Personalization 活动](c-activities/t-automated-personalization/experience-preview.md)
       + [Automated Personalization 疑难解答](c-activities/t-automated-personalization/ap-trouble.md)
    + 体验定位 {#experience-targeting}
       + [体验定位概述](c-activities/t-experience-target/experience-target.md)

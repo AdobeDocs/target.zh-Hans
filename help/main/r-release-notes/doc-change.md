@@ -4,16 +4,24 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f7a23cd485e445a0e9f9c420b42dfca3adb85895
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 99%
+source-wordcount: '1263'
+ht-degree: 95%
 
 ---
 
 # 文档更改
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
+
+## [!DNL Target] Standard/Premium 23.6.1（2023年6月27日至29日）
+
+| 日期 | 主题 | 更改 |
+| --- | --- | --- |
+| 6 月 27 日 | [活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 活动QA现在适用于所有Target活动类型，包括 [!UICONTROL Automated Personalization] (AP)活动。 删除了关于预览链接的信息。 |
+|  | 预览 URL | 由于所有活动类型现在都支持活动QA，因此已删除此主题并将其重定向到 [活动QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 主题。 |
+|  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.6.1 版的发行说明。 |
 
 ## [!DNL Target] Standard/Premium 23.5.1（2023 年 5 月 23-25 日）
 

@@ -5,9 +5,9 @@ title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 95%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
-## [!DNL Target] Standard/Premium 23.6.1（2023年6月27日至29日）
+## [!DNL Target] Standard/Premium 23.6.1（2023 年 6 月 27 日 - 29 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 6 月 27 日 | [活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 活动QA现在适用于所有Target活动类型，包括 [!UICONTROL Automated Personalization] (AP)活动。 删除了关于预览链接的信息。 |
-|  | 预览 URL | 由于所有活动类型现在都支持活动QA，因此已删除此主题并将其重定向到 [活动QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 主题。 |
+| 6 月 27 日 | [活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 活动 QA 现在适用于所有 Target 活动类型，包括 [!UICONTROL Automated Personalization] (AP) 活动。已删除有关预览链接的信息。 |
+|  | 预览 URL | 由于所有活动类型现在都支持活动 QA，因此已删除该主题并已重定向到[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 主题。 |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.6.1 版的发行说明。 |
 
 ## [!DNL Target] Standard/Premium 23.5.1（2023 年 5 月 23-25 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 6 月 26 日 | [适用于移动应用程序的 Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=zh-Hans){target=_blank} | 添加了实施链接 [!DNL Adobe Experience Cloud] 在移动应用程序教程中。 |
+| 6 月 26 日 | [Target 移动版应用程序](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=zh-Hans){target=_blank} | 添加了“在移动应用程序中实施 [!DNL Adobe Experience Cloud]”教程的链接。 |
 | 6 月 12 日 | [Adobe Target Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | 更新了《Experience Cloud 中央界面组件指南》**&#x200B;中解释 [!DNL Target] 使用的 Cookie 的文章。 |
 |  | [初始化 Java SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | 添加了关于“环境”参数的信息。 |
 |  | [初始化 Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | 添加了关于“环境”参数的信息。 |

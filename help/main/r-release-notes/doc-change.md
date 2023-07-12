@@ -5,9 +5,9 @@ title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 05e0c6107d911b5dae8387b4136743ebb92c0e7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1290'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 7 月 10 日 | [注意事项和已知限制](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank} | 已将信息添加到 *Target投放API* 有关HTTP/2强制使用小写标头名称的文档。 |
+| 7 月 10 日 | [注意事项和已知限制](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank} | 将关于 HTTP/2 强制使用小写标头名称的信息添加到“目标投放 API”**&#x200B;文档。 |
 | 6 月 27 日 | [活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 活动 QA 现在适用于所有 Target 活动类型，包括 [!UICONTROL Automated Personalization] (AP) 活动。已删除有关预览链接的信息。 |
 |  | 预览 URL | 由于所有活动类型现在都支持活动 QA，因此已删除该主题并已重定向到[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 主题。 |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.6.1 版的发行说明。 |

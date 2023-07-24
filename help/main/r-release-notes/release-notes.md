@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 81%
 
 ---
 
@@ -19,21 +19,19 @@ ht-degree: 100%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target] Standard/Premium 23.6.1（6 月 27 日 - 29 日）
+## [!DNL Target] Standard/Premium 23.7.1（7月24日至26日）
 
 将按以下交错的时间表发布此版本：
 
-* **6 月 27 日**：欧洲、中东和非洲 (EMEA) 地区
-* **6 月 28 日**：亚太 (APAC) 地区
-* **6 月 29 日**：美洲地区
+* **7月24日**：欧洲、中东和非洲(EMEA)区域
+* **7月25日**：亚太(APAC)区域
+* **7月26日**：美洲区域
 
-此版本包含以下增强功能：
+此版本包含以下增强功能和修复：
 
-| 功能 | 详细信息 |
-|--- |--- |
-| [!UICONTROL Automated Personalization] 活动的 [!UICONTROL QA 模式] | [!DNL Adobe Target] [!UICONTROL QA 模式]现在取代[!UICONTROL 预览链接]功能，可供 [!UICONTROL Automated Personalization] 活动使用。<P>有关更多信息，请参阅[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)。。 |
-
-* 不允许在 [!UICONTROL Automated Personalization] 活动中[管理排除项](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037)的同时使用重复功能，从而增强了性能（包括缩短了加载时间）。
+* 在以下情况下改进了搜索 [使用DOM路径浏览元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 在 [!UICONTROL 可视化体验编辑器] (VEC)以包含阴影DOM元素。 (TGT-45262)
+* 修复了导致无法 [更改叠加](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 设置无法正常工作。 (TGT-45202)
+* 修复了一个问题，该问题阻止某些客户在收到以下错误消息后下载活动报告：“用户无权访问报告。” （TGT-45724 和 TGT-45747）
 
 ## 其他发行说明和版本详细信息
 

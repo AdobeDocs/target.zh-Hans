@@ -4,7 +4,7 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f350479244748db923dfdf5dd3b02c102d08433
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 74%
@@ -36,7 +36,6 @@ ht-degree: 74%
 * 在以下情况下改进了搜索 [使用DOM路径浏览元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 在 [!UICONTROL 可视化体验编辑器] (VEC)以包含阴影DOM元素。 (TGT-45262)
 * 修复了导致无法 [更改叠加](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 设置无法正常工作。 (TGT-45202)
 * 修复了一个问题，该问题阻止某些客户在收到以下错误消息后下载活动报告：“用户无权访问报告。” （TGT-45724 和 TGT-45747）
-
 
 ## 其他发行说明和版本详细信息
 

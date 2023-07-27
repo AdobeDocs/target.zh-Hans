@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 73%
+ht-degree: 89%
 
 ---
 
@@ -21,24 +21,24 @@ ht-degree: 73%
 
 ## [!DNL Adobe Target] Edge计划的基础架构升级 {#edge}
 
-计划的边缘基础架构升级需要将其他IP或域列入允许列表。 查看并允许列出Edge部署的NAT和IP/域41-48。 基础设施升级从2023年8月9日开始。
-”
+计划的边缘基础架构升级要求将其他IP或域列入允许列表。 查看并允许列出边缘部署的NAT和IP/域41-48。 基础设施升级从2023年8月9日开始。
+&quot;
 
 有关更多信息，请参阅 [允许列表Target边缘节点](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hans){target=_blank} 在 *Adobe Target开发人员指南*.
 
-## [!DNL Target] Standard/Premium 23.7.1（7月24日至26日）
+## [!DNL Target] Standard/Premium 23.7.1（7 月 24-26 日）
 
 将按以下交错的时间表发布此版本：
 
-* **7月24日**：欧洲、中东和非洲(EMEA)区域
-* **7月25日**：亚太(APAC)区域
-* **7月26日**：美洲区域
+* **7 月 24 日**：欧洲、中东和非洲 (EMEA) 地区
+* **7 月 25 日**：亚太 (APAC) 地区
+* **7 月 26 日**：美洲地区
 
 此版本包含以下增强功能和修复：
 
-* 在以下情况下改进了搜索 [使用DOM路径浏览元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 在 [!UICONTROL 可视化体验编辑器] (VEC)以包含阴影DOM元素。 (TGT-45262)
-* 修复了导致无法 [更改叠加](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 设置无法正常工作。 (TGT-45202)
-* 修复了一个问题，该问题阻止某些客户在收到以下错误消息后下载活动报告：“用户无权访问报告。” （TGT-45724 和 TGT-45747）
+* 改进了在[使用 DOM 路径](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)在 [!UICONTROL Visual Experience Composer] (VEC) 中导航元素时的搜索功能，以便包含影子 DOM 元素。(TGT-45262)
+* 修复了阻止[更改叠加](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)设置正常工作的问题。(TGT-45202)
+* 修复了一些客户在收到以下错误消息后无法下载活动报告的问题：“用户无权访问报告”。（TGT-45724 和 TGT-45747）
 
 ## 其他发行说明和版本详细信息
 

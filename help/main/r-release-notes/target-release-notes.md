@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -23,19 +23,19 @@ ht-degree: 74%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 23.7.1（7月24日至26日）
+## [!DNL Target] Standard/Premium 23.7.1（7 月 24-26 日）
 
 将按以下交错的时间表发布此版本：
 
-* **7月24日**：欧洲、中东和非洲(EMEA)区域
-* **7月25日**：亚太(APAC)区域
-* **7月26日**：美洲区域
+* **7 月 24 日**：欧洲、中东和非洲 (EMEA) 地区
+* **7 月 25 日**：亚太 (APAC) 地区
+* **7 月 26 日**：美洲地区
 
 此版本包含以下增强功能和修复：
 
-* 在以下情况下改进了搜索 [使用DOM路径浏览元素](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 在 [!UICONTROL 可视化体验编辑器] (VEC)以包含阴影DOM元素。 (TGT-45262)
-* 修复了导致无法 [更改叠加](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 设置无法正常工作。 (TGT-45202)
-* 修复了一个问题，该问题阻止某些客户在收到以下错误消息后下载活动报告：“用户无权访问报告。” （TGT-45724 和 TGT-45747）
+* 改进了在[使用 DOM 路径](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)在 [!UICONTROL Visual Experience Composer] (VEC) 中导航元素时的搜索功能，以便包含影子 DOM 元素。(TGT-45262)
+* 修复了阻止[更改叠加](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)设置正常工作的问题。(TGT-45202)
+* 修复了一些客户在收到以下错误消息后无法下载活动报告的问题：“用户无权访问报告”。（TGT-45724 和 TGT-45747）
 
 ## 其他发行说明和版本详细信息
 

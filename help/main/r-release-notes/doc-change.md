@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 98%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 7 月 25 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#edge) | 添加了关于计划于2023年8月9日进行的边缘基础设施升级的信息。 |
-|  | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hans){target=_blank} | 更新了用于Edge部署的NAT和IP/域41-48。 |
+| 7 月 25 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#edge) | 添加了有关计划于 2023 年 8 月 9 日进行的边缘基础设施升级的信息。 |
+|  | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hans){target=_blank} | 更新了边缘部署 41-48 的 NAT 和 IP/域。 |
 | 7 月 24 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.7.1 版的发行说明。 |
 
 ## [!DNL Target] Standard/Premium 23.6.1（2023 年 6 月 27 日 - 29 日）

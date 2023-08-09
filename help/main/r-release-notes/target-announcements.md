@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
+source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
 workflow-type: tm+mt
-source-wordcount: '2104'
-ht-degree: 100%
+source-wordcount: '2133'
+ht-degree: 94%
 
 ---
 
@@ -15,23 +15,31 @@ ht-degree: 100%
 
 关于 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
 
-## [!UICONTROL Adobe Target 社区]问答咖啡时间活动
-
-关于即将举办的咖啡时间活动的信息：
-
-### 个性化计划就绪网络研讨会后续活动
-
-* **2023 年 6 月 21 日，星期三**
-* **上午 8:00-9:00（PDT，UTC-7）**
-* **[更多信息](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
-
-我们将邀请 Adobe Target 专家 Ramon Cespedes 和 Kevin Jemison 出席。在本次 AMA (Ask Me Anything) 活动中，专家将登录并准备好解答您关于最近在 5 月 24 日举行的[用个性化促进增长的历程](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}网络研讨会上涉及的主题提出的任何问题。
-
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 
 注册参加以下网络研讨会，了解客户如何使用 [!DNL Target] 来实现其个性化和优化目标：
 
-目前没有任何安排。
+### 利用高峰季节就绪性制定策略以最大限度地提高ROI
+
+* **2023 年 8 月 17 日星期四**
+* **上午 8:00-9:00（PDT，UTC-7）**
+* **[请在此处登记](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+
+提供引人入胜的客户体验以提高转化率。 您的企业是否为旺季做好了准备？ 加入我们，获取专家提示，了解如何在这段时间实现最佳性能和最大ROI。
+
++++查看详细信息
+
+加入Adobe客户成功经理John Magnusson和Director的Katherine Klein - MarTech &amp; AdTech Solutions， Macy&#39;s Inc.加入我们，了解对您的旺季准备计划产生显着影响的策略。
+
+主题包括：
+
+* 有效创建功能板和报告关键量度
+* 检查每个营销渠道的影响
+* 深入了解客户行为和购物趋势
+* 识别不良的客户体验并通过测试改进它们
+* 发现促进站点转化的机会领域
+
++++
 
 ## 过去的网络研讨会和技能培训课程录像
 

@@ -6,7 +6,7 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
+source-git-commit: 8ec1e3c483fb9d0f70c4cbf573295ba8a639f103
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
@@ -22,7 +22,7 @@ ht-degree: 100%
 ## [!DNL Adobe Target] 计划的边缘基础设施升级 {#edge}
 
 计划的边缘基础设施升级需要将额外的 IP 或域列入允许列表。检查边缘部署 41-48 的 NAT 和 IP/域并将其列入允许列表。基础设施升级将于 2023 年 8 月 9 日开始。
-&quot;
+
 
 有关更多信息，请参阅 *Adobe Target 开发人员指南*&#x200B;中的[将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hans){target=_blank}。
 

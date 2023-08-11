@@ -5,9 +5,9 @@ title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2133'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,25 +19,25 @@ ht-degree: 94%
 
 注册参加以下网络研讨会，了解客户如何使用 [!DNL Target] 来实现其个性化和优化目标：
 
-### 利用高峰季节就绪性制定策略以最大限度地提高ROI
+### 通过做好旺季准备为获得最大 ROI 影响制定策略
 
 * **2023 年 8 月 17 日星期四**
-* **上午 8:00-9:00（PDT，UTC-7）**
+* 上午 **8:00-9: 时（PDT，UTC-7）**
 * **[请在此处登记](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
 
-提供引人入胜的客户体验以提高转化率。 您的企业是否为旺季做好了准备？ 加入我们，获取专家提示，了解如何在这段时间实现最佳性能和最大ROI。
+营造吸引人的客户体验以提高转化率。您的企业是否准备好迎接旺季？参加我们的活动，获取有关这次如何实现最佳业绩和最大 ROI 的专家提示。
 
 +++查看详细信息
 
-加入Adobe客户成功经理John Magnusson和Director的Katherine Klein - MarTech &amp; AdTech Solutions， Macy&#39;s Inc.加入我们，了解对您的旺季准备计划产生显着影响的策略。
+携手 Adobe 客户成功经理 John Magnusson 和 Macy&#39;s Inc. 的 MarTech &amp; AdTech Solutions 总监 Katherine Klein。加入我们，了解可对您的旺季准备计划产生重大影响的策略。
 
 主题包括：
 
-* 有效创建功能板和报告关键量度
+* 有效地创建仪表板和报告关键指标
 * 检查每个营销渠道的影响
 * 深入了解客户行为和购物趋势
-* 识别不良的客户体验并通过测试改进它们
-* 发现促进站点转化的机会领域
+* 通过测试发现欠佳的客户体验并加以改进
+* 发现各方面促成网站转化的良机
 
 +++
 

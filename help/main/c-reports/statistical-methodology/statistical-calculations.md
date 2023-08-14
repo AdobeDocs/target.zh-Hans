@@ -4,7 +4,7 @@ description: 了解手动使用的统计计算 [!UICONTROL A/B测试] 中的活�
 title: 如何了解中使用的统计计算 [!UICONTROL A/B测试] 活动？
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
+source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 5%
@@ -25,9 +25,9 @@ ht-degree: 5%
 
 下节将说明上图中使用的计算。
 
-### 转化率和每位访客带来的收入(RPV)活动
+### 转化率和每位访客带来的收入(RPV)促销活动
 
-下图显示 [!UICONTROL 转化率]， [!UICONTROL 转化率的置信区间]，和的数量 [!UICONTROL 转化] 在 [!DNL Target] 报告。 例如，第一行代码显示对于体验A： [!UICONTROL 转化率] 为25.81%，带 [!UICONTROL 置信区间] ±7.7%，转化率为32次。 考虑到124位访客查看了体验，这相当于32/124 = 25.81%。
+下图显示 [!UICONTROL 转化率]， [!UICONTROL 转化率的置信区间]，以及的数量 [!UICONTROL 转化] 在 [!DNL Target] 报告。 例如，第一行显示对于体验A： [!UICONTROL 转化率] 为25.81%，使用 [!UICONTROL 置信区间] ±7.7%，转化率为32次。 考虑到有124位访客查看了此体验，则相当于32/124 = 25.81%。
 
 <p style="text-align:center;"><img width="25%" src="img/conv_rate.png"></p>
 
@@ -41,21 +41,21 @@ ht-degree: 5%
 
 * 单位总和 *i* 取决于计数方法的选择。
 
-   * 如果 *[!UICONTROL 访客]* 用作计数方法，每个单位都是独特访客，被定义为活动生命周期中的独特参与者。
-   * 如果 *[!UICONTROL 访问次数]* 用作计数方法，每个单位都是独特访问，其定义为期间体验的唯一参与者。 [!DNL Target] 会话(具有唯一 `sessionId`)。 当 `sessionId` 如果发生更改，或者访客达到转化步骤，则会计为新访问。
+   * 如果 *[!UICONTROL 访客]* 使用作为计数方法，每个单位都是独特访客，定义为活动生命周期中的独特参与者。
+   * 如果 *[!UICONTROL 访问]* 使用作为计数方法，每个单位都是唯一访问，其定义为 [!DNL Target] 会话(具有唯一 `sessionId`)。 当 `sessionId` 如果发生更改，或访客达到转化步骤，则会计为新访问。
    * 如果 *[!UICONTROL 活动展示次数]* 用作计数方法，每个单位都是一个唯一的展示次数，定义为每次访客加载活动的任何页面时。
 
 ## [!UICONTROL 平均值的置信区间]/[!UICONTROL 转化率]
 
-转换率的置信区间直观地定义为与基础数据一致的可能转换率的范围。
+转换率的置信区间被直观地定义为与基础数据一致的可能转换率的范围。
 
-运行实验时，给定体验的转化率为 *预估* “真”转化率的10%。 为量化该估计之不确定因素， [!DNL Target] 使用置信区间。 [!DNL Target] 始终报告95%的置信区间，这意味着最终，计算的95%置信区间将包括体验的真实转化率。
+运行试验时，给定体验的转化率为 *预估* “真实”转化率的10%。 为量化此估计中的不确定因素， [!DNL Target] 使用置信区间。 [!DNL Target] 始终报告95%的置信区间，这意味着最终，计算的95%置信区间将包括体验的真实转化率。
 
 转化率的95%置信区间 *μ<sub>ν</sub>* 定义为值的范围：
 
 <p style="text-align:center;"><img width="30%" src="img/confidence_interval.png"></p>
 
-其中，平均数的标准误差定义为
+其中平均值的标准误差定义为
 
 <p style="text-align:center;"><img width="75px" src="img/se_conv_continuous.png"></p>
 
@@ -63,13 +63,13 @@ ht-degree: 5%
 
 <p style="text-align:center;"><img width="200px" src="img/stdev_definition.png"></p>
 
-如果促销活动是转化率促销活动（即，转化量度是二进制的），则标准误差将减少为：
+如果促销活动是转化率促销活动（即，转化量度是二进制的），则标准错误将减少为：
 
 <p style="text-align:center;"><img width="150px" src="img/se_conv.png"></p>
 
 ## 提升度
 
-下图显示 [!UICONTROL 提升] 和 [!UICONTROL 提升度的置信区间] 在 [!DNL Target] 报告。 数字表示提升度范围的平均值，箭头反映的是提升度是正值还是负值。 箭头以灰色显示，直到置信度超过95%。 置信度超过阈值后，箭头会根据提升度为正值或负值而变为绿色或红色。
+下图显示 [!UICONTROL 提升] 和 [!UICONTROL 提升度的置信区间] 在 [!DNL Target] 报告。 数字表示提升度范围的平均值，箭头反映提升度是正还是负。 箭头以灰色显示，直到置信度超过95%。 置信度超过阈值后，箭头会根据提升度为正值或负值显示为绿色或红色。
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
@@ -77,7 +77,7 @@ ht-degree: 5%
 
 <p style="text-align:center;"><img width="15%" src="img/lift_definition.png"></p>
 
-个别兑换率定义见上文。 更简单地说，
+倘个别兑换率定义见上文。 更简单地说，
 
 ```
 Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performance_Control
@@ -87,7 +87,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 ## [!DNL Confidence Interval of Lift]
 
-中的箱形图 [!UICONTROL 平均提升度和置信区间] 列表示平均值和95% [!UICONTROL 提升度的置信区间]. 当给定非控制体验的置信区间与控制体验的置信区间存在任何重叠时，盒形图呈灰色。 当给定体验的置信区间范围高于或低于控制体验的置信区间时，箱形图呈绿色或红色。
+中的箱形图 [!UICONTROL 平均提升度和置信区间] 列表示平均值和95% [!UICONTROL 提升度的置信区间]. 当给定非控制体验的置信区间与控制体验的置信区间存在任何重叠时，箱形图呈灰色。 当给定体验的置信区间范围高于或低于控制体验的置信区间时，箱形图呈绿色或红色。
 
 体验之间提升的标准误差  *ν*&#x200B;和控制体验  *ν<sub>0</sub>* 定义为：
 
@@ -101,21 +101,21 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 ## [!UICONTROL 置信度]
 
-最后一列显示置信度 [!DNL Target] 报告。 体验的置信度是指在零假设为真的情况下，获得比观察到的结果更少极端的结果的概率（以百分比表示）。 就p值而言，显示的置信度为 *1 - p值*. 直觉上，较高的置信度意味着控制体验和非控制体验具有相等转化率的可能性较小。
+最后一列显示了 [!DNL Target] 报告。 在空假设为真的情况下，体验的置信度是获得极端结果的概率（用百分比表示），就像观察到的结果一样。 就p值而言，显示的置信度为 *1 - p值*. 直觉上，较高的置信度意味着控制体验和非控制体验具有相等转化率的可能性较小。
 
-In [!DNL Target]，双尾 **韦尔奇t检验** 在测试体验和控制体验之间执行，以测试测试手段和控制体验是否相同。 因为通常在试验前不知道两组样本量及方差是否相同，并且 [!DNL Target] 还允许您发送到每个体验的流量百分比不等，我们并不假设每个体验的方差相等。 因此，韦尔奇的t检验被选作学生的t检验。
+在 [!DNL Target]，双尾 **韦尔奇t检验** 将在测试体验和控制体验之间执行，以测试测试手段和控制体验是否相同。 因为通常我们不知道两组样本大小和方差是否相同，在进行实验之前， [!DNL Target] 利用这种方法，如果发送到每个体验的流量百分比不相等，则不会假定每个体验的方差相等。 因此，韦尔奇的t检验被选作学生的t检验。
 
-为了进行Welch的t检验，首先计算t统计量和自由度，然后进行双尾t检验以生成p值。 最后，根据p值计算出置信度。
+为进行Welch的t检验，首先计算t统计量和自由度，然后进行双尾t检验以生成p值。 最后，根据p值计算置信度。
 
-此 *t*-statistic被定义为任意两个独立随机变量均值的差值， *ν* 和 *ν<sub>0</sub>*，除以标准误差之差：
+此 *t*-statistic定义为任意两个独立随机变量均值的差值， *ν* 和 *ν<sub>0</sub>*，除以标准误差之差：
 
 <p style="text-align:center;"><img width="100px" src="img/t_value.png"></p>
 
-位置 *μ<sub>v</sub>* 和 *μ<sub>v0</sub>* 是手段 *ν*  和 *ν<sub>0</sub>* 分别给出了和标准误差之间的差值 *μ<sub>v</sub>* 和 *μ<sub>v0</sub>* 提供者：
+位置 *μ<sub>v</sub>* 和 *μ<sub>v0</sub>* 是手段 *ν*  和 *ν<sub>0</sub>* 分别用标准误差法和标准误差法求得PSD与PSD *μ<sub>v</sub>* 和 *μ<sub>v0</sub>* 由以下人员提供：
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-位置 *σ<sup>2</sup><sub>v</sub>* 和 *σ<sup>2</sup><sub>v<sub>0</sub></sub>* 是两种体验的差异 *ν*  和 *ν<sub>0</sub>* 分别，和 *N<sub>v</sub>* 和 *N<sub>v<sub>0</sub></sub>* 的样本大小 *ν* 和 *ν<sub>0</sub>* 的量度。
+位置 *σ<sup>2</sup><sub>v</sub>* 和 *σ<sup>2</sup><sub>v<sub>0</sub></sub>* 是两个体验之间的差异 *ν*  和 *ν<sub>0</sub>* 分别，和 *N<sub>v</sub>* 和 *N<sub>v<sub>0</sub></sub>* 的样本大小 *ν* 和 *ν<sub>0</sub>* 的量度。
 
 对于Welch的t检验，自由度计算如下：
 
@@ -131,7 +131,7 @@ In [!DNL Target]，双尾 **韦尔奇t检验** 在测试体验和控制体验之
 
 <p style="text-align:center;"><img width="20%" src="img/p_value.png"></p>
 
-最后，置信度报告于 [!DNL Target] 定义为：
+最后，还报告了 [!DNL Target] 定义为：
 
 <p style="text-align:center;"><img width="20%" src="img/confidence.png"></p>
 

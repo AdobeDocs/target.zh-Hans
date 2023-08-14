@@ -1,19 +1,19 @@
 ---
 keywords: 内容;资产;管理内容;选件;管理资产;进入选择模式;选择模式
-description: 了解如何使用Adobe Target中的选件库管理代码和图像选件。
+description: 了解如何使用Adobe Target中的选件库来管理代码和图像选件。
 title: 如何管理代码和图像选件？
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: be59e8ccbf12f7b3cc42becc36a8b3c7474f2f9e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 37%
+source-wordcount: '574'
+ht-degree: 36%
 
 ---
 
 # 选件
 
-使用 [!UICONTROL 选件] 库位置 [!DNL Adobe Target] 以管理代码选件和图像选件内容。
+使用 [!UICONTROL 选件] 库位于 [!DNL Adobe Target] 以管理代码选件和图像选件内容。
 
 1. 单击&#x200B;**[!UICONTROL 选件]**&#x200B;可打开选件库。
 
@@ -23,11 +23,11 @@ ht-degree: 37%
 
    ![“选件”页面显示“代码选件”和“图像选件”选项卡](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
 
-1. （可选）单击 **[!UICONTROL 类型]** 下拉列表，可按类型筛选选件(HTML选件， [体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， [重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect.md)， [远程选件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)， [JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md)、和 [文件夹](/help/main/c-experiences/c-manage-content/create-content-folder.md))。
+1. （可选）单击 **[!UICONTROL 类型]** 下拉列表，可按类型过滤选件(HTML选件， [体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， [重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect.md)， [远程选件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)， [json选件](/help/main/c-experiences/c-manage-content/create-json-offer.md)、和 [文件夹](/help/main/c-experiences/c-manage-content/create-content-folder.md))。
 
    ![offers_filter图像](assets/offers_filter.png)
 
-1. （可选）单击 **[!UICONTROL 来源]** 下拉列表，用于按源(Adobe Target、Adobe Target Classic和Adobe Experience Manager)筛选选件。
+1. （可选）单击 **[!UICONTROL 来源]** 下拉列表，可按源(Adobe Target、Adobe Target Classic和Adobe Experience Manager)过滤选件。
 
 1. （可选）将鼠标悬停在 [!UICONTROL 代码选件] 选项卡，然后单击所需的图标。
 
@@ -35,7 +35,7 @@ ht-degree: 37%
 
    选项包括：
 
-   * 查看(有关更多信息，请参阅 [查看选件定义](#section_6B059DD121434E6292CAB393507D010E) 下面的。)
+   * 查看(有关更多信息，请参阅 [查看选件定义](#section_6B059DD121434E6292CAB393507D010E) 下。)
    * 编辑
    * 复制
    * 移动(例如，要将一个或多个项目移动到文件夹中，请单击 **[!UICONTROL 移动]** 图标，单击所需的文件夹，然后单击 **[!UICONTROL 放置]**.)
@@ -43,9 +43,9 @@ ht-degree: 37%
 
    根据您的权限，您可能不会看到所有选项的图标。 例如，用户具有 [!UICONTROL 观察者] 权限无权使用 [!UICONTROL 复制] 选项。
 
-   有关可对选件和文件夹执行的任务的详细信息，请参阅 [使用资产库中的内容](/help/main/c-experiences/c-manage-content/assets-working.md).
+   有关可对选件和文件夹执行的任务的详细信息，请参阅 [处理资产库中的内容](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-1. （可选）将鼠标悬停在 [!UICONTROL 图像选件] 选项卡，然后单击所需的图标。
+1. （可选）将鼠标悬停在页面上所需的图像选件或文件夹上，以执行其他任务。 [!UICONTROL 图像选件] 选项卡，然后单击所需的图标。
 
    ![图像选件选项](/help/main/c-experiences/c-manage-content/assets/image-offers-icons.png)
 
@@ -58,13 +58,18 @@ ht-degree: 37%
    * 注释
    * 复制
 
-   有关可对选件和文件夹执行的任务的详细信息，请参阅 [使用资产库中的内容](/help/main/c-experiences/c-manage-content/assets-working.md).
+   有关可对选件和文件夹执行的任务的详细信息，请参阅 [处理资产库中的内容](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+   >[!NOTE]
+   >
+   >图像选件不属于 [企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 模型。
+
 
 ## 查看选件定义 {#section_6B059DD121434E6292CAB393507D010E}
 
-您可以在中的弹出信息卡上查看优惠定义详细信息 [!UICONTROL 选件] 库，而不打开选件。
+您可以在中的弹出卡片上查看优惠定义详细信息 [!UICONTROL 选件] 库，而不打开选件。
 
-例如，通过将鼠标悬停在上方的选件上，访问HTML选件的以下选件定义卡 [!UICONTROL 内容] 列表，然后单击信息图标：
+例如，通过将鼠标悬停在上的选件上，访问HTML选件的以下选件定义卡 [!UICONTROL 内容] 列表，然后单击信息图标：
 
 ![offer-card-html图像](assets/offer-card-html.png)
 
@@ -83,7 +88,7 @@ ht-degree: 37%
 
 下面是一个重定向选件的定义卡片：
 
-![选件卡重定向图像](assets/offer-card-redirect.png)
+![offer-card-redirect图像](assets/offer-card-redirect.png)
 
 其中提供了以下信息：
 
@@ -99,7 +104,7 @@ ht-degree: 37%
 
 下面是一个远程选件的定义卡片：
 
-![offer-card-remote图像](assets/offer-card-remote.png)
+![优惠卡远程图像](assets/offer-card-remote.png)
 
 其中提供了以下信息：
 

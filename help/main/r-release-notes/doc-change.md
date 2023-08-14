@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
+source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 99%
+source-wordcount: '1561'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 8 月 14 日 | [活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 添加了信息来阐明，在您的网站上加载具有空值的页面可以 *非* 在at.js 2.*x* 已部署。 |
+|  | [A/Bn 测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 更新了“置信度”的定义。 |
+|  | [选件](/help/main/c-experiences/c-manage-content/manage-content.md) | 添加了注释来说明图像选件不属于 [!UICONTROL 企业用户权限] 模型。 |
+| 8 月 9 日 | [Target 移动版预览](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | 为主题更新了关于 [!DNL Adobe Experience Platform Mobile SDK] 当前版本的信息。 |
 | 8 月 9 日 | [Target 移动版预览](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | 为主题更新了关于 [!DNL Adobe Experience Platform Mobile SDK] 当前版本的信息。 |
 |  | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于安排在 2023 年 8 月 17 日举行的以下网络研讨会的信息：*通过做好旺季准备为获得最大 ROI 影响制定策略*。 |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.8.1 版的发行说明。 |
@@ -27,7 +31,6 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 8 月 9 日 | [Target 移动版预览](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | 为主题更新了关于 [!DNL Adobe Experience Platform Mobile SDK] 当前版本的信息。 |
 |  | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于安排在 2023 年 8 月 17 日举行的以下网络研讨会的信息：*通过做好旺季准备为获得最大 ROI 影响制定策略*。 |
 | 8 月 7 日 | [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 澄清了有关 at.js 支持版本的信息。 |
 | 7 月 25 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#edge) | 添加了有关计划于 2023 年 8 月 9 日进行的边缘基础设施升级的信息。 |

@@ -4,10 +4,10 @@ description: 了解如何使用Adobe [!DNL Target] QA URL来执行简单的端�
 title: 如何QA活动？
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 38aba1e137065c0e60ab82f80ddba41086887bf8
+source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
 workflow-type: tm+mt
-source-wordcount: '1762'
-ht-degree: 35%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,6 +59,20 @@ ht-degree: 35%
 
 1. 要查看从活动链接URL生成的报表，请单击活动的 **[!UICONTROL 报表]** 页面上，单击 **[!UICONTROL 设置]** 图标(  ![icon_gear图像](assets/icon_gear.png) )，然后选择 **[!UICONTROL QA模式流量]** 从 **[!UICONTROL 环境]** 下拉列表。
 
+## 正在从QA模式中释放您自己
+
+[!UICONTROL 活动QA] 有粘性。 在中浏览网站之后 [!UICONTROL 活动QA]，您的 [!DNL Target] 会话必须过期或您必须拥有 [!DNL Target] 从以下位置释放您 [!UICONTROL 活动QA] 以典型访客身份查看您的网站之前。
+
+* **at.js 2.*x***：如果您的网站具有at.js 2.*x* 已部署，请使用 [Target QA书签](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 强迫自己离开 [!UICONTROL 活动QA]. 在网站上加载具有空值的页面时（如下一个项目符号所述），会 *非* 在at.js 2.*x* 已部署。
+
+* **at.js 1.*x***：如果您的网站具有at.js 1.*x* 已部署，除了使用 [Target QA书签](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)，您也可以手动强制自己退出该模式，方法是在网站上使用 `at_preview_token` 具有空值的参数。 例如：
+
+  `https://www.mysite.com/?at_preview_token=`
+
+* **[!DNL Adobe Experience Platform Web SDK]**：如果您的网站具有 [[!UICONTROL 平台Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 部署后，您可以通过以下方式手动强制自己退出该模式：在网站上加载页面，其中 `at_qa_mode` 具有空值的参数。 例如：
+
+  `https://www.mysite.com/?at_qa_mode=`
+
 ## 注意事项 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * 因为活动QA现在对所有人可用 [!DNL Target] 活动类型后，“使用体验预览URL预览Automated Personalization活动”功能便不再需要。
@@ -67,18 +81,6 @@ ht-degree: 35%
 * [!UICONTROL “活动 QA”不会显示已存档活动或已过期活动的内容。]如果停用已结束的活动，则必须再次保存该活动 [!UICONTROL 活动QA] 去工作。
 * 活动已导入到 [!DNL Target Standard/Premium] (从 [!DNL Target Classic]例如)不支持QA URL。
 * 在 [!UICONTROL 自动分配] 和 [!UICONTROL Recommendations] 活动，则模型不受中捕获的访问的影响 [!UICONTROL 活动QA].
-* [!UICONTROL 活动QA] 有粘性。 在中浏览网站之后 [!UICONTROL 活动QA]，您的 [!DNL Target] 会话必须过期或您必须拥有 [!DNL Target] 从以下位置释放您 [!UICONTROL 活动QA] 以典型访客身份查看您的网站之前。
-
-   * **at.js 2.*x***：如果您的网站具有at.js 2.*x* 已部署，请使用 [Target QA书签](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 强迫自己离开 [!UICONTROL 活动QA]. 在网站上加载具有空值的页面时（如下一个项目符号所述），会 *非* 在at.js 2.*x* 已部署。
-
-   * **at.js 1.*x***：如果您的网站具有at.js 1.*x* 已部署，除了使用 [Target QA书签](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)，您也可以手动强制自己退出该模式，方法是在网站上使用 `at_preview_token` 具有空值的参数。 例如：
-
-     `https://www.mysite.com/?at_preview_token=`
-
-   * **[!DNL Adobe Experience Platform Web SDK]**：如果您的网站具有 [[!UICONTROL 平台Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 部署后，您可以通过以下方式手动强制自己退出该模式：在网站上加载页面，其中 `at_qa_mode` 具有空值的参数。 例如：
-
-     `https://www.mysite.com/?at_qa_mode=`
-
 * 如果您在创建活动时指定了“URL is” [基于表单的编辑器中的细化](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 或 [可视化体验编辑器中的页面交付选项)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)， QA URL不起作用，因为 [!UICONTROL 活动QA] 附加URL参数。 要解决此问题，请单击 QA URL 以转到您的网站，并从该 URL 中删除附加的参数，然后再加载新的 URL。
 * 如果您有at.js 1.*x*， [!UICONTROL 活动QA] 如果您使用Safari或其他阻止第三方Cookie的浏览器，则模式无粘性。 在这些情况下，您必须将预览参数添加到您导航到的每个URL。 如果您已实施，则同样如此 [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * 如果活动使用多个体验受众（例如，同一活动中同时包含一个美国网站和一个英国网站），则不会为这四种组合（体验A/美国网站、体验A/英国网站、体验B/美国网站、体验B/英国网站）生成QA链接。 而是只会创建两个 QA 链接（体验 A 和体验 B），且用户必须符合相应受众条件才能看到相应的页面。英国QA人员看不到美国网站。

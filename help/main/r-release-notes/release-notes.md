@@ -7,9 +7,9 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -24,17 +24,17 @@ ht-degree: 75%
 计划的边缘基础设施升级需要将额外的 IP 或域列入允许列表。检查边缘部署 41-48 的 NAT 和 IP/域并将其列入允许列表。基础设施升级将于 2023 年 8 月 9 日开始。
 
 
-有关更多信息，请参阅 *Adobe Target 开发人员指南*&#x200B;中的[将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hans){target=_blank}。
+有关更多信息，请参阅《Adobe Target 开发人员指南》**&#x200B;中的[将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hans){target=_blank}。
 
-## [!DNL Target] Standard/Premium 23.8.1（2023年8月9日）
+## [!DNL Target] Standard/Premium 23.8.1（2023 年 8 月 9 日）
 
-此版本包含以下增强功能和修复：
+此版本包含以下增强和修复：
 
-* 修复了有时会阻止活动正确同步的问题，如“[!UICONTROL 状态]“”列 [!UICONTROL 活动] 列表页面。 （TGT-46010 和 TGT-44831）
-* 修复了有时会阻止“”的问题[!UICONTROL 在Analytics中查看]”链接显示于 [!UICONTROL 报表] 使用的活动页面 [!UICONTROL 目标分析] (A4T)作为报表源。 (TGT-45808)
-* 调整了表中值的显示方式，使其显示为百分比而非带小数的数字。 例如，8%而不是。08。 (TGT-45548)
-* 修复了阻止客户使用键盘焦点移动到中的下一个元素的问题。 [!UICONTROL 目标和设置] 第页对象 [!UICONTROL 体验定位] (XT)活动。 (TGT-44526)
-* 修复了在打开&#39;&#39;后导致键盘失去焦点的问题[!UICONTROL 添加受众]创建活动时显示的“ ”对话框。 (TGT-44525)
+* 修复了一个问题，该问题有时导致活动无法正确同步，如[!UICONTROL 活动]列表页面上的[!UICONTROL 状态]栏中所示。（TGT-46010 和 TGT-44831）
+* 修复了一个问题，该问题有时导致无法在使用 [!UICONTROL Analytics for Target] (A4T) 作为报告源的活动的[!UICONTROL 报告]页面上显示“[!UICONTROL 在 Analytics 中查看]”链接。(TGT-45808)
+* 调整了表格中值的显示方式，改为显示百分比，而非带小数的数字。例如，8% 而非 .08。(TGT-45548)
+* 修复了一个问题，该问题导致客户无法使用键盘焦点在[!UICONTROL 体验定位] (XT) 活动的[!UICONTROL 目标和设置]页面中移至下一个元素。(TGT-44526)
+* 修复了一个问题，该问题导致在创建活动时打开“[!UICONTROL 添加受众]”对话框后键盘失去焦点。(TGT-44525)
 
 ## 其他发行说明和版本详细信息
 

@@ -5,9 +5,9 @@ title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强�
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 63%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 23.8.1（2023年8月9日）
+## [!DNL Target] Standard/Premium 23.8.1（2023 年 8 月 9 日）
 
-此版本包含以下增强功能和修复：
+此版本包含以下增强和修复：
 
-* 修复了有时会阻止活动正确同步的问题，如“[!UICONTROL 状态]“”列 [!UICONTROL 活动] 列表页面。 （TGT-46010 和 TGT-44831）
-* 修复了有时会阻止“”的问题[!UICONTROL 在Analytics中查看]”链接显示于 [!UICONTROL 报表] 使用的活动页面 [!UICONTROL 目标分析] (A4T)作为报表源。 (TGT-45808)
-* 调整了表中值的显示方式，使其显示为百分比而非带小数的数字。 例如，8%而不是。08。 (TGT-45548)
-* 修复了阻止客户使用键盘焦点移动到中的下一个元素的问题。 [!UICONTROL 目标和设置] 第页对象 [!UICONTROL 体验定位] (XT)活动。 (TGT-44526)
-* 修复了在打开&#39;&#39;后导致键盘失去焦点的问题[!UICONTROL 添加受众]创建活动时显示的“ ”对话框。 (TGT-44525)
+* 修复了一个问题，该问题有时导致活动无法正确同步，如[!UICONTROL 活动]列表页面上的[!UICONTROL 状态]栏中所示。（TGT-46010 和 TGT-44831）
+* 修复了一个问题，该问题有时导致无法在使用 [!UICONTROL Analytics for Target] (A4T) 作为报告源的活动的[!UICONTROL 报告]页面上显示“[!UICONTROL 在 Analytics 中查看]”链接。(TGT-45808)
+* 调整了表格中值的显示方式，改为显示百分比，而非带小数的数字。例如，8% 而非 .08。(TGT-45548)
+* 修复了一个问题，该问题导致客户无法使用键盘焦点在[!UICONTROL 体验定位] (XT) 活动的[!UICONTROL 目标和设置]页面中移至下一个元素。(TGT-44526)
+* 修复了一个问题，该问题导致在创建活动时打开“[!UICONTROL 添加受众]”对话框后键盘失去焦点。(TGT-44525)
 
 ## 其他发行说明和版本详细信息
 

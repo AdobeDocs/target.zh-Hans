@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e431581a43d0b6f90542413b085d18f4adbc9bbf
+source-git-commit: d9179911a9f6cb2eca242822669e2374aebeb970
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1665'
 ht-degree: 94%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 94%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 8 月 29 日 | S[设备上决策支持的功能](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | 添加了使用设备上决策(ODD)时支持进行定位的地理属性列表。 |
-|  | [设备上决策概述](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | 添加了使用设备上决策(ODD)时支持进行定位的地理属性列表。 |
+| 8 月 29 日 | [设备上决策支持的功能](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | 添加了使用设备上决策(ODD)客户端时支持进行定位的地理属性列表。 |
+|  | [设备上决策概述](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | 添加了使用设备上决策(ODD)服务器端时支持进行定位的地理属性列表。 |
 |  | [在具有Web视图的本机应用程序中通过AEP Mobile SDK实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | 新文章。 |
 |  | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于即将举办的Adobe Target社区喝咖啡休息时间（2023年8月30日）的信息：“准备高峰季节时制定最大ROI影响的战略”网络研讨会跟进。 |
 | 8 月 14 日 | [活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 添加了信息，阐明在 at.js 2 时，使用空值加载网站上的页面&#x200B;*不会*&#x200B;从浏览器中删除 QA cookie。*x* 已部署。 |

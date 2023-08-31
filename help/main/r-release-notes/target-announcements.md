@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
-workflow-type: ht
-source-wordcount: '2133'
-ht-degree: 100%
+source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
+workflow-type: tm+mt
+source-wordcount: '2241'
+ht-degree: 95%
 
 ---
 
@@ -15,15 +15,38 @@ ht-degree: 100%
 
 关于 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
 
+## [!DNL Adobe Target] 社区问答喝咖啡休息时间（2023年8月30日）
+
+* **主题：“通过为高峰季节准备工作制定最大ROI影响的战略”网络研讨会跟进**
+* **2023 年 8 月 30 日星期三**
+* 上午 **8:00-9: 时（PDT，UTC-7）**
+* **[请在此处登记](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
+
+[!DNL Adobe Target] 专家John Magnusson和John Mosbaugh将在此随时询问活动中回答您与“高峰季节就绪性实现最大ROI影响的战略”网络研讨会（2023年8月17日）中涵盖的主题相关的问题。
+
++++查看详细信息
+
+主题包括：
+
+* 如何有效地创建功能板和报告关键量度
+* 检查每个营销渠道的影响
+* 深入了解客户行为和购物趋势
+* 识别不良客户体验并通过测试改进它们
+* 发现推动站点转化的机会领域
+
++++
+
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 
 注册参加以下网络研讨会，了解客户如何使用 [!DNL Target] 来实现其个性化和优化目标：
 
-### 通过做好旺季准备为获得最大 ROI 影响制定策略
+目前没有任何安排。
 
-* **2023 年 8 月 17 日星期四**
-* 上午 **8:00-9: 时（PDT，UTC-7）**
-* **[请在此处登记](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+## 过去的网络研讨会和技能培训课程录像
+
+访问以往活动的录像（如果可用）：
+
+### 通过做好旺季准备为获得最大 ROI 影响制定策略
 
 营造吸引人的客户体验以提高转化率。您的企业是否准备好迎接旺季？参加我们的活动，获取有关这次如何实现最佳业绩和最大 ROI 的专家提示。
 
@@ -40,10 +63,6 @@ ht-degree: 100%
 * 发现各方面促成网站转化的良机
 
 +++
-
-## 过去的网络研讨会和技能培训课程录像
-
-访问以往活动的录像（如果可用）：
 
 ### 针对经身份验证的环境的移动体验优化和个性化（2023 年 4 月 26 日）
 

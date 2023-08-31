@@ -5,28 +5,25 @@ title: 什么是 [!DNL Adobe Customer Journey Analytics] 对象 [!DNL Target] (C
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: ea113d1e4df68868bd9512b098ee6b17335a3e1c
+source-git-commit: 13c899b656d9f15e7368d981ac25540c46caccb2
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 15%
+source-wordcount: '919'
+ht-degree: 12%
 
 ---
 
 # [!DNL Adobe Customer Journey Analytics] 作为的报表源 [!DNL Adobe Target] (CJA4T)
 
-[!DNL Customer Journey Analytics for Target] (CJA4T)是一种跨解决方案的集成，通过它，可根据以下内容创建活动 [Customer Journey Analytics(CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} 转化量度。 CJA4T集成允许您使用 [!DNL Customer Journey Analytics] 报告以检查您的结果。 如果您使用 [!DNL Customer Journey Analytics] 作为活动的报表源，该活动的所有报表均基于 [!DNL Customer Journey Analytics] 数据收集。
+此 [!DNL Customer Journey Analytics for Target] (CJA4T)集成介于 [Adobe Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} 和 [!DNL Target] 为您的优化项目提供功能强大的分析和省时的工具。
 
-## 概述
-
-[!DNL Customer Journey Analytics] 与 [!DNL Target] 之间形成的 [!DNL Customer Journey Analytics for Target] 集成为优化项目提供强大而又节省时间的分析工具。
-
-在 [!DNL Target] 中使用 [!DNL Customer Journey Analytics] 数据的三个主要优势包括：
+使用的主要优势 [!DNL Customer Journey Analytics] 数据输入 [!DNL Target] 为：
 
 * 营销人员可以动态应用 [!DNL Customer Journey Analytics] 成功量度 [!DNL Target] 随时报告活动。 在运行活动之前不需要指定各项内容。
 * 单个数据源可最大限度地减少在两个单独系统中收集数据时发生的差异。
-* 您现有的 [!DNL Customer Journey Analytics] 实施收集所有必需的数据。 无需专为收集报表数据而在页面上实施 mbox。
 
-在考虑使用CJA4T时，请记住以下几点：
+## 注意事项
+
+在使用CJA4T集成之前，请考虑以下信息：
 
 * 要使用 [!DNL Customer Journey Analytics] 作为 [!DNL Target] 的报表源，您和您的公司必须均可以访问 [!DNL Customer Journey Analytics] 和 [!DNL Target]。如果您需要访问任一解决方案，请联系贵组织的管理员或帐户代表。
 * 创建 [!DNL Target] 活动 [!DNL Customer Journey Analytics] 报表，您必须具有“[!UICONTROL 审批者]”或&#39;[!UICONTROL 编辑者]中的“ ”角色 [!DNL Target].
@@ -37,12 +34,12 @@ ht-degree: 15%
 * 使用一个报表源或另一个。您无法收集单个活动的数据到多个报表源。
 * 当您设置 [!DNL Customer Journey Analytics] 作为报表源，系统会提示您为报表指定沙盒。 在配置过程中，您只会看到您有权访问的沙盒。
 * 任何现有 [!DNL Target] 活动继续使用 [!DNL Target] 数据收集不受启用CJA4T的影响。
-* CJA4T仅在以下情况下可用： [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. 计划将来支持Analytics Data Connector。
-* 有关时间的任何问题，请参阅 [延迟注意事项](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=en#latency){target=_blank} 在 *常见问题解答* 在 *AdobeCustomer Analytics指南*.
+* CJA4T仅在以下情况下可用： [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. 支持 [!DNL Analytics Data Connector] 已规划为未来使用。
+* 有关时间的任何问题，请参见 [延迟注意事项](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#latency){target=_blank} 在 *常见问题解答* 在 *AdobeCustomer Analytics指南*.
 
-## 支持的活动类型
+## 支持的活动类型 {#supported-activities}
 
-使用时，支持以下活动类型 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} or [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}：
+使用时，支持以下活动类型 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} or the [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} JavaScript库：
 
 | 活动类型 | 是否与CJA4T兼容？ |
 |--- |--- |
@@ -58,7 +55,7 @@ ht-degree: 15%
 
 创建 [!DNL Target] 使用的活动 [!DNL Customer Journey Analytics] 因为报表源类似于设置常规 [!DNL Target] 活动。
 
-1. 从 **[!UICONTROL 活动]** 列表，单击 **[!UICONTROL 创建活动]**，然后选择活动类型（根据上面支持的活动图表）并开始设置活动。
+1. 从 **[!UICONTROL 活动]** 列表，单击 **[!UICONTROL 创建活动]**，然后选择活动类型(根据 [上图支持的活动图](#supported-activities))，并开始设置活动。
 1. 当您到达 **[!UICONTROL 目标和设置]** 在三步活动创建工作流的页面中，选择 **[!DNL Customer Journey Analytics]** 作为报表源。
 
    ![“Customer Journey Analytics为报表源”选项](/help/main/c-integrating-target-with-mac/cja4t/assets/cja-as-reporting-source.png)
@@ -75,7 +72,7 @@ ht-degree: 15%
 
 1. 指定活动目标。
 
-   您需要选择一个成功量度以用作每个活动的目标。 您可以选择以下选项之一 [!DNL Target] 转化量度或使用 [!DNL Customer Journey Analytics] 量度。
+   选择一个成功量度以用作每个活动的目标。 您可以选择以下选项之一 [!DNL Target] 转化量度或使用 [!DNL Customer Journey Analytics] 量度。
 
    ![使用“目标指标”下的“Customer Journey Analytics指标”选项](/help/main/c-integrating-target-with-mac/cja4t/assets/goal-metric.png)
 
@@ -99,7 +96,7 @@ ht-degree: 15%
 
    有关更多信息，请参阅 [添加和配置数据集](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=en#add-dataset){target=_blank} 在 *创建连接* 在 *Adobe Customer Journey Analytics指南*.
 
-1. 将查找数据集的Key字段配置为“key”，并将Matching key字段配置为以下路径：
+1. 使用配置查找数据集 [!UICONTROL 键] 字段作为“key”，匹配键字段具有以下路径：
 
    ```
    _experience.decisioning.propositions.scopeDetails.correlationID

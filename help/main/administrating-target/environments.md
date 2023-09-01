@@ -5,9 +5,9 @@ title: 什么是环境？如何使用环境？
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
+source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '706'
 ht-degree: 56%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 56%
 >
 >[!DNL Recommendations]如果主机变换主机组，则 用户必须重建自己的行为数据库和产品数据库。
 >
->如果您指定 [Adobe Experience Platform数据流中的默认环境](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}，此环境将覆盖中的设置 [!DNL Target Recommendations].
+>如果您指定 [中的默认环境 [!DNL Adobe Experience Platform] 数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}，此设置将覆盖中的设置 [!DNL Target].
 
 ## 更改环境的名称 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

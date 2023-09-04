@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
-workflow-type: ht
-source-wordcount: '326'
-ht-degree: 100%
+source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 56%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2023 年 8 月 9 日**
+**上次更新日期：2023 年 9 月 4 日**
 
 >[!NOTE]
 >
@@ -23,15 +23,24 @@ ht-degree: 100%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 23.8.1（2023 年 8 月 9 日）
+## [!DNL Target] Standard/Premium 23.9.1（2023年9月6日至11日）
+
+将按以下交错的时间表发布此版本：
+
+* **9 月 6 日**：美洲区域
+* **9 月 7 日**：欧洲、中东和非洲 (EMEA) 区域
+* **9 月 11 日**：亚太 (APAC) 区域
 
 此版本包含以下增强和修复：
 
-* 修复了一个问题，该问题有时导致活动无法正确同步，如[!UICONTROL 活动]列表页面上的[!UICONTROL 状态]栏中所示。（TGT-46010 和 TGT-44831）
-* 修复了一个问题，该问题有时导致无法在使用 [!UICONTROL Analytics for Target] (A4T) 作为报告源的活动的[!UICONTROL 报告]页面上显示“[!UICONTROL 在 Analytics 中查看]”链接。(TGT-45808)
-* 调整了表格中值的显示方式，改为显示百分比，而非带小数的数字。例如，8% 而非 .08。(TGT-45548)
-* 修复了一个问题，该问题导致客户无法使用键盘焦点在[!UICONTROL 体验定位] (XT) 活动的[!UICONTROL 目标和设置]页面中移至下一个元素。(TGT-44526)
-* 修复了一个问题，该问题导致在创建活动时打开“[!UICONTROL 添加受众]”对话框后键盘失去焦点。(TGT-44525)
+* 修复了导致中报表数据不一致的问题 [!DNL Target] UI和 [!DNL Adobe Analytics] 的UI [!UICONTROL 自动分配] 使用的活动 [!UICONTROL 目标分析] (A4T)作为报表源。 (TGT-46112)
+* 将Target投放API的PUT调用超时增加到15秒，以避免超时错误。 (TGT-46091)
+* 修复了在以下各项之间切换时显示错误报表名称的问题 [!UICONTROL 表格视图] 和 [!UICONTROL 自动化区段] 和 [!UICONTROL 重要属性] 报表。 (TGT-46040)
+* 增强了 [!UICONTROL 可视化体验编辑器] (VEC)支持Lightning DOM（Web组件）。 (TGT-45422)
+* 修复了导致VEC操作应用顺序不正确的问题。 在某些情况下，VEC异步应用了一些修改，如果某个元素在 [!UICONTROL 插入] 操作。 (TGT-45983)
+* 添加了在VEC中指定CSS选择器的功能。 （TGT-45958 和 TGT-46017）
+* 修复了在VEC中打开单页应用程序(SPA)页面，然后转到“浏览”模式时导致“后退”和“前进”箭头无法正常运行的问题。 (TGT-45956)
+* 修复了在浏览单页应用程序(SPA)网站时阻止URL一致更新的问题。 (TGT-45417)
 
 ## 其他发行说明和版本详细信息
 

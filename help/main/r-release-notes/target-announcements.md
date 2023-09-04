@@ -5,9 +5,9 @@ title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2241'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,24 +15,24 @@ ht-degree: 95%
 
 关于 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
 
-## [!DNL Adobe Target] 社区问答喝咖啡休息时间（2023年8月30日）
+## [!DNL Adobe Target] 社区问答茶歇时间活动（2023 年 8 月 30 日）
 
-* **主题：“通过为高峰季节准备工作制定最大ROI影响的战略”网络研讨会跟进**
+* **主题：“通过做好旺季准备为获得最大 ROI 影响制定策略”网络研讨会后续活动**
 * **2023 年 8 月 30 日星期三**
 * 上午 **8:00-9: 时（PDT，UTC-7）**
 * **[请在此处登记](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
 
-[!DNL Adobe Target] 专家John Magnusson和John Mosbaugh将在此随时询问活动中回答您与“高峰季节就绪性实现最大ROI影响的战略”网络研讨会（2023年8月17日）中涵盖的主题相关的问题。
+[!DNL Adobe Target] 专家 John Magnusson 和 John Mosbaugh 将参加本次 Ask Me Anything 活动，解答您对“通过做好旺季准备为获得最大 ROI 影响制定策略”网络研讨会（2023 年 8 月 17 日）中所涵盖主题相关的问题。
 
 +++查看详细信息
 
 主题包括：
 
-* 如何有效地创建功能板和报告关键量度
+* 如何高效地创建仪表板和报告关键量度
 * 检查每个营销渠道的影响
 * 深入了解客户行为和购物趋势
-* 识别不良客户体验并通过测试改进它们
-* 发现推动站点转化的机会领域
+* 通过测试发现欠佳的客户体验并加以改进
+* 发现各方面促成网站转化的良机
 
 +++
 

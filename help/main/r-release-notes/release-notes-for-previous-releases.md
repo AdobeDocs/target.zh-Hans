@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '37043'
+source-wordcount: '37230'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,23 @@ ht-degree: 96%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2023
+
+### [!DNL Adobe Target] 计划的边缘基础设施升级 {#edge}
+
+计划的边缘基础设施升级需要将额外的 IP 或域列入允许列表。检查边缘部署 41-48 的 NAT 和 IP/域并将其列入允许列表。基础设施升级将于 2023 年 8 月 9 日开始。
+
+
+有关更多信息，请参阅《Adobe Target 开发人员指南》**&#x200B;中的[将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hans){target=_blank}。
+
+### [!DNL Target] Standard/Premium 23.8.1（2023 年 8 月 9 日）
+
+此版本包含以下增强和修复：
+
+* 修复了一个问题，该问题有时导致活动无法正确同步，如[!UICONTROL 活动]列表页面上的[!UICONTROL 状态]栏中所示。（TGT-46010 和 TGT-44831）
+* 修复了一个问题，该问题有时导致无法在使用 [!UICONTROL Analytics for Target] (A4T) 作为报告源的活动的[!UICONTROL 报告]页面上显示“[!UICONTROL 在 Analytics 中查看]”链接。(TGT-45808)
+* 调整了表格中值的显示方式，改为显示百分比，而非带小数的数字。例如，8% 而非 .08。(TGT-45548)
+* 修复了一个问题，该问题导致客户无法使用键盘焦点在[!UICONTROL 体验定位] (XT) 活动的[!UICONTROL 目标和设置]页面中移至下一个元素。(TGT-44526)
+* 修复了一个问题，该问题导致在创建活动时打开“[!UICONTROL 添加受众]”对话框后键盘失去焦点。(TGT-44525)
 
 ### [!DNL Target] Standard/Premium 23.7.1（7 月 24-26 日）
 

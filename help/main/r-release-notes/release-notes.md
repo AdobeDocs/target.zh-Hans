@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '410'
+ht-degree: 83%
 
 ---
 
@@ -31,10 +31,6 @@ ht-degree: 0%
 
 * 修复了导致中报表数据不一致的问题 [!DNL Target] UI和 [!DNL Adobe Analytics] 的UI [!UICONTROL 自动分配] 使用的活动 [!UICONTROL 目标分析] (A4T)作为报表源。 (TGT-46112)
 * 将Target投放API的PUT调用超时增加到15秒，以避免超时错误。 (TGT-46091)
-* 修复了在以下各项之间切换时显示错误报表名称的问题 [!UICONTROL 表格视图] 和 [!UICONTROL 自动化区段] 和 [!UICONTROL 重要属性] 报表。 (TGT-46040)
-* 增强了 [!UICONTROL 可视化体验编辑器] (VEC)支持Lightning DOM（Web组件）。 (TGT-45422)
-* 修复了导致VEC操作应用顺序不正确的问题。 在某些情况下，VEC异步应用了一些修改，如果某个元素在 [!UICONTROL 插入] 操作。 (TGT-45983)
-* 修复了在VEC中打开单页应用程序(SPA)页面，然后转到“浏览”模式时导致“后退”和“前进”箭头无法正常运行的问题。 (TGT-45956)
 * 修复了在浏览单页应用程序(SPA)网站时阻止URL一致更新的问题。 (TGT-45417)
 
 ## 其他发行说明和版本详细信息

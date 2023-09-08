@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
-## [!DNL Target] Standard/Premium 23.9.1（2023年9月6日至11日）
+## [!DNL Target] Standard/Premium 23.9.1（2023 年 9 月 6 日至 11 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 9 月 1 日 | [环境](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | 更新了“设置默认报表环境”下的注释。 |
+| 9 月 1 日 | [环境](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | 更新了“设置报告的默认环境”下的注释。 |
 | 8 月 30 日 | [隐私](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | 添加了新章节：“使用 Adobe Experience Platform Web SDK 时的数据流级别 IP 模糊处理” |
 |  | [活动设置 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | 在以下常见问题解答中，更正了预期数据显示在报表中的时间范围：“我刚刚创建了一个活动。但是为何看不到任何数据？” |
 | 8 月 29 日 | [设备上决策支持的功能](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | 添加了在使用设备上决策 (ODD) 客户端时，支持的定位地理属性列表。 |

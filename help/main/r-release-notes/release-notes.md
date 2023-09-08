@@ -7,9 +7,9 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target] Standard/Premium 23.9.1（2023年9月6日至11日）
+## [!DNL Target] Standard/Premium 23.9.1（2023 年 9 月 6 日至 11 日）
 
 将按以下交错的时间表发布此版本：
 
@@ -29,9 +29,9 @@ ht-degree: 83%
 
 此版本包含以下增强和修复：
 
-* 修复了导致中报表数据不一致的问题 [!DNL Target] UI和 [!DNL Adobe Analytics] 的UI [!UICONTROL 自动分配] 使用的活动 [!UICONTROL 目标分析] (A4T)作为报表源。 (TGT-46112)
-* 将Target投放API的PUT调用超时增加到15秒，以避免超时错误。 (TGT-46091)
-* 修复了在浏览单页应用程序(SPA)网站时阻止URL一致更新的问题。 (TGT-45417)
+* 修复了一个问题，该问题导致将 [!UICONTROL Analytics for Target] (A4T) 用作报告源的[!UICONTROL 自动分配]活动在 [!DNL Target] UI 和 [!DNL Adobe Analytics] UI 中的报告数据不一致。(TGT-46112)
+* 将 PUT 调用目标投放 API 的超时延长到 15 秒以免发生超时错误。(TGT-46091)
+* 修复了一个问题，在浏览单页面应用程序 (SPA) 网站时，该问题阻止一致地更新 URL。(TGT-45417)
 
 ## 其他发行说明和版本详细信息
 

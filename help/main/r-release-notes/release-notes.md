@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 86%
 
 ---
 
@@ -18,6 +18,16 @@ ht-degree: 100%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target] Standard/Premium 23.9.3（2023年9月18日）
+
+此版本包含以下增强和修复：
+
+* 增强了 [!UICONTROL 可视化体验编辑器] (VEC)支持Lightning Web Components (Light DOM)。 (TGT-45422)
+* 修复了一个问题，该问题导致应用 VEC 操作的顺序有误。在某些情况下，VEC 异步地应用了某些修改，并且添加对某个元素的额外修改导致了错误（如果在[!UICONTROL 插入]操作后显示该元素）。还修复了在单击锚点链接时现在更新的VEC URL。 (TGT-45983)
+* 修复了VEC的问题 [!UICONTROL 叠加] 功能，现在支持影子DOM中的元素。 （TGT-45202 和 TGT-45262）
+* 修复了在VEC中打开单页应用程序(SPA)页面，然后转到 [!UICONTROL 浏览] 模式导致“后退”和“前进”箭头无法正常工作。 (TGT-45956)
+* 修复了导致某些网页无法在VEC中加载的问题。 (TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2（2023 年 9 月 12 日至 14 日）
 

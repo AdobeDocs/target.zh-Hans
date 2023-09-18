@@ -7,9 +7,9 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,22 +23,22 @@ ht-degree: 92%
 
 将按以下交错的时间表发布此版本：
 
-* **9 月 12 日**：美洲区域
-* **9 月 13 日**：亚太 (APAC) 区域
-* **9 月 14 日**：欧洲、中东和非洲 (EMEA) 区域
+* **9 月 12 日**：美洲地区
+* **9 月 13 日**：亚太 (APAC) 地区
+* **9 月 14 日**：欧洲、中东和非洲 (EMEA) 地区
 
 此版本包含以下增强和修复：
 
-* 已更改 [!DNL Analytics] 面向新客户的API [!DNL Analytics] API版本2.0。 (TGT-45345)
-* 修复了影响的问题 [!UICONTROL Automated Personalization] (AP)一些客户的活动，包括及时将活动同步到 [!DNL Target] 并在预览链接中提供预期体验。 (TGT-46202)
+* 将 [!DNL Analytics] API 改为新的 [!DNL Analytics] API 2.0 版本。(TGT-45345)
+* 修复了影响某些客户的 [!UICONTROL Automated Personalization] (AP) 活动的问题，包括及时同步 [!DNL Target] 后端上的活动以及在预览链接中投放预期的体验。(TGT-46202)
 
 ## [!DNL Target] Standard/Premium 23.9.1（2023 年 9 月 6 日至 11 日）
 
 将按以下交错的时间表发布此版本：
 
-* **9 月 6 日**：美洲区域
-* **9 月 7 日**：欧洲、中东和非洲 (EMEA) 区域
-* **9 月 11 日**：亚太 (APAC) 区域
+* **9 月 6 日**：美洲地区
+* **9 月 7 日**：欧洲、中东和非洲 (EMEA) 地区
+* **9 月 11 日**：亚太 (APAC) 地区
 
 此版本包含以下增强和修复：
 

@@ -37,22 +37,22 @@ ht-degree: 87%
 
 将按以下交错的时间表发布此版本：
 
-* **9 月 12 日**：美洲区域
-* **9 月 13 日**：亚太 (APAC) 区域
-* **9 月 14 日**：欧洲、中东和非洲 (EMEA) 区域
+* **9 月 12 日**：美洲地区
+* **9 月 13 日**：亚太 (APAC) 地区
+* **9 月 14 日**：欧洲、中东和非洲 (EMEA) 地区
 
 此版本包含以下增强和修复：
 
-* [!DNL Analytics] API 更改为新的 [!DNL Analytics] API 2.0 版本。(TGT-45345)
-* 修复了影响某些客户的 [!UICONTROL Automated Personalization] (AP) 活动的问题，包括 [!DNL Target] 后端的及时同步以及在预览链接中提供预期的体验。(TGT-46202)
+* 将 [!DNL Analytics] API 改为新的 [!DNL Analytics] API 2.0 版本。(TGT-45345)
+* 修复了影响某些客户的 [!UICONTROL Automated Personalization] (AP) 活动的问题，包括及时同步 [!DNL Target] 后端上的活动以及在预览链接中投放预期的体验。(TGT-46202)
 
 ## [!DNL Target] Standard/Premium 23.9.1（2023 年 9 月 6 日至 11 日）
 
 将按以下交错的时间表发布此版本：
 
-* **9 月 6 日**：美洲区域
-* **9 月 7 日**：欧洲、中东和非洲 (EMEA) 区域
-* **9 月 11 日**：亚太 (APAC) 区域
+* **9 月 6 日**：美洲地区
+* **9 月 7 日**：欧洲、中东和非洲 (EMEA) 地区
+* **9 月 11 日**：亚太 (APAC) 地区
 
 此版本包含以下增强和修复：
 

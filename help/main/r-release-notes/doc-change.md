@@ -19,10 +19,10 @@ ht-degree: 100%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 9 月 15 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了 23.9.3 版本的预发行说明 [!DNL Target Standard/Premium]。 |
+| 9 月 15 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.9.3 版本的预发行说明。 |
 | 9 月 12 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.9.2 版的发行说明。 |
 |  | [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 添加了 at.js 版本 2.10.3 的发行说明。 |
-| 9 月 11 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了 23.9.2 版本的预发行说明 [!DNL Target Standard/Premium]。 |
+| 9 月 11 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.9.2 版本的预发行说明。 |
 | 9 月 6 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.9.1 版的发行说明。 |
 
 ## [!DNL Target] Standard/Premium 23.8.1（2023 年 8 月 9 日）

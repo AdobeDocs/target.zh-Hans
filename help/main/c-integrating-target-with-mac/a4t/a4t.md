@@ -4,10 +4,10 @@ description: 使用 [!DNL Analytics] for [!DNL Target] (A4T) 根据 [!DNL Analyt
 title: ' [!DNL Analytics] for [!DNL Target] (A4T) 是什么?'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 3493ea35ee161d4a643dc45feab01347f9d14ef1
+source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 100%
+source-wordcount: '1148'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 * 在使用 A4T 时，只允许有一个基于 mbox 的指标。
 * 从 [!DNL Target] 到 [!DNL Analytics] 的服务器到服务器调用将活动和体验信息发送到 [!DNL Analytics]。此集成不会为 [!DNL Target] 或 [!DNL Analytics] 产生额外的服务器调用。
 
-   在部分情况中，从 [!DNL Target] 到 [!DNL Analytics] 的分类失败，活动在 [!DNL Analytics] 中不显示数据。请参阅[为 Analytics 与 Target 集成 (A4T) 排除故障](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。您还可以[联系客户关怀](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)以获取更多帮助。
+  在部分情况中，从 [!DNL Target] 到 [!DNL Analytics] 的分类失败，活动在 [!DNL Analytics] 中不显示数据。请参阅[为 Analytics 与 Target 集成 (A4T) 排除故障](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)。您还可以[联系客户关怀](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)以获取更多帮助。
 
 ## 实施 A4T
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 |--- |--- |--- |
 | [使用手动流量拆分的 A/B 活动](/help/main/c-activities/t-test-ab/test-ab.md) | 是 |  |
 | [使用自动分配的 A/B 活动](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 | 请参阅[自动分配和自动定位活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [使用自动定位的 A/B 活动](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 否 |  |
+| [使用自动定位的 A/B 活动](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 是 (at.js)<P>否(Platform Web SDK) | 当前仅at.js支持自动定位活动支持A4T。 |
 | [体验定位 (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 是 |  |
 | [多变量测试 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 需要基于 mbox 的目标指标以获取[!UICONTROL 元素贡献]报表。[!UICONTROL 元素贡献]报表当前不支持 [!DNL Analytics] 指标。 |
 | [Automated Personalization (AP) 活动](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |  |
@@ -126,4 +126,3 @@ ht-degree: 100%
 >* [重定向选件 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [什么是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)：包含有关 Platform Web SDK 的概述信息。
 >* [Target 概述](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)：包含特定于 [!DNL Target] 和 [!DNL Platform Web SDK] 的信息。
-

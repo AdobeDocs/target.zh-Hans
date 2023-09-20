@@ -1,19 +1,19 @@
 ---
 keywords: 体验定位；XT；活动URL；URL
-description: 了解如何指定活动URL，以确定测试中使用的页面，以及在使用Adobe Target设计体验定位活动时打开的页面。
-title: 体验定位(XT)活动中的活动URL是什么？
+description: 了解如何指定 [!UICONTROL 活动URL] 确定测试中使用的页面，以及在 [!UICONTROL 体验定位] 活动设计使用 [!DNL Adobe Target].
+title: 什么是 [!UICONTROL 活动URL] 在 [!UICONTROL 体验定位] (XT)活动？
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 24513d8cb39d38dcfbc74bf40961d5517cc90a4b
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 63%
+source-wordcount: '299'
+ht-degree: 48%
 
 ---
 
-# 体验定位(XT)活动中的活动URL
+# 中的活动URL [!UICONTROL 体验定位] (XT)活动
 
-此 [!UICONTROL 活动URL] 确定在中使用的页面 [!DNL Adobe Target] [!UICONTROL 体验定位] (XT)活动，以及在中打开的页面 [!UICONTROL 可视化体验编辑器] (VEC)或 [!UICONTROL 基于表单的体验编辑器] （当活动被设计时）。
+此 [!UICONTROL 活动URL] 确定在中使用的页面 [!DNL Adobe Target] [!UICONTROL 体验定位] (XT)活动。 这是在中打开的页面 [!UICONTROL 可视化体验编辑器] (VEC)或 [!UICONTROL 基于表单的体验编辑器] （在设计活动时）。
 
 1. 在[创建 XT 活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)时，如果出现提示，请指定活动 URL。应键入完整的 URL（包括 `https://`），然后单击&#x200B;**[!UICONTROL 创建活动]**。
 
@@ -21,11 +21,11 @@ ht-degree: 63%
    >
    >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。因此，[!DNL `https://www.adobe.com`] 和 [!DNL `http://www.adobe.com`] 均匹配。
    >
-   >默认情况下，VEC或基于表单的体验编辑器会打开中指定的页面 [可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md). 在活动创建过程中，您可以指定其他页面。
+   >默认情况下，VEC或 [基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md) 打开中指定的页面 [可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md). 在活动创建过程中，您可以指定其他页面。
    >
-   >如果您指定的 URL 所对应的网站不包含 Target Standard JavaScript 代码，则您将无法选择页面元素。
+   >如果您指定的URL所对应的网站不包含 [[!DNL Target] at.js JavaScript库或 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}中，您无法选择页面元素。
 
-1. （视情况而定）要在 VEC 打开后显示其他页面，请单击&#x200B;**[!UICONTROL 配置]**，选择&#x200B;**[!UICONTROL 页面交付]**，然后在“[!UICONTROL URL]”字段中指定 URL。
+1. （视情况而定）要在VEC打开后显示其他页面，请单击 **[!UICONTROL 配置]**，选择 **[!UICONTROL 页面交付]**，然后在 [!UICONTROL URL] 字段。
 
    ![“页面交付”对话框](/help/main/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
 

@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
+source-git-commit: 11b5915d75b72a3891572d841de0a353f68dcbf3
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 95%
+source-wordcount: '603'
+ht-degree: 89%
 
 ---
 
@@ -59,6 +59,23 @@ ht-degree: 95%
 * 修复了一个问题，该问题导致将 [!UICONTROL Analytics for Target] (A4T) 用作报告源的[!UICONTROL 自动分配]活动在 [!DNL Target] UI 和 [!DNL Adobe Analytics] UI 中的报告数据不一致。(TGT-46112)
 * 将 PUT 调用目标投放 API 的超时延长到 15 秒以免发生超时错误。(TGT-46091)
 * 修复了一个问题，在浏览单页面应用程序 (SPA) 网站时，该问题阻止一致地更新 URL。(TGT-45417)
+
+## [!DNL Target] Standard/Premium 23.5.2（日期待定）
+
+此版本包含以下增强和修复：
+
+* 为启用了优化标准选择 [!DNL Adobe Analytics] 量度。
+* 使用sling作业启用了外部受众同步。
+* 修复了不支持名称中包含点字符的SC报表包的问题。
+* 启用了允许客户删除和编辑内置受众的功能。
+
+## [!DNL Target] Standard/Premium 23.5.3（日期待定）
+
+此版本包含以下增强功能：
+
+| 功能 | 详细信息 |
+|--- |--- |
+| [!UICONTROL Automated Personalization] 活动的 [!UICONTROL QA 模式] | [!DNL Adobe Target] [!UICONTROL QA 模式]现在取代[!UICONTROL 预览链接]功能，可供 [!UICONTROL Automated Personalization] 活动使用。<P>有关更多信息，请参阅[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)。。 |
 
 ## 其他发行说明和版本详细信息
 

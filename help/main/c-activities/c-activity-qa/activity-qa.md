@@ -4,10 +4,10 @@ description: 了解如何使用Adobe [!DNL Target] QA URL来执行简单的端�
 title: 如何QA活动？
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
+source-git-commit: 9fc17a3d3c0b9f5b07abcd7583e61e7931a040cd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1767'
+ht-degree: 36%
 
 ---
 
@@ -124,4 +124,3 @@ ht-degree: 0%
 | [!UICONTROL 体验定位] (XT) | 是 | 是 | 是 |
 | [!UICONTROL 多变量测试] (MVT) | 是 | 是 | 是 |
 | [!UICONTROL Recommendations] | 是 | 是 | 是 |
-

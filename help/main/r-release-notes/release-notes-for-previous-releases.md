@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
 workflow-type: tm+mt
-source-wordcount: '37230'
+source-wordcount: '37213'
 ht-degree: 96%
 
 ---
@@ -2934,10 +2934,6 @@ Adobe Target Standard/Premium 16.5.1（2016 年 5 月 19 日）版本包括以�
   <tr> 
    <td colname="col1"> 体验版本 </td> 
    <td colname="col2"> <p>现在，可以在 A/B 活动的体验中设置以不同受众为目标的多个版本。 </p> <p>请参阅<a href="/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local">将体验定位到多个受众</a>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> QA/预览 URL </td> 
-   <td colname="col2"> <p>现在，可以在基于表单的体验编辑器中使用预览 URL。 </p> <p>请参阅<a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">查看体验 URL</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 推荐自定义算法 </td> 

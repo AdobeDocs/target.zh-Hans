@@ -4,10 +4,10 @@ description: 受众可确定哪些网站访客进入了您的Adobe [!DNL Target]
 title: 如何在中选择受众 [!DNL Target] A/B活动？
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 91%
+source-wordcount: '431'
+ht-degree: 70%
 
 ---
 
@@ -19,29 +19,40 @@ ht-degree: 91%
 >
 >除了选择现有受众之外，您还可以合并多个受众来创建临时组合受众，而不是创建新受众。有关更多信息，请参阅[合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-在[!UICONTROL 受众]框中，单击“编辑”图标（三个垂直省略号），然后单击&#x200B;**[!UICONTROL 替换受众]**。
+1. 在 [!UICONTROL 受众] 框中，单击 **[!UICONTROL 编辑]** 图标（垂直省略号），然后单击 **[!UICONTROL 替换受众]**.
 
-![“替换受众”选项](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+   ![“替换受众”选项](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-默认情况下，所有访客都是您的受众。但是，您可以更改受众。您可以从受众库中选择受众，也可以创建仅限该活动的受众。受众库中包含以前定义的受众，其中包括作为 Target 的一部分预先构建的一些常用受众。您可以从库中选择受众、[创建新受众](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)或[创建仅限该活动的受众](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。对于未定位特定受众的 A/B 测试，请选择默认设置，即“所有访客”。
+   默认情况下，所有访客都是您的受众。但是，您可以更改受众。您可以从受众库中选择受众，也可以创建仅限该活动的受众。受众库中包含以前定义的受众，其中包括作为 [!DNL Target] 的一部分预先构建的一些常用受众。
 
-请注意，您还可以编辑或复制受众，方法是将鼠标悬停在“[!UICONTROL 选择受众]”对话框中的所需受众上（如下图所示）。如果您想要创建一个与现有受众类似的受众，则复制受众很有用。您可以制作受众的副本，对其进行编辑，然后将其另存为新受众。其他类型的活动中也提供了这一鼠标悬停功能。
+1. 选择或创建所需受众：
 
-![受众悬停](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+   * 从库中选择受众
+   * [合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
+   * [创建新受众](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
+   * [创建仅限活动的受众](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
-在创建受众时，您可以选择一个位置 (mbox) 并指定该位置的参数。在“自定义参数”下，选择 mbox，然后指定所需的参数。
+   对于没有特定受众定位的A/B测试，选择默认设置 [!UICONTROL 所有访客].
 
->[!NOTE]
->
->打开受众列表时会在后台自动导入受众，导入的受众为 10 分钟之前的受众。
+   您还可以通过将鼠标悬停在中的所需受众上，来编辑或复制受众。 [!UICONTROL 添加受众] 对话框，如下所示。
 
-单击向下箭头可删除现有受众或更改受众。
+   如果您想要创建一个与现有受众类似的受众，则复制受众很有用。您可以制作受众的副本，对其进行编辑，然后将其另存为新受众。其他类型的活动中也提供了这一鼠标悬停功能。
 
-您可以指定要包含在活动中的符合条件的访客百分比。例如，您可以选择将所有访客中 50% 的访客包含在活动中。
+   ![受众悬停](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
-![受众百分比](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   在创建受众时，您可以选择一个位置 (mbox) 并指定该位置的参数。下 [!UICONTROL 自定义参数]，选择mbox，然后指定所需的参数。
 
-您还可以选择让 Target [自动分配流量](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+   >[!NOTE]
+   >
+   >打开受众列表时会在后台自动导入受众，导入的受众为 10 分钟之前的受众。
+
+1. （视情况而定）指定要包含在活动中的符合条件的访客所占的百分比。
+
+   例如，您可以选择将所有访客中 50% 的访客包含在活动中。
+
+   ![受众百分比](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+
+   您还可以选择让 Target [自动分配流量](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
 ## 培训视频
 

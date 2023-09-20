@@ -5,10 +5,10 @@ title: ' [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4T) 是�
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 13c899b656d9f15e7368d981ac25540c46caccb2
-workflow-type: ht
-source-wordcount: '919'
-ht-degree: 100%
+source-git-commit: 1e130d616c7042b61a12594eb1d9d57970d6a409
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 95%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 100%
    * 如果您有一个 [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) 帐户，请参阅&#x200B;*用户*&#x200B;中的[指定角色和权限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。
    * 如果您有一个 [Target Premium](/help/main/c-intro/intro.md#premium) 帐户，请参阅&#x200B;*企业用户权限*&#x200B;中的[角色和权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions)。
 
+* 您必须属于中的角色 [!DNL Adobe Experience Platform] 设置 [!DNL Target] 活动 [!DNL Customer Journey Analytics] 作为报表源。 有关更多信息，请参阅 [在中添加角色 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions.html){target=_blank} 在 *配置权限* 在 *数据架构师和工程师教程。*
 * 根据您的设置，可以根据活动或组织级别更改报表。请参阅&#x200B;*在 Target 中配置报表*&#x200B;中的[报表云解决方案](/help/main/administrating-target/reporting.md#solution)。
 * 使用一个报表源或另一个。您无法将单个活动的数据收集到多个报表源中。
 * 在设置 [!DNL Customer Journey Analytics] 作为您的报表源时，系统会提示您指定用于报表的沙盒。在配置期间，您只能看到您有权访问的沙盒。

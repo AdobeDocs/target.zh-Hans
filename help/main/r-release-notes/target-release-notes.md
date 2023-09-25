@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 11b5915d75b72a3891572d841de0a353f68dcbf3
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 89%
 
 此版本包含以下增强和修复：
 
-* 增强了 [!UICONTROL 可视化体验编辑器] (VEC)支持Lightning Web Components (Light DOM)。 (TGT-45422)
-* 修复了一个问题，该问题导致应用 VEC 操作的顺序有误。在某些情况下，VEC 异步地应用了某些修改，并且添加对某个元素的额外修改导致了错误（如果在[!UICONTROL 插入]操作后显示该元素）。还修复了在单击锚点链接时现在更新的VEC URL。 (TGT-45983)
+* 增强了[!UICONTROL 视觉体验编辑器] (VEC) 以支持 Lightning Web 组件 (Light DOM)。(TGT-45422)
+* 修复了一个问题，该问题导致应用 VEC 操作的顺序有误。在某些情况下，VEC 异步地应用了某些修改，并且添加对某个元素的额外修改导致了错误（如果在[!UICONTROL 插入]操作后显示该元素）。还修复了现在单击锚点链接时更新的 VEC URL。(TGT-45983)
 * 修复了有关 VEC [!UICONTROL 叠加]功能的问题，此功能现在支持 Shadow DOM 中的元素。（TGT-45202 和 TGT-45262）
 * 修复了一个问题，在 VEC 中打开单页面应用程序 (SPA) 页面，然后转到[!UICONTROL 浏览]模式时，该问题导致“后退”和“前进”箭头无法正常工作。(TGT-45956)
 * 修复了导致某些网页无法在 VEC 中加载的问题。(TGT-45983)

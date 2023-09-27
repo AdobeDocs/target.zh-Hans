@@ -1,19 +1,19 @@
 ---
 keywords: MVT;多变量测试;多变量测试创建;MVT 创建;MVT 工作原理;多变量测试工作原理
-description: 了解如何在Adobe中使用可视化体验编辑器(VEC) [!DNL Target] 要在上创建多变量测试(MVT) [!DNL Target]-enabled页。
-title: 如何创建多变量测试？
+description: 了解如何使用 [!UICONTROL 可视化体验编辑器] (VEC)位于 [!DNL Adobe Target] 创建 [!UICONTROL 多变量测试] (MVT)。
+title: 如何创建 [!UICONTROL 多变量测试]？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 87%
+source-wordcount: '535'
+ht-degree: 62%
 
 ---
 
 # 创建多变量测试
 
-使用 [!DNL Adobe Target] 中的[!UICONTROL 可视化体验编辑器] (VEC)，可以轻松地在启用了 Target 的页面上直接创建测试，并在 [!DNL Target] 中修改页面的各个部分。
+此 [!UICONTROL 可视化体验编辑器] (VEC)位于 [!DNL Adobe Target] 使创建更容易 [!UICONTROL 多变量测试] 并在中修改页面的各个部分 [!DNL Target].
 
 此 [!DNL Target] 使用点击式编辑器，您可以选择任意位置并添加多个选件。
 
@@ -25,31 +25,21 @@ ht-degree: 87%
 
    >[!NOTE]
    >
-   >可用的活动类型取决于您的 Target 帐户。有些活动类型可能不会显示在列表中。例如，“[!UICONTROL 自动个性化]”是一项 [Target Premium 功能](/help/main/c-intro/intro.md#premium)。
-   >
    >有关 [!DNL Target] 中可用的各种活动类型及其差异的更多信息，请参阅[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)，以帮助您确定最符合自己需求的活动类型。
 
-1. 如有必要，选择&#x200B;**[!UICONTROL 可视（默认）]**。
+1. （视情况而定）选择交货类型： [!UICONTROL Web]， [!UICONTROL 移动设备]， [!UICONTROL 电子邮件]，或 [!UICONTROL 其他/API].
 
-   ![“创建多变量测试活动”对话框](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
+1. （视情况而定）如果您是 [Target Premium](/help/main/c-intro/intro.md#premium) 客户， [选择工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   >[!NOTE]
-   >
-   >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
-   >
-   >上图中的“[!UICONTROL 选择工作区]”选项是一项 [Target Premium](/help/main/c-intro/intro.md) 功能。如果您看不到此选项，则表明贵组织具有 Target Standard 许可证。
-
-1. （视情况而定）如果您是一位 Target Premium 客户，请[选择一个工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
-
-1. 为要测试的页面[指定 URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)，然后单击&#x200B;**[!UICONTROL 下一步]**。
+1. [指定URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) ，然后单击 **[!UICONTROL 下一个]**.
 
    >[!NOTE]
    >
-   >请使用完整的 URL，即在开头包含 HTTP 或 HTTPS。
+   >请使用完整的URL，即在开头包含HTTP或HTTPS。
 
    如果显示了一条消息，要求您为浏览器启用混合内容，请按消息中的说明进行操作。为浏览器启用混合内容后，重新从步骤 1 开始操作。
 
-   此时会打开可视化体验编辑器。
+   此 [!UICONTROL 可视化体验编辑器] 打开。
 
 1. 键入活动的名称。
 
@@ -63,6 +53,21 @@ ht-degree: 87%
    | `+` | 加号 |
    | `-` | 减号 |
    | `@` | @ 符号 |
+
+   活动名称不能包含以下任何字符序列：
+
+   | 字符序列 | 描述 |
+   |--- |--- |
+   | ；= | 分号，等于 |
+   | ;+ | 分号，加号 |
+   | ;- | 分号，减号 |
+   | ;@ | 分号， At sign |
+   | ,= | 逗号，等于 |
+   | ,+ | 逗号，加号 |
+   | ,- | 逗号，减 |
+   | ,@ | 逗号， At sign |
+   | `[`&quot; | 左方括号，双引号 |
+   | &quot;`]` | 双引号，右方括号 |
 
 1. [在每个位置中创建选件](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
 
@@ -114,7 +119,7 @@ ht-degree: 87%
 
 ## 培训视频：创建多变量测试(9:25) ![教程徽章](/help/main/assets/tutorial.png)
 
-以下视频演示了如何使用 Target 三步引导式工作流规划并创建多变量测试。
+本视频演示如何使用规划和创建多变量测试 [!DNL Target] 三步引导式工作流。
 
 * 定义和设计多变量测试
 * 创建多变量测试

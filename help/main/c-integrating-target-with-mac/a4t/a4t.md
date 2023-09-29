@@ -5,9 +5,9 @@ title: ' [!DNL Analytics] for [!DNL Target] (A4T) 是什么?'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 在 [!DNL Target] 中使用 [!DNL Analytics] 数据的三个主要优势包括：
 
-* 营销人员可随时动态地将 [!DNL Analytics] 成功指标或报表区段应用于 [!DNL Target] 活动报表。在运行活动之前不需要指定各项内容。
+* 营销人员可随时动态地将 [!DNL Analytics] 成功指标或报表区段应用于 [!DNL Target] 活动报表。在运行活动之前什么都不需要指定。
 * 单一数据源可消除在两个不同的系统中收集数据时出现的差异。
 * 您现有的 [!DNL Analytics] 实施收集所有必需的数据。无需专为收集报表数据而在页面上实施 mbox。
 
@@ -58,7 +58,7 @@ ht-degree: 98%
 |--- |--- |--- |
 | [使用手动流量拆分的 A/B 活动](/help/main/c-activities/t-test-ab/test-ab.md) | 是 |  |
 | [使用自动分配的 A/B 活动](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 | 请参阅[自动分配和自动定位活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [使用自动定位的 A/B 活动](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 是 (at.js)<P>否(Platform Web SDK) | 当前仅at.js支持自动定位活动支持A4T。 |
+| [使用自动定位的 A/B 活动](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 是 (at.js)<P>否 (Platform Web SDK) | 目前仅对 at.js 支持为自动定位活动支持 A4T。 |
 | [体验定位 (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 是 |  |
 | [多变量测试 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 需要基于 mbox 的目标指标以获取[!UICONTROL 元素贡献]报表。[!UICONTROL 元素贡献]报表当前不支持 [!DNL Analytics] 指标。 |
 | [Automated Personalization (AP) 活动](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |  |

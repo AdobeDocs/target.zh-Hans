@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 24e80632c68724c0eff37a719dbc80d9e3077f82
+source-git-commit: d68337b9f19801efa593f85a62791423e98d13f2
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 95%
+source-wordcount: '683'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2023 年 9 月 28 日**
+**上次更新日期：2023 年 9 月 29 日**
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 95%
 此版本包含以下增强和修复：
 
 * 已添加 [!UICONTROL 可视化体验编辑器] (VEC)增强了动态框架。 (TGT-44064)
-* 修复了导致在 `getViewInAnalyticsId` 请求不正确更新。 (TGT-46246)
+* 修复了导致在 `getViewInAnalyticsId` 请求不正确更新。 此修复帮助重新计算 [!DNL Analytics] 日期范围和量度报表设置发生更改时报告中的链接。 (TGT-46246)
 
 ## [!DNL Target] Standard/Premium 23.9.3（2023 年 9 月 18 日）
 

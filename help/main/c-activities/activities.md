@@ -4,10 +4,10 @@ description: 了解Adobe中的活动方式 [!DNL Target] 让您可以为特定�
 title: 如何使用个性化内容和测试页面设计 [!DNL Target]？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 4b62017fe4dca61b5b05c7778f3a02cf446c17f7
+source-git-commit: dba58f591b60ccfa1cdcd27d2704ebf28c40ba10
 workflow-type: tm+mt
-source-wordcount: '2489'
-ht-degree: 44%
+source-wordcount: '2467'
+ht-degree: 45%
 
 ---
 
@@ -24,11 +24,6 @@ ht-degree: 44%
 打开 [!DNL Target] 时，[!UICONTROL 活动]列表是默认的视图。您可以从此页面创建活动并管理现有活动。
 
 您还可以通过单击 [!DNL Target] UI 顶部的[!UICONTROL 活动]选项卡来显示[!UICONTROL 活动]列表。
-
->[!NOTE]
->
->下图和表格显示了当前测试版（即将发布）的已更新活动列表UI的功能。
-
 
 ![Activities list（活动列表）](/help/main/c-activities/assets/activities-list-new.png)
 
@@ -67,7 +62,7 @@ ht-degree: 44%
 | [多变量测试](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | [!UICONTROL Multivariate Testing] (MVT)可通过比较页面上各元素中的选件组合，来确定哪个组合对特定受众的效果最佳，以及哪个元素对活动成功的影响最大。 |
 | [体验定位](/help/main/c-activities/t-experience-target/experience-target.md) | [!UICONTROL 体验定位] (XT) 根据一组营销人员定义的规则和标准向特定受众提供内容。 |
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<P>![Target Premium](/help/main/assets/premium.png) | [!UICONTROL Automated Personalization] (AP)可将各种选件或消息进行组合，并且使用先进的机器学习技术，根据每位访客的个人客户配置文件将不同的变体与其匹配，以便个性化内容并促进转化。 |
-| [Recommendations](/help/main/c-recommendations/recommendations.md)<P>![Target Premium](/help/main/assets/premium.png) | 推荐可根据网站访客在网站上的活动，来确定向该访客推荐产品的方式。<P>例如，您可能想要鼓励购买了背包的人也考虑购买登山鞋和登山杖。在这种情况下，您可以使用“购买了这个项目，也购买了那个项目的人”算法，创建一个推荐来显示通常一起购买的项目。或者，您可能希望使用“观看了这个项目，也观看了那个项目”算法，将类似的视频推荐给观看视频，从而鼓励访客在媒体网站上多花些时间。<P>**注意**：您还可以在中包含推荐 [!UICONTROL A/B测试]， [!UICONTROL 自动分配]， [!UICONTROL 自动定位]、和 [!UICONTROL 体验定位] (XT)活动。 有关更多信息，请参阅[将推荐作为选件](/help/main/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/main/c-intro/intro.md#premium)。 |
+| [Recommendations](/help/main/c-recommendations/recommendations.md)<P>![Target Premium](/help/main/assets/premium.png) | 推荐可根据网站访客在网站上的活动，来确定向该访客推荐产品的方式。<P>例如，您可能想要鼓励购买了背包的人也考虑购买登山鞋和登山杖。在这种情况下，您可以使用“购买了这个项目，也购买了那个项目的人”算法，创建一个推荐来显示通常一起购买的项目。或者，您可能希望使用“观看了这个项目，也观看了那个项目”算法，将类似的视频推荐给观看视频，从而鼓励访客在媒体网站上多花些时间。<P>**注意**：您还可以在中包含推荐 [!UICONTROL A/B测试]， [!UICONTROL 自动分配]， [!UICONTROL 自动定位]、和 [!UICONTROL 体验定位] (XT)活动。 有关更多信息，请参阅[将 Recommendations 作为选件](/help/main/c-recommendations/recommendations-as-an-offer.md)。要使用此功能，您需要拥有 [Target Premium 许可证](/help/main/c-intro/intro.md#premium)。 |
 
 ## 将过滤器应用于“活动”列表 {#filters}
 

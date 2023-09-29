@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
+source-git-commit: dba58f591b60ccfa1cdcd27d2704ebf28c40ba10
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 87%
+source-wordcount: '852'
+ht-degree: 75%
 
 ---
 
@@ -35,7 +35,8 @@ ht-degree: 87%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| [!UICONTROL 活动] UI刷新<P>[!UICONTROL 信息源] UI刷新 | 作为 [!DNL Adobe Target] 团队为改善的用户体验而不断努力的成果 [!DNL Target] 用户时，此版本会刷新 [!UICONTROL 活动] 和 [!DNL Recommendations] [!UICONTROL 信息源] 中的页面 [!DNL Target] UI。 此更新统一并标准化了以前不一致的设计模式，同时添加了新的增强功能。 |
+| [!UICONTROL 活动] UI刷新<P>和<P>[!UICONTROL 信息源] UI刷新 | 作为 [!DNL Adobe Target] 团队为改善的用户体验而不断努力的成果 [!DNL Target] 用户时，此版本会刷新 [!UICONTROL 活动] 和 [!DNL Recommendations] [!UICONTROL 信息源] 中的页面 [!DNL Target] UI。 此更新统一并标准化了以前不一致的设计模式，同时添加了新的增强功能。<P>有关详细信息，请参阅 [活动](/help/main/c-activities/activities.md) 和 [信息源](/help/main/c-recommendations/c-products/feeds.md). |
+| [!DNL Recommendations] 实现模式 | 此 *使用at.js的Recommendations实施模式* 模式可帮助您了解和创建 [!DNL Adobe Target Recommendations] 在使用at.js JavaScript库时实施。<P>有关Target模式的一般信息，请参阅 [实施模式概述](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} 在 *Adobe Target开发人员指南*.<P>新的Recommendations实施模式由以下文章组成：<ul><li>[使用at.js的Recommendations实施模式概述](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[初始化SDK](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[配置数据收集](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[渲染体验](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[通知 [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
 
 * 已添加 [!UICONTROL 可视化体验编辑器] (VEC)增强了动态框架。 (TGT-44064)
 * 修复了导致在 `getViewInAnalyticsId` 请求不正确更新。 此修复帮助重新计算 [!DNL Analytics] 日期范围和量度报表设置发生更改时报告中的链接。 (TGT-46246)

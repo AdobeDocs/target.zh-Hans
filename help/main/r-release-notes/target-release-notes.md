@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
+source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 80%
+source-wordcount: '784'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 80%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2023 年 10 月 2 日**
+**上次更新日期：2023 年 10 月 3 日**
 
 >[!NOTE]
 >
@@ -23,17 +23,23 @@ ht-degree: 80%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 23.9.4（日期待定）
+## [!DNL Target] Standard/Premium 23.9.4（2023 年 10 月 4-6 日）
+
+将按以下交错的时间表发布此版本：
+
+* **10 月 4 日**：亚太 (APAC) 地区
+* **10 月 5 日**：欧洲、中东和非洲 (EMEA) 地区
+* **10 月 6 日**：美洲区域
 
 此版本包含以下增强和修复：
 
 | 功能 | 详细信息 |
 | --- | --- |
-| [!UICONTROL 活动] UI刷新<P>和<P>[!UICONTROL 信息源] UI刷新 | 作为 [!DNL Adobe Target] 团队为改善的用户体验而不断努力的成果 [!DNL Target] 用户时，此版本会刷新 [!UICONTROL 活动] 和 [!DNL Recommendations] [!UICONTROL 信息源] 中的页面 [!DNL Target] UI。 此更新统一并标准化了以前不一致的设计模式，同时添加了新的增强功能。<P>有关详细信息，请参阅 [活动](/help/main/c-activities/activities.md) 和 [信息源](/help/main/c-recommendations/c-products/feeds.md). |
+| [!UICONTROL 活动] 用户界面刷新<P>和<P>[!UICONTROL 信息源] 用户界面刷新 | 作为 [!DNL Adobe Target] 团队为 [!DNL Target] 用户持续改进用户体验的工作的一部分，此版本刷新了 [!DNL Target] 用户界面中的[!UICONTROL 活动]和[!DNL Recommendations] [!UICONTROL 信息源]页面。此更新统一并标准化了以前不一致的设计模式，并添加了新的增强功能。<P>有关详细信息，请参阅 [活动](/help/main/c-activities/activities.md) 和 [信息源](/help/main/c-recommendations/c-products/feeds.md). |
 | [!DNL Recommendations] 实现模式 | 此 *使用at.js的Recommendations实施模式* 文章可帮助您了解和创建 [!DNL Adobe Target Recommendations] 在使用at.js JavaScript库时实施。<P>有关更多信息，请参阅 [使用at.js的Recommendations实施模式概述](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} 在 *Adobe Target开发人员指南*. |
 
-* 已添加 [!UICONTROL 可视化体验编辑器] (VEC)增强了动态框架。 (TGT-44064)
-* 修复了导致在 `getViewInAnalyticsId` 请求不正确更新。 此修复帮助重新计算 [!DNL Analytics] 日期范围和量度报表设置发生更改时报告中的链接。 (TGT-46246)
+* 添加了针对动态框架的[!UICONTROL 视觉体验编辑器] (VEC) 增强功能。(TGT-44064)
+* 修复了导致 `getViewInAnalyticsId` 请求中的选定日期无法正确更新的问题。此修复有助于在日期范围和量度报告设置发生更改时重新计算报告中的 [!DNL Analytics] 链接。(TGT-46246)
 
 ## [!DNL Target] Standard/Premium 23.9.3（2023 年 9 月 18 日）
 

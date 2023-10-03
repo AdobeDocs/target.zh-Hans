@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
+source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
-source-wordcount: '1987'
-ht-degree: 93%
+source-wordcount: '2016'
+ht-degree: 92%
 
 ---
 
@@ -19,10 +19,12 @@ ht-degree: 93%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 10 月 4 日 | [活动](/help/main/c-activities/activities.md) | 更新了文本和图像以反映 [!DNL Target] 23.9.4版本。 |
+|  | [信息源](/help/main/c-recommendations/c-products/feeds.md) | 更新了文本和图像以反映 [!DNL Target] 23.9.4版本。 |
 | 10 月 2 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.9.3 版的发行说明。 |
 |  | [[!DNL Recommendations] 实现模式](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} | 新 *使用at.js的Recommendations实施模式* 文章可帮助您了解和创建 [!DNL Adobe Target Recommendations] 在使用at.js JavaScript库时实施。<P>有关的一般信息 [!DNL Target] 模式，请参见 [实施模式概述](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} 在 *Adobe Target开发人员指南*.<P>新的Recommendations实施模式由以下文章组成：<ul><li>[使用at.js的Recommendations实施模式概述](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[初始化SDK](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[配置数据收集](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[渲染体验](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[通知 [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
 | 9 月 29 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.9.3 版本的预发行说明。 |
-|  | [初始化 Java SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | 已将以下新参数添加到表中：<ul><li>`connectionTtlMs`</li><li>`idleConnectionValidationMs`</li><li>`evictIdleConnectionsAfterSecs`</li></ul> |
+|  | [初始化 Java SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | 在表中添加了以下新参数：<ul><li>`connectionTtlMs`</li><li>`idleConnectionValidationMs`</li><li>`evictIdleConnectionsAfterSecs`</li></ul> |
 | 9 月 22 日 | 与[[!UICONTROL 增强体验编辑器]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)相关的问题疑难解答 | 将 IP 地址列表更新为了允许列表。 |
 | 9 月 18 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.9.3 版的发行说明。 |
 | 9 月 15 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.9.3 版本的预发行说明。 |

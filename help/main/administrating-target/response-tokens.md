@@ -1,44 +1,44 @@
 ---
 keywords: 响应令牌；令牌；插件；插件；at.js；响应；平台web sdk
-description: 了解如何在中使用响应令牌 [!DNL Adobe Target] 用于调试和与第三方工具集成的特定于输出的信息。
-title: 什么是响应令牌以及如何使用它们？
+description: 了解如何在中使用响应令牌 [!DNL Adobe Target] 输出特定的信息，用于调试并与第三方工具集成。
+title: 什么是响应令牌？如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 791274dc320912629b9425ef400d0008e0bb086b
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 26%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 响应令牌
 
-通过响应令牌，可自动输出特定于 [!DNL Adobe Target] 到您品牌的网页。 此信息可包括有关活动、选件、体验、用户配置文件、地理信息等的详细信息。 这些详细信息提供了额外的响应数据，可与内部或第三方工具共享或用于调试。
+响应令牌允许您自动输出特定于 [!DNL Adobe Target] 到您品牌的网页。 此信息可以包括有关活动、选件、体验、用户配置文件、地理信息等的详细信息。 这些详细信息提供了额外的响应数据，可用于与内部或第三方工具共享或用于调试。
 
-响应令牌允许您选择要使用的变量（在键值对中），然后允许作为的一部分发送它们 [!DNL Target] 响应。 您可以使用开关启用变量，该变量将随一起发送 [!DNL Target] 响应，这可以在网络调用中进行验证。 响应令牌也适用于 [!UICONTROL 预览] 模式。
+响应令牌允许您选择要使用的变量（在键值对中），然后启用它们作为的一部分发送 [!DNL Target] 响应。 使用开关启用变量，该变量将发送给 [!DNL Target] 响应，这可以在网络调用中进行验证。 响应令牌也适用于 [!UICONTROL 预览] 模式。
 
-插件和响应令牌之间的一个主要区别在于，插件会将JavaScript交付到在交付时执行的页面。 但是，响应令牌会传递一个对象，然后可以使用事件侦听器读取该对象并对其执行操作。 响应令牌方法更安全，并且更容易开发和维护第三方集成。
+插件和响应令牌之间的主要区别在于，插件可将JavaScript交付到在交付时执行的页面。 但是，响应令牌会传递一个对象，然后可以使用事件侦听器读取该对象并对其执行操作。 响应令牌方法更安全，并且允许更轻松地开发和维护第三方集成。
 
 >[!NOTE]
 >
->at.js版本1.1或更高版本提供了响应令牌。
+>at.js版本1.1或更高版本中有响应令牌可用。
 
 | Target SDK | 建议的操作 |
 |--- |--- |
 | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版Platform Web SDK的信息，请参阅 [安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} 在 *Platform Web SDK概述* 指南。 有关Platform Web SDK各个版本中新增功能的信息，请参阅 [发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 在 *Platform Web SDK概述* 指南。 |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本at.js的信息，请参阅 [下载at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在mbox.js（现已弃用）中存在，但在at.js中不存在，这些插件虽然交付但会失败。 |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本at.js的信息，请参阅 [下载at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在mbox.js中存在（现已弃用），但在at.js中不存在；这些插件虽然可以交付，但却会失败。 |
 
 ## 使用响应令牌 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. 确保您使用的是Platform Web SDK版本2.6.0（或更高版本）或at.js版本1.1（或更高版本）。
+1. 确保您使用的是Platform Web SDK版本2.6.0（或更高版本）或者at.js版本1.1（或更高版本）。
 
    有关更多信息：
 
    * **平台Web SDK**：请参阅 [安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 在 *Platform Web SDK概述* 指南。
    * **at.js**：请参阅 [下载at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
-1. In [!DNL Target]，单击 **[!UICONTROL 管理]** > **[!UICONTROL 响应令牌]**.
+1. 在 [!DNL Target]，单击 **[!UICONTROL 管理]** > **[!UICONTROL 响应令牌]**.
 
    ![response_tokens-new图像](assets/response_tokens-new.png)
 
@@ -48,7 +48,7 @@ ht-degree: 26%
 
    | 类型 | 参数 | 注释 |
    |--- |--- |--- |
-   | 内置配置文件 | `profile.activeActivities` | 返回该访客符合条件的 `activityIds` 数组。它会随着符合条件的用户数量的增加而递增。例如，在包含两个页面的页面上 [!DNL Target] 请求交付两个不同的活动，第二个请求包含这两个活动。 |
+   | 内置配置文件 | `profile.activeActivities` | 返回该访客符合条件的 `activityIds` 数组。它会随着符合条件的用户数量的增加而递增。例如，在包含两个页面的 [!DNL Target] 请求交付两个不同的活动，第二个请求包含这两个活动。 |
    |  | `profile.isFirstSession` | 返回“true”或“false”。 |
    |  | `profile.isNewSession` | 返回“true”或“false”。 |
    |  | `profile.daysSinceLastVisit` | 返回自该访客上次访问后已过的天数。 |
@@ -57,10 +57,10 @@ ht-degree: 26%
    |  | `profile.thirdPartyId` | 返回访客的第三方 ID。 |
    |  | `profile.categoryAffinity` | 返回访客最喜欢的类别。 |
    |  | `profile.categoryAffinities` | 将该访客排名前 5 的类别的数组作为字符串返回。 |
-   | 活动 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 当前活动的详细信息。<br> 请注意，选件参数的值是在体验级别上评估的。 |
+   | 活动 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 当前活动的详细信息。<br> 请注意，选件参数的值在体验级别进行评估。 |
    | 地域 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 请参阅[地域](/help/main/c-target/c-audiences/c-target-rules/geo.md)以了解在活动中使用地域定位的详细信息。 |
    | 流量分配方法<br>(适用于 [!UICONTROL 自动定位] 和 [!UICONTROL Automated Personalization] 仅限活动。) | `experience.trafficAllocationId` | 如果访客因处于“control”流量中而获得体验，则返回0；如果访客从“targeted”流量分配获得体验，则返回1。 |
-   |  | `experience.trafficAllocationType` | 返回“控制”或“已定向”。 |
+   |  | `experience.trafficAllocationType` | 返回“control”或“targeted”。 |
 
    用户配置文件属性和客户属性也会显示在列表中。
 
@@ -68,28 +68,28 @@ ht-degree: 26%
    >
    >包含特殊字符的参数不会显示在列表中。只支持字母数字字符和下划线。
 
-1. （视情况而定）将配置文件参数用作响应令牌，但该参数尚未通过 [!DNL Target] 请求，因此未加载到 [!DNL Target] UI中，您可以使用 [!UICONTROL 添加响应令牌] 按钮以将配置文件添加到UI。
+1. （视情况而定）使用配置文件参数作为响应令牌，但参数尚未通过 [!DNL Target] 请求，因此未加载到 [!DNL Target] UI，您可以使用 [!UICONTROL 添加响应令牌] 按钮以将配置文件添加到UI。
 
    单击 **[!UICONTROL 添加响应令牌]**，提供令牌名称，然后单击 **[!UICONTROL 激活]**.
 
-   ![response_token_create图像](assets/response_token_create.png)
+   ![response_token_创建图像](assets/response_token_create.png)
 
 1. 创建一个活动。
 
 ## 侦听响应并读取响应令牌
 
-用于监听的进程 [!DNL Target] 根据您是否拥有 [!DNL Platform Web SDK] 或at.js实施。
+您用来侦听的进程 [!DNL Target] 根据您是否拥有 [!DNL Platform Web SDK] 或at.js实施。
 
 ### ![Adobe Experience Platform Web SDK徽章](/help/main/assets/platform.png) [!DNL Platform Web SDK] 使用Handle对象类 {#platform-web-sdk}
 
-使用Handle对象类，该类具有要监听的元数据对象和数据对象 [!DNL Target] 响应并读取响应令牌。
+使用Handle对象类，该类具有要侦听的元数据对象和数据对象 [!DNL Target] 响应并读取响应令牌。
 
-以下响应示例添加了 [!DNL Platform Web SDK] 直接到“HTML”页的自定义事件处理程序（该表说明了代码中使用的对象）：
+以下响应示例添加了 [!DNL Platform Web SDK] 直接访问“HTML”页的自定义事件处理程序（该表说明了代码中使用的对象）：
 
 | 对象 | 信息 |
 | --- | --- |
-| 类型 — Personalization.decision | 是否由 [!DNL Target] 或Offer decisioning提供程序。 |
-| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] 向页面提供响应令牌元数据和值。 |
+| 类型 — Personalization.decision | 该决定是否由 [!DNL Target] 或Offer decisioning提供商。 |
+| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] 为页面提供响应令牌元数据和值。 |
 | Meta | 传递到页面的元数据。 |
 | 数据 | 传递到页面的元数据的值。 |
 
@@ -147,7 +147,7 @@ ht-degree: 26%
 </html>
 ```
 
-### ![at.js徽章](/help/main/assets/atjs.png) 使用自定义事件的at.js
+### ![at.js徽章](/help/main/assets/atjs.png) at.js使用自定义事件
 
 使用 [at.js 自定义事件](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en)来监听 响应并读取响应令牌。{target=_blank}[!DNL Target]
 
@@ -174,7 +174,7 @@ ht-degree: 26%
 
 **激活或停用响应令牌需要使用哪个角色？**
 
-响应令牌只能由具有的用户激活或停用 [!DNL Target] [!UICONTROL 管理员] 角色。
+响应令牌只能由具有以下特性的用户激活或停用： [!DNL Target] [!UICONTROL 管理员] 角色。
 
 **如果我跑了怎么办 [!DNL Platform Web SDK] 2.6.0（或更低版本）？**
 
@@ -190,35 +190,35 @@ ht-degree: 26%
 
 **响应令牌是否通过所有传递 [!DNL Target] 响应或仅通过 [!DNL Target] 响应投放活动？**
 
-响应令牌仅通过以下方式交付 [!DNL Target] 投放活动的响应。
+响应令牌仅通过以下方式交付 [!DNL Target] 提交活动的响应。
 
 **我的 [!DNL Target Classic] 插件包含JavaScript。 如何使用响应令牌复制其功能？**
 
-迁移到响应令牌时，必须将此类型的JavaScript保存在代码库或标签管理解决方案中。 您可以通过以下方式触发此代码 [!DNL Platform Web SDK] 或 [!DNL at.js] 自定义事件并将响应令牌值传递给您的JavaScript函数。
+迁移到响应令牌时，必须将此类型的JavaScript保留在代码库或标签管理解决方案中。 您可以通过以下方式触发此代码 [!DNL Platform Web SDK] 或 [!DNL at.js] 自定义事件并将响应令牌值传递给您的JavaScript函数。
 
 **为什么我的配置文件/客户属性参数不会显示在响应令牌列表中？**
 
-[!DNL Target] 通常每15分钟刷新一次参数。 此刷新取决于用户操作，并且仅在您查看响应令牌页面时刷新数据。 如果您的参数未显示在响应令牌列表中， [!DNL Target] 尚未刷新数据。
+[!DNL Target] 通常每15分钟刷新一次参数。 此刷新取决于用户操作，仅当查看响应令牌页面时才刷新数据。 如果您的参数未显示在响应令牌列表中， [!DNL Target] 尚未刷新数据。
 
-此外，如果您的参数只包含非字母数字字符或下划线以外的任何符号，则该参数不会出现在列表中。 目前，仅支持字母数字和下划线字符。
+此外，如果参数包含非字母数字字符或下划线以外的任何符号，则该参数不会出现在列表中。 目前，仅支持字母数字和下划线字符。
 
 **如果响应令牌使用已删除的配置文件脚本或配置文件参数，它是否仍会交付内容？**
 
-响应令牌从用户配置文件中提取信息，然后交付该信息。如果删除配置文件脚本或参数，并不意味着该信息已从用户配置文件中删除。用户配置文件仍然具有与配置文件脚本对应的数据。 响应令牌继续交付内容。 对于未将该信息保存在其配置文件中的用户或新访客，不会提供该令牌，因为数据不存在于其配置文件中。
+响应令牌从用户配置文件中提取信息，然后交付该信息。如果删除配置文件脚本或参数，并不意味着该信息已从用户配置文件中删除。用户配置文件仍然具有与配置文件脚本对应的数据。 响应令牌将继续交付内容。 对于未在配置文件中保存该信息的用户或者新访客，不会交付该令牌，因为数据不存在于其配置文件中。
 
 [!DNL Target] 不会自动关闭令牌。 如果您要删除配置文件脚本并且不再希望交付该令牌，则必须自行关闭该令牌。
 
 **我重命名了我的配置文件脚本，但为什么使用该脚本的令牌仍使用旧名称？**
 
-如上所述，响应令牌处理的是为用户保存的配置文件信息。即使您重命名了配置文件脚本，但访问过您网站的用户仍会将旧的配置文件脚本值保存在其配置文件中。 令牌会继续选取已保存在用户配置文件中的旧值。 如果您现在想要以新名称交付内容，则必须关闭以前的令牌，然后打开新令牌。
+如上所述，响应令牌处理的是为用户保存的配置文件信息。即使您重命名了配置文件脚本，但访问过您网站的用户会在其配置文件中保存旧的配置文件脚本值。 令牌会继续选取已保存在用户配置文件中的旧值。 如果您现在想要以新名称交付内容，则必须关闭以前的令牌，然后打开新令牌。
 
-**如果我的属性已更改，何时会从列表中删除它们？**
+**如果我的属性已更改，何时会将其从列表中移除？**
 
-[!DNL Target] 会定期刷新属性。任何未切换的属性都会在下次刷新时删除。 但是，如果您有一个已打开并已删除的属性，则该脚本不会从属性列表中删除，直到您将其关闭为止。 例如，您删除了用作令牌的配置文件脚本。 [!DNL Target]如果删除或重命名属性， 只会从列表中删除已关闭的属性。
+[!DNL Target] 会定期刷新属性。任何未切换的属性将在下次刷新时删除。 但是，如果您具有已打开并已删除的属性，则在将其关闭之前，不会将该脚本从属性列表中删除。 例如，您删除了用作令牌的配置文件脚本。 [!DNL Target]如果删除或重命名属性， 只会从列表中删除已关闭的属性。
 
 ## 向Google Analytics发送数据
 
-以下部分介绍了如何发送 [!DNL Target] 数据到Google Analytics。 响应令牌发送的数据也可以发送到其他第三方集成。
+以下各节介绍如何发送 [!DNL Target] 数据到Google Analytics。 由响应令牌发送的数据也可以发送到其他第三方集成。
 
 ### ![AEP徽章](/help/main/assets/platform.png) 通过Platform Web SDK向Google Analytics发送数据
 
@@ -282,64 +282,50 @@ ht-degree: 26%
 通过在 HTML 页面中添加以下代码，即可通过 at.js 向 Google Analytics 发送数据：
 
 ```javascript
-<script type="text/javascript"> 
-  (function(i, s, o, g, r, a, m) { 
-    i['GoogleAnalyticsObject'] = r; 
-    i[r] = i[r] || function() { 
-      (i[r].q = i[r].q || []).push(arguments) 
-    }, i[r].l = 1 * new Date(); 
-    a = s.createElement(o), 
-      m = s.getElementsByTagName(o)[0]; 
-    a.async = 1; 
-    a.src = g; 
-    m.parentNode.insertBefore(a, m) 
-  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
-  ga('create', 'Google Client Id', 'auto'); 
-</script> 
- 
-<script type="text/javascript"> 
-  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-    var tokens = e.detail.responseTokens; 
- 
-    if (isEmpty(tokens)) { 
-      return; 
-    } 
- 
-    var activityNames = []; 
-    var experienceNames = []; 
-    var uniqueTokens = distinct(tokens); 
- 
-    uniqueTokens.forEach(function(token) { 
-      activityNames.push(token["activity.name"]); 
-      experienceNames.push(token["experience.name"]); 
-    }); 
- 
-    ga('send', 'event', { 
-      eventCategory: "target", 
-      eventAction: experienceNames, 
-      eventLabel: activityNames 
-    }); 
-  }); 
- 
-  function isEmpty(val) { 
-    return (val === undefined || val == null || val.length <= 0) ? true : false; 
-  } 
- 
-  function key(obj) { 
-     return Object.keys(obj) 
-    .map(function(k) { return k + "" + obj[k]; }) 
-    .join(""); 
-  } 
- 
-  function distinct(arr) { 
-    var result = arr.reduce(function(acc, e) { 
-      acc[key(e)] = e; 
-      return acc; 
-    }, {}); 
-   
-    return Object.keys(result) 
-    .map(function(k) { return result[k]; }); 
-  } 
+<script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
+
+<script type="text/javascript">
+    document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
+        var tokens = e.detail.responseTokens;
+
+        if (isEmpty(tokens)) {
+            return;
+        }
+
+        var activityNames = [];
+        var experienceNames = [];
+        var uniqueTokens = distinct(tokens);
+
+        uniqueTokens.forEach(function(token) {
+            activityNames.push(token["activity.name"]);
+            experienceNames.push(token["experience.name"]);
+        });
+
+        gtag('config', 'TAG_ID');
+        gtag('event', 'action_name', {'eventCategory': 'target',
+            'eventAction': experienceNames, 'eventLabel': activityNames
+        });
+    });
+
+    function isEmpty(val) {
+        return (val === undefined || val == null || val.length <= 0) ? true : false;
+    }
+
+    function key(obj) {
+        return Object.keys(obj)
+        .map(function(k) { return k + "" + obj[k]; })
+        .join("");
+    }
+
+    function distinct(arr) {
+        var result = arr.reduce(function(acc, e) {
+            acc[key(e)] = e;
+            return acc;
+        }, {});
+
+        return Object.keys(result)
+        .map(function(k) { return result[k]; });
+    }
 </script>
 ```
 
@@ -349,7 +335,7 @@ ht-degree: 26%
 
 ### ![at.js徽章](/help/main/assets/atjs.png) Google Analytics和调试
 
-以下代码允许您使用Google Analytics调试：
+以下代码允许您使用Google Analytics进行调试：
 
 ```javascript
 <script type="text/javascript"> 
@@ -472,6 +458,6 @@ ht-degree: 26%
 >
 >[!DNL Target][!UICONTROL 管理] 菜单 UI（以前的[!UICONTROL 设置]）经过重新设计，以提供更好的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。以下视频中的信息正确；但是，选项的位置略有不同。
 >
->视频提及 `option.name` 和 `option.id`，已替换为 `offer.name` 和 `offer.id`，则不会显示任何内容。
+>视频提及 `option.name` 和 `option.id`，已替换为 `offer.name` 和 `offer.id`、ID名称和ID名称等。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)

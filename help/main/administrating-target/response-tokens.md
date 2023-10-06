@@ -1,13 +1,13 @@
 ---
-keywords: 响应令牌；令牌；插件；插件；at.js；响应；平台web sdk
+keywords: 响应令牌；令牌；插件；插件；at.js；响应；平台web sdk；google analytics
 description: 了解如何在中使用响应令牌 [!DNL Adobe Target] 输出特定的信息，用于调试并与第三方工具集成。
 title: 什么是响应令牌？如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1681'
 ht-degree: 27%
 
 ---
@@ -218,7 +218,7 @@ ht-degree: 27%
 
 ## 向Google Analytics发送数据
 
-以下各节介绍如何发送 [!DNL Target] 数据到Google Analytics。 由响应令牌发送的数据也可以发送到其他第三方集成。
+以下各节介绍如何发送 [!DNL Target] 数据到Google Analytics4. 由响应令牌发送的数据也可以发送到其他第三方集成。
 
 ### ![AEP徽章](/help/main/assets/platform.png) 通过Platform Web SDK向Google Analytics发送数据
 

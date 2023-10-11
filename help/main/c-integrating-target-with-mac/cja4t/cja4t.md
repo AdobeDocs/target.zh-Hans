@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 source-git-commit: 2480578b3e26cfbb5881700c2a09b5b6e2dabba2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 88%
 
 [!DNL Customer Journey Analytics for Target] (CJA4T) 与 [Adobe Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} 和 [!DNL Target] 进行集成，为优化项目提供强大而又节省时间的分析工具。
 
-使用的主要优势 [!DNL Customer Journey Analytics] 作为的报表源 [!DNL Target] 为：
+将 [!DNL Customer Journey Analytics] 用作 [!DNL Target] 的报告源主要有以下好处：
 
 * 营销人员可以随时将 [!DNL Customer Journey Analytics] 成功量度动态应用到 [!DNL Target] 活动报表。在运行活动之前什么都不需要指定。
-* 充分利用 [!DNL Customer Journey Analytics] 功能，例如 [“试验”面板](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html){target=_blank}，以进一步分析您的网站个性化。
-* 拥有针对以下项的单一报表源： [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html){target=_blank} 和 [!DNL Target]. 两个个性化产品都可以连接到 [!DNL Customer Journey Analytics] 以更全面地了解您的Web个性化。
+* 利用如[“试验”面板](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html){target=_blank}等 [!DNL Customer Journey Analytics] 功能进一步分析您的网站个性化情况。
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html){target=_blank} 和 [!DNL Target] 只需一个报告源。可将这两种个性化产品都连接到 [!DNL Customer Journey Analytics] 以更全面地了解您的 Web 个性化情况。
 
 ## 注意事项
 
@@ -37,8 +37,8 @@ ht-degree: 88%
 * 使用一个报表源或另一个。您无法将单个活动的数据收集到多个报表源中。
 * 在设置 [!DNL Customer Journey Analytics] 作为您的报表源时，系统会提示您指定用于报表的沙盒。在配置期间，您只能看到您有权访问的沙盒。
 * 任何现有 [!DNL Target] 活动继续使用 [!DNL Target] 数据收集，不受启用 CJA4T 的影响。
-* 要使用CJA4T，首选的实施方法是 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. 如果您当前没有 [!DNL Adobe Experience Platform Web SDK] 实施，您还可以创建 [[!DNL Adobe Analytics] 源连接](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) 将数据导入 [!DNL Adobe Experience Platform].
-* 有关时间的任何问题，请参见 [延迟注意事项](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#latency){target=_blank} 在 *常见问题解答* 在 *[!DNL Adobe Customer Analytics]指南*.
+* 要使用 CJA4T，首选的实施方法是{target=_blank} and [!DNL Target] implemented through the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html)。如果您当前未实施 [!DNL Adobe Experience Platform Web SDK]，则还可创建 [[!DNL Adobe Analytics] 源连接](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans)以将数据引入到 [!DNL Adobe Experience Platform] 中。
+* 有关计时如有任何疑问，请参阅 *[!DNL Adobe Customer Analytics]指南*&#x200B;中的“常见问题解答”**&#x200B;中的[延迟注意事项](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#latency){target=_blank}。
 
 ## 支持的活动类型 {#supported-activities}
 

@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -29,14 +29,14 @@ ht-degree: 93%
 
 * **10 月 4 日**：亚太 (APAC) 地区
 * **10 月 5 日**：欧洲、中东和非洲 (EMEA) 地区
-* **10 月 6 日**：美洲区域
+* **10 月 6 日**：美洲地区
 
 此版本包含以下增强和修复：
 
 | 功能 | 详细信息 |
 | --- | --- |
-| [!UICONTROL 活动] UI 更新<P>和<P>[!UICONTROL 信息源] UI 更新 | 在 [!DNL Adobe Target] 团队持续改善 [!DNL Target] 用户的用户体验过程中，此版本更新了 [!DNL Target] UI 中的[!UICONTROL 活动]和 [!DNL Recommendations] [!UICONTROL 信息源]页面。此更新统一了以前不一致的设计模式并使其标准化，同时添加了新的增强。<P>有关详细信息，请参阅 [活动](/help/main/c-activities/activities.md) 和 [信息源](/help/main/c-recommendations/c-products/feeds.md). |
-| [!DNL Recommendations] 实现模式 | 此 *使用at.js的Recommendations实施模式* 文章可帮助您了解和创建 [!DNL Adobe Target Recommendations] 在使用at.js JavaScript库时实施。<P>有关更多信息，请参阅 [使用at.js的Recommendations实施模式概述](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} 在 *Adobe Target开发人员指南*. |
+| [!UICONTROL 活动] UI 更新<P>和<P>[!UICONTROL 信息源] UI 更新 | 在 [!DNL Adobe Target] 团队持续改善 [!DNL Target] 用户的用户体验过程中，此版本更新了 [!DNL Target] UI 中的[!UICONTROL 活动]和 [!DNL Recommendations] [!UICONTROL 信息源]页面。此更新统一了以前不一致的设计模式并使其标准化，同时添加了新的增强。<P>有关更多信息，请参阅[活动](/help/main/c-activities/activities.md)和[信息源](/help/main/c-recommendations/c-products/feeds.md)。 |
+| [!DNL Recommendations] 实施模式 | “使用 at.js 的 Recommendations 实施模式”**&#x200B;文章帮助您在使用 at.js JavaScript 库时了解和创建您的 [!DNL Adobe Target Recommendations] 实施。<P>有关更多信息，请参阅 *Adobe Target 开发人员指南*&#x200B;中的[使用 at.js 的 Recommendations 实施模式概述](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}。 |
 
 * 添加了针对动态框架的[!UICONTROL 视觉体验编辑器] (VEC) 增强。(TGT-44064)
 * 修复了一个问题，该问题导致无法正确地更新在 `getViewInAnalyticsId` 请求中选择的日期。此修复有助于在更改日期范围和量度报告设置后重新计算报告中的 [!DNL Analytics] 链接。(TGT-46246)

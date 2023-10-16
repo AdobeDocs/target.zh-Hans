@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
 workflow-type: tm+mt
 source-wordcount: '2078'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 | 10 月 11 日 | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | 更新了有关对的A4T支持的信息 [!DNL Adobe Experience Platform Web SDK]. |
 | 10 月 10 日 | [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 添加了 at.js 版本 2.11.0 的发行说明。 |
 | 10 月 6 日 | [响应令牌](/help/main/administrating-target/response-tokens.md) | 更新了所有代码示例。 |
-|  | [在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动分配]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hans){target=_blank} | 在中更新了整个教程 *[!UICONTROL Adobe TargetTutorials]* 指南。 |
+|  | [在 [!DNL Analysis Workspace] 中为[!UICONTROL 自动分配]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hans){target=_blank} | 更新了 *[!UICONTROL Adobe Target 教程]*&#x200B;指南中的整个教程。 |
 | 10 月 4 日 | [活动](/help/main/c-activities/activities.md) | 更新了文本和图像以反映 [!DNL Target] 23.9.4 版中包含的 UI 更新。 |
 |  | [信息源](/help/main/c-recommendations/c-products/feeds.md) | 更新了文本和图像以反映 [!DNL Target] 23.9.4 版中包含的 UI 更新。 |
 | 10 月 2 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.9.3 版的发行说明。 |
@@ -128,7 +128,7 @@ ht-degree: 98%
 |  | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hans){target=_blank} | 添加了注释以将所有 [!DNL Adobe Analytics] IP 地址块列入允许列表。 |
 | 3 月 30 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 更新了[!UICONTROL 自动分配]和[!UICONTROL 自动定位]功能的优化 A4T 量度的版本的发行说明，可让您在使用 [!UICONTROL A4T] 进行[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动时，根据二项式事件或连续事件选择量度。 |
 |  | [[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 更新了“支持的目标量度”部分，以包含有关使用 [!UICONTROL Analytics for Target] (A4T) [!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动的支持（和不支持）的量度的信息 |
-|  | [Adobe Target 教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hans){target=_blank} | 更新了以下教程：<ul><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动分配]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hans){target=_blank}</li><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动定位]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hans){target=_blank}</li></ul> |
+|  | [Adobe Target 教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hans){target=_blank} | 更新了以下教程：<ul><li>[在 [!DNL Analysis Workspace] 中为[!UICONTROL 自动分配]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hans){target=_blank}</li><li>[在 [!DNL Analysis Workspace] 中为[!UICONTROL 自动定位]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hans){target=_blank}</li></ul> |
 |  | [Target 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了 [!DNL Adobe Experience Manager] (AEM) 和 [!DNL Adobe Target] [!UICONTROL 内容片段]版本的信息。（2023 年 4 月 6 日） |
 | 3 月 28 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.3.1 版的发行说明。 |
 

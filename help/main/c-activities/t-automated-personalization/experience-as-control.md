@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: a9508c4bc454faeb8d6763677cce17a264a4a70f
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '785'
 ht-degree: 42%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 42%
 
 ## 指定特定体验作为控制
 
-1. 创建 [[!UICONTROL Automated Personalization] 活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 或 [[!UICONTROL 自动定位] 活动](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，根据需要配置体验。
+1. 创建或编辑 [[!UICONTROL Automated Personalization] 活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 或 [[!UICONTROL 自动定位] 活动](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，根据需要配置体验。
 1. 在“[!UICONTROL 定位]”页面（三步引导式工作流的步骤 2）上，选择所需的体验作为控制。
 1. 为控制体验和其他体验指定所需的流量分配。
 

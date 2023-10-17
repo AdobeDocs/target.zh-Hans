@@ -4,7 +4,7 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5e77907694ae65f9f2d20b0fe0264b7b03fa290a
+source-git-commit: e005c497f8afc4cda39148f6245fa025d447f1bd
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
@@ -22,7 +22,6 @@ ht-degree: 100%
 >除本指南外，还提供了以下 [!DNL Adobe Target] 指南：
 >
 >- [*Adobe Target 开发人员指南*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans){target=_blank}
->
 >- [*Adobe Target 教程*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hans){target=_blank}
 >
 >有关发行信息，请参阅本指南中的 [Target 发行说明（最新）](/help/main/r-release-notes/release-notes.md)。

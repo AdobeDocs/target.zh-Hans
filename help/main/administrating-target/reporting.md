@@ -5,10 +5,10 @@ title: 如何在Target中配置报表？
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 30%
+source-wordcount: '690'
+ht-degree: 31%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->请注意，要排除设置的时区、货币和IP地址适用于使用的活动 [!DNL Target] 报表。 这些设置不适用于使用 [Analytics for Target (A4T)] 作为报表源(/help/main/c-integrating-target-with-mac/a4t/a4t.md)。
+>请注意，要排除设置的时区、货币和IP地址适用于使用的活动 [!DNL Target] 报表。 这些设置不适用于使用 [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 作为报表源。
 
 ![报告页面](/help/main/administrating-target/assets/reporting.png)
 

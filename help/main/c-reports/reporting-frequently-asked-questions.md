@@ -4,9 +4,9 @@ description: 浏览有关Adobe的常见问题和答案的列表 [!DNL Target] �
 title: 可在何处找到关于以下内容的问题的答案： [!DNL Target] 报告？
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
+source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1376'
 ht-degree: 27%
 
 ---
@@ -102,7 +102,7 @@ XT 活动应始终包含一个控制体验。如果您使用 XT 活动的方式�
 
 ### 您没有任何分配给控制体验的流量
 
-如果某个活动的内容已成功交付给用户，但其报表中没有任何数据，请确保已将流量分配给控制体验。
+如果某个活动的内容已成功交付给用户，但其报表中没有任何数据，请确保使用具有流量的体验作为控制体验。
 
 1. 单击&#x200B;**[!UICONTROL 活动]**，从列表中单击所需活动，然后单击&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡。
 1. 单击齿轮图标以配置报表设置。

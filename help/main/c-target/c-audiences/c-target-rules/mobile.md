@@ -1,12 +1,12 @@
 ---
 keywords: 定位;移动设备;Target 移动设备;DeviceAtlas;iPhone;iPhone 机型;Device Atlas;displaywidth;显示屏宽度;显示屏高度;设备类型;displayheight;手机;平板电脑;设备型号
-description: 了解如何在中创建受众 [!DNL Adobe Target] 定位移动设备。
+description: 了解如何在中创建受众 [!DNL Adobe Target] 以定位移动设备。
 title: 我是否可以根据移动设备选项定位访客？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 0f51f2a8c501ebfc2f11aebd9bfc434160a6b471
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '675'
 ht-degree: 39%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 39%
 
 在中创建受众 [!DNL Adobe Target] 根据移动设备、设备类型、设备供应商、屏幕尺寸等参数定位移动设备。
 
-例如，您可能希望向使用手机访问您页面的用户显示与使用计算机访问您页面时显示的内容不同的内容。 在这种情况下，您可以选择 [!UICONTROL 移动设备] 受众，然后选择 **[!UICONTROL 是手机]** 选项。 然后，您可以添加任何对您而言重要的特定详细信息，例如手机类型、屏幕大小（以像素为单位）等。
+例如，您可能希望向使用手机访问您页面的用户显示与使用计算机访问您页面时显示的内容不同的内容。 在这种情况下，您可以选择 [!UICONTROL 移动设备] 受众，然后选择 **[!UICONTROL 是手机]** 选项。 然后，您可以添加任何对您而言重要的特定详细信息，例如手机类型、屏幕大小（以像素为单位）等等。
 
 移动设备定位是由 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 提供的，属于 DotMobi 的一个服务。DeviceAtlas 是一种综合的移动设备数据库，它基于从众多来源收集的数据构建，其中包括制造商和网络运营商。然后，系统对这些数据进行确认、交叉引用和验证，以构建准确的大型移动设备数据库。
 
@@ -23,7 +23,7 @@ ht-degree: 39%
 
 例如，Apple 设备不会在用户-代理中共享特定于设备型号的令牌。结果是无法使用基于关键字的简单方法检测iPhone模型(例如iPhone 12 Pro、iPhone 12、iPhone 11 Pro Max等)。
 
-要解决此问题， [!DNL Target] 收集其他数据，使用以下参数准确检测iPhone和其他Apple设备：
+要解决此问题， [!DNL Target] 收集其他数据，以使用以下参数准确检测iPhone和其他Apple设备：
 
 | 参数 | 类型 | 描述 |
 |--- |--- |--- |
@@ -33,14 +33,14 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->使用Mobile SDK的客户无需执行任何操作即可应用此功能。 使用at.js的客户必须 [升级到at.js版本1.5.0](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (or later){target=_blank}.
+>使用Mobile SDK的客户无需执行任何操作即可应用此功能。 使用at.js的客户必须 [升级到at.js版本1.5.0](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} （或更高版本）。
 
 您可以选择多个移动设备属性。使用OR运算符连接多个选择。
 
 使用自定义集成（不使用 at.js 或 Mobile SDK）的客户可以自己收集这些参数并将其作为 mbox 参数传递。
 
 1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
-1. 为受众命名并添加可选描述。
+1. 命名受众并添加可选描述。
 1. 拖放 **[!UICONTROL 移动设备]** 放入受众生成器窗格。
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
@@ -71,13 +71,13 @@ ht-degree: 39%
 
 ### 定位运行iOS 12.2或更高版本的设备
 
-由于iOS 12.2中引入的新更改，使用定义的规则创建受众 [!UICONTROL 设备营销名称] 和 [!UICONTROL 设备型号] 指定iPhone模型的规则会受到影响。 [!DNL Target] 无法再定位安装了iOS 12.2（或更高版本）的iPhone的用户。 但是，如果这些用户没有iOS 12.2（或更高版本），则iPhone模型定位将继续正常使用。
+由于iOS 12.2中引入了新更改，使用定义的规则创建受众。 [!UICONTROL 设备营销名称] 和 [!UICONTROL 设备型号] 指定iPhone模型的规则会受到影响。 [!DNL Target] 无法再定位安装了iOS 12.2（或更高版本）的iPhone的用户。 但是，如果这些用户没有iOS 12.2（或更高版本），则iPhone模型定位将继续正常工作。
 
-iOS 12.2（或更高版本）更新不会影响以下模型的识别，因为这些模型不支持升级到iOS 12.2：iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad/Retina显示屏、iPad Retina（第4代）、iPod Touch 4和iPod Touch 5。
+iOS 12.2（或更高版本）更新不会影响以下模型的识别，因为这些模型不支持升级到iOS 12.2：iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad / Retina显示屏、iPad Retina（第4代）、iPod Touch 4和iPod Touch 5。
 
 ### 定位运行Safari 14.0.2（或更高版本）的设备
 
-使用移动规则来定位在macOS上运行Safari版本14.0.2（或更高版本）的设备时，由于Apple的用户代理和DeviceAtlas之间存在一个已知问题， [!DNL Target] 在Mac和iPad设备上错误地识别Safari。 这一问题将在未来得到解决。
+使用移动规则来定位在macOS上运行Safari版本14.0.2（或更高版本）的设备时，由于Apple的用户代理和DeviceAtlas之间存在已知问题， [!DNL Target] 在Mac和iPad设备上错误地识别Safari。 此问题将在将来得到解决。
 
 ## 培训视频：创建受众
 

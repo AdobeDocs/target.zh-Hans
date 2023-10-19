@@ -1,13 +1,13 @@
 ---
 keywords: 混合内容;安全;不安全;chrome;故障排除;vec;可视体验编辑器;不安全;http;https;firefox;internet explorer
-description: 了解如何在中启用混合内容 [!DNL Chrome]， [!DNL Firefox]、和 [!DNL Edge].
+description: 了解如何在  [!DNL Chrome]、 [!DNL Firefox] 和  [!DNL Edge] 中启用混合内容。
 title: 如何在我的浏览器中启用混合内容
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 64%
 
 如果安全内容与不安全内容混合在一起，现代浏览器可能会阻止页面显示或者显示警告消息。
 
-如果 [!DNL Adobe Target] 中的[!UICONTROL 可视体验编辑器] (VEC) 尝试打开包含混合内容的页面，则会显示警告消息。此消息告知您如何在浏览器中禁用阻止。禁用阻止可让您打开HTTP网站或包含混合内容（HTTPS和HTTP）的网站。
+如果 [!DNL Adobe Target] 中的[!UICONTROL 可视体验编辑器] (VEC) 尝试打开包含混合内容的页面，则会显示警告消息。此消息告知您如何在浏览器中禁用阻止。通过禁用阻止，可打开 HTTP 网站或具有混合内容（HTTPS 和 HTTP）的网站。
 
 ![混合内容警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -33,13 +33,13 @@ ht-degree: 64%
 
 有关更多信息，请参阅“Mozilla 开发人员网络”**(MDN) 网站上的[混合内容](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content)。
 
-## 在中启用混合内容 [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
+## 在 [!DNL Google Chrome] 中启用混合内容 {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-如果您通过安全连接访问站点， [!DNL Chrome] 验证网页上的内容是否已安全地传输。
+如果通过安全连接访问网站，则 [!DNL Chrome] 确认已安全地传输了网页上的内容。
 
-请参阅&quot;[管理有关不安全站点的警告](https://support.google.com/chrome/answer/99020?hl=en)”在Google Chrome帮助中。
+请参阅 Google Chrome 帮助中的“[管理有关不安全网站的警告](https://support.google.com/chrome/answer/99020?hl=en)”。
 
-如果您正在将VEC与最新版本的 [!DNL Chrome] （版本79.0.3945.117或更高版本），您必须更新网站设置。 您网站的访客无需完成这些步骤。
+如果将 VEC 用于 [!DNL Chrome] 的最新版本（版本 79.0.3945.117 或更高版本），则必须更新网站设置。您网站的访客无需完成这些步骤。
 
 1. 单击锁（请小心）图标，然后单击&#x200B;**[!UICONTROL 网站设置]**。
 
@@ -51,12 +51,12 @@ ht-degree: 64%
 
 1. 重新加载 VEC 页面。
 
-## 在中启用混合内容 [!DNL Mozilla Firefox] {#task_5448763B8DC941FD80F84041AEF0A14D}
+## 在 [!DNL Mozilla Firefox] 中启用混合内容 {#task_5448763B8DC941FD80F84041AEF0A14D}
 
-默认情况下， [!DNL Firebox] 阻止将安全内容和不安全内容混合在一起的页面。 您应该永久更改此设置以便使用 [!DNL Target]. 您网站的访客无需完成这些步骤。
+默认情况下，[!DNL Firebox] 阻止混合安全和不安全内容的页面。应永久更改此设置以使用 [!DNL Target]。您网站的访客无需完成这些步骤。
 
 1. 在 Firefox 的地址栏中输入 `about:config`。
-1. 确认显示的警告消息 [!DNL Firefox].
+1. 确认收到 [!DNL Firefox] 显示的警告消息。
 
    ![Firefox 警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
 
@@ -72,16 +72,16 @@ ht-degree: 64%
 
 1. 在更改此设置后重新启动计算机。
 
-## 在中启用混合内容 [!DNL Microsoft Edge]
+## 在 [!DNL Microsoft Edge] 中启用混合内容
 
-如果您通过安全连接访问站点， [!DNL Edge] 验证网页上的内容是否已安全地传输。
+如果通过安全连接访问网站，则 [!DNL Edge] 确认已安全地传输了网页上的内容。
 
-如果您正在将VEC与最新版本的 [!DNL Edge]中，您必须更新网站设置。 您网站的访客无需完成这些步骤。
+如果将 VEC 用于 [!DNL Edge] 的最新版本，则必须更新网站设置。您网站的访客无需完成这些步骤。
 
-1. 在 [!DNL Edge]，单击 **[!DNL Microsoft Edge]** 在菜单栏中， **[!UICONTROL 设置]**，然后单击 **Cookie和网站权限**.
+1. 在 [!DNL Edge] 中，单击菜单栏中的 **[!DNL Microsoft Edge]**、**[!UICONTROL 设置]**，然后单击 **Cookie 和网站权限**。
 
-1. 滚动到 **[!UICONTROL 不安全的内容]**.
+1. 滚动到&#x200B;**[!UICONTROL 不安全的内容]**。
 
-1. 单击 **[!UICONTROL 不安全的内容]**，然后单击 **[!UICONTROL 添加]** 旁边 **[!UICONTROL 允许]**，添加允许不安全内容的站点，然后单击 **[!UICONTROL 添加]**.
+1. 单击&#x200B;**[!UICONTROL 不安全的内容]**，然后单击&#x200B;**[!UICONTROL 允许]**&#x200B;旁的&#x200B;**[!UICONTROL 添加]**，添加要在其上允许不安全内容的网站，然后单击&#x200B;**[!UICONTROL 添加]**。
 
 1. 重新加载 VEC 页面。

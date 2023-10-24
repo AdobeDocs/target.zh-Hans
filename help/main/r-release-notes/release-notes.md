@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
-workflow-type: ht
-source-wordcount: '804'
-ht-degree: 100%
+source-git-commit: 594999c57d10d88d48f34599e67cbf6649351aa9
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 77%
 
 ---
 
@@ -19,60 +19,15 @@ ht-degree: 100%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target] Standard/Premium 23.9.4（2023 年 10 月 4-6 日）
-
-将按以下交错的时间表发布此版本：
-
-* **10 月 4 日**：亚太 (APAC) 地区
-* **10 月 5 日**：欧洲、中东和非洲 (EMEA) 地区
-* **10 月 6 日**：美洲地区
+## [!DNL Target] Standard/Premium 23.10.2（2023年10月24日）
 
 此版本包含以下增强和修复：
 
-| 功能 | 详细信息 |
-| --- | --- |
-| [!UICONTROL 活动] UI 更新<P>和<P>[!UICONTROL 信息源] UI 更新 | 在 [!DNL Adobe Target] 团队持续改善 [!DNL Target] 用户的用户体验过程中，此版本更新了 [!DNL Target] UI 中的[!UICONTROL 活动]和 [!DNL Recommendations] [!UICONTROL 信息源]页面。此更新统一了以前不一致的设计模式并使其标准化，同时添加了新的增强。<P>有关更多信息，请参阅[活动](/help/main/c-activities/activities.md)和[信息源](/help/main/c-recommendations/c-products/feeds.md)。 |
-| [!DNL Recommendations] 实施模式 | “使用 at.js 的 Recommendations 实施模式”**&#x200B;文章帮助您在使用 at.js JavaScript 库时了解和创建您的 [!DNL Adobe Target Recommendations] 实施。<P>有关更多信息，请参阅 *Adobe Target 开发人员指南*&#x200B;中的[使用 at.js 的 Recommendations 实施模式概述](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}。 |
-
-* 添加了针对动态框架的[!UICONTROL 视觉体验编辑器] (VEC) 增强。(TGT-44064)
-* 修复了一个问题，该问题导致无法正确地更新在 `getViewInAnalyticsId` 请求中选择的日期。此修复有助于在更改日期范围和量度报告设置后重新计算报告中的 [!DNL Analytics] 链接。(TGT-46246)
-
-## [!DNL Target] Standard/Premium 23.9.3（2023 年 9 月 18 日）
-
-此版本包含以下增强和修复：
-
-* 增强了[!UICONTROL 视觉体验编辑器] (VEC) 以支持 Lightning Web 组件 (Light DOM)。(TGT-45422)
-* 修复了一个问题，该问题导致应用 VEC 操作的顺序有误。在某些情况下，VEC 异步地应用了某些修改，并且添加对某个元素的额外修改导致了错误（如果在[!UICONTROL 插入]操作后显示该元素）。还修复了现在单击锚点链接时更新的 VEC URL。(TGT-45983)
-* 修复了有关 VEC [!UICONTROL 叠加]功能的问题，此功能现在支持 Shadow DOM 中的元素。（TGT-45202 和 TGT-45262）
-* 修复了一个问题，在 VEC 中打开单页面应用程序 (SPA) 页面，然后转到[!UICONTROL 浏览]模式时，该问题导致“后退”和“前进”箭头无法正常工作。(TGT-45956)
-* 修复了导致某些网页无法在 VEC 中加载的问题。(TGT-45983)
-
-## [!DNL Target] Standard/Premium 23.9.2（2023 年 9 月 12 日至 14 日）
-
-将按以下交错的时间表发布此版本：
-
-* **9 月 12 日**：美洲地区
-* **9 月 13 日**：亚太 (APAC) 地区
-* **9 月 14 日**：欧洲、中东和非洲 (EMEA) 地区
-
-此版本包含以下增强和修复：
-
-* 将 [!DNL Analytics] API 改为新的 [!DNL Analytics] API 2.0 版本。(TGT-45345)
-* 修复了影响某些客户的 [!UICONTROL Automated Personalization] (AP) 活动的问题，包括及时同步 [!DNL Target] 后端上的活动以及在预览链接中投放预期的体验。(TGT-46202)
-
-## [!DNL Target] Standard/Premium 23.9.1（2023 年 9 月 6 日至 11 日）
-
-将按以下交错的时间表发布此版本：
-
-* **9 月 6 日**：美洲地区
-* **9 月 7 日**：欧洲、中东和非洲 (EMEA) 地区
-* **9 月 11 日**：亚太 (APAC) 地区
-
-此版本包含以下增强和修复：
-
-* 修复了一个问题，该问题导致将 [!UICONTROL Analytics for Target] (A4T) 用作报告源的[!UICONTROL 自动分配]活动在 [!DNL Target] UI 和 [!DNL Adobe Analytics] UI 中的报告数据不一致。(TGT-46112)
-* 将 PUT 调用目标投放 API 的超时延长到 15 秒以免发生超时错误。(TGT-46091)
-* 修复了一个问题，在浏览单页面应用程序 (SPA) 网站时，该问题阻止一致地更新 URL。(TGT-45417)
+* 增强了 [!UICONTROL 活动] UI，以便 [!UICONTROL 可视化体验编辑器] (VEC)打开，其中具有默认设置 `selectorCriteria` 创建新活动时。 (TGT-46586)
+* 修复了阻止某些客户编辑中的元素的问题。 [!UICONTROL Composer] 模式（使用VEC时）。 (TGT-46470)
+* 添加了使用自定义属性时指定通用首选选择器的功能。 (TGT-46545)
+* 修复了有时会阻止 [!UICONTROL 自动定位] 使用的报表 [!UICONTROL 目标分析] (A4T)显示在中 [!DNL Target] UI，即使报表在中正确显示 [!DNL Adobe Analysis Workspace]. (TGT-46494)
+* 更新了Target UI中各种本地化的字符串。 (TGT-18899)
 
 ## 其他发行说明和版本详细信息
 

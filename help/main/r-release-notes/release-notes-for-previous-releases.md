@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
+source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
 workflow-type: tm+mt
-source-wordcount: '37213'
+source-wordcount: '37635'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,43 @@ ht-degree: 96%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2023
+
+### [!DNL Target] Standard/Premium 23.9.4（2023 年 10 月 4-6 日）
+
+此版本包含以下增强和修复：
+
+| 功能 | 详细信息 |
+| --- | --- |
+| [!UICONTROL 活动] UI 更新<P>和<P>[!UICONTROL 信息源] UI 更新 | 在 [!DNL Adobe Target] 团队持续改善 [!DNL Target] 用户的用户体验过程中，此版本更新了 [!DNL Target] UI 中的[!UICONTROL 活动]和 [!DNL Recommendations] [!UICONTROL 信息源]页面。此更新统一了以前不一致的设计模式并使其标准化，同时添加了新的增强。<P>有关更多信息，请参阅[活动](/help/main/c-activities/activities.md)和[信息源](/help/main/c-recommendations/c-products/feeds.md)。 |
+| [!DNL Recommendations] 实施模式 | “使用 at.js 的 Recommendations 实施模式”**&#x200B;文章帮助您在使用 at.js JavaScript 库时了解和创建您的 [!DNL Adobe Target Recommendations] 实施。<P>有关更多信息，请参阅 *Adobe Target 开发人员指南*&#x200B;中的[使用 at.js 的 Recommendations 实施模式概述](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}。 |
+
+* 添加了针对动态框架的[!UICONTROL 视觉体验编辑器] (VEC) 增强。(TGT-44064)
+* 修复了一个问题，该问题导致无法正确地更新在 `getViewInAnalyticsId` 请求中选择的日期。此修复有助于在更改日期范围和量度报告设置后重新计算报告中的 [!DNL Analytics] 链接。(TGT-46246)
+
+### [!DNL Target] Standard/Premium 23.9.3（2023 年 9 月 18 日）
+
+此版本包含以下增强和修复：
+
+* 增强了[!UICONTROL 视觉体验编辑器] (VEC) 以支持 Lightning Web 组件 (Light DOM)。(TGT-45422)
+* 修复了一个问题，该问题导致应用 VEC 操作的顺序有误。在某些情况下，VEC 异步地应用了某些修改，并且添加对某个元素的额外修改导致了错误（如果在[!UICONTROL 插入]操作后显示该元素）。还修复了现在单击锚点链接时更新的 VEC URL。(TGT-45983)
+* 修复了有关 VEC [!UICONTROL 叠加]功能的问题，此功能现在支持 Shadow DOM 中的元素。（TGT-45202 和 TGT-45262）
+* 修复了一个问题，在 VEC 中打开单页面应用程序 (SPA) 页面，然后转到[!UICONTROL 浏览]模式时，该问题导致“后退”和“前进”箭头无法正常工作。(TGT-45956)
+* 修复了导致某些网页无法在 VEC 中加载的问题。(TGT-45983)
+
+### [!DNL Target] Standard/Premium 23.9.2（2023 年 9 月 12 日至 14 日）
+
+此版本包含以下增强和修复：
+
+* 将 [!DNL Analytics] API 改为新的 [!DNL Analytics] API 2.0 版本。(TGT-45345)
+* 修复了影响某些客户的 [!UICONTROL Automated Personalization] (AP) 活动的问题，包括及时同步 [!DNL Target] 后端上的活动以及在预览链接中投放预期的体验。(TGT-46202)
+
+### [!DNL Target] Standard/Premium 23.9.1（2023 年 9 月 6 日至 11 日）
+
+此版本包含以下增强和修复：
+
+* 修复了一个问题，该问题导致将 [!UICONTROL Analytics for Target] (A4T) 用作报告源的[!UICONTROL 自动分配]活动在 [!DNL Target] UI 和 [!DNL Adobe Analytics] UI 中的报告数据不一致。(TGT-46112)
+* 将 PUT 调用目标投放 API 的超时延长到 15 秒以免发生超时错误。(TGT-46091)
+* 修复了一个问题，在浏览单页面应用程序 (SPA) 网站时，该问题阻止一致地更新 URL。(TGT-45417)
 
 ### [!DNL Adobe Target] 计划的边缘基础设施升级 {#edge}
 
@@ -104,7 +141,7 @@ ht-degree: 96%
 
 | 功能 | 详细信息 |
 |--- |--- |
-| 为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]优化了 A4T 指标<p>（发布日期：2023 年 3 月 30 日） | 通过 [!DNL Target]，可在使用 [!UICONTROL A4T] 进行[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动时，根据二项式事件或连续事件选择指标。<P>请注意，在支持的指标中发生了以下变化：<ul><li>[!DNL Target] 保留现有活动以前的行为直至 2023 年 9 月 9 日。在此日期之后，将不再继续执行使用不支持的指标的活动，以强制现有活动采用新行为。</li></ul>有关更多信息，请参阅[[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) 中的“支持的目标量度”。<br>以下教程已随此功能一并更新：<ul><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动分配]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hans){target=_blank}</li><li>[在  [!DNL Analysis Workspace]  中为[!UICONTROL 自动定位]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hans){target=_blank}</li></ul> |
+| 为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]优化了 A4T 指标<p>（发布日期：2023 年 3 月 30 日） | 通过 [!DNL Target]，可在使用 [!UICONTROL A4T] 进行[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动时，根据二项式事件或连续事件选择指标。<P>请注意，在支持的指标中发生了以下变化：<ul><li>[!DNL Target] 保留现有活动以前的行为直至 2023 年 9 月 9 日。在此日期之后，将不再继续执行使用不支持的指标的活动，以强制现有活动采用新行为。</li></ul>有关更多信息，请参阅[[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) 中的“支持的目标量度”。<br>以下教程已随此功能一并更新：<ul><li>[在 [!DNL Analysis Workspace] 中为[!UICONTROL 自动分配]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hans){target=_blank}</li><li>[在 [!DNL Analysis Workspace] 中为[!UICONTROL 自动定位]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hans){target=_blank}</li></ul> |
 
 * 增强了受众和活动同步，以便在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Audience Manager] 中创建的项目可更快地在 [!DNL Target] UI 中可用。(TGT-44568)
 * 增强了 UI，可让用户在[!UICONTROL 管理] > [!UICONTROL 视觉体验编辑器] > [!UICONTROL 默认 URL] 下删除 [!UICONTROL 默认 URL]。此更改允许客户将默认 URL 更改回空字符串，这在以前的初始配置后是不可能实现的。(TGT-44577)

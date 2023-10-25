@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
+source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
 workflow-type: tm+mt
-source-wordcount: '2112'
+source-wordcount: '2126'
 ht-degree: 99%
 
 ---
@@ -15,17 +15,18 @@ ht-degree: 99%
 
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
-## [!DNL Target] Standard/Premium 23.10.1（2023年10月24日）
+## [!DNL Target] Standard/Premium 23.10.2（2023年10月24日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 24 月 10 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.10.2 版的发行说明。 |
+| 10 月 25 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于 [!UICONTROL 活动] 页面用户界面刷新（2023年10月25日） |
+| 10 月 24 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.10.2 版的发行说明。 |
 
 ## [!DNL Target] Standard/Premium 23.9.1（2023 年 9 月 6 日至 11 日）
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 17 月 10 日 | [报表常见问题解答](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | 更新了以下常见问题解答：“我的活动报表中为何没有可用的数据？ &quot; |
+| 10 月 17 日 | [报表常见问题解答](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | 更新以下常见问题：“我的活动报表中为何没有可用的数据？” |
 | 10 月 11 日 | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | 更新了关于 [!DNL Adobe Experience Platform Web SDK] 对 A4T 支持情况的信息。 |
 | 10 月 10 日 | [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 添加了 at.js 版本 2.11.0 的发行说明。 |
 | 10 月 6 日 | [响应令牌](/help/main/administrating-target/response-tokens.md) | 更新了所有代码示例。 |

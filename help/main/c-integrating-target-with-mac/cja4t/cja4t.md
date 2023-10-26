@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 source-git-commit: 60bd479e75c9071b2293f5d71c39cddb7796bbea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1050'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -126,11 +126,11 @@ ht-degree: 97%
 
    ![Customer Journey Analytics 中的名称和 ID 选项](/help/main/c-integrating-target-with-mac/cja4t/assets/names-and-ids.png){width="600" zoomable="yes"}
 
-1. 使用 [!DNL Target] 中的维度 [!UICONTROL 试验] 面板中，设置以下上下文标签：
+1. 要在[!UICONTROL 试验]面板中使用 [!DNL Target] 维度，请设置以下上下文标签：
 
-   * 对象 [!UICONTROL 活动名称]，请使用“试验性试验”。
-   * [!UICONTROL 体验名称]，请使用“试验变体”。
+   * 对于[!UICONTROL 活动名称]，使用“试验试验”。
+   * 对于[!UICONTROL 体验名称]，使用“试验变体”。
 
-   ![试验面板中的上下文标签](/help/main/c-integrating-target-with-mac/cja4t/assets/context-labels.png){width="600" zoomable="yes"}
+   ![“试验”面板中的上下文标签](/help/main/c-integrating-target-with-mac/cja4t/assets/context-labels.png){width="600" zoomable="yes"}
 
-1. 完成其他所有字段的设置，在完成后，单击&#x200B;**[!UICONTROL “保存并继续”。]**
+1. 设置完任何其他字段，然后在完成时单击&#x200B;**[!UICONTROL 保存并继续]**。

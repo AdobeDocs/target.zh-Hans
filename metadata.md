@@ -7,9 +7,9 @@ type: Documentation
 git-repo: https://github.com/AdobeDocs/target.zh-Hans
 index: true
 source-git-commit: e68fafde622d2478dcebe67df6d3a65e137b5dc3
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '111'
+ht-degree: 100%
 
 ---
 

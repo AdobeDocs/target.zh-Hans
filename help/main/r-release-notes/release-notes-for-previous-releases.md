@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
+source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
 workflow-type: tm+mt
-source-wordcount: '37635'
+source-wordcount: '37582'
 ht-degree: 96%
 
 ---
@@ -29,7 +29,6 @@ ht-degree: 96%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| [!UICONTROL 活动] UI 更新<P>和<P>[!UICONTROL 信息源] UI 更新 | 在 [!DNL Adobe Target] 团队持续改善 [!DNL Target] 用户的用户体验过程中，此版本更新了 [!DNL Target] UI 中的[!UICONTROL 活动]和 [!DNL Recommendations] [!UICONTROL 信息源]页面。此更新统一了以前不一致的设计模式并使其标准化，同时添加了新的增强。<P>有关更多信息，请参阅[活动](/help/main/c-activities/activities.md)和[信息源](/help/main/c-recommendations/c-products/feeds.md)。 |
 | [!DNL Recommendations] 实施模式 | “使用 at.js 的 Recommendations 实施模式”**&#x200B;文章帮助您在使用 at.js JavaScript 库时了解和创建您的 [!DNL Adobe Target Recommendations] 实施。<P>有关更多信息，请参阅 *Adobe Target 开发人员指南*&#x200B;中的[使用 at.js 的 Recommendations 实施模式概述](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}。 |
 
 * 添加了针对动态框架的[!UICONTROL 视觉体验编辑器] (VEC) 增强。(TGT-44064)

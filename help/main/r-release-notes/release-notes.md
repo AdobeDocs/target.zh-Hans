@@ -7,9 +7,9 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -19,23 +19,23 @@ ht-degree: 69%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!UICONTROL 活动] 页面用户界面刷新（2023年10月25日）
+## [!UICONTROL 活动]页面用户界面更新（2023 年 10 月 25 日）
 
-作为 [!DNL Adobe Target] 团队为改善的用户体验而不断努力的成果 [!DNL Target] 用户时，此版本会刷新 [!UICONTROL 活动] 中的页面 [!DNL Target] UI。 此更新统一了以前不一致的设计模式并使其标准化，同时添加了新的增强。
+在 [!DNL Adobe Target] 团队持续改善 [!DNL Target] 用户的用户体验过程中，此版本更新了 [!DNL Target] UI 中的[!UICONTROL 活动]页面。此更新统一了以前不一致的设计模式并使其标准化，同时添加了新的增强。
 
-从10月25日星期三开始，将有一定百分比的客户有权访问新UI，其他客户将在未来几天内获得访问权限。
+从 10 月 25 日星期三开始，部分客户将可访问新 UI，而其他客户将在后面几天分批可访问。
 
-有关详细信息，请参阅 [活动](/help/main/c-activities/activities.md).
+有关详细信息，请参阅[活动](/help/main/c-activities/activities.md)。
 
-## [!DNL Target] Standard/Premium 23.10.2（2023年10月24日）
+## [!DNL Target] Standard/Premium 23.10.2（2023 年 10 月 24 日）
 
 此版本包含以下增强和修复：
 
-* 增强了 [!UICONTROL 活动] UI，以便 [!UICONTROL 可视化体验编辑器] (VEC)打开，其中具有默认设置 `selectorCriteria` 创建新活动时。 (TGT-46586)
-* 修复了阻止某些客户编辑中的元素的问题。 [!UICONTROL Composer] 模式（使用VEC时）。 (TGT-46470)
-* 添加了使用自定义属性时指定通用首选选择器的功能。 (TGT-46545)
-* 修复了有时会阻止 [!UICONTROL 自动定位] 使用的报表 [!UICONTROL 目标分析] (A4T)显示在中 [!DNL Target] UI，即使报表在中正确显示 [!DNL Adobe Analysis Workspace]. (TGT-46494)
-* 更新了Target UI中各种本地化的字符串。 (TGT-18899)
+* 增强了新的[!UICONTROL 活动] UI，以使在创建新活动时打开[!UICONTROL 视觉体验生成器] (VEC)，并且其中具有 `selectorCriteria` 的默认设置。(TGT-46586)
+* 修复了一些客户在使用 VEC 时无法在[!UICONTROL 生成器]模式下编辑元素的问题。(TGT-46470)
+* 添加了在使用自定义属性时指定通用首选选择器的功能。(TGT-46545)
+* 修复了一个问题，该问题导致无法在 [!DNL Target] UI 中显示使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自动目标]报告，即使在 [!DNL Adobe Analysis Workspace] 中正确显示该报告也是如此。(TGT-46494)
+* 更新了 Target UI 中的多个本地化字符串。(TGT-18899)
 
 ## 其他发行说明和版本详细信息
 

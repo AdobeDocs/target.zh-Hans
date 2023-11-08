@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
-workflow-type: ht
-source-wordcount: '370'
-ht-degree: 100%
+source-git-commit: 4d32ae98c90b881e14b33a76ad51ea7662aeebc4
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 53%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2023 年 10 月 25 日**
+**上次更新日期：2023 年 11 月 7 日**
 
 >[!NOTE]
 >
@@ -23,23 +23,22 @@ ht-degree: 100%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!UICONTROL 活动]页面用户界面更新（2023 年 10 月 25 日）
+## [!DNL Target] Standard/Premium 23.11.1（2023年11月13日和14日）
 
-在 [!DNL Adobe Target] 团队持续改善 [!DNL Target] 用户的用户体验过程中，此版本更新了 [!DNL Target] UI 中的[!UICONTROL 活动]页面。此更新统一了以前不一致的设计模式并使其标准化，同时添加了新的增强。
+将按以下交错的时间表发布此版本：
 
-从 10 月 25 日星期三开始，部分客户将可访问新 UI，而其他客户将在后面几天分批可访问。
+* **十一月13日**：亚太(APAC)区域
+* **十一月14日**：美洲区域
+* **十一月14日**：欧洲、中东和非洲(EMEA)区域
 
-有关详细信息，请参阅[活动](/help/main/c-activities/activities.md)。
+此版本包含以下修复：
 
-## [!DNL Target] Standard/Premium 23.10.2（2023 年 10 月 24 日）
-
-此版本包含以下增强和修复：
-
-* 增强了新的[!UICONTROL 活动] UI，以使在创建新活动时打开[!UICONTROL 视觉体验生成器] (VEC)，并且其中具有 `selectorCriteria` 的默认设置。(TGT-46586)
-* 修复了一些客户在使用 VEC 时无法在[!UICONTROL 生成器]模式下编辑元素的问题。(TGT-46470)
-* 添加了在使用自定义属性时指定通用首选选择器的功能。(TGT-46545)
-* 修复了一个问题，该问题导致无法在 [!DNL Target] UI 中显示使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自动目标]报告，即使在 [!DNL Adobe Analysis Workspace] 中正确显示该报告也是如此。(TGT-46494)
-* 更新了 Target UI 中的多个本地化字符串。(TGT-18899)
+* 增强了 [活动QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 功能，使客户能够禁止在中重复提供体验 [!UICONTROL Automated Personalization] 活动。 (TGT-46627)
+* 在中添加了工具提示 [!DNL Target] UI，用于帮助客户了解为什么在没有流量分配给控制体验的情况下，活动报表中可能没有可用数据。 工具提示中包含指向更多信息的链接： [我的活动报表中为何没有可用的数据？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)。(TGT-46610)
+* 修复了导致活动无法在上正确显示的问题 [!UICONTROL 活动] 面向一些客户的页面。 (TGT-46830)
+* 修复了一个问题，该问题阻止某些客户查看使用的活动的报表数据 [!UICONTROL 目标分析] (A4T)作为报表源。 (TGT-46557)
+* 修复了有时会导致 [!UICONTROL 在Analytics中查看] 活动报告页面上的链接无法正确用于使用的活动 [!UICONTROL 目标分析] (A4T)作为报表源。 (TGT-46731)
+* 修复了阻止数据访问的问题。 [!UICONTROL 提升] 和 [!UICONTROL 置信度] 以正确显示在 [!DNL Target] 使用的活动的UI [!UICONTROL 目标分析] (A4T)作为报表源。 （TGT-46592、TGT-46554 和 TGT-46586）
 
 ## 其他发行说明和版本详细信息
 

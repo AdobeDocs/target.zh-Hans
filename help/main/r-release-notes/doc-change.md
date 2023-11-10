@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 059a19926a2c4943661e0fffd0abc0f0280aa5af
+source-git-commit: f013c2a16de857543594ebeccc4ced0b4241b3dd
 workflow-type: tm+mt
-source-wordcount: '2160'
-ht-degree: 99%
+source-wordcount: '2183'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 11 月 10 日 | [Recommendations API参考](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | 此 [!DNL Adobe Target] [!DNL Recommendations] API已重新定位到 [!DNL Adobe Developer] 网站。 如有必要，请更新您的书签。 |
 | 11 月 8 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为即将推出的产品添加了预发行说明 [!DNL Target Standard/Premium] 23.11.1版本。 |
 | 10 月 28 日 | [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 添加了有关 at.js 2.11.2 版的详细信息。 |
 | 10 月 25 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了关于[!UICONTROL 活动]页面用户界面更新（2023 年 10 月 25 日）的信息 |

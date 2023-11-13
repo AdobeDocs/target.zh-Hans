@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
+source-git-commit: d2aac088d5f1ae60a4b0e7ac1fff9960e2959130
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 84%
+source-wordcount: '495'
+ht-degree: 82%
 
 ---
 
@@ -18,14 +18,6 @@ ht-degree: 84%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
-
-## [!UICONTROL 活动]页面用户界面更新（2023 年 10 月 25 日）
-
-在 [!DNL Adobe Target] 团队持续改善 [!DNL Target] 用户的用户体验过程中，此版本更新了 [!DNL Target] UI 中的[!UICONTROL 活动]页面。此更新统一了以前不一致的设计模式并使其标准化，同时添加了新的增强。
-
-从 10 月 25 日星期三开始，部分客户将可访问新 UI，而其他客户将在后面几天分批可访问。
-
-有关详细信息，请参阅[活动](/help/main/c-activities/activities.md)。
 
 ## [!DNL Target]标准/高级 23.11.1（2023 年 11 月 13 日和 14 日）
 

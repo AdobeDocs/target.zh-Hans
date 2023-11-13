@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
-workflow-type: ht
-source-wordcount: '484'
-ht-degree: 100%
+source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 84%
 
 ---
 
@@ -27,15 +27,23 @@ ht-degree: 100%
 
 有关详细信息，请参阅[活动](/help/main/c-activities/activities.md)。
 
-## [!DNL Target] Standard/Premium 23.10.2（2023 年 10 月 24 日）
+## [!DNL Target]标准/高级 23.11.1（2023 年 11 月 13 日和 14 日）
+
+此版本计划在以下天数内发布：
+
+* **11 月 13 日**：亚太 (APAC) 区域
+* **11 月 14 日**：美洲区域
+* **11 月 14 日**：欧洲、中东和非洲 (EMEA) 区域
 
 此版本包含以下增强和修复：
 
-* 增强了新的[!UICONTROL 活动] UI，以使在创建新活动时打开[!UICONTROL 视觉体验生成器] (VEC)，并且其中具有 `selectorCriteria` 的默认设置。(TGT-46586)
-* 修复了一些客户在使用 VEC 时无法在[!UICONTROL 生成器]模式下编辑元素的问题。(TGT-46470)
-* 添加了在使用自定义属性时指定通用首选选择器的功能。(TGT-46545)
-* 修复了一个问题，该问题导致无法在 [!DNL Target] UI 中显示使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自动目标]报告，即使在 [!DNL Adobe Analysis Workspace] 中正确显示该报告也是如此。(TGT-46494)
-* 更新了 Target UI 中的多个本地化字符串。(TGT-18899)
+* 增强了 [活动QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 要支持的功能 [不允许重复的选件](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) 中的体验 [!UICONTROL Automated Personalization] 活动。 (TGT-46627)
+* 在 [!DNL Target] UI 中添加了一个工具提示，以帮助客户理解如果没有为控制体验分配流量，为什么活动报告中可能会没有可用的数据。工具提示中包含有关更多信息的链接：[为什么我的活动报告没有可用数据？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)。(TGT-46610)
+* 修复了一些客户的活动无法在[!UICONTROL 活动] 页面上正确显示的问题。(TGT-46830)
+* 修复了以下影响使用的活动的问题 [[!UICONTROL 目标分析]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)作为报表源：
+   * 修复了阻止某些客户查看报表数据的问题。 (TGT-46557)
+   * 修复了有时会导致 [!UICONTROL 在Analytics中查看] 活动报告页面上的链接无法正常运行。 (TGT-46731)
+   * 修复了阻止数据访问的问题。 [!UICONTROL 提升] 和 [!UICONTROL 置信度] 以正确显示在 [!DNL Target] UI。 （TGT-46592、TGT-46554 和 TGT-46586）
 
 ## 其他发行说明和版本详细信息
 

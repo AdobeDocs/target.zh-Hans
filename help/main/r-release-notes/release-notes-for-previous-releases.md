@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
+source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
-source-wordcount: '37582'
+source-wordcount: '37687'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,16 @@ ht-degree: 96%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2023
+
+### [!DNL Target] Standard/Premium 23.10.2（2023 年 10 月 24 日）
+
+此版本包含以下增强和修复：
+
+* 增强了新的[!UICONTROL 活动] UI，以使在创建新活动时打开[!UICONTROL 视觉体验生成器] (VEC)，并且其中具有 `selectorCriteria` 的默认设置。(TGT-46586)
+* 修复了一些客户在使用 VEC 时无法在[!UICONTROL 生成器]模式下编辑元素的问题。(TGT-46470)
+* 添加了在使用自定义属性时指定通用首选选择器的功能。(TGT-46545)
+* 修复了一个问题，该问题导致无法在 [!DNL Target] UI 中显示使用 [!UICONTROL Analytics for Target] (A4T) 的[!UICONTROL 自动目标]报告，即使在 [!DNL Adobe Analysis Workspace] 中正确显示该报告也是如此。(TGT-46494)
+* 更新了 Target UI 中的多个本地化字符串。(TGT-18899)
 
 ### [!DNL Target] Standard/Premium 23.9.4（2023 年 10 月 4-6 日）
 

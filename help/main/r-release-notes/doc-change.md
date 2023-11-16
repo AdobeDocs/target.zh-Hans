@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
+source-git-commit: 0cf2cda5c765887d9c64a85ade56f3e8f6c58db0
 workflow-type: tm+mt
-source-wordcount: '2227'
-ht-degree: 97%
+source-wordcount: '2261'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 97%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 10 月 24 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.11.1 版的发行说明。 |
+| 11 月 16 日 | [批量配置文件更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 添加了以下警告：“更新通常在一小时内发生，但可能需要长达24小时的时间才能反映。” |
+| 11 月 13 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.11.1 版的发行说明。 |
 
 ## [!DNL Target] Standard/Premium 23.10.2（2023 年 10 月 24 日）
 

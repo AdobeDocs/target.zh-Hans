@@ -5,9 +5,9 @@ title: 中的各种字符、大小和其他限制是什么 [!DNL Adobe Target]�
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1610'
 ht-degree: 80%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 80%
 
 * **限制**：256 个字符。
 
-  使用at.js 1.*x* 使用跨域跟踪功能时。如果您在使用at.js 2.*x* 或 [!DNL Adobe Experience Platform Web SDK]，您会收到一条错误消息（不会自动截断值）。
+  使用at.js 1.*x* 使用跨域跟踪功能时。在使用at.js 2.*x* 或 [!DNL Adobe Experience Platform Web SDK]. 值不会自动截断。
 
 ### mbox 内配置文件名称
 

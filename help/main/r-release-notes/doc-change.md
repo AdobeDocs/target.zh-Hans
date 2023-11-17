@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0cf2cda5c765887d9c64a85ade56f3e8f6c58db0
+source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 96%
+source-wordcount: '2314'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 11 月 17 日 | [管理员首要步骤](/help/main/administrating-target/start-target.md) | 添加了以下重要说明：<ul><li>用户具有 [!UICONTROL 产品管理员] 或 [!UICONTROL 系统管理员] 中的权限 [!DNL Adobe Admin Console] 可以编辑或更改 [!UICONTROL 管理] 第页，共页 [!DNL Target]，不考虑他们的 [!DNL Target] 角色。 用户没有 [!UICONTROL 产品管理员] 或 [!UICONTROL 系统管理员] 中的权限 [!DNL Adobe Admin Console] 必须具有特定的 [!DNL Target] 进行这些更改的角色。1</li></ul> |
 | 11 月 16 日 | [批量配置文件更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 添加了以下警告：“更新通常在一小时内发生，但可能需要长达24小时的时间才能反映。” |
 | 11 月 13 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.11.1 版的发行说明。 |
 

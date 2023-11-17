@@ -4,10 +4,10 @@ description: 了解如何在 [!DNL Adobe Target] 活动中使用 [!DNL Adobe Exp
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]？
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
+source-git-commit: 593cbcc1ff8ccae7afa6098524e95659aa6890f3
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 100%
+source-wordcount: '736'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## 要求 {#requirements}
 
-必须在 [!DNL Target] 中为您配置[!UICONTROL 内容片段]功能。此外，还必须使用 [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}。您的客户代表可帮助确保您满足使用此功能的要求：
+您必须使用 [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. 您的客户代表可帮助确保您满足使用此功能的要求：
 
 请联系 [Adobe Target 客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以启用集成并为您提供身份验证详细信息。
 
@@ -74,7 +74,6 @@ ht-degree: 100%
 >* 要充分利用 [!DNL Target] AI 和 ML 功能，您可以在创建[!UICONTROL  A/B 测试]时选择[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)或[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 >
 >* [!DNL Recommendations] 活动中不支持[!UICONTROL 内容片段]。但是，要使用[!UICONTROL 内容片段]进行推荐，您可以创建[!UICONTROL  A/B 测试]活动（包括[!UICONTROL 自动分配]和[!UICONTROL 自动定位]）或[!UICONTROL 体验定位] (XT) 活动，并[包括推荐作为选件](/help/main/c-recommendations/recommendations-as-an-offer.md)。
-
 
 **通过[!UICONTROL 基于表单的体验编辑器]使用[!UICONTROL 内容片段]：**
 

@@ -5,9 +5,9 @@ title: 中的各种字符、大小和其他限制是什么 [!DNL Adobe Target]�
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
+source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1604'
 ht-degree: 80%
 
 ---
@@ -179,7 +179,7 @@ ht-degree: 80%
 
 * **限制**：250 个字符。
 
-  对于交付API (at.js 2.*x*)、批处理mbox V2和AEP Web SDK (alloy.js)集成、mbox名称 *可以* 包含字母数字字符(A-Z、a-z、0-9)和以下任意字符：
+  对象 [!DNL Delivery API] (at.js 2.*x*)、批处理mbox V2和 [!DNL Adobe Experience Platform Web SDK] (alloy.js)集成，mbox名称 *可以* 包含字母数字字符(A-Z、a-z、0-9)和以下任意字符：
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }

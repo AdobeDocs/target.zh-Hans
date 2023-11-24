@@ -7,9 +7,9 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: d2aac088d5f1ae60a4b0e7ac1fff9960e2959130
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '495'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 82%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target]标准/高级 23.11.1（2023 年 11 月 13 日和 14 日）
+## [!DNL Target] Standard/Premium 23.11.1（2023 年 11 月 13 日和 14 日）
 
-此版本计划在以下天数内发布：
+此版本计划在接下来的几天发布：
 
 * **11 月 13 日**：亚太 (APAC) 区域
 * **11 月 14 日**：美洲区域
@@ -29,13 +29,13 @@ ht-degree: 82%
 
 此版本包含以下增强和修复：
 
-* 增强了 [活动QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 要支持的功能 [不允许重复的选件](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) 中的体验 [!UICONTROL Automated Personalization] 活动。 (TGT-46627)
+* 增强了[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 功能以支持为 [!UICONTROL Automated Personalization] 活动中的体验[禁止重复优惠](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)。(TGT-46627)
 * 在 [!DNL Target] UI 中添加了一个工具提示，以帮助客户理解如果没有为控制体验分配流量，为什么活动报告中可能会没有可用的数据。工具提示中包含有关更多信息的链接：[为什么我的活动报告没有可用数据？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)。(TGT-46610)
 * 修复了一些客户的活动无法在[!UICONTROL 活动] 页面上正确显示的问题。(TGT-46830)
-* 修复了以下影响使用的活动的问题 [[!UICONTROL 目标分析]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)作为报表源：
-   * 修复了阻止某些客户查看报表数据的问题。 (TGT-46557)
-   * 修复了有时会导致 [!UICONTROL 在Analytics中查看] 活动报告页面上的链接无法正常运行。 (TGT-46731)
-   * 修复了阻止数据访问的问题。 [!UICONTROL 提升] 和 [!UICONTROL 置信度] 以正确显示在 [!DNL Target] UI。 （TGT-46592、TGT-46554 和 TGT-46586）
+* 修复了以下问题，这些问题影响使用 [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) 作为报告源的活动：
+   * 修复了一个问题，该问题阻止某些客户查看报告数据。(TGT-46557)
+   * 修复了一个问题，该问题有时导致活动报告页面上的[!UICONTROL 在 Analytics 中查看]链接无法发挥正常作用。(TGT-46731)
+   * 修复了一个问题，该问题阻止在 [!DNL Target] UI 中正常显示[!UICONTROL 提升度]和[!UICONTROL 置信度]的数据。（TGT-46592、TGT-46554 和 TGT-46586）
 
 ## 其他发行说明和版本详细信息
 

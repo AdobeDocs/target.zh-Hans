@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
+source-git-commit: 556a03b3caa7cca4ac48e9766e44f811550ea916
 workflow-type: tm+mt
-source-wordcount: '2373'
-ht-degree: 95%
+source-wordcount: '2417'
+ht-degree: 98%
 
 ---
 
@@ -19,11 +19,12 @@ ht-degree: 95%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 11 月 29 日 | [批量配置文件更新API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 阐明了以下方面的差异： [!DNL Target] 为用户创建配置文件时处理客户属性 [!DNL Target] 在使用时尚未看到 [!UICONTROL 批量配置文件更新API] v2而非v1。 |
 | 11 月 21 日 | [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 添加了 at.js 2.11.3 的发行说明。 |
-| 11 月 17 日 | [管理员首要步骤](/help/main/administrating-target/start-target.md) | 添加了以下重要说明：<ul><li>用户具有 [!UICONTROL 产品管理员] 或 [!UICONTROL 系统管理员] 中的权限 [!DNL Adobe Admin Console] 可以编辑或更改 [!UICONTROL 管理] 第页，共页 [!DNL Target]，不考虑他们的 [!DNL Target] 角色。 用户没有 [!UICONTROL 产品管理员] 或 [!UICONTROL 系统管理员] 中的权限 [!DNL Adobe Admin Console] 必须具有特定的 [!DNL Target] 进行这些更改的角色。1</li></ul> |
-|  | [限制](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | 更新了部分，其中包含有关如何 [!DNL Target] 处理at.js 2.*x* 和 [!DNL Adobe Experience Platform Web SDK]. |
-|  | [投放 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | 添加了指向当前投放API文档的重定向，并弃用了旧版文档(`http://developers.adobetarget.com/api/delivery-api/`)。 请根据需要更新书签。 |
-| 11 月 16 日 | [批量配置文件更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 添加了以下警告：“更新通常在一小时内发生，但可能需要长达24小时的时间才能反映。” |
+| 11 月 17 日 | [管理员首要步骤](/help/main/administrating-target/start-target.md) | 添加了以下重要注释：<ul><li>[!DNL Adobe Admin Console] 中具有[!UICONTROL 产品管理员]或[!UICONTROL 系统管理员]权限的用户可以编辑或更改 [!DNL Target] 的[!UICONTROL 管理]页面上的所有设置，不管其 [!DNL Target] 角色如何。[!DNL Adobe Admin Console] 中不具有[!UICONTROL 产品管理员]或[!UICONTROL 系统管理员]权限的用户必须具有特定的 [!DNL Target] 角色才能进行这些更改。</li></ul> |
+|  | [限制](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | 使用有关 [!DNL Target] 如何处理 at.js 2.*x* 和 [!DNL Adobe Experience Platform Web SDK] 中的截断的信息更新了此部分。 |
+|  | [投放 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | 添加了对当前投放 API 文档的重定向，并弃用了旧文档 (`http://developers.adobetarget.com/api/delivery-api/`)。请根据需要更新书签。 |
+| 11 月 16 日 | [批量配置文件更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 添加了以下警告：“更新通常会在一小时内进行，但可能需要长达 24 小时才能反映出来。” |
 | 11 月 13 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.11.1 版的发行说明。 |
 
 ## [!DNL Target] Standard/Premium 23.10.2（2023 年 10 月 24 日）

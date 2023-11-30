@@ -21,8 +21,8 @@ ht-degree: 98%
 | --- | --- | --- |
 | 11 月 29 日 | [批量配置文件更新API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 阐明了以下方面的差异： [!DNL Target] 为用户创建配置文件时处理客户属性 [!DNL Target] 在使用时尚未看到 [!UICONTROL 批量配置文件更新API] v2而非v1。 |
 | 11 月 21 日 | [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 添加了 at.js 2.11.3 的发行说明。 |
-| 11 月 17 日 | [管理员首要步骤](/help/main/administrating-target/start-target.md) | 添加了以下重要注释：<ul><li>[!DNL Adobe Admin Console] 中具有[!UICONTROL 产品管理员]或[!UICONTROL 系统管理员]权限的用户可以编辑或更改 [!DNL Target] 的[!UICONTROL 管理]页面上的所有设置，不管其 [!DNL Target] 角色如何。[!DNL Adobe Admin Console] 中不具有[!UICONTROL 产品管理员]或[!UICONTROL 系统管理员]权限的用户必须具有特定的 [!DNL Target] 角色才能进行这些更改。</li></ul> |
-|  | [限制](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | 使用有关 [!DNL Target] 如何处理 at.js 2.*x* 和 [!DNL Adobe Experience Platform Web SDK] 中的截断的信息更新了此部分。 |
+| 11 月 17 日 | [管理员首要步骤](/help/main/administrating-target/start-target.md) | 添加了以下重要注释：<ul><li>[!DNL Adobe Admin Console] 中具有[!UICONTROL 产品管理员]或[!UICONTROL 系统管理员]权限的用户可以编辑或更改 [!DNL Target] [!UICONTROL 管理]页面上的所有设置，不管其 [!DNL Target] 角色如何。[!DNL Adobe Admin Console] 中不具有[!UICONTROL 产品管理员]或[!UICONTROL 系统管理员]权限的用户必须具有特定的 [!DNL Target] 角色才能进行这些更改。</li></ul> |
+|  | [限制](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | 使用有关 [!DNL Target] 如何处理 at.js 2.*x* 和 [!DNL Adobe Experience Platform Web SDK] 中的截断信息更新了此部分。 |
 |  | [投放 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | 添加了对当前投放 API 文档的重定向，并弃用了旧文档 (`http://developers.adobetarget.com/api/delivery-api/`)。请根据需要更新书签。 |
 | 11 月 16 日 | [批量配置文件更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 添加了以下警告：“更新通常会在一小时内进行，但可能需要长达 24 小时才能反映出来。” |
 | 11 月 13 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.11.1 版的发行说明。 |

@@ -1,26 +1,26 @@
 ---
 keywords: 添加用户;管理用户;用户权限
-description: 了解如何使用 [!DNL Adobe Admin Console] 在中管理用户及其权限和权限 [!DNL Adobe Target Standard].
-title: 如何添加用户和管理权限 [!DNL Target Standard] 帐户？
+description: 了解如何使用 [!DNL Adobe Admin Console] 管理用户及其在 [!DNL Adobe Target Standard] 中的权限和权利。
+title: 如何为 [!DNL Target Standard] 帐户添加用户和管理权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 # 用户
 
-在中添加用户和管理权限 [!DNL Adobe Admin Console] 对于 [!DNL Target Standard] 帐户。
+在 [!DNL Adobe Admin Console] 中为 [!DNL Target Standard] 帐户添加用户和管理其权限。
 
 >[!NOTE]
 >
 >[!UICONTROL 属性]和[!UICONTROL 权限]功能作为 [!DNL Target Premium] 解决方案的一部分提供。如果没有 [!DNL Target] Premium 许可证，它们将无法在 [!DNL Target] Standard 中使用。
 >
->您可以判断您的组织是否具有 [!UICONTROL 标准] 或 [!UICONTROL Premium] 通过单击 [!UICONTROL 管理] 顶部链接 [!DNL Target] UI。
+>您可以在 [!DNL Target] UI 的顶部单击[!UICONTROL 管理]链接，确定组织使用的是 [!UICONTROL Standard] 还是 [!UICONTROL Premium] 许可。
 >
 >* **[!DNL Target] Standard 客户**：如果您看到[!UICONTROL 用户]选项卡（[!UICONTROL 管理 > 用户]）（而不是&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡），则组织具有 [!DNL Target] Standard 许可。[!DNL Target] Standard 客户应按照本文中的相关说明进行操作，以在 [!DNL Adobe Admin Console] 中添加用户和分配权限。
 >
@@ -30,17 +30,17 @@ ht-degree: 73%
 
 开始使用 [!DNL Adobe Target] 时，您会发现自己的 [!DNL Adobe Experience Cloud] 帐户中预先填充了一些 ID（以 Adobe.com 结尾）。这些 ID 是 [!DNL Adobe] 团队的成员，因此在您需要帮助时，可以协助您的新帐户以及 [!DNL Adobe Target] 的使用。要获取帮助，请按常规方式联系 Adobe 团队。
 
-您不会看到 [!UICONTROL 用户] 页面，直到他们使用他们的 [!DNL Adobe Experience Cloud] 帐户，然后登录到 [!DNL Target].
+只有在用户使用其 [!DNL Adobe Experience Cloud] 帐户进行登录并随后登录到 [!DNL Target] 中时，您才会看到新用户在[!UICONTROL 用户]页面上列出。
 
-默认全部 [!DNL Target] 用户开始于 [!UICONTROL 观察者] 权限。
+默认情况下，所有 [!DNL Target] 用户最初都拥有[!UICONTROL 观察者]权限。
 
 管理员用户在[!UICONTROL 用户]列表中标识。如果您的访问权限级别更改，请联系一位系统管理员用户。
 
-## 在 中查看用户信息[!DNL Target]
+## 在 [!DNL Target] 中查看用户信息
 
-您可以在以下位置查看当前用户的列表： [!DNL Target] UI，包括其每个工作区的角色和电子邮件地址。
+您可以在 [!DNL Target] UI 中查看当前用户的列表，包括他们在各个工作区中的角色以及电子邮件地址。
 
-要查看 [!UICONTROL 用户] 页面，单击 **[!UICONTROL 管理]** > **[!UICONTROL 用户]**.
+要查看[!UICONTROL 用户]页面，请单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 用户]**。
 
 ![Target 中的用户列表](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
@@ -50,7 +50,7 @@ ht-degree: 73%
 
 ## 访问 [!DNL Adobe Admin Console] {#access}
 
-对于在中执行的任务 [!DNL Adobe Admin Console]，请按以下步骤访问控制台：
+对于在 [!DNL Adobe Admin Console] 中执行的任务，请执行以下步骤来访问该控制台：
 
 1. 在 [!DNL Target] 中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 用户]** > **[!UICONTROL 用户管理]**。
 
@@ -69,14 +69,14 @@ ht-degree: 73%
 
 ## 创建用户组 {#user-groups}
 
-您可以创建用户组，例如开发人员、分析人员、营销人员、执行人员等，然后跨多个用户组分配权限 [!DNL Adobe] 产品和工作区。 跨不同团队成员分配所有适当的权限 [!DNL Adobe] 产品可以像将其添加到特定用户组一样简单。
+您可以创建用户组（例如开发人员、分析师、营销人员、管理人员等），然后为其分配多个 [!DNL Adobe] 产品和工作区中的相应权限。为新团队成员分配不同 [!DNL Adobe] 产品中的所有相应权限的过程就像将他们添加到某个特定用户组一样简单。
 
 1. [在 Admin Console 中](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)，单击&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 用户组]**&#x200B;以创建新用户组或者编辑现有用户组。
 1. 按照企业用户指南&#x200B;**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/enterprise/help/users.html)中的说明进行操作。
 
 ## 指定角色和权限 {#roles-permissions}
 
-只有系统管理员才能在 [!DNL Target] 中设置用户角色。例如， [!UICONTROL 标准] 审批者用户无法将观察者更改为审批者，还必须具有 [!DNL Experience Cloud] 管理员权限。
+只有系统管理员才能在 [!DNL Target] 中设置用户角色。例如，如果没有 [!DNL Experience Cloud] 管理员权限，[!UICONTROL Standard] 审批者用户无法将观察者更改为审批者。
 
 系统管理员用户必须将用户添加到系统中。系统不会自动添加用户。[!DNL Experience Cloud] 向他们发送电子邮件来邀请，并且用户必须先确认其电子邮件地址，然后才能注册帐户。
 
@@ -92,7 +92,7 @@ ht-degree: 73%
 
    ![配置用户](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. 选择所需的权限角色([!UICONTROL 审批者]， [!UICONTROL 编辑者]， [!UICONTROL 观察者] 或 [!UICONTROL 发布者])，方法是使用 [!UICONTROL 产品角色] 列。
+1. 使用每个用户在[!UICONTROL 产品角色]列中的下拉列表为其选择所需的权限角色（[!UICONTROL 审批者]、[!UICONTROL 编辑者]、[!UICONTROL 观察者]或[!UICONTROL 发布者]）。
 
    ![“产品角色”下拉列表](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
@@ -101,7 +101,7 @@ ht-degree: 73%
    | [!UICONTROL 审批者] | 可以创建、编辑，以及激活或停止活动。 |
    | [!UICONTROL 编辑者] | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
    | [!UICONTROL 观察者] | 可以查看活动，但不能创建或编辑活动。 |
-   | [!UICONTROL 发布者] | 类似于 [!UICONTROL 观察者] 角色（可以查看活动，但不能创建或编辑活动）。 但是，[!UICONTROL 发布者]角色另有激活活动的权限。 |
+   | [!UICONTROL 发布者] | 类似于[!UICONTROL 观察者]角色（可查看活动，但无法创建或编辑活动）。但是，[!UICONTROL 发布者]角色另有激活活动的权限。 |
 
 有关更多信息，请参阅企业用户指南&#x200B;**&#x200B;中的[在 Admin Console 中管理产品权限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
 

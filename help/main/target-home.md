@@ -4,10 +4,10 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 13b284d581dfa44e5a41f4403dc115a2f81a9dd5
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2023 年 12 月 1 日（[查看更新详情](r-release-notes/doc-change.md)）**
+**上次更新日期：2023年12月4日( [查看更改内容](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -75,4 +75,4 @@ ht-degree: 100%
 
 | Adobe [!DNL Target] 解决方案帮助 | [!DNL Adobe Experience Cloud] 资源 |
 |--- |--- |
-| <ul><li>[Adobe Target 学习和支持](https://helpx.adobe.com/cn/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=zh-Hans)</li><li>[Target API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=zh-Hans){target=_blank}</li></ul> | <ul><li>[Target 社区论坛](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)</li><li>[Experience Cloud 帮助主页](https://helpx.adobe.com/cn/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=zh-Hans)</li><li>[Adobe 培训和教程](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target 学习和支持](https://helpx.adobe.com/cn/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=zh-Hans)</li><li>[Target API文档](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=zh-Hans){target=_blank}</li></ul> | <ul><li>[Target 社区论坛](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)</li><li>[Experience Cloud 帮助主页](https://helpx.adobe.com/cn/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 文档](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=zh-Hans)</li><li>[Adobe 培训和教程](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK)</li></ul> |  |

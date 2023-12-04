@@ -4,16 +4,35 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
-workflow-type: ht
-source-wordcount: '2128'
-ht-degree: 100%
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
+workflow-type: tm+mt
+source-wordcount: '2242'
+ht-degree: 93%
 
 ---
 
 # [!DNL Adobe Target]公告和活动
 
 关于 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
+
+## [!DNL Adobe Target Community] 咖啡时间活动
+
+* **机器学习和AI报表和分析**
+* **2023年12月6日星期三**
+* **早上8:00 - 9:00 （太平洋标准时间–8格林威治标准时间）**
+* **[请在此处登记](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+
+加入 [!DNL Adobe Target] 专家布伦特·科斯塔克、克里斯蒂内尔·阿纳斯塔索艾、德鲁·伯恩斯和玛丽索尔·圣约翰参加了一场“询问任何事情”的活动，讨论机器学习和AI报告和分析。 [!DNL Adobe Target].
+
++++详细信息此讨论将侧重于以下主题：
+
+* 您是否对ML和AI感到兴奋，并希望更好地了解关于您的活动的报告成功？
+* 希望获得新的创意和用例，以便在其中对内容、选件和消息传送使用实时个性化？
+* 希望了解为服务器端测试创建基于表单的活动的最佳实践吗？
+* 您是否希望改进中的活动分析和测量 [!UICONTROL 目标分析] (A4T)报表？
+* 您的团队是否很想知道如何通过测试和个性化来扩展超出了A/B测试范畴的已验证和已知客户体验？
+
++++
 
 ## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
 
@@ -175,7 +194,7 @@ ht-degree: 100%
 
 +++
 
-### 国民城市银行：从零到英雄 — 启动并扩展个性化计划（2022 年 6 月 9 日）
+### 国民城市银行(City National Bank)：Zero to Hero — 启动并扩展个性化计划（2022年6月9日）
 
 了解如何成为“关系银行”以提高品牌忠诚度的最佳实践。了解如何推动人员和流程来构建和扩展成功的个性化计划。
 

@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 13b284d581dfa44e5a41f4403dc115a2f81a9dd5
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 96%
+source-wordcount: '2337'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 12 月 4 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了“机器学习和AI报表和分析”的注册信息 [!DNL Adobe Target Community] 茶歇会议：2023年12月6日星期三。 |
 | 12 月 1 日 | [Adobe Target配置文件更新API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 将旧版API文档移至以下文章：<ul><li>[Adobe Target配置文件API概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target单个配置文件更新API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target批量配置文件更新API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 11 月 29 日 | [批量配置文件更新API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 阐明了以下方面的差异： [!DNL Target] 为用户创建配置文件时处理客户属性 [!DNL Target] 在使用时尚未看到 [!UICONTROL 批量配置文件更新API] v2而非v1。 |
 | 11 月 21 日 | [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 添加了 at.js 2.11.3 的发行说明。 |
@@ -178,5 +179,5 @@ ht-degree: 96%
 |  | [在 Target 中构建受众](/help/main/c-target/c-audiences/create-audience.md) | 添加了不能在受众名称中使用的字符和字符序列的列表。 |
 | 1 月 31 日 | [限制](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | 添加了 mbox 名称中允许和不允许使用的字符的列表。 |
 | 1 月 25 日 | [创建 JSON 选件](/help/main/c-experiences/c-manage-content/create-json-offer.md) | 表明使用基于表单的体验编辑器在 [!UICONTROL Automated Personalization] (AP) 活动中对 JSON 选件的支持现在可用。 |
-|  | [Adobe Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下活动的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间：移动&amp;经验证的体验优化用例</li></ul> |
+|  | [Adobe Target 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于以下活动的信息：<ul><li>[!DNL Adobe Target] 社区问答喝咖啡休息时间：体验优化的移动和经过身份验证的用例</li></ul> |
 |  | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 22.13.3 版的发行说明。 |

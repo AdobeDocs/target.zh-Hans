@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
 workflow-type: tm+mt
 source-wordcount: '2337'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 | --- | --- | --- |
 | 12 月 4 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了“机器学习和AI报表和分析”的注册信息 [!DNL Adobe Target Community] 茶歇会议：2023年12月6日星期三。 |
 | 12 月 1 日 | [Adobe Target配置文件更新API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 将旧版API文档移至以下文章：<ul><li>[Adobe Target配置文件API概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target单个配置文件更新API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target批量配置文件更新API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
-| 11 月 29 日 | [批量配置文件更新API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 阐明了以下方面的差异： [!DNL Target] 为用户创建配置文件时处理客户属性 [!DNL Target] 在使用时尚未看到 [!UICONTROL 批量配置文件更新API] v2而非v1。 |
+| 11 月 29 日 | [批量配置文件更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 澄清了在使用[!UICONTROL 批量配置文件更新 API] v2 版本与 v1 版本时，在为 [!DNL Target] 尚未发现的用户创建配置文件时 [!DNL Target] 处理客户属性的方式的区别。 |
 | 11 月 21 日 | [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 添加了 at.js 2.11.3 的发行说明。 |
 | 11 月 17 日 | [管理员首要步骤](/help/main/administrating-target/start-target.md) | 添加了以下重要注释：<ul><li>[!DNL Adobe Admin Console] 中具有[!UICONTROL 产品管理员]或[!UICONTROL 系统管理员]权限的用户可以编辑或更改 [!DNL Target] [!UICONTROL 管理]页面上的所有设置，不管其 [!DNL Target] 角色如何。[!DNL Adobe Admin Console] 中不具有[!UICONTROL 产品管理员]或[!UICONTROL 系统管理员]权限的用户必须具有特定的 [!DNL Target] 角色才能进行这些更改。</li></ul> |
 |  | [限制](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | 使用有关 [!DNL Target] 如何处理 at.js 2.*x* 和 [!DNL Adobe Experience Platform Web SDK] 中的截断信息更新了此部分。 |

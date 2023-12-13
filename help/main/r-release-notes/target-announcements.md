@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
+source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
 workflow-type: tm+mt
-source-wordcount: '2242'
-ht-degree: 93%
+source-wordcount: '2348'
+ht-degree: 88%
 
 ---
 
@@ -15,30 +15,39 @@ ht-degree: 93%
 
 关于 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
 
-## [!DNL Adobe Target Community] 咖啡时间活动
+## Adobe Target 2024个性化成熟度网络研讨会系列
 
-* **机器学习和AI报表和分析**
-* **2023年12月6日星期三**
-* **早上8:00 - 9:00 （太平洋标准时间–8格林威治标准时间）**
-* **[请在此处登记](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+本直播网络研讨会系列将重点介绍关键内容 [!DNL Adobe Target] 在客户扩展其实验和个性化历程时，通过功能、用例和提示解锁由AI支持的个性化 [!DNL Adobe Experience Platform].
 
-加入 [!DNL Adobe Target] 专家布伦特·科斯塔克、克里斯蒂内尔·阿纳斯塔索艾、德鲁·伯恩斯和玛丽索尔·圣约翰参加了一场“询问任何事情”的活动，讨论机器学习和AI报告和分析。 [!DNL Adobe Target].
+您为何要参加：
 
-+++详细信息此讨论将侧重于以下主题：
+* **了解主要用例**：通过Blueprint实现智能优化，将愿景变为现实，不断成熟 [!DNL Adobe Target] 基于规则的试验和A/B测试之外的客户。
+* **最大程度地提高独特功能**：通过高性能推荐定制成功体验，以最大限度地提高ROI、收入和转化。
+* **高级个性化策略**：深入探讨AI/ML高级技术以扩展业务影响，与新区段/受众引起共鸣，并微调个性化模型以优化体验
 
-* 您是否对ML和AI感到兴奋，并希望更好地了解关于您的活动的报告成功？
-* 希望获得新的创意和用例，以便在其中对内容、选件和消息传送使用实时个性化？
-* 希望了解为服务器端测试创建基于表单的活动的最佳实践吗？
-* 您是否希望改进中的活动分析和测量 [!UICONTROL 目标分析] (A4T)报表？
-* 您的团队是否很想知道如何通过测试和个性化来扩展超出了A/B测试范畴的已验证和已知客户体验？
+* **[请在此处登记](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++日期和详细信息
+
+* **可能的艺术**
+* **2024年1月16日星期二**
+* **上午10:00 - 11:00 （太平洋标准时间–8格林威治标准时间）**
+
+个性化的成熟度核心是人工智能和机器学习。 [!DNL Adobe Target] 利用这些技术了解用户行为、预测偏好并动态定制内容。 通过利用AI和ML的强大功能，了解品牌如何超越静态A/B测试和基于规则的个性化，提供动态、与上下文相关的体验。
+
+* **高性能Recommendations**
+* **2024年2月13日星期二**
+* **上午10:00 - 11:00 （太平洋标准时间–8格林威治标准时间）**
+
+了解推荐算法如何能够彻底改变企业的游戏规则，提高参与度和收入。 从个性化的产品建议到内容推荐，无缝引导用户完成其历程的能力直接有助于解锁巨大的业务增长。
+
+* **解锁AI支持的个性化**
+* **2024年3月12日星期二**
+* **上午10:00 - 11:00 （太平洋标准时间–8格林威治标准时间）**
+
+[!DNL Adobe Target] 在客户生命周期的每个阶段推动AI支持的个性化功能，以实现一对一的个性化体验。 从收购到维系，了解企业如何深入了解简化流程、最大程度地减少手动操作以及大规模提供情境式和引人入胜的客户体验。
 
 +++
-
-## [!DNL Adobe Target] 网络研讨会系列 {#webinar-series}
-
-注册参加以下网络研讨会，了解客户如何使用 [!DNL Target] 来实现其个性化和优化目标：
-
-目前没有任何安排。
 
 ## 过去的网络研讨会和技能培训课程录像
 

@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
 workflow-type: tm+mt
 source-wordcount: '2360'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 99%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
-| 12 月 13 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于 [!DNL Adobe Target] 2024年个性化成熟度网络研讨会系列。 |
-|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=zh-Hans){target=_blank} | 添加了两个新的可选设置： <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
+| 12 月 13 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了有关 [!DNL Adobe Target] 2024 年个性化成熟度网络研讨会系列的信息。 |
+|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 添加了两个新的可选设置： <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
 | 12 月 4 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了“机器学习和 AI 报告与分析”[!DNL Adobe Target Community] 喝咖啡休息时间讲座（2023 年 12 月 6 日星期三）的登记信息。 |
 | 12 月 1 日 | [Adobe Target 配置文件更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 将旧版 API 文档移至以下文章：<ul><li>[Adobe Target 配置文件 API 概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target 单一配置文件更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target 批量配置文件更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 11 月 29 日 | [批量配置文件更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 澄清了在使用[!UICONTROL 批量配置文件更新 API] v2 版本与 v1 版本时，在为 [!DNL Target] 尚未发现的用户创建配置文件时 [!DNL Target] 处理客户属性的方式的区别。 |
@@ -50,7 +50,7 @@ ht-degree: 99%
 | 10 月 11 日 | [[!DNL Adobe Analytics] 作为  [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) 的报告源 | 更新了关于 [!DNL Adobe Experience Platform Web SDK] 对 A4T 支持情况的信息。 |
 | 10 月 10 日 | [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 添加了 at.js 版本 2.11.0 的发行说明。 |
 | 10 月 6 日 | [响应令牌](/help/main/administrating-target/response-tokens.md) | 更新了所有代码示例。 |
-|  | [在 [!DNL Analysis Workspace] 中为[!UICONTROL 自动分配]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hans){target=_blank} | 更新了 *[!UICONTROL Adobe Target 教程]*&#x200B;指南中的整个教程。 |
+|  | [在 [!DNL Analysis Workspace] 中为[!UICONTROL 自动分配]活动设置 A4T 报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} | 更新了 *[!UICONTROL Adobe Target 教程]*&#x200B;指南中的整个教程。 |
 | 10 月 4 日 | [活动](/help/main/c-activities/activities.md) | 更新了文本和图像以反映 [!DNL Target] 23.9.4 版中包含的 UI 更新。 |
 |  | [信息源](/help/main/c-recommendations/c-products/feeds.md) | 更新了文本和图像以反映 [!DNL Target] 23.9.4 版中包含的 UI 更新。 |
 | 10 月 2 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.9.3 版的发行说明。 |

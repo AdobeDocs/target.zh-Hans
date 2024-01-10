@@ -1,13 +1,13 @@
 ---
 keywords: 浏览器选项;类型;浏览器类型;浏览器语言;语言;版本;浏览器版本
 description: 了解如何在中创建受众 [!DNL Adobe Target] 定位访问您的页面时使用特定浏览器或特定浏览器选项的用户。
-title: 我能否根据浏览器类型定位访客？
+title: 我是否可以根据浏览器类型定位访客？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bb6d08581ddb685b4a311ad1c1d792546db12db6
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 73%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 76%
 * Microsoft Edge
 * Opera
 * iPad
-* iPhone|
+* iPhone
 
 定位浏览器的方式有两种：
 
@@ -36,10 +36,10 @@ ht-degree: 76%
 
       ![Target Chrome用户](/help/main/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
 
-* **自定义的浏览器受众规则：** 通过自定义受众，您可以定位多个浏览器，或者为特定浏览器、浏览器版本或浏览器语言设置规则或排除项。 在基于浏览器属性定位活动时，此功能提供了很大的灵活性。
+* **自定义的浏览器受众规则：** 通过自定义受众，您可以定位多个浏览器，或者为特定浏览器、浏览器版本或浏览器语言设置规则或排除项。 根据浏览器属性定位活动时，此功能可提供极大的灵活性。
 
-   1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
-   1. 为受众命名并添加可选描述。
+   1. 在 [!DNL Target] 界面，单击 **[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**.
+   1. 命名受众并添加可选描述。
    1. 拖放 **[!UICONTROL 浏览器]** 放入受众生成器中。
 
       ![规则>浏览器](assets/target_browser.png)
@@ -49,12 +49,13 @@ ht-degree: 76%
       * **类型：**&#x200B;定位或排除特定浏览器。请参阅[类型](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)。
       * **语言：** 定位或排除设置为使用特定语言的特定浏览器。 请参阅[语言](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)。
       * **版本：**&#x200B;定位或排除特定浏览器版本。请参阅[版本](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)。
+
    1. （可选）为受众设置其他规则。
    1. 单击&#x200B;**[!UICONTROL 完成]**。
 
-   以下示例显示了一个受众，其中包含版本91或92上的Microsoft Edge用户：
+  以下示例显示了一个受众，其中包含版本91或92上的Microsoft Edge用户：
 
-   ![Target Edge 91或92](assets/target_edge.png)
+  ![Target Edge 91或92](assets/target_edge.png)
 
 ## 浏览器选项 {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -113,7 +114,7 @@ ht-degree: 76%
 * 低于
 * 低于或等于
 
-键入版本号。在文本字段中只能输入主要版本。指定的版本包括该版本的任何次要版本。例如，如果您指定版本10，则还包括版本10.1上的访客。
+键入版本号。 在文本字段中只能输入主要版本。指定的版本包括该版本的任何次要版本。例如，如果您指定版本10，则还包括版本10.1上的访客。
 
 多个选项之间使用 OR 进行连接。
 

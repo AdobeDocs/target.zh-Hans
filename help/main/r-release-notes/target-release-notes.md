@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
+source-git-commit: 78bedce2134061edc48baf7023107e1dd48da2a1
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 49%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2023 年 11 月 8 日**
+**上次更新日期： 2023年1月16日**
 
 >[!NOTE]
 >
@@ -23,23 +23,27 @@ ht-degree: 100%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 23.11.1（2023 年 11 月 13 日和 14 日）
+## 从“浏览器”受众属性弃用iPad和iPhone （2024年4月30日）
+
+| 弃用 | 详细信息 |
+|--- |--- |
+| [!DNL iPad] 和 [!DNL iPhone] 将被弃用 [浏览器属性](/help/main/c-target/c-audiences/c-target-rules/browser.md) 在创建受众时使用。<p>弃用日期：<P>2024年4月30日 | [!DNL Adobe Target] 允许您 [定位多个类别属性中的任意一个](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括使用特定的 [浏览器或浏览器选项](/help/main/c-target/c-audiences/c-target-rules/browser.md) 访客访问您的页面时。<P><B>从2024年4月30日开始，iPad和iPhone将从以下可用中删除： [!UICONTROL 浏览器] 为受众创建类别时，键入/下拉列表。</b><P>如果您的受众使用 [!UICONTROL 浏览器] 特性，您必须在2024年4月30日之前更改这些设置，以确保这些受众继续按预期工作。<P>以后应使用以下设置：<ul><li>[!UICONTROL 移动设备] > [!UICONTROL 是平板电脑]<P>![手机就是平板电脑](/help/main/r-release-notes/assets/is-tablet.png)</li><li>[!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPad]<P>![iPad](/help/main/r-release-notes/assets/ipad.png)</li><li>[!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPhone]<p>![iPhone](/help/main/r-release-notes/assets/iphone.png)</li></ul> |
+
+## [!DNL Target] Standard/Premium 24.1.1（2024年1月22日、 23日和25日）
 
 此版本计划在接下来的几天发布：
 
-* **11 月 13 日**：亚太 (APAC) 区域
-* **11 月 14 日**：美洲区域
-* **11 月 14 日**：欧洲、中东和非洲 (EMEA) 区域
+* **1 月 22 日**：欧洲、中东和非洲 (EMEA) 地区
+* **1 月 23 日**：亚太 (APAC) 地区
+* **1 月 25 日**：美洲区域
 
 此版本包含以下增强和修复：
 
-* 增强了[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 功能以支持为 [!UICONTROL Automated Personalization] 活动中的体验[禁止重复优惠](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)。(TGT-46627)
-* 在 [!DNL Target] UI 中添加了一个工具提示，以帮助客户理解如果没有为控制体验分配流量，为什么活动报告中可能会没有可用的数据。工具提示中包含有关更多信息的链接：[为什么我的活动报告没有可用数据？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)。(TGT-46610)
-* 修复了一些客户的活动无法在[!UICONTROL 活动] 页面上正确显示的问题。(TGT-46830)
-* 修复了以下问题，这些问题影响使用 [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) 作为报告源的活动：
-   * 修复了一个问题，该问题阻止某些客户查看报告数据。(TGT-46557)
-   * 修复了一个问题，该问题有时导致活动报告页面上的[!UICONTROL 在 Analytics 中查看]链接无法发挥正常作用。(TGT-46731)
-   * 修复了一个问题，该问题阻止在 [!DNL Target] UI 中正常显示[!UICONTROL 提升度]和[!UICONTROL 置信度]的数据。（TGT-46592、TGT-46554 和 TGT-46586）
+* 修复了导致报表日期间隔无法正常工作的问题。 (TGT-47396)
+* 修复了一个问题，该问题导致在 [!UICONTROL 所有活动] 客户使用以下方式激活或停用活动后的页面 [!UICONTROL 更多操作] 图标。 (TGT-47367)
+* 修复了导致出现错误的问题 [!UICONTROL 重要属性] 报告不显示给一个客户。 (TGT-47272)
+* 修复了一个问题，该问题导致在一个客户尝试启用“需要身份验证”时显示“有效负载无效”消息。 (TGT-47195)
+* 更新了 [!DNL Target] UI。
 
 ## 其他发行说明和版本详细信息
 

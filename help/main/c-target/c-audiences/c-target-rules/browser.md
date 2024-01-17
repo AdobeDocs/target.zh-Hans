@@ -4,7 +4,7 @@ description: 了解如何在中创建受众 [!DNL Adobe Target] 定位访问您�
 title: 我是否可以根据浏览器类型定位访客？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 77c8a3460b800183481637723b9631c11157d143
+source-git-commit: 1e1641a52478e21bba4a1991f62809c7046dd33e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 51%
@@ -141,35 +141,35 @@ ht-degree: 51%
 
 以后可以使用以下设置：
 
-* 对于浏览器匹配项 [!DNL Apple]： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 匹配] [!DNL Apple]
+* **对于浏览器匹配项[!DNL Apple]**： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 匹配] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* 对于与平板电脑匹配的浏览器： [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] > [!UICONTROL true]
+* **对于浏览器匹配平板电脑**： [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] > [!UICONTROL true]
 
   ![手机就是平板电脑](/help/main/r-release-notes/assets/is-tablet.png)
 
-* 对于与iPad匹配的浏览器： [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPad] 包含And容器 [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] 是 [!DNL true]
+* **对于浏览器匹配iPad**： [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPad] 包含And容器 [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] 是 [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* 对于与iPhone匹配的浏览器： [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPhone] 包含And容器 [!UICONTROL 移动设备] > [!UICONTROL 是手机] 是 [!DNL true]
+* **对于浏览器匹配iPhone**： [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPhone] 包含And容器 [!UICONTROL 移动设备] > [!UICONTROL 是手机] 是 [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 还可以使用许多其他可能的设置，例如，当条件被否定时。 否定条件的示例可能如下所示：
 
-* 对于浏览器与iPhone不匹配： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 不匹配] [!UICONTROL Apple] 包含Or容器 [!UICONTROL 移动设备] > [!UICONTROL 是手机] 是 [!UICONTROL false]
+* **For浏览器与iPhone不匹配**： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 不匹配] [!UICONTROL Apple] 包含Or容器 [!UICONTROL 移动设备] > [!UICONTROL 是手机] 是 [!UICONTROL false]
 
   ![非手机](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* 对于浏览器与iPad不匹配： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 不匹配] [!UICONTROL Apple] 包含Or容器 [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] 是 [!UICONTROL false].
+* **For浏览器与iPad不匹配**： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 不匹配] [!UICONTROL Apple] 包含Or容器 [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] 是 [!UICONTROL false].
 
   ![不是平板电脑](/help/main/r-release-notes/assets/tablet-false.png)
 
 如果您使用 `user.browserType` 在JavaScript区段中，更改可能包括以下内容：
 
-* BrowserType是iPhone
+* **BrowserType是iPhone**：
 
   替换：
 
@@ -179,7 +179,7 @@ ht-degree: 51%
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType不是iPhone
+* **BrowserType不是iPhone**：
 
   替换：
 
@@ -189,7 +189,7 @@ ht-degree: 51%
 
   `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType是iPad
+* **BrowserType是iPad**：
 
   替换：
 
@@ -199,7 +199,7 @@ ht-degree: 51%
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
 
-* BrowserType不是iPad
+* **BrowserType不是iPad**：
 
   替换：
 

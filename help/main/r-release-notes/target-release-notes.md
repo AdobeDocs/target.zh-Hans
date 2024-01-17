@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b76a0541b181ee5ebe88f2d11f5556c6c7b91126
+source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 49%
+source-wordcount: '421'
+ht-degree: 50%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 49%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期： 2024年1月16日**
+**上次更新日期： 2024年1月17日**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 49%
 
 | 弃用 | 详细信息 |
 |--- |--- |
-| [!DNL iPad] 和 [!DNL iPhone] 将被弃用 [浏览器属性](/help/main/c-target/c-audiences/c-target-rules/browser.md) 在创建受众时使用。<p>弃用日期：<P>2024年4月30日 | [!DNL Adobe Target] 允许您 [定位多个类别属性中的任意一个](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括使用特定的 [浏览器或浏览器选项](/help/main/c-target/c-audiences/c-target-rules/browser.md) 访客访问您的页面时。<P><B>从2024年4月30日开始，iPad和iPhone将从以下可用中删除： [!UICONTROL 浏览器] 为受众创建类别时，键入/下拉列表。</b><P>如果您的受众使用 [!UICONTROL 浏览器] 特性，您必须在2024年4月30日之前更改这些设置，以确保这些受众继续按预期工作。<P>以后应使用以下设置：<ul><li>[!UICONTROL 移动设备] > [!UICONTROL 是平板电脑]<P>![手机就是平板电脑](/help/main/r-release-notes/assets/is-tablet.png)</li><li>[!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPad]<P>![iPad](/help/main/r-release-notes/assets/ipad.png)</li><li>[!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPhone]<p>![iPhone](/help/main/r-release-notes/assets/iphone.png)</li></ul> |
+| [!DNL iPad] 和 [!DNL iPhone] 将被弃用 [浏览器属性](/help/main/c-target/c-audiences/c-target-rules/browser.md) 在创建受众时使用。<p>弃用日期：<P>2024年4月30日 | [!DNL Adobe Target] 允许您 [定位多个类别属性中的任意一个](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括使用特定的 [浏览器或浏览器选项](/help/main/c-target/c-audiences/c-target-rules/browser.md) 访客访问您的页面时。<P><B>从2024年4月30日开始，iPad和iPhone将从以下可用中删除： [!UICONTROL 浏览器] 为受众创建类别时，键入/下拉列表。</b><P>如果您的受众使用 [!UICONTROL 浏览器] 特性，您必须在2024年4月30日之前更改这些设置，以确保这些受众继续按预期工作。<p>有关替代设置的示例，请参阅 [从“浏览器”受众属性弃用iPad和iPhone （2024年4月30日）](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1（2024年1月22日、 23日和25日）
 

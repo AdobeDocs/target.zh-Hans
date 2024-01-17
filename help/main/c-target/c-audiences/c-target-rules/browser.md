@@ -4,10 +4,10 @@ description: 了解如何在中创建受众 [!DNL Adobe Target] 定位访问您�
 title: 我是否可以根据浏览器类型定位访客？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: bb6d08581ddb685b4a311ad1c1d792546db12db6
+source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 73%
+source-wordcount: '923'
+ht-degree: 54%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 73%
 * Opera
 * iPad
 * iPhone
+
+>[!IMPORTANT]
+>
+>从2024年4月30日开始，iPad和iPhone将从以下可用中删除： [!UICONTROL 浏览器] 为受众创建类别时，键入/下拉列表。 有关解决方法设置，请参阅 [从“浏览器”受众属性弃用iPad和iPhone （2024年4月30日）](#deprecation) 下。
 
 定位浏览器的方式有两种：
 
@@ -126,3 +130,81 @@ ht-degree: 73%
 * 定义受众类别
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
+
+## 从“浏览器”受众属性弃用iPad和iPhone （2024年4月30日） {#deprecation}
+
+[!DNL Adobe Target] 允许您 [定位多个类别属性中的任意一个](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括在访问您的页面时使用特定浏览器或浏览器选项的用户。
+
+从2024年4月30日开始，iPad和iPhone将从以下可用中删除： [!UICONTROL 浏览器] 为受众创建类别时，键入/下拉列表。
+
+如果您的受众使用 [!UICONTROL 浏览器] 特性，您必须在2024年4月30日之前更改这些设置，以确保这些受众继续按预期工作。
+
+以后可以使用以下设置：
+
+* [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 匹配] [!DNL Apple]
+
+  ![Apple](/help/main/r-release-notes/assets/apple.png)
+
+* [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑]
+
+  ![手机就是平板电脑](/help/main/r-release-notes/assets/is-tablet.png)
+
+* [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPad]
+
+  ![iPad](/help/main/r-release-notes/assets/ipad.png)
+
+* [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPhone]
+
+  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
+
+还可以使用许多其他可能的设置，例如，当条件被否定时。 否定条件的示例可能如下所示：
+
+* [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 不匹配] [!UICONTROL Apple] 包含Or容器 [!UICONTROL 移动设备] > [!UICONTROL 是手机] 是 [!UICONTROL false]
+
+  ![非手机](/help/main/r-release-notes/assets/mobile-phone-false.png)
+
+* [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 不匹配] [!UICONTROL Apple] 包含Or容器 [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] 是 [!UICONTROL false].
+
+  ![不是平板电脑](/help/main/r-release-notes/assets/tablet-false.png)
+
+如果您使用 `user.browserType` 在JavaScript区段中，更改可能包括以下内容：
+
+* BrowserType是iPhone
+
+  替换：
+
+  `user.browserType=="iphone"`
+
+  替换为：
+
+  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
+
+* BrowserType不是iPhone
+
+  替换：
+
+  `user.browserType!="iphone"`
+
+  替换为：
+
+  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
+
+* BrowserType是iPad
+
+  替换：
+
+  `user.browserType=="ipad"`
+
+  替换为：
+
+  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
+
+* BrowserType不是iPad
+
+  替换：
+
+  `user.browserType!="ipad"`
+
+  替换为：
+
+  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("ipad")`

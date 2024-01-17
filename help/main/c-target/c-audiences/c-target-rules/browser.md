@@ -4,10 +4,10 @@ description: 了解如何在中创建受众 [!DNL Adobe Target] 定位访问您�
 title: 我是否可以根据浏览器类型定位访客？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 54%
+source-wordcount: '943'
+ht-degree: 53%
 
 ---
 
@@ -145,15 +145,15 @@ ht-degree: 54%
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑]
+* [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] > [!UICONTROL true]
 
   ![手机就是平板电脑](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPad]
+* [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPad] 包含And容器 [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] 是 [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPhone]
+* [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPhone] 包含And容器 [!UICONTROL 移动设备] > [!UICONTROL 是手机] 是 [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 

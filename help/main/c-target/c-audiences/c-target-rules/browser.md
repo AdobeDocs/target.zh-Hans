@@ -4,10 +4,10 @@ description: 了解如何在中创建受众 [!DNL Adobe Target] 定位访问您�
 title: 我是否可以根据浏览器类型定位访客？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
+source-git-commit: 77c8a3460b800183481637723b9631c11157d143
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 53%
+source-wordcount: '970'
+ht-degree: 51%
 
 ---
 
@@ -141,29 +141,29 @@ ht-degree: 53%
 
 以后可以使用以下设置：
 
-* [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 匹配] [!DNL Apple]
+* 对于浏览器匹配项 [!DNL Apple]： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 匹配] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] > [!UICONTROL true]
+* 对于与平板电脑匹配的浏览器： [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] > [!UICONTROL true]
 
   ![手机就是平板电脑](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPad] 包含And容器 [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] 是 [!DNL true]
+* 对于与iPad匹配的浏览器： [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPad] 包含And容器 [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] 是 [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPhone] 包含And容器 [!UICONTROL 移动设备] > [!UICONTROL 是手机] 是 [!DNL true]
+* 对于与iPhone匹配的浏览器： [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPhone] 包含And容器 [!UICONTROL 移动设备] > [!UICONTROL 是手机] 是 [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 还可以使用许多其他可能的设置，例如，当条件被否定时。 否定条件的示例可能如下所示：
 
-* [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 不匹配] [!UICONTROL Apple] 包含Or容器 [!UICONTROL 移动设备] > [!UICONTROL 是手机] 是 [!UICONTROL false]
+* 对于浏览器与iPhone不匹配： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 不匹配] [!UICONTROL Apple] 包含Or容器 [!UICONTROL 移动设备] > [!UICONTROL 是手机] 是 [!UICONTROL false]
 
   ![非手机](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 不匹配] [!UICONTROL Apple] 包含Or容器 [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] 是 [!UICONTROL false].
+* 对于浏览器与iPad不匹配： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 不匹配] [!UICONTROL Apple] 包含Or容器 [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] 是 [!UICONTROL false].
 
   ![不是平板电脑](/help/main/r-release-notes/assets/tablet-false.png)
 

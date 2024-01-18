@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
+source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
-source-wordcount: '2360'
-ht-degree: 100%
+source-wordcount: '2374'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 1 月 18 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为即将推出的产品添加了预发行说明 [!DNL Target Standard/Premium] 24.1.1版本。 |
 | 12 月 13 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了有关 [!DNL Adobe Target] 2024 年个性化成熟度网络研讨会系列的信息。 |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 添加了两个新的可选设置： <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
 | 12 月 4 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了“机器学习和 AI 报告与分析”[!DNL Adobe Target Community] 喝咖啡休息时间讲座（2023 年 12 月 6 日星期三）的登记信息。 |

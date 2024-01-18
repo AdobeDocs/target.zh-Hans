@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 50%
+source-wordcount: '346'
+ht-degree: 77%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 50%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期： 2024年1月17日**
+**上次更新日期： 2024年1月18日**
 
 >[!NOTE]
 >
@@ -23,13 +23,8 @@ ht-degree: 50%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## 从“浏览器”受众属性弃用iPad和iPhone （2024年4月30日）
 
-| 弃用 | 详细信息 |
-|--- |--- |
-| [!DNL iPad] 和 [!DNL iPhone] 将被弃用 [浏览器属性](/help/main/c-target/c-audiences/c-target-rules/browser.md) 在创建受众时使用。<p>弃用日期：<P>2024年4月30日 | [!DNL Adobe Target] 允许您 [定位多个类别属性中的任意一个](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括使用特定的 [浏览器或浏览器选项](/help/main/c-target/c-audiences/c-target-rules/browser.md) 访客访问您的页面时。<P><B>从2024年4月30日开始，iPad和iPhone将从以下可用中删除： [!UICONTROL 浏览器] 为受众创建类别时，键入/下拉列表。</b><P>如果您的受众使用 [!UICONTROL 浏览器] 特性，您必须在2024年4月30日之前更改这些设置，以确保这些受众继续按预期工作。<p>有关替代设置的示例，请参阅 [从“浏览器”受众属性弃用iPad和iPhone （2024年4月30日）](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
-
-## [!DNL Target] Standard/Premium 24.1.1（2024年1月22日、 23日和25日）
+## [!DNL Target] Standard/Premium 24.1.1（2024 年 1 月 22 日、23 日和 25 日）
 
 此版本计划在接下来的几天发布：
 
@@ -39,11 +34,12 @@ ht-degree: 50%
 
 此版本包含以下增强和修复：
 
-* 修复了导致报表日期间隔无法正常工作的问题。 (TGT-47396)
-* 修复了一个问题，该问题导致在 [!UICONTROL 所有活动] 客户使用以下方式激活或停用活动后的页面 [!UICONTROL 更多操作] 图标。 (TGT-47367)
-* 修复了导致出现错误的问题 [!UICONTROL 重要属性] 报告不显示给一个客户。 (TGT-47272)
-* 修复了一个问题，该问题导致在一个客户尝试启用“需要身份验证”时显示“有效负载无效”消息。 (TGT-47195)
-* 更新了 [!DNL Target] UI。
+* [!UICONTROL 目标分析] (A4T)具有收入目标指标的活动没有将“收入”显示为列名称，并且收入指标在报表中未以($)格式显示。 这是一个已修复的外观问题。 (TGT-46995)
+* 修复了一个问题，该问题导致报告日期间隔无法正常工作。(TGT-47396)
+* 修复了一个问题，该问题导致客户使用[!UICONTROL 更多操作]图标激活或停用活动后，[!UICONTROL 所有活动]页面上显示错误状态。(TGT-47367)
+* 修复了导致出现错误的问题 [!UICONTROL 重要属性] 对于单个客户不显示报表。 (TGT-47272)
+* 修复了在单个客户尝试启用“需要身份验证”时导致显示“有效负载无效”消息的问题。 (TGT-47195)
+* 更新了 [!DNL Target] UI 中的大量本地化字符串。
 
 ## 其他发行说明和版本详细信息
 

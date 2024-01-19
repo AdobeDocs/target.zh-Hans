@@ -2,13 +2,13 @@
 keywords: 推荐;简介;简介;网络研讨会;演示
 description: 了解 Adobe [!DNL Target] 中的“推荐”活动，这些活动根据以前的用户活动或其他算法自动显示可能让客户感兴趣的内容。
 title: “推荐”活动是什么？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2114'
-ht-degree: 91%
+source-wordcount: '2086'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 ![显示其他人随新手机一起购买的配件的推荐。](/help/main/c-recommendations/assets/intro-1.png)
 
-但我们并不总是在考虑数字化优先品牌如何提高客户期望的标准。 我们使用媒体和内容的方式也越来越多地受到个性化推荐的驱动。请想想您打开 Netflix、Spetify 或 YouTube 时看到的第一个内容。这些品牌就是通过推荐来开始客户体验。在一个比以往任何时候都有更多可用替代内容的世界中，您必须在交互时为客户确定最相关的内容，这一点至关重要。
+但我们并不总是在考虑数字化优先品牌如何提高客户期望的标准。 我们使用媒体和内容的方式也越来越多地受到个性化推荐的驱动。请想想您打开 Netflix、Spetify 或 YouTube 时看到的第一个内容。这些品牌就是通过推荐来开始客户体验。在一个比以往任何时候都有更多可用替代内容的世界中，您必须在客户进行交互时为其确定最相关的内容，这一点至关重要。
 
 ![显示数字优先品牌的推荐](/help/main/c-recommendations/assets/intro-2.png)
 
@@ -55,7 +55,7 @@ ht-degree: 91%
 
 * **营销人员控件**，可帮助驱动所推荐项目的相关性。作为营销人员，您可以为表格提供有价值的上下文信息，而且您知道产品或内容的哪些属性与要考虑的推荐模型相关。如果您正在运营一个视频网站，您知道用户可能有兴趣观看同一导演拍摄的电影，但可能并不关心由同一工作室制作的电影。 [!DNL Target] 可为您提供允许您使用此域知识来增强算法的控件。
 * **完善的模型**，可帮助了解您目录中的数百万个项目和各种交互活动。[!DNL Target] 拥有经过十多年经验积累的先进的机器学习功能，我们每年都会处理数十亿条推荐。
-* **用户上下文**，可确保推荐及时并且与用户相关。您不希望推荐某个用户刚刚观看的视频，或者某个用户刚刚添加到购物车的衬衫。 Target的丰富用户配置文件可用于推荐，以确保个性化。
+* **用户上下文**，可确保推荐及时并且与用户相关。您不希望推荐某个用户刚刚观看过的视频，或者某个用户刚刚添加到购物车的衬衫。 Target的丰富用户配置文件可用于推荐，以确保个性化。
 
 ## 实现 [!DNL Target] 推荐
 
@@ -105,7 +105,7 @@ ht-degree: 91%
 
 您需要确保 [!DNL Target] 了解用户正在查看和购买的项目。如果购买与上下文无关，则可能需要跟踪不同类型的转化事件，例如，下载PDF、完成调查、订阅新闻稿、观看视频等。
 
-如果您已经使用 [!DNL Target] 在网站上运行 A/B 测试活动，则可能已经完成了此步骤。或者，如果您已经使用 [!DNL Adobe Analytics] 来报告网站访问情况和转化行为，则可以使用 [!DNL Analytics] 作为行为数据源。如果没有，最简单的做法是使用标签管理器(例如 [[!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. 也可以将离线或应用程序内交互发送到 [!DNL Target] 通过实时API。
+如果您已经使用 [!DNL Target] 在网站上运行 A/B 测试活动，则可能已经完成了此步骤。或者，如果您已经使用 [!DNL Adobe Analytics] 来报告网站访问情况和转化行为，则可以使用 [!DNL Analytics] 作为行为数据源。如果没有，最简单的做法是使用标签管理器(例如 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. 也可以将离线或应用程序内的交互发送到 [!DNL Target] 通过实时API。
 
 ### 使用正确的上下文信息获取推荐
 

@@ -4,10 +4,10 @@ description: 查看在Adobe Target中的配置文件脚本中有用的各种配�
 title: 哪些配置文件、变量和参数用于 [!DNL Target]？
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 78%
+source-wordcount: '618'
+ht-degree: 74%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 78%
 | user.daysSinceLastVisit |  |
 | user.browser | 用户代理 |
 | user.header | 所有 `user.header` 配置文件均从 mbox 请求标头数据内置 |
-| user.header(&#39;x-forwarded-for&#39;) | 访客所在网络连接的公共 IP 地址。<br>您可以通过多种方法获取此地址，例如通过 [whatismyip.com](https://www.whatismyip.com/) / 获取。此 IP 地址不是以 10.、192.168. 或 172. 开头的 NAT 地址（内部地址）。<br>注意：已弃用user.header(&#39;x-cluster-client-ip&#39;)。 |
+| user.header(&#39;x-forwarded-for&#39;) | 访客所在网络连接的公共 IP 地址。<br>您可以通过多种方法获取此地址，例如 [whatismyip.com](https://www.whatismyip.com/). 此 IP 地址不是以 10.、192.168. 或 172. 开头的 NAT 地址（内部地址）。<br>注意：已弃用user.header(&#39;x-cluster-client-ip&#39;)。 |
 | user.header(&#39;host&#39;) | 网站主机名 |
 | user.header(&#39;cookie&#39;) | 访客 Cookie 数据 |
 | user.header(&#39;user-agent&#39;) | 访客浏览器用户代理 |
@@ -39,7 +39,7 @@ ht-degree: 78%
 | user.header(&#39;connection&#39;) | 服务器连接。例如：keep-live |
 | user.header(&#39;referrer&#39;) | 访客当前页面的网站 URL。不适用于 Internet Explorer。 |
 | user.getLocal(&#39;param_name&#39;)； | 检索您使用设置的值 `user.setLocal`. |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | 在配置文件脚本中创建持久配置文件值。 这些值就像配置文件脚本一样持续存在，但您只能在设置它的脚本中访问它。 |
+| user.setLocal(&#39;param_name&#39;，&#39;value&#39;) | 在配置文件脚本中创建保留的配置文件值。 这些值就像配置文件脚本一样持续存在，但您只能在设置它的脚本中访问它。 |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | 从配置文件脚本创建的永久性配置文件属性。还引用“系统”配置文件，如地理位置、访问计数等。 |
 | profile.get(&#39;param_name&#39;) | 获取要在配置文件脚本中使用的配置文件参数的正确方法是profile.get(&#39;param_name&#39;)方法。 |
@@ -82,13 +82,13 @@ ht-degree: 78%
 | mbox.param(&#39;param_name&#39;) |  |
 | 与每个请求一起自动传递的参数：<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | 与订单 mbox 一起传递的参数：<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | 用于将客户 ID 同步到 Target mboxPCID 的 mbox 参数。客户 ID 是指贵公司用于跟踪访客的 ID，例如 CRM ID、会员 ID 或诸如此类的 ID。此 ID 随后可用于通过配置文件 API 和 [客户属性](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank}. |
+| mbox3rdPartyId | 用于将客户 ID 同步到 Target mboxPCID 的 mbox 参数。客户 ID 是指贵公司用于跟踪访客的 ID，例如 CRM ID、会员 ID 或诸如此类的 ID。然后，可以使用此ID通过配置文件API添加信息，并且 [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank}. |
 | mboxPageValue | 在每个 mbox 调用中，都会为页面分配值。 |
-| mboxDebug | 仅用于调试信息。已添加到at.js在其中查找它的页面URL。 |
+| mboxDebug | 仅用于调试信息。已添加到at.js所查找的页面URL中。 |
 | mboxOverride.browserIp | 设置与实际位置不同的地理位置，以便测试在其他位置时的情况。<br>**注意：** mboxOverride 参数仅应在测试活动时使用，而不应在生产中使用。使用 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) 时，使用任何 mboxOverride 参数都可能导致报表不一致。您应使用[活动 QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)，以确保活动在推送到实时环境之前可以按预期方式运行。 |
 
 ## 客户属性 {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
 可以在配置文件脚本中引用客户属性，格式如下：`crs.get('<Datasource Name>.<Attribute name>')`。
 
-这些属性还可用作配置文件脚本中的令牌，以及直接用作选件中的令牌，而无需首先设置配置文件脚本。令牌应使用以下格式：`${crs.datasourceName.attributeName}`。请注意， `datasourceName` 应从任何API调用中剥离。
+这些属性还可用作配置文件脚本中的令牌，以及直接用作选件中的令牌，而无需首先设置配置文件脚本。令牌应使用以下格式： `${crs.datasourceName.attributeName}`. 请注意， `datasourceName` 应从任何API调用中剥离。

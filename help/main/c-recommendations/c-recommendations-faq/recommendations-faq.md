@@ -2,17 +2,17 @@
 keywords: 故障诊断;常见问题解答;FAQ;推荐;特殊字符;属性权重;内容相似度
 description: 查看关于 Adobe [!DNL Target] 推荐活动的常见问题和答案的列表。
 title: 可在何处找到关于 [!DNL Target] 推荐的问答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3400'
-ht-degree: 91%
+source-wordcount: '3471'
+ht-degree: 90%
 
 ---
 
-# 推荐 常见问题解答
+# “推荐”常见问题解答
 
 关于 [!DNL Adobe Target] [!DNL Recommendations] 活动的常见问题 (FAQ) 的列表。
 
@@ -38,7 +38,7 @@ ht-degree: 91%
 
 * 如果某个项目之前已被排除但现在应该添加，该项目将包含在下一次算法运行（12-24 个小时）中。
 
-   出现此情形是因为 [!DNL Target] 会在线和离线应用排除项。如果某个项目是新排除的，会快速应用在线排除项。如果某个项目是新添加的，在线排除项会快速消失，但离线排除项一直到下一次运行算法时才会消失。
+  出现此情形是因为 [!DNL Target] 会在线和离线应用排除项。如果某个项目是新排除的，会快速应用在线排除项。如果某个项目是新添加的，在线排除项会快速消失，但离线排除项一直到下一次运行算法时才会消失。
 
 * 如果某个项目之前已添加但现在应该排除，则会按照上文讨论的“项目属性已更新...”时间线排除该项目，具体取决于信息源来源（通过 mbox/API 为 15 分钟，通过信息源为 12-24 个小时）。
 
@@ -59,14 +59,14 @@ ht-degree: 91%
 * 对促销设置做出的更改最多需要五个小时才能反映在网站上。
 * 对其他标准设置做出的更改到下一次算法运行时才会反映在网站上。
 
-   * 某些标准设置（例如，“添加动态包含规则”）会立即得到反映。
-   * 其他标准设置（例如“删除动态包含规则”、更改回顾窗口等）直到下一次算法运行才能纳入其中。
+   * 某些标准设置（例如“添加动态包含规则”）会立即得到反映。
+   * 其他标准设置（例如“删除动态包含规则”、更改回顾窗口等）直到下一次算法运行才会纳入其中。
    * 算法运行由这些更改触发，但最多需要 24 小时才能完成。算法还按计划运行，每 12-24 小时一次。
 
-## 用户的行为（例如，单击产品A并购买产品B）需要多久才能反映在推荐中 *该* 用户收到？
+## 用户的行为（例如，单击产品A并购买产品B）需要多久才能反映在推荐中 *该* 用户是否接收？
 
 * 目前查看/购买过的产品/内容会影响用户在同一次页面浏览/[!DNL Target] 内容请求中收到的推荐。
-* 历史用户行为（例如“上次查看过的产品”、“查看次数最多的产品”以及总体查看/购买历史记录）会更新该请求，并影响用户在下一页面查看/查看中收到的推荐。[!DNL Target] 内容请求。 例如，“最近查看的项目”和“为您推荐”算法会随每次产品查看/购买而更新，并反映在后续内容请求中。
+* 历史用户行为（例如“上次查看过的产品”、“最常查看的产品”）以及总体查看/购买历史记录会与该请求一起更新，并且会影响用户在下一次页面浏览/访问中收到的推荐[!DNL Target] 内容请求。 例如，“最近查看过的项目”和“为您推荐”算法会随每次产品查看/购买而更新，并反映在后续内容请求中。
 
 ## 用户的行为（例如，单击产品A并购买产品B）需要多久才能反映在推荐中 *其他* 用户是否会收到？
 
@@ -95,7 +95,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果使用 mbox 中存在类别 ID 的位置，则标准选取器包含所有适用的标准。
 
-[!DNL Target] 具有[“筛选不兼容的标准”](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}设置以控制算法选取器的智能筛选。
+[!DNL Target] 具有 [筛选不兼容的标准](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 设置，用于控制算法选取器的智能过滤。
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 * 可重新保存该收藏集，然后查看它是否更新数字。通过重新保存，该收藏集重新运行所有使用该收藏集的算法。
 * 您所查看的环境是否正确？请转到 [!DNL /target/products.html#recsSettings] 进行复查（如下所示）。
 
-   ![product_catalog图像](assets/product_catalog.png)
+  ![product_catalog图像](assets/product_catalog.png)
 
 * 索引是否为最新？转到 [!DNL /target/products.html#productSearch] 并检查索引存在了多少个小时（例如，“3小时前编制了索引”）。 如有需要，您可以刷新索引。
 * 您是否更改过信息源或数据层，从而导致实体不再匹配收藏集规则？请确保大小写匹配（区分大小写）。
@@ -144,7 +144,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 “内容相似度属性权重”仅适用于内容相似度标准。
 
-此类型的权重比较动态，并且基于当前“推荐键”（当前查看的项目）。 在以下示例（品牌x 16）中，如果访客正在查看Nike运动鞋，则更有可能向该访客推荐其他Nike产品（不一定只是运动鞋）而不是竞争对手的运动鞋。 如果访客正在查看阿迪达斯运动鞋，则更有可能为该访客推荐阿迪达斯产品。
+此类权重比较动态，并且基于当前“推荐键”（当前查看的项目）。 在以下示例（品牌x 16）中，如果访客正在查看Nike运动鞋，则更有可能向该访客推荐其他Nike产品（不一定只是运动鞋）而不是竞争对手的运动鞋。 如果访客正在查看阿迪达斯运动鞋，则更有可能为该访客推荐阿迪达斯产品。
 
 ![content_similarity_example图像](assets/content_similarity_example.png)
 
@@ -214,19 +214,19 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 * 结果尚未准备好。
 
-   一般在首次保存新创建的活动时或在对该活动中使用的收藏集、标准或促销作出配置更改之后发生此情况。
+  一般在首次保存新创建的活动时或在对该活动中使用的收藏集、标准或促销作出配置更改之后发生此情况。
 
 * 所请求的算法/键组合的结果已准备好，但尚未缓存到最近的边缘服务器上。
 
-   该请求发起缓存操作，因此在重新加载几页和/或经过几分钟后，此问题应自行解决。
+  该请求发起缓存操作，因此在重新加载几页和/或经过几分钟后，此问题应自行解决。
 
 * 结果已准备好，但所提供的键值无结果可用。
 
-   一般在算法最近运行之后为添加到目录的项目请求推荐时发生此情况，并将在算法下次运行之后自行解决。
+  一般在算法最近运行之后为添加到目录的项目请求推荐时发生此情况，并将在算法下次运行之后自行解决。
 
 * 禁用了部分模板渲染，因此没有足够多的结果可填入模板。
 
-   一般在具有动态包含规则时发生此情况，该规则积极地从可能得出的结果中筛选掉许多项目。为避免发生此情况，请启用备份并且不要将包含规则应用于备份，或者按顺序使用不那么积极筛选的标准。
+  一般在具有动态包含规则时发生此情况，该规则积极地从可能得出的结果中筛选掉许多项目。为避免发生此情况，请启用备份并且不要将包含规则应用于备份，或者按顺序使用不那么积极筛选的标准。
 
 ## 根据最近查看过的项目提供的推荐是否会保留在单个访客的多个设备中？ {#persist-across-devices}
 
@@ -244,7 +244,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 我是否可以在 [!DNL Recommendations Premium] 中使用在 [!DNL Adobe Recommendations Classic] 中创建的算法？
 
-[!DNL Recommendations Premium] 不支持 [!DNL Recommendations Classic] 中创建的算法。您或许可以使用 [!DNL Target Premium] 中的旧算法；但是，在 [!DNL Target Premium] UI 中停用或删除活动时，该算法可能会产生同步问题。有关这两种解决方案之间的差异的更多信息，请参阅  [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md) 中的 [[!DNL Recommendations Classic] versus [!DNL Recommendations]  活动。
+[!DNL Recommendations Premium] 不支持 [!DNL Recommendations Classic] 中创建的算法。您或许可以使用 [!DNL Target Premium] 中的旧算法；但是，在 [!DNL Target Premium] UI 中停用或删除活动时，该算法可能会产生同步问题。有关这两种解决方案之间差异的更多信息，请参阅 [[!DNL Recommendations Classic] 对比 [!DNL Recommendations] 中的活动 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 ## 如何只推荐新文章或视频？ {#recommend-new-articles}
 
@@ -276,7 +276,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 >
 >此示例还可以使用匹配 `priorDate60` 值并将其作为 mbox 参数进行传递的参数来完成。
 
-### 使用时的一些已知问题 [!DNL Recommendations] 活动？
+### 使用时存在哪些已知问题 [!DNL Recommendations] 活动？
 
 以下是对于[!UICONTROL 推荐]活动已知的问题：
 

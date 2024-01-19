@@ -4,10 +4,10 @@ description: 浏览有关Adobe的常见问题和答案的列表 [!DNL Target] �
 title: 可在何处找到关于以下内容的问题的答案： [!DNL Target] 报告？
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 27%
+source-wordcount: '1385'
+ht-degree: 25%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 27%
 
 XT 活动应始终包含一个控制体验。如果您使用 XT 活动的方式与 [!UICONTROL A/B 测试]活动类似（这是一种相当常见的情况），则控制体验数据将会很有用。如果发现控制体验数据在报表中没有用处，则可以将其忽略。
 
-## [!DNL Target] 中的访问次数为何低于其他 [!DNL Adobe Experience Cloud] 解决方案中的访问次数？ {#section_7E626FDB417E41B8B58BBF30FB207409}
+## 为什么访问次数会低于预期 [!DNL Target] 比在其他 [!DNL Adobe Experience Cloud] 解决方案？ {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 量度数量，例如访问次数，报告自 [!DNL Target] 始终低于其他报表中报告的数字 [!DNL Experience Cloud] 解决方案，原因如下：
 
@@ -125,6 +125,6 @@ XT 活动应始终包含一个控制体验。如果您使用 XT 活动的方式�
 * A/B和MVT测试的最佳实践是保持流量拆分均匀。 在测试期间更改体验之间的流量分配（例如，从90/10更改为50/50）可能会导致体验之间的访客数不均衡。 较低的流量体验可能永远不会“赶上”。
 * 如果您遵循上述最佳实践，并且流量分摊不会随时间而正常化，则您应该检查以下各项：
 
-   * 您是否在使用最新的at.js库？ 有关当前版本和相关发行说明的更多信息，请参阅 [at.js版本详细信息](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+   * 您是否在使用最新的at.js库？ 有关当前版本和相关发行说明的更多信息，请参阅 [at.js版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
    * 是否为重定向测试？ 在页面上触发的标记定时不正确可能会导致不均衡的流量分摊，尤其是在使用时 [!DNL Analytics] 作为的数据源 [!DNL Target] 活动。 有关使用Analytics for Target (A4T)纠正重定向活动上流量分配不均衡的详细信息，请参阅 [重定向选件 — A4T常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

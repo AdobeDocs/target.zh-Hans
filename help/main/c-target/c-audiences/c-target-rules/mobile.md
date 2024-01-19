@@ -4,10 +4,10 @@ description: 了解如何在中创建受众 [!DNL Adobe Target] 以定位移动�
 title: 我是否可以根据移动设备选项定位访客？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 0f51f2a8c501ebfc2f11aebd9bfc434160a6b471
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 39%
+source-wordcount: '687'
+ht-degree: 34%
 
 ---
 
@@ -27,19 +27,19 @@ ht-degree: 39%
 
 | 参数 | 类型 | 描述 |
 |--- |--- |--- |
-| devicePixelRatio | 字符串 | 浏览器中物理像素和与设备无关的像素 (dip) 之间的比率。例如，“1.5”或“2” |
+| devicePixelRatio | 字符串 | 浏览器上物理像素和与设备无关的像素(dip)之间的比率。 例如，“1.5”或“2” |
 | screenOrientation | 字符串 | 设备和浏览器的 JavaScript 引擎支持“设备方向”。可以是“横向”或“纵向”。 |
 | webGLRenderer | 字符串 | 图形驱动程序的浏览器渲染器。 |
 
 >[!NOTE]
 >
->使用Mobile SDK的客户无需执行任何操作即可应用此功能。 使用at.js的客户必须 [升级到at.js版本1.5.0](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} （或更高版本）。
+>使用Mobile SDK的客户无需执行任何操作即可应用此功能。 使用at.js的客户必须 [升级到at.js版本1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} （或更高版本）。
 
 您可以选择多个移动设备属性。使用OR运算符连接多个选择。
 
 使用自定义集成（不使用 at.js 或 Mobile SDK）的客户可以自己收集这些参数并将其作为 mbox 参数传递。
 
-1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
+1. 在 [!DNL Target] 界面，单击 **[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**.
 1. 命名受众并添加可选描述。
 1. 拖放 **[!UICONTROL 移动设备]** 放入受众生成器窗格。
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：

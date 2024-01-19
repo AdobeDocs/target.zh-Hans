@@ -2,23 +2,23 @@
 keywords: 收藏集;定位
 description: 了解如何在Adobe中使用收藏集 [!DNL Target] Recommendations。 收藏集是一组符合推荐标准的产品或项目。
 title: 如何在Recommendations活动中使用收藏集？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 60%
+source-wordcount: '891'
+ht-degree: 52%
 
 ---
 
 # 收藏集
 
-收藏集是一组符合推荐标准的产品或项目。集合的定义方式是指定作为集合一部分的项必须满足的条件。
+收藏集是一组符合推荐标准的产品或项目。 集合的定义方式是指定作为集合一部分的项必须满足的条件。
 
-一般情况下，收藏集是一组相似或相关的项目，例如单个产品收藏集。但是，您可以将任何项目分组到一个对您的业务有意义的类别中，例如特定价格范围内的产品或颜色或可能在特定地理区域有趣的项目。
+一般情况下，收藏集是一组相似或相关的项目，例如单个产品收藏集。但是，您可以将任何项目分组到一个对您的业务有意义的类别中，例如可以将属于某个价格范围的产品分组到一个类别中，也可以将属于某个颜色的产品分组到一个类别中，或将可能在某个特定地理区域引起客户关注的项目分组到一个类别中。
 
-使用收藏集，可将您的产品组织到逻辑分段中。例如，如果某些项目在一个区域可用，但在另一个区域不可用，您可以创建一个收藏集，以排除访客所在区域不可用的项目。 您还可以使用收藏集来组织季节性项目，或使用任何其他对您的业务适用的组织参数。
+使用收藏集，可将您的产品组织到逻辑分段中。例如，如果某些项目在一个区域可用，但在另一个区域不可用，您可以创建一个收藏集，以排除在访客所在区域不可用的项目。 您还可以使用收藏集来组织季节性项目，或使用任何其他对您的业务适用的组织参数。
 
 为推荐中的每个标准生成的[备用推荐](/help/main/c-recommendations/c-algorithms/backup-recs.md)也使用该收藏集，因此备用推荐中仅包含收藏集中的项目。使用收藏集，您可以确保仅在某个位置显示对其有意义的产品。
 
@@ -36,9 +36,9 @@ ht-degree: 60%
 
 ## 创建收藏集 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
-创建一个收藏集以组织要在推荐中显示的产品或内容。
+可创建收藏集以组织要在推荐中显示的产品或内容。
 
-1. 单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 收藏集]**&#x200B;以显示现有收藏集列表。
+1. 单击 **[!UICONTROL Recommendations]** > **[!UICONTROL 收藏集]** 以显示现有收藏集的列表。
 
    ![收藏集列表](assets/collections_list.png)
 
@@ -46,15 +46,15 @@ ht-degree: 60%
 
    ![悬停图标：编辑、复制和删除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL 收藏集]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数量。请参阅[设置](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html)以更改默认主机组。{target=_blank}
+   [!UICONTROL 收藏集]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数量。请参阅 [设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 更改默认主机组。
 
-1. 单击&#x200B;**[!UICONTROL 创建收藏集]**。
+1. 单击 **[!UICONTROL 创建收藏集]**.
 
-1. （视情况而定）在创建（或更新）收藏集时从&#x200B;**[!UICONTROL 环境]**&#x200B;筛选器中选择一个环境，以预览该环境中收藏集的内容。默认情况下，会显示默认主机组的结果。
+1. （视情况而定）从 **[!UICONTROL 环境]** 在创建（或更新）收藏集时进行筛选，以预览该环境中收藏集的内容。 默认情况下，会显示默认主机组的结果。
 
    ![创建收藏集](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. 键入收藏集的&#x200B;**[!UICONTROL 名称]**。
+1. 键入 **[!UICONTROL 名称]** 用于收藏集。
 
    您还可以输入可选&#x200B;**[!UICONTROL 描述]**。
 
@@ -84,7 +84,7 @@ ht-degree: 60%
 
 ![收藏集的悬停图标](/help/main/c-recommendations/c-products/assets/hover-collections.png)
 
-您可以复制现有收藏集以创建重复收藏集，然后对其进行修改。 这样，您就可以用更少的工作量创建一个类似的排除项。
+您可以复制现有收藏集以创建重复的收藏集，然后对其进行修改。 这样，您就可以用更少的工作量创建类似的排除项。
 
 请注意，收藏集可在整个帐户中使用。 确保在删除收藏集之前考虑这一点。 无法恢复已删除的收藏集。
 

@@ -1,13 +1,13 @@
 ---
-keywords: 体验;json;AEM;Adobe Experience Manager;导出到 Adobe Target;内容片段;片段;CF;cf;Headless;个性化;试验
+keywords: 体验；JSON；AEM；Adobe Experience Manager；导出到Adobe Target；内容片段；片段；CF；CF；Headless；个性化；试验
 description: 了解如何在 [!DNL Adobe Target] 活动中使用 [!DNL Adobe Experience Manager] [!UICONTROL 内容片段]。
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]？
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: 593cbcc1ff8ccae7afa6098524e95659aa6890f3
-workflow-type: ht
-source-wordcount: '736'
-ht-degree: 100%
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+workflow-type: tm+mt
+source-wordcount: '701'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## 要求 {#requirements}
 
-您必须使用 [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}。您的客户代表可帮助确保您满足使用此功能的要求：
+您必须使用 [[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}。您的客户代表可帮助确保您满足使用此功能的要求：
 
 请联系 [Adobe Target 客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以启用集成并为您提供身份验证详细信息。
 

@@ -1,29 +1,29 @@
 ---
 keywords: 受众;受众规则;合并受众;排除项;添加排除项;排除;临时受众
-description: 了解如何合并多个受众(包括Adobe Experience Cloud受众和 [!DNL Target] （受众）来动态创建临时受众。
+description: 了解如何合并多个受众(包括Adobe Experience Cloud受众和 [!DNL Target] （受众）动态创建临时受众。
 title: 我可以合并多个受众以创建新受众吗？
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 63%
+source-wordcount: '947'
+ht-degree: 56%
 
 ---
 
 # 合并多个受众
 
-合并多个受众(包括 [!DNL Adobe Experience Cloud]， [!DNL Adobe Experience Platform]、和 [!DNL Target] （受众）来动态创建临时受众。 您也可以创建排除规则，从某个规则中排除相应受众。
+合并多个受众(包括 [!DNL Adobe Experience Cloud]， [!DNL Adobe Experience Platform]、和 [!DNL Target] （受众）动态创建临时受众。 您也可以创建排除规则，从某个规则中排除相应受众。
 
 >[!NOTE]
 >
->此 [!DNL Adobe Experience Platform] 源可供所有人使用 [!DNL Target] 客户使用 [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. 受众可从 [!DNL Adobe Experience Platform] 可按原样使用或与现有受众组合，如本主题中所述。
+>此 [!DNL Adobe Experience Platform] 源对所有人可用 [!DNL Target] 客户使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. 受众可从 [!DNL Adobe Experience Platform] 可按原样使用或与现有受众结合使用，如本主题中所述。
 >
 >有关详细信息，请参阅 [使用来自Adobe Experience Platform的受众](/help/main/c-target/c-audiences/audiences.md#aep).
 
 假设您有两个受众：“新访客”和“Chrome 用户”。在某个特定活动中，您可能想要合并这两个现有受众，以定位使用 Chrome 浏览器的新访客。您可以在创建活动或编辑现有活动时合并这两个受众，而无需再另外创建一个受众，并将其存储到[!UICONTROL 受众]库中。
 
-再比如，您可以定位所有忠诚客户。 例如，您可以包含特定 [!DNL Audience Manager] 受众以了解忠诚度状态并将其与 [!DNL Target] 受众由在当前会话中注册了忠诚度计划的用户组成。 合并这两个受众比创建第三个永久受众更容易。
+再比如，您可以定位所有忠诚客户。 例如，您可以包含特定的 [!DNL Audience Manager] 忠诚度状态的受众，并将其与 [!DNL Target] 受众由在当前会话中注册了忠诚度计划的用户组成。 将这两个受众结合起来比创建第三个永久受众更容易。
 
 您最多可以使用AND和OR运算符组合20个受众。
 
@@ -49,7 +49,7 @@ ht-degree: 63%
 
 1. （可选）根据需要编辑新创建的组合受众。
 
-   此 [!UICONTROL 编辑受众] 通过对话框，您可以将其他受众构建块从左侧拖放到新的组合受众中。 您还可以添加排除规则和排除受众。
+   此 [!UICONTROL 编辑受众] 通过对话框，您可以将左侧的其他受众构建块拖放到新的组合受众中。 您还可以添加排除规则和排除受众。
 
    1. 使用拖放功能将现有部分中的受众添加为第2级构建基块。
 
@@ -63,7 +63,7 @@ ht-degree: 63%
       >
       >合并受众时，使用的运算符（“与”或“或”）必须保持相同。运算符不能混搭使用。
 
-   1. 要将排除项添加到规则，请单击 **[!UICONTROL 排除]**.
+   1. 要在规则中添加排除项，请单击 **[!UICONTROL 排除]**.
 
       ![combine_multiple_audiences3a图像](assets/combine_multiple_audiences3a.png)
 
@@ -83,7 +83,7 @@ ht-degree: 63%
 
 您可以在活动的“[!UICONTROL 目标和设置]”页面上创建一个临时组合受众，以将其用于量度定位。例如，可以使用组合受众创建基于转化的定位：
 
-1. 编辑或创建[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上选择&#x200B;**[!UICONTROL 转化]**&#x200B;作为成功量度，然后选择已查看 Mbox **[!UICONTROL 作为操作。]**
+1. 编辑或创建 [活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)，位于 **[!UICONTROL 目标和设置]** 页面，选择 **[!UICONTROL 转化]** 对于成功量度，然后选择 **[!UICONTROL 已查看Mbox]** 作为操作。
 1. 在&#x200B;**[!UICONTROL 搜索 mbox]** 字段中选择所需的 mbox。
 
    ![combine_multiple_audiences4图像](assets/combine_multiple_audiences4.png)
@@ -99,7 +99,7 @@ ht-degree: 63%
 
 您可以在活动的“[!UICONTROL 目标和设置]”页面上创建一个临时组合受众，以将其用于报表。
 
-1. 编辑或创建[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上单击&#x200B;**[!UICONTROL 报表的受众]**&#x200B;下方的“[!UICONTROL 添加受众]”图标，以显示“[!UICONTROL 选择受众]”页面。
+1. 编辑或创建 [活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)，位于 **[!UICONTROL 目标和设置]** 页面上，单击 **[!UICONTROL 添加受众]** 图标在 [!UICONTROL 报表的受众] 以显示 [!UICONTROL 选择受众] 页面。
 
    ![combine_multiple_audiences6图像](assets/combine_multiple_audiences6.png)
 
@@ -119,7 +119,7 @@ ht-degree: 63%
 
    ![“配置”>“受众”>“多个受众”](assets/combine_multiple_audiences7.png)
 
-1. 单击活动的当前受众旁边的更多选项图标（三个垂直省略号），然后单击&#x200B;**[!UICONTROL 更改受众]**。
+1. 单击活动的当前受众旁边的更多选项图标 (三个垂直省略号)，然后单击&#x200B;**[!UICONTROL 更改受众]**。
 
    ![更改受众](assets/combine_multiple_audiences8.png)
 

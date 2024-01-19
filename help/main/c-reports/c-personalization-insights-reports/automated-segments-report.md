@@ -2,19 +2,19 @@
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;自动化区段;常见问题解答
 description: 了解Adobe如何定义不同的区段 [!DNL Target] 个性化模型通过查看自动化区段报表对活动中的选件/体验做出响应。
 title: 什么是自动化区段报表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2142'
-ht-degree: 73%
+source-wordcount: '2166'
+ht-degree: 70%
 
 ---
 
-# [!UICONTROL 自动化区段报表]
+# [!UICONTROL 自动化区段] 报告
 
-有关 [!UICONTROL 自动化区段] 报告，用户可使用的两个专门报告之一 [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL 自动定位] (AT)活动
+关于 [!UICONTROL 自动化区段] 报告，用户可使用的两个专门报告之一 [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL 自动定位] (AT)活动。
 
 >[!NOTE]
 >
@@ -22,14 +22,13 @@ ht-degree: 73%
 >
 >* AP 和 AT 活动会作为 [!DNL Target Premium] 解决方案的一部分提供。在没有 [!DNL Target Premium] 许可证的情况下，它们将不会包含在 [!DNL Target Standard] 中。
 >
->* [!UICONTROL 个性化分析报表仅适用于使用转化优化目标的 AP 和 AT 活动。]活动上线后将优化目标从收入更改为转化的活动也不受支持。
+>* [!UICONTROL 个性化分析] 报表仅适用于使用转化优化目标的AP和AT活动。 活动上线后将优化目标从收入更改为转化的活动也不受支持。
 >
->* [!UICONTROL 个性化分析] 仅当满足以下条件时，报告才可用 [!UICONTROL 主要目标] 已从中选定 [!UICONTROL 报表量度] 下拉列表。
+>* [!UICONTROL 个性化分析] 仅当满足以下条件时，报告才可用： [!UICONTROL 主要目标] 已从中选定 [!UICONTROL 报表量度] 下拉列表。
 >
->* 仅[默认环境](/help/main/administrating-target/hosts.md)支持个性化分析报表。
+>* [!UICONTROL 个性化分析] 中支持报表 [默认环境](/help/main/administrating-target/hosts.md) 仅限。
 >
->* [!UICONTROL 个性化分析] 仅对以下范围内的活动生成报告： [!UICONTROL 实时] 状态，并且已激活并至少接收流量15天。
-
+>* [!UICONTROL 个性化分析] 仅针对以下范围内的活动生成报表： [!UICONTROL 实时] 状态，并且已激活并接收流量至少15天。
 
 不同的访客对您的 AP/AT 活动中的选件/体验做出的响应会有所不同。此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。
 
@@ -37,13 +36,13 @@ ht-degree: 73%
 
 1. 单击 **[!UICONTROL 活动]**，然后单击所需的 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 或 [自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 活动。
 
-   如果您有许多活动，则可以通过从中选择选项来筛选列表 [!UICONTROL 类型]， [!UICONTROL 状态]， [!UICONTROL 属性]， [!UICONTROL 报表源]， [!UICONTROL 体验编辑器]， [!UICONTROL 量度类型]、和 [!UICONTROL 活动源] 下拉列表。
+   如果您有多种活动，则可以通过从以下列表中选择选项来筛选列表： [!UICONTROL 类型]， [!UICONTROL 状态]， [!UICONTROL 属性]， [!UICONTROL 报表源]， [!UICONTROL 体验编辑器]， [!UICONTROL 量度类型]、和 [!UICONTROL 活动源] 下拉列表。
 
 1. 单击&#x200B;**[!UICONTROL 报表]**。
 
-   此 [Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md) 或 [自动定位摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 此时会显示报表，其中提供有关活动性能的信息，由第一个屏幕图标表示。 其他两个图标表示两个个性化分析报表：自动化区段和重要属性。自动定位有一个额外的图形图标，用于显示以下项的图形视图： [!UICONTROL 摘要] 报告。
+   此 [Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md) 或 [自动定位摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 报表显示，其中提供有关活动性能的信息，由第一个屏幕图标表示。 其他两个图标表示两个个性化分析报表：自动化区段和重要属性。自动定位有一个额外的图形图标，用于显示以下内容的图形视图： [!UICONTROL 摘要] 报告。
 
-   ![Adobe Target中的“个性化分析”报表](/help/main/c-reports/assets/personalization_insights.png)
+   ![Adobe Target中的个性化分析报表](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -55,7 +54,7 @@ ht-degree: 73%
 
 1. 选择所需的日期范围。
 
-   不像 [!UICONTROL 摘要] 报表（性能报表）， [!UICONTROL 个性化分析]，包括 [!UICONTROL 自动化区段]，仅适用于固定日期范围：15天、30天和60天。 通过这些固定日期范围，“[!UICONTROL 个性化分析]”可以使用足够多的数据来降低您从活动中的短生存期模式获取分析的可能性。您可以决定日期范围的“结束日期”和“持续时间”。您会注意到“开始”显示为灰色。 开始日期会根据您选择的结束日期和持续时间自动进行更改。
+   不像 [!UICONTROL 摘要] 报表（绩效报表）、 [!UICONTROL 个性化分析]，包括 [!UICONTROL 自动化区段]，仅适用于固定日期范围：15天、30天和60天。 通过这些固定日期范围，“[!UICONTROL 个性化分析]”可以使用足够多的数据来降低您从活动中的短生存期模式获取分析的可能性。您可以决定日期范围的“结束日期”和“持续时间”。您会注意到“开始”显示为灰色。 开始日期会根据您选择的结束日期和持续时间自动进行更改。
 
    ![Adobe Target报告中的日历](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
@@ -81,7 +80,7 @@ ht-degree: 73%
 |--- |--- |
 | 左侧面板 | 左侧面板列出了 Target 的个性化模型为此活动确定的 20 个最大“自动化区段”。“自动化区段”就像一个受众，但它是由 Target 的个性化模型定义的，而不是由营销人员定义。每个自动化区段由特定属性的特定值（或值范围）组成。<br>自动化区段可以重叠。 自动化区段可以由一个、两个、三个或四个属性来定义。有关更多详细信息，请参阅下面的示例。<br>要了解有关 Target 个性化模型的更多信息，请参阅[随机林算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)。要了解有关 Target 个性化模型用于创建自动化区段的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。 |
 | 中心图 | 中心图显示活动内容在突出显示的自动化区段中的执行情况。 当您单击左侧面板上的不同区段时，中心图将会相应更新。 |
-| 圆形分析图 | 中心面板顶部的圆形分析图显示了自动化区段的大小，以及活动中个性化访问的总次数（例如，个性化模型提供的此活动的流量。它不包括控制流量或整个入选者模型提供的流量）。区段的大小仅基于个性化访问。<br>![圆形分析图](/help/main/c-reports/assets/pie.png) |
+| 圆形分析图 | 中心面板顶部的圆形分析图显示了自动化区段的大小，以及活动中个性化访问的总次数（例如，个性化模型提供的此活动的流量。它不包括控制流量或整个入选者模型提供的流量）。区段的大小仅基于个性化访问。<br>![饼图](/help/main/c-reports/assets/pie.png) |
 | 双轴条形图 | 双轴条形图包含按该特定自动化区段的选件或体验划分的访问和转化信息。 |
 | 粉色条 | 粉色条表示转化率，使用图形的底轴。您可以将鼠标悬停在该条上以获取更多信息。 |
 | 蓝色条 | 蓝色条表示访问次数，使用图形的顶轴。您可以将鼠标悬停在该条上以获取更多信息。 |
@@ -105,7 +104,7 @@ ht-degree: 73%
 
 您的活动还不能使用“[!UICONTROL 个性化分析]”报表的原因包括以下几点：
 
-* 自您激活该活动以来已有15天未过期。 在您启动活动至少 15 天后，自动化区段和重要属性报表才可用。在此初始阶段，您将无法访问这些报表，也无法单击“自动化区段”和“重要属性”图标。
+* 自您激活该活动以来，已有15天未过期。 在您启动活动至少 15 天后，自动化区段和重要属性报表才可用。在此初始阶段，您将无法访问这些报表，也无法单击“自动化区段”和“重要属性”图标。
 * 您的活动在指定的时间范围内没有足够的流量。15 天过后，如果您的活动中有足够的个性化流量来构建个性化模型，将可以使用自动化区段和重要属性报表。
 * 您的活动包含收入优化目标。目前， [!UICONTROL 个性化分析] 仅适用于转化优化目标活动。 Adobe将在未来版本中添加对收入优化目标活动的支持。
 
@@ -113,7 +112,7 @@ ht-degree: 73%
 
 属性是关于个性化算法为了解如何个性化流量而使用的访客或其特定访问的信息。例如，属性可以是浏览器类型、位置、访问时间等。
 
-有关 [!DNL Target] 在其个性化模型中使用的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。有关如何将新属性上传到Target以在Target个性化模型中使用的更多信息，请参阅 [将数据导入Target的方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+有关 [!DNL Target] 在其个性化模型中使用的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。有关如何将新属性上传到Target以在Target的个性化模型中使用的更多信息，请参阅 [将数据导入Target的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 **什么是自动化区段？**
 
@@ -123,13 +122,13 @@ ht-degree: 73%
 
 要了解有关随机林个性化算法（Target个性化模型的基础）的更多信息，请参阅 [随机林算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
-**什么决定了自动化区段的顺序？**
+**决定自动化区段顺序的因素是什么？**
 
 根据每个区段的大小以及它对您的活动内容的不同性能表现，会计算每个区段的得分。这些输入内容的组合决定了自动化区段的顺序，这样在响应不同内容方面具有较大差异的较大区段将显示在更靠近区段列表顶部的位置。
 
 **为什么我的自动化区段报表中只显示了部分选件/体验？**
 
-AP 和 AT 活动会为每个选件构建一个模型（对于 AP），以及为每个体验构建一个模型（对于 AT）。这些活动会开始提供个性化流量，并且只需构建两个模型即可创建您的“[!UICONTROL 个性化分析]”。如果您在中看不到您的所有选件/体验 [!UICONTROL 个性化分析]中，您可能没有为这些特定选件/体验构建模型。 您可以检查活动的 [!UICONTROL 摘要] 报告，并查看该选件/体验旁边是否有一个时钟图标。 此图标表示尚未为该选件/体验构建模型。
+AP 和 AT 活动会为每个选件构建一个模型（对于 AP），以及为每个体验构建一个模型（对于 AT）。这些活动会开始提供个性化流量，并且只需构建两个模型即可创建您的“[!UICONTROL 个性化分析]”。如果您在中看不到您的所有选件/体验， [!UICONTROL 个性化分析]中，您可能没有为这些特定选件/体验构建模型。 您可以检查活动的 [!UICONTROL 摘要] 报表，并查看该选件/体验旁边是否有一个时钟图标。 此图标表示尚未为该选件/体验构建模型。
 
 **为什么在特定自动化区段中一些转化率较低的选件/体验接收的流量比其他选件/体验多？**
 
@@ -145,15 +144,15 @@ AP 和 AT 活动会为每个选件构建一个模型（对于 AP），以及为�
 
 **我能否在自定义日期范围内查看个性化分析？**
 
-个性化见解报表（两者） [!UICONTROL 自动化区段] 和 [!UICONTROL 重要属性])仅适用于固定日期范围：15天、30天和60天。 通过这些固定日期范围，“[!UICONTROL 个性化分析]”可以使用足够多的数据来降低您从活动中的短生存期模式获取分析的可能性。您可以为任何结束日期（此时活动中有足够的数据来满足持续时间）选择这些持续时间。
+个性化分析报表（两者） [!UICONTROL 自动化区段] 和 [!UICONTROL 重要属性])仅适用于固定日期范围：15天、30天和60天。 通过这些固定日期范围，“[!UICONTROL 个性化分析]”可以使用足够多的数据来降低您从活动中的短生存期模式获取分析的可能性。您可以为任何结束日期（此时活动中有足够的数据来满足持续时间）选择这些持续时间。
 
 **个性化分析是如何创建的？**
 
-[!UICONTROL 个性化分析是采用名为 MAGIX（与模型无关的全局可理解解释）的 Adobe 技术创建的，该技术正在申请专利。]您可以在Adobe研究团队发表的有关以下主题的论文中了解有关MAGIX的更多信息 [arXiv.org网站](https://arxiv.org/abs/1706.07160).
+[!UICONTROL 个性化分析是采用名为 MAGIX（与模型无关的全局可理解解释）的 Adobe 技术创建的，该技术正在申请专利。]您可以在Adobe研究团队发表的有关以下主题的论文中了解有关MAGIX的更多信息： [arXiv.org网站](https://arxiv.org/abs/1706.07160).
 
 **为什么[!UICONTROL 自动化区段]报表中的访客流量数据总数与我的 AP 或 AT 摘要/性能报表不相符？**
 
-此 [!UICONTROL 个性化分析] 报表仅包括看到Target个性化模型选择的一段内容的访客（即，不考虑控制流量或整个入选者模型提供的流量）。 此流量类型称为“个性化”流量。 AP/AT中的摘要性能报告包括控制流量与“目标”流量。 目标流量包括个性化流量、使用整个入选者模型提供的流量以及随机提供的用于继续学习的一些流量。
+此 [!UICONTROL 个性化分析] 报表仅包括看到Target个性化模型所选一段内容的访客（即，不考虑控制流量或整个入选者模型提供的流量）。 此流量类型称为“个性化”流量。 AP/AT中的摘要性能报表包括控制流量与“目标”流量。 目标流量包括个性化流量、使用整个入选者模型提供的流量以及随机提供的用于继续学习的一些流量。
 
 **自动化区段是否会相互排斥？**
 
@@ -165,8 +164,8 @@ AP 和 AT 活动会为每个选件构建一个模型（对于 AP），以及为�
 
 **我可以通过哪些不同的方法来利用个性化分析中的信息？**
 
-* 发现要定位的新受众：如果看到某个特定自动化区段表现良好，则可考虑创建一个受众，以便该区段可在其他报表中重复使用。
-* 测试您关于哪种类型的访客对您的哪些体验做出响应的假设。
+* 发现要定位的新受众：如果看到特定自动化区段表现良好，则可考虑创建受众，以便在其他报表中重复使用该区段。
+* 测试您对哪种类型的访客对哪种体验做出响应的假设。
 * 深入了解哪些内容适用于哪类访客：哪些选件负责哪些访客的提升度。
 * 确定性能不佳的内容。
 * 了解哪些属性对模型的学习方式最为关键。

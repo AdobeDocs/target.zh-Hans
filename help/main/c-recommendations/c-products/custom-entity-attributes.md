@@ -2,14 +2,14 @@
 keywords: 多值实体属性;自定义实体属性;有效 JSON;实体属性值;JSON 数组;多值的;多值
 description: 了解如何使用单值和多值自定义实体属性来定义有关Adobe中项目的其他信息 [!DNL Target] Recommendations目录。
 title: 如何使用自定义实体属性？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 88%
+source-wordcount: '1454'
+ht-degree: 81%
 
 ---
 
@@ -63,13 +63,13 @@ ht-degree: 88%
 
 ## 实施多值属性 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-使用信息源(CSV)时支持多值自定义实体属性， `targetPageParams`和交付API来上传产品。 新值会替换当前值，而不进行附加。空数组 ( [] ) 会被视为没有值。
+使用信息源(CSV)时支持多值自定义实体属性， `targetPageParams`和交付API来上传产品。 新值会替换当前值，而不进行附加。空数组( [] )被视为没有值。
 
 必须对双引号进行转义。例如，`"[""test"", ""value""]"` 是可在 CSV 中使用的有效 JSON 数组。
 
 您最多可以在多值属性中包含 500 个值。
 
-### 使用 targetPageParams
+### 使用targetPageParams
 
 以下示例显示了如何使用 `targetPageParams`。
 
@@ -88,7 +88,7 @@ function targetPageParams() {
 }
 ```
 
-### 使用 CSV
+### 使用CSV
 
 您可以使用文本编辑器以原始格式管理 CSV 文件，也可以使用电子表格软件。
 
@@ -100,16 +100,16 @@ function targetPageParams() {
 
 ![multi-value_example_excel图像](assets/multi-value_example_excel.png)
 
-在转换为 .csv 格式时，电子表格软件会在单元格内容两侧添加双引号，以防止单元格内的逗号充当列分隔符。它还会在自定义多值属性中包含的 JSON 字符串值两侧添加双引号标记。这样可直接处理庞杂的原始文件。例如：
+转换为.csv格式时，电子表格软件会在单元格内容两侧添加双引号，以防止单元格内的逗号充当列分隔符。 它还会在自定义多值属性中包含的 JSON 字符串值两侧添加双引号标记。这样可直接处理庞杂的原始文件。例如：
 
 * 电子表格：`["1","2","3"]`
 * 原始：`"[""1"",""2"",""3""]"`
 
 直接编辑原始目录 CSV 文件时务必要小心。
 
-### 使用 API
+### 使用API
 
-您可以在mbox参数中使用投放API传递多值属性，作为包含转义JSON数组的字符串值。
+您可以使用投放API在mbox参数中传递多值属性，作为包含转义JSON数组的字符串值。
 
 ```javascript
 "execute": {
@@ -127,18 +127,18 @@ function targetPageParams() {
   }
 ```
 
-有关使用交付和保存实体 API 的信息，请参阅 [Adobe 推荐 API 文档](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
+请参阅 [Adobe Recommendations API文档](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 有关使用交付和保存实体API的信息。
 
 ## 将运算符用于多值属性 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 在算法包含规则、目录规则和排除规则中将运算符应用于多值自定义属性时，如果列表中至少有一个值符合运算规则（布尔运算“或”**），则结果将为 *true*。
 
-在下面的示例中，规则为 `message contains abc`。
+在以下示例中，规则为 `message contains abc`.
 
 * 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值包含 `abc`。
 * 用例 2：`entity.genre = ["abcde","de","ef"]`结果为 true，因为有一个值包含 `abc`。
 
-对于否定运算符，所有属性值必须都符合运算规则（布尔运算“和”**）。例如，如果运算符为 `notEquals`，则当有任何值匹配时，结果将为 *false*。
+对于否定运算符，所有属性值必须都符合运算规则（布尔运算“和”**）。例如，如果运算符为 `notEquals`，结果将为 *false* 如果有任何值匹配。
 
 有关算法包含规则、目录规则和排除规则中的运算符行为，请参阅以下部分。
 
@@ -203,7 +203,7 @@ function targetPageParams() {
 
 属性值会被转换为双精度类型。运行规则时将跳过无法转换的属性。
 
-处理后，任何大于或等于输入值的属性值都将导致结果为 true。
+处理后，任何大于或等于输入值的属性值都将导致结果为true。
 
 示例: `price greater than or equal to 100`
 
@@ -214,7 +214,7 @@ function targetPageParams() {
 
 属性值会被转换为双精度类型。运行规则时将跳过无法转换的属性。
 
-处理后，任何小于或等于输入值的属性值都将导致结果为 true。
+处理后，任何小于或等于输入值的属性值都将导致结果为true。
 
 示例: `price less than or equal to 100`
 
@@ -254,7 +254,7 @@ function targetPageParams() {
 
 ## 设计中的多值属性 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-在设计引用多值属性时，该属性显示为逗号分隔的列表。
+在设计中所引用的多值属性会显示为以逗号分隔的列表。
 
 示例：
 

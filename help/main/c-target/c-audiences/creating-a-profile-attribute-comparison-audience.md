@@ -1,19 +1,19 @@
 ---
 keywords: 受众;倾向;配置文件属性;比较;对比;创建受众
 description: 了解如何定义受众以比较两个配置文件属性。
-title: 我是否可以比较两个配置文件属性，以便在受众中使用？
+title: 我能否比较两个配置文件属性，以便用于受众？
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 59%
+source-wordcount: '428'
+ht-degree: 53%
 
 ---
 
 # 创建配置文件属性比较受众
 
-在中定义受众 [!DNL Adobe Target] 比较您的的两个配置文件属性 [受众库](/help/main/c-target/c-audiences/audiences.md) 或在 [仅限该活动的受众](/help/main/c-target/creating-activity-only-audience.md). 使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
+在中定义受众 [!DNL Adobe Target] 比较您的两个配置文件属性 [受众库](/help/main/c-target/c-audiences/audiences.md) 或在 [仅限该活动的受众](/help/main/c-target/creating-activity-only-audience.md). 使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
 
 >[!NOTE]
 >
@@ -21,21 +21,21 @@ ht-degree: 59%
 
 ## 概述 {#section_303CBC78194D49A2A004945D425441E1}
 
-受众由确定在 [!DNL Target] 活动中包含或排除哪些访客的规则来定义。一个受众定义可以包含多个规则，而每个规则可以包含多个参数。如果您包括的某个规则使用 [!UICONTROL 访客资料] 类别时，您可以根据访客配置文件属性的特定值定义规则，或将该属性的值与另一个访客配置文件属性进行比较。
+受众由确定在 [!DNL Target] 活动中包含或排除哪些访客的规则来定义。一个受众定义可以包含多个规则，而每个规则可以包含多个参数。如果您包含的某个规则使用 [!UICONTROL 访客资料] 类别时，您可以根据访客配置文件属性的特定值定义规则，或将该属性的值与另一个访客配置文件属性进行比较。
 
-例如，假设您在一家家具公司工作，并将两个客户倾向得分上传到 [!DNL Target]：
+例如，假设您在一家家具公司工作，并将两个客户倾向得分上传到中 [!DNL Target]：
 
 * 在接下来的 90 天内购买餐厅家具的可能性
 * 在接下来的 90 天内购买客厅家具的可能性
 
-您可以创建一个受众，将其定义为购买餐厅家具的倾向大于购买客厅家具的倾向。[!DNL Target]然后， 将动态比较特定访客的餐厅和客厅倾向得分，以确定访客是否符合该受众的条件。
+您可以创建一个受众，将其定义为购买餐厅家具的倾向大于购买客厅家具的倾向。[!DNL Target] 然后，会动态比较特定访客的餐厅和起居室的倾向分数，以确定该访客是否符合此受众的条件。
 
-有关更多信息，请参阅 [将数据导入Target的方法](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+有关更多信息，请参阅 [将数据导入Target的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## 创建配置文件属性比较受众 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. 单击 **[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**.
-1. 为受众命名并添加可选描述。
+1. 命名受众并添加可选描述。
 1. 拖放 **[!UICONTROL 访客资料]** 放入受众生成器窗格。
 1. 从&#x200B;**[!UICONTROL 访客配置文件]**&#x200B;下拉列表中选择一个属性：
 
@@ -53,7 +53,7 @@ ht-degree: 59%
 
    >[!NOTE]
    >
-   >如果您使用其中一个默认访客配置文件类别（例如“新访客”或“回访访客”），则只能选择静态值选项。 动态比较选项不适用于默认类别。不能使用动态比较选项的其他示例包括“会话首页”、“不在其他测试中”、“不是会话首页”和“类别亲和度”。
+   >如果您使用其中一个默认访客配置文件类别（例如，“新访客”或“回访访客”），则只能选择静态值选项。 动态比较选项不适用于默认类别。不能使用动态比较选项的其他示例包括“会话首页”、“不在其他测试中”、“不是会话首页”和“类别亲和度”。
 
 1. 选择要与初始属性进行比较的其他属性。
 

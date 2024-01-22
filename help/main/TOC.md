@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 94%
+source-wordcount: '1225'
+ht-degree: 92%
 
 ---
 
@@ -93,13 +93,14 @@ ht-degree: 94%
       + [将Adobe Customer Journey Analytics作为Target报表源(CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
    + 将Target与Adobe Journey Optimizer (AJO)集成 {#ajo}
       + [使用选件决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
+      + [集成 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
    + 将Target与Adobe Experience Manager (AEM)集成 {#aem}
       + [将Target与AEM集成概述](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 体验片段和内容片段 {#fragments}
-         + [AEM 体验片段和内容片段概述](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [AEM体验片段和内容片段概述](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM 体验片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-         + [AEM 内容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
+         + [AEM内容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [将Target与Adobe Audience Manager (AAM)集成](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [与 Real-time Customer Data Platform 集成](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [将 Target 与 Adobe Campaign 集成](c-integrating-target-with-mac/campaign-and-target.md)
@@ -197,7 +198,7 @@ ht-degree: 94%
          + [移动设备](c-target/c-audiences/c-target-rules/mobile.md)
          + [操作系统](c-target/c-audiences/c-target-rules/operating-system.md)
          + [网站页面](c-target/c-audiences/c-target-rules/site-pages.md)
-         + [Target 库](c-target/c-audiences/c-target-rules/target-library.md)
+         + [定位库](c-target/c-audiences/c-target-rules/target-library.md)
          + [时间范围](c-target/c-audiences/c-target-rules/time-frame.md)
          + [流量源](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [访客个人资料](c-target/c-audiences/c-target-rules/visitor-profile.md)
@@ -263,7 +264,7 @@ ht-degree: 94%
       + [排除极端值](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [将数据下载到 CSV 文件](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + 统计方法 {#statistical-methodology}
-      + [A/Bn 测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
+      + [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + 个性化报表 {#personalization-reports}
       + [自动定位摘要报表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 摘要报表](/help/main/c-reports/personalization-reports/reports-ap.md)

@@ -4,10 +4,10 @@ description: 了解如何在中创建受众 [!DNL Adobe Target] 定位访问您�
 title: 我是否可以根据浏览器类型定位访客？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 73%
+source-wordcount: '986'
+ht-degree: 55%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 73%
 * Opera
 * iPad
 * iPhone
+
+>[!IMPORTANT]
+>
+>从2024年4月30日开始，iPad和iPhone将从以下可用中删除： [!UICONTROL 浏览器] 为受众创建类别时，键入/下拉列表。 有关解决方法设置，请参阅 [从“浏览器”受众属性弃用iPad和iPhone （2024年4月30日）](#deprecation) 下。
 
 定位浏览器的方式有两种：
 
@@ -126,3 +130,90 @@ ht-degree: 73%
 * 定义受众类别
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
+
+## 从浏览器受众属性中弃用 iPad 和 iPhone（2024 年 4 月 30 日） {#deprecation}
+
+[!DNL Adobe Target] 允许您 [定位多个类别属性中的任意一个](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括在访问您的页面时使用特定浏览器或浏览器选项的用户。
+
+从2024年4月30日开始，iPad和iPhone将从以下可用中删除： [!UICONTROL 浏览器] 为受众创建类别时，键入/下拉列表。
+
+如果您有受众使用[!UICONTROL 浏览器]属性将 iPad 或 iPhone 作为目标，则您必须在 2024 年 4 月 30 日之前更改这些设置以确保这些受众继续发挥预期的作用。
+
+以后可以使用以下设置：
+
+* **对于浏览器匹配项[!DNL Apple]**： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 匹配] [!DNL Apple]
+
+  ![Apple](/help/main/r-release-notes/assets/apple.png)
+
+* **对于浏览器匹配平板电脑**： [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] > [!UICONTROL true]
+
+  ![移动设备为平板电脑](/help/main/r-release-notes/assets/is-tablet.png)
+
+* **对于浏览器匹配iPad**： [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPad] 包含And容器 [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] 是 [!DNL true]
+
+  ![iPad](/help/main/r-release-notes/assets/ipad.png)
+
+* **对于浏览器匹配iPhone**： [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPhone] 包含And容器 [!UICONTROL 移动设备] > [!UICONTROL 是手机] 是 [!DNL true]
+
+  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
+
+还可以使用许多其他可能的设置，例如，当条件被否定时。 否定条件的示例可能如下所示：
+
+* **For浏览器与iPhone不匹配**： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 不匹配] [!UICONTROL Apple] 包含Or容器 [!UICONTROL 移动设备] > [!UICONTROL 是手机] 是 [!UICONTROL false]
+
+  ![非手机](/help/main/r-release-notes/assets/mobile-phone-false.png)
+
+* **For浏览器与iPad不匹配**： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 不匹配] [!UICONTROL Apple] 包含Or容器 [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] 是 [!UICONTROL false].
+
+  ![不是平板电脑](/help/main/r-release-notes/assets/tablet-false.png)
+
+如果您使用 `user.browserType` 在JavaScript区段中，更改应包括以下内容：
+
+>[!NOTE]
+>
+>以下添加预计于2024年1月24日发布。 这些添加使以下更改成为可能：
+>
+>* `profile.mobile.isTablet`
+>
+>* `profile.mobile.isMobilePhone`
+
+
+* **BrowserType是iPhone**：
+
+  替换：
+
+  `user.browserType=="iphone"`
+
+  替换为：
+
+  `profile.mobile.deviceVendor == "Apple" && profile.mobile.isMobilePhone`
+
+* **BrowserType不是iPhone**：
+
+  替换：
+
+  `user.browserType!="iphone"`
+
+  替换为：
+
+  `profile.mobile.deviceVendor != "Apple" || !profile.mobile.isMobilePhone`
+
+* **BrowserType是iPad**：
+
+  替换：
+
+  `user.browserType=="ipad"`
+
+  替换为：
+
+  `profile.mobile.deviceVendor == "Apple" && profile.mobile.isTablet`
+
+* **BrowserType不是iPad**：
+
+  替换：
+
+  `user.browserType!="ipad"`
+
+  替换为：
+
+  `profile.mobile.deviceVendor != "Apple" || !profile.mobile.isTablet`

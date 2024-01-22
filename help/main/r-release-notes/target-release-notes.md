@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 77%
+source-wordcount: '463'
+ht-degree: 79%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期： 2024年1月18日**
+**上次更新日期： 2024年1月22日**
 
 >[!NOTE]
 >
@@ -23,6 +23,11 @@ ht-degree: 77%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
+## 从浏览器受众属性中弃用 iPad 和 iPhone（2024 年 4 月 30 日）
+
+| 弃用 | 详细信息 |
+|--- |--- |
+| 即将从在创建受众时所使用的[浏览器属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)中弃用 [!DNL iPad] 和 [!DNL iPhone]<p>弃用日期：<P>2024 年 4 月 30 日 | [!DNL Adobe Target] 可让您[定位多个类别属性中的任一属性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括在访问您的页面时使用特定的[浏览器或浏览器选项](/help/main/c-target/c-audiences/c-target-rules/browser.md)的用户。<P><B>从 2024 年 4 月 30 日开始，在为受众创建类别时，将从可用的[!UICONTROL 浏览器]类型下拉列表中删除 iPad 和 iPhone。</b><P>如果您有受众使用[!UICONTROL 浏览器]属性将 iPad 或 iPhone 作为目标，则您必须在 2024 年 4 月 30 日之前更改这些设置以确保这些受众继续发挥预期的作用。<p>有关替代设置的示例，请参阅 [从“浏览器”受众属性弃用iPad和iPhone （2024年4月30日）](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1（2024 年 1 月 22 日、23 日和 25 日）
 

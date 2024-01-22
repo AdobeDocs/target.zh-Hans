@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '575'
+ht-degree: 84%
 
 ---
 
@@ -19,23 +19,28 @@ ht-degree: 100%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target] Standard/Premium 23.11.1（2023 年 11 月 13 日和 14 日）
+## 从浏览器受众属性中弃用 iPad 和 iPhone（2024 年 4 月 30 日）
+
+| 弃用 | 详细信息 |
+|--- |--- |
+| 即将从在创建受众时所使用的[浏览器属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)中弃用 [!DNL iPad] 和 [!DNL iPhone]<p>弃用日期：<P>2024 年 4 月 30 日 | [!DNL Adobe Target] 可让您[定位多个类别属性中的任一属性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括在访问您的页面时使用特定的[浏览器或浏览器选项](/help/main/c-target/c-audiences/c-target-rules/browser.md)的用户。<P><B>从 2024 年 4 月 30 日开始，在为受众创建类别时，将从可用的[!UICONTROL 浏览器]类型下拉列表中删除 iPad 和 iPhone。</b><P>如果您有受众使用[!UICONTROL 浏览器]属性将 iPad 或 iPhone 作为目标，则您必须在 2024 年 4 月 30 日之前更改这些设置以确保这些受众继续发挥预期的作用。<p>有关替代设置的示例，请参阅 [从“浏览器”受众属性弃用iPad和iPhone （2024年4月30日）](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+
+## [!DNL Target] Standard/Premium 24.1.1（2024 年 1 月 22 日、23 日和 25 日）
 
 此版本计划在接下来的几天发布：
 
-* **11 月 13 日**：亚太 (APAC) 区域
-* **11 月 14 日**：美洲区域
-* **11 月 14 日**：欧洲、中东和非洲 (EMEA) 区域
+* **1 月 22 日**：欧洲、中东和非洲 (EMEA) 地区
+* **1 月 23 日**：亚太 (APAC) 地区
+* **1 月 25 日**：美洲区域
 
 此版本包含以下增强和修复：
 
-* 增强了[活动 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 功能以支持为 [!UICONTROL Automated Personalization] 活动中的体验[禁止重复优惠](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)。(TGT-46627)
-* 在 [!DNL Target] UI 中添加了一个工具提示，以帮助客户理解如果没有为控制体验分配流量，为什么活动报告中可能会没有可用的数据。工具提示中包含有关更多信息的链接：[为什么我的活动报告没有可用数据？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)。(TGT-46610)
-* 修复了一些客户的活动无法在[!UICONTROL 活动] 页面上正确显示的问题。(TGT-46830)
-* 修复了以下问题，这些问题影响使用 [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) 作为报告源的活动：
-   * 修复了一个问题，该问题阻止某些客户查看报告数据。(TGT-46557)
-   * 修复了一个问题，该问题有时导致活动报告页面上的[!UICONTROL 在 Analytics 中查看]链接无法发挥正常作用。(TGT-46731)
-   * 修复了一个问题，该问题阻止在 [!DNL Target] UI 中正常显示[!UICONTROL 提升度]和[!UICONTROL 置信度]的数据。（TGT-46592、TGT-46554 和 TGT-46586）
+* [!UICONTROL 目标分析] (A4T)具有收入目标指标的活动没有将“收入”显示为列名称，并且收入指标在报表中未以($)格式显示。 这是一个已修复的外观问题。 (TGT-46995)
+* 修复了一个问题，该问题导致报告日期间隔不起作用。(TGT-47396)
+* 修复了一个问题，该问题导致在客户使用[!UICONTROL 更多操作]图标激活或停用某项活动后在[!UICONTROL 所有活动]页面上显示的状态有误。(TGT-47367)
+* 修复了导致出现错误的问题 [!UICONTROL 重要属性] 对于单个客户不显示报表。 (TGT-47272)
+* 修复了在单个客户尝试启用“需要身份验证”时导致显示“有效负载无效”消息的问题。 (TGT-47195)
+* 更新了 [!DNL Target] UI 中的大量本地化字符串。
 
 ## 其他发行说明和版本详细信息
 

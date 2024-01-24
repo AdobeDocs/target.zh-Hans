@@ -4,10 +4,10 @@ description: 了解如何在中创建受众 [!DNL Adobe Target] 定位访问您�
 title: 我是否可以根据浏览器类型定位访客？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 55%
+source-wordcount: '1022'
+ht-degree: 53%
 
 ---
 
@@ -139,6 +139,8 @@ ht-degree: 55%
 
 如果您有受众使用[!UICONTROL 浏览器]属性将 iPad 或 iPhone 作为目标，则您必须在 2024 年 4 月 30 日之前更改这些设置以确保这些受众继续发挥预期的作用。
 
+### 使用创建的受众 [!DNL Target] UI
+
 以后可以使用以下设置：
 
 * **对于浏览器匹配项[!DNL Apple]**： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 匹配] [!DNL Apple]
@@ -167,16 +169,19 @@ ht-degree: 55%
 
   ![不是平板电脑](/help/main/r-release-notes/assets/tablet-false.png)
 
-如果您使用 `user.browserType` 在JavaScript区段中，更改应包括以下内容：
+### 使用个人资料脚本创建的受众
+
+如果您使用 `user.browserType` 中的JavaScript段，如中所述 [配置文件和变量一览表](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)，更改应包括以下内容：
 
 >[!NOTE]
 >
->以下添加预计于2024年1月24日发布。 这些添加使以下更改成为可能：
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
+>以下用户档案计划在未来几天（自2024年1月24日起）发布。 此 [最新发行说明](/help/main/r-release-notes/release-notes.md) 这些配置文件可用时将更新。
 
+这些配置文件可进行以下更改：
+>>
+* `profile.mobile.isTablet`
+>>
+* `profile.mobile.isMobilePhone`
 
 * **BrowserType是iPhone**：
 

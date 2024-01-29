@@ -4,10 +4,10 @@ description: 查看在Adobe Target中的配置文件脚本中有用的各种配�
 title: 哪些配置文件、变量和参数用于 [!DNL Target]？
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: d3c9a5bfa1e0496387103d82dd811f28581ba8bf
+source-git-commit: 8ff786fe55337df2465426c9a87f71002cce3de5
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 70%
+source-wordcount: '665'
+ht-degree: 69%
 
 ---
 
@@ -48,8 +48,8 @@ ht-degree: 70%
 | profile.browserTime | 访客的本地浏览器时间。对于系统时间，在配置文件脚本中创建新的日期对象 |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
-| profile.mobile.isTablet | 访客设备是平板电脑。<P>此配置文件取代了已弃用的旧版 [浏览器属于iPad受众类别](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
-| profile.mobile.isMobilePhone | 访客设备是移动电话。<P>此配置文件取代了已弃用的旧版 [浏览器属于iPhone受众类别](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
+| profile.mobile.isTablet | 访客设备是平板电脑。<P>**注意**：此配置文件取代了已弃用的旧版浏览器iPad受众类别。 请参阅 [浏览器](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) 以了解更多信息。 |
+| profile.mobile.isMobilePhone | 访客设备是移动电话。<P>**注意**：此配置文件取代了已弃用的旧版浏览器iPhone受众类别。 请参阅 [浏览器](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) 以了解更多信息。 |
 | parameter= | 通过 mbox 传递的其他值的统称，通常为名称/值对。不具有持久性，除非使用 `profile.parameter` 或 `user.parameter` 设定了持久性。 |
 
 ## URL 变量 {#section_8F25958273164EBAA6DC659302993FD3}

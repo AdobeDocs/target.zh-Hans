@@ -4,9 +4,9 @@ description: 了解如何在中创建受众 [!DNL Adobe Target] 定位访问您�
 title: 我是否可以根据浏览器类型定位访客？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
+source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1059'
 ht-degree: 37%
 
 ---
@@ -135,13 +135,13 @@ ht-degree: 37%
 
 [!DNL Adobe Target] 允许您 [定位多个类别属性中的任意一个](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括在访问您的页面时使用特定浏览器或浏览器选项的用户。
 
-从2024年4月30日开始，iPad和iPhone将从以下可用中删除： [!UICONTROL 浏览器] 为受众创建类别时，键入/下拉列表。
+从2024年4月30日开始，iPad和iPhone将从以下可用中删除： [!UICONTROL 浏览器] 键入下拉列表 [!DNL Target] 为受众创建类别时的UI。
 
-内置受众，如“浏览器：iPad”和“浏览器：iPhone”，将自动移至新的受众定义。 任何使用“user.browserType”的配置文件脚本都将 *非* 自动更新：如果您不手动更新它们，用户资格可能无法按预期发生。
+使用创建的内置受众 [!DNL Target] UI(如“浏览器：iPad”和“浏览器：iPhone”)将自动移至新的受众定义。 但是，以后，您应该使用设置 [如下所述](#ui).
 
-如果您的受众使用 [!UICONTROL 浏览器] 属性，则应在2024年4月30日之前更改这些设置，以确保这些受众继续按预期工作。
+如果您使用 `user.browserType` 在任何配置文件脚本中检查iPhone还是iPad(例如， `user.browserType == 'iphone'` 或 `user.browserType != 'ipad'`)，则这些配置文件脚本应更改为 [说明如下](#profile-scripts) ，以确保这些受众能够继续按预期工作。
 
-### 使用创建的受众 [!DNL Target] UI
+### 使用创建的受众 [!DNL Target] UI {#ui}
 
 以后可以使用以下设置：
 
@@ -171,7 +171,7 @@ ht-degree: 37%
 
   ![不是平板电脑](/help/main/r-release-notes/assets/tablet-false.png)
 
-### 使用个人资料脚本创建的受众
+### 使用个人资料脚本创建的受众 {#profile-scripts}
 
 如果您使用 `user.browserType` 在使用个人资料脚本的受众中，如中所述 [配置文件和变量一览表](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)，更改应包括以下内容：
 

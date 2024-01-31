@@ -1,13 +1,13 @@
 ---
-keywords: 体验；JSON；AEM；Adobe Experience Manager；导出到Adobe Target；内容片段；片段；CF；CF；Headless；个性化；试验
+keywords: 体验;json;AEM;Adobe Experience Manager;导出到 Adobe Target;内容片段;片段;CF;cf;headless;个性化;试验
 description: 了解如何在 [!DNL Adobe Target] 活动中使用 [!DNL Adobe Experience Manager] [!UICONTROL 内容片段]。
 title: 如何使用 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 内容片段]？
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

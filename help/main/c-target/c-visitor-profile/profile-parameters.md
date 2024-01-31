@@ -5,9 +5,9 @@ title: 什么是配置文件属性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2456'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
    | 参数类型 | 描述 |
    |--- |--- |
-   | mbox | 创建 mbox 时，直接通过页面代码传入。请参阅 [将参数传递到全局Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**注意**：[!DNL Target] 对于每个 mbox 调用有 50 个唯一配置文件属性的限制。如果必须将超过 50 个配置文件属性传递到 [!DNL Target]，请使用配置文件更新 API 方法传递它们。有关详细信息，请参阅 [ [!DNL Adobe Target]  API 文档中的“配置文件更新”](https://developers.adobetarget.com/api/#updating-profiles)。 |
+   | mbox | 在创建 mbox 时通过页面代码直接传入。请参阅[将参数传递到全局 Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}。<br>**注意**：[!DNL Target] 对于每个 mbox 调用有 50 个唯一配置文件属性的限制。如果必须将超过 50 个配置文件属性传递到 [!DNL Target]，请使用配置文件更新 API 方法传递它们。有关详细信息，请参阅 [ [!DNL Adobe Target]  API 文档中的“配置文件更新”](https://developers.adobetarget.com/api/#updating-profiles)。 |
    | 配置文件 | 直接使用 JavaScript 代码段定义。这些代码段可存储运行总计，如消费者消费的总金额，并在每次 mbox 请求时执行这些代码段。请参阅以下“配置文件脚本属性”。 |
 
 ## 配置文件脚本属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -176,7 +176,7 @@ if (mbox.name == 'Track_Interest') {
 
 **是否可以使用配置文件脚本捕获位于数据层中的页面信息？**
 
-由于配置文件脚本在服务器端执行，因此它们无法直接读取页面。数据必须通过mbox请求或通过其他请求进行传递 [将数据导入Target的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. 当数据进入 [!DNL Target] 之后，配置文件脚本可按照 mbox 参数或配置文件参数的形式读取数据。
+由于配置文件脚本在服务器端执行，因此它们无法直接读取页面。必须通过 mbox 请求或通过其他[将数据带入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}传入数据。当数据进入 [!DNL Target] 之后，配置文件脚本可按照 mbox 参数或配置文件参数的形式读取数据。
 
 ## 脚本配置文件参数的 JavaScript 参考
 

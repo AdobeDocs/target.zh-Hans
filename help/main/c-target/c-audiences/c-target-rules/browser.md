@@ -4,10 +4,10 @@ description: 了解如何在中创建受众 [!DNL Adobe Target] 定位访问您�
 title: 我是否可以根据浏览器类型定位访客？
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
+source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 37%
+source-wordcount: '1098'
+ht-degree: 35%
 
 ---
 
@@ -141,6 +141,8 @@ ht-degree: 37%
 
 如果您使用 `user.browserType` 在任何配置文件脚本中检查iPhone还是iPad(例如， `user.browserType == 'iphone'` 或 `user.browserType != 'ipad'`)，则这些配置文件脚本应更改为 [说明如下](#profile-scripts) ，以确保这些受众能够继续按预期工作。
 
+使用配置文件脚本的JavaScript受众是旧版受众，已弃用 [!DNL Target Classic] UI。 这些受众只能通过API进行修改。 只有在新的活动中使用旧受众时，客户才必须更新这些受众 [!DNL Target Standard/Premium] UI。
+
 ### 使用创建的受众 [!DNL Target] UI {#ui}
 
 以后可以使用以下设置：
@@ -173,11 +175,11 @@ ht-degree: 37%
 
 ### 使用个人资料脚本创建的受众 {#profile-scripts}
 
-如果您使用 `user.browserType` 在使用个人资料脚本的受众中，如中所述 [配置文件和变量一览表](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)，更改应包括以下内容：
+如果您使用 `user.browserType` 旧版 [!DNL Target Classic] 使用个人资料脚本的受众，如中所述 [配置文件和变量一览表](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)，更改应包括以下内容：
 
 >[!NOTE]
 >
->以下用户档案计划在未来几天（自2024年1月24日起）发布。 此 [最新发行说明](/help/main/r-release-notes/release-notes.md) 这些配置文件可用时将更新。
+>以下用户档案计划在接下来的几周内发布，从2024年1月24日开始。 此 [最新发行说明](/help/main/r-release-notes/release-notes.md) 这些配置文件可用时将更新。
 >
 >这些配置文件可进行以下更改：
 >

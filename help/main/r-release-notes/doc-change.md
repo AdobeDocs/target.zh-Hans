@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
+source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1343'
 ht-degree: 92%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 92%
 | --- | --- | --- |
 | 2 月 5 日 | [创建使用 Analytics 作为报表源的活动](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | 添加了文本，指定在使用时，不能对来自不同工作区的两个活动使用相同的活动名称 [!UICONTROL 目标分析] (A4T)作为报表源。 |
 |  | [活动设置 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 添加了文本，指定在使用时，不能对来自不同工作区的两个活动使用相同的活动名称 [!UICONTROL 目标分析] (A4T)作为报表源。 |
+|  | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于安排在2024年2月7日举行的Adobe Target社区喝咖啡休息时间的信息。 |
 | 1 月 24 日 | [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 添加了 at.js 版本 2.11.4 的发行说明。 |
 |  | [浏览器](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 宣布这两个新配置文件尚不可用。 当这些配置文件可用时，将更新这些注释。 |
 |  | [at.js常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | 添加了有关at.js在离子应用程序环境中的常见问题解答。 此实施未测试也不推荐。 |

@@ -4,10 +4,10 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
+source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 100%
+source-wordcount: '2476'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,26 @@ ht-degree: 100%
 
 关于 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
 
-## Adobe Target 2024 个性化成熟度网络研讨会系列
+## Adobe Target 社区问答喝咖啡休息时间
+
+* **网络研讨会后续问题的可能艺术（个性化成熟度系列的第1部分）**
+* **2024年2月7日星期三**
+* **8:00 - 9:00 （太平洋标准时间–8格林威治标准时间）**
+* **[注册信息](https://shorturl.at/gknVY){target=_blank}**
+
++++详细信息
+
+加入 [!DNL Adobe Target] 专家Brent Kostak、Ryan Roberts和Drew Burns实时解答客户在以下时段中涵盖的内容相关问题： [第1部分，属于 [!DNL Adobe Target] 关于“可能的艺术”的网络研讨会系列](#maturity-series)，”我们的专家讨论了以下主题：
+
+* 如何 [!DNL Target] 功能在大规模实施个性化方面扮演着战略角色
+* 客户正在配置AI功能以大规模完成的主要用例
+* 您如何控制机器学习，以将AI支持的个性化激活到您的特定目标
+
+如果您错过了最初的网络研讨会， [收听录音](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+
++++
+
+## Adobe Target 2024 个性化成熟度网络研讨会系列 {#maturity-series}
 
 这一现场网络研讨会系列将重点介绍 [!DNL Adobe Target] 的关键功能、用例和技巧，以通过 [!DNL Adobe Experience Platform] 随着客户扩充其探索和个性化历程时发掘 AI 支持的个性化。
 
@@ -34,6 +53,8 @@ ht-degree: 100%
    * **上午 10 点至 11 点 (PST -8 GMT)**
 
      个性化成熟度的核心是人工智能和机器学习。[!DNL Adobe Target] 利用这些技术了解用户行为、预测偏好并动态地定制内容。通过利用 AI 和 ML 的强大功能，了解品牌如何超越静态 A/B 测试和基于规则的个性化以投放动态、与情境相关的体验。
+
+     [听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **高性能建议**
    * **2024 年 2 月 13 日星期二**

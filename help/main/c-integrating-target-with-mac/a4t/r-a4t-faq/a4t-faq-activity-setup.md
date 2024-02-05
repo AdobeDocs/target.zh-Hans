@@ -4,10 +4,10 @@ description: 查找有关在将Analytics用于时进行活动设置的问题答�
 title: 可在何处找到有关A4T活动设置的常见问题解答？
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 14%
+source-wordcount: '630'
+ht-degree: 10%
 
 ---
 
@@ -15,9 +15,19 @@ ht-degree: 14%
 
 本主题包含有关活动设置和使用的常见问题解答 [!DNL Analytics] 作为的报表源 [!DNL Target] (A4T)。
 
-## 哪些活动类型支持将 Analytics 作为报表源 (A4T)？ {#section_5E4F58CD25A5424E869E6FE0803968EF}
+## 支持哪些活动类型 [!DNL Analytics] 作为报表源(A4T)？ {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++有关完整列表，请参阅中的“支持的活动类型” [将Adobe Analytics作为Adobe Target报表源(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+
++++
+
+## 使用A4T报表时，能否将同一活动名称用于来自不同工作区的两个活动？
+
++++回答
+
+不要将相同的活动名称用于两个独立的活动 [工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 使用A4T报表的客户。
+
+虽然在使用时，此函数受支持 [!DNL Target] 作为报表源，在使用时，不支持为两个活动使用相同的活动名称 [!UICONTROL 目标分析] 作为报表源。
 
 +++
 

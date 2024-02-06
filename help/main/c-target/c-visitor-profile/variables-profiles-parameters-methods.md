@@ -4,10 +4,10 @@ description: 查看在Adobe Target中的配置文件脚本中有用的各种配�
 title: 哪些配置文件、变量和参数用于 [!DNL Target]？
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 2b72d2edb3da75e6a3f5d0af4ddb18a49f39b851
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 69%
+source-wordcount: '677'
+ht-degree: 67%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 69%
 | user.isNewSession |  |
 | user.daysSinceLastVisit |  |
 | user.browser | 用户代理 |
+| user.browserType | 返回浏览器类型，例如safari、chrome等。 |
 | user.header | 所有 `user.header` 配置文件均从 mbox 请求标头数据内置 |
 | user.header(&#39;x-forwarded-for&#39;) | 访客所在网络连接的公共 IP 地址。<br>您可以通过多种方法获取此地址，例如 [whatismyip.com](https://www.whatismyip.com/). 此 IP 地址不是以 10.、192.168. 或 172. 开头的 NAT 地址（内部地址）。<br>注意：已弃用user.header(&#39;x-cluster-client-ip&#39;)。 |
 | user.header(&#39;host&#39;) | 网站主机名 |

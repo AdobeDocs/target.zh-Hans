@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: 094ae9cc8b9700fab4ec583d045c0c31e741ddcb
+source-git-commit: 9cf9236dbd830796ef5362a9e292de7ec6fd8491
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 ## 示例用例
 
-以下是一些用于集成的可能用例 [!DNL Target Recommendations] 替换为 [!DNL Adobe Journey Optimizer]：
+这些只是用于集成的一些可能用例 [!DNL Target Recommendations] 替换为 [!DNL Adobe Journey Optimizer]：
 
 * **[!DNL Adobe Journey Optimizer]在放弃购物车后发送个性化电子邮件**：此用例基于以下客户：访问网站，将商品放入购物车，然后离开网站而未完成购买过程。
 

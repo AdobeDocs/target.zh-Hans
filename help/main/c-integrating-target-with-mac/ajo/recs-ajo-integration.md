@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: f0e8ec873b2cc7bb6bb03aa99d5e5e96beac3b56
+source-git-commit: 094ae9cc8b9700fab4ec583d045c0c31e741ddcb
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 * [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) 使用实施 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
-  该功能在 [!DNL Target Standard] 许可证或实施时 [!DNL Target] 使用at.js或其他 [!DNL Target] SDK。
+  此功能不适用于 [!DNL Target Standard] 许可证或实施时 [!DNL Target] 使用at.js或其他 [!DNL Target] SDK。
 
 * [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html){target=_blank}.
 
@@ -40,9 +40,9 @@ ht-degree: 2%
 
   在指定的时间段（可能是几个小时或一天）之后，执行中的自定义操作 [!DNL Adobe Journey Optimizer] 调用 [!DNL Target Recommendations] 使用确定放弃的购物车的内容 [基于购物车的推荐](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 算法。 [!DNL Adobe Journey Optimizer] 然后，向此访客发送一封个性化电子邮件，提醒其购买流程未完成，并提供指向放弃项目的图像和链接。
 
-* **[!DNL Adobe Journey Optimizer]在网站访问后发送电子邮件，提醒访客已查看哪些项目**：此用例基于以下访客：访问网站，查看各种项目，然后离开网站而不将项目放入购物车。
+* **[!DNL Adobe Journey Optimizer]在网站访问后发送电子邮件，提醒访客已查看哪些项目**：此用例基于以下访客：访问网站，查看各种项目，然后离开网站或应用程序，而不将项目放入购物车。
 
-  在指定的时间段后，中的自定义操作 [!DNL Adobe Journey Optimizer] 调用 [!DNL Target Recommendations] 用于确定该访客查看了哪些项目，使用访客的 [!DNL Adobe Experience Cloud Identifier] (EDID)，访客的 [!DNL Target] 配置文件和 [基于用户](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 算法。 [!DNL Adobe Journey Optimizer] 然后，向此访客发送一封个性化电子邮件，其中包含查看项目的图像和链接，以便让访客返回网站并购买。
+  在指定的时间段后，中的自定义操作 [!DNL Adobe Journey Optimizer] 调用 [!DNL Target Recommendations] 用于确定该访客查看了哪些项目，使用访客的 [!DNL Adobe Experience Cloud Identifier] (EDID)，访客的 [!DNL Target] 配置文件和 [基于用户](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 算法。 [!DNL Adobe Journey Optimizer] 然后，向此访客发送一封个性化电子邮件，其中包含查看项目的图像和链接，以便让访客返回并购买。
 
   在此方案中， [!UICONTROL Experience Cloud访客ID] (ECID)和用户档案的内容 [!DNL Target] 用户档案用于根据最近查看的算法生成推荐。
 

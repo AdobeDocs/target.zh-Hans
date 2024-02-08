@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
+source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 95%
+source-wordcount: '1361'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2 月 8 日 | [预取](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | 添加了新章节：“使用Analytics for Target (A4T)时通过clickTrack量度预取mbox” |
 | 2 月 5 日 | [创建使用 Analytics 作为报表源的活动](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | 添加了文本，指定在使用时，不能对来自不同工作区的两个活动使用相同的活动名称 [!UICONTROL 目标分析] (A4T)作为报表源。 |
 |  | [活动设置 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 添加了文本，指定在使用时，不能对来自不同工作区的两个活动使用相同的活动名称 [!UICONTROL 目标分析] (A4T)作为报表源。 |
 |  | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于安排在2024年2月7日举行的Adobe Target社区喝咖啡休息时间的信息。 |

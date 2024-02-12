@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: e0d1e06f21c9a1e630643ed045c970526bc2a3b6
+source-git-commit: ce74c85380333476b97f47fab4d2659a3c9c86e1
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -50,6 +50,6 @@ ht-degree: 1%
 
 * **[!DNL Adobe Journey Optimizer]在网站访问后向符合条件的访客发送批量电子邮件以建议热门项目**：此用例基于访客访问网站但未查看任何特定项目。 电子邮件会批量发送给符合特定受众条件的所有受众，例如：
 
-  假设访客未查看任何特定手表。 或许访客只是简单地点击了网站，并查看了类别页面或博客条目。 因此， [!DNL Target] 配置文件没有有关最近查看的项目的具体信息。 这种情况下 [!DNL Target Recommendations] 可以使用 [备用推荐](/help/main/c-recommendations/c-algorithms/backup-recs.md) 所以 [!DNL Adobe Journey Optimizer] 可以发送一封电子邮件，其中包含网站上的热门项目的图像和链接，以便让访客返回网站并可能进行购买。
+  假设访客未查看任何特定手表。 或许访客只是简单地点击了网站，并查看了类别页面或博客条目。 因此， [!DNL Target] 配置文件没有有关最近查看的项目的具体信息。 这种情况下 [!DNL Target Recommendations] 使用 [备用推荐](/help/main/c-recommendations/c-algorithms/backup-recs.md) 所以 [!DNL Adobe Journey Optimizer] 可以发送一封电子邮件，其中包含网站上的热门项目的图像和链接，以便让访客返回网站并可能进行购买。
 
 

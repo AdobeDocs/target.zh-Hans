@@ -7,10 +7,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: 9cf9236dbd830796ef5362a9e292de7ec6fd8491
+source-git-commit: d93e58540568fb685bd18ee5e39ad2917323bce4
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 2%
+source-wordcount: '603'
+ht-degree: 1%
 
 ---
 
@@ -40,15 +40,15 @@ ht-degree: 2%
 
   在指定的时间段（可能是几个小时或一天）之后，执行中的自定义操作 [!DNL Adobe Journey Optimizer] 调用 [!DNL Target Recommendations] 使用确定放弃的购物车的内容 [基于购物车的推荐](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 算法。 [!DNL Adobe Journey Optimizer] 然后，向此访客发送一封个性化电子邮件，提醒其购买流程未完成，并提供指向放弃项目的图像和链接。
 
-* **[!DNL Adobe Journey Optimizer]在网站访问后发送电子邮件，提醒访客已查看哪些项目**：此用例基于以下访客：访问网站，查看各种项目，然后离开网站或应用程序，而不将项目放入购物车。
+* **[!DNL Adobe Journey Optimizer]在网站访问后发送批量电子邮件，提醒访客查看了哪些项目**：此用例基于以下内容：访客访问网站，查看各种项目，然后离开网站或应用程序，而不将项目放入购物车。
 
-  在指定的时间段后，中的自定义操作 [!DNL Adobe Journey Optimizer] 调用 [!DNL Target Recommendations] 用于确定该访客查看了哪些项目，使用访客的 [!DNL Adobe Experience Cloud Identifier] (EDID)，访客的 [!DNL Target] 配置文件和 [基于用户](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 算法。 [!DNL Adobe Journey Optimizer] 然后，向此访客发送一封个性化电子邮件，其中包含查看项目的图像和链接，以便让访客返回并购买。
+  在指定的时间段后，中的自定义操作 [!DNL Adobe Journey Optimizer] 调用 [!DNL Target Recommendations] 以确定每位访客查看了哪些项目，使用每位访客的 [!DNL Adobe Experience Cloud Identifier] (EDID)，访客的 [!DNL Target] 配置文件和 [基于用户](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 算法。 [!DNL Adobe Journey Optimizer] 然后，向符合条件的受众的每个成员发送一封个性化电子邮件，其中包含各个访客查看项目的图像和链接，以便让访客返回并购买。
 
-  在此方案中， [!UICONTROL Experience Cloud访客ID] (ECID)和用户档案的内容 [!DNL Target] 用户档案用于根据最近查看的算法生成推荐。
+  在此方案中， [!UICONTROL Experience Cloud访客ID] (ECID)和每个用户的内容 [!DNL Target] 用户档案用于根据最近查看的算法生成推荐。
 
-  例如，假设一位访客访问了一个零售网站并查看了一些手表。 此访客的 [!DNL Target] 使用已查看监视的列表更新配置文件。 使用ECID [!DNL Target] 个人资料， [!DNL Target] 将推荐发送至 [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] 然后，发送一封电子邮件，其中包含该访客使用“最近查看的项目”算法查看的监视项目的图像和链接。
+  例如，假设一位访客访问了一个零售网站并查看了一些手表。 此访客的 [!DNL Target] 使用已查看监视的列表更新配置文件。 使用ECID [!DNL Target] 个人资料， [!DNL Target] 将推荐发送至 [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] 然后，发送一封电子邮件，其中包含该访客使用“最近查看的项目”算法查看的监视项目的图像和链接。 另一位访客将收到一封个性化电子邮件，其中包含该访客所查看项目的图像和链接。 每封电子邮件都是个性化的。
 
-* **[!DNL Adobe Journey Optimizer]在网站访问后发送电子邮件以建议受欢迎的项目**：此用例基于访客访问网站但未查看任何特定项目。 例如，与以前的用例不同，电子邮件会批量发送给所有符合特定受众条件的受众。
+* **[!DNL Adobe Journey Optimizer]在网站访问后向符合条件的访客发送批量电子邮件以建议热门项目**：此用例基于访客访问网站但未查看任何特定项目。 电子邮件会批量发送给符合特定受众条件的所有受众，例如：
 
   假设访客未查看任何特定手表。 或许访客只是简单地点击了网站，并查看了类别页面或博客条目。 因此， [!DNL Target] 配置文件没有有关最近查看的项目的具体信息。 这种情况下 [!DNL Target Recommendations] 可以使用 [备用推荐](/help/main/c-recommendations/c-algorithms/backup-recs.md) 所以 [!DNL Adobe Journey Optimizer] 可以发送一封电子邮件，其中包含网站上的热门项目的图像和链接，以便让访客返回网站并可能进行购买。
 

@@ -4,9 +4,9 @@ description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Ski
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
-workflow-type: ht
-source-wordcount: '2476'
+source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
+workflow-type: tm+mt
+source-wordcount: '2353'
 ht-degree: 100%
 
 ---
@@ -15,24 +15,24 @@ ht-degree: 100%
 
 关于 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
 
-## Adobe Target 社区问答喝咖啡休息时间
+<!--## Adobe Target Community Q&A Coffee Break
 
-* **“无限可能的艺术”网络研讨会后续问题（个性化成熟度系列的第 1 部分）**
-* **2024 年 2 月 7 日星期三**
-* **8:00 - 9:00（太平洋标准时间 -8 GMT）**
-* **[注册信息](https://shorturl.at/gknVY){target=_blank}**
+* **Art of the Possible Webinar Follow-up Questions (Part 1 of Personalization Maturity Series)**
+* **Wednesday, February 7, 2024**
+* **8:00 - 9:00 (PST -8 GMT)**
+* **[Registration information](https://shorturl.at/gknVY){target=_blank}**
 
-+++详细信息
++++Details
 
-与 [!DNL Adobe Target] 专家 Brent Kostak、Ryan Roberts 和 Drew Burns 会面，他们实时解答客户提出的与[“ [!DNL Adobe Target] 无限可能的艺术”网络研讨会](#maturity-series)系列的第 1 部分期间涵盖的内容相关的问题。
+Join [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts, and Drew Burns as they provide answers in real-time to customers' questions related to content covered during [Part 1 of the [!DNL Adobe Target] Webinar Series on the "Art of the Possible](#maturity-series)," where our experts covered the following topics:
 
-* 每项 [!DNL Target] 功能如何对大规模执行个性化发挥战略作用
-* 客户配置 AI 功能以大规模实现的前几大用例
-* 您如何控制机器学习以激活由 AI 助力、符合您特定目标的个性化
+* How each [!DNL Target] capability plays a strategic role in executing personalization at scale
+* Top use cases that customers are configuring AI capabilities to accomplish at scale
+* How you are in control of machine learning to activate AI-powered Personalization to your specific goals
 
-如果错过了最初的网络研讨会，可[收听录音](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}。
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-+++
++++-->
 
 ## Adobe Target 2024 个性化成熟度网络研讨会系列 {#maturity-series}
 

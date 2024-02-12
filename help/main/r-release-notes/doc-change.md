@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 93%
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
 | 2 月 8 日 | [预取](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | 添加了新章节：“使用Analytics for Target (A4T)时通过clickTrack量度预取mbox” |
-| 2 月 5 日 | [创建使用 Analytics 作为报表源的活动](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | 添加了文本，指定在使用时，不能对来自不同工作区的两个活动使用相同的活动名称 [!UICONTROL 目标分析] (A4T)作为报表源。 |
-|  | [活动设置 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 添加了文本，指定在使用时，不能对来自不同工作区的两个活动使用相同的活动名称 [!UICONTROL 目标分析] (A4T)作为报表源。 |
-|  | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于安排在2024年2月7日举行的Adobe Target社区喝咖啡休息时间的信息。 |
+| 2 月 5 日 | [创建使用 Analytics 作为报告源的活动](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | 添加了文本，规定您在使用 [!UICONTROL Analytics for Target] (A4T) 作为报告源时，不得将相同的活动名称用于不同工作区的两个活动。 |
+|  | [活动设置 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 添加了文本，规定您在使用 [!UICONTROL Analytics for Target] (A4T) 作为报告源时，不得将相同的活动名称用于不同工作区的两个活动。 |
+|  | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于安排在 2024 年 2 月 7 日的 Adobe Target 社区喝咖啡休息时间的信息。 |
 | 1 月 24 日 | [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 添加了 at.js 版本 2.11.4 的发行说明。 |
 |  | [浏览器](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 宣布这两个新配置文件尚未可用。当这些配置文件可用时，将更新这些说明。 |
 |  | [at.js 常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | 添加了有关 Ionic 应用程序环境中 at.js 的常见问题解答。此实施未经测试，也不作推荐。 |
@@ -37,7 +37,7 @@ ht-degree: 93%
 | 1 月 18 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了即将发布的 [!DNL Target Standard/Premium] 24.1.1 版的预发行说明。 |
 | 12 月 13 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了有关 [!DNL Adobe Target] 2024 年个性化成熟度网络研讨会系列的信息。 |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 添加了两个新的可选设置： <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
-| 12 月 4 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了“机器学习和 AI 报告与分析”[!DNL Adobe Target Community] 喝咖啡休息时间讲座（2023 年 12 月 6 日星期三）的登记信息。 |
+| 12 月 4 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了“机器学习和 AI 报告与分析”[!DNL Adobe Target Community] 茶歇时间讲座（2023 年 12 月 6 日星期三）的登记信息。 |
 | 12 月 1 日 | [Adobe Target 配置文件更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 将旧版 API 文档移至以下文章：<ul><li>[Adobe Target 配置文件 API 概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target 单一配置文件更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target 批量配置文件更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 11 月 29 日 | [批量配置文件更新 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 澄清了在使用[!UICONTROL 批量配置文件更新 API] v2 版本与 v1 版本时，在为 [!DNL Target] 尚未发现的用户创建配置文件时 [!DNL Target] 处理客户属性的方式的区别。 |
 | 11 月 21 日 | [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 添加了 at.js 2.11.3 的发行说明。 |

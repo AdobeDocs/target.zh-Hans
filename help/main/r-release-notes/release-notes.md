@@ -7,9 +7,9 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 92%
 
 | 弃用 | 详细信息 |
 |--- |--- |
-| 即将从在创建受众时所使用的[浏览器属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)中弃用 [!DNL iPad] 和 [!DNL iPhone]<p>弃用日期：<P>2024 年 4 月 30 日 | [!DNL Adobe Target] 可让您[定位多个类别属性中的任一属性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括在访问您的页面时使用特定的[浏览器或浏览器选项](/help/main/c-target/c-audiences/c-target-rules/browser.md)的用户。<P><B>从 2024 年 4 月 30 日开始，在为受众创建类别时，将从可用的[!UICONTROL 浏览器]类型下拉列表中删除 iPad 和 iPhone。</b><P>使用创建的内置受众 [!DNL Target] UI(如“浏览器：iPad”和“浏览器：iPhone”)将自动移至新的受众定义。<p>有关必须手动更改的替代设置的示例，请参阅 [从“浏览器”受众属性弃用iPad和iPhone （2024年4月30日）](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+| 即将从在创建受众时所使用的[浏览器属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)中弃用 [!DNL iPad] 和 [!DNL iPhone]<p>弃用日期：<P>2024 年 4 月 30 日 | [!DNL Adobe Target] 可让您[定位多个类别属性中的任一属性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括在访问您的页面时使用特定的[浏览器或浏览器选项](/help/main/c-target/c-audiences/c-target-rules/browser.md)的用户。<P><B>从 2024 年 4 月 30 日开始，在为受众创建类别时，将从可用的[!UICONTROL 浏览器]类型下拉列表中删除 iPad 和 iPhone。</b><P>使用 [!DNL Target] UI 创建的内置受众（例如“浏览器：iPad”和“浏览器：iPhone”）将自动移至新的受众定义。<p>有关必须手动更改的替代设置的示例，请参阅[从浏览器受众属性中弃用 iPad 和 iPhone（2024 年 4 月 30 日）](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation)。 |
 
 ## [!DNL Target] Standard/Premium 24.1.1（2024 年 1 月 22 日、23 日和 25 日）
 

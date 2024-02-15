@@ -5,7 +5,7 @@ title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2353'
 ht-degree: 100%
 

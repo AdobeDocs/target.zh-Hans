@@ -1,25 +1,25 @@
 ---
 keywords: 活动列表；活动；活动类型；编辑活动；活动操作；活动属性；活动列表筛选器；活动限制；个性化；个性化
-description: 了解Adobe中的活动方式 [!DNL Target] 让您可以为特定受众个性化内容并测试页面设计。
+description: 了解中的活动 [!DNL Target] 让您可以为特定受众个性化内容并测试页面设计。
 title: 如何使用个性化内容和测试页面设计 [!DNL Target]？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: dba58f591b60ccfa1cdcd27d2704ebf28c40ba10
+source-git-commit: 38a3eb1f194a63620b8b4866a48a17903801fa46
 workflow-type: tm+mt
-source-wordcount: '2467'
-ht-degree: 45%
+source-wordcount: '2407'
+ht-degree: 39%
 
 ---
 
 # 活动
 
-通过 [!DNL Adobe Target] 中的活动，可针对特定受众使内容个性化并测试页面设计。
+中的活动 [!DNL Adobe Target] 让您可以为特定受众个性化内容并测试页面设计。
 
 例如，您可能会设计一个活动以对两个不同的登陆页面进行测试，其中一个页面着重显示夏季女鞋的相关信息，而另一个登陆页面则重点展示更广泛的夏季服饰信息。此活动确定了用于控制这两个登陆页面分别何时显示的条件，以及用于决定哪个页面更为成功的量度。此活动配置为在满足特定条件时开始和结束，例如在具体日期开始和结束，或者在活动得到批准后开始并在活动停用后结束。
 
 设计活动时，您应该仔细规划。确定活动何时开始以及持续时间。然后，列出您的选件并为每个选件分配一组目标顾客。
 
-## Activities list（活动列表） {#section_DE8E2DB30D534962A931EF8BB48240F5}
+## 活动列表 {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
 打开 [!DNL Target] 时，[!UICONTROL 活动]列表是默认的视图。您可以从此页面创建活动并管理现有活动。
 
@@ -33,20 +33,20 @@ ht-degree: 45%
 |--- |--- |
 | 左侧导航边栏 | 在已保存的活动或实时活动之间切换，失败或 [草稿活动](/help/main/c-activities/edit-activity.md). |
 | [!UICONTROL 显示筛选器] 图标<P>![“显示过滤器”图标](/help/main/c-activities/assets/show-filters-icon.png) | 要访问过滤器，请单击 **[!UICONTROL 显示筛选器]** 图标（位于列表顶部附近）。<P>有关更多信息，请参阅 [将过滤器应用于“活动”列表](#filters) 下。 |
-| “搜索”框 | 快速查找活动或减少中显示的活动数 [!UICONTROL 活动] 列表。 搜索依据 [!UICONTROL 名称]， [!UICONTROL URL]，或 [!UICONTROL ID]. |
-| [!UICONTROL 创建活动] | 创建活动. 有关创建各种活动类型的详细信息，请参阅： <ul><li>[创建 A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[创建自动分配活动](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[创建自动定位活动](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[创建自动个性化活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[创建多变量测试](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[创建“推荐”活动](/help/main/c-recommendations/recommendations.md)</li></ul>有关每种类型的详细信息，请参阅 [活动类型](#types) 下。 |
+| 搜索框 | 快速查找活动或减少中显示的活动数 [!UICONTROL 活动] 列表。 搜索依据 [!UICONTROL 名称]， [!UICONTROL URL]，或 [!UICONTROL ID]. |
+| [!UICONTROL 创建活动] | 创建活动。 有关创建各种活动类型的详细信息，请参阅： <ul><li>[创建 A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[创建自动分配活动](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[创建自动定位活动](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[创建自动个性化活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[创建多变量测试](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[创建“推荐”活动](/help/main/c-recommendations/recommendations.md)</li></ul>有关每种类型的详细信息，请参阅 [活动类型](#types) 下。 |
 | [!UICONTROL 创建移动设备预览链接]<P>![“更多操作”菜单](/help/main/c-activities/assets/icon-create-mobile-link.png) | 使用 [移动设备预览链接](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html) 为移动设备应用程序活动轻松执行端到端QA。<P>单击 **更多选项** 图标（垂直省略号），选择 **创建移动设备预览链接**，然后选择要在Mobile上测试的活动。 |
 | 自定义表<P>![“自定义表”图标](/help/main/c-activities/assets/icon-customize-table.png) | 更改哪些列显示在 [!UICONTROL 活动] 通过单击 **[!UICONTROL 自定义表]** 图标，然后选择或取消选择所需的列。<P>更改将应用于您的帐户，并在您注销后保持活动状态 [!DNL Target]. |
 | “批量操作”复选框 | 对所有活动或选定活动执行批量操作。<P>有关可用操作的列表（取决于您的权限和活动状态），请参阅 [执行快速操作](#quick-actions) 下。 |
 | [!UICONTROL 类型] | 活动类型。 此 [!UICONTROL 类型] 列允许您按类型快速识别每个活动。 <ul><li>ab-M：手动 [!UICONTROL A/B测试]</li><li>AB-AA： [!UICONTROL 自动分配]</li><li>AB-AT： [!UICONTROL 自动定位]</li><li>AP： [!UICONTROL Automated Personalization]</li><li>XT： [!UICONTROL 体验定位]</li><li>MVT： [!UICONTROL 多变量测试]</li><li>记录： [!UICONTROL Recommendations]</li></ul>有关每种类型的详细信息，请参阅 [活动类型](#types) 下。 |
-| [!UICONTROL 名称] | 活动的名称。单击活动名称以显示该活动的 [!UICONTROL 概述] 页面。 <P>单击 **[!UICONTROL 快速信息]** 图标，以在弹出卡片中查看有关该活动的更多信息。<p>单击 **[!UICONTROL 更多操作]** 图标（水平省略号）以打开一个菜单，允许您对活动执行快速操作。 以下操作可用（具体取决于您的权限和活动状态）： [!UICONTROL 编辑]， [!UICONTROL 激活]， [!UICONTROL 取消激活]， [!UICONTROL 复制]， [!UICONTROL 删除]、和 [!UICONTROL 存档]. 有关每个操作的详细信息，请参阅 [执行快速操作](#quick-actions) 下。<P>单击表标题可按名称的字母升序或降序对列表进行排序。 |
-| [!UICONTROL 状态] | 活动的状态可以是下列状态之一：<ul><li>**实时**：该活动当前正在运行。</li><li>**草稿**：活动设置已开始，但活动仍在中 [草稿模式](/help/main/c-activities/edit-activity.md) 尚未准备好运行。</li><li>**已计划**：当到达指定的开始日期和时间时，该活动便可准备激活。</li><li>**不活跃**：该活动已暂停或停用。</li><li>**正在同步**[!DNL Target]：活动已经保存，并且正在同步到 交付网络。</li><li>**已结束**：已达到活动的指定结束日期和时间，并且不再为该活动提供服务。</li><li>**已存档**：活动已经存档。您可以激活已存档的活动以便再次使用。</li></ul>**注意：**[!DNL Target]执行某些操作时，例如使用 API 方法在 UI 外部激活活动，可能需要最多 10 分钟才能将更新传播到 UI。[!DNL Target] |
-| [!UICONTROL 上次更新] | 上次更新活动的日期和时间，以及更新者。<P>单击表标题可按日期对列表进行升序或降序排序。 |
+| [!UICONTROL 名称] | 活动的名称。 单击活动名称以显示该活动的 [!UICONTROL 概述] 页面。 <P>单击 **[!UICONTROL 快速信息]** 图标，以在弹出卡片中查看有关该活动的更多信息。<p>单击 **[!UICONTROL 更多操作]** 图标（水平省略号）以打开一个菜单，允许您对活动执行快速操作。 以下操作可用（具体取决于您的权限和活动状态）： [!UICONTROL 编辑]， [!UICONTROL 激活]， [!UICONTROL 取消激活]， [!UICONTROL 复制]， [!UICONTROL 删除]、和 [!UICONTROL 存档]. 有关每个操作的详细信息，请参阅 [执行快速操作](#quick-actions) 下。<P>单击表标题可按名称的字母升序或降序对列表进行排序。 |
+| [!UICONTROL 状态] | 活动的状态可以是下列状态之一：<ul><li>**实时**：该活动当前正在运行。</li><li>**草稿**：活动设置已开始，但活动仍在中 [草稿模式](/help/main/c-activities/edit-activity.md) 尚未准备好运行。</li><li>**已计划**：当到达指定的开始日期和时间时，该活动便可准备激活。</li><li>**不活跃**：该活动已暂停或停用。</li><li>**正在同步**：该活动已保存，并且正在同步到 [!DNL Target] 投放网络。</li><li>**已结束**：已达到活动的指定结束日期和时间，并且不再为该活动提供服务。</li><li>**已存档**：活动已经存档。您可以激活已存档的活动以便再次使用。</li></ul>**注意**：执行某些操作时，例如激活外部的活动 [!DNL Target] UI使用API方法时，更新最多可能需要10分钟才能传播到 [!DNL Target] UI。 |
+| [!UICONTROL 上次更新时间] | 上次更新活动的日期和时间，以及更新者。<P>单击表标题可按日期对列表进行升序或降序排序。 |
 | [!UICONTROL 优先级] | 活动的优先级。<P>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。<P>根据您的 [设置](/help/main/administrating-target/reporting.md)， [!DNL Target] UI和选项 [!UICONTROL 优先级] 不同。 您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。 |
 | [!UICONTROL 属性] | 显示活动的[属性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。<P>企业用户权限是 [Target Premium](/help/main/c-intro/intro.md#premium) 功能。 |
 | [!UICONTROL 预计收入提升] | 如果 100% 的受众都看到了入选体验，则显示预计会有多少收入上的增长。<P>使用以下公式计算：<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>如果以简写的形式表示数字，且小数点前只有一个数字，则该数字将四舍五入至小数点后一位，保留最大值。例如：$1.6M、$60K、$900、$8.5K、$205K<P>此列显示“---”时，表示该活动没有足够的数据来确定入选者，或者没有成本估算。<P>请参阅[预计收入提升](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以了解更多信息。 |
 | [!UICONTROL 来源] | 显示创建活动的位置： [!DNL Adobe Target]， [ADOBE TARGET API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans)， [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)， [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)，或 [Adobe移动服务](https://developer.adobe.com/client-sdks/documentation/). |
-| [!UICONTROL 位置] | 活动的 URL 可标识该活动在哪里显示。此列可帮助您快速识别活动，并确定某个特定页面是否已在该活动上运行。<P>如果活动在多个URL上运行，则会有一个链接显示使用的URL数量。 单击该链接可查看该活动的完整 URL 列表。<P>您可以根据 URL 进行搜索。使用搜索框旁边的下拉列表并选择 [!UICONTROL URL]. |
+| [!UICONTROL 位置] | 活动的 URL 可标识该活动在哪里显示。此列可帮助您快速识别活动，并确定某个特定页面是否已在该活动上运行。<P>如果活动在多个URL上运行，则会有一个链接显示使用的URL数量。 单击该链接可查看该活动的完整 URL 列表。<P>您可以根据URL进行搜索。 使用搜索框旁边的下拉列表并选择 [!UICONTROL URL]. |
 | 作者 | 创建活动的人员的姓名。 |
 | [!UICONTROL 决策方法] | 每个活动中使用的决策方法： [服务器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html) 或 [客户端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html). |
 
@@ -82,12 +82,12 @@ ht-degree: 45%
 
 | 操作 | 描述 |
 | --- | --- |
-| [!UICONTROL 编辑] | 更改活动。任何活动都可以编辑。<P>有关可编辑活动的各种方法的更多信息，请参阅[编辑活动或另存为草稿](/help/main/c-activities/edit-activity.md)。 |
+| [!UICONTROL 编辑] | 更改活动。任何活动都可以编辑。<P>有关可编辑活动的各种方法的更多信息，请参阅 [编辑活动或另存为草稿](/help/main/c-activities/edit-activity.md). |
 | [!UICONTROL 停用] | 停止实时或计划的活动。可以重新激活或存档已停用的活动。<P>如果您停用活动或将活动存档，稍后又重新激活它，并且在停用活动或将活动存档之前有访客处于活动中，则该访客在重新激活活动后将继续成为该活动的一部分。在这两个事件之间的时段内记录的任何转化量度不会归因于该活动。 |
 | [!UICONTROL 激活] | 启动不活动的活动或准备激活的活动。 |
 | [!UICONTROL 存档] | 将活动发送到存档中。默认情况下，已存档的活动不再出现在 [!UICONTROL 活动] 列表。 要查看这些活动，请更改活动列表的筛选器使其包含已存档活动。您可以激活已存档的活动以便再次使用。<P>如果您停用活动或将活动存档，稍后又重新激活它，并且在停用活动或将活动存档之前有访客处于活动中，则该访客在重新激活活动后将继续成为该活动的一部分。 在这两个事件之间的时段内记录的任何转化量度不会归因于该活动。 |
 | [!UICONTROL 复制] | 复制活动。任何活动都可以复制。复制活动将会创建一个具有相同名称的新活动，只不过新的活动名称会附加“副本”两个字。例如，名为“浏览器选件”的测试会被复制到“浏览器选件副本”。<P>可视化选件会与活动一起复制。您可以安全地编辑副本中的选件，而不会影响原始活动。唯一的例外是保存在“内容/资产”文件夹中的选件和图像。 |
-| [!UICONTROL 删除] | 删除草稿或活动。<P>**注意**：删除的活动将无法恢复。除非您确定再也不需要此活动，否则请使用 [!UICONTROL 存档] 操作。 之后，您可以根据需要重新激活该活动。 |
+| [!UICONTROL 删除] | 删除草稿或活动。<P>**注意**：无法恢复已删除的活动。 除非您确定再也不需要此活动，否则请使用 [!UICONTROL 存档] 操作。 之后，您可以根据需要重新激活该活动。 |
 
 ## 注意事项
 
@@ -110,11 +110,11 @@ ht-degree: 45%
 
 | 项目 | 限制 |
 |--- |--- |
-| 唯一选择器 | 300如果一个选择器在不同的体验中重复，则只会被计数一次。但是，如果它在相同的体验中重复，则会被重复计数。 |
+| 唯一选择器 | 如果一个选择器在不同体验中重复，则计算一次。 但是，如果它在相同的体验中重复，则会被重复计数。 |
 | 每个体验中的选件 | 350 |
 | 量度中的点击跟踪选择器 | 50 |
 | 量度中的 Mbox | 50 |
-| 受众和位置 | 50 受众和位置(mbox)组合不得超过50个。 |
+| 受众和位置 | 50个受众和位置(mbox)组合不得超过50个。 |
 
 如果超出其中任一限制，则无法保存活动。
 

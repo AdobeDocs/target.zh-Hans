@@ -5,10 +5,10 @@ title: Recommendations 信息源处理服务器使用什么 IP 地址？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: 558de92e672c276474bc76fad19e5461ae7d4c88
+source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 49%
+source-wordcount: '175'
+ht-degree: 46%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 49%
 
 >[!IMPORTANT]
 >
->2023年2月23日： [!DNL Target] 组当前正在更新NAT网关地址以供下载 [!DNL Recommendations] 信息源。 如果实施IP列入允许列表，请确保您允许列表以下新的AWS主机。 按计划，现有主机将在未来停用。 所有九台主机现已投入运行。
+>此 [!DNL Target] 组当前正在更新NAT网关地址以供下载 [!DNL Recommendations] 信息源。 如果实施IP列入允许列表，请确保您允许列表以下新的AWS主机。 现有主机将于2024年6月30日停用。 为确保平稳过渡，请允许列表所有九个地址。 无需急迫删除现有地址。
 
 [!DNL Target] [!UICONTROL 推荐]活动在访问客户的 FTP 服务器时使用以下 AWS 主机：
 

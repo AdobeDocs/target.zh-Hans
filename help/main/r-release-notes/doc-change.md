@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
+source-git-commit: 7ae2aa9f95b01653891e9857c1ee5b94f6c809a9
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1453'
 ht-degree: 94%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 94%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 2 月 26 日 | [[!DNL Adobe Target] 公告和活动](/help/main/r-release-notes/target-announcements.md) | 添加了关于即将推出的产品的信息 [!UICONTROL Adobe Target社区] 茶歇（2024年2月28日）。 |
 | 2 月 23 日 | [使用的IP地址 [!DNL Recommendations] 信息源处理服务器](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | 添加了以下重要说明和您应列入允许列表的新IP地址。<P>**重要**：和 [!DNL Target] 组当前正在更新NAT网关地址以供下载 [!DNL Recommendations] 信息源。 如果实施IP列入允许列表，请确保您允许列表以下新的AWS主机。 现有主机将于2024年6月30日停用。 为确保平稳过渡，请允许列表所有九个地址。 无需急迫删除现有地址。 |
 | 2 月 8 日 | [预获取](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | 添加了新部分：“使用 Analytics for Target (A4T) 时通过 clickTrack 指标预获取 mbox” |
 | 2 月 5 日 | [创建使用 Analytics 作为报告源的活动](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | 添加了文本，规定您在使用 [!UICONTROL Analytics for Target] (A4T) 作为报告源时，不得将相同的活动名称用于不同工作区的两个活动。 |

@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 75%
 
 ---
 
@@ -15,13 +15,28 @@ ht-degree: 100%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2024 年 1 月 22 日**
+**上次更新时间： 2024年2月28日**
 
 >[!NOTE]
 >
 >发布日期、功能及其他信息如有更改，恕不另行通知。
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+## [!DNL Target] Standard/Premium 24.3.1（2024年3月4日至6日）
+
+此版本计划在接下来的几天发布：
+
+* **3 月 4 日**：欧洲、中东和非洲 (EMEA) 地区
+* **3 月 5 日**：亚太 (APAC) 地区
+* **3 月 6 日**：美洲地区
+
+此版本包含以下增强和修复：
+
+* 修复了计算活动中唯一选择器数量的逻辑。 (TGT-47878)
+* 修复了导致错误的问题 [!UICONTROL 多变量] (MVT)活动配置有 [!UICONTROL 目标分析] (A4T)报表无法正确显示。 (TGT-47490)
+* 改进了在将无流量的体验用作控制体验时报表中显示的警告消息。 (TGT-47537)
+* 添加了许多后端和本地化修复。
 
 ## 其他发行说明和版本详细信息
 

@@ -5,9 +5,9 @@ title: 什么是配置文件属性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2465'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 [!DNL Adobe Target] 中的配置文件属性是特定于某个访客的参数。这些属性存储在该访客的配置文件中，以提供可在您的活动中使用的关于该访客的信息。
 
-用户配置文件包含网页访客的人口统计和行为信息。此信息可包括年龄、性别、购买的产品、上次访问的时间等等。 [!DNL Target] 使用此信息将提供给该访客的内容个性化。
+用户配置文件包含网页访客的人口统计和行为信息。这些信息可以包括年龄、性别、购买的产品、上次访问时间等。[!DNL Target] 使用此信息来个性化为该访问者提供的内容。
 
 在访客浏览您的网站时或在访客因另一会话而返回时，可使用保存在该配置文件中的配置文件属性定位内容或记录信息以供进行区段过滤。
 
@@ -33,8 +33,8 @@ ht-degree: 96%
 
    | 参数类型 | 描述 |
    |--- |--- |
-   | mbox | 在创建 mbox 时通过页面代码直接传入。请参阅 [将参数传递到全局Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} 在 *Target开发人员指南*..<P>**注意**：[!DNL Target] 对于每个 mbox 调用有 50 个唯一配置文件属性的限制。如果必须将超过50个配置文件属性传递到 [!DNL Target]，使用 [!UICONTROL 配置文件更新API] 方法。 有关更多信息，请参阅 [更新用户档案](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} 在 *Target开发人员指南*. |
-   | 配置文件 | 直接使用 JavaScript 代码段定义。这些代码片段可以存储运行总计（如消费者消费的总金额），并在每个mbox请求上执行。 请参阅 *配置文件脚本属性* 下。 |
+   | mbox | 在创建 mbox 时通过页面代码直接传入。请参阅 *Target 开发人员指南*&#x200B;中的[将参数传递到全局 Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}。<P>**注意**：[!DNL Target] 对于每个 mbox 调用有 50 个唯一配置文件属性的限制。如果必须将超过 50 个配置文件属性传递到 [!DNL Target]，请使用[!UICONTROL 配置文件更新 API] 方法传递它们。有关更多信息，请参阅 *Target 开发人员指南*&#x200B;中的[更新配置文件](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}。 |
+   | 配置文件 | 直接使用 JavaScript 代码段定义。这些代码段可存储运行总计，如消费者消费的总金额，并在每次 mbox 请求时执行这些代码段。请参阅以下&#x200B;*配置文件脚本属性*。 |
 
 ## 配置文件脚本属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 

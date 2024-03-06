@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
-workflow-type: ht
-source-wordcount: '573'
-ht-degree: 100%
+source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 63%
 
 ---
 
@@ -19,28 +19,26 @@ ht-degree: 100%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## 从浏览器受众属性中弃用 iPad 和 iPhone（2024 年 4 月 30 日）
+## 更新 `Browser:iPad` 和 `Browser:iPhone` 在 [!UICONTROL Browser] 受众属性（2024年4月30日）
 
-| 弃用 | 详细信息 |
+| 更新 | 详细信息 |
 |--- |--- |
-| 即将从在创建受众时所使用的[浏览器属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)中弃用 [!DNL iPad] 和 [!DNL iPhone]<p>弃用日期：<P>2024 年 4 月 30 日 | [!DNL Adobe Target] 可让您[定位多个类别属性中的任一属性](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括在访问您的页面时使用特定的[浏览器或浏览器选项](/help/main/c-target/c-audiences/c-target-rules/browser.md)的用户。<P><B>从 2024 年 4 月 30 日开始，在为受众创建类别时，将从可用的[!UICONTROL 浏览器]类型下拉列表中删除 iPad 和 iPhone。</b><P>使用 [!DNL Target] UI 创建的内置受众（例如“浏览器：iPad”和“浏览器：iPhone”）将自动移至新的受众定义。<p>有关必须手动更改的替代设置的示例，请参阅[从浏览器受众属性中弃用 iPad 和 iPhone（2024 年 4 月 30 日）](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation)。 |
+| [!UICONTROL Browser:iPad] 和 [!UICONTROL Browser:iPhone] 更新于 [浏览器属性](/help/main/c-target/c-audiences/c-target-rules/browser.md) 在创建受众时使用。 | [!DNL Adobe Target] 允许您 [定位多个类别属性中的任意一个](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括使用特定的 [浏览器或浏览器选项](/help/main/c-target/c-audiences/c-target-rules/browser.md) 访客访问您的页面时。<P>从 [!DNL Target] Standard/Premium 24.3.1（2024年3月4日至6日），使用Target UI创建的内置受众，例如 `Browser:iPad` 和 `Browser:iPhone` 将更新以对执行适当的定位 [!DNL iPad] 和 [!DNL iPhone] 使用 `profile.mobile.deviceVendor`， `profile.mobile.isMobilePhone` 和 `profile.mobile.isTablet`.<P>客户无需对此更新执行任何操作。<p><B>重要</b>：供客户对以下内容执行适当的定位 [!DNL iPad] 和 [!DNL iPhone] 在配置文件脚本（和JavaScript区段）中，必须由客户手动进行更改 **2024年4月30日**. 有关必须手动更改的替代设置的示例，请参阅 [更新 [!DNL iPad] 和 [!DNL iPhone] 在 [!UICONTROL Browser] 受众属性](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
 
-## [!DNL Target] Standard/Premium 24.1.1（2024 年 1 月 22 日、23 日和 25 日）
+## [!DNL Target] Standard/Premium 24.3.1（2024年3月4日至6日）
 
 此版本计划在接下来的几天发布：
 
-* **1 月 22 日**：欧洲、中东和非洲 (EMEA) 地区
-* **1 月 23 日**：亚太 (APAC) 地区
-* **1 月 25 日**：美洲区域
+* **3 月 4 日**：欧洲、中东和非洲 (EMEA) 地区
+* **3 月 5 日**：亚太 (APAC) 地区
+* **3 月 6 日**：美洲地区
 
 此版本包含以下增强和修复：
 
-* 具有收入目标量度的 [!UICONTROL Analytics for Target] (A4T) 活动未将“收入”显示为列名称，并且未在报告中以 ($) 格式显示收入量度。这是一个已经解决的外观问题。(TGT-46995)
-* 修复了一个问题，该问题导致报告日期间隔不起作用。(TGT-47396)
-* 修复了一个问题，该问题导致在客户使用[!UICONTROL 更多操作]图标激活或停用某项活动后在[!UICONTROL 所有活动]页面上显示的状态有误。(TGT-47367)
-* 修复了一个问题，该问题导致无法为单个客户显示[!UICONTROL 重要属性]报告。(TGT-47272)
-* 修复了一个问题，该问题导致在单个客户尝试启用“需要身份验证”时显示“负载无效”消息。(TGT-47195)
-* 更新了 [!DNL Target] UI 中的大量本地化字符串。
+* 修复了计算活动中唯一选择器数量的逻辑。 (TGT-47878)
+* 修复了导致错误的问题 [!UICONTROL Multivariate] (MVT)活动配置有 [!UICONTROL Analytics for Target] (A4T)报表无法正确显示。 (TGT-47490)
+* 改进了在将无流量的体验用作控制体验时报表中显示的警告消息。 (TGT-47537)
+* 添加了许多后端和本地化修复。
 
 ## 其他发行说明和版本详细信息
 

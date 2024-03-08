@@ -5,10 +5,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: 如何使用实体属性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 52%
+source-wordcount: '1070'
+ht-degree: 48%
 
 ---
 
@@ -95,19 +95,19 @@ mboxCreate('productPage',
 
 支持多值（逗号分隔列表）。
 
-当前页面的类别。entity.categoryID可包括多个类别，如羊毛衫是羊毛衫的次部分（例如，女士、女士：毛衫、女士）:sweaters:羊毛衫)。 多个类别必须以逗号分隔。
+当前页面的类别。entity.categoryID可以包含多个类别，例如羊毛衫的子部分(例如， `womens`， `womens:sweaters`， `womens:sweaters:cardigans`)。 多个类别必须以逗号分隔。
 
 此 `categoryId` 值限制为250个字符。
 
 >[!NOTE]
 >
->要按[!UICONTROL 类别]页面中的类别显示推荐，则只有一个 `categoryId` 可以被传递到用于显示该特定推荐的 mbox 中。`categoryId` 的值必须与“产品详细信息”页面上传递的 `entity.categoryId` 的值完全匹配。
+>要根据中的类别显示推荐，请执行以下操作 [!UICONTROL Category] 页面，仅一个 `categoryId` 可以传递到用于显示该特定推荐的mbox中。 的值 `categoryId` 必须完全匹配的值 `entity.categoryId` 传递于 [!UICONTROL Product Detail] 页面。
 
 示例：
 
-* “产品详细信息”页面示例：womens， womens：sweaters， womens:sweaters:羊毛衫
-* “类别”页面示例 - Sweaters：womens:sweaters
-* “类别”页面示例 — Cardigans：womens:sweaters:羊毛衫
+* 产品详细信息页面示例： `womens`， `womens:sweaters`， `womens:sweaters:cardigans`
+* 类别页面示例Sweaters： `womens:sweaters`
+* “类别”页示例Cardigans： `womens:sweaters:cardigans`
 
 对于基于类别的推荐，使用逗号分隔类别值。 以逗号分隔的任意值都会变成类别。您也可以使用不同的分隔符（例如冒号 (:)）来分隔类别值中的子类别，从而定义子类别。
 
@@ -117,7 +117,7 @@ mboxCreate('productPage',
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-对于 mbox 提交，会对键值使用最长的属性名称。如果属性名称长度相同，则使用最后一个属性。在上述示例中，类别键值为“Womens”:Outerwear:夹克：卡班。
+对于 mbox 提交，会对键值使用最长的属性名称。如果属性名称长度相同，则使用最后一个属性。在上述示例中，类别键为 `Womens:Outerwear:Jackets:Caban`.
 
 ### entity.brand
 

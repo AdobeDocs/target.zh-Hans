@@ -4,10 +4,10 @@ description: 了解如何预览Adobe [!DNL Target] Recommendations活动，以�
 title: 如何预览和启动Recommendations活动？
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 0d875bfaf8c0670f657046469d2adba0647de4fb
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 15%
+source-wordcount: '1340'
+ht-degree: 16%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 15%
 
 从左到右是推荐项目的列表，在本例中是查看次数最多的项目。 推荐按环境进行分隔，在这种情况下，只有生产环境才有推荐。
 
-如果一行的第一个值是星号(*)，则表示备份项目。 如果不是算法（标准）的推荐项目可以填充设计中的所有版块，则会显示备用项目。 对于畅销度算法（例如，热销产品），CSV文件中每个环境只能有零个或一个非备份行，因为这些算法类型没有“键”，例如“向客户显示最受欢迎的产品，无论他们查看或购买的是什么”。 因此，与其他基于键的算法（例如view-view）不同，行中的第一个值不是键，而是推荐项目列表中的第一个项目。
+如果一行的第一个值是星号(*)，则表示 [备份项目](/help/main/c-recommendations/c-algorithms/backup-recs.md). 如果不是算法（标准）的推荐项目可以填充设计中的所有版块，则会显示备用项目。
 
 对于基于键值的其他算法类型，例如 [!UICONTROL People Who Viewed This, Viewed That]，键值（即“This”项）将在最左侧的列中列出，而推荐项（即“That”项）将在Recommendation_X列中从左到右列出。
 

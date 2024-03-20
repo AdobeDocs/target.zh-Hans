@@ -1,26 +1,26 @@
 ---
 keywords: 推荐;备用
-description: 了解如何在Adobe中使用备份推荐 [!DNL Target] Recommendations。 推荐中没有足够的推荐项目，将显示备份算法的结果。
-title: 如何在Recommendations中使用备份推荐？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+description: 了解如何在Adobe中使用备份推荐 [!DNL Target] Recommendations。 没有足够推荐项目的推荐会显示备份算法的结果。
+title: 如何在Recommendations中使用备用推荐？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 82%
+source-wordcount: '527'
+ht-degree: 77%
 
 ---
 
 # 使用备用推荐
 
-如果您使用Adobe Target中的备用推荐功能，则任何推荐中推荐的项目不足将不会显示默认内容。 “推荐”将改为显示备用算法的结果。
+如果在中使用备份推荐功能，请 [!DNL Adobe Target]，任何推荐中没有足够的推荐项目，将不会显示默认内容。 “推荐”将改为显示备用算法的结果。
 
 如果您不使用备用推荐并且推荐中的项目不足以填满整个显示区域，则系统会向用户显示默认内容。
 
 >[!NOTE]
 >
->其他信息请参见 [创建标准的内容部分](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 主题，包括一个矩阵，其中说明了使用时将观察到的结果 [!UICONTROL 局部设计渲染] 和 [!UICONTROL 显示备用Recommendations] 选项组合在一起或单独分开使用。
+>欲知更多信息，请参见 [创建标准的内容部分](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 主题，包括一个矩阵，该矩阵说明了使用 [!UICONTROL Partial Design Rendering] 和 [!UICONTROL Show Backup Recommendations] 选项组合在一起或单独分开进行。
 
 备用推荐功能始终采用网站查看最多的项目来填充算法数据被使用后的剩余位置。例如，您的模板配置为显示 5 个推荐项目，并且您使用的是“*购买相关性*”算法。然而，您仅有足够的数据来填充 5 个位置中的两个，那么备用推荐功能就会使用查看最多的项目来填充其它 3 个位置。
 
@@ -49,4 +49,4 @@ ht-degree: 82%
 
 在初始设置阶段与实施团队进行相关讨论时，通常会涉及使用备用推荐。在实施之后，假如你你要更改备用推荐设置，请联系帐户管理员。
 
-如果未启用“启用局部设计渲染”（请参阅[“内容”设置](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)）且未显示模板，则会显示备用推荐或默认内容。
+如果启用局部设计渲染(请参阅 [内容设置](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content))且未显示模板，则会显示备用推荐或默认内容。

@@ -4,7 +4,7 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 324274a9e97fceaa3e559e63b3b0f2e74bbd886f
+source-git-commit: a470b414705135885b0671cb2008315848703724
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 76%
@@ -124,3 +124,4 @@ ht-degree: 76%
 | 7 月 25 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#edge) | 添加了有关计划于 2023 年 8 月 9 日进行的边缘基础设施升级的信息。 |
 |  | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=zh-Hans){target=_blank} | 更新了边缘部署 41-48 的 NAT 和 IP/域。 |
 | 7 月 24 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Target Standard/Premium] 23.7.1 版的发行说明。 |
+

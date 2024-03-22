@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 324274a9e97fceaa3e559e63b3b0f2e74bbd886f
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 78%
+source-wordcount: '1573'
+ht-degree: 76%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 78%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 3 月 22 日 | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | 删除了对边缘节点31到38的引用，因为该节点不再存在。 确保您的允许列表为最新。 |
+|  | [第三方Cookie弃用对Target (at.js)的影响](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | 新博客帖子介绍了Google计划的弃用第三方Cookie对您意味着什么 [!DNL Adobe Target] at.js实施。 |
 | 3 月 14 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了 [!DNL Adobe Experience Platform Visual Editing Helper] 对象 [!DNL Google Chrome]. |
 | 3 月 13 日 | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | 添加了有关重新保存基于时间的受众以说明夏令时(DST)的信息。 |
 | 3 月 6 日 | [浏览器](/help/main/c-target/c-audiences/c-target-rules/browser.md) | 更新了以下部分中的信息：“更新了 [!DNL iPad] 和 [!DNL iPhone] 在 [!UICONTROL Browser] 受众属性（2024年4月30日）”。 |

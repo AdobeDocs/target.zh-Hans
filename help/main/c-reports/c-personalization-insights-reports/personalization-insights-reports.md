@@ -2,56 +2,75 @@
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;自动化区段;常见问题解答;常见问题解答;重要属性
 description: 了解如何为Automated Personalization (AP)和自动定位(AT)活动使用专用报表 — 自动化区段和重要属性。
 title: 如何使用个性化分析报表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 6c8f042acb257fc908349c679bf745e477f94af4
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 51%
+source-wordcount: '877'
+ht-degree: 28%
 
 ---
 
-# 个性化见解报表
+# [!UICONTROL Personalization Insights] 报表
 
-“[!UICONTROL 自动个性化]”(AP) 和自动定位 (AT) 活动的用户可以使用两个专门的报表：“[!UICONTROL 自动化区段]”和重要属性报表。
+以下用户可以使用两个专门的报表： [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL Auto-Target] (AT)活动： [!UICONTROL Automated Segments] 和 [!UICONTROL Important Attributes] 报表。
 
->[!NOTE]
->
->使用个性化分析报表时，请考虑以下事项：
->
->* AP 和 AT 活动会作为 [!DNL Target Premium] 解决方案的一部分提供。在没有 [!DNL Target Premium] 许可证的情况下，它们将不会包含在 [!DNL Target Standard] 中。
->
->* [!UICONTROL 个性化分析报表仅适用于使用转化优化目标的 AP 和 AT 活动。]活动上线后将优化目标从收入更改为转化的活动也不受支持。
->
->* [!UICONTROL 个性化分析] 仅当满足以下条件时，报告才可用 [!UICONTROL 主要目标] 已从中选定 [!UICONTROL 报表量度] 下拉列表。
->
->* 仅[默认环境](/help/main/administrating-target/hosts.md)支持个性化分析报表。
->
->* [!UICONTROL 个性化分析] 仅对以下范围内的活动生成报告： [!UICONTROL 实时] 状态，并且已激活并至少接收流量15天。
+## 注意事项
 
+使用时，请考虑以下事项 [!UICONTROL Personalization Insights] 报告：
+
+* AP和AT活动作为 [[!DNL Target Premium] 解决方案](/help/main/c-intro/intro.md#premium). 在没有 [!DNL Target Premium] 许可证的情况下，它们将不会包含在 [!DNL Target Standard] 中。
+
+* [!UICONTROL Personalization Insights] 报告仅适用于如下配置的AP和AT活动：
+
+   * [!DNL Target] 报告> [!UICONTROL Conversion]
+
+     例如：
+
+     ![Target报表>转化](/help/main/c-reports/assets/conversion.png)
+
+   * [!DNL Analytics] 报告> [!DNL Conversion]
+
+     例如：
+
+     ![Analytics Reporting >转化](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+
+   * [!DNL Analytics] 报告> [!UICONTROL Use an Analytics metric] > [!UICONTROL Maximize Visit Conversion Rate]
+
+     例如：
+
+     ![使用Analytics量度>最大访问转化率](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
+
+* 活动上线后将优化目标从收入更改为转化的活动也不受支持。
+
+* [!UICONTROL Personalization Insights] 仅当满足以下条件时，报告才可用： [!UICONTROL Primary Goal] ，则该选项为 [!UICONTROL Report Metric] 下拉列表。
+
+* [!UICONTROL Personalization Insights] 中支持报表 [默认环境](/help/main/administrating-target/hosts.md) 仅限。
+
+* [!UICONTROL Personalization Insights] 仅针对以下范围内的活动生成报表： [!UICONTROL Live] 状态，并且已激活并接收流量至少15天。
 
 ## 个性化分析报表概述 {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-“[!UICONTROL 个性化分析]”报表的目标是针对 AP 和 AT 活动背后的 Target 个性化模型如何个性化访客流量提供更多信息。此 [随机林算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) 是 [!DNL Target] 个性化模型。
+的目标 [!UICONTROL Personalization Insights] 报告旨在提供更多信息，说明 [!UICONTROL Target] AP和AT活动背后的个性化模型可将访客流量个性化。 此 [随机林算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) 是 [!DNL Target] 个性化模型。
 
-因为 [!UICONTROL 个性化分析] 报告是为了了解 [!DNL Target] 个性化模型决定向哪些访客发送哪些内容， [!UICONTROL 个性化分析] 报表仅反映AP或AT活动提供的所有流量的子区段。 具体而言，这两个报表反映了使用个性化模型的所有流量。换句话说，“[!UICONTROL 个性化分析]”报表不会考虑控制流量或整个入选者模型提供的流量。
+因为 [!UICONTROL Personalization Insights] 报告是为了了解 [!DNL Target] 个性化模型决定向哪些访客发送哪些内容， [!UICONTROL Personalization Insights] 报表仅反映AP或AT活动提供的所有流量的子区段。 具体而言，这两个报表反映了使用个性化模型的所有流量。换句话说， [!UICONTROL Personalization Insights] 报表不会考虑控制流量或整个入选者模型提供的流量。
 
-二 [!UICONTROL 个性化分析] 报告可用：
+两个 [!UICONTROL Personalization Insights] 报告可用：
 
 | 报表 | 详细信息 |
 |--- |--- |
-| [!UICONTROL 自动化区段] | 不同的访客对您的 AP/AT 活动中的选件/体验做出的响应会有所不同。此报表显示由定义的不同自动化区段 [!DNL Target] 个性化模型响应活动中的选件/体验。 |
-| [!UICONTROL 重要属性] | 在不同的活动中，不同的属性对模型如何决定进行个性化的重要性也大小不一。此报表可显示影响模型的排名靠前的属性及其相对重要性。 |
+| [!UICONTROL Automated Segments] | 不同的访客对您的 AP/AT 活动中的选件/体验做出的响应会有所不同。此报表显示由定义的不同自动化区段 [!DNL Target] 个性化模型响应活动中的选件/体验。 |
+| [!UICONTROL Important Attributes] | 在不同的活动中，不同的属性对模型如何决定进行个性化的重要性也大小不一。此报表可显示影响模型的排名靠前的属性及其相对重要性。 |
 
 ## 解释个性化分析中的属性 {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
 
-在 AP 或自动定位模型中使用的“[!UICONTROL 个性化分析]”中显示有两种类型的属性：
+中表示两种类型的属性 [!UICONTROL Personalization Insights] 在AP或自动定位模型中使用的报表：
 
-* **自动收集的属性：**[!DNL Target]Target 使用基础数据集在 AP 和 AT 活动中构建其个性化算法，这些算法将反映在个性化分析中。请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)，以了解数据类型、示例属性及其[!UICONTROL 个性化分析]命名约定。请注意，虽然考虑到了这些属性，但单个活动的模型可能不会在最终模型中使用所有这些属性。
-* **传递到Target的属性：** 参见 [为Target个性化算法上传数据](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+* **Target自动收集的属性：** [!DNL Target] 使用基本数据集在AP和AT活动中构建其个性化算法，这些算法反映在个性化分析中。 请参阅 [为Target个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md) 数据类型、示例属性及其 [!UICONTROL Personalization Insights] 命名约定。 请注意，虽然考虑了这些属性，但单个活动的模型可能不会在最终模型中使用所有这些属性。
+* **传递到Target的属性：** 请参阅 [为Target个性化算法上传数据](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
-[!DNL Target] 为您提供了许多方法，用于将其他数据传递给 ，以丰富用于在 AP 和 AT 活动中构建其个性化算法的基础数据集：[!DNL Target]
+[!DNL Target] 提供了多种将附加数据传递到的方式 [!DNL Target] 要丰富用于在AP和AT活动中构建个性化算法的基本数据集，请执行以下操作：
 
 | 数据类型 | 描述 | 数据类型命名约定 |
 |--- |--- |--- |
@@ -65,13 +84,13 @@ ht-degree: 51%
 
 ## 常见问题解答
 
-以下内容的常见问题解答列表 [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL 自动定位] [!UICONTROL 分析] 报告。
+关于的常见问题解答列表 [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL Auto-Target] [!UICONTROL Insights] 报表。
 
-### [!UICONTROL Automated Personalization] (AP) 和[!UICONTROL 自动定位]模型的数据会保留多长时间？
+### 数据会持续多长时间 [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL Auto-Target] 模型是否持续存在？
 
-[!UICONTROL Automated Personalization] (AP)和 [!UICONTROL 自动定位] 根据活动过去45天的用户行为（用户配置文件、展示事件和转化事件）对模型进行训练。
+[!UICONTROL Automated Personalization] (AP)和 [!UICONTROL Auto-Target] 根据活动过去45天的用户行为（用户个人资料、展示事件和转化事件）对模型进行训练。
 
-[!UICONTROL Automated Personalization] (AP)和 [!UICONTROL 自动定位] 模型会保留用户行为、培训记录和模型决策数据90天以生成 [!UICONTROL 分析] 报告。 90天后，将丢弃培训记录和模型决策。 [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL 自动定位] 此外，模型还会将汇总的体验/选件级别的展示和转化数据保留两年，以便进行报告。 此数据仅是聚合级别的数据，不包含任何个人级别的用户档案数据。
+[!UICONTROL Automated Personalization] (AP)和 [!UICONTROL Auto-Target] 模型会保留用户行为、培训记录和模型决策数据90天以生成 [!UICONTROL Insights] 报表。 90天后，将丢弃培训记录和模型决策。 [!UICONTROL Automated Personalization] (AP)和 [!UICONTROL Auto-Target] 此外，模型还会保留两年汇总的体验/选件级别的展示和转化数据以用于报表目的。 此数据仅是聚合级别的数据，不包含任何个人级别的用户档案数据。
 
 ## 培训视频：使用个性化分析报表 ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -81,6 +100,6 @@ ht-degree: 51%
 
 ## Adobe博客
 
-* 第1部分： [揭开AI驱动型个性化的神秘面纱](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* 第2部分： [Adobe Target人工智能个性化背后的窥视](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
-* 第3部分： [MAGIX — 解决AI驱动的个性化的“黑匣子”问题](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
+* 第1部分： [揭开AI驱动型个性化魔力的神秘面纱](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* 第2部分： [Adobe Target人工智能个性化大幕后的窥视](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* 第三部分： [MAGIX — 解决AI驱动的个性化存在的黑匣子问题](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)

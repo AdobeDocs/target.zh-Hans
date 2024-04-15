@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
+source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1228'
 ht-degree: 92%
 
 ---
@@ -247,6 +247,7 @@ ht-degree: 92%
    + [单页面应用程序 (SPA) 可视化体验编辑器](c-experiences/spa-visual-experience-composer.md)
    + 选件 {#offers}
       + [选件概述](c-experiences/c-manage-content/manage-content.md)
+      + [选件概述（测试版）](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
       + [创建选件文件夹](c-experiences/c-manage-content/create-content-folder.md)
       + [上传内容](c-experiences/c-manage-content/assets-upload.md)
       + [创建重定向选件](c-experiences/c-manage-content/offer-redirect.md)

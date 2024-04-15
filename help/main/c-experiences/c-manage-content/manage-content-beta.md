@@ -6,9 +6,9 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: 886ca4c924c83d182597d298eb4724a79a24faa2
+source-git-commit: fb6383c86503ac9a8313aed65418e9564c93aa1c
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '597'
 ht-degree: 29%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->本文包含有关Target功能的信息，该功能目前是Beta计划的一部分。 Adobe Target团队通常会为特定客户启用新功能，以便进行测试和提供反馈。 在测试期结束后，将为所有客户启用这些功能 [!DNL Target Standard/Premium] 发行版本和发行说明中宣布。
+>本文包含有关 [!DNL Target] 当前为测试版计划一部分的功能。 此 [!DNL Adobe Target] 团队经常为特定客户启用新功能以进行测试和提供反馈。 在测试期结束后，将为所有客户启用这些功能 [!DNL Target Standard/Premium] 发行版本和发行说明中宣布。
 
 1. 单击 **[!UICONTROL Offers]** 以打开库。
 

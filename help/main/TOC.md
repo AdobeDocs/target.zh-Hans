@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
+source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 92%
+source-wordcount: '1232'
+ht-degree: 91%
 
 ---
 
@@ -249,6 +249,7 @@ ht-degree: 92%
       + [选件概述](c-experiences/c-manage-content/manage-content.md)
       + [选件概述（测试版）](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
       + [创建选件文件夹](c-experiences/c-manage-content/create-content-folder.md)
+      + [创建选件文件夹测试版](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#offers} {#hidden}
       + [上传内容](c-experiences/c-manage-content/assets-upload.md)
       + [创建重定向选件](c-experiences/c-manage-content/offer-redirect.md)
       + [创建远程选件](c-experiences/c-manage-content/about-remote-offers.md)

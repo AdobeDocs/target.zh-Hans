@@ -3,10 +3,13 @@ keywords: 选件;内容;创建文件夹;资产;移动文件夹;复制文件夹;�
 description: 如何在中创建文件夹 [!UICONTROL Offers] 图书馆？
 title: 了解如何在中创建文件夹 [!UICONTROL Offers] 用于保存代码和图像选件以及其他文件夹的库。
 feature: Experiences and Offers
-source-git-commit: cd8035d9e2a369b9503763474ce09c4fe2434ae9
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
+hide: true
+hidefromtoc: true
+source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 5%
+source-wordcount: '286'
+ht-degree: 8%
 
 ---
 

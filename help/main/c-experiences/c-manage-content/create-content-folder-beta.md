@@ -6,9 +6,9 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
+source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '282'
 ht-degree: 8%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 为代码选件和图像选件创建文件夹的流程略有不同。 以下部分包含更多信息。
 
-## 代码选件文件夹
+## [!UICONTROL Code Offer] 文件夹
 
 1. 单击 **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 有关可对选件和文件夹执行的任务的信息，请参阅 [处理资产库中的内容](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-## 图像选件文件夹
+## [!UICONTROL Image Offer] 文件夹
 
 1. 单击 **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 

@@ -6,16 +6,20 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
+source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 8%
+source-wordcount: '334'
+ht-degree: 7%
 
 ---
 
 # 创建选件文件夹
 
 在中创建文件夹 [!DNL Adobe Target] [!UICONTROL Offer] 库，用于保存代码选件、图像选件以及其他文件夹以创建子文件夹结构。
+
+>[!NOTE]
+>
+>本文包含有关对的更新信息 [!DNL Target] 当前为测试版计划一部分的用户界面。 此 [!DNL Adobe Target] 团队经常为特定客户启用新功能以进行测试和提供反馈。 在测试期结束后，将为所有客户启用这些功能 [!DNL Target Standard/Premium] 发行版本和发行说明中宣布。
 
 为代码选件和图像选件创建文件夹的流程略有不同。 以下部分包含更多信息。
 

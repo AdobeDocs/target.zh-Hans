@@ -7,10 +7,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: ebce41ea70be81ea0d27abee4b760117cc6ee10c
+source-git-commit: 14e800deda4a26c02555c4a653993737f062f686
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 17%
+source-wordcount: '758'
+ht-degree: 6%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 17%
 
 ### 快速信息
 
-单击 **[!UICONTROL Quick Info]** 图标，以在弹出卡中查看有关该优惠的更多信息，包括优惠ID、类型、上次修改优惠的日期以及修改者，等等。
+单击 **[!UICONTROL Quick Info]** 图标，以在弹出卡中查看有关该优惠的更多信息，包括优惠ID、类型、上次修改优惠的日期以及修改者，等等。 可用选项取决于选件类型：HTML选件， [json选件](/help/main/c-experiences/c-manage-content/create-json-offer.md)， [重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect.md)， [远程选件](/help/main/c-experiences/c-manage-content/about-remote-offers.md).
 
 ![](/help/main/c-experiences/c-manage-content/assets/quick-actions.png)
 
@@ -100,64 +100,68 @@ ht-degree: 17%
 >
 >图像选件不属于 [企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 模型。
 
-## 查看选件定义 {#section_6B059DD121434E6292CAB393507D010E}
+<!--
 
-您可以在中的弹出卡片上查看优惠定义详细信息 [!UICONTROL Offers] 库，而不打开选件。
+## Viewing offer definitions {#section_6B059DD121434E6292CAB393507D010E}
 
-例如，通过将鼠标悬停在上的选件上，访问HTML选件的以下选件定义卡 [!UICONTROL Content] 列表，然后单击信息图标：
+You can view offer definition details on a pop-up card in the [!UICONTROL Offers] library without opening the offer.
 
-![offer-card-html图像](assets/offer-card-html.png)
+For example, the following offer definition card for an HTML offer is accessed by hovering over an offer on the [!UICONTROL Content] list, then clicking the information icon:
 
-其中提供了以下信息：
+![offer-card-html image](assets/offer-card-html.png)
 
-* 名称
-* 来源
-* 类型
-* 选件 ID
-* 选件路径
-* 上次修改时间
+The following information is available:
 
-单击 [!UICONTROL Offer Usage] 选项卡中，用于在每个选件的定义弹出卡片中查看引用代码选件的活动。 此功能不适用于图像选件。利用此功能，您可以避免在编辑选件时对其他活动造成影响。信息包括 [!UICONTROL Live Activities] 和 [!UICONTROL Inactive Activities].
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer path 
+* Last Modified
 
-![优惠卡使用情况图像](assets/offer-card-usage.png)
+Click the [!UICONTROL Offer Usage] tab to view the activities that reference a code offer in each offer's definition pop-up card. This functionality does not apply to image offers. This way you can avoid impact to other activities while editing offers. Information includes [!UICONTROL Live Activities] and [!UICONTROL Inactive Activities].
 
-下面是一个重定向选件的定义卡片：
+![offer-card-usage image](assets/offer-card-usage.png)
 
-![offer-card-redirect图像](assets/offer-card-redirect.png)
+The following offer definition card for a Redirect offer:
 
-其中提供了以下信息：
+![offer-card-redirect image](assets/offer-card-redirect.png)
 
-* 名称
-* 来源
-* 类型
-* 选件 ID
-* 选件路径
-* 上次修改时间
-* 重定向 URL
-* 包含所有URL参数（打开或关闭）
-* 传递mbox会话ID（打开或关闭）
+The following information is available:
 
-下面是一个远程选件的定义卡片：
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer Path 
+* Last Modified 
+* Redirect URL 
+* Include all URL parameters (On or Off) 
+* Pass mbox session ID (On or Off)
 
-![优惠卡远程图像](assets/offer-card-remote.png)
+The following offer definition card for a Remote offer:
 
-其中提供了以下信息：
+![offer-card-remote image](assets/offer-card-remote.png)
 
-* 名称
-* 来源
-* 类型
-* 选件 ID
-* 选件路径
-* 上次修改时间
-* 重定向 URL 类型
-* 绝对或相对 URL
+The following information is available:
 
-## 培训视频：内容存储库 ![“概述”标记](/help/main/assets/overview.png)
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer Path 
+* Last Modified 
+* Redirect URL Type 
+* Absolute or Relative URL
 
-以下视频包含有关管理选件的信息。
+## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
 
-* [Experience Cloud 资产库](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)与 Target 内容库之间的关联
-* 自定义 HTML 选件
-* 可视化体验编辑器中的自定义 HTML 选件
+This video includes information about managing offers.
+
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
+* Custom HTML Offers 
+* Custom HTML Offer in the Visual Experience Composer
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)
+
+-->

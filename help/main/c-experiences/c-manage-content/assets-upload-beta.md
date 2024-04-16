@@ -1,14 +1,14 @@
 ---
 keywords: 内容；更新内容；资产；上传内容；上传资产；删除内容
 description: 了解如何上传或删除用作图像选件的图像。
-title: 如何将内容上传或删除到选件库？
+title: 如何将内容上传或删除到 [!UICONTROL Offers] 图书馆？
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
+source-git-commit: 7a81d4f0918599480c1d50c82c09dc3a62a5bf71
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 13%
 
 ---

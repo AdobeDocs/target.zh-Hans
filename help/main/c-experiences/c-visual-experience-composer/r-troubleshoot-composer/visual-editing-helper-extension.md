@@ -4,10 +4,10 @@ description: 了解为什么某些网站可能无法在中可靠打开 [!UICONTR
 title: 如何使用 [!UICONTROL Visual Editing Helper] 扩展？
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 67%
+source-wordcount: '672'
+ht-degree: 64%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
->新的扩展取代了以前的 [Target VEC 帮助程序浏览器扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。请参阅该文章顶部的重要说明。
+>新的扩展取代了以前的 [Target VEC 帮助程序浏览器扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。请参阅该文章顶部的重要说明。 由于Manifest v3中的安全增强， [!DNL Adobe] 需要下载此新扩展才能继续在中以可视方式创作您的网站 [!DNL Target].
 
 ## 为什么某些网站可能无法在可视化体验编辑器 (VEC) 中以可靠的方式打开
 

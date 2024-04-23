@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 59%
+source-wordcount: '604'
+ht-degree: 53%
 
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 59%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!UICONTROL Visual Experience Composer] 帮助程序延期（2024年4月23日）
+
+旧版 [!DNL Target] 可视化体验编辑器助手扩展是使用清单V2创建的。 [!DNL Google] 宣布从2024年6月起，将不再允许使用清单V2创建的扩展。 有关更多信息，请参阅 [[!UICONTROL Visual Experience Composer] 帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+
+[!DNL Adobe] 建议客户迁移到较新版本 [可视化编辑帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 尽可能早。
 
 ## 更新 `Browser:iPad` 和 `Browser:iPhone` 在 [!UICONTROL Browser] 受众属性（2024年4月30日）
 

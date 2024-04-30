@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
+source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 73%
+source-wordcount: '1711'
+ht-degree: 72%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 73%
 
 | 日期 | 主题 | 更改 |
 | --- | --- | --- |
+| 4 月 30 日 | [对与相关的问题进行故障诊断 [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | 更新了用于EEC代理的Adobe服务器的IP地址列表以允许列表。 |
 | 4 月 23 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了说明Google计划开始禁用使用清单V2创建的扩展的信息。 [!DNL Adobe] 建议客户迁移至新的 [!UICONTROL Visual Editing Helper] 尽快延长。 |
 | 4 月 23 日 | [[!UICONTROL Visual Experience Composer] 帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 更新了页面顶部的重要说明，其中解释了Google开始禁用使用清单V2创建的扩展的计划，其中包括本文中记录的扩展。 [!DNL Adobe] 建议客户迁移至新的 [!UICONTROL Visual Editing Helper] 尽快延长。 |
 | 4 月 9 日 | [对与相关的问题进行故障诊断 [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 更新了以下部分：<ul><li>VEC 中不显示我的页面（仅 VEC）</li></ul>添加了以下新章节：<ul><li>中的CSS冲突导致的问题 [!UICONTROL Visual Experience Composer]</li></ul> |

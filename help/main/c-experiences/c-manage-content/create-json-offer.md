@@ -4,43 +4,43 @@ description: 了解如何在Adobe中创建JSON选件 [!DNL Target] ，以便在�
 title: 如何创建JSON选件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 45b81a2a77410947ce828cbea69e4dad7fc1cb03
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 32%
+source-wordcount: '416'
+ht-degree: 30%
 
 ---
 
 # 创建 JSON 选件
 
-在中创建JSON选件 [!UICONTROL 选件库] 在 [!DNL Adobe Target] 在中使用 [!UICONTROL 基于表单的体验编辑器].
+在中创建JSON选件 [!UICONTROL Offer Library] 在 [!DNL Adobe Target] 用于 [!UICONTROL Form-Based Experience Composer].
 
-JSON选件可用于基于表单的活动，由此在以下情况下启用用例： [!DNL Target] 需要决策才能以JSON格式发送选件，以便在SPA框架或服务器端集成中使用。
+JSON选件可用于基于表单的活动，从而在以下情况下启用用例： [!DNL Target] 要以JSON格式发送选件以在SPA框架或服务器端集成中使用，需要决策。
 
 ## JSON注意事项
 
 使用 JSON 选件时，请考虑以下信息：
 
-* JSON选件当前仅适用于 [!UICONTROL A/B测试]、Automated Personalization (AP)和 [!UICONTROL 体验定位] (XT)活动。
-* JSON选件可用于 [基于表单的活动](/help/main/c-experiences/form-experience-composer.md) 仅此而已。
+* JSON选件当前仅适用于 [!UICONTROL A/B Test]、Automated Personalization (AP)和 [!UICONTROL Experience Targeting] (XT)活动。
+* JSON选件可用于 [基于表单的活动](/help/main/c-experiences/form-experience-composer.md) 仅限。
 * 使用时，可以直接检索JSON选件 [服务器端API和移动节点.js、Java、.NET和Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
-* 在浏览器中，只能通过at.js 1.2.3（或更高版本）并使用以下方式检索JSON选件 [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} 通过使用 `setJson` 操作。
+* 在浏览器中，只能通过at.js 1.2.3（或更高版本）并使用以下代码检索JSON选件 [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} 通过使用 `setJson` 操作。
 * JSON 选件可作为原生 JSON 对象而不是字符串来交付。这些对象的用户不必再将对象作为字符串处理后再将其转换为 JSON 对象。
-* 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。开发人员必须编写相应代码，以便使用 [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
+* 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。开发人员必须编写代码以明确使用以下方式获取选件 [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
 
 ## 创建JSON选件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. 单击 **[!UICONTROL 选件]** > **[!UICONTROL 代码选件]**.
+1. 单击 **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
    ![“选件”>“代码选件”选项卡](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
-1. 单击&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL JSON 选件]**。
+1. 单击 **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
 
    ![offer-json图像](assets/offer-json.png)
 
 1. 键入选件名称。
-1. 在&#x200B;**[!UICONTROL 代码]**&#x200B;框中键入或粘贴您的 JSON 代码。
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 在中，键入或粘贴您的JSON代码 **[!UICONTROL Code]** 盒子。
+1. 单击 **[!UICONTROL Save]**。
 
 ## JSON示例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -98,7 +98,7 @@ adobe.target.getOffer({
     "tags": [ 
       "esse", 
       "commodo", 
-      "excepteur", 
+      "excepteur"
     ], 
     "friends": [ 
       { 
@@ -108,7 +108,7 @@ adobe.target.getOffer({
       { 
         "id": 1, 
         "name": "Ollie Mooney" 
-      }, 
+      } 
     ], 
     "greeting": "Hello, Stephenson Fernandez! You have 4 unread messages.", 
     "favoriteFruit": "strawberry" 
@@ -135,10 +135,10 @@ adobe.target.getOffer({
 
 Real-time CDP配置文件属性可与共享 [!DNL Target] 用于HTML和JSON选件。
 
-有关更多信息，请参阅 [与共享Real-time CDP配置文件属性 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
+有关更多信息，请参阅 [共享实时CDP配置文件属性 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
-## 按JSON选件类型筛选选件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
+## 按JSON选件类型过滤选件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-您可以筛选 [!UICONTROL 选件] 库，方法是单击 **[!UICONTROL 类型]** 下拉列表，然后通过选择 **[!UICONTROL JSON]** 复选框。
+您可以筛选 [!UICONTROL Offers] 库，方法是单击 **[!UICONTROL Type]** 下拉列表，然后通过选择 **[!UICONTROL JSON]** 复选框。
 
 ![offer-json-filter图像](assets/offer-json-filter.png)

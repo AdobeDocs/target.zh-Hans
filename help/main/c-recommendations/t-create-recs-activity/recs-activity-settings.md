@@ -1,24 +1,24 @@
 ---
 keywords: 推荐;设置;名称;目标;优先级;持续时间;报表设置;其他元数据
-description: 了解如何配置用于描述和控制Adobe Target中Recommendations活动的设置。
+description: 了解如何配置用于描述和控制Adobe Target中的Recommendations活动的设置。
 title: 如何配置Recommendations活动设置？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 84%
+source-wordcount: '581'
+ht-degree: 48%
 
 ---
 
 # “推荐”活动设置
 
-有关可用于描述和控制的设置的信息 [!UICONTROL Recommendations] 中的活动 [!DNL Adobe Target].
+有关可用于描述和控制 [!UICONTROL Recommendations] 中的活动 [!DNL Adobe Target].
 
 ![“推荐”活动目标和设置页面](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
-以下部分介绍了[!UICONTROL 推荐]活动的可用设置。
+以下部分介绍了的可用设置 [!UICONTROL Recommendations] 活动。
 
 ## 名称
 
@@ -35,7 +35,7 @@ ht-degree: 84%
 `-`
 `@`
 
-如果您指定的[!UICONTROL 推荐]活动名称已被 [!UICONTROL Recommendations Classic] 中的其他活动使用，则会使用新名称重新同步新活动。新名称是在原始名称后附加一个时间戳，以使其具有唯一性。此新名称会同时显示在两个中 [!DNL Target Standard/Premium] 和 [!UICONTROL Recommendations Classic].
+如果您指定 [!UICONTROL Recommendations] 中已存在另一个活动的活动名称 [!UICONTROL Recommendations Classic]，则会使用新名称重新同步新活动。 新名称是在原始名称后附加一个时间戳，以使其具有唯一性。此新名称会同时显示在 [!DNL Target Standard/Premium] 和 [!UICONTROL Recommendations Classic] 中。
 
 ## 目标
 
@@ -55,7 +55,24 @@ ht-degree: 84%
 
 ## 报表设置
 
-* **报表源：** 选择报表源： [!DNL Adobe Target] 或 [分析](/help/main/c-integrating-target-with-mac/a4t/a4t.md). 活动开始后，请勿更改报表源。在活动开始后更改报表源会导致报表不一致。
+* **报表源：** 指定从以下来源收集解决方案数据：
+
+   * [!DNL Adobe Target]
+   * [!DNL Adobe Analytics]
+   * [!DNL Adobe Customer Journey Analytics]
+
+  如果您在中指定了报表解决方案，则 [帐户设置](/help/main/administrating-target/reporting.md)，则使用指定的解决方案，并且此设置不可见。
+
+  在活动启动后，为保持报表一致，您不能更改报表源。
+
+  **[!DNL Adobe Analytics]**：请参阅 [[!DNL Adobe Analytics] 作为的报表源 [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 了解报表解决方案之间的差异和各自的优势。
+
+  选择时 [!DNL Analytics] 作为的报表源 [!DNL Target] (A4T)，则选择 [!DNL Analytics] 要接收的报表包 [!DNL Target] 活动数据。 要执行此操作，请先从任一 [!DNL Analytics] 您的帐户绑定的公司，然后为活动选择适当的报表包。 仅限配置为连接到的报表包 [!DNL Target] 可供选择。 如果您没有看到预期的报表包，请先尝试注销并重新登录到 [!DNL Adobe Experience Cloud] 再试一次。 如果列表中仍缺少报表包，请联系 [客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+
+  [!DNL Analytics for Target] (A4T)需要跟踪服务器才能正确报告结果。 默认跟踪服务器显示在 [!UICONTROL Tracking Server] 字段。 如果使用多个跟踪服务器，请确保在此字段中包含正确的跟踪服务器。 请参阅 [使用Analytics跟踪服务器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) 以了解更多信息。
+
+  **[!DNL Adobe Customer Journey Analytics]**：请参阅 [[!DNL Target] 报告 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) 有关集成的详细信息，请参阅 [!DNL Adobe Customer Journey Analytics] 和 [!DNL Target].
+
 * **目标量度：**&#x200B;选择用于确定活动是否成功的成功量度。
 * **其他量度：**&#x200B;配置要在报表中使用的其他成功量度。
 * **报表的受众：**&#x200B;定义可在筛选报表时使用的受众。

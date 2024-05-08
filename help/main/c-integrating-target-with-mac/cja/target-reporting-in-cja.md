@@ -3,14 +3,11 @@ keywords: customer journey analytics；customer journey analytics for target；c
 description: 使用 [!DNL Target] 报告 [!DNL Adobe Customer Journey Analytics] 创建活动依据 [!DNL Customer Journey Analytics] 转化量度和受众区段及其用法 [!DNL Customer Journey Analytics] 报告以检查结果。
 title: 什么是 [!DNL Target] 报告 [!DNL Adobe Customer Journey Analytics]？
 feature: Integrations
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
-hide: true
-hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 8475365099315f3f8f2a47bfca9dd9f245b16720
+source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 58%
+source-wordcount: '1005'
+ht-degree: 57%
 
 ---
 

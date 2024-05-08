@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
+source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 90%
@@ -89,7 +89,7 @@ ht-degree: 90%
          + [共享量度、受众和报表 - A4T 常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [旧版 SiteCatalyst 与 Test&amp;Target 集成 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [使用和不使用 A4T 时，Target 和 Analytics 之间的预期数据差异](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + 将Target与Adobe Customer Journey Analytics集成 {#cja} {#hidden}
+   + 将Target与Adobe Customer Journey Analytics集成 {#cja}
       + [Adobe Customer Journey Analytics中的Target报表](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + 将Target与Adobe Journey Optimizer (AJO)集成 {#ajo}
       + [使用选件决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)

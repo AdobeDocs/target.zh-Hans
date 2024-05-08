@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: f11f65a9dc88acca53c34cb2a151dffb390cfee7
+source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 91%
+source-wordcount: '1250'
+ht-degree: 90%
 
 ---
 
@@ -257,7 +257,9 @@ ht-degree: 91%
       + [创建远程选件](c-experiences/c-manage-content/about-remote-offers.md)
       + [创建远程选件（测试版）](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
       + [创建 JSON 选件](c-experiences/c-manage-content/create-json-offer.md)
+      + [创建JSON选件测试版](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md) {#json} {#hidden}
       + [处理库中的内容](c-experiences/c-manage-content/assets-working.md)
+      + [使用测试版库中的内容](/help/main/c-experiences/c-manage-content/assets-working-beta) {#working} {#hidden}
       + [搜索内容](c-experiences/c-manage-content/filter-and-search-content.md)
       + [将动态数据传递给选件](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM体验和内容片段](c-experiences/c-manage-content/aem-experience-fragments.md)

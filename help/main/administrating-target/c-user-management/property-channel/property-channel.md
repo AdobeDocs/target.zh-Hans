@@ -6,30 +6,30 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
+source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '3235'
-ht-degree: 55%
+source-wordcount: '3172'
+ht-degree: 48%
 
 ---
 
 # 企业用户权限
 
-企业用户权限 是一种正式管理整个企业中用户访问的方法 [!DNL Adobe Target]. 将用户添加到 [!DNL Target]，根据其角色分配权限，并根据不同的部门、全球位置、渠道和其他逻辑分组为团队创建工作区。 您可以为用户分配以下角色 [!UICONTROL 观察者]， [!UICONTROL 编辑者]， [!UICONTROL 审批者]，或 [!UICONTROL 发布者].
+企业用户权限是一种正式管理整个企业范围内用户访问权限的方法 [!DNL Adobe Target]. 将用户添加到 [!DNL Target]，根据其角色分配权限，并根据不同的部门、全球位置、渠道和其他逻辑分组为团队创建工作区。 您可以为用户分配以下角色 [!UICONTROL Observer]， [!UICONTROL Editor]， [!UICONTROL Approver]，或 [!UICONTROL Publisher].
 
 ## 确定您是否有权访问企业用户权限
 
 >[!NOTE]
 >
->[!UICONTROL 属性和权限]功能作为 [!DNL Target] Premium 解决方案的一部分提供。如果没有 [!DNL Target] Premium 许可证，它们将无法在 [!DNL Target] Standard 中使用。
+>[!UICONTROL Properties and Permissions] 功能作为的一部分提供 [!DNL Target] 高级解决方案。 如果没有 [!DNL Target] Premium 许可证，它们将无法在 [!DNL Target] Standard 中使用。
 >
 >您的 [!DNL Target] 实施可以使用任何版本的at.js，或者 [!DNL Adobe Experience Platform Web SDK].
 
-您可以在 [!DNL Target] UI 的顶部单击[!UICONTROL 管理]链接，确定组织使用的是 Standard 还是 Premium 许可。
+您可以通过单击 [!UICONTROL Administration] 顶部链接 [!DNL Target] UI。
 
-* **[!DNL Target Standard]客户**：如果您看到[!UICONTROL 用户]选项卡（[!UICONTROL 管理 > 用户]）（而不是[!UICONTROL 属性]选项卡），则组织具有 [!DNL Target Standard] 许可。[!DNL Target Standard] 客户应按照中的相关说明进行操作 [用户](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) 在中添加用户和分配权限 [!DNL Adobe Admin Console].
+* **[!DNL Target Standard]客户**：如果您看到 [!UICONTROL Users] 选项卡([!UICONTROL Administration > Users])(而非 [!UICONTROL Properties] 选项卡)，您的组织具有 [!DNL Target Standard] 许可证。 [!DNL Target Standard] 客户应按照中的相关说明进行操作 [用户](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) 在中添加用户和分配权限 [!DNL Adobe Admin Console].
 
-* **[!DNL Target Premium]客户**：如果您看到 [!UICONTROL 属性] 选项卡([!UICONTROL 管理>属性])和 [!UICONTROL 用户] 选项卡，您的组织具有 [!DNL Target Premium] 许可证。 [!DNL Target Premium] 客户应按照本文章和[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)中的相关说明进行操作。
+* **[!DNL Target Premium]客户**：如果您看到 [!UICONTROL Properties] 选项卡([!UICONTROL Administration > Properties])和 [!UICONTROL Users] 选项卡，您的组织具有 [!DNL Target Premium] 许可证。 [!DNL Target Premium] 客户应按照本文章和[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)中的相关说明进行操作。
 
 ## 开始使用企业权限之前
 
@@ -51,11 +51,11 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 属性属于特定渠道（Web、移动设备、电子邮件或 API/其他）。
 
-### 工作区（产品配置文件）
+### 工作区（产品配置文件） {#workspace}
 
 工作区允许组织为一组特定用户分配一组特定属性。工作区在许多方面与 [!DNL Adobe Analytics] 中的报表包相似。
 
-注意：工作区称为 [!UICONTROL 产品配置文件] 在 [!DNL Adobe Admin Console for Enterprise].
+注意：工作区称为 [!UICONTROL Product Profiles] 在 [!DNL Adobe Admin Console for Enterprise].
 
 如果您所在的组织是跨国组织，则您可能拥有两个工作区：一个用于欧洲网页、属性或网站，而另一个用于美国网页、属性或网站。如果您所在的组织拥有多个品牌，则您的每个品牌可能有其独立的工作区。
 
@@ -85,32 +85,32 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 ### 角色和权限 {#roles-permissions}
 
-角色和权限决定了用户在 [!DNL Target] 实施中创建和管理活动所需的访问权限级别。在 [!DNL Target] 中，角色包括：
+角色和权限决定了用户在中创建和管理活动所需的访问级别。 [!DNL Target] 实现。 在 [!DNL Target]，角色包括：
 
 | 角色 | 描述 |
 |--- |--- |
-| [!UICONTROL 审批者] | 可以创建、编辑，以及激活或停止活动。 |
-| [!UICONTROL 编辑者] | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
-| [!UICONTROL 观察者] | 可以查看活动，但不能创建或编辑活动。 |
-| [!UICONTROL 发布者] | 类似于 [!UICONTROL 观察者] 角色（可以查看活动，但不能创建或编辑活动）。 但是，[!UICONTROL 发布者]角色另有激活活动的权限。 |
+| [!UICONTROL Approver] | 可以创建、编辑，以及激活或停止活动。 |
+| [!UICONTROL Editor] | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
+| [!UICONTROL Observer] | 可以查看活动，但不能创建或编辑活动。 |
+| [!UICONTROL Publisher] | 类似于 [!UICONTROL Observer] 角色（可以查看活动，但不能创建或编辑活动）。 但是， [!UICONTROL Publisher] 角色具有激活活动的附加权限。 |
 
 ### 渠道
 
-渠道是指用于传递 [!DNL Target] 活动的内容类型：网页、移动设备应用程序、电子邮件等。
+渠道是指的内容类型，其中 [!DNL Target] 交付活动：网页、移动设备应用程序、电子邮件消息等。
 
 创建活动时，会在当前选定的工作区中创建该活动。 在第一个对话框中，您会看到渠道选择选项，从中可为活动选择所需的渠道：Web、移动设备应用程序、电子邮件或其他/API。
 
 ## 权限概述 {#section_DC2172520DA84605B218A5E9FB6D187A}
 
-以下信息说明了先前在 [!DNL Target] 中强制执行权限的方式，以及如何使用“[!UICONTROL 属性]”和“[!UICONTROL 权限]”功能强制执行这些权限。
+以下信息说明了先前在中强制执行权限的方式 [!DNL Target] 以及如何使用 [!UICONTROL Properties] 和 [!UICONTROL Permissions] 功能。
 
-新 [!UICONTROL 权限] 利用功能，可创建不同的项目（在中称为“产品配置文件”） [!DNL Adobe Admin Console for Enterprise])。 通过项目，可为单个用户分配不同的权限，而这些权限规定该用户对于每个项目的访问权限。 这些不同的项目好比 [!DNL Adobe Analytics] 中各个报表包的工作方式。每个项目都可以拥有其特定用户，而这些用户可以具有适用于一组属性的特定角色。结果是客户能够根据区域、环境（开发/暂存/生产）、渠道或其他自定义标准限制其用户的查看、编辑和审批访问权限，如下所示：
+新 [!UICONTROL Permissions] 利用功能，可创建不同的项目（在中称为“产品配置文件”） [!DNL Adobe Admin Console for Enterprise])。 通过项目，可为单个用户分配不同的权限，而这些权限规定该用户对于每个项目的访问权限。 这些不同的项目好比 [!DNL Adobe Analytics] 中各个报表包的工作方式。每个项目都可以拥有其特定用户，而这些用户可以具有适用于一组属性的特定角色。结果是客户能够根据区域、环境（开发/暂存/生产）、渠道或其他自定义标准限制其用户的查看、编辑和审批访问权限，如下所示：
 
 ![权限图像](assets/permissions.png)
 
 例如，某一位特定用户可能在美国网站上具有“批准”访问权限，但在欧洲移动设备应用程序上仅具有“查看”访问权限。该用户可能无法访问甚至无法查看亚太地区的 Web 和移动设备属性上提供的活动。
 
-此 [!DNL Target] [!UICONTROL 权限] 模型具有以下权限角色（观察者、编辑者、审批者和观察者）。 观察者角色未显示在本文中的插图中。
+此 [!DNL Target] [!UICONTROL Permissions] 模型具有以下权限角色（观察者、编辑者、审批者和观察者）。 观察者角色未显示在本文中的插图中。
 
 ![permissions_1图像](assets/permissions_1.png)
 
@@ -127,7 +127,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 ![permissions_2图像](assets/permissions_2.png)
 
-新的 [!DNL Target][!UICONTROL “权限]”模型具有相同的三种权限角色（观察者、编辑者和审批者）；但是，您可以为各个页面、属性或网站分别分配用户的权限角色，如下所示：
+新 [!DNL Target] [!UICONTROL Permissions] 模型具有相同的三个权限角色（观察者、编辑者和审批者）；但是，您可以为各个页面、属性或网站单独分配用户的权限角色，如下所示：
 
 ![permissions_3图像](assets/permissions_3.png)
 
@@ -179,7 +179,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 * **Ernie**：Ernie 是组织的营销经理，负责客户产品领域的市场营销。
 
-  由于Ernie是组织的新人，并且没有使用Target的经验，因此他具有消费者网站的编辑者权限。 拥有编辑器权限的Ernie可以在活动上线之前创建和编辑活动。他无法批准活动的启动 — 对于具有“消费者网站”的批准权限（在此场景中不是Jan）的用户，必须先批准该活动，然后才能将其投入生产。
+  由于Ernie是组织的新人，并且没有使用Target的经验，因此他具有消费者网站的编辑者权限。 拥有编辑器权限的Ernie可以在活动上线之前创建和编辑活动。 他无法批准活动的启动 — 对于具有“消费者网站”的批准权限（在此场景中不是Jan）的用户，必须先批准该活动，然后才能将其投入生产。
 
   因为 Ernie 不具有允许他查看医院网站的角色，所以他无法查看该网站的活动。
 
@@ -189,7 +189,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 您可以在 [!DNL Target] UI 中的各个位置看到新的权限功能。
 
-* **“工作区”（“产品配置文件”）下拉列表：**“工作区”下拉列表显示在“[!UICONTROL 活动]”、“[!UICONTROL 受众]”和“[!UICONTROL 选件]”页面的顶部。选择所需的工作区对列表进行筛选，可以只显示所选工作区中的项目。
+* **工作区（产品配置文件）下拉列表：** “工作区”下拉列表显示在 [!UICONTROL Activities]， [!UICONTROL Audiences]、和 [!UICONTROL Offers] 页数。 选择所需的工作区对列表进行筛选，可以只显示所选工作区中的项目。
 
   ![workspace_drop下拉图像](assets/workspace_drop-down.png)
 
@@ -198,9 +198,9 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
   ![channel_options图像](assets/channel_options.png)
 
 * **受众创建：** 创建受众时，会在当前选定的工作区中创建该受众。
-* **受众列表：** 您可以使用在工作区之间移动受众 [!UICONTROL 更多操作] > [!DNL Move] 上的选项 [!UICONTROL 受众] 页面。
+* **受众列表：** 您可以使用在工作区之间移动受众 [!UICONTROL More Actions] > [!DNL Move] 上的选项 [!UICONTROL Audiences] 页面。
 * **选件创建：** 创建选件时，会在当前选定的工作区中创建该选件。
-* **“属性”页（“管理”>“属性”）：** 您可以使用 [!UICONTROL Search] 框以搜索 [!UICONTROL 属性] 列表。
+* **“属性”页（“管理”>“属性”）：** 您可以使用 [!UICONTROL Search] 框以搜索 [!UICONTROL Property] 列表。
 
   ![properties_list图像](assets/properties_list.png)
 
@@ -212,11 +212,11 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 * 在使用“我的所有工作区”视图时：
 
    * 您可以查看您拥有适当角色和访问权限的所有工作区的活动、受众和选件。
-   * 当您选择 [!UICONTROL 我的所有工作区] 视图，则会在“活动”、“受众”和“选件”页面中添加新列。 此列列出项目的工作区以及与该项目关联的用户权限（观察者、编辑者或审批者），
+   * 当您选择 [!UICONTROL All My Workspaces] 视图，则会在“活动”、“受众”和“选件”页面中添加新列。 此列列出项目的工作区以及与该项目关联的用户权限（观察者、编辑者或审批者），
    * 在“我的所有工作区”视图中创建活动、受众或选件时，必须选择要在其中创建项目的工作区。只能选择您拥有编辑者或审批者权限的工作区。
    * 在“我的所有工作区”视图中复制活动、受众或选件时，必须选择要在其中复制项目的工作区。只能选择您拥有编辑者或审批者权限的工作区。
 
-* 以下内容上的任何设置 [!UICONTROL 管理] 页面可由任何 [!UICONTROL 审批者] 在任何工作区中：
+* 以下内容上的任何设置 [!UICONTROL Administration] 页面可由任何 [!UICONTROL Approver] 在任何工作区中：
 
    * 可视化体验编辑器
    * 报表
@@ -246,7 +246,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
    * 图像选件（存储在以下位置的资产） `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` 当前无法受企业权限模型控制。
    * 当目标链接或目标页面是包含在活动中的属性的一部分时，clickTracking和重定向会起作用。 此外，使用时，clickTracking可能无法正常工作 `targetPageParams()` 函数。 `targetPageParamsAll()` 是推荐的函数。
 
-  [!DNL Target]目前， 要求执行跟踪的任何页面上都具有 `at_property` 令牌。如果令牌：(1)不存在，(2)在进行活动设置（在VEC内）时未被检测到，或者(3)未通过 `targetPageParamsAll()` 函数中，指标不递增，且显示为“0”。
+  [!DNL Target] 当前需要 `at_property` 令牌，该令牌会出现在执行跟踪的任何页面上。 如果令牌：(1)不存在，(2)在进行活动设置（在VEC内）时未被检测到，或者(3)未通过 `targetPageParamsAll()` 函数中，指标不递增，且显示为“0”。
 
   这同样适用于使用重定向的活动。目标页面必须具有 `at_property` 令牌，并可在 VEC 内进行设置时被识别。
 
@@ -258,9 +258,9 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 关于企业权限的常见问题解答包含以下内容：
 
-### 如果用户具有多个角色和权限会怎样？[#multiple-roles]
+### 如果用户拥有多个角色和权限，会发生什么情况？ [#multiple-roles]
 
-如果用户拥有多个角色和权限，则应用具有层级权限的角色。 例如，如果用户拥有 [!UICONTROL 观察者] 和 [!UICONTROL 审批者] 角色， [!UICONTROL 审批者] 角色已应用。
+如果用户拥有多个角色和权限，则应用具有层级权限的角色。 例如，如果用户拥有 [!UICONTROL Observer] 和 [!UICONTROL Approver] 角色， [!UICONTROL Approver] 角色已应用。
 
 ### 我是否可以将活动从一个工作区移动到另一个工作区？
 
@@ -270,13 +270,13 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 ### 我是否可以将受众从一个工作区移动到另一个工作区？ {#move-audience}
 
-可以，您可以使用在工作区之间移动受众 [!UICONTROL 更多操作] 上的选项 [!UICONTROL 受众] 页面。
+可以，您可以使用在工作区之间移动受众 [!UICONTROL More Actions] 上的选项 [!UICONTROL Audiences] 页面。
 
-1. 单击 **[!UICONTROL 更多操作]** 按钮（三个省略号），然后单击 **[!UICONTROL 移动]**.
+1. 单击 **[!UICONTROL More Actions]** 按钮（三个省略号），然后单击 **[!UICONTROL Move]**.
 
    ![更多操作>移动](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
 
-1. 从中选择所需的工作区 **[!UICONTROL 工作区]** 下拉列表，然后单击 **[!UICONTROL 移动]**.
+1. 从中选择所需的工作区 **[!UICONTROL Workspace]** 下拉列表，然后单击 **[!UICONTROL Move]**.
 
    ![选择要移至新工作区的所需受众](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
 
@@ -327,6 +327,6 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 >[!NOTE]
 >
->[!DNL Target][!UICONTROL 管理] 菜单 UI（以前的[!UICONTROL 设置]）经过重新设计，以提供更好的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。以下视频中的信息正确；但是，选项可能位于不同的位置。
+>此 [!DNL Target] [!UICONTROL Administration] 菜单UI(以前称为 [!UICONTROL Setup])经过重新设计，以提供更好的性能、缩短发布新功能时所需的维护时间并改善整个产品的用户体验。 以下视频中的信息正确；但是，选项可能位于不同的位置。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)

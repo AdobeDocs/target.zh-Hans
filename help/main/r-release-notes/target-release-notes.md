@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
+source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 75%
+source-wordcount: '285'
+ht-degree: 77%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新时间： 2024年2月28日**
+**上次更新日期： 2024年5月8日**
 
 >[!NOTE]
 >
@@ -23,20 +23,17 @@ ht-degree: 75%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target] Standard/Premium 24.3.1（2024年3月4日至6日）
+## [!DNL Target] 报告 [!DNL Adobe Customer Journey Analytics] （2024年5月8日）
 
-此版本计划在接下来的几天发布：
+之间的集成 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} 和 [!DNL Target] 为您的优化项目提供功能强大的分析和省时的工具。
 
-* **3 月 4 日**：欧洲、中东和非洲 (EMEA) 地区
-* **3 月 5 日**：亚太 (APAC) 地区
-* **3 月 6 日**：美洲地区
+将 [!DNL Customer Journey Analytics] 用作 [!DNL Target] 的报告源主要有以下好处：
 
-此版本包含以下增强和修复：
+* 营销人员可以随时将 [!DNL Customer Journey Analytics] 成功量度动态应用到 [!DNL Target] 活动报表。在运行活动之前什么都不需要指定。
+* 营销人员可以利用 [!DNL Customer Journey Analytics] 功能，例如 [“试验”面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}，以进一步分析其网站个性化。
+* 营销人员可以拥有针对以下项的单个报表源： [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} 和 [!DNL Target]. 可将这两种个性化产品都连接到 [!DNL Customer Journey Analytics] 以更全面地了解您的 Web 个性化情况。
 
-* 修复了计算活动中唯一选择器数量的逻辑。 (TGT-47878)
-* 修复了导致错误的问题 [!UICONTROL 多变量] (MVT)活动配置有 [!UICONTROL 目标分析] (A4T)报表无法正确显示。 (TGT-47490)
-* 改进了在将无流量的体验用作控制体验时报表中显示的警告消息。 (TGT-47537)
-* 添加了许多后端和本地化修复。
+有关更多信息，请参阅 [Adobe Customer Journey Analytics中的Target报表](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
 ## 其他发行说明和版本详细信息
 

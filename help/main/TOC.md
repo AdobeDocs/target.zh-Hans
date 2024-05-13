@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1252'
 ht-degree: 90%
 
 ---
@@ -247,19 +247,19 @@ ht-degree: 90%
    + [单页面应用程序 (SPA) 可视化体验编辑器](c-experiences/spa-visual-experience-composer.md)
    + 选件 {#offers}
       + [选件概述](c-experiences/c-manage-content/manage-content.md)
-      + [选件概述（测试版）](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
+      + [选件概述（测试版）](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [创建选件文件夹](c-experiences/c-manage-content/create-content-folder.md)
-      + [创建选件文件夹测试版](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
+      + [创建选件文件夹测试版](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [上传内容](c-experiences/c-manage-content/assets-upload.md)
-      + [上传或删除图像选件](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
+      + [上传或删除测试版图像选件](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [创建重定向选件](c-experiences/c-manage-content/offer-redirect.md)
-      + [创建重定向选件](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
+      + [创建重定向选件测试版](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [创建远程选件](c-experiences/c-manage-content/about-remote-offers.md)
-      + [创建远程选件（测试版）](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
+      + [创建远程选件（测试版）](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [创建 JSON 选件](c-experiences/c-manage-content/create-json-offer.md)
-      + [创建JSON选件测试版](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md) {#json} {#hidden}
+      + [创建JSON选件测试版](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [处理库中的内容](c-experiences/c-manage-content/assets-working.md)
-      + [使用测试版库中的内容](/help/main/c-experiences/c-manage-content/assets-working-beta) {#working} {#hidden}
+      + [使用测试版库中的内容](/help/main/c-experiences/c-manage-content/assets-working-beta)
       + [搜索内容](c-experiences/c-manage-content/filter-and-search-content.md)
       + [将动态数据传递给选件](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM体验和内容片段](c-experiences/c-manage-content/aem-experience-fragments.md)

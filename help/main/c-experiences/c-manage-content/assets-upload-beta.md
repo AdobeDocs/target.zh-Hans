@@ -6,7 +6,8 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
-source-git-commit: 7a81d4f0918599480c1d50c82c09dc3a62a5bf71
+exl-id: f509ff00-ed0e-4836-826d-f6cb122d8867
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 13%
@@ -15,7 +16,7 @@ ht-degree: 13%
 
 # 上传或删除图像选件
 
-您可以将图像上传到 [!UICONTROL Image Offers] 列表位置 [!DNL Adobe Target] 以用作活动中的图像选件。 您也可以删除活动中不再需要的图像选件。
+您可以将图像上传到 [!UICONTROL Image Offers] 页面位置 [!DNL Adobe Target] 以用作活动中的图像选件。 您也可以删除活动中不再需要的图像选件。
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ ht-degree: 13%
 
 1. 单击 **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![选件>图像选件](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
+   ![选件>图像选件](/help/main/c-experiences/c-manage-content/assets/image-offers-new.png)
 
 1. 单击 **[!UICONTROL Create]** > **[!UICONTROL Files]**.
 1. 浏览并选择要添加的项目，然后单击 **[!UICONTROL Open]**.

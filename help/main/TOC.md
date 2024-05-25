@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: c6393642a8170e1f2ef207eb0daf972e380f79b5
+source-git-commit: 3f4c744b9f6bb91f55616138901c20961a72629e
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 90%
@@ -64,7 +64,7 @@ ht-degree: 90%
          + [企业用户权限](administrating-target/c-user-management/property-channel/property-channel.md)
          + [配置企业权限](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [授予 Adobe I/O 集成访问工作区的权限并分配角色](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [推荐](/help/main/administrating-target/reommendations-settings.md)
+   + [推荐](/help/main/administrating-target/recommendations-settings.md)
 + 实施 Target {#implement-target}
    + [实施 Target 概述](c-implementing-target/implementing-target.md)
 + 将 Target 与 Experience Cloud 集成 {#integrate}

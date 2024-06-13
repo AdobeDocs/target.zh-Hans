@@ -2,13 +2,15 @@
 keywords: 推荐；实施推荐；客户端代码；身份验证令牌；垂直行业；筛选不兼容模式；默认主机组；缩览图基本；生成身份验证令牌；身份验证令牌；
 description: 了解如何配置设置 [!DNL Adobe Target Recommendations].
 title: 如何配置Recommendations的设置？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Administration & Configuration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3f4c744b9f6bb91f55616138901c20961a72629e
+exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
+source-git-commit: f29f9b5c234dc629d104afaccdf50010dc825ea1
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---

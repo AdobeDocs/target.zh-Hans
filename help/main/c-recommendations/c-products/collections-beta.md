@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
+source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 29%
@@ -83,7 +83,7 @@ ht-degree: 29%
 
 ![悬停图标：编辑、复制和删除](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
 
-您可以复制现有收藏集以创建重复的收藏集，然后对其进行修改。 这样，您就可以用更少的工作量创建类似的排除项。
+您可以复制现有收藏集以创建重复的收藏集，然后对其进行修改。 这样，您就可以用更少的工作量创建类似的收藏集。
 
 请注意，收藏集可在整个帐户中使用。 确保在删除收藏集之前考虑这一点。 无法恢复已删除的收藏集。
 

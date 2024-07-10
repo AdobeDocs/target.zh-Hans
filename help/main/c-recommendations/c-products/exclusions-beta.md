@@ -5,10 +5,10 @@ title: 如何在中使用排除项 [!UICONTROL Recommendations] 活动？
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
+source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 26%
+source-wordcount: '513'
+ht-degree: 18%
 
 ---
 
@@ -56,17 +56,17 @@ ht-degree: 26%
 
 1. 单击 **[!UICONTROL Create]**。
 
-## 使用高级搜索创建排除项
+<!-- ## Create an exclusion using Advanced Search
 
-您还可以使用以下方式创建排除项 [!UICONTROL Advanced Search] 在 [目录搜索](/help/main/c-recommendations/c-products/catalog-search.md#save-as) 页面( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search])。
+You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
-![“另存为”对话框](/help/main/c-recommendations/c-products/assets/save-as.png)
+![Save as dialog](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-例如，在使用“ID”>“包含”创建搜索后，您可以单击 [!UICONTROL Save As] > [!UICONTROL Exclusion].
+After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Exclusion].
 
 >[!IMPORTANT]
 >
->此 [!UICONTROL Advanced Search] 功能不区分大小写；但是，在交付时返回的产品基于区分大小写的搜索。 这种不匹配可能会导致产生混淆。因此，在基于使用“高级搜索”功能搜索到的结果创建排除项时，请务必考虑大小写问题。例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个排除项，以用于排除包含“holiday”的产品，则只会排除包含“holiday”的产品，而不会排除包含“Holiday”的产品。
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded. -->
 
 ## 编辑、复制或删除排除项
 

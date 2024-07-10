@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
+source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 29%
+source-wordcount: '707'
+ht-degree: 26%
 
 ---
 
@@ -65,17 +65,17 @@ ht-degree: 29%
 
 1. 单击 **[!UICONTROL Create]**。
 
-## 使用以下方式创建收藏集 [!UICONTROL Advanced Search]
+<!-- ## Create a collection using [!UICONTROL Advanced Search]
 
-您还可以使用以下方式创建收藏集 [!UICONTROL Advanced Search] 在 [目录搜索](/help/main/c-recommendations/c-products/catalog-search.md#save-as) 页面([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search])。
+You can also create collections using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
-![“另存为”对话框](/help/main/c-recommendations/c-products/assets/save-as.png)
+![Save as dialog](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-例如，在使用“ID”>“包含”创建搜索后，您可以单击 [!UICONTROL Save As] > [!UICONTROL Collection].
+After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Collection].
 
 >[!IMPORTANT]
 >
->此 [!UICONTROL Advanced Search] 功能不区分大小写；但是，在交付时返回的产品基于区分大小写的搜索。 这种不匹配可能会导致产生混淆。在使用根据结果创建集合时，请确保考虑区分大小写 [!UICONTROL Advanced Search] 功能。 例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个目录，以用于返回包含“holiday”的产品，则只会返回包含“holiday”的产品，而不会返回包含“Holiday”的产品。
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. -->
 
 ## 编辑、复制或删除收藏集
 
@@ -100,12 +100,3 @@ ht-degree: 29%
 1. （视情况而定）要更改现有收藏集设置，请在 **[!UICONTROL Experiences]** 页面（三步引导式工作流的步骤2），单击放置推荐的位置，然后单击 **[!UICONTROL Change Collection]**，然后选择所需的收藏集。
 
    ![更改收藏集选项](/help/main/c-recommendations/c-products/assets/change-collection.png)
-
-## 培训视频：在Recommendations中创建收藏集和排除项(7:05) ![教程徽章](/help/main/assets/tutorial.png)
-
-本视频包含以下信息：
-
-* 创建收藏集
-* 创建排除项
-
->[!VIDEO](https://video.tv.adobe.com/v/27689)

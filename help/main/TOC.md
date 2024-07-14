@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
+source-git-commit: 2393925a4c8cc6d880278b23551ba33f23268a8e
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 88%
+source-wordcount: '1291'
+ht-degree: 87%
 
 ---
 
@@ -315,6 +315,7 @@ ht-degree: 88%
       + [上传自定义标准测试版](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + 动态和静态包含规则 {#dynamic-static}
          + [使用动态和静态包含规则](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [使用动态和静态包含规则（测试版）](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [实体属性匹配](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [个人资料属性匹配](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
          + [参数匹配](/help/main/c-recommendations/c-algorithms/parameter-matching.md)

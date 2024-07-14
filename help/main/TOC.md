@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: edb603b6e71edaa673be9ee0954e60f5cb04e195
+source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 89%
+source-wordcount: '1284'
+ht-degree: 88%
 
 ---
 
@@ -90,15 +90,15 @@ ht-degree: 89%
          + [共享量度、受众和报表 - A4T 常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [旧版 SiteCatalyst 与 Test&amp;Target 集成 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [使用和不使用 A4T 时，Target 和 Analytics 之间的预期数据差异](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + 将Target与Adobe Customer Journey Analytics集成 {#cja}
+   + 将Target与Adobe Customer Journey Analytics {#cja}集成
       + [Adobe Customer Journey Analytics中的Target报表](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
-   + 将Target与Adobe Journey Optimizer (AJO)集成 {#ajo}
+   + 将Target与Adobe Journey Optimizer (AJO)集成{#ajo}
       + [使用选件决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [集成 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
-   + 将Target与Adobe Experience Manager (AEM)集成 {#aem}
+   + 将Target与Adobe Experience Manager (AEM)集成{#aem}
       + [将Target与AEM集成概述](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
-      + 体验片段和内容片段 {#fragments}
+      + 体验片段和内容片段{#fragments}
          + [AEM体验片段和内容片段概述](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM 体验片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [AEM内容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
@@ -271,16 +271,16 @@ ht-degree: 89%
       + [在报表中查看多个量度](c-reports/c-report-settings/view-multiple-metrics.md)
       + [排除极端值](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [将数据下载到 CSV 文件](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
-   + 统计方法 {#statistical-methodology}
+   + 统计方法{#statistical-methodology}
       + [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + Personalization报表 {#personalization-reports}
+   + Personalization报告{#personalization-reports}
       + [自动定位摘要报表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 摘要报表](/help/main/c-reports/personalization-reports/reports-ap.md)
    + 个性化见解报表 {#insights}
       + [个性化见解报表概述](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [自动化区段报表](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [重要属性报表](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + 多变量测试报表 {#multivariate-test-reports}
+   + 多变量测试报告{#multivariate-test-reports}
       + [体验性能报表 (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
       + [位置贡献报表 (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Analytics for Target (A4T) 报表](c-reports/analytics-for-target-a4t-reporting.md)
@@ -303,11 +303,16 @@ ht-degree: 89%
       + [排除项（测试版）](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + 标准 {#criteria}
       + [标准概述](c-recommendations/c-algorithms/algorithms.md)
+      + [标准概述（测试版）](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [创建标准](c-recommendations/c-algorithms/create-new-algorithm.md)
+      + [创建标准测试版](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [创建标准序列](c-recommendations/c-algorithms/create-criteria-sequence.md)
+      + [创建标准序列（测试版）](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [使推荐基于推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
+      + [使推荐基于推荐键测试版](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [Target 的推荐算法背后的科学原理](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [上传自定义标准](c-recommendations/c-algorithms/recommendations-csv.md)
+      + [上传自定义标准测试版](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + 动态和静态包含规则 {#dynamic-static}
          + [使用动态和静态包含规则](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [实体属性匹配](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)

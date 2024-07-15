@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
+source-git-commit: 6d2a313b0e54aa5f6717eee850c79e4092309e7d
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1320'
 ht-degree: 86%
 
 ---
@@ -325,8 +325,11 @@ ht-degree: 86%
          + [静态筛选](/help/main/c-recommendations/c-algorithms/static-value.md)
          + [静态筛选器Beta](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [使用备用推荐](c-recommendations/c-algorithms/backup-recs.md)
+      + [使用备用推荐](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [使用多值属性](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
+      + [使用多值属性（测试版）](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
       + [将 Adobe Analytics 与推荐配合使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [将Adobe Analytics与Recommendations测试版结合使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + 设计 {#recommendations-design}
       + [设计概述](c-recommendations/c-design-overview/design-overview.md)
       + [创建设计](c-recommendations/c-design-overview/create-design.md)

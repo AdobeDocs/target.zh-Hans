@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 2393925a4c8cc6d880278b23551ba33f23268a8e
+source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 87%
+source-wordcount: '1305'
+ht-degree: 86%
 
 ---
 
@@ -317,9 +317,13 @@ ht-degree: 87%
          + [使用动态和静态包含规则](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [使用动态和静态包含规则（测试版）](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [实体属性匹配](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [实体属性匹配测试版](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
          + [个人资料属性匹配](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [配置文件属性匹配测试版](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [参数匹配](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
+         + [参数匹配Beta](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
          + [静态筛选](/help/main/c-recommendations/c-algorithms/static-value.md)
+         + [静态筛选器Beta](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [使用备用推荐](c-recommendations/c-algorithms/backup-recs.md)
       + [使用多值属性](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [将 Adobe Analytics 与推荐配合使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)

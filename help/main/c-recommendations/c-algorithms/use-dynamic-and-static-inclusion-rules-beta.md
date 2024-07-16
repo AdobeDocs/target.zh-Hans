@@ -7,9 +7,9 @@ feature: Recommendations
 mini-toc-levels: 3
 hide: true
 hidefromtoc: true
-source-git-commit: 43986f4b83d0165b03046f52afd3cd6b5b42ab65
+source-git-commit: 84f2ea906dcab939b3892b11eabf96494f4514cb
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1825'
 ht-degree: 16%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 16%
 
    ![添加筛选规则](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
-1. 要选择使用动态还是静态包含规则，请单击“推荐应遵循哪些其他规则”框中的&#x200B;**静态筛选器**，然后从“静态筛选器”下拉列表中选择所需的选项。
+1. 单击“推荐应遵循哪些其他规则”框中的&#x200B;**静态筛选器**&#x200B;下拉列表，然后从[!UICONTROL Static Filter]下拉列表中选择所需的选项。
 
    ![静态筛选器下拉列表](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
 

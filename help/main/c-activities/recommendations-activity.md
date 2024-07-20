@@ -1,6 +1,6 @@
 ---
 keywords: recommendations
-description: 在Adobe中查找有关Recommendations活动的信息 [!DNL Target] 根据以前的用户活动自动显示客户可能感兴趣的产品或内容。
+description: 查找有关Adobe [!DNL Target] 中Recommendations活动的信息，这些活动根据以前的用户活动自动显示客户可能感兴趣的产品或内容。
 title: 可在何处找到有关Recommendations活动的信息？
 feature: Recommendations
 exl-id: e4bc6e3b-a84d-4a8f-988e-a7f734892963

@@ -1,19 +1,19 @@
 ---
 keywords: MVT;多变量测试;多变量测试最佳实践;MVT 最佳实践;MVT 组合;MVT 报表
-description: 了解如何提高性能、避免问题以及更正创建和运行时可能发生的已知问题 [!UICONTROL 多变量测试] 中的活动 [!DNL Adobe Target].
-title: 最佳实践是什么？ [!UICONTROL 多变量测试] 活动？
+description: 了解如何改进性能、避免问题以及更正在 [!DNL Adobe Target]中创建和运行[!UICONTROL Multivariate Test]活动时可能发生的已知问题。
+title: 有关[!UICONTROL Multivariate Test]活动的最佳实践是什么？
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
 source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 70%
+source-wordcount: '610'
+ht-degree: 57%
 
 ---
 
-# [!UICONTROL 多变量测试最佳实践]
+# [!UICONTROL Multivariate Test]最佳实践
 
-帮助您了解如何改善表现、避免发生问题以及纠正在 [!DNL Adobe Target] 中创建和运行[!UICONTROL 多变量测试] (MVT) 活动时可能发生的已知问题。
+以下提示可帮助您在[!DNL Adobe Target]中创建和运行[!UICONTROL Multivariate Test] (MVT)活动时提高性能、避免出现问题，并更正可能会出现的已知问题。
 
 ## 规划 {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -46,14 +46,14 @@ ht-degree: 70%
 
 ## 分析 {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* 经常使用 [位置贡献报表](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) 监视每个位置和选件的性能。
-* 在[体验性能报表](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)中，根据使用“5 个最佳”和“5 个最差”筛选器显示的数据做出决策。
+* 经常使用[位置贡献报表](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)来监视每个位置和选件的性能。
+* 在[体验性能报表](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)中，根据使用[!UICONTROL Best 5]和[!UICONTROL Worst 5]筛选器显示的数据做出决策。
 
-  使用“[!UICONTROL 全部]”筛选器时，很难获得所需的信息，而且并非所有体验都会显示在图形中。如果您想要查看的特定体验不在最佳或最差的 5 个体验之中，则可以使用“[!UICONTROL 全部]”筛选器。
+  使用[!UICONTROL All]筛选器很难提取所需信息，而且并非所有体验都可以显示在图形中。 如果要查看的特定体验不在最佳或最差的5个体验之中，请使用[!UICONTROL All]筛选器。
 
 ## 其他信息 {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* 尽管 [!DNL Target] 用于编辑实时活动，如果编辑正在运行的活动，可能会重置测试。 报表可能无法识别某些更改。 只有在选件库中更改 HTML 选件才是安全的。
+* 虽然[!DNL Target]允许您编辑实时活动，但编辑正在进行的活动可能会重置测试。 报表可能无法识别某些更改。 只有在选件库中更改 HTML 选件才是安全的。
 
   重置体验名称和报表的特定操作包括：
 

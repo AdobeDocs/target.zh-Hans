@@ -6,20 +6,20 @@ feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
 source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 92%
+source-wordcount: '1344'
+ht-degree: 73%
 
 ---
 
 # 可视化体验编辑器 (VEC)
 
-有关使用的信息 [!UICONTROL 可视化体验编辑器] (VEC) in [!DNL Adobe Target].
+有关在[!DNL Adobe Target]中使用[!UICONTROL Visual Experience Composer] (VEC)的信息。
 
 VEC是一个WYSIWYG用户界面，可让您轻松地在站点上下文中创建和测试个性化体验和选件。 您可以通过拖放、交换和修改网页（或选件）或移动网页的布局和内容来为 Target 活动创建体验和选件。
 
 VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和设计人员可以使用可视化界面创建和更改内容。无需直接编辑代码，便可进行多种设计选择。使用编辑器提供的编辑选项也可以编辑 HTML 和 JavaScript。
 
-在目标上 **[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]** 选项卡，您可以输入默认可视化体验编辑器URL。
+在目标&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**&#x200B;选项卡上，您可以输入默认可视化体验编辑器URL。
 
 ![默认 VEC URL 设置](/help/main/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -27,7 +27,7 @@ VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和
 
 >[!NOTE]
 >
->如果页面包含混合内容（例如，安全网站中的非安全页面），某些浏览器（如 Firefox）可能会阻止页面在 VEC 中显示。如果您的页面未显示，请单击浏览器地址栏中 URL 旁边的图标，然后再单击&#x200B;**[!UICONTROL 在此页面上禁用保护]**。此问题不会影响向网站访客显示页面。
+>如果页面包含混合内容（例如，安全网站中的非安全页面），某些浏览器（如 Firefox）可能会阻止页面在 VEC 中显示。如果您的页面未显示，请单击浏览器地址栏中URL旁边的图标，然后单击&#x200B;**[!UICONTROL Disable protection on this page]**。 此问题不会影响向网站访客显示页面。
 
 无法在 VEC 中修改页面上 iframe 中的内容。要编辑 iframe 中的内容，请确保 iframe 文档已启用 Target，然后在 VEC 中加载该 iframe URL。
 
@@ -41,24 +41,24 @@ VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和
 
 ![VEC 高亮显示](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-new.png)
 
-单击&#x200B;**[!UICONTROL 叠加]**&#x200B;图标可更改高亮显示的方式。例如，你可以选择仅高亮显示图像、链接、区域 mbox、修改或 JavaScript。您可以更改高亮显示的颜色。您还可以指定高亮显示颜色和用于高亮显示不同元素类型的填充类型。
+单击&#x200B;**[!UICONTROL Overlays]**&#x200B;图标可更改高亮显示的方式。 例如，你可以选择仅高亮显示图像、链接、区域 mbox、修改或 JavaScript。您可以更改高亮显示的颜色。您还可以指定高亮显示颜色和用于高亮显示不同元素类型的填充类型。
 
 ![更改“叠加”设置](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 
-单击高亮显示的元素可查看可用于该元素类型的选项菜单。例如，您可以单击图像并选择&#x200B;**[!UICONTROL 编辑 > 文本/HTML]** 以更改文本，或单击按钮以更改背景颜色。您可以使用页面左上角的按钮来打开和关闭叠加。
+单击高亮显示的元素可查看可用于该元素类型的选项菜单。例如，您可以单击图像并选择&#x200B;**[!UICONTROL Edit > Text/HTML]**&#x200B;以更改文本，或单击按钮以更改背景颜色。 您可以使用页面左上角的按钮来打开和关闭叠加。
 
-您还可以单击&#x200B;**[!UICONTROL 浏览]**，然后导航到可从主页面访问的某个页面（例如送货页面或购物车），然后测试该页面上的更改。您也可以访问悬停鼠标时显示的页面元素，例如弹出菜单和迷你购物车。浏览到相应的页面后，单击&#x200B;**[!UICONTROL 撰写]**&#x200B;可编辑体验。例如，您可能想要更改购物车下拉列表或一组图像的设计。
+您还可以单击&#x200B;**[!UICONTROL Browse]**，然后导航到可从主页面访问的某个页面（如送货页面或购物车），然后测试该页面上的更改。 您也可以访问悬停鼠标时显示的页面元素，例如弹出菜单和迷你购物车。浏览到页面后，单击&#x200B;**[!UICONTROL Compose]**&#x200B;编辑体验。 例如，您可能想要更改购物车下拉列表或一组图像的设计。
 
 >[!NOTE]
 >
->如果悬停状态依赖于 JavaScript，请确保未选中&#x200B;**[!UICONTROL 禁用 JavaScript]**。必须启用 JavaScript 才能编辑 JavaScript 元素。
+>如果悬停状态依赖于JavaScript，请确保未选择&#x200B;**[!UICONTROL Disable JavaScript]**。 必须启用 JavaScript 才能编辑 JavaScript 元素。
 
 有关 VEC 中可用选项的信息，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)。
 
 您可以在页面加载时（或在页面加载失败后）对页面执行某些修改，也可以在 VEC 中取消页面加载。有关详细信息，请参阅：
 
 * [在页面加载时或页面加载失败后编辑页面](#loading)
-* [在 VEC 中取消页面加载](#cancel-loading)
+* [在VEC中取消页面加载](#cancel-loading)
 
 ## 在页面加载时或页面加载失败后编辑页面 {#loading}
 
@@ -70,13 +70,13 @@ VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和
 * 要从无法再访问的页面中复制现有的自定义代码
 * 在知晓页面不会在 VEC 中加载的情况下，仍想要进行简单的编辑
 
-在页面加载时（或页面加载失败后），[!UICONTROL 体验]面板、[!UICONTROL 修改]面板，以及体验顶部的设置（叠加、修改、配置等）均可访问。
+在页面加载时（或页面加载失败后），[!UICONTROL Experiences]面板、[!UICONTROL Modifications]面板和体验顶部的设置（叠加、修改、配置等）均可访问。
 
 下图显示，您可以在页面加载时插入自定义代码或执行其他操作：
 
 ![页面正在加载](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/loading-page.png)
 
-## 在 VEC 中取消页面加载 {#cancel-loading}
+## 在VEC中取消页面加载 {#cancel-loading}
 
 您可以在 VEC 中取消页面加载以解锁活动的编辑，而无需等待页面加载完成。此功能可节省时间，并且可帮助您更有效地进行简单的编辑或插入自定义代码，而无需等待 VEC 中的页面加载完成。
 
@@ -90,17 +90,17 @@ VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和
 * 要向“页面交付”标准添加更多模板测试规则
 * 要在通过 EEC 或仅 iframe 加载页面可能因页面不同而有所不同时，覆盖全局增强型体验编辑器 (EEC) 切换开关
 
-在 VEC 中取消页面加载之后，您可以在活动中的体验之间进行切换，而无需等待页面加载完成。若要再次查看 VEC 中的页面，必须单击&#x200B;**[!UICONTROL 重新加载]**&#x200B;按钮。
+在 VEC 中取消页面加载之后，您可以在活动中的体验之间进行切换，而无需等待页面加载完成。若要再次查看VEC中的页面，必须单击&#x200B;**[!UICONTROL Reload]**&#x200B;按钮。
 
 >[!IMPORTANT]
 >
 >请注意，当通过选择在 VEC 中取消加载来编辑自定义代码或进行任何修改时，必须确保编码或更改已正确完成。确保执行正确的 QA，以保证您的自定义代码和任何其他修改可以按预期交付。
 
-要在 VEC 中取消页面加载，请在页面加载时单击&#x200B;**[!UICONTROL 取消加载]**&#x200B;按钮。在当前编辑会话期间，页面不会在此活动的 VEC 中加载。
+要在VEC中取消页面加载，请在页面加载时单击&#x200B;**[!UICONTROL Cancel Loading]**&#x200B;按钮。 在当前编辑会话期间，页面不会在此活动的 VEC 中加载。
 
 ![“取消加载”按钮](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/cancel-loading.png)
 
-要继续管理当前活动中的体验或添加新的修改，则必须单击&#x200B;**[!UICONTROL 重新加载]**&#x200B;按钮。
+要继续管理当前活动中的体验或添加新的修改，必须单击&#x200B;**[!UICONTROL Reload]**&#x200B;按钮。
 
 ![“重新加载”按钮](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
 
@@ -108,14 +108,14 @@ VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 可视化体验编辑器(1/2) (7:17) ![教程徽章](/help/main/assets/tutorial.png)
+### 可视化体验编辑器（第1个，共2个） (7:17) ![教程徽章](/help/main/assets/tutorial.png)
 
 * 更改页面的内容
 * 更改页面的布局
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### 可视化体验编辑器（第2个，共2个）(7:29) ![教程徽章](/help/main/assets/tutorial.png)
+### 可视化体验编辑器（第2个，共2个） (7:29) ![教程徽章](/help/main/assets/tutorial.png)
 
 * 重命名和复制体验
 * 创建重定向体验
@@ -126,7 +126,7 @@ VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### 办公时间：可视化体验编辑器 ![教程徽章](/help/main/assets/tutorial.png)
+### 办公时间：可视化体验编辑器![教程徽章](/help/main/assets/tutorial.png)
 
 此视频是“[办公时间](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 

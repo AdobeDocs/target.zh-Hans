@@ -5,9 +5,9 @@ title: 如何在我的浏览器中启用混合内容
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
-workflow-type: ht
-source-wordcount: '560'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 如果安全内容与不安全内容混合在一起，现代浏览器可能会阻止页面显示或者显示警告消息。
 
-如果 [!DNL Adobe Target] 中的[!UICONTROL 可视体验编辑器] (VEC) 尝试打开包含混合内容的页面，则会显示警告消息。此消息告知您如何在浏览器中禁用阻止。通过禁用阻止，可打开 HTTP 网站或具有混合内容（HTTPS 和 HTTP）的网站。
+如果[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)尝试打开包含混合内容的页面，则会显示警告消息。 此消息告知您如何在浏览器中禁用阻止。通过禁用阻止，可打开 HTTP 网站或具有混合内容（HTTPS 和 HTTP）的网站。
 
 ![混合内容警告](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -41,11 +41,11 @@ ht-degree: 100%
 
 如果将 VEC 用于 [!DNL Chrome] 的最新版本（版本 79.0.3945.117 或更高版本），则必须更新网站设置。您网站的访客无需完成这些步骤。
 
-1. 单击锁（请小心）图标，然后单击&#x200B;**[!UICONTROL 网站设置]**。
+1. 单击锁（请小心）图标，然后单击&#x200B;**[!UICONTROL Site settings]**。
 
    ![网站设置](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. 滚动到&#x200B;**[!UICONTROL 不安全的内容]**，然后使用下拉列表将“阻止（默认值）”更改为“允许”。
+1. 滚动到&#x200B;**[!UICONTROL Insecure content]**，然后使用下拉列表将“阻止（默认值）”更改为“允许”。
 
    ![不安全的内容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
@@ -78,10 +78,10 @@ ht-degree: 100%
 
 如果将 VEC 用于 [!DNL Edge] 的最新版本，则必须更新网站设置。您网站的访客无需完成这些步骤。
 
-1. 在 [!DNL Edge] 中，单击菜单栏中的 **[!DNL Microsoft Edge]**、**[!UICONTROL 设置]**，然后单击 **Cookie 和网站权限**。
+1. 在[!DNL Edge]中，单击菜单栏&#x200B;**[!UICONTROL Settings]**&#x200B;中的&#x200B;**[!DNL Microsoft Edge]**，然后单击&#x200B;**Cookie和网站权限**。
 
-1. 滚动到&#x200B;**[!UICONTROL 不安全的内容]**。
+1. 滚动到&#x200B;**[!UICONTROL Insecure content]**。
 
-1. 单击&#x200B;**[!UICONTROL 不安全的内容]**，然后单击&#x200B;**[!UICONTROL 允许]**&#x200B;旁的&#x200B;**[!UICONTROL 添加]**，添加要在其上允许不安全内容的网站，然后单击&#x200B;**[!UICONTROL 添加]**。
+1. 单击&#x200B;**[!UICONTROL Insecure content]**，然后单击&#x200B;**[!UICONTROL Allow]**&#x200B;旁边的&#x200B;**[!UICONTROL Add]**，添加允许不安全内容的站点，然后单击&#x200B;**[!UICONTROL Add]**。
 
 1. 重新加载 VEC 页面。

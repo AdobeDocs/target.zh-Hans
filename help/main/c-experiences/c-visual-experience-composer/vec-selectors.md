@@ -1,13 +1,13 @@
 ---
 keywords: 体验定位;登陆页面测试
-description: 元素选择器是可以标识一个或多个元素的CSS表达式。 了解如何在Adobe中使用元素选择器 [!DNL Target] 可视化体验编辑器(VEC)。
-title: 我是否可以在可视化体验编辑器(VEC)中使用元素选择器？
+description: 元素选择器是可以标识一个或多个元素的CSS表达式。 了解如何在Adobe [!DNL Target] 可视化体验编辑器(VEC)中使用元素选择器。
+title: 我可以在可视化体验编辑器(VEC)中使用元素选择器吗？
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 79%
+source-wordcount: '403'
+ht-degree: 85%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 79%
 
 您可以在 Mozilla 开发人员网络 (MDN) 上的[选择器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文档中找到与 CSS 选择器有关的基本信息。
 
-您可以设置要在帐户首选项中使用元素类还是元素 ID。单击 **[!UICONTROL 管理>可视化体验编辑器]**，然后选择首选的CSS选择器。
+您可以设置要在帐户首选项中使用元素类还是元素 ID。单击&#x200B;**[!UICONTROL Administration > Visual Experience Composer]**，然后选择首选的CSS选择器。
 
 ![css_selectors图像](assets/css_selectors.png)
 
@@ -27,7 +27,7 @@ ht-degree: 79%
 
 有关何时使用 CSS 选择器以及何时使用唯一 ID 的信息，请参阅[可视化体验编辑器最佳实践和限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
 
-## 如何Adobe [!DNL Target] 为元素生成选择器 {#section_D89D954BCBFB486CA081BE183776A475}
+## Adobe[!DNL Target]如何为元素生成选择器 {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target 使用简单的算法来创建选择器。下面非常简略地介绍了生成逻辑：
 

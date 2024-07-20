@@ -1,23 +1,24 @@
 ---
 keywords: FAQ;常见问题解答;Analytics for Target;A4T;SiteCatalyst;营销活动>方法;Test&Target;集成
-description: 查找有关旧版SiteCatalyst与Test&Target集成和使用Analytics的常见问题解答 [!DNL Target] (A4T)。
+description: 查找有关旧版Test&TargetSiteCatalyst集成和使用Analytics for [!DNL Target] (A4T)的常见问题解答。
 title: 可在何处找到有关Test&Target集成SiteCatalyst的常见问题解答？
 feature: Analytics for Target (A4T)
 exl-id: cd16b08b-e58e-4208-95b5-97c5eb441fb7
 source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '162'
 ht-degree: 38%
 
 ---
 
 # 旧版 SiteCatalyst 与 Test&amp;Target 集成 - A4T 常见问题解答
 
-本主题包含有关旧版Test&amp;TargetSiteCatalyst集成和使用的常见问题解答 [!DNL Adobe Analytics] 作为的报表源 [!DNL Adobe Target] (A4T)。
+本主题包含有关旧版Test&amp;Target集成SiteCatalyst和使用[!DNL Adobe Analytics]作为[!DNL Adobe Target]报表源(A4T)的常见问题解答。
 
 ## 我为何会在 Analytics 中看到“活动”报表和“营销活动>方法”报表？ {#section_ECF18A7E759A4E7F93553DB187A677E9}
 
-+++回答Test&amp;Target集成（旧集成）与Analytics for Target (A4T)的SiteCatalyst不尽相同。
++++回答
+Test&amp;Target集成（旧集成）与Analytics for Target (A4T)的SiteCatalyst不同。
 
 “活动”报表适用于较新的 A4T 集成。
 

@@ -5,9 +5,9 @@ title: 什么是配置文件属性？
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
-workflow-type: ht
-source-wordcount: '2465'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2426'
+ht-degree: 93%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
 设置配置文件属性：
 
-1. 单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 配置文件脚本]**。
+1. 单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Profile Scripts.]**
 
    ![“配置文件脚本”选项卡](/help/main/c-target/c-visitor-profile/assets/create-script.png)
 
-1. 单击&#x200B;**[!UICONTROL 创建脚本]**。
+1. 单击 **[!UICONTROL Create Script]**。
 
    ![“创建配置文件脚本”对话框](/help/main/c-target/c-visitor-profile/assets/profile-script.png)
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
    | 参数类型 | 描述 |
    |--- |--- |
-   | mbox | 在创建 mbox 时通过页面代码直接传入。请参阅 *Target 开发人员指南*&#x200B;中的[将参数传递到全局 Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}。<P>**注意**：[!DNL Target] 对于每个 mbox 调用有 50 个唯一配置文件属性的限制。如果必须将超过 50 个配置文件属性传递到 [!DNL Target]，请使用[!UICONTROL 配置文件更新 API] 方法传递它们。有关更多信息，请参阅 *Target 开发人员指南*&#x200B;中的[更新配置文件](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}。 |
+   | mbox | 在创建 mbox 时通过页面代码直接传入。请参阅 *Target 开发人员指南*&#x200B;中的[将参数传递到全局 Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}。<P>**注意**：[!DNL Target] 对于每个 mbox 调用有 50 个唯一配置文件属性的限制。如果必须将超过50个配置文件属性传递到[!DNL Target]，请使用[!UICONTROL Profile Update API]方法传递它们。 有关更多信息，请参阅 *Target 开发人员指南*&#x200B;中的[更新配置文件](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}。 |
    | 配置文件 | 直接使用 JavaScript 代码段定义。这些代码段可存储运行总计，如消费者消费的总金额，并在每次 mbox 请求时执行这些代码段。请参阅以下&#x200B;*配置文件脚本属性*。 |
 
 ## 配置文件脚本属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -46,13 +46,13 @@ ht-degree: 100%
 
 ## 创建配置文件脚本 {#section_CB02F8B97CAF407DA84F7591A7504810}
 
-可在 [!DNL Target] 界面的[!UICONTROL 受众]选项卡下找到配置文件脚本。
+配置文件脚本在[!DNL Target]界面的[!UICONTROL Audiences]选项卡下可用。
 
-要添加配置文件脚本，请依次单击&#x200B;**[!UICONTROL 配置文件脚本]**&#x200B;选项卡、**[!UICONTROL 创建脚本]**，然后编写您的脚本。
+要添加配置文件脚本，请单击&#x200B;**[!UICONTROL Profile Scripts]**&#x200B;选项卡&#x200B;**[!UICONTROL Create Script]**，然后编写您的脚本。
 
 或
 
-要复制现有的配置文件脚本，请从[!UICONTROL 配置文件脚本]列表中单击所需的脚本对应的省略号图标，然后单击&#x200B;**[!UICONTROL 复制]**。
+要复制现有的配置文件脚本，请从[!UICONTROL Profile Scripts]列表中单击所需脚本的省略号图标，然后单击&#x200B;**[!UICONTROL Duplicate]**。
 
 然后，您可以对受众进行编辑以创建一个类似的受众。
 
@@ -85,21 +85,21 @@ if (mbox.name == 'Track_Interest') {
 
 您可以查看配置文件脚本信息弹出卡片，该卡片类似于选件信息卡片。通过这些配置文件脚本信息卡片，您可以查看引用了所选配置文件脚本的活动列表，以及其他有用的元数据。
 
-例如，通过从列表中（[!UICONTROL 受众] > [!UICONTROL 配置文件脚本]）单击所需配置文件脚本的[!UICONTROL 信息]图标，访问以下配置文件脚本信息卡片。
+例如，通过单击列表([!UICONTROL Audiences] > [!UICONTROL Profile Scripts])中所需配置文件脚本的[!UICONTROL Info]图标，访问以下配置文件脚本信息卡片。
 
-[!UICONTROL 脚本信息]选项卡包含以下信息：名称、描述和脚本代码。
+[!UICONTROL Script Info]选项卡包含以下信息：名称、描述和脚本代码。
 
 ![配置文件脚本信息卡片](assets/profile_script_info_card.png)
 
-单击&#x200B;**[!UICONTROL 查看完整详细信息]**&#x200B;可查看引用所选配置文件脚本的受众和活动。
+单击&#x200B;**[!UICONTROL View full details]**&#x200B;可查看引用所选配置文件脚本的受众和活动。
 
 ![配置文件脚本信息卡片 >“脚本使用情况”选项卡](assets/profile_script_info_card_usage_tab.png)
 
 >[!NOTE]
 >
->在下列情况中，[!UICONTROL 脚本使用情况]选项卡不显示引用所选配置文件脚本的活动：
+>在下列情况下，[!UICONTROL Script Usage]选项卡不显示引用所选配置文件脚本的活动：
 >
-> * 活动处于[!UICONTROL 草稿]状态。
+> * 该活动处于[!UICONTROL Draft]状态。
 > * 活动中使用的内容或选件使用了脚本变量（活动中的内联选件或选件库中的选件）。
 
 ## Target 在某些情况下禁用配置文件脚本 {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
@@ -156,7 +156,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **添加配置文件脚本作为响应令牌以调试配置文件脚本：**
 
-  在 [!DNL Target] 中，依次单击&#x200B;**[!UICONTROL 管理]**、**[!UICONTROL 响应令牌]**，然后启用要调试的配置文件脚本。
+  在[!DNL Target]中，单击&#x200B;**[!UICONTROL Administration]**，单击&#x200B;**[!UICONTROL Response Tokens]**，然后启用要调试的配置文件脚本。
 
   只要加载上面有 [!DNL Target] 的网站的页面，[!DNL Target] 产生的部分响应就会包含给定配置文件脚本的值，如下所示：
 
@@ -164,7 +164,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **使用 mboxTrace 调试工具调试配置文件脚本。**
 
-  此方法需要可在[!UICONTROL 调试器工具]部分中通过单击 **[!UICONTROL Target]** > **[!UICONTROL 管理]** > **[!UICONTROL 实施]** > **[!UICONTROL 生成授权令牌]**&#x200B;而生成的授权令牌。
+  此方法需要授权令牌，您可以通过单击[!UICONTROL Debugger tools]部分中的&#x200B;**[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]**&#x200B;来生成该令牌。
 
   然后，可将 `mboxTrace=window&authorization=YOURTOKEN` 这两个参数添加到页面 URL 的“?”之后。
 

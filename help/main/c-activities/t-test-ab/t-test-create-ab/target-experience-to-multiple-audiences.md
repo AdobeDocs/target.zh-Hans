@@ -1,19 +1,19 @@
 ---
 keywords: 多个受众;体验版本;定位体验版本
-description: 了解如何在中将同一体验的版本定位到不同的受众 [!DNL Adobe Target] A/B活动。
+description: 了解如何在 [!DNL Adobe Target] A/B活动中将同一体验的版本定位到不同的受众。
 title: 能否在A/B活动中使用多个体验版本？
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 56%
+source-wordcount: '590'
+ht-degree: 53%
 
 ---
 
 # A/B 测试中的多个体验受众
 
-您可以将相同体验的版本定位到中的不同受众 [!DNL Adobe Target] A/B活动。 您可以在中为体验设置多个受众 [!UICONTROL 可视化体验编辑器] (VEC)或在基于表单的体验编辑器中均可用。
+您可以在[!DNL Adobe Target] A/B活动中将同一体验的版本定位到不同的受众。 您可以在[!UICONTROL Visual Experience Composer] (VEC)或基于表单的体验编辑器中为一个体验设置多个受众。
 
 当访客的配置文件发生更改时，访客可在体验受众之间切换。 在活动的生命周期内，访客不会卡在同一个体验中。
 
@@ -33,13 +33,13 @@ ht-degree: 56%
 
    配置具有多个版本的体验时，请按照以下步骤所示，为每个版本选择相应的受众。
 
-1. 选择体验，然后单击&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 受众]** > **[!UICONTROL 多个受众]**。
+1. 选择体验，然后单击&#x200B;**[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**。
 
    ![“多个受众”选项](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. 单击&#x200B;**[!UICONTROL 添加受众]**，然后选择要定位的第一个受众。对每个受众重复执行上述步骤。
+1. 单击&#x200B;**[!UICONTROL Add Audience]**，然后选择要定位的第一个受众。 对每个受众重复执行上述步骤。
 
-   ![exp-version图像](assets/exp-versions.png)
+   ![exp-versions图像](assets/exp-versions.png)
 
    如果受众尚不存在，请单击[创建受众](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)，然后对其进行设置。
 
@@ -51,4 +51,4 @@ ht-degree: 56%
 
 * 选择互斥受众。 如果活动是在VEC中创建的，且访客与多个受众匹配，则会返回每个受众的内容，并在页面上最后显示所列受众的内容。
 * 活动图中定义的活动参加受众是通过“与”条件与体验受众进行组合的。因此，要参加活动，访客必须符合活动受众的条件，同时还必须符合某个体验受众的条件。
-* 将相同的受众作为报表中的区段进行添加。这有助于您查看“浏览器lang ja_JP”的体验A与B高级别以及体验A与B较低级别的测试结果。 这仅适用于 [!DNL Target]基于的报表，而不是 [!DNL Analytics]基于的报表。
+* 将相同的受众作为报表中的区段进行添加。这有助于您查看“浏览器lang ja_JP”的体验A与B高级别以及体验A与B较低级别的测试结果。 这仅适用于基于[!DNL Target]的报告，不适用于基于[!DNL Analytics]的报告。

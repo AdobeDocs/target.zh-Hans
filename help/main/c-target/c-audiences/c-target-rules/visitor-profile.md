@@ -1,48 +1,48 @@
 ---
 keywords: 访客配置文件;Target 访客配置文件
-description: 了解如何在中创建受众 [!DNL Adobe Target] 定位满足特定配置文件参数（如新访客或回访访客、类别亲和度等）的访客。
+description: 了解如何在 [!DNL Adobe Target] 中创建受众，以定位满足特定配置文件参数（如new或returning visitor、category affinity等）的访客。
 title: 我是否可以定位满足特定配置文件参数的访客？
 feature: Audiences
 exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 46%
+source-wordcount: '221'
+ht-degree: 35%
 
 ---
 
 # 访客个人资料
 
-在中创建受众 [!DNL Adobe Target] 定位符合特定配置文件参数的访客。
+在[!DNL Adobe Target]中创建受众以定位满足特定配置文件参数的访客。
 
-1. 在 [!DNL Target] 界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
-1. 为受众命名并添加可选描述。
-1. 拖放 **[!UICONTROL 访客资料]** 放入受众生成器窗格。
+1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+1. 命名受众并添加可选描述。
+1. 将&#x200B;**[!UICONTROL Visitor Profile]**&#x200B;拖放到受众生成器窗格中。
 
-1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
+1. 单击&#x200B;**[!UICONTROL Select]**，然后选择以下选项之一：
 
    ![target_visitor_profile图像](assets/target_visitor_profile.png)
 
    访客配置文件参数通过 mbox（配置文件）进行传递。您可以定位新访客或回访访客，也可以包含所有用户。
 
-   * [!UICONTROL 新访客]
-   * [!UICONTROL 回访访客]
-   * [!UICONTROL 在其他测试中]
-   * [!UICONTROL 不在其他测试中]
-   * [!UICONTROL 会话首页]
-   * [!UICONTROL 不是会话首页]
-   * [!UICONTROL 类别亲和力]
+   * [!UICONTROL New Visitor]
+   * [!UICONTROL Returning Visitor]
+   * [!UICONTROL In Other Tests]
+   * [!UICONTROL Not In Other Tests]
+   * [!UICONTROL First Page of Session]
+   * [!UICONTROL Not First Page of Session]
+   * [!UICONTROL Category Affinity]
 
-   使用新的 `mboxPC` 为每个 mbox 调用在本地 Edge 内存中创建访客配置文件。处于非活动状态30分钟后，会将用户档案保存到 [!DNL Target] 并从其他边缘访问。
+   使用新的 `mboxPC` 为每个 mbox 调用在本地 Edge 内存中创建访客配置文件。30分钟不活动后，配置文件将保存到[!DNL Target]数据库，可从其他Edge访问。
 
-   网站访客在会话期间登录并获得 `3rdpartyId`，所有以前加载的与关联的配置文件属性 `3rdPartyId` 立即可用。
+   当网站访客在会话期间登录并获得`3rdpartyId`时，之前加载的所有与`3rdPartyId`关联的配置文件属性立即可用。
 
-   您可以定位自定义配置文件参数和 `user.` 参数。选择要用来定位活动的参数。如果未显示所需的参数，则表示该参数未由mbox触发。
+   您可以定位自定义配置文件参数和 `user.` 参数。选择要用来定位活动的参数。如果未显示所需的参数，则该参数未由mbox触发。
 
 1. （可选）为受众设置其他规则。
-1. 单击&#x200B;**[!UICONTROL 完成]**。
+1. 单击 **[!UICONTROL Done]**。
 
-## 培训视频：创建受众 ![“概述”标记](/help/main/assets/overview.png)
+## 培训视频：创建受众![概述徽章](/help/main/assets/overview.png)
 
 以下视频包含有关使用受众类别的信息。
 

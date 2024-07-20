@@ -5,8 +5,8 @@ feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 100%
+source-wordcount: '2480'
+ht-degree: 98%
 
 ---
 
@@ -108,7 +108,7 @@ A/B 测试可比较两个或更多版本的网站内容，以查看在预先指�
 
 确定要推荐哪些产品或内容的规则。标准可基于流行趋势、访客的当前与过去行为，或相似的产品和内容。
 
-## D {#section_CD712B37316C45F58F82113707A98D5C}
+## 日期{#section_CD712B37316C45F58F82113707A98D5C}
 
 **DAM**
 
@@ -146,7 +146,7 @@ A/B 测试可比较两个或更多版本的网站内容，以查看在预先指�
 
 **enhanced experience composer（增强型体验编辑器）**
 
-[!UICONTROL 增强型体验编辑器]是[!UICONTROL 可视化体验编辑器]的一个扩展，可帮助您编辑尚未包含 [!DNL Target] 实施的防 iframe 嵌套网站或页面的体验。如果无法在[!UICONTROL 可视化体验编辑器]中打开您的页面，请尝试使用[!UICONTROL 增强型体验编辑器]。
+[!UICONTROL Enhanced Experience Composer]是[!UICONTROL Visual Experience Composer]的扩展，可帮助您编辑尚未包含[!DNL Target]实施的防iframe嵌套网站或页面的体验。 如果您在[!UICONTROL Visual Experience Composer]中打开您的页面时遇到问题，请尝试[!UICONTROL Enhanced Experience Composer]。
 
 **Enterprise user permissions（企业用户权限）**
 

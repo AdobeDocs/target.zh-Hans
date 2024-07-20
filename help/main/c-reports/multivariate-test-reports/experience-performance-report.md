@@ -1,13 +1,13 @@
 ---
 keywords: 多变量测试;MVT;体验性能报表
-description: 了解如何使用体验性能报表进行Adobe [!DNL Target] 显示活动中每个体验表现的体验定位活动。
+description: 了解如何将Experience Performance报表用于Adobe [!DNL Target] 体验定位活动，以显示活动中每个体验的表现。
 title: 如何将体验性能报表用于多变量测试？
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 88%
+ht-degree: 81%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 88%
 
 “体验性能”报表显示了活动中每个体验的表现。此报表包含有关参加者数量、转化率、提升度和置信度的信息。
 
-您可以选择一个或多个体验来进行比较。单击某个体验，然后选择&#x200B;**[!UICONTROL 预览]**，以在浏览器选项卡中打开该体验。
+您可以选择一个或多个体验来进行比较。单击某个体验，然后选择&#x200B;**[!UICONTROL Preview]**&#x200B;以在浏览器选项卡中打开该体验。
 
-![Adobe Target中的“体验性能”报表](/help/main/c-reports/assets/experienceperformancetable.png)
+Adobe Target中的![体验性能报表](/help/main/c-reports/assets/experienceperformancetable.png)
 
 报表顶部显示了报表中使用的量度、开始和结束日期以及受众。您可以对所有这些元素进行更改。
 
@@ -35,7 +35,7 @@ ht-degree: 88%
 
 在图形下方有一个表格，其中显示了查看各个体验的参加者人数，以及与您的成功量度有关的其他信息。
 
-## 培训视频：创建 MVT 测试 ![教程徽章](/help/main/assets/tutorial.png)
+## 培训视频：创建MVT测试![教程徽章](/help/main/assets/tutorial.png)
 
 以下视频演示了如何使用 Target 三步引导式工作流创建多变量测试。对体验性能报表的介绍开始于 8:20。
 

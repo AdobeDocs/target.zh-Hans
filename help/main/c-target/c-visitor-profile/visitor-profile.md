@@ -13,11 +13,11 @@ ht-degree: 38%
 
 # 访客配置文件
 
-中的访客配置文件 [!DNL Adobe Target] 包含有关您的访客如何使用您的页面和其他优化的内容位置的信息。
+[!DNL Adobe Target]中的访客配置文件包含有关访客如何使用您的页面和其他优化内容位置的信息。
 
-如果 [!DNL Target] 与其他 [!DNL Adobe Experience Cloud] 解决方案，例如 [!DNL Adobe Analytics]， [!DNL Experience Cloud Audiences] 跨解决方案共享访客信息。
+如果[!DNL Target]与其他[!DNL Adobe Experience Cloud]解决方案（如[!DNL Adobe Analytics]）一起使用，[!DNL Experience Cloud Audiences]会在各个解决方案之间共享访客信息。
 
-默认情况下， [!DNL Target] 配置文件信息存储在单一第一方Cookie中。 但是也可以轻松更改该配置，使其提供第三方 Cookie。
+默认情况下，[!DNL Target]配置文件信息存储在单个第一方Cookie中。 但是也可以轻松更改该配置，使其提供第三方 Cookie。
 
 以下部分包含更多信息：
 

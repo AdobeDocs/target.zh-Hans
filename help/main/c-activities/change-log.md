@@ -1,21 +1,21 @@
 ---
 keywords: 活动更改日志；更改日志
-description: 在Adobe中访问活动的更改日志 [!DNL Target] 查看活动更改人员和更改时间的记录。
+description: 在Adobe [!DNL Target] 中访问活动的更改日志，以查看活动更改人员和更改时间的记录。
 title: 如何查看活动更改日志？
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 54%
+source-wordcount: '110'
+ht-degree: 49%
 
 ---
 
 # 活动更改日志
 
-更改登录 [!DNL Adobe Target] 记录活动更改人员和更改时间。
+[!DNL Adobe Target]中的更改日志记录了活动更改人员和更改时间。
 
-1. 打开活动，然后单击&#x200B;**[!UICONTROL 更改日志]**。
+1. 打开活动，然后单击&#x200B;**[!UICONTROL Change Log]**。
 
    ![活动更改日志](/help/main/c-activities/assets/change_log.png)
 

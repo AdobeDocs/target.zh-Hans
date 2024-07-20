@@ -13,7 +13,7 @@ ht-degree: 72%
 
 # 第 4 章：关于使用 Target 的提示
 
-根据我们与许多合作伙伴的合作 [!DNL Target] 我们观察到您能够从您的网站获得更多价值的方式 [!DNL Target] 解决方案。 我们在本章中包括的许多提示中总结了这些方法。 虽然您可能还没有准备好立即使用所有这些想法，但请妥善保存此列表。从解决方案积累的经验越多，项目就越成熟，您也就越频繁地见到这些提示如何帮助您用完成更多任务 [!DNL Target].
+根据我们与许多[!DNL Target]用户的合作，我们已发现可从[!DNL Target]解决方案中获得更多价值的方法。 我们在本章中包括的许多提示中总结了这些方法。 虽然您可能还没有准备好立即使用所有这些想法，但请妥善保存此列表。从解决方案积累的经验越多，项目就越成熟，您也就越频繁地见到这些提示如何帮助您用[!DNL Target]完成更多任务。
 
 ## 提示 1：通过用其他数据充实访客个人资料而加深个性化。
 
@@ -25,7 +25,7 @@ ht-degree: 72%
 
 **应了解的要点**：由于 [!DNL Target] 是一种开放而无特定要求的平台，它与多种不同的技术配合得都很好，因此可按多种不同的方式添加 CRM 或购买的数据。这意味着可选择一种最适合您组织的方法。
 
-请参阅 [将数据导入Target的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} 以了解更多信息。
+有关详细信息，请参阅[将数据导入Target的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 ## 提示 2：通过将 [!DNL Target] 受众融入其他 Adobe Experience Cloud 受众，可更深入地进行个性化。
 
@@ -33,11 +33,11 @@ ht-degree: 72%
 
 有关分步说明，请参阅[组合多个受众](/help/main/c-target/combining-multiple-audiences.md)。
 
-**应了解的要点**：可自动在 [!DNL Target] 中找到 [!DNL Adobe Audience Manager] 受众。但共享 [!DNL Adobe Analytics] 受众需要进行一些手动设置。只需在中构建受众的过程中勾选标有“使此项成为Experience Cloud受众”的框 [!DNL Analytics]. 然后从 [!DNL Target]中，单击“导入Experience Cloud受众”。
+**应了解的要点**：可自动在 [!DNL Target] 中找到 [!DNL Adobe Audience Manager] 受众。但共享 [!DNL Adobe Analytics] 受众需要进行一些手动设置。只需在[!DNL Analytics]的受众构建过程中勾选标有“使此项成为Experience Cloud受众”的框。 然后，从[!DNL Target]中单击“导入Experience Cloud受众”。
 
 ## 提示 3：从 [!DNL Target] 导出数据以用于第三方工具。
 
-通过响应令牌，管理员可轻松地从 [!DNL Target] 取出数据并送入第三方工具。当您要将您的数据添加到在调查工具中收集的数据时，这样做可能很有帮助。例如，如果一项调查表明，某个群体样本为某个体验评了“9”分，另一群体样本为某个体验评了“4”分，那么可通过数据了解谁看到的是体验A，谁看到的是体验B。您还可以使用响应令牌进行导出 [!DNL Target] 将数据导入您的内部数据仓库。 只需单击“管理”，然后将所需的响应令牌旁边的开关切换到开启位置。 接下来，创建一个活动。随后，数据即准备好转移到第三方供应商。可使用调试工具确认 [!DNL Target] 正在导出数据。
+通过响应令牌，管理员可轻松地从 [!DNL Target] 取出数据并送入第三方工具。当您要将您的数据添加到在调查工具中收集的数据时，这样做可能很有帮助。例如，如果一项调查表明，某个群体样本为某个体验评了“9”分，另一群体样本为某个体验评了“4”分，那么可通过数据了解谁看到的是体验A，谁看到的是体验B。您还可以使用响应令牌将[!DNL Target]数据导出到内部数据仓库。 只需单击“管理”，然后将所需的响应令牌旁边的开关切换到开启位置。 接下来，创建一个活动。随后，数据即准备好转移到第三方供应商。可使用调试工具确认 [!DNL Target] 正在导出数据。
 
 有关分步说明，请参阅[响应令牌](/help/main/administrating-target/response-tokens.md)。
 
@@ -63,7 +63,7 @@ ht-degree: 72%
 
 有关更多信息，请参阅[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-**有用的提示**：添加用户时，如果某个团队成员的名称以前未添加到您的组织，则输入其电子邮件地址和密码将触发通过电子邮件邀请其加入团队的工作区，第三方机构员工可能也是如此。
+**有用的提示**：在添加用户时，如果某个团队成员的名称以前未添加到您的组织，比如可能是第三方机构员工，则输入其电子邮件地址和密码将触发通过电子邮件邀请其加入团队的工作区。
 
 使用的是 Target Standard？仍可为具有只读、编辑者和审批者角色的用户[分配三个级别的访问权限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)！
 
@@ -73,7 +73,7 @@ ht-degree: 72%
 
 有关分步说明，请参阅[多页面活动](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)。
 
-**有用的提示**：在指定页面范围后更改URL将重置体验。 这意味着您以前指定的变体将不再出现。如果需要更改 URL，请记得重新定义体验。
+**有用的提示**：在指定页面范围之后更改URL将重置体验。 这意味着您以前指定的变体将不再出现。如果需要更改 URL，请记得重新定义体验。
 
 ## 提示 7：对不同的受众测试某个选件以探索受众是否具有不同的偏好。
 
@@ -109,7 +109,7 @@ ht-degree: 72%
 * 页面的转化率是多少？
 * 预计需要运行测试多久，才能确信地称之为完成？
 
-**实用提示**：使用 [!DNL Adobe Target] [样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) 以帮助确定成功测试所需的样本大小。
+**有用的提示**：使用[!DNL Adobe Target] [样本大小计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)帮助确定成功测试所需的样本大小。
 
 ## 提示 12：设计更简单的测试以确保您可创建和实现它们。
 

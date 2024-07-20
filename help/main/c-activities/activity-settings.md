@@ -1,32 +1,32 @@
 ---
 keywords: 目标和设置；目标；优先级；持续时间
-description: 了解如何使用Adobe中的活动设置 [!DNL Target] 管理活动的目标、优先级和持续时间。
+description: 了解如何使用Adobe [!DNL Target] 中的活动设置来管理活动的目标、优先级和持续时间。
 title: 如何指定活动设置？
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 79%
+ht-degree: 74%
 
 ---
 
 # 活动设置
 
-使用 [!UICONTROL 活动设置] 在 [!DNL Adobe Target] 管理活动的目标、优先级和持续时间。
+在[!DNL Adobe Target]中使用[!UICONTROL Activity Settings]管理活动的目标、优先级和持续时间。
 
 1. 输入有关活动目标的注释。
 
-   键入有关您活动的任何信息，以便您自己或其他团队成员可随时使用这些信息。拖动“[!UICONTROL 目标]”字段可调整其大小。
+   键入有关您活动的任何信息，以便您自己或其他团队成员可随时使用这些信息。拖动以调整[!UICONTROL Objective]字段的大小。
 1. 设置活动优先级。
 
-   根据您的设置，UI 和“[!UICONTROL 优先级]”选项会有所不同。您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。
+   根据您的设置，[!UICONTROL Priority]的UI和选项会有所不同。 您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。
 
    如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。
 
-   如果未在中启用此选项 [!UICONTROL 管理] > [!UICONTROL 报告] （默认），指定优先级：“低”、“中”或“高”。
+   如果未在[!UICONTROL Administration] > [!UICONTROL Reporting]中启用此选项（默认），请指定以下优先级：“低”、“Medium”或“高”。
 
-   要启用细粒度优先级，请单击 [!UICONTROL 管理] > [!UICONTROL 报告]，然后切换 [!UICONTROL 启用细粒度优先级] 选项到“开”位置。
+   要启用细粒度优先级，请单击[!UICONTROL Administration] > [!UICONTROL Reporting]，然后将[!UICONTROL Enable Fine-Grained Priorities]选项切换到“开”位置。
 
    如果已启用此选项，请指定一个介于 0 到 999 之间值：
 
@@ -47,7 +47,7 @@ ht-degree: 79%
    >
    >为活动设置时间计划可控制活动的交付期限；但是，必须先明确激活活动，然后才能根据指定的时间计划交付活动。
 
-“[!UICONTROL 目标和设置]”页面包含其他设置，这些设置会因您创建的活动类型而有所不同。有关这些设置的更多信息，请参阅您的活动类型所对应的内容：
+[!UICONTROL Goal & Settings]页面包含的其他设置因您创建的活动类型而异。 有关这些设置的更多信息，请参阅您的活动类型所对应的内容：
 
 * [A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [自动个性化](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
@@ -55,7 +55,7 @@ ht-degree: 79%
 * [多变量测试](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [推荐](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## 培训视频：活动设置 ![教程徽章](/help/main/assets/tutorial.png)
+## 培训视频：活动设置![教程徽章](/help/main/assets/tutorial.png)
 
 以下视频包含有关活动设置的信息。
 
@@ -65,4 +65,4 @@ ht-degree: 79%
 * 添加报表受众以创建报表筛选器
 * 输入活动的注释
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381)
+  >[!VIDEO](https://video.tv.adobe.com/v/17381)

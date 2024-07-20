@@ -1,19 +1,19 @@
 ---
 keywords: 体验模板;自定义代码;横幅;灯箱;轮播;倒计时;功能区;按钮
 description: 了解如何使用Experience Templates，体验模板是经过预编码的示例，带有用于在Adobe Target中执行常见营销人员用例的可配置输入。
-title: Target中提供了哪些体验模板？
+title: Target中有哪些体验模板可用？
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 77%
+source-wordcount: '446'
+ht-degree: 75%
 
 ---
 
 # 体验模板
 
-有关信息 [!DNL Adobe Target] 在自定义代码中使用的体验模板。 [!DNL Target] 体验模板是具有可配置输入的预编码示例，用于执行常见的营销人员用例。
+有关在自定义代码中使用的[!DNL Adobe Target]体验模板的信息。 [!DNL Target]体验模板是经过预编码的示例，带有用于执行常见营销人员用例的可配置输入。
 
 这些体验模板将作为执行常见用例的起始点，通过 VEC 或基于表单的体验编辑器免费提供给开发人员和营销人员。
 

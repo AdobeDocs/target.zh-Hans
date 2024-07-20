@@ -1,6 +1,6 @@
 ---
 keywords: 多值实体属性;自定义实体属性;有效 JSON;实体属性值;JSON 数组;多值的;多值
-description: 了解如何使用单值和多值自定义实体属性来定义有关Adobe中项目的其他信息 [!DNL Target] Recommendations目录。
+description: 了解如何使用单值和多值自定义实体属性来定义有关Adobe [!DNL Target] Recommendations目录中的项目的其他信息。
 title: 如何使用自定义实体属性？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
@@ -15,7 +15,7 @@ ht-degree: 81%
 
 # 自定义实体属性
 
-在中使用单值和多值自定义实体属性 [!DNL Adobe Target Recommendations] 以定义有关目录中项目的附加信息。
+在[!DNL Adobe Target Recommendations]中使用单值和多值自定义实体属性来定义有关目录中项目的其他信息。
 
 ## 限制 {#limits}
 
@@ -63,7 +63,7 @@ ht-degree: 81%
 
 ## 实施多值属性 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-使用信息源(CSV)时支持多值自定义实体属性， `targetPageParams`和交付API来上传产品。 新值会替换当前值，而不进行附加。空数组( [] )被视为没有值。
+使用信息源(CSV)、`targetPageParams`和交付API上传产品时，支持多值自定义实体属性。 新值会替换当前值，而不进行附加。空数组( [])被视为没有值。
 
 必须对双引号进行转义。例如，`"[""test"", ""value""]"` 是可在 CSV 中使用的有效 JSON 数组。
 
@@ -127,18 +127,18 @@ function targetPageParams() {
   }
 ```
 
-请参阅 [Adobe Recommendations API文档](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 有关使用交付和保存实体API的信息。
+有关使用交付和保存实体API的信息，请参阅[Adobe Recommendations API文档](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
 ## 将运算符用于多值属性 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 在算法包含规则、目录规则和排除规则中将运算符应用于多值自定义属性时，如果列表中至少有一个值符合运算规则（布尔运算“或”**），则结果将为 *true*。
 
-在以下示例中，规则为 `message contains abc`.
+在以下示例中，规则是`message contains abc`。
 
 * 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值包含 `abc`。
 * 用例 2：`entity.genre = ["abcde","de","ef"]`结果为 true，因为有一个值包含 `abc`。
 
-对于否定运算符，所有属性值必须都符合运算规则（布尔运算“和”**）。例如，如果运算符为 `notEquals`，结果将为 *false* 如果有任何值匹配。
+对于否定运算符，所有属性值必须都符合运算规则（布尔运算“和”**）。例如，如果运算符为`notEquals`，则当有任何值匹配时，结果将为&#x200B;*false*。
 
 有关算法包含规则、目录规则和排除规则中的运算符行为，请参阅以下部分。
 
@@ -150,7 +150,7 @@ function targetPageParams() {
 
 * 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值等于 `abc`。
 * 用例 2：`entity.genre = ["abc", "de", "ef"]`结果为 true，因为有一个值等于 `abc`。
-* 用例3： `entity.genre = ["abcde", "de", "ef"]`. 结果为 false，因为 `abc` 不等于列表中的任何元素。
+* 用例3：`entity.genre = ["abcde", "de", "ef"]`。 结果为 false，因为 `abc` 不等于列表中的任何元素。
 
 ### 不等于
 
@@ -160,7 +160,7 @@ function targetPageParams() {
 
 * 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 true，因为没有值等于 `abc`。
 * 用例 2：`entity.genre = ["abc", "de", "ef"]`结果为 false，因为有一个值等于 `abc`。
-* 用例3： `entity.genre = ["abcde", "de", "ef"]`. 结果为 true，因为 `abc` 不等于列表中的任何元素。
+* 用例3：`entity.genre = ["abcde", "de", "ef"]`。 结果为 true，因为 `abc` 不等于列表中的任何元素。
 
 ### 包含
 
@@ -188,7 +188,7 @@ function targetPageParams() {
 
 * 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值开始于 `abc`。
 * 用例 2：`entity.genre = ["abcde", "de", "ef"]`结果为 true，因为有一个值开始于 `abc`。
-* 用例3： `entity.genre = ["ab", "de", "abc"]`. 结果为 true，因为有一个值开始于 `abc`（不一定是列表中的第一个元素）。
+* 用例3：`entity.genre = ["ab", "de", "abc"]`。 结果为 true，因为有一个值开始于 `abc`（不一定是列表中的第一个元素）。
 
 ### 结束于
 

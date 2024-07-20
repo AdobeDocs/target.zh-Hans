@@ -7,8 +7,8 @@ feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3471'
-ht-degree: 90%
+source-wordcount: '3448'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 关于 [!DNL Adobe Target] [!DNL Recommendations] 活动的常见问题 (FAQ) 的列表。
 
-## 对具有数字值的自定义属性进行搜索时，为什么[!UICONTROL 目录搜索]不显示正确结果？
+## 对具有数字值的自定义属性进行搜索时，为什么[!UICONTROL Catalog Search]不显示正确结果？
 
 对具有数字值的自定义属性执行目录搜索时，结果将该自定义属性视为字符串类型，而非数字值。
 
@@ -54,7 +54,7 @@ ht-degree: 90%
 >
 >当信息源文件的状态从“正在导入项目”变为“正在准备搜索索引更新”时，信息源文件会被视为已导入。更新可能耗时 60 分钟以上才能反映在目录搜索用户界面中；当信息源状态变为“更新已完成”时，目录搜索即为最新。即使目录搜索并非最新，您的网站也会反映上方所列时间范围内的更新。最新的“目录搜索”索引更新时间将显示在“目录搜索”页面上。
 
-## 对我的[!UICONTROL 推荐]活动、优惠、促销或标准设置做出的更改需要多久才能反映在我的网站上？
+## 对我的[!UICONTROL Recommendations]活动、优惠、促销或标准设置做出的更改需要多久才能反映在我的网站上？
 
 * 对促销设置做出的更改最多需要五个小时才能反映在网站上。
 * 对其他标准设置做出的更改到下一次算法运行时才会反映在网站上。
@@ -63,12 +63,12 @@ ht-degree: 90%
    * 其他标准设置（例如“删除动态包含规则”、更改回顾窗口等）直到下一次算法运行才会纳入其中。
    * 算法运行由这些更改触发，但最多需要 24 小时才能完成。算法还按计划运行，每 12-24 小时一次。
 
-## 用户的行为（例如，单击产品A并购买产品B）需要多久才能反映在推荐中 *该* 用户是否接收？
+## 用户的行为（例如，单击产品A并购买产品B）需要多久才能反映在&#x200B;*用户收到的推荐*&#x200B;中？
 
 * 目前查看/购买过的产品/内容会影响用户在同一次页面浏览/[!DNL Target] 内容请求中收到的推荐。
-* 历史用户行为（例如“上次查看过的产品”、“最常查看的产品”）以及总体查看/购买历史记录会与该请求一起更新，并且会影响用户在下一次页面浏览/访问中收到的推荐[!DNL Target] 内容请求。 例如，“最近查看过的项目”和“为您推荐”算法会随每次产品查看/购买而更新，并反映在后续内容请求中。
+* 历史用户行为（例如“上次查看过的产品”、“最常查看的产品”）以及总体查看/购买历史记录会与该请求一起更新，并影响用户在下一次页面浏览/[!DNL Target]内容请求中收到的推荐。 例如，“最近查看过的项目”和“为您推荐”算法会随每次产品查看/购买而更新，并反映在后续内容请求中。
 
-## 用户的行为（例如，单击产品A并购买产品B）需要多久才能反映在推荐中 *其他* 用户是否会收到？
+## 用户的行为（例如，单击产品A并购买产品B）需要多久才能反映在&#x200B;*其他*&#x200B;用户收到的推荐中？
 
 用户行为汇总会纳入离线算法处理中，每个算法每隔 12-24 个小时运行一次。
 
@@ -95,25 +95,25 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果使用 mbox 中存在类别 ID 的位置，则标准选取器包含所有适用的标准。
 
-[!DNL Target] 具有 [筛选不兼容的标准](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 设置，用于控制算法选取器的智能过滤。
+[!DNL Target]具有[筛选不兼容的标准](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}设置以控制算法选取器的智能筛选。
 
 >[!NOTE]
 >
->此设置仅适用于在[!UICONTROL 可视化体验编辑器] (VEC) 中创建的活动。此设置不适用于在基于表单的体验编辑器中创建的活动（[!DNL Target] 没有位置上下文）。
+>此设置仅适用于在[!UICONTROL Visual Experience Composer] (VEC)中创建的活动。 此设置不适用于在基于表单的体验编辑器中创建的活动（[!DNL Target] 没有位置上下文）。
 
-要访问[!UICONTROL 筛选不兼容的标准]设置，请依次单击[!UICONTROL 推荐] > [!UICONTROL 设置]：
+要访问[!UICONTROL Filter Incompatible Criteria]设置，请单击[!UICONTROL Recommendations] > [!UICONTROL Settings]：
 
 ![recs_settings_filter图像](assets/recs_settings_filter.png)
 
-如果[!UICONTROL 筛选不兼容的标准]设置未启用，则 [!DNL Target] 不会对算法选择器中的算法进行筛选，因而会显示所有算法。
+如果未启用[!UICONTROL Filter Incompatible Criteria]设置，则[!DNL Target]不会筛选算法选择器中的算法，并且会显示所有算法。
 
-如果[!UICONTROL 筛选不兼容的标准] 设置已启用，则在 VEC 活动中，[!DNL Target] 会从选定的位置中读取实体 ID 和类别 ID，然后根据 `currentItem|currentCategory` 显示算法（前提是该位置中存在相应的值）。因此，默认情况下，算法选择器中仅会显示选定位置的兼容算法。
+如果[!UICONTROL Filter Incompatible Criteria]设置已启用，则在VEC活动中，[!DNL Target]会从选定的位置中读取实体ID和类别ID，然后根据`currentItem|currentCategory`显示算法（前提是该位置中存在相应的值）。 因此，默认情况下，算法选择器中仅会显示选定位置的兼容算法。
 
-如果“[!UICONTROL 筛选不兼容的标准]”设置已启用，您仍然能够查看不兼容的算法，方法是在选择标准时取消选中“[!UICONTROL 兼容]”复选框。
+如果启用了[!UICONTROL Filter Incompatible Criteria]设置，您仍可以通过取消选中条件时勾选[!UICONTROL Compatible]复选框来查看不兼容的算法。
 
 ![compatible_checkbox图像](assets/compatible_checkbox.png)
 
-下面列出了 [!DNL Target] 不会显示[!UICONTROL 兼容]复选框的几种特殊情况：
+以下列表包含[!DNL Target]不显示[!UICONTROL Compatible]复选框的特殊情况：
 
 * 位置中同时存在实体 ID 和类别 ID，在这种情况下将不进行任何筛选。
 * 您使用的是 [!DNL mbox.js] 版本 55 或更低版本。
@@ -129,10 +129,10 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
   ![product_catalog图像](assets/product_catalog.png)
 
-* 索引是否为最新？转到 [!DNL /target/products.html#productSearch] 并检查索引存在了多少个小时（例如，“3小时前编制了索引”）。 如有需要，您可以刷新索引。
+* 索引是否为最新？转到[!DNL /target/products.html#productSearch]并检查索引存在了多少个小时（例如，“3小时前编制了索引”）。 如有需要，您可以刷新索引。
 * 您是否更改过信息源或数据层，从而导致实体不再匹配收藏集规则？请确保大小写匹配（区分大小写）。
 * 信息源是否已成功运行？是否有人更改了 FTP 目录、密码等？
-* [!DNL Target] 会尽可能在最短的时间内生成交付更新（在客户的页面/应用程序中）。 但是，[!DNL Target] 还必须在 UI 中为营销人员提供某种表现方式。[!DNL Target] 并不推迟投放更新以等待 UI 更新变为同步。您可以使用 [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) 来查看收到请求时系统中包含哪些内容。
+* [!DNL Target]会尽可能在最短的时间内生成交付更新（在客户的页面/应用程序中）。 但是，[!DNL Target] 还必须在 UI 中为营销人员提供某种表现方式。[!DNL Target] 并不推迟投放更新以等待 UI 更新变为同步。您可以使用 [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) 来查看收到请求时系统中包含哪些内容。
 
 ## 一般的属性权重与特定于内容相似度的属性权重之间有何区别？ {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -244,7 +244,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 我是否可以在 [!DNL Recommendations Premium] 中使用在 [!DNL Adobe Recommendations Classic] 中创建的算法？
 
-[!DNL Recommendations Premium] 不支持 [!DNL Recommendations Classic] 中创建的算法。您或许可以使用 [!DNL Target Premium] 中的旧算法；但是，在 [!DNL Target Premium] UI 中停用或删除活动时，该算法可能会产生同步问题。有关这两种解决方案之间差异的更多信息，请参阅 [[!DNL Recommendations Classic] 对比 [!DNL Recommendations] 中的活动 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+[!DNL Recommendations Premium] 不支持 [!DNL Recommendations Classic] 中创建的算法。您或许可以使用 [!DNL Target Premium] 中的旧算法；但是，在 [!DNL Target Premium] UI 中停用或删除活动时，该算法可能会产生同步问题。有关这两种解决方案之间差异的更多信息，请参阅 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] 与 [!DNL Recommendations] 活动。
 
 ## 如何只推荐新文章或视频？ {#recommend-new-articles}
 
@@ -276,9 +276,9 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 >
 >此示例还可以使用匹配 `priorDate60` 值并将其作为 mbox 参数进行传递的参数来完成。
 
-### 使用时存在哪些已知问题 [!DNL Recommendations] 活动？
+### 使用[!DNL Recommendations]活动时出现哪些已知问题？
 
-以下是对于[!UICONTROL 推荐]活动已知的问题：
+以下是[!UICONTROL Recommendations]活动的已知问题：
 
 * 当 [!DNL Target] 用 getOffer() 返回 JSON 选件时，它返回的是 JSON 类型。但是，如果您返回 JSON 推荐设计，则它返回的是 HTML 类型。
 * 60 天未通过信息源或 API 收到更新之后，已到期的实体可正确地到期；但是，在到期后并不从目录搜索的索引中删除已到期的实体。当前也不从目录搜索的索引中删除通过信息源或 API 删除的实体。(IRI-857)

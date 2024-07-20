@@ -1,60 +1,60 @@
 ---
 keywords: 推荐键；推荐逻辑；当前类别；自定义属性；上次购买的项目；上次查看的项目；查看次数最多的项目；最喜爱的项目；热门程度；最近查看的项目；上次购买；上次查看次数最多；收藏；最近查看的项目
-description: 了解如何使用基于键的推荐，这些键使用访客行为上下文在Adobe中显示相关结果 [!DNL Target] Recommendations活动。
+description: 了解如何使用基于键的推荐，这些键使用访客行为上下文在Adobe [!DNL Target] Recommendations活动中显示相关结果。
 title: 如何使推荐基于推荐键？
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '4013'
-ht-degree: 34%
+source-wordcount: '3845'
+ht-degree: 33%
 
 ---
 
 # 使推荐基于推荐键
 
-基于算法的Recommendations使用访客行为上下文在中显示相关结果 [!DNL Adobe Target] [!DNL Recommendations] 活动。
+基于算法的Recommendations使用访客行为上下文在[!DNL Adobe Target] [!DNL Recommendations]活动中显示相关结果。
 
 每种算法类型提供了适合其类型的不同算法，如下表所示：
 
 | 算法类型 | 使用时间 | 可用的算法 |
 | --- | --- | --- |
-| [!UICONTROL 基于购物车] | 根据用户的购物车内容提供推荐。 | <ul><li>查看了这些项目，也查看了这些项目的人</li><li>查看了这些商品的人们购买了那些商品</li><li>购买了这些商品的人们也购买了这些商品</li></ul> |
-| [!UICONTROL 基于热门程度] | 根据项目在整个网站中的整体受欢迎程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目受欢迎程度提供推荐。 | <ul><li>全网站查看的次数最多</li><li>同类中查看次数最多</li><li>按项目属性查看的次数最多</li><li>全网站最畅销商品</li><li>按类别划分的畅销商品排名</li><li>按项目属性排名的最畅销商品</li><li>按Analytics量度排名</li></ul> |
-| [!UICONTROL 基于项目] | 根据查找的用户当前正在查看或最近查看过的项目的相似项目提供推荐。 | <ul><li>查看了这个项目，也查看了那个项目的人</li><li>查看了这个项目，但购买了那个项目的人</li><li>购买了这个项目，也购买了那个项目的人</li><li>具有相似属性的项目</li></ul> |
-| [!UICONTROL 基于用户] | 根据用户的行为提供推荐。 | <ul><li>最近查看的项目</li><li>为您推荐</li></ul> |
-| [!UICONTROL 自定义标准] | 根据您上传的自定义文件提出推荐。 | <ul><li>自定义算法</li></ul> |
+| [!UICONTROL Cart-Based] | 根据用户的购物车内容提供推荐。 | <ul><li>查看了这些项目，也查看了这些项目的人</li><li>查看了这些商品的人们购买了那些商品</li><li>购买了这些商品的人们也购买了这些商品</li></ul> |
+| [!UICONTROL Popularity-Based] | 根据项目在整个网站中的整体受欢迎程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目受欢迎程度提供推荐。 | <ul><li>全网站查看的次数最多</li><li>同类中查看次数最多</li><li>按项目属性查看的次数最多</li><li>全网站最畅销商品</li><li>按类别划分的畅销商品排名</li><li>按项目属性排名的最畅销商品</li><li>按Analytics量度排名</li></ul> |
+| [!UICONTROL Item-Based] | 根据查找的用户当前正在查看或最近查看过的项目的相似项目提供推荐。 | <ul><li>查看了这个项目，也查看了那个项目的人</li><li>查看了这个项目，但购买了那个项目的人</li><li>购买了这个项目，也购买了那个项目的人</li><li>具有相似属性的项目</li></ul> |
+| [!UICONTROL User-Based] | 根据用户的行为提供推荐。 | <ul><li>最近查看的项目</li><li>为您推荐</li></ul> |
+| [!UICONTROL Custom Criteria] | 根据您上传的自定义文件提出推荐。 | <ul><li>自定义算法</li></ul> |
 
 每个标准都在其自身的选项卡中进行定义。流量会在不同的标准测试中均匀拆分。换句话说，如果您有两个标准，则流量会在这两个标准之间平均拆分。如果您有两个标准和两个设计，则流量会在四种组合之间平均拆分。您也可指定一定数量的网站访客（百分比），这部分访客将看到默认内容以进行对比。在这种情况下，指定百分比的访客将看到默认内容，其余内容将在您的标准和设计组合中拆分。
 
-有关创建标准和定义其算法类型和算法的更多信息，请参阅 [创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+有关创建标准和定义其算法类型和算法的详细信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
 不同的推荐算法可以将其自身放置在不同类型的页面上。 有关每种算法类型及其可用算法的更多信息，请参阅以下部分。
 
 ## 基于购物车 {#cart-based}
 
-此 [!UICONTROL 基于购物车] 算法类型允许根据访客当前购物车的内容推荐项目。 推荐键是通过提供的 [mbox参数 `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 以逗号分隔的值表示。 仅考虑前 10 个值。
+[!UICONTROL Cart-Based]算法类型允许根据访客当前购物车的内容推荐项目。 推荐键是通过逗号分隔值的[mbox参数`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}提供的。 仅考虑前 10 个值。
 
-基于购物车的推荐逻辑与&quot;[!UICONTROL 为您推荐]“基于用户的算法和到”[!UICONTROL 查看了这些商品的人们购买了那些商品]”和“[!UICONTROL 购买了这些商品的人们也购买了这些商品]”基于项目的算法。
+基于购物车的推荐逻辑类似于基于用户的算法“[!UICONTROL Recommended For You]”以及基于项目的算法“[!UICONTROL People Who Viewed These, Bought Those]”和“[!UICONTROL People Who Bought These, Bought Those]”。
 
-[!DNL Target] 使用协同过滤技术确定访客购物车中每个项目的相似度，然后组合每个项目的这些行为相似度以获取合并列表。
+[!DNL Target]使用协作过滤技术确定访客购物车中每个项目的相似性，然后合并每个项目的这些行为相似性，以获取合并列表。
 
-[!DNL Target] 还使营销人员可以选择查看单个会话或多个会话中的访客行为：
+[!DNL Target]还使营销人员可以选择查看单个会话或多个会话中的访客行为：
 
-* **[!UICONTROL 单个会话]**：基于其他访客在单个会话中的操作。
+* **[!UICONTROL Single Session]**：基于其他访客在单个会话中的操作。
 
   当产品根据使用情况、场合或事件强烈地“配合”在一起时，查看单个会话中的行为可能会有意义。 例如，一位访客正在购买打印机，可能还需要油墨和纸张。 或者，一位访客正在购买花生酱，可能还需要面包和果冻。
 
-* **[!UICONTROL 跨会话]**：基于其他访客在多个会话中的操作。
+* **[!UICONTROL Across Sessions]**：基于其他访客在多个会话中所执行的操作。
 
   当感觉产品强烈地根据访客偏好或品味彼此相互“配合”时，查看多个会话中的行为可能会有意义。 例如，访客喜欢《星球大战》，可能还喜欢印第安纳·琼斯，即使访客不一定想在同一时间观看两部电影。 或者，访客喜欢棋类游戏“Codenames”，并且可能还喜欢棋类游戏“Avalon”，即使访客无法同时玩这两种游戏。 
 
-[!DNL Target] 根据每位访客当前购物车中的商品为其提供推荐，无论您查看的是单个会话中的访客行为还是多个会话中的访客行为。
+[!DNL Target]会根据每位访客当前购物车中的商品为其提供推荐，无论您查看的是单个会话中的访客行为还是多个会话中的访客行为。
 
-以下算法适用于 [!UICONTROL 基于购物车] 算法类型：
+以下算法可用于[!UICONTROL Cart-Based]算法类型：
 
-### [!UICONTROL 查看了这个项目，也查看了那些项目的人]
+### [!UICONTROL People Who Viewed This, Viewed Those]
 
 推荐在查看了指定项目的同一会话中最常查看的项目。
 
@@ -99,11 +99,11 @@ ht-degree: 34%
 * 上次查看的项目
 * 查看次数最多的项目
 
-## [!UICONTROL 基于热门程度]
+## [!UICONTROL Popularity-Based]
 
-此 [!UICONTROL 基于热门程度] 算法类型允许您根据整个网站中项目的整体热门程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目热门程度进行推荐。
+[!UICONTROL Popularity-Based]算法类型允许您根据整个网站中项目的整体热门程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目热门程度进行推荐。
 
-以下算法适用于 [!UICONTROL 基于热门程度] 算法类型：
+以下算法可用于[!UICONTROL Popularity-Based]算法类型：
 
 ### 全网站查看的次数最多 {#most-viewed}
 
@@ -172,13 +172,13 @@ ht-degree: 34%
 
 ### 按Analytics量度排名
 
-显示“前x个”，其中 *x* 是任意的 [!DNL Analytics] 量度。 使用来自mbox的行为数据时，您可以使用“最畅销”或“查看次数最多”（x =“已出售”或x =“已查看”）。 如果您使用的是 [!DNL Adobe Analytics]，您可以使用x = &quot;购物车加货次数&quot;或其他 [!DNL Analytics] 量度。
+显示“前x个”，其中&#x200B;*x*&#x200B;是任意[!DNL Analytics]量度。 使用来自mbox的行为数据时，您可以使用“最畅销”或“查看次数最多”（x =“已出售”或x =“已查看”）。 如果您使用的是来自[!DNL Adobe Analytics]的行为数据，则可以使用x = &quot;购物车添加次数&quot;或一些其他[!DNL Analytics]量度。
 
-## [!UICONTROL 基于项目]
+## [!UICONTROL Item-Based]
 
-此 [!UICONTROL 基于项目] 推荐类型允许您根据查找与用户当前正在查看或最近查看过的项目类似的项目来进行推荐。
+[!UICONTROL Item-Based]推荐类型允许您根据用户当前正在查看或最近查看的项目的相似项目进行推荐。
 
-以下算法适用于 [!UICONTROL 基于项目] 算法类型：
+以下算法可用于[!UICONTROL Item-Based]算法类型：
 
 ### 查看了这个项目，也查看了那个项目的人 {#viewed-viewed}
 
@@ -240,28 +240,28 @@ ht-degree: 34%
 * 上次查看的项目
 * 查看次数最多的项目
 
-有关更多信息，请参阅 [内容相似度](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+有关详细信息，请参阅[内容相似度](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)。
 
-## [!UICONTROL 基于用户]
+## [!UICONTROL User-Based]
 
 通过基于用户的算法类型，可根据用户的行为提供推荐。
 
-以下算法适用于 [!UICONTROL 基于用户] 算法类型：
+以下算法可用于[!UICONTROL User-Based]算法类型：
 
 ### 最近查看的项目 {#recently-viewed}
 
 使用访客的历史记录（跨会话）根据设计中的版块数量显示访客最近查看过的 *x* 个项目。
 
-“最近查看的项目”算法会返回特定于给定的结果 [环境](/help/main/administrating-target/hosts.md). 如果两个网站属于不同的环境，并且访客在两个网站之间切换访问，则每个网站仅显示相应网站的最近查看的项目。如果两个网站位于同一环境中，并且访客在两个网站之间切换访问，则访客会看到两个网站的最近查看的相同项目。
+“最近查看的项目”算法返回特定于给定[环境](/help/main/administrating-target/hosts.md)的结果。 如果两个网站属于不同的环境，并且访客在两个网站之间切换访问，则每个网站仅显示相应网站的最近查看的项目。如果两个网站位于同一环境中，并且访客在两个网站之间切换访问，则访客会看到两个网站的最近查看的相同项目。
 
 >[!NOTE]
 >
->您不能使用 [!UICONTROL 最近查看的项目] 备用推荐的标准。
+>您无法将[!UICONTROL Recently Viewed Items]条件用于备份推荐。
 
-[!UICONTROL 最近查看的项目]可以筛选/Media，以便仅显示具有特定属性的项目。
+可以筛选[!UICONTROL Recently Viewed Items]/媒体，以便仅显示具有特定属性的项目。
 
 * 与推荐中的其他标准一样，“最近查看的项目”标准也可配置。
-* 您可以使用 [收藏集](/help/main/c-recommendations/c-products/collections.md)， [排除项](/help/main/c-recommendations/c-products/exclusions.md)、和 [包含项](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) （包括针对价格和库存的特殊规则）的方式与任何其他标准相同。
+* 您可以使用与任何其他条件相同的方式使用[收藏集](/help/main/c-recommendations/c-products/collections.md)、[排除项](/help/main/c-recommendations/c-products/exclusions.md)和[包含项](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)（包括用于价格和库存的特殊规则）。
 
 可能的用例包括，具有多个企业的跨国公司可能有一个跨多个数字资产的访客查看项目。 在这种情况下，您可以限制最近查看的项目，以便仅显示之前查看的相应财产中的项目。这样可防止最近查看过的项目显示在其他数字资产的网站上。
 
@@ -269,7 +269,7 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->[!UICONTROL 最近查看的项目] 遵循排除全局设置和活动的选定收藏集设置。 如果某个项目被全局排除规则排除在外，或者未包含在选定的收藏集中，则不会显示该项目。 因此，在使用 [!UICONTROL 最近查看的项目] 标准，通常应使用“所有收藏集”设置。
+>[!UICONTROL Recently Viewed Items]尊重排除全局设置和活动的选定收藏集设置。 如果某个项目被全局排除规则排除在外，或者未包含在选定的收藏集中，则不会显示该项目。 因此，在使用[!UICONTROL Recently Viewed Items]标准时，通常应使用“所有收藏集”设置。
 
 ### 为您推荐 {#recommended-for-you}
 
@@ -303,12 +303,12 @@ ht-degree: 34%
 
 您可以基于自己的自定义标准输出进行实时筛选。例如，您可以将推荐项目限制为访客最喜欢的类别或品牌。这样，您便能够将离线计算与实时筛选结合使用。
 
-此功能意味着您可以使用 [!DNL Target] 以针对离线计算的推荐或管理的自定义列表添加个性化。 这样做可以将数据科学和研究与 Adobe 行之有效的众多功能（包括交付、运行时筛选、A/B 测试、定位、报表、集成，等等）结合起来。
+此功能意味着您可以使用[!DNL Target]来基于离线计算的推荐或管理的自定义列表添加个性化。 这样做可以将数据科学和研究与 Adobe 行之有效的众多功能（包括交付、运行时筛选、A/B 测试、定位、报表、集成，等等）结合起来。
 
 通过在自定义标准中添加包含规则，您可以将原本为静态的推荐转变为基于访客兴趣的动态推荐。
 
 * 与推荐中的其他标准一样，自定义标准也可配置。
-* 您可以使用 [收藏集](/help/main/c-recommendations/c-products/collections.md)， [排除项](/help/main/c-recommendations/c-products/exclusions.md)、和 [包含项](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) （包括针对价格和库存的特殊规则）的方式与任何其他标准相同。
+* 您可以使用与任何其他条件相同的方式使用[收藏集](/help/main/c-recommendations/c-products/collections.md)、[排除项](/help/main/c-recommendations/c-products/exclusions.md)和[包含项](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)（包括用于价格和库存的特殊规则）。
 
 用例可能包括：
 
@@ -318,7 +318,7 @@ ht-degree: 34%
 
 ## 推荐键 {#keys}
 
-以下推荐键可从 [!UICONTROL 推荐键] 下拉列表：
+[!UICONTROL Recommendation Key]下拉列表中提供了以下推荐键：
 
 ### 当前项目 {#current-item}
 
@@ -330,12 +330,12 @@ ht-degree: 34%
 
 可以与以下算法一起使用：
 
-* [!UICONTROL 具有相似属性的项目]
-* [!UICONTROL 查看了这个项目，也查看了那个项目的人]
-* [!UICONTROL 查看了这个项目，但购买了那个项目的人]
-* [!UICONTROL 购买了这个项目，也购买了那个项目的人]
+* [!UICONTROL Items with similar attributes]
+* [!UICONTROL People Who Viewed This, Viewed That]
+* [!UICONTROL People Who Viewed This, Bought That]
+* [!UICONTROL People Who Bought This, Bought That]
 
-使用 [!UICONTROL 当前项目] 推荐键位于以下位置：
+使用以下位置在您的网站上使用[!UICONTROL Current Item]推荐键：
 
 * 单项目页面，例如产品页面。
 * 请勿在空的搜索结果页面上使用。
@@ -346,12 +346,12 @@ ht-degree: 34%
 
 可以与以下算法一起使用：
 
-* [!UICONTROL 具有相似属性的项目]
-* [!UICONTROL 查看了这个项目，也查看了那个项目的人]
-* [!UICONTROL 查看了这个项目，但购买了那个项目的人]
-* [!UICONTROL 购买了这个项目，也购买了那个项目的人]
+* [!UICONTROL Items with similar attributes]
+* [!UICONTROL People Who Viewed This, Viewed That]
+* [!UICONTROL People Who Viewed This, Bought That]
+* [!UICONTROL People Who Bought This, Bought That]
 
-使用 [!UICONTROL 上次购买的项目] 推荐键位于以下位置：
+使用以下位置在您的网站上使用[!UICONTROL Last Purchased Item]推荐键：
 
 * 主页，“我的帐户”页面，站外广告。
 * 请勿在产品页面或与购买相关的页面上使用。
@@ -360,22 +360,22 @@ ht-degree: 34%
 
 您可以使推荐基于自定义配置文件属性的值。例如，假定您要根据访客最近添加到其队列中的影片显示推荐的影片。
 
-1. 从以下位置选择自定义配置文件属性 **[!UICONTROL 推荐键]** 下拉列表（例如“最后添加到观看列表的节目”）。
-1. 然后选择您的 **[!UICONTROL 推荐逻辑]** （例如“查看了这个项目，也查看了那个项目的人”）。
+1. 从&#x200B;**[!UICONTROL Recommendation Key]**&#x200B;下拉列表中选择自定义配置文件属性（例如，“最近添加到观看列表的节目”）。
+1. 然后选择您的&#x200B;**[!UICONTROL Recommendation Logic]**（例如“查看了这个项目，也查看了那个项目的人”）。
 
    ![“创建新标准”对话框](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
 如果自定义配置文件属性与单个实体 ID 不直接匹配，则需要向 [!DNL Recommendations] 说明您希望如何与实体进行匹配。例如，假设您要显示访客最喜爱的品牌中的最畅销商品项目。
 
-1. 从以下位置选择自定义配置文件属性 **[!UICONTROL 推荐键]** 下拉列表（例如“最喜爱的品牌”）。
+1. 从&#x200B;**[!UICONTROL Recommendation Key]**&#x200B;下拉列表中选择自定义配置文件属性（例如，“最喜爱的品牌”）。
 
-1. 然后选择 **[!UICONTROL 推荐逻辑]** 要与此键（例如，“最畅销商品”）一起使用。
+1. 然后选择要与此键（例如，“最畅销商品”）一起使用的&#x200B;**[!UICONTROL Recommendation Logic]**。
 
-   此时会显示[!UICONTROL 按以下项的唯一值分组]选项。
+   将显示[!UICONTROL Group By Unique Value Of]选项。
 
-1. 选择与您所选的键匹配的实体属性。 在本例中，“最喜爱的品牌”与匹配 `entity.brand`.
+1. 选择与您所选的键匹配的实体属性。 在本例中，“最喜爱的品牌”与`entity.brand`匹配。
 
-   [!DNL Recommendations] 现在，将为每个品牌生成“最畅销商品”列表，并根据访客“最喜爱的品牌”配置文件属性中存储的值向访客展示相应的“最畅销商品”列表。
+   [!DNL Recommendations]现在会为每个品牌生成“最畅销商品”列表，并根据访客“最喜爱的品牌”配置文件属性中存储的值向访客展示相应的“最畅销商品”列表。
 
    ![“创建新标准”对话框 2](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
@@ -385,12 +385,12 @@ ht-degree: 34%
 
 可以与以下算法一起使用：
 
-* [!UICONTROL 具有相似属性的项目]
-* [!UICONTROL 查看了这个项目，也查看了那个项目的人]
-* [!UICONTROL 查看了这个项目，但购买了那个项目的人]
-* [!UICONTROL 购买了这个项目，也购买了那个项目的人]
+* [!UICONTROL Items with similar attributes]
+* [!UICONTROL People Who Viewed This, Viewed That]
+* [!UICONTROL People Who Viewed This, Bought That]
+* [!UICONTROL People Who Bought This, Bought That]
 
-使用 [!UICONTROL 上次查看的项目] 推荐键位于以下位置：
+使用以下位置在您的网站上使用[!UICONTROL Last Viewed Item]推荐键：
 
 * 主页，“我的帐户”页面，站外广告。
 * 请勿在产品页面或与购买相关的页面上使用。
@@ -403,10 +403,10 @@ ht-degree: 34%
 
 此推荐键可与以下算法一起使用：
 
-* [!UICONTROL 具有相似属性的项目]
-* [!UICONTROL 查看了这个项目，也查看了那个项目的人]
-* [!UICONTROL 查看了这个项目，但购买了那个项目的人]
-* [!UICONTROL 购买了这个项目，也购买了那个项目的人]
+* [!UICONTROL Items with similar attributes]
+* [!UICONTROL People Who Viewed This, Viewed That]
+* [!UICONTROL People Who Viewed This, Bought That]
+* [!UICONTROL People Who Bought This, Bought That]
 
 ### 当前类别  {#current-category}
 
@@ -421,7 +421,7 @@ ht-degree: 34%
 * 最畅销商品
 * 查看次数最多
 
-使用 [!UICONTROL 当前类别] 推荐键位于以下位置：
+使用以下位置在您的网站上使用[!UICONTROL Current Category]推荐键：
 
 * 单类别页面。
 * 请勿在空的搜索结果页面上使用。
@@ -439,7 +439,7 @@ ht-degree: 34%
 * 最畅销商品
 * 查看次数最多
 
-使用 [!UICONTROL 当前类别] 推荐键位于以下位置：
+使用以下位置在您的网站上使用[!UICONTROL Current Category]推荐键：
 
 * 单类别页面。
 * 请勿在空的搜索结果页面上使用。

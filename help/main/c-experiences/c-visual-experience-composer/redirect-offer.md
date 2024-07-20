@@ -1,21 +1,21 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: 了解如何在Adobe中使用“重定向到URL”选项 [!DNL Target] ，而不是在同一页面上显示内容。
-title: 我是否可以将页面重定向到其他URL？
+description: 了解当您希望将访客发送到其他Adobe而不是在同一页上显示内容时，如何使用 [!DNL Target] 中的“重定向到URL”选项。
+title: 能否将页面重定向到其他URL？
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 82%
+source-wordcount: '475'
+ht-degree: 68%
 
 ---
 
 # 重定向到 URL
 
-使用 [!UICONTROL 重定向到URL] 中的选项 [!DNL Adobe Target] ，而不是在同一页面上显示内容。
+如果要将访客发送到其他页面而不是在同一页面上显示内容，请在[!DNL Adobe Target]中使用[!UICONTROL Redirect to URL]选项。
 
-您可能有两个完全不同的页面来进行测试，而非只更改页面中的部分内容。在此示例中，您的 A/B 测试要比较页面 A 与页面 B。为此，需设置一个包含两个体验的 A/B 测试营销活动：其中一个体验指向默认的页面 A，而另一个体验则重定向到页面 B。在“体验操作”菜单中（可通过单击体验所对应的字母标签找到此菜单），选择&#x200B;**[!UICONTROL 重定向到 URL]**，并指定页面 B 的 URL。该选件会配置为将访客重定向到其他页面。
+您可能有两个完全不同的页面来进行测试，而非只更改页面中的部分内容。在本例中，您的A/B测试要比较页面A与页面B。为此，需设置一个包含两个体验的A/B测试营销活动：一个体验指向默认页面A，另一个体验重定向到页面B。在“体验操作”菜单中（可通过单击体验的字母标签找到），选择&#x200B;**[!UICONTROL Redirect to URL]**&#x200B;并指定页面B的URL。该选件会配置为将访客重定向到其他页面。
 
 重定向选件执行 JavaScript 代码以重定向浏览器。由于该选件使用了 `window.location.replace();` 方法，因此从中对访客进行重定向的页面不会存储到浏览器历史记录中。这允许访客仍然使用浏览器中的返回键。
 
@@ -31,7 +31,7 @@ ht-degree: 82%
 要创建重定向选件，请执行以下操作：
 
 1. 创建一个体验。
-1. 将鼠标悬停在鼠标体验上，然后单击重定向到URL图标(![icon_redirect_url图像](assets/icon_redirect_url.png))。
+1. 将鼠标悬停在鼠标体验上，然后单击“重定向到URL”图标（![icon_redirect_url图像](assets/icon_redirect_url.png)）。
 
    ![exp_actions图像](assets/exp_actions.png)
 

@@ -1,6 +1,6 @@
 ---
 keywords: 目录搜索；目录；搜索；排除项；收藏集；过滤器；推荐
-description: 了解如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search] 要查找产品或内容，请从目录中删除项目等。
+description: 了解如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]查找产品或内容、从目录中删除项目等。
 title: 如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
@@ -16,21 +16,21 @@ ht-degree: 21%
 
 # [!UICONTROL Catalog Search]
 
-此 [!UICONTROL Catalog Search] 页面位置 [!DNL Adobe Recommendations] 帮助您在目录中查找产品或内容。 您可以在此页面上执行的最基本任务是搜索项目。 此外，您还可以更改环境、筛选Facet、修改表中的列、添加新搜索Facet等。
+[!DNL Adobe Recommendations]中的[!UICONTROL Catalog Search]页面可帮助您在目录中查找产品或内容。 您可以在此页面上执行的最基本任务是搜索项目。 此外，您还可以更改环境、筛选Facet、修改表中的列、添加新搜索Facet等。
 
 目录指代您的整个产品集（实体）。您的目录可以包含许多收藏集，这是一种在逻辑存储桶中组织产品的方法。
 
-## 访问 [!UICONTROL Catalog Search]
+## 访问[!UICONTROL Catalog Search]
 
-要访问 [!UICONTROL Catalog Search] 页面，单击 **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+要访问[!UICONTROL Catalog Search]页面，请单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**。
 
 ![目录搜索页面](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
 
 ## 执行简单搜索
 
-1. 在中键入搜索词 **[!UICONTROL Search In]** 字段。
+1. 在&#x200B;**[!UICONTROL Search In]**&#x200B;字段中键入搜索词。
 
-1. （可选）您可以通过从选项菜单中选择搜索选项来优化搜索，当您在 [!UICONTROL Search In] 字段。
+1. （可选）您可以通过从单击[!UICONTROL Search In]字段中的向下箭头时显示的选项菜单中选择搜索选项来优化搜索。
 
    搜索选项包括：
 
@@ -46,7 +46,7 @@ ht-degree: 21%
    >
    >目前没有可让您更改属性类型的功能。 要作出改变，请[提出客户问题](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，其中引用需要将类型从字符串变为数字的属性。
 
-   您还可以使用过滤器查找所需的产品。 例如，通过单击 **[!UICONTROL Show Filters]** 图标( ![“显示过滤器”图标](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) )，展开 [!UICONTROL Collections] 彩块化，然后选择一个或多个收藏集，目录中显示属于所选收藏集的所有产品。
+   您还可以使用过滤器查找所需的产品。 例如，通过单击&#x200B;**[!UICONTROL Show Filters]**&#x200B;图标（![显示过滤器图标](/help/main/c-recommendations/c-products/assets/icon-show-filters.png)）、展开[!UICONTROL Collections]方面，然后选择一个或多个收藏集，目录中属于所选收藏集的所有产品都会显示。
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -88,7 +88,7 @@ You can use [!UICONTROL Advanced Search] to further refine your search results o
 
 ## 刷新目录
 
-上传第一个信息源时，将自动创建目录的索引，并根据以下内容刷新： [指定的计划](/help/main/c-recommendations/c-products/feeds.md#steps).
+上传第一个信息源时，将自动创建目录索引，并根据[指定的计划](/help/main/c-recommendations/c-products/feeds.md#steps)刷新。
 
 通过信息源文件、API 或 mbox 更新接收更新时，目录将自动刷新。更新通常在一小时内完成。 如果更新正在进行，则显示最近的更新开始时间。如果没有正在进行的更新，则显示最近的更新开始时间和结束时间。
 
@@ -108,11 +108,11 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 ## 更改环境
 
-[环境](/help/main/administrating-target/environments.md) 让您能够组织站点和预生产环境，以便轻松管理和分隔报表。
+[环境](/help/main/administrating-target/environments.md)允许您组织站点和生产前环境，以便轻松管理和分隔报表。
 
-1. 单击显示过滤器图标( ![“显示过滤器”图标](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) )。
+1. 单击“显示筛选器”图标（![显示筛选器图标](/help/main/c-recommendations/c-products/assets/icon-show-filters.png)）。
 
-1. 从中选择所需的环境 **[!UICONTROL Environment]** 下拉列表。
+1. 从&#x200B;**[!UICONTROL Environment]**&#x200B;下拉列表中选择所需的环境。
 
 <!-- ## Modify the Catalog Search page (filters and columns)
 
@@ -134,9 +134,9 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## 修改列
 
-您可以临时修改 [!UICONTROL Catalog Search] 页面。
+您可以临时修改[!UICONTROL Catalog Search]页面上的活动列。
 
-1. 单击 **[!UICONTROL Customize Table]** 图标(  ![“自定义表”图标](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) )。
+1. 单击&#x200B;**[!UICONTROL Customize Table]**&#x200B;图标（![自定义表格图标](/help/main/c-recommendations/c-products/assets/icon-customize-table.png)）。
 
 1. 选择或取消选择要显示或隐藏的所需列。
 

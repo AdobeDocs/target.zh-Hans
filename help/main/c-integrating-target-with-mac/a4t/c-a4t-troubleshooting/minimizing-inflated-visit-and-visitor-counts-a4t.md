@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 100%
+source-wordcount: '1320'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 100%
 >* Experience Cloud 访客 ID 服务：visitorAPI.js 版本 2.3.0 或更高版本。
 >* Adobe Analytics：appMeasurement.js 版本 2.1.
 >* Adobe Target：at.js 版本 0.9.6 或更高版本（如果将重定向选件与 A4T 配合使用，则不包括版本 1.1.0）。
-
 
 ## 更改了哪些内容？ {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
@@ -56,7 +55,7 @@ Adobe 有一些客户遇到了 [!DNL Analytics] 中的部分数据比例较高�
 | ![步骤 1](assets/step1_icon.png) | 确保在 [!DNL Target] 中选择的报表包与活动所在的页面上的报表包相同。 |
 | ![步骤 2](assets/step2_icon.png) | 确保 visitorAPI.js、appMeasurement.js 和 at.js 库的版本与 A4T 兼容。要了解有关实施要求的更多信息，请参阅[在实施之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)。 |
 | ![步骤 3](assets/step3_icon.png) | 确保在所有离开页面的 [!DNL Target] 和 [!DNL Analytics] 调用上设置了相同的 SDID。<br/>使用网络分析器或调试工具确保 [!DNL Target] 调用上的 `mboxMCSDID` 参数与 [!DNL Analytics] 调用中的 SDID 参数相同。 |
-| ![步骤 4](assets/step4_icon.png) | 确认实施库在您的网站上以正确的顺序加载。有关更多信息，请参阅[Analytics for Target 实施](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)中的步骤 8。 |
+| ![步骤 4](assets/step4_icon.png) | 确认实施库在您的网站上以正确的顺序加载。有关详细信息，请参阅[Analytics for Target实施](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)。 |
 
 ## 怎样才能了解我有多少部分数据？ {#section_89B663E2824A4805AB934153508A0F4B}
 

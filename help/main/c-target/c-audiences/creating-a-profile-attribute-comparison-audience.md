@@ -6,38 +6,38 @@ feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 53%
+source-wordcount: '412'
+ht-degree: 49%
 
 ---
 
 # 创建配置文件属性比较受众
 
-在中定义受众 [!DNL Adobe Target] 比较您的两个配置文件属性 [受众库](/help/main/c-target/c-audiences/audiences.md) 或在 [仅限该活动的受众](/help/main/c-target/creating-activity-only-audience.md). 使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
+在[!DNL Adobe Target]中定义受众以比较[受众库](/help/main/c-target/c-audiences/audiences.md)或[仅限该活动的受众](/help/main/c-target/creating-activity-only-audience.md)的两个配置文件属性。 使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
 
 >[!NOTE]
 >
->此功能仅适用于[[!UICONTROL 访客配置文件]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)类别。
+>此功能仅适用于[[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)类别。
 
 ## 概述 {#section_303CBC78194D49A2A004945D425441E1}
 
-受众由确定在 [!DNL Target] 活动中包含或排除哪些访客的规则来定义。一个受众定义可以包含多个规则，而每个规则可以包含多个参数。如果您包含的某个规则使用 [!UICONTROL 访客资料] 类别时，您可以根据访客配置文件属性的特定值定义规则，或将该属性的值与另一个访客配置文件属性进行比较。
+受众由确定在 [!DNL Target] 活动中包含或排除哪些访客的规则来定义。一个受众定义可以包含多个规则，而每个规则可以包含多个参数。如果您包括的规则之一使用[!UICONTROL Visitor Profile]类别，则可以根据访客配置文件属性的特定值定义规则，或将该属性的值与另一个访客配置文件属性进行比较。
 
-例如，假设您在一家家具公司工作，并将两个客户倾向得分上传到中 [!DNL Target]：
+例如，假设您在一家家具公司工作，并将两个客户倾向得分上传到[!DNL Target]：
 
 * 在接下来的 90 天内购买餐厅家具的可能性
 * 在接下来的 90 天内购买客厅家具的可能性
 
-您可以创建一个受众，将其定义为购买餐厅家具的倾向大于购买客厅家具的倾向。[!DNL Target] 然后，会动态比较特定访客的餐厅和起居室的倾向分数，以确定该访客是否符合此受众的条件。
+您可以创建一个受众，将其定义为购买餐厅家具的倾向大于购买客厅家具的倾向。然后，[!DNL Target]将动态比较特定访客的餐厅和起居室的倾向分数，以确定该访客是否符合该受众的条件。
 
-有关更多信息，请参阅 [将数据导入Target的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+有关详细信息，请参阅将数据导入Target的[方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 ## 创建配置文件属性比较受众 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. 单击 **[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**.
+1. 单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
 1. 命名受众并添加可选描述。
-1. 拖放 **[!UICONTROL 访客资料]** 放入受众生成器窗格。
-1. 从&#x200B;**[!UICONTROL 访客配置文件]**&#x200B;下拉列表中选择一个属性：
+1. 将&#x200B;**[!UICONTROL Visitor Profile]**&#x200B;拖放到受众生成器窗格中。
+1. 从&#x200B;**[!UICONTROL Visitor Profile]**&#x200B;下拉列表中选择一个属性：
 
    ![倾向得分 1](assets/propensity_score_1.png)
 
@@ -45,7 +45,7 @@ ht-degree: 53%
 
    ![倾向得分 2](assets/propensity_score_2.png)
 
-1. 从&#x200B;**[!UICONTROL 选择比较类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 属性]**。
+1. 从&#x200B;**[!UICONTROL Choose Comparison Type]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Attribute]**。
 
    “静态值”比较类型允许您将访客配置文件属性与特定值进行比较。
 
@@ -59,9 +59,9 @@ ht-degree: 53%
 
    ![propensity_score_4图像](assets/propensity_score_4.png)
 
-1. 单击&#x200B;**[!UICONTROL 完成]**。
+1. 单击 **[!UICONTROL Done]**。
 
-## 培训视频 ![“概述”标记](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## 培训视频![概述徽章](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 请观看以下视频，了解更多信息以及可使用此功能的情景：
 

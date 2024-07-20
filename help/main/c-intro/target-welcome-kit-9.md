@@ -6,22 +6,22 @@ feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 82%
+source-wordcount: '657'
+ht-degree: 78%
 
 ---
 
 # 第 9 章：后续步骤和资源
 
-我们已经介绍了运行您的第一个活动的基础知识。 我们希望该活动向您和您的公司表明，使用 [!DNL Adobe Target] 进行优化和个性化对于提高业务盈利能力有着巨大潜力。而这仅仅是开始。是时候考虑一下您的第二项活动将侧重于什么了？ 请考虑创建要优先运行的活动的列表。您将惊讶地发现，您能以多快的速度看到每项活动如何改善客户体验并推动业务取得成功。
+我们已经介绍了运行您的第一个活动的基础知识。 我们希望该活动向您和您的公司表明，使用 [!DNL Adobe Target] 进行优化和个性化对于提高业务盈利能力有着巨大潜力。而这仅仅是开始。您应该考虑一下对于您的第二个活动将侧重于什么方面？ 请考虑创建要优先运行的活动的列表。您将惊讶地发现，您能以多快的速度在一个个活动中改善客户体验并推动业务成功。
 
-顺便说一下，您还有许多方式可详细了解测试、个性化和使用 [!DNL Target]。请查看下方的资源列表以开始积累这些知识。收听我们的网络研讨会、阅读 Adobe Target 博客、参加 Adobe Summit 并在 Adobe Target 网络社区中积极交流。不要忘记，我们一直致力于帮助您启动项目并迈向成功之路。 请随时联系。
+顺便说一下，您还有许多方式可详细了解测试、个性化和使用 [!DNL Target]。请查看下方的资源列表以开始积累这些知识。收听我们的网络研讨会、阅读 Adobe Target 博客、参加 Adobe Summit 并在 Adobe Target 网络社区中积极交流。不要忘记，我们一直以来都致力于帮助您启动项目并迈向成功之路。 请随时联系。
 
-我们整理了一个列表，提供了许多宝贵信息，可帮助您获得更多关于使用进行优化和个性化的知识 [!DNL Target].
+我们已整理好有条理的重要信息列表，以帮助您获得更多关于使用[!DNL Target]进行优化和个性化的知识。
 
 ## 资源链接
 
-* **设置 Adobe Target**：帮助您管理 [!DNL Adobe Target] 的信息，包括[!UICONTROL 可视体验编辑器] (VEC)、报表、[!DNL Scene7] 配置、实现、主机、环境、响应令牌和用户的配置设置。请参阅[管理 Target 概述](/help/main/administrating-target/administrating-target.md)。
+* **设置Adobe Target**：帮助您管理[!DNL Adobe Target]的信息，包括[!UICONTROL Visual Experience Composer] (VEC)、报表、[!DNL Scene7]配置、实现、主机、环境、响应令牌和用户的配置设置。 请参阅[管理 Target 概述](/help/main/administrating-target/administrating-target.md)。
 * **Adobe Target 产品文档**：关于 Adobe Target 所需了解的一切。请参阅 [Adobe Target 产品文档](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=zh-Hans)。
 * **Adobe Target API 和 SDK 文档**：了解如何对客户端应用程序、服务器端应用程序、移动应用程序、物联网等上实现 [!DNL Target]。此外，还可了解如何与第三方解决方案交换您的 [!DNL Target] 数据。请参阅 [Adobe Target API 概述](/help/main/api/api-overview.md)。
 * **Adobe Target 活动指南**：对于可在 [!DNL Target] 中使用的各种活动的简介。请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)。

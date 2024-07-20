@@ -6,16 +6,16 @@ feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 63%
 
 ---
 
 # 将动态数据传递给选件
 
-您可以动态显示存储在中的访客信息 [!DNL Adobe Target] 个人资料。 同样，还可以使用活动信息（例如活动名称或体验名称）来创建单个选件，以根据访客兴趣、过去的行为和整个配置文件动态地返回个性化内容。
+您可以动态显示存储在[!DNL Adobe Target]配置文件中的访客信息。 同样，还可以使用活动信息（例如活动名称或体验名称）来创建单个选件，以根据访客兴趣、过去的行为和整个配置文件动态地返回个性化内容。
 
-## 业务案例
+## 商业案例
 
 * 促销折扣选件，以“填充”或“补充”上次购买的产品。除了为目录中的每个项目创建单独的选件之外，您可以创建一个包含动态文本的选件，其会从配置文件中读取“上次购买的产品”并在选件中显示链接。
 * 一个访客通过 `keyword=world``cup` 访问您的登陆页。您在选件中显示词语 *World cup*。
@@ -23,7 +23,7 @@ ht-degree: 63%
 
 ## 技术优势
 
-由于访客特定的偏好、行为、状态可以存储在访客的配置文件中，因此您可以在其下次访问时重复显示此消息。 动态选件允许您在活动中设置单个选件以向所有访客显示个性化消息，因此支持更大的范围。随着访客意向的改变，您的网站内容也将自动反映这些变化。
+由于特定于访客的偏好设置、行为、状态可以存储在访客的配置文件中，因此您可以在其下次访问时重复显示此消息。 动态选件允许您在活动中设置单个选件以向所有访客显示个性化消息，因此支持更大的范围。随着访客意向的改变，您的网站内容也将自动反映这些变化。
 
 ## 示例
 
@@ -47,11 +47,11 @@ ht-degree: 63%
 
 在控制台中记录信息以进行调试，例如 `${campaign.name}`、`${campaign.id}`、`${campaign.recipe.name}`、`${campaign.recipe.id}`、`${offer.name}`、`${offer.id}`、`${campaign.name}`
 
-对象 [!DNL Recommendations] 设计，请参阅中的其他示例 [设计概述](/help/main/c-recommendations/c-design-overview/design-overview.md).
+有关[!DNL Recommendations]设计，请参阅[设计概述](/help/main/c-recommendations/c-design-overview/design-overview.md)中的其他示例。
 
 ## 实施
 
-对于传递到mbox的配置文件参数，请使用语法：
+要了解传递到mbox的配置文件参数，请使用语法：
 
 `${profile.parameter}`
 
@@ -59,7 +59,7 @@ ht-degree: 63%
 
 `${user.parameter}`
 
-在中使用动态属性时 [!DNL Recommendations] 之后，您必须在美元符号( $ )之前插入反斜杠( \ )，以便正确呈现动态值：
+在[!DNL Recommendations]设计中使用动态属性时，必须在美元符号( $ )之前插入反斜杠( \ )，以便正确呈现动态值：
 
 `\${user.endpoint.lastViewedEntity}`
 
@@ -69,11 +69,11 @@ ht-degree: 63%
 
 `${user.testAttribute default="All Items!"}`
 
-当 `testAttribute` 不存在或为空时，被写出来了。 如果一个空属性值是有效的，并且您想要将它写出而不是显示默认值，则可以使用：
+当 `testAttribute` 不存在或为空时，写出来了。 如果一个空属性值是有效的，并且您想要将它写出而不是显示默认值，则可以使用：
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-您还可以对显示的某些值进行转义或不转义。例如，如果您的值带有撇号，则可以转义该值，使其不会破坏页面上的JavaScript。 （选件采用 JavaScript 编写，因此单撇号容易与引号混淆。）例如：
+您还可以对显示的某些值进行转义或不转义。例如，如果您的值带有撇号，则可以转义该值，以便它不会破坏页面上的JavaScript。 （选件采用 JavaScript 编写，因此单撇号容易与引号混淆。）例如：
 
 `${user.encodedValue encode="unescape"}`
 
@@ -81,4 +81,4 @@ ht-degree: 63%
 
 对于选件内容中使用的选件参数(offer.name、offer.id)：
 
-如果该选件是某个体验上设置的多个选件之一，则最后一个添加选件的值将填充该参数的值。 这意味着，这些参数将在体验级别进行评估。
+如果该选件是体验上设置的多个选件之一，则上次添加的选件的值将填充参数的值。 这意味着，这些参数将在体验级别进行评估。

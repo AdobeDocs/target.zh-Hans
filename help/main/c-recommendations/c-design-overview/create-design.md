@@ -1,14 +1,14 @@
 ---
 keywords: 推荐设计;创建设计;复制设计
-description: 了解如何创建Adobe [!DNL Target] Recommendations设计使用默认设计，或通过创建自定义设计以最符合您的页面布局。
+description: 了解如何使用默认设计或通过创建自定义设计来创建Adobe [!DNL Target] Recommendations设计，以最好地适应页面的布局。
 title: 如何在Recommendations中创建设计？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 30%
+source-wordcount: '986'
+ht-degree: 23%
 
 ---
 
@@ -16,24 +16,24 @@ ht-degree: 30%
 
 设计可定义推荐在页面上的显示方式。
 
-您可以使用默认设计或通过创建自定义设计来创建[!UICONTROL 推荐]设计。此 **[!UICONTROL Recommendations >设计]** 屏幕会显示默认设计卡片以及在您的帐户中创建的所有设计。
+您可以使用默认设计或通过创建自定义设计来创建[!UICONTROL Recommendations]设计。 **[!UICONTROL Recommendations > Designs]**&#x200B;屏幕显示默认设计卡片以及在您的帐户中创建的所有设计。
 
-在使用设计时，请记住以下信息：
+在处理设计时，请牢记以下信息：
 
 * 您可以使用默认设计创建推荐设计，也可以创建自定义设计。
 * 不能编辑或删除默认设计。
 * 您可以编辑、复制或删除自定义设计。
 * 要基于默认设计创建设计，必须首先复制设计，然后编辑副本。
 
-此图显示了缺省的1 x 4设计：
+此图显示了默认的1 x 4设计：
 
 ![1 x 4默认设计](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
 
-此图显示了自定义设计：
+此图显示了一个自定义设计：
 
 ![自定义设计](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
-在活动创建过程中，您可以在可视化体验编辑器(VEC)中或在活动创建之外从设计库创建设计。 以下部分假定您是从库创建设计，但步骤相似。
+在活动创建过程中，您可以在可视化体验编辑器(VEC)中创建设计，也可以在活动创建之外从设计库创建设计。 以下部分假定您是从库中创建设计，但步骤类似。
 
 ## 创建设计
 
@@ -41,67 +41,67 @@ ht-degree: 30%
 
 ### 基于默认设计创建设计
 
-1. 单击 **[!UICONTROL Recommendations]** > **[!UICONTROL 设计]** 以显示 [!UICONTROL 设计] 库。
+1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;以显示[!UICONTROL Designs]库。
 
    ![设计库](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
-1. 将鼠标悬停在要创建的设计的卡片上，然后单击 **[!UICONTROL 复制]** 图标。
+1. 将鼠标悬停在要创建的设计的卡片上，然后单击&#x200B;**[!UICONTROL Copy]**&#x200B;图标。
 
    ![Card_CopyDesign图像](assets/Card_CopyDesign.png)
 
-   此 [!UICONTROL 创建设计] 对话框随即显示。
+   此时将显示[!UICONTROL Create Design]对话框。
 
    ![createDesign图像](assets/createDesign.png)
 
-1. 在 **[!UICONTROL 信息]** 面板，添加 **[!UICONTROL 内容名称]** 和可选的预览图像以在设计卡片上显示。
+1. 在&#x200B;**[!UICONTROL Information]**&#x200B;面板中，添加一个&#x200B;**[!UICONTROL Content Name]**&#x200B;和可选的预览图像以显示在设计卡片上。
 
-   使用默认设计时，设计名称和“Copy”将出现在 **[!UICONTROL 内容名称]** 字段。 您可以编辑该名称。您还可以选择要在设计卡片上显示的图像。
+   当您使用默认设计时，设计名称和“副本”将出现在&#x200B;**[!UICONTROL Content Name]**&#x200B;字段中。 您可以编辑该名称。您还可以选择要在设计卡片上显示的图像。
 
-1. （视情况而定）编辑设计 **[!UICONTROL 代码]**（根据需要）。
+1. （视情况而定）根据需要编辑设计&#x200B;**[!UICONTROL Code]**。
 
-   推荐设计使用的是开源 Velocity 设计语言。有关Velocity的信息可在 [https://velocity.apache.org](https://velocity.apache.org) 和 [使用Velocity自定义设计](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   推荐设计使用的是开源 Velocity 设计语言。有关Velocity的信息可在[https://velocity.apache.org](https://velocity.apache.org)和[使用Velocity自定义设计](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)中找到。
 
-   设计可以是 HTML 形式，也可以是非 HTML 形式。默认情况下，HTML 设计将使用`<div>`标记封装，以便允许在 Web 环境中进行点击跟踪。非 HTML 设计适用于无法进行点击跟踪的非 Web 环境。滑动 [!UICONTROL HTML设计] 切换到“关闭”位置以使用非HTML代码。
+   设计可以是 HTML 形式，也可以是非 HTML 形式。默认情况下，HTML设计使用`<div>`标记封装，以便允许在Web环境中进行点击跟踪。 非HTML设计适用于无法进行点击跟踪的非Web环境。 将[!UICONTROL HTML Design]切换开关滑动到“关闭”位置以使用非HTML代码。
 
    >[!NOTE]
    >
-   >设计中可引用的最大实体数（硬编码或通过循环）为99。
+   >设计中可引用（无论是以硬编码方式引用还是通过循环引用）的最大实体数为99。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL Save]**。
 
 ### 创建自定义设计
 
-1. 单击 **[!UICONTROL Recommendations]** > **[!UICONTROL 设计]** 以显示 [!UICONTROL 设计] 库。
+1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;以显示[!UICONTROL Designs]库。
 
-1. 单击 **[!UICONTROL 创建设计]**.
+1. 单击 **[!UICONTROL Create Design]**。
 
-   如果要使新的自定义设计基于现有设计，请将鼠标悬停在所需设计上，然后单击 [!UICONTROL 复制] 图标。 然后，您可以编辑副本以创建新的自定义设计。
+   如果要将新的自定义设计基于现有设计，请将鼠标悬停在所需设计上，然后单击[!UICONTROL Copy]图标。 然后，您可以编辑副本以创建新的自定义设计。
 
-1. 添加 **[!UICONTROL 内容名称]** 和可选的预览图像。
+1. 添加&#x200B;**[!UICONTROL Content Name]**&#x200B;和可选的预览图像。
 
-1. （视情况而定）编辑设计 **[!UICONTROL 代码]**（根据需要）。
+1. （视情况而定）根据需要编辑设计&#x200B;**[!UICONTROL Code]**。
 
    有关更多信息，请参阅上述步骤4中的信息。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL Save]**。
 
 ## 编辑、复制或删除设计
 
-请记住，您无法编辑或复制默认设计；您只能复制默认设计。
+请记住，您不能编辑或复制默认设计；您只能复制默认设计。
 
-将鼠标悬停在 [!UICONTROL 设计] 库，然后单击相应的图标：编辑、复制或删除。
+将鼠标悬停在[!UICONTROL Design]库中的所需设计上，然后单击相应的图标：编辑、复制或删除。
 
-![将鼠标悬停在设计的图标上](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+![设计的悬停图标](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
-您可以复制现有设计，以创建可随后修改的重复设计。 这样，您就可以用更少的工作量创建类似的设计。
+您可以复制现有设计以创建复制设计，然后可对其进行修改。 这使您能够用更少的工作量创建类似的设计。
 
-请注意，设计在整个帐户中均可用。 确保在删除设计之前考虑这一点。 无法恢复已删除的设计。
+请注意，设计可在整个帐户中使用。 确保在删除设计之前考虑这一点。 无法恢复已删除的设计。
 
 ## JSON 示例 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
 以下示例显示了在通过基于表单的编辑器配置活动时如何返回JSON响应。
 
-1. 从设计库或基于表单的工作流中创建设计。 如果尝试在可视化HTML编辑器(VEC)工作流中执行此操作，则无法创建体验设计以外的任何内容，该设计封装在 `<div>` 中，用于执行点击跟踪。
+1. 从设计库或基于表单的工作流中创建设计。 如果您尝试在可视化HTML编辑器(VEC)工作流中执行此操作，则无法创建体验设计以外的任何内容，而体验设计封装在`<div>`中用于点击跟踪。
 
 1. 确保已关闭“HTML 设计”选项：
 
@@ -136,22 +136,22 @@ ht-degree: 30%
        }  
    ```
 
-1. 设置基于表单的 [!DNL Recommendations] 使用此设计的活动。
+1. 设置使用此设计的基于表单的[!DNL Recommendations]活动。
 
-   1. 导航到 **[!UICONTROL 活动]** 页面。
-   1. 单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL 推荐]**。
-   1. 下 **[!UICONTROL 选择体验编辑器]**，选择 **[!UICONTROL 表单]**，然后单击 **[!UICONTROL 下一个]**.
+   1. 导航到&#x200B;**[!UICONTROL Activities]**&#x200B;页面。
+   1. 单击&#x200B;**[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**。
+   1. 在&#x200B;**[!UICONTROL Choose Experience Composer]**&#x200B;下，选择&#x200B;**[!UICONTROL Form]**，然后单击&#x200B;**[!UICONTROL Next]**。
    1. 在“位置”下方，输入文本：“Sample_Recs_Response”
-   1. 在&#x200B;**[!UICONTROL 默认内容]**&#x200B;下方，单击向下箭头，然后单击&#x200B;**[!UICONTROL 添加推荐]**。
+   1. 在&#x200B;**[!UICONTROL Default Content]**&#x200B;下，单击向下箭头，然后单击&#x200B;**[!UICONTROL Add Recommendation]**。
    1. 选择一种页面类型。这决定了对接下来要显示的屏幕的初步筛选。
-   1. 选择一个标准卡片，然后单击&#x200B;**[!UICONTROL 下一步]**。
-   1. 选择在上一步中创建的设计，然后单击 **[!UICONTROL 下一个]**.
+   1. 选择标准卡片，然后单击&#x200B;**[!UICONTROL Next]**。
+   1. 选择在上一步中创建的设计，然后单击&#x200B;**[!UICONTROL Next]**。
    1. 完成设置过程。
-   1. 单击&#x200B;**[!UICONTROL 不活跃]**&#x200B;旁边的向右箭头，然后选择&#x200B;**[!UICONTROL 激活]**。
+   1. 单击&#x200B;**[!UICONTROL Inactive]**&#x200B;旁边的向右箭头，然后选择&#x200B;**[!UICONTROL Activate]**。
 
 1. 设置活动并将其激活后，您可以设置示例请求，以获取简洁的 JSON 响应。
 
-   从保存活动开始， [!DNL Target] 将需要构建一个模型来支持选定的标准配置。 此过程可能会花费一些时间，具体时间取决于众多因素。构建模型后，便会显示结果。
+   从您保存活动开始，[!DNL Target]将需要构建一个模型来支持所选标准配置。 此过程可能会花费一些时间，具体时间取决于众多因素。构建模型后，便会显示结果。
 
    例如：
 
@@ -180,7 +180,7 @@ ht-degree: 30%
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-或者，您也可以在响应中发送更多信息。下面是一个更为复杂的代码文件示例，此代码不仅仅返回了实体 ID 及其关联的版块（顺序），还返回了更多其他内容。此设计示例还返回了活动详细信息、Target配置文件详细信息（如适用）及其他 `entity.attributes` 与返回的项相关联。
+或者，您也可以在响应中发送更多信息。下面是一个更为复杂的代码文件示例，此代码不仅仅返回了实体 ID 及其关联的版块（顺序），还返回了更多其他内容。此设计示例还返回了活动详细信息、Target配置文件详细信息（如适用），以及与返回的项目关联的其他`entity.attributes`。
 
 ```javascript
     {   
@@ -320,7 +320,7 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## 培训视频：在Recommendations中创建自定义设计(3:20) ![“概述”标记](/help/main/assets/overview.png)
+## 培训视频：在Recommendations中创建自定义设计(3:20) ![概述徽章](/help/main/assets/overview.png)
 
 本视频包含以下信息：
 

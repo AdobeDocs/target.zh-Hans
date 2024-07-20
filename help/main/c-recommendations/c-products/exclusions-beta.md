@@ -1,7 +1,7 @@
 ---
 keywords: 排除项
-description: 了解如何在中创建排除项 [!DNL Target Recommendations] 防止向访客推荐产品或内容。
-title: 如何在中使用排除项 [!UICONTROL Recommendations] 活动？
+description: 了解如何在 [!DNL Target Recommendations] 中创建排除项以防止向访客推荐产品或内容。
+title: 如何在[!UICONTROL Recommendations]活动中使用排除项？
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -14,9 +14,9 @@ ht-degree: 18%
 
 # 排除项
 
-在中创建排除项 [!DNL Adobe Target Recommendations] 防止向访客推荐产品或内容。 排除项是不向访客推荐的产品或内容的子集。
+在[!DNL Adobe Target Recommendations]中创建排除项以阻止向访客推荐产品或内容。 排除项是不向访客推荐的产品或内容的子集。
 
-排除项可在整个帐户中使用。 与收藏集不同，收藏集可在创建体验时为每个体验指定特定的收藏集 [!UICONTROL Recommendations] 活动，排除项适用于帐户中的所有活动。 在活动创建期间没有用于分配排除组的选项。
+排除项可在整个帐户中使用。 与收藏集（在创建[!UICONTROL Recommendations]活动时为每个体验指定特定收藏集）不同，排除项适用于帐户中的所有活动。 在活动创建期间没有用于分配排除组的选项。
 
 您可以使用排除项的一些次数示例包括：
 
@@ -28,27 +28,27 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->排除规则将全局应用于所有 [环境](/help/main/administrating-target/environments.md).
+>排除规则已全局应用于所有[环境](/help/main/administrating-target/environments.md)。
 >
 >静态和动态排除规则是可帮助您完成营销工作的强大功能。有关详细信息、示例和用例情景，请参阅[使用动态和静态包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)。
 
 ## 创建排除项
 
-1. 单击 **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** 以显示现有排除项的列表。
+1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**&#x200B;以显示现有排除项列表。
 
    ![exclusions_list图像](assets/exclusions-list.png)
 
-   上为每个排除项报告的“项目数”。 [!UICONTROL Exclusions] list view是配置的默认Recommendations中与该排除项规则相匹配的产品数 [主机组](/help/main/administrating-target/hosts.md) （环境）。 请参阅 [计划和实施 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} 在 *Adobe Target开发人员指南* 有关如何更改默认主机组的信息。
+   [!UICONTROL Exclusions]列表视图中为每个排除项报告的“项目数”是指，在配置的默认Recommendations [主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 有关如何更改默认主机组的信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[计划和实施 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}。
 
-1. （视情况而定）单击 [!UICONTROL Filter] 图标，然后选择所需的 [环境](/help/main/administrating-target/environments.md) 从 **[!UICONTROL Environment]** 创建（或更新）排除项时显示的下拉列表，以预览该环境中排除项的内容。 默认情况下，会显示默认主机组的结果。
+1. （视情况而定）单击[!UICONTROL Filter]图标，然后在创建（或更新）排除项时从&#x200B;**[!UICONTROL Environment]**&#x200B;下拉列表中选择所需的[环境](/help/main/administrating-target/environments.md)，以预览该环境中排除项的内容。 默认情况下，会显示默认主机组的结果。
 
    ![创建排除项](/help/main/c-recommendations/c-products/assets/choose-environment.png)
 
 1. 单击 **[!UICONTROL Create Exclusion]**。
 
-   ![“创建排除项”对话框](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
+   ![创建排除项对话框](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
-1. 键入排除项 **[!UICONTROL Name]** 并输入可选说明。
+1. 键入排除项&#x200B;**[!UICONTROL Name]**&#x200B;并输入可选描述。
 
 1. 使用规则生成器创建排除项。
 
@@ -70,7 +70,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 编辑、复制或删除排除项
 
-单击 **省略号** 图标，然后单击相应的图标：编辑、复制或删除。
+单击列表中所需排除项旁边的&#x200B;**省略号**&#x200B;图标，然后单击相应的图标：编辑、复制或删除。
 
 ![选项：编辑、复制和删除](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
 

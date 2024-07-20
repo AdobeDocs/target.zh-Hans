@@ -105,7 +105,7 @@ ht-degree: 90%
 
 您需要确保 [!DNL Target] 了解用户正在查看和购买的项目。如果购买与上下文无关，则可能需要跟踪不同类型的转化事件，例如，下载PDF、完成调查、订阅新闻稿、观看视频等。
 
-如果您已经使用 [!DNL Target] 在网站上运行 A/B 测试活动，则可能已经完成了此步骤。或者，如果您已经使用 [!DNL Adobe Analytics] 来报告网站访问情况和转化行为，则可以使用 [!DNL Analytics] 作为行为数据源。如果没有，最简单的做法是使用标签管理器(例如 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. 也可以将离线或应用程序内的交互发送到 [!DNL Target] 通过实时API。
+如果您已经使用 [!DNL Target] 在网站上运行 A/B 测试活动，则可能已经完成了此步骤。或者，如果您已经使用 [!DNL Adobe Analytics] 来报告网站访问情况和转化行为，则可以使用 [!DNL Analytics] 作为行为数据源。如果没有，最简单的做法是使用标签管理器（如[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}中的标签）进行此设置。 也可以通过实时API将离线或应用程序内的交互发送到[!DNL Target]。
 
 ### 使用正确的上下文信息获取推荐
 
@@ -129,7 +129,7 @@ ht-degree: 90%
 
 ![显示构成推荐活动各个部分（受众、标准和设计）的插图](/help/main/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] 开箱即用地包括 14 个内置受众、42 个内置标准和 10 个内置设计模板。您可以自定义每个项目或添加自己的项目。我们以前曾经 [关于构建受众的网络研讨会](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) 在 [!DNL Target]. 本节侧重于定义标准，这些标准可定义将推荐哪些项目。
+[!DNL Target] 开箱即用地包括 14 个内置受众、42 个内置标准和 10 个内置设计模板。您可以自定义每个项目或添加自己的项目。我们以前举办过有关在[!DNL Target]中构建受众](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)的[网络研讨会。 本节侧重于定义标准，这些标准可定义将推荐哪些项目。
 
 Target 使用标准卡片的概念。标准卡片就像个性化的配方。
 

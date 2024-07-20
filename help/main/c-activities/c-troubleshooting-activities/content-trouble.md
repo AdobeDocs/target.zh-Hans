@@ -6,8 +6,8 @@ feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 95%
+source-wordcount: '1622'
+ht-degree: 87%
 
 ---
 
@@ -27,20 +27,20 @@ ht-degree: 95%
 
 您必须具有以下用户权限之一才能生成身份验证令牌：
 
-* 至少[!UICONTROL “编辑者”]权限（或[!UICONTROL “审批者”]）
+* 至少[!UICONTROL Editor]权限（或[!UICONTROL Approver]）
 
-   有关 [!DNL Target Standard] 客户的详细信息，请在“用户”**&#x200B;中参阅[指定角色和权限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。有关 [!DNL Target Premium] 客户的详细信息，请参阅[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)。
+  有关 [!DNL Target Standard] 客户的详细信息，请在“用户”**&#x200B;中参阅[指定角色和权限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。有关 [!DNL Target Premium] 客户的详细信息，请参阅[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)。
 
 * 工作区/产品配置文件级别的管理员角色
 
-   工作区仅对 [!DNL Target Premium] 客户可用。有关更多信息，请参阅[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)。
+  工作区仅对 [!DNL Target Premium] 客户可用。有关更多信息，请参阅[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)。
 
 * [!DNL Adobe Target] 产品级别的管理员权限（系统管理员权限）
 
 要检索授权令牌，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL “管理”]**>**[!UICONTROL “实现”]**。
-1. 从“调试器工具”部分中，单击&#x200B;**[!UICONTROL “生成新的身份验证令牌”]**。
+1. 单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**。
+1. 在“调试器工具”部分中，单击&#x200B;**[!UICONTROL Generate New Authentication Token]**。
 
    ![生成新的身份验证令牌](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -83,7 +83,7 @@ ht-degree: 95%
 * 应用的排除和包含
 * 收集规则
 
-您不需要在查询参数中包含 `=console`、`=json` 或 `=window`。完成 mboxTrace 详细信息后，添加 `=disable`，然后按 **[!UICONTROL Enter]** 返回到正常显示模式。
+您不需要在查询参数中包含`=console`、`=json`或`=window`。 完成mboxTrace详细信息后，添加`=disable`并按&#x200B;**[!UICONTROL Enter]**&#x200B;以返回正常显示模式。
 
 您网站的正常功能和外观不受 mboxTrace 的影响。访客可以看到您的常规推荐设计。
 
@@ -111,7 +111,7 @@ ht-degree: 95%
 
 有关更多信息，请参阅下面的培训视频：
 
-有关更多详细信息，请参阅 [使用Adobe Experience Cloud调试器调试at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+有关更多详细信息，请参阅[使用Adobe Experience Cloud调试器调试at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}。
 
 ## 推荐中未显示最畅销商品 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target 不再支持 IE 8。
 
 ## 未设置 Target Cookie {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-如果您的网站具有一个子域（例如 [!DNL us.domain.com]），但您需要在 [!DNL domain.com]（而不是 [!DNL us.domain.com]）上设置 Target Cookie，则必须覆盖 `cookieDomain` 设置。有关更多信息，请参阅 [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}。
+如果您的网站具有一个子域（例如 [!DNL us.domain.com]），但您需要在 [!DNL domain.com]（而不是 [!DNL us.domain.com]）上设置 Target Cookie，则必须覆盖 `cookieDomain` 设置。有关详细信息，请参阅[targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}。
 
 ## 如果某个元素也是 Adobe Experience Manager 个性化的一部分，则 Target 内容会闪烁或无法显示。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -153,11 +153,11 @@ Target 不再支持 IE 8。
 
 ## 确保 [!DNL Target] 活动正确处理包含查询字符串参数的 URL。 {#query-strings}
 
-[!UICONTROL 活动 URL] 确定授予访客参加活动资格并向用户呈现活动体验的页面。在活动创建期间出现提示时，键入完整的 URL 并不总是能确保在该网站页面上提供内容，尤其是当 URL 包含查询字符串参数时。
+[!UICONTROL Activity URL]确定授予访客参加活动资格并向用户呈现活动体验的页面。 在活动创建期间出现提示时，键入完整的 URL 并不总是能确保在该网站页面上提供内容，尤其是当 URL 包含查询字符串参数时。
 
-默认情况下，[!UICONTROL 可视化体验编辑器] (VEC) 打开[可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的页面。您也可以在活动创建期间指定不同页面。
+默认情况下，[!UICONTROL Visual Experience Composer] (VEC)会打开[可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的页面。 您也可以在活动创建期间指定不同页面。
 
-要在 VEC 打开后显示不同的页面，请单击&#x200B;**[!UICONTROL 配置齿轮图标]** > 选择&#x200B;**[!UICONTROL 页面传递]** > 在[!UICONTROL 活动 URL] 字段中指定所需 URL。
+要在VEC打开后显示其他页面，请单击&#x200B;**[!UICONTROL Configure gear icon]** >选择&#x200B;**[!UICONTROL Page Delivery]** >然后在[!UICONTROL Activity URL]字段中指定所需URL。
 
 ![配置页面传递设置 UI](assets/configure-page-delivery.png)
 
@@ -183,13 +183,13 @@ Target 不再支持 IE 8。
 
 ### 选项 3：不定向到完整 URL，而是利用 URL 的特定部分。
 
-在此场景中，URL 是 `https://shopping.mycart.com?type=Summers%20Offers`，额外的模板规则指定[!UICONTROL 查询] 的 [!UICONTROL type ] > [!UICONTROL  为（区分大小写）] > type=Summers%20Offers，以 OR 分隔符分隔：
+在此方案中，URL是`https://shopping.mycart.com?type=Summers%20Offers`，额外的模板规则使用[!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers指定[!UICONTROL Query]，以OR分隔符分隔：
 
 ![模板规则利用 URL 的特定部分](assets/option3.png)
 
-## 转义双引号 [!DNL Target] 配置文件属性值未按预期工作。 {#escape}
+## [!DNL Target]配置文件属性值中的转义双引号无法按预期工作。 {#escape}
 
-当您发送包含双引号的值时 [!DNL Target] 配置文件属性，必须双重转义，如下所示。
+当您在[!DNL Target]配置文件属性中发送包含双引号的值时，必须对其进行双重转义，如下所示。
 
 ```
 adobe.target.trackEvent({
@@ -204,7 +204,7 @@ adobe.target.trackEvent({
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 添加扩展 ![教程徽章](/help/main/assets/tutorial.png)
+### 添加扩展![Tutorial徽章](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 

@@ -6,24 +6,24 @@ feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
 source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 91%
+source-wordcount: '1169'
+ht-degree: 52%
 
 ---
 
 # 编辑活动或另存为草稿
 
-有关您可以在中编辑现有活动的不同方法的信息 [!DNL Adobe Target]，包括以草稿形式保存活动。
+有关您可以在[!DNL Adobe Target]中编辑现有活动的不同方式的信息，包括将活动保存为草稿。
 
 您可以在 Target UI 中的多个位置编辑现有活动。根据您选择的方法，编辑过程会有所不同。
 
-## 在“活动”页面上通过使用悬停鼠标显示的按钮来编辑活动 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## 在活动页面上通过使用悬停鼠标显示的按钮来编辑活动 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. 在&#x200B;**[!UICONTROL 活动]**&#x200B;页面上，将鼠标悬停在要编辑的活动上，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
+1. 在&#x200B;**[!UICONTROL Activities]**&#x200B;页面中，将鼠标悬停在要编辑的活动上，然后单击&#x200B;**[!UICONTROL Edit]**&#x200B;图标。
 
    ![“编辑”图标](/help/main/c-activities/assets/hover_edit.png)
 
-   Target 会在可视化体验编辑器 (VEC) 中打开活动，此时您会看到“[!UICONTROL 体验]”页面（三步引导式工作流的步骤 1）。
+   Target会在可视化体验编辑器(VEC)中打开活动，此时您会看到[!UICONTROL Experiences]页面（三步引导式工作流的步骤1）。
 
 1. 根据需要使用 [VEC 选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)编辑活动。
 
@@ -31,42 +31,42 @@ ht-degree: 91%
 
    ![拆分按钮](/help/main/c-activities/assets/edit_split_button_2.png)
 
-   * **下一步：**&#x200B;要在三步式工作流中编辑其他页面，请单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以前进到所需的步骤。例如，在上图中，单击“[!UICONTROL 下一步]”会显示“定位”步骤。
-   * **保存并关闭：**&#x200B;在当前步骤中进行所需的更改，单击拆分按钮中的下拉列表，然后选择&#x200B;**[!UICONTROL 保存并关闭]**，可保存所做更改并显示活动的“[!UICONTROL 概述]”页面。
-   * **保存：**&#x200B;在任一步骤中进行所需的更改，单击拆分按钮中的下拉列表，然后选择&#x200B;**[!UICONTROL 保存]**，可保存所做更改并停留在当前步骤，以便能够继续进行更改。等待保存完成后，可进行其他更改。保存完成后，VEC 会重新加载以显示刷新的更改。
+   * **下一步：**&#x200B;若要在三步式工作流中编辑其他页面，请单击&#x200B;**[!UICONTROL Next]**&#x200B;进入所需的步骤。 例如，在上图中，单击[!UICONTROL Next]会显示[!UICONTROL Targeting]步骤。
+   * **保存并关闭：**&#x200B;在当前步骤中进行所需的更改，单击拆分按钮中的下拉列表，然后选择&#x200B;**[!UICONTROL Save and Close]**&#x200B;以保存所做更改并显示活动的[!UICONTROL Overview]页面。
+   * **保存：**&#x200B;在任一步骤中进行所需的更改，单击拆分按钮中的下拉列表，然后选择&#x200B;**[!UICONTROL Save]**&#x200B;以保存所做更改并停留在当前步骤，以便能够继续进行更改。 等待保存完成后，可进行其他更改。保存完成后，VEC 会重新加载以显示刷新的更改。
 
-## 在“活动”页面上通过单击活动名称以将其打开来编辑活动 {#section_176180DAD17E40CEA441903F39E0AA1C}
+## 在活动页面上通过单击活动名称以将其打开来编辑活动 {#section_176180DAD17E40CEA441903F39E0AA1C}
 
-1. 可以从“活动”页面中单击所需的活动以将其打开，然后从&#x200B;**[!UICONTROL 编辑活动]**&#x200B;下拉列表中选择相应的选项，而无需逐步完成该工作流。
+1. 要避免逐步完成此工作流，请从“活动”页面中单击所需的活动以将其打开，然后从&#x200B;**[!UICONTROL Edit Activity]**&#x200B;下拉列表中选择相应的选项。
 
    ![“编辑活动”下拉列表](/help/main/c-activities/assets/edit_activity.png)
 
 1. 选择所需的选项：
 
-   * **编辑体验：**&#x200B;使您直接转到“[!UICONTROL 体验]”页面（引导式工作流中的第一步）。可进行所需的更改，然后使用拆分按钮（如上所述）保存活动。
+   * **编辑体验：**&#x200B;使您直接转到[!UICONTROL Experiences]页面（引导式工作流中的第一步）。 可进行所需的更改，然后使用拆分按钮（如上所述）保存活动。
 
-      * 单击&#x200B;**[!UICONTROL 保存并关闭]**，可保存所做更改并显示活动的“概述”页面。
-      * 单击&#x200B;**[!UICONTROL 保存]**，可保存所做更改并停留在当前步骤，以便能够继续进行更改。等待保存完成后，可进行其他更改。保存完成后，VEC 会重新加载以显示刷新的更改。
-   * **编辑定位：**&#x200B;使您直接转到“[!UICONTROL 定位]”页面（引导式工作流中的第二步）。可进行所需的更改，然后使用拆分按钮（如上所述）保存活动。
+      * 单击&#x200B;**[!UICONTROL Save & Close]**&#x200B;以保存更改并显示活动的“概述”页面。
+      * 单击&#x200B;**[!UICONTROL Save]**&#x200B;可保存所做更改并停留在当前步骤，以便能够继续进行更改。 等待保存完成后，可进行其他更改。保存完成后，VEC 会重新加载以显示刷新的更改。
 
-      * 单击&#x200B;**[!UICONTROL 保存并关闭]**，可保存所做更改并显示活动的“概述”页面。
-      * 单击&#x200B;**[!UICONTROL 保存]**，可保存所做更改并停留在当前步骤，以便能够继续进行更改。等待保存完成后，可进行其他更改。保存完成后，VEC 会重新加载以显示刷新的更改。
-   * **编辑目标和设置：**&#x200B;使您直接转到“[!UICONTROL 目标和设置]”页面（引导式工作流中的最后一步）。可进行所需的更改，然后使用拆分按钮（如上所述）保存活动。
+   * **编辑定位：**&#x200B;使您直接转到[!UICONTROL Targeting]页面（引导式工作流中的第二步）。 可进行所需的更改，然后使用拆分按钮（如上所述）保存活动。
 
-      * 单击&#x200B;**[!UICONTROL 保存并关闭]**，可保存所做更改并显示活动的“概述”页面。
-      * 单击&#x200B;**[!UICONTROL 保存]**，可保存所做更改并停留在当前步骤，以便能够继续进行更改。等待保存完成后，可进行其他更改。保存完成后，VEC 会重新加载以显示刷新的更改。
+      * 单击&#x200B;**[!UICONTROL Save & Close]**&#x200B;以保存更改并显示活动的“概述”页面。
+      * 单击&#x200B;**[!UICONTROL Save]**&#x200B;可保存所做更改并停留在当前步骤，以便能够继续进行更改。 等待保存完成后，可进行其他更改。保存完成后，VEC 会重新加载以显示刷新的更改。
 
+   * **编辑目标和设置：**&#x200B;使您直接转到[!UICONTROL Goals & Settings]页面（引导式工作流中的最后一步）。 可进行所需的更改，然后使用拆分按钮（如上所述）保存活动。
 
+      * 单击&#x200B;**[!UICONTROL Save & Close]**&#x200B;以保存更改并显示活动的“概述”页面。
+      * 单击&#x200B;**[!UICONTROL Save]**&#x200B;可保存所做更改并停留在当前步骤，以便能够继续进行更改。 等待保存完成后，可进行其他更改。保存完成后，VEC 会重新加载以显示刷新的更改。
 
-## 使用在 Recommendations Classic 中创建的旧版活动 {#classic}
+## 使用在Recommendations Classic中创建的旧版活动 {#classic}
 
-[!UICONTROL 活动]列表会显示在各种源（包括 [!DNL Recommendations Classic]）中创建的活动。使用在 [!DNL Recommendations Classic] 中创建的旧版活动时，可以执行以下操作：
+[!UICONTROL Activities]列表显示在各种源（包括[!DNL Recommendations Classic]）中创建的活动。 使用在 [!DNL Recommendations Classic] 中创建的旧版活动时，可以执行以下操作：
 
-* [!UICONTROL 激活]
-* [!UICONTROL 停用]
-* [!UICONTROL 存档]
-* [!UICONTROL 复制]
-* [!UICONTROL 删除]
+* [!UICONTROL Activate]
+* [!UICONTROL Deactivate]
+* [!UICONTROL Archive]
+* [!UICONTROL Copy]
+* [!UICONTROL Delete]
 
 不能直接编辑 [!DNL Recommendations] 活动。如果想要编辑活动，则应使用 [!DNL Target Premium] 创建活动副本，并保存新创建的活动。然后，可以根据需要编辑新创建的活动。
 
@@ -81,9 +81,9 @@ ht-degree: 91%
 
    ![保存草稿](/help/main/c-activities/assets/save_draft.png)
 
-   * **下一步：**&#x200B;要在三步式工作流中编辑其他页面，请单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以前进到所需的步骤。
-   * **保存草稿并关闭：**&#x200B;在当前步骤中进行所需的更改，单击拆分按钮中的下拉列表，然后选择&#x200B;**[!UICONTROL 保存草稿并关闭]**，可保存所做更改并显示活动的“[!UICONTROL 概述]”页面。
-   * **保存草稿：**&#x200B;在任一步骤中进行所需的更改，单击拆分按钮中的下拉列表，然后选择&#x200B;**[!UICONTROL 保存草稿]**，可保存所做更改并停留在当前步骤。
+   * **下一步：**&#x200B;若要在三步式工作流中编辑其他页面，请单击&#x200B;**[!UICONTROL Next]**&#x200B;进入所需的步骤。
+   * **保存草稿并关闭：**&#x200B;在当前步骤中进行所需的更改，单击拆分按钮中的下拉列表，然后选择&#x200B;**[!UICONTROL Save Draft and Close]**&#x200B;以保存所做更改并显示活动的[!UICONTROL Overview]页面。
+   * **保存草稿：**&#x200B;在任一步骤中进行所需的更改，单击拆分按钮中的下拉列表，然后选择&#x200B;**[!UICONTROL Save Draft]**&#x200B;以保存所做更改并停留在当前步骤。
 
 ## 使用工作区时复制/编辑活动 {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
@@ -95,9 +95,9 @@ ht-degree: 91%
 
 如果您所在的组织是跨国组织，则您可能拥有两个工作区：一个用于欧洲网页、属性或网站，而另一个用于美国网页、属性或网站。如果您所在的组织拥有多个品牌，则您的每个品牌可能有其独立的工作区。
 
-有关工作区和“企业用户权限”功能的更多信息，请参阅[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
+有关工作区和企业用户权限功能的详细信息，请参阅[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
 
-如果您的环境中启用了“企业用户权限”，则可以将活动复制到同一工作区或其他工作区。当前，无法将活动从一个工作区移到另一个工作区。要将活动复制到其他工作区，请在“[!UICONTROL 活动]”页面中将鼠标悬停在要复制的活动上，单击“[!UICONTROL 复制]”图标，然后从下拉列表中选择所需的工作区。
+如果您的环境中启用了“企业用户权限”，则可以将活动复制到同一工作区或其他工作区。当前，无法将活动从一个工作区移到另一个工作区。要将活动复制到另一个工作区，请从[!UICONTROL Activities]页面中，将鼠标悬停在要复制的活动上，单击[!UICONTROL Copy]图标，然后从下拉列表中选择所需的工作区。
 
 在工作区中使用复制/编辑功能时，请考虑以下信息：
 
@@ -110,6 +110,6 @@ ht-degree: 91%
 
 * 作为最佳实践，请尝试使用最初用于创建该活动的相同方法（UI 或 API）更新该活动。
 
-   使用创建的活动 [!DNL Target] UI应通过更新 [!DNL Target] UI。 应通过 API 更新通过 API 创建的活动。例如，如果您最初使用API创建活动，但随后又通过 [!DNL Target] UI，并非所有更改都会更新。 所有更改都存储在后端，可通过再次调用API来更新这些更改。
+  应通过[!DNL Target] UI更新使用[!DNL Target] UI创建的活动。 应通过 API 更新通过 API 创建的活动。例如，如果您最初使用API创建活动，但随后又通过[!DNL Target] UI编辑该活动，则并非所有更改都会更新。 所有更改都存储在后端，可通过再次调用API更新这些更改。
 
 

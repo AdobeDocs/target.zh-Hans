@@ -17,7 +17,7 @@ ht-degree: 72%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] 是一个旧版产品，不再许可给新客户。为达到最佳效果 [!DNL Recommendations] experience，升级到 [!DNL Recommendations] 中可用的活动 [Adobe Target Premium](/help/main/c-intro/intro.md).
+>[!DNL Recommendations Classic] 是一个旧版产品，不再许可给新客户。为获得最佳的[!DNL Recommendations]体验，请升级到[Adobe Target Premium](/help/main/c-intro/intro.md)中提供的[!DNL Recommendations]活动。
 
 推荐可帮助将用户定向到若没有推荐他们可能无法了解到的项目，从而提高网站所产生的收入。
 

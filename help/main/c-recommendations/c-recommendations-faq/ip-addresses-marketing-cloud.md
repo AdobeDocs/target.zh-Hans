@@ -7,20 +7,20 @@ feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 46%
+source-wordcount: '173'
+ht-degree: 35%
 
 ---
 
-# 使用的IP地址 [!DNL Recommendations] 信息源处理服务器
+# [!DNL Recommendations]信息源处理服务器使用的IP地址
 
-中使用的IP地址列表 [!DNL Adobe Target] [!DNL Recommendations] 信息源处理服务器，帮助您将防火墙配置为允许来自的IP地址 [!DNL Adobe] 服务器。
+[!DNL Adobe Target] [!DNL Recommendations]信息源处理服务器中使用的IP地址列表，可帮助您将防火墙配置为允许源自[!DNL Adobe]服务器的IP地址。
 
 >[!IMPORTANT]
 >
->此 [!DNL Target] 组当前正在更新NAT网关地址以供下载 [!DNL Recommendations] 信息源。 如果实施IP列入允许列表，请确保您允许列表以下新的AWS主机。 现有主机将于2024年6月30日停用。 为确保平稳过渡，请允许列表所有九个地址。 无需急迫删除现有地址。
+>[!DNL Target]团队当前正在更新用于下载[!DNL Recommendations]源的NAT网关地址。 如果实施IP列入允许列表，请确保您允许列表以下新的AWS主机。 现有主机将于2024年6月30日停用。 为确保平稳过渡，请允许列表所有九个地址。 无需急迫删除现有地址。
 
-[!DNL Target] [!UICONTROL 推荐]活动在访问客户的 FTP 服务器时使用以下 AWS 主机：
+[!DNL Target] [!UICONTROL Recommendations]活动在访问客户的FTP服务器时使用以下AWS主机：
 
 **新主机**：
 
@@ -41,4 +41,4 @@ ht-degree: 46%
 | 俄勒冈 | `44.232.167.82` |
 | 俄勒冈 | `52.41.252.205` |
 
-[!DNL Target] [!UICONTROL 推荐] API 也使用同样的 AWS 主机。
+[!DNL Target] [!UICONTROL Recommendations] API也使用相同的AWS主机。

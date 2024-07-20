@@ -2,17 +2,17 @@
 keywords: 推荐;推荐算法;推荐活动;Recommendations Classic
 description: 查看信息以帮助您了解旧版 Recommendations Classic 与 Recommendations activities in [!DNL Target] Premium 之间的区别。
 title: Recommendations Classic 与 [!DNL Target] Premium 中的推荐之间有什么区别？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 97%
+source-wordcount: '652'
+ht-degree: 88%
 
 ---
 
-# 推荐 中的Classic与Recommendations活动 [!DNL Target] Premium
+# Recommendations Classic与Recommendations activities in [!DNL Target] Premium
 
 此信息可帮助您在 Recommendations Classic 与 Recommendations activities in Target Premium 之间进行选择。
 
@@ -30,16 +30,16 @@ ht-degree: 97%
 
 ## “推荐”作为选件
 
-您可以在 [!UICONTROL A/B 测试]（包括[!UICONTROL 自动分配]和[!UICONTROL 自动定位]）和[!UICONTROL 体验定位] (XT) 活动中包含推荐。
+您可以在[!UICONTROL A/B Test]（包括[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]）和[!UICONTROL Experience Targeting] (XT)活动中包含推荐。
 
 此功能提供了几项全新的功能，例如：
 
 * 可在同一活动中测试和定位推荐和非推荐内容。
 * 可轻松尝试在页面上放置推荐内容，包括为多个推荐排序。
-* 可使用[!UICONTROL 自动分配]自动将流量推送到性能最佳的推荐体验。
-* 可使用[!UICONTROL 自动定位]根据访客的配置文件动态地为他们分配量身定制的推荐体验。
+* 使用[!UICONTROL Auto-Allocate]自动将流量推送到性能最佳的推荐体验。
+* 使用[!UICONTROL Auto-Target]根据访客的配置文件动态地为他们分配量身定制的推荐体验。
 
-要开始使用此功能，请使用[!UICONTROL 可视化体验编辑器]创建 [!UICONTROL A/B 测试]或[!UICONTROL 体验定位]活动，然后执行[!UICONTROL 此项前插入]、[!UICONTROL 此项后插入]或[!UICONTROL 替换为]操作以向体验添加推荐。
+若要开始，请使用[!UICONTROL Visual Experience Composer]创建一个[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活动，然后使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]操作向体验添加推荐。
 
 有关更多信息，请参阅[将推荐作为选件](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 
@@ -58,7 +58,7 @@ ht-degree: 97%
 [!DNL Recommendations] 工作流已得到简化。现在，您只需按照可视化工作流执行以下操作，而无需填写复杂的表单：
 
 1. 选择标准。
-1. 选择预先配置的 [design（设计）](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
+1. 选择预配置的[设计](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
 1. 预览生成的推荐。
 
 ## 可视化预览 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
@@ -69,7 +69,7 @@ ht-degree: 97%
 
 在 [!DNL Recommendations Classic] 中，有 6 个定位选项，而“推荐”活动可使用 Target 的全部定位选项。使用 [!DNL Target] 或其他 [!DNL Adobe Experience Cloud] 受众（例如 [!DNL Audience Manager] 和 [!DNL Analytics]）定义受众，然后选择看到每个设计的活动参加者所占的百分比，以及看到控制的参加者所占的百分比。
 
-![overview_target图像](assets/overview_targeting.png)
+![overview_targeting图像](assets/overview_targeting.png)
 
 ## 报表 {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 

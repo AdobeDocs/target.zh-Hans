@@ -5,9 +5,9 @@ title: 如何将 [!DNL Target] 与 [!DNL Real-Time Customer Data Platform] 集�
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 source-git-commit: 210e9de954dba813972b0da9a7db5b9383d3e303
-workflow-type: ht
-source-wordcount: '1060'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 主要功能包括：
 
 * 直接与 Edge 上的[!DNL Target] Real-Time CDP/集成[!DNL Adobe Experience Platform]（消除对 [!DNL Audience Core services] 的依赖 - AAM）
-* [!UICONTROL Target Edge Destinations Card] 具有治理和政策执行功能
+* 具有治理和策略实施的[!UICONTROL Target Edge Destinations Card]
 * Real-time CDP 片段和共享个人资料属性
 
 ## 实施场景
@@ -35,14 +35,14 @@ ht-degree: 100%
 | --- | --- |
 | <ul><li>[!DNL Adobe Audience Manager] (AAM) 和[!DNL Target]</li><li>[!DNL RTCDP]（Premium 或 Ultimate）和[!DNL Target]</li><li>[!DNL RTCDP]（任何 SKU），[!DNL AAM]，和[!DNL Target]</li></ul> | 下一个会话个性化 |
 
-### [!DNL Adobe Experience Platform Web SDK] 或 [!DNL Experience Platform Server-Side API] 实施
+### [!DNL Adobe Experience Platform Web SDK]或[!DNL Experience Platform Server-Side API]实现
 
 | 解决方案 | 用例已启用 |
 | --- | --- |
 | <ul><li>[!DNL RTCDP]（任何 SKU）和 [!DNL Target]</li></ul> | <ul><li>下一个会话个性化</li><li>通过 Edge 实现同一页面个性化</li><li>共享片段时强制执行治理</li></ul> |
 | <ul><li>[!DNL RTCDP]（任何 SKU），[!DNL AAM]，和[!DNL Target]</li></ul> | <ul><li>下一个会话个性化</li><ul><li>[!DNL AAM] 区段</li><li>通过 [!DNL AAM] 的第三方片段</li></ul><li>通过 Edge 实现同一页面个性化</li><ul><li>[!DNL RTCDP] 区段</li><li>共享片段时强制执行治理</li></ul> |
 
-### 混合 [!UICONTROL at.js] 和 [!DNL Platform Web SDK] 实施
+### [!UICONTROL at.js]和[!DNL Platform Web SDK]实现的组合
 
 | 解决方案 | 用例已启用 |
 | --- | --- |
@@ -56,7 +56,7 @@ ht-degree: 100%
 | 场景 | Edge 片段（毫秒评估） | 流式处理片段（分钟评价） | 批次片段评估 |
 | --- | --- | --- | --- |
 | 来自 [!DNL Adobe Experience Platform] SDK 的事件/数据 | 是 | 是 | 不适用 |
-| 来自 [!UICONTROL at.js] 的事件 | 否 | 是 | 不适用 |
+| 来自[!UICONTROL at.js]的事件 | 否 | 是 | 不适用 |
 | 来自 [!DNL Target Mobile] SDK 的事件 | 否 | 是 | 不适用 |
 | 批次上传事件 | 否 | 否 | 是 |
 | 来自离线数据的事件（流） | 否 | 是 | 是 |
@@ -80,21 +80,21 @@ Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选�
 
 请考虑以下事项：
 
-* 给定商品中的属性必须来自同一个 [!UICONTROL Experience Platform] 沙盒。（换句话说，一个商品不能包含来自不同 [!UICONTROL Experience Platform] 沙盒的属性。）
-* 给定选件中的属性可以来自不同的来源；即，[!DNL Target] 配置文件和 [!UICONTROL Experience Platform] 配置文件。（换句话说，您可以组合属性，无论它们来自 [!DNL Target] 或来自 [!UICONTROL Experience Platform] 配置文件。）
-* 定义选件时，您可以为 [!UICONTROL Real-Time CDP 配置文件属性]分配默认值，以防属性没有明确的值。例如，如果同意或治理策略阻止个性化服务中使用的属性，则可以使用默认值。
+* 给定选件中的属性必须来自同一[!UICONTROL Experience Platform]沙盒。 （换句话说，选件不能包含来自不同[!UICONTROL Experience Platform]沙盒的属性。）
+* 给定选件中的属性可以来自不同的源；即[!DNL Target]配置文件和[!UICONTROL Experience Platform]配置文件。 （换句话说，您可以组合属性，无论它们来自[!DNL Target]还是来自[!UICONTROL Experience Platform]配置文件。）
+* 定义选件时，您可以为[!UICONTROL Real-Time CDP Profile Attributes]分配默认值，以防属性没有显式值。 例如，如果同意或治理策略阻止个性化服务中使用的属性，则可以使用默认值。
 
 ### JSON 示例用例
 
-作为在线营销人员，您希望 AEP/统一配置文件与 [!DNL Target] 共享属性值来实现实时个性化。通过使用 [!UICONTROL Real-time CDP 配置文件属性]，您可以使用标记替换在 [!DNL Target] 选件中显示 [!UICONTROL Experience Platform] 属性的值。例如，您可以使用 `${aep.profile.favoriteColor}` 根据客户最喜欢的颜色进行个性化设置，或者使用标记 `${aep.loyalty.tier}` 和 `${aep.loyalty.points}` 根据他们的忠诚度等级和忠诚度积分值进行个性化设置。
+作为在线营销人员，您希望 AEP/统一配置文件与 [!DNL Target] 共享属性值来实现实时个性化。通过使用[!UICONTROL Real-Time CDP Profile Attributes]，您可以使用令牌替换显示[!DNL Target]选件中[!UICONTROL Experience Platform]属性的值。 例如，您可以使用 `${aep.profile.favoriteColor}` 根据客户最喜欢的颜色进行个性化设置，或者使用标记 `${aep.loyalty.tier}` 和 `${aep.loyalty.points}` 根据他们的忠诚度等级和忠诚度积分值进行个性化设置。
 
 创建 JSON 选件以共享 AEP/统一配置文件属性 [!DNL Target]：
 
-1. 在 [创建 JSON 选件](/help/main/c-experiences/c-manage-content/create-json-offer.md) 时，从&#x200B;**[!UICONTROL 选择来源]**&#x200B;列表中选择 **[!UICONTROL Adobe Experience Platform]**。
-1. 从&#x200B;**[!UICONTROL 选择配置文件沙盒名称]**&#x200B;列表，选择所需的沙盒。
-1. 从&#x200B;**[!UICONTROL 选择配置文件属性]**&#x200B;列表，选择所需的属性。
-1. （可选）从&#x200B;**[!UICONTROL 插入默认值]**&#x200B;列表，选择所需的值。
-1. 单击&#x200B;**[!UICONTROL 添加]**。
+1. 在[创建JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md)时，从&#x200B;**[!UICONTROL Select a source]**&#x200B;列表中选择&#x200B;**[!UICONTROL Adobe Experience Platform]**。
+1. 从&#x200B;**[!UICONTROL Select a profile sandbox name]**&#x200B;列表中，选择所需的沙盒。
+1. 从&#x200B;**[!UICONTROL Select a profile attribute]**&#x200B;列表中，选择所需的属性。
+1. （可选）从&#x200B;**[!UICONTROL Insert a default value]**&#x200B;列表中，选择所需的值。
+1. 单击 **[!UICONTROL Add]**。
 
 下图显示了两个配置文件属性：`loyalty.tier` 和 `loyalty.points` 已添加到 JSON 选件中。
 
@@ -149,4 +149,4 @@ Real-Time CDP 配置文件属性可以共享给 [!DNL Target]，用于 HTML 选�
 
 ### [!DNL Adobe Target]博文和视频：同一页面增强的个性化
 
-[[!DNL Adobe] announces Same-Page Enhanced Personalization with [!DNL Adobe Target] 和 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+[[!DNL Adobe] 通过 [!DNL Adobe Target] 和 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}发布同页增强型Personalization

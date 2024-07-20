@@ -1,6 +1,6 @@
 ---
 keywords: 收藏集;定位
-description: 了解如何在中使用产品或项目集合 [!DNL Target Recommendations].
+description: 了解如何在 [!DNL Target Recommendations]中使用产品或项目的集合。
 title: 如何在Recommendations活动中使用收藏集？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
@@ -28,35 +28,35 @@ ht-degree: 40%
 
 包含标准与收藏集的功能类似，通过包含标准可以执行类似的操作，但不同的是您每次创建活动时都必须设置包含标准。而收藏集允许您一次性创建一组项目，之后不论何时需要使用这些项目，都可以直接使用，而无需再次设置。
 
-创建或编辑 [!DNL Recommendations] 活动，收藏集名称将显示在 [!UICONTROL Criteria] 活动图上的标签。
+创建或编辑[!DNL Recommendations]活动时，收藏集名称会显示在活动图上的[!UICONTROL Criteria]标签旁边。
 
 >[!NOTE]
 >
->使用时不应用收藏集 [!UICONTROL Recently Viewed Items] 推荐键。
+>使用[!UICONTROL Recently Viewed Items]推荐键时不会应用收藏集。
 
 ## 创建收藏集 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
 可创建收藏集以组织要在推荐中显示的产品或内容。
 
-1. 单击 **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** 以显示现有收藏集的列表。
+1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Collections]**&#x200B;以显示现有收藏集列表。
 
    ![收藏集列表](assets/collections_list.png)
 
-   此 [!UICONTROL Collections] 页面显示现有收藏集的列表。 您可以通过单击 [!UICONTROL Create Collection] 按钮。 您还可以编辑、复制和删除现有收藏集，方法是将鼠标悬停在所需收藏集上，然后单击所需图标。
+   [!UICONTROL Collections]页面显示现有收藏集的列表。 单击[!UICONTROL Create Collection]按钮可创建新收藏集。 您还可以编辑、复制和删除现有收藏集，方法是将鼠标悬停在所需收藏集上，然后单击所需图标。
 
    ![悬停图标：编辑、复制和删除](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   上每个收藏集报告的“项目数” [!UICONTROL Collections] list view是配置的默认Recommendations中与该收藏集的规则相匹配的产品数 [主机组](/help/main/administrating-target/hosts.md) （环境）。 请参阅 [设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 更改默认主机组。
+   [!UICONTROL Collections]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认Recommendations [主机组](/help/main/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以更改默认主机组。
 
 1. 单击 **[!UICONTROL Create Collection]**。
 
-1. （视情况而定）从 **[!UICONTROL Environment]** 在创建（或更新）收藏集时进行筛选，以预览该环境中收藏集的内容。 默认情况下，会显示默认主机组的结果。
+1. （视情况而定）在创建（或更新）收藏集时从&#x200B;**[!UICONTROL Environment]**&#x200B;筛选器中选择一个环境，以预览该环境中收藏集的内容。 默认情况下，会显示默认主机组的结果。
 
    ![创建收藏集](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. 键入 **[!UICONTROL Name]** 用于收藏集。
+1. 为集合键入&#x200B;**[!UICONTROL Name]**。
 
-   您还可以输入可选的 **[!UICONTROL Description]**.
+   您还可以输入可选的&#x200B;**[!UICONTROL Description]**。
 
 1. 设置用于构建收藏集的规则。
 
@@ -68,11 +68,11 @@ ht-degree: 40%
 
 ## 使用高级搜索创建收藏集
 
-您还可以使用上的高级搜索创建收藏集 [目录搜索](/help/main/c-recommendations/c-products/catalog-search.md#save-as) 页面([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search])。
+您还可以使用[目录搜索](/help/main/c-recommendations/c-products/catalog-search.md#save-as)页面上的“高级搜索”([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search])来创建收藏集。
 
-![“另存为”对话框](/help/main/c-recommendations/c-products/assets/save-as.png)
+![另存为对话框](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-例如，在使用“ID”>“包含”创建搜索后，您可以单击 [!UICONTROL Save As] > [!UICONTROL Collection].
+例如，在使用“ID”>“包含”创建搜索后，您可以单击[!UICONTROL Save As] > [!UICONTROL Collection]。
 
 >[!IMPORTANT]
 >
@@ -82,7 +82,7 @@ ht-degree: 40%
 
 将鼠标悬停在列表中所需的收藏集上，然后单击相应的图标：编辑、复制或删除。
 
-![收藏集的悬停图标](/help/main/c-recommendations/c-products/assets/hover-collections.png)
+收藏集的![悬停图标](/help/main/c-recommendations/c-products/assets/hover-collections.png)
 
 您可以复制现有收藏集以创建重复的收藏集，然后对其进行修改。 这样，您就可以用更少的工作量创建类似的排除项。
 
@@ -92,13 +92,13 @@ ht-degree: 40%
 
 1. 使用上述方法之一创建收藏集。
 
-1. 单击 **[!UICONTROL Activities]** 和 [创建新的Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) 活动或编辑现有活动。
+1. 单击&#x200B;**[!UICONTROL Activities]**&#x200B;和[创建新的Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)活动或编辑现有活动。
 
-1. 选择标准和设计后， [!UICONTROL Options] 页面会在您选择所需的收藏集时显示。
+1. 选择标准和设计后，在选择所需收藏集时显示[!UICONTROL Options]页面。
 
    ![选择收藏集选项](/help/main/c-recommendations/c-products/assets/choose-collection.png)
 
-1. （视情况而定）要更改现有收藏集设置，请在 **[!UICONTROL Experiences]** 页面（三步引导式工作流的步骤2），单击放置推荐的位置，然后单击 **[!UICONTROL Change Collection]**，然后选择所需的收藏集。
+1. （视情况而定）要更改现有的收藏集设置，请在&#x200B;**[!UICONTROL Experiences]**&#x200B;页面（三步引导式工作流的步骤2）中单击放置推荐的位置，单击&#x200B;**[!UICONTROL Change Collection]**，然后选择所需的收藏集。
 
    ![更改收藏集选项](/help/main/c-recommendations/c-products/assets/change-collection.png)
 

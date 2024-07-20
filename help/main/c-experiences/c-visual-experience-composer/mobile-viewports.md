@@ -6,8 +6,8 @@ feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 99%
+source-wordcount: '1350'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 99%
 > * 如果您的网站为响应式，并在移动设备页面上以不同的配置使用桌面页面中的相同元素，则可使用移动视区。如果您有单独的移动网站采用单独的架构，例如 `m.mysite.com`，请改为使用[多页面活动](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)。
 >
 >* 如果与重定向选件叠加发生了重叠，则移动设备视区将不可用。
-
 
 按网页在屏幕上填充的矩形大小定义视区。视区是浏览器窗口减去滚动条和工具栏的大小。浏览器使用“CSS 像素”。很多设备（例如使用 Retina 显示屏的设备）的视区小于其宣称的设备分辨率。
 
@@ -98,14 +97,14 @@ ht-degree: 99%
 
 配置要在创建体验时提供的移动视区。
 
-1. 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视体验编辑器]**。
-1. 在&#x200B;**[!UICONTROL 移动视区配置]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加]**。
+1. 单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**。
+1. 在&#x200B;**[!UICONTROL Mobile viewports configuration]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
 
    ![添加视区](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    或
 
-   要更改现有移动视区的配置，请选择该视区，然后单击[!UICONTROL 编辑]（铅笔）图标。
+   要更改现有移动设备视区的配置，请选择该视区，然后单击[!UICONTROL Edit]（铅笔）图标。
 
 1. 键入移动设备视区的名称。
 
@@ -127,7 +126,7 @@ ht-degree: 99%
 
    如果您使用[增强型体验编辑器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)并选择某个操作系统，则 [!DNL Target] 在您查看页面时模拟该设备。例如，如果在您的响应式网站上对于 Android 与 iOS 显示的外观不同，则 [!DNL Target] 模仿该行为。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+1. 单击 **[!UICONTROL Save]**。
 
 >[!NOTE]
 >
@@ -138,11 +137,11 @@ ht-degree: 99%
 将移动视区添加到您的 [!DNL Target] 活动以创建用于移动设备的响应式体验。
 
 1. 创建[所需活动](/help/main/c-activities/activities.md)。
-1. 在[!UICONTROL 可视体验编辑器] (VEC) 中，单击&#x200B;**[!UICONTROL 设置]**&#x200B;齿轮图标，然后选择&#x200B;**[!UICONTROL 添加移动视区]**。
+1. 在[!UICONTROL Visual Experience Composer] (VEC)中，单击&#x200B;**[!UICONTROL Settings]**&#x200B;齿轮图标，然后选择&#x200B;**[!UICONTROL Add Mobile Viewports]**。
 
    ![添加移动视区选项](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. 单击&#x200B;**[!UICONTROL 设备]**&#x200B;图标，然后启用每个应有移动视区的设备。
+1. 单击&#x200B;**[!UICONTROL Devices]**&#x200B;图标，然后启用每个应有移动视区的设备。
 
    ![启用移动视区](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
@@ -164,7 +163,7 @@ ht-degree: 99%
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 可视化体验编辑器（第 2 个，共 2 个）(7:29) ![“概述”标记](/help/main/assets/overview.png)
+### 可视化体验编辑器（第2个，共2个）(7:29) ![概述徽章](/help/main/assets/overview.png)
 
 以下演示视频包含有关通过可视化体验编辑器使用移动设备视区的信息：
 

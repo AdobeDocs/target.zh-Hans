@@ -1,14 +1,14 @@
 ---
 keywords: 字符限制;mbox 参数;批量投放 api;配置文件参数;限制;内置配置文件;最大值;限制;约束;字符;最佳实践;orderid;orderTotal;mbox3rdPartyID;类别;categoryID;故障排除
-description: 查看影响中活动和其他元素的字符限制和其他限制的列表 [!DNL Adobe Target].
-title: 中的各种字符、大小和其他限制是什么 [!DNL Adobe Target]？
+description: 查看影响 [!DNL Adobe Target]中活动和其他元素的字符限制和其他限制的列表。
+title: ' [!DNL Adobe Target]中的各种字符、大小和其他限制是什么？'
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 80%
+source-wordcount: '1693'
+ht-degree: 77%
 
 ---
 
@@ -78,19 +78,19 @@ ht-degree: 80%
       * at.js：
          * 显示默认内容
 
-* **限制**：每个50个mbox [!DNL Target] 内容投放批处理mbox请求。
+* **限制**：每个[!DNL Target]内容投放批次mbox请求有50个mbox。
 
-  超过50个mbox/个 [!DNL Target] 内容投放批处理mbox请求导致响应错误代码 `HTTP 400` 带有错误消息 `size must be between 0 and 50`.
+  每个[!DNL Target]内容投放批次mbox请求超过50个mbox会导致响应错误代码`HTTP 400`，并出现错误消息`size must be between 0 and 50`。
 
   按顺序处理批处理mbox请求，从而增加每个迭代的整体响应时间。 批量请求上的mbox越多，预期的响应延迟越多，因此可能会超时。 如果在这些高延迟的批量请求上阻止体验渲染，则延迟可能会导致用户体验降低，因为用户会等待体验渲染。
 
-* **限制**：60 MB HTTPPOST正文大小 [!DNL Target] 内容投放请求。
+* **限制**： [!DNL Target]个POST交付请求的60 MB HTTP内容正文大小。
 
-  超过60 MB (HTTPPOST正文大小为 [!DNL Target] 内容投放请求导致响应错误代码 `HTTP 413 Request Entity Too Large`.
+  [!DNL Target]POST投放请求的HTTP内容正文大小超过60 MB会导致响应错误代码`HTTP 413 Request Entity Too Large`。
 
-* **建议限制**：每个50个通知 [!DNL Target] 投放批次请求。
+* **建议的限制**：每个[!DNL Target]投放批次请求50个通知。
 
-  超过50个通知(每 [!DNL Target] 投放批次请求可能会导致响应延迟和超时增加。
+  每[!DNL Target]个投放批次请求超过50个通知可能会导致响应延迟和超时增加。
 
   批量通知请求按顺序处理，从而增加每个迭代的整体响应时间。 批量请求上的通知越多，预计的响应滞后时间就越多，因此可能会超时。 对于某些客户，批处理通知请求可能会出现一些额外的延迟，但是请注意，超时和任何后续重试都可能导致更多延迟。
 
@@ -116,7 +116,7 @@ ht-degree: 80%
 
 * 设计中可引用（无论是以硬编码方式引用还是通过循环引用）的最大实体数为 99。
 * 为获得最佳性能，建议的限制是在每个环境中使目录所含的项目数量少于一百万个，并使所有环境中的项目数量少于一千万个。
-* 最大限制是每个环境中一千万个项目，所有环境中 1 亿个项目。如果您在每个环境中的项目数量介于一百万和一千万个之间，[!UICONTROL Catalog Search] UI 的性能会受到影响。但是，[!DNL Target Recommendations]会继续生成并提供推荐。
+* 最大限制是每个环境中一千万个项目，所有环境中 1 亿个项目。如果您在每个环境中的项目数量介于一百万和一千万个之间，[!UICONTROL Catalog Search] UI的性能会受到影响。 但是，[!DNL Target Recommendations]会继续生成并提供推荐。
 
 ### 实体自定义属性
 
@@ -155,7 +155,7 @@ ht-degree: 80%
 
 ### 每个活动的体验数
 
-* **限制**：每台2000个体验 [!UICONTROL 体验定位] (XT)， [!UICONTROL A/B测试]， [!UICONTROL 多变量测试] (MVT)，以及 [!UICONTROL 自动定位] 活动。
+* **限制**：每个[!UICONTROL Experience Targeting] (XT)、[!UICONTROL A/B Test]、[!UICONTROL Multivariate Test] (MVT)和[!UICONTROL Auto-Target]活动2,000个体验。
 
   每个自动个性化 (AP) 活动 30,000 个体验。
 
@@ -169,7 +169,7 @@ ht-degree: 80%
 
 * **限制**：256 个字符。
 
-  使用at.js 1.*x* 使用跨域跟踪功能时。在使用at.js 2.*x* 或 [!DNL Adobe Experience Platform Web SDK]. 值不会自动截断。
+  使用at.js 1.*x* 使用跨域跟踪功能时。在使用at.js 2.*x*&#x200B;或[!DNL Adobe Experience Platform Web SDK]。 值不会自动截断。
 
 ### mbox 内配置文件名称
 
@@ -179,13 +179,13 @@ ht-degree: 80%
 
 * **限制**：250 个字符。
 
-  对象 [!DNL Delivery API] (at.js 2.*x*)、批处理mbox V2和 [!DNL Adobe Experience Platform Web SDK] (alloy.js)集成，mbox名称 *可以* 包含字母数字字符(A-Z、a-z、0-9)和以下任意字符：
+  对于[!DNL Delivery API] (at.js 2.*x*)、批处理mbox V2和[!DNL Adobe Experience Platform Web SDK] (alloy.js)集成，mbox名称&#x200B;*可以*&#x200B;包含字母数字字符(A-Z、a-z、0-9)和以下任意字符：
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
   ```
 
-  对于at.js 1.*x* 集成， mbox名称 *无法* 包含以下任一字符：
+  对于at.js 1.*x*&#x200B;集成，mbox名称&#x200B;*不能*&#x200B;包含以下任何字符：
 
   ```
   ' " %22 %27 < > %3C %3E 
@@ -199,13 +199,13 @@ ht-degree: 80%
 
    * mbox 参数：每个 mbox 500 个参数。
    * 配置文件参数：每个 mbox 500 个参数配置文件参数。
-   * 其他参数（URL、引荐 URL 等）：每个 mbox 50 个其他参数类型。
+   * 其他参数（URL、引荐 URL 等）：对于每种参数类型，每个mbox 50个。
 
   除非因 Web 浏览器限制而缩短请求，否则将应用这些限制。
 
   如果使用批量投放 API，则每个批处理请求的限制为 50 个 mbox。
 
-  如果您在 Mobile Services SDK 中使用批量交付 API，则该 API 本身的限制为 50 个 mbox 参数、50 个配置文件参数和 50 个其他参数类型。无法使用批量交付 API 发送包含的参数超过这些数量的请求。如果请求中的参数大于这些限制，则该 API 将返回以下错误消息：
+  如果您在Mobile Services SDK中使用批量交付API，则该API本身的限制为50个mbox参数、50个配置文件参数和50个其他参数类型。 无法使用批量交付 API 发送包含的参数超过这些数量的请求。如果请求中的参数大于这些限制，则该 API 将返回以下错误消息：
 
   “mbox 参数的数量不得超过 50。”
 
@@ -297,7 +297,7 @@ ht-degree: 80%
 
 * **建议限制**：2,000 个字符。
 
-  取决于编码字符串的大小，其大小可能比原始字符串长很多。如果字符串过大，则它会先失败，然后再转到 [!DNL Adobe Target].
+  取决于编码字符串的大小，其大小可能比原始字符串长很多。如果字符串过大，则在达到[!DNL Adobe Target]之前将失败。
 
 ## 脚本配置文件
 

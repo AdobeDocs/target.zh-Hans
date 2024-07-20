@@ -1,6 +1,6 @@
 ---
 keywords: 推荐
-description: 浏览常见情景，这些情景显示了在可视化体验编辑器(VEC)中对页面所做的更改如何影响Adobe Target显示体验的功能。
+description: 浏览一些常见方案，这些方案显示了在可视化体验编辑器(VEC)中对页面所做的更改如何影响Adobe Target显示体验的功能。
 title: 哪些是常见的页面修改方案？
 feature: Visual Experience Composer (VEC)
 exl-id: 7a05fbf9-3427-436e-a54f-4f1dd16d885a

@@ -1,19 +1,19 @@
 ---
 keywords: QA;预览;书签;预览链接
-description: 了解如何使用Adobe [!DNL Target] 要强制使用的QA书签 [!DNL Target] 以从QA模式中释放您。
+description: 了解如何使用Adobe [!DNL Target] QA书签强制 [!DNL Target] 将您从QA模式中释放出来。
 title: 如何使用活动QA书签？
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 27%
+source-wordcount: '270'
+ht-degree: 13%
 
 ---
 
 # 活动 QA 书签
 
-帮助您使用 [!DNL Target] 要强制使用的QA书签 [!DNL Target] 以从QA模式中释放您。
+此信息可帮助您使用[!DNL Target] QA书签强制[!DNL Target]将您从QA模式中释放出来。
 
 >[!NOTE]
 >
@@ -21,9 +21,9 @@ ht-degree: 27%
 
 ## at.js 1.*x*
 
-由于 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)具有粘滞性，因此以 QA 模式浏览网站后，您必须终止 会话，或者需要让 将您从 QA 模式中释放出来，然后才能像普通访客一样查看您的网站。[!DNL Target][!DNL Target]使用QA [!DNL Target] 使用书签强制自己退出QA模式。
+由于[QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md)具有粘滞性，因此以QA模式浏览网站后，[!DNL Target]会话必须过期，或者需要让[!DNL Target]将您从QA模式中释放出来，然后才能像普通访客一样查看您的网站。 使用QA [!DNL Target]书签强制自己退出QA模式。
 
-要使用 [!DNL Target] QA书签，创建包含以下JavaScript代码的书签，并将其添加到浏览器的书签工具栏：
+要使用[!DNL Target] QA书签，请创建包含以下JavaScript代码的书签，并将其添加到浏览器的书签工具栏：
 
 ```javascript
 javascript:(
@@ -42,7 +42,7 @@ javascript:(
 )();
 ```
 
-您还可以手动强制自己退出QA模式，方法是在网站上使用加载页面。 `at_preview_token` 具有空值的参数。
+您也可以手动强制自己退出QA模式，方法是在网站上使用具有空值的`at_preview_token`参数加载页面。
 
 例如：
 
@@ -50,9 +50,9 @@ javascript:(
 
 ## at.js 2.*x*
 
-与at.js 1.*x*， at.js 2.*x* 不支持第三方Cookie，并且QA模式仅对第一方域具有粘性（通过at.js设置的第一方Cookie）。 因此，在at.js 2.*x*，QA模式会话仅在客户端进行管理，并且不会向Target发送任何QA模式Cookie。
+与at.js 1.*x*，at.js 2.*x*&#x200B;不支持第三方Cookie，并且QA模式仅对第一方域有粘性（通过at.js设置的第一方Cookie）。 因此，在at.js 2.*x*，QA模式会话仅在客户端进行管理，并且不会向Target发送任何QA模式Cookie。
 
-要使用 [!DNL Target] QA书签，创建包含以下JavaScript代码的书签，并将其添加到浏览器的书签工具栏：
+要使用[!DNL Target] QA书签，请创建包含以下JavaScript代码的书签，并将其添加到浏览器的书签工具栏：
 
 ```javascript
 javascript:(

@@ -6,8 +6,8 @@ feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 97%
+source-wordcount: '2721'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 
 **Target 支持哪些浏览器？**
 
-有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)矩阵图。{target=_blank}请注意，支持的浏览器分为两个方面：Target Standard/Premium Experience Cloud 界面支持，以及桌面/设备上的最终用户浏览器支持。
+有关更多详细信息，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩阵。 请注意，支持的浏览器分为两个方面：Target Standard/Premium Experience Cloud 界面支持，以及桌面/设备上的最终用户浏览器支持。
 
 ## 活动 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -105,7 +105,7 @@ ht-degree: 97%
 
 **我是否可以停留在特定步骤、不断修改活动（例如选件文本或自定义代码），然后在另一个选项卡中执行 QA？**
 
-这也是可行的。只需[使用提供的“保存”选项即可进行增量更改而不退出该步骤](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
+这也是可行的。只需[使用可用的“保存”选项即可进行增量更改而不退出步骤](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
 
 **如何预览和 QA 我刚刚创建的活动？**
 
@@ -166,9 +166,9 @@ ht-degree: 97%
 
 **我已经厌烦了当我尝试在可视化体验编辑器 (VEC) 中加载我的页面时，一直看到“允许您的浏览器加载脚本”消息。怎样才能让我不再看到这条消息？**
 
-这是因为您的网站具有混合内容 — 它是一个同时获取HTTP和HTTPS资源的网站。 请让您的 IT 团队将网站内容全部移到 HTTPS。
+这是因为您的网站具有混合内容，它是一个同时获取HTTP和HTTPS资源的网站。 请让您的 IT 团队将网站内容全部移到 HTTPS。
 
-在此之前，请按照[在浏览器中启用混合内容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的说明来允许浏览器加载混合内容。这是目前大多数浏览器采用的一种安全功能。
+在此之前，请按照[在浏览器中启用混合内容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的说明操作，以允许浏览器加载混合内容。 这是目前大多数浏览器采用的一种安全功能。
 
 **即使尚未部署 Target at.js 库，是否仍可以在我的网站上尝试使用可视化体验编辑器 (VEC)？**
 
@@ -180,7 +180,7 @@ ht-degree: 97%
 
 此外，我们还提供了[基于表单的方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，这些方法可以帮助您。
 
-另请阅读[增强型体验编辑器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何时以及为何有用。您可能还需要联系您的 IT 部门，[将 Adobe 的代理服务器列入允许列表](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
+另请阅读[增强型体验编辑器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)何时以及为何有用。您可能需要联系IT部门以[允许列表Adobe的代理服务器](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
 
 **我有一个响应网站。在创建活动时，如何确定要使用的关键设备？**
 
@@ -218,7 +218,7 @@ ht-degree: 97%
 
 单击步骤 2 中的体验名称前面的缩略图，便可来到您选择的体验。
 
-![thumbnail_experiences图像](assets/thumbnail_experiences.png)
+![thumbnail_experience图像](assets/thumbnail_experiences.png)
 
 **我是一名前 Target Classic 用户。我是否可以在某些用例中使用我的 mbox？**
 
@@ -303,10 +303,10 @@ ht-degree: 97%
 
 **你们是否提供故障诊断指南？**
 
-很抱歉您遇到了问题。请试试 [Target 故障诊断](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)，其中提供许多故障诊断主题的链接。
+很抱歉您遇到了问题。查看[Target疑难解答](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)以获取许多疑难解答主题的链接。
 
 ## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **我在哪里可以了解有关 Target API 的更多信息？**
 
-我们提供了关于 API 的详尽文档。参见 [交付API、NodeJS SDK和Recommendations API文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+我们提供了关于 API 的详尽文档。请参阅[交付API、NodeJS SDK和Recommendations API文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。

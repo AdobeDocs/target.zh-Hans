@@ -1,6 +1,6 @@
 ---
 keywords: 推荐;备用
-description: 了解如何在Adobe中使用备份推荐 [!DNL Target] Recommendations。 没有足够推荐项目的推荐会显示备份算法的结果。
+description: 了解如何在Adobe [!DNL Target] Recommendations中使用备份推荐。 没有足够推荐项目的推荐会显示备份算法的结果。
 title: 如何在Recommendations中使用备用推荐？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
@@ -14,13 +14,13 @@ ht-degree: 77%
 
 # 使用备用推荐
 
-如果在中使用备份推荐功能，请 [!DNL Adobe Target]，任何推荐中没有足够的推荐项目，将不会显示默认内容。 “推荐”将改为显示备用算法的结果。
+如果您在[!DNL Adobe Target]中使用备份推荐功能，则任何推荐中没有足够推荐项的推荐都不会显示默认内容。 “推荐”将改为显示备用算法的结果。
 
 如果您不使用备用推荐并且推荐中的项目不足以填满整个显示区域，则系统会向用户显示默认内容。
 
 >[!NOTE]
 >
->欲知更多信息，请参见 [创建标准的内容部分](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 主题，包括一个矩阵，该矩阵说明了使用 [!UICONTROL Partial Design Rendering] 和 [!UICONTROL Show Backup Recommendations] 选项组合在一起或单独分开进行。
+>创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)主题的[内容部分中包括其他信息，其中包括一个矩阵，该矩阵说明了将[!UICONTROL Partial Design Rendering]和[!UICONTROL Show Backup Recommendations]选项一起使用或单独使用时将观察到的结果。
 
 备用推荐功能始终采用网站查看最多的项目来填充算法数据被使用后的剩余位置。例如，您的模板配置为显示 5 个推荐项目，并且您使用的是“*购买相关性*”算法。然而，您仅有足够的数据来填充 5 个位置中的两个，那么备用推荐功能就会使用查看最多的项目来填充其它 3 个位置。
 
@@ -49,4 +49,4 @@ ht-degree: 77%
 
 在初始设置阶段与实施团队进行相关讨论时，通常会涉及使用备用推荐。在实施之后，假如你你要更改备用推荐设置，请联系帐户管理员。
 
-如果启用局部设计渲染(请参阅 [内容设置](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content))且未显示模板，则会显示备用推荐或默认内容。
+如果未启用“启用局部设计渲染”（请参阅[内容设置](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)），并且未显示模板，则会显示备份推荐或默认内容。

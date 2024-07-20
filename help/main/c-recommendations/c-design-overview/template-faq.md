@@ -1,36 +1,36 @@
 ---
 keywords: 推荐;常见问题解答;FAQ
-description: 查看常见问题(FAQ)及其关于Adobe的答案的列表 [!DNL Target] Recommendations设计。
-title: 可在何处获得设计问题的解答？ [!DNL Target] Recommendations？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+description: 查看有关Adobe [!DNL Target] Recommendations设计的常见问题解答(FAQ)及其答案的列表。
+title: 可在何处找到 [!DNL Target] Recommendations设计问题的答案？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 70%
+source-wordcount: '470'
+ht-degree: 62%
 
 ---
 
 # 设计常见问题解答
 
-关于的常见问题解答(FAQ)列表 [!DNL Adobe Target] [!DNL Recommendations] 设计。
+有关[!DNL Adobe Target] [!DNL Recommendations]设计的常见问题解答(FAQ)列表。
 
 ## 推荐项目的价格并没有在小数点的右侧显示两个值。我该如何显示它们？
 
 默认情况下，设计模板中返回的数值（如 `entity.value`）不会在小数点之后显示任何尾随的零。例如，如果某个项目的价格为 $35.00，则 `entity.value` 等于 35，并且页面上仅显示 35，而不是 $35.00。
 
-有两个选项可以解决此问题：
+有两种方法可用于解决此问题：
 
 * 您可以使用 Velocity 脚本或 Javascript 对返回的值应用格式设置。
 
 * 您可以将项目的价格传递到两个单独的实体属性中。第一个属性 `entity.value` 可用于进行数值比较（例如价格比较规则）。第二个应该是自定义属性，例如 `entity.displayValue`，用于将实体的值存储为字符串以正确进行渲染。
 
-   例如：
+  例如：
 
-   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
+  `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## 设计中为何没有显示类别？我正在使用 `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
+## 设计中为何没有显示类别？我正在使用`$entity1.categoryId`。{#section_073309B8051049C7953D396A93EA0713}
 
 类别 ID 无法在设计中显示。由于可以存储多个类别，因此系统不知道要显示哪个类别。
 
@@ -46,10 +46,10 @@ ht-degree: 70%
 
 没有添加任何其他工具或库的 1.7 版。仅提供基本的 Velocity 功能。
 
-## 如何将现有的实体值替换为空格？例如，在促销活动结束后，需要清除某个项目的 entity.message。 {#section_B88F2C2925DC4508974B2F8B13F961CB}
+## 如何将现有的实体值替换为空格？例如，在促销活动结束后，需要清除某个项目的entity.message。 {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-以JavaScript不间断空格的形式发送似乎可以实现此目的。 让开发人员发送 `\u00A0` 作为值。示例：`entity.message=\u00A0`。在没有显示值的情况下，您应当考虑将此设为默认值，而不是为 null。
+以JavaScript不间断空格的形式发送似乎可以做到这一点。 让开发人员发送 `\u00A0` 作为值。示例： `entity.message=\u00A0`。 在没有显示值的情况下，您可以考虑将此设为默认值，而不是为null。
 
 ## 能否在 [!DNL Recommendations] 设计中使用配置文件脚本？ {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-是. 要在中使用配置文件脚本，请执行以下操作 [!DNL Recommendations] 设计，将名称包裹在 `\${...}`. 例如，如果您的配置文件脚本名为 `user.basket`，可将其称为 `\${user.basket}` 在设计中。 请注意，反斜线表示配置文件脚本不由Velocity渲染。 因此，不能对Velocity模板中的配置文件脚本执行任何操作。 该值将直接打印在页面上。
+是. 要在[!DNL Recommendations]设计中使用配置文件脚本，请将该名称包装在`\${...}`中。 例如，如果您的配置文件脚本名为`user.basket`，请在设计中将其引用为`\${user.basket}`。 请注意，反斜线表示配置文件脚本不由Velocity渲染。 因此，不能对Velocity模板中的配置文件脚本执行任何操作。 该值将直接打印在页面上。

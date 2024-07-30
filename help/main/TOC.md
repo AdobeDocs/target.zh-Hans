@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 6d2a313b0e54aa5f6717eee850c79e4092309e7d
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1323'
 ht-degree: 86%
 
 ---
@@ -333,6 +333,7 @@ ht-degree: 86%
    + 设计 {#recommendations-design}
       + [设计概述](c-recommendations/c-design-overview/design-overview.md)
       + [创建设计](c-recommendations/c-design-overview/create-design.md)
+      + [创建设计](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [设计常见问题解答](c-recommendations/c-design-overview/template-faq.md)
       + [使用 Velocity 自定义设计](c-recommendations/c-design-overview/customizing-a-template.md)
    + 活动 {#recommendations-activity}

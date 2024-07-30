@@ -1,14 +1,14 @@
 ---
 keywords: 推荐;常见问题解答;FAQ
-description: 查看有关Adobe [!DNL Target] Recommendations设计的常见问题解答(FAQ)及其答案的列表。
-title: 可在何处找到 [!DNL Target] Recommendations设计问题的答案？
+description: 关于 [!DNL Target Recommendations] 设计的常见问题解答(FAQ)及其答案。
+title: 可在何处获得 [!DNL Target Recommendations]的设计问题的答案？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 62%
+source-wordcount: '463'
+ht-degree: 58%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 62%
 
 ## 如何捕捉要在设计中显示的关键信息？示例：如果我们想要显示关键产品的类别，如何在 Velocity 设计中对该值进行编码？ {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
-`$key. *`value`*` 参数可以捕捉要在设计中显示的大多数关键产品信息。示例：如果您需要显示关键产品的缩略图，则应当使用 `$key.thumbnailURL`。
+`$key. *`value`*` 参数可以捕捉要在设计中显示的大多数关键产品信息。例如，如果要显示关键产品的缩略图，请使用`$key.thumbnailURL`。
 
 ## 使用哪个版本的 Velocity？ {#section_28F00E15A4A54A768782A3F5BB0CDB21}
 
 没有添加任何其他工具或库的 1.7 版。仅提供基本的 Velocity 功能。
 
-## 如何将现有的实体值替换为空格？例如，在促销活动结束后，需要清除某个项目的entity.message。 {#section_B88F2C2925DC4508974B2F8B13F961CB}
+## 如何将现有的实体值替换为空格？例如，促销活动结束时需要清除某个项目的`entity.message`。 {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
 以JavaScript不间断空格的形式发送似乎可以做到这一点。 让开发人员发送 `\u00A0` 作为值。示例： `entity.message=\u00A0`。 在没有显示值的情况下，您可以考虑将此设为默认值，而不是为null。
 

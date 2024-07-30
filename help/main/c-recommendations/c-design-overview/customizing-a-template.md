@@ -1,26 +1,26 @@
 ---
 keywords: 自定义设计;Velocity;小数;逗号;自定义设计
-description: 了解如何使用开源Velocity设计语言在Adobe [!DNL Target] Recommendations中自定义推荐设计。
+description: 了解如何使用开源 [!DNL Velocity] 设计语言在 [!DNL Target] Recommendations中自定义推荐设计。
 title: 如何使用Velocity自定义设计？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 39%
+source-wordcount: '1049'
+ht-degree: 33%
 
 ---
 
-# 使用 Velocity 自定义设计
+# 使用[!DNL Velocity]自定义设计
 
-使用开源Velocity设计语言在[!DNL Adobe Target Recommendations]中自定义推荐设计。
+使用开源[!DNL Velocity]设计语言自定义[!DNL Adobe Target Recommendations]中的推荐设计。
 
-## Velocity概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## [!DNL Velocity]概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-有关Velocity的信息可在[https://velocity.apache.org](https://velocity.apache.org)中找到。
+有关[!DNL Velocity]的信息可在[https://velocity.apache.org](https://velocity.apache.org)中找到。
 
-所有 Velocity 逻辑、语法等内容均可用于推荐设计。这表示您可以使用 Velocity 而非 JavaScript 来创建 *for* 循环、*if* 语句和其他代码。
+所有[!DNL Velocity]逻辑、语法等均可用于推荐设计。 这意味着您可以使用[!DNL Velocity]而不是JavaScript创建&#x200B;*for*&#x200B;循环、*if*&#x200B;语句和其他代码。
 
 发送到`productPage` mbox中的[!DNL Recommendations]或CSV上传的实体属性可以在设计中显示，但“多值”属性除外。 可以发送任何类型的属性；但是，[!DNL Target]不会将“多值”类型的属性作为模板可对其进行迭代的数组传递（例如`entityN.categoriesList`）。
 
@@ -30,7 +30,7 @@ ht-degree: 39%
 $entityN.variable
 ```
 
-实体属性名称必须遵循Velocity速记法，速记法由前导&#x200B;*$*&#x200B;字符组成，后跟Velocity模板语言(VTL)标识符。 VTL 标识符必须以字母字符（a-z 或 A-Z）开头。
+实体属性名称必须跟在[!DNL Velocity]速记符号之后，速记符号由前导&#x200B;*$*&#x200B;字符组成，后跟[!DNL Velocity]模板语言(VTL)标识符。 VTL 标识符必须以字母字符（a-z 或 A-Z）开头。
 
 Velocity实体属性名称仅限于以下字符类型：
 
@@ -39,7 +39,7 @@ Velocity实体属性名称仅限于以下字符类型：
 * 连字符 ( - )
 * 下划线 ( _ )
 
-以下属性可用作Velocity数组。 因此，可通过索引对这些变量进行迭代或引用。
+以下属性可用作[!DNL Velocity]数组。 因此，可通过索引对这些变量进行迭代或引用。
 
 * `entities`
 * `entityN.categoriesList`
@@ -60,7 +60,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-有关Velocity变量（属性）的详细信息，请参阅[https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables)。
+有关[!DNL Velocity]变量（属性）的详细信息，请参阅[https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables)。
 
 如果您在设计中使用配置文件脚本，脚本名称前面的$必须用`\`（反斜杠）进行转义。 例如：
 
@@ -127,9 +127,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 您还可以在设计中将`algorithm.name`和`algorithm.dayCount`用作实体属性，以便使用一个设计来测试多个标准，并在该设计中动态显示标准名称。 这样可指示访客查看了“最畅销商品”或属于“查看了这个项目，但购买了那个项目的人”。您甚至还可以使用这些属性来显示`dayCount`（标准中使用的数据所对应的天数，例如“过去2天的最畅销商品”，等等）。
 
-## 在Velocity模板中使用数字
+## 处理[!DNL Velocity]模板中的数字
 
-默认情况下，Velocity模板将所有实体属性视为字符串值。 您可能希望将实体属性视为数字值，以便执行数学操作或将其与另一个数值进行比较。 要将实体属性视为数字值，请执行以下步骤：
+默认情况下，[!DNL Velocity]模板将所有实体属性视为字符串值。 您可能希望将实体属性视为数字值，以便执行数学操作或将其与另一个数值进行比较。 要将实体属性视为数字值，请执行以下步骤：
 
 1. 声明一个虚拟变量并将其初始化为一个任意整数或双精度值。
 1. 确保要使用的实体属性不为空（[!DNL Target Recommendations]模板解析器验证并保存模板所必需的）。
@@ -240,7 +240,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## 自定义模板大小并检查空白值 {#default}
 
-下面的模板使用 Velocity 脚本控制实体显示的动态大小，从而可容纳一对多结果，这样当 [!DNL Recommendations] 未返回足够的匹配实体时，便无需创建空的 HTML 元素。此脚本最适合备份推荐没有意义且已启用[!UICONTROL Partial Template Rendering]的情况。
+使用[!DNL Velocity]脚本控制实体显示的动态大小，以下模板可容纳一对多结果，以避免在从[!DNL Recommendations]返回的匹配实体不足时创建空的HTML元素。 此脚本最适合备份推荐没有意义且已启用[!UICONTROL Partial Template Rendering]的情况。
 
 以下 HTML 代码段将替换 4x2 默认设计中的现有 HTML 部分（为简便起见，此处不包括 CSS）：
 

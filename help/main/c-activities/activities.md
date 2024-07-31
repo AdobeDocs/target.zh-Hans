@@ -4,7 +4,7 @@ description: 了解 [!DNL Target] 中的活动如何允许您针对特定受众�
 title: 如何使用 [!DNL Target]个性化内容和测试页面设计？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: be63fa4c89f229e3f4566cb400e1268d2cdf08d2
+source-git-commit: 0e2bc5c96671b47532b90f3ecb525a6a0506eb8d
 workflow-type: tm+mt
 source-wordcount: '2290'
 ht-degree: 36%
@@ -71,16 +71,17 @@ ht-degree: 36%
 ![筛选器选项](/help/main/c-activities/assets/show-filters-options.png)
 
 利用菜单，可按以下属性筛选活动：
-属性|详细信息|
-| — | — |
-|[!UICONTROL Type]|按[活动类型](#types)筛选。|
-|[!UICONTROL Status]|按活动状态筛选。|
-|[!UICONTROL Reporting Source]|按报表源筛选。<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)：显示使用[!UICONTROL Analytics for Target] (A4T)作为报表源的活动。</li><li>[[!DNL Target]](/help/main/c-reports/reports.md)：显示使用[!DNL Target]作为报表源的活动。</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)：显示使用[!DNL Adobe Customer Analytics]作为报表源的活动。</li></ul>|
-|[!UICONTROL Experience Composer]|活动创建期间使用体验编辑器的筛选器：<ul><li>[可视](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)：显示使用[!UICONTROL Visual Experience Composer] (VEC)创建的活动。</li><li>[基于表单](/help/main/c-experiences/form-experience-composer.md)：显示使用[!UICONTROL Form-Based Experience Composer]创建的活动。</li></ul>|
-|[!UICONTROL Metrics Type]|用于在活动创建期间选择[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md)的筛选器。<ul><li>转化</li><li>收入</li><li>参与度</li></ul>|
-|[!UICONTROL Decisioning Method]|按每个活动中使用的决策方法筛选<ul><li>[服务器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html)：显示使用服务器端决策的活动。</li><li>[客户端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)：显示使用客户端决策的活动。</li></ul>|
-|[!UICONTROL Activity Source]|按用于创建每个活动的活动源筛选。<ul><li>[!DNL Adobe Target]</li><li>[Adobe Target API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans)</li><li>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)</li><li>[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)</li><li>[Adobe Mobile 服务](https://developer.adobe.com/client-sdks/documentation/)</li></ul>|
-|[!UICONTROL Property]|按创建该活动的[属性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)筛选。|
+
+| 属性 | 详细信息 |
+| --- | --- |
+| [!UICONTROL Type] | 按[活动类型](#types)筛选。 |
+| [!UICONTROL Status] | 按活动状态筛选。 |
+| [!UICONTROL Reporting Source] | 按报表源筛选。<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)：显示使用[!UICONTROL Analytics for Target] (A4T)作为报表源的活动。</li><li>[[!DNL Target]](/help/main/c-reports/reports.md)：显示使用[!DNL Target]作为报表源的活动。</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)：显示使用[!DNL Adobe Customer Analytics]作为报表源的活动。</li></ul> |
+| [!UICONTROL Experience Composer] | 活动创建期间使用体验编辑器的筛选条件：<ul><li>[可视](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)：显示使用[!UICONTROL Visual Experience Composer] (VEC)创建的活动。</li><li>[基于表单](/help/main/c-experiences/form-experience-composer.md)：显示使用[!UICONTROL Form-Based Experience Composer]创建的活动。</li></ul> |
+| [!UICONTROL Metrics Type] | 用于在活动创建期间选择[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md)的筛选器。<ul><li>转化</li><li>收入</li><li>参与度</li></ul> |
+| [!UICONTROL Decisioning Method] | 按每个活动中使用的决策方法筛选<ul><li>[服务器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html)：显示使用服务器端决策的活动。</li><li>[客户端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)：显示使用客户端决策的活动。</li></ul> |
+| [!UICONTROL Activity Source] | 按用于创建每个活动的活动源进行筛选。<ul><li>[!DNL Adobe Target]</li><li>[Adobe Target API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans)</li><li>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)</li><li>[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)</li><li>[Adobe Mobile 服务](https://developer.adobe.com/client-sdks/documentation/)</li></ul> |
+| [!UICONTROL Property] | 按创建该活动的[属性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)筛选。 |
 
 ## 执行快速操作 {#quick-actions}
 

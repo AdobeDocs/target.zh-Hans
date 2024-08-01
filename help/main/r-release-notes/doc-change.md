@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 69ce4977d766d34367c46cd103ede90dd96c88e4
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 17%
+source-wordcount: '338'
+ht-degree: 16%
 
 ---
 
@@ -18,6 +18,7 @@ ht-degree: 17%
 ## 更新
 
 日期|主题|更改|
+|8月1日|[Recommendations常见问题解答](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)|添加了以下常见问题解答：“我是否可以使用[!DNL Target] API管理[!DNL Target]UI创建的可视化选件？”|
 |7月10日|[代理配置(Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank}|添加了新章节：“设备端决策”|
 |6月3日|[优先级](/help/main/c-activities/priority.md)|更新了整个主题，包括指示来自多个[!UICONTROL Form-Based Experience Composer]和VEC活动的内容可以交付。 以前，基于表单的工作流中只能交付一个活动。 可投放的基于表单的活动数量不再有限制。|
 |5月17日|[与[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)相关的问题疑难解答|添加了使用[!UICONTROL Enhanced Experience Composer]时可以列入允许列表的其他IP地址。|

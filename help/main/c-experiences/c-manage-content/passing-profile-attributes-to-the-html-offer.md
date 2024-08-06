@@ -1,13 +1,13 @@
 ---
 keywords: 动态数据;资产;数据;选件;个性化选件;个人选件;令牌替换
-description: 了解如何将动态数据传递到 [!DNL Adobe Target] 选件。
+description: 了解如何在 [!DNL Adobe Target]中将动态数据传递到选件。
 title: 如何将动态数据传递给选件？
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 63%
+source-wordcount: '536'
+ht-degree: 55%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 63%
 
 * 促销折扣选件，以“填充”或“补充”上次购买的产品。除了为目录中的每个项目创建单独的选件之外，您可以创建一个包含动态文本的选件，其会从配置文件中读取“上次购买的产品”并在选件中显示链接。
 * 一个访客通过 `keyword=world``cup` 访问您的登陆页。您在选件中显示词语 *World cup*。
-* 使用以下信息来个性化推荐标签，例如 (1) 添加到访客购物车的最后一个项目 (Nike Air Max 1000s)、(2) 访客的颜色偏好（黑色），以及 (3) 访客最喜爱的非鞋类产品（连帽衫）。示例：“用这些炫酷的‘黑色’‘连帽衫’来搭配您的‘Nike Air Max 1000s’！”
+* 使用信息个性化推荐标签，例如(1)添加到访客购物车的最后一个项目(Nike Air Max 1000s)、(2)访客的颜色偏好（黑色）和(3)访客最喜爱的非鞋类别（连帽上衣）。 示例：“用这些炫酷的‘黑色’‘连帽衫’来搭配您的‘Nike Air Max 1000s’！”
 
 ## 技术优势
 
@@ -69,7 +69,7 @@ ht-degree: 63%
 
 `${user.testAttribute default="All Items!"}`
 
-当 `testAttribute` 不存在或为空时，写出来了。 如果一个空属性值是有效的，并且您想要将它写出而不是显示默认值，则可以使用：
+当`testAttribute`不存在或为空时， 写出来了。 如果一个空属性值是有效的，并且您想要将它写出而不是显示默认值，则可以使用：
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 

@@ -4,7 +4,7 @@ description: 了解如何在Adobe [!DNL Target] 选件库中搜索代码和图�
 title: 如何在选件库中搜索内容？
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c9d987a7e27bbaa605f4d7b45975c854b61783de
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 8%
@@ -51,7 +51,7 @@ ht-degree: 8%
    * 到期状态：已过期。
    * 平均评级：1到5。
    * Orientation： Horizontal、Vertical或Square。
-   * 样式：颜色或黑白。
+   * 样式：彩色或黑白。
    * 使用分数：最小到最大值
    * 展示得分：最小到最大
    * 单击得分：1到5。

@@ -6,7 +6,7 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 46ec133920ada0154e143eed8eb5e020aec3a875
+source-git-commit: 878ad2a0cce193e5905824fe02d7380c5cff7136
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 71%
@@ -23,7 +23,9 @@ ht-degree: 71%
 >
 >这些文章中的信息在Beta计划期间经常更新，恕不另行通知。
 
-+++活动（单击可展开）
+## 活动
+
++++单击以展开
 
 + [活动概述](c-activities/activities.md){target=_blank}
 + [Target 活动类型](c-activities/target-activities-guide.md){target=_blank}
@@ -107,7 +109,9 @@ ht-degree: 71%
 
 +++
 
-+++选件（单击可展开）
+## 选件
+
++++单击以展开
 
 + [选件概述](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [创建选件文件夹](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}

@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 75c6760b57242222dc97a7bf61b6323f682b9da9
+source-git-commit: 011a47ea8d19387d6ef3c633c2a253e2f82a50d0
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1359'
 ht-degree: 83%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 83%
       + [使用选件决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [集成 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
       + Adobe Journey Optimizer用例{#use-cases}
-         + [掌握优化 — Adobe Journey Optimizer中的热门用例](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+         + [Adobe Journey Optimizer中的热门优化用例 — 基于Web和代码的渠道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [通过Adobe Journey Optimizer中的A/B测试更改内容](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
    + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
    + 将Target与Adobe Experience Manager (AEM)集成{#aem}

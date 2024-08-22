@@ -1,19 +1,19 @@
 ---
-keywords: 优化；个性化；adobe journey optimizer；ajo；用例；方案
+keywords: 优化；个性化；adobe journey optimizer；ajo；用例；方案；Web；基于代码
 description: 了解如何在 [!DNL Adobe Journey Optimizer]中有效实施最具影响力的优化用例。
-title: 掌握优化 —  [!DNL Adobe Journey Optimizer]中的热门用例
+title: ' [!DNL Adobe Journey Optimizer] - Web和基于代码的渠道中的最佳优化用例'
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: b41785c4dfd0270bb234f54fc1bf88ed2343e905
+source-git-commit: 011a47ea8d19387d6ef3c633c2a253e2f82a50d0
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 8%
+source-wordcount: '154'
+ht-degree: 7%
 
 ---
 
-# 掌握优化 — [!DNL Adobe Journey Optimizer]中的热门用例
+# [!DNL Adobe Journey Optimizer]中的热门优化用例 — 基于Web和代码的渠道
 
 了解如何在[!DNL Adobe Journey Optimizer]中有效实施最具影响力的优化用例。
 
@@ -27,5 +27,7 @@ ht-degree: 8%
 ## 用例
 
 以下用例演示了如何在[!DNL Adobe Journey Optimizer]中从[!DNL Target]执行熟悉的任务，使您能够看到执行中的异同。
+
+这些用例与基于Web和基于代码的渠道有关。
 
 * [通过 [!DNL Adobe Journey Optimizer]中的A/B测试更改内容](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)

@@ -2,7 +2,7 @@
 keywords: 随机林；决策树；ap；Automated Personalization
 description: 了解 [!DNL Adobe Target] 如何在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]活动中使用随机林算法。
 title: ' [!DNL Target] 如何使用随机林算法？'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd

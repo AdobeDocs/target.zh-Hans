@@ -2,7 +2,7 @@
 keywords: Automated Personalization；AP；预览；排除体验
 description: 了解如何使用[!UICONTROL Visual Experience Composer] (VEC)预览 [!DNL Adobe Target] 中的[!UICONTROL Automated Personalization] (AP)活动中的每个体验。
 title: 如何在VEC中预览[!UICONTROL Automated Personalization]体验？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe

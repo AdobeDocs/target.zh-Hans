@@ -3,7 +3,7 @@ keywords: Automated Personalization；ap；上传数据；离线数据；个性�
 description: 了解在 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]活动中构建个性化模型时如何上载离线数据。
 title: 如何为Personalization算法上传数据？
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
 workflow-type: tm+mt

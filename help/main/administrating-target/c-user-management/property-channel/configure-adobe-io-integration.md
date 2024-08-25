@@ -2,7 +2,7 @@
 keywords: 集成;角色;用户权限;Admin Console
 description: 了解如何授予现有Adobe I/O集成使用Adobe Target中的所需角色访问所有工作区的权限。
 title: 如何授予Adobe I/O访问工作区的权限并分配角色？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112

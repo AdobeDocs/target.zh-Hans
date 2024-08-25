@@ -2,7 +2,7 @@
 keywords: 故障诊断;常见问题解答;FAQ;推荐;特殊字符;属性权重;内容相似度
 description: 查看有关 [!DNL Target Recommendations] 活动的常见问题和答案的列表。
 title: 可在何处找到关于 [!DNL Recommendations]的问答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f

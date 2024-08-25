@@ -2,7 +2,7 @@
 keywords: 创建推荐;推荐活动;新建推荐;推荐概述
 description: 了解如何使用 [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)创建 [!DNL Recommendations] 活动。
 title: 如何创建 [!DNL Recommendations] 活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true

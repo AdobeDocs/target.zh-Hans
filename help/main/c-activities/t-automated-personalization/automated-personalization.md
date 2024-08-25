@@ -2,7 +2,7 @@
 keywords: 自动个性化；AP；受众；组合；随机林；多臂老虎机；汤普森采样；ML；机器学习
 description: 了解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Automated Personalization] (AP)活动，这些活动使用高级机器学习将不同的选件变体与每位访客匹配。
 title: 什么是[!UICONTROL Automated Personalization] (AP)活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd

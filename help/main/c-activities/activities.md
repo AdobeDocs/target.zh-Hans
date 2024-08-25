@@ -17,7 +17,7 @@ ht-degree: 36%
 
 例如，您可能会设计一个活动以对两个不同的登陆页面进行测试，其中一个页面着重显示夏季女鞋的相关信息，而另一个登陆页面则重点展示更广泛的夏季服饰信息。此活动确定了用于控制这两个登陆页面分别何时显示的条件，以及用于决定哪个页面更为成功的量度。此活动配置为在满足特定条件时开始和结束，例如在具体日期开始和结束，或者在活动得到批准后开始并在活动停用后结束。
 
-设计活动时，您应该仔细规划。确定活动何时开始以及持续时间。然后，列出您的选件并为每个选件分配一组目标顾客。
+设计活动时，您应该仔细规划。确定活动何时开始以及持续时间。然后，列出您的产品建议并为每个建议分配一组目标受众。
 
 ## 活动列表 {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
@@ -43,7 +43,7 @@ ht-degree: 36%
 | [!UICONTROL Status] | 活动的状态可以是下列状态之一：<ul><li>**实时**：该活动当前正在运行。</li><li>**草稿**：活动安装程序已启动，但该活动处于[草稿模式](/help/main/c-activities/edit-activity.md)，尚未准备好运行。</li><li>**已计划**：当到达指定的开始日期和时间时，该活动便可准备激活。</li><li>**不活跃**：该活动已暂停或停用。</li><li>**正在同步**：活动已保存，正在同步到[!DNL Target]投放网络。</li><li>**已结束**：已到达指定的活动结束日期和时间，并且不再为该活动提供服务。</li><li>**已存档**：活动已经存档。您可以激活已存档的活动以便再次使用。</li></ul>**注意**：执行某些操作时，例如使用API方法在[!DNL Target] UI外部激活活动，更新最多可能需要10分钟才能传播到[!DNL Target] UI。 |
 | [!UICONTROL Last Updated] | 上次更新活动的日期和时间，以及更新者。<P>单击表标题可按日期对列表进行升序或降序排序。 |
 | [!UICONTROL Priority] | 活动的优先级。<P>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。<P>根据您的[设置](/help/main/administrating-target/reporting.md)，[!UICONTROL Priority]的[!DNL Target] UI和选项会有所不同。 您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。 |
-| [!UICONTROL Property] | 显示活动的[属性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。<P>企业用户权限是一项[Target Premium](/help/main/c-intro/intro.md#premium)功能。 |
+| [!UICONTROL Property] | 显示活动的[属性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。<P>企业用户权限是[Target Premium](/help/main/c-intro/intro.md#premium)功能。 |
 | [!UICONTROL Estimated Lift in Revenue] | 如果 100% 的受众都看到了入选体验，则显示预计会有多少收入上的增长。<P>使用以下公式计算：<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>如果以简写的形式表示数字，且小数点前只有一个数字，则该数字将四舍五入至小数点后一位，保留最大值。例如：$1.6M、$60K、$900、$8.5K、$205K<P>此列显示“---”时，表示该活动没有足够的数据来确定入选者，或者没有成本估算。<P>请参阅[预计收入提升](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以了解更多信息。 |
 | [!UICONTROL Source] | 显示创建活动的位置： [!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)或[AdobeMobile Services](https://developer.adobe.com/client-sdks/documentation/)。 |
 | [!UICONTROL Location] | 活动的 URL 可标识该活动在哪里显示。此列可帮助您快速识别活动，并确定某个特定页面是否已在该活动上运行。<P>如果活动在多个URL上运行，则会有一个链接显示使用的URL数量。 单击该链接可查看该活动的完整 URL 列表。<P>您可以根据URL进行搜索。 使用搜索框旁边的下拉列表并选择[!UICONTROL URL]。 |

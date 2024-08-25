@@ -2,11 +2,12 @@
 keywords: 标准序列；多个标准；算法；标准；推荐标准；序列；限制返回的项目数；槽级控制；槽
 description: 了解如何设置最多包含五个标准的序列，以便更好地控制Recommendations活动中显示的项目。
 title: 如何在Recommendations中创建标准序列？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: c8b0e0414603761b1c67b13d74ffa96d745c99e3
+exl-id: 9c521c61-7141-4fbc-81b7-a5b62dea10b6
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 18%

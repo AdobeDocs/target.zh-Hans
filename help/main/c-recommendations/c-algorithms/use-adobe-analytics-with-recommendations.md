@@ -2,7 +2,7 @@
 keywords: 行为数据源；Analytics；推荐；标准；产品变量
 description: 了解如何使用 [!DNL Adobe Analytics] 作为行为数据源，以使用 [!DNL Target Recommendations]中 [!DNL Analytics] 基于视图和/或基于购买的行为数据。
 title: 如何将 [!DNL Adobe Analytics] 与 [!DNL Target Recommendations]一起使用？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3

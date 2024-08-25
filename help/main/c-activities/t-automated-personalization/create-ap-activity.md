@@ -2,7 +2,7 @@
 keywords: 自动个性化；ap
 description: 了解如何使用[!UICONTROL Visual Experience Composer]在 [!DNL Adobe Target] 中创建[!UICONTROL Automated Personalization] (AP)活动。
 title: 如何创建[!UICONTROL Automated Personalization]活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd

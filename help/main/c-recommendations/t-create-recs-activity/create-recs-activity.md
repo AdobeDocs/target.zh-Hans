@@ -2,7 +2,7 @@
 keywords: 创建推荐;推荐活动;新建推荐;推荐概述
 description: 了解如何使用Adobe [!DNL Target] 可视化体验编辑器(VEC)直接在启用了 [!DNL Target]的页面上创建Recommendations活动。
 title: 如何创建Recommendations活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 3c687b2d28f576a60951c8bb10434250104500b4

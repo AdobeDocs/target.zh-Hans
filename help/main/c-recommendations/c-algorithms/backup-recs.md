@@ -2,7 +2,7 @@
 keywords: 推荐;备用
 description: 了解如何在Adobe [!DNL Target] Recommendations中使用备份推荐。 没有足够推荐项目的推荐会显示备份算法的结果。
 title: 如何在Recommendations中使用备用推荐？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e

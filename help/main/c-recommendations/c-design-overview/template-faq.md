@@ -2,7 +2,7 @@
 keywords: 推荐;常见问题解答;FAQ
 description: 关于 [!DNL Target Recommendations] 设计的常见问题解答(FAQ)及其答案。
 title: 可在何处获得 [!DNL Target Recommendations]的设计问题的答案？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76

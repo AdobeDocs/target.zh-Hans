@@ -2,11 +2,12 @@
 keywords: 包含规则；包含标准；推荐；促销活动；促销活动；动态筛选；静态；静态筛选
 description: 了解如何使用Adobe [!DNL Target] Recommendations中的包含规则手动输入一个或多个要过滤的静态值。
 title: 如何在Recommendations活动中按静态值筛选？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
+exl-id: 52755b3a-ae6d-4fe4-8f1c-a660b038f2fb
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 45%

@@ -25,7 +25,7 @@ ht-degree: 3%
 * **客户端**：有关使用[!DNL Adobe Experience Platform Web SDK]或[!DNL Target Web SDK] (at.js)实现的信息。
 * **服务器端**：有关使用Node.JS、JAVA、.NET和Python SDK实施的信息。
 * **混合**：有关在使用客户端和服务器端实施的组合时实施的信息。
-* **Recommendations**：帮助您实施[!DNL Recommendations]（一种[Target Premium](/help/main/c-intro/intro.md#premium)产品）的信息。
+* **Recommendations**：帮助您实施[!DNL Recommendations](一种[Target Premium](/help/main/c-intro/intro.md#premium)产品)的信息。
 * **移动应用**：帮助您使用[!DNL Adobe Experience Platform Mobile] SDK实施的信息。
 * **电子邮件**：帮助您在电子邮件中实施[!DNL Target]的信息。
 

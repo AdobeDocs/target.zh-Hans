@@ -54,7 +54,7 @@ ht-degree: 31%
 
    描述性名称可帮助您和其他人在[!UICONTROL Assets]库中快速找到该选件。
 
-1. （视情况而定）如果您有[Target Premium帐户](/help/main/c-intro/intro.md#premium)，请选择所需的[工作区](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)。
+1. （视情况而定）如果您拥有[Target Premium帐户](/help/main/c-intro/intro.md#premium)，请选择所需的[工作区](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)。
 
 1. 为要重定向到的唯一内容或目标指定URL。 此URL必须是绝对URL。
 

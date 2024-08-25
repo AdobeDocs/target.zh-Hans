@@ -2,7 +2,7 @@
 keywords: 流量估算器；自动个性化；ap；估算流量
 description: 使用 [!DNL Adobe Target] [!UICONTROL Traffic Estimator]确定是否有足够的流量使[!UICONTROL Automated Personalization]活动成功。
 title: 成功的[!UICONTROL Automated Personalization]活动需要多少流量？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe

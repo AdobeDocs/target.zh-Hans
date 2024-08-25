@@ -2,7 +2,7 @@
 keywords: 添加用户;项目;用户组;属性;工作区;管理属性;属性;at_property;角色;权限
 description: 了解如何将用户添加到Adobe Target；创建工作区、用户组和属性；更新您的实施；以及指定角色和权限。
 title: 如何配置企业权限？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935

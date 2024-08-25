@@ -3,7 +3,7 @@ keywords: ajo；adobe journey optimizer；adobe journey optimizer target集成�
 description: 将 [!DNL Adobe Target Recommendations] 与 [!DNL Adobe Journey Optimizer]集成。
 title: 如何在使用 [!DNL Adobe Journey Optimizer]的客户历程中使用 [!DNL Target Recommendations] ？
 feature: Integrations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true

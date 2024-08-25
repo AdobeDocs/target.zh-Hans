@@ -2,7 +2,7 @@
 keywords: 自动定位；定位；流量分配；常见问题解答；faq；疑难解答；故障诊断；报表；自动定位摘要报表；摘要报表；自动化区段；重要属性
 description: 了解如何解释 [!DNL Target]中的[!UICONTROL Auto-Target]活动报告。
 title: 如何解释[!UICONTROL Auto-Target]报告？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Auto-Target
 exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
 source-git-commit: 79fcfe80d8c77d59965e6565a36cf15eb63f8323

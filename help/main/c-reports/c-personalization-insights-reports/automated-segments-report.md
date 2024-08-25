@@ -2,7 +2,7 @@
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;自动化区段;常见问题解答
 description: 通过查看“自动化区段”报表，了解由Adobe [!DNL Target] 个性化模型定义的各种区段如何响应活动中的选件/体验。
 title: 什么是自动化区段报表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1

@@ -2,7 +2,7 @@
 keywords: 目录搜索；目录；搜索；排除项；收藏集；过滤器；推荐
 description: 了解如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]查找产品或内容、从目录中删除项目等。
 title: 如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true

@@ -2,11 +2,12 @@
 keywords: 包含规则；包含标准；推荐；促销活动；动态筛选；动态；配置文件属性匹配
 description: 了解如何通过比较项目（实体）与用户配置文件中的值在 [!DNL Target Recommendations] 中动态筛选。
 title: 如何在Recommendations活动中按配置文件属性匹配进行筛选？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
+exl-id: 47ebfc0a-c220-4474-8a17-6fbfa0f94f0f
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%

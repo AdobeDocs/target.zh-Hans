@@ -2,7 +2,7 @@
 keywords: 推荐设计;创建设计;复制设计
 description: 了解如何使用默认设计或通过创建自定义设计来创建 [!DNL Target Recommendations] 设计，以便最好地配合页面的布局。
 title: 如何在Recommendations中创建设计？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true

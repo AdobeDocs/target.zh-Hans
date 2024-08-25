@@ -2,11 +2,12 @@
 keywords: 创建自定义标准;算法;标准;推荐标准;CSV;FTP;上传 CSV
 description: 了解如何上传CSV文件以在Adobe [!DNL Target] Recommendations中自定义您的推荐。
 title: 如何在 [!DNL Recommendations]中上传自定义标准？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
+exl-id: ce974152-c83e-46cb-b1cd-c5e2d10c5436
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 32%

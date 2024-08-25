@@ -2,7 +2,7 @@
 keywords: 推荐;选件
 description: 了解如何在 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中使用选件形式的 Adobe Recommendations。
 title: 如何在其他活动类型中使用选件形式的推荐？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3

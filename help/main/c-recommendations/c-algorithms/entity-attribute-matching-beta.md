@@ -2,11 +2,12 @@
 keywords: 包含规则；包含标准；推荐；促销活动；动态筛选；动态；实体属性匹配
 description: 了解如何通过将潜在项目池与用户与之交互的特定项目进行比较，在 [!DNL Target Recommendations] 中动态筛选。
 title: 如何在Recommendations活动中按实体属性匹配进行筛选？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
+exl-id: 57b8c214-6b18-4ab1-8548-906d02f162c5
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 0%

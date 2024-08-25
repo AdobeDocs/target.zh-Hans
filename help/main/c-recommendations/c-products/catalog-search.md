@@ -2,7 +2,7 @@
 keywords: 目录搜索；目录；搜索；排除项；收藏集；过滤器
 description: 了解如何使用Recommendations目录搜索来查找产品或内容、创建收藏集或排除项，以及从目录中删除项目等。
 title: 如何使用Recommendations目录搜索？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42

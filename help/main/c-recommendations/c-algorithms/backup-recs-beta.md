@@ -2,11 +2,12 @@
 keywords: 推荐;备用
 description: 了解如何在Adobe [!DNL Target Recommendations]中使用备份推荐。
 title: 如何在 [!DNL Target Recommendations]中使用备份推荐？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 6d2a313b0e54aa5f6717eee850c79e4092309e7d
+exl-id: 3968e96d-cc46-4f2d-8aee-6dafee756790
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 70%

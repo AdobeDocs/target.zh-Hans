@@ -2,7 +2,7 @@
 keywords: 自动定位；定位；流量分配；常见问题；faq；故障诊断；故障排除
 description: 了解 [!DNL Target] 中的[!UICONTROL Auto-Target]活动如何根据客户个人资料和类似访客的行为，为每位访客提供量身定制的体验。
 title: 什么是[!UICONTROL Auto-Target]活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf

@@ -2,7 +2,7 @@
 keywords: 定位；AP报表；自动个性化报表；活动级别报表；选件级别报表；选件详细信息报表；常见问题解答
 description: 了解如何在Adobe Target中解释Automated Personalization摘要报表。 您可以从此报表切换到自动化区段和重要属性报表。
 title: 如何使用Automated Personalization摘要报表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization]作为[!DNL Target Premium]解决方案的一部分提供。 在没有[Target Premium许可证](/help/main/c-intro/intro.md#premium)的情况下，[!DNL Target Standard]不包含此功能。
+>[!UICONTROL Automated Personalization]作为[!DNL Target Premium]解决方案的一部分提供。 在没有[Target Premium许可证](/help/main/c-intro/intro.md#premium)的[!DNL Target Standard]中不包括它。
 
 1. 单击&#x200B;**[!UICONTROL Activities]**，从列表中单击所需的[!UICONTROL Automated Personalization]活动，然后单击&#x200B;**[!UICONTROL Reports]**&#x200B;选项卡。
 

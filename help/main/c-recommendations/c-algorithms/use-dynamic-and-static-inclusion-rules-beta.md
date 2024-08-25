@@ -2,12 +2,13 @@
 keywords: 包含规则;包含标准;推荐;新建标准;促销活动;动态筛选;动态;空值;忽略筛选规则;静态筛选器;按值筛选;实体属性匹配;配置文件属性匹配;参数匹配;按值筛选;静态筛选器
 description: 了解如何在 [!DNL Target] Recommendations中为标准和促销活动创建包含规则。
 title: 如何在Recommendations中使用动态和静态包含规则？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 3
 hide: true
 hidefromtoc: true
-source-git-commit: 84f2ea906dcab939b3892b11eabf96494f4514cb
+exl-id: 7b594ec7-94b8-49e5-9d72-0e05a97bf271
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 16%

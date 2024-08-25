@@ -2,7 +2,7 @@
 keywords: 收藏集;定位
 description: 了解如何在 [!DNL Target Recommendations]中使用产品或项目的集合。
 title: 如何在Recommendations活动中使用收藏集？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0

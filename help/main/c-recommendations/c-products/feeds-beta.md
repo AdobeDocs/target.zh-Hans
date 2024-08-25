@@ -2,7 +2,7 @@
 keywords: 推荐信息源；信息源；SAINT；ftp；csv；分类；analytics分类
 description: 了解信息源如何使用CSV文件、 [!DNL Google Product Search] 信息源格式和 [!DNL Analytics] 产品分类将实体导入 [!DNL Adobe Target] [!DNL Recommendations]。
 title: 如何在 [!DNL Target Recommendations]中使用[!UICONTROL Feeds]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true

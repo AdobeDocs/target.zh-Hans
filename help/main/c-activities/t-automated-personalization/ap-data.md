@@ -2,7 +2,7 @@
 keywords: 环境数据；会话数据；地理数据；设备数据；移动设备数据；属性；配置文件属性；个性化算法；机器学习算法；机器学习算法
 description: 了解 [!DNL Adobe Target] 收集和使用哪些数据来构建其机器学习算法。
 title: 构建机器学习算法时会收集哪些数据？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c

@@ -1,6 +1,6 @@
 ---
 keywords: 远程选件；远程选件选择表；缓存的内容；动态内容；URL类型
-description: 了解如何使用Adobe [!DNL Target] 中的远程选件来托管外部内容（CMS或其他系统中的内容）。 了解为何要使用远程选件。
+description: 了解如何使用Adobe [!DNL Target] 中的远程选件来托管外部内容(CMS或其他系统中的内容)。 了解为何要使用远程选件。
 title: 如何创建远程选件？
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade

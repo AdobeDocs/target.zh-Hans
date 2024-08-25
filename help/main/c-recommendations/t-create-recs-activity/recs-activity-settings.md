@@ -2,7 +2,7 @@
 keywords: 推荐;设置;名称;目标;优先级;持续时间;报表设置;其他元数据
 description: 了解如何配置用于描述和控制Adobe Target中的Recommendations活动的设置。
 title: 如何配置Recommendations活动设置？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18

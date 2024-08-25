@@ -57,7 +57,7 @@ ht-degree: 48%
 
 启用体验快照后，活动工作流程图中会生成体验的缩览图。但对于某些用户而言，禁用体验快照可能会提高性能。
 
-## [!BADGE 高级]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"}
+## [!BADGE 高级]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="查看Target Premium中包含的内容。"}
 
 您可以添加预览体验时要使用的设备。每个设备都有一个关联的受众。
 

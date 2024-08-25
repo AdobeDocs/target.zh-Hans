@@ -2,11 +2,12 @@
 keywords: 推荐；推荐活动；标准；算法；推荐键；自定义键；垂直行业；零售；eccommerce；商机生成；b2b；金融服务；媒体；发布
 description: 了解如何在Adobe [!DNL Target] [!DNL Recommendations]中使用标准。
 title: 如何在 [!DNL Target] Recommendations中使用标准？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 9c6ff35269a81aa0c2ea331985c6f5ddd5c8ccb3
+exl-id: 7809984d-259d-4b99-93cd-3073e2fcf8bb
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 6%

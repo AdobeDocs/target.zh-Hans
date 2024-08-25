@@ -69,7 +69,7 @@ ht-degree: 49%
 >
 >您无法删除[!UICONTROL Production]环境，但可以对其进行重命名。
 
-## [!BADGE 高级]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="请参阅Target Premium中包含的内容。"}
+## [!BADGE 高级]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="查看Target Premium中包含的内容。"}
 
 您可以预览选定环境（主机组）的“推荐”收藏集和排除项内容。
 

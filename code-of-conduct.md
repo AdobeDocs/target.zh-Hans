@@ -1,8 +1,8 @@
 ---
 source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '427'
+ht-degree: 96%
 
 ---
 # Adobe 行为准则
@@ -48,4 +48,5 @@ ht-degree: 100%
 
 ## 来源
 
-本行为准则改编自[参与者公约](https://contributor-covenant.org)版本 1.4，此公约位于[https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+本行为准则改编自[参与者公约](https://contributor-covenant.org)版本1.4，
+可在[https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)中获取

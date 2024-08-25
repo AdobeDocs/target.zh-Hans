@@ -1,6 +1,6 @@
 ---
 keywords: 远程选件；缓存的内容；动态内容；URL类型
-description: 了解如何使用 [!DNL Target] 中的远程选件托管外部内容（CMS或其他系统中的内容）。
+description: 了解如何使用 [!DNL Target] 中的远程选件托管外部内容(CMS或其他系统中的内容)。
 title: 如何创建远程选件？
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
@@ -61,7 +61,7 @@ ht-degree: 21%
 
    描述性名称可帮助您和其他人在[!UICONTROL Assets]库中快速找到该选件。
 
-1. （视情况而定）如果您有[Target Premium帐户](/help/main/c-intro/intro.md#premium)，请选择所需的[工作区](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)。
+1. （视情况而定）如果您拥有[Target Premium帐户](/help/main/c-intro/intro.md#premium)，请选择所需的[工作区](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)。
 
 1. 指定重定向URL类型。
 

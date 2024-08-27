@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,13 @@ ht-degree: 1%
 
 此使用案例可帮助您解锁密钥，以便在[!DNL Adobe Journey Optimizer]中有效A/B测试内容更改。
 
-此用例旨在演示如何在[!DNL Adobe Target]中执行熟悉的任务，使用[A/B测试活动](/help/main/c-activities/t-test-ab/test-ab.md)但使用[!DNL Journey Optimizer]的A/B测试。
+此用例旨在演示如何使用[A/B测试活动](/help/main/c-activities/t-test-ab/test-ab.md)但使用[!DNL Journey Optimizer]在[!DNL Adobe Target]、A/B测试中执行熟悉的任务。
 
-## 场景
+## 可能的情况
 
-一家服装公司通过测试各种图像并根据用户档案属性使用用户的名字对营销活动登陆页面进行个性化设置，从而提高了转化率。
+* 一家服装公司通过测试各种图像并根据用户档案属性使用用户的名字对营销活动登陆页面进行个性化设置，从而提高了转化率。
+
+* 通过测试促销活动登陆页面上的各种产品描述和图像，一家电子商务公司发现其金会员的转化率较高，从而增加了销售额。
 
 ## 优势和价值
 
@@ -29,13 +31,13 @@ ht-degree: 1%
 * **数据驱动型决策**：利用数据在内容策略中做出明智的决策，从而确保产生最大影响。
 * **个性化用户体验**：定制内容以满足所有受众区段的独特偏好和需求。
 
-## 分步说明
+## 步骤
 
 >[!NOTE]
 >
->此部分中的说明突出显示更改图像以及使用用户档案属性个性化文本消息的必要步骤。 有关[!DNL Journey Optimizer] Web设计器中可用选项的更多信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[编辑Web内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}。
+>此部分中的说明突出显示更改图像以及使用用户档案属性个性化文本消息的必要步骤。 有关[!DNL Journey Optimizer] Web设计器中可用选项的更多信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[编辑Web内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}。 页面底部的视频特别有用。
 
-执行以下步骤以通过测试各种图像并使用用户的名字个性化消息来优化网页：
+执行以下步骤来优化网页，方法是：使用用户档案脚本测试各种图像并用用户的名字个性化消息：
 
 1. 在[!DNL Adobe Journey Optimizer]中，单击左边栏中的&#x200B;**促销活动**&#x200B;以显示[!UICONTROL Campaigns]页面。
 
@@ -51,7 +53,7 @@ ht-degree: 1%
 
 1. （视情况而定）在&#x200B;**[!UICONTROL Audience]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Select Audience]**&#x200B;并选择所需的受众。
 
-   对于此用例，我们选择为所有访客激活营销活动（默认）。
+   对于此用例，我们选择为[!UICONTROL All Visitors]激活营销活动（默认）。
 
 1. 在&#x200B;**[!UICONTROL Action]**&#x200B;部分中，从&#x200B;**[!UICONTROL Action]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Web]**，然后选择或创建新的Web配置。
 
@@ -111,6 +113,6 @@ ht-degree: 1%
 >[!MORELIKETHIS]
 >
 >在&#x200B;*Journey Optimizer文档*&#x200B;中[编辑Web内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}
->[*Journey Optimizer文档*&#x200B;中的操作方法视频](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/web-spa#video){target=_blank}
+>[*Journey Optimizer文档*&#x200B;中的操作方法视频](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank}
 >[在&#x200B;*Journey OptimizerTutorials*&#x200B;中创建营销活动](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}
 

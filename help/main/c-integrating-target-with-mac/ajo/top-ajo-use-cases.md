@@ -6,16 +6,16 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 011a47ea8d19387d6ef3c633c2a253e2f82a50d0
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '159'
 ht-degree: 7%
 
 ---
 
-# [!DNL Adobe Journey Optimizer]中的热门优化用例 — 基于Web和代码的渠道
+# [!DNL Adobe Journey Optimizer]中的最佳优化用例 — 基于Web和代码的渠道
 
-了解如何在[!DNL Adobe Journey Optimizer]中有效实施最具影响力的优化用例。
+了解如何在Web和基于代码的渠道中，在[!DNL Adobe Journey Optimizer]中有效实施最具影响力的优化用例。
 
 ## 先决条件
 

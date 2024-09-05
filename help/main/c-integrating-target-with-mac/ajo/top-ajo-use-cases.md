@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '167'
 ht-degree: 7%
 
 ---
@@ -31,3 +31,4 @@ ht-degree: 7%
 这些用例与基于Web和基于代码的渠道有关。
 
 * [通过 [!DNL Adobe Journey Optimizer]中的A/B测试更改内容](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+* [向网页添加或隐藏组件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)

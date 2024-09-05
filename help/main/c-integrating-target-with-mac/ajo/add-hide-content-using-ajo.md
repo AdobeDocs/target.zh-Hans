@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '588'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,13 @@ ht-degree: 1%
 
    ![LUMA网站上的瑜伽登陆页面](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. 要添加行动号召按钮，请单击右边栏中的&#x200B;**[!UICONTROL Edit Web Page]**。
+1. 要添加隐藏元素，请单击右边栏中的&#x200B;**[!UICONTROL Edit Web Page]**。
 
-1. 单击
+1. 单击要隐藏的元素，然后单击右边栏中的[!UICONTROL Hide]按钮。
+
+   右边栏显示您可以对选定元素执行的选项。 这些选项会因所选的元素而异。
+
+   ![隐藏元素按钮](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
 1. 单击左上角的返回箭头可返回到Web设计器。
 

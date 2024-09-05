@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,9 @@ ht-degree: 1%
 
 此使用案例可帮助您解锁密钥，以便在[!DNL Adobe Journey Optimizer]中有效A/B测试内容更改。
 
-此用例旨在演示如何使用[A/B测试活动](/help/main/c-activities/t-test-ab/test-ab.md)但使用[!DNL Journey Optimizer]在[!DNL Adobe Target]、A/B测试中执行熟悉的任务。
+此用例演示了如何使用[!DNL Journey Optimizer]而不是[!DNL Adobe Target]执行熟悉的任务，例如对[A/B测试活动](/help/main/c-activities/t-test-ab/test-ab.md)执行A/B测试。
 
-## 可能的情况
-
-* 一家服装公司通过测试各种图像并根据用户档案属性使用用户的名字对营销活动登陆页面进行个性化设置，从而提高了转化率。
-
-* 通过测试促销活动登陆页面上的各种产品描述和图像，一家电子商务公司发现其金会员的转化率较高，从而增加了销售额。
+此使用案例旨在演示如何使用[!DNL Adobe Target]执行熟悉的任务，使用[A/B测试活动](/help/main/c-activities/t-test-ab/test-ab.md)但使用[!DNL Journey Optimizer]执行A/B测试。
 
 ## 优势和价值
 
@@ -31,11 +27,19 @@ ht-degree: 1%
 * **数据驱动型决策**：利用数据在内容策略中做出明智的决策，从而确保产生最大影响。
 * **个性化用户体验**：定制内容以满足所有受众区段的独特偏好和需求。
 
+## 可能的情况
+
+* 一家服装公司通过测试各种图像并在行动号召文本中使用用户的名字个性化营销活动登陆页面，从而提高了转化率。
+
+* 一家电子商务公司发现，通过在促销活动登陆页面上测试各种产品描述和图像，其金会员的转化率较高，从而增加了销售额。
+
 ## 步骤
 
 >[!NOTE]
 >
->此部分中的说明突出显示更改图像以及使用用户档案属性个性化文本消息的必要步骤。 有关[!DNL Journey Optimizer] Web设计器中可用选项的更多信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[编辑Web内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}。 页面底部的视频特别有用。
+>此部分中的说明突出显示更改图像以及使用用户档案属性个性化文本消息的必要步骤。 有关[!DNL Journey Optimizer] Web设计器中可用选项的更多信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[编辑Web内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}。
+>
+>页面底部的视频特别有用。
 
 执行以下步骤来优化网页，方法是：使用用户档案脚本测试各种图像并用用户的名字个性化消息：
 
@@ -53,7 +57,7 @@ ht-degree: 1%
 
 1. （视情况而定）在&#x200B;**[!UICONTROL Audience]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Select Audience]**&#x200B;并选择所需的受众。
 
-   对于此用例，我们选择为[!UICONTROL All Visitors]激活营销活动（默认）。
+   对于此用例，您可以激活[!UICONTROL All Visitors]的营销活动（默认）。
 
 1. 在&#x200B;**[!UICONTROL Action]**&#x200B;部分中，从&#x200B;**[!UICONTROL Action]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Web]**，然后选择或创建新的Web配置。
 
@@ -67,9 +71,23 @@ ht-degree: 1%
 
    ![LUMA网站上的瑜伽登陆页面](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. 要创建试验以测试哪些内容效果更好，请单击&#x200B;**[!UICONTROL Create Experiment]**。
+1. 要创建试验以确定哪些内容表现更好，请单击&#x200B;**[!UICONTROL Create Experiment]**。
 
-   通过内容试验，可更改消息内容、主题或发件人，以定义多种处理方式，并确定适合受众的最佳组合。 有关详细信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[创建内容试验](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}。
+   通过内容试验，可更改消息内容、主题或发件人，以定义多种处理方式并确定适合受众的最佳组合。 有关详细信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[创建内容试验](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}。
+
+1. 选择一个成功量度并单击操作。
+
+   单击“帮助”图标可获取更多信息和相关文章的链接。
+
+1. 单击&#x200B;**[!UICONTROL Add Treatment]**，然后单击&#x200B;**[!UICONTROL Create]**。
+
+   对于此用例，可将每个试验的分布保留为50%。
+
+1. 在[!UICONTROL Campaign]详细信息页面的&#x200B;**[!UICONTROL Action]**&#x200B;下，单击&#x200B;**[!UICONTROL Edit Content]**。
+
+1. 单击处理B下的Web
+
+   对于此用例，请保持[!UICONTROL Treatment A]不变，以使用原始体验作为A/B测试中的第一个体验。
 
 1. 单击右边栏中的&#x200B;**[!UICONTROL Edit Web Page]**。
 
@@ -89,7 +107,7 @@ ht-degree: 1%
 
    有关配置文件属性的更多信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[个性化编辑器入门](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}。
 
-1. 搜索并选择“名字”配置文件属性，根据需要调整文本，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 搜索并单击加号以添加“名字”配置文件属性，根据需要调整文本，然后单击&#x200B;**[!UICONTROL Save]**。
 
    ![为名称](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)添加配置文件属性
 
@@ -103,7 +121,7 @@ ht-degree: 1%
 
 ## 查看报表
 
-单击报表按钮，然后单击所需的报告周期：
+单击[!UICONTROL Reports]按钮，然后单击所需的报告周期：
 
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]

@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 95e6802f5ba5e56962302c37691cc499d79cf68a
+source-git-commit: 6c4d5c5d415a16661a56bb0c4d5b72f295baf30a
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 23%
+source-wordcount: '384'
+ht-degree: 21%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 23%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
+| 9 月 11 日 | [用户](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | 在“指定角色和权限”下添加了以下注释：<P> 要在[!DNL Target]中查看活动，必须将用户直接分配到至少具有[!UICONTROL Observer]角色的工作区。 仅通过用户组进行分配是不够的。 通常建议授予用户访问默认工作区的权限。 |
 | 8 月 1 日 | [“推荐”常见问题解答](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 添加了以下常见问题解答：“我能否使用[!DNL Target] API管理[!DNL Target]用户界面创建的可视化选件？” |
 | 7 月 10 日 | [代理配置(Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank} | 添加了新章节：“设备端决策” |
 | 6 月 3 日 | [优先级](/help/main/c-activities/priority.md) | 更新了整个主题，包括指示来自多个[!UICONTROL Form-Based Experience Composer]和VEC活动的内容是否可以交付。 以前，基于表单的工作流中只能交付一个活动。 可投放的基于表单的活动数量不再有限制。 |

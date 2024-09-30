@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
+source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
 workflow-type: tm+mt
-source-wordcount: '38147'
+source-wordcount: '38259'
 ht-degree: 84%
 
 ---
@@ -22,6 +22,18 @@ ht-degree: 84%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2024
+
+### [!DNL Target]在[!DNL Adobe Customer Journey Analytics]中报告（2024年5月8日）
+
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank}与[!DNL Target]之间的集成为您的优化程序提供了强大的分析和省时的工具。
+
+将 [!DNL Customer Journey Analytics] 用作 [!DNL Target] 的报告源主要有以下好处：
+
+* 营销人员可以随时将 [!DNL Customer Journey Analytics] 成功量度动态应用到 [!DNL Target] 活动报表。在运行活动之前什么都不需要指定。
+* 营销人员可以利用[!DNL Customer Journey Analytics]功能（如[试验面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}）来进一步分析其网站个性化。
+* 营销人员可以拥有[[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank}和[!DNL Target]的单个报表源。 可将这两种个性化产品都连接到 [!DNL Customer Journey Analytics] 以更全面地了解您的 Web 个性化情况。
+
+有关详细信息，请参阅Adobe Customer Journey Analytics中的[目标报表](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)。
 
 ### [!UICONTROL Visual Experience Composer]帮助程序扩展（2024年4月23日）
 

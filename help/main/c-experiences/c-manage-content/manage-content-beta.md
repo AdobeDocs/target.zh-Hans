@@ -7,10 +7,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 74dbbb2f56e62c2c5595497c7ae1e264f9ffd9d4
+source-git-commit: 2831d370d774ce389a8c3621fa5e4354223af993
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '825'
+ht-degree: 8%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 | 搜索字段 | 使用&#x200B;**[!UICONTROL Search in]**&#x200B;字段快速查找选件或减少[!UICONTROL Offers]库中显示的选件数。 您可以按[!UICONTROL Offer Name]、[!UICONTROL AEM Paths]或[!UICONTROL AEM Tags]进行搜索。 |
 | [!UICONTROL Create Folder] | 单击&#x200B;**[!UICONTROL Create Folder]**&#x200B;可在[!UICONTROL Offer]库中创建文件夹以保存代码选件、图像选件以及其他文件夹以创建子文件夹结构。<P>有关详细信息，请参阅[创建选件文件夹](/help/main/c-experiences/c-manage-content/create-content-folder.md)。 |
 | [!UICONTROL [!UICONTROL Create Offer]] | 单击&#x200B;**[!UICONTROL Create Offer]**&#x200B;以创建选件。<P>有关创建各种选件类型的详细信息，请参阅： <ul><li>HTML 选件</li><li>[JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[远程选件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
-| “批量操作”复选框<P>![批量操作图标](/help/main/assets/icons/Selection.svg) | 单击[!UICONTROL Bulk Operations]复选框可对所有活动或选定活动执行批量操作。<P>有关可用操作的列表（取决于您的权限和选件状态），请参阅下面的[执行快速操作](#quick-actions)。 |
+| “批量操作”复选框<P>![批量操作图标](/help/main/assets/icons/Rectangle.svg) | 单击[!UICONTROL Bulk Operations]复选框可对所有选件或选定选件执行批量操作。<P>有关可用操作的列表（取决于您的权限和选件状态），请参阅下面的[执行快速操作](#quick-actions)。 |
 | [!UICONTROL Name] | 每个选件的名称。<P>单击每个选件名称旁边的&#x200B;**[!UICONTROL Quick Info]**&#x200B;图标（![快速信息图标](/help/main/assets/icons/InfoOutline.svg)）可在弹出卡片中查看有关该选件的更多信息，包括选件ID、类型、选件日期、上次修改时间和修改者等。<p>单击每个选件名称旁边的&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)）以打开一个菜单，该菜单允许您对活动执行快速操作。 以下操作可用（取决于您的权限和选件状态）： [!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]和[!UICONTROL Move]。 有关每个操作的详细信息，请参阅下面的[执行快速操作](#quick-actions)。<P>单击表标题可按名称的字母升序或降序对列表进行排序。 |
 | [!UICONTROL Type] | 选件类型： [!UICONTROL HTML Offers]、[[!UICONTROL Redirect Offers]](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[[!UICONTROL Remote Offers]](/help/main/c-experiences/c-manage-content/about-remote-offers.md)和[[!UICONTROL JSON Offers]](/help/main/c-experiences/c-manage-content/create-json-offer.md)。 |
 | [!UICONTROL Source] | 显示创建选件的位置： [!DNL Adobe Target]、[!DNL Adobe Target Classic]和[!DNL Adobe Experience Manager]。 |

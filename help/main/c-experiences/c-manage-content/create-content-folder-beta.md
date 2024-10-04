@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 7802e4b84791645193661320b9e8db15e286a250
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '325'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 7%
 
    ![代码选件选项卡](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. 单击&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Folder]**。
+1. 单击**[!UICONTROL Create Folder]。
 
 1. 提供文件夹的描述性名称。
 
@@ -44,9 +44,8 @@ ht-degree: 7%
 
 1. 单击&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**。
 
-   ![图像选件选项卡](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
-
 1. 单击&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Folder]**。
+
 1. 为文件夹指定描述性&#x200B;**[!UICONTROL Title]**。
 
    例如，您可以包含它所包含的内容类型。
@@ -54,9 +53,9 @@ ht-degree: 7%
    名称不能包含以下字符：百分比符号`%`、正斜线`/`、反斜线`\`、冒号`:`、星号`*`、问号`?`、双引号`"`、方括号`[`、方括号`]`、加号： `+`、竖线： `|`、句点： `.`、数字符号： `#`、大括号： `{`、大括号`}`、插入号`^`或分号`;`。 您可以使用连字符(`- `)代替这些字符。
 
 1. （可选）指定描述性&#x200B;**[!UICONTROL Name]**。
-1. （可选）选中&#x200B;**[!UICONTROL Private]**&#x200B;复选框以指定该文件夹为专用文件夹，以便只有您可以看到它及其内容。
+1. （可选）选择&#x200B;**[!UICONTROL Private]**&#x200B;以指定该文件夹为专用文件夹，以便只有您可以查看它及其内容。
 
-1. （可选）选中&#x200B;**[!UICONTROL Reorder-able in List View]**&#x200B;复选框，以指定您和其他人可以重新排序文件夹在[!UICONTROL List View]中的位置。
+1. （可选）选择&#x200B;**[!UICONTROL Reorder-able in List View]**&#x200B;以指定您和其他人可以重新排序文件夹在[!UICONTROL List View]中的位置。
 
 1. 单击 **[!UICONTROL Create]**。
 

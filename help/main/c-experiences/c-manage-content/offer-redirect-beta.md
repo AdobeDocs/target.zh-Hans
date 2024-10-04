@@ -1,16 +1,16 @@
 ---
-keywords: 重定向选件;创建重定向选件;添加 HTML 选件;在重定向中传递所有 URL 参数;在重定向中传递 mboxSessionId（仅当要重定向到其他域时才需使用此功能）
-description: 了解如何在 [!DNL Target] 中创建重定向选件，以使浏览器重定向到新页面。
+keywords: 重定向选件；创建重定向选件；添加html选件；在重定向中传递所有URL参数
+description: 了解如何创建重定向选件以促使浏览器重定向到新页面。
 title: 如何创建重定向选件？
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
 exl-id: 751a8d97-2e35-4527-99f3-d7a42c104fcb
-source-git-commit: 182b5f286edd33f24b2b7efe3f9c583f7d0bc1ca
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 31%
+source-wordcount: '1137'
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 31%
 >
 >* 您不能在AJAX mbox (`mboxUpdate`)中使用重定向选件。
 >
->* 对于使用Analytics作为报表源(A4T)的活动中的重定向选件，您的实施必须满足某些最低要求。 除此之外，还有一些重要信息需要您知悉。有关更多信息，请参阅[重定向选件 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
+>* 对于使用[[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的活动中的重定向选件，您的实施必须满足某些最低要求。 除此之外，还有一些重要信息需要您知悉。有关更多信息，请参阅[重定向选件 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
 >
 >* 有关如何设置可重定向的体验的信息，请参阅[重定向到 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
 
@@ -43,13 +43,7 @@ ht-degree: 31%
 ## 从[!UICONTROL Code Offers]页面创建重定向选件
 
 1. 单击&#x200B;**[!UICONTROL Offers]**，然后选择&#x200B;**[!UICONTROL Code Offers]**&#x200B;选项卡。
-
-   ![代码选件选项卡](/help/main/c-experiences/c-manage-content/assets/offers-code-offers-new.png)
-
 1. 单击&#x200B;**[!UICONTROL Create Offer]** > **[!UICONTROL Redirect Offer]**。
-
-   ![创建重定向选件对话框](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer-new.png)
-
 1. 为选件提供一个描述性名称。
 
    描述性名称可帮助您和其他人在[!UICONTROL Assets]库中快速找到该选件。
@@ -64,7 +58,7 @@ ht-degree: 31%
 
 1. 选择以下所需选项以自定义您的重定向选件：
 
-   * **包含所有URL参数：**&#x200B;如果要将上一页中存在的所有URL参数都传播到重定向页面，请滑动切换开关以启用此选项。
+   * **包含所有URL参数：**&#x200B;如果您希望将上一页中存在的所有URL参数都传播到重定向页面，请启用此选项。
 
      例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递 URL 中的动态参数，因为这样才能跟踪顾客是如何到达您的网站：是通过电子邮件、横幅广告、搜索广告还是自然访问。启用此选项后，当您在URL框中输入的是`https://www.mycompany.com/mensShirts.html`时，页面`https://www.mycompany.com/mens.html?emailId=123`上的重定向选件将自动变为`https://www.mycompany.com/mensShirts.html?emailId=123`。
 
@@ -76,22 +70,13 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->在启动这些测试之前，请咨询您的实施顾问。
+>请在启动这些测试之前咨询您的实施顾问。
 
 ## 使用[!UICONTROL Form-Based Experience Composer]创建重定向选件
 
 1. 使用基于[表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)创建活动时，请选择要显示&#x200B;**[!UICONTROL Content]**&#x200B;部分的位置。
-
-   基于表单的体验编辑器中的![内容部分](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
-
 1. 单击&#x200B;**[!UICONTROL Default Content]**&#x200B;下拉列表，然后单击&#x200B;**[!UICONTROL Change Redirect Offer]**。
-
-   ![更改重定向选件选项](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
-
 1. 单击&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**。
-
-   ![创建重定向选件对话框](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
-
 1. 为选件提供一个描述性名称。
 
    描述性名称可帮助您和其他人在[!UICONTROL Assets]库中快速找到该选件。
@@ -116,7 +101,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->在启动这些测试之前，请咨询您的实施顾问。
+>请在启动这些测试之前咨询您的实施顾问。
 
 ## 在活动中使用重定向选件
 
@@ -131,11 +116,7 @@ ht-degree: 31%
 1. 指定所需位置并根据需要添加任何受众细化。
 
 1. 单击&#x200B;**[!UICONTROL Content]**&#x200B;部分中的下拉列表，然后单击&#x200B;**[!UICONTROL Change Redirect Offer]**。
-
-   ![更改重定向选件选项](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
-
 1. 从[!UICONTROL Select Remote Offer]对话框中选择所需的重定向选件，然后单击&#x200B;**[!UICONTROL Done]**。
-
 1. 配置完活动。
 
 ## 培训视频：基于表单的编辑器![教程徽章](/help/main/assets/tutorial.png)

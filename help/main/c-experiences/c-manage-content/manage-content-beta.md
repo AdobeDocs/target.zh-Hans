@@ -1,16 +1,16 @@
 ---
 keywords: 内容;资产;管理内容;选件;管理资产;进入选择模式;选择模式
-description: 了解如何使用[!UICONTROL Offers]库高效地管理代码和图像选件。 了解优化工作流和增强项目的最佳实践和提示。
+description: 了解如何使用[!UICONTROL Offers]库高效地管理代码和图像选件。
 title: 如何管理代码和图像选件？
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 2831d370d774ce389a8c3621fa5e4354223af993
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 8%
+source-wordcount: '812'
+ht-degree: 9%
 
 ---
 

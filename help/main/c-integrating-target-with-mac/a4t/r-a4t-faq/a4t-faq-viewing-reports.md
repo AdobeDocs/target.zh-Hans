@@ -4,10 +4,10 @@ description: 查找有关在使用Analytics for [!DNL Target] (A4T)时查看报�
 title: 查找有关使用A4T查看报表的问题答案？
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
+source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
 workflow-type: tm+mt
-source-wordcount: '2573'
-ht-degree: 25%
+source-wordcount: '2539'
+ht-degree: 24%
 
 ---
 
@@ -33,12 +33,10 @@ ht-degree: 25%
 
 +++
 
-## 我能否在[!DNL Analysis Workspace]中应用“同一次接触”Attribution IQ模型？
+## [!DNL Analysis Workspace]中使用了哪个Attribution IQ模型？
 
 +++回答
-在[!DNL Analysis Workspace]中使用[!DNL Target]活动展示和转化时，请将“同一次接触”Attribution IQ模型应用于指标以确保准确计数。 要应用[非默认归因模型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=zh-Hans)，请右键单击指标以&#x200B;**修改“列设置”> 启用“使用非默认归因模型”> 选择“同一次接触”模型**。如果不应用此模型，则指标将被夸大。
-
-所有当前[!DNL Adobe Analytics]包均可添加包含[!UICONTROL Attribution IQ]的此模型。 如果您无权访问[!UICONTROL Attribution IQ]，请依赖[!UICONTROL Reports & Analytics]中的A4T数据。
+在[!DNL Analysis Workspace]中使用[!DNL Target]活动展示和转化时，“同一次接触”Attribution IQ模型是应用于量度的默认模型，以确保准确计数。 这种模式在99%的案例中效果很好。 但是，您可以在Attribution IQ中覆盖此标准归因。
 
 +++
 

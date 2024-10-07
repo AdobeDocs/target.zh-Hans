@@ -1,22 +1,22 @@
 ---
 keywords: 远程选件；缓存的内容；动态内容；URL类型
-description: 了解如何使用 [!DNL Target] 中的远程选件托管外部内容(CMS或其他系统中的内容)。
+description: 了解如何利用 [!DNL Target] 中的远程选件来托管来自CMS或其他系统的外部内容。
 title: 如何创建远程选件？
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
 exl-id: e83ad57e-716d-4595-b5cf-3a882fcb9e37
-source-git-commit: dedef7763a1d69f80c569a0e7edaadfb310b1a15
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 21%
+source-wordcount: '1064'
+ht-degree: 19%
 
 ---
 
 # 创建远程选件
 
-可使用远程选件在 [!DNL Adobe Target] 以外托管内容，[!DNL Target] 会引用这些内容并将其交付到用户网站。出于易用性或安全原因，此内容可能位于内容管理(CMS)或其他系统中。
+使用远程选件在[!DNL Adobe Target]外部托管内容，允许[!DNL Target]引用此内容并将其交付到用户网站。 出于易用性或安全原因，此内容可以驻留在内容管理系统(CMS)或其他系统中。
 
 >[!NOTE]
 >
@@ -51,21 +51,17 @@ ht-degree: 21%
 
 1. 单击&#x200B;**[!UICONTROL Offers]**，然后选择&#x200B;**[!UICONTROL Code Offers]**&#x200B;选项卡。
 
-   ![选件>代码选件](/help/main/c-experiences/c-manage-content/assets/offers-code-offers-new.png)
-
 1. 单击&#x200B;**[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**。
 
-   ![创建远程选件对话框](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui_new.png)
+1. 在[!UICONTROL Create Remote Offer]对话框中，为选件提供描述性名称。
 
-1. 为选件提供一个描述性名称。
-
-   描述性名称可帮助您和其他人在[!UICONTROL Assets]库中快速找到该选件。
+   描述性名称可帮助您和其他人在[!UICONTROL Offers]库中快速找到该选件。
 
 1. （视情况而定）如果您拥有[Target Premium帐户](/help/main/c-intro/intro.md#premium)，请选择所需的[工作区](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)。
 
 1. 指定重定向URL类型。
 
-   有关详细信息，请参阅下面的[重定向URL类型：缓存或动态](#url-type)。
+   有关详细信息，请参阅下面的[重定向URL类型： [!UICONTROL Onsite Cached]或[!UICONTROL Onsite Dynamic]](#url-type)。
 
 1. 指定远程选件的绝对远程URL。
 
@@ -75,15 +71,9 @@ ht-degree: 21%
 
 1. 使用基于[表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)创建活动时，请选择要显示&#x200B;**[!UICONTROL Content]**&#x200B;部分的位置。
 
-   基于表单的体验编辑器中的![内容部分](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
-
 1. 单击&#x200B;**[!UICONTROL Default Content]**&#x200B;下拉列表，然后单击&#x200B;**[!UICONTROL Change Remote Offer]**。
 
-   ![更改远程选件选项](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
-
 1. 单击&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**。
-
-   ![创建远程选件对话框](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. 为选件提供一个描述性名称。
 
@@ -91,27 +81,27 @@ ht-degree: 21%
 
 1. 指定重定向URL类型。
 
-   有关详细信息，请参阅下面的[重定向URL类型：缓存或动态](#url-type)。
+   有关详细信息，请参阅下面的[重定向URL类型： [!UICONTROL Onsite Cached]或[!UICONTROL Onsite Dynamic]](#url-type)。
 
 1. 指定远程选件的远程URL。
 
 1. 单击 **[!UICONTROL Save]**。
 
-## 重定向URL类型：缓存或动态 {#url-type}
+## 重定向URL类型： [!UICONTROL Onsite Cached]或[!UICONTROL Onsite Dynamic] {#url-type}
 
 以下信息可帮助您了解这两个选项之间的差异：
 
-### 缓存的URL
+### [!UICONTROL Onsite Cached] URL
 
 缓存的远程选件的内容是从[!DNL Target]提供的。
 
 每两小时，[!DNL Target]从远程URL中提取内容，然后将该内容存储在[!DNL Target]中。 当访客加载的网站具有包含远程选件的体验时，[!DNL Target]会提供该选件。
 
-缓存的远程选件提供了增强的安全性，因为登录到[!DNL Target]的人员无法更改内容。 要更改内容，用户需要记录（或其他系统）并在其中更改内容。
+缓存的远程选件提供了增强的安全性，因为登录到[!DNL Target]的人员无法更改内容。 要更改内容，用户需要登录到内容管理或其他系统，然后在其中更改内容。
 
 您能够为已缓存的远程选件指定绝对 URL 或相对 URL。
 
-### 动态URL
+### [!UICONTROL Onsite Dynamic] URL
 
 动态远程选件由内容管理或其他系统提供，而不是从[!DNL Target]提供。
 
@@ -132,8 +122,6 @@ ht-degree: 21%
 1. 指定所需位置并根据需要添加任何受众细化。
 
 1. 单击&#x200B;**[!UICONTROL Content]**&#x200B;部分中的下拉列表，然后单击&#x200B;**[!UICONTROL Change Remote Offer]**。
-
-   ![更改远程选件选项](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
 
 1. 从[!UICONTROL Select Remote Offer]对话框中选择所需的远程选件，然后单击&#x200B;**[!UICONTROL Done]**。
 
@@ -159,9 +147,9 @@ ht-degree: 21%
 
 ## 远程选件选择表 {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
-远程选件选择矩阵可帮助您确定要选择的远程选件类型： [!UICONTROL Cached]或[!UICONTROL Dynamic]。
+远程选件选择矩阵可帮助您决定要选择的远程选件类型： [!UICONTROL Onsite Cached]或[!UICONTROL Onsite Dynamic]。
 
-| 功能 | 已缓存 | 动态 |
+| 功能 | 现场缓存 | 现场动态 |
 |--- |--- |--- |
 | 每次访客发出请求时更新 | 否 | 是 |
 | 内容更新 | 每两小时缓存一次 | 每次请求时立即更新 |

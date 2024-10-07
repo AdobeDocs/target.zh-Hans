@@ -4,14 +4,14 @@ description: 了解如何在Adobe [!DNL Target] 选件库中搜索代码和图�
 title: 如何在选件库中搜索内容？
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: c9d987a7e27bbaa605f4d7b45975c854b61783de
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 8%
+source-wordcount: '235'
+ht-degree: 7%
 
 ---
 
-# 搜索内容
+# 搜索和筛选内容
 
 在[!DNL Adobe Target]的[!UICONTROL Offers]库中按关键字搜索资源。
 

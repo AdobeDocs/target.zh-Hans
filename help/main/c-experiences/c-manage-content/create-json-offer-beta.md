@@ -6,9 +6,9 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 9065fa16a2a5d742f7f91297ec7e7448db8cc7fc
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '421'
 ht-degree: 25%
 
 ---
@@ -33,13 +33,7 @@ JSON选件可用于基于表单的活动，以启用以下用例：需要通过[
 ## 创建JSON选件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. 单击&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**。
-
-   ![选件>代码选件选项卡](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
 1. 单击&#x200B;**[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**。
-
-   ![offer-json图像](assets/offer-json-new.png)
-
 1. 键入选件名称。
 1. （视情况而定）如果您拥有[[!DNL Target] 高级帐户](/help/main/c-intro/intro.md#premium)，请选择所需的[工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace)。
 1. （视情况而定）选择所需的配置文件属性。
@@ -143,6 +137,4 @@ Real-time CDP配置文件属性可与[!DNL Target]共享，以用于HTML和JSON�
 
 ## 按JSON选件类型过滤选件 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-您可以按JSON选件类型筛选[!UICONTROL Offers]库，方法是单击&#x200B;**[!UICONTROL Show filters]**&#x200B;图标，然后选中&#x200B;**[!UICONTROL JSON]**&#x200B;复选框。
-
-![offer-json-filter图像](assets/offer-json-filter-new.png)
+您可以按JSON选件类型筛选[!UICONTROL Offers]库，方法是单击&#x200B;**[!UICONTROL Show filters]**&#x200B;图标（![显示筛选器图标](/help/main/assets/icons/Filter.svg)），然后选中&#x200B;**[!UICONTROL JSON Offers]**&#x200B;复选框。

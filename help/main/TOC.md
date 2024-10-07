@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 83%
+source-wordcount: '1374'
+ht-degree: 82%
 
 ---
 
@@ -266,7 +266,8 @@ ht-degree: 83%
       + [创建JSON选件测试版](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [处理库中的内容](c-experiences/c-manage-content/assets-working.md)
       + [使用测试版库中的内容](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
-      + [搜索内容](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [搜索和筛选内容](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [搜索和筛选测试版内容](/help/main/c-experiences/c-manage-content/filter-and-search-content-beta.md)
       + [将动态数据传递给选件](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM体验和内容片段](c-experiences/c-manage-content/aem-experience-fragments.md)
 + 报表 {#reports}

@@ -6,7 +6,8 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 23f6a8bfd198649ea1e234dbd57593eb868fc569
+exl-id: 54834393-9121-41e7-93fb-b00924869d73
+source-git-commit: f44189ee552f153f8b0d08bc427189712e37d636
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 78%
@@ -30,19 +31,19 @@ ht-degree: 78%
 * [活动概述](c-activities/activities.md){target=_blank}
 * [Target 活动类型](c-activities/target-activities-guide.md){target=_blank}
 * A/B 测试 {#abtest}
-   * [A/B 测试概述](c-activities/t-test-ab/test-ab.md){target=_blank}
+   * [A/B 测试概述](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
    * [A/B 测试应该持续多长时间？](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
    * [A/B 测试常见的十个隐患以及如何避免它们](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
    * [A/A 测试](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
    * 创建 A/B 测试 {#create}
-      * [创建 A/B 测试](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md){target=_blank}
-      * [Activity URL（活动 URL）](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md){target=_blank}
-      * [添加体验](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md){target=_blank}
+      * [创建 A/B 测试](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
+      * [Activity URL（活动 URL）](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
+      * [添加体验](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank}
       * [选择受众](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
-      * [目标和设置](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md){target=_blank}
+      * [目标和设置](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
       * [使用 Analytics 数据](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
-      * [设置量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md){target=_blank}
-      * [A/B 测试中的多个体验受众](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md){target=_blank}
+      * [设置量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
+      * [A/B 测试中的多个体验受众](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * 自动分配 {#auto-allocate}
    * [自动分配概述](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
    * [创建自动分配活动](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}
@@ -180,4 +181,3 @@ ht-degree: 78%
    * [Recommendations Classic 文档](/help/main/c-recommendations/recommendations-classic-documentaton.md){target="_blank"}
 
 +++
-

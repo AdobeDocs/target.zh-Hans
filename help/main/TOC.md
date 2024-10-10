@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 54be0689d6e8aea9d7923a93a1660548894d9941
+source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 82%
+source-wordcount: '1394'
+ht-degree: 81%
 
 ---
 
@@ -123,8 +123,11 @@ ht-degree: 82%
          + [创建 A/B 测试](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [创建A/B测试测试版](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [活动 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
+         + [Activity URL测试版](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md)
          + [添加体验](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
+         + [添加体验测试版](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md)
          + [选择受众](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
+         + [选择受众测试版](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [目标和设置](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [使用 Analytics 数据](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [设置量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)

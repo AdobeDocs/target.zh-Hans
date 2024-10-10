@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: 54be0689d6e8aea9d7923a93a1660548894d9941
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1385'
 ht-degree: 82%
 
 ---
@@ -115,11 +115,13 @@ ht-degree: 82%
    + [Target 活动类型](c-activities/target-activities-guide.md)
    + A/B 测试 {#abtest}
       + [A/B 测试概述](c-activities/t-test-ab/test-ab.md)
+      + [A/B测试概述（测试版）](c-activities/t-test-ab/test-ab-beta.md)
       + [A/B 测试应该持续多长时间？](c-activities/t-test-ab/sample-size-determination.md)
       + [A/B 测试常见的十个隐患以及如何避免它们](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [A/A 测试](/help/main/c-activities/t-test-ab/aa-testing.md)
       + 创建 A/B 测试 {#create}
          + [创建 A/B 测试](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [创建A/B测试测试版](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [活动 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [添加体验](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [选择受众](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)

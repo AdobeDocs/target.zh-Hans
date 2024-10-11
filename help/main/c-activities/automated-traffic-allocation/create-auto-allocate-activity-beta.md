@@ -1,28 +1,24 @@
 ---
-keywords: 创建A/B；A/B测试；A/B活动；新建a/b活动；创建a/b
-description: 掌握[!UICONTROL Visual Experience Composer] (VEC)以直接在启用了 [!DNL Target]的页面上创建A/B测试活动。
-title: 如何创建A/B测试？
-feature: A/B Tests
+keywords: 创建自动分配；A/B测试；自动分配活动；新建A/B活动；自动分配；自动分配到最佳体验；分配；自动分配
+description: 了解如何使用[!UICONTROL Visual Experience Composer] (VEC)创建[!UICONTROL Auto-Allocate] A/B测试活动。
+title: 如何创建[!UICONTROL Auto-Allocate]活动？
+feature: Auto-Allocate
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+source-git-commit: fb29bd9704d3c2c3cf2c225114b2e52dc5061796
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 17%
+source-wordcount: '907'
+ht-degree: 16%
 
 ---
 
-# 创建A/B测试活动
+# 创建[!UICONTROL Auto-Allocate]活动
 
-利用[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)，直接在启用了[!DNL Target]的页面上创建[!UICONTROL A/B Test]活动，并在[!DNL Target]中修改页面部分。
+在[!DNL Adobe Target]中使用[!UICONTROL Visual Experience Composer] (VEC)直接在启用了[!DNL Target]的页面上创建您的[!UICONTROL Auto-Allocate] [!UICONTROL A/B Test]活动，并在[!DNL Target]内修改页面的各个部分。
 
->[!NOTE]
->
->除了[!UICONTROL Manual] （默认） [!UICONTROL A/B Test]活动（本文中讨论）之外，[!DNL Target]还提供另外两种类型的[!UICONTROL A/B Test]活动： [!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]。
->
->查看&#x200B;*A/B测试概述*&#x200B;中的[A/B测试活动类型](/help/main/c-activities/t-test-ab/test-ab.md#types)。
+除了[!UICONTROL Auto-Allocate] [!UICONTROL A/B Test]活动（本文中讨论）之外，[!DNL Target]还提供另外两种类型的[!UICONTROL A/B Test]活动：[!UICONTROL Manual (Default)]和[!UICONTROL Auto-Target]。 查看&#x200B;*A/B测试概述*&#x200B;中的[A/B测试活动类型](/help/main/c-activities/t-test-ab/test-ab.md#types)。
 
-要创建手动[!UICONTROL A/B Test]活动，请执行以下操作：
+要创建[!UICONTROL Auto-Allocate]活动，请执行以下操作：
 
 1. 从&#x200B;**[!UICONTROL Activities]**&#x200B;列表中，单击&#x200B;**[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**。
 
@@ -108,11 +104,11 @@ ht-degree: 17%
 
    例如，您可以将准入资格限制为 50% 的访客或 45% 的“加州”受众。
 
-1. 单击&#x200B;**[!UICONTROL Traffic Allocation]**&#x200B;控件，然后在右窗格中选择所需的流量分配方法，如下所示：
+1. 单击&#x200B;**[!UICONTROL Traffic Allocation]**&#x200B;控件，然后在右窗格中选择所需的流量分配方法。 在此方案中，单击&#x200B;**[!UICONTROL Auto-Allocate to best experience]**。
 
    ![流量分配方法设置](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
-   选择所需的流量分配方法：
+   可以使用以下流量分配方法：
 
    * **[!UICONTROL Manual (Default)]**：指定您希望看到每个体验的参加者所占的百分比。 您可以将百分比平分到所有体验，或者也可以为每个体验指定较高或较低的百分比。所有体验的百分比总和必须等于 100%。
 
@@ -125,6 +121,10 @@ ht-degree: 17%
 1. 如果您对受众、体验选择和流量分配选择感到满意，请单击&#x200B;**[!UICONTROL Next]**&#x200B;以进入三步引导式工作流的第三步。
 
 1. 指定活动的[目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)。
+
+   >[!NOTE]
+   >
+   >如果要将[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)与此活动一起使用，请参阅自动分配和自动定位活动支持[A4T的重要信息](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。
 
 1. 单击&#x200B;**[!UICONTROL Save & Close]**&#x200B;或&#x200B;**[!UICONTROL Save]**。
 

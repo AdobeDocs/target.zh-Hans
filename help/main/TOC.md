@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
+source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1426'
 ht-degree: 80%
 
 ---
@@ -138,11 +138,15 @@ ht-degree: 80%
    + 自动分配 {#auto-allocate}
       + [自动分配概述](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [创建自动分配活动](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
+      + [创建自动分配活动](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [解释自动分配报表](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [解释自动分配报告测试版](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [自动分配比手动测试产生测试结果更快和收入更高](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + 自动定位 {#auto-target}
       + [自动定位概述](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+      + [自动定位概述（测试版）](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [创建自动定位活动](/help/main/c-activities/auto-target/create-auto-target.md)
+      + [创建自动定位活动测试版](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [自动定位常见问题解答和疑难解答](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [报表和自动定位](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}

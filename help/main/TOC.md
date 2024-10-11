@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 80%
+source-wordcount: '1447'
+ht-degree: 78%
 
 ---
 
@@ -153,10 +153,13 @@ ht-degree: 80%
       + [Automated Personalization 概述](c-activities/t-automated-personalization/automated-personalization.md)
       + [随机林算法](c-activities/t-automated-personalization/algo-random-forest.md)
       + [创建 Automated Personalization 活动](c-activities/t-automated-personalization/create-ap-activity.md)
+      + [创建Automated Personalization活动测试版](c-activities/t-automated-personalization/create-ap-activity-beta.md)
       + [为 Target 个性化算法上传数据](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [为 Target 个性化算法收集数据](c-activities/t-automated-personalization/ap-data.md)
       + [估算成功所需流量](c-activities/t-automated-personalization/ap-traffic-estimator.md)
+      + [估算成功测试版所需的流量](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md)
       + [预览 Automated Personalization 测试体验](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [预览Automated Personalization测试测试版体验](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [Target Automated Personalization 选件](c-activities/t-automated-personalization/ap-target-offers.md)
       + [管理排除项](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Automated Personalization 中的选件报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)

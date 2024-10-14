@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: f44189ee552f153f8b0d08bc427189712e37d636
+source-git-commit: 8038be5a536ad52b5fd7e1c835bb0b48630a8a11
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 78%
+source-wordcount: '520'
+ht-degree: 75%
 
 ---
 
@@ -28,42 +28,27 @@ ht-degree: 78%
 
 +++单击以展开
 
-* [活动概述](c-activities/activities.md){target=_blank}
-* [Target 活动类型](c-activities/target-activities-guide.md){target=_blank}
 * A/B 测试 {#abtest}
    * [A/B 测试概述](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
-   * [A/B 测试应该持续多长时间？](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
-   * [A/B 测试常见的十个隐患以及如何避免它们](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
-   * [A/A 测试](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
-   * 创建 A/B 测试 {#create}
       * [创建 A/B 测试](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
       * [Activity URL（活动 URL）](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
       * [添加体验](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank}
-      * [选择受众](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
       * [目标和设置](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
-      * [使用 Analytics 数据](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
       * [设置量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
       * [A/B 测试中的多个体验受众](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * 自动分配 {#auto-allocate}
-   * [自动分配概述](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
-   * [创建自动分配活动](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}
-   * [解释自动分配报表](c-activities/automated-traffic-allocation/determine-winner.md){target=_blank}
-   * [自动分配比手动测试产生测试结果更快和收入更高](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md){target=_blank}
+   * [创建自动分配活动](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md){target=_blank}
+   * [解释自动分配报表](c-activities/automated-traffic-allocation/determine-winner-beta.md){target=_blank}
 * 自动定位 {#auto-target}
-   * [自动定位概述](/help/main/c-activities/auto-target/auto-target-to-optimize.md){target=_blank}
-   * [创建自动定位活动](/help/main/c-activities/auto-target/create-auto-target.md){target=_blank}
+   * [自动定位概述](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
+   * [创建自动定位活动](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [自动定位常见问题解答和疑难解答](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-   * [报表和自动定位](/help/main/c-activities/auto-target/reporting-and-auto-target.md){target=_blank}
 * Automated Personalization {#automated-personalization}
-   * [自动个性化概述](c-activities/t-automated-personalization/automated-personalization.md){target=_blank}
-   * [随机林算法](c-activities/t-automated-personalization/algo-random-forest.md){target=_blank}
-   * [创建自动个性化活动](c-activities/t-automated-personalization/create-ap-activity.md){target=_blank}
-   * [为 Target 个性化算法上传数据](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md){target=_blank}
-   * [为 Target 个性化算法收集数据](c-activities/t-automated-personalization/ap-data.md){target=_blank}
-   * [估算成功所需流量](c-activities/t-automated-personalization/ap-traffic-estimator.md){target=_blank}
-   * [预览 Automated Personalization 测试体验](c-activities/t-automated-personalization/ap-preview-experiences.md){target=_blank}
+   * [创建自动个性化活动](c-activities/t-automated-personalization/create-ap-activity-beta.md){target=_blank}
+   * [估算成功所需流量](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md){target=_blank}
+   * [预览 Automated Personalization 测试体验](c-activities/t-automated-personalization/ap-preview-experiences-beta.md){target=_blank}
    * [Target 自动个性化选件](c-activities/t-automated-personalization/ap-target-offers.md){target=_blank}
-   * [管理排除项](c-activities/t-automated-personalization/managing-exclusions.md){target=_blank}
+   * [管理排除项](c-activities/t-automated-personalization/managing-exclusions-beta.md){target=_blank}
    * [自动个性化中的选件报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md){target=_blank}
    * [选择用于自动个性化或自动定位活动的控制](c-activities/t-automated-personalization/experience-as-control.md){target=_blank}
    * [自动个性化常见问题解答](c-activities/t-automated-personalization/automated-personalization-faq.md){target=_blank}

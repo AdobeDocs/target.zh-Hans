@@ -4,9 +4,9 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
+source-git-commit: 78a7f7deb2654b7a1cb25e43beabf82b161205ff
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '231'
 ht-degree: 77%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2024年5月8日**
+**上次更新日期：2024年10月14日**
 
 >[!NOTE]
 >
@@ -23,17 +23,12 @@ ht-degree: 77%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target]在[!DNL Adobe Customer Journey Analytics]中报告（2024年5月8日）
+## [!DNL Target Standard/Premium] 24.10.2（2024年10月16日）
 
-[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank}与[!DNL Target]之间的集成为您的优化程序提供了强大的分析和省时的工具。
+此版本包含以下修复：
 
-将 [!DNL Customer Journey Analytics] 用作 [!DNL Target] 的报告源主要有以下好处：
-
-* 营销人员可以随时将 [!DNL Customer Journey Analytics] 成功量度动态应用到 [!DNL Target] 活动报表。在运行活动之前什么都不需要指定。
-* 营销人员可以利用[!DNL Customer Journey Analytics]功能（如[试验面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}）来进一步分析其网站个性化。
-* 营销人员可以拥有[[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank}和[!DNL Target]的单个报表源。 可将这两种个性化产品都连接到 [!DNL Customer Journey Analytics] 以更全面地了解您的 Web 个性化情况。
-
-有关详细信息，请参阅Adobe Customer Journey Analytics中的[目标报表](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)。
+* 修复了导致[!UICONTROL Recommendations]活动无法在[!UICONTROL Compose]和[!UICONTROL Browse]模式下加载的问题。 (TGT-50709)
+* 修复了新的[[!DNL Google Chrome] [!UICONTROL Visual Editing Helper]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)的问题，该问题在单击“取消”后导致从[!UICONTROL Visual Experience Composer] (VEC)重定向到[!UICONTROL Activities Library]。 在此修复之前，客户需要刷新[!UICONTROL Activities Library]才能创建新活动。 (TGT-49980)
 
 ## 其他发行说明和版本详细信息
 

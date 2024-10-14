@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 78a7f7deb2654b7a1cb25e43beabf82b161205ff
+source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 24%
+source-wordcount: '447'
+ht-degree: 22%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 24%
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
 | 10 月 14 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了[!DNL Target Standard/Premium] 24.10.2版的发行说明。 |
+|  | [[!UICONTROL Visual Experience Composer]帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 添加了有关将扩展与专用Chrome网络商店结合使用的重要信息。 |
+|  | [[!UICONTROL Visual Editing Helper]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 添加了有关将扩展与专用Chrome网络商店结合使用的重要信息。 |
 | 9 月 30 日 | [限制](/help/main/r-troubleshooting-target/target-limits.md) | 更新了允许的选件数。 |
 | 9 月 29 日 | [at.js 版本详细信息](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | 添加了有关 at.js 2.11.6 版的信息。 |
 | 9 月 11 日 | [用户](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | 在“指定角色和权限”下添加了以下注释：<P> 要在[!DNL Target]中查看活动，必须将用户直接分配到至少具有[!UICONTROL Observer]角色的工作区。 仅通过用户组进行分配是不够的。 通常建议授予用户访问默认工作区的权限。 |

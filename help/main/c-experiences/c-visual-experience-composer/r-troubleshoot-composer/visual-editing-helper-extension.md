@@ -4,10 +4,10 @@ description: 了解为什么某些网站可能无法可靠地在[!UICONTROL Visu
 title: 如何使用[!UICONTROL Visual Editing Helper]扩展？
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
+source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 64%
+source-wordcount: '712'
+ht-degree: 60%
 
 ---
 
@@ -17,7 +17,9 @@ ht-degree: 64%
 
 >[!IMPORTANT]
 >
->新的扩展取代了以前的 [Target VEC 帮助程序浏览器扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。请参阅该文章顶部的重要说明。 由于清单v3中的安全增强，[!DNL Adobe]需要下载此新扩展才能继续在[!DNL Target]中以视觉方式创作您的网站。
+>* 新的扩展取代了以前的 [Target VEC 帮助程序浏览器扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。请参阅该文章顶部的重要说明。 由于清单v3中的安全增强，[!DNL Adobe]需要下载此新扩展才能继续在[!DNL Target]中以视觉方式创作您的网站。
+>
+>* 此新扩展当前不支持私有Chrome网络商店。 此功能将在2025年1月底之前受支持。 对于使用专用Chrome Web商店上传扩展的客户，请改用[旧版[!UICONTROL Visual Experience Composer]帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
 
 ## 为什么某些网站可能无法在可视化体验编辑器 (VEC) 中以可靠的方式打开
 

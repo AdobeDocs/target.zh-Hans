@@ -4,10 +4,10 @@ description: 了解为什么某些网站可能无法可靠地在[!UICONTROL Visu
 title: 如何使用[!UICONTROL Visual Experience Composer] (VEC)助手扩展？
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
+source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 50%
+source-wordcount: '1077'
+ht-degree: 49%
 
 ---
 
@@ -19,9 +19,11 @@ VEC助手浏览器是[!DNL Chrome]扩展。 使用[!DNL Mozilla Firefox]时不�
 
 >[!IMPORTANT]
 >
->本文中记录的旧版[!DNL Target] VEC Helper扩展是使用Manifest V2创建的。 [!DNL Google]宣布从2024年6月起，将不再允许使用清单V2创建的扩展。 有关详细信息，请参阅&#x200B;*面向开发人员的Chrome*&#x200B;网站上[!DNL Google]中的[清单V2支持时间表公告](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank}。
+>* 本文中记录的旧版[!DNL Target] VEC Helper扩展是使用Manifest V2创建的。 [!DNL Google]宣布从2024年6月起，将不再允许使用清单V2创建的扩展。 有关详细信息，请参阅&#x200B;*面向开发人员的Chrome*&#x200B;网站上[!DNL Google]中的[清单V2支持时间表公告](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank}。
 >
->从2024年6月开始，[!DNL Google]将开始禁用使用清单V2创建的扩展，包括本主题中介绍的扩展。 [!DNL Adobe]建议客户尽快迁移到较新的[可视化编辑帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+>* 从2024年6月开始，[!DNL Google]将开始禁用使用清单V2创建的扩展，包括本主题中介绍的扩展。 [!DNL Adobe]建议客户尽快迁移到较新的[可视化编辑帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+>
+>* 使用专用Chrome Web商店的客户应继续使用此版本的扩展，直到在2025年1月底之前在[新[!UICONTROL Visual Editing Helper]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)中实施对此用例的支持为止。
 
 ## 为什么某些网站可能无法在可视化体验编辑器 (VEC) 中以可靠的方式打开
 

@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 22%
+source-wordcount: '459'
+ht-degree: 23%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 22%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
+| 10 月 22 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了以下重要信息：<ul><li>[!DNL Adobe Experience Platform Web SDK] `__view__`范围优化</li></ul> |
 | 10 月 14 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了[!DNL Target Standard/Premium] 24.10.2版的发行说明。 |
 |  | [[!UICONTROL Visual Experience Composer]帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 添加了有关将扩展与专用Chrome网络商店结合使用的重要信息。 |
 |  | [[!UICONTROL Visual Editing Helper]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 添加了有关将扩展与专用Chrome网络商店结合使用的重要信息。 |

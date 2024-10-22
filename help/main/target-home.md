@@ -1,13 +1,13 @@
 ---
-keywords: Target;主页;热门主题;adobe target;target standard;target premium;target 文档;adobe target 文档;
+keywords: Target；主页；热门主题；adobe target；target standard；target premium；target文档；adobe target文档；实践者指南；用户指南
 title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
+source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 98%
+source-wordcount: '510'
+ht-degree: 95%
 
 ---
 

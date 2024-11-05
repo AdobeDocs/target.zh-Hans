@@ -7,20 +7,20 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '322'
 ht-degree: 7%
 
 ---
 
 # 创建选件文件夹
 
-在[!DNL Adobe Target] [!UICONTROL Offer]库中创建文件夹以保存代码选件、图像选件以及其他文件夹以创建子文件夹结构。
+在[!DNL Adobe Target] [!UICONTROL Offer]库中创建文件夹以保存代码选件和图像选件。 您还可以创建文件夹以创建子文件夹结构。
 
 >[!NOTE]
 >
->本文包含有关[!DNL Target]用户界面的更新的信息，该界面当前是Beta程序的一部分。 [!DNL Adobe Target]团队经常为选定的客户启用新功能以进行测试和提供反馈。 在测试期结束后，将在未来[!DNL Target Standard/Premium]版本中为所有客户启用这些功能，并在发行说明中宣布。
+>本文包含有关[!DNL Target]用户界面的更新的信息，该界面当前是Beta程序的一部分。 [!DNL Adobe Target]团队经常为选定的客户启用新功能以进行测试和提供反馈。 在测试期结束后，将在未来[!DNL Target]版本中为所有客户启用这些功能，并在[发行说明](/help/main/r-release-notes/release-notes.md)中宣布。
 
 为代码选件和图像选件创建文件夹的流程略有不同。 以下部分包含更多信息。
 
@@ -28,9 +28,7 @@ ht-degree: 7%
 
 1. 单击&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**。
 
-   ![代码选件选项卡](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
-1. 单击**[!UICONTROL Create Folder]。
+1. 单击 **[!UICONTROL Create Folder]**。
 
 1. 提供文件夹的描述性名称。
 
@@ -54,7 +52,6 @@ ht-degree: 7%
 
 1. （可选）指定描述性&#x200B;**[!UICONTROL Name]**。
 1. （可选）选择&#x200B;**[!UICONTROL Private]**&#x200B;以指定该文件夹为专用文件夹，以便只有您可以查看它及其内容。
-
 1. （可选）选择&#x200B;**[!UICONTROL Reorder-able in List View]**&#x200B;以指定您和其他人可以重新排序文件夹在[!UICONTROL List View]中的位置。
 
 1. 单击 **[!UICONTROL Create]**。

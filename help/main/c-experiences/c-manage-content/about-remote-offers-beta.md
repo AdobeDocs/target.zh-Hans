@@ -7,20 +7,20 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: e83ad57e-716d-4595-b5cf-3a882fcb9e37
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1048'
 ht-degree: 19%
 
 ---
 
 # 创建远程选件
 
-使用远程选件在[!DNL Adobe Target]外部托管内容，允许[!DNL Target]引用此内容并将其交付到用户网站。 出于易用性或安全原因，此内容可以驻留在内容管理系统(CMS)或其他系统中。
+使用远程选件在[!DNL Adobe Target]之外托管内容，允许[!DNL Target]引用此内容并将其交付到用户网站。 出于易用性或安全原因，此内容可以驻留在内容管理系统(CMS)或其他系统中。
 
 >[!NOTE]
 >
->本文包含有关[!DNL Target]用户界面的更新的信息，该界面当前是Beta程序的一部分。 [!DNL Adobe Target]团队经常为选定的客户启用新功能以进行测试和提供反馈。 在测试期结束后，将在未来[!DNL Target Standard/Premium]版本中为所有客户启用这些功能，并在发行说明中宣布。
+>本文包含有关[!DNL Target]用户界面的更新的信息，该界面当前是Beta程序的一部分。 [!DNL Adobe Target]团队经常为选定的客户启用新功能以进行测试和提供反馈。 在测试期结束后，将在未来[!DNL Target]版本中为所有客户启用这些功能，并在[发行说明](/help/main/r-release-notes/release-notes.md)中宣布。
 
 可以在[!UICONTROL Offers] > [!UICONTROL Code Offers]页面或[基于Forms的体验编辑器](/help/main/c-experiences/form-experience-composer.md)中创建远程选件。 您不能在[!UICONTROL Visual Experience Composer] (VEC)中创建或应用远程选件。 内容被插入到[!DNL Target]请求位置，因此这些位置可能不适合全局[!DNL Target]请求。
 
@@ -70,14 +70,15 @@ ht-degree: 19%
 ## 使用[!UICONTROL Form-Based Experience Composer]创建远程选件
 
 1. 使用基于[表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)创建活动时，请选择要显示&#x200B;**[!UICONTROL Content]**&#x200B;部分的位置。
+1. 单击&#x200B;**[!UICONTROL Content]**&#x200B;下拉列表，单击&#x200B;**[!UICONTROL List]**&#x200B;图标（![列表](/help/main/assets/icons/MoreSmallList.svg)），然后单击&#x200B;**[!UICONTROL Change Remote Offer]**。
 
-1. 单击&#x200B;**[!UICONTROL Default Content]**&#x200B;下拉列表，然后单击&#x200B;**[!UICONTROL Change Remote Offer]**。
-
-1. 单击&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**。
+1. 单击&#x200B;**[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**。
 
 1. 为选件提供一个描述性名称。
 
    描述性名称可帮助您和其他人在[!UICONTROL Assets]库中快速找到该选件。
+
+1. （视情况而定）如果您拥有[Target Premium帐户](/help/main/c-intro/intro.md#premium)，请选择所需的[工作区](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)。
 
 1. 指定重定向URL类型。
 
@@ -85,7 +86,7 @@ ht-degree: 19%
 
 1. 指定远程选件的远程URL。
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击 **[!UICONTROL Create]**。
 
 ## 重定向URL类型： [!UICONTROL Onsite Cached]或[!UICONTROL Onsite Dynamic] {#url-type}
 
@@ -111,7 +112,7 @@ ht-degree: 19%
 
 ## 在活动中使用远程选件
 
-您必须使用[!UICONTROL Form-Based Experience Composer]应用远程选件。 您当前无法使用[!UICONTROL Visual Experience Composer] (VEC)应用远程选件。
+使用[!UICONTROL Form-Based Experience Composer]应用远程选件。 您当前无法使用[!UICONTROL Visual Experience Composer] (VEC)应用远程选件。
 
 [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非可视化体验和选件创建界面，当[!UICONTROL Visual Experience Composer]不可用或不实用时，它有助于创建在[!UICONTROL A/B Tests]、[!UICONTROL Experience Targeting] (XT)、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Recommendations]活动中使用的体验。 例如，您可以使用[!UICONTROL Form-Based Experience Composer]创建使用远程选件的体验。
 
@@ -121,9 +122,9 @@ ht-degree: 19%
 
 1. 指定所需位置并根据需要添加任何受众细化。
 
-1. 单击&#x200B;**[!UICONTROL Content]**&#x200B;部分中的下拉列表，然后单击&#x200B;**[!UICONTROL Change Remote Offer]**。
+1. 单击&#x200B;**[!UICONTROL Content]**&#x200B;下拉列表，单击&#x200B;**[!UICONTROL List]**&#x200B;图标（![列表](/help/main/assets/icons/MoreSmallList.svg)），然后单击&#x200B;**[!UICONTROL Change Remote Offer]**。
 
-1. 从[!UICONTROL Select Remote Offer]对话框中选择所需的远程选件，然后单击&#x200B;**[!UICONTROL Done]**。
+1. 从[!UICONTROL Change Remote Offer]对话框中选择所需的远程选件，然后单击&#x200B;**[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**。
 
 1. 配置完活动。
 
@@ -135,7 +136,7 @@ ht-degree: 19%
 
 ![remote_offer_howitworks_2图像](assets/remote_offer_howitworks_2.jpeg)
 
-1. 访客的浏览器从您的服务器请求一个页面。
+1. 访客的浏览器向您的服务器请求一个页面。
 
 2. 浏览器渲染页面，包括mbox。
 
@@ -158,13 +159,3 @@ ht-degree: 19%
 | 选件可以包含 JavaScript | 是 | 是 |
 | 选件 URL | 绝对或相对 | 相对 |
 | 请求计算机 | Adobe 服务器 | 带有访客 Cookie 的访客计算机 |
-
-## 培训视频：基于表单的编辑器![教程徽章](/help/main/assets/tutorial.png)
-
-此视频提供了[!UICONTROL Form-Based Experience Composer]的演示，您可以使用该演示创建远程选件。
-
-* 使用[!UICONTROL Form-Based Experience Composer]创建活动
-* 了解何时使用[!UICONTROL Form-Based Experience Composer]而非[!UICONTROL Visual Experience Composer]
-* 使用细化来定位位置
-
->[!VIDEO](https://video.tv.adobe.com/v/17390)

@@ -7,10 +7,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 9%
+source-wordcount: '866'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->本文包含有关[!DNL Target]用户界面的更新的信息，该界面当前是Beta程序的一部分。 [!DNL Adobe Target]团队经常为选定的客户启用新功能以进行测试和提供反馈。 在测试期结束后，将在未来[!DNL Target Standard/Premium]版本中为所有客户启用这些功能，并在发行说明中宣布。
+>本文包含有关[!DNL Target]用户界面的更新的信息，该界面当前是Beta程序的一部分。 [!DNL Adobe Target]团队经常为选定的客户启用新功能以进行测试和提供反馈。 在测试期结束后，将在未来[!DNL Target]版本中为所有客户启用这些功能，并在[发行说明](/help/main/r-release-notes/release-notes.md)中宣布。
 
 要显示[!UICONTROL Offers]库，请单击[!DNL Target] UI顶部的&#x200B;**[!UICONTROL Offers]**&#x200B;选项卡。
 
@@ -33,14 +33,16 @@ ht-degree: 9%
 | 元素 | 描述 |
 |--- |--- |
 | 左侧导航边栏 | 在显示[!UICONTROL Code Offers]或[!UICONTROL Image Offers]之间切换。 |
+| [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![显示筛选器/隐藏筛选器图标](/help/main/assets/icons/RailLeft.svg) | 单击&#x200B;**[!UICONTROL Show Folders]**&#x200B;或&#x200B;**[!UICONTROL Hide Folders]**&#x200B;图标可在显示优惠文件夹结构或不显示文件夹结构之间切换。<P>有关详细信息，请参阅[创建选件文件夹](/help/main/c-experiences/c-manage-content/create-content-folder.md)。 |
 | [!UICONTROL Show filters]图标<P>![显示筛选器图标](/help/main/assets/icons/Filter.svg) | 单击&#x200B;**[!UICONTROL Show filters]**&#x200B;图标可按[!UICONTROL Type]、[!UICONTROL Source]和[!UICONTROL AEM Type]筛选选件。<P>有关详细信息，请参阅下面的[将筛选器应用到选件列表](#filters)。 |
 | 搜索字段 | 使用&#x200B;**[!UICONTROL Search in]**&#x200B;字段快速查找选件或减少[!UICONTROL Offers]库中显示的选件数。 您可以按[!UICONTROL Offer Name]、[!UICONTROL AEM Paths]或[!UICONTROL AEM Tags]进行搜索。 |
 | [!UICONTROL Create Folder] | 单击&#x200B;**[!UICONTROL Create Folder]**&#x200B;可在[!UICONTROL Offer]库中创建文件夹以保存代码选件、图像选件以及其他文件夹以创建子文件夹结构。<P>有关详细信息，请参阅[创建选件文件夹](/help/main/c-experiences/c-manage-content/create-content-folder.md)。 |
 | [!UICONTROL [!UICONTROL Create Offer]] | 单击&#x200B;**[!UICONTROL Create Offer]**&#x200B;以创建选件。<P>有关创建各种选件类型的详细信息，请参阅： <ul><li>HTML 选件</li><li>[JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[远程选件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | “批量操作”复选框<P>![批量操作图标](/help/main/assets/icons/Rectangle.svg) | 单击[!UICONTROL Bulk Operations]复选框可对所有选件或选定选件执行批量操作。<P>有关可用操作的列表（取决于您的权限和选件状态），请参阅下面的[执行快速操作](#quick-actions)。 |
-| [!UICONTROL Name] | 每个选件的名称。<P>单击每个选件名称旁边的&#x200B;**[!UICONTROL Quick Info]**&#x200B;图标（![快速信息图标](/help/main/assets/icons/InfoOutline.svg)）可在弹出卡片中查看有关该选件的更多信息，包括选件ID、类型、选件日期、上次修改时间和修改者等。<p>单击每个选件名称旁边的&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)）以打开一个菜单，该菜单允许您对活动执行快速操作。 以下操作可用（取决于您的权限和选件状态）： [!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]和[!UICONTROL Move]。 有关每个操作的详细信息，请参阅下面的[执行快速操作](#quick-actions)。<P>单击表标题可按名称的字母升序或降序对列表进行排序。 |
+| [!UICONTROL Name] | 每个选件的名称。<P>单击每个选件名称旁边的&#x200B;**[!UICONTROL Quick Info]**&#x200B;图标（![快速信息图标](/help/main/assets/icons/InfoOutline.svg)）可在弹出卡片中查看有关该选件的更多信息，包括选件ID、类型、上次修改选件的日期以及修改者等。<p>单击每个选件名称旁边的&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)）以打开一个菜单，该菜单允许您对活动执行快速操作。 以下操作可用（取决于您的权限和选件状态）： [!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]和[!UICONTROL Move]。 有关每个操作的详细信息，请参阅下面的[执行快速操作](#quick-actions)。<P>单击表标题可按名称的字母升序或降序对列表进行排序。 |
 | [!UICONTROL Type] | 选件类型： [!UICONTROL HTML Offers]、[[!UICONTROL Redirect Offers]](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[[!UICONTROL Remote Offers]](/help/main/c-experiences/c-manage-content/about-remote-offers.md)和[[!UICONTROL JSON Offers]](/help/main/c-experiences/c-manage-content/create-json-offer.md)。 |
 | [!UICONTROL Source] | 显示创建选件的位置： [!DNL Adobe Target]、[!DNL Adobe Target Classic]和[!DNL Adobe Experience Manager]。 |
+| [!UICONTROL Last updated] | 显示上次修改优惠的日期和时间以及修改者。<P>单击表标题可按日期对列表进行升序或降序排序。 |
 
 ## 将过滤器应用到选件库 {#filters}
 
@@ -64,18 +66,18 @@ ht-degree: 9%
 
 ### 更多操作
 
-代码选件和图像选件的可用操作略有不同。 以下部分包含更多信息：
+[!UICONTROL Code Offers]和[!UICONTROL Image Offers]的可用操作略有不同。 以下部分包含更多信息：
 
 #### [!UICONTROL Code Offer]选项
 
 单击每个选件名称旁边的&#x200B;**[!UICONTROL More actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)）以打开一个菜单，该菜单允许您对活动执行快速操作。
 
-以下操作可用（取决于您的权限和选件状态）： [!UICONTROL Edit]、[!UICONTROL Copy]、[!UICONTROL Delete]和[!UICONTROL Move]。
+以下操作可用（具体取决于您的权限和选件状态）：
 
 * [!UICONTROL Edit]
 * [!UICONTROL Copy]
 * [!UICONTROL Delete]
-* [!UICONTROL Move] （例如，要将一个或多个项目移动到文件夹中，请单击所需项目的&#x200B;**[!UICONTROL Move]**&#x200B;图标，单击所需文件夹，然后单击&#x200B;**[!UICONTROL Drop]**。）
+* [!UICONTROL Move] （例如，要将一个或多个项目移动到文件夹中，请单击所需项目旁边的&#x200B;**[!UICONTROL Move]**，单击所需文件夹，然后单击&#x200B;**[!UICONTROL Move]**。）
 
 根据您的权限，您可能不会看到所有选项的图标。 例如，具有[!UICONTROL Observer]权限的用户无权使用[!UICONTROL Copy]选项。
 
@@ -108,11 +110,8 @@ ht-degree: 9%
 其中提供了以下信息：
 
 * [!UICONTROL Name]
-* [!UICONTROL Source]
 * [!UICONTROL Offer ID]
 * [!UICONTROL Type]
 * [!UICONTROL Last Modified]
-* [!UICONTROL Offer path]
-
 
 单击[!UICONTROL View Full Details]链接可查看选件的属性和活动，这些属性和活动引用每个选件的定义弹出卡片中的代码选件。 此功能不适用于图像选件。利用此功能，您可以避免在编辑选件时对其他活动造成影响。信息包括[!UICONTROL Live Activities]和[!UICONTROL Inactive Activities]的详细信息。

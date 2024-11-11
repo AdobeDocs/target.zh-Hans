@@ -6,9 +6,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
+exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
+source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
@@ -17,9 +18,7 @@ ht-degree: 1%
 
 此使用案例可帮助您解锁密钥，以便在[!DNL Adobe Journey Optimizer]中有效A/B测试内容更改。
 
-此用例演示了如何使用[!DNL Journey Optimizer]而不是[!DNL Adobe Target]执行熟悉的任务，例如对[A/B测试活动](/help/main/c-activities/t-test-ab/test-ab.md)执行A/B测试。
-
-此使用案例旨在演示如何使用[!DNL Adobe Target]执行熟悉的任务，使用[A/B测试活动](/help/main/c-activities/t-test-ab/test-ab.md)但使用[!DNL Journey Optimizer]执行A/B测试。
+此用例演示了如何使用[!DNL Journey Optimizer]而不是[!DNL Adobe Target]执行熟悉的任务，例如在[!DNL Adobe Target]中对[A/B测试活动](/help/main/c-activities/t-test-ab/test-ab.md)进行A/B测试。
 
 ## 优势和价值
 
@@ -41,17 +40,13 @@ ht-degree: 1%
 >
 >页面底部的视频特别有用。
 
-执行以下步骤来优化网页，方法是：使用用户档案脚本测试各种图像并用用户的名字个性化消息：
+要通过使用用户档案脚本测试各种图像并用用户的名字个性化消息来优化网页，请执行以下操作：
 
-1. 在[!DNL Adobe Journey Optimizer]中，单击左边栏中的&#x200B;**促销活动**&#x200B;以显示[!UICONTROL Campaigns]页面。
-
-   ![突出显示了“营销活动”选项卡的Adobe Journey Optimizer登陆页面。](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+1. 在[!DNL Journey Optimizer]中，单击左边栏中的&#x200B;**促销活动**&#x200B;以显示[!UICONTROL Campaigns]页面。
 
 1. 单击[!UICONTROL Campaigns]页面右上角的&#x200B;**[!UICONTROL Create Campaign]**。
 
 1. 选择&#x200B;**[!UICONTROL Scheduled - Marketing]**（默认），然后单击&#x200B;**创建**&#x200B;以显示[!UICONTROL Campaign]详细信息页面。
-
-   Adobe Journey Optimizer中的![促销活动详细信息页面](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
 1. 在&#x200B;**[!UICONTROL Properties]**&#x200B;部分中，为营销策划提供描述性名称和可选描述。
 
@@ -85,7 +80,7 @@ ht-degree: 1%
 
 1. 在[!UICONTROL Campaign]详细信息页面的&#x200B;**[!UICONTROL Action]**&#x200B;下，单击&#x200B;**[!UICONTROL Edit Content]**。
 
-1. 单击处理B下的Web
+1. 单击处理B下的Web。
 
    对于此用例，请保持[!UICONTROL Treatment A]不变，以使用原始体验作为A/B测试中的第一个体验。
 
@@ -133,4 +128,3 @@ ht-degree: 1%
 >在&#x200B;*Journey Optimizer文档*&#x200B;中[编辑Web内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}
 >[*Journey Optimizer文档*&#x200B;中的操作方法视频](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank}
 >[在&#x200B;*Journey OptimizerTutorials*&#x200B;中创建营销活动](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}
-

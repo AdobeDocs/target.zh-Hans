@@ -4,9 +4,9 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '38259'
+source-wordcount: '38296'
 ht-degree: 84%
 
 ---
@@ -22,6 +22,12 @@ ht-degree: 84%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2024
+
+### at.js版本2.11.6（2024年9月29日）
+
+* 修复了导致[!DNL Target]无法通过[!UICONTROL Visual Experience Composer] (VEC)或[!UICONTROL Form-Based Experience Composer]中的重定向选件正确运行的问题。
+
+有关at.js版本的更多信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[at.js版本详细信息](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}。
 
 ### [!DNL Target]在[!DNL Adobe Customer Journey Analytics]中报告（2024年5月8日）
 
@@ -409,7 +415,7 @@ ht-degree: 84%
 | *Adobe Target 开发人员指南* | *Adobe Target 开发人员指南* 便于合并所有 [!DNL Target] 开发人员内容。 [!DNL Target][!DNL Recommendations][!DNL Target][!DNL Target]<br>有关详细信息，请参阅[Adobe Target开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans){target=_blank}。 |
 
 * 具有[!UICONTROL Editor]角色的用户无法再编辑直播活动中的受众。 (TGT-43582)
-* 如果客户试图将感叹号 (！) 作为受众名称的第一个字符（例如 !London）来保存受众，则会显示警告消息。(TGT-43643)
+* 如果客户尝试保存带有感叹号( ！)，作为受众名称的第一个字符（例如！London）。 (TGT-43643)
 * 修复了导致某些客户的受众定义详细信息卡指示已结束活动仍处于活动状态的问题。(TGT-43527)
 
 ### [!DNL Target Standard/Premium] 22.6.1（2022 年 6 月 7 日至 9 日，交错发行）
@@ -1294,7 +1300,7 @@ Target Standard/Premium 20.1.1 版是一个维护版本，其中包括后端增�
 | 功能/增强 | 描述 |
 | --- | --- |
 | 定位<br>2019 年 1 月 25 日 | 更改了定位如何将“等于”比较的函数与配置文件脚本或任何其他输入源（例如 mbox 参数、配置文件参数等）返回的非十进制和十进制值进行匹配。<br>有关更多信息，请参阅[目标和受众](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)常见问题解答。 |
-| 配置文件脚本<br>2019 年 1 月 17 日 | 出于性能原因，我们建议返回值不要再超过 256 个字符。<br>对于字符串返回值，如果返回值的大小超过 2,048 个字符，则系统将禁用该脚本。<br>对于数组返回值，如果数组的连接值的大小超过 2,048 个字符，则系统将禁用该脚本。<br>有关字符限制和会影响 Target 中活动和其他元素的其他限制（选件大小、受众、配置文件、值、参数等），请参阅[限制](/help/main/r-troubleshooting-target/target-limits.md)。 |
+| 配置文件脚本<br>2019 年 1 月 17 日 | 出于性能原因，我们建议返回值不要再超过 256 个字符。<br>对于字符串返回值，如果返回值的大小超过 2,048 个字符，则系统将禁用该脚本。<br>对于数组返回值，如果数组的连接值的大小超过 2,048 个字符，则系统将禁用该脚本。<br>有关影响Target中的活动和其他元素的字符限制和其他限制（选件大小、受众、配置文件、值、参数等）的更多信息，请参阅[限制](/help/main/r-troubleshooting-target/target-limits.md)。 |
 | at.js<br>2019 年 1 月 16 日 | at.js 1.6.4 是一个维护版本，该版本解决了以下问题：<ul><li>修复了 Microsoft Internet Explorer 11 中出现的导致应用重复选件的争用条件问题。(TNT-31374)</li><li>修复了当存在包含点击令牌和 html 选件的默认选件时影响点击跟踪的问题。(TNT-31493)</li><li>扩展了 mboxEdgeCluster Cookie 以包含每个 Target 请求。仅当启用了 mboxEdgeOverride 时才使用此功能。(TNT-31485)</li></ul> |
 
 ### [!DNL Target]Standard/Premium 19.1.1（2019 年 1 月 22 日） {#release-19-1-1-previous}
@@ -2094,7 +2100,7 @@ target/r_release-notes-2018.xml
 
 此 [!DNL Target] 版本包括以下面向客户的增强功能、修复和更改：
 
-* 您可以从受众库中删除导入的受众（从 Target Classic、Experience Cloud 等导入）。如果您尝试删除用于活跃活动的受众，Target 会向您发出警告。(TGT-25171)
+* 您可以从Audience Library中删除导入的受众(Target Classic、Experience Cloud等)。 如果您尝试删除用于活跃活动的受众，Target 会向您发出警告。(TGT-25171)
 * 在受众库中，现在会将从 Target Classic 导入的受众标记为 Adobe Target Classic。过去，UI 不会区分 Target Standard/Premium 和 Target Classic。(TGT-27093)
 * 现在，收藏集适用于所有标准（包括最近查看的项目）。(TGT-26646)
 * 您可以在受众库和选件库中按工作区进行筛选（适用于具有企业用户权限的 Target Premium 用户）。(TGT-26813)
@@ -2369,7 +2375,7 @@ target/r_release-notes-2018.xml
 
   如果用户在 [!DNL Target] 页面上执行间歇性操作时遇到会话超时情况，则系统会指引用户重新登录，之后会将用户定向到在 [!DNL Target] UI 中处理的最后一个页面。
 
-* 修复了当用户离开当前浏览内容（更改体验、切换页面、切换受众或单击“下一步”等等）且忘记保存更改时，导致自定义代码更改丢失的问题。现在，系统会提示用户保存更改。(TGT-23766)
+* 修复了在用户浏览离开（更改体验、切换页面、切换受众、单击下一步等）并忘记保存更改时导致自定义代码更改丢失的问题。 现在，系统会提示用户保存更改。(TGT-23766)
 * 将活动存档后，会显示“已将此活动存档”，而不是“正在更新此活动”。(KB-1517)
 * 已将 Target UI 中以下位置的下拉选择器替换为自动完成功能，以便提高速度和改善性能：(TGT-22939)
 
@@ -2560,7 +2566,7 @@ target/r_release-notes-2018.xml
 * [!DNL Target]用户界面已更新，以支持使用[!UICONTROL Analytics for Target] (A4T)作为报表源的活动中的重定向选件。 此功能需要 [!DNL at.js] 0.9.6，该版本不久将会推出。
 * 更新了 [!DNL Target] 用户界面中的以下几处位置：
 
-   * 在报表和活动中，有些选项（[!UICONTROL Edit]、[!UICONTROL Share to Feed]、[!UICONTROL View Experience URLs]等） 现在可以通过单击[!UICONTROL More Options]图标（![icon_more_options图像](assets/icon_more_options.png)）来访问
+   * 在报表和活动中，某些选项（[!UICONTROL Edit]、[!UICONTROL Share to Feed]、[!UICONTROL View Experience URLs]等）现在可通过单击[!UICONTROL More Options]图标(![icon_more_options图像](assets/icon_more_options.png)来访问
 
      ) 来访问。
    * 在[!UICONTROL Offers]库中，选件现在显示在列表中，而不是卡片中。 对整个[!UICONTROL Offers]库UI进行了其他细微UI更改。

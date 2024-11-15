@@ -4,10 +4,10 @@ description: 通过 [!DNL Adobe Target] 活动为特定受众个性化内容并�
 title: 如何使用 [!DNL Target]个性化内容和测试页面设计？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: d7515bab57c5e2973cfd5d2ac75d76c048786646
+source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 28%
+source-wordcount: '2313'
+ht-degree: 26%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 28%
 | 属性 | 详细信息 |
 | --- | --- |
 | [!UICONTROL Type] | 按[活动类型](#types)筛选。 |
-| [!UICONTROL Status] | 按活动状态筛选。 |
+| [!UICONTROL Status] | 按活动状态筛选。<ul><li>**[!UICONTROL Live]**：活动当前正在运行。</li><li>**[!UICONTROL Draft]**：活动安装程序已启动，但该活动处于[草稿模式](/help/main/c-activities/edit-activity.md)，尚未准备好运行。</li><li>**[!UICONTROL Scheduled]**：当到达指定的开始日期和时间时，该活动已准备好激活。</li><li>**[!UICONTROL Inactive]**：活动已暂停或停用。</li><li>**[!UICONTROL Syncing]**：该活动已保存，并且正在同步到[!DNL Target]投放网络。</li><li>**[!UICONTROL Ended]**：已到达指定的活动结束日期和时间，并且不再为该活动提供服务。</li><li>**[!UICONTROL Archived]**：活动已存档。 您可以激活已存档的活动以便再次使用。</li></ul> |
 | [!UICONTROL Reporting Source] | 按报表源筛选。<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)：显示使用[!UICONTROL Analytics for Target] (A4T)作为报表源的活动。</li><li>[[!DNL Target]](/help/main/c-reports/reports.md)：显示使用[!DNL Target]作为报表源的活动。</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)：显示使用[!DNL Adobe Customer Analytics]作为报表源的活动。</li></ul> |
 | [!UICONTROL Experience Composer] | 活动创建期间使用体验编辑器的筛选条件：<ul><li>[可视](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)：显示使用[!UICONTROL Visual Experience Composer] (VEC)创建的活动。</li><li>[基于表单](/help/main/c-experiences/form-experience-composer.md)：显示使用[!UICONTROL Form-Based Experience Composer]创建的活动。</li></ul> |
 | [!UICONTROL Metrics Type] | 用于在活动创建期间选择[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md)的筛选器。<ul><li>[!UICONTROL Conversion]</li><li>[!UICONTROL Revenue]</li><li>[!UICONTROL Engagement]</li><li>[!UICONTROL Use an Analytics metric]</lI></ul> |
@@ -94,7 +94,7 @@ ht-degree: 28%
 | [!UICONTROL Edit] | 更改活动。任何活动都可以编辑。<P>有关各种活动编辑方式的更多信息，请参阅[编辑活动或另存为草稿](/help/main/c-activities/edit-activity.md)。 |
 | [!UICONTROL Deactivate] | 停止实时或计划的活动。可以重新激活或存档已停用的活动。<P>如果您停用活动或将活动存档，稍后又重新激活它，并且在停用活动或将活动存档之前有访客处于活动中，则该访客在重新激活活动后将继续成为该活动的一部分。在这两个事件之间的时段内记录的任何转化量度不会归因于该活动。 |
 | [!UICONTROL Activate] | 启动不活动的活动或准备激活的活动。 |
-| [!UICONTROL Archive] | 将活动发送到存档中。默认情况下，已存档的活动不再出现在[!UICONTROL Activities]列表中。 要查看这些活动，请更改活动列表的筛选器使其包含已存档活动。您可以激活已存档的活动以便再次使用。<P>如果您停用活动或将活动存档，稍后又重新激活它，并且在停用活动或将活动存档之前有访客处于活动中，则该访客在重新激活活动后将继续成为该活动的一部分。 在这两个事件之间的时段内记录的任何转化量度不会归因于该活动。 |
+| [!UICONTROL Archive] | 将活动发送到存档中。默认情况下，已存档的活动不再出现在[!UICONTROL Activities]列表中。 更改[!UICONTROL Activities]列表的筛选器以包含已存档的活动以查看它们。 您可以激活已存档的活动以便再次使用。<P>如果您停用活动或将活动存档，稍后又重新激活它，并且在停用活动或将活动存档之前有访客处于活动中，则该访客在重新激活活动后将继续成为该活动的一部分。 在这两个事件之间的时段内记录的任何转化量度不会归因于该活动。 |
 | [!UICONTROL Copy] | 复制活动。任何活动都可以复制。复制活动将会创建一个具有相同名称的新活动，只不过新的活动名称会附加“副本”两个字。例如，名为“浏览器选件”的测试会被复制到“浏览器选件副本”。<P>可视化选件会与活动一起复制。您可以安全地编辑副本中的选件，而不会影响原始活动。唯一的例外是保存在“内容/资产”文件夹中的选件和图像。 |
 | [!UICONTROL Delete] | 删除草稿或活动。<P>**注意**：无法恢复已删除的活动。 除非您确定再也不需要此活动，否则请使用[!UICONTROL Archive]操作。 之后，您可以根据需要重新激活该活动。 |
 
@@ -102,7 +102,7 @@ ht-degree: 28%
 
 请注意有关[!UICONTROL Activity]列表的以下详细信息：
 
-* 已存档和已结束的活动未出现在[!UICONTROL Activities]列表中。 要查看这些活动，请使用列表顶部的[筛选器图标](#filters) （ ![显示筛选器图标](/help/main/assets/icons/Filter.svg) ）筛选它们。
+* [!UICONTROL Archived]和[!UICONTROL Ended]活动未出现在[!UICONTROL Activities]列表中。 要查看这些活动，请使用列表顶部的[筛选器图标](#filters) （ ![显示筛选器图标](/help/main/assets/icons/Filter.svg) ）筛选它们。
 * 当最初在[!DNL Target Classic]中创建的活动被停用或删除时，它将从[!DNL Target Standard/Premium]中删除。 已删除的最初在[!DNL Target Classic]中创建的活动未发送到[!DNL Target Standard/Premium]中的[!UICONTROL Archive]文件夹。 存档文件夹功能仅适用于在 [!DNL Target Standard/Premium] 中创建的活动。
 * 除[!UICONTROL Automated Personalization] (AP)、[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]之外的所有活动类型都允许您选择使用[!DNL Target]或[!DNL Adobe Analytics]作为数据源。 [!UICONTROL Automated Personalization]、[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target] *始终*&#x200B;使用[!DNL Target]数据。
 * 活动可用于多个渠道：
@@ -115,7 +115,7 @@ ht-degree: 28%
 
 ## 限制 {#section_049D4684403A4E07B998067EB8E9BE56}
 
-每个 Target 活动都有以下内容限制：
+每个[!DNL Target]活动都有以下内容限制：
 
 | 项目 | 限制 |
 |--- |--- |
@@ -129,11 +129,11 @@ ht-degree: 28%
 
 增加活动中的这些项目的数量也会增加跨[!DNL Target]同步活动所需的时间。
 
-有关V[!UICONTROL Visual Experience Composer] VEC的其他限制，请参阅[可视化体验编辑器限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
+有关[!UICONTROL Visual Experience Composer] (VEC)的其他限制，请参阅[可视化体验编辑器限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)。
 
 ## 对于在[!DNL Target]外部更新的活动，属性导入到[!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 如果在[!DNL Target]中创建的活动从[!DNL Target]外部进行了更新（例如，通过API），则以下活动属性将导入回[!DNL Target]： `thirdpartyId`、`startDate`、`endDate`、`status`、`priority`和`marketingCloudMetadata(remoteModifiedBy)`。
 
-此导入作业在活动页面打开时运行，最大延迟为10分钟。
+此导入作业在打开[!UICONTROL Activities]列表时运行，最大延迟为10分钟。
 

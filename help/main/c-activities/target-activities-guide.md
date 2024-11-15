@@ -1,10 +1,10 @@
 ---
 keywords: 活动指南;活动;活动类型;活动操作
 description: 下载一个交互式 PDF，其中说明  [!DNL Adobe Target] 中的各种活动类型。
-title: ' [!DNL Target] 中有什么活动类型可用？'
+title: ' [!DNL Target]中提供了哪些活动类型？'
 feature: Activities
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
-source-git-commit: ea63fe92d55f6fba8fda18dc7ea358def638a8ac
+source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
 workflow-type: tm+mt
 source-wordcount: '1413'
 ht-degree: 68%

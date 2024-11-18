@@ -1,13 +1,14 @@
 ---
 keywords: 定位;体验;添加体验;体验添加
-description: 主控[!UICONTROL Visual Experience Composer] (VEC)以向活动添加体验。
+description: 使用[!UICONTROL Visual Experience Composer] (VEC)向活动添加体验。
 title: 如何在A/B活动中添加体验？
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 4b2d6cc6-f280-4d65-8153-53e9cd61d15a
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 28%
 
 ---

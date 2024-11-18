@@ -5,10 +5,11 @@ title: 如何在 [!DNL Target] A/B活动中选择受众？
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: cc823f84fb93cbe2e55d394d0f6f4fe48bbd5293
+exl-id: 117cec36-87ef-4bd5-8a39-fb885b679d95
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 12%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
@@ -40,10 +41,12 @@ ht-degree: 12%
 
 1. （视情况而定）单击&#x200B;**合并受众**&#x200B;以[创建合并多个受众的受众](/help/main/c-target/combining-multiple-audiences.md)。
 
-1. （视情况而定）若要创建不在[!UICONTROL Audience Library]中的新受众，请单击&#x200B;**创建受众**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
+1. （视情况而定）要创建不在[!UICONTROL Audience Library]中的新受众，请单击&#x200B;**创建受众**，定义受众，然后单击&#x200B;**[!UICONTROL Done]**。
 
-   * 创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用
-   * 创建未保存到[!UICONTROL Audience Library]的[活动特定受众](/help/main/c-target/creating-activity-only-audience.md)，该受众只能用于当前活动
+   在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
+
+   * **[!UICONTROL Audience Library]**：创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用。
+   * **[!UICONTROL This activity only]**：创建未保存到[!UICONTROL Audience Library]的[活动特定受众](/help/main/c-target/creating-activity-only-audience.md)，该受众只能用于当前活动。
 
 1. 单击右侧窗格中的&#x200B;**[!UICONTROL Visitor Percentage]**，然后指定要包含在活动中的符合条件的访客的百分比。
 
@@ -51,7 +54,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->打开受众列表时会在后台自动导入受众，导入的受众为 10 分钟之前的受众。
+>打开[!UICONTROL Audience]列表时会在后台自动导入受众，导入的受众为10分钟之前的受众。
 
 ## 查看受众的信息
 
@@ -64,4 +67,3 @@ ht-degree: 12%
 您可以编辑或复制受众，方法是在[!UICONTROL Add Audience]对话框中单击所需受众旁边的[!UICONTROL More Actions]图标（![更多操作图标](/help/main/assets/icons/More.svg)），然后单击[!UICONTROL Edit]或[!UICONTROL Copy]。
 
 如果您想要创建一个与现有受众类似的受众，则复制受众很有用。您可以制作受众的副本、进行编辑，然后将其另存为新受众。
-

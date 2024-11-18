@@ -1,11 +1,12 @@
 ---
 keywords: 创建A/B；A/B测试；A/B活动；新建a/b活动；创建a/b
-description: 掌握[!UICONTROL Visual Experience Composer] (VEC)以直接在启用了 [!DNL Target]的页面上创建A/B测试活动。
+description: 使用[!UICONTROL Visual Experience Composer] (VEC)直接在启用了a [!DNL Target]的页面上创建A/B测试活动。
 title: 如何创建A/B测试？
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 17%
@@ -101,8 +102,8 @@ ht-degree: 17%
 
       如果需要创建一个不在[!UICONTROL Audience Library]中的新受众，请单击&#x200B;**创建受众**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
 
-      * 创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用
-      * 创建未保存到[!UICONTROL Audience Library]的[活动特定受众](/help/main/c-target/creating-activity-only-audience.md)，该受众只能用于当前活动
+      * **[!UICONTROL Audience Library]**：创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用。
+      * **[!UICONTROL This activity only]**：创建未保存到[!UICONTROL Audience Library]的[活动特定受众](/help/main/c-target/creating-activity-only-audience.md)，该受众只能用于当前活动。
 
    1. 单击右框中的&#x200B;**[!UICONTROL Visitor Percentage]**，然后选择符合条件的访客您希望参加活动的百分比。
 

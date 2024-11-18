@@ -5,7 +5,8 @@ title: 如何在A/B活动中设置目标指标？
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 22a12d29fb894e916783efc65dfe8dfd698dff83
+exl-id: b7955ed7-61b4-429f-80ff-8efcafc10542
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 58%
@@ -18,7 +19,7 @@ ht-degree: 58%
 
 有关成功指标的详细信息，请参阅[成功指标](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
-1. 在&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;页面的&#x200B;**[!UICONTROL Reporting Settings]**&#x200B;部分中，选择[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. 在&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;页面的&#x200B;**[!UICONTROL Reporting Settings]**&#x200B;部分中，选择[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
    [!UICONTROL Select Metrics]选项列出了可为活动选择的成功量度。 这些成功量度分为以下类别：
 

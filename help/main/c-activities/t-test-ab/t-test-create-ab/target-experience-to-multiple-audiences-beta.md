@@ -5,9 +5,10 @@ title: 能否在A/B活动中使用多个体验版本？
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: ec35109b5d668a96f7e71149df7c965ce2bf3ceb
+exl-id: 791423e3-c748-4771-b824-c5ba6d3d6c32
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '593'
 ht-degree: 52%
 
 ---
@@ -36,7 +37,7 @@ ht-degree: 52%
 
 1. 选择体验，然后单击&#x200B;**[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**。
 
-1. 单击“体验受众”窗格中的&#x200B;**[!UICONTROL Add Audience]**&#x200B;图标（![添加图标](/help/main/assets/icons/Add.svg)），然后选择要定位的第一个受众。 对每个受众重复执行上述步骤。
+1. 单击[!UICONTROL Experience Audiences]窗格中的&#x200B;**[!UICONTROL Add Audience]**&#x200B;图标（![添加图标](/help/main/assets/icons/Add.svg)），然后选择要定位的第一个受众。 对每个受众重复执行上述步骤。
 
    如果受众尚不存在，请单击[创建受众](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)，然后对其进行设置。
 

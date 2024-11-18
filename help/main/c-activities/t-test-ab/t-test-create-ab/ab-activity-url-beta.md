@@ -5,9 +5,10 @@ title: A/B活动中的活动URL是什么？
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 40%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 40%
 
 默认情况下，[!UICONTROL Visual Experience Composer]会打开[可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的页面。 在活动创建过程中，您可以指定其他页面。
 
-1. 要在[!UICONTROL Visual Experience Composer]打开后显示其他页面，请在&#x200B;**[!UICONTROL Experiences]**&#x200B;页面上单击页面顶部的&#x200B;**[!UICONTROL Configure]**，然后选择&#x200B;**[!UICONTROL Page Delivery]**。
+1. （视情况而定）要在[!UICONTROL Visual Experience Composer]打开后显示其他页面，请在&#x200B;**[!UICONTROL Experiences]**&#x200B;页面上单击页面顶部的&#x200B;**[!UICONTROL Configure]**，然后选择&#x200B;**[!UICONTROL Page Delivery]**。
 
 1. 在&#x200B;**[!UICONTROL URL]**&#x200B;字段中指定URL。
 
@@ -40,6 +41,7 @@ ht-degree: 40%
    * 话题标签 (#) 片段
    * 查询
    * mbox 参数
+   * 自定义
 
    其他规则可以通过AND或OR连接到活动URL。 您添加的所有规则将使用 AND 进行相互评估。
 

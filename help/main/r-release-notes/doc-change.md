@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
+source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 20%
+source-wordcount: '512'
+ht-degree: 19%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 20%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
+| 11 月 19 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 向“[!DNL Adobe Experience Platform Web SDK] `__view__`范围优化（2024年10月22日）”章节添加了以下重要说明：<ul><li>重要信息：如果您无法在2025年2月3日之前完成实施审查并解决任何问题，则可以请求延长一次，为期6个月。 确保您的请求在2025年1月31日之前提交。 Adobe将审核并决定您的请求。</li><ul> |
 | 10 月 22 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了以下重要信息：<ul><li>[!DNL Adobe Experience Platform Web SDK] `__view__`范围优化</li></ul> |
 | 10 月 14 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了[!DNL Target Standard/Premium] 24.10.2版的发行说明。 |
 |  | [[!UICONTROL Visual Experience Composer]帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 添加了有关将扩展与专用Chrome网络商店结合使用的重要信息。 |

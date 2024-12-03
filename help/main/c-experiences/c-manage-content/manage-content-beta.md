@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '873'
 ht-degree: 8%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 8%
 | 左侧导航边栏 | 在显示[!UICONTROL Code Offers]或[!UICONTROL Image Offers]之间切换。 |
 | [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![显示筛选器/隐藏筛选器图标](/help/main/assets/icons/RailLeft.svg) | 单击&#x200B;**[!UICONTROL Show Folders]**&#x200B;或&#x200B;**[!UICONTROL Hide Folders]**&#x200B;图标可在显示优惠文件夹结构或不显示文件夹结构之间切换。<P>有关详细信息，请参阅[创建选件文件夹](/help/main/c-experiences/c-manage-content/create-content-folder.md)。 |
 | [!UICONTROL Show filters]图标<P>![显示筛选器图标](/help/main/assets/icons/Filter.svg) | 单击&#x200B;**[!UICONTROL Show filters]**&#x200B;图标可按[!UICONTROL Type]、[!UICONTROL Source]和[!UICONTROL AEM Type]筛选选件。<P>有关详细信息，请参阅下面的[将筛选器应用到选件列表](#filters)。 |
-| 搜索字段 | 使用&#x200B;**[!UICONTROL Search in]**&#x200B;字段快速查找选件或减少[!UICONTROL Offers]库中显示的选件数。 您可以按[!UICONTROL Offer Name]、[!UICONTROL AEM Paths]或[!UICONTROL AEM Tags]进行搜索。 |
+| 搜索字段 | 使用&#x200B;**[!UICONTROL Search in]**&#x200B;字段快速查找选件或减少[!UICONTROL Offers]库中显示的选件数。 您可以按[!UICONTROL Offer Name]、[!UICONTROL AEM Paths]或[!UICONTROL AEM Tags]进行搜索。 搜索选项是会话持久的。 |
 | [!UICONTROL Create Folder] | 单击&#x200B;**[!UICONTROL Create Folder]**&#x200B;可在[!UICONTROL Offer]库中创建文件夹以保存代码选件、图像选件以及其他文件夹以创建子文件夹结构。<P>有关详细信息，请参阅[创建选件文件夹](/help/main/c-experiences/c-manage-content/create-content-folder.md)。 |
 | [!UICONTROL [!UICONTROL Create Offer]] | 单击&#x200B;**[!UICONTROL Create Offer]**&#x200B;以创建选件。<P>有关创建各种选件类型的详细信息，请参阅： <ul><li>HTML 选件</li><li>[JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[远程选件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | “批量操作”复选框<P>![批量操作图标](/help/main/assets/icons/Rectangle.svg) | 单击[!UICONTROL Bulk Operations]复选框可对所有选件或选定选件执行批量操作。<P>有关可用操作的列表（取决于您的权限和选件状态），请参阅下面的[执行快速操作](#quick-actions)。 |
@@ -55,6 +55,8 @@ ht-degree: 8%
 * **[!UICONTROL Source]**： [!DNL Adobe Target]、[!DNL Adobe Target Classic]和[!DNL Adobe Experience Manager]。
 
 * **AEM类型**：[内容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)和[体验片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)。 有关不同片段类型的更多信息，请参阅[AEM体验片段和内容片段概述](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)。
+
+过滤器是会话持久性的。
 
 ## 执行快速操作 {#quick-actions}
 

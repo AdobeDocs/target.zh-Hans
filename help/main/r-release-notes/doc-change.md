@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5b66b2d209398f8cbc69eac7fb2e2f12844fcc7d
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '543'
 ht-degree: 20%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 20%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
+| 12 月 3 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为即将进行的[!UICONTROL Offers Library]用户界面更新添加了预发行说明。 |
 | 11 月 20 日 | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | 更新了要列入允许列表的Target边缘IP地址列表。 |
 | 11 月 19 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 向“[!DNL Adobe Experience Platform Web SDK] `__view__`范围优化（2024年10月22日）”章节添加了以下重要说明：<ul><li>重要信息：如果您无法在2025年2月3日之前完成实施审查并解决任何问题，则可以请求延长一次，为期6个月。 确保您的请求在2025年1月31日之前提交。 Adobe将审核并决定您的请求。</li><ul> |
 | 10 月 22 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了以下重要信息：<ul><li>[!DNL Adobe Experience Platform Web SDK] `__view__`范围优化</li></ul> |

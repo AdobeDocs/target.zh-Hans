@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 25%
+source-wordcount: '729'
+ht-degree: 21%
 
 ---
 
@@ -15,13 +15,27 @@ ht-degree: 25%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2024年11月14日**
+**上次更新日期：2024年12月3日**
 
 >[!NOTE]
 >
 >发布日期、功能及其他信息如有更改，恕不另行通知。
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+## [!UICONTROL Offers Library]用户界面更新（2024年1月9日）
+
+为了增强[!DNL Adobe Target]用户的用户体验，此版本更新了[!UICONTROL Offers Library]用户界面。 此更新使用最新的[!DNL Adobe Spectrum]设计系统，标准化了不一致的设计模式并引入了新的增强功能，包括：
+
+* **批量选件管理**：同时选择和删除多个选件。
+
+* **代码编辑器升级**：使用语法突出显示和行编号刷新HTML和JSON编辑器。
+
+* **已改进优惠卡**：已改进快速信息和详细信息卡，使信息访问更轻松。
+
+* **持久搜索和筛选器**：添加会话持久搜索和筛选器选项。
+
+从2025年1月9日开始，所有[!DNL Target]客户都将获得新UI的访问权限，并且有权根据需要切换回UI的当前版本。
 
 ## [!DNL Adobe Experience Platform Web SDK] `__view__`范围优化（2024年10月22日）
 

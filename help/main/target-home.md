@@ -4,7 +4,7 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5b66b2d209398f8cbc69eac7fb2e2f12844fcc7d
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 95%
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2024年11月20日（[查看更改内容](r-release-notes/doc-change.md) ）**
+**上次更新时间：2024年12月3日（[查看更改内容](r-release-notes/doc-change.md) ）**
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ ht-degree: 95%
 - [Target 简介](c-intro/intro.md)：说明 [!DNL Target] 解决方案的核心概念。
 - 将 Target 与 Adobe Experience Cloud 集成：说明如何将 [!DNL Target] 与其他 [!DNL Experience Cloud] 解决方案集成，其中包括 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)和 [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md)。
 - [Adobe Target 教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hans)：提供教程和视频，以帮助您充分利用 Target。
-- [Target 故障排除](r-troubleshooting-target/troubleshooting-target.md)：提供本指南中所含故障排除信息的链接，其中包括关于影响 [!DNL Target] 中活动和其他元素的字符限制和其他限制（选件大小、受众、配置文件、值、参数等）的信息。
+- [Target 故障排除](r-troubleshooting-target/troubleshooting-target.md)：提供本指南中所含故障排除信息的链接，其中包括关于影响 [!DNL Target] 中活动和其他元素的字符限制和其他限制（选件大小、受众、轮廓、值、参数等）的信息。
 - [适用于移动设备应用程序的 Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=zh-Hans){target=_blank}：说明 [!DNL Target] 如何用于移动设备应用程序优化和个性化。
 - [资源和联系信息](cmp-resources-and-contact-information.md)：提供关于更多资源的信息，以帮助您了解 [!DNL Target] 功能以及如果您需要帮助，如何联系 [!DNL Adobe]。
 

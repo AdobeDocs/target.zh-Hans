@@ -6,9 +6,9 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 4b57712b838906611702db521b51af84077501e6
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 25%
 
 ---
@@ -46,17 +46,7 @@ JSON选件可用于基于表单的活动，以启用以下用例：需要通过[
 
 示例如下：
 
-```json
-adobe.target.getOffer({ 
-  mbox: "some-mbox", 
-  success: function(actions) { 
-    console.log('Success', actions); 
-  }, 
-  error: function(status, error) { 
-    console.log('Error', status, error); 
-  } 
-});
-```
+![创建JSON选件对话框](/help/main/c-experiences/c-manage-content/assets/json-example.png)
 
 传递到 success 回调的操作是一个对象数组。假设您有单个JSON选件，该选件具有以下内容：
 

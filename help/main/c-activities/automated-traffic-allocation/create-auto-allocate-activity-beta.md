@@ -5,10 +5,11 @@ title: 如何创建[!UICONTROL Auto-Allocate]活动？
 feature: Auto-Allocate
 hide: true
 hidefromtoc: true
-source-git-commit: fb29bd9704d3c2c3cf2c225114b2e52dc5061796
+exl-id: 1bfa311a-cbd9-48be-9b28-840be55b1118
+source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 16%
+source-wordcount: '898'
+ht-degree: 15%
 
 ---
 
@@ -72,9 +73,9 @@ ht-degree: 16%
 
 1. 通过更改页面上的元素创建新体验。
 
-   创建新活动后，[!UICONTROL Visual Experience Composer]在左侧显示两个选项卡：体验A和体验B。体验A是控制体验。 您的焦点位于体验B选项卡上，您可以根据需要对其进行修改。 体验B是可以添加到测试中的替代体验。 您可以通过单击[!UICONTROL Experiences]窗格顶部的[!UICONTROL Add]图标（![添加图标](/help/main/assets/icons/Add.svg)）将多个体验添加到测试中。 如果您不想在体验选项中包含默认的网站体验，则也可以从活动中删除体验 A。
+   创建新活动后，[!UICONTROL Visual Experience Composer]在左侧显示两个选项卡：[!UICONTROL Experience A]和[!UICONTROL Experience B]。 [!UICONTROL Experience A]是控制体验。 您关注的焦点是[!UICONTROL Experience B]选项卡，您可以根据需要对其进行修改。 [!UICONTROL Experience B]是可以添加到测试中的备用体验。 您可以通过单击[!UICONTROL Experiences]窗格顶部的[!UICONTROL Add]图标（![添加图标](/help/main/assets/icons/Add.svg)）将多个体验添加到测试中。 如果您不想在体验选项中包含默认的网站体验，则也可以从活动中删除体验 A。
 
-   有关在[!UICONTROL Visual Experience Composer]中添加和修改体验的详细信息，请参阅[添加体验](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。 要修改体验 B，请从步骤 2 开始操作。
+   有关在[!UICONTROL Visual Experience Composer]中添加和修改体验的详细信息，请参阅[添加体验](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。 要修改[!UICONTROL Experience B]，请从步骤2开始。
 
 1. 单击[!UICONTROL Visual Experience Composer]顶部的&#x200B;**[!UICONTROL Targeting]**&#x200B;以进入三步引导式工作流中的下一个步骤。
 
@@ -97,8 +98,8 @@ ht-degree: 16%
 
       如果需要创建一个不在[!UICONTROL Audience Library]中的新受众，请单击&#x200B;**创建受众**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
 
-      * 创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用
-      * 创建未保存到[!UICONTROL Audience Library]的[活动特定受众](/help/main/c-target/creating-activity-only-audience.md)，该受众只能用于当前活动
+      * **[!UICONTROL Audience Library]**：创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用
+      * **仅此活动**：创建未保存到[!UICONTROL Audience Library]且只能用于当前活动的[特定受众](/help/main/c-target/creating-activity-only-audience.md)
 
    1. 单击右框中的&#x200B;**[!UICONTROL Visitor Percentage]**，然后选择符合条件的访客您希望参加活动的百分比。
 
@@ -106,7 +107,7 @@ ht-degree: 16%
 
 1. 单击&#x200B;**[!UICONTROL Traffic Allocation]**&#x200B;控件，然后在右窗格中选择所需的流量分配方法。 在此方案中，单击&#x200B;**[!UICONTROL Auto-Allocate to best experience]**。
 
-   ![流量分配方法设置](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
+   ![流量分配方法设置](/help/main/c-activities/automated-traffic-allocation/assets/auto-allocate-to-best-exp.png)
 
    可以使用以下流量分配方法：
 

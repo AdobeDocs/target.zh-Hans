@@ -6,7 +6,8 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Auto-Target
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 3e55e032-3a70-4023-b705-2e489aa60277
+source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 18%
@@ -35,7 +36,7 @@ ht-degree: 18%
 
 使用三步引导式工作流[创建A/B活动](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)时，请在&#x200B;**[!UICONTROL Targeting]**&#x200B;页面上选择&#x200B;**[!UICONTROL Auto-Target for personalized experiences]**&#x200B;选项（步骤2）。
 
-![流量分配方法设置](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
+![流量分配方法设置](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
 通过A/B活动流程中的[!UICONTROL Auto-Target]选项，您可以利用机器学习功能，只需一次单击即可根据营销人员定义的一组体验进行个性化。 与传统A/B测试或[!UICONTROL Auto Allocate]相比，[!UICONTROL Auto-Target]旨在通过确定为每个访客显示哪个体验来实现最大程度的优化。 与目标是找到一个入选者的A/B活动不同，[!UICONTROL Auto-Target]会自动确定适用于给定访客的最佳体验。 最佳体验基于访客的个人资料和其他上下文信息，以提供高度个性化的体验。
 

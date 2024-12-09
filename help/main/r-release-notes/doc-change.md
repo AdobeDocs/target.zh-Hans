@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 20%
+source-wordcount: '576'
+ht-degree: 19%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 20%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
+| 12 月 9 日 | [[!UICONTROL Visual Experience Composer]最佳实践和限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | 添加了以下限制：<ul><li>无法选择要重新排列的[!UICONTROL Button]元素。<P>无法直接选择[!UICONTROL Button]元素进行重新排列。 要启用重新排列，请将按钮放入较大的容器中。</li></ul> |
 | 12 月 3 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为即将进行的[!UICONTROL Offers Library]用户界面更新添加了预发行说明。 |
 | 11 月 20 日 | [将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | 更新了要列入允许列表的Target边缘IP地址列表。 |
 | 11 月 19 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 向“[!DNL Adobe Experience Platform Web SDK] `__view__`范围优化（2024年10月22日）”章节添加了以下重要说明：<ul><li>重要信息：如果您无法在2025年2月3日之前完成实施审查并解决任何问题，则可以请求延长一次，为期6个月。 确保您的请求在2025年1月31日之前提交。 Adobe将审核并决定您的请求。</li><ul> |

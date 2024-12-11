@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: fe6e5130-53a0-4254-8299-b52086c20004
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1767'
 ht-degree: 27%
 
 ---
@@ -43,7 +44,7 @@ ht-degree: 27%
 
    此时将在VEC中打开具有指定URL的页面。
 
-1. 单击VEC顶部的&#x200B;**[!UICONTROL Untitled Activity]**，然后在提供的空间中为活动指定名称。
+1. 单击&#x200B;**[!UICONTROL Rename]**&#x200B;图标（![重命名图标](/help/main/assets/icons/MoreSmallListVert.svg)），单击&#x200B;**[!UICONTROL Rename]**，指定活动的名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
    活动名称不能以下列任何字符开头：
 

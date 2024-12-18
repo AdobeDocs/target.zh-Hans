@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: d0eddda6-3ff5-4f80-aa16-87a6a9990170
+source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 9%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 9%
 
 ## 使用流量估算器
 
-1. 从[!UICONTROL Automated Personalization]活动中[!UICONTROL Visual Experience Composer]的[!UICONTROL Experiences]页面，单击体验页面左上角的&#x200B;**[!UICONTROL Traffic]**&#x200B;图标（ ![流量估算器图标](/help/main/assets/icons/Gauge2.svg)）。
+1. 从[!UICONTROL Automated Personalization]活动中[!UICONTROL Visual Experience Composer]的[!UICONTROL Experiences]页面，单击[!UICONTROL Experiences]页面左上角的&#x200B;**[!UICONTROL Traffic]**&#x200B;图标（ ![流量估算器图标](/help/main/assets/icons/Gauge2.svg)）。
 
    将打开[!UICONTROL Traffic Estimator]。
 

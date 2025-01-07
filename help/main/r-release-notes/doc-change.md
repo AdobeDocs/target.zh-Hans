@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 320e2e3828061ee38342dfabcdd50a682a7125a5
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '624'
 ht-degree: 19%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 19%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
+| 1 月 7 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!UICONTROL Offers Library]用户界面更新（计划于2025年1月9日发布）的发行说明。 更新了所有选件文章以反映UI更改。 |
 | 12 月 9 日 | [[!UICONTROL Visual Experience Composer]最佳实践和限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | 添加了以下限制：<ul><li>无法选择要重新排列的[!UICONTROL Button]元素。<P>无法直接选择[!UICONTROL Button]元素进行重新排列。 要启用重新排列，请将按钮放入较大的容器中。</li></ul> |
 |  | [adobe.target.triggerView (viewName， options) - at.js 2.x](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2){target=_blank} | 添加了以下部分：<ul><li>示例：`triggerView()`与Adobe可视化编辑帮助程序扩展的最佳兼容性</li></ul> |
 | 12 月 3 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为即将进行的[!UICONTROL Offers Library]用户界面更新添加了预发行说明。 |

@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 33195758db8ac27a9b45f77f5518c4c4ce5c70d9
+source-git-commit: 69c4bb69f77258d0e5d5d18750ccbeee0474763d
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '308'
 ht-degree: 62%
 
 ---
@@ -39,9 +39,9 @@ ht-degree: 62%
 * 自动分配 {#auto-allocate}
    * [创建自动分配活动](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md){target=_blank}
    * [解释自动分配报表](c-activities/automated-traffic-allocation/determine-winner-beta.md){target=_blank}
-* 自动定位 {#auto-target}
-   * [自动定位概述](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
-   * [创建自动定位活动](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
+* 自动锁定 {#auto-target}
+   * [自动锁定概述](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
+   * [创建自动锁定活动](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [自动定位常见问题解答和疑难解答](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
 
 +++
@@ -97,31 +97,13 @@ ht-degree: 62%
    * [Activity QA bookmarklet](c-activities/c-activity-qa/activity-qa-bookmark.md){target=_blank}
    * [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md){target=_blank}-->
 
-## 选件
-
-+++单击以展开
-
-* [选件概述](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
-* [创建选件文件夹](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
-* [上传内容](/help/main/c-experiences/c-manage-content/assets-upload-beta.md){target="_blank"}
-* [上传或删除图像选件](/help/main/c-experiences/c-manage-content/assets-upload-beta.md){target="_blank"}
-* [创建重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect-beta.md){target="_blank"}
-* [创建远程选件](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md){target="_blank"}
-* [创建 JSON 选件](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md){target="_blank"}
-* [处理库中的内容](/help/main/c-experiences/c-manage-content/assets-working-beta.md){target="_blank"}
-* [搜索内容](/help/main/c-experiences/c-manage-content/filter-and-search-content.md){target="_blank"}
-* [将动态数据传递给选件](/help/main/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md){target="_blank"}
-* [AEM体验和内容片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md){target="_blank"}
-
-+++
-
 ## 推荐
 
 +++单击以展开
 
 * 推荐 {#recommendations}
    * [推荐概述](c-recommendations/recommendations.md){target="_blank"}
-   * [“推荐”简介](c-recommendations/introduction-to-recommendations.md){target="_blank"}
+   * [推荐简介](c-recommendations/introduction-to-recommendations.md){target="_blank"}
    * [计划和实施推荐](c-recommendations/plan-implement.md){target="_blank"}
    * 实体 {#entities}
       * [实体概述](c-recommendations/c-products/products.md){target="_blank"}
@@ -141,7 +123,7 @@ ht-degree: 62%
       * 动态和静态包含规则 {#dynamic-static}{target="_blank"}
          * [使用动态和静态包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md){target="_blank"}
          * [实体属性匹配](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md){target="_blank"}
-         * [个人资料属性匹配](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md){target="_blank"}
+         * [轮廓属性匹配](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md){target="_blank"}
          * [参数匹配](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md){target="_blank"}
          * [静态筛选](/help/main/c-recommendations/c-algorithms/static-value-beta.md){target="_blank"}
       * [使用备用推荐](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md){target="_blank"}
@@ -164,7 +146,7 @@ ht-degree: 62%
       * [“推荐”常见问题解答](c-recommendations/c-recommendations-faq/recommendations-faq.md){target="_blank"}
       * [将“推荐”与电子邮件集成](c-recommendations/c-recommendations-faq/integrating-recs-email.md){target="_blank"}
       * [“推荐”信息源处理服务器使用的 IP 地址](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md){target="_blank"}
-      * [Recommendations Classic 与 Recommendations activities in Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md){target="_blank"}
-   * [Recommendations Classic 文档](/help/main/c-recommendations/recommendations-classic-documentaton.md){target="_blank"}
+      * [经典版推荐与 Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md){target="_blank"} 中的推荐活动
+   * [经典版推荐文档](/help/main/c-recommendations/recommendations-classic-documentaton.md){target="_blank"}
 
 +++

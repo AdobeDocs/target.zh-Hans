@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 65367f0a032d2eb680e26d43ee79f5ae0890024b
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 78%
+source-wordcount: '1420'
+ht-degree: 80%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 78%
       + [Analytics for Target 实施](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [用户权限要求](c-integrating-target-with-mac/a4t/account-reqs.md)
       + [创建使用 Analytics 作为报表源的活动](c-integrating-target-with-mac/a4t/campaign-creation.md)
-      + [自动分配和自动定位活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
+      + [自动分配和自动锁定活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
       + [使用 Analytics 跟踪服务器](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T 报表](c-integrating-target-with-mac/a4t/reporting.md)
       + Analytics 与 Target 集成 (A4T) 故障诊断 {#troubleshoot-a4t}
@@ -143,10 +143,10 @@ ht-degree: 78%
       + [解释自动分配报表](c-activities/automated-traffic-allocation/determine-winner.md)
       + [解释自动分配报告测试版](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [自动分配比手动测试产生测试结果更快和收入更高](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
-   + 自动定位 {#auto-target}
-      + [自动定位概述](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   + 自动锁定 {#auto-target}
+      + [自动锁定概述](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [自动定位概述（测试版）](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
-      + [创建自动定位活动](/help/main/c-activities/auto-target/create-auto-target.md)
+      + [创建自动锁定活动](/help/main/c-activities/auto-target/create-auto-target.md)
       + [创建自动定位活动测试版](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [自动定位常见问题解答和疑难解答](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [报表和自动定位](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
@@ -166,7 +166,7 @@ ht-degree: 78%
       + [管理排除项](c-activities/t-automated-personalization/managing-exclusions.md)
       + [管理排除测试版](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Automated Personalization 中的选件报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
-      + [选择用于 Automated Personalization 或自动定位活动的控制](c-activities/t-automated-personalization/experience-as-control.md)
+      + [选择用于 Automated Personalization 或自动锁定活动的控制](c-activities/t-automated-personalization/experience-as-control.md)
       + [Automated Personalization 常见问题解答](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Automated Personalization 疑难解答](c-activities/t-automated-personalization/ap-trouble.md)
    + 体验定位 {#experience-targeting}
@@ -222,26 +222,26 @@ ht-degree: 78%
          + [移动设备](c-target/c-audiences/c-target-rules/mobile.md)
          + [操作系统](c-target/c-audiences/c-target-rules/operating-system.md)
          + [网站页面](c-target/c-audiences/c-target-rules/site-pages.md)
-         + [定位库](c-target/c-audiences/c-target-rules/target-library.md)
+         + [锁定库](c-target/c-audiences/c-target-rules/target-library.md)
          + [时间范围](c-target/c-audiences/c-target-rules/time-frame.md)
          + [流量源](c-target/c-audiences/c-target-rules/traffic-sources.md)
-         + [访客个人资料](c-target/c-audiences/c-target-rules/visitor-profile.md)
-      + [创建配置文件属性比较受众](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
+         + [访客轮廓](c-target/c-audiences/c-target-rules/visitor-profile.md)
+      + [创建轮廓属性比较受众](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
    + [合并多个受众](c-target/combining-multiple-audiences.md)
    + [创建仅限活动的受众](c-target/creating-activity-only-audience.md)
    + [适用于报表的受众筛选器](c-target/managing-audience-filters.md)
    + [将报表受众应用于成功量度](c-target/apply-reporting-audience-success-metric.md)
-   + 访客个人资料 {#visitor-profiles}
-      + [访客个人资料概述](c-target/c-visitor-profile/visitor-profile.md)
-      + [访客个人资料生命周期](c-target/c-visitor-profile/visitor-profile-lifetime.md)
-      + [配置文件属性](c-target/c-visitor-profile/profile-parameters.md)
-      + [使用个人资料脚本测试互斥活动](/help/main/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
+   + 访客轮廓 {#visitor-profiles}
+      + [访客轮廓概述](c-target/c-visitor-profile/visitor-profile.md)
+      + [访客轮廓生命周期](c-target/c-visitor-profile/visitor-profile-lifetime.md)
+      + [轮廓属性](c-target/c-visitor-profile/profile-parameters.md)
+      + [使用轮廓脚本测试互斥活动](/help/main/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
       + [类别亲和力](c-target/c-visitor-profile/category-affinity.md)
       + [客户属性](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox3rdPartyId 的实时配置文件同步](c-target/c-visitor-profile/3rd-party-id.md)
-      + [配置文件和变量一览表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
-   + 定位和受众常见问题解答 {#faq-audiences}
-      + [定位和受众常见问题解答](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
+      + [mbox3rdPartyId 的实时轮廓同步](c-target/c-visitor-profile/3rd-party-id.md)
+      + [轮廓和变量一览表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
+   + 锁定和受众常见问题解答 {#faq-audiences}
+      + [锁定和受众常见问题解答](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + 体验和选件 {#experiences}
    + [体验和选件概述](c-experiences/experiences.md)
    + 可视化体验编辑器 (VEC) {#vec}
@@ -271,21 +271,13 @@ ht-degree: 78%
    + [单页面应用程序 (SPA) 可视化体验编辑器](c-experiences/spa-visual-experience-composer.md)
    + 选件 {#offers}
       + [选件概述](c-experiences/c-manage-content/manage-content.md)
-      + [选件概述（测试版）](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [创建选件文件夹](c-experiences/c-manage-content/create-content-folder.md)
-      + [创建选件文件夹测试版](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [上传内容](c-experiences/c-manage-content/assets-upload.md)
-      + [上传或删除测试版图像选件](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [创建重定向选件](c-experiences/c-manage-content/offer-redirect.md)
-      + [创建重定向选件测试版](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [创建远程选件](c-experiences/c-manage-content/about-remote-offers.md)
-      + [创建远程选件（测试版）](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [创建 JSON 选件](c-experiences/c-manage-content/create-json-offer.md)
-      + [创建JSON选件测试版](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [处理库中的内容](c-experiences/c-manage-content/assets-working.md)
-      + [使用测试版库中的内容](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
       + [搜索和筛选内容](c-experiences/c-manage-content/filter-and-search-content.md)
-      + [搜索和筛选测试版内容](/help/main/c-experiences/c-manage-content/filter-and-search-content-beta.md)
       + [将动态数据传递给选件](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM体验和内容片段](c-experiences/c-manage-content/aem-experience-fragments.md)
 + 报表 {#reports}
@@ -298,7 +290,7 @@ ht-degree: 78%
    + 统计方法{#statistical-methodology}
       + [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + Personalization报告{#personalization-reports}
-      + [自动定位摘要报表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
+      + [自动锁定摘要报表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 摘要报表](/help/main/c-reports/personalization-reports/reports-ap.md)
    + 个性化见解报表 {#insights}
       + [个性化见解报表概述](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
@@ -342,7 +334,7 @@ ht-degree: 78%
          + [使用动态和静态包含规则（测试版）](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [实体属性匹配](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [实体属性匹配测试版](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
-         + [个人资料属性匹配](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [轮廓属性匹配](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
          + [配置文件属性匹配测试版](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [参数匹配](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
          + [参数匹配Beta](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
@@ -371,8 +363,8 @@ ht-degree: 78%
       + [“推荐”常见问题解答](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [将“推荐”与电子邮件集成](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [“推荐”信息源处理服务器使用的 IP 地址](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
-      + [Recommendations Classic 与 Target Premium 中的“推荐”活动](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [Recommendations Classic 文档](/help/main/c-recommendations/recommendations-classic-documentaton.md)
+      + [经典版推荐与 Target Premium 中的“推荐”活动](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
+   + [经典版推荐文档](/help/main/c-recommendations/recommendations-classic-documentaton.md)
 + Target 故障诊断 {#troubleshoot}
    + [Target 故障诊断](r-troubleshooting-target/troubleshooting-target.md)
    + [限制](r-troubleshooting-target/target-limits.md)

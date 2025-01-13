@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
+source-git-commit: 872b63bc7df255af8334fa29fa89e1c532d3a734
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 32%
+source-wordcount: '856'
+ht-degree: 31%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 32%
 
 * **持久搜索和筛选器**：添加会话持久搜索和筛选器选项。
 
-有关详细信息，请参阅本节中的[选件](/help/main/c-experiences/c-manage-content/manage-content.md)和子文章。
+有关详细信息，请参阅本节中的[选件](/help/main/c-experiences/c-manage-content/manage-content.md)和子文章。 此部分中的所有优惠文章都已更新，以反映这些UI更改。
 
 以下是一段简短视频，重点介绍此版本中的更改：
 

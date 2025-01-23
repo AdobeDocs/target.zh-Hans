@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 69c4bb69f77258d0e5d5d18750ccbeee0474763d
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 62%
+source-wordcount: '340'
+ht-degree: 61%
 
 ---
 
@@ -43,7 +43,11 @@ ht-degree: 62%
    * [自动锁定概述](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
    * [创建自动锁定活动](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [自动定位常见问题解答和疑难解答](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-
+* Automated Personalization {#automated-personalization}
+   * [创建 Automated Personalization 活动](/help/main/c-activities/t-automated-personalization/create-ap-activity-beta.md)
+   * [估算成功所需流量](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-traffic-estimator-beta)
+   * [在可视化体验编辑器(VEC)中预览Automated Personalization活动中的体验](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
+   * [Target 自动个性化产品建议](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
 +++
 
 <!-- 
@@ -141,7 +145,7 @@ ht-degree: 62%
       * [添加促销活动](c-recommendations/t-create-recs-activity/adding-promotions.md){target="_blank"}
       * [“推荐”活动设置](c-recommendations/t-create-recs-activity/recs-activity-settings.md){target="_blank"}
       * [预览和启动推荐活动](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md){target="_blank"}
-   * [“推荐”作为选件](c-recommendations/recommendations-as-an-offer.md){target="_blank"}
+   * [“推荐”作为产品建议](c-recommendations/recommendations-as-an-offer.md){target="_blank"}
    * 常见问题解答 {#recommendations-faq}
       * [“推荐”常见问题解答](c-recommendations/c-recommendations-faq/recommendations-faq.md){target="_blank"}
       * [将“推荐”与电子邮件集成](c-recommendations/c-recommendations-faq/integrating-recs-email.md){target="_blank"}

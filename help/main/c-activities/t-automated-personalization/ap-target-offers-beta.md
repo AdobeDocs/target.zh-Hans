@@ -7,9 +7,10 @@ feature: Automated Personalization
 solution: Target,Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 2eb99fb0c108b600d098fc14036b678c50e689b3
+exl-id: 2897c4d1-116d-483c-8fc0-64857b9cbdaf
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 19%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 19%
 
 在[!DNL Adobe Target] [!DNL Automated Personalization] (AP)活动中，您可以将选件定位到特定受众。
 
-使用此功能可减少特定访客有资格查看的选件数量。例如，假定一个[!UICONTROL Automated Personalization]活动有三个选件。 选件1有一个定位规则，该规则限制仅向受众A显示该选件。有两个访客看到了此活动。
+使用此功能可减少特定访客有资格查看的产品建议数量。例如，假定一个[!UICONTROL Automated Personalization]活动有三个选件。 选件1有一个定位规则，该规则限制仅向受众A显示该选件。有两个访客看到了此活动。
 
 | | 访客 1 | 访客 2 |
 |--- |--- |--- |
@@ -31,7 +32,7 @@ ht-degree: 19%
 
 ## 设置定位规则
 
-1. 创建包含要定位的选件的[Automated Personalization活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)。
+1. 创建或编辑包含要定位的选件的[Automated Personalization活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)。
 1. 在[!UICONTROL Visual Experience Composer]中设置活动的选件后，单击&#x200B;**[!UICONTROL Manage Content]**&#x200B;图标（ ![管理内容图标](/help/main/assets/icons/Experience.svg)）。
 
    此时将显示[!UICONTROL Manage Content]对话框。
@@ -54,4 +55,4 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->您最多可以设置 50 个位置，每个位置最多可以设置 250 个选件。
+>您最多可以设置 50 个位置，每个位置最多可以设置 250 个产品建议。

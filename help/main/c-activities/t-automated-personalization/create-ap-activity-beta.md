@@ -7,10 +7,10 @@ feature: Automated Personalization
 hide: true
 hidefromtoc: true
 exl-id: fe6e5130-53a0-4254-8299-b52086c20004
-source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 27%
+source-wordcount: '1844'
+ht-degree: 23%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 27%
 
    >[!NOTE]
    >
-   >除了VEC和[!UICONTROL Form-Based Experience Composer]之外，[!DNL Target]还提供[!UICONTROL Single Page Application VEC]。 有关各种编辑器的更多信息，请参阅[体验和选件](/help/main/c-experiences/experiences.md)。
+   >除了VEC和[!UICONTROL Form-Based Experience Composer]之外，[!DNL Target]还提供[!UICONTROL Single Page Application VEC]。 有关各种编辑器的更多信息，请参阅[体验和产品建议](/help/main/c-experiences/experiences.md)。
    >
    >有关VEC的故障诊断信息，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
@@ -76,9 +76,7 @@ ht-degree: 27%
 
 1. 单击&#x200B;**[!UICONTROL Manage Content]**&#x200B;图标（![管理内容图标](/help/main/assets/icons/Experience.svg)）以配置可用的组合。
 
-   此时将显示一个对话框，屏幕顶部有三个选项： [!UICONTROL Experiences]、[!UICONTROL Offers]和[!UICONTROL Exclusion Groups]。
-
-   ![“管理内容”对话框](/help/main/c-activities/t-automated-personalization/assets/ap_content-new.png)
+   此时将显示一个对话框，屏幕顶部有两个选项： [!UICONTROL Experiences]和[!UICONTROL Offers]。
 
    >[!NOTE]
    >
@@ -86,37 +84,60 @@ ht-degree: 27%
 
    [!UICONTROL Experiences]列表显示了为活动选择的每个内容块以及该活动被分配到的位置。
 
-   您可以通过将鼠标悬停在所需体验上，然后单击[!UICONTROL Exclude]图标来排除特定体验。
+   您可以通过选中所需体验旁边的复选框，然后单击[!UICONTROL Exclude]图标来排除特定体验。
 
-   ![“排除”图标悬停](/help/main/c-activities/t-automated-personalization/assets/icon-exclude.png)
-
-   您可以批量排除或包含体验，方法是选中相关体验的复选框，然后单击对话框右上角的[!UICONTROL Exclude]图标。
-
-   ![批量排除选项](/help/main/c-activities/t-automated-personalization/assets/batch-exclude.png)
-
-   您可以通过单击[!UICONTROL Status]下拉列表来筛选此列表视图，以仅查看排除或包含的活动。
+   您可以批量排除或包含体验，方法是选中相关体验的复选框，然后单击[!UICONTROL Exclude]图标。
 
 1. （视情况而定）单击&#x200B;**[!UICONTROL Offers]**&#x200B;以选择内容片段并将其分配给报表组，或只允许特定访客查看特定具有定位的选件。
 
    有关报表组的详细信息，请参阅[Automated Personalization中的选件报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)。
 
-1. （视情况而定）单击&#x200B;**[!UICONTROL Exclusion Groups]**&#x200B;以选择要从活动中排除的任何元素组合。
+<!--
+1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combination of elements that you want to exclude from the activity.
 
-   ![“管理内容”对话框的“排除组”选项卡](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
+   ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   尽管您在AP测试中最多可以创建30,000个体验，但只有当使用的不同体验少于10,000个时，算法才会发挥最佳性能。 即使活动启用了[!UICONTROL Disalow Duplicates]选项，也应用同样的限制。
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
 
-   如果活动中当前未包含任何排除组，请单击&#x200B;**创建排除组**。您可以进行筛选以创建一个仅显示要排除的组合的列表。命名您的排除组，然后单击&#x200B;**保存**。
+   If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
-   要编辑现有的排除组，请将鼠标悬停在要编辑的组上，然后单击铅笔图标。
+   To edit an existing exclusion group, hover over the group you want to edit, then click the pencil icon.-->
 
 1. 完成活动内容的设置后，单击&#x200B;**[!UICONTROL Done]**。
 
-1. 如果您使用过其他[!DNL Target]活动类型，则&#x200B;**定位**&#x200B;步骤看起来会很熟悉。 在此处，您可以通过单击&#x200B;**[!UICONTROL Custom Allocation]**&#x200B;下拉列表来选择一个受众，并指定查看控制体验的访客百分比，然后单击&#x200B;**下一步**。
+1. 单击[!UICONTROL Visual Experience Composer]顶部的&#x200B;**[!UICONTROL Targeting]**&#x200B;以进入三步引导式工作流中的下一个步骤。
 
-   [!UICONTROL Custom Allocation]下拉列表允许您从以下选项中进行选择：
+   如果您使用过其他[!DNL Target]活动类型，则&#x200B;**定位**&#x200B;步骤看起来会很熟悉。 在此步骤中，您可以选择受众，并指定查看每个体验的访客百分比。
 
-   ![“流量分配目标”下拉列表](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
+   此时会打开流程图。
+
+   ![AP测试定位步骤](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
+
+   流程图会引导您完成以下步骤：分配受众及其流量百分比，选择流量分配方法，以及指定活动中每个体验的流量分配。
+
+1. （视情况而定）单击&#x200B;**[!UICONTROL All Visitors]**&#x200B;控件以选择该活动的其他受众。
+
+   [!UICONTROL All Visitors]受众设置为默认受众。 如果选择其他受众，则其名称将显示在最左侧的控件中。
+
+   此时将显示正确的框架，您可以在其中添加或删除受众，并分配活动的访客百分比。
+
+   1. 要更改受众，请单击右框架中的&#x200B;**[!UICONTROL Replace]图标** （ ![替换图标](/help/main/assets/icons/Retweet.svg) ）。
+   1. 在[!UICONTROL Add Audience]对话框中，[选择所需的受众](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，然后单击&#x200B;**[!UICONTROL Assign Audience]**。
+
+      您可以单击&#x200B;**合并受众**&#x200B;到[创建合并多个受众的受众](/help/main/c-target/combining-multiple-audiences.md)。
+
+      如果需要创建一个不在[!UICONTROL Audience Library]中的新受众，请单击&#x200B;**创建受众**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
+
+      * **[!UICONTROL Audience Library]**：创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用。
+      * **[!UICONTROL This activity only]**：创建未保存到[!UICONTROL Audience Library]的[活动特定受众](/help/main/c-target/creating-activity-only-audience.md)，该受众只能用于当前活动。
+
+   1. 单击右框中的&#x200B;**[!UICONTROL Visitor Percentage]**，然后选择符合条件的访客您希望参加活动的百分比。
+
+   例如，您可以将准入资格限制为 50% 的访客或 45% 的“加州”受众。
+
+1. 单击&#x200B;**[!UICONTROL Traffic Allocation]**&#x200B;控件以从以下选项中进行选择：
+
+   ![流量分配目标选项](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
 
    * **[!UICONTROL Evaluate Personalization Algorithm (50/50)]：**&#x200B;如果您的目标是测试算法，则可以在控制和目标算法之间按50/50的百分比拆分访客。 这种拆分可让您对提升进行最精确的评估。建议将“随机体验”用作控制。
    * **[!UICONTROL Maximizing Personalization Traffic (90/10)]：**&#x200B;如果您的目标是创建“一直开启”的活动，请将10%的访客放入控制。 此选项确保算法有足够的数据来不断学习。 这里做出的权衡是，为了对更大比例的流量进行个性化，提升度的准确性将会降低。 无论您的目标如何，在使用特定体验作为控制时，都建议使用此选项。

@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
+source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 61%
+source-wordcount: '356'
+ht-degree: 58%
 
 ---
 
@@ -48,6 +48,8 @@ ht-degree: 61%
    * [估算成功所需流量](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-traffic-estimator-beta)
    * [在可视化体验编辑器(VEC)中预览Automated Personalization活动中的体验](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
    * [Target 自动个性化产品建议](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
+   * [Automated Personalization测试版中的选件报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
+   * [选择Automated Personalization或自动定位活动测试版的控制项](c-activities/t-automated-personalization/experience-as-control-beta.md)
 +++
 
 <!-- 

@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 80%
+source-wordcount: '1436'
+ht-degree: 79%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 80%
          + [初始配置 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [活动设置 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [查看报表 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
-         + [重定向选件 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
+         + [重定向产品建议 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
          + [提升度和置信度 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
          + [量度定义 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [分类 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
@@ -95,7 +95,7 @@ ht-degree: 80%
    + 将Target与Adobe Customer Journey Analytics {#cja}集成
       + [Adobe Customer Journey Analytics中的Target报表](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + 将Target与Adobe Journey Optimizer (AJO)集成{#ajo}
-      + [使用选件决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
+      + [使用产品建议决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [集成 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
       + Adobe Journey Optimizer用例{#use-cases}
          + [Adobe Journey Optimizer中的热门优化用例 — 基于Web和代码的渠道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
@@ -161,12 +161,14 @@ ht-degree: 80%
       + [估算成功测试版所需的流量](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md)
       + [预览 Automated Personalization 测试体验](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [预览Automated Personalization测试测试版体验](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
-      + [Target Automated Personalization 选件](c-activities/t-automated-personalization/ap-target-offers.md)
+      + [Target Automated Personalization 产品建议](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Target Automated Personalization选件（测试版）](c-activities/t-automated-personalization/ap-target-offers-beta.md)
       + [管理排除项](c-activities/t-automated-personalization/managing-exclusions.md)
       + [管理排除测试版](c-activities/t-automated-personalization/managing-exclusions-beta.md)
-      + [Automated Personalization 中的选件报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
+      + [Automated Personalization 中的产品建议报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
+      + [Automated Personalization测试版中的选件报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [选择用于 Automated Personalization 或自动锁定活动的控制](c-activities/t-automated-personalization/experience-as-control.md)
+      + [选择用于Automated Personalization或自动定位活动Beta的控制](c-activities/t-automated-personalization/experience-as-control-beta.md)
       + [Automated Personalization 常见问题解答](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Automated Personalization 疑难解答](c-activities/t-automated-personalization/ap-trouble.md)
    + 体验定位 {#experience-targeting}
@@ -242,8 +244,8 @@ ht-degree: 80%
       + [轮廓和变量一览表](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + 锁定和受众常见问题解答 {#faq-audiences}
       + [锁定和受众常见问题解答](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
-+ 体验和选件 {#experiences}
-   + [体验和选件概述](c-experiences/experiences.md)
++ 体验和产品建议 {#experiences}
+   + [体验和产品建议概述](c-experiences/experiences.md)
    + 可视化体验编辑器 (VEC) {#vec}
       + [可视化体验编辑器概述](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [可视化体验编辑器选项](c-experiences/c-visual-experience-composer/viztarget-options.md)
@@ -269,16 +271,16 @@ ht-degree: 80%
       + [创建可以在可视化体验编辑器中工作的轮播效果](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [基于表单的体验编辑器](c-experiences/form-experience-composer.md)
    + [单页面应用程序 (SPA) 可视化体验编辑器](c-experiences/spa-visual-experience-composer.md)
-   + 选件 {#offers}
-      + [选件概述](c-experiences/c-manage-content/manage-content.md)
-      + [创建选件文件夹](c-experiences/c-manage-content/create-content-folder.md)
+   + 产品建议 {#offers}
+      + [产品建议概述](c-experiences/c-manage-content/manage-content.md)
+      + [创建产品建议文件夹](c-experiences/c-manage-content/create-content-folder.md)
       + [上传内容](c-experiences/c-manage-content/assets-upload.md)
-      + [创建重定向选件](c-experiences/c-manage-content/offer-redirect.md)
-      + [创建远程选件](c-experiences/c-manage-content/about-remote-offers.md)
-      + [创建 JSON 选件](c-experiences/c-manage-content/create-json-offer.md)
+      + [创建重定向产品建议](c-experiences/c-manage-content/offer-redirect.md)
+      + [创建远程产品建议](c-experiences/c-manage-content/about-remote-offers.md)
+      + [创建 JSON 产品建议](c-experiences/c-manage-content/create-json-offer.md)
       + [处理库中的内容](c-experiences/c-manage-content/assets-working.md)
       + [搜索和筛选内容](c-experiences/c-manage-content/filter-and-search-content.md)
-      + [将动态数据传递给选件](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
+      + [将动态数据传递给产品建议](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM体验和内容片段](c-experiences/c-manage-content/aem-experience-fragments.md)
 + 报表 {#reports}
    + [报表概述](c-reports/reports.md)
@@ -358,7 +360,7 @@ ht-degree: 80%
       + [添加促销活动](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [“推荐”活动设置](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [预览和启动“推荐”活动](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
-   + [选件形式的推荐](c-recommendations/recommendations-as-an-offer.md)
+   + [产品建议形式的推荐](c-recommendations/recommendations-as-an-offer.md)
    + 常见问题解答 {#recommendations-faq}
       + [“推荐”常见问题解答](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [将“推荐”与电子邮件集成](c-recommendations/c-recommendations-faq/integrating-recs-email.md)

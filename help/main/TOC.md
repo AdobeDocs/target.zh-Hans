@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 79%
+source-wordcount: '1449'
+ht-degree: 78%
 
 ---
 
@@ -175,9 +175,13 @@ ht-degree: 79%
       + [体验定位概述](c-activities/t-experience-target/experience-target.md)
       + 创建体验定位活动 {#create-targeting}
          + [创建活动](c-activities/t-experience-target/t-xt-create/xt-create.md)
+         + [创建activity-beta](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [活动 URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
+         + [活动URL测试版](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [创建体验](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
+         + [创建体验测试版](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [在体验定位中切换体验](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+         + [在Experience Targeting-beta中切换体验](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [目标和设置](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [设置量度](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + 多变量测试 {#multivariate-test}

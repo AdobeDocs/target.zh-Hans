@@ -4,10 +4,10 @@ description: 了解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Experience
 title: 什么是[!UICONTROL Experience Targeting] (XT)活动？
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
-source-git-commit: 4faafcef38d02674072d8b20ae03d3e2ef2115d6
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 46%
+source-wordcount: '432'
+ht-degree: 40%
 
 ---
 
@@ -40,13 +40,3 @@ ht-degree: 46%
 * 描述如何对体验重新排序，以确保将适当的内容交付给适当的受众
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418/)
-
-### 活动类型 (9:03)
-
-以下视频介绍了 [!DNL Target] 中可用的活动类型。对 [!UICONTROL Experience Targeting] 的讨论开始于 5:15。
-
-* 介绍 [!DNL Target] 中包含的活动类型
-* 选择相应的活动类型以实现目标
-* 介绍适用于所有活动类型的三步引导式工作流
-
->[!VIDEO](https://video.tv.adobe.com/v/17386)

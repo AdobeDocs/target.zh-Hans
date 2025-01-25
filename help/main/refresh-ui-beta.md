@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 58%
+source-wordcount: '372'
+ht-degree: 56%
 
 ---
 
@@ -49,7 +49,12 @@ ht-degree: 58%
    * [在可视化体验编辑器(VEC)中预览Automated Personalization活动中的体验](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
    * [Target 自动个性化产品建议](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
    * [Automated Personalization测试版中的选件报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
-   * [选择Automated Personalization或自动定位活动测试版的控制项](c-activities/t-automated-personalization/experience-as-control-beta.md)
+   * [选择用于Automated Personalization或自动定位活动Beta的控制](c-activities/t-automated-personalization/experience-as-control-beta.md)
+* 体验定位(XT) {#xt}
+   * [创建activity-beta](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
+   * [活动URL测试版](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
+   * [创建体验测试版](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
+   * [在Experience Targeting-beta中切换体验](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
 +++
 
 <!-- 

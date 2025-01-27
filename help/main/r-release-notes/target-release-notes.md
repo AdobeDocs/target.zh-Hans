@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 20%
+source-wordcount: '1105'
+ht-degree: 14%
 
 ---
 
@@ -15,13 +15,53 @@ ht-degree: 20%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2025年1月7日**
+**上次更新日期：2025年1月27日**
 
 >[!NOTE]
 >
 >发布日期、功能及其他信息如有更改，恕不另行通知。
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+## [!UICONTROL Activities]用户界面更新（2025年2月6日）
+
+随着[!DNL Adobe Target] UI现代化工作的继续，我们很高兴地宣布已正式提供更新的[!UICONTROL Activities]用户界面。
+
+>[!NOTE]
+>
+>从2月6日星期三开始，客户将逐步拥有新[!UICONTROL Activities] UI的访问权限。 为确保为所有客户无缝部署，此版本将分阶段部署。 第一阶段会将初始的[!DNL Target]客户组升级到新的[!UICONTROL Activities] UI。 后续阶段将升级剩余客户。
+
+此更新基于最新的[!DNL Adobe Spectrum]设计系统，标准化了以前不一致的设计模式，同时添加了新的增强功能，例如：
+
+* 重新设计了报表，以更好地了解活动结果
+* 更新了[!UICONTROL Audit]页面，现在从[!DNL Audit API]获取实时见解的信息
+* 可自定义的列表视图，以针对不同的团队需求提供更好的灵活性
+* 增强的快速信息和详细信息屏幕，可更轻松地访问信息
+* 会话持久搜索和过滤器选项
+* 完全重建了[!UICONTROL Visual Editing Composer]，支持来自浏览器提供商的最新安全更新和现代用户界面
+* 更新了支持清单V3的[!DNL Chrome]扩展以提高安全性并改进对第一方Cookie的支持
+
+![活动刷新](/help/main/r-release-notes/assets/activities-refresh.png)
+
+## [!DNL Recommendations]用户界面更新（2025年2月7日）
+
+随着[!DNL Adobe Target] UI现代化工作的继续，我们很高兴地宣布已正式提供更新的[!DNL Recommendations]用户界面。
+
+>[!NOTE]
+>
+>从2月7日星期四开始，客户将逐步拥有新[!UICONTROL Recommendations] UI的访问权限。 为确保为所有客户无缝部署，此版本将分阶段部署。 第一阶段会将初始的[!DNL Target]客户组升级到新的[!UICONTROL Activities] UI。 后续阶段将升级剩余客户。
+
+此更新基于最新的[!DNL Adobe Spectrum]设计系统，标准化了以前不一致的设计模式，同时添加了新的增强功能，例如：
+
+* 产品目录搜索现在具有更新的数据库，允许实时同步产品
+* 通过API创建的[!UICONTROL Recommendation]对象（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]）现在可在用户界面中使用
+* 已在[!UICONTROL Administration]部分下合并设置
+* 可自定义的列表视图，可跨不同的团队需求提供更好的灵活性
+* 使用语法高亮显示和行编号刷新的HTML和JSON代码编辑器
+* 增强的快速信息和详细信息屏幕，可更轻松地访问信息
+* 会话持久搜索和过滤器选项
+
+![Recommendations UI刷新](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ## [!UICONTROL Offers Library]用户界面更新（2025年1月9日）
 

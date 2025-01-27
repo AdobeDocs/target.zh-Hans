@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+source-git-commit: 4805da617962e29794bd3af16138f3887ad250d0
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 78%
+source-wordcount: '1481'
+ht-degree: 77%
 
 ---
 
@@ -190,13 +190,20 @@ ht-degree: 78%
       + [规划多变量测试](c-activities/c-multivariate-testing/plan-mvt.md)
       + 创建多变量测试 {#create-mvt}
          + [创建测试](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
+         + [创建测试测试版](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
          + [活动 URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
+         + [Activity URL测试版](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
          + [创建组合](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
+         + [创建组合（测试版）](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
          + [预览多变量测试体验](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
+         + [预览多变量测试测试版体验](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
          + [估算成功测试所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
+         + [估算成功的测试测试测试版所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
          + [测试摘要](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
+         + [测试摘要（测试版）](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
          + [目标和设置](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [设置量度](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
+         + [设置量度（测试版）](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
          + [多变量测试故障诊断](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [“推荐”活动](c-activities/recommendations-activity.md)
    + [编辑活动或另存为草稿](c-activities/edit-activity.md)

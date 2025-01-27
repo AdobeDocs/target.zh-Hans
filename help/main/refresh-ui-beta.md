@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+source-git-commit: 438b65368b81f71d684444352035ce73627e698f
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 56%
+source-wordcount: '407'
+ht-degree: 51%
 
 ---
 
@@ -55,6 +55,14 @@ ht-degree: 56%
    * [活动URL测试版](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
    * [创建体验测试版](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
    * [在Experience Targeting-beta中切换体验](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
+* 多变量测试(MVT) {#mvt}
+   * [创建测试测试版](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
+   * [Activity URL测试版](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
+   * [创建组合（测试版）](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
+   * [预览多变量测试测试版体验](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
+   * [估算成功的测试测试测试版所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
+   * [测试摘要（测试版）](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
+   * [设置量度测试版](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
 +++
 
 <!-- 

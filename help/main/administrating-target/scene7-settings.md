@@ -5,9 +5,9 @@ title: 如何配置 Dynamic Media Classic (Scene7) 集成？
 feature: Administration & Configuration
 role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 92%
 
 ---
@@ -28,17 +28,15 @@ ht-degree: 92%
 >A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
 -->
 
-如果未配置此设置，则活动创建工作流中的[!UICONTROL Swap Image offer]选项将不可用。 配置此设置后，[可视体验编辑器 (VEC) 和基于表单的体验编辑器](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中都会提供用于交换/更改图像选件的选项。随后，您可以使用图像选件，其中包含从 [!DNL Adobe Experience Cloud] 上传以供在 [!DNL Target] 活动中使用的图像。
+如果未配置此设置，则活动创建工作流中的[!UICONTROL Swap Image offer]选项将不可用。 配置此设置后，[可视体验编辑器 (VEC) 和基于表单的体验编辑器](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中都会提供用于交换/更改图像产品建议的选项。随后，您可以使用图像产品建议，其中包含从 [!DNL Adobe Experience Cloud] 上传以供在 [!DNL Target] 活动中使用的图像。
 
-在活动创建过程中，如果您想要直接在选件或自定义代码中引用公共图像 URL，则应当将图像部署到您自己的 Web 服务器，并在代码中使用您自己的 URL。无法获取已上传到 [!DNL Experience Cloud] 的图像的已发布 URL，以将其直接用在使用 [!DNL Target] 的定位工作流中或这些工作流之外。按照合同规定，不允许使用此功能。
+在活动创建过程中，如果您想要直接在产品建议或自定义代码中引用公共图像 URL，则应当将图像部署到您自己的 Web 服务器，并在代码中使用您自己的 URL。无法获取已上传到 [!DNL Experience Cloud] 的图像的已发布 URL，以将其直接用在使用 [!DNL Target] 的定位工作流中或这些工作流之外。按照合同规定，不允许使用此功能。
 
-请注意，[!DNL Dynamic Media] 中图像的存储 URL 和最终发布 URL 是不同的，任何人&#x200B;*不得*&#x200B;使用图像的存储链接创建选件，否则将无法正常交付。您必须按照帮助文档中的相关说明来使用图像选件功能。
+请注意，[!DNL Dynamic Media] 中图像的存储 URL 和最终发布 URL 是不同的，任何人&#x200B;*不得*&#x200B;使用图像的存储链接创建产品建议，否则将无法正常交付。您必须按照帮助文档中的相关说明来使用图像产品建议功能。
 
 要与 [!DNL Dynamic Media Classic] ([!DNL Scene7]) 集成，您需要指定以下信息。
 
 1. 单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Scene7 Configuration]**。
-
-   ![Scene7 页面](/help/main/administrating-target/assets/scene7.png)
 
 1. 指定以下 [!DNL Dynamic Media Classic] 帐户信息：
 

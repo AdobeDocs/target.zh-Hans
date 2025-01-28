@@ -5,10 +5,10 @@ title: 如何配置可视化体验编辑器(VEC)？
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 48%
+source-wordcount: '682'
+ht-degree: 49%
 
 ---
 
@@ -22,11 +22,9 @@ ht-degree: 48%
 >
 >请注意，此页面上的设置适用于整个[!DNL Target]帐户。
 
-![可视化体验编辑器配置页面](/help/main/administrating-target/assets/vec.png)
-
 ## 一般设置
 
-您可以为可视化体验编辑器指定常规设置。
+您可以为[!UICONTROL Visual Experience Composer]指定常规设置。
 
 ![常规设置部分](/help/main/administrating-target/assets/general-settings.png)
 

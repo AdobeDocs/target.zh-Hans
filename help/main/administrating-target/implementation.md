@@ -1,13 +1,13 @@
 ---
 keywords: 实施
-description: 了解如何在您的网站上实施Adobe [!DNL Target] 。 设置全局设置、实施方法（AEP Web SDK或at.js）等。
+description: 了解如何在您的网站上实施Adobe [!DNL Target] 。 设置全局设置、实施方法(AEP Web SDK或at.js)等。
 title: 如何在我的网站上实施 [!DNL Target] ？
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
@@ -25,5 +25,3 @@ ht-degree: 2%
 1. 要访问[!UICONTROL Implementation]页面，请单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**。
 
 1. 有关适用于此页面上的设置的信息，请参阅[不使用标签管理器实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}。
-
-![实施页面](/help/main/administrating-target/assets/implementation.png)

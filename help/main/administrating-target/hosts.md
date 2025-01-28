@@ -5,9 +5,9 @@ title: 什么是主机以及如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1027'
 ht-degree: 17%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 17%
 默认情况下，[!DNL Target]不限制可以发出[!DNL Target]请求并接收[!DNL Target]响应的主机。 当新主机发出请求时，它们会自动工作。 此流程还可以在您不知道或无法预测的不同域上进行测试。 列入允许列表 列入阻止列表如果要覆盖此默认行为，可以设置或以限制哪些主机可以使用[!DNL Target]。
 
 要管理主机，请单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Hosts]**。
-
-![主机列表图像](assets/hosts_list.png)
 
 ## 识别主机 {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 

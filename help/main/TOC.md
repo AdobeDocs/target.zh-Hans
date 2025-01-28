@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 4805da617962e29794bd3af16138f3887ad250d0
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 77%
+source-wordcount: '1485'
+ht-degree: 76%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 77%
    + [Target 优化和个性化常见问题解答](c-intro/cmp-target-standard-cheatsheet.md)
 + 管理 Target {#administer}
    + [管理 Target 概述](administrating-target/administrating-target.md)
+   + [管理Target概述测试版](administrating-target/administrating-target-beta.md)
    + [管理员首要步骤](administrating-target/start-target.md)
    + [配置可视体验编辑器](/help/main/administrating-target/visual-experience-composer-set-up.md)
    + 报表 {#reporting}

@@ -5,10 +5,10 @@ title: 什么是环境？如何使用环境？
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 49%
+source-wordcount: '644'
+ht-degree: 47%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 49%
 从新网站或域收到[!DNL Target]请求时，这些新域始终出现在[!UICONTROL Production]环境中。 无法更改[!UICONTROL Production]环境的设置，因此可以保证未知站点或新站点只会看到处于活动状态且准备就绪的内容。 通过主机管理，您在激活测试和开发环境中的新活动和内容之前，还可以轻松地确保这些活动和内容的质量。
 
 要管理环境，请单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Environments]**。
-
-![环境列表](/help/main/administrating-target/assets/environments.png)
 
 ## 添加环境 {#section_32097D0993724DF3A202D164D3F18674}
 
@@ -75,7 +73,7 @@ ht-degree: 49%
 
 {{premium-note}}
 
-环境可用于为不同用途而分隔目录中的可用项。 例如，您可以为[!UICONTROL Development]和[!UICONTROL Production]环境、不同品牌或不同地理位置使用主机组。 默认情况下，“目录搜索”、“收藏集”和“排除项”中的预览结果均基于默认的主机组。（也可以使用“环境”筛选器来选择要预览结果的不同主机组。）默认情况下，新添加的项目在所有主机组中都可用，除非在创建或更新项目时指定了环境ID。
+环境可用于为不同用途而分隔目录中的可用项。 例如，您可以为[!UICONTROL Development]和[!UICONTROL Production]环境、不同品牌或不同地理位置使用主机组。 默认情况下，“目录搜索”、“收藏集”和“排除项”中的预览结果均基于默认的主机组。（也可以使用“环境”筛选器选择其他主机组来预览结果。） 默认情况下，新添加的项目在所有主机组中都可用，除非在创建或更新项目时指定了环境ID。
 
 >[!NOTE]
 >

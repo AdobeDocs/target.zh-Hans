@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3165'
 ht-degree: 48%
 
 ---
@@ -191,18 +191,12 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 * **Workspace （产品配置文件）下拉列表：** Workspace下拉列表显示在[!UICONTROL Activities]、[!UICONTROL Audiences]和[!UICONTROL Offers]页的顶部。 选择所需的工作区对列表进行筛选，可以只显示所选工作区中的项目。
 
-  ![workspace_drop下拉图像](assets/workspace_drop-down.png)
-
 * **活动创建：**&#x200B;创建活动时，会在当前选定的工作区中创建该活动。 在第一个对话框中，您会看到渠道选择选项，从中可为活动选择所需的渠道：Web、移动设备应用程序、电子邮件或其他/API。
-
-  ![channel_options图像](assets/channel_options.png)
 
 * **受众创建：**&#x200B;创建受众时，会在当前选定的工作区中创建该受众。
 * **受众列表：**&#x200B;您可以使用[!UICONTROL Audiences]页面上的[!UICONTROL More Actions] > [!DNL Move]选项在工作区之间移动受众。
 * **选件创建：**&#x200B;创建选件时，该选件在当前选定的工作区中创建。
 * **属性页面（管理>属性）：**&#x200B;您可以使用[!UICONTROL Search]框搜索[!UICONTROL Property]列表。
-
-  ![properties_list图像](assets/properties_list.png)
 
 ## 注意事项 {#section_9714311B1CD9497A86F4910F8AE635E2}
 
@@ -239,10 +233,10 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 * 以下资源&#x200B;*不*&#x200B;属于新的企业权限模型的一部分：
 
-   * 图像选件
+   * 图像产品建议
    * 所有“推荐”资源，其中包括标准库、设计库、目录、推荐设置。
    * 在启用企业权限之前，可以复制在Target Premium中创建的现有资源（例如活动、代码选件和受众），但不能将这些资源移动到其他工作区。
-   * 使用以下解决方案或方法创建的活动、受众、代码选件、图像选件或任何其他资源不受企业权限模型控制，但属于默认Workspace的一部分：Target Classic、Adobe Experience Manager (AEM)、AdobeMobile Services以及通过API创建的资源。 通过 API 创建的资源（包括活动、受众、代码选件和图像选件）。
+   * 使用以下解决方案或方法创建的活动、受众、代码选件、图像选件或任何其他资源不受企业权限模型控制，但属于默认Workspace的一部分：Target Classic、Adobe Experience Manager (AEM)、AdobeMobile Services以及通过API创建的资源。 通过 API 创建的资源（包括活动、受众、代码产品建议和图像产品建议）。
    * 图像选件（存储在`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`下的资产）当前不受企业权限模型控制。
    * 当目标链接或目标页面是包含在活动中的属性的一部分时，clickTracking和重定向会起作用。 此外，使用`targetPageParams()`函数时，clickTracking可能无法正常工作。 `targetPageParamsAll()` 是推荐的函数。
 

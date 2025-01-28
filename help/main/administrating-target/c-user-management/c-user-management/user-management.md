@@ -5,9 +5,9 @@ title: 如何为 [!DNL Target Standard] 帐户添加用户和管理权限？
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '847'
 ht-degree: 63%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 63%
 >
 >* **[!DNL Target]Premium客户**：如果您看到[!UICONTROL Users]选项卡和[!UICONTROL Properties]选项卡([!UICONTROL Administration > Properties])，则表明贵组织拥有[!DNL Target] Premium许可证。 [!DNL Target] Premium 客户应按照[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)和[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)中的说明进行操作，以在 [!DNL Adobe Admin Console] 中添加用户和分配权限。
 >
->有关如何管理用户和权限的详细信息，请参阅企业和团队用户指南&#x200B;**&#x200B;中的[管理产品和配置文件](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)。
+>有关如何管理用户和权限的详细信息，请参阅企业和团队用户指南&#x200B;**&#x200B;中的[管理产品和轮廓](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)。
 
 开始使用 [!DNL Adobe Target] 时，您会发现自己的 [!DNL Adobe Experience Cloud] 帐户中预先填充了一些 ID（以 Adobe.com 结尾）。这些 ID 是 [!DNL Adobe] 团队的成员，因此在您需要帮助时，可以协助您的新帐户以及 [!DNL Adobe Target] 的使用。要获取帮助，请按常规方式联系 Adobe 团队。
 
@@ -41,8 +41,6 @@ ht-degree: 63%
 您可以在 [!DNL Target] UI 中查看当前用户的列表，包括他们在各个工作区中的角色以及电子邮件地址。
 
 要查看[!UICONTROL Users]页面，请单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users]**。
-
-![Target 中的用户列表](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
@@ -86,19 +84,11 @@ ht-degree: 63%
 
 1. [在Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)中，单击&#x200B;**[!UICONTROL Products]**，然后选择所需产品的名称。
 
-   ![“产品”选项卡](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
-
 1. 单击所需工作区（例如，默认工作区）。
-
-   ![默认工作区](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
    [!UICONTROL Users]选项卡会显示该工作区中的所有用户。
 
-   ![配置用户](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
-
 1. 使用[!UICONTROL Product Role]列中每个用户的下拉列表中选择所需的权限角色（[!UICONTROL Approver]、[!UICONTROL Editor]、[!UICONTROL Observer]或[!UICONTROL Publisher]）。
-
-   ![“产品角色”下拉列表](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | 角色 | 描述 |
    |--- |--- |

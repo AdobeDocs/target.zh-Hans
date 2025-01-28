@@ -5,9 +5,9 @@ title: 什么是响应令牌？如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1622'
 ht-degree: 22%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 22%
 >
 >at.js版本1.1或更高版本中有响应令牌可用。
 
-| Target SDK | 建议的操作 |
+| 定位SDK | 建议的操作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版Platform Web SDK的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank}。 有关每个Platform Web SDK版本中新功能的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版Platform Web SDK的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank}。 有关每个版本的Platform Web SDK中新功能的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)。 |
 | [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本at.js的信息，请参阅[下载at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}。 有关每个at.js版本中新功能的信息，请参阅[at.js版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在mbox.js中存在（现已弃用），但在at.js中不存在；这些插件虽然可以交付，但却会失败。 |
 
 ## 使用响应令牌 {#section_A9E141DDCBA84308926E68D05FD2AC62}
@@ -40,15 +40,13 @@ ht-degree: 22%
 
 1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**。
 
-   ![response_tokens — 新图像](assets/response_tokens-new.png)
-
 1. 激活所需的响应令牌，如`activity.id`和`offer.id`。
 
    以下参数默认可用：
 
    | 类型 | 参数 | 注释 |
    |--- |--- |--- |
-   | 内置配置文件 | `profile.activeActivities` | 返回该访客符合条件的 `activityIds` 数组。它会随着符合条件的用户数量的增加而递增。例如，在包含两个交付两个不同活动的[!DNL Target]请求的页面上，第二个请求包含这两个活动。 |
+   | 内置轮廓 | `profile.activeActivities` | 返回该访客符合条件的 `activityIds` 数组。它会随着符合条件的用户数量的增加而递增。例如，在包含两个交付两个不同活动的[!DNL Target]请求的页面上，第二个请求包含这两个活动。 |
    |  | `profile.isFirstSession` | 返回“true”或“false”。 |
    |  | `profile.isNewSession` | 返回“true”或“false”。 |
    |  | `profile.daysSinceLastVisit` | 返回自该访客上次访问后已过的天数。 |
@@ -62,7 +60,7 @@ ht-degree: 22%
    | 流量分配方法<br>（仅适用于[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动。） | `experience.trafficAllocationId` | 如果访客因处于“control”流量中而获得体验，则返回0；如果访客从“targeted”流量分配获得体验，则返回1。 |
    |  | `experience.trafficAllocationType` | 返回“control”或“targeted”。 |
 
-   用户配置文件属性和客户属性也会显示在列表中。
+   用户轮廓属性和客户属性也会显示在列表中。
 
    >[!NOTE]
    >
@@ -71,8 +69,6 @@ ht-degree: 22%
 1. （视情况而定）要将配置文件参数用作响应令牌，但该参数尚未通过[!DNL Target]请求传递，因此尚未加载到[!DNL Target] UI中，您可以使用[!UICONTROL Add Response Token]按钮将该配置文件添加到UI。
 
    单击&#x200B;**[!UICONTROL Add Response Token]**，提供令牌名称，然后单击&#x200B;**[!UICONTROL Activate]**。
-
-   ![response_token_create image](assets/response_token_create.png)
 
 1. 创建一个活动。
 

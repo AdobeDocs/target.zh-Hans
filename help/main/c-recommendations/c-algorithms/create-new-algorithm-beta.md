@@ -7,7 +7,7 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 7937e54a-7c10-445d-9d9a-9ddbdaa8086e
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 47%
@@ -90,6 +90,43 @@ ht-degree: 47%
 
 有关选择[!UICONTROL Recommendation Key]的详细信息，请参阅[使推荐基于推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 
+## [!UICONTROL Backup Content] {#content}
+
+[!UICONTROL Backup Content]规则确定推荐项目数未填入您的[推荐设计](/help/main/c-recommendations/c-design-overview/design-overview.md)时会发生什么情况。 [!DNL Recommendations]标准可能会返回比您的设计调用更少的推荐。 例如，如果您的设计有四个项目的版块，但您的标准导致仅推荐两个项目，则可以将剩余版块留空，您可以使用备用推荐来填充额外的版块，也可以选择不显示推荐。
+
+1. （可选）将&#x200B;**[!UICONTROL Partial Design Rendering]**&#x200B;切换开关滑动到“开”位置。
+
+   系统会尽可能多地填充版块，但设计模板仍可包含空白空间以备放置剩余版块。 如果禁用了此选项，并且内容不足以填充所有可用的版块，则不会提供推荐，而是显示默认内容。
+
+   如果您希望向推荐提供空白版块，请启用此选项。 如果您希望根据标准用空白版块填充推荐版块，而这些版块填充了您网站上的类似或热门内容，请使用备用推荐，如下一步中所述。
+
+1. （可选）将&#x200B;**[!UICONTROL Show Backup Content]**&#x200B;切换开关滑动到“开”位置。
+
+   从您的网站中随机选择查看次数最多的产品，来填满设计中剩余的空白版块。
+
+   使用备用推荐可确保您的推荐设计填充所有可用的版块。 假设您采用4 x 1设计，如下所示：
+
+   ![4 x 1设计](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+   假设您的标准导致只推荐两个项目。 如果启用[!UICONTROL Partial Design Rendering]选项，则前两个版块已填满，但剩余两个版块仍留空。 但是，如果启用[!UICONTROL Show Backup Recommendations]选项，则前两个版块会根据您指定的条件填充，其余两个版块会根据您的备用推荐填充。
+
+   以下矩阵显示了使用[!UICONTROL Partial Design Rendering]和[!UICONTROL Backup Content]选项时将观察到的结果：
+
+   | 局部设计渲染 | 备份内容 | 结果 |
+   |--- |--- |--- |
+   | 禁用 | 禁用 | 如果返回的推荐少于设计所需的推荐，则推荐设计将被替换为默认内容，并且不显示任何推荐。 |
+   | 启用 | 禁用 | 设计会进行渲染，但如果返回的推荐少于设计所需的推荐，则可能包含空白区域。 |
+   | 启用 | 启用 | 备用推荐将填满可用的设计“版块”，从而完全渲染您的设计。<br>如果将包含规则应用于备用推荐时会限制符合条件的备用推荐的数量，以致于设计无法填满，则会局部渲染设计。<br>如果标准未返回任何推荐，并且包含规则将备用推荐限制为零，则设计将被替换为默认内容。 |
+   | 禁用 | 启用 | 备用推荐将填满可用的设计“版块”，从而完全渲染您的设计。<br>如果将包含规则应用于备用推荐时会限制符合条件的备用推荐的数量，以致于设计无法填满，则设计将被替换为默认内容，并且不会显示任何推荐。 |
+
+   有关详细信息，请参阅[使用备份推荐](/help/main/c-recommendations/c-algorithms/backup-recs.md)。
+
+1. （视情况而定）如果您在上一步中选择了&#x200B;**[!UICONTROL Show Backup Content]**，则可以启用&#x200B;**[!UICONTROL Apply inclusion rules to backup recommendations]**。
+
+   包含规则确定推荐中包含哪些项目。 可用的选项取决于您的垂直行业。
+
+   有关详细信息，请参阅下面的[指定包含规则](#inclusion)。
+
 ## [!UICONTROL Data Source] {#data-source}
 
 1. 选择所需的&#x200B;**[!UICONTROL Behavioral Data Source]**： [!UICONTROL Adobe Target]或[!UICONTROL Analytics]。
@@ -129,43 +166,6 @@ ht-degree: 47%
    | 两周 | 算法每24-48小时运行一次 | <ul><li>[!UICONTROL Popularity-Based]算法</li><li>[!UICONTROL Item-Based]算法</li><li>所有[!UICONTROL User-Based]算法</li><li>[!UICONTROL Cart-Based]算法</li></ul> |
    | 一个月（30天） | 算法每24-48小时运行一次 | <ul><li>[!UICONTROL Popularity-Based]算法</li><li>[!UICONTROL Item-Based]算法</li><li>[!UICONTROL User-Based]算法</li><li>[!UICONTROL Cart-Based]算法</li></ul> |
    | 两个月（61天） | 算法每24-48小时运行一次 | <ul><li>[!UICONTROL Popularity-Based]算法</li><li>[!UICONTROL Item-Based]算法</li><li>[!UICONTROL User-Based]算法</li><li>[!UICONTROL Cart-Based]算法</li></ul> |
-
-## [!UICONTROL Backup Content] {#content}
-
-[!UICONTROL Backup Content]规则确定推荐项目数未填入您的[推荐设计](/help/main/c-recommendations/c-design-overview/design-overview.md)时会发生什么情况。 [!DNL Recommendations]标准可能会返回比您的设计调用更少的推荐。 例如，如果您的设计有四个项目的版块，但您的标准导致仅推荐两个项目，则可以将剩余版块留空，您可以使用备用推荐来填充额外的版块，也可以选择不显示推荐。
-
-1. （可选）将&#x200B;**[!UICONTROL Partial Design Rendering]**&#x200B;切换开关滑动到“开”位置。
-
-   系统会尽可能多地填充版块，但设计模板仍可包含空白空间以备放置剩余版块。 如果禁用了此选项，并且内容不足以填充所有可用的版块，则不会提供推荐，而是显示默认内容。
-
-   如果您希望向推荐提供空白版块，请启用此选项。 如果您希望根据标准用空白版块填充推荐版块，而这些版块填充了您网站上的类似或热门内容，请使用备用推荐，如下一步中所述。
-
-1. （可选）将&#x200B;**[!UICONTROL Show Backup Content]**&#x200B;切换开关滑动到“开”位置。
-
-   从您的网站中随机选择查看次数最多的产品，来填满设计中剩余的空白版块。
-
-   使用备用推荐可确保您的推荐设计填充所有可用的版块。 假设您采用4 x 1设计，如下所示：
-
-   ![4 x 1设计](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
-
-   假设您的标准导致只推荐两个项目。 如果启用[!UICONTROL Partial Design Rendering]选项，则前两个版块已填满，但剩余两个版块仍留空。 但是，如果启用[!UICONTROL Show Backup Recommendations]选项，则前两个版块会根据您指定的条件填充，其余两个版块会根据您的备用推荐填充。
-
-   以下矩阵显示了使用[!UICONTROL Partial Design Rendering]和[!UICONTROL Backup Content]选项时将观察到的结果：
-
-   | 局部设计渲染 | 备份内容 | 结果 |
-   |--- |--- |--- |
-   | 禁用 | 禁用 | 如果返回的推荐少于设计所需的推荐，则推荐设计将被替换为默认内容，并且不显示任何推荐。 |
-   | 启用 | 禁用 | 设计会进行渲染，但如果返回的推荐少于设计所需的推荐，则可能包含空白区域。 |
-   | 启用 | 启用 | 备用推荐将填满可用的设计“版块”，从而完全渲染您的设计。<br>如果将包含规则应用于备用推荐时会限制符合条件的备用推荐的数量，以致于设计无法填满，则会局部渲染设计。<br>如果标准未返回任何推荐，并且包含规则将备用推荐限制为零，则设计将被替换为默认内容。 |
-   | 禁用 | 启用 | 备用推荐将填满可用的设计“版块”，从而完全渲染您的设计。<br>如果将包含规则应用于备用推荐时会限制符合条件的备用推荐的数量，以致于设计无法填满，则设计将被替换为默认内容，并且不会显示任何推荐。 |
-
-   有关详细信息，请参阅[使用备份推荐](/help/main/c-recommendations/c-algorithms/backup-recs.md)。
-
-1. （视情况而定）如果您在上一步中选择了&#x200B;**[!UICONTROL Show Backup Content]**，则可以启用&#x200B;**[!UICONTROL Apply inclusion rules to backup recommendations]**。
-
-   包含规则确定推荐中包含哪些项目。 可用的选项取决于您的垂直行业。
-
-   有关详细信息，请参阅下面的[指定包含规则](#inclusion)。
 
 ## 内容相似度 {#similarity}
 

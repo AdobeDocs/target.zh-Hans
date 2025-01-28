@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 3809d98ae58e4832cdf4739d2435a222febaef6d
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1493'
 ht-degree: 76%
 
 ---
@@ -363,12 +363,14 @@ ht-degree: 76%
    + 设计 {#recommendations-design}
       + [设计概述](c-recommendations/c-design-overview/design-overview.md)
       + [创建设计](c-recommendations/c-design-overview/create-design.md)
-      + [创建设计](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
+      + [创建设计测试版](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [设计常见问题解答](c-recommendations/c-design-overview/template-faq.md)
       + [使用 Velocity 自定义设计](c-recommendations/c-design-overview/customizing-a-template.md)
    + 活动 {#recommendations-activity}
       + [创建“推荐”活动](c-recommendations/t-create-recs-activity/create-recs-activity.md)
+      + [创建Recommendations活动测试版](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
       + [选择标准](c-recommendations/t-create-recs-activity/algo-select-recs.md)
+      + [选择标准（测试版）](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [添加促销活动](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [“推荐”活动设置](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [预览和启动“推荐”活动](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

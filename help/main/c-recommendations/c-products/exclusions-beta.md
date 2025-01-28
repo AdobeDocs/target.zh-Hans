@@ -6,10 +6,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: fb3c63b4-08be-4dac-b5a1-c6c1ecd4c4b3
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 18%
+source-wordcount: '503'
+ht-degree: 14%
 
 ---
 
@@ -37,23 +37,17 @@ ht-degree: 18%
 
 1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**&#x200B;以显示现有排除项列表。
 
-   ![exclusions_list图像](assets/exclusions-list.png)
-
    [!UICONTROL Exclusions]列表视图中为每个排除项报告的“项目数”是指，在配置的默认Recommendations [主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 有关如何更改默认主机组的信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[计划和实施 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}。
 
-1. （视情况而定）单击[!UICONTROL Filter]图标，然后在创建（或更新）排除项时从&#x200B;**[!UICONTROL Environment]**&#x200B;下拉列表中选择所需的[环境](/help/main/administrating-target/environments.md)，以预览该环境中排除项的内容。 默认情况下，会显示默认主机组的结果。
-
-   ![创建排除项](/help/main/c-recommendations/c-products/assets/choose-environment.png)
+1. （视情况而定）单击&#x200B;**[!UICONTROL Show Filters]**&#x200B;图标（![显示过滤器图标](/help/main/assets/icons/Filter.svg)），然后在创建（或更新）排除项时从&#x200B;**[!UICONTROL Environment]**&#x200B;下拉列表中选择所需的[环境](/help/main/administrating-target/environments.md)，以预览该环境中排除项的内容。 默认情况下，会显示默认主机组的结果。
 
 1. 单击 **[!UICONTROL Create Exclusion]**。
-
-   ![创建排除项对话框](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
 1. 键入排除项&#x200B;**[!UICONTROL Name]**&#x200B;并输入可选描述。
 
 1. 使用规则生成器创建排除项。
 
-   在“规则”列表中选择一个参数，选择一个运算符，然后输入一个或多个值以标识产品。使用逗号分隔多个值。
+   在[!UICONTROL Rules]列表中选择一个参数，选择一个运算符，然后输入一个或多个值以标识产品。 使用逗号分隔多个值。
 
 1. 单击 **[!UICONTROL Create]**。
 
@@ -71,9 +65,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 编辑、复制或删除排除项
 
-单击列表中所需排除项旁边的&#x200B;**省略号**&#x200B;图标，然后单击相应的图标：编辑、复制或删除。
-
-![选项：编辑、复制和删除](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
+单击列表中所需排除项旁边的更多操作图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击相应的图标： [!UICONTROL Edit]、[!UICONTROL Copy]或[!UICONTROL Delete]。
 
 您可以复制现有排除项以创建重复排除项，然后对其进行修改。 利用此选项，您可以用更少的工作量创建类似的排除项。
 

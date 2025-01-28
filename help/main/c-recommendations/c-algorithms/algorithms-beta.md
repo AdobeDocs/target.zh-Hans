@@ -7,10 +7,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 7809984d-259d-4b99-93cd-3073e2fcf8bb
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 6%
+source-wordcount: '496'
+ht-degree: 5%
 
 ---
 
@@ -35,8 +35,6 @@ ht-degree: 6%
 ## 算法类型 {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 您选择的算法类型决定了可用的算法。
-
-![标准页面](assets/criteria-page-new.png)
 
 下表说明了各种算法类型及其随附的算法。
 
@@ -76,11 +74,9 @@ ht-degree: 6%
 
 您可以通过单击[!UICONTROL Name]列中的所需条件来查看条件详细信息。
 
-![“标准卡片”悬停信息](/help/main/c-recommendations/c-algorithms/assets/criteria-hover.png)
+通过&#x200B;**[!UICONTROL Attributes]**&#x200B;和详细信息部分，可查看有关所选标准的一般信息，包括其[!UICONTROL Name]、[!UICONTROL Description]、[!UICONTROL Industry Vertical]、[!UICONTROL Page Types]、[!UICONTROL Recommendation Key]、[!UICONTROL Recommendation Logic]、[!UICONTROL Algorithm ID]以及上次修改时间信息（日期和修改算法的人员）。
 
-通过&#x200B;**[!UICONTROL Algorithm Info]**&#x200B;选项卡，可查看有关所选标准的常规信息，包括其[!UICONTROL Name]、[!UICONTROL Description]、[!UICONTROL Industry Vertical]、[!UICONTROL Page Types]、[!UICONTROL Recommendation Key]、[!UICONTROL Recommendation Logic]、[!UICONTROL Algorithm ID]以及上次修改时间信息（日期和修改算法的人员）。
-
-**[!UICONTROL Algorithm Usage]**&#x200B;部分允许您查看引用所选标准的活动列表。
+**[!UICONTROL Usage]**&#x200B;部分允许您查看引用所选标准的活动列表。
 
 >[!NOTE]
 >

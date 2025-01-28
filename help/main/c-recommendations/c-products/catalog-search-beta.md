@@ -7,10 +7,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 6b0175b1-0eee-498d-8a08-513cf6695114
-source-git-commit: 16a7c11e8b9b1a08b1e467519f997d0b05e47529
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 21%
+source-wordcount: '508'
+ht-degree: 22%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 21%
 
 ## 访问[!UICONTROL Catalog Search]
 
-要访问[!UICONTROL Catalog Search]页面，请单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**。
+1. 要访问[!UICONTROL Catalog Search]页面，请单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**。
 
-![目录搜索页面](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
+1. （可选）要将过滤器应用于搜索，请单击&#x200B;**[!UICONTROL Show Filters]**&#x200B;图标（ ![显示过滤器图标](/help/main/assets/icons/Filter.svg) ）。 您可以按[!UICONTROL Environment]、[!UICONTROL Collections]、[!UICONTROL Category]、[!UICONTROL Brand]、[!UICONTROL Inventory]和[!UICONTROL Value]进行筛选。
 
 ## 执行简单搜索
 
@@ -45,8 +45,6 @@ ht-degree: 21%
    > 对具有数字值的自定义属性执行目录搜索时，结果将该自定义属性视为字符串类型，而非数字值。
    >
    >目前没有可让您更改属性类型的功能。 要作出改变，请[提出客户问题](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，其中引用需要将类型从字符串变为数字的属性。
-
-   您还可以使用过滤器查找所需的产品。 例如，通过单击&#x200B;**[!UICONTROL Show Filters]**&#x200B;图标（![显示过滤器图标](/help/main/c-recommendations/c-products/assets/icon-show-filters.png)）、展开[!UICONTROL Collections]方面，然后选择一个或多个收藏集，目录中属于所选收藏集的所有产品都会显示。
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -110,7 +108,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 [环境](/help/main/administrating-target/environments.md)允许您组织站点和生产前环境，以便轻松管理和分隔报表。
 
-1. 单击“显示筛选器”图标（![显示筛选器图标](/help/main/c-recommendations/c-products/assets/icon-show-filters.png)）。
+1. 单击“显示筛选器”图标（![显示筛选器图标](/help/main/assets/icons/Filter.svg)）。
 
 1. 从&#x200B;**[!UICONTROL Environment]**&#x200B;下拉列表中选择所需的环境。
 
@@ -134,10 +132,10 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## 修改列
 
-您可以临时修改[!UICONTROL Catalog Search]页面上的活动列。
+您可以修改[!UICONTROL Catalog Search]页面上的活动列。
 
-1. 单击&#x200B;**[!UICONTROL Customize Table]**&#x200B;图标（![自定义表格图标](/help/main/c-recommendations/c-products/assets/icon-customize-table.png)）。
+1. 单击&#x200B;**[!UICONTROL Customize Table]**&#x200B;图标（![自定义表格图标](/help/main/assets/icons/ColumnSetting.svg)）。
 
 1. 选择或取消选择要显示或隐藏的所需列。
 
-请记住，您所做的任何更改仅应用于当前会话。
+您所做的任何更改都会跨会话持续进行。

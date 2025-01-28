@@ -7,9 +7,9 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 53adc701-c389-4adf-a9c8-ca778aa0a8f3
-source-git-commit: 406076ba986171c29dfb7817a8ef0ef9bd52c458
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2417'
 ht-degree: 38%
 
 ---
@@ -37,8 +37,6 @@ ht-degree: 38%
 
 [!UICONTROL Feeds]列表(**[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**)提供了有关您创建的任何馈送的信息。
 
-![“信息源”页面](/help/main/c-recommendations/c-products/assets/feeds-page-new.png)
-
 [!UICONTROL Feeds]页包含以下列：
 
 * **名称**：创建过程中指定的信息源的名称。要编辑信息源的名称，您必须编辑信息源本身。使用新名称保存馈送时，将刷新馈送。
@@ -48,11 +46,11 @@ ht-degree: 38%
 * **计划**：显示信息源的更新计划： [!UICONTROL Daily]、[!UICONTROL Weekly]、[!DNL Every 2 Weeks]或[!UICONTROL Never]。
 * **上次更新时间**：显示上次更新信息源的日期和时间，以及更新信息源的人员姓名。
 
-单击[!UICONTROL Customize Table]图标（![自定义表格图标](/help/main/c-recommendations/c-products/assets/customize-table-icon.png)）以选择或取消选择要显示的列。
+单击[!UICONTROL Customize Table]图标（![自定义表格图标](/help/main/assets/icons/ColumnSetting.svg)）以选择或取消选择要显示的列。
 
-单击[!UICONTROL Information]图标可显示显示上次上传日期和信息源URL的卡片。
+单击[!UICONTROL Information]图标（![信息图标](/help/main/assets/icons/InfoOutline.svg)）可显示显示上次上传日期和信息源URL的卡片。
 
-单击省略号图标可访问以下操作： [!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy]和[!UICONTROL Delete]。
+单击[!UICONTROL More Actions]图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg) ）可访问以下操作： [!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy]和[!UICONTROL Delete]。
 
 >[!IMPORTANT]
 >
@@ -233,8 +231,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**。
 
-   ![“创建信息源”对话框](assets/CreateFeed.png)
-
 1. 为您的信息源指定一个描述性名称。
 1. 选择&#x200B;**[!UICONTROL Source Type]**。
 
@@ -261,8 +257,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;箭头以显示[!UICONTROL Schedule]选项。
 
-   ![步骤结果](assets/CreateFeedSchedule.png)
-
 1. 选择一个更新选项：
 
    * [!UICONTROL Daily]
@@ -275,8 +269,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
    此选项基于浏览器中使用的时区。如果您想要使用不同时区的时间，则必须根据您所在的时区计算该时间。
 
 1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;箭头以显示[!UICONTROL Mapping]选项，然后指定您希望如何将数据映射到[!DNL Target]定义。
-
-   ![步骤结果](assets/CreatFeedMapping.png)
 
 1. （可选）如果您希望信息源属于某个环境（主机组），请选择该主机组。
 

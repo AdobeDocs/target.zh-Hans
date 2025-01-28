@@ -7,9 +7,9 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: da477e5c-1ce7-4042-b56d-8ae1b50ceb88
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '693'
 ht-degree: 26%
 
 ---
@@ -42,15 +42,11 @@ ht-degree: 26%
 
 1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Collections]**&#x200B;以显示现有收藏集列表。
 
-   ![收藏集列表](assets/collections-list.png)
-
-   [!UICONTROL Collections]页面显示现有收藏集的列表。 单击[!UICONTROL Create Collection]按钮可创建新收藏集。 您还可以编辑、复制和删除现有收藏集，方法是单击所需收藏集旁边的省略号图标，然后单击所需选项。
+   [!UICONTROL Collections]页面显示现有收藏集的列表。 单击[!UICONTROL Create Collection]按钮可创建新收藏集。 您还可以编辑、复制和删除现有收藏集，方法是单击所需收藏集旁边的“更多操作”图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击所需选项。
 
    [!UICONTROL Collections]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认Recommendations [主机组](/help/main/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以更改默认主机组。
 
 1. 单击 **[!UICONTROL Create Collection]**。
-
-   ![创建收藏集](/help/main/c-recommendations/c-products/assets/create-collection.png)
 
 1. 为集合键入&#x200B;**[!UICONTROL Name]**。
 
@@ -80,9 +76,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 编辑、复制或删除收藏集
 
-单击列表中所需收藏集旁边的&#x200B;**省略号**&#x200B;图标，然后单击相应的图标：编辑、复制或删除。
-
-![悬停图标：编辑、复制和删除](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
+单击列表中所需集合旁边的（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击相应的图标： [!UICONTROL Edit]、[!UICONTROL Copy]或[!DNL Delete]。
 
 您可以复制现有收藏集以创建重复的收藏集，然后对其进行修改。 这样，您就可以用更少的工作量创建类似的收藏集。
 
@@ -96,8 +90,4 @@ After creating a search using "id > contains," for example, you can then click [
 
 1. 选择标准和设计后，将显示[!UICONTROL Options]页面，您可以在其中选择所需的集合。
 
-   ![选择收藏集选项](/help/main/c-recommendations/c-products/assets/choose-collection.png)
-
-1. （视情况而定）要更改现有的收藏集设置，请在&#x200B;**[!UICONTROL Experiences]**&#x200B;页面（三步引导式工作流的步骤2）中单击放置推荐的位置，单击&#x200B;**[!UICONTROL Change Collection]**，然后选择所需的收藏集。
-
-   ![更改收藏集选项](/help/main/c-recommendations/c-products/assets/change-collection.png)
+1. （视情况而定）要更改现有的收藏集设置，请在&#x200B;**[!UICONTROL Experiences]**&#x200B;页面（三步引导式工作流的步骤1）中单击放置推荐的位置，单击&#x200B;**[!UICONTROL Change Collection]**，然后选择所需的收藏集。

@@ -5,10 +5,10 @@ title: 如何配置Recommendations活动设置？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 48%
+source-wordcount: '588'
+ht-degree: 45%
 
 ---
 
@@ -16,13 +16,11 @@ ht-degree: 48%
 
 有关可用于描述和控制[!DNL Adobe Target]中的[!UICONTROL Recommendations]活动的设置的信息。
 
-![“推荐”活动目标和设置页面](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
-
 以下部分介绍了[!UICONTROL Recommendations]活动的可用设置。
 
 ## 名称
 
-提供描述性名称，以帮助您和您的团队识别活动。
+单击“更多操作”图标（ ![更多操作图标](/help/main/assets/icons/MoreSmallListVert.svg) ），然后单击&#x200B;**[!UICONTROL Rename]**&#x200B;以提供描述性名称，帮助您和您的团队识别该活动。
 
 活动名称中不允许使用以下字符：
 

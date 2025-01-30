@@ -4,10 +4,10 @@ description: 了解如何预览Adobe [!DNL Target] Recommendations活动，以�
 title: 如何预览和启动Recommendations活动？
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 16%
+source-wordcount: '1316'
+ht-degree: 15%
 
 ---
 
@@ -21,11 +21,7 @@ ht-degree: 16%
 
 您可以检查算法是否已在[!UICONTROL Activity]概述图中完成运行，其中列出了条件状态。 下图显示了[!DNL Recommendations]活动[!UICONTROL Overview]页面上的活动图中的状态：
 
-![Recommendations活动概述页面](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
-
-下图描述了[!UICONTROL A/B Test]或XT活动的[!UICONTROL Overview]页面上的状态：
-
-![A/B测试概述页面](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
+![Recommendations活动概述页面](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 状态结果包括以下内容，如下所示：
 
@@ -45,7 +41,7 @@ ht-degree: 16%
 
 如果选择 mbox 作为行为数据源，则标准在创建后会立即运行。根据使用的行为数据量和目录的大小，算法可能需要长达 12 个小时才能运行。对标准配置进行更改通常会导致算法重新运行。根据所做的更改，之前计算的推荐可能在重新运行完成之前不可用，或者对于较大的更改，在重新运行完成之前，只有备份或默认内容可用。 如果未修改算法，则 [!DNL Target] 会根据所选的数据范围，每 12 到 48 小时自动重新运行该算法一次。
 
-### Adobe Analytics
+### [!DNL Adobe Analytics]
 
 如果标准使用 [!DNL Adobe Analytics] 作为行为数据源，则创建标准后，其可用性的时间取决于所选报表包和回顾窗口是否已用于任何其他标准。
 
@@ -59,9 +55,7 @@ ht-degree: 16%
 
 ## 使用QA链接预览Recommendations
 
-在算法具有结果就绪后，您可以使用[!DNL Adobe Target]的[QA链接](/help/main/c-activities/c-activity-qa/activity-qa.md)功能预览这些结果。 在活动概述页面的[!UICONTROL Activity QA]部分中有QA链接：
-
-![“活动 QA”链接](/help/main/c-recommendations/t-create-recs-activity/assets/qa-link.png)
+在算法具有结果就绪后，您可以使用[!DNL Adobe Target]的[QA链接](/help/main/c-activities/c-activity-qa/activity-qa.md)功能预览这些结果。 QA链接在[!UICONTROL Activity]概述页面的[!UICONTROL Activity Location]部分可用：
 
 >[!NOTE]
 >
@@ -103,19 +97,13 @@ ht-degree: 16%
 
 ## 激活您的Recommendations活动
 
-在[!UICONTROL Activity Overview]选项卡中，单击状态旁边的下拉箭头，然后选择&#x200B;**[!UICONTROL Activate]**。
+在[!UICONTROL Activity Overview]选项卡中，单击“状态”下拉箭头，然后选择&#x200B;**[!UICONTROL Activate]**。
 
-![激活选项](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
+如果[!UICONTROL Recommendations]活动当前处于[!UICONTROL Inactive]状态，则下拉列表标记为[!UICONTROL Inactive]。
 
-请注意，状态变为[!UICONTROL Activating]：
+几秒钟到几分钟后，状态将切换到[!UICONTROL Live]。
 
-![正在激活](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
-
-几秒钟到几分钟后，状态将切换到[!UICONTROL Live]：
-
-![实时](/help/main/c-recommendations/t-create-recs-activity/assets/live.png)
-
-请注意，您还可以使用相同的下拉列表取消激活或存档活动。
+您还可以使用相同的下拉列表取消激活或存档活动。
 
 ## 避免在更改Recommendations设置时发生中断
 

@@ -7,10 +7,11 @@ feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+exl-id: baf939d8-1f6d-4586-8323-69f818a5ef1a
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 42%
+source-wordcount: '768'
+ht-degree: 39%
 
 ---
 
@@ -31,8 +32,15 @@ ht-degree: 42%
 ## 指定特定体验作为控制
 
 1. 创建或编辑[[!UICONTROL Automated Personalization]活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)或[[!UICONTROL Auto-Target]活动](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)时，根据需要配置体验。
-1. 在[!UICONTROL Targeting]页面（三步引导式工作流的步骤2）上，选择所需的体验作为控制。
-1. 为控制体验和其他体验指定所需的流量分配。
+1. 在[!UICONTROL Targeting]页面（三步引导式工作流的步骤2）中，单击控制体验以在右侧窗格中显示[!UICONTROL Control]选项。
+
+   ![控制面板](/help/main/c-activities/t-automated-personalization/assets/control.png)
+
+1. 从[!UICONTROL Control]下拉列表中，选择[!UICONTROL Random Experience]或选择要用于控件的所需体验。
+
+1. 单击[!UICONTROL Traffic Allocation]控制，然后为控制体验和其他体验指定所需的流量分配。
+
+   ![流量分配边栏](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    对于特定体验控制，建议分配 10% 到 30% 的流量。
 

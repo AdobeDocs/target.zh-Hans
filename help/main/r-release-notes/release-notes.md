@@ -6,9 +6,9 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '905'
 ht-degree: 30%
 
 ---
@@ -19,7 +19,11 @@ ht-degree: 30%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!UICONTROL Offers Library]用户界面更新（2025年1月9日）
+## Target Standard/Premium 25.1.1（2025年1月9日）
+
+此版本包括以下更新：
+
+### [!UICONTROL Offers Library]用户界面更新
 
 为了增强[!DNL Adobe Target]用户的用户体验，此版本更新了[!UICONTROL Offers Library]用户界面。
 

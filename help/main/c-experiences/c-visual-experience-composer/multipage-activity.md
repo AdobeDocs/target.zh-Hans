@@ -4,10 +4,10 @@ description: 了解如何在Adobe [!DNL Target] 中创建多页活动，允许�
 title: 如何创建多页面活动？
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 68%
+source-wordcount: '341'
+ht-degree: 54%
 
 ---
 
@@ -21,27 +21,19 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->当同一选件在多个页面上具有不同的外观时，需要设计多页面活动。如果同一选件在所有页面上具有相同的外观，则使用[测试模板](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)更为有效。
+>当同一产品建议在多个页面上具有不同的外观时，需要设计多页面活动。如果同一产品建议在所有页面上具有相同的外观，则使用[测试模板](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)更为有效。
 
 在多页面测试中，您可以为每个页面指定模板规则。例如，在多页面测试中，您可以向类别页面应用模板规则，从而在主页和所有类别页面上运行多页面测试。请参阅[在相似页面上包含相同体验](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)。
 
 要将页面添加到测试，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL Configure]**&#x200B;齿轮图标。
+1. 单击&#x200B;**[!UICONTROL Configure]**&#x200B;图标（![配置图标](/help/main/assets/icons/Setting.svg) ）。
 1. 单击 **[!UICONTROL Add Additional Pages]**。
 
-   屏幕左侧会显示一个导航栏。
+   屏幕左侧显示一个[!UICONTROL Pages]窗格。
 
-   ![multipage_nav图像](assets/multipage_nav.png)
+1. 指定页面并设置默认页面。
 
-1. 使用该导航栏指定页面并设置默认页面。
+   单击&#x200B;**[!UICONTROL Add Page]** （![添加图标](/help/main/assets/icons/Add.svg) ）以添加其他页面，指定页面名称和URL，然后单击&#x200B;**[!UICONTROL Save]**。
 
-   单击&#x200B;**[!UICONTROL Add Page]**&#x200B;可添加其他页面。
-
-   单击三个垂直省略号图标可显示“操作”菜单：
-
-   ![multipage_menu图像](assets/multipage_menu.png)
-
-   可使用此菜单重命名页面、在多页面活动中执行重定向测试，或删除页面。
-
-1. 使用可视化体验编辑器设计选件在各个页面上的外观。
+1. 使用[!UICONTROL Visual Experience Composer]设计选件在每个页面上的外观。

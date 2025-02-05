@@ -1,20 +1,20 @@
 ---
 keywords: 包含规则；包含标准；推荐；促销活动；动态筛选；动态；实体属性匹配
-description: 了解如何在Adobe [!DNL Target] Recommendations中动态筛选，方法是将一组潜在项目与用户与之交互的特定项目进行比较。
+description: 了解如何通过将潜在项目池与用户与之交互的特定项目进行比较，在 [!DNL Target Recommendations] 中动态筛选。
 title: 如何在Recommendations活动中按实体属性匹配进行筛选？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
 
 # 实体属性匹配
 
-通过比较潜在的推荐项池与用户与之交互的特定项，在[!DNL Adobe Target] [!DNL Recommendations]中动态筛选。
+通过比较潜在的推荐项池与用户与之交互的特定项，在[!DNL Adobe Target Recommendations]中动态筛选。
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 例如，只推荐与当前项目品牌相匹配的项目，如以下示例所示：
 
-如果品牌登陆页面上的mbox返回`entity.brand=brandA`，则仅返回品牌A产品并显示在该页面上。 同样，在品牌B的品牌登陆页面上，仅返回品牌B产品。 对于这种类型的动态包含规则，用户只需指定一个推荐规则即可返回所有品牌页面上的相关品牌结果，而无需指定一个收藏集或静态过滤器来匹配每个品牌名称。
+如果品牌登陆页面上的mbox返回`entity.brand=brandA`，则仅返回品牌A产品并显示在该页面上。 同样，在品牌B的品牌登陆页面上，仅返回品牌B产品。 对于这种类型的动态包含规则，用户只需指定一个推荐规则即可返回所有品牌页面上的相关品牌结果，而无需指定收藏集或静态过滤器来匹配每个品牌名称。
 
-请注意，您必须在这些登陆页面的mbox中交付`entity.brand`，此操作才能正常工作。
+请注意，您必须在这些登陆页面的mbox中交付`entity.brand`，此流程才能正常工作。
 
 ## 实体属性匹配示例
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 假设您是一家服装零售商，并且希望鼓励用户考虑定价较高，因此利润率较高的商品。 您可以使用“等于”和“介于”运算符来促销来自同一类别和同一品牌的更贵的商品。 例如，鞋类零售商可以促销更昂贵的跑鞋，以便向查看跑鞋的访客追加销售，如下面的示例所示：
 
-![追加销售](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
+![追加销售](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 
 ```
 Entity Attribute Matching
@@ -75,7 +75,8 @@ value - is between - 100% and 1000% of - current item's - value
 
 您可以混合使用动态和静态筛选器来促销专用标签产品。 例如，一家办公室供应公司可以推广公司自有品牌的碳粉盒，以便让看碳粉的访客获得更有利可图的销售，还可以推广公司自有品牌的笔，让看笔的访客获得更有利可图的销售，如以下示例所示：
 
-![家庭品牌](/help/main/c-recommendations/c-algorithms/assets/housebrand.png)
+![家庭品牌](/help/main/c-recommendations/c-algorithms/assets/housebrand-new.png)
+)
 
 ```
 Entity Attribute Matching

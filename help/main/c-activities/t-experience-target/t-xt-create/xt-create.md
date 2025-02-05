@@ -4,10 +4,10 @@ description: 了解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Visual Exp
 title: 如何创建[!UICONTROL Experience Targeting]活动？
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 4faafcef38d02674072d8b20ae03d3e2ef2115d6
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 38%
+source-wordcount: '389'
+ht-degree: 33%
 
 ---
 
@@ -25,21 +25,19 @@ ht-degree: 38%
 
 1. 从[!UICONTROL Activities]列表中，单击&#x200B;**[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**。
 
-   ![“创建活动”>“体验定位”](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
-
    >[!NOTE]
    >
    >可用的活动类型取决于您的 [!DNL Target] 帐户。有些活动类型可能不会显示在列表中。例如，[!UICONTROL Automated Personalization]是[Target Premium功能](/help/main/c-intro/intro.md#premium)。
    >
    >有关 [!DNL Target] 中可用的各种活动类型及其差异的更多信息，请参阅[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)，以帮助您确定最符合自己需求的活动类型。
 
-1. 根据需要选择&#x200B;**[!UICONTROL Visual (Default)]**。
+1. 根据需要选择&#x200B;**[!UICONTROL Visual]**。
 
    如果您希望使用[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)，请选择[!UICONTROL Form]。
 
    >[!NOTE]
    >
-   >除了VEC和[!UICONTROL Form-Based Experience Composer]之外，[!DNL Target]还提供单页应用程序VEC。 有关各种编辑器的更多信息，请参阅[体验和选件](/help/main/c-experiences/experiences.md)。
+   >除了VEC和[!UICONTROL Form-Based Experience Composer]之外，[!DNL Target]还提供单页应用程序VEC。 有关各种编辑器的更多信息，请参阅[体验和产品建议](/help/main/c-experiences/experiences.md)。
    >
    >有关VEC的故障诊断信息，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
@@ -53,11 +51,7 @@ ht-degree: 38%
 
    此时会打开 VEC，其中显示了在 URL 中指定的页面。
 
-   ![VEC 中的体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
-
-1. 在提供的空白处键入该活动的名称。
-
-   ![名称字段](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
+1. 单击&#x200B;**[!UICONTROL Rename]**&#x200B;图标（![重命名图标](/help/main/assets/icons/MoreSmallListVert.svg)），单击&#x200B;**[!UICONTROL Rename]**，指定活动的名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
    活动名称不能以下列任何字符开头：
 

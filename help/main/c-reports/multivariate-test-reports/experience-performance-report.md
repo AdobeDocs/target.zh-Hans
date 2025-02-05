@@ -4,26 +4,24 @@ description: 了解如何将Experience Performance报表用于Adobe [!DNL Target
 title: 如何将体验性能报表用于多变量测试？
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 81%
+source-wordcount: '326'
+ht-degree: 75%
 
 ---
 
-# 体验性能报表 (MVT)
+# [!UICONTROL Experience Performance]报表(MVT)
 
-“体验性能”报表显示了活动中每个体验的表现。此报表包含有关参加者数量、转化率、提升度和置信度的信息。
+[!UICONTROL Experience Performance]报表显示活动中每个体验的执行情况。 此报表包含有关参加者数量、转化率、提升度和置信度的信息。
 
 您可以选择一个或多个体验来进行比较。单击某个体验，然后选择&#x200B;**[!UICONTROL Preview]**&#x200B;以在浏览器选项卡中打开该体验。
-
-Adobe Target中的![体验性能报表](/help/main/c-reports/assets/experienceperformancetable.png)
 
 报表顶部显示了报表中使用的量度、开始和结束日期以及受众。您可以对所有这些元素进行更改。
 
 >[!NOTE]
 >
->只有在使用 Analytics 作为报表源时，才会提供受众和量度选取器。
+>只有使用[!DNL Analytics]作为报表源时，受众和量度选取器才可用。
 
 另外还有一个折线图，其中显示了各个体验在特定时间间隔的比较情况。通过此图，您可以了解各个体验的执行情况，以及时间对性能的影响。
 

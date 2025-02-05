@@ -1,20 +1,20 @@
 ---
 keywords: 标准序列；多个标准；算法；标准；推荐标准；序列；限制返回的项目数；槽级控制；槽
-description: 了解如何设置最多包含五个条件的序列，以便更好地控制Adobe [!DNL Target] Recommendations活动中显示的项目。
+description: 了解如何设置最多包含五个标准的序列，以便更好地控制Recommendations活动中显示的项目。
 title: 如何在Recommendations中创建标准序列？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 23%
+source-wordcount: '751'
+ht-degree: 18%
 
 ---
 
 # 创建标准序列
 
-可使用最多包含五个条件的序列来加强对[!UICONTROL Recommendations]活动中显示的项目的控制。 您还可以限制返回的项目数（有时称为“插槽级别控制”。）
+可使用最多包含五个条件的序列来加强对[!DNL Adobe Target] [!UICONTROL Recommendations]活动中显示的项目的控制。 您还可以限制返回的项目数（有时称为“槽级控制”）。
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 23%
 
 要创建标准序列，您必须先创建要包含到序列中的标准。有关详细信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
-在单个标准无法返回足够多的结果，从而无法填充设计的情况下，通过使用标准序列，您可以提供更多具有针对性的推荐，而不是使用更为宽泛的备用推荐。通常，标准序列将从可能返回较少结果的更具体定向到通常返回较多结果的更常规定向。
+在单个标准无法返回足够多的结果，从而无法填充设计的情况下，通过使用标准序列，您可以提供更多具有针对性的推荐，而不是使用更为宽泛的备用推荐。通常，标准序列会从更具体的定位（可能会返回更少的结果）到更一般的定位（通常返回更多结果）。
 
 您的标准序列可能会因页面类型的不同而有所不同，如以下示例中所示：
 
@@ -38,8 +38,8 @@ ht-degree: 23%
 可通过多种方式访问[!UICONTROL Create Criteria Sequence]屏幕。 某些屏幕选项会根据您访问该屏幕的方式而有所不同。
 
 * 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;库屏幕上，单击&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**。 您在此处创建的标准会自动设置为可用于所有 [!UICONTROL Recommendations] 活动。
-* 创建[!UICONTROL Recommendations]活动时，在选择标准屏幕中，单击&#x200B;**[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**。 您将可以选择保存新建的标准序列，以供在其他[!UICONTROL Recommendations]活动中使用。
-* 编辑[!UICONTROL Recommendations]活动时，在页面上的[!UICONTROL Recommendations Location]框中单击，然后选择&#x200B;**[!UICONTROL Change Criteria]**。 在[!UICONTROL Select Criteria]屏幕上，单击&#x200B;**[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**。 您将可以选择保存新建的标准，以供在其他 [!UICONTROL Recommendations] 活动中使用。
+* 创建[!UICONTROL Recommendations]活动时，从[!UICONTROL Select Criteria]屏幕中，单击&#x200B;**[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**。 您可以选择保存新建的标准序列，以供在其他[!UICONTROL Recommendations]活动中使用。
+* 编辑[!UICONTROL Recommendations]活动时，在页面上的[!UICONTROL Recommendations Location]框中单击，然后选择&#x200B;**[!UICONTROL Change Criteria]**。 在[!UICONTROL Select Criteria]屏幕上，单击&#x200B;**[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**。 您可以选择保存新建的标准，以供在其他[!UICONTROL Recommendations]活动中使用。
 
 以下步骤假定您使用第一个方法访问[!UICONTROL Create Criteria Sequence]屏幕： **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;库屏幕。
 
@@ -47,25 +47,17 @@ ht-degree: 23%
 
 1. 单击&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**。
 
-   ![CreateCriteriaSequence图像](assets/CreateCriteriaSequence.png)
-
 1. 在[基本信息](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)部分中填写信息。
 
-1. 在&#x200B;**[!UICONTROL Criteria Sequence]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add Criteria]**。
+1. 在&#x200B;**[!UICONTROL Criteria Sequence]**&#x200B;部分中，单击加号( + )以添加一个或多个标准序列。
 
-   序列顺序定义设计填充的顺序。 如果标准1没有足够的推荐来填充您的设计，则剩余的版块将使用标准2来填充，依此类推。
+   序列顺序定义设计填充的顺序。 如果标准1没有足够的推荐项来填充您的设计，则剩余的版块将使用标准2来填充，依此类推。
 
-   ![添加条件](/help/main/c-recommendations/c-algorithms/assets/add-criteria.png)
+1. 在[!UICONTROL Select Criteria]屏幕上，选择一个标准，然后单击&#x200B;**[!UICONTROL Save]**。
 
-1. 在[!UICONTROL Select Criteria]屏幕上，选择一个标准，然后单击&#x200B;**[!UICONTROL Add]**。
-
-   您可以使用搜索框和过滤器下拉列表来查找所需的标准。
-
-   ![选择标准](/help/main/c-recommendations/c-algorithms/assets/select-criteria.png)
+   您可以使用[!UICONTROL Search]框和筛选器选项来查找所需的条件。
 
 1. （可选）将&#x200B;**[!UICONTROL Limit the number of items returned]**&#x200B;切换开关滑动到“开”位置，然后指定项目数（介于1和50之间）。
-
-   ![限制返回的项目数切换](/help/main/c-recommendations/c-algorithms/assets/limit-number.png)
 
    为了帮助您了解[!UICONTROL Limit the number of items returned]选项（有时称为“插槽级别控制”）的值，请考虑以下用例：
 
@@ -81,18 +73,8 @@ ht-degree: 23%
 
 1. 启用[备份内容选项](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)。
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击 **[!UICONTROL Create]**。
 
-   标准序列随即会显示在“标准”列表中。
+   条件序列显示在[!UICONTROL Criteria]列表中。
 
    有关推荐逻辑选项的更多信息，请参阅[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)。
-
-## 培训视频：在Recommendations中创建标准(12:33) ![教程徽章](/help/main/assets/tutorial.png)
-
-本视频包含以下信息：
-
-* 创建标准
-* 创建标准序列
-* 上传自定义标准
-
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

@@ -4,10 +4,10 @@ description: 了解如何指定[!UICONTROL Activity URL]来确定测试中使用
 title: '[!UICONTROL Experience Targeting] (XT)活动中的[!UICONTROL Activity URL]是什么？'
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 24513d8cb39d38dcfbc74bf40961d5517cc90a4b
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 39%
+source-wordcount: '259'
+ht-degree: 38%
 
 ---
 
@@ -27,13 +27,11 @@ ht-degree: 39%
 
 1. （视情况而定）要在VEC打开后显示其他页面，请单击&#x200B;**[!UICONTROL Configure]**，选择&#x200B;**[!UICONTROL Page Delivery]**，然后在[!UICONTROL URL]字段中指定URL。
 
-   ![“页面交付”对话框](/help/main/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
-
    >[!NOTE]
    >
    >在对一个或多个体验的页面进行更改后，如果您更改了 URL，则系统将使用新页面重置体验，而且您所做的更改也会丢失。
 
-1. （视情况而定）单击&#x200B;**[!UICONTROL Add Template Rule]**&#x200B;以向活动添加更多页面或部分。
+1. （视情况而定）单击&#x200B;**[!UICONTROL Add Rule]**&#x200B;以向活动添加更多页面或部分。
 
    其他规则可以基于以下任何一项：
 

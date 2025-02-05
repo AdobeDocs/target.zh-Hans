@@ -1,12 +1,12 @@
 ---
 keywords: 多值；属性；推荐；多值；多值；多值
-description: 了解如何使用特殊的多值运算符在Adobe [!DNL Target] Recommendations中使用多值字段，例如，推荐具有多个演员的影片时。
+description: 了解如何使用特殊的多值运算符在 [!DNL Target Recommendations] 中使用多值字段。
 title: 我能否在Recommendations中使用多值属性？
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '441'
 ht-degree: 9%
 
 ---
@@ -118,7 +118,7 @@ function targetPageParams() {
 
 ### 示例：API创建从用户的收藏夹中推荐项目的标准
 
-使用多值过滤规则的标准（与所有标准一样）可以通过Adobe I/OAPI创建。 此处提供了用于创建条件的示例API调用，其中mbox参数列表`favorites`中包含实体属性`id`：
+使用多值过滤规则的标准（如所有标准）可以通过[!DNL Adobe Target] API创建。 此处提供了用于创建条件的示例API调用，其中mbox参数列表`favorites`中包含实体属性`id`：
 
 ```
 curl -X POST \
@@ -158,7 +158,7 @@ curl -X POST \
 此操作将与页面上的JavaScript配对，以传入收藏夹内容：
 
 ```
-<!-- pass in the value of mbox parameter “favorites” as JSON array -->
+<!-- pass in the value of mbox parameter "favorites" as JSON array -->
 <script type="text/javascript">
    mboxCreate('myMbox','entity.id=<key>','favorites=["a","b","c"]');
 </script>

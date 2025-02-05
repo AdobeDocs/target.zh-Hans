@@ -1,14 +1,14 @@
 ---
 keywords: 创建自定义标准;算法;标准;推荐标准;CSV;FTP;上传 CSV
 description: 了解如何上传CSV文件以在Adobe [!DNL Target] Recommendations中自定义您的推荐。
-title: 如何在Recommendations中上传自定义标准？
+title: 如何在 [!DNL Recommendations]中上传自定义标准？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 32%
+source-wordcount: '606'
+ht-degree: 33%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 32%
 
 1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**。
 
-1. 单击 **[!UICONTROL Create Criteria]**。
+1. 单击&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**。
 
 1. 在[基本信息](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)部分中填写信息。
 
-   1. 从&#x200B;**[!UICONTROL Select Algorithm]**&#x200B;类型下拉列表中，选择&#x200B;**[!UICONTROL Custom Criteria]**。
+1. 从&#x200B;**[!UICONTROL Select Algorithm Type]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Custom Criteria]**。
 
-   1. 从&#x200B;**[!UICONTROL Algorithm]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Custom Algorithm]**。
+1. 从&#x200B;**[!UICONTROL Algorithm]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Custom Algorithm]**。
 
-      >[!NOTE]
-      >
-      >上述步骤导致[!UICONTROL Upload CSV]部分显示在[!UICONTROL Create New Criteria]对话框的底部。
+   >[!NOTE]
+   >
+   >上述步骤导致[!UICONTROL Upload CSV]部分显示在[!UICONTROL Create Criteria]对话框的底部。
 
 1. （视情况而定）在[备份内容](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)部分中填写信息。
 
@@ -44,16 +44,15 @@ ht-degree: 32%
 
 1. 在&#x200B;**[!UICONTROL Upload CSV]**&#x200B;部分中，选择CSV文件的&#x200B;**[!UICONTROL Location]**。
 
-   ![上传CSV节](assets/upload-csv.png)
+要成功上传，CSV 文件的格式设置必须正确。单击&#x200B;**[!UICONTROL Download the CSV template]**&#x200B;可获取格式正确的CSV文件。
 
-   要成功上传，CSV 文件的格式设置必须正确。单击&#x200B;**[!UICONTROL Download the CSV template]**&#x200B;可获取格式正确的CSV文件。
+您可以选择以下两个位置：
 
-   您可以选择以下两个位置：
+    * **FTP：**若要从FTP服务器上传CSV文件，请选择**[!UICONTROL FTP]**，然后输入所需信息。 您可以使用SSL，SSL会使用FTPS协议安全地传输CSV文件。
+    
+    * **URL：**要通过URL上传CSV文件，请选择**[!UICONTROL URL]**，然后输入信息源URL。
 
-   * **FTP：**&#x200B;若要从FTP服务器上传CSV文件，请选择&#x200B;**[!UICONTROL FTP]**，然后输入所需信息。 您可以使用SSL，SSL会使用FTPS协议安全地传输CSV文件。
-   * **URL：**&#x200B;要通过URL上传CSV文件，请选择&#x200B;**[!UICONTROL URL]**，然后输入信息源URL。
-
-1. 单击 **[!UICONTROL Save]**。
+1. 单击 **[!UICONTROL Create]**。
 
 ## 注意事项
 
@@ -65,7 +64,7 @@ ht-degree: 32%
 
 * 自定义标准信息源每 24 小时更新一次。
 
-  您可以在[!UICONTROL Recommendations] > [!UICONTROL Criteria]页面上的每个标准卡片底部看到自定义标准上传的上传和同步状态。 编辑自定义标准时，您还可以在[!UICONTROL Edit]对话框中查看状态。
+  您可以在[!UICONTROL Recommendations] > [!UICONTROL Criteria]页面上看到每个条件的自定义条件上传的上传和同步状态。 编辑自定义标准时，您还可以在[!UICONTROL Edit]对话框中查看状态。
 
 * 无错误上载的流程应为[!UICONTROL Scheduled] > [!UICONTROL Downloading Feed File] > [!UICONTROL Importing] > [!UICONTROL Successful]。
 
@@ -79,13 +78,3 @@ ht-degree: 32%
   | 凭据错误 | 请提供服务器上某个活跃帐户的有效用户名和密码。 |
   | 未找到目录 | 请提供服务器上存在的目录。 |
   | 未找到文件 | 请提供服务器上所指示目录中存在的文件名称。 |
-
-## 培训视频：在Recommendations中创建标准(12:33) ![教程徽章](/help/main/assets/tutorial.png)
-
-本视频包含以下信息（有关上传自定义标准的详细信息从11:43开始）：
-
-* 创建标准
-* 创建标准序列
-* 上传自定义标准
-
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

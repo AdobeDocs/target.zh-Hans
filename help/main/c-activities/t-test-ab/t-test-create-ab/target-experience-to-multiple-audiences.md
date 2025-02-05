@@ -1,13 +1,13 @@
 ---
-keywords: 多个受众;体验版本;定位体验版本
-description: 了解如何在 [!DNL Adobe Target] A/B活动中将同一体验的版本定位到不同的受众。
+keywords: 多个受众;体验版本;锁定体验版本
+description: 了解如何在A/B活动中使用同一体验的版本定位不同的受众区段。
 title: 能否在A/B活动中使用多个体验版本？
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 53%
+source-wordcount: '593'
+ht-degree: 52%
 
 ---
 
@@ -33,13 +33,9 @@ ht-degree: 53%
 
    配置具有多个版本的体验时，请按照以下步骤所示，为每个版本选择相应的受众。
 
-1. 选择体验，然后单击&#x200B;**[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**。
+1. 选择体验，然后单击&#x200B;**[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**。
 
-   ![“多个受众”选项](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
-
-1. 单击&#x200B;**[!UICONTROL Add Audience]**，然后选择要定位的第一个受众。 对每个受众重复执行上述步骤。
-
-   ![exp-versions图像](assets/exp-versions.png)
+1. 单击[!UICONTROL Experience Audiences]窗格中的&#x200B;**[!UICONTROL Add Audience]**&#x200B;图标（![添加图标](/help/main/assets/icons/Add.svg)），然后选择要定位的第一个受众。 对每个受众重复执行上述步骤。
 
    如果受众尚不存在，请单击[创建受众](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)，然后对其进行设置。
 

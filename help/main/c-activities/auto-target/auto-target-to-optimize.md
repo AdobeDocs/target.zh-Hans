@@ -1,14 +1,14 @@
 ---
 keywords: 自动定位；定位；流量分配；常见问题；faq；故障诊断；故障排除
-description: 了解 [!DNL Target] 中的[!UICONTROL Auto-Target]活动如何根据客户个人资料和类似访客的行为，为每位访客提供量身定制的体验。
+description: 了解[!UICONTROL Auto-Target]活动如何根据客户配置文件和类似访客的行为，为每位访客提供量身定制的体验。
 title: 什么是[!UICONTROL Auto-Target]活动？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf
+source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
-source-wordcount: '1864'
-ht-degree: 21%
+source-wordcount: '1828'
+ht-degree: 18%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 21%
 
 使用三步引导式工作流[创建A/B活动](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)时，请在&#x200B;**[!UICONTROL Targeting]**&#x200B;页面上选择&#x200B;**[!UICONTROL Auto-Target for personalized experiences]**&#x200B;选项（步骤2）。
 
-![“自动定位以提供个性化体验”选项](/help/main/c-activities/assets/auto-target-ui-new.png)
+![流量分配方法设置](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
 通过A/B活动流程中的[!UICONTROL Auto-Target]选项，您可以利用机器学习功能，只需一次单击即可根据营销人员定义的一组体验进行个性化。 与传统A/B测试或[!UICONTROL Auto Allocate]相比，[!UICONTROL Auto-Target]旨在通过确定为每个访客显示哪个体验来实现最大程度的优化。 与目标是找到一个入选者的A/B活动不同，[!UICONTROL Auto-Target]会自动确定适用于给定访客的最佳体验。 最佳体验基于访客的个人资料和其他上下文信息，以提供高度个性化的体验。
 
@@ -52,7 +52,7 @@ ht-degree: 21%
 
   为每个建模组(AP)或体验(AT)构建来自第二组模型的流量。 对于这些模型中的每一个，都会考虑所有环境中的点击量和转化量。
 
-  无论环境如何，均使用相同的模型为请求提供服务，但多个流量应来自默认环境，以确保确定的整体入选体验与真实行为一致。
+  无论环境如何，使用相同的模型为请求提供服务。 但是，多个流量应来自默认环境，以确保标识的整体入选体验与真实世界行为一致。
 
 * 至少使用两个体验。
 
@@ -82,21 +82,21 @@ ht-degree: 21%
 
 [!UICONTROL Custom Allocation]下拉列表允许您从以下选项中进行选择：
 
-* [!UICONTROL Evaluate Personalization Algorithm]
-* [!UICONTROL Maximize Personalization Traffic]
+* [!UICONTROL Evaluate Personalization Algorithm (50/50)]
+* [!UICONTROL Maximize Personalization Traffic (90/10)]
 * [!UICONTROL Custom Allocation]
 
-![“分配目标”下拉列表](/help/main/c-activities/assets/split-new.png)
+![“分配目标”下拉列表](/help/main/c-activities/assets/split-new-ui.png)
+
+下表说明了三个选项：
 
 | 活动目标 | 建议的流量分配 | 权衡 |
 |--- |--- |--- |
-| **评估个性化算法 (50/50)**：如果您的目标是测试算法，则可以在控制和目标算法之间按 50/50 的百分比拆分访客。这种拆分可让您对提升进行最精确的评估。建议将“随机体验”用作控制。 | 按 50% 控制体验/ 50% 个性化体验进行拆分 | <ul><li>最大限度地提高控制体验和个性化体验之间提升度的准确性</li><li>具有个性化体验的访客相对较少</li></ul> |
-| **最大化Personalization流量(90/10)**：如果您的目标是创建“一直开启”的活动，则可以在控制中放入10%的访客，以确保算法有足够的数据来不断学习。 这里做出的权衡是，为了对更大比例的流量进行个性化，提升度的准确性将会降低。 无论您的目标如何，在使用特定体验作为控制时，都建议按此比例拆分流量。 | 最佳实践是使用 10% - 30% 控制体验 / 70% - 90% 个性化体验的拆分方式 | <ul><li>最大化拥有个性化体验的访客数量</li><li>最大化提升度</li><li>对于该活动具有的提升度，准确度较低</li></ul> |
+| **[!UICONTROL Evaluate Personalization Algorithm (50/50)]**：如果您的目标是测试算法，则可以在控制和目标算法之间按50/50的百分比拆分访客。 这种拆分可让您对提升进行最精确的评估。建议将“随机体验”用作控制。 | 按 50% 控制体验/ 50% 个性化体验进行拆分 | <ul><li>最大限度地提高控制体验和个性化体验之间提升度的准确性</li><li>具有个性化体验的访客相对较少</li></ul> |
+| **[!UICONTROL Maximize Personalization Traffic (90/10)]**：如果您的目标是创建“一直开启”的活动，则可以在控制中放入10%的访客，以确保算法有足够的数据来不断学习。 这里做出的权衡是，为了对更大比例的流量进行个性化，提升度的准确性将会降低。 无论您的目标如何，在使用特定体验作为控制时，都建议按此比例拆分流量。 | 最佳实践是使用 10% - 30% 控制体验 / 70% - 90% 个性化体验的拆分方式 | <ul><li>最大限度地增加具有个性化体验的访客数量</li><li>最大化提升度</li><li>对于该活动具有的提升度，准确度较低</li></ul> |
 | **自定义分配** | 根据需要手动拆分百分比。 | <ul><li>您可能无法获得所需的结果。如果您不确定，请按照上述任一选项的建议进行操作</li></ul> |
 
-要调整[!UICONTROL Control]百分比，请单击[!UICONTROL Allocation]列中的图标。 您不能将控制组降至 10% 以下。
-
-![更改自动定位流量分配](/help/main/c-activities/assets/auto-target-control.png)
+要调整[!UICONTROL Control]百分比，请单击[!UICONTROL Traffic Allocation]窗格中的[!UICONTROL Experiences]，然后根据需要调整百分比。 您不能将控制组降至 10% 以下。
 
 您可以[选择特定体验作为控制](/help/main/c-activities/t-automated-personalization/experience-as-control.md)，也可以使用“随机体验”选项。
 
@@ -163,15 +163,3 @@ ht-degree: 21%
 ## 报告和[!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
 有关详细信息，请参阅[报告和自动定位](/help/main/c-activities/auto-target/reporting-and-auto-target.md)。
-
-## 培训视频：了解自动定位活动
-
-此视频介绍如何设置[!UICONTROL Auto-Target] A/B活动。
-
-完成此培训后，您应该能够：
-
-* 定义[!UICONTROL Auto-Target]测试
-* 比较[!UICONTROL Auto-Target]与[!UICONTROL Automated Personalization]
-* 创建[!UICONTROL Auto-Target]活动
-
->[!VIDEO](https://video.tv.adobe.com/v/18558)

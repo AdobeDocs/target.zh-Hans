@@ -1,84 +1,67 @@
 ---
 keywords: 受众;选择受众;选取受众;选择器
-description: 受众确定哪些网站访客进入了Adobe [!DNL Target] 活动。
+description: 根据受众条件定义哪些网站访客加入您的Adobe [!DNL Target] 活动。
 title: 如何在 [!DNL Target] A/B活动中选择受众？
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
+source-git-commit: f6845756f9d4220214b0d9131cd5f27db2ae94a9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 66%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
 # 选择受众
 
-受众可确定哪些网站访客进入了您的[!DNL Adobe Target]活动。
+受众可确定哪些符合条件的访客进入了您的[!DNL Adobe Target]活动。
 
->[!NOTE]
->
->除了选择现有受众之外，您还可以合并多个受众来创建临时组合受众，而不是创建新受众。有关更多信息，请参阅[合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
+在[创建活动](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)时，三步引导式工作流的[!UICONTROL Targeting]步骤会显示流程图，该流程图将引导您完成以下步骤：分配受众及其流量百分比、选择流量分配方法并为活动中的每个体验指定流量分配。
 
-1. 在[!UICONTROL Audience]框中，单击&#x200B;**[!UICONTROL Edit]**&#x200B;图标（垂直省略号），然后单击&#x200B;**[!UICONTROL Replace Audience]**。
+![A/B 测试定位步骤](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
-   ![“替换受众”选项](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+有关流程图中所有选项的更多信息，请参阅[创建A/B测试活动](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)。
 
-   默认情况下，所有访客都是您的受众。但是，您可以更改受众。您可以从受众库中选择受众，也可以创建仅限该活动的受众。受众库中包含以前定义的受众，其中包括作为[!DNL Target]的一部分预先构建的一些常用受众。
+## 选择活动的受众
 
-1. 选择或创建所需受众：
+1. 单击&#x200B;**[!UICONTROL All Visitors]**&#x200B;控件为该活动选择其他受众。
 
-   * 从库中选择受众
-   * [合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
-   * [创建新受众](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
-   * [创建仅限该活动的受众](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
+   [!UICONTROL All Visitors]受众设置为默认受众。 如果选择其他受众，则其名称将显示在最左侧的控件中。
 
    对于没有特定受众定位的A/B测试，请选择默认值[!UICONTROL All Visitors]。
 
-   您还可以通过在[!UICONTROL Add Audience]对话框中将鼠标悬停在所需受众上来编辑或复制受众，如下所示。
+   此时将显示正确的框架，您可以在其中添加或删除受众，并分配活动的访客百分比。
 
-   如果您想要创建一个与现有受众类似的受众，则复制受众很有用。您可以制作受众的副本，对其进行编辑，然后将其另存为新受众。其他类型的活动中也提供了这一鼠标悬停功能。
+1. 要更改受众，请单击右框架中的&#x200B;**[!UICONTROL Replace]图标** （ ![替换图标](/help/main/assets/icons/Retweet.svg) ）。
 
-   ![受众悬停](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+1. 在[!UICONTROL Add Audience]对话框中，[选择所需的受众](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，然后单击&#x200B;**[!UICONTROL Assign Audience]**。
 
-   在创建受众时，您可以选择一个位置 (mbox) 并指定该位置的参数。在[!UICONTROL Custom Parameters]下，选择mbox，然后指定所需的参数。
+   默认情况下，所有访客都是您的受众。但是，您可以更改受众。从[!UICONTROL Audience Library]中选择受众，或者您可以创建仅限该活动的受众。 [!UICONTROL Audience Library]包含以前定义的受众，包括一些作为[!DNL Target]的一部分预先构建的通用受众。
 
-   >[!NOTE]
-   >
-   >打开受众列表时会在后台自动导入受众，导入的受众为 10 分钟之前的受众。
+1. （视情况而定）单击&#x200B;**合并受众**&#x200B;以[创建合并多个受众的受众](/help/main/c-target/combining-multiple-audiences.md)。
 
-1. （视情况而定）指定要包含在活动中的符合条件的访客所占的百分比。
+1. （视情况而定）要创建不在[!UICONTROL Audience Library]中的新受众，请单击&#x200B;**创建受众**，定义受众，然后单击&#x200B;**[!UICONTROL Done]**。
 
-   例如，您可以选择将所有访客中 50% 的访客包含在活动中。
+   在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
 
-   ![受众百分比](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   * **[!UICONTROL Audience Library]**：创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用。
+   * **[!UICONTROL This activity only]**：创建未保存到[!UICONTROL Audience Library]的[活动特定受众](/help/main/c-target/creating-activity-only-audience.md)，该受众只能用于当前活动。
 
-   您还可以选择让 Target [自动分配流量](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
+1. 单击右侧窗格中的&#x200B;**[!UICONTROL Visitor Percentage]**，然后指定要包含在活动中的符合条件的访客的百分比。
 
-## 培训视频
+1. 如果您对受众感到满意，请单击&#x200B;**[!UICONTROL Next]**&#x200B;以进入三步引导式工作流的第三步。
 
-以下视频包含有关本文中所讨论概念的详细信息。
+>[!NOTE]
+>
+>打开[!UICONTROL Audience]列表时会在后台自动导入受众，导入的受众为10分钟之前的受众。
 
-### 在 Adobe Target 中使用受众（6 分 21 秒）![概述徽章](/help/main/assets/overview.png)
+## 查看受众的信息
 
-以下视频介绍了如何在 [!DNL Target Standard/Premium] 中使用受众。
+1. 在[!UICONTROL Add Audiences]对话框中，单击受众旁边的&#x200B;**[!UICONTROL Information]**&#x200B;图标（![信息图标](/help/main/assets/icons/InfoOutline.svg)）以查看有关该受众的详细信息，包括其源和属性。
 
-* 解释术语“受众”
-* 介绍使用受众进行优化的两种方式
-* 在“受众”列表中查找受众
-* 将活动定位到受众
-* 在活动中使用受众进行被动报告
+1. 单击&#x200B;**[!UICONTROL View Full Details]**&#x200B;可查看有关受众的其他详细信息。 详细信息包括受众的属性；受众的描述、工作区、类型和源；以及引用此受众的活动列表。 您可以查看有关每个受众的信息，包括活动名称、状态、工作区、上次修改受众的时间以及修改者。
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+## 编辑或复制受众
 
-### 活动工作流 — 定位(2:14) ![教程徽章](/help/main/assets/tutorial.png)
+您可以编辑或复制受众，方法是在[!UICONTROL Add Audience]对话框中单击所需受众旁边的[!UICONTROL More Actions]图标（![更多操作图标](/help/main/assets/icons/More.svg)），然后单击[!UICONTROL Edit]或[!UICONTROL Copy]。
 
-以下视频包含有关设置受众的信息。
-
-* 为活动分配受众
-* 增加或减少流量
-* 选择流量分配方法
-* 在不同的体验之间分配流量
-
->[!VIDEO](https://video.tv.adobe.com/v/17385)
-
-有关详细信息，请参阅[受众](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
+如果您想要创建一个与现有受众类似的受众，则复制受众很有用。您可以制作受众的副本、进行编辑，然后将其另存为新受众。

@@ -5,16 +5,16 @@ title: 如何在Recommendations活动中按静态值筛选？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 45%
 
 ---
 
-# 静态筛选
+# [!UICONTROL Static Filter]
 
-使用[!DNL Adobe Target] [!DNL Recommendations]中的包含规则手动输入一个或多个要过滤的静态值。
+使用[!DNL Adobe Target Recommendations]中的包含规则手动输入一个或多个要过滤的静态值。
 
 例如，只推荐美国电影协会(MPA)评级为“G”或“PG”的内容。
 
@@ -26,6 +26,4 @@ ht-degree: 45%
 
 ## 推荐分级为G或PG的内容
 
-要使用静态值创建包含规则，以仅推荐MPA评级为“G”或“PG”的内容（不包括“R”和“NC17”内容），您可以创建以下过滤规则：“电影评级等于g评级”和“电影评级等于pg评级”，如下所示。
-
-![电影分级示例](/help/main/c-recommendations/c-algorithms/assets/movies.png)
+要使用静态值创建包含规则，以仅推荐MPA评级为“G”或“PG”的内容（不包括“R”和“NC17”内容），您可以创建以下过滤规则：“电影评级等于任何g评级”和“电影评级等于任何pg评级”。

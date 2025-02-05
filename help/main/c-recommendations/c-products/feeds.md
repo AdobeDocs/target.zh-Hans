@@ -1,28 +1,28 @@
 ---
 keywords: 推荐信息源；信息源；SAINT；ftp；csv；分类；analytics分类
-description: 了解信息源如何使用CSV文件、Google Product Search信息源格式和 [!DNL Analytics] 产品分类将实体导入 [!DNL Adobe Target] [!DNL Recommendations]。
+description: 了解信息源如何使用CSV文件、 [!DNL Google Product Search] 信息源格式和 [!DNL Analytics] 产品分类将实体导入 [!DNL Adobe Target] [!DNL Recommendations]。
 title: 如何在 [!DNL Target Recommendations]中使用[!UICONTROL Feeds]？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: a0cf6d497fc5b9a04888d0c6597c98bbbb639cbe
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '2463'
-ht-degree: 45%
+source-wordcount: '2417'
+ht-degree: 38%
 
 ---
 
 # 信息源
 
-使用信息源将实体导入到[!DNL Adobe Target] [!DNL Recommendations]中。 可以使用CSV文件、Google Product Search信息源格式和[!DNL Adobe Analytics]产品分类发送实体。
+使用信息源将实体导入到[!DNL Adobe Target] [!DNL Recommendations]中。 可以使用CSV文件、[!DNL Google Product Search]信息源格式和[!DNL Adobe Analytics]产品分类来发送实体。
 
 ## 信息源概述 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-信息源允许您传递[实体](/help/main/c-recommendations/c-products/products.md)，或者使用页面上没有提供或不能直接从页面安全发送（如利润、COGS等）的信息来扩充您的mbox数据。
+馈送允许您传递[实体](/help/main/c-recommendations/c-products/products.md)，或者使用页面上没有提供或不能直接从页面安全发送的信息来扩充您的mbox数据。 例如，利润、销货成本(COGS)等。
 
-信息源允许您将详细的项目信息传递到[!DNL Recommendations]，例如产品ID、类别、名称、消息和其他属性。
+信息源还允许您将详细的项目信息传递到[!DNL Recommendations]，例如产品ID、类别、名称、消息和其他属性。
 
-您可以从[!DNL Target]产品分类文件或Google Product Search文件中选择要发送到[!DNL Recommendations]服务器的列。
+您可以从[!DNL Target]产品分类文件或[!DNL Google Product Search]文件中选择要发送到[!DNL Recommendations]服务器的列。
 
 然后，有关每个项目的这些数据段可用于：
 
@@ -31,24 +31,24 @@ ht-degree: 45%
 * 将项目排序为不同的收藏集
 * 将排除项应用于推荐
 
-可使用信息源或mbox将项目描述传递到[!DNL Target]。 如果同时通过实体源和 mbox 收集数据，则采用最新的数据。通常，最新的数据来自 mbox，因为 mbox 的查看频率更高。在极少数情况下，实体源数据和 mbox 数据的时间相同，这时使用 mbox 数据。
+可使用信息源或mbox将项目描述传递到[!DNL Target]。 如果[!DNL Target]同时使用实体馈送和mbox收集数据，则最新数据将获胜。 通常，最新的数据来自 mbox，因为 mbox 的查看频率更高。在极少数情况下，实体源数据和 mbox 数据的时间相同，这时使用 mbox 数据。
 
 [!UICONTROL Feeds]列表(**[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**)提供了有关您创建的任何馈送的信息。
-
-![“信息源”页面](/help/main/c-recommendations/c-products/assets/feeds-page.png)
 
 [!UICONTROL Feeds]页包含以下列：
 
 * **名称**：创建过程中指定的信息源的名称。要编辑信息源的名称，您必须编辑信息源本身。使用新名称保存馈送时，将刷新馈送。
-* **类型**：类型包括 [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、[Google 产品信息源](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)和 [Analytics 分类](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)。
 * **状态**：信息源的当前[状态](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)。
-* **计划**：显示信息源的更新计划： [!UICONTROL Daily]、[!UICONTROL Weekly]、[!DNL Every 2 Weeks]或[!UICONTROL Never]。
+* **类型**：类型包括[CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA)、[[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)和[Analytics分类](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)。
 * **项目**：显示信息源中的项目数。
-* **上次更新**：显示上次更新信息源的日期和时间，以及更新信息源的人员姓名。如果[!UICONTROL Last Updated]信息源显示为“未定义”，则表示该信息源来自[!DNL Recommendations Classic]，不能在[!DNL Target Premium Recommendations]内进行更改。
+* **计划**：显示信息源的更新计划： [!UICONTROL Daily]、[!UICONTROL Weekly]、[!DNL Every 2 Weeks]或[!UICONTROL Never]。
+* **上次更新时间**：显示上次更新信息源的日期和时间，以及更新信息源的人员姓名。
 
-单击信息图标可显示一个卡片，其中显示上次上传日期和馈送的URL。
+单击[!UICONTROL Customize Table]图标（![自定义表格图标](/help/main/assets/icons/ColumnSetting.svg)）以选择或取消选择要显示的列。
 
-单击省略号图标可访问以下操作： [!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy]和[!UICONTROL Delete]。
+单击[!UICONTROL Information]图标（![信息图标](/help/main/assets/icons/InfoOutline.svg)）可显示显示上次上传日期和信息源URL的卡片。
+
+单击[!UICONTROL More Actions]图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg) ）可访问以下操作： [!UICONTROL Deactivate]、[!DNL Edit]、[!UICONTROL Copy]和[!UICONTROL Delete]。
 
 >[!IMPORTANT]
 >
@@ -59,13 +59,13 @@ ht-degree: 45%
 
 ## Source类型
 
-可以使用CSV文件、Google Product Search信息源格式和[!DNL Adobe Analytics]产品分类发送实体。
+可以使用CSV文件、[!DNL Google Product Search]信息源格式和[!DNL Adobe Analytics]产品分类来发送实体。
 
 ### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
 您可以使用[!DNL Adobe]专有的CSV上传格式创建.csv文件。 该文件包含有关产品的保留属性和自定义属性的显示信息。要上传特定于您的实施的属性，请将标头行中的 `CustomN` 替换为您要使用的属性的名称。在下面的示例中，`entity.Custom1` 被替换为 `entity.availability`。然后，您可以将文件批量上传到 [!DNL Recommendations] 服务器。
 
-与 Google 信息源格式相比，使用 .csv 格式具有以下优势：
+与[!DNL Google]信息源格式相比，使用.csv格式具有以下优势：
 
 * .csv格式不需要字段映射。
 * .csv格式支持多值属性（请参阅下面的示例）。
@@ -93,7 +93,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->无法使用空白值覆盖现有值。在其位置传递另一个值以覆盖它。 对于售价，一种常见解决方案是传入实际的“NULL”或某种其他消息。 然后，可以写入一个模板规则，以排除具有该值的项目。
+>无法使用空白值覆盖现有值。在其位置传递另一个值以覆盖现有值。 对于售价，一种常见解决方案是传入实际的“NULL”或某种其他消息。 然后，可以写入一个模板规则，以排除具有该值的项目。
 
 成功上传产品实体约两个小时后，产品将显示在管理界面中。
 
@@ -111,31 +111,31 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-### Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-Google Product Search 信息源类型使用 Google 格式。这与[!DNL Adobe]专有的CSV上传格式不同。
+[!DNL Google Product Search]馈送类型使用[!DNL Google]格式。 这与[!DNL Adobe]专有的CSV上传格式不同。
 
-如果您已有 Google 产品信息源，则可以将其用作导入文件。
-
->[!NOTE]
->
->无需使用 Google 数据。[!DNL Recommendations]使用与Google相同的格式。 您可以使用此方法上传您的任何数据，并且还可以使用可用的计划功能。但是，您必须在设置文件时保留 Google 的预定义属性名称。
-
-大多数零售商会将产品上传到Google，这样当访客使用Google产品搜索时，将会显示其产品。 [!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。实体源可以通过.xml、.txt或.tsv发送到[!DNL Recommendations]，并且可以使用Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定义的[属性。 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
+如果您现有[!DNL Google Product Feed]，则可以将其用作导入文件。
 
 >[!NOTE]
 >
->托管 Google 信息源内容的服务器上必须可以使用 POST 方法。
+>不需要使用[!DNL Google]数据。 [!DNL Recommendations]使用与[!DNL Google]相同的格式。 您可以使用此方法上传您的任何数据，并且还可以使用可用的计划功能。但是，在设置文件时，必须保留[!DNL Google]预定义属性名称。
 
-由于[!DNL Recommendations]用户已将.xml或.txt源配置为通过URL或FTP发送到Google，因此实体源将接受该产品数据并使用这些数据构建Recommendations目录。 指定此信息源存在的位置后，推荐服务器随即会检索数据。
+大多数零售商会将产品上传到[!DNL Google]，因此当访客使用[!DNL Google]产品搜索时，会显示其产品。 [!DNL Recommendations]完全遵循实体源的[!DNL Google]规范。 实体源可以通过.xml、.txt或.tsv发送到[!DNL Recommendations]，并且可以使用Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定义的[属性。 结果可在[[!DNL Google] 购物页面](https://www.google.com/prdhp)上搜索。
 
-如果您使用Google Product Search来上传实体信息源，并且想要在其中显示推荐或根据查看次数跟踪算法交付的产品查看次数，则仍必须在页面上具有产品页面mbox。
+>[!NOTE]
+>
+>托管[!DNL Google]信息源内容的服务器上必须允许使用POST方法。
 
-Google 信息源不支持自定义属性具有多个值。
+由于[!DNL Recommendations]用户已将.xml或.txt源配置为通过URL或FTP发送到[!DNL Google]，因此实体源将接受该产品数据并使用这些数据构建Recommendations目录。 指定此信息源存在的位置后，推荐服务器随即会检索数据。
+
+如果您使用[!DNL Google Product Search]上传实体信息源，并且想要在其中显示推荐或基于查看次数跟踪算法交付的产品查看次数，则仍必须在页面上具有产品页面mbox。
+
+[!DNL Google]信息源不支持自定义属性的多个值。
 
 馈送会在您保存并激活它时运行。 它在您保存馈送时运行，然后在一小时后每天运行。
 
-以下是 Google Product Search 信息源 .xml 文件的代码示例：
+以下是[!DNL Google Product Search]源.xml文件的示例代码：
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
@@ -202,7 +202,7 @@ Google 信息源不支持自定义属性具有多个值。
 </feed> 
 ```
 
-以下是 Google Product Search 信息源 .tsv 文件的代码示例：
+以下是[!DNL Google Product Search]源.tsv文件的示例代码：
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅&#x200B;*Analytics组件*&#x200B;指南中的[关于分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
+[!DNL Adobe Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅&#x200B;*Analytics组件*&#x200B;指南中的[关于分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
 
 >[!IMPORTANT]
 >
@@ -227,9 +227,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 可创建一个信息源，以将有关产品或服务的信息插入到 [!DNL Recommendations] 中。
 
-1. 在Target界面中，单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**。
-
-   ![“创建信息源”对话框](assets/CreateFeed.png)
+1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**。
 
 1. 为您的信息源指定一个描述性名称。
 1. 选择&#x200B;**[!UICONTROL Source Type]**。
@@ -257,8 +255,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;箭头以显示[!UICONTROL Schedule]选项。
 
-   ![步骤结果](assets/CreateFeedSchedule.png)
-
 1. 选择一个更新选项：
 
    * [!UICONTROL Daily]
@@ -272,15 +268,13 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;箭头以显示[!UICONTROL Mapping]选项，然后指定您希望如何将数据映射到[!DNL Target]定义。
 
-   ![步骤结果](assets/CreatFeedMapping.png)
-
 1. （可选）如果您希望信息源属于某个环境（主机组），请选择该主机组。
 
    默认情况下，信息源属于所有主机组。这可确保此信息源中的项目可在任何环境中使用。有关更多信息，请参阅[主机](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)。
 
 1. 单击 **[!UICONTROL Save]**。
 
-创建或编辑信息源后，该信息源将立即运行。 然后，馈送会根据您设置的参数进行更新。 需要一些时间才能提供这些信息。 首先，信息源必须同步，接着必须对其进行处理并将其编入索引，然后才能对其发布并使其可供使用。当前状态显示在“信息源”列表中的[信息源状态](/help/main/c-recommendations/c-products/feeds.md#status)下。 在该过程完成之前，您可以关闭 [!DNL Target]，该过程会继续执行。
+创建或编辑信息源后，该信息源将立即运行。 然后，馈送会根据您设置的参数进行更新。 需要一些时间才能提供这些信息。 首先，信息源必须同步，接着必须对其进行处理并将其编入索引，然后才能对其发布并使其可供使用。当前状态显示在[!UICONTROL Feeds]列表中的[馈送状态](/help/main/c-recommendations/c-products/feeds.md#status)下。 在该过程完成之前，您可以关闭 [!DNL Target]，该过程会继续执行。
 
 编入索引期间，在将各个值编入索引之前，将会显示产品和信息源标头。这样，您就可以搜索并查看产品，从而在完成索引之前创建收藏集、排除项、设计和活动。
 

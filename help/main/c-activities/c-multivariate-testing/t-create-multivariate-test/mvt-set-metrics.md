@@ -4,7 +4,7 @@ description: 了解如何在 [!DNL Adobe Target] [!UICONTROL Multivariate Test]�
 title: 如何在[!UICONTROL Multivariate Test] (MVT)活动中设置目标指标？
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-source-git-commit: 6c00224e814abb33cdf968a249bd36fb2e5ed2ed
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 60%
@@ -20,7 +20,7 @@ ht-degree: 60%
 1. 指定活动目标。
 1. 选择[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![设置量度列表](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
+   ![设置量度列表](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list-new.png)
 
    [!UICONTROL Select Metrics]页列出了可为活动选择的成功量度。 这些成功量度分为以下类别：
 
@@ -41,7 +41,7 @@ ht-degree: 60%
    有关更多信息，请参阅[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
 1. （可选）添加其他量度。
-1. 完成设置量度时，请单击&#x200B;**[!UICONTROL Continue]**。
+1. 完成设置量度时，请单击&#x200B;**[!UICONTROL Save and Close]**。
 
 在命名或重命名指标时，不允许使用以下字符：
 

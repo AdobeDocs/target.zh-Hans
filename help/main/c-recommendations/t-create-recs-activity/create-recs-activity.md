@@ -1,48 +1,44 @@
 ---
 keywords: 创建推荐;推荐活动;新建推荐;推荐概述
-description: 了解如何使用Adobe [!DNL Target] 可视化体验编辑器(VEC)直接在启用了 [!DNL Target]的页面上创建Recommendations活动。
-title: 如何创建Recommendations活动？
+description: 了解如何使用 [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)创建 [!DNL Recommendations] 活动。
+title: 如何创建 [!DNL Recommendations] 活动？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 3c687b2d28f576a60951c8bb10434250104500b4
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 55%
+source-wordcount: '1176'
+ht-degree: 51%
 
 ---
 
-# 创建“推荐”活动
+# 创建[!DNL Recommendations]活动
 
-使用 Target 可视化体验编辑器 (VEC)，可直接在启用了 Target 的页面上创建“推荐”活动，并在 Target 中修改页面的各个部分。
+使用[!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)直接在启用了[!DNL Target]的页面上创建[!DNL Recommendations]活动，并在[!DNL Target]内修改页面的各个部分。
 
 1. 单击&#x200B;**[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**。
 
-1. 根据需要选择&#x200B;**[!UICONTROL Visual (Default)]**。
+1. 根据需要选择&#x200B;**[!UICONTROL Visual]**。
 
-   ![“创建‘推荐’活动”对话框](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
-
-   如果您希望使用基于表单的体验编辑器，请选择[!UICONTROL Form]。 请参阅[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)，以了解更多信息。
+   如果您希望使用[!UICONTROL Form-Based Experience Composer]，请选择[!UICONTROL Form]。 请参阅[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)，以了解更多信息。
 
    >[!NOTE]
    >
-   >除了 VEC 和基于表单的体验编辑器之外，Target 还提供单页应用程序 VEC 和适用于移动设备应用程序的 VEC。有关各种编辑器的更多信息，请参阅[体验和选件](/help/main/c-experiences/experiences.md)。
+   >除了VEC和[!UICONTROL Form-Based Experience Composer]之外，[!DNL Target]还提供[!UICONTROL Single Page Application] VEC。 有关各种编辑器的更多信息，请参阅[体验和产品建议](/help/main/c-experiences/experiences.md)。
    >
    >如需 VEC 的故障诊断信息，或者当您遇到问题时，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
-   >
-   >上图中的[!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)选项是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您看不到此选项，则表明贵组织具有Target Standard许可证。
 
-1. （视情况而定）如果您是一位 [Target Premium 客户](/help/main/c-intro/intro.md#premium)，请选择一个[工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. （视情况而定）选择[工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. 指定活动URL，然后单击&#x200B;**[!UICONTROL Next]**。
+1. 指定活动URL，然后单击&#x200B;**[!UICONTROL Create]**。
 
    >[!NOTE]
    >
    >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。因此，[!DNL `http://www.adobe.com`]和[!DNL `https://wwww.adobe.com`]都匹配。
 
-   活动 URL 是指将显示推荐的页面。
+   活动URL是显示推荐的页面。
 
-   单击[!UICONTROL Next]后，VEC将打开并显示您的页面。 您可以将当前元素替换为推荐，也可以插入推荐。
+   单击[!UICONTROL Create]后，VEC将打开并显示您的页面。 您可以将当前元素替换为推荐，也可以插入推荐。
 
 1. 单击页面上的某个元素，如果该元素所在的位置有可用推荐，请单击&#x200B;**[!UICONTROL Replace w/ Recommendations]**、**[!UICONTROL Insert Recommendations Before]**&#x200B;或&#x200B;**[!UICONTROL Insert Recommendations After]**。
 

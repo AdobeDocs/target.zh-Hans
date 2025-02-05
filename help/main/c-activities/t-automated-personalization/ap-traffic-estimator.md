@@ -1,14 +1,14 @@
 ---
 keywords: 流量估算器；自动个性化；ap；估算流量
-description: 使用 [!DNL Adobe Target] [!UICONTROL Traffic Estimator]确定是否有足够的流量使[!UICONTROL Automated Personalization]活动成功。
+description: 使用[!UICONTROL Traffic Estimator]评估您是否有足够的流量使[!UICONTROL Automated Personalization]活动取得成功。
 title: 成功的[!UICONTROL Automated Personalization]活动需要多少流量？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 10%
+source-wordcount: '721'
+ht-degree: 9%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 10%
 
 ## 使用流量估算器
 
-1. 从[!UICONTROL Automated Personalization]活动中[!UICONTROL Visual Experience Composer]的[!UICONTROL Experiences]页面，单击&#x200B;**[!UICONTROL Traffic]**&#x200B;图标。
+1. 从[!UICONTROL Automated Personalization]活动中[!UICONTROL Visual Experience Composer]的[!UICONTROL Experiences]页面，单击[!UICONTROL Experiences]页面左上角的&#x200B;**[!UICONTROL Traffic]**&#x200B;图标（ ![流量估算器图标](/help/main/assets/icons/Gauge2.svg)）。
 
-   ![“流量”图标](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
+   将打开[!UICONTROL Traffic Estimator]。
 
-   将打开[!UICONTROL Traffic Estimator]。 您可以再次单击&#x200B;**[!UICONTROL Traffic]**&#x200B;以隐藏[!UICONTROL Traffic Estimator]。
+   ![流量估算器用户界面](assets/ap-est.png)
 
-   ![流量估算器用户界面](assets/ap_est.png)
+   您可以再次单击该图标以隐藏[!UICONTROL Traffic Estimator]。
 
 1. 指定典型转化率（或此活动的预期转化率）、预计每日活动展示次数和测试持续时间。
 
@@ -45,19 +45,19 @@ ht-degree: 10%
 
    在[!UICONTROL Traffic Estimator]顶部附近，计算您输入的值并显示结果。
 
-   ![显示值和结果的流量预估](assets/ap_est_no.png)
+   ![显示值和结果的流量预估](assets/ap-est-no.png)
 
    当您更改这些数字时，估算的结果也会相应改变。例如，如果您要测试多个组合，而您的转化率和展示次数太低，则[!UICONTROL Traffic Estimator]会显示测试成功必须运行多久。 或者，如果您的流量较低，则[!UICONTROL Traffic Estimator]可以建议较低的选件组合数量，以便您可以在所需的天数内运行测试。
 
    如果流量不足，请考虑以下事项：
 
-   * 考虑使用[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活动而不是[!UICONTROL Automated Personalization]创建在一个体验变量中进行多项选件更改的体验。
+   * 考虑使用[[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活动而不是[!UICONTROL Automated Personalization]创建体验，以便在一个体验变量中进行多次选件更改。
    * 减少[!UICONTROL Automated Personalization]活动中的选件组合数量。
    * 延长活动持续时间。
 
    调整这些数字，直到[!UICONTROL Traffic Estimator]指示您具有足够的流量，然后相应地设计测试。
 
-   ![流量估算器显示足够的流量消息](assets/ap_est_yes.png)
+   ![流量估算器显示足够的流量消息](assets/ap-est-yes.png)
 
    如果流量足够，[!UICONTROL Traffic]图标会显示绿色复选标记。 如果流量不足，该图标会显示一个红色警告标签。
 

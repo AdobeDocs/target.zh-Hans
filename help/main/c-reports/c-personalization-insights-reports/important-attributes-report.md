@@ -5,9 +5,9 @@ title: 重要属性报表是什么？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1773'
 ht-degree: 56%
 
 ---
@@ -36,25 +36,20 @@ ht-degree: 56%
 
 1. 单击&#x200B;**[!UICONTROL Activities]**，然后从列表中单击所需的[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)或[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活动。
 
-   如果您有许多活动，可以通过从[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]和[!UICONTROL Activity Source]下拉列表中选择相应选项来筛选列表。
+   如果您有许多活动，请单击“筛选器”（![筛选器图标](/help/main/assets/icons/Filter.svg)）图标以通过从[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]和[!UICONTROL Activity Source]下拉列表中选择选项来筛选列表。
 
 1. 单击 **[!UICONTROL Reports]**。
 
-   将显示[Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md)或[自动定位摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)报告，其中提供了有关活动性能的信息，这些信息由第一个屏幕图标表示。 两个附加图标表示两个[!UICONTROL Personalization Insights]报告： [!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]。
+   将显示[Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md)或[自动定位摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)报告，其中提供了有关活动性能的信息，这些信息由第一个屏幕图标表示。 另外两个图标表示两个[!UICONTROL Personalization Insights]报表： **[!UICONTROL Automated Segments]** （![自动化区段报表](/help/main/assets/icons/AutomatedSegment.svg) ）和&#x200B;**[!UICONTROL Important Attributes]** （![重要属性图标](/help/main/assets/icons/ViewList.svg) ）。
 
-   ![Automated Personalization活动的摘要报告](/help/main/c-reports/assets/summary-report-ap.png)
 
    请注意，[!UICONTROL Auto-Target]具有用于[!UICONTROL Summary]报告的图形视图的附加图形图标。
-
-   ![自动定位活动的摘要报告](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
    >[!UICONTROL Important Attributes]报表只有在您激活活动至少15天后才能使用。 在此初始期间，您将无法访问此报表或单击[!UICONTROL Important Attributes]图标。 15天过后，假定您的活动中有足够的个性化流量，即可使用[!UICONTROL Important Attributes]报表。
 
-1. 激活活动15天后，单击&#x200B;**[!UICONTROL Important Attributes]**&#x200B;图标。
-
-   Adobe Target报表中的![重要属性图标](/help/main/c-reports/assets/model_attribute_ranking.png)
+1. 激活活动15天后，单击&#x200B;**[!UICONTROL Important Attributes]** （ ![重要属性图标](/help/main/assets/icons/ViewList.svg) ）图标。
 
 1. 选择所需的日期范围。
 
@@ -62,17 +57,11 @@ ht-degree: 56%
 
    这些固定的日期范围允许[!UICONTROL Personalization Insights]使用足够大的数据范围，以降低您从活动中的短期模式获取见解的可能性。 您可以决定日期范围的“结束日期”和“持续时间”。您会注意到“开始”显示为灰色。开始日期会根据您选择的结束日期和持续时间自动进行更改。
 
-   ![Adobe Target报告中的日历](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
-
-   您可以从[!UICONTROL Choose Duration]下拉列表中访问可用的固定日期范围。
-
-   ![选择报告中的“持续时间”下拉列表](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   您可以从[!UICONTROL Preset Date Range]下拉列表中访问可用的固定日期范围。
 
 1. 查看[!UICONTROL Important Attributes]报表数据。
 
-   Adobe Target中的![重要属性报表](/help/main/c-reports/assets/model_attribute_ranking_report.png)
-
-1. （可选）[以 CSV 格式下载报表](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)，以便在 Excel 和其他工具中进行分析。
+1. （可选）单击“下载”（![下载图标](/help/main/assets/icons/Download.svg)）图标可[以CSV格式下载报表](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)，以便在Excel和其他工具中进行分析。
 
    >[!NOTE]
    >
@@ -133,15 +122,15 @@ Personalization分析报表（[!UICONTROL Automated Segments]和[!UICONTROL Impo
 
 ### 为什么在特定自动化区段中一些转化率较低的选件/体验接收的流量比其他选件/体验多？
 
-在自动化区段中，您可能会看到转化率较低的选件/体验获得的访问次数更多，其潜在原因有多个，具体包括：
+在自动化区段中，您可能会看到转化率较低的产品建议/体验获得的访问次数更多，其潜在原因有多个，具体包括：
 
-* 对特定自动化区段的部分或全部选件/体验的查看次数较少。
-* 存在容量较低的活动，在这些活动中某些选件或体验没有构建模型。
-* 存在容量较低的活动，在这些活动中一些选件/体验的模型构建速度快于其他选件/体验。例如，假设附加模型是在第 22 天构建的，而您查看的是第 10 天至第 24 天的数据。
-* 针对特定选件的定位规则限制了哪些访客可以查看哪些选件/体验。
+* 对特定自动化区段的部分或全部产品建议/体验的查看次数较少。
+* 存在容量较低的活动，在这些活动中某些产品建议或体验没有构建模型。
+* 存在容量较低的活动，在这些活动中一些产品建议/体验的模型构建速度快于其他产品建议/体验。例如，假设附加模型是在第 22 天构建的，而您查看的是第 10 天至第 24 天的数据。
+* 针对特定产品建议的定位规则限制了哪些访客可以查看哪些产品建议/体验。
 * 分析报表中没有置信区间。但是，如果转化率足够接近，则模型可能会提供流量，以便提高点数，但这些数字并不具有“统计学差异”。
 
-了解模型如何提供流量很有用。系统会根据每个人的总体配置文件为其提供流量。但是，分析报表对此行为进行了归纳，以便于人们理解。因此，区段间并不互相排斥。这会导致多个区段展示此类行为，因为同一个人可以出现在多个区段中。
+了解模型如何提供流量很有用。系统会根据每个人的总体轮廓为其提供流量。但是，分析报表对此行为进行了归纳，以便于人们理解。因此，区段间并不互相排斥。这会导致多个区段展示此类行为，因为同一个人可以出现在多个区段中。
 
 ### 在Personalization Insights中，我可以采用哪些其他方法利用这些信息？
 

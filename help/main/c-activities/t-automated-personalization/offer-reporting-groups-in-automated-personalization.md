@@ -5,9 +5,9 @@ title: 我能否在[!UICONTROL Automated Personalization]活动中使用选件�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '817'
 ht-degree: 15%
 
 ---
@@ -29,30 +29,21 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->如果删除或替换特定建模组中的选件，则也会删除建模组中查看该特定选件的历史流量。换言之，删除的选件不影响[!DNL Target]个性化模型要学习的数据。
+>如果删除或替换特定建模组中的产品建议，则也会删除建模组中查看该特定产品建议的历史流量。换言之，删除的选件不影响[!DNL Target]个性化模型要学习的数据。
 
 ## 设置报表组
 
-1. 在AP活动的&#x200B;**[!UICONTROL Experiences]**&#x200B;页面上，单击&#x200B;**[!UICONTROL Manage Content]**&#x200B;图标。
-
-   ![管理内容图标](/help/main/c-reports/assets/ap_manage_content.png)
-
+1. 在AP活动的&#x200B;**[!UICONTROL Experiences]**&#x200B;页面上，单击&#x200B;**[!UICONTROL Manage Content]**&#x200B;图标（ ![管理内容图标](/help/main/assets/icons/Experience.svg)）
 1. 单击[!UICONTROL Manage Content]对话框顶部的&#x200B;**[!UICONTROL Offers]**&#x200B;选项卡。
-1. （视情况而定）将特定体验添加到报表组，方法是将鼠标悬停在所需的选件上，然后单击&#x200B;**[!UICONTROL Reporting Group]**&#x200B;文件夹图标。
+1. （视情况而定）单击所需选件的[!UICONTROL More Actions]图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg) ），然后单击&#x200B;**[!UICONTROL Reporting Group]**，将特定体验添加到报表组。
 
-   ![报表组图标](/help/main/c-reports/assets/ap_manage_content_2.png)
+1. （视情况而定）在报表组中批量添加体验，方法是选中相关体验的复选框，然后单击对话框底部的&#x200B;**[!UICONTROL Reporting Group]**。
 
-1. （视情况而定）在报表组中批量添加体验，方法是选中相关体验的复选框，然后单击对话框右上角的&#x200B;**[!UICONTROL Reporting Group]**&#x200B;文件夹图标。
-
-   ![报表组图标](/help/main/c-reports/assets/ap_manage_content_3.png)
-
-1. 要将所选选件分配给现有报表组，请选择&#x200B;**[!UICONTROL Existing]**，从下拉列表中选择所需的报表组，然后单击&#x200B;**[!UICONTROL Apply]**。
+1. 要将所选选件分配给现有报表组，请选择&#x200B;**[!UICONTROL Existing]**，从下拉列表中选择所需的报表组，然后单击&#x200B;**[!UICONTROL Confirm]**。
 
    或
 
-   要创建要将选定选件分配到的报表组，请选择&#x200B;**[!UICONTROL New]**，命名新的报表组，然后单击&#x200B;**[!UICONTROL Apply]**。
-
-   ![用于创建新报表组的新图标](/help/main/c-reports/assets/ap_reporting_groups.png)
+   要创建要将选定选件分配到的报表组，请选择&#x200B;**[!UICONTROL New]**，命名新的报表组，然后单击&#x200B;**[!UICONTROL Confirm]**。
 
 您可以使用[!UICONTROL Location]列表按位置筛选选件。 使用[!UICONTROL Report Group]列表按报表组筛选选件。 您还可以使用[!UICONTROL Report Group]列表过滤[!UICONTROL Unassigned Offers]，以便将报表组分配给当前未分配给任何报表组的选件。
 
@@ -81,5 +72,3 @@ ht-degree: 15%
    ![优惠组：控制和目标](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
 有关使用[!UICONTROL Automated Personalization]报告（包括[!UICONTROL Offer Level]报告）的信息，请参阅[Automated Personalization摘要报告](/help/main/c-reports/personalization-reports/reports-ap.md)。
-
-

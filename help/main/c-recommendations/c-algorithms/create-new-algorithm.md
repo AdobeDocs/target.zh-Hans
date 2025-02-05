@@ -1,14 +1,14 @@
 ---
 keywords: 标准；算法；垂直行业；页面类型；推荐键；推荐逻辑；数据范围；回顾窗口；行为数据源；部分设计；备用推荐；包含规则；属性权重；当前类别；自定义属性；上次购买的项目；上次查看的项目；查看次数最多的项目；最喜爱的类别；热门程度；最近查看的项目；上次购买；上次查看；最喜爱的项目；最近查看的项目；最近查看的项目；最近查看的项目
-description: 了解如何创建标准来控制Adobe Recommendations活动的内容，以显示最适合您的活动的推荐。
-title: 如何在Recommendations中创建标准？
+description: 了解如何创建条件来控制 [!DNL Recommendations] 活动的内容，以显示最适合您的活动的推荐。
+title: 如何在 [!DNL Recommendations]中创建[!UICONTROL Criteria]？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: b5fbf23e9c2dfd76565fd6287ae07df2b7df2e21
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '2694'
-ht-degree: 49%
+source-wordcount: '2554'
+ht-degree: 47%
 
 ---
 
@@ -32,8 +32,6 @@ ht-degree: 49%
 
 1. 单击&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**。
 
-   ![创建新标准](assets/CreateNewCriteria_full-new.png)
-
 1. 配置以下部分中的信息。
 
 ## [!UICONTROL Basic Information] {#info}
@@ -41,8 +39,6 @@ ht-degree: 49%
 1. 键入&#x200B;**[!UICONTROL Criteria Name]**。
 
    这是用于描述标准的“内部”名称。例如，您可能希望将标准命名为“利润最高的产品”，但是不希望公开显示此名称。请参阅下一步骤，以设置公开显示的标题。
-
-   ![基本信息部分](assets/basic-information.png)
 
 1. 为使用该标准的任意推荐键入一个要在页面上公开显示的&#x200B;**[!UICONTROL Display Title]**。
 
@@ -56,17 +52,17 @@ ht-degree: 49%
 
    | 垂直行业 | 目标 |
    |--- |--- |
-   | 零售/电子商务 | 转化促进完成购买 |
-   | 潜在客户拓展/B2B/金融服务 | 转化但不购买 |
-   | 媒体/出版 | 参与度 |
+   | [!UICONTROL Retail/Ecommerce] | 转化促进完成购买 |
+   | [!UICONTROL Lead Generation/B2B/Financial Services] | 转化但不购买 |
+   | [!UICONTROL Media/Publishing] | 参与度 |
 
-   根据您选择的垂直行业，其他标准选项将会发生相应的更改。
+   根据您选择的垂直行业，其他标准选项会发生变化。
 
 1. 选择&#x200B;**[!UICONTROL Page Type]**。
 
    您可以选择多个页面类型。
 
-   垂直行业和页面类型可一起用于对已保存的标准进行分类，从而使其更易于在其他 [!DNL Recommendations] 活动中重复使用。
+   垂直行业和页面类型可一起帮助您对保存的标准进行分类，使其更易于在其他[!DNL Recommendations]活动中重复使用。
 
 ## [!UICONTROL Recommendations Algorithm] {#rec-algo}
 
@@ -74,12 +70,12 @@ ht-degree: 49%
 
    ![推荐的算法部分](assets/recommended-algorithm.png)
 
-   | 算法类型 | 使用时间 | 可用的算法 |
-   | --- | --- | --- |
-   | [!UICONTROL Cart-Based] | 根据用户的购物车内容提供推荐。 | <ul><li>查看了这些项目，也查看了这些项目的人</li><li>查看了这些商品的人们购买了那些商品</li><li>购买了这些商品的人们也购买了这些商品</li></ul> |
-   | [!UICONTROL Popularity-Based] | 根据项目在整个网站中的整体受欢迎程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目受欢迎程度提供推荐。 | <ul><li>全网站查看的次数最多</li><li>同类中查看次数最多</li><li>按项目属性查看的次数最多</li><li>全网站最畅销商品</li><li>按类别划分的畅销商品排名</li><li>按项目属性排名的最畅销商品</li><li>按Analytics量度排名</li></ul> |
-   | [!UICONTROL Item-Based] | 根据查找的用户当前正在查看或最近查看过的项目的相似项目提供推荐。 | <ul><li>查看了这个项目，也查看了那个项目的人</li><li>查看了这个项目，但购买了那个项目的人</li><li>购买了这个项目，也购买了那个项目的人</li><li>具有相似属性的项目</li></ul> |
-   | [!UICONTROL User-Based] | 根据用户的行为提供推荐。 | <ul><li>最近查看的项目</li><li>为您推荐</li></ul> |
+   | 算法类型 | 何时使用/可用算法 |
+   | --- | --- |
+   | [!UICONTROL Cart-Based] | 根据用户的购物车内容提供推荐。 <ul><li>[!UICONTROL People Who Viewed These, Also Viewed] </li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul> |
+   | [!UICONTROL Popularity-Based] | 根据项目在整个网站中的整体受欢迎程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目受欢迎程度提供推荐。 <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul> |
+   | [!UICONTROL Item-Based] | 根据查找的用户当前正在查看或最近查看过的项目的相似项目提供推荐。 <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul> |
+   | [!UICONTROL User-Based] | 根据用户的行为提供推荐。 | <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul> |
    | [!UICONTROL Custom Criteria] | 根据您上传的自定义文件提出推荐。 | <ul><li>自定义算法</li></ul> |
 
    >[!NOTE]
@@ -92,51 +88,9 @@ ht-degree: 49%
 
 有关选择[!UICONTROL Recommendation Key]的详细信息，请参阅[使推荐基于推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 
-## [!UICONTROL Data Source] {#data-source}
-
-1. 选择所需的&#x200B;**[!UICONTROL Behavioral Data Source]**： [!UICONTROL Adobe Target]或[!UICONTROL Analytics]。
-
-   >[!NOTE]
-   >
-   >仅当您的实施使用[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)时，才会显示[!UICONTROL Behavioral Data Source]部分。
-
-   ![行为数据Source部分](assets/data-source.png)
-
-   如果您选择[!UICONTROL Analytics]，请选择所需的报表包。
-
-   如果标准使用[!DNL Adobe Analytics]作为行为数据源，则创建标准后，其可用性的时间取决于所选报表包和回顾窗口是否已用于任何其他标准，如下所述：
-
-   * **一次性报表包设置**：首次将报表包与给定数据范围回顾时间范围一起使用时，[!DNL Target Recommendations] 可能需要 2 到 7 天的时间才能从 [!DNL Analytics] 完全下载所选报表包的行为数据。此时间范围取决于[!DNL Analytics]系统负载。
-   * **使用已经可用的报表包新建或编辑标准**：在创建新标准或编辑现有标准时，如果所选报表包已经与 [!DNL Target Recommendations] 一起使用，并且其数据范围等于或小于所选的数据范围，则数据立即可用，而无需一次性设置。在这种情况下，或者如果在未修改所选报表包或数据范围的情况下对算法的设置进行编辑，则该算法将在 12 小时内运行或者重新运行。
-   * **持续的算法运行**：数据每天从 [!DNL Analytics] 流向 [!DNL Target Recommendations]。例如，对于[!UICONTROL Viewed Affinity]推荐，当用户查看产品时，产品查看跟踪调用将以近实时的方式传递到[!DNL Analytics]。 [!DNL Analytics] 数据会在第二天早些时候被推送到 [!DNL Target]，然后 [!DNL Target] 会在 12 小时内运行算法。
-
-   有关详细信息，请参阅[将Adobe Analytics与Target Recommendations结合使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
-
-1. 设置&#x200B;**[!UICONTROL Lookback Window]**&#x200B;以确定在确定要显示的推荐时所使用的可用历史用户行为数据的时间范围。 此选项适用于所有算法，但具有相似属性的项目和自定义算法除外。
-
-   ![回顾窗口滑块](assets/data-range.png)
-
-   如果您的网站拥有大量流量且行为更改频繁，请选择较短的数据范围。较短的范围可使 [!DNL Recommendations] 能够更好地响应市场和业务的变化。例如，较短的范围意味着 [!DNL Recommendations] 将在访客开始季节性购物时就检测到访客行为的变化（例如返校购物季或圣诞节），并推荐适合这些购物季的项目。
-
-   如果您没有大量数据，或访客行为不经常更改，则您可以选择较长的范围。但是，对于许多网站，较短的窗口会产生质量较高的推荐。
-
-   可用的数据范围包括：
-
-   | 回顾窗口选项 | 更新频率（悬停时显示） | 支持的算法 |
-   | --- | --- | --- |
-   | 6小时 | 算法每3-6小时运行一次， | [!UICONTROL Popularity-Based]算法（当选定的[!UICONTROL Behavioral Data Source]为[!DNL Adobe Target]时） |
-   | 一天 | 算法每12-24小时运行一次 | [!UICONTROL Popularity-Based]算法 |
-   | 两天 | 算法每12-24小时运行一次 | <ul><li>[!UICONTROL Popularity-Based]算法</li><li>[!UICONTROL Item-Based]算法</li><li>[!UICONTROL User-Based]算法</li><li>[!UICONTROL Cart-Based]算法</li></ul> |
-   | 一周 | 算法每24-48小时运行一次 | <ul><li>[!UICONTROL Popularity-Based]算法</li><li>[!UICONTROL Item-Based]算法</li><li>[!UICONTROL User-Based]算法</li><li>[!UICONTROL Cart-Based]算法</li></ul> |
-   | 两周 | 算法每24-48小时运行一次 | <ul><li>[!UICONTROL Popularity-Based]算法</li><li>[!UICONTROL Item-Based]算法</li><li>所有[!UICONTROL User-Based]算法</li><li>[!UICONTROL Cart-Based]算法</li></ul> |
-   | 一个月（30天） | 算法每24-48小时运行一次 | <ul><li>[!UICONTROL Popularity-Based]算法</li><li>[!UICONTROL Item-Based]算法</li><li>[!UICONTROL User-Based]算法</li><li>[!UICONTROL Cart-Based]算法</li></ul> |
-   | 两个月（61天） | 算法每24-48小时运行一次 | <ul><li>[!UICONTROL Popularity-Based]算法</li><li>[!UICONTROL Item-Based]算法</li><li>[!UICONTROL User-Based]算法</li><li>[!UICONTROL Cart-Based]算法</li></ul> |
-
 ## [!UICONTROL Backup Content] {#content}
 
 [!UICONTROL Backup Content]规则确定推荐项目数未填入您的[推荐设计](/help/main/c-recommendations/c-design-overview/design-overview.md)时会发生什么情况。 [!DNL Recommendations]标准可能会返回比您的设计调用更少的推荐。 例如，如果您的设计有四个项目的版块，但您的标准导致仅推荐两个项目，则可以将剩余版块留空，您可以使用备用推荐来填充额外的版块，也可以选择不显示推荐。
-
-![内容部分](assets/content.png)
 
 1. （可选）将&#x200B;**[!UICONTROL Partial Design Rendering]**&#x200B;切换开关滑动到“开”位置。
 
@@ -171,21 +125,59 @@ ht-degree: 49%
 
    有关详细信息，请参阅下面的[指定包含规则](#inclusion)。
 
+## [!UICONTROL Data Source] {#data-source}
+
+1. 选择所需的&#x200B;**[!UICONTROL Behavioral Data Source]**： [!UICONTROL Adobe Target]或[!UICONTROL Analytics]。
+
+   >[!NOTE]
+   >
+   >仅当您的实施使用[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)时，才会显示[!UICONTROL Behavioral Data Source]部分。
+
+   ![行为数据Source部分](assets/data-source.png)
+
+   如果您选择[!UICONTROL Analytics]，请选择所需的报表包。
+
+   如果标准使用[!DNL Adobe Analytics]作为行为数据源，则创建标准后，其可用性的时间取决于所选报表包和回顾窗口是否已用于任何其他标准，如下所述：
+
+   * **一次性报表包设置**：首次将报表包与给定数据范围回顾时间范围一起使用时，[!DNL Target Recommendations] 可能需要 2 到 7 天的时间才能从 [!DNL Analytics] 完全下载所选报表包的行为数据。此时间范围取决于[!DNL Analytics]系统负载。
+   * **使用已经可用的报表包新建或编辑标准**：在创建新标准或编辑现有标准时，如果所选报表包已经与 [!DNL Target Recommendations] 一起使用，并且其数据范围等于或小于所选的数据范围，则数据立即可用，而无需一次性设置。在这种情况下，或者如果在未修改所选报表包或数据范围的情况下对算法的设置进行编辑，则该算法将在 12 小时内运行或者重新运行。
+   * **持续的算法运行**：数据每天从 [!DNL Analytics] 流向 [!DNL Target Recommendations]。例如，对于[!UICONTROL Viewed Affinity]推荐，当用户查看产品时，产品查看跟踪调用将以近实时的方式传递到[!DNL Analytics]。 [!DNL Analytics] 数据会在第二天早些时候被推送到 [!DNL Target]，然后 [!DNL Target] 会在 12 小时内运行算法。
+
+   有关详细信息，请参阅[将Adobe Analytics与Target Recommendations结合使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
+
+1. 设置&#x200B;**[!UICONTROL Lookback Window]**&#x200B;以确定在确定要显示的推荐时所使用的可用历史用户行为数据的时间范围。 此选项适用于除[!UICONTROL Items with Similar Attributes]和[!UICONTROL Custom Algorithms]之外的所有算法。
+
+   ![回顾窗口滑块](assets/data-range.png)
+
+   如果您的网站拥有大量流量且行为更改频繁，请选择较短的数据范围。较短的范围可使 [!DNL Recommendations] 能够更好地响应市场和业务的变化。例如，较短的范围意味着 [!DNL Recommendations] 将在访客开始季节性购物时就检测到访客行为的变化（例如返校购物季或圣诞节），并推荐适合这些购物季的项目。
+
+   如果您没有大量数据，或访客行为不经常更改，则您可以选择较长的范围。但是，对于许多网站，较短的窗口会产生质量较高的推荐。
+
+   可用的数据范围包括：
+
+   | 回顾窗口选项 | 更新频率（悬停时显示） | 支持的算法 |
+   | --- | --- | --- |
+   | 6小时 | 算法每3-6小时运行一次， | [!UICONTROL Popularity-Based]算法（当选定的[!UICONTROL Behavioral Data Source]为[!DNL Adobe Target]时） |
+   | 一天 | 算法每12-24小时运行一次 | [!UICONTROL Popularity-Based]算法 |
+   | 两天 | 算法每12-24小时运行一次 | <ul><li>[!UICONTROL Popularity-Based]算法</li><li>[!UICONTROL Item-Based]算法</li><li>[!UICONTROL User-Based]算法</li><li>[!UICONTROL Cart-Based]算法</li></ul> |
+   | 一周 | 算法每24-48小时运行一次 | <ul><li>[!UICONTROL Popularity-Based]算法</li><li>[!UICONTROL Item-Based]算法</li><li>[!UICONTROL User-Based]算法</li><li>[!UICONTROL Cart-Based]算法</li></ul> |
+   | 两周 | 算法每24-48小时运行一次 | <ul><li>[!UICONTROL Popularity-Based]算法</li><li>[!UICONTROL Item-Based]算法</li><li>所有[!UICONTROL User-Based]算法</li><li>[!UICONTROL Cart-Based]算法</li></ul> |
+   | 一个月（30天） | 算法每24-48小时运行一次 | <ul><li>[!UICONTROL Popularity-Based]算法</li><li>[!UICONTROL Item-Based]算法</li><li>[!UICONTROL User-Based]算法</li><li>[!UICONTROL Cart-Based]算法</li></ul> |
+   | 两个月（61天） | 算法每24-48小时运行一次 | <ul><li>[!UICONTROL Popularity-Based]算法</li><li>[!UICONTROL Item-Based]算法</li><li>[!UICONTROL User-Based]算法</li><li>[!UICONTROL Cart-Based]算法</li></ul> |
+
 ## 内容相似度 {#similarity}
 
 使用[!UICONTROL Content Similarity]规则根据项目或媒体属性提出建议。
 
 >[!NOTE]
 >
->如果您选择&#x200B;**[!UICONTROL Item-Based]**/**[!UICONTROL Media with Similar Attributes]**&#x200B;作为算法类型和算法，则可以选择设置内容相似度规则。
+>如果您选择&#x200B;**[!UICONTROL Item-Based]**/**[!UICONTROL Media with Similar Attributes]**&#x200B;作为您的[!UICONTROL Algorithm Type]和[!UICONTROL Algorithm]，则可以选择设置内容相似度规则。
 
 内容相似度会比较项目属性关键字，并根据不同项目共有的关键字数量进行推荐。基于内容相似度的推荐不需要过去的数据便可交付高效的结果。
 
-使用内容相似度生成推荐对于新项目尤其有效，这些新项目不可能会显示在使用“查看了这个项目，也查看了那个项目的人”**&#x200B;以及基于过去行为的其他逻辑的推荐中。您还可以使用内容相似度为没有过去购买数据或其他历史数据的新访客生成有用的推荐。
+使用内容相似度生成推荐对新项目特别有效，使用&#x200B;*查看了这个项目，也查看了*&#x200B;以及基于过去行为的其他逻辑的推荐中不太可能出现这些项目。 您还可以使用内容相似度为没有过去购买数据或其他历史数据的新访客生成有用的推荐。
 
 选择&#x200B;**[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]**&#x200B;时，您可以选择创建规则以增加或减少特定项目属性在确定推荐中的重要性。 对于书籍等项目，您可能希望提升“流派”**、“作者”**、“系列”**&#x200B;等属性的重要性，以便推荐类似的书籍。
-
-![ContentSimilarity图像](assets/ContentSimilarity.png)
 
 由于内容相似度使用关键字来比较项目，因此某些属性（例如“消息”**&#x200B;或“描述”**）可能会在比较中引入“干扰信息”。您可以创建规则来忽略这些属性。
 
@@ -198,8 +190,6 @@ ht-degree: 49%
 ## 包含规则 {#inclusion}
 
 一些选项可帮助您缩小在推荐中显示的项目范围。您可以在创建标准或促销活动时使用包含规则。
-
-![包含规则](/help/main/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
 包含规则是可选的；但是，通过设置这些详细信息，您可以更好地控制推荐中显示的项目。配置的每个详细信息都会进一步限定显示条件。
 
@@ -224,8 +214,6 @@ ht-degree: 49%
 1. 设置您要推荐的产品的价格范围。
 1. 设置您要推荐的产品的最低库存量。
 1. 将推荐配置为仅显示满足特定条件的项目。
-
-   ![Recs_InclusionRules图像](assets/Recs_InclusionRules.png)
 
    您可以指定仅当列表中的某个属性符合或不符合一个或多个指定的条件时才包含项目。
 
@@ -255,24 +243,12 @@ ht-degree: 49%
 
    例如，完整的规则可以是“类别包含子字符串鞋子”。
 
-   ![Recs_AttributeWeighting图像](assets/Recs_AttributeWeighting.png)
-
 1. 选择要分配给规则的权重。
 
    选项介于 0 到 100 之间，增量为 25。
 
 1. 如果需要，添加其他规则。
 
-完成后，单击&#x200B;**[!UICONTROL Save]**。
+完成后，单击&#x200B;**[!UICONTROL Create]**。
 
 如果您正在创建新[!UICONTROL Recommendations]活动或编辑现有活动，则默认情况下会选中&#x200B;**[!UICONTROL Save criteria for later]**&#x200B;复选框。 如果您不想在其他活动中使用该标准，请在保存前清除该复选框。
-
-## 培训视频：在Recommendations中创建标准(12:33) ![教程徽章](/help/main/assets/tutorial.png)
-
-本视频包含以下信息：
-
-* 创建标准
-* 创建标准序列
-* 上传自定义标准
-
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

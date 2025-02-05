@@ -4,10 +4,10 @@ description: 了解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Visual Exp
 title: 如何创建[!UICONTROL Multivariate Test]？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: be118753eed999ce24d547c90ac9d195cce7e9e9
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 56%
+source-wordcount: '724'
+ht-degree: 26%
 
 ---
 
@@ -21,8 +21,6 @@ ht-degree: 56%
 
 1. 单击&#x200B;**[!UICONTROL Create Activity]** > **[!UICONTROL Multivariate Test]**。
 
-   ![创建多变量测试](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
-
    >[!NOTE]
    >
    >有关 [!DNL Target] 中可用的各种活动类型及其差异的更多信息，请参阅[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)，以帮助您确定最符合自己需求的活动类型。
@@ -31,7 +29,7 @@ ht-degree: 56%
 
 1. （视情况而定）如果您是[Target Premium](/help/main/c-intro/intro.md#premium)客户，请[选择工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-1. [为要测试的页面指定URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)，然后单击&#x200B;**[!UICONTROL Next]**。
+1. [为要测试的页面指定URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)，然后单击&#x200B;**[!UICONTROL Create]**。
 
    >[!NOTE]
    >
@@ -41,9 +39,8 @@ ht-degree: 56%
 
    将打开[!UICONTROL Visual Experience Composer]。
 
-1. 键入活动的名称。
-
-   ![活动名称字段](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
+1. 
+   1. 单击&#x200B;**[!UICONTROL Rename]**&#x200B;图标（![重命名图标](/help/main/assets/icons/MoreSmallListVert.svg)），单击&#x200B;**[!UICONTROL Rename]**，指定活动的名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
    活动名称不能以下列任何字符开头：
 
@@ -69,9 +66,7 @@ ht-degree: 56%
    | `[`” | 左方括号，双引号 |
    | &quot;`]` | 双引号，右方括号 |
 
-1. [在每个位置中创建选件](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
-
-   ![“编辑文本/HTML”对话框](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
+1. [在每个位置中创建产品建议](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
 
    您可以添加以下类型的选件：
 
@@ -81,35 +76,45 @@ ht-degree: 56%
 
 1. 单击&#x200B;**[!UICONTROL Preview]**&#x200B;以[预览您的体验](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)。
 
-   ![预览体验](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
+1. 单击&#x200B;**[!UICONTROL Show Experiences]**&#x200B;图标（![显示体验图标](/help/main/assets/icons/WebPages.svg)）以显示左侧框架中所有体验的列表。
 
-   您可以查看每个体验，并排除不希望包含在测试中的任何体验。要排除一个或多个体验，请选中所需的复选框，然后单击&#x200B;**[!UICONTROL Exclude]** 。
+1. 单击列表中的特定体验，以查看该体验。
 
-   ![排除体验](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
+1. （视情况而定）要从活动中排除一个或多个体验，请单击&#x200B;**[!UICONTROL Manage Content]**&#x200B;图标（![管理体验图标](/help/main/assets/icons/Experience.svg)）以显示[!UICONTROL Manage Experiences]对话框。
+
+1. （视情况而定）在[!UICONTROL Manage Experiences]对话框中，单击要排除的体验旁边的&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击&#x200B;**[!UICONTROL Exclude]**。
+
+   您可能会选择排除显示冲突变体的体验，或在美学上未实现平衡的体验。
+
+1. （视情况而定）要排除多个体验，请选中所需体验对应的复选框，然后单击&#x200B;**[!UICONTROL Exclude]**。
 
 1. [使用流量估算器](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)来检验测试计划的可行性。
 
-   ![流量指示器](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
-
-   下图指示活动流量不足。
-
-   ![估算器图像](assets/estimator.png)
-
-   下图指示活动流量不足。
-
-   ![估算器2图像](assets/estimator2.png)
-
 1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;前进到[!UICONTROL Targeting]页。
 
-1. 选择受众，以及您希望参加活动的符合条件的访客所占的百分比。
+   如果您使用过其他[!DNL Target]活动类型，则&#x200B;**定位**&#x200B;步骤看起来会很熟悉。 在此步骤中，您可以选择受众，并指定查看每个体验的访客百分比。
 
-   ![MVT 活动中的“定位”页面](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
+   流程图会引导您完成以下步骤：分配受众及其流量百分比，选择流量分配方法，以及指定活动中每个体验的流量分配。
+
+1. （视情况而定）单击&#x200B;**[!UICONTROL All Visitors]**&#x200B;控件以选择该活动的其他受众。
+
+   [!UICONTROL All Visitors]受众设置为默认受众。 如果选择其他受众，则其名称将显示在最左侧的控件中。
+
+   此时将显示正确的框架，您可以在其中添加或删除受众，并分配活动的访客百分比。
+
+   1. 要更改受众，请单击右框架中的&#x200B;**[!UICONTROL Replace]图标** （ ![替换图标](/help/main/assets/icons/Retweet.svg) ）。
+   1. 在[!UICONTROL Add Audience]对话框中，[选择所需的受众](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，然后单击&#x200B;**[!UICONTROL Assign Audience]**。
+
+      您可以单击&#x200B;**合并受众**&#x200B;到[创建合并多个受众的受众](/help/main/c-target/combining-multiple-audiences.md)。
+
+      如果需要创建一个不在[!UICONTROL Audience Library]中的新受众，请单击&#x200B;**创建受众**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
+
+      * **[!UICONTROL Audience Library]**：创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用。
+      * **[!UICONTROL This activity only]**：创建未保存到[!UICONTROL Audience Library]的[活动特定受众](/help/main/c-target/creating-activity-only-audience.md)，该受众只能用于当前活动。
+
+   1. 单击右框中的&#x200B;**[!UICONTROL Visitor Percentage]**，然后选择符合条件的访客您希望参加活动的百分比。
 
    例如，您可以将准入资格限制为 50% 的访客或 45% 的“加州”受众。
-
-   >[!NOTE]
-   >
-   >除了选择现有受众之外，您还可以合并多个受众来创建临时组合受众，而不是创建新受众。有关更多信息，请参阅[合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
 1. [查看测试摘要](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)并进行任何所需的更改，然后单击&#x200B;**[!UICONTROL Next]**。
 

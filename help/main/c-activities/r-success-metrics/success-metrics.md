@@ -4,10 +4,10 @@ description: 了解Adobe [!DNL Target] 中帮助您确定活动是否成功的�
 title: 什么是成功量度？
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 43%
+source-wordcount: '1190'
+ht-degree: 41%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 43%
 
 在[!DNL Adobe Target]个成功量度中，是用来衡量活动是否成功的参数。 成功量度包括关键业务度量，可帮助您确定[!DNL Target]活动中给定体验或选件是否成功。
 
-例如，您可以确定新的选件是否增加了每个访客带来的收入或是否吸引访客向购物车中添加物品。成功量度可用于发现注册、订购或购买漏斗等方面的问题，也可仅仅用于提高访客或客户参与度。
+例如，您可以确定新的产品建议是否增加了每个访客带来的收入或是否吸引访客向购物车中添加物品。成功量度可用于发现注册、订购或购买漏斗等方面的问题，也可仅仅用于提高访客或客户参与度。
 
 ## 概述
 
@@ -57,9 +57,9 @@ ht-degree: 43%
 
 可使用高级设置来管理成功的衡量方式。选项包括添加依赖项、选择是将用户保留在活动中还是将其删除，以及是为每个参加者还是每次展示都计算一次量度。
 
-要访问[!UICONTROL Advanced Settings]选项，请单击&#x200B;**[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]**。
+要访问[!UICONTROL Advanced Settings]选项，请单击&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallListVert.svg) ），然后单击&#x200B;**[!UICONTROL Advanced Settings]**。
 
-![“高级设置”菜单](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
+![“高级设置”菜单](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
 >[!NOTE]
 >
@@ -68,8 +68,6 @@ ht-degree: 43%
 ### 添加依赖项
 
 您可以使用高级设置创建依赖的成功量度，仅当访客先实现某个量度时才递增另一个量度。
-
-![添加依赖项](/help/main/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 例如，仅当访客在转化之前先点击了选件或访问了某个特定页面时，测试转化才可能有效。
 
@@ -83,7 +81,7 @@ ht-degree: 43%
 在以下情况下，具有依赖关系的成功量度将无法转化：
 
 * 如果您创建了循坏依赖关系，例如量度 1 依赖于量度 2，而量度 2 又依赖于量度 1，则任何量度都无法转化。
-* 实现转化量度后，自动个性化活动会释放用户并重新启动活动，因此，任何依赖于转化量度的量度都将无法转化。
+* [!UICONTROL Automated Personalization]个活动将释放用户，并在达到转化量度时重新启动该活动，因此依赖该转化量度的任何量度都将无法转化。
 
 ### 用户遇到此目标量度后会出现什么情况？
 

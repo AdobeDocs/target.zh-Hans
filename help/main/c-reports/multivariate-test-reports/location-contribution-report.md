@@ -4,10 +4,10 @@ description: 了解如何对Adobe [!DNL Target] [!UICONTROL Experience Targeting
 title: 如何为[!UICONTROL Multivariate Test]活动使用[!UICONTROL Location Contribution]报表？
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-source-git-commit: 6f70ff18cfbee5c02e6bb2bd345acbd2e1b2006f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 39%
+source-wordcount: '259'
+ht-degree: 38%
 
 ---
 
@@ -31,14 +31,10 @@ ht-degree: 39%
 
 第一个表显示了每个元素的相对影响力。下表显示了您在其中添加选件的哪些元素产生了最多转化。
 
-Adobe Target中的![位置贡献报表](/help/main/c-reports/assets/locationcontributiontop.png)
-
 第二个表提供了选件级别的报表。该表显示了每个元素中每个选件的转化率、提升度和置信度。此表可帮助您确定哪些选件最成功。 第二列显示了选件的选定量度（转化率、RPV、AOV、订单或参与度量度）所对应的值以及一个标准化。
 
-Adobe Target中的![位置贡献报表](/help/main/c-reports/assets/locationcontributionbottom.png)
+## 培训视频：创建 MVT 测试
 
-## 培训视频：创建MVT测试![教程徽章](/help/main/assets/tutorial.png)
-
-以下视频演示了如何使用 Target 三步引导式工作流创建多变量测试。对位置贡献报表的介绍开始于 8:45。
+本视频演示了如何使用[!DNL Target]三步引导式工作流创建多变量测试。 对位置贡献报表的介绍开始于 8:45。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

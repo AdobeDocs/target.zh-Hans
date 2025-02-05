@@ -4,7 +4,7 @@ description: 了解访客如何在 [!DNL Adobe Target] [!UICONTROL Experience Ta
 title: 访客能否在[!UICONTROL Experience Targeting]活动中切换体验？
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 0dfdd995c00961ed2aed91ec03406e8493292af7
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 43%
@@ -31,24 +31,24 @@ ht-degree: 43%
 
   例如，在以下活动设置中，一位访客先在美国访问了您的网站，然后又来到了德国并在德国再次访问您的网站。在首次访问期间，该访客符合体验 A（美国访客）的条件。在德国访问您的网站后，该访客切换到了体验 B（德国访客）。
 
-  ![优先级：美国 > 德国](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+  ![优先级：美国 > 德国](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-refresh.png)
 
 * **如果访客停止符合当前受众的资格条件，但开始符合较低优先级的体验，则访客也会在体验之间切换。**
 * **如果访客不再符合其当前体验的资格条件，并且没有资格获得其他体验，则会看到默认内容。**
 
   例如，在以下活动设置中，一位访客先在美国访问了您的网站，然后又来到了法国并在法国再次访问您的网站。在首次访问期间，该访客符合体验 A（美国访客）的条件。在法国访问您的网站后，该访客将停留在原始体验中。
 
-  ![优先级：美国 > 德国](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+  ![优先级：美国 > 德国](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-refresh.png)
 
 * **定位到“所有访客”的体验可以用作[!UICONTROL Experience Targeting]活动中的最后一个体验，以“捕获”所有不符合任何其他体验条件的访客。 如果定位到“所有访客”的体验不是顺序中的最后一个体验，则仍会评估列出低于此体验的其他目标体验。**
 
   例如，在以下活动设置中，一位访客先在美国访问了您的网站，然后又来到了德国并在德国再次访问您的网站。在首次访问期间，该访客符合体验 A（美国访客）的条件。在德国访问您的网站后，该访客将停留在体验A（美国访客）中。
 
-  ![优先级：美国 > 所有访客](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
+  ![优先级：美国 > 所有访客](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-refresh.png)
 
   如果这不是您所期望的结果，您可以创建一个新受众，并将其明确定义为与目标受众相反的受众，如以下示例所示：
 
-  ![优先级：美国 > 非美国](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
+  ![优先级：美国 > 非美国](/help/main/c-activities/t-experience-target/t-xt-create/assets/not-us.png)
 
 * **如果只有一个体验[!UICONTROL Experience Targeting]活动，则即使访客不再符合体验的受众条件，访客仍会保留在该体验中。**
 
@@ -56,10 +56,10 @@ ht-degree: 43%
 
   作为另一个选项，您可以创建一个[!UICONTROL A/B Test]活动，并将其定位到分配了100%流量的所需受众，如下所示：
 
-  ![优先级：一个体验](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_one_experience-new.png)
+  ![优先级：一个体验](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_one_experience-refresh.png)
 
 * **体验的优先级是由体验在[!DNL Target] UI中的显示顺序（从上到下）定义的。**
 
   访客可能会符合多个受众的条件，在这种情况下，记住这一点十分重要。例如，如果您有两个体验：一个针对“美国”，一个针对“纽约”，则位于纽约的访客将同时符合这两个受众的资格。 因此，您必须确保先定义“New York”体验，然后再定义[!DNL Target] UI中的“United States”体验。 这种做法可确保更具针对性的“纽约”体验具有更高的优先级，如以下示例所示：
 
-  ![优先级：纽约 > 美国](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
+  ![优先级：纽约 > 美国](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-refresh.png)

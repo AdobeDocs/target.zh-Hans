@@ -4,16 +4,16 @@ description: 了解如何创建自定义受众并将它们保存到 [!DNL Adobe 
 title: 如何构建受众？
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
+source-git-commit: 19d2b14f137fe4dbf95e9f9f9b84f80b93d1e281
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 58%
+ht-degree: 51%
 
 ---
 
 # 在[!DNL Target]中生成受众
 
-您可以创建自定义受众并将它们保存到[!DNL Adobe Target] [!UICONTROL Audiences]库以供在活动中使用。 您还可以复制现有受众，然后对其进行编辑以创建类似受众并合并多个受众。
+创建自定义受众并将它们保存到[!DNL Adobe Target] [!UICONTROL Audiences]库以供您的活动使用。 您还可以复制现有受众，然后对其进行编辑以创建类似受众并合并多个受众。
 
 ## 受众概述
 
@@ -25,13 +25,13 @@ ht-degree: 58%
 
 您可以将两种布尔运算符混合使用来创建复杂的规则；但是，同一规则级别的运算符必须一致。用户界面会自动应用正确的运算符。
 
-例如，以下规则可定位在 Windows 计算机上使用 Chrome *或* Firefox 的访客：
+例如，以下规则可定位在[!DNL Windows]计算机上使用[!DNL Chrome] *或* [!DNL Firefox]的访客：
 
 ![创建受众](assets/audience_create.png)
 
 >[!NOTE]
 >
->务必要避免创建会将所有潜在受众成员都排除在外的规则。例如，某个人不可能同时使用 Chrome *和* Firefox 来访问页面。
+>务必要避免创建会将所有潜在受众成员都排除在外的规则。例如，某个人不可能同时使用[!DNL Chrome] *和* [!DNL Firefox]来访问页面。
 
 ## 创建受众
 
@@ -43,7 +43,7 @@ ht-degree: 58%
 
    或
 
-   要复制现有受众，请在[!UICONTROL Audiences]列表中单击&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（省略号图标），然后单击&#x200B;**[!UICONTROL Duplicate]**。 然后，您可以对受众进行编辑以创建一个类似的受众。
+   要复制现有受众，请从[!UICONTROL Audiences]列表中单击要复制的受众的&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallListVert.svg)），然后单击&#x200B;**[!UICONTROL Duplicate]**。 然后，您可以对受众进行编辑以创建一个类似的受众。
 
 1. 键入唯一的描述性受众名称和可选描述。
 
@@ -55,7 +55,7 @@ ht-degree: 58%
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. 将所需属性从右侧的&#x200B;**[!UICONTROL Attributes]**&#x200B;列表中拖放到受众生成器窗格。
+1. 将所需属性从左侧的&#x200B;**[!UICONTROL Attributes]**&#x200B;列表中拖放到受众生成器窗格。
 
    ![拖放属性](assets/drag-attribute.png)
 
@@ -63,7 +63,7 @@ ht-degree: 58%
 
 1. 定义规则参数。
 
-   例如，以下受众使用Macintosh操作系统定位来自犹他州的访客。
+   例如，以下受众使用[!DNL Macintosh]操作系统定位来自犹他州的访客。
 
    ![犹他州/Macintosh受众](assets/adience-builder.png)
 

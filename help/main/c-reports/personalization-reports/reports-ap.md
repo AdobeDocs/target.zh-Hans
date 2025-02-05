@@ -5,10 +5,10 @@ title: 如何使用Automated Personalization摘要报表？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 11%
+source-wordcount: '641'
+ht-degree: 10%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 11%
 
 1. 单击&#x200B;**[!UICONTROL Activities]**，从列表中单击所需的[!UICONTROL Automated Personalization]活动，然后单击&#x200B;**[!UICONTROL Reports]**&#x200B;选项卡。
 
-   如果您有许多活动，则可以通过从[!UICONTROL Type]下拉列表中选择[!UICONTROL Automated Personalization]来筛选列表。
+   如果您有许多活动，请单击“筛选器”（![筛选器图标](/help/main/assets/icons/Filter.svg)）图标以通过从[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]和[!UICONTROL Activity Source]下拉列表中选择选项来筛选列表。
 
-1. （可选）单击&#x200B;**[!UICONTROL Download]**&#x200B;图标以下载按所有可用成功量度划分的摘要视图（例如，比较控制和目标流量）。
+1. （可选）单击&#x200B;**[!UICONTROL Download]** （ ![下载图标](/help/main/assets/icons/Download.svg) ）图标可下载按所有可用成功量度划分的摘要视图（例如，比较控制和目标流量）。
 
 [!UICONTROL Automated Personalization]提供了以下报告：
 
@@ -37,8 +37,6 @@ ht-degree: 11%
 
 [!UICONTROL Activity Level]报表将使用[!UICONTROL Automated Personalization]算法的聚合性能与随机提供的内容（控制）进行比较。
 
-![活动级别的报表](/help/main/c-reports/assets/box_plot_ap.png)
-
 用于解释 A/B 测试结果的标准规则仍然适用，包括提升度、置信度、趋势、持续时间等。有关解释结果的更多信息，请参阅[A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)。
 
 ## 选件级别报表 {#section_CAA6409879E349C6906E2BE8156D87A1}
@@ -46,8 +44,6 @@ ht-degree: 11%
 随机林体验的[!UICONTROL Offer Level]报表将比较每个算法应用的选件与同一随机提供的选件（控制）的性能。 因此，这种观点不应将优惠相互进行比较。
 
 单击体验算法（随机林或控制）以查看[!UICONTROL Offer Level]报表。
-
-Adobe Target中的![选件级别报告](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 >[!NOTE]
 >
@@ -57,17 +53,13 @@ Adobe Target中的![选件级别报告](/help/main/c-reports/assets/ap_OfferLeve
 
 ## 自动化区段
 
-单击[!UICONTROL Automated Segments]图标。 此报表可显示不同访客对您的AP/AT活动中的选件/体验做出的不同响应。 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的选件/体验。
-
-![自动化区段图标](/help/main/c-reports/assets/icon-automated-sements-ap.png)
+单击[!UICONTROL Automated Segments]图标。 此报表可显示不同访客对您的AP/AT活动中的选件/体验做出的不同响应。 此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的产品建议/体验。
 
 有关详细信息，请参阅[自动化区段报表](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md)。
 
 ## 重要属性
 
 单击[!UICONTROL Important Attributes]图标。 此报表显示了在不同活动中，不同属性对模型如何决定进行个性化的重要性如何。 此报表可显示影响模型的排名靠前的属性及其相对重要性。
-
-![重要属性图标](/help/main/c-reports/assets/icon-important-attributes-ap.png)
 
 有关详细信息，请参阅[重要属性报表](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md)。
 

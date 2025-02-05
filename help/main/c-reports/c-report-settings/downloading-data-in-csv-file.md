@@ -4,30 +4,28 @@ description: 了解如何以CVS格式从Adobe [!DNL Target] 活动下载数据�
 title: 如何以CSV文件下载报表数据？
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 37%
+source-wordcount: '652'
+ht-degree: 34%
 
 ---
 
 # 将数据下载到 CSV 文件
 
-可采用 .csv 格式下载数据，以便快速导入到 Excel、Access 或其他数据分析程序中。
+以.csv格式下载数据以便快速导入到[!DNL Excel]、[!DNL Access]或其他数据分析程序中。
 
 要将数据下载到 CSV 文件，请执行以下操作：
 
 1. 单击 **[!UICONTROL Activities]**，然后在列表中单击所需的活动。
 
-   如果您有许多活动，可以通过从[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]和[!UICONTROL Activity Source]下拉列表中选择相应选项来筛选列表。
+   如果您有许多活动，请单击“筛选器”（![筛选器图标](/help/main/assets/icons/Filter.svg)）图标以通过从[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]和[!UICONTROL Activity Source]下拉列表中选择选项来筛选列表。
 
 1. 单击&#x200B;**[!UICONTROL Reports]**&#x200B;选项卡。
-1. 单击&#x200B;**[!UICONTROL Download]**&#x200B;图标，然后选择要下载以供在Excel和其他工具中分析的报表类型。
+1. 单击&#x200B;**[!UICONTROL Download]** （![下载图标](/help/main/assets/icons/Download.svg) ）图标，然后选择要下载以供在Excel和其他工具中分析的报表类型。
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
-
-   ![下载选项](/help/main/c-reports/assets/download-options.png)
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -61,7 +59,7 @@ ht-degree: 37%
 
 * 体验
 
-  在[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] (XT)和[!UICONTROL Multivariate Test] (MVT)活动的[!UICONTROL Order Details]报表中，[!UICONTROL Experience]列包含体验`localId`。 这是选件令牌中 `$campaign.recipe.id` 的值输出。
+  在[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] (XT)和[!UICONTROL Multivariate Test] (MVT)活动的[!UICONTROL Order Details]报表中，[!UICONTROL Experience]列包含体验`localId`。 这是产品建议令牌中 `$campaign.recipe.id` 的值输出。
 
   [!UICONTROL Automated Personalization] (AP)活动没有[!UICONTROL Experience]列。 当前[!UICONTROL Algorithm Name]列已替换为“控制”与“目标”术语，如[!DNL Target]中的其他位置所示。
 

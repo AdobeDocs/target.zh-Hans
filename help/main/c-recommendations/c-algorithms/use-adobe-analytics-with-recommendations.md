@@ -1,32 +1,30 @@
 ---
 keywords: 行为数据源；Analytics；推荐；标准；产品变量
-description: 了解如何使用 [!DNL Adobe Analytics] 作为行为数据源，以使用 [!DNL Target Recommendations]中 [!DNL Analytics] 基于视图和/或基于购买的行为数据。
+description: 了解如何将 [!DNL Adobe Analytics] 用作 [!DNL Target Recommendations]中的行为数据源。
 title: 如何将 [!DNL Adobe Analytics] 与 [!DNL Target Recommendations]一起使用？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 1%
+source-wordcount: '757'
+ht-degree: 0%
 
 ---
 
 # 将[!DNL Adobe Analytics]与[!DNL Recommendations]一起使用
 
-将[!DNL Adobe Analytics]用作行为数据源可让客户端在[!DNL Adobe Target] [!DNL Recommendations]活动中使用[!DNL Analytics]中基于视图和/或基于购买的行为数据。 此功能在[!DNL Target Recommendations]设置是新的，且[!DNL Analytics]有许多历史数据可供使用的情况下特别有用。
+将[!DNL Adobe Analytics]用作行为数据源可让客户端在[!DNL Adobe Target Recommendations]活动中使用[!DNL Analytics]中基于视图和基于购买的行为数据。 此功能在[!DNL Target Recommendations]设置是新的，且[!DNL Analytics]有许多历史数据可供使用的情况下特别有用。
 
 将[!DNL Analytics]用作行为数据源可以充当有关用户行为的丰富信息源。 此信息可能包含来自仅与[!DNL Analytics]共享的第三方源或馈送的数据。
 
 在[!DNL Recommendations]中[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)时，有两个单选按钮可让您选择要使用的数据源： [!UICONTROL mboxes]或[!UICONTROL Analytics]。 要创建标准，请单击[!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]。 有关详细信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
-![行为数据源按钮](assets/behavioral-data-source.png)
-
 >[!NOTE]
 >
 >如果这两个按钮未显示在您的帐户中，请联系[客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
-## Target中的Analytics数据用例
+## [!DNL Target]中[!DNL Analytics]数据的用例
 
 使用[!DNL Analytics]作为推荐的行为数据源还可让您部署特定的用例，而无需使用所有[!DNL Target]实体参数标记实体页面。 尽管这要求具备某些先决条件，但要使此功能无缝运行，“产品变量”的可用性是最重要的因素。 常规eVar和Prop不足以在[!DNL Analytics]和[!DNL Target]之间自动进行此握手。
 
@@ -63,13 +61,9 @@ ht-degree: 1%
 
 1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL Recommendations]**，然后单击&#x200B;**[!UICONTROL Feeds]**&#x200B;选项卡。
 
-   ![信息源](/help/main/c-recommendations/c-algorithms/assets/feeds-tab.png)
-
 1. 单击 **[!UICONTROL Create Feed]**。
 
 1. 选择&#x200B;**[!UICONTROL Analytics Classifications]**，然后指定报表包。
-
-   ![Analytics分类选项](/help/main/c-recommendations/c-algorithms/assets/analytics-classifications.png)
 
 1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;以前进到&#x200B;**[!UICONTROL Schedule]**&#x200B;设置，为信息源选择频率段：
 
@@ -81,8 +75,6 @@ ht-degree: 1%
    您还可以选择一天中信息源要处理的时间。
 
 1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;以前进到&#x200B;**[!UICONTROL Mapping]**&#x200B;设置，然后将字段列标题映射到相应的[!UICONTROL Recommendations]字段名称。
-
-   ![映射节](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. 单击 **[!UICONTROL Save]**。
 

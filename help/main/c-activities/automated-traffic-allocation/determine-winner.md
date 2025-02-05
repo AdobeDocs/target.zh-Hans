@@ -1,17 +1,17 @@
 ---
 keywords: 自动流量分配；定位；入选者；统计保证；置信度；确定入选者；提升度；置信度；默认；默认体验；自动分配；自动分配
-description: 了解如何通过检查重要指标（包括提升度和置信度）来解释Adobe [!DNL Target] 中[!UICONTROL Auto-Allocate] A/B活动的结果。
+description: 了解如何解释[!UICONTROL Auto-Allocate]个A/B活动结果，并侧重于提升度和置信度等关键指标。
 title: 如何解释[!UICONTROL Auto-Allocate]报表？
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: e9976135c46f6658030b07fce384364f0c9ff0ed
+source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 21%
+source-wordcount: '1163'
+ht-degree: 20%
 
 ---
 
-# 解释自动分配报表
+# 解释[!UICONTROL Auto-Allocate]报告
 
 通过检查重要指标（包括提升度和置信度）来解释[!UICONTROL Adobe Target]中的[!UICONTROL Auto-Allocate] A/B活动的结果。
 
@@ -23,23 +23,23 @@ ht-degree: 21%
 
 使用[!UICONTROL Auto-Allocate]功能时，[!DNL Target]会在活动页面的顶部显示一个标记，在活动达到最低转化次数，且具有足够的置信度之前，该标记会一直指示“还没有入选者”。
 
-![“没有入选者”标记](/help/main/c-activities/automated-traffic-allocation/assets/no-winner.png)
+![“没有入选者”标记](/help/main/c-activities/automated-traffic-allocation/assets/no-winner-new.png)
 
-在宣布明确的入选者后，[!DNL Target]会显示“入选者：体验&#x200B;*X*”。
+在宣布明确的入选者后，[!DNL Target]会显示“入选者：体验&#x200B;*X*”徽章。
 
-![入选者图像](assets/winner.png)
+![入选者徽章](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
 
 >[!NOTE]
 >
->自动分配活动旨在从所有体验选项中找出最佳体验，而不仅仅是与控制体验进行两两比较。
+>[!UICONTROL Auto-Allocate]活动旨在从所有选项中找出最佳体验，而不仅仅是与控制体验进行两两比较。
 
-## 自动分配的统计保证 {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## [!UICONTROL Auto-Allocate]的统计保证 {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 在A/B活动结束时，[!UICONTROL Auto-Allocate]确保确定的入选者的有效误报率为5%。 这意味着确定的入选者实际不是所有活动体验中的最佳体验的概率仅为 5%。对于[A/A测试](/help/main/c-activities/t-test-ab/aa-testing.md) （具有相同的体验），[!DNL Target]结束测试的时间不到5%。 对于 A/A 测试（具有相同的体验），预期行为是无限期地运行，因此应该永远不会出现入选者标记。
 
 [!DNL Target]没有对[!UICONTROL Auto-Allocate]使用基于p值的置信度。
 
-[!UICONTROL Auto-Allocate]活动（如下图所示）中的[!UICONTROL Confidence]列显示体验在1%的错误容限内成为入选者的概率。 该算法在最佳和次最佳转化率之间使用1%的最小可检测效果。 算法使用[Bernstein不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)来计算此概率。
+[!UICONTROL Auto-Allocate]活动中的[!UICONTROL Confidence]列显示体验在1%的错误容限内成为入选者的概率。 该算法在最佳和次最佳转化率之间使用1%的最小可检测效果。 算法使用[Bernstein不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)来计算此概率。
 
 常规 A/B 测试将基于 p 值计算置信度。[!UICONTROL Auto-Allocate]不使用p值。 p 值可“大致”计算出某个特定体验与控制体验存在差异的概率。这些 p 值只能用于确定体验是否与控制体验存在差异。这些值不能用于确定体验是否与其他体验（非控制体验）存在差异。
 
@@ -82,5 +82,3 @@ ht-degree: 21%
 “尚未有入选者”和“入选者”徽章当前在[!DNL Analysis Workspace]的[!UICONTROL A4T]面板中不可用。 如果在[!DNL Target]中查看了同一报告，则这些徽章也将不可用。 使用A4T的[!UICONTROL Auto-Allocate]活动的[!DNL Target]报表中显示的入选者“星”徽章应当被忽略。
 
 有关此限制及其他限制和注释的更多信息，请参阅[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动&#x200B;*的* A4T支持[自动分配](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)。
-
-

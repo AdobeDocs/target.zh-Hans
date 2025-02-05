@@ -4,10 +4,10 @@ description: 了解如何使用Adobe [!DNL Target] 中的[!UICONTROL Visual Expe
 title: 如何在[!UICONTROL Multivariate Test] (MVT)中创建组合？
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 4a18dc6c9988e593a65bdcf695113d7179d88290
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 56%
+source-wordcount: '470'
+ht-degree: 54%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 56%
 
 使用[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)创建要包含在[!UICONTROL Multivariate Test] (MVT)中的选件。
 
-有关使用 VEC 创建和编辑选件的更多信息，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+有关使用 VEC 创建和编辑产品建议的更多信息，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
 >[!NOTE]
 >
@@ -27,33 +27,25 @@ ht-degree: 56%
 
 在一个位置内测试多个图像选件，以确定哪个图像最成功。
 
-1. 单击页面上的图像，然后选择&#x200B;**[!UICONTROL Change Image]**。
+1. 单击页面上的图像，然后选择&#x200B;**[!UICONTROL Change Image Offer]**。
 
-   ![“更改图像”选项](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
-
-1. 选择要包含在测试中的所有图像，然后单击&#x200B;**[!UICONTROL Save]**。
-
-   ![用于添加图像的“选择内容”对话框](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
+1. 从[!UICONTROL Image Offer]对话框中，选择要包含在测试中的所有图像，然后单击&#x200B;**[!UICONTROL Add]**。
 
 每个图像会成为该位置的独立体验。
 
 ## HTML 选件 {#section_DF016101AFA9412C9B99862C23DE77B1}
 
-可在某个位置测试多个文本/HTML 选件，以确定哪个选件最为成功。
+可在某个位置测试多个 HTML 选件，以确定哪个选件最为成功。
 
-1. 单击页面上的某个文本/HTML选件，然后单击&#x200B;**[!UICONTROL Change Text/HTML]**。
+1. 单击页面上的HTML选件，然后单击&#x200B;**[!UICONTROL Change HTML Offer]**。
 
-   ![更改文本/HTML](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
+1. 单击&#x200B;**[!UICONTROL Create Offer]**，单击&#x200B;**[!UICONTROL HTML Offer]**，命名选件，键入或粘贴HTML选件的代码，然后单击&#x200B;**[!UICONTROL Create]**。
 
-1. 单击&#x200B;**[!UICONTROL Add Text/HTML Offer]**，命名选件，然后键入或粘贴文本/HTML选件的代码。
-
-   ![编辑选件](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
-
-   重复执行上述步骤以添加任何其他要包含的文本/HTML 选件。
+   重复执行上述步骤以添加任何其他要包含的 HTML 选件。
 
 1. 单击 **[!UICONTROL Save]**。
 
-每个文本/HTML 选件会成为该位置的独立体验。
+每个 HTML 选件会成为该位置的独立体验。
 
 ## 最佳实践 {#section_2E98C23D2F1A460FA732A31799CE6291}
 
@@ -64,4 +56,3 @@ ht-degree: 56%
 * 至少须测试三个元素。如果要测试的元素比这少，则运行一组 A/B 测试。
 * 每个元素的替代项应彼此有显着差异。
 * 虽然并不强制要求，但最好让每个元素具有相同数量的替代项。
-

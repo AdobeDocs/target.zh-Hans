@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 74%
+source-wordcount: '1259'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 74%
    + [系统状态更新和主动通知](r-release-notes/system-status-updates.md)
    + [文档更改](r-release-notes/doc-change.md)
    + [以前版本的发行说明](r-release-notes/release-notes-for-previous-releases.md)
-   + [Target活动、选件和Recommendations UI刷新Beta程序](/help/main/refresh-ui-beta.md)
 + 简介 {#introduction}
    + [Target 简介](c-intro/intro.md)
    + [从 Adobe Experience Cloud 访问 Target](c-intro/target-access-from-mac.md)
@@ -47,7 +46,6 @@ ht-degree: 74%
    + [Target 优化和个性化常见问题解答](c-intro/cmp-target-standard-cheatsheet.md)
 + 管理 Target {#administer}
    + [管理 Target 概述](administrating-target/administrating-target.md)
-   + [管理Target概述测试版](administrating-target/administrating-target-beta.md)
    + [管理员首要步骤](administrating-target/start-target.md)
    + [配置可视体验编辑器](/help/main/administrating-target/visual-experience-composer-set-up.md)
    + 报表 {#reporting}
@@ -117,72 +115,49 @@ ht-degree: 74%
    + [Target 活动类型](c-activities/target-activities-guide.md)
    + A/B 测试 {#abtest}
       + [A/B 测试概述](c-activities/t-test-ab/test-ab.md)
-      + [A/B测试概述（测试版）](c-activities/t-test-ab/test-ab-beta.md)
       + [A/B 测试应该持续多长时间？](c-activities/t-test-ab/sample-size-determination.md)
       + [A/B 测试常见的十个隐患以及如何避免它们](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [A/A 测试](/help/main/c-activities/t-test-ab/aa-testing.md)
       + 创建 A/B 测试 {#create}
          + [创建 A/B 测试](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-         + [创建A/B测试测试版](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [活动 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
-         + [Activity URL测试版](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md)
          + [添加体验](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
-         + [添加体验测试版](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md)
          + [选择受众](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
-         + [选择受众测试版](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [目标和设置](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
-         + [目标和设置测试版](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [使用 Analytics 数据](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [设置量度](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [设置量度（测试版）](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [A/B 测试中的多个体验受众](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
-         + [A/B测试版中的多个体验受众](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + 自动分配 {#auto-allocate}
       + [自动分配概述](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [创建自动分配活动](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
-      + [创建自动分配活动](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [解释自动分配报表](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [解释自动分配报告测试版](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [自动分配比手动测试产生测试结果更快和收入更高](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + 自动锁定 {#auto-target}
       + [自动锁定概述](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-      + [自动定位概述（测试版）](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [创建自动锁定活动](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [创建自动定位活动测试版](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [自动定位常见问题解答和疑难解答](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [报表和自动定位](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization 概述](c-activities/t-automated-personalization/automated-personalization.md)
       + [随机林算法](c-activities/t-automated-personalization/algo-random-forest.md)
       + [创建 Automated Personalization 活动](c-activities/t-automated-personalization/create-ap-activity.md)
-      + [创建Automated Personalization活动测试版](c-activities/t-automated-personalization/create-ap-activity-beta.md)
       + [为 Target 个性化算法上传数据](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [为 Target 个性化算法收集数据](c-activities/t-automated-personalization/ap-data.md)
       + [估算成功所需流量](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [估算成功测试版所需的流量](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md)
       + [预览 Automated Personalization 测试体验](c-activities/t-automated-personalization/ap-preview-experiences.md)
-      + [预览Automated Personalization测试测试版体验](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [Target Automated Personalization 产品建议](c-activities/t-automated-personalization/ap-target-offers.md)
-      + [Target Automated Personalization选件（测试版）](c-activities/t-automated-personalization/ap-target-offers-beta.md)
       + [管理排除项](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [管理排除测试版](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Automated Personalization 中的产品建议报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
-      + [Automated Personalization测试版中的选件报表组](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [选择用于 Automated Personalization 或自动锁定活动的控制](c-activities/t-automated-personalization/experience-as-control.md)
-      + [选择用于Automated Personalization或自动定位活动Beta的控制](c-activities/t-automated-personalization/experience-as-control-beta.md)
       + [Automated Personalization 常见问题解答](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Automated Personalization 疑难解答](c-activities/t-automated-personalization/ap-trouble.md)
    + 体验定位 {#experience-targeting}
       + [体验定位概述](c-activities/t-experience-target/experience-target.md)
       + 创建体验定位活动 {#create-targeting}
          + [创建活动](c-activities/t-experience-target/t-xt-create/xt-create.md)
-         + [创建activity-beta](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [活动 URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
-         + [活动URL测试版](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [创建体验](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
-         + [创建体验测试版](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [在体验定位中切换体验](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
-         + [在Experience Targeting-beta中切换体验](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [目标和设置](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [设置量度](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + 多变量测试 {#multivariate-test}
@@ -191,20 +166,13 @@ ht-degree: 74%
       + [规划多变量测试](c-activities/c-multivariate-testing/plan-mvt.md)
       + 创建多变量测试 {#create-mvt}
          + [创建测试](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
-         + [创建测试测试版](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
          + [活动 URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
-         + [Activity URL测试版](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
          + [创建组合](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
-         + [创建组合（测试版）](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
          + [预览多变量测试体验](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
-         + [预览多变量测试测试版体验](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
          + [估算成功测试所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
-         + [估算成功的测试测试测试版所需的流量](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
          + [测试摘要](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-         + [测试摘要（测试版）](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
          + [目标和设置](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [设置量度](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
-         + [设置量度（测试版）](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
          + [多变量测试故障诊断](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [“推荐”活动](c-activities/recommendations-activity.md)
    + [编辑活动或另存为草稿](c-activities/edit-activity.md)
@@ -212,7 +180,6 @@ ht-degree: 74%
    + [活动设置](c-activities/activity-settings.md)
    + 成功量度 {#success-metrics}
       + [成功量度](c-activities/r-success-metrics/success-metrics.md)
-      + [成功量度（测试版）](c-activities/r-success-metrics/success-metrics-beta.md)
       + [点击跟踪](c-activities/r-success-metrics/click-tracking.md)
       + [印象分数](c-activities/r-success-metrics/capture-score.md)
    + [活动更改日志](c-activities/change-log.md)
@@ -261,11 +228,8 @@ ht-degree: 74%
    + [体验和产品建议概述](c-experiences/experiences.md)
    + 可视化体验编辑器 (VEC) {#vec}
       + [可视化体验编辑器概述](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
-      + [可视化体验编辑器概述（测试版）](c-experiences/c-visual-experience-composer/visual-experience-composer-beta.md)
       + [可视化体验编辑器选项](c-experiences/c-visual-experience-composer/viztarget-options.md)
-      + [可视化体验编辑器选项（测试版）](c-experiences/c-visual-experience-composer/viztarget-options-beta.md)
       + [在相似页面上包含相同体验](c-experiences/c-visual-experience-composer/temtest.md)
-      + [在类似页面上包含相同体验（测试版）](c-experiences/c-visual-experience-composer/temtest-beta.md)
       + [多页面活动](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [活动冲突](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + 修改 {#modifications}
@@ -284,7 +248,6 @@ ht-degree: 74%
          + [可视化编辑帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [重定向到 URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [重定向到URL测试版](c-experiences/c-visual-experience-composer/redirect-offer-beta.md)
       + [创建可以在可视化体验编辑器中工作的轮播效果](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [基于表单的体验编辑器](c-experiences/form-experience-composer.md)
    + [单页面应用程序 (SPA) 可视化体验编辑器](c-experiences/spa-visual-experience-composer.md)
@@ -329,53 +292,32 @@ ht-degree: 74%
       + [实体属性](c-recommendations/c-products/entity-attributes.md)
       + [自定义实体属性](c-recommendations/c-products/custom-entity-attributes.md)
       + [信息源](c-recommendations/c-products/feeds.md)
-      + [信息源测试版](/help/main/c-recommendations/c-products/feeds-beta.md)
       + [目录搜索](c-recommendations/c-products/catalog-search.md)
-      + [目录搜索测试版](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [收藏集](c-recommendations/c-products/collections.md)
-      + [收藏集测试版](/help/main/c-recommendations/c-products/collections-beta.md)
       + [排除项](c-recommendations/c-products/exclusions.md)
-      + [排除项（测试版）](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + 标准 {#criteria}
       + [标准概述](c-recommendations/c-algorithms/algorithms.md)
-      + [标准概述（测试版）](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [创建标准](c-recommendations/c-algorithms/create-new-algorithm.md)
-      + [创建标准测试版](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [创建标准序列](c-recommendations/c-algorithms/create-criteria-sequence.md)
-      + [创建标准序列（测试版）](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [使推荐基于推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [使推荐基于推荐键测试版](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [Target 的推荐算法背后的科学原理](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [上传自定义标准](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [上传自定义标准测试版](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + 动态和静态包含规则 {#dynamic-static}
          + [使用动态和静态包含规则](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
-         + [使用动态和静态包含规则（测试版）](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [实体属性匹配](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
-         + [实体属性匹配测试版](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
          + [轮廓属性匹配](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
-         + [配置文件属性匹配测试版](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [参数匹配](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
-         + [参数匹配Beta](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
          + [静态筛选](/help/main/c-recommendations/c-algorithms/static-value.md)
-         + [静态筛选器Beta](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [使用备用推荐](c-recommendations/c-algorithms/backup-recs.md)
-      + [使用备用推荐](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [使用多值属性](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [使用多值属性（测试版）](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
       + [将 Adobe Analytics 与推荐配合使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
-      + [将Adobe Analytics与Recommendations测试版结合使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + 设计 {#recommendations-design}
       + [设计概述](c-recommendations/c-design-overview/design-overview.md)
       + [创建设计](c-recommendations/c-design-overview/create-design.md)
-      + [创建设计测试版](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [设计常见问题解答](c-recommendations/c-design-overview/template-faq.md)
       + [使用 Velocity 自定义设计](c-recommendations/c-design-overview/customizing-a-template.md)
    + 活动 {#recommendations-activity}
       + [创建“推荐”活动](c-recommendations/t-create-recs-activity/create-recs-activity.md)
-      + [创建Recommendations活动测试版](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
-      + [选择标准](c-recommendations/t-create-recs-activity/algo-select-recs.md)
-      + [选择标准（测试版）](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [添加促销活动](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [“推荐”活动设置](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [预览和启动“推荐”活动](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

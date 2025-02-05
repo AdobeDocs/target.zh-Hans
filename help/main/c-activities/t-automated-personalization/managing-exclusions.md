@@ -1,14 +1,14 @@
 ---
 keywords: 重复数据删除；允许重复项；排除重复的选件；自动个性化；不允许重复的选件；排除；默认内容；排除组；
-description: 管理 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)活动中的排除项。 创建排除组并排除重复的选件、特定体验和默认内容。
+description: 管理[!UICONTROL Automated Personalization] (AP)活动中的排除项。
 title: 如何管理[!UICONTROL Automated Personalization]活动中的排除项？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '915'
 ht-degree: 41%
 
 ---
@@ -23,13 +23,15 @@ ht-degree: 41%
 
 排除组是一种非常有用的方法，可确保不同位置的相同体验中不会出现不兼容的选件。例如，假设您有两个优惠：一个是所有商品20%的折扣，另一个是15%的折扣。 您绝不希望向同一体验中的访客展示这两个选件。 如果将这两个选件添加到排除组，则可以确保绝不会出现这种情况。
 
-您还可以限制能够在 AP 活动中查看特定选件的受众。有关更多信息，请参阅 [Target 自动个性化选件](/help/main/c-activities/t-automated-personalization/ap-target-offers.md)。
+您还可以限制能够在 AP 活动中查看特定产品建议的受众。有关更多信息，请参阅 [Target 自动个性化产品建议](/help/main/c-activities/t-automated-personalization/ap-target-offers.md)。
 
 **创建排除组：**
 
-1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)时，单击标题栏中的&#x200B;**[!UICONTROL Manage Content]**。
+1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)时，单击&#x200B;**[!UICONTROL Manage Content]**&#x200B;图标（![管理内容图标](/help/main/assets/icons/Experience.svg)）。
 
-   ![“管理内容”链接](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+   此时将显示[!UICONTROL Manage Content]对话框。
+
+1. 单击&#x200B;**[!UICONTROL Experiences]**&#x200B;选项卡。
 
 1. 在[!UICONTROL Manage Content]对话框中，单击&#x200B;**[!UICONTROL Exclusion Groups]**。
 
@@ -45,9 +47,9 @@ ht-degree: 41%
 
    描述性名称可以帮助您或他人快速找到排除组并了解其用途。
 
-1. 查找并选择要添加到排除组的所需选件。
+1. 查找并选择要添加到排除组的所需产品建议。
 
-   您可以在排除组中选择来自相同位置的多个选件。
+   您可以在排除组中选择来自相同位置的多个产品建议。
 
 1. 单击 **[!UICONTROL Save]**。
 
@@ -61,7 +63,7 @@ ht-degree: 41%
 
 单击&#x200B;**[!UICONTROL Configure]**&#x200B;齿轮选项> **[!UICONTROL Duplicate Offers]**，然后单击&#x200B;**[!UICONTROL Allow Duplicates]**&#x200B;或&#x200B;**[!UICONTROL Disallow Duplicates]**。
 
-![“重复的选件”选项](/help/main/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
+![“重复的产品建议”选项](/help/main/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
 ## 排除特定体验 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
@@ -93,9 +95,9 @@ ht-degree: 41%
 
 ## 排除默认内容 {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-有时，您可能不希望将默认内容包含在[!UICONTROL Automated Personalization]活动中。 访问此设置的方式不同于创建排除组。通过此方法，您可以在 AP 活动中的某个位置仅使用一个选件（与默认内容不同）。
+有时，您可能不希望将默认内容包含在[!UICONTROL Automated Personalization]活动中。 访问此设置的方式不同于创建排除组。通过此方法，您可以在 AP 活动中的某个位置仅使用一个产品建议（与默认内容不同）。
 
-排除默认内容是一种非常有用的方法，可用于更改页面上其余内容的外观，以使其符合您在 AP 活动中所测试的选件。例如，假设您想要匹配所测试选件的调色板，则可以更改页面的背景颜色并排除默认的背景颜色。
+排除默认内容是一种非常有用的方法，可用于更改页面上其余内容的外观，以使其符合您在 AP 活动中所测试的产品建议。例如，假设您想要匹配所测试选件的调色板，则可以更改页面的背景颜色并排除默认的背景颜色。
 
 **使用[!UICONTROL Visual Experience Composer] (VEC)排除默认内容：**
 

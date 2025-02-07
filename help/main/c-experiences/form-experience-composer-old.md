@@ -6,8 +6,8 @@ feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
 source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 33%
+source-wordcount: '776'
+ht-degree: 37%
 
 ---
 
@@ -23,45 +23,17 @@ ht-degree: 33%
 
 1. 从[!UICONTROL Create Activity]对话框中选择&#x200B;**[!UICONTROL Form]**。
 
-1. （视情况而定）如果您是[Target Premium客户](/help/main/c-intro/intro.md#premium)，请从&#x200B;**[!UICONTROL Choose Workspace]**&#x200B;下拉列表中选择一个[工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
+1. （视情况而定）选择工作区和属性。
 
-   [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)选项是[Target Premium](/help/main/c-intro/intro.md)功能，如果您的组织具有[!UICONTROL Target Standard]许可证，则可能无法显示。
-
-1. 选择属性。
-
-1. 单击 **[!UICONTROL Create]**。
+1. 单击 **[!UICONTROL Next]**。
 
    将打开[!UICONTROL Form-Based Experience Composer]。
 
+   ![location_refinements图像](assets/location_refinements.png)
+
    如果您正在创建[!UICONTROL Recommendations]活动，则此屏幕不同。 [!UICONTROL Recommendations]活动不包含体验。
 
-1. 
-   1. 单击&#x200B;**[!UICONTROL Rename]**&#x200B;图标（![重命名图标](/help/main/assets/icons/MoreSmallListVert.svg)），单击&#x200B;**[!UICONTROL Rename]**，指定活动的名称，然后单击&#x200B;**[!UICONTROL Save]**。
-
-   活动名称不能以下列任何字符开头：
-
-   | 字符 | 描述 |
-   |--- |--- |
-   | `=` | 等号 |
-   | `+` | 加号 |
-   | `-` | 减号 |
-   | `@` | @ 符号 |
-
-   活动名称不能包含以下任何字符序列：
-
-   | 字符序列 | 描述 |
-   |--- |--- |
-   | ；= | 分号，等于 |
-   | ；+ | 分号，加号 |
-   | ；- | 分号，减号 |
-   | ；@ | 分号， At sign |
-   | ，= | 逗号，等于 |
-   | ，+ | 逗号，加号 |
-   | ，- | 逗号，减 |
-   | ，@ | 逗号， At sign |
-   | `[`” | 左方括号，双引号 |
-   | &quot;`]` | 双引号，右方括号 |
-
+1. 通过单击“[!UICONTROL Untitled Activity]”为活动命名。
 1. 选择位置。
 
    单击[!UICONTROL Select Location]框时，将显示可用位置列表。 选择其中一个位置。
@@ -74,9 +46,13 @@ ht-degree: 33%
 
 1. 单击&#x200B;**[!UICONTROL Add Audience Refinements]**，为此活动选择一个或多个[受众](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)，然后单击&#x200B;**[!UICONTROL Done]**。
 
+   ![location_refinements_2图像](assets/location_refinements_2.png)
+
    在[!UICONTROL Form-based Experience Composer]中，细化已替换为完整的受众功能。 现有活动的细化已迁移到[仅限活动的受众](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
 
 1. 选择要在该位置中显示的内容类型。
+
+   ![form_content图像](assets/form_content.png)
 
 1. 为选定的内容类型指定内容。
 
@@ -120,7 +96,11 @@ ht-degree: 33%
 
    在基于表单的体验编辑器中选择推荐标准时，现在有一个指向所选标准卡片的直接链接，以便您快速方便地对标准进行编辑。
 
-   从[!DNL Target]三步引导式工作流的[!UICONTROL Targeting]页面：
+   ![change_criteria图像](assets/change_criteria.png)
+
+   从 Target 三步引导式工作流的“定位”页面中：
+
+   ![change_criteria_2图像](assets/change_criteria_2.png)
 
    **添加优惠决策：**
 

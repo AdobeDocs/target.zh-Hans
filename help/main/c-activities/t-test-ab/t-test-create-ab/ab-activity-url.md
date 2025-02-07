@@ -3,10 +3,8 @@ keywords: 活动URL；URL；其他URL
 description: 了解如何设置[!UICONTROL Activity URL]以定义测试页面并确保精确的测试设计。
 title: A/B活动中的活动URL是什么？
 feature: A/B Tests
-hide: true
-hidefromtoc: true
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 32%

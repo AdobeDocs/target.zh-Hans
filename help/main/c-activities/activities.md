@@ -4,9 +4,9 @@ description: 通过 [!DNL Adobe Target] 活动为特定受众个性化内容并�
 title: 如何使用 [!DNL Target]个性化内容和测试页面设计？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '2218'
+source-wordcount: '2237'
 ht-degree: 26%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 26%
 
 | 元素 | 描述 |
 |--- |--- |
-| [!UICONTROL Show filters]图标<P>![显示筛选器图标](/help/main/assets/icons/Filter.svg) | 通过单击列表顶部附近的&#x200B;**[!UICONTROL Show Filters]**&#x200B;图标访问筛选器以按[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]、[!UICONTROL Decisioning Source]、[!UICONTROL Activity Source]和[!UICONTROL Properties]筛选活动。<P>有关详细信息，请参阅下面的[将筛选器应用到列表[!UICONTROL Activities]](#filters)。 |
-| 搜索字段 | 快速查找活动或减少[!UICONTROL Activity]列表中显示的活动数。 您可以使用下拉列表按[!UICONTROL Activity Name]、[!UICONTROL URL]或[!UICONTROL ID]进行搜索。 |
+| [!UICONTROL Show filters]图标<P>![显示筛选器图标](/help/main/assets/icons/Filter.svg) | 通过单击列表顶部附近的&#x200B;**[!UICONTROL Show Filters]**&#x200B;图标访问筛选器以按[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]、[!UICONTROL Decisioning Source]、[!UICONTROL Activity Source]和[!UICONTROL Properties]筛选活动。<P>您配置的过滤器在当前会话中是持久性的。<P>有关详细信息，请参阅下面的[将筛选器应用到列表[!UICONTROL Activities]](#filters)。 |
+| 搜索字段 | 快速查找活动或减少[!UICONTROL Activity]列表中显示的活动数。 您可以使用下拉列表按[!UICONTROL Activity Name]、[!UICONTROL URL]或[!UICONTROL ID]进行搜索。<P>您配置的搜索选项在当前会话中是永久性的。 |
 | [!UICONTROL Create Activity] | 创建一个活动。<P>有关创建各种活动类型的详细信息，请参阅： <ul><li>[创建[!UICONTROL A/B Test]活动](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[创建[!UICONTROL Auto-Allocate]活动](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[创建[!UICONTROL Auto-Target]活动](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[创建[!UICONTROL Automated Personalization]活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[创建[!UICONTROL Experience Targeting]活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[创建活动](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[创建[!UICONTROL Recommendations]活动](/help/main/c-recommendations/recommendations.md)</li></ul>有关每种类型的详细信息，请参阅下面的[活动类型](#types)。 |
 | [!UICONTROL Create mobile preview link]<P>![更多操作菜单](/help/main/assets/icons/MoreVertical.svg) | 使用[移动设备预览链接](https://experienceleague.adobe.com/en/docs/target-dev/developer/mobile-apps/target-mobile-preview)为移动设备应用程序活动执行简单的端到端QA。<P>单击&#x200B;**更多选项**&#x200B;图标，选择&#x200B;**创建移动设备预览链接**，然后选择要测试在移动设备上的活动。 |
 | 自定义表<P>![自定义表格图标](/help/main/assets/icons/ColumnSetting.svg) | 通过单击页面右上角的&#x200B;**[!UICONTROL Customize Table]**&#x200B;图标，然后选择或取消选择所需的列，更改[!UICONTROL Activity]列表中显示的列。<P>更改将应用于您的帐户，并在您注销[!DNL Target]后保持活动状态。 |

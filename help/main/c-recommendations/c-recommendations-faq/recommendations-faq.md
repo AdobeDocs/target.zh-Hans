@@ -5,9 +5,9 @@ title: 可在何处找到关于 [!DNL Recommendations]的问答？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3506'
 ht-degree: 84%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 84%
 # “推荐”常见问题解答
 
 关于 [!DNL Adobe Target] [!DNL Recommendations] 活动的常见问题 (FAQ) 的列表。
+
+## 通过API创建的[!DNL Recommendations]对象是否显示在[!DNL Target] UI中？
+
+是，通过API创建的[!UICONTROL Recommendations]对象（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]）现在可在UI中使用。
 
 ## 我是否可以使用[!DNL Target] API管理[!DNL Target]个UI创建的可视化选件？
 
@@ -93,7 +97,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 创建“推荐”活动时，为何并不是所有标准（包括自定义标准）都可选择？ {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
-可用的标准依据当前类别而定。在创建推荐选件时，算法选取器根据类别 ID 显示标准。
+可用的标准依据当前类别而定。在创建推荐产品建议时，算法选取器根据类别 ID 显示标准。
 
 如果要应用标准的位置不包含类别 ID，则算法选择器中不会提供相应的标准。
 
@@ -206,9 +210,9 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 >[!NOTE]
 >
->如果排除的实体过多，则 Recommendations 所表现出的行为就像是没有足够的实体来填充推荐模板。
+>如果排除的实体过多，则推荐所表现出的行为就像是没有足够的实体来填充推荐模板。
 
-要排除 `entityIds`，请将 `&excludes=${mbox.excludedIds}` 令牌追加到选件内容 URL。在提取了内容 URL 之后，所需参数将使用当前的 mbox 请求参数替代。
+要排除 `entityIds`，请将 `&excludes=${mbox.excludedIds}` 令牌追加到产品建议内容 URL。在提取了内容 URL 之后，所需参数将使用当前的 mbox 请求参数替代。
 
 默认情况下，新创建的推荐将启用此功能。现有推荐必须进行保存才能支持动态排除的实体。
 
@@ -234,15 +238,15 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 根据最近查看过的项目提供的推荐是否会保留在单个访客的多个设备中？ {#persist-across-devices}
 
-当访客启动会话时，会话 ID 会绑定到一台边缘计算机，并且临时个人资料缓存会存储在这台边缘计算机上。来自同一会话的后续请求会读取此个人资料缓存，包括最近查看过的项目。
+当访客启动会话时，会话 ID 会绑定到一台边缘计算机，并且临时轮廓缓存会存储在这台边缘计算机上。来自同一会话的后续请求会读取此轮廓缓存，包括最近查看过的项目。
 
-会话结束时（通常会在处于非活动状态 30 分钟后终止），会话状态（包括最近查看过的项目）会永久保存到同一地理位置边缘的更多永久个人资料存储中。
+会话结束时（通常会在处于非活动状态 30 分钟后终止），会话状态（包括最近查看过的项目）会永久保存到同一地理位置边缘的更多永久轮廓存储中。
 
-然后，来自不同设备的后续会话能够访问这些最近查看过的项目，但前提是新会话通过同一 Marketing Cloud ID (MCID)、Experience Cloud ID (ECID) 或 CustomerID/mbox3rdPartyId 关联到客户个人资料。
+然后，来自不同设备的后续会话能够访问这些最近查看过的项目，但前提是新会话通过同一 Marketing Cloud ID (MCID)、Experience Cloud ID (ECID) 或 CustomerID/mbox3rdPartyId 关联到客户轮廓。
 
 如果某位访客同时具有两个活动会话，那么除非强制这些设备共享会话 ID，否则一台设备上最近查看过的项目不会更新另一台设备上最近查看过的项目。这是针对此问题的可能解决方法，但[!DNL Target] 不会直接支持在多个设备上共享会话 ID。客户必须自己管理此 ID 共享。
 
-如果某位访客在一个设备上处于活动状态，然后在几分钟后又在另一台设备上处于活动状态，仍然会发生此行为。第一个设备的会话不会在 30 分钟内过期，并且在将个人资料状态写入永久状态并进行处理之前，最多可能会有五分钟的延迟。测试此行为时，请等待 35 分钟以使会话过期并存储个人资料。
+如果某位访客在一个设备上处于活动状态，然后在几分钟后又在另一台设备上处于活动状态，仍然会发生此行为。第一个设备的会话不会在 30 分钟内过期，并且在将轮廓状态写入永久状态并进行处理之前，最多可能会有五分钟的延迟。测试此行为时，请等待 35 分钟以使会话过期并存储轮廓。
 
 如果该访客并非同时具有两个活动会话，那么只要会话已结束，一台设备上最近查看过的项目就会更新另一台设备上最近查看过的项目。测试此行为时，请等待 35 分钟以使会话过期。
 
@@ -268,9 +272,9 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 | publishDate | 20210113 |
 | publishDateDisplay | 2021 年 1 月 13 日 |
 
-### 配置配置文件脚本：
+### 配置轮廓脚本：
 
-![示例配置文件脚本](/help/main/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
+![示例轮廓脚本](/help/main/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
 ### 配置包含规则：
 
@@ -284,9 +288,9 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 以下是[!UICONTROL Recommendations]活动的已知问题：
 
-* 当 [!DNL Target] 用 getOffer() 返回 JSON 选件时，它返回的是 JSON 类型。但是，如果您返回 JSON 推荐设计，则它返回的是 HTML 类型。
+* 当 [!DNL Target] 用 getOffer() 返回 JSON 产品建议时，它返回的是 JSON 类型。但是，如果您返回 JSON 推荐设计，则它返回的是 HTML 类型。
 * 60 天未通过信息源或 API 收到更新之后，已到期的实体可正确地到期；但是，在到期后并不从目录搜索的索引中删除已到期的实体。当前也不从目录搜索的索引中删除通过信息源或 API 删除的实体。(IRI-857)
-* A/B 活动和体验定位活动中的推荐选件不显示推荐栏的可视预览 (TGT-33426)
+* A/B 活动和体验定位活动中的推荐产品建议不显示推荐栏的可视预览 (TGT-33426)
 * 在 Target 用户界面中看不到通过 API 创建的收藏集、排除项、标准和设计，而只能通过 API 编辑它们。类似地，如果您在 Target 界面中创建任何此类项目，然后通过 API 编辑它们，则这些更改不反映在 Target UI 中。通过 API 编辑的项目应继续通过 API 编辑，以免丢失任何修改。(TGT-35777)
-* 通过 API 创建的 Recommendations 活动可在用户界面中查看，但只能通过 API 进行编辑。
+* 通过 API 创建的推荐活动可在用户界面中查看，但只能通过 API 进行编辑。
 * “标准”列表（卡片）视图中显示的“自定义标准”信息源状态每十分钟刷新一次，在极少情况下可能会超过十分钟。在“自定义标准”编辑视图中显示的状态是实时获取的，因此始终为最新。(TGT-35896、TGT-36173)

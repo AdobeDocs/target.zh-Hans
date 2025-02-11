@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
+source-git-commit: 7a8d34f3155622bc288fc2b3017edb8fde7e18a3
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 30%
+source-wordcount: '1273'
+ht-degree: 21%
 
 ---
 
@@ -18,6 +18,56 @@ ht-degree: 30%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## Target Standard/Premium 25.2.1（2025年2月11日）
+
+此版本包括以下更新：
+
+* [!UICONTROL Activities]用户界面更新
+* [!DNL Recommendations]用户界面更新
+
+### [!UICONTROL Activities]用户界面更新
+
+随着[!DNL Adobe Target] UI现代化工作的继续，我们很高兴地宣布已正式提供更新的[!UICONTROL Activities]用户界面。
+
+>[!NOTE]
+>
+>从2月11日开始，客户将逐步获得访问新[!UICONTROL Activities] UI的权限。 为确保为所有客户无缝部署，此版本将分阶段部署。 第一阶段会将初始的[!DNL Target]客户组升级到新的[!UICONTROL Activities] UI。 后续阶段将升级剩余客户。
+
+此更新基于最新的[!DNL Adobe Spectrum]设计系统，标准化了以前不一致的设计模式，同时添加了新的增强功能，例如：
+
+* [重新设计了报表](/help/main/administrating-target/reporting.md)，以便更好地了解活动结果
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md)页面，现在从[[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}获取实时分析的信息
+* [可自定义的列表视图](/help/main/c-activities/activities.md)，以便在不同的团队需求之间提供更好的灵活性
+* [增强的快速信息和详细信息屏幕](/help/main/c-activities/activities.md)以便于访问信息
+* [会话持久搜索和过滤器选项](/help/main/c-activities/activities.md)
+* 完全[重建[!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)，支持浏览器提供商的最新安全更新和现代用户界面
+
+  有关更新的VEC与先前版本有何不同的信息，请参阅[可视化体验编辑器更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+
+* [已更新 [!DNL Chrome] 扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)，该扩展支持清单V3以提高安全性并改进对第一方Cookie的支持
+
+![活动刷新](/help/main/r-release-notes/assets/activities-refresh.png)
+
+### [!DNL Recommendations]用户界面更新
+
+随着[!DNL Adobe Target] UI现代化工作的继续，我们很高兴地宣布已正式提供更新的[!DNL Recommendations]用户界面。
+
+>[!NOTE]
+>
+>从2月11日开始，客户将逐步获得访问新[!UICONTROL Recommendations] UI的权限。 为确保为所有客户无缝部署，此版本将分阶段部署。 第一阶段会将初始的[!DNL Target]客户组升级到新的[!UICONTROL Activities] UI。 后续阶段将升级剩余客户。
+
+此更新基于最新的[!DNL Adobe Spectrum]设计系统，标准化了以前不一致的设计模式，同时添加了新的增强功能，例如：
+
+* [产品目录搜索](/help/main/c-recommendations/c-products/catalog-search.md)现在具有更新的数据库，允许实时同步产品
+* 通过API创建的[!UICONTROL Recommendations]对象（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]）[现在可在UI中使用](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [推荐设置](/help/main/administrating-target/recommendations-settings.md)已合并到[!UICONTROL Administration]部分下
+* 可自定义的列表视图，可跨不同的团队需求提供更好的灵活性
+* 已使用[语法高亮显示和行编号](/help/main/c-experiences/c-manage-content/create-json-offer.md)刷新HTML和JSON代码编辑器
+* 增强的快速信息和详细信息屏幕，可更轻松地访问信息
+* 会话持久搜索和过滤器选项
+
+![推荐UI刷新](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ## Target Standard/Premium 25.1.1（2025年1月9日）
 
@@ -35,7 +85,7 @@ ht-degree: 30%
 
 * **批量选件管理**：同时选择并删除或移动多个选件。
 
-* **[!UICONTROL Code Editor]升级**：使用语法突出显示和行编号刷新HTML和JSON编辑器。
+* **[!UICONTROL Code Editor]升级**：使用语法突出显示和行编号刷新了HTML和JSON编辑器。
 
 * **已改进优惠卡**：已增强快速信息和详细信息卡，以便更轻松地访问信息。
 
@@ -55,7 +105,7 @@ ht-degree: 30%
 
 >[!IMPORTANT]
 >
->如果您无法在2025年2月3日之前完成实施审查并解决任何问题，则可以请求延长一次，为期6个月。 确保您的请求在2025年1月31日之前提交。 Adobe将审核并决定您的请求。
+>如果您无法在2025年2月3日之前完成实施审查并解决任何问题，则可以请求延长一次，为期6个月。 确保您的请求在2025年1月31日之前提交。 Adobe将审核您的请求并做出决定。
 
 若要在手动呈现建议时受益于此优化，请查看您的[[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}，以确保在手动呈现体验后或使用`applyPropositions`方法（或相应的[!DNL Launch]操作作为助手）呈现体验时发送通知。
 

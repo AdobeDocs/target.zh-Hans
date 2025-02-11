@@ -5,9 +5,9 @@ title: 如何配置可视化体验编辑器(VEC)？
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 49%
 
 ---
@@ -55,7 +55,12 @@ ht-degree: 49%
 
 启用体验快照后，活动工作流程图中会生成体验的缩览图。但对于某些用户而言，禁用体验快照可能会提高性能。
 
-## [!BADGE 高级]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="查看Target Premium中包含的内容。"}
+## 移动设备视区配置
+
+>[!NOTE]
+>
+>[!UICONTROL Mobile Viewport Configuration]设置是[Target Premium](/help/main/c-intro/intro.md#premium)功能。
+
 
 您可以添加预览体验时要使用的设备。每个设备都有一个关联的受众。
 

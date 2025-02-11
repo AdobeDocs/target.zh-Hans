@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1263'
 ht-degree: 89%
 
 ---
@@ -229,6 +229,7 @@ ht-degree: 89%
    + 可视化体验编辑器 (VEC) {#vec}
       + [可视化体验编辑器概述](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [可视化体验编辑器选项](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [可视化体验编辑器更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
       + [在相似页面上包含相同体验](c-experiences/c-visual-experience-composer/temtest.md)
       + [多页面活动](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [活动冲突](c-experiences/c-visual-experience-composer/activity-collisions.md)

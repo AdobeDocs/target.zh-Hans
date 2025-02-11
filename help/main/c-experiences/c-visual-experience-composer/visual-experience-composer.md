@@ -4,16 +4,20 @@ description: 了解在Adobe Target中使用可视化体验编辑器(VEC)的基�
 title: 如何使用可视化体验编辑器(VEC)？
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 59%
+source-wordcount: '1130'
+ht-degree: 57%
 
 ---
 
 # 可视化体验编辑器 (VEC)
 
 有关在[!DNL Adobe Target]中使用[!UICONTROL Visual Experience Composer] (VEC)的信息。
+
+>[!NOTE]
+>
+>[!DNL Target Standard/Premium] 25.2.1（2025年2月11日）版本包含VEC的更新版本。 有关更新的VEC与先前版本有何不同的信息，请参阅[可视化体验编辑器更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)。
 
 VEC是一个WYSIWYG用户界面，可让您轻松地在站点上下文中创建和测试个性化体验和选件。 您可以通过拖放、交换和修改网页（或选件）或移动网页的布局和内容来为[!DNL Target]活动创建体验和选件。
 

@@ -4,7 +4,7 @@ description: 了解Adobe Target 25.2.1版本（2025年2月11日）中可视化�
 title: 新可视化体验编辑器(VEC)中引入哪些更改？
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
+source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ![属性面板](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-单击面板顶部的图标可编辑HTML代码或删除、复制或隐藏元素。 更改显示在[!UICONTROL Modifications]面板中。
+单击面板顶部的图标以编辑HTML代码或删除、复制或隐藏元素。 更改显示在[!UICONTROL Modifications]面板中。
 
 [!UICONTROL Properties]面板可在右边栏中折叠。 单击面板右侧的[!UICONTROL Show/Hide Properties]图标（![属性图标](/help/main/assets/icons/Propertie.svg) ）以折叠或显示[!UICONTROL Properties]面板。
 

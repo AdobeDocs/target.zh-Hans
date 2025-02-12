@@ -1,10 +1,10 @@
 ---
-keywords: 可视化体验编辑器选项；体验编辑器选项；体验选项；编辑文本；编辑html；编辑文本/html；编辑背景颜色；背景颜色；插入元素；编辑链接；链接；可视化体验编辑器链接；编辑css类；css类；交换选件；选件交换；交换图像；图像交换；移除项；项移除；隐藏项；项隐藏；重新排列；移动元素；元素移动；调整元素大小；元素大小；扩展选择；导航到此链接；链接导航；链接；撤消；重做；撤消/重做；自定义事件；Web组件；选件决策；offer decisioning
+keywords: 可视化体验编辑器选项；体验编辑器选项；体验选项；编辑文本；编辑html；编辑文本/html；编辑背景颜色；背景颜色；插入元素；编辑链接；链接；可视化体验编辑器链接；编辑css类；css类；交换选件；选件交换；交换图像；图像交换；移除项；项移除；隐藏项；项隐藏；重新排列；移动元素；元素移动；调整元素大小；元素大小；扩展选择；导航到此链接；链接导航；链接；链接；撤消；重做；撤消/重做；自定义事件；Web组件；选件决策；选件决策
 description: 浏览 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)中可用的选项。
 title: 如何使用[!UICONTROL Visual Experience Composer] (VEC)选项？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 14%
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->[!DNL Target Standard/Premium] 25.2.1（2025年2月11日）版本包含VEC的更新版本。 有关更新的VEC与先前版本有何不同的信息，请参阅[可视化体验编辑器更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)。
+>[!DNL Target Standard/Premium] 25.2.1（2025年2月12日）版本包含VEC的更新版本。 有关更新的VEC与先前版本有何不同的信息，请参阅[可视化体验编辑器更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)。
 
 
 各种[!UICONTROL Visual Experience Composer] (VEC)操作将分组到相应的菜单选项中，以使您的工作更快捷、更有效：
@@ -38,7 +38,7 @@ ht-degree: 14%
 
 * 基本(分隔条、HTML、图像)。
 * 文本（标题、段落、链接）。
-* 动态([推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)，[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)，HTML选件)。
+* 动态([推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)，[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML选件)。
 
 利用图像顶部的菜单，您可以执行以下操作：
 
@@ -51,7 +51,7 @@ ht-degree: 14%
 
 通过框架顶部的图标，您可以执行以下操作：
 
-* 编辑HTML(![插入HTML图标](/help/main/assets/icons/Code.svg) )。 有关详细信息，请参阅下面的[编辑HTML](#html)。
+* 编辑HTML (![插入HTML图标](/help/main/assets/icons/Code.svg) )。 有关详细信息，请参阅下面的[编辑HTML](#html)。
 * 复制图像（ ![复制图标](/help/main/assets/icons/Code.svg) ）。
 * 删除图像（ ![删除图标](/help/main/assets/icons/Delete.svg) ）。
 * 隐藏图像（ ![隐藏图标](/help/main/assets/icons/VisibilityOff.svg) ）。
@@ -77,7 +77,7 @@ ht-degree: 14%
 
 * 基本(分隔条、HTML、图像)。
 * 文本（标题、段落、链接）。
-* 动态([推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)，[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)，HTML选件)。
+* 动态([推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)，[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML选件)。
 
 单击[!UICONTROL Show Modifications]图标（![显示修改图标](/help/main/assets/icons/History.svg)）以显示对体验的修改。
 
@@ -88,8 +88,8 @@ ht-degree: 14%
 * 配置文本的属性（粗体、斜体、下划线或删除线）（ ![选择文本属性图标](/help/main/assets/icons/Text.svg) ）。
 * 配置文本的对齐方式（左、中、右、两端对齐）（ ![文本对齐方式图标](/help/main/assets/icons/TextAlignCenter.svg) ）。
 * 插入链接（![插入链接图标](/help/main/assets/icons/Link.svg) ）。
-* 将内容替换为HTML选件[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)或[推荐]/help/main/c-recommendations/recommendations-as-an-offer.md)。
-* 编辑HTML(![插入HTML图标](/help/main/assets/icons/Code.svg) )。
+* 将内容替换为HTML选件、[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)或[推荐]/help/main/c-recommendations/recommendations-as-an-offer.md)。
+* 编辑HTML (![插入HTML图标](/help/main/assets/icons/Code.svg) )。
 * 添加个性化( ![添加Personalization图标](/help/main/assets/icons/PersonalizationField.svg) )。
 * 删除图像（ ![删除图标](/help/main/assets/icons/Delete.svg) ）。
 
@@ -97,7 +97,7 @@ ht-degree: 14%
 
 通过框架顶部的图标，您可以执行以下操作：
 
-* 编辑HTML(![插入HTML图标](/help/main/assets/icons/Code.svg) )。 有关详细信息，请参阅下面的[编辑HTML](#html)。
+* 编辑HTML (![插入HTML图标](/help/main/assets/icons/Code.svg) )。 有关详细信息，请参阅下面的[编辑HTML](#html)。
 * 复制文本（ ![复制图标](/help/main/assets/icons/Code.svg) ）。
 * 删除文本（ ![删除图标](/help/main/assets/icons/Delete.svg) ）。
 * 隐藏文本（ ![隐藏图标](/help/main/assets/icons/VisibilityOff.svg) ）。

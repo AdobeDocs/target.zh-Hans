@@ -4,7 +4,7 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 34%
@@ -17,12 +17,12 @@ ht-degree: 34%
 
 ## 更新
 
-### [!DNL Target Standard/Premium] 25.2.1（2025年2月11日）
+### [!DNL Target Standard/Premium] 25.2.1（2025年2月12日）
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
 | 2 月 11 日 | [可视化体验编辑器更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | 新文章，用于说明VEC早期版本与更新版本之间的差异。 |
-|  | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.2.1用户界面更新（计划于2025年2月11日发布）的发行说明。 许多文章已更新以反映UI更改。 |
+|  | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.2.1用户界面更新（计划于2025年2月12日）的发行说明。 许多文章已更新以反映UI更改。 |
 
 ### [!DNL Target Standard/Premium] 25.1.1（2025年1月9日）
 

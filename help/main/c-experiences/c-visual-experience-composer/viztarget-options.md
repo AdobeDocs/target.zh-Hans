@@ -4,21 +4,134 @@ description: 浏览 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] 
 title: 如何使用[!UICONTROL Visual Experience Composer] (VEC)选项？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 14%
+source-wordcount: '1847'
+ht-degree: 9%
 
 ---
 
 # 可视化体验编辑器选项
 
-单击[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)中的某个页面元素时，会显示一个菜单，其中提供了可用于该元素类型的选项。 此外，页面底部会显示一个DOM路径，可让您轻松浏览页面结构
+[!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月12日）引入了更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文介绍了已更新的UI及其选项。
+
+>[!IMPORTANT]
+>
+>更新的[!UICONTROL Visual Editing Composer]需要Chrome Web Store上提供的[!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+
+创建或编辑现有活动时将显示VEC。
+
+![可视化体验编辑器 (VEC)](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
+
+## VEC UI概述
+
+以下部分说明更新后的VEC中为[!UICONTROL A/B Test]活动提供的选项。 选项因活动类型而异。
+
+### [!UICONTROL Experiences]面板
+
+[!UICONTROL Experiences]面板显示在VEC的左边栏中。
+
+![体验面板](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
+
+您可以使用[!UICONTROL Experiences]面板查看、创建、重命名或删除体验。
+
+[!UICONTROL Experiences]面板中提供了以下选项：
+
+* **查看体验**：要查看体验，请单击所需的体验以在[!UICONTROL Design]画布中显示它。
+* **添加体验**：单击&#x200B;**[!UICONTROL Add]**&#x200B;图标（![添加图标](/help/main/assets/icons/Add.svg)）以添加新体验。 根据需要配置新体验。
+* **重命名体验**：单击&#x200B;**[!UICONTROL Rename]**&#x200B;图标（![重命名图标](/help/main/assets/icons/Rename.svg)）以显示[!UICONTROL Rename Experience]对话框。 指定新名称，然后单击&#x200B;**[!UICONTROL Save]**。
+* **复制、删除或重新定向体验**：单击&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg)），然后选择&#x200B;**[!UICONTROL Duplicate]**、**[!UICONTROL Delete]**&#x200B;或&#x200B;**[!UICONTROL Redirect to URL]**。
+
+### 活动设置/配置
+
+单击[!UICONTROL Design]画布顶部显示的[!UICONTROL Configure]图标（![配置图标](/help/main/assets/icons/Setting.svg)）以显示活动属性菜单。
+
+![活动配置选项](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
+
+以下选项可供选择：
+
+* **[!UICONTROL Properties]**：将属性分配给活动或从活动中删除属性。 [!UICONTROL Properties]是([[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)功能。 有关更多信息，请参阅[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
+* **[!UICONTROL Page Delivery]**：在您的网站上类似页面上包含相同体验。 使用页面模板为您的页面提供结构，或者如果页面包含类似的元素，则使用类似的结构化页面元素或跨整个域测试变体。 有关详细信息，请参阅[在相似页面上包含相同体验](/help/main/c-experiences/c-visual-experience-composer/temtest.md)。
+* **[!UICONTROL Site Preferences]**：配置您的站点首选项以指定[!DNL Target]生成CSS选择器的方式。 有关详细信息，请参阅[配置[!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md)中的&#x200B;_CSS选择器_。
+* **添加其他页面**：将其他页面添加到活动以创建多页面活动，该活动允许您使用特定于每个页面的设计跨多个页面创建故事。 有关详细信息，请参阅[多页面活动](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)。
+* **单个受众**：对该活动使用单个受众。
+* **多个受众**：为活动分配多个受众。 单击“添加受众”图标（![添加图标](/help/main/assets/icons/Add.svg)），然后从列表中选择一个或多个受众。 您也可以[合并受众](/help/main/c-target/combining-multiple-audiences.md)或从[!UICONTROL Add Audiences]对话框[创建新的受众](/help/main/c-target/c-audiences/create-audience.md)。
+
+### [!UICONTROL Design]/[!UICONTROL Browse]模式
+
+使用设计画布顶部显示的[!UICONTROL Design]/[!UICONTROL Browse]切换功能，在设计模式和浏览模式之间切换。
+
+![设计和浏览切换](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
+
+使用[!UICONTROL Browse]模式浏览您的网站并选择您要更新的视图或页面。 切换回[!UICONTROL Design]模式以添加或编辑更改。
+
+### [!UICONTROL Undo]/[!UICONTROL Redo]
+
+您可以通过单击[!UICONTROL Undo]图标（![撤消图标](/help/main/assets/icons/Undo.svg) ）来撤消所做的更改。
+
+VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)
+
+要重做某项操作，请展开撤消/[!UICONTROL Redo]按钮组并选择[!UICONTROL Redo]。
+
+### [!UICONTROL Components]面板
+
+您可以向网页添加许多组件，并使用新的[!UICONTROL Components]面板根据需要对其进行编辑。
+
+![组件面板](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
 >[!NOTE]
 >
->[!DNL Target Standard/Premium] 25.2.1（2025年2月12日）版本包含VEC的更新版本。 有关更新的VEC与先前版本有何不同的信息，请参阅[可视化体验编辑器更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)。
+>如果您在此区域中看到[!UICONTROL Modifications]面板而不是[!UICONTROL Components]面板，请单击&#x200B;**[!UICONTROL Show Components]**&#x200B;图标（![显示组件图标](/help/main/assets/icons/Add.svg)）。 [!UICONTROL Show Components]图标（![显示组件图标](/help/main/assets/icons/Add.svg)）和[!UICONTROL Show Modifications]图标（![显示修改面板](/help/main/assets/icons/History.svg)）用作切换以显示相应的选项。
 
+要向体验添加新组件，请执行以下操作：
+
+1. 单击要添加以高亮显示的所需组件。
+
+   可用的组件将分组为逻辑容器：
+
+   * [!UICONTROL Basic]
+      * [!UICONTROL Divider]
+      * [!UICONTROL HTML]
+      * [!UICONTROL Image]
+   * [!UICONTROL Text]
+      * [!UICONTROL Heading]
+      * [!UICONTROL Paragraph]
+      * [!UICONTROL Link]
+   * [!UICONTROL Dynamic]
+      * [[!UICONTROL Recommendation]](/help/main/c-recommendations/recommendations-as-an-offer.md)
+      * [[!UICONTROL Experience Fragment]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+      * [[!UICONTROL HTML Offer]](/help/main/c-experiences/c-manage-content/manage-content.md)
+
+1. 将组件拖动到[!UICONTROL Design]画布中的现有页面元素上。
+1. 选择将组件插入到选定元素之前，之后。
+
+   与以前的VEC版本相比，您不能将选定的元素替换为组件。
+
+### [!UICONTROL Modifications]面板
+
+要打开[!UICONTROL Modifications]面板，请单击[!UICONTROL Components]面板中的[!UICONTROL Show Modifications]图标（![显示修改面板](/help/main/assets/icons/History.svg)）。
+
+![“修改”面板](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>[!UICONTROL Show Components]图标（![显示组件图标](/help/main/assets/icons/Add.svg)）和[!UICONTROL Show Modifications]图标（![显示修改面板](/help/main/assets/icons/History.svg)）用作切换以显示相应的选项。
+
+[!UICONTROL Modifications]面板显示在[!UICONTROL Visual Experience Composer] (VEC)中对页面所做的所有更改，并允许进行其他更改（如CSS选择器、Mbox和自定义代码）。
+
+单击面板标题中的&#x200B;**[!UICONTROL More Options]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg) ）以添加修改、删除所有修改或删除所有无效修改。 单击[!UICONTROL Select]以执行批量操作： [!UICONTROL Apply to All Pages]或[!UICONTROL Delete]。
+
+单击每个修改旁边的&#x200B;**[!UICONTROL More Options]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg) ）以查看其信息、删除修改或将修改应用于更多视图。
+
+### [!UICONTROL Design]画布
+
+[!UICONTROL Design]画布允许您选择视区，包括适合屏幕、[!UICONTROL Desktop]、[!UICONTROL Tablet]、[!UICONTROL Mobile Landscape]和[!UICONTROL Mobile Portrait]。 默认情况下，画布将页面与[管理](/help/main/administrating-target/visual-experience-composer-set-up.md)部分中定义的视区一起适合屏幕。
+
+![视区选项](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
+
+您还可以通过单击相应的图标（![放大图标](/help/main/assets/icons/ZoomIn.svg)或![缩小图标](/help/main/assets/icons/ZoomOut.svg) ）进行放大或缩小。
+
+单击[!UICONTROL Design]画布中的某个页面元素时，会显示一个菜单，其中提供了可用于该元素类型的选项。 此外，页面底部会显示一个 DOM 路径，可让您轻松浏览页面结构。
 
 各种[!UICONTROL Visual Experience Composer] (VEC)操作将分组到相应的菜单选项中，以使您的工作更快捷、更有效：
 
@@ -26,15 +139,29 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->可用选项取决于要创建或编辑的活动类型和元素。 以下部分包含有关图像和文本的各种选项的信息。
+>可用选项取决于要创建或编辑的活动类型和元素。 有关在[!UICONTROL A/B Test]活动中编辑图像和选件的更多信息，请参阅下面的[使用画布[!UICONTROL Design]编辑元素](#design)。
 
-## 图像选项
+### [!UICONTROL Properties]面板
+
+“[!UICONTROL Properties]”面板允许您更改页面上选定元素的属性，无论这些元素是HTML元素还是特定于[!DNL Target]的对象，例如推荐或选件。
+
+![属性面板](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
+
+单击面板顶部的图标以编辑HTML代码或删除、复制或隐藏元素。 更改显示在[!UICONTROL Modifications]面板中。
+
+[!UICONTROL Properties]面板可在右边栏中折叠。 单击面板右侧的[!UICONTROL Show/Hide Properties]图标（![属性图标](/help/main/assets/icons/Propertie.svg) ）以折叠或显示[!UICONTROL Properties]面板。
+
+## 使用[!UICONTROL Design]画布编辑元素 {#design}
+
+以下部分将向您展示如何在[!UICONTROL Design]画布中编辑图像和文本。 “设计”画布以及“组件”、“修改”和“属性”面板为您提供了强大的工具，让您能够轻松创建活动的体验。
+
+### 图像选项
 
 如果单击[!UICONTROL A/B Test]活动中的图像，则VEC将与下图类似：
 
 已选择图像的![VEC](/help/main/c-experiences/c-visual-experience-composer/assets/vec-image.png)
 
-从左侧的“组件”框架中选择组件以插入以下元素：
+从左侧的[!UICONTROL Components]框架中选择组件以插入以下元素：
 
 * 基本(分隔条、HTML、图像)。
 * 文本（标题、段落、链接）。
@@ -47,7 +174,7 @@ ht-degree: 14%
 * 添加个性化( ![添加Personalization图标](/help/main/assets/icons/PersonalizationField.svg) )。
 * 删除图像（ ![删除图标](/help/main/assets/icons/Delete.svg) ）。
 
-利用右侧的框架，可以进一步配置图像的属性。
+通过右侧的[!UICONTROL Properties]窗格，可以进一步配置图像的属性。
 
 通过框架顶部的图标，您可以执行以下操作：
 
@@ -67,7 +194,7 @@ ht-degree: 14%
 * 配置元素的效果（不透明度）。 单击[!UICONTROL Show Advanced Options]可配置图像的棕褐色、灰度、对比度、亮度和模糊值。 也可以反转或旋转图像。
 * 配置图像的内联样式。
 
-## 文本选项
+### 文本选项
 
 如果您单击[!UICONTROL A/B Test]活动中的文本，则VEC将与下图类似：
 
@@ -88,12 +215,12 @@ ht-degree: 14%
 * 配置文本的属性（粗体、斜体、下划线或删除线）（ ![选择文本属性图标](/help/main/assets/icons/Text.svg) ）。
 * 配置文本的对齐方式（左、中、右、两端对齐）（ ![文本对齐方式图标](/help/main/assets/icons/TextAlignCenter.svg) ）。
 * 插入链接（![插入链接图标](/help/main/assets/icons/Link.svg) ）。
-* 将内容替换为HTML选件、[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)或[推荐]/help/main/c-recommendations/recommendations-as-an-offer.md)。
+* 将内容替换为HTML选件、[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)或[推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 * 编辑HTML (![插入HTML图标](/help/main/assets/icons/Code.svg) )。
 * 添加个性化( ![添加Personalization图标](/help/main/assets/icons/PersonalizationField.svg) )。
 * 删除图像（ ![删除图标](/help/main/assets/icons/Delete.svg) ）。
 
-利用右侧的框架，可以进一步配置文本的属性。
+通过右侧的[!UICONTROL Properties]面板，可进一步配置文本的属性。
 
 通过框架顶部的图标，您可以执行以下操作：
 
@@ -115,7 +242,7 @@ ht-degree: 14%
 * 配置元素的效果（不透明度）。 单击[!UICONTROL Show Advanced Options]可配置图像的棕褐色、灰度、对比度、亮度和模糊值。 也可以反转或旋转文本。
 * 配置内联样式。
 
-## 编辑HTML {#html}
+## 编辑HTML
 
 除了 HTML 代码外，您还可以编辑和插入自定义 JavaScript。
 

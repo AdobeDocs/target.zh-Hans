@@ -4,16 +4,16 @@ description: 了解Adobe Target 25.2.1版本（2025年2月11日）中可视化�
 title: 新可视化体验编辑器(VEC)中引入哪些更改？
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Visual Experience Composer]个更改
 
-[!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月11日）引入了更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文介绍VEC的先前版本与更新版本之间的差异。
+[!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月12日）引入了更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文介绍VEC的先前版本与更新版本之间的差异。
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ![组件面板](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-要添加新组件，请将要插入的组件拖动到编辑画布中的现有页面元素上。 然后选择将组件插入到选定元素的前面，也就是之后。
+要添加新组件，请从要插入到“设计”画布中的现有页面元素之上的“组件”面板中拖动该组件。 然后选择将组件插入到选定元素的前面，也就是之后。
 
 与以前的VEC版本相比，您不能将选定的元素替换为组件。
 

@@ -1,18 +1,18 @@
 ---
 keywords: 可视化体验编辑器；vec；默认url；增强型体验编辑器；eec；混合内容；体验快照；移动设备视区；css；css选择器
-description: 了解如何通过指定Adobe的常规设置、移动设备视区配置和CSS选择器来配置体验编辑器 [!DNL Target] 可视化体验编辑器(VEC)。
+description: 了解如何通过指定其常规设置、移动设备视区配置和CSS选择器来配置Adobe [!DNL Target] 可视化体验编辑器(VEC)。
 title: 如何配置可视化体验编辑器(VEC)？
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '676'
 ht-degree: 49%
 
 ---
 
-# 配置可视体验编辑器
+# 配置[!UICONTROL Visual Experience Composer]
 
 通过指定其常规设置、移动设备视区配置和CSS选择器来配置[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)。
 

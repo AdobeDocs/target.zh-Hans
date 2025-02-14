@@ -1,10 +1,10 @@
 ---
 keywords: 可视化体验编辑器；vec；wysiwyg
-description: 了解Adobe Target 25.2.1版本（2025年2月11日）中可视化体验编辑器(VEC)中引入的更改。
+description: 了解Adobe Target 25.2.1版本（2025年2月17日）中可视化体验编辑器(VEC)中引入的更改。
 title: 新可视化体验编辑器(VEC)中引入哪些更改？
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!UICONTROL Visual Experience Composer]个更改
 
-[!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月12日）引入了更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文介绍VEC的先前版本与更新版本之间的差异。
+[!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）引入了更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文介绍VEC的先前版本与更新版本之间的差异。
 
 >[!IMPORTANT]
 >

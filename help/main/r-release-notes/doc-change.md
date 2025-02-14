@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '221'
 ht-degree: 30%
 
 ---
@@ -21,10 +21,11 @@ ht-degree: 30%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
+| 2 月 13 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 已将[!DNL Target Standard/Premium] 25.2.1用户界面更新版本更改为2025年2月17日。 |
 | 2 月 12 日 | [可视体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 更新了整个主题以解释[!DNL Target Standard/Premium] 25.2.1版本（2025年2月12日）中引入的更新VEC。 |
 |  | [支持的浏览器](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | 添加了关于使用[!DNL Adobe Experience Platform Web SDK]的Target实施中支持哪些浏览器的信息。 |
 |  | [可视化体验编辑器更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | 新文章，用于说明VEC早期版本与更新版本之间的差异。 |
-|  | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.2.1用户界面更新（计划于2025年2月12日）的发行说明。 许多文章已更新以反映UI更改。 |
+|  | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.2.1用户界面更新（计划于2025年2月17日发布）的发行说明。 许多文章已更新以反映UI更改。 |
 
 ### [!DNL Target Standard/Premium] 25.1.1（2025年1月9日）
 

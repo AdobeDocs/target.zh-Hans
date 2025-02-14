@@ -6,9 +6,9 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1277'
 ht-degree: 21%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 21%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## Target Standard/Premium 25.2.1（2025年2月12日）
+## Target Standard/Premium 25.2.1（2025年2月17日）
 
 此版本包括以下更新：
 
@@ -32,7 +32,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->从2月12日开始，客户将逐步获得访问新[!UICONTROL Activities] UI的权限。 为确保为所有客户无缝部署，此版本将分阶段部署。 第一阶段会将初始的[!DNL Target]客户组升级到新的[!UICONTROL Activities] UI。 后续阶段将升级剩余客户。
+>从2月17日开始，客户将逐步获得访问新[!UICONTROL Activities] UI的权限。 为确保为所有客户无缝部署，此版本将分阶段部署。 第一阶段会将初始的[!DNL Target]客户组升级到新的[!UICONTROL Activities] UI。 后续阶段将升级剩余客户。
 
 此更新基于最新的[!DNL Adobe Spectrum]设计系统，标准化了以前不一致的设计模式，同时添加了新的增强功能，例如：
 
@@ -41,9 +41,12 @@ ht-degree: 21%
 * [可自定义的列表视图](/help/main/c-activities/activities.md)，以便在不同的团队需求之间提供更好的灵活性。
 * [增强的快速信息和详细信息屏幕](/help/main/c-activities/activities.md)，以便更轻松地访问信息。
 * [会话持久搜索和筛选器选项](/help/main/c-activities/activities.md)。
-* 完全[重新生成了[!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)，支持浏览器提供商的最新安全更新以及新式用户界面。 有关详细信息，请参阅[可视化体验编辑器](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)选项。
+* 完全[重新生成了[!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)，支持浏览器提供商的最新安全更新以及新式用户界面。
 
-  有关更新的VEC与先前版本有何不同的信息，请参阅[可视化体验编辑器更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)。
+  有关更新的VEC与先前版本有何不同的信息，请参阅：
+
+   * [可视化体验编辑器更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+   * [可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
 * [已更新 [!DNL Chrome] 扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)，该扩展支持清单V3以提高安全性并改进对第一方Cookie的支持。
 
@@ -55,7 +58,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->从2月12日开始，客户将逐步获得访问新[!UICONTROL Recommendations] UI的权限。 为确保为所有客户无缝部署，此版本将分阶段部署。 第一阶段会将初始的[!DNL Target]客户组升级到新的[!UICONTROL Activities] UI。 后续阶段将升级剩余客户。
+>从2月17日开始，客户将逐步获得访问新[!UICONTROL Recommendations] UI的权限。 为确保为所有客户无缝部署，此版本将分阶段部署。 第一阶段会将初始的[!DNL Target]客户组升级到新的[!UICONTROL Activities] UI。 后续阶段将升级剩余客户。
 
 此更新基于最新的[!DNL Adobe Spectrum]设计系统，标准化了以前不一致的设计模式，同时添加了新的增强功能，例如：
 

@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Customer Journey Analytics] 中使用 [!DNL Target]
 title: 什么是 [!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]中报告？
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1037'
 ht-degree: 54%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 54%
 
 * 营销人员可以随时将 [!DNL Customer Journey Analytics] 成功量度动态应用到 [!DNL Target] 活动报表。在运行活动之前什么都不需要指定。
 * 营销人员可以利用[!DNL Customer Journey Analytics]功能（如[试验面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}）来进一步分析其网站个性化。
-* 营销人员可以拥有[[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank}和[!DNL Target]的单个报表源。 可将这两种个性化产品都连接到 [!DNL Customer Journey Analytics] 以更全面地了解您的 Web 个性化情况。
+* 营销人员可以拥有[!DNL Adobe Journey Optimizer]和[!DNL Target]的单个报表源。 可将这两种个性化产品都连接到 [!DNL Customer Journey Analytics] 以更全面地了解您的 Web 个性化情况。
 
 ## 注意事项
 
@@ -59,11 +59,11 @@ ht-degree: 54%
 |--- |--- |
 | [使用手动流量拆分的 A/B 活动](/help/main/c-activities/t-test-ab/test-ab.md) | 是 |
 | [使用自动分配的 A/B 活动](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 否 |
-| [使用自动定位的 A/B 活动](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 否 |
+| [使用自动锁定的 A/B 活动](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 否 |
 | [体验定位 (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 是 |
 | [多变量测试 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 |
 | [Automated Personalization (AP) 活动](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |
-| [Recommendations 活动](/help/main/c-recommendations/recommendations.md) | 是 |
+| [推荐活动](/help/main/c-recommendations/recommendations.md) | 是 |
 
 ## 创建使用 [!DNL Customer Journey Analytics] 作为报表源的活动
 

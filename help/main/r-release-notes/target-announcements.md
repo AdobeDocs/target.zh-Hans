@@ -3,10 +3,12 @@ keywords: 公告;skill builder;开发人员聊天;喝咖啡休息时间;活动;f
 description: 阅读公告并报名参加 Adobe [!DNL Target] 活动，包括 Skill Builder 讲座、开发人员和产品经理聊天、网络研讨会等。
 title: 可在何处找到 [!DNL Target] 公告和活动信息？
 feature: Release Notes
+hide: true
+hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '2350'
+source-wordcount: '2052'
 ht-degree: 98%
 
 ---
@@ -36,7 +38,11 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 +++ -->
 
-## Adobe Target 2024 个性化成熟度网络研讨会系列 {#maturity-series}
+## 过去的网络研讨会和技能培训课程录像
+
+访问以往活动的录像（如果可用）：
+
+### Adobe Target 2024 个性化成熟度网络研讨会系列 {#maturity-series}
 
 这一现场网络研讨会系列将重点介绍 [!DNL Adobe Target] 的关键功能、用例和技巧，以通过 [!DNL Adobe Experience Platform] 随着客户扩充其探索和个性化历程时发掘 AI 支持的个性化。
 
@@ -46,37 +52,25 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 * **最大化独特功能**：用高性能建议为取得成功而定制成功，从而最大限度地提高投资回报率、收入和转化率。
 * **高级Personalization策略**：深入了解AI/ML高级技术以扩展业务影响，与新区段/受众引起共鸣，并微调个性化模型以优化体验。
 
-* **[请在此处登记](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++日期和详细信息
++++详细信息
 
 * **探索无尽的可能性**
-   * **2024 年 1 月 16 日星期二**
-   * **上午 10 点至 11 点 (PST -8 GMT)**
 
-     个性化成熟度的核心是人工智能和机器学习。[!DNL Adobe Target] 利用这些技术了解用户行为、预测偏好并动态地定制内容。通过利用 AI 和 ML 的强大功能，了解品牌如何超越静态 A/B 测试和基于规则的个性化以投放动态、与情境相关的体验。
+  个性化成熟度的核心是人工智能和机器学习。[!DNL Adobe Target] 利用这些技术了解用户行为、预测偏好并动态地定制内容。通过利用 AI 和 ML 的强大功能，了解品牌如何超越静态 A/B 测试和基于规则的个性化以投放动态、与情境相关的体验。
 
-     [收听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
+  [收听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **高性能建议**
-   * **2024 年 2 月 13 日星期二**
-   * **上午 10 点至 11 点 (PST -8 GMT)**
 
-     了解推荐算法如何变革商业规则，从而提高参与度和收入。从个性化产品建议到内容推荐，无缝引导用户完成整个历程的能力可直接有助于实现显著的业务增长。
+  了解推荐算法如何变革商业规则，从而提高参与度和收入。从个性化产品建议到内容推荐，无缝引导用户完成整个历程的能力可直接有助于实现显著的业务增长。
 
-     [收听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
+  [收听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **发掘 AI 支持的个性化**
-   * **2024 年 3 月 12 日星期二**
-   * **上午 10 点至 11 点 (PST -8 GMT)**
 
-     [!DNL Adobe Target] 在客户生命周期的每个阶段都促成 AI 支持的个性化功能，带来一对一的个性化体验。从获取到保留，了解企业如何深入了解简化流程、最大限度地减少手动工作以及大规模地投放与上下文相关、富有吸引力的客户体验。
+  [!DNL Adobe Target] 在客户生命周期的每个阶段都促成 AI 支持的个性化功能，带来一对一的个性化体验。从获取到保留，了解企业如何深入了解简化流程、最大限度地减少手动工作以及大规模地投放与上下文相关、富有吸引力的客户体验。
 
 +++
-
-## 过去的网络研讨会和技能培训课程录像
-
-访问以往活动的录像（如果可用）：
 
 ### 通过做好旺季准备为获得最大 ROI 影响制定策略
 
@@ -98,7 +92,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### 针对经身份验证的环境的移动体验优化和个性化（2023 年 4 月 26 日）
 
-品牌需要根据特定的客户需求和行为提供高度个性化和相关的体验。由于对营销技术中不使用 Cookie 的未来存在疑问，受监管的行业正在寻求采用更强大的客户参与框架，并对每一次客户互动进行优化以提供合适的内容和优惠。
+品牌需要根据特定的客户需求和行为提供高度个性化和相关的体验。由于对营销技术中不使用 Cookie 的未来存在疑问，受监管的行业正在寻求采用更强大的客户参与框架，并对每一次客户互动进行优化以提供合适的内容和产品建议。
 
 金融服务和保险、零售、旅游和酒店以及电信行业的品牌如何在经过身份验证的环境中采用有关优化和个性化的最佳实践？了解移动应用程序对于忠诚客户的参与和保留的重要性，品牌如何实现数字自助服务或通过个性化体验来增加新功能的采用？
 
@@ -106,7 +100,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 * 团队如何为匿名访问者和经过身份验证的访问者提供个性化体验
 * 通过个性化了解消费者权限和隐私标准
-* 向经过身份验证的访问者乃至匿名身份访问者提供个性化的内容和优惠
+* 通过将身份标识匿名化，为经过身份验证的访问者提供个性化的内容和产品建议
 * 针对经过身份验证的安全站点的跨网站和移动设备的独特用例
 
 [录像链接](https://video.tv.adobe.com/v/3418987){target=_blank}
@@ -134,7 +128,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
   在本次研讨会中，了解如何利用 [!DNL Adobe Target] 的新增功能来大幅提高转化率，并讨论：
 
    * [!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动中的增强模型控件
-   * 解锁从 [!DNL Adobe] 的 [!DNL Real-Time Customer Data Platform] 评估配置文件属性和高价值区段的能力
+   * 解锁从 [!DNL Adobe] 的 [!DNL Real-Time Customer Data Platform] 评估轮廓属性和高价值区段的能力
    * 各个品牌如何微调其 AI 支持的算法来加快速度和决策制定
    * 提供一对一个性化的独特用例
 
@@ -184,18 +178,16 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 在供应链问题激化、服务中断和人员有限的情况下，如何不断提高客户忠诚度是大多数旅游、酒店和餐饮品牌面临的挑战。 在人工智能时代，品牌如何在没有行业所需资源的情况下扩展体验。 数字化进程加快了 20 – 25 倍，以期在支持不断增加的客户期望的同时，通过自动化扩展团队。
 
-* **[注册观看该网络研讨会的录像](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
++++详细信息
 
-  +++详细信息
+2022 年，系统在提供持续智能以实现实时忠诚度激活的能力方面达到了转折点。
 
-  2022 年，系统在提供持续智能以实现实时忠诚度激活的能力方面达到了转折点。
+我们将探讨的主题：
 
-  我们将探讨的主题：
-
-   * 数字中断的加速和人工智能的兴起
-   * 为什么早期采用者在顶线和底线增长方面都表现出色
-   * 旅行中的个性化自动化
-   * 行动中的实时忠诚度激活
+* 数字中断的加速和人工智能的兴起
+* 为什么早期采用者在顶线和底线增长方面都表现出色
+* 旅行中的个性化自动化
+* 行动中的实时忠诚度激活
 
 +++
 
@@ -225,35 +217,6 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
    * 克服优化网络、移动应用程序、电子邮件、物联网和每个数字接触点以实现更高转化率和参与度方面的挑战
    * 逐步引导浏览个性化、目标和测试的 [!DNL Adobe Analytics] 和 [!DNL Target] 工作流
    * 用于解锁哪些属性可以预测访客行为，以及哪些属性对关键可视化和细分分析最重要的顶级用例
-
-+++
-
-### 国民城市银行：从零到英雄 — 启动并扩展个性化计划（2022 年 6 月 9 日）
-
-了解如何成为“关系银行”以提高品牌忠诚度的最佳实践。了解如何推动人员和流程来构建和扩展成功的个性化计划。
-
-* [录像链接](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
-
-  +++详细信息
-
-  与 Heather Adkins（高级营销技术副总裁）一起学习成为“关系银行”的最佳实践，以提高品牌忠诚度，以及学习如何改善人员和流程以建立和扩大成功的个性化计划。
-
-+++
-
-### [!DNL Adobe]：发现高影响力的优化机会（2022 年 6 月 16 日）
-
-了解我们如何进入比以往任何时候都更加数字化的新常态，组织利用每一个机会提供卓越的数字体验至关重要。足够好不再是真正的足够好。保持竞争力需要丰富的经验。
-
-* [录像链接](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
-
-  +++详细信息
-
-  加入 Kaitlin White（Adobe 产品营销经理），我们将分享行之有效的策略，帮助您启动个性化计划，包括：
-
-   * 获得新商机或客户的发散性思维
-   * 修复用户摩擦以获得更直观的体验
-   * 挖掘客户亲和力以实现个性化
-   * 还有更多想法等您解锁，助您在贵组织中发现高影响力的机会
 
 +++
 
@@ -302,23 +265,8 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
    * 规模测试和实验、个性化和人工智能自动化活动
    * 推动跨渠道的获胜体验，发展真实的关系
-   * 通过增加参与度和个性化优惠的采用，加快业务增长
+   * 通过增加参与度和个性化产品建议的采用，加快业务增长
    * 优化多渠道营销活动，以实现时间价值和 ROI。
-
-+++
-
-### [!DNL Adobe Target] 的实时个性化服务
-
-* **[注册观看该网络研讨会的录像](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-  +++详细信息
-
-  在本课程中，了解 [!DNL Adobe Target] 如何在我们讨论的跨多个源组合数据以实现实时个性化方面弥合差距：
-
-   * 为什么个性化性能和速度对加快业务增长至关重要
-   * 团队如何构建第一方数据战略并解决其数据碎片化挑战
-   * 以毫秒为单位提供个性化体验的端到端工作流
-   * 为品牌提供独特的使用案例，通过相关的信息、内容和优惠实时吸引客户和潜在客户
 
 +++
 

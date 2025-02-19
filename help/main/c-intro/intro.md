@@ -1,15 +1,15 @@
 ---
 keywords: Target Standard;推荐;Target Premium;自动个性化;自动定位;自动定位;权限;adobe target 是什么;
-description: 了解Adobe [!DNL Target] 标准版和Adobe [!DNL Target] 高级版的基础知识。 [!DNL Target] 高级版包含标准产品中不提供的高级功能。
+description: 了解Adobe [!DNL Target] Standard和Adobe [!DNL Target] Premium的基础知识。 [!DNL Target] 高级版包含标准产品中不提供的高级功能。
 landing-page-description: 使您的客户体验个性化以尽可能提高您的网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 short-description: 个性化客户体验以最大限度地提升网站和移动站点、应用程序、社交媒体和其他数字渠道的收入。
 title: 什么是 Target？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 73%
+source-wordcount: '1019'
+ht-degree: 72%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 73%
 
 [!UICONTROL Automated Personalization]记录访客在网站上的活动，建立访客的个人资料，以便内容可以面向类似的访客。 AP 跟踪个人和整个人群对内容的反应。然后，AP 使用各种复杂的建模方法自动面向每个人。AP 考虑关于每位访客已知的一切。
 
-[!UICONTROL Automated Personalization]自己学习，只需很少量的人工分析。 AP 全自动地持续学习。该系统构建各种模型，并自动学习个别访客最有可能对哪些产品感兴趣。每次有访客与网站进行交互时，该系统均收集信息并将其存储在该访客的个人资料中。自动个性化可使用多个算法，为您的系统提供最适用的模型。
+[!UICONTROL Automated Personalization]自己学习，只需很少量的人工分析。 AP 全自动地持续学习。该系统构建各种模型，并自动学习个别访客最有可能对哪些产品感兴趣。每次有访客与网站进行交互时，该系统均收集信息并将其存储在该访客的轮廓中。自动个性化可使用多个算法，为您的系统提供最适用的模型。
 
-### 自动定位
+### 自动锁定
 
-[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)使用高级机器学习找出从多种由营销人员定义的体验中找出表现好的体验。然后，[!UICONTROL Auto-Target]会向每位访客提供量身定制的体验。 投放基于个别客户个人资料以及个人资料相似的以往访客的行为。[!UICONTROL Auto-Target]帮助个性化内容并促进转化。
+[自动锁定](/help/main/c-activities/auto-target/auto-target-to-optimize.md)使用高级机器学习找出从多种由营销人员定义的体验中找出表现好的体验。然后，[!UICONTROL Auto-Target]会向每位访客提供量身定制的体验。 投放基于个别客户轮廓以及轮廓相似的以往访客的行为。[!UICONTROL Auto-Target]帮助个性化内容并促进转化。
 
 ### 推荐
 
@@ -65,13 +65,13 @@ ht-degree: 73%
 
   使用“查看了这个项目，但购买了那个项目的人”标准，显示人们查看某个产品后购买的其他产品，而不显示推荐中的第一个产品。
 
-### “推荐”作为选件
+### “推荐”作为产品建议
 
-[Recommendations作为选件](/help/main/c-recommendations/recommendations-as-an-offer.md)允许您在[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Experience Targeting] (XT)活动中包含推荐。
+[选件形式的推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)允许您在[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Experience Targeting] (XT)活动中包含推荐。
 
 此功能提供了几项全新的功能，例如：
 
-* 可在同一活动中测试和定位推荐和非推荐内容。
+* 可在同一活动中测试和锁定推荐和非推荐内容。
 * 可轻松尝试在页面上放置推荐内容，包括为多个推荐排序。
 * 使用[!UICONTROL Auto-Allocate]自动将流量推送到性能最佳的推荐体验。
 * 使用[!UICONTROL Auto-Target]根据各个配置文件动态地为访客分配量身定制的推荐体验。
@@ -88,7 +88,7 @@ ht-degree: 73%
 
 在介绍Beta功能的[!DNL Target]指南中，文章包括在每页顶部或受影响文本附近的内联Beta徽章。 Beta徽章可单击，并包含指向此部分的链接。
 
-## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
+## 经典版推荐 {#section_9554068100054D2DBDB298CBE5A0E413}
 
 >[!IMPORTANT]
 >
@@ -98,11 +98,11 @@ ht-degree: 73%
 
 有关更多信息，请参阅 [Recommendations Classic 文档](/help/main/assets/adobe-recommendations-classic.pdf)。
 
-## Experience League：Adobe[!DNL Target]欢迎套件 {#kit}
+## Experience League： Adobe [!DNL Target]欢迎套件 {#kit}
 
 用此欢迎套件在 [!DNL Adobe Target] 上构建您的优化和个性化项目。该欢迎套件包括关键信息、工具和资源，以帮助您准备和启动您的第一个 [!DNL Target] 活动。该套件包括短期快速入选和长期优化策略的想法。
 
-[Adobe Target 欢迎套件](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Adobe Target欢迎套件](/help/main/c-intro/target-welcome-kit.md)
 
 ## 培训视频：活动类型（9 分 3 秒）![概述徽章](/help/main/assets/overview.png)
 

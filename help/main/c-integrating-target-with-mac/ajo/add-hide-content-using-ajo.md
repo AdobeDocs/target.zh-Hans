@@ -6,9 +6,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
+exl-id: 8c4fba88-908e-4742-ac4b-bdf7f4c882db
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -37,7 +38,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此部分中的说明突出显示更改图像以及使用用户档案属性个性化文本消息的必要步骤。 有关[!DNL Journey Optimizer] Web设计器中可用选项的更多信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[编辑Web内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}。
+>此部分中的说明突出显示更改图像以及使用用户档案属性个性化文本消息的必要步骤。 有关[!DNL Journey Optimizer] Web设计器中可用选项的详细信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[使用Web设计器](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}。
 >
 >页面底部的视频特别有用。
 
@@ -94,6 +95,5 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->在&#x200B;*Journey Optimizer文档*&#x200B;中[编辑Web内容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}
->[*Journey Optimizer文档*&#x200B;中的操作方法视频](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank}
->[在&#x200B;*Journey OptimizerTutorials*&#x200B;中创建营销活动](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}
+>在&#x200B;*Journey Optimizer文档*&#x200B;中[使用Web设计器](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}
+>[在&#x200B;*Journey Optimizer教程*&#x200B;中创建营销活动](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}

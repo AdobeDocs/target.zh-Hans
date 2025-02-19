@@ -4,9 +4,9 @@ description: 元素选择器是可以标识一个或多个元素的CSS表达式�
 title: 我可以在可视化体验编辑器(VEC)中使用元素选择器吗？
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '390'
 ht-degree: 85%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 85%
 
 有关何时使用 CSS 选择器以及何时使用唯一 ID 的信息，请参阅[可视化体验编辑器最佳实践和限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
 
-## Adobe[!DNL Target]如何为元素生成选择器 {#section_D89D954BCBFB486CA081BE183776A475}
+## Adobe [!DNL Target]如何为元素生成选择器 {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target 使用简单的算法来创建选择器。下面非常简略地介绍了生成逻辑：
 
@@ -91,8 +91,6 @@ Target 使用简单的算法来创建选择器。下面非常简略地介绍了�
    ```
 
    选择器：`#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
-
-   要了解更多信息，请参阅 [CSS Tricks 网页上的 nth-of-type](https://css-tricks.com/almanac/selectors/n/nth-of-type/)。
 
 在上面的流程中：
 

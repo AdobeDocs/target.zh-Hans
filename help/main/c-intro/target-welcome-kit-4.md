@@ -4,9 +4,9 @@ description: 阅读我们的专家小组关于使用 Adobe [!DNL Target] 作为�
 title: 可在何处找到关于使用 Target 的提示和技巧？
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2883'
 ht-degree: 72%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 72%
 
 根据我们与许多[!DNL Target]用户的合作，我们已发现可从[!DNL Target]解决方案中获得更多价值的方法。 我们在本章中包括的许多提示中总结了这些方法。 虽然您可能还没有准备好立即使用所有这些想法，但请妥善保存此列表。从解决方案积累的经验越多，项目就越成熟，您也就越频繁地见到这些提示如何帮助您用[!DNL Target]完成更多任务。
 
-## 提示 1：通过用其他数据充实访客个人资料而加深个性化。
+## 提示 1：通过用其他数据充实访客轮廓而加深个性化。
 
-可直接用 [!DNL Target] 数据使体验个性化。但通过将您自己的数据加入其中，可更深入地进行个性化。可用来自 [!DNL Adobe Analytics] 的历史数据和 [!DNL Adobe Audience Manager] 的实时数据充实个人资料。还可使用 [!DNL Adobe Experience Cloud] 中“人物”核心服务内的一项功能“客户属性”，轻松地将 CRM 数据、第二方合作伙伴数据和购买的第三方数据纳入到 [!DNL Target] 中。
+可直接用 [!DNL Target] 数据使体验个性化。但通过将您自己的数据加入其中，可更深入地进行个性化。可用来自 [!DNL Adobe Analytics] 的历史数据和 [!DNL Adobe Audience Manager] 的实时数据充实轮廓。还可使用 [!DNL Adobe Experience Cloud] 中“人物”核心服务内的一项功能“客户属性”，轻松地将 CRM 数据、第二方合作伙伴数据和购买的第三方数据纳入到 [!DNL Target] 中。
 
-例如，可将销售点系统产生的购买数据与访客个人资料建立关联。为此，只需创建一个含有最多 200 个离线变量的 CSV 文件，通过某种文件上传方式将它直接上传到 [!DNL Adobe Experience Cloud] 中，或使用 FTP 托管并安排定期更新该文件。一旦您的客户属性进入 [!DNL Adobe Experience Cloud] 中，您即可将它们映射到 [!DNL Adobe Analytics] 和 [!DNL Target] 等 [!DNL Experience Cloud] 解决方案，并用于分析、测试和个性化。
+例如，可将销售点系统产生的购买数据与访客轮廓建立关联。为此，只需创建一个含有最多 200 个离线变量的 CSV 文件，通过某种文件上传方式将它直接上传到 [!DNL Adobe Experience Cloud] 中，或使用 FTP 托管并安排定期更新该文件。一旦您的客户属性进入 [!DNL Adobe Experience Cloud] 中，您即可将它们映射到 [!DNL Adobe Analytics] 和 [!DNL Target] 等 [!DNL Experience Cloud] 解决方案，并用于分析、测试和个性化。
 
 有关分步说明，请参阅[客户属性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hans)。
 
@@ -49,7 +49,7 @@ ht-degree: 72%
 
 ## 提示 4：从这些关键变量构建受众以提高活动的价值。
 
-为定位或测试促销和选件而构建受众时，首先要考虑这些变量：
+为定位或测试促销和产品建议而构建受众时，首先要考虑这些变量：
 
 * 行为变量。网站访问模式和购买模式
 * 反向链接。引荐网站和营销活动
@@ -67,19 +67,19 @@ ht-degree: 72%
 
 使用的是 Target Standard？仍可为具有只读、编辑者和审批者角色的用户[分配三个级别的访问权限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)！
 
-## 提示 6：通过在客户历程中的每个页面上测试某个选件，探索该选件在整个历程中的表现。
+## 提示 6：通过在客户历程中的每个页面上测试某个产品建议，探索该产品建议在整个历程中的表现。
 
-查看在您网站上多个页面间发生的客户历程期间某个选件（如免运费）的表现。
+查看在您网站上多个页面间发生的客户历程期间某个产品建议（如免运费）的表现。
 
 有关分步说明，请参阅[多页面活动](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)。
 
 **有用的提示**：在指定页面范围之后更改URL将重置体验。 这意味着您以前指定的变体将不再出现。如果需要更改 URL，请记得重新定义体验。
 
-## 提示 7：对不同的受众测试某个选件以探索受众是否具有不同的偏好。
+## 提示 7：对不同的受众测试某个产品建议以探索受众是否具有不同的偏好。
 
-通过体验版本，可为所需任意数量的受众运行一个具有变体的测试。例如，您可以创建一个免运费横幅广告选件，针对美国、英国和阿联酋的客户使用不同的图像和货币变体，而无需针对三个不同的受众运行测试。
+通过体验版本，可为所需任意数量的受众运行一个具有变体的测试。例如，您可以创建一个免运费横幅广告产品建议，针对美国、英国和阿联酋的客户使用不同的图像和货币变体，而无需针对三个不同的受众运行测试。
 
-有关分步说明，请参阅 [A/B 测试中的多体验受众](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)和 [Adobe Target 中的体验版本](https://helpx.adobe.com/cn/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com)。
+有关分步说明，请参阅A/B测试中的[多个体验受众](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)。
 
 ## 提示 8：通过在类似页面上复制活动体验来节省时间。
 

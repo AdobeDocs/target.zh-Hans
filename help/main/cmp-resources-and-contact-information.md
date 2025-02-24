@@ -4,7 +4,7 @@ description: 了解其他资源以帮助您了解 Adobe [!DNL Target] 功能以�
 title: 可在何处找到 Target 的资源和联系信息？
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
+source-git-commit: 562eeb4a3c9b27aeb9f606ac5ba8b6802bce0564
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 93%
@@ -25,7 +25,7 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 * 与您的同行和 Adobe 专家沟通交流
 * 对未来 Target 版本进行投票或提交您自己的想法
 
-访问 [Target 社区论坛](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)以开始。
+访问 [Target 社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)以开始。
 
 ## Target 基础知识网络研讨会系列 {#concept_11902FAC95C64479AABE020557A7EEE4}
 
@@ -75,7 +75,7 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 | 信息 | 详细信息 |
 | --- | --- |
 | 摘要 | 整个问题的简短概要 |
-| 帐户信息 | 公司名称<br>管理员编号<br>促销活动名称<br>促销活动类型<br>报表包/报表包ID(如果涉及“目标”与SiteCatalyst集成) |
+| 帐户信息 | 公司名称<br>管理员编号<br>促销活动名称<br>促销活动类型<br>报表包/报表包ID（如果涉及Target与SiteCatalyst集成） |
 | 重现问题的步骤 | 提供尽可能多的详细信息，包括重现问题所需的任何 URL 以及预期结果。<br>提供足够的详细信息，以便不熟悉 Target 的人员也能按照说明重现问题。 |
 | 优先级 | P1（最重要）到 P4（最不重要）。 |
 | 业务影响 | 对您的业务有什么影响？例如，该问题是否会造成收入减少或使产品无法使用，是否有可行的解决办法？ |

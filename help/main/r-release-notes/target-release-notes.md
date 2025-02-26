@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 14%
+source-wordcount: '1389'
+ht-degree: 13%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新时间：2025年2月13日**
+**上次更新时间：2025年2月26日**
 
 >[!NOTE]
 >
@@ -23,7 +23,28 @@ ht-degree: 14%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## Target Standard/Premium 25.2.1（2025年2月17日）
+## [!DNL Target Standard/Premium] 25.2.3（2025年2月26日）
+
+此版本包括以下更新：
+
+* 解决了在[!DNL Target] 25.2.1版本之后无法对某些活动进行活动更新的问题。 (TGT-51781)
+* 解决了在取消活动创建流程（选择[!UICONTROL Cancel]而不是[!UICONTROL Add Audience]）时删除所有状态中受众更改的问题。 （TGT-51769 和 TGT-51770）
+* 解决了无法为某些活动加载[!UICONTROL Visual Experience Composer] (VEC)的问题，特别是当使用了自定义代码时。  问题导致VEC显示空白屏幕或[!DNL Target] UI恢复到其旧版本。 (TGT-51758)
+* 解决了在编辑受众的页面交付后丢弃修改的问题。 (TGT-51756)
+* 解决了更改[!UICONTROL Goals & Settings]页面上的量度类型时，从活动中删除所有非量度受众（页面和体验受众）的问题。 (TGT-51753)
+* 解决了在编辑活动时单击[!UICONTROL Cancel]将Target UI导航到[!UICONTROL Activities List]而不是[!UICONTROL Activity Details]页面的问题。 (TGT-51731)
+* 解决了阻止客户通过[!UICONTROL Export Reports to CSV]选项下载报表的问题。 (TGT-51708)
+* 解决了在基于表单的体验编辑器中将[!DNL Target Standard]客户错误地显示为使用[!DNL Target Premium]功能[!UICONTROL Properties]的问题。 (TGT-51678)
+* 修复了在创建新优惠时阻止显示[!DNL Adobe Experience Platform]属性的问题。 (TGT-51665)
+* 已将[!DNL Recommendations]清单的所有活动筛选器移动到快速搜索，将UI与[!UICONTROL Catalog Search]而不是[!UICONTROL Filter]边栏对齐。 (TGT-50723)
+
+## at.js版本2.11.7（2025年2月26日）
+
+此版本包括以下更新：
+
+* 修复了`localStorage`不可用时的遥测日志记录。 遥测导致某些客户在其浏览器中禁用`localStorage`时出现问题。
+
+## [!DNL Target Standard/Premium] 25.2.1（2025年2月17日）
 
 此版本包括以下更新：
 
@@ -76,7 +97,7 @@ ht-degree: 14%
 
 ![推荐UI刷新](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
-## Target Standard/Premium 25.1.1（2025年1月9日）
+## [!DNL Target Standard/Premium] 25.1.1（2025年1月9日）
 
 此版本包括以下更新：
 

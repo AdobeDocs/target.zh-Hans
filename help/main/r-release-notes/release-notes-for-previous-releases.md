@@ -4,7 +4,7 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
 source-wordcount: '38891'
 ht-degree: 83%
@@ -2537,7 +2537,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target 论坛的新位置 </p> </td> 
-   <td colname="col2"> <p> 已将 Target 论坛移至新的 <a href="https://forums.adobe.com/community/experience-cloud/marketing-cloud/target" format="https" scope="external">Adobe 社区平台</a>。 </p> </td> 
+   <td colname="col2"> <p> 已将 Target 论坛移至新的 <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community" format="https" scope="external">Adobe 社区平台</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

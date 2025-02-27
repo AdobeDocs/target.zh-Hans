@@ -6,9 +6,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2049'
 ht-degree: 98%
 
 ---
@@ -207,16 +207,14 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 了解人工智能如何继续重新定义消费者的期望，因为机器学习模型和数据见解为营销人员、开发人员和产品所有者打开了新的大门，让消费者获得重要的个性化体验。逐步了解个性化、定位和测试的 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流。
 
-* [录像链接](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
++++详细信息
 
-  +++详细信息
+与 Jordan Ison（[!DNL Adobe] 的首席专家解决方案顾问）一起讨论：
 
-  与 Jordan Ison（[!DNL Adobe] 的首席专家解决方案顾问）一起讨论：
-
-   * 营销人员、开发人员和产品团队如何打开人工智能的“黑匣子”，以推动发展未来的测试和个性化策略
-   * 克服优化网络、移动应用程序、电子邮件、物联网和每个数字接触点以实现更高转化率和参与度方面的挑战
-   * 逐步引导浏览个性化、目标和测试的 [!DNL Adobe Analytics] 和 [!DNL Target] 工作流
-   * 用于解锁哪些属性可以预测访客行为，以及哪些属性对关键可视化和细分分析最重要的顶级用例
+* 营销人员、开发人员和产品团队如何打开人工智能的“黑匣子”，以推动发展未来的测试和个性化策略
+* 克服优化网络、移动应用程序、电子邮件、物联网和每个数字接触点以实现更高转化率和参与度方面的挑战
+* 逐步引导浏览个性化、目标和测试的 [!DNL Adobe Analytics] 和 [!DNL Target] 工作流
+* 用于解锁哪些属性可以预测访客行为，以及哪些属性对关键可视化和细分分析最重要的顶级用例
 
 +++
 

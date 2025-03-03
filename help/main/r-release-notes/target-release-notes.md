@@ -4,9 +4,9 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3b79138f305454c29850a1ce3999aa324f95359f
+source-git-commit: fe370f57978ace161ca2ba2b9f6b11ae8f9b4cfa
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1538'
 ht-degree: 13%
 
 ---
@@ -15,13 +15,25 @@ ht-degree: 13%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新时间：2025年2月26日**
+**上次更新日期：2025年3月3日**
 
 >[!NOTE]
 >
 >发布日期、功能及其他信息如有更改，恕不另行通知。
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+## [!DNL Target Standard/Premium] 25.3.1（2025年3月3日）
+
+此版本包含以下修复和更新：
+
+* 组合受众可以包括子组，每个子组包含多个受众。 此版本修复了导致子组受众无法在[!UICONTROL Rules]对话框中显示的问题。 (TGT-51813)
+* 解决了在打开旧版活动时，某些体验受众被替换为[!UICONTROL All Visitors]的问题。 (TGT-51812)
+* 解决了阻止编辑仅具有活动受众的活动的问题。 (TGT-51807)
+* 解决了阻止在更新的[!DNL Target] UI中编辑页面标题修改的问题。 (TGT-51797)
+* 解决了在复制体验、删除其他体验然后尝试保存活动时发生的空错误。 (TGT-51796)
+* 解决了在创建活动的[!UICONTROL Targeting]步骤期间，受众信息面板中无法显示受众排除规则的问题。 (TGT-51579)
+* 更新了韩语本地化的错误消息。 （TGT-51701 和 TGT-51699）
 
 ## [!DNL Target Standard/Premium] 25.2.3（2025年2月26日）
 

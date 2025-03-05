@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: fe370f57978ace161ca2ba2b9f6b11ae8f9b4cfa
+source-git-commit: 82e10bdecbaff95e16c34ae5b4b0acad9f2b6e5e
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 13%
+source-wordcount: '1696'
+ht-degree: 12%
 
 ---
 
@@ -15,13 +15,27 @@ ht-degree: 13%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2025年3月3日**
+**上次更新日期：2025年3月5日**
 
 >[!NOTE]
 >
 >发布日期、功能及其他信息如有更改，恕不另行通知。
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+## [!DNL Target Standard/Premium] 25.3.2（2025年3月6日）
+
+此版本包含以下修复和更新：
+
+* 修复了复制仅包含活动受众的活动时无法创建新活动，从而错误地使用原始活动的受众的问题。 (TGT-51855)
+* 修复了阻止编辑具有仅限该活动的受众的[!UICONTROL Experience Targeting] (XT)活动的问题。 (TGT-51846)
+* 修复了[!UICONTROL Visual Experience Composer] (VEC)在首次编辑时无法正确将修改应用于体验的问题。 (TGT-51843)
+* 修复了单击VEC中的某些元素时触发“ID”错误的问题。 (TGT-51814)
+* 在活动创建期间更新了VEC中的错误处理。 (TGT-51759)
+* 修复了在保存活动时，[!UICONTROL Modifications]面板中缺少视图导致“无效用户输入”错误的问题。 (TGT-51827)
+* 修复了阻止创建推荐标准的问题。 (TGT-51834)
+* 在重定向到其他URL之前添加了确认消息。 (TGT-51703)
+* 修复了选件和文件夹中的GraphQL集成测试问题。 (TGT-51839)
 
 ## [!DNL Target Standard/Premium] 25.3.1（2025年3月3日）
 

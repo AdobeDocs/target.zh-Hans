@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cee17e318dedffaadccd2f93ae593e5fdd2bd600
+source-git-commit: 911950b341d8221145eeacfa288926b0a1be434e
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 37%
+source-wordcount: '620'
+ht-degree: 33%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 37%
 >发布日期、功能及其他信息如有更改，恕不另行通知。
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+## [!DNL Target Standard/Premium] 25.3.5（2025年3月11日）
+
+此版本包含以下修复和更新：
+
+* 修复了更新的[!UICONTROL Visual Experience Composer] (VEC)中的问题，该问题导致痕迹导航不始终显示在编辑器底部，从而难以准确地选择元素。 (TGT-51844)
+* 解决了阻止用户更改[!UICONTROL Modifications]面板中选件的问题。 (TGT-51800)
+* 解决了在体验和受众的左侧面板（包括在[!UICONTROL ClickTrack]模式下）中错误显示操作的问题。 (TGT-51895)
+* 解决了[!UICONTROL ClickTrack]选择器未应用于正确受众页面的问题。 (TGT-51871)
 
 ## [!DNL Target Standard/Premium] 25.3.4（2025年3月7日）
 

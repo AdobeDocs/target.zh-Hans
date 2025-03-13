@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0cf160d93e2ed23de704dcb1065adf304ab78be4
+source-git-commit: a9c4264672b44da815c721c08c735a2692b2cb33
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 31%
+source-wordcount: '340'
+ht-degree: 30%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 31%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
+| 3 月 13 日 | [支持的浏览器](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | 更新了支持的浏览器并添加了“可视化编辑要求”部分。 |
 | 3 月 11 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.3.5版的发行说明。 |
 | 3 月 7 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.3.4版的发行说明。 |
 | 3 月 6 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.3.2版的发行说明。 |

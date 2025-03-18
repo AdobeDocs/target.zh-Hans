@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
+source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '368'
 ht-degree: 30%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 30%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
+| 3 月 18 日 | 对[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动的[A4T支持](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 在&#x200B;*支持的目标指标*&#x200B;部分添加了注释。 |
 | 3 月 14 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.3.6版的发行说明。 |
 | 3 月 13 日 | [支持的浏览器](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | 更新了支持的浏览器并添加了“可视化编辑要求”部分。 |
 | 3 月 11 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.3.5版的发行说明。 |

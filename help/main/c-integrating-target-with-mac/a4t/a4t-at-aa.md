@@ -4,9 +4,9 @@ description: 了解如何在 [!DNL Target] 中创建使用 [!DNL Analytics] 作�
 title: A4T是否支持[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动？
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 99bd509988a7d1545a6a1fe59aa59f35ef0a7d11
+source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1146'
 ht-degree: 1%
 
 ---
@@ -62,6 +62,10 @@ ht-degree: 1%
 * [!DNL Adobe Analytics]转化量度
 * [!DNL Adobe Analytics]自定义事件
 
+>[!NOTE]
+>
+>选择[!UICONTROL Use an Analytics Metric]后，选择[!UICONTROL Maximize Unique Visitor Conversion Rate]以查看可用的[!DNL Adobe Analytics]转化量度，选择[!UICONTROL Maximize Metric Value per Visitor]以浏览[!DNL Adobe Analytics]自定义事件。
+
 在为[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动使用[!UICONTROL A4T]时，[!DNL Target]允许您选择基于二项式事件的量度或基于连续事件的量度。
 
 * **基于二项式事件的量度**：二项式事件不会发生。 二项式事件包括点击、转化、排序等。 这些事件类型有时也称为伯努利事件、二元事件或离散事件。
@@ -113,7 +117,7 @@ ht-degree: 1%
 * **置信度**： [!UICONTROL Auto-Allocate]活动使用的置信度公式与[!DNL Adobe Analytics] [!UICONTROL A4T]面板中默认显示的公式不同。 [如此处](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)所述，[!UICONTROL Auto-Allocate]使用比常规[!UICONTROL A/B Test]活动更保守的置信区间。 这些保守的置信水平可补偿对数据的重复评估（窥视）。 因此，[!DNL Adobe Analytics]中的默认报表显示的置信区间比[!UICONTROL Auto-Allocate]算法所使用的那些区间窄。 但是，您可以根据向哪个体验发送了更多独特访客，来确定哪个体验受到算法青睐。
 * **获胜者状态**：当前，[!DNL Analysis Workspace]中的[!UICONTROL A4T]面板中不存在[“还没有获胜者”和“获胜者”徽章](/help/main/c-activities/automated-traffic-allocation/determine-winner.md)。 如果在[!DNL Target]中查看了同一报告，则这些徽章也将不可用。 使用A4T的[!UICONTROL Auto-Allocate]活动的[!DNL Target]报表中显示的入选者“星”徽章应当被忽略。 此徽章反映的是常规置信度计算，而不是[!UICONTROL Auto-Allocate]使用的计算。
 
-### 自动定位 {#at}
+### 自动锁定 {#at}
 
 * [!UICONTROL Auto-Target]模型继续像往常一样每24小时训练一次。 但是，来自[!DNL Analytics]的转化事件数据将再延迟6到24小时。 此延迟意味着[!DNL Target]的流量分配将跟踪[!DNL Analytics]中记录的最新事件。 在活动最初激活后的前48小时内，此延迟具有最大的影响。 该活动的性能在五天后更密切地反映[!DNL Analytics]转化行为。
 
@@ -131,12 +135,12 @@ ht-degree: 1%
 
 本教程将指导您完成为分析[!DNL Analysis Workspace]中的[!UICONTROL Auto-Allocate]活动而建议的修改。
 
-有关详细信息，请参阅[如何在Analysis Workspace中为自动分配活动设置A4T报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hans){target=_blank}(在&#x200B;*Adobe TargetTutorials*&#x200B;中)。
+有关详细信息，请参阅&#x200B;*Analysis Workspace教程*&#x200B;中的[如何在Adobe Target中为自动分配活动设置A4T报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hans){target=_blank}。
 
 ### 在[!DNL Analysis Workspace]中为[!UICONTROL Auto-Target]活动设置A4T报表
 
 本教程将指导您完成为分析[!DNL Analysis Workspace]中的[!UICONTROL Auto-Target]活动而建议的修改。
 
-有关详细信息，请参阅[如何在Analysis Workspace中为自动定位活动设置A4T报表](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hans){target=_blank}(在&#x200B;*Adobe TargetTutorials*&#x200B;中)。
+有关详细信息，请参阅&#x200B;*Analysis Workspace教程*&#x200B;中的[如何在Adobe Target中为自动定位活动设置A4T报告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hans){target=_blank}。
 
 

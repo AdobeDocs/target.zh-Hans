@@ -5,10 +5,10 @@ title: 可在何处找到关于 [!DNL Recommendations]的问答？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
+source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 84%
+source-wordcount: '3444'
+ht-degree: 83%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 84%
 
 ## 通过API创建的[!DNL Recommendations]对象是否显示在[!DNL Target] UI中？
 
-是，通过API创建的[!UICONTROL Recommendations]对象（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]）现在可在UI中使用。
+是，通过API创建的[!UICONTROL Recommendations]对象（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]）在UI中可用，可以通过API或[!DNL Target] UI进行编辑。
 
 ## 我是否可以使用[!DNL Target] API管理[!DNL Target]个UI创建的可视化选件？
 
-否. 在[!DNL Target] UI中创建了可视化选件的[!DNL Recommendations]活动无法使用[!DNL Target] API进行管理。 虽然这些活动显示在[!UICONTROL Activities]列表中，但您无法(使用GET/PUT)读取或更新它们。
+否. 在[!DNL Target] UI中创建了可视化选件的[!DNL Recommendations]活动无法使用[!DNL Target] API进行管理。 尽管这些活动显示在[!UICONTROL Activities]列表中，但您无法读取或更新它们(使用GET/PUT)。
 
 ## 对具有数字值的自定义属性进行搜索时，为什么[!UICONTROL Catalog Search]不显示正确结果？
 
@@ -291,6 +291,5 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 * 当 [!DNL Target] 用 getOffer() 返回 JSON 产品建议时，它返回的是 JSON 类型。但是，如果您返回 JSON 推荐设计，则它返回的是 HTML 类型。
 * 60 天未通过信息源或 API 收到更新之后，已到期的实体可正确地到期；但是，在到期后并不从目录搜索的索引中删除已到期的实体。当前也不从目录搜索的索引中删除通过信息源或 API 删除的实体。(IRI-857)
 * A/B 活动和体验定位活动中的推荐产品建议不显示推荐栏的可视预览 (TGT-33426)
-* 在 Target 用户界面中看不到通过 API 创建的收藏集、排除项、标准和设计，而只能通过 API 编辑它们。类似地，如果您在 Target 界面中创建任何此类项目，然后通过 API 编辑它们，则这些更改不反映在 Target UI 中。通过 API 编辑的项目应继续通过 API 编辑，以免丢失任何修改。(TGT-35777)
 * 通过 API 创建的推荐活动可在用户界面中查看，但只能通过 API 进行编辑。
 * “标准”列表（卡片）视图中显示的“自定义标准”信息源状态每十分钟刷新一次，在极少情况下可能会超过十分钟。在“自定义标准”编辑视图中显示的状态是实时获取的，因此始终为最新。(TGT-35896、TGT-36173)

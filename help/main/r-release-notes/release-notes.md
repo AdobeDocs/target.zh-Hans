@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
+source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 39%
+source-wordcount: '1158'
+ht-degree: 31%
 
 ---
 
@@ -18,6 +18,30 @@ ht-degree: 39%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 25.3.7（2025年3月26日）
+
+此版本包含以下修复和更新：
+
+* 解决了在修改后删除页面时阻止保存多页面活动的问题。 (TGT-51988)
+* 解决了编辑活动时发生的错误： `default message [Invalid optionLocalIds: xx]]`。 (TGT-51985)
+* 解决了向活动添加新修改时删除现有修改的问题。 (TGT-51981)
+* 解决了在活动创建或编辑期间将受众替换为“[!UICONTROL All visitors]”导致“不允许存在重复的受众”错误的问题。 (TGT-51978)
+* 解决了在保存[!UICONTROL A/B Test]活动时导致“用户输入无效”错误的问题。 (TGT-51976)
+* 解决了导致计算量度无法在[!UICONTROL Goals & Settings]页面上正确显示的问题。 (TGT-51975)
+* 解决了阻止在`pageviews`量度的[!DNL Analytics]配置中匹配`companyName`和`reportSuite`的问题。 (TGT-51965)
+* 解决了在活动中切换体验时删除修改的问题。 (TGT-51945)
+* 解决了删除页面受众时也删除[!UICONTROL ClickTrack]选择器的问题。 (TGT-51935)
+* 解决了在打开活动[!UICONTROL Overview]页面后使其不可编辑的问题。 (TGT-51931)
+* 解决了在活动创建期间导致出现`[Unused optionLocalIds: 0]]`错误的问题。 (TGT-51920)
+* 解决了删除文本样式更改后某些更改无法正确翻译的问题。 (TGT-51876)
+* 解决了阻止目标受众在[!UICONTROL Form-Based Experience Composer]中正确更新的问题。 (TGT-51845)
+* 解决了[!UICONTROL Visual Experience Composer]中的URL在活动导航期间未正确更新的问题。 (TGT-51832)
+* 解决了导致选件无法在[!UICONTROL Offers] UI中显示的问题，尽管在创建活动和添加选件时显示正确。 (TGT-51805)
+* 解决了在无法交付个性化或目标内容时，某些活动缺少用于显示默认内容的回退屏幕的问题。 (TGT-51638)
+* 解决了导致实时优惠和某些文件夹无法在[!UICONTROL Offers] UI中正确显示的问题。 (TGT-51628)
+* 解决了导致某些URL字符串和goURL无法正确本地化的问题。 (TGT-35741)
+* 修复了导致无法在[!DNL Target] UI中正确本地化角色（[!UICONTROL Approver]、[!UICONTROL Editor]和[!UICONTROL Observer]）的问题。 (TGT-29925)
 
 ## [!DNL Target Standard/Premium] 25.3.6（2025年3月14日）
 

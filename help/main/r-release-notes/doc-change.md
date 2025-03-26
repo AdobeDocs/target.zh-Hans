@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1908c9ebe94931778e792a75e75eff04076ae5c5
+source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 29%
+source-wordcount: '393'
+ht-degree: 30%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 29%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
+| 3 月 26 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.3.7版的发行说明。 |
 | 3 月 19 日 | [与[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)相关的问题疑难解答 | 更新了IP地址以列入允许列表。 |
 | 3 月 18 日 | 对[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动的[A4T支持](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 在&#x200B;*支持的目标指标*&#x200B;部分添加了注释。 |
 | 3 月 14 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.3.6版的发行说明。 |

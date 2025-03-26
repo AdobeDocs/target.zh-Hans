@@ -1,14 +1,14 @@
 ---
 keywords: 收藏集;定位
 description: 了解如何在 [!DNL Target Recommendations]中使用产品或项目的集合。
-title: 如何在Recommendations活动中使用收藏集？
+title: 如何在推荐活动中使用收藏集？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 26%
+source-wordcount: '716'
+ht-degree: 25%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->使用[!UICONTROL Recently Viewed Items]推荐键时不会应用收藏集。
+>* 收集规则适用于运行标准后生成的推荐项。 它们只影响输出中的实体推荐(ER)，而不影响键。
+>
+>* 使用[!UICONTROL Recently Viewed Items]推荐键时不会应用收藏集。
 
 ## 创建收藏集 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
@@ -42,7 +44,7 @@ ht-degree: 26%
 
    [!UICONTROL Collections]页面显示现有收藏集的列表。 单击[!UICONTROL Create Collection]按钮可创建新收藏集。 您还可以编辑、复制和删除现有收藏集，方法是单击所需收藏集旁边的“更多操作”图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击所需选项。
 
-   [!UICONTROL Collections]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认Recommendations [主机组](/help/main/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以更改默认主机组。
+   [!UICONTROL Collections]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以更改默认主机组。
 
 1. 单击 **[!UICONTROL Create Collection]**。
 
@@ -84,7 +86,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 1. 使用上述方法之一创建收藏集。
 
-1. 单击&#x200B;**[!UICONTROL Activities]**&#x200B;和[创建新的Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)活动或编辑现有活动。
+1. 单击&#x200B;**[!UICONTROL Activities]**&#x200B;并[创建新的推荐](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)活动或编辑现有活动。
 
 1. 选择标准和设计后，将显示[!UICONTROL Options]页面，您可以在其中选择所需的集合。
 

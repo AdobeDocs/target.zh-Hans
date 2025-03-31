@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
+source-git-commit: 36f269331d992f621d71fc085c85f3a7ad5bdfa6
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 27%
+source-wordcount: '450'
+ht-degree: 29%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 27%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
+| 3 月 31 日 | [at.js 版本详细信息](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | 添加了有关 at.js 2.11.8 版的信息。 |
 | 3 月 26 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.3.7版的发行说明。 |
 |  | [“推荐”常见问题解答](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 更新了常见问题解答以指示通过API创建的[!DNL Recommendations]对象在[!DNL Target] UI中可用。 |
 |  | [收藏集](/help/main/c-recommendations/c-products/collections.md) | 添加了以下注释：收集规则适用于运行标准后生成的推荐项。 它们只影响输出中的实体推荐(ER)，而不影响键。 |

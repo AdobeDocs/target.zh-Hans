@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 36f269331d992f621d71fc085c85f3a7ad5bdfa6
+source-git-commit: c6799d43ee2f5ebe568f7199ae4ec1deaa164c06
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 29%
+source-wordcount: '469'
+ht-degree: 30%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 29%
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
 ## 更新
+
+### [!DNL Target Standard/Premium] 25.4.1（2025年4月2日）
+
+| 日期 | 主题 | 更改 |
+|--- |--- |--- |
+| 4 月 2 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.4.1版的发行说明。 |
 
 ### [!DNL Target Standard/Premium] 25.3.1（2025年3月3日）
 

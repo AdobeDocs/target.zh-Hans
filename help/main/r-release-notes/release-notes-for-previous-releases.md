@@ -4,10 +4,10 @@ description: 查看 Adobe Target 早期版本中包括的功能、增强和修�
 title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 7924bf0238eeba92be286441f537bfe84e93060e
+source-git-commit: c6799d43ee2f5ebe568f7199ae4ec1deaa164c06
 workflow-type: tm+mt
-source-wordcount: '39655'
-ht-degree: 81%
+source-wordcount: '40414'
+ht-degree: 80%
 
 ---
 
@@ -22,6 +22,78 @@ ht-degree: 81%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 - 2025
+
+### [!DNL Target Standard/Premium] 25.3.8（2025年3月28日）
+
+此版本包含以下修复和更新：
+
+* 解决了导致[!UICONTROL Activities]页面加载缓慢的问题。 (TGT-51151)
+
+### [!DNL Target Standard/Premium] 25.3.7（2025年3月26日）
+
+此版本包含以下修复和更新：
+
+* 解决了在修改后删除页面时阻止保存多页面活动的问题。 (TGT-51988)
+* 解决了编辑活动时发生的错误： `default message [Invalid optionLocalIds: xx]]`。 (TGT-51985)
+* 解决了向活动添加新修改时删除现有修改的问题。 (TGT-51981)
+* 解决了在活动创建或编辑期间将受众替换为“[!UICONTROL All visitors]”导致“不允许存在重复的受众”错误的问题。 (TGT-51978)
+* 解决了在保存[!UICONTROL A/B Test]活动时导致“用户输入无效”错误的问题。 (TGT-51976)
+* 解决了导致计算量度无法在[!UICONTROL Goals & Settings]页面上正确显示的问题。 (TGT-51975)
+* 解决了阻止在`pageviews`量度的[!DNL Analytics]配置中匹配`companyName`和`reportSuite`的问题。 (TGT-51965)
+* 解决了在活动中切换体验时删除修改的问题。 (TGT-51945)
+* 解决了删除页面受众时也删除[!UICONTROL ClickTrack]选择器的问题。 (TGT-51935)
+* 解决了在打开活动[!UICONTROL Overview]页面后使其不可编辑的问题。 (TGT-51931)
+* 解决了在活动创建期间导致出现`[Unused optionLocalIds: 0]]`错误的问题。 (TGT-51920)
+* 解决了删除文本样式更改后某些更改无法正确翻译的问题。 (TGT-51876)
+* 解决了阻止目标受众在[!UICONTROL Form-Based Experience Composer]中正确更新的问题。 (TGT-51845)
+* 解决了[!UICONTROL Visual Experience Composer]中的URL在活动导航期间未正确更新的问题。 (TGT-51832)
+* 解决了导致选件无法在[!UICONTROL Offers] UI中显示的问题，尽管在创建活动和添加选件时显示正确。 (TGT-51805)
+* 解决了在无法交付个性化或目标内容时，某些活动缺少用于显示默认内容的回退屏幕的问题。 (TGT-51638)
+* 解决了导致实时优惠和某些文件夹无法在[!UICONTROL Offers] UI中正确显示的问题。 (TGT-51628)
+* 解决了导致某些URL字符串和goURL无法正确本地化的问题。 (TGT-35741)
+* 修复了导致无法在[!DNL Target] UI中正确本地化角色（[!UICONTROL Approver]、[!UICONTROL Editor]和[!UICONTROL Observer]）的问题。 (TGT-29925)
+
+### [!DNL Target Standard/Premium] 25.3.6（2025年3月14日）
+
+此版本包含以下修复和更新：
+
+* 解决了当多次使用同一[!UICONTROL ClickTrack]选择器时启用了[!UICONTROL Click Tracking]的[!UICONTROL Visual Experience Composer] (VEC)活动中的“用户输入无效”错误。 (TGT-51921)
+* 修复了具有共享位置(例如，HEAD选择器)和相同选件的VEC活动中的“用户输入无效”错误。 (TGT-51879)
+* 修复了导致体验修改在受众之间共享的问题。 (TGT-51815)
+* 解决了创建活动时由于区段ID冲突导致的验证错误。 [!DNL Target]检测到使用匿名区段的现有活动时出现错误。 (TGT-51784)
+* 解决了阻止[!DNL Target]在受众中保存带有排除规则的活动的问题。 (TGT-51581)
+* 解决了阻止客户在无法访问默认工作区的情况下创建、删除或移动文件夹的问题。 (TGT-51499)
+* 解决了在检索[!DNL Analytics]指标列表时导致GET请求失败的问题。 (TGT-51106)
+
+### [!DNL Target Standard/Premium] 25.3.5（2025年3月11日）
+
+此版本包含以下修复和更新：
+
+* 解决了阻止用户更改[!UICONTROL Modifications]面板中选件的问题。 (TGT-51800)
+* 解决了在体验和受众的左侧面板（包括在[!UICONTROL ClickTrack]模式下）中错误显示操作的问题。 (TGT-51895)
+* 解决了[!UICONTROL ClickTrack]选择器未应用于正确受众页面的问题。 (TGT-51871)
+
+### [!DNL Target Standard/Premium] 25.3.4（2025年3月7日）
+
+此版本包含以下修复和更新：
+
+* 解决了仅活动受众在[!UICONTROL Audiences]面板中不可见，导致无法编辑或重用的问题。 (TGT-51860)
+* 修复了阻止[!DNL Target Standard]客户使用[!UICONTROL Analytics for Target] (A4T)报表创建活动的问题。 (TGT-51854)
+* 修复了在批量创建和编辑操作期间从有效负载中排除本地ID计数器的问题。 (TGT-51867)
+
+### [!DNL Target Standard/Premium] 25.3.2（2025年3月6日）
+
+此版本包含以下修复和更新：
+
+* 修复了复制仅包含活动受众的活动时无法创建新活动，从而错误地使用原始活动的受众的问题。 (TGT-51855)
+* 修复了阻止编辑具有仅限该活动的受众的[!UICONTROL Experience Targeting] (XT)活动的问题。 (TGT-51846)
+* 修复了[!UICONTROL Visual Experience Composer] (VEC)在首次编辑时无法正确将修改应用于体验的问题。 (TGT-51843)
+* 修复了单击VEC中的某些元素时触发“ID”错误的问题。 (TGT-51814)
+* 在活动创建期间更新了VEC中的错误处理。 (TGT-51759)
+* 修复了在保存活动时，[!UICONTROL Modifications]面板中缺少视图导致“无效用户输入”错误的问题。 (TGT-51827)
+* 修复了阻止创建推荐标准的问题。 (TGT-51834)
+* 在重定向到其他URL之前添加了确认消息。 (TGT-51703)
+* 修复了选件和文件夹中的GraphQL集成测试问题。 (TGT-51839)
 
 ### [!DNL Target Standard/Premium] 25.3.1（2025年3月3日）
 

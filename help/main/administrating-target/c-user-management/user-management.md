@@ -5,7 +5,7 @@ title: 如何配置用户管理？
 feature: Administration & Configuration
 role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 61%
@@ -15,6 +15,8 @@ ht-degree: 61%
 # 用户管理
 
 有关管理[!DNL Target] Standard中的用户以及管理[!DNL Target] Premium中的企业[!UICONTROL Properties]和[!UICONTROL Permissions]的信息。
+
+{{permissions-update}}
 
 >[!NOTE]
 >

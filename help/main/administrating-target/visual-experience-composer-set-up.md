@@ -5,7 +5,7 @@ title: 如何配置可视化体验编辑器(VEC)？
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 49%
@@ -17,6 +17,8 @@ ht-degree: 49%
 通过指定其常规设置、移动设备视区配置和CSS选择器来配置[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)。
 
 要访问[!UICONTROL Visual Experience Composer]配置页面，请单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]。**
+
+{{permissions-update}}
 
 >[!NOTE]
 >

@@ -5,7 +5,7 @@ title: 什么是响应令牌？如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 22%
@@ -19,6 +19,8 @@ ht-degree: 22%
 响应令牌允许您选择要使用的变量（在键值对中），然后启用它们作为[!DNL Target]响应的一部分发送。 您使用开关启用一个变量，该变量将随[!DNL Target]响应一起发送，这可以在网络调用中验证。 响应令牌也可在[!UICONTROL Preview]模式下使用。
 
 插件和响应令牌之间的主要区别在于，插件可以将JavaScript交付到在交付时执行的页面。 但是，响应令牌会传递一个对象，然后可以使用事件侦听器读取该对象并对其执行操作。 响应令牌方法更安全，并且允许更轻松地开发和维护第三方集成。
+
+{{permissions-update}}
 
 >[!NOTE]
 >
@@ -80,11 +82,11 @@ ht-degree: 22%
 
 使用Handle对象类，该对象类具有元数据对象和数据对象，用于侦听[!DNL Target]响应并读取响应令牌。
 
-以下响应示例将[!DNL Platform Web SDK]自定义事件处理程序直接添加到HTML页面（该表说明了代码中使用的对象）：
+以下响应示例将一个[!DNL Platform Web SDK]自定义事件处理程序直接添加到HTML页面（该表说明了代码中使用的对象）：
 
 | 对象 | 信息 |
 | --- | --- |
-| 类型 — Personalization.decision | 是否由[!DNL Target]或Offer decisioning提供程序做出决定。 |
+| 类型 — Personalization.decision | 是否由[!DNL Target]或Offer Decisioning提供商做出决定。 |
 | DecisionProvider - TGT | TGT-[!DNL Target]。 [!DNL Target]为页面提供响应令牌元数据和值。 |
 | Meta | 传递到页面的元数据。 |
 | 数据 | 传递到页面的元数据的值。 |
@@ -212,13 +214,13 @@ ht-degree: 22%
 
 [!DNL Target]定期执行属性刷新。 任何未切换的属性将在下次刷新时删除。 但是，如果您具有已打开并已删除的属性，则在将其关闭之前，不会将该脚本从属性列表中删除。 例如，您删除了用作令牌的配置文件脚本。 删除或重命名[!DNL Target]时，只从列表中删除已切换的属性。
 
-## 向Google Analytics发送数据
+## 将数据发送到Google Analytics
 
-以下各节介绍如何将[!DNL Target]数据发送到Google Analytics4。 由响应令牌发送的数据也可以发送到其他第三方集成。
+以下部分介绍了如何将[!DNL Target]数据发送到Google Analytics 4。 由响应令牌发送的数据也可以发送到其他第三方集成。
 
 ### ![AEP徽章](/help/main/assets/platform.png)通过Platform Web SDK向Google Analytics发送数据
 
-通过在HTML页面中添加以下代码，可以通过Platform Web SDK版本2.6.0（或更高版本）发送Google Analytics数据。
+通过在Google Analytics页面中添加以下代码，可以通过Platform Web SDK版本2.6.0（或更高版本）来发送HTML数据。
 
 >[!NOTE]
 >
@@ -254,7 +256,7 @@ ht-degree: 22%
 </script>
 ```
 
-### ![at.js徽章](/help/main/assets/atjs.png)通过at.js向Google Analytics发送数据 {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js徽章](/help/main/assets/atjs.png)通过at.js将数据发送到Google Analytics {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 通过在 HTML 页面中添加以下代码，即可通过 at.js 向 Google Analytics 发送数据：
 
@@ -310,9 +312,9 @@ ht-degree: 22%
 
 以下部分提供了有关调试响应令牌的信息：
 
-### ![at.js徽章](/help/main/assets/atjs.png)Google Analytics和调试
+### ![at.js徽章](/help/main/assets/atjs.png) Google Analytics和调试
 
-以下代码允许您使用Google Analytics进行调试：
+以下代码允许您使用Google Analytics调试：
 
 ```javascript
 <script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>

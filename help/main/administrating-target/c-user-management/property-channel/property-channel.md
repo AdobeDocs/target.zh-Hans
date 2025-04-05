@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '3165'
 ht-degree: 48%
@@ -16,6 +16,8 @@ ht-degree: 48%
 # 企业用户权限
 
 企业用户权限是一种正式管理企业范围用户对[!DNL Adobe Target]访问权限的方法。 将用户添加到[!DNL Target]，根据其角色分配权限，并根据不同的部门、全局位置、渠道和其他逻辑分组为团队创建工作区。 您可以为用户分配[!UICONTROL Observer]、[!UICONTROL Editor]、[!UICONTROL Approver]或[!UICONTROL Publisher]的角色。
+
+{{permissions-update}}
 
 ## 确定您是否有权访问企业用户权限
 
@@ -236,7 +238,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
    * 图像产品建议
    * 所有“推荐”资源，其中包括标准库、设计库、目录、推荐设置。
    * 在启用企业权限之前，可以复制在Target Premium中创建的现有资源（例如活动、代码选件和受众），但不能将这些资源移动到其他工作区。
-   * 使用以下解决方案或方法创建的活动、受众、代码选件、图像选件或任何其他资源不受企业权限模型控制，但属于默认Workspace的一部分：Target Classic、Adobe Experience Manager (AEM)、AdobeMobile Services以及通过API创建的资源。 通过 API 创建的资源（包括活动、受众、代码产品建议和图像产品建议）。
+   * 使用以下解决方案或方法创建的活动、受众、代码选件、图像选件或任何其他资源不受企业权限模型控制，但属于默认Workspace的一部分：Target Classic、Adobe Experience Manager (AEM)、Adobe Mobile Services，以及通过API创建的资源。 通过 API 创建的资源（包括活动、受众、代码产品建议和图像产品建议）。
    * 图像选件（存储在`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`下的资产）当前不受企业权限模型控制。
    * 当目标链接或目标页面是包含在活动中的属性的一部分时，clickTracking和重定向会起作用。 此外，使用`targetPageParams()`函数时，clickTracking可能无法正常工作。 `targetPageParamsAll()` 是推荐的函数。
 

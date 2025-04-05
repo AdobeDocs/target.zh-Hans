@@ -5,7 +5,7 @@ title: 如何管理Target？
 feature: Administration & Configuration
 role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 13%
@@ -15,6 +15,8 @@ ht-degree: 13%
 # 管理[!DNL Target]概述
 
 此信息可帮助您管理[!DNL Adobe Target]，包括Visual Experience Composer (VEC)、报表、Scene7配置、实现、主机、环境、响应令牌、用户和[!DNL Recommendations]的配置设置。
+
+{{permissions-update}}
 
 要访问[!UICONTROL Administration]菜单项，请单击顶部菜单栏中的&#x200B;**[!UICONTROL Administration]**，然后单击左侧的所需选项卡：
 

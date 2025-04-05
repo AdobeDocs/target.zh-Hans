@@ -5,7 +5,7 @@ title: 如何在 [!DNL Target]中配置报表？
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: ea9513c4310d13e1e7899aa7e228b4d7ecdf0748
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 22%
@@ -15,6 +15,8 @@ ht-degree: 22%
 # 在[!DNL Target]中配置报表
 
 配置要在[!DNL Adobe Target]报告中使用的常规设置，这些设置适用于您的整个[!DNL Target]帐户。
+
+{{permissions-update}}
 
 要访问[!UICONTROL Reporting]配置页面，请单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Reporting]。**
 

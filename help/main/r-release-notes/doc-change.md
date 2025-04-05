@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c6799d43ee2f5ebe568f7199ae4ec1deaa164c06
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 30%
+source-wordcount: '530'
+ht-degree: 28%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 30%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
+| 4 月 4 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 更新了计划于2025年4月22日进行的[!DNL Target]权限更新的发行说明。 |
+|  | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 更新了计划于2025年4月22日进行的即将[!DNL Target]权限更新的预发行说明。 |
+|  | [管理员首要步骤](/help/main/administrating-target/start-target.md#admin-permissions) | 添加了新章节：“编辑[!UICONTROL Administration]设置所需的权限”。 |
+|  | [管理员 [!DNL Target] 概述](/help/main/administrating-target/administrating-target.md) | 添加了有关编辑[!UICONTROL Administration]设置所需权限的重要说明。<P>向[!UICONTROL Administration]部分中的所有文章添加了相同的注释。 |
 | 4 月 2 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.4.1版的发行说明。 |
 
 ### [!DNL Target Standard/Premium] 25.3.1（2025年3月3日）

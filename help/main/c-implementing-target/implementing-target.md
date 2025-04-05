@@ -7,7 +7,7 @@ title: 如何实施 [!DNL Target]？
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 3%
@@ -18,6 +18,8 @@ ht-degree: 3%
 
 在开始使用[!DNL Adobe Target]之前，您必须在您的网站上实施它。
 
+{{permissions-update}}
+
 [Adobe Target开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans){target=_blank}包含实施[!DNL Target]之前需要了解的信息。
 
 开发人员门户包含有关以下实施类型的信息：
@@ -25,7 +27,7 @@ ht-degree: 3%
 * **客户端**：有关使用[!DNL Adobe Experience Platform Web SDK]或[!DNL Target Web SDK] (at.js)实现的信息。
 * **服务器端**：有关使用Node.JS、JAVA、.NET和Python SDK实施的信息。
 * **混合**：有关在使用客户端和服务器端实施的组合时实施的信息。
-* **Recommendations**：帮助您实施[!DNL Recommendations](一种[Target Premium](/help/main/c-intro/intro.md#premium)产品)的信息。
+* **推荐**：帮助您实施[!DNL Recommendations]&#x200B;(一种[Target Premium](/help/main/c-intro/intro.md#premium)产品)的信息。
 * **移动应用**：帮助您使用[!DNL Adobe Experience Platform Mobile] SDK实施的信息。
 * **电子邮件**：帮助您在电子邮件中实施[!DNL Target]的信息。
 

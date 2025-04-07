@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
+source-git-commit: 203c0ca94b198ee7ce8379731d31d32b27cb8a0d
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 37%
+source-wordcount: '653'
+ht-degree: 30%
 
 ---
 
@@ -30,6 +30,22 @@ ht-degree: 37%
 自2025年4月22日起，仅[!UICONTROL Product]和[!UICONTROL Solutions]管理员能够更新[!UICONTROL Administration]部分中的设置，无论他们在[!DNL Target]工作区中的角色如何。 没有此权限的用户将具有[!UICONTROL Administration]部分的只读访问权限。
 
 有关详细信息，请参阅[管理Target](/help/main/administrating-target/start-target.md)。
+
+## [!DNL Target Standard/Premium] 25.4.3（2025年4月10日）
+
+此版本包含以下修复和更新：
+
+* 修复了[!UICONTROL Form-Based Experience Composer]中的[!UICONTROL Activity QA]链接被错误地重定向到[!DNL Adobe Experience Cloud]主页的问题。 (TGT-52055)
+* 添加了错误消息，以指导用户解决活动中的重复选项。 (TGT-51927)
+
+## [!DNL Target Standard/Premium] 25.4.2（2025年4月8日）
+
+此版本包含以下修复和更新：
+
+* 修复了在保存并重新打开后未保留添加到[!UICONTROL A/B Test]活动中的其他页面的问题。 (TGT-51994)
+* 修复了阻止客户删除内联样式部分中的样式的问题。 (TGT-52070)
+* 类似于旧版UI，已恢复对[!UICONTROL Activity QA]对话框中的[受众定义卡片](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)的访问。 (TGT-52056)
+* 更新后的UI未保存未经修改的页面或受众。 如果客户向活动添加新页面或受众，但没有对它们进行更改，则[!DNL Target]会在保存时丢弃未修改的受众。 已在相关位置添加了通知，以告知用户此行为。 (TGT-52104)
 
 ## [!DNL Target Standard/Premium] 25.4.1（2025年4月2日）
 

@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 203c0ca94b198ee7ce8379731d31d32b27cb8a0d
+source-git-commit: eaba6fe562644874fc800612894218094ca37f1b
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 30%
+source-wordcount: '391'
+ht-degree: 43%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 30%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2025年4月2日**
+**上次更新日期：2025年4月8日**
 
 >[!NOTE]
 >
@@ -46,26 +46,6 @@ ht-degree: 30%
 * 修复了阻止客户删除内联样式部分中的样式的问题。 (TGT-52070)
 * 类似于旧版UI，已恢复对[!UICONTROL Activity QA]对话框中的[受众定义卡片](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)的访问。 (TGT-52056)
 * 更新后的UI未保存未经修改的页面或受众。 如果客户向活动添加新页面或受众，但没有对它们进行更改，则[!DNL Target]会在保存时丢弃未修改的受众。 已在相关位置添加了通知，以告知用户此行为。 (TGT-52104)
-
-## [!DNL Target Standard/Premium] 25.4.1（2025年4月2日）
-
-此版本包含以下修复和更新：
-
-* 修复了导致体验受众从活动中消失的问题。 (TGT-52003)
-* 修复了在投放期间导致出现意外元素的问题。 (TGT-52011)
-* 修复了阻止客户在Ove[!UICONTROL r]视图页面的定位图形中以及活动编辑期间查看受众的问题。 (TGT-52050)
-* 修复了一个问题，该问题阻止客户在[!UICONTROL Experience Targeting] (XT)活动中按优先级重新排序体验。 (TGT-52054)
-* 修复了在撤消文本样式更改时导致呈现不正确的问题。 (TGT-51876)
-* 修复了在修改重定向选件时，[!DNL Target]还会删除与该选件关联的所有[!UICONTROL ClickTrack]选择器的问题。 (TGT-51936)
-* 修复了在取消[!UICONTROL ClickTrack]时导致[!DNL Target]错误保存选择器的问题。 (TGT-51937)
-* 修复了在未进行任何更改的情况下打开和关闭[!UICONTROL Goals & Settings]页面上的mbox选取器后触发无效名称错误的问题。 (TGT-51983)
-* 修复了阻止编辑在旧版[!DNL Target] UI中创建的临时优惠的问题。 (TGT-51984)
-* 修复了阻止编辑具有包含自定义代码的临时选件的活动的问题。 (TGT-51995)
-* 修复了在编辑组合受众定义时导致排除规则显示为包含规则的问题。 (TGT-51999)
-* 修复了在体验编辑期间阻止自定义代码正确显示的问题。 (TGT-52005)
-* 修复了[!UICONTROL Insert Before]选项无法用于在导航栏之前插入内容的问题。 (TGT-52031)
-* 修复了导致无法在报告中正确突出显示默认体验的问题。 (TGT-51716)
-* 修复了在创建活动时触发`default message [Invalid optionLocalIds: xx]]`消息的问题。 (TGT-52038)
 
 <!-- 
 ## [!DNL Target Standard/Premium] 24.10.2 (October 21, 2024)

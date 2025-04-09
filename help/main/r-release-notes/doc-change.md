@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 203c0ca94b198ee7ce8379731d31d32b27cb8a0d
+source-git-commit: 626d33f00ff84af367847d53de7806ea62940809
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 28%
+source-wordcount: '600'
+ht-degree: 27%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 28%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
+| 4 月 8 日 | [CNAME和Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | 更新了以下各项：<ul><li>默认情况下，所有证书均为RSA SHA-256，密钥为RSA 2048位。 超过2048位的密钥大小应通过客户关怀团队明确请求。 （先前声明的大于2048位的密钥大小不受支持。）</li><li>更新了bash脚本。</li><li>更新了验证输出代码段。</li></ul> |
 | 4 月 7 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为以下即将发布的版本添加了预发行说明：<UL><li>[!DNL Target Standard/Premium] 25.4.2（2025年4月8日）</li><li>[!DNL Target Standard/Premium] 25.4.3（2025年4月10日）</li></ul> |
 | 4 月 4 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 更新了计划于2025年4月22日进行的[!DNL Target]权限更新的发行说明。 |
 |  | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 更新了计划于2025年4月22日进行的即将[!DNL Target]权限更新的预发行说明。 |

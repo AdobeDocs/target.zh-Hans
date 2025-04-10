@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8af56181ea0ed74eb41d799908ce50f0436d330c
+source-git-commit: 7e23eea48abdebd60f37ad1bf453813a63779d33
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 30%
+source-wordcount: '744'
+ht-degree: 27%
 
 ---
 
@@ -31,6 +31,16 @@ ht-degree: 30%
 
 有关详细信息，请参阅[管理Target](/help/main/administrating-target/start-target.md)。
 
+## [!DNL Target Standard/Premium] 25.4.4（2025年4月15日）
+
+此版本包含以下修复和更新：
+
+* 添加了错误消息，以指导用户解决活动中的重复选项。 (TGT-51927)
+* 修复了在删除具有重定向选件的页面或体验时未删除ClickTrack选择器的问题。 (TGT-51952)
+* 修复了[!DNL Target]在活动URL中无法正确检测“#”字符的问题。 (TGT-52093)
+* 修复了在[!UICONTROL Automated Personalization] (AP)活动中编辑选件级别定位时受众定义不可见的问题。 (TGT-52148)
+* 修复了在UI中反转受众细化和活动定位受众的问题。 (TGT-52158)
+
 ## [!DNL Target Standard/Premium] 25.4.3（2025年4月10日）
 
 此版本包含以下修复和更新：
@@ -51,7 +61,6 @@ ht-degree: 30%
 * 修复了导致整个体验URL无法在[!UICONTROL Visual Experience Composer] (VEC)的[!UICONTROL Browse mode]中显示的问题。 (TGT-52101)
 * 修复了编辑活动导致页面交付在URL末尾添加“/”使其无效的问题。 (TGT-52114)
 * 修复了[!UICONTROL Form-Based Experience Composer]中的[!UICONTROL Activity QA]链接被错误地重定向到[!DNL Adobe Experience Cloud]主页的问题。 (TGT-52055)
-* 添加了错误消息，以指导用户解决活动中的重复选项。 (TGT-51927)
 * 修复了在保存并重新打开后未保留添加到[!UICONTROL A/B Test]活动中的其他页面的问题。 (TGT-51994)
 * 修复了阻止客户删除内联样式部分中的样式的问题。 (TGT-52070)
 * 类似于旧版UI，已恢复对[!UICONTROL Activity QA]对话框中的[受众定义卡片](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)的访问。 (TGT-52056)

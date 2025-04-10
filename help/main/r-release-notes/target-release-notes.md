@@ -4,7 +4,7 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7e23eea48abdebd60f37ad1bf453813a63779d33
+source-git-commit: 2e3191da2ac21f51fa6e08af615659db1ccdd2d9
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 27%
@@ -22,24 +22,6 @@ ht-degree: 27%
 >发布日期、功能及其他信息如有更改，恕不另行通知。
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
-
-## Target权限更新（2025年4月22日）
-
-此未来更新增强了组织对[!DNL Target]实例配置的控制，防止了可能影响不同测试和个性化团队之间活动交付的意外更新。
-
-自2025年4月22日起，仅[!UICONTROL Product]和[!UICONTROL Solutions]管理员能够更新[!UICONTROL Administration]部分中的设置，无论他们在[!DNL Target]工作区中的角色如何。 没有此权限的用户将具有[!UICONTROL Administration]部分的只读访问权限。
-
-有关详细信息，请参阅[管理Target](/help/main/administrating-target/start-target.md)。
-
-## [!DNL Target Standard/Premium] 25.4.4（2025年4月15日）
-
-此版本包含以下修复和更新：
-
-* 添加了错误消息，以指导用户解决活动中的重复选项。 (TGT-51927)
-* 修复了在删除具有重定向选件的页面或体验时未删除ClickTrack选择器的问题。 (TGT-51952)
-* 修复了[!DNL Target]在活动URL中无法正确检测“#”字符的问题。 (TGT-52093)
-* 修复了在[!UICONTROL Automated Personalization] (AP)活动中编辑选件级别定位时受众定义不可见的问题。 (TGT-52148)
-* 修复了在UI中反转受众细化和活动定位受众的问题。 (TGT-52158)
 
 ## [!DNL Target Standard/Premium] 25.4.3（2025年4月10日）
 
@@ -65,6 +47,24 @@ ht-degree: 27%
 * 修复了阻止客户删除内联样式部分中的样式的问题。 (TGT-52070)
 * 类似于旧版UI，已恢复对[!UICONTROL Activity QA]对话框中的[受众定义卡片](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)的访问。 (TGT-52056)
 * 更新后的UI未保存未经修改的页面或受众。 如果客户向活动添加新页面或受众，但没有对它们进行更改，则[!DNL Target]会在保存时丢弃未修改的受众。 已在相关位置添加了通知，以告知用户此行为。 (TGT-52104)
+
+## [!DNL Target Standard/Premium] 25.4.4（2025年4月15日）
+
+此版本包含以下修复和更新：
+
+* 添加了错误消息，以指导用户解决活动中的重复选项。 (TGT-51927)
+* 修复了在删除具有重定向选件的页面或体验时未删除ClickTrack选择器的问题。 (TGT-51952)
+* 修复了[!DNL Target]在活动URL中无法正确检测“#”字符的问题。 (TGT-52093)
+* 修复了在[!UICONTROL Automated Personalization] (AP)活动中编辑选件级别定位时受众定义不可见的问题。 (TGT-52148)
+* 修复了在UI中反转受众细化和活动定位受众的问题。 (TGT-52158)
+
+## Target权限更新（2025年4月22日）
+
+此未来更新增强了组织对[!DNL Target]实例配置的控制，防止了可能影响不同测试和个性化团队之间活动交付的意外更新。
+
+自2025年4月22日起，仅[!UICONTROL Product]和[!UICONTROL Solutions]管理员能够更新[!UICONTROL Administration]部分中的设置，无论他们在[!DNL Target]工作区中的角色如何。 没有此权限的用户将具有[!UICONTROL Administration]部分的只读访问权限。
+
+有关详细信息，请参阅[管理Target](/help/main/administrating-target/start-target.md)。
 
 ## 其他发行说明和版本详细信息
 

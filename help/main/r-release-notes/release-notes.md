@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
+source-git-commit: 2e3191da2ac21f51fa6e08af615659db1ccdd2d9
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 47%
+source-wordcount: '572'
+ht-degree: 52%
 
 ---
 
@@ -18,14 +18,6 @@ ht-degree: 47%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
-
-## Target权限更新（2025年4月22日）
-
-此未来更新增强了组织对[!DNL Target]实例配置的控制，防止了可能影响不同测试和个性化团队之间活动交付的意外更新。
-
-自2025年4月22日起，仅[!UICONTROL Product]和[!UICONTROL Solutions]管理员能够更新[!UICONTROL Administration]部分中的设置，无论他们在[!DNL Target]工作区中的角色如何。 没有此权限的用户将具有[!UICONTROL Administration]部分的只读访问权限。
-
-有关详细信息，请参阅[管理Target](/help/main/administrating-target/start-target.md)。
 
 ## [!DNL Target Standard/Premium] 25.4.1（2025年4月2日）
 

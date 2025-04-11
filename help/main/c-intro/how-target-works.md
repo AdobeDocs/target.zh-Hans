@@ -4,7 +4,7 @@ description: 了解 [!DNL Adobe Target] 的工作原理，包括有关JavaScript
 title: ' [!DNL Target] 的工作原理'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 23%
@@ -103,10 +103,10 @@ Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 
 以下信息可帮助您了解用于[!DNL Target]服务器调用的计数策略，如下表所示：
 
-* **计数一次**：每个API调用计数一次
-* **计算mbox的数量**：计算单个API调用的有效负载中数组下的mbox的数量
-* **忽略**：完全不计算
-* **计算查看次数（一次）**：计算有效负载中数组下的查看次数。 在典型实施中，视图通知在通知数组中只有一个视图，这使得在大多数实施中，这等于计数一次
+* **计数一次**：每个API调用计数一次。
+* **计算mbox的数量**：计算单个API调用的有效负载中数组下的mbox的数量。
+* **忽略**：完全不计算。
+* **计算查看次数（一次）**：计算有效负载中数组下的查看次数。 在典型实施中，视图通知在通知数组中只有一个视图，这使得在大多数实施中，这等于计数一次。
 
 | 终结点 | 获取类型 | 选项 | 计数策略 |
 |--- |--- |--- |-- |

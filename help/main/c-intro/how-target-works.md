@@ -4,10 +4,10 @@ description: 了解 [!DNL Adobe Target] 的工作原理，包括有关JavaScript
 title: ' [!DNL Target] 的工作原理'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 70b3dbc7f0521e865de781e72bb1e5ca98df0258
+source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
 workflow-type: tm+mt
-source-wordcount: '2306'
-ht-degree: 24%
+source-wordcount: '2400'
+ht-degree: 23%
 
 ---
 
@@ -35,14 +35,14 @@ Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 >
 >mbox.js库是[!DNL Target]的旧版实施，在2021年3月31日之后不再受支持。 升级到[!UICONTROL Experience Platform Web SDK] （首选）或at.js的最新版本。
 
-引用站点每个页面上的[!UICONTROL Experience Platform Web SDK]或at.js。 例如，将这些库之一添加到全局页眉中。 或者，在Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}中使用[标记来实现[!DNL Target]。
+在网站的每个页面上引用[!UICONTROL Experience Platform Web SDK]或at.js。 例如，将其中一个库添加到您的全局标头。 或者，使用Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}中的[标记实现[!DNL Target]。
 
 以下资源包含帮助您实施 [!DNL Experience Platform Web SDK] 或 at.js 的详细信息：
 
 * [[!DNL Adobe Experience Platform Web SDK] 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
 * [使用  [!DNL Adobe Experience Platform] 实施  [!DNL Target] ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
-每当访问者请求针对[!DNL Target]优化的页面时，系统都会向目标系统发送实时请求，以确定要提供的内容。 每次加载页面时都会提出并完成此请求，受营销人员控制的活动和体验的约束。 内容针对个别网站访客，可最大限度地提高响应率、客户获取率和收入。 个性化内容有助于确保访客做出响应、与之互动或进行购买。
+每次访客请求访问针对[!DNL Target]进行优化的页面时，系统都会向定位系统发送实时请求，以确定要提供的内容。 每次加载页面时都会提出并完成此请求，受营销人员控制的活动和体验的约束。 内容针对个别网站访客，可最大限度地提高响应率、客户获取率和收入。 个性化内容有助于确保访客做出响应、与之互动或进行购买。
 
 在[!DNL Target]中，页面上的每个元素都属于单个体验，该体验可以包含多个元素。
 
@@ -50,20 +50,20 @@ Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 
 ### [!UICONTROL A/B Test]
 
-在基本A/B测试中，从分配的体验中随机选择内容。 您可以为每种体验设置流量分配百分比。 起初，流量可能因随机拆分而不均匀分布，但随着流量的增加，其分布会趋于均衡。 例如，对于两种体验，会随机选择起始体验。 低流量可能会使访客百分比向某个体验倾斜，但这种情况会与更多流量相平衡。
+在基本A/B测试中，从分配的体验中随机选择内容。 您可以为每个体验设置流量分配百分比。 起初，流量可能因随机拆分而不均匀分布，但随着流量的增加，其分布会趋于均衡。 例如，对于两种体验，会随机选择起始体验。 低流量可能会使访客百分比向某个体验倾斜，但这种情况会与更多流量相平衡。
 
 指定每个体验的百分比目标。 将生成一个随机数以选择要显示的体验。 虽然生成的百分比可能与目标不完全匹配，但较高的流量会导致与目标目标更接近。
 
 1. 客户向您的服务器请求一个页面，该页面会显示在客户的浏览器中。
 1. 在客户的浏览器中设置第一方Cookie以存储其行为。
 1. 页面调用定位系统。
-1. 根据活动规则显示内容。
+1. 将根据活动规则显示内容。
 
 有关更多信息，请参阅[创建 A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)。
 
 ### [!UICONTROL Auto-Allocate]
 
-[!UICONTROL Auto-Allocate]标识了两个或更多选项中的获胜体验。 然后，它会自动向获胜者分配更多流量，随着测试的继续运行和学习而增加转化率。
+[!UICONTROL Auto-Allocate]在两个或更多选项中标识入选体验。 然后，它会自动为入选者重新分配更多流量，从而随着测试的继续运行和学习而提高转化率。
 
 有关详细信息，请参阅[[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)。
 
@@ -101,6 +101,13 @@ Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 
 [!DNL Target]只计算向客户提供值的服务器调用。 下表显示了[!DNL Target]如何计算端点、单个mbox、批量mbox调用、执行、预获取和通知调用。
 
+以下信息可帮助您了解用于[!DNL Target]服务器调用的计数策略，如下表所示：
+
+* **计数一次**：每个API调用计数一次
+* **计算mbox的数量**：计算单个API调用的有效负载中数组下的mbox的数量
+* **忽略**：完全不计算
+* **计算查看次数（一次）**：计算有效负载中数组下的查看次数。 在典型实施中，视图通知在通知数组中只有一个视图，这使得在大多数实施中，这等于计数一次
+
 | 终结点 | 获取类型 | 选项 | 计数策略 |
 |--- |--- |--- |-- |
 | `rest//v1/mbox` | 单个 | [!UICONTROL execute] | 计数一次 |
@@ -132,9 +139,9 @@ Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 
 [!DNL Target]托管在Adobe拥有和Adobe租用的全球数据中心上。
 
-中心群集地点同时容纳数据收集中心和数据处理中心。 边缘群集位置仅包含数据收集中心。 每个报表包均分配给一个特定的数据处理中心。
+中心群集地点同时容纳数据收集中心和数据处理中心。 Edge群集位置仅包含数据收集中心。 每个报表包均分配给一个特定的数据处理中心。
 
-客户站点活动数据由最接近七个边缘群集的群集收集。 然后，将此数据定向到预先确定的中心群集目标（俄勒冈、都柏林或新加坡）以供处理。 访客轮廓数据存储在距离网站访客最近的边缘群集。Edge群集地点包括中心群集地点以及弗吉尼亚、孟买、悉尼和东京。
+客户网站活动数据由七个最接近的Edge群集收集。 然后，将此数据定向到预先确定的中心群集目标（俄勒冈、都柏林或新加坡）以供处理。 访客轮廓数据存储在距离网站访客最近的边缘群集。Edge群集地点包括中心群集地点以及弗吉尼亚、孟买、悉尼和东京。
 
 Edge集群处理距离访客最近的请求，而不是从单个位置处理所有定位请求。 此方法可减轻网络和Internet旅行时间的影响。
 
@@ -162,7 +169,7 @@ Edge集群处理距离访客最近的请求，而不是从单个位置处理所�
 >
 >[!DNL Target]当前在中国缺少Edge群集，从而限制了该区域[!DNL Target]客户的访客性能。 防火墙和Edge群集的缺失可能会影响站点体验，导致渲染和页面加载时间变慢。 此外，营销人员在使用[!DNL Target]创作UI时可能会遇到延迟问题。
 
-如果需要，可将 [!DNL Target] 边缘群集列入允许列表。有关更多信息，请参阅[将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
+如果需要，可将 [!DNL Target] 边缘群集列入允许列表。有关详细信息，请参阅[将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -197,19 +204,19 @@ Edge集群处理距离访客最近的请求，而不是从单个位置处理所�
 
   [!DNL Target]配置为将搜索引擎机器人视为与任何用户相同。 因此，如果随机选择机器人并“看到”测试变体，则可以将机器人包含在活动中。
 
-* **使用rel=&quot;canonical&quot;**：有时，A/B测试需要不同的URL才能进行变体。 在这些情况下，所有变体都应包含引用原始（控件） URL的rel=&quot;canonical&quot;标记。 例如，如果[!DNL Adobe]正在测试其主页，其中每个变体的URL不同，则应将该主页的以下规范标记放置在每个变体的`<head>`标记中：
+* **使用rel=&quot;canonical&quot;**：有时A/B测试需要不同的URL才能测试变体。 在这些情况下，所有变体都应当包含引用原始（控制）URL的rel=&quot;canonical&quot;标记。 例如，如果[!DNL Adobe]正在测试其主页，其中对每个变体使用不同的URL，则主页的以下canonical标记应放置在每个变体的`<head>`标记中：
 
   `<link rel="canonical" href="https://www.adobe.com" />`
 
-* **使用302（临时）重定向**：在测试中对变体页使用单独的URL时，[!DNL Google]建议使用302重定向将通信定向到测试变体。 302重定向通知搜索引擎，重定向是临时的，仅在测试运行时才有效。
+* **使用302（临时）重定向**：当测试中的变体页面使用单独的URL时，[!DNL Google]建议使用302重定向将流量定向到测试变体。 302重定向会通知搜索引擎，该重定向是临时的，仅在测试运行时有效。
 
-  302重定向是服务器端重定向，而[!DNL Target]和大多数优化提供程序使用客户端功能。 因此，[!DNL Target]不完全符合[!DNL Google]有关重定向的建议。 但是，这仅影响一小部分测试。 通过[!DNL Target]运行测试的标准方法涉及更改单个URL中的内容，从而无需重定向。 在测试变体需要多个URL的情况下，[!DNL Target]使用JavaScript `window.location`命令，该命令不会指定重定向是301还是302。
+  302重定向是服务器端重定向，而[!DNL Target]和大多数优化提供程序使用客户端功能。 因此，[!DNL Target]不完全符合[!DNL Google]的重定向建议。 但是，这仅影响一小部分测试。 通过[!DNL Target]运行测试的标准方法涉及更改单个URL中的内容，从而无需重定向。 在测试变体需要多个URL的情况下，[!DNL Target]使用JavaScript `window.location`命令，该命令不会指定重定向是301还是302。
 
   [!DNL Adobe]正在积极寻找解决方案，以完全遵守搜索引擎准则。 对于需要单独的URL进行测试的客户端，[!DNL Adobe]认为正确实施规范标记可减轻相关风险。
 
 * **仅运行试验必要时长**： [!DNL Adobe]将“必要时长”定义为达到统计显着性所需的时间。 [!DNL Target]提供最佳实践和[!DNL Adobe Target] [样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)来确定您的测试何时达到此点。 [!DNL Adobe]建议将入选测试的硬编码实现并入测试工作流并分配适当的资源。
 
-  不建议使用[!DNL Target]来“发布”获胜测试，将其作为永久解决方案。 如果始终为100%的用户发布入选测试，则可以临时使用此方法硬编码入选测试。
+  不建议使用[!DNL Target]来“发布”入选测试作为永久解决方案。 如果始终为100%的用户发布入选测试，则可以临时使用此方法硬编码入选测试。
 
   考虑您的测试发生了哪些变化。 次要更新（如按钮颜色）不会影响自然排名。 但是，文本更改应进行硬编码。
 
@@ -244,7 +251,7 @@ Google 举例说明“如果某个网站的原始页面加载了与向用户显�
 * 记录活动访问情况以进行报告
 * 记录要发送到 [!DNL Adobe Experience Cloud] 平台的数据
 
-对于已知的机器人流量，使用[!UICONTROL Analytics for Target] (A4T)时，[!DNL Target]不会：
+对于已知的机器人流量，在使用[!UICONTROL Analytics for Target] (A4T)时，[!DNL Target]不会：
 
 * 发送事件到 [!DNL Analytics]
 

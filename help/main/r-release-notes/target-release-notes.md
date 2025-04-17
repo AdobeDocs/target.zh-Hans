@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cd25bda52b7a1b916a73ca5e531a7134ba8cef4e
+source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 42%
+source-wordcount: '239'
+ht-degree: 66%
 
 ---
 
@@ -22,21 +22,6 @@ ht-degree: 42%
 >发布日期、功能及其他信息如有更改，恕不另行通知。
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
-
-## [!DNL Target Standard/Premium] 25.4.4（2025年4月17日）
-
-此版本包含以下修复和更新：
-
-* 添加了错误消息，以指导用户解决活动中的重复选项。 (TGT-51927)
-* 修复了在删除具有重定向选件的页面或体验时未删除`ClickTrack`选择器的问题。 (TGT-51952)
-* 修复了允许空`ClickTrack`选择器导致的问题。 [!DNL Target]现在要求选择器字段不能为空。 (TGT-52107)
-* 修复了错误地允许具有重复名称的量度的问题。 指标现在需要唯一名称。 (TGT-52201)
-* 修复了在[!UICONTROL Automated Personalization] (AP)活动中编辑选件级别定位时受众定义不可见的问题。 (TGT-52148)
-* 修复了阻止具有[!UICONTROL Editor]权限的客户保存活动的问题。 (TGT-52227)
-* 当选项保持不变时，`OptionLocalIDs`不再错误地增加。 (TGT-52139)
-* 修复了在尝试创建活动时导致“无效的`optionLocalIds`”消息的问题。 (TGT-52154)
-* 为活动定义的`OptionLocalIDs`与用于定义体验的之间的差异已修复。 (TGT-52215)
-* 修复了在尝试创建A/B活动时导致验证失败的问题。 (TGT-51923)
 
 ## Target权限更新（2025年4月22日）
 

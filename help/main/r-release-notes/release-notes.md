@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b9ec7af30fda6e97e3b0372a02a682a177764742
+source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 34%
+source-wordcount: '1188'
+ht-degree: 30%
 
 ---
 
@@ -18,6 +18,21 @@ ht-degree: 34%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 25.4.4（2025年4月17日）
+
+此版本包含以下修复和更新：
+
+* 添加了错误消息，以指导用户解决活动中的重复选项。 (TGT-51927)
+* 修复了在删除具有重定向选件的页面或体验时未删除`ClickTrack`选择器的问题。 (TGT-51952)
+* 修复了允许空`ClickTrack`选择器导致的问题。 [!DNL Target]现在要求选择器字段不能为空。 (TGT-52107)
+* 修复了错误地允许具有重复名称的量度的问题。 指标现在需要唯一名称。 (TGT-52201)
+* 修复了在[!UICONTROL Automated Personalization] (AP)活动中编辑选件级别定位时受众定义不可见的问题。 (TGT-52148)
+* 修复了阻止具有[!UICONTROL Editor]权限的客户保存活动的问题。 (TGT-52227)
+* 当选项保持不变时，`OptionLocalIDs`不再错误地增加。 (TGT-52139)
+* 修复了在尝试创建活动时导致“无效的`optionLocalIds`”消息的问题。 (TGT-52154)
+* 为活动定义的`OptionLocalIDs`与用于定义体验的之间的差异已修复。 (TGT-52215)
+* 修复了在尝试创建A/B活动时导致验证失败的问题。 (TGT-51923)
 
 ## [!DNL Target Standard/Premium] 25.4.3（2025年4月11日）
 
@@ -85,7 +100,7 @@ ht-degree: 34%
 |--- |--- |
 | [文档更改](/help/main/r-release-notes/doc-change.md) | 查看这些发行说明中未包括的关于本指南的更新的详细信息。 |
 | [以前版本的发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md)。 | 查看与以前版本的 Target Standard 和 Target Premium 中的新增功能和增强功能相关的信息。 |
-| [Adobe Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans){target=_blank} | 查看 Adobe Experience Cloud 解决方案的最新发行说明。 |
+| [Adobe Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans){target=_blank} | 查看 Adobe Experience Cloud 解决方案的最新发行说明。 |
 
 ## 预发行信息 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

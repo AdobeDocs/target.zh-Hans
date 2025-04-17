@@ -6,46 +6,44 @@ short-description: 个性化客户体验以最大限度地提升网站和移动�
 title: 什么是 Target？
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 72%
+source-wordcount: '955'
+ht-degree: 52%
 
 ---
 
-# Target 简介
+# [!DNL Target]简介
 
-[!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，它提供量身定制客户的体验和使其个性化所需的一切。[!DNL Target] 帮助您最大限度地提高您的网站和移动站点、应用程序、社交媒体和其他数字渠道的收入。
+作为[!DNL Adobe Experience Cloud]的一部分，[!DNL Adobe Target]提供全面的工具，以个性化跨Web、移动站点、应用程序、社交媒体和其他数字渠道的客户体验。
 
-可将 [!DNL Adobe Target] 解决方案许可为 [!DNL Target Standard] 或 [!DNL Target Premium]。
+[!DNL Target]有助于最大限度地增加收入，并且可以许可为[!DNL Target Standard]或[!DNL Target Premium]。
 
-## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
+## [!UICONTROL Target Standard] {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] 是 [!DNL Adobe Target] 的前端，它帮助您可视地创建和管理 A/B 测试以及基于规则的定位活动。[!DNL Target Standard]支持在[!UICONTROL Visual Experience Composer] (VEC)工作流内部和外部插入自定义代码。 [!DNL Target Standard]为您的数字财产提供简化的实施策略。 每个页面上的单行代码管理您的网站与[!DNL Target]之间所需的所有通信。
+[!DNL Target Standard]是[!DNL Adobe Target]的前端，支持可视创建和管理A/B测试以及基于规则的定位活动。 [!DNL Target]支持[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)工作流内外的自定义代码插入。 [!DNL Target Standard]为您的数字财产提供简化的实施策略，每个页面上有一行代码管理您的网站与[!DNL Target]之间的所有通信。
 
-[!DNL Target Standard] 中内置行业最佳实践。[!DNL Target Standard] 设计得既适合新用户，又适合有经验的用户。如果您团队的其他成员也在使用 [!DNL Adobe Experience Cloud]，则您可以轻松地与他们共享数据和结果，并与其进行协作。
+行业最佳实践已集成到[!DNL Target Standard]中，因此既适合新用户，也适用于经验丰富的用户。 您可以使用[!DNL Adobe Experience Cloud]轻松地与团队成员共享数据、结果和协作。
 
-## Target Premium {#premium}
+## [!DNL Target Premium] {#premium}
 
 [!BADGE 高级]{type=Positive}
 
-[!DNL Target Premium] 是一款高级 [!DNL Target] 产品，它需要许可证才能将高级功能添加到 [!DNL Target Standard]。
-
-[!DNL Target]指南中的所有[!DNL Target Premium]文章都在每个页面的顶部或受影响文本附近的内嵌包含[!UICONTROL Premium]徽章。 [!UICONTROL Premium]徽章可点击，并包含指向此部分的链接。
+[!DNL Target Premium]是高级产品，需要许可证才能向[!DNL Target Standard]添加高级功能。 [!DNL Target]指南中的所有[!DNL Target Premium]文章都在每个页面的顶部或受影响文本附近的内嵌包含[!UICONTROL Premium]徽章。 [!UICONTROL Premium]徽章可单击并链接到此部分。
 
 **[!DNL Target Premium]包括以下功能：**
 
-### 自动个性化
+### [!UICONTROL Automated Personalization]
 
-[自动个性化](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) 提供高级机器学习算法以推进个性化体验并提高数字体验的转化率。
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP)使用高级机器学习算法来提供个性化体验并提高数字交互的转化率。
 
-[!UICONTROL Automated Personalization]记录访客在网站上的活动，建立访客的个人资料，以便内容可以面向类似的访客。 AP 跟踪个人和整个人群对内容的反应。然后，AP 使用各种复杂的建模方法自动面向每个人。AP 考虑关于每位访客已知的一切。
+AP记录访客活动，生成配置文件以将内容定位到类似的访客。 AP跟踪个人和群体对内容的响应，使用复杂的建模根据关于访客的所有已知信息自动定位每个访客。
 
-[!UICONTROL Automated Personalization]自己学习，只需很少量的人工分析。 AP 全自动地持续学习。该系统构建各种模型，并自动学习个别访客最有可能对哪些产品感兴趣。每次有访客与网站进行交互时，该系统均收集信息并将其存储在该访客的轮廓中。自动个性化可使用多个算法，为您的系统提供最适用的模型。
+AP是完全自动化的，以最少的人工分析持续学习。 它构建各种模型以确定访客可能对哪些产品感兴趣，并收集和存储访客配置文件中的信息。 多个算法可确保为系统提供最佳模型。
 
-### 自动锁定
+### [!UICONTROL Auto-Target]
 
-[自动锁定](/help/main/c-activities/auto-target/auto-target-to-optimize.md)使用高级机器学习找出从多种由营销人员定义的体验中找出表现好的体验。然后，[!UICONTROL Auto-Target]会向每位访客提供量身定制的体验。 投放基于个别客户轮廓以及轮廓相似的以往访客的行为。[!UICONTROL Auto-Target]帮助个性化内容并促进转化。
+[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)使用高级机器学习识别营销人员定义的高性能体验。 然后，它根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，向每位访客提供量身定制的体验。 [!UICONTROL Auto-Target]帮助个性化内容并促进转化。
 
 ### 推荐
 

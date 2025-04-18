@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 02447c110372536022df0afb2329c708be675d2a
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '659'
 ht-degree: 28%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 28%
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
 | 4 月 17 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.4.4版的发行说明。 |
+|  | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了25.4.5版的预发行说明日期。 |
 | 4 月 11 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.4.3版的发行说明。 |
 |  | [工作方式 [!DNL Target] ](/help/main/c-intro/how-target-works.md#usage) | 添加了新章节：“如何计算[!DNL Target]服务器调用使用情况”。 |
 | 4 月 9 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 更新了25.4.4版的预发行说明日期。 |

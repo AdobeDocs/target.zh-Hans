@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 66%
+source-wordcount: '373'
+ht-degree: 46%
 
 ---
 
@@ -22,6 +22,19 @@ ht-degree: 66%
 >发布日期、功能及其他信息如有更改，恕不另行通知。
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
+
+## [!DNL Target Standard/Premium] 25.4.5（2025年4月24日）
+
+此版本包含以下修复和更新：
+
+* 修复了在编辑或保存活动时导致显示多个体验受众的问题。 (TGT-52134)
+* 修复了在激活[!DNL Recommendations]活动后，客户网站上未显示推荐的问题。 (TGT-52164)
+* 当选项保持不变时，`OptionLocalIDs`不再错误地增加。 (TGT-52187)
+* 现在，下载的报表文件可正确显示报表UI中存在的数据。 (TGT-52068)
+* 修复了导致Target无法识别网站URL中“#”字符的问题。 (TGT-52093)
+* 添加页面交付规则后，批处理操作不再失败。 (TGT-52097)
+* 修复了导致[!DNL Target]从网站URL中修剪所有查询参数的问题。 (TGT-52100)
+* 修复了一个问题，该问题导致在更新后的UI中逆转受众细化和活动受众。 (TGT-52158)
 
 ## Target权限更新（2025年4月22日）
 

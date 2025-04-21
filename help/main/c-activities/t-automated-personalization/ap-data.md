@@ -5,9 +5,9 @@ title: 构建机器学习算法时会收集哪些数据？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
+source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1958'
 ht-degree: 51%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 51%
 | 客户属性 | CRS | 客户属性已通过[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}上传到[!DNL Target]配置文件。 | 自定义 — 访客配置文件 — [属性名称] |
 | URL parameters（URL 参数） | URL | 当前查看页面的URL和任何URL参数。 | 自定义 — URL参数 — [URL参数] |
 | 反向链接 URL | 参照 | 反向链接URL和任何反向链接URL的参数。 | 自定义 — [引荐URL参数] - [参数值] |
-| [!DNL Adobe Experience Cloud]共享受众 | AAM | 从其他[!DNL Adobe Experience Cloud]解决方案(例如，[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]，通过[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}与[!DNL Target]共享所有受众。 | 自定义 — Experience Cloud受众 — [受众名称] |
+| [!DNL Adobe Experience Cloud]共享受众 | AAM | 从其他[!DNL Adobe Experience Cloud]解决方案（例如，[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]，通过[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}）与[!DNL Target]共享的所有受众。 | 自定义 — Experience Cloud受众 — [受众名称] |
 | [!DNL Adobe Experience Platform Real-time CDP]个受众 | UPS | 通过[!UICONTROL Destinations]与[!DNL Target]共享的Platform Real-time CDP受众。 |  |
-| [!DNL Adobe Experience Platform Real-time CDP]属性 | AEP | 通过[!UICONTROL Destinations]与[!DNL Target]共享的Platform Real-time CDP属性。 |  |
+
 
 ## 阻止来自[!DNL Target]机器学习算法的功能
 
@@ -108,21 +108,21 @@ ht-degree: 51%
 
 | 属性名称 | 属性描述 | 示例值 | 系统名称 |
 | --- | --- | --- | --- |
-| 访客配置文件 - 活动生命周期订单值 | 指定某个特定活动的所有访问/会话中的全部订单值总和。 | 双精度 | SES_CUMULATIVE_ORDER_VALUE |
-| 访客配置文件 - 活动生命周期网站停留时间 | 指定访客在网站上花费的总时间，不包括当前会话，该时间值将在会话过期时更新。 | 双精度，毫秒 | SES_TOTAL_TIME |
-| 访客配置文件 - 活动期间每次访问的平均页面查看次数 | 指定每个会话的平均页面查看次数，不包括当前会话。 | 双精度 | SES_REQUESTS_PER_SESSION |
-| 访客配置文件 - 每次访问平均逗留时间 | 指定每次访问/会话所花费的平均时间。不包括当前会话。 | 双精度，毫秒 | SES_TIME_PER_SESSION |
-| 访客配置文件 - 首次访问 | 指定用户首次访问时与[!DNL Target]进行交互的时间。 | 双精度，毫秒 | ses_PROFILE_CREATION_TIME |
-| 访客配置文件 - 距上次访问的小时数 | 指定距上次访问此特定活动的小时数。 | 双精度（仅限正整数） 1、2、3等。 | SES_HOURS_SINCE_LAST_VISIT |
-| 访客配置文件 - 位置/内容的展示次数 | 指定某个特定位置/内容组合在特定活动中的展示次数。 | 双精度（仅限正整数） 1、2、3等。 | SES_CUMULATIVE_ACTION_[LOCATION_ID]_[CONTENT_ID] |
+| 访客轮廓 - 活动生命周期订单值 | 指定某个特定活动的所有访问/会话中的全部订单值总和。 | 双精度 | SES_CUMULATIVE_ORDER_VALUE |
+| 访客轮廓 - 活动生命周期网站停留时间 | 指定访客在网站上花费的总时间，不包括当前会话，该时间值将在会话过期时更新。 | 双精度，毫秒 | SES_TOTAL_TIME |
+| 访客轮廓 - 活动期间每次访问的平均页面查看次数 | 指定每个会话的平均页面查看次数，不包括当前会话。 | 双精度 | SES_REQUESTS_PER_SESSION |
+| 访客轮廓 - 每次访问平均逗留时间 | 指定每次访问/会话所花费的平均时间。不包括当前会话。 | 双精度，毫秒 | SES_TIME_PER_SESSION |
+| 访客轮廓 - 首次访问 | 指定用户首次访问时与[!DNL Target]进行交互的时间。 | 双精度，毫秒 | ses_PROFILE_CREATION_TIME |
+| 访客轮廓 - 距上次访问的小时数 | 指定距上次访问此特定活动的小时数。 | 双精度（仅限正整数） 1、2、3等。 | SES_HOURS_SINCE_LAST_VISIT |
+| 访客轮廓 - 位置/内容的展示次数 | 指定某个特定位置/内容组合在特定活动中的展示次数。 | 双精度（仅限正整数） 1、2、3等。 | SES_CUMULATIVE_ACTION_[LOCATION_ID]_[CONTENT_ID] |
 | 访客配置文件 — 最近[!DNL Target]次交互 | 指定上次与[!DNL Target]交互的时间。 每次提出[!DNL Target]请求时都会发生交互，因为[!DNL Target]的当前实现会更新每个请求上的配置文件。 | 双精度，毫秒 | SES_PROFILE_UPDATE_TIME |
-| 访客配置文件 - 活动之前查看的页面数 | 指定在访客进入活动之前的页面查看总次数（展示次数），包括当前访问/会话。 | 双精度（仅限正整数） 1、2、3等。 | SES_TOTAL_PAGE_VIEWS |
-| 访客配置文件 - 当前访问中的页面查看次数 | 指定在访客进入活动之前，当前访问/会话中的页面查看次数。 精度更高的展示次数。这些展示次数不是实际的页面查看次数，而是请求达到[!DNL Target]的次数。 [!DNL Target]无法区分用户是因为超时还是任何其他原因而未能接收或查看内容。 | 双精度（仅限正整数） | SES_SESSION_POSITION |
-| 访客配置文件 - 当前访问的开始时间 | 指定与[!DNL Target]的当前访问/会话开始的时间。 无需进入活动即可启动具有[!DNL Target]的访问。 只需调用任何[!DNL Target]请求即可。 访客可能需要一段时间才能进入活动并拍摄快照。 | 双精度，毫秒 | SES_SESSION_START |
-| 访客配置文件 - 最近一次访问的开始时间 | 指定与[!DNL Target]的上次访问/会话开始的时间。 此属性将在会话过期时更新。<br>如果这是访客的第一个会话，则会导致`LAST_SESSION_START = 0.` | 双精度，毫秒 | SES_LAST_SESSION_START |
-| 访客配置文件 - 首次进入活动时距最近一次访问的时间 | 指定从上一个会话到用户进入活动并拍摄快照所经过的时间。 | 双精度，毫秒 | SES_RECENCY |
-| 访客配置文件 - 进入活动前的访问时间 | 指定上次与[!DNL Target]的交互与当前访问开始时间之间的差异。 此属性可视为在用户进入活动并拍摄快照之前，访问/会话的持续时间。<br>如果会话开始时间和上次更新时间由同一[!DNL Target]调用触发，则会出现负值。 负值应视为 0（零）。 | 双精度，毫秒 | SES_SESSION_TIME |
-| 访客配置文件 - 访问总数 | 指定访问/会话的总数。不包括当前访问/会话。 | 双精度（仅限正整数） 1、2、3等。 | SES_TOTAL_SESSIONS |
-| 访客配置文件 - 活动访问总数 | 指定某个特定活动的访问次数。如果之前未访问过该活动，则将返回 0（零）。 | 双精度（仅限正整数） 1、2、3等。 | SES_PREVIOUS_VISIT_COUNT |
-| 访客配置文件 - 有转化时的活动访问总数 | 指定在访问期间至少有一次转化时某个特定活动的访问/会话数。 | 双精度 | SES_CUMULATIVE_SUCCESSATIONS |
-| 访客配置文件 - 无转化时的活动访问数 | 无转化时，某个特定活动的访问/会话数。发生转化后，此值将重置为零；如果从未发生转化，此值将重置为 -1。 | 双精度（仅限正整数） 1、2、3等。 | SES_SUCCESS_RECENCY |
+| 访客轮廓 - 活动之前查看的页面数 | 指定在访客进入活动之前的页面查看总次数（展示次数），包括当前访问/会话。 | 双精度（仅限正整数） 1、2、3等。 | SES_TOTAL_PAGE_VIEWS |
+| 访客轮廓 - 当前访问中的页面查看次数 | 指定在访客进入活动之前，当前访问/会话中的页面查看次数。 精度更高的展示次数。这些展示次数不是实际的页面查看次数，而是请求达到[!DNL Target]的次数。 [!DNL Target]无法区分用户是因为超时还是任何其他原因而未能接收或查看内容。 | 双精度（仅限正整数） | SES_SESSION_POSITION |
+| 访客轮廓 - 当前访问的开始时间 | 指定与[!DNL Target]的当前访问/会话开始的时间。 无需进入活动即可启动具有[!DNL Target]的访问。 只需调用任何[!DNL Target]请求即可。 访客可能需要一段时间才能进入活动并拍摄快照。 | 双精度，毫秒 | SES_SESSION_START |
+| 访客轮廓 - 最近一次访问的开始时间 | 指定与[!DNL Target]的上次访问/会话开始的时间。 此属性将在会话过期时更新。<br>如果这是访客的第一个会话，则会导致`LAST_SESSION_START = 0.` | 双精度，毫秒 | SES_LAST_SESSION_START |
+| 访客轮廓 - 首次进入活动时距最近一次访问的时间 | 指定从上一个会话到用户进入活动并拍摄快照所经过的时间。 | 双精度，毫秒 | SES_RECENCY |
+| 访客轮廓 - 进入活动前的访问时间 | 指定上次与[!DNL Target]的交互与当前访问开始时间之间的差异。 此属性可视为在用户进入活动并拍摄快照之前，访问/会话的持续时间。<br>如果会话开始时间和上次更新时间由同一[!DNL Target]调用触发，则会出现负值。 负值应视为 0（零）。 | 双精度，毫秒 | SES_SESSION_TIME |
+| 访客轮廓 - 访问总数 | 指定访问/会话的总数。不包括当前访问/会话。 | 双精度（仅限正整数） 1、2、3等。 | SES_TOTAL_SESSIONS |
+| 访客轮廓 - 活动访问总数 | 指定某个特定活动的访问次数。如果之前未访问过该活动，则将返回 0（零）。 | 双精度（仅限正整数） 1、2、3等。 | SES_PREVIOUS_VISIT_COUNT |
+| 访客轮廓 - 有转化时的活动访问总数 | 指定在访问期间至少有一次转化时某个特定活动的访问/会话数。 | 双精度 | SES_CUMULATIVE_SUCCESSATIONS |
+| 访客轮廓 - 无转化时的活动访问数 | 无转化时，某个特定活动的访问/会话数。发生转化后，此值将重置为零；如果从未发生转化，此值将重置为 -1。 | 双精度（仅限正整数） 1、2、3等。 | SES_SUCCESS_RECENCY |

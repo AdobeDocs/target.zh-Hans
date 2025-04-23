@@ -4,10 +4,10 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
+source-git-commit: 4104b6cb67347205c0143c9dea46dd483a8266ce
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 28%
+source-wordcount: '700'
+ht-degree: 27%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 28%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
+| 4 月 23 日 | [与  [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#limitations) 集成 | 将以下内容添加到&#x200B;*Real-Time CDP配置文件属性功能限制和注意事项*&#x200B;部分： <ul><li>[!DNL Target]仅支持要在选件中使用的[!DNL Adobe Experience Platform]配置文件属性的“string”数据类型。 尚不支持“Map”和“Array”类型属性。</li></ul> |
 | 4 月 17 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.4.4版的发行说明。 |
 |  | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了25.4.5版的预发行说明日期。 |
 | 4 月 11 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.4.3版的发行说明。 |

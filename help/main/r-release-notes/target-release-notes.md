@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
+source-git-commit: ad82d108adc6f5c76b2104f40fb0bb2c66e98a2b
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 46%
+source-wordcount: '589'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 46%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2025年4月17日**
+**上次更新日期：2025年4月23日**
 
 >[!NOTE]
 >
@@ -27,14 +27,25 @@ ht-degree: 46%
 
 此版本包含以下修复和更新：
 
-* 修复了在编辑或保存活动时导致显示多个体验受众的问题。 (TGT-52134)
 * 修复了在激活[!DNL Recommendations]活动后，客户网站上未显示推荐的问题。 (TGT-52164)
 * 当选项保持不变时，`OptionLocalIDs`不再错误地增加。 (TGT-52187)
 * 现在，下载的报表文件可正确显示报表UI中存在的数据。 (TGT-52068)
-* 修复了导致Target无法识别网站URL中“#”字符的问题。 (TGT-52093)
 * 添加页面交付规则后，批处理操作不再失败。 (TGT-52097)
 * 修复了导致[!DNL Target]从网站URL中修剪所有查询参数的问题。 (TGT-52100)
-* 修复了一个问题，该问题导致在更新后的UI中逆转受众细化和活动受众。 (TGT-52158)
+* 解决了阻止客户在旧版和更新后的Target UI中创建活动的控制台错误。 (TGT-52181)
+* 修复了阻止客户添加新页面，从而导致无效用户输入错误的问题。 (TGT-52258)
+* 修复了在添加其他页面然后导航回[!UICONTROL Experiences]选项卡后导致修改消失的问题。 (TGT-52264)
+* 修复了阻止客户更改[!UICONTROL Experience Targeting] (XT)活动中的受众的问题。 (TGT-52191)
+* 修复了由于不支持的UI规则而阻止编辑XT活动的错误。 (TGT-52273)
+* 修复了活动修改无法显示在[!DNL Target] UI中的问题，尽管已成功地将其交付到网页。 (TGT-52192)
+* 修复了更新的[!UICONTROL Visual Experience Composer] (VEC)中的问题，该问题导致痕迹导航不始终显示在编辑器底部，从而难以准确地选择元素。 (TGT-51169)
+* 修复了[!UICONTROL Audience]下拉列表因分页而无法显示所有受众的问题。 (TGT-52204)
+* 修复了在[!UICONTROL Automated Personalization] (AP)活动中添加新选件时导致用户输入消息无效的问题。 (TGT-52210)
+* 修复了以下问题：[!UICONTROL Analytics for Target] (A4T)被错误地选为报表源，即使客户无权访问A4T。 (TGT-52226)
+* 修复了阻止使用[!UICONTROL View a Page] URL量度保存活动的问题。 (TGT-52260)
+* 修复了一个问题，该问题阻止客户在活动中创建优惠时选择工作区。 (TGT-52289)
+* 修复了在切换到另一个体验时，某个体验中的修改无法正确显示的问题。 (TGT-52184)
+* 修复了在打开活动后[!DNL Target] UI中错误显示默认选件的问题。 (TGT-52198)
 
 ## Target权限更新（2025年4月22日）
 

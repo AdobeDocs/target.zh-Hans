@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 30%
+source-wordcount: '1677'
+ht-degree: 24%
 
 ---
 
@@ -18,6 +18,42 @@ ht-degree: 30%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 25.4.5（2025年4月25日）
+
+此版本包含以下修复和更新：
+
+* 修复了导致[!UICONTROL Activity]设置页面和[!UICONTROL Reporting]概述页面之间的受众列表不一致的问题。 (TGT-52203)
+* 修复了由于无效的用户输入错误而阻止向活动添加新页面的问题。 (TGT-52263)
+* 修复了在选项保持不变时导致`OptionLocalIDs`错误递增的问题。 (TGT-52187)
+* 修复了在选项保持不变时导致`location`和`OptionLocalIDs`错误递增的问题。 (TGT-52188)
+* 修复了导致活动[!UICONTROL Overview]页面上的位置不正确的问题。 (TGT-52182)
+* 修复了针对无效位置未显示无效选择器警告的问题。 (TGT-52110)
+* 修复了一个问题，以便下载的报表文件正确显示报表UI中存在的数据。 (TGT-52068)
+* 修复了一个问题，以便在添加页面交付规则后批量操作不会失败。 (TGT-52097)
+* 修复了导致[!DNL Target]从网站URL中修剪所有查询参数的问题。 (TGT-52100)
+* 解决了阻止客户在旧版和更新的[!DNL Target] UI中创建活动的控制台错误。 (TGT-52181)
+* 修复了阻止客户添加新页面，从而导致无效用户输入错误的问题。 (TGT-52258)
+* 修复了在添加其他页面然后导航回[!UICONTROL Experiences]选项卡后导致修改消失的问题。 (TGT-52264)
+* 修复了阻止客户更改[!UICONTROL Experience Targeting] (XT)活动中的受众的问题。 (TGT-52191)
+* 修复了由于不支持的UI规则而阻止编辑XT活动的错误。 (TGT-52273)
+* 修复了更新的[!UICONTROL Visual Experience Composer] (VEC)中的问题，该问题导致痕迹导航不始终显示在编辑器底部，从而难以准确地选择元素。 (TGT-52169)
+* 修复了[!UICONTROL Audience]下拉列表因分页而无法显示所有受众的问题。 (TGT-52204)
+* 修复了在[!UICONTROL Automated Personalization] (AP)活动中添加新选件时导致用户输入消息无效的问题。 (TGT-52210)
+* 修复了以下问题：[!UICONTROL Analytics for Target] (A4T)被错误地选为报表源，即使客户无权访问A4T。 (TGT-52226)
+* 修复了阻止使用[!UICONTROL View a Page] URL量度保存活动的问题。 (TGT-52260)
+* 修复了一个问题，该问题阻止客户在活动中创建优惠时选择工作区。 (TGT-52289)
+* 修复了阻止客户在所有工作区中创建活动的问题。 (Tgt-52218)
+* 修复了在切换到另一个体验时，某个体验中的修改无法正确显示的问题。 (TGT-52184)
+* 修复了在打开活动时[!DNL Target] UI中错误显示默认选件的问题。 (TGT-52198)
+
+## Target权限更新（2025年4月22日）
+
+此未来更新增强了组织对[!DNL Target]实例配置的控制，防止了可能影响不同测试和个性化团队之间活动交付的意外更新。
+
+自2025年4月22日起，仅[!UICONTROL Product]和[!UICONTROL Solutions]管理员能够更新[!UICONTROL Administration]部分中的设置，无论他们在[!DNL Target]工作区中的角色如何。 没有此权限的用户将具有[!UICONTROL Administration]部分的只读访问权限。
+
+有关详细信息，请参阅[管理Target](/help/main/administrating-target/start-target.md)。
 
 ## [!DNL Target Standard/Premium] 25.4.4（2025年4月17日）
 

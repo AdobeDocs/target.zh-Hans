@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b09796cd8464b54dcc1945ae1ec00eb914ba218c
+source-git-commit: 24cbccca7ac76dd77668abf0b4498ab4fd374893
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 31%
+source-wordcount: '707'
+ht-degree: 29%
 
 ---
 
@@ -48,6 +48,14 @@ ht-degree: 31%
 * 修复了一个问题，该问题阻止客户在活动中创建优惠时选择工作区。 (TGT-52289)
 * 修复了在切换到另一个体验时，某个体验中的修改无法正确显示的问题。 (TGT-52184)
 * 修复了在打开活动时[!DNL Target] UI中错误显示默认选件的问题。 (TGT-52198)
+
+## [!DNL Target Standard/Premium] 25.4.5（2025年4月25日）
+
+此版本包含以下修复和更新：
+
+* 修复了阻止[!DNL Target]识别网站URL中“#”字符的问题。 (TGT-52093)
+* 修复了一个问题，该问题阻止在[!UICONTROL Automated Personalization] (AP)活动的更新UI中清除受众和编辑组合受众。 (TGT-52149)
+* 修复了一个问题，该问题导致在更新后的UI中逆转受众细化和活动受众。 (TGT-52158)
 
 ## Target权限更新（2025年4月22日）
 

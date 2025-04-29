@@ -4,10 +4,10 @@ description: 了解 [!DNL Adobe Target] 的工作原理，包括有关JavaScript
 title: ' [!DNL Target] 的工作原理'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2400'
-ht-degree: 23%
+source-wordcount: '2215'
+ht-degree: 24%
 
 ---
 
@@ -97,33 +97,36 @@ Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 
 有关更多信息，请参阅[推荐](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)。
 
-## [!DNL Target]如何计算服务器调用使用情况 {#usage}
+<!--
+## How [!DNL Target] counts server-call usage {#usage}
 
-[!DNL Target]只计算向客户提供值的服务器调用。 下表显示了[!DNL Target]如何计算端点、单个mbox、批量mbox调用、执行、预获取和通知调用。
+[!DNL Target] counts only server calls that provide value to customers. The following table shows how [!DNL Target] counts endpoints, single mbox, batch mbox calls, execute, prefetch, and notification calls.
 
-以下信息可帮助您了解用于[!DNL Target]服务器调用的计数策略，如下表所示：
+The following information helps you understand the counting strategy used for [!DNL Target] server calls, as shown in the table below:
 
-* **计数一次**：每个API调用计数一次。
-* **计算mbox的数量**：计算单个API调用的有效负载中数组下的mbox的数量。
-* **忽略**：完全不计算。
-* **计算查看次数（一次）**：计算有效负载中数组下的查看次数。 在典型实施中，视图通知在通知数组中只有一个视图，这使得在大多数实施中，这等于计数一次。
+* **Count Once**: Counts once per API call.
+* **Count the Number of mboxes**: Counts the number of mboxes under the array in the payload of a single API call.
+* **Ignore**: Is not counted at all.
+* **Count the Number of Views (Once)**: Counts the number of views under the array in the payload. In a typical implementation, a view notification has only one view under the notifications array, making this equivalent to counting once in most implementations.
 
-| 终结点 | 获取类型 | 选项 | 计数策略 |
+|Endpoint|Fetch type|Options|Counting strategy|
 |--- |--- |--- |-- |
-| `rest//v1/mbox` | 单个 | [!UICONTROL execute] | 计数一次 |
-| `rest/v2/batchmbox` | 批次 | [!UICONTROL execute] | 计算mbox的数量 |
-|  | 批次 | [!UICONTROL prefetch] | 忽略 |
-|  | 批次 | [!UICONTROL notifications] | 计算mbox的数量 |
-| `/ubox/[raw\|image\|page]` | 单个 | [!UICONTROL execute] | 计数一次 |
-| `rest/v1/delivery`<p>`/rest/v1/target-upstream` | 单个 | [!UICONTROL execute] > [!UICONTROL pageLoad] | 计数一次 |
-|  | 单个 | [!UICONTROL prefetch] > [!UICONTROL pageLoad] | 忽略 |
-|  | 单个 | [!UICONTROL prefetch] > [!UICONTROL views] | 忽略 |
-|  | 批次 | [!UICONTROL execute] > [!UICONTROL mboxes] | 计算mbox的数量 |
-|  | 批次 | [!UICONTROL prefetch] > [!UICONTROL mboxes] | 忽略 |
-|  | 批次 | [!UICONTROL notifications] > [!UICONTROL views] | 计算查看次数（一次） |
-|  | 批次 | [!UICONTROL notifications] > [!UICONTROL pageLoad] | 计数一次 |
-|  | 批次 | [!UICONTROL notifications] >类型([!UICONTROL conversions]) | 计数一次 |
-|  | 批次 | [!UICONTROL notifications] > [!UICONTROL mboxes] | 计算mbox的数量 |
+|`rest//v1/mbox`|Single|[!UICONTROL execute]|Count once|
+|`rest/v2/batchmbox`|Batch|[!UICONTROL execute]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch]|Ignore|
+||Batch|[!UICONTROL notifications]|Count the number of mboxes|
+|`/ubox/[raw\|image\|page]`|Single|[!UICONTROL execute]|Count once|
+|`rest/v1/delivery`<p>`/rest/v1/target-upstream`|Single|[!UICONTROL execute] > [!UICONTROL pageLoad]|Count once|
+||Single|[!UICONTROL prefetch] > [!UICONTROL pageLoad]|Ignore|
+||Single|[!UICONTROL prefetch] > [!UICONTROL views]|Ignore|
+||Batch|[!UICONTROL execute] > [!UICONTROL mboxes]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch] > [!UICONTROL mboxes]|Ignore|
+||Batch|[!UICONTROL notifications] > [!UICONTROL views]|Count the number of views (once)|
+||Batch|[!UICONTROL notifications] > [!UICONTROL pageLoad]|Count once|
+||Batch|[!UICONTROL notifications] > type ([!UICONTROL conversions])|Count once|
+||Batch|[!UICONTROL notifications] > [!UICONTROL mboxes]|Count the number of mboxes|
+
+-->
 
 ## 边缘网络 {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
@@ -169,7 +172,7 @@ Edge集群处理距离访客最近的请求，而不是从单个位置处理所�
 >
 >[!DNL Target]当前在中国缺少Edge群集，从而限制了该区域[!DNL Target]客户的访客性能。 防火墙和Edge群集的缺失可能会影响站点体验，导致渲染和页面加载时间变慢。 此外，营销人员在使用[!DNL Target]创作UI时可能会遇到延迟问题。
 
-如果需要，可将 [!DNL Target] 边缘群集列入允许列表。有关详细信息，请参阅[将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
+如果需要，可将 [!DNL Target] 边缘群集列入允许列表。有关更多信息，请参阅[将 Target 边缘节点列入允许列表](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}。
 
 ## 受保护的用户体验 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

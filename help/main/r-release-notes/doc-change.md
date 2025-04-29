@@ -4,9 +4,9 @@ description: 及时了解对 [!DNL Adobe Target] 文档的重要补充和变更�
 title: 可在何处查看 [!DNL Target] 的文档更新？
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '704'
 ht-degree: 27%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 27%
 | 4 月 17 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.4.4版的发行说明。 |
 |  | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了25.4.5版的预发行说明日期。 |
 | 4 月 11 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.4.3版的发行说明。 |
-|  | [工作方式 [!DNL Target] ](/help/main/c-intro/how-target-works.md#usage) | 添加了新章节：“如何计算[!DNL Target]服务器调用使用情况”。 |
 | 4 月 9 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 更新了25.4.4版的预发行说明日期。 |
 | 4 月 8 日 | [CNAME和Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | 更新了以下各项：<ul><li>默认情况下，所有证书均为RSA SHA-256，密钥为RSA 2048位。 超过2048位的密钥大小应通过客户关怀团队明确请求。 （先前声明的大于2048位的密钥大小不受支持。）</li><li>更新了bash脚本。</li><li>更新了验证输出代码段。</li></ul> |
 | 4 月 7 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为以下即将发布的版本添加了预发行说明：<UL><li>[!DNL Target Standard/Premium] 25.4.3（2025年4月10日）</li></ul> |

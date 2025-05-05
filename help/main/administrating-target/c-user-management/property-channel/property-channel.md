@@ -310,7 +310,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 * 属性和工作区的概念，以及这些边界和分组如何工作以允许控制用户的访问权限级别
 * 贵组织需要考虑的不同属性示例
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/)
+>[!VIDEO](https://video.tv.adobe.com/v/3421735?captions=chi_hans)
 
 ### 办公时间：[!DNL Target]高级工作区
 

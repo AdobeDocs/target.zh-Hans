@@ -39,4 +39,4 @@ ht-degree: 40%
 * 描述如何向不同地理区域的受众交付特定于位置的内容
 * 描述如何对体验重新排序，以确保将适当的内容交付给适当的受众
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/38307?captions=chi_hans)

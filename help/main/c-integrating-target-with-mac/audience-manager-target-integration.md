@@ -19,5 +19,5 @@ ht-degree: 0%
 
 ## 视频：将[!DNL Target]与[!DNL Adobe Audience Manager]集成(3:06)
 
->[!VIDEO](https://video.tv.adobe.com/v/35151)
+>[!VIDEO](https://video.tv.adobe.com/v/3421741?captions=chi_hans)
 

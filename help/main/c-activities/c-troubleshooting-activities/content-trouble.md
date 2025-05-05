@@ -206,12 +206,12 @@ adobe.target.trackEvent({
 
 ### 添加扩展![Tutorial徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33301?captions=chi_hans)
 
 ### 基本 Adobe Target 调试 ![课程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33302?captions=chi_hans)
 
 ### Mbox 跟踪 ![教程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33303?captions=chi_hans)

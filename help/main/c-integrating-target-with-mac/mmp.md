@@ -26,4 +26,4 @@ ht-degree: 7%
 * 浏览[!DNL Adobe Experience Cloud] (AEC)管理面板
 * 列出[!DNL Experience Cloud] ID (ECID)的要求
 
->[!VIDEO](https://video.tv.adobe.com/v/35152)
+>[!VIDEO](https://video.tv.adobe.com/v/3421747?captions=chi_hans)

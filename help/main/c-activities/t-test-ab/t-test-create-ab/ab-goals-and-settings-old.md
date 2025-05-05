@@ -87,4 +87,4 @@ ht-degree: 35%
 * 在 Adobe Target 中创建 A/B 活动
 * 使用手动拆分或自动流量分配来分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/30338?captions=chi_hans)

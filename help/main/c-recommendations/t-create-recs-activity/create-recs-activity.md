@@ -174,4 +174,4 @@ ht-degree: 51%
 
 ## 培训视频：创建Recommendations活动(7:15) ![教程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688)
+>[!VIDEO](https://video.tv.adobe.com/v/33958?captions=chi_hans)

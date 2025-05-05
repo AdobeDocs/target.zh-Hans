@@ -68,7 +68,7 @@ ht-degree: 66%
 * 将活动定位到受众
 * 在活动中使用受众进行被动报告
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/30336?captions=chi_hans)
 
 ### 活动工作流 — 定位(2:14) ![教程徽章](/help/main/assets/tutorial.png)
 

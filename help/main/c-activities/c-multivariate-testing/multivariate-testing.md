@@ -98,7 +98,7 @@ Target的[流量估算器](/help/main/c-activities/c-multivariate-testing/t-crea
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
 
 ### 正在创建多变量测试(9:25) ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -107,4 +107,4 @@ Target的[流量估算器](/help/main/c-activities/c-multivariate-testing/t-crea
 * 定义和设计多变量测试
 * 创建多变量测试
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)

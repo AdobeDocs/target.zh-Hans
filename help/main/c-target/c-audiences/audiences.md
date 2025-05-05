@@ -121,4 +121,4 @@ Keep the following points in mind as you work with imported audiences:
 * 将活动定位到受众
 * 在活动中使用受众进行被动报告
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/30336?captions=chi_hans)

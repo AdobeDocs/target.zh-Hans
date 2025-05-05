@@ -320,4 +320,4 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
 * 创建自定义设计
 * 了解如何在设计中引用显示变量
 
->[!VIDEO](https://video.tv.adobe.com/v/27687)
+>[!VIDEO](https://video.tv.adobe.com/v/35357?captions=chi_hans)

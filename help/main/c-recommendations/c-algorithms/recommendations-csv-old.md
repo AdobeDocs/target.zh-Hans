@@ -88,4 +88,4 @@ ht-degree: 32%
 * 创建标准序列
 * 上传自定义标准
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35358?quality=12&captions=chi_hans)

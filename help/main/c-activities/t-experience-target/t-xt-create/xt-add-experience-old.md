@@ -112,7 +112,7 @@ ht-degree: 36%
 * 描述如何向不同地理区域的受众交付特定于位置的内容
 * 描述如何对体验重新排序，以确保将适当的内容交付给适当的受众
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/38307?captions=chi_hans)
 
 ### 活动类型 (9:03)
 
@@ -122,7 +122,7 @@ ht-degree: 36%
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
 
 ### 使用[!UICONTROL Visual Experience Composer]
 
@@ -131,4 +131,4 @@ ht-degree: 36%
 * 更改页面的内容
 * 更改页面的布局
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/30331?captions=chi_hans)

@@ -109,4 +109,4 @@ ht-degree: 40%
 * 创建收藏集
 * 创建排除项
 
->[!VIDEO](https://video.tv.adobe.com/v/27689)
+>[!VIDEO](https://video.tv.adobe.com/v/35356?captions=chi_hans)

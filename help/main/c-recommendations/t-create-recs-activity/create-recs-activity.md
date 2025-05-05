@@ -2,7 +2,7 @@
 keywords: 创建推荐;推荐活动;新建推荐;推荐概述
 description: 了解如何使用 [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)创建 [!DNL Recommendations] 活动。
 title: 如何创建 [!DNL Recommendations] 活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -73,7 +73,7 @@ ht-degree: 51%
 
    >[!NOTE]
    >
-   >并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于该活动，请清除&#x200B;**[!UICONTROL Compatible]**&#x200B;复选框。 根据您的Recommendations设置( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**)，可能不会显示[!UICONTROL Compatible]选项。 有关详细信息，请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
+   >并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于该活动，请清除&#x200B;**[!UICONTROL Compatible]**&#x200B;复选框。 根据您的Recommendations设置( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**)，可能不会显示[!UICONTROL Compatible]选项。 有关详细信息，请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
 
    ![“选择标准”对话框](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

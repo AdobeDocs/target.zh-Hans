@@ -99,7 +99,7 @@ Target 包括多种活动类型。下表提供了每种活动类型的概述，�
 |--- |--- |
 | 可重用受众 | 可以为任何活动选择可重用受众。对某个可重用受众进行更改时，该受众在使用它的所有活动中也会发生相应的更改。 |
 | 自定义区段 | 在 Target Classic 中，自定义区段（也称为“特定于营销活动”的区段）专门用于特定的营销活动。它们作为营销活动的一部分被创建，无法在其他营销活动中重复使用。 |
-| 共享受众 | 可以在 [!DNL Adobe Experience Cloud] 解决方案之间共享受众。有关示例，请参阅[受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hans)。 |
+| 共享受众 | 可以在 [!DNL Adobe Experience Cloud] 解决方案之间共享受众。有关示例，请参阅[受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans&?lang=zh-Hans)。 |
 
 要了解访客配置文件如何跟踪与网站访客相关的信息，请参阅[访客配置文件](/help/main/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)。
 

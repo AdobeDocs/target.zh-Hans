@@ -2,7 +2,7 @@
 keywords: 定位；AP报表；自动个性化报表；活动级别报表；选件级别报表；选件详细信息报表；常见问题解答
 description: 了解如何在Adobe Target中解释Automated Personalization摘要报表。 您可以从此报表切换到自动化区段和重要属性报表。
 title: 如何使用Automated Personalization摘要报表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1

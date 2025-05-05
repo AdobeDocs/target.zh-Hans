@@ -24,6 +24,6 @@ ht-degree: 38%
 - [访客个人资料生命周期](visitor-profile-lifetime.md)
 - [配置文件属性](profile-parameters.md)
 - [类别亲和力](category-affinity.md)
-- [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+- [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
 - [mbox3rdPartyID 的实时配置文件同步](3rd-party-id.md)
 - [配置文件和变量一览表](variables-profiles-parameters-methods.md)

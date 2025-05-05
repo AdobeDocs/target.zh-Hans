@@ -26,7 +26,7 @@ ht-degree: 63%
 >
 >* **[!DNL Target]Premium客户**：如果您看到[!UICONTROL Users]选项卡和[!UICONTROL Properties]选项卡([!UICONTROL Administration > Properties])，则表明贵组织拥有[!DNL Target] Premium许可证。 [!DNL Target] Premium 客户应按照[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)和[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)中的说明进行操作，以在 [!DNL Adobe Admin Console] 中添加用户和分配权限。
 >
->有关如何管理用户和权限的详细信息，请参阅企业和团队用户指南&#x200B;**&#x200B;中的[管理产品和轮廓](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)。
+>有关如何管理用户和权限的详细信息，请参阅企业和团队用户指南&#x200B;**&#x200B;中的[管理产品和轮廓](https://helpx.adobe.com/cn/enterprise/using/manage-products-and-profiles.html)。
 
 开始使用 [!DNL Adobe Target] 时，您会发现自己的 [!DNL Adobe Experience Cloud] 帐户中预先填充了一些 ID（以 Adobe.com 结尾）。这些 ID 是 [!DNL Adobe] 团队的成员，因此在您需要帮助时，可以协助您的新帐户以及 [!DNL Adobe Target] 的使用。要获取帮助，请按常规方式联系 Adobe 团队。
 
@@ -63,14 +63,14 @@ ht-degree: 63%
 必须在 [!DNL Adobe Admin Console for Enterprise] 中执行所有用户管理。但是，[!DNL Target] 中的所有现有用户都将从 [!DNL Target] 迁移到 [!DNL Admin Console for Enterprise]。
 
 1. [在Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)中，单击&#x200B;**[!UICONTROL Users]** > **[!UICONTROL Users]**&#x200B;以创建新用户或编辑现有用户。
-1. 按照企业用户指南&#x200B;**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/enterprise/help/users.html)中的说明进行操作。
+1. 按照企业用户指南&#x200B;**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/cn/enterprise/help/users.html)中的说明进行操作。
 
 ## 创建用户组 {#user-groups}
 
 您可以创建用户组（例如开发人员、分析师、营销人员、管理人员等），然后为其分配多个 [!DNL Adobe] 产品和工作区中的相应权限。为新团队成员分配不同 [!DNL Adobe] 产品中的所有相应权限的过程就像将他们添加到某个特定用户组一样简单。
 
 1. [在Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)中，单击&#x200B;**[!UICONTROL Users]** > **[!UICONTROL User Groups]**&#x200B;以创建新用户组或编辑现有用户组。
-1. 按照企业用户指南&#x200B;**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/enterprise/help/users.html)中的说明进行操作。
+1. 按照企业用户指南&#x200B;**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/cn/enterprise/help/users.html)中的说明进行操作。
 
 ## 指定角色和权限 {#roles-permissions}
 
@@ -97,7 +97,7 @@ ht-degree: 63%
    | [!UICONTROL Observer] | 可以查看活动，但不能创建或编辑活动。 |
    | [!UICONTROL Publisher] | 与[!UICONTROL Observer]角色类似（可查看活动，但无法创建或编辑活动）。 但是，[!UICONTROL Publisher]角色具有激活活动的附加权限。 |
 
-有关更多信息，请参阅企业用户指南&#x200B;**&#x200B;中的[在 Admin Console 中管理产品权限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
+有关更多信息，请参阅企业用户指南&#x200B;**&#x200B;中的[在 Admin Console 中管理产品权限和角色](https://helpx.adobe.com/cn/enterprise/help/manage-permissions-and-roles.html)。
 
 ## 培训视频：如何配置 Adobe Target 工作区 ![“教程”徽章](/help/main/assets/tutorial.png)
 

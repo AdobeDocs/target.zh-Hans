@@ -44,7 +44,7 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 
 | 主题 / 运行时长 / 录制日期 | 您将了解的内容 |
 |--- |--- |
-| [at.js 提示和概述](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59 分 12 秒<br>2019 年 6 月 26 日 | 您将会了解以下内容：<ul><li>使用 at.js 的优点</li><li>at.js 设置</li><li>处理闪烁的情况</li><li>调试 at.js</li><li>已知问题</li><li>常见问题解答</li></ul>有关详细信息，请参阅[at.js的工作方式](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}。 |
+| [at.js 提示和概述](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59 分 12 秒<br>2019 年 6 月 26 日 | 您将会了解以下内容：<ul><li>使用 at.js 的优点</li><li>at.js 设置</li><li>处理闪烁的情况</li><li>调试 at.js</li><li>已知问题</li><li>常见问题解答</li></ul>有关详细信息，请参阅[at.js的工作方式](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank}。 |
 | [Target Premium 工作区](https://helpx.adobe.com/cn/customer-care-office-hours/target/premium-workspaces.html)<br>27 分 49 秒<br>2018 年 9 月 4 日 | 您将会了解以下内容：<ul><li>创建工作区（产品配置文件）</li><li>创建属性</li><li>添加用户</li><li>更新实现</li></ul>有关更多信息，请参阅[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | [可视体验编辑器 (VEC)](https://helpx.adobe.com/cn/customer-care-office-hours/target/visual-experience-composer.html)<br>50 分 23 秒<br>2017 年 12 月 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>本指南中的详细信息，请参阅[体验](/help/main/c-experiences/experiences.md)。 |
 | [Adobe Target：Analytics/Target 集成 (A4T)](https://helpx.adobe.com/cn/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40 分 33 秒<br>2018 年 1 月 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[Adobe Analytics作为Adobe Target (A4T)的报表Source](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。 |
@@ -101,7 +101,7 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提供了大量的参与机制：
 
 * [查看 Experience Cloud 帮助页面，以获取建议、提示和常见问题解答](https://helpx.adobe.com/cn/marketing-cloud.html)
-* [提交工单以从支持人员获得帮助](https://experienceleague.adobe.com/?support-solution=Target#support)
+* [提交工单以从支持人员获得帮助](https://experienceleague.adobe.com/zh-hans?support-solution=Target#support)
 * [直接联系客户关怀团队](https://helpx.adobe.com/cn/marketing-cloud/contact-support.html)
 * [查看 Experience Cloud 解决方案的可用性和状态](https://status.adobe.com/)
 

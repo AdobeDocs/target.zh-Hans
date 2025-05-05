@@ -34,7 +34,7 @@ ht-degree: 27%
 
 ## 基于购物车 {#cart-based}
 
-[!UICONTROL Cart-Based]算法类型允许根据访客当前购物车的内容推荐项目。 推荐键是通过逗号分隔值的[mbox参数`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}提供的。 仅考虑前 10 个值。
+[!UICONTROL Cart-Based]算法类型允许根据访客当前购物车的内容推荐项目。 推荐键是通过逗号分隔值的[mbox参数`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}提供的。 仅考虑前 10 个值。
 
 基于购物车的推荐逻辑类似于基于用户的算法“[!UICONTROL Recommended For You]”以及基于项目的算法“[!UICONTROL People Who Viewed These, Bought Those]”和“[!UICONTROL People Who Bought These, Bought Those]”。
 

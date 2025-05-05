@@ -15,7 +15,7 @@ ht-degree: 38%
 
 自定义参数是[!DNL Adobe Target]中的mbox参数。 如果您将任何mbox参数传递给mbox，或者使用`targetPageParams`函数，则这些参数将显示在此处，以供在受众中使用。
 
-有关详细信息，请参阅[将参数传递到全局mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}。
+有关详细信息，请参阅[将参数传递到全局mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=zh-Hans){target=_blank}。
 
 创建基于 mbox 参数的自定义受众时，`mboxParameter` 将不再提示您输入 `mboxName`。mbox 名称现在是可选的。通过这项更改，您可以使用多个 mbox 中的参数或引用尚未记录到 Edge 的参数。
 

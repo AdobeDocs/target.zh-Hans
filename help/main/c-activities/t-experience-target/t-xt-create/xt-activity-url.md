@@ -23,7 +23,7 @@ ht-degree: 38%
    >
    >默认情况下，VEC或[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)会打开[可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的页面。 在活动创建过程中，您可以指定其他页面。
    >
-   >如果您指定的URL所对应的网站不包含[[!DNL Target] at.js JavaScript库或 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}，则您将无法选择页面元素。
+   >如果您指定的URL所对应的网站不包含[[!DNL Target] at.js JavaScript库或 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hans){target=_blank}，则您将无法选择页面元素。
 
 1. （视情况而定）要在VEC打开后显示其他页面，请单击&#x200B;**[!UICONTROL Configure]**，选择&#x200B;**[!UICONTROL Page Delivery]**，然后在[!UICONTROL URL]字段中指定URL。
 

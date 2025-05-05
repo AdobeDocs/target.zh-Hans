@@ -13,7 +13,7 @@ ht-degree: 19%
 
 # Analytics for [!DNL Target]实施
 
-在实施[!DNL Adobe Analytics]作为[!DNL Adobe Target] (A4T)的报表源时，需要执行几个步骤。 此过程因您使用[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)还是使用at.js实施A4T而异。
+在实施[!DNL Adobe Analytics]作为[!DNL Adobe Target] (A4T)的报表源时，需要执行几个步骤。 此过程因您使用[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)还是使用at.js实施A4T而异。
 
 ## 适用于Adobe Experience Platform Web SDK实施的![Adobe Experience Platform Web SDK徽章](/help/main/assets/platform.png)实施步骤 {#platform}
 
@@ -33,7 +33,7 @@ ht-degree: 19%
 
 ### 步骤4：安装和配置平台Web SDK
 
-要开始提供[!DNL Target]体验并应用[!DNL Analytics]进行跟踪和分析，请在您的网站页面上[安装](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)和[配置](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) Platform Web SDK。
+要开始提供[!DNL Target]体验并应用[!DNL Analytics]进行跟踪和分析，请在您的网站页面上[安装](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans)和[配置](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hans) Platform Web SDK。
 
 ### 步骤5：启用用于使用A4T的选项
 
@@ -58,15 +58,15 @@ ht-degree: 19%
 
 访客ID服务允许您跨[!DNL Adobe Experience Cloud]解决方案识别用户。 实施或迁移到所需版本的Experience Cloud访客ID。 有关更多信息，请参阅[实施之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
 
-请参阅&#x200B;*Experience Cloud访客ID服务*&#x200B;文档中的[为Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)实施访客ID服务。
+请参阅&#x200B;*Experience Cloud访客ID服务*&#x200B;文档中的[为Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=zh-Hans)实施访客ID服务。
 
 ### 步骤 4：更新 AppMeasurement for JavaScript 或 s_code
 
 实施或迁移到所需版本的appMeasurement.js。 有关更多信息，请参阅[实施之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
 
-有关新实施的信息，请参阅&#x200B;*JavaScript实施指南*&#x200B;中的[Analytics实施概述](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)。
+有关新实施的信息，请参阅&#x200B;*JavaScript实施指南*&#x200B;中的[Analytics实施概述](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=zh-Hans)。
 
-有关迁移，请参阅&#x200B;*Analytics Implementation Guide*&#x200B;中的[迁移到JavaScript的AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html)。
+有关迁移，请参阅&#x200B;*Analytics Implementation Guide*&#x200B;中的[迁移到JavaScript的AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html?lang=zh-Hans)。
 
 ### 步骤5：下载并更新at.js
 
@@ -116,9 +116,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-然后，可以通过[数据插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)将该有效负载转发到Analytics。 对于自动分配和自动定位活动，还必须转发sessionId。 有关详细信息，请参阅&#x200B;*Adobe Target SDK*&#x200B;指南中的[Analytics for Target (A4T)报表](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank}。
+然后，可以通过[数据插入API](https://helpx.adobe.com/cn/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)将该有效负载转发到Analytics。 对于自动分配和自动定位活动，还必须转发sessionId。 有关详细信息，请参阅&#x200B;*Adobe Target SDK*&#x200B;指南中的[Analytics for Target (A4T)报表](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=zh-Hans){target=_blank}。
 
-如果不希望进行全局设置并且想要使用按需方法，请通过传入&#x200B;**analyticsLogging： &quot;client_side&quot;**&#x200B;来使用at.js函数[getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank}。 仅为此调用返回分析有效负载，[!DNL Target]后端未将该有效负载转发到[!DNL Analytics]。 如果采用这种方法，每个at.js [!DNL Target]请求都会默认返回有效负载，但只有在需要和指定时才会返回。
+如果不希望进行全局设置并且想要使用按需方法，请通过传入&#x200B;**analyticsLogging： &quot;client_side&quot;**&#x200B;来使用at.js函数[getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html?lang=zh-Hans){target=_blank}。 仅为此调用返回分析有效负载，[!DNL Target]后端未将该有效负载转发到[!DNL Analytics]。 如果采用这种方法，每个at.js [!DNL Target]请求都会默认返回有效负载，但只有在需要和指定时才会返回。
 
 例如：
 
@@ -174,7 +174,7 @@ adobe.target.getOffers({
 }
 ```
 
-然后，可以通过[数据插入API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)将该有效负载转发到[!DNL Analytics]。
+然后，可以通过[数据插入API](https://helpx.adobe.com/cn/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)将该有效负载转发到[!DNL Analytics]。
 
 ### 步骤 8：验证实施 {#step8}
 

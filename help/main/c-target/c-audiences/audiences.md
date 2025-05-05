@@ -21,7 +21,7 @@ ht-degree: 22%
 * [创建特定于活动的受众](/help/main/c-target/creating-activity-only-audience.md)并定位它
 * [合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以创建临时受众
 
-您还可以在[!DNL Target]和其他[!DNL Adobe Experience Cloud]应用程序中将[!DNL Adobe Analytics]收集的受众数据用于实时定位和个性化。 请参阅&#x200B;*Experience Cloud中央界面组件*&#x200B;指南中的[Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hans)。
+您还可以在[!DNL Target]和其他[!DNL Adobe Experience Cloud]应用程序中将[!DNL Adobe Analytics]收集的受众数据用于实时定位和个性化。 请参阅&#x200B;*Experience Cloud中央界面组件*&#x200B;指南中的[Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans&?lang=zh-Hans)。
 
 [!DNL Target]中有两种类型的受众：
 
@@ -45,7 +45,7 @@ ht-degree: 22%
 
   >[!NOTE]
   >
-  >[!DNL Adobe Experience Platform]源可用于使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}的所有[!DNL Target]客户。 [!DNL Adobe Experience Platform]中可用的受众可以按原样使用，也可以将[与现有受众结合使用](/help/main/c-target/combining-multiple-audiences.md)。
+  >[!DNL Adobe Experience Platform]源可用于使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}的所有[!DNL Target]客户。 [!DNL Adobe Experience Platform]中可用的受众可以按原样使用，也可以将[与现有受众结合使用](/help/main/c-target/combining-multiple-audiences.md)。
   >
   >用户在[!DNL Target]中必须具有[!UICONTROL Approver]或更高状态才能在AEP/RTCDP ([!DNL Real-time Customer Data Platform])中配置[!DNL Target] [!UICONTROL Destinations]卡。
   >

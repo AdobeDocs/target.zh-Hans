@@ -37,7 +37,7 @@ ht-degree: 28%
 
    ![exclusions_list图像](assets/exclusions_list.png)
 
-   [!UICONTROL Exclusions]列表视图中为每个排除项报告的“项目数”是指，在配置的默认Recommendations [主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以更改默认主机组。
+   [!UICONTROL Exclusions]列表视图中为每个排除项报告的“项目数”是指，在配置的默认Recommendations [主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}以更改默认主机组。
 
 1. 单击 **[!UICONTROL Create Exclusion]**。
 

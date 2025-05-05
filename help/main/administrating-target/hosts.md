@@ -85,7 +85,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->**安全最佳实践**：如果您使用[!DNL Target]的ubox功能，此允许列表还将控制[重定向器](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}可以导航到的域的列表。 确保在将ubox用作实现的一部分时添加要重定向的任何域。 如果未指定允许列表，[!DNL Adobe]将无法验证重定向URL并防止潜在的恶意重定向。
+>**安全最佳实践**：如果您使用[!DNL Target]的ubox功能，此允许列表还将控制[重定向器](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=zh-Hans){target=_blank}可以导航到的域的列表。 确保在将ubox用作实现的一部分时添加要重定向的任何域。 如果未指定允许列表，[!DNL Adobe]将无法验证重定向URL并防止潜在的恶意重定向。
 >
 >允许列表优先于环境。 在使用allowlist功能之前，请清除所有主机，只有允许列表允许的主机才会显示在主机列表中。 然后，您可以将主机移到所需的环境中。
 

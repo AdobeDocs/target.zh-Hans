@@ -96,7 +96,7 @@ ht-degree: 96%
 
 ## 全局 mbox
 
-* [全局 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [全局 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=zh-Hans)
 
 ## 主机/环境
 
@@ -108,23 +108,23 @@ ht-degree: 96%
 
 ### 常规实施
 
-* [支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
-* [结合使用基于云的实例和 Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
+* [支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hans)
+* [结合使用基于云的实例和 Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=zh-Hans)
 
 ### 全局 mbox
 
-* [全局 mbox 常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [全局 mbox 常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=zh-Hans)
 
 ### at.js
 
-* [at.js 常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
-* [使用 Adobe Experience Cloud 调试器调试 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
-* [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
+* [at.js 常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=zh-Hans)
+* [使用 Adobe Experience Cloud 调试器调试 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=zh-Hans)
+* [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans)
 * “办公时间”视频，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 
 ## 移动应用程序
 
-* [Target 移动应用程序版常见问题](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [Target 移动应用程序版常见问题](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=zh-Hans)
 
 ## 报表
 
@@ -133,11 +133,11 @@ ht-degree: 96%
 
 ## 搜索引擎优化 (SEO)
 
-* [搜索引擎优化 (SEO) 友好测试](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [搜索引擎优化 (SEO) 友好测试](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans)
 
 ## 安全性
 
-* [内容安全策略 (CSP) 指令](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
+* [内容安全策略 (CSP) 指令](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=zh-Hans)
 
 ## 系统状态
 

@@ -17,7 +17,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform]源可用于使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}的所有[!DNL Target]客户。 [!DNL Adobe Experience Platform]中可用的受众可以按原样使用，也可以与现有受众结合使用，如本主题中所述。
+>[!DNL Adobe Experience Platform]源可用于使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}的所有[!DNL Target]客户。 [!DNL Adobe Experience Platform]中可用的受众可以按原样使用，也可以与现有受众结合使用，如本主题中所述。
 >
 >有关详细信息，请参阅[使用来自Adobe Experience Platform的受众](/help/main/c-target/c-audiences/audiences.md#aep)。
 

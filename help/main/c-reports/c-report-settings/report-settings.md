@@ -135,7 +135,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->如果贵组织使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP)将指标数据发送到[!DNL Target]，则AEP数据流中的环境应与[!DNL Target]报告设置中的环境匹配。
+>如果贵组织使用[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target=_blank} (AEP)将指标数据发送到[!DNL Target]，则AEP数据流中的环境应与[!DNL Target]报告设置中的环境匹配。
 
 ### 重置报表数据
 

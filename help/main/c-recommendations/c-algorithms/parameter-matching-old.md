@@ -2,7 +2,7 @@
 keywords: 包含规则；包含标准；推荐；促销活动；促销活动；动态筛选；动态；参数匹配
 description: 了解如何通过比较项目（实体）与Adobe [!DNL Target] Recommendations中的值（API或mbox）来动态筛选。
 title: 如何在Recommendations活动中按参数匹配进行筛选？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

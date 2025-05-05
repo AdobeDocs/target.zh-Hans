@@ -125,6 +125,6 @@ XT 活动应始终包含一个控制体验。如果您使用XT活动的方式与
 * A/B和MVT测试的最佳实践是保持流量拆分均匀。 在测试期间更改体验之间的流量分配（例如，从90/10更改为50/50）可能会导致体验之间的访客数不均衡。 较低的流量体验可能永远不会“赶上”。
 * 如果您遵循上述最佳实践，并且流量分摊不会随时间而正常化，则您应该检查以下各项：
 
-   * 您是否在使用最新的at.js库？ 有关当前版本和相关发行说明的详细信息，请参阅[at.js版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
+   * 您是否在使用最新的at.js库？ 有关当前版本和相关发行说明的详细信息，请参阅[at.js版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank}。
 
    * 是否为重定向测试？ 在页面上触发的标记定时不正确可能会导致不均衡的流量拆分，尤其是在使用[!DNL Analytics]作为[!DNL Target]活动的数据源时。 有关使用Analytics for Target (A4T)纠正重定向活动上流量分配不均衡的详细信息，请参阅[重定向选件 — A4T常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)。

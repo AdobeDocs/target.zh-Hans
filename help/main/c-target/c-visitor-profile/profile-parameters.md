@@ -33,7 +33,7 @@ ht-degree: 93%
 
    | 参数类型 | 描述 |
    |--- |--- |
-   | mbox | 在创建 mbox 时通过页面代码直接传入。请参阅 *Target 开发人员指南*&#x200B;中的[将参数传递到全局 Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}。<P>**注意**：[!DNL Target] 对于每个 mbox 调用有 50 个唯一配置文件属性的限制。如果必须将超过50个配置文件属性传递到[!DNL Target]，请使用[!UICONTROL Profile Update API]方法传递它们。 有关更多信息，请参阅 *Target 开发人员指南*&#x200B;中的[更新配置文件](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}。 |
+   | mbox | 在创建 mbox 时通过页面代码直接传入。请参阅 *Target 开发人员指南*&#x200B;中的[将参数传递到全局 Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=zh-Hans){target=_blank}。<P>**注意**：[!DNL Target] 对于每个 mbox 调用有 50 个唯一配置文件属性的限制。如果必须将超过50个配置文件属性传递到[!DNL Target]，请使用[!UICONTROL Profile Update API]方法传递它们。 有关更多信息，请参阅 *Target 开发人员指南*&#x200B;中的[更新配置文件](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=zh-Hans){target=_blank}。 |
    | 配置文件 | 直接使用 JavaScript 代码段定义。这些代码段可存储运行总计，如消费者消费的总金额，并在每次 mbox 请求时执行这些代码段。请参阅以下&#x200B;*配置文件脚本属性*。 |
 
 ## 配置文件脚本属性 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -176,7 +176,7 @@ if (mbox.name == 'Track_Interest') {
 
 **是否可以使用配置文件脚本捕获位于数据层中的页面信息？**
 
-由于配置文件脚本在服务器端执行，因此它们无法直接读取页面。必须通过 mbox 请求或通过其他[将数据带入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}传入数据。当数据进入 [!DNL Target] 之后，配置文件脚本可按照 mbox 参数或配置文件参数的形式读取数据。
+由于配置文件脚本在服务器端执行，因此它们无法直接读取页面。必须通过 mbox 请求或通过其他[将数据带入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}传入数据。当数据进入 [!DNL Target] 之后，配置文件脚本可按照 mbox 参数或配置文件参数的形式读取数据。
 
 ## 脚本配置文件参数的 JavaScript 参考
 

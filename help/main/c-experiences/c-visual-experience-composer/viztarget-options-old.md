@@ -217,7 +217,7 @@ ht-degree: 55%
 
 ### [!UICONTROL Offer Decision]
 
-添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中创建的选件，以便使用offer decisioning向客户提供最佳选件和体验。
+添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}中创建的选件，以便使用offer decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 
@@ -249,7 +249,7 @@ ht-degree: 55%
 
 ### [!UICONTROL Offer Decision]
 
-添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中创建的选件，以便使用offer decisioning向客户提供最佳选件和体验。
+添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}中创建的选件，以便使用offer decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 
@@ -281,7 +281,7 @@ ht-degree: 55%
 
 ### [!UICONTROL Offer Decision]
 
-添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中创建的选件，以便使用offer decisioning向客户提供最佳选件和体验。
+添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}中创建的选件，以便使用offer decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 
@@ -371,7 +371,7 @@ HTML选件最长可达256 KB。
 
 ## 注意事项 {#considerations}
 
-* 如果选件包含HTML内容，请参阅[at.js的工作方式](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}中的“at.js如何渲染包含HTML内容的选件”以了解更多信息。
+* 如果选件包含HTML内容，请参阅[at.js的工作方式](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank}中的“at.js如何渲染包含HTML内容的选件”以了解更多信息。
 
 ## 自定义元素支持 {#custom}
 
@@ -379,9 +379,9 @@ VEC支持[Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components
 
 >[!NOTE]
 >
->[at.js版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0（或更高版本）{target=_blank}支持自定义元素的VEC支持。 确保您的网站已部署所需的版本。 如果您使用的是[可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，则还必须部署所需的at.js版本。 上述VEC选项不可见，并且无法与不受支持的at.js版本一起使用。
+>[at.js版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} 2.7.0（或更高版本）{target=_blank}支持自定义元素的VEC支持。 确保您的网站已部署所需的版本。 如果您使用的是[可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，则还必须部署所需的at.js版本。 上述VEC选项不可见，并且无法与不受支持的at.js版本一起使用。
 >
->[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}当前不支持自定义元素的VEC支持。
+>[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}当前不支持自定义元素的VEC支持。
 
 自定义事件和自定义事件内支持大多数VEC操作，但以下除外：
 

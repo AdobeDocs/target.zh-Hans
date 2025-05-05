@@ -57,7 +57,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 
 已查看/已购买算法的![公式](assets/formula.png)
 
-则不应将项目B与项目A一起推荐。此PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了[此对数似然比相似度计算的完整详细信息。
+则不应将项目B与项目A一起推荐。此PDF[&#128279;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了此对数似然比相似度计算的完整详细信息。
 
 实际算法实现的逻辑流程如下图所示：
 
@@ -135,7 +135,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
    * **训练测试拆分**：为每个用户执行使用情况的按时间顺序拆分，将其使用情况的前80%分配给训练数据，其余20%分配给测试数据。
    * **项目相似度模型训练**： [!UICONTROL Recommended For You]和基于Cart的算法的核心项目相似度计算在构建候选项目向量的方式上有所不同。 对于[!UICONTROL Recommended For You]，项向量具有维度NUsers，其中每个条目表示该项用户的隐式评级之和 — 为项购买赋予的权重是该项查看次数的2倍。 对于基于购物车的推荐，项目矢量具有二进制条目；如果只考虑会话内行为，则每个会话都有一个新条目。 否则，每个访客在此项目矢量中都有一个条目。
 
-  训练步骤计算几种类型的向量相似度：这里讨论的LLR相似度([](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf))、余弦相似度（以前定义）和规范化的L2相似度(定义为：
+  训练步骤计算几种类型的向量相似度：这里讨论的LLR相似度([&#128279;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf))、余弦相似度（以前定义）和规范化的L2相似度(定义为：
 
   ![显示训练计算的公式](assets/formula4.png)
 

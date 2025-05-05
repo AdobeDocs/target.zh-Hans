@@ -35,7 +35,7 @@ Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 >
 >mbox.js库是[!DNL Target]的旧版实施，在2021年3月31日之后不再受支持。 升级到[!UICONTROL Experience Platform Web SDK] （首选）或at.js的最新版本。
 
-在网站的每个页面上引用[!UICONTROL Experience Platform Web SDK]或at.js。 例如，将其中一个库添加到您的全局标头。 或者，使用Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}中的[标记实现[!DNL Target]。
+在网站的每个页面上引用[!UICONTROL Experience Platform Web SDK]或at.js。 例如，将其中一个库添加到您的全局标头。 或者，使用Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}中的标记实现[!DNL Target]。
 
 以下资源包含帮助您实施 [!DNL Experience Platform Web SDK] 或 at.js 的详细信息：
 

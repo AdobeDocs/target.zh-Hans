@@ -231,8 +231,8 @@ ht-degree: 48%
 默认的图形绘制顺序如下：
 
 * **[!UICONTROL A/B Test]（包括[!UICONTROL Auto-Allocate]和[!UICONTROL Automated Personalization]）**：体验创建的顺序（按降序排列）。
-* **[!UICONTROL Experience Targeting](XT)**：活动中的体验顺序。
-* **[!UICONTROL Multivariate Test](MVT)**：按体验名称的字母顺序。
+* **[!UICONTROL Experience Targeting] (XT)**：活动中的体验顺序。
+* **[!UICONTROL Multivariate Test] (MVT)**：按体验名称的字母顺序。
 * **[!UICONTROL Recommendations]**：体验创建的顺序（按降序排列）。
 
 在使用[!UICONTROL Counting Methodology]选项时，请考虑以下注意事项：

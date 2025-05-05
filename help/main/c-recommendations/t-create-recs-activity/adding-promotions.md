@@ -26,7 +26,7 @@ ht-degree: 40%
 
 您可以促销特定项目、动态促销项目、基于属性促销项目或促销收藏集。
 
-[!DNL Target] UI](assets/add_promotion_toggles.png)中的![[!UICONTROL Front Promotion]和[!UICONTROL Back Promotion]选项
+[!DNL Target] UI![&#128279;](assets/add_promotion_toggles.png)中的[!UICONTROL Front Promotion]和[!UICONTROL Back Promotion]选项
 
 >[!NOTE]
 >

@@ -121,7 +121,7 @@ Google Product Search 信息源类型使用 Google 格式。这与[!DNL Adobe]�
 >
 >无需使用 Google 数据。[!DNL Recommendations]使用与Google相同的格式。 您可以使用此方法上传您的任何数据，并且还可以使用可用的计划功能。但是，您必须在设置文件时保留 Google 的预定义属性名称。
 
-大多数零售商会将产品上传到Google，这样当访客使用Google产品搜索时，将会显示其产品。 [!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。实体源可以通过.xml、.txt或.tsv发送到[!DNL Recommendations]，并且可以使用Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定义的[属性。 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
+大多数零售商会将产品上传到Google，这样当访客使用Google产品搜索时，将会显示其产品。 [!DNL Recommendations] 完全遵循 Google 对实体源的规范要求。实体源可以通过.xml、.txt或.tsv发送到[!DNL Recommendations]，并且可以使用Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定义的属性。 可以在 [Google 购物页面](https://www.google.com/prdhp)上搜索结果。
 
 >[!NOTE]
 >

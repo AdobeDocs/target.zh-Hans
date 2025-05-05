@@ -35,7 +35,7 @@ ht-degree: 33%
 
    如果您正在创建[!UICONTROL Recommendations]活动，则此屏幕不同。 [!UICONTROL Recommendations]活动不包含体验。
 
-1. 
+1. &#x200B;
    1. 单击&#x200B;**[!UICONTROL Rename]**&#x200B;图标（![重命名图标](/help/main/assets/icons/MoreSmallListVert.svg)），单击&#x200B;**[!UICONTROL Rename]**，指定活动的名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
    活动名称不能以下列任何字符开头：

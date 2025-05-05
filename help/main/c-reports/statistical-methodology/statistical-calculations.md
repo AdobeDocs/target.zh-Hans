@@ -97,7 +97,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-此计算使用“Delta”方法，并在本文档](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了[
+此计算使用“Delta”方法，并在本文档[&#128279;](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了
 
 ## [!UICONTROL Confidence]
 

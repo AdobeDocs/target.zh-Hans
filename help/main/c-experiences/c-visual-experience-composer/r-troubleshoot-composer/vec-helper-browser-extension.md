@@ -56,7 +56,7 @@ SW 可以控制缓存；可以缓存网页本身、静态资源（例如 JS、CS
 
 ## 获取并安装 VEC 助手浏览器扩展
 
-1. 导航到Chrome网上应用商店](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak)中的[Adobe Target VEC助手浏览器扩展。
+1. 导航到Chrome网上应用商店[&#128279;](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak)中的Adobe Target VEC助手浏览器扩展。
 1. 单击 **[!UICONTROL Add to Chrome > Add Extension]**。
 1. 打开 [!DNL Target] 中的 VEC。
 1. 要使用此扩展，请在处于 VEC 或 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)时，单击 Chrome 浏览器工具栏中的 VEC 助手浏览器扩展图标 (![VEC 助手图标](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。

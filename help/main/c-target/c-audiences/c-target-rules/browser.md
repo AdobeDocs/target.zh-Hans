@@ -32,7 +32,7 @@ ht-degree: 33%
 >
 >客户无需对此更新执行任何操作。 [!DNL Target] UI中的标签将来将更改，在进行这些更改时，将在[[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md)中公布。
 >
->有关解决方法设置，请参阅以下[!UICONTROL Browser]受众属性（2024年4月30日）](#updates)中的[更新 [!DNL iPad] 和 [!DNL iPhone] 。
+>有关解决方法设置，请参阅以下[!UICONTROL Browser]受众属性（2024年4月30日）[&#128279;](#updates)中的更新 [!DNL iPad] 和 [!DNL iPhone] 。
 
 定位浏览器的方式有两种：
 
@@ -141,9 +141,9 @@ ht-degree: 33%
 
 从[!DNL Target] Standard/Premium 24.3.1（2024年3月4日至6日）开始，使用Target UI创建的内置受众（如`Browser:iPad`和`Browser:iPhone`）已更新，以便使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`对[!DNL iPad]和[!DNL iPhone]执行正确的定位。
 
-使用[!DNL Target] UI创建的内置受众（例如`Browser:iPad`和`Browser:iPhone`）将自动移至新的受众定义，无需客户执行任何操作。 但是，以后，您应该使用下面描述的设置[](#ui)。
+使用[!DNL Target] UI创建的内置受众（例如`Browser:iPad`和`Browser:iPhone`）将自动移至新的受众定义，无需客户执行任何操作。 但是，以后，您应该使用下面描述的设置[&#128279;](#ui)。
 
-如果您在任何配置文件脚本中使用`user.browserType`来检查它是[!DNL iPhone]还是[!DNL iPad]（例如，`user.browserType == 'iphone'`或`user.browserType != 'ipad'`），则在2024年4月30日之前，应按照](#profile-scripts)下的说明更改这些配置文件脚本[，以确保这些受众继续按预期运行。
+如果您在任何配置文件脚本中使用`user.browserType`来检查它是[!DNL iPhone]还是[!DNL iPad]（例如，`user.browserType == 'iphone'`或`user.browserType != 'ipad'`），则在2024年4月30日之前，应按照[&#128279;](#profile-scripts)下的说明更改这些配置文件脚本，以确保这些受众继续按预期运行。
 
 JavaScript受众是使用[!DNL Target]表达式的旧版受众，已在[!DNL Target Classic] UI中弃用。 这些受众只能通过API进行修改。 只有在活动中继续使用旧受众时，客户才必须更新这些受众。
 

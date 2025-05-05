@@ -89,7 +89,7 @@ No, check marks for model generation show only the models built to date. There's
 +++回答
 在[!UICONTROL Auto-Target]活动中构建模型的时间通常取决于所选活动位置的流量以及与活动成功量度关联的转化率。
 
-在给定体验发生至少50次转化之前，[!UICONTROL Auto-Target]不会尝试构建该体验的个性化模型。 此外，如果所构建的模型质量缺佳（通过使用称为AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的量度[对留出的“测试”数据进行离线评估而确定），则不会使用该模型以个性化的方式提供流量。
+在给定体验发生至少50次转化之前，[!UICONTROL Auto-Target]不会尝试构建该体验的个性化模型。 此外，如果所构建的模型质量缺佳（通过使用称为AUC[&#128279;](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的量度对留出的“测试”数据进行离线评估而确定），则不会使用该模型以个性化的方式提供流量。
 
 关于[!UICONTROL Auto-Target]的模型构建要记住的其他要点：
 

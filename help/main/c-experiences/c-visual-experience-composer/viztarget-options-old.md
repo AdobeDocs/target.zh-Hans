@@ -178,7 +178,7 @@ ht-degree: 55%
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL  Hue-rotate]
+*[!UICONTROL &#x200B; Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
@@ -217,7 +217,7 @@ ht-degree: 55%
 
 ### [!UICONTROL Offer Decision]
 
-添加在 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中创建的[选件，以便使用offer decisioning向客户提供最佳选件和体验。
+添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中创建的选件，以便使用offer decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 
@@ -249,7 +249,7 @@ ht-degree: 55%
 
 ### [!UICONTROL Offer Decision]
 
-添加在 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中创建的[选件，以便使用offer decisioning向客户提供最佳选件和体验。
+添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中创建的选件，以便使用offer decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 
@@ -281,7 +281,7 @@ ht-degree: 55%
 
 ### [!UICONTROL Offer Decision]
 
-添加在 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中创建的[选件，以便使用offer decisioning向客户提供最佳选件和体验。
+添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}中创建的选件，以便使用offer decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 
@@ -309,7 +309,7 @@ ht-degree: 55%
 
 从[!UICONTROL Content Library]中选择其他选件。
 
-**注意：**[!DNL Target]HTML 产品建议存储在 服务器上。
+**注意：**&#x200B;[!DNL Target]HTML 产品建议存储在 服务器上。
 
 HTML选件最长可达256 KB。
 

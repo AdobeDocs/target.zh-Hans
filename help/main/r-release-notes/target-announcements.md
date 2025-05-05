@@ -132,7 +132,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
    * 各个品牌如何微调其 AI 支持的算法来加快速度和决策制定
    * 提供一对一个性化的独特用例
 
-+++
+  +++
 
 ### [!DNL Adobe Target] Skill Builders – 人工智能驱动的个性化和推荐（2022 年 9 月 15 日） {#AI}
 
@@ -156,11 +156,11 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
    * 用于跨客户体验进行测试和定位的生命周期量度
    * Mobile SDK = 用于灵活实施的 API（iOS 和 Android 平台）
 
-+++
+  +++
 
 ### 厨师的收藏集：个性化食谱（2022 年 8 月 30 日）
 
-加入 [!DNL Adobe Target] [!DNL]团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 基于我们最新的电子书《Chef&#39;s Collection: Ideas for Personalization》。
+加入 [!DNL Adobe Target] 团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 基于我们最新的电子书《Chef&#39;s Collection: Ideas for Personalization》。
 
 * [录像链接](https://video.tv.adobe.com/v/346970/){target=_blank}
 
@@ -172,7 +172,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
    * 优化竞争优势
    * 创造超个性化体验
 
-+++
+  +++
 
 ### 实时忠诚度激活（2022 年 8 月 25 日）
 
@@ -201,7 +201,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   与 Michael Klein（行业战略零售总监）和 Leina Betzer（Adobe Premier Support Target 顾问）一起讨论随着消费者购买模式和行为的转变，在特定市场对商品和服务的需求更高的情况下，零售电子商务销售是如何飞速增长的。
 
-+++
+  +++
 
 ### [!DNL Adobe]：精准个性化 - [!DNL Adobe Analytics] 和 [!DNL Target]（2022 年 6 月 2 日）
 
@@ -235,7 +235,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
    * 通过在网络和移动设备上扩展个性化和实验活动，对整体业务产生影响
    * 使用分析数据将普通访客转化为回访访客的零售技巧
 
-+++
+  +++
 
 ### [!DNL Adobe]：个性化行业内幕 - 金融服务和保险（2022 年 5 月 24 日）
 
@@ -247,7 +247,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   与 Christopher Young（行业战略金融服务总监）和 James Capasso（Adobe Premier Support 的 Target 顾问）一起了解品牌如何应对需求的即时变化，同时将个性化作为客户互动的中心。了解金融服务公司如何支持和通知世界各地关注近期通货膨胀模式和投资环境的客户。
 
-+++
+  +++
 
 ### 国民城市银行 (City National Bank)：如何在数字优化中实现前 1% 的目标（2022 年 5 月 26 日）
 
@@ -266,7 +266,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
    * 通过增加参与度和个性化产品建议的采用，加快业务增长
    * 优化多渠道营销活动，以实现时间价值和 ROI。
 
-+++
+  +++
 
 ### 网络研讨会：通过 [!DNL Adobe Target] 的设备上决策进行无延迟的个性化和测试
 
@@ -278,7 +278,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   在这场录播的网络研讨会中，Adobe Target 产品专家讨论了如何将关键的体验优化决策转移到设备上，无延迟地在本地执行，在为客户提高网站性能的同时创造激动人心的新用例。
 
-+++
+  +++
 
 ### 网络研讨会：汇丰银行如何利用 Adobe [!DNL Target] 和 AI 快速而大规模地进行优化和提供个性化服务
 
@@ -298,7 +298,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
    * McKinsey 文章：“[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)”，2020 年 5 月
 
-+++
+  +++
 
 ### [!DNL Adobe Target] Skill Builder：开发人员聊天，将 [!DNL Adobe Target] 的 mbox.js 迁移到 at.js {#skill-builder}
 

@@ -107,7 +107,7 @@ ht-degree: 44%
 
 **验证：**&#x200B;使用[!UICONTROL Collisions]选项卡查看其他活动是否正在运行。
 
-**注意：**[!UICONTROL Collisions]选项卡不适用于模板测试模块。
+**注意：**&#x200B;[!UICONTROL Collisions]选项卡不适用于模板测试模块。
 
 **选项：**
 

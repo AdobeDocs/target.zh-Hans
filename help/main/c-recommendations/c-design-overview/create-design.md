@@ -48,7 +48,7 @@ ht-degree: 19%
 
    此时将显示[!UICONTROL Create Design]对话框。
 
-1. 键入&#x200B;**[!UICONTROL  Name]**&#x200B;和要在设计卡片上显示的可选预览图像。
+1. 键入&#x200B;**[!UICONTROL &#x200B; Name]**&#x200B;和要在设计卡片上显示的可选预览图像。
 
    当您使用默认设计时，设计名称和“副本”将出现在&#x200B;**[!UICONTROL Content Name]**&#x200B;字段中。 您可以编辑该名称。您还可以选择要在设计卡片上显示的图像。
 

@@ -25,7 +25,7 @@ ht-degree: 56%
 
 根据对您的产品类别进行访问的频率和近期情况，会记录用户所具有的类别亲和度（如果有）。类别亲和度可用于为活动定位访客群体。
 
-您可以在配置文件脚本中使用`user.categoryAffinities[]`以返回访客填充的一组喜好。 有关详细信息，请参阅配置文件属性](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects)中的对象和方法下的[user.categoryAffinities。
+您可以在配置文件脚本中使用`user.categoryAffinities[]`以返回访客填充的一组喜好。 有关详细信息，请参阅配置文件属性[&#128279;](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects)中的对象和方法下的user.categoryAffinities。
 
 >[!IMPORTANT]
 >

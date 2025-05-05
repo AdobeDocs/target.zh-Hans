@@ -91,7 +91,7 @@ ht-degree: 89%
          + [共享量度、受众和报表 - A4T 常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [旧版 SiteCatalyst 与 Test&amp;Target 集成 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [使用和不使用 A4T 时，Target 和 Analytics 之间的预期数据差异](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + 将Target与Adobe Customer Journey Analytics {#cja}集成
+   + 将Target与Adobe Customer Journey Analytics集成 {#cja}
       + [Adobe Customer Journey Analytics中的Target报表](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + 将Target与Adobe Journey Optimizer (AJO)集成{#ajo}
       + [使用产品建议决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)

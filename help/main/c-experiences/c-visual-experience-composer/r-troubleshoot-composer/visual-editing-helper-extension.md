@@ -40,7 +40,7 @@ ht-degree: 64%
 
 ## 获取并安装[!UICONTROL Visual Editing Helper]浏览器扩展
 
-1. 导航到Chrome网上应用商店](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}中的[[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]浏览器扩展。
+1. 导航到Chrome网上应用商店[&#128279;](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}中的[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]浏览器扩展。
 1. 单击&#x200B;**[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**。
 1. 打开 [!DNL Target] 中的 VEC。
 1. 若要使用该扩展，请在处于VEC或QA模式时，单击Chrome浏览器工具栏中的[!UICONTROL Visual Editing Helper]浏览器扩展图标（![可视化编辑扩展图标](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）。

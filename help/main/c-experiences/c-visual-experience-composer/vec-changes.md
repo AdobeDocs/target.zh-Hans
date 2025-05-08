@@ -4,9 +4,9 @@ description: 了解Adobe Target 25.2.1版本（2025年2月17日）中可视化�
 title: 新可视化体验编辑器(VEC)中引入哪些更改？
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: f9f914c11dbff64d902a3fd8d6bf96237d1f4aae
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -17,53 +17,57 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->更新的[!UICONTROL Visual Editing Composer]需要Chrome Web Store上提供的[!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+>更新的[!UICONTROL Visual Editing Composer]需要[!DNL Chrome Web Store]中可用的[!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
 
 创建或编辑现有活动时将显示VEC。
 
-![可视化体验编辑器 (VEC)](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
+![可视化体验编辑器 (VEC)](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
 
 ## VEC的重大更改
 
 以下部分将说明更新后的VEC与先前版本相比所发生的重大更改。
 
-### [!UICONTROL Experiences]面板
+### [!UICONTROL Experiences]边栏
 
-与以前的版本一样，[!UICONTROL Experiences]面板保留在VEC的左侧。 无法折叠[!UICONTROL Experiences]面板。
+与以前的版本一样，[!UICONTROL Experiences]边栏保留在VEC的左侧。 无法折叠[!UICONTROL Experiences]边栏。
 
-![体验面板](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
+![体验边栏](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-您可以使用[!UICONTROL Experiences]面板创建、重命名或删除体验。 单击&#x200B;**[!UICONTROL Add]**&#x200B;图标（![添加图标](/help/main/assets/icons/Add.svg)）以添加新体验。 单击[!UICONTROL More Actions]图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg) ）以复制、删除或重新定向体验。
+您可以使用[!UICONTROL Experiences]边栏创建、重命名或删除体验。 单击&#x200B;**[!UICONTROL Add]**&#x200B;图标（![添加图标](/help/main/assets/icons/Add.svg)）以添加新体验。 单击[!UICONTROL More Actions]图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg) ）以复制、删除或重新定向体验。
 
-### [!UICONTROL Components]面板（新）
+### [!UICONTROL Components]边栏（新）
 
-您可以向网页添加许多组件，并使用新的[!UICONTROL Components]面板根据需要对其进行编辑。
+您可以将多个组件添加到网页中，并根据需要使用新的[!UICONTROL Components]边栏编辑它们。
 
-![组件面板](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
+![组件边栏](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-要添加新组件，请从要插入到“设计”画布中的现有页面元素之上的“组件”面板中拖动该组件。 然后选择将组件插入到选定元素的前面，也就是之后。
+要添加新组件，请将组件从要插入的[!UICONTROL Components]边栏拖动到[!UICONTROL Design]画布中的现有页面元素上。 然后选择将组件插入到选定元素的前面，也就是之后。
 
 与以前的VEC版本相比，您不能将选定的元素替换为组件。
 
-### [!UICONTROL Modifications]面板
+### [!UICONTROL Modifications]边栏
 
-要打开[!UICONTROL Modifications]面板，请单击[!UICONTROL Components]面板中的[!UICONTROL Show Modifications]图标（![显示修改面板](/help/main/assets/icons/History.svg)）。 [!UICONTROL Modifications]面板将编辑画布的位置从右侧更改为左侧。
+要打开[!UICONTROL Modifications]边栏，请单击[!UICONTROL Components]边栏中的[!UICONTROL Show Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg)）。 [!UICONTROL Modifications]边栏从编辑画布的右侧更改为左侧。
 
-![“修改”面板](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+![修改边栏](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
-[!UICONTROL Modifications]面板显示在[!UICONTROL Visual Experience Composer] (VEC)中对页面所做的所有更改，并允许进行其他更改（如CSS选择器、Mbox和自定义代码）。
+[!UICONTROL Modifications]边栏显示对VEC中的页面所做的所有更改，并允许您进行其他更改（如CSS选择器、Mbox和自定义代码）。
 
 单击[!UICONTROL More Options]图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg) ）以添加修改、删除所有修改或删除所有无效修改。 单击[!UICONTROL Select]以执行批量操作： [!UICONTROL Apply to All Pages]或[!UICONTROL Delete]。
 
-### [!UICONTROL Properties]面板（新）
+要再次显示[!UICONTROL Modifications]边栏，请单击[!UICONTROL Modifications]边栏中的[!UICONTROL Hide Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg)）。
 
-新的[!UICONTROL Properties]面板允许您更改页面上选定元素的属性，无论这些元素是HTML元素还是特定于[!DNL Target]的对象，例如推荐或选件。
+### [!UICONTROL Properties]边栏（新）
 
-![属性面板](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
+通过[!UICONTROL Properties]边栏可以更改页面上选定元素的属性，无论这些元素是HTML元素还是特定于[!DNL Target]的对象，例如推荐或选件。
 
-单击面板顶部的图标以编辑HTML代码或删除、复制或隐藏元素。 更改显示在[!UICONTROL Modifications]面板中。
+![属性边栏](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-[!UICONTROL Properties]面板可在右边栏中折叠。 单击面板右侧的[!UICONTROL Show/Hide Properties]图标（![属性图标](/help/main/assets/icons/Propertie.svg) ）以折叠或显示[!UICONTROL Properties]面板。
+单击边栏顶部的图标可编辑HTML代码或者删除、复制或隐藏元素。 更改显示在[!UICONTROL Modifications]边栏中。
+
+![属性图标](/help/main/c-experiences/c-visual-experience-composer/assets/options-icons.png)
+
+[!UICONTROL Properties]边栏可在右边栏中折叠。 单击边栏右侧的[!UICONTROL Show/Hide Properties]图标（![属性图标](/help/main/assets/icons/Propertie.svg)）以折叠或显示[!UICONTROL Properties]边栏。
 
 ### 活动设置/配置
 
@@ -71,13 +75,13 @@ ht-degree: 0%
 
 ![活动配置选项](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
-通过不同的选项，您可以启用或禁用多页面或多个受众活动、分配属性（[[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)功能）或编辑页面交付规则。
+通过不同的选项，您可以分配属性、编辑页面交付规则、指定网站首选项、添加其他页面以及启用或禁用多页面或多个受众活动。 分配[!UICONTROL Properties]是[[!DNL Target Premium]](/help/main/c-intro/intro.md#premium)功能。
 
 其位置和功能与以前的VEC UI类似。
 
 ### [!UICONTROL Design]/[!UICONTROL Browse]模式
 
-使用设计画布顶部显示的[!UICONTROL Design]/[!UICONTROL Browse]切换功能，在设计模式和浏览模式之间切换。
+使用[!UICONTROL Properties]边栏顶部显示的[!UICONTROL Design]/[!UICONTROL Browse]切换功能，在设计模式和浏览模式之间切换。
 
 ![设计和浏览切换](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
@@ -93,7 +97,7 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 
 ### [!UICONTROL Design]画布
 
-[!UICONTROL Design]画布允许您选择视区，包括适合屏幕、[!UICONTROL Desktop]、[!UICONTROL Tablet]、[!UICONTROL Mobile Landscape]和[!UICONTROL Mobile Portrait]。 默认情况下，画布将页面与[管理](/help/main/administrating-target/visual-experience-composer-set-up.md)部分中定义的视区一起适合屏幕。
+[!UICONTROL Design]画布允许您选择视区，包括适合屏幕、[!UICONTROL Desktop]、[!UICONTROL Tablet]、[!UICONTROL Mobile Landscape]和[!UICONTROL Mobile Portrait]。
 
 ![视区选项](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 

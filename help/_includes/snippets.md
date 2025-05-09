@@ -1,8 +1,8 @@
 ---
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: b1fb49d78b3a159c16e8ebb855ff175c26681da6
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 32%
+source-wordcount: '50'
+ht-degree: 42%
 
 ---
 # 代码片段
@@ -17,6 +17,6 @@ ht-degree: 32%
 
 >[!IMPORTANT]
 >
->自2025年4月22日起，仅[!UICONTROL Product]和[!UICONTROL Solutions]管理员能够更新[!UICONTROL Administration]部分中的设置，无论他们在[!DNL Target]工作区中的角色如何。 没有此权限的用户将具有[!UICONTROL Administration]部分的只读访问权限。 有关详细信息，请参阅编辑[!UICONTROL Administration]设置所需的[权限](/help/main/administrating-target/start-target.md#admin-permissions)。
+>具有[!UICONTROL Product Administrator]和[!UICONTROL System Administrator]权限的[!DNL Target]用户可以在[!UICONTROL Administration]页面上编辑所有设置，无论他们在[!DNL Target]中的角色如何。 没有这些权限的用户对这些设置具有只读访问权限。
 
 

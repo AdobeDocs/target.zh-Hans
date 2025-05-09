@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0f96fb2a74a0716542308037d183847c91b1dc04
+source-git-commit: b1fb49d78b3a159c16e8ebb855ff175c26681da6
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 52%
+source-wordcount: '874'
+ht-degree: 36%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 52%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 25.5.2（2025年5月8日）
+
+此版本包含以下修复和更新：
+
+* 具有[!UICONTROL Product Administrator]和[!UICONTROL System Administrator]权限的[!DNL Target]用户现在可以编辑[!UICONTROL Administration]页面上的所有设置，无论他们在[!DNL Target]中的角色如何。 没有这些权限的用户对这些设置具有只读访问权限。 此更新确保对[管理设置](/help/main/administrating-target/administrating-target.md)进行更严格的访问控制。 (TGT-48179)
+* 修复了阻止保存活动[网站首选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings)的缓存问题。 (TGT-52213)
+* 修复了以下问题：在VEC中加载网站后，客户无法在[!UICONTROL Site Preferences]部分中按ID和类启用选择。 [!UICONTROL Site Preferences]设置自动还原为已禁用，即使在启用后也是如此。 (TGT-52207)
+* 修复了[页面交付](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings)URL以正斜杠(/)结尾时，[!UICONTROL Visual Experience Composer] (VEC)无法显示正确页面的问题。 (TGT-52237)
+* 修复了在更改体验时阻止删除自定义代码修改的问题。 (TGT-52240)
+* 修复了VEC中的HTML修改覆盖现有页面元素的问题。 (TGT-52265)
+* 修复了由于现有自定义代码在编辑器中不可见而阻止在更新的VEC中编辑自定义代码的问题。 (TGT-52272)
+* 修复了在保存推荐活动时导致出现“不允许存在重复名称”错误消息的问题。 (TGT-52318)
+* 修复了更新后的VEC中存在的一个问题，该问题会阻止客户编辑文本元素或删除容器对象。 (TGT-52348)
+* 修复了阻止[!DNL Customer Journey Analytics]在活动[!UICONTROL Overview]页面上正确显示的问题。 (TGT-52359)
+* 修复了阻止报表组在[!UICONTROL Automated Personalization] (AP)活动中持久存在的问题。 (TGT-52368)
+* 修复了阻止保存包含Offer Decisioning的活动的问题。 (TGT-52390)
+* 修复了以下问题：选择了默认选件，但在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Multivariate Test] (MVT)活动中显示了其他选件内容。 (TGT-52372)
+* 修复了GET权限逻辑，以检查完全组织访问权限与特定组织+用户访问权限之间的OR。 (TGT-52374)
+* 修复了为[!UICONTROL Managed Content]和[!UICONTROL Reporting Audiences]选择受众后未显示受众名称的问题，即使启用了[!UICONTROL Show Only Selected]也是如此。 (TGT-52393)
 
 ## [!DNL Target Standard/Premium] 25.5.1（2025年5月5日）
 
@@ -42,7 +62,7 @@ ht-degree: 52%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

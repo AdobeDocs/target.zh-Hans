@@ -2,7 +2,7 @@
 keywords: 添加用户;项目;用户组;属性;工作区;管理属性;属性;at_property;角色;权限
 description: 了解如何将用户添加到Adobe Target；创建工作区、用户组和属性；更新您的实施；以及指定角色和权限。
 title: 如何配置企业权限？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
@@ -48,7 +48,7 @@ ht-degree: 56%
 当您开始使用新的[!UICONTROL Properties]功能时，必须在[!DNL Adobe Admin Console for Enterprise]中执行所有用户管理。 但是，[!DNL Target] 中的所有现有用户都将从 [!DNL Target] 迁移到 [!DNL Admin Console for Enterprise]。
 
 1. [在Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)中，单击页面顶部的&#x200B;**[!UICONTROL Users]**&#x200B;选项卡> **[!UICONTROL Add Users]**&#x200B;以创建新用户或编辑现有用户。
-1. 按照企业用户指南&#x200B;**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/enterprise/help/users.html)中的说明进行操作。
+1. 按照企业用户指南&#x200B;**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/cn/enterprise/help/users.html)中的说明进行操作。
 
 ## 步骤 2. 创建工作区（产品配置文件） {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
@@ -77,14 +77,14 @@ ht-degree: 56%
 
    您可以使用这些工作区按地区、业务部门、网站区域或通过您选择的任何其他方法，将访问权限划分给不同的团队。用户可以包含在多个工作区中，也可以在每个工作区拥有不同的角色。
 
-1. 按照《企业用户指南》**&#x200B;的[创建和管理产品配置](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)中的说明进行操作。
+1. 按照《企业用户指南》**&#x200B;的[创建和管理产品配置](https://helpx.adobe.com/cn/enterprise/help/manage-products-and-configurations.html)中的说明进行操作。
 
 >[!NOTE]
 >请观看下面的视频，以了解有关配置工作区的更多信息。
 
 ### 获取工作区ID {#workspace-id}
 
-您需要传递工作区 ID 才能使用 [Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} 中的企业权限。
+您需要传递工作区 ID 才能使用 [Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank} 中的企业权限。
 
 1. 在[Adobe Admin Console](https://adminconsole.adobe.com)中，单击[!UICONTROL Products]选项卡，然后单击左侧菜单中的产品以显示PLC（工作区）列表。
 1. 单击所需的 PLC（工作区），然后在 URL 中找到“轮廓”ID，如下所示。
@@ -96,7 +96,7 @@ ht-degree: 56%
 您可以创建用户组（例如开发人员、分析师、营销人员、管理人员等），然后为其分配多个 Adobe 产品和工作区中的相应权限。为新团队成员分配不同 Adobe 产品中的所有相应权限的过程就像将他们添加到某个特定用户组一样简单。
 
 1. 在Admin Console中，单击页面顶部的&#x200B;**[!UICONTROL Users]**&#x200B;选项卡> **[!UICONTROL User Groups]**&#x200B;以创建新用户组或编辑现有用户组。
-1. 按照《企业用户指南》**&#x200B;的[管理产品配置的用户和组](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)中的说明进行操作。
+1. 按照《企业用户指南》**&#x200B;的[管理产品配置的用户和组](https://helpx.adobe.com/cn/enterprise/help/manage-products-and-configurations.html)中的说明进行操作。
 
 ## 步骤 4. 创建属性 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
@@ -145,7 +145,7 @@ ht-degree: 56%
 
    * **通过[!DNL Adobe Experience Platform]内标记中的“自定义参数”：**
 
-     有关详细信息，请参阅&#x200B;*标记概述*&#x200B;文档中的[添加Mbox参数](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params)。
+     有关详细信息，请参阅&#x200B;*标记概述*&#x200B;文档中的[添加Mbox参数](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=zh-Hans#add-mbox-params)。
 
    * **通过targetPageParamsAll()函数：**&#x200B;将以下代码置于`<head>`标记中的at.js引用上方。
 
@@ -159,7 +159,7 @@ ht-degree: 56%
      </script>
      ```
 
-     有关如何使用at.js完成此操作的更多信息，请参阅[targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}。
+     有关如何使用at.js完成此操作的更多信息，请参阅[targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=zh-Hans){target=_blank}。
 
 ## 步骤6：指定角色和权限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -188,7 +188,7 @@ ht-degree: 56%
    | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
    | 发布者 | 类似于观察者角色（可查看活动，但无法创建或编辑活动）。但是，发布者角色另有激活活动的权限。 |
 
-   有关更多信息，请参阅企业用户指南&#x200B;**&#x200B;中的[在 Admin Console 中管理产品权限和角色](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)。
+   有关更多信息，请参阅企业用户指南&#x200B;**&#x200B;中的[在 Admin Console 中管理产品权限和角色](https://helpx.adobe.com/cn/enterprise/help/manage-permissions-and-roles.html)。
 
 ## 培训视频
 

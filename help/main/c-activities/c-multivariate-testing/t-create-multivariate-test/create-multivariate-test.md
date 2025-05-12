@@ -4,9 +4,9 @@ description: 了解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Visual Exp
 title: 如何创建[!UICONTROL Multivariate Test]？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: be118753eed999ce24d547c90ac9d195cce7e9e9
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '731'
 ht-degree: 26%
 
 ---
@@ -39,8 +39,7 @@ ht-degree: 26%
 
    将打开[!UICONTROL Visual Experience Composer]。
 
-1. &#x200B;
-   1. 单击&#x200B;**[!UICONTROL Rename]**&#x200B;图标（![重命名图标](/help/main/assets/icons/MoreSmallListVert.svg)），单击&#x200B;**[!UICONTROL Rename]**，指定活动的名称，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 要命名活动，请单击“[!UICONTROL Untitled Activity]”旁边的&#x200B;**[!UICONTROL Edit]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)），为活动指定描述性名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
    活动名称不能以下列任何字符开头：
 
@@ -129,4 +128,4 @@ ht-degree: 26%
 * 定义和设计多变量测试
 * 创建多变量测试
 
->[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

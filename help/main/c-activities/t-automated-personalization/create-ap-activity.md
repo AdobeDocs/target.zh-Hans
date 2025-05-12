@@ -2,12 +2,12 @@
 keywords: 自动个性化；ap
 description: 了解如何使用[!UICONTROL Visual Experience Composer]创建[!UICONTROL Automated Personalization] (AP)活动。
 title: 如何创建[!UICONTROL Automated Personalization]活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1851'
 ht-degree: 23%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 23%
 
    此时将在VEC中打开具有指定URL的页面。
 
-1. 单击&#x200B;**[!UICONTROL Rename]**&#x200B;图标（![重命名图标](/help/main/assets/icons/MoreSmallListVert.svg)），单击&#x200B;**[!UICONTROL Rename]**，指定活动的名称，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 要命名活动，请单击“[!UICONTROL Untitled Activity]”旁边的&#x200B;**[!UICONTROL Edit]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)），为活动指定描述性名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
    活动名称不能以下列任何字符开头：
 

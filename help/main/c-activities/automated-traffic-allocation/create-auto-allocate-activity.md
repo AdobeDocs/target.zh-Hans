@@ -4,9 +4,9 @@ description: 了解如何使用[!UICONTROL Visual Experience Composer] (VEC)创�
 title: 如何创建[!UICONTROL Auto-Allocate]活动？
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '901'
 ht-degree: 15%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 15%
 
    [!UICONTROL Visual Experience Composer]将打开，显示在URL中指定的页面。
 
-1. 单击&#x200B;**[!UICONTROL Rename]**&#x200B;图标（![重命名图标](/help/main/assets/icons/MoreSmallListVert.svg)），单击&#x200B;**[!UICONTROL Rename]**，指定活动的名称，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 要命名活动，请单击“[!UICONTROL Untitled Activity]”旁边的&#x200B;**[!UICONTROL Edit]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)），为活动指定描述性名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
    活动名称不能以下列任何字符开头：
 

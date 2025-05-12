@@ -4,9 +4,9 @@ description: 浏览关于使用 Adobe Target 中各项功能的常见问题的�
 title: 可在何处找到优化和个性化问题的答案？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2678'
 ht-degree: 96%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 96%
 
 **Target 支持哪些浏览器？**
 
-有关更多详细信息，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hans){target=_blank}矩阵。 请注意，支持的浏览器分为两个方面：Target Standard/Premium Experience Cloud 界面支持，以及桌面/设备上的最终用户浏览器支持。
+有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩阵图。请注意，支持的浏览器分为两个方面：Target Standard/Premium Experience Cloud 界面支持，以及桌面/设备上的最终用户浏览器支持。
 
 ## 活动 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -53,7 +53,7 @@ ht-degree: 96%
 
 **我是否可以执行一个活动，在该活动中采用一定程度的个性化作为该活动的一部分？**
 
-查看[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)选项。
+查看[自动锁定](/help/main/c-activities/auto-target/auto-target-to-optimize.md)选项。
 
 **我如何知道哪类活动最适合我的需求？**
 
@@ -69,7 +69,7 @@ ht-degree: 96%
 
 **我是否可以在页面结构不同的情况下跨多个页面运行活动？**
 
-**我是否可以在不同位置应用选件（例如签出漏斗）？**
+**我是否可以在不同位置应用产品建议（例如签出漏斗）？**
 
 尝试使用[多页面活动功能](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)，该功能允许您在体验中使用多个页面。
 
@@ -103,7 +103,7 @@ ht-degree: 96%
 
 [根据需要从活动概述页面直接进入所需步骤](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)，然后使用“保存并关闭”选项退出该步骤即可轻松实现这一点。
 
-**我是否可以停留在特定步骤、不断修改活动（例如选件文本或自定义代码），然后在另一个选项卡中执行 QA？**
+**我是否可以停留在特定步骤、不断修改活动（例如产品建议文本或自定义代码），然后在另一个选项卡中执行 QA？**
 
 这也是可行的。只需[使用可用的“保存”选项即可进行增量更改而不退出步骤](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)。
 
@@ -111,9 +111,9 @@ ht-degree: 96%
 
 使用我们的[强大的 QA 模式功能](/help/main/c-activities/c-activity-qa/activity-qa.md)来执行 QA。您可以与您的 QA 团队分享链接，还可以对包括报表在内的端到端活动进行测试，以充分确保活动开始后，会按照预期和经过测试的方式运行。
 
-**我如何使用 Target 的决策功能接收可用于单页应用程序 (SPA) 或服务器端集成的体验/选件？**
+**我如何使用 Target 的决策功能接收可用于单页应用程序 (SPA) 或服务器端集成的体验/产品建议？**
 
-使用包含 [JSON 选件](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)的[基于表单的活动](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)的强大功能来实现您的目标。
+使用包含 [JSON 产品建议](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)的[基于表单的活动](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)的强大功能来实现您的目标。
 
 **我已经设置了 2 个活动。我如何知道访客最终会看到哪一个活动？**
 
@@ -132,11 +132,11 @@ ht-degree: 96%
 
 改用我们的[仅限该活动的受众功能](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)来定义活动的本地受众。
 
-**我如何根据用户的位置来进行定位？**
+**我如何根据用户的位置来进行锁定？**
 
 尝试使用[地理位置受众](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)。阅读有关此功能的准确度级别信息。
 
-**我是否可以根据会话页面上的某些属性来定位用户？**
+**我是否可以根据会话页面上的某些属性来锁定用户？**
 
 最佳方式是使用 mbox 和[自定义受众](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B)来提供合适的体验。
 
@@ -144,7 +144,7 @@ ht-degree: 96%
 
 **我是否可以将流量随机拆分成两部分？**
 
-尝试使用[配置文件脚本功能](/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)。尽管需要您编写代码，但它是对体验进行个性化的一种很有效的方式。
+尝试使用[轮廓脚本功能](/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)。尽管需要您编写代码，但它是对体验进行个性化的一种很有效的方式。
 
 **我能否启动只有少数访客的活动？**
 
@@ -155,7 +155,7 @@ ht-degree: 96%
 请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 体验 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -194,7 +194,7 @@ ht-degree: 96%
 
 联系 Adobe 以[确保已为 Scene7 设置您的帐户](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5)。配置完毕后，您将可以轻松地将图像与其他图像进行交换。
 
-**我想在两个不同的体验之间进行测试，例如现金折扣与百分比折扣，但我希望能够正确定位体验（针对来自不同国家/地区的人员显示不同的区域设置文本或不同货币）。我该如何处理？**
+**我想在两个不同的体验之间进行测试，例如现金折扣与百分比折扣，但我希望能够正确锁定体验（针对来自不同国家/地区的人员显示不同的区域设置文本或不同货币）。我该如何处理？**
 
 您可以使用我们的[多个体验版本功能](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF)轻松实现此目的。请注意此类测试中有关交付的细微差别
 
@@ -212,23 +212,17 @@ ht-degree: 96%
 
 使用编辑和浏览功能，导航至所选页面并开始创建您的体验。
 
-![vec2图像](assets/vec2.png)
-
-**我如何才能转到在 Target 三步引导式工作流步骤 2（“定位”页面）中所选择的体验？**
-
-单击步骤 2 中的体验名称前面的缩略图，便可来到您选择的体验。
-
-![thumbnail_experience图像](assets/thumbnail_experiences.png)
+![设计和浏览切换](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
 **我是一名前 Target Classic 用户。我是否可以在某些用例中使用我的 mbox？**
 
 使用[基于表单的方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)来创建活动。
 
-**为何我没有看到我想要看到的选件/体验，反而看到了一些其他的活动？**
+**为何我没有看到我想要看到的产品建议/体验，反而看到了一些其他的活动？**
 
 使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
 
-## 选件 {#section_A547B1EAD0B34FD38D3B87AAF62E3963}
+## 产品建议 {#section_A547B1EAD0B34FD38D3B87AAF62E3963}
 
 **我想要测试一个全新的、完全不同的页面，而不仅仅是进行细微的更改。**
 
@@ -242,13 +236,13 @@ ht-degree: 96%
 
 您的网站可能拥有动态 ID、重复 ID 或元素上的动态类。您可能必须在帐户级别（或者在活动级别，如果问题特定于域或页面）评估网站首选项的选项。请参阅 [CSS 选择器](/help/main/administrating-target/visual-experience-composer-set-up.md#css)。
 
-**为何我没有看到我想要看到的选件/体验，反而看到了一些其他的活动？**
+**为何我没有看到我想要看到的产品建议/体验，反而看到了一些其他的活动？**
 
 使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
 
-**我能不能使用 Target 的决策功能接收可用于单页应用程序 (SPA) 或服务器端集成的体验/选件？**
+**我能不能使用 Target 的决策功能接收可用于单页应用程序 (SPA) 或服务器端集成的体验/产品建议？**
 
-使用包含 [JSON 选件](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)的[基于表单的活动](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)的强大功能来实现您的目标。
+使用包含 [JSON 产品建议](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)的[基于表单的活动](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)的强大功能来实现您的目标。
 
 ## 报表（包括 Analytics for Target—A4T） {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
@@ -258,7 +252,7 @@ ht-degree: 96%
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -283,7 +277,7 @@ ht-degree: 96%
 
 **我是否可以更改用于评估报表的控制体验？或者将计数方法从“访客”更改为“访问次数”？**
 
-使用[&#128279;](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮可进行这些更改。阅读更多有关这些设置的信息，了解计算结果的差异。
+使用](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮[可进行这些更改。阅读更多有关这些设置的信息，了解计算结果的差异。
 
 **我应如何解读报表？**
 
@@ -309,4 +303,4 @@ ht-degree: 96%
 
 **我在哪里可以了解有关 Target API 的更多信息？**
 
-我们提供了关于 API 的详尽文档。请参阅[交付API、NodeJS SDK和Recommendations API文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}。
+我们提供了关于 API 的详尽文档。请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。

@@ -5,10 +5,10 @@ title: 如何配置用户管理？
 feature: Administration & Configuration
 role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 61%
+source-wordcount: '208'
+ht-degree: 64%
 
 ---
 
@@ -34,10 +34,10 @@ ht-degree: 61%
 * **Target Premium 客户：**&#x200B;如果您的组织具有 [!DNL Target] Premium 许可，则在 Target UI 中会看到以下内容：
 
    * 您将会看到[!UICONTROL Properties]选项卡( [!UICONTROL Administration] > [!UICONTROL Properties] )
-   * 您还将看到[!UICONTROL Users]选项卡( [!UICONTROL Administration] > [!UICONTROL Users] )
+   * 您将&#x200B;*不会*&#x200B;看到[!UICONTROL Users]选项卡( [!UICONTROL Administration] > [!UICONTROL Users] )
 
      [!DNL Target] Premium 客户应按照[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)和[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71)中的说明进行操作，以在 [!DNL Adobe Admin Console] 中添加用户和分配权限。
 
-下图显示了[!DNL Target] Premium帐户的[!UICONTROL Administration]页面。 请注意，[!UICONTROL Properties]和[!UICONTROL Users]选项卡均可用：
+下图显示了[!DNL Target Premium]帐户的[!UICONTROL Administration]页面：
 
 ![“管理”选项卡](/help/main/administrating-target/assets/premium.png)

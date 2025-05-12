@@ -128,4 +128,4 @@ ht-degree: 26%
 * 定义和设计多变量测试
 * 创建多变量测试
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)

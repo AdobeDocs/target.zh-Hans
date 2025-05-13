@@ -37,7 +37,7 @@ ht-degree: 1%
 
 您的组织必须首先同意其他法律条款才能访问[!DNL AI Assistant]。 请联系您的Adobe客户团队以获取这些条款的指导。
 
-有关详细信息，请参阅&#x200B;*[!DNL Experience Platform]*&#x200B;文档中的 [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank}中的[访问 [!DNL AI Assistant] 。
+有关详细信息，请参阅&#x200B;*[!DNL Experience Platform]*&#x200B;文档中的 [!DNL Experience Platform][&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank}中的访问 [!DNL AI Assistant] 。
 
 ## 正在启用[!UICONTROL AI Assistant]的用户权限
 

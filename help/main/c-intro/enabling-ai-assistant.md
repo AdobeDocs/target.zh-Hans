@@ -1,6 +1,6 @@
 ---
 keywords: 人工智能助手
-description: 了解如何在[!DNL  Adobe Target]中启用 [!DNL AI Assistant] 。
+description: 了解如何在[!DNL &#x200B; Adobe Target]中启用 [!DNL AI Assistant] 。
 title: 如何在 [!DNL Target]中启用 [!DNL AI Assistant] ？
 feature: Overview
 hide: true
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您的组织必须首先同意其他法律条款才能访问[!DNL AI Assistant]。 请联系您的Adobe客户团队以获取这些条款的指导。
 
-有关详细信息，请参阅&#x200B;*[!DNL Experience Platform]*&#x200B;文档中的 [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank}中的[访问 [!DNL AI Assistant] 。
+有关详细信息，请参阅&#x200B;*[!DNL Experience Platform]*&#x200B;文档中的 [!DNL Experience Platform][&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank}中的访问 [!DNL AI Assistant] 。
 
 ## 启用[!UICONTROL AI Assistant]的用户权限
 

@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 89%
+source-wordcount: '1274'
+ht-degree: 85%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 89%
 # Adobe Target 从业者指南 {#using}
 
 + [Adobe Target商业从业者指南主页](target-home.md)
-+ Target 发行说明 {#release-notes}
++ Target发行说明 {#release-notes}
    + [Target 公告和活动](/help/main/r-release-notes/target-announcements.md)
    + [Target 发行说明（当前版本）](r-release-notes/release-notes.md)
    + [Target 发行说明（预发行版本）](r-release-notes/target-release-notes.md)
@@ -27,7 +27,9 @@ ht-degree: 89%
    + [从 Adobe Experience Cloud 访问 Target](c-intro/target-access-from-mac.md)
    + [Target 关键概念](c-intro/target-key-concepts.md)
    + [了解 Target UI](/help/main/c-intro/understand-the-target-ui.md)
-   + [使用AI助手](/help/main/c-intro/ai-assistant.md)
+   + Adobe Target AI助手 {#ai-assistant}
+      + [启用AI助手](/help/main/c-intro/ai-assistant.md)
+      + [使用AI助手获取产品知识](/help/main/c-intro/ai-assistant-product-knowledge.md)
    + Adobe Target 欢迎套件 {#welcome}
       + [Target 欢迎套件概述](/help/main/c-intro/target-welcome-kit.md)
       + [第 1 章：简介](/help/main/c-intro/target-welcome-kit-1.md)
@@ -68,8 +70,8 @@ ht-degree: 89%
    + [推荐](/help/main/administrating-target/recommendations-settings.md)
 + 实施 Target {#implement-target}
    + [实施 Target 概述](c-implementing-target/implementing-target.md)
-+ 将 Target 与 Experience Cloud 集成 {#integrate}
-   + 将 Adobe Analytics 作为 Target 报表源 (A4T) {#a4t}
++ 将Target与Experience Cloud集成 {#integrate}
+   + 将Adobe Analytics作为Target报表源(A4T) {#a4t}
       + [A4T 概述](c-integrating-target-with-mac/a4t/a4t.md)
       + [实施之前](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analytics for Target 实施](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -78,7 +80,7 @@ ht-degree: 89%
       + [自动分配和自动锁定活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
       + [使用 Analytics 跟踪服务器](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T 报表](c-integrating-target-with-mac/a4t/reporting.md)
-      + Analytics 与 Target 集成 (A4T) 故障诊断 {#troubleshoot-a4t}
+      + Analytics与Target集成(A4T)故障诊断 {#troubleshoot-a4t}
          + [A4T 故障诊断](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
       + A4T 常见问题解答 {#a4t-faq}
          + [初始配置 - A4T 常见问题解答](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
@@ -93,17 +95,17 @@ ht-degree: 89%
       + [使用和不使用 A4T 时，Target 和 Analytics 之间的预期数据差异](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + 将Target与Adobe Customer Journey Analytics集成 {#cja}
       + [Adobe Customer Journey Analytics中的Target报表](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
-   + 将Target与Adobe Journey Optimizer (AJO)集成{#ajo}
+   + 将Target与Adobe Journey Optimizer (AJO)集成 {#ajo}
       + [使用产品建议决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [集成 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
-      + Adobe Journey Optimizer用例{#use-cases}
+      + Adobe Journey Optimizer用例 {#use-cases}
          + [Adobe Journey Optimizer中的热门优化用例 — 基于Web和代码的渠道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [通过Adobe Journey Optimizer中的A/B测试更改内容](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + [向网页添加或隐藏组件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
-   + 将Target与Adobe Experience Manager (AEM)集成{#aem}
+   + 将Target与Adobe Experience Manager (AEM)集成 {#aem}
       + [将Target与AEM集成概述](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
-      + 体验片段和内容片段{#fragments}
+      + 体验片段和内容片段 {#fragments}
          + [AEM体验片段和内容片段概述](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM 体验片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [AEM内容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
@@ -137,7 +139,7 @@ ht-degree: 89%
       + [创建自动锁定活动](/help/main/c-activities/auto-target/create-auto-target.md)
       + [自动定位常见问题解答和疑难解答](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [报表和自动定位](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
-   + Automated Personalization {#automated-personalization}
+   + 自动个性化 {#automated-personalization}
       + [Automated Personalization 概述](c-activities/t-automated-personalization/automated-personalization.md)
       + [随机林算法](c-activities/t-automated-personalization/algo-random-forest.md)
       + [创建 Automated Personalization 活动](c-activities/t-automated-personalization/create-ap-activity.md)
@@ -270,16 +272,16 @@ ht-degree: 89%
       + [在报表中查看多个量度](c-reports/c-report-settings/view-multiple-metrics.md)
       + [排除极端值](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [将数据下载到 CSV 文件](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
-   + 统计方法{#statistical-methodology}
+   + 统计方法 {#statistical-methodology}
       + [A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + Personalization报告{#personalization-reports}
+   + Personalization报表 {#personalization-reports}
       + [自动锁定摘要报表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 摘要报表](/help/main/c-reports/personalization-reports/reports-ap.md)
-   + 个性化见解报表 {#insights}
+   + Personalization分析报表 {#insights}
       + [个性化见解报表概述](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [自动化区段报表](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [重要属性报表](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + 多变量测试报告{#multivariate-test-reports}
+   + 多变量测试报表 {#multivariate-test-reports}
       + [体验性能报表 (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
       + [位置贡献报表 (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Analytics for Target (A4T) 报表](c-reports/analytics-for-target-a4t-reporting.md)

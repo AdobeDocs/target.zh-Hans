@@ -1,19 +1,19 @@
 ---
 keywords: 人工智能助手
 description: 了解如何使用 [!DNL AI Assistant]导航和了解 [!DNL Target] 概念。
-title: 如何使用 [!DNL Target]中的 [!DNL AI Assistant] ？
+title: 如何在 [!DNL Target]中启用 [!DNL AI Assistant] ？
 feature: Overview
 hide: true
 hidefromtoc: true
 exl-id: f46d95f3-0ca3-4d96-92a7-b67a2c8a4678
-source-git-commit: 3ff1ff8fc09bc1fc4d808d1c5763cf35ad968668
+source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '404'
 ht-degree: 1%
 
 ---
 
-# 在[!DNL Adobe Target]中使用[!DNL Adobe Experience Platform] [!DNL AI Assistant]
+# 在[!DNL Adobe Target]中启用[!DNL Adobe Experience Platform] [!DNL AI Assistant]
 
 [!DNL Adobe Experience Platform]中的[!DNL AI Assistant]是用户界面功能，可用于导航和了解[!DNL Adobe]概念。 [!DNL AI Assistant]在[!DNL Adobe Experience Cloud]的多个产品中可用，包括[!DNL Adobe Target]。
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 您的组织必须首先同意其他法律条款才能访问[!DNL AI Assistant]。 请联系您的Adobe客户团队以获取这些条款的指导。
 
-有关详细信息，请参阅&#x200B;*[!DNL Experience Platform]*&#x200B;文档中的 [!DNL Experience Platform][&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/access){target=_blank}中的访问 [!DNL AI Assistant] 。
+有关详细信息，请参阅&#x200B;*[!DNL Experience Platform]*&#x200B;文档中的 [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank}中的[访问 [!DNL AI Assistant] 。
 
 ## 正在启用[!UICONTROL AI Assistant]的用户权限
 
@@ -66,10 +66,18 @@ ht-degree: 1%
 
 | 主题 | 描述 |
 | --- | --- |
-| [[!DNL AI Assistant] 位于 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home){target=_blank} | 了解[!DNL AI Assistant]功能。 其中包含操作方法视频。 |
-| [访问 [!DNL AI Assistant] 位于 [!DNL Experience Platform]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/access){target=_blank} | 了解如何访问组织及其用户的[!DNL AI Assistant]。 |
-|  [!DNL AI Assistant]的[问题指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/questions){target=_blank} | 查看查询[!DNL AI Assistant]时可以使用的示例问题。 |
-| [[!DNL AI Assistant] UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | 了解如何在[!DNL Adobe Experience Platform]用户界面中使用[!DNL AI Assistant]。 |
-| [隐私、安全和管理（在 [!DNL AI Assistant]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/privacy){target=_blank}中） | 了解[!DNL Adobe Experience Platform]中的[!DNL AI Assistant]是如何构建的，其中隐私、安全和治理处于前列。 了解[!DNL AI Assistant]可提供的以客户信任为中心的功能。 |
-| [常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/faq){target=_blank} | 阅读有关[!DNL AI Assistant]的常见问题解答。 |
-| [[!DNL Adobe Experience Platform] 发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/latest){target=_blank} | 阅读[!DNL Adobe Experience Platform]中现有功能和文档的更新，包括[!DNL AI Assistant]。 |
+| [[!DNL AI Assistant] 位于 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target=_blank} | 了解[!DNL AI Assistant]功能。 其中包含操作方法视频。 |
+| [访问 [!DNL AI Assistant] 位于 [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} | 了解如何访问组织及其用户的[!DNL AI Assistant]。 |
+|  [!DNL AI Assistant]的[问题指南](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions){target=_blank} | 查看查询[!DNL AI Assistant]时可以使用的示例问题。 |
+| [[!DNL AI Assistant] UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | 了解如何在[!DNL Adobe Experience Platform]用户界面中使用[!DNL AI Assistant]。 |
+| [隐私、安全和管理（在 [!DNL AI Assistant]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/privacy){target=_blank}中） | 了解[!DNL Adobe Experience Platform]中的[!DNL AI Assistant]是如何构建的，其中隐私、安全和治理处于前列。 了解[!DNL AI Assistant]可提供的以客户信任为中心的功能。 |
+| [常见问题解答](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/faq){target=_blank} | 阅读有关[!DNL AI Assistant]的常见问题解答。 |
+| [[!DNL Adobe Experience Platform] 发行说明](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target=_blank} | 阅读[!DNL Adobe Experience Platform]中现有功能和文档的更新，包括[!DNL AI Assistant]。 |
+
+## 培训视频
+
+### 访问AI助手
+
+了解如何在[!DNL Adobe Experience Platform]中为[!DNL AI Assistant]设置访问和权限。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on&#x26;enablevpops)

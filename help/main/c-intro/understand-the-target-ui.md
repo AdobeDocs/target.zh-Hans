@@ -4,10 +4,10 @@ description: 熟悉用户界面并查找更深入信息的链接，以帮助您�
 title: 如何使用 [!DNL Target] UI？
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 31%
+source-wordcount: '1388'
+ht-degree: 28%
 
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 31%
 
 该用户界面按符合逻辑并且便于用户使用的形式进行排列，以帮助您充分利用 [!DNL Adobe Target]。以下简要概述可帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
 
-[!DNL Target] UI顶部的标题包含选项卡和选项，可帮助您导航解决方案的不同功能。 您还可以切换组织和[!DNL Adobe Experience Cloud]解决方案，获取帮助和通知，管理您的[!DNL Adobe]配置文件，以及注销[!DNL Target]。
+## [!DNL Target]用户界面标题
+
+[!DNL Target] UI顶部的标题包含选项卡和选项，可帮助您导航解决方案的不同功能。 您还可以切换组织和[!DNL Adobe Experience Cloud]解决方案，如果您是Beta计划的成员，则可以提供反馈，访问AI助手，获取帮助和通知，管理您的[!DNL Adobe]配置文件，以及注销[!DNL Target]。
 
 ![Target 标题](/help/main/c-intro/assets/target-header.png)
 
-左侧的选项卡允许您访问[!DNL Target]的各种功能，稍后将对此进行讨论。 在转入这些选项卡之前，我们先来讨论右侧的各个选项。
+左侧的选项卡允许您访问[!DNL Target]的各种功能，稍后将对此进行讨论。 在讨论这些选项卡之前，我们先来讨论右侧的选项。
 
-## 组织
+### [!UICONTROL Organization]
 
 *组织*&#x200B;是一个实体，管理员从中可配置组和用户，并控制 [!DNL Adobe Experience Cloud] 中的单点登录。组织的作用类似于一个衔接所有 [!DNL Experience Cloud] 产品和解决方案的登录公司。大多数情况下，组织即是您的公司名称。但是，公司可以具有多个组织。
 
@@ -29,19 +31,25 @@ ht-degree: 31%
 
 ![“组织”下拉列表](/help/main/c-intro/assets/organizations.png)
 
-## 应用程序
+### [!UICONTROL Beta Feedback]
 
-通过应用程序切换器，可快速访问您有权访问的 [!DNL Adobe Experience Cloud] 解决方案。
+（视情况而定）如果您是官方[!DNL Target] Beta项目的一部分，则可能会看到[!UICONTROL Beta Feedback]图标。
 
-![应用程序切换器](/help/main/c-intro/assets/apps.png)
+![Beta反馈图标](/help/main/c-intro/assets/beta-feedback.png)
 
-## 帮助
+提供反馈的说明，包括适用的文件或屏幕截图，以及任何其他详细信息（如有必要），然后单击&#x200B;**[!UICONTROL Submit]**。
 
-通过“帮助”图标，可访问信息、视频、博客等以帮助您更有效地使用 [!DNL Target]。您可以创建支持工单、查找支持电话号码、通过Twitter提问或提供有关[!DNL Target]的反馈，以便让我们了解[!DNL Target]团队的情况。
+### [!DNL AI Assistant] （计划于2025年5月20日发布）
+
+（视情况而定）如果您的组织已授予您使用AI助手的权利，请单击AI助手图标。
+
+### 帮助
+
+通过“帮助”图标，可访问信息、视频、博客等以帮助您更有效地使用 [!DNL Target]。您可以创建支持工单、查找支持电话号码、通过Twitter提问或提供有关[!DNL Target]的反馈以使我们了解[!DNL Target]团队的情况。
 
 ![帮助](/help/main/c-intro/assets/help.png)
 
-## 通知和公告 {#notifications-announcements}
+### 通知和公告 {#notifications-announcements}
 
 [!UICONTROL Notifications]和[!UICONTROL Announcements]面板帮助您及时了解[!DNL Adobe Target]的所有最新信息。 主动通知帮助您及时了解[!DNL Adobe Experience Cloud]解决方案和[!DNL Target]事件的状态。 主动公告提醒您发生断电事件和维护事件。
 
@@ -55,7 +63,7 @@ ht-degree: 31%
 
 以下部分包含有关每个选项卡以及如何配置通知和公告的信息：
 
-### 通知 {#notifications}
+#### 通知 {#notifications}
 
 [!DNL Target]事件通知包括以下内容：
 
@@ -78,7 +86,7 @@ ht-degree: 31%
    * `Profile Script {target.profileScript.name} has been activated`
    * `Profile Script {target.profileScript.name} has been deactivated`
 
-* **Recommendations源**：手动或由[!DNL Target]激活或停用[!DNL Recommendations]源时的通知。 当[!DNL Recommendations]馈送失败时，也会发送通知。
+* **Recommendations馈送**：手动或由[!DNL Target]激活或停用[!DNL Recommendations]馈送时的通知。 当[!DNL Recommendations]馈送失败时，也会发送通知。
 
   通知是可配置的，默认情况下由[!DNL Target Premium]帐户的产品管理员和批准者接收。 [!DNL Recommendations]是[!DNL Target Premium]功能，在[!DNL Target Standard]中不可用。
 
@@ -93,11 +101,11 @@ ht-degree: 31%
 
 您也可以将鼠标悬停在通知上，单击“[!UICONTROL Remind me]”图标，然后选择您希望接收通知的时间：5分钟、15分钟、1小时或明天，来设置要再次接收通知的提醒。
 
-### 公告
+#### 公告
 
 主动公告提醒您发生断电事件和维护事件。
 
-可在[Adobe状态](https://status.adobe.com/)页面上找到更深入的信息。
+有关更深入的信息，请参阅[Adobe状态](https://status.adobe.com/)页面。
 
 ### 配置通知和公告
 
@@ -117,8 +125,7 @@ ht-degree: 31%
 
    >[!NOTE]
    >
-   >“新版本”和“内容更新”是唯一适用于[!DNL Target]的通知类别。 其他类别适用于其他Adobe解决方案。
-
+   >“新版本”和“内容更新”是唯一适用于[!DNL Target]的通知类别。 其他类别则适用于其他Adobe解决方案。
 
 1. 选择您希望视为高优先级的类别。
 1. 选择您希望在浏览器中显示警报的通知。
@@ -132,11 +139,17 @@ ht-degree: 31%
    * 每日摘要
    * 每周摘要
 
-## Profile
+### 应用程序切换器
 
-单击您的个人资料头像以编辑您的 [!DNL Adobe Experience Cloud] 首选项或退出 [!DNL Target]。还可访问或编辑您的 [!DNL Adobe] 个人资料。
+通过应用程序切换器，可快速访问您有权访问的 [!DNL Adobe Experience Cloud] 解决方案。
 
-![个人资料头像](/help/main/c-intro/assets/change-language.png)
+![应用程序切换器](/help/main/c-intro/assets/apps.png)
+
+### Profile
+
+单击您的个人档案头像以编辑您的 [!DNL Adobe Experience Cloud] 首选项或退出 [!DNL Target]。还可访问或编辑您的 [!DNL Adobe] 个人档案。
+
+![个人档案头像](/help/main/c-intro/assets/change-language.png)
 
 现在我们讨论 [!DNL Target] 标题左侧的选项卡。
 
@@ -158,13 +171,13 @@ ht-degree: 31%
 
 有关[!DNL Target]中受众类型的深入信息以及要详细了解[!UICONTROL Audience]列表的用户界面，请参阅[创建受众](/help/main/c-target/c-audiences/create-audience.md)。
 
-## 选件
+## 产品建议
 
 单击“**[!UICONTROL Offers]**”选项卡以显示[!UICONTROL Offers]列表，从中可创建体验和选件以及管理现有体验和选件。
 
-![“选件”列表](/help/main/c-intro/assets/offers.png)
+![“产品建议”列表](/help/main/c-intro/assets/offers.png)
 
-体验可以是一个页面、整个网页、可能形成购买漏斗的一组页面或一些其他逻辑序列的页面上的一个选件、图像、文本、按钮、视频，以及这些不同元素的组合。它还可以是语音助手的回复、客户服务脚本，甚至是饮料机中提供的独特口味。您可以在 [!DNL Target] 活动中测试或个性化体验。
+体验可以是一个页面、整个网页、可能形成购买漏斗的一组页面或一些其他逻辑序列的页面上的一个产品建议、图像、文本、按钮、视频，以及这些不同元素的组合。它还可以是语音助手的回复、客户服务脚本，甚至是饮料机中提供的独特口味。您可以在 [!DNL Target] 活动中测试或个性化体验。
 
 有关[!DNL Target]中选件类型的深入信息以及要详细了解[!UICONTROL Offer]列表的用户界面，请参阅[选件](/help/main/c-experiences/c-manage-content/manage-content.md)。
 
@@ -180,7 +193,7 @@ ht-degree: 31%
 
 [!UICONTROL Recommendations]活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。 “推荐”有助于引导客户查看在其他情况下他们可能不知道的相关项目。
 
-有关[!DNL Target]中有关[!UICONTROL Recommendations]的深入信息以及要详细了解[!UICONTROL Recommendations]用户界面的，请参阅[Recommendations](/help/main/c-recommendations/recommendations.md)。
+有关[!DNL Target]中有关[!UICONTROL Recommendations]的深入信息以及要详细了解[!UICONTROL Recommendations]用户界面的，请参阅[推荐](/help/main/c-recommendations/recommendations.md)。
 
 ## 管理
 

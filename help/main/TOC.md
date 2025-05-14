@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
 feature-set: Target
-source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
+source-git-commit: 5ae34c65a9c65a9385c6041756a4835af29e61d1
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1277'
 ht-degree: 85%
 
 ---
@@ -27,8 +27,9 @@ ht-degree: 85%
    + [从 Adobe Experience Cloud 访问 Target](c-intro/target-access-from-mac.md)
    + [Target 关键概念](c-intro/target-key-concepts.md)
    + [了解 Target UI](/help/main/c-intro/understand-the-target-ui.md)
-   + Adobe Target AI助手 {#ai-assistant}
-      + [启用AI助手](/help/main/c-intro/ai-assistant.md)
+   + Adobe Target AI助手 {#assistant-ai}
+      + [AI Assistant概述](/help/main/c-intro/ai-assistant.md)
+      + [启用AI助手](/help/main/c-intro/enabling-ai-assistant.md)
       + [使用AI助手获取产品知识](/help/main/c-intro/ai-assistant-product-knowledge.md)
    + Adobe Target 欢迎套件 {#welcome}
       + [Target 欢迎套件概述](/help/main/c-intro/target-welcome-kit.md)

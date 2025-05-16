@@ -1,13 +1,13 @@
 ---
 keywords: 人工智能助手
-description: 了解如何在[!DNL &#x200B; Adobe Target]中启用 [!DNL AI Assistant] 。
+description: 了解如何在[!DNL  Adobe Target]中启用 [!DNL AI Assistant] 。
 title: 如何在 [!DNL Target]中启用 [!DNL AI Assistant] ？
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 feature: Overview
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6
+source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 5%
+source-wordcount: '206'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 您的组织必须首先同意其他法律条款才能访问[!DNL AI Assistant]。 请联系您的Adobe客户团队以获取这些条款的指导。
 
-有关详细信息，请参阅&#x200B;*[!DNL Experience Platform]*&#x200B;文档中的 [!DNL Experience Platform][&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/access){target=_blank}中的访问 [!DNL AI Assistant] 。
+有关详细信息，请参阅&#x200B;*[!DNL Experience Platform]*&#x200B;文档中的 [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank}中的[访问 [!DNL AI Assistant] 。
 
 ## 启用[!UICONTROL AI Assistant]的用户权限
 
@@ -30,7 +30,7 @@ ht-degree: 5%
 1. 导航到[!DNL Target]中的&#x200B;**[!UICONTROL Administration]**&#x200B;选项卡。
 1. 在左侧菜单中选择&#x200B;**[!UICONTROL Users]**。
 1. 从列表中找到要管理的用户，或使用搜索栏查找这些用户。
-1. 将鼠标悬停在您想要授予对[!UICONTROL Target AI Assistant]的访问权限的人员的&#x200B;**[!UICONTROL AI Permissions]**&#x200B;列上。
+1. 将鼠标悬停在您想要授予[!UICONTROL Target AI Assistant]访问权限的人员的&#x200B;**[!UICONTROL AI Permissions]**&#x200B;列上。
 
    此时会显示一个权限弹出窗口。
 

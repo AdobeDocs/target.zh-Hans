@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 51%
+source-wordcount: '176'
+ht-degree: 84%
 
 ---
 
@@ -23,22 +23,12 @@ ht-degree: 51%
 >
 >要查看有关当前版本的信息，请参阅 [Target 发行说明](release-notes.md)。根据发布时机的不同，这些页面上的信息可能相同。括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Adobe Target] [!DNL AI Assistant]版本（2025年5月20日）
-
-我们很高兴在[!DNL Adobe Target]中宣布[!DNL AI Assistant]的启动！ 此强大的用户界面功能旨在帮助您轻松导航和了解[!DNL Target]概念。 在[!DNL Adobe Experience Cloud]的多个产品（包括[!DNL Target]）中均可用，[!DNL AI Assistant]将为您的体验带来翻天覆地的变化。
-
-[!UICONTROL Target]中的[!DNL AI Assistant]是一个对话工具，可用于通过[!DNL Experience Platform]应用程序和服务加速工作流。 使用[!DNL AI Assistant]提高您的整体工作效率并增强您对产品知识的理解
-
-在[!DNL Target]中，[!DNL AI Assistant]的第一阶段以[!DNL Experience League]文档为基础，提供了宝贵的产品知识。 无论您是设置配置文件脚本、排除错误还是考虑升级到AEP Web SDK，[!DNL AI Assistant]都已涵盖。
-
-有关详细信息，请参阅[Adobe Experience Platform AI助手概述](/help/main/c-intro/ai-assistant.md)。
-
 ## 其他发行说明和版本详细信息
 
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明： Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

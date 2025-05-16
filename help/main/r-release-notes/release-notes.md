@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b1fb49d78b3a159c16e8ebb855ff175c26681da6
+source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 36%
+source-wordcount: '987'
+ht-degree: 32%
 
 ---
 
@@ -18,6 +18,16 @@ ht-degree: 36%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Adobe Target] [!DNL AI Assistant]版本（2025年5月16日）
+
+我们很高兴在[!DNL Adobe Target]中宣布[!DNL AI Assistant]的启动！ 此强大的用户界面功能旨在帮助您轻松导航和了解[!DNL Target]概念。 在[!DNL Adobe Experience Cloud]的多个产品（包括[!DNL Target]）中均可用，[!DNL AI Assistant]将为您的体验带来翻天覆地的变化。
+
+[!UICONTROL Target]中的[!DNL AI Assistant]是一个对话工具，可用于通过[!DNL Experience Platform]应用程序和服务加速工作流。 使用[!DNL AI Assistant]提高您的整体工作效率并增强您对产品知识的理解
+
+在[!DNL Target]中，[!DNL AI Assistant]的第一阶段以[!DNL Experience League]文档为基础，提供了宝贵的产品知识。 无论您是设置配置文件脚本、排除错误还是考虑升级到AEP Web SDK，[!DNL AI Assistant]都已涵盖。
+
+有关详细信息，请参阅[Adobe Experience Platform AI助手概述](/help/main/c-intro/ai-assistant.md)。
 
 ## [!DNL Target Standard/Premium] 25.5.2（2025年5月8日）
 
@@ -62,7 +72,7 @@ ht-degree: 36%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

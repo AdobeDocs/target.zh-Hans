@@ -25,7 +25,7 @@ ht-degree: 6%
 
 要访问[!DNL AI Assistant]，请执行以下操作：
 
-1. 确保您已在 [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)的[启用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先决任务。
+1. 确保您已在 [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)的启用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先决任务。
 
    * 贵组织必须首先同意法律条款。 有关更多信息，请与您的Adobe客户团队联系。
    * 您的管理员必须授予您访问[!DNL AI Assistant]的足够权限。

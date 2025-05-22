@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
+source-git-commit: dc9797cc0afdb3fed5b4bb95cf134e702cec42d7
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 32%
+source-wordcount: '1372'
+ht-degree: 26%
 
 ---
 
@@ -18,6 +18,32 @@ ht-degree: 32%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 25.5.3（2025年5月22日）
+
+此版本包含以下修复和更新：
+
+* 修复了[!UICONTROL Activities]列表中的按名称搜索功能在多词查询中无法正常工作的问题。 (TGT-52529)
+* 修复了阻止从[!UICONTROL Automated Personalization] (AP)活动中排除体验的问题。 (TGT-52383)
+* 修复了管理AP活动中的内容时，[!UICONTROL Filter Rules]中缺少“[!UICONTROL Contains]”选项的问题。 (TGT-52384)
+* 修复了[!UICONTROL Automated Personalization] (AP)活动中的报表不一致问题，具体问题与如何使用[!DNL Target]内部系统中的`optionLocalId`值跟踪和报告默认选件有关。
+* 修复了QA链接无法提供预期活动体验的问题。 (TGT-52163)
+* 修复了具有[!UICONTROL Approver]权限的用户被错误阻止编辑实时活动的问题，该问题会收到“访问被拒绝”错误消息。 (TGT-52416)
+* 修复了在更新的[!DNL Target] UI中无法针对某些活动显示受众细化的问题。 (TGT-52057)
+* 修复了一个问题，该问题导致在更新后的UI中逆转受众细化和活动受众。 (TGT-52158)
+* 修复了生成临时优惠导致重复优惠的问题。 (TGT-51938)
+* 修复了阻止选件更新并错误显示“用户无效”错误的问题。 (TGT-52361)
+* 修复了阻止保存现有活动并触发“用户输入无效”错误的问题。 (TGT-52422)
+* 修复了阻止编辑现有HTML选件的问题，该问题会在保存时触发“无效用户输入”错误，即使未进行任何代码更改也是如此。 (TGT-52351)
+* 修复了阻止[!DNL Target]识别网站URL中“#”字符的问题。 (TGT-52093)
+* 修复了阻止编辑[!DNL Recommendations]活动以添加或更新促销活动的问题，该问题会导致保存失败和重复促销活动。 (TGT-52343)
+* 修复了一个问题，该问题阻止在[!DNL Recommendations]活动中更改标准或设计，从而导致“JSON无效：无法识别的属性名称”错误。 (TGT-52375)
+* 修复了序列条件无法在[!DNL Recommendations]活动的[!UICONTROL Visual Experience Composer] (VEC)中正确显示的问题。 (TGT-52435)
+* 修复了在使用[!DNL Adobe Experience Platform Web SDK]时SPA页面上未正确识别视图的问题。 (TGT-52106)
+* 修复了尽管包含在批量操作有效负载中，但设备上决策(ODS)详细信息未正确保存的问题。 (TGT-52406)
+* 向活动添加了`audienceMetadata`字段，使其可在编辑期间读取和更新。 (TGT-51004)
+* 添加了错误消息，以在受众时间范围无效时提醒用户。 (TGT52522)
+* 更新了活动结构以支持不同类型的重复受众。 (TGT-51200)
 
 ## [!DNL Adobe Target] [!DNL AI Assistant]版本（2025年5月16日）
 
@@ -72,7 +98,7 @@ ht-degree: 32%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

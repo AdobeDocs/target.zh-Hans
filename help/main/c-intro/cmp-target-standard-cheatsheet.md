@@ -4,36 +4,36 @@ description: 浏览关于使用 Adobe Target 中各项功能的常见问题的�
 title: 可在何处找到优化和个性化问题的答案？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
+source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
 workflow-type: tm+mt
-source-wordcount: '2678'
-ht-degree: 96%
+source-wordcount: '2623'
+ht-degree: 81%
 
 ---
 
 # Target 优化和个性化常见问题解答
 
-有关使用 Adobe Target 中的功能的常见问题列表，以及更多信息和相关链接。
+有关使用[!DNL Adobe Target]中各项功能的常见问题解答列表，以及更多信息和相关链接。
 
 ## 一般信息 {#section_CE5713B5AAC341C9A75586C107797FA3}
 
-**我可以如何查看其他客户怎样利用 Adobe Target 以获得更好的结果？**
+**如何查看其他客户利用[!DNL Target]获得更好的结果？**
 
 这里是我们的[客户成功案例](https://www.adobe.com/in/marketing-cloud/target/resources.html#x)中的一部分。可以从中了解客户如何利用 Target 改进优化和个性化设置以实现业务目标。
 
 请注意，其中一些案例研究利用了 Adobe Target Premium 的功能。
 
-**我可以在哪里了解最新的 Target 功能？**
+**我可以在何处了解最新的[!DNL Target]功能？**
 
 请参阅我们的[发行说明](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)以查看最新版本的详细信息。我们还在线提供了有关所有[过去版本](/help/main/r-release-notes/release-notes-for-previous-releases.md)的信息。
 
-**Adobe 是否有社区/论坛，以便我可以找到与 Target 有关的答案和更多信息？**
+**[!DNL Adobe]是否有社区/论坛，以便我可以找到关于[!DNL Target]的答案和更多信息？**
 
 您可以来我们的 [ Target 社区论坛](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42)，我们为这里为客户提供帮助，但更重要的是，我们希望 Adobe Target 实际使用者之间可以相互帮助。毕竟，社区和论坛的成功取决于成员的积极参与。成为社区的一员，提出您的问题并寻求相应答案。
 
-**Target 支持哪些浏览器？**
+**[!DNL Target]支持哪些浏览器？**
 
-有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hans){target=_blank}矩阵图。请注意，支持的浏览器分为两个方面：Target Standard/Premium Experience Cloud 界面支持，以及桌面/设备上的最终用户浏览器支持。
+有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩阵图。请注意，支持的浏览器分为两个方面：Target Standard/Premium Experience Cloud 界面支持，以及桌面/设备上的最终用户浏览器支持。
 
 ## 活动 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -99,7 +99,7 @@ ht-degree: 96%
 
 请记住激活该活动。只有实时活动才遵守指定的计划。达到结束日期后，活动会进入“已结束”状态。
 
-**我是否可以仅在“定位”步骤中进行更改，而不是执行整个三步引导式工作流进行编辑？**
+**我是否可以仅对[!UICONTROL Targeting]步骤进行更改，而不是执行整个三步引导式工作流进行编辑？**
 
 [根据需要从活动概述页面直接进入所需步骤](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)，然后使用“保存并关闭”选项退出该步骤即可轻松实现这一点。
 
@@ -111,7 +111,7 @@ ht-degree: 96%
 
 使用我们的[强大的 QA 模式功能](/help/main/c-activities/c-activity-qa/activity-qa.md)来执行 QA。您可以与您的 QA 团队分享链接，还可以对包括报表在内的端到端活动进行测试，以充分确保活动开始后，会按照预期和经过测试的方式运行。
 
-**我如何使用 Target 的决策功能接收可用于单页应用程序 (SPA) 或服务器端集成的体验/产品建议？**
+**如何使用[!DNL Target]的决策功能接收可用于单页应用程序(SPA)或服务器端集成的体验/选件？**
 
 使用包含 [JSON 产品建议](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)的[基于表单的活动](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)的强大功能来实现您的目标。
 
@@ -128,7 +128,7 @@ ht-degree: 96%
 
 ## 受众 {#section_FA6314777ABC46D8B198D6F388051460}
 
-**我是否可以在活动中创建特定于该活动的受众区段？我不认为应在受众库中创建此类受众，因为没有可以重复使用的地方。**
+**我是否可以在活动中创建特定于该活动的受众区段？我不认为应在[!UICONTROL Audience Library]中创建此类受众，因为没有可以重复使用的因素。**
 
 改用我们的[仅限该活动的受众功能](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)来定义活动的本地受众。
 
@@ -150,12 +150,12 @@ ht-degree: 96%
 
 使用 [Target 三步引导式工作流步骤 2（“定位”页面）](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)中提供的百分比分配控件来确定如何设置活动。
 
-**我也有 Adobe Analytics，并希望将其与 Target 结合使用。将这两种解决方案集成之后，我可以获得哪些关键功能？**
+**我也有[!DNL Adobe Analytics]并希望将其与[!DNL Target]一起使用。 将这两种解决方案集成之后，我可以获得哪些关键功能？**
 
 请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 体验 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -164,17 +164,17 @@ ht-degree: 96%
 
 使用[模板规则](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)，将许多结构类似的页面包含到活动中，同时仍通过提供的单个 URL 创建体验。
 
-**我已经厌烦了当我尝试在可视化体验编辑器 (VEC) 中加载我的页面时，一直看到“允许您的浏览器加载脚本”消息。怎样才能让我不再看到这条消息？**
+**我厌烦了当我尝试在[!UICONTROL Visual Experience Composer] (VEC)中加载我的页面时，一直看到“允许您的浏览器加载脚本”消息。 怎样才能让我不再看到这条消息？**
 
 这是因为您的网站具有混合内容，它是一个同时获取HTTP和HTTPS资源的网站。 请让您的 IT 团队将网站内容全部移到 HTTPS。
 
 在此之前，请按照[在浏览器中启用混合内容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的说明操作，以允许浏览器加载混合内容。 这是目前大多数浏览器采用的一种安全功能。
 
-**即使尚未部署 Target at.js 库，是否仍可以在我的网站上尝试使用可视化体验编辑器 (VEC)？**
+**即使尚未部署[!DNL Target] at.js库，是否仍可以在我的网站上尝试[!UICONTROL Visual Experience Composer] (VEC)？**
 
 尝试使用[增强型体验编辑器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)加载页面。
 
-**为什么我的网站没有在可视化体验编辑器 (VEC) 中加载？**
+**为什么我的网站没有在[!UICONTROL Visual Experience Composer] (VEC)中加载？**
 
 尝试使用我们的帮助页面中列出的[故障诊断信息](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)。如果这些方法都不起作用，请联系 [Adobe 支持](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
@@ -186,7 +186,7 @@ ht-degree: 96%
 
 尝试使用[移动设备视区](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)功能。请注意，只有在启用增强型体验编辑器后才能使用该功能。
 
-**我有多个域。其中一个域需要启用增强型体验编辑器，而其他域则需要将其禁用。我该如何处理？**
+**我有多个域。其中一个域需要启用[!UICONTROL Enhanced Experience Composer]，而其他域需要禁用它。 我该如何处理？**
 
 始终可使用[活动级别的增强体验编辑器选项](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)取代默认设置（“管理”>“可视体验编辑器”）。
 
@@ -198,7 +198,7 @@ ht-degree: 96%
 
 您可以使用我们的[多个体验版本功能](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF)轻松实现此目的。请注意此类测试中有关交付的细微差别
 
-**如何查看我在可视化体验编辑器 (VEC) 中所做的修改？**
+**如何查看我在[!UICONTROL Visual Experience Composer] (VEC)中所做的修改？**
 
 [代码编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)中会始终显示您所做的更改。“修改”选项卡会显示您应用于选件的 CSS 选择器或 mbox。
 
@@ -208,13 +208,13 @@ ht-degree: 96%
 
 其中一种方法是使用[自定义代码编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)。使用此方法在该区域输入您的 JavaScript，然后它将会得到交付。根据您的需要，您可以选择将其交付到标头或主体的顶部。
 
-**为什么我在可视化体验编辑器 (VEC) 中无法前往登录页面或我不知道具体 URL 的某个深埋页面？**
+**为什么我无法通过[!UICONTROL Visual Experience Composer] (VEC)中的登录页面，或进入我没有特定URL、深藏在其中的页面？**
 
-使用编辑和浏览功能，导航至所选页面并开始创建您的体验。
+使用[!UICONTROL Compose]和[!UICONTROL Browse]功能导航到所选页面并开始创建您的体验。
 
 ![设计和浏览切换](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
-**我是一名前 Target Classic 用户。我是否可以在某些用例中使用我的 mbox？**
+**我是前[!DNL Target Classic]用户。 我是否可以在某些用例中使用我的 mbox？**
 
 使用[基于表单的方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)来创建活动。
 
@@ -240,19 +240,19 @@ ht-degree: 96%
 
 使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
 
-**我能不能使用 Target 的决策功能接收可用于单页应用程序 (SPA) 或服务器端集成的体验/产品建议？**
+**我能否使用[!UICONTROL Target]的决策功能接收可用于单页应用程序(SPA)或服务器端集成的体验/选件？**
 
 使用包含 [JSON 产品建议](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)的[基于表单的活动](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)的强大功能来实现您的目标。
 
 ## 报表（包括 Analytics for Target—A4T） {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-**我也有 Adobe Analytics，并希望将其与 Target 结合使用。将这两种解决方案集成之后，我可以获得哪些关键功能？**
+**我也有[!DNL Adobe Analytics]并希望将其与[!DNL Target]一起使用。 将这两种解决方案集成之后，我可以获得哪些关键功能？**
 
 请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -261,7 +261,7 @@ ht-degree: 96%
 
 有关信息，请参考三步引导式活动工作流步骤 3 中的“目标和设置”页面上提供的[报表的受众功能](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)。
 
-您可以选择添加 50 个此类区段以及应用程序点（活动条目或特定量度），从而进行有效的细分。
+您可以选择添加50个此类区段以及应用程序点（[!UICONTROL Activity Entry]或特定量度），以便进行有效的细分。
 
 请注意，Target 会在您添加这些受众之后收集这方面的数据，因此如果您在运行测试之前未添加区段，那么很遗憾，您就无法收集这些数据进行细分了。
 
@@ -269,15 +269,15 @@ ht-degree: 96%
 
 **怎样才可以让这个过程更轻松一点？**
 
-这就涉及 [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的方便之处。如果您拥有 Adobe Analytics，只需将来将源选为 Analytics，即可消除此限制。现在，您可以在任何时间对任何受众进行分析，而无需预先定义报表受众。
+这就涉及 [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的方便之处。如果您有[!DNL Adobe Analytics]，只需将源选择为[!DNL Analytics]即可，这将消除此限制。 现在，您可以在任何时间对任何受众进行分析，而无需预先定义报表受众。
 
 **我是否可以执行离线报表计算？**
 
-使用“报表”页面上的[“将报表导出为 CSV”和“将订单详细信息下载到 CSV”选项](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)，即可下载所需的报表数据。
+使用Reports页面上的[将报表导出为CSV和将订单详细信息下载到CSV选项](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)来下载所需的报表数据。
 
-**我是否可以更改用于评估报表的控制体验？或者将计数方法从“访客”更改为“访问次数”？**
+**我可以更改用于评估报表的控制体验，或将计数方法从[!UICONTROL Visitors]更改为[!UICONTROL Visits]吗？**
 
-使用[&#128279;](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮可进行这些更改。阅读更多有关这些设置的信息，了解计算结果的差异。
+使用](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮[可进行这些更改。阅读更多有关这些设置的信息，了解计算结果的差异。
 
 **我应如何解读报表？**
 
@@ -285,22 +285,22 @@ ht-degree: 96%
 
 ## 响应令牌 {#section_C2A7118B4B62482A9D630C2212112A3D}
 
-**我是否可以与第三方系统（如 Google Analytics 或 ClickTale）进行集成，以将提供的活动信息传递给最终用户以供分析？**
+**我是否可以与第三方系统（如[!DNL Google Analytics]或[!DNL ClickTal]e）进行集成，以将提供的活动信息传递给最终用户以供分析？**
 
 我们的[响应令牌功能](/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)也为我们提供了解决方案。
 
 ## 故障排除 {#section_6B8B4DC62AE34066A8C55915E9EC6C19}
 
-**我如何了解 Adobe Target 的可用性状态？**
+**如何知道[!DNL Target]的可用性状态？**
 
-可使用 [Adobe 系统状态页面](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD)查看 Adobe 产品以及包括 Target 在内的 Experience Cloud 解决方案的状态。此页面可帮助您确定您遇到的问题是否因系统更新或日常维护所致。
+使用[Adobe系统状态页面](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD)查看[!DNL Adobe]产品和[!DNL Experience Cloud]解决方案（包括[!DNL Target]）的状态。 此页面可帮助您确定您遇到的问题是否因系统更新或日常维护所致。
 
 **你们是否提供故障诊断指南？**
 
 很抱歉您遇到了问题。查看[Target疑难解答](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)以获取许多疑难解答主题的链接。
 
-## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
+## [!DNL Target] API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **我在哪里可以了解有关 Target API 的更多信息？**
 
-我们提供了关于 API 的详尽文档。请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}。
+我们提供了关于 API 的详尽文档。请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。

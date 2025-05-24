@@ -6,9 +6,9 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 663fa963e7758558d1342044de989bff3a560bc6
+source-git-commit: 53fc39f66ca954c1c9908a12ece6c0beeebed2eb
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1749'
 ht-degree: 20%
 
 ---
@@ -42,7 +42,13 @@ ht-degree: 20%
 有关更新后的UI的更多信息，请参阅以下资源：
 
 * [[!DNL Target Standard/Premium] 25.2.1（2025年2月17日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+
+  为[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)提供[!DNL Target]中关键UI更改的摘要。
+
 * [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+
+  在[!DNL Target]中为[!UICONTROL Offers Library]提供关键UI更改的摘要。
+
 * [了解 [!DNL Target] 用户界面](/help/main/c-intro/understand-the-target-ui.md)
 
   提供简短概述以帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
@@ -53,7 +59,7 @@ ht-degree: 20%
 
 * [[!UICONTROL Visual Experience Composer]选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
-  本文介绍了已更新的UI及其选项。
+  本文介绍了更新的VEC UI及其选项。
 
 ## [!DNL Target Standard/Premium] 25.5.3（2025年5月22日）
 
@@ -134,7 +140,7 @@ ht-degree: 20%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

@@ -6,9 +6,9 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 53fc39f66ca954c1c9908a12ece6c0beeebed2eb
+source-git-commit: 97fd3be049ffb0f9dd27c89288a82695d86d5302
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1744'
 ht-degree: 20%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 20%
 
 从&#x200B;**2025年6月22日**&#x200B;开始，将删除UI版本切换。 所有用户都将永久过渡到新界面，没有恢复到先前版本的选项。
 
-**有关UI版本切换的重要信息**
+### 有关UI版本切换的重要信息
 
 我们提供了一项临时功能，可让您使用切换按钮在更新的[!DNL Target] UI和旧版本之间切换。 此选项仅在UI转出的最后阶段可用。
 
@@ -33,33 +33,23 @@ ht-degree: 20%
 
 转出完成后，切换将被删除，所有用户都将在&#x200B;**2025年6月22日**&#x200B;永久转换为更新后的UI。 Adobe建议提前规划，因为这项功能将很快被淘汰。
 
-**UI切换行为的限制**
+### UI切换行为的限制
 
 * **新活动的可见性**：如果切换回旧版UI，则在更新后的UI中创建的活动将不可见。
 * **编辑现有活动**：使用更新的UI时，对现有活动（最初在旧版UI中创建）所做的更改将发布到您的网站。 但是，如果切换回去，这些更新将不会在旧版UI中显示；只有从旧版UI进行的最后一次更新将显示在该处。
 * **活动详细信息的一致性**：无论您使用哪个UI，最新更改都将反映在您的实时网站上。 但是，旧版UI将仅显示从该版本中进行的最新更改。 如果在更新的UI中编辑的活动与您在旧版UI中看到的不同，则可能会导致混淆。
 
-有关更新后的UI的更多信息，请参阅以下资源：
+### 有关更新的UI的更多信息
 
-* [[!DNL Target Standard/Premium] 25.2.1（2025年2月17日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+* [[!DNL Target Standard/Premium] 25.2.1（2025年2月17日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!DNL Target]中[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)的关键UI更改的摘要。
 
-  为[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)提供[!DNL Target]中关键UI更改的摘要。
+* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!UICONTROL Offers Library]在[!DNL Target]中关键UI更改的摘要。
 
-* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+* [了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供简要概述以帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
 
-  在[!DNL Target]中为[!UICONTROL Offers Library]提供关键UI更改的摘要。
+* [[!UICONTROL Visual Experience Composer]更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)： [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）引入了更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文介绍VEC旧版本与更新版本之间的差异。
 
-* [了解 [!DNL Target] 用户界面](/help/main/c-intro/understand-the-target-ui.md)
-
-  提供简短概述以帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
-
-* [[!UICONTROL Visual Experience Composer]个更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
-
-  [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）引入了更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文介绍VEC旧版本与更新版本之间的差异。
-
-* [[!UICONTROL Visual Experience Composer]选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
-
-  本文介绍了更新的VEC UI及其选项。
+* [[!UICONTROL Visual Experience Composer]选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文介绍更新的VEC UI及其选项。
 
 ## [!DNL Target Standard/Premium] 25.5.3（2025年5月22日）
 
@@ -140,7 +130,7 @@ ht-degree: 20%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

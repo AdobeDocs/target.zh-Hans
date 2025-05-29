@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 97fd3be049ffb0f9dd27c89288a82695d86d5302
+source-git-commit: bc9a0fe1977629a00eebb2f7aafd30263c8b55af
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 20%
+source-wordcount: '2119'
+ht-degree: 18%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 20%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 25.5.4（2025年5月29日）
+
+此版本包含以下修复和更新：
+
+* 修复了阻止在QA模式下添加或编辑URL的问题。 (TGT-51941)
+* 在[!UICONTROL Reports] > [!UICONTROL Report Settings]下添加了QA模式流量设置（ ![报表设置图标](/help/main/assets/icons/Setting.svg) ），以便与旧版[!DNL Target] UI中的功能保持一致。 （TGT-52228 和 TGT-52329）
+* 修复了基于表单的活动生成错误的QA链接的问题。 活动URL/位置在末尾包含一个意外的“1”，为了确保准确关联，现已删除该URL。 （TGT-52355 和 TGT-52358）
+* 修复了基于表单的活动生成错误的QA链接的问题。 活动URL在URL的开头包含意外的`http://pid-ppc`，为了确保准确链接，该URL现已删除。 (TGT-52557)
+* 修复了[!DNL Target]为基于表单的活动生成无效QA链接的问题。 （TGT-52528 和 TGT-52603）
+* 修复了保存修改后的活动似乎已处理但从未完成，并且[!DNL Target]中未显示任何错误消息的问题。 (TGT-52461)
+* 修复了更新的[!UICONTROL Visual Experience Composer] (VEC)无法自动检测`at_property`值的问题。 (TGT-52347)
+* 修复了一个问题，该问题导致在与表单元素交互时，在VEC中的[!UICONTROL Browse]和[!UICONTROL Design]模式之间切换后，预期仅记录一次修改，从而引发两次修改。 (TGT-52455)
+* 修复了由于错误表明选择器无效、已使用或不可见而阻止在更新的VEC中选择[!UICONTROL Clicked an Element]设置的问题。 (TGT-52467)
+* 修复了在更新的VEC中添加[!UICONTROL Recommendation Offer]框导致显示重复（重影）框的问题。 在体验A和B之间切换时反复添加了更多虚框。 （TGT-52505 和 TGT-52519）
+* 修复了在更新的[!DNL Target] UI中，通过[!UICONTROL Offer]菜单对HTML选件所做的更改未反映在关联活动中，反之亦然。 此行为现在与旧版UI匹配，在该旧版UI中，更新在[!UICONTROL Offer]菜单和活动之间正确同步。 （TGT-52540 和 TGT-52541）
+* 修复了在活动中尝试使用[!UICONTROL Offers Library]中的[!UICONTROL Experience Fragments]最近更新时，未反映它们的问题。 (TGT-52659)
+* 修复了确认消息的简体中文翻译中的本地化问题。 以前的版本在位置名称周围缺少引号，并且使用非正式语言，这与客户的风格指南相反。 更新后的翻译现在使用正确的标点符号和正式语调。 (TGT-52364)
 
 ## 弃用Target UI版本切换（2025年5月23日） {#toggle}
 
@@ -130,7 +148,7 @@ ht-degree: 20%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

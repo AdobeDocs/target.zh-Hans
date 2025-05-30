@@ -4,7 +4,7 @@ description: 了解如何使用 [!DNL AI Assistant]获得 [!DNL Target] 产品�
 title: 如何使用 [!DNL Target] 中的 [!DNL AI Assistant] 获取产品知识？
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
+source-git-commit: 3e2682acdf8c7be86285c901ddcdae0f43b647f2
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 6%
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 要访问[!DNL AI Assistant]以了解产品知识，请执行以下操作：
 
-1. 确保您已在 [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)的启用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先决任务。
+1. 确保您已在 [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)的[启用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先决任务。
 
    * 贵组织必须首先同意法律条款。 有关更多信息，请与您的Adobe客户团队联系。
    * 您的管理员必须授予您访问[!DNL AI Assistant]的足够权限。
@@ -66,10 +66,10 @@ ht-degree: 6%
 
 了解来自[!DNL AI Assistant]的[!DNL Adobe Experience Platform]应用程序。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441034/?learn=on&#x26;enablevpops&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### 验证来自AI Assistant的响应
 
 了解如何验证和验证[!DNL Adobe Experience Platform]中的[!DNL AI Assistant]提供的响应。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441749/?learn=on&#x26;enablevpops&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

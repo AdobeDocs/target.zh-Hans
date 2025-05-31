@@ -55,8 +55,8 @@ UI旨在清晰而高效，帮助您充分利用[!DNL Target]。 浏览各种资�
 
 除本指南外，还提供了以下 [!DNL Adobe Target] 指南：
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview){target=_blank}
-- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/overview){target=_blank}
+- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/overview){target=_blank}
+- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/zh-hans/docs/target-learn/tutorials/overview){target=_blank}
 
 >[!ENDTABS]
 

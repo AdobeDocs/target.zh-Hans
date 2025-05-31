@@ -4,10 +4,10 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: f624da04eb62b40989237c92f5bc88530603bd10
+source-git-commit: b98c38e4730e725041bed8636c03f9a4f6b32385
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 31%
+source-wordcount: '625'
+ht-degree: 29%
 
 ---
 
@@ -51,12 +51,13 @@ UI旨在清晰而高效，帮助您充分利用[!DNL Target]。 浏览各种资�
 
 [![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/c-intro/ai-assistant.md)
 
->[!TAB Target文档]
+>[!TAB 目标资源]
 
-除本指南外，还提供了以下 [!DNL Adobe Target] 指南：
+**全面[!DNL Target]资源**
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/overview){target=_blank}
-- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/zh-hans/docs/target-learn/tutorials/overview){target=_blank}
+多种格式的[!DNL Target]文档 — 分步UI指南、开发人员资源（包括SDK和API）、教程、视频、网络研讨会和生气勃勃的社区论坛。
+
+[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/target-documentation.md)
 
 >[!ENDTABS]
 

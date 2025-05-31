@@ -4,14 +4,14 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b98c38e4730e725041bed8636c03f9a4f6b32385
+source-git-commit: f448b619a5b59de6f14909dd2705b2dcf9ab093f
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 29%
+source-wordcount: '622'
+ht-degree: 28%
 
 ---
 
-# Adobe Target 从业者指南
+# [!DNL Adobe Target]商业从业者指南
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
@@ -19,11 +19,11 @@ ht-degree: 29%
 
 >[!BEGINTABS]
 
->[!TAB 重要]
+>[!TAB 重要信息]
 
-**已更新的Target UI现在已完全转出**
+**[!DNL Target]UI版本切换弃用**
 
-自2025年5月27日起，所有客户均有权访问新的[!DNL Target] UI。 从2025年6月22日开始，UI切换将被删除，所有用户都将永久过渡到更新的UI，并且没有还原选项。
+自2025年5月27日起，所有客户均有权访问新的[!DNL Target] UI。 从2025年6月22日开始，UI切换将被删除，所有用户将永久过渡到更新的UI，并且没有还原的选项。
 
 [![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#toggle)
 

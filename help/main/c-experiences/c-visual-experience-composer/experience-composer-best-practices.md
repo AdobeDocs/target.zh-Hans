@@ -4,10 +4,10 @@ description: 了解最佳实践，以使您的体验在使用[!UICONTROL Visual 
 title: '[!UICONTROL Visual Experience Composer]最佳实践和限制是什么？'
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 85%
+source-wordcount: '2512'
+ht-degree: 81%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 85%
 
 加载增强型可视化体验编辑器时出现的问题可以通过列入允许列表以下IP地址来解决。 用作增强型体验编辑器代理的 Adobe 服务器使用这些 IP 地址。仅在编辑活动时才需要这些地址。您网站的访客不需要列入允许列表这些IP地址。
 
-美国：52.55.99.45、54.80.158.92 和 54.204.197.253
+美国： 52.55.99.45、54.80.158.92和54.204.197.253
 
-欧洲、中东和非洲 (EMEA)：52.51.238.221、52.210.199.44 和 54.72.56.50
+欧洲、中东和非洲(EMEA)： 52.51.238.221、52.210.199.44和54.72.56.50
 
-亚太地区 (APAC)：52.193.67.35、54.199.198.109 和 54.199.241.57
+亚太(APAC)： 52.193.67.35、54.199.198.109和54.199.241.57
 
 ### 对于最上层元素，以及其他任何可能是测试/定位较好候选者的元素，为其使用唯一 ID。
 
@@ -193,7 +193,7 @@ VEC使用更新链接的代理服务器在后台操作网站。 如果添加基�
 
 ### 在作为mbox的`<div>`中可能无法正常插入元素。
 
-如果 mbox 包含选件，则在未正确实施 mbox 时，插入元素操作可能会显示为 insertBefore 而不是 insertAfter。
+如果 mbox 包含产品建议，则在未正确实施 mbox 时，插入元素操作可能会显示为 insertBefore 而不是 insertAfter。
 
 ### 既要编辑父元素、也要编辑子元素时，请先编辑父元素。
 
@@ -224,6 +224,18 @@ VEC使用更新链接的代理服务器在后台操作网站。 如果添加基�
 ## 限制 {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
 使用VEC时，请考虑以下限制：
+
+### 处理与Chrome扩展策略更改的VEC兼容性。
+
+由于Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新了[V3清单策略，在浏览器分析原始DOM之前，扩展无法再对其进行修改。 因此，某些安全脚本（例如iframe-busting实施）可能会阻止页面在VEC中加载。
+
+为确保兼容性，当页面加载到[!DNL Target] iframe中时，应有条件地禁用这些脚本。 通过检查`window.adobeVecExtension`对象的存在可以安全地完成此过程，该对象在VEC加载期间由[!DNL Target]注入。
+
+以下代码片段是iframe-busting代码的示例，此类代码可能会导致VEC中无法加载网页：
+
+`window.top.location = window.self.location;`
+
+`top.location.href = self.location.href;`
 
 ### 无法将元素移到后跟CSS属性的容器之外。
 

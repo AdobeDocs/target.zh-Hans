@@ -4,10 +4,10 @@ description: 了解最佳实践，以使您的体验在使用[!UICONTROL Visual 
 title: '[!UICONTROL Visual Experience Composer]最佳实践和限制是什么？'
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 7577a4da162c94b78cceb8618eefa95cde426081
+source-git-commit: d94dad7795ef024feb19234c2a20423b074ea768
 workflow-type: tm+mt
-source-wordcount: '2512'
-ht-degree: 81%
+source-wordcount: '2534'
+ht-degree: 80%
 
 ---
 
@@ -227,7 +227,7 @@ VEC使用更新链接的代理服务器在后台操作网站。 如果添加基�
 
 ### 处理与Chrome扩展策略更改的VEC兼容性。 {#ext}
 
-由于Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新了V3清单策略，在浏览器分析原始DOM之前，扩展无法再对其进行修改。 因此，某些安全脚本（例如iframe-busting实施）可能会阻止页面在VEC中加载。
+由于Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}中更新了[V3清单策略，在浏览器分析原始DOM之前，扩展无法再对其进行修改。 因此，某些安全脚本（例如iframe-busting实施）可能会阻止页面在VEC中加载。
 
 为确保兼容性，当页面加载到[!DNL Target] iframe中时，应有条件地禁用这些脚本。 通过检查`window.adobeVecExtension`对象的存在可以安全地完成此过程，该对象在VEC加载期间由[!DNL Target]注入。
 
@@ -236,6 +236,14 @@ VEC使用更新链接的代理服务器在后台操作网站。 如果添加基�
 `window.top.location = window.self.location;`
 
 `top.location.href = self.location.href;`
+
+当网页嵌入到[!DNL Target]中时，可以使用简单检查进行验证。 代码片段应如下所示：
+
+```
+if(!window.adobeVecExtension) {
+    // additional security logic
+}
+```
 
 ### 无法将元素移到后跟CSS属性的容器之外。
 

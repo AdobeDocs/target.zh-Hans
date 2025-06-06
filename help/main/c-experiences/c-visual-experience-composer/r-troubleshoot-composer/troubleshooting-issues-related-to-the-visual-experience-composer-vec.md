@@ -148,7 +148,7 @@ ht-degree: 23%
 ## 当我使用[!UICONTROL Browse]模式时，VEC显示为已损坏。 （仅 VEC） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++详细信息
-使用[!UICONTROL Browse]模式时，如果您访问的URL未实现[!DNL Target]库([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank})或包含frame-buster标头，则VEC显示为已损坏。 由于浏览器安全问题，[!DNL Target]无法正确访问您导航到的URL，或者如果页面加载，VEC URL不会一致更新。
+使用[!UICONTROL Browse]模式时，如果您访问的URL未实现[!DNL Target]库([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=zh-Hans){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank})或包含frame-buster标头，则VEC显示为已损坏。 由于浏览器安全问题，[!DNL Target]无法正确访问您导航到的URL，或者如果页面加载，VEC URL不会一致更新。
 
 出现此问题的原因是VEC在`<iframe>`中加载了网页。 由于相同源策略，浏览器的当前安全机制阻止[!DNL Target] UI访问给定帧的元素。 浏览器阻止脚本尝试访问具有不同来源且包含`location.href`等信息的帧。
 

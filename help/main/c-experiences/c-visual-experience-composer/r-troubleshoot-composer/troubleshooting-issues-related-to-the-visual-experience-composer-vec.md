@@ -4,10 +4,10 @@ description: 了解如何解决[!UICONTROL Visual Experience Composer] (VEC)中�
 title: 如何解决与[!UICONTROL Visual Experience Composer]相关的问题？
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 7c0d0154b81fbd3f89a82b31cd18541a7f0ea1a7
+source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 24%
+source-wordcount: '1009'
+ht-degree: 23%
 
 ---
 
@@ -17,14 +17,18 @@ ht-degree: 24%
 
 ## 当我在[!UICONTROL Visual Experience Composer]中打开我的网站时，[!DNL Target]库未加载。 （仅 VEC） {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
++++详细信息
 在[!UICONTROL Visual Experience Composer]中打开网站时，[!DNL Target]添加两个参数（`mboxEdit=1`和`mboxDisable=1`）。
 
 如果您的网站（特别是单页应用程序）裁切参数，或者在从一个页面导航到另一个页面（不重新加载页面）时将参数实际删除，[!DNL Target]功能会中断并且[!DNL Target]库不会加载。
 
 为避免出现此问题，请确保不要裁切掉或删除这两个参数。
 
++++
+
 ## 我的页面无法在 EEC 中打开，或者加载速度缓慢。活动或体验在 VEC 中的加载速度缓慢。（仅 VEC） {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
++++详细信息
 多个问题可能会影响[!UICONTROL Target]体验编辑器中的页面性能。 一些常见的问题包括：
 
 * 您的页面上没有 mbox。
@@ -44,7 +48,6 @@ ht-degree: 24%
 >[!NOTE]
 >
 >除了以下信息外，您还可以为[!DNL Google Chrome]使用[[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
-
 
 >[!NOTE]
 >
@@ -105,19 +108,22 @@ ht-degree: 24%
 
 设置扩展后，打开[!DNL Target]。 您的页面现在应在[!UICONTROL Visual Experience Composer]中加载，即使[!UICONTROL Enhanced Experience Composer]被禁用也是如此。
 
++++
+
 ## VEC 中不显示我的页面（仅 VEC） {#does-not-load}
 
++++详细信息
 * 最新版本的扩展确保与VEC的最佳兼容性： [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper extension]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
 
   要验证您是否使用最新版本，请转到[!UICONTROL Extensions] > [!UICONTROL Manage Extensions]，然后单击[!UICONTROL Details]。
 
 * [!UICONTROL Visual Experience Composer]需要创作库才能对网页执行修改。 这些库嵌入在at.js库中，并在每次使用VEC时由扩展从[!DNL Adobe]服务器下载。
 
-  无论at.js或[!DNL Adobe Experience Platform Web SDK]是否已包含在页面中，扩展都会下载at.js库。
+  无论at.js或[!DNL Adobe Experience Platform Web SDK]是否已包含在页面中，该扩展都会下载at.js库。
 
   确保没有向[!UICONTROL Administration] > [!UICONTROL Implementation]部分中配置的at.js标头添加无效的更改。
 
-* 确保网页未阻止在嵌入到iFrame中时加载的必需请求。 这包括使用frame-ancestors CSP指令或嵌入到客户网站中的自定义JS代码、metaHTML标记或x-frame-options标头。
+* 确保网页未阻止在嵌入到iFrame中时加载的必需请求。 这包括使用frame-ancestors CSP指令或嵌入到客户网站中的自定义JS代码、meta HTML标记或x-frame-options标头。
 
 * 确保网页的Javascript不会干扰创作库。 请勿使用或包含使用以下保留名称的文件：
 
@@ -137,14 +143,22 @@ ht-degree: 24%
 * 您输入了无效的 URL。
 * 如果您的网站无法在VEC中加载或行为异常，则可能的修复方法是：在尝试在[!DNL Target]中加载网站之前，在浏览器中接受您网站上的Cookie。
 
-## 使用浏览模式时，VEC 显示已损坏。（仅 VEC） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
++++
 
-在使用浏览模式时，如果您访问的URL未实现[!DNL Target]库([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=zh-Hans){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank})，或者包含帧阻止标头，则VEC显示为已损坏。 由于浏览器安全问题，[!DNL Target]无法正确访问您导航到的URL，或者如果页面加载，VEC URL不会一致更新。
+## 当我使用[!UICONTROL Browse]模式时，VEC显示为已损坏。 （仅 VEC） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+
++++详细信息
+使用[!UICONTROL Browse]模式时，如果您访问的URL未实现[!DNL Target]库([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank})或包含frame-buster标头，则VEC显示为已损坏。 由于浏览器安全问题，[!DNL Target]无法正确访问您导航到的URL，或者如果页面加载，VEC URL不会一致更新。
 
 出现此问题的原因是VEC在`<iframe>`中加载了网页。 由于相同源策略，浏览器的当前安全机制阻止[!DNL Target] UI访问给定帧的元素。 浏览器阻止脚本尝试访问具有不同来源且包含`location.href`等信息的帧。
 
-您必须使用新的[Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)（推荐）或[旧扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)将[!DNL Target]库插入到页面中，才能以最佳方式浏览页面。
+您必须使用新的[Visual Editing Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)将[!DNL Target]库插入到页面中，才能以最佳方式浏览页面。
+
++++
 
 ## [!UICONTROL Visual Experience Composer]中的CSS冲突导致的问题
 
++++详细信息
 验证在编辑器中加载网页时是否有任何可能影响可见性的CSS文件。 例如，在页面正文中使用`overflow: hidden`属性可能会导致滚动问题或触发点击事件，这些事件可能会干扰创作菜单。
+
++++

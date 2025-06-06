@@ -1,13 +1,13 @@
 ---
 keywords: 定位;EEC;可视化体验编辑器;增强型体验编辑器故障诊断;故障诊断
-description: 了解如何解决在某些情况下，Adobe [!DNL Target] 增强型体验编辑器(EEC)中有时出现的问题。
-title: 如何解决与增强型体验编辑器相关的问题？
+description: 了解如何解决在某些情况下 [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC)中有时出现的问题。
+title: 如何解决与[!UICONTROL Enhanced Experience Composer]相关的问题？
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 04f8e22361b1e961a88d3e9d28ccfd600fae0218
+source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 23%
+source-wordcount: '442'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,9 @@ ht-degree: 23%
 
 ## EEC无法加载在公共IP上不可访问的内部QA URL。 {#section_D29E96911D5C401889B5EACE267F13CF}
 
-这可以通过列入允许列表以下IP地址来解决。 这些IP地址用于Adobe服务器，用于EEC代理。 仅在编辑活动时才需要这些地址。您网站的访客不需要列入允许列表这些IP地址。
+
++++详细信息
+这个问题可以通过列入允许列表以下IP地址来解决。 这些IP地址用于用于EEC代理的[!DNL Adobe]服务器。 仅活动编辑需要这些IP地址。 您网站的访客不需要列入允许列表这些IP地址。
 
 要求您的IT团队允许列表以下IP地址：
 
@@ -135,13 +137,16 @@ ht-degree: 23%
 
   **补救措施：**&#x200B;允许列表上面列出的IP地址。
 
-* 列入允许列表 **问题：** IP地址已，但您的网站不支持TLS版本1.2。[!DNL Target]当前使用默认配置1.2。在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。有关详细信息，请参阅[TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hans){target=_blank}。
+* 列入允许列表 **问题：** IP地址已，但您的网站不支持TLS版本1.2。[!DNL Target]当前使用默认配置1.2。在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。有关详细信息，请参阅[TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}。
 
   **解决方案：**&#x200B;请参阅以下问题（[!UICONTROL Enhanced Visual Experience Composer]将不会在我的网站上使用TLS 1.2的安全页面上加载）。
 
++++
+
 ## EEC 无法加载使用 TLS 1.0 的网站上的安全页面。（仅 EEC） {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-您可能会看到上文“我的网站的安全页面上不会加载[!UICONTROL Enhanced Visual Experience Composer]”中所述的错误消息。 如果上述IP地址已列入允许列表，但您的网站不支持TLS版本1.2。[!DNL Target]当前使用默认配置1.2。在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。有关详细信息，请参阅[TLS （传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hans){target=_blank}。
++++详细信息
+您可能会看到上文“我的网站的安全页面上不会加载[!UICONTROL Enhanced Visual Experience Composer]”中所述的错误消息。 如果上述IP地址已列入允许列表，但您的网站不支持TLS版本1.2。[!DNL Target]当前使用默认配置1.2。在[!DNL Target] 18.4.1（2018年4月25日）之前，默认配置支持TLS 1.0。有关详细信息，请参阅[TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}。
 
 要使用 Firefox 检查您网站上的 TLS 版本（使用其他浏览器的步骤相似），请执行以下操作：
 
@@ -158,8 +163,13 @@ ht-degree: 23%
 
    ![firefox_more_info_3图像](assets/firefox_more_info_3.png)
 
-1. 如果您发现网站显示的是TLS 1.0，请参阅[TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=zh-Hans){target=_blank}以了解有关Target的TLS支持策略的信息。 若要补救当前情况（有效期至2018年9月12日）{target=_blank}，请联系[客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以获取TLS版本和域的配置。
+1. 如果您发现您的网站显示的是TLS 1.0，请参阅[TLS（传输层安全性）加密更改](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}以了解有关Target的TLS支持策略的信息。 若要补救当前情况（有效期至2018年9月12日）{target=_blank}，请联系[客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以获取TLS版本和域的配置。
+
++++
 
 ## 加载启用了代理的网站时，我遇到超时或“拒绝访问”错误。（仅 EEC） {#section_60CBB9022DC449F593606C0E6252302D}
 
-请确保代理 IP 在您的环境中未被阻止。
++++详细信息
+请确保代理IP在您的环境中未被阻止。
+
++++

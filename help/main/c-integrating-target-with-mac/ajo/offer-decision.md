@@ -1,17 +1,17 @@
 ---
-keywords: 可视化体验编辑器选项；体验编辑器选项；体验选项；offer decisioning决策；AJO；Journey Optimizer
+keywords: 可视化体验编辑器选项；体验编辑器选项；体验选项；优惠决策；offer decisioning；ajo；journey optimizer
 description: 了解如何将在 [!DNL Adobe Journey Optimizer] 中创建的优惠决策添加到活动中。
 title: 如何使用优惠决策？
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: d31c9a6f47ea73342cfb638600f351ade4be7013
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
 
-# 使用选件决策
+# 使用产品建议决策
 
 将[!DNL Adobe Target]与[!DNL Adobe Journey Optimizer]优惠决策结合使用，以确定下次如何为网页版和移动版访问者提供最佳优惠。
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 有关[!DNL Adobe Journey Optimizer]和优惠决策的详细信息，请参阅&#x200B;*[!DNL Journey Optimizer]*&#x200B;文档中的以下主题：
 
-* [开始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=zh-Hans)
+* [开始使用Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
 * [关于决策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans)
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 要在[!DNL Target]中使用优惠决策，您需要以下各项：
 
-* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}实现的[!DNL Adobe Target Standard]或[!DNL Adobe Target Premium]。
+* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}实现的[!DNL Adobe Target Standard]或[!DNL Adobe Target Premium]。
 
   在使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时，该功能不可用。
 
-* [!DNL Adobe Journey Optimizer Ultimate] (AJO +Offer decisioning)或[!DNL Adobe Experience Platform]和[!UICONTROL Offer Decisioning]应用程序服务加载项。
+* [!DNL Adobe Journey Optimizer Ultimate] (AJO + Offer Decisioning)或[!DNL Adobe Experience Platform]以及[!UICONTROL Offer Decisioning]应用程序服务加载项。
 
 ## 示例用例
 
@@ -64,29 +64,27 @@ ht-degree: 0%
    >
    >您还可以在[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)中创建使用[!UICONTROL Offer Decisions]的体验。
 
-1. 单击&#x200B;**[!UICONTROL Insert Before]**、**[!UICONTROL Insert After]**&#x200B;或&#x200B;**[!UICONTROL Replace Content]**，然后单击&#x200B;**[!UICONTROL Offer Decision]**。
+1. 单击&#x200B;**[!UICONTROL Replace Content]**，然后单击&#x200B;**[!UICONTROL Offer Decision]**。
 
    [!UICONTROL Offer Decision]选项仅在编辑或创建[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。 菜单中的可用选项因所选元素而异。
 
    可视化体验编辑器中的![选项菜单](assets/options-menu.png)
 
-1. 在&#x200B;**[!UICONTROL Add Offer Decision]**&#x200B;对话框中，选择所需的沙盒和位置。
+1. 在VEC右侧的&#x200B;**[!UICONTROL Add Offer Decision]**&#x200B;边栏中，选择所需的沙盒，然后单击选择优惠决策位置。
 
-   [!DNL Adobe Experience Platform]中的[沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=zh-Hans){target=_blank}允许您将实例分区到虚拟环境中。 例如，您可能有一个生产环境和一个暂存环境。 [!DNL Adobe Journey Optimizer]中的[投放位置](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=zh-Hans){target=_blank}有助于确保在正确的位置显示正确的选件内容。
+   [!DNL Adobe Experience Platform]中的[沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank}允许您将实例分区到虚拟环境中。 例如，您可能有一个生产环境和一个暂存环境。 [!DNL Adobe Journey Optimizer]中的[版面](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank}有助于确保在正确的位置显示正确的选件内容。
 
    ![添加优惠决策对话框中的沙盒和投放位置下拉列表](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
-1. 选择所需的优惠决策，然后单击&#x200B;**[!UICONTROL Create]**。
+1. 选择所需的优惠版面和优惠决策，然后单击&#x200B;**[!UICONTROL Add]**。
 
-   ![在“添加优惠决策”对话框中选择的优惠决策](assets/offer-decision.png)
+   ![选择优惠决策对话框](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
-   您的网站将显示在VEC中，您可以在右侧的[!UICONTROL Modifications]窗格中看到新创建的优惠决策。 您可以将鼠标悬停在修改上并单击[!UICONTROL Preview]图标来检查优惠决策。
+   您的网站显示在VEC中，您可以在其中的[!UICONTROL Modifications]边栏中看到新创建的优惠决策。 您可以单击[!UICONTROL Offer Decision]边栏底部[!UICONTROL Offer Preview]下的优惠以查看优惠决策。
 
-   ![“预览”图标](assets/preview-icon.png)
+   <!--You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.-->
 
-   您可以通过单击[!UICONTROL Offer Preview]对话框底部的相应图标（包括备用选件）来检查选件中包含的各种选件。 后备优惠是当访客不符合收藏集中的任何个性化优惠资格时显示的默认优惠。
-
-   ![优惠预览](assets/offer-preview.png)
+   ![优惠预览](assets/offer-preview2.png)
 
 1. 完成三步引导式工作流的[!UICONTROL Targeting]和[!UICONTROL Goals & Settings]步骤以完成创建活动。
 
@@ -94,13 +92,11 @@ ht-degree: 0%
    >
    >要确保[!DNL Target]活动个性化，请确保当前活动的开始/结束日期与[!DNL Adobe Journey Optimizer]中优惠决策的开始/结束日期一致。 如果[!DNL Target]开始/结束日期在优惠决策的开始/结束日期范围之外，则会向访客显示默认[!DNL Target]内容。
 
-   ![优惠决策警告消息](/help/main/c-integrating-target-with-mac/ajo/assets/offer-decision-warning.png)
-
 ## 注释和限制
 
 处理优惠决策时，请考虑以下信息：
 
-* offer decisioning集成适用于基于[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}的[!DNL Target]实现。 在使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时，此功能不可用。
+* offer decisioning集成适用于基于[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}的[!DNL Target]实施。 在使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时，此功能不可用。
 
 * [!DNL Target]/[!DNL Adobe Journey Optimizer]集成仅支持[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)和[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动。 此功能不适用于其他活动类型。
 

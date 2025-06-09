@@ -170,7 +170,7 @@ ht-degree: 27%
 
 以下视频向您说明如何设置和使用[!UICONTROL Experience Fragments]：
 
->[!VIDEO](https://video.tv.adobe.com/v/22383)
+>[!VIDEO](https://video.tv.adobe.com/v/38075?captions=chi_hans)
 
 >[!NOTE]
 >

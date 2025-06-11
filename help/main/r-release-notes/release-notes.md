@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: 65ac352a1de7ad532f8c39781054fb09fa62c0fa
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 28%
+source-wordcount: '1125'
+ht-degree: 27%
 
 ---
 
@@ -50,6 +50,10 @@ ht-degree: 28%
 
 从&#x200B;**2025年6月22日**&#x200B;开始，将删除UI版本切换。 所有用户都将永久过渡到新界面，没有恢复到先前版本的选项。
 
+>[!NOTE]
+>
+>具有特殊情况且在6月22日后需要保留切换的客户可以联系Adobe客户关怀部门寻求帮助。
+
 ### 有关UI版本切换的重要信息
 
 我们提供了一项临时功能，可让您使用切换按钮在更新的[!DNL Target] UI和旧版本之间切换。 此选项仅在UI转出的最后阶段可用。
@@ -81,7 +85,7 @@ ht-degree: 28%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

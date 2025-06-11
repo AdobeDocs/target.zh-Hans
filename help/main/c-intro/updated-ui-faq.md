@@ -5,9 +5,9 @@ title: 可在何处找到有关更新的 [!DNL Target] UI的常见问题解答�
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: b43d852a077bad7dfcc6ab39b7865bd20d77d539
+source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,11 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 
 使用UI版本切换存在几个限制，包括新活动的可见性、现有活动的编辑以及活动详细信息的一致性。
 
+>[!NOTE]
+>
+>具有特殊情况且在6月22日后需要保留切换的客户可以联系Adobe客户关怀部门寻求帮助。
+
+
 有关详细信息，请参阅&#x200B;*以前版本的发行说明*&#x200B;中的[Target UI版本切换弃用（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)。
 
 ++++
@@ -85,21 +90,23 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 ## 在旧版中创建选件与更新的UI之间有何区别？ 是否需要其他属性？
 
 +++详细信息
-穆蒂，需要帮助。
+[!UICONTROL Offer Library] UI要求所有选件具有一致的属性定义。 创建仅限该活动（临时）的选件时，用户还必须指定选件名称。 此信息显示在[!UICONTROL Form-based Experience Composer]中，这样无需查看代码或内容即可更轻松地识别选件。
 
 +++
 
 ## 更新后的UI中的优惠预览链接发生了什么情况？
 
 +++详细信息
-穆蒂，需要帮助。
+[!UICONTROL Experience Fragment]预览链接在[!UICONTROL Quick Info]弹出框中可用，单击与所选片段对应的信息图标（ ![信息图标](/help/main/assets/icons/InfoOutline.svg)）时显示。
 
 +++
 
 ## 使用更新的UI编辑现有活动时，必须禁用[!UICONTROL Enhanced Experience Composer]。 [!DNL Adobe]是否观察到与其他客户类似的行为？
 
 +++详细信息
-穆蒂，需要帮助。
+是的。 使用[!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension]时，您可能需要禁用[!UICONTROL Enhanced Experience Composer] (EEC) 。
+
+有关更多信息，请参阅[可视化编辑帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
 
 +++
 
@@ -113,7 +120,7 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 
 +++
 
-## 我们遇到了Browse无法使用或不允许我们浏览的问题。 [!DNL Adobe]是否观察到与其他客户类似的行为？
+## 我们遇到了[!UICONTROL Browse]无法正常工作或不允许我们浏览的问题。 [!DNL Adobe]是否观察到与其他客户类似的行为？
 
 +++详细信息
 穆蒂，需要帮助。
@@ -123,7 +130,9 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 ## 默认情况下，环境会在新的推荐UI上重置为暂存环境吗？
 
 +++详细信息
-穆蒂，需要帮助。
+环境现在默认为客户使用的最后一个环境。 要切换环境，请使用[!UICONTROL Catalog Search] UI右上角的[!UICONTROL Environment]选择器。
+
+![环境开关](/help/main/c-intro/assets/environmnent.png)
 
 +++
 

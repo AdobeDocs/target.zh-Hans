@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: 1d72a708ce68d34a603f750010caa4eb68290f7a
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 26%
+source-wordcount: '1701'
+ht-degree: 21%
 
 ---
 
@@ -18,6 +18,38 @@ ht-degree: 26%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 25.6.2（2025年6月12日）
+
+此版本包含以下修复和更新：
+
+* 添加了[篇新的常见问题解答文章](/help/main/c-intro/updated-ui-faq.md)，以解决有关已更新的[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常见问题。
+* 修复了[!UICONTROL Page Delivery]中的“[!UICONTROL URL - does not contain]”规则无法正常工作的问题，即使应该阻止该规则，仍允许显示内容。 (TGT-52754)
+* 修复了[!UICONTROL Page Delivery]错误显示错误消息“不允许存在重复的页面URL”的问题。 (TGT-52765)
+* 修复了包含体验片段的[!UICONTROL Page Delivery] URL的受众创建时错误地附加了#的问题。 (TGT-52786)
+* 修复了复制活动和编辑[!UICONTROL Goals and Settings]页面上的设置导致[!DNL Target] UI无响应的问题。 (TGT-52797)
+* 修复了更新的[!UICONTROL Visual Experience Composer] (VEC)中错误允许将[!UICONTROL A/B Test]活动中的其他页面重定向到同一URL的问题。 (TGT-51838)
+* 修复了在编辑活动时未保存[!UICONTROL Goals and Settings]页面上量度更改的问题。 (TGT-52799)
+* 修复了在Web编辑器仍在加载时添加新体验导致新体验与以前的体验重复内容的问题。 (TGT-51397)
+* 已恢复在`<head>`标记之外使用自定义代码的功能，该功能以前在旧版Target UI中可用。 （TGT-52304 和 TGT-52300）
+* 删除了在活动创建期间选择默认工作区时不必要的验证。 强制属性验证不再适用于默认工作区，但适用于非默认工作区。 (TGT-52449)
+* 修复了更新的[!UICONTROL Visual Experience Composer] (VEC)中未检测到`triggerView()`调用的问题。 (TGT-52575)
+* 修复了更新的[!UICONTROL Visual Experience Composer] (VEC)中阻止用户向[!UICONTROL Single Page Application] (SPA)视图添加修改的问题。 (TGT-52556)
+* 修复了更新的[!DNL Target] UI中阻止客户查看优惠详细信息的问题。 (TGT-52607)
+* 修复了对[!UICONTROL Offers Library]中的优惠所做的更新未反映在更新的[!UICONTROL Visual Experience Composer] (VEC)中的问题。 (TGT-52637)
+* 修复了在创建活动时导致“优惠”部分无法正确显示的问题。 (TGT-52773)
+* 添加了验证，以确保`optionGroups`中引用的所有`optionLocalIds`都存在于选项数组中。 创建活动期间会自动删除无效引用。 (TGT-52687)
+* 修复了在添加新选件后未保留报表组和排除项的问题。 (TGT-52728)
+* 修复了没有[!UICONTROL Activity QA]按钮的活动显示空选项选择器的问题。 (TGT-52733)
+* 修复了QA链接无法正确呈现内容的问题。 (TGT-52718)
+* 修复了将元素替换为体验片段时无法正确反映QA环境中更改的问题。 (TGT-52762)
+* 修复了更新[!UICONTROL Visual Experience Composer] (VEC)中的一个问题，该问题在用户尝试添加体验片段时导致“输入无效”错误。 (TGT-52701)
+* 修复了在更新的[!UICONTROL Visual Experience Composer] (VEC)中编辑受众定位时，“编辑受众”模式显示为空的问题。 (TGT-52749)
+* 添加了消息，以在所选工作区中无法访问实体时通知用户。 (TGT-52767)
+* 修复了UI无法允许将环境ID手动分配给标准的问题。 而是默认为[!UICONTROL Product Catalog Search]主机组的ID。 此修复确保标准更改现在可以应用于所有环境，而不仅仅是默认环境。 (TGT-52817)
+* 修复了包含推荐的[!UICONTROL Experience Targeting] (XT)活动缺少“[!UICONTROL Download Recommendations data]”选项的问题。 （TGT-52730 和 TGT-52756）
+
+
 
 ## [!DNL Target Standard/Premium] 25.6.1（2025年6月6日）
 
@@ -87,7 +119,7 @@ ht-degree: 26%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

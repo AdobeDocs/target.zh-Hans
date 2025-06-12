@@ -3,9 +3,7 @@ keywords: target用户界面；用户界面；ui；常见问题解答；faq
 description: 有关更新的 [!DNL Target]t用户界面的问答。
 title: 可在何处找到有关更新的 [!DNL Target] UI的常见问题解答？
 feature: Overview
-hide: true
-hidefromtoc: true
-source-git-commit: 83a649b01adfe503af2bf38c0b47844ee00ecb37
+source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 0%

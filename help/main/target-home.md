@@ -4,10 +4,10 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 28%
+source-wordcount: '659'
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 28%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2025年6月6日（[查看更改内容](r-release-notes/doc-change.md) ）**
+**上次更新时间：2025年6月12日（[查看更改内容](r-release-notes/doc-change.md) ）**
 
 >[!BEGINTABS]
 
@@ -29,11 +29,11 @@ ht-degree: 28%
 
 >[!TAB 新增功能]
 
-**[!DNL Target]25.6.1已上线！**
+**[!DNL Target]UI更新常见问题解答**
 
-发布于2025年6月6日的此更新带来了新的UI改进和关键文档增强。 深入了解并探索新增功能！
+发布于2025年6月6日的此更新带来了新的UI改进和关键文档增强。 此常见问题解答解决了有关新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常见问题，包括导航更改、功能位置以及弃用临时UI版本切换。 无论您是营销人员、开发人员还是管理员，此常见问题解答都可以帮助您顺利过渡并充分利用更新后的UI。
 
-[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB 已更新Target UI]
 

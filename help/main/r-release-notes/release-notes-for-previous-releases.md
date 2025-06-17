@@ -523,7 +523,7 @@ ht-degree: 75%
 
 | 更新 | 详细信息 |
 |--- |--- |
-| 在创建受众时使用的[浏览器属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)中更新了[!UICONTROL Browser:iPad]和[!UICONTROL Browser:iPhone]。 | [!DNL Adobe Target]允许您[定位多个类别属性中的任意一个](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括访问您的页面时使用特定[浏览器或浏览器选项](/help/main/c-target/c-audiences/c-target-rules/browser.md)的访客。<P>从[!DNL Target] Standard/Premium 24.3.1（2024年3月4日至6日）开始，将更新使用Target UI创建的内置受众，例如`Browser:iPad`和`Browser:iPhone`，以使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`为[!DNL iPad]和[!DNL iPhone]执行正确的定位。<P>客户无需对此更新执行任何操作。<p><B>重要信息</b>：若要让客户在配置文件脚本(和JavaScript区段)中对[!DNL iPad]和[!DNL iPhone]执行正确的定位，客户必须在&#x200B;**2024年4月30日**&#x200B;之前手动进行更改。 有关必须手动更改的备用设置示例，请参阅[!UICONTROL Browser]受众属性](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates)中的[更新 [!DNL iPad] 和 [!DNL iPhone] 。 |
+| 在创建受众时使用的[浏览器属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)中更新了[!UICONTROL Browser:iPad]和[!UICONTROL Browser:iPhone]。 | [!DNL Adobe Target]允许您[定位多个类别属性中的任意一个](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括访问您的页面时使用特定[浏览器或浏览器选项](/help/main/c-target/c-audiences/c-target-rules/browser.md)的访客。<P>从[!DNL Target] Standard/Premium 24.3.1（2024年3月4日至6日）开始，将更新使用Target UI创建的内置受众，例如`Browser:iPad`和`Browser:iPhone`，以使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`为[!DNL iPad]和[!DNL iPhone]执行正确的定位。<P>客户无需对此更新执行任何操作。<p><B>重要信息</b>：若要让客户在配置文件脚本(和JavaScript区段)中对[!DNL iPad]和[!DNL iPhone]执行正确的定位，客户必须在&#x200B;**2024年4月30日**&#x200B;之前手动进行更改。 有关必须手动更改的备用设置示例，请参阅[!UICONTROL Browser]受众属性[&#128279;](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates)中的更新 [!DNL iPad] 和 [!DNL iPhone] 。 |
 
 ### [!UICONTROL Visual Editing Helper]延期（2024年3月14日）
 
@@ -707,7 +707,7 @@ ht-degree: 75%
 
 | 功能 | 详细信息 |
 |--- |--- |
-| 已为[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]优化A4T指标<p>（发布日期：2023 年 3 月 30 日） | 在为[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动使用[!UICONTROL A4T]时，[!DNL Target]允许您选择基于二项式事件的量度或基于连续事件的量度。<P>请注意，在支持的指标中发生了以下变化：<ul><li>[!DNL Target] 保留现有活动以前的行为直至 2023 年 9 月 9 日。在此日期之后，将不再继续执行使用不支持的指标的活动，以强制现有活动采用新行为。</li></ul>有关详细信息，请参阅[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)的[A4T支持中的“支持的目标量度”。<br>以下教程已随此功能一并更新：<ul><li>[在 [!DNL Analysis Workspace] 中为[!UICONTROL Auto-Allocate]个活动设置A4T报告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hans){target=_blank}</li><li>[在 [!DNL Analysis Workspace] 中为[!UICONTROL Auto-Target]个活动设置A4T报告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hans){target=_blank}</li></ul> |
+| 已为[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]优化A4T指标<p>（发布日期：2023 年 3 月 30 日） | 在为[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动使用[!UICONTROL A4T]时，[!DNL Target]允许您选择基于二项式事件的量度或基于连续事件的量度。<P>请注意，在支持的指标中发生了以下变化：<ul><li>[!DNL Target] 保留现有活动以前的行为直至 2023 年 9 月 9 日。在此日期之后，将不再继续执行使用不支持的指标的活动，以强制现有活动采用新行为。</li></ul>有关详细信息，请参阅[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动[&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)的A4T支持中的“支持的目标量度”。<br>以下教程已随此功能一并更新：<ul><li>[在 [!DNL Analysis Workspace] 中为[!UICONTROL Auto-Allocate]个活动设置A4T报告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hans){target=_blank}</li><li>[在 [!DNL Analysis Workspace] 中为[!UICONTROL Auto-Target]个活动设置A4T报告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hans){target=_blank}</li></ul> |
 
 * 增强了受众和活动同步，以便在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Audience Manager] 中创建的项目可更快地在 [!DNL Target] UI 中可用。(TGT-44568)
 * 增强了UI，允许用户删除[!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Default URL]下的[!UICONTROL Default URL]。 此更改允许客户将默认 URL 更改回空字符串，这在以前的初始配置后是不可能实现的。(TGT-44577)
@@ -2212,7 +2212,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Manager (AEM) 体验片段 </p> </td> 
-   <td colname="col2"> <p>通过在 Target 活动中使用 AEM 中创建的体验片段，您可以将 AEM 中这一简单易用的功能与 Target 中强大的自动化智能 (AI) 和机器学习 (ML) 功能结合使用，从而测试和个性化大量体验。&amp;nbsp;&amp;nbsp; </p> <p>AEM 可将您的所有内容和资产汇集到一个中心位置，以帮助实施您的个性化策略。通过 AEM，您能够在一个位置轻松创建适用于桌面、平板电脑和移动设备的内容，而无需编写代码。无需为每个设备创建页面，AEM会自动使用您的内容调整每个体验。 </p> <p> Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（这些方法包含行为、上下文和离线变量），交付大量的个性化体验。通过 Target，您可以轻松地设置并运行 A/B 活动和多变量活动，从而确定最佳的产品建议、内容和体验。 </p> <p>现在，有些从事优化和个性化工作的专业人士正在使用 Target 促进其业务发展，对这类人士而言，体验片段代表了在将内容/体验创建器与管理器关联方面迈出了巨大的一步。 </p> <p>有关更多信息，请参阅 <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM 体验片段</a>。 </p> </td> 
+   <td colname="col2"> <p>通过在 Target 活动中使用 AEM 中创建的体验片段，您可以将 AEM 中这一简单易用的功能与 Target 中强大的自动化智能 (AI) 和机器学习 (ML) 功能结合使用，从而测试和个性化大量体验。&nbsp;&nbsp; </p> <p>AEM 可将您的所有内容和资产汇集到一个中心位置，以帮助实施您的个性化策略。通过 AEM，您能够在一个位置轻松创建适用于桌面、平板电脑和移动设备的内容，而无需编写代码。无需为每个设备创建页面，AEM会自动使用您的内容调整每个体验。 </p> <p> Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（这些方法包含行为、上下文和离线变量），交付大量的个性化体验。通过 Target，您可以轻松地设置并运行 A/B 活动和多变量活动，从而确定最佳的产品建议、内容和体验。 </p> <p>现在，有些从事优化和个性化工作的专业人士正在使用 Target 促进其业务发展，对这类人士而言，体验片段代表了在将内容/体验创建器与管理器关联方面迈出了巨大的一步。 </p> <p>有关更多信息，请参阅 <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM 体验片段</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>报表 </p> </td> 
@@ -3575,7 +3575,7 @@ Adobe Target Standard/Premium 16.5.1（2016 年 5 月 19 日）版本包括以�
    <td colname="col1" class="premium"> 推荐 CSV 下载 </td> 
    <td colname="col2"> <p>现在，下载的 CSV 有一行表示所有环境，包括没有实体推荐的那些环境（例如：
      <code>
-       # environment: 1724 
+       &#x200B;# environment: 1724 
      </code>）。 </p> </td> 
   </tr> 
  </tbody> 

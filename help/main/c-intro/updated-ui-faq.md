@@ -3,9 +3,9 @@ keywords: target用户界面；用户界面；ui；常见问题解答；faq
 description: 有关更新的 [!DNL Target]t用户界面的问答。
 title: 可在何处找到有关更新的 [!DNL Target] UI的常见问题解答？
 feature: Overview
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,13 @@ ht-degree: 0%
 # [!DNL Target]用户界面更新常见问题解答
 
 2025年新增功能，[!DNL Adobe Target]更新的用户界面引入了简化且直观的体验，旨在提高所有角色的可用性和效率。 此常见问题解答解决了有关新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常见问题，包括导航更改、功能位置以及弃用临时UI版本切换。 无论您是营销人员、开发人员还是管理员，此常见问题解答都可以帮助您顺利过渡并充分利用更新后的UI。
+
+## 更新了弃用Target UI版本切换的时间表。
+
++++详细信息
+是的。 您可以在[已更新： [!DNL Target] UI版本切换弃用（2025年6月17日）](/help/main/r-release-notes/release-notes.md#revised)中找到新时间轴和重要信息。
+
++++
 
 ## 在哪里可以找到有关更新的[!DNL Target] UI的更多信息？
 
@@ -60,8 +67,7 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 
 >[!NOTE]
 >
->具有特殊情况且在6月22日后需要保留切换的客户可以联系Adobe客户关怀部门寻求帮助。
-
+>具有特殊情况且在6月22日后需要保留切换的客户可以联系Adobe客户关怀部门寻求帮助。 有关详细信息，请参阅[已更新： [!DNL Target] UI版本切换弃用（2025年6月17日）](/help/main/r-release-notes/release-notes.md#revised)。
 
 有关详细信息，请参阅&#x200B;*以前版本的发行说明*&#x200B;中的[Target UI版本切换弃用（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)。
 

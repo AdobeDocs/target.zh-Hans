@@ -4,9 +4,9 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '669'
 ht-degree: 26%
 
 ---
@@ -15,19 +15,25 @@ ht-degree: 26%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2025年6月16日（[查看更改内容](r-release-notes/doc-change.md) ）**
+**上次更新时间：2025年6月17日（[查看更改内容](r-release-notes/doc-change.md) ）**
 
 >[!BEGINTABS]
 
->[!TAB 重要信息]
+>[!TAB 注意！]
 
-**[!DNL Target]UI版本切换弃用**
+**已更新：[!DNL Target]用户界面版本切换弃用（2025年6月17日）**
 
-自2025年5月27日起，所有客户均有权访问新的[!DNL Target] UI。 从2025年6月22日开始，UI切换将被删除，所有用户将永久过渡到更新的UI，并且没有还原的选项。
+[!DNL Target]团队已调整UI版本切换弃用的时间线。
 
-[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#toggle)
+[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
->[!TAB 新增功能]
+>[!TAB 新增功能？]
+
+**更新了有关UI版本切换弃用的信息**
+
+[!DNL Target]团队已调整UI版本切换弃用的时间线。
+
+[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
 **目标25.6.2已上线！**
 

@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 1d72a708ce68d34a603f750010caa4eb68290f7a
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 21%
+source-wordcount: '1935'
+ht-degree: 18%
 
 ---
 
@@ -18,6 +18,28 @@ ht-degree: 21%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## 已更新：[!DNL Target] UI版本切换已弃用（2025年6月17日） {#revised}
+
+自2025年6月17日起，应为特定用户或组织范围内的更新的[!DNL Target] UI启用所有IMS组织，以开始测试新体验。
+
+由于最近发现的问题（主要与复杂的客户自定义相关），[!DNL Target]团队已调整弃用时间表：
+
+* **2025年6月30日**： [已更新 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)将成为已启用UI版本切换的所有IMS组织的默认体验。
+
+   * 默认情况下，当前查看旧版UI的客户在登录后将看到更新后的UI。
+   * 用户界面版本切换将在7月底之前保持可用，允许用户在需要时切换回来。
+
+  >[!IMPORTANT]
+  >
+  > [!DNL Adobe]强烈建议使用更新的[!DNL Target] UI。 仅当发生阻止程序问题时，才切换回旧版UI。 请参阅以前版本的发行说明中的[[!DNL Target] UI版本切换弃用（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)，以了解有关切换的重要信息。
+
+* **2025年7月15日至7月30日**：将分阶段永久禁用UI版本切换。 受影响的IMS组织将无法再还原到旧版UI。
+
+   * 例外情况将逐一审查。
+   * 在解决阻止程序问题时，仅会短暂地准予延迟切换弃用（几天）。
+
+如果您有任何顾虑或者预计在此过渡期间会出现任何问题，请联系[Adobe客户关怀](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)。
 
 ## [!DNL Target Standard/Premium] 25.6.2（2025年6月12日）
 
@@ -49,8 +71,6 @@ ht-degree: 21%
 * 修复了UI无法允许将环境ID手动分配给标准的问题。 而是默认为[!UICONTROL Product Catalog Search]主机组的ID。 此修复确保标准更改现在可以应用于所有环境，而不仅仅是默认环境。 (TGT-52817)
 * 修复了包含推荐的[!UICONTROL Experience Targeting] (XT)活动缺少“[!UICONTROL Download Recommendations data]”选项的问题。 （TGT-52730 和 TGT-52756）
 
-
-
 ## [!DNL Target Standard/Premium] 25.6.1（2025年6月6日）
 
 此版本包含以下修复和更新：
@@ -76,7 +96,11 @@ ht-degree: 21%
 * 修复了韩语的本地化问题，该问题导致之前的翻译使用基本多语言平面以外的字符。 更新的翻译使用能够准确传达预期含义的适当字符。 （TGT-52508 和 TGT-52509）
 * 修复了韩语的本地化问题：在选择活动的开始和结束日期时，“date”的翻译不一致。 (TGT-52510)
 
-## 弃用Target UI版本切换（2025年5月23日） {#toggle}
+## [!DNL Target] UI版本切换弃用（2025年5月23日） {#toggle}
+
+>[!IMPORTANT]
+>
+>[!DNL Target]团队已调整UI版本切换弃用的时间线。 有关详细信息，请参阅[已更新： [!DNL Target] UI版本切换弃用（2025年6月17日）](#revised)。
 
 新[!DNL Target]用户界面的转出将在&#x200B;**2025年5月27日**&#x200B;之前完成。 到那时，所有客户都将有权访问最新的UI版本。
 
@@ -119,7 +143,7 @@ ht-degree: 21%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

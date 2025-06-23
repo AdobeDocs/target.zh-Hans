@@ -4,7 +4,7 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 26%
@@ -15,7 +15,7 @@ ht-degree: 26%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2025年6月19日（[查看更改内容](r-release-notes/doc-change.md) ）**
+**上次更新时间：2025年6月20日（[查看更改内容](r-release-notes/doc-change.md) ）**
 
 >[!BEGINTABS]
 
@@ -35,7 +35,7 @@ ht-degree: 26%
 
 [![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
-**目标25.6.2已上线！**
+**目标25.6.3已上线！**
 
 此版本重点针对更新的[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的修复和增强功能。
 

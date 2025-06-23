@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
+source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 18%
+source-wordcount: '2330'
+ht-degree: 16%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 18%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 25.6.3（2025年6月20日）
+
+此版本包含以下修复和更新：
+
+* 已将[!UICONTROL Rearrange]选项添加到更新的[!UICONTROL Visual Experience Composer] (VEC) UI，以便与旧版VEC中可用的功能保持一致。 (TGT-46957)
+* 修复了将活动从一个工作区复制到另一个工作区时触发错误（如“不能为空”或“出现错误”）的问题。 (TGT-52474)
+* 修复了无法为某些活动生成[!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]报告的问题。 (TGT-52904)
+* 修复了更新后的VEC中，[!UICONTROL Automated Personalization] (AP)活动中的默认内容处理与旧版UI不匹配的问题。 在没有显式添加组时，系统现在将自动添加名为“默认内容”的默认`optionGroup`和`optionGroupLocalId = 0`。 此组包含默认选项（例如，`optionLocalId: 0`）。 如果移除默认内容，则也会移除相应的选项组。 (TGT-52651)
+* 修复了[!UICONTROL Multivariate Test] (MVT)活动中的一个问题，该问题导致不正确地不允许重用之前已删除体验中的`experienceLocalId`。 (TGT-52672)
+* 修复了阻止复制或编辑包含体验片段的活动的问题。 这触发了错误： `Enum "AemOfferType" cannot represent value: "html"`。 (TGT-52635)
+* 修复了活动位置中的URL由于斜杠(/)等无效字符而无法显示查询参数的问题。 (TNT52845)
+* 改进了通过后端API进行的[!DNL A/B Test]活动更新的验证错误消息。 当存在重复的位置名称时，该消息现在会明确声明：`locations.selectors`的“不允许存在重复的名称”。 (TGT-52589)
+* 修复了更新实时[!UICONTROL Recommendations]活动时由于请求有效负载中的属性无法识别而发生的错误。 系统现在可以正确处理“无效JSON”。 无法识别的属性名称”错误。 (TGT-52723)
+* 修复了阻止创建[!DNL Recommendations]设计的问题。 单击[!UICONTROL Create]触发消息：“脚本中应至少使用1个实体变量。” （TGT-52395 和 TGT-52899）
+* 修复了阻止在不进行修改的情况下重新保存[!DNL Recommendations]设计的问题。 (TGT-52879)
+* 修复了在保存[!UICONTROL Recommendations]活动时导致出现“400错误请求”错误的后端验证错误。 (TGT-52716)
+* 修复了[!UICONTROL Form-Based Experience Composer]中的一个问题，该问题导致将鼠标悬停在[!UICONTROL Location]下拉列表中具有特殊字符的mbox上导致编辑器变为空白并触发“无法对‘元素’执行‘querySelector’”。 错误。(TGT-52717)
+* 通过新的“PARTIALLY_IMPORTED”指示符提高了馈送状态准确性。 以前，即使未导入文件中的所有行，信息源也会标记为“success”，这很有误导性。 (TGT-52892)
+* 修复了迁移到AP V2后，对`/admin/rest/ui/v1/campaigns`的特定API调用返回客户端错误(HTTP 4xx)的错误。 (TGT-52721)
 
 ## 已更新：[!DNL Target] UI版本切换已弃用（2025年6月17日） {#revised}
 
@@ -143,7 +163,7 @@ ht-degree: 18%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

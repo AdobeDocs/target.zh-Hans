@@ -6,9 +6,9 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
+source-git-commit: c380a07cb46241e428ad4946643eb2c011638c24
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2311'
 ht-degree: 16%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 16%
 
 此版本包含以下修复和更新：
 
-* 已将[!UICONTROL Rearrange]选项添加到更新的[!UICONTROL Visual Experience Composer] (VEC) UI，以便与旧版VEC中可用的功能保持一致。 (TGT-46957)
 * 修复了将活动从一个工作区复制到另一个工作区时触发错误（如“不能为空”或“出现错误”）的问题。 (TGT-52474)
 * 修复了无法为某些活动生成[!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]报告的问题。 (TGT-52904)
 * 修复了更新后的VEC中，[!UICONTROL Automated Personalization] (AP)活动中的默认内容处理与旧版UI不匹配的问题。 在没有显式添加组时，系统现在将自动添加名为“默认内容”的默认`optionGroup`和`optionGroupLocalId = 0`。 此组包含默认选项（例如，`optionLocalId: 0`）。 如果移除默认内容，则也会移除相应的选项组。 (TGT-52651)
@@ -163,7 +162,7 @@ ht-degree: 16%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
+source-git-commit: c380a07cb46241e428ad4946643eb2c011638c24
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 73%
+source-wordcount: '217'
+ht-degree: 59%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 73%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新时间：2025年6月20日**
+**上次更新时间：2025年6月23日**
 
 >[!NOTE]
 >
@@ -25,16 +25,20 @@ ht-degree: 73%
 >
 >* 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target Standard/Premium] 25.6.3（2025年6月20日）
+## [!DNL Target Standard/Premium] 25.6.4（2025年6月26日）
 
-请参阅[[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md)。
+此版本包含以下修复和更新：
+
+* 已将[!UICONTROL Rearrange]选项添加到更新的[!UICONTROL Visual Experience Composer] (VEC) UI，以便与旧版VEC中可用的功能保持一致。 (TGT-46957)
+* 修复了在获取[!UICONTROL Automated Personalization] (AP)活动的报表数据时发生的空指针异常。 (TGT-52362)
+* 修复了阻止编辑[!DNL Recommendations]活动的问题。 (TGT-52823)
 
 ## 其他发行说明和版本详细信息
 
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明： Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

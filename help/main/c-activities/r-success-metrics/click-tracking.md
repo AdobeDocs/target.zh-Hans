@@ -4,16 +4,16 @@ description: 了解 [!DNL Adobe Target] 如何让您跟踪任何元素上的点�
 title: 点击跟踪是什么？
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 43d2484e57b1e2d292cf65c041fb9f5f49b2084c
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 59%
+source-wordcount: '858'
+ht-degree: 56%
 
 ---
 
 # 点击跟踪
 
-[!DNL Adobe Target]允许您跟踪任何元素上的点击作为成功量度。
+[!DNL Adobe Target]允许您跟踪任何元素上的点击作为成功量度。 点击跟踪是指监视和记录用户对某个网页或体验中的元素进行的交互（尤其是点击）的过程。 这是在A/B测试、多变量测试和个性化活动中衡量参与度和绩效的关键部分。
 
 >[!NOTE]
 >
@@ -30,43 +30,33 @@ ht-degree: 59%
 
    有关选择元素的提示，请参阅下面的&#x200B;*注意事项*&#x200B;部分。
 
-1. 单击屏幕顶部的&#x200B;**[!UICONTROL Save]**&#x200B;以保存您的选择。
+1. 单击屏幕顶部的&#x200B;**[!UICONTROL Done]**&#x200B;以保存您的选择。
 
 当活动参加者点击某个选定元素时，该点击即会被计为一次转化。
 
 ## “选定的元素”面板 {#selected-elements}
 
-对于[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] (XT)、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Multivariate Test] (MVT)活动，[!UICONTROL Selected Elements]面板会在右侧列出为点击跟踪选择的元素。
+对于[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] (XT)、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Multivariate Test] (MVT)活动，[!UICONTROL Selected Elements]面板在左侧列出了为点击跟踪选择的元素。
 
 ![“选定的元素”面板](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-将鼠标悬停在[!UICONTROL Selected Elements]面板中的某个元素上时，可以对该元素应用一些操作。 下表介绍了可对元素执行的各项操作：
+单击[!UICONTROL Tracked Components]面板中的某个元素时，可以应用一些操作。 下表介绍了可对元素执行的各项操作：
 
 | 操作 | 描述 |
 | --- | --- |
-| 信息 | 显示元素类型和选择器的完整 DOM 路径。 |
-| 编辑 | 允许您编辑 CSS 选择器。 |
-| 删除 | 删除元素。 |
+| [!UICONTROL Tracked actions] | 显示元素操作。 |
+| [!UICONTROL CSS selector] | 允许您编辑 CSS 选择器。 |
+| [!DNL Delete] | 删除元素。 |
 
 ### 添加元素
 
-如果您已经知道选择器的DOM路径，则可以通过单击面板顶部的加号图标来手动添加该路径。
-
-![“添加元素”图标](/help/main/c-activities/r-success-metrics/assets/add-element.png)
-
-### “选定的元素”弹出菜单
-
-为点击跟踪选择多个元素后，您可以单击活动[!UICONTROL Goals & Settings]步骤中的[!UICONTROL Elements Selected]链接以查看为点击跟踪选择的元素的完整列表。 该列表包含元素的完整 DOM 路径，可帮助您验证选定的元素是否将用于点击跟踪。
-
-![“选定的元素”链接](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
+如果您已经知道选择器的DOM路径，则可以通过单击面板顶部的[!UICONTROL Add Component]图标手动添加该路径。
 
 ## 注意事项 {#considerations}
 
 选择元素时，需注意以下几个事项：
 
 * 设置点击跟踪时，可使用 DOM 路径功能。单击页面上的某个元素时，将显示 VEC 选项菜单。另外，相应的 DOM 路径将显示在页面底部。您可以使用 DOM 路径快速查看有关所选元素（类型、ID 和类）的信息，并向上或向下移动 DOM 路径以选择所需的元素。
-
-  ![DOM 路径插图](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
   与在活动创建工作流的步骤1中创建体验类似，通过页面底部的DOM路径选择器，您可以选择元素。 在从 DOM 路径中选择元素时，VEC 中的相应元素将显示为“已选定”。要取消选择选定的元素，您可以在DOM路径选择器中再次单击该元素，或者在VEC中单击“已选定”框。
 
@@ -87,7 +77,7 @@ ht-degree: 59%
   | $ | 美元符号 |
   | `[ ]` | 方括号 |
 
-* 如果您使用[!DNL at.js]点击跟踪并且还使用[!DNL Analytics]AppMeasurement，[!DNL at.js]点击跟踪将取消所有其他点击事件处理程序。 因此，AppMeasurement 点击处理程序将从不会执行。
+* 如果您使用[!DNL at.js]点击跟踪，并且还使用[!DNL Analytics] AppMeasurement，[!DNL at.js]点击跟踪将取消所有其他点击事件处理程序。 因此，AppMeasurement 点击处理程序将从不会执行。
 
   当基础元素为 [!DNL at.js]（链接）标记或 `A` 标记时，`FORM` 具有特殊的点击跟踪处理方式。
 

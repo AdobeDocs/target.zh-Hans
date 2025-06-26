@@ -97,4 +97,4 @@ ht-degree: 1%
 
 ### 使用AI助手创建内容以生成内容
 
->[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434645/?learn=on&captions=chi_hans">https://video.tv.adobe.com/v/3434645/?learn=on&captions=chi_hans)

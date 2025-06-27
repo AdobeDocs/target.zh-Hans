@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c380a07cb46241e428ad4946643eb2c011638c24
+source-git-commit: b0de4b039dd2a130d55fac3058fbdb40771d4fc7
 workflow-type: tm+mt
-source-wordcount: '2311'
-ht-degree: 16%
+source-wordcount: '2731'
+ht-degree: 15%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 16%
 这些发行说明提供关于每个 [!DNL Adobe Target Standard] 和 [!DNL Target Premium] 版本的功能、增强和修复的信息。此外，在适用的情况下，还包括 [!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js 的发行说明以及其他平台变更。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 25.6.4（2025年6月27日）
+
+此版本包含以下修复和更新：
+
+* 已将[!UICONTROL Rearrange]选项添加到更新的[!UICONTROL Visual Experience Composer] (VEC) UI，以便与旧版VEC中可用的功能保持一致。 （TGT-46957 和 TGT-52876）
+* 修复了对[!UICONTROL A/B Test]活动中的变体体验（例如体验B）所做的修改未保留的问题。 在体验之间切换后，对变量的更改将消失。 此问题不会影响控制体验。 (TGT-52664)
+* 修复了以下问题：某些客户无法创建或保存活动，而其他客户可以正常执行相同的操作。 不同帐户之间的问题不一致。(TGT-52842)
+* 修复了在更新后的VEC中，用户无法移动对[!UICONTROL Page Load event]的修改的问题，该功能存在于旧版UI中。 (TGT-52617)
+* 修复了更新后的UI中的一个问题：在创建更改时[!UICONTROL page load]事件在[!DNL Target]中不可见；更新仅应用于视图。 (TGT-52604)
+* 修复了一个问题，该问题导致某些活动修改无法在更新后的VEC中正常显示。 (TGT-52818)
+* 修复了在获取[!UICONTROL Automated Personalization] (AP)活动的报表数据时发生的空指针异常。 (TGT-52362)
+* 修复了导致选件级别详细信息无法在[!UICONTROL Automated Personalization] (AP)活动的.CSV文件中显示的问题。 (TGT-52675)
+* 修复了在更新的VEC中应用修改时，更改最初正确显示的问题，包括预期的[!UICONTROL Experience Fragment]。 但是，在切换体验或进行其他编辑时，由于选择器问题，某些修改无法应用。 (TGT-52679)
+* 修复了在通过克隆现有活动创建新活动时，克隆活动中的QA链接错误地保留原始活动中的页面URL的问题。 (TGT-52775)
+* 修复了无意中导致[!UICONTROL On-device Decisioning]在更新的VEC中不可用的问题。 (TGT-52371)
+* 修复了阻止编辑产品[!DNL Recommendations]活动的问题。 尝试通过Target UI访问VEC时，[!UICONTROL Overview]页面上出现错误，导致无法进行任何编辑。 (TGT-52823)
+* 修复了在体验名称超过50个字符时阻止保存[!DNL Recommendations]活动的问题。 (TGT-52619)
+* 修复了客户在新UI中修改标准后无法保存“推荐”活动的问题。 该问题似乎与权限相关，并不影响具有相似角色的所有用户。 (TGT-52816)
+* 修复了具有[!UICONTROL Editor]角色的用户无法编辑[!DNL Recommendations]活动的问题。 尝试更改设计并保存活动会导致403禁止错误，声明“[编辑者]”权限是必需的，即使用户已在相关工作区中拥有该角色。 (TGT-52836)
 
 ## [!DNL Target Standard/Premium] 25.6.3（2025年6月20日）
 
@@ -162,7 +182,7 @@ ht-degree: 16%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

@@ -3,13 +3,13 @@ keywords: ai助手；人工智能助手；内容生成；内容加速器；内�
 description: 了解如何使用 [!DNL AI Assistant]生成吸引人的内容。
 title: 如何使用 [!DNL Target] 中的 [!DNL AI Assistant] 生成吸引人的内容？
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: a2441f9bb2ffed981e1541c58a16f11f4f3a3f90
+source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '756'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## 先决条件
 
-1. 确保您已在 [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)的启用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先决任务。
+1. 确保您已在 [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)的[启用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先决任务。
 
    * 贵组织必须首先同意法律条款。 有关更多信息，请与您的Adobe客户团队联系。
    * 您的管理员必须授予您访问[!DNL AI Assistant]的足够权限。
@@ -59,9 +59,11 @@ ht-degree: 1%
 
    * **音调**：文字的音调应该能引起观众的共鸣。 无论您想听到的是信息性、刺激性、娱乐性还是说服力，[!DNL AI Assistant]都可以相应地调整消息。
 
-     选项包括：[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL &#x200B; Story Telling]和[!UICONTROL Conversational]。
+     选项包括：[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL  Story Telling]和[!UICONTROL Conversational]。
 
 1. 使用滑块选择文本长度（[!UICONTROL Shorter Text]到[!UICONTROL Larger Text]）。
+
+1. （可选）单击Brand Assets可在生成期间上传或切换Brand Assets以获取其他内容上下文。
 
 1. 单击&#x200B;**[!UICONTROL Generate]**&#x200B;以创建文本变体列表。
 
@@ -98,4 +100,4 @@ ht-degree: 1%
 
 ### 使用AI助手创建内容以生成内容
 
->[!VIDEO](https://video.tv.adobe.com/v/3434645/?learn=on&captions=chi_hans">https://video.tv.adobe.com/v/3434645/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

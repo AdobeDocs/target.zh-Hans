@@ -6,18 +6,72 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
+source-git-commit: 1163fb68b36b2dbdaa18bdb78f634cc475702fc2
 workflow-type: tm+mt
-source-wordcount: '2725'
-ht-degree: 14%
+source-wordcount: '3112'
+ht-degree: 12%
 
 ---
 
 # [!DNL Target]发行说明（当前版本）
 
-浏览[!DNL Adobe Target]中的最新功能、增强功能和修复。 这些发行说明还涵盖了[!DNL Target] API、SDK、A[!DNL dobe Experience Platform Web SDK]、at.js和其他平台组件（如果适用）的更新。
+浏览[!DNL Adobe Target]中的最新功能、增强功能和修复。 这些发行说明还涵盖了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台组件（如果适用）的更新。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## 您需要了解的重要时效性更新 {#time-sensitive}
+
+对于与[!DNL Adobe Target]和您的实施相关的时效性更新，[!DNL Adobe]通过[!UICONTROL Experience League]提供详细的发行说明和文档。 以下是一些与您的实施相关的主要功能亮点：
+
+### [!DNL Target] UI版本切换弃用
+
++++查看详细信息
+[!DNL Target]团队正在提供一项临时功能，可让您使用切换按钮在更新的[!DNL Target] UI和旧版本之间切换。 此选项仅在UI转出的最后阶段可用。
+
+![Target UI版本切换](/help/main/r-release-notes/assets/toggle.png)
+
+转出完成后，切换将被删除，所有用户都将永久转换为更新后的UI。 [!DNL Adobe]建议提前计划，因为此功能将很快淘汰。
+
+#### 弃用时间线
+
+由于最近发现的问题（主要与复杂的客户自定义相关），[!DNL Target]团队已调整弃用时间表：
+
+* **2025年6月17日**：已为特定用户或组织范围的更新的[!DNL Target] UI启用所有IMS组织，以开始测试新体验。
+
+* **2025年6月30日**： [已更新 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)成为已启用UI版本切换的所有IMS组织的默认体验。
+
+   * 默认情况下，当前看到旧版UI的客户现在会在登录时看到更新后的UI。
+   * 用户界面版本切换在7月底之前仍然可用，允许用户在需要时切换回去。
+
+  >[!IMPORTANT]
+  >
+  > [!DNL Adobe]强烈建议使用更新的[!DNL Target] UI。 由于切换切换行为的[限制](#limitations)，因此出现阻止程序问题时才能切换回旧版UI。
+
+* **2025年7月15日至7月30日**：将分阶段永久禁用UI版本切换。 受影响的IMS组织无法再还原到旧版UI。
+
+   * 例外情况按个别情况予以审查。
+   * 在解决阻止程序问题时，仅短暂地授予对切换弃用的延迟（几天）。
+
+如有任何顾虑或您预计在此过渡期间会出现任何问题，请联系[Adobe客户关怀](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)。
+
+#### UI切换行为的限制 {#limitations}
+
+以下信息介绍了在选择使用版本切换时应该注意的限制：
+
+* **新活动的可见性**：如果切换回旧版UI，则在更新后的UI中创建的活动将不可见。
+* **编辑现有活动**：使用更新的UI时，对现有活动（最初在旧版UI中创建）所做的更改将发布到您的网站。 但是，如果切换回去，这些更新将不会在旧版UI中显示；只有从旧版UI进行的最后一次更新将显示在该处。
+* **活动详细信息的一致性**：无论您使用哪个UI，最新更改都将反映在您的实时网站上。 但是，旧版UI将仅显示从该版本中进行的最新更改。 如果在更新的UI中编辑的活动与您在旧版UI中看到的不同，则可能会导致混淆。
+
+#### 更多资源以了解更新的UI
+
+* [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)：此常见问题解答关于新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常见问题，包括导航更改、功能位置以及弃用临时UI版本切换。 无论您是营销人员、开发人员还是管理员，此常见问题解答都可以帮助您顺利过渡并充分利用更新后的UI。
+* [[!DNL Target Standard/Premium] 25.2.1（2025年2月17日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!DNL Target]中[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)的关键UI更改的摘要。
+* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!DNL Target]在[!UICONTROL Offers Library]中关键UI更改的摘要。
+* [了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供简要概述以帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
+* [[!UICONTROL Visual Experience Composer]更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)： [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）引入了更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文介绍VEC旧版本与更新版本之间的差异。
+* [[!UICONTROL Visual Experience Composer]选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文介绍更新的VEC UI及其选项。
+
++++
 
 ## [!DNL Target Standard/Premium] 25.6.4（2025年6月27日）
 
@@ -58,34 +112,12 @@ ht-degree: 14%
 * 通过新的“PARTIALLY_IMPORTED”指示符提高了馈送状态准确性。 以前，即使未导入文件中的所有行，信息源也会标记为“success”，这很有误导性。 (TGT-52892)
 * 修复了迁移到AP V2后，对`/admin/rest/ui/v1/campaigns`的特定API调用返回客户端错误(HTTP 4xx)的错误。 (TGT-52721)
 
-## 已更新：[!DNL Target] UI版本切换已弃用（2025年6月17日） {#revised}
-
-自2025年6月17日起，应为特定用户或组织范围内的更新的[!DNL Target] UI启用所有IMS组织，以开始测试新体验。
-
-由于最近发现的问题（主要与复杂的客户自定义相关），[!DNL Target]团队已调整弃用时间表：
-
-* **2025年6月30日**： [已更新 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)将成为已启用UI版本切换的所有IMS组织的默认体验。
-
-   * 默认情况下，当前查看旧版UI的客户在登录后将看到更新后的UI。
-   * 用户界面版本切换将在7月底之前保持可用，允许用户在需要时切换回来。
-
-  >[!IMPORTANT]
-  >
-  > [!DNL Adobe]强烈建议使用更新的[!DNL Target] UI。 仅当发生阻止程序问题时，才切换回旧版UI。 请参阅以前版本的发行说明中的[[!DNL Target] UI版本切换弃用（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)，以了解有关切换的重要信息。
-
-* **2025年7月15日至7月30日**：将分阶段永久禁用UI版本切换。 受影响的IMS组织将无法再还原到旧版UI。
-
-   * 例外情况将逐一审查。
-   * 在解决阻止程序问题时，仅会短暂地准予延迟切换弃用（几天）。
-
-如果您有任何顾虑或者预计在此过渡期间会出现任何问题，请联系[Adobe客户关怀](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)。
-
 ## [!DNL Target Standard/Premium] 25.6.2（2025年6月12日）
 
 此版本包含以下修复和更新：
 
 * 添加了[篇新的常见问题解答文章](/help/main/c-intro/updated-ui-faq.md)，以解决有关已更新的[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常见问题。
-* 修复了[!UICONTROL Page Delivery]中的“[!UICONTROL URL - does not contain]”规则无法正常工作的问题，即使应该阻止该规则，仍允许显示内容。 (TGT-52754)
+* 修复了[!UICONTROL URL - does not contain]中的“[!UICONTROL Page Delivery]”规则无法正常工作的问题，即使应该阻止该规则，仍允许显示内容。 (TGT-52754)
 * 修复了[!UICONTROL Page Delivery]错误显示错误消息“不允许存在重复的页面URL”的问题。 (TGT-52765)
 * 修复了包含体验片段的[!UICONTROL Page Delivery] URL的受众创建时错误地附加了#的问题。 (TGT-52786)
 * 修复了复制活动和编辑[!UICONTROL Goals and Settings]页面上的设置导致[!DNL Target] UI无响应的问题。 (TGT-52797)
@@ -99,7 +131,7 @@ ht-degree: 14%
 * 修复了更新的[!DNL Target] UI中阻止客户查看优惠详细信息的问题。 (TGT-52607)
 * 修复了对[!UICONTROL Offers Library]中的优惠所做的更新未反映在更新的[!UICONTROL Visual Experience Composer] (VEC)中的问题。 (TGT-52637)
 * 修复了在创建活动时导致“优惠”部分无法正确显示的问题。 (TGT-52773)
-* 添加了验证，以确保`optionGroups`中引用的所有`optionLocalIds`都存在于选项数组中。 创建活动期间会自动删除无效引用。 (TGT-52687)
+* 添加了验证，以确保`optionLocalIds`中引用的所有`optionGroups`都存在于选项数组中。 创建活动期间会自动删除无效引用。 (TGT-52687)
 * 修复了在添加新选件后未保留报表组和排除项的问题。 (TGT-52728)
 * 修复了没有[!UICONTROL Activity QA]按钮的活动显示空选项选择器的问题。 (TGT-52733)
 * 修复了QA链接无法正确呈现内容的问题。 (TGT-52718)
@@ -108,7 +140,7 @@ ht-degree: 14%
 * 修复了在更新的[!UICONTROL Visual Experience Composer] (VEC)中编辑受众定位时，“编辑受众”模式显示为空的问题。 (TGT-52749)
 * 添加了消息，以在所选工作区中无法访问实体时通知用户。 (TGT-52767)
 * 修复了UI无法允许将环境ID手动分配给标准的问题。 而是默认为[!UICONTROL Product Catalog Search]主机组的ID。 此修复确保标准更改现在可以应用于所有环境，而不仅仅是默认环境。 (TGT-52817)
-* 修复了包含推荐的[!UICONTROL Experience Targeting] (XT)活动缺少“[!UICONTROL Download Recommendations data]”选项的问题。 （TGT-52730 和 TGT-52756）
+* 修复了包含推荐的[!UICONTROL Download Recommendations data] (XT)活动缺少“[!UICONTROL Experience Targeting]”选项的问题。 （TGT-52730 和 TGT-52756）
 
 ## [!DNL Target Standard/Premium] 25.6.1（2025年6月6日）
 
@@ -167,7 +199,7 @@ ht-degree: 14%
 
 * [[!DNL Target Standard/Premium] 25.2.1（2025年2月17日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!DNL Target]中[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)的关键UI更改的摘要。
 
-* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!UICONTROL Offers Library]在[!DNL Target]中关键UI更改的摘要。
+* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!DNL Target]在[!UICONTROL Offers Library]中关键UI更改的摘要。
 
 * [了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供简要概述以帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
 
@@ -182,7 +214,7 @@ ht-degree: 14%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

@@ -4,7 +4,7 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b0de4b039dd2a130d55fac3058fbdb40771d4fc7
+source-git-commit: dc291b4573e00512edd44b94304be2a25106b234
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 26%
@@ -15,7 +15,7 @@ ht-degree: 26%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新时间：2025年6月27日（[查看更改内容](r-release-notes/doc-change.md) ）**
+**上次更新日期：2025年7月7日（[查看更改内容](r-release-notes/doc-change.md) ）**
 
 >[!BEGINTABS]
 
@@ -57,7 +57,7 @@ UI旨在清晰而高效，帮助您充分利用[!DNL Target]。 浏览各种资�
 
 >[!TAB AI助手]
 
-**在[!DNL Adobe Experience Platform]**&#x200B;中遇到[!DNL AI Assistant]
+**在[!DNL AI Assistant]中遇到[!DNL Adobe Experience Platform]**
 
 [!DNL AI Assistant]是您导航[!DNL Adobe Experience Cloud]的智能指南。 在产品（如[!DNL Target]、[!DNL AI Assistant]）中提供，可帮助您从界面快速了解关键概念和功能。
 
@@ -89,7 +89,7 @@ UI旨在清晰而高效，帮助您充分利用[!DNL Target]。 浏览各种资�
 - [[!DNL Target] 发行说明](r-release-notes/release-notes.md)：包含有关当前版本的信息、有关影响[!DNL Target]的已知问题的信息、此文档的重要更改列表以及以前发行说明的存档。
 - [简介 [!DNL Target]](c-intro/intro.md)：说明[!DNL Target]的核心概念。
 - [了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
-- [[!UICONTROL AI Assistant]概述](/help/main/c-intro/ai-assistant.md)： A[!DNL dobe Experience Platform]中的[!DNL AI Assistant]是用户界面功能，可用于导航和了解[!DNL Adobe Target]概念。
+- [[!UICONTROL AI Assistant]概述](/help/main/c-intro/ai-assistant.md)： A[!DNL AI Assistant]中的[!DNL dobe Experience Platform]是用户界面功能，可用于导航和了解[!DNL Adobe Target]概念。
 - 将[!DNL Target]与[!DNL Adobe Experience Cloud]集成：说明如何将[!DNL Target]与其他[!DNL Experience Cloud]解决方案集成，包括[[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md)和[[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md)。
 - [[!DNL Adobe Target] 教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hans)：提供教程和视频，帮助您充分利用[!DNL Target]。
 - [故障排除 [!DNL Target]](r-troubleshooting-target/troubleshooting-target.md)：提供指向本指南中所含故障排除信息的链接，其中包括关于影响[!DNL Target]中的活动和其他元素的字符限制和其他限制（选件大小、受众、配置文件、值、参数等）的信息。

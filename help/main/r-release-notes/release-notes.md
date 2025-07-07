@@ -6,7 +6,7 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 1163fb68b36b2dbdaa18bdb78f634cc475702fc2
+source-git-commit: 34693e5c94328b5f1ad1d692d6a986cadb6349c4
 workflow-type: tm+mt
 source-wordcount: '3112'
 ht-degree: 12%
@@ -19,7 +19,9 @@ ht-degree: 12%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## 您需要了解的重要时效性更新 {#time-sensitive}
+## 您需要了解的时间性更新 {#time-sensitive}
+
+[!BADGE 重要]{type=Informative}
 
 对于与[!DNL Adobe Target]和您的实施相关的时效性更新，[!DNL Adobe]通过[!UICONTROL Experience League]提供详细的发行说明和文档。 以下是一些与您的实施相关的主要功能亮点：
 
@@ -214,7 +216,7 @@ ht-degree: 12%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

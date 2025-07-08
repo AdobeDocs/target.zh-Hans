@@ -4,9 +4,9 @@ description: 有关更新的 [!DNL Target]t用户界面的问答。
 title: 可在何处找到有关更新的 [!DNL Target] UI的常见问题解答？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 ## 是否更新了弃用Target UI版本切换的时间表？
 
 +++详细信息
-是的。 您可以在[已更新： [!DNL Target] UI版本切换弃用（2025年6月17日）](/help/main/r-release-notes/release-notes.md#revised)中找到新时间轴和重要信息。
+是的。 您可以在[需要了解的时间敏感更新](/help/main/r-release-notes/release-notes.md#time-sensitive)中找到新时间表和重要信息。
 
 +++
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 * [[!DNL Target Standard/Premium] 25.2.1（2025年2月17日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!DNL Target]中[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)的关键UI更改的摘要。
 
-* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!UICONTROL Offers Library]在[!DNL Target]中关键UI更改的摘要。
+* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!DNL Target]在[!UICONTROL Offers Library]中关键UI更改的摘要。
 
 * [了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供简要概述以帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
 
@@ -44,9 +44,7 @@ ht-degree: 0%
 +++详细信息
 更新后的UI对所有[!DNL Target]客户[!UICONTROL Standard]和[!UICONTROL Premium]都可用。 无需升级许可证或SKU。
 
-新[!DNL Target] UI的推出已于2025年5月27日完成。 到那时，所有客户都可以访问最新的UI版本。
-
-有关转出和弃用临时UI版本切换的详细信息，请参阅以前版本的&#x200B;*发行说明*&#x200B;中的[Target UI版本切换弃用（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)。
+有关转出和弃用临时UI版本切换的详细信息，请参阅[您需要了解的时间性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)。
 
 +++
 
@@ -55,22 +53,18 @@ ht-degree: 0%
 +++详细信息
 [!DNL Target]团队正在积极解决与新UI转出相关的问题。 更新和持续改进的详情见发行说明。
 
-有关转出和弃用临时UI版本切换的详细信息，请参阅以前版本的&#x200B;*发行说明*&#x200B;中的[Target UI版本切换弃用（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)。
+有关转出和弃用临时UI版本切换的详细信息，请参阅[您需要了解的时间性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)。
 
 +++
 
 ## 如果客户希望保留旧版UI，他们是否可以申请将UI版本切换保留为其帐户？
 
 +++详细信息
-UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!DNL Target] UI和旧版本之间切换。 此选项仅在UI转出的最后阶段可用。 转出完成后，切换将被删除，所有用户将于2025年6月22日永久转换为更新后的UI。
+UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!DNL Target] UI和旧版本之间切换。 此选项仅在UI转出的最后阶段可用。 转出完成后，切换将被删除，所有用户都将永久转换为更新后的UI。
 
 使用UI版本切换存在几个限制，包括新活动的可见性、现有活动的编辑以及活动详细信息的一致性。
 
->[!NOTE]
->
->具有特殊情况且在6月22日后需要保留切换的客户可以联系Adobe客户关怀部门寻求帮助。 有关详细信息，请参阅[已更新： [!DNL Target] UI版本切换弃用（2025年6月17日）](/help/main/r-release-notes/release-notes.md#revised)。
-
-有关详细信息，请参阅&#x200B;*以前版本的发行说明*&#x200B;中的[Target UI版本切换弃用（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)。
+有关详细信息，请参阅[您需要了解的时间性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)。
 
 ++++
 
@@ -81,7 +75,7 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 
 使用UI版本切换存在几个限制，包括新活动的可见性、现有活动的编辑以及活动详细信息的一致性。
 
-有关详细信息，请参阅&#x200B;*以前版本的发行说明*&#x200B;中的[Target UI版本切换弃用（2025年5月23日）](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)。
+有关详细信息，请参阅[您需要了解的时间性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)。
 
 +++
 
@@ -120,7 +114,7 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 +++详细信息
 有关可以允许列表的IP地址的详细信息，请参阅以下文章：
 
-* **增强型体验编辑器(EEC)**：请参阅[在&#x200B;*解决与增强型体验编辑器相关的问题*&#x200B;中，EEC无法加载在公共IP上不可访问的内部QA URL](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)
+* **增强型体验编辑器(EEC)**：请参阅[在](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)解决与增强型体验编辑器相关的问题&#x200B;*中，EEC无法加载在公共IP上不可访问的内部QA URL*
 * **[!UICONTROL Recommendations]**：查看推荐信息源处理服务器使用的[IP地址](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)。
 
 +++
@@ -128,7 +122,7 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 ## 默认情况下，环境会在新的推荐UI上重置为暂存环境吗？
 
 +++详细信息
-环境现在默认为客户使用的最后一个环境。 要切换环境，请使用[!UICONTROL Catalog Search] UI右上角的[!UICONTROL Environment]选择器。
+环境现在默认为客户使用的最后一个环境。 要切换环境，请使用[!UICONTROL Environment] UI右上角的[!UICONTROL Catalog Search]选择器。
 
 ![环境开关](/help/main/c-intro/assets/environmnent.png)
 

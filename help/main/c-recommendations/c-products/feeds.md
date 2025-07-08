@@ -1,14 +1,14 @@
 ---
 keywords: 推荐信息源；信息源；SAINT；ftp；csv；分类；analytics分类
-description: 了解信息源如何使用CSV文件、 [!DNL Google Product Search] 信息源格式和 [!DNL Analytics] 产品分类将实体导入 [!DNL Adobe Target] [!DNL Recommendations]。
-title: 如何在 [!DNL Target Recommendations]中使用[!UICONTROL Feeds]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+description: 了解信息源如何使用CSV文件、 [!DNL Adobe Target] [!DNL Recommendations]信息源格式和 [!DNL Google Product Search] 产品分类将实体导入 [!DNL Analytics] 。
+title: 如何在[!UICONTROL Feeds]中使用 [!DNL Target Recommendations]？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 38%
+source-wordcount: '2613'
+ht-degree: 35%
 
 ---
 
@@ -121,7 +121,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 >
 >不需要使用[!DNL Google]数据。 [!DNL Recommendations]使用与[!DNL Google]相同的格式。 您可以使用此方法上传您的任何数据，并且还可以使用可用的计划功能。但是，在设置文件时，必须保留[!DNL Google]预定义属性名称。
 
-大多数零售商会将产品上传到[!DNL Google]，因此当访客使用[!DNL Google]产品搜索时，会显示其产品。 [!DNL Recommendations]完全遵循实体源的[!DNL Google]规范。 实体源可以通过.xml、.txt或.tsv发送到[!DNL Recommendations]，并且可以使用Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)定义的属性。 结果可在[[!DNL Google] 购物页面](https://www.google.com/prdhp)上搜索。
+大多数零售商会将产品上传到[!DNL Google]，因此当访客使用[!DNL Google]产品搜索时，会显示其产品。 [!DNL Recommendations]完全遵循实体源的[!DNL Google]规范。 实体源可以通过.xml、.txt或.tsv发送到[!DNL Recommendations]，并且可以使用Google[定义的](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)属性。 结果可在[[!DNL Google] 购物页面](https://www.google.com/prdhp)上搜索。
 
 >[!NOTE]
 >
@@ -212,16 +212,16 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Adobe Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅&#x200B;*Analytics组件*&#x200B;指南中的[关于分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans)。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
+[!DNL Adobe Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅[Analytics组件](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)指南中的&#x200B;*关于分类*。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
 
 >[!IMPORTANT]
 >
->在使用[!DNL Analytics]产品分类将实体数据导入[!DNL Recommendations]之前，请注意，这不是首选方法。
+>在使用[!DNL Recommendations]产品分类将实体数据导入[!DNL Analytics]之前，请注意，这不是首选方法。
 >
 > 请注意以下事项：
 >
 >* 更新实体属性会导致长达 24 小时的额外延迟。
->* [!DNL Target]仅支持[!UICONTROL Product Classifications]。 [!DNL Analytics]产品SKU必须映射到与[!DNL Recommendations] `entity.id`相同的级别。 可以使用[!UICONTROL Adobe Consulting Services]设计自定义[!DNL Analytics]分类。 如有疑问，请联系您的客户经理。
+>* [!DNL Target]仅支持[!UICONTROL Product Classifications]。 [!DNL Analytics]产品SKU必须映射到与[!DNL Recommendations] `entity.id`相同的级别。 可以使用[!DNL Analytics]设计自定义[!UICONTROL Adobe Consulting Services]分类。 如有疑问，请联系您的客户经理。
 
 ## 创建信息源 {#steps}
 
@@ -274,7 +274,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. 单击 **[!UICONTROL Save]**。
 
-创建或编辑信息源后，该信息源将立即运行。 然后，馈送会根据您设置的参数进行更新。 需要一些时间才能提供这些信息。 首先，信息源必须同步，接着必须对其进行处理并将其编入索引，然后才能对其发布并使其可供使用。当前状态显示在[!UICONTROL Feeds]列表中的[馈送状态](/help/main/c-recommendations/c-products/feeds.md#status)下。 在该过程完成之前，您可以关闭 [!DNL Target]，该过程会继续执行。
+创建或编辑信息源后，该信息源将立即运行。 然后，馈送会根据您设置的参数进行更新。 需要一些时间才能提供这些信息。 首先，信息源必须同步，接着必须对其进行处理并将其编入索引，然后才能对其发布并使其可供使用。当前状态显示在[列表中的](/help/main/c-recommendations/c-products/feeds.md#status)馈送状态[!UICONTROL Feeds]下。 在该过程完成之前，您可以关闭 [!DNL Target]，该过程会继续执行。
 
 编入索引期间，在将各个值编入索引之前，将会显示产品和信息源标头。这样，您就可以搜索并查看产品，从而在完成索引之前创建收藏集、排除项、设计和活动。
 
@@ -298,6 +298,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 | [!UICONTROL Downloading Feed File] | [!DNL Target]正在下载信息源文件。 |
 | [!UICONTROL Importing Items] | [!DNL Target]正在从信息源文件导入项目。 |
 | 已在&#x200B;*指定时间*&#x200B;成功导入信息源 | [!DNL Target]已将信息源文件导入其内容交付系统。 已在内容交付系统中对项目属性进行了更改，这些更改将很快地反映在交付的推荐中。 如果没有看到预期的更改，请重试并刷新包含推荐的页面。<br>注释：<ul><li>如果对项目属性所做的更改导致项目被排除在推荐之外，则会立即反映该排除项。 如果项目是新添加的，或者对属性的更改导致该项目不再&#x200B;*从推荐中*，则在下一次算法更新之前不会反映此项目，此过程将在24小时内发生。</li><li>显示此状态时，更新可能尚未反映在[!UICONTROL Catalog Search] UI中。 [!UICONTROL Catalog Search]中列出了单独的状态，指示上次更新可搜索目录的时间。</li></ul> |
+| 部分导入失败 | 以前，当所有行均未上传时，馈送仍会被标记为成功。 因此，会错误地认为所有行都已上载为信息源，这表明上载成功。<P>以下是您可能会遇到部分信息源导入的情景：<ul><li>您为生产环境上传了一个信息源文件，例如100行。</li><li>馈送运行并上传了这些行中的80行，由于格式不正确、字段超出字符数等原因，删除了20行。</li><li>馈送在UI中标记为成功，这让您感觉已上传所有100行。</li><li>您预计这20种产品中会有一部分在交付活动中出现，但实际上并未出现。</li><li> 您现在很困惑，因为您上传了包含相关产品的产品详细信息的信息源。 当您通过实体API进行查询时，您不会在后端看到它，这告知您它不在后端。</li></ul>为了消除这种混淆，改进了消息以确切告知馈送发生了什么情况。 它现在不会标记为成功，而是标记为部分导入失败。 |
 | [!UICONTROL Failed to Index] | 索引操作失败。请重试。 |
 | [!UICONTROL Server Not Found] | FTP 或 URL 位置无效或无法访问。 |
 
@@ -345,7 +346,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 了解信息源的用途
 * 了解信息源的值
 
->[!VIDEO](https://video.tv.adobe.com/v/33957?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### 创建信息源(6:44) ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -354,4 +355,4 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 设置信息源
 * 了解要使用哪种类型的信息源
 
->[!VIDEO](https://video.tv.adobe.com/v/33956?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

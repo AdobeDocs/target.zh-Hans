@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: dd7ec2fe38ea5bb6d34bdbf44876c291b356fc17
+source-git-commit: f1e01a8ba0eef99d2d6a02bd5c255da32ff64ce2
 workflow-type: tm+mt
-source-wordcount: '1896'
-ht-degree: 12%
+source-wordcount: '1914'
+ht-degree: 13%
 
 ---
 
@@ -31,28 +31,38 @@ ht-degree: 12%
 
 **活动**
 
++++查看详细信息
 * 修复了[!UICONTROL Activity QA] URL包含不必要查询参数的问题： `at_preview_evaluate_as_true_audience_ids`。 (TGT-52907)
 * 修复了预览URL错误地包含用户明确键入的受众以外的其他受众的问题。 已更正此行为，以确保在生成QA或预览链接时仅应用指定的受众。 (TGT-52912)
 * 修复了一个问题，如果在流量分配设置期间首先选择[!UICONTROL Auto-Target] (AA)，则该问题阻止用户创建[!UICONTROL Auto-Allocate] (AT)活动。 此问题会导致后端验证错误，并阻止保存活动。 (TGT-53096)
 
++++
+
 **受众**
 
++++查看详细信息
 * 修复了具有[!UICONTROL Approver]角色的用户无法添加或保存仅限该活动的受众细化的问题。 尝试这样做会导致403禁止错误，表明需要“[编辑者]”权限，即使用户具有足够的权限来批准和管理活动。 (TGT-52984)
 * 修复了使用[!UICONTROL Remove Audience Refinement]选项删除特定于活动的受众时，该受众不再出现在受众列表中以供在同一活动中重新选择的问题。 除非从头开始重新创建受众，否则此行为会阻止用户重新添加相同的受众。 (TGT-52979)
 * 修复了以下问题：从位置中删除后，甚至在保存活动之前，仅限该活动的受众细化都会立即从UI中消失。 此行为与预期功能和工具提示指导相冲突，该指导会指出：“保存活动后，将删除此库中所有未使用的受众。” (TGT-52982)
 * 修复了尝试将[!UICONTROL All Visitors]以外的受众分配给活动时的问题。 保存后，显示以下错误消息：“我们无法完成您的请求。 如果问题仍然存在，请联系[!UICONTROL Adobe Client Care]。” (TGT-53008)
 * 修复了在活动编辑器中创建和分配新受众后阻止保存活动的问题。 显示的错误消息为：“我们无法完成您的请求。 如果问题仍然存在，请联系[!UICONTROL Adobe Client Care]。” (TGT-52977)
 
-**[!UICONTROL Analytics for Target] (A4T)**
++++
 
+**[!UICONTROL Analytics for Target](A4T)**
+
++++查看详细信息
 * 修复了复制现有活动并将报表源更改为[!DNL Adobe Analytics] (A4T)会导致“用户输入无效”错误的问题。 当某些与[!DNL Analytics]报表不兼容的度量操作（如`restart_same_experience`、`restart_random_experience`和`restart_new_experience`）从原始活动中保留时触发了该错误。 (TGT-52900)
 * 修复了一个问题，在[!DNL Adobe Analytics]步骤中选择[!UICONTROL Goals & Settings] (A4T)作为报表源时，该问题阻止客户创建或保存活动。 选择[!UICONTROL Custom Event]量度（例如，“自定义事件16”）时具体出现问题，导致以下错误：“用户输入无效。” (TGT-52910)
 * 修复了单击“[!UICONTROL View in Analytics]”链接会将用户重定向到主页而非预期的[!DNL Analytics]仪表板的问题。 （TGT-53092 和 TGT-53093）
 * 修复了在克隆现有活动并将报表源从[!DNL Target]更改为[!DNL Adobe Analytics]时，用户遇到“400 — 无效用户输入”错误，导致无法保存活动的问题。 (TGT-52875)
 * 修复了在更新的[!DNL Recommendations] UI中查看[!UICONTROL Overview]活动时，选择[!UICONTROL Goals & Settings] (A4T)作为报表源时无法加载[!DNL Adobe Analytics]部分的问题。 显示以下错误消息：“出现错误。 我们无法完成您的请求。 如果问题仍然存在，请联系 Adobe 客户关怀部门。“(TGT-52999)
 
++++
+
 **[!UICONTROL Experiences]和[!UICONTROL Offers]**
 
++++查看详细信息
 * 修复了在[!UICONTROL Manage Content] (AP)活动中使用[!UICONTROL Automated Personalization]功能导致页面崩溃并保持空白的问题。 在内容管理器中单击[!UICONTROL Done]后出现此问题，尤其是在更新的UI中创建或编辑的活动中。 (TGT-53047)
 * 修复了在删除所有内容选项后，[!UICONTROL Manage Content]功能无法正确验证位置状态的问题。 在尝试保存或继续进行活动配置时，这可能会导致不一致的行为或错误。 (TGT-52801)
 * 修复了用户在添加新页面和删除不同体验中的特定元素时遇到“输入无效”错误的问题。 在元素操作期间，特别是在体验之间切换和修改共享页面结构时，通过生成重复的`LocalIds`触发了错误。 (TGT-52720)
@@ -60,17 +70,26 @@ ht-degree: 12%
 * 阐明了在客户处发生的行为，即从[!UICONTROL Targeting]步骤导航到[!UICONTROL Experiences]时，可能缺少使用HTML选件所做的修改。 对于此客户，受影响的网站会动态生成多个DOM选择器，这些选择器会随着每次页面加载而发生更改。 因此，在重新打开编辑器时，无法找到最初用于修改的选择器，从而导致修改丢失或无效。 这是按设计工作的。 为确保修改在编辑器中持久保留，建议客户端使用稳定、一致且不会因页面重新加载而更改的选取器。 (TGT-52874)
 * 修复了以下问题：尝试删除或停用作为已排除体验一部分的选件会触发“用户输入无效”错误。 即使未在包含的体验中主动使用选件，也会发生此问题。 (TGT-52917)
 
++++
+
 **Form-Based Experience Composer（基于表单的体验编辑器）**
 
++++查看详细信息
 * 修复了在基于表单的活动中，复制体验并编辑其中一个复制的体验中的自定义代码会无意间将这些更改应用于所有复制的体验的问题。 现在，每个体验在复制后可独立保留其自定义代码。 (TGT-51600)
+
++++
 
 **本地化**
 
++++查看详细信息
 * 修复了字符串“预览体验”的韩语区域设置(ko-KR)中的上下文翻译问题。 (TGT-52928)
 * 修复了多个文本字符串的简体中文(zh_CN)翻译中标识的术语不一致问题。 （TGT-52954 和 TGT-52955）
 
++++
+
 **[!DNL Recommendations]**
 
++++查看详细信息
 * 已添加新的[!DNL Recommendations]信息源[状态](/help/main/c-recommendations/c-products/feeds.md#status)： [!UICONTROL Partial Import Failed]。 (KB-2215)
 * 修复了在使用[!DNL Recommendations]添加[!UICONTROL promotions]时影响活动创建工作流的问题。 当用户选择“[!UICONTROL Promote by Attribute]”并添加筛选规则（例如[!UICONTROL Parameter Matching]）时，在保存和重新编辑活动后未保留所选规则类型和操作数值。 重新打开时，筛选规则类型将意外更改，并且缺少操作数值。 (TGT-53059)
 * 修复了[!DNL Recommendations] UI中的一个问题：使用单个规则创建的任何促销活动被错误地解释并显示为“项目列表”促销类型，而不管该规则的逻辑如何。 (TGT-53063)
@@ -81,13 +100,19 @@ ht-degree: 12%
 
   由于此差异，用户在UI中只能看到第一个值（导入计数），这会导致混淆。 现在，UI会显示这两个数字。 (TGT-53073)
 
++++
+
 **报表**
 
++++查看详细信息
 * 修复了从[!UICONTROL Export order details to CSV]页面中选择“[!UICONTROL Reports]”导致下载空文件的问题。 即使活动中存在有效的订单数据，也会发生此问题。 (TGT-52225)
 * 修复了在创建和分配新报表受众后尝试保存活动时的问题。 返回的错误消息为：“访问被拒绝。 要执行此操作，需要以下所有权限： [编辑器]。” 尽管用户具有审批者级别的访问权限，但还是出现了此问题。 (TGT-53103)
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
++++
 
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++查看详细信息
 * 解决了以下问题：将修改应用于视图会导致视图被重复并且活动返回“无效用户输入”错误。 此修复可确保正确应用视图修改，而不会触发复制或验证错误。 (TGT-52886)
 * 修复了自定义代码修改因错误体验而被错误显示的问题。 具体而言，针对某个体验所做的更改显示在不同的体验中，从而导致实时活动的混乱和潜在错误配置。 (TGT-52776)
 * 修复了一个问题，该问题阻止在新的VEC UI中编辑或保存自定义代码修改。 具体来说：
@@ -112,12 +137,14 @@ ht-degree: 12%
    * 通过右侧面板重命名选件更新了UI中的名称，但更改未反映在[!UICONTROL Manage Content]选项卡或[!UICONTROL Offers]选项卡中，从而导致持续验证错误。
    * 在MVT活动中，尽管在重命名后重复名称错误并未持续存在，但UI仍无法以一致的方式在各个选项卡反映更新的选件名称。 (TGT-52933)
 
++++
+
 ## 其他发行说明和版本详细信息
 
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明： Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

@@ -43,7 +43,7 @@ ht-degree: 12%
 * 修复了尝试将[!UICONTROL All Visitors]以外的受众分配给活动时的问题。 保存后，显示以下错误消息：“我们无法完成您的请求。 如果问题仍然存在，请联系[!UICONTROL Adobe Client Care]。” (TGT-53008)
 * 修复了在活动编辑器中创建和分配新受众后阻止保存活动的问题。 显示的错误消息为：“我们无法完成您的请求。 如果问题仍然存在，请联系[!UICONTROL Adobe Client Care]。” (TGT-52977)
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 * 修复了复制现有活动并将报表源更改为[!DNL Adobe Analytics] (A4T)会导致“用户输入无效”错误的问题。 当某些与[!DNL Analytics]报表不兼容的度量操作（如`restart_same_experience`、`restart_random_experience`和`restart_new_experience`）从原始活动中保留时触发了该错误。 (TGT-52900)
 * 修复了一个问题，在[!DNL Adobe Analytics]步骤中选择[!UICONTROL Goals & Settings] (A4T)作为报表源时，该问题阻止客户创建或保存活动。 选择[!UICONTROL Custom Event]量度（例如，“自定义事件16”）时具体出现问题，导致以下错误：“用户输入无效。” (TGT-52910)
@@ -86,7 +86,7 @@ ht-degree: 12%
 * 修复了从[!UICONTROL Export order details to CSV]页面中选择“[!UICONTROL Reports]”导致下载空文件的问题。 即使活动中存在有效的订单数据，也会发生此问题。 (TGT-52225)
 * 修复了在创建和分配新报表受众后尝试保存活动时的问题。 返回的错误消息为：“访问被拒绝。 要执行此操作，需要以下所有权限： [编辑器]。” 尽管用户具有审批者级别的访问权限，但还是出现了此问题。 (TGT-53103)
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 * 解决了以下问题：将修改应用于视图会导致视图被重复并且活动返回“无效用户输入”错误。 此修复可确保正确应用视图修改，而不会触发复制或验证错误。 (TGT-52886)
 * 修复了自定义代码修改因错误体验而被错误显示的问题。 具体而言，针对某个体验所做的更改显示在不同的体验中，从而导致实时活动的混乱和潜在错误配置。 (TGT-52776)

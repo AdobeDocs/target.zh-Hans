@@ -1,17 +1,17 @@
 ---
-keywords: 故障诊断;常见问题解答;FAQ;定位;受众
+keywords: 故障诊断;常见问题解答;FAQ;锁定;受众
 description: 查看有关Adobe [!DNL Target] 活动中使用的体验定位和受众的常见问题解答(FAQ)。
 title: 可在何处找到关于目标和受众的问答？
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
+source-git-commit: cf7f18b5fd9647bbecda2e6b6419c3a927708bd6
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 56%
+source-wordcount: '973'
+ht-degree: 53%
 
 ---
 
-# 定位和受众常见问题解答
+# 锁定和受众常见问题解答
 
 有关体验定位和受众的常见问题解答 (FAQ) 列表。
 
@@ -25,7 +25,7 @@ Target对URL的评估有所不同，具体取决于您在创建活动时是使�
 
 ### 受众URL定位
 
-要在创建活动时应用受众URL定位，请在体验页面（三步引导式工作流的步骤一）上，单击齿轮图标，单击页面交付，然后指定所需的URL。
+要在创建活动时应用受众URL定位，请在&#x200B;**[!UICONTROL Experiences]**&#x200B;页面（三步引导式工作流的步骤一）上单击&#x200B;**[!UICONTROL Configure]**&#x200B;图标（![配置图标](/help/main/assets/icons/Setting.svg)），单击&#x200B;**[!UICONTROL Page Delivery]**，然后指定所需的URL。
 
 ![页面交付URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -41,7 +41,7 @@ Target对URL的评估有所不同，具体取决于您在创建活动时是使�
 
 ### URL定位 {#url-targeting}
 
-要在创建受众时应用URL定位，请单击[!UICONTROL Add Rule]，单击[!UICONTROL Site Pages]，从第一个下拉列表中选择一个选项（[!UICONTROL Current Page]、[!UICONTROL Previous Page]或[!UICONTROL Landing Page]），从第二个下拉列表中选择[!UICONTROL URL]，指定计算器，然后指定所需的URL。
+要在创建受众时应用URL定位，请单击将&#x200B;**[!UICONTROL Site Pages]**&#x200B;拖放到[!UICONTROL Create Audiences]窗格中，单击&#x200B;**[!UICONTROL Site Pages]**，从第一个下拉列表（[!UICONTROL Current Page]、[!UICONTROL Previous Page]或[!UICONTROL Landing Page]）中选择一个选项，从第二个下拉列表中选择[!UICONTROL URL]，指定计算器，然后指定所需的URL。
 
 ![网站页面>当前页面> URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
@@ -80,9 +80,7 @@ URL定位会将URL转换为一组规则以进行评估：
 
 该用户符合在活动[!UICONTROL Target]页面上显示的第一个体验/受众的条件。
 
-例如，在下图中，一位使用 Windows 设备的加利福尼亚用户既符合体验 A（Windows 受众）的参加条件，又符合体验 C（加利福尼亚受众）的参加条件。但由于在“Target”页面上的列表中，体验 A 显示在体验 C 上方，因此会向该用户显示体验 A。
-
-![audiences_order图像](assets/audiences_order.png)
+例如，假设该体验/受众将Windows列为体验A，将iOS列为体验B，将加利福尼亚列为体验C。来自加利福尼亚州的使用Windows设备的用户同时符合体验A（Windows受众）和体验C（加利福尼亚受众）的条件。 但由于在“Target”页面上的列表中，体验 A 显示在体验 C 上方，因此会向该用户显示体验 A。
 
 ## 为何同一个受众在[!DNL Target]、Adobe Audience Manager (AAM)以及核心服务中的受众库中具有不同的名称？ {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
@@ -96,7 +94,7 @@ URL定位会将URL转换为一组规则以进行评估：
 
 ## 为什么所有配置文件参数都没有显示在[!DNL Target]用户界面中？ {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-[!DNL Target] 限制每个 mbox 调用只能包含 50 个唯一的配置文件属性。如果您需要将50个以上的配置文件属性传递到[!DNL Target]，则可以使用[!UICONTROL Profile Update] API方法来传递它们。 有关更多信息，请参阅 Adobe Target API 文档中的[配置文件更新](https://developers.adobetarget.com/api/#authentication-tokens)。
+[!DNL Target] 限制每个 mbox 调用只能包含 50 个唯一的轮廓属性。如果您需要将50个以上的配置文件属性传递到[!DNL Target]，则可以使用[!UICONTROL Profile Update] API方法来传递它们。 有关更多信息，请参阅 Adobe Target API 文档中的[配置文件更新](https://developers.adobetarget.com/api/#authentication-tokens)。
 
 ## 为何访客在 AP 活动中看到他们不应看到的体验？ {#section_41CECEAE0881446A8D9F3B016857914B}
 
@@ -104,7 +102,7 @@ URL定位会将URL转换为一组规则以进行评估：
 
 ## 为何对通过API创建的受众所做的更改未反映在[!DNL Target] UI中？ {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
-与选件和配置文件脚本不同，API 对通过 Target Standard 创建的受众所做的更改当前不会同步回 Target UI。
+与产品建议和轮廓脚本不同，API 对通过 Target Standard 创建的受众所做的更改当前不会同步回 Target UI。
 
 ## 表示数字的字符串（也支持浮点数）作为数字进行比较。{#strings-that-represent-numbers}
 

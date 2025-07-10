@@ -4,9 +4,9 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
+source-git-commit: 6bb44d984a80007834f9ca4917551e1a2c052798
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '670'
 ht-degree: 26%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 26%
 
 [!DNL Adobe Target] 是一种 [!DNL Adobe Experience Cloud] 解决方案，可为您提供定制和个性化客户体验所需的一切功能，从而最大限度地增加您的 Web 和移动设备网站、应用程序、社交媒体及其他数字渠道的收入。
 
-**上次更新日期：2025年7月8日（[查看更改内容](r-release-notes/doc-change.md) ）**
+**上次更新日期：2025年7月10日（[查看更改内容](r-release-notes/doc-change.md) ）**
 
 >[!BEGINTABS]
 
@@ -25,7 +25,7 @@ ht-degree: 26%
 
 [!DNL Target]团队已调整UI版本切换弃用的时间线。
 
-[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
+[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
 
 >[!TAB 新增功能？]
 
@@ -33,9 +33,9 @@ ht-degree: 26%
 
 [!DNL Target]团队已调整UI版本切换弃用的时间线。
 
-[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
+[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
 
-**目标25.6.4已上线！**
+**目标25.7.1已上线！**
 
 此版本重点针对更新的[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的修复和增强功能。
 
@@ -67,7 +67,7 @@ UI旨在清晰而高效，帮助您充分利用[!DNL Target]。 浏览各种资�
 
 **全面[!DNL Target]资源**
 
-多种格式的[!DNL Target]文档 — 分步UI指南、开发人员资源（包括SDK和API）、教程、视频、网络研讨会和生气勃勃的社区论坛。
+多种格式的[!DNL Target]文档：分步UI指南、开发人员资源（包括SDK和API）、教程、视频、网络研讨会和生气勃勃的社区论坛。
 
 [![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/target-documentation.md)
 

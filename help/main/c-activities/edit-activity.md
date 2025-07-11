@@ -4,9 +4,9 @@ description: 了解您可以使用哪些不同方式编辑现有活动，包括�
 title: 如何编辑活动或另存为草稿？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 9d9caa1d0d17f2126352d60f2ff1c09bfe87125e
+source-git-commit: fd368ba4a59c855fe9fc7c4bada4d93fcda006f0
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '925'
 ht-degree: 39%
 
 ---
@@ -92,11 +92,3 @@ ht-degree: 39%
 * 如果是将活动复制到其他工作区，则活动会被复制到其他工作区，而不是在活动创建流程中打开活动。成功复制活动后，会显示一条指示活动已成功复制的消息，消息中还包含用于打开新活动的链接。
 
 如果您的环境未启用“企业用户权限”功能，则在复制之前所有活动都将在编辑模式中打开。
-
-## 最佳实践
-
-* 作为最佳实践，请尝试使用最初用于创建该活动的相同方法（UI 或 API）更新该活动。
-
-  应通过[!DNL Target] UI更新使用[!DNL Target] UI创建的活动。 应通过 API 更新通过 API 创建的活动。例如，如果您最初使用API创建活动，但随后又通过[!DNL Target] UI编辑该活动，则并非所有更改都会更新。 所有更改都存储在后端，可通过再次调用API更新这些更改。
-
-

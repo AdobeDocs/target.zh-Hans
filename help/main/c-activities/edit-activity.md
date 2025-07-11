@@ -1,23 +1,23 @@
 ---
 keywords: 活动;活动类型;编辑活动;编辑;草稿
-description: 了解在Adobe Target中编辑现有活动的各种方式，包括以草稿形式保存活动。
+description: 了解您可以使用哪些不同方式编辑现有活动，包括以草稿形式保存活动。
 title: 如何编辑活动或另存为草稿？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: cdd2a3995ef5b386afd45fed17c490ab9e6864fa
+source-git-commit: 9d9caa1d0d17f2126352d60f2ff1c09bfe87125e
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 44%
+source-wordcount: '1010'
+ht-degree: 39%
 
 ---
 
 # 编辑活动或另存为草稿
 
-了解如何在[!DNL Adobe Target]中编辑现有活动，包括如何将更改另存为草稿。 本文介绍[!DNL Target]界面中可用于修改活动的各种方法，无论您是要更新体验、调整定位规则还是配置目标，同时还要确保在激活之前安全保存更改。
+了解如何在[!DNL Adobe Target]中编辑现有活动，包括如何将更改另存为草稿。 本文介绍[!DNL Target]界面中用于修改活动的各种方法。 无论您是更新体验、调整定位规则还是配置目标，Target都可以确保在激活之前安全保存您所做的更改。
 
-[!DNL Target]在UI中提供了多个可编辑现有活动的位置。 根据您选择的方法，编辑过程会有所不同。
+[!DNL Target]在UI中提供了多个可编辑现有活动的位置。 此过程因您选择的方法而异。
 
-## 在活动页面上通过使用悬停鼠标显示的按钮来编辑活动 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## 在“活动”页面上通过使用悬停[!UICONTROL More Actions]图标来编辑活动 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. 在&#x200B;**[!UICONTROL Activities]**&#x200B;页面中，单击要编辑的活动旁边的&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg)），然后单击&#x200B;[!UICONTROL **编辑**]。
 
@@ -32,7 +32,7 @@ ht-degree: 44%
    * **[!UICONTROL Save & Close]：**&#x200B;单击&#x200B;**[!UICONTROL Save and Close]**&#x200B;以保存更改并显示活动的[!UICONTROL Overview]页面。
    * **保存：**&#x200B;单击&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallListVert.svg) ），然后选择&#x200B;**[!UICONTROL Save]**&#x200B;以保存您的更改并保留在VEC中，以便您可以继续做出更改。 等待保存完成后，可进行其他更改。保存完成后，VEC 会重新加载以显示刷新的更改。
 
-## 在[!UICONTROL Activities]页面上通过单击活动名称以将其打开来编辑活动 {#section_176180DAD17E40CEA441903F39E0AA1C}
+## 从[!UICONTROL Activities]页面中单击活动名称以编辑该活动 {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. 要避免逐步完成此工作流，请从[!UICONTROL Activities]页面中单击所需的活动以将其打开，从&#x200B;**[!UICONTROL Edit Activity]**&#x200B;下拉列表中选择一个选项，然后选择所需的选项。
 
@@ -63,7 +63,7 @@ ht-degree: 44%
 
 如果您已开始设置某个活动，但尚未准备好运行该活动，则可以将其保存为草稿。
 
-1. 创建新活动，或编辑以草稿形式保存的现有活动。
+1. 创建新活动或编辑草稿形式的现有活动。
 1. 从拆分按钮中选择所需的选项：
 
    ![保存草稿](/help/main/c-activities/assets/save_draft.png)
@@ -88,7 +88,7 @@ ht-degree: 44%
 
 在工作区中使用复制/编辑功能时，请考虑以下信息：
 
-* 如果是在同一工作区中复制活动，则会在编辑模式中打开新复制活动创建流程的第一步。
+* 在同一工作区中复制活动时，新复制活动的创建流程的第一步将在编辑模式下打开。
 * 如果是将活动复制到其他工作区，则活动会被复制到其他工作区，而不是在活动创建流程中打开活动。成功复制活动后，会显示一条指示活动已成功复制的消息，消息中还包含用于打开新活动的链接。
 
 如果您的环境未启用“企业用户权限”功能，则在复制之前所有活动都将在编辑模式中打开。

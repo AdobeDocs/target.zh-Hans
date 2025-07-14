@@ -1,14 +1,14 @@
 ---
-keywords: 发行说明；新功能；版本；更新；更新；版本；增强；增强；修复；错误修复；更新、当前更新
+keywords: 发行说明；新功能；版本；更新；更新；版本；增强；增强；修复；错误修复；更新；当前更新
 description: 了解  [!DNL Adobe Target] 当前版本中包括的新功能、增强和修复，包括 SDK、API 和 JavaScript 库。
 landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功能、增强功能和修复。
 short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功能、增强功能和修复。
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 576ec970f572176b28d1b9f050706574e6813b0c
+source-git-commit: e612ec5814c931349699b6b4d2c9fa71b493413c
 workflow-type: tm+mt
-source-wordcount: '2514'
+source-wordcount: '2594'
 ht-degree: 13%
 
 ---
@@ -99,14 +99,14 @@ ht-degree: 13%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++查看详细信息
 * 修复了复制现有活动并将报表源更改为[!DNL Adobe Analytics] (A4T)会导致“用户输入无效”错误的问题。 当某些与[!DNL Analytics]报表不兼容的度量操作（如`restart_same_experience`、`restart_random_experience`和`restart_new_experience`）从原始活动中保留时触发了该错误。 (TGT-52900)
 * 修复了一个问题，在[!DNL Adobe Analytics]步骤中选择[!UICONTROL Goals & Settings] (A4T)作为报表源时，该问题阻止客户创建或保存活动。 选择[!UICONTROL Custom Event]量度（例如，“自定义事件16”）时具体出现问题，导致以下错误：“用户输入无效。” (TGT-52910)
 * 修复了单击“[!UICONTROL View in Analytics]”链接会将用户重定向到主页而非预期的[!DNL Analytics]仪表板的问题。 （TGT-53092 和 TGT-53093）
-<!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)
-* Fixed an issue when viewing a [!DNL Recommendations] activity in the updated [!UICONTROL Overview] UI, the [!UICONTROL Goals & Settings] section fails to load when [!DNL Adobe Analytics] (A4T) is selected as the reporting source. The following error message was displayed: "Something went wrong. We cannot complete your request. Please contact Adobe Client Care if the problem persists." (TGT-52999)-->
+  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
+* 修复了在更新的[!DNL Recommendations] UI中查看[!UICONTROL Overview]活动时，选择[!UICONTROL Goals & Settings] (A4T)作为报表源时无法加载[!DNL Adobe Analytics]部分的问题。 显示以下错误消息：“出现错误。 我们无法完成您的请求。 如果问题仍然存在，请联系 Adobe 客户关怀部门。“(TGT-52999)
 
 +++
 
@@ -132,8 +132,7 @@ ht-degree: 13%
 **本地化**
 
 +++查看详细信息
-* 修复了字符串“预览体验”的韩语区域设置(ko-KR)中的上下文翻译问题。 (TGT-52928)
-* 修复了多个文本字符串的简体中文(zh_CN)翻译中标识的术语不一致问题。 （TGT-52954 和 TGT-52955）
+* 更新了新UI中法语(fr_FR)、德语(de_DE)、意大利语(it_IT)、朝鲜语(ko_KO)和简体中文(zh_CN)的本地化字符串。
 
 +++
 
@@ -145,6 +144,7 @@ ht-degree: 13%
 * 修复了[!DNL Recommendations] UI中的一个问题：使用单个规则创建的任何促销活动被错误地解释并显示为“项目列表”促销类型，而不管该规则的逻辑如何。 (TGT-53063)
 * 修复了在使用更新的[!UICONTROL Overview]UI时，包含[!UICONTROL Download Recommendations Data]的[!UICONTROL Experience Targeting] (XT)活动缺少“[!DNL Recommendations]”按钮的问题。 （TGT-52730 和 TGT-52756）
 * 以前，推荐UI仅显示从信息源成功导入的实体数。 但是，后端消息格式包括格式为`# of entities imported / # of total entities`的导入实体数和实体总数。 由于此差异，用户在UI中只能看到第一个值（导入计数），这会导致混淆。 现在，UI会显示这两个数字。 (TGT-53073)
+* 修复了在包含推荐的基于表单的A/B活动中配置“[!UICONTROL Promote by attribute]”促销活动时，客户无法保存筛选规则的问题。 保存并重新打开活动后，缺少筛选规则，无法成功保存活动。 (TGT-53057)
 
 +++
 
@@ -156,7 +156,7 @@ ht-degree: 13%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看详细信息
 * 解决了以下问题：将修改应用于视图会导致视图被重复并且活动返回“无效用户输入”错误。 此修复可确保正确应用视图修改，而不会触发复制或验证错误。 (TGT-52886)
@@ -190,7 +190,7 @@ ht-degree: 13%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

@@ -4,10 +4,10 @@ description: 了解可用于编辑现有活动的各种方式。
 title: 如何编辑活动？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: cf7bc0f9ce72d5a170db76f5a932b196d4e1ddb0
+source-git-commit: 34633032385f848dcc87fe1bc8cd025e42bcc3e9
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 28%
+source-wordcount: '883'
+ht-degree: 24%
 
 ---
 
@@ -67,13 +67,13 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->“属性和权限”功能作为 [!DNL Target Premium] 解决方案的一部分提供，而“工作区”又是“属性和权限”功能的一部分。如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
+>工作区是[!UICONTROL Properties and Permissions]解决方案中可用的[!DNL Target Premium]功能的一部分。 如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
 
 如果您所在的组织是跨国组织，则您可能拥有两个工作区：一个用于欧洲网页、属性或网站，而另一个用于美国网页、属性或网站。如果您所在的组织拥有多个品牌，则您的每个品牌可能有其独立的工作区。
 
 有关工作区和企业用户权限功能的详细信息，请参阅[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)。
 
-如果您的环境中启用了“企业用户权限”，则可以将活动复制到同一工作区或其他工作区。当前，无法将活动从一个工作区移到另一个工作区。要将活动复制到另一个工作区，请从[!UICONTROL Activities]页面中单击要复制的活动旁边的&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg)），然后单击&#x200B;[!UICONTROL **复制**]&#x200B;或&#x200B;**[!UICONTROL Edit]**。
+如果您在环境中启用了[!UICONTROL Enterprise User Permissions]，则可以将活动复制到同一工作区或另一个工作区。 当前，无法将活动从一个工作区移到另一个工作区。要将活动复制到另一个工作区，请从[!UICONTROL Activities]页面中单击要复制的活动旁边的&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg)），然后单击&#x200B;[!UICONTROL **复制**]。
 
 在工作区中使用复制/编辑功能时，请考虑以下信息：
 

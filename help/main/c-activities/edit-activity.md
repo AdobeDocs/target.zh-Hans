@@ -1,13 +1,13 @@
 ---
-keywords: 活动；活动类型；编辑活动；编辑
+keywords: 活动；活动类型；编辑活动；编辑；复制
 description: 了解可用于编辑现有活动的各种方式。
 title: 如何编辑活动？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 41%
+source-wordcount: '889'
+ht-degree: 28%
 
 ---
 
@@ -77,7 +77,24 @@ ht-degree: 41%
 
 在工作区中使用复制/编辑功能时，请考虑以下信息：
 
-* 在同一工作区中复制活动时，新复制活动的创建流程的第一步将在编辑模式下打开。
-* 如果是将活动复制到其他工作区，则活动会被复制到其他工作区，而不是在活动创建流程中打开活动。成功复制活动后，会显示一条指示活动已成功复制的消息，消息中还包含用于打开新活动的链接。
+* 如果在同一工作区中复制活动，或者将活动从默认工作区复制到非默认工作区，则会自动打开“活动向导”。 在跨工作区副本中，您可能只需要更新活动属性。
+* 将活动从非默认工作区复制到另一个工作区（默认或非默认）时，将打开活动向导，并且需要一些手动输入才能完成设置：
+   * **[!UICONTROL Properties]**：不同工作区之间的属性可能不同。 此情况可能会触发警告：
 
-如果您的环境未启用“企业用户权限”功能，则在复制之前所有活动都将在编辑模式中打开。
+      * 在[!UICONTROL Form-Based Experience Composer]中，警告将直接显示在用户界面中，以便立即可见。
+
+        ![基于表单的工作区警告](/help/main/c-activities/assets/form-based-warning.png)
+
+      * 在VEC中，单击[!UICONTROL Configure] > [!UICONTROL Properties]时会显示警告。
+
+        ![vec警告](/help/main/c-activities/assets/vec-warning.png)
+
+        要解决此问题，请单击[!UICONTROL Add/Remove]，以便只显示目标工作区中可用的属性以供选择。
+
+   * **受众和选件**：必须替换原始工作区中的所有受众和选件。 或者，您也可以从[!UICONTROL Audiences]或[!UICONTROL Offers]页面复制它们，然后从活动内的相应列表中选择相应的项目。
+
+   * **必需的手动更改**：所有必需的手动更改都在最后步骤([!UICONTROL Save & Close])中汇总。 此时弹出窗口会显示需要更新的实体列表，这有助于确保在完成活动设置之前完成所有必要的调整。
+
+     ![Workspace验证警告](/help/main/c-activities/assets/work-space-validation.png)
+
+如果您的环境未启用[!UICONTROL Enterprise User Permissions]功能，则在复制之前，所有活动都会以编辑模式打开。

@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e612ec5814c931349699b6b4d2c9fa71b493413c
+source-git-commit: d6d58e94f4d4745b0783321671025d9cdd07f57f
 workflow-type: tm+mt
-source-wordcount: '2594'
-ht-degree: 13%
+source-wordcount: '3287'
+ht-degree: 12%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 13%
 
 ![Target UI版本切换](/help/main/r-release-notes/assets/toggle.png)
 
-转出完成后，切换将被删除，所有用户都将永久转换为更新后的UI。 [!DNL Adobe]建议提前计划，因为此功能将很快淘汰。
+转出完成后，切换将被删除，所有用户将永久转换为更新后的UI。 [!DNL Adobe]建议提前计划，因为此功能将很快淘汰。
 
 #### 弃用时间线
 
@@ -61,8 +61,8 @@ ht-degree: 13%
 以下信息介绍了在选择使用版本切换时应该注意的限制：
 
 * **新活动的可见性**：如果切换回旧版UI，则在更新后的UI中创建的活动将不可见。
-* **编辑现有活动**：使用更新的UI时，对现有活动（最初在旧版UI中创建）所做的更改将发布到您的网站。 但是，如果切换回去，这些更新将不会在旧版UI中显示；只有从旧版UI进行的最后一次更新将显示在该处。
-* **活动详细信息的一致性**：无论您使用哪个UI，最新更改都将反映在您的实时网站上。 但是，旧版UI将仅显示从该版本中进行的最新更改。 如果在更新的UI中编辑的活动与您在旧版UI中看到的不同，则可能会导致混淆。
+* **编辑现有活动**：在使用更新的UI时，对现有活动（最初在旧版UI中创建）所做的更改将发布到您的网站。 但是，如果切换回去，这些更新在旧版UI中不可见；只有从旧版UI中进行的最后一次更新会出现在那里。
+* **活动详细信息的一致性**：无论您使用哪个UI，最新更改都会反映在您的实时网站上。 但是，旧版UI仅显示从该版本中进行的最新更改。 如果在更新的UI中编辑的活动与您在旧版UI中看到的活动外观不同，这种情况可能会导致混淆。
 
 #### 更多资源以了解更新的UI
 
@@ -72,6 +72,91 @@ ht-degree: 13%
 * [了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供简要概述以帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
 * [[!UICONTROL Visual Experience Composer]更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)： [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）引入了更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文介绍VEC旧版本与更新版本之间的差异。
 * [[!UICONTROL Visual Experience Composer]选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文介绍更新的VEC UI及其选项。
+
++++
+
+## [!DNL Target Standard/Premium] 25.7.2（2025年7月18日）
+
+由于最近发现的问题（主要与复杂的客户自定义相关），此版本包含以下修复和更新：
+
+**活动**
+
++++查看详细信息
+* 在取消具有未保存更改的活动编辑时添加了额外的确认警告：“是否确实要保存此活动？ 如果不保存，您的所有更改都将丢失。” 此消息有助于防止意外数据丢失。 (TGT-52865)
+* 已将[!UICONTROL Priority]中的旧版功能恢复到[!UICONTROL Goals & Settings]滑块，允许客户直接输入数值，如旧版UI中所支持。 （TGT-53185 和 TGT-53219）
+
++++
+
+**受众**
+
++++查看详细信息
+* 修复了阻止保存或编辑包含自定义受众的活动的问题。 客户遇到错误消息“我们无法完成您的请求。 如果问题仍然存在，请联系[!DNL Adobe Client Care]。” 尝试保存对特定活动的更改，甚至不保存任何更改时。 (TGT-53189)
+
++++
+
+**[!UICONTROL Analytics for Target](A4T)**
+
++++查看详细信息
+* 修复了客户在[!UICONTROL Goals & Settings]页面上查看特定活动的报表时，[!UICONTROL View in Analytics]链接错误地指向QA环境而不是生产环境的问题。 (TGT-53163)
+
++++
+
+**[!UICONTROL Experiences]和[!UICONTROL Offers]**
+
++++查看详细信息
+* 修复了通过自定义代码调用`triggerView`导致无限循环的问题。 (TGT-52885)
+* 修复了导致为活动定义的`LocalIds`与在体验定义中使用的那些`LocalIds`之间不匹配的问题。 (TGT-52669)
+* 修复了活动[!UICONTROL Overview]页面上缺少量度名称的问题，该问题仅显示“选件”而不是正确的量度名称。 (TGT-53054)
+
++++
+
+**Form-Based Experience Composer（基于表单的体验编辑器）**
+
++++查看详细信息
+* 修复了[!UICONTROL Form-Based Experience Composer]中阻止活动保存并触发错误消息“无法读取未定义的属性（读取&#39;map&#39;）”的问题。 (TGT-53145)
+
++++
+
+**推荐**
+
++++查看详细信息
+* 修复了单击[!UICONTROL Catalog Search]中的产品时显示“无法检索产品详细信息”错误并在没有关闭选项的情况下打开模式窗口的问题。 (TGT-53082)
+* 修复了在更改收藏集或促销活动时，[活动中作为选件的](/help/main/c-recommendations/recommendations-as-an-offer.md)推荐[!UICONTROL A/B Test]未正确更新的问题。 (TGT-52884)
+* 修复了生产环境中，在更新的UI中单击实体时显示错误：“无法检索产品详细信息”的问题。 如果此问题仍然存在，请联系[!DNL Adobe Client Care]。” (TGT-53071)
+
++++
+
+**报表**
+
++++查看详细信息
+* 修复了将订单详细信息保存到CSV文件导致文件空的问题。 (TGT-52225)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++查看详细信息
+* 解决了[!UICONTROL Goals & Settings]页面上的问题：在多个体验中使用的选择器无法一致地高亮显示为选定选定项。 (TGT-53062)
+* 修复了阻止活动编辑的问题并触发错误消息：“无法读取未定义的属性（读取&#39;map&#39;）”。 (TGT-53161)
+
++++
+
+**工作区**
+
++++查看详细信息
+* 改进了在切换工作区时对ad-hoc选件的处理。
+   * 现在，从默认工作区切换到非默认工作区（或非默认工作区）时，可以正确复制临时选件。 在初始化过程中，会更新工作区上下文，并为选件分配一个新ID以确保唯一性。
+   * 在同一个工作区中停留时不会发生任何更改。 (TGT-53079)
+* 修复了阻止客户[在不同工作区之间复制活动的问题](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)。 （TGT-52753 和 TGT-47094）
+* 修复了在工作区之间更改属性时出现的问题。
+   * 在默认工作区与非默认工作区之间切换时，如果目标工作区中存在当前属性，则保留该属性。
+   * 如果[!UICONTROL Properties]列表显示警告（可能表示某些属性可能不兼容），并且客户单击[!UICONTROL Add]或[!UICONTROL Remove]然后单击[!UICONTROL Save]，则将删除目标工作区之外的所有属性。 如果客户单击[!UICONTROL Cancel]，则所有属性都将保留，即使目标工作区中不存在这些属性。 (TGT-47094)
+   * 如果保留在同一个工作区中，或从非默认工作区切换到默认工作区或其他工作区，则所有内容将保持不变。 (TGT-53078)
+* 更新了实体验证逻辑以遵循活动的原始工作区上下文。 诸如[!UICONTROL Experience Fragments] (XF)之类的实体现在已根据最初创建该活动的工作区进行验证。 例如，如果默认工作区中存在XF，并且活动从工作区X复制到工作区Y，则只要XF在原始（默认）工作区中有效，验证仍会传递。 (TGT-53196)
+* 在活动复制期间对复制临时受众的增强支持。
+   * 临时受众（包括量度、报表、页面和仅限该活动的类型）现在会在以下场景中自动复制：
+      * 将活动从默认工作区复制到非默认工作区时。
+      * 在同一工作区中复制活动时。 (TGT-53197)
 
 +++
 
@@ -99,7 +184,7 @@ ht-degree: 13%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++查看详细信息
 * 修复了复制现有活动并将报表源更改为[!DNL Adobe Analytics] (A4T)会导致“用户输入无效”错误的问题。 当某些与[!DNL Analytics]报表不兼容的度量操作（如`restart_same_experience`、`restart_random_experience`和`restart_new_experience`）从原始活动中保留时触发了该错误。 (TGT-52900)
@@ -114,10 +199,10 @@ ht-degree: 13%
 
 +++查看详细信息
 <!-- * Fixed an issue where using the [!UICONTROL Manage Content] feature in [!UICONTROL Automated Personalization] (AP) activities caused the page to crash and remain blank. This issue occurred after clicking [!UICONTROL Done] in the content manager, particularly in activities created or edited in the updated UI. (TGT-53047)-->
-* 修复了在删除所有内容选项后，[!UICONTROL Manage Content]功能无法正确验证位置状态的问题。 在尝试保存或继续进行活动配置时，这可能会导致不一致的行为或错误。 (TGT-52801)
-* 修复了用户在添加新页面和删除不同体验中的特定元素时遇到“输入无效”错误的问题。 在元素操作期间，特别是在体验之间切换和修改共享页面结构时，通过生成重复的`LocalIds`触发了错误。 (TGT-52720)
+* 修复了在删除所有内容选项后，[!UICONTROL Manage Content]功能无法正确验证位置状态的问题。 在尝试保存或继续进行活动配置时，此问题可能会导致不一致的行为或错误。 (TGT-52801)
+* 修复了用户在添加新页面和删除不同体验中的特定元素时遇到“输入无效”错误的问题。 在元素操作期间，特别是在体验之间切换和修改共享页面结构时，通过生成重复的`LocalIds`触发了该错误。 (TGT-52720)
 * 修复了使用[!UICONTROL Generate Adhoc Offer]功能导致[!UICONTROL Manage Content]面板中出现未定义位置的问题。 （TGT-53076 和 TGT-53070）
-* 阐明了在客户处发生的行为，即从[!UICONTROL Targeting]步骤导航到[!UICONTROL Experiences]时，可能缺少使用HTML选件所做的修改。 对于此客户，受影响的网站会动态生成多个DOM选择器，这些选择器会随着每次页面加载而发生更改。 因此，在重新打开编辑器时，无法找到最初用于修改的选择器，从而导致修改丢失或无效。 这是按设计工作的。 为确保修改在编辑器中持久保留，建议客户端使用稳定、一致且不会因页面重新加载而更改的选取器。 (TGT-52874)
+* 阐明了在客户处发生的行为，即从[!UICONTROL Targeting]步骤导航到[!UICONTROL Experiences]时，可能缺少使用HTML选件所做的修改。 对于此客户，受影响的网站会动态生成多个DOM选择器，这些选择器会随着每次页面加载而发生更改。 因此，在重新打开编辑器时，无法找到最初用于修改的选择器，从而导致修改丢失或无效。 此方案按设计要求运行。 为确保修改在编辑器中持久保留，建议客户端使用稳定、一致且不会因页面重新加载而更改的选取器。 (TGT-52874)
 * 修复了以下问题：尝试删除或停用作为已排除体验一部分的选件会触发“用户输入无效”错误。 即使未在包含的体验中主动使用选件，也会发生此问题。 (TGT-52917)
 
 +++
@@ -156,7 +241,7 @@ ht-degree: 13%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看详细信息
 * 解决了以下问题：将修改应用于视图会导致视图被重复并且活动返回“无效用户输入”错误。 此修复可确保正确应用视图修改，而不会触发复制或验证错误。 (TGT-52886)
@@ -190,7 +275,7 @@ ht-degree: 13%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

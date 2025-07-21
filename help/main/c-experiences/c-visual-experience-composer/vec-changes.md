@@ -4,9 +4,9 @@ description: 了解Adobe Target 25.2.1版本（2025年2月17日）中可视化�
 title: 新可视化体验编辑器(VEC)中引入哪些更改？
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->更新的[!UICONTROL Visual Editing Composer]需要[!DNL Chrome Web Store]中可用的[!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+>更新的[!UICONTROL Visual Editing Composer]需要[!DNL Adobe Experience Cloud]中可用的[[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)扩展[!DNL Chrome Web Store]。
 
 创建或编辑现有活动时将显示VEC。
 
@@ -43,17 +43,29 @@ ht-degree: 0%
 
 要添加新组件，请将组件从要插入的[!UICONTROL Components]边栏拖动到[!UICONTROL Design]画布中的现有页面元素上。 然后选择将组件插入到选定元素的前面，也就是之后。
 
+>[!NOTE]
+>
+>如果您在此区域中看到[!UICONTROL Modifications]边栏而不是[!UICONTROL Components]边栏，请单击&#x200B;**[!UICONTROL Show Components]**&#x200B;图标（![显示组件图标](/help/main/assets/icons/Add.svg)）。 [!UICONTROL Show Components]图标（![显示组件图标](/help/main/assets/icons/Add.svg)）和[!UICONTROL Show Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg)）用作显示相应选项的切换。
+>
+>要折叠[!UICONTROL Components]边栏并放大[!UICONTROL Design]画布，请在[!UICONTROL Components]边栏打开时单击（![显示组件图标](/help/main/assets/icons/Add.svg) ）图标。
+
 ### [!UICONTROL Modifications]边栏
 
-要打开[!UICONTROL Modifications]边栏，请单击[!UICONTROL Components]边栏中的[!UICONTROL Show Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg)）。 [!UICONTROL Modifications]边栏从编辑画布的右侧更改为左侧。
+要打开[!UICONTROL Modifications]边栏，请单击[!UICONTROL Show Modifications]边栏中的![图标（](/help/main/assets/icons/History.svg)显示修改边栏[!UICONTROL Components]）。 [!UICONTROL Modifications]边栏从编辑画布的右侧更改为左侧。
 
 ![修改边栏](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>[!UICONTROL Show Components]图标（![显示组件图标](/help/main/assets/icons/Add.svg)）和[!UICONTROL Show Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg)）用作显示相应选项的切换。
+>
+>要在[!UICONTROL Modifications]边栏打开时折叠[!UICONTROL Design]边栏并放大[!UICONTROL Modifications]画布，请单击[!UICONTROL Show Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg) ）图标。
 
 [!UICONTROL Modifications]边栏显示对VEC中的页面所做的所有更改，并允许您进行其他更改（如CSS选择器、Mbox和自定义代码）。
 
 单击[!UICONTROL More Options]图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg) ）以添加修改、删除所有修改或删除所有无效修改。 单击[!UICONTROL Select]以执行批量操作： [!UICONTROL Apply to All Pages]或[!UICONTROL Delete]。
 
-要再次显示[!UICONTROL Modifications]边栏，请单击[!UICONTROL Modifications]边栏中的[!UICONTROL Hide Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg)）。
+要再次显示[!UICONTROL Modifications]边栏，请单击[!UICONTROL Hide Modifications]边栏中的![图标（](/help/main/assets/icons/History.svg)显示修改边栏[!UICONTROL Modifications]）。
 
 ### [!UICONTROL Properties]边栏（新）
 
@@ -79,7 +91,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Design]/[!UICONTROL Browse]模式
 
-使用[!UICONTROL Properties]边栏顶部显示的[!UICONTROL Design]/[!UICONTROL Browse]切换功能，在设计模式和浏览模式之间切换。
+使用[!UICONTROL Design]边栏顶部显示的[!UICONTROL Browse]/[!UICONTROL Properties]切换功能，在设计模式和浏览模式之间切换。
 
 ![设计和浏览切换](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
@@ -113,7 +125,7 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 
 * [[!DNL Target Standard/Premium] 25.2.1（2025年2月17日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!DNL Target]中[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)的关键UI更改的摘要。
 
-* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!UICONTROL Offers Library]在[!DNL Target]中关键UI更改的摘要。
+* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!DNL Target]在[!UICONTROL Offers Library]中关键UI更改的摘要。
 
 * [了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供简要概述以帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
 

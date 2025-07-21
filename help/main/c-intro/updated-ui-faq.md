@@ -4,10 +4,10 @@ description: 有关更新的 [!DNL Target]t用户界面的问答。
 title: 可在何处找到有关更新的 [!DNL Target] UI的常见问题解答？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 0%
+source-wordcount: '1084'
+ht-degree: 1%
 
 ---
 
@@ -79,11 +79,29 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 
 +++
 
-## [!UICONTROL Save as Draft]和[!UICONTROL Syncing]状态是否仍然可用？
+## 我可以折叠[!UICONTROL Components]和[!UICONTROL Modifications]边栏以放大[!UICONTROL Design]面板吗？ {#collapse}
 
 +++详细信息
 
+可以，您可以折叠两个边栏以允许您展开[!UICONTROL Design]画布以便于编辑。 以下是具体操作方法：
 
+>[!NOTE]
+>
+>[!UICONTROL Show Components]图标（![显示组件图标](/help/main/assets/icons/Add.svg)）和[!UICONTROL Show Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg)）用作显示相应选项的切换。
+
+**折叠[!UICONTROL Components]边栏**
+
+要折叠[!UICONTROL Components]边栏并放大[!UICONTROL Design]画布，请在[!UICONTROL Components]边栏打开时单击（![显示组件图标](/help/main/assets/icons/Add.svg) ）图标。
+
+**折叠[!UICONTROL Modifications]边栏**
+
+要在[!UICONTROL Modifications]边栏打开时折叠[!UICONTROL Design]边栏并放大[!UICONTROL Modifications]画布，请单击[!UICONTROL Show Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg) ）图标。
+
++++
+
+## [!UICONTROL Save as Draft]和[!UICONTROL Syncing]状态是否仍然可用？
+
++++详细信息
 随着用户界面的最新更新，[!UICONTROL Save as Draft]和[!UICONTROL Syncing]状态将不再可用。 有关详细信息，请参阅[中](/help/main/c-activities/activities.md#filters)将筛选器应用到“活动”列表&#x200B;*[!UICONTROL Activities overview]*&#x200B;下的状态。
 
 +++

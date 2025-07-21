@@ -4,7 +4,7 @@ description: 了解即将发布的 [!DNL Adobe Target]版本中包括的新功�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: df7e28060a6add53e1aaed928351b4f399b19c17
+source-git-commit: 2812132c2720f54fa7bee2b0a5e16623362fdc33
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 34%
@@ -33,6 +33,8 @@ ht-degree: 34%
 
 +++查看详细信息
 * 修复了Builder类中的`buildViews`方法不正确地将`viewMaxLocalId`设置为视图总计数而不是分配的最高值`viewLocalId`的问题。 (TGT-53207)
+
++++
 
 **Form-Based Experience Composer（基于表单的体验编辑器）**
 
@@ -69,7 +71,7 @@ ht-degree: 34%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明： Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

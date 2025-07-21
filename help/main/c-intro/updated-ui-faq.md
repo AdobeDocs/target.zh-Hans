@@ -4,10 +4,10 @@ description: 有关更新的 [!DNL Target]t用户界面的问答。
 title: 可在何处找到有关更新的 [!DNL Target] UI的常见问题解答？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 1%
+source-wordcount: '1112'
+ht-degree: 0%
 
 ---
 
@@ -79,11 +79,11 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 
 +++
 
-## 我可以折叠[!UICONTROL Components]和[!UICONTROL Modifications]边栏以放大[!UICONTROL Design]面板吗？ {#collapse}
+## 我可以折叠[!UICONTROL Components]、[!UICONTROL Modifications]和[!UICONTROL Properties]边栏以放大[!UICONTROL Design]面板吗？ {#collapse}
 
 +++详细信息
 
-可以，您可以折叠两个边栏以允许您展开[!UICONTROL Design]画布以便于编辑。 以下是具体操作方法：
+可以，您可以折叠这些边栏以允许您展开[!UICONTROL Design]画布以便于编辑。 以下是具体操作方法：
 
 >[!NOTE]
 >
@@ -96,6 +96,10 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 **折叠[!UICONTROL Modifications]边栏**
 
 要在[!UICONTROL Modifications]边栏打开时折叠[!UICONTROL Design]边栏并放大[!UICONTROL Modifications]画布，请单击[!UICONTROL Show Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg) ）图标。
+
+**折叠[!UICONTROL Properties]边栏**
+
+要折叠[!UICONTROL Properties]边栏并放大[!UICONTROL Design]画布，请单击边栏右侧的[!UICONTROL Show/Hide Properties]图标（![属性图标](/help/main/assets/icons/Propertie.svg)）以折叠或显示[!UICONTROL Properties]边栏。
 
 +++
 

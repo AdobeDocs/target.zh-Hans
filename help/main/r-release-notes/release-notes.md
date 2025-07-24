@@ -191,7 +191,7 @@ ht-degree: 11%
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++查看详细信息
 * 修复了客户在[!UICONTROL Goals & Settings]页面上查看特定活动的报表时，[!UICONTROL View in Analytics]链接错误地指向QA环境而不是生产环境的问题。 (TGT-53163)
@@ -230,7 +230,7 @@ ht-degree: 11%
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++查看详细信息
 * 解决了[!UICONTROL Goals & Settings]页面上的问题：在多个体验中使用的选择器无法一致地高亮显示为选定选定项。 (TGT-53062)
@@ -281,7 +281,7 @@ ht-degree: 11%
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++查看详细信息
 * 修复了复制现有活动并将报表源更改为[!DNL Adobe Analytics] (A4T)会导致“用户输入无效”错误的问题。 当某些与[!DNL Analytics]报表不兼容的度量操作（如`restart_same_experience`、`restart_random_experience`和`restart_new_experience`）从原始活动中保留时触发了该错误。 (TGT-52900)
@@ -338,7 +338,7 @@ ht-degree: 11%
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++查看详细信息
 * 解决了以下问题：将修改应用于视图会导致视图被重复并且活动返回“无效用户输入”错误。 此修复可确保正确应用视图修改，而不会触发复制或验证错误。 (TGT-52886)

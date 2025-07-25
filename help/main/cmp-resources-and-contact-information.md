@@ -4,10 +4,10 @@ description: 了解其他资源以帮助您了解 Adobe [!DNL Target] 功能以�
 title: 可在何处找到 Target 的资源和联系信息？
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 562eeb4a3c9b27aeb9f606ac5ba8b6802bce0564
+source-git-commit: 8c60b4c162850142ef3116db29e70a33f93c8e6a
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 93%
+source-wordcount: '1135'
+ht-degree: 90%
 
 ---
 
@@ -44,11 +44,11 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 
 | 主题 / 运行时长 / 录制日期 | 您将了解的内容 |
 |--- |--- |
-| [at.js 提示和概述](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59 分 12 秒<br>2019 年 6 月 26 日 | 您将会了解以下内容：<ul><li>使用 at.js 的优点</li><li>at.js 设置</li><li>处理闪烁的情况</li><li>调试 at.js</li><li>已知问题</li><li>常见问题解答</li></ul>有关详细信息，请参阅[at.js的工作方式](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank}。 |
-| [Target Premium 工作区](https://helpx.adobe.com/cn/customer-care-office-hours/target/premium-workspaces.html)<br>27 分 49 秒<br>2018 年 9 月 4 日 | 您将会了解以下内容：<ul><li>创建工作区（产品配置文件）</li><li>创建属性</li><li>添加用户</li><li>更新实现</li></ul>有关更多信息，请参阅[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
-| [可视体验编辑器 (VEC)](https://helpx.adobe.com/cn/customer-care-office-hours/target/visual-experience-composer.html)<br>50 分 23 秒<br>2017 年 12 月 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>本指南中的详细信息，请参阅[体验](/help/main/c-experiences/experiences.md)。 |
-| [Adobe Target：Analytics/Target 集成 (A4T)](https://helpx.adobe.com/cn/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40 分 33 秒<br>2018 年 1 月 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[Adobe Analytics作为Adobe Target (A4T)的报表Source](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。 |
-| [at.js：优势和实现最佳实践](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26 分 43 秒<br>2018 年 4 月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与已弃用的 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul> |
+| [at.js提示和概述](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019年6月26日 | 您将会了解以下内容：<ul><li>使用 at.js 的优点</li><li>at.js 设置</li><li>处理闪烁的情况</li><li>调试 at.js</li><li>已知问题</li><li>常见问题解答</li></ul>有关更多信息，请参阅 [at.js 的工作方式](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}。 |
+| [Target Premium工作区](https://helpx.adobe.com/cn/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>2018年9月4日 | 您将会了解以下内容：<ul><li>创建工作区（产品配置文件）</li><li>创建属性</li><li>添加用户</li><li>更新实现</li></ul>有关更多信息，请参阅[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
+| [可视化体验编辑器(VEC)](https://helpx.adobe.com/cn/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017年12月 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>本指南中的详细信息，请参阅[体验](/help/main/c-experiences/experiences.md)。 |
+| [Adobe Target：Analytics/Target集成(A4T)](https://helpx.adobe.com/cn/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>2018年1月 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[Adobe Analytics作为Adobe Target (A4T)的报表Source](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。 |
+| [at.js：优势和实施最佳实践](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018年4月 | 您将会了解以下内容： <ul><li>at.js 库的工作原理</li><li>at.js 与已弃用的 mbox.js 相比所具有的优势</li><li>at.js 如何管理闪烁</li><li>at.js 中的错误处理</li><li>调试方法</li><li>已知问题和未来路线图</li></ul> |
 
 >[!NOTE]
 >
@@ -64,11 +64,11 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 
 如果您在使用 Target 时遇到问题或存在疑问，解决办法有以下几种：
 
-如有疑问，您可以咨询[Adobe Target社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}中的Adobe Target专家。
+如有疑问，您可以咨询[Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}中的Adobe Target专家。
 
 如果遇到技术问题或要记录错误，您可以联系客户关怀。要通过电话联系客户关怀，请拨打 1-800-497-0335。可在 [Adobe 数字营销客户服务各地区电话号码](https://helpx.adobe.com/cn/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)页面上找到美国境外的免费号码。当要求您选择产品的选项时，请按 3 联系 Target 团队。
 
-向客户关怀发送电子邮件，地址是 [!DNL customercare@adobe.com]。
+联系[联系Adobe客户关怀](https://helpx.adobe.com/contact.html){target=_blank}。
 
 为了最快甄别您的问题，请在联系我们时准备好以下基本信息：
 
@@ -101,7 +101,7 @@ Target 社区是您全面了解 Adobe Target 的一站式商店。
 Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提供了大量的参与机制：
 
 * [查看 Experience Cloud 帮助页面，以获取建议、提示和常见问题解答](https://helpx.adobe.com/cn/marketing-cloud.html)
-* [提交工单以从支持人员获得帮助](https://experienceleague.adobe.com/zh-hans?support-solution=Target#support)
+* [提交工单以从支持人员获得帮助](https://experienceleague.adobe.com/?support-solution=Target#support)
 * [直接联系客户关怀团队](https://helpx.adobe.com/cn/marketing-cloud/contact-support.html)
 * [查看 Experience Cloud 解决方案的可用性和状态](https://status.adobe.com/)
 

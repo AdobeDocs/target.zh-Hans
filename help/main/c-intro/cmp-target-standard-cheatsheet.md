@@ -1,39 +1,63 @@
 ---
 keywords: Target Standard;faq;常见问题解答;速查表;备忘单
-description: 浏览关于使用 Adobe Target 中各项功能的常见问题的列表，以及信息和链接以了解详情。
+description: 浏览关于使用 [!DNL Target]中各项功能的常见问题解答列表，以及信息和链接以了解详细信息。
 title: 可在何处找到优化和个性化问题的答案？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
+source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
 workflow-type: tm+mt
-source-wordcount: '2623'
-ht-degree: 81%
+source-wordcount: '2693'
+ht-degree: 73%
 
 ---
 
 # Target 优化和个性化常见问题解答
 
-有关使用[!DNL Adobe Target]中各项功能的常见问题解答列表，以及更多信息和相关链接。
+浏览有关使用[!DNL Adobe Target]功能的常见问题解答。 了解如何优化实验、个性化体验以及通过直接链接访问有用的资源以获得更深入的见解。
 
 ## 一般信息 {#section_CE5713B5AAC341C9A75586C107797FA3}
 
+**在哪里可以找到有关更新的[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的信息？**
+
++++查看详细信息
+
+该用户界面按符合逻辑并且便于用户使用的形式进行排列，以帮助您充分利用 [!DNL Target]。以下简要概述可帮助您熟悉[!DNL Target]和VEC，并提供更深入的信息和分步说明的链接。
+
+有关详细信息，请参阅[了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)。
+
++++
+
 **如何查看其他客户利用[!DNL Target]获得更好的结果？**
 
-这里是我们的[客户成功案例](https://www.adobe.com/in/marketing-cloud/target/resources.html#x)中的一部分。可以从中了解客户如何利用 Target 改进优化和个性化设置以实现业务目标。
++++查看详细信息
+探索真实的[客户成功案例](https://www.adobe.com/in/marketing-cloud/target/resources.html#x)，了解组织如何使用[!DNL Target]来推动优化、个性化体验并实现可衡量的业务成果。
 
-请注意，其中一些案例研究利用了 Adobe Target Premium 的功能。
++++
 
 **我可以在何处了解最新的[!DNL Target]功能？**
 
-请参阅我们的[发行说明](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)以查看最新版本的详细信息。我们还在线提供了有关所有[过去版本](/help/main/r-release-notes/release-notes-for-previous-releases.md)的信息。
++++查看详细信息
+保持[!DNL Target]版本的最新状态。
+
+* **最新版本**：查看[[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md)，了解有关新增功能、增强功能和错误修复的详细信息。
+* **即将发布的版本**：访问[[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md)以预览即将发布的版本。
+* **先前版本**：浏览[先前版本](/help/main/r-release-notes/release-notes-for-previous-releases.md)的发行说明，了解历史更新和变更。
+
++++
 
 **[!DNL Adobe]是否有社区/论坛，以便我可以找到关于[!DNL Target]的答案和更多信息？**
 
-您可以来我们的 [ Target 社区论坛](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42)，我们为这里为客户提供帮助，但更重要的是，我们希望 Adobe Target 实际使用者之间可以相互帮助。毕竟，社区和论坛的成功取决于成员的积极参与。成为社区的一员，提出您的问题并寻求相应答案。
++++查看详细信息
+在[!DNL Target]Target社区论坛[中与其他](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}从业人员联系。 与使用[!DNL Target]推动个性化和实验的其他人分享您的专业知识、提出问题并开展协作。 一个欣欣向荣的社区有赖于积极的参与。 您的见解和经验可以帮助他人成功。 快速入门，贡献内容，找到您需要的答案。
+
++++
 
 **[!DNL Target]支持哪些浏览器？**
 
-有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hans){target=_blank}矩阵图。请注意，支持的浏览器分为两个方面：Target Standard/Premium Experience Cloud 界面支持，以及桌面/设备上的最终用户浏览器支持。
++++查看详细信息
+有关更多详细信息，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩阵。 请注意，支持的界面有两方面：[!DNL Target Standard/Premium]以及桌面/设备上的最终用户浏览器支持。
+
++++
 
 ## 活动 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +179,7 @@ ht-degree: 81%
 请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 体验 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -170,7 +194,7 @@ ht-degree: 81%
 
 在此之前，请按照[在浏览器中启用混合内容](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)中的说明操作，以允许浏览器加载混合内容。 这是目前大多数浏览器采用的一种安全功能。
 
-**即使尚未部署[!DNL Target] at.js库，是否仍可以在我的网站上尝试[!UICONTROL Visual Experience Composer] (VEC)？**
+**即使尚未部署[!UICONTROL Visual Experience Composer] at.js库，是否仍可以在我的网站上尝试[!DNL Target] (VEC)？**
 
 尝试使用[增强型体验编辑器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)加载页面。
 
@@ -252,7 +276,7 @@ ht-degree: 81%
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -273,11 +297,11 @@ ht-degree: 81%
 
 **我是否可以执行离线报表计算？**
 
-使用Reports页面上的[将报表导出为CSV和将订单详细信息下载到CSV选项](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)来下载所需的报表数据。
+使用Rep[orts页面上的](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)将报表导出为CSV和将订单详细信息下载到CSV选项来下载所需的报表数据。
 
 **我可以更改用于评估报表的控制体验，或将计数方法从[!UICONTROL Visitors]更改为[!UICONTROL Visits]吗？**
 
-使用[&#128279;](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮可进行这些更改。阅读更多有关这些设置的信息，了解计算结果的差异。
+使用](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮[可进行这些更改。阅读更多有关这些设置的信息，了解计算结果的差异。
 
 **我应如何解读报表？**
 
@@ -303,4 +327,4 @@ ht-degree: 81%
 
 **我在哪里可以了解有关 Target API 的更多信息？**
 
-我们提供了关于 API 的详尽文档。请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}。
+我们提供了关于 API 的详尽文档。请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。

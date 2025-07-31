@@ -420,7 +420,7 @@ ht-degree: 37%
 **我应如何解读报表？**
 
 +++查看详细信息
-[!DNL Target]团队尝试通过以下功能制作尽可能直观的报表：[置信区间栏、提升度范围、显着性/置信度和多个量度选项、表和图形视图、运行平均值等等](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)，以便进行有效且简便的报表分析。 如果您使用[!DNL Analytics]Analytics for Target (A4T)[活动对受众进行进一步分析，则可以查看](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)。
+[!DNL Target]团队尝试通过以下功能制作尽可能直观的报表：[置信区间栏、提升度范围、显着性/置信度和多个量度选项、表和图形视图、运行平均值等等](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)，以便进行有效且简便的报表分析。 如果您使用[!DNL Analytics]Analytics for Target (A4T) [活动对受众进行进一步分析，则可以查看](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)。
 
 +++
 

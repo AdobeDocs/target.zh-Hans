@@ -2,13 +2,13 @@
 keywords: 发行说明；新功能；版本；更新；更新；版本；增强；增强；修复；错误修复；更新；当前更新
 description: 了解  [!DNL Adobe Target] 当前版本中包括的新功能、增强和修复，包括 SDK、API 和 JavaScript 库。
 landing-page-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功能、增强功能和修复。
-short-description: 了解  [!DNL Adobe Target] 当前版本中包括的新增功能、增强功能和修复。
+short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、增强功能和修复。
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 265108dbb0a459e1b111fda01a35042170f05562
+source-git-commit: f00cec3194863bb7187d4cdc91c39a87b624e9bd
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4816'
 ht-degree: 11%
 
 ---
@@ -75,6 +75,66 @@ ht-degree: 11%
 
 +++
 
+## [!DNL Target Standard/Premium] 25.7.4（2025年8月1日）
+
+此版本解决了最近的问题（主要由复杂的客户自定义引起），并包括以下修复和改进：
+
+**活动**
+
++++查看详细信息
+* 修复了客户在尝试保存实时活动（即使未进行更改）时遇到“用户输入无效”错误的问题。 GraphQL响应指示重复的LocalId问题。 (TGT-53329和TGT-53373和TGT-53195)
+* 修复了阻止在更新的VEC中创建重定向体验的问题。 已忽略重定向URL，而是显示原始页面。 (TGT-53306)
+
++++
+
+**本地化**
+
++++查看详细信息
+* 修复了[!UICONTROL Create Criteria]模式中的本地化问题，在[!UICONTROL Choose Price Rule]下拉列表中选择“在以下值之间”选项时，[!UICONTROL Inclusion Rules]部分中的字符串“to”未本地化。 (TGT-49754)
+* 修复了源创建向导的[!UICONTROL All host groups]下拉列表中的字符串“[!UICONTROL Environment]”未正确本地化的问题。 (TGT-46737)
+
++++
+
+**QA**
+
++++查看详细信息
+* 修复了QA环境无法跨多个选项卡加载数据，从而导致界面不可用的问题。 (TGT-53377)
+* 修复了阻止在QA环境中创建活动的问题。 进程被重定向到[!UICONTROL Activities]页面而不是成功完成。 (TGT-53328)
+
++++
+
+**推荐**
+
++++查看详细信息
+* 修复了在[!DNL Recommendations]中创建收藏集时将鼠标悬停在“深度学习”操作数上导致页面崩溃的问题。 (TGT-53305)
+* 修复了在更新的UI中[!UICONTROL Catalog Search]中的筛选器建议不准确的问题。 (TGT-52007)
+* 修复了[!DNL Recommendations] UI中的一个问题：使用“value present”或“value not present”运算符时，出现操作数过滤器，不过应隐藏该问题。 (TGT-53012)
+
++++
+
+**可视化体验编辑器 (VEC)**
+
++++查看详细信息
+* 修复了在编辑Automated Personalization (AP)活动时，当用户单击[!UICONTROL Manage Content]然后单击[!UICONTROL Done]时，页面变为空白且无响应的问题。 （TGT-53047 和 TGT-52993）
+* 修复了在[!UICONTROL Viewed an mbox]下选择[!UICONTROL Goals & Settings]转化量度导致页面崩溃的问题。 （TGT-53346、TGT-53343 和 TGT-53348）
+* 修复了[!UICONTROL Redirect to URL]功能无法按预期工作的问题，即使URL有效，也不会进行重定向。 (TGT-53307)
+
++++
+
+**工作区**
+
++++查看详细信息
+* 修复了在工作区之间复制活动时导致重复的“受众复制”条目和ID冲突的问题。 现在，复制受众时会包含唯一ID、工作区上下文以及组合受众（最多5个级别）的递归处理。 (TGT-53081)
+* 修复了当工作区设置为“[!UICONTROL All Workspaces]”时，复制默认工作区中已存在的活动会导致错误的问题：
+
+  “对于非默认工作区，应至少包含一个属性。”
+
+  由于副本位于默认工作区中，因此不需要属性。 尝试添加属性并保存会导致第二个错误：
+
+  “无效的用户输入”
+
++++
+
 ## [!DNL Target Standard/Premium] 25.7.3（2025年7月24日）
 
 由于最近发现的问题（主要与复杂的客户自定义相关），此版本包含以下修复和更新：
@@ -137,7 +197,6 @@ ht-degree: 11%
 **可视化体验编辑器 (VEC)**
 
 +++查看详细信息
-
 * 修复了VEC中的一个问题：将修改应用于视图会导致重复并触发“用户输入无效”错误。 (TGT-52886)
 * 修复了在VEC中配置图像选件时，[!UICONTROL Undo]和[!UICONTROL Insert Before]选项的[!UICONTROL Insert After]功能存在的问题。
 
@@ -191,7 +250,7 @@ ht-degree: 11%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++查看详细信息
 * 修复了客户在[!UICONTROL Goals & Settings]页面上查看特定活动的报表时，[!UICONTROL View in Analytics]链接错误地指向QA环境而不是生产环境的问题。 (TGT-53163)
@@ -230,7 +289,7 @@ ht-degree: 11%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看详细信息
 * 解决了[!UICONTROL Goals & Settings]页面上的问题：在多个体验中使用的选择器无法一致地高亮显示为选定选定项。 (TGT-53062)
@@ -281,7 +340,7 @@ ht-degree: 11%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++查看详细信息
 * 修复了复制现有活动并将报表源更改为[!DNL Adobe Analytics] (A4T)会导致“用户输入无效”错误的问题。 当某些与[!DNL Analytics]报表不兼容的度量操作（如`restart_same_experience`、`restart_random_experience`和`restart_new_experience`）从原始活动中保留时触发了该错误。 (TGT-52900)
@@ -338,7 +397,7 @@ ht-degree: 11%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看详细信息
 * 解决了以下问题：将修改应用于视图会导致视图被重复并且活动返回“无效用户输入”错误。 此修复可确保正确应用视图修改，而不会触发复制或验证错误。 (TGT-52886)
@@ -372,7 +431,7 @@ ht-degree: 11%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

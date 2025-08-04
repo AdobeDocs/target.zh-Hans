@@ -4,9 +4,9 @@ description: 有关更新的 [!DNL Target]t用户界面的问答。
 title: 可在何处找到有关更新的 [!DNL Target] UI的常见问题解答？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
+source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,35 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 使用UI版本切换存在几个限制，包括新活动的可见性、现有活动的编辑以及活动详细信息的一致性。
 
 有关详细信息，请参阅[您需要了解的时间性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)。
+
++++
+
+## 更新后的VEC如何处理重新排列、调整大小、移动、隐藏和删除选项，这些选项与旧版VEC有何不同？ {#options}
+
++++详细信息
+**[!UICONTROL Rearrange*]*：在旧版VEC中，重新排列选项使用叠加来允许用户重新定位其同级组中的元素。 迁移仅限于更改同级元素之间的顺序。
+
+在更新的VEC中，此功能通过向前移动和向后移动操作进行了简化。 这些控件通过按栈叠顺序向前或向后移动元素来调整元素在布局中的位置（水平或垂直）。
+
+**调整大小**： [!UICONTROL Resize]功能位于[!UICONTROL Properties]部分下的[!UICONTROL Size]面板中。 用户可以直接调整元素的宽度和高度。 高级设置包括：
+
+* 最小/最大宽度和高度控件
+* 溢出行为设置。
+* 媒体元素的“对象适合”选项
+
+这些工具可精确控制元素维度和布局行为。
+
+**移动**：在[!UICONTROL Move]部分下的[!UICONTROL Properties]面板中找到[!UICONTROL Position]选项。 此选项使用户能够：
+
+* 设置元素的位置（例如，绝对、相对、固定）
+* 定义用于分层的z索引
+* 选择定位类型
+
+更新的[!UICONTROL Properties]边栏还支持自定义内联样式，在预设选项无法满足布局需求时提供灵活性。
+
+**[!UICONTROL Hide]**： [!UICONTROL Hide]功能位于[!UICONTROL Properties]面板中。 选择某个元素后，单击[!UICONTROL Hide Element]可将其从视图中删除而不将其删除。 这有助于在设计或预览期间管理可见性。
+
+**[!UICONTROL Remove]**： [!UICONTROL Remove]功能可通过[!UICONTROL Properties]面板访问。 选择元素后，单击删除元素可从页面中删除该元素。 此操作将从布局中永久删除元素。
 
 +++
 

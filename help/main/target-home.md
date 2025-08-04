@@ -4,10 +4,10 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
+source-git-commit: bc5be9a922c5c853c3fb466102cb8fb622e4494e
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 26%
+source-wordcount: '648'
+ht-degree: 27%
 
 ---
 
@@ -29,23 +29,11 @@ ht-degree: 26%
 
 >[!TAB 新增功能？]
 
-**更新了有关UI版本切换弃用的信息**
-
-[!DNL Target]团队已调整UI版本切换弃用的时间线。
-
-[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
-
-**目标25.7.3已上线！**
+**目标25.7.4已上线！**
 
 此版本重点针对更新的[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的修复和增强功能。
 
 [![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
-
-**[!DNL Target]UI更新常见问题解答**
-
-此常见问题解答解决了有关新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常见问题，包括导航更改、功能位置以及弃用临时UI版本切换。 无论您是营销人员、开发人员还是管理员，此常见问题解答都可以帮助您顺利过渡并充分利用更新后的UI。
-
-[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB 已更新Target UI]
 
@@ -54,6 +42,12 @@ ht-degree: 26%
 UI旨在清晰而高效，帮助您充分利用[!DNL Target]。 浏览各种资源以帮助您快速入门，这些资源包含详细文章的直接链接和分步说明。
 
 [![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/c-intro/understand-the-target-ui.md)
+
+*[!DNL *Targe]t UI更新常见问题解答**
+
+此常见问题解答解决了有关新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常见问题，包括导航更改、功能位置以及弃用临时UI版本切换。 无论您是营销人员、开发人员还是管理员，此常见问题解答都可以帮助您顺利过渡并充分利用更新后的UI。
+
+[![了解更多图标](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB AI助手]
 

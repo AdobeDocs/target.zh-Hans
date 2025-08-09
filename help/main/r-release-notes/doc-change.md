@@ -21,7 +21,7 @@ ht-degree: 24%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
-| 8 月 5 日 | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} | 从&#x200B;*数据收集*&#x200B;指南中移动了&#x200B;*Adobe Experience Platform Web SDK*&#x200B;整篇文章，以将与[!DNL Target]相关的所有信息整合到单个开发人员指南中。 这有助于使内容保持井然有序，更易于引用。 |
+| 8 月 5 日 | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} | 从&#x200B;*数据收集*&#x200B;指南中移动了&#x200B;*Adobe Experience Platform Web SDK*&#x200B;整篇文章，以将与[!DNL Target]相关的所有信息整合到单个开发人员指南中。 这有助于使内容保持井然有序，更易于引用。 |
 | 8 月 4 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.7.4版的发行说明。 |
 |  | [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md#options) | 添加了以下常见问题解答：“更新后的VEC如何处理重新排列、调整大小、移动、隐藏和删除选项，以及这些选项与旧版VEC有何不同？” |
 | 7 月 29 日 | [编辑活动](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6) | 使用工作区时，更新&#x200B;*复制/编辑活动下的受众和选件部分*。 |

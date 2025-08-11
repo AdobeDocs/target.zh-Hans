@@ -31,7 +31,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->以下要求列出了实施A4T所需的&#x200B;*最低*&#x200B;版本的at.js。 [!DNL Target]团队仅维护两个版本的[!DNL at.js]：当前版本和当前版本的上一个版本。 请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。有关每个版本中功能的更多信息，请参阅 [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
+>以下要求列出了实施A4T所需的&#x200B;*最低*&#x200B;版本的at.js。 [!DNL Target]团队仅维护两个版本的[!DNL at.js]：当前版本和当前版本的上一个版本。 请根据需要升级 [!DNL at.js]，以确保您运行的是受支持的版本。有关每个版本中功能的更多信息，请参阅 [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank}。
 
 ### *未*&#x200B;将重定向产品建议与 A4T 结合使用时需要满足的要求
 
@@ -83,7 +83,7 @@ ht-degree: 24%
 
 A4T活动用于交付内容或记录目标量度的所有[!DNL Target]调用必须具有共享补充ID的相应[!DNL Analytics]点击，A4T才能正常工作。
 
-包含来自[!DNL Analytics]和[!DNL Target]的数据的点击包含补充数据ID。 您可以在[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)中将此ID视为`sdid`参数。 例如：`sdid=2F3C18E511F618CC-45F83E994AEE93A0`。满足以下标准时，便会生成此 ID：
+包含来自[!DNL Analytics]和[!DNL Target]的数据的点击包含补充数据ID。 您可以在[Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans)中将此ID视为`sdid`参数。 例如：`sdid=2F3C18E511F618CC-45F83E994AEE93A0`。满足以下标准时，便会生成此 ID：
 
 * 已实施访客 ID 服务
 

@@ -4,9 +4,9 @@ description: 了解可用于编辑现有活动的各种方式。
 title: 如何编辑活动？
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
+source-git-commit: b46ff78a9145e2e837a849d72adc4a7fb8797d00
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '962'
 ht-degree: 22%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 22%
 
         要解决此问题，请单击[!UICONTROL Add/Remove]，以便只显示目标工作区中可用的属性以供选择。
 
-   * **受众和选件**：将活动复制到新工作区时，将使用以下格式复制原始工作区中所有关联的受众和选件： `Entity Name Copy <Date>`。
+   * **受众和选件**：将活动复制到新工作区时，所有关联的[!DNL Target]或原始工作区中的临时受众和选件将以下列格式复制： `<Entity Name> Copy <Date>`受众和[!DNL Target]的临时受众和选件`<Entity Name>`。
 
      行为详细信息：
 
@@ -85,9 +85,9 @@ ht-degree: 22%
 
      此过程可确保更平稳的跨工作区活动复制，同时保持自定义的灵活性。
 
-     在复制活动时，必须手动替换未保存在当前工作区或默认工作区中的组合受众、非目标受众和选件。
+     在复制活动时，必须手动替换未保存在当前工作区或默认工作区中的非目标受众和选件。
 
-     手动替换这些组合的受众、非目标受众和选件可确保在复制的活动中仅使用有效、可访问的实体，并防止在编辑或交付期间出现错误。
+     手动替换这些非目标受众和选件可确保在复制的活动中仅使用有效、可访问的实体，并防止在编辑或交付期间出现错误。
 
      ![警告消息](/help/main/c-activities/assets/copy.png)
 

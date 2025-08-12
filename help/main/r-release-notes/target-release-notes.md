@@ -4,7 +4,7 @@ description: 了解即将发布的 [!DNL Target]版本中包括的新功能、�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f00cec3194863bb7187d4cdc91c39a87b624e9bd
+source-git-commit: 33eb2e0e9d9e323a8bec8a3ab147291f3f0a6ca8
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 69%
@@ -25,16 +25,16 @@ ht-degree: 69%
 >
 >* 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target Standard/Premium] 25.7.4（2025年8月1日）
+## [!DNL Target Standard/Premium] 25.8.1（2025年8月7日）
 
-25.7.4版本已上线。 有关完整的详细信息，请参阅[[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md)。
+25.8.1版本已上线。 有关完整的详细信息，请参阅[[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md)。
 
 ## 其他发行说明和版本详细信息
 
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明： Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

@@ -1,59 +1,21 @@
 ---
-keywords: 重复数据删除；允许重复项；排除重复的选件；自动个性化；不允许重复的选件；排除；默认内容；排除组；
+keywords: 重复数据删除；允许重复项；排除重复的选件；自动个性化；不允许重复的选件；排除；默认内容；
 description: 管理[!UICONTROL Automated Personalization] (AP)活动中的排除项。
 title: 如何管理[!UICONTROL Automated Personalization]活动中的排除项？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+source-git-commit: c5016d212edafa908b8755044e73d28167e20e8a
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 41%
+source-wordcount: '652'
+ht-degree: 37%
 
 ---
 
 # 管理排除项
 
-通过创建排除组、排除重复的选件、排除特定体验以及排除[!DNL Adobe Target]中[!UICONTROL Automated Personalization] (AP)活动中的默认内容来管理排除项。
-
-## 创建排除组 {#task_AAAA6C7239A84F7696C8492F04B575A2}
-
-在[!UICONTROL Automated Personalization] (AP)活动中创建排除组以确保自动排除具有指定选件的体验。
-
-排除组是一种非常有用的方法，可确保不同位置的相同体验中不会出现不兼容的选件。例如，假设您有两个优惠：一个是所有商品20%的折扣，另一个是15%的折扣。 您绝不希望向同一体验中的访客展示这两个选件。 如果将这两个选件添加到排除组，则可以确保绝不会出现这种情况。
-
-您还可以限制能够在 AP 活动中查看特定产品建议的受众。有关更多信息，请参阅 [Target 自动个性化产品建议](/help/main/c-activities/t-automated-personalization/ap-target-offers.md)。
-
-**创建排除组：**
-
-1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)时，单击&#x200B;**[!UICONTROL Manage Content]**&#x200B;图标（![管理内容图标](/help/main/assets/icons/Experience.svg)）。
-
-   此时将显示[!UICONTROL Manage Content]对话框。
-
-1. 单击&#x200B;**[!UICONTROL Experiences]**&#x200B;选项卡。
-
-1. 在[!UICONTROL Manage Content]对话框中，单击&#x200B;**[!UICONTROL Exclusion Groups]**。
-
-   ![“管理内容”>“排除组”对话框](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
-
-   如果您之前已经创建一些排除组，它们会显示在列表中。如果您尚未创建排除组，系统会提示您创建一个排除组。
-
-1. 单击&#x200B;**[!UICONTROL Create Exclusion Group.]**
-
-   ![“创建排除组”对话框](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
-
-1. （必需）为排除组指定一个描述性名称。
-
-   描述性名称可以帮助您或他人快速找到排除组并了解其用途。
-
-1. 查找并选择要添加到排除组的所需产品建议。
-
-   您可以在排除组中选择来自相同位置的多个产品建议。
-
-1. 单击 **[!UICONTROL Save]**。
-
-之后，排除组中的选件将自动从相同的体验中排除。
+通过排除[!UICONTROL Automated Personalization]中的[!DNL Adobe Target] (AP)活动中的重复选件、排除特定体验和排除默认内容来管理排除项。
 
 ## 排除重复的选件 {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
@@ -61,7 +23,7 @@ ht-degree: 41%
 
 例如，在您的一个活动中，一个页面上可能有 6 个位置和 12 个选件。活动中的多个位置可能存在相同的选件。此功能可阻止同一个活动中的不同位置同时显示重复的选件。
 
-单击&#x200B;**[!UICONTROL Configure]**&#x200B;齿轮选项> **[!UICONTROL Duplicate Offers]**，然后单击&#x200B;**[!UICONTROL Allow Duplicates]**&#x200B;或&#x200B;**[!UICONTROL Disallow Duplicates]**。
+单击&#x200B;**[!UICONTROL Configure]**&#x200B;图标> **[!UICONTROL Duplicate Offers]**，然后单击&#x200B;**[!UICONTROL Allow Duplicates]**&#x200B;或&#x200B;**[!UICONTROL Disallow Duplicates]**。
 
 ![“重复的产品建议”选项](/help/main/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -126,7 +88,7 @@ ht-degree: 41%
 
 **要使用[!UICONTROL Form-Based Experience Composer]排除默认内容：**
 
-1. 创建或编辑AP活动时，单击&#x200B;**[!UICONTROL Content]**&#x200B;下的&#x200B;**[!UICONTROL Change Text/HTML]**&#x200B;或&#x200B;**[!UICONTROL Change Image Offer]**。
+1. 创建或编辑AP活动时，单击&#x200B;**[!UICONTROL Change Text/HTML]**&#x200B;下的&#x200B;**[!UICONTROL Change Image Offer]**&#x200B;或&#x200B;**[!UICONTROL Content]**。
 1. 在出现的对话框中，创建新的内容，然后取消选中默认内容右侧的&#x200B;**[!UICONTROL Include]**（或在[!UICONTROL Select Content]屏幕中取消选中“默认图像/视频”）。
 
    根据内容或选件类型，[!UICONTROL Include]复选框的位置略有不同。

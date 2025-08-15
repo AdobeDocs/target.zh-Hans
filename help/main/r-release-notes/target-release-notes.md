@@ -33,11 +33,11 @@ ht-degree: 37%
 
 +++查看详细信息
 * **修复了Recs UI中的自定义标准CSV下载返回404错误的问题**：修复了客户无法在活动创建过程中下载自定义标准CSV的问题。
-* **修复了[!UICONTROL Catalog Search]**&#x200B;中图像加载不一致的问题：修复了[!UICONTROL  Catalog Search]中的缩略图和图像在活动创建过程中加载不一致的问题。 除非“缩略图URL”列可见，并且某些产品图像在导航或搜索操作后已加载部分或完全未加载，否则图像无法显示。 (TGT-52778)
+* **修复了[!UICONTROL Catalog Search]**&#x200B;中图像加载不一致的问题：修复了[!UICONTROL &#x200B; Catalog Search]中的缩略图和图像在活动创建过程中加载不一致的问题。 除非“缩略图URL”列可见，并且某些产品图像在导航或搜索操作后已加载部分或完全未加载，否则图像无法显示。 (TGT-52778)
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++查看详细信息
 * **修复了活动创建过程中阻止升级到AP活动中的[!UICONTROL Targeting]步骤的问题**：修复了活动创建过程中客户无法继续到[!UICONTROL Targeting] (AP)活动中的[!UICONTROL Automated Personalization]步骤的问题（除非添加了两个位置）。 此行为与以前的体验不同，在以前的体验中，具有多个选件的单个位置便已足够。 该要求已得到纠正，允许客户继续将单个位置设置作为其AP工作流的一部分。 (TGT-53426)

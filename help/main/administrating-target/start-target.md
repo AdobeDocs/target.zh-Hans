@@ -20,7 +20,7 @@ ht-degree: 32%
 
 [!DNL Adobe Admin Console]中的系统管理员必须通过邀请您加入，将您添加为[!DNL Target]中的用户。 然后，系统管理员应将您添加到一个或多个特定于角色的产品配置文件（用户组）。 这两项任务均在[Adobe Admin Console](https://adminconsole.adobe.com)中执行。
 
-有关详细信息，请参阅[管理用户组](https://helpx.adobe.com/enterprise/using/users.html)。
+有关详细信息，请参阅[管理用户组](https://helpx.adobe.com/cn/enterprise/using/users.html)。
 
 系统管理员执行这些步骤后，您将会收到一封邀请电子邮件。
 

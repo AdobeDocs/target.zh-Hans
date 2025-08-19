@@ -2,7 +2,7 @@
 keywords: 推荐算法；模型训练；模型提供；内容交付；基于项目；基于用户；基于热门程度；基于购物车；自定义标准
 description: 了解 [!DNL Target Recommendations]中使用的算法，包括模型训练和模型服务。
 title: 我可以在何处了解Target的推荐算法背后的科学原理？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -65,7 +65,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 
 这些步骤的详情如下：
 
-* **输入数据**：行为数据，其形式为在[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的访客的视图和购买。
+* **输入数据**：行为数据，其形式为在[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的访客的视图和购买。
 
 * **模型训练**：
 
@@ -89,7 +89,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 
 这些步骤的详情如下：
 
-* **输入数据**：如前所述，此算法完全基于目录数据(通过[!DNL Target]目录馈送、实体API或来自页面上的更新[引入到](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
+* **输入数据**：如前所述，此算法完全基于目录数据(通过[!DNL Target]目录馈送、实体API或来自页面上的更新[引入到](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
 
 * **模型训练**：
 
@@ -127,7 +127,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 
 这些步骤的详情如下：
 
-* **输入数据**：这与项 — 项协同筛选(CF)方法相同。 [!UICONTROL Both Recommended For You]和基于购物车的算法使用行为数据，其形式为当您[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}中收集的用户查看和购买。
+* **输入数据**：这与项 — 项协同筛选(CF)方法相同。 [!UICONTROL Both Recommended For You]和基于购物车的算法使用行为数据，其形式为当您[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}中收集的用户查看和购买。
 
 * **模型训练**：
 

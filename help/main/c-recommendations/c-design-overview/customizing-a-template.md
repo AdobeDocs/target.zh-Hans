@@ -2,7 +2,7 @@
 keywords: 自定义设计;Velocity;小数;逗号;自定义设计
 description: 了解如何使用开源 [!DNL Velocity] 设计语言自定义 [!DNL Target] 推荐中的推荐设计。
 title: 如何使用Velocity自定义设计？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76

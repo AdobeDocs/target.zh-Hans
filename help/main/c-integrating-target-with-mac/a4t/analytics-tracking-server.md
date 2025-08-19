@@ -19,7 +19,7 @@ ht-degree: 15%
 >
 >如果您使用 at.js 版本 0.9.1（或更高版本），则在活动创建期间无需指定跟踪服务器。at.js 库自动将跟踪服务器值发送到 [!DNL Target]。在活动创建期间，您可以将[!UICONTROL Tracking Server]页面上的[!UICONTROL Goals & Settings]字段留空。
 >
->[!DNL Target]团队同时支持at.js 1.*x* 和 at.js 2 中的“隐藏主体”和“显示主体”调用。*x* 使用跨域跟踪功能时。升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。 有关更多信息，请参阅 [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
+>[!DNL Target]团队同时支持at.js 1.*x* 和 at.js 2 中的“隐藏主体”和“显示主体”调用。*x* 使用跨域跟踪功能时。升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。 有关更多信息，请参阅 [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank}。
 
 为了确保来自[!DNL Target]的数据进入[!DNL Analytics]中的正确位置，A4T要求在所有从[!DNL Analytics]调用Modstats时发送[!DNL Target]跟踪服务器。 对于使用多个跟踪服务器的实施，请使用[!DNL Adobe Experience Platform Debugger]或浏览器的开发人员工具来确定活动的正确跟踪服务器。
 
@@ -29,7 +29,7 @@ ht-degree: 15%
 
 1. 从要创建活动的页面中，打开[!DNL Adobe Experience Platform Debugger]。
 
-   如果尚未安装调试器，请参阅[Adobe Experience Platform Debugger概述](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html)。
+   如果尚未安装调试器，请参阅[Adobe Experience Platform Debugger概述](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=zh-Hans)。
 
 1. 在左侧导航菜单中单击&#x200B;**[!UICONTROL Analytics]**。
 

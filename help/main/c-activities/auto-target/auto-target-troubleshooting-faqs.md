@@ -2,7 +2,7 @@
 keywords: 自动定位;定位;流量分配;常见问题;常见问题;故障排除;故障排除;流量
 description: 浏览有关[!UICONTROL Auto-Target]活动的故障排除主题和常见问题。
 title: 如何为[!UICONTROL Auto-Target]活动排除故障？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e

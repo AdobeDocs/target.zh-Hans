@@ -2,7 +2,7 @@
 keywords: 推荐信息源；信息源；SAINT；ftp；csv；分类；analytics分类
 description: 了解信息源如何使用CSV文件、Google Product Search信息源格式和 [!DNL Adobe Target] [!DNL Recommendations]产品分类将实体导入 [!DNL Analytics] 。
 title: 如何在[!UICONTROL Feeds]中使用 [!DNL Target Recommendations]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅[Analytics组件](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)指南中的&#x200B;*关于分类*。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
+[!DNL Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅[Analytics组件](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans)指南中的&#x200B;*关于分类*。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
 
 >[!IMPORTANT]
 >

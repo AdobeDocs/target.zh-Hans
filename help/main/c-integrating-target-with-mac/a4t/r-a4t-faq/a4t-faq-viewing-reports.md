@@ -83,7 +83,7 @@ ht-degree: 26%
 +++回答
 [!DNL Reports & Analytics]将同接触归因模型应用于“活动展示次数”和“活动转化次数”，而[!DNL Analysis Workspace]显示原始量度，由于[!DNL Target]维度的持久性，这些量度可能会虚增。
 
-要评估[!UICONTROL Activity Impressions]中的准确[!UICONTROL Activity Conversions]和[!DNL Analysis Workspace]量度，请确保这两个量度都应用了[!UICONTROL Same Touch]归因模型。 可以通过单击列设置齿轮，启用[!UICONTROL Non-default attribution models]，然后选择[!UICONTROL Same Touch]来应用模型。 在[Analytics工具指南](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html)的&#x200B;*Attributes IQ概述*&#x200B;中了解有关归因的更多信息。
+要评估[!UICONTROL Activity Impressions]中的准确[!UICONTROL Activity Conversions]和[!DNL Analysis Workspace]量度，请确保这两个量度都应用了[!UICONTROL Same Touch]归因模型。 可以通过单击列设置齿轮，启用[!UICONTROL Non-default attribution models]，然后选择[!UICONTROL Same Touch]来应用模型。 在[Analytics工具指南](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=zh-Hans)的&#x200B;*Attributes IQ概述*&#x200B;中了解有关归因的更多信息。
 
 +++
 
@@ -149,7 +149,7 @@ ht-degree: 26%
 
 由于这两种体验均在转换之前被看到，因此它们都会获得订单的“点数”。 但在系统中只产生了一个订单，所以点数的总计值反映了这一点。对于[!DNL Target]报表，由于您不是针对其他活动放置[!DNL Target]活动以查看哪个活动更成功，因此用户看到的所有活动都获得点数并不重要。 您正在比较单个活动中两个项目的结果。 用户不可能在同一活动中看到不同的体验，因此您不必担心订单信用交叉污染。
 
-有关详细信息，请参阅[Analytics管理指南](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)中的&#x200B;*转化变量(eVar*)。
+有关详细信息，请参阅[Analytics管理指南](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=zh-Hans)中的&#x200B;*转化变量(eVar*)。
 
 +++
 
@@ -221,7 +221,7 @@ A4T活动报表在停用后的展示次数来源可以是QA模式流量。 Targe
 要在[!DNL Analysis Workspace]中查看活动展示次数，请执行以下操作：
 
 1. 在[!DNL Target]用户界面中，单击&#x200B;**[!UICONTROL View in Analytics]**。
-1. 将&#x200B;**[!UICONTROL Activity Impressions]**&#x200B;列添加到[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}报表。
+1. 将&#x200B;**[!UICONTROL Activity Impressions]**&#x200B;列添加到[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans){target=_blank}报表。
 1. 在&#x200B;**[!UICONTROL Activity Impressions]**&#x200B;列上，单击[!UICONTROL Gear]图标。
 1. 单击 **[!UICONTROL Use non-default attribution model]**。
 1. 选择&#x200B;**[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]**。

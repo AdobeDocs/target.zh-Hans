@@ -50,7 +50,7 @@ ht-degree: 46%
 >
 >[!DNL Recommendations]如果主机变换主机组，则 用户必须重建自己的行为数据库和产品数据库。
 >
->如果在[数据流 [!DNL Adobe Experience Platform] 中指定了](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}默认环境，则此设置将覆盖[!DNL Target]中的设置。
+>如果在[数据流 [!DNL Adobe Experience Platform] 中指定了](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hans#target){target=_blank}默认环境，则此设置将覆盖[!DNL Target]中的设置。
 
 ## 更改环境的名称 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

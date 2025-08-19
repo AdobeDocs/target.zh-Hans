@@ -30,7 +30,7 @@ ht-degree: 51%
 
 您可以创建一个受众，将其定义为购买餐厅家具的倾向大于购买客厅家具的倾向。然后，[!DNL Target]将动态比较特定访客的餐厅和起居室的倾向分数，以确定该访客是否符合该受众的条件。
 
-有关更多信息，请参阅[将数据导入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
+有关更多信息，请参阅[将数据导入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}。
 
 ## 创建轮廓属性比较受众 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

@@ -20,7 +20,7 @@ ht-degree: 4%
 * 使用[自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)多臂赌博机功能将流量引导至入选体验。
 * 使用[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)集成机器学习算法为每个访客选择最佳体验。 [!UICONTROL Auto-Target]会根据每个用户的配置文件、行为和上下文选择最佳体验，同时使用[!DNL Adobe Analytics]目标量度和[!DNL Adobe Analytics]的丰富报告和分析功能。
 
-确保您已实施[用于A/B测试和体验定位活动的A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)。 如果您使用`analyticsLogging = client_side`，则还必须将`sessionId`值传递给[!DNL Analytics]。 有关详细信息，请参阅[Adobe Target开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank}中的&#x200B;*Analytics for Target (A4T)报表*。
+确保您已实施[用于A/B测试和体验定位活动的A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)。 如果您使用`analyticsLogging = client_side`，则还必须将`sessionId`值传递给[!DNL Analytics]。 有关详细信息，请参阅[Adobe Target开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=zh-Hans){target=_blank}中的&#x200B;*Analytics for Target (A4T)报表*。
 
 若要开始，请执行以下操作：
 
@@ -132,7 +132,7 @@ ht-degree: 4%
 
 * 使用[!DNL Analytics]作为[!UICONTROL Auto-Target]活动的数据源时，会话在六小时后结束。 六小时后发生的转化不计算在内。
 
-有关详细信息，请参阅[Analytics工具指南](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html)中的&#x200B;*归因模型和回顾窗口*。
+有关详细信息，请参阅[Analytics工具指南](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hans)中的&#x200B;*归因模型和回顾窗口*。
 
 ## 教程
 

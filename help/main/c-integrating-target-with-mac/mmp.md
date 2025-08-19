@@ -15,7 +15,7 @@ ht-degree: 7%
 
 [!DNL Adobe Experience Cloud Audiences]使[!DNL Adobe Experience Cloud]解决方案能够传输和共享有关网站访客的信息，以便每个解决方案均可使用相同的数据。
 
-有关详细信息，请参阅[核心服务用户指南](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hans)中的&#x200B;*受众*。
+有关详细信息，请参阅[核心服务用户指南](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans&?lang=zh-Hans)中的&#x200B;*受众*。
 
 ## 视频：将[!DNL Target]与[!DNL Experience Cloud Audiences]集成(10:48)
 

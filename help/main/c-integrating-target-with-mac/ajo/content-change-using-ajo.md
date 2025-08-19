@@ -2,7 +2,7 @@
 keywords: 优化；个性化；adobe journey optimizer；ajo；用例；方案；内容更改/ab测试；配置文件属性；更改图像；交换图像
 description: 在Adobe Journey Optimizer中解锁有效A/B测试内容更改的密钥
 title: 通过 [!DNL Adobe Journey Optimizer]中的A/B测试更改内容
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 feature: Integrations
 hide: true
 hidefromtoc: true
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此部分中的说明突出显示更改图像以及使用用户档案属性个性化文本消息的必要步骤。 有关[!DNL Journey Optimizer] Web设计器中可用选项的详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}中的&#x200B;*使用Web设计器*。
+>此部分中的说明突出显示更改图像以及使用用户档案属性个性化文本消息的必要步骤。 有关[!DNL Journey Optimizer] Web设计器中可用选项的详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}中的&#x200B;*使用Web设计器*。
 >
 >页面底部的视频特别有用。
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 
    Web配置或渠道界面是由系统管理员定义的配置。 Web配置包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。
 
-   有关详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}中的&#x200B;*设置渠道平面*。
+   有关详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}中的&#x200B;*设置渠道平面*。
 
 1. 在&#x200B;**[!UICONTROL Action]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Edit Content]**&#x200B;以在[!DNL Journey Optimizer] Web设计器中打开您的网站。
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 
 1. 要创建试验以确定哪些内容表现更好，请单击&#x200B;**[!UICONTROL Create Experiment]**。
 
-   通过内容试验，可更改消息内容、主题或发件人，以定义多种处理方式并确定适合受众的最佳组合。 有关详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}中的&#x200B;*创建内容试验*。
+   通过内容试验，可更改消息内容、主题或发件人，以定义多种处理方式并确定适合受众的最佳组合。 有关详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}中的&#x200B;*创建内容试验*。
 
 1. 选择一个成功量度并单击操作。
 
@@ -100,13 +100,13 @@ ht-degree: 1%
 
    ![添加Personalization按钮。](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
-   有关配置文件属性的更多信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}中的&#x200B;*个性化编辑器入门*。
+   有关配置文件属性的更多信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}中的&#x200B;*个性化编辑器入门*。
 
 1. 搜索并单击加号以添加“名字”配置文件属性，根据需要调整文本，然后单击&#x200B;**[!UICONTROL Save]**。
 
    ![为名称](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)添加配置文件属性
 
-   有关详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}中的&#x200B;*个性化编辑器入门*。
+   有关详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}中的&#x200B;*个性化编辑器入门*。
 
 1. 单击左上角的返回箭头可返回到Web设计器。
 
@@ -121,9 +121,9 @@ ht-degree: 1%
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-有关详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}中的&#x200B;*开始使用新的报表接口*。
+有关详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}中的&#x200B;*开始使用新的报表接口*。
 
 >[!MORELIKETHIS]
 >
->在[Journey Optimizer文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}中&#x200B;*使用Web设计器*
->&#x200B;>[在](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer教程&#x200B;*中创建营销活动*
+>在[Journey Optimizer文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}中&#x200B;*使用Web设计器*
+>&#x200B;>[在](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer教程&#x200B;*中创建营销活动*

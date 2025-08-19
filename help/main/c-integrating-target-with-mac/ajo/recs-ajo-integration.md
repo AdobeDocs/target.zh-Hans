@@ -3,8 +3,8 @@ keywords: ajo；adobe journey optimizer；adobe journey optimizer target集成�
 description: 将 [!DNL Adobe Target Recommendations] 与 [!DNL Adobe Journey Optimizer]集成。
 title: 如何在使用 [!DNL Target Recommendations] 的客户历程中使用 [!DNL Adobe Journey Optimizer]？
 feature: Integrations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
@@ -29,7 +29,7 @@ ht-degree: 1%
 
   此功能在[!DNL Target Standard]许可证中或者使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时不可用。
 
-* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank} 更改报表包。
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target=_blank} 更改报表包。
 
 ## 示例用例
 

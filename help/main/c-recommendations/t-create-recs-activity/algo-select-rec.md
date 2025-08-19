@@ -2,7 +2,7 @@
 keywords: 推荐；推荐活动；标准；算法
 description: 了解如何选择要在Adobe [!DNL Target] 推荐活动中使用的标准（用于确定要推荐的产品或内容的规则）。
 title: 如何为“推荐”活动选择标准？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

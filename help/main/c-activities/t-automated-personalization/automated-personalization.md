@@ -2,7 +2,7 @@
 keywords: 自动个性化；AP；受众；组合；随机林；多臂老虎机；汤普森采样；ML；机器学习
 description: 了解如何在[!UICONTROL Automated Personalization]中使用 [!DNL Adobe Target]  (AP)活动，这些活动使用高级机器学习将不同的选件变体与每位访客匹配。
 title: 什么是[!UICONTROL Automated Personalization] (AP)活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
@@ -68,9 +68,9 @@ ht-degree: 29%
 
 在构建个性化模型时，离线数据（如CRM信息或客户流失倾向分数）可能非常有价值。 有几种方法可在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]个性化算法中输入数据。
 
-* [mbox 参数](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
-* [轮廓参数](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
-* [用于轮廓更新的服务器端 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [mbox 参数](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}
+* [轮廓参数](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}
+* [用于轮廓更新的服务器端 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}
 
 有关[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]个性化算法自动收集和使用的数据的信息，请参阅[Automated Personalization数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 

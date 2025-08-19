@@ -2,7 +2,7 @@
 keywords: 行为数据源；Analytics；推荐；标准；产品变量
 description: 了解如何将 [!DNL Adobe Analytics] 用作 [!DNL Target Recommendations]中的行为数据源。
 title: 如何将 [!DNL Adobe Analytics] 与 [!DNL Target Recommendations]一起使用？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -47,7 +47,7 @@ ht-degree: 0%
 >
 >如果它是内容网站，则必须将相应的内容片段视为“产品”，并且必须将该内容的关联属性作为属性传递。 此类属性可以包括作者姓名、发布日期、内容标题、发布月份等。 类别级别的粒度或类别类型，应由业务根据用例需求来决定。
 
-有关如何设置产品变量的更多详细信息，请参阅“[实施Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html)”指南中的&#x200B;*产品*。 该文档中的一些注释需要部署该文档的团队自行决定（例如：类别）。 在执行此活动之前，始终建议咨询[!DNL Adobe]。
+有关如何设置产品变量的更多详细信息，请参阅“[实施Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hans)”指南中的&#x200B;*产品*。 该文档中的一些注释需要部署该文档的团队自行决定（例如：类别）。 在执行此活动之前，始终建议咨询[!DNL Adobe]。
 
 ### 注意事项
 

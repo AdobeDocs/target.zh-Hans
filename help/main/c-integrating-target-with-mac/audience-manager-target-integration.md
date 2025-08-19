@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL Target]/[!DNL Audience Manager]集成允许您将[!DNL Audience Manager]区段发送到[!DNL Target]。
 
-有关详细信息，请参阅[用户指南 [!DNL Audience Manager] 中的 [!DNL Target]集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)与&#x200B;*[!DNL Audience Manager]*。
+有关详细信息，请参阅[用户指南 [!DNL Audience Manager] 中的 [!DNL Target]集成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=zh-Hans)与&#x200B;*[!DNL Audience Manager]*。
 
 ## 视频：将[!DNL Target]与[!DNL Adobe Audience Manager]集成(3:06)
 

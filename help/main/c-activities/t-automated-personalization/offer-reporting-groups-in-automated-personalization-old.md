@@ -2,7 +2,7 @@
 keywords: 自动个性化；选件；报表；组；报表组；ap
 description: 了解如何在 [!DNL Adobe Target] [!UICONTROL Automated Personalization]活动中使用选件报表组。
 title: 我能否在[!UICONTROL Automated Personalization]活动中使用选件报表组？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88

@@ -33,7 +33,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->使用Mobile SDK的客户无需执行任何操作即可应用此功能。 使用 at.js 的客户必须[升级至 at.js 版本 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}（或更高版本）。
+>使用Mobile SDK的客户无需执行任何操作即可应用此功能。 使用 at.js 的客户必须[升级至 at.js 版本 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank}（或更高版本）。
 
 您可以选择多个移动设备属性。使用OR运算符连接多个选择。
 

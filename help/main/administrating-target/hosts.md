@@ -85,7 +85,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->列入允许列表 **安全最佳实践**：如果您使用[!DNL Target]的ubox功能，此还将控制[重定向器](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}可以导航到的域列表。 确保在实施中使用ubox时添加要重定向到的任何域。 如果未指定允许列表，[!DNL Adobe]将无法验证重定向URL并防止潜在的恶意重定向。
+>列入允许列表 **安全最佳实践**：如果您使用[!DNL Target]的ubox功能，此还将控制[重定向器](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=zh-Hans){target=_blank}可以导航到的域列表。 确保在实施中使用ubox时添加要重定向到的任何域。 如果未指定允许列表，[!DNL Adobe]将无法验证重定向URL并防止潜在的恶意重定向。
 >
 >允许列表的优先级高于环境。 在使用“主机”功能之前清除所有主机，然后只有由“主机”允许列表列入允许列表允许的主机才会显示在主机列表中。 然后，您可以将主机移到所需的环境中。
 

@@ -37,4 +37,4 @@ ht-degree: 72%
 
 以下视频演示了如何使用 Target 三步引导式工作流创建多变量测试。从8:20开始描述体验性能报表。
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)

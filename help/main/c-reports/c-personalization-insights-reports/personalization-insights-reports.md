@@ -94,7 +94,7 @@ ht-degree: 28%
 
 ## 培训视频：使用Personalization Insights报表![教程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/)
+>[!VIDEO](https://video.tv.adobe.com/v/328064?captions=chi_hans)
 
 有关详细信息，请参阅[在Adobe Target中使用Personalization分析报表](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。
 

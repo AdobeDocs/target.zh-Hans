@@ -107,7 +107,7 @@ ht-degree: 80%
 * 介绍 A4T 的工作原理
 * 了解使用 A4T 之前需要满足的先决条件
 
->[!VIDEO](https://video.tv.adobe.com/v/17384)
+>[!VIDEO](https://video.tv.adobe.com/v/3421723?captions=chi_hans)
 
 ### Analytics/Adobe Target集成(A4T) (40:33) ![教程徽章](/help/main/assets/tutorial.png)
 

@@ -37,4 +37,4 @@ ht-degree: 35%
 
 本视频演示了如何使用[!DNL Target]三步引导式工作流创建多变量测试。 位置贡献报表的说明从8:45开始。
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)

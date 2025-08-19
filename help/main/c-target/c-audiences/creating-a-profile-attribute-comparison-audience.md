@@ -65,4 +65,4 @@ ht-degree: 51%
 
 请观看以下视频，了解更多信息以及可使用此功能的情景：
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
+>[!VIDEO](https://video.tv.adobe.com/v/328065?captions=chi_hans)

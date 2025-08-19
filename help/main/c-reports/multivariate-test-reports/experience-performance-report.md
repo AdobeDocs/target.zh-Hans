@@ -1,13 +1,13 @@
 ---
 keywords: 多变量测试;MVT;体验性能报表
-description: 了解如何将Experience Performance报表用于Adobe [!DNL Target] 体验定位活动，以显示活动中每个体验的表现。
+description: 了解如何对Adobe [!DNL Target] 体验定位活动使用体验性能报表，以显示活动中每个体验的表现。
 title: 如何将体验性能报表用于多变量测试？
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 75%
+ht-degree: 72%
 
 ---
 
@@ -35,6 +35,6 @@ ht-degree: 75%
 
 ## 培训视频：创建MVT测试![教程徽章](/help/main/assets/tutorial.png)
 
-以下视频演示了如何使用 Target 三步引导式工作流创建多变量测试。对体验性能报表的介绍开始于 8:20。
+以下视频演示了如何使用 Target 三步引导式工作流创建多变量测试。从8:20开始描述体验性能报表。
 
->[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

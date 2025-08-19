@@ -7,7 +7,7 @@ exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
 workflow-type: tm+mt
 source-wordcount: '907'
-ht-degree: 37%
+ht-degree: 36%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 37%
 
 [!DNL Adobe Target]根据您使用的[!DNL Target]界面和活动创建功能（[[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)或[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)），以不同的方式确定要交付给页面的活动（一个或多个）。
 
-## 仅[!UICONTROL Visual Experience Composer]或仅使用全局[!DNL Target]请求的[!UICONTROL Form-Based Experience Composer] {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## 仅[!UICONTROL Visual Experience Composer]或仅使用全局[!UICONTROL Form-Based Experience Composer]请求的[!DNL Target] {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 如果贵公司专门使用VEC，则可以为同一调用返回来自多个活动的内容。 活动将使用以下决策流程来交付：
 
@@ -62,7 +62,7 @@ ht-degree: 37%
 
 如果这两个定位活动具有相同的优先级，则会显示两个活动中最近查看过的活动。如果访客是第一次访问页面，则会显示两个活动中最近激活的活动。
 
-## 具有非全局[!DNL Target]请求的[!UICONTROL Form-Based Experience Composer] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## 具有非全局[!UICONTROL Form-Based Experience Composer]请求的[!DNL Target] {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 如果您的公司在基于表单的编辑器中使用[!DNL Target]请求而不是全局[!DNL Target]请求，则每次调用只能返回一个活动中的内容。 活动交付使用以下决策流程来确定：
 
@@ -99,7 +99,7 @@ ht-degree: 37%
 
 响应：visualExpCompOffer1，visualExpCompOffer2
 
-## 培训视频：活动设置 (3:02)
+## 培训视频：活动设置(3:02)
 
 以下视频包含有关活动设置的信息。
 

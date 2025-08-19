@@ -1,6 +1,6 @@
 ---
 keywords: 多变量测试；mvt；全因子；mvt或a/b；多变量a/b；流量估算器；何时使用mvt；mvt注意事项；多变量；部分因子；部分因子；全因子
-description: 了解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Multivariate Test] (MVT)来比较页面上元素中的选件组合，以确定哪个组合效果最佳。
+description: 了解如何使用[!UICONTROL Multivariate Test]中的 [!DNL Adobe Target]  (MVT)来比较页面上元素中的选件组合，以确定哪个组合效果最佳。
 title: 什么是[!UICONTROL Multivariate Test]？
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
@@ -11,9 +11,9 @@ ht-degree: 46%
 
 ---
 
-# [!UICONTROL Multivariate Test]概述
+# [!UICONTROL Multivariate Test] 概述
 
-[!DNL Adobe Target]中的[!UICONTROL Multivariate Test] (MVT)活动比较页面上各元素中选件的不同组合以确定哪个组合对特定受众的表现最好。 [!UICONTROL Multivariate Test]活动还有助于确定哪个元素对活动取得成功影响最大。
+[!UICONTROL Multivariate Test]中的[!DNL Adobe Target] (MVT)活动比较页面上各元素中选件的不同组合以确定哪个组合对特定受众的表现最好。 [!UICONTROL Multivariate Test]活动还有助于确定哪个元素对活动取得成功影响最大。
 
 多变量测试可帮助您发现特定元素与页面上的其他元素相比，对转化具有的相对影响。 多变量测试还可以帮助您优化已证明有效的元素组合。
 
@@ -55,7 +55,7 @@ Target的[流量估算器](/help/main/c-activities/c-multivariate-testing/t-crea
 
 * 使用 MVT 测试来确定最重要的元素，然后对该元素进行更集中的 A/B 测试。
 
-  如果不同体验的数量超过5个并跨越两个或更多元素，则最好在运行A/B测试之前先运行MVT测试。 MVT 测试可显示页面中的哪些区域最有可能提高转化。这些是营销人员应关注的元素。例如，MVT 测试可能表明，行为召唤 (call to action) 是实现目标的最重要元素。确定哪些元素和内容对帮助您实现目标最有用后，您可以运行A/B测试以进一步优化结果。 例如，您可以相互测试两个特定图像，或比较行动号召的措辞或颜色。 通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
+  如果不同体验的数量超过5个并跨越两个或更多元素，则最好在运行A/B测试之前先运行MVT测试。 MVT 测试可显示页面中的哪些区域最有可能提高转化。这些是营销人员应关注的元素。例如，MVT 测试可能表明，行为召唤 (call to action) 是实现目标的最重要元素。确定哪些元素和内容对帮助您实现目标最有用后，您可以运行A/B测试以进一步优化结果。 例如，您可以相互测试两个特定图像，或比较call to action的措辞或颜色。 通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
 
 ## 注意事项 {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
@@ -72,7 +72,7 @@ Target的[流量估算器](/help/main/c-activities/c-multivariate-testing/t-crea
 ## 部分因子测试
 
 [!DNL Target] 提供全因子多变量测试作为内置活动选项。在统计数据中，
-“实验设计”提供了多种方法或设计来确定哪些因素会影响结果。 其中一种方法是用于部分因子测试的[田口方法](https://en.wikipedia.org/wiki/Taguchi_methods)。 田口方法使营销人员能够制定一套假设，减少必须测试的体验排列数量，从而降低多变量测试的流量需求。 可以使用此[脱机电子表格](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)在[!DNL Target]中应用此功能和测试方法。
+“实验设计”提供了多种方法或设计来确定哪些因素会影响结果。 其中一种方法是用于部分因子测试的[田口方法](https://en.wikipedia.org/wiki/Taguchi_methods)。 田口方法使营销人员能够制定一套假设，减少必须测试的体验排列数量，从而降低多变量测试的流量需求。 可以使用此[!DNL Target]脱机电子表格[在](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)中应用此功能和测试方法。
 
 如果您的团队使用其他“实验设计”方法，则可以将此计算电子表格用作自定义实验设计的参考实施。
 
@@ -90,21 +90,21 @@ Target的[流量估算器](/help/main/c-activities/c-multivariate-testing/t-crea
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 活动类型（9 分 3 秒）![概述徽章](/help/main/assets/overview.png)
+### 活动类型(9:03) ![概述徽章](/help/main/assets/overview.png)
 
-此概述视频介绍[!DNL Target]中可用的活动类型。 对多变量测试的讨论开始于 4:20。
+此概述视频介绍[!DNL Target]中可用的活动类型。 多变量测试的讨论开始于4:20。
 
 * 介绍 [!DNL Adobe Target] 中包含的活动类型
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### 正在创建多变量测试(9:25) ![教程徽章](/help/main/assets/tutorial.png)
 
-此视频介绍如何使用Target三步引导式工作流来了解、规划和创建多变量测试。
+此视频介绍如何使用[!DNL]Target三步引导式工作流来了解、规划和创建多变量测试。
 
 * 定义和设计多变量测试
 * 创建多变量测试
 
->[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

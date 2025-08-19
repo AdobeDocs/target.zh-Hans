@@ -108,7 +108,7 @@ ht-degree: 49%
 1. 单击&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**。
 1. 在&#x200B;**[!UICONTROL Data Warehouse Request]**&#x200B;选项卡上，填写字段。
 
-   有关各个字段的更多信息，请参阅 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=zh-Hans) 中的“Data Warehouse 请求描述”。
+   有关各个字段的更多信息，请参阅 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html) 中的“Data Warehouse 请求描述”。
 
    | 字段 | 说明 |
    |--- |--- |
@@ -117,7 +117,7 @@ ht-degree: 49%
    | 可用区段 | 根据需要应用区段。 |
    | 划分 | 选择所需的维度：“标准”维度是现成的(OOTB)，而“自定义”维度包含eVar和prop。 如果需要访客ID级别信息，建议您使用“访客ID”，而不是“Experience Cloud访客ID”。<ul><li>访客 ID 是 Analytics 使用的最终 ID。访客 ID 将为 AID（如果客户是旧客户）或 MID（如果客户是新客户，或者清除了自 MC 访客 ID 服务启动以来的 Cookie）。</li><li>仅当客户是新客户，或者清除了自 MC 访客 ID 服务启动以来的 Cookie 时，才会为客户设置 Experience Cloud 访客 ID。</li></ul> |
    | 量度 | 选择所需的量度。“标准”量度为开箱即用量度，而“自定义”量度包含自定义事件。 |
-   | 报表预览 | 在计划报表之前查看您的设置。<br>![Data Warehouse2](/help/main/c-reports/assets/datawarehouse2.png) |
+   | 报表预览 | 在计划报表之前查看您的设置。<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
    | 计划提交 | 输入要向其传递文件的电子邮件地址，命名文件，然后选择[!UICONTROL Send Immediately]。<br>注意：可在[!UICONTROL Advanced Delivery Options]<br>![计划提交](/help/main/c-reports/assets/datawarehouse3.png)下通过FTP提交文件。 |
 
 1. 单击 **[!UICONTROL Request this Report]**。
@@ -128,8 +128,8 @@ ht-degree: 49%
 
 有关 [!DNL Data Warehouse] 的更多信息，请访问 [!DNL Analytics] 帮助文档中的以下链接：
 
-* [创建Data Warehouse请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=zh-Hans)
-* [Data Warehouse最佳实践](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=zh-Hans)
+* [创建Data Warehouse请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data Warehouse最佳实践](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## 计数方法 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -176,7 +176,7 @@ A/B测试是比较控制变量（也称为体验）中某个业务量度的平�
 
 ### 详细内容
 
-在运行A/B在线测试时，每个用户/访客都会随机分配到单个变体。 随后，我们对感兴趣的业务量度（例如转化率、订单、收入等）进行测量 适用于每个变体中的访客。 我们使用的统计测试然后测试平均业务量度（例如，转化率、每用户订单数、每用户收入等）的假设 等于对照变量和给定替代变量。
+在运行A/B在线测试时，每个用户/访客都会随机分配到单个变体。 随后，我们测量每个变体中的访客所关注的业务量度（例如，转化、订单、收入等）。 我们使用的统计测试然后检验关于对照和给定替代变体的平均业务量度（例如，转化率、每用户订单数、每用户收入等）相等的假设。
 
 尽管业务量度本身可能会根据某种任意分布进行分布，但此量度的平均值（在每个变量内）的分布应通过[中心极限定理](https://en.wikipedia.org/wiki/Central_limit_theorem)收敛于正态分布。 请注意，尽管无法保证均值采样分布收敛到正常值的速度，但通常情况下，会根据在线测试中的访客规模达到此条件。
 

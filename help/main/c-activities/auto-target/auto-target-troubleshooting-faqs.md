@@ -2,19 +2,19 @@
 keywords: 自动定位;定位;流量分配;常见问题;常见问题;故障排除;故障排除;流量
 description: 浏览有关[!UICONTROL Auto-Target]活动的故障排除主题和常见问题。
 title: 如何为[!UICONTROL Auto-Target]活动排除故障？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 29%
+ht-degree: 32%
 
 ---
 
 # [!UICONTROL Auto-Target]常见问题解答和疑难解答
 
-有关[!DNL Adobe Target]中[!UICONTROL Auto-Target]活动的故障排除和常见问题(FAQ)。
+有关[!UICONTROL Auto-Target]中[!DNL Adobe Target]活动的故障排除和常见问题(FAQ)。
 
 ## [!UICONTROL Auto-Target]常见问题解答 {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
@@ -37,7 +37,7 @@ ht-degree: 29%
 
 ### 是否建议[!UICONTROL Adobe]以90（对照）/10（针对性）的分摊使用[!UICONTROL Auto Target]直到构建模型为止？
 
-+++回答
++++回答 
 最优的流量分配分摊取决于要实现的目标。
 
 如果您的目标是使尽可能多的流量个性化，则可以在整个活动期内保持90%的目标分配和10%的控制。 如果您的目标是运行一项比较个性化算法与控制体验的实验，则50/50的分割比例最适合活动生命周期。
@@ -89,7 +89,7 @@ No, check marks for model generation show only the models built to date. There's
 +++回答
 在[!UICONTROL Auto-Target]活动中构建模型的时间通常取决于所选活动位置的流量以及与活动成功量度关联的转化率。
 
-在给定体验发生至少50次转化之前，[!UICONTROL Auto-Target]不会尝试构建该体验的个性化模型。 此外，如果所构建的模型质量缺佳（通过使用称为AUC[&#128279;](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)的量度对留出的“测试”数据进行离线评估而确定），则不会使用该模型以个性化的方式提供流量。
+在给定体验发生至少50次转化之前，[!UICONTROL Auto-Target]不会尝试构建该体验的个性化模型。 此外，如果所构建的模型质量缺佳（通过使用称为AUC[的量度](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)对留出的“测试”数据进行离线评估而确定），则不会使用该模型以个性化的方式提供流量。
 
 关于[!UICONTROL Auto-Target]的模型构建要记住的其他要点：
 
@@ -102,7 +102,7 @@ No, check marks for model generation show only the models built to date. There's
 ### 我的活动中已构建一个模型。对该体验的访问是否为个性化的？
 
 +++回答
-不是，必须在活动中至少构建两个模型才能开始个性化。
+不是，必须在活动中至少构建 2 个模型才能开始个性化。
 
 +++
 
@@ -116,7 +116,7 @@ No, check marks for model generation show only the models built to date. There's
 ### 我可以指定特定体验作为控制吗？
 
 +++回答
-在创建[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)或[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT)活动时，您可以选择要用作控制的体验。
+在创建[自动个性化](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) 或[自动锁定](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) 活动时，您可以选择要用作控制的体验。
 
 通过此功能，您可以根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。 然后，您可以根据该体验的控制流量评估个性化流量的性能报表。
 
@@ -127,16 +127,16 @@ No, check marks for model generation show only the models built to date. There's
 ### 能否在[!UICONTROL Auto-Target]活动中途更改目标指标？ {#change-metric}
 
 +++回答
-Adobe不建议您在活动中途更改目标指标。 虽然可在活动期间使用 [!DNL Target] UI 更改目标指标，但总是应开始新的活动。如果在活动运行后更改其中的目标指标，则Adobe不保证会发生什么情况。
+Adobe不建议您在活动中途更改目标指标。 虽然可在活动期间使用 [!DNL Target] UI 更改目标指标，但总是应开始新的活动。如果在活动运行后更改其中的目标指标，Adobe不保证会出现什么情况。
 
-此推荐适用于使用[!DNL Target]或[!DNL Analytics] (A4T)作为报表源的[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动。
+此推荐适用于使用[!UICONTROL Auto-Allocate]或[!UICONTROL Auto-Target] (A4T)作为报表源的[!UICONTROL Automated Personalization]、[!DNL Target]和[!DNL Analytics]活动。
 
 +++
 
-### 运行[!UICONTROL Auto-Target]活动时能否使用[!UICONTROL Reset Report Data]选项？
+### 运行[!UICONTROL Reset Report Data]活动时能否使用[!UICONTROL Auto-Target]选项？
 
 +++回答
-建议不要对[!UICONTROL Auto-Target]活动使用[!UICONTROL Reset Report Data]选项。 虽然它删除可见的报表数据，但此选项并不从[!UICONTROL Auto-Target]模型中删除所有训练记录。 不要对[!UICONTROL Auto-Target]活动使用[!UICONTROL Reset Report Data]选项，请创建新活动并停用原始活动。
+建议不要对[!UICONTROL Reset Report Data]活动使用[!UICONTROL Auto-Target]选项。 虽然它删除可见的报表数据，但此选项并不从[!UICONTROL Auto-Target]模型中删除所有训练记录。 不要对[!UICONTROL Reset Report Data]活动使用[!UICONTROL Auto-Target]选项，请创建新活动并停用原始活动。
 
 本指导还适用于[!UICONTROL Auto-Allocate]和[!UICONTROL Automated Personalization]活动。
 
@@ -188,7 +188,7 @@ Adobe不建议您在活动中途更改目标指标。 虽然可在活动期间�
 ### 依赖于转化量度的所有量度从不转化。
 
 +++故障排除建议
-这是正常情况。
+这是符合预期的。
 
 在[!UICONTROL Auto-Target]活动中，转化量度（无论是优化目标还是后期目标）发生转化后，用户将会从体验中释放，并且活动会重新开始。
 

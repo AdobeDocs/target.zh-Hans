@@ -1,6 +1,6 @@
 ---
 keywords: 体验定位；XT；创建
-description: 了解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Visual Experience Composer] (VEC)来创建[!UICONTROL Experience Targeting] (XT)活动。
+description: 了解如何在[!UICONTROL Visual Experience Composer]中使用 [!DNL Adobe Target]  (VEC)来创建[!UICONTROL Experience Targeting] (XT)活动。
 title: 如何创建[!UICONTROL Experience Targeting]活动？
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
@@ -13,7 +13,7 @@ ht-degree: 33%
 
 # 创建[!UICONTROL Experience Targeting] (XT)活动
 
-使用[!UICONTROL Visual Experience Composer] (VEC)在启用了[!DNL Target]的页面上创建[!UICONTROL Experience Targeting] (XT)活动，并在[!DNL Adobe Target]内修改页面的各个部分。
+使用[!UICONTROL Visual Experience Composer] (VEC)在启用了[!UICONTROL Experience Targeting]的页面上创建[!DNL Target] (XT)活动，并在[!DNL Adobe Target]内修改页面的各个部分。
 
 [!UICONTROL Experience Targeting] (XT)根据一组营销人员定义的规则和条件向特定受众提供内容。
 
@@ -51,7 +51,7 @@ ht-degree: 33%
 
    此时会打开 VEC，其中显示了在 URL 中指定的页面。
 
-1. 要命名活动，请单击“[!UICONTROL Untitled Activity]”旁边的&#x200B;**[!UICONTROL Edit]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)），为活动指定描述性名称，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 要命名活动，请单击“**[!UICONTROL Edit]**”旁边的![图标（](/help/main/assets/icons/Edit.svg)编辑图标[!UICONTROL Untitled Activity]），为活动指定描述性名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
    活动名称不能以下列任何字符开头：
 

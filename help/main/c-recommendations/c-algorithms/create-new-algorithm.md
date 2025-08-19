@@ -1,8 +1,8 @@
 ---
 keywords: 标准；算法；垂直行业；页面类型；推荐键；推荐逻辑；数据范围；回顾窗口；行为数据源；部分设计；备用推荐；包含规则；属性权重；当前类别；自定义属性；上次购买的项目；上次查看的项目；查看次数最多的项目；最喜爱的类别；热门程度；最近查看的项目；上次购买；上次查看；最喜爱的项目；最近查看的项目；最近查看的项目；最近查看的项目
 description: 了解如何创建条件来控制 [!DNL Recommendations] 活动的内容，以显示最适合您的活动的推荐。
-title: 如何在 [!DNL Recommendations]中创建[!UICONTROL Criteria]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+title: 如何在[!UICONTROL Criteria]中创建 [!DNL Recommendations]？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -23,7 +23,7 @@ ht-degree: 47%
 可通过多种方式访问[!UICONTROL Create New Criteria]屏幕。 某些屏幕选项会根据您访问该屏幕的方式而有所不同。
 
 * 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;库屏幕上，单击&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**。 您在此处创建的标准会自动设置为可用于所有 [!DNL Recommendations] 活动。
-* 使用[!UICONTROL Visual Experience Composer] (VEC)创建[!DNL Recommendations]活动时，在页面上选择一个元素并单击[!UICONTROL Replace w/ Recommendations]、[!UICONTROL Insert Recommendations Before]或[!UICONTROL Insert Recommendations After]后，您会立即转到[!UICONTROL Select Criteria]屏幕。 然后，您可以选择可用的标准，也可以单击&#x200B;**[!UICONTROL Create Criteria]**。 如果您创建新标准，则可以选择保存标准以供其他[!DNL Recommendations]活动使用。 有关详细信息，请参阅[创建Recommendations活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+* 使用[!DNL Recommendations] (VEC)创建[!UICONTROL Visual Experience Composer]活动时，在页面上选择一个元素并单击[!UICONTROL Select Criteria]、[!UICONTROL Replace w/ Recommendations]或[!UICONTROL Insert Recommendations Before]后，您会立即转到[!UICONTROL Insert Recommendations After]屏幕。 然后，您可以选择可用的标准，也可以单击&#x200B;**[!UICONTROL Create Criteria]**。 如果您创建新标准，则可以选择保存标准以供其他[!DNL Recommendations]活动使用。 有关详细信息，请参阅[创建推荐活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 * 编辑[!DNL Recommendations]活动时，单击页面上的[!UICONTROL Recommendations Location]框并选择&#x200B;**[!UICONTROL Change Criteria]**。 在[!UICONTROL Select Criteria]屏幕上单击&#x200B;**[!UICONTROL Create Criteria]**。 您将可以选择保存新建的标准，以供在其他 [!DNL Recommendations] 活动中使用。
 
 以下步骤假定您使用第一个方法访问[!UICONTROL Create New Criteria]屏幕： **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;库屏幕。
@@ -131,7 +131,7 @@ ht-degree: 47%
 
    >[!NOTE]
    >
-   >仅当您的实施使用[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)时，才会显示[!UICONTROL Behavioral Data Source]部分。
+   >仅当您的实施使用[!UICONTROL Behavioral Data Source]Analytics for Target[ (A4T)时，才会显示](/help/main/c-integrating-target-with-mac/a4t/a4t.md)部分。
 
    ![行为数据Source部分](assets/data-source.png)
 
@@ -143,7 +143,7 @@ ht-degree: 47%
    * **使用已经可用的报表包新建或编辑标准**：在创建新标准或编辑现有标准时，如果所选报表包已经与 [!DNL Target Recommendations] 一起使用，并且其数据范围等于或小于所选的数据范围，则数据立即可用，而无需一次性设置。在这种情况下，或者如果在未修改所选报表包或数据范围的情况下对算法的设置进行编辑，则该算法将在 12 小时内运行或者重新运行。
    * **持续的算法运行**：数据每天从 [!DNL Analytics] 流向 [!DNL Target Recommendations]。例如，对于[!UICONTROL Viewed Affinity]推荐，当用户查看产品时，产品查看跟踪调用将以近实时的方式传递到[!DNL Analytics]。 [!DNL Analytics] 数据会在第二天早些时候被推送到 [!DNL Target]，然后 [!DNL Target] 会在 12 小时内运行算法。
 
-   有关详细信息，请参阅[将Adobe Analytics与Target Recommendations结合使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
+   有关详细信息，请参阅[将Adobe Analytics与Target推荐一起使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
 
 1. 设置&#x200B;**[!UICONTROL Lookback Window]**&#x200B;以确定在确定要显示的推荐时所使用的可用历史用户行为数据的时间范围。 此选项适用于除[!UICONTROL Items with Similar Attributes]和[!UICONTROL Custom Algorithms]之外的所有算法。
 

@@ -29,7 +29,7 @@ ht-degree: 79%
 | --- | --- |
 | A/B 测试 | 比较您在网站上或其他数字客户接触点上体验或产品的两个或更多变体，以了解哪个变体在预先指定的测试期间最能改善关键业务措施。A/B 测试适合较大的变动，如新的网页布局、不同的网站导航方法或处理数字体验个别元素（如文案、图像和行动号召按钮）的方式发生重大变化。[了解更多](/help/main/c-activities/t-test-ab/test-ab.md)。 |
 | 自动分配 | 在两个或更多个体验中找出表现最好的体验，并自动将更多流量重新分配给入选者以提高转化率，同时测试继续运行和学习。其中使用由 [!DNL Adobe Sensei] 提供的人工智能。[了解更多](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| Auto-Target<br>(Premium) | 利用 [!DNL Target] 中的 Adobe Sensei AI，根据每位访客个别的客户个人资料和以前具有类似个人资料的访客作出的行为，确定若干体验中的最佳体验并提供给访客。自动定位可实现大规模自定义。[了解更多](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
+| Auto-Target<br>(Premium) | 利用 [!DNL Target] 中的 Adobe Sensei AI，根据每位访客个别的客户轮廓和以前具有类似轮廓的访客作出的行为，确定若干体验中的最佳体验并提供给访客。自动锁定可实现大规模自定义。[了解更多](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
 | 自动个性化<br>(Premium) | 使用由 [!DNL Adobe Sensei] 提供的高级机器学习算法和自动化功能检查产品中的图像、文案和其他元素的各种组合，并根据哪种组合最能实现业务目标（如提高转化率或每位访客的收入）将最佳组合提供给每位访客。[了解更多](/help/main/c-activities/t-automated-personalization/automated-personalization.md)。 |
 | 体验定位 (XT) | 根据用户定义的一组规则和标准将内容交付给特定受众。当您认识到某个受众很重要，并且该受众很了解什么体验与其产生共鸣时，**[!UICONTROL Experience Targeting]**&#x200B;对于将特定体验或内容定位到特定受众可发挥很大作用。 [了解更多](/help/main/c-activities/t-experience-target/experience-target.md)。 |
 | 多变量测试 (MVT) | 比较您的页面或数字体验上元素变体所有可能的组合 - 例如三个不同的背景图像、两个文案变体以及两种不同的按钮颜色。MVT 确定哪个组合对特定受众的表现最好以及哪些元素对结果影响最大。[了解更多](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
@@ -52,9 +52,9 @@ ht-degree: 79%
 
 | 实现类型 | 详细信息 |
 | --- | --- |
-| 客户端 | 对于 [!DNL Target] 的这种实现，[!DNL Target] 将与某个活动关联的体验直接提供给客户端浏览器。浏览器将决定要显示的体验，然后显示该体验。通过客户端，您可以使用WYSIWYG编辑器、**[!UICONTROL Visual Experience Composer]** (VEC)或非可视化界面&#x200B;**[!UICONTROL Form-based Experience Composer]**&#x200B;创建您的测试和个性化体验。 [了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank}。 |
-| 服务器端 | 在此类型的 [!DNL Target] 实现中，客户端设备通过您的服务器提出体验请求，您的服务器将该请求发送给 [!DNL Target]，[!DNL Target] 将响应发回您的服务器，然后您的服务器决定将什么体验提供给客户端设备以供其呈现。体验不一定显示在浏览器中；它能够以电子邮件或网亭形式显示，还可以通过语音助手或者其他一些非可视化体验或不基于浏览器的设备显示。由于您的服务器位于客户端和 [!DNL Target] 之间，因此如果您需要更好地控制体验并提高其安全性，或者您希望在服务器上运行复杂的后端进程，则此类实施是最佳选择。[了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}。 |
-| 混合实现 | 在此实现中，您选择最适合给定用例的实现方法。例如，您可能会使用客户端实现对主页上巨型横幅中的选件进行 A/B 测试，但还可能会使用服务器端实现确定要在客户端浏览器上显示的内部搜索结果、要在智能汽车仪表板上显示的体验或要从语音助手发出的语音响应。 |
+| 客户端 | 对于 [!DNL Target] 的这种实现，[!DNL Target] 将与某个活动关联的体验直接提供给客户端浏览器。浏览器将决定要显示的体验，然后显示该体验。通过客户端，您可以使用WYSIWYG编辑器、**[!UICONTROL Visual Experience Composer]** (VEC)或非可视化界面&#x200B;**[!UICONTROL Form-based Experience Composer]**&#x200B;创建测试和个性化体验。 [了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}。 |
+| 服务器端 | 在此类型的 [!DNL Target] 实现中，客户端设备通过您的服务器提出体验请求，您的服务器将该请求发送给 [!DNL Target]，[!DNL Target] 将响应发回您的服务器，然后您的服务器决定将什么体验提供给客户端设备以供其呈现。体验不一定显示在浏览器中；它能够以电子邮件或网亭形式显示，还可以通过语音助手或者其他一些非可视化体验或不基于浏览器的设备显示。由于您的服务器位于客户端和 [!DNL Target] 之间，因此如果您需要更好地控制体验并提高其安全性，或者您希望在服务器上运行复杂的后端进程，则此类实施是最佳选择。[了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。 |
+| 混合实现 | 在此实现中，您选择最适合给定用例的实现方法。例如，您可能会使用客户端实现对主页上巨型横幅中的产品建议进行 A/B 测试，但还可能会使用服务器端实现确定要在客户端浏览器上显示的内部搜索结果、要在智能汽车仪表板上显示的体验或要从语音助手发出的语音响应。 |
 
 ## 活动元素
 
@@ -62,11 +62,11 @@ ht-degree: 79%
 
 | 元素类型 | 详细信息 |
 | --- | --- |
-| 体验 | 一个页面、整个网页、可能形成购买漏斗的一组页面或一些其他逻辑序列的页面上的一个选件、图像、文本、按钮、视频，以及这些不同元素的组合。它还可以是语音助手的回复、客户服务脚本，甚至是饮料机中提供的独特口味。您可以在 [!DNL Target] 活动中测试或个性化体验。[了解更多](/help/main/c-experiences/experiences.md)。 |
-| 选件 | 一块内容，其中可能包含图像、文本、HTML、链接、视频、行动号召按钮、语音助手响应或任何其他类型的内容。选件可用于打折、免运费等。可在网页上显示选件，但也可在语音助手或游戏主机等任何客户接触点上体验选件。当您测试某个选件时，你衡量它与其他选件或无选件相比是否取得成功。[了解更多](/help/main/c-experiences/c-manage-content/manage-content.md)。 |
-| 受众 | 具有相同特征的人群，例如都是新访客、回访访客或来自中西部的回访访客。通过使用“受众”功能，您可以将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。如果将访客视为目标受众的一部分，则 [!DNL Target] 根据在活动创建期间定义的标准决定要显示何种体验。[了解更多](/help/main/c-target/target.md)。 |
-| 成功量度 | 使您可确定给定体验或选件在 [!DNL Target] 活动中取得成功的关键业务度量。例如，您可以确定新的选件是否增加了每个访客带来的收入或是否吸引访客向购物车中添加物品。成功量度可用于发现注册、订购或购买漏斗等方面的问题，也可仅仅用于提高访客或客户参与度。[了解更多](/help/main/c-activities/r-success-metrics/success-metrics.md)。 |
-| 报表 | 关于您的活动进展和结果的信息，帮助您根据自身数据作出决策。报表数据可以帮助您确定何时结束测试，向您显示哪个体验或选件已入选，并提供确定后续操作所需的分析或学习数据。[了解更多](/help/main/c-reports/reports.md)。 |
+| 体验 | 一个页面、整个网页、可能形成购买漏斗的一组页面或一些其他逻辑序列的页面上的一个产品建议、图像、文本、按钮、视频，以及这些不同元素的组合。它还可以是语音助手的回复、客户服务脚本，甚至是饮料机中提供的独特口味。您可以在 [!DNL Target] 活动中测试或个性化体验。[了解更多](/help/main/c-experiences/experiences.md)。 |
+| 产品建议 | 一块内容，其中可能包含图像、文本、HTML、链接、视频、行动号召按钮、语音助手响应或任何其他类型的内容。产品建议可用于打折、免运费等。可在网页上显示产品建议，但也可在语音助手或游戏主机等任何客户接触点上体验产品建议。当您测试某个产品建议时，你衡量它与其他产品建议或无产品建议相比是否取得成功。[了解更多](/help/main/c-experiences/c-manage-content/manage-content.md)。 |
+| 受众 | 具有相同特征的人群，例如都是新访客、回访访客或来自中西部的回访访客。通过使用“受众”功能，您可以将不同的内容和体验锁定到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。如果将访客视为目标受众的一部分，则 [!DNL Target] 根据在活动创建期间定义的标准决定要显示何种体验。[了解更多](/help/main/c-target/target.md)。 |
+| 成功量度 | 使您可确定给定体验或产品建议在 [!DNL Target] 活动中取得成功的关键业务度量。例如，您可以确定新的产品建议是否增加了每个访客带来的收入或是否吸引访客向购物车中添加物品。成功量度可用于发现注册、订购或购买漏斗等方面的问题，也可仅仅用于提高访客或客户参与度。[了解更多](/help/main/c-activities/r-success-metrics/success-metrics.md)。 |
+| 报表 | 关于您的活动进展和结果的信息，帮助您根据自身数据作出决策。报表数据可以帮助您确定何时结束测试，向您显示哪个体验或产品建议已入选，并提供确定后续操作所需的分析或学习数据。[了解更多](/help/main/c-reports/reports.md)。 |
 
 ## 活动创建工具
 
@@ -74,8 +74,8 @@ ht-degree: 79%
 
 | 工具 | 详细信息 |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | 一个所见即所得界面，从中可轻松地在网站上下文中创建和测试个性化体验和选件。可通过拖放、调换和修改网页（或选件）或移动网页的布局和内容，为 [!DNL Target] 活动创建体验和选件。[了解更多](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)。 |
-| [!UICONTROL Form-based Experience Composer] | 一个非可视化体验和选件创建界面，当可视化体验编辑器不可用或不实用时，它有助于创建在A/B测试、体验定位、Automated Personalization和Recommendations活动中使用的体验。 例如，您可以使用基于表单的编辑器为电子邮件、网亭和语音助手中的交付创建体验和选件。[了解更多](/help/main/c-experiences/form-experience-composer.md)。 |
+| [!UICONTROL Visual Experience Composer] (VEC) | 一个所见即所得界面，从中可轻松地在网站上下文中创建和测试个性化体验和产品建议。可通过拖放、调换和修改网页（或产品建议）或移动网页的布局和内容，为 [!DNL Target] 活动创建体验和产品建议。[了解更多](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)。 |
+| [!UICONTROL Form-based Experience Composer] | 一个非可视化体验和选件创建界面，当可视化体验编辑器不可用或不实用时，它有助于创建在A/B测试、体验定位、Automated Personalization和“推荐”活动中使用的体验。 例如，您可以使用基于表单的编辑器为电子邮件、网亭和语音助手中的交付创建体验和产品建议。[了解更多](/help/main/c-experiences/form-experience-composer.md)。 |
 | [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | 使用 SPA VEC，营销人员能够以 DIY（自己动手）方式创建测试并对 SPA 上的内容进行个性化，而无需持续依赖开发。VEC 可用于在常用框架（例如 React 和 Angular）上创建 A/B 测试和体验定位 (XT) 活动。[了解更多](/help/main/c-experiences/spa-visual-experience-composer.md)。 |
 
 ## 治理和控制

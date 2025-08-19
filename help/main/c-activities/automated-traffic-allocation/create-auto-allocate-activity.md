@@ -13,9 +13,9 @@ ht-degree: 15%
 
 # 创建[!UICONTROL Auto-Allocate]活动
 
-在[!DNL Adobe Target]中使用[!UICONTROL Visual Experience Composer] (VEC)直接在启用了[!DNL Target]的页面上创建您的[!UICONTROL Auto-Allocate] [!UICONTROL A/B Test]活动，并在[!DNL Target]内修改页面的各个部分。
+在[!UICONTROL Visual Experience Composer]中使用[!DNL Adobe Target] (VEC)直接在启用了[!UICONTROL Auto-Allocate]的页面上创建您的[!UICONTROL A/B Test] [!DNL Target]活动，并在[!DNL Target]内修改页面的各个部分。
 
-除了[!UICONTROL Auto-Allocate] [!UICONTROL A/B Test]活动（本文中讨论）之外，[!DNL Target]还提供另外两种类型的[!UICONTROL A/B Test]活动：[!UICONTROL Manual (Default)]和[!UICONTROL Auto-Target]。 查看&#x200B;*A/B测试概述*&#x200B;中的[A/B测试活动类型](/help/main/c-activities/t-test-ab/test-ab.md#types)。
+除了[!UICONTROL Auto-Allocate] [!UICONTROL A/B Test]活动（本文中讨论）之外，[!DNL Target]还提供另外两种类型的[!UICONTROL A/B Test]活动：[!UICONTROL Manual (Default)]和[!UICONTROL Auto-Target]。 查看[A/B测试概述](/help/main/c-activities/t-test-ab/test-ab.md#types)中的&#x200B;*A/B测试活动类型*。
 
 要创建[!UICONTROL Auto-Allocate]活动，请执行以下操作：
 
@@ -43,7 +43,7 @@ ht-degree: 15%
 
    [!UICONTROL Visual Experience Composer]将打开，显示在URL中指定的页面。
 
-1. 要命名活动，请单击“[!UICONTROL Untitled Activity]”旁边的&#x200B;**[!UICONTROL Edit]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)），为活动指定描述性名称，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 要命名活动，请单击“**[!UICONTROL Edit]**”旁边的![图标（](/help/main/assets/icons/Edit.svg)编辑图标[!UICONTROL Untitled Activity]），为活动指定描述性名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
    活动名称不能以下列任何字符开头：
 
@@ -71,11 +71,11 @@ ht-degree: 15%
 
 1. 通过更改页面上的元素创建新体验。
 
-   创建新活动后，[!UICONTROL Visual Experience Composer]在左侧显示两个选项卡：[!UICONTROL Experience A]和[!UICONTROL Experience B]。 [!UICONTROL Experience A]是控制体验。 您关注的焦点是[!UICONTROL Experience B]选项卡，您可以根据需要对其进行修改。 [!UICONTROL Experience B]是可以添加到测试中的备用体验。 您可以通过单击[!UICONTROL Experiences]窗格顶部的[!UICONTROL Add]图标（![添加图标](/help/main/assets/icons/Add.svg)）将多个体验添加到测试中。 如果您不想在体验选项中包含默认的网站体验，则也可以从活动中删除体验 A。
+   创建新活动后，[!UICONTROL Visual Experience Composer]在左侧显示两个选项卡：[!UICONTROL Experience A]和[!UICONTROL Experience B]。 [!UICONTROL Experience A]是控制体验。 您关注的焦点是[!UICONTROL Experience B]选项卡，您可以根据需要对其进行修改。 [!UICONTROL Experience B]是可以添加到测试中的备用体验。 您可以通过单击[!UICONTROL Add]窗格顶部的![图标（](/help/main/assets/icons/Add.svg)添加图标[!UICONTROL Experiences]）将多个体验添加到测试中。 如果您不想在体验选项中包含默认的网站体验，则也可以从活动中删除体验 A。
 
    有关在[!UICONTROL Visual Experience Composer]中添加和修改体验的详细信息，请参阅[添加体验](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。 要修改[!UICONTROL Experience B]，请从步骤2开始。
 
-1. 单击[!UICONTROL Visual Experience Composer]顶部的&#x200B;**[!UICONTROL Targeting]**&#x200B;以进入三步引导式工作流中的下一个步骤。
+1. 单击&#x200B;**[!UICONTROL Targeting]**&#x200B;顶部的[!UICONTROL Visual Experience Composer]以进入三步引导式工作流中的下一个步骤。
 
    此时会打开流程图。
 
@@ -97,7 +97,7 @@ ht-degree: 15%
       如果需要创建一个不在[!UICONTROL Audience Library]中的新受众，请单击&#x200B;**创建受众**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
 
       * **[!UICONTROL Audience Library]**：创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用
-      * **仅此活动**：创建未保存到[!UICONTROL Audience Library]且只能用于当前活动的[特定受众](/help/main/c-target/creating-activity-only-audience.md)
+      * **仅此活动**：创建未保存到[且只能用于当前活动的](/help/main/c-target/creating-activity-only-audience.md)特定受众[!UICONTROL Audience Library]
 
    1. 单击右框中的&#x200B;**[!UICONTROL Visitor Percentage]**，然后选择符合条件的访客您希望参加活动的百分比。
 

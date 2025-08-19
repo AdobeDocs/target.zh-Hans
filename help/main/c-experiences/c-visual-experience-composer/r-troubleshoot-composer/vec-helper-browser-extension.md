@@ -13,13 +13,13 @@ ht-degree: 50%
 
 # [!UICONTROL Visual Experience Composer]帮助程序扩展
 
-适用于[!DNL Google Chrome]的[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)助手浏览器扩展允许您在VEC内可靠地加载网站，以快速创作和QA Web体验。
+适用于[!DNL Adobe Target]的[!UICONTROL Visual Experience Composer] [!DNL Google Chrome] (VEC)助手浏览器扩展允许您在VEC内可靠地加载网站，以快速创作和QA Web体验。
 
 VEC助手浏览器是[!DNL Chrome]扩展。 使用[!DNL Mozilla Firefox]时不需要此扩展。
 
 >[!IMPORTANT]
 >
->* 本文中记录的旧版[!DNL Target] VEC Helper扩展是使用Manifest V2创建的。 [!DNL Google]宣布从2024年6月起，将不再允许使用清单V2创建的扩展。 有关详细信息，请参阅&#x200B;*面向开发人员的Chrome*&#x200B;网站上[!DNL Google]中的[清单V2支持时间表公告](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank}。
+>* 本文中记录的旧版[!DNL Target] VEC Helper扩展是使用Manifest V2创建的。 [!DNL Google]宣布从2024年6月起，将不再允许使用清单V2创建的扩展。 有关详细信息，请参阅[面向开发人员的Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank}网站上[!DNL Google]的&#x200B;*清单V2支持时间表公告*。
 >
 >* 从2024年6月开始，[!DNL Google]将开始禁用使用清单V2创建的扩展，包括本主题中介绍的扩展。 [!DNL Adobe]建议客户尽快迁移到较新的[可视化编辑帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
 
@@ -50,17 +50,17 @@ SW 可以控制缓存；可以缓存网页本身、静态资源（例如 JS、CS
 
   请注意，使用增强型体验编辑器(EEC)时，扩展不会插入.js，但是SameSite Cookie功能仍然会存在。 要在网页上插入 at.js，请关闭 EEC。
 
-* 即使没有[!UICONTROL Enhanced Experience Composer] (EEC)，也支持[移动设备视区](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
+* 即使没有[ (EEC)，也支持](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)移动设备视区[!UICONTROL Enhanced Experience Composer]。
 * 对于 [!DNL Target] 的新客户，即便在其 IT 开发人员尚未在其网站上实施 [!DNL Target] 的情况下，也可以使用此扩展来试用 [!DNL Target]。
 * 服务于多个客户网站和 [!DNL Target] 帐户的合作伙伴现在有一个简单的机制来支持 VEC 加载，而不用通过第三方工具管理多个规则。
 
 ## 获取并安装 VEC 助手浏览器扩展
 
-1. 导航到Chrome网上应用商店[&#128279;](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak)中的Adobe Target VEC助手浏览器扩展。
+1. 导航到Chrome网上应用商店[中的](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak)Adobe Target VEC助手浏览器扩展。
 1. 单击 **[!UICONTROL Add to Chrome > Add Extension]**。
 1. 打开 [!DNL Target] 中的 VEC。
 1. 要使用此扩展，请在处于 VEC 或 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)时，单击 Chrome 浏览器工具栏中的 VEC 助手浏览器扩展图标 (![VEC 助手图标](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))。
-1. （视情况而定）如果网页尚未包含[!DNL Target] at.js JavaScript库，请将&#x200B;**[!UICONTROL Inject Target Libraries]**&#x200B;切换开关滑动到“开”位置。
+1. （视情况而定）如果网页尚未包含&#x200B;**[!UICONTROL Inject Target Libraries]** at.js JavaScript库，请将[!DNL Target]切换开关滑动到“开”位置。
 
    下图显示了已启用[!UICONTROL Inject Target Libraries]设置的VEC助手：
 
@@ -82,7 +82,7 @@ SW 可以控制缓存；可以缓存网页本身、静态资源（例如 JS、CS
 
   此标志是全局设置。 可以为在 VEC 中打开的所有网站启用或禁用此标志。因此，例如，如果您将此标志设置为“开”，并打开一个已使用at.js进行实施的网站，则会收到一则消息，告知您at.js已加载。 Adobe预计大多数客户已在其页面上实施了at.js，并且会使用默认设置“关闭”。
 
-* 该扩展加载最新版本的at.js，该版本可从[!UICONTROL Administration > Implementation]中的[!DNL Target UI]获得。
+* 该扩展加载最新版本的at.js，该版本可从[!DNL Target UI]中的[!UICONTROL Administration > Implementation]获得。
 * 当在 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)下使用扩展插入 at.js 时，必须打开另一个 Chrome 选项卡。此 Chrome 选项卡必须通过您创建该活动的同一 [!DNL Adobe Experience Cloud] 组织的身份验证。
 * 以下消息有助于您随时了解以下情况：
 

@@ -13,9 +13,9 @@ ht-degree: 40%
 
 # AEM [!UICONTROL Experience Fragments]和[!UICONTROL Content Fragments]概述
 
-在[!DNL Target]活动中使用在[!DNL Adobe Experience Manager] (AEM)中创建的[!UICONTROL Experience Fragments] (XF)和[!UICONTROL Content Fragments] (CF)以帮助优化和个性化。
+在[!UICONTROL Experience Fragments]活动中使用在[!UICONTROL Content Fragments] (AEM)中创建的[!DNL Adobe Experience Manager] (XF)和[!DNL Target] (CF)以帮助优化和个性化。
 
-通过在[!DNL Target]活动中使用[!DNL AEM]中创建的[!UICONTROL Experience Fragments]和[!UICONTROL Content Fragments]，您可以将[!DNL AEM]的易用性和强大功能与[!DNL Target]中强大的人工智能(AI)和机器学习(ML)功能结合起来，以测试和大规模个性化体验。
+通过在[!UICONTROL Experience Fragments]活动中使用[!UICONTROL Content Fragments]中创建的[!DNL AEM]和[!DNL Target]，您可以将[!DNL AEM]的易用性和强大功能与[!DNL Target]中强大的人工智能(AI)和机器学习(ML)功能结合起来，以测试和大规模个性化体验。
 
 [!DNL AEM] 将您的所有内容和资产集于一处以强化您的个性化策略。通过 [!DNL AEM]，可在一处轻松地为桌面、平板电脑和移动设备创建内容，并且无需编写代码。无需为每个设备创建页面。[!DNL AEM] 使用您的内容自动为每个设备调整每个体验。
 
@@ -25,7 +25,7 @@ ht-degree: 40%
 
 ## 注意事项
 
-在[!DNL Target]中使用AEM [!UICONTROL Experience Fragments]和[!UICONTROL Content Fragments]时，请考虑以下事项：
+在[!UICONTROL Experience Fragments]中使用AEM [!UICONTROL Content Fragments]和[!DNL Target]时，请考虑以下事项：
 * 这些功能要求您是 [!DNL Adobe Experience Manager] (AEM) 客户。确保您满足[体验片段](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements)或[内容片段](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements)每种片段类型的要求。
 * [!UICONTROL Experience Fragments]和[!UICONTROL Content Fragments]可用于以下活动类型：
 
@@ -40,11 +40,11 @@ ht-degree: 40%
    * [[!UICONTROL Multivariate Test] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* 您可以使用[可视化体验编辑器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)在[!DNL Target]活动中使用[!UICONTROL Experience Fragments]。
-* 您只能使用基于[表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)，在[!DNL Target]活动中使用[!UICONTROL Content Fragments]。
+* 您可以使用[!UICONTROL Experience Fragments]可视化体验编辑器[!DNL Target] (VEC)和[基于表单的体验编辑器](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)在[活动中使用](/help/main/c-experiences/form-experience-composer.md)。
+* 您只能使用基于[!UICONTROL Content Fragments]表单的体验编辑器[!DNL Target]，在[活动中使用](/help/main/c-experiences/form-experience-composer.md)。
 
 ## [!UICONTROL Experience Fragments]和[!UICONTROL Content Fragments]之间有何区别？
 
 [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments]和[!UICONTROL Content Fragments]表面上可能相似，但每个片段类型在不同的用例中都具有关键角色。
 
-有关[!UICONTROL Experience Fragments]和[!UICONTROL Content Fragments]如何相似、不同以及何时和如何使用它们的详细信息，请参阅[AEM Sites视频和教程指南](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=zh-Hans){target=_blank}中的[了解[!UICONTROL Content Fragments]和[!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=zh-Hans){target=_blank}。
+有关[!UICONTROL Experience Fragments]和[!UICONTROL Content Fragments]如何相似、不同以及何时和如何使用它们的详细信息，请参阅[AEM Sites视频和教程指南[!UICONTROL Content Fragments]中的[!UICONTROL Experience Fragments]了解](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}和[](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}。

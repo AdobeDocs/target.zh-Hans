@@ -48,7 +48,7 @@ ht-degree: 44%
 
 如果您输入的 URL 所对应的网站不包含 [!DNL Target] Standard JavaScript 代码，则您将无法选择页面元素。
 
-默认情况下，[!UICONTROL Visual Experience Composer]不允许更改包含JavaScript的元素，如旋转横幅。 如果您希望能够使用[!UICONTROL Visual Experience Composer]更改这些元素，可以关闭&#x200B;**[!UICONTROL Render using JavaScript]**。
+默认情况下，[!UICONTROL Visual Experience Composer]不允许更改包含JavaScript的元素，如旋转横幅。 如果您希望能够使用&#x200B;**[!UICONTROL Render using JavaScript]**&#x200B;更改这些元素，可以关闭[!UICONTROL Visual Experience Composer]。
 
 >[!NOTE]
 >

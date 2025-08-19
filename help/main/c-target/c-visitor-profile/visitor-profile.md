@@ -11,7 +11,7 @@ ht-degree: 38%
 
 ---
 
-# 访客配置文件
+# 访客轮廓
 
 [!DNL Adobe Target]中的访客配置文件包含有关访客如何使用您的页面和其他优化内容位置的信息。
 
@@ -21,9 +21,9 @@ ht-degree: 38%
 
 以下部分包含更多信息：
 
-- [访客个人资料生命周期](visitor-profile-lifetime.md)
-- [配置文件属性](profile-parameters.md)
+- [访客轮廓生命周期](visitor-profile-lifetime.md)
+- [轮廓属性](profile-parameters.md)
 - [类别亲和力](category-affinity.md)
-- [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
-- [mbox3rdPartyID 的实时配置文件同步](3rd-party-id.md)
-- [配置文件和变量一览表](variables-profiles-parameters-methods.md)
+- [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+- [mbox3rdPartyID 的实时轮廓同步](3rd-party-id.md)
+- [轮廓和变量一览表](variables-profiles-parameters-methods.md)

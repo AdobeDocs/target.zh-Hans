@@ -13,7 +13,7 @@ ht-degree: 32%
 
 # 将[!DNL Target]与Adobe Campaign集成
 
-使用带有[!DNL Adobe Campaign]的[!DNL Target]优化电子邮件内容。
+使用带有[!DNL Target]的[!DNL Adobe Campaign]优化电子邮件内容。
 
 要优化电子邮件内容，您可以在[!DNL Target]中创建重定向选件，然后使用[!DNL Adobe Campaign]管理电子邮件选件。 例如，您可以为男性收件人和女性收件人显示不同的选件。
 
@@ -55,9 +55,9 @@ ht-degree: 32%
 
   请参阅[重定向到 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)。
 
-在设置集成的[!DNL Campaign]部分之前，在[!DNL Target]中启动活动。
+在设置集成的[!DNL Target]部分之前，在[!DNL Campaign]中启动活动。
 
-## 在[!DNL Adobe Campaign]电子邮件中包含[!DNL Target]选件 {#section_B201BBE27A704E18AF0D553F35695837}
+## 在[!DNL Target]电子邮件中包含[!DNL Adobe Campaign]选件 {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. 在[!DNL Adobe Campaign]中创建电子邮件。
 1. 在电子邮件属性中，单击&#x200B;**[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**。

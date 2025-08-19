@@ -2,13 +2,13 @@
 keywords: 推荐信息源；信息源；SAINT；ftp；csv；分类；analytics分类
 description: 了解信息源如何使用CSV文件、 [!DNL Adobe Target] [!DNL Recommendations]信息源格式和 [!DNL Google Product Search] 产品分类将实体导入 [!DNL Analytics] 。
 title: 如何在[!UICONTROL Feeds]中使用 [!DNL Target Recommendations]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
 workflow-type: tm+mt
 source-wordcount: '2613'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics]产品分类 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Adobe Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅[Analytics组件](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hans)指南中的&#x200B;*关于分类*。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
+[!DNL Adobe Analytics]产品分类是唯一可用于推荐的分类。 有关此分类文件的详细信息，请参阅[Analytics组件](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)指南中的&#x200B;*关于分类*。 推荐需要的所有信息并非都可在当前实施中使用，因此，如果要添加到分类文件，请遵循此用户指南。
 
 >[!IMPORTANT]
 >
@@ -323,15 +323,15 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 **示例 1:**
 
-* 第一天：上午9:00（太平洋标准时间）的每日馈送流程。
-* 第二天：现在是下午 3:30，信息源从昨天上午 9 点之后就没有运行。
+* 第一天：太平洋标准时间上午9:00的每日馈送流程。
+* 第二天：现在是下午3:30，从昨天上午9:00起，该信息源就没有运行。
 
 状态应为黄色，因为索引原本应在大约 6.5 小时之前运行。6.5 小时 + 24 等于信息源运行期限的 127%。
 
 **示例 2:**
 
 * 1月1日：每月馈送流程在太平洋标准时间上午9:00进行。
-* 2月3日：上午10点，馈送已分别有一个月、一天和一小时前未运行。
+* 2月3日：上午10:00，馈送已分别有一个月、一天和一小时前未运行。
 
 状态应为黄色，因为索引原本应在大约一天零一小时之前运行。虽然这只是频率设置的 (31+(1/25))/30 = 1.03%，但它超过了延迟一天的最大值。
 
@@ -339,14 +339,14 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 了解Recommendations中的信息源(3:01) ![概述徽章](/help/main/assets/overview.png)
+### 了解Recommendations (3:01) ![概述徽章](/help/main/assets/overview.png)中的信息源
 
 本视频包含以下信息：
 
 * 了解信息源的用途
 * 了解信息源的值
 
->[!VIDEO](https://video.tv.adobe.com/v/33957?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### 创建信息源(6:44) ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -355,4 +355,4 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 设置信息源
 * 了解要使用哪种类型的信息源
 
->[!VIDEO](https://video.tv.adobe.com/v/33956?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

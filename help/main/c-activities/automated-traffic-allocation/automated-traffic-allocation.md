@@ -1,6 +1,6 @@
 ---
 keywords: 自动流量分配；定位；递增计数并保持用户处于活动中；流量分配；自动分配
-description: 了解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Auto-Allocate]活动，该活动在两个或更多体验中标识入选者，并自动为入选者重新分配更多流量。
+description: 了解如何在[!UICONTROL Auto-Allocate]中使用 [!DNL Adobe Target] 活动，该活动在两个或更多体验中标识入选者，并自动为入选者重新分配更多流量。
 title: 什么是[!UICONTROL Auto-Allocate]活动？
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
@@ -11,11 +11,11 @@ ht-degree: 35%
 
 ---
 
-# [!UICONTROL Auto-Allocate]概述
+# [!UICONTROL Auto-Allocate] 概述
 
-[!DNL Adobe Target]中的[!UICONTROL Auto-Allocate]活动在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
+[!UICONTROL Auto-Allocate]中的[!DNL Adobe Target]活动在两个或更多体验中标识一个入选者，并在测试继续运行和学习期间，自动为入选者重新分配更多流量以提高转化。
 
-使用三步引导式工作流[创建A/B活动](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)时，请在&#x200B;**[!UICONTROL Targeting]**&#x200B;页面上选择&#x200B;**[!UICONTROL Auto-Allocate to best experience]**&#x200B;选项（步骤2）。
+使用三步引导式工作流[创建A/B活动](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)时，请在&#x200B;**[!UICONTROL Auto-Allocate to best experience]**&#x200B;页面上选择&#x200B;**[!UICONTROL Targeting]**&#x200B;选项（步骤2）。
 
 ## 挑战 {#section_85D5A03637204BACA75E19646162ACFF}
 
@@ -29,11 +29,11 @@ ht-degree: 35%
 
 [!DNL Target]中的正常A/B测试只显示挑战者与对照的配对比较。 例如，如果活动具有体验：A、B、C和D，其中A是对照组，则常规的[!DNL Target] A/B测试会比较A与B、A与C以及A与D。
 
-在此类测试中，包括[!DNL Target]在内的大多数产品都使用[Welch的t检验](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}生成基于p值的置信度。 然后，使用该置信度值来确定挑战体验与控制体验之间是否存在足够的差异。但是，[!DNL Target]不会自动执行查找“最佳”体验所需的隐式比较（B与C、B与D、C与D）。 因此，营销人员必须手动分析结果来确定“最佳”体验。
+在此类测试中，包括[!DNL Target]在内的大多数产品都使用[Welch的t检验](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}来生成基于p值的置信度。 然后，使用该置信度值来确定挑战体验与控制体验之间是否存在足够的差异。但是，[!DNL Target]不会自动执行查找“最佳”体验所需的隐式比较（B与C、B与D、C与D）。 因此，营销人员必须手动分析结果来确定“最佳”体验。
 
 [!UICONTROL Auto-Allocate]跨体验执行所有隐式比较并生成“真”入选者。 测试中没有“控制”体验的概念。
 
-[!UICONTROL Auto-Allocate]智能地为新访客分配体验，直到最佳体验的置信区间与任何其他体验的置信区间不重叠。 通常此过程可能会产生误报，但[!UICONTROL Auto-Allocate]使用基于补偿重复评估的[Bernstein不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29){target=_blank}的置信区间。 此时，就会有真正的赢家。 当[!UICONTROL Auto-Allocate]停止时，如果访问页面的访客不存在实质性时间依赖关系，则至少有95%的可能性是[!UICONTROL Auto-Allocate]返回其真实响应不比入选体验的真实响应差1%（相对）的体验。
+[!UICONTROL Auto-Allocate]智能地为新访客分配体验，直到最佳体验的置信区间与任何其他体验的置信区间不重叠。 通常此过程可能会产生误报，但[!UICONTROL Auto-Allocate]使用基于[Bernstein不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29){target=_blank}的置信区间来补偿重复评估。 此时，就会有真正的赢家。 当[!UICONTROL Auto-Allocate]停止时，如果访问页面的访客不存在实质性时间依赖关系，则至少有95%的可能性是[!UICONTROL Auto-Allocate]返回其真实响应不比入选体验的真实响应差1%（相对）的体验。
 
 ## 何时使用[!UICONTROL Auto-Allocate]而非[!UICONTROL A/B Test]或[!UICONTROL Automated Personalization]活动 {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
@@ -51,7 +51,7 @@ ht-degree: 35%
 
 讨论[!UICONTROL Auto-Allocate]时，以下术语很有用：
 
-**多臂老虎机：**&#x200B;优化的[多臂老虎机](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}方法可平衡探索学习和该学习的利用。
+**多臂老虎机：**[多臂老虎机](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}优化方法可在探索性学习与对该学习的利用之间实现平衡。
 
 ## 算法的工作原理 {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -83,7 +83,7 @@ ht-degree: 35%
 >
 >如果某个活动只有两个体验，则两个体验会获得相等的流量，直到[!DNL Target]找到具有75%置信度的入选体验。 到那时，三分之二的流量会分配给入选者，三分之一分配给失败者。 之后，当体验达到95%的置信度时，90%的流量会分配给入选者，10%的流量会分配给失败者。 [!DNL Target]始终向“丢失”体验发送一些流量，以避免最终出现误报（即，继续进行一些探索）。
 
-激活[!UICONTROL Auto-Allocate]活动后，不允许从Target UI中进行以下操作：
+激活[!UICONTROL Auto-Allocate]活动后，不允许从Tar[!DNL]get UI中进行以下操作：
 
 * 将“流量分配”模式切换为“手动”
 * 更改目标量度类型
@@ -194,17 +194,17 @@ ht-degree: 35%
 
 [!DNL Adobe]不建议您在活动中途更改目标指标。 虽然可在活动期间使用 [!DNL Target] UI 更改目标指标，但总是应开始新的活动。[!DNL Adobe]无法保证您在活动运行后更改其中的目标量度会发生什么情况。
 
-此推荐适用于使用[!DNL Target]或[!DNL Analytics] (A4T)作为报表源的[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动。
+此推荐适用于使用[!UICONTROL Auto-Allocate]或[!UICONTROL Auto-Target] (A4T)作为报表源的[!UICONTROL Automated Personalization]、[!DNL Target]和[!DNL Analytics]活动。
 
 ### 能否在[!UICONTROL Auto-Allocate]活动中途更改报表源？ {#change-reporting}
 
 [!DNL Adobe]不建议您在活动中途更改报表源。 虽然在使用[!DNL Target] UI的活动期间可能会将报表源（从[!DNL Target]更改为A4T或反之）更改，但您应始终开始一个新活动。 [!DNL Adobe]无法保证在运行活动后更改活动中的报表源时会发生什么情况。
 
-此推荐适用于使用[!DNL Target]或[!DNL Analytics] (A4T)作为报表源的[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动。
+此推荐适用于使用[!UICONTROL Auto-Allocate]或[!UICONTROL Auto-Target] (A4T)作为报表源的[!UICONTROL Automated Personalization]、[!DNL Target]和[!DNL Analytics]活动。
 
-### 运行[!UICONTROL Auto-Allocate]活动时能否使用[!UICONTROL Reset Report Data]选项？
+### 运行[!UICONTROL Reset Report Data]活动时能否使用[!UICONTROL Auto-Allocate]选项？
 
-建议不要对[!UICONTROL Auto-Allocate]活动使用[!UICONTROL Reset Report Data]选项。 虽然它删除可见的报表数据，但此选项并不从[!UICONTROL Auto-Allocate]模型中删除所有训练记录。 不要对[!UICONTROL Auto-Allocate]活动使用[!UICONTROL Reset Report Data]选项，请创建新活动并停用原始活动。 （本指导还适用于[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动。）
+建议不要对[!UICONTROL Reset Report Data]活动使用[!UICONTROL Auto-Allocate]选项。 虽然它删除可见的报表数据，但此选项并不从[!UICONTROL Auto-Allocate]模型中删除所有训练记录。 不要对[!UICONTROL Reset Report Data]活动使用[!UICONTROL Auto-Allocate]选项，请创建新活动并停用原始活动。 （本指导还适用于[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动。）
 
 ### [!UICONTROL Auto-Allocate]如何构建环境相关模型？
 
@@ -241,9 +241,9 @@ ht-degree: 35%
 
 ### 创建A/B测试(8:36) ![教程徽章](/help/main/assets/tutorial.png)
 
-以下视频演示了如何使用 Target 三步引导式工作流创建 A/B 测试。对 [!UICONTROL Auto-Allocate] 的讨论开始于 4:45。
+以下视频演示了如何使用 Target 三步引导式工作流创建 A/B 测试。从4[!UICONTROL Auto-Allocate]开始讨论:45。
 
 * 在[!DNL Adobe Target]中创建A/B活动
 * 使用手动拆分或自动流量分配来分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/30338?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

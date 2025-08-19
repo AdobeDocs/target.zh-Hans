@@ -18,7 +18,7 @@ ht-degree: 17%
 
 主机管理的主要目标是确保网站上不会意外出现任何不活跃的内容。主机管理还允许您按[环境](/help/main/administrating-target/environments.md)来分隔报表数据。
 
-主机是从中发出[!DNL Target]请求的任何域。 在网站上，它通常是发出[!DNL Target]请求的URL的`location.hostname`属性。
+主机是从中发出[!DNL Target]请求的任何域。 在网站上，它通常是发出`location.hostname`请求的URL的[!DNL Target]属性。
 
 默认情况下，[!DNL Target]不限制可以发出[!DNL Target]请求并接收[!DNL Target]响应的主机。 当新主机发出请求时，它们会自动工作。 此流程还可以在您不知道或无法预测的不同域上进行测试。 列入允许列表 列入阻止列表如果要覆盖此默认行为，可以设置或以限制哪些主机可以使用[!DNL Target]。
 
@@ -65,7 +65,7 @@ ht-degree: 17%
 
 ## 创建允许列表以指定有权向[!DNL Target]发送[!DNL Target]请求的主机。 {#allowlist}
 
-您可以创建一个允许列表，指定有权向[!DNL Target]发送[!DNL Target]请求的主机（域）。 所有其他生成请求的主机都会收到一个注释掉的授权错误响应。 默认情况下，任何包含[!DNL Target]请求的主机都会在[!UICONTROL Production]环境中向[!DNL Target]进行注册，它们有权访问所有活跃的已批准活动。 列入允许列表如果不希望使用此方法，您可以改为使用来记录有权发出[!DNL Target]请求并接收[!DNL Target]内容的特定主机。 所有主机继续显示在[!UICONTROL Hosts]列表中，并且环境仍可用于对这些主机进行分组，并为每个主机分配不同的级别，例如该主机是否可以看到活动和/或非活动的活动。
+您可以创建一个允许列表，指定有权向[!DNL Target]发送[!DNL Target]请求的主机（域）。 所有其他生成请求的主机都会收到一个注释掉的授权错误响应。 默认情况下，任何包含[!DNL Target]请求的主机都会在[!DNL Target]环境中向[!UICONTROL Production]进行注册，它们有权访问所有活跃的已批准活动。 列入允许列表如果不希望使用此方法，您可以改为使用来记录有权发出[!DNL Target]请求并接收[!DNL Target]内容的特定主机。 所有主机继续显示在[!UICONTROL Hosts]列表中，并且环境仍可用于对这些主机进行分组，并为每个主机分配不同的级别，例如该主机是否可以看到活动和/或非活动的活动。
 
 要创建允许列表，请执行以下操作：
 
@@ -85,7 +85,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->列入允许列表 **安全最佳实践**：如果您使用[!DNL Target]的ubox功能，此还将控制[重定向器](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=zh-Hans){target=_blank}可以导航到的域列表。 确保在实施中使用ubox时添加要重定向到的任何域。 如果未指定允许列表，[!DNL Adobe]将无法验证重定向URL并防止潜在的恶意重定向。
+>列入允许列表 **安全最佳实践**：如果您使用[!DNL Target]的ubox功能，此还将控制[重定向器](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}可以导航到的域列表。 确保在实施中使用ubox时添加要重定向到的任何域。 如果未指定允许列表，[!DNL Adobe]将无法验证重定向URL并防止潜在的恶意重定向。
 >
 >允许列表的优先级高于环境。 在使用“主机”功能之前清除所有主机，然后只有由“主机”允许列表列入允许列表允许的主机才会显示在主机列表中。 然后，您可以将主机移到所需的环境中。
 
@@ -93,7 +93,7 @@ ht-degree: 17%
 
 如果 `mboxHost` 在 API 调用中进行传递，则会为传入的环境记录转化。如果未传递任何环境，则调用中的主机默认为[!UICONTROL Production]。
 
-您还可以通过在[!UICONTROL Host Does Not Contain]框中添加所需的主机来创建一个阻止列表，以指定不能向[!DNL Target]发送[!DNL Target]请求的主机（域）。
+您还可以通过在[!DNL Target]框中添加所需的主机来创建一个阻止列表，以指定不能向[!DNL Target]发送[!UICONTROL Host Does Not Contain]请求的主机（域）。
 
 >[!NOTE]
 >

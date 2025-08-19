@@ -1,6 +1,6 @@
 ---
 keywords: MVT;多变量测试;多变量测试创建;MVT 创建;MVT 工作原理;多变量测试工作原理
-description: 了解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Visual Experience Composer] (VEC)创建[!UICONTROL Multivariate Test] (MVT)。
+description: 了解如何使用[!UICONTROL Visual Experience Composer]中的 [!DNL Adobe Target]  (VEC)创建[!UICONTROL Multivariate Test] (MVT)。
 title: 如何创建[!UICONTROL Multivariate Test]？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
@@ -13,7 +13,7 @@ ht-degree: 26%
 
 # 创建多变量测试
 
-通过[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)，可以轻松创建[!UICONTROL Multivariate Test]并在[!DNL Target]中修改页面的各个部分。
+通过[!UICONTROL Visual Experience Composer]中的[!DNL Adobe Target] (VEC)，可以轻松创建[!UICONTROL Multivariate Test]并在[!DNL Target]中修改页面的各个部分。
 
 使用[!DNL Target]点击式编辑器，您可以选择任意位置并添加多个选件。
 
@@ -39,7 +39,7 @@ ht-degree: 26%
 
    将打开[!UICONTROL Visual Experience Composer]。
 
-1. 要命名活动，请单击“[!UICONTROL Untitled Activity]”旁边的&#x200B;**[!UICONTROL Edit]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)），为活动指定描述性名称，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 要命名活动，请单击“**[!UICONTROL Edit]**”旁边的![图标（](/help/main/assets/icons/Edit.svg)编辑图标[!UICONTROL Untitled Activity]），为活动指定描述性名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
    活动名称不能以下列任何字符开头：
 
@@ -91,7 +91,7 @@ ht-degree: 26%
 
 1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;前进到[!UICONTROL Targeting]页。
 
-   如果您使用过其他[!DNL Target]活动类型，则&#x200B;**定位**&#x200B;步骤看起来会很熟悉。 在此步骤中，您可以选择受众，并指定查看每个体验的访客百分比。
+   如果您使用过其他&#x200B;**活动类型，则**&#x200B;定位[!DNL Target]步骤看起来会很熟悉。 在此步骤中，您可以选择受众，并指定查看每个体验的访客百分比。
 
    流程图会引导您完成以下步骤：分配受众及其流量百分比，选择流量分配方法，以及指定活动中每个体验的流量分配。
 
@@ -109,7 +109,7 @@ ht-degree: 26%
       如果需要创建一个不在[!UICONTROL Audience Library]中的新受众，请单击&#x200B;**创建受众**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
 
       * **[!UICONTROL Audience Library]**：创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用。
-      * **[!UICONTROL This activity only]**：创建未保存到[!UICONTROL Audience Library]的[活动特定受众](/help/main/c-target/creating-activity-only-audience.md)，该受众只能用于当前活动。
+      * **[!UICONTROL This activity only]**：创建未保存到[的](/help/main/c-target/creating-activity-only-audience.md)活动特定受众[!UICONTROL Audience Library]，该受众只能用于当前活动。
 
    1. 单击右框中的&#x200B;**[!UICONTROL Visitor Percentage]**，然后选择符合条件的访客您希望参加活动的百分比。
 
@@ -128,4 +128,4 @@ ht-degree: 26%
 * 定义和设计多变量测试
 * 创建多变量测试
 
->[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

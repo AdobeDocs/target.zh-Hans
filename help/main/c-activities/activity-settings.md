@@ -7,13 +7,13 @@ exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 74%
+ht-degree: 71%
 
 ---
 
 # 活动设置
 
-在[!DNL Adobe Target]中使用[!UICONTROL Activity Settings]管理活动的目标、优先级和持续时间。
+在[!UICONTROL Activity Settings]中使用[!DNL Adobe Target]管理活动的目标、优先级和持续时间。
 
 1. 输入有关活动目标的注释。
 
@@ -41,7 +41,7 @@ ht-degree: 74%
 
 1. 设置活动的持续时间。
 
-   您可以手动激活和停用活动，也可以指定活动交付的日期和时间。时间控件使用的是 24 小时制时钟，其中 00:00 表示午夜。时区设置为在浏览器中配置的时区。要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
+   您可以手动激活和停用活动，也可以指定活动交付的日期和时间。时间控制使用24小时时钟，00:00为午夜。 时区设置为在浏览器中配置的时区。要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
 
    >[!NOTE]
    >

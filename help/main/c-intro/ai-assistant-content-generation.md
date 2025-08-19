@@ -3,7 +3,7 @@ keywords: ai助手；人工智能助手；内容生成；内容加速器；内�
 description: 了解如何使用 [!DNL AI Assistant]生成吸引人的内容。
 title: 如何使用 [!DNL AI Assistant] 中的 [!DNL Target] 生成吸引人的内容？
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
@@ -59,7 +59,7 @@ ht-degree: 1%
 
    * **音调**：文字的音调应该能引起观众的共鸣。 无论您想听到的是信息性、刺激性、娱乐性还是说服力，[!DNL AI Assistant]都可以相应地调整消息。
 
-     选项包括：[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL &#x200B; Story Telling]和[!UICONTROL Conversational]。
+     选项包括：[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL  Story Telling]和[!UICONTROL Conversational]。
 
 1. 使用滑块选取希望文本持续多长时间（从短到长）。
 
@@ -100,4 +100,4 @@ ht-degree: 1%
 
 ### 使用AI助手创建内容以生成内容
 
->[!VIDEO](https://video.tv.adobe.com/v/3434645/?learn=on&captions=chi_hans">https://video.tv.adobe.com/v/3434645/?learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

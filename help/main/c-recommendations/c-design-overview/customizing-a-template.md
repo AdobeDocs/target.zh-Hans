@@ -1,8 +1,8 @@
 ---
 keywords: 自定义设计;Velocity;小数;逗号;自定义设计
-description: 了解如何使用开源 [!DNL Velocity] 设计语言在 [!DNL Target] Recommendations中自定义推荐设计。
+description: 了解如何使用开源 [!DNL Velocity] 设计语言自定义 [!DNL Target] 推荐中的推荐设计。
 title: 如何使用Velocity自定义设计？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
@@ -16,13 +16,13 @@ ht-degree: 33%
 
 使用开源[!DNL Velocity]设计语言自定义[!DNL Adobe Target Recommendations]中的推荐设计。
 
-## [!DNL Velocity]概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## [!DNL Velocity] 概述 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 有关[!DNL Velocity]的信息可在[https://velocity.apache.org](https://velocity.apache.org)中找到。
 
-所有[!DNL Velocity]逻辑、语法等均可用于推荐设计。 这意味着您可以使用[!DNL Velocity]而不是JavaScript创建&#x200B;*for*&#x200B;循环、*if*&#x200B;语句和其他代码。
+所有[!DNL Velocity]逻辑、语法等均可用于推荐设计。 这意味着您可以使用&#x200B;*而不是JavaScript创建* for *循环、* if[!DNL Velocity]语句和其他代码。
 
-发送到`productPage` mbox中的[!DNL Recommendations]或CSV上传的实体属性可以在设计中显示，但“多值”属性除外。 可以发送任何类型的属性；但是，[!DNL Target]不会将“多值”类型的属性作为模板可对其进行迭代的数组传递（例如`entityN.categoriesList`）。
+发送到[!DNL Recommendations] mbox中的`productPage`或CSV上传的实体属性可以在设计中显示，但“多值”属性除外。 可以发送任何类型的属性；但是，[!DNL Target]不会将“多值”类型的属性作为模板可对其进行迭代的数组传递（例如`entityN.categoriesList`）。
 
 这些值引用了下列语法：
 
@@ -240,7 +240,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## 自定义模板大小并检查空白值 {#default}
 
-使用[!DNL Velocity]脚本控制实体显示的动态大小，以下模板可容纳一对多结果，以避免在从[!DNL Recommendations]返回的匹配实体不足时创建空的HTML元素。 此脚本最适合备份推荐没有意义且已启用[!UICONTROL Partial Template Rendering]的情况。
+使用[!DNL Velocity]脚本控制实体显示的动态大小，以下模板可容纳一对多结果，以避免在[!DNL Recommendations]返回的匹配实体不足时创建空的HTML元素。 此脚本最适合备份推荐没有意义且已启用[!UICONTROL Partial Template Rendering]的情况。
 
 以下 HTML 代码段将替换 4x2 默认设计中的现有 HTML 部分（为简便起见，此处不包括 CSS）：
 

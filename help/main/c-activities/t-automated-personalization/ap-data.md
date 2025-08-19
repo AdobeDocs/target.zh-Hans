@@ -2,7 +2,7 @@
 keywords: 环境数据；会话数据；地理数据；设备数据；移动设备数据；属性；配置文件属性；个性化算法；机器学习算法；机器学习算法
 description: 了解 [!DNL Adobe Target] 收集和使用哪些数据来构建其机器学习算法。
 title: 构建机器学习算法时会收集哪些数据？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
@@ -38,18 +38,18 @@ ht-degree: 51%
 | --- | --- | --- | --- |
 | 页面参数 | BOX | 在对[!DNL Target]的调用中传递的自定义页面参数（“mbox参数”）。 | 自定义 — Mbox参数 — [参数名称] |
 | [!DNL Target]配置文件 | PRO | 自定义配置文件属性通过API或页面参数和[!DNL Target]配置文件脚本直接上传到[!DNL Target]配置文件。 | 自定义 — 访客配置文件 — [属性名称] |
-| 客户属性 | CRS | 客户属性已通过[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=zh-Hans){target=_blank}上传到[!DNL Target]配置文件。 | 自定义 — 访客配置文件 — [属性名称] |
+| 客户属性 | CRS | 客户属性已通过[!DNL Target][[!DNL Adobe Experience Cloud Customer Attributes Service]上传到](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}配置文件。 | 自定义 — 访客配置文件 — [属性名称] |
 | URL parameters（URL 参数） | URL | 当前查看页面的URL和任何URL参数。 | 自定义 — URL参数 — [URL参数] |
 | 反向链接 URL | 参照 | 反向链接URL和任何反向链接URL的参数。 | 自定义 — [引荐URL参数] - [参数值] |
-| [!DNL Adobe Experience Cloud]共享受众 | AAM | 从其他[!DNL Adobe Experience Cloud]解决方案（例如，[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]，通过[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=zh-Hans){target=_blank}）与[!DNL Target]共享的所有受众。 | 自定义 — Experience Cloud受众 — [受众名称] |
-| [!DNL Adobe Experience Platform Real-time CDP]个受众 | UPS | 通过[!UICONTROL Destinations]与[!DNL Target]共享的Platform Real-time CDP受众。 |  |
+| [!DNL Adobe Experience Cloud]共享受众 | AAM | 从其他[!DNL Target]解决方案（例如，[!DNL Adobe Experience Cloud]和[!DNL Adobe Audience Manager]，通过[!DNL Adobe Analytics][[!DNL Experience Cloud Audience Library]）与](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}共享的所有受众。 | 自定义 — Experience Cloud受众 — [受众名称] |
+| [!DNL Adobe Experience Platform Real-time CDP]个受众 | UPS | 通过[!DNL Target]与[!UICONTROL Destinations]共享的Platform Real-time CDP受众。 |  |
 
 
 ## 阻止来自[!DNL Target]机器学习算法的功能
 
 可以从[!DNL Target]机器学习算法中阻止功能，防止在任何[!UICONTROL Automated Personalization]或[!UICONTROL Auto-Target]模型或活动中使用它们。
 
-列入阻止列表有关详细信息，请参阅&#x200B;*[!DNL Adobe Target]开发人员指南*&#x200B;中的[模型API()概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hans){target=_blank}。
+列入阻止列表有关详细信息，请参阅[开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}中的&#x200B;*[!DNL Adobe Target]模型API()概述*。
 
 ## 设备和移动设备数据 {#device-mobile}
 

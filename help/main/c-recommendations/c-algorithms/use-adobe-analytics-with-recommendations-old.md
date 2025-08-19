@@ -1,8 +1,8 @@
 ---
 keywords: 行为数据源；Analytics；推荐；标准；产品变量
-description: 了解如何使用 [!DNL Adobe Analytics] 作为行为数据源，以使用 [!DNL Target Recommendations]中 [!DNL Analytics] 基于视图和/或基于购买的行为数据。
+description: 了解如何使用 [!DNL Adobe Analytics] 作为行为数据源，以使用 [!DNL Analytics] 中 [!DNL Target Recommendations]基于视图和/或基于购买的行为数据。
 title: 如何将 [!DNL Adobe Analytics] 与 [!DNL Target Recommendations]一起使用？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # 将[!DNL Adobe Analytics]与[!DNL Recommendations]一起使用
 
-将[!DNL Adobe Analytics]用作行为数据源可让客户端在[!DNL Adobe Target] [!DNL Recommendations]活动中使用[!DNL Analytics]中基于视图和/或基于购买的行为数据。 此功能在[!DNL Target Recommendations]设置是新的，且[!DNL Analytics]有许多历史数据可供使用的情况下特别有用。
+将[!DNL Adobe Analytics]用作行为数据源可让客户端在[!DNL Analytics] [!DNL Adobe Target]活动中使用[!DNL Recommendations]中基于视图和/或基于购买的行为数据。 此功能在[!DNL Target Recommendations]设置是新的，且[!DNL Analytics]有许多历史数据可供使用的情况下特别有用。
 
 将[!DNL Analytics]用作行为数据源可以充当有关用户行为的丰富信息源。 此信息可能包含来自仅与[!DNL Analytics]共享的第三方源或馈送的数据。
 
-在[!DNL Recommendations]中[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)时，有两个单选按钮可让您选择要使用的数据源： [!UICONTROL mboxes]或[!UICONTROL Analytics]。 要创建标准，请单击[!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]。 有关详细信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
+在[中](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)创建标准[!DNL Recommendations]时，有两个单选按钮可让您选择要使用的数据源： [!UICONTROL mboxes]或[!UICONTROL Analytics]。 要创建标准，请单击[!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]。 有关详细信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
 ![行为数据源按钮](assets/behavioral-data-source.png)
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 ### 先决条件：在[!DNL Analytics]中设置产品变量
 
-使用[!DNL Target Recommendations]所需的必要特性在[!DNL Analytics]中实施产品变量。
+使用[!DNL Analytics]所需的必要特性在[!DNL Target Recommendations]中实施产品变量。
 
 [!DNL Target Recommendations]示例信息源格式用作指南，必须在其产品变量中定义所有属性。 之后，必须在[!DNL Target] UI中为相应的[!DNL Target]实体值“映射”这些值。
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 >
 >如果它是内容网站，则必须将相应的内容片段视为“产品”，并且必须将该内容的关联属性作为属性传递。 此类属性可以包括作者姓名、发布日期、内容标题、发布月份等。 类别级别的粒度或类别类型，应由业务根据用例需求来决定。
 
-有关如何设置产品变量的更多详细信息，请参阅“*实施Adobe Analytics*”指南中的[产品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hans)。 该文档中的一些注释需要部署该文档的团队自行决定（例如：类别）。 在执行此活动之前，始终建议咨询[!DNL Adobe]。
+有关如何设置产品变量的更多详细信息，请参阅“[实施Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html)”指南中的&#x200B;*产品*。 该文档中的一些注释需要部署该文档的团队自行决定（例如：类别）。 在执行此活动之前，始终建议咨询[!DNL Adobe]。
 
 ### 注意事项
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 在将[!DNL Analytics]与[!DNL Target]结合使用时，请考虑以下常见问题解答：
 
-### 是否需要在[!DNL Target] mbox调用中传递`entity.id`和`entity.categoryId`值？
+### 是否需要在`entity.id` mbox调用中传递`entity.categoryId`和[!DNL Target]值？
 
 是的，仍需要这两个值。 其余属性可以通过[!DNL Analytics]信息源进行传递，如本文档中所述。
 

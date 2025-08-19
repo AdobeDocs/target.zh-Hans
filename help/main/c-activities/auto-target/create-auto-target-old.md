@@ -1,20 +1,20 @@
 ---
 keywords: 创建自动定位；A/B测试；自动定位活动；新建A/B活动；自动定位；自动定位以提供个性化体验；个性化；优化
-description: 了解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Visual Experience Composer] (VEC)来创建[!UICONTROL Auto-Target] A/B测试活动。
+description: 了解如何在[!UICONTROL Visual Experience Composer]中使用 [!DNL Adobe Target]  (VEC)来创建[!UICONTROL Auto-Target] A/B测试活动。
 title: 如何创建[!UICONTROL Auto-Target]活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 43%
+ht-degree: 42%
 
 ---
 
 # 创建[!UICONTROL Auto-Target]活动
 
-在[!DNL Adobe Target]中使用[!UICONTROL Visual Experience Composer] (VEC)直接在启用了[!DNL Target]的页面上创建您的[!UICONTROL Auto-Target] [!UICONTROL A/B Test]活动，并在[!DNL Target]内修改页面的各个部分。
+在[!UICONTROL Visual Experience Composer]中使用[!DNL Adobe Target] (VEC)直接在启用了[!UICONTROL Auto-Target]的页面上创建您的[!UICONTROL A/B Test] [!DNL Target]活动，并在[!DNL Target]内修改页面的各个部分。
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ ht-degree: 43%
 
    有关在[!UICONTROL Visual Experience Composer]中添加和修改体验的详细信息，请参阅[添加体验](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)。 要修改体验 B，请从步骤 2 开始操作。
 
-1. 单击[!UICONTROL Visual Experience Composer]顶部的&#x200B;**[!UICONTROL Targeting]**&#x200B;以进入三步引导式工作流中的下一个步骤。
+1. 单击&#x200B;**[!UICONTROL Targeting]**&#x200B;顶部的[!UICONTROL Visual Experience Composer]以进入三步引导式工作流中的下一个步骤。
 
    此时会打开流程图。
 
@@ -113,11 +113,11 @@ ht-degree: 43%
 
 创建活动后，[!UICONTROL Overview]选项卡会显示有关该活动的信息，包括活动图。
 
-## 培训视频：创建 A/B 测试 (8:36)
+## 培训视频：创建A/B测试(8:36)
 
 以下视频演示了如何使用 [!DNL Target] 三步引导式工作流创建 A/B 测试。
 
-* 在[!DNL Adobe Target]中创建[!UICONTROL A/B Test]活动
+* 在[!UICONTROL A/B Test]中创建[!DNL Adobe Target]活动
 * 使用手动拆分或自动流量分配来分配流量
 
->[!VIDEO](https://video.tv.adobe.com/v/30338?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

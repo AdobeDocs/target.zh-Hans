@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 81%
+source-wordcount: '1045'
+ht-degree: 80%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 81%
 
 如果将 [!DNL Analytics] 用作活动的报表源，则该活动的所有报表和区段都基于 [!DNL Analytics]。
 
-所有[!DNL Analytics]量度（包括计算量度）在[!DNL Target]和[!DNL Analytics]的[!UICONTROL Target Activities]报表中均可用，但有一个异常。 不支持[!UICONTROL Lift & Confidence]的计算指标。 同样，可将 [!DNL Analytics] 中可用的任何区段应用于这两个解决方案。可在活动开始之后，甚至可在活动完成之后，将指标或受众应用于 [!DNL Target] 中的报表。
+所有[!DNL Analytics]量度（包括计算量度）在[!DNL Target]和[!UICONTROL Target Activities]的[!DNL Analytics]报表中均可用，但有一个异常。 不支持[!UICONTROL Lift & Confidence]的计算指标。 同样，可将 [!DNL Analytics] 中可用的任何区段应用于这两个解决方案。可在活动开始之后，甚至可在活动完成之后，将指标或受众应用于 [!DNL Target] 中的报表。
 
 其中含有每个指标，包括 [!DNL Analytics] 中内置的任何自定义或计算指标。
 
@@ -39,7 +39,7 @@ ht-degree: 81%
 * 为每个活动设置报表源。[!DNL Target] 持续收集要在报表中使用的数据，如果更愿意根据 [!DNL Target] 收集的数据开展活动，则还有 [!DNL Target] 数据可用。
 * 使用一个报表源或另一个。无法同时从两个报表源为单个活动收集数据。
 * 在使用 A4T 时，所有对活动可用的成功指标均为 [!DNL Analytics] 指标。但是，如果正在使用 at.js，则目标指标可基于 mbox 调用。例如，可将 Target 现成的点击跟踪功能与 A4T 配合使用，而不必实施 [!DNL Analytics] 点击跟踪代码。
-* 在 [!DNL Target] UI 中查看 A4T 活动的报表时，查看的是 [!DNL Analytics] 数据。例如，如果您在[!DNL Target]中使用[!UICONTROL Visitor]指标，则使用的是[!DNL Analytics] [!UICONTROL Visitor]指标，而不是[!DNL Target] [!UICONTROL Visitors]指标，后者现在称为[!UICONTROL Entrants]。 此差异对于基本流量量度([!UICONTROL Visitors]、[!UICONTROL Visits]、[!UICONTROL Page Views])和转化量度尤为重要。
+* 在 [!DNL Target] UI 中查看 A4T 活动的报表时，查看的是 [!DNL Analytics] 数据。例如，如果您在[!UICONTROL Visitor]中使用[!DNL Target]指标，则使用的是[!DNL Analytics] [!UICONTROL Visitor]指标，而不是[!DNL Target] [!UICONTROL Visitors]指标，后者现在称为[!UICONTROL Entrants]。 此差异对于基本流量量度([!UICONTROL Visitors]、[!UICONTROL Visits]、[!UICONTROL Page Views])和转化量度尤为重要。
 * 任何现有 [!DNL Target] 活动继续使用 [!DNL Target] 数据收集，不受启用 A4T 的影响。
 * 在使用 A4T 时，只允许有一个基于 mbox 的指标。
 * 从 [!DNL Target] 到 [!DNL Analytics] 的服务器到服务器调用将活动和体验信息发送到 [!DNL Analytics]。此集成不会为 [!DNL Target] 或 [!DNL Analytics] 产生额外的服务器调用。
@@ -57,13 +57,13 @@ ht-degree: 81%
 | 活动类型 | 是否兼容 A4T？ | 注释（如果适用） |
 |--- |--- |--- |
 | [使用手动流量拆分的 A/B 活动](/help/main/c-activities/t-test-ab/test-ab.md) | 是 |  |
-| [使用自动分配的 A/B 活动](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 | 请参阅[自动分配和自动定位活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
-| [使用自动定位的 A/B 活动](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 是 | 现在 [!DNL Platform Web SDK] 和 at.js 都支持自动定位活动对 A4T 的支持。 |
+| [使用自动分配的 A/B 活动](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 是 | 请参阅[自动分配和自动锁定活动支持 A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)。 |
+| [使用自动锁定的 A/B 活动](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 是 | 现在 [!DNL Platform Web SDK] 和 at.js 都支持自动锁定活动对 A4T 的支持。 |
 | [体验定位 (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 是 |  |
 | [多变量测试 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 需要基于mbox的目标指标以获取[!UICONTROL Element Contribution]报表。 [!UICONTROL Element Contribution]报表当前不支持[!DNL Analytics]量度。 |
 | [Automated Personalization (AP) 活动](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |  |
-| [Recommendations 活动](/help/main/c-recommendations/recommendations.md) | 是 |  |
-| [使用重定向选件的任意活动](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 是 |
+| [推荐活动](/help/main/c-recommendations/recommendations.md) | 是 |  |
+| [使用重定向产品建议的任意活动](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 是 |
 
 由于所有活动类型尚不支持 A4T，因此建议您保留或实施重要的转化 mbox，例如 `orderConfirmPage` mbox。
 
@@ -73,7 +73,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->您可以使用位于[!UICONTROL Activities]页面顶部的[!UICONTROL Reporting Source]下拉列表来仅显示使用A4T的活动。
+>您可以使用位于[!UICONTROL Reporting Source]页面顶部的[!UICONTROL Activities]下拉列表来仅显示使用A4T的活动。
 
 您可以单击报表右上角的相应图标，在报表的[!UICONTROL Table View]和[!UICONTROL Graph View]之间切换。
 
@@ -99,7 +99,7 @@ ht-degree: 81%
 
 以下视频包含有关本主题中讨论的概念的更多信息。
 
-### Analytics for Adobe Target (A4T) (4:32)![“概述”徽章](/help/main/assets/overview.png)
+### Analytics for Adobe Target (A4T) (4:32) ![概述徽章](/help/main/assets/overview.png)
 
 此视频说明了如何使用 [!DNL Analytics] 作为 [!DNL Target] 中的报表源，推动您的优化项目的分析。
 
@@ -107,9 +107,9 @@ ht-degree: 81%
 * 介绍 A4T 的工作原理
 * 了解使用 A4T 之前需要满足的先决条件
 
->[!VIDEO](https://video.tv.adobe.com/v/3421723?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics/Adobe Target 集成 (A4T) (40:33) ![“教程”徽章](/help/main/assets/tutorial.png)
+### Analytics/Adobe Target集成(A4T) (40:33) ![教程徽章](/help/main/assets/tutorial.png)
 
 此视频是“[办公时间](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”的录像，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 
@@ -123,6 +123,6 @@ ht-degree: 81%
 >[!MORELIKETHIS]
 >
 >* [Analytics for [!DNL Target] 实施](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)：包含适用于 at.js 和平台 Web SDK 的实施信息。
->* [重定向选件 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
->* [什么是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)：包含有关 Platform Web SDK 的概述信息。
->* [Target 概述](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=zh-Hans)：包含特定于 [!DNL Target] 和 [!DNL Platform Web SDK] 的信息。
+>* [重定向产品建议 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
+>* [什么是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)：包含有关 Platform Web SDK 的概述信息。
+>* [Target 概述](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)：包含特定于 [!DNL Target] 和 [!DNL Platform Web SDK] 的信息。

@@ -1,6 +1,6 @@
 ---
 keywords: MVT；多变量测试；选件；组合
-description: 了解如何使用Adobe [!DNL Target] 中的[!UICONTROL Visual Experience Composer] (VEC)来创建要包含在[!UICONTROL Multivariate Test] (MVT)中的选件。
+description: 了解如何在Adobe[!UICONTROL Visual Experience Composer]中使用 [!DNL Target]  (VEC)来创建要包含在[!UICONTROL Multivariate Test] (MVT)中的选件。
 title: 如何在[!UICONTROL Multivariate Test] (MVT)中创建组合？
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
@@ -13,7 +13,7 @@ ht-degree: 56%
 
 # 创建组合
 
-使用[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)创建要包含在[!UICONTROL Multivariate Test] (MVT)中的选件。
+使用[!UICONTROL Visual Experience Composer]中的[!DNL Adobe Target] (VEC)创建要包含在[!UICONTROL Multivariate Test] (MVT)中的选件。
 
 有关使用 VEC 创建和编辑产品建议的更多信息，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 

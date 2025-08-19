@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # 使推荐基于推荐键
 
-基于算法的Recommendations使用访客行为上下文在[!DNL Adobe Target] [!DNL Recommendations]活动中显示相关结果。
+基于算法的推荐使用访客行为上下文显示[!DNL Adobe Target] [!DNL Recommendations]活动中的相关结果。
 
 每种算法类型提供了适合其类型的不同算法，如下表所示：
 
@@ -34,7 +34,7 @@ ht-degree: 27%
 
 ## 基于购物车 {#cart-based}
 
-[!UICONTROL Cart-Based]算法类型允许根据访客当前购物车的内容推荐项目。 推荐键是通过逗号分隔值的[mbox参数`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}提供的。 仅考虑前 10 个值。
+[!UICONTROL Cart-Based]算法类型允许根据访客当前购物车的内容推荐项目。 推荐键是通过逗号分隔值的[mbox参数`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}提供的。 仅考虑前 10 个值。
 
 基于购物车的推荐逻辑类似于基于用户的算法“[!UICONTROL Recommended For You]”以及基于项目的算法“[!UICONTROL People Who Viewed These, Bought Those]”和“[!UICONTROL People Who Bought These, Bought Those]”。
 
@@ -62,7 +62,7 @@ ht-degree: 27%
 
 此逻辑允许您通过推荐查看了某个项目的其他访客也查看过的项目来创建额外的转化机会。 例如，在您的网站上查看公路自行车的访客可能还会查看自行车头盔、自行车工具包、车锁等。 您可以使用此逻辑创建推荐，以推荐其他产品帮助您增加收入。
 
-如果选择此算法，则可以选择以下Recommendations密钥：
+如果选择此算法，则可以选择以下推荐键：
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -77,7 +77,7 @@ ht-degree: 27%
 
 利用此逻辑，您可以通过在产品页面上显示推荐来增加交叉销售机会，例如，该推荐会显示查看过所购买项目的其他访客所购买的项目。 例如，如果访客正在查看钓竿，推荐会显示其他访客购买的其他项目，例如鱼缸、拖把和钓鱼诱饵。 当访客浏览您的网站时，您会向访客提供额外的购买建议。
 
-如果选择此算法，则可以选择以下Recommendations密钥：
+如果选择此算法，则可以选择以下推荐键：
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -92,7 +92,7 @@ ht-degree: 27%
 
 此逻辑允许您通过在购物车摘要页面上显示推荐（例如，显示其他购买者也购买的项目）来增加交叉销售机会。 例如，如果访客正在购买套装，推荐会显示其他访客与该套装一起购买的其他项目，例如领带、皮鞋和袖扣。 在访客审核其购买情况时，您向他们提供其他建议。
 
-如果选择此算法，则可以选择以下Recommendations密钥：
+如果选择此算法，则可以选择以下推荐键：
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -132,7 +132,7 @@ ht-degree: 27%
 
 在常规页面（如主页或登陆页面以及站外广告）上使用此算法。
 
-如果您选择“按类别查看次数最多”算法，则可以选择以下Recommendations键值：
+如果您选择了“按类别查看次数最多”算法，则可以选择以下推荐键：
 
 * [!UICONTROL Current Category]
 * [!UICONTROL Favorite Category]
@@ -373,7 +373,7 @@ ht-degree: 27%
 
 1. 选择与您所选的键匹配的实体属性。 在这种情况下，“[!UICONTROL Favorite Brand]”与`entity.brand`匹配。
 
-   [!DNL Recommendations]现在为每个品牌生成“[!UICONTROL Top Sellers]”列表，并根据访客的[!UICONTROL Favorite Brand]配置文件属性中存储的值向访客显示相应的“[!UICONTROL Top Sellers]”列表。
+   [!DNL Recommendations]现在为每个品牌生成“[!UICONTROL Top Sellers]”列表，并根据访客的[!UICONTROL Top Sellers]配置文件属性中存储的值向访客显示相应的“[!UICONTROL Favorite Brand]”列表。
 
 ### [!UICONTROL Last Viewed Item] {#last-viewed}
 
@@ -446,7 +446,7 @@ ht-degree: 27%
 
 例如，如果您设置了非常强的亲和度，且您的设计包含 5 个项目，其中有 3 个项目达到了联系阈值强度，则另外 2 个未达到最低强度要求的项目不会在推荐中显示，且会被替换为您定义的备用项目。具有最强亲和度的项目会最先显示。
 
-例如，在线零售商可以在后续访问中推荐访客在过去会话期间感兴趣的项目。 捕获每个访客会话的活动，以根据回访间隔和频率模型计算亲和度。 当此访客返回您的网站时，将使用网站亲和度根据您网站上以往的操作显示推荐。
+例如，在线retailer可以推荐访客在过去会话期间感兴趣的后续访问中的项目。 捕获每个访客会话的活动，以根据回访间隔和频率模型计算亲和度。 当此访客返回您的网站时，将使用网站亲和度根据您网站上以往的操作显示推荐。
 
 有些客户具有多种产品收藏集和多种网站行为，对于他们而言，设置较弱的网站亲和度可能会获得更好的结果。
 

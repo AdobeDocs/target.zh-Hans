@@ -43,7 +43,7 @@ ht-degree: 88%
 
 报表中可能会显示“[!UICONTROL Unspecified]”事件行，具体取决于您用于显示数据的指标。
 
-通常，如果您在报表中选择了并非特定于[!DNL Target]的常见量度（例如，[!UICONTROL Page Views]、[!UICONTROL Visits]、[!UICONTROL Unique Visitors]等），则会显示此行。 在这种情况下，[!UICONTROL "Unspecified"]行包括未与[!DNL Target]活动关联的所有[!UICONTROL Page Views]、[!UICONTROL Visits]和[!UICONTROL Unique Visitors]。
+通常，如果您在报表中选择了并非特定于[!DNL Target]的常见量度（例如，[!UICONTROL Page Views]、[!UICONTROL Visits]、[!UICONTROL Unique Visitors]等），则会显示此行。 在这种情况下，[!UICONTROL "Unspecified"]行包括未与[!UICONTROL Page Views]活动关联的所有[!UICONTROL Visits]、[!UICONTROL Unique Visitors]和[!DNL Target]。
 
 该行不会具有任何与 [!DNL Target] 关联的信息（例如，无访客、访问次数或展示数）。有关更多信息，请参阅 *Analytics 技术说明*&#x200B;的[报表中的“未指定”、“无”、“其他”和“未知”](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=zh-Hans)。
 
@@ -59,7 +59,7 @@ A4T 活动要求指定 Analytics 跟踪服务器。请参阅[使用Analytics跟�
 
 >[!NOTE]
 >
->如果您使用 at.js 版本 0.9.1（或更高版本），则在活动创建期间无需指定跟踪服务器。at.js 库自动将跟踪服务器值发送到 [!DNL Target]。在活动创建期间，您可以将[!UICONTROL Goals & Settings]页面上的[!UICONTROL Tracking Server]字段留空。
+>如果您使用 at.js 版本 0.9.1（或更高版本），则在活动创建期间无需指定跟踪服务器。at.js 库自动将跟踪服务器值发送到 [!DNL Target]。在活动创建期间，您可以将[!UICONTROL Tracking Server]页面上的[!UICONTROL Goals & Settings]字段留空。
 
 ## 我的 Analytics 区段未显示在 Target 中。 {#section_DEE87F1557834F448E99381D3D02EEEF}
 
@@ -92,7 +92,7 @@ A4T 活动要求指定 Analytics 跟踪服务器。请参阅[使用Analytics跟�
 
 检查补充数据 ID 的最简单方法是使用 Adobe Experience Platform Debugger。
 
-如果您未安装调试程序，请参阅 [Adobe Experience Platform Debugger 简介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html?lang=zh-Hans)。
+如果您未安装调试程序，请参阅 [Adobe Experience Platform Debugger 简介](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)。
 
 ![调试程序](/help/main/c-integrating-target-with-mac/a4t/assets/debugger.png)
 

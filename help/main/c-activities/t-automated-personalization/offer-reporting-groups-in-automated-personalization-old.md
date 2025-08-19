@@ -2,7 +2,7 @@
 keywords: 自动个性化；选件；报表；组；报表组；ap
 description: 了解如何在 [!DNL Adobe Target] [!UICONTROL Automated Personalization]活动中使用选件报表组。
 title: 我能否在[!UICONTROL Automated Personalization]活动中使用选件报表组？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -37,7 +37,7 @@ ht-degree: 15%
 
    ![管理内容图标](/help/main/c-reports/assets/ap_manage_content.png)
 
-1. 单击[!UICONTROL Manage Content]对话框顶部的&#x200B;**[!UICONTROL Offers]**&#x200B;选项卡。
+1. 单击&#x200B;**[!UICONTROL Offers]**&#x200B;对话框顶部的[!UICONTROL Manage Content]选项卡。
 1. （视情况而定）将特定体验添加到报表组，方法是将鼠标悬停在所需的选件上，然后单击&#x200B;**[!UICONTROL Reporting Group]**&#x200B;文件夹图标。
 
    ![报表组图标](/help/main/c-reports/assets/ap_manage_content_2.png)

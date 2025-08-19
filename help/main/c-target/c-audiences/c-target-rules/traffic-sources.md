@@ -20,7 +20,7 @@ ht-degree: 53%
 您可以组合多个流量源来创建一个复杂的目标规则。
 
 1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
-1. &#x200B;
+1. 
    1. 命名受众并添加可选描述。
 1. 将&#x200B;**[!UICONTROL Traffic Sources]**&#x200B;拖放到受众生成器窗格中。
 
@@ -41,7 +41,7 @@ ht-degree: 53%
 1. （可选）为受众设置其他规则。
 1. 单击 **[!UICONTROL Done]**。
 
-您可以定位由特定搜索引擎或从特定登陆页面引荐至您网站的用户。
+您可以锁定由特定搜索引擎或从特定登陆页面引荐至您网站的用户。
 
 ## 培训视频：创建受众![概述徽章](/help/main/assets/overview.png)
 

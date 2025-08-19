@@ -13,13 +13,13 @@ ht-degree: 31%
 
 # 客户属性
 
-有关使用[!DNL Adobe Enterprise Cloud People]服务中的客户属性将客户关系管理(CRM)数据库中的企业客户数据用于[!DNL Adobe Target]中的内容定位的信息。
+有关使用[!DNL Adobe Target]服务中的客户属性将客户关系管理(CRM)数据库中的企业客户数据用于[!DNL Adobe Enterprise Cloud People]中的内容定位的信息。
 
 通过多个源收集并存储在CRM数据库中的企业客户数据可以在[!DNL Target]中使用，以便向客户战略性地交付最相关的内容，特别是旧客户。 [!DNL People]服务（以前称为“配置文件和受众”）中的受众和客户属性将数据收集和分析与测试和优化结合在一起，使数据和分析具有可操作性。
 
 ## 客户属性概述 {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[!DNL People]服务中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=zh-Hans)是[!DNL Adobe Experience Cloud]的一部分，它为企业提供了一个将其客户数据推送到[!DNL Experience Cloud]平台的工具。
+[服务中的](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)客户属性[!DNL People]是[!DNL Adobe Experience Cloud]的一部分，它为企业提供了一个将其客户数据推送到[!DNL Experience Cloud]平台的工具。
 
 载入到 [!DNL Experience Cloud] 的数据适用于所有 [!DNL Experience Cloud] 工作流。[!DNL Target]使用此数据根据属性定位旧客户。 [!DNL Adobe Analytics] 也会使用这些属性，它们可用于分析和分段。
 
@@ -27,8 +27,8 @@ ht-degree: 31%
 
 在处理客户属性和[!DNL Target]时请考虑以下信息：
 
-* 在使用[!DNL People]服务中的[!UICONTROL Customer attributes]功能之前，必须满足一些先决条件要求。 有关详细信息，请参阅&#x200B;*Experience Cloud服务和管理文档*&#x200B;的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans#section_BD38693AFBF34926BA28E964963B4EA0)中的“上传客户属性的先决条件”。
-* 请注意，如&#x200B;*Experience Cloud中央界面组件指南*&#x200B;中的[关于客户属性的数据文件和数据源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=cn)中所述，有关文件上传的限制。 作为最佳实践：
+* 在使用[!UICONTROL Customer attributes]服务中的[!DNL People]功能之前，必须满足一些先决条件要求。 有关详细信息，请参阅[Experience Cloud服务和管理文档](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0)的&#x200B;*客户属性*&#x200B;中的“上传客户属性的先决条件”。
+* 请注意，如[Experience Cloud中央界面组件指南](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=cn)中的&#x200B;*关于客户属性的数据文件和数据源*&#x200B;中所述，有关文件上传的限制。 作为最佳实践：
 
    * 上载单个大型文件（在指定的[限制内](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=cn)）。 单个大文件优先于多个较小文件。
    * 如果必须将上载拆分为多个文件，请确保在提交新文件之前已完全处理这些文件。 在提交批次中的下一个文件之前，请确保批次中的每个文件均已完全处理。
@@ -57,7 +57,7 @@ ht-degree: 31%
 
 ![crm工作流](/help/main/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-有关完成以下每项任务的详细说明，请参阅&#x200B;*Experience Cloud服务和管理文档*&#x200B;中的[创建客户属性来源并上传数据文件](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=zh-Hans)。
+有关完成以下每项任务的详细说明，请参阅[Experience Cloud服务和管理文档](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html)中的&#x200B;*创建客户属性来源并上传数据文件*。
 
 1. 创建数据文件。
 
@@ -82,7 +82,7 @@ ht-degree: 31%
    您的数据文件必须符合文件上传要求，并且不得超过100 MB。 如果文件过大，或者您必须定期上传数据，则可以改用FTP传输文件。
 
    * **HTTPS：**&#x200B;您可以拖放.csv数据文件或单击&#x200B;**[!UICONTROL Browse]**&#x200B;以从您的文件系统上传。
-   * **FTP：**&#x200B;单击FTP链接以[通过FTP上传文件](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=zh-Hans)。 第一步是为 Adobe 提供的 FTP 服务器提供密码。指定密码，然后单击&#x200B;**[!UICONTROL Done]**。
+   * **FTP：**&#x200B;单击FTP链接以[通过FTP上传文件](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)。 第一步是为 Adobe 提供的 FTP 服务器提供密码。指定密码，然后单击&#x200B;**[!UICONTROL Done]**。
 
    现在，将您的 CSV/ZIP/GZIP 文件传输到 FTP 服务器。此文件传输成功后，请创建一个具有相同名称和`.fin`扩展名的文件。 将此空文件传输到服务器。这表示传输结束，[!DNL Experience Cloud]开始处理数据文件。
 
@@ -98,7 +98,7 @@ ht-degree: 31%
 
 1. 配置订阅并激活属性来源。
 
-   单击&#x200B;**[!UICONTROL Add Subscription]**，然后选择解决方案以订阅这些属性。 [配置订阅](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=zh-Hans)设置[!DNL Experience Cloud]和解决方案之间的数据流。 激活属性来源允许数据流动到订阅的解决方案。您上传的客户记录与您的网站或应用程序中的传入 ID 信号相匹配。
+   单击&#x200B;**[!UICONTROL Add Subscription]**，然后选择解决方案以订阅这些属性。 [配置订阅](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html)设置[!DNL Experience Cloud]和解决方案之间的数据流。 激活属性来源允许数据流动到订阅的解决方案。您上传的客户记录与您的网站或应用程序中的传入 ID 信号相匹配。
 
    ![配置解决方案](/help/main/c-target/c-visitor-profile/assets/solution.png)
 
@@ -120,11 +120,11 @@ ht-degree: 31%
 
 ![Target 受众](/help/main/c-target/c-visitor-profile/assets/TargetAudience.png)
 
-### 使用令牌创建配置文件脚本
+### 使用令牌创建轮廓脚本
 
-可以在配置文件脚本中使用格式 `crs.get('<Datasource Name>.<Attribute name>')` 引用客户属性。
+可以在轮廓脚本中使用格式 `crs.get('<Datasource Name>.<Attribute name>')` 引用客户属性。
 
-此配置文件脚本可直接在选件中使用以交付属于当前访客的属性。
+此轮廓脚本可直接在产品建议中使用以交付属于当前访客的属性。
 
 ### 在您的网站中使用 mbox3rdPartyID 以便成功实施和使用
 
@@ -140,11 +140,11 @@ ht-degree: 31%
 
 ### 使用 Experience Cloud ID 服务
 
-如果您使用的是Experience CloudID服务，则必须设置客户ID和身份验证状态，以便在定位中使用客户属性。 有关详细信息，请参阅&#x200B;*Experience CloudID服务帮助*&#x200B;中的[客户ID和身份验证状态](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hans)。
+如果您使用的是Experience Cloud ID服务，则必须设置客户ID和身份验证状态，以便在定位中使用客户属性。 有关详细信息，请参阅[Experience Cloud ID服务帮助](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)中的&#x200B;*客户ID和身份验证状态*。
 
 有关在 [!DNL Target] 中使用客户属性的更多信息，请参阅以下资源：
 
-* [在&#x200B;*Experience Cloud服务和管理文档*&#x200B;中创建客户属性来源并上传数据文件](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=zh-Hans)
+* [在](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)Experience Cloud服务和管理文档&#x200B;*中创建客户属性来源并上传数据文件*
 
 ## 客户经常遇到的问题 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
@@ -176,13 +176,13 @@ ht-degree: 31%
 
 ### 问题5：`mboxUpdate`未正确执行
 
-未正确使用`mbox3rdPartyId`执行`mboxUpdate`。
+未正确使用`mboxUpdate`执行`mbox3rdPartyId`。
 
 ### 问题6：客户属性未导入到[!DNL Target]中
 
 如果在Target中找不到客户属性数据，请确保导入过程在最近&#x200B;*x*&#x200B;天内完成，其中的&#x200B;*x*&#x200B;是Target [访客配置文件生命周期](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md)值（默认为14天）。
 
-## 培训视频：使用客户属性![教程徽章](/help/main/assets/tutorial.png)上传离线数据 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
+## 培训视频：使用客户属性![教程徽章](/help/main/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}上传离线数据
 
 此视频介绍如何将离线CRM、技术支持、销售点和其他营销数据导入[!DNL Experience Cloud People]服务，并使用访客已知ID将其与访客关联。
 

@@ -1,5 +1,5 @@
 ---
-keywords: 定位;A4T;地域;地域定位;地域定位的精准度;国家/地区;省/州;城市;邮政编码;DMA;移动设备运营商;城市代码;地区代码;国家/地区代码;大都市代码;配置文件脚本;地域定位配置文件脚本;地域定位移动设备
+keywords: 定位;A4T;地域;地域定位;地域定位的精准度;国家/地区;省/州;城市;邮政编码;DMA;移动设备运营商;城市代码;地区代码;国家/地区代码;大都市代码;轮廓脚本;地域定位轮廓脚本;地域定位移动设备
 description: 了解如何在 [!DNL Adobe Target] 中创建受众，以根据用户的地理位置定位用户。
 title: 我是否可以根据位置定位访客？
 feature: Audiences
@@ -8,7 +8,7 @@ exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 41%
+ht-degree: 42%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 41%
 * `profile.geolocation.connectionSpeed`
 * `profile.geolocation.mobileCarrier`
 
-因此，您可以使用以下代码编写名为“来自北美”的定位表达式：
+因此，您可以使用以下代码编写名为“来自北美”的锁定表达式：
 
 `return profile.geolocation.country == 'united states' || profile.geolocation.country == 'canada' || profile.geolocation.country == 'mexico';`
 
@@ -164,7 +164,7 @@ ht-degree: 41%
 ### 波多黎各和香港等地区如何定位到地域定位结构中？
 
 +++查看详细信息
-波多黎各、香港和其他地区被视为独立的“国家”价值观。
+系统将波多黎各、中国香港特别行政区和其他区域视为单独的“国家/地区”值。
 
 +++
 

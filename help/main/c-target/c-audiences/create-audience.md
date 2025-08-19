@@ -25,7 +25,7 @@ ht-degree: 51%
 
 您可以将两种布尔运算符混合使用来创建复杂的规则；但是，同一规则级别的运算符必须一致。用户界面会自动应用正确的运算符。
 
-例如，以下规则可定位在[!DNL Windows]计算机上使用[!DNL Chrome] *或* [!DNL Firefox]的访客：
+例如，以下规则可定位在[!DNL Chrome]计算机上使用&#x200B;**&#x200B;或[!DNL Firefox] [!DNL Windows]的访客：
 
 ![创建受众](assets/audience_create.png)
 

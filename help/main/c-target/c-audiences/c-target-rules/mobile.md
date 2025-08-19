@@ -7,7 +7,7 @@ exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->使用Mobile SDK的客户无需执行任何操作即可应用此功能。 使用at.js的客户必须[升级到at.js版本1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank}（或更高版本）。
+>使用Mobile SDK的客户无需执行任何操作即可应用此功能。 使用 at.js 的客户必须[升级至 at.js 版本 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}（或更高版本）。
 
 您可以选择多个移动设备属性。使用OR运算符连接多个选择。
 
@@ -56,14 +56,14 @@ ht-degree: 34%
 
    >[!NOTE]
    >
-   >您可以使用[地域设置](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)通过移动设备运营商进行定位。
+   >您可以使用[地域设置](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)通过移动设备运营商进行锁定。
 
 1. （可选）为受众设置其他规则。
 1. 单击 **[!UICONTROL Done]**。
 
 下图展示了一个受众，它定位的是使用Google制造的移动设备的访客。
 
-![定位移动设备](assets/target_mobile.png)
+![锁定移动设备](assets/target_mobile.png)
 
 ## 注意事项
 

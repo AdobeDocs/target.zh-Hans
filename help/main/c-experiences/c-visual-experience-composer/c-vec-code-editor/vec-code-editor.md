@@ -1,6 +1,6 @@
 ---
 keywords: CSS 选择器;自定义代码;代码编辑器;移动设备 Web 体验编辑器
-description: 了解如何使用Adobe [!DNL Target] 中的“修改”面板来查看页面修改并添加其他修改（CSS选择器、Mbox和自定义代码）。
+description: 了解如何使用Adobe [!DNL Target] 中的“修改”面板查看页面修改和添加其他修改（CSS选择器、Mbox和自定义代码）。
 title: 可以对页面进行哪些修改？
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
@@ -13,7 +13,7 @@ ht-degree: 72%
 
 # 修改
 
-有关[!DNL Adobe Target]中[!UICONTROL Modifications]页面的信息，该信息允许您查看对页面的修改并添加其他修改（CSS选择器、Mbox和自定义代码）。
+有关[!UICONTROL Modifications]中[!DNL Adobe Target]页面的信息，该信息允许您查看对页面的修改并添加其他修改（CSS选择器、Mbox和自定义代码）。
 
 [!UICONTROL Modifications]页面显示对可视化体验编辑器(VEC)中的页面所做的所有更改，并允许您通过单击页面上的每个元素并[选择操作](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)来进行其他更改。 您所做的每项更改都将作为单独的操作或元素显示在[!UICONTROL Modifications]列表中。 您还可以添加修改，其中包括以下修改类型：CSS 选择器、Mbox 和自定义代码。
 
@@ -65,7 +65,7 @@ ht-degree: 72%
 
    >[!NOTE]
    >
-   >要在基于表单的体验编辑器中打开“修改”面板，请创建或编辑 HTML 选件。有关更多信息，请参阅[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)。
+   >要在基于表单的体验编辑器中打开“修改”面板，请创建或编辑 HTML 产品建议。有关更多信息，请参阅[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)。
 
    此时将打开[!UICONTROL Modifications]页面，该页面将屏幕分为两部分，左侧为可视化模式，右侧为“修改”面板。 单击[!UICONTROL Dock]图标沿Target UI的侧面垂直或水平停靠“修改”面板，或者水平停靠在底部。 请注意，以下图示中的体验 A 先前未进行任何修改。
 
@@ -77,7 +77,7 @@ ht-degree: 72%
 
 1. 要添加修改，请执行以下操作：
 
-   * 如果之前未对体验进行任何修改，请单击右侧[!UICONTROL Modifications]面板底部的&#x200B;**[!UICONTROL Add Modification]**&#x200B;按钮。
+   * 如果之前未对体验进行任何修改，请单击右侧&#x200B;**[!UICONTROL Add Modification]**&#x200B;面板底部的[!UICONTROL Modifications]按钮。
    * 如果之前对体验进行了修改，请单击右侧[!UICONTROL Modifications]面板顶部的+图标。
 
    “修改”面板将显示：
@@ -90,7 +90,7 @@ ht-degree: 72%
    |--- |--- |
    | CSS 选择器 | 在“CSS 元素选择器”框中，指定要修改的所需 CSS 元素，选择操作类型（设置内容或设置属性），然后填写所需信息和所需内容。 |
    | Mbox | 指定mbox名称和所需的内容。<p>**注意**：在使用at.js 2.*x*。<p>解决方法：<ul><li>如果使用at.js 2.*x*，添加CSS选择器修改而非Mbox修改，并在mbox正在使用的选择器上添加内容。 </li><li>使用基于表单的活动(适用于mbox和at.js 1.*x* 和 at.js 2 中的“隐藏主体”和“显示主体”调用。*x*)。</li><li>使用at.js 1.VEC中的&#x200B;*x*。</li></ul> |
-   | 自定义代码 | 指定可选名称，根据需要选中或取消选中[!UICONTROL Add Code in the `<HEAD>`部分]复选框，然后添加自定义代码。<p>如果选择[!UICONTROL Add Code in the `<HEAD>`分区]，则自定义代码将添加到`<head>`分区，并且不会等待主体或页面加载事件完成后才执行。 只添加 `<script>` 和 `<style>` 元素。添加 `<div>` 标记和其他元素可能会导致其余的 `<head>` 元素出现在 `<body>` 中。如果您使用的是at.js，则所有选件都将进行异步交付。<p> 如果取消选择[!UICONTROL Add Code in the `<HEAD>`分区]，则自定义代码将在`<body>`标记之后立即执行。 有代码将封装在一个 `<div>` 中以保留 DOM 结构。如果您使用的是at.js，则所有选件都将进行异步交付。<p>如果`<BODY>`的HTML包含`<SCRIPT>`和`<DIV>`，则`<DIV>`将附加到`<BODY>`并在`<HEAD>`中执行`<SCRIPT>`。 此外，加载外部文件的`<SCRIPT>`已附加到`<HEAD>`。<p>**注意**：脚本是异步运行的。 这意味着您不能使用 `document.write` 或类似的脚本方法。<p>自定义代码提供了一个非可视化界面，用于在 VEC、基于表单的体验编辑器和 HTML 选件编辑器中，查看、编辑和添加新操作。该面板提供了体验的代码视图，用于帮助您构建更复杂的体验，微调现有的体验，以及对问题进行故障诊断。<p>自定义代码适用于熟悉 HTML、JavaScript 和 CSS 的高级用户。代码视图可以帮助您调整或微调更改，或修复选择器问题。您也可以使用它来添加新的自定义代码和操作。您可以添加多个自定义代码，并为每个自定义代码提供可选名称。<p>**注意**：自定义代码当前仅适用于A/B和体验定位(XT)活动。 如果应用了重定向选件，自定义代码将无法用于叠加。<p>自定义代码支持以下用例：<ul><li>添加要在页面顶部执行的自定义 JavaScript、HTML 或 CSS</li><li>查看或编辑修改后由 VEC 生成的代码</li><li>为选择器设置 HTML 内容（仅限 CSS 选择器）</li><li>在 HTML 元素上设置一个属性</li><li>添加要在区域 mbox 中交付的选件内容</li><li>使用 jQuery 在 DOM-ready 时进行交换</li><li>不使用 jQuery 在 DOM-ready 时进行交换（不支持 Internet Explorer 8）</li><li>通过“elementOnLoad”插件与 DOM 轮询进行交换</li><li>自定义重定向</li></ul>自定义代码可提供：<ul><li>行号以实现更好的可用性。</li><li>语法高亮显示以帮助避免 HTML 选件出现语法错误。</li><li>创建多个自定义代码并为每个自定义代码提供可选名称的功能。创建多个自定义代码可为将来进行调试提供便利。例如，您可以使用描述性名称为每个修改创建单独的自定义代码，而不是创建单个自定义代码来完成多个修改。拥有单独的自定义代码可使修改更加模块化且更易于管理。请注意，无法保证活动中的多个自定义代码按照创建这些代码的顺序执行。</li></ul>“修改”面板将屏幕分为可视化模式和代码模式。两种模式保持同步。以可视化方式进行的每一个修改都在代码视图中具有与之对应的一行代码。同样，在代码视图中进行的每一个更改也会显示在可视化体验中。单击代码视图中的任何一行，即可在可视化页面上选中与之对应的元素。<p>自定义代码支持 HTML、脚本和样式。可以添加或编辑任何有效的 HTML 代码或脚本。 |
+   | 自定义代码 | 指定可选名称，根据需要选中或取消选中[!UICONTROL Add Code in the `<HEAD>`部分]复选框，然后添加自定义代码。<p>如果选择[!UICONTROL Add Code in the `<HEAD>`分区]，则自定义代码将添加到`<head>`分区，并且不会等待主体或页面加载事件完成后才执行。 只添加 `<script>` 和 `<style>` 元素。添加 `<div>` 标记和其他元素可能会导致其余的 `<head>` 元素出现在 `<body>` 中。如果您使用的是at.js，则所有选件都将进行异步交付。<p> 如果取消选择[!UICONTROL Add Code in the `<HEAD>`分区]，则自定义代码将在`<body>`标记之后立即执行。 有代码将封装在一个 `<div>` 中以保留 DOM 结构。如果您使用的是at.js，则所有选件都将进行异步交付。<p>如果`<BODY>`的HTML包含`<SCRIPT>`和`<DIV>`，则`<DIV>`将附加到`<BODY>`并在`<SCRIPT>`中执行`<HEAD>`。 此外，加载外部文件的`<SCRIPT>`已附加到`<HEAD>`。<p>**注意**：脚本是异步运行的。 这意味着您不能使用 `document.write` 或类似的脚本方法。<p>自定义代码提供了一个非可视化界面，用于在 VEC、基于表单的体验编辑器和 HTML 选件编辑器中，查看、编辑和添加新操作。该面板提供了体验的代码视图，用于帮助您构建更复杂的体验，微调现有的体验，以及对问题进行故障诊断。<p>自定义代码适用于熟悉 HTML、JavaScript 和 CSS 的高级用户。代码视图可以帮助您调整或微调更改，或修复选择器问题。您也可以使用它来添加新的自定义代码和操作。您可以添加多个自定义代码，并为每个自定义代码提供可选名称。<p>**注意**：自定义代码当前仅适用于A/B和体验定位(XT)活动。 如果应用了重定向产品建议，自定义代码将无法用于叠加。<p>自定义代码支持以下用例：<ul><li>添加要在页面顶部执行的自定义 JavaScript、HTML 或 CSS</li><li>查看或编辑修改后由 VEC 生成的代码</li><li>为选择器设置 HTML 内容（仅限 CSS 选择器）</li><li>在 HTML 元素上设置一个属性</li><li>添加要在区域 mbox 中交付的选件内容</li><li>使用 jQuery 在 DOM-ready 时进行交换</li><li>不使用 jQuery 在 DOM-ready 时进行交换（不支持 Internet Explorer 8）</li><li>通过“elementOnLoad”插件与 DOM 轮询进行交换</li><li>自定义重定向</li></ul>自定义代码可提供：<ul><li>行号以实现更好的可用性。</li><li>语法高亮显示以帮助避免 HTML 选件出现语法错误。</li><li>创建多个自定义代码并为每个自定义代码提供可选名称的功能。创建多个自定义代码可为将来进行调试提供便利。例如，您可以使用描述性名称为每个修改创建单独的自定义代码，而不是创建单个自定义代码来完成多个修改。拥有单独的自定义代码可使修改更加模块化且更易于管理。请注意，无法保证活动中的多个自定义代码按照创建这些代码的顺序执行。</li></ul>“修改”面板将屏幕分为可视化模式和代码模式。两种模式保持同步。以可视化方式进行的每一个修改都在代码视图中具有与之对应的一行代码。同样，在代码视图中进行的每一个更改也会显示在可视化体验中。单击代码视图中的任何一行，即可在可视化页面上选中与之对应的元素。<p>自定义代码支持 HTML、脚本和样式。可以添加或编辑任何有效的 HTML 代码或脚本。 |
 
 1. 根据需要添加其他修改。
 
@@ -211,9 +211,9 @@ Target 将值为“CDQID”的新元素 ID 应用于由 Target 修改的页面�
 
 ## 自定义代码疑难解答 {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
-使用`triggerView`时不执行&#x200B;**自定义代码。**
+使用&#x200B;**时不执行`triggerView`自定义代码。**
 
-当调用 `triggerView()` 并以 `{page: false}` 作为选项时，不重新呈现 VEC 中的自定义代码选件。
+当调用 `triggerView()` 并以 `{page: false}` 作为选项时，不重新呈现 VEC 中的自定义代码产品建议。
 
 **我收到一个警告，指出由于页面中的结构变化，无法应用某个操作。这是什么意思？**
 

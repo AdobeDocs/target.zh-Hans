@@ -13,7 +13,7 @@ ht-degree: 73%
 
 # 可视化体验编辑器 (VEC)
 
-有关在[!DNL Adobe Target]中使用[!UICONTROL Visual Experience Composer] (VEC)的信息。
+有关在[!UICONTROL Visual Experience Composer]中使用[!DNL Adobe Target] (VEC)的信息。
 
 VEC是一个WYSIWYG用户界面，可让您轻松地在站点上下文中创建和测试个性化体验和选件。 您可以通过拖放、交换和修改网页（或产品建议）或移动网页的布局和内容来为 Target 活动创建体验和产品建议。
 
@@ -113,7 +113,7 @@ VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和
 * 更改页面的内容
 * 更改页面的布局
 
->[!VIDEO](https://video.tv.adobe.com/v/30331?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
 
 ### 可视化体验编辑器（第2个，共2个） (7:29) ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -124,7 +124,7 @@ VEC 是 [!DNL Adobe Target] 的主要功能之一。通过 VEC，营销人员和
 * 预览和构建响应式网站的体验
 * 使用叠加高亮显示元素类型
 
->[!VIDEO](https://video.tv.adobe.com/v/30330?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### 办公时间：可视化体验编辑器![教程徽章](/help/main/assets/tutorial.png)
 

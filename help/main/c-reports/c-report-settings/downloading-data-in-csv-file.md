@@ -59,9 +59,9 @@ ht-degree: 34%
 
 * 体验
 
-  在[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] (XT)和[!UICONTROL Multivariate Test] (MVT)活动的[!UICONTROL Order Details]报表中，[!UICONTROL Experience]列包含体验`localId`。 这是产品建议令牌中 `$campaign.recipe.id` 的值输出。
+  在[!UICONTROL Order Details]、[!UICONTROL A/B Test] (XT)和[!UICONTROL Experience Targeting] (MVT)活动的[!UICONTROL Multivariate Test]报表中，[!UICONTROL Experience]列包含体验`localId`。 这是产品建议令牌中 `$campaign.recipe.id` 的值输出。
 
-  [!UICONTROL Automated Personalization] (AP)活动没有[!UICONTROL Experience]列。 当前[!UICONTROL Algorithm Name]列已替换为“控制”与“目标”术语，如[!DNL Target]中的其他位置所示。
+  [!UICONTROL Experience] (AP)活动没有[!UICONTROL Automated Personalization]列。 当前[!UICONTROL Algorithm Name]列已替换为“控制”与“目标”术语，如[!DNL Target]中的其他位置所示。
 
   对[!UICONTROL Recommendations]活动没有影响。
 
@@ -80,8 +80,8 @@ ht-degree: 34%
 
 以下信息适用于[!UICONTROL Download]选项：
 
-* 您可以下载[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]、[!UICONTROL Experience Targeting]和[!UICONTROL Multivariate]活动的报告。 您无法下载[!UICONTROL Recommendations]活动的[!UICONTROL Success Metrics]报告。
-* [!UICONTROL Download]选项不适用于[!DNL Target]版本15.7.1（2015年7月）之前创建的[!UICONTROL A/B Test]和[!UICONTROL Experience Targeting]活动。
+* 您可以下载[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]、[!UICONTROL Experience Targeting]和[!UICONTROL Multivariate]活动的报告。 您无法下载[!UICONTROL Success Metrics]活动的[!UICONTROL Recommendations]报告。
+* [!UICONTROL Download]选项不适用于[!UICONTROL A/B Test]版本15.7.1（2015年7月）之前创建的[!UICONTROL Experience Targeting]和[!DNL Target]活动。
 * 下载的报表中不会记录没有关联数据的体验。
 * 在[!DNL Target]报表UI中应用的受众不会传递到下载的报表中。
 * 如果活动使用多个指标，则为以 .csv 文件形式下载而生成的报表不一致。仅根据报告设置生成可下载的报告，并且该报告对于任何其他使用的指标都考虑相同的值。 事实来源始终为 [!DNL Target] UI 中显示的报表。

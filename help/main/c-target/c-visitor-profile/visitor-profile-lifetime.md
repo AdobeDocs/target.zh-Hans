@@ -11,11 +11,11 @@ ht-degree: 62%
 
 ---
 
-# 访客个人资料生命周期
+# 访客轮廓生命周期
 
-默认情况下，[!DNL Adobe Target]中的访客配置文件会在访客处于不活动状态14天后过期。 配置文件生命周期可延长。
+默认情况下，[!DNL Adobe Target]中的访客配置文件会在访客处于不活动状态14天后过期。 轮廓生命周期可延长。
 
-[请联系客户关怀团队或您的 Adobe 顾问](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，以免费延长配置文件生命周期。生命周期可设置为长达 90 天。
+[请联系客户关怀团队或您的 Adobe 顾问](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，以免费延长轮廓生命周期。生命周期可设置为长达 90 天。
 
 如果您的配置文件扩展时间超出默认值，则无需下载新的[!DNL Platform Web SDK]文件或at.js文件。
 

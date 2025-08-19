@@ -1,5 +1,5 @@
 ---
-keywords: 内容;资产;管理内容;选件;管理资产;进入选择模式;选择模式
+keywords: 内容;资产;管理内容;产品建议;管理资产;进入选择模式;选择模式
 description: 了解如何使用Adobe Target中的选件库来管理代码和图像选件。
 title: 如何管理代码和图像选件？
 feature: Experiences and Offers
@@ -11,19 +11,19 @@ ht-degree: 16%
 
 ---
 
-# 选件
+# 产品建议
 
-使用[!DNL Adobe Target]中的[!UICONTROL Offers]库管理代码选件和图像选件内容。
+使用[!UICONTROL Offers]中的[!DNL Adobe Target]库管理代码选件和图像选件内容。
 
 1. 单击&#x200B;**[!UICONTROL Offers]**&#x200B;以打开库。
 
-   选件库中包含通过 [!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS) 及 API 设置的选件。在 [!DNL Target Classic] 或其他解决方案中创建的选件可以在 [!DNL Target Standard/Premium] 中进行编辑。
+   产品建议库中包含通过 [!DNL Target Standard/Premium]、[!DNL Target Classic]、[!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] (AMS) 及 API 设置的产品建议。在 [!DNL Target Classic] 或其他解决方案中创建的产品建议可以在 [!DNL Target Standard/Premium] 中进行编辑。
 
    [!UICONTROL Offers]页面右侧有两个选项卡： [!UICONTROL Code Offers]和[!UICONTROL Image Offers]，允许您按类型查看选件。
 
    ![选件页面显示“代码选件”和“图像选件”选项卡](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
 
-1. （可选）单击&#x200B;**[!UICONTROL Type]**&#x200B;下拉列表以按类型(HTML选件、[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[远程选件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、[JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md)和[文件夹](/help/main/c-experiences/c-manage-content/create-content-folder.md))筛选选件。
+1. （可选）单击&#x200B;**[!UICONTROL Type]**&#x200B;下拉列表以按类型筛选选件(HTML选件、[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[远程选件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)、[JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md)和[文件夹](/help/main/c-experiences/c-manage-content/create-content-folder.md))。
 
    ![offers_filter图像](assets/offers_filter.png)
 
@@ -82,7 +82,7 @@ ht-degree: 16%
 
 单击[!UICONTROL View Full Details]链接可查看选件内容和引用代码选件的活动。 利用此功能，您可以避免在编辑选件时对其他活动造成影响。信息包括[!UICONTROL Live Activities]和[!UICONTROL Inactive Activities]。
 
-每个卡上的可用信息因选件类型而异：HTML选件、[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[远程选件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)或[JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md)。
+每个卡上的可用信息因选件类型而异： HTML选件、[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)、[重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect.md)、[远程选件](/help/main/c-experiences/c-manage-content/about-remote-offers.md)或[JSON选件](/help/main/c-experiences/c-manage-content/create-json-offer.md)。
 
 优惠详细信息功能不适用于图像优惠。
 
@@ -92,7 +92,7 @@ ht-degree: 16%
 
 This video includes information about managing offers.
 
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=zh-Hans) and the Target Content Library 
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
 * Custom HTML Offers 
 * Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
 

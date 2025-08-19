@@ -35,7 +35,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->现在，[开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans){target=_blank}中包含了本指南(*Adobe Target从业人员指南*)中&#x200B;*实施Target*&#x200B;部分之前包含的所有信息。
+>现在，*开发人员指南*&#x200B;中包含了本指南(*Adobe Target Practioner Guide*)中[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans){target=_blank}部分之前包含的所有信息。
 
 
 

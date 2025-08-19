@@ -2,7 +2,7 @@
 keywords: 工作区；管理属性；权限；产品配置；产品配置文件；角色；项目；观察者；编辑者；审批者；发布者
 description: 了解如何创建单独的工作区（产品配置文件），然后为各个页面、属性或网站为用户分配不同的角色和权限。
 title: 什么是企业用户权限？如何使用企业用户权限？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
@@ -27,7 +27,7 @@ ht-degree: 48%
 >
 >您的[!DNL Target]实施可以使用任何版本的at.js或[!DNL Adobe Experience Platform Web SDK]。
 
-您可以通过单击[!DNL Target] UI顶部的[!UICONTROL Administration]链接来判断贵组织是拥有Standard许可证还是拥有Premium许可证。
+您可以通过单击[!UICONTROL Administration] UI顶部的[!DNL Target]链接来判断贵组织是拥有Standard许可证还是拥有Premium许可证。
 
 * **[!DNL Target Standard]客户**：如果您看到[!UICONTROL Users]选项卡([!UICONTROL Administration > Users])（而不是[!UICONTROL Properties]选项卡），则表明贵组织拥有[!DNL Target Standard]许可证。 [!DNL Target Standard]客户应按照[用户](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)中的说明在[!DNL Adobe Admin Console]中添加用户和分配权限。
 
@@ -57,7 +57,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 工作区允许组织为一组特定用户分配一组特定属性。工作区在许多方面与 [!DNL Adobe Analytics] 中的报表包相似。
 
-注意：工作区在[!DNL Adobe Admin Console for Enterprise]中称为[!UICONTROL Product Profiles]。
+注意：工作区在[!UICONTROL Product Profiles]中称为[!DNL Adobe Admin Console for Enterprise]。
 
 如果您所在的组织是跨国组织，则您可能拥有两个工作区：一个用于欧洲网页、属性或网站，而另一个用于美国网页、属性或网站。如果您所在的组织拥有多个品牌，则您的每个品牌可能有其独立的工作区。
 
@@ -196,7 +196,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 * **活动创建：**&#x200B;创建活动时，会在当前选定的工作区中创建该活动。 在第一个对话框中，您会看到渠道选择选项，从中可为活动选择所需的渠道：Web、移动设备应用程序、电子邮件或其他/API。
 
 * **受众创建：**&#x200B;创建受众时，会在当前选定的工作区中创建该受众。
-* **受众列表：**&#x200B;您可以使用[!UICONTROL Audiences]页面上的[!UICONTROL More Actions] > [!DNL Move]选项在工作区之间移动受众。
+* **受众列表：**&#x200B;您可以使用[!UICONTROL More Actions]页面上的[!DNL Move] > [!UICONTROL Audiences]选项在工作区之间移动受众。
 * **选件创建：**&#x200B;创建选件时，该选件在当前选定的工作区中创建。
 * **属性页面（管理>属性）：**&#x200B;您可以使用[!UICONTROL Search]框搜索[!UICONTROL Property]列表。
 
@@ -266,7 +266,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 ### 我是否可以将受众从一个工作区移动到另一个工作区？ {#move-audience}
 
-可以，您可以使用[!UICONTROL Audiences]页面上的[!UICONTROL More Actions]选项在工作区之间移动受众。
+可以，您可以使用[!UICONTROL More Actions]页面上的[!UICONTROL Audiences]选项在工作区之间移动受众。
 
 1. 单击&#x200B;**[!UICONTROL More Actions]**&#x200B;按钮（三个省略号），然后单击&#x200B;**[!UICONTROL Move]**。
 
@@ -282,7 +282,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 ### 为什么我会收到一则错误消息，指示没有与此活动相关联的属性，即使分配了属性也是如此？
 
-如果您使用[!DNL Adobe Experience Platform]中的标记实施了[!DNL Target]，并且收到一则错误消息，指示没有与活动关联的属性，请使用`targetPageParams`函数传递`at_property`参数。
+如果您使用[!DNL Target]中的标记实施了[!DNL Adobe Experience Platform]，并且收到一则错误消息，指示没有与活动关联的属性，请使用`at_property`函数传递`targetPageParams`参数。
 
 ### 如果重定向页面和活动URL属于不同的属性，那么是否会记录点击跟踪转化？
 
@@ -310,7 +310,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 * 属性和工作区的概念，以及这些边界和分组如何工作以允许控制用户的访问权限级别
 * 贵组织需要考虑的不同属性示例
 
->[!VIDEO](https://video.tv.adobe.com/v/3421735?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
 ### 办公时间：[!DNL Target]高级工作区
 

@@ -2,13 +2,13 @@
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;FAQ;常见问题解答;重要属性
 description: 了解如何使用[!UICONTROL Important Attributes]报表，该报表显示影响个性化模型的主要属性及其相对重要性。
 title: 重要属性报表是什么？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '1773'
-ht-degree: 56%
+ht-degree: 57%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 56%
 >
 >* [!UICONTROL Personalization Insights]报表仅适用于使用转化优化目标的AP和AT活动。 活动上线后将优化目标从收入更改为转化的活动也不受支持。
 >
->* 仅当从[!UICONTROL Report Metric]下拉列表中选择[!UICONTROL Primary Goal]时，[!UICONTROL Personalization Insights]报告才可用。
+>* 仅当从[!UICONTROL Personalization Insights]下拉列表中选择[!UICONTROL Primary Goal]时，[!UICONTROL Report Metric]报告才可用。
 >
->* 仅[默认环境](/help/main/administrating-target/hosts.md)支持[!UICONTROL Personalization Insights]报告。
+>* 仅[!UICONTROL Personalization Insights]默认环境[支持](/help/main/administrating-target/hosts.md)报告。
 >
->* 仅为处于[!UICONTROL Live]状态并且已激活且接收流量至少15天的活动生成[!UICONTROL Personalization Insights]报告。
+>* 仅为处于[!UICONTROL Personalization Insights]状态并且已激活且接收流量至少15天的活动生成[!UICONTROL Live]报告。
 
 在不同的活动中，不同的属性对模型如何决定进行个性化的重要性也大小不一。此报表可显示影响模型的排名靠前的属性及其相对重要性。
 
@@ -53,7 +53,7 @@ ht-degree: 56%
 
 1. 选择所需的日期范围。
 
-   与[!UICONTROL Summary]报表（性能报表）不同，包括[!UICONTROL Important Attributes]在内的[!UICONTROL Personalization Insights]仅适用于固定日期范围：15天、30天和60天。
+   与[!UICONTROL Summary]报表（性能报表）不同，包括[!UICONTROL Personalization Insights]在内的[!UICONTROL Important Attributes]仅适用于固定日期范围：15天、30天和60天。
 
    这些固定的日期范围允许[!UICONTROL Personalization Insights]使用足够大的数据范围，以降低您从活动中的短期模式获取见解的可能性。 您可以决定日期范围的“结束日期”和“持续时间”。您会注意到“开始”显示为灰色。开始日期会根据您选择的结束日期和持续时间自动进行更改。
 
@@ -92,13 +92,13 @@ ht-degree: 56%
 
 属性是关于个性化算法为了解如何个性化流量而使用的访客或其特定访问的信息。例如，属性可以是浏览器类型、位置、访问时间等。
 
-有关 [!DNL Target] 在其个性化模型中使用的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。有关如何将新属性上传到Target以在Target的个性化模型中使用的更多信息，请参阅[将数据导入Target的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}。
+有关 [!DNL Target] 在其个性化模型中使用的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。有关如何将新属性上传到 Target 以在 Target 的个性化模型中使用的更多信息，请参阅[将数据导入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 ### 我看到一个或多个我不希望模型用于训练的属性。我可以从训练模型中移除这些属性吗？ {#models-api}
 
 列入阻止列表 [!UICONTROL Models API]（也称为API）允许用户查看和管理机器学习模型中用于[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活动的属性（也称为功能）列表。 列入阻止列表如果要排除一个或多个属性不被模型用于AP或AT活动，可以使用模型API将这些属性添加到“”中。
 
-有关详细信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[模型API概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hans){target=_blank}。 要使用API阻止属性，请参阅[模型API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=zh-Hans){target=_blank}。
+有关详细信息，请参阅[Adobe Target开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}中的&#x200B;*模型API概述*。 要使用API阻止属性，请参阅[模型API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}。
 
 ### [!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]报表中的信息是否与CSV下载中的信息相同？
 
@@ -146,4 +146,4 @@ Personalization分析报表（[!UICONTROL Automated Segments]和[!UICONTROL Impo
 
 [!DNL Target]工程团队当前正在调查以下问题。
 
-* [!DNL Adobe Experience Platform]区段名称未显示在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活动的[!UICONTROL Important Attributes]报表中。 (TOP-3813)
+* [!DNL Adobe Experience Platform]区段名称未显示在[!UICONTROL Important Attributes] (AP)和[!UICONTROL Automated Personalization] (AT)活动的[!UICONTROL Auto-Target]报表中。 (TOP-3813)

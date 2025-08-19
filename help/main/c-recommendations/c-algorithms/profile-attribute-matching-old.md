@@ -1,8 +1,8 @@
 ---
 keywords: 包含规则；包含标准；推荐；促销活动；动态筛选；动态；配置文件属性匹配
-description: 了解如何在Adobe [!DNL Target] Recommendations中通过比较项目（实体）与用户配置文件中的值来进行动态筛选。
-title: 如何在Recommendations活动中按配置文件属性匹配进行筛选？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+description: 了解如何通过比较项目（实体）与用户配置文件中的值来动态筛选Adobe [!DNL Target] 推荐。
+title: 如何在“推荐”活动中按配置文件属性匹配进行筛选？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->为标准和促销活动创建和使用包含规则[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的过程与用例和示例类似。
+>为标准和促销活动创建和使用包含规则[的](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)过程与用例和示例类似。
 
 以下情形显示如何使用[!UICONTROL Profile Attribute Matching]：
 
@@ -65,10 +65,10 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 如果访客随后返回主页，则将根据点击的粉丝数量是较小还是较大而查看过滤推荐。
 
-Recommendations基于在网站上查看更多小粉丝的信息：
+基于在网站上查看更多小粉丝的建议：
 
 ![小粉丝推荐](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
 
-Recommendations基于在网站上查看更多大粉丝的数据：
+基于在网站上查看更多大粉丝的建议：
 
 ![大粉丝推荐](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)

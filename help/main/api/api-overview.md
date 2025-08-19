@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Adobe[!DNL Target] SDK和API
+# Adobe [!DNL Target] SDK和API
 
 在开始使用[!DNL Adobe Target]之前，您必须在您的网站上实施它。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 * 客户端，包括有关使用[!DNL Adobe Experience Platform Web SDK]或[!DNL Target Web SDK] (at.js)实现的信息。
 * 服务器端，包括有关如何使用Node.JS、JAVA、.NET和Python SDK实现的信息。
 * 混合信息，可帮助您在使用客户端和服务器端实施的组合时实施的信息。
-* Recommendations，此信息可帮助您实施[!DNL Recommendations]，[Target Premium](/help/main/c-intro/intro.md#premium)产品。
+* 推荐，帮助您实施[!DNL Recommendations]的信息，一种[Target Premium](/help/main/c-intro/intro.md#premium)产品。
 * 移动设备应用程序。
 * 电子邮件。
 
@@ -33,4 +33,4 @@ ht-degree: 0%
 * 报表API。
 * 推荐API。
 
-有关详细信息，请参阅[Adobe Target开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans){target=_blank}中的[Target API概述](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=zh-Hans){target=_blank}。
+有关详细信息，请参阅[Adobe Target开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank}中的[Target API概述](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}。

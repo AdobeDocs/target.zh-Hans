@@ -18,7 +18,7 @@ ht-degree: 23%
 ## 当我在[!UICONTROL Visual Experience Composer]中打开我的网站时，[!DNL Target]库未加载。 （仅 VEC） {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 +++详细信息
-在[!UICONTROL Visual Experience Composer]中打开网站时，[!DNL Target]添加两个参数（`mboxEdit=1`和`mboxDisable=1`）。
+在[!DNL Target]中打开网站时，`mboxEdit=1`添加两个参数（`mboxDisable=1`和[!UICONTROL Visual Experience Composer]）。
 
 如果您的网站（特别是单页应用程序）裁切参数，或者在从一个页面导航到另一个页面（不重新加载页面）时将参数实际删除，[!DNL Target]功能会中断并且[!DNL Target]库不会加载。
 
@@ -47,7 +47,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->除了以下信息外，您还可以为[!DNL Google Chrome]使用[[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
+>除了以下信息外，您还可以为[[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]使用](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)扩展[!DNL Google Chrome]。
 
 >[!NOTE]
 >
@@ -63,10 +63,10 @@ ht-degree: 23%
 >
 >* 在 VEC 中进行编辑时启用该规则，而在不使用 VEC 时禁用该规则。
 
-**要在[!DNL Chrome]或[!DNL Firefox]上使用[!DNL Requestly]扩展：**
+**要在[!DNL Requestly]或[!DNL Chrome]上使用[!DNL Firefox]扩展：**
 
 1. 关闭[!UICONTROL Enhanced Experienced Composer]。
-1. 在[!DNL Chrome]或[!DNL Firefox]上安装[!DNL Requestly]浏览器扩展。
+1. 在[!DNL Requestly]或[!DNL Chrome]上安装[!DNL Firefox]浏览器扩展。
 1. 打开该扩展程序，并执行以下操作以对其进行配置：
 1. 选择&#x200B;**[!UICONTROL Modify headers]**。
 1. 输入以下内容：
@@ -93,12 +93,12 @@ ht-degree: 23%
 
    您现在应该能够使用[!UICONTROL Visual Experience Composer]快速加载页面。
 
-**要在[!UICONTROL Firefox]上使用[!DNL Modify Response Headers]扩展：**
+**要在[!DNL Modify Response Headers]上使用[!UICONTROL Firefox]扩展：**
 
-1. 在[!DNL Firefox]上安装[!UICONTROL Modify Response Headers]并重新启动浏览器。
+1. 在[!UICONTROL Modify Response Headers]上安装[!DNL Firefox]并重新启动浏览器。
 1. 从[!DNL Firefox]扩展中，选择Modify Response Headers扩展。
 1. 单击 **[!UICONTROL Preferences]**。
-1. 从[!UICONTROL Action]下拉列表中选择&#x200B;**[!UICONTROL Filter]**。
+1. 从&#x200B;**[!UICONTROL Filter]**&#x200B;下拉列表中选择[!UICONTROL Action]。
 1. 在[!UICONTROL Header Name]字段中，输入： **[!UICONTROL X-Frame-Options]**。
 1. 重复步骤4和5以添加带有&#x200B;**[!UICONTROL x-frame-options]**&#x200B;的筛选器。
 1. 单击 **[!UICONTROL Add]**。
@@ -148,7 +148,7 @@ ht-degree: 23%
 ## 当我使用[!UICONTROL Browse]模式时，VEC显示为已损坏。 （仅 VEC） {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++详细信息
-使用[!UICONTROL Browse]模式时，如果您访问的URL未实现[!DNL Target]库([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=zh-Hans){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank})或包含frame-buster标头，则VEC显示为已损坏。 由于浏览器安全问题，[!DNL Target]无法正确访问您导航到的URL，或者如果页面加载，VEC URL不会一致更新。
+使用[!UICONTROL Browse]模式时，如果您访问的URL未实现[!DNL Target]库([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}或[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank})或包含frame-buster标头，则VEC显示为已损坏。 由于浏览器安全问题，[!DNL Target]无法正确访问您导航到的URL，或者如果页面加载，VEC URL不会一致更新。
 
 出现此问题的原因是VEC在`<iframe>`中加载了网页。 由于相同源策略，浏览器的当前安全机制阻止[!DNL Target] UI访问给定帧的元素。 浏览器阻止脚本尝试访问具有不同来源且包含`location.href`等信息的帧。
 

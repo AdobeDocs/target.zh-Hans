@@ -2,7 +2,7 @@
 keywords: 流量估算器；自动个性化；ap；估算流量
 description: 使用 [!DNL Adobe Target] [!UICONTROL Traffic Estimator]确定是否有足够的流量使[!UICONTROL Automated Personalization]活动成功。
 title: 成功的[!UICONTROL Automated Personalization]活动需要多少流量？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -20,11 +20,11 @@ ht-degree: 10%
 
 [!UICONTROL Traffic Estimator]通过比较页面的预计页面展示次数和典型转化率，确定是否有足够的流量来生成个性化模型。 对于成功的活动，在理想的情况下，正确的样本量可确保个性化内容在活动持续时间的一半时间或 14 天内（以较短者为准）准备就绪。此过程留有充足的时间来获取个性化内容并了解要交付的内容。
 
-请记住，[!DNL Target]会随机提供体验，直到生成个性化算法为止。 每个优惠旁边的复选标记图标显示该优惠的模型何时准备就绪，[!DNL Target]何时能够开始提供个性化内容。 由于提升仅在模型准备就绪后才属于预期提升度，因此，通过视觉指示可设置正确的预期。 使用[!UICONTROL Visual Experience Composer] (VEC)中的[!UICONTROL Traffic Estimator]获取模型准备就绪的指南。
+请记住，[!DNL Target]会随机提供体验，直到生成个性化算法为止。 每个优惠旁边的复选标记图标显示该优惠的模型何时准备就绪，[!DNL Target]何时能够开始提供个性化内容。 由于提升仅在模型准备就绪后才属于预期提升度，因此，通过视觉指示可设置正确的预期。 使用[!UICONTROL Traffic Estimator] (VEC)中的[!UICONTROL Visual Experience Composer]获取模型准备就绪的指南。
 
 ## 使用流量估算器
 
-1. 从[!UICONTROL Automated Personalization]活动中[!UICONTROL Visual Experience Composer]的[!UICONTROL Experiences]页面，单击&#x200B;**[!UICONTROL Traffic]**&#x200B;图标。
+1. 从[!UICONTROL Experiences]活动中[!UICONTROL Visual Experience Composer]的[!UICONTROL Automated Personalization]页面，单击&#x200B;**[!UICONTROL Traffic]**&#x200B;图标。
 
    ![“流量”图标](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
 

@@ -1,8 +1,8 @@
 ---
 keywords: 自动个性化；ap
-description: 了解如何使用[!UICONTROL Visual Experience Composer]在 [!DNL Adobe Target] 中创建[!UICONTROL Automated Personalization] (AP)活动。
+description: 了解如何使用[!UICONTROL Automated Personalization]在 [!DNL Adobe Target] 中创建[!UICONTROL Visual Experience Composer] (AP)活动。
 title: 如何创建[!UICONTROL Automated Personalization]活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -14,9 +14,9 @@ ht-degree: 27%
 
 # 创建[!UICONTROL Automated Personalization]活动
 
-使用[!UICONTROL Visual Experience Composer] (VEC)在[!DNL Adobe Target]中创建[!UICONTROL Automated Personalization] (AP)活动。
+使用[!UICONTROL Automated Personalization] (VEC)在[!DNL Adobe Target]中创建[!UICONTROL Visual Experience Composer] (AP)活动。
 
-[!DNL Target]中的[!UICONTROL Automated Personalization] (AP)活动工作流与其他活动类型的工作流有所不同。
+[!UICONTROL Automated Personalization]中的[!DNL Target] (AP)活动工作流与其他活动类型的工作流有所不同。
 
 1. 从[!DNL Target] [!UICONTROL Activities]列表中，单击&#x200B;**[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**。
 
@@ -114,7 +114,7 @@ ht-degree: 27%
 
 1. 完成活动内容的设置后，单击&#x200B;**[!UICONTROL Done]**。
 
-1. 如果您使用过其他[!DNL Target]活动类型，则&#x200B;**定位**&#x200B;步骤看起来会很熟悉。 在此处，您可以通过单击&#x200B;**[!UICONTROL Custom Allocation]**&#x200B;下拉列表来选择一个受众，并指定查看控制体验的访客百分比，然后单击&#x200B;**下一步**。
+1. 如果您使用过其他&#x200B;**活动类型，则**&#x200B;定位[!DNL Target]步骤看起来会很熟悉。 在此处，您可以通过单击&#x200B;**[!UICONTROL Custom Allocation]**&#x200B;下拉列表来选择一个受众，并指定查看控制体验的访客百分比，然后单击&#x200B;**下一步**。
 
    [!UICONTROL Custom Allocation]下拉列表允许您从以下选项中进行选择：
 
@@ -141,9 +141,9 @@ ht-degree: 27%
    |--- |--- |
    | [!UICONTROL Name] | 命名活动。为活动提供一个描述清楚的名称，以便团队成员能够在[!UICONTROL Activities]列表中识别该活动。 请参阅上面的表格，查看在活动名称中不允许使用的字符。 |
    | [!UICONTROL Objective] | （可选）键入测试的目标。此目标可帮助您记住活动的用途。 |
-   | [!UICONTROL Priority] | 根据您的设置，[!UICONTROL Priority]的[!DNL Target] UI和选项会有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的旧版设置，也可以启用0到999的细粒度优先级。<P>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。<P>如果未在[!UICONTROL Administration] > [!UICONTROL Reporting]（默认）中启用此选项，请指定优先级： [!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]。<P>要启用细粒度优先级，请单击[!UICONTROL Administration] > [!UICONTROL Reporting]，然后将[!UICONTROL Enable Fine-Grained Priorities]选项切换到“开”位置。<P>如果已启用此选项，请指定从0到999的值：<ul><li>0 = 低</li><li>999 = 高</li></ul>对于在以前的[!DNL Target Standard/Premium]版本中创建的活动，[!UICONTROL Low]优先级已转换为0，[!UICONTROL Medium]优先级已转换为5，[!UICONTROL High]优先级已转换为10。 您可以根据需要调整这些值。<P>**注意**：在使用细粒度优先级后，您可以禁用此选项，但在此之前，必须将所有优先级重新设置为0、5、10。 |
+   | [!UICONTROL Priority] | 根据您的设置，[!DNL Target]的[!UICONTROL Priority] UI和选项会有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的旧版设置，也可以启用0到999的细粒度优先级。<P>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。<P>如果未在[!UICONTROL Administration] > [!UICONTROL Reporting]（默认）中启用此选项，请指定优先级： [!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]。<P>要启用细粒度优先级，请单击[!UICONTROL Administration] > [!UICONTROL Reporting]，然后将[!UICONTROL Enable Fine-Grained Priorities]选项切换到“开”位置。<P>如果已启用此选项，请指定从0到999的值：<ul><li>0 = 低</li><li>999 = 高</li></ul>对于在以前的[!DNL Target Standard/Premium]版本中创建的活动，[!UICONTROL Low]优先级已转换为0，[!UICONTROL Medium]优先级已转换为5，[!UICONTROL High]优先级已转换为10。 您可以根据需要调整这些值。<P>**注意**：在使用细粒度优先级后，您可以禁用此选项，但在此之前，必须将所有优先级重新设置为0、5、10。 |
    | [!UICONTROL Duration] | 设置活动的开始和结束日期。 您可以选择[!UICONTROL When Activated]，也可以指定特定的日期和时间。 |
-   | [!UICONTROL Optimization Goal] | 指定优化目标，该目标包含两个参数：<ul><li>您想要通过活动衡量哪些指标</li><li>活动参加者采取的哪项操作可指示目标已达到。</li></ul>您可以通过选择[!UICONTROL My Primary Goal]右侧的三个圆点来命名优化目标。 [!UICONTROL Automated Personalization]活动可以测量[!UICONTROL Conversion]或[!UICONTROL Revenue]。 可以通过查看页面或查看mbox来实现转换。 点击次数也可以进行跟踪。<P>主要目标也可作为建模系统用来计算体验是否成功的建模量度。<P>达到建模目标后，出于跟踪目的，可以将访客保留在活动中。例如，通常使用[!UICONTROL Automated Personalization]活动来提高点击率，并且已设置为建模目标。 然而，重要的是要了解增加的点击率是如何导致最终转化的，因此通过最终转化进行跟踪必不可少。<P>您可以提供对多个量度的依赖关系，并且还可以灵活选择是否应实现指定的量度才能递增计数。<P>在使一个量度依赖于另一个量度之前，您必须定义两个（或多个）成功量度。<P>[!UICONTROL Add Dependency]选项允许在已达到另一个成功量度或尚未达到时递增成功量度。<P>要添加依赖项，请执行以下操作：<ol><li>添加其他量度后，单击[!UICONTROL Additional Goal]右侧的三个圆点式菜单下的&#x200B;**[!UICONTROL Advanced Settings]**。</li><li>单击[!UICONTROL Reporting Settings]部分底部的&#x200B;**[!UICONTROL Add Dependency]**&#x200B;选项。</li><li>将所需量度从左侧窗格拖放到右侧窗格中，然后单击[!UICONTROL Reached]以在[!UICONTROL Reached]和[!UICONTROL Not Reached]之间切换设置。</li></ol>添加依赖项后，您可以编辑或删除依赖项。 |
+   | [!UICONTROL Optimization Goal] | 指定优化目标，该目标包含两个参数：<ul><li>您想要通过活动衡量哪些指标</li><li>活动参加者采取的哪项操作可指示目标已达到。</li></ul>您可以通过选择[!UICONTROL My Primary Goal]右侧的三个圆点来命名优化目标。 [!UICONTROL Automated Personalization]活动可以测量[!UICONTROL Conversion]或[!UICONTROL Revenue]。 可以通过查看页面或查看mbox来实现转换。 点击次数也可以进行跟踪。<P>主要目标也可作为建模系统用来计算体验是否成功的建模量度。<P>达到建模目标后，出于跟踪目的，可以将访客保留在活动中。例如，通常使用[!UICONTROL Automated Personalization]活动来提高点击率，并且已设置为建模目标。 然而，重要的是要了解增加的点击率是如何导致最终转化的，因此通过最终转化进行跟踪必不可少。<P>您可以提供对多个量度的依赖关系，并且还可以灵活选择是否应实现指定的量度才能递增计数。<P>在使一个量度依赖于另一个量度之前，您必须定义两个（或多个）成功量度。<P>[!UICONTROL Add Dependency]选项允许在已达到另一个成功量度或尚未达到时递增成功量度。<P>要添加依赖项，请执行以下操作：<ol><li>添加其他量度后，单击&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;右侧的三个圆点式菜单下的[!UICONTROL Additional Goal]。</li><li>单击&#x200B;**[!UICONTROL Add Dependency]**&#x200B;部分底部的[!UICONTROL Reporting Settings]选项。</li><li>将所需量度从左侧窗格拖放到右侧窗格中，然后单击[!UICONTROL Reached]以在[!UICONTROL Reached]和[!UICONTROL Not Reached]之间切换设置。</li></ol>添加依赖项后，您可以编辑或删除依赖项。 |
    | [!UICONTROL Conversion Metric] | 默认情况下，转化量度与优化目标量度相同。 但是，您可以通过取消选中[!UICONTROL Same as Optimization Goal]选项来定义单独的转化量度。 |
    | [!UICONTROL Additional Metrics] | 添加任何其他要使用的报表量度。 您可以添加转化或收入量度。<P>**注意**：不支持[!UICONTROL Engagement]量度作为其他量度。 [!DNL Target] UI可能允许您选择[!UICONTROL Engagement]量度，但数据在报表中无法准确显示。 |
    | [!UICONTROL Audiences for Reporting] | 添加受众以在报表中启用按受众筛选功能。默认情况下，报表会显示所有符合条件的访客结果。添加受众可筛选结果，从而获得更具体的访客子集。<P>**注意**：与其他活动类型不同，[!UICONTROL Automated Personalization]不能使用[!UICONTROL Adobe Analytics]作为其报表源(A4T)。 |

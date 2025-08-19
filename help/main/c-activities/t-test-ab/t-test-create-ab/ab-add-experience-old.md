@@ -1,6 +1,6 @@
 ---
 keywords: 定位;体验;添加体验;体验添加
-description: 了解如何在 [!DNL Adobe Target]中使用[!UICONTROL Visual Experience Composer] (VEC)。
+description: 了解如何在[!UICONTROL Visual Experience Composer]中使用 [!DNL Adobe Target] (VEC)。
 title: 如何在A [!DNL Target] A/B活动中添加体验？
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
@@ -29,7 +29,7 @@ ht-degree: 43%
 
    将鼠标悬停在页面上的元素上时，这些元素会高亮显示。 任何高亮显示的元素都可以使用VEC进行更改。
 
-   如果您使用[!DNL Target Classic]（以前为[!DNL Test&Target]）在页面上创建了[!DNL Target]请求，则[!DNL Target]请求将显示为一个元素，该元素显示请求名称，并且可以像任何其他元素一样进行修改。
+   如果您使用[!DNL Target]（以前为[!DNL Target Classic]）在页面上创建了[!DNL Test&Target]请求，则[!DNL Target]请求将显示为一个元素，该元素显示请求名称，并且可以像任何其他元素一样进行修改。
 
    有关可对显示页面上的元素执行以更改体验的操作列表，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
@@ -41,7 +41,7 @@ ht-degree: 43%
 
 ## 重命名体验
 
-1. 单击[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting] (XT)活动中体验的&#x200B;**[!UICONTROL Rename Experience]**&#x200B;图标，为体验提供一个新名称。
+1. 单击&#x200B;**[!UICONTROL Rename Experience]**&#x200B;或[!UICONTROL A/B Test] (XT)活动中体验的[!UICONTROL Experience Targeting]图标，为体验提供一个新名称。
 
    ![重命名体验](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,7 +62,7 @@ ht-degree: 43%
 
 ## 重新定向到 URL
 
-1. 单击[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting] (XT)活动中某个体验的&#x200B;**[!UICONTROL More]**&#x200B;图标（垂直省略号）图标，然后单击&#x200B;**[!UICONTROL Redirect to URL]**。
+1. 单击&#x200B;**[!UICONTROL More]**&#x200B;或[!UICONTROL A/B Test] (XT)活动中某个体验的[!UICONTROL Experience Targeting]图标（垂直省略号）图标，然后单击&#x200B;**[!UICONTROL Redirect to URL]**。
 
    有关更多信息，请参阅[重定向到 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)。
 
@@ -104,4 +104,4 @@ ht-degree: 43%
 * 更改页面的内容
 * 更改页面的布局
 
->[!VIDEO](https://video.tv.adobe.com/v/30331?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

@@ -17,7 +17,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform]源可用于使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}的所有[!DNL Target]客户。 [!DNL Adobe Experience Platform]中可用的受众可以按原样使用，也可以与现有受众结合使用，如本主题中所述。
+>使用[!DNL Adobe Experience Platform]Adobe Experience Platform Web SDK[!DNL Target]的所有[客户都可以使用](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}源。 [!DNL Adobe Experience Platform]中可用的受众可以按原样使用，也可以与现有受众结合使用，如本主题中所述。
 >
 >有关详细信息，请参阅[使用来自Adobe Experience Platform的受众](/help/main/c-target/c-audiences/audiences.md#aep)。
 
@@ -99,7 +99,7 @@ ht-degree: 38%
 
 您可以在活动的[!UICONTROL Goals & Settings]页面上创建一个临时组合受众，以在报告中使用。
 
-1. 编辑或创建[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;页面上，单击[!UICONTROL Audiences for Reporting]下的&#x200B;**[!UICONTROL Add Audience]**&#x200B;图标以显示[!UICONTROL Choose Audience]页面。
+1. 编辑或创建[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)时，在&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;页面上，单击&#x200B;**[!UICONTROL Add Audience]**&#x200B;下的[!UICONTROL Audiences for Reporting]图标以显示[!UICONTROL Choose Audience]页面。
 
    ![combine_multiple_audiences6图像](assets/combine_multiple_audiences6.png)
 

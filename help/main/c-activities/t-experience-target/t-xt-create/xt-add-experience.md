@@ -7,17 +7,17 @@ exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 24%
+ht-degree: 23%
 
 ---
 
 # 在[!UICONTROL Experience Targeting] (XT)活动中创建体验
 
-[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)提供了一个可视化界面，用于编辑[!UICONTROL Experience Targeting] (XT)活动中的页面上的体验。
+[!UICONTROL Visual Experience Composer]中的[!DNL Adobe Target] (VEC)提供了一个可视化界面，用于编辑[!UICONTROL Experience Targeting] (XT)活动中的页面上的体验。
 
 1. 选择要更改的元素，然后进行所需的更改。
 
-   在[创建[!UICONTROL Experience Targeting]活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)时，三步引导式工作流([!UICONTROL Experiences])中的第一步会显示具有[!UICONTROL All Visitors]受众的默认[!UICONTROL Experience A]。
+   在[创建[!UICONTROL Experience Targeting]活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)时，三步引导式工作流([!UICONTROL Experiences])中的第一步会显示具有[!UICONTROL Experience A]受众的默认[!UICONTROL All Visitors]。
 
    ![“所有访客”受众](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
 
@@ -98,17 +98,17 @@ ht-degree: 24%
 * 描述如何向不同地理区域的受众交付特定于位置的内容
 * 描述如何对体验重新排序，以确保将适当的内容交付给适当的受众
 
->[!VIDEO](https://video.tv.adobe.com/v/38307?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
-### 活动类型 (9:03)
+### 活动类型(9:03)
 
-以下视频介绍了 [!DNL Target] 中可用的活动类型。对 [!UICONTROL Experience Targeting] 的讨论开始于 5:15。
+以下视频介绍了 [!DNL Target] 中可用的活动类型。从5[!UICONTROL Experience Targeting]开始讨论:15。
 
 * 介绍 [!DNL Adobe Target] 中包含的活动类型
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### 使用[!UICONTROL Visual Experience Composer]
 
@@ -117,4 +117,4 @@ ht-degree: 24%
 * 更改页面的内容
 * 更改页面的布局
 
->[!VIDEO](https://video.tv.adobe.com/v/30331?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

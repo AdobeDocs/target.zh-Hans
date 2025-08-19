@@ -2,7 +2,7 @@
 keywords: 目录搜索；目录；搜索；排除项；收藏集；过滤器；推荐
 description: 了解如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]查找产品或内容、从目录中删除项目等。
 title: 如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # [!UICONTROL Catalog Search]
 
-[!DNL Adobe Recommendations]中的[!UICONTROL Catalog Search]页面可帮助您在目录中查找产品或内容。 您可以在此页面上执行的最基本任务是搜索项目。 此外，您还可以更改环境、筛选Facet、修改表中的列、添加新搜索Facet等。
+[!UICONTROL Catalog Search]中的[!DNL Adobe Recommendations]页面可帮助您在目录中查找产品或内容。 您可以在此页面上执行的最基本任务是搜索项目。 此外，您还可以更改环境、筛选Facet、修改表中的列、添加新搜索Facet等。
 
 目录指代您的整个产品集（实体）。您的目录可以包含许多收藏集，这是一种在逻辑存储桶中组织产品的方法。
 

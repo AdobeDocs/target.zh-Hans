@@ -28,13 +28,13 @@ ht-degree: 35%
 
 您的 [!DNL Analytics] 和 [!DNL Target] 用户帐户必须已关联到您的 Adobe ID。
 
-有关详细信息，请参阅[组织和帐户关联](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans)。
+有关详细信息，请参阅[组织和帐户关联](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)。
 
 ### 配置 Experience Cloud 组成员资格
 
 您必须是一个或多个拥有 [!DNL Analytics] 和 [!DNL Target] 访问权限的 [!DNL Experience Cloud] 组的成员。
 
-有关详细信息，请参阅[管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hans)。
+有关详细信息，请参阅[管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
@@ -52,7 +52,7 @@ ht-degree: 35%
 
 1. 配置对[!UICONTROL Web Services Access]组的访问权限。
 
-   需要访问[!DNL Analytics]中的[!UICONTROL Web Services Access]组才能使用[!DNL Analytics]作为[!DNL Target]的报告源。
+   需要访问[!UICONTROL Web Services Access]中的[!DNL Analytics]组才能使用[!DNL Analytics]作为[!DNL Target]的报告源。
 
 
 ## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}

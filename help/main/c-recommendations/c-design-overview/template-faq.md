@@ -2,7 +2,7 @@
 keywords: 推荐;常见问题解答;FAQ
 description: 关于 [!DNL Target Recommendations] 设计的常见问题解答(FAQ)及其答案。
 title: 可在何处获得 [!DNL Target Recommendations]的设计问题的答案？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
@@ -30,7 +30,7 @@ ht-degree: 58%
 
   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## 设计中为何没有显示类别？我正在使用`$entity1.categoryId`。{#section_073309B8051049C7953D396A93EA0713}
+## 设计中为何没有显示类别？我正在使用`$entity1.categoryId`。 {#section_073309B8051049C7953D396A93EA0713}
 
 类别 ID 无法在设计中显示。由于可以存储多个类别，因此系统不知道要显示哪个类别。
 
@@ -50,6 +50,6 @@ ht-degree: 58%
 
 以JavaScript不间断空格的形式发送似乎可以做到这一点。 让开发人员发送 `\u00A0` 作为值。示例： `entity.message=\u00A0`。 在没有显示值的情况下，您可以考虑将此设为默认值，而不是为null。
 
-## 能否在 [!DNL Recommendations] 设计中使用配置文件脚本？ {#section_6BD55203984A4D80A0C6F241AD7806DF}
+## 能否在 [!DNL Recommendations] 设计中使用轮廓脚本？ {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
 是. 要在[!DNL Recommendations]设计中使用配置文件脚本，请将该名称包装在`\${...}`中。 例如，如果您的配置文件脚本名为`user.basket`，请在设计中将其引用为`\${user.basket}`。 请注意，反斜线表示配置文件脚本不由Velocity渲染。 因此，不能对Velocity模板中的配置文件脚本执行任何操作。 该值将直接打印在页面上。

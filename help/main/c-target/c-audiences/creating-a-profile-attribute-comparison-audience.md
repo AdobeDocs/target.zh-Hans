@@ -1,5 +1,5 @@
 ---
-keywords: 受众;倾向;配置文件属性;比较;对比;创建受众
+keywords: 受众;倾向;轮廓属性;比较;对比;创建受众
 description: 了解如何定义受众以比较两个配置文件属性。
 title: 我能否比较两个配置文件属性，以便用于受众？
 feature: Audiences
@@ -7,13 +7,13 @@ exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 49%
+ht-degree: 51%
 
 ---
 
-# 创建配置文件属性比较受众
+# 创建轮廓属性比较受众
 
-在[!DNL Adobe Target]中定义受众以比较[受众库](/help/main/c-target/c-audiences/audiences.md)或[仅限该活动的受众](/help/main/c-target/creating-activity-only-audience.md)的两个配置文件属性。 使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同配置文件属性的值。
+在[!DNL Adobe Target]中定义受众以比较[受众库](/help/main/c-target/c-audiences/audiences.md)或[仅限该活动的受众](/help/main/c-target/creating-activity-only-audience.md)的两个配置文件属性。 使用诸如大于、小于或等于的运算符来定义受众，以动态比较两个不同轮廓属性的值。
 
 >[!NOTE]
 >
@@ -30,9 +30,9 @@ ht-degree: 49%
 
 您可以创建一个受众，将其定义为购买餐厅家具的倾向大于购买客厅家具的倾向。然后，[!DNL Target]将动态比较特定访客的餐厅和起居室的倾向分数，以确定该访客是否符合该受众的条件。
 
-有关详细信息，请参阅将数据导入Target的[方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}。
+有关更多信息，请参阅[将数据导入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
-## 创建配置文件属性比较受众 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
+## 创建轮廓属性比较受众 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. 单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
 1. 命名受众并添加可选描述。
@@ -65,4 +65,4 @@ ht-degree: 49%
 
 请观看以下视频，了解更多信息以及可使用此功能的情景：
 
->[!VIDEO](https://video.tv.adobe.com/v/328065?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)

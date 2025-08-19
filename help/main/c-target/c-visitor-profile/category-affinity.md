@@ -17,7 +17,7 @@ ht-degree: 56%
 
 ## 正在将类别亲和度信息传递到[!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-不论用户何时访问您的网站，都会将特定于访客的配置文件参数记录到 [!DNL Target] 数据库中。该数据将与用户的 Cookie 绑定。一个有用的参数是`user.categoryId`，它是在产品页面上分配的mbox参数。 访客持续浏览时，或离开后返回进行另一个会话时，都可以记录特定用户查看的产品类别。您还可以将类别信息作为任何mbox（包括嵌套mbox）中的mbox参数`user.categoryId`或作为URL参数`user.categoryId`进行传递，或者通过全局mbox在[!DNL Target]页面参数中进行传递，从而记录类别信息。 有关更多详细信息，请咨询您的帐户代表。
+不论用户何时访问您的网站，都会将特定于访客的轮廓参数记录到 [!DNL Target] 数据库中。该数据将与用户的 Cookie 绑定。一个有用的参数是`user.categoryId`，它是在产品页面上分配的mbox参数。 访客持续浏览时，或离开后返回进行另一个会话时，都可以记录特定用户查看的产品类别。您还可以将类别信息作为任何mbox（包括嵌套mbox）中的mbox参数`user.categoryId`或作为URL参数`user.categoryId`进行传递，或者通过全局mbox在[!DNL Target]页面参数中进行传递，从而记录类别信息。 有关更多详细信息，请咨询您的帐户代表。
 
 要将一个项目包含在多个类别中，请使用逗号分隔类别。例如：
 
@@ -25,11 +25,11 @@ ht-degree: 56%
 
 根据对您的产品类别进行访问的频率和近期情况，会记录用户所具有的类别亲和度（如果有）。类别亲和度可用于为活动定位访客群体。
 
-您可以在配置文件脚本中使用`user.categoryAffinities[]`以返回访客填充的一组喜好。 有关详细信息，请参阅配置文件属性[&#128279;](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects)中的对象和方法下的user.categoryAffinities。
+您可以在配置文件脚本中使用`user.categoryAffinities[]`以返回访客填充的一组喜好。 有关详细信息，请参阅配置文件属性[中的对象和方法下的](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects)user.categoryAffinities。
 
 >[!IMPORTANT]
 >
->用于类别亲和度算法的`user.categoryId`属性不同于用于[!DNL Adobe Target Recommendations]”产品和内容推荐的`entity.categoryId`属性。 要跟踪用户喜爱的类别，需要使用 `user.categoryId`。要根据当前页面或当前项目所属的类别进行推荐，需要使用 `entity.categoryId`。如果要同时使用这两项功能，请将这两个值都传递给[!DNL Target]。
+>用于类别亲和度算法的`user.categoryId`属性不同于用于`entity.categoryId`”产品和内容推荐的[!DNL Adobe Target Recommendations]属性。 要跟踪用户喜爱的类别，需要使用 `user.categoryId`。要根据当前页面或当前项目所属的类别进行推荐，需要使用 `entity.categoryId`。如果要同时使用这两项功能，请将这两个值都传递给[!DNL Target]。
 
 ## 类别亲和度的商业案例 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -114,7 +114,7 @@ ht-degree: 56%
 1. 单击&#x200B;**[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**。
 1. 从&#x200B;**[!UICONTROL Visitor Profile]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Category Affinity]**。
 
-   ![“访客配置文件”>“类别亲和度”](assets/affinity.png)
+   ![“访客轮廓”>“类别亲和度”](assets/affinity.png)
 
 1. 选择所需类别：
 

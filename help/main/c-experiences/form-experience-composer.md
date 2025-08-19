@@ -1,6 +1,6 @@
 ---
 keywords: 基于表单的体验编辑器;基于表单的编辑器;细化
-description: 了解如何使用基于Adobe [!DNL Target] 表单的体验编辑器创建非可视化体验。 当VEC不可用或不实用时，使用此编辑器。
+description: 了解如何使用Adobe [!DNL Target] 基于表单的体验编辑器创建非可视化体验。 当VEC不可用或不实用时，使用此编辑器。
 title: 如何使用基于表单的体验编辑器？
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
@@ -13,7 +13,7 @@ ht-degree: 33%
 
 # 基于表单的体验编辑器
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非可视化体验和选件创建界面，当[!UICONTROL Visual Experience Composer] (VEC)不可用或不实用时，它有助于创建在[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]和[!UICONTROL Recommendations]活动中使用的体验。 例如，您可以使用基于表单的体验编辑器创建在电子邮件、网亭和语音助手中交付的体验和选件。
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非可视化体验和选件创建界面，当[!UICONTROL A/B Test] (VEC)不可用或不实用时，它有助于创建在[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer]活动中使用的体验。 例如，您可以使用基于表单的体验编辑器创建在电子邮件、网亭和语音助手中交付的体验和选件。
 
 如果您正在创建[!UICONTROL Recommendations]活动，则没有体验。 需选择您的标准和设计。如果选择多个标准或设计，[!UICONTROL Target]将自动生成体验。
 
@@ -21,7 +21,7 @@ ht-degree: 33%
 
    [!UICONTROL Form-Based Experience Composer]可用于[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization]和[!UICONTROL Recommendations]活动。
 
-1. 从[!UICONTROL Create Activity]对话框中选择&#x200B;**[!UICONTROL Form]**。
+1. 从&#x200B;**[!UICONTROL Form]**&#x200B;对话框中选择[!UICONTROL Create Activity]。
 
 1. （视情况而定）如果您是[Target Premium客户](/help/main/c-intro/intro.md#premium)，请从&#x200B;**[!UICONTROL Choose Workspace]**&#x200B;下拉列表中选择一个[工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
@@ -35,7 +35,7 @@ ht-degree: 33%
 
    如果您正在创建[!UICONTROL Recommendations]活动，则此屏幕不同。 [!UICONTROL Recommendations]活动不包含体验。
 
-1. &#x200B;
+1. 
    1. 单击&#x200B;**[!UICONTROL Rename]**&#x200B;图标（![重命名图标](/help/main/assets/icons/MoreSmallListVert.svg)），单击&#x200B;**[!UICONTROL Rename]**，指定活动的名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
    活动名称不能以下列任何字符开头：
@@ -116,15 +116,15 @@ ht-degree: 33%
 
    **添加推荐：**
 
-   对于Recommendations活动，“内容”下拉列表提供了[!UICONTROL Add Recommendation]选项。 单击&#x200B;**[!UICONTROL Add Recommendation]**，然后选择页面类型。 接下来，按照界面中定义的常规步骤[创建“推荐”活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+   对于“推荐”活动，“内容”下拉列表提供了[!UICONTROL Add Recommendation]选项。 单击&#x200B;**[!UICONTROL Add Recommendation]**，然后选择页面类型。 接下来，按照界面中定义的常规步骤[创建“推荐”活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 
    在基于表单的体验编辑器中选择推荐标准时，现在有一个指向所选标准卡片的直接链接，以便您快速方便地对标准进行编辑。
 
-   从[!DNL Target]三步引导式工作流的[!UICONTROL Targeting]页面：
+   从[!UICONTROL Targeting]三步引导式工作流的[!DNL Target]页面：
 
    **添加优惠决策：**
 
-   将在[!DNL Adobe Journey Optimizer] (AJO)中创建的优惠添加到[!DNL Adobe Target]活动，以使用offer decisioning向网站或移动网站上的访客展示最佳的动态优惠和体验。 此选项仅适用于手动[!UICONTROL A/B Test]和[!UICONTROL Experience Targeting] (XT)活动。
+   将在[!DNL Adobe Journey Optimizer] (AJO)中创建的选件添加到[!DNL Adobe Target]活动，以使用offer decisioning在您的网站或移动网站上向访客展示最佳的动态选件和体验。 此选项仅适用于手动[!UICONTROL A/B Test]和[!UICONTROL Experience Targeting] (XT)活动。
 
    有关详细信息，请参阅[使用优惠决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)。
 

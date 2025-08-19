@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # 管理[!DNL Target]概述
 
-此信息可帮助您管理[!DNL Adobe Target]，包括可视体验编辑器(VEC)、报表、Scene7配置、实现、主机、环境、响应令牌和用户的配置设置。
+此信息可帮助您管理[!DNL Adobe Target]，包括可视化体验编辑器(VEC)、报表、Scene7配置、实现、主机、环境、响应令牌和用户的配置设置。
 
 要访问[!UICONTROL Administration]菜单项，请单击顶部菜单栏中的&#x200B;**[!UICONTROL Administration]**，然后单击左侧的所需选项卡：
 

@@ -1,13 +1,13 @@
 ---
-keywords: 时间范围;开始日期;结束日期;开始/结束日期;定位时间计划;星期分开;日期分开;分开
+keywords: 时间范围;开始日期;结束日期;开始/结束日期;锁定时间计划;星期分开;日期分开;分开
 description: 了解如何使用开始和结束日期及时间来定位在特定时间段内访问您网站的用户。
 title: 我能否定位在特定时间访问我的网站的访客？
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 35%
+source-wordcount: '431'
+ht-degree: 25%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 35%
    >
    >请考虑以下事项：
    >
-   >* 开始/结束日期的时区显示为 GMT +/- NN:NN，其中 NN:NN 是与 GMT 的时间差，它反映的是帐户级别的时区，而不是访客所在时区。例如，加利福尼亚的时区会显示为 GMT -08:00。
+   >* 开始/结束日期的时区显示为GMT +/- NN:NN，其中NN:NN是与GMT的时间差，它反映的是帐户级别时区，而不是访客所在时区。 例如，加利福尼亚的时区将显示为GMT -08:00。
    >
    >* [!DNL Target]时间受众未考虑夏令时(DST)更改。 您必须手动重新保存受众以考虑DST更改。
 
@@ -47,7 +47,7 @@ ht-degree: 35%
 
    >[!NOTE]
    >
-   >[!UICONTROL Week and Day Parting]的时区显示为GMT +/- NN：NN，其中NN：NN是与GMT的时间差，它反映的是帐户级别时区，而不是访客所在时区。 例如，加利福尼亚的太平洋夏令时时时区会显示为GMT -07:00。
+   >[!UICONTROL Week and Day Parting]的时区显示为GMT +/- NN:NN，其中NN:NN是与GMT的时间差，它反映的是帐户级别时区，而不是访客所在时区。 例如，加利福尼亚的太平洋夏令时时时区将显示为GMT -07:00。
 
 1. （可选）为受众设置其他规则。
 

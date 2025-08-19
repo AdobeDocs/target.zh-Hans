@@ -2,7 +2,7 @@
 keywords: 推荐;产品建议
 description: 了解如何在 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中使用产品建议形式的 Adobe 推荐。
 title: 如何在其他活动类型中使用产品建议形式的推荐？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
@@ -23,7 +23,7 @@ ht-degree: 60%
 * 使用[!UICONTROL Auto-Allocate]自动将流量推送到性能最佳的推荐体验。
 * 使用[!UICONTROL Auto-Target]根据访客的配置文件动态地为他们分配量身定制的推荐体验。
 
-若要开始，请使用[!UICONTROL Visual Experience Composer]创建一个[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活动，然后使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]操作向体验添加推荐。
+若要开始，请使用[!UICONTROL A/B Test]创建一个[!UICONTROL Experience Targeting]或[!UICONTROL Visual Experience Composer]活动，然后使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]操作向体验添加推荐。
 
 ## 在 A/B 测试或 XT 活动中将推荐作为产品建议添加
 
@@ -111,7 +111,7 @@ ht-degree: 60%
 
 ### 查看推荐选件的状态 {#status}
 
-推荐选件（算法）的状态将显示在包含Recommendations选件的A/B测试和XT活动的[!UICONTROL Overview]页面底部：
+推荐选件（算法）的状态将显示在包含推荐选件的A/B测试和XT活动的[!UICONTROL Overview]页面底部：
 
 * 结果已准备就绪
 * 结果未准备就绪

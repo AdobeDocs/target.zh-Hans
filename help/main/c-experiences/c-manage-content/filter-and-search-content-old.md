@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # 搜索和筛选内容
 
-在[!DNL Adobe Target]的[!UICONTROL Offers]库中按关键字搜索资源。
+在[!UICONTROL Offers]的[!DNL Adobe Target]库中按关键字搜索资源。
 
 ## 按关键字搜索代码选件
 
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 1. 单击&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**。
 
-1. （可选）在[!UICONTROL Card View]和[!UICONTROL List View]之间切换，单击内容库右上角的[!UICONTROL Card View]图标或[!UICONTROL List View]图标。 您还可以在查看[!UICONTROL List View]时使用[!UICONTROL View Settings]进一步配置列。
+1. （可选）在[!UICONTROL Card View]和[!UICONTROL List View]之间切换，单击内容库右上角的[!UICONTROL Card View]图标或[!UICONTROL List View]图标。 您还可以在查看[!UICONTROL View Settings]时使用[!UICONTROL List View]进一步配置列。
 
    下图显示了查看[!UICONTROL List View]时可用的选项：
 

@@ -17,7 +17,7 @@ ht-degree: 28%
 
 有关体验的更多详细信息，请参阅[体验](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)。
 
-1. 在VEC的&#x200B;**[!UICONTROL Experiences]**&#x200B;页面中，单击[!UICONTROL Experiences]窗格顶部的[!UICONTROL Add]图标（![添加图标](/help/main/assets/icons/Add.svg)）。
+1. 在VEC的&#x200B;**[!UICONTROL Experiences]**&#x200B;页面中，单击[!UICONTROL Add]窗格顶部的![图标（](/help/main/assets/icons/Add.svg)添加图标[!UICONTROL Experiences]）。
 
    创建新活动后，VEC在左侧显示两个选项卡：体验A和体验B。体验A是控制体验。 您可以向测试添加多个体验。
 
@@ -25,7 +25,7 @@ ht-degree: 28%
 
    将鼠标悬停在页面上的元素上时，这些元素会高亮显示。 任何高亮显示的元素都可以使用VEC进行更改。
 
-   如果您使用[!DNL Target Classic]（以前为[!DNL Test&Target]）在页面上创建了[!DNL Target]请求，则[!DNL Target]请求将显示为一个元素，该元素显示请求名称，并且可以像任何其他元素一样进行修改。
+   如果您使用[!DNL Target]（以前为[!DNL Target Classic]）在页面上创建了[!DNL Test&Target]请求，则[!DNL Target]请求将显示为一个元素，该元素显示请求名称，并且可以像任何其他元素一样进行修改。
 
    有关可对显示页面上的元素执行以更改体验的操作列表，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 

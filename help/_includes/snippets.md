@@ -17,7 +17,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->具有[!UICONTROL Product Administrator]和[!UICONTROL System Administrator]权限的[!DNL Target]用户可以在[!UICONTROL Administration]页面上编辑所有设置，无论他们在[!DNL Target]中的角色如何。 没有这些权限的用户对这些设置具有只读访问权限。
+>具有[!DNL Target]和[!UICONTROL Product Administrator]权限的[!UICONTROL System Administrator]用户可以在[!UICONTROL Administration]页面上编辑所有设置，无论他们在[!DNL Target]中的角色如何。 没有这些权限的用户对这些设置具有只读访问权限。
 
 ## 更新了Target UI {#updated-ui}
 
@@ -27,7 +27,7 @@ ht-degree: 10%
 >
 >* [[!DNL Target Standard/Premium] 25.2.1（2025年2月17日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!DNL Target]中[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)的关键UI更改的摘要。
 >
->* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!UICONTROL Offers Library]在[!DNL Target]中关键UI更改的摘要。
+>* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!DNL Target]在[!UICONTROL Offers Library]中关键UI更改的摘要。
 >
 >* [了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供简要概述以帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
 >

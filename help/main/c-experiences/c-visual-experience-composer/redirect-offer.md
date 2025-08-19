@@ -1,6 +1,6 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: 了解当您希望将访客发送到其他Adobe而不是在同一页上显示内容时，如何使用 [!DNL Target] 中的“重定向到URL”选项。
+description: 了解当您想要将访客发送到其他页面而不是在同一页面上显示内容时，如何使用Adobe [!DNL Target] 中的“重定向到URL”选项。
 title: 能否将页面重定向到其他URL？
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
@@ -13,7 +13,7 @@ ht-degree: 66%
 
 # 重定向到 URL
 
-如果要将访客发送到其他页面而不是在同一页面上显示内容，请在[!DNL Adobe Target]中使用[!UICONTROL Redirect to URL]选项。
+如果要将访客发送到其他页面而不是在同一页面上显示内容，请在[!UICONTROL Redirect to URL]中使用[!DNL Adobe Target]选项。
 
 您可能有两个完全不同的页面来进行测试，而非只更改页面中的部分内容。在本例中，您的A/B测试要比较页面A与页面B。为此，需设置一个包含两个体验的A/B测试营销活动：一个体验指向默认页面A，另一个体验重定向到页面B。在“体验操作”菜单中（可通过单击体验的字母标签找到），选择&#x200B;**[!UICONTROL Redirect to URL]**&#x200B;并指定页面B的URL。该选件会配置为将访客重定向到其他页面。
 

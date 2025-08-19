@@ -7,7 +7,7 @@ exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: f5fa1d5c1747ed4c1e5e3d35f3c01f49f3f255c3
 workflow-type: tm+mt
 source-wordcount: '2724'
-ht-degree: 37%
+ht-degree: 50%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 37%
 **[!DNL Target]支持哪些浏览器？**
 
 +++查看详细信息
-有关更多详细信息，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hans){target=_blank}矩阵。 请注意，支持的界面有两方面：[!DNL Target Standard/Premium]以及桌面/设备上的最终用户浏览器支持。
+有关更多详情，请阅读我们的[支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}矩阵图。请注意，支持的界面有两方面：[!DNL Target Standard/Premium]以及桌面/设备上的最终用户浏览器支持。
 
 +++
 
@@ -64,14 +64,14 @@ ht-degree: 37%
 **我是否可以执行一种严格且具有统计意义的活动，在使用控制体验的同时找到入选和落选的体验？**
 
 +++查看详细信息
-使用[A/B测试](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)（手动定位选项）以及[样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5)以获得最佳结果。
+使用 [A/B 测试](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)（“手动定位”选项）以及[样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5)以获得最佳结果。
 
 +++
 
 **我如何知道应在何时停止活动？**
 
 +++查看详细信息
-过早停止活动可能会导致错误的结论。 了解[常见隐患以及如何避免它们](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F)。 另请参阅 [A/B 测试应该持续多长时间](/help/main/c-activities/t-test-ab/sample-size-determination.md)？
+过早停止活动可能会导致错误的结论。了解[常见隐患以及如何避免它们](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F)。 另请参阅 [A/B 测试应该持续多长时间](/help/main/c-activities/t-test-ab/sample-size-determination.md)？
 
 +++
 
@@ -101,7 +101,7 @@ ht-degree: 37%
 **我如何才能发现页面上的哪些元素组合对页面的成功有帮助？每个元素可以提供多大的帮助？**
 
 +++查看详细信息
-在元素贡献分析中试试我们的[全因子多变量(MVT)活动](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)，看看它是否符合您的需求。
+在元素归因分析中试试我们的[全因子多变量 (MVT) 活动](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)，看看它是否符合您的需求。
 
 请注意，流量需求会随着 MVT 活动而增加。
 
@@ -117,7 +117,7 @@ ht-degree: 37%
 **我如何确保一旦实现目标（主要或次要）后，用户不会再次进入该活动，而是会看到不同的活动？**
 
 +++查看详细信息
-通过使用每个目标都可用的[高级设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974)选项，可轻松实现此目标。 您可以决定用户实现目标后的情况，以及您希望如何增加计数。
+通过使用每个目标都提供的[高级设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974)选项可轻松实现此目的。您可以决定用户实现目标后的情况，以及您希望如何增加计数。
 
 而在这种情况下，您可以选择“递增计数、释放用户并阻止再次进入”以及“默认/其他活动内容”以实现该目标。您也可以了解一下其他选项。
 
@@ -133,7 +133,7 @@ ht-degree: 37%
 **我要如何设立一个活动来实现我的目标？**
 
 +++查看详细信息
-这是[目标](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)的来源。
+实现[目标](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)的步骤如下。
 
 首先应了解您想要在哪个方面进行优化。是[!UICONTROL Revenue]、[!UICONTROL Conversion]还是[!UICONTROL Engagement]？ 您可以在目标区域中找到这些选项。对于每个选项，您可以进一步定义当用户在您的网站上执行何种操作时，即表示您的目标已实现。
 
@@ -167,14 +167,14 @@ ht-degree: 37%
 **如何预览和 QA 我刚刚创建的活动？**
 
 +++查看详细信息
-使用我们的[强大的QA模式功能](/help/main/c-activities/c-activity-qa/activity-qa.md)执行QA。 您可以与您的 QA 团队分享链接，还可以对包括报表在内的端到端活动进行测试，以充分确保活动开始后，会按照预期和经过测试的方式运行。
+使用我们的[强大的 QA 模式功能](/help/main/c-activities/c-activity-qa/activity-qa.md)来执行 QA。您可以与您的 QA 团队分享链接，还可以对包括报表在内的端到端活动进行测试，以充分确保活动开始后，会按照预期和经过测试的方式运行。
 
 +++
 
 **如何使用[!DNL Target]的决策功能接收可用于单页应用程序(SPA)或服务器端集成的体验/选件？**
 
 +++查看详细信息
-使用包含[JSON选件](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)的[基于表单的活动](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)的强大功能来实现您的目标。
+使用包含 [JSON 产品建议](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)的[基于表单的活动](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)的强大功能来实现您的目标。
 
 +++
 
@@ -195,28 +195,28 @@ ht-degree: 37%
 **我是否可以在活动中创建特定于该活动的受众区段？我不认为应在[!UICONTROL Audience Library]中创建此类受众，因为没有可以重复使用的因素。**
 
 +++查看详细信息
-开始使用我们的[仅限该活动的受众功能](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)来定义该活动的本地受众。
+改用我们的[仅限该活动的受众功能](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)来定义活动的本地受众。
 
 +++
 
 **我如何根据用户的位置来进行锁定？**
 
 +++查看详细信息
-尝试使用[地理位置受众](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)。 阅读有关此功能的准确度级别信息。
+尝试使用[地理位置受众](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)。阅读有关此功能的准确度级别信息。
 
 +++
 
 **我是否可以根据会话页面上的某些属性来锁定用户？**
 
 +++查看详细信息
-最佳方式是使用mbox和[自定义受众](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B)来提供合适的体验。
+最佳方式是使用 mbox 和[自定义受众](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B)来提供合适的体验。
 
 +++
 
 **我是否可以根据跨多个访问的访客属性提供体验？ 我可以随机将流量拆分为两个存储桶吗？**
 
 +++查看详细信息
-尝试[配置文件脚本功能](/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)。 它是使体验个性化的一种有效方式；但是，它要求您编写代码。
+尝试使用[轮廓脚本功能](/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)。它是使体验个性化的一种有效方式；但是，它要求您编写代码。
 
 +++
 
@@ -230,10 +230,10 @@ ht-degree: 37%
 **我也有[!DNL Adobe Analytics]并希望将其与[!DNL Target]一起使用。 将这两种解决方案集成之后，我可以获得哪些关键功能？**
 
 +++ 查看详细信息
-请查看产品的以下方面：
+请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -243,7 +243,7 @@ ht-degree: 37%
 **我是否可以在页面结构相同的情况下跨多个页面运行活动？**
 
 +++查看详细信息
-查看[模板规则](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)以将许多结构类似的页面包含到活动中，同时仍在提供的单个URL上创建体验。
+使用[模板规则](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)，将许多结构类似的页面包含到活动中，同时仍通过提供的单个 URL 创建体验。
 
 +++
 
@@ -266,7 +266,7 @@ ht-degree: 37%
 **为什么我的网站没有在[!UICONTROL Visual Experience Composer] (VEC)中加载？**
 
 +++查看详细信息
-尝试使用我们的帮助页面中列出的[故障排除信息](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)。 如果这些方法都不起作用，请联系 [Adobe 支持](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
+尝试使用我们的帮助页面中列出的[故障诊断信息](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)。如果这些方法都不起作用，请联系 [Adobe 支持](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)。
 
 此外，我们还提供了[基于表单的方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)，这些方法可以帮助您。
 
@@ -277,7 +277,7 @@ ht-degree: 37%
 **我有一个响应网站。在创建活动时，如何确定要使用的关键设备？**
 
 +++查看详细信息
-请尝试[移动设备视区](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)功能。 请注意，它仅在启用[!UICONTROL Enhanced Experience Composer]时才有效。
+尝试使用[移动设备视区](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)功能。请注意，它仅在启用[!UICONTROL Enhanced Experience Composer]时才有效。
 
 +++
 
@@ -291,21 +291,21 @@ ht-degree: 37%
 **为何我看不到交换图像的选项？**
 
 +++查看详细信息
-联系Adobe以[确保已为Scene7](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5)设置您的帐户。 配置完毕后，您将可以轻松地将图像与其他图像进行交换。
+联系 Adobe 以[确保已为 Scene7 设置您的帐户](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5)。配置完毕后，您将可以轻松地将图像与其他图像进行交换。
 
 +++
 
 **我想在两个不同的体验之间进行测试，例如现金折扣与百分比折扣，但我希望能够正确锁定体验（针对来自不同国家/地区的人员显示不同的区域设置文本或不同货币）。我该如何处理？**
 
 +++查看详细信息
-您可以使用我们的[多个体验版本功能](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF)轻松实现此目标。 请注意此类测试中有关交付的细微差别。
+您可以使用我们的[多个体验版本功能](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF)轻松实现此目的。请注意此类测试中有关交付的细微差别。
 
 +++
 
 **如何查看我在[!UICONTROL Visual Experience Composer] (VEC)中所做的修改？**
 
 +++查看详细信息
-我们将始终在[代码编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)中显示您所做的更改。 [!UICONTROL Modifications]选项卡显示应用于选件的CSS选择器或mbox。
+[代码编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)中会始终显示您所做的更改。[!UICONTROL Modifications]选项卡显示应用于选件的CSS选择器或mbox。
 
 请注意，CSS 选择器是一个 Sizzle 选择器。您可以使用此部分进行细微的修改或快速删除某些选件。
 
@@ -314,7 +314,7 @@ ht-degree: 37%
 **我希望将 JavaScript 作为实验/活动的一部分进行传递，以便实时对某些动态元素进行修改，或者只需将调用发送到第三方解决方案。我该如何处理？**
 
 +++查看详细信息
-一种方法是使用[自定义代码编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)。 使用此方法在该区域输入您的 JavaScript，然后它将会得到交付。根据您的需要，您可以选择将其交付到标头或主体的顶部。
+其中一种方法是使用[自定义代码编辑器](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)。使用此方法在该区域输入您的 JavaScript，然后它将会得到交付。根据您的需要，您可以选择将其交付到标头或主体的顶部。
 
 +++
 
@@ -330,14 +330,14 @@ ht-degree: 37%
 **我是前[!DNL Target Classic]用户。 我是否可以在某些用例中使用我的 mbox？**
 
 +++查看详细信息
-使用[基于表单的方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)创建活动。
+使用[基于表单的方法](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)来创建活动。
 
 +++
 
 **为何我没有看到我想要看到的产品建议/体验，反而看到了一些其他的活动？**
 
 +++查看详细信息
-使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)并检查[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
+使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
 
 +++
 
@@ -347,28 +347,28 @@ ht-degree: 37%
 
 
 +++查看详细信息
-我们具有[重定向URL功能](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)，可让您将用户重定向到所选页面（包含或不包含当前查询参数）。
+我们提供了[重定向 URL 功能](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)，可让您将用户重定向到所选页面（包含或不包含当前查询参数）。
 
 +++
 
 **为什么 QA 过程中未进行内容交付？**
 
 +++查看详细信息
-您的网站可能会在元素上具有动态ID、重复ID或动态类。 您可能必须在帐户级别（或者在活动级别，如果问题特定于域或页面）评估网站首选项的选项。请参阅 [CSS 选择器](/help/main/administrating-target/visual-experience-composer-set-up.md#css)。
+您的网站可能拥有动态 ID、重复 ID 或元素上的动态类。您可能必须在帐户级别（或者在活动级别，如果问题特定于域或页面）评估网站首选项的选项。请参阅 [CSS 选择器](/help/main/administrating-target/visual-experience-composer-set-up.md#css)。
 
 +++
 
 **为何我没有看到我想要看到的产品建议/体验，反而看到了一些其他的活动？**
 
 +++查看详细信息
-使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)并检查[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
+使用我们的[调试器](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA)并检查是否存在[活动冲突](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)。
 
 +++
 
 **我能否使用[!UICONTROL Target]的决策功能接收可用于单页应用程序(SPA)或服务器端集成的体验/选件？**
 
 +++查看详细信息
-使用包含[JSON选件](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)的[基于表单的活动](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)的强大功能来实现您的目标。
+使用包含 [JSON 产品建议](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)的[基于表单的活动](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)的强大功能来实现您的目标。
 
 +++
 
@@ -377,10 +377,10 @@ ht-degree: 37%
 **我也有[!DNL Adobe Analytics]并希望将其与[!DNL Target]一起使用。 将这两种解决方案集成之后，我可以获得哪些关键功能？**
 
 +++查看详细信息
-请查看产品的以下方面：
+请了解一下产品的以下几个方面：
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=zh-Hans)
+* [客户属性](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [受众](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -399,7 +399,7 @@ ht-degree: 37%
 **我无法在运行活动之前定义受众。我发现[!DNL Target]活动中报表受众的这一方面很具限制性。 怎样才可以让这个过程更轻松一点？**
 
 +++查看详细信息
-这是[Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)方便的地方。 如果您有[!DNL Adobe Analytics]，只需将源选择为[!DNL Analytics]即可，这将消除此限制。 现在，您可以在任何时间对任何受众进行分析，而无需预先定义报表受众。
+这就涉及 [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 的方便之处。如果您有[!DNL Adobe Analytics]，只需将源选择为[!DNL Analytics]即可，这将消除此限制。 现在，您可以在任何时间对任何受众进行分析，而无需预先定义报表受众。
 
 +++
 
@@ -413,14 +413,14 @@ ht-degree: 37%
 **我可以更改用于评估报表的控制体验，或将计数方法从[!UICONTROL Visitors]更改为[!UICONTROL Visits]吗？**
 
 +++查看详细信息
-使用报表页面[上的](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)设置齿轮可进行这些更改。 阅读更多有关这些设置的信息，了解计算结果的差异。
+使用](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮[可进行这些更改。阅读更多有关这些设置的信息，了解计算结果的差异。
 
 +++
 
 **我应如何解读报表？**
 
 +++查看详细信息
-[!DNL Target]团队尝试通过以下功能制作尽可能直观的报表：[置信区间栏、提升度范围、显着性/置信度和多个量度选项、表和图形视图、运行平均值等等](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)，以便进行有效且简便的报表分析。 如果您使用[!DNL Analytics]Analytics for Target (A4T) [活动对受众进行进一步分析，则可以查看](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)。
+[!DNL Target]团队尝试通过以下功能制作尽可能直观的报表：[置信区间栏、提升度范围、显着性/置信度和多个量度选项、表和图形视图、运行平均值等等](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)，以便进行有效且简便的报表分析。 如果您使用[!DNL Analytics]Analytics for Target (A4T)[活动对受众进行进一步分析，则可以查看](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)。
 
 +++
 
@@ -445,7 +445,7 @@ ht-degree: 37%
 **你们是否提供故障诊断指南？**
 
 +++查看详细信息
-我们很遗憾听到您遇到问题。 查看[Target疑难解答](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)以获取许多疑难解答主题的链接。
+很抱歉您遇到了问题。查看[Target疑难解答](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)以获取许多疑难解答主题的链接。
 
 +++
 
@@ -454,6 +454,6 @@ ht-degree: 37%
 **我可以在何处了解有关[!DNL Target] API的更多信息？**
 
 +++查看详细信息
-我们提供了有关API的详尽文档。 请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}。
+我们提供了关于 API 的详尽文档。请参阅[交付 API、NodeJS SDK 和推荐 API 文档](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。
 
 +++

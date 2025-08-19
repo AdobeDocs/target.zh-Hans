@@ -1,13 +1,13 @@
 ---
 keywords: 受众;选择受众;选取受众;选择器
-description: 受众确定哪些网站访客进入了Adobe [!DNL Target] 活动。
+description: 受众可确定哪些网站访客进入了Adobe [!DNL Target] 活动。
 title: 如何在 [!DNL Target] A/B活动中选择受众？
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 66%
+ht-degree: 64%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 66%
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 在 Adobe Target 中使用受众（6 分 21 秒）![概述徽章](/help/main/assets/overview.png)
+### 在Adobe Target (6:21) ![概述徽章](/help/main/assets/overview.png)中使用受众
 
 以下视频介绍了如何在 [!DNL Target Standard/Premium] 中使用受众。
 
@@ -68,7 +68,7 @@ ht-degree: 66%
 * 将活动定位到受众
 * 在活动中使用受众进行被动报告
 
->[!VIDEO](https://video.tv.adobe.com/v/30336?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
 ### 活动工作流 — 定位(2:14) ![教程徽章](/help/main/assets/tutorial.png)
 

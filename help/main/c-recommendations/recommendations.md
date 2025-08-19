@@ -2,7 +2,7 @@
 keywords: 推荐;推荐标准;推荐算法;推荐活动;标准;推荐定向;推荐
 description: 了解 Adobe [!DNL Target] 中的“推荐”活动，这些活动根据以前的用户活动或其他算法自动显示可能让客户感兴趣的内容。
 title: ' [!DNL Target] 推荐是什么？'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -20,7 +20,7 @@ ht-degree: 97%
 >
 >[!DNL Recommendations] 活动作为 [Target Premium 解决方案](/help/main/c-intro/intro.md#premium)的一部分提供。如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
 >
->如果您目前拥有 [!DNL Recommendations Classic]，则请参阅 [Recommendations Classic 与 Target Premium 中的“推荐”活动](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5)以了解有关这两种解决方案的更多信息。
+>如果您目前拥有 [!DNL Recommendations Classic]，则请参阅 [经典版推荐与 Target Premium 中的“推荐”活动](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5)以了解有关这两种解决方案的更多信息。
 
 [!DNL Recommendations] 可帮助您在各种渠道、应用程序、页面、电子邮件消息以及其他交付选项中优化并自定义实时建议，从而提高参与度和转化，同时简化管理工作。
 
@@ -59,21 +59,21 @@ ht-degree: 97%
 | 标准 | 标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。<br>标准的一些示例包括： <ul><li>购买了这个项目，也购买了那个项目的人</li><li>查看了这个项目，也查看了那个项目的人</li><li>具有相似属性的项目</li><li>上次购买的项目</li><li>最喜爱类别</li></ul>  有关更多信息，请参阅[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)。 |
 | 设计 | 设计定义 [!DNL Recommendations] 活动中各个推荐的外观，如行、列、表或网格。本文顶部的插图展示一个 4 x 1 的设计。有关详细信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md)。 |
 | 位置 | 位置指代网页、移动应用程序或电子邮件上的某个特定内容区域，您从中运行作个性化和优化用途的活动。 |
-| 受众 | 受众是各组类似的活动参与者，他们将看到一项有针对性的活动。受众是具有相同特征的人群，例如都是新访客、回访访客或来自中西部的回访访客。通过使用“受众”功能，您可以将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。有关更多信息，请参阅[受众](/help/main/c-target/target.md)。 |
-| “推荐”作为选件 | 这是一项功能，通过该功能，可在 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中包括推荐。有关更多信息，请参阅[将推荐作为选件](/help/main/c-recommendations/recommendations-as-an-offer.md)。 |
+| 受众 | 受众是各组类似的活动参与者，他们将看到一项有针对性的活动。受众是具有相同特征的人群，例如都是新访客、回访访客或来自中西部的回访访客。通过使用“受众”功能，您可以将不同的内容和体验锁定到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。有关更多信息，请参阅[受众](/help/main/c-target/target.md)。 |
+| “推荐”作为产品建议 | 这是一项功能，通过该功能，可在 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中包括推荐。有关更多信息，请参阅[将推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)。 |
 
 ## 培训视频：活动类型![概述徽章](/help/main/assets/overview.png)
 
-以下视频介绍了 [!DNL Target Standard/Premium] 中可用的活动类型。对 [!DNL Recommendations] 的讨论开始于 7:20。
+以下视频介绍了 [!DNL Target Standard/Premium] 中可用的活动类型。从7[!DNL Recommendations]开始讨论:20。
 
 * 介绍 [!DNL Adobe Target] 中包含的活动类型
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target基础知识网络研讨会： Recommendations简介![教程徽章](/help/main/assets/tutorial.png) {#intro-to-recs}
+## Adobe Target基础知识网络研讨会：“推荐”简介![教程徽章](/help/main/assets/tutorial.png) {#intro-to-recs}
 
-**““推荐”简介”网络研讨会包括对如何利用 [!DNL Adobe Target Recommendations] 价值的深入探讨。了解此 [!DNL Target] 活动如何通过基于先前的访问优化实时建议来自动显示客户可能感兴趣的产品或内容。此外，深入了解 [!DNL Target] UI，获取有关如何构建 [!DNL Recommendations] 活动的分步概述。
+**“推荐简介”网络研讨会包括对如何利用 [!DNL Adobe Target Recommendations] 价值的深入探讨。了解此 [!DNL Target] 活动如何通过基于先前的访问优化实时建议来自动显示客户可能感兴趣的产品或内容。此外，深入了解 [!DNL Target] UI，获取有关如何构建 [!DNL Recommendations] 活动的分步概述。
 
-[“推荐”简介](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[推荐简介](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

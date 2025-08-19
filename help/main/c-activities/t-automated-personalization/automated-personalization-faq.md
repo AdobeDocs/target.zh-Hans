@@ -1,20 +1,20 @@
 ---
 keywords: 故障诊断；常见问题解答；FAQ；自动个性化；控制；默认体验；最佳实践
-description: 浏览[!UICONTROL Adobe Target]中有关[!UICONTROL Automated Personalization] (AP)活动的常见问题(FAQ)和答案的列表。
+description: 浏览[!UICONTROL Automated Personalization]中有关[!UICONTROL Adobe Target] (AP)活动的常见问题(FAQ)和答案的列表。
 title: 如何查找有关[!UICONTROL Automated Personalization]活动的常见问题解答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 source-git-commit: 336da9dd876243a0eea662b4604a8fc1e6a69b1a
 workflow-type: tm+mt
 source-wordcount: '1946'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
 # Automated Personalization常见问题解答
 
-在使用[!DNL Adobe Target]中的[!UICONTROL Automated Personalization]活动时，可查阅以下常见问题和答案。
+在使用[!UICONTROL Automated Personalization]中的[!DNL Adobe Target]活动时，可查阅以下常见问题和答案。
 
 ## 我可以指定特定体验作为[!UICONTROL Automated Personalization]活动中的控制吗？
 
@@ -41,7 +41,7 @@ ht-degree: 22%
 +++查看详细信息
 
 * 如果要个性化低流量页面，或者要对要个性化的体验进行结构性更改，请考虑使用[!UICONTROL Auto-Target]活动代替[!UICONTROL Automated Personalization]。 请参阅[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
-* 考虑在您计划于[!UICONTROL Automated Personalization]活动中使用的选件和位置之间完成一个[!UICONTROL A/B Test]活动，以确保位置和选件会对优化目标产生影响。 如果[!UICONTROL A/B Test]活动未能显示显着差异，[!UICONTROL Automated Personalization]可能也无法生成提升。
+* 考虑在您计划于[!UICONTROL A/B Test]活动中使用的选件和位置之间完成一个[!UICONTROL Automated Personalization]活动，以确保位置和选件会对优化目标产生影响。 如果[!UICONTROL A/B Test]活动未能显示显着差异，[!UICONTROL Automated Personalization]可能也无法生成提升。
 
    * 如果A/B...N测试显示体验之间没有统计学上的显着差异，则可能是以下一种或多种情况造成的：
 
@@ -72,7 +72,7 @@ ht-degree: 22%
 
 +++
 
-## [!UICONTROL Automated Personalization]中有哪些限制？{#section_08BA09ED51B547299963C94FE6417CFA}
+## [!UICONTROL Automated Personalization]中有哪些限制？ {#section_08BA09ED51B547299963C94FE6417CFA}
 
 +++查看详细信息
 
@@ -178,15 +178,15 @@ ht-degree: 22%
 
 [!DNL Adobe]不建议您在活动中途更改目标指标。 虽然可在活动期间使用 [!DNL Target] UI 更改目标指标，但总是应开始新的活动。[!DNL Adobe]不保证如果在活动运行后更改其中的目标量度会发生什么情况。
 
-此推荐适用于使用[!DNL Target]或[!DNL Analytics] (A4T)作为报表源的[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动。
+此推荐适用于使用[!UICONTROL Auto-Allocate]或[!UICONTROL Auto-Target] (A4T)作为报表源的[!UICONTROL Automated Personalization]、[!DNL Target]和[!DNL Analytics]活动。
 
 +++
 
-## 运行[!UICONTROL Automated Personalization]活动时能否使用[!UICONTROL Reset Report Data]选项？
+## 运行[!UICONTROL Reset Report Data]活动时能否使用[!UICONTROL Automated Personalization]选项？
 
 +++查看详细信息
 
-[!DNL Adobe]不建议对[!UICONTROL Automated Personalization]活动使用[!UICONTROL Reset Report Data]选项。 虽然它删除可见的报表数据，但此选项并不从[!UICONTROL Automated Personalization]模型中删除所有训练记录。 不要对[!UICONTROL Automated Personalization]活动使用[!UICONTROL Reset Report Data]选项，请创建新活动并停用原始活动。 本指导还适用于[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动。
+[!DNL Adobe]不建议对[!UICONTROL Reset Report Data]活动使用[!UICONTROL Automated Personalization]选项。 虽然它删除可见的报表数据，但此选项并不从[!UICONTROL Automated Personalization]模型中删除所有训练记录。 不要对[!UICONTROL Reset Report Data]活动使用[!UICONTROL Automated Personalization]选项，请创建新活动并停用原始活动。 本指导还适用于[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动。
 
 +++
 

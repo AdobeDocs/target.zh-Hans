@@ -1,5 +1,5 @@
 ---
-keywords: 可视化体验编辑器选项；体验编辑器选项；体验选项；编辑文本；编辑html；编辑文本/html；编辑背景颜色；背景颜色；插入元素；编辑链接；链接；可视化体验编辑器链接；编辑css类；css类；交换选件；选件交换；交换图像；图像交换；移除项；项移除；隐藏项；项隐藏；重新排列；移动元素；元素移动；调整元素大小；元素大小；扩展选择；导航到此链接；链接导航；链接；撤消；重做；撤消/重做；自定义事件；Web组件；选件决策；offer decisioning
+keywords: 可视化体验编辑器选项；体验编辑器选项；体验选项；编辑文本；编辑html；编辑文本/html；编辑背景颜色；背景颜色；插入元素；编辑链接；链接；可视化体验编辑器链接；编辑css类；css类；交换选件；选件交换；交换图像；图像交换；移除项；项移除；隐藏项；项隐藏；重新排列；移动元素；元素移动；调整元素大小；元素大小；扩展选择；导航到此链接；链接导航；链接；链接；撤消；重做；撤消/重做；自定义事件；Web组件；选件决策；选件决策
 description: 浏览 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)中可用的选项。
 title: 如何使用[!UICONTROL Visual Experience Composer] (VEC)选项？
 feature: Visual Experience Composer (VEC)
@@ -7,7 +7,7 @@ exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
 source-wordcount: '2667'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 55%
 
 ![“样式”面板](/help/main/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-应用不同的样式时，您始终可以在更改任何部分后通过单击[!UICONTROL Styles]面板右上角显示的[!UICONTROL Revert]图标还原更改。 单击[!UICONTROL Revert]图标将还原在当前部分的面板上所做的所有更改。
+应用不同的样式时，您始终可以在更改任何部分后通过单击[!UICONTROL Revert]面板右上角显示的[!UICONTROL Styles]图标还原更改。 单击[!UICONTROL Revert]图标将还原在当前部分的面板上所做的所有更改。
 
 展开每个部分以编辑或添加样式，具体如下文中所述。要保存更改，请单击面板顶部的[!UICONTROL Back]图标以返回到面板的主显示屏，然后单击&#x200B;**[!UICONTROL Save]**。
 
@@ -178,7 +178,7 @@ ht-degree: 55%
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL &#x200B; Hue-rotate]
+*[!UICONTROL  Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
@@ -217,7 +217,7 @@ ht-degree: 55%
 
 ### [!UICONTROL Offer Decision]
 
-添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}中创建的选件，以便使用offer decisioning向客户提供最佳选件和体验。
+添加在[ [!DNL Adobe Journey Optimizer]中创建的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}选件，以使用Offer Decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 
@@ -249,7 +249,7 @@ ht-degree: 55%
 
 ### [!UICONTROL Offer Decision]
 
-添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}中创建的选件，以便使用offer decisioning向客户提供最佳选件和体验。
+添加在[ [!DNL Adobe Journey Optimizer]中创建的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}选件，以使用Offer Decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 
@@ -281,7 +281,7 @@ ht-degree: 55%
 
 ### [!UICONTROL Offer Decision]
 
-添加在 [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}中创建的选件，以便使用offer decisioning向客户提供最佳选件和体验。
+添加在[ [!DNL Adobe Journey Optimizer]中创建的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}选件，以使用Offer Decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 
@@ -309,7 +309,7 @@ ht-degree: 55%
 
 从[!UICONTROL Content Library]中选择其他选件。
 
-**注意：**&#x200B;[!DNL Target]HTML 产品建议存储在 服务器上。
+**注意：**[!DNL Target]HTML 产品建议存储在 服务器上。
 
 HTML选件最长可达256 KB。
 
@@ -345,7 +345,7 @@ HTML选件最长可达256 KB。
 
 在某些情况下，如CSS限制要求将元素保留在其父元素内时，您不能将该元素移到其父元素之外。 无法将元素移动到具有以下 CSS 属性的容器之外：`overflow: hidden`。
 
-有关由于延迟加载DOM元素而导致[!UICONTROL Move]和[!UICONTROL Rearrange]操作出现不一致行为的详细信息，请参阅上面的[!UICONTROL Rearrange]。
+有关由于延迟加载DOM元素而导致[!UICONTROL Rearrange]和[!UICONTROL Move]操作出现不一致行为的详细信息，请参阅上面的[!UICONTROL Rearrange]。
 
 ### [!UICONTROL Hide]
 
@@ -371,7 +371,7 @@ HTML选件最长可达256 KB。
 
 ## 注意事项 {#considerations}
 
-* 如果选件包含HTML内容，请参阅[at.js的工作方式](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank}中的“at.js如何渲染包含HTML内容的选件”以了解更多信息。
+* 如果产品建议包含 HTML 内容，请参阅 [at.js 工作原理](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}中的“at.js 如何渲染包含 HTML 内容的产品建议”了解更多信息。
 
 ## 自定义元素支持 {#custom}
 
@@ -379,9 +379,9 @@ VEC支持[Web组件](https://developer.mozilla.org/en-US/docs/Web/Web_Components
 
 >[!NOTE]
 >
->[at.js版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} 2.7.0（或更高版本）{target=_blank}支持自定义元素的VEC支持。 确保您的网站已部署所需的版本。 如果您使用的是[可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，则还必须部署所需的at.js版本。 上述VEC选项不可见，并且无法与不受支持的at.js版本一起使用。
+>[at.js版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0（或更高版本）{target=_blank}支持自定义元素的VEC支持。 确保您的网站已部署所需的版本。 如果您使用的是[可视化体验编辑器助手扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)，则还必须部署所需的at.js版本。 上述VEC选项不可见，并且无法与不受支持的at.js版本一起使用。
 >
->[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}当前不支持自定义元素的VEC支持。
+>[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}当前不支持自定义元素的VEC支持。
 
 自定义事件和自定义事件内支持大多数VEC操作，但以下除外：
 

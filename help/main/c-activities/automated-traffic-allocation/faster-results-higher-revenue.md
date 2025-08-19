@@ -1,6 +1,6 @@
 ---
 keywords: 自动流量分配；定位；自动分配；自动分配
-description: 了解 [!DNL Adobe Target] 中的[!UICONTROL Auto Allocate]活动如何在两个或更多体验中找出入选者，并自动为入选者重新分配更多流量。
+description: 了解[!UICONTROL Auto Allocate]中的 [!DNL Adobe Target] 活动如何在两个或更多体验中找出入选者，并自动为入选者重新分配更多流量。
 title: '[!UICONTROL Auto-Allocate]活动能否获得更快的结果和更高的收入？'
 feature: Auto-Allocate
 exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5

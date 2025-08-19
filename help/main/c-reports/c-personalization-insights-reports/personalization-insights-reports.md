@@ -2,7 +2,7 @@
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;自动化区段;常见问题解答;常见问题解答;重要属性
 description: 了解如何为Automated Personalization (AP)和自动定位(AT)活动使用专用报表 — 自动化区段和重要属性。
 title: 如何使用Personalization分析报表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 source-git-commit: 6c8f042acb257fc908349c679bf745e477f94af4
@@ -44,11 +44,11 @@ ht-degree: 28%
 
 * 活动上线后将优化目标从收入更改为转化的活动也不受支持。
 
-* 仅当从[!UICONTROL Report Metric]下拉列表中选择[!UICONTROL Primary Goal]时，[!UICONTROL Personalization Insights]报告才可用。
+* 仅当从[!UICONTROL Personalization Insights]下拉列表中选择[!UICONTROL Primary Goal]时，[!UICONTROL Report Metric]报告才可用。
 
-* 仅[默认环境](/help/main/administrating-target/hosts.md)支持[!UICONTROL Personalization Insights]报告。
+* 仅[!UICONTROL Personalization Insights]默认环境[支持](/help/main/administrating-target/hosts.md)报告。
 
-* 仅为处于[!UICONTROL Live]状态并且已激活且接收流量至少15天的活动生成[!UICONTROL Personalization Insights]报告。
+* 仅为处于[!UICONTROL Personalization Insights]状态并且已激活且接收流量至少15天的活动生成[!UICONTROL Live]报告。
 
 ## Personalization Insights报表概述 {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
@@ -67,14 +67,14 @@ ht-degree: 28%
 
 在[!UICONTROL Personalization Insights]报表中表示的AP或自动定位模型中使用了两种类型的属性：
 
-* **Target自动收集的属性：** [!DNL Target]使用基础数据集在AP和AT活动中构建其个性化算法，这些算法反映在Personalization Insights中。 有关数据类型、示例属性及其[!UICONTROL Personalization Insights]命名约定，请参阅[Target Personalization算法的数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。 请注意，虽然考虑了这些属性，但单个活动的模型可能不会在最终模型中使用所有这些属性。
+* **Target自动收集的属性：** [!DNL Target]使用基础数据集在AP和AT活动中构建其个性化算法，这些算法反映在Personalization Insights中。 有关数据类型、示例属性及其[命名约定，请参阅](/help/main/c-activities/t-automated-personalization/ap-data.md)Target Personalization算法的数据收集[!UICONTROL Personalization Insights]。 请注意，虽然考虑了这些属性，但单个活动的模型可能不会在最终模型中使用所有这些属性。
 * **传递到Target的属性：**&#x200B;请参阅[上传Target Personalization算法的数据](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
 [!DNL Target]为您提供了多种方法来将附加数据传递到[!DNL Target]，以扩充用于在AP和AT活动中构建其个性化算法的基本数据集：
 
 | 数据类型 | 描述 | 数据类型命名约定 |
 |--- |--- |--- |
-| 配置文件属性，包括配置文件脚本、配置文件更新 API 和页面内配置文件属性 | 您决定要包含在 Target 用户配置文件中的任何信息。<br>这些信息可能来自配置文件脚本、使用配置文件更新 API 上传的信息，或 mbox 内前缀为“profile”的配置文件参数。 | `Custom - Profile - [parameter name]` |
+| 配置文件属性，包括配置文件脚本、配置文件更新 API 和页面内配置文件属性 | 您决定要包含在 Target 用户轮廓中的任何信息。<br>这些信息可能来自配置文件脚本、使用配置文件更新 API 上传的信息，或 mbox 内前缀为“profile”的配置文件参数。 | `Custom - Profile - [parameter name]` |
 | 页面参数（也称为“mbox参数”） | 直接通过页面代码传入的名称/值对，它们未存储在访客的配置文件中供将来使用。 | `Custom - Mbox Parameter - [parameter name]` |
 | 客户属性 | 客户属性可让您通过 FTP 将访客配置文件数据上传到 Experience Cloud。上传后，即可在 Adobe Analytics 和 Adobe Target 中利用这些数据。 | `Custom - Customer Attributes - [parameter name]` |
 | 共享受众（Adobe Audience Manager 或 Adobe Analytics） | 通过 Adobe Audience Manager 或 Adobe Analytics 创建并与 Target 共享的受众。 | `Custom - Experience Cloud Segment - [segment name]` |
@@ -94,7 +94,7 @@ ht-degree: 28%
 
 ## 培训视频：使用Personalization Insights报表![教程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/328064?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 有关详细信息，请参阅[在Adobe Target中使用Personalization分析报表](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)。
 

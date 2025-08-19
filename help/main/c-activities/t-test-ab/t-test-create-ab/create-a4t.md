@@ -1,7 +1,7 @@
 ---
 keywords: 定位；analytics；跟踪服务器；analytics for target；a4t
 description: 了解如何在 [!DNL Adobe Target] 中配置活动以使用 [!DNL Adobe Analytics] 作为报表源(A4T)。
-title: 如何在 [!DNL Target]中使用 [!DNL Analytics] 数据？
+title: 如何在 [!DNL Analytics] 中使用 [!DNL Target]数据？
 feature: Analytics for Target (A4T)
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 source-git-commit: 8682c24cf1740171dd2ce1862b3bdce1e2082869
@@ -21,7 +21,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->如果您已将您的[!DNL Adobe Experience Cloud]帐户与[!DNL Analytics]和[!DNL Target]都关联，则即使尚未为您的帐户设置[!DNL Target]和[!DNL Analytics]之间的集成，也可以使用[!DNL Adobe Analytics]选项。
+>如果您已将您的[!DNL Adobe Analytics]帐户与[!DNL Adobe Experience Cloud]和[!DNL Analytics]都关联，则即使尚未为您的帐户设置[!DNL Target]和[!DNL Target]之间的集成，也可以使用[!DNL Analytics]选项。
 
 选择[!DNL Analytics]作为[!DNL Target]的报告源时，请选择一个[!DNL Analytics]报告包来接收[!DNL Target]活动数据。 要指定报表源，请先从您的帐户绑定的[!DNL Analytics]家公司中选择任意，然后为活动选择合适的报表包。 只有配置为连接到[!DNL Adobe Target]的报表包才可供选择。 如果您没有看到预期的报表包，请先尝试注销并重新登录到[!DNL Adobe Experience Cloud]以重试。 如果列表中仍缺少报表包，请联系客户关怀团队。
 
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->如果您使用[!DNL Adobe Analytics]作为活动的报表源，并且使用的是at.js版本0.9.1（或更高版本），则无需在活动创建期间指定跟踪服务器。 at.js 库自动将跟踪服务器值发送到 [!DNL Target]。在活动创建期间，您可以将[!UICONTROL Goals & Settings]页面上的[!UICONTROL Tracking Server]字段留空。
+>如果您使用[!DNL Adobe Analytics]作为活动的报表源，并且使用的是at.js版本0.9.1（或更高版本），则无需在活动创建期间指定跟踪服务器。 at.js 库自动将跟踪服务器值发送到 [!DNL Target]。在活动创建期间，您可以将[!UICONTROL Tracking Server]页面上的[!UICONTROL Goals & Settings]字段留空。
 
 在将[!DNL Analytics]设置为报表源后设置活动时，没有用于设置报表受众的选项。 [!DNL Analytics]区段在[!DNL Target] [!UICONTROL Activities]报表中可用。
 

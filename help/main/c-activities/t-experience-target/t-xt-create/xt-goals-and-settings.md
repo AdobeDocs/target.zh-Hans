@@ -1,13 +1,13 @@
 ---
 keywords: 活动设置;体验定位目标和设置;XT 目标和设置;体验定位;报表设置;目标量度;成功量度;依赖的成功量度;高级设置;主要目标;其他量度;目的;优先级;持续时间;报表解决方案;目标;报表的受众;递增此量度之前必须实现哪些成功量度;用户遇到此目标量度后会出现什么情况;注释
-description: 了解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Goals & Settings]页面指定有关[!UICONTROL Experience Targeting] (XT)活动目标的信息。
-title: 如何在[!UICONTROL Experience Targeting]活动中指定[!UICONTROL Goals & Settings]？
+description: 了解如何使用[!UICONTROL Goals & Settings]中的 [!DNL Adobe Target] 页面指定有关[!UICONTROL Experience Targeting] (XT)活动目标的信息。
+title: 如何在[!UICONTROL Goals & Settings]活动中指定[!UICONTROL Experience Targeting]？
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 39%
+ht-degree: 38%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 39%
 
 ### [!UICONTROL Priority]
 
-根据您的设置，[!UICONTROL Priority]的[!DNL Target] UI和选项会有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的旧版设置，也可以启用0到999的细粒度优先级。
+根据您的设置，[!DNL Target]的[!UICONTROL Priority] UI和选项会有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的旧版设置，也可以启用0到999的细粒度优先级。
 
 如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配给位置，则会显示具有最高优先级的活动。
 
@@ -52,7 +52,7 @@ ht-degree: 39%
 
 ### [!UICONTROL Duration]
 
-活动可以在获得批准时开始，或者您也可以设置特定的日期和时间。同样，活动可以在停用时结束，或者您也可以设置活动结束的日期和时间。 时间选择器使用的是 24 小时制时钟，其中 00:00 表示午夜。时区设置为在浏览器中配置的时区。要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
+活动可以在获得批准时开始，或者您也可以设置特定的日期和时间。同样，活动可以在停用时结束，或者您也可以设置活动结束的日期和时间。 时间选择器使用24小时时钟，00:00为午夜。 时区设置为在浏览器中配置的时区。要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
 
 ## [!UICONTROL Reporting Settings] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -76,7 +76,7 @@ ht-degree: 39%
 
 [!DNL Analytics for Target] (A4T)需要跟踪服务器才能正确报告结果。 [!UICONTROL Tracking Server]字段中将显示默认跟踪服务器。 如果使用多个跟踪服务器，请确保在此字段中包含正确的跟踪服务器。 有关详细信息，请参阅[使用Analytics跟踪服务器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
 
-**[!DNL Adobe Customer Journey Analytics]**：有关[!DNL Adobe Customer Journey Analytics]与[!DNL Target]之间集成的详细信息，请参阅[[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中报告。
+**[!DNL Adobe Customer Journey Analytics]**：有关[[!DNL Target] 与 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)之间集成的详细信息，请参阅[!DNL Adobe Customer Journey Analytics]在[!DNL Target]中报告。
 
 ### [!UICONTROL Goal Metric]
 
@@ -155,7 +155,7 @@ ht-degree: 39%
 
 请参阅[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)，以了解有关高级设置的更多信息。
 
-## 培训视频：活动设置 (3:02)
+## 培训视频：活动设置(3:02)
 
 以下视频包含有关活动设置的信息。
 

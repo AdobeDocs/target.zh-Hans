@@ -1,8 +1,8 @@
 ---
-keywords: 推荐;推荐算法;推荐活动;Recommendations Classic
-description: 查看信息以帮助您了解旧版 Recommendations Classic 与 Recommendations activities in [!DNL Target] Premium 之间的区别。
-title: Recommendations Classic 与 [!DNL Target] Premium 中的推荐之间有什么区别？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+keywords: 推荐;推荐算法;推荐活动;经典版推荐
+description: 查看信息以帮助您了解旧的经典版推荐与 [!DNL Target] Premium 中推荐活动之间的区别。
+title: 经典版推荐与 [!DNL Target] Premium 中的推荐之间有什么区别？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -12,9 +12,9 @@ ht-degree: 88%
 
 ---
 
-# Recommendations Classic与Recommendations activities in [!DNL Target] Premium
+# Recommendations Classic与[!DNL Target] Premium中的“推荐”活动
 
-此信息可帮助您在 Recommendations Classic 与 Recommendations activities in Target Premium 之间进行选择。
+此信息可帮助您在经典版推荐与 Target Premium 中的推荐活动之间进行选择。
 
 >[!NOTE]
 >
@@ -28,20 +28,20 @@ ht-degree: 88%
 
 与 [!DNL Recommendations Classic] 相比，[!DNL Target] 中的 [!DNL Recommendations] 活动主要在以下方面做出了改进：
 
-## “推荐”作为选件
+## “推荐”作为产品建议
 
 您可以在[!UICONTROL A/B Test]（包括[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]）和[!UICONTROL Experience Targeting] (XT)活动中包含推荐。
 
 此功能提供了几项全新的功能，例如：
 
-* 可在同一活动中测试和定位推荐和非推荐内容。
+* 可在同一活动中测试和锁定推荐和非推荐内容。
 * 可轻松尝试在页面上放置推荐内容，包括为多个推荐排序。
 * 使用[!UICONTROL Auto-Allocate]自动将流量推送到性能最佳的推荐体验。
 * 使用[!UICONTROL Auto-Target]根据访客的配置文件动态地为他们分配量身定制的推荐体验。
 
-若要开始，请使用[!UICONTROL Visual Experience Composer]创建一个[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活动，然后使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]操作向体验添加推荐。
+若要开始，请使用[!UICONTROL A/B Test]创建一个[!UICONTROL Experience Targeting]或[!UICONTROL Visual Experience Composer]活动，然后使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]操作向体验添加推荐。
 
-有关更多信息，请参阅[将推荐作为选件](/help/main/c-recommendations/recommendations-as-an-offer.md)。
+有关更多信息，请参阅[将推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 
 ## 标准 {#section_117709846DAA404580EBE879FFCBD9BA}
 

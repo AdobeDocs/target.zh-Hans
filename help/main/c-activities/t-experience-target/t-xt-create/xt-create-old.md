@@ -1,6 +1,6 @@
 ---
 keywords: 体验定位；XT；创建
-description: 了解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Visual Experience Composer] (VEC)来创建[!UICONTROL Experience Targeting] (XT)活动。
+description: 了解如何在[!UICONTROL Visual Experience Composer]中使用 [!DNL Adobe Target]  (VEC)来创建[!UICONTROL Experience Targeting] (XT)活动。
 title: 如何创建[!UICONTROL Experience Targeting]活动？
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
@@ -13,7 +13,7 @@ ht-degree: 38%
 
 # 创建[!UICONTROL Experience Targeting] (XT)活动
 
-使用[!UICONTROL Visual Experience Composer] (VEC)在启用了[!DNL Target]的页面上创建[!UICONTROL Experience Targeting] (XT)活动，并在[!DNL Adobe Target]内修改页面的各个部分。
+使用[!UICONTROL Visual Experience Composer] (VEC)在启用了[!UICONTROL Experience Targeting]的页面上创建[!DNL Target] (XT)活动，并在[!DNL Adobe Target]内修改页面的各个部分。
 
 [!UICONTROL Experience Targeting] (XT)根据一组营销人员定义的规则和条件向特定受众提供内容。
 

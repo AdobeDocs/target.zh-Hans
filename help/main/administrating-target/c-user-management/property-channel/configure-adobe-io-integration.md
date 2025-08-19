@@ -1,8 +1,8 @@
 ---
 keywords: 集成;角色;用户权限;Admin Console
-description: 了解如何授予现有Adobe I/O集成使用Adobe Target中的所需角色访问所有工作区的权限。
-title: 如何授予Adobe I/O访问工作区的权限并分配角色？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+description: 了解如何通过Adobe Target中的所需角色授予现有Adobe I/O集成访问所有工作区的权限。
+title: 如何授予Adobe I/O工作区访问权限并分配角色？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
@@ -35,7 +35,7 @@ ht-degree: 59%
 * 当团队准备好探索 API 并选择相应的角色时，允许各个团队自行创建工作区以便拥有他们自己的集成。
 * 混合并匹配以上任意场景。
 
-**所需操作**：当前正在利用 API 对所有工作区中的资源（活动、受众、选件和报表）执行 CRUD 操作的客户，需要根据用例要求，授予其现有 Adobe I/O 集成使用所需的角色访问所有工作区的权限。您可以通过选择[!DNL Adobe Admin Console]中的每个[!DNL Target] [!UICONTROL Product Profile]并在[!UICONTROL Integration]选项卡中添加集成来执行此操作。 在9月版之前，无论从[!UICONTROL Product Role]下拉列表中进行任何选择，所有集成操作都使用[!UICONTROL Approver]访问权限来进行。 现在，您可以选择所需的角色。
+**所需操作**：当前正在利用 API 对所有工作区中的资源（活动、受众、产品建议和报表）执行 CRUD 操作的客户，需要根据用例要求，授予其现有 Adobe I/O 集成使用所需的角色访问所有工作区的权限。您可以通过选择[!DNL Target]中的每个[!UICONTROL Product Profile] [!DNL Adobe Admin Console]并在[!UICONTROL Integration]选项卡中添加集成来执行此操作。 在9月版之前，无论从[!UICONTROL Approver]下拉列表中进行任何选择，所有集成操作都使用[!UICONTROL Product Role]访问权限来进行。 现在，您可以选择所需的角色。
 
 >[!NOTE]
 >

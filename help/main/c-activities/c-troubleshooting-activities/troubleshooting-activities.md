@@ -1,5 +1,5 @@
 ---
-keywords: Target 故障诊断;默认内容;测试未处于实时状态;活动未处于实时状态;定位无法运行;显示之前的体验;无法创建活动;创建活动;页面结构发生更改;页面结构已修改;错误消息;删除配置文件脚本时出错;ajax 无法运行
+keywords: Target 故障诊断;默认内容;测试未处于实时状态;活动未处于实时状态;定位无法运行;显示之前的体验;无法创建活动;创建活动;页面结构发生更改;页面结构已修改;错误消息;删除轮廓脚本时出错;ajax 无法运行
 description: 查找如果您的网站上不显示您的 Adobe [!DNL Target] 活动的故障排除建议。
 title: 如何为活动排除故障？
 feature: Activities
@@ -76,7 +76,7 @@ ht-degree: 44%
 在[!DNL Target]中将您添加为用户后，您需要具有[!UICONTROL Approver]角色才能创建活动。
 
 * 要求帐户管理员将您设为批准者。
-* 如果您是管理员，请在[!DNL Target]中授予&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;中的[!UICONTROL Approver]角色。
+* 如果您是管理员，请在[!UICONTROL Approver]中授予&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;中的[!DNL Target]角色。
 
   请参阅[为您自己分配“审批者”角色](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)。
 
@@ -107,7 +107,7 @@ ht-degree: 44%
 
 **验证：**&#x200B;使用[!UICONTROL Collisions]选项卡查看其他活动是否正在运行。
 
-**注意：**&#x200B;[!UICONTROL Collisions]选项卡不适用于模板测试模块。
+**注意：**[!UICONTROL Collisions]选项卡不适用于模板测试模块。
 
 **选项：**
 
@@ -130,7 +130,7 @@ ht-degree: 44%
 
 **注意：**&#x200B;同名但参数不同的多个ajax [!DNL Target]调用无法在同一页面上工作。 只进行第一次调用。
 
-## 您使用[!DNL Target] API激活了一个活动，但该活动在[!DNL Target] UI中显示[!UICONTROL Inactive]状态。
+## 您使用[!DNL Target] API激活了一个活动，但该活动在[!UICONTROL Inactive] UI中显示[!DNL Target]状态。
 
 执行某些操作时，例如使用[!DNL Target] API在UI外部激活活动，可能需要最多10分钟才能将更新传播到UI。
 

@@ -35,7 +35,7 @@ ht-degree: 52%
 
 1. 选择体验，然后单击&#x200B;**[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**。
 
-1. 单击[!UICONTROL Experience Audiences]窗格中的&#x200B;**[!UICONTROL Add Audience]**&#x200B;图标（![添加图标](/help/main/assets/icons/Add.svg)），然后选择要定位的第一个受众。 对每个受众重复执行上述步骤。
+1. 单击&#x200B;**[!UICONTROL Add Audience]**&#x200B;窗格中的![图标（](/help/main/assets/icons/Add.svg)添加图标[!UICONTROL Experience Audiences]），然后选择要定位的第一个受众。 对每个受众重复执行上述步骤。
 
    如果受众尚不存在，请单击[创建受众](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)，然后对其进行设置。
 

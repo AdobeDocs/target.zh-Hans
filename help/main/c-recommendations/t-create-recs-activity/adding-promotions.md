@@ -1,8 +1,8 @@
 ---
 keywords: 促销活动；前端促销活动；后端促销活动；促销活动类型；项目列表；按属性促销；促销收藏集
-description: 了解如何添加促销项目并控制它们在Adobe [!DNL Target] Recommendations设计中的放置位置。 您可以添加静态和动态促销活动。
-title: 如何在Recommendations Designs中添加促销活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+description: 了解如何添加促销项目并控制它们在Adobe [!DNL Target] 推荐设计中的放置位置。 您可以添加静态和动态促销活动。
+title: 如何在“推荐”设计中添加促销活动？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -26,7 +26,7 @@ ht-degree: 40%
 
 您可以促销特定项目、动态促销项目、基于属性促销项目或促销收藏集。
 
-[!DNL Target] UI![&#128279;](assets/add_promotion_toggles.png)中的[!UICONTROL Front Promotion]和[!UICONTROL Back Promotion]选项
+![[!UICONTROL Front Promotion] UI[!UICONTROL Back Promotion]中的[!DNL Target]和](assets/add_promotion_toggles.png)选项
 
 >[!NOTE]
 >

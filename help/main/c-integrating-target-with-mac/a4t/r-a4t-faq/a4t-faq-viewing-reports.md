@@ -7,7 +7,7 @@ exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
 source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
 workflow-type: tm+mt
 source-wordcount: '2539'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 24%
 
 本主题包含有关在使用[!DNL Adobe Analytics]作为[!DNL Adobe Target] (A4T)的报表源时查看报表的常见问题解答。
 
-## 我能否在[!DNL Analysis Workspace]中查看我的[!DNL Target]活动数据？{#workspace}
+## 我能否在[!DNL Target]中查看我的[!DNL Analysis Workspace]活动数据？ {#workspace}
 
 +++回答
 您可以使用[!DNL Analysis Workspace]来分析您的[!DNL Target]活动和体验。 通过[Analytics for Target面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hans)，最多可查看三个成功量度的提升度和置信度。 您还可以使用表格和可视化图表深入了解。
 
-有关详细信息和示例，请打开由[!UICONTROL Adobe Experience League]提供的[Analytics &amp; Target：分析最佳实践教程](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
+有关详细信息和示例，请打开由[提供的](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)Analytics &amp; Target：分析最佳实践教程[!UICONTROL Adobe Experience League]。
 
 +++
 
-## 在[!DNL Analysis Workspace]中可在何处应用区段？{#segmentation}
+## 在[!DNL Analysis Workspace]中可在何处应用区段？ {#segmentation}
 
 +++回答
 区段最常用于区段放置区域中面板的顶部。 区段将应用于面板中的所有表格和可视化图表。 此技术对于查看测试如何影响一部分人最有用（例如，此测试对英国人的表现如何）？
@@ -36,14 +36,14 @@ ht-degree: 24%
 ## [!DNL Analysis Workspace]中使用了哪个Attribution IQ模型？
 
 +++回答
-在[!DNL Analysis Workspace]中使用[!DNL Target]活动展示和转化时，“同一次接触”Attribution IQ模型是应用于量度的默认模型，以确保准确计数。 这种模式在99%的案例中效果很好。 但是，您可以在Attribution IQ中覆盖此标准归因。
+在[!DNL Target]中使用[!DNL Analysis Workspace]活动展示和转化时，“同一次接触”Attribution IQ模型是应用于量度的默认模型，以确保准确计数。 这种模式在99%的案例中效果很好。 但是，您可以在Attribution IQ中覆盖此标准归因。
 
 +++
 
 ## 在为特定[!DNL Target]活动应用点击区段时，为何会返回不相关的体验？ {#activity-segmentation}
 
 +++回答
-发送至[!DNL Analytics]的[!DNL Target]变量具有90天的默认有效期。 （注意：如果需要，客户关怀团队可以调整此到期期限）。 在此到期窗口内，当访客在网站中导航时，他们属于许多[!DNL Target]活动，这些活动都在维度中收集。
+发送到 [!DNL Target] 的 [!DNL Analytics] 变量具有 90 天的默认有效期。（注意：如果需要，客户关怀团队可以调整此到期期限）。 在此到期窗口内，当访客在网站中导航时，他们属于许多[!DNL Target]活动，这些活动都在维度中收集。
 
 当您对要存在于点击中的活动进行分段时，您将获得属于该活动的所有体验&#x200B;*以及*&#x200B;保留在该点击上的任何其他体验。
 
@@ -71,19 +71,19 @@ ht-degree: 24%
 
 请考虑以下事项：
 
-* 当用户符合活动条件并从[!DNL Target]返回内容时，上述量度会触发。 这并不一定意味着用户查看了该选件。如果活动体验未显示且用户未向下滚动页面，则表示该选件由 [!DNL Target] 提供，但用户并未查看。
+* 当用户符合活动条件并从[!DNL Target]返回内容时，上述量度会触发。 这并不一定意味着用户查看了该产品建议。如果活动体验未显示且用户未向下滚动页面，则表示该产品建议由 [!DNL Target] 提供，但用户并未查看。
 * [!UICONTROL Activity Impressions] （由[!DNL Target]测量）和[!UICONTROL Instances] （由[!DNL Analytics]测量）相等，除非同一活动中的同一页面同时有多个mbox调用。 这会导致多个[!UICONTROL Activity Impressions]被计数，但只有一个[!UICONTROL Instance]。
 
-有关详细信息，请参阅[如何在Analysis Workspace中为自动定位活动设置A4T报表&#x200B;*Adobe TargetTutorials*&#x200B;中的](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hans)。
+有关详细信息，请参阅[Analysis Workspace教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hans)中的&#x200B;*如何在Adobe Target中为自动定位活动设置A4T报告*。
 
 +++
 
-## 为什么[!DNL Analysis Workspace]中的“活动展示次数”和“活动转化次数”高于[!UICONTROL Reports & Analytics]？{#sametouch}
+## 为什么[!DNL Analysis Workspace]中的“活动展示次数”和“活动转化次数”高于[!UICONTROL Reports & Analytics]？ {#sametouch}
 
 +++回答
 [!DNL Reports & Analytics]将同接触归因模型应用于“活动展示次数”和“活动转化次数”，而[!DNL Analysis Workspace]显示原始量度，由于[!DNL Target]维度的持久性，这些量度可能会虚增。
 
-要评估[!DNL Analysis Workspace]中的准确[!UICONTROL Activity Impressions]和[!UICONTROL Activity Conversions]量度，请确保这两个量度都应用了[!UICONTROL Same Touch]归因模型。 可以通过单击列设置齿轮，启用[!UICONTROL Non-default attribution models]，然后选择[!UICONTROL Same Touch]来应用模型。 在&#x200B;*Analytics工具指南*&#x200B;的[Attributes IQ概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=zh-Hans)中了解有关归因的更多信息。
+要评估[!UICONTROL Activity Impressions]中的准确[!UICONTROL Activity Conversions]和[!DNL Analysis Workspace]量度，请确保这两个量度都应用了[!UICONTROL Same Touch]归因模型。 可以通过单击列设置齿轮，启用[!UICONTROL Non-default attribution models]，然后选择[!UICONTROL Same Touch]来应用模型。 在[Analytics工具指南](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html)的&#x200B;*Attributes IQ概述*&#x200B;中了解有关归因的更多信息。
 
 +++
 
@@ -97,7 +97,7 @@ ht-degree: 24%
 ## 为什么我在[!DNL Analytics]报表中看到“未指定”？ 这是什么意思？ {#unspecified}
 
 +++回答
-在其他报表中，“未指定”表示数据不符合分类规则，但在A4T中，这不应发生。 如果您看到“未指定”，则表示分类服务尚未运行。活动数据一般需要 24 到 72 小时才能显示在报表中。即使这些活动在此时间之前并未显示在报表中，但与这些活动关联的所有访客数据都会被捕获，并在分类完成时显示。
+在其他报表中，“未指定”意味着数据不符合分类规则，但在 A4T 中，不应出现此种情况。如果您看到“未指定”，则表示分类服务尚未运行。活动数据一般需要 24 到 72 小时才能显示在报表中。即使这些活动在此时间之前并未显示在报表中，但与这些活动关联的所有访客数据都会被捕获，并在分类完成时显示。
 
 分类期过后，数据会在从网站收集大约一小时后显示在这些报表中。报表中的所有量度、区段和值都来自您在设置活动时选择的报告包。
 
@@ -108,9 +108,9 @@ ht-degree: 24%
 ## 为什么即便在停用活动之后，仍会将[!DNL Target]个量度发送到[!DNL Analytics]？ {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 +++回答
-发送至[!DNL Analytics]的[!DNL Target]变量具有90天的默认有效期。 如果需要，客户关怀团队可以调整此到期期限。 该设置对于所有活动都是全局的；但是，不应针对一种情况调整该设置。
+发送到 [!DNL Target] 的 [!DNL Analytics] 变量具有 90 天的默认有效期。如果需要，客户关怀团队可以调整此到期期限。 该设置对于所有活动都是全局的；但是，不应针对一种情况调整该设置。
 
-您可能会看到在过期后发送到[!DNL Analytics]的[!DNL Target]变量，因为过期时间为90天，但前提是该用户从未看到其他启用A4T的[!DNL Target]活动。 如果用户在第 45 天返回网站并查看了另一个活动，则整个 A4T eVar 值会将其计数器重置为 90 天。这意味着从第 1 天开始的第一个营销活动可能会持续存在 45 + 90 = 135 天。如果用户不断返回，您可能会看到报表中的指标从较旧的活动发送到[!DNL Analytics]。 当用户删除Cookie且不再返回网站时，该活动中的数字会下降，但您仍然可以看到它们。
+您可能会看到在过期后发送到[!DNL Target]的[!DNL Analytics]变量，因为过期时间为90天，但前提是该用户从未看到其他启用A4T的[!DNL Target]活动。 如果用户在第 45 天返回网站并查看了另一个活动，则整个 A4T eVar 值会将其计数器重置为 90 天。这意味着从第 1 天开始的第一个营销活动可能会持续存在 45 + 90 = 135 天。如果用户不断返回，您可能会看到报表中的指标从较旧的活动发送到[!DNL Analytics]。 当用户删除Cookie且不再返回网站时，该活动中的数字会下降，但您仍然可以看到它们。
 
 这意味着在活动结束后（对于在活动处于活动状态时成为活动一部分的访客），活动将继续获取页面查看次数、访问次数等，时间可长达90天。 但是，如果查看[!UICONTROL Activity Impressions]量度，则不应在活动结束之后看到任何展示次数。
 
@@ -139,7 +139,7 @@ ht-degree: 24%
 | XYZ | 1 | 15 | 3 | 1 |
 | ABC | 1 | 5 | 1 | 1 |
 
-之后，该用户在 4 月 1 日再次返回网站，查看了另外 5 个页面，并进行了一次购买。第一个eVar值的90天过期时间将在4月1日重置，因此您可在报表中看到该信息。 该用户查看的所有 Target 活动都会收到转化点数，但在转化点数总和中，会将重复计算的点数删除：
+之后，该用户在 4 月 1 日再次返回网站，查看了另外 5 个页面，并进行了一次购买。第一个eVar值的90天过期日期将在4月1日重置，因此您会在报表中看到该信息。 该用户查看的所有 Target 活动都会收到转化点数，但在转化点数总和中，会将重复计算的点数删除：
 
 | 活动名称 | 实例（展示次数） | 页面查看次数 | 访问次数 | 独特访客 | 订单数 |
 |--- |--- |--- |--- |--- |--- |
@@ -149,7 +149,7 @@ ht-degree: 24%
 
 由于这两种体验均在转换之前被看到，因此它们都会获得订单的“点数”。 但在系统中只产生了一个订单，所以点数的总计值反映了这一点。对于[!DNL Target]报表，由于您不是针对其他活动放置[!DNL Target]活动以查看哪个活动更成功，因此用户看到的所有活动都获得点数并不重要。 您正在比较单个活动中两个项目的结果。 用户不可能在同一活动中看到不同的体验，因此您不必担心订单信用交叉污染。
 
-有关详细信息，请参阅&#x200B;*Analytics管理员指南*&#x200B;中的[转化变量(eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=zh-Hans))。
+有关详细信息，请参阅[Analytics管理指南](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)中的&#x200B;*转化变量(eVar*)。
 
 +++
 
@@ -163,7 +163,7 @@ A4T活动报表在停用后的展示次数来源可以是QA模式流量。 Targe
 ## 为什么[!DNL Analytics]和[!UICONTROL Analytics for Adobe Target] (A4T)计算[!UICONTROL Unique Visitors]量度的数字不同？ {#section_0C3B648AB54041F9A2AA839D51791883}
 
 +++回答
-运行A/B测试(使用[Welch的t检验](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}（置信度量度）来选择测试的入选者)时，其中一个假设是存在固定时间范围。 除非您查看固定样本量，否则测试在统计上无效。
+运行A/B测试(使用[Welch的t检验](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}（置信度量度）来选择测试的入选者)时，其中一个假设是存在固定的时间范围。 除非您查看固定样本量，否则测试在统计上无效。
 
 仅当您查看的时段短于实际测试的时段时，[!UICONTROL Unique Visitors]量度在[!DNL Analytics]和[!DNL Target]中不同。 如果尚未达到样本量，测试就不那么可靠。 有关详细信息，请参阅 [Evan Miller 的网站](https://www.evanmiller.org/index.html)上的[如何正确运行 A/B 测试](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
 
@@ -173,13 +173,13 @@ A4T活动报表在停用后的展示次数来源可以是QA模式流量。 Targe
 
 +++
 
-## 为什么在[!DNL Analytics]中有时会在多个体验中统计同一访客？{#section_1397E972D31C4207A142E4D2D6D794A2}
+## 为什么在[!DNL Analytics]中有时会在多个体验中统计同一访客？ {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 +++回答
 以下列表说明了在[!DNL Analytics]中可以将同一访客计入多个体验的原因：
 
 * [!DNL Target]配置文件已过期，但[!DNL Analytics] Cookie仍然存在。 在此情况下，[!DNL Target]会重新评估用户，但[!DNL Analytics]会将该访客视为同一个人。
-* 如果访客使用`mbox3rdPartyId`，则当匿名访客与第三方ID配置文件合并时，[!DNL Target]可能会将该访客带入不同的体验以与第三方ID匹配。 有关更多信息，请参阅 [mbox3rdPartyID 的实时配置文件同步](/help/main/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)。
+* 如果访客使用`mbox3rdPartyId`，则当匿名访客与第三方ID配置文件合并时，[!DNL Target]可能会将该访客带入不同的体验以与第三方ID匹配。 有关更多信息，请参阅 [mbox3rdPartyID 的实时轮廓同步](/help/main/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)。
 * [!DNL Analytics]可能以不同于[!DNL Target]的方式作为同一访客跟踪不同的设备，以跟踪这些设备： [!DNL Target]中的第三方ID设置不同于Analytics中的设置。
 
 +++
@@ -200,7 +200,7 @@ A4T活动报表在停用后的展示次数来源可以是QA模式流量。 Targe
 
 +++
 
-## 在使用A4T的[!UICONTROL Auto-Target]活动中，访问次数如何计入[!DNL Analytics]，转化功劳如何分配？
+## 在使用A4T的[!DNL Analytics]活动中，访问次数如何计入[!UICONTROL Auto-Target]，转化功劳如何分配？
 
 +++回答
 当访客在A4T活动中符合、查看内容或转化时，[!DNL Target]将事件数据发送到[!DNL Analytics]。 此事件数据允许[!DNL Analytics]将页面上发生的转化事件和其他点击流事件归因于相关的[!DNL Target]活动和体验。
@@ -210,18 +210,18 @@ A4T活动报表在停用后的展示次数来源可以是QA模式流量。 Targe
 * 通常，作为最佳实践，您的报告窗口应从活动的开始日期开始。
 * 如果转换发生在报表窗口之外，则该转换在[!DNL Analytics]中不可见。
 * 当处于[!UICONTROL Auto-Target]活动流量的“目标”部分时，访客可能会在不同会话间看到不同的体验。 例如，如果他们的配置文件或上下文已更改，[!DNL Target]的机器学习算法决定他们更有可能在新体验上转化。 随着访客从体验移至体验，所看到的每个体验的访问计数都会增加。 这不同于常规的A/B测试活动，这些活动中的体验跨访问对访客来说是粘性的。
-* 如果访客在多次访问中看到多个体验，则任何转化始终会归因于访客看到的最后一次体验。 如前所述，访客看到的每个体验的访问计数都会递增。 在[!DNL Adobe Analytics]报表的“[!UICONTROL Targeted]”维度下查看体验时，这可能会人为降低每个体验的转化率。
+* 如果访客在多次访问中看到多个体验，则任何转化始终会归因于访客看到的最后一次体验。 如前所述，访客看到的每个体验的访问计数都会递增。 在[!UICONTROL Targeted]报表的“[!DNL Adobe Analytics]”维度下查看体验时，这可能会人为降低每个体验的转化率。
 
 +++
 
-## 使用[!UICONTROL Analytics for Target] (A4T)时，我如何在[!DNL Analysis Workspace]中跟踪活动展示次数？ {#activity-impressions}
+## 使用[!DNL Analysis Workspace] (A4T)时，我如何在[!UICONTROL Analytics for Target]中跟踪活动展示次数？ {#activity-impressions}
 
 +++回答
 
 要在[!DNL Analysis Workspace]中查看活动展示次数，请执行以下操作：
 
 1. 在[!DNL Target]用户界面中，单击&#x200B;**[!UICONTROL View in Analytics]**。
-1. 将&#x200B;**[!UICONTROL Activity Impressions]**&#x200B;列添加到[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans){target=_blank}报表。
+1. 将&#x200B;**[!UICONTROL Activity Impressions]**&#x200B;列添加到[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}报表。
 1. 在&#x200B;**[!UICONTROL Activity Impressions]**&#x200B;列上，单击[!UICONTROL Gear]图标。
 1. 单击 **[!UICONTROL Use non-default attribution model]**。
 1. 选择&#x200B;**[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]**。

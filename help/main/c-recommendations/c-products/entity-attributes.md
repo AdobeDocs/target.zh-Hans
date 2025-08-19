@@ -1,7 +1,7 @@
 ---
 keywords: 实体;实体属性;将信息传递到推荐;行为数据;数据计数器;定义相对 URL;显示库存水平;定义价格;定义利润率;自定义属性
-description: 了解如何使用实体属性将产品或内容信息传递到 [!DNL Target] Recommendations。
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+description: 了解如何使用实体属性将产品或内容信息传递到 [!DNL Target] 推荐。
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 title: 如何使用实体属性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
@@ -22,8 +22,8 @@ ht-degree: 48%
 
 请考虑以下事项：
 
-* `entity.id`必须与发送至订单确认页面的`productPurchasedId`以及[!DNL Adobe Analytics]产品报表中使用的`productId`匹配。
-* 您传递到[!DNL Recommendations]的实体属性值会在61天后过期。 Adobe建议您在目录中为每个项目每月至少向[!DNL Recommendations]传递一次每个实体属性的最新值。
+* `entity.id`必须与发送至订单确认页面的`productPurchasedId`以及`productId`产品报表中使用的[!DNL Adobe Analytics]匹配。
+* 您传递到[!DNL Recommendations]的实体属性值会在61天后过期。 Adobe建议您每月至少为目录中的每个项目向[!DNL Recommendations]传递一次每个实体属性的最新值。
 
 大多数预定义参数仅接受单个值，且新值会覆盖旧值。 `categoryId` 参数可以接受以逗号分隔的，表示包含该产品的每个类别的值列表。新的 `categoryId` 值在实体更新期间不会覆盖现有值，而是会进行附加（250 个字符限制）。
 
@@ -31,7 +31,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->如果您使用的是at.js 2.不再支持&#x200B;*x*、`mboxCreate`（如以下示例中所用）。 要使用at.js 2.[!DNL Recommendations]*x*，使用[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=zh-Hans){target=_blank}。 有关示例，请参阅[计划和实施Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
+>如果您使用的是at.js 2.不再支持&#x200B;*x*、`mboxCreate`（如以下示例中所用）。 要使用at.js 2.[!DNL Recommendations]*x*，使用[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}。 有关示例，请参阅[计划和实施推荐](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -101,7 +101,7 @@ mboxCreate('productPage',
 
 >[!NOTE]
 >
->要基于[!UICONTROL Category]页面中的类别显示推荐，则只有一个`categoryId`可以传递到用于显示该特定推荐的mbox中。 `categoryId`的值必须与[!UICONTROL Product Detail]页面上传递的`entity.categoryId`的值完全匹配。
+>要基于[!UICONTROL Category]页面中的类别显示推荐，则只有一个`categoryId`可以传递到用于显示该特定推荐的mbox中。 `categoryId`的值必须与`entity.categoryId`页面上传递的[!UICONTROL Product Detail]的值完全匹配。
 
 示例：
 

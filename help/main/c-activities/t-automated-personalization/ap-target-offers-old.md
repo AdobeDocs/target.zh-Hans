@@ -1,8 +1,8 @@
 ---
 keywords: 自动个性化；选件；定位；受众；定位规则；定位
-description: 了解如何通过在 [!DNL Adobe Target]中使用[!UICONTROL Automated Personalization] (AP)活动将单个选件定位到特定受众。
+description: 了解如何通过在[!UICONTROL Automated Personalization]中使用 [!DNL Adobe Target] (AP)活动将单个选件定位到特定受众。
 title: 如何定位[!UICONTROL Automated Personalization]优惠？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be

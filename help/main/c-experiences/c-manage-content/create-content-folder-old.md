@@ -1,5 +1,5 @@
 ---
-keywords: 选件;内容;创建文件夹;资产;移动文件夹;复制文件夹;删除文件夹;下载文件夹;文件夹
+keywords: 产品建议;内容;创建文件夹;资产;移动文件夹;复制文件夹;删除文件夹;下载文件夹;文件夹
 description: 如何在选件库中创建文件夹？
 title: 了解如何在Adobe [!DNL Target] 选件库中创建用于保存代码和图像选件的文件夹以及其他文件夹。
 feature: Experiences and Offers

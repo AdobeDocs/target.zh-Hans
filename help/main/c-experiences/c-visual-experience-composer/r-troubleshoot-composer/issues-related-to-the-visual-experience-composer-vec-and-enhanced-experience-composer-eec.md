@@ -7,7 +7,7 @@ exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 26%
+ht-degree: 32%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 26%
 >
 >以下更改将影响下面列出的所有三次更新：
 >
-> * 如果[VEC Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)未安装并为受密码保护的网站页面启用，则&#x200B;*将*&#x200B;无法使用VEC。 您的网站登录Cookie被视为第三方Cookie，在[!UICONTROL Browse]模式下，不会与VEC编辑器中的登录请求一起发送。 唯一的例外是您的网站登录Cookie已设置`SameSite=None`和`Secure`属性。
+> * 如果&#x200B;*VEC Helper扩展*&#x200B;未安装并为受密码保护的网站页面启用，则[将](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)无法使用VEC。 您的网站登录Cookie被视为第三方Cookie，在[!UICONTROL Browse]模式下，不会与VEC编辑器中的登录请求一起发送。 唯一的例外是您的网站登录Cookie已设置`SameSite=None`和`Secure`属性。
 
 **Chrome 94（2021年9月21日）**：由于计划对Chrome 94版本（2021年9月21日）进行即将进行的更改，以下更改将影响具有Chrome 94+浏览器版本的所有用户：
 
@@ -32,7 +32,7 @@ ht-degree: 26%
 
 **Chrome 91（2021年5月25日）**：随着对Chrome 91版本（2021年5月25日）实施更改，以下更改将会影响具有Chrome 91+浏览器版本的所有用户：
 
-* 已从`chrome://flags`中删除标志`#same-site-by-default-cookies`和`#cookies-without-same-site-must-be-secure`。 默认情况下，此行为现在处于启用状态。
+* 已从`#same-site-by-default-cookies`中删除标志`#cookies-without-same-site-must-be-secure`和`chrome://flags`。 默认情况下，此行为现在处于启用状态。
 
 **Chrome 80（2020年8月）**：随着更改在2020年8月实施，具有Chrome 80+浏览器版本的所有用户：
 
@@ -45,9 +45,9 @@ ht-degree: 26%
 ### 确定阻止了哪些Cookie
 
 +++详细信息
-要确定由于SameSite Cookie实施策略而阻止哪些Cookie，请在[!DNL Chrome]中使用[!DNL Developer Tools]。
+要确定由于SameSite Cookie实施策略而阻止哪些Cookie，请在[!DNL Developer Tools]中使用[!DNL Chrome]。
 
-1. 在[!DNL Chrome]中查看VEC时，要访问[!DNL Developer Tools]，请单击Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**&#x200B;右上角的&#x200B;**[!UICONTROL ellipsis]**&#x200B;图标。
+1. 在[!DNL Developer Tools]中查看VEC时，要访问[!DNL Chrome]，请单击Chrome > **[!UICONTROL ellipsis]** > **[!UICONTROL More Tools]**&#x200B;右上角的&#x200B;**[!UICONTROL Developer Tools]**&#x200B;图标。
 1. 单击&#x200B;**[!UICONTROL Network]**&#x200B;选项卡> ，然后查找阻止的Cookie。
 
    >[!NOTE]
@@ -80,7 +80,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->除了以下信息外，您还可以为[!DNL Google Chrome]使用[Adobe Target VEC助手浏览器扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。
+>除了以下信息外，您还可以为[使用](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Adobe Target VEC助手浏览器扩展[!DNL Google Chrome]。
 
 ![cps_headers图像](assets/cps_headers.png)
 
@@ -114,7 +114,7 @@ ht-degree: 26%
 ## 我在页面上更改一个元素时，多个元素会发生更改。（VEC 和 EEC） {#section_309188ACF34942989BE473F63C5710AF}
 
 +++详细信息
-如果对页面上的多个元素使用相同的DOM元素ID，则更改其中一个元素会更改具有该ID的所有元素。 为防止这种情况发生，一个 ID 只应在每个页面上使用一次。此实践是标准的HTML最佳实践。 有关详细信息，请参阅[页面修改方案](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
+如果页面上的多个元素使用相同的 DOM 元素 ID，则更改其中一个元素会导致具有该 ID 的所有元素都发生更改。为防止这种情况发生，一个 ID 只应在每个页面上使用一次。此实践是标准的HTML最佳实践。 有关详细信息，请参阅[页面修改方案](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)。
 
 +++
 
@@ -132,14 +132,14 @@ ht-degree: 26%
 ## 我想在尚未完成mbox/[!DNL Target]实施的页面上设置测试。 （VEC 和 EEC） {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++详细信息
-请参阅上面的“我无法编辑iFrame-bursting网站的体验”。
+请参阅上面的“我无法编辑防 iFrame 嵌套网站的体验”。
 
 +++
 
 ## 我的页面上不显示带有[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]或[!UICONTROL Change Text]/[!DNL Change HTML]的粗体和斜体文本样式。 有时，在应用这些样式更改后，文本会消失。（VEC 和 EEC） {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++详细信息
-如果您在VEC中为[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活动使用&#x200B;**[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]**，或者为[!UICONTROL Automated Personalization]或[!UICONTROL Multivariate Test]活动使用&#x200B;**[!UICONTROL Change Text]/[!UICONTROL Change HTML]**&#x200B;以使文本变为粗体或斜体，则这些样式可能无法在页面上应用，或者文本会从VEC中的页面中消失。 出现这种情况是因为富文本编辑器应用这些样式的方式可能会干扰网站标记。
+如果您在VEC中为&#x200B;**[!UICONTROL Edit Text]或[!UICONTROL Edit HTML]**&#x200B;活动使用[!UICONTROL A/B Test]/[!UICONTROL Experience Targeting]，或者为&#x200B;**[!UICONTROL Change Text]或[!UICONTROL Change HTML]**&#x200B;活动使用[!UICONTROL Automated Personalization]/[!UICONTROL Multivariate Test]以使文本变为粗体或斜体，则这些样式可能无法在页面上应用，或者文本会从VEC中的页面中消失。 出现这种情况是因为富文本编辑器应用这些样式的方式可能会干扰网站标记。
 
 如果您遇到此问题：
 
@@ -155,6 +155,6 @@ ht-degree: 26%
 ## 对于自动个性化活动，VEC 或 EEC 中的图像交换显示为已中断。（VEC 和 EEC） {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 +++详细信息
-将图像选件添加到位置会使用VEC或EEC中原始图像空间的完整尺寸。 在交付时，图像不会展开，而是会按原样显示，这样便不会影响交付。
+向某个位置添加图像选件会占据 VEC 或 EEC 中原始图像空间的整个大小范围。在交付时，图像不会展开，而是会按原样显示，这样便不会影响交付。
 
 +++

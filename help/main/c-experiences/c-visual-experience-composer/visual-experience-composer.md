@@ -13,7 +13,7 @@ ht-degree: 43%
 
 # [!UICONTROL Visual Experience Composer] (VEC)
 
-[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)是一个WYSIWYG编辑器，它允许客户直接在其网站或移动网页上创建和测试个性化体验，而无需编辑代码。
+[!UICONTROL Visual Experience Composer]中的[!DNL Adobe Target] (VEC)是一个WYSIWYG编辑器，它允许客户直接在其网站或移动网页上创建和测试个性化体验，而无需编辑代码。
 
 >[!NOTE]
 >

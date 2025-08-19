@@ -2,13 +2,13 @@
 keywords: 故障诊断;常见问题解答;FAQ;推荐;特殊字符;属性权重;内容相似度
 description: 查看有关 [!DNL Target Recommendations] 活动的常见问题和答案的列表。
 title: 可在何处找到关于 [!DNL Recommendations]的问答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
 workflow-type: tm+mt
 source-wordcount: '3444'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 83%
 
 ## 我是否可以使用[!DNL Target] API管理[!DNL Target]个UI创建的可视化选件？
 
-否. 在[!DNL Target] UI中创建了可视化选件的[!DNL Recommendations]活动无法使用[!DNL Target] API进行管理。 尽管这些活动显示在[!UICONTROL Activities]列表中，但您无法读取或更新它们(使用GET/PUT)。
+否. 在[!DNL Recommendations] UI中创建了可视化选件的[!DNL Target]活动无法使用[!DNL Target] API进行管理。 尽管这些活动显示在[!UICONTROL Activities]列表中，但您无法读取或更新它们(使用GET/PUT)。
 
 ## 对具有数字值的自定义属性进行搜索时，为什么[!UICONTROL Catalog Search]不显示正确结果？
 
@@ -103,7 +103,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果使用 mbox 中存在类别 ID 的位置，则标准选取器包含所有适用的标准。
 
-[!DNL Target]具有[筛选不兼容的标准](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}设置以控制算法选取器的智能筛选。
+[!DNL Target] 具有[“筛选不兼容的标准”](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}设置以控制算法选取器的智能筛选。
 
 >[!NOTE]
 >
@@ -252,7 +252,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 我是否可以在 [!DNL Recommendations Premium] 中使用在 [!DNL Adobe Recommendations Classic] 中创建的算法？
 
-[!DNL Recommendations Premium] 不支持 [!DNL Recommendations Classic] 中创建的算法。您或许可以使用 [!DNL Target Premium] 中的旧算法；但是，在 [!DNL Target Premium] UI 中停用或删除活动时，该算法可能会产生同步问题。有关这两种解决方案之间差异的更多信息，请参阅 [!DNL Target Premium][&#128279;](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[!DNL Recommendations Classic] 与 [!DNL Recommendations] 活动。
+[!DNL Recommendations Premium] 不支持 [!DNL Recommendations Classic] 中创建的算法。您或许可以使用 [!DNL Target Premium] 中的旧算法；但是，在 [!DNL Target Premium] UI 中停用或删除活动时，该算法可能会产生同步问题。有关这两种解决方案之间差异的更多信息，请参阅[[!DNL Recommendations Classic] 中的 [!DNL Recommendations] 与 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)活动。
 
 ## 如何只推荐新文章或视频？ {#recommend-new-articles}
 

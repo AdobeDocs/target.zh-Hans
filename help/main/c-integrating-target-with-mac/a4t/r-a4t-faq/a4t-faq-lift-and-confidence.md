@@ -7,7 +7,7 @@ exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
 source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 15%
+ht-degree: 25%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 15%
 ## 我能否为 A4T 执行离线计算？ {#section_55B5B750E17D414CAECBEECE27B15D81}
 
 +++回答
-您可以为A4T执行离线计算，但需要在[!DNL Analytics]中完成数据导出步骤。 有关详细信息，请参阅[A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)。
+您可以为 A4T 执行离线计算，但需要在 [!DNL Analytics] 中完成数据导出步骤。有关详细信息，请参阅[A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)。
 
 +++
 
 ## 如何计算提升度？ {#section_8CAE788EED5646C4B1D64A0D22070734}
 
 +++回答
-提升度是控制页面结果与成功测试变量之间的百分比差异。
+提升度是指控制页面结果和成功测试变量之间的百分比差值。
 
 +++
 
@@ -60,5 +60,5 @@ ht-degree: 15%
 ## Ad Hoc 和 Report Builder 中是否会计算提升度和置信度？如果不会在本机计算，那么我能否自行计算？ {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
 +++回答
-提升度和置信度在Ad Hoc或Report Builder中不起作用，并且无法为连续变量自行计算。 但是，可以手动为二进制量度计算提升度和置信度。
+Ad Hoc 或 Report Builder 中不会计算提升度和置信度，而且您也无法为连续变量自行计算。但是，可以手动为二进制量度计算提升度和置信度。
 +++

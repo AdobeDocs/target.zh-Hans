@@ -11,7 +11,7 @@ ht-degree: 31%
 
 ---
 
-# 定位库
+# 锁定库
 
 使用[!DNL Adobe Target]根据预建定位规则定位用户。
 

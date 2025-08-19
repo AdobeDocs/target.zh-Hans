@@ -1,8 +1,8 @@
 ---
 keywords: 包含规则；包含标准；推荐；促销活动；动态筛选；动态；实体属性匹配
-description: 了解如何在Adobe [!DNL Target] Recommendations中动态筛选，方法是将一组潜在项目与用户与之交互的特定项目进行比较。
-title: 如何在Recommendations活动中按实体属性匹配进行筛选？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+description: 了解如何通过将潜在项目池与用户与之交互的特定项目进行比较，在Adobe [!DNL Target] 推荐中动态筛选。
+title: 如何在推荐活动中按实体属性匹配进行筛选？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->为标准和促销活动创建和使用包含规则[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的过程与用例和示例类似。
+>为标准和促销活动创建和使用包含规则[的](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)过程与用例和示例类似。
 
 例如，只推荐与当前项目品牌相匹配的项目，如以下示例所示：
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ### 追加销售到更昂贵的产品
 
-假设您是一家服装零售商，并且希望鼓励用户考虑定价较高，因此利润率较高的商品。 您可以使用“等于”和“介于”运算符来促销来自同一类别和同一品牌的更贵的商品。 例如，鞋类零售商可以促销更昂贵的跑鞋，以便向查看跑鞋的访客追加销售，如下面的示例所示：
+假设您是一名retailer服装公司，希望鼓励用户考虑价格更高、从而带来更多利润的产品。 您可以使用“等于”和“介于”运算符来促销来自同一类别和同一品牌的更贵的商品。 例如，鞋子retailer可以促销更昂贵的跑鞋，以便向查看跑鞋的访客追加销售，如以下示例所示：
 
 ![追加销售](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
 

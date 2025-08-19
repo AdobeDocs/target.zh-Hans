@@ -53,11 +53,11 @@ ht-degree: 27%
 
    您可以导航站点以查看其他页面，因为[!UICONTROL Activity QA]模式具有粘性。 这种情况适用于版本2中的at.js实施。*x*&#x200B;或更高版本。 对于at.js 1.*x*&#x200B;实施，仅当访客的浏览器不阻止第三方Cookie时，才会出现这种情况。
 
-1. 要查看从活动链接URL生成的报表，请单击活动的&#x200B;**[!UICONTROL Reports]**&#x200B;页面，单击&#x200B;**[!UICONTROL Settings]**&#x200B;图标(![icon_gear image](assets/icon_gear.png))，然后从&#x200B;**[!UICONTROL Environment]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL QA Mode Traffic]**。
+1. 要查看从活动链接URL生成的报表，请单击活动的&#x200B;**[!UICONTROL Reports]**&#x200B;页面，单击&#x200B;**[!UICONTROL Settings]**&#x200B;图标(![icon_gear image](assets/icon_gear.png))，然后从&#x200B;**[!UICONTROL QA Mode Traffic]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Environment]**。
 
 ## 正在从QA模式中释放您自己
 
-[!UICONTROL Activity QA]为粘性。 在[!UICONTROL Activity QA]中浏览网站后，[!DNL Target]会话必须过期或必须从[!UICONTROL Activity QA]中释放[!DNL Target]，然后才能像普通访客一样查看您的网站。
+[!UICONTROL Activity QA]为粘性。 在[!UICONTROL Activity QA]中浏览网站后，[!DNL Target]会话必须过期或必须从[!DNL Target]中释放[!UICONTROL Activity QA]，然后才能像普通访客一样查看您的网站。
 
 ### at.js 2.*x*
 
@@ -71,7 +71,7 @@ ht-degree: 27%
 
 ### [!DNL Adobe Experience Platform Web SDK]
 
-如果您的网站部署了[[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}，则可以通过在网站上使用具有空值的`at_qa_mode`参数加载页面来手动强制自己退出。 例如：
+如果您的网站部署了[[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}，则可以通过在网站上使用具有空值的`at_qa_mode`参数加载页面来手动强制自己退出。 例如：
 
 `https://www.mysite.com/?at_qa_mode=`
 
@@ -84,7 +84,7 @@ ht-degree: 27%
 * 导入到[!DNL Target Standard/Premium]（例如，从[!DNL Target Classic]）中的活动不支持QA URL。
 * 在[!UICONTROL Auto-Allocate]和[!UICONTROL Recommendations]活动中，模型不受[!UICONTROL Activity QA]中捕获的访问的影响。
 * 如果在创建活动[时指定了“URL is”基于表单的编辑器中的细化](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)或可视化体验编辑器中的[页面交付选项)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)，则QA URL不起作用，因为[!UICONTROL Activity QA]会附加URL参数。 要解决此问题，请单击 QA URL 以转到您的网站，并从该 URL 中删除附加的参数，然后再加载新的 URL。
-* 如果您有at.js 1.如果您使用Safari或其他阻止第三方Cookie的浏览器，则&#x200B;*x*，[!UICONTROL Activity QA]模式无粘性。 在这些情况下，您必须将预览参数添加到您导航到的每个URL。 如果您实施了[CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=zh-Hans){target=_blank}，则同样如此。
+* 如果您有at.js 1.如果您使用Safari或其他阻止第三方Cookie的浏览器，则&#x200B;*x*，[!UICONTROL Activity QA]模式无粘性。 在这些情况下，您必须将预览参数添加到您导航到的每个URL。 如果您实施了[CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}，则同样如此。
 * 如果活动使用多个体验受众（例如，同一活动中同时包含一个美国网站和一个英国网站），则不会为这四种组合（体验A/美国网站、体验A/英国网站、体验B/美国网站、体验B/英国网站）生成QA链接。 而是只会创建两个 QA 链接（体验 A 和体验 B），且用户必须符合相应受众条件才能看到相应的页面。英国QA人员看不到美国网站。
 * 所有 `at_preview` 参数和值均已进行 URL 编码。大多数时候，一切都会按预期运行。 但是，有些客户必须加载均衡器或Web服务器，以尝试对查询字符串参数再次进行编码。
 
@@ -111,9 +111,9 @@ ht-degree: 27%
 
 [!DNL Target]支持以下JavaScript库：
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans)
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
 
 下表列出了各种活动类型，并指示每个库是否支持[!UICONTROL Activity QA]模式：
 

@@ -7,7 +7,7 @@ exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '1350'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 >
 > * 如果您的网站为响应式，并在移动设备页面上以不同的配置使用桌面页面中的相同元素，则可使用移动视区。如果您有单独的移动网站采用单独的架构，例如 `m.mysite.com`，请改为使用[多页面活动](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)。
 >
->* 如果与重定向选件叠加发生了重叠，则移动设备视区将不可用。
+>* 如果与重定向产品建议叠加发生了重叠，则移动设备视区将不可用。
 
 按网页在屏幕上填充的矩形大小定义视区。视区是浏览器窗口减去滚动条和工具栏的大小。浏览器使用“CSS 像素”。很多设备（例如使用 Retina 显示屏的设备）的视区小于其宣称的设备分辨率。
 
@@ -163,7 +163,7 @@ ht-degree: 95%
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 可视化体验编辑器（第2个，共2个）(7:29) ![概述徽章](/help/main/assets/overview.png)
+### 可视化体验编辑器(2/2) (7:29) ![概述徽章](/help/main/assets/overview.png)
 
 以下演示视频包含有关通过可视化体验编辑器使用移动设备视区的信息：
 
@@ -174,10 +174,10 @@ ht-degree: 95%
 * 预览和构建响应式网站的体验
 * 使用叠加高亮显示元素类型
 
->[!VIDEO](https://video.tv.adobe.com/v/30330?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Adobe Target 中的帐户首选项 ![“概述”标记](/help/main/assets/overview.png)
 
-本视频从 4:40 开始介绍设置移动视区。
+本视频从4:40开始介绍设置移动视区。
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

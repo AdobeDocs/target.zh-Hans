@@ -50,13 +50,13 @@ ht-degree: 22%
 
 在确定报表源时，请考虑以下信息：
 
-* **[!DNL Analytics]**：有关使用[!DNL Analytics]作为报表源(A4T)的支持活动的矩阵，请参阅&#x200B;*Adobe Analytics中的[支持的活动类型](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)作为Adobe Target (A4T)*&#x200B;的报表源。
+* **[!DNL Analytics]**：有关使用[!DNL Analytics]作为报表源(A4T)的支持活动的矩阵，请参阅[Adobe Analytics中的](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)支持的活动类型&#x200B;*作为Adobe Target (A4T)*&#x200B;的报表源。
 
-  无论选择何种报表源，都允许创建和激活[!UICONTROL Automated Personalization] (AP)活动。 当您选择[Adobe Analytics作为Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)的报表源时，[!UICONTROL Automated Personalization]活动不受支持。
+  无论选择何种报表源，都允许创建和激活[!UICONTROL Automated Personalization] (AP)活动。 当您选择[!UICONTROL Automated Personalization]Adobe Analytics作为Adobe Target (A4T)[的报表源时，](/help/main/c-integrating-target-with-mac/a4t/a4t.md)活动不受支持。
 
   即使您指定[!DNL Analytics]作为报表源，[!DNL Target]也用作[!DNL Automated Personalization]活动的报表源。
 
-* **[!DNL Customer Journey Analytics]**：有关在[!DNL Customer Journey Analytics]中使用[!DNL Target]报表的受支持活动的矩阵，请参阅&#x200B;[!DNL Adobe Customer Journey Analytics]*中的*[!DNL Target]&#x200B;报表中的[受支持的活动类型](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities)。
+* **[!DNL Customer Journey Analytics]**：有关在[!DNL Target]中使用[!DNL Customer Journey Analytics]报表的受支持活动的矩阵，请参阅[中的](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities)报表中的&#x200B;*[!DNL Target]受支持的活动类型[!DNL Adobe Customer Journey Analytics]*。
 
   无论选择什么报表源，[!UICONTROL Automated Personalization] (AP)、[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动都允许创建和激活。 选择[Adobe Customer Journey Analytics作为报表源](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)时，不支持这些活动。
 

@@ -7,7 +7,7 @@ exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 45%
+ht-degree: 69%
 
 ---
 
@@ -18,20 +18,20 @@ ht-degree: 45%
 ## 我可以看到访问次数的峰值。如何判断这些访问是否由局部数据点击引起？ {#section_28506672C6224ED18AC74F6A02F6F811}
 
 +++回答
-您可以联系[Adobe客户关怀](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以检索部分数据报表。 无法直接在 [!DNL Analytics] UI 中获取此信息。
+您可以联系 [Adobe 客户关怀团队](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)以检索局部数据报表。无法直接在 [!DNL Analytics] UI 中获取此信息。
 
 +++
 
 ## 不完整数据点击可能会由哪些因素引起？ {#section_C4BB9925CE6444BE8CB9FBEFE5085546}
 
 +++回答
-不完整数据点击通常是实施不当所致，例如报表包ID未对齐。 但是，也可能是由一些合理原因引起的，包括页面加载速度缓慢、页面出现错误、活动中存在重定向选件，或库版本已过期。
+不完整数据点击通常是由实施不当（例如报表包 ID 不一致）引起的。但是，也可能是由一些合理原因引起的，包括页面加载速度缓慢、页面出现错误、活动中存在重定向选件，或库版本已过期。
 
 +++
 
 ## 是否有任何特定类型的[!DNL Target]活动可能更容易产生不完整数据点击？ {#section_69837442A9B84366BEFDA4588B31E574}
 
 +++回答
-重定向选件会立即将用户发送到其他页面，这意味着[!DNL Analytics]调用不会在第一个页面上触发。
+重定向产品建议会立即将用户发送到另一个页面，这意味着 [!DNL Analytics] 调用不会在第一个页面上触发。
 
 +++

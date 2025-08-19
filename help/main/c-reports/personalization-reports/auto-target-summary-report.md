@@ -2,7 +2,7 @@
 keywords: 报表；自动定位；AT；报表
 description: 了解如何在Adobe Target中解释自动定位摘要报表。 您可以从此报表切换到自动化区段和重要属性报表。
 title: 如何使用自动定位摘要报表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
@@ -14,11 +14,11 @@ ht-degree: 37%
 
 # [!UICONTROL Auto-Target Summary report]
 
-有关如何解释[!DNL Adobe Target]中的[!UICONTROL Auto-Target Summary]报表的信息。
+有关如何解释[!UICONTROL Auto-Target Summary]中的[!DNL Adobe Target]报表的信息。
 
 >[!NOTE]
 >
->[!UICONTROL Auto-Target]作为[!DNL Target Premium]解决方案的一部分提供。 在没有[Target Premium许可证](/help/main/c-intro/intro.md#premium)的[!DNL Target Standard]中不包括它。
+>[!UICONTROL Auto-Target]作为[!DNL Target Premium]解决方案的一部分提供。 在没有[!DNL Target Standard]Target Premium许可证[的](/help/main/c-intro/intro.md#premium)中不包括它。
 
 要显示[!UICONTROL Auto-Target Summary]报告：
 

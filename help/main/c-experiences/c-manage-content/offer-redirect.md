@@ -11,7 +11,7 @@ ht-degree: 25%
 
 ---
 
-# 创建重定向选件
+# 创建重定向产品建议
 
 了解如何创建重定向选件以无缝地引导浏览器浏览新页面。
 
@@ -27,7 +27,7 @@ ht-degree: 25%
 >
 >* 有关如何设置可重定向的体验的信息，请参阅[重定向到 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
 
-重定向选件执行 JavaScript 代码以重定向浏览器。由于该选件使用了 `window.location.replace();` 方法，因此从中对访客进行重定向的页面不会存储到浏览器历史记录中。此流程允许访客在其浏览器中使用返回按钮。
+重定向产品建议执行 JavaScript 代码以重定向浏览器。由于该产品建议使用了 `window.location.replace();` 方法，因此从中对访客进行重定向的页面不会存储到浏览器历史记录中。此流程允许访客在其浏览器中使用返回按钮。
 
 >[!NOTE]
 >
@@ -47,13 +47,13 @@ ht-degree: 25%
 
    >[!NOTE]
    >
-   >如果重定向 URL 也使用户符合同一活动的参加条件，则重定向选件会引发无限循环。确保用户在重定向后不会被重新授予该活动的资格。
+   >如果重定向 URL 也使用户符合同一活动的参加条件，则重定向产品建议会引发无限循环。确保用户在重定向后不会被重新授予该活动的资格。
 
-1. 选择以下所需选项以自定义您的重定向选件：
+1. 选择以下所需选项以自定义您的重定向产品建议：
 
    * **[!UICONTROL Include all URL parameters]：**&#x200B;如果您希望将上一页中存在的所有URL参数都传播到重定向页面，请启用此选项。
 
-     例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递URL中的动态参数，因为此方法可跟踪用户是通过电子邮件、横幅广告、搜索广告还是自然方式访问您的网站。 启用此选项后，当您在URL框中输入的是`https://www.mycompany.com/mensShirts.html`时，页面`https://www.mycompany.com/mens.html?emailId=123`上的重定向选件将自动变为`https://www.mycompany.com/mensShirts.html?emailId=123`。
+     例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递URL中的动态参数，因为此方法可跟踪用户是通过电子邮件、横幅广告、搜索广告还是自然方式访问您的网站。 启用此选项后，当您在URL框中输入的是`https://www.mycompany.com/mens.html?emailId=123`时，页面`https://www.mycompany.com/mensShirts.html?emailId=123`上的重定向选件将自动变为`https://www.mycompany.com/mensShirts.html`。
 
    * **[!UICONTROL Pass mbox session ID]：**&#x200B;需要重定向到其他域。 如果要自动将`sessionId`包含在重定向中，请滑动切换开关以启用此选项。 只有在测试来自电子邮件的点击或从一个域到另一个域的点击时才需要此选项。 `sessionId` 与访客的 Cookie 相匹配，以便能够继续跟踪访客并显示相应的内容。
 
@@ -78,13 +78,13 @@ ht-degree: 25%
 
    >[!NOTE]
    >
-   >如果重定向 URL 也使用户符合同一活动的参加条件，则重定向选件会引发无限循环。确保用户在重定向后不会被重新授予该活动的资格。
+   >如果重定向 URL 也使用户符合同一活动的参加条件，则重定向产品建议会引发无限循环。确保用户在重定向后不会被重新授予该活动的资格。
 
-1. 选择以下所需选项以自定义您的重定向选件：
+1. 选择以下所需选项以自定义您的重定向产品建议：
 
    * **[!UICONTROL Include all URL parameters]：**&#x200B;如果要将上一页中存在的所有URL参数都传播到重定向页面，请通过幻灯片切换启用此选项。
 
-     例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递URL中的动态参数，因为此方法可跟踪用户是通过电子邮件、横幅广告、搜索广告还是自然方式访问您的网站。 启用此选项后，当您在URL框中输入的是`https://www.mycompany.com/mensShirts.html`时，页面`https://www.mycompany.com/mens.html?emailId=123`上的重定向选件将自动变为`https://www.mycompany.com/mensShirts.html?emailId=123`。
+     例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递URL中的动态参数，因为此方法可跟踪用户是通过电子邮件、横幅广告、搜索广告还是自然方式访问您的网站。 启用此选项后，当您在URL框中输入的是`https://www.mycompany.com/mens.html?emailId=123`时，页面`https://www.mycompany.com/mensShirts.html?emailId=123`上的重定向选件将自动变为`https://www.mycompany.com/mensShirts.html`。
 
    * **[!UICONTROL Pass mbox session ID]：**&#x200B;需要重定向到其他域。 如果要自动将`sessionId`包含在重定向中，请滑动切换开关以启用此选项。 只有在测试来自电子邮件的点击或从一个域到另一个域的点击时才需要此选项。 `sessionId` 与访客的 Cookie 相匹配，以便能够继续跟踪访客并显示相应的内容。
 
@@ -100,7 +100,7 @@ ht-degree: 25%
 
 使用[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)应用重定向选件。 您当前无法使用[!UICONTROL Visual Experience Composer] (VEC)应用重定向选件。
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非可视化体验和选件创建界面，当[!UICONTROL Visual Experience Composer]不可用或不实用时，它有助于创建在[!UICONTROL A/B Tests]、[!UICONTROL Experience Targeting] (XT)、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Recommendations]活动中使用的体验。 例如，您可以使用[!UICONTROL Form-Based Experience Composer]创建使用重定向选件的体验。
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非可视化体验和选件创建界面，当[!UICONTROL A/B Tests]不可用或不实用时，它有助于创建在[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization] (XT)、[!UICONTROL Recommendations] (AP)和[!UICONTROL Visual Experience Composer]活动中使用的体验。 例如，您可以使用[!UICONTROL Form-Based Experience Composer]创建使用重定向选件的体验。
 
 1. 在[!UICONTROL Form-Based Experience Composer]中创建或编辑活动。
 

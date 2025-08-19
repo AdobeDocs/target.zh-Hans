@@ -1,8 +1,8 @@
 ---
 keywords: 标准序列；多个标准；算法；标准；推荐标准；序列；限制返回的项目数；槽级控制；槽
-description: 了解如何设置最多包含五个条件的序列，以便更好地控制Adobe [!DNL Target] Recommendations活动中显示的项目。
-title: 如何在Recommendations中创建标准序列？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+description: 了解如何设置最多包含五个标准的序列，以便更好地控制Adobe [!DNL Target] 推荐活动中显示的项目。
+title: 如何在推荐中创建标准序列？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -18,7 +18,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->标准序列不能用于[!DNL Target Premium]的2016年10月版之前创建的[!UICONTROL Recommendations]活动。
+>标准序列不能用于[!UICONTROL Recommendations]的2016年10月版之前创建的[!DNL Target Premium]活动。
 
 要创建标准序列，您必须先创建要包含到序列中的标准。有关详细信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
@@ -87,7 +87,7 @@ ht-degree: 23%
 
    有关推荐逻辑选项的更多信息，请参阅[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)。
 
-## 培训视频：在Recommendations中创建标准(12:33) ![教程徽章](/help/main/assets/tutorial.png)
+## 培训视频：在推荐(12:33) ![教程徽章](/help/main/assets/tutorial.png)中创建标准
 
 本视频包含以下信息：
 
@@ -95,4 +95,4 @@ ht-degree: 23%
 * 创建标准序列
 * 上传自定义标准
 
->[!VIDEO](https://video.tv.adobe.com/v/35358?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

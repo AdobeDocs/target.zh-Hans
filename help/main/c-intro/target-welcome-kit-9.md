@@ -42,6 +42,6 @@ ht-degree: 78%
 
 * **Adobe Target 主页**：[!DNL Adobe Target] 的主页，从中可了解我们的能力并查看我们最新的成功案例。请参阅 [Adobe Target](https://www.adobe.com/cn/marketing/target.html)。
 * **博客**：关注 [Target 博客](https://blog.adobe.com/en/topics/target)，即可掌握最新的动向、提示和成功案例。
-* **Experience League**：探索开展体验业务所需的指南、活动和培训，并与Target社区建立联系，从而找到您所寻找的答案。 请参阅 [Adobe Experience League 主页](https://experienceleague.adobe.com/zh-hans#home)。
+* **Experience League**：探索开展体验业务所需的指南、活动和培训，并与Target社区建立联系，从而找到您所寻找的答案。 请参阅 [Adobe Experience League 主页](https://experienceleague.adobe.com/#home)。
 * **Adobe Target 认证**：通过新的 Adobe Target 考试获得 Adobe 认证专家身份。在此可安排考试或参加培训课程。请参阅[培训和认证](/help/main/c-intro/training-and-certification.md)。
 * **Adobe Target 发行说明**：关于每个 [!DNL Target Standard] 和 [!DNL Target Premium] 发行版的功能、增强和修复的信息。此外，在适用的情况下，还包括 Target API、SDK、JavaScript 库 (at.js) 的发行说明和其他平台变更。请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md)。

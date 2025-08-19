@@ -13,7 +13,7 @@ ht-degree: 33%
 
 # [!UICONTROL Browser]
 
-您可以定位使用特定浏览器或特定浏览器选项访问您的页面的用户。
+您可以锁定使用特定浏览器或特定浏览器选项访问您的页面的用户。
 
 可以定位以下浏览器：
 
@@ -28,13 +28,13 @@ ht-degree: 33%
 
 >[!IMPORTANT]
 >
->从[!DNL Target] Standard/Premium 24.3.1（2024年3月4日至6日）开始，使用Target UI创建的内置受众（如`Browser:iPad`和`Browser:iPhone`）已更新，以便使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`对[!DNL iPad]和[!DNL iPhone]执行正确的定位。
+>从[!DNL Target] Standard/Premium 24.3.1（2024年3月4日至6日）开始，使用Target UI创建的内置受众（如`Browser:iPad`和`Browser:iPhone`）已更新，以便使用[!DNL iPad]、[!DNL iPhone]和`profile.mobile.deviceVendor`对`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`执行正确的定位。
 >
 >客户无需对此更新执行任何操作。 [!DNL Target] UI中的标签将来将更改，在进行这些更改时，将在[[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md)中公布。
 >
->有关解决方法设置，请参阅以下[!UICONTROL Browser]受众属性（2024年4月30日）[&#128279;](#updates)中的更新 [!DNL iPad] 和 [!DNL iPhone] 。
+>有关解决方法设置，请参阅以下[受众属性（2024年4月30日） [!DNL iPad] 中的 [!DNL iPhone] 更新[!UICONTROL Browser]和](#updates)。
 
-定位浏览器的方式有两种：
+锁定浏览器的方式有两种：
 
 * **预先构建的受众：**&#x200B;如果您希望仅定位使用特定浏览器访问您的网站的访客，请使用预先构建的受众。例如，如果您提供[!DNL Chrome]扩展，则只针对[!DNL Chrome]用户。
 
@@ -67,11 +67,11 @@ ht-degree: 33%
 
 ## 浏览器选项 {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
-根据浏览器的类型、语言或版本，定位或排除活动参加者。
+根据浏览器的类型、语言或版本，锁定或排除活动参加者。
 
 ### 类型 {#section_6ADC758F23F145B3A310151546D83D56}
 
-定位或排除特定浏览器。
+锁定或排除特定浏览器。
 
 选择&#x200B;**[!UICONTROL Type]**，然后选择等于或不等于。
 
@@ -82,9 +82,9 @@ ht-degree: 33%
 
 ### 语言 {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
-定位或排除设置为使用特定语言的特定浏览器。
+锁定或排除设置为使用特定语言的特定浏览器。
 
-例如，如果某个选件只有英语版，则您可以定位将语言设置为英语的浏览器。或者，如果您的页面未启用双字节，则您可以排除设置为使用东亚语言的浏览器。
+例如，如果某个产品建议只有英语版，则您可以锁定将语言设置为英语的浏览器。或者，如果您的页面未启用双字节，则您可以排除设置为使用东亚语言的浏览器。
 
 在语言比位置更为重要的情况下，包含或排除浏览器语言与根据地域进行定位相比，前者可以实现更准确的访客定位。例如，如果您提供的是一篇英语文章，您既可以定位讲英语的国家/地区，也可以定位设置为英语的浏览器。不过，使用后者，您还可以将这篇文章提供给来自主要语言并不是英语的国家/地区、但却会讲英语的用户。
 
@@ -135,15 +135,15 @@ ht-degree: 33%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## [!UICONTROL Browser]受众属性中[!DNL iPad]和[!DNL iPhone]的更新（2024年4月30日） {#updates}
+## [!DNL iPad]受众属性中[!DNL iPhone]和[!UICONTROL Browser]的更新（2024年4月30日） {#updates}
 
 [!DNL Adobe Target]允许您[定位多个类别属性中的任意一个](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括访问您的页面时使用特定浏览器或浏览器选项的用户。
 
-从[!DNL Target] Standard/Premium 24.3.1（2024年3月4日至6日）开始，使用Target UI创建的内置受众（如`Browser:iPad`和`Browser:iPhone`）已更新，以便使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`对[!DNL iPad]和[!DNL iPhone]执行正确的定位。
+从[!DNL Target] Standard/Premium 24.3.1（2024年3月4日至6日）开始，使用Target UI创建的内置受众（如`Browser:iPad`和`Browser:iPhone`）已更新，以便使用[!DNL iPad]、[!DNL iPhone]和`profile.mobile.deviceVendor`对`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`执行正确的定位。
 
-使用[!DNL Target] UI创建的内置受众（例如`Browser:iPad`和`Browser:iPhone`）将自动移至新的受众定义，无需客户执行任何操作。 但是，以后，您应该使用下面描述的设置[&#128279;](#ui)。
+使用[!DNL Target] UI创建的内置受众（例如`Browser:iPad`和`Browser:iPhone`）将自动移至新的受众定义，无需客户执行任何操作。 但是，以后，您应该使用下面描述的设置[](#ui)。
 
-如果您在任何配置文件脚本中使用`user.browserType`来检查它是[!DNL iPhone]还是[!DNL iPad]（例如，`user.browserType == 'iphone'`或`user.browserType != 'ipad'`），则在2024年4月30日之前，应按照[&#128279;](#profile-scripts)下的说明更改这些配置文件脚本，以确保这些受众继续按预期运行。
+如果您在任何配置文件脚本中使用`user.browserType`来检查它是[!DNL iPhone]还是[!DNL iPad]（例如，`user.browserType == 'iphone'`或`user.browserType != 'ipad'`），则在2024年4月30日之前，应按照[下的说明更改这些配置文件脚本](#profile-scripts)，以确保这些受众继续按预期运行。
 
 JavaScript受众是使用[!DNL Target]表达式的旧版受众，已在[!DNL Target Classic] UI中弃用。 这些受众只能通过API进行修改。 只有在活动中继续使用旧受众时，客户才必须更新这些受众。
 
@@ -179,7 +179,7 @@ JavaScript受众是使用[!DNL Target]表达式的旧版受众，已在[!DNL Tar
 
 ### 使用个人资料脚本创建的受众 {#profile-scripts}
 
-如果您在旧版[!DNL Target Classic]受众或配置文件脚本中使用`user.browserType`，则更改应包括以下内容：
+如果您在旧版`user.browserType`受众或配置文件脚本中使用[!DNL Target Classic]，则更改应包括以下内容：
 
 * **BrowserType是iPhone**：
 

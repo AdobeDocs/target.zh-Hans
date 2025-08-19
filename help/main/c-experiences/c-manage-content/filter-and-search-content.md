@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 搜索和筛选内容
 
-在[!DNL Adobe Target]的[!UICONTROL Offers]库中按关键字搜索资源。
+在[!UICONTROL Offers]的[!DNL Adobe Target]库中按关键字搜索资源。
 
 ## 按关键字搜索代码选件
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 单击&#x200B;**[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**。
 
-1. （可选）在[!UICONTROL Card View]和[!UICONTROL List View]之间切换，单击[!UICONTROL Asset]库右上角的[!UICONTROL Card View]图标（![卡片视图图标](/help/main/assets/icons/ViewCard.svg)）或[!UICONTROL List View]图标（![列表视图图标](/help/main/assets/icons/ViewList.svg)）。
+1. （可选）在[!UICONTROL Card View]和[!UICONTROL List View]之间切换，单击[!UICONTROL Card View]库右上角的![图标（](/help/main/assets/icons/ViewCard.svg)卡片视图图标[!UICONTROL List View]）或![图标（](/help/main/assets/icons/ViewList.svg)列表视图图标[!UICONTROL Asset]）。
 1. 单击左上角的&#x200B;**[!UICONTROL Content Only]**&#x200B;图标（![仅内容图标](/help/main/assets/icons/RailLeft.svg)）以显示搜索框。
 1. 在搜索框中，为要查找的资源键入关键字，然后按[!UICONTROL Enter]。
 1. （视情况而定）使用左侧的&#x200B;**[!UICONTROL Filters & Options]**&#x200B;窗格优化您的搜索。

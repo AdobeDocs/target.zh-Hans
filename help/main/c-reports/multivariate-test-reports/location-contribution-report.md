@@ -1,13 +1,13 @@
 ---
 keywords: MVT;多变量测试;位置贡献报表
 description: 了解如何对Adobe [!DNL Target] [!UICONTROL Experience Targeting]活动使用位置贡献报表，以显示每个元素和每个选件的性能。
-title: 如何为[!UICONTROL Multivariate Test]活动使用[!UICONTROL Location Contribution]报表？
+title: 如何为[!UICONTROL Location Contribution]活动使用[!UICONTROL Multivariate Test]报表？
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 38%
+ht-degree: 35%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 38%
 >
 >* [!UICONTROL Location Contribution]报告的数据是从[!DNL Target]后端获取的，即使活动配置为使用[!UICONTROL Analytics as the reporting source] (A4T)也是如此。
 >
->* 即使在[!DNL Target]帐户级别定义了其他默认环境，也会为“生产”环境获取[!UICONTROL Location Contribution]报表的数据。
+>* 即使在[!UICONTROL Location Contribution]帐户级别定义了其他默认环境，也会为“生产”环境获取[!DNL Target]报表的数据。
 
 [!UICONTROL Location Contribution]报告包含两个表。
 
@@ -35,6 +35,6 @@ ht-degree: 38%
 
 ## 培训视频：创建 MVT 测试
 
-本视频演示了如何使用[!DNL Target]三步引导式工作流创建多变量测试。 对位置贡献报表的介绍开始于 8:45。
+本视频演示了如何使用[!DNL Target]三步引导式工作流创建多变量测试。 位置贡献报表的说明从8:45开始。
 
->[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

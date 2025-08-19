@@ -35,9 +35,9 @@ ht-degree: 14%
 
 1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**&#x200B;以显示现有排除项列表。
 
-   [!UICONTROL Exclusions]列表视图中为每个排除项报告的“项目数”是指，在配置的默认Recommendations [主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 有关如何更改默认主机组的信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[计划和实施 [!DNL Recommendations]](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/recommendations){target=_blank}。
+   [!UICONTROL Exclusions]列表视图中为每个排除项报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 有关如何更改默认主机组的信息，请参阅[Adobe Target开发人员指南 [!DNL Recommendations]中的](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}计划和实施&#x200B;**。
 
-1. （视情况而定）单击&#x200B;**[!UICONTROL Show Filters]**&#x200B;图标（![显示过滤器图标](/help/main/assets/icons/Filter.svg)），然后在创建（或更新）排除项时从&#x200B;**[!UICONTROL Environment]**&#x200B;下拉列表中选择所需的[环境](/help/main/administrating-target/environments.md)，以预览该环境中排除项的内容。 默认情况下，会显示默认主机组的结果。
+1. （视情况而定）单击&#x200B;**[!UICONTROL Show Filters]**&#x200B;图标（![显示过滤器图标](/help/main/assets/icons/Filter.svg)），然后在创建（或更新）排除项时从[下拉列表中选择所需的](/help/main/administrating-target/environments.md)环境&#x200B;**[!UICONTROL Environment]**，以预览该环境中排除项的内容。 默认情况下，会显示默认主机组的结果。
 
 1. 单击 **[!UICONTROL Create Exclusion]**。
 
@@ -69,11 +69,11 @@ After creating a search using "id > contains," for example, you can then click [
 
 请注意，排除项可在整个帐户中使用。 确保在删除排除项之前考虑此注意事项。 无法恢复已删除的排除项。
 
-## 培训视频：在Recommendations中创建收藏集和排除项(7:05) ![教程徽章](/help/main/assets/tutorial.png)
+## 培训视频：在“推荐” (7:05) ![教程徽章](/help/main/assets/tutorial.png)中创建收藏集和排除项
 
 本视频包含以下信息：
 
 * 创建收藏集
 * 创建排除项
 
->[!VIDEO](https://video.tv.adobe.com/v/35356?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

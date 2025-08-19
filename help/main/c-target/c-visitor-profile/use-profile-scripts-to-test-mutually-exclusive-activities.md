@@ -1,6 +1,6 @@
 ---
 keywords: 配置文件脚本；配置文件脚本属性；互斥活动
-description: 了解如何使用配置文件属性在Adobe [!DNL Target] 中设置测试，该测试比较多个活动，但不允许同一访客参与每个活动。
+description: 了解如何使用配置文件属性在Adobe [!DNL Target] 中设置测试，这些测试比较多个活动，但不允许同一访客参与每个活动。
 title: 我能否使用配置文件脚本测试互斥活动？
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
@@ -11,7 +11,7 @@ ht-degree: 74%
 
 ---
 
-# 使用个人资料脚本测试互斥活动
+# 使用轮廓脚本测试互斥活动
 
 您可以使用[!DNL Adobe Target]中的配置文件属性来设置测试，以比较两个或多个活动，但不允许同一访客参与每个活动。
 
@@ -39,7 +39,7 @@ if (!user.get('twogroups')) {
 }
 ```
 
-* `if (!user.get('twogroups'))` 确定 *twogroups* 配置文件属性是否针对当前访客设定。如果是，则无需进行下一步操作。
+* `if (!user.get('twogroups'))` 确定 *twogroups* 轮廓属性是否针对当前访客设定。如果是，则无需进行下一步操作。
 
 * `var ran_number=Math.floor(Math.random() *100)` 声明了一个名为 ran_number 的新变量，将其值设置为介于 0 和 1 之间的随机小数，然后乘以 100 并进行四舍五入以创建 100 (0-100) 以内的范围，这用于指定查看活动的访客百分比。
 
@@ -51,7 +51,7 @@ if (!user.get('twogroups')) {
 >
 >请尽早在页面上选择一个 mbox。此代码可确定访客是否体验到该活动。 只要浏览器第一次遇到 mbox，就能利用该 mbox 设置此值。
 
-设置第二个营销活动，使用户配置文件参数 `user.twogroups` 匹配 GroupB 指定的值。
+设置第二个营销活动，使用户轮廓参数 `user.twogroups` 匹配 GroupB 指定的值。
 
 ## 设置三个或更多活动
 

@@ -2,7 +2,7 @@
 keywords: 创建自动定位；A/B测试；自动定位活动；新建A/B活动；自动定位；自动定位以提供个性化体验；个性化；优化
 description: 了解如何使用[!UICONTROL Visual Experience Composer] (VEC)创建[!UICONTROL Auto-Target] A/B测试活动。
 title: 如何创建[!UICONTROL Auto-Target]活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 # 创建[!UICONTROL Auto-Target]活动
 
-在[!DNL Adobe Target]中使用[!UICONTROL Visual Experience Composer] (VEC)直接在启用了[!DNL Target]的页面上创建您的[!UICONTROL Auto-Target] [!UICONTROL A/B Test]活动，并在[!DNL Target]内修改页面的各个部分。
+在[!UICONTROL Visual Experience Composer]中使用[!DNL Adobe Target] (VEC)直接在启用了[!UICONTROL Auto-Target]的页面上创建您的[!UICONTROL A/B Test] [!DNL Target]活动，并在[!DNL Target]内修改页面的各个部分。
 
 >[!NOTE]
 >
@@ -74,11 +74,11 @@ ht-degree: 19%
 
 1. 通过更改页面上的元素创建新体验。
 
-   创建新活动后，[!UICONTROL Visual Experience Composer]在左侧显示两个选项卡：[!UICONTROL Experience A]和[!UICONTROL Experience B]。 [!UICONTROL Experience A]是控制体验。 您关注的焦点是[!UICONTROL Experience B]选项卡，您可以根据需要对其进行修改。 [!UICONTROL Experience B]是可以添加到测试中的备用体验。 您可以通过单击[!UICONTROL Experiences]窗格顶部的[!UICONTROL Add]图标（![添加图标](/help/main/assets/icons/Add.svg)）将多个体验添加到测试中。 如果您不想在体验选项中包含默认的网站体验，则也可以从活动中删除体验 A。
+   创建新活动后，[!UICONTROL Visual Experience Composer]在左侧显示两个选项卡：[!UICONTROL Experience A]和[!UICONTROL Experience B]。 [!UICONTROL Experience A]是控制体验。 您关注的焦点是[!UICONTROL Experience B]选项卡，您可以根据需要对其进行修改。 [!UICONTROL Experience B]是可以添加到测试中的备用体验。 您可以通过单击[!UICONTROL Add]窗格顶部的![图标（](/help/main/assets/icons/Add.svg)添加图标[!UICONTROL Experiences]）将多个体验添加到测试中。 如果您不想在体验选项中包含默认的网站体验，则也可以从活动中删除体验 A。
 
    有关在[!UICONTROL Visual Experience Composer]中添加和修改体验的详细信息，请参阅[添加体验](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)。 要修改体验 B，请从步骤 2 开始操作。
 
-1. 单击[!UICONTROL Visual Experience Composer]顶部的&#x200B;**[!UICONTROL Targeting]**&#x200B;以进入三步引导式工作流中的下一个步骤。
+1. 单击&#x200B;**[!UICONTROL Targeting]**&#x200B;顶部的[!UICONTROL Visual Experience Composer]以进入三步引导式工作流中的下一个步骤。
 
    此时会打开流程图。
 
@@ -100,7 +100,7 @@ ht-degree: 19%
       如果需要创建一个不在[!UICONTROL Audience Library]中的新受众，请单击&#x200B;**创建受众**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
 
       * **[!UICONTROL Audience Library]**：创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用
-      * **[!UICONTROL This activity only]**：创建未保存到[!UICONTROL Audience Library]的[活动特定受众](/help/main/c-target/creating-activity-only-audience.md)，该受众只能用于当前活动
+      * **[!UICONTROL This activity only]**：创建未保存到[的](/help/main/c-target/creating-activity-only-audience.md)活动特定受众[!UICONTROL Audience Library]，该受众只能用于当前活动
 
    1. 单击右框中的&#x200B;**[!UICONTROL Visitor Percentage]**，然后选择符合条件的访客您希望参加活动的百分比。
 

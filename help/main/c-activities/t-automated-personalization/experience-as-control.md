@@ -1,8 +1,8 @@
 ---
 keywords: 体验;控制;自动个性化;自动锁定
-description: 了解如何在 [!DNL Adobe Target]中创建[!UICONTROL Automated Personalization] (AP)或[!UICONTROL Auto-Target]活动时选择要用作控制的体验。
+description: 了解如何在[!UICONTROL Automated Personalization]中创建[!UICONTROL Auto-Target] (AP)或 [!DNL Adobe Target]活动时选择要用作控制的体验。
 title: 如何在[!UICONTROL Automated Personalization]活动中使用特定体验作为控制？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453

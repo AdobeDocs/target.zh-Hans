@@ -1,8 +1,8 @@
 ---
 keywords: 推荐算法；模型训练；模型提供；内容交付；基于项目；基于用户；基于热门程度；基于购物车；自定义标准
 description: 了解 [!DNL Target Recommendations]中使用的算法，包括模型训练和模型服务。
-title: 我可以在何处了解Target的Recommendations算法背后的科学原理？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+title: 我可以在何处了解Target的推荐算法背后的科学原理？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -35,7 +35,7 @@ ht-degree: 0%
 >
 >有关每种算法类型和各个算法的更多常规信息，请参阅[使推荐基于推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 
-上面列出的许多算法都基于存在一个或多个键值。 这些键用于在内容交付时（提出推荐时）检索类似项目。 客户指定的键可以包括某位访客正在查看的当前项目、上次查看或购买的项目、最常查看的项目、当前类别或该访客最喜爱的类别。 其他算法（如基于购物车或基于用户的推荐）则使用隐式键（客户无法配置）。 有关详细信息，请参阅[使推荐基于推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys)中的&#x200B;*推荐键*。 但请注意，这些键仅在模型服务时（内容交付）相关。 这些键不会影响“离线”或模型训练时间逻辑。
+上面列出的许多算法都基于存在一个或多个键值。 这些键用于在内容交付时（提出推荐时）检索类似项目。 客户指定的键可以包括某位访客正在查看的当前项目、上次查看或购买的项目、最常查看的项目、当前类别或该访客最喜爱的类别。 其他算法（如基于购物车或基于用户的推荐）则使用隐式键（客户无法配置）。 有关详细信息，请参阅&#x200B;*使推荐基于推荐键*&#x200B;中的[推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys)。 但请注意，这些键仅在模型服务时（内容交付）相关。 这些键不会影响“离线”或模型训练时间逻辑。
 
 以下部分以与上述算法类型略有不同的方式分组算法。 下面的分组是基于模型训练逻辑的相似性。
 
@@ -51,13 +51,13 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 
 对于“已查看/购买此项目的用户也已查看/购买这些项目”算法，目标是计算所有项目对之间的相似度(A，B)。 对于给定的项目A，排名最前的推荐按照其相似度s(A，B)排序。
 
-此类相似性的一个示例是项目之间的共存：购买两个项目的用户数量的简单计数。 虽然这种量度是直观的，但因为偏向于推荐热门项目，所以这种量度是天真的。 例如，如果在食品零售商大多数人都购买面包，则面包与所有物品的高共现率，但它不一定是很好的推荐。 [!DNL Target]改为使用更复杂的相似性量度，称为对数似然比(LLR)。 当两个项目A和B同时发生的概率与它们不同时发生的概率差别很大时，该数量就很大。 如需具体信息，请考虑[!UICONTROL People Who Viewed This, Bought That]算法的情况。 当购买B的概率为&#x200B;*而非*&#x200B;时，LLR相似性很大，这与某人是否查看A无关。
+此类相似性的一个示例是项目之间的共存：购买两个项目的用户数量的简单计数。 虽然这种量度是直观的，但因为偏向于推荐热门项目，所以这种量度是天真的。 例如，如果在retailer杂货店大多数人购买面包，则面包会与所有物品具有高共现率，但这不一定是很好的推荐。 [!DNL Target]改为使用更复杂的相似性量度，称为对数似然比(LLR)。 当两个项目A和B同时发生的概率与它们不同时发生的概率差别很大时，该数量就很大。 如需具体信息，请考虑[!UICONTROL People Who Viewed This, Bought That]算法的情况。 当购买B的概率为&#x200B;*而非*&#x200B;时，LLR相似性很大，这与某人是否查看A无关。
 
 例如，如果
 
 已查看/已购买算法的![公式](assets/formula.png)
 
-则不应将项目B与项目A一起推荐。此PDF[&#128279;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了此对数似然比相似度计算的完整详细信息。
+则不应将项目B与项目A一起推荐。此PDF[中提供了](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)此对数似然比相似度计算的完整详细信息。
 
 实际算法实现的逻辑流程如下图所示：
 
@@ -65,7 +65,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 
 这些步骤的详情如下：
 
-* **输入数据**：行为数据，其形式为当您[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的访客的视图和购买。
+* **输入数据**：行为数据，其形式为在[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}收集的访客的视图和购买。
 
 * **模型训练**：
 
@@ -73,7 +73,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
    * **项目相似度计算**：这是核心计算步骤：计算所有候选项目对的对数似然比相似度，并按此相似度得分对项目对进行排序。
    * **脱机筛选**：最后，应用任何其他适用的动态筛选器（例如，动态类别排除）。 执行此步骤后，预先计算的推荐将缓存在全局中以可供服务。
 
-* **模型服务**：Recommendations内容是从[!DNL Target]的[全局“Edge”网络](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934)交付的。 向[!DNL Target]发出mbox请求并确定应将推荐内容交付到页面时，将从请求中解析或查找推荐算法的相应[项键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys)的请求，然后用于检索在之前步骤中计算的推荐。 此时在呈现适当的[设计](/help/main/c-recommendations/c-design-overview/create-design.md)之前，将应用更多的动态筛选器。
+* **模型服务**：推荐内容是从[!DNL Target]的[全局“Edge”网络](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934)交付的。 向[!DNL Target]发出mbox请求并确定应将推荐内容交付到页面时，将从请求中解析或查找推荐算法的相应[项键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys)的请求，然后用于检索在之前步骤中计算的推荐。 此时在呈现适当的[设计](/help/main/c-recommendations/c-design-overview/create-design.md)之前，将应用更多的动态筛选器。
 
 ## 内容相似度
 
@@ -89,7 +89,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 
 这些步骤的详情如下：
 
-* **输入数据**：如前所述，此算法完全基于目录数据(通过[目录馈送、实体API摄取到[!DNL Target]，或来自页面更新](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
+* **输入数据**：如前所述，此算法完全基于目录数据(通过[!DNL Target]目录馈送、实体API或来自页面上的更新[引入到](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
 * **模型训练**：
 
@@ -119,7 +119,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 
 对[!DNL Target]推荐算法套件的最新添加为[!UICONTROL Recommended For You]和一系列基于购物车的推荐算法。 这两种算法都使用协同过滤技术来形成基于项目的个人推荐。 然后，在服务时，用户的浏览历史记录（对于[!UICONTROL Recommended For You]）或用户当前购物车（对于基于购物车的推荐）中的多个项目用于检索这些基于项目的推荐，然后将这些项目合并以形成推荐的最终列表。 请注意，存在多种风格的个性化推荐算法。 多键算法的选择意味着，当访客有任何浏览历史记录后，即可立即使用推荐，并且推荐可以更新以响应最新的访客行为。
 
-这些算法基于在基于项目的推荐部分中描述的基本协同过滤技术构建，并且还结合超参数调整来确定项目之间的最佳相似度量度。 该算法对每个用户的行为数据执行时间顺序分割，并在试图预测用户稍后查看或购买的项目时训练关于较早数据的推荐模型。 然后选择生成最佳[平均平均精度](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval))的相似性度量。
+这些算法基于在基于项目的推荐部分中描述的基本协同过滤技术构建，并且还结合超参数调整来确定项目之间的最佳相似度量度。 该算法对每个用户的行为数据执行时间顺序分割，并在试图预测用户稍后查看或购买的项目时训练关于较早数据的推荐模型。 然后选择生成最佳[平均平均精度]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval))的相似性度量。
 
 模型训练和评分步骤的逻辑如下图所示：
 
@@ -127,7 +127,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 
 这些步骤的详情如下：
 
-* **输入数据**：这与项 — 项协同筛选(CF)方法相同。 [!UICONTROL Both Recommended For You]和基于购物车的算法使用行为数据，其形式为当您[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}中收集的用户查看和购买。
+* **输入数据**：这与项 — 项协同筛选(CF)方法相同。 [!UICONTROL Both Recommended For You]和基于购物车的算法使用行为数据，其形式为当您[实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}或从[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}中收集的用户查看和购买。
 
 * **模型训练**：
 
@@ -135,11 +135,11 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
    * **训练测试拆分**：为每个用户执行使用情况的按时间顺序拆分，将其使用情况的前80%分配给训练数据，其余20%分配给测试数据。
    * **项目相似度模型训练**： [!UICONTROL Recommended For You]和基于Cart的算法的核心项目相似度计算在构建候选项目向量的方式上有所不同。 对于[!UICONTROL Recommended For You]，项向量具有维度NUsers，其中每个条目表示该项用户的隐式评级之和 — 为项购买赋予的权重是该项查看次数的2倍。 对于基于购物车的推荐，项目矢量具有二进制条目；如果只考虑会话内行为，则每个会话都有一个新条目。 否则，每个访客在此项目矢量中都有一个条目。
 
-  训练步骤计算几种类型的向量相似度：这里讨论的LLR相似度([&#128279;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf))、余弦相似度（以前定义）和规范化的L2相似度(定义为：
+  训练步骤计算几种类型的向量相似度：这里讨论的LLR相似度([](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf))、余弦相似度（以前定义）和规范化的L2相似度(定义为：
 
   ![显示训练计算的公式](assets/formula4.png)
 
-   * **项目相似度模型评估**：模型评估是通过采用上一步中生成的建议并对测试数据集进行预测来完成的。 通过按时间顺序排序测试数据集中的每个用户的项目使用情况，然后为排序的项目子集提出100个推荐，以尝试预测随后的查看和购买，来模拟在线评分阶段。 信息检索量度[平均平均精度](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval))用于评估这些推荐的质量。 此量度会考虑推荐的顺序，并有利于在推荐列表中排名较高的相关项目，这是排名系统的重要属性。
+   * **项目相似度模型评估**：模型评估是通过采用上一步中生成的建议并对测试数据集进行预测来完成的。 通过按时间顺序排序测试数据集中的每个用户的项目使用情况，然后为排序的项目子集提出100个推荐，以尝试预测随后的查看和购买，来模拟在线评分阶段。 信息检索量度[平均平均精度]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval))用于评估这些推荐的质量。 此量度会考虑推荐的顺序，并有利于在推荐列表中排名较高的相关项目，这是排名系统的重要属性。
    * **模型选择**：离线评估后，选择具有最高平均精确度的模型，并为其计算所有单个项推荐。
    * **脱机筛选**：模型训练的最后阶段是应用任何适用的动态筛选器。 执行此步骤后，预先计算的推荐将缓存在全局中以可供服务。
 

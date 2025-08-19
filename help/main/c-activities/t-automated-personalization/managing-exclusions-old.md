@@ -2,7 +2,7 @@
 keywords: 重复数据删除；允许重复项；排除重复的选件；自动个性化；不允许重复的选件；排除；默认内容；排除组；
 description: 管理 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)活动中的排除项。 创建排除组并排除重复的选件、特定体验和默认内容。
 title: 如何管理[!UICONTROL Automated Personalization]活动中的排除项？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -15,7 +15,7 @@ ht-degree: 41%
 
 # 管理排除项
 
-通过创建排除组、排除重复的选件、排除特定体验以及排除[!DNL Adobe Target]中[!UICONTROL Automated Personalization] (AP)活动中的默认内容来管理排除项。
+通过创建排除组、排除重复的选件、排除特定体验以及排除[!UICONTROL Automated Personalization]中[!DNL Adobe Target] (AP)活动中的默认内容来管理排除项。
 
 ## 创建排除组 {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
@@ -124,7 +124,7 @@ ht-degree: 41%
 
 **要使用[!UICONTROL Form-Based Experience Composer]排除默认内容：**
 
-1. 创建或编辑AP活动时，单击&#x200B;**[!UICONTROL Content]**&#x200B;下的&#x200B;**[!UICONTROL Change Text/HTML]**&#x200B;或&#x200B;**[!UICONTROL Change Image Offer]**。
+1. 创建或编辑AP活动时，单击&#x200B;**[!UICONTROL Change Text/HTML]**&#x200B;下的&#x200B;**[!UICONTROL Change Image Offer]**&#x200B;或&#x200B;**[!UICONTROL Content]**。
 1. 在出现的对话框中，创建新的内容，然后取消选中默认内容右侧的&#x200B;**[!UICONTROL Include]**（或在[!UICONTROL Select Content]屏幕中取消选中“默认图像/视频”）。
 
    根据内容或选件类型，[!UICONTROL Include]复选框的位置略有不同。

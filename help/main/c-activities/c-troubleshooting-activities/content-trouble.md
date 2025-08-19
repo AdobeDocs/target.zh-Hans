@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 87%
 
 ## 检索要用于调试工具的授权令牌 {#section_BED130298E794D1FA229DB7C3358BA54}
 
-由于 mboxTrace 和 mboxDebug 可将营销活动数据和配置文件数据披露给外部各方，因此需要授权令牌。可在 [!DNL Target] UI 中检索授权令牌。令牌的有效时间为 6 个小时。
+由于 mboxTrace 和 mboxDebug 可将营销活动数据和轮廓数据披露给外部各方，因此需要授权令牌。可在 [!DNL Target] UI 中检索授权令牌。令牌的有效时间为 6 个小时。
 
 您必须具有以下用户权限之一才能生成身份验证令牌：
 
@@ -65,14 +65,14 @@ ht-degree: 87%
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-输出显示有关您内容的详细信息。mboxTrace 显示有关您的营销活动或者活动和个人资料的详细信息。它还提供执行之前的个人资料快照，以及在执行之后所发生变化的快照。同时，也显示为各个位置评估了哪些营销活动或活动。
+输出显示有关您内容的详细信息。mboxTrace 显示有关您的营销活动或者活动和轮廓的详细信息。它还提供执行之前的轮廓快照，以及在执行之后所发生变化的快照。同时，也显示为各个位置评估了哪些营销活动或活动。
 
 某些信息包含匹配和不匹配的客户群和定位 ID：
 
 * **SegmentId**：客户群的 ID，来自可重复使用的客户群库或为特定营销活动创建的匿名客户群库。
 * **TargetId**：定位的 ID，来自定位表达式库或营销活动中任意客户群的匿名定位。
-* **Unmatched**：在此调用中，请求不符合这些客户群或定位的要求。
-* **Matched**：请求符合指定客户群或定位的要求。
+* **Unmatched**：在此调用中，请求不符合这些客户群或锁定的要求。
+* **Matched**：请求符合指定客户群或锁定的要求。
 
 **在推荐页面上使用 mboxTrace**：在具有推荐的页面上添加 mboxTrace 作为查询参数会将页面上的推荐设计替换为 mboxTrace 详细信息窗口，后者显示关于您的推荐的深入信息，包括：
 
@@ -107,11 +107,11 @@ ht-degree: 87%
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-借助 Adobe Experience Cloud 调试器，您可以快速、轻松地了解 Target 实施。您可以快速查看库配置、检查请求以确保正确传递自定义参数、打开控制台日志记录以及禁用所有 Target 请求。在 Experience Cloud 中通过身份验证，即可使用强大的 MboxTrace 工具检查活动和受众资格以及访客个人资料。
+借助 Adobe Experience Cloud 调试器，您可以快速、轻松地了解 Target 实施。您可以快速查看库配置、检查请求以确保正确传递自定义参数、打开控制台日志记录以及禁用所有 Target 请求。在 Experience Cloud 中通过身份验证，即可使用强大的 MboxTrace 工具检查活动和受众资格鉴定以及访客轮廓。
 
 有关更多信息，请参阅下面的培训视频：
 
-有关更多详细信息，请参阅[使用Adobe Experience Cloud调试器调试at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=zh-Hans){target=_blank}。
+有关更多详细信息，请参阅[使用 Adobe Experience Cloud Debugger 调试 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}。
 
 ## 推荐中未显示最畅销商品 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target 不再支持 IE 8。
 
 ## 未设置 Target Cookie {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-如果您的网站具有一个子域（例如 [!DNL us.domain.com]），但您需要在 [!DNL domain.com]（而不是 [!DNL us.domain.com]）上设置 Target Cookie，则必须覆盖 `cookieDomain` 设置。有关详细信息，请参阅[targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=zh-Hans){target=_blank}。
+如果您的网站具有一个子域（例如 [!DNL us.domain.com]），但您需要在 [!DNL domain.com]（而不是 [!DNL us.domain.com]）上设置 Target Cookie，则必须覆盖 `cookieDomain` 设置。有关更多信息，请参阅 [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}。
 
 ## 如果某个元素也是 Adobe Experience Manager 个性化的一部分，则 Target 内容会闪烁或无法显示。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -137,13 +137,13 @@ Target 不再支持 IE 8。
 
 ## 由于 URL 无效，无法交付重定向选件和远程选件。 {#section_7D09043B687F43B39DAEDF17D00375AC}
 
-如果重定向选件或远程选件使用无效的 URL，则可能无法交付该选件。
+如果重定向产品建议或远程产品建议使用无效的 URL，则可能无法交付该产品建议。
 
-对于重定向选件，[!DNL Target] 响应可包含 `/* invalid redirect offer URL */`
+对于重定向产品建议，[!DNL Target] 响应可包含 `/* invalid redirect offer URL */`
 
 或
 
-对于远程选件，[!DNL Target] 响应可包含 `/* invalid remote offer URL */`
+对于远程产品建议，[!DNL Target] 响应可包含 `/* invalid remote offer URL */`
 
 可在浏览器中或使用 mboxTrace 检查 [!DNL Target] 响应。有关有效 URL 的更多信息，请参阅 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66)。
 
@@ -183,7 +183,7 @@ Target 不再支持 IE 8。
 
 ### 选项 3：不定向到完整 URL，而是利用 URL 的特定部分。
 
-在此方案中，URL是`https://shopping.mycart.com?type=Summers%20Offers`，额外的模板规则使用[!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers指定[!UICONTROL Query]，以OR分隔符分隔：
+在此方案中，URL是`https://shopping.mycart.com?type=Summers%20Offers`，额外的模板规则使用[!UICONTROL Query] > [!UICONTROL type] > type=Summers%20Offers指定[!UICONTROL is (case sensitive)]，以OR分隔符分隔：
 
 ![模板规则利用 URL 的特定部分](assets/option3.png)
 
@@ -206,12 +206,12 @@ adobe.target.trackEvent({
 
 ### 添加扩展![Tutorial徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33301?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### 基本 Adobe Target 调试 ![课程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33302?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox 跟踪 ![教程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33303?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

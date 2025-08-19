@@ -1,6 +1,6 @@
 ---
 keywords: 多页面;历程测试;多页面活动
-description: 了解如何在Adobe [!DNL Target] 中创建多页活动，允许您使用特定于每个页面的设计跨多个页面创建故事。
+description: 了解如何在Adobe [!DNL Target] 中创建多页面活动，允许您使用特定于每个页面的设计跨多个页面创建故事。
 title: 如何创建多页面活动？
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545

@@ -1,13 +1,13 @@
 ---
 keywords: 排除项
-description: 了解如何在Adobe [!DNL Target] Recommendations中创建排除项以防止向访客推荐产品或内容。
-title: 如何在Recommendations活动中使用排除项？
+description: 了解如何在Adobe [!DNL Target] 推荐中创建排除项以防止向访客推荐产品或内容。
+title: 如何在推荐活动中使用排除项？
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 28%
 
    ![exclusions_list图像](assets/exclusions_list.png)
 
-   [!UICONTROL Exclusions]列表视图中为每个排除项报告的“项目数”是指，在配置的默认Recommendations [主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}以更改默认主机组。
+   [!UICONTROL Exclusions]列表视图中为每个排除项报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}以更改默认主机组。
 
 1. 单击 **[!UICONTROL Create Exclusion]**。
 
@@ -55,7 +55,7 @@ ht-degree: 28%
 
 ## 使用高级搜索创建排除项
 
-您还可以使用[目录搜索](/help/main/c-recommendations/c-products/catalog-search.md#save-as)页面([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search])上的[!UICONTROL Advanced Search]创建排除项。
+您还可以使用[!UICONTROL Advanced Search]目录搜索[页面(](/help/main/c-recommendations/c-products/catalog-search.md#save-as) > [!UICONTROL Recommendations] > [!UICONTROL Catalog Search])上的[!UICONTROL Advanced Search]创建排除项。
 
 ![另存为对话框](/help/main/c-recommendations/c-products/assets/save-as.png)
 
@@ -75,11 +75,11 @@ ht-degree: 28%
 
 请注意，排除项可在整个帐户中使用。 确保在删除排除项之前考虑这一点。 无法恢复已删除的排除项。
 
-## 培训视频：在Recommendations中创建收藏集和排除项(7:05) ![教程徽章](/help/main/assets/tutorial.png)
+## 培训视频：在“推荐” (7:05) ![教程徽章](/help/main/assets/tutorial.png)中创建收藏集和排除项
 
 本视频包含以下信息：
 
 * 创建收藏集
 * 创建排除项
 
->[!VIDEO](https://video.tv.adobe.com/v/35356?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

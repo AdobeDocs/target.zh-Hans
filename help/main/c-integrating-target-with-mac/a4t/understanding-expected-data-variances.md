@@ -11,7 +11,7 @@ ht-degree: 45%
 
 ---
 
-# 使用和不使用A4T时，Adobe[!DNL Target]和Adobe Analytics之间的预期数据差异
+# 使用和不使用A4T时，Adobe [!DNL Target]和Adobe Analytics之间的预期数据差异
 
 此信息介绍了当&#x200B;*使用*&#x200B;和&#x200B;*不*&#x200B;使用 Analytics 作为报表源 (A4T) 时，[!DNL Target] 和 Adobe [!DNL Analytics] 之间的预期数据差异。A4T 可显著减小数据差异.
 
@@ -25,7 +25,7 @@ ht-degree: 45%
 
   如果在Target中设置重定向测试以拆分流量50/50（或25/25/25/25等），则可能无法均匀拆分用户行为。 如果您看到不均匀的拆分，这仅表示一组用户在登陆页面上未能执行Analytics调用的次数多于其他组。 由于未能对某组执行 Analytics 调用，导致该用户的 Target 点击被排除，从而造成不均匀性。
 
-  Adobe希望将来解决此问题，因为Adobe团队将努力在Adobe Experience Platform上部署A4T。 Adobe团队正在确定如何处理在页面上不同时间发生的这些不同事件。
+  Adobe希望将来解决此问题，因为Adobe团队将努力在Adobe Experience Platform上实现A4T。 Adobe团队正在确定如何处理在页面上不同时间发生的这些不同事件。
 
 ## *不使用* A4T 时的预期数据差异 {#expected-not-using-a4t}
 
@@ -35,7 +35,7 @@ ht-degree: 45%
 
 [!DNL Analytics] 使用基于访问和交易的系统，而 使用基于访客的量度。[!DNL Target]每当访客打开页面时，它都会计为[!DNL Analytics]中的一次访问，但在满足活动中设置的条件之前，[!DNL Target]不会计为一次访问。
 
-[!DNL Target]中的报表根据定义活动时选择的转化mbox显示性能。 但是，此转化mbox数据不会发送到[!DNL Analytics]，它有它自己的转化变量，这些变量由您的[!DNL Analytics]标记实现定义。 您希望获得相同数据的位置（例如，如果零售商的订单确认页面同时包含转化mbox和[!DNL Analytics]购买事件），则数据可能会因这些标记的位置而产生差异。 总体而言，两种产品报表中的趋势相似。
+[!DNL Target]中的报表根据定义活动时选择的转化mbox显示性能。 但是，此转化mbox数据不会发送到[!DNL Analytics]，它有它自己的转化变量，这些变量由您的[!DNL Analytics]标记实现定义。 您希望获得相同数据的位置(例如，如果retailer的订单确认页面同时包含转化mbox和[!DNL Analytics]购买事件)，则数据可能会因这些标记的位置而有所不同。 总体而言，两种产品报表中的趋势相似。
 
 技术和业务的差异均有可能造成预期数据的差异。
 

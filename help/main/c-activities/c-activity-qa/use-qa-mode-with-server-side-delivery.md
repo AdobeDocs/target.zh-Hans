@@ -15,7 +15,7 @@ ht-degree: 59%
 
 在[!DNL Adobe Target]中使用服务器端交付的QA URL来执行简单的端到端活动QA，它提供了永不变更的预览链接、可选的受众定位以及从实时活动数据中分段的QA报表。
 
-活动QA的标准实现支持通过`pageUrl`参数传递`qa_mode`参数。 此方法非常便于standard/ajax [!DNL Target]调用。 但是，对于服务器到服务器调用，当 `pageUrl` 不可用时，这不是实施 Mobile SDK 案例的最佳方法。
+活动QA的标准实现支持通过`qa_mode`参数传递`pageUrl`参数。 此方法非常便于standard/ajax [!DNL Target]调用。 但是，对于服务器到服务器调用，当 `pageUrl` 不可用时，这不是实施 Mobile SDK 案例的最佳方法。
 
 以下代码示例显示了服务器端调用中的活动 QA：
 

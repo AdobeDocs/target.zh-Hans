@@ -2,7 +2,7 @@
 keywords: 自动个性化；选件；报表；组；报表组；ap
 description: 了解如何在 [!DNL Adobe Target] [!UICONTROL Automated Personalization]活动中使用选件报表组。
 title: 我能否在[!UICONTROL Automated Personalization]活动中使用选件报表组？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -34,7 +34,7 @@ ht-degree: 15%
 ## 设置报表组
 
 1. 在AP活动的&#x200B;**[!UICONTROL Experiences]**&#x200B;页面上，单击&#x200B;**[!UICONTROL Manage Content]**&#x200B;图标（ ![管理内容图标](/help/main/assets/icons/Experience.svg)）
-1. 单击[!UICONTROL Manage Content]对话框顶部的&#x200B;**[!UICONTROL Offers]**&#x200B;选项卡。
+1. 单击&#x200B;**[!UICONTROL Offers]**&#x200B;对话框顶部的[!UICONTROL Manage Content]选项卡。
 1. （视情况而定）单击所需选件的[!UICONTROL More Actions]图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg) ），然后单击&#x200B;**[!UICONTROL Reporting Group]**，将特定体验添加到报表组。
 
 1. （视情况而定）在报表组中批量添加体验，方法是选中相关体验的复选框，然后单击对话框底部的&#x200B;**[!UICONTROL Reporting Group]**。

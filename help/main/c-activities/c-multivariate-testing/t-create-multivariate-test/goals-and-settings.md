@@ -1,19 +1,19 @@
 ---
 keywords: 活动设置；目标和设置；多变量；MVT
-description: 了解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Goals & Settings]页面指定有关[!UICONTROL Multivariate Test] (MVT)活动目标的信息。
+description: 了解如何使用[!UICONTROL Goals & Settings]中的 [!DNL Adobe Target] 页面指定有关[!UICONTROL Multivariate Test] (MVT)活动目标的信息。
 title: 如何在[!UICONTROL Multivariate Test] (MVT)活动中指定目标和设置？
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
 source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 41%
+ht-degree: 38%
 
 ---
 
 # 目标和设置([!UICONTROL Multivariate Test])
 
-在[!DNL Adobe Target]中的[!UICONTROL Goals & Settings]页面中，您可以输入有关[!UICONTROL Multivariate Test] (MVT)活动目标的信息。
+在[!UICONTROL Goals & Settings]中的[!DNL Adobe Target]页面中，您可以输入有关[!UICONTROL Multivariate Test] (MVT)活动目标的信息。
 
 以下部分可供参阅：
 
@@ -33,7 +33,7 @@ ht-degree: 41%
 
 ### 优先级
 
-根据您的设置，[!UICONTROL Priority]的[!DNL Target] UI和选项会有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的旧版设置，也可以启用0到999的细粒度优先级。
+根据您的设置，[!DNL Target]的[!UICONTROL Priority] UI和选项会有所不同。 您可以使用[!UICONTROL Low]、[!UICONTROL Medium]或[!UICONTROL High]的旧版设置，也可以启用0到999的细粒度优先级。
 
 如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。
 
@@ -54,7 +54,7 @@ ht-degree: 41%
 
 ### 持续时间
 
-活动可以在获得批准时开始，或者您也可以设置特定的日期和时间。同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。时间选择器使用的是 24 小时制时钟，其中 00:00 表示午夜。时区设置为在浏览器中配置的时区。要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
+活动可以在获得批准时开始，或者您也可以设置特定的日期和时间。同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。时间选择器使用24小时时钟，00:00为午夜。 时区设置为在浏览器中配置的时区。要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
 
 ## 报表设置 {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -78,7 +78,7 @@ ht-degree: 41%
 
 [!DNL Analytics for Target] (A4T)需要跟踪服务器才能正确报告结果。 [!UICONTROL Tracking Server]字段中将显示默认跟踪服务器。 如果使用多个跟踪服务器，请确保在此字段中包含正确的跟踪服务器。 有关详细信息，请参阅[使用Analytics跟踪服务器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
 
-**[!DNL Adobe Customer Journey Analytics]**：有关[!DNL Adobe Customer Journey Analytics]与[!DNL Target]之间集成的详细信息，请参阅[[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中报告。
+**[!DNL Adobe Customer Journey Analytics]**：有关[[!DNL Target] 与 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)之间集成的详细信息，请参阅[!DNL Adobe Customer Journey Analytics]在[!DNL Target]中报告。
 
 ### 目标量度
 
@@ -159,7 +159,7 @@ ht-degree: 41%
 
 以下视频包含有关本文中所讨论概念的详细信息。
 
-### 活动设置 (3:02)
+### 活动设置(3:02)
 
 以下视频包含有关活动设置的信息。
 
@@ -171,11 +171,11 @@ ht-degree: 41%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### 创建多变量测试 (9:25)
+### 创建多变量测试(9:25)
 
-本视频演示了如何使用[!DNL Target]三步引导式工作流创建多变量测试。 对目标和设置的讨论开始于 7:00。
+本视频演示了如何使用[!DNL Target]三步引导式工作流创建多变量测试。 从7:00开始讨论目标和设置。
 
 * 定义和设计多变量测试
 * 创建多变量测试
 
->[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

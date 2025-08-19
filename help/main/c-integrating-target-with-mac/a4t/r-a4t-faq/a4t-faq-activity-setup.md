@@ -7,7 +7,7 @@ exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 6%
 ## 哪些活动类型支持将[!DNL Analytics]作为报表源(A4T)？ {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++回答
-有关完整列表，请参阅[Adobe Analytics作为适用于Adobe Target (A4T)的Source报表](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)中的“支持的活动类型”。
+有关完整列表，请参阅[将 Adobe Analytics 作为 Adobe Target 报表源 (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 中的“支持的活动类型”。
 
 +++
 
@@ -52,16 +52,16 @@ ht-degree: 6%
 ## 在创建活动时，为何无法选择Analytics作为报表源？ {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++回答
-您可以在[!UICONTROL Administration]中更改[!UICONTROL Reporting Settings]选项。
+您可以在[!UICONTROL Reporting Settings]中更改[!UICONTROL Administration]选项。
 
 1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL Administration]**。
 1. 在&#x200B;**[!UICONTROL Experience Cloud solution used for reporting]**&#x200B;下拉列表中，单击&#x200B;**[!UICONTROL Select per Activity]**。
 
 ![为每个活动选择图像](assets/select-per-activity.png)
 
-已在&#x200B;**[!UICONTROL Goal & Settings]**&#x200B;屏幕中启用&#x200B;**[!UICONTROL Reporting Source]**&#x200B;下拉列表以创建和编辑活动。
+已在&#x200B;**[!UICONTROL Reporting Source]**&#x200B;屏幕中启用&#x200B;**[!UICONTROL Goal & Settings]**&#x200B;下拉列表以创建和编辑活动。
 
-要始终使用[!DNL Analytics]作为报表源，请从[!UICONTROL Administration]的下拉列表中选择&#x200B;**[!UICONTROL Adobe Analytics]**。
+要始终使用[!DNL Analytics]作为报表源，请从&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;的下拉列表中选择[!UICONTROL Administration]。
 
 +++
 

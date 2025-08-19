@@ -1,5 +1,5 @@
 ---
-keywords: 定位;定位类别;定位条件;Audience Manager;自定义配置文件参数;访客配置文件;自定义用户参数;定位规则
+keywords: 定位;定位类别;定位条件;Audience Manager;自定义轮廓参数;访客轮廓;自定义用户参数;定位规则
 description: 了解如何使用类别（如浏览器、地域、网络、操作系统、访客配置文件）来定位内容。
 title: 受众的类别是什么？
 feature: Audiences
@@ -25,7 +25,7 @@ ht-degree: 47%
 
 要创建包含跨类别的OR操作的复杂定位规则，请创建表达式目标。
 
-您还可以定位自定义配置文件参数和 `user.` 参数。添加受众时，拖放&#x200B;**[!UICONTROL Visitor Profile]**，然后选择要用于定位活动的参数。 如果未显示所需的参数，则该参数未由mbox触发。
+您还可以锁定自定义轮廓参数和 `user.` 参数。添加受众时，拖放&#x200B;**[!UICONTROL Visitor Profile]**，然后选择要用于定位活动的参数。 如果未显示所需的参数，则该参数未由mbox触发。
 
 使用搜索框搜索您的[!UICONTROL Audiences]列表。 您可以搜索受众名称的任意部分，或将特定字符串用引号引住。
 

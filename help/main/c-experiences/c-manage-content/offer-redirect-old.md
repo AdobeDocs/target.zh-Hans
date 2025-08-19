@@ -1,6 +1,6 @@
 ---
-keywords: 重定向选件;创建重定向选件;添加 HTML 选件;在重定向中传递所有 URL 参数;在重定向中传递 mboxSessionId（仅当要重定向到其他域时才需使用此功能）
-description: 了解如何在Adobe [!DNL Target] 中创建重定向选件以使Browser重定向到新页面。
+keywords: 重定向产品建议;创建重定向产品建议;添加 HTML 产品建议;在重定向中传递所有 URL 参数;在重定向中传递 mboxSessionId（仅当要重定向到其他域时才需使用此功能）
+description: 了解如何在Adobe [!DNL Target] 中创建重定向选件，以使浏览器重定向到新页面。
 title: 如何创建重定向选件？
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
@@ -11,7 +11,7 @@ ht-degree: 45%
 
 ---
 
-# 创建重定向选件
+# 创建重定向产品建议
 
 [!DNL Adobe Target]中的重定向选件导致浏览器重定向到新页面。
 
@@ -23,15 +23,15 @@ ht-degree: 45%
 >
 >* 您不能在ajax mbox (`mboxUpdate`)中使用重定向选件。
 >
->* 对于使用了 A4T 的活动中所包含的重定向选件，您的实施必须满足某些最低要求。除此之外，还有一些重要信息需要您知悉。有关更多信息，请参阅[重定向选件 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
+>* 对于使用了 A4T 的活动中所包含的重定向选件，您的实施必须满足某些最低要求。除此之外，还有一些重要信息需要您知悉。有关更多信息，请参阅[重定向产品建议 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)。
 >
 >* 有关如何设置可重定向的体验的信息，请参阅[重定向到 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)。
 
-重定向选件执行 JavaScript 代码以重定向浏览器。由于该选件使用了 `window.location.replace();` 方法，因此从中对访客进行重定向的页面不会存储到浏览器历史记录中。这允许访客仍然使用浏览器中的返回键。
+重定向产品建议执行 JavaScript 代码以重定向浏览器。由于该产品建议使用了 `window.location.replace();` 方法，因此从中对访客进行重定向的页面不会存储到浏览器历史记录中。这允许访客仍然使用浏览器中的返回键。
 
 >[!NOTE]
 >
->如果您希望传递登陆页的引荐链接值，建议您使用 HTML 选件，而不是重定向选件。
+>如果您希望传递登陆页的引荐链接值，建议您使用 HTML 产品建议，而不是重定向产品建议。
 
 ## 从“代码选件”页面创建重定向选件
 
@@ -51,13 +51,13 @@ ht-degree: 45%
 
    >[!NOTE]
    >
-   >如果重定向 URL 也使用户符合同一活动的参加条件，则重定向选件会引发无限循环。您应确保用户在重定向之后不会被重复授予该活动的资格。
+   >如果重定向 URL 也使用户符合同一活动的参加条件，则重定向产品建议会引发无限循环。您应确保用户在重定向之后不会被重复授予该活动的资格。
 
-1. 选择以下所需选项以自定义您的重定向选件：
+1. 选择以下所需选项以自定义您的重定向产品建议：
 
    * **包含所有URL参数：**&#x200B;如果要将上一页中存在的所有URL参数都传播到重定向页面，请滑动切换开关以启用此选项。
 
-     例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递 URL 中的动态参数，因为这样才能跟踪顾客是如何到达您的网站：是通过电子邮件、横幅广告、搜索广告还是自然访问。启用此选项后，当您在URL框中输入的是`https://www.mycompany.com/mensShirts.html`时，页面`https://www.mycompany.com/mens.html?emailId=123`上的重定向选件将自动变为`https://www.mycompany.com/mensShirts.html?emailId=123`。
+     例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递 URL 中的动态参数，因为这样才能跟踪顾客是如何到达您的网站：是通过电子邮件、横幅广告、搜索广告还是自然访问。启用此选项后，当您在URL框中输入的是`https://www.mycompany.com/mens.html?emailId=123`时，页面`https://www.mycompany.com/mensShirts.html?emailId=123`上的重定向选件将自动变为`https://www.mycompany.com/mensShirts.html`。
 
    * **传递mbox会话ID：**&#x200B;需要重定向到其他域。 如果要自动将`sessionId`包含在重定向中，请滑动切换开关以启用此选项。 仅当测试来自电子邮件的点击或从一个域到另一个域的点击时才需要此功能。 `sessionId` 与访客的 Cookie 相匹配，以便能够继续跟踪访客并显示相应的内容。
 
@@ -91,13 +91,13 @@ ht-degree: 45%
 
    >[!NOTE]
    >
-   >如果重定向 URL 也使用户符合同一活动的参加条件，则重定向选件会引发无限循环。您应确保用户在重定向之后不会被重复授予该活动的资格。
+   >如果重定向 URL 也使用户符合同一活动的参加条件，则重定向产品建议会引发无限循环。您应确保用户在重定向之后不会被重复授予该活动的资格。
 
-1. 选择以下所需选项以自定义您的重定向选件：
+1. 选择以下所需选项以自定义您的重定向产品建议：
 
    * **包含所有URL参数：**&#x200B;如果要将上一页中存在的所有URL参数都传播到重定向页面，请滑动切换开关以启用此选项。
 
-     例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递 URL 中的动态参数，因为这样才能跟踪顾客是如何到达您的网站：是通过电子邮件、横幅广告、搜索广告还是自然访问。启用此选项后，当您在URL框中输入的是`https://www.mycompany.com/mensShirts.html`时，页面`https://www.mycompany.com/mens.html?emailId=123`上的重定向选件将自动变为`https://www.mycompany.com/mensShirts.html?emailId=123`。
+     例如，您希望将顾客直接从男士服装页面重定向到男士衬衫类别页面。您还希望传递 URL 中的动态参数，因为这样才能跟踪顾客是如何到达您的网站：是通过电子邮件、横幅广告、搜索广告还是自然访问。启用此选项后，当您在URL框中输入的是`https://www.mycompany.com/mens.html?emailId=123`时，页面`https://www.mycompany.com/mensShirts.html?emailId=123`上的重定向选件将自动变为`https://www.mycompany.com/mensShirts.html`。
 
    * **传递mbox会话ID：**&#x200B;需要重定向到其他域。 如果要自动将`sessionId`包含在重定向中，请滑动切换开关以启用此选项。 仅当测试来自电子邮件的点击或从一个域到另一个域的点击时才需要此功能。 `sessionId` 与访客的 Cookie 相匹配，以便能够继续跟踪访客并显示相应的内容。
 

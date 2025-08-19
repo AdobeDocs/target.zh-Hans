@@ -1,6 +1,6 @@
 ---
 keywords: 多变量测试；活动URL
-description: 了解如何指定活动URL，以确定测试中使用的页面，以及在使用 [!DNL Adobe Target]设计[!UICONTROL Multivariate Test]活动时打开的页面。
+description: 了解如何指定活动URL，以确定测试中使用的页面，以及在使用[!UICONTROL Multivariate Test]设计 [!DNL Adobe Target]活动时打开的页面。
 title: '[!UICONTROL Multivariate Test] (MVT)活动中的活动网址是什么？'
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
@@ -29,7 +29,7 @@ ht-degree: 31%
 
    其他规则可以基于以下任何一项：
 
-   * [!UICONTROL &#x200B; URL]
+   * [!UICONTROL  URL]
    * [!UICONTROL Domain]
    * [!UICONTROL Path]
    * [!UICONTROL Hash (#) Fragment]
@@ -44,7 +44,7 @@ ht-degree: 31%
 >
 >如果您输入的URL所对应的网站不包含[!DNL Target] JavaScript代码，则您将无法选择页面元素。
 >
->默认情况下，VEC 不允许更改包含 JavaScript 的元素，如旋转横幅。如果您希望能够使用[!UICONTROL Visual Experience Composer]更改这些元素，可以关闭&#x200B;**[!UICONTROL Render using JavaScript]**。
+>默认情况下，VEC 不允许更改包含 JavaScript 的元素，如旋转横幅。如果您希望能够使用&#x200B;**[!UICONTROL Render using JavaScript]**&#x200B;更改这些元素，可以关闭[!UICONTROL Visual Experience Composer]。
 
 >[!NOTE]
 >

@@ -13,7 +13,7 @@ ht-degree: 64%
 
 # [!UICONTROL Visual Editing Helper]扩展
 
-通过[!DNL Google Chrome]的[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]浏览器扩展，您可以在[!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)内可靠地加载网站，以快速创作和QA Web体验。
+通过[!DNL Adobe Experience Cloud]的[!UICONTROL Visual Editing Helper] [!DNL Google Chrome]浏览器扩展，您可以在[!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)内可靠地加载网站，以快速创作和QA Web体验。
 
 >[!IMPORTANT]
 >
@@ -34,24 +34,24 @@ ht-degree: 64%
 
   使用[增强型体验编写器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)时，扩展未注入 at.js，但仍存在 SameSite Cookie 功能。要在网页上插入 at.js，请关闭 EEC。
 
-* 即使没有[!UICONTROL Enhanced Experience Composer] (EEC)，也支持[移动设备视区](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
+* 即使没有[ (EEC)，也支持](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)移动设备视区[!UICONTROL Enhanced Experience Composer]。
 * 对于 [!DNL Target] 的新客户，即便在其 IT 开发人员尚未在其网站上实施 [!DNL Target] 的情况下，也可以使用此扩展来试用 [!DNL Target]。
 * 服务于多个客户网站和 [!DNL Target] 帐户的合作伙伴现在有一个简单的机制来支持 VEC 加载，而不用通过第三方工具管理多个规则。
 
 ## 获取并安装[!UICONTROL Visual Editing Helper]浏览器扩展
 
-1. 导航到Chrome网上应用商店[&#128279;](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}中的[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]浏览器扩展。
+1. 导航到Chrome网上应用商店[[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]中的](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}浏览器扩展。
 1. 单击&#x200B;**[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**。
 1. 打开 [!DNL Target] 中的 VEC。
 1. 若要使用该扩展，请在处于VEC或QA模式时，单击Chrome浏览器工具栏中的[!UICONTROL Visual Editing Helper]浏览器扩展图标（![可视化编辑扩展图标](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）。
 
-   在[!UICONTROL Target] VEC中打开网站以进行创作时，[!UICONTROL Visual Editing Helper]会自动启用。 该扩展不具有任何有条件的设置。该扩展会自动处理所有设置，包括 SameSite cookie 设置。
+   在[!UICONTROL Visual Editing Helper] VEC中打开网站以进行创作时，[!UICONTROL Target]会自动启用。 该扩展不具有任何有条件的设置。该扩展会自动处理所有设置，包括 SameSite cookie 设置。
 
    若要了解有关`SameSite=None`属性浏览器修复的更多信息，请参阅“最近公布的 Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？”（在[排除与可视体验编辑器和增强体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)中）。
 
 ## 注释
 
-* 对于[!DNL Target]，该扩展加载最新版本的at.js，该版本可从[!UICONTROL Administration] > [!UICONTROL Implementation]中的[!DNL Target] UI访问，并且at.js会下载创作库。
+* 对于[!DNL Target]，该扩展加载最新版本的at.js，该版本可从[!DNL Target] > [!UICONTROL Administration]中的[!UICONTROL Implementation] UI访问，并且at.js会下载创作库。
 * 当在 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)下使用扩展插入 at.js 时，必须打开另一个 Chrome 选项卡。此 Chrome 选项卡必须经过创建活动所在[!DNL Adobe Experience Cloud]组织的身份验证。
 * 以下消息有助于您随时了解以下情况：
 

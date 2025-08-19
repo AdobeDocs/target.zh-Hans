@@ -19,7 +19,7 @@ ht-degree: 30%
 
 ## 创建活动
 
-创建使用[!DNL Analytics]作为报表源的[!DNL Target]活动与设置常规[!DNL Target]活动类似，但存在一些重要差异。 例如，在创建活动时无法选择要报告的区段，因为可在查看报告时应用[!DNL Analytics]中所有可用的区段。
+创建使用[!DNL Target]作为报表源的[!DNL Analytics]活动与设置常规[!DNL Target]活动类似，但存在一些重要差异。 例如，在创建活动时无法选择要报告的区段，因为可在查看报告时应用[!DNL Analytics]中所有可用的区段。
 
 1. 单击 **[!UICONTROL Create Activity]**。
 
@@ -61,7 +61,7 @@ ht-degree: 30%
 
    >[!NOTE]
    >
-   >您可以向[!DNL Analytics]发送基于Target的自定义量度，而不是仅依赖于[!DNL Analytics]数据。 例如，您可以监视点击页面，该页面通常不受[!DNL Analytics]的跟踪。 此自定义指标自动从[!DNL Target]服务器发送到[!DNL Analytics]，并在[!DNL Analytics]的指标选择器中显示为“[!DNL Target]转化”指标。 如果您选择使用[!DNL Analytics]量度，[!DNL Target]转化量度为空。
+   >您可以向[!DNL Analytics]发送基于Target的自定义量度，而不是仅依赖于[!DNL Analytics]数据。 例如，您可以监视点击页面，该页面通常不受[!DNL Analytics]的跟踪。 此自定义指标自动从[!DNL Analytics]服务器发送到[!DNL Target]，并在[!DNL Target]的指标选择器中显示为“[!DNL Analytics]转化”指标。 如果您选择使用[!DNL Target]量度，[!DNL Analytics]转化量度为空。
 
    设置目标并不意味着您不能在评估测试结果时使用其他量度。但是，目标可提醒您要通过活动加以改进的方面。
 

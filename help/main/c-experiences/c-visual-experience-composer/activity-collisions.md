@@ -13,7 +13,7 @@ ht-degree: 46%
 
 # 活动冲突
 
-[!DNL Adobe Target]中[!UICONTROL Activity Overview]页面上的[!UICONTROL Collisions]选项卡列出了您网站上的活动冲突。
+[!UICONTROL Collisions]中[!UICONTROL Activity Overview]页面上的[!DNL Adobe Target]选项卡列出了您网站上的活动冲突。
 
 当多个活动被设置为将内容发布到同一页面时，就会发生活动冲突。如果发生活动冲突，您可能无法在页面上看到预期的内容。
 

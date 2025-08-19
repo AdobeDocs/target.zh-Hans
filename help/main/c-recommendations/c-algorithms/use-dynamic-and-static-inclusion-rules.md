@@ -1,8 +1,8 @@
 ---
 keywords: 包含规则;包含标准;推荐;新建标准;促销活动;动态筛选;动态;空值;忽略筛选规则;静态筛选器;按值筛选;实体属性匹配;轮廓属性匹配;参数匹配;按值筛选;静态筛选器
-description: 了解如何在 [!DNL Target] Recommendations中为标准和促销活动创建包含规则。
-title: 如何在Recommendations中使用动态和静态包含规则？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+description: 了解如何在 [!DNL Target] 推荐中为标准和促销活动创建包含规则。
+title: 如何在推荐中使用动态和静态包含规则？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
@@ -25,7 +25,7 @@ ht-degree: 16%
 
 ### 将筛选规则添加到标准
 
-1. 在[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)时(**[!UICONTROL Recommendations]> [!UICONTROL Criteria] > [!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]**)，单击&#x200B;**[!UICONTROL Inclusion Rules]**&#x200B;下的&#x200B;**[!UICONTROL Add Filtering Rule]**。
+1. 在[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)时(**[!UICONTROL Recommendations]> [!UICONTROL Criteria] > [!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]**)，单击&#x200B;**[!UICONTROL Add Filtering Rule]**&#x200B;下的&#x200B;**[!UICONTROL Inclusion Rules]**。
 
    ![添加筛选规则](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
@@ -92,7 +92,7 @@ ht-degree: 16%
 | [!UICONTROL list does not contain an item in]<P>（在[!UICONTROL Profile Attribute Matching]和[!UICONTROL Parameter Matching]中可用。） | 在配置文件属性匹配中使用“[!UICONTROL list does not contain an item in]”运算符时，如果访客正在查看网站上的项目（例如产品、文章或影片），您可以排除以下其他项目：<ul><li>在访客查看的最近十个项目的列表中</li></ul></ul>**示例**：您不希望提升访客最近查看过且对其不感兴趣的项目。<P>您的筛选规则可能如下所示：<P>`id is not contained in list user.lastViewedItems`<P>**注意**：使用此运算符时，规则的[右侧](#caveats)应该有一个列表。 |
 | [!UICONTROL list contains an item in]<P>（适用于[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]和[!UICONTROL Parameter Matching]。） | 在配置文件属性匹配中使用“[!UICONTROL list contains an item in]”运算符，当访客查看网站上的项目时（例如体育赛事或音乐会），您可以促销以下其他项目：<ul><li>与访客最喜爱的团队之一关联</li></ul>**示例**：您希望推荐与访客最喜爱的团队之一关联的游戏。<P>您的筛选规则可能如下所示：<P>` teamsPlaying list contains an item in user.favoriteTeams`<P>**注意**：使用此运算符时，规则的[两侧](#caveats)中应该有一个列表。 |
 | [!UICONTROL list does not contain an item in]<P>（适用于[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]和[!UICONTROL Parameter Matching]。） | 在参数属性匹配中使用“[!UICONTROL list does not contain an item in]”运算符时，如果访客正在查看网站上的项目（例如产品、文章或影片），您可以排除以下其他项目：<ul><li>包含在禁止类型列表中</li></ul>**示例**：您希望排除成人访客可用的项目，例如烟草和酒精。<P>您的筛选规则可能如下所示：<P>`itemType is not contained in list mbox.prohibitedTypes`<P>**注意**：使用此运算符时，规则的[两侧](#caveats)中应该有一个列表。 |
-| [!UICONTROL list contains all items in]<P>（适用于[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]和[!UICONTROL Parameter Matching]。） | 在配置文件属性匹配中使用“[!UICONTROL list does not contain an item in]”运算符，当访客查看您网站上的项目时（例如工作发布或方法），您可以促销满足以下条件的其他项目：<ul><li>包括一组技能</li><li>包括一组所需成分</li></ul>**示例1**：假设访客具有一组技能(Java、C++和HTML)。 目录中的项目是具有所需技能(Java和HTML)的作业。 在向访客推荐作业之前，您需要确保访客的配置文件包含所有必需的技能。<P>您的筛选规则可能如下所示：<P>`profile.jobSeekerSkills contains all items in entity.requiredSkills`<P>**示例2**：假设用户具有食品柜配料的列表。 食谱里有一份必要配料的清单。 在向访客推荐方法之前，您需要确保访客的配置文件包含所有必需的组成部分。<P>您的筛选规则可能如下所示：<P>`profile.ingredientsInPantry contains all items in recipe.ingredientsRequired`<P>**注意**：使用此运算符时，规则的[两侧](#caveats)中应该有一个列表。 |
+| [!UICONTROL list contains all items in]<P>（适用于[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]和[!UICONTROL Parameter Matching]。） | 在配置文件属性匹配中使用“[!UICONTROL list does not contain an item in]”运算符，当访客查看您网站上的项目时（例如工作发布或方法），您可以促销满足以下条件的其他项目：<ul><li>包括一组技能</li><li>包括一组所需成分</li></ul>**示例1**：假设访客具有一组技能(Java、C++和HTML)。 目录中的项目是具有所需技能的作业(Java和HTML)。 在向访客推荐作业之前，您需要确保访客的配置文件包含所有必需的技能。<P>您的筛选规则可能如下所示：<P>`profile.jobSeekerSkills contains all items in entity.requiredSkills`<P>**示例2**：假设用户具有食品柜配料的列表。 食谱里有一份必要配料的清单。 在向访客推荐方法之前，您需要确保访客的配置文件包含所有必需的组成部分。<P>您的筛选规则可能如下所示：<P>`profile.ingredientsInPantry contains all items in recipe.ingredientsRequired`<P>**注意**：使用此运算符时，规则的[两侧](#caveats)中应该有一个列表。 |
 | [!UICONTROL list does not contain all items in]<P>（适用于[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]和[!UICONTROL Parameter Matching]。） | 在实体属性匹配中使用“[!UICONTROL list does not contain all items in]”运算符，当访客查看网站上的项目时（例如体育赛事或音乐会），您可以推广满足以下条件的其他项目：<ul><li>不包括团队集</li></ul>**示例**：假设体育赛事包括两支球队。 访客的配置文件指示该访客不想查看这些团队的游戏。 您希望确保在这些团队正在进行比赛时不推荐游戏。<P>您的筛选规则可能如下所示：<P>`profile.leastfavoriteTeams does not contain all items in entity.teamsPlaying`<P>**注意**：使用此运算符时，规则的[两侧](#caveats)中应该有一个列表。 |
 
 ## 按[!UICONTROL Entity Attribute Matching]、[!UICONTROL Profile Attribute Matching]和[!UICONTROL Parameter Matching]筛选时处理空值 {#section_7D30E04116DB47BEA6FF840A3424A4C8}

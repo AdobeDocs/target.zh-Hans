@@ -1,8 +1,8 @@
 ---
 keywords: 推荐设计;创建设计;复制设计
-description: 了解如何使用默认设计或通过创建自定义设计来创建Adobe [!DNL Target] Recommendations设计，以最好地适应页面的布局。
-title: 如何在Recommendations中创建设计？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+description: 了解如何使用默认设计或通过创建自定义设计以最适合您的页面布局来创建Adobe [!DNL Target] 推荐设计。
+title: 如何在“推荐”中创建设计？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -101,7 +101,7 @@ ht-degree: 20%
 
 以下示例显示了在通过基于表单的编辑器配置活动时如何返回JSON响应。
 
-1. 从设计库或基于表单的工作流中创建设计。 如果尝试在[!UICONTROL Visual Experience Composer] (VEC)工作流中创建设计，则无法创建除了HTML设计之外的任何其他设计，该设计封装在`<div>`中以进行点击跟踪。
+1. 从设计库或基于表单的工作流中创建设计。 如果尝试在[!UICONTROL Visual Experience Composer] (VEC)工作流中创建设计，则无法创建除了HTML设计之外的任何内容，该产品封装在`<div>`中用于点击跟踪。
 
 1. 确保已关闭“HTML 设计”选项：
 
@@ -163,8 +163,8 @@ ht-degree: 20%
 
    | 参数 | 值 |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Target客户端代码(位于/help/target/products.html#recsSettings > Recommendations API令牌>客户端代码)。 |
-   | `[YOUR_MBOX_NAME]` | 您在基于表单的Recommendations的“位置”部分中选择的名称，在本例中为Sample_Recs_Response。 |
+   | `[YOUR_CLIENT_CODE]` | Target客户端代码(位于/help/target/products.html#recsSettings >推荐API令牌>客户端代码)。 |
+   | `[YOUR_MBOX_NAME]` | 您在基于表单的“推荐”的“位置”部分中选择的名称，在本例中为Sample_Recs_Response。 |
    | `[ENTITY_ID` | 您目录中的项目的 `entity.id`。 |
    | `[AT_PROPERTY_TOKEN]` | （可选）如果您在活动设置过程中选择了某个属性（“企业权限”的一部分），则需添加此参数。 |
 
@@ -320,11 +320,11 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## 培训视频：在Recommendations中创建自定义设计(3:20) ![概述徽章](/help/main/assets/overview.png)
+## 培训视频：在推荐(3:20) ![概述徽章](/help/main/assets/overview.png)中创建自定义设计
 
 本视频包含以下信息：
 
 * 创建自定义设计
 * 了解如何在设计中引用显示变量
 
->[!VIDEO](https://video.tv.adobe.com/v/35357?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

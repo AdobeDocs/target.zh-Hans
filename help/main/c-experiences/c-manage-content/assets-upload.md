@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 上传或删除图像选件
 
-您可以将图像上传到[!DNL Adobe Target]中的[!UICONTROL Image Offers]库以用作活动中的图像选件。 您也可以删除活动中不再需要的图像选件。
+您可以将图像上传到[!UICONTROL Image Offers]中的[!DNL Adobe Target]库以用作活动中的图像选件。 您也可以删除活动中不再需要的图像选件。
 
 ## 将图像选件添加到列表
 

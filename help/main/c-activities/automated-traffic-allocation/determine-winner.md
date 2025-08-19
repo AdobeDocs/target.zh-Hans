@@ -13,7 +13,7 @@ ht-degree: 20%
 
 # 解释[!UICONTROL Auto-Allocate]报告
 
-通过检查重要指标（包括提升度和置信度）来解释[!UICONTROL Adobe Target]中的[!UICONTROL Auto-Allocate] A/B活动的结果。
+通过检查重要指标（包括提升度和置信度）来解释[!UICONTROL Auto-Allocate]中的[!UICONTROL Adobe Target] A/B活动的结果。
 
 许多营销人员会在结果指示明确的入选者之前，过早地错误宣布入选体验。[!DNL Target]使您更容易确定入选者。
 
@@ -39,7 +39,7 @@ ht-degree: 20%
 
 [!DNL Target]没有对[!UICONTROL Auto-Allocate]使用基于p值的置信度。
 
-[!UICONTROL Auto-Allocate]活动中的[!UICONTROL Confidence]列显示体验在1%的错误容限内成为入选者的概率。 该算法在最佳和次最佳转化率之间使用1%的最小可检测效果。 算法使用[Bernstein不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)来计算此概率。
+[!UICONTROL Confidence]活动中的[!UICONTROL Auto-Allocate]列显示体验在1%的错误容限内成为入选者的概率。 该算法在最佳和次最佳转化率之间使用1%的最小可检测效果。 算法使用[Bernstein不等式](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)来计算此概率。
 
 常规 A/B 测试将基于 p 值计算置信度。[!UICONTROL Auto-Allocate]不使用p值。 p 值可“大致”计算出某个特定体验与控制体验存在差异的概率。这些 p 值只能用于确定体验是否与控制体验存在差异。这些值不能用于确定体验是否与其他体验（非控制体验）存在差异。
 
@@ -77,8 +77,8 @@ ht-degree: 20%
 
 * 如果报表中所有置信度值均显示为 0%，则有可能是进入活动的时间过早。
 
-### “无入选者”、“入选者”和“星星”徽章是否适用于使用[!UICONTROL Analytics as the reporting source] (A4T)的[!UICONTROL Auto-Allocate]活动？
+### “无入选者”、“入选者”和“星星”徽章是否适用于使用[!UICONTROL Auto-Allocate] (A4T)的[!UICONTROL Analytics as the reporting source]活动？
 
-“尚未有入选者”和“入选者”徽章当前在[!DNL Analysis Workspace]的[!UICONTROL A4T]面板中不可用。 如果在[!DNL Target]中查看了同一报告，则这些徽章也将不可用。 使用A4T的[!UICONTROL Auto-Allocate]活动的[!DNL Target]报表中显示的入选者“星”徽章应当被忽略。
+“尚未有入选者”和“入选者”徽章当前在[!UICONTROL A4T]的[!DNL Analysis Workspace]面板中不可用。 如果在[!DNL Target]中查看了同一报告，则这些徽章也将不可用。 使用A4T的[!DNL Target]活动的[!UICONTROL Auto-Allocate]报表中显示的入选者“星”徽章应当被忽略。
 
-有关此限制及其他限制和注释的更多信息，请参阅[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动&#x200B;*的* A4T支持[自动分配](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)。
+有关此限制及其他限制和注释的更多信息，请参阅[和](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)活动&#x200B;*的[!UICONTROL Auto-Allocate]A4T支持[!UICONTROL Auto-Target]自动分配*。

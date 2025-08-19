@@ -11,7 +11,7 @@ ht-degree: 19%
 
 ---
 
-# 创建远程选件
+# 创建远程产品建议
 
 使用远程选件在[!DNL Adobe Target]之外托管内容，允许[!DNL Target]引用此内容并将其交付到用户网站。 出于易用性或安全原因，此内容可以驻留在内容管理系统(CMS)或其他系统中。
 
@@ -107,7 +107,7 @@ ht-degree: 19%
 
 使用[!UICONTROL Form-Based Experience Composer]应用远程选件。 您当前无法使用[!UICONTROL Visual Experience Composer] (VEC)应用远程选件。
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非可视化体验和选件创建界面，当[!UICONTROL Visual Experience Composer]不可用或不实用时，它有助于创建在[!UICONTROL A/B Tests]、[!UICONTROL Experience Targeting] (XT)、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Recommendations]活动中使用的体验。 例如，您可以使用[!UICONTROL Form-Based Experience Composer]创建使用远程选件的体验。
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非可视化体验和选件创建界面，当[!UICONTROL A/B Tests]不可用或不实用时，它有助于创建在[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization] (XT)、[!UICONTROL Recommendations] (AP)和[!UICONTROL Visual Experience Composer]活动中使用的体验。 例如，您可以使用[!UICONTROL Form-Based Experience Composer]创建使用远程选件的体验。
 
 1. 在[!UICONTROL Form-Based Experience Composer]中创建或编辑活动。
 

@@ -1,7 +1,7 @@
 ---
-keywords: Recommendations；选件；预览；启动项；状态；标准；算法
-description: 了解如何预览Adobe [!DNL Target] Recommendations活动，以确保在启动活动之前结果可用。
-title: 如何预览和启动Recommendations活动？
+keywords: 推荐；选件；预览；启动项；状态；标准；算法
+description: 了解如何预览Adobe [!DNL Target] 推荐活动，以确保在启动该活动之前结果可用。
+title: 如何预览和启动“推荐”活动？
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
@@ -13,15 +13,15 @@ ht-degree: 15%
 
 # 预览和启动“推荐”活动
 
-在创建包含[Recommendations选件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL Recommendations]、[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting] (XT)活动后，您将需要预览您的推荐，以确保在启动活动之前结果可用。 [!DNL Target Recommendations]提供了多种预览推荐的方法。
+在创建包含[!UICONTROL Recommendations]推荐选件[!UICONTROL A/B Test]的[!UICONTROL Experience Targeting]、[或](/help/main/c-recommendations/recommendations-as-an-offer.md) (XT)活动后，您需要预览您的推荐，以确保在启动活动之前结果可用。 [!DNL Target Recommendations]提供了多种预览推荐的方法。
 
-## 检查Recommendations算法状态
+## 检查推荐算法状态
 
 创建活动后，[!DNL Recommendations]运行算法以生成推荐。 此算法可能需要几个小时才能运行。
 
 您可以检查算法是否已在[!UICONTROL Activity]概述图中完成运行，其中列出了条件状态。 下图显示了[!DNL Recommendations]活动[!UICONTROL Overview]页面上的活动图中的状态：
 
-![Recommendations活动概述页面](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
+![推荐活动概述页面](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 状态结果包括以下内容，如下所示：
 
@@ -53,9 +53,9 @@ ht-degree: 15%
 >
 >[!UICONTROL Recently Viewed Items]不需要运行离线算法，结果立即可用。 由于所需的计算比较简单，基于mbox数据的[!UICONTROL Top Viewed]和[!UICONTROL Top Sellers]算法通常可快速生成结果。 当您想要预览设计更改或确认行为数据正在正确收集时，这些可能是很好的选项。
 
-## 使用QA链接预览Recommendations
+## 使用QA链接预览推荐
 
-在算法具有结果就绪后，您可以使用[!DNL Adobe Target]的[QA链接](/help/main/c-activities/c-activity-qa/activity-qa.md)功能预览这些结果。 QA链接在[!UICONTROL Activity]概述页面的[!UICONTROL Activity Location]部分可用：
+在算法具有结果就绪后，您可以使用[的](/help/main/c-activities/c-activity-qa/activity-qa.md)QA链接[!DNL Adobe Target]功能预览这些结果。 QA链接在[!UICONTROL Activity Location]概述页面的[!UICONTROL Activity]部分可用：
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ ht-degree: 15%
 >
 >包含[!UICONTROL User-Based Recommendations]算法的活动无法下载结果。 使用[!UICONTROL Recently-Viewed Items]推荐逻辑的标准无法下载结果。
 
-## 激活您的Recommendations活动
+## 激活您的“推荐”活动
 
 在[!UICONTROL Activity Overview]选项卡中，单击“状态”下拉箭头，然后选择&#x200B;**[!UICONTROL Activate]**。
 
@@ -105,7 +105,7 @@ ht-degree: 15%
 
 您还可以使用相同的下拉列表取消激活或存档活动。
 
-## 避免在更改Recommendations设置时发生中断
+## 避免在更改“推荐”设置时发生中断
 
 在实时活动中更改[!DNL Recommendations]收藏集、标准、促销或设计设置可能会导致算法结果无效，并将算法的状态更改为[!UICONTROL Results Not Ready]。
 

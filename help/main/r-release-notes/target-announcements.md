@@ -9,7 +9,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -160,7 +160,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### 厨师的收藏集：个性化食谱（2022 年 8 月 30 日）
 
-加入 [!DNL Adobe Target] 团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 基于我们最新的电子书《Chef&#39;s Collection: Ideas for Personalization》。
+加入 [!DNL Adobe Target] [!DNL]团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 基于我们最新的电子书《Chef&#39;s Collection: Ideas for Personalization》。
 
 * [录像链接](https://video.tv.adobe.com/v/346970/){target=_blank}
 

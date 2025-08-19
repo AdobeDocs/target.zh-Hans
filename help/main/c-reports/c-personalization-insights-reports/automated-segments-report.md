@@ -1,14 +1,14 @@
 ---
 keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;自动化区段;常见问题解答
-description: 通过查看“自动化区段”报表，了解由Adobe [!DNL Target] 个性化模型定义的各种区段如何响应活动中的选件/体验。
+description: 通过查看“自动化区段”报表，了解Adobe [!DNL Target] 个性化模型定义的不同区段如何响应活动中的选件/体验。
 title: 什么是自动化区段报表？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '2066'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 59%
 >
 >* [!UICONTROL Personalization Insights]报表仅适用于使用转化优化目标的AP和AT活动。 活动上线后将优化目标从收入更改为转化的活动也不受支持。
 >
->* 仅当从[!UICONTROL Report Metric]下拉列表中选择[!UICONTROL Primary Goal]时，[!UICONTROL Personalization Insights]报告才可用。
+>* 仅当从[!UICONTROL Personalization Insights]下拉列表中选择[!UICONTROL Primary Goal]时，[!UICONTROL Report Metric]报告才可用。
 >
->* 仅[默认环境](/help/main/administrating-target/hosts.md)支持[!UICONTROL Personalization Insights]报告。
+>* 仅[!UICONTROL Personalization Insights]默认环境[支持](/help/main/administrating-target/hosts.md)报告。
 >
->* 仅为处于[!UICONTROL Live]状态并且已激活且接收流量至少15天的活动生成[!UICONTROL Personalization Insights]报告。
+>* 仅为处于[!UICONTROL Personalization Insights]状态并且已激活且接收流量至少15天的活动生成[!UICONTROL Live]报告。
 
 不同的访客对您的 AP/AT 活动中的选件/体验做出的响应会有所不同。此报表可显示 Target 的个性化模型定义的不同自动化区段如何响应活动中的产品建议/体验。
 
@@ -50,7 +50,7 @@ ht-degree: 59%
 
 1. 选择所需的日期范围。
 
-   与[!UICONTROL Summary]报表（性能报表）不同，包括[!UICONTROL Automated Segments]在内的[!UICONTROL Personalization Insights]仅适用于固定日期范围：15天、30天和60天。 这些固定的日期范围允许[!UICONTROL Personalization Insights]使用足够大的数据范围，以降低您从活动中的短期模式获取见解的可能性。 您可以决定日期范围的“结束日期”和“持续时间”。您会注意到“开始”显示为灰色。 开始日期会根据您选择的结束日期和持续时间自动进行更改。
+   与[!UICONTROL Summary]报表（性能报表）不同，包括[!UICONTROL Personalization Insights]在内的[!UICONTROL Automated Segments]仅适用于固定日期范围：15天、30天和60天。 这些固定的日期范围允许[!UICONTROL Personalization Insights]使用足够大的数据范围，以降低您从活动中的短期模式获取见解的可能性。 您可以决定日期范围的“结束日期”和“持续时间”。您会注意到“开始”显示为灰色。 开始日期会根据您选择的结束日期和持续时间自动进行更改。
 
    您可以从[!UICONTROL Preset Date Range]下拉列表中访问可用的固定日期范围。
 
@@ -102,7 +102,7 @@ ht-degree: 59%
 
 属性是关于个性化算法为了解如何个性化流量而使用的访客或其特定访问的信息。例如，属性可以是浏览器类型、位置、访问时间等。
 
-有关 [!DNL Target] 在其个性化模型中使用的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。有关如何将新属性上传到Target以在Target的个性化模型中使用的更多信息，请参阅[将数据导入Target的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}。
+有关 [!DNL Target] 在其个性化模型中使用的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。有关如何将新属性上传到 Target 以在 Target 的个性化模型中使用的更多信息，请参阅[将数据导入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 **什么是自动化区段？**
 

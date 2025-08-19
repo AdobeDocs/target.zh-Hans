@@ -13,11 +13,11 @@ ht-degree: 39%
 
 # A4T 报表
 
-使用[!DNL Adobe Analytics]作为[!DNL Adobe Target] (A4T)的报告源，可让您访问[!DNL Target]活动的[!DNL Analytics]报告。
+使用[!DNL Adobe Analytics]作为[!DNL Adobe Target] (A4T)的报告源，可让您访问[!DNL Analytics]活动的[!DNL Target]报告。
 
 您可以在[!DNL Analytics]和[!DNL Target]中查看活动报告。
 
-有关[!DNL Target]使用[!DNL Analytics]的报表最佳实践，[请访问此Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
+若要了解使用[!DNL Analytics]作为[!DNL Target]的报表最佳实践，[请访问此Adobe Spark页面](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
 
 ## 概述 {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -45,16 +45,16 @@ ht-degree: 39%
 
 ### 量度
 
-* [!UICONTROL Activity Impressions] — 与[!DNL Target]报告中的[!UICONTROL Entrants]编号匹配。
-* [!UICONTROL Activity Conversions] — 与[!DNL Target]报告中的[!UICONTROL Custom Conversions]编号匹配。
+* [!UICONTROL Activity Impressions] — 与[!UICONTROL Entrants]报告中的[!DNL Target]编号匹配。
+* [!UICONTROL Activity Conversions] — 与[!UICONTROL Custom Conversions]报告中的[!DNL Target]编号匹配。
 
-在[!DNL Analysis Workspace]中，使用[!UICONTROL Analytics for Target]面板以提升度和置信度分析您的[!DNL Target]活动和体验。 有关详细信息，请参阅&#x200B;*Analytics工具指南*&#x200B;中的[Analytics for Target (A4T)面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hans)。
+在[!DNL Analysis Workspace]中，使用[!UICONTROL Analytics for Target]面板以提升度和置信度分析您的[!DNL Target]活动和体验。 有关详细信息，请参阅[Analytics工具指南](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hans)中的&#x200B;*Analytics for Target (A4T)面板*。
 
 >[!IMPORTANT]
 >
->如果您在[!DNL Analytics]中的[!UICONTROL Target Activities]报表列出了“未指定”而不是您的活动，则需要更新您的设置帐户。 请联系客户关怀团队以解决此问题。
+>如果您在[!UICONTROL Target Activities]中的[!DNL Analytics]报表列出了“未指定”而不是您的活动，则需要更新您的设置帐户。 请联系客户关怀团队以解决此问题。
 
-有关详细信息和示例，请打开由Adobe Experience League提供的[Analytics &amp; Target：分析最佳实践](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教程。
+有关详细信息和示例，请打开由Adobe Experience League提供的[Analytics &amp; Target：Analysis最佳实践](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教程。
 
 ## [!DNL Target]中的报告 {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
@@ -89,7 +89,7 @@ ht-degree: 39%
 1. 单击&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**。
 1. 在&#x200B;**[!UICONTROL Data Warehouse Request]**&#x200B;选项卡上，填写字段。
 
-   有关各个字段的更多信息，请参阅 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=zh-Hans) 中的“Data Warehouse 请求描述”。
+   有关各个字段的更多信息，请参阅 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html) 中的“Data Warehouse 请求描述”。
 
    | 字段 | 说明 |
    |--- |--- |
@@ -98,7 +98,7 @@ ht-degree: 39%
    | 可用区段 | 根据需要应用区段。 |
    | 划分 | 选择所需的维度：“标准”维度是现成的(OOTB)，而“自定义”维度包含eVar和prop。 如果需要访客ID级别信息，建议您使用“访客ID”，而不是“Experience Cloud访客ID”。<ul><li>访客 ID 是 Analytics 使用的最终 ID。访客 ID 将为 AID（如果客户是旧客户）或 MID（如果客户是新客户，或者清除了自 MC 访客 ID 服务启动以来的 Cookie）。</li><li>仅当客户是新客户，或者清除了自 MC 访客 ID 服务启动以来的 Cookie 时，才会为客户设置 Experience Cloud 访客 ID。</li></ul> |
    | 量度 | 选择所需的量度。“标准”量度为开箱即用量度，而“自定义”量度包含自定义事件。 |
-   | 报表预览 | 在计划报表之前查看您的设置。<br>![Data Warehouse2](/help/main/c-reports/assets/datawarehouse2.png) |
+   | 报表预览 | 在计划报表之前查看您的设置。<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
    | 计划提交 | 输入要向其传递文件的电子邮件地址，命名文件，然后选择[!UICONTROL Send Immediately]。<br>注意：可在[!UICONTROL Advanced Delivery Options]<br>![计划提交](/help/main/c-reports/assets/datawarehouse3.png)下通过FTP提交文件。 |
 
 1. 单击 **[!UICONTROL Request this Report]**。
@@ -109,5 +109,5 @@ ht-degree: 39%
 
 有关 [!DNL Data Warehouse] 的更多信息，请访问 [!DNL Analytics] 帮助文档中的以下链接：
 
-* [创建Data Warehouse请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=zh-Hans)
-* [Data Warehouse最佳实践](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=zh-Hans)
+* [创建Data Warehouse请求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data Warehouse最佳实践](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

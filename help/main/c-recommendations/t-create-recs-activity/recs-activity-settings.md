@@ -1,20 +1,20 @@
 ---
 keywords: 推荐;设置;名称;目标;优先级;持续时间;报表设置;其他元数据
-description: 了解如何配置用于描述和控制Adobe Target中的Recommendations活动的设置。
-title: 如何配置Recommendations活动设置？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+description: 了解如何配置用于描述和控制Adobe Target中的“推荐”活动的设置。
+title: 如何配置“推荐”活动设置？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 45%
+ht-degree: 43%
 
 ---
 
 # “推荐”活动设置
 
-有关可用于描述和控制[!DNL Adobe Target]中的[!UICONTROL Recommendations]活动的设置的信息。
+有关可用于描述和控制[!UICONTROL Recommendations]中的[!DNL Adobe Target]活动的设置的信息。
 
 以下部分介绍了[!UICONTROL Recommendations]活动的可用设置。
 
@@ -49,7 +49,7 @@ ht-degree: 45%
 
 设置活动的持续时间。
 
-活动可以在激活时开始，或者您也可以设置特定的日期和时间。同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。时间选择器使用的是 24 小时制时钟，其中 00:00 表示午夜。时区设置为在浏览器中配置的时区。要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
+活动可以在激活时开始，或者您也可以设置特定的日期和时间。同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。时间选择器使用24小时时钟，00:00为午夜。 时区设置为在浏览器中配置的时区。要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。
 
 ## 报表设置
 
@@ -69,7 +69,7 @@ ht-degree: 45%
 
   [!DNL Analytics for Target] (A4T)需要跟踪服务器才能正确报告结果。 [!UICONTROL Tracking Server]字段中将显示默认跟踪服务器。 如果使用多个跟踪服务器，请确保在此字段中包含正确的跟踪服务器。 有关详细信息，请参阅[使用Analytics跟踪服务器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
 
-  **[!DNL Adobe Customer Journey Analytics]**：有关[!DNL Adobe Customer Journey Analytics]与[!DNL Target]之间集成的详细信息，请参阅[[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中报告。
+  **[!DNL Adobe Customer Journey Analytics]**：有关[[!DNL Target] 与 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)之间集成的详细信息，请参阅[!DNL Adobe Customer Journey Analytics]在[!DNL Target]中报告。
 
 * **目标量度：**&#x200B;选择用于确定活动是否成功的成功量度。
 * **其他量度：**&#x200B;配置要在报表中使用的其他成功量度。

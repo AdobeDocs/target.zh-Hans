@@ -15,7 +15,7 @@ ht-degree: 8%
 
 受众可确定哪些符合条件的访客进入了您的[!DNL Adobe Target]活动。
 
-在[创建活动](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)时，三步引导式工作流的[!UICONTROL Targeting]步骤会显示流程图，该流程图将引导您完成以下步骤：分配受众及其流量百分比、选择流量分配方法并为活动中的每个体验指定流量分配。
+在[!UICONTROL Targeting]创建活动[时，三步引导式工作流的](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)步骤会显示流程图，该流程图将引导您完成以下步骤：分配受众及其流量百分比、选择流量分配方法并为活动中的每个体验指定流量分配。
 
 ![A/B 测试定位步骤](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
@@ -44,7 +44,7 @@ ht-degree: 8%
    在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
 
    * **[!UICONTROL Audience Library]**：创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用。
-   * **[!UICONTROL This activity only]**：创建未保存到[!UICONTROL Audience Library]的[活动特定受众](/help/main/c-target/creating-activity-only-audience.md)，该受众只能用于当前活动。
+   * **[!UICONTROL This activity only]**：创建未保存到[的](/help/main/c-target/creating-activity-only-audience.md)活动特定受众[!UICONTROL Audience Library]，该受众只能用于当前活动。
 
 1. 单击右侧窗格中的&#x200B;**[!UICONTROL Visitor Percentage]**，然后指定要包含在活动中的符合条件的访客的百分比。
 
@@ -62,6 +62,6 @@ ht-degree: 8%
 
 ## 编辑或复制受众
 
-您可以编辑或复制受众，方法是在[!UICONTROL Add Audience]对话框中单击所需受众旁边的[!UICONTROL More Actions]图标（![更多操作图标](/help/main/assets/icons/More.svg)），然后单击[!UICONTROL Edit]或[!UICONTROL Copy]。
+您可以编辑或复制受众，方法是在[!UICONTROL More Actions]对话框中单击所需受众旁边的![图标（](/help/main/assets/icons/More.svg)更多操作图标[!UICONTROL Add Audience]），然后单击[!UICONTROL Edit]或[!UICONTROL Copy]。
 
 如果您想要创建一个与现有受众类似的受众，则复制受众很有用。您可以制作受众的副本、进行编辑，然后将其另存为新受众。

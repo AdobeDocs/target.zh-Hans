@@ -2,7 +2,7 @@
 keywords: 自动定位；定位；流量分配；常见问题；faq；故障诊断；故障排除
 description: 了解[!UICONTROL Auto-Target]活动如何根据客户配置文件和类似访客的行为，为每位访客提供量身定制的体验。
 title: 什么是[!UICONTROL Auto-Target]活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
@@ -12,9 +12,9 @@ ht-degree: 18%
 
 ---
 
-# [!UICONTROL Auto-Target]概述
+# [!UICONTROL Auto-Target] 概述
 
-[!DNL Adobe Target]中的[!UICONTROL Auto-Target]活动使用高级机器学习从多个高性能、营销人员定义的体验中进行选择，以便个性化内容并促进转化。 [!UICONTROL Auto-Target]根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，为每位访客提供量身定制的体验。
+[!UICONTROL Auto-Target]中的[!DNL Adobe Target]活动使用高级机器学习从多个高性能、营销人员定义的体验中进行选择，以便个性化内容并促进转化。 [!UICONTROL Auto-Target]根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，为每位访客提供量身定制的体验。
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ ht-degree: 18%
 
 ## 使用自动定位的真实成功案例 {#success}
 
-一家主要服装零售商最近使用具有十个基于产品类别的体验（加上随机控制）的[!UICONTROL Auto-Target]活动为每位访客提供正确的内容。 已选择“[!UICONTROL Add to Cart]”作为主要优化指标。 目标体验的平均提升度为29.09%。 构建[!UICONTROL Auto-Target]模型后，活动设置为90%个性化体验。
+一家主要服装retailer最近使用具有十个基于产品类别的体验（加上随机控制）的[!UICONTROL Auto-Target]活动为每位访客提供正确内容。 已选择“[!UICONTROL Add to Cart]”作为主要优化指标。 目标体验的平均提升度为29.09%。 构建[!UICONTROL Auto-Target]模型后，活动设置为90%个性化体验。
 
 在短短10天内，就实现了超过170万美元的提升。
 
@@ -32,11 +32,11 @@ ht-degree: 18%
 
 ## 概述 {#section_972257739A2648AFA7E7556B693079C9}
 
-使用三步引导式工作流[创建A/B活动](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)时，请在&#x200B;**[!UICONTROL Targeting]**&#x200B;页面上选择&#x200B;**[!UICONTROL Auto-Target for personalized experiences]**&#x200B;选项（步骤2）。
+使用三步引导式工作流[创建A/B活动](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)时，请在&#x200B;**[!UICONTROL Auto-Target for personalized experiences]**&#x200B;页面上选择&#x200B;**[!UICONTROL Targeting]**&#x200B;选项（步骤2）。
 
 ![流量分配方法设置](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
-通过A/B活动流程中的[!UICONTROL Auto-Target]选项，您可以利用机器学习功能，只需一次单击即可根据营销人员定义的一组体验进行个性化。 与传统A/B测试或[!UICONTROL Auto Allocate]相比，[!UICONTROL Auto-Target]旨在通过确定为每个访客显示哪个体验来实现最大程度的优化。 与目标是找到一个入选者的A/B活动不同，[!UICONTROL Auto-Target]会自动确定适用于给定访客的最佳体验。 最佳体验基于访客的个人资料和其他上下文信息，以提供高度个性化的体验。
+通过A/B活动流程中的[!UICONTROL Auto-Target]选项，您可以利用机器学习功能，只需一次单击即可根据营销人员定义的一组体验进行个性化。 与传统A/B测试或[!UICONTROL Auto-Target]相比，[!UICONTROL Auto Allocate]旨在通过确定为每个访客显示哪个体验来实现最大程度的优化。 与目标是找到一个入选者的A/B活动不同，[!UICONTROL Auto-Target]会自动确定适用于给定访客的最佳体验。 最佳体验基于访客的个人资料和其他上下文信息，以提供高度个性化的体验。
 
 与[!UICONTROL Automated Personalization]类似，[!UICONTROL Auto-Target]使用[随机林算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)（一种领先的数据科学组合方法）来确定要向访客显示的最佳体验。 由于[!UICONTROL Auto-Target]可以适应访客行为的变化，因此它可以一直运行以实现提升。 此方法有时称为“始终运行”模式。
 
@@ -96,19 +96,19 @@ ht-degree: 18%
 | **[!UICONTROL Maximize Personalization Traffic (90/10)]**：如果您的目标是创建“一直开启”的活动，则可以在控制中放入10%的访客，以确保算法有足够的数据来不断学习。 这里做出的权衡是，为了对更大比例的流量进行个性化，提升度的准确性将会降低。 无论您的目标如何，在使用特定体验作为控制时，都建议按此比例拆分流量。 | 最佳实践是使用 10% - 30% 控制体验 / 70% - 90% 个性化体验的拆分方式 | <ul><li>最大限度地增加具有个性化体验的访客数量</li><li>最大化提升度</li><li>对于该活动具有的提升度，准确度较低</li></ul> |
 | **自定义分配** | 根据需要手动拆分百分比。 | <ul><li>您可能无法获得所需的结果。如果您不确定，请按照上述任一选项的建议进行操作</li></ul> |
 
-要调整[!UICONTROL Control]百分比，请单击[!UICONTROL Traffic Allocation]窗格中的[!UICONTROL Experiences]，然后根据需要调整百分比。 您不能将控制组降至 10% 以下。
+要调整[!UICONTROL Control]百分比，请单击[!UICONTROL Experiences]窗格中的[!UICONTROL Traffic Allocation]，然后根据需要调整百分比。 您不能将控制组降至 10% 以下。
 
 您可以[选择特定体验作为控制](/help/main/c-activities/t-automated-personalization/experience-as-control.md)，也可以使用“随机体验”选项。
 
-## 何时应选择[!UICONTROL Auto-Target]而不是[!UICONTROL Automated Personalization]？{#section_BBC4871C87944DD7A8B925811A30C633}
+## 何时应选择[!UICONTROL Auto-Target]而不是[!UICONTROL Automated Personalization]？ {#section_BBC4871C87944DD7A8B925811A30C633}
 
 在以下几种情况中，您可能会偏向使用[!UICONTROL Auto-Target]，而不是[!UICONTROL Automated Personalization]：
 
 * 如果您想定义整个体验，而不是单个选件（会自动组合形成体验）。
-* 如果要使用[!UICONTROL Auto Personalization]不支持的整套[!UICONTROL Visual Experience Composer] (VEC)功能：自定义代码编辑器、多个体验受众等。
+* 如果要使用[!UICONTROL Visual Experience Composer]不支持的整套[!UICONTROL Auto Personalization] (VEC)功能：自定义代码编辑器、多个体验受众等。
 * 如果您想在不同的体验中对页面进行结构性更改。例如，如果您想重新排列主页上的元素，[!UICONTROL Auto-Target]比[!UICONTROL Automated Personalization]更适合使用。
 
-## [!UICONTROL Auto-Target]与[!UICONTROL Automated Personalization]有什么共同点？{#section_2A601F482F9A44E38D4B694668711319}
+## [!UICONTROL Auto-Target]与[!UICONTROL Automated Personalization]有什么共同点？ {#section_2A601F482F9A44E38D4B694668711319}
 
 ### 算法会针对每次访问的有利结果进行优化。
 
@@ -138,11 +138,11 @@ ht-degree: 18%
 
 * 了解有关[上传[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)数据的更多信息。
 
-## [!UICONTROL Auto-Target]与[!UICONTROL Automated Personalization]有何不同？{#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
+## [!UICONTROL Auto-Target]与[!UICONTROL Automated Personalization]有何不同？ {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
 ### [!UICONTROL Auto-Target]通常需要少于[!UICONTROL Automated Personalization]的流量才能构建个性化模型。
 
-尽管生成[!UICONTROL Auto-Target]或[!UICONTROL Auto Personalization]模型所需的每个体验&#x200B;*的流量*&#x200B;相同，但[!UICONTROL Automated Personalization]活动中的体验通常比[!UICONTROL Auto-Target]活动中的体验多。
+尽管生成&#x200B;*或*&#x200B;模型所需的每个体验[!UICONTROL Auto-Target]的流量[!UICONTROL Auto Personalization]相同，但[!UICONTROL Automated Personalization]活动中的体验通常比[!UICONTROL Auto-Target]活动中的体验多。
 
 例如，如果您的[!UICONTROL Auto Personalization]活动中有两个位置，且您已为每个位置创建两个选件，则该活动中将共包含四个(2 = 4)体验（不含排除项）。 使用[!UICONTROL Auto-Target]，您可以将体验1设置为在位置1中包含选件1，在位置2中包含选件2，将体验2设置为在位置1中包含选件1，在位置2中包含选件2。 由于[!UICONTROL Auto-Target]允许您选择在一个体验中进行多次更改，因此您可以减少活动中的体验总数。
 

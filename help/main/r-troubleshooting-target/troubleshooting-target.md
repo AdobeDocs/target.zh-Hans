@@ -28,15 +28,15 @@ ht-degree: 96%
 
 * [九种常见的 A/B 测试陷阱以及避免方法](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [自动分配](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-* [自动定位以提供个性化体验](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+* [自动锁定以提供个性化体验](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
 
 ### 自动分配
 
 * [自动分配概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
 
-### 自动定位
+### 自动锁定
 
-* [自动定位故障排除和常见问题解答](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [自动锁定故障排除和常见问题解答](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 * [个性化见解报表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### 自动个性化 (AP)
@@ -65,7 +65,7 @@ ht-degree: 96%
    * [初始配置 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
    * [活动设置 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
    * [查看报表 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
-   * [重定向选件 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
+   * [重定向产品建议 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
    * [提升度和置信度 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
    * [量度定义 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
    * [共享量度、区段和报表 - A4T 常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
@@ -75,8 +75,8 @@ ht-degree: 96%
 ## 受众和目标
 
 * [Target 优化和个性化常见问题解答](/help/main/c-intro/cmp-target-standard-cheatsheet.md)
-* [定位和受众常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
-* [配置文件脚本属性](/help/main/c-target/c-visitor-profile/profile-parameters.md)
+* [锁定和受众常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
+* [轮廓脚本属性](/help/main/c-target/c-visitor-profile/profile-parameters.md)
 * [网站页面](/help/main/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## 内容
@@ -96,7 +96,7 @@ ht-degree: 96%
 
 ## 全局 mbox
 
-* [全局 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=zh-Hans)
+* [全局 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## 主机/环境
 
@@ -108,23 +108,23 @@ ht-degree: 96%
 
 ### 常规实施
 
-* [支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hans)
-* [结合使用基于云的实例和 Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=zh-Hans)
+* [支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [结合使用基于云的实例和 Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### 全局 mbox
 
-* [全局 mbox 常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=zh-Hans)
+* [全局 mbox 常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
-* [at.js 常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=zh-Hans)
-* [使用 Adobe Experience Cloud 调试器调试 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=zh-Hans)
-* [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans)
+* [at.js 常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
+* [使用 Adobe Experience Cloud 调试器调试 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * “办公时间”视频，“办公时间”是 Adobe 客户关怀团队发起的一项计划。
 
 ## 移动应用程序
 
-* [Target 移动应用程序版常见问题](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=zh-Hans)
+* [Target 移动应用程序版常见问题](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## 报表
 
@@ -133,11 +133,11 @@ ht-degree: 96%
 
 ## 搜索引擎优化 (SEO)
 
-* [搜索引擎优化 (SEO) 友好测试](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans)
+* [搜索引擎优化 (SEO) 友好测试](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## 安全性
 
-* [内容安全策略 (CSP) 指令](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=zh-Hans)
+* [内容安全策略 (CSP) 指令](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
 
 ## 系统状态
 

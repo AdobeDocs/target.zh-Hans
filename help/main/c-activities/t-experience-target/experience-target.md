@@ -1,6 +1,6 @@
 ---
 keywords: 定位;体验定位;XT;登陆页面;登陆页面营销活动
-description: 了解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Experience Targeting] (XT)活动，根据营销人员定义的一组规则和标准将内容交付给特定受众。
+description: 了解如何使用[!UICONTROL Experience Targeting]中的 [!DNL Adobe Target]  (XT)活动，根据营销人员定义的一组规则和标准将内容交付给特定受众。
 title: 什么是[!UICONTROL Experience Targeting] (XT)活动？
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
@@ -39,4 +39,4 @@ ht-degree: 40%
 * 描述如何向不同地理区域的受众交付特定于位置的内容
 * 描述如何对体验重新排序，以确保将适当的内容交付给适当的受众
 
->[!VIDEO](https://video.tv.adobe.com/v/38307?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)

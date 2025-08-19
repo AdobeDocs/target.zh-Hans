@@ -1,8 +1,8 @@
 ---
 keywords: 目录搜索；目录；搜索；排除项；收藏集；过滤器
-description: 了解如何使用Recommendations目录搜索来查找产品或内容、创建收藏集或排除项，以及从目录中删除项目等。
-title: 如何使用Recommendations目录搜索？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+description: 了解如何使用推荐目录搜索来查找产品或内容、创建收藏集或排除项、从目录中删除项目等。
+title: 如何使用“推荐”目录搜索？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # 目录搜索
 
-[!DNL Adobe Recommendations]中的[!UICONTROL Catalog Search]页面可帮助您在目录中查找产品或内容。 您可以在此页面上执行的最基本任务是搜索项目。 此外，您还可以更改环境、将搜索结果保存到收藏集或排除项、添加过滤器Facet以及修改表中的列、添加新的搜索Facet等。
+[!UICONTROL Catalog Search]中的[!DNL Adobe Recommendations]页面可帮助您在目录中查找产品或内容。 您可以在此页面上执行的最基本任务是搜索项目。 此外，您还可以更改环境、将搜索结果保存到收藏集或排除项、添加过滤器Facet以及修改表中的列、添加新的搜索Facet等。
 
 目录指代您的整个产品集（实体）。您的目录可以包含许多收藏集，这是一种在逻辑存储桶中组织产品的方法。
 
@@ -119,7 +119,7 @@ ht-degree: 22%
 
 ## 基于高级搜索创建收藏集或排除项 {#save-as}
 
-您可以在[!UICONTROL Catalog Search]页面([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search])上使用[!UICONTROL Advanced Search]创建[收藏集](/help/main/c-recommendations/c-products/collections.md)或[排除项](/help/main/c-recommendations/c-products/exclusions.md)。
+您可以在[页面(](/help/main/c-recommendations/c-products/collections.md) > [ > ](/help/main/c-recommendations/c-products/exclusions.md))上使用[!UICONTROL Advanced Search]创建[!UICONTROL Catalog Search]收藏集[!UICONTROL Recommendations]或[!UICONTROL Catalog Search]排除项[!UICONTROL Advanced Search]。
 
 1. 执行[高级搜索](#advanced-search)。
 

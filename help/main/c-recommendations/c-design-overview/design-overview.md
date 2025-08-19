@@ -1,7 +1,7 @@
 ---
 keywords: 推荐设计;模板;创建设计;交付;输出
-description: 了解如何在Adobe [!DNL Target] Recommendations中使用设计来定义推荐在页面上的显示方式（1X4、1X6、2X2等）。
-title: 如何在Recommendations中使用设计？
+description: 了解如何使用Adobe [!DNL Target] 推荐中的设计来定义推荐在页面上的显示方式（1X4、1X6、2X2等）。
+title: 如何在推荐中使用设计？
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0

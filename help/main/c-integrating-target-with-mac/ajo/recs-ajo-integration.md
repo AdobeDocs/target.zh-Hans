@@ -43,7 +43,7 @@ ht-degree: 1%
 
 * **[!DNL Adobe Journey Optimizer]在网站访问后发送批量电子邮件，提醒访客查看了哪些项目**：此用例基于以下内容：访客访问网站，查看了各种项目，然后离开网站或应用程序，而不将项目放入购物车。
 
-  在指定时段后，[!DNL Journey Optimizer]中的自定义操作会调用[!DNL Target Recommendations]，以确定每个访客使用每个访客的[!DNL Adobe Experience Cloud Identifier] (EDID)、访客的[!DNL Target]配置文件和基于用户的[算法，查看了哪些项目。 ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)[!DNL Adobe Journey Optimizer]随后向符合条件的受众的每个成员发送一封个性化电子邮件，其中包含每个访客查看项目的图像和链接，以便让访客返回并进行购买。
+  在指定时段后，[!DNL Journey Optimizer]中的自定义操作会调用[!DNL Target Recommendations]，以确定每个访客使用每个访客的[!DNL Adobe Experience Cloud Identifier] (EDID)、访客的[!DNL Target]配置文件和基于用户的[算法，查看了哪些项目。 ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) [!DNL Adobe Journey Optimizer]随后向符合条件的受众的每个成员发送一封个性化电子邮件，其中包含每个访客查看项目的图像和链接，以便让访客返回并进行购买。
 
   在此方案中，[!UICONTROL Experience Cloud Visitor ID] (ECID)和每个访客的[!DNL Target]配置文件的内容用于根据最近查看的算法生成推荐。
 

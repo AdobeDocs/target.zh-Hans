@@ -52,7 +52,7 @@ ht-degree: 22%
 
 * **[!DNL Analytics]**：有关使用[!DNL Analytics]作为报表源(A4T)的支持活动的矩阵，请参阅[Adobe Analytics中的](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)支持的活动类型&#x200B;*作为Adobe Target (A4T)*&#x200B;的报表源。
 
-  无论选择何种报表源，都允许创建和激活[!UICONTROL Automated Personalization] (AP)活动。 当您选择[!UICONTROL Automated Personalization]Adobe Analytics作为Adobe Target (A4T)[的报表源时，](/help/main/c-integrating-target-with-mac/a4t/a4t.md)活动不受支持。
+  无论选择何种报表源，都允许创建和激活[!UICONTROL Automated Personalization] (AP)活动。 当您选择[!UICONTROL Automated Personalization]Adobe Analytics作为Adobe Target (A4T) [的报表源时，](/help/main/c-integrating-target-with-mac/a4t/a4t.md)活动不受支持。
 
   即使您指定[!DNL Analytics]作为报表源，[!DNL Target]也用作[!DNL Automated Personalization]活动的报表源。
 

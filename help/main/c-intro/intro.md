@@ -47,7 +47,7 @@ AP是完全自动化的，以最少的人工分析持续学习。 它构建各�
 
 ### 推荐
 
-[“推荐”活动可根据以往用户活动自动显示客户可能感兴趣的产品或内容。](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)[!UICONTROL Recommendations]帮助将客户导向到他们可能不知道的相关项目。
+[“推荐”活动可根据以往用户活动自动显示客户可能感兴趣的产品或内容。](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) [!UICONTROL Recommendations]帮助将客户导向到他们可能不知道的相关项目。
 
 推荐可根据客户在网站上的活动来确定向该客户推广产品的方式。例如：
 

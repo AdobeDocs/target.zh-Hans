@@ -47,4 +47,4 @@ ht-degree: 40%
 
 [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments]和[!UICONTROL Content Fragments]表面上可能相似，但每个片段类型在不同的用例中都具有关键角色。
 
-有关[!UICONTROL Experience Fragments]和[!UICONTROL Content Fragments]如何相似、不同以及何时和如何使用它们的详细信息，请参阅[AEM Sites视频和教程指南[!UICONTROL Content Fragments]中的[!UICONTROL Experience Fragments]了解](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}和[](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}。
+有关[!UICONTROL Experience Fragments]和[!UICONTROL Content Fragments]如何相似、不同以及何时和如何使用它们的详细信息，请参阅[AEM Sites视频和教程指南[!UICONTROL Content Fragments]中的[!UICONTROL Experience Fragments]了解](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}和[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}。

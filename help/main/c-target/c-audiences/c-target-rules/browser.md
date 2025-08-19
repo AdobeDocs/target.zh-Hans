@@ -141,7 +141,7 @@ ht-degree: 33%
 
 从[!DNL Target] Standard/Premium 24.3.1（2024年3月4日至6日）开始，使用Target UI创建的内置受众（如`Browser:iPad`和`Browser:iPhone`）已更新，以便使用[!DNL iPad]、[!DNL iPhone]和`profile.mobile.deviceVendor`对`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`执行正确的定位。
 
-使用[!DNL Target] UI创建的内置受众（例如`Browser:iPad`和`Browser:iPhone`）将自动移至新的受众定义，无需客户执行任何操作。 但是，以后，您应该使用下面描述的设置[](#ui)。
+使用[!DNL Target] UI创建的内置受众（例如`Browser:iPad`和`Browser:iPhone`）将自动移至新的受众定义，无需客户执行任何操作。 但是，以后，您应该使用下面描述的设置[&#128279;](#ui)。
 
 如果您在任何配置文件脚本中使用`user.browserType`来检查它是[!DNL iPhone]还是[!DNL iPad]（例如，`user.browserType == 'iphone'`或`user.browserType != 'ipad'`），则在2024年4月30日之前，应按照[下的说明更改这些配置文件脚本](#profile-scripts)，以确保这些受众继续按预期运行。
 

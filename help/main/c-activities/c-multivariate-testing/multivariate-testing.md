@@ -102,7 +102,7 @@ Target的[流量估算器](/help/main/c-activities/c-multivariate-testing/t-crea
 
 ### 正在创建多变量测试(9:25) ![教程徽章](/help/main/assets/tutorial.png)
 
-此视频介绍如何使用[!DNL]Target三步引导式工作流来了解、规划和创建多变量测试。
+此视频介绍如何使用Target三步引导式工作流来了解、规划和创建多变量测试。
 
 * 定义和设计多变量测试
 * 创建多变量测试

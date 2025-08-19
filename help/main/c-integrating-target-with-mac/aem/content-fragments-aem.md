@@ -47,7 +47,7 @@ ht-degree: 15%
 
 要导出[!UICONTROL Content Fragments]以在[!DNL Target]活动中使用，您必须在AEM中执行一些初步步骤。 有关详细信息，请参阅[Adobe Target as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}中的&#x200B;*将内容片段导出到Experience Manager*。
 
-有关设计、创建、策划和发布[!UICONTROL Content Fragments]的信息，请参阅[[!UICONTROL Content Fragments]Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=zh-Hans){target=_blank}中的[](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank}和[使用内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}。
+有关设计、创建、策划和发布[!UICONTROL Content Fragments]的信息，请参阅[[!UICONTROL Content Fragments]Experience Manager as a Cloud Service文档](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=zh-Hans){target=_blank}中的[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank}和[使用内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}。
 
 ## 在[!UICONTROL Content Fragments]活动中使用[!DNL Target] {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 

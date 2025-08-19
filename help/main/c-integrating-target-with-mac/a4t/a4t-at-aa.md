@@ -120,7 +120,7 @@ ht-degree: 4%
 ### 自动分配 {#aa}
 
 * **训练频率**：像往常一样，每小时继续训练[!UICONTROL Auto-Allocate]个模型。
-* **归因模型**： [!DNL Target]对使用A4T的[!DNL Adobe Analytics]活动使用[!UICONTROL  Auto-Allocate]默认归因模型。
+* **归因模型**： [!DNL Target]对使用A4T的[!DNL Adobe Analytics]活动使用[!UICONTROL &#x200B; Auto-Allocate]默认归因模型。
 * **置信度**： [!UICONTROL Auto-Allocate]活动使用的置信度公式与[!DNL Adobe Analytics] [!UICONTROL A4T]面板中默认显示的公式不同。 [如此处](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)所述，[!UICONTROL Auto-Allocate]使用比常规[!UICONTROL A/B Test]活动更保守的置信区间。 这些保守的置信水平可补偿对数据的重复评估（窥视）。 因此，[!DNL Adobe Analytics]中的默认报表显示的置信区间比[!UICONTROL Auto-Allocate]算法所使用的那些区间窄。 但是，您可以根据向哪个体验发送了更多独特访客，来确定哪个体验受到算法青睐。
 * **获胜者状态**：当前，[中的](/help/main/c-activities/automated-traffic-allocation/determine-winner.md)面板中不存在[!UICONTROL A4T]“还没有获胜者”和“获胜者”徽章[!DNL Analysis Workspace]。 如果在[!DNL Target]中查看了同一报告，则这些徽章也将不可用。 使用A4T的[!DNL Target]活动的[!UICONTROL Auto-Allocate]报表中显示的入选者“星”徽章应当被忽略。 此徽章反映的是常规置信度计算，而不是[!UICONTROL Auto-Allocate]使用的计算。
 

@@ -1,6 +1,6 @@
 ---
 keywords: 人工智能助手
-description: 了解如何在 [!DNL AI Assistant] 中启用[!DNL  Adobe Target]。
+description: 了解如何在 [!DNL AI Assistant] 中启用[!DNL &#x200B; Adobe Target]。
 title: 如何在 [!DNL AI Assistant] 中启用 [!DNL Target]？
 feature: Overview
 exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6

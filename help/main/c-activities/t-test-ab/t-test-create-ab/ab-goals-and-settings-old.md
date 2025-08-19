@@ -54,7 +54,7 @@ ht-degree: 33%
 
 | 设置 | 描述 |
 |--- |--- |
-| [!UICONTROL Which success metric must be reached before incrementing this metric?] | 使用此选项可仅将之前达到不同成功量度的用户计为已达到成功量度。 例如，活动转化可能只有在转化之前访客点击了选件或访问了某个特定页面时才有效。 您可以提供对多个量度的依赖关系，并且还可以灵活选择是否应实现指定的量度才能递增计数。 在使一个量度依赖于另一个量度之前，定义两个（或多个）成功量度。 [!UICONTROL Add Dependency]选项允许在已达到另一个成功量度或尚未达到时递增成功量度。 要添加依赖项，请执行以下操作：<ul><li>添加其他量度后，单击[!UICONTROL Advanced Settings]。</li><li>单击[!UICONTROL Add Dependency]选项：</li><li>将所需量度从左侧窗格拖放到右侧窗格中，然后单击[!UICONTROL Reached]以在[!UICONTROL Reached]和[!UICONTROL  Not Reached]之间切换设置。</li><li>添加依赖项后，您可以编辑或删除依赖项。</li></ul> |
+| [!UICONTROL Which success metric must be reached before incrementing this metric?] | 使用此选项可仅将之前达到不同成功量度的用户计为已达到成功量度。 例如，活动转化可能只有在转化之前访客点击了选件或访问了某个特定页面时才有效。 您可以提供对多个量度的依赖关系，并且还可以灵活选择是否应实现指定的量度才能递增计数。 在使一个量度依赖于另一个量度之前，定义两个（或多个）成功量度。 [!UICONTROL Add Dependency]选项允许在已达到另一个成功量度或尚未达到时递增成功量度。 要添加依赖项，请执行以下操作：<ul><li>添加其他量度后，单击[!UICONTROL Advanced Settings]。</li><li>单击[!UICONTROL Add Dependency]选项：</li><li>将所需量度从左侧窗格拖放到右侧窗格中，然后单击[!UICONTROL Reached]以在[!UICONTROL Reached]和[!UICONTROL &#x200B; Not Reached]之间切换设置。</li><li>添加依赖项后，您可以编辑或删除依赖项。</li></ul> |
 | [!UICONTROL What will happen after a user encounters this goal metric?] | 对于访客实现此目标量度后会出现的情况，提供了以下三个选项：<ul><li>选择[!UICONTROL Increment Count & Keep User in Activity]以指定递增计数的方式。</li><li>选择[!UICONTROL Increment Count, Release User & Allow Reentry]以指定用户再次进入活动时看到的体验。</li><li>选择[!UICONTROL Increment Count, Release User & Bar from Reentry]以指定用户看到的内容而非活动内容。</li></ul> |
 | [!UICONTROL How will the count be incremented?] | 递增计数的方式包括以下三种：<ul><li>[!UICONTROL Once per Entrant]</li><li>[!UICONTROL On Every Impression (Excluding page refreshes)]</li><li>[!UICONTROL On Every Impression]</li></ul> |
 

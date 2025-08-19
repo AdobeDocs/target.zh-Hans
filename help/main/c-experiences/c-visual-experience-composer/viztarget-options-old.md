@@ -178,7 +178,7 @@ ht-degree: 56%
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL  Hue-rotate]
+*[!UICONTROL &#x200B; Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
@@ -309,7 +309,7 @@ ht-degree: 56%
 
 从[!UICONTROL Content Library]中选择其他选件。
 
-**注意：**[!DNL Target]HTML 产品建议存储在 服务器上。
+**注意：**&#x200B;[!DNL Target]HTML 产品建议存储在 服务器上。
 
 HTML选件最长可达256 KB。
 

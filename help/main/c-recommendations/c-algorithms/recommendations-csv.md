@@ -48,9 +48,9 @@ ht-degree: 33%
 
 您可以选择以下两个位置：
 
-    * **FTP：**若要从FTP服务器上传CSV文件，请选择**[!UICONTROL FTP]**，然后输入所需信息。 您可以使用SSL，SSL会使用FTPS协议安全地传输CSV文件。
+    * **FTP：**&#x200B;若要从FTP服务器上传CSV文件，请选择&#x200B;**[!UICONTROL FTP]**，然后输入所需信息。 您可以使用SSL，SSL会使用FTPS协议安全地传输CSV文件。
     
-    * **URL：**要通过URL上传CSV文件，请选择**[!UICONTROL URL]**，然后输入信息源URL。
+    * **URL：**&#x200B;要通过URL上传CSV文件，请选择&#x200B;**[!UICONTROL URL]**，然后输入信息源URL。
 
 1. 单击 **[!UICONTROL Create]**。
 

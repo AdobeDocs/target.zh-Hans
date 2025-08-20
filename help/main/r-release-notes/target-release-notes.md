@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Target]版本中包括的新功能、�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3b80ca92a445bbdab6202a28c03130d24920dfd0
+source-git-commit: 7fcff4220f5954614867815fb4a67444dfd595ee
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 16%
+source-wordcount: '1036'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2025年8月19日**
+**上次更新日期：2025年8月20日**
 
 >[!NOTE]
 >
@@ -42,13 +42,16 @@ ht-degree: 16%
 
 +++查看详细信息
 * **修复了Recs UI中的自定义标准CSV下载返回404错误的问题**：修复了客户无法在活动创建过程中下载自定义标准CSV的问题。 (TGT-51966)
-* **修复了[!UICONTROL Catalog Search]**&#x200B;中图像加载不一致的问题：修复了[!UICONTROL &#x200B; Catalog Search]中的缩略图和图像在活动创建过程中加载不一致的问题。 除非“缩略图URL”列可见，并且某些产品图像在导航或搜索操作后已加载部分或完全未加载，否则图像无法显示。 (TGT-52778)
+* **修复了[!UICONTROL Catalog Search]**&#x200B;中图像加载不一致的问题：修复了[!UICONTROL  Catalog Search]中的缩略图和图像在活动创建过程中加载不一致的问题。 除非“缩略图URL”列可见，并且某些产品图像在导航或搜索操作后已加载部分或完全未加载，否则图像无法显示。 (TGT-52778)
 * **修复了在复制的体验中编辑推荐会影响原始体验的问题**：客户报告在复制的体验中修改推荐无意中更改了原始体验。 具体而言，在活动创建过程中复制体验B并编辑其设计或标准后，相同的更改会反映在原始体验B中，尽管它们是单独的实体。 (TGT-53369)
 * **修复了对重复体验的更改无意中影响活动中原始体验的问题：**&#x200B;客户报告说，在活动中复制体验并分配新受众时，对复制体验的设计或标准所做的任何更改也会反映在原始体验中。 即使没有直接对原始版本进行任何编辑，也会发生这种情况，从而影响在同一活动中创建独立变体的能力。 (TGT-53361)
 * **修复了[!UICONTROL Recommendation Catalog]间歇性地无法显示完整产品属性数据的问题**：在更新的[!DNL Recommendations] UI中，客户遇到以下问题：即使数据存在于馈送中，某些产品属性（如消息）仍无法一致地显示在目录搜索结果中。 此问题要求客户手动重新配置列可见性以检索缺少的值。 (TGT-52769)
+* **修复了无法在实时活动中禁用[!UICONTROL Front Promotion]的问题**：未保存尝试在实时活动中禁用[!UICONTROL Front Promotion]。 选择[!UICONTROL Change Promotion]并禁用它后，在重新编辑活动时促销活动保持活动状态，从而阻止更新推荐配置。 促销活动设置现在可正确保存，这样客户就可以按预期禁用或修改实时活动中的促销活动。 (TGT-53231)
+* **修复了在启用不带数据的[!DNL Recommendations] [!UICONTROL Promotion]时触发不明确的错误消息的问题**：在[!UICONTROL Front]活动中启用[!UICONTROL Back Promotion]或[!DNL Recommendations]而不指定所需值会导致泛型“输入错误无效”消息。 基础问题是缺少配置字段，但错误消息未明确说明原因，因此难以进行故障诊断。 现在，活动创建流程可在必填字段（如`collectionId`或规则）缺失时提供明确且可操作的错误消息，帮助客户快速识别并解决配置问题。 (TGT-52616)
+
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看详细信息
 * **修复了活动创建过程中阻止升级到AP活动中的[!UICONTROL Targeting]步骤的问题**：修复了活动创建过程中客户无法继续到[!UICONTROL Targeting] (AP)活动中的[!UICONTROL Automated Personalization]步骤的问题（除非添加了两个位置）。 此行为与以前的体验不同，在以前的体验中，具有多个选件的单个位置便已足够。 该要求已得到纠正，允许客户继续将单个位置设置作为其AP工作流的一部分。 (TGT-53426)
@@ -69,7 +72,7 @@ ht-degree: 16%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明： Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

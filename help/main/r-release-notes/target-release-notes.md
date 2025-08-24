@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Target]版本中包括的新功能、�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b178785b1936cff2b55c85e41fc44f230243f849
+source-git-commit: 45ccd33be239b95d19fc611caea9482f89b02066
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 66%
+source-wordcount: '231'
+ht-degree: 55%
 
 ---
 
@@ -25,16 +25,23 @@ ht-degree: 66%
 >
 >* 括号中的问题编号供 [!DNL Adobe] 内部使用。
 
-## [!DNL Target Standard/Premium] 25.8.3（2025年8月21日）
+## [!DNL Target Standard/Premium] 25.8.4（2025年8月28日）
 
-此版本现已上线。 有关详细信息，请参阅[[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md)。
+此版本包含以下更新和修复：
+
+**可视化体验编辑器 (VEC)**
+
++++查看详细信息
+* **修复了在导航到[!UICONTROL Automated Personalization]步骤并返回后，重命名[!UICONTROL Multivariate Test] (AP)或[!UICONTROL Targeting] (MVT)活动中的位置未持续存在的问题。**&#x200B;客户现在可以成功编辑和保存位置名称，并且更改在整个活动创建过程中保持可见。 (TGT-52367)
+
++++
 
 ## 其他发行说明和版本详细信息
 
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明： Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

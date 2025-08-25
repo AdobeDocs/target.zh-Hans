@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Target]版本中包括的新功能、�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 45ccd33be239b95d19fc611caea9482f89b02066
+source-git-commit: 65bc050a189b65af57b1258afeff497a0dafcfb5
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 55%
+source-wordcount: '282'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,14 @@ ht-degree: 55%
 
 此版本包含以下更新和修复：
 
-**可视化体验编辑器 (VEC)**
+**[!DNL Recommendations]**
+
++++查看详细信息
+**更新了UI，以便[!UICONTROL Product Catalog Search]中的高级搜索筛选不区分大小写**： [!UICONTROL Advanced Search]页中的[!UICONTROL Product Catalog Search] UI以前对返回的值执行完全大小写匹配，即使后端查询和GraphQL查询都不区分大小写。 这种不一致会导致混淆，并降低搜索准确性。 [!UICONTROL Advanced Search]筛选现在不区分大小写，与后端行为保持一致，并提高了可用性。
+
++++
+
+**[!UICONTROL Visual Experience Composer (VEC)]**
 
 +++查看详细信息
 * **修复了在导航到[!UICONTROL Automated Personalization]步骤并返回后，重命名[!UICONTROL Multivariate Test] (AP)或[!UICONTROL Targeting] (MVT)活动中的位置未持续存在的问题。**&#x200B;客户现在可以成功编辑和保存位置名称，并且更改在整个活动创建过程中保持可见。 (TGT-52367)
@@ -41,7 +48,7 @@ ht-degree: 55%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明： Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

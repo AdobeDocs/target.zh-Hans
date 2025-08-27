@@ -25,7 +25,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->元素类在[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]和[!UICONTROL  Multivariate Test]活动中可用作选择器。
+>元素类在[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]和[!UICONTROL &#x200B; Multivariate Test]活动中可用作选择器。
 
 有关何时使用 CSS 选择器以及何时使用唯一 ID 的信息，请参阅[可视化体验编辑器最佳实践和限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
 

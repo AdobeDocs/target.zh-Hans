@@ -4,9 +4,9 @@ description: 查找有关在使用Analytics for [!DNL Target] (A4T)时使用重�
 title: 可在何处找到有关使用A4T重定向选件的常见问题解答？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1431'
 ht-degree: 50%
 
 ---
@@ -19,6 +19,27 @@ ht-degree: 50%
 
 +++回答
 是，如果您的实施使用[!DNL at.js]。 但是，您的实施必须满足下列最低要求，才能在使用 Analytics 作为报表源的活动中使用[重定向产品建议](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)。
+
++++
+
+## ![Adobe Experience Platform Web SDK徽章](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]是否支持A4T的重定向选件？ {#platform}
+
++++回答
+以下常见问题解答提供了有关将A4T和重定向选件与[!DNL Platform Web SDK]结合使用的更多信息。
+
++++
+
+### Analytics for Target (A4T) 是否支持重定向选件？
+
++++回答
+是，通过Platform Web SDK的A4T支持[重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect.md)。
+
++++
+
+### 是否支持[!UICONTROL Visual Experience Composer] (VEC)和[!UICONTROL Form-Based Experience Composer]？
+
++++回答
+是，如果您使用内置的重定向选件，则支持[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)。
 
 +++
 
@@ -63,7 +84,7 @@ ht-degree: 50%
 ## 为何有时会同时计入原始页面和重定向页面上的查看次数？ {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++回答
-使用at.js版本1.6.3或更高版本时，不计算两个页面上的页面查看次数。 这种争用情况仅影响使用早期版本的客户。Target 团队维护两个版本的 at.js：当前版本和当前版本的上一个版本。根据需要升级 at.js，以确保您运行的是[受支持的版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank}。
+使用at.js版本1.6.3或更高版本时，不计算两个页面上的页面查看次数。 这种争用情况仅影响使用早期版本的客户。Target 团队维护两个版本的 at.js：当前版本和当前版本的上一个版本。根据需要升级 at.js，以确保您运行的是[受支持的版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 如果您使用的是不受支持的早期 at.js 版本，则可能会发生某种争用情况，这种情况可能导致先触发 Analytics 调用，然后再在第一个页面上执行重定向。这种情况可能会导致同时计入原始页面和重定向页面上的页面查看次数。 在这种情况下，第一个页面上的页面查看次数便是多余的，因为当时访客实际上从未“查看过”该页面。
 
@@ -142,24 +163,6 @@ Adobe列入允许列表建议您与IT团队联系，以确保`adobe_mc_ref`和`a
 
 +++回答
 不能，您必须在使用 [!DNL Analytics] 作为报表源 (A4T) 的活动中使用内置的重定向产品建议。对 [!DNL Target] 而言，HTML 产品建议是不透明的：[!DNL Target] 无法知晓某段特定的 HTML 是否包含可对重定向进行实例化的 JavaScript。
-
-+++
-
-## ![Adobe Experience Platform Web SDK徽章](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]是否支持A4T的重定向选件？ {#platform}
-
-以下常见问题解答提供了有关将A4T和重定向选件与[!DNL Platform Web SDK]结合使用的更多信息。
-
-### Analytics for Target (A4T) 是否支持重定向选件？
-
-+++回答
-是，通过Platform Web SDK的A4T支持[重定向选件](/help/main/c-experiences/c-manage-content/offer-redirect.md)。
-
-+++
-
-### 是否支持[!UICONTROL Visual Experience Composer] (VEC)和[!UICONTROL Form-Based Experience Composer]？
-
-+++回答
-是，如果您使用内置的重定向选件，则支持[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)。
 
 +++
 

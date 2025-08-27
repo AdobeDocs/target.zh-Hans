@@ -4,34 +4,36 @@ description: 元素选择器是可以标识一个或多个元素的CSS表达式�
 title: 我可以在可视化体验编辑器(VEC)中使用元素选择器吗？
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 85%
+source-wordcount: '427'
+ht-degree: 31%
 
 ---
 
 # 可视化体验编辑器中使用的元素选择器
 
-元素选择器是可以标识一个或多个元素的 CSS 表达式。
+元素选择器是可以标识一个或多个元素的CSS表达式。
 
-您可以在 Mozilla 开发人员网络 (MDN) 上的[选择器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文档中找到与 CSS 选择器有关的基本信息。
+您可以在[ (MDN)上的](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)选择器&#x200B;*[!DNL Mozilla Developer Network]*&#x200B;文档中找到有关CSS选择器的基本信息。
 
 您可以设置要在帐户首选项中使用元素类还是元素 ID。单击&#x200B;**[!UICONTROL Administration > Visual Experience Composer]**，然后选择首选的CSS选择器。
 
-![css_selectors图像](assets/css_selectors.png)
+* **使用元素ID**：如果同一ID用于多个元素，或者元素ID在页面加载时可能发生更改，则禁用。
+* **使用元素类**：如果页面上的元素类可能发生更改，则禁用。
+* **使用首选选择器**：如果想要在VEC中使用唯一选择器来识别网站的关键区域，请启用此选项。
 
 >[!NOTE]
 >
->元素类可以在 A/B 测试、自动个性化以及多变量测试活动中用作选择器。
+>元素类在[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]和[!UICONTROL  Multivariate Test]活动中可用作选择器。
 
 有关何时使用 CSS 选择器以及何时使用唯一 ID 的信息，请参阅[可视化体验编辑器最佳实践和限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
 
-## Adobe [!DNL Target]如何为元素生成选择器 {#section_D89D954BCBFB486CA081BE183776A475}
+## [!DNL Target]如何为元素生成选择器 {#section_D89D954BCBFB486CA081BE183776A475}
 
-Target 使用简单的算法来创建选择器。下面非常简略地介绍了生成逻辑：
+[!DNL Target]使用简单的算法创建一个选择器。 下面简单解释了一下生成逻辑：
 
-1. 例如，如果某个元素的 ID 为 `id="container"`，则该元素的选择器便为 `#container`。
+1. 如果某个元素的ID为，例如`id="container"`，则该元素的选择器为`#container`。
 
    例如：
 
@@ -48,9 +50,9 @@ Target 使用简单的算法来创建选择器。下面非常简略地介绍了�
    </div>
    ```
 
-1. 如果某个元素包含类属性，则 Target 会尝试使用该元素上存在的任何类的第一个类。
+1. 如果元素包含类特性，则[!DNL Target]尝试利用元素上存在的任何类的第一个类。
 
-   Target 会尝试解析该父元素，直到找到 `<HTML>` 元素或具有 ID 的元素。当某个元素包含 ID 且选择器是基于其下级子元素进行计算时，可以使用该元素的 ID 来创建选择器。
+   [!DNL Target]尝试解析该父元素，直到找到`<HTML>`元素或具有ID的元素。 每当元素包含ID并且选择器计算为其子代子项时，该元素的ID即会为选择器贡献内容。
 
    例如：
 
@@ -73,7 +75,7 @@ Target 使用简单的算法来创建选择器。下面非常简略地介绍了�
 
    `eq` 告知索引存在一个具有“tagName=UL”的元素，且第一个类为 `navigation`。因此，`index` 为 0。有关更多信息，请参阅 MDN 中的[选择器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文章。
 
-1. 如果元素不包含类，则 Target 会使用元素的 `tagName` 并向上遍历父元素，直到找到 `<HTML>` 元素或具有 ID 的元素。
+1. 如果元素不包含类，[!DNL Target]将对该元素使用`tagName`，并遍历父元素，直到找到`<HTML>`元素或具有ID的元素。
 
    例如：
 
@@ -95,5 +97,5 @@ Target 使用简单的算法来创建选择器。下面非常简略地介绍了�
 在上面的流程中：
 
 * 您可以使用任何 CSS 选择器，前提是该选择器可唯一标识 DOM 中的元素。
-* 上述方法即是 Target 使用的方法。Target 并不强制使用此方法。只要满足第 1 点中的要求，您便可以添加任何选择器。
-* 您可以在选择器中使用任何属性。本文档仅以类名称为例。
+* 以上方法是[!DNL Target]使用的方法。 [!DNL Target]不要求您使用此方法。 只要满足第 1 点中的要求，您便可以添加任何选择器。
+* 您可以在选择器中使用任何属性。本文档仅使用类名作为示例。

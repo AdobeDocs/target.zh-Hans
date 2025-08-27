@@ -2,13 +2,13 @@
 keywords: 包含规则;包含标准;推荐;新建标准;促销活动;动态筛选;动态;空值;忽略筛选规则;静态筛选器;按值筛选;实体属性匹配;轮廓属性匹配;参数匹配;按值筛选;静态筛选器
 description: 了解如何在 [!DNL Target] 推荐中为标准和促销活动创建包含规则。
 title: 如何在推荐中使用动态和静态包含规则？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1846'
 ht-degree: 16%
 
 ---
@@ -76,6 +76,10 @@ ht-degree: 16%
 动态标准和促销活动比静态标准和促销活动强大得多，并能产生更好的结果和参与。
 
 以下示例提供了有关如何在营销工作中使用动态促销和排除项的一般概念：
+
+>[!NOTE]
+>
+>“列表”要求实体和配置文件属性必须存储为数组。 以逗号分隔的列表不起作用。
 
 | 运算符 | 示例 |
 | --- | --- |

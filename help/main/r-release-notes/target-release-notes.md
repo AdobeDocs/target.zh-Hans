@@ -52,7 +52,7 @@ ht-degree: 20%
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++查看详细信息
 * **使用[!UICONTROL Enhanced Experience Composer] (EEC)单击“接受Cookie”失败，因为缺少函数**：客户报告说尝试通过EEC接受Cookie导致控制台错误： `handleclickAcceptAllButton is not defined`。 现在，Cookie接受功能可按预期工作，以确保在更新的UI中创建活动期间获得更流畅的体验。 (TGT-52794)

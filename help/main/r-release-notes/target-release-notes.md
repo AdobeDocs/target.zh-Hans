@@ -4,10 +4,10 @@ description: 了解即将发布的 [!DNL Target]版本中包括的新功能、�
 title: 即将发布的 [!DNL Target] 版本中包括哪些新增功能和增强功能？
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cc0bf794e366f304b52db309d4e3a66292d7ea32
+source-git-commit: fda279c909e2bb35e919d1bb4f4b611401a367cf
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 20%
+source-wordcount: '855'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 本文包含即将发布的 [!DNL Adobe Target] 版本的预发行信息，包括 SDK、API 和 JavaScript 库。
 
-**上次更新日期：2025年8月27日**
+**上次更新日期：2025年8月29日**
 
 >[!NOTE]
 >
@@ -34,6 +34,7 @@ ht-degree: 20%
 +++查看详细信息
 * **客户无法从[!UICONTROL Activity Overview]**&#x200B;中复制活动或文档名称：以前，客户无法直接从更新后的活动创建流程中的[!UICONTROL Activity Overview]中复制活动或关联优惠/文档的名称。 此限制会影响可用性，尤其是在较小的屏幕上。 客户现在可以轻松地复制活动和文档名称而无需变通办法。 (TGT-51850)
 * **在活动创建期间主动摄取应用策划的[!DNL Target]客户数据**：通过启用[!DNL Target]客户的报告、内容和屏幕截图的主动收集，改进了活动创建流程。 此增强功能解决了现有用例中发现的数据缺口，并帮助确保在活动和实验设置期间获得更准确的见解。 (TGT-52415)
+* **AP活动未在[!UICONTROL Reports]部分**&#x200B;中获取模型就绪数据：查看[!UICONTROL Reports]部分中的Automated Personalization (AP)活动的客户无法在报表组和选件级别看到模型就绪指示器。 出现此问题的原因是无法从后端正确获取模型就绪的数据。 功能已恢复，并且模型就绪的数据现在按预期显示。 （TGT-53600 和 TGT-53601）
 
 +++
 
@@ -42,6 +43,7 @@ ht-degree: 20%
 +++查看详细信息
 * **产品列表在[!UICONTROL View Collection]对话框中不可见：**&#x200B;以前，客户在[!UICONTROL Recommendations]选项卡中查看收藏集时无法查看产品列表。 [!UICONTROL View Collection]对话框现在可以正确显示关联的产品，从而提高更新后的推荐UI中的透明度和可用性。 (TGT-50531)
 * **修复了[!UICONTROL Product Catalog Search]高级搜索中导致区分大小写筛选的问题**： [!UICONTROL Product Catalog Search]页面中的高级搜索筛选现在正确忽略区分大小写的问题，这与后端和GraphQL服务的行为一致。 此更新确保无论文本大小写如何，都能为客户提供一致而准确的建议结果。 (TGT-53585)
+* **更新的[!UICONTROL Product Catalog Search] UI中的高级搜索不提供建议**：要求在更新的[!UICONTROL Product Catalog Search] UI中使用高级搜索功能的客户输入拼写正确的精确值，因为未显示任何建议。 这使得难以有效地找到产品。 现在，在高级搜索输入过程中，建议会按预期显示。 (TGT-52008)
 
 +++
 
@@ -49,10 +51,10 @@ ht-degree: 20%
 
 +++查看详细信息
 * **由于无效受众名称错误，无法为桌面受众加载报告**：客户在活动创建过程中尝试查看一个受众的报告时遇到了GraphQL错误。 系统返回“无效受众名称：XXXXX”消息，阻止访问报表数据。 现在，桌面版受众的报表可正确加载。 (TGT-53371)
-
+* **在“报告”页面上切换受众导致Target UI中出现错误**：客户在更新的Target UI的Reports部分中选择某些受众时遇到错误。 此问题是由后端GraphQL调用中的无效受众处理导致的，会导致意外错误和缺少数据。 该问题已得到解决，现在即使没有可用数据，桌面受众也加载且没有错误。 (TGT-53370)
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看详细信息
 * **使用[!UICONTROL Enhanced Experience Composer] (EEC)单击“接受Cookie”失败，因为缺少函数**：客户报告说尝试通过EEC接受Cookie导致控制台错误： `handleclickAcceptAllButton is not defined`。 现在，Cookie接受功能可按预期工作，以确保在更新的UI中创建活动期间获得更流畅的体验。 (TGT-52794)
@@ -67,7 +69,7 @@ ht-degree: 20%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明： Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 预发行信息 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

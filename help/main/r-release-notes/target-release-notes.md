@@ -54,7 +54,7 @@ ht-degree: 17%
 * **在“报告”页面上切换受众导致Target UI中出现错误**：客户在更新的Target UI的Reports部分中选择某些受众时遇到错误。 此问题是由后端GraphQL调用中的无效受众处理导致的，会导致意外错误和缺少数据。 该问题已得到解决，现在即使没有可用数据，桌面受众也加载且没有错误。 (TGT-53370)
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++查看详细信息
 * **使用[!UICONTROL Enhanced Experience Composer] (EEC)单击“接受Cookie”失败，因为缺少函数**：客户报告说尝试通过EEC接受Cookie导致控制台错误： `handleclickAcceptAllButton is not defined`。 现在，Cookie接受功能可按预期工作，以确保在更新的UI中创建活动期间获得更流畅的体验。 (TGT-52794)

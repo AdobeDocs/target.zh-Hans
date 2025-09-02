@@ -6,9 +6,9 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b178785b1936cff2b55c85e41fc44f230243f849
+source-git-commit: 223a0f62bcd9a52bd9181e0a439e02164abbfec4
 workflow-type: tm+mt
-source-wordcount: '5850'
+source-wordcount: '7159'
 ht-degree: 6%
 
 ---
@@ -75,6 +75,57 @@ ht-degree: 6%
 
 +++
 
+## [!DNL Target Standard/Premium] 25.8.4（2025年9月1日）
+
+此版本包含以下更新和修复：
+
+**[!UICONTROL Activities]**
+
++++查看详细信息
+* **客户无法从[!UICONTROL Activity Overview]**&#x200B;中复制活动或文档名称：以前，客户无法直接从更新后的活动创建流程中的[!UICONTROL Activity overview]中复制活动或关联优惠/文档的名称。 此限制会影响可用性，尤其是在较小的屏幕上。 客户现在可以轻松地复制活动和文档名称而无需变通办法。 (TGT-51850)
+* **在活动创建期间主动摄取应用策划的[!DNL Target]客户数据**：通过启用[!DNL Target]客户的报告、内容和屏幕截图的主动收集，改进了活动创建流程。 此增强功能解决了现有用例中发现的数据缺口，并帮助确保在活动和实验设置期间获得更准确的见解。 (TGT-52415)
+* **AP活动未在[!UICONTROL Reports]部分**&#x200B;中获取模型就绪数据：查看[!UICONTROL Reports]部分中的Automated Personalization (AP)活动的客户无法在报表组和选件级别看到模型就绪指示器。 出现此问题的原因是无法从后端正确获取模型就绪的数据。 功能已恢复，并且模型就绪的数据现在按预期显示。 （TGT-53600 和 TGT-53601）
+* **计划在未来的活动在[!UICONTROL Live]概述中错误地显示“[!UICONTROL Activity]”状态**：客户观察到计划在未来开始的活动在[!UICONTROL Live]概述中错误地标记为“[!UICONTROL Activity]”。 已解决此状态不匹配，计划活动现在可正确显示为“[!UICONTROL Scheduled]”，而无需刷新页面。 (TGT-52835)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++查看详细信息
+* **产品列表在[!UICONTROL View Collection]对话框中不可见：**&#x200B;以前，客户在[!UICONTROL Recommendations]选项卡中查看收藏集时无法查看产品列表。 [!UICONTROL View Collection]对话框现在可以正确显示关联的产品，从而提高更新的[!UICONTROL Recommendations] UI中的透明度和可用性。 (TGT-50531)
+* **修复了[!UICONTROL Product Catalog Search]高级搜索中导致区分大小写筛选的问题**： [!UICONTROL Product Catalog Search]页面中的高级搜索筛选现在正确忽略区分大小写的问题，这与后端和GraphQL服务的行为一致。 此更新确保无论文本大小写如何，都能为客户提供一致而准确的建议结果。 (TGT-53585)
+* **更新的[!UICONTROL Product Catalog Search] UI中的高级搜索不提供建议**：要求在更新的[!UICONTROL Product Catalog Search] UI中使用高级搜索功能的客户输入拼写正确的精确值，因为未显示任何建议。 此问题使得难以有效地找到产品。 现在，在高级搜索输入过程中，建议会按预期显示。 (TGT-52008)
+* **某些审批者无法查看[!UICONTROL Product Catalog Search]**&#x200B;中的产品：具有[!UICONTROL Approver]权限的客户无法查看[!UICONTROL Product Catalog Search]中的任何产品，尽管具有相同角色的其他用户具有访问权限。 此问题是由影响目录可见性的权限不一致引起的。 所有审批者现在都可以按预期查看[!UICONTROL Recommendations]部分中的产品。 (TGT-53617)
+
++++
+
+**[!UICONTROL Reports]**
+
++++查看详细信息
+* **由于无效受众名称错误，无法为桌面受众加载报告**：客户在活动创建过程中尝试查看一个受众的报告时遇到了GraphQL错误。 系统返回“无效受众名称：XXXXX”消息，阻止访问报表数据。 现在，桌面版受众的报表可正确加载。 (TGT-53371)
+* **在“报表”页面上切换受众导致Target UI出错**：客户在[!UICONTROL Reports]部分中选择某些受众时遇到错误。 此问题是由后端GraphQL调用中的无效受众处理导致的，会导致意外错误和缺少数据。 该问题已得到解决，现在即使没有可用数据，桌面受众也加载且没有错误。 (TGT-53370)
+* **[!UICONTROL Graph view]部分中的[!UICONTROL Reports]未显示来自[!DNL Analytics]**&#x200B;的值：在Re[!UICONTROL Graph view]端口部分中访问的客户遇到数据丢失问题，所有值都显示为零。 此问题是由从[!UICONTROL Analytics]检索的数据不正确引起的。 [!UICONTROL Graph view]现在可按预期显示准确值。 (TGT-52792)
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++查看详细信息
+* **使用[!UICONTROL Enhanced Experience Composer] (EEC)单击“接受Cookie”失败，因为缺少函数**：客户报告说尝试通过EEC接受Cookie导致控制台错误： `handleclickAcceptAllButton is not defined`。 现在，Cookie接受功能可按预期工作，以确保在更新的UI中创建活动期间获得更流畅的体验。 (TGT-52794)
+* **新EEC UI无法加载旧版UI中以前支持的特定页面**：客户报告新EEC无法加载旧版UI中可以访问的某些页面，尽管网站上存在iframe-busting代码。 更新的活动创建流程现在支持加载这些页面，从而恢复活动创建工作流的兼容性。 (TGT-53061)
+* **在编辑体验时，VEC显示空白白屏**：来自特定租户的客户报告，在更新的VEC中编辑体验时，VEC屏幕变为空白。 此问题会影响新创建的活动和旧的活动，从而妨碍工作流的连续性。 现在，VEC可正确加载，从而允许客户在不中断的情况下编辑体验。 (TGT-53547)
+* **加载某些活动时，VEC崩溃并显示一个空白屏幕**：来自特定租户的客户报告VEC无法加载特定活动。 体验编辑器在“应用初始修改”时仍然卡住，直到崩溃并显示空白屏幕。 控制台错误指示读取未定义的属性失败。 该编辑器现在会在更新的VEC中加载受影响的活动，而不会出现错误。 (TGT-53548)
+* **使用Backspace清除所有日期值会导致页面崩溃**：使用Backspace清除“[!UICONTROL Goals & Settings]”字段中的所有值时，[!UICONTROL Specified Date & Time]分区中的计划活动的客户遇到崩溃。 此问题是由日期处理逻辑中的空引用错误导致的。 页面现在可以正常处理空日期输入而不会崩溃。 (TGT-53624)
+* **由于有效负载无效，[!UICONTROL Product Catalog Search]中未出现任何产品**：访问[!UICONTROL Recommendations]中[!UICONTROL Product Catalog Search]分区的客户遇到了GraphQL有效负载无效导致的空结果。 此后端错误会导致产品数据无法正确加载。 现在，产品在更新后的UI中按预期显示。 (TGT-53630)
+* **[!DNL Scene7]个图像已在更新的VEC中以较低分辨率保存**：客户在更新的VEC中编辑体验时注意到，[!UICONTROL Scene7]个图像URL是在没有分辨率参数的情况下保存的，这会导致交付的图像质量降低(400×400而不是预期的800×800)。 图像URL现在会保留正确的参数以确保正确的分辨率。 (TGT-52631)
+* **仍可以在VEC中编辑实时活动**：客户能够访问更新后的VEC中实时活动的编辑选项，这可能会导致意外的更改。 通过禁用实时活动的编辑功能，此问题已得到解决。 现在，编辑按钮在活动列表和编辑器的概述中处于隐藏状态，而批准者和其他角色不受影响。 (TGT-53055)
+* **已停用更新的VEC[!UICONTROL Failed]中的[!UICONTROL Draft]和**&#x200B;活动部分：已从更新的VEC中删除[!UICONTROL Failed]和[!UICONTROL Draft]活动选项。 新的UI不再支持草稿状态，并且失败的营销活动不会存储在后端。 这些选项不再相关。 相关筛选器和后端字段（例如，`uiSyncFailed`、`errorMessage`）也已移除，以简化活动管理。 (TGT-53150)
+* **无法登录到活动的VEC**：尝试通过VEC登录到其网站的客户被反复重定向到登录页面，从而无法访问活动编辑。 此问题无法在内部复制，并且可能与站点端会话处理相关。 登录流程已稳定，客户现在可以访问VEC而不会出现重定向错误。 (TGT-53524)
+* **在[!UICONTROL Browse]模式下按“返回”按钮两次会导致VEC崩溃**：在VEC中导航到[!UICONTROL Browse]模式的客户在按两次浏览器的“返回”按钮时会崩溃。 此问题导致编辑器冻结并需要刷新页面。 现在，该编辑器可以可靠地处理背面导航，而不会崩溃。 (GT-53568)
+* **由于未定义位置映射，无法编辑活动**：客户在尝试编辑活动时遇到错误，原因是`LocationMapping.behaviorTargetedActivity`逻辑中未定义位置ID。 此问题导致400错误并阻止活动更新。 现在可以在不出现与位置相关的验证错误的情况下编辑活动。 (TGT-53607)
+* **保存活动触发了无效的用户输入错误**：客户在更新的VEC中进行细微修改后尝试保存活动时遇到无效的用户输入错误。 该错误是由后端验证逻辑中的位置映射不匹配导致的。 现在可以成功保存活动，而不会触发与位置相关的错误。 (TGT-53603)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.8.3（2025年8月21日）
 
 此版本包含以下更新和修复：
@@ -88,7 +139,7 @@ ht-degree: 6%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++查看详细信息
 * **修复了在活动创建过程中客户无法键入报表包名称的问题**：在活动创建过程中使用[!DNL Adobe Analytics]作为报表源的客户无法键入到[!UICONTROL Report Suite]下拉列表中以搜索特定的报表包。 这会影响具有大量报表包的组织的工作流，在这些报表包中，手动滚动会显着延迟设置。 下拉列表未按字母顺序排序，并且未始终响应键入的输入，因此很难找到“Office + Store - Web - Prod”等报表包。 此问题已得到解决，客户现在可以通过键入报表包名称来高效搜索。 (TGT-53345)
@@ -122,7 +173,7 @@ ht-degree: 6%
 
 +++查看详细信息
 * **修复了[!DNL Recommendations] UI中的自定义标准CSV下载返回404错误的问题**：修复了客户无法在活动创建过程中下载自定义标准CSV的问题。 现在，下载链接可以正常运行，允许客户按预期导出自定义标准。 (TGT-51966)
-* **修复了[!UICONTROL Catalog Search]**&#x200B;中图像加载不一致的问题：修复了[!UICONTROL &#x200B; Catalog Search]中的缩略图和图像在活动创建过程中加载不一致的问题。 除非“缩略图URL”列可见，并且某些产品图像在导航或搜索操作后已加载部分或完全未加载，否则图像无法显示。 图像加载行为已稳定，并且无论列可见性或导航操作如何，缩略图现在都可以可靠地显示。 (TGT-52778)
+* **修复了[!UICONTROL Catalog Search]**&#x200B;中图像加载不一致的问题：修复了[!UICONTROL  Catalog Search]中的缩略图和图像在活动创建过程中加载不一致的问题。 除非“缩略图URL”列可见，并且某些产品图像在导航或搜索操作后已加载部分或完全未加载，否则图像无法显示。 图像加载行为已稳定，并且无论列可见性或导航操作如何，缩略图现在都可以可靠地显示。 (TGT-52778)
 * **修复了在复制的体验中编辑推荐会影响原始体验的问题**：客户报告在复制的体验中修改推荐无意中更改了原始体验。 具体而言，在活动创建过程中复制体验B并编辑其设计或标准后，相同的更改会反映在原始体验B中，尽管它们是单独的实体。 重复的体验现在会维护单独的配置，确保对一个体验的编辑不会影响原始体验。 (TGT-53369)
 * **修复了对重复体验的更改无意中影响活动中原始体验的问题**：客户报告说，在活动中复制体验并分配新受众时，对复制体验的设计或标准所做的任何更改也会反映在原始体验中。 即使没有直接对原始版本进行任何编辑，也会发生此问题，这影响了在同一活动中创建独立变体的能力。 现在，活动创建过程可正确隔离重复的体验，确保对一个体验所做的编辑不会影响原始体验。 (TGT-53361)
 * **修复了[!UICONTROL Recommendation Catalog]间歇性地无法显示完整产品属性数据的问题**：在更新的[!DNL Recommendations] UI中，客户遇到了[!UICONTROL Catalog Search]结果中无法一致显示某些产品属性（如消息）的问题，即使馈送中存在数据也是如此。 此问题要求客户手动重新配置列可见性以检索缺少的值。 [!UICONTROL Catalog Search]现在可靠地显示所有已配置的属性，无需手动重置列。 (TGT-52769)
@@ -153,7 +204,7 @@ ht-degree: 6%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看详细信息
 * **修复了活动创建过程中阻止升级到AP活动中的[!UICONTROL Targeting]步骤的问题**：修复了活动创建过程中客户无法继续到[!UICONTROL Targeting] (AP)活动中的[!UICONTROL Automated Personalization]步骤的问题（除非添加了两个位置）。 此行为与以前的体验不同，在以前的体验中，具有多个选件的单个位置便已足够。 该要求已得到纠正，允许客户继续将单个位置设置作为其AP工作流的一部分。 (TGT-53426)
@@ -306,7 +357,7 @@ ht-degree: 6%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

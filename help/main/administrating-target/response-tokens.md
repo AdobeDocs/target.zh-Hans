@@ -426,4 +426,4 @@ ht-degree: 24%
 >
 >视频提及了`option.name`和`option.id`，它们已分别替换为`offer.name`和`offer.id`。
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/33361?captions=chi_hans)

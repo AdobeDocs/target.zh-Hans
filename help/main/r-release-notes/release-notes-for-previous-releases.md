@@ -55,7 +55,7 @@ ht-degree: 60%
 * **[!UICONTROL Graph view]部分中的[!UICONTROL Reports]未显示来自[!DNL Analytics]**&#x200B;的值：在Re[!UICONTROL Graph view]端口部分中访问的客户遇到数据丢失问题，所有值都显示为零。 此问题是由从[!UICONTROL Analytics]检索的数据不正确引起的。 [!UICONTROL Graph view]现在可按预期显示准确值。 (TGT-52792)
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++查看详细信息
 * **使用[!UICONTROL Enhanced Experience Composer] (EEC)单击“接受Cookie”失败，因为缺少函数**：客户报告说尝试通过EEC接受Cookie导致控制台错误： `handleclickAcceptAllButton is not defined`。 现在，Cookie接受功能可按预期工作，以确保在更新的UI中创建活动期间获得更流畅的体验。 (TGT-52794)
@@ -87,7 +87,7 @@ ht-degree: 60%
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++查看详细信息
 * **修复了在活动创建过程中客户无法键入报表包名称的问题**：在活动创建过程中使用[!DNL Adobe Analytics]作为报表源的客户无法键入到[!UICONTROL Report Suite]下拉列表中以搜索特定的报表包。 这会影响具有大量报表包的组织的工作流，在这些报表包中，手动滚动会显着延迟设置。 下拉列表未按字母顺序排序，并且未始终响应键入的输入，因此很难找到“Office + Store - Web - Prod”等报表包。 此问题已得到解决，客户现在可以通过键入报表包名称来高效搜索。 (TGT-53345)
@@ -121,7 +121,7 @@ ht-degree: 60%
 
 +++查看详细信息
 * **修复了[!DNL Recommendations] UI中的自定义标准CSV下载返回404错误的问题**：修复了客户无法在活动创建过程中下载自定义标准CSV的问题。 现在，下载链接可以正常运行，允许客户按预期导出自定义标准。 (TGT-51966)
-* **修复了[!UICONTROL Catalog Search]**&#x200B;中图像加载不一致的问题：修复了[!UICONTROL  Catalog Search]中的缩略图和图像在活动创建过程中加载不一致的问题。 除非“缩略图URL”列可见，并且某些产品图像在导航或搜索操作后已加载部分或完全未加载，否则图像无法显示。 图像加载行为已稳定，并且无论列可见性或导航操作如何，缩略图现在都可以可靠地显示。 (TGT-52778)
+* **修复了[!UICONTROL Catalog Search]**&#x200B;中图像加载不一致的问题：修复了[!UICONTROL &#x200B; Catalog Search]中的缩略图和图像在活动创建过程中加载不一致的问题。 除非“缩略图URL”列可见，并且某些产品图像在导航或搜索操作后已加载部分或完全未加载，否则图像无法显示。 图像加载行为已稳定，并且无论列可见性或导航操作如何，缩略图现在都可以可靠地显示。 (TGT-52778)
 * **修复了在复制的体验中编辑推荐会影响原始体验的问题**：客户报告在复制的体验中修改推荐无意中更改了原始体验。 具体而言，在活动创建过程中复制体验B并编辑其设计或标准后，相同的更改会反映在原始体验B中，尽管它们是单独的实体。 重复的体验现在会维护单独的配置，确保对一个体验的编辑不会影响原始体验。 (TGT-53369)
 * **修复了对重复体验的更改无意中影响活动中原始体验的问题**：客户报告说，在活动中复制体验并分配新受众时，对复制体验的设计或标准所做的任何更改也会反映在原始体验中。 即使没有直接对原始版本进行任何编辑，也会发生此问题，这影响了在同一活动中创建独立变体的能力。 现在，活动创建过程可正确隔离重复的体验，确保对一个体验所做的编辑不会影响原始体验。 (TGT-53361)
 * **修复了[!UICONTROL Recommendation Catalog]间歇性地无法显示完整产品属性数据的问题**：在更新的[!DNL Recommendations] UI中，客户遇到了[!UICONTROL Catalog Search]结果中无法一致显示某些产品属性（如消息）的问题，即使馈送中存在数据也是如此。 此问题要求客户手动重新配置列可见性以检索缺少的值。 [!UICONTROL Catalog Search]现在可靠地显示所有已配置的属性，无需手动重置列。 (TGT-52769)
@@ -152,7 +152,7 @@ ht-degree: 60%
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++查看详细信息
 * **修复了活动创建过程中阻止升级到AP活动中的[!UICONTROL Targeting]步骤的问题**：修复了活动创建过程中客户无法继续到[!UICONTROL Targeting] (AP)活动中的[!UICONTROL Automated Personalization]步骤的问题（除非添加了两个位置）。 此行为与以前的体验不同，在以前的体验中，具有多个选件的单个位置便已足够。 该要求已得到纠正，允许客户继续将单个位置设置作为其AP工作流的一部分。 (TGT-53426)
@@ -475,7 +475,7 @@ ht-degree: 60%
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++查看详细信息
 * 修复了客户在[!UICONTROL Goals & Settings]页面上查看特定活动的报表时，[!UICONTROL View in Analytics]链接错误地指向QA环境而不是生产环境的问题。 (TGT-53163)
@@ -514,7 +514,7 @@ ht-degree: 60%
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++查看详细信息
 * 解决了[!UICONTROL Goals & Settings]页面上的问题：在多个体验中使用的选择器无法一致地高亮显示为选定选定项。 (TGT-53062)
@@ -565,7 +565,7 @@ ht-degree: 60%
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++查看详细信息
 * 修复了复制现有活动并将报表源更改为[!DNL Adobe Analytics] (A4T)会导致“用户输入无效”错误的问题。 当某些与[!DNL Analytics]报表不兼容的度量操作（如`restart_same_experience`、`restart_random_experience`和`restart_new_experience`）从原始活动中保留时触发了该错误。 (TGT-52900)
@@ -612,7 +612,7 @@ ht-degree: 60%
 * 以前，推荐UI仅显示从信息源成功导入的实体数。 但是，后端消息格式包括格式为`# of entities imported / # of total entities`的导入实体数和实体总数。 由于此差异，用户在UI中只能看到第一个值（导入计数），这会导致混淆。 现在，UI会显示这两个数字。 (TGT-53073)
 * 修复了在包含推荐的基于表单的A/B活动中配置“[!UICONTROL Promote by attribute]”促销活动时，客户无法保存筛选规则的问题。 保存并重新打开活动后，缺少筛选规则，无法成功保存活动。 (TGT-53057)
 
-  +++
++++
 
 **报表**
 
@@ -622,7 +622,7 @@ ht-degree: 60%
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++查看详细信息
 * 解决了以下问题：将修改应用于视图会导致视图被重复并且活动返回“无效用户输入”错误。 此修复可确保正确应用视图修改，而不会触发复制或验证错误。 (TGT-52886)
@@ -649,7 +649,7 @@ ht-degree: 60%
    * 通过右侧面板重命名选件更新了UI中的名称，但更改未反映在[!UICONTROL Manage Content]选项卡或[!UICONTROL Offers]选项卡中，从而导致持续验证错误。
    * 在MVT活动中，尽管在重命名后重复名称错误并未持续存在，但UI仍无法以一致的方式在各个选项卡反映更新的选件名称。 (TGT-52933)
 
-  +++
++++
 
 ### [!DNL Target Standard/Premium] 25.6.4（2025年6月27日）
 
@@ -2892,7 +2892,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Manager (AEM) 体验片段 </p> </td> 
-   <td colname="col2"> <p>通过在 Target 活动中使用 AEM 中创建的体验片段，您可以将 AEM 中这一简单易用的功能与 Target 中强大的自动化智能 (AI) 和机器学习 (ML) 功能结合使用，从而测试和个性化大量体验。&amp;nbsp;&amp;nbsp; </p> <p>AEM 可将您的所有内容和资产汇集到一个中心位置，以帮助实施您的个性化策略。通过 AEM，您能够在一个位置轻松创建适用于桌面、平板电脑和移动设备的内容，而无需编写代码。无需为每个设备创建页面，AEM会自动使用您的内容调整每个体验。 </p> <p> Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（这些方法包含行为、上下文和离线变量），交付大量的个性化体验。通过 Target，您可以轻松地设置并运行 A/B 活动和多变量活动，从而确定最佳的产品建议、内容和体验。 </p> <p>现在，有些从事优化和个性化工作的专业人士正在使用 Target 促进其业务发展，对这类人士而言，体验片段代表了在将内容/体验创建器与管理器关联方面迈出了巨大的一步。 </p> <p>有关更多信息，请参阅 <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM 体验片段</a>。 </p> </td> 
+   <td colname="col2"> <p>通过在 Target 活动中使用 AEM 中创建的体验片段，您可以将 AEM 中这一简单易用的功能与 Target 中强大的自动化智能 (AI) 和机器学习 (ML) 功能结合使用，从而测试和个性化大量体验。&nbsp;&nbsp; </p> <p>AEM 可将您的所有内容和资产汇集到一个中心位置，以帮助实施您的个性化策略。通过 AEM，您能够在一个位置轻松创建适用于桌面、平板电脑和移动设备的内容，而无需编写代码。无需为每个设备创建页面，AEM会自动使用您的内容调整每个体验。 </p> <p> Target 允许您根据一组基于规则且由 AI 驱动的机器学习方法（这些方法包含行为、上下文和离线变量），交付大量的个性化体验。通过 Target，您可以轻松地设置并运行 A/B 活动和多变量活动，从而确定最佳的产品建议、内容和体验。 </p> <p>现在，有些从事优化和个性化工作的专业人士正在使用 Target 促进其业务发展，对这类人士而言，体验片段代表了在将内容/体验创建器与管理器关联方面迈出了巨大的一步。 </p> <p>有关更多信息，请参阅 <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM 体验片段</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>报表 </p> </td> 
@@ -4254,7 +4254,7 @@ Adobe Target Standard/Premium 16.5.1（2016 年 5 月 19 日）版本包括以�
    <td colname="col1" class="premium"> 推荐 CSV 下载 </td> 
    <td colname="col2"> <p>现在，下载的 CSV 有一行表示所有环境，包括没有实体推荐的那些环境（例如：
      <code>
-       # environment: 1724 
+       &#x200B;# environment: 1724 
      </code>）。 </p> </td> 
   </tr> 
  </tbody> 

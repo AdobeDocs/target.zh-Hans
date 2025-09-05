@@ -5,7 +5,7 @@ title: 什么是响应令牌？如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: a1617f64f0633a87ea4c1f8e5104a1d177df04e2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 24%
@@ -28,8 +28,8 @@ ht-degree: 24%
 
 | 定位SDK | 建议的操作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版Platform Web SDK的信息，请参阅[Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans){target=_blank}指南中的&#x200B;*安装SDK*。 有关每个版本的Platform Web SDK中新功能的信息，请参阅[Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans)指南中的&#x200B;*发行说明*。 |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank} | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本 at.js 的信息，请参阅[下载 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=zh-Hans){target=_blank}。有关每个 at.js 版本新功能的信息，请参阅 [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank}。<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在mbox.js中存在（现已弃用），但在at.js中不存在；这些插件虽然可以交付，但却会失败。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版Platform Web SDK的信息，请参阅[Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank}指南中的&#x200B;*安装SDK*。 有关每个版本的Platform Web SDK中新功能的信息，请参阅[Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)指南中的&#x200B;*发行说明*。 |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本 at.js 的信息，请参阅[下载 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}。有关每个 at.js 版本新功能的信息，请参阅 [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在mbox.js中存在（现已弃用），但在at.js中不存在；这些插件虽然可以交付，但却会失败。 |
 
 ## 使用响应令牌 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,8 +37,8 @@ ht-degree: 24%
 
    有关更多信息：
 
-   * **Platform Web SDK**：请参阅[Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans)指南中的&#x200B;*安装SDK*。
-   * **at.js**：请参阅[下载at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=zh-Hans){target=_blank}。
+   * **Platform Web SDK**：请参阅[Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)指南中的&#x200B;*安装SDK*。
+   * **at.js**：请参阅[下载at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}。
 
 1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**。
 
@@ -58,7 +58,7 @@ ht-degree: 24%
    |  | `profile.categoryAffinity` | 返回访客最喜欢的类别。 |
    |  | `profile.categoryAffinities` | 将该访客排名前 5 的类别的数组作为字符串返回。 |
    | 活动 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 当前活动的详细信息。<br>请注意，优惠参数的值是在体验级别上评估的。 |
-   | 地域 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 请参阅[地域](/help/main/c-target/c-audiences/c-target-rules/geo.md)以了解在活动中使用地域定位的详细信息。 |
+   | 地域 | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 请参阅[地域](/help/main/c-target/c-audiences/c-target-rules/geo.md)以了解在活动中使用地域定位的详细信息。 |
    | 流量分配方法<br>（仅适用于[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动。） | `experience.trafficAllocationId` | 如果访客因处于“control”流量中而获得体验，则返回0；如果访客从“targeted”流量分配获得体验，则返回1。 |
    |  | `experience.trafficAllocationType` | 返回“control”或“targeted”。 |
 
@@ -147,7 +147,7 @@ ht-degree: 24%
 
 ### 使用自定义事件的![at.js徽章](/help/main/assets/atjs.png) at.js
 
-使用[at.js自定义事件](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=zh-Hans){target=_blank}监听[!DNL Target]响应并读取响应令牌。
+使用[at.js自定义事件](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank}监听[!DNL Target]响应并读取响应令牌。
 
 以下代码示例可将一个 [!DNL at.js] 自定义事件处理程序直接添加到 HTML 页面：
 
@@ -426,4 +426,4 @@ ht-degree: 24%
 >
 >视频提及了`option.name`和`option.id`，它们已分别替换为`offer.name`和`offer.id`。
 
->[!VIDEO](https://video.tv.adobe.com/v/33361?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)

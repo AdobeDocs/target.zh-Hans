@@ -4,7 +4,7 @@ description: 了解如何以CVS格式从Adobe [!DNL Target] 活动下载数据�
 title: 如何以CSV文件下载报表数据？
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: e42398b8774fff57c00658636a52bd0038ad94b4
+source-git-commit: c0342f51d998d27eef9af189c7ebb364095699ed
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 30%
@@ -26,20 +26,6 @@ ht-degree: 30%
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
-
-## 热门程度的CSV下载格式和基于密钥的算法 {#format}
-
-CSV下载文件始终反映后端标准执行后生成的结果。
-
-**对于热门程度算法（不基于密钥），文件包括：**
-
-* 以*为前缀的一行备份推荐
-* 单独的行会根据算法设置列出推荐
-
-**对于基于密钥的算法，文件包括：**
-
-* 与热门程度算法类似的备份行
-* 键值格式的多行，其中第一个条目是键的产品ID，后跟表示推荐候选者的逗号分隔的产品ID
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -83,6 +69,20 @@ CSV下载文件始终反映后端标准执行后生成的结果。
 >
 >* 对于默认环境（主机组），订单报表会包含四周的数据，而对于所有非默认环境，订单报表会包含两周的数据。
 >* 设置为“[!UICONTROL Increment count and keep the user in the activity]”的收入量度仅记录同一访客首次订购的详细信息。 所有后续订单都会增加转化计数，但不会将收入添加到RPV/AOV/销售中，并且不会包含在[!UICONTROL Order Details]报表中。
+
+## 热门程度的CSV下载格式和基于密钥的算法 {#format}
+
+CSV下载文件始终反映后端标准执行后生成的结果。
+
+**对于热门程度算法（不基于密钥），文件包括：**
+
+* 以*为前缀的一行备份推荐
+* 单独的行会根据算法设置列出推荐
+
+**对于基于密钥的算法，文件包括：**
+
+* 与热门程度算法类似的备份行
+* 键值格式的多行，其中第一个条目是键的产品ID，后跟表示推荐候选者的逗号分隔的产品ID
 
 ## 最佳实践
 

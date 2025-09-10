@@ -4,9 +4,9 @@ description: 了解如何预览Adobe [!DNL Target] 推荐活动，以确保在�
 title: 如何预览和启动“推荐”活动？
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
+source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1398'
 ht-degree: 15%
 
 ---
@@ -94,6 +94,20 @@ ht-degree: 15%
 >[!NOTE]
 >
 >包含[!UICONTROL User-Based Recommendations]算法的活动无法下载结果。 使用[!UICONTROL Recently-Viewed Items]推荐逻辑的标准无法下载结果。
+
+### 用于基于热门程度和基于密钥的算法的CSV下载格式 {#format}
+
+CSV下载文件始终反映后端标准执行后生成的结果。
+
+* **对于基于热门程度的算法（不基于密钥），文件包括：**
+
+   * 以*（星号）为前缀的一行备份推荐
+   * 单独的行会根据算法设置列出推荐
+
+* **对于基于密钥的算法，文件包括：**
+
+   * 与基于热门程度的算法类似的备份行
+   * 键值格式的多行，其中第一个条目是键的产品ID，后跟表示推荐候选者的逗号分隔的产品ID
 
 ## 激活您的“推荐”活动
 

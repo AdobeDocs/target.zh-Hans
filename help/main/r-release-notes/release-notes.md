@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 29ddf23b41531e5fab80fe7d0f6bc913e778d839
+source-git-commit: 098415849152065b734cbebbab8dcf1d0805e202
 workflow-type: tm+mt
-source-wordcount: '1670'
-ht-degree: 15%
+source-wordcount: '1779'
+ht-degree: 14%
 
 ---
 
@@ -75,6 +75,18 @@ ht-degree: 15%
 
 +++
 
+## 数据流更新（2025年9月19日）
+
+数据流ID和沙盒组合对于[!DNL Adobe Target]目标连接必须是唯一的。
+
+更新了[!DNL Target]目标连接的验证逻辑，以强制数据流ID和沙盒名称的组合在IMS组织中必须是唯一的。这意味着：
+
+* 无法在多个[!DNL Target]目标连接中重用相同的数据流ID +沙盒名称对。
+* 同一数据流ID只能用于不同的连接，前提是它们是在不同的沙盒中配置的。
+* 此规则适用于所有数据流选择，包括选择“无”时。
+
+此更新可确保配置的一致性，并防止在多沙盒环境中发生冲突。 有关详细信息，请参阅[Adobe Target目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform连接*。
+
 ## [!DNL Target Standard/Premium] 25.9.1（2025年9月5日）
 
 此版本包含以下更新和修复：
@@ -135,7 +147,7 @@ ht-degree: 15%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

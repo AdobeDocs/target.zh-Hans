@@ -85,7 +85,7 @@ ht-degree: 14%
 * 同一数据流ID只能用于不同的连接，前提是它们是在不同的沙盒中配置的。
 * 此规则适用于所有数据流选择，包括选择“无”时。
 
-此更新可确保配置的一致性，并防止在多沙盒环境中发生冲突。 有关详细信息，请参阅[Adobe Target目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform连接*。
+此更新可确保配置的一致性，并防止在多沙盒环境中发生冲突。 有关详细信息，请参阅[Adobe Target目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform连接*。
 
 ## [!DNL Target Standard/Premium] 25.9.1（2025年9月5日）
 
@@ -147,7 +147,7 @@ ht-degree: 14%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

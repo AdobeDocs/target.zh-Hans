@@ -4,7 +4,7 @@ title: Adobe Target 从业者指南
 description: 了解如何使用 Adobe [!DNL Target] 使客户的体验个性化，以最大限度地提高您的网站和移动网站、应用程序和其他数字渠道的收入。
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 186bfa96c0849d9cd838b3d493c10cccfd4ff068
+source-git-commit: 869761b958a76f552512e0df06767b55148cd002
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 27%
@@ -29,7 +29,7 @@ ht-degree: 27%
 
 >[!TAB 新增功能？]
 
-**目标25.9.1已上线！**
+**目标25.9.2已上线！**
 
 此版本重点针对更新的[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的修复和增强功能。
 

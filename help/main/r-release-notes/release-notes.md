@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 098415849152065b734cbebbab8dcf1d0805e202
+source-git-commit: 186bfa96c0849d9cd838b3d493c10cccfd4ff068
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 14%
+source-wordcount: '4104'
+ht-degree: 8%
 
 ---
 
@@ -75,6 +75,87 @@ ht-degree: 14%
 
 +++
 
+## [!DNL Target Standard/Premium] 25.9.2（2025年9月22日）
+
+此版本包括以下修复和增强功能：
+
+**[!UICONTROL Audiences]**
+
++++查看详细信息
+* **修复了由于受众ID无效而无法复制活动的问题。**&#x200B;客户尝试在更新的活动创建过程中复制活动时，遇到因受众ID无效(例如 — 1752722444307)导致的错误。 此后端验证问题可防止同一工作区中的活动重复。 此问题已得到解决，现在可以成功复制活动而不会出现与受众相关的错误。 (TGT-53717)
+* **修复了[!UICONTROL Automated Personalization]模式的[!UICONTROL Manage Content]活动中仅活动受众出现无效用户输入错误的问题。**&#x200B;客户在AP活动的[!UICONTROL  Manage Content]模式中配置仅限该活动的受众时遇到无效的用户输入错误。 尽管之前已成功使用受众，但还是出现了此问题。 现在，组合的受众配置可正确保存，而不会触发验证错误。 (TGT-53749)
+
++++
+
+**文档**
+
++++查看详细信息
+* **已将特定于Target的Web SDK文档页面移动到Adobe Target存储库。**&#x200B;作为Web SDK文档重组的一部分，特定于[!DNL Target]的内容已从常规Web SDK文档迁移到[!DNL Adobe Target] [开发人员指南](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此更改改进了内容可搜索性，并确保相应的产品团队维护特定于解决方案的指导。 (TGT-53374)
+
++++
+
+**[!UICONTROL Offer Decisions]**
+
++++查看详细信息
+* **优惠决策选项在初始活动创建期间始终可见。**&#x200B;解决了更新后的UI中，首次创建A/B活动流程时，无法显示[!UICONTROL Offer Decision]选项的问题，尤其是在以无痕模式访问启用了优惠决策的租户时。 该选项仅在导航到[!UICONTROL Targeting]步骤并返回到[!UICONTROL Experiences]之后显示。 此修复程序确保[!UICONTROL Offer Decision]选项在初始设置期间立即可用，从而提高可用性并减少混淆。 (TGT-51888)
+
++++
+
+**[!UICONTROL Offers]**
+
++++查看详细信息
+* **修复了当`redirectOptions`时，重定向选件未在有效负载中包含`includeContent=true`的问题。使用**&#x200B;检索重定向优惠的`includeContent=true `客户在响应有效负载中缺少`redirectOptions`字段。 这种不一致会影响工作流，例如选件复制和活动创建。 在请求内容时，重定向选件现在正确包含`redirectOptions`。 (TGT-53737)
+
++++
+
+**[!DNL Recommendations]**
+
++++查看详细信息
+* **已恢复在更新的UI中创建的[!UICONTROL Recommendations]活动的点击跟踪。**&#x200B;解决了AB问题，该问题导致在更新的UI中创建的[!UICONTROL Recommendations]活动无法注册点击跟踪，导致报告的转化率为零。 旧版UI中构建的活动可正确跟踪点击次数并报告预期转化。 此修复程序可确保在更新后的UI中创建的推荐活动现在包括正确的跟踪属性、恢复转化报表以及与A4T量度保持一致。 (TGT-53287)
+* **已恢复推荐活动的点击跟踪。**&#x200B;解决了在更新的UI中创建的[!UICONTROL Recommendations]活动无法注册点击跟踪，导致报告转化为零的问题。 旧版UI将跟踪ID (`at-track-click`)正确应用于[!UICONTROL Recommendations]内容，而更新的UI错误地插入了占位符(`__recsClickTrackIdPlaceholder__`)，从而阻止后端跟踪。 此修复确保[!DNL Recommendations]内容现在包含正确的跟踪ID，从而恢复转化报表并与A4T量度保持一致。 (TGT-53496)
+* 在更新的UI中解决了&#x200B;**收藏集编辑器崩溃问题。**&#x200B;修复了在更新的[!UICONTROL Visual Experience Composer] (VEC) UI中，从编辑器面板打开收藏集导致页面崩溃的问题，出现TypeError：无法读取未定义的属性（读取“customLocale”）。 此错误出现在多个活动类型中，包括[!UICONTROL Recommendations]和A/B测试。 (TGT-53703)
+* **用于删除VEC中还原的选定收藏集的选项。**&#x200B;修复了VEC中的一个问题：用户只能替换[!UICONTROL Recommendations]活动中的选定集合，但无法将其完全删除。 此限制阻止了需要在不进行替换的情况下干净移除集合的用例。 此修复引入了一个用于删除所选收藏集的清除选项，从而允许在活动设置方面更加灵活，并与旧版UI行为保持一致。 (TGT-53652)
+* **自定义条件集合现在在[!UICONTROL Recommendations] UI中正确显示。**&#x200B;修复了“推荐”界面中使用自定义条件构建的收藏集无法显示产品结果的问题。 尽管基于属性的标准收藏集按预期工作，但使用自定义筛选器的收藏集返回“未找到结果”，尽管目录匹配有效。 此修复确保使用自定义属性的收藏集现在能够在[!UICONTROL Product]选项卡中正确填充，从而恢复个性化推荐工作流的完整功能。 (TGT-53653)
+* **修复了首次打开[!UICONTROL Products]页面时收藏集不显示产品的问题。**&#x200B;访问[!UICONTROL Recommendations]分区中的收藏集的客户在首次打开[!UICONTROL Products]页面时遇到了空的产品结果。 此问题是由于GraphQL查询中的后端错误导致的，该错误无法加载具有自定义标准的集合的产品数据。 问题已得到解决，产品现在可以正确显示，而无需切换环境。 (TGT-53694)
+* **修复了在基于表单的[!UICONTROL Recommendations]活动中无法删除收藏集的问题。**&#x200B;使用[!UICONTROL Recommendations]创建[!UICONTROL Form-Based Experience Composer]活动的客户无法取消选择之前选择的收藏集。 UI要求在保存之前选择收藏集，以防用户恢复为“所有收藏集”。 此行为已更新以符合VEC功能，允许客户在没有选定收藏集的情况下进行保存，并按预期默认为“所有收藏集”。 (TGT-53708)
+* **修复了由于缺少收藏集或筛选规则值，导致无法按属性设置促销活动的问题。**&#x200B;客户在活动创建过程中按属性配置促销时遇到错误，说明某个促销缺少集合ID或筛选规则值。 即使设置似乎已完成，此验证问题也会阻止进程。 现在，在按属性配置促销活动时，可以成功保存促销活动。 (TGT-53750)
+* **修复了由于体验名称重复而无法保存活动的问题。**&#x200B;客户在保存包含特定标准和设计组合的活动时遇到无效的用户输入错误。 即使设置似乎有效，错误也因体验名称重复而触发。 现在可以保存具有不同配置的活动，而不会出现命名冲突。 (TGT-53805)
+* **修复了属性配置的促销活动的验证仍然无效的问题。**&#x200B;客户在活动创建过程中按属性设置促销活动时遇到永久性验证错误，即使所有必填字段均已正确填充也是如此。 此问题是由于[!UICONTROL Recommendations]工作流中的验证逻辑不正确导致的。 现在，基于属性的促销活动会按预期进行验证和保存。 (TGT-53811)
+* **修复了将促销活动应用于实时[!UICONTROL Recommendations]活动时触发错误的问题。**&#x200B;客户在尝试将前端促销应用于实时[!UICONTROL Recommendations]活动时遇到错误“促销活动缺少集合ID或筛选规则值”，即使提供了有效的配置详细信息后也是如此。 现在可以将促销活动成功应用于实时活动，而不会触发验证错误，从而确保在更新的活动创建UI中实现更顺畅的体验。 (TGT-53738)
+* **修复了产品在[!UICONTROL Recommendations] UI中的收藏集中不可见的问题。**&#x200B;来自单个租户的客户报告说在新UI的[!UICONTROL Recommendations]部分中查看某些收藏集时加载产品列表失败。 通过切换环境暂时解决了此问题，但此解决方法会导致用户体验不佳。 现在，产品实体可以始终如一地加载，而无需切换环境。 (TGT-53783)
+* **修复了活动创建UI中有一行未显示标准和设计的问题。**&#x200B;以前，活动创建过程中的标准和设计以压缩格式显示，因此客户很难查看和管理各个项目。 现在，每个标准和设计都独立显示，提高了更新后的UI中的可读性和可用性。 (TGT-53818)
+
++++
+
+**报表**
+
++++查看详细信息
+* **[!UICONTROL Total Revenue]指标现在包含在从活动报表导出的CSV中。**&#x200B;解决了更新的[!UICONTROL Overview] UI中的问题：总收入在活动报表视图中正确显示，但在CSV导出中缺失，显示为$0。 这种差异导致用户无法依赖导出的数据进行离线分析和报告。 (TGT-53325)
+* **[!UICONTROL Total Sales]指标现在包含在从活动报表导出的CSV中。**&#x200B;解决了更新后的UI中，[!UICONTROL Total Sales]指标在活动报表视图中正确显示，但CSV导出中缺失的问题。 这种差异导致用户无法访问下载报表中的完整性能数据。 此修复程序确保[!UICONTROL Total Sales]值现在准确地包含在CSV导出中，从而恢复应用程序内报表和离线分析之间的一致性。 (TGT-53330)
+* **改进了在未启用量度时[!UICONTROL Graph View]的错误消息传递。**&#x200B;修复了VEC中的一个问题，即在关联的[!UICONTROL Graph View]报表包中未启用所请求的量度时，[!DNL Analytics]显示一般的“出现错误”消息。 此问题是由后端GraphQL响应中的`not_enabled_metric`错误触发的。 此修复用信息更丰富的消息取代了模糊的错误，帮助用户识别[!DNL Analytics]中的配置问题，从而减少混淆和不必要的支持升级。 (TGT-53577)
+* **修复了报表持续时间超出支持的90天限制的问题。**&#x200B;在[!UICONTROL Last X Days]部分中使用“[!UICONTROL Reports]”过滤器的客户能够选择超过90天的持续时间，这可能会导致性能问题和数据不完整。 更新了过滤器，强制实施最长90天的范围，以确保一致且可靠的报表。 (TGT-53795)
+* **修复了使用默认环境而不是选定环境生成性能CSV报表的问题。**&#x200B;以前，当客户在报表设置中更改环境并生成性能报表时，生成的CSV包含默认环境的数据，而不是选定环境的数据。  UI现在可正确传递`environmentId`参数，从而确保报表反映所选环境。 此外，错误处理已得到改进。 如果在CSV生成期间出现GraphQL错误，则UI现在会显示一条明确的错误消息，而不是生成一个空的CSV文件。 (TGT-53064)
+* **修复了Analytics for Target (A4T)报表无法在[!UICONTROL Graph View]中显示数据的问题。**&#x200B;客户将[!DNL Target]与A4T集成一起使用，在A/B测试活动的“报表”选项卡中切换到图形视图时遇到“出现错误”错误。 尽管[!UICONTROL Table View]已正确加载，[!UICONTROL Graph View]仍无法呈现选定时间范围内的量度趋势。 [!UICONTROL Graph View]现在可按预期显示所有受支持量度的性能数据，从而提高更新UI中的可见性和报告准确性。 (TGT-53573)
+
++++
+
+**可视化体验编辑器 (VEC)**
+
++++查看详细信息
+* **元素元数据现在显示在悬停在痕迹导航菜单中的位置。**&#x200B;改进了VEC中的痕迹导航菜单，当鼠标悬停在项上时，该菜单可显示其他元素详细信息，例如ID、类和名称。 此增强功能可帮助用户在活动设置期间更轻松地识别和区分元素。 (TGT-53409)
+* **痕迹导航悬停现在会突出显示VEC中的相应元素。**&#x200B;改进了[!UICONTROL Visual Experience Composer]，在痕迹导航菜单中将鼠标悬停在项上时，突出显示编辑器中的相应元素。 还会显示元素类型，如容器、粗体文本或按钮。 此行为适用于同级元素，并根据验证列表排除不支持的类型，例如SVG。 (TGT-53411)
+* **VEC修改工作流中还原了未保存的更改警报。**&#x200B;修复了VEC中的一个问题：当自定义代码修改未保存更改时，用户不再收到相关通知。 与旧版UI不同，新体验在导航离开或关闭个性化编辑器时缺少提示，这会导致意外丢失进度。 此修复程序可恢复所有修改类型（包括自定义代码）的警报，并确保用户在退出时收到警告而不保存。 (TGT-53435)。
+* **在VEC的页面刷新期间，自定义代码更改现在持续存在。**&#x200B;修复了VEC中的以下问题：网站刷新期间自定义代码修改丢失。 在多次重新加载的页面上发生此问题，导致编辑器重置并还原未保存的更改。 修复程序可确保自定义代码编辑内容保持不变，即使页面在编辑期间重新加载也是如此，从而防止意外失去进度。 (TTGT-53501)
+* **VEC中的网站访问登录问题已得到解决。**&#x200B;修复了用户在通过VEC访问网站时无法登录到网站的问题。 登录流会反复地将用户重定向回登录页面，从而阻止活动设置和预览。 此修复可确保VEC不再干扰登录行为，从而恢复经过身份验证的用户的预期访问权限。 (TGT-53524)
+* 在VEC助手扩展中解决了&#x200B;**Cookie复制问题。**&#x200B;修复了[!UICONTROL Adobe Experience Cloud Visual Editing Helper]扩展在通过预览链接进行QA期间复制`at_qa_mode` Cookie的问题。 当手动切换预览索引时，会创建多个具有跨域冲突值的Cookie，从而阻止测试者可靠地切换变量。 甚至在Target UI外部也观察到此行为，它同时影响内部帐户和客户端帐户。 此修复通过防止重复条目并调整域范围来确保一致的Cookie处理，从而允许无缝的变体切换，而无需手动Cookie清理。 (TGT-53579)
+* **修复了单击特定主页上的元素导致内存泄漏的问题。**&#x200B;在此主页上创建活动的客户在与页面元素交互时遇到内存泄漏问题。 该问题与过多控制台警告和增加子帧中的内存使用量有关，特别是与格式错误的srcset属性有关。 现在，内存使用在交互过程中保持稳定。 (TGT-53761)
+* **修复了VEC崩溃并在加载某些活动时显示空白屏幕的问题。**&#x200B;特定租户的客户报告编辑器无法加载特定活动。 VEC在崩溃并显示空白屏幕之前停留在“应用初始修改”上。 现在，VEC在更新的活动创建过程中加载受影响的活动，而不会出现错误。 (TGT-52932)
+* **修复了[!UICONTROL Manage Content]活动中的[!UICONTROL Automated Personalization]边栏显示不一致位置标签的问题。**&#x200B;客户报告[!UICONTROL Manage Content]边栏在[!UICONTROL Experiences]和[!UICONTROL Offers]选项卡中显示不匹配的位置编号。 （例如，体验中的位置2和位置4，以及选件中的位置1和位置2），即使仅配置了两个位置也是如此。 位置标签现在是一致的，并准确地映射到修改，从而提高活动创建过程中的清晰度和可用性。 (TGT-52934)
+* **修复了VEC中的修改在保存后丢失的问题。**&#x200B;客户报告，在VEC中保存修改后，页面将刷新并将更改还原到之前的版本。 此问题导致最新更新丢失，除非立即保存整个活动。 现在，修改在保存后会正确保留，并且编辑器不会再意外还原更改，从而确保在活动创建工作流中提供可靠的体验。 (TGT-53500)
+* **通过在悬停和选择时显示元素类型，增强了VEC中的元素选择。**&#x200B;为了提高活动创建期间的可用性，VEC现在会在将鼠标悬停在上面或选中时，使用HTML元素的类型对其进行修饰。 此增强功能可帮助客户更轻松地识别和选择正确的元素。 选定的元素以不同的颜色突出显示，悬停的元素以蓝色列出。 元素类型也会显示，在编辑过程中提供更清晰的上下文。 (TGT-53502)
+
++++
+
 ## 数据流更新（2025年9月19日）
 
 数据流ID和沙盒组合对于[!DNL Adobe Target]目标连接必须是唯一的。
@@ -85,7 +166,7 @@ ht-degree: 14%
 * 同一数据流ID只能用于不同的连接，前提是它们是在不同的沙盒中配置的。
 * 此规则适用于所有数据流选择，包括选择“无”时。
 
-此更新可确保配置的一致性，并防止在多沙盒环境中发生冲突。 有关详细信息，请参阅[Adobe Target目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform连接*。
+此更新可确保配置的一致性，并防止在多沙盒环境中发生冲突。 有关详细信息，请参阅[Adobe Target目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform连接*。
 
 ## [!DNL Target Standard/Premium] 25.9.1（2025年9月5日）
 
@@ -147,7 +228,7 @@ ht-degree: 14%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

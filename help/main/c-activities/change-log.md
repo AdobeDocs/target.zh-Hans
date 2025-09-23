@@ -4,16 +4,16 @@ description: 在Adobe [!DNL Target] 中访问活动的更改日志，以查看�
 title: 如何查看活动更改日志？
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+source-git-commit: f227e09052db168f99dc28f652c4f0ed5d220601
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '163'
 ht-degree: 1%
 
 ---
 
 # 活动更改日志
 
-[!DNL Adobe Target] [!UICONTROL Change Log]记录活动操作，包括更改的内容、更改者以及更改发生的时间。 从[!UICONTROL Change Log][[!UICONTROL Audi Query API]填充](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}页面以进行实时分析。
+[!DNL Adobe Target] [!UICONTROL Change Log]记录活动操作，包括更改的内容、更改者以及更改发生的时间。 已填充[!UICONTROL Change Log]页面以进行实时分析。
 
 要访问[!UICONTROL Change Log]页面，请执行以下操作：
 
@@ -24,9 +24,10 @@ ht-degree: 1%
 
 刷新页面以查看状态更改。 您还可以通过单击[!UICONTROL Date]列标题，按升序或降序列出执行的操作。
 
->[!MORELIKETHIS]
->
->* [按上一作者的姓名和修改后的时间戳获取审核日志](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
->
->* [列出活动更改日志](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+## 目标审核日志API
+
+* [修订：按上次作者姓名和修改时间戳获取审核日志](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
+* [列出活动更改日志](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+
+
 

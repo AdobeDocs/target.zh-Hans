@@ -5,8 +5,10 @@ solution: Target
 audience: end-user
 type: Documentation
 git-repo: https://github.com/AdobeDocs/target.zh-Hans
+landing-page-breadcrumb-title: Target
+landing-page-name: target
 index: true
-source-git-commit: e68fafde622d2478dcebe67df6d3a65e137b5dc3
+source-git-commit: 666000c3257a3e07cafa020f881f5b7c2dc24795
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%

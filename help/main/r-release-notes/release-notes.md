@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 186bfa96c0849d9cd838b3d493c10cccfd4ff068
+source-git-commit: 405faeac7fc633a64c441edeb2a95d90d896b21d
 workflow-type: tm+mt
-source-wordcount: '4104'
-ht-degree: 8%
+source-wordcount: '5412'
+ht-degree: 7%
 
 ---
 
@@ -75,6 +75,64 @@ ht-degree: 8%
 
 +++
 
+## [!DNL Target Standard/Premium] 25.9.3（2025年9月30日）
+
+此版本包含以下增强功能和修复。
+
++++[!UICONTROL Audiences]
+
+* **受众排除规则在[!DNL Target] UI中显示为包含不正确。在活动中编辑定位时，**&#x200B;配置排除规则的受众显示为已包括。 尽管在执行期间正确应用了排除逻辑，但UI无法正确反映规则，缺少“排除”标签。 [!DNL Target] UI现在可以在受众配置和定位工作流中正确显示排除规则，从而确保活动设置的明确性和一致性。 (TGT-53808)
+* **[!UICONTROL Targeting]部分未指示受众规则已设置为排除。使用排除逻辑配置的受众**&#x200B;在活动创建UI的[!UICONTROL Targeting]部分中错误地显示为包含。 尽管后端正确应用了排除规则，但UI无法直观地表示该规则，在活动设置期间会忽略“排除”标签并导致混淆。 [!UICONTROL Targeting]部分现在可以清楚地显示排除规则，确保受众配置和定位可视化之间的一致性。 (TGT-53809)
+
++++
+
++++本地化
+
+* **修复了“完整详细信息视图”的简体中文翻译中的术语不一致问题。**
+以前，术语“Details”在简体中文(zh_CN)区域设置中被错误地翻译为“详情”，这违反了既定的术语指南。 已将此更正为“详细信息”，以确保与术语库一致。 (TGT-53741)
+
++++
+
++++[!UICONTROL Recommendations]
+
+* **推荐框在VEC中难以查找和选择。**&#x200B;在(VEC)中添加推荐选件后，单击左侧面板中的修改未高亮显示或滚动到页面上相应的推荐框。 这使得查找和编辑选件变得困难，尤其是在选择器下隐藏或最小化样式时。 现在，单击推荐修改可正确高亮显示并滚动到关联的元素，从而提高更新的活动创建过程中的可用性和编辑效率。 (TGT-52571)
+* 保存活动后，**推荐选择器重写不正确。**&#x200B;向VEC中的元素添加推荐时，选择器最初是正确的，但在保存并重新打开活动后，它更改为通用选择器。 尝试手动恢复原始选择器时导致验证错误。 现在，建议选择器在保存后可准确保留，从而确保在更新的活动创建过程中具有可靠的定位和可编辑性。 (TGT-53709)
+* **修改现有活动时无法编辑标准内容。**&#x200B;在编辑活动时，[!UICONTROL Criteria]内容部分显示为禁用，按钮灰显且无响应。 通过确保[!UICONTROL Criteria]配置在活动更新期间完全可编辑，此问题已得到解决。 客户现在可以修改[!UICONTROL Criteria]内容，而无需切换选择或使用解决方法，从而改进了活动创建更新过程中的灵活性和可用性。 (TGT-53812)
+* 无法在活动中编辑&#x200B;**标准。**&#x200B;从活动访问条件时，[!UICONTROL Edit Criteria]和[!UICONTROL Remove Criteria]选项已禁用。 但是，可通过[!UICONTROL Recommendations]选项卡成功编辑相同的标准。 现在，可以从活动编辑工作流和[!UICONTROL Recommendations]选项卡中完全编辑标准，从而确保一致且高效的编辑体验。 (TGT-53814)
+
++++
+
++++[!UICONTROL Reports]
+
+* **在A[!UICONTROL utomated Personalization]活动中生成临时选件导致报表不一致。**&#x200B;在[!UICONTROL Automated Personalization] (AP)活动中使用生成临时选件功能导致报告不准确。 具体而言，选件ID在各个位置中重用，导致报表数据被错误归因或覆盖。 现在，每个位置生成的临时选件具有不同的标识符，从而确保所有配置的体验都能够准确跟踪和生成报表。 (TGT-53757)
+* **由于JavaScript错误，无法加载活动报表。**&#x200B;客户在访问特定活动的[!UICONTROL Reports]选项卡时遇到“出现错误”消息。 该错误由JavaScript异常引起：无法读取在`getAnalyticsReportSummary` GraphQL调用期间触发的未定义的属性（读取“indexOf”）。 现在，报告可正确加载，并且错误处理已得到改进，以防止在更新的活动创建工作流中发生类似故障。 (TGT-53797)
+* **报告与滚动条交互后崩溃。**&#x200B;单击[!UICONTROL Reports]选项卡中的滚动条导致页面崩溃，并伴有JavaScript错误：
+  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.`报告现在可以正确加载和滚动，而不会触发错误或崩溃。 (TGT-53828)
+* **报告未显示主要指标。**&#x200B;活动报表中缺少使用mbox配置为转化量度的主要量度。 按量度名称或mbox名称搜索未产生任何结果，从而无法查看关键性能数据。 主要指标现在在[!UICONTROL Reports]选项卡中正确显示，从而确保准确跟踪和分析营销活动效果。 (TGT-53773)
+* **与水平滚动条交互时，更新的UI中的[!UICONTROL Reports]选项卡崩溃。**&#x200B;当使用水平滚动条在视图外访问量度时，[!UICONTROL Reports]视图间歇性地崩溃，并出现“出现错误”错误。 现在，滚动条可以可靠地工作，允许客户查看和分析所有量度，而无需采取变通方法，例如缩小或使用按住Shift键滚动鼠标。 (TGT-53824)
+
++++
+
++++[!UICONTROL Visual Experience Composer] (VEC)
+
+* **在VEC中单击痕迹导航时，无法一致地显示编辑菜单。**
+通过(VEC)中的痕迹导航选择HTML元素时，编辑菜单会间歇性地无法出现或快速消失，从而导致元素选择不可靠。 现在，通过痕迹导航导航时，会一致地显示编辑菜单，从而改进更新后的活动创建流程中的元素选择工作流。 (TGT-52873)
+* **上下文菜单间歇性地无法在VEC中显示。**&#x200B;在单击元素时，更新后的VEC UI中的上下文菜单未一致显示，导致难以访问编辑选项。 现在，上下文菜单在元素选择时可靠地显示，从而改进了编辑工作流以及更新后的活动创建过程中的整体可用性。 (TGT-53015)
+* **VEC中某些元素的上下文菜单无法显示。**&#x200B;在更新的VEC中选择特定元素时未显示上下文菜单，导致难以应用修改。 现在，所有受支持的元素都会一致显示上下文菜单，从而提高更新后的活动创建工作流中编辑体验的可靠性和可用性。 (TGT-53248)
+* 在VEC中使用痕迹导航时，**上下文菜单在第一次单击时消失。**&#x200B;通过VEC中的痕迹导航选择父元素会导致上下文菜单短暂出现然后消失，从而难以访问编辑选项。 现在，在浏览痕迹导航元素时，上下文菜单保持可见且功能正常，这提高了更新后的活动创建流程中元素选择工作流的可靠性。 (TGT-53424)
+* **VEC中的顶层元素未显示上下文菜单。**&#x200B;通过VEC中的痕迹导航选择顶级元素（如`<div>`或`<main>`标记）不会触发上下文菜单，从而阻止进一步编辑操作。 现在，所有受支持的元素（包括顶级容器）都会一致显示上下文菜单，从而提高活动创建工作流的灵活性和可用性。 (TGT-53770)
+* **特定页面上的元素在VEC中不可编辑。**&#x200B;无法在更新的VEC中选择或编辑页面上的某些元素。 此问题仅存在于该页面，不影响同一帐户内的其他页面。 现在，页面上的所有元素均可按预期选择和编辑，从而恢复活动创建工作流中的完整功能。 (TGT-53353)
+* **改进了在选择VEC中的元素期间查看子元素时的工作流。**&#x200B;为了提高活动创建期间的可用性和精确性，当鼠标悬停在父HTML元素上或选择父元素时，VEC现在会显示子元素。 此增强功能使客户能够更好地了解页面的结构并做出更准确的修改，从而简化更新后UI中的编辑工作流。 (TGT-53416)
+* **无法使用修改栏编辑现有活动中的元素。**&#x200B;在编辑以前创建的活动时，修改栏无法激活页面上的某些元素，从而阻止更新。 此问题主要出现在修改后的活动中，并且难以在新创建的活动中复制。 修改栏现在可一致地显示并允许编辑所有受支持的元素，从而提高更新后的活动创建工作流中的可靠性和可用性。 (TGT-53013)
+
++++
+
++++[!UICONTROL Workspaces]
+
+* **将活动克隆到其他工作区时触发了“用户输入无效”错误。**&#x200B;尝试将活动从一个工作区克隆到另一个工作区会导致错误：“InvalidProperty.Json — 无法识别的属性名称‘content’。” 导致此问题的原因是在克隆过程中未正确处理活动元数据。 现在，可以在不触发验证错误的情况下成功跨工作区克隆活动，从而确保更顺畅的活动部署工作流。 （TGT-53731 和 TGT-53736）
+
++++
+
 ## [!DNL Target Standard/Premium] 25.9.2（2025年9月22日）
 
 此版本包括以下修复和增强功能：
@@ -83,14 +141,14 @@ ht-degree: 8%
 
 +++查看详细信息
 * **修复了由于受众ID无效而无法复制活动的问题。**&#x200B;客户尝试在更新的活动创建过程中复制活动时，遇到因受众ID无效(例如 — 1752722444307)导致的错误。 此后端验证问题可防止同一工作区中的活动重复。 此问题已得到解决，现在可以成功复制活动而不会出现与受众相关的错误。 (TGT-53717)
-* **修复了[!UICONTROL Automated Personalization]模式的[!UICONTROL Manage Content]活动中仅活动受众出现无效用户输入错误的问题。**&#x200B;客户在AP活动的[!UICONTROL &#x200B; Manage Content]模式中配置仅限该活动的受众时遇到无效的用户输入错误。 尽管之前已成功使用受众，但还是出现了此问题。 现在，组合的受众配置可正确保存，而不会触发验证错误。 (TGT-53749)
+* **修复了[!UICONTROL Automated Personalization]模式的[!UICONTROL Manage Content]活动中仅活动受众出现无效用户输入错误的问题。**&#x200B;客户在AP活动的[!UICONTROL  Manage Content]模式中配置仅限该活动的受众时遇到无效的用户输入错误。 尽管之前已成功使用受众，但还是出现了此问题。 现在，组合的受众配置可正确保存，而不会触发验证错误。 (TGT-53749)
 
 +++
 
 **文档**
 
 +++查看详细信息
-* **已将特定于Target的Web SDK文档页面移动到Adobe Target存储库。**&#x200B;作为Web SDK文档重组的一部分，特定于[!DNL Target]的内容已从常规Web SDK文档迁移到[!DNL Adobe Target] [开发人员指南](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此更改改进了内容可搜索性，并确保相应的产品团队维护特定于解决方案的指导。 (TGT-53374)
+* **已将特定于Target的Web SDK文档页面移动到Adobe Target存储库。**&#x200B;作为Web SDK文档重组的一部分，特定于[!DNL Target]的内容已从常规Web SDK文档迁移到[!DNL Adobe Target] [开发人员指南](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此更改改进了内容可搜索性，并确保相应的产品团队维护特定于解决方案的指导。 (TGT-53374)
 
 +++
 
@@ -166,7 +224,7 @@ ht-degree: 8%
 * 同一数据流ID只能用于不同的连接，前提是它们是在不同的沙盒中配置的。
 * 此规则适用于所有数据流选择，包括选择“无”时。
 
-此更新可确保配置的一致性，并防止在多沙盒环境中发生冲突。 有关详细信息，请参阅[Adobe Target目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform连接*。
+此更新可确保配置的一致性，并防止在多沙盒环境中发生冲突。 有关详细信息，请参阅[Adobe Target目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform连接*。
 
 ## [!DNL Target Standard/Premium] 25.9.1（2025年9月5日）
 
@@ -228,7 +286,7 @@ ht-degree: 8%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

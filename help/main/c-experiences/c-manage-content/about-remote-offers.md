@@ -4,9 +4,9 @@ description: 了解如何利用 [!DNL Target] 中的远程选件来托管来自C
 title: 如何创建远程选件？
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 856396264c4a7b7e3370cd268e7f010092e2eae2
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 19%
 
 ---
@@ -31,6 +31,17 @@ ht-degree: 19%
 ## 使用远程选件的最佳实践 {#section_7718512D08E14121B6F6B8C38134F4BC}
 
 在活动中使用远程选件时需遵循以下最佳实践：
+
+* 支持远程选件：
+
+   * A/B活动
+   * 体验定位 (XT) 活动
+   * 基于表单的工作流
+
+* 不支持远程选件：
+
+   * [高级功能](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP)、自动定位和推荐)
+   * Multivariate Testing (MVT)，由于依赖于VEC，它不支持远程选件。
 
 * 如果选件与[!DNL Target]请求位于同一域中，则使用[!UICONTROL Cached]选项可使用相对URL描述选件位置。
 

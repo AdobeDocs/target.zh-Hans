@@ -2,24 +2,24 @@
 keywords: 重复数据删除；允许重复项；排除重复的选件；自动个性化；不允许重复的选件；排除；默认内容；
 description: 管理[!UICONTROL Automated Personalization] (AP)活动中的排除项。
 title: 如何管理[!UICONTROL Automated Personalization]活动中的排除项？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: e620cd189e2783ba3abbe93bb9c5000866c41b99
+source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 28%
+source-wordcount: '482'
+ht-degree: 21%
 
 ---
 
 # 管理排除项
 
-通过排除[!UICONTROL Automated Personalization]中的[!DNL Adobe Target] (AP)活动中的重复选件、排除特定体验和排除默认内容来管理排除项。
+通过掌握排除项来控制您的[!UICONTROL Automated Personalization] (AP)策略。 无论您是防止重复的选件、优化体验组合，还是删除默认内容，排除项都可以让您根据目标和受众期望，提供更清晰、更相关的体验。
 
 ## 允许或禁止重复的选件 {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
-在[!UICONTROL Automated Personalization]活动中的不同位置使用选件库中的选件时，阻止系统复制这些选件。
+在AP活动中的不同位置使用选件库中的选件时，请防止重复这些选件。
 
 例如，在您的一个活动中，一个页面上可能有 6 个位置和 12 个选件。活动中的多个位置可能存在相同的选件。通过此功能，您可以防止在同一活动内的不同位置同时显示重复的选件。
 
@@ -27,7 +27,7 @@ ht-degree: 28%
 
 ## 排除特定体验 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-如果要从[!UICONTROL Automated Personalization]活动中排除某些选件组合，请排除特定体验。
+如果要从AP活动中排除某些选件组合，请排除特定体验。
 
 可能有某些组合无法协同工作，或者您可能正在限制测试的体验数量，以降低活动的流量要求。
 
@@ -47,7 +47,7 @@ ht-degree: 28%
 
 ## 排除默认内容 {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-有时，您可能不希望将默认内容包含在[!UICONTROL Automated Personalization]活动中。 通过此方法，您可以在 AP 活动中的某个位置仅使用一个产品建议（与默认内容不同）。
+有时，您可能不希望将默认内容包含在AP活动中。 您可以使用此方法在一个位置中只有一个选件（与默认内容不同）作为活动的一部分。
 
 排除默认内容是一种非常有用的方法，可用于更改页面上其余内容的外观，以使其符合您在 AP 活动中所测试的产品建议。例如，假设您想要匹配所测试选件的调色板，则可以更改页面的背景颜色并排除默认的背景颜色。
 
@@ -56,8 +56,9 @@ ht-degree: 28%
 1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)时，选择要替换的内容，然后单击以访问&#x200B;**[!UICONTROL Change Text/HTML]**、**[!UICONTROL Change Image Offer]**&#x200B;或&#x200B;**[!UICONTROL Change Background Color]**。 可用选项因内容类型而异。
 
    ![更改选项](/help/main/c-activities/t-automated-personalization/assets/options.png)
+1. 创建新内容。
 
-1. 创建新内容，并取消选中默认内容右侧的&#x200B;**包含**（或在[!UICONTROL Select Content]屏幕中取消选中“默认图像/视频”）。
+1. 单击&#x200B;**[!UICONTROL More Actions]** （ ![更多操作图标](/help/main/assets/icons/Setting.svg) ）图标，然后单击&#x200B;**排除默认选件/包含默认值**/切换以排除或包含默认选件。
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 

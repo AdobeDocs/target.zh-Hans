@@ -6,7 +6,7 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: f0536e466d59fc4e3cccd61c25b7fe7f48f03954
 workflow-type: tm+mt
 source-wordcount: '4858'
 ht-degree: 7%
@@ -95,14 +95,14 @@ ht-degree: 7%
 
 +++查看详细信息
 * **修复了由于受众ID无效而无法复制活动的问题。**&#x200B;客户尝试在更新的活动创建过程中复制活动时，遇到因受众ID无效(例如 — 1752722444307)导致的错误。 此后端验证问题可防止同一工作区中的活动重复。 此问题已得到解决，现在可以成功复制活动而不会出现与受众相关的错误。 (TGT-53717)
-* **修复了[!UICONTROL Automated Personalization]模式的[!UICONTROL Manage Content]活动中仅活动受众出现无效用户输入错误的问题。**&#x200B;客户在AP活动的[!UICONTROL &#x200B; Manage Content]模式中配置仅限该活动的受众时遇到无效的用户输入错误。 尽管之前已成功使用受众，但还是出现了此问题。 现在，组合的受众配置可正确保存，而不会触发验证错误。 (TGT-53749)
+* **修复了[!UICONTROL Automated Personalization]模式的[!UICONTROL Manage Content]活动中仅活动受众出现无效用户输入错误的问题。**&#x200B;客户在AP活动的[!UICONTROL  Manage Content]模式中配置仅限该活动的受众时遇到无效的用户输入错误。 尽管之前已成功使用受众，但还是出现了此问题。 现在，组合的受众配置可正确保存，而不会触发验证错误。 (TGT-53749)
 
 +++
 
 **文档**
 
 +++查看详细信息
-* **已将特定于Target的Web SDK文档页面移动到Adobe Target存储库。**&#x200B;作为Web SDK文档重组的一部分，特定于[!DNL Target]的内容已从常规Web SDK文档迁移到[!DNL Adobe Target] [开发人员指南](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此更改改进了内容可搜索性，并确保相应的产品团队维护特定于解决方案的指导。 (TGT-53374)
+* **已将特定于Target的Web SDK文档页面移动到Adobe Target存储库。**&#x200B;作为Web SDK文档重组的一部分，特定于[!DNL Target]的内容已从常规Web SDK文档迁移到[!DNL Adobe Target] [开发人员指南](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此更改改进了内容可搜索性，并确保相应的产品团队维护特定于解决方案的指导。 (TGT-53374)
 
 +++
 
@@ -123,7 +123,7 @@ ht-degree: 7%
 **[!DNL Recommendations]**
 
 +++查看详细信息
-* **已恢复在更新的UI中创建的[!UICONTROL Recommendations]活动的点击跟踪。**&#x200B;解决了AB问题，该问题导致在更新的UI中创建的[!UICONTROL Recommendations]活动无法注册点击跟踪，导致报告的转化率为零。 旧版UI中构建的活动可正确跟踪点击次数并报告预期转化。 此修复程序可确保在更新后的UI中创建的推荐活动现在包括正确的跟踪属性、恢复转化报表以及与A4T量度保持一致。 (TGT-53287)
+* **已恢复在更新的UI中创建的[!UICONTROL Recommendations]活动的点击跟踪。**&#x200B;解决了在更新的UI中创建的[!UICONTROL Recommendations]活动无法注册点击跟踪，导致报告转化为零的问题。 旧版UI中构建的活动可正确跟踪点击次数并报告预期转化。 此修复程序可确保在更新后的UI中创建的推荐活动现在包括正确的跟踪属性、恢复转化报表以及与A4T量度保持一致。 (TGT-53287)
 * **已恢复推荐活动的点击跟踪。**&#x200B;解决了在更新的UI中创建的[!UICONTROL Recommendations]活动无法注册点击跟踪，导致报告转化为零的问题。 旧版UI将跟踪ID (`at-track-click`)正确应用于[!UICONTROL Recommendations]内容，而更新的UI错误地插入了占位符(`__recsClickTrackIdPlaceholder__`)，从而阻止后端跟踪。 此修复确保[!DNL Recommendations]内容现在包含正确的跟踪ID，从而恢复转化报表并与A4T量度保持一致。 (TGT-53496)
 * 在更新的UI中解决了&#x200B;**收藏集编辑器崩溃问题。**&#x200B;修复了在更新的[!UICONTROL Visual Experience Composer] (VEC) UI中，从编辑器面板打开收藏集导致页面崩溃的问题，出现TypeError：无法读取未定义的属性（读取“customLocale”）。 此错误出现在多个活动类型中，包括[!UICONTROL Recommendations]和A/B测试。 (TGT-53703)
 * **用于删除VEC中还原的选定收藏集的选项。**&#x200B;修复了VEC中的一个问题：用户只能替换[!UICONTROL Recommendations]活动中的选定集合，但无法将其完全删除。 此限制阻止了需要在不进行替换的情况下干净移除集合的用例。 此修复引入了一个用于删除所选收藏集的清除选项，从而允许在活动设置方面更加灵活，并与旧版UI行为保持一致。 (TGT-53652)
@@ -178,7 +178,7 @@ ht-degree: 7%
 * 同一数据流ID只能用于不同的连接，前提是它们是在不同的沙盒中配置的。
 * 此规则适用于所有数据流选择，包括选择“无”时。
 
-此更新可确保配置的一致性，并防止在多沙盒环境中发生冲突。 有关详细信息，请参阅[Adobe Target目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform连接*。
+此更新可确保配置的一致性，并防止在多沙盒环境中发生冲突。 有关详细信息，请参阅[Adobe Target目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform连接*。
 
 ## [!DNL Target Standard/Premium] 25.9.1（2025年9月5日）
 
@@ -240,7 +240,7 @@ ht-degree: 7%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

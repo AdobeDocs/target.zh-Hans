@@ -6,9 +6,9 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 405faeac7fc633a64c441edeb2a95d90d896b21d
+source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
 workflow-type: tm+mt
-source-wordcount: '5412'
+source-wordcount: '4858'
 ht-degree: 7%
 
 ---
@@ -27,53 +27,7 @@ ht-degree: 7%
 
 ### [!DNL Target] UI版本切换弃用
 
-+++查看详细信息
-[!DNL Target]团队正在提供一项临时功能，可让您使用切换按钮在更新的[!DNL Target] UI和旧版本之间切换。 此选项仅在UI转出的最后阶段可用。
-
-![Target UI版本切换](/help/main/r-release-notes/assets/toggle.png)
-
-转出完成后，切换将被删除，所有用户将永久转换为更新后的UI。 [!DNL Adobe]建议提前计划，因为此功能将很快淘汰。
-
-#### 弃用时间线
-
-由于最近发现的问题（主要与复杂的客户自定义相关），[!DNL Target]团队已调整弃用时间表：
-
-* **2025年6月17日**：已为特定用户或组织范围的更新的[!DNL Target] UI启用所有IMS组织，以开始测试新体验。
-
-* **2025年6月30日**： [已更新 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)成为已启用UI版本切换的所有IMS组织的默认体验。
-
-   * 默认情况下，当前看到旧版UI的客户现在会在登录时看到更新后的UI。
-   * 用户界面版本切换在7月底之前仍然可用，允许用户在需要时切换回去。
-
-  >[!IMPORTANT]
-  >
-  > [!DNL Adobe]强烈建议使用更新的[!DNL Target] UI。 由于切换切换行为的[限制](#limitations)，因此出现阻止程序问题时才能切换回旧版UI。
-
-* **2025年7月15日至7月30日**：将分阶段永久禁用UI版本切换。 受影响的IMS组织无法再还原到旧版UI。
-
-   * 例外情况按个别情况予以审查。
-   * 在解决阻止程序问题时，仅短暂地授予对切换弃用的延迟（几天）。
-
-如有任何顾虑或您预计在此过渡期间会出现任何问题，请联系[Adobe客户关怀](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)。
-
-#### UI切换行为的限制 {#limitations}
-
-以下信息介绍了在选择使用版本切换时应该注意的限制：
-
-* **新活动的可见性**：如果切换回旧版UI，则在更新后的UI中创建的活动将不可见。
-* **编辑现有活动**：在使用更新的UI时，对现有活动（最初在旧版UI中创建）所做的更改将发布到您的网站。 但是，如果切换回去，这些更新在旧版UI中不可见；只有从旧版UI中进行的最后一次更新会出现在那里。
-* **活动详细信息的一致性**：无论您使用哪个UI，最新更改都会反映在您的实时网站上。 但是，旧版UI仅显示从该版本中进行的最新更改。 如果在更新的UI中编辑的活动与您在旧版UI中看到的活动外观不同，这种情况可能会导致混淆。
-
-#### 更多资源以了解更新的UI
-
-* [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)：此常见问题解答关于新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常见问题，包括导航更改、功能位置以及弃用临时UI版本切换。 无论您是营销人员、开发人员还是管理员，此常见问题解答都可以帮助您顺利过渡并充分利用更新后的UI。
-* [[!DNL Target Standard/Premium] 25.2.1（2025年2月17日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!DNL Target]中[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)的关键UI更改的摘要。
-* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!DNL Target]在[!UICONTROL Offers Library]中关键UI更改的摘要。
-* [了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供简要概述以帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
-* [[!UICONTROL Visual Experience Composer]更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)： [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）引入了更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文介绍VEC旧版本与更新版本之间的差异。
-* [[!UICONTROL Visual Experience Composer]选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文介绍更新的VEC UI及其选项。
-
-+++
+有关详细信息，请参阅[[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)。
 
 ## [!DNL Target Standard/Premium] 25.9.3（2025年9月30日）
 
@@ -141,14 +95,14 @@ ht-degree: 7%
 
 +++查看详细信息
 * **修复了由于受众ID无效而无法复制活动的问题。**&#x200B;客户尝试在更新的活动创建过程中复制活动时，遇到因受众ID无效(例如 — 1752722444307)导致的错误。 此后端验证问题可防止同一工作区中的活动重复。 此问题已得到解决，现在可以成功复制活动而不会出现与受众相关的错误。 (TGT-53717)
-* **修复了[!UICONTROL Automated Personalization]模式的[!UICONTROL Manage Content]活动中仅活动受众出现无效用户输入错误的问题。**&#x200B;客户在AP活动的[!UICONTROL &#x200B; Manage Content]模式中配置仅限该活动的受众时遇到无效的用户输入错误。 尽管之前已成功使用受众，但还是出现了此问题。 现在，组合的受众配置可正确保存，而不会触发验证错误。 (TGT-53749)
+* **修复了[!UICONTROL Automated Personalization]模式的[!UICONTROL Manage Content]活动中仅活动受众出现无效用户输入错误的问题。**&#x200B;客户在AP活动的[!UICONTROL  Manage Content]模式中配置仅限该活动的受众时遇到无效的用户输入错误。 尽管之前已成功使用受众，但还是出现了此问题。 现在，组合的受众配置可正确保存，而不会触发验证错误。 (TGT-53749)
 
 +++
 
 **文档**
 
 +++查看详细信息
-* **已将特定于Target的Web SDK文档页面移动到Adobe Target存储库。**&#x200B;作为Web SDK文档重组的一部分，特定于[!DNL Target]的内容已从常规Web SDK文档迁移到[!DNL Adobe Target] [开发人员指南](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此更改改进了内容可搜索性，并确保相应的产品团队维护特定于解决方案的指导。 (TGT-53374)
+* **已将特定于Target的Web SDK文档页面移动到Adobe Target存储库。**&#x200B;作为Web SDK文档重组的一部分，特定于[!DNL Target]的内容已从常规Web SDK文档迁移到[!DNL Adobe Target] [开发人员指南](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}。 此更改改进了内容可搜索性，并确保相应的产品团队维护特定于解决方案的指导。 (TGT-53374)
 
 +++
 
@@ -224,7 +178,7 @@ ht-degree: 7%
 * 同一数据流ID只能用于不同的连接，前提是它们是在不同的沙盒中配置的。
 * 此规则适用于所有数据流选择，包括选择“无”时。
 
-此更新可确保配置的一致性，并防止在多沙盒环境中发生冲突。 有关详细信息，请参阅[Adobe Target目标](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform连接*。
+此更新可确保配置的一致性，并防止在多沙盒环境中发生冲突。 有关详细信息，请参阅[Adobe Target目标](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}指南中的&#x200B;*Experience Platform连接*。
 
 ## [!DNL Target Standard/Premium] 25.9.1（2025年9月5日）
 
@@ -286,7 +240,7 @@ ht-degree: 7%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

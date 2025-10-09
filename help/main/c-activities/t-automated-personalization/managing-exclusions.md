@@ -2,13 +2,13 @@
 keywords: 重复数据删除；允许重复项；排除重复的选件；自动个性化；不允许重复的选件；排除；默认内容；
 description: 管理[!UICONTROL Automated Personalization] (AP)活动中的排除项。
 title: 如何管理[!UICONTROL Automated Personalization]活动中的排除项？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
+source-git-commit: 2715e803938ee552e2c6db438ed4dbece4b6220e
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '483'
 ht-degree: 21%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 21%
    ![更改选项](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. 创建新内容。
 
-1. 单击&#x200B;**[!UICONTROL More Actions]** （ ![更多操作图标](/help/main/assets/icons/Setting.svg) ）图标，然后单击&#x200B;**排除默认选件/包含默认值**/切换以排除或包含默认选件。
+1. 单击&#x200B;**[!UICONTROL More Actions]** （ ![更多操作图标](/help/main/assets/icons/Setting.svg) ）图标，然后单击&#x200B;**排除默认选件/包含默认选件**/切换以排除或包含默认选件。
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 

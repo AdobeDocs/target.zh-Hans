@@ -2,13 +2,13 @@
 keywords: 推荐;简介;简介;网络研讨会;演示
 description: 了解 Adobe [!DNL Target] 中的“推荐”活动，这些活动根据以前的用户活动或其他算法自动显示可能让客户感兴趣的内容。
 title: “推荐”活动是什么？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 89%
+source-wordcount: '2049'
+ht-degree: 86%
 
 ---
 
@@ -39,11 +39,11 @@ ht-degree: 89%
 * **发布**：Web 发布者使用 [!DNL Target Recommendations] 向网站访客推荐文章并提高参与度。
 * **视频教程**：[!DNL Adobe Creative Cloud] 使用 [!DNL Target] 向 Photoshop 应用程序中的 Photoshop 用户推荐视频教程。
 * **游戏**：游戏公司使用 [!DNL Target] 向其控制台上的用户推荐游戏和内容。
-* **B2B 销售**：[企业对企业的公司使用 Target 向 B2B 潜在用户推荐视频、白皮书和博客文章；提供下载；并向现有客户提供帮助](https://theblog.adobe.com/testing-shifts-high-gear-intel)。
+* **B2B销售**：企业对企业的公司使用Target向B2B潜在用户推荐视频、白皮书和博客文章；提供下载；并向现有客户提供帮助。
 
 * **旅游**：[一家德国旅游预订商使用 Target 向旅行者推荐酒店等产品](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)。
 
-* **零售业**：[一家行业领先的 BB 零售商使用 Target 在浏览器及移动应用程序中推荐顶级类别和产品，以吸引访客](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2。
+* **零售业**：一家领先的B2B retailer使用[!DNL Target]在浏览器及其移动设备应用程序中推荐顶级类别和产品以吸引访客。
 
 这些只是客户使用 Target 提供个性化推荐的几种方式。
 
@@ -105,7 +105,7 @@ ht-degree: 89%
 
 您需要确保 [!DNL Target] 了解用户正在查看和购买的项目。如果购买与上下文无关，则可能需要跟踪不同类型的转化事件，例如，下载PDF、完成调查、订阅新闻稿、观看视频等。
 
-如果您已经使用 [!DNL Target] 在网站上运行 A/B 测试活动，则可能已经完成了此步骤。或者，如果您已经使用 [!DNL Adobe Analytics] 来报告网站访问情况和转化行为，则可以使用 [!DNL Analytics] 作为行为数据源。如果没有，最简单的做法是使用标签管理器（如[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=zh-Hans){target=_blank}中的标签）进行此设置。 也可以通过实时API将离线或应用程序内的交互发送到[!DNL Target]。
+如果您已经使用 [!DNL Target] 在网站上运行 A/B 测试活动，则可能已经完成了此步骤。或者，如果您已经使用 [!DNL Adobe Analytics] 来报告网站访问情况和转化行为，则可以使用 [!DNL Analytics] 作为行为数据源。如果没有，最简单的做法是使用标签管理器（如[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}中的标签）进行此设置。 也可以通过实时API将离线或应用程序内的交互发送到[!DNL Target]。
 
 ### 使用正确的上下文信息获取推荐
 
@@ -129,9 +129,9 @@ ht-degree: 89%
 
 ![显示构成推荐活动各个部分（受众、标准和设计）的插图](/help/main/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] 开箱即用地包括 14 个内置受众、42 个内置标准和 10 个内置设计模板。您可以自定义每个项目或添加自己的项目。我们以前举办过有关在[中构建受众](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)的[!DNL Target]网络研讨会。 本节侧重于定义标准，这些标准可定义将推荐哪些项目。
+[!DNL Target] 开箱即用地包括 14 个内置受众、42 个内置标准和 10 个内置设计模板。您可以自定义每个项目或添加您自己的项目。
 
-Target 使用标准卡片的概念。标准卡片就像个性化的配方。
+[!DNL Target]使用条件卡的概念。 标准卡片就像个性化的配方。
 
 ![标准卡片插图](/help/main/c-recommendations/assets/intro-13.png)
 
@@ -194,7 +194,3 @@ Target 使用标准卡片的概念。标准卡片就像个性化的配方。
 ## Demo
 
 完成上述推荐漏斗中所述的任务后，您将获得最终的推荐。要在[!DNL Target]中观看产品内演示，该演示在:00Adobe Target基础知识网络研讨会&#x200B;*中的21*&#x200B;处开始，其链接如下。
-
-## Adobe [!DNL Target] 基础知识网络研讨会：“推荐”简介 {#intro-to-recs}
-
-[“推荐”简介](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

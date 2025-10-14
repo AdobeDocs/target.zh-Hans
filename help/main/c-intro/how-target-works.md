@@ -40,7 +40,7 @@ Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 以下资源包含帮助您实施 [!DNL Experience Platform Web SDK] 或 at.js 的详细信息：
 
 * [[!DNL Adobe Experience Platform Web SDK] 扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=zh-Hans){target=_blank}
-* [使用  [!DNL Adobe Experience Platform] 实施  [!DNL Target] ](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [使用  [!DNL Adobe Experience Platform] 实施  [!DNL Target] &#x200B;](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 每次访客请求访问针对[!DNL Target]进行优化的页面时，系统都会向定位系统发送实时请求，以确定要提供的内容。 每次加载页面时都会提出并完成此请求，受营销人员控制的活动和体验的约束。 内容针对个别网站访客，可最大限度地提高响应率、客户获取率和收入。 个性化内容有助于确保访客做出响应、与之互动或进行购买。
 

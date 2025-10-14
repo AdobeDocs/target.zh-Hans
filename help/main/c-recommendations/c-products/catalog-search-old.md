@@ -119,7 +119,7 @@ ht-degree: 22%
 
 ## 基于高级搜索创建收藏集或排除项 {#save-as}
 
-您可以在[页面(](/help/main/c-recommendations/c-products/collections.md) > [ > ](/help/main/c-recommendations/c-products/exclusions.md))上使用[!UICONTROL Advanced Search]创建[!UICONTROL Catalog Search]收藏集[!UICONTROL Recommendations]或[!UICONTROL Catalog Search]排除项[!UICONTROL Advanced Search]。
+您可以在[页面(](/help/main/c-recommendations/c-products/collections.md) > [&#x200B; > &#x200B;](/help/main/c-recommendations/c-products/exclusions.md))上使用[!UICONTROL Advanced Search]创建[!UICONTROL Catalog Search]收藏集[!UICONTROL Recommendations]或[!UICONTROL Catalog Search]排除项[!UICONTROL Advanced Search]。
 
 1. 执行[高级搜索](#advanced-search)。
 

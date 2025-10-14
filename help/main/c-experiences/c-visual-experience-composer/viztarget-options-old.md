@@ -217,7 +217,7 @@ ht-degree: 56%
 
 ### [!UICONTROL Offer Decision]
 
-添加在[ [!DNL Adobe Journey Optimizer]中创建的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}选件，以使用Offer Decisioning向客户提供最佳选件和体验。
+添加在[&#x200B; [!DNL Adobe Journey Optimizer]中创建的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}选件，以使用Offer Decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 
@@ -249,7 +249,7 @@ ht-degree: 56%
 
 ### [!UICONTROL Offer Decision]
 
-添加在[ [!DNL Adobe Journey Optimizer]中创建的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}选件，以使用Offer Decisioning向客户提供最佳选件和体验。
+添加在[&#x200B; [!DNL Adobe Journey Optimizer]中创建的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}选件，以使用Offer Decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 
@@ -281,7 +281,7 @@ ht-degree: 56%
 
 ### [!UICONTROL Offer Decision]
 
-添加在[ [!DNL Adobe Journey Optimizer]中创建的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}选件，以使用Offer Decisioning向客户提供最佳选件和体验。
+添加在[&#x200B; [!DNL Adobe Journey Optimizer]中创建的](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank}选件，以使用Offer Decisioning向客户提供最佳选件和体验。
 
 **注意：**&#x200B;此选项仅在编辑或创建[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。
 

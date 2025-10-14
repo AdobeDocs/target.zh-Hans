@@ -98,7 +98,7 @@ ht-degree: 49%
 
    >[!NOTE]
    >
-   >仅当您的实施使用[!UICONTROL Behavioral Data Source]Analytics for Target[ (A4T)时，才会显示](/help/main/c-integrating-target-with-mac/a4t/a4t.md)部分。
+   >仅当您的实施使用[!UICONTROL Behavioral Data Source]Analytics for Target[&#x200B; (A4T)时，才会显示](/help/main/c-integrating-target-with-mac/a4t/a4t.md)部分。
 
    ![行为数据Source部分](assets/data-source.png)
 

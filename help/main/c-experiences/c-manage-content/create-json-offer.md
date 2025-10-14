@@ -40,7 +40,7 @@ JSON选件可用于基于表单的活动，以启用以下用例：需要通过[
 
 ## JSON示例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-仅在使用基于表单的体验编辑器[创建的活动中支持JSON选件。 ](/help/main/c-experiences/form-experience-composer.md)目前，能够使用JSON选件的唯一方法是通过直接API/SDK调用。
+仅在使用基于表单的体验编辑器[创建的活动中支持JSON选件。 &#x200B;](/help/main/c-experiences/form-experience-composer.md)目前，能够使用JSON选件的唯一方法是通过直接API/SDK调用。
 
 示例如下：
 

@@ -24,7 +24,7 @@ ht-degree: 9%
 
 ## 使用流量估算器
 
-1. 从[!UICONTROL Experiences]活动中[!UICONTROL Visual Experience Composer]的[!UICONTROL Automated Personalization]页面，单击&#x200B;**[!UICONTROL Traffic]**&#x200B;页面左上角的![图标（ ](/help/main/assets/icons/Gauge2.svg)流量估算器图标[!UICONTROL Experiences]）。
+1. 从[!UICONTROL Experiences]活动中[!UICONTROL Visual Experience Composer]的[!UICONTROL Automated Personalization]页面，单击&#x200B;**[!UICONTROL Traffic]**&#x200B;页面左上角的![图标（ &#x200B;](/help/main/assets/icons/Gauge2.svg)流量估算器图标[!UICONTROL Experiences]）。
 
    将打开[!UICONTROL Traffic Estimator]。
 

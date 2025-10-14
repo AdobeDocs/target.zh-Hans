@@ -15,7 +15,7 @@ ht-degree: 31%
 
 元素选择器是可以标识一个或多个元素的CSS表达式。
 
-您可以在[ (MDN)上的](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)选择器&#x200B;*[!DNL Mozilla Developer Network]*&#x200B;文档中找到有关CSS选择器的基本信息。
+您可以在[&#x200B; (MDN)上的](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)选择器&#x200B;*[!DNL Mozilla Developer Network]*&#x200B;文档中找到有关CSS选择器的基本信息。
 
 您可以设置要在帐户首选项中使用元素类还是元素 ID。单击&#x200B;**[!UICONTROL Administration > Visual Experience Composer]**，然后选择首选的CSS选择器。
 

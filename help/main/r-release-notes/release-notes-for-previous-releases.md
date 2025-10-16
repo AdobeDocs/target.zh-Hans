@@ -1564,7 +1564,7 @@ ht-degree: 60%
 | 功能 | 描述 |
 | --- | ---  |
 | 产品内通知 | 获取以下相关的产品内通知：<ul><li>**活动**:批准或停用活动时（手动或达到活动开始或结束日期时），所有活动类型的通知。 通知包含带有活动概述页面链接的活动的名称。</li><li>**轮廓脚本** 手动或Target激活或停用轮廓脚本时的通知。</li><li>**推荐信息源**:手动或由Target激活或停用推荐馈送时的通知。 当推荐馈送失败时，也会发送通知。</li></ul> 默认情况下，产品管理员、发布者和批准者会收到通知。 通知可在Experience Cloud首选项中进行配置。<br>有关详细信息，请参阅 [通知和公告](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
-| *Adobe Target 开发人员指南* | *Adobe Target 开发人员指南* 便于合并所有 [!DNL Target] 开发人员内容。 [!DNL Target][!DNL Recommendations][!DNL Target][!DNL Target]<br>有关详细信息，请参阅[Adobe Target开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans){target=_blank}。 |
+| *Adobe Target 开发人员指南* | *Adobe Target 开发人员指南* 便于合并所有 [!DNL Target] 开发人员内容。 [!DNL Target]&#x200B;[!DNL Recommendations]&#x200B;[!DNL Target]&#x200B;[!DNL Target]<br>有关详细信息，请参阅[Adobe Target开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans){target=_blank}。 |
 
 * 具有[!UICONTROL Editor]角色的用户无法再编辑直播活动中的受众。 (TGT-43582)
 * 如果客户尝试保存带有感叹号( ！)，作为受众名称的第一个字符（例如！London）。 (TGT-43643)
@@ -1840,7 +1840,7 @@ ht-degree: 60%
 
 | 功能 | 详细信息 |
 | --- | --- |
-| ![高级徽章](/help/main/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] API | 通过 API 以编程方式搜索您的 [!DNL Recommendations] 产品和内容目录，以识别符合搜索条件的项并简化目录管理。<br>**限制和注释**：<ul><li>超过 2,000,000 个项的环境不支持通过 API 进行目录搜索。</li><li>通过 API 获得的目录搜索结果比通过 [!DNL Target] UI 获得的目录搜索结果更新得更快。[!DNL Target] UI 中的目录搜索可能需要额外的时间来反映最新结果。</li></ul>有关更多信息，请参阅 *[!DNL Adobe Target][!DNL Recommendations] API* 指南中的[搜索实体](https://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)。 |
+| ![高级徽章](/help/main/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] API | 通过 API 以编程方式搜索您的 [!DNL Recommendations] 产品和内容目录，以识别符合搜索条件的项并简化目录管理。<br>**限制和注释**：<ul><li>超过 2,000,000 个项的环境不支持通过 API 进行目录搜索。</li><li>通过 API 获得的目录搜索结果比通过 [!DNL Target] UI 获得的目录搜索结果更新得更快。[!DNL Target] UI 中的目录搜索可能需要额外的时间来反映最新结果。</li></ul>有关更多信息，请参阅 *[!DNL Adobe Target]&#x200B;[!DNL Recommendations] API* 指南中的[搜索实体](https://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)。 |
 
 此维护版本包含以下修复。
 

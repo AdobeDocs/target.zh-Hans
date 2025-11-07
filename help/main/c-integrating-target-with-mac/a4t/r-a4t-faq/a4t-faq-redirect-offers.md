@@ -4,7 +4,7 @@ description: 查找有关在使用Analytics for [!DNL Target] (A4T)时使用重�
 title: 可在何处找到有关使用A4T重定向选件的常见问题解答？
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1431'
 ht-degree: 50%
@@ -84,7 +84,7 @@ ht-degree: 50%
 ## 为何有时会同时计入原始页面和重定向页面上的查看次数？ {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++回答
-使用at.js版本1.6.3或更高版本时，不计算两个页面上的页面查看次数。 这种争用情况仅影响使用早期版本的客户。Target 团队维护两个版本的 at.js：当前版本和当前版本的上一个版本。根据需要升级 at.js，以确保您运行的是[受支持的版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank}。
+使用at.js版本1.6.3或更高版本时，不计算两个页面上的页面查看次数。 这种争用情况仅影响使用早期版本的客户。Target 团队维护两个版本的 at.js：当前版本和当前版本的上一个版本。根据需要升级 at.js，以确保您运行的是[受支持的版本](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
 如果您使用的是不受支持的早期 at.js 版本，则可能会发生某种争用情况，这种情况可能导致先触发 Analytics 调用，然后再在第一个页面上执行重定向。这种情况可能会导致同时计入原始页面和重定向页面上的页面查看次数。 在这种情况下，第一个页面上的页面查看次数便是多余的，因为当时访客实际上从未“查看过”该页面。
 
@@ -110,7 +110,7 @@ ht-degree: 50%
 
 | 参数 | 描述 |
 |--- |--- |
-| `adobe_mc_sdid` | `adobe_mc_sdid`参数可将补充数据ID (SDID)和Experience Cloud组织ID从默认页面传递到新页面。 这些ID允许A4T将默认页面上的Target请求与新页面上的Analytic请求“拼合”在一起。<br>在URL中传递sdid的预期格式（对于混合应用，或者从一个应用传递到网站，或者从一个网站传递到另一个网站）是`ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
+| `adobe_mc_sdid` | `adobe_mc_sdid`参数可将补充数据ID (SDID)和Experience Cloud组织ID从默认页面传递到新页面。 这些ID允许A4T将默认页面上的Target请求与新页面上的Analytic请求“拼合”在一起。<br>在URL中传递sdid的预期格式（对于混合应用，或者从一个应用传递到网站，或者从一个网站传递到另一个网站）是`ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` |
 | `adobe_mc_ref` | `adobe_mc_ref` 参数可将默认页面的引荐 URL 传递到新页面。如果与AppMeasurement.js版本2.1（或更高版本）一起使用，则Analytics会将此参数值用作新页面上的引荐URL。 |
 
 在 VEC 和基于表单的体验编辑器中使用内置的重定向选件时，如果已在页面上实施访客 ID 服务，则这两个参数会自动添加到重定向 URL 中。如果您在 VEC 或基于表单的编辑器中使用自己的自定义重定向代码，则必须确保使用自定义代码传递这两个参数。

@@ -4,7 +4,7 @@ description: 使用 [!DNL Analytics] for [!DNL Target] (A4T) 根据 [!DNL Analyt
 title: ' [!DNL Analytics] for [!DNL Target] (A4T) 是什么?'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 80%
@@ -63,7 +63,7 @@ ht-degree: 80%
 | [多变量测试 (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 是 | 需要基于mbox的目标指标以获取[!UICONTROL Element Contribution]报表。 [!UICONTROL Element Contribution]报表当前不支持[!DNL Analytics]量度。 |
 | [Automated Personalization (AP) 活动](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 否 |  |
 | [推荐活动](/help/main/c-recommendations/recommendations.md) | 是 |  |
-| [使用重定向产品建议的任意活动](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 是 |
+| [使用重定向产品建议的任意活动](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 是 |  |
 
 由于所有活动类型尚不支持 A4T，因此建议您保留或实施重要的转化 mbox，例如 `orderConfirmPage` mbox。
 
@@ -107,7 +107,7 @@ ht-degree: 80%
 * 介绍 A4T 的工作原理
 * 了解使用 A4T 之前需要满足的先决条件
 
->[!VIDEO](https://video.tv.adobe.com/v/3421723?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
 ### Analytics/Adobe Target集成(A4T) (40:33) ![教程徽章](/help/main/assets/tutorial.png)
 
@@ -124,5 +124,5 @@ ht-degree: 80%
 >
 >* [Analytics for [!DNL Target] 实施](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md)：包含适用于 at.js 和平台 Web SDK 的实施信息。
 >* [重定向产品建议 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
->* [什么是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)：包含有关 Platform Web SDK 的概述信息。
->* [Target 概述](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=zh-Hans)：包含特定于 [!DNL Target] 和 [!DNL Platform Web SDK] 的信息。
+>* [什么是 Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)：包含有关 Platform Web SDK 的概述信息。
+>* [Target 概述](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)：包含特定于 [!DNL Target] 和 [!DNL Platform Web SDK] 的信息。

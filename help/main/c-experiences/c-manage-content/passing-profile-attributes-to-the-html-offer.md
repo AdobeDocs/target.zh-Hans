@@ -4,7 +4,7 @@ description: 了解如何在 [!DNL Adobe Target]中将动态数据传递到选�
 title: 如何将动态数据传递给选件？
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 52%
@@ -18,7 +18,7 @@ ht-degree: 52%
 ## 商业案例
 
 * 促销折扣产品建议，以“填充”或“补充”上次购买的产品。除了为目录中的每个项目创建单独的产品建议之外，您可以创建一个包含动态文本的产品建议，其会从轮廓中读取“上次购买的产品”并在产品建议中显示链接。
-* 一个访客通过 `keyword=world` `cup` 访问您的登陆页。您在产品建议中显示词语 *World cup*。
+* 一个访客通过 `keyword=world``cup` 访问您的登陆页。您在产品建议中显示词语 *World cup*。
 * 使用信息个性化推荐标签，例如(1)添加到访客购物车的最后一个项目(Nike Air Max 1000s)、(2)访客的颜色偏好（黑色）和(3)访客最喜爱的非鞋类别（连帽上衣）。 示例：“用这些炫酷的‘黑色’‘连帽衫’来搭配您的‘Nike Air Max 1000s’！”
 
 ## 技术优势

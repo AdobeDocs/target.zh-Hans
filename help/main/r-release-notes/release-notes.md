@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7d73870275c266055825c2fce90489ef82825fca
+source-git-commit: 5c1dda629a33fc38f51e2e3198a7ea091a369897
 workflow-type: tm+mt
-source-wordcount: '1700'
-ht-degree: 17%
+source-wordcount: '1430'
+ht-degree: 19%
 
 ---
 
@@ -29,81 +29,70 @@ ht-degree: 17%
 
 有关详细信息，请参阅[[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)。
 
-## [!DNL Target Standard/Premium] 25.10.1（2025年10月22日）
+## [!DNL Target Standard/Premium] 25.11.1（2025年11月10日）
 
-此版本包含以下更新和修复：
 
-**活动**
+**Analytics for Target (A4T)**
 
-+++ 查看详细信息
-* **解决了更新后的UI中的可用性问题**。 [!UICONTROL Observers]现在可以使用[!UICONTROL View Activity]选项预览活动，就像在旧版UI中一样。 (TGT-51741)
-* **[!UICONTROL Observer]用户现在可以在更新后的UI中查看活动内容。**&#x200B;已恢复观察者角色用户在更新后的活动UI中的可见性。 以前，观察者无法查看旧版UI中可用的修改、选件和内容更改。 (TGT-53785)
-* **[!UICONTROL Approver]用户现在可以编辑活动目标，而不会出现编辑器权限错误。**&#x200B;解决了活动创建UI中的权限问题，该问题阻止审批者级别的用户保存对高级目标设置的更改。 受影响的用户收到`403 Forbidden.Resource`错误，需要编辑器权限，尽管具有足够的访问权限。 (TGT-53819)
++++查看详细信息
+* 在更新的UI中使用&#x200B;**[!UICONTROL Goals & Settings]作为报表源时出现[!DNL Adobe Analytics]错误消息。**&#x200B;解决了更新[!UICONTROL Overview] UI中的问题，该问题导致目标部分显示“出现错误”错误。 我们无法完成您的请求。 如果选择[!DNL Adobe Client Care] (A4T)作为报表源，如果问题仍然存在，请联系[!DNL Adobe Analytics]。 目标现在可以正确显示为[!UICONTROL Adobe Analytics]个量度，从而确保跨报表源的一致可见性。 (TGT-54021)
 
 +++
 
 **受众**
 
 +++查看详细信息
-* **已在“仅此活动”报表中恢复多受众选择。**&#x200B;解决了活动创建UI中阻止用户在[!UICONTROL This activity only]的[!UICONTROL Goals & Settings]部分下选择多个受众的问题。 (TGT-53283)
-* **基于受众的报表图形现在可正确显示转化数据。**&#x200B;解决了[!UICONTROL Reports]选项卡中导致图形在选择非默认受众时失败的问题。 虽然提供了数据和置信度量度，但可视化图表只显示一条实线，导致分析困难。 (TGT-53769)
-* **[!UICONTROL Targeting] UI现在明确指示排除的受众规则。**&#x200B;解决了在活动创建UI的[!UICONTROL Targeting]部分中，未明确显示设置为[!UICONTROL Exclude]的受众规则的问题。 这会导致查看定位逻辑时出现混淆，尤其是对于排除特定URL的受众。 (TGT-53809)
-* **受众定义值现在可以在[!UICONTROL Targeting]选项卡中选择和复制。**&#x200B;解决了活动创建界面中阻止用户在[!UICONTROL Targeting]选项卡中选择和复制受众规则值的问题。 旧版UI中提供了此功能，但更新后的UI中缺少此功能。 (TGT-53856)
+* **无法在更新的UI中选择多个报表受众。**&#x200B;解决了在更新的UI中，用户在编辑活动时无法同时选择多个新创建的报表受众的问题。 现在可以同时分配多个受众，从而提高报表设置的灵活性和效率。 (TGT-53253)
+
++++
+
+**决策优惠**
+
++++查看详细信息
+* **无法在更新的UI中编辑或替换决策选件。**&#x200B;解决了在更新的UI中，无法通过[!UICONTROL Modifications]面板编辑或替换决策优惠，且优惠名称显示为空白的问题。 Decisioning优惠现在完全可访问和编辑，从而恢复与旧版UI的等同性，并确保客户可以直接在活动中管理优惠。 (TGT-53884)
 
 +++
 
 **本地化**
 
 +++查看详细信息
-* **更正了zh_CN页面编辑器上下文中“引用”的错误。**&#x200B;更正了zh_CN区域设置中的上下文翻译错误，该错误导致术语“quote”被不准确地翻译为“报价”，从而暗含商业价格报价。 在“排版规则”>“标题样式”>“块引用”部分中，预期含义是指格式元素（引用块）而不是定价。 (TGT-53841)
-* **更正了zh_CN页面编辑器上下文中“删除了引号”的错误。**&#x200B;更正了zh_CN区域设置中的一个翻译错误，该错误中“quote removed”未准确地呈现为“移除了报价”，这意味着提供了商业报价。 在“排版规则”>“标题样式”>“块引用”部分中，术语是指格式元素（引用块）而不是定价。 (TGT-53843)
-* **更正了zh_CN页面编辑器上下文中“重新排列报价”的错误。**&#x200B;更正了zh_CN区域设置中的上下文翻译错误，其中“quote reorized”被不准确地翻译为“重新排列了报价”，这意味着商业报价。 在“排版规则”>“标题样式”>“块引用”部分中，术语是指格式元素（引用块）而不是定价。 (TGT-53844)
-* **更正了zh_CN页面编辑器上下文中“quote changed”的错误。**&#x200B;更正了zh_CN区域设置中的一个翻译错误，该错误中“quote changed”未准确地呈现为“更改了报价”，这表示使用了商业报价。 在“排版规则”>“标题样式”>“块引用”部分中，术语是指格式元素（引用块）而不是定价。 (TGT-53845)
+* **更正了朝鲜语和日语UI中的几个本地化错误。** (TGT-54003、TGT-54004、TGT-54006、TGT-54007和TGT-54018)
 
 +++
 
-**推荐**
+**[!UICONTROL Recommendations]**
 
 +++查看详细信息
-* 现在可正确保存推荐的&#x200B;**CSS选择器更改。**&#x200B;解决了活动创建UI中阻止用户更新推荐投放的CSS选择器的问题。 更改在保存后已恢复，阻止对定向容器的更新。 (TGT-53835)
-* **页面加载事件选择现在在推荐修改中持续存在。**&#x200B;解决了在将推荐的事件类型从[!UICONTROL View]切换到[!UICONTROL Page Load]时，活动创建UI中阻止用户保存更改的问题。 尽管选择似乎成功，但在导航离开并阻止活动发布后已恢复。 (TGT-53957)
+* **具有实体属性匹配的按属性促销，在活动保存后无法加载推荐键。**&#x200B;修复了在保存活动后进行编辑时，规则类型为[!UICONTROL Promotion by Attribute]且类型为[!UICONTROL Entity Attribute Matching]的促销未加载推荐键的问题。 问题是由未通过GraphQL请求`customKeyId`导致的。 现在，推荐键可在编辑促销活动期间正确加载。 (TGT-53117)
+* 从ExpB切换到ExpA时，**推荐会以可视方式持续存在。**&#x200B;解决了在体验B中插入推荐，然后切换到体验A以使推荐选件框可见的问题。 这只是视觉上的不一致；现在，在体验之间切换时，修改可正确呈现，从而确保准确的UI行为。 (TGT-53911)
+* **推荐键未加载[!UICONTROL Promotion by Attribute]且匹配[!UICONTROL Entity Attribute]。**&#x200B;解决了规则类型为[!UICONTROL Promotion by Attribute]且类型为[!UICONTROL Entity Attribute Matching]的促销活动在保存活动后编辑时未加载推荐键的问题。 现在，可通过GraphQL正确检索推荐键，从而确保促销活动按预期显示和运行。 (TGT-53917)
+* **无法对更新后的UI中隐藏的HTML元素编辑推荐。**&#x200B;解决了[!UICONTROL New Create]和VEC UI中的一个问题，该问题导致无法编辑应用于隐藏HTML元素的推荐活动。 此功能现在可按预期工作，从而恢复与旧版UI的等同性，并确保无论元素可见性如何，推荐都可以修改。 (TGT-53953)
+* **无法在更新的UI中编辑有关隐藏HTML元素的推荐活动。**&#x200B;解决了在更新的UI中，无法编辑应用于隐藏HTML元素的推荐活动的问题。 此功能现在可按预期工作，从而恢复与旧版UI的等同性，并确保无论元素可见性如何，推荐都可以修改。 (TGT-53951)
+* **推荐目录在更新的UI中间歇性地缺少属性值。**&#x200B;解决了在更新的[!UICONTROL Recommendations] UI中，目录搜索列表间歇性地无法显示某些属性值（例如，消息）的问题，即使该值存在于产品馈送中也是如此。 现在，搜索结果中的属性值加载一致，无需重新配置列，提高了目录管理的可靠性和效率。 (TGT-52769)
+* 更新后的UI中&#x200B;**[!UICONTROL Download Recommendations]活动缺少[!DNL Recommendations]按钮。**&#x200B;解决了在更新的[!DNL Recommendations] UI中，使用推荐的A/B活动无法显示[!UICONTROL Download Recommendations]按钮的问题。 现在，按钮可正确显示，允许用户按预期导出推荐数据，这与旧版UI中的功能一致。 (TGT-53768)
+* 更新后的概述UI中缺少&#x200B;**[!UICONTROL Download Recommendation Data]按钮。**&#x200B;解决了更新后的[!UICONTROL Overview] UI中，[!UICONTROL Download Recommendation Data]按钮对包含推荐的活动不可见的问题。 按钮现在可正确显示，从而确保用户无需切换回旧版UI即可直接导出推荐数据。 (TGT-53772)
+* **编辑活动条件有时会在更新后的UI中导致出现空白屏幕。**&#x200B;解决了更新UI中的一个问题：单击[!UICONTROL Edit Criteria in Experiences]有时会导致某些活动的屏幕变成空白。 现在，标准编辑器可以在所有活动中可靠地加载，从而确保用户能够不受中断地编辑。 (TGT-53961)
+* **无法在更新的UI中编辑序列条件。**&#x200B;解决了更新UI中的问题：尝试编辑[!UICONTROL Sequence Criteria]导致标准弹出窗口在加载时卡住，然后显示空白屏幕。 标准编辑器现在可正确加载，允许用户编辑和更新序列标准而不会中断。 (TGT-53985)
 
 +++
 
-**报表**
+**[!UICONTROL Reports]**
 
 +++查看详细信息
-* **“[!UICONTROL Export order details to CSV]”现在下载完整数据。**&#x200B;解决了在更新的[!UICONTROL Overview] UI中导致“[!UICONTROL Export Order details to CSV]”选项下载空文件的问题，即使存在有效的报表数据也是如此。 (TGT-53787)
+* **[!UICONTROL Multivariate Test](MVT)位置和图形报告问题阻止生成报告。**&#x200B;解决了MVT活动无法在Target UI中生成[!UICONTROL Location Contribution]和图形报告的问题，显示错误“出现错误。 我们无法完成您的请求。” 现在，报告可在UI中正确加载，确保完全可见。 (TGT-53654)
+* 由于&#x200B;**贡献报表错误，[!UICONTROL Element]MVT报表未加载。**&#x200B;修复了Target UI中无法加载MVT活动报表，并显示“无法获取元素贡献报表”错误的问题。 现在，报表可正确显示，从而确保元素贡献的全面可见。 (TGT-53691)
+* **将订单详细信息导出到[!UICONTROL Experience Targeting] (XT)活动的CSV问题。**&#x200B;修复了XT活动中[!UICONTROL Export Order Details to CSV]选项显示不正确并返回空文件的问题。 现在，仅对AP活动显示选项，以确保准确的导出功能并防止混淆。 (TGT-53798)
 
 +++
 
-**安全性**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看详细信息
-* 已添加&#x200B;**IMS预筛选器以保护GQL端点免受跨组织数据泄露的影响。**&#x200B;解决了“管理员”选项卡中影响licenseGroups和targetProperties GraphQL端点的安全漏洞。 问题源于将JIL API与管理员客户端令牌一起使用，可能会利用此令牌访问跨组织产品数据。 (TGT-53837)
-
-+++
-
-**可视化体验编辑器 (VEC)**
-
-+++查看详细信息
-* **在活动创建UI中恢复了创作稳定性。**&#x200B;解决了VEC UI中的一个间歇性问题，该问题会导致创作失败，并且链接会变得意外可点击，从而将用户重定向到离开页面的位置。 (TGT-53153)
-* 在活动创建UI中&#x200B;**已恢复对已保存活动的编辑。**&#x200B;解决了导致用户在保存修改后无法编辑活动的问题。 受影响的活动在“[!UICONTROL Applying initial modifications]”中仍然卡住，阻止进一步更新并隐藏[!UICONTROL Cancel]按钮。 (TGT-53631)
-* **VEC不再在“[!UICONTROL Applying initial modifications]”上停止。**&#x200B;解决了VEC中的一个性能问题，该问题在加载具有大量修改的体验时导致长时间延迟。 受影响的用户看到UI在“[!UICONTROL Applying initial modifications]”上停滞了数分钟，尤其是在体验B场景中。 (TGT-53727)
-* **VEC现在加载修改时不含根元素。**
-解决了VEC中的一个问题，在加载缺少明确根元素的修改时，该问题会导致体验停滞。 这些修改以前导致UI无限期地在“A[!UICONTROL pplying initial modifications]”上挂起。 (TGT-53799)
-* **在活动中保存更改现在可按预期工作。**&#x200B;解决了新创建UI中与权限相关的问题，该问题阻止用户在编辑活动中的目标和高级设置时保存更改。 尽管具有适当的访问权限，受影响用户仍看到红色错误功能区和“Forbidden.Resource”消息。 (TGT-53816)
-* **VEC UI现在保留跨视图的体验修改。**&#x200B;解决了更新后的VEC中影响体验开发的多个问题。 修改无法正确持久保留，尤其是在使用HTML选件或在视图之间切换时。 (TGT-53825)
-* **现在，当修改跨越多个体验时，所有视图均可正确显示。**&#x200B;解决了在活动创建UI中，当修改应用于多个视图时只显示一个视图的问题。 即使正确应用了修改，悬停工具提示仍无法列出所有关联的视图。 (TGT-53827)
-* **VEC不再在“[!UICONTROL Applying initial modifications]”上间歇性停止。**&#x200B;解决了VEC中的一个间歇性问题，该问题导致体验加载失败并停留在“[!UICONTROL Applying initial modifications]”上。 此行为不一致，有时会触发重定向循环或需要手动清除缓存。 (TGT-53916)
-* 无法重现&#x200B;**VEC加载问题。**&#x200B;我们调查了一个报告的问题，即在编辑现有活动时，VEC停留在“[!UICONTROL Applying initial modifications]”上。 此行为疑似与缺少父元素的HTML内容有关。 我们将继续监控复发，并建议为HTML选件使用结构化容器以确保稳定性。 (TGT-53972)
-* VEC中的&#x200B;**[!UICONTROL Design]模式不再像[!UICONTROL Browse]模式那样间歇性地工作。**&#x200B;解决了UI中[!UICONTROL Design]模式间歇性地表现为[!UICONTROL Browse]模式的问题，该问题允许可单击的`<a>`链接并阻止元素选择。 这会导致悬停框消失并阻止修改工作流。 (TGT-53136)
-* 在&#x200B;**模式下的[!UICONTROL Composer]按钮点击不再触发页面重定向。**&#x200B;解决了更新后的VEC UI中的一个问题：在[!UICONTROL Composer]模式下单击按钮会导致意外重定向到该按钮的目标URL。 这会阻止用户编辑call-to-action (CTA)元素，并中断创作工作流。 (TGT-53137)
-* **自动个性化活动中的选件代码更新现在保存无误。**&#x200B;解决了在更新[!UICONTROL Invalid user input]活动中的优惠代码时，在新建用户界面中导致“[!UICONTROL Automated Personalization]”错误的问题。 该错误阻止用户保存更改，即使输入有效也是如此。 (TGT-53586)
-* VEC中的&#x200B;**[!UICONTROL Design]模式现在阻止可编辑组件的链接导航。**&#x200B;解决了更新后的VEC中存在的一个问题，即在[!UICONTROL Design]模式下，可单击元素（如按钮和链接）会触发页面重定向。 此行为模拟[!UICONTROL Browse]模式并阻止用户修改关键组件。 (TGT-53696)
-* **“[!UICONTROL Clicked an element]”量度现在无需重定向或错误即可工作。**&#x200B;解决了在新的创建UI中，选择“[!UICONTROL Clicked an element]”转化量度时导致意外重定向和空白屏幕的问题。 在安装期间单击某个按钮会触发导航而不是注册元素，从而导致“[!UICONTROL element not found]”错误。 (TGT-53817)
-* **编辑期间现有活动不再卡在无限加载循环中。**&#x200B;解决了新创建UI中的一个问题，该问题导致在VEC中编辑现有活动导致页面停留在无限加载循环中。 此问题不会影响新创建的活动，是由页面上预先存在的修改触发的。 (TGT-53913)
-* **现在可在VEC中正确加载包含修改的现有活动页面。**&#x200B;解决了在更新的VEC中，使用保存的修改编辑现有活动时导致页面停滞在加载阶段的问题。 新活动已加载且没有问题，但之前配置的活动无法呈现。 (TGT-53967)
+* **[!UICONTROL Delete Modification]按钮问题阻止删除活动修改。**&#x200B;解决了[!UICONTROL Delete Modification] UI中的[!DNL Target]按钮无法正常工作的问题，该按钮阻止用户删除活动中的修改。 现在，按钮按预期工作，允许毫不延迟地可靠地删除修改。 (TGT-53728)
+* 更新的UI中无法识别&#x200B;**首选选择器。**&#x200B;解决了更新后的UI中，VEC的CSS选择器列表中未显示首选选择器（例如`data-target-component-id`）的问题。 用户现在可以可靠地选择首选属性而不是动态生成的类名，从而确保在进行SPA页面更新时稳定定位。 (TGT-53908)
+* **活动位置在[!UICONTROL Edit]和[!UICONTROL Overview]页面之间对齐不匹配。**&#x200B;解决了[!UICONTROL Overview]页面中的活动位置编号与[!UICONTROL  Edit Experience]页面中的更新不一致的问题。 现在，两个视图中的位置保持一致，确保精确的对齐并防止位置缺失或编号错误。 （TGT-53960 和 TGT-53954）
+* **无法在更新的VEC中切换回[!UICONTROL Design]模式。**&#x200B;解决了更新后的VEC UI中的问题，该问题导致用户在[!UICONTROL Design]模式下导航到新页面后无法切换回[!UICONTROL Browse]模式。 [!UICONTROL Design]切换功能现在可以正常工作，允许修改无缝地跨页面应用。 （TGT-53988 和 TGT-53993）
+* **查询参数未显示在活动概述中。**&#x200B;解决了更新UI中的问题：查询参数未显示在活动的[!UICONTROL Overview]页面中，从而导致[!UICONTROL Overview]和页面交付URL之间存在差异。 现在，查询参数可正确显示，从而确保活动位置在各个视图中完全表示并保持一致。 (TGT-53701)
 
 +++
 
@@ -112,7 +101,7 @@ ht-degree: 17%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

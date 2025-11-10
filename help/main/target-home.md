@@ -87,7 +87,7 @@ UI旨在清晰而高效，帮助您充分利用[!DNL Target]。 浏览各种资�
 - 将[!DNL Target]与[!DNL Adobe Experience Cloud]集成：说明如何将[!DNL Target]与其他[!DNL Experience Cloud]解决方案集成，包括[[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)、[[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md)和[[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md)。
 - [[!DNL Adobe Target] 教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hans)：提供教程和视频，帮助您充分利用[!DNL Target]。
 - [故障排除 [!DNL Target]](r-troubleshooting-target/troubleshooting-target.md)：提供指向本指南中所含故障排除信息的链接，其中包括关于影响[!DNL Target]中的活动和其他元素的字符限制和其他限制（选件大小、受众、配置文件、值、参数等）的信息。
-- 移动应用的[[!DNL Target] ](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=zh-Hans){target=_blank}：说明[!DNL Target]如何用于移动应用优化和个性化。
+- 移动应用的[[!DNL Target] &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=zh-Hans){target=_blank}：说明[!DNL Target]如何用于移动应用优化和个性化。
 - [资源和联系信息](cmp-resources-and-contact-information.md)：提供关于更多资源的信息，以帮助您了解 [!DNL Target] 功能以及如果您需要帮助，如何联系 [!DNL Adobe]。
 
 ## 营销人员 {#marketers}

@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 693b862bc39fc3b1b7d93988bd80cdd51657354b
+source-git-commit: e5bc137ed1f32b07569a4f1a31746da19fb164d3
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 19%
+source-wordcount: '1736'
+ht-degree: 17%
 
 ---
 
@@ -28,6 +28,25 @@ ht-degree: 19%
 ### [!DNL Target] UI版本切换弃用
 
 有关详细信息，请参阅[[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)。
+
+## [!DNL Target Standard/Premium] 25.11.2（2025年11月14日）
+
+**决策优惠**
+
++++查看详细信息
+* **具有隐藏或无效选择器的优惠决策在更新的UI中不可编辑。**&#x200B;解决了更新UI中的问题，该问题导致无法编辑与隐藏或无效选择器绑定的优惠决策，除非该元素在可视化体验编辑器(VEC)中可见。 现在支持直接从面板进行编辑，从而恢复旧版UI中可用的功能，并确保能够修改优惠决策，而不管选择器可见性如何。 (TGT-53899)
+
++++
+
+**推荐**
+
++++查看详细信息
+* **在活动中编辑条件导致页面崩溃。**&#x200B;解决了更新UI中编辑活动标准导致页面崩溃并出现与`useCrudActionsCtx`相关的控制台错误的问题。 现在，标准编辑器可正确加载和运行，确保活动可编辑而不会中断。 (TGT-53971)
+* **[!UICONTROL Message]列间歇性地无法在更新的UI中显示产品数据。**&#x200B;解决了在更新的[!UICONTROL Recommendations] UI中，[!UICONTROL Message]中的[!UICONTROL Catalog Search]列间歇性地无法显示产品数据的问题，即使信息源中存在值也是如此。 列现在可以一致地显示所有产品的正确报文值，确保可靠的可见性，而无需手动重新配置列。 (TGT-52777)
+* 在更新的UI中保存活动后，**[!UICONTROL Download Recommendations Data]按钮不可见。**&#x200B;解决了更新后的UI中，即使在重新保存之后，某些保存的活动仍无法显示[!UICONTROL Download Recommendations Data]按钮的问题。 现在，按钮在所有活动中均可一致显示，从而确保用户能够可靠导出推荐数据而无需解决办法。 (TGT-53802)
+* **从集合中打开某些产品时返回“未找到请求的资源”，并且模式模式缺少close选项。**&#x200B;解决了在更新的Recommendations UI中，从收藏集中打开某些产品会触发“未找到请求的资源”错误并显示一个没有关闭选项的空白模式的问题。 该模式现在可正确加载产品详细信息，并且始终提供关闭选项以便正常退出。 (TGT-53986)
+
++++
 
 ## [!DNL Target Standard/Premium] 25.11.1（2025年11月10日）
 
@@ -79,18 +98,18 @@ ht-degree: 19%
 **[!UICONTROL Reports]**
 
 +++查看详细信息
-* **[!UICONTROL Multivariate Test] (MVT)位置和图形报告问题阻止生成报告。**&#x200B;解决了MVT活动无法在Target UI中生成[!UICONTROL Location Contribution]和图形报告的问题，显示错误“出现错误。 我们无法完成您的请求。” 现在，报告可在UI中正确加载，确保完全可见。 (TGT-53654)
+* **[!UICONTROL Multivariate Test](MVT)位置和图形报告问题阻止生成报告。**&#x200B;解决了MVT活动无法在Target UI中生成[!UICONTROL Location Contribution]和图形报告的问题，显示错误“出现错误。 我们无法完成您的请求。” 现在，报告可在UI中正确加载，确保完全可见。 (TGT-53654)
 * 由于&#x200B;**贡献报表错误，[!UICONTROL Element]MVT报表未加载。**&#x200B;修复了Target UI中无法加载MVT活动报表，并显示“无法获取元素贡献报表”错误的问题。 现在，报表可正确显示，从而确保元素贡献的全面可见。 (TGT-53691)
 * **将订单详细信息导出到[!UICONTROL Experience Targeting] (XT)活动的CSV问题。**&#x200B;修复了XT活动中[!UICONTROL Export Order Details to CSV]选项显示不正确并返回空文件的问题。 现在，仅对AP活动显示选项，以确保准确的导出功能并防止混淆。 (TGT-53798)
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看详细信息
 * **[!UICONTROL Delete Modification]按钮问题阻止删除活动修改。**&#x200B;解决了[!UICONTROL Delete Modification] UI中的[!DNL Target]按钮无法正常工作的问题，该按钮阻止用户删除活动中的修改。 现在，按钮按预期工作，允许毫不延迟地可靠地删除修改。 (TGT-53728)
 * 更新的UI中无法识别&#x200B;**首选选择器。**&#x200B;解决了更新后的UI中，VEC的CSS选择器列表中未显示首选选择器（例如`data-target-component-id`）的问题。 用户现在可以可靠地选择首选属性而不是动态生成的类名，从而确保在进行SPA页面更新时稳定定位。 (TGT-53908)
-* **活动位置在[!UICONTROL Edit]和[!UICONTROL Overview]页面之间对齐不匹配。**&#x200B;解决了[!UICONTROL Overview]页面中的活动位置编号与[!UICONTROL &#x200B; Edit Experience]页面中的更新不一致的问题。 现在，两个视图中的位置保持一致，确保精确的对齐并防止位置缺失或编号错误。 （TGT-53960 和 TGT-53954）
+* **活动位置在[!UICONTROL Edit]和[!UICONTROL Overview]页面之间对齐不匹配。**&#x200B;解决了[!UICONTROL Overview]页面中的活动位置编号与[!UICONTROL  Edit Experience]页面中的更新不一致的问题。 现在，两个视图中的位置保持一致，确保精确的对齐并防止位置缺失或编号错误。 （TGT-53960 和 TGT-53954）
 * **无法在更新的VEC中切换回[!UICONTROL Design]模式。**&#x200B;解决了更新后的VEC UI中的问题，该问题导致用户在[!UICONTROL Design]模式下导航到新页面后无法切换回[!UICONTROL Browse]模式。 [!UICONTROL Design]切换功能现在可以正常工作，允许修改无缝地跨页面应用。 （TGT-53988 和 TGT-53993）
 * **查询参数未显示在活动概述中。**&#x200B;解决了更新UI中的问题：查询参数未显示在活动的[!UICONTROL Overview]页面中，从而导致[!UICONTROL Overview]和页面交付URL之间存在差异。 现在，查询参数可正确显示，从而确保活动位置在各个视图中完全表示并保持一致。 (TGT-53701)
 
@@ -101,7 +120,7 @@ ht-degree: 19%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

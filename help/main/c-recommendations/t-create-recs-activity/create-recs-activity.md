@@ -2,13 +2,13 @@
 keywords: 创建推荐;推荐活动;新建推荐;推荐概述
 description: 了解如何使用 [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)创建 [!DNL Recommendations] 活动。
 title: 如何创建 [!DNL Recommendations] 活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 32b3a93b30c6ca6f7576be5dbb25b476167b33b7
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 52%
+source-wordcount: '1201'
+ht-degree: 50%
 
 ---
 
@@ -42,6 +42,10 @@ ht-degree: 52%
 
 1. 单击页面上的某个元素，如果该元素所在的位置有可用推荐，请单击&#x200B;**[!UICONTROL Replace w/ Recommendations]**、**[!UICONTROL Insert Recommendations Before]**&#x200B;或&#x200B;**[!UICONTROL Insert Recommendations After]**。
 
+   >[!NOTE]
+   >
+   >[!UICONTROL Recommendations]活动一次仅支持一个修改/推荐。 对于多个推荐，您可以创建多个[!DNL Recommendations]活动或使用A/B或XT测试。
+
    只有访问您网站的访客符合推荐资格时，他们才会看到推荐的内容。 不符合推荐条件的访客将看到默认内容。
 
    ![“推荐”选项](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
@@ -73,7 +77,7 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于该活动，请清除&#x200B;**[!UICONTROL Compatible]**&#x200B;复选框。 根据您的推荐设置( [!UICONTROL Compatible] > **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**)，可能不会显示&#x200B;**[!UICONTROL Filter Incompatible Criteria]**&#x200B;选项。 有关更多信息，请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
+   >并非每个标准都能在每个页面上正常运行。页面或 mbox 需要传入 `entity.id` 或 `entity.categoryId`，才能兼容当前项目/当前类别推荐。一般来说，最好只显示兼容的标准。但是，如果您希望不兼容的标准也可用于该活动，请清除&#x200B;**[!UICONTROL Compatible]**&#x200B;复选框。 根据您的推荐设置( [!UICONTROL Compatible] > **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**)，可能不会显示&#x200B;**[!UICONTROL Filter Incompatible Criteria]**&#x200B;选项。 有关更多信息，请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
    ![“选择标准”对话框](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -174,4 +178,4 @@ ht-degree: 52%
 
 ## 培训视频：创建推荐活动(7:15) ![教程徽章](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33958?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

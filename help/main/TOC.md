@@ -1,12 +1,12 @@
 ---
 user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
-user-guide-description: 了解如何定制和个性化客户体验，从而最大限度地提升网站和移动网站、应用程序、社交媒体和其他数字渠道的收入。
+user-guide-description: 了解如何跨网站、应用程序和社交渠道个性化客户体验以提高收入。
 feature-set: Target
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+source-git-commit: cc827c129da7208ee09d257faafa65ae6e7f4cf7
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 85%
+source-wordcount: '1273'
+ht-degree: 83%
 
 ---
 
@@ -281,7 +281,7 @@ ht-degree: 85%
       + [自动锁定摘要报表](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 摘要报表](/help/main/c-reports/personalization-reports/reports-ap.md)
    + Personalization分析报表 {#insights}
-      + [个性化见解报表概述](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+      + [个性化洞察报告概述](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [自动化区段报表](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [重要属性报表](c-reports/c-personalization-insights-reports/important-attributes-report.md)
    + 多变量测试报表 {#multivariate-test-reports}
@@ -333,7 +333,7 @@ ht-degree: 85%
       + [将“推荐”与电子邮件集成](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [“推荐”信息源处理服务器使用的 IP 地址](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
       + [经典版推荐与 Target Premium 中的“推荐”活动](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [经典版推荐文档](/help/main/c-recommendations/recommendations-classic-documentaton.md)
+   + [经典版推荐文档](/help/main/c-recommendations/recommendations-classic-documentation.md)
 + Target 故障诊断 {#troubleshoot}
    + [Target 故障诊断](r-troubleshooting-target/troubleshooting-target.md)
    + [限制](r-troubleshooting-target/target-limits.md)

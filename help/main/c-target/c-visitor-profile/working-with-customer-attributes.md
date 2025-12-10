@@ -182,7 +182,7 @@ ht-degree: 29%
 
 如果在Target中找不到客户属性数据，请确保导入过程在最近&#x200B;*x*&#x200B;天内完成，其中的&#x200B;*x*&#x200B;是Target [访客配置文件生命周期](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md)值（默认为14天）。
 
-## 培训视频：使用客户属性![教程徽章](/help/main/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}上传离线数据
+## 培训视频：使用客户属性![教程徽章](/help/main/assets/tutorial.png)上传离线数据 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
 
 此视频介绍如何将离线CRM、技术支持、销售点和其他营销数据导入[!DNL Experience Cloud People]服务，并使用访客已知ID将其与访客关联。
 

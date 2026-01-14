@@ -2,7 +2,7 @@
 keywords: 优化；个性化；adobe journey optimizer；ajo；用例；方案；添加内容；隐藏内容；添加组件；隐藏组件
 description: 了解如何使用 [!DNL Adobe Journey Optimizer]在网页上添加或隐藏组件。
 title: 在 [!DNL Adobe Journey Optimizer]中的网页中添加或隐藏组件
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 feature: Integrations
 hide: true
 hidefromtoc: true
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->此部分中的说明突出显示更改图像以及使用用户档案属性个性化文本消息的必要步骤。 有关[!DNL Journey Optimizer] Web设计器中可用选项的详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}中的&#x200B;*使用Web设计器*。
+>此部分中的说明突出显示更改图像以及使用用户档案属性个性化文本消息的必要步骤。 有关[!DNL Journey Optimizer] Web设计器中可用选项的详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}中的&#x200B;*使用Web设计器*。
 >
 >页面底部的视频特别有用。
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 
    Web配置或渠道界面是由系统管理员定义的配置。 Web配置包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。
 
-   有关详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}中的&#x200B;*设置渠道平面*。
+   有关详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}中的&#x200B;*设置渠道平面*。
 
 1. 在&#x200B;**[!UICONTROL Action]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Edit Content]**&#x200B;以在[!DNL Journey Optimizer] Web设计器中打开您的网站。
 
@@ -91,9 +91,9 @@ ht-degree: 2%
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-有关详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}中的&#x200B;*开始使用新的报表接口*。
+有关详细信息，请参阅[Journey Optimizer文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}中的&#x200B;*开始使用新的报表接口*。
 
 >[!MORELIKETHIS]
 >
->在[Journey Optimizer文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}中&#x200B;*使用Web设计器*
->[在](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer教程&#x200B;*中创建营销活动*
+>在[Journey Optimizer文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}中&#x200B;*使用Web设计器*
+>[在](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer教程&#x200B;*中创建营销活动*

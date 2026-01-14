@@ -2,13 +2,13 @@
 keywords: 工作区；管理属性；权限；产品配置；产品配置文件；角色；项目；观察者；编辑者；审批者；发布者
 description: 了解如何创建单独的工作区（产品配置文件），然后为各个页面、属性或网站为用户分配不同的角色和权限。
 title: 什么是企业用户权限？如何使用企业用户权限？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3166'
 ht-degree: 48%
 
 ---
@@ -147,7 +147,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 
 ### 跨国组织
 
-如果您所在的组织是跨国组织，则您可能拥有两个工作区：一个用于欧洲网页、属性或网站，而另一个用于美国网页、属性或网站。重组后，使用上图中的人物，您可以设置类似于以下所述的工作区和权限：
+如果您所在的组织是跨国组织，则您可能拥有两个工作区：一个用于欧洲网页、属性或网站，而另一个用于美国网页、属性或网站。重组后，使用上图中的用户画像，您可以设置类似于以下所述的工作区和权限：
 
 * **Jan**：Jan 是该组织美国网页、属性和网站的卓越中心优化负责人。她可能在 Adobe Experience Cloud 中拥有系统管理员权限。
 
@@ -310,7 +310,7 @@ Web 属性是一个规则库和一种嵌入代码。Web 属性可以是一个或
 * 属性和工作区的概念，以及这些边界和分组如何工作以允许控制用户的访问权限级别
 * 贵组织需要考虑的不同属性示例
 
->[!VIDEO](https://video.tv.adobe.com/v/3421735?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
 ### 办公时间：[!DNL Target]高级工作区
 

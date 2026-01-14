@@ -4,10 +4,10 @@ description: 了解如何在使用 Analytics for  [!DNL Target]  (A4T) 时将夸
 title: 如何在 A4T 中将夸大的访问数和访客数降至最低？
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 99%
+source-wordcount: '1321'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe 有一些客户遇到了 [!DNL Analytics] 中的部分数据比例较高�
 
 * **未对齐报表包 ID（实施）：**&#x200B;在活动设置期间指定的报表包与交付测试的页面上的报表包不匹配。数据在 [!DNL Analytics] 服务器上无法达到协调一致，因此看上去像是部分数据。
 * **页面加载缓慢：**&#x200B;在页面顶部进行 [!DNL Target] 调用，而一般在页面底部进行 [!DNL Analytics] 调用。如果页面加载缓慢，则访客在 [!DNL Target] 调用触发之后、但 [!DNL Analytics] 调用触发之前离开页面的可能性就会提高。在连接速度一般较慢的移动网站上，页面加载缓慢特别容易产生问题。
-* **页面错误：**&#x200B;如果存在 JavaScript 错误或其他未触发每个接触点的场景（Experience Cloud ID 服务、Target 和 Analytics），则产生部分数据。
+* **页面错误：**&#x200B;如果存在JavaScript错误或每个接触点未触发的其他情况(Experience Cloud ID服务、Target和Analytics)，则产生部分数据。
 * **[!DNL Target] 活动中的重定向产品建议：**&#x200B;对于使用 A4T 的活动中的重定向产品建议，您的实施必须满足某些最低要求。此外，您还必须了解一些重要信息。有关更多信息，请参阅[重定向产品建议 - A4T 常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)。
 * **旧版库：**&#x200B;在过去的一年中，Adobe 对 JavaScript 库（[!DNL appMeasurement.js]、`at.js` 和 `visitorAPI.js`）作出了若干改进以确保尽可能高效地发送数据。要详细了解实施要求，请参阅[在实施之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)。
 
@@ -71,7 +71,7 @@ Adobe 有一些客户遇到了 [!DNL Analytics] 中的部分数据比例较高�
 
 **部分数据点击：**&#x200B;用户有时在页面上停留的时间长度不足以发送 [!DNL Analytics] 调用，但 [!DNL Target] 具有适当的 MCID。此场景导致部分数据点击（点击但未查看 [!DNL Analytics] 页面）。如果这些用户返回您的网站并查看包含 [!DNL Analytics] 代码的页面，则正确地将其视为回访访客。如果该页面上只有 [!DNL Analytics] 代码，则将已错失这些点击。某些客户不想要这些点击的数据，因为他们夸大某些指标（访问次数）并缩减其他指标（每次访问的页面查看次数、每次访问停留的时间等等）。您还将看到不含任何页面查看次数的访问次数。但是，仍有正当理由保留这些数据。
 
-为了最大限度减少局部数据点击量，您可以加快页面加载速度，更新到最新版本的库，或者创建一个[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hans)以排除这些点击量。有关分步说明，请参阅《Analytics 组件指南》**&#x200B;中的[创建虚拟报表套件](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hans)。
+为了最大限度减少局部数据点击量，您可以加快页面加载速度，更新到最新版本的库，或者创建一个[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)以排除这些点击量。有关分步说明，请参阅《Analytics 组件指南》**&#x200B;中的[创建虚拟报表套件](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)。
 
 下图显示了该虚拟报表包的区段定义：
 
@@ -92,7 +92,7 @@ Adobe 有一些客户遇到了 [!DNL Analytics] 中的部分数据比例较高�
 
 **孤立点击：**&#x200B;在少数情况下，用户不会在页面上停留足够长的时间来进行 Analytics 调用，并且 Target 未获得适当的 MCID。Adobe 将这些点击定义为“孤立”点击。这些点击代表旧访客较少，且它们不合理地夸大了访问次数和访客数量。
 
-为了最大限度地减少这些“孤立”点击，您可以创建一个排除这些点击的[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hans)，如上所述。
+为了最大限度地减少这些“孤立”点击，您可以创建一个排除这些点击的[虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html)，如上所述。
 
 ## 这对我的 [!DNL Target] 报表有什么影响？ {#section_AAD354C722BE46D4875507F0FCBA5E36}
 

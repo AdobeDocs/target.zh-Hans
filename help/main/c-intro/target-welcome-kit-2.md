@@ -4,10 +4,10 @@ description: 纵览 Adobe Target。了解可用的活动、渠道、实现、集
 title: 可在何处找到 Target 的概括性介绍？
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 79%
+source-wordcount: '2485'
+ht-degree: 74%
 
 ---
 
@@ -28,32 +28,32 @@ ht-degree: 79%
 | 活动类型 | 详细信息 |
 | --- | --- |
 | A/B 测试 | 比较您在网站上或其他数字客户接触点上体验或产品的两个或更多变体，以了解哪个变体在预先指定的测试期间最能改善关键业务措施。A/B 测试适合较大的变动，如新的网页布局、不同的网站导航方法或处理数字体验个别元素（如文案、图像和行动号召按钮）的方式发生重大变化。[了解更多](/help/main/c-activities/t-test-ab/test-ab.md)。 |
-| 自动分配 | 在两个或更多个体验中找出表现最好的体验，并自动将更多流量重新分配给入选者以提高转化率，同时测试继续运行和学习。其中使用由 [!DNL Adobe Sensei] 提供的人工智能。[了解更多](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| Auto-Target<br>(Premium) | 利用 [!DNL Target] 中的 Adobe Sensei AI，根据每位访客个别的客户轮廓和以前具有类似轮廓的访客作出的行为，确定若干体验中的最佳体验并提供给访客。自动锁定可实现大规模自定义。[了解更多](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
-| 自动个性化<br>(Premium) | 使用由 [!DNL Adobe Sensei] 提供的高级机器学习算法和自动化功能检查产品中的图像、文案和其他元素的各种组合，并根据哪种组合最能实现业务目标（如提高转化率或每位访客的收入）将最佳组合提供给每位访客。[了解更多](/help/main/c-activities/t-automated-personalization/automated-personalization.md)。 |
+| 自动分配 | 在两个或更多个体验中找出表现最好的体验，并自动将更多流量重新分配给入选者以提高转化率，同时测试继续运行和学习。其中使用由 [!DNL Adobe Adobe AI] 提供的人工智能。[了解更多](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
+| Auto-Target<br>(Premium) | 利用[!DNL Target]中的Adobe AI，根据每位访客个别的客户个人资料和以前具有类似个人资料的访客的行为，确定若干体验中的最佳体验并提供给访客。 自动锁定可实现大规模自定义。[了解更多](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
+| 自动个性化<br>(Premium) | 使用由 [!DNL Adobe Adobe AI] 提供的高级机器学习算法和自动化功能检查产品中的图像、文案和其他元素的各种组合，并根据哪种组合最能实现业务目标（如提高转化率或每位访客的收入）将最佳组合提供给每位访客。[了解更多](/help/main/c-activities/t-automated-personalization/automated-personalization.md)。 |
 | 体验定位 (XT) | 根据用户定义的一组规则和标准将内容交付给特定受众。当您认识到某个受众很重要，并且该受众很了解什么体验与其产生共鸣时，**[!UICONTROL Experience Targeting]**&#x200B;对于将特定体验或内容定位到特定受众可发挥很大作用。 [了解更多](/help/main/c-activities/t-experience-target/experience-target.md)。 |
 | 多变量测试 (MVT) | 比较您的页面或数字体验上元素变体所有可能的组合 - 例如三个不同的背景图像、两个文案变体以及两种不同的按钮颜色。MVT 确定哪个组合对特定受众的表现最好以及哪些元素对结果影响最大。[了解更多](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
-| 推荐<br>(Premium) | 使用 Adobe Sensei AI 根据客户以前的活动和其他客户的活动，自动推荐可能让客户感兴趣的产品或内容。[了解更多](/help/main/c-recommendations/recommendations.md)。 |
+| 推荐<br>(Premium) | 使用Adobe AI根据客户以前的活动和其他客户的活动，自动推荐可能让客户感兴趣的产品或内容。 [了解更多](/help/main/c-recommendations/recommendations.md)。 |
 
 ## 渠道
 
-几乎可随处使用 [!DNL Target] 测试数字体验并使其个性化 - 不仅是您的网站、移动网站和移动应用程序等传统的数字接触点，还可在信息亭、电子邮件、物联网设备、游戏主机甚至是 Alexa 和 Cortana 等语音助手这样的接触点上。许多公司都开始在其网站上使用 [!DNL Target]。然而，最近的研究表明，人们越来越多地从其移动设备访问各个品牌。优化您的移动渠道现在至关重要。理想情况下，您将访客在您所有接触点上的体验联系起来以营造一种无缝、一致的体验。
+几乎可随处使用[!DNL Target]测试数字体验并使其个性化 — 不仅是您的网站、移动网站和移动应用程序等传统的数字接触点，还可在信息亭、电子邮件、物联网设备、游戏主机甚至是Alexa和Cortana等语音助手这样的接触点上。 许多公司都开始在其网站上使用 [!DNL Target]。然而，最近的研究表明，人们越来越多地从其移动设备访问各个品牌。优化您的移动渠道现在至关重要。理想情况下，您将访客在您所有接触点上的体验联系起来以提供无缝、一致的体验。
 
 | 渠道 | 详细信息 |
 | --- | --- |
 | 网站 | [!DNL Target] 可用于对您的多页面、单页面应用程序 (SPA) 和移动网站的页面运行 A/B 测试、多变量测试、体验定位、自动分配、自动定位、自动个性化和推荐活动，以提高访客和客户参与程度、提高转化率并增加收入。 |
 | 移动 Web | [!DNL Target] 可用于在您的移动网站页面上运行与在您的网站上运行的相同的所有活动类型，以便类似地提高访客和客户参与程度、提高转化率并增加收入。 |
 | 移动设备应用程序 | [!DNL Target] 可用于根据用户行为和移动上下文测试移动应用程序体验并使其个性化。[!DNL Target] 让您可通过迭代测试以及体验定位和 AI 驱动的个性化，投放有吸引力并产生转化的交互。要在您的移动应用程序上使用 [!DNL Target]，必须使用 Adobe Mobile Services SDK。 |
-| 物联网/各处 | [!DNL Target]提供服务器端实施，以使您可在电子邮件中和缺乏浏览器或不使用JavaScript代码的接触点上在活动中使用与您在传统网站、移动网站和移动应用程序上使用的相同的测试和个性化功能。 例如，您因此可测试信息亭、机顶盒、游戏主机、语音助手和其他非传统接触点并使其个性化。 |
+| 物联网/各处 | [!DNL Target]提供服务器端实施，以使您可在电子邮件中和缺乏浏览器或不使用JavaScript代码的接触点上在活动中使用与您在传统网站、移动网站和移动应用程序上使用的相同的测试和个性化功能。 例如，为了测试和个性化信息亭、机顶盒、游戏机、语音助手和其他非传统接触点。 |
 
 ## 实施
 
-许多人可能希望使用[!DNL Target]在多种不同的数字接触点上进行测试和个性化，其中不仅包括传统的Web和移动接触点，还包括缺乏浏览器或不使用JavaScript代码的接触点。 在某些情况下，内部或外部策略要求另设几层控制和安全。出于性能原因，可能还需要在后端服务器上运行一些进程。为了满足这些多种多样的用途，我们让您可按几种不同的方式实现 [!DNL Target]：客户端、服务器端或两者的组合。
+许多人可能希望使用[!DNL Target]对许多不同的数字接触点（包括传统的Web和移动接触点）以及缺少浏览器或不使用JavaScript代码的接触点进行测试和个性化。 在某些情况下，内部或外部策略要求另设几层控制和安全。出于性能原因，可能还需要在后端服务器上运行一些进程。为了满足这些多种多样的用途，我们让您可按几种不同的方式实现 [!DNL Target]：客户端、服务器端或两者的组合。
 
 | 实现类型 | 详细信息 |
 | --- | --- |
-| 客户端 | 对于 [!DNL Target] 的这种实现，[!DNL Target] 将与某个活动关联的体验直接提供给客户端浏览器。浏览器将决定要显示的体验，然后显示该体验。通过客户端，您可以使用WYSIWYG编辑器、**[!UICONTROL Visual Experience Composer]** (VEC)或非可视化界面&#x200B;**[!UICONTROL Form-based Experience Composer]**&#x200B;创建测试和个性化体验。 [了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank}。 |
-| 服务器端 | 在此类型的 [!DNL Target] 实现中，客户端设备通过您的服务器提出体验请求，您的服务器将该请求发送给 [!DNL Target]，[!DNL Target] 将响应发回您的服务器，然后您的服务器决定将什么体验提供给客户端设备以供其呈现。体验不一定显示在浏览器中；它能够以电子邮件或网亭形式显示，还可以通过语音助手或者其他一些非可视化体验或不基于浏览器的设备显示。由于您的服务器位于客户端和 [!DNL Target] 之间，因此如果您需要更好地控制体验并提高其安全性，或者您希望在服务器上运行复杂的后端进程，则此类实施是最佳选择。[了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}。 |
+| 客户端 | 对于 [!DNL Target] 的这种实现，[!DNL Target] 将与某个活动关联的体验直接提供给客户端浏览器。浏览器将决定要显示的体验，然后显示该体验。通过客户端，您可以使用WYSIWYG编辑器、**[!UICONTROL Visual Experience Composer]** (VEC)或非可视化界面&#x200B;**[!UICONTROL Form-based Experience Composer]**&#x200B;创建测试和个性化体验。 [了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}。 |
+| 服务器端 | 在此类型的 [!DNL Target] 实现中，客户端设备通过您的服务器提出体验请求，您的服务器将该请求发送给 [!DNL Target]，[!DNL Target] 将响应发回您的服务器，然后您的服务器决定将什么体验提供给客户端设备以供其呈现。体验不一定显示在浏览器中；它能够以电子邮件或网亭形式显示，还可以通过语音助手或者其他一些非可视化体验或不基于浏览器的设备显示。由于您的服务器位于客户端和 [!DNL Target] 之间，因此如果您需要更好地控制体验并提高其安全性，或者您希望在服务器上运行复杂的后端进程，则此类实施是最佳选择。[了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。 |
 | 混合实现 | 在此实现中，您选择最适合给定用例的实现方法。例如，您可能会使用客户端实现对主页上巨型横幅中的产品建议进行 A/B 测试，但还可能会使用服务器端实现确定要在客户端浏览器上显示的内部搜索结果、要在智能汽车仪表板上显示的体验或要从语音助手发出的语音响应。 |
 
 ## 活动元素
@@ -66,7 +66,7 @@ ht-degree: 79%
 | 产品建议 | 一块内容，其中可能包含图像、文本、HTML、链接、视频、行动号召按钮、语音助手响应或任何其他类型的内容。产品建议可用于打折、免运费等。可在网页上显示产品建议，但也可在语音助手或游戏主机等任何客户接触点上体验产品建议。当您测试某个产品建议时，你衡量它与其他产品建议或无产品建议相比是否取得成功。[了解更多](/help/main/c-experiences/c-manage-content/manage-content.md)。 |
 | 受众 | 具有相同特征的人群，例如都是新访客、回访访客或来自中西部的回访访客。通过使用“受众”功能，您可以将不同的内容和体验锁定到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。如果将访客视为目标受众的一部分，则 [!DNL Target] 根据在活动创建期间定义的标准决定要显示何种体验。[了解更多](/help/main/c-target/target.md)。 |
 | 成功量度 | 使您可确定给定体验或产品建议在 [!DNL Target] 活动中取得成功的关键业务度量。例如，您可以确定新的产品建议是否增加了每个访客带来的收入或是否吸引访客向购物车中添加物品。成功量度可用于发现注册、订购或购买漏斗等方面的问题，也可仅仅用于提高访客或客户参与度。[了解更多](/help/main/c-activities/r-success-metrics/success-metrics.md)。 |
-| 报表 | 关于您的活动进展和结果的信息，帮助您根据自身数据作出决策。报表数据可以帮助您确定何时结束测试，向您显示哪个体验或产品建议已入选，并提供确定后续操作所需的分析或学习数据。[了解更多](/help/main/c-reports/reports.md)。 |
+| 报表 | 关于您的活动进展和结果的信息，帮助您根据自身数据作出决策。报告数据可以帮助您确定何时结束测试，向您显示哪个体验或产品建议已入选，并提供确定后续操作所需的洞察或学习数据。[了解更多](/help/main/c-reports/reports.md)。 |
 
 ## 活动创建工具
 

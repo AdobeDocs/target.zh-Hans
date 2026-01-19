@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e5bc137ed1f32b07569a4f1a31746da19fb164d3
+source-git-commit: 550fa1e8d4127babe02403708b73862505bf8c99
 workflow-type: tm+mt
-source-wordcount: '1736'
-ht-degree: 17%
+source-wordcount: '1772'
+ht-degree: 15%
 
 ---
 
@@ -29,89 +29,62 @@ ht-degree: 17%
 
 有关详细信息，请参阅[[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)。
 
-## [!DNL Target Standard/Premium] 25.11.2（2025年11月14日）
+## [!DNL Target Standard/Premium] 26.1.1（2026年1月18日）
 
-**决策优惠**
+**活动**
 
 +++查看详细信息
-* **具有隐藏或无效选择器的优惠决策在更新的UI中不可编辑。**&#x200B;解决了更新UI中的问题，该问题导致无法编辑与隐藏或无效选择器绑定的优惠决策，除非该元素在可视化体验编辑器(VEC)中可见。 现在支持直接从面板进行编辑，从而恢复旧版UI中可用的功能，并确保能够修改优惠决策，而不管选择器可见性如何。 (TGT-53899)
+
+* **无法复制活动 — 用户输入无效。**&#x200B;已修复在复制活动时导致用户看到无帮助的“用户输入无效”错误的问题。 以前，在复制活动时，不会保留其特定于工作区的属性分配，从而导致后端拒绝保存请求，因为ABActivity至少需要一个属于非默认工作区的属性。 这种不匹配在UI中触发了常规错误，使用户没有指南。 此修复程序可确保在复制操作期间正确地保留工作区分配，使用户能够保存复制的活动而不进行修改，并防止出现误导性的验证错误。 (TGT-54282)
+* **启用Web编辑器选件的Workspace列。**&#x200B;此更新解决了Web编辑器中的其他工作区中出现[!UICONTROL Default Workspace]中的选件所造成的客户混淆。 尽管此行为按预期工作，但在所有工作区中均可刻意看到[!UICONTROL Default Workspace]选件，但客户报告UI未明确工作区来源，尤其是在非默认工作区（如“审批者”）中创建活动时更是如此。 为了提高清晰度，Web编辑器的选件列表中现已启用[!UICONTROL Workspace]列，允许用户轻松区分每个选件属于哪个工作区，并防止误解显示的其他选件。 (TGT-54138)
+* 在新选项卡中打开具有target=&quot;_blank&quot;的&#x200B;**链接。**&#x200B;此修复解决了以下问题：在~模式下单击时，包含具有~target=&quot;_blank&quot;[!UICONTROL Browse]的链接的已创作网站将在新的浏览器选项卡中打开，从而中断编辑器内预览体验。 出现此行为是因为创作页面的本机链接属性未被扩展插入的JavaScript截获，这与旧版UI不同，在旧版UI中，锚点元素会进行转换并覆盖其目标以保留在编辑器中导航。 此更新现在确保在Web编辑器中正确处理使用~target=&quot;_blank&quot;~的链接，以便在创作过程中不再打开外部选项卡。 (TGT-54134)
+* **取消选择属性警告。**&#x200B;此更新引入了一个可视警告，当用户在活动编辑器中取消选择自动检测到的属性时，该警告会明确通知用户。 以前，删除自动检测到的属性不会指示该属性将被永久删除，这可能会导致意外丢失定位配置。 此修复程序会添加一个警告图标（与旧版UI中的行为一致），以通知用户取消选择资产会将其从活动中移除。 (TGT-54121)
+* **[!UICONTROL Workspaces]下拉列表在[!UICONTROL Users]部分中限制为20个。**&#x200B;此修复解决了[!UICONTROL Workspaces] > [!UICONTROL Administration]部分中的[!UICONTROL Users]下拉列表仅显示20个工作区的问题，即使用户有权访问更多工作区也是如此。 `licenseGroups`的基础GraphQL调用也被限制为20个结果，这会导致UI显示不完整的列表，尽管用户有权访问组织中的更多工作区。 更新会移除此硬限制，以便现在可以正确返回并显示整组可用工作区。 (TGT-53820)
+* **修复了选件模式不显示Workspace列的问题。**&#x200B;修复了选件模式在更新的UI中不显示workspace列的问题。 这会给客户带来困惑，因为[!UICONTROL Default Workspace]中的选件与所选工作区中的选件一起显示，但未指明它们的来源。 工作区列现在已启用，以便客户可以清楚地识别每个选件属于哪个工作区。 (TGT-52320)
+
++++
+
+**属性**
+
++++查看详细信息
+* **如果已删除，Activity Edit则不应添加自动检测到的属性。**&#x200B;此修复程序解决了以下问题：编辑活动会自动重新引入用户之前删除的自动检测属性。 重新打开活动进行编辑时，系统错误地还原了已删除的属性，导致[!UICONTROL Properties List]中的行为不一致并混淆。 此更新可确保在删除自动检测到的属性后，该属性会在所有后续编辑期间保持被删除状态，并且除非用户明确将其添加回来，否则该属性不会重新出现。 (TGT-54182)
+* **如果已经删除，请不要添加自动检测到的属性。**&#x200B;此修复程序可确保，一旦用户手动从活动中删除了自动检测到的属性，系统在活动编辑器中的后续导航期间将不再重新引入该属性。 以前，如果用户取消选择自动检测的属性，移至[!UICONTROL Targeting]步骤，然后返回到[!UICONTROL Experiences]，则编辑器将根据活动编辑器状态切片中存储的自动检测列表重新填充移除的属性。 更新后的逻辑现在将自动检测到的属性与~ActivityState~切片中的当前属性进行比较，并阻止重新添加用户已删除的任何自动检测到的属性。 这会导致各步骤之间出现一致的行为并尊重用户意图。 (TGT-54181)
+* **将自动检测到的文本添加到属性列表。**&#x200B;此增强功能更新[!UICONTROL Properties List]以明确标记系统自动检测的任何属性。 当用户可见的[!UICONTROL Properties List]中也存在自动检测到的属性时，该属性现在会使用存储在~ActivityEditorSlice~状态中的值，在其名称旁边显示“（自动检测）”文本。 这反映了旧版UI的行为，并帮助用户轻松区分手动选择的属性和自动识别的属性。 (TGT-54120)
+* **将自动检测到的[!UICONTROL Properties]添加到状态。**&#x200B;此更新确保~ActivityEditorSlice.ExperienceEditor~状态一致地维护所有自动检测到的属性ID的最新列表，这些属性ID从Web编辑器传递到Activity [!UICONTROL Experiences]选项卡。 每次用户导航到[!UICONTROL Experiences]选项卡时，都会使用任何新检测到的属性刷新状态，同时会防止出现重复项，从而确保准确跟踪和可靠的下游行为。 (TGT-54119)
 
 +++
 
 **推荐**
 
 +++查看详细信息
-* **在活动中编辑条件导致页面崩溃。**&#x200B;解决了更新UI中编辑活动标准导致页面崩溃并出现与`useCrudActionsCtx`相关的控制台错误的问题。 现在，标准编辑器可正确加载和运行，确保活动可编辑而不会中断。 (TGT-53971)
-* **[!UICONTROL Message]列间歇性地无法在更新的UI中显示产品数据。**&#x200B;解决了在更新的[!UICONTROL Recommendations] UI中，[!UICONTROL Message]中的[!UICONTROL Catalog Search]列间歇性地无法显示产品数据的问题，即使信息源中存在值也是如此。 列现在可以一致地显示所有产品的正确报文值，确保可靠的可见性，而无需手动重新配置列。 (TGT-52777)
-* 在更新的UI中保存活动后，**[!UICONTROL Download Recommendations Data]按钮不可见。**&#x200B;解决了更新后的UI中，即使在重新保存之后，某些保存的活动仍无法显示[!UICONTROL Download Recommendations Data]按钮的问题。 现在，按钮在所有活动中均可一致显示，从而确保用户能够可靠导出推荐数据而无需解决办法。 (TGT-53802)
-* **从集合中打开某些产品时返回“未找到请求的资源”，并且模式模式缺少close选项。**&#x200B;解决了在更新的Recommendations UI中，从收藏集中打开某些产品会触发“未找到请求的资源”错误并显示一个没有关闭选项的空白模式的问题。 该模式现在可正确加载产品详细信息，并且始终提供关闭选项以便正常退出。 (TGT-53986)
+* **[!UICONTROL Environment]下拉列表仅显示100个结果。**&#x200B;此修复解决了具有超过100个环境的客户在[!UICONTROL Environment]内的[!UICONTROL Recommendations]下拉列表中只能看到前100个条目的限制。 基础GraphQL查询(~getEnvironmentsV2~)采用硬编码页面大小100分页，导致UI仅显示部分列表，即使有其他页面可用。 对于拥有超过100个环境的客户，此问题会导致缺少选项和不完整的选择体验。 更新将提高限制，以便返回并显示所有环境，从而确保完全可见，无论环境计数是多少。 (TGT-53903)
 
 +++
 
-## [!DNL Target Standard/Premium] 25.11.1（2025年11月10日）
-
-
-**Analytics for Target (A4T)**
+**报表**
 
 +++查看详细信息
-* 在更新的UI中使用&#x200B;**[!UICONTROL Goals & Settings]作为报表源时出现[!DNL Adobe Analytics]错误消息。**&#x200B;解决了更新[!UICONTROL Overview] UI中的问题，该问题导致目标部分显示“出现错误”错误。 我们无法完成您的请求。 如果选择[!DNL Adobe Client Care] (A4T)作为报表源，如果问题仍然存在，请联系[!DNL Adobe Analytics]。 目标现在可以正确显示为[!UICONTROL Adobe Analytics]个量度，从而确保跨报表源的一致可见性。 (TGT-54021)
+
+* **修复了[!UICONTROL Reports]箭头未明确指示可展开列的问题。**&#x200B;修复了报表表未明确显示其他列可以在更新后的UI中展开的问题。 向列标题附近的[!UICONTROL Reports]箭头添加了消失的工具提示，以帮助客户了解更多列可用。
 
 +++
 
-**受众**
+**查看次数**
 
 +++查看详细信息
-* **无法在更新的UI中选择多个报表受众。**&#x200B;解决了在更新的UI中，用户在编辑活动时无法同时选择多个新创建的报表受众的问题。 现在可以同时分配多个受众，从而提高报表设置的灵活性和效率。 (TGT-53253)
+
+* **无法删除应用于视图的修改。**&#x200B;此修复解决了用户无法删除活动中的修改的问题，除非修改已首先重新应用于其他视图。 在编辑活动(例如，活动ID 302467)时，尝试删除任何修改不会产生任何效果，从而阻止用户删除不需要的更改。 但是，使用“应用于更多视图”重新应用修改并分配给`Page Load`事件后，删除操作会突然按预期运行。 (TGT-54088)
 
 +++
 
-**决策优惠**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看详细信息
-* **无法在更新的UI中编辑或替换决策选件。**&#x200B;解决了在更新的UI中，无法通过[!UICONTROL Modifications]面板编辑或替换决策优惠，且优惠名称显示为空白的问题。 Decisioning优惠现在完全可访问和编辑，从而恢复与旧版UI的等同性，并确保客户可以直接在活动中管理优惠。 (TGT-53884)
-
-+++
-
-**本地化**
-
-+++查看详细信息
-* **更正了朝鲜语和日语UI中的几个本地化错误。** (TGT-54003、TGT-54004、TGT-54006、TGT-54007和TGT-54018)
-
-+++
-
-**[!UICONTROL Recommendations]**
-
-+++查看详细信息
-* **具有实体属性匹配的按属性促销，在活动保存后无法加载推荐键。**&#x200B;修复了在保存活动后进行编辑时，规则类型为[!UICONTROL Promotion by Attribute]且类型为[!UICONTROL Entity Attribute Matching]的促销未加载推荐键的问题。 问题是由未通过GraphQL请求`customKeyId`导致的。 现在，推荐键可在编辑促销活动期间正确加载。 (TGT-53117)
-* 从ExpB切换到ExpA时，**推荐会以可视方式持续存在。**&#x200B;解决了在体验B中插入推荐，然后切换到体验A以使推荐选件框可见的问题。 这只是视觉上的不一致；现在，在体验之间切换时，修改可正确呈现，从而确保准确的UI行为。 (TGT-53911)
-* **推荐键未加载[!UICONTROL Promotion by Attribute]且匹配[!UICONTROL Entity Attribute]。**&#x200B;解决了规则类型为[!UICONTROL Promotion by Attribute]且类型为[!UICONTROL Entity Attribute Matching]的促销活动在保存活动后编辑时未加载推荐键的问题。 现在，可通过GraphQL正确检索推荐键，从而确保促销活动按预期显示和运行。 (TGT-53917)
-* **无法对更新后的UI中隐藏的HTML元素编辑推荐。**&#x200B;解决了[!UICONTROL New Create]和VEC UI中的一个问题，该问题导致无法编辑应用于隐藏HTML元素的推荐活动。 此功能现在可按预期工作，从而恢复与旧版UI的等同性，并确保无论元素可见性如何，推荐都可以修改。 (TGT-53953)
-* **无法在更新的UI中编辑有关隐藏HTML元素的推荐活动。**&#x200B;解决了在更新的UI中，无法编辑应用于隐藏HTML元素的推荐活动的问题。 此功能现在可按预期工作，从而恢复与旧版UI的等同性，并确保无论元素可见性如何，推荐都可以修改。 (TGT-53951)
-* **推荐目录在更新的UI中间歇性地缺少属性值。**&#x200B;解决了在更新的[!UICONTROL Recommendations] UI中，目录搜索列表间歇性地无法显示某些属性值（例如，消息）的问题，即使该值存在于产品馈送中也是如此。 现在，搜索结果中的属性值加载一致，无需重新配置列，提高了目录管理的可靠性和效率。 (TGT-52769)
-* 更新后的UI中&#x200B;**[!UICONTROL Download Recommendations]活动缺少[!DNL Recommendations]按钮。**&#x200B;解决了在更新的[!DNL Recommendations] UI中，使用推荐的A/B活动无法显示[!UICONTROL Download Recommendations]按钮的问题。 现在，按钮可正确显示，允许用户按预期导出推荐数据，这与旧版UI中的功能一致。 (TGT-53768)
-* 更新后的概述UI中缺少&#x200B;**[!UICONTROL Download Recommendation Data]按钮。**&#x200B;解决了更新后的[!UICONTROL Overview] UI中，[!UICONTROL Download Recommendation Data]按钮对包含推荐的活动不可见的问题。 按钮现在可正确显示，从而确保用户无需切换回旧版UI即可直接导出推荐数据。 (TGT-53772)
-* **编辑活动条件有时会在更新后的UI中导致出现空白屏幕。**&#x200B;解决了更新UI中的一个问题：单击[!UICONTROL Edit Criteria in Experiences]有时会导致某些活动的屏幕变成空白。 现在，标准编辑器可以在所有活动中可靠地加载，从而确保用户能够不受中断地编辑。 (TGT-53961)
-* **无法在更新的UI中编辑序列条件。**&#x200B;解决了更新UI中的问题：尝试编辑[!UICONTROL Sequence Criteria]导致标准弹出窗口在加载时卡住，然后显示空白屏幕。 标准编辑器现在可正确加载，允许用户编辑和更新序列标准而不会中断。 (TGT-53985)
-
-+++
-
-**[!UICONTROL Reports]**
-
-+++查看详细信息
-* **[!UICONTROL Multivariate Test] (MVT)位置和图形报告问题阻止生成报告。**&#x200B;解决了MVT活动无法在Target UI中生成[!UICONTROL Location Contribution]和图形报告的问题，显示错误“出现错误。 我们无法完成您的请求。” 现在，报告可在UI中正确加载，确保完全可见。 (TGT-53654)
-* 由于&#x200B;**贡献报表错误，[!UICONTROL Element]MVT报表未加载。**&#x200B;修复了Target UI中无法加载MVT活动报表，并显示“无法获取元素贡献报表”错误的问题。 现在，报表可正确显示，从而确保元素贡献的全面可见。 (TGT-53691)
-* **将订单详细信息导出到[!UICONTROL Experience Targeting] (XT)活动的CSV问题。**&#x200B;修复了XT活动中[!UICONTROL Export Order Details to CSV]选项显示不正确并返回空文件的问题。 现在，仅对AP活动显示选项，以确保准确的导出功能并防止混淆。 (TGT-53798)
-
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++查看详细信息
-* **[!UICONTROL Delete Modification]按钮问题阻止删除活动修改。**&#x200B;解决了[!UICONTROL Delete Modification] UI中的[!DNL Target]按钮无法正常工作的问题，该按钮阻止用户删除活动中的修改。 现在，按钮按预期工作，允许毫不延迟地可靠地删除修改。 (TGT-53728)
-* 更新的UI中无法识别&#x200B;**首选选择器。**&#x200B;解决了更新后的UI中，VEC的CSS选择器列表中未显示首选选择器（例如`data-target-component-id`）的问题。 用户现在可以可靠地选择首选属性而不是动态生成的类名，从而确保在进行SPA页面更新时稳定定位。 (TGT-53908)
-* **活动位置在[!UICONTROL Edit]和[!UICONTROL Overview]页面之间对齐不匹配。**&#x200B;解决了[!UICONTROL Overview]页面中的活动位置编号与[!UICONTROL &#x200B; Edit Experience]页面中的更新不一致的问题。 现在，两个视图中的位置保持一致，确保精确的对齐并防止位置缺失或编号错误。 （TGT-53960 和 TGT-53954）
-* **无法在更新的VEC中切换回[!UICONTROL Design]模式。**&#x200B;解决了更新后的VEC UI中的问题，该问题导致用户在[!UICONTROL Design]模式下导航到新页面后无法切换回[!UICONTROL Browse]模式。 [!UICONTROL Design]切换功能现在可以正常工作，允许修改无缝地跨页面应用。 （TGT-53988 和 TGT-53993）
-* **查询参数未显示在活动概述中。**&#x200B;解决了更新UI中的问题：查询参数未显示在活动的[!UICONTROL Overview]页面中，从而导致[!UICONTROL Overview]和页面交付URL之间存在差异。 现在，查询参数可正确显示，从而确保活动位置在各个视图中完全表示并保持一致。 (TGT-53701)
+* **[!UICONTROL Experience Fragment]名称在新的VEC UI**&#x200B;中被截断(TGT-54312)
+* **无法为[!UICONTROL Advanced Settings]量度使用[!UICONTROL Revenue]。**&#x200B;此修复解决了在[!UICONTROL Advanced Settings]中为[!UICONTROL Revenue]量度配置[!UICONTROL Goals & Settings]时，用户遇到403“访问被拒绝”错误的问题。 添加与主目标关联的依赖项条件时，出现问题；后端错误地要求编辑者权限，即使用户已有足够的权限创建和编辑活动。 因此，尽管配置有效，但保存活动失败。 更新更正了权限检查，以便具有适当访问权限的用户可以成功添加收入量度依赖关系，而不会触发禁止的资源错误。 (TGT-54092)
+* **修复了“添加”按钮未应用于选定图像的问题。**&#x200B;修复了在活动创建过程中选择或更新图像时阻止客户添加某些图像的问题。 例如，当客户搜索特定资产时，如果在搜索“ipp”时返回图像，则单击[!UICONTROL Add]按钮不会应用选定的图像，并且不会创建任何修改。 选择其他图像（如`Homepage-banner-1-moz.jpg`）可继续按预期工作。 此更新确保所有有效图像都可以在更新后的UI中一致应用。 (TGT-53610)
+* **修复了删除URL条件会重置目标量度配置的问题。**&#x200B;修复了删除[!UICONTROL Goal]量度中的单个URL条件导致整个配置在更新的UI中重置的问题。 当客户尝试删除[!UICONTROL Conversion] > [!UICONTROL Viewed a Page]下保存的URL条件时，目标类型意外切换到[!UICONTROL Viewed an Mbox]，并且已删除所有之前配置的设置。 此更新确保仅删除选定的URL条件，并且所有剩余的目标设置保持不变。 (TGT-53271)
+* **修复了搜索未查看子文件夹的问题。**&#x200B;修复了在更新的UI中搜索优惠时未返回子文件夹结果的问题。 客户只有在手动导航到存储选件的文件夹时，才能找到该选件，这使得搜索行为与API功能不一致。 搜索功能现在支持递归查看文件夹，因此客户可以找到选件，而无需单独打开每个文件夹。 (TGT-51954)
 
 +++
 
@@ -120,7 +93,7 @@ ht-degree: 17%
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

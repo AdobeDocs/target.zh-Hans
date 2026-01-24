@@ -48,7 +48,7 @@ ht-degree: 50%
 **[!DNL Adobe]是否有社区/论坛，以便我可以找到关于[!DNL Target]的答案和更多信息？**
 
 +++查看详细信息
-在[!DNL Target]Target社区论坛[中与其他](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}从业人员联系。 与使用[!DNL Target]推动个性化和实验的其他人分享您的专业知识、提出问题并开展协作。 一个欣欣向荣的社区有赖于积极的参与。 您的见解和经验可以帮助他人成功。 快速入门，贡献内容，找到您需要的答案。
+在[!DNL Target]Target社区论坛[中与其他](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hans){target=_blank}从业人员联系。 与使用[!DNL Target]推动个性化和实验的其他人分享您的专业知识、提出问题并开展协作。 一个欣欣向荣的社区有赖于积极的参与。 您的见解和经验可以帮助他人成功。 快速入门，贡献内容，找到您需要的答案。
 
 +++
 

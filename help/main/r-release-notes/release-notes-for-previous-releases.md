@@ -3990,7 +3990,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target 论坛的新位置 </p> </td> 
-   <td colname="col2"> <p> 已将 Target 论坛移至新的 <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community" format="https" scope="external">Adobe 社区平台</a>。 </p> </td> 
+   <td colname="col2"> <p> 已将 Target 论坛移至新的 <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hans" format="https" scope="external">Adobe 社区平台</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

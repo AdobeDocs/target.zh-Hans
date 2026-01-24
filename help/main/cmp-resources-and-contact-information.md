@@ -27,7 +27,7 @@ ht-degree: 79%
 
 参与对话，贡献您的专业技能，获得您需要的答案 — 所有这些都在一个地方完成。
 
-访问 [Target 社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)以开始。
+访问 [Target 社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hans)以开始。
 
 +++
 
@@ -68,7 +68,7 @@ ht-degree: 79%
 
 如果您在使用 Target 时遇到问题或存在疑问，解决办法有以下几种：
 
-如有疑问，您可以咨询[Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}中的Adobe Target专家。
+如有疑问，您可以咨询[Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hans){target=_blank}中的Adobe Target专家。
 
 如果遇到技术问题或要记录错误，您可以联系客户关怀。要通过电话联系客户关怀，请拨打 1-800-497-0335。可在 [Adobe 数字营销客户服务各地区电话号码](https://helpx.adobe.com/cn/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)页面上找到美国境外的免费号码。当要求您选择产品的选项时，请按 3 联系 Target 团队。
 
@@ -119,7 +119,7 @@ Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提
 
 ### 反馈 {#section_8154D6D712054220A90D85FA8E92933E}
 
-我们欢迎您提供有关此解决方案的任何建议或反馈。可在 [Adobe Target Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)提出关于增强的想法和建议。单击[!UICONTROL Ideas]选项卡。
+我们欢迎您提供有关此解决方案的任何建议或反馈。可在 [Adobe Target Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hans)提出关于增强的想法和建议。单击[!UICONTROL Ideas]选项卡。
 
 ### 法律 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

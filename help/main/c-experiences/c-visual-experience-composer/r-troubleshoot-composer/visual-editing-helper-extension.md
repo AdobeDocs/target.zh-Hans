@@ -4,10 +4,10 @@ description: 了解为什么某些网站可能无法可靠地在[!UICONTROL Visu
 title: 如何使用[!UICONTROL Visual Editing Helper]扩展？
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 86139b5971f98091affefd771d9d138e31574727
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 64%
+source-wordcount: '765'
+ht-degree: 56%
 
 ---
 
@@ -18,6 +18,17 @@ ht-degree: 64%
 >[!IMPORTANT]
 >
 >* 新的扩展取代了以前的 [Target VEC 帮助程序浏览器扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。请参阅该文章顶部的重要说明。 由于清单v3中的安全增强，[!DNL Adobe]需要下载此新扩展才能继续在[!DNL Target]中以视觉方式创作您的网站。
+
+## 对[!UICONTROL Visual Editing Helper]扩展的更改（2026年1月17日）
+
+### **通过在VEC帮助程序中添加新的启动Cookie清理实验功能修复了一个问题。**
+
+* 通过在VEC助手中添加新的启动Cookie清理实验功能修复了一个问题。
+* 此增强功能可在创作开始时，通过每个选项卡清除一次未分区的Cookie（而不是持续进行）来提高性能和可靠性。
+* 该功能会跟踪选项卡历史记录以防止冗余清理，并在选项卡关闭时清除历史记录，这样在重新打开选项卡时，清理行为将正确。
+* 添加了全面的单元测试，以确保一致的行为。
+
+![VEC新选项](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
 ## 为什么某些网站可能无法在可视化体验编辑器 (VEC) 中以可靠的方式打开
 
@@ -34,7 +45,7 @@ ht-degree: 64%
 
   使用[增强型体验编写器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)时，扩展未注入 at.js，但仍存在 SameSite Cookie 功能。要在网页上插入 at.js，请关闭 EEC。
 
-* 即使没有[&#x200B; (EEC)，也支持](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)移动设备视区[!UICONTROL Enhanced Experience Composer]。
+* 即使没有[ (EEC)，也支持](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)移动设备视区[!UICONTROL Enhanced Experience Composer]。
 * 对于 [!DNL Target] 的新客户，即便在其 IT 开发人员尚未在其网站上实施 [!DNL Target] 的情况下，也可以使用此扩展来试用 [!DNL Target]。
 * 服务于多个客户网站和 [!DNL Target] 帐户的合作伙伴现在有一个简单的机制来支持 VEC 加载，而不用通过第三方工具管理多个规则。
 

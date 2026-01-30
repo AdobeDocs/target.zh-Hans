@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
+source-git-commit: 6b92e823c854996e074716a7b8c4856176710c24
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 14%
+source-wordcount: '1772'
+ht-degree: 15%
 
 ---
 
@@ -29,14 +29,6 @@ ht-degree: 14%
 
 有关详细信息，请参阅[[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)。
 
-## [!DNL Target Standard/Premium] 26.1.2（2026年1月30日）
-
-**Adobe Target Insights仪表板**
-
-Adobe Target现在包含一个新的见解仪表板，可让您从较高的层次了解您的组织如何使用Target进行试验性和个性化。 仪表板会显示关键量度，例如实时活动、实时活动和已修改的活动、已完成的活动、已发布的活动和A/B测试活动。 使用时间范围选择器浏览不同时段的趋势，包括2025年的回顾视图。 该信息板仍会持续提供以跟踪一段时间内的采用情况和活动。
-
-查看[Adobe Target Insights仪表板](/help/main/c-activities/insights-dashboard.md)
-
 ## [!DNL Target Standard/Premium] 26.1.1（2026年1月18日）
 
 **活动**
@@ -55,7 +47,6 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 **属性**
 
 +++查看详细信息
-
 * **如果已删除，Activity Edit则不应添加自动检测到的属性。**&#x200B;此修复程序解决了以下问题：编辑活动会自动重新引入用户之前删除的自动检测属性。 重新打开活动进行编辑时，系统错误地还原了已删除的属性，导致[!UICONTROL Properties List]中的行为不一致并混淆。 此更新可确保在删除自动检测到的属性后，该属性会在所有后续编辑期间保持被删除状态，并且除非用户明确将其添加回来，否则该属性不会重新出现。 (TGT-54182)
 * **如果已经删除，请不要添加自动检测到的属性。**&#x200B;此修复程序可确保，一旦用户手动从活动中删除了自动检测到的属性，系统在活动编辑器中的后续导航期间将不再重新引入该属性。 以前，如果用户取消选择自动检测的属性，移至[!UICONTROL Targeting]步骤，然后返回到[!UICONTROL Experiences]，则编辑器将根据活动编辑器状态切片中存储的自动检测列表重新填充移除的属性。 更新后的逻辑现在将自动检测到的属性与~ActivityState~切片中的当前属性进行比较，并阻止重新添加用户已删除的任何自动检测到的属性。 这会导致各步骤之间出现一致的行为并尊重用户意图。 (TGT-54181)
 * **将自动检测到的文本添加到属性列表。**&#x200B;此增强功能更新[!UICONTROL Properties List]以明确标记系统自动检测的任何属性。 当用户可见的[!UICONTROL Properties List]中也存在自动检测到的属性时，该属性现在会使用存储在~ActivityEditorSlice~状态中的值，在其名称旁边显示“（自动检测）”文本。 这反映了旧版UI的行为，并帮助用户轻松区分手动选择的属性和自动识别的属性。 (TGT-54120)
@@ -66,7 +57,6 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 **推荐**
 
 +++查看详细信息
-
 * **[!UICONTROL Environment]下拉列表仅显示100个结果。**&#x200B;此修复解决了具有超过100个环境的客户在[!UICONTROL Environment]内的[!UICONTROL Recommendations]下拉列表中只能看到前100个条目的限制。 基础GraphQL查询(~getEnvironmentsV2~)采用硬编码页面大小100分页，导致UI仅显示部分列表，即使有其他页面可用。 对于拥有超过100个环境的客户，此问题会导致缺少选项和不完整的选择体验。 更新将提高限制，以便返回并显示所有环境，从而确保完全可见，无论环境计数是多少。 (TGT-53903)
 
 +++
@@ -87,10 +77,9 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看详细信息
-
 * **[!UICONTROL Experience Fragment]名称在新的VEC UI**&#x200B;中被截断(TGT-54312)
 * **无法为[!UICONTROL Advanced Settings]量度使用[!UICONTROL Revenue]。**&#x200B;此修复解决了在[!UICONTROL Advanced Settings]中为[!UICONTROL Revenue]量度配置[!UICONTROL Goals & Settings]时，用户遇到403“访问被拒绝”错误的问题。 添加与主目标关联的依赖项条件时，出现问题；后端错误地要求编辑者权限，即使用户已有足够的权限创建和编辑活动。 因此，尽管配置有效，但保存活动失败。 更新更正了权限检查，以便具有适当访问权限的用户可以成功添加收入量度依赖关系，而不会触发禁止的资源错误。 (TGT-54092)
 * **修复了“添加”按钮未应用于选定图像的问题。**&#x200B;修复了在活动创建过程中选择或更新图像时阻止客户添加某些图像的问题。 例如，当客户搜索特定资产时，如果在搜索“ipp”时返回图像，则单击[!UICONTROL Add]按钮不会应用选定的图像，并且不会创建任何修改。 选择其他图像（如`Homepage-banner-1-moz.jpg`）可继续按预期工作。 此更新确保所有有效图像都可以在更新后的UI中一致应用。 (TGT-53610)
@@ -104,7 +93,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

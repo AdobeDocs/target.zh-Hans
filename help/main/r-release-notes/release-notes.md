@@ -88,7 +88,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++查看详细信息
 

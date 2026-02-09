@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何跨网站、应用程序和社交渠道个性化客户体验以提高收入。
 feature-set: Target
-source-git-commit: 6b92e823c854996e074716a7b8c4856176710c24
+source-git-commit: 4e6941914a840267ac115d68ea317bc987bf8a83
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1275'
 ht-degree: 83%
 
 ---
@@ -117,6 +117,7 @@ ht-degree: 83%
    + [将 Target 与 Adobe Campaign 集成](c-integrating-target-with-mac/campaign-and-target.md)
 + 活动 {#activities}
    + [活动概述](c-activities/activities.md)
+   + [分析功能板](c-activities/insights-dashboard.md)
    + [Target 活动类型](c-activities/target-activities-guide.md)
    + A/B 测试 {#abtest}
       + [A/B 测试概述](c-activities/t-test-ab/test-ab.md)

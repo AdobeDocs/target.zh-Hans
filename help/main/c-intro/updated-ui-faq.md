@@ -4,7 +4,7 @@ description: 有关更新的 [!DNL Target]t用户界面的问答。
 title: 可在何处找到有关更新的 [!DNL Target] UI的常见问题解答？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: ad45af0d0cb1a1ea26571cc985d6574ddd2c4963
 workflow-type: tm+mt
 source-wordcount: '1875'
 ht-degree: 1%
@@ -107,7 +107,7 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 
 有关详细信息，请参阅[您需要了解的时间性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)。
 
-++++
++++
 
 ## [!DNL Adobe]能否延迟我们向更新UI的迁移，直到完全转出完成？
 

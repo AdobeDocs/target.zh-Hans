@@ -437,6 +437,6 @@ adobe.target.getOffers({
 
 ## 培训视频：在 Adobe Target 中使用 SPA VEC
 
->[!VIDEO](https://video.tv.adobe.com/v/26249)
+>[!VIDEO](https://video.tv.adobe.com/v/34758?captions=chi_hans)
 
 有关详细信息，请参阅[在Adobe Target中使用单页应用程序的可视化体验编辑器(SPA VEC)](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)。

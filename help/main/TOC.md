@@ -1,12 +1,12 @@
 ---
 user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
-user-guide-description: 了解如何跨网站、应用程序和社交渠道个性化客户体验以提高收入。
+user-guide-description: 了解如何在网站、应用程序和社交渠道中个性化客户体验，从而提升营收。
 feature-set: Target
-source-git-commit: 4e6941914a840267ac115d68ea317bc987bf8a83
+source-git-commit: 1cadff277a22d72e8d2a781f8a641033cedea520
 workflow-type: tm+mt
 source-wordcount: '1275'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 83%
 
 + [Adobe Target商业从业者指南主页](target-home.md)
 + Target发行说明 {#release-notes}
-   + [Target 公告和活动](/help/main/r-release-notes/target-announcements.md)
+   + {hide-from-toc}[Target 公告和活动](/help/main/r-release-notes/target-announcements.md)
    + [Target 发行说明（当前版本）](r-release-notes/release-notes.md)
    + [Target 发行说明（预发行版本）](r-release-notes/target-release-notes.md)
    + [Target 文档概述](/help/main/r-release-notes/target-documentation.md)
@@ -32,7 +32,7 @@ ht-degree: 83%
       + [AI 助手概述](/help/main/c-intro/ai-assistant.md)
       + [启用AI助手](/help/main/c-intro/enabling-ai-assistant.md)
       + [使用AI助手获取产品知识](/help/main/c-intro/ai-assistant-product-knowledge.md)
-      + [使用AI助手生成内容](/help/main/c-intro/ai-assistant-content-generation.md)
+      + {hide-from-toc}[使用AI助手生成内容](/help/main/c-intro/ai-assistant-content-generation.md)
    + Adobe Target 欢迎套件 {#welcome}
       + [Target 欢迎套件概述](/help/main/c-intro/target-welcome-kit.md)
       + [第 1 章：简介](/help/main/c-intro/target-welcome-kit-1.md)
@@ -100,11 +100,11 @@ ht-degree: 83%
       + [Adobe Customer Journey Analytics中的Target报表](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + 将Target与Adobe Journey Optimizer (AJO)集成 {#ajo}
       + [使用产品建议决策](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [集成 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
+      + {hide-from-toc}[集成 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer用例 {#use-cases}
-         + [Adobe Journey Optimizer中的热门优化用例 — 基于Web和代码的渠道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-         + [通过Adobe Journey Optimizer中的A/B测试更改内容](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
-         + [向网页添加或隐藏组件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+         + {hide-from-toc}[Adobe Journey Optimizer中的热门优化用例 — 基于Web和代码的渠道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+         + 在Adobe Journey Optimizer中通过A/B测试进行的{hide-from-toc}[内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + {hide-from-toc}[在网页中添加或隐藏组件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
    + 将Target与Adobe Experience Manager (AEM)集成 {#aem}
       + [将Target与AEM集成概述](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
@@ -327,7 +327,7 @@ ht-degree: 83%
       + [创建“推荐”活动](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [添加促销活动](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [“推荐”活动设置](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [预览和启动“推荐”活动](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + {hide-from-toc}[预览和启动推荐活动](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [产品建议形式的推荐](c-recommendations/recommendations-as-an-offer.md)
    + 常见问题解答 {#recommendations-faq}
       + [“推荐”常见问题解答](c-recommendations/c-recommendations-faq/recommendations-faq.md)

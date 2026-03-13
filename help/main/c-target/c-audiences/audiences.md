@@ -21,7 +21,7 @@ ht-degree: 22%
 * [创建特定于活动的受众](/help/main/c-target/creating-activity-only-audience.md)并定位它
 * [合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以创建临时受众
 
-您还可以在[!DNL Adobe Analytics]和其他[!DNL Target]应用程序中将[!DNL Adobe Experience Cloud]收集的受众数据用于实时定位和个性化。 请参阅[Experience Cloud中央界面组件](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hans)指南中的&#x200B;*Experience Cloud受众*。
+您还可以在[!DNL Adobe Analytics]和其他[!DNL Target]应用程序中将[!DNL Adobe Experience Cloud]收集的受众数据用于实时定位和个性化。 请参阅[Experience Cloud中央界面组件](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans&?lang=zh-Hans)指南中的&#x200B;*Experience Cloud受众*。
 
 [!DNL Target]中有两种类型的受众：
 

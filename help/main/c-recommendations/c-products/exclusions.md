@@ -4,7 +4,7 @@ description: 了解如何在 [!DNL Target Recommendations] 中创建排除项以
 title: 如何在[!UICONTROL Recommendations]活动中使用排除项？
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 14%
@@ -35,7 +35,7 @@ ht-degree: 14%
 
 1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**&#x200B;以显示现有排除项列表。
 
-   [!UICONTROL Exclusions]列表视图中为每个排除项报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 有关如何更改默认主机组的信息，请参阅[Adobe Target开发人员指南 [!DNL Recommendations]中的](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/recommendations){target=_blank}计划和实施&#x200B;**。
+   [!UICONTROL Exclusions]列表视图中为每个排除项报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 有关如何更改默认主机组的信息，请参阅[Adobe Target开发人员指南 [!DNL Recommendations]中的](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}计划和实施&#x200B;**。
 
 1. （视情况而定）单击&#x200B;**[!UICONTROL Show Filters]**&#x200B;图标（![显示过滤器图标](/help/main/assets/icons/Filter.svg)），然后在创建（或更新）排除项时从[下拉列表中选择所需的](/help/main/administrating-target/environments.md)环境&#x200B;**[!UICONTROL Environment]**，以预览该环境中排除项的内容。 默认情况下，会显示默认主机组的结果。
 
@@ -49,7 +49,8 @@ ht-degree: 14%
 
 1. 单击 **[!UICONTROL Create]**。
 
-<!-- ## Create an exclusion using Advanced Search
+<!--
+## Create an exclusion using Advanced Search
 
 You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
@@ -59,7 +60,8 @@ After creating a search using "id > contains," for example, you can then click [
 
 >[!IMPORTANT]
 >
->The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded. -->
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded.
+-->
 
 ## 编辑、复制或删除排除项
 
@@ -76,4 +78,4 @@ After creating a search using "id > contains," for example, you can then click [
 * 创建收藏集
 * 创建排除项
 
->[!VIDEO](https://video.tv.adobe.com/v/35356?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

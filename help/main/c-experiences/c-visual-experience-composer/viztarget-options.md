@@ -4,7 +4,7 @@ description: 浏览 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] 
 title: 如何使用[!UICONTROL Visual Experience Composer] (VEC)选项？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 8%
@@ -169,22 +169,22 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 
 从左侧的[!UICONTROL Components]框架中选择组件以插入以下元素：
 
-* 基本(分隔条、HTML、图像)。
+* 基本（分隔条、HTML、图像）。
 * 文本（标题、段落、链接）。
-* 动态([推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)，[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML选件)。
+* 动态（[推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)，[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML选件）。
 
 利用图像顶部的菜单，您可以执行以下操作：
 
 * 插入链接（![插入链接图标](/help/main/assets/icons/Link.svg) ）。
 * 更改图像（![选择图像图标](/help/main/assets/icons/Images.svg) ）。
-* 添加个性化( ![添加Personalization图标](/help/main/assets/icons/PersonalizationField.svg) )。
+* 添加个性化（ ![添加Personalization图标](/help/main/assets/icons/PersonalizationField.svg) ）。
 * 删除图像（ ![删除图标](/help/main/assets/icons/Delete.svg) ）。
 
 通过右侧的[!UICONTROL Properties]窗格，可以进一步配置图像的属性。
 
 通过框架顶部的图标，您可以执行以下操作：
 
-* 编辑HTML (![插入HTML图标](/help/main/assets/icons/Code.svg) )。 有关详细信息，请参阅下面的[编辑HTML](#html)。
+* 编辑HTML （![插入HTML图标](/help/main/assets/icons/Code.svg) ）。 有关详细信息，请参阅下面的[编辑HTML](#html)。
 * 复制图像（ ![复制图标](/help/main/assets/icons/Code.svg) ）。
 * 删除图像（ ![删除图标](/help/main/assets/icons/Delete.svg) ）。
 * 隐藏图像（ ![隐藏图标](/help/main/assets/icons/VisibilityOff.svg) ）。
@@ -208,9 +208,9 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 
 从左侧的[!UICONTROL Components]框架中选择组件以插入以下元素：
 
-* 基本(分隔条、HTML、图像)。
+* 基本（分隔条、HTML、图像）。
 * 文本（标题、段落、链接）。
-* 动态([推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)，[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML选件)。
+* 动态（[推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)，[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML选件）。
 
 单击[!UICONTROL Show Modifications]图标（![显示修改图标](/help/main/assets/icons/History.svg)）以显示对体验的修改。
 
@@ -222,15 +222,15 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 * 配置文本的对齐方式（左、中、右、两端对齐）（ ![文本对齐方式图标](/help/main/assets/icons/TextAlignCenter.svg) ）。
 * 插入链接（![插入链接图标](/help/main/assets/icons/Link.svg) ）。
 * 将内容替换为HTML选件、[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)或[推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)。
-* 编辑HTML (![插入HTML图标](/help/main/assets/icons/Code.svg) )。
-* 添加个性化( ![添加Personalization图标](/help/main/assets/icons/PersonalizationField.svg) )。
+* 编辑HTML （![插入HTML图标](/help/main/assets/icons/Code.svg) ）。
+* 添加个性化（ ![添加Personalization图标](/help/main/assets/icons/PersonalizationField.svg) ）。
 * 删除图像（ ![删除图标](/help/main/assets/icons/Delete.svg) ）。
 
 通过右侧的[!UICONTROL Properties]边栏，可进一步配置文本的属性。
 
 通过框架顶部的图标，您可以执行以下操作：
 
-* 编辑HTML (![插入HTML图标](/help/main/assets/icons/Code.svg) )。 有关详细信息，请参阅下面的[编辑HTML](#html)。
+* 编辑HTML （![插入HTML图标](/help/main/assets/icons/Code.svg) ）。 有关详细信息，请参阅下面的[编辑HTML](#html)。
 * 复制文本（ ![复制图标](/help/main/assets/icons/Code.svg) ）。
 * 删除文本（ ![删除图标](/help/main/assets/icons/Delete.svg) ）。
 * 隐藏文本（ ![隐藏图标](/help/main/assets/icons/VisibilityOff.svg) ）。
@@ -273,7 +273,9 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 
 您可以使用 DOM 路径快速查看有关所选元素（类型、ID 和类）的信息，并向上或向下移动 DOM 路径以选择所需的元素。
 
-<!--When you hover over the DOM path, a blue box highlights the corresponding element in the VEC. When you click the element, an orange box highlights the element and the VEC options menu displays, as explained above.-->
+<!--
+When you hover over the DOM path, a blue box highlights the corresponding element in the VEC. When you click the element, an orange box highlights the element and the VEC options menu displays, as explained above.
+-->
 
 您可以使用 DOM 路径轻松导航到 VEC 中的任何父元素、同级元素或子元素。
 
@@ -293,7 +295,8 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 
 * [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)：此常见问题解答关于新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常见问题，包括导航更改、功能位置以及弃用临时UI版本切换。 无论您是营销人员、开发人员还是管理员，此常见问题解答都可以帮助您顺利过渡并充分利用更新后的UI。
 
-<!--## [!UICONTROL Edit]
+<!--
+## [!UICONTROL Edit]
 
 The following options are available:
 
@@ -667,4 +670,5 @@ The following actions are not available on custom elements:
 The following action is not available inside custom elements:
 
 * [!UICONTROL Layout]
-  * [!UICONTROL Rearrange]-->
+  * [!UICONTROL Rearrange]
+-->

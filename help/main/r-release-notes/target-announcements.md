@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '2049'
 ht-degree: 97%
@@ -17,7 +17,8 @@ ht-degree: 97%
 
 关于 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
 
-<!-- ## Adobe Target Community Q&A Coffee Break
+<!--
+## Adobe Target Community Q&A Coffee Break
 
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
@@ -36,7 +37,8 @@ If you missed the original webinar, [listen to the recording](https://experience
 
 Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=zh-Hans){target=_blank}."
 
-+++ -->
++++
+-->
 
 ## 过去的网络研讨会和技能培训课程录像
 
@@ -68,7 +70,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 * **发掘 AI 支持的个性化**
 
-  [!DNL Adobe Target] 在客户生命周期的每个阶段都促成 AI 支持的个性化功能，带来一对一的个性化体验。从获取到保留，了解企业如何深入了解简化流程、最大限度地减少手动工作以及大规模地投放与上下文相关、富有吸引力的客户体验。
+  [!DNL Adobe Target] 在客户生命周期的每个阶段都促成 AI 支持的个性化功能，带来一对一的个性化体验。从获取到保留，了解企业如何深入洞察简化流程、最大限度地减少手动工作以及大规模地投放与上下文相关、富有吸引力的客户体验。
 
 +++
 
@@ -205,7 +207,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### [!DNL Adobe]：精准个性化 - [!DNL Adobe Analytics] 和 [!DNL Target]（2022 年 6 月 2 日）
 
-了解人工智能如何继续重新定义消费者的期望，因为机器学习模型和数据见解为营销人员、开发人员和产品所有者打开了新的大门，让消费者获得重要的个性化体验。逐步了解个性化、定位和测试的 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流。
+了解人工智能如何继续重新定义消费者的期望，因为机器学习模型和数据洞察为营销人员、开发人员和产品所有者打开了新的大门，让消费者获得重要的个性化体验。逐步了解个性化、定位和测试的 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流。
 
 +++详细信息
 

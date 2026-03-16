@@ -2,7 +2,7 @@
 keywords: 重复数据删除；允许重复项；排除重复的选件；自动个性化；不允许重复的选件；排除；默认内容；
 description: 管理[!UICONTROL Automated Personalization] (AP)活动中的排除项。
 title: 如何管理[!UICONTROL Automated Personalization]活动中的排除项？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -27,7 +27,7 @@ ht-degree: 21%
 
 ## 排除特定体验 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-如果您想从AP活动中排除某些优惠组合，请排除特定体验。
+如果要从AP活动中排除某些选件组合，请排除特定体验。
 
 可能有某些组合无法协同工作，或者您可能正在限制测试的体验数量，以降低活动的流量要求。
 
@@ -47,7 +47,7 @@ ht-degree: 21%
 
 ## 排除默认内容 {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-有时，您可能不想在AP活动中包含默认内容。 您可以使用此方法，在某个位置仅提供一个优惠（不同于默认内容）作为活动的一部分。
+有时，您可能不希望将默认内容包含在AP活动中。 您可以使用此方法在一个位置中只有一个选件（与默认内容不同）作为活动的一部分。
 
 排除默认内容是一种非常有用的方法，可用于更改页面上其余内容的外观，以使其符合您在 AP 活动中所测试的产品建议。例如，假设您想要匹配所测试选件的调色板，则可以更改页面的背景颜色并排除默认的背景颜色。
 

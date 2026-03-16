@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # [!UICONTROL Visual Experience Composer]选项
 
-[!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）引入了更新的[!UICONTROL Visual Experience Composer]&#x200B;(VEC)。 本文介绍了已更新的UI及其选项。
+[!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）引入了更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文介绍了已更新的UI及其选项。
 
 >[!TIP]
 >
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->更新的[!UICONTROL Visual Editing Composer]需要[!DNL Adobe Experience Cloud]上可用的[[!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)扩展[!DNL Chrome Web Store]。
+>更新的[!UICONTROL Visual Editing Composer]需要[!DNL Adobe Experience Cloud]上可用的[[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)扩展[!DNL Chrome Web Store]。
 
 创建或编辑现有活动时将显示VEC。
 
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 ## VEC UI概述
 
-以下各节介绍了[!UICONTROL A/B Test]活动的更新VEC中可用的选项。 根据活动类型，这些选项会有所不同。
+以下部分说明更新后的VEC中为[!UICONTROL A/B Test]活动提供的选项。 选项因活动类型而异。
 
 ### [!UICONTROL Experiences]边栏
 
@@ -39,9 +39,9 @@ ht-degree: 8%
 
 您可以使用[!UICONTROL Experiences]边栏查看、创建、重命名或删除体验。
 
-以下选项在[!UICONTROL Experiences]边栏中可用：
+[!UICONTROL Experiences]边栏中有以下选项：
 
-* **查看体验**：若要查看体验，请单击所需的体验以在[!UICONTROL Design]画布中显示该体验。
+* **查看体验**：要查看体验，请单击所需的体验以在[!UICONTROL Design]画布中显示它。
 * **添加体验**：单击&#x200B;**[!UICONTROL Add]**&#x200B;图标（![添加图标](/help/main/assets/icons/Add.svg)）以添加新体验。 根据需要配置新体验。
 * **重命名体验**：单击&#x200B;**[!UICONTROL Rename]**&#x200B;图标（![重命名图标](/help/main/assets/icons/Rename.svg)）以显示[!UICONTROL Rename Experience]对话框。 指定新名称，然后单击&#x200B;**[!UICONTROL Save]**。
 * **复制、删除或重新定向体验**：单击&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg)），然后选择&#x200B;**[!UICONTROL Duplicate]**、**[!UICONTROL Delete]**&#x200B;或&#x200B;**[!UICONTROL Redirect to URL]**。
@@ -85,7 +85,7 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 
 >[!NOTE]
 >
->如果您在此区域中看到[!UICONTROL Modifications]边栏而不是[!UICONTROL Components]边栏，请单击&#x200B;**[!UICONTROL Show Components]**&#x200B;图标（![显示组件图标](/help/main/assets/icons/Add.svg)）。 [!UICONTROL Show Components]图标（![显示组件图标](/help/main/assets/icons/Add.svg)）和[!UICONTROL Show Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg)）充当切换操作以显示相应的选项。
+>如果您在此区域中看到[!UICONTROL Modifications]边栏而不是[!UICONTROL Components]边栏，请单击&#x200B;**[!UICONTROL Show Components]**&#x200B;图标（![显示组件图标](/help/main/assets/icons/Add.svg)）。 [!UICONTROL Show Components]图标（![显示组件图标](/help/main/assets/icons/Add.svg)）和[!UICONTROL Show Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg)）用作显示相应选项的切换。
 >
 >要折叠[!UICONTROL Components]边栏并放大[!UICONTROL Design]画布，请在[!UICONTROL Components]边栏打开时单击（![显示组件图标](/help/main/assets/icons/Add.svg) ）图标。
 
@@ -145,21 +145,21 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 
 >[!NOTE]
 >
->可用选项取决于您正在创建或编辑的活动类型和元素。 有关在[!UICONTROL A/B Test]活动中编辑图像和优惠的详细信息，请参阅下面的[使用画布[!UICONTROL Design]编辑元素](#design)。
+>可用选项取决于要创建或编辑的活动类型和元素。 有关在[!UICONTROL A/B Test]活动中编辑图像和选件的更多信息，请参阅下面的[使用画布[!UICONTROL Design]编辑元素](#design)。
 
 ### [!UICONTROL Properties]边栏
 
-使用[!UICONTROL Properties]边栏可以更改页面上选定元素的属性，无论这些元素是HTML元素还是特定于[!DNL Target]的对象，例如推荐或优惠。
+通过[!UICONTROL Properties]边栏可以更改页面上选定元素的属性，无论这些元素是HTML元素还是特定于[!DNL Target]的对象，例如推荐或选件。
 
 ![属性边栏](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
-单击边栏顶部的图标以编辑HTML代码或删除、复制或隐藏元素。 更改显示在[!UICONTROL Modifications]边栏中。
+单击边栏顶部的图标可编辑HTML代码或者删除、复制或隐藏元素。 更改显示在[!UICONTROL Modifications]边栏中。
 
-可以在右边栏中折叠[!UICONTROL Properties]边栏，以便隐藏设计画布并放大设计画布。 单击边栏右侧的[!UICONTROL Show/Hide Properties]图标（![属性图标](/help/main/assets/icons/Propertie.svg)）以折叠或显示[!UICONTROL Properties]边栏。
+[!UICONTROL Properties]边栏可在右边栏中折叠，以允许您隐藏设计画布并放大设计画布。 单击边栏右侧的[!UICONTROL Show/Hide Properties]图标（![属性图标](/help/main/assets/icons/Propertie.svg)）以折叠或显示[!UICONTROL Properties]边栏。
 
 ## 使用[!UICONTROL Design]画布编辑元素 {#design}
 
-以下部分将向您展示如何编辑[!UICONTROL Design]画布中的图像和文本。 “设计”画布以及“组件”、“修改”和“属性”滑轨为您提供功能强大的工具，让您能够轻松创建活动的体验。
+以下部分将向您展示如何在[!UICONTROL Design]画布中编辑图像和文本。 “设计”画布以及“组件”、“修改”和“属性”边栏为您提供了强大的工具，让您能够轻松创建活动的体验。
 
 ### 图像选项
 
@@ -169,7 +169,7 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 
 从左侧的[!UICONTROL Components]框架中选择组件以插入以下元素：
 
-* 基本(分隔条、HTML、图像)。
+* 基本（分隔条、HTML、图像）。
 * 文本（标题、段落、链接）。
 * 动态（[推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)，[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML选件）。
 
@@ -184,7 +184,7 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 
 通过框架顶部的图标，您可以执行以下操作：
 
-* 编辑HTML (![插入HTML图标](/help/main/assets/icons/Code.svg) )。 有关详细信息，请参阅下面的[编辑HTML](#html)。
+* 编辑HTML （![插入HTML图标](/help/main/assets/icons/Code.svg) ）。 有关详细信息，请参阅下面的[编辑HTML](#html)。
 * 复制图像（ ![复制图标](/help/main/assets/icons/Code.svg) ）。
 * 删除图像（ ![删除图标](/help/main/assets/icons/Delete.svg) ）。
 * 隐藏图像（ ![隐藏图标](/help/main/assets/icons/VisibilityOff.svg) ）。
@@ -208,9 +208,9 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 
 从左侧的[!UICONTROL Components]框架中选择组件以插入以下元素：
 
-* 基本(分隔条、HTML、图像)。
+* 基本（分隔条、HTML、图像）。
 * 文本（标题、段落、链接）。
-* 动态([推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)，[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML选件)。
+* 动态（[推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)，[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)， HTML选件）。
 
 单击[!UICONTROL Show Modifications]图标（![显示修改图标](/help/main/assets/icons/History.svg)）以显示对体验的修改。
 
@@ -222,8 +222,8 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 * 配置文本的对齐方式（左、中、右、两端对齐）（ ![文本对齐方式图标](/help/main/assets/icons/TextAlignCenter.svg) ）。
 * 插入链接（![插入链接图标](/help/main/assets/icons/Link.svg) ）。
 * 将内容替换为HTML选件、[体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)或[推荐](/help/main/c-recommendations/recommendations-as-an-offer.md)。
-* 编辑HTML (![插入HTML图标](/help/main/assets/icons/Code.svg) )。
-* 添加个性化( ![添加Personalization图标](/help/main/assets/icons/PersonalizationField.svg) )。
+* 编辑HTML （![插入HTML图标](/help/main/assets/icons/Code.svg) ）。
+* 添加个性化（ ![添加Personalization图标](/help/main/assets/icons/PersonalizationField.svg) ）。
 * 删除图像（ ![删除图标](/help/main/assets/icons/Delete.svg) ）。
 
 通过右侧的[!UICONTROL Properties]边栏，可进一步配置文本的属性。
@@ -252,7 +252,7 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 
 除了 HTML 代码外，您还可以编辑和插入自定义 JavaScript。
 
-编辑[!UICONTROL A/B]和[!UICONTROL Experience Targeting]活动的文本和HTML时，有多种富文本格式设置选项可用。 您可以选择字体、选择字体样式、更改文本对齐方式以及使用其他标准文本格式设置选项。修改HTML时，您可以在代码视图和HTML的丰富编辑视图之间切换。
+编辑[!UICONTROL A/B]和[!UICONTROL Experience Targeting]活动的文本和HTML时，可以使用多种富文本格式选项。 您可以选择字体、选择字体样式、更改文本对齐方式以及使用其他标准文本格式设置选项。修改HTML时，您可以在HTML的代码视图和富编辑视图之间切换。
 
 可以嵌套以下 HTML5 标记：
 
@@ -490,7 +490,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -522,7 +522,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -554,7 +554,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hans){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -644,7 +644,7 @@ Undo changes you make to your activities during an editing session. You can also
 
 ## Considerations {#considerations}
 
-* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank} for more information.
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} for more information.
 
 ## Custom element support {#custom}
 
@@ -652,7 +652,7 @@ The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/W
 
 >[!NOTE]
 >
->VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
+>VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
 >
 >VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 

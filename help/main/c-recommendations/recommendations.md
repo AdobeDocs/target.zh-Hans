@@ -2,7 +2,7 @@
 keywords: 推荐;推荐标准;推荐算法;推荐活动;标准;推荐定向;推荐
 description: 了解 Adobe [!DNL Target] 中的“推荐”活动，这些活动根据以前的用户活动或其他算法自动显示可能让客户感兴趣的内容。
 title: ' [!DNL Target] 推荐是什么？'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 52025f1128e8c736bd1cb4eff871b65a00ec1c98
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 下图显示了某个网页上的推荐：
 
-![velocity_example image](assets/velocity_example.png)
+![velocity_example图像](assets/velocity_example.png)
 
 推荐根据访客在网站上的活动，决定如何将产品推荐给该访客。例如：
 
@@ -64,13 +64,13 @@ ht-degree: 98%
 
 ## 培训视频：活动类型![概述徽章](/help/main/assets/overview.png)
 
-以下视频介绍了 [!DNL Target Standard/Premium] 中可用的活动类型。[!DNL Recommendations] is discussed beginning at 7:20.
+以下视频介绍了 [!DNL Target Standard/Premium] 中可用的活动类型。从7[!DNL Recommendations]开始讨论:20。
 
 * 介绍 [!DNL Adobe Target] 中包含的活动类型
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 <!--
 ## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}

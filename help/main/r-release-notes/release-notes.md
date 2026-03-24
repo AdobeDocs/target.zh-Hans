@@ -6,10 +6,11 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
+hold: true
+source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 47%
+source-wordcount: '447'
+ht-degree: 53%
 
 ---
 
@@ -29,39 +30,24 @@ ht-degree: 47%
 
 有关详细信息，请参阅[[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)。
 
-## [!DNL Target Standard/Premium] 26.3.2（2026年3月10日）
+## [!DNL Target Standard/Premium] 26.3.4（2026年3月19日）
 
-**活动**
-
-+++查看详细信息
-
-* **体验中的直接优惠更改未保存。**&#x200B;此修复了无法保存对活动体验中的直接优惠所做的修改的问题。 以前，当用户打开直接选件、做出更改并保存它时，更改似乎在开始时反映出来，但在重新打开选件时丢失。 此修复程序可确保正确保存对直接选件所做的更改，并在重新打开选件时保留这些更改。 (TGT-54653)
-
-+++
-
-**实施**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看详细信息
 
-* 在“实施”屏幕上&#x200B;**添加闪烁管理切换开关。**&#x200B;已向[!UICONTROL Implementation]屏幕添加新的切换开关以控制启用闪烁管理设置。 此切换允许管理员直接从“实施”屏幕配置闪烁管理。 (TGT-52247)
+* **可视化体验编辑器Web编辑器中可见的设计/浏览模式选择。**&#x200B;此修复程序解决了在“设计”、“浏览”和“预览”模式之间切换可正常工作，但在界面中未明确指示活动模式的问题。 所选模式现在会突出显示，以便您查看所处的模式。 (TGT-54790)
+
+* 可视化体验编辑器(Chrome)中的&#x200B;**专用网络URL。除非允许本地网络访问，否则** Chrome可以阻止专用网络上的页面。 **[!UICONTROL Visual Experience Composer]**&#x200B;现在请求获取在框架化Experience Cloud中使用的权限，因此Chrome可以显示允许提示而不是静默失败。 在允许访问后，如果您的环境支持VEC，则可以在VEC中加载内部URL。 (TGT-54346)
 
 +++
-
-**概述**
-
-+++查看详细信息
-
-* **在概述页面中显示受众和体验的全名。**&#x200B;此增强功能会更新[!UICONTROL Overview]页面以显示受众和体验的全名。 以前，长名称会被截断并且无法完全显示，因此需要用户通过三次单击来选择所有文本，以查看完整名称。 此更新可确保完整受众和体验名称可见，从而使用户更容易识别和审查活动配置。 (TGT-53323)
-
-+++
-
 
 ## 其他发行说明和版本详细信息
 
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

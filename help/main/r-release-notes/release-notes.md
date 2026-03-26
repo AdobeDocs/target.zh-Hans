@@ -6,11 +6,10 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
+source-git-commit: d1517ad557dc63956346bf36fc2a001c848eb6ce
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 53%
+source-wordcount: '378'
+ht-degree: 62%
 
 ---
 
@@ -30,15 +29,14 @@ ht-degree: 53%
 
 有关详细信息，请参阅[[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)。
 
-## [!DNL Target Standard/Premium] 26.3.4（2026年3月19日）
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+## [!DNL Target Standard/Premium] 26.3.7（2026年3月26日）
+
+**受众**
 
 +++查看详细信息
 
-* **可视化体验编辑器Web编辑器中可见的设计/浏览模式选择。**&#x200B;此修复程序解决了在“设计”、“浏览”和“预览”模式之间切换可正常工作，但在界面中未明确指示活动模式的问题。 所选模式现在会突出显示，以便您查看所处的模式。 (TGT-54790)
-
-* 可视化体验编辑器(Chrome)中的&#x200B;**专用网络URL。除非允许本地网络访问，否则** Chrome可以阻止专用网络上的页面。 **[!UICONTROL Visual Experience Composer]**&#x200B;现在请求获取在框架化Experience Cloud中使用的权限，因此Chrome可以显示允许提示而不是静默失败。 在允许访问后，如果您的环境支持VEC，则可以在VEC中加载内部URL。 (TGT-54346)
+* **受众界面中的受众源标签准确性。**&#x200B;修复了以下问题：来自Adobe Experience Platform中Adobe Target v2目标的受众可能显示为&#x200B;**Adobe Experience Cloud**&#x200B;而不是&#x200B;**Adobe Experience Platform**&#x200B;作为源。 此更新改进了筛选和查看受众时的源标签一致性。 (TGT-54802)
 
 +++
 

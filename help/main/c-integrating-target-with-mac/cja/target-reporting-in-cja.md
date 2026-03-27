@@ -4,7 +4,7 @@ description: 在 [!DNL Target] 中使用 [!DNL Adobe Customer Journey Analytics]
 title: 什么是 [!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]中报告？
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 40%
@@ -39,7 +39,7 @@ ht-degree: 40%
 * 使用一个报表源或另一个。您无法将单个活动的数据收集到多个报表源中。
 * 在设置 [!DNL Customer Journey Analytics] 作为您的报表源时，系统会提示您指定用于报表的沙盒。在配置期间，您只能看到您有权访问的沙盒。
 * 任何现有[!DNL Target]活动继续使用[!DNL Target]数据收集，不受启用此集成的影响。
-* 若要使用此集成，首选实现方法通过[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform){target=_blank}实现[!DNL Target][[!DNL Adobe Experience Platform Web SDK]和](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}。
+* 若要使用此集成，首选实现方法通过[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform){target=_blank}实现[!DNL Target][[!DNL Adobe Experience Platform Web SDK]和](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}。
 
   如果您当前未实施[!DNL Adobe Experience Platform Web SDK]，则还可以创建[[!DNL Adobe Analytics] 源连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)将数据导入[!DNL Adobe Experience Platform]。 如果计划使用此方法，则必须选择与[!DNL Analytics]一起使用的[!DNL Adobe Experience Platform]沙盒旁边的[!DNL Customer Journey Analytics]报告包。
 
@@ -53,7 +53,7 @@ ht-degree: 40%
 
 ## 支持的活动类型 {#supported-activities}
 
-使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}或[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript库时，支持以下活动类型：
+使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}或[at.js](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript库时，支持以下活动类型：
 
 | 活动类型 | 受支持? |
 |--- |--- |

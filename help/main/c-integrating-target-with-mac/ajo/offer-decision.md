@@ -27,7 +27,7 @@ ht-degree: 0%
 
 要在[!DNL Target]中使用优惠决策，您需要以下各项：
 
-* 使用[!DNL Adobe Target Standard]Adobe Experience Platform Web SDK[!DNL Adobe Target Premium]实现的[或](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}。
+* 使用[!DNL Adobe Target Standard]Adobe Experience Platform Web SDK[!DNL Adobe Target Premium]实现的[或](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}。
 
   在使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时，该功能不可用。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 处理优惠决策时，请考虑以下信息：
 
-* offer decisioning集成适用于基于[!DNL Target]Adobe Experience Platform Web SDK[的](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}实施。 在使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时，此功能不可用。
+* offer decisioning集成适用于基于[!DNL Target]Adobe Experience Platform Web SDK[的](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}实施。 在使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时，此功能不可用。
 
 * [!DNL Target]/[!DNL Adobe Journey Optimizer]集成仅支持[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)和[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动。 此功能不适用于其他活动类型。
 

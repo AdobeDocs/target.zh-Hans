@@ -71,7 +71,7 @@ ht-degree: 27%
 
 ### [!DNL Adobe Experience Platform Web SDK]
 
-如果您的网站部署了[[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}，则可以通过在网站上使用具有空值的`at_qa_mode`参数加载页面来手动强制自己退出。 例如：
+如果您的网站部署了[[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}，则可以通过在网站上使用具有空值的`at_qa_mode`参数加载页面来手动强制自己退出。 例如：
 
 `https://www.mysite.com/?at_qa_mode=`
 
@@ -113,7 +113,7 @@ ht-degree: 27%
 
 * [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans)
 * [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans)
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans)
 
 下表列出了各种活动类型，并指示每个库是否支持[!UICONTROL Activity QA]模式：
 

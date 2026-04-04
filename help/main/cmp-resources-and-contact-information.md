@@ -87,7 +87,7 @@ ht-degree: 79%
 
 ### 如果发生中断 {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-如果您怀疑发生了中断，请首先查看 [Experience Cloud 系统状态页面](https://status.adobe.com) ([!DNL https://status.adobe.com])。此页面记录了包括 Target 在内的各个 Experience Cloud 解决方案的所有中断、事故和维护信息，同时还包含我们技术运营团队进行的最新更新。如果您仍然需要协助，请在联系客户关怀时，除了上面列出的信息，确保您还知道以下信息：
+如果您怀疑发生了中断，请首先查看 [Experience Cloud 系统状态页面](https://status.adobe.com/zh-cn) ([!DNL https://status.adobe.com/zh-cn])。此页面记录了包括 Target 在内的各个 Experience Cloud 解决方案的所有中断、事故和维护信息，同时还包含我们技术运营团队进行的最新更新。如果您仍然需要协助，请在联系客户关怀时，除了上面列出的信息，确保您还知道以下信息：
 
 * 中断开始的时间
 * 发生情况的说明
@@ -105,7 +105,7 @@ Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提
 * [查看 Experience Cloud 帮助页面，以获取建议、提示和常见问题解答](https://helpx.adobe.com/cn/marketing-cloud.html)
 * [提交工单以从支持人员获得帮助](https://experienceleague.adobe.com/zh-hans?support-solution=Target#support)
 * [直接联系客户关怀团队](https://helpx.adobe.com/cn/marketing-cloud/contact-support.html)
-* [查看 Experience Cloud 解决方案的可用性和状态](https://status.adobe.com/)
+* [查看 Experience Cloud 解决方案的可用性和状态](https://status.adobe.com/zh-cn/)
 
 要收到有关即将推出的产品增强功能的高级通知，请注册 Adobe Priority Product Update（Adobe 优先产品更新）：
 

@@ -113,7 +113,7 @@ ht-degree: 23%
 
 主动公告提醒您发生断电事件和维护事件。
 
-有关更深入的信息，请参阅[Adobe状态](https://status.adobe.com/)页面。
+有关更深入的信息，请参阅[Adobe状态](https://status.adobe.com/zh-cn/)页面。
 
 ### 配置通知和公告
 

@@ -2,10 +2,10 @@
 keywords: 创建自定义标准;算法;标准;推荐标准;CSV;FTP;上传 CSV
 description: 了解如何上传CSV文件以在Adobe [!DNL Target] 推荐中自定义您的推荐。
 title: 如何在 [!DNL Recommendations]中上传自定义标准？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 9ab594394fab977b6bf83b5c6f5e3cb91b71fe80
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 33%
@@ -44,13 +44,13 @@ ht-degree: 33%
 
 1. 在&#x200B;**[!UICONTROL Upload CSV]**&#x200B;部分中，选择CSV文件的&#x200B;**[!UICONTROL Location]**。
 
-要成功上传，CSV 文件的格式设置必须正确。单击&#x200B;**[!UICONTROL Download the CSV template]**&#x200B;可获取格式正确的CSV文件。
+   要成功上传，CSV 文件的格式设置必须正确。单击&#x200B;**[!UICONTROL Download the CSV template]**&#x200B;可获取格式正确的CSV文件。
 
-您可以选择以下两个位置：
+   您可以选择以下两个位置：
 
-    * **FTP：**&#x200B;若要从FTP服务器上传CSV文件，请选择&#x200B;**[!UICONTROL FTP]**，然后输入所需信息。 您可以使用SSL，SSL会使用FTPS协议安全地传输CSV文件。
-    
-    * **URL：**&#x200B;要通过URL上传CSV文件，请选择&#x200B;**[!UICONTROL URL]**，然后输入信息源URL。
+   * **FTP：**&#x200B;若要从FTP服务器上传CSV文件，请选择&#x200B;**[!UICONTROL FTP]**，然后输入所需信息。 您可以使用SSL，SSL会使用FTPS协议安全地传输CSV文件。
+
+   * **URL：**&#x200B;要通过URL上传CSV文件，请选择&#x200B;**[!UICONTROL URL]**，然后输入信息源URL。
 
 1. 单击 **[!UICONTROL Create]**。
 

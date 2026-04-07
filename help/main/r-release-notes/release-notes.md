@@ -6,11 +6,10 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: cad8c365028b28bd9349d2d283370e2c8a750180
+source-git-commit: ada5803424b4930d91dda735901390fe5073932f
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 34%
+source-wordcount: '660'
+ht-degree: 38%
 
 ---
 
@@ -30,6 +29,20 @@ ht-degree: 34%
 
 有关详细信息，请参阅[[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)。
 
+<!--
+## [!DNL Target Standard/Premium] 26.4.2 (April 7, 2026)
+
+**Activities**
+
++++See details
+
+* **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
+
+* **Reporting metrics column order.** The updated [!DNL Target] interface allows reporting metrics to be reordered without clearing the full selection and re-adding metrics in sequence. Previously, users were required to unselect all metrics and select them again in the desired order, which was time-consuming when many metrics were enabled and when adjusting column placement to limit horizontal scrolling. (TGT-53044)
+
++++
+
+-->
 
 ## [!DNL Target Standard/Premium] 26.4.1（2026年4月2日）
 
@@ -38,8 +51,6 @@ ht-degree: 34%
 +++查看详细信息
 
 * **在“活动”视图中可见的受众属性。**&#x200B;修复了以下问题：从&#x200B;**[!UICONTROL Activity]**&#x200B;查看的受众规则详细信息时，未显示从&#x200B;**[!UICONTROL Audiences]**&#x200B;部分打开同一受众时显示的特定属性。 (TGT-54742)
-
-* **应用于其他视图时保留的自定义代码。**&#x200B;修复了在同一&#x200B;**[!UICONTROL View]**&#x200B;中为另一个&#x200B;**[!UICONTROL View]**&#x200B;添加或保存自定义代码时，可能会删除应用于一个&#x200B;**[!UICONTROL Activity]**&#x200B;的自定义代码的问题。 (TGT-53933)
 
 * 在“活动”和“受众”列表页面上&#x200B;**导出CSV。**&#x200B;添加了&#x200B;**[!UICONTROL Export CSV]**&#x200B;操作，以便您可以从用户界面导出活动列表，包括在应用过滤器时，而无需仅依赖API进行例行导出。 (TGT-51466)
 
@@ -73,7 +84,7 @@ ht-degree: 34%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看详细信息
 
@@ -83,22 +94,13 @@ ht-degree: 34%
 
 +++
 
-## [!DNL Target Standard/Premium] 26.3.7（2026年3月26日）
-
-**受众**
-
-+++查看详细信息
-
-* **受众界面中的受众源标签准确性。**&#x200B;修复了以下问题：来自Adobe Experience Platform中Adobe Target v2目标的受众可能显示为&#x200B;**Adobe Experience Cloud**&#x200B;而不是&#x200B;**Adobe Experience Platform**&#x200B;作为源。 此更新改进了筛选和查看受众时的源标签一致性。 (TGT-54802)
-
-+++
 
 ## 其他发行说明和版本详细信息
 
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

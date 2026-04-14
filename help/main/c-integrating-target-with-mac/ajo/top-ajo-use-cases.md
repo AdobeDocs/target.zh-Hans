@@ -2,12 +2,12 @@
 keywords: 优化；个性化；adobe journey optimizer；ajo；用例；方案；Web；基于代码
 description: 了解如何在Adobe Journey Optimizer中实施热门优化用例，以获得最大影响。
 title: ' [!DNL Adobe Journey Optimizer] - Web和基于代码的渠道中的最佳优化用例'
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: a00b4732-2740-4b35-a1c5-1ef2d78fecff
-source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 要执行以下用例，您需要满足以下条件：
 
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/get-started){target=_blank}。
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}。
 * 这些用例不需要[!DNL Adobe Target]许可证。 这些用例演示了如何使用[!DNL Target]在[!DNL Journey Optimizer]中执行熟悉的任务，允许您探索并与[!DNL Journey Optimizer]实现相同的结果。
 
 ## 用例

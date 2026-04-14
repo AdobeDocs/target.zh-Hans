@@ -2,11 +2,11 @@
 keywords: 推荐;产品建议
 description: 了解如何在 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中使用产品建议形式的 Adobe 推荐。
 title: 如何在其他活动类型中使用产品建议形式的推荐？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 47%
@@ -55,7 +55,7 @@ ht-degree: 47%
 
 1. 单击&#x200B;**[!UICONTROL Create Criteria]**&#x200B;或选择现有的[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)，然后单击&#x200B;**[!UICONTROL Next]**&#x200B;以显示[!UICONTROL Select Design]对话框。
 
-1. 单击&#x200B;**[!UICONTROL Create Design]**&#x200B;或选择现有的[设计](/help/main/c-recommendations/c-design-overview/design-overview.md)，然后单击&#x200B;**[!UICONTROL &#x200B; Next]**。
+1. 单击&#x200B;**[!UICONTROL Create Design]**&#x200B;或选择现有的[设计](/help/main/c-recommendations/c-design-overview/design-overview.md)，然后单击&#x200B;**[!UICONTROL  Next]**。
 
 1. 在[!UICONTROL Options]对话框中，指定以下内容：
 

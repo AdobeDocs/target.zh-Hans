@@ -55,7 +55,7 @@ ht-degree: 47%
 
 1. 单击&#x200B;**[!UICONTROL Create Criteria]**&#x200B;或选择现有的[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)，然后单击&#x200B;**[!UICONTROL Next]**&#x200B;以显示[!UICONTROL Select Design]对话框。
 
-1. 单击&#x200B;**[!UICONTROL Create Design]**&#x200B;或选择现有的[设计](/help/main/c-recommendations/c-design-overview/design-overview.md)，然后单击&#x200B;**[!UICONTROL  Next]**。
+1. 单击&#x200B;**[!UICONTROL Create Design]**&#x200B;或选择现有的[设计](/help/main/c-recommendations/c-design-overview/design-overview.md)，然后单击&#x200B;**[!UICONTROL &#x200B; Next]**。
 
 1. 在[!UICONTROL Options]对话框中，指定以下内容：
 

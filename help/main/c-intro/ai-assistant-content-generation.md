@@ -59,7 +59,7 @@ ht-degree: 1%
 
    * **音调**：文字的音调应该能引起观众的共鸣。 无论您想听到的是信息性、刺激性、娱乐性还是说服力，[!DNL AI Assistant]都可以相应地调整消息。
 
-     选项包括：[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL  Story Telling]和[!UICONTROL Conversational]。
+     选项包括：[!UICONTROL None]、[!UICONTROL Professional]、[!UICONTROL Empathetic]、[!UICONTROL Humorous]、[!UICONTROL Exciting]、[!UICONTROL Inspirational]、[!UICONTROL Persuasive]、[!UICONTROL Friendly]、[!UICONTROL Formal]、[!UICONTROL Apologetic]、[!UICONTROL Assertive]、[!UICONTROL &#x200B; Story Telling]和[!UICONTROL Conversational]。
 
 1. 使用滑块选取希望文本持续多长时间（从短到长）。
 

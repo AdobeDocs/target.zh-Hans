@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何在网站、应用程序和社交渠道中个性化客户体验，从而提升营收。
 feature-set: Target
-source-git-commit: 7d30e3b267a122976153c88c8e73de6b74bc4c4c
+source-git-commit: 17804b5f8cfce7033bffcad826e5510bfc42a832
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 84%
+source-wordcount: '1295'
+ht-degree: 83%
 
 ---
 
@@ -103,10 +103,13 @@ ht-degree: 84%
       + {hide-from-toc}[集成 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer用例 {#use-cases}
          + {hide-from-toc}[Adobe Journey Optimizer中的热门优化用例 — 基于Web和代码的渠道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-         + {hide-from-toc}[在Adobe Journey Optimizer中通过A/B测试进行的内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + 在Adobe Journey Optimizer中通过A/B测试进行的{hide-from-toc}[内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[在网页中添加或隐藏组件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
-   + {hide-from-toc}[使用MCP客户端](/help/main/c-integrating-target-with-mac/target-mcp.md)
+   + 使用MCP客户端 {#mcp}
+      + {hide-from-toc}[使用MCP客户端](/help/main/mcp/target-mcp.md)
+      + {hide-from-toc}[Adobe Target MCP服务器工具参考](/help/main/mcp/target-mcp-tools-reference.md)
+      + {hide-from-toc}[自行托管Adobe Target MCP服务器](/help/main/mcp/target-mcp-self-hosted.md)
    + 将Target与Adobe Experience Manager (AEM)集成 {#aem}
       + [将Target与AEM集成概述](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 体验片段和内容片段 {#fragments}

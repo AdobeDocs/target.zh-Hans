@@ -9,14 +9,24 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 214a359b7ab0f6f03355241353e8c3fb6d8bb479
+source-git-commit: 17804b5f8cfce7033bffcad826e5510bfc42a832
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '2267'
 ht-degree: 1%
 
 ---
 
 # 使用MCP客户端 {#target-mcp}
+
+>[!BEGINSHADEBOX]
+
+目录：
+
+* **[使用MCP客户端](target-mcp.md)**
+* [MCP服务器工具参考](target-mcp-tools-reference.md)
+* [自行托管MCP服务器](target-mcp-self-hosted.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -174,6 +184,73 @@ ht-degree: 1%
 | **实施审核** | “配置的at.js版本以及当前活动的响应令牌是什么？” |
 | **更改审核** | “向我显示过去30天内对活动98765所做的所有更改以及谁进行了更改。” |
 
+## 用例演练 {#mcp-use-case-walkthroughs}
+
+以下演练说明如何在[!DNL Adobe Target] MCP服务器上使用自然语言提示完成常见任务。
+
++++创建A/B测试
+
+**提示：**
+> “使用两种体验创建名为‘主页主页主页主页主页图像测试’的A/B测试：‘控制’显示当前主页，而‘变量’显示新的夏季主题主页图像。 定位主页mbox。”
+
+AI助手使用`create_ab_activity`工具创建具有您描述的配置的活动。 该工具会返回新活动ID和对已创建体验的确认。
+
++++
+
++++检查活动性能
+
+**提示：**
+> “向我显示过去30天内我的‘签出流优化’活动的性能量度。”
+
+AI助手使用`get_ab_performance_report`或`get_xt_performance_report`（取决于活动类型）检索指定时间范围的转化率、访客计数和其他量度。
+
++++
+
++++管理优惠
+
+**提示：**
+> “创建一个名为‘夏季促销横幅’的HTML优惠，该优惠的促销横幅上写着‘所有夏季商品20%的折扣’。”
+
+AI助手使用`create_target_offer`工具创建具有您指定的HTML内容的选件，并返回具有新选件ID的确认。
+
++++
+
++++构建受众
+
+**提示：**
+> “创建一个名为‘来自加利福尼亚的移动访客’的受众，该受众定位位于加利福尼亚的移动设备上的用户。”
+
+AI助手使用`create_target_audience`工具以及从您的描述派生的相应定位规则。
+
++++
+
++++生成QA预览链接
+
+**提示：**
+> “为活动12345生成预览URL，以便我测试每个体验。”
+
+AI助手使用`preview_activity`工具生成绕过受众定位的可点击URL，从而让您直接在浏览器中查看每个体验。
+
++++
+
++++创建体验定位活动
+
+**提示：**
+> “创建一个名为‘地域Personalization’的体验定位活动，向来自不同地区的访客显示不同的主页横幅。”
+
+AI助手使用`create_xt_activity`根据您描述的区域，通过基于受众的体验映射来构建活动。
+
++++
+
++++计划活动
+
+**提示：**
+> “更新活动12345的时间表，从5月1日开始，到5月31日结束。”
+
+AI助手使用`update_activity_schedule`工具将新的开始日期和结束日期应用于活动。
+
++++
+
 ## 先决条件 {#mcp-prerequisites}
 
 在将[!DNL Adobe Target] MCP服务器连接到MCP客户端之前，请确保：
@@ -322,3 +399,11 @@ OAuth令牌会在每个请求中根据Adobe IMS进行验证，不会由MCP服务
 
 MCP服务器将操作范围限定于与您的已验证Adobe IMS凭据关联的组织。 如果您有权访问该组织内的多个属性，则可以使用`list_target_properties`工具按属性进行查询并相应地筛选后续请求。
 +++
+
+## 相关资源 {#mcp-related}
+
+* [MCP服务器工具参考](target-mcp-tools-reference.md)
+* [自托管 [!DNL Adobe Target] MCP服务器](target-mcp-self-hosted.md)
+* [模型上下文协议文档](https://modelcontextprotocol.io/introduction){target="_blank"}
+* [[!DNL Adobe Target] 管理员API引用](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [Cursor文档](https://docs.cursor.com/){target="_blank"}

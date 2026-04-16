@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: d24958d17ff62e957a8d3d6602abfcc8dfd67e46
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 15%
@@ -36,7 +36,7 @@ ht-degree: 15%
 
 ## 活动工具 {#tools-activities}
 
-### list_target_activities
++++list_target_activities
 
 列出具有服务器端过滤和排序的[!DNL Adobe Target]活动。
 
@@ -67,7 +67,9 @@ ht-degree: 15%
 
 **示例提示：**“列出按最近修改排序的所有活动A/B测试。”
 
-### get_ab_activity
++++
+
++++get_ab_activity
 
 获取有关A/B活动的详细信息。
 
@@ -81,7 +83,9 @@ ht-degree: 15%
 
 **示例提示：**“获取A/B活动12345的详细信息”。
 
-### get_xt_activity
++++
+
++++get_xt_activity
 
 获取有关体验定位(XT)活动的详细信息。
 
@@ -95,7 +99,9 @@ ht-degree: 15%
 
 **示例提示：**“获取体验定位活动12345的详细信息”。
 
-### get_abt_activity
++++
+
++++get_abt_activity
 
 获取有关Automated Personalization (AP)活动的详细信息。
 
@@ -107,7 +113,9 @@ ht-degree: 15%
 
 **示例提示：**“获取自动Personalization活动12345的详细信息”。
 
-### create_ab_activity
++++
+
++++create_ab_activity
 
 创建新的A/B测试活动。
 
@@ -130,7 +138,9 @@ ht-degree: 15%
 
 **示例提示：**“创建名为‘主页主页主页主页主页主页测试’的A/B测试，该测试包含两个体验，分别测试主页主页主页主页主页上的不同主页图像。”
 
-### create_xt_activity
++++
+
++++create_xt_activity
 
 创建新的体验定位(XT)活动。
 
@@ -152,7 +162,9 @@ ht-degree: 15%
 
 **示例提示：**“创建一个名为‘地域Personalization’的体验定位活动，向来自不同地区的访客显示不同的内容。”
 
-### update_ab活动
++++
+
++++update_ab活动
 
 更新现有A/B活动。
 
@@ -167,7 +179,9 @@ ht-degree: 15%
 
 **示例提示：**“更新活动12345以将流量分配更改为70/30。”
 
-### update_xt活动
++++
+
++++update_xt活动
 
 更新现有的体验定位活动。
 
@@ -182,7 +196,9 @@ ht-degree: 15%
 
 **示例提示：**“更新XT活动12345以为移动访客添加新体验”。
 
-### update_abt_activity
++++
+
++++update_abt_activity
 
 更新现有的Automated Personalization活动。
 
@@ -197,7 +213,9 @@ ht-degree: 15%
 
 **示例提示：**“更新自动Personalization活动12345以更改优化目标”。
 
-### update_activity_schedule
++++
+
++++update_activity_schedule
 
 更新活动的开始和结束日期。
 
@@ -214,7 +232,9 @@ ht-degree: 15%
 
 **示例提示：**“更新A/B活动计划12345于5月1日至5月31日运行。”
 
-### update_active_state
++++
+
++++update_active_state
 
 更改活动状态（激活、停用或暂停）。
 
@@ -227,7 +247,9 @@ ht-degree: 15%
 
 **示例提示：**“激活活动12345”或“暂停主页主页主页主页主页测试”。
 
-### update_activity_name
++++
+
++++update_activity_name
 
 重命名活动。
 
@@ -242,7 +264,9 @@ ht-degree: 15%
 
 **示例提示：**“将活动12345重命名为‘Summer Campaign主页测试’。”
 
-### 更新活动优先级
++++
+
++++更新活动优先级
 
 更改活动优先级。
 
@@ -257,7 +281,9 @@ ht-degree: 15%
 
 **示例提示：**“将活动12345的优先级设置为100。”
 
-### add_activity_variant
++++
+
++++add_activity_variant
 
 向活动添加新体验/变体。
 
@@ -278,7 +304,9 @@ ht-degree: 15%
 
 **示例提示：**“使用选件67890向A/B活动12345添加名为‘假日主题’的新变体。”
 
-### update_traffic_split
++++
+
++++update_traffic_split
 
 更新变量之间的流量分配。
 
@@ -294,7 +322,9 @@ ht-degree: 15%
 
 **示例提示：**“将活动12345的流量分摊更改为控制占70%，变体A占30%。”
 
-### update_variant_offer
++++
+
++++update_variant_offer
 
 更改特定变体的选件。
 
@@ -313,7 +343,9 @@ ht-degree: 15%
 
 **示例提示：**“更新活动12345中的‘变体A’体验以使用选件99999。”
 
-### remove_activity_variant
++++
+
++++remove_activity_variant
 
 从活动中删除体验/变体。
 
@@ -329,9 +361,11 @@ ht-degree: 15%
 
 **示例提示：**“从A/B activity 12345中删除‘测试变体’体验”。
 
++++
+
 ## 优惠工具 {#tools-offers}
 
-### list_target_offers
++++list_target_offers
 
 列出[!DNL Target]租户中的所有优惠。
 
@@ -348,7 +382,9 @@ ht-degree: 15%
 
 **示例提示：**“列出所有JSON选件”。
 
-### get_target_offer
++++
+
++++get_target_offer
 
 获取有关特定选件的详细信息。
 
@@ -360,7 +396,9 @@ ht-degree: 15%
 
 **示例提示：**“获取选件67890的详细信息”。
 
-### create_target_offer
++++
+
++++create_target_offer
 
 创建新的HTML内容选件。
 
@@ -374,7 +412,9 @@ ht-degree: 15%
 
 **示例提示：**“使用促销横幅创建名为‘夏季促销横幅’的HTML优惠。”
 
-### create_target_json_offer
++++
+
++++create_target_json_offer
 
 创建新的JSON选件来交付结构化数据。
 
@@ -388,7 +428,9 @@ ht-degree: 15%
 
 **示例提示：**“使用功能切换设置创建一个名为‘功能标志配置’的JSON选件。”
 
-### update_target_offer
++++
+
++++update_target_offer
 
 更新现有选件。
 
@@ -402,9 +444,11 @@ ht-degree: 15%
 
 **示例提示：**“使用新的促销内容更新优惠67890。”
 
++++
+
 ## 受众工具 {#tools-audiences}
 
-### list_target_audiences
++++list_target_audiences
 
 列出[!DNL Target]租户中的所有受众。
 
@@ -417,7 +461,9 @@ ht-degree: 15%
 
 **示例提示：**“列出所有受众”。
 
-### create_target_audience
++++
+
++++create_target_audience
 
 使用定位规则创建新受众。
 
@@ -432,9 +478,11 @@ ht-degree: 15%
 
 **示例提示：**“创建名为‘来自加利福尼亚州的移动访客’的受众，目标为CA中的移动用户。”
 
++++
+
 ## Mbox工具 {#tools-mboxes}
 
-### list_target_mboxes
++++list_target_mboxes
 
 列出您[!DNL Target]租户中的所有mbox。
 
@@ -449,7 +497,9 @@ ht-degree: 15%
 
 **示例提示：**“列出所有包含&#39;homepage&#39;的mbox。”
 
-### get_target_mbox
++++
+
++++get_target_mbox
 
 获取有关特定mbox的详细信息。
 
@@ -461,7 +511,9 @@ ht-degree: 15%
 
 **示例提示：**“获取mbox &#39;homepage-hero&#39;的详细信息。”
 
-### list_target_mbox_profile_attributes
++++
+
++++list_target_mbox_profile_attributes
 
 列出所有可用于定位的mbox配置文件属性。
 
@@ -471,9 +523,11 @@ ht-degree: 15%
 
 **示例提示：**“哪些配置文件属性可用于定位？”
 
++++
+
 ## 资产工具 {#tools-properties}
 
-### list_target_properties
++++list_target_properties
 
 列出[!DNL Target]租户中的所有属性。
 
@@ -485,9 +539,11 @@ ht-degree: 15%
 
 **示例提示：**“列出所有Target属性”。
 
++++
+
 ## 报告工具 {#tools-reporting}
 
-### get_ab_performance_report
++++get_ab_performance_report
 
 获取A/B活动的性能报表。
 
@@ -502,7 +558,9 @@ ht-degree: 15%
 
 **示例提示：**“显示过去30天的A/B测试12345性能报告。”
 
-### get_ab_orders_report
++++
+
++++get_ab_orders_report
 
 获取A/B活动的订单/收入报表。
 
@@ -515,7 +573,9 @@ ht-degree: 15%
 
 **示例提示：**“获取活动12345的订单报告”。
 
-### get_xt_performance_report
++++
+
++++get_xt_performance_report
 
 获取体验定位活动的性能报表。
 
@@ -528,7 +588,9 @@ ht-degree: 15%
 
 **示例提示：**“显示我的体验定位活动54321的性能”。
 
-### get_xt_orders_report
++++
+
++++get_xt_orders_report
 
 获取体验定位活动的订单/收入报表。
 
@@ -541,7 +603,9 @@ ht-degree: 15%
 
 **示例提示：**“获取XT活动54321的订单数据”。
 
-### get_activity_report_by_name
++++
+
++++get_activity_report_by_name
 
 按名称搜索活动并获取其性能报表。
 
@@ -556,9 +620,11 @@ ht-degree: 15%
 
 **示例提示：**“获取我的‘主页主页主页主页测试’活动的性能报告。”
 
++++
+
 ## 预览工具 {#tools-preview}
 
-### preview_activity
++++preview_activity
 
 为[!DNL Target]活动生成浏览器QA预览URL。
 
@@ -574,9 +640,11 @@ ht-degree: 15%
 
 **示例提示：**“为活动12345生成预览URL，以便我可以在浏览器中测试每个体验。”
 
++++
+
 ## 响应令牌工具 {#tools-response-tokens}
 
-### list_target_response_tokens
++++list_target_response_tokens
 
 列出[!DNL Target]租户中的所有响应令牌。
 
@@ -588,7 +656,9 @@ ht-degree: 15%
 
 **示例提示：**“列出所有响应令牌”。
 
-### create_target_response_token
++++
+
++++create_target_response_token
 
 创建新的自定义响应令牌以在[!DNL Target]响应中收集其他数据。
 
@@ -601,9 +671,11 @@ ht-degree: 15%
 
 **示例提示：**“创建名为‘campaign_id’的ACTIVITY类型的自定义响应令牌。”
 
++++
+
 ## 修订版工具 {#tools-revisions}
 
-### get_target_revisions
++++get_target_revisions
 
 获取资源类型的审核日志。
 
@@ -620,7 +692,9 @@ ht-degree: 15%
 
 **示例提示：**“显示活动更改的审核日志”。
 
-### get_target_entity_revisions
++++
+
++++get_target_entity_revisions
 
 按ID获取特定实体的所有修订。
 
@@ -633,9 +707,11 @@ ht-degree: 15%
 
 **示例提示：**“向我显示对活动12345所做的所有更改。”
 
++++
+
 ## 模板工具 {#tools-templates}
 
-### list_target_templates
++++list_target_templates
 
 列出用于创建活动和选件的可用MCP资源和模板。
 
@@ -644,6 +720,8 @@ ht-degree: 15%
 **返回：** JSON对象列出了可用的模板和资源。
 
 **示例提示：**“哪些模板可用于创建活动？”
+
++++
 
 ## 工具摘要 {#tools-summary}
 

@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何在网站、应用程序和社交渠道中个性化客户体验，从而提升营收。
 feature-set: Target
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1289'
 ht-degree: 83%
 
 ---
@@ -109,7 +109,6 @@ ht-degree: 83%
    + 使用MCP客户端 {#mcp}
       + {hide-from-toc}[使用MCP客户端](c-integrating-target-with-mac/mcp/target-mcp.md)
       + {hide-from-toc}[Adobe Target MCP服务器工具参考](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
-      + {hide-from-toc}[自行托管Adobe Target MCP服务器](c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md)
    + 将Target与Adobe Experience Manager (AEM)集成 {#aem}
       + [将Target与AEM集成概述](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 体验片段和内容片段 {#fragments}

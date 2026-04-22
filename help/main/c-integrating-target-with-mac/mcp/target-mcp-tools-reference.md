@@ -9,10 +9,10 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: d24958d17ff62e957a8d3d6602abfcc8dfd67e46
+source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
 workflow-type: tm+mt
-source-wordcount: '2688'
-ht-degree: 15%
+source-wordcount: '2782'
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 15%
 
 * [使用MCP客户端](target-mcp.md)
 * **[MCP服务器工具引用](target-mcp-tools-reference.md)**
-* [自行托管MCP服务器](target-mcp-self-hosted.md)
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +31,15 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->此处仅记录公共工具。 排除内部工具和仅代理工具。 读取工具可用于具有&#x200B;**观察者**&#x200B;或更高角色的所有连接用户；写入工具需要&#x200B;**编辑者**&#x200B;或&#x200B;**审批者**&#x200B;角色。
+>读取工具可用于具有&#x200B;**观察者**&#x200B;或更高角色的所有连接用户；写入工具需要&#x200B;**编辑者**&#x200B;或&#x200B;**审批者**&#x200B;角色。
+
+>[!IMPORTANT]
+>
+>模型上下文协议(MCP)是一种新兴的开源标准，可能会带来安全性或可靠性风险。 Adobe MCP服务器集成和相关文档按“原样”提供，不提供任何类型的担保。
+>
+>将MCP客户端或服务器连接到Adobe产品是客户选择的配置，客户负责评估任何MCP集成的安全性和适用性。 Adobe对于因错误配置、滥用MCP、第三方实施中的漏洞或通过支持MCP的工作流执行的意外操作而产生的问题，概不负责。
+>
+>为了降低风险，Adobe鼓励您在生产使用之前在沙盒环境中测试集成，并在确认或依赖集成之前，仔细审查和验证所有MCP启动的操作和响应。
 
 ## 活动工具 {#tools-activities}
 
@@ -742,5 +749,4 @@ ht-degree: 15%
 ## 相关资源 {#tools-related}
 
 * [使用MCP客户端](target-mcp.md)
-* [自托管 [!DNL Adobe Target] MCP服务器](target-mcp-self-hosted.md)
 * [[!DNL Adobe Target] 管理员API引用](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}

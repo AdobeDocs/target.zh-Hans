@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
+source-git-commit: 79cce28b604c667b1339675a6846027477e5e3e2
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2941'
 ht-degree: 14%
 
 ---
@@ -43,7 +43,9 @@ ht-degree: 14%
 
 ## 活动工具 {#tools-activities}
 
-+++list_target_activities
++++列出活动
+
+**工具：** `list_target_activities`
 
 列出具有服务器端过滤和排序的[!DNL Adobe Target]活动。
 
@@ -76,7 +78,9 @@ ht-degree: 14%
 
 +++
 
-+++get_ab_activity
++++获取A/B活动
+
+**工具：** `get_ab_activity`
 
 获取有关A/B活动的详细信息。
 
@@ -92,7 +96,9 @@ ht-degree: 14%
 
 +++
 
-+++get_xt_activity
++++获取体验定位活动
+
+**工具：** `get_xt_activity`
 
 获取有关体验定位(XT)活动的详细信息。
 
@@ -108,7 +114,9 @@ ht-degree: 14%
 
 +++
 
-+++get_abt_activity
++++获取Automated Personalization活动
+
+**工具：** `get_abt_activity`
 
 获取有关Automated Personalization (AP)活动的详细信息。
 
@@ -122,7 +130,9 @@ ht-degree: 14%
 
 +++
 
-+++create_ab_activity
++++创建A/B活动
+
+**工具：** `create_ab_activity`
 
 创建新的A/B测试活动。
 
@@ -147,7 +157,9 @@ ht-degree: 14%
 
 +++
 
-+++create_xt_activity
++++创建体验定位活动
+
+**工具：** `create_xt_activity`
 
 创建新的体验定位(XT)活动。
 
@@ -171,7 +183,9 @@ ht-degree: 14%
 
 +++
 
-+++update_ab活动
++++更新A/B活动
+
+**工具：** `update_ab_activity`
 
 更新现有A/B活动。
 
@@ -188,7 +202,9 @@ ht-degree: 14%
 
 +++
 
-+++update_xt活动
++++更新体验定位活动
+
+**工具：** `update_xt_activity`
 
 更新现有的体验定位活动。
 
@@ -205,7 +221,9 @@ ht-degree: 14%
 
 +++
 
-+++update_abt_activity
++++更新Automated Personalization活动
+
+**工具：** `update_abt_activity`
 
 更新现有的Automated Personalization活动。
 
@@ -222,7 +240,9 @@ ht-degree: 14%
 
 +++
 
-+++update_activity_schedule
++++更新活动计划
+
+**工具：** `update_activity_schedule`
 
 更新活动的开始和结束日期。
 
@@ -241,7 +261,9 @@ ht-degree: 14%
 
 +++
 
-+++update_active_state
++++更改活动状态
+
+**工具：** `update_activity_state`
 
 更改活动状态（激活、停用或暂停）。
 
@@ -256,7 +278,9 @@ ht-degree: 14%
 
 +++
 
-+++update_activity_name
++++重命名活动
+
+**工具：** `update_activity_name`
 
 重命名活动。
 
@@ -273,7 +297,9 @@ ht-degree: 14%
 
 +++
 
-+++更新活动优先级
++++更改活动优先级
+
+**工具：** `update_activity_priority`
 
 更改活动优先级。
 
@@ -290,7 +316,9 @@ ht-degree: 14%
 
 +++
 
-+++add_activity_variant
++++向活动添加变体
+
+**工具：** `add_activity_variant`
 
 向活动添加新体验/变体。
 
@@ -313,7 +341,9 @@ ht-degree: 14%
 
 +++
 
-+++update_traffic_split
++++更新流量拆分
+
+**工具：** `update_traffic_split`
 
 更新变量之间的流量分配。
 
@@ -331,7 +361,9 @@ ht-degree: 14%
 
 +++
 
-+++update_variant_offer
++++更改变体的选件
+
+**工具：** `update_variant_offer`
 
 更改特定变体的选件。
 
@@ -352,7 +384,9 @@ ht-degree: 14%
 
 +++
 
-+++remove_activity_variant
++++从活动中删除变体
+
+**工具：** `remove_activity_variant`
 
 从活动中删除体验/变体。
 
@@ -372,7 +406,9 @@ ht-degree: 14%
 
 ## 优惠工具 {#tools-offers}
 
-+++list_target_offers
++++列出优惠
+
+**工具：** `list_target_offers`
 
 列出[!DNL Target]租户中的所有优惠。
 
@@ -391,7 +427,9 @@ ht-degree: 14%
 
 +++
 
-+++get_target_offer
++++获取优惠
+
+**工具：** `get_target_offer`
 
 获取有关特定选件的详细信息。
 
@@ -405,7 +443,9 @@ ht-degree: 14%
 
 +++
 
-+++create_target_offer
++++创建HTML选件
+
+**工具：** `create_target_offer`
 
 创建新的HTML内容选件。
 
@@ -421,7 +461,9 @@ ht-degree: 14%
 
 +++
 
-+++create_target_json_offer
++++创建JSON选件
+
+**工具：** `create_target_json_offer`
 
 创建新的JSON选件来交付结构化数据。
 
@@ -437,7 +479,9 @@ ht-degree: 14%
 
 +++
 
-+++update_target_offer
++++更新优惠
+
+**工具：** `update_target_offer`
 
 更新现有选件。
 
@@ -455,7 +499,9 @@ ht-degree: 14%
 
 ## 受众工具 {#tools-audiences}
 
-+++list_target_audiences
++++列出受众
+
+**工具：** `list_target_audiences`
 
 列出[!DNL Target]租户中的所有受众。
 
@@ -470,7 +516,9 @@ ht-degree: 14%
 
 +++
 
-+++create_target_audience
++++创建受众
+
+**工具：** `create_target_audience`
 
 使用定位规则创建新受众。
 
@@ -489,7 +537,9 @@ ht-degree: 14%
 
 ## Mbox工具 {#tools-mboxes}
 
-+++list_target_mboxes
++++列表mbox
+
+**工具：** `list_target_mboxes`
 
 列出您[!DNL Target]租户中的所有mbox。
 
@@ -506,7 +556,9 @@ ht-degree: 14%
 
 +++
 
-+++get_target_mbox
++++获取mbox
+
+**工具：** `get_target_mbox`
 
 获取有关特定mbox的详细信息。
 
@@ -520,7 +572,9 @@ ht-degree: 14%
 
 +++
 
-+++list_target_mbox_profile_attributes
++++列出mbox配置文件属性
+
+**工具：** `list_target_mbox_profile_attributes`
 
 列出所有可用于定位的mbox配置文件属性。
 
@@ -534,7 +588,9 @@ ht-degree: 14%
 
 ## 资产工具 {#tools-properties}
 
-+++list_target_properties
++++列表属性
+
+**工具：** `list_target_properties`
 
 列出[!DNL Target]租户中的所有属性。
 
@@ -550,7 +606,9 @@ ht-degree: 14%
 
 ## 报告工具 {#tools-reporting}
 
-+++get_ab_performance_report
++++获取A/B性能报表
+
+**工具：** `get_ab_performance_report`
 
 获取A/B活动的性能报表。
 
@@ -567,7 +625,9 @@ ht-degree: 14%
 
 +++
 
-+++get_ab_orders_report
++++获取A/B订单报表
+
+**工具：** `get_ab_orders_report`
 
 获取A/B活动的订单/收入报表。
 
@@ -582,7 +642,9 @@ ht-degree: 14%
 
 +++
 
-+++get_xt_performance_report
++++获取体验定位性能报表
+
+**工具：** `get_xt_performance_report`
 
 获取体验定位活动的性能报表。
 
@@ -597,7 +659,9 @@ ht-degree: 14%
 
 +++
 
-+++get_xt_orders_report
++++获取体验定位订单报表
+
+**工具：** `get_xt_orders_report`
 
 获取体验定位活动的订单/收入报表。
 
@@ -612,7 +676,9 @@ ht-degree: 14%
 
 +++
 
-+++get_activity_report_by_name
++++按活动名称获取性能报表
+
+**工具：** `get_activity_report_by_name`
 
 按名称搜索活动并获取其性能报表。
 
@@ -631,7 +697,9 @@ ht-degree: 14%
 
 ## 预览工具 {#tools-preview}
 
-+++preview_activity
++++预览活动
+
+**工具：** `preview_activity`
 
 为[!DNL Target]活动生成浏览器QA预览URL。
 
@@ -651,7 +719,9 @@ ht-degree: 14%
 
 ## 响应令牌工具 {#tools-response-tokens}
 
-+++list_target_response_tokens
++++列出响应令牌
+
+**工具：** `list_target_response_tokens`
 
 列出[!DNL Target]租户中的所有响应令牌。
 
@@ -665,7 +735,9 @@ ht-degree: 14%
 
 +++
 
-+++create_target_response_token
++++创建响应令牌
+
+**工具：** `create_target_response_token`
 
 创建新的自定义响应令牌以在[!DNL Target]响应中收集其他数据。
 
@@ -682,7 +754,9 @@ ht-degree: 14%
 
 ## 修订版工具 {#tools-revisions}
 
-+++get_target_revisions
++++获取审核日志
+
+**工具：** `get_target_revisions`
 
 获取资源类型的审核日志。
 
@@ -701,7 +775,9 @@ ht-degree: 14%
 
 +++
 
-+++get_target_entity_revisions
++++获取特定实体的修订
+
+**工具：** `get_target_entity_revisions`
 
 按ID获取特定实体的所有修订。
 
@@ -718,7 +794,9 @@ ht-degree: 14%
 
 ## 模板工具 {#tools-templates}
 
-+++list_target_templates
++++列出可用模板
+
+**工具：** `list_target_templates`
 
 列出用于创建活动和选件的可用MCP资源和模板。
 

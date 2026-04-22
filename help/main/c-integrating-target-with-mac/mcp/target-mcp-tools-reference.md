@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 79cce28b604c667b1339675a6846027477e5e3e2
+source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2972'
 ht-degree: 14%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 14%
 
 目录：
 
-* [使用MCP客户端](target-mcp.md)
+* [概述](target-mcp.md)
+* [快速入门](target-mcp-get-started.md)
+* [用例和演练](target-mcp-use-cases.md)
 * **[MCP服务器工具引用](target-mcp-tools-reference.md)**
 
 >[!ENDSHADEBOX]
 
-此页面是[!DNL Adobe Target] MCP服务器公开的所有公共工具的完整参考。 对于每个工具，您都可以找到描述、参数详细信息、返回值以及自然语言提示示例。 有关设置说明和使用案例，请参阅[使用MCP客户端](target-mcp.md)。
-
->[!NOTE]
->
->读取工具可用于具有&#x200B;**观察者**&#x200B;或更高角色的所有连接用户；写入工具需要&#x200B;**编辑者**&#x200B;或&#x200B;**审批者**&#x200B;角色。
+此页面是[!DNL Adobe Target] MCP服务器公开的所有公共工具的完整参考。 对于每个工具，您都可以找到描述、参数详细信息、返回值以及自然语言提示示例。 有关设置说明和用例，请参阅[入门](target-mcp-get-started.md)和[用例和演练](target-mcp-use-cases.md)。
 
 >[!IMPORTANT]
 >
@@ -40,6 +38,16 @@ ht-degree: 14%
 >将MCP客户端或服务器连接到Adobe产品是客户选择的配置，客户负责评估任何MCP集成的安全性和适用性。 Adobe对于因错误配置、滥用MCP、第三方实施中的漏洞或通过支持MCP的工作流执行的意外操作而产生的问题，概不负责。
 >
 >为了降低风险，Adobe鼓励您在生产使用之前在沙盒环境中测试集成，并在确认或依赖集成之前，仔细审查和验证所有MCP启动的操作和响应。
+
+## 先决条件 {#tools-prerequisites}
+
+您的[!DNL Adobe Target]角色决定了您可用的工具：
+
+* **观察者**&#x200B;角色或更高版本：访问所有读取工具
+* **编辑者**&#x200B;角色：访问读写（创建）工具
+* **审批者**&#x200B;角色：访问读取、写入和激活/停用工具
+
+有关完整的设置说明，请参阅[开始使用](target-mcp-get-started.md)。
 
 ## 活动工具 {#tools-activities}
 

@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e2230782005110914dbf108a865463d1faaa62cc
+source-git-commit: 7976d43e43baeabdb68509373f1b0b72bbe723b3
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 54%
+source-wordcount: '548'
+ht-degree: 49%
 
 ---
 
@@ -29,19 +29,52 @@ ht-degree: 54%
 
 有关详细信息，请参阅[[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)。
 
-## [!DNL Target Standard/Premium] 26.4.3（2026年4月9日）
+## [!DNL Target Standard/Premium] 26.4.4（2026年4月28日）
 
 **活动**
 
 +++查看详细信息
 
-* 某些活动中缺少&#x200B;**位置。**&#x200B;修复了某些活动中缺少&#x200B;**[!UICONTROL Location]**&#x200B;的问题。 (TGT-54951)
+* **报表中的受众筛选器出错。** 修复了更改&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;中的受众筛选器导致[!DNL Target]用户界面的“报表”部分出现错误的问题。 (TGT-55006)
 
-* **报告指标列顺序。**&#x200B;更新的[!DNL Target]界面允许对报表量度重新排序，而无需清除完整的选择并按顺序重新添加量度。 以前，要求用户取消选择所有量度并按所需顺序再次选择它们，这在启用许多量度以及调整列放置以限制水平滚动时会很耗时。 (TGT-53044)
+* **按优先级排序活动。** 使用&#x200B;**[!UICONTROL Priority]**&#x200B;列标题在活动列表中添加了按优先级排序，其升序和降序与其他可排序列一致。 (TGT-54948)
+
+* **其他活动属性在保存后未保留。** 修复了保存并重新打开活动后，某些&#x200B;**[!UICONTROL Properties]**&#x200B;选择未保留的问题。 (TGT-53889)
+
++++
+
+**本地化**
+
++++查看详细信息
+
+* [!UICONTROL Page Delivery]规则运算符的&#x200B;**日语标签。** 修复了日语UI中页面投放规则运算符标签无法读取或损坏的字符串。 (TGT-53097)
+
++++
+
+**API**
+
++++查看详细信息
+
+* **报告`segmentId`的[!DNL GraphQL] API支持。** 已将`segmentId`添加到报表[!DNL GraphQL] API。 (TGT-55021)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++查看详细信息
+
+* **在编辑器的错误体验上显示的修改。** 修复了在[!UICONTROL Visual Experience Composer]中的体验之间切换后，删除或其他修改可能出现在错误体验中的问题。 (TGT-54955)
+
+* **删除插入HTML时删除的修改。** 修复了以下问题：删除随&#x200B;**[!UICONTROL Insert before]**&#x200B;或&#x200B;**[!UICONTROL Insert after]**&#x200B;一起添加的额外&#x200B;**[!UICONTROL HTML]**&#x200B;块时，也会删除无CSS选择器的链接修改。 (TGT-54530)
 
 +++
 
 <!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+
+
+
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++See details
@@ -51,21 +84,12 @@ ht-degree: 54%
 +++
 -->
 
-## [!DNL Target Standard/Premium] 26.4.2（2026年4月7日）
-
-**活动**
-
-+++查看详细信息
-
-* **应用于其他视图时保留的自定义代码。**&#x200B;修复了在同一&#x200B;**[!UICONTROL View]**&#x200B;中为另一个&#x200B;**[!UICONTROL View]**&#x200B;添加或保存自定义代码时，可能会删除应用于一个&#x200B;**[!UICONTROL Activity]**&#x200B;的自定义代码的问题。 (TGT-53933)
-+++
-
 ## 其他发行说明和版本详细信息
 
 | 资源 | 详细信息 |
 |--- |--- |
 | [发行说明：Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans) | 有关 Platform Web SDK 各个版本中的更改的详细信息。 |
-| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
+| [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 有关 [!DNL Adobe Target] at.js JavaScript 库每个版本中的更改的详细信息。 |
 
 ## 文档更改、以往的发行说明和 Experience Cloud 发行说明
 

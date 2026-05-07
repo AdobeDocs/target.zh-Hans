@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何在网站、应用程序和社交渠道中个性化客户体验，从而提升营收。
 feature-set: Target
-source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
+source-git-commit: dadf2cf174019c01a205487ccdb9bdf6639d5a9f
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1317'
 ht-degree: 83%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 83%
 
 + [Adobe Target商业从业者指南主页](target-home.md)
 + Target发行说明 {#release-notes}
-   + {hide-from-toc}[Target 公告和活动](/help/main/r-release-notes/target-announcements.md)
+   + {hide-from-toc}[Target公告和活动](/help/main/r-release-notes/target-announcements.md)
    + [Target 发行说明（当前版本）](r-release-notes/release-notes.md)
    + [Target 发行说明（预发行版本）](r-release-notes/target-release-notes.md)
    + [Target 文档概述](/help/main/r-release-notes/target-documentation.md)
@@ -105,6 +105,7 @@ ht-degree: 83%
          + {hide-from-toc}[Adobe Journey Optimizer中的热门优化用例 — 基于Web和代码的渠道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + {hide-from-toc}[在Adobe Journey Optimizer中通过A/B测试进行的内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[在网页中添加或隐藏组件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+   + [将Target与Experimentation Accelerator集成](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
    + Adobe Target MCP服务器 {#mcp}
       + {hide-from-toc}[概述](c-integrating-target-with-mac/mcp/target-mcp.md)

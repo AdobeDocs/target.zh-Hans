@@ -6,10 +6,10 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7976d43e43baeabdb68509373f1b0b72bbe723b3
+source-git-commit: e3a22ef34bc78b03b71c75968d2271b9a634a0cd
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 49%
+source-wordcount: '582'
+ht-degree: 46%
 
 ---
 
@@ -28,6 +28,16 @@ ht-degree: 49%
 ### [!DNL Target] UI版本切换弃用
 
 有关详细信息，请参阅[[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)。
+
+## [!DNL Target Standard/Premium] 26.5.1（2026年5月7日）
+
+**集成**
+
++++查看详细信息
+
+* Experimentation Accelerator中的&#x200B;**[!DNL Adobe Target]管理。** 添加了对将[!DNL Target]工作区分配给Experimentation Accelerator沙盒的支持，以便团队可以在Experimentation Accelerator中一个位置查看来自[!DNL Adobe Target]的试验。 [了解详情](../c-integrating-target-with-mac/experimentation-accelerator.md)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.4.4（2026年4月28日）
 

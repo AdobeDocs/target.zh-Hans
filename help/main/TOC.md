@@ -103,7 +103,7 @@ ht-degree: 83%
       + {hide-from-toc}[集成 [!DNL Adobe Target Recommendations] 和 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer用例 {#use-cases}
          + {hide-from-toc}[Adobe Journey Optimizer中的热门优化用例 — 基于Web和代码的渠道](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-         + 在Adobe Journey Optimizer中通过A/B测试进行的{hide-from-toc}[内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + {hide-from-toc}[在Adobe Journey Optimizer中通过A/B测试进行的内容更改](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[在网页中添加或隐藏组件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [将Target与Experimentation Accelerator集成](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)

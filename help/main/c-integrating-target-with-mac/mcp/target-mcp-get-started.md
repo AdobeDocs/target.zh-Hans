@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -37,10 +37,11 @@ ht-degree: 0%
 
 * 您拥有一个Adobe Experience Platform组织的有效[!DNL Adobe Target]许可证（Adobe Experience Cloud订阅）。
 * 您有一个受支持的MCP兼容应用程序（当前为Claude Web 、 Claude Desktop 、 Claude Code 、 Cursor或ChatGPT ）。
-* 您在Adobe Admin Console中配置了[!DNL Adobe Target]权限：
-   * **观察者**&#x200B;角色：只读工具
-   * **编辑者**&#x200B;角色：读取+创建工具
-   * **审批者**&#x200B;角色：读取+创建+激活/停用工具
+* 您在Adobe Admin Console中配置了[!DNL Adobe Target]权限。 在公共Beta中，所有23个可用工具均为只读。 **观察者**&#x200B;角色或更高版本足以使用MCP服务器。
+
+>[!NOTE]
+>
+>在公共Beta中，写入工具（创建、更新、激活、停用）不通过公共MCP目录公开。 编辑者和审批者角色权限目前不会解锁其他工具。 写入权限将在未来版本中提供。
 
 ## 连接[!DNL Adobe Target] MCP服务器 {#mcp-connect}
 
@@ -112,7 +113,7 @@ ht-degree: 0%
 
 +++工具返回错误消息
 
-1. 验证您是否在[!DNL Adobe Target]中拥有该操作所需的权限（请参阅[先决条件](#mcp-prerequisites)）。
+1. 验证您是否在[!DNL Adobe Target]中具有&#x200B;**观察者**&#x200B;角色或更高版本（请参阅[先决条件](#mcp-prerequisites)）。
 1. 检查引用的资源（活动、选件、受众）是否存在于您的组织中。
 1. 确认活动ID和其他标识符正确无误。
 +++

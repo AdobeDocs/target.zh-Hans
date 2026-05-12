@@ -8,31 +8,27 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer
 level: Experienced
-hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '508'
 ht-degree: 2%
 
 ---
 
 # 自托管[!DNL Adobe Target] MCP服务器 {#target-mcp-self-hosted}
 
->[!BEGINSHADEBOX]
 
-目录：
+>[!AVAILABILITY]
+>
+>[!DNL Adobe Target] MCP服务器可用于&#x200B;**公共Beta**&#x200B;中的所有客户。 当前在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中支持它。
 
-* [使用MCP客户端](target-mcp.md)
-* [MCP服务器工具参考](target-mcp-tools-reference.md)
-* **[自行托管MCP服务器](target-mcp-self-hosted.md)**
-
->[!ENDSHADEBOX]
+本页介绍如何克隆、配置和运行您自己的[!DNL Adobe Target] MCP服务器实例。 当您需要本地开发环境、自定义网络配置或希望贡献服务器代码库时，自托管会很有用。
 
 >[!AVAILABILITY]
 >
 >自托管部署适用于需要完全控制[!DNL Adobe Target] MCP服务器运行时的开发人员和高级用户。 对于大多数用户，建议使用托管端点(`https://targetmcp.adobe.io/mcp`)。 请参阅[使用MCP客户端](target-mcp.md)。
 
-本页介绍如何克隆、配置和运行您自己的[!DNL Adobe Target] MCP服务器实例。 当您需要本地开发环境、自定义网络配置或希望贡献服务器代码库时，自托管会很有用。
+
 
 ## 先决条件 {#self-hosted-prereqs}
 
@@ -193,4 +189,4 @@ curl http://localhost:8080/health
 
 * [使用MCP客户端](target-mcp.md) — 托管终结点设置和工具引用
 * [模型上下文协议文档](https://modelcontextprotocol.io/introduction){target="_blank"}
-* [[!DNL Adobe Target] 管理员API引用](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [[!DNL Adobe Target]管理员API引用](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}

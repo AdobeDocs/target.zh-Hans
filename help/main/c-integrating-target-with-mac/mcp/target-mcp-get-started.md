@@ -8,27 +8,21 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-hide: true
-source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
 
 # 开始使用[!DNL Adobe Target] MCP服务器 {#target-mcp-get-started}
 
->[!BEGINSHADEBOX]
 
-目录：
+>[!AVAILABILITY]
+>
+>[!DNL Adobe Target] MCP服务器可用于&#x200B;**公共Beta**&#x200B;中的所有客户。 当前在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中支持它。
 
-* [概述](target-mcp.md)
-* **[开始](target-mcp-get-started.md)**
-* [用例和演练](target-mcp-use-cases.md)
-* [MCP服务器工具参考](target-mcp-tools-reference.md)
-
->[!ENDSHADEBOX]
-
+此页面将指导您完成将[!DNL Adobe Target] MCP服务器连接到AI助手并验证设置所需的一切。
 
 >[!IMPORTANT]
 >
@@ -37,8 +31,6 @@ ht-degree: 0%
 >将MCP客户端或服务器连接到Adobe产品是客户选择的配置，客户负责评估任何MCP集成的安全性和适用性。 Adobe对于因错误配置、滥用MCP、第三方实施中的漏洞或通过支持MCP的工作流执行的意外操作而产生的问题，概不负责。
 >
 >为了降低风险，Adobe鼓励您在生产使用之前在沙盒环境中测试集成，并在确认或依赖集成之前，仔细审查和验证所有MCP启动的操作和响应。
-
-此页面将指导您完成将[!DNL Adobe Target] MCP服务器连接到AI助手并验证设置所需的一切。
 
 ## 先决条件 {#mcp-prerequisites}
 
@@ -153,4 +145,4 @@ OAuth令牌会在每个请求中根据Adobe IMS进行验证，不会由MCP服务
 * [用例和演练](target-mcp-use-cases.md)
 * [MCP服务器工具参考](target-mcp-tools-reference.md)
 * [模型上下文协议文档](https://modelcontextprotocol.io/introduction){target="_blank"}
-* [[!DNL Adobe Target] 管理员API引用](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [[!DNL Adobe Target]管理员API引用](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}

@@ -8,10 +8,10 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 0%
+source-wordcount: '534'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >[!DNL Adobe Target] MCP服务器可用于&#x200B;**公共Beta**&#x200B;中的所有客户。 当前在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中支持它。
 
-本页显示了使用自然语言提示对[!DNL Adobe Target] MCP服务器所能完成的操作，从快速查找到多步骤活动管理任务。
+本页显示了使用自然语言提示通过[!DNL Adobe Target] MCP服务器可以实现的目标，从快速查找到多步骤分析和报告任务。
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,6 @@ ht-degree: 0%
 | **绩效审核** | “向我显示所有已达到统计意义的活动测试 — 哪些体验入选？” |
 | **收入分析** | “获取活动AT4821的订单和收入报表，并总结哪个体验为每位访客带来了最大的收入。” |
 | **A4T报告** | “提取A4T报告用于我的签出优化测试，并汇总Analytics端转化数据。” |
-| **活动管理** | “暂停活动98765并将活动的优先级更新11111200。” |
 | **活动分析** | “了解我的‘夏季促销横幅’测试 — 性能是什么样的，是否存在任何异常？” |
 | **受众管理** | “列出所有以移动用户为目标的受众，并向我展示他们关联的活动。” |
 | **QA和预览** | “为活动12345生成QA预览URL，以便我可以在激活之前查看所有变体。” |
@@ -53,14 +52,16 @@ ht-degree: 0%
 
 以下演练说明如何在[!DNL Adobe Target] MCP服务器上使用自然语言提示完成常见任务。
 
-+++创建A/B测试
+<!--
++++Creating an A/B test
 
-**提示：**
-“使用两种体验创建名为‘主页主页主页主页主页图像测试’的A/B测试：‘控制’显示当前主页，而‘变量’显示新的夏季主题主页图像。 定位主页mbox。”
+**Prompt:**
+"Create an A/B test called 'Homepage Hero Image Test' with two experiences: 'Control' showing the current hero and 'Variant' showing a new summer-themed hero image. Target the homepage mbox."
 
-AI助手使用`create_ab_activity`工具创建具有您描述的配置的活动。 该工具会返回新活动ID和对已创建体验的确认。
+The AI assistant uses the `create_ab_activity` tool to create the activity with the configuration you described. The tool returns the new activity ID and a confirmation of the created experiences.
 
 +++
+-->
 
 +++检查活动性能
 
@@ -71,23 +72,25 @@ AI助手使用`get_ab_performance_report`或`get_xt_performance_report`（取决
 
 +++
 
-+++管理优惠
+<!--
++++Managing offers
 
-**提示：**
-“创建一个名为‘夏季促销横幅’的HTML优惠，该优惠的促销横幅上写着‘所有夏季商品20%的折扣’。”
+**Prompt:**
+"Create an HTML offer called 'Summer Sale Banner' with a promotional banner that says '20% off all summer items'."
 
-AI助手使用`create_target_offer`工具创建具有您指定的HTML内容的选件，并返回具有新选件ID的确认。
-
-+++
-
-+++构建受众
-
-**提示：**
-“创建一个名为‘来自加利福尼亚的移动访客’的受众，该受众定位位于加利福尼亚的移动设备上的用户。”
-
-AI助手使用`create_target_audience`工具以及从您的描述派生的相应定位规则。
+The AI assistant uses the `create_target_offer` tool to create the offer with your specified HTML content and returns a confirmation with the new offer ID.
 
 +++
+
++++Building an audience
+
+**Prompt:**
+"Create an audience called 'Mobile Visitors from California' that targets users on mobile devices located in California."
+
+The AI assistant uses the `create_target_audience` tool with the appropriate targeting rules derived from your description.
+
++++
+-->
 
 +++生成QA预览链接
 
@@ -98,23 +101,25 @@ AI助手使用`preview_activity`工具生成绕过受众定位的可点击URL，
 
 +++
 
-+++创建体验定位活动
+<!--
++++Creating an Experience Targeting activity
 
-**提示：**
-“创建一个名为‘地域Personalization’的体验定位活动，向来自不同地区的访客显示不同的主页横幅。”
+**Prompt:**
+"Create an Experience Targeting activity called 'Geo Personalization' that shows different hero banners to visitors from different regions."
 
-AI助手使用`create_xt_activity`根据您描述的区域，通过基于受众的体验映射来构建活动。
-
-+++
-
-+++计划活动
-
-**提示：**
-“更新活动12345的时间表，从5月1日开始，到5月31日结束。”
-
-AI助手使用`update_activity_schedule`工具将新的开始日期和结束日期应用于活动。
+The AI assistant uses `create_xt_activity` to build the activity with audience-based experience mapping according to the regions you describe.
 
 +++
+
++++Scheduling an activity
+
+**Prompt:**
+"Update the schedule for activity 12345 to start on May 1st and end on May 31st."
+
+The AI assistant uses the `update_activity_schedule` tool to apply the new start and end dates to the activity.
+
++++
+-->
 
 ## 相关资源 {#mcp-use-cases-related}
 

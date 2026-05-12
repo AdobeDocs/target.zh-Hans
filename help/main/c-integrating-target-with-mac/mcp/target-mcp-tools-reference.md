@@ -2,15 +2,15 @@
 solution: Target
 product: target
 title: Adobe Target MCP服务器工具参考
-description: Adobe Target MCP服务器公开的所有21种只读工具的完整参数引用。
+description: Adobe Target MCP服务器公开的所有23种只读工具的完整参数引用。
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1883'
 ht-degree: 11%
 
 ---
@@ -35,9 +35,11 @@ ht-degree: 11%
 
 您的[!DNL Adobe Target]角色决定了您可用的工具：
 
-* **观察者**&#x200B;角色或更高版本：访问所有读取工具
-* **编辑者**&#x200B;角色：访问读写（创建）工具
-* **审批者**&#x200B;角色：访问读取、写入和激活/停用工具
+* **观察者**&#x200B;角色或更高版本：访问所有23个只读工具
+
+>[!NOTE]
+>
+>在公共Beta中，写入工具（创建、更新、激活、停用）不通过公共MCP目录公开。 此页面上列出的所有23种工具均为只读。 写入权限将在未来版本中提供。
 
 有关完整的设置说明，请参阅[开始使用](target-mcp-get-started.md)。
 
@@ -544,6 +546,24 @@ Update an existing offer.
 
 +++
 
++++获取受众
+
+**工具：** `get_target_audience`
+
+获取受众详细信息，包括定位规则。
+
+检索特定受众的完整配置，包括其定位规则和条件。
+
+| 参数 | 类型 | 必需 | 描述 |
+|---|---|---|---|
+| `audience_id` | 整数 | 是 | 受众的唯一标识符 |
+
+**返回：**&#x200B;完整的受众详细信息，包括`id`、`name`、`description`、`origin`、定位规则和相关活动计数。
+
+**示例提示：**“获取受众12345的详细信息并显示其定位规则。”
+
++++
+
 <!--
 +++Create an audience
 
@@ -725,6 +745,25 @@ Create a new audience with targeting rules.
 
 +++
 
++++获取Analytics for Target (A4T)报表
+
+**工具：** `get_a4t_report`
+
+为[!DNL Target]活动获取Analytics for Target (A4T)报告。
+
+验证活动的A4T配置，然后对[!DNL Adobe Analytics]执行GraphQL查询以检索Analytics端量度。 仅适用于已配置A4T报表的活动。
+
+| 参数 | 类型 | 必需 | 描述 |
+|---|---|---|---|
+| `activity_id` | 整数 | 是 | [!DNL Target]活动的唯一标识符 |
+| `report_interval` | 字符串 | 否 | 报告的时段（例如`last7days`、`last30days`或自定义日期范围） |
+
+**返回：**&#x200B;活动的分析端量度，包括直接源自[!DNL Adobe Analytics]的访客计数、转化、收入和体验提升。
+
+**示例提示：**“提取A4T报告以进行我的签出优化测试并汇总Analytics端转化数据。”
+
++++
+
 ## 预览工具 {#tools-preview}
 
 +++预览活动
@@ -846,15 +885,15 @@ Create a new custom response token for collecting additional data in [!DNL Targe
 |---|---|---|
 | 活动 | 4 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity` |
 | 产品建议 | 2 | `list_target_offers`, `get_target_offer` |
-| 受众 | 1 | `list_target_audiences` |
+| 受众 | 2 | `list_target_audiences`, `get_target_audience` |
 | Mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | 属性 | 1 | `list_target_properties` |
-| 报表 | 5 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name` |
+| 报表 | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | 预览 | 1 | `preview_activity` |
 | 响应令牌 | 1 | `list_target_response_tokens` |
 | 修订 | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | 模板 | 1 | `list_target_templates` |
-| **合计** | **21** | |
+| **合计** | **23** | |
 
 ## 相关资源 {#tools-related}
 

@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 42%
+source-wordcount: 630
+ht-degree: 43%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 42%
 
 **[!DNL Adobe Target]MCP服务器（公共Beta）**
 
-[!DNL Adobe Target]现在提供了一个MCP（模型上下文协议）服务器，该服务器直接在任何与MCP兼容的应用程序中呈现实验、个性化和报告操作。 利用此集成，营销和技术人员可以检查A/B测试、分析性能报表、管理受众和选件，并执行可管理的操作 — 所有这些操作都使用自然语言提示，而不是导航多个UI屏幕或针对[!DNL Adobe Target] REST API编写查询。 此功能当前在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中可用。
+[!DNL Adobe Target]现在提供了一个MCP（模型上下文协议）服务器，该服务器直接在任何与MCP兼容的应用程序中呈现实验、个性化和报告操作。 利用此集成，营销和技术人员可以检查A/B测试、分析性能报表以及浏览受众和选件 — 所有这些操作都使用自然语言提示，而不是导航多个UI屏幕或针对[!DNL Adobe Target] REST API编写查询。 此功能当前在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中可用。
 
 此功能适用于公共Beta中的所有客户。
 

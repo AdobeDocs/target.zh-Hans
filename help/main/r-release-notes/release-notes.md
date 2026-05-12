@@ -6,10 +6,15 @@ short-description: 了解  [!DNL Target] 当前版本中包括的新增功能、
 title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 860dd22fc4ec261a62869cb656d72bd49f2bd91c
+TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 51%
+source-wordcount: 633
+ht-degree: 42%
 
 ---
 
@@ -28,6 +33,18 @@ ht-degree: 51%
 ### [!DNL Target] UI版本切换弃用
 
 有关详细信息，请参阅[[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)。
+
+
+## 最新更新 — 2026年5月12日
+
+**[!DNL Adobe Target]MCP服务器（公共Beta）**
+
+[!DNL Adobe Target]现在提供了一个MCP（模型上下文协议）服务器，该服务器直接在任何与MCP兼容的应用程序中呈现实验、个性化和报告操作。 利用此集成，营销和技术人员可以检查A/B测试、分析性能报表、管理受众和选件，并执行可管理的操作 — 所有这些操作都使用自然语言提示，而不是导航多个UI屏幕或针对[!DNL Adobe Target] REST API编写查询。 此功能当前在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中可用。
+
+此功能适用于公共Beta中的所有客户。
+
+有关详细信息，请参阅[[!DNL Adobe Target] MCP服务器](../c-integrating-target-with-mac/mcp/target-mcp.md)。
+
 
 ## [!DNL Target Standard/Premium] 26.5.1（2026年5月7日）
 
@@ -63,7 +80,7 @@ ht-degree: 51%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++查看详细信息
 

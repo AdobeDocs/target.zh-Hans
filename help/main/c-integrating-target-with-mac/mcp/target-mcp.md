@@ -8,7 +8,7 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 ---
 
 # [!DNL Adobe Target] MCP服务器 {#target-mcp}
-
 
 [!DNL Adobe Target] MCP集成允许您直接从AI助手检查、分析和管理A/B测试、个性化活动和推荐标准。 将[!DNL Target]的读取和写入API转换为纯语言工作流 — 审核您的试验组合、审查性能报告、管理受众和选件，以及执行可控操作，而无需导航UI或编写API调用。
 

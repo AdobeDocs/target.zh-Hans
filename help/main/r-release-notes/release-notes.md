@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
 source-wordcount: 633
 ht-degree: 42%
@@ -30,16 +30,6 @@ ht-degree: 42%
 浏览[!DNL Adobe Target]中的最新功能、增强功能和修复。 这些发行说明还涵盖了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台组件（如果适用）的更新。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
-
-## 您需要了解的时间性更新 {#time-sensitive}
-
-[!BADGE 重要]{type=Informative}
-
-对于与[!DNL Adobe Target]和您的实施相关的时效性更新，[!DNL Adobe]通过[!UICONTROL Experience League]提供详细的发行说明和文档。 以下是一些与您的实施相关的关键功能亮点：
-
-### [!DNL Target] UI版本切换弃用
-
-有关详细信息，请参阅[[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)。
 
 
 ## 最新更新 — 2026年5月12日
@@ -110,6 +100,16 @@ ht-degree: 42%
 
 +++
 -->
+
+## 您需要了解的时间性更新 {#time-sensitive}
+
+[!BADGE 重要]{type=Informative}
+
+对于与[!DNL Adobe Target]和您的实施相关的时效性更新，[!DNL Adobe]通过[!UICONTROL Experience League]提供详细的发行说明和文档。 以下是一些与您的实施相关的关键功能亮点：
+
+### [!DNL Target] UI版本切换弃用
+
+有关详细信息，请参阅[[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)。
 
 ## 其他发行说明和版本详细信息
 

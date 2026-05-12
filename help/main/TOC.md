@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何在网站、应用程序和社交渠道中个性化客户体验，从而提升营收。
 feature-set: Target
-source-git-commit: dadf2cf174019c01a205487ccdb9bdf6639d5a9f
+source-git-commit: 6bea471b0dcf99a77d3b2350a89bcc069062de19
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 83%
@@ -73,6 +73,11 @@ ht-degree: 83%
    + [推荐](/help/main/administrating-target/recommendations-settings.md)
 + 实施 Target {#implement-target}
    + [实施 Target 概述](c-implementing-target/implementing-target.md)
++ Adobe Target MCP服务器 {#mcp}
+   + [概述](c-integrating-target-with-mac/mcp/target-mcp.md)
+   + [快速入门](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
+   + [用例和演练](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
+   + [MCP服务器工具参考](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
 + 将Target与Experience Cloud集成 {#integrate}
    + 将Adobe Analytics作为Target报表源(A4T) {#a4t}
       + [A4T 概述](c-integrating-target-with-mac/a4t/a4t.md)
@@ -107,11 +112,6 @@ ht-degree: 83%
          + {hide-from-toc}[在网页中添加或隐藏组件](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [将Target与Experimentation Accelerator集成](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Experience Cloud 受众](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Adobe Target MCP服务器 {#mcp}
-      + {hide-from-toc}[概述](c-integrating-target-with-mac/mcp/target-mcp.md)
-      + {hide-from-toc}[开始](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
-      + {hide-from-toc}[用例和演练](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
-      + {hide-from-toc}[MCP服务器工具引用](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
    + 将Target与Adobe Experience Manager (AEM)集成 {#aem}
       + [将Target与AEM集成概述](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 体验片段和内容片段 {#fragments}

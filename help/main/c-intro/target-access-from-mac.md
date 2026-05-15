@@ -4,9 +4,12 @@ description: 了解如何从Adobe Experience Cloud访问 [!DNL Target] 、设置
 title: 如何从 Adobe Experience Cloud 访问 [!DNL Target] ？
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
-source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
+TQID: https://experienceleague.adobe.com/VieoyNb4CtBWO7peyZlJOxfFzTUbbHJvvrcg4yyfWis
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: 355
 ht-degree: 50%
 
 ---
@@ -37,7 +40,7 @@ ht-degree: 50%
 
    ![Adobe 帐户](/help/main/c-intro/assets/adobe-account.png)
 
-1. 在&#x200B;**[!UICONTROL Preferred languages]**&#x200B;页上的[!UICONTROL Account]部分中，**[!UICONTROL Add]**。
+1. 在[!UICONTROL Account]页上的&#x200B;**[!UICONTROL Preferred languages]**&#x200B;部分中，**[!UICONTROL Add]**。
 
    此文本指示，这是您希望在Adobe与您联系时[!DNL Adobe]使用的语言。 这也是在[!DNL Target]和其他[!DNL Adobe Experience Cloud]解决方案的UI中使用的语言。 您可以选择多种语言。
 
@@ -62,7 +65,7 @@ ht-degree: 50%
 
 ## 更改[!DNL Target]产品文档的语言 {#doc-lang}
 
-您的操作系统或浏览器设置应会检测您的首选语言，并以该语言显示文档（如果适用）。[!DNL Target]文档会自动翻译，并在对英文文档做出更改后的几小时内与英文版本保持同步。
+您的操作系统或浏览器设置应会检测您的首选语言，并以该语言显示文档（如果适用）。 [!DNL Target]文档会自动翻译，并在对英文文档做出更改后的几小时内与英文版本保持同步。
 
 您可以通过单击页面标题右上角的“全局”图标（![语言切换器](/help/main/assets/icons/GlobeGrid.svg)），快速将语言更改为任何支持的语言。
 

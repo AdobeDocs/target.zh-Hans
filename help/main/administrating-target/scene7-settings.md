@@ -5,9 +5,14 @@ title: 如何配置 Dynamic Media Classic (Scene7) 集成？
 feature: Administration & Configuration
 role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+TQID: https://experienceleague.adobe.com/LKbjwlGIxrgaU-2i6Ddn1wi-VjsSmpQPAxYkFHRNOYQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: 393
 ht-degree: 92%
 
 ---
@@ -20,9 +25,9 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->将 [!DNL Target] 与 [!DNL Dynamic Media Classic] 集成后，可以交付已上传到 [!DNL Adobe Experience Cloud] 资源文件夹的资源（作为活动的一部分交付）。此集成不允许访问在 [!DNL Dynamic Media Classic] 中上传以便在 [!DNL Target] 活动中交付的所有资源。
+>将 [!DNL Target] 与 [!DNL Dynamic Media Classic] 集成后，可以交付已上传到 [!DNL Adobe Experience Cloud] 资源文件夹的资源（作为活动的一部分交付）。 此集成不允许访问在 [!DNL Dynamic Media Classic] 中上传以便在 [!DNL Target] 活动中交付的所有资源。
 
-如果您已经拥有 [!DNL Dynamic Media] 帐户，则可以提供现有凭据。如果您没有帐户，则可以向 [!DNL Adobe] 代表请求获取使用受限的 [!DNL Dynamic Media Classic] 帐户，而不需要支付额外费用。可以使用此帐户在 [!DNL Target] 中只执行一些限定的操作。当客户的工作流需要使用图像交换功能时，他们可以使用此服务。
+如果您已经拥有 [!DNL Dynamic Media] 帐户，则可以提供现有凭据。 如果您没有帐户，则可以向 [!DNL Adobe] 代表请求获取使用受限的 [!DNL Dynamic Media Classic] 帐户，而不需要支付额外费用。 可以使用此帐户在 [!DNL Target] 中只执行一些限定的操作。 当客户的工作流需要使用图像交换功能时，他们可以使用此服务。
 
 <!-- 
 >[!NOTE]
@@ -30,11 +35,11 @@ ht-degree: 92%
 >A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
 -->
 
-如果未配置此设置，则活动创建工作流中的[!UICONTROL Swap Image offer]选项将不可用。 配置此设置后，[可视体验编辑器 (VEC) 和基于表单的体验编辑器](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中都会提供用于交换/更改图像产品建议的选项。随后，您可以使用图像产品建议，其中包含从 [!DNL Adobe Experience Cloud] 上传以供在 [!DNL Target] 活动中使用的图像。
+如果未配置此设置，则活动创建工作流中的[!UICONTROL Swap Image offer]选项将不可用。 配置此设置后，[可视体验编辑器 (VEC) 和基于表单的体验编辑器](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)中都会提供用于交换/更改图像产品建议的选项。 随后，您可以使用图像产品建议，其中包含从 [!DNL Adobe Experience Cloud] 上传以供在 [!DNL Target] 活动中使用的图像。
 
-在活动创建过程中，如果您想要直接在产品建议或自定义代码中引用公共图像 URL，则应当将图像部署到您自己的 Web 服务器，并在代码中使用您自己的 URL。无法获取已上传到 [!DNL Experience Cloud] 的图像的已发布 URL，以将其直接用在使用 [!DNL Target] 的定位工作流中或这些工作流之外。按照合同规定，不允许使用此功能。
+在活动创建过程中，如果您想要直接在产品建议或自定义代码中引用公共图像 URL，则应当将图像部署到您自己的 Web 服务器，并在代码中使用您自己的 URL。 无法获取已上传到 [!DNL Experience Cloud] 的图像的已发布 URL，以将其直接用在使用 [!DNL Target] 的定位工作流中或这些工作流之外。 按照合同规定，不允许使用此功能。
 
-请注意，[!DNL Dynamic Media] 中图像的存储 URL 和最终发布 URL 是不同的，任何人&#x200B;*不得*&#x200B;使用图像的存储链接创建产品建议，否则将无法正常交付。您必须按照帮助文档中的相关说明来使用图像产品建议功能。
+请注意，[!DNL Dynamic Media] 中图像的存储 URL 和最终发布 URL 是不同的，任何人&#x200B;*不得*&#x200B;使用图像的存储链接创建产品建议，否则将无法正常交付。 您必须按照帮助文档中的相关说明来使用图像产品建议功能。
 
 要与 [!DNL Dynamic Media Classic] ([!DNL Scene7]) 集成，您需要指定以下信息。
 

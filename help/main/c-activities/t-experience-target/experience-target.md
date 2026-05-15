@@ -1,12 +1,16 @@
 ---
 keywords: 定位;体验定位;XT;登陆页面;登陆页面营销活动
-description: 了解如何使用[!UICONTROL Experience Targeting]中的 [!DNL Adobe Target]  (XT)活动，根据营销人员定义的一组规则和标准将内容交付给特定受众。
+description: 了解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Experience Targeting] (XT)活动，根据营销人员定义的一组规则和标准将内容交付给特定受众。
 title: 什么是[!UICONTROL Experience Targeting] (XT)活动？
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+TQID: https://experienceleague.adobe.com/PCTBCP2tGaNZSIAScWLR84B6an42E-2PJ1Ijm0tHrn4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: 437
 ht-degree: 40%
 
 ---
@@ -23,9 +27,9 @@ ht-degree: 40%
 
 ## 情景：体验定位
 
-假定您的网站销售户外装备。您的A/B测试报表显示您有三个体验，可与不同受众引起共鸣。 要应用此发现，您需要在主页上显示不同的主页图像来吸引这些不同的受众，具体取决于访客的位置或喜好。 在此情景中，您希望向新泽西的访客显示徒步旅行图像，向夏威夷的访客显示冲浪图像。另外，还有一类受众喜欢骑车。您希望显示第三个主页图像来吸引喜爱骑车的受众。
+假定您的网站销售户外装备。 您的A/B测试报表显示您有三个体验，可与不同受众引起共鸣。 要应用此发现，您需要在主页上显示不同的主页图像来吸引这些不同的受众，具体取决于访客的位置或喜好。 在此情景中，您希望向新泽西的访客显示徒步旅行图像，向夏威夷的访客显示冲浪图像。 另外，还有一类受众喜欢骑车。 您希望显示第三个主页图像来吸引喜爱骑车的受众。
 
-通过[!UICONTROL Experience Targeting]活动，您可以使用吸引每个受众的不同主页图像来定位这三个受众。 下面的视频（“从 A/B 测试到体验定位”**）向您展示了如何创建定位到这两个州的体验，以及定位到骑车爱好者的第三个体验。该视频还向您介绍了如何对这三个体验进行排序，以实现您的目标。请观看视频，然后继续[创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)。
+通过[!UICONTROL Experience Targeting]活动，您可以使用吸引每个受众的不同主页图像来定位这三个受众。 下面的视频（“从 A/B 测试到体验定位”**）向您展示了如何创建定位到这两个州的体验，以及定位到骑车爱好者的第三个体验。 该视频还向您介绍了如何对这三个体验进行排序，以实现您的目标。 请观看视频，然后继续[创建体验定位活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)。
 
 ## 培训视频：
 
@@ -39,4 +43,4 @@ ht-degree: 40%
 * 描述如何向不同地理区域的受众交付特定于位置的内容
 * 描述如何对体验重新排序，以确保将适当的内容交付给适当的受众
 
->[!VIDEO](https://video.tv.adobe.com/v/38307?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)

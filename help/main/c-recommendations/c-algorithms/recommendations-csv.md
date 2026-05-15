@@ -2,13 +2,16 @@
 keywords: 创建自定义标准;算法;标准;推荐标准;CSV;FTP;上传 CSV
 description: 了解如何上传CSV文件以在Adobe [!DNL Target] 推荐中自定义您的推荐。
 title: 如何在 [!DNL Recommendations]中上传自定义标准？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 9ab594394fab977b6bf83b5c6f5e3cb91b71fe80
+TQID: https://experienceleague.adobe.com/8gSKOQxHGB5TPe6vdhjgy5sAFxN8O7dodITo7wgrR50
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 33%
+source-wordcount: 621
+ht-degree: 32%
 
 ---
 
@@ -19,7 +22,7 @@ ht-degree: 33%
 可通过多种方式访问[!UICONTROL Create New Criteria]屏幕。 某些屏幕选项会根据您访问该屏幕的方式而有所不同。
 
 * 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;库屏幕上，单击&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**。 您在此处创建的标准会自动设置为可用于所有 [!DNL Recommendations] 活动。
-* 使用[!DNL Recommendations] (VEC)创建[!UICONTROL Visual Experience Composer]活动时，在页面上选择一个元素并单击[!UICONTROL Select Criteria]、[!UICONTROL Replace w/ Recommendations]或[!UICONTROL Insert Recommendations Before]后，您会立即转到[!UICONTROL Insert Recommendations After]屏幕。 然后，您可以选择可用的标准，也可以单击&#x200B;**[!UICONTROL Create Criteria]**。 如果创建新标准，则可以保存标准以供其他[!DNL Recommendations]活动使用。 有关详细信息，请参阅[创建推荐活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+* 使用[!UICONTROL Visual Experience Composer] (VEC)创建[!DNL Recommendations]活动时，在页面上选择一个元素并单击[!UICONTROL Replace w/ Recommendations]、[!UICONTROL Insert Recommendations Before]或[!UICONTROL Insert Recommendations After]后，您会立即转到[!UICONTROL Select Criteria]屏幕。 然后，您可以选择可用的标准，也可以单击&#x200B;**[!UICONTROL Create Criteria]**。 如果创建新标准，则可以保存标准以供其他[!DNL Recommendations]活动使用。 有关详细信息，请参阅[创建推荐活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 * 编辑[!DNL Recommendations]活动时，单击页面上的[!UICONTROL Recommendations Location]框并选择&#x200B;**[!UICONTROL Change Criteria]**。 在[!UICONTROL Select Criteria]屏幕上单击&#x200B;**[!UICONTROL Create Criteria]**。 您可以保存新建的标准，以供在其他[!DNL Recommendations]活动中使用。
 
 以下步骤假定您使用第一个方法访问[!UICONTROL Create New Criteria]屏幕： **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;库屏幕。
@@ -44,7 +47,7 @@ ht-degree: 33%
 
 1. 在&#x200B;**[!UICONTROL Upload CSV]**&#x200B;部分中，选择CSV文件的&#x200B;**[!UICONTROL Location]**。
 
-   要成功上传，CSV 文件的格式设置必须正确。单击&#x200B;**[!UICONTROL Download the CSV template]**&#x200B;可获取格式正确的CSV文件。
+   要成功上传，CSV 文件的格式设置必须正确。 单击&#x200B;**[!UICONTROL Download the CSV template]**&#x200B;可获取格式正确的CSV文件。
 
    您可以选择以下两个位置：
 
@@ -58,9 +61,9 @@ ht-degree: 33%
 
 * 自定义标准实体（行）最多可包含 1,000 个推荐项目（列）。
 
-* 自定义标准更新默认为“累计”。CSV 上传文件中指定的新键值对会覆盖现有的键值对。没有在CSV上传中指定键的现有键值对仍可用于交付，并且会在上次将其作为CSV文件的一部分上传后的31天内过期。
+* 自定义标准更新默认为“累计”。 CSV 上传文件中指定的新键值对会覆盖现有的键值对。 没有在CSV上传中指定键的现有键值对仍可用于交付，并且会在上次将其作为CSV文件的一部分上传后的31天内过期。
 
-  要使设置能够放弃下一次 CSV 上传中未包含的现有结果，请与客户关怀团队联系。如果启用此设置，则只有自定义CSV馈送文件中存在的键可用于交付。 此设置适用于所有自定义标准。
+  要使设置能够放弃下一次 CSV 上传中未包含的现有结果，请与客户关怀团队联系。 如果启用此设置，则只有自定义CSV馈送文件中存在的键可用于交付。 此设置适用于所有自定义标准。
 
 * 自定义标准信息源每 24 小时更新一次。
 
@@ -73,7 +76,7 @@ ht-degree: 33%
   | 错误消息 | 详细信息 |
   |--- |--- |
   | 未知错误 | 指示出现内部技术错误。 |
-  | 解析错误 | 信息源文件格式可能出现问题。更正文件格式并重新保存算法，这会重新启动文件下载过程。 |
+  | 解析错误 | 信息源文件格式可能出现问题。 更正文件格式并重新保存算法，这会重新启动文件下载过程。 |
   | 未找到服务器 | 请提供 Internet 上可见的 IP 或主机名称。 |
   | 凭据错误 | 请提供服务器上某个活跃帐户的有效用户名和密码。 |
   | 未找到目录 | 请提供服务器上存在的目录。 |

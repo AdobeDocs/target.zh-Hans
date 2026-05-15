@@ -4,16 +4,21 @@ description: 了解如何创建在[!UICONTROL Form-Based Experience Composer]中
 title: 如何创建JSON选件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/BI7N44iK4Ce2xOiz1vgh4O9efGZFAvK83RsL1368ItU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 25%
+source-wordcount: 475
+ht-degree: 22%
 
 ---
 
 # 创建 JSON 产品建议
 
-在[!UICONTROL Offer Library]的[!DNL Adobe Target]中创建JSON选件以在[!UICONTROL Form-Based Experience Composer]中使用。
+在[!DNL Adobe Target]的[!UICONTROL Offer Library]中创建JSON选件以在[!UICONTROL Form-Based Experience Composer]中使用。
 
 JSON选件可用于基于表单的活动，以启用以下用例：需要通过[!DNL Target]决策来以JSON格式发送选件，以便在SPA框架或服务器端集成中使用。
 
@@ -23,10 +28,10 @@ JSON选件可用于基于表单的活动，以启用以下用例：需要通过[
 
 * JSON选件当前仅可用于[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Experience Targeting] (XT)活动。
 * JSON选件只能在[基于表单的活动](/help/main/c-experiences/form-experience-composer.md)中使用。
-* 当您使用[服务器端API和Mobile Node.js、Java、.NET和Python SDK](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/server-side/server-side-overview){target=_blank}时，可以直接检索JSON选件。
-* 在浏览器中，只能通过at.js 1.2.3（或更高版本）并使用[getOffer()](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}来检索JSON选件，方法是使用`setJson`操作筛选操作。
-* JSON 选件可作为原生 JSON 对象而不是字符串来交付。这些对象的用户不必再将对象作为字符串处理后再将其转换为 JSON 对象。
-* 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。开发人员必须编写代码以使用[getOffer()](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}明确获取选件。
+* 当您使用[服务器端API和Mobile Node.js、Java、.NET和Python SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/server-side-overview){target=_blank}时，可以直接检索JSON选件。
+* 在浏览器中，只能通过at.js 1.2.3（或更高版本）并使用[getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}来检索JSON选件，方法是使用`setJson`操作筛选操作。
+* JSON 选件可作为原生 JSON 对象而不是字符串来交付。 这些对象的用户不必再将对象作为字符串处理后再将其转换为 JSON 对象。
+* 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。 开发人员必须编写代码以使用[getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}明确获取选件。
 
 ## 创建JSON选件 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
@@ -40,13 +45,13 @@ JSON选件可用于基于表单的活动，以启用以下用例：需要通过[
 
 ## JSON示例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-仅在使用基于表单的体验编辑器[创建的活动中支持JSON选件。 &#x200B;](/help/main/c-experiences/form-experience-composer.md)目前，能够使用JSON选件的唯一方法是通过直接API/SDK调用。
+仅在使用基于表单的体验编辑器[创建的活动中支持JSON选件。 ](/help/main/c-experiences/form-experience-composer.md)目前，能够使用JSON选件的唯一方法是通过直接API/SDK调用。
 
 示例如下：
 
 ![创建JSON选件对话框](/help/main/c-experiences/c-manage-content/assets/json-example.png)
 
-传递到 success 回调的操作是一个对象数组。假设您有单个JSON选件，该选件具有以下内容：
+传递到 success 回调的操作是一个对象数组。 假设您有单个JSON选件，该选件具有以下内容：
 
 ```json
 { 

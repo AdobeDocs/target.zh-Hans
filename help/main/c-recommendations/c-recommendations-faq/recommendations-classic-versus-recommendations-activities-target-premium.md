@@ -2,13 +2,17 @@
 keywords: 推荐;推荐算法;推荐活动;经典版推荐
 description: 查看信息以帮助您了解旧的经典版推荐与 [!DNL Target] Premium 中推荐活动之间的区别。
 title: 经典版推荐与 [!DNL Target] Premium 中的推荐之间有什么区别？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+TQID: https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 88%
+source-wordcount: 665
+ht-degree: 86%
 
 ---
 
@@ -18,13 +22,13 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->“推荐”活动作为 [!DNL Target Premium] 解决方案的一部分提供。如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
+>“推荐”活动作为 [!DNL Target Premium] 解决方案的一部分提供。 如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
 
-在 [!DNL Recommendations] Classic 产品中，显示推荐的方法是先在页面上创建一个数据收藏集 mbox，然后在页面上的某个特定位置添加一个显示 mbox。通过 [!DNL Target Premium] 中的 [!DNL Recommendations] 活动，您可以收集访客信息，并在页面上的任意位置创建推荐，而无需为要用于推荐产品或内容的每个位置分别创建一个 mbox。只需在页面的标头中使用一个简单的 JavaScript 引用，便可以在页面上的任意位置创建推荐。使用此 JavaScript 引用可将 [!DNL Target] 和 `entity.id` 等键传递到全局 `entity.categoryId` mbox。
+在 [!DNL Recommendations] Classic 产品中，显示推荐的方法是先在页面上创建一个数据收藏集 mbox，然后在页面上的某个特定位置添加一个显示 mbox。 通过 [!DNL Target Premium] 中的 [!DNL Recommendations] 活动，您可以收集访客信息，并在页面上的任意位置创建推荐，而无需为要用于推荐产品或内容的每个位置分别创建一个 mbox。 只需在页面的标头中使用一个简单的 JavaScript 引用，便可以在页面上的任意位置创建推荐。 使用此 JavaScript 引用可将 [!DNL Target] 和 `entity.id` 等键传递到全局 `entity.categoryId` mbox。
 
-[!DNL Recommendations Classic] 在 [!DNL Experience Cloud] UI 中显示为其自身的卡片。[!DNL Recommendations] 活动可在 [!DNL Target Premium] 工作流中找到。
+[!DNL Recommendations Classic] 在 [!DNL Experience Cloud] UI 中显示为其自身的卡片。 [!DNL Recommendations] 活动可在 [!DNL Target Premium] 工作流中找到。
 
-[!DNL Recommendations Classic] 用户可以继续在 [!DNL Target Recommendations] 中使用他们的 [!DNL Recommendations] mbox。这些用户也可以将经典方法与 [!DNL Target] 方法结合使用，方法是保留其 mbox，并在标头中使用 JavaScript 代码来激活 [!DNL Recommendations] 功能，以便用于页面上的其他元素。但是，为获取完整的 [!DNL Target] 功能，[!DNL Recommendations Classic] 用户可能倾向于删除旧的 mbox，而仅依赖 [!DNL Target Recommendations]。
+[!DNL Recommendations Classic] 用户可以继续在 [!DNL Target Recommendations] 中使用他们的 [!DNL Recommendations] mbox。 这些用户也可以将经典方法与 [!DNL Target] 方法结合使用，方法是保留其 mbox，并在标头中使用 JavaScript 代码来激活 [!DNL Recommendations] 功能，以便用于页面上的其他元素。 但是，为获取完整的 [!DNL Target] 功能，[!DNL Recommendations Classic] 用户可能倾向于删除旧的 mbox，而仅依赖 [!DNL Target Recommendations]。
 
 与 [!DNL Recommendations Classic] 相比，[!DNL Target] 中的 [!DNL Recommendations] 活动主要在以下方面做出了改进：
 
@@ -39,23 +43,23 @@ ht-degree: 88%
 * 使用[!UICONTROL Auto-Allocate]自动将流量推送到性能最佳的推荐体验。
 * 使用[!UICONTROL Auto-Target]根据访客的配置文件动态地为他们分配量身定制的推荐体验。
 
-若要开始，请使用[!UICONTROL A/B Test]创建一个[!UICONTROL Experience Targeting]或[!UICONTROL Visual Experience Composer]活动，然后使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]操作向体验添加推荐。
+若要开始，请使用[!UICONTROL Visual Experience Composer]创建一个[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活动，然后使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]操作向体验添加推荐。
 
 有关更多信息，请参阅[将推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 
 ## 标准 {#section_117709846DAA404580EBE879FFCBD9BA}
 
-[!DNL Target Recommendations] 具有一个标准库，其中包含预先打包的规则集和配置集。而在 [!DNL Recommendations Classic] 中，需要通过填写表单并从很长的规则列表中选择规则来手动构建每个推荐。现在，创建 [!DNL Recommendations] 活动时，您只需选择预先配置的标准集即可。您仍可创建自定义推荐，但是标准库中包含很多最常用的配置，这些配置是为了简化流程而预先构建的，而且使用的是用户易于理解的语言。您可以原封不动地使用这些预先打包的标准，也可以复制并编辑这些标准以满足您的具体需求。
+[!DNL Target Recommendations] 具有一个标准库，其中包含预先打包的规则集和配置集。 而在 [!DNL Recommendations Classic] 中，需要通过填写表单并从很长的规则列表中选择规则来手动构建每个推荐。 现在，创建 [!DNL Recommendations] 活动时，您只需选择预先配置的标准集即可。 您仍可创建自定义推荐，但是标准库中包含很多最常用的配置，这些配置是为了简化流程而预先构建的，而且使用的是用户易于理解的语言。 您可以原封不动地使用这些预先打包的标准，也可以复制并编辑这些标准以满足您的具体需求。
 
 ![overview_criteria图像](assets/overview_criteria.png)
 
-预先配置的标准按垂直行业、页面类型和实施进行排序。例如，您可以查找以下标准：适用于零售行业，要用在产品页面上，且显示属于某个特定类别（由 `entity.categoryID` 参数定义）的产品。
+预先配置的标准按垂直行业、页面类型和实施进行排序。 例如，您可以查找以下标准：适用于零售行业，要用在产品页面上，且显示属于某个特定类别（由 `entity.categoryID` 参数定义）的产品。
 
 有关使用和创建标准的更多信息，请参阅[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)。
 
 ## 工作流 {#section_76B4A26297BF422382DE2C79A2713D3C}
 
-[!DNL Recommendations] 工作流已得到简化。现在，您只需按照可视化工作流执行以下操作，而无需填写复杂的表单：
+[!DNL Recommendations] 工作流已得到简化。 现在，您只需按照可视化工作流执行以下操作，而无需填写复杂的表单：
 
 1. 选择标准。
 1. 选择预配置的[设计](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)。
@@ -63,16 +67,16 @@ ht-degree: 88%
 
 ## 可视化预览 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
-设置推荐后，您可以预览推荐，并进行任何必要的更改，而无需在页面上创建推荐，然后对其进行测试。可从 [!DNL Target] 中进行预览。
+设置推荐后，您可以预览推荐，并进行任何必要的更改，而无需在页面上创建推荐，然后对其进行测试。 可从 [!DNL Target] 中进行预览。
 
 ## 定位 {#section_93295EA0DBA14210B8518AF4802A459F}
 
-在 [!DNL Recommendations Classic] 中，有 6 个定位选项，而“推荐”活动可使用 Target 的全部定位选项。使用 [!DNL Target] 或其他 [!DNL Adobe Experience Cloud] 受众（例如 [!DNL Audience Manager] 和 [!DNL Analytics]）定义受众，然后选择看到每个设计的活动参加者所占的百分比，以及看到控制的参加者所占的百分比。
+在 [!DNL Recommendations Classic] 中，有 6 个定位选项， 而“推荐”活动可使用 Target 的全部定位选项。 使用 [!DNL Target] 或其他 [!DNL Adobe Experience Cloud] 受众（例如 [!DNL Audience Manager] 和 [!DNL Analytics]）定义受众，然后选择看到每个设计的活动参加者所占的百分比，以及看到控制的参加者所占的百分比。
 
 ![overview_targeting图像](assets/overview_targeting.png)
 
 ## 报表 {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
-在 [!DNL Target] 中，[!DNL Recommendations] 提供了改进的报表，现在，报表可以利用 [!DNL Target] 和 [!DNL Experience Cloud] 提供的各项功能。以前只会显示由 [!DNL Recommendations] 产生的提升度（与没有推荐的结果相比），但现在，您可以查看与 [!DNL Recommendations] 活动有关的各个方面的信息。
+在 [!DNL Target] 中，[!DNL Recommendations] 提供了改进的报表，现在，报表可以利用 [!DNL Target] 和 [!DNL Experience Cloud] 提供的各项功能。 以前只会显示由 [!DNL Recommendations] 产生的提升度（与没有推荐的结果相比），但现在，您可以查看与 [!DNL Recommendations] 活动有关的各个方面的信息。
 
 ![overview_report图像](assets/overview_report.png)

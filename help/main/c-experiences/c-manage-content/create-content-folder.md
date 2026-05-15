@@ -4,10 +4,13 @@ description: 如何在[!UICONTROL Offers]库中创建文件夹？
 title: 了解如何在[!UICONTROL Offers]库中创建用于保存代码和图像选件的文件夹以及其他文件夹。
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/Z-iggfiOB-GEAhHr-J-IpK6qD9T-TGoASkVwcVMP3oY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 6%
+source-wordcount: 262
+ht-degree: 8%
 
 ---
 
@@ -15,7 +18,7 @@ ht-degree: 6%
 
 在[!DNL Adobe Target] [!UICONTROL Offer]库中创建文件夹以保存代码选件和图像选件。 您还可以创建文件夹以创建子文件夹结构。
 
-为代码选件和图像选件创建文件夹的流程略有不同。 以下部分包含更多信息。
+为代码选件和图像选件创建文件夹的流程略有不同。 以下部分包含更多相关信息。
 
 ## [!UICONTROL Code Offer]文件夹
 

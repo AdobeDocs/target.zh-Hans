@@ -2,13 +2,16 @@
 keywords: 自定义设计;Velocity;小数;逗号;自定义设计
 description: 了解如何使用开源 [!DNL Velocity] 设计语言自定义 [!DNL Target] 推荐中的推荐设计。
 title: 如何使用Velocity自定义设计？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
+TQID: https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 33%
+source-wordcount: 1083
+ht-degree: 32%
 
 ---
 
@@ -20,9 +23,9 @@ ht-degree: 33%
 
 有关[!DNL Velocity]的信息可在[https://velocity.apache.org](https://velocity.apache.org)中找到。
 
-所有[!DNL Velocity]逻辑、语法等均可用于推荐设计。 这意味着您可以使用&#x200B;*而不是JavaScript创建* for *循环、* if[!DNL Velocity]语句和其他代码。
+所有[!DNL Velocity]逻辑、语法等均可用于推荐设计。 这意味着您可以使用[!DNL Velocity]而不是JavaScript创建&#x200B;*for*&#x200B;循环、*if*&#x200B;语句和其他代码。
 
-发送到[!DNL Recommendations] mbox中的`productPage`或CSV上传的实体属性可以在设计中显示，但“多值”属性除外。 可以发送任何类型的属性；但是，[!DNL Target]不会将“多值”类型的属性作为模板可对其进行迭代的数组传递（例如`entityN.categoriesList`）。
+发送到`productPage` mbox中的[!DNL Recommendations]或CSV上传的实体属性可以在设计中显示，但“多值”属性除外。 可以发送任何类型的属性；但是，[!DNL Target]不会将“多值”类型的属性作为模板可对其进行迭代的数组传递（例如`entityN.categoriesList`）。
 
 这些值引用了下列语法：
 
@@ -125,7 +128,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 >
 >如果要在指示属性名称的标记完成之前在属性的值之后添加文本，则可以使用正式表示法将属性名称括起来。 例如：`${entity1.thumbnailUrl}.gif`。
 
-您还可以在设计中将`algorithm.name`和`algorithm.dayCount`用作实体属性，以便使用一个设计来测试多个标准，并在该设计中动态显示标准名称。 这样可指示访客查看了“最畅销商品”或属于“查看了这个项目，但购买了那个项目的人”。您甚至还可以使用这些属性来显示`dayCount`（标准中使用的数据所对应的天数，例如“过去2天的最畅销商品”，等等）。
+您还可以在设计中将`algorithm.name`和`algorithm.dayCount`用作实体属性，以便使用一个设计来测试多个标准，并在该设计中动态显示标准名称。 这样可指示访客查看了“最畅销商品”或属于“查看了这个项目，但购买了那个项目的人”。 您甚至还可以使用这些属性来显示`dayCount`（标准中使用的数据所对应的天数，例如“过去2天的最畅销商品”，等等）。
 
 ## 处理[!DNL Velocity]模板中的数字
 
@@ -191,9 +194,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## 显示带有推荐产品的关键项目 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
-您可以对设计进行修改，以便同时显示关键项目和其他推荐产品。例如，您可能想要在推荐产品旁边显示当前项目，以供访客参考。
+您可以对设计进行修改，以便同时显示关键项目和其他推荐产品。 例如，您可能想要在推荐产品旁边显示当前项目，以供访客参考。
 
-要实现这一点，需在设计中创建一个列，并使该列使用您的推荐所基于的 `$key` 属性，而不是 `$entity` 属性。例如，您的关键项目列的代码可能与以下内容类似：
+要实现这一点，需在设计中创建一个列，并使该列使用您的推荐所基于的 `$key` 属性，而不是 `$entity` 属性。 例如，您的关键项目列的代码可能与以下内容类似：
 
 ```
 <div class="at-table-column"> 
@@ -210,7 +213,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ![rec_key图像](assets/rec_key.png)
 
-创建[!DNL Recommendations]活动时，如果关键项目是从访客的配置文件中获取的（例如“上次购买的项目”），则[!DNL Target]会在[!UICONTROL Visual Experience Composer] (VEC)中显示一个随机产品。 这是因为在您设计活动时配置文件不可用。访客查看页面时，他们将看到预期的关键项目。
+创建[!DNL Recommendations]活动时，如果关键项目是从访客的配置文件中获取的（例如“上次购买的项目”），则[!DNL Target]会在[!UICONTROL Visual Experience Composer] (VEC)中显示一个随机产品。 这是因为在您设计活动时配置文件不可用。 访客查看页面时，他们将看到预期的关键项目。
 
 ## 在字符串值中执行替换 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -246,7 +249,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 * 如果存在第五个实体，脚本将插入一个闭合 div，并使用 `<div class="at-table-row">` 另起一个新行。
 * 在 4x2 设计中，显示的结果最多为 8 个，但可以通过修改 `$count <=8` 对该值进行自定义，以适应较小或较大的列表。
-* 请注意，该逻辑无法将实体均衡地分布在多个行上。例如，如果有五个或六个实体要显示，则不会动态地变为顶行显示三个，底行显示两个（或顶行显示三个，底行显示三个）。顶行将显示四个项目后，才会另起一行。
+* 请注意，该逻辑无法将实体均衡地分布在多个行上。 例如，如果有五个或六个实体要显示，则不会动态地变为顶行显示三个，底行显示两个（或顶行显示三个，底行显示三个）。 顶行将显示四个项目后，才会另起一行。
 
 ```
 <div class="at-table">

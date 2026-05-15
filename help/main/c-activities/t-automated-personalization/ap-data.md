@@ -2,13 +2,17 @@
 keywords: 环境数据；会话数据；地理数据；设备数据；移动设备数据；属性；配置文件属性；个性化算法；机器学习算法；机器学习算法
 description: 了解 [!DNL Adobe Target] 收集和使用哪些数据来构建其机器学习算法。
 title: 构建机器学习算法时会收集哪些数据？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
+TQID: https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1958'
-ht-degree: 51%
+source-wordcount: 1986
+ht-degree: 50%
 
 ---
 
@@ -20,7 +24,7 @@ ht-degree: 51%
 
 ## 默认[!DNL Target]属性类别
 
-下表显示了[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动在默认情况下收集的数据，没有配置[!DNL Target]或其他[!DNL Adobe]解决方案。 该表还包括用于在[Personalization分析报表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中指示这些属性的命名约定。 您可以随时增加输入数据集。要了解有关如何上载其他数据的更多信息，请参阅[上载 [!DNL Target] 个性化算法的数据](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
+下表显示了[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动在默认情况下收集的数据，没有配置[!DNL Target]或其他[!DNL Adobe]解决方案。 该表还包括用于在[Personalization分析报表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中指示这些属性的命名约定。 您可以随时增加输入数据集。 要了解有关如何上载其他数据的更多信息，请参阅[上载 [!DNL Target] 个性化算法的数据](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
 | 数据类别 | 系统前缀 | 描述 | 在[!UICONTROL Insights]报告中显示名称 |
 | --- | --- | --- | --- |
@@ -38,18 +42,18 @@ ht-degree: 51%
 | --- | --- | --- | --- |
 | 页面参数 | BOX | 在对[!DNL Target]的调用中传递的自定义页面参数（“mbox参数”）。 | 自定义 — Mbox参数 — [参数名称] |
 | [!DNL Target]配置文件 | PRO | 自定义配置文件属性通过API或页面参数和[!DNL Target]配置文件脚本直接上传到[!DNL Target]配置文件。 | 自定义 — 访客配置文件 — [属性名称] |
-| 客户属性 | CRS | 客户属性已通过[!DNL Target][[!DNL Adobe Experience Cloud Customer Attributes Service]上传到](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=zh-Hans){target=_blank}配置文件。 | 自定义 — 访客配置文件 — [属性名称] |
+| 客户属性 | CRS | 客户属性已通过[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}上传到[!DNL Target]配置文件。 | 自定义 — 访客配置文件 — [属性名称] |
 | URL parameters（URL 参数） | URL | 当前查看页面的URL和任何URL参数。 | 自定义 — URL参数 — [URL参数] |
 | 反向链接 URL | 参照 | 反向链接URL和任何反向链接URL的参数。 | 自定义 — [引荐URL参数] - [参数值] |
-| [!DNL Adobe Experience Cloud]共享受众 | AAM | 从其他[!DNL Target]解决方案（例如，[!DNL Adobe Experience Cloud]和[!DNL Adobe Audience Manager]，通过[!DNL Adobe Analytics][[!DNL Experience Cloud Audience Library]）与](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=zh-Hans){target=_blank}共享的所有受众。 | 自定义 — Experience Cloud受众 — [受众名称] |
-| [!DNL Adobe Experience Platform Real-time CDP]个受众 | UPS | 通过[!DNL Target]与[!UICONTROL Destinations]共享的Platform Real-time CDP受众。 |  |
+| [!DNL Adobe Experience Cloud]共享受众 | AAM | 从其他[!DNL Adobe Experience Cloud]解决方案（例如，[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]，通过[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}）与[!DNL Target]共享的所有受众。 | 自定义 — Experience Cloud受众 — [受众名称] |
+| [!DNL Adobe Experience Platform Real-time CDP]个受众 | UPS | 通过[!UICONTROL Destinations]与[!DNL Target]共享的Platform Real-time CDP受众。 |  |
 
 
 ## 阻止来自[!DNL Target]机器学习算法的功能
 
 可以从[!DNL Target]机器学习算法中阻止功能，防止在任何[!UICONTROL Automated Personalization]或[!UICONTROL Auto-Target]模型或活动中使用它们。
 
-列入阻止列表有关详细信息，请参阅[开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hans){target=_blank}中的&#x200B;*[!DNL Adobe Target]模型API()概述*。
+有关详细信息，请参阅&#x200B;*[!DNL Adobe Target]开发人员指南*&#x200B;中的[模型API()概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}。
 
 ## 设备和移动设备数据 {#device-mobile}
 
@@ -72,7 +76,7 @@ ht-degree: 51%
 
 | 属性名称 | 属性描述 | 示例值 | 系统名称 |
 | --- | --- | --- | -- |
-| 浏览器 - 每周时间 | 访客在一周中访问活动的时间。 | 0 - 6。<br>（0 表示星期日） | ENV_DayOfWeek |
+| 浏览器 - 每周时间 | 访客在一周中访问活动的时间。 | 0 - 6.<br>（0是星期日） | ENV_DayOfWeek |
 | 浏览器 - 每日时段 | 访客在一天中访问活动的时段。 | 0 - 23<br>（0表示午夜） | ENV_UserHour |
 | 浏览器 - 每周时段 | 访客在一周中访问活动的时段。 | 0 - 168<br>（星期日的午夜为0） | ENV_WeekHour |
 | 浏览器 - 语言设置 | 访客用于访问活动的浏览器中指定的语言。 | 英语<br>德语 | 环境语言 |
@@ -111,18 +115,18 @@ ht-degree: 51%
 | 访客轮廓 - 活动生命周期订单值 | 指定某个特定活动的所有访问/会话中的全部订单值总和。 | 双精度 | SES_CUMULATIVE_ORDER_VALUE |
 | 访客轮廓 - 活动生命周期网站停留时间 | 指定访客在网站上花费的总时间，不包括当前会话，该时间值将在会话过期时更新。 | 双精度，毫秒 | SES_TOTAL_TIME |
 | 访客轮廓 - 活动期间每次访问的平均页面查看次数 | 指定每个会话的平均页面查看次数，不包括当前会话。 | 双精度 | SES_REQUESTS_PER_SESSION |
-| 访客轮廓 - 每次访问平均逗留时间 | 指定每次访问/会话所花费的平均时间。不包括当前会话。 | 双精度，毫秒 | SES_TIME_PER_SESSION |
+| 访客轮廓 - 每次访问平均逗留时间 | 指定每次访问/会话所花费的平均时间。 不包括当前会话。 | 双精度，毫秒 | SES_TIME_PER_SESSION |
 | 访客轮廓 - 首次访问 | 指定用户首次访问时与[!DNL Target]进行交互的时间。 | 双精度，毫秒 | ses_PROFILE_CREATION_TIME |
 | 访客轮廓 - 距上次访问的小时数 | 指定距上次访问此特定活动的小时数。 | 双精度（仅限正整数） 1、2、3等。 | SES_HOURS_SINCE_LAST_VISIT |
 | 访客轮廓 - 位置/内容的展示次数 | 指定某个特定位置/内容组合在特定活动中的展示次数。 | 双精度（仅限正整数） 1、2、3等。 | SES_CUMULATIVE_ACTION_[LOCATION_ID]_[CONTENT_ID] |
 | 访客配置文件 — 最近[!DNL Target]次交互 | 指定上次与[!DNL Target]交互的时间。 每次提出[!DNL Target]请求时都会发生交互，因为[!DNL Target]的当前实现会更新每个请求上的配置文件。 | 双精度，毫秒 | SES_PROFILE_UPDATE_TIME |
 | 访客轮廓 - 活动之前查看的页面数 | 指定在访客进入活动之前的页面查看总次数（展示次数），包括当前访问/会话。 | 双精度（仅限正整数） 1、2、3等。 | SES_TOTAL_PAGE_VIEWS |
-| 访客轮廓 - 当前访问中的页面查看次数 | 指定在访客进入活动之前，当前访问/会话中的页面查看次数。 精度更高的展示次数。这些展示次数不是实际的页面查看次数，而是请求达到[!DNL Target]的次数。 [!DNL Target]无法区分用户是因为超时还是任何其他原因而未能接收或查看内容。 | 双精度（仅限正整数） | SES_SESSION_POSITION |
+| 访客轮廓 - 当前访问中的页面查看次数 | 指定在访客进入活动之前，当前访问/会话中的页面查看次数。 精度更高的展示次数。 这些展示次数不是实际的页面查看次数，而是请求达到[!DNL Target]的次数。 [!DNL Target]无法区分用户是因为超时还是任何其他原因而未能接收或查看内容。 | 双精度（仅限正整数） | SES_SESSION_POSITION |
 | 访客轮廓 - 当前访问的开始时间 | 指定与[!DNL Target]的当前访问/会话开始的时间。 无需进入活动即可启动具有[!DNL Target]的访问。 只需调用任何[!DNL Target]请求即可。 访客可能需要一段时间才能进入活动并拍摄快照。 | 双精度，毫秒 | SES_SESSION_START |
 | 访客轮廓 - 最近一次访问的开始时间 | 指定与[!DNL Target]的上次访问/会话开始的时间。 此属性将在会话过期时更新。<br>如果这是访客的第一个会话，则会导致`LAST_SESSION_START = 0.` | 双精度，毫秒 | SES_LAST_SESSION_START |
 | 访客轮廓 - 首次进入活动时距最近一次访问的时间 | 指定从上一个会话到用户进入活动并拍摄快照所经过的时间。 | 双精度，毫秒 | SES_RECENCY |
 | 访客轮廓 - 进入活动前的访问时间 | 指定上次与[!DNL Target]的交互与当前访问开始时间之间的差异。 此属性可视为在用户进入活动并拍摄快照之前，访问/会话的持续时间。<br>如果会话开始时间和上次更新时间由同一[!DNL Target]调用触发，则会出现负值。 负值应视为 0（零）。 | 双精度，毫秒 | SES_SESSION_TIME |
-| 访客轮廓 - 访问总数 | 指定访问/会话的总数。不包括当前访问/会话。 | 双精度（仅限正整数） 1、2、3等。 | SES_TOTAL_SESSIONS |
-| 访客轮廓 - 活动访问总数 | 指定某个特定活动的访问次数。如果之前未访问过该活动，则将返回 0（零）。 | 双精度（仅限正整数） 1、2、3等。 | SES_PREVIOUS_VISIT_COUNT |
+| 访客轮廓 - 访问总数 | 指定访问/会话的总数。 不包括当前访问/会话。 | 双精度（仅限正整数） 1、2、3等。 | SES_TOTAL_SESSIONS |
+| 访客轮廓 - 活动访问总数 | 指定某个特定活动的访问次数。 如果之前未访问过该活动，则将返回 0（零）。 | 双精度（仅限正整数） 1、2、3等。 | SES_PREVIOUS_VISIT_COUNT |
 | 访客轮廓 - 有转化时的活动访问总数 | 指定在访问期间至少有一次转化时某个特定活动的访问/会话数。 | 双精度 | SES_CUMULATIVE_SUCCESSATIONS |
-| 访客轮廓 - 无转化时的活动访问数 | 无转化时，某个特定活动的访问/会话数。发生转化后，此值将重置为零；如果从未发生转化，此值将重置为 -1。 | 双精度（仅限正整数） 1、2、3等。 | SES_SUCCESS_RECENCY |
+| 访客轮廓 - 无转化时的活动访问数 | 无转化时，某个特定活动的访问/会话数。 发生转化后，此值将重置为零；如果从未发生转化，此值将重置为 -1。 | 双精度（仅限正整数） 1、2、3等。 | SES_SUCCESS_RECENCY |

@@ -4,10 +4,13 @@ description: 了解如何使用Adobe [!DNL Target] QA书签强制 [!DNL Target] 
 title: 如何使用活动QA书签？
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
-source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
+TQID: https://experienceleague.adobe.com/kOQcdF2WgiAGkOS3rrLWfDSFTvRJX8jb-IeaahWnM0c
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 13%
+source-wordcount: 272
+ht-degree: 12%
 
 ---
 
@@ -17,9 +20,9 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->创建书签的过程因浏览器类型和版本而异。请参阅浏览器的帮助或在 Internet 上搜索具体说明。
+>创建书签的过程因浏览器类型和版本而异。 请参阅浏览器的帮助或在 Internet 上搜索具体说明。
 
-## at.js 1.*x*
+## at.js 1.*x*&#x200B;的活动QA书签
 
 由于[QA模式](/help/main/c-activities/c-activity-qa/activity-qa.md)具有粘滞性，因此以QA模式浏览网站后，[!DNL Target]会话必须过期，或者需要让[!DNL Target]将您从QA模式中释放出来，然后才能像普通访客一样查看您的网站。 使用QA [!DNL Target]书签强制自己退出QA模式。
 
@@ -48,9 +51,9 @@ javascript:(
 
 `https://www.mysite.com/?at_preview_token=`
 
-## at.js 2.*x*
+## at.js 2.*x*&#x200B;的活动QA书签
 
-与at.js 1.*x*，at.js 2.*x*&#x200B;不支持第三方Cookie，并且QA模式仅对第一方域有粘性（通过at.js设置的第一方Cookie）。 因此，在at.js 2.*x*，QA模式会话仅在客户端进行管理，并且不会向Target发送任何QA模式Cookie。
+与at.js 1.*x*&#x200B;相比，at.js 2.*x*&#x200B;不支持第三方Cookie，并且QA模式仅对第一方域具有粘性（通过at.js设置的第一方Cookie）。 因此，在at.js 2.*x*&#x200B;中，QA模式会话仅在客户端进行管理，并且不会向Target发送任何QA模式Cookie。
 
 要使用[!DNL Target] QA书签，请创建包含以下JavaScript代码的书签，并将其添加到浏览器的书签工具栏：
 

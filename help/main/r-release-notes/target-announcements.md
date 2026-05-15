@@ -6,16 +6,21 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/jTTFaG0rC7XEmy7yzL3YSeCqEdMy-oH9mbCMvufT-FQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '2049'
-ht-degree: 97%
+source-wordcount: 2190
+ht-degree: 95%
 
 ---
 
 # [!DNL Adobe Target]公告和活动
 
-关于 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。包括以往录像（如果有的话）的链接。
+关于 [!DNL Adobe Target] 活动的公告和信息，包括 [!DNL Target] 咖啡时间讲座、[!DNL Target] 网络研讨会系列、[!DNL Target] Skill Builder 讲座、开发人员聊天等。 包括以往录像（如果有的话）的链接。
 
 <!--
 ## Adobe Target Community Q&A Coffee Break
@@ -23,7 +28,7 @@ ht-degree: 97%
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123?profile.language=zh-Hans){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
 +++Details
 
@@ -33,9 +38,9 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 * How a non-technical user or marketer is in full control of configuring and managing the algorithms.
 * How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=zh-Hans){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=zh-Hans){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
 +++
 -->
@@ -58,25 +63,25 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 * **探索无尽的可能性**
 
-  个性化成熟度的核心是人工智能和机器学习。[!DNL Adobe Target] 利用这些技术了解用户行为、预测偏好并动态地定制内容。通过利用 AI 和 ML 的强大功能，了解品牌如何超越静态 A/B 测试和基于规则的个性化以投放动态、与情境相关的体验。
+  个性化成熟度的核心是人工智能和机器学习。 [!DNL Adobe Target] 利用这些技术了解用户行为、预测偏好并动态地定制内容。 通过利用 AI 和 ML 的强大功能，了解品牌如何超越静态 A/B 测试和基于规则的个性化以投放动态、与情境相关的体验。
 
-  [收听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=zh-Hans){target=_blank}
+  [收听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **高性能建议**
 
-  了解推荐算法如何变革商业规则，从而提高参与度和收入。从个性化产品建议到内容推荐，无缝引导用户完成整个历程的能力可直接有助于实现显著的业务增长。
+  了解推荐算法如何变革商业规则，从而提高参与度和收入。 从个性化产品建议到内容推荐，无缝引导用户完成整个历程的能力可直接有助于实现显著的业务增长。
 
-  [收听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=zh-Hans#M3685){target=_blank}
+  [听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **发掘 AI 支持的个性化**
 
-  [!DNL Adobe Target] 在客户生命周期的每个阶段都促成 AI 支持的个性化功能，带来一对一的个性化体验。从获取到保留，了解企业如何深入洞察简化流程、最大限度地减少手动工作以及大规模地投放与上下文相关、富有吸引力的客户体验。
+  [!DNL Adobe Target] 在客户生命周期的每个阶段都促成 AI 支持的个性化功能，带来一对一的个性化体验。 从获取到保留，了解企业如何深入洞察简化流程、最大限度地减少手动工作以及大规模地投放与上下文相关、富有吸引力的客户体验。
 
 +++
 
 ### 通过做好旺季准备为获得最大 ROI 影响制定策略
 
-营造吸引人的客户体验以提高转化率。您的企业是否准备好迎接旺季？参加我们的活动，获取有关这次如何实现最佳业绩和最大 ROI 的专家提示。
+营造吸引人的客户体验以提高转化率。 您的企业是否准备好迎接旺季？ 参加我们的活动，获取有关这次如何实现最佳业绩和最大 ROI 的专家提示。
 
 +++查看详细信息
 
@@ -94,9 +99,9 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### 针对经身份验证的环境的移动体验优化和个性化（2023 年 4 月 26 日）
 
-品牌需要根据特定的客户需求和行为提供高度个性化和相关的体验。由于对营销技术中不使用 Cookie 的未来存在疑问，受监管的行业正在寻求采用更强大的客户参与框架，并对每一次客户互动进行优化以提供合适的内容和产品建议。
+品牌需要根据特定的客户需求和行为提供高度个性化和相关的体验。 由于对营销技术中不使用 Cookie 的未来存在疑问，受监管的行业正在寻求采用更强大的客户参与框架，并对每一次客户互动进行优化以提供合适的内容和产品建议。
 
-金融服务和保险、零售、旅游和酒店以及电信行业的品牌如何在经过身份验证的环境中采用有关优化和个性化的最佳实践？了解移动应用程序对于忠诚客户的参与和保留的重要性，品牌如何实现数字自助服务或通过个性化体验来增加新功能的采用？
+金融服务和保险、零售、旅游和酒店以及电信行业的品牌如何在经过身份验证的环境中采用有关优化和个性化的最佳实践？ 了解移动应用程序对于忠诚客户的参与和保留的重要性，品牌如何实现数字自助服务或通过个性化体验来增加新功能的采用？
 
 在本次会议中，了解 [!DNL Adobe Target] 和 [!DNL Real-Time CDP] 如何能够提高受监管行业内的参与度、收入和客户忠诚度，正如我们下面的讨论：
 
@@ -105,15 +110,15 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 * 通过将身份标识匿名化，为经过身份验证的访问者提供个性化的内容和产品建议
 * 针对经过身份验证的安全站点的跨网站和移动设备的独特用例
 
-[录像链接](https://video.tv.adobe.com/v/3418987){target=_blank}
+[录制链接](https://video.tv.adobe.com/v/3418987){target=_blank}
 
 ### 用个性化促进增长的历程
 
 大大增强您的组织投放个性化的能力，由 Adobe 客户成功经理 Ramon Cespedes 主讲。
 
-主要的分析师报告表示，擅长个性化的公司可产生比同类公司多 40% 的收入。为了满足每次点击都产生新颖、密切相关且高度个性化的体验的需求，营销人员需要制定合适的框架和策略。在本网络研讨会中，与 Adobe 的专家一起了解如何利用数据驱动型的框架制定您组织的个性化计划并取得成功。
+主要的分析师报告表示，擅长个性化的公司可产生比同类公司多 40% 的收入。 为了满足每次点击都产生新颖、密切相关且高度个性化的体验的需求，营销人员需要制定合适的框架和策略。 在本网络研讨会中，与 Adobe 的专家一起了解如何利用数据驱动型的框架制定您组织的个性化计划并取得成功。
 
-* [录像链接](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
+* [录制链接](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### 微调 AI 支持的个性化：[!DNL Adobe Target] 中的新增功能（2022 年 10 月 11 日）
 
@@ -121,11 +126,11 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 我们很高兴与大家分享一些在 [!DNL Adobe Target] 的大规模个性化方面的“非常重大的”突破性消息：新的筛选和智能功能将增强 [!DNL Target] 用户微调 AI 支持的个性化活动的能力，从而直接影响对活动最重要的业务量度。
 
-* [录像链接](https://video.tv.adobe.com/v/3410117){target=_blank}
+* [录制链接](https://video.tv.adobe.com/v/3410117){target=_blank}
 
   +++详细信息
 
-  这个新产品公告很及时且非常关键，因为我们已经发现，在过去几年内，无论哪个行业，对个性化的需求都在增加。个性化已成为公司在整个客户历程中从竞争中脱颖而出的一种手段。个性化“随时随地”都非常高效：首先是访客的首次接触，紧接着是将基本数据用于客户获取用例，一直到客户服务和忠诚度用例。
+  这个新产品公告很及时且非常关键，因为我们已经发现，在过去几年内，无论哪个行业，对个性化的需求都在增加。 个性化已成为公司在整个客户历程中从竞争中脱颖而出的一种手段。 个性化“随时随地”都非常高效：首先是访客的首次接触，紧接着是将基本数据用于客户获取用例，一直到客户服务和忠诚度用例。
 
   在本次研讨会中，了解如何利用 [!DNL Adobe Target] 的新增功能来大幅提高转化率，并讨论：
 
@@ -140,13 +145,13 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 实验和个性化方面的自动化继续推动提升市场营销、工程和产品团队的最高转化率和 ROI。 加入 [!DNL Adobe] Skill Builders 课程，学习如何使用 [!DNL Adobe Target] 高级人工智能驱动的用例和功能以及产品和内容推荐，在竞争中保持领先地位并在每一次体验中表现出色。
 
-* [录像链接](https://video.tv.adobe.com/v/3409352/){target=_blank}
+* [录制链接](https://video.tv.adobe.com/v/3409352/){target=_blank}
 
 ### [!DNL Adobe Target] Skill Builders – 移动体验优化（2022 年 9 月 6 日）
 
 移动体验正在推动营销和工程团队进行创新，探索如何在网络和应用程序中利用以产品为导向的跨渠道个性化策略。 加入 [!DNL Adobe] Skill Builders 课程，了解 [!DNL Adobe Target] 如何为营销人员、开发人员和产品所有者解锁新的潜在参与度和收入增长点，以构建繁荣的产品社区。
 
-* [录像链接](https://video.tv.adobe.com/v/347360){target=_blank}
+* [录制链接](https://video.tv.adobe.com/v/347360){target=_blank}
 
   +++详细信息
 
@@ -162,9 +167,9 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### 厨师的收藏集：个性化食谱（2022 年 8 月 30 日）
 
-加入 [!DNL Adobe Target] 团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 基于我们最新的电子书《Chef&#39;s Collection: Ideas for Personalization》。
+加入 [!DNL Adobe Target] [!DNL]团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 基于我们最新的电子书《Chef&#39;s Collection: Ideas for Personalization》。
 
-* [录像链接](https://video.tv.adobe.com/v/346970/){target=_blank}
+* [录制链接](https://video.tv.adobe.com/v/346970/){target=_blank}
 
   +++详细信息
 
@@ -195,9 +200,9 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### [!DNL Adobe]：个性化行业内幕 - 零售（2022 年 8 月 11 日）
 
-2022 年为企业提供了一个动态且快速变化的运行和运营环境。了解行业专家如何发现，随着上班族和旅行者的生活开始恢复正常，新的消费趋势正在形成。
+2022 年为企业提供了一个动态且快速变化的运行和运营环境。 了解行业专家如何发现，随着上班族和旅行者的生活开始恢复正常，新的消费趋势正在形成。
 
-* [录像链接](https://video.tv.adobe.com/v/346323){target=_blank}
+* [录制链接](https://video.tv.adobe.com/v/346323){target=_blank}
 
   +++详细信息
 
@@ -207,7 +212,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### [!DNL Adobe]：精准个性化 - [!DNL Adobe Analytics] 和 [!DNL Target]（2022 年 6 月 2 日）
 
-了解人工智能如何继续重新定义消费者的期望，因为机器学习模型和数据洞察为营销人员、开发人员和产品所有者打开了新的大门，让消费者获得重要的个性化体验。逐步了解个性化、定位和测试的 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流。
+了解人工智能如何继续重新定义消费者的期望，因为机器学习模型和数据洞察为营销人员、开发人员和产品所有者打开了新的大门，让消费者获得重要的个性化体验。 逐步了解个性化、定位和测试的 [!DNL Adobe Analytics] + [!DNL Adobe Target] 工作流。
 
 +++详细信息
 
@@ -222,9 +227,9 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### 迪克体育用品：个性化和零售业的变化（2022 年 5 月 19 日）
 
-了解大规模提升个性化计划的最佳实践。了解 Dick&#39;s Sporting Goods 如何使用 [!DNL Adobe Target] 吸引顶级运动员和品牌。
+了解大规模提升个性化计划的最佳实践。 了解 Dick&#39;s Sporting Goods 如何使用 [!DNL Adobe Target] 吸引顶级运动员和品牌。
 
-* [录像链接](https://video.tv.adobe.com/v/343042){target=_blank}
+* [录制链接](https://video.tv.adobe.com/v/343042){target=_blank}
 
   +++详细信息
 
@@ -243,19 +248,19 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 了解金融服务公司如何使用个性化来支持和通知客户，为通货膨胀模式和投资策略做好准备。
 
-* [录像链接](https://video.tv.adobe.com/v/343240){target=_blank}
+* [录制链接](https://video.tv.adobe.com/v/343240){target=_blank}
 
   +++详细信息
 
-  与 Christopher Young（行业战略金融服务总监）和 James Capasso（Adobe Premier Support 的 Target 顾问）一起了解品牌如何应对需求的即时变化，同时将个性化作为客户互动的中心。了解金融服务公司如何支持和通知世界各地关注近期通货膨胀模式和投资环境的客户。
+  与 Christopher Young（行业战略金融服务总监）和 James Capasso（Adobe Premier Support 的 Target 顾问）一起了解品牌如何应对需求的即时变化，同时将个性化作为客户互动的中心。 了解金融服务公司如何支持和通知世界各地关注近期通货膨胀模式和投资环境的客户。
 
   +++
 
 ### 国民城市银行 (City National Bank)：如何在数字优化中实现前 1% 的目标（2022 年 5 月 26 日）
 
-查看用于实施跨职能个性化策略的工具包和用例。了解 CNB 如何通过 [!DNL Adobe Target] 从行业底部的 26% 上升到前 1%。
+查看用于实施跨职能个性化策略的工具包和用例。 了解 CNB 如何通过 [!DNL Adobe Target] 从行业底部的 26% 上升到前 1%。
 
-* [录像链接](https://video.tv.adobe.com/v/343344){target=_blank}
+* [录制链接](https://video.tv.adobe.com/v/343344){target=_blank}
 
   +++详细信息
 
@@ -272,11 +277,11 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### 网络研讨会：通过 [!DNL Adobe Target] 的设备上决策进行无延迟的个性化和测试
 
-* [录像链接](https://video.tv.adobe.com/v/328148){target=_blank}
+* [录制链接](https://video.tv.adobe.com/v/328148){target=_blank}
 
   +++详细信息
 
-  相比以往，营销人员、产品所有者和开发人员需要更多地在网站上、应用程序中以及他们与客户联系的其他各个环节优化整体客户体验。具有数据筒仓和复杂实现的多个工具无法解决这一问题。
+  相比以往，营销人员、产品所有者和开发人员需要更多地在网站上、应用程序中以及他们与客户联系的其他各个环节优化整体客户体验。 具有数据筒仓和复杂实现的多个工具无法解决这一问题。
 
   在这场录播的网络研讨会中，Adobe Target 产品专家讨论了如何将关键的体验优化决策转移到设备上，无延迟地在本地执行，在为客户提高网站性能的同时创造激动人心的新用例。
 
@@ -288,7 +293,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   +++详细信息
 
-  McKinsey Digital 报告称，“在大约 8 周的时间内，我们在消费者和企业数字采纳方面跨越了五年的发展。”*
+  McKinsey Digital 报告称，“在大约 8 周的时间内，我们在消费者和企业数字采纳方面跨越了五年的发展。” *
 
   消费者需求正在迅速膨胀，因此汇丰银行采用了 Adobe Target 进行优化，以便快速地测试新的客户历程并使之个性化，使得某些开发和启动周期从 6 个月骤降至 1 周！
 

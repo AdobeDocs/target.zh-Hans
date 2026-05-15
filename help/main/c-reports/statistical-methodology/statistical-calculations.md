@@ -1,12 +1,15 @@
 ---
 keywords: 报表；统计方法；统计计算；统计数据；平均值；转化率；每位访客带来的收入；rpv；置信区间；提升度；welch t-test；离线计算
-description: 了解[!UICONTROL A/B Test]中手动 [!DNL Adobe Target]活动中使用的统计计算。
+description: 了解 [!DNL Adobe Target]中手动[!UICONTROL A/B Test]活动中使用的统计计算。
 title: 如何了解[!UICONTROL A/B Test]活动中使用的统计计算？
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: 18f8ccd3edfda635c3f47bd67ff0b7a516748fa8
+TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: 1137
 ht-degree: 2%
 
 ---
@@ -27,11 +30,11 @@ ht-degree: 2%
 
 ### 转化率和每位访客带来的收入(RPV)促销活动
 
-下图显示了[!UICONTROL Conversion Rate]报表中的[!UICONTROL Confidence Interval of Conversion Rate]、[!UICONTROL Conversions]和[!DNL Target]的数量。 例如，第一行显示对于体验A：[!UICONTROL Conversion Rate]为25.81%，[!UICONTROL Confidence Interval]为±7.7%，记录了32次转化。 考虑到有124位访客查看了此体验，则相当于32/124 = 25.81%。
+下图显示了[!DNL Target]报表中的[!UICONTROL Conversion Rate]、[!UICONTROL Confidence Interval of Conversion Rate]和[!UICONTROL Conversions]的数量。 例如，第一行显示对于体验A：[!UICONTROL Conversion Rate]为25.81%，[!UICONTROL Confidence Interval]为±7.7%，记录了32次转化。 考虑到有124位访客查看了此体验，则相当于32/124 = 25.81%。
 
 <p style="text-align:center;"><img width="25%" src="img/conv_rate.png"></p>
 
-实验中每个体验&#x200B;**ν**&#x200B;的转化率或&#x200B;*平均值<sub>，</sub>*&#x200B;μ&#x200B;*ν*&#x200B;定义为量度总和与分配给该量度的单位数的比率&#x200B;*N<sub>ν</sub>*：
+实验中每个体验&#x200B;*ν*&#x200B;的转化率或&#x200B;**平均值**，*μ<sub>ν</sub>*&#x200B;定义为量度总和与分配给该量度的单位数的比率&#x200B;*N<sub>ν</sub>*：
 
 <p style="text-align:center;"><img width="125px" src="img/mean_definition.png"></p>
 
@@ -71,7 +74,7 @@ ht-degree: 2%
 
 ## 提升度
 
-下图显示了[!UICONTROL Lift]报表中的[!UICONTROL Confidence Interval of Lift]和[!DNL Target]。 数字表示提升度范围的平均值，箭头反映提升度是正还是负。 箭头以灰色显示，直到置信度超过95%。 置信度超过阈值后，箭头会根据提升度为正值或负值显示为绿色或红色。
+下图显示了[!DNL Target]报表中的[!UICONTROL Lift]和[!UICONTROL Confidence Interval of Lift]。 数字表示提升度范围的平均值，箭头反映提升度是正还是负。 箭头以灰色显示，直到置信度超过95%。 置信度超过阈值后，箭头会根据提升度为正值或负值显示为绿色或红色。
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
@@ -99,7 +102,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-此计算使用“Delta”方法，并在本文档[中详细介绍了](/help/main/assets/confidence_interval_lift.pdf)
+此计算使用“Delta”方法，并在本文档](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了[
 
 ## [!UICONTROL Confidence]
 

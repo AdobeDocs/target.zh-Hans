@@ -2,21 +2,24 @@
 keywords: 目录搜索；目录；搜索；排除项；收藏集；过滤器；推荐
 description: 了解如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]查找产品或内容、从目录中删除项目等。
 title: 如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
+TQID: https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: 519
 ht-degree: 22%
 
 ---
 
 # [!UICONTROL Catalog Search]
 
-[!UICONTROL Catalog Search]中的[!DNL Adobe Recommendations]页面可帮助您在目录中查找产品或内容。 您可以在此页面上执行的最基本任务是搜索项目。 此外，您还可以更改环境、筛选Facet、修改表中的列、添加新搜索Facet等。
+[!DNL Adobe Recommendations]中的[!UICONTROL Catalog Search]页面可帮助您在目录中查找产品或内容。 您可以在此页面上执行的最基本任务是搜索项目。 此外，您还可以更改环境、筛选Facet、修改表中的列、添加新搜索Facet等。
 
-目录指代您的整个产品集（实体）。您的目录可以包含许多收藏集，这是一种在逻辑存储桶中组织产品的方法。
+目录指代您的整个产品集（实体）。 您的目录可以包含许多收藏集，这是一种在逻辑存储桶中组织产品的方法。
 
 ## 访问[!UICONTROL Catalog Search]
 
@@ -88,7 +91,7 @@ You can use [!UICONTROL Advanced Search] to further refine your search results o
 
 上传第一个信息源时，将自动创建目录索引，并根据[指定的计划](/help/main/c-recommendations/c-products/feeds.md#steps)刷新。
 
-通过信息源文件、API 或 mbox 更新接收更新时，目录将自动刷新。更新通常在一小时内完成。 如果更新正在进行，则显示最近的更新开始时间。如果没有正在进行的更新，则显示最近的更新开始时间和结束时间。
+通过信息源文件、API 或 mbox 更新接收更新时，目录将自动刷新。 更新通常在一小时内完成。 如果更新正在进行，则显示最近的更新开始时间。 如果没有正在进行的更新，则显示最近的更新开始时间和结束时间。
 
 <!--
 ## Create a collection or exclusion based on Advanced Search {#save-as}

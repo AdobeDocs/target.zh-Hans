@@ -1,20 +1,24 @@
 ---
 keywords: 故障诊断；常见问题解答；FAQ；自动个性化；控制；默认体验；最佳实践
-description: 浏览[!UICONTROL Automated Personalization]中有关[!UICONTROL Adobe Target] (AP)活动的常见问题(FAQ)和答案的列表。
+description: 浏览[!UICONTROL Adobe Target]中有关[!UICONTROL Automated Personalization] (AP)活动的常见问题(FAQ)和答案的列表。
 title: 如何查找有关[!UICONTROL Automated Personalization]活动的常见问题解答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 336da9dd876243a0eea662b4604a8fc1e6a69b1a
+TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: 1967
 ht-degree: 21%
 
 ---
 
 # Automated Personalization常见问题解答
 
-在使用[!UICONTROL Automated Personalization]中的[!DNL Adobe Target]活动时，可查阅以下常见问题和答案。
+在使用[!DNL Adobe Target]中的[!UICONTROL Automated Personalization]活动时，可查阅以下常见问题和答案。
 
 ## 我可以指定特定体验作为[!UICONTROL Automated Personalization]活动中的控制吗？
 
@@ -22,7 +26,7 @@ ht-degree: 21%
 
 在创建[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)或[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT)活动时，您可以选择要用作控制的体验。
 
-通过此功能，您可以根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。然后，您可以根据该体验的控制流量评估个性化流量的性能报表。
+通过此功能，您可以根据活动中配置的流量分配百分比，将整个控制流量路由到特定体验。 然后，您可以根据该体验的控制流量评估个性化流量的性能报表。
 
 有关更多信息，请参阅[使用特定体验作为控制](/help/main/c-activities/t-automated-personalization/experience-as-control.md)。
 
@@ -41,13 +45,13 @@ ht-degree: 21%
 +++查看详细信息
 
 * 如果要个性化低流量页面，或者要对要个性化的体验进行结构性更改，请考虑使用[!UICONTROL Auto-Target]活动代替[!UICONTROL Automated Personalization]。 请参阅[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
-* 考虑在您计划于[!UICONTROL A/B Test]活动中使用的选件和位置之间完成一个[!UICONTROL Automated Personalization]活动，以确保位置和选件会对优化目标产生影响。 如果[!UICONTROL A/B Test]活动未能显示显着差异，[!UICONTROL Automated Personalization]可能也无法生成提升。
+* 考虑在您计划于[!UICONTROL Automated Personalization]活动中使用的选件和位置之间完成一个[!UICONTROL A/B Test]活动，以确保位置和选件会对优化目标产生影响。 如果[!UICONTROL A/B Test]活动未能显示显着差异，[!UICONTROL Automated Personalization]可能也无法生成提升。
 
    * 如果A/B...N测试显示体验之间没有统计学上的显着差异，则可能是以下一种或多种情况造成的：
 
       * 这些选件可能彼此差别不大。
       * 您选择的位置不会影响成功量度。
-      * 转化漏斗中的优化目标过大，无法受所选选件的影响。
+      * 优化目标在转化funnel中太远，无法受到所选选件的影响。
 
 * 确保使用[流量估算器](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)，以便您了解在[!UICONTROL Automated Personalization]活动中构建个性化模型需要多长时间。
 * 在开始活动之前，根据您的目标，确定控制与目标之间的分配。
@@ -56,7 +60,7 @@ ht-degree: 21%
 
    * **将随机体验作为控制，且活动目标是测试个性化算法的有效性**：如果您的目标是评估个性化算法，那么您希望更准确地了解提升度。 如果您仅进行了[!UICONTROL A/B Test]（随机提供的控制），则您还很可能希望比较体验或选件的转化率。 在这种情况下，建议向随机提供体验的控制分配 50% 的流量。
    * 将&#x200B;**“随机体验”作为控制，且活动目标是最大化个性化流量**：如果您习惯使用算法并希望最大化个性化流量，那么建议向控制分配10%到30%的流量。 这里做出的权衡是您在提升度信息中看到的准确性。 控制流量的置信区间更大，因为流向它们的流量更少。
-   * **将特定体验作为控制，且采用任一目标类型**：如果您要将特定营销人员驱动的体验与个性化模型相比较，那么建议向控制分配 10% 到 30% 的流量。仅选择一个体验作为控制时，该流量不会分布到活动中的每个选件或体验。
+   * **将特定体验作为控制，且采用任一目标类型**：如果您要将特定营销人员驱动的体验与个性化模型相比较，那么建议向控制分配 10% 到 30% 的流量。 仅选择一个体验作为控制时，该流量不会分布到活动中的每个选件或体验。
 
 * 应尽可能谨慎地使用定位规则，因为它们可能会干扰模型的优化能力。
 * 报表组可以限制[!UICONTROL Automated Personalization]活动的成功。 仅在特定条件下使用报表组：
@@ -68,7 +72,7 @@ ht-degree: 21%
       * 该报表组中的选件具有大致相同的整体响应率。
 
    * 报表组中的选件之间不进行个性化。 个性化模型会将所有选件视为相同内容。
-   * 切勿将一个活动中的所有选件都放到一个报表组中。这样做会导致向活动中的所有访客均匀随机提供所有选件。
+   * 切勿将一个活动中的所有选件都放到一个报表组中。 这样做会导致向活动中的所有访客均匀随机提供所有选件。
 
 +++
 
@@ -88,7 +92,7 @@ ht-degree: 21%
 
 +++查看详细信息
 
-当每个访客到达时，该访客可以看到的一组可能的选件取决于选件级别的定位规则。然后，算法从这些选件中选择模型预测的具有最佳预期收入或转化机会的选件。 选件定位会影响[!DNL Target]机器学习算法的效率，因此，应尽可能少地使用。
+当每个访客到达时，该访客可以看到的一组可能的选件取决于选件级别的定位规则。 然后，算法从这些选件中选择模型预测的具有最佳预期收入或转化机会的选件。 选件定位会影响[!DNL Target]机器学习算法的效率，因此，应尽可能少地使用。
 
 +++
 
@@ -103,7 +107,7 @@ ht-degree: 21%
 * 在活动中必须具有足够的流量和统计功效才能检测到提升。
 * 个性化算法必须运行良好。
 
-最佳的操作方法是首先使用简单的非个性化[!UICONTROL A/B Test]活动确保构成活动体验的内容和位置对整体响应率真正发挥了作用。 务必提前计算样本量，以确保有足够的样本以便看到合理的提升，并在一段固定的时间内运行 A/B 测试，且不要终止或对其进行任何更改。如果A/B测试结果显示一个或多个体验在统计上显着提升，则个性化活动可能会成功。 即使这些体验的总体响应率没有差异，Personalization也可以正常工作。 通常，问题源于选件或位置对优化目标的影响不足以被检测出具有统计显着性的情况。
+最佳的操作方法是首先使用简单的非个性化[!UICONTROL A/B Test]活动确保构成活动体验的内容和位置对整体响应率真正发挥了作用。 务必提前计算样本量，以确保有足够的样本以便看到合理的提升，并在一段固定的时间内运行 A/B 测试，且不要终止或对其进行任何更改。 如果A/B测试结果显示一个或多个体验在统计上显着提升，则个性化活动可能会成功。 即使这些体验的总体响应率没有差异，Personalization也可以正常工作。 通常，问题源于选件或位置对优化目标的影响不足以被检测出具有统计显着性的情况。
 
 有关更多信息，请参阅[自动个性化故障诊断](/help/main/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA)。
 
@@ -115,7 +119,7 @@ ht-degree: 21%
 
 [!UICONTROL Automated Personalization]根据为每个模型构建的最新[随机林](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)模型，将访客路由到具有最高预测成功量度的体验。 这种预测是基于访客的具体信息和访问环境。
 
-例如，假设[!UICONTROL Automated Personalization]活动有两个位置，每个位置具有两个选件。 在第一个位置中，对于某位特定访客，选件 A 的预测转化率为 3%，而选件 B 的预测转化率为 1%。在第二个位置中，对于同一访客，选件 C 的预测转化率为 2%，而选件 D 的预测转化率为 5%。因此，[!UICONTROL Automated Personalization]通过选件A和选件D为该访客提供体验。
+例如，假设[!UICONTROL Automated Personalization]活动有两个位置，每个位置具有两个选件。 在第一个位置中，对于某位特定访客，选件 A 的预测转化率为 3%，而选件 B 的预测转化率为 1%。 在第二个位置中，对于同一访客，选件 C 的预测转化率为 2%，而选件 D 的预测转化率为 5%。 因此，[!UICONTROL Automated Personalization]通过选件A和选件D为该访客提供体验。
 
 +++
 
@@ -157,8 +161,8 @@ ht-degree: 21%
 
 查看活动设置，了解是否愿意进行任何更改以提高构建模型的速度。
 
-* 您的成功量度在活动体验的销售漏斗中是否位于较远的位置？由于存在最低转化次数要求，较低的活动转化率会提高构建模型所需的流量要求。
-* 如果成功量度是设为 RPV，那么您是否可以改用转化作为成功量度？转化活动需要用来构建模型的流量通常较少。
+* 您的成功量度在活动体验的销售漏斗中是否位于较远的位置？ 由于存在最低转化次数要求，较低的活动转化率会提高构建模型所需的流量要求。
+* 如果成功量度是设为 RPV，那么您是否可以改用转化作为成功量度？ 转化活动需要用来构建模型的流量通常较少。
 * 是否有一些体验可从活动中删除？ 减少活动中的体验数量可缩短构建模型的时间。
 * 是否有更高流量的页面可让此活动更成功？ 活动位置的流量和转化越多，模型构建的速度就越快。
 
@@ -176,17 +180,17 @@ ht-degree: 21%
 
 +++查看详细信息
 
-[!DNL Adobe]不建议您在活动中途更改目标指标。 虽然可在活动期间使用 [!DNL Target] UI 更改目标指标，但总是应开始新的活动。[!DNL Adobe]不保证如果在活动运行后更改其中的目标量度会发生什么情况。
+[!DNL Adobe]不建议您在活动中途更改目标指标。 虽然可在活动期间使用 [!DNL Target] UI 更改目标指标，但总是应开始新的活动。 [!DNL Adobe]不保证如果在活动运行后更改其中的目标量度会发生什么情况。
 
-此推荐适用于使用[!UICONTROL Auto-Allocate]或[!UICONTROL Auto-Target] (A4T)作为报表源的[!UICONTROL Automated Personalization]、[!DNL Target]和[!DNL Analytics]活动。
+此推荐适用于使用[!DNL Target]或[!DNL Analytics] (A4T)作为报表源的[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动。
 
 +++
 
-## 运行[!UICONTROL Reset Report Data]活动时能否使用[!UICONTROL Automated Personalization]选项？
+## 运行[!UICONTROL Automated Personalization]活动时能否使用[!UICONTROL Reset Report Data]选项？
 
 +++查看详细信息
 
-[!DNL Adobe]不建议对[!UICONTROL Reset Report Data]活动使用[!UICONTROL Automated Personalization]选项。 虽然它删除可见的报表数据，但此选项并不从[!UICONTROL Automated Personalization]模型中删除所有训练记录。 不要对[!UICONTROL Reset Report Data]活动使用[!UICONTROL Automated Personalization]选项，请创建新活动并停用原始活动。 本指导还适用于[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动。
+[!DNL Adobe]不建议对[!UICONTROL Automated Personalization]活动使用[!UICONTROL Reset Report Data]选项。 虽然它删除可见的报表数据，但此选项并不从[!UICONTROL Automated Personalization]模型中删除所有训练记录。 不要对[!UICONTROL Automated Personalization]活动使用[!UICONTROL Reset Report Data]选项，请创建新活动并停用原始活动。 本指导还适用于[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动。
 
 +++
 

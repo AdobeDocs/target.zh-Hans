@@ -1,23 +1,28 @@
 ---
 keywords: 人工智能助手
-description: 了解如何使用 [!DNL Target] 获得 [!DNL AI Assistant]产品知识。
-title: 如何使用 [!DNL AI Assistant] 中的 [!DNL Target] 获取产品知识？
+description: 了解如何使用 [!DNL AI Assistant]获得 [!DNL Target] 产品知识。
+title: 如何使用 [!DNL Target] 中的 [!DNL AI Assistant] 获取产品知识？
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 1615dcf80643a1391a3b1fbad8e8378ff2785fd3
+TQID: https://experienceleague.adobe.com/C4O-4iorggYJHyg0MMtEb-n-v0-DtetiMtcDp-GWDWQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 6%
+source-wordcount: 315
+ht-degree: 1%
 
 ---
 
-# 在[!DNL AI Assistant]中使用[!DNL Adobe Target]学习产品知识
+# 在[!DNL Adobe Target]中使用[!DNL AI Assistant]学习产品知识
 
-[!DNL AI Assistant]中的[!DNL Adobe Experience Platform]是用户界面功能，可用于导航和了解[!DNL Adobe Target]概念。
+[!DNL Adobe Experience Platform]中的[!DNL AI Assistant]是用户界面功能，可用于导航和了解[!DNL Adobe Target]概念。
 
 [!DNL AI Assistant]是一个有用的工具，可用于了解新功能或快速了解熟悉的功能。
 
-产品知识问题包括与[!DNL Adobe]方面相关的[!DNL Target]概念。 产品知识问题的一些示例包括：
+产品知识问题包括与[!DNL Target]方面相关的[!DNL Adobe]概念。 产品知识问题的一些示例包括：
 
 * 如何设置配置文件脚本？
 * 保存活动时出现错误。 这是什么意思？
@@ -27,7 +32,7 @@ ht-degree: 6%
 
 要访问[!DNL AI Assistant]以了解产品知识，请执行以下操作：
 
-1. 确保您已在[的 [!DNL Adobe Experience Platform] [!DNL AI Assistant]启用 [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)中完成先决任务。
+1. 确保您已在 [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)的[启用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先决任务。
 
    * 贵组织必须首先同意法律条款。 有关更多信息，请与您的Adobe客户团队联系。
    * 您的管理员必须授予您访问[!DNL AI Assistant]的足够权限。
@@ -52,7 +57,7 @@ ht-degree: 6%
 
    >[!IMPORTANT]
    >
-   >AI 生成的响应可能不准确或具有误导性。请务必仔细检查回复和来源。
+   >AI生成的响应可能不准确或具有误导性。 请务必仔细检查响应和源。
 
 1. （可选）向[!DNL AI Assistant]提供反馈。
 
@@ -64,12 +69,12 @@ ht-degree: 6%
 
 ### 使用AI Assistant学习Experience Platform应用程序
 
-了解来自[!DNL Adobe Experience Platform]的[!DNL AI Assistant]应用程序。
+了解来自[!DNL AI Assistant]的[!DNL Adobe Experience Platform]应用程序。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441034/?learn=on&#x26;enablevpops&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### 验证来自AI Assistant的响应
 
-了解如何验证和验证[!DNL AI Assistant]中的[!DNL Adobe Experience Platform]提供的响应。
+了解如何验证和验证[!DNL Adobe Experience Platform]中的[!DNL AI Assistant]提供的响应。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441749/?learn=on&#x26;enablevpops&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

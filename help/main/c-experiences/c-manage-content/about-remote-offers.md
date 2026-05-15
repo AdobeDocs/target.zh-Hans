@@ -4,9 +4,12 @@ description: 了解如何利用 [!DNL Target] 中的远程选件来托管来自C
 title: 如何创建远程选件？
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: 856396264c4a7b7e3370cd268e7f010092e2eae2
+TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: 1040
 ht-degree: 19%
 
 ---
@@ -110,7 +113,7 @@ ht-degree: 19%
 
 动态远程选件由内容管理或其他系统提供，而不是从[!DNL Target]提供。
 
-当访客加载的网站具有包含远程选件的体验时，您可能不希望由[!DNL Target]定期缓存并交付内容。 您而是可能希望调用托管内容的系统，然后传入特定信息，以便每个用户能够返回动态（或不同的）选件。 例如，如果某位用户登录到一个信用卡网站，且该网站中具有包含动态远程选件的体验，则您能够将相应参数传递到 URL 中，以获取该用户的帐户信息。随后，网站便会提供特定于该用户的信息，例如账户余额。
+当访客加载的网站具有包含远程选件的体验时，您可能不希望由[!DNL Target]定期缓存并交付内容。 您而是可能希望调用托管内容的系统，然后传入特定信息，以便每个用户能够返回动态（或不同的）选件。 例如，如果某位用户登录到一个信用卡网站，且该网站中具有包含动态远程选件的体验，则您能够将相应参数传递到 URL 中，以获取该用户的帐户信息。 随后，网站便会提供特定于该用户的信息，例如账户余额。
 
 您可以单击&#x200B;**[!UICONTROL Add Parameter]**&#x200B;以添加一个或多个[!DNL Target]请求或请求参数。
 
@@ -118,7 +121,7 @@ ht-degree: 19%
 
 使用[!UICONTROL Form-Based Experience Composer]应用远程选件。 您当前无法使用[!UICONTROL Visual Experience Composer] (VEC)应用远程选件。
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非可视化体验和选件创建界面，当[!UICONTROL A/B Tests]不可用或不实用时，它有助于创建在[!UICONTROL Experience Targeting]、[!UICONTROL Automated Personalization] (XT)、[!UICONTROL Recommendations] (AP)和[!UICONTROL Visual Experience Composer]活动中使用的体验。 例如，您可以使用[!UICONTROL Form-Based Experience Composer]创建使用远程选件的体验。
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]是非可视化体验和选件创建界面，当[!UICONTROL Visual Experience Composer]不可用或不实用时，它有助于创建在[!UICONTROL A/B Tests]、[!UICONTROL Experience Targeting] (XT)、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Recommendations]活动中使用的体验。 例如，您可以使用[!UICONTROL Form-Based Experience Composer]创建使用远程选件的体验。
 
 1. 在[!UICONTROL Form-Based Experience Composer]中创建或编辑活动。
 
@@ -136,7 +139,7 @@ ht-degree: 19%
 
 动态远程选件使用动态页面技术来向选件传递值。
 
-选件会在您提交页面后执行。不可见的iFrame会收集数据，将其从框架中复制出来，然后插入到页面中，从而加载您传递的值。
+选件会在您提交页面后执行。 不可见的iFrame会收集数据，将其从框架中复制出来，然后插入到页面中，从而加载您传递的值。
 
 ![remote_offer_howitworks_2图像](assets/remote_offer_howitworks_2.jpeg)
 

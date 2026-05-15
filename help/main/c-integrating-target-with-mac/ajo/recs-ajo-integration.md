@@ -1,17 +1,21 @@
 ---
 keywords: ajo；adobe journey optimizer；adobe journey optimizer target集成；推荐；target推荐；集成
 description: 将 [!DNL Adobe Target Recommendations] 与 [!DNL Adobe Journey Optimizer]集成。
-title: 如何在使用 [!DNL Target Recommendations] 的客户历程中使用 [!DNL Adobe Journey Optimizer]？
+title: 如何在使用 [!DNL Adobe Journey Optimizer]的客户历程中使用 [!DNL Target Recommendations] ？
 feature: Integrations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/JA--Ll80bDZwn9WtGqIb-z3YxyJLOvOYPzuhZeKA17w
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 1%
+source-wordcount: 633
+ht-degree: 2%
 
 ---
 
@@ -25,11 +29,11 @@ ht-degree: 1%
 
 要使用[!DNL Target Recommendations]和[!DNL Adobe Journey Optimizer]集成，您需要以下各项：
 
-* 使用[[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium)Adobe Experience Platform Web SDK[实现的](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}。
+* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}实现的[[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium)。
 
   此功能在[!DNL Target Standard]许可证中或者使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时不可用。
 
-* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target=_blank} 更改报表包。
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank} 更改报表包。
 
 ## 示例用例
 
@@ -43,7 +47,7 @@ ht-degree: 1%
 
 * **[!DNL Adobe Journey Optimizer]在网站访问后发送批量电子邮件，提醒访客查看了哪些项目**：此用例基于以下内容：访客访问网站，查看了各种项目，然后离开网站或应用程序，而不将项目放入购物车。
 
-  在指定时段后，[!DNL Journey Optimizer]中的自定义操作会调用[!DNL Target Recommendations]，以确定每个访客使用每个访客的[!DNL Adobe Experience Cloud Identifier] (EDID)、访客的[!DNL Target]配置文件和基于用户的[算法，查看了哪些项目。 &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) [!DNL Adobe Journey Optimizer]随后向符合条件的受众的每个成员发送一封个性化电子邮件，其中包含每个访客查看项目的图像和链接，以便让访客返回并进行购买。
+  在指定时段后，[!DNL Journey Optimizer]中的自定义操作会调用[!DNL Target Recommendations]，以确定每个访客使用每个访客的[!DNL Adobe Experience Cloud Identifier] (EDID)、访客的[!DNL Target]配置文件和基于用户的[算法，查看了哪些项目。 ](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)[!DNL Adobe Journey Optimizer]随后向符合条件的受众的每个成员发送一封个性化电子邮件，其中包含每个访客查看项目的图像和链接，以便让访客返回并进行购买。
 
   在此方案中，[!UICONTROL Experience Cloud Visitor ID] (ECID)和每个访客的[!DNL Target]配置文件的内容用于根据最近查看的算法生成推荐。
 

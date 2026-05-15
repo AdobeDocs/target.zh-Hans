@@ -1,19 +1,23 @@
 ---
 keywords: 体验定位；XT；创建
-description: 了解如何在[!UICONTROL Visual Experience Composer]中使用 [!DNL Adobe Target]  (VEC)来创建[!UICONTROL Experience Targeting] (XT)活动。
+description: 了解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Visual Experience Composer] (VEC)来创建[!UICONTROL Experience Targeting] (XT)活动。
 title: 如何创建[!UICONTROL Experience Targeting]活动？
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
+TQID: https://experienceleague.adobe.com/RKSF7zTO3lb4hs1VaJuTUR9v8AnOlCjHkp-whqBIcKo
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: 401
 ht-degree: 33%
 
 ---
 
 # 创建[!UICONTROL Experience Targeting] (XT)活动
 
-使用[!UICONTROL Visual Experience Composer] (VEC)在启用了[!UICONTROL Experience Targeting]的页面上创建[!DNL Target] (XT)活动，并在[!DNL Adobe Target]内修改页面的各个部分。
+使用[!UICONTROL Visual Experience Composer] (VEC)在启用了[!DNL Target]的页面上创建[!UICONTROL Experience Targeting] (XT)活动，并在[!DNL Adobe Target]内修改页面的各个部分。
 
 [!UICONTROL Experience Targeting] (XT)根据一组营销人员定义的规则和条件向特定受众提供内容。
 
@@ -27,9 +31,9 @@ ht-degree: 33%
 
    >[!NOTE]
    >
-   >可用的活动类型取决于您的 [!DNL Target] 帐户。有些活动类型可能不会显示在列表中。例如，[!UICONTROL Automated Personalization]是[Target Premium功能](/help/main/c-intro/intro.md#premium)。
+   >可用的活动类型取决于您的 [!DNL Target] 帐户。 有些活动类型可能不会显示在列表中。 例如，[!UICONTROL Automated Personalization]是[Target Premium功能](/help/main/c-intro/intro.md#premium)。
    >
-   >有关 [!DNL Target] 中可用的各种活动类型及其差异的更多信息，请参阅[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)，以帮助您确定最符合自己需求的活动类型。
+   >有关 [!DNL Target] 中可用的各种活动类型及其差异的更多信息，请参阅[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。 请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)，以帮助您确定最符合自己需求的活动类型。
 
 1. 根据需要选择&#x200B;**[!UICONTROL Visual]**。
 
@@ -47,11 +51,11 @@ ht-degree: 33%
 
 1. 指定您的[活动URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然后单击&#x200B;**[!UICONTROL Create]**。
 
-   如果您的帐户[配置了默认 URL](/help/main/administrating-target/visual-experience-composer-set-up.md)，则默认情况下将显示该 URL。您可以根据需要将默认 URL 更改为其他 URL。
+   如果您的帐户[配置了默认 URL](/help/main/administrating-target/visual-experience-composer-set-up.md)，则默认情况下将显示该 URL。 您可以根据需要将默认 URL 更改为其他 URL。
 
    此时会打开 VEC，其中显示了在 URL 中指定的页面。
 
-1. 要命名活动，请单击“**[!UICONTROL Edit]**”旁边的![图标（](/help/main/assets/icons/Edit.svg)编辑图标[!UICONTROL Untitled Activity]），为活动指定描述性名称，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 要命名活动，请单击“[!UICONTROL Untitled Activity]”旁边的&#x200B;**[!UICONTROL Edit]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)），为活动指定描述性名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
    活动名称不能以下列任何字符开头：
 
@@ -66,15 +70,15 @@ ht-degree: 33%
 
    | 字符序列 | 描述 |
    |--- |--- |
-   | ；= | 分号，等于 |
-   | ；+ | 分号，加号 |
-   | ；- | 分号，减号 |
-   | ；@ | 分号， At sign |
-   | ，= | 逗号，等于 |
-   | ，+ | 逗号，加号 |
-   | ，- | 逗号，减 |
-   | ，@ | 逗号， At sign |
-   | `[`” | 左方括号，双引号 |
+   | ;= | 分号，等于 |
+   | ;+ | 分号，加号 |
+   | ;- | 分号，减号 |
+   | ;@ | 分号， At sign |
+   | ,= | 逗号，等于 |
+   | ,+ | 逗号，加号 |
+   | ,- | 逗号，减 |
+   | ,@ | 逗号， At sign |
+   | `[`&quot; | 左方括号，双引号 |
    | &quot;`]` | 双引号，右方括号 |
 
 1. 创建定位到不同受众的新体验。

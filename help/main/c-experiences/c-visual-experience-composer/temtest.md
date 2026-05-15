@@ -4,9 +4,13 @@ description: 了解如何使用Adobe [!DNL Target] 可视化体验编辑器(VEC)
 title: 我是否可以在类似页面上包含相同体验？
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+TQID: https://experienceleague.adobe.com/zk7U6g7gk7XkpWsEFQbwuCm7xbpIb1lCaZefxjn-39g
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: 518
 ht-degree: 24%
 
 ---
@@ -36,7 +40,7 @@ ht-degree: 24%
 
 1. 单击&#x200B;**[!UICONTROL Add Rule]**，然后为要将体验添加到的页面指定条件。
 
-1. 指定页面范围。页面范围可以是以下任一类型：
+1. 指定页面范围。 页面范围可以是以下任一类型：
 
    * [!UICONTROL URL] （有关[!DNL Target]如何评估URL的详细信息，请参阅[目标和受众常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。）
    * [!UICONTROL Domain]
@@ -47,7 +51,7 @@ ht-degree: 24%
 
 1. 选择运算符。
 
-   运算符可指定运算符后面的项目与页面范围之间的关系。可用的运算符包括：
+   运算符可指定运算符后面的项目与页面范围之间的关系。 可用的运算符包括：
 
    * [!UICONTROL Contains]
    * [!UICONTROL Does not contain]
@@ -68,7 +72,7 @@ ht-degree: 24%
 
 1. 如有需要，单击&#x200B;**[!UICONTROL Add Rule]**&#x200B;并重复前一步骤中的操作过程，以输入其他条件。
 
-   多个标准会使用 AND 逻辑进行连接。[!DNL Target]将体验添加到符合指定条件的所有页面。
+   多个标准会使用 AND 逻辑进行连接。 [!DNL Target]将体验添加到符合指定条件的所有页面。
 
 >[!IMPORTANT]
 >

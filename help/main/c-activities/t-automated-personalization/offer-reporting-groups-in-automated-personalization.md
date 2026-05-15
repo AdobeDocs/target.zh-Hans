@@ -2,12 +2,16 @@
 keywords: 自动个性化；选件；报表；组；报表组；ap
 description: 了解如何在 [!DNL Adobe Target] [!UICONTROL Automated Personalization]活动中使用选件报表组。
 title: 我能否在[!UICONTROL Automated Personalization]活动中使用选件报表组？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/VW3zVGXb3IuQMDaRyidbkjsbUrojvwFsvwP3yRVeHp4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: 827
 ht-degree: 15%
 
 ---
@@ -23,18 +27,18 @@ ht-degree: 15%
 
 当您使用报表组时，[!DNL Target]会使用来自每个报表组中的所有选件的数据，为该组创建一个个性化模型。 如果没有报表组，[!DNL Target]将为您的AP活动中的每个选件创建个性化模型。
 
-如果您的活动设置没有足够的数据来为每个选件构建个性化模型，则报表组有助于减少使用[!UICONTROL Automated Personalization]的数据要求。 报表组还可以通过对相似选件进行分组来帮助解决新选件的“冷启动”问题，以便每个模型获得更多培训数据。建模组也可用于定期向AP活动引入新选件的活动。
+如果您的活动设置没有足够的数据来为每个选件构建个性化模型，则报表组有助于减少使用[!UICONTROL Automated Personalization]的数据要求。 报表组还可以通过对相似选件进行分组来帮助解决新选件的“冷启动”问题，以便每个模型获得更多培训数据。 建模组也可用于定期向AP活动引入新选件的活动。
 
-如果访客以相同的方式响应组中的所有选件，则此方法很有效。最佳做法是对相似访客组以相似方式进行响应的选件进行分组。换句话说，对具有相似转化率的选件进行分组。您绝不应该将所有选件都放置到一个报表组中。对所有选件进行分组或将具有不同转化率的选件分组可能会降低[!DNL Target]个性化模型的有效性。
+如果访客以相同的方式响应组中的所有选件，则此方法很有效。 最佳做法是对相似访客组以相似方式进行响应的选件进行分组。 换句话说，对具有相似转化率的选件进行分组。 您绝不应该将所有选件都放置到一个报表组中。 对所有选件进行分组或将具有不同转化率的选件分组可能会降低[!DNL Target]个性化模型的有效性。
 
 >[!NOTE]
 >
->如果删除或替换特定建模组中的产品建议，则也会删除建模组中查看该特定产品建议的历史流量。换言之，删除的选件不影响[!DNL Target]个性化模型要学习的数据。
+>如果删除或替换特定建模组中的产品建议，则也会删除建模组中查看该特定产品建议的历史流量。 换言之，删除的选件不影响[!DNL Target]个性化模型要学习的数据。
 
 ## 设置报表组
 
 1. 在AP活动的&#x200B;**[!UICONTROL Experiences]**&#x200B;页面上，单击&#x200B;**[!UICONTROL Manage Content]**&#x200B;图标（ ![管理内容图标](/help/main/assets/icons/Experience.svg)）
-1. 单击&#x200B;**[!UICONTROL Offers]**&#x200B;对话框顶部的[!UICONTROL Manage Content]选项卡。
+1. 单击[!UICONTROL Manage Content]对话框顶部的&#x200B;**[!UICONTROL Offers]**&#x200B;选项卡。
 1. （视情况而定）单击所需选件的[!UICONTROL More Actions]图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg) ），然后单击&#x200B;**[!UICONTROL Reporting Group]**，将特定体验添加到报表组。
 
 1. （视情况而定）在报表组中批量添加体验，方法是选中相关体验的复选框，然后单击对话框底部的&#x200B;**[!UICONTROL Reporting Group]**。
@@ -65,7 +69,7 @@ ht-degree: 15%
 
 1. 单击&#x200B;**[!UICONTROL Activities]**，从列表中单击所需的[!UICONTROL Automated Personalization]活动，然后单击&#x200B;**[!UICONTROL Reports]**&#x200B;选项卡以显示[选件级别](/help/main/c-reports/personalization-reports/reports-ap.md)报表。
 
-   如果您有许多活动，请单击[!UICONTROL Show Filters]（漏斗）图标，然后选中[!UICONTROL Automated Personalization]复选框以筛选列表以仅显示[!UICONTROL Automated Personalization]个活动。
+   如果您有许多活动，请单击[!UICONTROL Show Filters] (funnel)图标，然后选中[!UICONTROL Automated Personalization]复选框以筛选列表以仅显示[!UICONTROL Automated Personalization]个活动。
 
 1. 单击表格中的&#x200B;**[!UICONTROL Control]**&#x200B;或&#x200B;**[!UICONTROL Targeted]**&#x200B;以在报表组内显示未分组的选件和选件。
 

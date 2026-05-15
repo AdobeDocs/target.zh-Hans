@@ -1,72 +1,77 @@
 ---
 keywords: 欢迎套件;target 欢迎套件;简介;简介;开始使用
-description: 纵览 Adobe Target。了解可用的活动、渠道、实现、集成等。
+description: 纵览 Adobe Target。 了解可用的活动、渠道、实现、集成等。
 title: 可在何处找到 Target 的概括性介绍？
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+TQID: https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f599e456-545c-47e5-8e50-b7dfe3579517id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: a94ced60-8199-4549-b453-ede2acb4101eid: b06652e6-189f-46a9-90c5-677f6d9cc699id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 74%
+source-wordcount: 2558
+ht-degree: 73%
 
 ---
 
 # 第 2 章：Adobe [!DNL Target] 概览
 
-在您开始使用 [!DNL Adobe Target] 之前，大致了解一下该解决方案可能对您有帮助。在本章中，了解该解决方案的关键功能、可在上面使用它的品牌接触点、实施选项、重要的用户界面功能和工作流程、治理功能及其在整个[!DNL Adobe Experience Cloud]中的角色。 除非指出本章中的某项为 [!DNL Adobe Target Premium] 功能，否则 [!DNL Adobe Target Premium] 和 [!DNL Adobe Target Standard] 均提供该功能。有关详细信息，请参阅 [Target 简介](/help/main/c-intro/intro.md)。
+在您开始使用 [!DNL Adobe Target] 之前，大致了解一下该解决方案可能对您有帮助。 在本章中，了解该解决方案的关键功能、可在上面使用它的品牌接触点、实施选项、重要的用户界面功能和工作流程、治理功能及其在整个[!DNL Adobe Experience Cloud]中的角色。 除非指出本章中的某项为 [!DNL Adobe Target Premium] 功能，否则 [!DNL Adobe Target Premium] 和 [!DNL Adobe Target Standard] 均提供该功能。 有关详细信息，请参阅 [Target 简介](/help/main/c-intro/intro.md)。
 
 ## 功能和活动
 
 测试和个性化是[!DNL Target]提供的两种广泛类型的功能，在[!DNL Target]中创建“活动”时可以使用。 您可能会看到“测试”与“优化”以及“个性化”与“定位”可互换使用。
 
-在测试活动中，您比较某种数字体验的一个变体与一个或多个其他变体，以找出使最多访客采取期望行动的那个变体。[!DNL Target] 提供以下测试功能：A/B 测试、多变量测试 (MVT) 和自动分配。
+在测试活动中，您比较某种数字体验的一个变体与一个或多个其他变体，以找出使最多访客采取期望行动的那个变体。 [!DNL Target] 提供以下测试功能：A/B 测试、多变量测试 (MVT) 和自动分配。
 
-通过个性化活动，您投放一种为特定的一组访客或为每个单独的访客量身定制的数字体验。[!DNL Target] 提供这些个性化功能：体验定位、自动定位、自动个性化和推荐。
+通过个性化活动，您投放一种为特定的一组访客或为每个单独的访客量身定制的数字体验。 [!DNL Target] 提供这些个性化功能：体验定位、自动定位、自动个性化和推荐。
 
 要更深入地了解何时及如何使用每种功能，请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)。
 
 | 活动类型 | 详细信息 |
 | --- | --- |
-| A/B 测试 | 比较您在网站上或其他数字客户接触点上体验或产品的两个或更多变体，以了解哪个变体在预先指定的测试期间最能改善关键业务措施。A/B 测试适合较大的变动，如新的网页布局、不同的网站导航方法或处理数字体验个别元素（如文案、图像和行动号召按钮）的方式发生重大变化。[了解更多](/help/main/c-activities/t-test-ab/test-ab.md)。 |
-| 自动分配 | 在两个或更多个体验中找出表现最好的体验，并自动将更多流量重新分配给入选者以提高转化率，同时测试继续运行和学习。其中使用由 [!DNL Adobe Adobe AI] 提供的人工智能。[了解更多](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| Auto-Target<br>(Premium) | 利用[!DNL Target]中的Adobe AI，根据每位访客个别的客户个人资料和以前具有类似个人资料的访客的行为，确定若干体验中的最佳体验并提供给访客。 自动锁定可实现大规模自定义。[了解更多](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
-| 自动个性化<br>(Premium) | 使用由 [!DNL Adobe Adobe AI] 提供的高级机器学习算法和自动化功能检查产品中的图像、文案和其他元素的各种组合，并根据哪种组合最能实现业务目标（如提高转化率或每位访客的收入）将最佳组合提供给每位访客。[了解更多](/help/main/c-activities/t-automated-personalization/automated-personalization.md)。 |
-| 体验定位 (XT) | 根据用户定义的一组规则和标准将内容交付给特定受众。当您认识到某个受众很重要，并且该受众很了解什么体验与其产生共鸣时，**[!UICONTROL Experience Targeting]**&#x200B;对于将特定体验或内容定位到特定受众可发挥很大作用。 [了解更多](/help/main/c-activities/t-experience-target/experience-target.md)。 |
-| 多变量测试 (MVT) | 比较您的页面或数字体验上元素变体所有可能的组合 - 例如三个不同的背景图像、两个文案变体以及两种不同的按钮颜色。MVT 确定哪个组合对特定受众的表现最好以及哪些元素对结果影响最大。[了解更多](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
-| 推荐<br>(Premium) | 使用Adobe AI根据客户以前的活动和其他客户的活动，自动推荐可能让客户感兴趣的产品或内容。 [了解更多](/help/main/c-recommendations/recommendations.md)。 |
+| A/B 测试 | 比较您在网站上或其他数字客户接触点上体验或产品的两个或更多变体，以了解哪个变体在预先指定的测试期间最能改善关键业务措施。 A/B 测试适合较大的变动，如新的网页布局、不同的网站导航方法或处理数字体验个别元素（如文案、图像和行动号召按钮）的方式发生重大变化。 [了解更多](/help/main/c-activities/t-test-ab/test-ab.md)。 |
+| 自动分配 | 在两个或更多个体验中找出表现最好的体验，并自动将更多流量重新分配给入选者以提高转化率，同时测试继续运行和学习。 其中使用由 [!DNL Adobe Adobe AI] 提供的人工智能。 [了解更多](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
+| Auto-Target<br>(Premium) | 利用[!DNL Target]中的Adobe AI，根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，确定若干体验中的最佳体验并提供给访客。 自动锁定可实现大规模自定义。 [了解更多](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
+| 自动个性化<br>(Premium) | 使用由 [!DNL Adobe Adobe AI] 提供的高级机器学习算法和自动化功能检查产品中的图像、文案和其他元素的各种组合，并根据哪种组合最能实现业务目标（如提高转化率或每位访客的收入）将最佳组合提供给每位访客。 [了解更多](/help/main/c-activities/t-automated-personalization/automated-personalization.md)。 |
+| 体验定位 (XT) | 根据用户定义的一组规则和标准将内容交付给特定受众。 当您认识到某个受众很重要，并且该受众很了解什么体验与其产生共鸣时，**[!UICONTROL Experience Targeting]**&#x200B;对于将特定体验或内容定位到特定受众可发挥很大作用。 [了解更多](/help/main/c-activities/t-experience-target/experience-target.md)。 |
+| 多变量测试 (MVT) | 比较您的页面或数字体验上元素变体所有可能的组合 - 例如三个不同的背景图像、两个文案变体以及两种不同的按钮颜色。 MVT 确定哪个组合对特定受众的表现最好以及哪些元素对结果影响最大。 [了解更多](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
+| 推荐<br>(Premium) | 使用Adobe AI可根据客户先前的活动和其他客户的活动，自动推荐可能让客户感兴趣的产品或内容。 [了解更多](/help/main/c-recommendations/recommendations.md)。 |
 
 ## 渠道
 
-几乎可随处使用[!DNL Target]测试数字体验并使其个性化 — 不仅是您的网站、移动网站和移动应用程序等传统的数字接触点，还可在信息亭、电子邮件、物联网设备、游戏主机甚至是Alexa和Cortana等语音助手这样的接触点上。 许多公司都开始在其网站上使用 [!DNL Target]。然而，最近的研究表明，人们越来越多地从其移动设备访问各个品牌。优化您的移动渠道现在至关重要。理想情况下，您将访客在您所有接触点上的体验联系起来以提供无缝、一致的体验。
+几乎可随处使用[!DNL Target]测试数字体验并使其个性化 — 不仅是您的网站、移动网站和移动应用程序等传统的数字接触点，还可在信息亭、电子邮件、物联网设备、游戏主机甚至是Alexa和Cortana等语音助手这样的接触点上。 许多公司都开始在其网站上使用 [!DNL Target]。 然而，最近的研究表明，人们越来越多地从其移动设备访问各个品牌。 优化您的移动渠道现在至关重要。 理想情况下，您将访客在您所有接触点上的体验联系起来以提供无缝、一致的体验。
 
 | 渠道 | 详细信息 |
 | --- | --- |
 | 网站 | [!DNL Target] 可用于对您的多页面、单页面应用程序 (SPA) 和移动网站的页面运行 A/B 测试、多变量测试、体验定位、自动分配、自动定位、自动个性化和推荐活动，以提高访客和客户参与程度、提高转化率并增加收入。 |
 | 移动 Web | [!DNL Target] 可用于在您的移动网站页面上运行与在您的网站上运行的相同的所有活动类型，以便类似地提高访客和客户参与程度、提高转化率并增加收入。 |
-| 移动设备应用程序 | [!DNL Target] 可用于根据用户行为和移动上下文测试移动应用程序体验并使其个性化。[!DNL Target] 让您可通过迭代测试以及体验定位和 AI 驱动的个性化，投放有吸引力并产生转化的交互。要在您的移动应用程序上使用 [!DNL Target]，必须使用 Adobe Mobile Services SDK。 |
+| 移动设备应用程序 | [!DNL Target] 可用于根据用户行为和移动上下文测试移动应用程序体验并使其个性化。 [!DNL Target] 让您可通过迭代测试以及体验定位和 AI 驱动的个性化，投放有吸引力并产生转化的交互。 要在您的移动应用程序上使用 [!DNL Target]，必须使用 Adobe Mobile Services SDK。 |
 | 物联网/各处 | [!DNL Target]提供服务器端实施，以使您可在电子邮件中和缺乏浏览器或不使用JavaScript代码的接触点上在活动中使用与您在传统网站、移动网站和移动应用程序上使用的相同的测试和个性化功能。 例如，为了测试和个性化信息亭、机顶盒、游戏机、语音助手和其他非传统接触点。 |
 
 ## 实施
 
-许多人可能希望使用[!DNL Target]对许多不同的数字接触点（包括传统的Web和移动接触点）以及缺少浏览器或不使用JavaScript代码的接触点进行测试和个性化。 在某些情况下，内部或外部策略要求另设几层控制和安全。出于性能原因，可能还需要在后端服务器上运行一些进程。为了满足这些多种多样的用途，我们让您可按几种不同的方式实现 [!DNL Target]：客户端、服务器端或两者的组合。
+许多人可能希望使用[!DNL Target]对许多不同的数字接触点（包括传统的Web和移动接触点）以及缺少浏览器或不使用JavaScript代码的接触点进行测试和个性化。 在某些情况下，内部或外部策略要求另设几层控制和安全。 出于性能原因，可能还需要在后端服务器上运行一些进程。 为了满足这些多种多样的用途，我们让您可按几种不同的方式实现 [!DNL Target]：客户端、服务器端或两者的组合。
 
 | 实现类型 | 详细信息 |
 | --- | --- |
-| 客户端 | 对于 [!DNL Target] 的这种实现，[!DNL Target] 将与某个活动关联的体验直接提供给客户端浏览器。浏览器将决定要显示的体验，然后显示该体验。通过客户端，您可以使用WYSIWYG编辑器、**[!UICONTROL Visual Experience Composer]** (VEC)或非可视化界面&#x200B;**[!UICONTROL Form-based Experience Composer]**&#x200B;创建测试和个性化体验。 [了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank}。 |
-| 服务器端 | 在此类型的 [!DNL Target] 实现中，客户端设备通过您的服务器提出体验请求，您的服务器将该请求发送给 [!DNL Target]，[!DNL Target] 将响应发回您的服务器，然后您的服务器决定将什么体验提供给客户端设备以供其呈现。体验不一定显示在浏览器中；它能够以电子邮件或网亭形式显示，还可以通过语音助手或者其他一些非可视化体验或不基于浏览器的设备显示。由于您的服务器位于客户端和 [!DNL Target] 之间，因此如果您需要更好地控制体验并提高其安全性，或者您希望在服务器上运行复杂的后端进程，则此类实施是最佳选择。[了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}。 |
-| 混合实现 | 在此实现中，您选择最适合给定用例的实现方法。例如，您可能会使用客户端实现对主页上巨型横幅中的产品建议进行 A/B 测试，但还可能会使用服务器端实现确定要在客户端浏览器上显示的内部搜索结果、要在智能汽车仪表板上显示的体验或要从语音助手发出的语音响应。 |
+| 客户端 | 对于 [!DNL Target] 的这种实现，[!DNL Target] 将与某个活动关联的体验直接提供给客户端浏览器。 浏览器将决定要显示的体验，然后显示该体验。 通过客户端，您可以使用WYSIWYG编辑器、**[!UICONTROL Visual Experience Composer]** (VEC)或非可视化界面&#x200B;**[!UICONTROL Form-based Experience Composer]**&#x200B;创建测试和个性化体验。 [了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}。 |
+| 服务器端 | 在此类型的 [!DNL Target] 实现中，客户端设备通过您的服务器提出体验请求，您的服务器将该请求发送给 [!DNL Target]，[!DNL Target] 将响应发回您的服务器，然后您的服务器决定将什么体验提供给客户端设备以供其呈现。 体验不一定显示在浏览器中；它能够以电子邮件或网亭形式显示，还可以通过语音助手或者其他一些非可视化体验或不基于浏览器的设备显示。 由于您的服务器位于客户端和 [!DNL Target] 之间，因此如果您需要更好地控制体验并提高其安全性，或者您希望在服务器上运行复杂的后端进程，则此类实施是最佳选择。 [了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}。 |
+| 混合实现 | 在此实现中，您选择最适合给定用例的实现方法。 例如，您可能会使用客户端实现对主页上巨型横幅中的产品建议进行 A/B 测试，但还可能会使用服务器端实现确定要在客户端浏览器上显示的内部搜索结果、要在智能汽车仪表板上显示的体验或要从语音助手发出的语音响应。 |
 
 ## 活动元素
 
-在 [!DNL Target] 中，可创建个性化活动、优化活动或优化个性化方法的活动。每个活动都有若干关键元素 — 所测试或个性化的体验或选件、要为其投放体验的受众或个人、按其衡量活动影响的量度，以及以可视方式显示该影响的报表。
+在 [!DNL Target] 中，可创建个性化活动、优化活动或优化个性化方法的活动。 每个活动都有若干关键元素 — 所测试或个性化的体验或选件、要为其投放体验的受众或个人、按其衡量活动影响的量度，以及以可视方式显示该影响的报表。
 
 | 元素类型 | 详细信息 |
 | --- | --- |
-| 体验 | 一个页面、整个网页、可能形成购买漏斗的一组页面或一些其他逻辑序列的页面上的一个产品建议、图像、文本、按钮、视频，以及这些不同元素的组合。它还可以是语音助手的回复、客户服务脚本，甚至是饮料机中提供的独特口味。您可以在 [!DNL Target] 活动中测试或个性化体验。[了解更多](/help/main/c-experiences/experiences.md)。 |
-| 产品建议 | 一块内容，其中可能包含图像、文本、HTML、链接、视频、行动号召按钮、语音助手响应或任何其他类型的内容。产品建议可用于打折、免运费等。可在网页上显示产品建议，但也可在语音助手或游戏主机等任何客户接触点上体验产品建议。当您测试某个产品建议时，你衡量它与其他产品建议或无产品建议相比是否取得成功。[了解更多](/help/main/c-experiences/c-manage-content/manage-content.md)。 |
-| 受众 | 具有相同特征的人群，例如都是新访客、回访访客或来自中西部的回访访客。通过使用“受众”功能，您可以将不同的内容和体验锁定到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。如果将访客视为目标受众的一部分，则 [!DNL Target] 根据在活动创建期间定义的标准决定要显示何种体验。[了解更多](/help/main/c-target/target.md)。 |
-| 成功量度 | 使您可确定给定体验或产品建议在 [!DNL Target] 活动中取得成功的关键业务度量。例如，您可以确定新的产品建议是否增加了每个访客带来的收入或是否吸引访客向购物车中添加物品。成功量度可用于发现注册、订购或购买漏斗等方面的问题，也可仅仅用于提高访客或客户参与度。[了解更多](/help/main/c-activities/r-success-metrics/success-metrics.md)。 |
-| 报表 | 关于您的活动进展和结果的信息，帮助您根据自身数据作出决策。报告数据可以帮助您确定何时结束测试，向您显示哪个体验或产品建议已入选，并提供确定后续操作所需的洞察或学习数据。[了解更多](/help/main/c-reports/reports.md)。 |
+| 体验 | 一个页面、整个网页、可能形成购买漏斗的一组页面或一些其他逻辑序列的页面上的一个产品建议、图像、文本、按钮、视频，以及这些不同元素的组合。 它还可以是语音助手的回复、客户服务脚本，甚至是饮料机中提供的独特口味。 您可以在 [!DNL Target] 活动中测试或个性化体验。 [了解更多](/help/main/c-experiences/experiences.md)。 |
+| 产品建议 | 一块内容，其中可能包含图像、文本、HTML、链接、视频、行动号召按钮、语音助手响应或任何其他类型的内容。 产品建议可用于打折、免运费等。 可在网页上显示产品建议，但也可在语音助手或游戏主机等任何客户接触点上体验产品建议。 当您测试某个产品建议时，你衡量它与其他产品建议或无产品建议相比是否取得成功。 [了解更多](/help/main/c-experiences/c-manage-content/manage-content.md)。 |
+| 受众 | 具有相同特征的人群，例如都是新访客、回访访客或来自中西部的回访访客。 通过使用“受众”功能，您可以将不同的内容和体验锁定到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。 如果将访客视为目标受众的一部分，则 [!DNL Target] 根据在活动创建期间定义的标准决定要显示何种体验。 [了解更多](/help/main/c-target/target.md)。 |
+| 成功量度 | 使您可确定给定体验或产品建议在 [!DNL Target] 活动中取得成功的关键业务度量。 例如，您可以确定新的产品建议是否增加了每个访客带来的收入或是否吸引访客向购物车中添加物品。 成功量度可用于发现注册、订购或购买漏斗等方面的问题，也可仅仅用于提高访客或客户参与度。 [了解更多](/help/main/c-activities/r-success-metrics/success-metrics.md)。 |
+| 报表 | 关于您的活动进展和结果的信息，帮助您根据自身数据作出决策。 报告数据可以帮助您确定何时结束测试，向您显示哪个体验或产品建议已入选，并提供确定后续操作所需的洞察或学习数据。 [了解更多](/help/main/c-reports/reports.md)。 |
 
 ## 活动创建工具
 
@@ -74,28 +79,28 @@ ht-degree: 74%
 
 | 工具 | 详细信息 |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | 一个所见即所得界面，从中可轻松地在网站上下文中创建和测试个性化体验和产品建议。可通过拖放、调换和修改网页（或产品建议）或移动网页的布局和内容，为 [!DNL Target] 活动创建体验和产品建议。[了解更多](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)。 |
-| [!UICONTROL Form-based Experience Composer] | 一个非可视化体验和选件创建界面，当可视化体验编辑器不可用或不实用时，它有助于创建在A/B测试、体验定位、Automated Personalization和“推荐”活动中使用的体验。 例如，您可以使用基于表单的编辑器为电子邮件、网亭和语音助手中的交付创建体验和产品建议。[了解更多](/help/main/c-experiences/form-experience-composer.md)。 |
-| [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | 使用 SPA VEC，营销人员能够以 DIY（自己动手）方式创建测试并对 SPA 上的内容进行个性化，而无需持续依赖开发。VEC 可用于在常用框架（例如 React 和 Angular）上创建 A/B 测试和体验定位 (XT) 活动。[了解更多](/help/main/c-experiences/spa-visual-experience-composer.md)。 |
+| [!UICONTROL Visual Experience Composer] (VEC) | 一个所见即所得界面，从中可轻松地在网站上下文中创建和测试个性化体验和产品建议。 可通过拖放、调换和修改网页（或产品建议）或移动网页的布局和内容，为 [!DNL Target] 活动创建体验和产品建议。 [了解更多](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)。 |
+| [!UICONTROL Form-based Experience Composer] | 一个非可视化体验和选件创建界面，当可视化体验编辑器不可用或不实用时，它有助于创建在A/B测试、体验定位、Automated Personalization和“推荐”活动中使用的体验。 例如，您可以使用基于表单的编辑器为电子邮件、网亭和语音助手中的交付创建体验和产品建议。 [了解更多](/help/main/c-experiences/form-experience-composer.md)。 |
+| [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | 使用 SPA VEC，营销人员能够以 DIY（自己动手）方式创建测试并对 SPA 上的内容进行个性化，而无需持续依赖开发。 VEC 可用于在常用框架（例如 React 和 Angular）上创建 A/B 测试和体验定位 (XT) 活动。 [了解更多](/help/main/c-experiences/spa-visual-experience-composer.md)。 |
 
 ## 治理和控制
 
-为了将适当的角色和相关级别的 [!DNL Target] 访问和权限提供给适当的人，我们建立了一个管理控制台。对于[!UICONTROL Target Premium]用户，我们提供更详细的治理和控制
+为了将适当的角色和相关级别的 [!DNL Target] 访问和权限提供给适当的人，我们建立了一个管理控制台。 对于[!UICONTROL Target Premium]用户，我们提供更详细的治理和控制
 与[!UICONTROL Enterprise Permissions]。
 
 | 工具 | 详细信息 |
 | --- | --- |
-| [!UICONTROL Adobe Admin Console for Enterprise] | 从 Adobe Admin Console 将用户添加到 Adobe Target 并分配权限。[了解更多](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)。 |
-| [!UICONTROL Enterprise Permission]s<br>（高级） | 正式管理整个企业中用户访问 [!DNL Target] 的一种方法。将用户添加到 [!DNL Target]、根据其角色分配权限、根据不同部门、全球地点、渠道和其他逻辑分组为团队创建工作区。可为用户分配观察者、编辑者、发布者或审批者的角色。[了解更多](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
+| [!UICONTROL Adobe Admin Console for Enterprise] | 从 Adobe Admin Console 将用户添加到 Adobe Target 并分配权限。 [了解更多](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)。 |
+| [!UICONTROL Enterprise Permission]s<br>（高级） | 正式管理整个企业中用户访问 [!DNL Target] 的一种方法。 将用户添加到 [!DNL Target]、根据其角色分配权限、根据不同部门、全球地点、渠道和其他逻辑分组为团队创建工作区。 可为用户分配观察者、编辑者、发布者或审批者的角色。 [了解更多](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 
 ## 集成
 
-[!DNL Target] 可与第一方、第二方和第三方系统集成。这些
-集成对于让您可访问这些系统产生的用于创建受众以供测试和个性化的访客和客户数据可发挥很大作用。作为 [!DNL Adobe Experience Cloud] 的一部分，[!DNL Target] 与 [!DNL Experience Cloud] 解决方案及其核心服务紧密集成。
+[!DNL Target] 可与第一方、第二方和第三方系统集成。 然后，这些
+集成对于让您能够访问这些系统中可用于创建受众以供测试和个性化的访客和客户数据可发挥很大作用。 作为 [!DNL Adobe Experience Cloud] 的一部分，[!DNL Target] 与 [!DNL Experience Cloud] 解决方案及其核心服务紧密集成。
 
 | 集成 | 详细信息 |
 | --- | --- |
-| Adobe Experience Cloud | [!DNL Target] 将多种功能嵌入其他 [!DNL Adobe Experience Cloud] 解决方案以大规模地使体验个性化。可将 [!DNL Target] 的强大功能与 [Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md)、[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md)、[Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md) (AAM) 和 [Adobe Experience Manager](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) (AEM) 相结合。 |
+| Adobe Experience Cloud | [!DNL Target] 将多种功能嵌入其他 [!DNL Adobe Experience Cloud] 解决方案以大规模地使体验个性化。 可将 [!DNL Target] 的强大功能与 [Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md)、[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md)、[Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md) (AAM) 和 [Adobe Experience Manager](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) (AEM) 相结合。 |
 | Target API (Premium) | [!UICONTROL Target]提供了40多种API，可使用它们将Adobe Target与第一方、第二方和第三方系统集成。 [了解更多](/help/main/api/api-overview.md)。 |
 
 ## 请牢记
@@ -104,21 +109,21 @@ ht-degree: 74%
 
 ### 优化的最佳实践
 
-* **良好的策略**：我们的目标和假设是什么？二者是否相符？例如，我们希望提高贷款申请提交量，于是我们假设减少申请表中字段的数量可做到这一点。
-* **严谨的方法**：我们是否在适当的地方开始测试？例如，需要这些地点具有充足的流量并影响对业务要紧的指标。
-* **适当的设置**：我们的活动是否设置为实现我们的目标？例如，如果我们尝试提高贷款申请提交量，那么我们应锁定对贷款感兴趣的人，并衡量“提交”按钮的点击量。
-* **深入的分析**：测试活动是否运行到结束？结果怎样？运行您的活动，直至其达到 95% 至 99% 的统计置信度。记载您认为入选的体验之所以入选的原因，并将学识应用于别处。
-* **迭代测试**：我们是否延续以往活动的经验教训？如果您找到入选的策略，请尝试改进它或作出适合它的更改以进一步提高您的成功指标。
+* **良好的策略**：我们的目标和假设是什么？ 二者是否相符？ 例如，我们希望提高贷款申请提交量，于是我们假设减少申请表中字段的数量可做到这一点。
+* **严谨的方法**：我们是否在适当的地方开始测试？ 例如，需要这些地点具有充足的流量并影响对业务要紧的指标。
+* **适当的设置**：我们的活动是否设置为实现我们的目标？ 例如，如果我们尝试提高贷款申请提交量，那么我们应锁定对贷款感兴趣的人，并衡量“提交”按钮的点击量。
+* **深入的分析**：测试活动是否运行到结束？ 结果怎样？ 运行您的活动，直至其达到 95% 至 99% 的统计置信度。 记载您认为入选的体验之所以入选的原因，并将学识应用于别处。
+* **迭代测试**：我们是否延续以往活动的经验教训？ 如果您找到入选的策略，请尝试改进它或作出适合它的更改以进一步提高您的成功指标。
 
 ### 可能对您的结果产生负面影响的意见
 
-* 可能对您的效率产生负面影响的意见。最高薪人士的意见(HIPPO)、态度、偏见。 例如，CEO 想要缩小搜索框以在每个页面上腾出更多空间。我们应进行测试以确保这样做不会减少搜索次数。
-* 您是否根据意见开展行动？我不喜欢测试的方式。 客户根本不会喜欢这种体验。 虽然直觉很有用，但A/B测试一再证明它并不总是准确无误。
-* 另外，您是否拥有优化的思维模式？我很想看看哪种体验入选。 我们是否拥有足够多的选项可供测试？
+* 可能对您的效率产生负面影响的意见。 最高薪人士的意见(HIPPO)、态度、偏见。 例如，CEO 想要缩小搜索框以在每个页面上腾出更多空间。 我们应进行测试以确保这样做不会减少搜索次数。
+* 您是否根据意见开展行动？ 我不喜欢测试的方式。 客户根本不会喜欢这种体验。 虽然直觉很有用，但A/B测试一再证明它并不总是准确无误。
+* 另外，您是否拥有优化的思维模式？ 我很想看看哪种体验入选。 我们是否拥有足够多的选项可供测试？
 
 ### 也可能对结果产生负面影响的假设
 
-* 可能对您的效率产生负面影响的假设。从众心理（这是指我们竞争对手的行为方式）。例如，我们的所有竞争对手都使用巨型横幅配合轮换的图像，所以我们也应该这样做。
+* 可能对您的效率产生负面影响的假设。 从众心理（这是指我们竞争对手的行为方式）。 例如，我们的所有竞争对手都使用巨型横幅配合轮换的图像，所以我们也应该这样做。
 * 假设我们知道某些东西正常或不正常的原因。 假设我们不需要测试某些东西。 例如，我们总是将从最高价到最低价的顺序列出酒店房间作为默认情况。
-* 您是否根据假设开展行动？我们不需要测试，我们已经检查过分析。 （没错，但 Story 揭示的信息可能比 Analytics 揭示的更多）。
-* 另外，您是否拥有优化的思维模式？我们测试一切。
+* 您是否根据假设开展行动？ 我们不需要测试，我们已经检查过分析。 （没错，但 Story 揭示的信息可能比 Analytics 揭示的更多）。
+* 另外，您是否拥有优化的思维模式？ 我们测试一切。

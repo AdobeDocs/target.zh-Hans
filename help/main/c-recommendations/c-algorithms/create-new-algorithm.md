@@ -1,14 +1,18 @@
 ---
 keywords: 标准；算法；垂直行业；页面类型；推荐键；推荐逻辑；数据范围；回顾窗口；行为数据源；部分设计；备用推荐；包含规则；属性权重；当前类别；自定义属性；上次购买的项目；上次查看的项目；查看次数最多的项目；最喜爱的类别；热门程度；最近查看的项目；上次购买；上次查看；最喜爱的项目；最近查看的项目；最近查看的项目；最近查看的项目
 description: 了解如何创建条件来控制 [!DNL Recommendations] 活动的内容，以显示最适合您的活动的推荐。
-title: 如何在[!UICONTROL Criteria]中创建 [!DNL Recommendations]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+title: 如何在 [!DNL Recommendations]中创建[!UICONTROL Criteria]？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2554'
-ht-degree: 47%
+source-wordcount: 2578
+ht-degree: 48%
 
 ---
 
@@ -23,7 +27,7 @@ ht-degree: 47%
 可通过多种方式访问[!UICONTROL Create New Criteria]屏幕。 某些屏幕选项会根据您访问该屏幕的方式而有所不同。
 
 * 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;库屏幕上，单击&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**。 您在此处创建的标准会自动设置为可用于所有 [!DNL Recommendations] 活动。
-* 使用[!DNL Recommendations] (VEC)创建[!UICONTROL Visual Experience Composer]活动时，在页面上选择一个元素并单击[!UICONTROL Select Criteria]、[!UICONTROL Replace w/ Recommendations]或[!UICONTROL Insert Recommendations Before]后，您会立即转到[!UICONTROL Insert Recommendations After]屏幕。 然后，您可以选择可用的标准，也可以单击&#x200B;**[!UICONTROL Create Criteria]**。 如果您创建新标准，则可以选择保存标准以供其他[!DNL Recommendations]活动使用。 有关详细信息，请参阅[创建推荐活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+* 使用[!UICONTROL Visual Experience Composer] (VEC)创建[!DNL Recommendations]活动时，在页面上选择一个元素并单击[!UICONTROL Replace w/ Recommendations]、[!UICONTROL Insert Recommendations Before]或[!UICONTROL Insert Recommendations After]后，您会立即转到[!UICONTROL Select Criteria]屏幕。 然后，您可以选择可用的标准，也可以单击&#x200B;**[!UICONTROL Create Criteria]**。 如果您创建新标准，则可以选择保存标准以供其他[!DNL Recommendations]活动使用。 有关详细信息，请参阅[创建推荐活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
 * 编辑[!DNL Recommendations]活动时，单击页面上的[!UICONTROL Recommendations Location]框并选择&#x200B;**[!UICONTROL Change Criteria]**。 在[!UICONTROL Select Criteria]屏幕上单击&#x200B;**[!UICONTROL Create Criteria]**。 您将可以选择保存新建的标准，以供在其他 [!DNL Recommendations] 活动中使用。
 
 以下步骤假定您使用第一个方法访问[!UICONTROL Create New Criteria]屏幕： **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;库屏幕。
@@ -38,7 +42,7 @@ ht-degree: 47%
 
 1. 键入&#x200B;**[!UICONTROL Criteria Name]**。
 
-   这是用于描述标准的“内部”名称。例如，您可能希望将标准命名为“利润最高的产品”，但是不希望公开显示此名称。请参阅下一步骤，以设置公开显示的标题。
+   这是用于描述标准的“内部”名称。 例如，您可能希望将标准命名为“利润最高的产品”，但是不希望公开显示此名称。 请参阅下一步骤，以设置公开显示的标题。
 
 1. 为使用该标准的任意推荐键入一个要在页面上公开显示的&#x200B;**[!UICONTROL Display Title]**。
 
@@ -131,7 +135,7 @@ ht-degree: 47%
 
    >[!NOTE]
    >
-   >仅当您的实施使用[!UICONTROL Behavioral Data Source]Analytics for Target[&#x200B; (A4T)时，才会显示](/help/main/c-integrating-target-with-mac/a4t/a4t.md)部分。
+   >仅当您的实施使用[Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)时，才会显示[!UICONTROL Behavioral Data Source]部分。
 
    ![行为数据Source部分](assets/data-source.png)
 
@@ -139,9 +143,9 @@ ht-degree: 47%
 
    如果标准使用[!DNL Adobe Analytics]作为行为数据源，则创建标准后，其可用性的时间取决于所选报表包和回顾窗口是否已用于任何其他标准，如下所述：
 
-   * **一次性报表包设置**：首次将报表包与给定数据范围回顾时间范围一起使用时，[!DNL Target Recommendations] 可能需要 2 到 7 天的时间才能从 [!DNL Analytics] 完全下载所选报表包的行为数据。此时间范围取决于[!DNL Analytics]系统负载。
-   * **使用已经可用的报表包新建或编辑标准**：在创建新标准或编辑现有标准时，如果所选报表包已经与 [!DNL Target Recommendations] 一起使用，并且其数据范围等于或小于所选的数据范围，则数据立即可用，而无需一次性设置。在这种情况下，或者如果在未修改所选报表包或数据范围的情况下对算法的设置进行编辑，则该算法将在 12 小时内运行或者重新运行。
-   * **持续的算法运行**：数据每天从 [!DNL Analytics] 流向 [!DNL Target Recommendations]。例如，对于[!UICONTROL Viewed Affinity]推荐，当用户查看产品时，产品查看跟踪调用将以近实时的方式传递到[!DNL Analytics]。 [!DNL Analytics] 数据会在第二天早些时候被推送到 [!DNL Target]，然后 [!DNL Target] 会在 12 小时内运行算法。
+   * **一次性报表包设置**：首次将报表包与给定数据范围回顾时间范围一起使用时，[!DNL Target Recommendations] 可能需要 2 到 7 天的时间才能从 [!DNL Analytics] 完全下载所选报表包的行为数据。 此时间范围取决于[!DNL Analytics]系统负载。
+   * **使用已经可用的报表包新建或编辑标准**：在创建新标准或编辑现有标准时，如果所选报表包已经与 [!DNL Target Recommendations] 一起使用，并且其数据范围等于或小于所选的数据范围，则数据立即可用，而无需一次性设置。 在这种情况下，或者如果在未修改所选报表包或数据范围的情况下对算法的设置进行编辑，则该算法将在 12 小时内运行或者重新运行。
+   * **持续的算法运行**：数据每天从 [!DNL Analytics] 流向 [!DNL Target Recommendations]。 例如，对于[!UICONTROL Viewed Affinity]推荐，当用户查看产品时，产品查看跟踪调用将以近实时的方式传递到[!DNL Analytics]。 [!DNL Analytics] 数据会在第二天早些时候被推送到 [!DNL Target]，然后 [!DNL Target] 会在 12 小时内运行算法。
 
    有关详细信息，请参阅[将Adobe Analytics与Target推荐一起使用](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)。
 
@@ -149,9 +153,9 @@ ht-degree: 47%
 
    ![回顾窗口滑块](assets/data-range.png)
 
-   如果您的网站拥有大量流量且行为更改频繁，请选择较短的数据范围。较短的范围可使 [!DNL Recommendations] 能够更好地响应市场和业务的变化。例如，较短的范围意味着 [!DNL Recommendations] 将在访客开始季节性购物时就检测到访客行为的变化（例如返校购物季或圣诞节），并推荐适合这些购物季的项目。
+   如果您的网站拥有大量流量且行为更改频繁，请选择较短的数据范围。 较短的范围可使 [!DNL Recommendations] 能够更好地响应市场和业务的变化。 例如，较短的范围意味着 [!DNL Recommendations] 将在访客开始季节性购物时就检测到访客行为的变化（例如返校购物季或圣诞节），并推荐适合这些购物季的项目。
 
-   如果您没有大量数据，或访客行为不经常更改，则您可以选择较长的范围。但是，对于许多网站，较短的窗口会产生质量较高的推荐。
+   如果您没有大量数据，或访客行为不经常更改，则您可以选择较长的范围。 但是，对于许多网站，较短的窗口会产生质量较高的推荐。
 
    可用的数据范围包括：
 
@@ -173,15 +177,15 @@ ht-degree: 47%
 >
 >如果您选择&#x200B;**[!UICONTROL Item-Based]**/**[!UICONTROL Media with Similar Attributes]**&#x200B;作为您的[!UICONTROL Algorithm Type]和[!UICONTROL Algorithm]，则可以选择设置内容相似度规则。
 
-内容相似度会比较项目属性关键字，并根据不同项目共有的关键字数量进行推荐。基于内容相似度的推荐不需要过去的数据便可交付高效的结果。
+内容相似度会比较项目属性关键字，并根据不同项目共有的关键字数量进行推荐。 基于内容相似度的推荐不需要过去的数据便可交付高效的结果。
 
 使用内容相似度生成推荐对新项目特别有效，使用&#x200B;*查看了这个项目，也查看了*&#x200B;以及基于过去行为的其他逻辑的推荐中不太可能出现这些项目。 您还可以使用内容相似度为没有过去购买数据或其他历史数据的新访客生成有用的推荐。
 
 选择&#x200B;**[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]**&#x200B;时，您可以选择创建规则以增加或减少特定项目属性在确定推荐中的重要性。 对于书籍等项目，您可能希望提升“流派”**、“作者”**、“系列”**&#x200B;等属性的重要性，以便推荐类似的书籍。
 
-由于内容相似度使用关键字来比较项目，因此某些属性（例如“消息”**&#x200B;或“描述”**）可能会在比较中引入“干扰信息”。您可以创建规则来忽略这些属性。
+由于内容相似度使用关键字来比较项目，因此某些属性（例如“消息”**&#x200B;或“描述”**）可能会在比较中引入“干扰信息”。 您可以创建规则来忽略这些属性。
 
-默认情况下，所有属性都设置为“基准线”**。除非您要更改此设置，否则无需创建规则。
+默认情况下，所有属性都设置为“基准线”**。 除非您要更改此设置，否则无需创建规则。
 
 >[!NOTE]
 >
@@ -189,27 +193,27 @@ ht-degree: 47%
 
 ## 包含规则 {#inclusion}
 
-一些选项可帮助您缩小在推荐中显示的项目范围。您可以在创建标准或促销活动时使用包含规则。
+一些选项可帮助您缩小在推荐中显示的项目范围。 您可以在创建标准或促销活动时使用包含规则。
 
-包含规则是可选的；但是，通过设置这些详细信息，您可以更好地控制推荐中显示的项目。配置的每个详细信息都会进一步限定显示条件。
+包含规则是可选的；但是，通过设置这些详细信息，您可以更好地控制推荐中显示的项目。 配置的每个详细信息都会进一步限定显示条件。
 
-例如，您可以选择仅显示库存超过 50 双且价格在 25 美元至 45 美元之间的女鞋。您还可以对每个属性设置权重，以使对您的业务更为重要的项目最有可能显示出来。
+例如，您可以选择仅显示库存超过 50 双且价格在 25 美元至 45 美元之间的女鞋。 您还可以对每个属性设置权重，以使对您的业务更为重要的项目最有可能显示出来。
 
 再比如，您可以选择向仅从某些城市访问您的网站并且具有所需大学学位的访客显示职位空缺。
 
-包含规则选项会因垂直行业而异。默认情况下，包含规则会应用于备用推荐。
+包含规则选项会因垂直行业而异。 默认情况下，包含规则会应用于备用推荐。
 
 >[!IMPORTANT]
 >
->您应谨慎使用包含规则。在某些情况下动态属性筛选非常有用，例如您的组织设置了一些规则，要求不推荐某个品牌但显示另一品牌。但是，此功能存在机会成本。通过限制某些项目使其不显示（按活动标准通常会显示这些项目），您可能会损失一定比例的提升度。
+>您应谨慎使用包含规则。 在某些情况下动态属性筛选非常有用，例如您的组织设置了一些规则，要求不推荐某个品牌但显示另一品牌。 但是，此功能存在机会成本。 通过限制某些项目使其不显示（按活动标准通常会显示这些项目），您可能会损失一定比例的提升度。
 
-包含规则会使用“与”连接在一起。所有规则都必须得到满足，才能在推荐中包含某个项目。
+包含规则会使用“与”连接在一起。 所有规则都必须得到满足，才能在推荐中包含某个项目。
 
 如前所述，要创建一个简单的包含规则以仅显示库存超过 50 双且价格在 25 美元至 45 美元之间的女鞋，请执行以下步骤：
 
 1. （视情况而定）将&#x200B;**[!UICONTROL Allow recently purchased items to be recommended?]**&#x200B;切换开关滑动到“开”位置。
 
-   此设置基于 `productPurchasedId`。默认行为是不推荐以前购买的项目。在大多数情况下，您不想促销客户最近购买的项目。如果您销售的是人们通常只买一次的物品，例如皮划艇，那么此选项很有用。如果您销售的是人们会重复再次购买的物品，例如洗发水或其他个人物品，则应该启用此选项。
+   此设置基于 `productPurchasedId`。 默认行为是不推荐以前购买的项目。 在大多数情况下，您不想促销客户最近购买的项目。 如果您销售的是人们通常只买一次的物品，例如皮划艇，那么此选项很有用。 如果您销售的是人们会重复再次购买的物品，例如洗发水或其他个人物品，则应该启用此选项。
 
 1. 设置您要推荐的产品的价格范围。
 1. 设置您要推荐的产品的最低库存量。
@@ -217,13 +221,13 @@ ht-degree: 47%
 
    您可以指定仅当列表中的某个属性符合或不符合一个或多个指定的条件时才包含项目。
 
-   可用的计算器取决于您在第一个下拉列表中选择的值。您可以列出多个项目。这些项目会使用“或”进行评估。
+   可用的计算器取决于您在第一个下拉列表中选择的值。 您可以列出多个项目。 这些项目会使用“或”进行评估。
 
    多个规则会使用“与”连接在一起。
 
    >[!NOTE]
    >
-   >此选项限制了在推荐中显示的项目数。它不影响推荐在哪些页面上显示。要限制显示推荐的位置，请在体验编辑器中选择页面。
+   >此选项限制了在推荐中显示的项目数。 它不影响推荐在哪些页面上显示。 要限制显示推荐的位置，请在体验编辑器中选择页面。
 
 有关详细信息，请参阅[使用动态和静态包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)。
 
@@ -231,7 +235,7 @@ ht-degree: 47%
 
 您可以添加多个规则，以根据有关内容目录的重要信息或元数据“轻推”算法，以便更有可能显示某些项目。
 
-例如，您可以对预售项目应用较高的权重，以便它们更频繁地出现在推荐中。 非促销项目不会完全排除，但它们的显示频率会降低。可以将多个加权属性应用到同一算法，并且可以在推荐中对拆分流量测试加权属性。
+例如，您可以对促销项目应用更高的权重，以便它们更频繁地显示在推荐中。 非促销项目不会完全排除，但它们的显示频率会降低。 可以将多个加权属性应用到同一算法，并且可以在推荐中对拆分流量测试加权属性。
 
 1. 选择一个值。
 

@@ -4,10 +4,14 @@ description: 了解访客如何在 [!DNL Adobe Target] [!UICONTROL Experience Ta
 title: 访客能否在[!UICONTROL Experience Targeting]活动中切换体验？
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 43%
+source-wordcount: 723
+ht-degree: 41%
 
 ---
 
@@ -21,28 +25,28 @@ ht-degree: 43%
 |--- |--- |
 | 地理位置 | 访客出差或外出旅游时，可能会从不同的地理位置访问您的网站或移动设备应用程序。 |
 | 客户状态 | 访客尚未创建帐户或购买产品时，可能会将其视为潜在客户。 |
-| 类别亲和力 | [中的](/help/main/c-target/c-visitor-profile/category-affinity.md)类别亲和度[!DNL Target]功能会自动捕获访客查看的类别，然后计算访客对该类别的喜爱程度，以便进行定位。 例如，查看了您网站上有关特定主题的多篇文章的访客，将会看到与该主题相关的内容。 |
+| 类别亲和力 | [!DNL Target]中的[类别亲和度](/help/main/c-target/c-visitor-profile/category-affinity.md)功能会自动捕获访客查看的类别，然后计算访客对该类别的喜爱程度，以便进行定位。 例如，查看了您网站上有关特定主题的多篇文章的访客，将会看到与该主题相关的内容。 |
 | 每周时间 | 随着周末临近，您可能想要向访客显示与电影、美食或其他类型的娱乐活动有关的内容。 |
 
 要在[!DNL Target]中使用这些功能，在使用[!UICONTROL Experience Targeting]活动时请务必了解以下信息：
 
-* **优先级是由体验的顺序（从上到下）来控制的。**&#x200B;如果访客符合两个以上受众的条件，则该访客会从更高优先级的体验中接收内容。
+* **优先级由体验的顺序从上到下控制。** 如果访客符合两个以上受众的条件，则该访客会从更高优先级的体验中接收内容。
 * **如果访客开始符合具有较高优先级的体验的受众资格，则访客将在[!UICONTROL Experience Targeting]活动中的体验之间切换。**
 
-  例如，在以下活动设置中，一位访客先在美国访问了您的网站，然后又来到了德国并在德国再次访问您的网站。在首次访问期间，该访客符合体验 A（美国访客）的条件。在德国访问您的网站后，该访客切换到了体验 B（德国访客）。
+  例如，在以下活动设置中，一位访客先在美国访问了您的网站，然后又来到了德国并在德国再次访问您的网站。 在首次访问期间，该访客符合体验 A（美国访客）的条件。 在德国访问您的网站后，该访客切换到了体验 B（德国访客）。
 
   ![优先级：美国 > 德国](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-refresh.png)
 
 * **如果访客停止符合当前受众的资格条件，但开始符合较低优先级的体验，则访客也会在体验之间切换。**
 * **如果访客不再符合其当前体验的资格条件，并且没有资格获得其他体验，则会看到默认内容。**
 
-  例如，在以下活动设置中，一位访客先在美国访问了您的网站，然后又来到了法国并在法国再次访问您的网站。在首次访问期间，该访客符合体验 A（美国访客）的条件。在法国访问您的网站后，该访客将停留在原始体验中。
+  例如，在以下活动设置中，一位访客先在美国访问了您的网站，然后又来到了法国并在法国再次访问您的网站。 在首次访问期间，该访客符合体验 A（美国访客）的条件。 在法国访问您的网站后，该访客将停留在原始体验中。
 
   ![优先级：美国 > 德国](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-refresh.png)
 
 * **定位到“所有访客”的体验可以用作[!UICONTROL Experience Targeting]活动中的最后一个体验，以“捕获”所有不符合任何其他体验条件的访客。 如果定位到“所有访客”的体验不是顺序中的最后一个体验，则仍会评估列出低于此体验的其他目标体验。**
 
-  例如，在以下活动设置中，一位访客先在美国访问了您的网站，然后又来到了德国并在德国再次访问您的网站。在首次访问期间，该访客符合体验 A（美国访客）的条件。在德国访问您的网站后，该访客将停留在体验A（美国访客）中。
+  例如，在以下活动设置中，一位访客先在美国访问了您的网站，然后又来到了德国并在德国再次访问您的网站。 在首次访问期间，该访客符合体验 A（美国访客）的条件。 在德国访问您的网站后，该访客将停留在体验A（美国访客）中。
 
   ![优先级：美国 > 所有访客](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-refresh.png)
 
@@ -60,6 +64,6 @@ ht-degree: 43%
 
 * **体验的优先级是由体验在[!DNL Target] UI中的显示顺序（从上到下）定义的。**
 
-  访客可能会符合多个受众的条件，在这种情况下，记住这一点十分重要。例如，如果您有两个体验：一个针对“美国”，一个针对“纽约”，则位于纽约的访客将同时符合这两个受众的资格。 因此，您必须确保先定义“New York”体验，然后再定义[!DNL Target] UI中的“United States”体验。 这种做法可确保更具针对性的“纽约”体验具有更高的优先级，如以下示例所示：
+  访客可能会符合多个受众的条件，在这种情况下，记住这一点十分重要。 例如，如果您有两个体验：一个针对“美国”，一个针对“纽约”，则位于纽约的访客将同时符合这两个受众的资格。 因此，您必须确保先定义“New York”体验，然后再定义[!DNL Target] UI中的“United States”体验。 这种做法可确保更具针对性的“纽约”体验具有更高的优先级，如以下示例所示：
 
   ![优先级：纽约 > 美国](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-refresh.png)

@@ -2,14 +2,19 @@
 keywords: 集成;角色;用户权限;Admin Console
 description: 了解如何通过Adobe Target中的所需角色授予现有Adobe I/O集成访问所有工作区的权限。
 title: 如何授予Adobe I/O工作区访问权限并分配角色？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
+TQID: https://experienceleague.adobe.com/8WUCeb4ztjDdWUEtawLYeC-4FDgn1SiGarmS1hqGNgI
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 59%
+source-wordcount: 623
+ht-degree: 58%
 
 ---
 
@@ -19,9 +24,9 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->“属性和权限”功能作为 [Target Premium](/help/main/c-intro/intro.md#premium) 解决方案的一部分提供。如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
+>“属性和权限”功能作为 [Target Premium](/help/main/c-intro/intro.md#premium) 解决方案的一部分提供。 如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
 
-[!UICONTROL Enterprise Permissions]功能有助于跨团队高效地扩展优化程序。 尽管该功能在 [!DNL Target] UI 中可用，但直到 2019 年年初管理员 API 一直缺少相应的支持。在 [!DNL Target] 2019 年 2 月版中，Adobe 更新了管理员 API，以便您可以使用集成帐户访问组织中创建的所有工作区。因此，尽管在以前版本中，管理员API限制为仅访问默认工作区，但是2019年2月的更新版授予了使用[!UICONTROL Approver]访问权限访问所有工作区的访问权限。
+[!UICONTROL Enterprise Permissions]功能有助于跨团队高效地扩展优化程序。 尽管该功能在 [!DNL Target] UI 中可用，但直到 2019 年年初管理员 API 一直缺少相应的支持。 在 [!DNL Target] 2019 年 2 月版中，Adobe 更新了管理员 API，以便您可以使用集成帐户访问组织中创建的所有工作区。 因此，尽管在以前版本中，管理员API限制为仅访问默认工作区，但是2019年2月的更新版授予了使用[!UICONTROL Approver]访问权限访问所有工作区的访问权限。
 
 在[!DNL Target] 2019年9月版中，[!DNL Target] [!UICONTROL Enterprise Permissions]为客户提供以下访问控制：
 
@@ -35,11 +40,11 @@ ht-degree: 59%
 * 当团队准备好探索 API 并选择相应的角色时，允许各个团队自行创建工作区以便拥有他们自己的集成。
 * 混合并匹配以上任意场景。
 
-**所需操作**：当前正在利用 API 对所有工作区中的资源（活动、受众、产品建议和报表）执行 CRUD 操作的客户，需要根据用例要求，授予其现有 Adobe I/O 集成使用所需的角色访问所有工作区的权限。您可以通过选择[!DNL Target]中的每个[!UICONTROL Product Profile] [!DNL Adobe Admin Console]并在[!UICONTROL Integration]选项卡中添加集成来执行此操作。 在9月版之前，无论从[!UICONTROL Approver]下拉列表中进行任何选择，所有集成操作都使用[!UICONTROL Product Role]访问权限来进行。 现在，您可以选择所需的角色。
+**所需操作**：当前正在利用 API 对所有工作区中的资源（活动、受众、产品建议和报表）执行 CRUD 操作的客户，需要根据用例要求，授予其现有 Adobe I/O 集成使用所需的角色访问所有工作区的权限。 您可以通过选择[!DNL Adobe Admin Console]中的每个[!DNL Target] [!UICONTROL Product Profile]并在[!UICONTROL Integration]选项卡中添加集成来执行此操作。 在9月版之前，无论从[!UICONTROL Product Role]下拉列表中进行任何选择，所有集成操作都使用[!UICONTROL Approver]访问权限来进行。 现在，您可以选择所需的角色。
 
 >[!NOTE]
 >
->如果未执行这项操作，则在 [!DNL Target] 2019 年 9 月版发布之后，访问控制将会激活，而且如果您当前设置为仅访问默认工作区，那么您将看到激活后也只能访问默认工作区。预先设置集成不会产生不良影响。越早完成更改越好。根据组织中的工作区数量，此过程只需单击几次，即可使用所需的角色将现有集成添加到工作区中。
+>如果未执行这项操作，则在 [!DNL Target] 2019 年 9 月版发布之后，访问控制将会激活，而且如果您当前设置为仅访问默认工作区，那么您将看到激活后也只能访问默认工作区。 预先设置集成不会产生不良影响。 越早完成更改越好。 根据组织中的工作区数量，此过程只需单击几次，即可使用所需的角色将现有集成添加到工作区中。
 
 **要授予 Adobe I/O 集成访问工作区的权限并分配角色，请执行以下操作：**
 
@@ -66,4 +71,4 @@ ht-degree: 59%
    | 审批者 | 可以创建、编辑，以及激活或停止活动。 |
    | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
    | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
-   | 发布者 | 类似于观察者角色（可查看活动，但无法创建或编辑活动）。但是，发布者角色另有激活活动的权限。 |
+   | 发布者 | 类似于观察者角色（可查看活动，但无法创建或编辑活动）。 但是，发布者角色另有激活活动的权限。 |

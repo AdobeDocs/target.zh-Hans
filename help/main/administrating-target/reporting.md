@@ -5,9 +5,13 @@ title: 如何在 [!DNL Target]中配置报表？
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 3e2682acdf8c7be86285c901ddcdae0f43b647f2
+TQID: https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: 766
 ht-degree: 22%
 
 ---
@@ -50,13 +54,13 @@ ht-degree: 22%
 
 在确定报表源时，请考虑以下信息：
 
-* **[!DNL Analytics]**：有关使用[!DNL Analytics]作为报表源(A4T)的支持活动的矩阵，请参阅[Adobe Analytics中的](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)支持的活动类型&#x200B;*作为Adobe Target (A4T)*&#x200B;的报表源。
+* **[!DNL Analytics]**：有关使用[!DNL Analytics]作为报表源(A4T)的支持活动的矩阵，请参阅&#x200B;*Adobe Analytics中的[支持的活动类型](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)作为Adobe Target (A4T)*&#x200B;的报表源。
 
-  无论选择何种报表源，都允许创建和激活[!UICONTROL Automated Personalization] (AP)活动。 当您选择[!UICONTROL Automated Personalization]Adobe Analytics作为Adobe Target (A4T) [的报表源时，](/help/main/c-integrating-target-with-mac/a4t/a4t.md)活动不受支持。
+  无论选择何种报表源，都允许创建和激活[!UICONTROL Automated Personalization] (AP)活动。 当您选择[Adobe Analytics作为Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)的报表源时，[!UICONTROL Automated Personalization]活动不受支持。
 
   即使您指定[!DNL Analytics]作为报表源，[!DNL Target]也用作[!DNL Automated Personalization]活动的报表源。
 
-* **[!DNL Customer Journey Analytics]**：有关在[!DNL Target]中使用[!DNL Customer Journey Analytics]报表的受支持活动的矩阵，请参阅[中的](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities)报表中的&#x200B;*[!DNL Target]受支持的活动类型[!DNL Adobe Customer Journey Analytics]*。
+* **[!DNL Customer Journey Analytics]**：有关在[!DNL Customer Journey Analytics]中使用[!DNL Target]报表的受支持活动的矩阵，请参阅&#x200B;[!DNL Adobe Customer Journey Analytics]*中的*[!DNL Target]&#x200B;报表中的[受支持的活动类型](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities)。
 
   无论选择什么报表源，[!UICONTROL Automated Personalization] (AP)、[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动都允许创建和激活。 选择[Adobe Customer Journey Analytics作为报表源](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)时，不支持这些活动。
 
@@ -80,9 +84,9 @@ ht-degree: 22%
 
 ## 显示预计收入提升
 
-如果您为目标输入货币值，则可以选择显示预计收入提升。 [!DNL Target] 可以估计在所有用户都查看成功体验时将获得的收入提升。默认情况下，预计提升功能处于禁用状态。
+如果您为目标输入货币值，则可以选择显示预计收入提升。 [!DNL Target] 可以估计在所有用户都查看成功体验时将获得的收入提升。 默认情况下，预计提升功能处于禁用状态。
 
-只有[!DNL Experience Cloud]管理员用户可以启用或禁用此功能。 如果禁用预计提升，则界面中不会显示相应的字段。禁用此功能不会导致数据丢失，包括用于估算的数据。无论是否启用了此功能，都会根据所收集的数据进行估算。
+只有[!DNL Experience Cloud]管理员用户可以启用或禁用此功能。 如果禁用预计提升，则界面中不会显示相应的字段。 禁用此功能不会导致数据丢失，包括用于估算的数据。 无论是否启用了此功能，都会根据所收集的数据进行估算。
 
 有关详细信息，请参阅[预计收入提升](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)。
 
@@ -92,4 +96,4 @@ ht-degree: 22%
 
 根据您的设置，UI和“优先级”选项会有所不同。 您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。
 
-如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。
+如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。 如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。

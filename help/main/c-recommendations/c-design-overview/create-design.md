@@ -2,13 +2,16 @@
 keywords: 推荐设计;创建设计;复制设计
 description: 了解如何使用默认设计或通过创建自定义设计来创建 [!DNL Target Recommendations] 设计，以便最好地配合页面的布局。
 title: 如何在“推荐”中创建设计？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 19%
+source-wordcount: 1006
+ht-degree: 20%
 
 ---
 
@@ -48,15 +51,15 @@ ht-degree: 19%
 
    此时将显示[!UICONTROL Create Design]对话框。
 
-1. 键入&#x200B;**[!UICONTROL &#x200B; Name]**&#x200B;和要在设计卡片上显示的可选预览图像。
+1. 键入&#x200B;**[!UICONTROL  Name]**&#x200B;和要在设计卡片上显示的可选预览图像。
 
-   当您使用默认设计时，设计名称和“副本”将出现在&#x200B;**[!UICONTROL Content Name]**&#x200B;字段中。 您可以编辑该名称。您还可以选择要在设计卡片上显示的图像。
+   当您使用默认设计时，设计名称和“副本”将出现在&#x200B;**[!UICONTROL Content Name]**&#x200B;字段中。 您可以编辑该名称。 您还可以选择要在设计卡片上显示的图像。
 
 1. （视情况而定）根据需要编辑设计&#x200B;**[!UICONTROL Code]**。
 
-   推荐设计使用的是开源 Velocity 设计语言。有关Velocity的信息可在[https://velocity.apache.org](https://velocity.apache.org)和[使用Velocity自定义设计](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)中找到。
+   推荐设计使用的是开源 Velocity 设计语言。 有关Velocity的信息可在[https://velocity.apache.org](https://velocity.apache.org)和[使用Velocity自定义设计](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)中找到。
 
-   设计可以是 HTML 形式，也可以是非 HTML 形式。默认情况下，HTML设计使用`<div>`标记封装，以便允许在Web环境中进行点击跟踪。 非HTML设计适用于无法进行点击跟踪的非Web环境。 将[!UICONTROL HTML Design]切换开关滑动到“关闭”位置以使用非HTML代码。
+   设计可以是 HTML 形式，也可以是非 HTML 形式。 默认情况下，HTML设计使用`<div>`标记封装，以便允许在Web环境中进行点击跟踪。 非 HTML 设计适用于无法进行点击跟踪的非 Web 环境。 将[!UICONTROL HTML Design]切换开关滑动到“关闭”位置以使用非HTML代码。
 
    >[!NOTE]
    >
@@ -136,7 +139,7 @@ ht-degree: 19%
    1. 在&#x200B;**[!UICONTROL Choose Experience Composer]**&#x200B;下，选择&#x200B;**[!UICONTROL Form]**，然后单击&#x200B;**[!UICONTROL Next]**。
    1. 在“位置”下方，输入文本：“Sample_Recs_Response”
    1. 在&#x200B;**[!UICONTROL Default Content]**&#x200B;下，单击向下箭头，然后单击&#x200B;**[!UICONTROL Add Recommendation]**。
-   1. 选择一种页面类型。这决定了对接下来要显示的屏幕的初步筛选。
+   1. 选择一种页面类型。 这决定了对接下来要显示的屏幕的初步筛选。
    1. 选择标准卡片，然后单击&#x200B;**[!UICONTROL Next]**。
    1. 选择在上一步中创建的设计，然后单击&#x200B;**[!UICONTROL Next]**。
    1. 完成设置过程。
@@ -156,7 +159,7 @@ ht-degree: 19%
 
    | 参数 | 值 |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Target客户端代码(位于/help/target/products.html#recsSettings >推荐API令牌>客户端代码)。 |
+   | `[YOUR_CLIENT_CODE]` | Target客户端代码（位于#recsSettings >推荐API令牌>客户端代码）。 |
    | `[YOUR_MBOX_NAME]` | 您在基于表单的“推荐”的“位置”部分中选择的名称，在本例中为Sample_Recs_Response。 |
    | `[ENTITY_ID` | 您目录中的项目的 `entity.id`。 |
    | `[AT_PROPERTY_TOKEN]` | （可选）如果您在活动设置过程中选择了某个属性（“企业权限”的一部分），则需添加此参数。 |
@@ -173,7 +176,7 @@ ht-degree: 19%
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-或者，您也可以在响应中发送更多信息。下面是一个更为复杂的代码文件示例，此代码不仅仅返回了实体 ID 及其关联的版块（顺序），还返回了更多其他内容。此设计示例还返回了活动详细信息、[!UICONTROL Target Profile]详细信息（如适用）以及与返回的项目关联的其他`entity.attributes`。
+或者，您也可以在响应中发送更多信息。 下面是一个更为复杂的代码文件示例，此代码不仅仅返回了实体 ID 及其关联的版块（顺序），还返回了更多其他内容。 此设计示例还返回了活动详细信息、[!UICONTROL Target Profile]详细信息（如适用）以及与返回的项目关联的其他`entity.attributes`。
 
 ```javascript
     {   
@@ -320,4 +323,4 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
 * 创建自定义设计
 * 了解如何在设计中引用显示变量
 
->[!VIDEO](https://video.tv.adobe.com/v/35357?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

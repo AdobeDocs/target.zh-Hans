@@ -4,20 +4,24 @@ description: 了解如何将Adobe [!DNL Target] 与Adobe Campaign结合使用以
 title: 如何将 [!DNL Target] 与Adobe Campaign集成？
 feature: Integrations
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/RMW9ijj8UqzrDr1-PKwwfw5aWfH4YmtSi1HR7rLDSZ4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: 372
 ht-degree: 32%
 
 ---
 
 # 将[!DNL Target]与Adobe Campaign集成
 
-使用带有[!DNL Target]的[!DNL Adobe Campaign]优化电子邮件内容。
+使用带有[!DNL Adobe Campaign]的[!DNL Target]优化电子邮件内容。
 
 要优化电子邮件内容，您可以在[!DNL Target]中创建重定向选件，然后使用[!DNL Adobe Campaign]管理电子邮件选件。 例如，您可以为男性收件人和女性收件人显示不同的选件。
 
-打开电子邮件时，即会开始进行集成。当客户打开电子邮件时，会向[!DNL Target]发出呼叫，并显示内容的动态版本。 该内容包含一个所有浏览器均支持的静态图像。[!DNL Target]跟踪受众或会话级别对选件的反应，该数据在[!DNL Target]报表中可用。
+打开电子邮件时，即会开始进行集成。 当客户打开电子邮件时，会向[!DNL Target]发出呼叫，并显示内容的动态版本。 该内容包含一个所有浏览器均支持的静态图像。 [!DNL Target]跟踪受众或会话级别对选件的反应，该数据在[!DNL Target]报表中可用。
 
 [!DNL Target]可以跟踪以下数据：
 
@@ -55,9 +59,9 @@ ht-degree: 32%
 
   请参阅[重定向到 URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)。
 
-在设置集成的[!DNL Target]部分之前，在[!DNL Campaign]中启动活动。
+在设置集成的[!DNL Campaign]部分之前，在[!DNL Target]中启动活动。
 
-## 在[!DNL Target]电子邮件中包含[!DNL Adobe Campaign]选件 {#section_B201BBE27A704E18AF0D553F35695837}
+## 在[!DNL Adobe Campaign]电子邮件中包含[!DNL Target]选件 {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. 在[!DNL Adobe Campaign]中创建电子邮件。
 1. 在电子邮件属性中，单击&#x200B;**[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**。

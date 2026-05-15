@@ -1,20 +1,23 @@
 ---
 keywords: 自动定位；定位；流量分配；常见问题解答；faq；疑难解答；故障诊断；报表；自动定位摘要报表；摘要报表；自动化区段；重要属性
-description: 了解如何解释[!UICONTROL Auto-Target]中的 [!DNL Target]活动报告。
+description: 了解如何解释 [!DNL Target]中的[!UICONTROL Auto-Target]活动报告。
 title: 如何解释[!UICONTROL Auto-Target]报告？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Auto-Target
 exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
-source-git-commit: 79fcfe80d8c77d59965e6565a36cf15eb63f8323
+TQID: https://experienceleague.adobe.com/kULapGCJA-c5IUDhu-2opyah6rRuU4l91KetAJ-oHYs
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: 192
 ht-degree: 14%
 
 ---
 
 # 报告和[!UICONTROL Auto-Target]
 
-有关如何解释[!UICONTROL Auto-Target Summary]中的[!DNL Adobe Target]报表的信息，包括[!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]报表。
+有关如何解释[!DNL Adobe Target]中的[!UICONTROL Auto-Target Summary]报表的信息，包括[!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]报表。
 
 有关每个报表的详细信息，请参阅以下主题：
 

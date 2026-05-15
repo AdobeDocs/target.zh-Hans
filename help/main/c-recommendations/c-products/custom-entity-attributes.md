@@ -2,14 +2,17 @@
 keywords: 多值实体属性;自定义实体属性;有效 JSON;实体属性值;JSON 数组;多值的;多值
 description: 了解如何使用单值和多值自定义实体属性来定义有关Adobe [!DNL Target] 推荐目录中的项目的其他信息。
 title: 如何使用自定义实体属性？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1454'
-ht-degree: 81%
+source-wordcount: 1504
+ht-degree: 80%
 
 ---
 
@@ -19,15 +22,15 @@ ht-degree: 81%
 
 ## 限制 {#limits}
 
-您最多可以包含 100 个自定义实体属性，来对目录中的项目定义其他相关信息。例如，您可以创建一个名为 `entity.genre` 的自定义属性，用来定义一本书籍或一部电影。或者，票务供应商可以为活动场地创建属性以包括辅助表演，例如体育赛事中的客队或音乐会上的开场表演。
+您最多可以包含 100 个自定义实体属性，来对目录中的项目定义其他相关信息。 例如，您可以创建一个名为 `entity.genre` 的自定义属性，用来定义一本书籍或一部电影。 或者，票务供应商可以为活动场地创建属性以包括辅助表演，例如体育赛事中的客队或音乐会上的开场表演。
 
 单值实体自定义属性的最大长度为 15,000 个字符（对于单字节和双字节 UTF-8 编码语言，例如英语和其他拉丁文字字母）或 10,000 字符（对于三字节 UTF-8 编码语言，例如中文、日语和韩语）。
 
-多值实体自定义属性最多可以包含 500 个值。每个值的限制为 100 个字符。所有值的字符总数必须符合单值实体自定义属性的最大长度限制（请参阅上文）。
+多值实体自定义属性最多可以包含 500 个值。 每个值的限制为 100 个字符。 所有值的字符总数必须符合单值实体自定义属性的最大长度限制（请参阅上文）。
 
 ## 自定义实体属性值 {#section_313331A9F8194A89B5EDD89363018651}
 
-自定义实体属性可以包含单个值或多个值。实体属性值会显示在产品视图中。
+自定义实体属性可以包含单个值或多个值。 实体属性值会显示在产品视图中。
 
 ![multi-value_product图像](assets/multi-value_product.png)
 
@@ -46,26 +49,26 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->[!DNL Recommendations] 不支持多值实体属性中存在混合值类型。例如，`["AB",1,true, [1,2,3]]` 是有效的 JSON 数组，但在 [!DNL Recommendations] 中不受支持，因为它包含混合值类型（字符串、数字、布尔值、对象）。
+>[!DNL Recommendations] 不支持多值实体属性中存在混合值类型。 例如，`["AB",1,true, [1,2,3]]` 是有效的 JSON 数组，但在 [!DNL Recommendations] 中不受支持，因为它包含混合值类型（字符串、数字、布尔值、对象）。
 
 将自定义属性作为有效的 JSON 数组发送后，该属性会被视为目录中所有产品的多值属性。
 
 >[!NOTE]
 >
->要将多值属性更改为单值属性，您必须删除目录并上传已更正的产品数据。删除目录不会删除与您的产品 ID 关联的历史数据。有关更多信息，请参阅 Adobe Recommendations Classic ** 文档中的[删除系统中的所有项目](/help/main/assets/adobe-recommendations-classic.pdf)。
+>要将多值属性更改为单值属性，您必须删除目录并上传已更正的产品数据。 删除目录不会删除与您的产品 ID 关联的历史数据。 有关更多信息，请参阅 Adobe Recommendations Classic ** 文档中的[删除系统中的所有项目](/help/main/assets/adobe-recommendations-classic.pdf)。
 
 **限制**：
 
-* 您无法将预定义实体属性的名称用于自定义实体属性。（请参阅[实体属性](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)。）
-* `entity.environment` 属性由系统保留，该属性不能用于自定义实体属性。尝试使用 `entity.environment`、信息源或 API 来传递 `targetPageParams` 的操作将会被忽略。
-* 数组必须包含单值类型。不支持混合值数组 ( `["AB",1,true]` )。
+* 您无法将预定义实体属性的名称用于自定义实体属性。 （请参阅[实体属性](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)。）
+* `entity.environment` 属性由系统保留，该属性不能用于自定义实体属性。 尝试使用 `entity.environment`、信息源或 API 来传递 `targetPageParams` 的操作将会被忽略。
+* 数组必须包含单值类型。 不支持混合值数组 ( `["AB",1,true]` )。
 * 包含嵌套 JSON 数组 ( `[10,12,[1,2,3]]` ) 的多值属性会被视为单值属性。
 
 ## 实施多值属性 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-使用信息源(CSV)、`targetPageParams`和交付API上传产品时，支持多值自定义实体属性。 新值会替换当前值，而不进行附加。空数组( [])被视为没有值。
+使用信息源(CSV)、`targetPageParams`和交付API上传产品时，支持多值自定义实体属性。 新值会替换当前值，而不进行附加。 空数组( [])被视为没有值。
 
-必须对双引号进行转义。例如，`"[""test"", ""value""]"` 是可在 CSV 中使用的有效 JSON 数组。
+必须对双引号进行转义。 例如，`"[""test"", ""value""]"` 是可在 CSV 中使用的有效 JSON 数组。
 
 您最多可以在多值属性中包含 500 个值。
 
@@ -100,7 +103,7 @@ function targetPageParams() {
 
 ![multi-value_example_excel图像](assets/multi-value_example_excel.png)
 
-转换为.csv格式时，电子表格软件会在单元格内容两侧添加双引号，以防止单元格内的逗号充当列分隔符。 它还会在自定义多值属性中包含的 JSON 字符串值两侧添加双引号标记。这样可直接处理庞杂的原始文件。例如：
+转换为.csv格式时，电子表格软件会在单元格内容两侧添加双引号，以防止单元格内的逗号充当列分隔符。 它还会在自定义多值属性中包含的 JSON 字符串值两侧添加双引号标记。 这样可直接处理庞杂的原始文件。 例如：
 
 * 电子表格：`["1","2","3"]`
 * 原始：`"[""1"",""2"",""3""]"`
@@ -127,7 +130,7 @@ function targetPageParams() {
   }
 ```
 
-有关使用交付和保存实体API的信息，请参阅[Adobe Recommendations API文档](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
+有关使用交付和保存实体API的信息，请参阅[Adobe Recommendations API文档](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
 ## 将运算符用于多值属性 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -135,10 +138,10 @@ function targetPageParams() {
 
 在以下示例中，规则是`message contains abc`。
 
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值包含 `abc`。
-* 用例 2：`entity.genre = ["abcde","de","ef"]`结果为 true，因为有一个值包含 `abc`。
+* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 false，因为没有值包含 `abc`。
+* 用例 2：`entity.genre = ["abcde","de","ef"]` 结果为 true，因为有一个值包含 `abc`。
 
-对于否定运算符，所有属性值必须都符合运算规则（布尔运算“和”**）。例如，如果运算符为`notEquals`，则当有任何值匹配时，结果将为&#x200B;*false*。
+对于否定运算符，所有属性值必须都符合运算规则（布尔运算“和”**）。 例如，如果运算符为`notEquals`，则当有任何值匹配时，结果将为&#x200B;*false*。
 
 有关算法包含规则、目录规则和排除规则中的运算符行为，请参阅以下部分。
 
@@ -148,8 +151,8 @@ function targetPageParams() {
 
 示例: `genre equals abc`
 
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值等于 `abc`。
-* 用例 2：`entity.genre = ["abc", "de", "ef"]`结果为 true，因为有一个值等于 `abc`。
+* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 false，因为没有值等于 `abc`。
+* 用例 2：`entity.genre = ["abc", "de", "ef"]` 结果为 true，因为有一个值等于 `abc`。
 * 用例3：`entity.genre = ["abcde", "de", "ef"]`。 结果为 false，因为 `abc` 不等于列表中的任何元素。
 
 ### 不等于
@@ -158,8 +161,8 @@ function targetPageParams() {
 
 示例: `genre not equals abc`
 
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 true，因为没有值等于 `abc`。
-* 用例 2：`entity.genre = ["abc", "de", "ef"]`结果为 false，因为有一个值等于 `abc`。
+* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 true，因为没有值等于 `abc`。
+* 用例 2：`entity.genre = ["abc", "de", "ef"]` 结果为 false，因为有一个值等于 `abc`。
 * 用例3：`entity.genre = ["abcde", "de", "ef"]`。 结果为 true，因为 `abc` 不等于列表中的任何元素。
 
 ### 包含
@@ -168,8 +171,8 @@ function targetPageParams() {
 
 示例: `genre contains abc`
 
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值包含 `abc`。
-* 用例 2：`entity.genre = ["abcde", "de", "ef"]`结果为 true，因为有一个值包含 `abc`。
+* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 false，因为没有值包含 `abc`。
+* 用例 2：`entity.genre = ["abcde", "de", "ef"]` 结果为 true，因为有一个值包含 `abc`。
 
 ### 不包含
 
@@ -177,8 +180,8 @@ function targetPageParams() {
 
 示例: `genre does not contain abc`
 
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 true，因为没有值包含 `abc`。
-* 用例 2：`entity.genre = ["abcde", "de", "ef"]`结果为 false，因为有一个值包含 `abc`。
+* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 true，因为没有值包含 `abc`。
+* 用例 2：`entity.genre = ["abcde", "de", "ef"]` 结果为 false，因为有一个值包含 `abc`。
 
 ### 开始于
 
@@ -186,8 +189,8 @@ function targetPageParams() {
 
 示例: `genre starts with abc`
 
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值开始于 `abc`。
-* 用例 2：`entity.genre = ["abcde", "de", "ef"]`结果为 true，因为有一个值开始于 `abc`。
+* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 false，因为没有值开始于 `abc`。
+* 用例 2：`entity.genre = ["abcde", "de", "ef"]` 结果为 true，因为有一个值开始于 `abc`。
 * 用例3：`entity.genre = ["ab", "de", "abc"]`。 结果为 true，因为有一个值开始于 `abc`（不一定是列表中的第一个元素）。
 
 ### 结束于
@@ -196,30 +199,30 @@ function targetPageParams() {
 
 示例: `genre ends with abc`
 
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值结束于 `abc`。
-* 用例 2：`entity.genre = ["deabc", "de", "ef"]`结果为 true，因为有一个值结束于 `abc`。
+* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 false，因为没有值结束于 `abc`。
+* 用例 2：`entity.genre = ["deabc", "de", "ef"]` 结果为 true，因为有一个值结束于 `abc`。
 
 ### 大于或等于（仅限数字值）
 
-属性值会被转换为双精度类型。运行规则时将跳过无法转换的属性。
+属性值会被转换为双精度类型。 运行规则时将跳过无法转换的属性。
 
 处理后，任何大于或等于输入值的属性值都将导致结果为true。
 
 示例: `price greater than or equal to 100`
 
-* 用例 1：`entity.price = ["10", "20", "45"]`。结果为 false，因为没有值大于或等于 100。跳过了值 `de`，因为无法将其转换为双精度类型。
-* 用例 2：`entity.price = ["100", "101", "90", "80"]`结果为 true，因为有两个值大于或等于 100。
+* 用例 1：`entity.price = ["10", "20", "45"]`。 结果为 false，因为没有值大于或等于 100。 跳过了值 `de`，因为无法将其转换为双精度类型。
+* 用例 2：`entity.price = ["100", "101", "90", "80"]` 结果为 true，因为有两个值大于或等于 100。
 
 ### 小于或等于（仅限数字值）
 
-属性值会被转换为双精度类型。运行规则时将跳过无法转换的属性。
+属性值会被转换为双精度类型。 运行规则时将跳过无法转换的属性。
 
 处理后，任何小于或等于输入值的属性值都将导致结果为true。
 
 示例: `price less than or equal to 100`
 
-* 用例 1：`entity.price = ["101", "200", "141"]`。结果为 false，因为没有值小于或等于 100。跳过了值 `de`，因为无法将其转换为双精度类型。
-* 用例 2：`entity.price = ["100", "101", "90", "80"]`结果为 true，因为有两个值小于或等于 100。
+* 用例 1：`entity.price = ["101", "200", "141"]`。 结果为 false，因为没有值小于或等于 100。 跳过了值 `de`，因为无法将其转换为双精度类型。
+* 用例 2：`entity.price = ["100", "101", "90", "80"]` 结果为 true，因为有两个值小于或等于 100。
 
 ### 动态匹配（仅在基于项目的算法中可用）
 
@@ -227,8 +230,8 @@ function targetPageParams() {
 
 示例: `genre matches abc`
 
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 false，因为没有值与 `abc`。
-* 用例 2：`entity.genre = ["abc", "de", "ef"]`结果为 true，因为有一个值与 `abc`。
+* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 false，因为没有值与 `abc`。
+* 用例 2：`entity.genre = ["abc", "de", "ef"]` 结果为 true，因为有一个值与 `abc`。
 
 ### 动态不匹配（仅在基于项目的算法中可用）
 
@@ -236,8 +239,8 @@ function targetPageParams() {
 
 示例: `genre does not match abc`
 
-* 用例 1：`entity.genre = ["ab", "bc", "de"]`。结果为 true，因为没有值与 `abc`。
-* 用例 2：`entity.genre = ["abc", "de", "ef"]`结果为 false，因为有一个值与 `abc`。
+* 用例 1：`entity.genre = ["ab", "bc", "de"]`。 结果为 true，因为没有值与 `abc`。
+* 用例 2：`entity.genre = ["abc", "de", "ef"]` 结果为 false，因为有一个值与 `abc`。
 
 ### 动态范围（仅在基于项目的算法中可用，仅限数字值）
 
@@ -245,12 +248,12 @@ function targetPageParams() {
 
 示例: `price dynamically ranges in 80% to 120% of 100`
 
-* 用例 1：`entity.price = ["101", "200", "125"]`。结果为 true，因为 `101` 在 100 的 80% 到 120% 范围内。跳过了值 `de`，因为无法将其转换为双精度类型。
-* 用例 2：`entity.price = ["130", "191", "60", "75"]`结果为 false，因为没有值在 100 的 80% 到 120% 范围内。
+* 用例 1：`entity.price = ["101", "200", "125"]`。 结果为 true，因为 `101` 在 100 的 80% 到 120% 范围内。 跳过了值 `de`，因为无法将其转换为双精度类型。
+* 用例 2：`entity.price = ["130", "191", "60", "75"]` 结果为 false，因为没有值在 100 的 80% 到 120% 范围内。
 
 >[!NOTE]
 >
->*双精度类型*&#x200B;是一种 Java 数据类型。对于需要使用数字值的运算符，转换为双精度类型可避免在结果中考虑非数字值。
+>*双精度类型*&#x200B;是一种 Java 数据类型。 对于需要使用数字值的运算符，转换为双精度类型可避免在结果中考虑非数字值。
 
 ## 设计中的多值属性 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 

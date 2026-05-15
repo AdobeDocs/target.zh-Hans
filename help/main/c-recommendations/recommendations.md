@@ -5,20 +5,30 @@ title: ' [!DNL Target] 推荐是什么？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 52025f1128e8c736bd1cb4eff871b65a00ec1c98
+TQID: https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 98%
+source-wordcount: 866
+ht-degree: 94%
 
 ---
 
 # 推荐
 
-[!DNL Adobe Target Recommendations] 活动根据以前的用户活动、偏好或其他标准，自动显示可能让访客感兴趣的产品、服务或内容。[!DNL Target Recommendations] 有助于引导访客查看在其他情况下他们可能不知道的相关项目。通过 [!DNL Recommendations]，可在正确的时间和正确的地点为访客提供相关的内容。
+[!DNL Adobe Target Recommendations] 活动根据以前的用户活动、偏好或其他标准，自动显示可能让访客感兴趣的产品、服务或内容。 [!DNL Target Recommendations] 有助于引导访客查看在其他情况下他们可能不知道的相关项目。 通过 [!DNL Recommendations]，可在正确的时间和正确的地点为访客提供相关的内容。
 
 >[!NOTE]
 >
->[!DNL Recommendations] 活动作为 [Target Premium 解决方案](/help/main/c-intro/intro.md#premium)的一部分提供。如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
+>[!DNL Recommendations] 活动作为 [Target Premium 解决方案](/help/main/c-intro/intro.md#premium)的一部分提供。 如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
 >
 >如果您目前拥有 [!DNL Recommendations Classic]，则请参阅 [经典版推荐与 Target Premium 中的“推荐”活动](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5)以了解有关这两种解决方案的更多信息。
 
@@ -35,7 +45,7 @@ ht-degree: 98%
 
 ![velocity_example图像](assets/velocity_example.png)
 
-推荐根据访客在网站上的活动，决定如何将产品推荐给该访客。例如：
+推荐根据访客在网站上的活动，决定如何将产品推荐给该访客。 例如：
 
 | 所需操作 | 推荐 |
 |--- |--- |
@@ -47,24 +57,24 @@ ht-degree: 98%
 
 ## 术语
 
-在开始使用 [!DNL Recommendations] 之前，熟悉本节中使用的一些术语很有帮助。如果尚未完全理解这些术语，也不必担心，随着您设置自己的 [!DNL Recommendations] 活动，您将更加熟悉这些术语。
+在开始使用 [!DNL Recommendations] 之前，熟悉本节中使用的一些术语很有帮助。 如果尚未完全理解这些术语，也不必担心，随着您设置自己的 [!DNL Recommendations] 活动，您将更加熟悉这些术语。
 
 | 术语 | 定义 |
 | --- | --- |
-| 活动 | 通过 [!DNL Target] 中的活动，可针对特定受众使内容个性化并测试页面设计。[!DNL Recommendations] 只是 [!DNL Target] 中可用的许多活动类型之一。有关详细信息，请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)。 |
-| 实体 | 实体是指您想推荐的项目。实体可为产品、内容（文章、幻灯片、图像、电影和电视节目）、工作清单、餐厅等任何事物。有关详细信息，请参阅[实体](/help/main/c-recommendations/c-products/products.md)。 |
-| 信息源 | 信息源用于获取导入到 [!DNL Recommendations] 中的实体。可以使用 CSV 文件、Google Product Search 信息源格式和 Adobe Analytics 产品分类来发送实体。有关更多信息，请参阅[信息源](/help/main/c-recommendations/c-products/feeds.md)。 |
-| 目录 | 目录指代您的整个产品集（实体）。您的目录可包含许多收藏集 - 这是一种在逻辑存储桶中组织产品的方法。 |
-| 收藏集 | 收藏集指代一组类似或相关的项目，如单个产品类别。不过，您可以将任何项目分组到一个对您的业务有意义的类别中，例如可以将属于某个价格范围内或具有某种颜色的产品分组到一个类别中，或将可能在某个特定地区引起客户关注的项目分组到一个类别中。有关详细信息，请参阅[收藏集](/help/main/c-recommendations/c-products/collections.md)。 |
-| 标准 | 标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。<br>标准的一些示例包括： <ul><li>购买了这个项目，也购买了那个项目的人</li><li>查看了这个项目，也查看了那个项目的人</li><li>具有相似属性的项目</li><li>上次购买的项目</li><li>最喜爱类别</li></ul>  有关更多信息，请参阅[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)。 |
-| 设计 | 设计定义 [!DNL Recommendations] 活动中各个推荐的外观，如行、列、表或网格。本文顶部的插图展示一个 4 x 1 的设计。有关详细信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md)。 |
+| 活动 | 通过 [!DNL Target] 中的活动，可针对特定受众使内容个性化并测试页面设计。 [!DNL Recommendations] 只是 [!DNL Target] 中可用的许多活动类型之一。 有关详细信息，请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)。 |
+| 实体 | 实体是指您想推荐的项目。 实体可为产品、内容（文章、幻灯片、图像、电影和电视节目）、工作清单、餐厅等任何事物。 有关详细信息，请参阅[实体](/help/main/c-recommendations/c-products/products.md)。 |
+| 信息源 | 信息源用于获取导入到 [!DNL Recommendations] 中的实体。 可以使用 CSV 文件、Google Product Search 信息源格式和 Adobe Analytics 产品分类来发送实体。 有关更多信息，请参阅[信息源](/help/main/c-recommendations/c-products/feeds.md)。 |
+| 目录 | 目录指代您的整个产品集（实体）。 您的目录可包含许多收藏集 - 这是一种在逻辑存储桶中组织产品的方法。 |
+| 收藏集 | 收藏集指代一组类似或相关的项目，如单个产品类别。 不过，您可以将任何项目分组到一个对您的业务有意义的类别中，例如可以将属于某个价格范围内或具有某种颜色的产品分组到一个类别中，或将可能在某个特定地区引起客户关注的项目分组到一个类别中。 有关详细信息，请参阅[收藏集](/help/main/c-recommendations/c-products/collections.md)。 |
+| 标准 | 标准即规则，可根据预先确定的一组访客行为来确定要推荐的产品。<br>标准的一些示例包括： <ul><li>购买了这个项目，也购买了那个项目的人</li><li>查看了这个项目，也查看了那个项目的人</li><li>具有相似属性的项目</li><li>上次购买的项目</li><li>最喜爱的类别</li></ul>  有关更多信息，请参阅[标准](/help/main/c-recommendations/c-algorithms/algorithms.md)。 |
+| 设计 | 设计定义 [!DNL Recommendations] 活动中各个推荐的外观，如行、列、表或网格。 本文顶部的插图展示一个 4 x 1 的设计。 有关详细信息，请参阅[创建设计](/help/main/c-recommendations/c-design-overview/create-design.md)。 |
 | 位置 | 位置指代网页、移动应用程序或电子邮件上的某个特定内容区域，您从中运行作个性化和优化用途的活动。 |
-| 受众 | 受众是各组类似的活动参与者，他们将看到一项有针对性的活动。受众是具有相同特征的人群，例如都是新访客、回访访客或来自中西部的回访访客。通过使用“受众”功能，您可以将不同的内容和体验锁定到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。有关更多信息，请参阅[受众](/help/main/c-target/target.md)。 |
-| “推荐”作为产品建议 | 这是一项功能，通过该功能，可在 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中包括推荐。有关更多信息，请参阅[将推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)。 |
+| 受众 | 受众是各组类似的活动参与者，他们将看到一项有针对性的活动。 受众是具有相同特征的人群，例如都是新访客、回访访客或来自中西部的回访访客。 通过使用“受众”功能，您可以将不同的内容和体验锁定到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化网站营销。 有关更多信息，请参阅[受众](/help/main/c-target/target.md)。 |
+| “推荐”作为产品建议 | 这是一项功能，通过该功能，可在 A/B 测试（包括自动分配和自动定位）和体验定位 (XT) 活动中包括推荐。 有关更多信息，请参阅[将推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)。 |
 
 ## 培训视频：活动类型![概述徽章](/help/main/assets/overview.png)
 
-以下视频介绍了 [!DNL Target Standard/Premium] 中可用的活动类型。从7[!DNL Recommendations]开始讨论:20。
+以下视频介绍了 [!DNL Target Standard/Premium] 中可用的活动类型。 从7:20开始讨论[!DNL Recommendations]。
 
 * 介绍 [!DNL Adobe Target] 中包含的活动类型
 * 选择相应的活动类型以实现目标

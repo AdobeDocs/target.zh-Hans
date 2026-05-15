@@ -1,14 +1,29 @@
 ---
-keywords: 定位;AP 报表;自动个性化报表;自动定位;自动定位报表;个性化;分析;FAQ;常见问题解答;重要属性
+keywords: 定位;AP 报告;自动个性化报告;自动定位;自动定位报告;个性化;洞察;FAQ;常见问题解答;重要属性
 description: 了解如何使用[!UICONTROL Important Attributes]报表，该报表显示影响个性化模型的主要属性及其相对重要性。
 title: 重要属性报表是什么？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 57%
+source-wordcount: 1835
+ht-degree: 56%
 
 ---
 
@@ -20,17 +35,17 @@ ht-degree: 57%
 >
 >使用[!UICONTROL Personalization Insights]报表时，请考虑以下事项：
 >
->* AP 和 AT 活动会作为 [!DNL Target Premium] 解决方案的一部分提供。在没有 [!DNL Target Premium] 许可证的情况下，它们将不会包含在 [!DNL Target Standard] 中。
+>* AP 和 AT 活动会作为 [!DNL Target Premium] 解决方案的一部分提供。 在没有 [!DNL Target Premium] 许可证的情况下，它们将不会包含在 [!DNL Target Standard] 中。
 >
 >* [!UICONTROL Personalization Insights]报表仅适用于使用转化优化目标的AP和AT活动。 活动上线后将优化目标从收入更改为转化的活动也不受支持。
 >
->* 仅当从[!UICONTROL Personalization Insights]下拉列表中选择[!UICONTROL Primary Goal]时，[!UICONTROL Report Metric]报告才可用。
+>* 仅当从[!UICONTROL Report Metric]下拉列表中选择[!UICONTROL Primary Goal]时，[!UICONTROL Personalization Insights]报告才可用。
 >
->* 仅[!UICONTROL Personalization Insights]默认环境[支持](/help/main/administrating-target/hosts.md)报告。
+>* 仅[默认环境](/help/main/administrating-target/hosts.md)支持[!UICONTROL Personalization Insights]报告。
 >
->* 仅为处于[!UICONTROL Personalization Insights]状态并且已激活且接收流量至少15天的活动生成[!UICONTROL Live]报告。
+>* 仅为处于[!UICONTROL Live]状态并且已激活且接收流量至少15天的活动生成[!UICONTROL Personalization Insights]报告。
 
-在不同的活动中，不同的属性对模型如何决定进行个性化的重要性也大小不一。此报表可显示影响模型的排名靠前的属性及其相对重要性。
+在不同的活动中，不同的属性对模型如何决定进行个性化的重要性也大小不一。 此报表可显示影响模型的排名靠前的属性及其相对重要性。
 
 ## 访问[!UICONTROL Important Attributes]报告 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
@@ -53,9 +68,9 @@ ht-degree: 57%
 
 1. 选择所需的日期范围。
 
-   与[!UICONTROL Summary]报表（性能报表）不同，包括[!UICONTROL Personalization Insights]在内的[!UICONTROL Important Attributes]仅适用于固定日期范围：15天、30天和60天。
+   与[!UICONTROL Summary]报表（性能报表）不同，包括[!UICONTROL Important Attributes]在内的[!UICONTROL Personalization Insights]仅适用于固定日期范围：15天、30天和60天。
 
-   这些固定的日期范围允许[!UICONTROL Personalization Insights]使用足够大的数据范围，以降低您从活动中的短期模式获取见解的可能性。 您可以决定日期范围的“结束日期”和“持续时间”。您会注意到“开始”显示为灰色。开始日期会根据您选择的结束日期和持续时间自动进行更改。
+   这些固定的日期范围允许[!UICONTROL Personalization Insights]使用足够大的数据范围，以降低您从活动中的短期模式获取见解的可能性。 您可以决定日期范围的“结束日期”和“持续时间”。 您会注意到“开始”显示为灰色。 开始日期会根据您选择的结束日期和持续时间自动进行更改。
 
    您可以从[!UICONTROL Preset Date Range]下拉列表中访问可用的固定日期范围。
 
@@ -65,7 +80,7 @@ ht-degree: 57%
 
    >[!NOTE]
    >
-   >个性化分析 UI 报表包含选择的信息。“重要属性”报表的 CSV 下载包含其他详细信息。下载的重要属性报表包含排名靠前的 100 个属性的完整列表，而 UI 报表则仅包含排名靠前的 10 个属性。如果您要在报表中查找某个特定属性，但未找到该属性，这并不意味着该属性不会影响活动，而只是该属性没有列在排名靠前的 100 个属性中。
+   >个性化洞察 UI 报告包含选择的信息。 “重要属性”报表的 CSV 下载包含其他详细信息。 下载的重要属性报表包含排名靠前的 100 个属性的完整列表，而 UI 报表则仅包含排名靠前的 10 个属性。 如果您要在报表中查找某个特定属性，但未找到该属性，这并不意味着该属性不会影响活动，而只是该属性没有列在排名靠前的 100 个属性中。
 
 ## 解释重要属性报表
 
@@ -73,8 +88,8 @@ ht-degree: 57%
 
 | 元素 | 详细信息 |
 |--- |--- |
-| 条形图 | 屏幕顶部的多色条形图允许您查看这些相对的重要性得分，该条形图映射到表格中每个相应属性旁边的圆点颜色。您还可以将鼠标悬停在条形图中的特定颜色上，以查看它所代表的属性。排名靠前的 100 个属性的重要性得分相加之和为 100%。有关如何添加更多可供Target个性化模型使用的属性的更多信息，请参阅[为Target Personalization算法上传数据](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。 |
-| 模型属性排名图 | 模型属性排名包括排名靠前的 10 个属性，这些属性对于 Target 的个性化模型如何决定向每个访客显示什么内容最为重要。重要性得分显示了相对于排名靠前的 100 个属性，特定属性在此活动中对 Target 的个性化模型的重要程度。 |
+| 条形图 | 屏幕顶部的多色条形图允许您查看这些相对的重要性得分，该条形图映射到表格中每个相应属性旁边的圆点颜色。 您还可以将鼠标悬停在条形图中的特定颜色上，以查看它所代表的属性。  排名靠前的 100 个属性的重要性得分相加之和为 100%。 有关如何添加更多可供Target个性化模型使用的属性的更多信息，请参阅[为Target Personalization算法上传数据](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。 |
+| 模型属性排名图 | 模型属性排名包括排名靠前的 10 个属性，这些属性对于 Target 的个性化模型如何决定向每个访客显示什么内容最为重要。 重要性得分显示了相对于排名靠前的 100 个属性，特定属性在此活动中对 Target 的个性化模型的重要程度。 |
 
 ## 重要属性常见问题解答 {#section_740910A52FA646B4AC9452F98C2F5719}
 
@@ -84,25 +99,25 @@ ht-degree: 57%
 
 您的活动可能还不能使用[!UICONTROL Personalization Insights]报表的原因包括以下几点：
 
-* 激活活动后不满 15 天。在您启动活动至少 15 天后，自动化区段和重要属性报表才可用。在此初始阶段，您将无法访问这些报表，也无法单击“自动化区段”和“重要属性”图标。
-* 您的活动在指定的时间范围内没有足够的流量。15 天过后，如果您的活动中有[足够的个性化流量](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)来构建个性化模型，将可以使用自动化区段和重要属性报表。
-* 您的活动包含收入优化目标。此时，[!UICONTROL Personalization Insights]仅适用于转化优化目标活动。 我们将在未来的版本中添加对收入优化目标活动的支持。
+* 激活活动后不满 15 天。 在您启动活动至少 15 天后，自动化区段和重要属性报表才可用。 在此初始阶段，您将无法访问这些报表，也无法单击“自动化区段”和“重要属性”图标。
+* 您的活动在指定的时间范围内没有足够的流量。 15 天过后，如果您的活动中有[足够的个性化流量](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)来构建个性化模型，将可以使用自动化区段和重要属性报表。
+* 您的活动包含收入优化目标。 此时，[!UICONTROL Personalization Insights]仅适用于转化优化目标活动。 我们将在未来的版本中添加对收入优化目标活动的支持。
 
 ### 什么是属性？
 
-属性是关于个性化算法为了解如何个性化流量而使用的访客或其特定访问的信息。例如，属性可以是浏览器类型、位置、访问时间等。
+属性是关于个性化算法为了解如何个性化流量而使用的访客或其特定访问的信息。 例如，属性可以是浏览器类型、位置、访问时间等。
 
-有关 [!DNL Target] 在其个性化模型中使用的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。有关如何将新属性上传到 Target 以在 Target 的个性化模型中使用的更多信息，请参阅[将数据导入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}。
+有关 [!DNL Target] 在其个性化模型中使用的属性的更多信息，请参阅[为 Target 个性化算法收集数据](/help/main/c-activities/t-automated-personalization/ap-data.md)。 有关如何将新属性上传到 Target 以在 Target 的个性化模型中使用的更多信息，请参阅[将数据导入 Target 的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}。
 
-### 我看到一个或多个我不希望模型用于训练的属性。我可以从训练模型中移除这些属性吗？ {#models-api}
+### 我看到一个或多个我不希望模型用于训练的属性。 我可以从训练模型中移除这些属性吗？ {#models-api}
 
-列入阻止列表 [!UICONTROL Models API]（也称为API）允许用户查看和管理机器学习模型中用于[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活动的属性（也称为功能）列表。 列入阻止列表如果要排除一个或多个属性不被模型用于AP或AT活动，可以使用模型API将这些属性添加到“”中。
+[!UICONTROL Models API]（也称为API）允许用户查看和管理机器学习模型中用于[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活动的属性（也称为功能）列表。 如果要排除一个或多个属性不被模型用于AP或AT活动，可以使用模型API将这些属性添加到“”中。
 
-有关详细信息，请参阅[Adobe Target开发人员指南](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hans){target=_blank}中的&#x200B;*模型API概述*。 要使用API阻止属性，请参阅[模型API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=zh-Hans){target=_blank}。
+有关详细信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[模型API概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hans){target=_blank}。 要使用API阻止属性，请参阅[模型API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=zh-Hans){target=_blank}。
 
 ### [!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]报表中的信息是否与CSV下载中的信息相同？
 
-不相同，UI 报表包含选择的信息，而以 CSV 格式下载的报表则包含其他详细信息。下载的自动化区段分析报表除了包含 UI 中所包含的排名靠前的区段之外，还包含其他自动化区段，以及这些区段对您的选件或体验的性能表现。重要属性报表包含排名靠前的 100 个访客属性及其相对重要性，而 UI 则仅包含排名靠前的 10 个访客属性。
+不相同，UI 报表包含选择的信息， 而以 CSV 格式下载的报表则包含其他详细信息。 下载的自动化区段分析报表除了包含 UI 中所包含的排名靠前的区段之外，还包含其他自动化区段，以及这些区段对您的选件或体验的性能表现。 重要属性报表包含排名靠前的 100 个访客属性及其相对重要性，而 UI 则仅包含排名靠前的 10 个访客属性。
 
 ### 我能否在自定义日期范围内查看Personalization Insights？
 
@@ -118,7 +133,7 @@ Personalization分析报表（[!UICONTROL Automated Segments]和[!UICONTROL Impo
 
 ### 重要属性报表中的属性重要性得分是什么？
 
-该报表的“属性重要性排名”部分中的重要性得分为以下方面提供了依据：在算法确定如何将所有访客划分到其识别的区段时，算法用于学习的哪些变量最为重要。它为模型使用的排名靠前的 100 个属性分配了百分比得分。
+该报表的“属性重要性排名”部分中的重要性得分为以下方面提供了依据：在算法确定如何将所有访客划分到其识别的区段时，算法用于学习的哪些变量最为重要。 它为模型使用的排名靠前的 100 个属性分配了百分比得分。
 
 ### 为什么在特定自动化区段中一些转化率较低的选件/体验接收的流量比其他选件/体验多？
 
@@ -126,11 +141,11 @@ Personalization分析报表（[!UICONTROL Automated Segments]和[!UICONTROL Impo
 
 * 对特定自动化区段的部分或全部产品建议/体验的查看次数较少。
 * 存在容量较低的活动，在这些活动中某些产品建议或体验没有构建模型。
-* 存在容量较低的活动，在这些活动中一些产品建议/体验的模型构建速度快于其他产品建议/体验。例如，假设附加模型是在第 22 天构建的，而您查看的是第 10 天至第 24 天的数据。
+* 存在容量较低的活动，在这些活动中一些产品建议/体验的模型构建速度快于其他产品建议/体验。 例如，假设附加模型是在第 22 天构建的，而您查看的是第 10 天至第 24 天的数据。
 * 针对特定产品建议的定位规则限制了哪些访客可以查看哪些产品建议/体验。
-* 分析报表中没有置信区间。但是，如果转化率足够接近，则模型可能会提供流量，以便提高点数，但这些数字并不具有“统计学差异”。
+* 洞察报告中没有置信区间。 但是，如果转化率足够接近，则模型可能会提供流量，以便提高点数，但这些数字并不具有“统计学差异”。
 
-了解模型如何提供流量很有用。系统会根据每个人的总体轮廓为其提供流量。但是，分析报表对此行为进行了归纳，以便于人们理解。因此，区段间并不互相排斥。这会导致多个区段展示此类行为，因为同一个人可以出现在多个区段中。
+了解模型如何提供流量很有用。 系统会根据每个人的总体轮廓为其提供流量。 但是，洞察报告对此行为进行了归纳，以便于人们理解。 因此，区段间并不互相排斥。 这会导致多个区段展示此类行为，因为同一个人可以出现在多个区段中。
 
 ### 在Personalization Insights中，我可以采用哪些其他方法利用这些信息？
 
@@ -146,4 +161,4 @@ Personalization分析报表（[!UICONTROL Automated Segments]和[!UICONTROL Impo
 
 [!DNL Target]工程团队当前正在调查以下问题。
 
-* [!DNL Adobe Experience Platform]区段名称未显示在[!UICONTROL Important Attributes] (AP)和[!UICONTROL Automated Personalization] (AT)活动的[!UICONTROL Auto-Target]报表中。 (TOP-3813)
+* [!DNL Adobe Experience Platform]区段名称未显示在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活动的[!UICONTROL Important Attributes]报表中。 (TOP-3813)

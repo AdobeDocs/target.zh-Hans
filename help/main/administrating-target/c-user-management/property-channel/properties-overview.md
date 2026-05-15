@@ -6,10 +6,30 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
+TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: cd7b6938-5837-4ee0-9790-5840997133d9
+  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 56%
+source-wordcount: 1476
+ht-degree: 55%
 
 ---
 
@@ -19,17 +39,17 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->“属性和权限”功能作为 [Target Premium](/help/main/c-intro/intro.md#premium) 解决方案的一部分提供。如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
+>“属性和权限”功能作为 [Target Premium](/help/main/c-intro/intro.md#premium) 解决方案的一部分提供。 如果没有 [!DNL Target Premium] 许可证，它们将无法在 [!DNL Target Standard] 中使用。
 
-下表列出了在创建属性以及分配用户角色和权限时应当执行的任务。有关每项任务的更多信息，请参阅以下部分。
+下表列出了在创建属性以及分配用户角色和权限时应当执行的任务。 有关每项任务的更多信息，请参阅以下部分。
 
 | 任务 | 执行位置 |
 |--- |--- |
-| 1.添加用户（可选） | [!DNL Adobe Admin Console for Enterprise] |
-| 2.创建工作区（产品配置文件） | [!DNL Adobe Admin Console for Enterprise] |
-| 3.创建用户组（可选） | [!DNL Adobe Admin Console for Enterprise] |
-| 4.创建资产 | [!DNL Target] 用户界面 |
-| 5：更新您的实施以包含`at_property`参数 | [!DNL Target]中的[!DNL Adobe Experience Platform] UI、at.js函数或标记 |
+| &#x200B;1. 添加用户（可选） | [!DNL Adobe Admin Console for Enterprise] |
+| &#x200B;2. 创建工作区（产品配置文件） | [!DNL Adobe Admin Console for Enterprise] |
+| &#x200B;3. 创建用户组（可选） | [!DNL Adobe Admin Console for Enterprise] |
+| &#x200B;4. 创建属性 | [!DNL Target] 用户界面 |
+| 5：更新您的实施以包含`at_property`参数 | [!DNL Adobe Experience Platform]中的[!DNL Target] UI、at.js函数或标记 |
 | &#x200B;6. 指定角色和权限 | [!DNL Adobe Admin Console for Enterprise] |
 
 对于在[!DNL Adobe Admin Console for Enterprise]中执行的那些任务，请按以下步骤访问该控制台：
@@ -66,16 +86,16 @@ ht-degree: 56%
 
 1. 创建所需的工作区（产品配置文件）：
 
-   * **默认访问：**&#x200B;所有现有活动都将合并到一个名为“默认访问”的项目中。这不会对客户产生任何影响。所有用户角色和功能都将与此更改之前完全相同。
+   * **默认访问：**&#x200B;所有现有活动都将合并到一个名为“默认访问”的项目中。 这不会对客户产生任何影响。 所有用户角色和功能都将与此更改之前完全相同。
 
-     通过 [!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] 和 [!DNL Target Classic] 创建的所有活动也将包含在“默认访问”工作区中。当前无法将“默认访问”中的项目移动到其他项目。
+     通过 [!DNL Adobe Experience Manager] (AEM)、[!DNL Adobe Mobile Services] 和 [!DNL Target Classic] 创建的所有活动也将包含在“默认访问”工作区中。 当前无法将“默认访问”中的项目移动到其他项目。
 
    * **新工作区（产品配置文件）：**&#x200B;您可以通过执行以下操作来开始利用新的权限功能：
 
       * 在 [!DNL Admin Console for Enterprise] 中创建新工作区。
       * 将 Target 属性分配到工作区。
 
-   您可以使用这些工作区按地区、业务部门、网站区域或通过您选择的任何其他方法，将访问权限划分给不同的团队。用户可以包含在多个工作区中，也可以在每个工作区拥有不同的角色。
+   您可以使用这些工作区按地区、业务部门、网站区域或通过您选择的任何其他方法，将访问权限划分给不同的团队。 用户可以包含在多个工作区中，也可以在每个工作区拥有不同的角色。
 
 1. 按照《企业用户指南》**&#x200B;的[创建和管理产品配置](https://helpx.adobe.com/cn/enterprise/help/manage-products-and-configurations.html)中的说明进行操作。
 
@@ -93,14 +113,14 @@ ht-degree: 56%
 
 ## 步骤 3. 创建用户组（可选） {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
-您可以创建用户组（例如开发人员、分析师、营销人员、管理人员等），然后为其分配多个 Adobe 产品和工作区中的相应权限。为新团队成员分配不同 Adobe 产品中的所有相应权限的过程就像将他们添加到某个特定用户组一样简单。
+您可以创建用户组（例如开发人员、分析师、营销人员、管理人员等），然后为其分配多个 Adobe 产品和工作区中的相应权限。 为新团队成员分配不同 Adobe 产品中的所有相应权限的过程就像将他们添加到某个特定用户组一样简单。
 
 1. 在Admin Console中，单击页面顶部的&#x200B;**[!UICONTROL Users]**&#x200B;选项卡> **[!UICONTROL User Groups]**&#x200B;以创建新用户组或编辑现有用户组。
 1. 按照《企业用户指南》**&#x200B;的[管理产品配置的用户和组](https://helpx.adobe.com/cn/enterprise/help/manage-products-and-configurations.html)中的说明进行操作。
 
 ## 步骤 4. 创建属性 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-属性是通过将特定名称/值对作为参数通过任何调用（[!DNL Target]调用、api调用等）添加到[!DNL Target]来启用的。
+通过添加特定名称/值对作为参数以及任何调用（[!DNL Target]调用、API调用等）来启用属性 到[!DNL Target]。
 
 属性属于特定的渠道（Web、移动设备、电子邮件和 API/其他）。
 
@@ -141,11 +161,11 @@ ht-degree: 56%
 
 1. 使用在上一步中获取的实施代码更新您的[!DNL Target]实施。
 
-   您可以通过多种方法来更新 [!DNL Target] 实施。例如，对于网页，可以使用以下方法：
+   您可以通过多种方法来更新 [!DNL Target] 实施。 例如，对于网页，可以使用以下方法：
 
    * **通过[!DNL Adobe Experience Platform]内标记中的“自定义参数”：**
 
-     有关详细信息，请参阅[标记概述](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=zh-Hans#add-mbox-params)文档中的&#x200B;*添加Mbox参数*。
+     有关详细信息，请参阅&#x200B;*标记概述*&#x200B;文档中的[添加Mbox参数](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=zh-Hans#add-mbox-params)。
 
    * **通过targetPageParamsAll()函数：**&#x200B;将以下代码置于`<head>`标记中的at.js引用上方。
 
@@ -159,7 +179,7 @@ ht-degree: 56%
      </script>
      ```
 
-     有关如何使用at.js完成此操作的更多信息，请参阅[targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=zh-Hans){target=_blank}。
+     有关如何使用at.js完成此操作的更多信息，请参阅[targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}。
 
 ## 步骤6：指定角色和权限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -167,7 +187,7 @@ ht-degree: 56%
 
    ![工作区](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. 单击所需配置文件的名称(例如，默认Workspace)。
+1. 单击所需配置文件的名称（例如，默认Workspace）。
 
    ![默认工作区](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
@@ -186,7 +206,7 @@ ht-degree: 56%
    | 审批者 | 可以创建、编辑，以及激活或停止活动。 |
    | 编辑者 | 可以在活动激活前创建和编辑活动，但不能批准启动活动。 |
    | 观察者 | 可以查看活动，但不能创建或编辑活动。 |
-   | 发布者 | 类似于观察者角色（可查看活动，但无法创建或编辑活动）。但是，发布者角色另有激活活动的权限。 |
+   | 发布者 | 类似于观察者角色（可查看活动，但无法创建或编辑活动）。 但是，发布者角色另有激活活动的权限。 |
 
    有关更多信息，请参阅企业用户指南&#x200B;**&#x200B;中的[在 Admin Console 中管理产品权限和角色](https://helpx.adobe.com/cn/enterprise/help/manage-permissions-and-roles.html)。
 

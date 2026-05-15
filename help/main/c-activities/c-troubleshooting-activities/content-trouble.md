@@ -1,13 +1,27 @@
 ---
 keywords: 调试 mbox;mbox 故障诊断;mbox 问题;闪烁;mboxDebug;mboxTrace;令牌;调试器;优先级;活动优先级;Adobe Experience Cloud 调试器;orderConfirmPage mbox;SiteCatalyst 购买 mbox;最畅销;最畅销商品
-description: 如果页面未显示预期的内容，可查找建议以帮助解决问题。了解如何在 Adobe Target 中调试内容投放。
+description: 如果页面未显示预期的内容，可查找建议以帮助解决问题。 了解如何在 Adobe Target 中调试内容投放。
 title: 如何为内容投放排除故障？
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+TQID: https://experienceleague.adobe.com/nkaoqcuoqMm67AnEjSg6dCnFDy-jvlwvD1a6YeXTkwk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 89%
+source-wordcount: 1663
+ht-degree: 86%
 
 ---
 
@@ -15,25 +29,25 @@ ht-degree: 89%
 
 如果您的页面没有显示预期内容，可以采取以下步骤来对内容交付进行调试。
 
-* 仔细检查您的活动或营销活动代码。键入错误或其他错误可能会导致无法显示预期内容。
+* 仔细检查您的活动或营销活动代码。 键入错误或其他错误可能会导致无法显示预期内容。
 * 使用 mboxTrace 或 mboxDebug 为 [!DNL Target] 请求排除故障。
 * 使用 Adobe Experience Cloud Debugger（一个易于使用的工具，它与 mboxDebug 提供几乎相同的信息）为 [!DNL Target] 请求排除故障。
 
-当您在您的页面上设置 [!DNL Target] 以确保触发 Target 请求并且设置 Cookie 时，mboxDebug 特别有用。但是，在调试内容交付时，mboxDebug 并不会提供有用的详细信息。如果活动未显示在页面上或页面上显示了不需要的内容，请使用 mboxTrace 对页面进行细致的检查和调试。
+当您在您的页面上设置 [!DNL Target] 以确保触发 Target 请求并且设置 Cookie 时，mboxDebug 特别有用。 但是，在调试内容交付时，mboxDebug 并不会提供有用的详细信息。 如果活动未显示在页面上或页面上显示了不需要的内容，请使用 mboxTrace 对页面进行细致的检查和调试。
 
 ## 检索要用于调试工具的授权令牌 {#section_BED130298E794D1FA229DB7C3358BA54}
 
-由于 mboxTrace 和 mboxDebug 可将营销活动数据和轮廓数据披露给外部各方，因此需要授权令牌。可在 [!DNL Target] UI 中检索授权令牌。令牌的有效时间为 6 个小时。
+由于 mboxTrace 和 mboxDebug 可将营销活动数据和轮廓数据披露给外部各方，因此需要授权令牌。 可在 [!DNL Target] UI 中检索授权令牌。 令牌的有效时间为 6 个小时。
 
 您必须具有以下用户权限之一才能生成身份验证令牌：
 
 * 至少[!UICONTROL Editor]权限（或[!UICONTROL Approver]）
 
-  有关 [!DNL Target Standard] 客户的详细信息，请在“用户”**&#x200B;中参阅[指定角色和权限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。有关 [!DNL Target Premium] 客户的详细信息，请参阅[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)。
+  有关 [!DNL Target Standard] 客户的详细信息，请在“用户”**&#x200B;中参阅[指定角色和权限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。 有关 [!DNL Target Premium] 客户的详细信息，请参阅[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)。
 
 * 工作区/产品配置文件级别的管理员角色
 
-  工作区仅对 [!DNL Target Premium] 客户可用。有关更多信息，请参阅[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)。
+  工作区仅对 [!DNL Target Premium] 客户可用。 有关更多信息，请参阅[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)。
 
 * [!DNL Adobe Target] 产品级别的管理员权限（系统管理员权限）
 
@@ -50,7 +64,7 @@ ht-degree: 89%
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
-通过 mboxTrace，可接收附加到 [!DNL Target] 响应的跟踪信息。跟踪信息反映 [!DNL Target] 调用的结果（例如，转化或展示）以及任何其他可能有助于确定为何发生此特定结果的数据，如在营销活动中从中作出选择的一组可用分支。使用此信息可调试内容发送服务。
+通过 mboxTrace，可接收附加到 [!DNL Target] 响应的跟踪信息。 跟踪信息反映 [!DNL Target] 调用的结果（例如，转化或展示）以及任何其他可能有助于确定为何发生此特定结果的数据，如在营销活动中从中作出选择的一组可用分支。 使用此信息可调试内容发送服务。
 
 可用的参数如下：
 
@@ -65,7 +79,7 @@ ht-degree: 89%
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-输出显示有关您内容的详细信息。mboxTrace 显示有关您的营销活动或者活动和轮廓的详细信息。它还提供执行之前的轮廓快照，以及在执行之后所发生变化的快照。同时，也显示为各个位置评估了哪些营销活动或活动。
+输出显示有关您内容的详细信息。 mboxTrace会显示有关您的促销活动或活动和个人资料的详细信息。 它还提供执行前的配置文件快照，以及执行后的更改内容的快照。 同时，也显示为各个位置评估了哪些营销活动或活动。
 
 某些信息包含匹配和不匹配的客户群和定位 ID：
 
@@ -85,11 +99,11 @@ ht-degree: 89%
 
 您不需要在查询参数中包含`=console`、`=json`或`=window`。 完成mboxTrace详细信息后，添加`=disable`并按&#x200B;**[!UICONTROL Enter]**&#x200B;以返回正常显示模式。
 
-您网站的正常功能和外观不受 mboxTrace 的影响。访客可以看到您的常规推荐设计。
+您网站的正常功能和外观不受 mboxTrace 的影响。 访客可以看到您的常规推荐设计。
 
 ## mboxDebug {#mboxdebug}
 
-要使用 mboxDebug，请将 mboxDebug 参数附加到您 URL 的末尾。下表包含关于与 [!DNL Target] 响应相关的 URL 参数的信息。
+要使用 mboxDebug，请将 mboxDebug 参数附加到您 URL 的末尾。 下表包含关于与 [!DNL Target] 响应相关的 URL 参数的信息。
 
 >[!NOTE]
 >
@@ -97,25 +111,25 @@ ht-degree: 89%
 
 | URL 参数 | 用途 |
 |--- |--- |
-| `mboxDebug=1` | 调试器<br>将此参数添加到任何定义了 Target 请求的 URL 将打开一个弹出窗口，其中显示有用的调试详细信息。Cookie 信息、PCid 和会话 ID 值都会写出，并且用户可看到所有 URL。单击 Target 请求 URL 以显示对该 [!DNL Target] 要求的响应。有关更多信息，请参阅 [mbox_debug.pdf](/help/main/assets/mbox_debug.pdf)。 |
+| `mboxDebug=1` | 调试器<br>将此参数添加到任何定义了 Target 请求的 URL 将打开一个弹出窗口，其中显示有用的调试详细信息。 Cookie 信息、PCid 和会话 ID 值都会写出，并且用户可看到所有 URL。 单击 Target 请求 URL 以显示对该 [!DNL Target] 要求的响应。 有关更多信息，请参阅 [mbox_debug.pdf](/help/main/assets/mbox_debug.pdf)。 |
 | `mboxDisable=1` | 停用页面上的 mbox |
-| `mboxOverride.browserIp=<Insert IP address>` | 测试地理定位<br>使用此 URL 参数测试地理定位。输入 IP 地址作为此属性的值，Test&amp;Target 的地理定位功能会评估该 IP 地址，查找营销活动中设置的与其匹配的任何地理定位或客户群。 |
+| `mboxOverride.browserIp=<Insert IP address>` | 测试地理定位<br>使用此 URL 参数测试地理定位。 输入 IP 地址作为此属性的值，Test&amp;Target 的地理定位功能会评估该 IP 地址，查找营销活动中设置的与其匹配的任何地理定位或客户群。 |
 
 >[!NOTE]
 >
->确保 URL 片段位于查询字符串参数之后。第一个 `#` 之后的任何内容均为片段标识符，并导致调试参数无法正常运行。
+>确保 URL 片段位于查询字符串参数之后。 第一个 `#` 之后的任何内容均为片段标识符，并导致调试参数无法正常运行。
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-借助 Adobe Experience Cloud 调试器，您可以快速、轻松地了解 Target 实施。您可以快速查看库配置、检查请求以确保正确传递自定义参数、打开控制台日志记录以及禁用所有 Target 请求。在 Experience Cloud 中通过身份验证，即可使用强大的 MboxTrace 工具检查活动和受众资格鉴定以及访客轮廓。
+借助 Adobe Experience Cloud 调试器，您可以快速、轻松地了解 Target 实施。 您可以快速查看库配置、检查请求以确保正确传递自定义参数、打开控制台日志记录以及禁用所有 Target 请求。 在 Experience Cloud 中通过身份验证，即可使用强大的 MboxTrace 工具检查活动和受众资格鉴定以及访客轮廓。
 
 有关更多信息，请参阅下面的培训视频：
 
-有关更多详细信息，请参阅[使用 Adobe Experience Cloud Debugger 调试 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=zh-Hans){target=_blank}。
+有关更多详细信息，请参阅[使用 Adobe Experience Cloud Debugger 调试 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}。
 
 ## 推荐中未显示最畅销商品 {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-*`SiteCatalyst: purchase`* 调用无法用于“购买”算法流量数据。请改用 *`orderConfirmPage`* 调用。
+*`SiteCatalyst: purchase`* 调用无法用于“购买”算法流量数据。 请改用 *`orderConfirmPage`* 调用。
 
 ## 检查活动优先级 {#section_3D0DD07240F0465BAF655D0804100AED}
 
@@ -127,7 +141,7 @@ Target 不再支持 IE 8。
 
 ## 未设置 Target Cookie {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-如果您的网站具有一个子域（例如 [!DNL us.domain.com]），但您需要在 [!DNL domain.com]（而不是 [!DNL us.domain.com]）上设置 Target Cookie，则必须覆盖 `cookieDomain` 设置。有关更多信息，请参阅 [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=zh-Hans){target=_blank}。
+如果您的网站具有一个子域（例如 [!DNL us.domain.com]），但您需要在 [!DNL domain.com]（而不是 [!DNL us.domain.com]）上设置 Target Cookie，则必须覆盖 `cookieDomain` 设置。 有关更多信息，请参阅 [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}。
 
 ## 如果某个元素也是 Adobe Experience Manager 个性化的一部分，则 Target 内容会闪烁或无法显示。 {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -145,11 +159,11 @@ Target 不再支持 IE 8。
 
 对于远程产品建议，[!DNL Target] 响应可包含 `/* invalid remote offer URL */`
 
-可在浏览器中或使用 mboxTrace 检查 [!DNL Target] 响应。有关有效 URL 的更多信息，请参阅 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66)。
+可在浏览器中或使用 mboxTrace 检查 [!DNL Target] 响应。 有关有效 URL 的更多信息，请参阅 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66)。
 
 ## 我的网站上不触发 [!DNL Target] 请求。
 
-如果所使用的 doctype 无效，则 at.js 不触发 Target 请求。at.js 需要 HTML 5 doctype。
+如果所使用的 doctype 无效，则 at.js 不触发 Target 请求。 at.js 需要 HTML 5 doctype。
 
 ## 确保 [!DNL Target] 活动正确处理包含查询字符串参数的 URL。 {#query-strings}
 
@@ -161,7 +175,7 @@ Target 不再支持 IE 8。
 
 ![配置页面传递设置 UI](assets/configure-page-delivery.png)
 
-但是，如果 URL 包含查询字符串参数呢？它是否会生效并显示个性化内容？在此场景中，无论目标受众是谁，您都可以在基础 URL 之外包括模板规则，以定义您的查询参数。
+但是，如果 URL 包含查询字符串参数呢？ 它是否会生效并显示个性化内容？ 在此场景中，无论目标受众是谁，您都可以在基础 URL 之外包括模板规则，以定义您的查询参数。
 
 以下选项可用于包括额外的模板规则：
 
@@ -183,7 +197,7 @@ Target 不再支持 IE 8。
 
 ### 选项 3：不定向到完整 URL，而是利用 URL 的特定部分。
 
-在此方案中，URL是`https://shopping.mycart.com?type=Summers%20Offers`，额外的模板规则使用[!UICONTROL Query] > [!UICONTROL type] > type=Summers%20Offers指定[!UICONTROL is (case sensitive)]，以OR分隔符分隔：
+在此方案中，URL是`https://shopping.mycart.com?type=Summers%20Offers`，额外的模板规则使用[!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers指定[!UICONTROL Query]，以OR分隔符分隔：
 
 ![模板规则利用 URL 的特定部分](assets/option3.png)
 

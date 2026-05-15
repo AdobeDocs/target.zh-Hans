@@ -4,9 +4,15 @@ description: 组织和优化[!UICONTROL Offers]库中的代码和图像选件。
 title: 浏览[!UICONTROL Offers]库中的内容管理
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: 709
 ht-degree: 12%
 
 ---
@@ -21,7 +27,7 @@ ht-degree: 12%
 
    有关搜索[!UICONTROL Offer library]和创建[!UICONTROL Smart Collections]的详细信息，请参阅[筛选和搜索内容](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)。
 
-1. （视情况而定）对于图像选件，请在[!UICONTROL Card View]和[!UICONTROL List View]之间切换，单击[!UICONTROL Card View]库右上角的![图标（](/help/main/assets/icons/ViewCard.svg)卡片视图图标[!UICONTROL List View]）或![图标（](/help/main/assets/icons/ViewList.svg)列表视图图标[!UICONTROL Asset]）。
+1. （视情况而定）对于图像选件，请在[!UICONTROL Card View]和[!UICONTROL List View]之间切换，单击[!UICONTROL Asset]库右上角的[!UICONTROL Card View]图标（![卡片视图图标](/help/main/assets/icons/ViewCard.svg)）或[!UICONTROL List View]图标（![列表视图图标](/help/main/assets/icons/ViewList.svg)）。
 
 1. 按照以下部分所述，执行所需的操作：
 
@@ -47,7 +53,7 @@ ht-degree: 12%
    * 下载：下载文件夹及其内容。
    * 复制：复制文件夹及其内容。
    * 移动：单击&#x200B;**[!UICONTROL Move]**&#x200B;图标；保留文件夹相同名称，或对其进行重命名；单击&#x200B;**[!UICONTROL Select Destination]**&#x200B;以选择要将文件夹移动到的位置，然后单击&#x200B;**[!UICONTROL Move]**。
-   * 删除（请参阅删除项[时的](#delete)注意事项。）
+   * 删除（请参阅删除项[&#128279;](#delete)时的注意事项。）
 
 * **选件**：选择一个或多个要对其执行以下操作：
 
@@ -63,5 +69,5 @@ ht-degree: 12%
 ## 删除项目时的注意事项 {#delete}
 
 * 您可以删除包含任意数量的资产和子文件夹的整个文件夹。 此功能在[!DNL Target] UI以及[!DNL Adobe Experience Cloud Assets] UI中均可用。
-* 如果删除含有大量图像的文件夹，则在UI刷新以显示最终状态之前，后台运行的进程可能需要几分钟时间。 所需的时间与图像数量成正比，而与图像大小无关。删除 2,000 张图像预计需要 10 分钟。您可以继续执行其他工作，并稍后检查最终状态以验证删除操作。
-* 可以删除[!UICONTROL Image Offer library]中的非空文件夹。 如果该文件夹中的所有图像均未在任何活动中引用，则将删除整个文件夹及其内容。如果在任何活动中引用了该文件夹中的某些图像，则会删除所有未引用的图像。 将保留引用的图像和包含这些图像的文件夹。
+* 如果删除含有大量图像的文件夹，则在UI刷新以显示最终状态之前，后台运行的进程可能需要几分钟时间。 所需的时间与图像数量成正比，而与图像大小无关。 删除 2,000 张图像预计需要 10 分钟。 您可以继续执行其他工作，并稍后检查最终状态以验证删除操作。
+* 可以删除[!UICONTROL Image Offer library]中的非空文件夹。 如果该文件夹中的所有图像均未在任何活动中引用，则将删除整个文件夹及其内容。 如果在任何活动中引用了该文件夹中的某些图像，则会删除所有未引用的图像。 将保留引用的图像和包含这些图像的文件夹。

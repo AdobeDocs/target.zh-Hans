@@ -4,16 +4,21 @@ description: 了解如何上传或删除用作图像选件的图像。
 title: 如何上载或删除[!UICONTROL Offers]库中的内容？
 feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/3bsdqJBJekyAbxUUe1bbWEcxRFzYWMcVKLlQ4Lqe4Ns
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: 174
 ht-degree: 0%
 
 ---
 
 # 上传或删除图像选件
 
-您可以将图像上传到[!UICONTROL Image Offers]中的[!DNL Adobe Target]库以用作活动中的图像选件。 您也可以删除活动中不再需要的图像选件。
+您可以将图像上传到[!DNL Adobe Target]中的[!UICONTROL Image Offers]库以用作活动中的图像选件。 您也可以删除活动中不再需要的图像选件。
 
 ## 将图像选件添加到列表
 

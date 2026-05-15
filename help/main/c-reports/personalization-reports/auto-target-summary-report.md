@@ -5,20 +5,28 @@ title: 如何使用自动定位摘要报表？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/de9ST0undYRSL-BMmwEhvbU7PsfHgYieNAWY-qsQ-Z8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 37%
+source-wordcount: 628
+ht-degree: 36%
 
 ---
 
 # [!UICONTROL Auto-Target Summary report]
 
-有关如何解释[!UICONTROL Auto-Target Summary]中的[!DNL Adobe Target]报表的信息。
+有关如何解释[!DNL Adobe Target]中的[!UICONTROL Auto-Target Summary]报表的信息。
 
 >[!NOTE]
 >
->[!UICONTROL Auto-Target]作为[!DNL Target Premium]解决方案的一部分提供。 在没有[!DNL Target Standard]Target Premium许可证[的](/help/main/c-intro/intro.md#premium)中不包括它。
+>[!UICONTROL Auto-Target]作为[!DNL Target Premium]解决方案的一部分提供。 在没有[Target Premium许可证](/help/main/c-intro/intro.md#premium)的[!DNL Target Standard]中不包括它。
 
 要显示[!UICONTROL Auto-Target Summary]报告：
 
@@ -40,16 +48,16 @@ ht-degree: 37%
 * 表中的各行可帮助您了解活动表现。
 
    * 报表页面上表的前两行显示的是分配给控制的访客（即随机提供的体验）与分配给个性化算法的访客之间的A/B测试结果。 此信息可用于衡量个性化算法与随机提供控制相比的执行情况。
-   * 其余的行显示体验级别的结果。对于每个体验，系统会将以下两类访客的平均响应进行比较：向其显示随机提供控制体验的访客，以及向其显示使用了个性化算法的体验的访客。
+   * 其余的行显示体验级别的结果。 对于每个体验，系统会将以下两类访客的平均响应进行比较：向其显示随机提供控制体验的访客，以及向其显示使用了个性化算法的体验的访客。
 
-* 报表中每个体验旁边的绿色复选标记表示已为该体验生成个性化的机器学习模型。时钟图标表示用于构建模型的流量不足。
+* 报表中每个体验旁边的绿色复选标记表示已为该体验生成个性化的机器学习模型。 时钟图标表示用于构建模型的流量不足。
 
    * 由于该模型是根据每个体验构建的，因此可以根据绿色复选标记查看其中部分体验的模型，并使用时钟图标查看其他体验的模型。
    * 在这种情况下，要提高为所有体验构建模型的活动的速度，需将额外流量发送到未构建模型的体验。
    * 必须至少有两个具有已构建模型（绿色复选标记）的体验，才能开始个性化。
 
-* 将体验A的转化率与体验B的转化率进行比较在[!UICONTROL Auto-Target]中不是正确的比较。 问题在于，与随机提供体验 A 的方式相比（换言之，与控制体验相比），以智能方式提供体验 A 时，体验 A 的性能是否更好。此外，营销人员还应谨慎解读个人体验的提升，因为个性化算法会尝试优化整个活动的成功量度，而不是针对每一个个人体验进行优化。
-* 可以这样理解：具有最高提升度的体验在人群中具有最大的差异。也就是说，算法发现了一个最喜爱该特定体验的区段。
+* 将体验A的转化率与体验B的转化率进行比较在[!UICONTROL Auto-Target]中不是正确的比较。 问题在于，与随机提供体验 A 的方式相比（换言之，与控制体验相比），以智能方式提供体验 A 时，体验 A 的性能是否更好。 此外，营销人员还应谨慎解读个人体验的提升，因为个性化算法会尝试优化整个活动的成功量度，而不是针对每一个个人体验进行优化。
+* 可以这样理解：具有最高提升度的体验在人群中具有最大的差异。 也就是说，算法发现了一个最喜爱该特定体验的区段。
 * 表中的各种列显示访问次数、转化率、平均提升度和置信水平以及置信度。 有关详细信息，请参阅[A/B测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)。
 
 ## 图形视图

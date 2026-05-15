@@ -4,9 +4,24 @@ description: 有关更新的 [!DNL Target]t用户界面的问答。
 title: 可在何处找到有关更新的 [!DNL Target] UI的常见问题解答？
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: ad45af0d0cb1a1ea26571cc985d6574ddd2c4963
+TQID: https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: 1904
 ht-degree: 1%
 
 ---
@@ -58,7 +73,7 @@ ht-degree: 1%
 
 * [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)：此常见问题解答关于新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常见问题，包括导航更改、功能位置以及弃用临时UI版本切换。 无论您是营销人员、开发人员还是管理员，此常见问题解答都可以帮助您顺利过渡并充分利用更新后的UI。
 * [[!DNL Target Standard/Premium] 25.2.1（2025年2月17日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!DNL Target]中[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)的关键UI更改的摘要。
-* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!DNL Target]在[!UICONTROL Offers Library]中关键UI更改的摘要。
+* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!UICONTROL Offers Library]在[!DNL Target]中关键UI更改的摘要。
 * [了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供简要概述以帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
 * [[!UICONTROL Visual Experience Composer]更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)： [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）引入了更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文介绍VEC旧版本与更新版本之间的差异。
 * [[!UICONTROL Visual Experience Composer]选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文介绍更新的VEC UI及其选项。
@@ -70,7 +85,7 @@ ht-degree: 1%
 +++详细信息
 以下资源提供了有关已更新[!DNL Target] UI的详细信息的信息：
 
-* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!DNL Target]在[!UICONTROL Offers Library]中关键UI更改的摘要。
+* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!UICONTROL Offers Library]在[!DNL Target]中关键UI更改的摘要。
 
 * [了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供简要概述以帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
 
@@ -127,7 +142,7 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 
 在更新的VEC中，此功能通过向前移动和向后移动操作进行了简化。 这些控件通过按栈叠顺序向前或向后移动元素来调整元素在布局中的位置（水平或垂直）。
 
-**调整大小**： [!UICONTROL Resize]功能位于[!UICONTROL Properties]部分下的[!UICONTROL Size]面板中。 用户可以直接调整元素的宽度和高度。 高级设置包括：
+**调整大小**： [!UICONTROL Resize]功能位于[!UICONTROL Size]部分下的[!UICONTROL Properties]面板中。 用户可以直接调整元素的宽度和高度。 高级设置包括：
 
 * 最小/最大宽度和高度控件
 * 溢出行为设置。
@@ -135,7 +150,7 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 
 这些工具可精确控制元素维度和布局行为。
 
-**移动**：在[!UICONTROL Move]部分下的[!UICONTROL Properties]面板中找到[!UICONTROL Position]选项。 此选项使用户能够：
+**移动**：在[!UICONTROL Position]部分下的[!UICONTROL Properties]面板中找到[!UICONTROL Move]选项。 此选项使用户能够：
 
 * 设置元素的位置（例如，绝对、相对、固定）
 * 定义用于分层的z索引
@@ -165,7 +180,7 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 
 **折叠[!UICONTROL Modifications]边栏**
 
-要在[!UICONTROL Modifications]边栏打开时折叠[!UICONTROL Design]边栏并放大[!UICONTROL Modifications]画布，请单击[!UICONTROL Show Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg) ）图标。
+要在[!UICONTROL Modifications]边栏打开时折叠[!UICONTROL Modifications]边栏并放大[!UICONTROL Design]画布，请单击[!UICONTROL Show Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg) ）图标。
 
 **折叠[!UICONTROL Properties]边栏**
 
@@ -176,7 +191,7 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 ## [!UICONTROL Save as Draft]和[!UICONTROL Syncing]状态是否仍然可用？
 
 +++详细信息
-随着用户界面的最新更新，[!UICONTROL Save as Draft]和[!UICONTROL Syncing]状态将不再可用。 有关详细信息，请参阅[中](/help/main/c-activities/activities.md#filters)将筛选器应用到“活动”列表&#x200B;*[!UICONTROL Activities overview]*&#x200B;下的状态。
+随着用户界面的最新更新，[!UICONTROL Save as Draft]和[!UICONTROL Syncing]状态将不再可用。 有关详细信息，请参阅&#x200B;*[!UICONTROL Activities overview]*&#x200B;中[将筛选器应用到“活动”列表](/help/main/c-activities/activities.md#filters)下的状态。
 
 +++
 
@@ -215,7 +230,7 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 +++详细信息
 有关可以允许列表的IP地址的详细信息，请参阅以下文章：
 
-* **增强型体验编辑器(EEC)**：请参阅[在](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)解决与增强型体验编辑器相关的问题&#x200B;*中，EEC无法加载在公共IP上不可访问的内部QA URL*
+* **增强型体验编辑器(EEC)**：请参阅[在&#x200B;*解决与增强型体验编辑器相关的问题*&#x200B;中，EEC无法加载在公共IP上不可访问的内部QA URL](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)
 * **[!UICONTROL Recommendations]**：查看推荐信息源处理服务器使用的[IP地址](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)。
 
 +++
@@ -223,7 +238,7 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 ## 默认情况下，环境会在新的推荐UI上重置为暂存环境吗？
 
 +++详细信息
-环境现在默认为客户使用的最后一个环境。 要切换环境，请使用[!UICONTROL Environment] UI右上角的[!UICONTROL Catalog Search]选择器。
+环境现在默认为客户使用的最后一个环境。 要切换环境，请使用[!UICONTROL Catalog Search] UI右上角的[!UICONTROL Environment]选择器。
 
 ![环境开关](/help/main/c-intro/assets/environmnent.png)
 

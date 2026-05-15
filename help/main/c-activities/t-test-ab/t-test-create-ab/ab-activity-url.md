@@ -5,9 +5,14 @@ title: A/B活动中的活动URL是什么？
 feature: A/B Tests
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
 reason: republish
-source-git-commit: 8f69c511386cc4c840ea77182dacab0b73c55fd9
+TQID: https://experienceleague.adobe.com/arQWsSfBKYtrayq9AI8ejU1T-Uor-oL5j2Sp2JKKXZE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: 279
 ht-degree: 32%
 
 ---
@@ -16,11 +21,11 @@ ht-degree: 32%
 
 活动URL可确定测试中使用的页面，以及在使用[!DNL Adobe Target]设计测试时打开的页面。
 
-在活动创建过程中，如果收到相应的提示，请指定活动 URL。键入完整的URL（包括`https://`），然后单击&#x200B;**[!UICONTROL Create]**。
+在活动创建过程中，如果收到相应的提示，请指定活动 URL。 键入完整的URL（包括`https://`），然后单击&#x200B;**[!UICONTROL Create]**。
 
 >[!NOTE]
 >
->[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。因此，[!DNL `http://www.adobe.com`]和[!DNL `https://www.adobe.com`]都匹配。
+>[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。 因此，[!DNL `http://www.adobe.com`]和[!DNL `https://www.adobe.com`]都匹配。
 
 ## 指定其他 URL
 
@@ -48,7 +53,7 @@ ht-degree: 32%
 
    如果您输入的URL所对应的网站不包含[!DNL Target]s JavaScript代码，则您将无法选择页面元素。
 
-   默认情况下，[!UICONTROL Visual Experience Composer]不允许更改包含JavaScript的元素，如旋转横幅。 如果您希望能够使用&#x200B;**[!UICONTROL Render using JavaScript]**&#x200B;更改这些元素，可以关闭[!UICONTROL Visual Experience Composer]。—>
+   默认情况下，[!UICONTROL Visual Experience Composer]不允许更改包含JavaScript的元素，如旋转横幅。 如果您希望能够使用[!UICONTROL Visual Experience Composer]更改这些元素，可以关闭&#x200B;**[!UICONTROL Render using JavaScript]**。—>
 
 >[!NOTE]
 >

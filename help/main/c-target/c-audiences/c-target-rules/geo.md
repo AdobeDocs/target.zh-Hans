@@ -5,10 +5,19 @@ title: 我是否可以根据位置定位访客？
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 195028613dec0294c816703b9145e720e3209d74
+TQID: https://experienceleague.adobe.com/1ksd0-jtTMia-wqAfr6SxPqGVgd9t17dKSEyYrfYp1U
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 42%
+source-wordcount: 1059
+ht-degree: 40%
 
 ---
 
@@ -16,7 +25,7 @@ ht-degree: 42%
 
 在[!DNL Adobe Target]中使用受众根据用户的地理位置定位用户。
 
-地理位置参数允许您根据访客的地理位置来定位活动和体验。 您可以根据访客的地理位置信息（包括其国家/地区、省/自治区/直辖市、城市、邮编/邮政编码、纬度、经度、DMA 或移动设备运营商）来包含或排除访客。此数据基于访客的IP地址，随每个[!DNL Target]请求一起发送。 选择这些参数的方式与选择其他任何定位值一样。
+地理位置参数允许您根据访客的地理位置来定位活动和体验。 您可以根据访客的地理位置信息（包括其国家/地区、省/自治区/直辖市、城市、邮编/邮政编码、纬度、经度、DMA 或移动设备运营商）来包含或排除访客。 此数据基于访客的IP地址，随每个[!DNL Target]请求一起发送。 选择这些参数的方式与选择其他任何定位值一样。
 
 ## 通过地域定位创建受众 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
@@ -35,7 +44,7 @@ ht-degree: 42%
    * [!UICONTROL DMA]
    * [!UICONTROL Mobile Carrier]
 
-   访问者的地理信息是根据 [!DNL Target] 位置请求（mbox 请求）的原始 IP 地址确定的。IP 到地理位置的解析是在新会话的第一次调用时完成的。这意味着，如果访问者的 IP 地址在访问期间发生变化，地理信息仍基于第一次调用的 IP 地址。
+   访问者的地理信息是根据 [!DNL Target] 位置请求（mbox 请求）的原始 IP 地址确定的。 IP 到地理位置的解析是在新会话的第一次调用时完成的。 这意味着，如果访问者的 IP 地址在访问期间发生变化，地理信息仍基于第一次调用的 IP 地址。
 
    对于[!UICONTROL Mobile Carrier]，[!DNL Target]使用IP地址注册数据（拥有IP地址块）通过[移动设备国家/地区代码(MCC)和移动设备网络代码(MNC)](https://www.mcc-mnc.com)来确定相应的移动设备运营商。
 
@@ -49,9 +58,9 @@ ht-degree: 42%
 
 ## 精准度 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-地域定位的精准度取决于多个因素。与蜂窝网络相比，使用 WiFi 连接进行地域定位会更加精准。当访客使用手机网络数据连接时，地理查询的准确性可能会受到位置、提供商与[DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)的数据关系及其他因素的影响。 使用基于蜂窝塔的网络连接进行地域定位可能没有使用有线或 WiFi 连接精准。此外，访客的IP地址可能会映射到访客的ISP位置，这可能与访客的实际位置不同。 使用[地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可以解决一些移动设备地理位置问题。
+地域定位的精准度取决于多个因素。 与蜂窝网络相比，使用 WiFi 连接进行地域定位会更加精准。 当访客使用手机网络数据连接时，地理查询的准确性可能会受到位置、提供商与[DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)的数据关系及其他因素的影响。 使用基于蜂窝塔的网络连接进行地域定位可能没有使用有线或 WiFi 连接精准。 此外，访客的IP地址可能会映射到访客的ISP位置，这可能与访客的实际位置不同。 使用[地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可以解决一些移动设备地理位置问题。
 
-下表显示了使用有线或 WiFi Internet 连接时根据 IP 获取的地理位置信息的精准度，此数据由 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 提供。DigitalEnvoy 能够提供业内最精准的数据。国家/地区级全局精准度超过 99.9%，城市级全局准确度高达 97%。此精准度信息不适用于基于蜂窝塔的网络。
+下表显示了使用有线或 WiFi Internet 连接时根据 IP 获取的地理位置信息的精准度，此数据由 [DigitalEnvoy](https://www.digitalelement.com/solutions/) 提供。 DigitalEnvoy 能够提供业内最精准的数据。 国家/地区级全局精准度超过 99.9%，城市级全局准确度高达 97%。 此精准度信息不适用于基于蜂窝塔的网络。
 
 | 国家/地区 | 省/自治区/直辖市 | 城市 | 地区 |
 |--- |--- |--- |--- |
@@ -121,14 +130,14 @@ ht-degree: 42%
 ### 使用移动设备时进行地域定位的效果如何？
 
 +++查看详细信息
-大多数移动设备用户通过WiFi访问内容，这意味着[!DNL Target]基于IP的地理定位与桌面一样准确。 使用基于蜂窝塔的连接时，会根据获取信号的塔所在的位置来确定访客的 IP 地址，因此精准度可能会有所降低。使用[地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可以解决一些移动设备地理位置问题。
+大多数移动设备用户通过WiFi访问内容，这意味着[!DNL Target]基于IP的地理定位与桌面一样准确。 使用基于蜂窝塔的连接时，会根据获取信号的塔所在的位置来确定访客的 IP 地址，因此精准度可能会有所降低。 使用[地理位置API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)可以解决一些移动设备地理位置问题。
 
 +++
 
 ### 地域定位功能如何处理来自AOL的访客？
 
 +++查看详细信息
-由于AOL代理其流量的方式，[!DNL Target]只能在国家/地区级别定位他们。 例如，针对法国的营销活动已成功定位法国的AOL用户。 但针对巴黎的营销活动未能成功针对巴黎的AOL用户。 如果您的目的是特别定位 AOL 用户，您可以将地区字段设为“aol”。实际上，您可以通过指定以下两个定位条件来定位美国的 AOL 用户：国家/地区完全匹配“美国”，而地区完全匹配“aol”。
+由于AOL代理其流量的方式，[!DNL Target]只能在国家/地区级别定位他们。 例如，针对法国的营销活动已成功定位法国的AOL用户。 但针对巴黎的营销活动未能成功针对巴黎的AOL用户。 如果您的目的是特别定位 AOL 用户，您可以将地区字段设为“aol”。 实际上，您可以通过指定以下两个定位条件来定位美国的 AOL 用户：国家/地区完全匹配“美国”，而地区完全匹配“aol”。
 
 +++
 
@@ -147,7 +156,7 @@ ht-degree: 42%
 ### 我如何模拟其他位置的用户身份测试活动？
 
 +++查看详细信息
-* **at.js 1.*x***：您可以使用其他位置的IP地址覆盖您的IP地址，并使用`mboxOverride.browserIp url`参数。 例如，如果您的公司位于英国，但您的全球营销活动要定位新西兰奥克兰的访客，请使用以下形式的URL（假设`60.234.0.39`是奥克兰的一个IP地址）：
+* **at.js 1.*x***：您可以使用其他位置的IP地址来覆盖您的IP地址，并使用`mboxOverride.browserIp url`参数。 例如，如果您的公司位于英国，但您的全球营销活动要定位新西兰奥克兰的访客，请使用以下形式的URL（假设`60.234.0.39`是奥克兰的一个IP地址）：
 
   `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
@@ -155,9 +164,9 @@ ht-degree: 42%
 
   >[!NOTE]
   >
-  >at.js 1.`mboxOverride.browserIp`*x*。at.js 2.*x*。
+  >仅at.js 1.*x*&#x200B;支持`mboxOverride.browserIp`。 at.js 2.*x*&#x200B;不支持此功能。
 
-* **at.js 2.*x***：使用at.js 2.*x*，安装浏览器扩展/插件(如Chrome或Firefox的X-Forwarded-For标头)。 通过此扩展，您可以在页面请求中传递x-forwarded-for标头。
+* **at.js 2.*x***：要使用at.js 2.*x*覆盖您的IP地址，请安装浏览器扩展/插件（例如Chrome或Firefox的X-Forwarded-For标头）。 通过此扩展，您可以在页面请求中传递x-forwarded-for标头。
 
 +++
 

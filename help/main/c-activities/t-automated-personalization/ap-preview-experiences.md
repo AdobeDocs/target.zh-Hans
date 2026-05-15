@@ -1,18 +1,24 @@
 ---
 keywords: Automated Personalization；AP；预览；排除体验
-description: 了解如何使用[!UICONTROL Automated Personalization] (VEC)预览[!UICONTROL Visual Experience Composer] (AP)活动中的每个体验。
+description: 了解如何使用[!UICONTROL Visual Experience Composer] (VEC)预览[!UICONTROL Automated Personalization] (AP)活动中的每个体验。
 title: 如何在VEC中预览[!UICONTROL Automated Personalization]体验？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/wkD1Z3b72D9Wm31yKFvSKJDNUeyHjKL0tzkeah7teQQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: 200
 ht-degree: 10%
 
 ---
 
-# 在[!UICONTROL Automated Personalization] (VEC)的[!UICONTROL Visual Experience Composer]活动中预览体验
+# 在[!UICONTROL Visual Experience Composer] (VEC)的[!UICONTROL Automated Personalization]活动中预览体验
 
 由于[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)活动会对页面上的多个选件进行比较，因此预览每个体验中的页面将会很有帮助。
 

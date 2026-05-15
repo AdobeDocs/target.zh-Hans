@@ -5,10 +5,27 @@ title: 什么是主机以及如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
+TQID: https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 17%
+source-wordcount: 1043
+ht-degree: 16%
 
 ---
 
@@ -16,11 +33,11 @@ ht-degree: 17%
 
 在[!DNL Adobe Target]中组织您的站点和生产前环境，以便轻松管理和分隔报表。
 
-主机管理的主要目标是确保网站上不会意外出现任何不活跃的内容。主机管理还允许您按[环境](/help/main/administrating-target/environments.md)来分隔报表数据。
+主机管理的主要目标是确保网站上不会意外出现任何不活跃的内容。 主机管理还允许您按[环境](/help/main/administrating-target/environments.md)来分隔报表数据。
 
-主机是从中发出[!DNL Target]请求的任何域。 在网站上，它通常是发出`location.hostname`请求的URL的[!DNL Target]属性。
+主机是从中发出[!DNL Target]请求的任何域。 在网站上，它通常是发出[!DNL Target]请求的URL的`location.hostname`属性。
 
-默认情况下，[!DNL Target]不限制可以发出[!DNL Target]请求并接收[!DNL Target]响应的主机。 当新主机发出请求时，它们会自动工作。 此流程还可以在您不知道或无法预测的不同域上进行测试。 列入允许列表 列入阻止列表如果要覆盖此默认行为，可以设置或以限制哪些主机可以使用[!DNL Target]。
+默认情况下，[!DNL Target]不限制可以发出[!DNL Target]请求并接收[!DNL Target]响应的主机。 当新主机发出请求时，它们会自动工作。 此流程还可以在您不知道或无法预测的不同域上进行测试。 如果要覆盖此默认行为，可以设置或以限制哪些主机可以使用[!DNL Target]。
 
 {{permissions-update}}
 
@@ -65,7 +82,7 @@ ht-degree: 17%
 
 ## 创建允许列表以指定有权向[!DNL Target]发送[!DNL Target]请求的主机。 {#allowlist}
 
-您可以创建一个允许列表，指定有权向[!DNL Target]发送[!DNL Target]请求的主机（域）。 所有其他生成请求的主机都会收到一个注释掉的授权错误响应。 默认情况下，任何包含[!DNL Target]请求的主机都会在[!DNL Target]环境中向[!UICONTROL Production]进行注册，它们有权访问所有活跃的已批准活动。 列入允许列表如果不希望使用此方法，您可以改为使用来记录有权发出[!DNL Target]请求并接收[!DNL Target]内容的特定主机。 所有主机继续显示在[!UICONTROL Hosts]列表中，并且环境仍可用于对这些主机进行分组，并为每个主机分配不同的级别，例如该主机是否可以看到活动和/或非活动的活动。
+您可以创建一个允许列表，指定有权向[!DNL Target]发送[!DNL Target]请求的主机（域）。 所有其他生成请求的主机都会收到一个注释掉的授权错误响应。 默认情况下，任何包含[!DNL Target]请求的主机都会在[!UICONTROL Production]环境中向[!DNL Target]进行注册，它们有权访问所有活跃的已批准活动。 如果不希望使用此方法，您可以改为使用来记录有权发出[!DNL Target]请求并接收[!DNL Target]内容的特定主机。 所有主机继续显示在[!UICONTROL Hosts]列表中，并且环境仍可用于对这些主机进行分组，并为每个主机分配不同的级别，例如该主机是否可以看到活动和/或非活动的活动。
 
 要创建允许列表，请执行以下操作：
 
@@ -85,15 +102,15 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->列入允许列表 **安全最佳实践**：如果您使用[!DNL Target]的ubox功能，此还将控制[重定向器](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=zh-Hans){target=_blank}可以导航到的域列表。 确保在实施中使用ubox时添加要重定向到的任何域。 如果未指定允许列表，[!DNL Adobe]将无法验证重定向URL并防止潜在的恶意重定向。
+>**安全最佳实践**：如果您使用[!DNL Target]的ubox功能，此还将控制[重定向器](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=zh-Hans){target=_blank}可以导航到的域列表。 确保在实施中使用ubox时添加要重定向到的任何域。 如果未指定允许列表，[!DNL Adobe]将无法验证重定向URL并防止潜在的恶意重定向。
 >
->允许列表的优先级高于环境。 在使用“主机”功能之前清除所有主机，然后只有由“主机”允许列表列入允许列表允许的主机才会显示在主机列表中。 然后，您可以将主机移到所需的环境中。
+>允许列表的优先级高于环境。 在使用“主机”功能之前清除所有主机，然后只有由“主机”允许列表允许的主机才会显示在主机列表中。 然后，您可以将主机移到所需的环境中。
 
-有时，您的环境中会显示来自其他网站的域。如果某个域调用at.js，则该域会显示在列表中。 例如，如果某人将您的一个网页复制到其服务器，那么该域便会显示在您的环境中。您也可以看到来自蜘蛛引擎、语言翻译网站或者本地磁盘驱动器的域名。
+有时，您的环境中会显示来自其他网站的域。 如果某个域调用at.js，则该域会显示在列表中。 例如，如果某人将您的一个网页复制到其服务器，那么该域便会显示在您的环境中。 您也可以看到来自蜘蛛引擎、语言翻译网站或者本地磁盘驱动器的域名。
 
-如果 `mboxHost` 在 API 调用中进行传递，则会为传入的环境记录转化。如果未传递任何环境，则调用中的主机默认为[!UICONTROL Production]。
+如果 `mboxHost` 在 API 调用中进行传递，则会为传入的环境记录转化。 如果未传递任何环境，则调用中的主机默认为[!UICONTROL Production]。
 
-您还可以通过在[!DNL Target]框中添加所需的主机来创建一个阻止列表，以指定不能向[!DNL Target]发送[!UICONTROL Host Does Not Contain]请求的主机（域）。
+您还可以通过在[!UICONTROL Host Does Not Contain]框中添加所需的主机来创建一个阻止列表，以指定不能向[!DNL Target]发送[!DNL Target]请求的主机（域）。
 
 >[!NOTE]
 >
@@ -122,7 +139,7 @@ ht-degree: 17%
 
 **随机域或未知域出现在[!UICONTROL Host]列表中。**
 
-如果从某个域向[!DNL Target]发出请求，则该域会显示在此列表中。 您常常可以看到来自蜘蛛引擎、语言翻译网站或者本地磁盘驱动器的域。如果列出的域不是您的团队使用的域，您可以单击[!UICONTROL Delete]将其删除。
+如果从某个域向[!DNL Target]发出请求，则该域会显示在此列表中。 您常常可以看到来自蜘蛛引擎、语言翻译网站或者本地磁盘驱动器的域。 如果列出的域不是您的团队使用的域，您可以单击[!UICONTROL Delete]将其删除。
 
 **我的[!DNL Target]请求返回/&#42;无显示 — 未授权的mbox主机&#42;/.**
 

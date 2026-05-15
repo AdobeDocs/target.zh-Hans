@@ -4,36 +4,43 @@ description: 了解如何使用 [!DNL Adobe Target] [!UICONTROL Visual Experienc
 title: 如何在[!UICONTROL Experience Targeting]活动中创建体验？
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: 902
 ht-degree: 23%
 
 ---
 
 # 在[!UICONTROL Experience Targeting] (XT)活动中创建体验
 
-[!UICONTROL Visual Experience Composer]中的[!DNL Adobe Target] (VEC)提供了一个可视化界面，用于编辑[!UICONTROL Experience Targeting] (XT)活动中的页面上的体验。
+[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)提供了一个可视化界面，用于编辑[!UICONTROL Experience Targeting] (XT)活动中的页面上的体验。
 
 1. 选择要更改的元素，然后进行所需的更改。
 
-   在[创建[!UICONTROL Experience Targeting]活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)时，三步引导式工作流([!UICONTROL Experiences])中的第一步会显示具有[!UICONTROL Experience A]受众的默认[!UICONTROL All Visitors]。
+   在[创建[!UICONTROL Experience Targeting]活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)时，三步引导式工作流([!UICONTROL Experiences])中的第一步会显示具有[!UICONTROL All Visitors]受众的默认[!UICONTROL Experience A]。
 
    ![“所有访客”受众](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
 
    您现在所做的任何更改均适用于[!UICONTROL Experience A]。 在下面的步骤中，单击&#x200B;**[!UICONTROL Add Experience Targeting]**&#x200B;以创建其他体验。
 
-   将鼠标悬停在页面上的元素上时，这些元素会高亮显示。 任何高亮显示的元素都可以使用 VEC 进行更改。有关为更改体验而可对元素执行的操作列表，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+   将鼠标悬停在页面上的元素上时，这些元素会高亮显示。 任何高亮显示的元素都可以使用 VEC 进行更改。 有关为更改体验而可对元素执行的操作列表，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
    >[!NOTE]
    >
-   >默认情况下，VEC 不允许更改包含 JavaScript 的元素，如旋转横幅。您可以禁用JavaScript以使用VEC更改这些元素。
+   >默认情况下，VEC 不允许更改包含 JavaScript 的元素，如旋转横幅。 您可以禁用JavaScript以使用VEC更改这些元素。
 
 1. 要创建其他体验，请单击&#x200B;**[!UICONTROL Add]** （![添加按钮](/help/main/assets/icons/Add.svg) ）。
 
    此时将显示[!UICONTROL Add Audience]对话框。 要将体验定位到某个受众，请在添加体验之前选择该受众。
 
-   受众库中包含以前定义的受众，其中包括作为 [!DNL Target] 的一部分预先构建的一些常用受众。您可以从库中选择受众或[创建新受众](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
+   受众库中包含以前定义的受众，其中包括作为 [!DNL Target] 的一部分预先构建的一些常用受众。 您可以从库中选择受众或[创建新受众](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)。
 
    除了选择现有受众之外，您还可以合并多个受众以创建按需合并受众，而不是创建新受众。 有关更多信息，请参阅[合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
@@ -102,7 +109,7 @@ ht-degree: 23%
 
 ### 活动类型(9:03)
 
-以下视频介绍了 [!DNL Target] 中可用的活动类型。从5[!UICONTROL Experience Targeting]开始讨论:15。
+以下视频介绍了 [!DNL Target] 中可用的活动类型。 从5:15开始讨论[!UICONTROL Experience Targeting]。
 
 * 介绍 [!DNL Adobe Target] 中包含的活动类型
 * 选择相应的活动类型以实现目标

@@ -4,9 +4,16 @@ description: 浏览 [!DNL Target] - [!UICONTROL Manual]、[!UICONTROL Auto-Alloc
 title: 发现 [!DNL Target]中可用的A/B测试活动。
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+TQID: https://experienceleague.adobe.com/wcflYDj0VB7dJODNO6XjFHB0PPIhN4aUrBJxbKPoNdg
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: 680
 ht-degree: 21%
 
 ---
@@ -29,7 +36,7 @@ ht-degree: 21%
 >
 >有关确定 A/B 测试最佳样本大小的详细信息，请参阅[规划 A/B 测试](/help/main/c-activities/t-test-ab/sample-size-determination.md)。
 
-当不同体验的数量超过5个并跨越两个或更多位置时，最好在运行A/B测试之前先运行[MVT测试](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。 多变量测试可显示页面中的哪些区域最有可能提高转化。这些区域是营销人员应重点关注的位置。 例如，多变量测试可能会显示促使用户采取行动的位置对达成目标最为重要。确定哪些位置和内容对帮助您实现目标最有用后，可以运行A/B测试以进一步优化结果。 例如，对两个特定图像进行相互测试，或者比较call to action的文字或颜色。 通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
+当不同体验的数量超过5个并跨越两个或更多位置时，最好在运行A/B测试之前先运行[MVT测试](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。 多变量测试可显示页面中的哪些区域最有可能提高转化。 这些区域是营销人员应重点关注的位置。 例如，多变量测试可能会显示促使用户采取行动的位置对达成目标最为重要。 确定哪些位置和内容对帮助您实现目标最有用后，可以运行A/B测试以进一步优化结果。 例如，对两个特定图像进行相互测试，或者比较call to action的文字或颜色。 通过在 MVT 测试后使用一个或多个 A/B 测试，您可以确定达成所需结果的最佳内容。
 
 ## A/B测试活动的类型 {#types}
 
@@ -38,7 +45,7 @@ ht-degree: 21%
 | 活动类型 | 描述 |
 | --- | --- |
 | [!UICONTROL Manual A/B Test] | 比较两个或更多体验，以查看在预先指定的一段测试时间内，哪个体验最有利于提高转化。<P>本节介绍如何设置手动[!UICONTROL A/B Test]活动，但其他类型的[!UICONTROL A/B Test]活动的步骤类似。 |
-| [!UICONTROL Auto-Allocate] | 从两个或更多体验中标识一个入选者，然后将流量重定向到该入选者，随着测试的运行和学习而提高转化。<P>若要了解使用[!UICONTROL Auto-Allocate]活动的好处，请参阅[中的](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate)自动分配&#x200B;*A/B测试应该运行多久*&#x200B;和[自动分配概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
+| [!UICONTROL Auto-Allocate] | 从两个或更多体验中标识一个入选者，然后将流量重定向到该入选者，随着测试的运行和学习而提高转化。<P>若要了解使用[!UICONTROL Auto-Allocate]活动的好处，请参阅&#x200B;*中的[自动分配](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate)A/B测试应该运行多久*&#x200B;和[自动分配概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
 | ![高级徽章](/help/main/assets/premium.png) [!UICONTROL Auto-Target] | 使用先进的机器学习技术，通过识别多个高性能、营销人员定义的体验来个性化内容并促进转化。 然后，根据访客的各个客户配置文件和过去类似访客的行为，向访客提供量身定制的体验。<P>有关详细信息，请参阅[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
 
 有关哪些[!UICONTROL A/B Test]活动适合您的详细信息，请参阅交互式[Adobe Target Activities Guide PDF](/help/main/c-activities/target-activities-guide.md)。

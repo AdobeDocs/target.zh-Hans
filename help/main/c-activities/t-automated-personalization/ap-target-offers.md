@@ -6,9 +6,18 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/AVqyD-Von-gzuVXC09N9qHY5hEe1QLQwSavCE0mp7Ok
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: 380
 ht-degree: 19%
 
 ---
@@ -17,11 +26,11 @@ ht-degree: 19%
 
 在[!DNL Adobe Target] [!DNL Automated Personalization] (AP)活动中，您可以将选件定位到特定受众。
 
-使用此功能可减少特定访客有资格查看的产品建议数量。例如，假定一个[!UICONTROL Automated Personalization]活动有三个选件。 选件1有一个定位规则，该规则限制仅向受众A显示该选件。有两个访客看到了此活动。
+使用此功能可减少特定访客有资格查看的产品建议数量。 例如，假定一个[!UICONTROL Automated Personalization]活动有三个选件。 选件1有一个定位规则，该规则限制仅向受众A显示该选件。有两个访客看到了此活动。
 
 | | 访客 1 | 访客 2 |
 |--- |--- |--- |
-| 受众资格 | 受众 A | 受众 B |
+| 受众资格筛选 | 受众 A | 受众 B |
 | 选件 1 的 Target 个性化模型得分 | 90 | 90 |
 | 选件 2 的 Target 个性化模型得分 | 50 | 70 |
 | 选件 3 的 Target 个性化模型得分 | 80 | 60 |

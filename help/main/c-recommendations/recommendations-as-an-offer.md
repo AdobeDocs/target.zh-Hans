@@ -5,9 +5,14 @@ title: 如何在其他活动类型中使用产品建议形式的推荐？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
-source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
+TQID: https://experienceleague.adobe.com/ZMOb5RdY6bES331INSM7VF-w4be-5Xmjqon0YvfuNG4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: 525
 ht-degree: 60%
 
 ---
@@ -23,7 +28,7 @@ ht-degree: 60%
 * 使用[!UICONTROL Auto-Allocate]自动将流量推送到性能最佳的推荐体验。
 * 使用[!UICONTROL Auto-Target]根据访客的配置文件动态地为他们分配量身定制的推荐体验。
 
-若要开始，请使用[!UICONTROL A/B Test]创建一个[!UICONTROL Experience Targeting]或[!UICONTROL Visual Experience Composer]活动，然后使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]操作向体验添加推荐。
+若要开始，请使用[!UICONTROL Visual Experience Composer]创建一个[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活动，然后使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]操作向体验添加推荐。
 
 ## 在 A/B 测试或 XT 活动中将推荐作为产品建议添加
 

@@ -1,19 +1,26 @@
 ---
 keywords: MVT;多变量测试;多变量测试创建;MVT 创建;MVT 工作原理;多变量测试工作原理
-description: 了解如何使用[!UICONTROL Visual Experience Composer]中的 [!DNL Adobe Target]  (VEC)创建[!UICONTROL Multivariate Test] (MVT)。
+description: 了解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Visual Experience Composer] (VEC)创建[!UICONTROL Multivariate Test] (MVT)。
 title: 如何创建[!UICONTROL Multivariate Test]？
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
+TQID: https://experienceleague.adobe.com/gxrnY43A7OWsiW48Rlq1Orp7ZxBswdAPZEAbRQrCDZA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 737
 ht-degree: 26%
 
 ---
 
 # 创建多变量测试
 
-通过[!UICONTROL Visual Experience Composer]中的[!DNL Adobe Target] (VEC)，可以轻松创建[!UICONTROL Multivariate Test]并在[!DNL Target]中修改页面的各个部分。
+通过[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)，可以轻松创建[!UICONTROL Multivariate Test]并在[!DNL Target]中修改页面的各个部分。
 
 使用[!DNL Target]点击式编辑器，您可以选择任意位置并添加多个选件。
 
@@ -23,7 +30,7 @@ ht-degree: 26%
 
    >[!NOTE]
    >
-   >有关 [!DNL Target] 中可用的各种活动类型及其差异的更多信息，请参阅[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)，以帮助您确定最符合自己需求的活动类型。
+   >有关 [!DNL Target] 中可用的各种活动类型及其差异的更多信息，请参阅[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)。 请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)，以帮助您确定最符合自己需求的活动类型。
 
 1. （视情况而定）选择投放类型： [!UICONTROL Web]、[!UICONTROL Mobile]、[!UICONTROL Email]或[!UICONTROL Other/API]。
 
@@ -35,11 +42,11 @@ ht-degree: 26%
    >
    >请使用完整的URL，即在开头包含HTTP或HTTPS。
 
-   如果显示了一条消息，要求您为浏览器启用混合内容，请按消息中的说明进行操作。为浏览器启用混合内容后，重新从步骤 1 开始操作。
+   如果显示了一条消息，要求您为浏览器启用混合内容，请按消息中的说明进行操作。 为浏览器启用混合内容后，重新从步骤 1 开始操作。
 
    将打开[!UICONTROL Visual Experience Composer]。
 
-1. 要命名活动，请单击“**[!UICONTROL Edit]**”旁边的![图标（](/help/main/assets/icons/Edit.svg)编辑图标[!UICONTROL Untitled Activity]），为活动指定描述性名称，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 要命名活动，请单击“[!UICONTROL Untitled Activity]”旁边的&#x200B;**[!UICONTROL Edit]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)），为活动指定描述性名称，然后单击&#x200B;**[!UICONTROL Save]**。
 
    活动名称不能以下列任何字符开头：
 
@@ -54,15 +61,15 @@ ht-degree: 26%
 
    | 字符序列 | 描述 |
    |--- |--- |
-   | ；= | 分号，等于 |
-   | ；+ | 分号，加号 |
-   | ；- | 分号，减号 |
-   | ；@ | 分号， At sign |
-   | ，= | 逗号，等于 |
-   | ，+ | 逗号，加号 |
-   | ，- | 逗号，减 |
-   | ，@ | 逗号， At sign |
-   | `[`” | 左方括号，双引号 |
+   | ;= | 分号，等于 |
+   | ;+ | 分号，加号 |
+   | ;- | 分号，减号 |
+   | ;@ | 分号， At sign |
+   | ,= | 逗号，等于 |
+   | ,+ | 逗号，加号 |
+   | ,- | 逗号，减 |
+   | ,@ | 逗号， At sign |
+   | `[`&quot; | 左方括号，双引号 |
    | &quot;`]` | 双引号，右方括号 |
 
 1. [在每个位置中创建产品建议](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6)。
@@ -91,7 +98,7 @@ ht-degree: 26%
 
 1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;前进到[!UICONTROL Targeting]页。
 
-   如果您使用过其他&#x200B;**活动类型，则**&#x200B;定位[!DNL Target]步骤看起来会很熟悉。 在此步骤中，您可以选择受众，并指定查看每个体验的访客百分比。
+   如果您使用过其他[!DNL Target]活动类型，则&#x200B;**定位**&#x200B;步骤看起来会很熟悉。 在此步骤中，您可以选择受众，并指定查看每个体验的访客百分比。
 
    流程图会引导您完成以下步骤：分配受众及其流量百分比，选择流量分配方法，以及指定活动中每个体验的流量分配。
 
@@ -109,7 +116,7 @@ ht-degree: 26%
       如果需要创建一个不在[!UICONTROL Audience Library]中的新受众，请单击&#x200B;**创建受众**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
 
       * **[!UICONTROL Audience Library]**：创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用。
-      * **[!UICONTROL This activity only]**：创建未保存到[的](/help/main/c-target/creating-activity-only-audience.md)活动特定受众[!UICONTROL Audience Library]，该受众只能用于当前活动。
+      * **[!UICONTROL This activity only]**：创建未保存到[!UICONTROL Audience Library]的[活动特定受众](/help/main/c-target/creating-activity-only-audience.md)，该受众只能用于当前活动。
 
    1. 单击右框中的&#x200B;**[!UICONTROL Visitor Percentage]**，然后选择符合条件的访客您希望参加活动的百分比。
 

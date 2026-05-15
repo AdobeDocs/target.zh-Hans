@@ -4,20 +4,34 @@ description: 了解为什么某些网站可能无法可靠地在[!UICONTROL Visu
 title: 如何使用[!UICONTROL Visual Editing Helper]扩展？
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 86139b5971f98091affefd771d9d138e31574727
+TQID: https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: 779
 ht-degree: 56%
 
 ---
 
 # [!UICONTROL Visual Editing Helper]扩展
 
-通过[!DNL Adobe Experience Cloud]的[!UICONTROL Visual Editing Helper] [!DNL Google Chrome]浏览器扩展，您可以在[!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)内可靠地加载网站，以快速创作和QA Web体验。
+通过[!DNL Google Chrome]的[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]浏览器扩展，您可以在[!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)内可靠地加载网站，以快速创作和QA Web体验。
 
 >[!IMPORTANT]
 >
->* 新的扩展取代了以前的 [Target VEC 帮助程序浏览器扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。请参阅该文章顶部的重要说明。 由于清单v3中的安全增强，[!DNL Adobe]需要下载此新扩展才能继续在[!DNL Target]中以视觉方式创作您的网站。
+>* 新的扩展取代了以前的 [Target VEC 帮助程序浏览器扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)。 请参阅该文章顶部的重要说明。 由于清单v3中的安全增强，[!DNL Adobe]需要下载此新扩展才能继续在[!DNL Target]中以视觉方式创作您的网站。
 
 ## 对[!UICONTROL Visual Editing Helper]扩展的更改（2026年1月17日）
 
@@ -40,30 +54,30 @@ ht-degree: 56%
 
 ## 使用[!UICONTROL Visual Editing Helper]扩展的好处
 
-* 隐含地从网站中删除所有令 iframe 失效的标头，如 `X-Frame-Options` 和 `Content-Security-Policy`。没有必要创建复杂的 Requestly 规则。
-* 如果网页尚未包含 [!DNL Target] at.js 库，您可以使用该扩展来插入库，这样您便可以为该网站创作体验。然后，您可以创建活动并使用预览链接进行 QA。
+* 隐含地从网站中删除所有令 iframe 失效的标头，如 `X-Frame-Options` 和 `Content-Security-Policy`。 没有必要创建复杂的 Requestly 规则。
+* 如果网页尚未包含 [!DNL Target] at.js 库，您可以使用该扩展来插入库，这样您便可以为该网站创作体验。 然后，您可以创建活动并使用预览链接进行 QA。
 
-  使用[增强型体验编写器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)时，扩展未注入 at.js，但仍存在 SameSite Cookie 功能。要在网页上插入 at.js，请关闭 EEC。
+  使用[增强型体验编写器](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)时，扩展未注入 at.js，但仍存在 SameSite Cookie 功能。 要在网页上插入 at.js，请关闭 EEC。
 
-* 即使没有[&#x200B; (EEC)，也支持](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)移动设备视区[!UICONTROL Enhanced Experience Composer]。
+* 即使没有[!UICONTROL Enhanced Experience Composer] (EEC)，也支持[移动设备视区](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)。
 * 对于 [!DNL Target] 的新客户，即便在其 IT 开发人员尚未在其网站上实施 [!DNL Target] 的情况下，也可以使用此扩展来试用 [!DNL Target]。
 * 服务于多个客户网站和 [!DNL Target] 帐户的合作伙伴现在有一个简单的机制来支持 VEC 加载，而不用通过第三方工具管理多个规则。
 
 ## 获取并安装[!UICONTROL Visual Editing Helper]浏览器扩展
 
-1. 导航到Chrome网上应用商店[[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]中的](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}浏览器扩展。
+1. 导航到Chrome网上应用商店[&#128279;](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}中的[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]浏览器扩展。
 1. 单击&#x200B;**[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**。
 1. 打开 [!DNL Target] 中的 VEC。
 1. 若要使用该扩展，请在处于VEC或QA模式时，单击Chrome浏览器工具栏中的[!UICONTROL Visual Editing Helper]浏览器扩展图标（![可视化编辑扩展图标](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)）。
 
-   在[!UICONTROL Visual Editing Helper] VEC中打开网站以进行创作时，[!UICONTROL Target]会自动启用。 该扩展不具有任何有条件的设置。该扩展会自动处理所有设置，包括 SameSite cookie 设置。
+   在[!UICONTROL Target] VEC中打开网站以进行创作时，[!UICONTROL Visual Editing Helper]会自动启用。 该扩展不具有任何有条件的设置。 该扩展会自动处理所有设置，包括 SameSite cookie 设置。
 
-   若要了解有关`SameSite=None`属性浏览器修复的更多信息，请参阅“最近公布的 Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？”（在[排除与可视体验编辑器和增强体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)中）。
+   若要了解有关`SameSite=None`属性浏览器修复的更多信息，请参阅“最近公布的 Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？” （在[排除与可视体验编辑器和增强体验编辑器相关的问题](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)中）。
 
 ## 注释
 
-* 对于[!DNL Target]，该扩展加载最新版本的at.js，该版本可从[!DNL Target] > [!UICONTROL Administration]中的[!UICONTROL Implementation] UI访问，并且at.js会下载创作库。
-* 当在 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)下使用扩展插入 at.js 时，必须打开另一个 Chrome 选项卡。此 Chrome 选项卡必须经过创建活动所在[!DNL Adobe Experience Cloud]组织的身份验证。
+* 对于[!DNL Target]，该扩展加载最新版本的at.js，该版本可从[!UICONTROL Administration] > [!UICONTROL Implementation]中的[!DNL Target] UI访问，并且at.js会下载创作库。
+* 当在 [QA 模式](/help/main/c-activities/c-activity-qa/activity-qa.md)下使用扩展插入 at.js 时，必须打开另一个 Chrome 选项卡。 此 Chrome 选项卡必须经过创建活动所在[!DNL Adobe Experience Cloud]组织的身份验证。
 * 以下消息有助于您随时了解以下情况：
 
    * 如果尝试使用无法加载的VEC加载网站，系统会显示一条消息，建议您安装[!UICONTROL Visual Editing Helper]浏览器扩展。
@@ -74,7 +88,7 @@ ht-degree: 56%
 
 ### 当扩展在[!DNL Adobe Target]或[!UICONTROL Adobe Journey Optimizer] (AJO)之外使用时，处于活动状态时会执行任何操作吗？
 
-只有当相关网站加载到 [!DNL Adobe] 产品（[!DNL Target]、[!DNL AJO]）的 iFrame 中时，该扩展程序才会激活。在此流程之外，扩展程序不会尝试添加、删除或修改任何标头，并且扩展程序不会尝试在网站内注入任何代码。
+只有当相关网站加载到 [!DNL Adobe] 产品（[!DNL Target]、[!DNL AJO]）的 iFrame 中时，该扩展程序才会激活。 在此流程之外，扩展程序不会尝试添加、删除或修改任何标头，并且扩展程序不会尝试在网站内注入任何代码。
 
 ### 当扩展在 [!DNL Adobe Target] VEC 中处于活动状态时会做什么？
 

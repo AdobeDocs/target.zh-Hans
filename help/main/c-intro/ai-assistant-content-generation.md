@@ -1,26 +1,33 @@
 ---
 keywords: ai助手；人工智能助手；内容生成；内容加速器；内容生成；生成内容
 description: 了解如何使用 [!DNL AI Assistant]生成吸引人的内容。
-title: 如何使用 [!DNL AI Assistant] 中的 [!DNL Target] 生成吸引人的内容？
+title: 如何使用 [!DNL Target] 中的 [!DNL AI Assistant] 生成吸引人的内容？
 feature: Overview
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 1%
+source-wordcount: 777
+ht-degree: 2%
 
 ---
 
-# 在[!DNL AI Assistant]中使用[!DNL Adobe Target]生成内容
+# 在[!DNL Adobe Target]中使用[!DNL AI Assistant]生成内容
 
-使用[!DNL Adobe Target]在[!DNL AI Assistant]中提高参与度和转化率。 利用创作AI制作个性化、高影响力的文本，与受众产生共鸣并提升活动内容。
+使用[!DNL AI Assistant]在[!DNL Adobe Target]中提高参与度和转化率。 利用创作AI制作个性化、高影响力的文本，与受众产生共鸣并提升活动内容。
 
 ## 先决条件
 
-1. 确保您已在[的 [!DNL Adobe Experience Platform] [!DNL AI Assistant]启用 [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)中完成先决任务。
+1. 确保您已在 [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)的启用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先决任务。
 
    * 贵组织必须首先同意法律条款。 有关更多信息，请与您的Adobe客户团队联系。
    * 您的管理员必须授予您访问[!DNL AI Assistant]的足够权限。
@@ -85,7 +92,7 @@ ht-degree: 1%
 
 ## 示例变量 {#variations}
 
-更改主页文本只是开始。 在[!DNL AI Assistant]中为[!DNL Target]，您不仅可以进行基本编辑。 您能够创建、优化和提升整个体验中的内容。 无论您是集思广益、优化消息传递还是快速生成新副本，[!DNL AI Assistant]都利用创作AI的强大功能帮助您在几秒钟内制作引人入胜的高影响力内容。
+更改主页文本只是开始。 在[!DNL Target]中为[!DNL AI Assistant]，您不仅可以进行基本编辑。 您能够创建、优化和提升整个体验中的内容。 无论您是集思广益、优化消息传递还是快速生成新副本，[!DNL AI Assistant]都利用创作AI的强大功能帮助您在几秒钟内制作引人入胜的高影响力内容。
 
 以下提示和变体显示[!DNL AI Assistant]的强大功能。
 

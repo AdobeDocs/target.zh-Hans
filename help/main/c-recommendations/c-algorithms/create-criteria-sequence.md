@@ -5,9 +5,14 @@ title: 如何在推荐中创建标准序列？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/dxO5cKxesTxgzZyfcvydQUlSq4TAgFN0ztT5VIe1WKU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: 763
 ht-degree: 18%
 
 ---
@@ -18,11 +23,11 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->标准序列不能用于[!UICONTROL Recommendations]的2016年10月版之前创建的[!DNL Target Premium]活动。
+>标准序列不能用于[!DNL Target Premium]的2016年10月版之前创建的[!UICONTROL Recommendations]活动。
 
-要创建标准序列，您必须先创建要包含到序列中的标准。有关详细信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
+要创建标准序列，您必须先创建要包含到序列中的标准。 有关详细信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
-在单个标准无法返回足够多的结果，从而无法填充设计的情况下，通过使用标准序列，您可以提供更多具有针对性的推荐，而不是使用更为宽泛的备用推荐。通常，标准序列会从更具体的定位（可能会返回更少的结果）到更一般的定位（通常返回更多结果）。
+在单个标准无法返回足够多的结果，从而无法填充设计的情况下，通过使用标准序列，您可以提供更多具有针对性的推荐，而不是使用更为宽泛的备用推荐。 通常，标准序列会从更具体的定位（可能会返回更少的结果）到更一般的定位（通常返回更多结果）。
 
 您的标准序列可能会因页面类型的不同而有所不同，如以下示例中所示：
 

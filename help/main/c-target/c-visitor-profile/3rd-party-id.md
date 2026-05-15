@@ -4,20 +4,29 @@ description: 了解如何使用mbox3rdPartyId，它是您组织的访客ID，如
 title: 如何对mbox3rdPartyId使用实时配置文件同步？
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/72tenrUdLD52p36hO1O70-zhr1Cg0jTVLfKXUR7iNhU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: 741
 ht-degree: 18%
 
 ---
 
 # mbox3rdPartyId 的实时轮廓同步
 
-`mbox3rdPartyId`中的[!DNL Adobe Target]是您公司的访客ID，例如您公司的忠诚度计划的会员ID。
+[!DNL Adobe Target]中的`mbox3rdPartyId`是您公司的访客ID，例如您公司的忠诚度计划的会员ID。
 
 访客登录到某个公司的网站后，该公司通常会创建一个 ID，并将其绑定到访客的帐户、会员卡、会员编号，以及该公司的其他适用标识符。
 
-如果访客访问的页面启用了 [!DNL Target]，则会为该访客分配一个 [!DNL Target] PCID。如果该访客随后登录，并且实施将`mbox3rdPartyId`传递到[!DNL Target]，则[!DNL Target]会将该访客的`mbox3rdPartyId`与[!DNL Target] PCID相关联。
+如果访客访问的页面启用了 [!DNL Target]，则会为该访客分配一个 [!DNL Target] PCID。 如果该访客随后登录，并且实施将`mbox3rdPartyId`传递到[!DNL Target]，则[!DNL Target]会将该访客的`mbox3rdPartyId`与[!DNL Target] PCID相关联。
 
 更新每5-10分钟与配置文件存储同步一次。 当访客的会话结束时，合并的数据将替换以前与`mbox3rdPartyId`关联的数据，从而创建该访客操作的完整记录。 如果两个ID中存在相同的属性 — 例如，PCID具有category=hats，而`mbox3rdPartyId`具有category=skis；或者，如果访客在登录之前查看了体验A，但体验B存储在`mbox3rdPartyId`中，则存储在`mbox3rdPartyId`中的属性会覆盖PCID中的属性。 如果访客在登录之前位于某个活动或体验中，但`mbox3rdPartyId`中存储了另一个活动和体验，则在登录后，该访客将被放入`mbox3rdPartyId`活动和体验中。
 
@@ -36,19 +45,19 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->在[!DNL Adobe Analytics] ID (ECID)发生更改（例如访客更改设备）时，即使[!DNL Adobe Experience Cloud]配置文件可能会根据mbox3rdPartyId进行合并，并且仍然具有活动信息，仍将不会跟踪[!DNL Target]目标。 对于使用相同ECID进行标识的访客（使用同一设备访问页面的访客），[!DNL Analytics for Target] (A4T)应按预期工作。
+>在[!DNL Adobe Experience Cloud] ID (ECID)发生更改（例如访客更改设备）时，即使[!DNL Target]配置文件可能会根据mbox3rdPartyId进行合并，并且仍然具有活动信息，仍将不会跟踪[!DNL Adobe Analytics]目标。 对于使用相同ECID进行标识的访客（使用同一设备访问页面的访客），[!DNL Analytics for Target] (A4T)应按预期工作。
 
 ## 注意事项 {#considerations}
 
 * 如果您的页面包含多个mbox且只有一些使用`3rdPartyID`，则[!DNL Target]不会为每个访客请求提供单独的访客配置文件/上下文。 `3rdPartyID`上下文优先于PCID上下文。 一个mbox足以传递`3rdPartyId`，因为其上下文优先于PCID。
 
-  例如，假设访客在登录之前访问页面并看到某个体验。 全局mbox不使用`3rdPartyID`。 登录后，访客看到三个具有子mbox的体验之一，其中一些使用`3rdPartyID`。 访客访问网站上的各种页面，然后使用“返回”按钮返回到登录前访问的主页，并将看到一个不同的体验。在此方案中，全局mbox未传递`3rdPartyID`，但有一个或多个子mbox传递。 `3rdPartyID`优先于PCID。
+  例如，假设访客在登录之前访问页面并看到某个体验。 全局mbox不使用`3rdPartyID`。 登录后，访客看到三个具有子mbox的体验之一，其中一些使用`3rdPartyID`。 访客访问网站上的各种页面，然后使用“返回”按钮返回到登录前访问的主页，并将看到一个不同的体验。 在此方案中，全局mbox未传递`3rdPartyID`，但有一个或多个子mbox传递。 `3rdPartyID`优先于PCID。
 
 * 您可以使用两种方法将访客的客户ID发送到[!DNL Target]：
 
    1. 使用`mbox3rdPartyId`/`thirdPartyId`。
 
-      * 当您使用`mbox3rdPartyId`或`targetPageParams`时，`targetPageParamsAll`是参数名称
+      * 当您使用`targetPageParams`或`targetPageParamsAll`时，`mbox3rdPartyId`是参数名称
       * `thirdPartyId`是您直接在投放API有效载荷中设置的参数名称。
       * 您只能在此参数中发送一个值。
 
@@ -58,7 +67,7 @@ ht-degree: 18%
       * `customerIds`是您在投放API有效载荷中直接设置它时使用的参数名称，通常在服务器端或IOT（物联网）实施中完成。
       * 与`mbox3rdPartyId`/`thirdPartyId`不同，您可以在此方法中将多个ID作为列表发送，但由于[!DNL Target]仅支持每个TnT ID一个客户ID，因此它使用具有已知别名（在客户属性UI中配置的别名）的列表中的第一个ID。
 
-  如果`mbox3rdPartyId`是您唯一的`thirdPartyId`解决方案并且您不想使用客户属性，则可以使用[!DNL Target]/[!DNL Adobe Experience Cloud]。 对于所有其他情况，我们建议您使用`setCustomerId`/`customerIds`来发送客户ID。
+  如果[!DNL Target]是您唯一的[!DNL Adobe Experience Cloud]解决方案并且您不想使用客户属性，则可以使用`mbox3rdPartyId`/`thirdPartyId`。 对于所有其他情况，我们建议您使用`setCustomerId`/`customerIds`来发送客户ID。
 
   >[!IMPORTANT]
   >

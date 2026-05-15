@@ -5,20 +5,28 @@ title: 如何使用Automated Personalization摘要报表？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/Gj9Jo0NHnSxGE4BpvFbd0SudYjbkP4yrV3GFHWHNPjw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 10%
+source-wordcount: 653
+ht-degree: 12%
 
 ---
 
 # Automated Personalization 摘要报表
 
-[!UICONTROL Automated Personalization]中[!DNL Adobe Target]个活动的用户可以使用专门的摘要报告。
+[!DNL Adobe Target]中[!UICONTROL Automated Personalization]个活动的用户可以使用专门的摘要报告。
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization]作为[!DNL Target Premium]解决方案的一部分提供。 在没有[!DNL Target Standard]Target Premium许可证[的](/help/main/c-intro/intro.md#premium)中不包括它。
+>[!UICONTROL Automated Personalization]作为[!DNL Target Premium]解决方案的一部分提供。 在没有[Target Premium许可证](/help/main/c-intro/intro.md#premium)的[!DNL Target Standard]中不包括它。
 
 1. 单击&#x200B;**[!UICONTROL Activities]**，从列表中单击所需的[!UICONTROL Automated Personalization]活动，然后单击&#x200B;**[!UICONTROL Reports]**&#x200B;选项卡。
 
@@ -37,11 +45,11 @@ ht-degree: 10%
 
 [!UICONTROL Activity Level]报表将使用[!UICONTROL Automated Personalization]算法的聚合性能与随机提供的内容（控制）进行比较。
 
-用于解释 A/B 测试结果的标准规则仍然适用，包括提升度、置信度、趋势、持续时间等。有关解释结果的更多信息，请参阅[A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)。
+用于解释 A/B 测试结果的标准规则仍然适用，包括提升度、置信度、趋势、持续时间等。 有关解释结果的更多信息，请参阅[A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)。
 
 ## 选件级别报表 {#section_CAA6409879E349C6906E2BE8156D87A1}
 
-随机林体验的[!UICONTROL Offer Level]报表将比较每个算法应用的选件与同一随机提供的选件（控制）的性能。 因此，这种观点不应将优惠相互进行比较。
+随机林体验的[!UICONTROL Offer Level]报表将比较每个算法应用的选件与同一随机提供的选件（控制）的性能。 由此可见，此视图不会对选件进行相互比较。
 
 单击体验算法（随机林或控制）以查看[!UICONTROL Offer Level]报表。
 

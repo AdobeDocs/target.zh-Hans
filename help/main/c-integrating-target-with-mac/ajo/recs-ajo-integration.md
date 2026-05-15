@@ -1,17 +1,25 @@
 ---
 keywords: ajo；adobe journey optimizer；adobe journey optimizer target集成；推荐；target推荐；集成
 description: 将 [!DNL Adobe Target Recommendations] 与 [!DNL Adobe Journey Optimizer]集成。
-title: 如何在使用 [!DNL Target Recommendations] 的客户历程中使用 [!DNL Adobe Journey Optimizer]？
+title: 如何在使用 [!DNL Adobe Journey Optimizer]的客户历程中使用 [!DNL Target Recommendations] ？
 feature: Integrations
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/JA--Ll80bDZwn9WtGqIb-z3YxyJLOvOYPzuhZeKA17w
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 1%
+source-wordcount: 633
+ht-degree: 2%
 
 ---
 
@@ -25,7 +33,7 @@ ht-degree: 1%
 
 要使用[!DNL Target Recommendations]和[!DNL Adobe Journey Optimizer]集成，您需要以下各项：
 
-* 使用[[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium)Adobe Experience Platform Web SDK[实现的](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}。
+* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}实现的[[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium)。
 
   此功能在[!DNL Target Standard]许可证中或者使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时不可用。
 

@@ -6,9 +6,17 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 482d3aa3345eb8e6ad4db4d10f9bcf883d6aba82
+TQID: https://experienceleague.adobe.com/ERpNwQPsIRBmU0vTZbGa-lYg30BYl-uJxA8UT0f6060
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: 492
 ht-degree: 21%
 
 ---
@@ -21,7 +29,7 @@ ht-degree: 21%
 
 在AP活动中的不同位置使用选件库中的选件时，请防止重复这些选件。
 
-例如，在您的一个活动中，一个页面上可能有 6 个位置和 12 个选件。活动中的多个位置可能存在相同的选件。通过此功能，您可以防止在同一活动内的不同位置同时显示重复的选件。
+例如，在您的一个活动中，一个页面上可能有 6 个位置和 12 个选件。 活动中的多个位置可能存在相同的选件。 通过此功能，您可以防止在同一活动内的不同位置同时显示重复的选件。
 
 1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)时，单击&#x200B;**[!UICONTROL Configure]**&#x200B;图标（![配置图标](/help/main/assets/icons/Setting.svg) ）>单击&#x200B;**[!UICONTROL Allow Duplicate Offers]**&#x200B;以根据您的需求打开和关闭此功能。
 
@@ -49,7 +57,7 @@ ht-degree: 21%
 
 有时，您可能不希望将默认内容包含在AP活动中。 您可以使用此方法在一个位置中只有一个选件（与默认内容不同）作为活动的一部分。
 
-排除默认内容是一种非常有用的方法，可用于更改页面上其余内容的外观，以使其符合您在 AP 活动中所测试的产品建议。例如，假设您想要匹配所测试选件的调色板，则可以更改页面的背景颜色并排除默认的背景颜色。
+排除默认内容是一种非常有用的方法，可用于更改页面上其余内容的外观，以使其符合您在 AP 活动中所测试的产品建议。 例如，假设您想要匹配所测试选件的调色板，则可以更改页面的背景颜色并排除默认的背景颜色。
 
 **使用[!UICONTROL Visual Experience Composer] (VEC)排除默认内容：**
 

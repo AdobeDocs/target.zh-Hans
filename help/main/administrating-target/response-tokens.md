@@ -5,10 +5,32 @@ title: 什么是响应令牌？如何使用它们？
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: a1617f64f0633a87ea4c1f8e5104a1d177df04e2
+TQID: https://experienceleague.adobe.com/Fm2VW0HmAPjf0ZCDawI-s1nPl3c-wjU-evhq-tSAKqA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 24%
+source-wordcount: 1749
+ht-degree: 22%
 
 ---
 
@@ -28,8 +50,8 @@ ht-degree: 24%
 
 | 定位SDK | 建议的操作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank} | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版Platform Web SDK的信息，请参阅[Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans){target=_blank}指南中的&#x200B;*安装SDK*。 有关每个版本的Platform Web SDK中新功能的信息，请参阅[Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans)指南中的&#x200B;*发行说明*。 |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank} | 确保您使用的是 at.js 版本 1.1 或更高版本。有关下载最新版本 at.js 的信息，请参阅[下载 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=zh-Hans){target=_blank}。有关每个 at.js 版本新功能的信息，请参阅 [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=zh-Hans){target=_blank}。<br>我们鼓励使用 at.js 的客户使用响应令牌而不是插件。某些插件依赖的内部方法在mbox.js中存在（现已弃用），但在at.js中不存在；这些插件虽然可以交付，但却会失败。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank} | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版Platform Web SDK的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans){target=_blank}。 有关每个版本的Platform Web SDK中新功能的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans)。 |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank} | 确保您使用的是 at.js 版本 1.1 或更高版本。 有关下载最新版本 at.js 的信息，请参阅[下载 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}。 有关每个at.js版本中新增功能的信息，请参阅[at.js版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。<br>我们鼓励使用at.js的客户使用响应令牌而不是插件。 某些插件依赖的内部方法在mbox.js中存在（现已弃用），但在at.js中不存在；这些插件虽然可以交付，但却会失败。 |
 
 ## 使用响应令牌 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,8 +59,8 @@ ht-degree: 24%
 
    有关更多信息：
 
-   * **Platform Web SDK**：请参阅[Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans)指南中的&#x200B;*安装SDK*。
-   * **at.js**：请参阅[下载at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=zh-Hans){target=_blank}。
+   * **Platform Web SDK**：请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans)。
+   * **at.js**：请参阅[下载at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}。
 
 1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**。
 
@@ -48,7 +70,7 @@ ht-degree: 24%
 
    | 类型 | 参数 | 注释 |
    |--- |--- |--- |
-   | 内置轮廓 | `profile.activeActivities` | 返回该访客符合条件的 `activityIds` 数组。它会随着符合条件的用户数量的增加而递增。例如，在包含两个交付两个不同活动的[!DNL Target]请求的页面上，第二个请求包含这两个活动。 |
+   | 内置轮廓 | `profile.activeActivities` | 返回该访客符合条件的 `activityIds` 数组。 它会随着符合条件的用户数量的增加而递增。 例如，在包含两个交付两个不同活动的[!DNL Target]请求的页面上，第二个请求包含这两个活动。 |
    |  | `profile.isFirstSession` | 返回“true”或“false”。 |
    |  | `profile.isNewSession` | 返回“true”或“false”。 |
    |  | `profile.daysSinceLastVisit` | 返回自该访客上次访问后已过的天数。 |
@@ -57,7 +79,7 @@ ht-degree: 24%
    |  | `profile.thirdPartyId` | 返回访客的第三方 ID。 |
    |  | `profile.categoryAffinity` | 返回访客最喜欢的类别。 |
    |  | `profile.categoryAffinities` | 将该访客排名前 5 的类别的数组作为字符串返回。 |
-   | 活动 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 当前活动的详细信息。<br>请注意，优惠参数的值是在体验级别上评估的。 |
+   | 活动 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 当前活动的详细信息。<br> 请注意，选件参数的值在体验级别进行评估。 |
    | 地域 | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 请参阅[地域](/help/main/c-target/c-audiences/c-target-rules/geo.md)以了解在活动中使用地域定位的详细信息。 |
    | 流量分配方法<br>（仅适用于[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动。） | `experience.trafficAllocationId` | 如果访客因处于“control”流量中而获得体验，则返回0；如果访客从“targeted”流量分配获得体验，则返回1。 |
    |  | `experience.trafficAllocationType` | 返回“control”或“targeted”。 |
@@ -66,7 +88,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >包含特殊字符的参数不会显示在列表中。只支持字母数字字符和下划线。
+   >包含特殊字符的参数不会显示在列表中。 只支持字母数字字符和下划线。
 
 1. （视情况而定）要将配置文件参数用作响应令牌，但该参数尚未通过[!DNL Target]请求传递，因此尚未加载到[!DNL Target] UI中，您可以使用[!UICONTROL Add Response Token]按钮将该配置文件添加到UI。
 
@@ -76,7 +98,7 @@ ht-degree: 24%
 
 ## 侦听响应并读取响应令牌
 
-根据您是[!DNL Target]还是at.js实施，用于侦听[!DNL Platform Web SDK]响应和读取响应令牌的进程会有所不同。
+根据您是[!DNL Platform Web SDK]还是at.js实施，用于侦听[!DNL Target]响应和读取响应令牌的进程会有所不同。
 
 ### 使用Handle对象类的![Adobe Experience Platform Web SDK徽章](/help/main/assets/platform.png) [!DNL Platform Web SDK] {#platform-web-sdk}
 
@@ -147,7 +169,7 @@ ht-degree: 24%
 
 ### 使用自定义事件的![at.js徽章](/help/main/assets/atjs.png) at.js
 
-使用[at.js自定义事件](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=zh-Hans){target=_blank}监听[!DNL Target]响应并读取响应令牌。
+使用[at.js自定义事件](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank}监听[!DNL Target]响应并读取响应令牌。
 
 以下代码示例可将一个 [!DNL at.js] 自定义事件处理程序直接添加到 HTML 页面：
 
@@ -202,13 +224,13 @@ ht-degree: 24%
 
 **如果响应令牌使用已删除的配置文件脚本或配置文件参数，它是否仍会交付内容？**
 
-响应令牌从用户配置文件中提取信息，然后交付该信息。如果删除配置文件脚本或参数，并不意味着该信息已从用户配置文件中删除。用户配置文件仍然具有与配置文件脚本对应的数据。 响应令牌将继续交付内容。 对于未在配置文件中保存该信息的用户或者新访客，不会交付该令牌，因为数据不存在于其配置文件中。
+响应令牌从用户配置文件中提取信息，然后交付该信息。 如果删除配置文件脚本或参数，并不意味着该信息已从用户配置文件中删除。 用户配置文件仍然具有与配置文件脚本对应的数据。 响应令牌将继续交付内容。 对于未在配置文件中保存该信息的用户或者新访客，不会交付该令牌，因为数据不存在于其配置文件中。
 
 [!DNL Target]不会自动关闭令牌。 如果您要删除配置文件脚本并且不再希望交付该令牌，则必须自行关闭该令牌。
 
 **我重命名了我的配置文件脚本，但为什么使用该脚本的令牌仍使用旧名称？**
 
-如上所述，响应令牌处理的是为用户保存的配置文件信息。即使您重命名了配置文件脚本，但访问过您网站的用户会在其配置文件中保存旧的配置文件脚本值。 令牌会继续选取已保存在用户配置文件中的旧值。 如果您现在想要以新名称交付内容，则必须关闭以前的令牌，然后打开新令牌。
+如上所述，响应令牌处理的是为用户保存的配置文件信息。 即使您重命名了配置文件脚本，但访问过您网站的用户会在其配置文件中保存旧的配置文件脚本值。 令牌会继续选取已保存在用户配置文件中的旧值。 如果您现在想要以新名称交付内容，则必须关闭以前的令牌，然后打开新令牌。
 
 **如果我的属性已更改，何时将其从列表中移除？**
 

@@ -5,9 +5,15 @@ title: 如何配置报表设置？
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1795
@@ -235,8 +241,8 @@ ht-degree: 48%
 默认的图形绘制顺序如下：
 
 * **[!UICONTROL A/B Test]（包括[!UICONTROL Auto-Allocate]和[!UICONTROL Automated Personalization]）**：体验创建的顺序（按降序排列）。
-* **[!UICONTROL Experience Targeting](XT)**：活动中的体验顺序。
-* **[!UICONTROL Multivariate Test](MVT)**：按体验名称的字母顺序。
+* **[!UICONTROL Experience Targeting] (XT)**：活动中的体验顺序。
+* **[!UICONTROL Multivariate Test] (MVT)**：按体验名称的字母顺序。
 * **[!UICONTROL Recommendations]**：体验创建的顺序（按降序排列）。
 
 在使用[!UICONTROL Counting Methodology]选项时，请考虑以下注意事项：

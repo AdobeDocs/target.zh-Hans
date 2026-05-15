@@ -5,10 +5,26 @@ title: 可在何处找到优化和个性化问题的答案？
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2806
@@ -149,7 +165,7 @@ ht-degree: 51%
 **我是否可以安排在固定时间开始和结束活动？**
 
 +++查看详细信息
-使用三步活动工作流的[!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步骤中的[计划功能，指定开始日期和结束日期。
+使用三步活动工作流的[!UICONTROL Goals & Settings][&#128279;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)步骤中的计划功能，指定开始日期和结束日期。
 
 请记住激活该活动。 只有实时活动才遵守指定的计划。 达到结束日期后，活动将进入[!UICONTROL Ended]状态。
 
@@ -289,7 +305,7 @@ ht-degree: 51%
 **我有多个域。 其中一个域需要启用[!UICONTROL Enhanced Experience Composer]，而其他域需要禁用它。 我该如何处理？**
 
 +++查看详细信息
-您始终可以使用活动级别](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的[增强型体验编辑器选项来覆盖默认设置([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer])。
+您始终可以使用活动级别[&#128279;](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)的增强型体验编辑器选项来覆盖默认设置([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer])。
 
 +++
 
@@ -418,7 +434,7 @@ ht-degree: 51%
 **我可以更改用于评估报表的控制体验，或将计数方法从[!UICONTROL Visitors]更改为[!UICONTROL Visits]吗？**
 
 +++查看详细信息
-使用](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮[可进行这些更改。 阅读更多有关这些设置的信息，了解计算结果的差异。
+使用[&#128279;](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)报表页面上的“设置”齿轮可进行这些更改。 阅读更多有关这些设置的信息，了解计算结果的差异。
 
 +++
 

@@ -5,8 +5,11 @@ title: 浏览[!UICONTROL Offers]库中的内容管理
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 TQID: https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 709
@@ -50,7 +53,7 @@ ht-degree: 12%
    * 下载：下载文件夹及其内容。
    * 复制：复制文件夹及其内容。
    * 移动：单击&#x200B;**[!UICONTROL Move]**&#x200B;图标；保留文件夹相同名称，或对其进行重命名；单击&#x200B;**[!UICONTROL Select Destination]**&#x200B;以选择要将文件夹移动到的位置，然后单击&#x200B;**[!UICONTROL Move]**。
-   * 删除（请参阅删除项](#delete)时的[注意事项。）
+   * 删除（请参阅删除项[&#128279;](#delete)时的注意事项。）
 
 * **选件**：选择一个或多个要对其执行以下操作：
 

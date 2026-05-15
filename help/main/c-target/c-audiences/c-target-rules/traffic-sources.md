@@ -5,9 +5,12 @@ title: 我可以根据搜索引擎或反向链接网站定位访客吗？
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 TQID: https://experienceleague.adobe.com/rRGb2gG1f43Y3lapuZlQMdVYx7cc-fe1IMCjLS2km5I
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 240
@@ -24,7 +27,7 @@ ht-degree: 53%
 您可以组合多个流量源来创建一个复杂的目标规则。
 
 1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
-1. 
+1. &#x200B;
    1. 命名受众并添加可选描述。
 1. 将&#x200B;**[!UICONTROL Traffic Sources]**&#x200B;拖放到受众生成器窗格中。
 

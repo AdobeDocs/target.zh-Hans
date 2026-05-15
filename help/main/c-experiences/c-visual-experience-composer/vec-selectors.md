@@ -5,8 +5,12 @@ title: 我可以在可视化体验编辑器(VEC)中使用元素选择器吗？
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
 TQID: https://experienceleague.adobe.com/sqvUyLFddt7HPHH62jwpOZmwTIMSg-hyLIUr8w-x7vg
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 444
@@ -28,7 +32,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->元素类在[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]和[!UICONTROL  Multivariate Test]活动中可用作选择器。
+>元素类在[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]和[!UICONTROL &#x200B; Multivariate Test]活动中可用作选择器。
 
 有关何时使用 CSS 选择器以及何时使用唯一 ID 的信息，请参阅[可视化体验编辑器最佳实践和限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
 

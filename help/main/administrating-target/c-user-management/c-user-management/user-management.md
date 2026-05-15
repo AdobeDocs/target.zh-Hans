@@ -6,11 +6,22 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 TQID: https://experienceleague.adobe.com/DdNQ81TpmyIRuPkmy4OIOq43CXwaMtm-uH2HtPjdx10
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: cd7b6938-5837-4ee0-9790-5840997133d9id: cf6b8469-14d0-4c0e-90ee-fb54066a035eid: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4bea
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: cd7b6938-5837-4ee0-9790-5840997133d9
+  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 873
@@ -28,7 +39,7 @@ ht-degree: 61%
 >
 >您可以通过单击[!DNL Target] UI顶部的[!UICONTROL Administration]链接来判断贵组织是拥有[!UICONTROL Standard]许可证还是拥有[!UICONTROL Premium]许可证。
 >
->* **[!DNL Target][!UICONTROL Standard]客户**：如果您看到[!UICONTROL Users]选项卡([!UICONTROL Administration > Users])（而不是&#x200B;**[!UICONTROL Properties]**&#x200B;选项卡），则表明贵组织拥有[!DNL Target] [!UICONTROL Standard]许可证。[!DNL Target] [!UICONTROL Standard]客户应按照本文中的相关说明进行操作，以在[!DNL Adobe Admin Console]中添加用户和分配权限。
+>* **[!DNL Target]&#x200B;[!UICONTROL Standard]客户**：如果您看到[!UICONTROL Users]选项卡([!UICONTROL Administration > Users])（而不是&#x200B;**[!UICONTROL Properties]**&#x200B;选项卡），则表明贵组织拥有[!DNL Target] [!UICONTROL Standard]许可证。[!DNL Target] [!UICONTROL Standard]客户应按照本文中的相关说明进行操作，以在[!DNL Adobe Admin Console]中添加用户和分配权限。
 >
 >* **[!DNL Target]Premium客户**：如果您看到[!UICONTROL Users]选项卡和[!UICONTROL Properties]选项卡([!UICONTROL Administration > Properties])，则表明贵组织拥有[!DNL Target] Premium许可证。[!DNL Target] Premium客户应按照[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)和[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)中的说明进行操作，以在[!DNL Adobe Admin Console]中添加用户和分配权限。
 >

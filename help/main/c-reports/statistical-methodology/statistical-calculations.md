@@ -5,8 +5,11 @@ title: 如何了解[!UICONTROL A/B Test]活动中使用的统计计算？
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
 TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1137
@@ -102,7 +105,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-此计算使用“Delta”方法，并在本文档](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了[
+此计算使用“Delta”方法，并在本文档[&#128279;](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了
 
 ## [!UICONTROL Confidence]
 

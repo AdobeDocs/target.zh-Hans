@@ -6,9 +6,13 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 TQID: https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2643
@@ -125,7 +129,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 >
 >不需要使用[!DNL Google]数据。 [!DNL Recommendations]使用与[!DNL Google]相同的格式。 您可以使用此方法上传您的任何数据，并且还可以使用可用的计划功能。 但是，在设置文件时，必须保留[!DNL Google]预定义属性名称。
 
-大多数零售商会将产品上传到[!DNL Google]，因此当访客使用[!DNL Google]产品搜索时，会显示其产品。 [!DNL Recommendations]完全遵循实体源的[!DNL Google]规范。 实体源可以通过.xml、.txt或.tsv发送到[!DNL Recommendations]，并且可以使用Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定义的[属性。 结果可在[[!DNL Google] 购物页面](https://www.google.com/prdhp)上搜索。
+大多数零售商会将产品上传到[!DNL Google]，因此当访客使用[!DNL Google]产品搜索时，会显示其产品。 [!DNL Recommendations]完全遵循实体源的[!DNL Google]规范。 实体源可以通过.xml、.txt或.tsv发送到[!DNL Recommendations]，并且可以使用Google[&#128279;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US)定义的属性。 结果可在[[!DNL Google] 购物页面](https://www.google.com/prdhp)上搜索。
 
 >[!NOTE]
 >

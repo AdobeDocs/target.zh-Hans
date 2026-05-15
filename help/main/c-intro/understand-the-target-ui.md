@@ -124,7 +124,7 @@ ht-degree: 23%
 
 主动公告提醒您发生断电事件和维护事件。
 
-在[Adobe Status](https://status.adobe.com/)页面上可找到更深入的信息。
+在[Adobe Status](https://status.adobe.com/zh-cn/)页面上可找到更深入的信息。
 
 ### 配置通知和公告
 

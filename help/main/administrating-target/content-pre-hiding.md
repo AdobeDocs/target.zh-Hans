@@ -6,9 +6,9 @@ feature: Administration & Configuration
 role: Admin
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 hide: true
-source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
+source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '576'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 1. 单击 **[!UICONTROL Save]**。 这会将闪烁管理设置应用于您的实例。
 
-1. 启用后，单击&#x200B;**[!UICONTROL Download]**，然后将文件添加到页面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前加载。
+1. 启用后，单击&#x200B;**[!UICONTROL Download]**，然后将文件添加到页面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前加载。 有关完整的实施说明，请参阅[内容预隐藏SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)。
 
    ![](assets/content-pre-hiding-2.png)
 

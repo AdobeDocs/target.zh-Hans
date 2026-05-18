@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 从业者指南
 breadcrumb-title: Target 指南
 user-guide-description: 了解如何在网站、应用程序和社交渠道中个性化客户体验，从而提升营收。
 feature-set: Target
-source-git-commit: 6bea471b0dcf99a77d3b2350a89bcc069062de19
+source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 83%
 
 ---
@@ -58,6 +58,7 @@ ht-degree: 83%
       + [预计收入提升](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Scene7 配置](administrating-target/scene7-settings.md)
    + [实施](/help/main/administrating-target/implementation.md)
+   + {hide-from-toc}[内容预隐藏](administrating-target/content-pre-hiding.md)
    + [主机](administrating-target/hosts.md)
    + [环境](/help/main/administrating-target/environments.md)
    + [响应令牌](administrating-target/response-tokens.md)

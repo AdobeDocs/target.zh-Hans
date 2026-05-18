@@ -8,16 +8,16 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Target] MCP服务器 {#target-mcp}
 
-[!DNL Adobe Target] MCP集成允许您直接从AI助手检查和分析A/B测试、个性化活动和推荐标准。 将[!DNL Target]的试验数据和个性化数据转换为纯语言的工作流 — 审核您的试验组合、审查性能报告并浏览受众和选件，而无需导航UI或编写API调用。
+[!DNL Adobe Target] MCP集成允许您直接从AI助手检查和分析A/B测试和个性化活动。 将[!DNL Target]的试验数据和个性化数据转换为纯语言的工作流 — 审核您的试验组合、审查性能报告并浏览受众和选件，而无需导航UI或编写API调用。
 
 >[!AVAILABILITY]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 营销和优化团队越来越依赖基于聊天的应用程序和开发人员工具（如Anthropic Claude、OpenAI ChatGPT、Cursor和Microsoft Copilot Studio）来简化日常工作。 这些应用程序支持&#x200B;**模型上下文协议(MCP)**，这是一个开放标准，允许应用程序以统一的方式向大型语言模型(LLM)公开后端工具。
 
-[!DNL Adobe Target]现在提供了一个MCP服务器，它可以在任何与MCP兼容的应用程序中直接显示实验、个性化和推荐操作。 [!DNL Adobe Target]充当决策和执行层，而AI助手处理推理和解释，使团队无需导航多个产品屏幕或针对[!DNL Adobe Target] REST API编写查询，即可更快地访问优化见解。
+[!DNL Adobe Target]现在提供了一个MCP服务器，该服务器直接在任何与MCP兼容的应用程序中呈现实验和个性化操作。 [!DNL Adobe Target]充当决策和执行层，而AI助手处理推理和解释，使团队无需导航多个产品屏幕或针对[!DNL Adobe Target] REST API编写查询，即可更快地访问优化见解。
 
 
 >[!IMPORTANT]
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 ## 主要功能 {#mcp-capabilities}
 
-[!DNL Adobe Target] MCP服务器提供对活动、受众、选件、推荐和实施配置的读取访问权限。 通过集成，您可以：
+[!DNL Adobe Target] MCP服务器提供对活动、受众、选件和实施配置的读取访问权限。 通过集成，您可以：
 
 * **检查和审核实验** — 获取任何活动的状态、性能、更改历史记录和QA预览链接，而无需浏览UI。
 * **分析结果** — 检索A/B、XT、AP和自动定位活动的性能、收入和A4T报表。
 * **浏览活动** — 列出、检查和分析A/B和XT活动。
 * **浏览受众和选件** — 列出和检查受众、HTML选件和JSON选件。
-* **浏览推荐标准** — 列出并检查标准和基于购物车的算法。
+<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
 * **审核实施** — 查看at.js设置、响应令牌和每个实体的修订历史记录。
 
 >[!NOTE]
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 +++我可以通过MCP访问哪些[!DNL Adobe Target]对象？
 
-您可以访问活动(A/B、XT、AP)、受众、选件、属性、mbox、推荐标准、响应令牌、at.js配置、A4T报表和实体修订历史记录。 当前可用的所有23种工具均为只读。
+您可以访问活动(A/B、XT、AP)、受众、选件、属性、mbox、响应令牌、at.js配置、A4T报表和实体修订历史记录。 当前可用的所有23种工具均为只读。
 +++
 
 +++MCP服务器是否可以创建或修改活动？

@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '517'
 ht-degree: 1%
 
 ---
@@ -44,8 +44,8 @@ ht-degree: 1%
 | **活动分析** | “了解我的‘夏季促销横幅’测试 — 性能是什么样的，是否存在任何异常？” |
 | **受众管理** | “列出所有以移动用户为目标的受众，并向我展示他们关联的活动。” |
 | **QA和预览** | “为活动12345生成QA预览URL，以便我可以在激活之前查看所有变体。” |
-| **推荐审核** | “列出此帐户中配置的所有推荐标准，并汇总正在使用的算法类型。” |
-| **实施审核** | “配置的at.js版本以及当前活动的响应令牌是什么？” |
+<!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
+| **实施审核** |“配置了什么版本的at.js，哪些响应令牌当前处于活动状态？” |
 | **更改审核** | “向我显示过去30天内对活动98765所做的所有更改以及谁进行了更改。” |
 
 ## 用例演练 {#mcp-use-case-walkthroughs}

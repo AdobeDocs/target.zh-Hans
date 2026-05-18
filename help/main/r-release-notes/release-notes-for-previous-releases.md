@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
 workflow-type: tm+mt
-source-wordcount: 68187
+source-wordcount: 68360
 ht-degree: 50%
 
 ---
@@ -57,6 +57,48 @@ ht-degree: 50%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 — 2026
+
+## [!DNL Target Standard/Premium] 26.5.1（2026年5月7日）
+
+**集成**
+
++++查看详细信息
+
+* Experimentation Accelerator中的&#x200B;**[!DNL Adobe Target]管理。** 添加了对将[!DNL Target]工作区分配给Experimentation Accelerator沙盒的支持，以便团队可以在Experimentation Accelerator中一个位置查看来自[!DNL Adobe Target]的试验。 [了解详情](../c-integrating-target-with-mac/experimentation-accelerator.md)
+
++++
+
+**活动**
+
++++查看详细信息
+
+* **[!UICONTROL Graph View]与表和下载不同步。** 修复了以下问题：对于某些日期范围，活动报表在&#x200B;**[!UICONTROL Graph View]**&#x200B;中可能显示缺失或零量度，即使&#x200B;**[!UICONTROL Table View]**&#x200B;并且下载的报表仍显示正确的值。 (TGT-54998)
+
++++
+
+**[!UICONTROL Audiences]**
+
++++查看详细信息
+
+* **受众使用情况列表未完全呈现。** 修复了受众详细信息中的&#x200B;**[!UICONTROL Usage]**&#x200B;部分只能显示映射活动的子集的问题，即使其他活动与该受众关联也是如此。 (TGT-55094)
+
++++
+
+**[!UICONTROL Administration]**
+
++++查看详细信息
+
+* **对最后一个八位字节IP模糊化的确认更清晰。** 当您在&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**&#x200B;上将&#x200B;**[!UICONTROL Obfuscate Visitor IP addresses]**&#x200B;更改为&#x200B;**[!UICONTROL Last octet]**&#x200B;时，确认对话框现在会说明[!DNL Target]隐藏访客IP地址的最后八位字节。 (TGT-44821)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++查看详细信息
+
+* 使用增强型体验编辑器(EEC) **空白或不完整的页面。** 修复了在启用&#x200B;**[!UICONTROL Enhanced Experience Composer]**&#x200B;时，[!UICONTROL Visual Experience Composer]无法在编辑器中加载网站的问题。 (TGT-54576)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.4.4（2026年4月28日）
 

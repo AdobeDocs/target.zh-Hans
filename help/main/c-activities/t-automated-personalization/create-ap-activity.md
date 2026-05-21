@@ -2,25 +2,17 @@
 keywords: 自动个性化；ap
 description: 了解如何使用[!UICONTROL Visual Experience Composer]创建[!UICONTROL Automated Personalization] (AP)活动。
 title: 如何创建[!UICONTROL Automated Personalization]活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 TQID: https://experienceleague.adobe.com/5eUFwob4BekIJP4SM2lrSDQam4h1AXIByJjM7-1RNL8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1873
-ht-degree: 23%
+source-wordcount: 1856
+ht-degree: 22%
 
 ---
 
@@ -29,6 +21,16 @@ ht-degree: 23%
 使用[!UICONTROL Visual Experience Composer] (VEC)在[!DNL Adobe Target]中创建[!UICONTROL Automated Personalization] (AP)活动。
 
 [!DNL Target]中的[!UICONTROL Automated Personalization] (AP)活动工作流与其他活动类型的工作流有所不同。
+
+此过程遵循[!UICONTROL Visual Experience Composer]中的三步引导式工作流：
+
+1. [步骤1：构建体验](#build-experiences)
+1. [步骤2：设置定位](#set-targeting)
+1. [步骤3：配置目标和设置](#configure-goals-and-settings)
+
+## 步骤1：构建体验 {#build-experiences}
+
+定义[!UICONTROL Automated Personalization]可个性化的内容变体池。 您的体验和选件越丰富、越清晰，算法就越能更好地将正确的内容与每位访客匹配。
 
 1. 从[!DNL Target] [!UICONTROL Activities]列表中，单击&#x200B;**[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**。
 
@@ -86,17 +88,11 @@ ht-degree: 23%
 
 1. 单击&#x200B;**[!UICONTROL Manage Content]**&#x200B;图标（![管理内容图标](/help/main/assets/icons/Experience.svg)）以配置可用的组合。
 
-   此时将显示一个对话框，屏幕顶部有两个选项： [!UICONTROL Experiences]和[!UICONTROL Offers]。
+   将显示一个对话框，其中包含两个选项卡：[!UICONTROL Experiences]和[!UICONTROL Offers]。 [!UICONTROL Experiences]选项卡列出了每项内容及其分配到的位置。 要排除一个或多个体验，请选中相应的复选框并单击[!UICONTROL Exclude]图标。 有关更多选项，请参阅[管理排除项](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)。
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >尽管您在AP活动中最多可以创建30,000个体验，但只有当使用的体验少于5,000个时，活动效果才会最佳。 即使活动启用了[!UICONTROL Disalow Duplicates]选项，也应用同样的限制。
-
-   [!UICONTROL Experiences]列表显示了为活动选择的每个内容块以及该活动被分配到的位置。
-
-   您可以通过选中所需体验旁边的复选框，然后单击[!UICONTROL Exclude]图标来排除特定体验。
-
-   您可以批量排除或包含体验，方法是选中相关体验的复选框，然后单击[!UICONTROL Exclude]图标。
+   >**最佳实践：**&#x200B;为获得最佳性能，请将[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动限制为4-6个位置，每个位置具有4-6个选件。 体验的总数因位置和选件的笛卡尔组合而增加。 配置越大，在[!UICONTROL Visual Experience Composer]中加载或编辑的速度就越慢。 将总体验保留在5,000个以下以获得最佳结果；硬限制为30,000 （启用[!UICONTROL Disallow Duplicates]选项时适用相同限制）。
 
 1. （视情况而定）单击&#x200B;**[!UICONTROL Offers]**&#x200B;以选择内容片段并将其分配给报表组，或只允许特定访客查看特定具有定位的选件。
 
@@ -116,35 +112,21 @@ ht-degree: 23%
 
 1. 完成活动内容的设置后，单击&#x200B;**[!UICONTROL Done]**。
 
+## 步骤2：设置定位 {#set-targeting}
+
+确定哪些访客进入活动以及您的流量暴露了多少。 将它们与对照组配对，以便[!DNL Target]可以测量个性化交付的提升度。
+
 1. 单击[!UICONTROL Visual Experience Composer]顶部的&#x200B;**[!UICONTROL Targeting]**&#x200B;以进入三步引导式工作流中的下一个步骤。
 
    如果您使用过其他[!DNL Target]活动类型，则&#x200B;**定位**&#x200B;步骤看起来会很熟悉。 在此步骤中，您可以选择受众，并指定查看每个体验的访客百分比。
 
-   此时会打开流程图。
+1. 流程图会引导您完成以下步骤：分配受众及其流量百分比，选择流量分配方法，以及指定活动中每个体验的流量分配。
 
    ![AP测试定位步骤](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
 
-   流程图会引导您完成以下步骤：分配受众及其流量百分比，选择流量分配方法，以及指定活动中每个体验的流量分配。
+1. （视情况而定）单击&#x200B;**[!UICONTROL All Visitors]**&#x200B;控件以[为活动选择其他受众](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)并设置其访客百分比。
 
-1. （视情况而定）单击&#x200B;**[!UICONTROL All Visitors]**&#x200B;控件以选择该活动的其他受众。
-
-   [!UICONTROL All Visitors]受众设置为默认受众。 如果选择其他受众，则其名称将显示在最左侧的控件中。
-
-   此时将显示正确的框架，您可以在其中添加或删除受众，并分配活动的访客百分比。
-
-   1. 要更改受众，请单击右框架中的&#x200B;**[!UICONTROL Replace]图标** （ ![替换图标](/help/main/assets/icons/Retweet.svg) ）。
-   1. 在[!UICONTROL Add Audience]对话框中，[选择所需的受众](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)，然后单击&#x200B;**[!UICONTROL Assign Audience]**。
-
-      您可以单击&#x200B;**合并受众**&#x200B;到[创建合并多个受众的受众](/help/main/c-target/combining-multiple-audiences.md)。
-
-      如果需要创建一个不在[!UICONTROL Audience Library]中的新受众，请单击&#x200B;**创建受众**。 在[创建受众工作流](/help/main/c-target/c-audiences/audiences.md)期间，您可以从以下选项中进行选择：
-
-      * **[!UICONTROL Audience Library]**：创建保存到[!UICONTROL Audience Library]的按需受众，该受众可在其他活动中重复使用。
-      * **[!UICONTROL This activity only]**：创建未保存到[!UICONTROL Audience Library]的[活动特定受众](/help/main/c-target/creating-activity-only-audience.md)，该受众只能用于当前活动。
-
-   1. 单击右框中的&#x200B;**[!UICONTROL Visitor Percentage]**，然后选择符合条件的访客您希望参加活动的百分比。
-
-   例如，您可以将准入资格限制为 50% 的访客或 45% 的“加州”受众。
+   [!UICONTROL All Visitors]受众设置为默认受众。 如果选择其他受众，则其名称显示在最左侧的控件中，例如，您可以将条目限制为所有访客的50%或“加利福尼亚人”受众的45%。
 
 1. 单击&#x200B;**[!UICONTROL Traffic Allocation]**&#x200B;控件以从以下选项中进行选择：
 
@@ -163,6 +145,10 @@ ht-degree: 23%
    >[!NOTE]
    >
    >在[!UICONTROL Automated Personalization]活动中，将评估每个请求的进入条件（URL定位、模板规则和受众目标）。 在以前的版本中，每个会话会评估一次参加标准。
+
+## 步骤3：配置目标和设置 {#configure-goals-and-settings}
+
+告诉[!DNL Target]成功是什么样的。 您选择的优化目标是个性化算法所针对的量度，因此请挑选对此活动最重要的结果。
 
 1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;以显示&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;页。
 1. 使用以下设置配置活动，然后单击&#x200B;**[!UICONTROL Save & Close]**。

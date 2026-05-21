@@ -2,28 +2,17 @@
 keywords: 自动定位；定位；流量分配；常见问题；faq；故障诊断；故障排除
 description: 了解[!UICONTROL Auto-Target]活动如何根据客户配置文件和类似访客的行为，为每位访客提供量身定制的体验。
 title: 什么是[!UICONTROL Auto-Target]活动？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 TQID: https://experienceleague.adobe.com/uKmfIlOcT-tZgOjuvERXuif-Y5-2Jw3prtPbuBjv1is
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-subfeature_v2:
-  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+subfeature_v2: id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1882
+source-wordcount: 1920
 ht-degree: 18%
 
 ---
@@ -62,6 +51,7 @@ ht-degree: 18%
 
 使用[!UICONTROL Auto-Target]时要记住以下重要注意事项：
 
+* 将[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动限制为4-6个位置，每个位置具有4-6个选件。 由于位置和选件的组合会增加体验的总数，因此较大的配置可能会导致[!UICONTROL Visual Experience Composer]中的加载或编辑速度缓慢。
 * 您不能将特定活动从[!UICONTROL Auto-Target]切换到[!UICONTROL Automated Personalization]，反之亦然。
 * 您无法从[!UICONTROL Manual]流量分配（传统[!UICONTROL A/B Test]）切换到[!UICONTROL Auto-Target]，而在将活动另存为草稿后，情况正好相反。
 * 我们构建了一个模型，用来识别个性化策略相对于随机提供流量的表现，以及如何将所有流量发送到整个入选体验。 此模型仅考虑默认环境中的点击和转化。

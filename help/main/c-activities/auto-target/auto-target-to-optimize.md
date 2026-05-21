@@ -21,9 +21,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1882
+source-wordcount: 1920
 ht-degree: 18%
 
 ---
@@ -62,6 +62,7 @@ ht-degree: 18%
 
 使用[!UICONTROL Auto-Target]时要记住以下重要注意事项：
 
+* 将[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动限制为4-6个位置，每个位置具有4-6个选件。 由于位置和选件的组合会增加体验的总数，因此较大的配置可能会导致[!UICONTROL Visual Experience Composer]中的加载或编辑速度缓慢。
 * 您不能将特定活动从[!UICONTROL Auto-Target]切换到[!UICONTROL Automated Personalization]，反之亦然。
 * 您无法从[!UICONTROL Manual]流量分配（传统[!UICONTROL A/B Test]）切换到[!UICONTROL Auto-Target]，而在将活动另存为草稿后，情况正好相反。
 * 我们构建了一个模型，用来识别个性化策略相对于随机提供流量的表现，以及如何将所有流量发送到整个入选体验。 此模型仅考虑默认环境中的点击和转化。

@@ -17,10 +17,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1967
-ht-degree: 21%
+source-wordcount: 2032
+ht-degree: 20%
 
 ---
 
@@ -52,6 +52,7 @@ ht-degree: 21%
 
 +++查看详细信息
 
+* 将[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动限制为4-6个位置，每个位置具有4-6个选件。 配置越大，在[!UICONTROL Visual Experience Composer]中加载或编辑的速度就越慢。
 * 如果要个性化低流量页面，或者要对要个性化的体验进行结构性更改，请考虑使用[!UICONTROL Auto-Target]活动代替[!UICONTROL Automated Personalization]。 请参阅[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 * 考虑在您计划于[!UICONTROL Automated Personalization]活动中使用的选件和位置之间完成一个[!UICONTROL A/B Test]活动，以确保位置和选件会对优化目标产生影响。 如果[!UICONTROL A/B Test]活动未能显示显着差异，[!UICONTROL Automated Personalization]可能也无法生成提升。
 
@@ -91,6 +92,8 @@ ht-degree: 21%
 [!DNL Target]具有30,000个体验的硬性限制，但在创建少于10,000个体验时它可以正常工作。
 
 即使活动启用了[!UICONTROL Disalow Duplicates]选项，也应用同样的限制。
+
+为获得最佳性能，请将[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动限制为4-6个位置，每个位置具有4-6个选件。 由于位置和选件的组合会增加体验的总数，因此较大的配置可能会导致[!UICONTROL Visual Experience Composer]中的加载或编辑速度缓慢。
 
 有关影响[!DNL Target]中活动和其他元素的字符限制和其他限制（选件大小、受众、配置文件、值、参数等）的更多信息，请参阅[限制](/help/main/r-troubleshooting-target/target-limits.md)。
 

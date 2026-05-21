@@ -5,16 +5,16 @@ title: 如何预览和启动“推荐”活动？
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1371'
 ht-degree: 15%
 
 ---
 
 # 预览和启动“推荐”活动
 
-在创建包含[!UICONTROL Recommendations]推荐选件[!UICONTROL A/B Test]的[!UICONTROL Experience Targeting]、[或](/help/main/c-recommendations/recommendations-as-an-offer.md) (XT)活动后，您需要预览您的推荐，以确保在启动活动之前结果可用。 [!DNL Target Recommendations]提供了多种预览推荐的方法。
+在创建包含[推荐选件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL Recommendations]、[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting] (XT)活动后，您需要预览您的推荐，以确保在启动活动之前结果可用。 [!DNL Target Recommendations]提供了多种预览推荐的方法。
 
 ## 检查推荐算法状态
 
@@ -40,15 +40,15 @@ ht-degree: 15%
 
 ### mboxes
 
-如果选择 mbox 作为行为数据源，则标准在创建后会立即运行。根据使用的行为数据量和目录的大小，算法可能需要长达 12 个小时才能运行。对标准配置进行更改通常会导致算法重新运行。根据所做的更改，之前计算的推荐可能在重新运行完成之前不可用，或者对于较大的更改，在重新运行完成之前，只有备份或默认内容可用。 如果未修改算法，则 [!DNL Target] 会根据所选的数据范围，每 12 到 48 小时自动重新运行该算法一次。
+如果选择 mbox 作为行为数据源，则标准在创建后会立即运行。 根据使用的行为数据量和目录的大小，算法可能需要长达 12 个小时才能运行。 对标准配置进行更改通常会导致算法重新运行。 根据所做的更改，之前计算的推荐可能在重新运行完成之前不可用，或者对于较大的更改，在重新运行完成之前，只有备份或默认内容可用。 如果未修改算法，则 [!DNL Target] 会根据所选的数据范围，每 12 到 48 小时自动重新运行该算法一次。
 
 ### [!DNL Adobe Analytics]
 
 如果标准使用 [!DNL Adobe Analytics] 作为行为数据源，则创建标准后，其可用性的时间取决于所选报表包和回顾窗口是否已用于任何其他标准。
 
-* **一次性报表包设置**：首次将报表包与给定数据范围回顾时间范围一起使用时，[!DNL Target Recommendations] 可能需要 2 到 7 天的时间才能从 [!DNL Analytics] 完全下载所选报表包的行为数据。此时间范围取决于 [!DNL Analytics] 系统负载。
+* **一次性报表包设置**：首次将报表包与给定数据范围回顾时间范围一起使用时，[!DNL Target Recommendations] 可能需要 2 到 7 天的时间才能从 [!DNL Analytics] 完全下载所选报表包的行为数据。 此时间范围取决于 [!DNL Analytics] 系统负载。
 * **使用已经可用的报表包新建或编辑标准**：在创建新标准或编辑现有标准时，如果所选报表包已与[!DNL Target Recommendations]一起使用，并且其数据范围等于或小于所选的数据范围，则数据立即可用，而无需一次性设置。 在这种情况下，或者如果在未修改所选报表包或数据范围的情况下对算法的设置进行编辑，则该算法将在 12 小时内运行或者重新运行。
-* **持续的算法运行**：数据每天从 [!DNL Analytics] 流向 [!DNL Target Recommendations]。例如，对于[!UICONTROL Viewed Affinity]推荐，当用户查看产品时，产品查看跟踪调用将以近实时的方式传递到[!DNL Analytics]。 [!DNL Analytics]数据会在第二天早些时候推送到[!DNL Target]，[!DNL Target]会在12小时内运行算法。
+* **持续的算法运行**：数据每天从 [!DNL Analytics] 流向 [!DNL Target Recommendations]。 例如，对于[!UICONTROL Viewed Affinity]推荐，当用户查看产品时，产品查看跟踪调用将以近实时的方式传递到[!DNL Analytics]。 [!DNL Analytics]数据会在第二天早些时候推送到[!DNL Target]，[!DNL Target]会在12小时内运行算法。
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ ht-degree: 15%
 
 ## 使用QA链接预览推荐
 
-在算法具有结果就绪后，您可以使用[的](/help/main/c-activities/c-activity-qa/activity-qa.md)QA链接[!DNL Adobe Target]功能预览这些结果。 QA链接在[!UICONTROL Activity Location]概述页面的[!UICONTROL Activity]部分可用：
+在算法具有结果就绪后，您可以使用[!DNL Adobe Target]的[QA链接](/help/main/c-activities/c-activity-qa/activity-qa.md)功能预览这些结果。 QA链接在[!UICONTROL Activity]概述页面的[!UICONTROL Activity Location]部分可用：
 
 >[!NOTE]
 >
@@ -91,6 +91,8 @@ ht-degree: 15%
 如果一行的第一个值是星号(*)，则表示[备份项](/help/main/c-recommendations/c-algorithms/backup-recs.md)。 如果不是算法（标准）的推荐项目可以填充设计中的所有版块，则会显示备用项目。
 
 对于基于键值的其他算法类型，如[!UICONTROL People Who Viewed This, Viewed That]，键值（即“此”项）将列在最左侧的列中，而推荐项（即“该”项）将按从左到右的顺序列在Recommendation_X列中。
+
+请注意，对于结果集非常大的活动，**[!UICONTROL Download data]**&#x200B;选项可能会失败，并出现错误`Error while fetching recommendation data file.`。当生成的CSV超过单次下载中可以通过用户界面返回的响应大小时，会发生这种情况。
 
 >[!NOTE]
 >

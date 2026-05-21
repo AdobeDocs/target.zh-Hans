@@ -11,10 +11,10 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 3467
-ht-degree: 82%
+source-wordcount: 3544
+ht-degree: 80%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 82%
 
 ## 我是否可以使用[!DNL Target] API管理[!DNL Target]个UI创建的可视化选件？
 
-否. 在[!DNL Target] UI中创建了可视化选件的[!DNL Recommendations]活动无法使用[!DNL Target] API进行管理。 尽管这些活动显示在[!UICONTROL Activities]列表中，但您无法读取或更新它们（使用GET/PUT）。
+否. 在[!DNL Target] UI中创建了可视化选件的[!DNL Recommendations]活动无法使用[!DNL Target] API进行管理。 虽然这些活动显示在[!UICONTROL Activities]列表中，但您无法读取或更新它们（使用GET/PUT）。
 
 ## 对具有数字值的自定义属性进行搜索时，为什么[!UICONTROL Catalog Search]不显示正确结果？
 
@@ -205,6 +205,12 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 ## 可用于信息源上传的 CSV 文件的最大大小是多少？ {#section_20F1AF4839A447B9889B246D6E873538}
 
 对于上传信息源的 CSV 文件，其行数或文件大小没有硬性限制。 但是，作为最佳实践，Adobe 建议将 CSV 文件的大小限制为最大 1 GB，以免在文件上传过程中失败。 如果文件大小超过 1 GB，则最好能将其拆分为多个信息源文件。 自定义属性列的最大数量为 100，自定义属性限制为 4,096 个字符。 可在 [[!DNL Target]  的“限制”页面](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)上找到针对所需列长度的其他限制。
+
+## 为什么我的[!UICONTROL Download data]操作在[!DNL Recommendations]活动中失败？ {#download-data-error}
+
+当您在[!DNL Recommendations]活动的[!UICONTROL Activity Overview]页面上单击&#x200B;**[!UICONTROL Download data]**&#x200B;时，[!DNL Target]用户界面可能会显示错误`Error while fetching recommendation data file.`
+
+当活动具有非常大的结果集时，通常会发生这种情况：生成的CSV超出了单次下载中可以通过用户界面返回的响应大小。 推荐数据本身是完整的，只有浏览器中的下载路径无法投放该大小的文件。
 
 ## 我可以动态排除实体吗？ {#exclude}
 

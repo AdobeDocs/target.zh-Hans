@@ -11,10 +11,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 1424
-ht-degree: 15%
+source-wordcount: 1462
+ht-degree: 14%
 
 ---
 
@@ -97,6 +97,8 @@ ht-degree: 15%
 如果一行的第一个值是星号(*)，则表示[备份项](/help/main/c-recommendations/c-algorithms/backup-recs.md)。 如果不是算法（标准）的推荐项目可以填充设计中的所有版块，则会显示备用项目。
 
 对于基于键值的其他算法类型，如[!UICONTROL People Who Viewed This, Viewed That]，键值（即“此”项）将列在最左侧的列中，而推荐项（即“该”项）将按从左到右的顺序列在Recommendation_X列中。
+
+请注意，对于结果集非常大的活动，**[!UICONTROL Download data]**&#x200B;选项可能会失败，并出现错误`Error while fetching recommendation data file.`。当生成的CSV超过单次下载中可以通过用户界面返回的响应大小时，会发生这种情况。
 
 >[!NOTE]
 >

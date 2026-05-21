@@ -17,10 +17,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 2032
-ht-degree: 20%
+source-wordcount: 2166
+ht-degree: 19%
 
 ---
 
@@ -52,7 +52,8 @@ ht-degree: 20%
 
 +++查看详细信息
 
-* 将[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动限制为4-6个位置，每个位置具有4-6个选件。 配置越大，在[!UICONTROL Visual Experience Composer]中加载或编辑的速度就越慢。
+* 请密切关注&#x200B;*活动形状*（位置数×选件数），而不仅仅是体验总数。 位置和选件的笛卡尔组合比原始体验数更能提升创作时间性能。
+* 为获得最佳性能和可管理性，请将[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动限制为4-6个位置，每个位置提供4-6个选件。 不建议使用较大的配置，它们可能会导致[!UICONTROL Visual Experience Composer]中的加载或编辑速度缓慢，并且可能会在[!DNL Target] UI中受到限制。 在当前UI中，[!DNL Target]显示内联警告，或在配置超出支持的阈值时阻止保存活动。
 * 如果要个性化低流量页面，或者要对要个性化的体验进行结构性更改，请考虑使用[!UICONTROL Auto-Target]活动代替[!UICONTROL Automated Personalization]。 请参阅[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
 * 考虑在您计划于[!UICONTROL Automated Personalization]活动中使用的选件和位置之间完成一个[!UICONTROL A/B Test]活动，以确保位置和选件会对优化目标产生影响。 如果[!UICONTROL A/B Test]活动未能显示显着差异，[!UICONTROL Automated Personalization]可能也无法生成提升。
 
@@ -91,9 +92,13 @@ ht-degree: 20%
 
 [!DNL Target]具有30,000个体验的硬性限制，但在创建少于10,000个体验时它可以正常工作。
 
-即使活动启用了[!UICONTROL Disalow Duplicates]选项，也应用同样的限制。
+即使活动启用了[!UICONTROL Disallow Duplicates]选项，也应用同样的限制。
 
-为获得最佳性能，请将[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动限制为4-6个位置，每个位置具有4-6个选件。 由于位置和选件的组合会增加体验的总数，因此较大的配置可能会导致[!UICONTROL Visual Experience Composer]中的加载或编辑速度缓慢。
+虽然[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动可以支持大量体验，但创作性能在很大程度上取决于&#x200B;*活动形状*（位置数×选件数）。 某些配置会创建大型笛卡尔组合，这些组合会显着影响负载和编辑性能，即使低于记录的体验限制也是如此。
+
+为获得最佳性能和可管理性，请将[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动限制为4-6个位置，每个位置提供4-6个选件。 不建议使用较大的配置，并且可能限制在[!DNL Target] UI中。
+
+在当前[!DNL Target] UI中，[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动直接在[!UICONTROL Experiences]步骤中配置。 当配置超出支持的阈值时，[!DNL Target]可能会显示内联警告或阻止保存活动，并重新验证[!UICONTROL Next]、[!UICONTROL Save]和[!UICONTROL Publish]上的活动形状。
 
 有关影响[!DNL Target]中活动和其他元素的字符限制和其他限制（选件大小、受众、配置文件、值、参数等）的更多信息，请参阅[限制](/help/main/r-troubleshooting-target/target-limits.md)。
 

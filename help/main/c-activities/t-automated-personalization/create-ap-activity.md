@@ -17,9 +17,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1856
+source-wordcount: 1854
 ht-degree: 22%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 22%
 
    >[!IMPORTANT]
    >
-   >**最佳实践：**&#x200B;为获得最佳性能，请将[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动限制为4-6个位置，每个位置具有4-6个选件。 体验的总数因位置和选件的笛卡尔组合而增加。 配置越大，在[!UICONTROL Visual Experience Composer]中加载或编辑的速度就越慢。 将总体验保留在5,000个以下以获得最佳结果；硬限制为30,000 （启用[!UICONTROL Disallow Duplicates]选项时适用相同限制）。
+   >为获得最佳性能，请将[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动限制为4-6个位置，每个位置具有4-6个选件。 体验的总数因位置和选件的笛卡尔组合而增加。 配置越大，在[!UICONTROL Visual Experience Composer]中加载或编辑的速度就越慢。 将总体验保留在5,000个以下以获得最佳结果；硬限制为30,000 （启用[!UICONTROL Disallow Duplicates]选项时适用相同限制）。
 
 1. （视情况而定）单击&#x200B;**[!UICONTROL Offers]**&#x200B;以选择内容片段并将其分配给报表组，或只允许特定访客查看特定具有定位的选件。
 
@@ -111,7 +111,7 @@ ht-degree: 22%
 
    ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disallow Duplicates] option.
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 

@@ -55,7 +55,7 @@ ht-degree: 3%
 
 1. 单击 **[!UICONTROL Save]**。 这会将闪烁管理设置应用于您的实例。
 
-1. 启用后，单击&#x200B;**[!UICONTROL Download]**，然后将文件添加到页面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前加载。 有关完整的实施说明，请参阅[内容预隐藏SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)。
+1. 启用后，单击&#x200B;**[!UICONTROL Download]**，然后将文件添加到页面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前加载。 有关完整的实施说明，请参阅[内容预隐藏SDK](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/prehide-sdk)。
 
    ![](assets/content-pre-hiding-2.png)
 

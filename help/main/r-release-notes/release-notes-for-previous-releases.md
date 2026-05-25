@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
+source-git-commit: 3dc08e77ad2b737e19c2a099028fc0a69dc5a266
 workflow-type: tm+mt
-source-wordcount: 68360
+source-wordcount: 68506
 ht-degree: 50%
 
 ---
@@ -57,6 +57,36 @@ ht-degree: 50%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 — 2026
+
+## [!DNL Target Standard/Premium] 26.5.2（2026年5月14日）
+
+**管理**
+
++++查看详细信息
+
+* **允许的URL的Regex验证。** 修复了在&#x200B;**[!UICONTROL Allowed URLs]**&#x200B;字段中输入无效正则表达式而不进行正确验证的问题。 (TGT-55095)
+
++++
+
+**受众**
+
++++查看详细信息
+
+* [!UICONTROL Edit Audience]对话框中的&#x200B;**按钮。** 修复了&#x200B;**[!UICONTROL Edit Audience]**&#x200B;对话框中的按钮不再正确呈现的问题。 (TGT-54638)
+
++++
+
+**[!DNL Adobe Target]MCP服务器（公共Beta）**
+
++++查看详细信息
+
+[!DNL Adobe Target]现在提供了一个MCP（模型上下文协议）服务器，该服务器直接在任何与MCP兼容的应用程序中呈现实验、个性化和报告操作。 利用此集成，营销和技术人员可以检查A/B测试、分析性能报表以及浏览受众和选件 — 所有这些操作都使用自然语言提示，而不是导航多个UI屏幕或针对[!DNL Adobe Target] REST API编写查询。 此功能当前在&#x200B;**Claude Web**、**Claude Desktop**、**Claude Code**、**Cursor**&#x200B;和&#x200B;**ChatGPT**&#x200B;中可用。
+
+此功能适用于公共Beta中的所有客户。
+
+有关详细信息，请参阅[[!DNL Adobe Target] MCP服务器](../c-integrating-target-with-mac/mcp/target-mcp.md)。
+
++++
 
 ## [!DNL Target Standard/Premium] 26.5.1（2026年5月7日）
 

@@ -35,7 +35,7 @@ JSON选件可用于基于表单的活动，以启用以下用例：需要通过[
 
 * JSON选件当前仅适用于[!UICONTROL A/B测试]、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 体验定位] (XT)活动。
 * JSON选件只能在[基于表单的活动](/help/main/c-experiences/form-experience-composer.md)中使用。
-* 当您使用[服务器端API和Mobile Node.js、Java、.NET和Python SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/server-side-overview){target=_blank}时，可以直接检索JSON选件。
+* 当您使用[服务器端API和Mobile Node.js、Java、.NET和Python SDK](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/server-side/server-side-overview){target=_blank}时，可以直接检索JSON选件。
 * 在浏览器中，只能通过at.js 1.2.3（或更高版本）并使用[getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}来检索JSON选件，方法是使用`setJson`操作筛选操作。
 * JSON 选件可作为原生 JSON 对象而不是字符串来交付。 这些对象的用户不必再将对象作为字符串处理后再将其转换为 JSON 对象。
 * 与其他选件（例如 HTML 选件）不同，JSON 选件不会自动应用，因为 JSON 选件不是可视化选件。 开发人员必须编写代码以使用[getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}明确获取选件。

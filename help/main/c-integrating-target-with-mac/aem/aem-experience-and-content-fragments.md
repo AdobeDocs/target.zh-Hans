@@ -59,4 +59,4 @@ ht-degree: 40%
 
 [!DNL Adobe Experience Manager] [!UICONTROL 体验片段]和[!UICONTROL 内容片段]表面上可能相似，但每个片段类型在不同的用例中起着关键的作用。
 
-有关[!UICONTROL 体验片段]和[!UICONTROL 内容片段]如何相似、不同以及何时以及如何使用的详细信息，请参阅[AEM Sites视频和教程指南](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank}中的[了解[!UICONTROL 内容片段]和[!UICONTROL 体验片段]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank}。
+有关[!UICONTROL 体验片段]和[!UICONTROL 内容片段]如何相似、不同以及何时以及如何使用的详细信息，请参阅[AEM Sites视频和教程指南](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=zh-Hans){target=_blank}中的[了解[!UICONTROL 内容片段]和[!UICONTROL 体验片段]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=zh-Hans){target=_blank}。

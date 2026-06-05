@@ -40,7 +40,7 @@ ht-degree: 17%
 
 1. 从要创建活动的页面中，打开[!DNL Adobe Experience Platform Debugger]。
 
-   如果尚未安装调试器，请参阅[Adobe Experience Platform Debugger概述](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html)。
+   如果尚未安装调试器，请参阅[Adobe Experience Platform Debugger概述](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=zh-Hans)。
 
 1. 在左侧导航菜单中单击&#x200B;**[!UICONTROL Analytics]**。
 

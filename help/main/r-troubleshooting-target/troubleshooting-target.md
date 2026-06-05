@@ -114,7 +114,7 @@ ht-degree: 77%
 
 ## 全局 mbox
 
-* [全局 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [全局 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=zh-Hans)
 
 ## 主机/环境
 
@@ -126,12 +126,12 @@ ht-degree: 77%
 
 ### 常规实施
 
-* [支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [支持的浏览器](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=zh-Hans)
 * [结合使用基于云的实例和Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### 全局 mbox
 
-* [全局mbox常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [全局mbox常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=zh-Hans)
 
 ### at.js
 
@@ -142,7 +142,7 @@ ht-degree: 77%
 
 ## 移动应用程序
 
-* [Target 移动应用程序版常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [Target 移动应用程序版常见问题解答](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=zh-Hans)
 
 ## 报表
 
@@ -151,11 +151,11 @@ ht-degree: 77%
 
 ## 搜索引擎优化 (SEO)
 
-* [搜索引擎优化 (SEO) 友好测试](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [搜索引擎优化 (SEO) 友好测试](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans)
 
 ## 安全性
 
-* [内容安全策略 (CSP) 指令](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
+* [内容安全策略 (CSP) 指令](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=zh-Hans)
 
 ## 系统状态
 

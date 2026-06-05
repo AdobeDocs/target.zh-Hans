@@ -230,7 +230,7 @@ ht-degree: 55%
 
 * 了解默认工作区
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
+>[!VIDEO](https://video.tv.adobe.com/v/3421729?captions=chi_hans)
 
 ### 如何在Adobe Target (3:05) ![教程徽章](/help/main/assets/tutorial.png)中创建属性
 

@@ -17,15 +17,15 @@ ht-degree: 80%
 
 ## 添加扩展
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33301/?captions=chi_hans&quality=12)
 
 ## 基本 [!DNL Target] 调试
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33302/?captions=chi_hans&quality=12)
 
 ## Mbox 跟踪
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33303/?captions=chi_hans&quality=12)
 
 ## 其他资源
 

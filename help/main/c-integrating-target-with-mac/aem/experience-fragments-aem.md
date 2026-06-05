@@ -181,7 +181,7 @@ ht-degree: 28%
 
 以下视频介绍如何设置和使用[!UICONTROL 体验片段]：
 
->[!VIDEO](https://video.tv.adobe.com/v/22383)
+>[!VIDEO](https://video.tv.adobe.com/v/38075?captions=chi_hans)
 
 >[!NOTE]
 >

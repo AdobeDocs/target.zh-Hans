@@ -5,15 +5,12 @@ title: 如何将移动视区用于响应式体验？
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1361
-ht-degree: 94%
+source-wordcount: 1379
+ht-degree: 93%
 
 ---
 
@@ -103,14 +100,14 @@ ht-degree: 94%
 
 配置要在创建体验时提供的移动视区。
 
-1. 单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**。
-1. 在&#x200B;**[!UICONTROL Mobile viewports configuration]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
+1. 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]**。
+1. 在&#x200B;**[!UICONTROL 移动设备视区配置]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加]**。
 
    ![添加视区](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    或
 
-   要更改现有移动设备视区的配置，请选择该视区，然后单击[!UICONTROL Edit]（铅笔）图标。
+   要更改现有移动设备视区的配置，请选择该视区，然后单击[!UICONTROL 编辑]（铅笔）图标。
 
 1. 键入移动设备视区的名称。
 
@@ -132,7 +129,7 @@ ht-degree: 94%
 
    如果您使用[增强型体验编辑器](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)并选择某个操作系统，则 [!DNL Target] 在您查看页面时模拟该设备。 例如，如果在您的响应式网站上对于 Android 与 iOS 显示的外观不同，则 [!DNL Target] 模仿该行为。
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!NOTE]
 >
@@ -143,11 +140,11 @@ ht-degree: 94%
 将移动视区添加到您的 [!DNL Target] 活动以创建用于移动设备的响应式体验。
 
 1. 创建[所需活动](/help/main/c-activities/activities.md)。
-1. 在[!UICONTROL Visual Experience Composer] (VEC)中，单击&#x200B;**[!UICONTROL Settings]**&#x200B;齿轮图标，然后选择&#x200B;**[!UICONTROL Add Mobile Viewports]**。
+1. 在[!UICONTROL 可视化体验编辑器] (VEC)中，单击&#x200B;**[!UICONTROL 设置]**&#x200B;齿轮图标，然后选择&#x200B;**[!UICONTROL 添加移动设备视区]**。
 
    ![添加移动视区选项](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. 单击&#x200B;**[!UICONTROL Devices]**&#x200B;图标，然后启用每个应有移动视区的设备。
+1. 单击&#x200B;**[!UICONTROL 设备]**&#x200B;图标，然后启用每个应有移动视区的设备。
 
    ![启用移动视区](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
@@ -180,7 +177,7 @@ ht-degree: 94%
 * 预览和构建响应式网站的体验
 * 使用叠加高亮显示元素类型
 
->[!VIDEO](https://video.tv.adobe.com/v/30330?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Adobe Target 中的帐户首选项 ![“概述”标记](/help/main/assets/overview.png)
 

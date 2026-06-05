@@ -2,22 +2,20 @@
 keywords: 包含规则；包含标准；推荐；促销活动；促销活动；动态筛选；动态；参数匹配
 description: 了解如何通过比较项目（实体）与请求中的值（API或mbox）在Adobe [!DNL Target] 推荐中动态筛选。
 title: 如何在推荐活动中按参数匹配进行筛选？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 TQID: https://experienceleague.adobe.com/GTli-O1p4Gm2Fg9J-L0ukQ8dSw2t-da8OatFLP8Ks9g
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 346
+source-wordcount: 350
 ht-degree: 10%
 
 ---
 
-# [!UICONTROL Parameter Matching]
+# [!UICONTROL 参数匹配]
 
 通过比较项目（实体）与请求中的值（API或mbox）来进行动态筛选。
 
@@ -37,7 +35,7 @@ ht-degree: 10%
 
 ## 参数匹配示例
 
-[!UICONTROL Parameter Matching]允许您推荐与页面参数或访客参数（如设备维度或地理位置）匹配的内容，如以下示例所示：
+[!UICONTROL 参数匹配]允许您推荐与页面参数或访客参数（如设备维度或地理位置）匹配的内容，如以下示例所示：
 
 [!DNL Recommendations]可以匹配[!DNL Target]调用中发送的参数值。 在此实例中，[!DNL Target]根据[!DNL Target]调用中发送的屏幕高度和宽度参数检测访客正在使用移动设备，并仅推荐属于移动设备的项目。
 

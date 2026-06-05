@@ -5,17 +5,13 @@ title: 我是否可以在类似页面上包含相同体验？
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 TQID: https://experienceleague.adobe.com/zk7U6g7gk7XkpWsEFQbwuCm7xbpIb1lCaZefxjn-39g
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 24%
+source-wordcount: 564
+ht-degree: 23%
 
 ---
 
@@ -40,33 +36,33 @@ ht-degree: 24%
 
 1. 按照[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)中的说明创建或编辑活动。
 
-1. 要指定显示体验的页面，请在[!UICONTROL Visual Experience Composer] (VEC)中单击[!UICONTROL Configure]图标（![配置图标](/help/main/assets/icons/Setting.svg)），然后选择&#x200B;**[!UICONTROL Page Delivery]**。
+1. 要指定显示体验的页面，请在[!UICONTROL 可视化体验编辑器] (VEC)中单击[!UICONTROL 配置]图标（![配置图标](/help/main/assets/icons/Setting.svg)），然后选择&#x200B;**[!UICONTROL 页面交付]**。
 
-1. 单击&#x200B;**[!UICONTROL Add Rule]**，然后为要将体验添加到的页面指定条件。
+1. 单击&#x200B;**[!UICONTROL 添加规则]**，然后为要将体验添加到的页面指定条件。
 
 1. 指定页面范围。 页面范围可以是以下任一类型：
 
    * [!UICONTROL URL] （有关[!DNL Target]如何评估URL的详细信息，请参阅[目标和受众常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。）
-   * [!UICONTROL Domain]
-   * [!UICONTROL Path]
-   * [!UICONTROL Hash (#) Fragment] （以#符号后面的URL部分为目标。）
-   * [!UICONTROL Query]
-   * [!UICONTROL Custom]
+   * [!UICONTROL 域名]
+   * [!UICONTROL 路径]
+   * [!UICONTROL 哈希(#)片段] （以#符号后面的URL部分为目标。）
+   * [!UICONTROL 查询]
+   * [!UICONTROL 自定义]
 
 1. 选择运算符。
 
    运算符可指定运算符后面的项目与页面范围之间的关系。 可用的运算符包括：
 
-   * [!UICONTROL Contains]
-   * [!UICONTROL Does not contain]
-   * [!UICONTROL Is (case sensitive)]
-   * [!UICONTROL Is not]
-   * [!UICONTROL Starts with]
-   * [!UICONTROL Ends with]
+   * [!UICONTROL 包含]
+   * [!UICONTROL 不包含]
+   * [!UICONTROL 是（区分大小写）]
+   * [!UICONTROL 不是]
+   * [!UICONTROL 开始于]
+   * [!UICONTROL 结束于]
 
 1. 键入相应的字符串以定义要将体验添加到的位置，例如域或页面名称中包含的字符串。
 
-   例如，如果您选择&#x200B;**[!UICONTROL Domain]**&#x200B;和&#x200B;**[!UICONTROL Is (case sensitive)]**，请键入要将体验添加到的所有页面所在的域。
+   例如，如果您选择&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 是（区分大小写）]**，请键入要将体验添加到的所有页面所在的域。
 
    您可以包含多个项目。
 
@@ -74,7 +70,7 @@ ht-degree: 24%
    >
    >多个项目使用OR逻辑，这意味着列表中的任一项目均满足条件。
 
-1. 如有需要，单击&#x200B;**[!UICONTROL Add Rule]**&#x200B;并重复前一步骤中的操作过程，以输入其他条件。
+1. 如有需要，单击&#x200B;**[!UICONTROL 添加规则]**&#x200B;并重复前面的步骤以输入其他条件。
 
    多个标准会使用 AND 逻辑进行连接。 [!DNL Target]将体验添加到符合指定条件的所有页面。
 
@@ -96,8 +92,8 @@ ht-degree: 24%
 
 1. 按照[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)中的说明创建或编辑活动。
 
-1. 要指定显示体验的域，请在[!UICONTROL Visual Experience Composer]中单击[!UICONTROL Configure]图标（![配置图标](/help/main/assets/icons/Setting.svg)），然后选择&#x200B;**[!UICONTROL Page Delivery]**。
+1. 要指定显示体验的域，请在[!UICONTROL 可视化体验编辑器]中单击[!UICONTROL 配置]图标（![配置图标](/help/main/assets/icons/Setting.svg)），然后选择&#x200B;**[!UICONTROL 页面交付]**。
 
-1. 单击&#x200B;**[!UICONTROL Add Rule]** > **[!UICONTROL Domain]**。
+1. 单击&#x200B;**[!UICONTROL 添加规则]** > **[!UICONTROL 域]**。
 
-1. 从&#x200B;**[!UICONTROL Choose evaluator]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Contains]**，然后指定域。
+1. 从&#x200B;**[!UICONTROL 选择计算器]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 包含]**，然后指定域。

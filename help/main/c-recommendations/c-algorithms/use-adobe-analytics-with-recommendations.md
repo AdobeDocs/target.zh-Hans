@@ -2,21 +2,16 @@
 keywords: 行为数据源；Analytics；推荐；标准；产品变量
 description: 了解如何将 [!DNL Adobe Analytics] 用作 [!DNL Target Recommendations]中的行为数据源。
 title: 如何将 [!DNL Adobe Analytics] 与 [!DNL Target Recommendations]一起使用？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 TQID: https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 804
 ht-degree: 0%
 
 ---
@@ -27,7 +22,7 @@ ht-degree: 0%
 
 将[!DNL Analytics]用作行为数据源可以充当有关用户行为的丰富信息源。 此信息可能包含来自仅与[!DNL Analytics]共享的第三方源或馈送的数据。
 
-在[!DNL Recommendations]中[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)时，有两个单选按钮可让您选择要使用的数据源： [!UICONTROL mboxes]或[!UICONTROL Analytics]。 要创建标准，请单击[!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]。 有关详细信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
+在[!DNL Recommendations]中[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)时，有两个单选按钮可让您选择要使用的数据源： [!UICONTROL mbox]或[!UICONTROL Analytics]。 要创建标准，请单击[!UICONTROL 推荐] > [!UICONTROL 标准] > [!UICONTROL 创建标准] > [!UICONTROL 创建标准]。 有关详细信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
 >[!NOTE]
 >
@@ -56,7 +51,7 @@ ht-degree: 0%
 >
 >如果它是内容网站，则必须将相应的内容片段视为“产品”，并且必须将该内容的关联属性作为属性传递。 此类属性可以包括作者姓名、发布日期、内容标题、发布月份等。 类别级别的粒度或类别类型，应由业务根据用例需求来决定。
 
-有关如何设置产品变量的更多详细信息，请参阅“*实施Adobe Analytics*”指南中的[产品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hans)。 该文档中的一些注释需要部署该文档的团队自行决定（例如：类别）。 在执行此活动之前，始终建议咨询[!DNL Adobe]。
+有关如何设置产品变量的更多详细信息，请参阅“*实施Adobe Analytics*”指南中的[产品](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html)。 该文档中的一些注释需要部署该文档的团队自行决定（例如：类别）。 在执行此活动之前，始终建议咨询[!DNL Adobe]。
 
 ### 注意事项
 
@@ -68,24 +63,24 @@ ht-degree: 0%
 
 ## 在[!DNL Target]中实施
 
-1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL Recommendations]**，然后单击&#x200B;**[!UICONTROL Feeds]**&#x200B;选项卡。
+1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL 推荐]**，然后单击&#x200B;**[!UICONTROL 信息源]**&#x200B;选项卡。
 
-1. 单击 **[!UICONTROL Create Feed]**。
+1. 单击&#x200B;**[!UICONTROL 创建信息源]**。
 
-1. 选择&#x200B;**[!UICONTROL Analytics Classifications]**，然后指定报表包。
+1. 选择&#x200B;**[!UICONTROL Analytics分类]**，然后指定报表包。
 
-1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;以前进到&#x200B;**[!UICONTROL Schedule]**&#x200B;设置，为信息源选择频率段：
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;前进到&#x200B;**[!UICONTROL 计划]**&#x200B;设置，为信息源选择频率段：
 
-   * [!UICONTROL Daily]
-   * [!UICONTROL Weekly]
-   * [!UICONTROL Every 2 weeks]
-   * [!UICONTROL Never]
+   * [!UICONTROL 每天]
+   * [!UICONTROL 每周]
+   * [!UICONTROL 每2周]
+   * [!UICONTROL 从不]
 
    您还可以选择一天中信息源要处理的时间。
 
-1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;以前进到&#x200B;**[!UICONTROL Mapping]**&#x200B;设置，然后将字段列标题映射到相应的[!UICONTROL Recommendations]字段名称。
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;前进到&#x200B;**[!UICONTROL 映射]**&#x200B;设置，然后将字段列标题映射到适当的[!UICONTROL 推荐]字段名称。
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 常见问题解答
 

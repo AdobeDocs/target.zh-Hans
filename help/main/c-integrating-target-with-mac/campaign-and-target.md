@@ -5,17 +5,13 @@ title: 如何将 [!DNL Target] 与Adobe Campaign集成？
 feature: Integrations
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 TQID: https://experienceleague.adobe.com/RMW9ijj8UqzrDr1-PKwwfw5aWfH4YmtSi1HR7rLDSZ4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 372
-ht-degree: 32%
+source-wordcount: 379
+ht-degree: 35%
 
 ---
 
@@ -68,7 +64,7 @@ ht-degree: 32%
 ## 在[!DNL Adobe Campaign]电子邮件中包含[!DNL Target]选件 {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. 在[!DNL Adobe Campaign]中创建电子邮件。
-1. 在电子邮件属性中，单击&#x200B;**[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**。
+1. 在电子邮件属性中，单击&#x200B;**[!UICONTROL 包含]** > **[!UICONTROL 由 Adobe Target 提供的动态图像]**。
 1. 从共享的资产中选择默认图像。
 1. 指定位置 (rawbox)。
 1. 添加任何其他决策参数，例如收件人的性别。

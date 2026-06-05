@@ -1,39 +1,36 @@
 ---
 keywords: MVT;多变量测试;位置贡献报表
-description: 了解如何对Adobe [!DNL Target] [!UICONTROL Experience Targeting]活动使用位置贡献报表，以显示每个元素和每个选件的性能。
-title: 如何为[!UICONTROL Multivariate Test]活动使用[!UICONTROL Location Contribution]报表？
+description: 了解如何对Adobe [!DNL Target] [!UICONTROL 体验定位]活动使用位置贡献报表，以显示每个元素和每个选件的性能。
+title: 如何为[!UICONTROL 多变量测试]活动使用[!UICONTROL 位置贡献]报表？
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 TQID: https://experienceleague.adobe.com/oS9GtjO8wG2bcAWQWj3IWtwAgtfGHnHMYwPd-8u0zjc
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 261
-ht-degree: 35%
+source-wordcount: 283
+ht-degree: 32%
 
 ---
 
-# [!UICONTROL Location Contribution]报表(MVT)
+# [!UICONTROL 位置贡献]报表(MVT)
 
-[!UICONTROL Location Contribution]报表显示每个元素和每个选件的性能。
+[!UICONTROL 位置贡献]报表显示每个元素和每个选件的性能。
 
 报表顶部显示了报表中使用的量度、开始和结束日期以及受众。 您可以对所有这些元素进行更改。
 
 >[!NOTE]
 >
->在使用[!UICONTROL Location Contribution]报告时，请牢记以下信息：
+>在使用[!UICONTROL 位置贡献]报表时，请记住以下信息：
 >
 >* 只有使用[!DNL Analytics]作为报表源(A4T)时，受众和量度选取器才可用。
 >
->* [!UICONTROL Location Contribution]报告的数据是从[!DNL Target]后端获取的，即使活动配置为使用[!UICONTROL Analytics as the reporting source] (A4T)也是如此。
+>* [!UICONTROL 位置贡献]报表的数据是从[!DNL Target]后端获取的，即使该活动配置为使用[!UICONTROL Analytics作为报表源] (A4T)也是如此。
 >
->* 即使在[!DNL Target]帐户级别定义了其他默认环境，也会为“生产”环境获取[!UICONTROL Location Contribution]报表的数据。
+>* 即使在[!DNL Target]帐户级别定义了其他默认环境，也将为“生产”环境获取[!UICONTROL 位置贡献]报表的数据。
 
-[!UICONTROL Location Contribution]报告包含两个表。
+[!UICONTROL 位置贡献]报表包含两个表。
 
 第一个表显示了每个元素的相对影响力。 下表显示了您在其中添加选件的哪些元素产生了最多转化。
 
@@ -43,4 +40,4 @@ ht-degree: 35%
 
 本视频演示了如何使用[!DNL Target]三步引导式工作流创建多变量测试。 位置贡献报表的说明从8:45开始。
 
->[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

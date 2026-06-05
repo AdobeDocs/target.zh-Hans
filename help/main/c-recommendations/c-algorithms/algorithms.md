@@ -2,28 +2,23 @@
 keywords: 推荐；推荐活动；标准；算法；推荐键；自定义键；垂直行业；零售；eccommerce；商机生成；b2b；金融服务；媒体；发布
 description: 了解如何在Adobe [!DNL Target] [!DNL Recommendations]中使用标准。
 title: 如何在 [!DNL Target] 推荐中使用标准？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 TQID: https://experienceleague.adobe.com/Wo7I3piBQ7zwYF7kqRphDeWjcBCpyvIvTkwKK0t0f9U
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 506
-ht-degree: 9%
+source-wordcount: 657
+ht-degree: 7%
 
 ---
 
-# [!UICONTROL Criteria]
+# [!UICONTROL 标准]
 
-[!DNL Adobe Target] [!DNL Recommendations]中的[!UICONTROL Criteria]是一些规则，可根据预先确定的一组访客行为来确定要推荐的产品或内容。 标准可基于流行趋势、访客的当前与过去行为，或相似的产品和内容。 您可以添加多个标准，以便对多个推荐类型进行相互测试。
+[!DNL Adobe Target] [!DNL Recommendations]中的[!UICONTROL 标准]是一些规则，可根据预先确定的一组访客行为来确定要推荐的产品或内容。 标准可基于流行趋势、访客的当前与过去行为，或相似的产品和内容。 您可以添加多个标准，以便对多个推荐类型进行相互测试。
 
 以下部分将详细解释有关标准键以及可用于每个键的推荐逻辑的信息。 单击链接可了解更多详细信息。
 
@@ -33,11 +28,11 @@ ht-degree: 9%
 
 | 垂直行业 | 目标 |
 |--- |--- |
-| [!UICONTROL Retail/Ecommerce] | 转化促进完成购买 |
-| [!UICONTROL Lead Generation/B2B/Financial Services] | 转化但不购买 |
-| [!UICONTROL Media/Publishing] | 参与度 |
+| [!UICONTROL 零售/电子商务] | 转化促进完成购买 |
+| [!UICONTROL 潜在客户开发/B2B/金融服务] | 转化但不购买 |
+| [!UICONTROL 媒体/出版] | 参与度 |
 
-根据您选择的垂直行业，其他标准选项会发生变化。 您可以在&#x200B;**[!UICONTROL Administration]>[!UICONTROL Recommendations]**&#x200B;页面上设置默认垂直行业，也可以为每个标准指定垂直行业。
+根据您选择的垂直行业，其他标准选项会发生变化。 您可以在&#x200B;**[!UICONTROL 管理] > [!UICONTROL 推荐]**&#x200B;页面上设置默认垂直行业，也可以为每个标准指定垂直行业。
 
 ## 算法类型 {#section_885B3BB1B43048A88A8926F6B76FC482}
 
@@ -47,11 +42,11 @@ ht-degree: 9%
 
 | 算法类型 | 使用时间 | 可用的算法 |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | 根据用户的购物车内容提供推荐。 | <ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>有关详细信息，请参阅&#x200B;*使推荐基于推荐键*&#x200B;中的[基于购物车的](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based)。 |
-| [!UICONTROL Popularity-Based] | 根据项目在整个网站中的整体受欢迎程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目受欢迎程度提供推荐。 | <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul> |
-| [!UICONTROL Item-Based] | 根据查找的用户当前正在查看或最近查看过的项目的相似项目提供推荐。 | <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul> |
-| [!UICONTROL User-Based] | 根据用户的行为提供推荐。 | <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul> |
-| [!UICONTROL Custom Criteria] | 根据您上传的自定义文件提出推荐。 | <ul><li>自定义算法</li></ul> |
+| [!UICONTROL 基于购物车] | 根据用户的购物车内容提供推荐。 | <ul><li>[!UICONTROL 查看过这些项目，也查看过这些项目的人]</li><li>[!UICONTROL 查看了这些商品的人们也购买了]</li><li>[!UICONTROL 购买了这些商品的人，也购买了]</li></ul>有关详细信息，请参阅&#x200B;*使推荐基于推荐键*&#x200B;中的[基于购物车的](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based)。 |
+| [!UICONTROL 基于热门程度] | 根据项目在整个网站中的整体受欢迎程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目受欢迎程度提供推荐。 | <ul><li>整个网站查看的次数最多</li><li>按类别查看的次数最多</li><li>[!UICONTROL 按项目属性查看的次数最多]</li><li>[!UICONTROL 网站上的最畅销商品]</li><li>[!UICONTROL 按类别划分的最畅销商品]</li><li>按项目属性[!UICONTROL 最畅销商品]</li><li>[!UICONTROL 按Analytics指标排名]</li></ul> |
+| [!UICONTROL 基于项目] | 根据查找的用户当前正在查看或最近查看过的项目的相似项目提供推荐。 | <ul><li>[!UICONTROL 查看了这个项目，也查看了那个项目的人]</li><li>[!UICONTROL 查看了这个项目，但购买了那个项目的人]</li><li>[!UICONTROL 购买了这个项目，也购买了那个项目的人]</li><li>[!UICONTROL 具有相似属性的项目]</li></ul> |
+| [!UICONTROL 基于用户] | 根据用户的行为提供推荐。 | <ul><li>[!UICONTROL 最近查看的项目]</li><li>[!UICONTROL 为您推荐]</li></ul> |
+| [!UICONTROL 自定义标准] | 根据您上传的自定义文件提出推荐。 | <ul><li>自定义算法</li></ul> |
 
 有关每个算法的详细信息，请参阅[使推荐基于推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 
@@ -65,26 +60,26 @@ ht-degree: 9%
 
 例如，假设您要根据用户最近添加到队列中的影片显示推荐的影片。
 
-1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**。
+1. 单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 标准]**。
 
-1. 单击&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**。
+1. 单击&#x200B;**[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准]**。
 
 1. 在[基本信息部分](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)中填写信息。
 
-1. 在[推荐的算法](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)部分中，从&#x200B;**[!UICONTROL Algorithm Type]**&#x200B;列表中选择&#x200B;**[!UICONTROL Item Based]**。
+1. 在[推荐的算法](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)部分中，从&#x200B;**[!UICONTROL 算法类型]**&#x200B;列表中选择&#x200B;**[!UICONTROL 基于项目的]**。
 
-1. 从&#x200B;**[!UICONTROL Algorithm]**&#x200B;列表中选择&#x200B;**[!UICONTROL People Who Viewed This, Viewed That]**。
+1. 从&#x200B;**[!UICONTROL 算法]**&#x200B;列表中选择&#x200B;**[!UICONTROL 查看了这个项目，也查看了那个项目]**&#x200B;的人员。
 
-1. 从&#x200B;**[!UICONTROL Recommendation Key]**&#x200B;列表中选择自定义配置文件属性（例如，[!UICONTROL Last Show Added to Watchlist]）。
+1. 从&#x200B;**[!UICONTROL 推荐键]**&#x200B;列表中选择自定义配置文件属性（例如，[!UICONTROL 上次添加到观看列表的节目]）。
 
 ## 查看标准信息 {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
-您可以通过单击[!UICONTROL Name]列中的所需条件来查看条件详细信息。
+您可以通过单击[!UICONTROL 名称]列中的所需条件来查看条件详细信息。
 
-通过&#x200B;**[!UICONTROL Attributes]**&#x200B;和详细信息部分，可查看有关所选标准的一般信息，包括其[!UICONTROL Name]、[!UICONTROL Description]、[!UICONTROL Industry Vertical]、[!UICONTROL Page Types]、[!UICONTROL Recommendation Key]、[!UICONTROL Recommendation Logic]、[!UICONTROL Algorithm ID]以及上次修改时间信息（日期和修改算法的人员）。
+通过&#x200B;**[!UICONTROL 属性]**&#x200B;和详细信息部分，可查看有关所选标准的常规信息，包括其[!UICONTROL 名称]、[!UICONTROL 描述]、[!UICONTROL 垂直行业]、[!UICONTROL 页面类型]、[!UICONTROL 推荐键]、[!UICONTROL 推荐逻辑]、[!UICONTROL 算法ID]以及上次修改算法的信息（日期和修改者）。
 
-**[!UICONTROL Usage]**&#x200B;部分允许您查看引用所选标准的活动列表。
+**[!UICONTROL 使用情况]**&#x200B;部分允许您查看引用所选标准的活动列表。
 
 >[!NOTE]
 >
->当前仅支持[!DNL Recommendations]活动的[!UICONTROL Algorithm Usage]功能。 包含[个推荐作为选件](/help/main/c-recommendations/recommendations-as-an-offer.md)的[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Experience Targeting] (XT)活动当前不支持此功能。
+>当前仅支持[!DNL Recommendations]活动的[!UICONTROL 算法使用情况]功能。 当前不支持将此功能用于包含作为选件的[推荐的[!UICONTROL A/B测试]、[!UICONTROL 自动分配]、[!UICONTROL 自动定位]和[!UICONTROL 体验定位] (XT)活动](/help/main/c-recommendations/recommendations-as-an-offer.md)。

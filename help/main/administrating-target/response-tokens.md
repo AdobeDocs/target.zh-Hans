@@ -6,30 +6,14 @@ feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 TQID: https://experienceleague.adobe.com/Fm2VW0HmAPjf0ZCDawI-s1nPl3c-wjU-evhq-tSAKqA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
-  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
-  - id: faed1c89-faf7-4df1-910d-a88263e03b15
-  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: dfc8a233-f2b5-4811-bf63-b4262aebc5a5id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: c5abb976-5170-45d6-bcac-66d15d10a4d4id: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4beaid: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1749
+source-wordcount: 1767
 ht-degree: 22%
 
 ---
@@ -38,7 +22,7 @@ ht-degree: 22%
 
 响应令牌允许您自动将特定于[!DNL Adobe Target]的信息输出到品牌网页。 此信息可以包括有关活动、选件、体验、用户配置文件、地理信息等的详细信息。 这些详细信息提供了额外的响应数据，可用于与内部或第三方工具共享或用于调试。
 
-响应令牌允许您选择要使用的变量（在键值对中），然后启用它们作为[!DNL Target]响应的一部分发送。 您使用开关启用一个变量，该变量将随[!DNL Target]响应一起发送，这可以在网络调用中验证。 响应令牌也可在[!UICONTROL Preview]模式下使用。
+响应令牌允许您选择要使用的变量（在键值对中），然后启用它们作为[!DNL Target]响应的一部分发送。 您使用开关启用一个变量，该变量将随[!DNL Target]响应一起发送，这可以在网络调用中验证。 响应令牌也可在[!UICONTROL 预览]模式下使用。
 
 插件和响应令牌之间的主要区别在于，插件可以将JavaScript交付到在交付时执行的页面。 但是，响应令牌会传递一个对象，然后可以使用事件侦听器读取该对象并对其执行操作。 响应令牌方法更安全，并且允许更轻松地开发和维护第三方集成。
 
@@ -50,8 +34,8 @@ ht-degree: 22%
 
 | 定位SDK | 建议的操作 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank} | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版Platform Web SDK的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans){target=_blank}。 有关每个版本的Platform Web SDK中新功能的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=zh-Hans)。 |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank} | 确保您使用的是 at.js 版本 1.1 或更高版本。 有关下载最新版本 at.js 的信息，请参阅[下载 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}。 有关每个at.js版本中新增功能的信息，请参阅[at.js版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。<br>我们鼓励使用at.js的客户使用响应令牌而不是插件。 某些插件依赖的内部方法在mbox.js中存在（现已弃用），但在at.js中不存在；这些插件虽然可以交付，但却会失败。 |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | 确保您使用的是Platform Web SDK版本2.6.0或更高版本。 有关下载最新版Platform Web SDK的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank}。 有关每个版本的Platform Web SDK中新功能的信息，请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[发行说明](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)。 |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | 确保您使用的是 at.js 版本 1.1 或更高版本。 有关下载最新版本 at.js 的信息，请参阅[下载 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}。 有关每个at.js版本中新增功能的信息，请参阅[at.js版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。<br>我们鼓励使用at.js的客户使用响应令牌而不是插件。 某些插件依赖的内部方法在mbox.js中存在（现已弃用），但在at.js中不存在；这些插件虽然可以交付，但却会失败。 |
 
 ## 使用响应令牌 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -59,10 +43,10 @@ ht-degree: 22%
 
    有关更多信息：
 
-   * **Platform Web SDK**：请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans)。
+   * **Platform Web SDK**：请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)。
    * **at.js**：请参阅[下载at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}。
 
-1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**。
+1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 响应令牌]**。
 
 1. 激活所需的响应令牌，如`activity.id`和`offer.id`。
 
@@ -81,7 +65,7 @@ ht-degree: 22%
    |  | `profile.categoryAffinities` | 将该访客排名前 5 的类别的数组作为字符串返回。 |
    | 活动 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 当前活动的详细信息。<br> 请注意，选件参数的值在体验级别进行评估。 |
    | 地域 | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 请参阅[地域](/help/main/c-target/c-audiences/c-target-rules/geo.md)以了解在活动中使用地域定位的详细信息。 |
-   | 流量分配方法<br>（仅适用于[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动。） | `experience.trafficAllocationId` | 如果访客因处于“control”流量中而获得体验，则返回0；如果访客从“targeted”流量分配获得体验，则返回1。 |
+   | 流量分配方法<br>（仅适用于[!UICONTROL 自动定位]和[!UICONTROL Automated Personalization]活动。） | `experience.trafficAllocationId` | 如果访客因处于“control”流量中而获得体验，则返回0；如果访客从“targeted”流量分配获得体验，则返回1。 |
    |  | `experience.trafficAllocationType` | 返回“control”或“targeted”。 |
 
    用户轮廓属性和客户属性也会显示在列表中。
@@ -90,9 +74,9 @@ ht-degree: 22%
    >
    >包含特殊字符的参数不会显示在列表中。 只支持字母数字字符和下划线。
 
-1. （视情况而定）要将配置文件参数用作响应令牌，但该参数尚未通过[!DNL Target]请求传递，因此尚未加载到[!DNL Target] UI中，您可以使用[!UICONTROL Add Response Token]按钮将该配置文件添加到UI。
+1. （视情况而定）要将配置文件参数用作响应令牌，但该参数尚未通过[!DNL Target]请求传递，因此尚未加载到[!DNL Target] UI中，您可以使用[!UICONTROL 添加响应令牌]按钮将该配置文件添加到UI中。
 
-   单击&#x200B;**[!UICONTROL Add Response Token]**，提供令牌名称，然后单击&#x200B;**[!UICONTROL Activate]**。
+   单击&#x200B;**[!UICONTROL 添加响应令牌]**，提供令牌名称，然后单击&#x200B;**[!UICONTROL 激活]**。
 
 1. 创建一个活动。
 
@@ -194,7 +178,7 @@ ht-degree: 22%
 
 **激活或停用响应令牌需要使用哪个角色？**
 
-响应令牌只能由具有[!DNL Target] [!UICONTROL Administrator]角色的用户激活或停用。
+响应令牌只能由具有[!DNL Target] [!UICONTROL 管理员]角色的用户激活或停用。
 
 **如果我运行的是[!DNL Platform Web SDK] 2.6.0（或更早版本），会发生什么情况？**
 
@@ -444,8 +428,8 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL Administration]菜单UI（以前为[!UICONTROL Setup]）已重新设计，以提供更好的性能、缩短发布新功能时所需的维护时间并改善整个产品的用户体验。 以下视频中的信息正确；但是，选项的位置略有不同。
+>[!DNL Target] [!UICONTROL 管理]菜单UI（以前称为[!UICONTROL 安装程序]）已重新设计，以提供改进的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。 以下视频中的信息正确；但是，选项的位置略有不同。
 >
 >视频提及了`option.name`和`option.id`，它们已分别替换为`offer.name`和`offer.id`。
 
->[!VIDEO](https://video.tv.adobe.com/v/33361?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)

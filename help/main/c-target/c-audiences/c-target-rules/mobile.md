@@ -5,20 +5,14 @@ title: 我是否可以根据移动设备选项定位访客？
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 692
-ht-degree: 38%
+source-wordcount: 707
+ht-degree: 39%
 
 ---
 
@@ -26,7 +20,7 @@ ht-degree: 38%
 
 在[!DNL Adobe Target]中创建受众以根据移动设备、设备类型、设备供应商、屏幕维度等参数定位移动设备。
 
-例如，您可能希望向使用手机访问您页面的用户显示与使用计算机访问您页面时显示的内容不同的内容。 在这种情况下，您可以选择[!UICONTROL Mobile]受众，然后选择&#x200B;**[!UICONTROL Is Mobile Phone]**&#x200B;选项。 然后，您可以添加任何对您而言重要的特定详细信息，例如手机类型、屏幕大小（以像素为单位）等等。
+例如，您可能希望向使用手机访问您页面的用户显示与使用计算机访问您页面时显示的内容不同的内容。 在这种情况下，您可以选择[!UICONTROL 移动设备]受众，然后选择&#x200B;**[!UICONTROL 是移动电话]**&#x200B;选项。 然后，您可以添加任何对您而言重要的特定详细信息，例如手机类型、屏幕大小（以像素为单位）等等。
 
 移动设备定位是由 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) 提供的，属于 DotMobi 的一个服务。 DeviceAtlas 是一种综合的移动设备数据库，它基于从众多来源收集的数据构建，其中包括制造商和网络运营商。 然后，系统对这些数据进行确认、交叉引用和验证，以构建准确的大型移动设备数据库。
 
@@ -50,10 +44,10 @@ ht-degree: 38%
 
 使用自定义集成（不使用 at.js 或 Mobile SDK）的客户可以自己收集这些参数并将其作为 mbox 参数传递。
 
-1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 命名受众并添加可选描述。
-1. 将&#x200B;**[!UICONTROL Mobile]**&#x200B;拖放到受众生成器窗格中。
-1. 单击&#x200B;**[!UICONTROL Select]**，然后选择以下选项之一：
+1. 将&#x200B;**[!UICONTROL 移动设备]**&#x200B;拖放到受众生成器窗格中。
+1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
    * 设备营销名称
    * 设备型号
@@ -70,7 +64,7 @@ ht-degree: 38%
    >您可以使用[地域设置](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)通过移动设备运营商进行锁定。
 
 1. （可选）为受众设置其他规则。
-1. 单击 **[!UICONTROL Done]**。
+1. 单击&#x200B;**[!UICONTROL 完成]**。
 
 下图展示了一个受众，它定位的是使用Google制造的移动设备的访客。
 
@@ -82,7 +76,7 @@ ht-degree: 38%
 
 ### 定位运行iOS 12.2或更高版本的设备
 
-由于iOS 12.2中引入了新更改，使用由[!UICONTROL Device Marketing Name]和[!UICONTROL Device Model]定义并指定iPhone模型的规则创建受众受到了影响。 [!DNL Target]无法再定位安装了iOS 12.2（或更高版本）的iPhone的用户。 但是，如果这些用户没有iOS 12.2（或更高版本），则iPhone模型定位将继续正常工作。
+由于iOS 12.2中引入的新更改，使用由[!UICONTROL 设备营销名称]和[!UICONTROL 设备模型]定义的规则创建受众以指定iPhone模型的工作受到影响。 [!DNL Target]无法再定位安装了iOS 12.2（或更高版本）的iPhone的用户。 但是，如果这些用户没有iOS 12.2（或更高版本），则iPhone模型定位将继续正常工作。
 
 iOS 12.2（或更高版本）更新不会影响以下模型的识别，因为这些模型不支持升级到iOS 12.2：iPhone、iPhone 3G、iPhone 3GS、iPhone 4、iPhone 4s、iPhone 5、iPhone 5c、iPad、iPad 2、iPad / Retina显示屏、iPad Retina（第4代）、iPod Touch 4和iPod Touch 5。
 

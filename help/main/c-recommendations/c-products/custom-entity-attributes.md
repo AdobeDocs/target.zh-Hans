@@ -2,15 +2,13 @@
 keywords: 多值实体属性;自定义实体属性;有效 JSON;实体属性值;JSON 数组;多值的;多值
 description: 了解如何使用单值和多值自定义实体属性来定义有关Adobe [!DNL Target] 推荐目录中的项目的其他信息。
 title: 如何使用自定义实体属性？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 TQID: https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1504
@@ -132,7 +130,7 @@ function targetPageParams() {
   }
 ```
 
-有关使用交付和保存实体API的信息，请参阅[Adobe Recommendations API文档](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
+有关使用交付和保存实体API的信息，请参阅[Adobe Recommendations API文档](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
 ## 将运算符用于多值属性 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

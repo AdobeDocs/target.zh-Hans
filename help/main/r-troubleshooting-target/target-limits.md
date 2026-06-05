@@ -6,24 +6,14 @@ feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 TQID: https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1761
-ht-degree: 74%
+source-wordcount: 1772
+ht-degree: 73%
 
 ---
 
@@ -131,7 +121,7 @@ ht-degree: 74%
 
 * 设计中可引用（无论是以硬编码方式引用还是通过循环引用）的最大实体数为 99。
 * 为获得最佳性能，建议的限制是在每个环境中使目录所含的项目数量少于一百万个，并使所有环境中的项目数量少于一千万个。
-* 最大限制是每个环境中一千万个项目，所有环境中 1 亿个项目。 如果您在每个环境中的项目数量介于一百万和一千万个之间，[!UICONTROL Catalog Search] UI的性能会受到影响。 但是，[!DNL Target Recommendations]会继续生成并提供推荐。
+* 最大限制是每个环境中一千万个项目，所有环境中 1 亿个项目。 如果您在每个环境中的项目数量介于一百万和一千万个之间，[!UICONTROL 目录搜索] UI的性能会受到影响。 但是，[!DNL Target Recommendations]会继续生成并提供推荐。
 
 ### 实体自定义属性
 
@@ -170,7 +160,7 @@ ht-degree: 74%
 
 ### 每个活动的体验数
 
-* **限制**：每个[!UICONTROL Experience Targeting] (XT)、[!UICONTROL A/B Test]、[!UICONTROL Multivariate Test] (MVT)和[!UICONTROL Auto-Target]活动2,000个体验。
+* **限制**：每个[!UICONTROL 体验定位] (XT)、[!UICONTROL A/B测试]、[!UICONTROL 多变量测试] (MVT)和[!UICONTROL 自动定位]活动有2,000个体验。
 
   每个自动个性化 (AP) 活动 30,000 个体验。
 

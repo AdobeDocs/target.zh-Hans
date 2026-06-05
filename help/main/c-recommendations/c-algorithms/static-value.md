@@ -2,22 +2,20 @@
 keywords: 包含规则；包含标准；推荐；促销活动；促销活动；动态筛选；静态；静态筛选
 description: 了解如何使用Adobe [!DNL Target] 推荐中的包含规则手动输入一个或多个要过滤的静态值。
 title: 如何在“推荐”活动中按静态值筛选？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 TQID: https://experienceleague.adobe.com/-HTJO4YFi0-isyA-5LbVUaEPu7YX1WFgPy-OexMSXFY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 246
+source-wordcount: 248
 ht-degree: 43%
 
 ---
 
-# [!UICONTROL Static Filter]
+# [!UICONTROL 静态筛选]
 
 使用[!DNL Adobe Target Recommendations]中的包含规则手动输入一个或多个要过滤的静态值。
 

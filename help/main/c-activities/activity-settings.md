@@ -5,38 +5,32 @@ title: 如何指定活动设置？
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 TQID: https://experienceleague.adobe.com/tCKQJJOfsU1XkeHwFHNF33XP4tYvxlE0Hv01u0CBr7o
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 71%
+source-wordcount: 432
+ht-degree: 77%
 
 ---
 
 # 活动设置
 
-在[!DNL Adobe Target]中使用[!UICONTROL Activity Settings]管理活动的目标、优先级和持续时间。
+在[!DNL Adobe Target]中使用[!UICONTROL 活动设置]来管理活动的目标、优先级和持续时间。
 
 1. 输入有关活动目标的注释。
 
-   键入有关您活动的任何信息，以便您自己或其他团队成员可随时使用这些信息。 拖动以调整[!UICONTROL Objective]字段的大小。
+   键入有关您活动的任何信息，以便您自己或其他团队成员可随时使用这些信息。 拖动“[!UICONTROL 目标]”字段可调整其大小。
 1. 设置活动优先级。
 
-   根据您的设置，[!UICONTROL Priority]的UI和选项会有所不同。 您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。
+   根据您的设置，UI 和“[!UICONTROL 优先级]”选项会有所不同。 您可以使用“低”、“中”或“高”的传统优先级设置，也可以启用 0 至 999 的细粒度优先级设置。
 
    如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。 如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。
 
-   如果未在[!UICONTROL Administration] > [!UICONTROL Reporting]中启用此选项（默认），请指定以下优先级：“低”、“Medium”或“高”。
+   如果未在[!UICONTROL 管理] > [!UICONTROL 报表]中启用此选项（默认），请指定以下优先级：“低”、“Medium”或“高”。
 
-   要启用细粒度优先级，请单击[!UICONTROL Administration] > [!UICONTROL Reporting]，然后将[!UICONTROL Enable Fine-Grained Priorities]选项切换到“开”位置。
+   要启用细粒度优先级，请单击[!UICONTROL 管理] > [!UICONTROL 报告]，然后将[!UICONTROL 启用细粒度优先级]选项切换到“开”位置。
 
    如果已启用此选项，请指定一个介于 0 到 999 之间值：
 
@@ -57,7 +51,7 @@ ht-degree: 71%
    >
    >为活动设置时间计划可控制活动的交付期限；但是，必须先明确激活活动，然后才能根据指定的时间计划交付活动。
 
-[!UICONTROL Goal & Settings]页面包含的其他设置因您创建的活动类型而异。 有关这些设置的更多信息，请参阅您的活动类型所对应的内容：
+“[!UICONTROL 目标和设置]”页面包含其他设置，这些设置会因您创建的活动类型而有所不同。 有关这些设置的更多信息，请参阅您的活动类型所对应的内容：
 
 * [A/B 测试](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [自动个性化](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)

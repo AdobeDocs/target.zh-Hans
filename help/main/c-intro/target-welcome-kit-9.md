@@ -5,21 +5,13 @@ title: 可在何处找到其他资源以更有效地使用 Target？
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 TQID: https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: 701
 ht-degree: 79%
 
 ---
@@ -34,7 +26,7 @@ ht-degree: 79%
 
 ## 资源链接
 
-* **设置Adobe Target**：帮助您管理[!DNL Adobe Target]的信息，包括[!UICONTROL Visual Experience Composer] (VEC)、报表、[!DNL Scene7]配置、实现、主机、环境、响应令牌和用户的配置设置。 请参阅[管理 Target 概述](/help/main/administrating-target/administrating-target.md)。
+* **设置Adobe Target**：帮助您管理[!DNL Adobe Target]的信息，包括[!UICONTROL 可视化体验编辑器] (VEC)、报表、[!DNL Scene7]配置、实现、主机、环境、响应令牌和用户的配置设置。 请参阅[管理 Target 概述](/help/main/administrating-target/administrating-target.md)。
 * **Adobe Target 产品文档**：关于 Adobe Target 所需了解的一切。 请参阅 [Adobe Target 产品文档](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=zh-Hans)。
 * **Adobe Target API 和 SDK 文档**：了解如何对客户端应用程序、服务器端应用程序、移动应用程序、物联网等上实现 [!DNL Target]。 此外，还可了解如何与第三方解决方案交换您的 [!DNL Target] 数据。 请参阅 [Adobe Target API 概述](/help/main/api/api-overview.md)。
 * **Adobe Target 活动指南**：对于可在 [!DNL Target] 中使用的各种活动的简介。 请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)。
@@ -55,6 +47,6 @@ ht-degree: 79%
 
 * **Adobe Target 主页**：[!DNL Adobe Target] 的主页，从中可了解我们的能力并查看我们最新的成功案例。 请参阅 [Adobe Target](https://www.adobe.com/cn/marketing/target.html)。
 * **博客**：关注 [Target 博客](https://blog.adobe.com/en/topics/target)，即可掌握最新的动向、提示和成功案例。
-* **Experience League**：探索开展体验业务所需的指南、活动和培训，并与Target社区建立联系，从而找到您所寻找的答案。 请参阅 [Adobe Experience League 主页](https://experienceleague.adobe.com/zh-hans#home)。
+* **Experience League**：探索开展体验业务所需的指南、活动和培训，并与Target社区建立联系，从而找到您所寻找的答案。 请参阅 [Adobe Experience League 主页](https://experienceleague.adobe.com/#home)。
 * **Adobe Target 认证**：通过新的 Adobe Target 考试获得 Adobe 认证专家身份。 在此可安排考试或参加培训课程。 请参阅[培训和认证](/help/main/c-intro/training-and-certification.md)。
 * **Adobe Target 发行说明**：关于每个 [!DNL Target Standard] 和 [!DNL Target Premium] 发行版的功能、增强和修复的信息。 此外，在适用的情况下，还包括 Target API、SDK、JavaScript 库 (at.js) 的发行说明和其他平台变更。 请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md)。

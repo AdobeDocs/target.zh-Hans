@@ -5,24 +5,20 @@ title: 如何将体验性能报表用于多变量测试？
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 TQID: https://experienceleague.adobe.com/H9FsCRlv9l2tdooTn2KWjTRP84XR6lthSJZd59KtBbg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 326
-ht-degree: 72%
+source-wordcount: 331
+ht-degree: 71%
 
 ---
 
-# [!UICONTROL Experience Performance]报表(MVT)
+# [!UICONTROL 体验性能]报表(MVT)
 
-[!UICONTROL Experience Performance]报表显示活动中每个体验的执行情况。 此报表包含有关参加者数量、转化率、提升度和置信度的信息。
+[!UICONTROL 体验性能]报表显示活动中每个体验的执行情况。 此报表包含有关参加者数量、转化率、提升度和置信度的信息。
 
-您可以选择一个或多个体验来进行比较。 单击某个体验，然后选择&#x200B;**[!UICONTROL Preview]**&#x200B;以在浏览器选项卡中打开该体验。
+您可以选择一个或多个体验来进行比较。 单击某个体验，然后选择&#x200B;**[!UICONTROL 预览]**&#x200B;以在浏览器选项卡中打开该体验。
 
 报表顶部显示了报表中使用的量度、开始和结束日期以及受众。 您可以对所有这些元素进行更改。
 
@@ -44,4 +40,4 @@ ht-degree: 72%
 
 以下视频演示了如何使用 Target 三步引导式工作流创建多变量测试。 从8:20开始描述体验性能报表。
 
->[!VIDEO](https://video.tv.adobe.com/v/30337?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

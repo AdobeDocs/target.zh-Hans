@@ -5,15 +5,12 @@ title: 可在何处找到有关A4T的量度定义的信息？
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
 TQID: https://experienceleague.adobe.com/CLUm25T-5PCOzdXVL94kCgvqM-OL3dZzWXkG1qmN8IE
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 36%
+source-wordcount: 367
+ht-degree: 35%
 
 ---
 
@@ -31,11 +28,11 @@ ht-degree: 36%
 ## 在配置目标量度时，为何无法访问高级设置选项？ {#adv-settings}
 
 +++回答
-[!UICONTROL Advanced Settings]选项不适用于使用[!DNL Analytics]作为报表源(A4T)的活动。
+[!UICONTROL 高级设置]选项不适用于使用[!DNL Analytics]作为报表源(A4T)的活动。
 
-对于使用A4T的活动，目标量度始终使用“[!UICONTROL Increment Count & Keep User in Activity]”和“[!UICONTROL On Every Impression]”设置。 这些设置是&#x200B;*不可配置的*。
+对于使用A4T的活动，目标量度始终使用“[!UICONTROL 递增计数并保持用户处于活动中]”和“[!UICONTROL 在每次展示]”设置。 这些设置是&#x200B;*不可配置的*。
 
-对于非A4T活动，您可以使用[高级设置选项](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)来管理衡量成功的方式。 选项包括添加依赖项、选择是将用户保留在活动中还是将其删除，以及是为每个参加者还是每次展示都计算一次量度。 在非A4T活动中通过单击垂直省略号> [!UICONTROL Advanced Settings]访问[!UICONTROL Advanced Settings]选项，如下所示：
+对于非A4T活动，您可以使用[高级设置选项](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)来管理衡量成功的方式。 选项包括添加依赖项、选择是将用户保留在活动中还是将其删除，以及是为每个参加者还是每次展示都计算一次量度。 通过单击垂直省略号> [!UICONTROL 高级设置]，可在非A4T活动中访问[!UICONTROL 高级设置]选项，如下所示：
 
 ![高级设置](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 

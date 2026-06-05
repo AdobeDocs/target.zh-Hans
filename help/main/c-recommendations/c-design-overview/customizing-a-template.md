@@ -2,17 +2,15 @@
 keywords: 自定义设计;Velocity;小数;逗号;自定义设计
 description: 了解如何使用开源 [!DNL Velocity] 设计语言自定义 [!DNL Target] 推荐中的推荐设计。
 title: 如何使用Velocity自定义设计？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 TQID: https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1083
+source-wordcount: 1089
 ht-degree: 32%
 
 ---
@@ -215,7 +213,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ![rec_key图像](assets/rec_key.png)
 
-创建[!DNL Recommendations]活动时，如果关键项目是从访客的配置文件中获取的（例如“上次购买的项目”），则[!DNL Target]会在[!UICONTROL Visual Experience Composer] (VEC)中显示一个随机产品。 这是因为在您设计活动时配置文件不可用。 访客查看页面时，他们将看到预期的关键项目。
+创建[!DNL Recommendations]活动时，如果关键项目是从访客的配置文件中获取的（例如“上次购买的项目”），则[!DNL Target]会在[!UICONTROL 可视化体验编辑器] (VEC)中显示一个随机产品。 这是因为在您设计活动时配置文件不可用。 访客查看页面时，他们将看到预期的关键项目。
 
 ## 在字符串值中执行替换 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -245,7 +243,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## 自定义模板大小并检查空白值 {#default}
 
-使用[!DNL Velocity]脚本控制实体显示的动态大小，以下模板可容纳一对多结果，以避免在[!DNL Recommendations]返回的匹配实体不足时创建空的HTML元素。 此脚本最适合备份推荐没有意义且已启用[!UICONTROL Partial Template Rendering]的情况。
+使用[!DNL Velocity]脚本控制实体显示的动态大小，以下模板可容纳一对多结果，以避免在[!DNL Recommendations]返回的匹配实体不足时创建空的HTML元素。 此脚本最适合备份推荐没有意义且已启用[!UICONTROL 部分模板渲染]的情况。
 
 以下 HTML 代码段将替换 4x2 默认设计中的现有 HTML 部分（为简便起见，此处不包括 CSS）：
 

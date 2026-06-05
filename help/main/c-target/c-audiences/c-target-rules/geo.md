@@ -6,17 +6,12 @@ feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 TQID: https://experienceleague.adobe.com/1ksd0-jtTMia-wqAfr6SxPqGVgd9t17dKSEyYrfYp1U
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: 1078
 ht-degree: 40%
 
 ---
@@ -29,28 +24,28 @@ ht-degree: 40%
 
 ## 通过地域定位创建受众 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 命名受众并添加可选描述。
-1. 将&#x200B;**[!UICONTROL Geo]**&#x200B;拖放到受众生成器窗格中。
+1. 将&#x200B;**[!UICONTROL 地域]**&#x200B;拖放到受众生成器窗格中。
 
-1. 单击&#x200B;**[!UICONTROL Select]**，然后选择以下选项之一：
+1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
-   * [!UICONTROL Country/Region]
-   * [!UICONTROL State]
-   * [!UICONTROL City]
-   * [!UICONTROL Zip Code]
-   * [!UICONTROL Longitude]
-   * [!UICONTROL Latitude]
+   * [!UICONTROL 国家/地区]
+   * [!UICONTROL 状态]
+   * [!UICONTROL 城市]
+   * [!UICONTROL 邮政编码]
+   * [!UICONTROL 经度]
+   * [!UICONTROL 纬度]
    * [!UICONTROL DMA]
-   * [!UICONTROL Mobile Carrier]
+   * [!UICONTROL 移动运营商]
 
    访问者的地理信息是根据 [!DNL Target] 位置请求（mbox 请求）的原始 IP 地址确定的。 IP 到地理位置的解析是在新会话的第一次调用时完成的。 这意味着，如果访问者的 IP 地址在访问期间发生变化，地理信息仍基于第一次调用的 IP 地址。
 
-   对于[!UICONTROL Mobile Carrier]，[!DNL Target]使用IP地址注册数据（拥有IP地址块）通过[移动设备国家/地区代码(MCC)和移动设备网络代码(MNC)](https://www.mcc-mnc.com)来确定相应的移动设备运营商。
+   对于[!UICONTROL 移动设备运营商]，[!DNL Target]使用IP地址注册数据（拥有IP地址块）通过[移动设备国家/地区代码(MCC)和移动设备网络代码(MNC)](https://www.mcc-mnc.com)来确定相应的移动设备运营商。
 
 1. 指定运算符和相应的值。
 1. （可选）为受众设置其他规则。
-1. 单击 **[!UICONTROL Done]**。
+1. 单击&#x200B;**[!UICONTROL 完成]**。
 
 下图展示了一个受众，它定位的是从纬度大于44°且经度小于22°的纬度访问活动的用户。
 

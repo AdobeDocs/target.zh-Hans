@@ -5,25 +5,13 @@ title: 可在何处找到关于使用 Target 的提示和技巧？
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 TQID: https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2960
+source-wordcount: 2891
 ht-degree: 73%
 
 ---
@@ -42,7 +30,7 @@ ht-degree: 73%
 
 **应了解的要点**：由于 [!DNL Target] 是一种开放而无特定要求的平台，它与多种不同的技术配合得都很好，因此可按多种不同的方式添加 CRM 或购买的数据。 这意味着可选择一种最适合您组织的方法。
 
-有关更多信息，请参阅[将数据纳入到 Target 中的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}。
+有关更多信息，请参阅[将数据纳入到 Target 中的方法](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}。
 
 ## 提示 2：通过将 [!DNL Target] 受众融入其他 Adobe Experience Cloud 受众，可更深入地进行个性化。
 
@@ -50,7 +38,7 @@ ht-degree: 73%
 
 有关分步说明，请参阅[组合多个受众](/help/main/c-target/combining-multiple-audiences.md)。
 
-**应了解的要点**：可自动在 [!DNL Target] 中找到 [!DNL Adobe Audience Manager] 受众。 但共享 [!DNL Adobe Analytics] 受众需要进行一些手动设置。 只需在[!DNL Analytics]的受众构建过程中勾选标有“使此项成为Experience Cloud受众”的框。 然后，从[!DNL Target]中单击“导入Experience Cloud受众”。
+**应了解的要点**：可自动在 [!DNL Target] 中找到 [!DNL Adobe Audience Manager] 受众。 但共享 [!DNL Adobe Analytics] 受众需要进行一些手动设置。 只需在[!DNL Analytics]中的受众构建过程中勾选标有“使此项成为Experience Cloud受众”的框。 然后，从[!DNL Target]中单击“导入Experience Cloud受众”。
 
 ## 提示 3：从 [!DNL Target] 导出数据以用于第三方工具。
 
@@ -168,8 +156,8 @@ ht-degree: 73%
 
 设置活动以使用 QA 参数的好处之一是，可与团队中的每个人分享这些链接。 您可以让更多人知道该活动，并确保他们在点击测试变体时不会认为网站没有正常运行。
 
-完成测试后，传达活动开展情况、测试结果以及尤其是经验教训，将有助于加强对测试结果的认知和兴趣。 与组织中的每个人分享结果还可避免重新测试某个假设、告诉每个人什么有效，并且帮助他们根据您发现的事实从根本上质疑他们自己关于什么有效的想法。 最好准备一个模板，每次都用它分享您的调查结果和关键经验教训。
-然后，考虑创建可分享的书籍或 Microsoft PowerPoint 幻灯片组，以逐渐积累这些经验教训。
+完成测试后，传达活动开展情况、测试结果以及尤其是经验教训，将有助于加强对测试结果的认知和兴趣。与组织中的每个人分享结果还可避免重新测试某个假设、告诉每个人什么有效，并且帮助他们根据您发现的事实从根本上质疑他们自己关于什么有效的想法。最好准备一个模板，每次都用它分享您的调查结果和关键经验教训。
+然后，考虑创建可分享的书籍或Microsoft PowerPoint资料夹，以逐渐积累这些经验教训。
 
 ## 提示 20：发掘移动功能以创建更多创新的移动活动。
 

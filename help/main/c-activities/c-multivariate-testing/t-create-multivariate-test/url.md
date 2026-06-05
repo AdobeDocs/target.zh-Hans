@@ -1,55 +1,53 @@
 ---
 keywords: 多变量测试；活动URL
-description: 了解如何指定活动URL，以确定测试中使用的页面，以及在使用 [!DNL Adobe Target]设计[!UICONTROL Multivariate Test]活动时打开的页面。
-title: '[!UICONTROL Multivariate Test] (MVT)活动中的活动网址是什么？'
+description: 了解如何指定活动URL，以确定测试中使用的页面，以及在使用 [!DNL Adobe Target]设计[!UICONTROL 多变量测试]活动时打开的页面。
+title: '[!UICONTROL 多变量测试] (MVT)活动中的活动URL是什么？'
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 TQID: https://experienceleague.adobe.com/oQKwrlZ95XKEKSJIUiWqXXo9AJJzCb20gfS1rtwGImM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 269
-ht-degree: 31%
+source-wordcount: 298
+ht-degree: 38%
 
 ---
 
 # 活动 URL
 
-活动URL可决定[!UICONTROL Multivariate Test] (MVT)中使用的页面，以及在[!DNL Adobe Target]中设计测试时打开的页面。
+活动URL可决定[!UICONTROL 多变量测试] (MVT)中使用的页面，以及在[!DNL Adobe Target]中设计测试时打开的页面。
 
-1. 在[活动创建](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)过程中，如果收到相应的提示，请指定活动 URL。 键入完整的URL（包括`https://`），然后单击&#x200B;**[!UICONTROL Create]**。
+1. 在[活动创建](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)过程中，如果收到相应的提示，请指定活动 URL。 键入完整的URL（包括`https://`），然后单击&#x200B;**[!UICONTROL 创建]**。
 
    >[!NOTE]
    >
    >[!DNL Target] 不区分 URL 协议（[!DNL https] 和 [!DNL http]）。 因此，[!DNL `https://www.adobe.com`]和[!DNL `http://www.adobe.com`]都匹配。
 
-   默认情况下，[!UICONTROL Visual Experience Composer] (VEC)会打开[可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的页面。 在活动创建过程中，您可以指定其他页面。
+   默认情况下，[!UICONTROL 可视化体验编辑器] (VEC)会打开[可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的页面。 在活动创建过程中，您可以指定其他页面。
 
-1. （视情况而定）要在VEC打开后显示其他页面，请单击&#x200B;**[!UICONTROL Configure]**&#x200B;图标，选择&#x200B;**[!UICONTROL Page Delivery]**，然后指定URL。
+1. （视情况而定）要在VEC打开后显示其他页面，请单击&#x200B;**[!UICONTROL 配置]**&#x200B;图标，选择&#x200B;**[!UICONTROL 页面交付]**，然后指定URL。
 
-1. （视情况而定）单击&#x200B;**[!UICONTROL Add Rule]**&#x200B;以向活动添加更多页面或部分。
+1. （视情况而定）单击&#x200B;**[!UICONTROL 添加规则]**&#x200B;以向活动添加更多页面或部分。
 
    其他规则可以基于以下任何一项：
 
-   * [!UICONTROL &#x200B; URL]
-   * [!UICONTROL Domain]
-   * [!UICONTROL Path]
-   * [!UICONTROL Hash (#) Fragment]
-   * [!UICONTROL Query]
-   * [!UICONTROL Custom]
+   * [!UICONTROL  URL]
+   * [!UICONTROL 域名]
+   * [!UICONTROL 路径]
+   * [!UICONTROL 哈希(#)片段]
+   * [!UICONTROL 查询]
+   * [!UICONTROL 自定义]
 
    其他规则可以通过AND或OR连接到活动URL。 使用AND会相互评估您添加的所有规则。
 
-   完成后单击&#x200B;**[!UICONTROL Save]**。
+   完成后单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!NOTE]
 >
 >如果您输入的URL所对应的网站不包含[!DNL Target] JavaScript代码，则您将无法选择页面元素。
 >
->默认情况下，VEC 不允许更改包含 JavaScript 的元素，如旋转横幅。 如果您希望能够使用[!UICONTROL Visual Experience Composer]更改这些元素，可以关闭&#x200B;**[!UICONTROL Render using JavaScript]**。
+>默认情况下，VEC 不允许更改包含 JavaScript 的元素，如旋转横幅。 如果您希望能够使用&#x200B;**[!UICONTROL 可视化体验编辑器]**&#x200B;更改这些元素，可以关闭[!UICONTROL 使用 JavaScript 渲染]。
 
 >[!NOTE]
 >

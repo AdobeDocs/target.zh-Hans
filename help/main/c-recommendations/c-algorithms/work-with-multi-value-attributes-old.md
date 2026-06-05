@@ -6,8 +6,8 @@ feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 9%
+source-wordcount: '483'
+ht-degree: 8%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 9%
 
 有时，您可能需要使用多值字段。 请仔细研究下面的示例：
 
-* 您向用户提供电影。给定的电影有多个演员。
-* 您出售音乐会门票。给定的用户有多个喜欢的乐队。
-* 您出售服装。某款衬衫有多种尺寸可供选择。
+* 您向用户提供电影。 给定的电影有多个演员。
+* 您出售音乐会门票。 给定的用户有多个喜欢的乐队。
+* 您出售服装。 某款衬衫有多种尺寸可供选择。
 
 若要处理这些方案中的推荐，可将多值数据传递给[!DNL Target Recommendations]并使用特殊的多值运算符。
 
@@ -40,7 +40,7 @@ function targetPageParams() {
 }
 ```
 
-有关详细信息，请参阅[自定义实体属性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)中的&#x200B;*实现多值属性*。
+有关详细信息，请参阅&#x200B;*自定义实体属性*&#x200B;中的[实现多值属性](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)。
 
 ## 在CSV文件中传递多值实体属性
 
@@ -63,8 +63,8 @@ function targetPageParams() {
 
 以下运算符可用于多值实体、配置文件和mbox属性：
 
-* [!UICONTROL is contained in list]
-* [!UICONTROL is not contained in list]
+* [!UICONTROL 包含在列表]中
+* [!UICONTROL 不包含在列表]中
 
 ## 在包含规则中使用多值属性
 
@@ -118,7 +118,7 @@ function targetPageParams() {
 
 ### 示例：API创建从用户的收藏夹中推荐项目的标准
 
-使用多值过滤规则的标准（与所有标准一样）可以通过Adobe I/O API创建。 此处提供了用于创建条件的示例API调用，其中mbox参数列表`id`中包含实体属性`favorites`：
+使用多值过滤规则的标准（与所有标准一样）可以通过Adobe I/O API创建。 此处提供了用于创建条件的示例API调用，其中mbox参数列表`favorites`中包含实体属性`id`：
 
 ```
 curl -X POST \

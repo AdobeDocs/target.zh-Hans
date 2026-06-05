@@ -2,22 +2,17 @@
 keywords: 重复数据删除；允许重复项；排除重复的选件；自动个性化；不允许重复的选件；排除；默认内容；
 description: 管理[!UICONTROL Automated Personalization] (AP)活动中的排除项。
 title: 如何管理[!UICONTROL Automated Personalization]活动中的排除项？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
 TQID: https://experienceleague.adobe.com/ERpNwQPsIRBmU0vTZbGa-lYg30BYl-uJxA8UT0f6060
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 492
-ht-degree: 21%
+source-wordcount: 521
+ht-degree: 23%
 
 ---
 
@@ -31,7 +26,7 @@ ht-degree: 21%
 
 例如，在您的一个活动中，一个页面上可能有 6 个位置和 12 个选件。 活动中的多个位置可能存在相同的选件。 通过此功能，您可以防止在同一活动内的不同位置同时显示重复的选件。
 
-1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)时，单击&#x200B;**[!UICONTROL Configure]**&#x200B;图标（![配置图标](/help/main/assets/icons/Setting.svg) ）>单击&#x200B;**[!UICONTROL Allow Duplicate Offers]**&#x200B;以根据您的需求打开和关闭此功能。
+1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)时，单击&#x200B;**[!UICONTROL 配置]**&#x200B;图标（![配置图标](/help/main/assets/icons/Setting.svg) ）>单击&#x200B;**[!UICONTROL 允许重复的选件]**&#x200B;以根据您的需求打开和关闭此功能。
 
 ## 排除特定体验 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
@@ -41,17 +36,17 @@ ht-degree: 21%
 
 1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)时，单击&#x200B;**管理内容**&#x200B;图标（![管理内容图标](/help/main/assets/icons/Experience.svg)）。
 
-   [!UICONTROL Experiences]列表显示了所有内容和位置选项经过排列组合而生成的每个体验。
+   “[!UICONTROL 体验]”列表显示了所有内容和位置选项经过排列组合而生成的各个体验。
 
 1. 根据需要排除相应的体验。
 
    您可以通过单击&#x200B;[!UICONTROL **更多操作**]&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg)）然后单击&#x200B;[!UICONTROL **排除**]&#x200B;来排除特定体验。
 
-   或者，您也可以批量排除体验，方法是选中相关体验的复选框，然后单击&#x200B;**[!UICONTROL Exclude]**。 选中一个或多个体验后，[!UICONTROL Exclude]图标即会显示。
+   或者，您也可以批量排除体验，方法是选中相关体验的复选框，然后单击&#x200B;**[!UICONTROL 排除]**。 选中一个或多个体验时，将显示[!UICONTROL 排除]图标。
 
    ![批量排除体验](/help/main/c-activities/t-automated-personalization/assets/exclude1.png)
 
-   体验现已从活动中排除，其[!UICONTROL Status]显示为[!UICONTROL Excluded]。
+   体验现已从活动中排除，其[!UICONTROL 状态]显示为[!UICONTROL 已排除]。
 
 ## 排除默认内容 {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
@@ -59,14 +54,14 @@ ht-degree: 21%
 
 排除默认内容是一种非常有用的方法，可用于更改页面上其余内容的外观，以使其符合您在 AP 活动中所测试的产品建议。 例如，假设您想要匹配所测试选件的调色板，则可以更改页面的背景颜色并排除默认的背景颜色。
 
-**使用[!UICONTROL Visual Experience Composer] (VEC)排除默认内容：**
+**使用[!UICONTROL 可视化体验编辑器] (VEC)排除默认内容：**
 
-1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)时，选择要替换的内容，然后单击以访问&#x200B;**[!UICONTROL Change Text/HTML]**、**[!UICONTROL Change Image Offer]**&#x200B;或&#x200B;**[!UICONTROL Change Background Color]**。 可用选项因内容类型而异。
+1. 在[创建或编辑AP活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)时，选择要替换的内容并单击以访问&#x200B;**[!UICONTROL 更改文本/HTML]**、**[!UICONTROL 更改图像选件]**&#x200B;或&#x200B;**[!UICONTROL 更改背景颜色]**。 可用选项因内容类型而异。
 
    ![更改选项](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. 创建新内容。
 
-1. 单击&#x200B;**[!UICONTROL More Actions]** （ ![更多操作图标](/help/main/assets/icons/Setting.svg) ）图标，然后单击&#x200B;**排除默认选件/包含默认选件**/切换以排除或包含默认选件。
+1. 单击&#x200B;**[!UICONTROL 更多操作]** （ ![更多操作图标](/help/main/assets/icons/Setting.svg) ）图标，然后单击&#x200B;**排除默认选件/包含默认选件**/切换以排除或包含默认选件。
 
    <!--
    Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 

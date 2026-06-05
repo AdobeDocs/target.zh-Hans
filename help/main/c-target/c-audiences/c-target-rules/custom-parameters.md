@@ -5,16 +5,13 @@ title: 我是否可以根据自定义参数定位访客？
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 TQID: https://experienceleague.adobe.com/IiMsTLXIYWfd8vXInIfyQtFZ4RDNTe28bPfvqFgi77U
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 497
-ht-degree: 40%
+source-wordcount: 507
+ht-degree: 39%
 
 ---
 
@@ -22,24 +19,24 @@ ht-degree: 40%
 
 自定义参数是[!DNL Adobe Target]中的mbox参数。 如果您将任何mbox参数传递给mbox，或者使用`targetPageParams`函数，则这些参数将显示在此处，以供在受众中使用。
 
-有关详细信息，请参阅[将参数传递到全局mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=zh-Hans){target=_blank}。
+有关详细信息，请参阅[将参数传递到全局mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}。
 
 创建基于 mbox 参数的自定义受众时，`mboxParameter` 将不再提示您输入 `mboxName`。 mbox 名称现在是可选的。 通过这项更改，您可以使用多个 mbox 中的参数或引用尚未记录到 Edge 的参数。
 
-1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 命名受众并添加可选描述。
-1. 将&#x200B;**[!UICONTROL Custom]**&#x200B;拖放到受众生成器中。
+1. 将&#x200B;**[!UICONTROL 自定义]**&#x200B;拖放到受众生成器中。
 
    要选择所需的参数，请执行以下操作：
 
    * 创建受众时，请从列表中选择参数名称，开始键入所需参数名称的前几个字符，或键入所需参数名称的全名。
-   * 如果您记得mbox名称，但不记得参数名称，请使用[!UICONTROL Filter by]下拉列表来筛选传递所需参数的已知mbox。
+   * 如果您记得mbox名称，但不记得参数名称，请使用[!UICONTROL 筛选依据]下拉列表来筛选传递所需参数的已知mbox。
 
    无论使用哪种方法，mbox 和参数之间均没有链接。 受众在所有传递该参数的mbox中根据参数工作。
 
    >[!NOTE]
    >
-   >您从[!UICONTROL Filter By]下拉列表中选择的mbox在创建活动时未保存。 此选项允许您根据选定的 mbox 筛选参数。
+   >您从[!UICONTROL 筛选依据]下拉列表中选择的mbox在创建活动时未保存。 此选项允许您根据选定的 mbox 筛选参数。
 
    如果您编辑现有受众，则会显示筛选标准以及在创建期间提供的 mbox 名称。
 
@@ -65,9 +62,9 @@ ht-degree: 40%
 
 1. 在新行中输入每个值。
 1. （可选）为受众设置其他规则。
-1. 单击 **[!UICONTROL Done]**。
+1. 单击&#x200B;**[!UICONTROL 完成]**。
 
-受众的[定义详细信息弹出卡片](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)显示&#x200B;**[!UICONTROL Rules]**&#x200B;部分中的参数名称。 没有对用于筛选的 mbox 的引用。
+受众的[定义详细信息弹出卡](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)显示&#x200B;**[!UICONTROL 规则]**&#x200B;部分中的参数名称。 没有对用于筛选的 mbox 的引用。
 
 >[!NOTE]
 >

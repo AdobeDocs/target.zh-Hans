@@ -2,18 +2,15 @@
 keywords: 故障诊断;常见问题解答;FAQ;推荐;特殊字符;属性权重;内容相似度
 description: 查看有关 [!DNL Target Recommendations] 活动的常见问题和答案的列表。
 title: 可在何处找到关于 [!DNL Recommendations]的问答？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 3544
+source-wordcount: 3578
 ht-degree: 80%
 
 ---
@@ -24,13 +21,13 @@ ht-degree: 80%
 
 ## 通过API创建的[!DNL Recommendations]对象是否显示在[!DNL Target] UI中？
 
-是，通过API创建的[!UICONTROL Recommendations]对象（[!UICONTROL Criteria]、[!UICONTROL Designs]、[!UICONTROL Collections]和[!UICONTROL Exclusions]）在UI中可用，可以通过API或[!DNL Target] UI进行编辑。
+可以，通过API创建的[!UICONTROL 推荐]对象（[!UICONTROL 标准]、[!UICONTROL 设计]、[!UICONTROL 收藏集]和[!UICONTROL 排除项]）在UI中可用，可以通过API或[!DNL Target] UI进行编辑。
 
 ## 我是否可以使用[!DNL Target] API管理[!DNL Target]个UI创建的可视化选件？
 
-否. 在[!DNL Target] UI中创建了可视化选件的[!DNL Recommendations]活动无法使用[!DNL Target] API进行管理。 虽然这些活动显示在[!UICONTROL Activities]列表中，但您无法读取或更新它们（使用GET/PUT）。
+否. 在[!DNL Target] UI中创建了可视化选件的[!DNL Recommendations]活动无法使用[!DNL Target] API进行管理。 虽然这些活动显示在[!UICONTROL 活动]列表中，但您无法读取或更新它们（使用GET/PUT）。
 
-## 对具有数字值的自定义属性进行搜索时，为什么[!UICONTROL Catalog Search]不显示正确结果？
+## 对具有数字值的自定义属性进行搜索时，为什么[!UICONTROL 目录搜索]不显示正确结果？
 
 对具有数字值的自定义属性执行目录搜索时，结果将该自定义属性视为字符串类型，而非数字值。
 
@@ -68,7 +65,7 @@ ht-degree: 80%
 >
 >当信息源文件的状态从“正在导入项目”变为“正在准备搜索索引更新”时，信息源文件会被视为已导入。 更新可能耗时 60 分钟以上才能反映在目录搜索用户界面中；当信息源状态变为“更新已完成”时，目录搜索即为最新。 即使目录搜索并非最新，您的网站也会反映上方所列时间范围内的更新。 最新的“目录搜索”索引更新时间将显示在“目录搜索”页面上。
 
-## 对我的[!UICONTROL Recommendations]活动、优惠、促销或标准设置做出的更改需要多久才能反映在我的网站上？
+## 对我的[!UICONTROL 推荐]活动、优惠、促销或标准设置做出的更改需要多久才能反映在我的网站上？
 
 * 对促销设置做出的更改最多需要五个小时才能反映在网站上。
 * 对其他标准设置做出的更改到下一次算法运行时才会反映在网站上。
@@ -109,25 +106,25 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 如果使用 mbox 中存在类别 ID 的位置，则标准选取器包含所有适用的标准。
 
-[!DNL Target] 具有[“筛选不兼容的标准”](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}设置以控制算法选取器的智能筛选。
+[!DNL Target] 具有[“筛选不兼容的标准”](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}设置以控制算法选取器的智能筛选。
 
 >[!NOTE]
 >
->此设置仅适用于在[!UICONTROL Visual Experience Composer] (VEC)中创建的活动。 此设置不适用于在基于表单的体验编辑器中创建的活动（[!DNL Target] 没有位置上下文）。
+>此设置仅适用于在[!UICONTROL 可视化体验编辑器] (VEC)中创建的活动。 此设置不适用于在基于表单的体验编辑器中创建的活动（[!DNL Target] 没有位置上下文）。
 
-要访问[!UICONTROL Filter Incompatible Criteria]设置，请单击[!UICONTROL Recommendations] > [!UICONTROL Settings]：
+要访问“[!UICONTROL 筛选不兼容的标准]”设置，请单击“[!UICONTROL 推荐]”>“[!UICONTROL 设置]”：
 
 ![recs_settings_filter图像](assets/recs_settings_filter.png)
 
-如果未启用[!UICONTROL Filter Incompatible Criteria]设置，则[!DNL Target]不会筛选算法选择器中的算法，并且会显示所有算法。
+如果未启用[!UICONTROL 筛选不兼容的标准]设置，则[!DNL Target]不会筛选算法选择器中的算法，并且会显示所有算法。
 
-如果[!UICONTROL Filter Incompatible Criteria]设置已启用，则在VEC活动中，[!DNL Target]会从选定的位置中读取实体ID和类别ID，然后根据`currentItem|currentCategory`显示算法（前提是该位置中存在相应的值）。 因此，默认情况下，算法选择器中仅会显示选定位置的兼容算法。
+如果启用了[!UICONTROL 筛选不兼容的标准]设置，则在VEC活动中，[!DNL Target]会从选定的位置中读取实体ID和类别ID，然后根据`currentItem|currentCategory`显示算法（前提是该位置中存在相应的值）。 因此，默认情况下，算法选择器中仅会显示选定位置的兼容算法。
 
-如果启用了[!UICONTROL Filter Incompatible Criteria]设置，您仍可以通过取消选中条件时勾选[!UICONTROL Compatible]复选框来查看不兼容的算法。
+如果“[!UICONTROL 筛选不兼容的标准]”设置已启用，您仍然能够查看不兼容的算法，方法是在选择标准时取消选中“[!UICONTROL 兼容]”复选框。
 
 ![compatible_checkbox图像](assets/compatible_checkbox.png)
 
-以下列表包含[!DNL Target]不显示[!UICONTROL Compatible]复选框的特殊情况：
+以下列表包含[!DNL Target]不显示[!UICONTROL 兼容]复选框的特殊情况：
 
 * 位置中同时存在实体 ID 和类别 ID，在这种情况下将不进行任何筛选。
 * 您使用的是 [!DNL mbox.js] 版本 55 或更低版本。
@@ -206,9 +203,9 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 对于上传信息源的 CSV 文件，其行数或文件大小没有硬性限制。 但是，作为最佳实践，Adobe 建议将 CSV 文件的大小限制为最大 1 GB，以免在文件上传过程中失败。 如果文件大小超过 1 GB，则最好能将其拆分为多个信息源文件。 自定义属性列的最大数量为 100，自定义属性限制为 4,096 个字符。 可在 [[!DNL Target]  的“限制”页面](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)上找到针对所需列长度的其他限制。
 
-## 为什么我的[!UICONTROL Download data]操作在[!DNL Recommendations]活动中失败？ {#download-data-error}
+## 为什么我的[!UICONTROL 下载数据]操作在[!DNL Recommendations]活动中失败？ {#download-data-error}
 
-当您在[!DNL Recommendations]活动的[!UICONTROL Activity Overview]页面上单击&#x200B;**[!UICONTROL Download data]**&#x200B;时，[!DNL Target]用户界面可能会显示错误`Error while fetching recommendation data file.`
+当您在[!DNL Recommendations]活动的[!UICONTROL 活动概述]页面上单击&#x200B;**[!UICONTROL 下载数据]**&#x200B;时，[!DNL Target]用户界面可能会显示错误`Error while fetching recommendation data file.`
 
 当活动具有非常大的结果集时，通常会发生这种情况：生成的CSV超出了单次下载中可以通过用户界面返回的响应大小。 推荐数据本身是完整的，只有浏览器中的下载路径无法投放该大小的文件。
 
@@ -264,7 +261,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## 我是否可以在 [!DNL Recommendations Premium] 中使用在 [!DNL Adobe Recommendations Classic] 中创建的算法？
 
-[!DNL Recommendations Premium] 不支持 [!DNL Recommendations Classic] 中创建的算法。 您或许可以使用 [!DNL Target Premium] 中的旧算法；但是，在 [!DNL Target Premium] UI 中停用或删除活动时，该算法可能会产生同步问题。 有关这两种解决方案之间差异的更多信息，请参阅 [!DNL Target Premium][&#128279;](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[!DNL Recommendations Classic] 与 [!DNL Recommendations] 活动。
+[!DNL Recommendations Premium] 不支持 [!DNL Recommendations Classic] 中创建的算法。 您或许可以使用 [!DNL Target Premium] 中的旧算法；但是，在 [!DNL Target Premium] UI 中停用或删除活动时，该算法可能会产生同步问题。 有关这两种解决方案之间差异的更多信息，请参阅 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)中的[[!DNL Recommendations Classic] 与 [!DNL Recommendations] 活动。
 
 ## 如何只推荐新文章或视频？ {#recommend-new-articles}
 
@@ -298,7 +295,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ### 使用[!DNL Recommendations]活动时出现哪些已知问题？
 
-以下是[!UICONTROL Recommendations]活动的已知问题：
+以下是[!UICONTROL 推荐]活动的已知问题：
 
 * 当 [!DNL Target] 用 getOffer() 返回 JSON 产品建议时，它返回的是 JSON 类型。 但是，如果您返回 JSON 推荐设计，则它返回的是 HTML 类型。
 * 60 天未通过信息源或 API 收到更新之后，已到期的实体可正确地到期；但是，在到期后并不从目录搜索的索引中删除已到期的实体。 当前也不从目录搜索的索引中删除通过信息源或 API 删除的实体。 (IRI-857)

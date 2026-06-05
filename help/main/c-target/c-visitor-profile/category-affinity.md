@@ -5,16 +5,13 @@ title: 什么是类别亲和度？
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 TQID: https://experienceleague.adobe.com/B5H-MhD005gmDbRErDOmfifwk-WIsOubWUYpQagRKgU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 56%
+source-wordcount: 880
+ht-degree: 57%
 
 ---
 
@@ -32,7 +29,7 @@ ht-degree: 56%
 
 根据对您的产品类别进行访问的频率和近期情况，会记录用户所具有的类别亲和度（如果有）。 类别亲和度可用于为活动定位访客群体。
 
-您可以在配置文件脚本中使用`user.categoryAffinities[]`以返回访客填充的一组喜好。 有关详细信息，请参阅配置文件属性[&#128279;](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects)中的对象和方法下的user.categoryAffinities。
+您可以在配置文件脚本中使用`user.categoryAffinities[]`以返回访客填充的一组喜好。 有关详细信息，请参阅配置文件属性](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects)中的对象和方法下的[user.categoryAffinities。
 
 >[!IMPORTANT]
 >
@@ -111,15 +108,15 @@ ht-degree: 56%
 
 ### 创建要使用类别亲和度的受众 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. 从&#x200B;**[!UICONTROL Audiences]**&#x200B;列表中，单击&#x200B;**[!UICONTROL Create Audience]**。
+1. 从&#x200B;**[!UICONTROL 受众]**&#x200B;列表中，单击&#x200B;**[!UICONTROL 创建受众]**。
 
    或
 
    在受众列表中，将鼠标悬停在所需受众上，然后单击复制图标，以复制现有受众。 然后，您可以对受众进行编辑以创建一个类似的受众。
 
 1. 键入描述性受众名称。
-1. 单击&#x200B;**[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**。
-1. 从&#x200B;**[!UICONTROL Visitor Profile]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Category Affinity]**。
+1. 单击 **[!UICONTROL + 添加规则]** > **[!UICONTROL 访客配置文件]**。
+1. 从&#x200B;**[!UICONTROL 访客配置文件]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 类别亲和度]**。
 
    ![“访客轮廓”>“类别亲和度”](assets/affinity.png)
 
@@ -145,7 +142,7 @@ ht-degree: 56%
    * 等于
 
 1. 在单独的行中指定每个新值（例如，“鞋子”）。
-1. 单击 **[!UICONTROL Save]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ### 在活动中使用类别亲和度受众 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 

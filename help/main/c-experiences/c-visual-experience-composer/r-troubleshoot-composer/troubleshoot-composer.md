@@ -5,24 +5,19 @@ title: 如何为可视化体验编辑器和增强型体验编辑器排除故障�
 feature: Visual Experience Composer (VEC)
 exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
 TQID: https://experienceleague.adobe.com/Dlh0ovXPkgDgeMvcWi2GChACuDmYWKuFRH7Kx4VPrYw
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 244
-ht-degree: 67%
+source-wordcount: 250
+ht-degree: 66%
 
 ---
 
 # 可视化体验编辑器和增强型体验编辑器故障诊断
 
-在某些情况下，[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)和[!UICONTROL Enhanced Experience Composer] (EEC)有时会发生显示问题。
+在某些情况下，[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)和[!UICONTROL 增强型体验编辑器] (EEC)有时会发生显示问题。
 
 VEC 是 [!DNL Adobe Target] 的主要功能之一。 通过 VEC 编辑器，营销人员和设计人员可以使用可视化界面创建和更改内容。 无需直接编辑代码，便可进行多种设计选择。 使用编辑器提供的编辑选项也可以编辑 HTML 和 JavaScript。
 

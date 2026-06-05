@@ -5,22 +5,14 @@ title: 如何使用优惠决策？
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
 TQID: https://experienceleague.adobe.com/xEae4As4rNbPv-an3Iu8PCMzxftSAmN4iu0PEq6VDFQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 951
-ht-degree: 4%
+source-wordcount: 1017
+ht-degree: 3%
 
 ---
 
@@ -28,11 +20,11 @@ ht-degree: 4%
 
 将[!DNL Adobe Target]与[!DNL Adobe Journey Optimizer]优惠决策结合使用，以确定下次如何为网页版和移动版访问者提供最佳优惠。
 
-使用[!UICONTROL Visual Experience Composer] (VEC)或[!UICONTROL Form-Based Composer]将在[!DNL Adobe Journey Optimizer]中创建的优惠决策添加到[!DNL Target]活动（手动[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]），以在由[!DNL Target]提供支持的入站渠道上测试并提供个性化优惠给访客。
+使用[!UICONTROL 可视化体验编辑器] (VEC)或[!UICONTROL 基于表单的编辑器]，将在[!DNL Adobe Journey Optimizer]中创建的优惠决策添加到[!DNL Target]活动（手动[!UICONTROL A/B测试]或[!UICONTROL 体验定位]）中，以在由[!DNL Target]支持的入站渠道上测试并提供个性化优惠给访客。
 
 有关[!DNL Adobe Journey Optimizer]和优惠决策的详细信息，请参阅&#x200B;*[!DNL Journey Optimizer]*&#x200B;文档中的以下主题：
 
-* [Journey Optimizer入门](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=zh-Hans)
+* [Journey Optimizer入门](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
 * [关于决策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans)
 
@@ -40,7 +32,7 @@ ht-degree: 4%
 
 要在[!DNL Target]中使用优惠决策，您需要以下各项：
 
-* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}实现的[!DNL Adobe Target Standard]或[!DNL Adobe Target Premium]。
+* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}实现的[!DNL Adobe Target Standard]或[!DNL Adobe Target Premium]。
 
   在使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时，该功能不可用。
 
@@ -59,7 +51,7 @@ ht-degree: 4%
 
 例如，您希望为以下每个地区提供个性化体验：多特蒙德、法兰克福和博胡姆，以及这些团队的隐式和显式粉丝的用户。 作为量度，您需要查看商品网站的访问次数和点击次数。
 
-您想要在默认体验和个性化体验（包括优惠决策，其中包含针对每个地区和团队的优惠）之间设计[!UICONTROL A/B Test]活动（50/50拆分）。 要使用此活动来确定个性化体验与控制体验的转化和提升。
+您想要在默认体验和个性化体验（包括优惠决策，其中针对每个地区和团队提供优惠）之间设计[!UICONTROL A/B测试]活动（50/50拆分）。 要使用此活动来确定个性化体验与控制体验的转化和提升。
 
 ### 游戏流平台
 
@@ -69,37 +61,37 @@ ht-degree: 4%
 
 ## 创建使用优惠决策的体验：
 
-1. 在[!UICONTROL Visual Experience Composer] (VEC)中编辑或创建手动[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting] (XT)活动时，单击页面元素以显示[选项菜单](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
+1. 在[!UICONTROL 可视化体验编辑器] (VEC)中编辑或创建手动[!UICONTROL A/B测试]或[!UICONTROL 体验定位] (XT)活动时，单击页面元素以显示[选项菜单](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
    可视化体验编辑器中的![选项菜单](assets/options-menu1.png)
 
    >[!NOTE]
    >
-   >您还可以在[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)中创建使用[!UICONTROL Offer Decisions]的体验。
+   >您还可以在基于表单的体验编辑器[[!UICONTROL 中创建使用[!UICONTROL 优惠决策]的体验]](/help/main/c-experiences/form-experience-composer.md)。
 
-1. 单击&#x200B;**[!UICONTROL Replace Content]**，然后单击&#x200B;**[!UICONTROL Offer Decision]**。
+1. 单击&#x200B;**[!UICONTROL 替换内容]**，然后单击&#x200B;**[!UICONTROL 优惠决策]**。
 
-   [!UICONTROL Offer Decision]选项仅在编辑或创建[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时可用。 此选项不适用于其他活动类型。 菜单中的可用选项因所选元素而异。
+   仅编辑或创建[手动[!UICONTROL A/B测试]](/help/main/c-activities/t-test-ab/test-ab.md#types)或[[!UICONTROL 体验定位]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动时，[!UICONTROL 优惠决策]选项可用。 此选项不适用于其他活动类型。 菜单中的可用选项因所选元素而异。
 
    可视化体验编辑器中的![选项菜单](assets/options-menu.png)
 
-1. 在VEC右侧的&#x200B;**[!UICONTROL Add Offer Decision]**&#x200B;边栏中，选择所需的沙盒，然后单击选择优惠决策位置。
+1. 在VEC右侧的&#x200B;**[!UICONTROL 添加优惠决策]**&#x200B;边栏中，选择所需的沙盒，然后单击选择优惠决策.placement。
 
-   [!DNL Adobe Experience Platform]中的[沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=zh-Hans){target=_blank}允许您将实例分区到虚拟环境中。 例如，您可能有一个生产环境和一个暂存环境。 [!DNL Adobe Journey Optimizer]中的[版面](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=zh-Hans){target=_blank}有助于确保在正确的位置显示正确的选件内容。
+   [!DNL Adobe Experience Platform]中的[沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank}允许您将实例分区到虚拟环境中。 例如，您可能有一个生产环境和一个暂存环境。 [!DNL Adobe Journey Optimizer]中的[版面](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank}有助于确保在正确的位置显示正确的选件内容。
 
    ![添加优惠决策对话框中的沙盒和投放位置下拉列表](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
-1. 选择所需的优惠版面和优惠决策，然后单击&#x200B;**[!UICONTROL Add]**。
+1. 选择所需的优惠版面和优惠决策，然后单击&#x200B;**[!UICONTROL 添加]**。
 
    ![选择优惠决策对话框](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
-   您的网站显示在VEC中，您可以在其中的[!UICONTROL Modifications]边栏中看到新创建的优惠决策。 您可以单击[!UICONTROL Offer Decision]边栏底部[!UICONTROL Offer Preview]下的优惠以查看优惠决策。
+   您的网站显示在VEC中，您可以在其中的[!UICONTROL 修改]边栏中看到新创建的优惠决策。 您可以单击[!UICONTROL 优惠决策]边栏底部的[!UICONTROL 优惠预览]下的优惠以查看优惠决策。
 
    <!--You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.-->
 
    ![优惠预览](assets/offer-preview2.png)
 
-1. 完成三步引导式工作流的[!UICONTROL Targeting]和[!UICONTROL Goals & Settings]步骤以完成创建活动。
+1. 通过完成三步引导式工作流的[!UICONTROL 定位]和[!UICONTROL 目标和设置]步骤来完成创建活动。
 
    >[!IMPORTANT]
    >
@@ -109,11 +101,11 @@ ht-degree: 4%
 
 处理优惠决策时，请考虑以下信息：
 
-* offer decisioning集成适用于基于[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}的[!DNL Target]实施。 在使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时，此功能不可用。
+* offer decisioning集成适用于基于[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}的[!DNL Target]实施。 在使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时，此功能不可用。
 
-* [!DNL Target]/[!DNL Adobe Journey Optimizer]集成仅支持[手动[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types)和[[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动。 此功能不适用于其他活动类型。
+* [!DNL Target]/[!DNL Adobe Journey Optimizer]集成仅支持[手动[!UICONTROL A/B测试]](/help/main/c-activities/t-test-ab/test-ab.md#types)和[[!UICONTROL 体验定位]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动。 此功能不适用于其他活动类型。
 
-* 如果您在活动中使用优惠决策，则无法使用[[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。 如果在活动中使用优惠决策，请在活动设置期间选择[!DNL Target]作为[!UICONTROL Goals and Settings]页面中的报表源。
+* 如果您在活动中使用优惠决策，则不能使用[[!UICONTROL Analytics作为报表源]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)。 如果在活动中使用优惠决策，请在活动设置期间选择[!UICONTROL 目标和设置]页面中的[!DNL Target]作为报表源。
 
 * 包含文本/html内容类型的选件不支持deliveryURL内容交付。 只有客户端负责显式获取和撰写内容时，才通过[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)支持deliveryURL。
 

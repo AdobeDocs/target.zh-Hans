@@ -5,13 +5,9 @@ title: 如何将动态数据传递给选件？
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 TQID: https://experienceleague.adobe.com/SzzxgYAYlWviRCrG-LhAixFJbgHEN73shrt7jZOmp4Y
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 538
@@ -26,7 +22,7 @@ ht-degree: 55%
 ## 商业案例
 
 * 促销折扣产品建议，以“填充”或“补充”上次购买的产品。 除了为目录中的每个项目创建单独的产品建议之外，您可以创建一个包含动态文本的产品建议，其会从轮廓中读取“上次购买的产品”并在产品建议中显示链接。
-* 一个访客通过 `keyword=world` `cup` 访问您的登陆页。 您在产品建议中显示词语 *World cup*。
+* 一个访客通过 `keyword=world``cup` 访问您的登陆页。 您在产品建议中显示词语 *World cup*。
 * 使用信息个性化推荐标签，例如(1)添加到访客购物车的最后一个项目(Nike Air Max 1000s)、(2)访客的颜色偏好（黑色）和(3)访客最喜爱的非鞋类别（连帽上衣）。 示例：“用这些炫酷的‘黑色’‘连帽衫’来搭配您的‘Nike Air Max 1000s’！”
 
 ## 技术优势

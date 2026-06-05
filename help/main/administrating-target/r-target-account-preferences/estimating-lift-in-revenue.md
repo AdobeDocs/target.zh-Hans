@@ -6,18 +6,13 @@ feature: Administration & Configuration
 role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 TQID: https://experienceleague.adobe.com/eWWLgz5vRvlFKz5k52nASWHGRx4uzbxbPqcWD8sSzBE
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 534
-ht-degree: 85%
+source-wordcount: 536
+ht-degree: 84%
 
 ---
 
@@ -27,7 +22,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->预计提升度目前不适用于[!UICONTROL Experience Targeting] (XT)活动。
+>目前，[!UICONTROL 体验定位] (XT)活动的预计提升不可用。
 
 默认情况下，预计提升功能处于关闭状态。 您可以在帐户首选项中启用此功能。 只有 Experience Cloud 管理员用户可以启用或禁用此功能。 如果禁用预计提升，则界面中不会显示相应的字段。 禁用此功能不会导致数据丢失，包括用于估算的数据。 无论是否启用了此功能，都会根据所收集的数据进行估算。
 

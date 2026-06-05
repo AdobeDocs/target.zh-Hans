@@ -5,16 +5,10 @@ title: 如何使用 [!DNL Target] 中的 [!DNL AI Assistant] 获取产品知识�
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
 TQID: https://experienceleague.adobe.com/C4O-4iorggYJHyg0MMtEb-n-v0-DtetiMtcDp-GWDWQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 315
@@ -38,7 +32,7 @@ ht-degree: 1%
 
 要访问[!DNL AI Assistant]以了解产品知识，请执行以下操作：
 
-1. 确保您已在 [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)的启用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先决任务。
+1. 确保您已在 [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)的[启用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先决任务。
 
    * 贵组织必须首先同意法律条款。 有关更多信息，请与您的Adobe客户团队联系。
    * 您的管理员必须授予您访问[!DNL AI Assistant]的足够权限。
@@ -77,10 +71,10 @@ ht-degree: 1%
 
 了解来自[!DNL AI Assistant]的[!DNL Adobe Experience Platform]应用程序。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441034/?captions=chi_hans&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### 验证来自AI Assistant的响应
 
 了解如何验证和验证[!DNL Adobe Experience Platform]中的[!DNL AI Assistant]提供的响应。
 
->[!VIDEO](https://video.tv.adobe.com/v/3441749/?captions=chi_hans&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

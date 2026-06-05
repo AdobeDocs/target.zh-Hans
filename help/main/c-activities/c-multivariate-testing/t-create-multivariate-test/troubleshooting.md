@@ -1,25 +1,22 @@
 ---
 keywords: 多变量测试；故障诊断；故障诊断；MVT
-description: 探索您在 [!DNL Adobe Target]中使用[!UICONTROL Multivariate Test] (MVT)活动时可能面临的潜在挑战以及建议的解决方案。
-title: 如何为[!UICONTROL Multivariate Test]排除故障？
+description: 探索您在 [!DNL Adobe Target]中使用[!UICONTROL 多变量测试] (MVT)活动时可能面临的潜在挑战以及建议的解决方案。
+title: 如何为[!UICONTROL 多变量测试]排除故障？
 feature: Multivariate Tests
 exl-id: 93bb8446-06af-4466-9824-7099c1080059
 TQID: https://experienceleague.adobe.com/O9lmC1PmICPCOxcMDYVcSdpRoM-bqwKR-79deFIG2mg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 166
-ht-degree: 22%
+source-wordcount: 174
+ht-degree: 21%
 
 ---
 
-# [!UICONTROL Multivariate Test]活动疑难解答
+# [!UICONTROL 多变量测试]活动故障诊断
 
-本文包含了一些建议，用于解决在[!DNL Adobe Target]中设计[!UICONTROL Multivariate Test] (MVT)时可能出现的一些问题。
+本文包含了一些建议，可帮助解决在[!DNL Adobe Target]中设计[!UICONTROL 多变量测试] (MVT)时可能出现的一些问题。
 
 * 在编辑活动时，如果您使用基于[!DNL Analytics]的量度，但报表包未加载（显示旋转图），请将量度切换到[!DNL Target]个量度，然后再次切换到基于[!DNL Analytics]的量度。 此时，报表包应该可以成功加载。
 * 如果对已在运行的测试进行更改，则可能会重置该测试及其数据。

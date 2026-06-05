@@ -1,24 +1,18 @@
 ---
 keywords: 实体;实体属性;将信息传递到推荐;行为数据;数据计数器;定义相对 URL;显示库存水平;定义价格;定义利润率;自定义属性
 description: 了解如何使用实体属性将产品或内容信息传递到 [!DNL Target] 推荐。
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 title: 如何使用实体属性？
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 TQID: https://experienceleague.adobe.com/GXQOxQxTV0vTYsWy9Ky9wPNEqoRSAhIA5zlBd4Cr4Ec
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1122
+source-wordcount: 1125
 ht-degree: 45%
 
 ---
@@ -42,7 +36,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->如果您使用的是at.js 2.*x*，则不再支持`mboxCreate`（如以下示例中所用）。 要使用at.js 2.*x*&#x200B;将产品或内容信息传递给[!DNL Recommendations]，请使用[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}。 有关示例，请参阅[计划和实施推荐](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}。
+>如果您使用的是at.js 2.*x*，则不再支持`mboxCreate`（如以下示例中所用）。 要使用at.js 2.*x*&#x200B;将产品或内容信息传递给[!DNL Recommendations]，请使用[targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}。 有关示例，请参阅[计划和实施推荐](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}。
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -112,7 +106,7 @@ mboxCreate('productPage',
 
 >[!NOTE]
 >
->要基于[!UICONTROL Category]页面中的类别显示推荐，则只有一个`categoryId`可以传递到用于显示该特定推荐的mbox中。 `categoryId`的值必须与[!UICONTROL Product Detail]页面上传递的`entity.categoryId`的值完全匹配。
+>要基于[!UICONTROL 类别]页面中的类别显示推荐，则只有一个`categoryId`可以传递到用于显示该特定推荐的mbox中。 `categoryId`的值必须与[!UICONTROL 产品详细信息]页面上传递的`entity.categoryId`的值完全匹配。
 
 示例：
 

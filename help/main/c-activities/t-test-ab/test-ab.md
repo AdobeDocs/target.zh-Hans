@@ -1,30 +1,26 @@
 ---
 keywords: AB；A/B；AB...n；比较体验；定位；比较内容；自动定位；自动分配
-description: 浏览 [!DNL Target] - [!UICONTROL Manual]、[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]中的A/B测试活动。
+description: 浏览 [!DNL Target] - [!UICONTROL 手动]、[!UICONTROL 自动分配]和[!UICONTROL 自动定位]中的A/B测试活动。
 title: 发现 [!DNL Target]中可用的A/B测试活动。
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
 TQID: https://experienceleague.adobe.com/wcflYDj0VB7dJODNO6XjFHB0PPIhN4aUrBJxbKPoNdg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 680
-ht-degree: 21%
+source-wordcount: 757
+ht-degree: 19%
 
 ---
 
 # A/B测试概述
 
-手动[!UICONTROL A/B Test]活动（有时称为A/B...N测试）比较两个或更多版本的网站内容，以查看哪个版本最有利于提高您识别的转化、销售额或其他指标。 使用 A/B 测试还可以比较更改后的页面和默认页面设计，以确定哪个体验可以产生最佳效果。
+手动[!UICONTROL A/B测试]活动（有时称为A/B...N测试）比较两个或更多版本的网站内容，以查看哪个版本最有利于提高您识别的转化、销售额或其他指标。 使用 A/B 测试还可以比较更改后的页面和默认页面设计，以确定哪个体验可以产生最佳效果。
 
 >[!TIP]
 >
->除了[!UICONTROL Manual] （默认） [!UICONTROL A/B Test]活动（本文中讨论）之外，[!DNL Target]还提供另外两种类型的[!UICONTROL A/B Test]活动： [!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]。 有关详细信息，请参阅下面的[A/B测试活动类型](#types)。
+>除了[!UICONTROL 手动] （默认） [!UICONTROL A/B测试]活动（本文中讨论）之外，[!DNL Target]还提供另外两种类型的[!UICONTROL A/B测试]活动： [!UICONTROL 自动分配]和[!UICONTROL 自动定位]。 有关详细信息，请参阅下面的[A/B测试活动类型](#types)。
 
 当您根据成功量度或替代内容交付对提高页面性能的方法有一个明确的假设时，手动A/B测试很有用。
 
@@ -40,28 +36,28 @@ ht-degree: 21%
 
 ## A/B测试活动的类型 {#types}
 
-除了手动[!UICONTROL A/B Test]活动之外，[!DNL Target]还提供另外两种类型的[!UICONTROL A/B Testing]活动：[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]。
+除了手动[!UICONTROL A/B测试]活动之外，[!DNL Target]还提供另外两种类型的[!UICONTROL A/B测试]活动：[!UICONTROL 自动分配]和[!UICONTROL 自动定位]。
 
 | 活动类型 | 描述 |
 | --- | --- |
-| [!UICONTROL Manual A/B Test] | 比较两个或更多体验，以查看在预先指定的一段测试时间内，哪个体验最有利于提高转化。<P>本节介绍如何设置手动[!UICONTROL A/B Test]活动，但其他类型的[!UICONTROL A/B Test]活动的步骤类似。 |
-| [!UICONTROL Auto-Allocate] | 从两个或更多体验中标识一个入选者，然后将流量重定向到该入选者，随着测试的运行和学习而提高转化。<P>若要了解使用[!UICONTROL Auto-Allocate]活动的好处，请参阅&#x200B;*中的[自动分配](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate)A/B测试应该运行多久*&#x200B;和[自动分配概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
-| ![高级徽章](/help/main/assets/premium.png) [!UICONTROL Auto-Target] | 使用先进的机器学习技术，通过识别多个高性能、营销人员定义的体验来个性化内容并促进转化。 然后，根据访客的各个客户配置文件和过去类似访客的行为，向访客提供量身定制的体验。<P>有关详细信息，请参阅[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
+| [!UICONTROL 手动A/B测试] | 比较两个或更多体验，以查看在预先指定的一段测试时间内，哪个体验最有利于提高转化。<P>本节介绍如何设置手动[!UICONTROL A/B测试]活动，但其他类型的[!UICONTROL A/B测试]活动的步骤类似。 |
+| [!UICONTROL 自动分配] | 从两个或更多体验中标识一个入选者，然后将流量重定向到该入选者，随着测试的运行和学习而提高转化。<P>若要了解使用[!UICONTROL 自动分配]活动的好处，请参阅&#x200B;*中的[自动分配](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate)。A/B测试应该运行多久*&#x200B;和[自动分配概述](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
+| ![高级徽章](/help/main/assets/premium.png) [!UICONTROL 自动定位] | 使用先进的机器学习技术，通过识别多个高性能、营销人员定义的体验来个性化内容并促进转化。 然后，根据访客的各个客户配置文件和过去类似访客的行为，向访客提供量身定制的体验。<P>有关详细信息，请参阅[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
 
-有关哪些[!UICONTROL A/B Test]活动适合您的详细信息，请参阅交互式[Adobe Target Activities Guide PDF](/help/main/c-activities/target-activities-guide.md)。
+有关哪些[!UICONTROL A/B测试]活动适合您的详细信息，请参阅交互式[Adobe Target活动指南PDF](/help/main/c-activities/target-activities-guide.md)。
 
-创建三种类型[!UICONTROL A/B Test]活动的步骤相似。 要创建[!UICONTROL Auto-Allocate]或[!UICONTROL Auto-Target]活动，请执行以下操作：
+创建三种类型的[!UICONTROL A/B测试]活动的步骤相似。 要创建[!UICONTROL 自动分配]或[!UICONTROL 自动定位]活动，请执行以下操作：
 
 1. 从[创建A/B测试活动](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)开始。
-1. 当您进入[!UICONTROL Targeting]页面时，请单击[!UICONTROL Traffic Allocation]控件，然后在右侧窗格中选择所需的流量分配方法，如下所示：
+1. 当您进入[!UICONTROL 定位]页面时，请单击[!UICONTROL 流量分配]控件，然后在右窗格中选择所需的流量分配方法，如下所示：
 
-   * [!UICONTROL Auto-Allocate to best experience]
-   * [!UICONTROL Auto-Target for personalized experience]
+   * [!UICONTROL 自动分配到最佳体验]
+   * [!UICONTROL 自动定位以提供个性化体验]
 
    ![流量分配方法设置](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
 ## 在A/B活动中包含推荐
 
-您可以在[!UICONTROL A/B Test]、[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动(和[!UICONTROL Experience Targeting] (XT)活动)中包含推荐。 有关更多信息，请参阅[将推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)。
+您可以在[!UICONTROL A/B测试]、[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动(和[!UICONTROL 体验定位] (XT)活动)中包含推荐。 有关更多信息，请参阅[将推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 
 要使用此功能，您需要拥有 [Target Premium 许可证](/help/main/c-intro/intro.md#premium)。

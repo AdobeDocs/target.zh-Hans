@@ -2,40 +2,31 @@
 keywords: 环境数据；会话数据；地理数据；设备数据；移动设备数据；属性；配置文件属性；个性化算法；机器学习算法；机器学习算法
 description: 了解 [!DNL Adobe Target] 收集和使用哪些数据来构建其机器学习算法。
 title: 构建机器学习算法时会收集哪些数据？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 TQID: https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1986
+source-wordcount: 2009
 ht-degree: 50%
 
 ---
 
 # [!DNL Target]机器学习算法使用的数据
 
-[!DNL Adobe Target]在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活动中自动收集和使用各种数据构建其个性化算法。 当访客进入[!UICONTROL Automated Personalization]或[!UICONTROL Auto-Target]活动时，信息快照将传递到一组“培训记录”（个性化算法学习的访客数据）中。
+[!DNL Adobe Target]在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位] (AT)活动中自动收集和使用各种数据来构建其个性化算法。 当访客进入[!UICONTROL Automated Personalization]或[!UICONTROL 自动定位]活动时，信息快照将传递到一组“训练记录”（个性化算法学习的访客数据）。
 
 要了解有关[!DNL Target]个性化算法的更多信息，请参阅[随机林算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)。
 
 ## 默认[!DNL Target]属性类别
 
-下表显示了[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动在默认情况下收集的数据，没有配置[!DNL Target]或其他[!DNL Adobe]解决方案。 该表还包括用于在[Personalization分析报表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中指示这些属性的命名约定。 您可以随时增加输入数据集。 要了解有关如何上载其他数据的更多信息，请参阅[上载 [!DNL Target] 个性化算法的数据](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
+下表显示了[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动在默认情况下收集的数据，无需[!DNL Target]或其他[!DNL Adobe]解决方案的任何配置。 该表还包括用于在[Personalization分析报表](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)中指示这些属性的命名约定。 您可以随时增加输入数据集。 要了解有关如何上载其他数据的更多信息，请参阅[上载 [!DNL Target] 个性化算法的数据](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)。
 
-| 数据类别 | 系统前缀 | 描述 | 在[!UICONTROL Insights]报告中显示名称 |
+| 数据类别 | 系统前缀 | 描述 | 在[!UICONTROL 分析]报表中显示名称 |
 | --- | --- | --- | --- |
 | 环境参数 | 环境 | 有关用户环境的信息，包括操作系统、浏览器和每周时间/时间。 | 浏览器 — [属性名称]<br>操作系统 — [值] |
 | 地域 | 地域 | 通过IP查找获取的用户地理位置信息。 | 地域 — [地理属性] |
@@ -45,24 +36,24 @@ ht-degree: 50%
 
 ## 自定义[!DNL Target]属性类别
 
-下表显示由[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动收集的客户提供的数据。 只有在您提供此数据的情况下，才会收集此数据。 特定的属性名称和示例值特定于您的系统配置。
+下表显示由[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动收集的客户提供的数据。 只有在您提供此数据的情况下，才会收集此数据。 特定的属性名称和示例值特定于您的系统配置。
 
-| 数据类别 | 系统前缀 | 描述 | 在[!UICONTROL Insights]报告中显示名称 |
+| 数据类别 | 系统前缀 | 描述 | 在[!UICONTROL 分析]报表中显示名称 |
 | --- | --- | --- | --- |
 | 页面参数 | BOX | 在对[!DNL Target]的调用中传递的自定义页面参数（“mbox参数”）。 | 自定义 — Mbox参数 — [参数名称] |
 | [!DNL Target]配置文件 | PRO | 自定义配置文件属性通过API或页面参数和[!DNL Target]配置文件脚本直接上传到[!DNL Target]配置文件。 | 自定义 — 访客配置文件 — [属性名称] |
-| 客户属性 | CRS | 客户属性已通过[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=zh-Hans){target=_blank}上传到[!DNL Target]配置文件。 | 自定义 — 访客配置文件 — [属性名称] |
+| 客户属性 | CRS | 客户属性已通过[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}上传到[!DNL Target]配置文件。 | 自定义 — 访客配置文件 — [属性名称] |
 | URL parameters（URL 参数） | URL | 当前查看页面的URL和任何URL参数。 | 自定义 — URL参数 — [URL参数] |
 | 反向链接 URL | 参照 | 反向链接URL和任何反向链接URL的参数。 | 自定义 — [引荐URL参数] - [参数值] |
-| [!DNL Adobe Experience Cloud]共享受众 | AAM | 从其他[!DNL Adobe Experience Cloud]解决方案（例如，[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]，通过[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=zh-Hans){target=_blank}）与[!DNL Target]共享的所有受众。 | 自定义 — Experience Cloud受众 — [受众名称] |
-| [!DNL Adobe Experience Platform Real-time CDP]个受众 | UPS | 通过[!UICONTROL Destinations]与[!DNL Target]共享的Platform Real-time CDP受众。 |  |
+| [!DNL Adobe Experience Cloud]共享受众 | AAM | 从其他[!DNL Adobe Experience Cloud]解决方案（例如，[!DNL Adobe Audience Manager]和[!DNL Adobe Analytics]，通过[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}）与[!DNL Target]共享的所有受众。 | 自定义 — Experience Cloud受众 — [受众名称] |
+| [!DNL Adobe Experience Platform Real-time CDP]个受众 | UPS | Platform Real-time CDP受众通过[!UICONTROL 目标]与[!DNL Target]共享。 |  |
 
 
 ## 阻止来自[!DNL Target]机器学习算法的功能
 
-可以从[!DNL Target]机器学习算法中阻止功能，防止在任何[!UICONTROL Automated Personalization]或[!UICONTROL Auto-Target]模型或活动中使用它们。
+可以从[!DNL Target]机器学习算法中阻止功能，防止在任何[!UICONTROL Automated Personalization]或[!UICONTROL 自动定位]模型或活动中使用这些功能。
 
-有关详细信息，请参阅&#x200B;*[!DNL Adobe Target]开发人员指南*&#x200B;中的[模型API()概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hans){target=_blank}。
+有关详细信息，请参阅&#x200B;*[!DNL Adobe Target]开发人员指南*&#x200B;中的[模型API()概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}。
 
 ## 设备和移动设备数据 {#device-mobile}
 

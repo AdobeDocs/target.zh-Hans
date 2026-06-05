@@ -5,17 +5,13 @@ title: 能否将报表受众应用到成功量度？
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
 TQID: https://experienceleague.adobe.com/n3iyCzlY5oDOrCEqvo6nO51PvknlySPCMasQZ0JfIEM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 396
-ht-degree: 36%
+source-wordcount: 406
+ht-degree: 43%
 
 ---
 
@@ -23,7 +19,7 @@ ht-degree: 36%
 
 选择一个可让用户符合[!DNL Adobe Target]中报表受众条件的成功量度。
 
-对于所有活动，[!UICONTROL Applied At]下拉列表允许您将受众应用到成功量度，以便在达到该量度之后以及执行后续操作时查看报表数量。
+对于所有活动，您都可以通过“[!UICONTROL 应用位置]”下拉列表将受众应用于成功量度，以便查看达到成功量度后的报表数量以及后续操作的报表数量。
 
 ![success_metric图像](assets/success_metric.png)
 
@@ -39,7 +35,7 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)只有在为活动配置后才可用。 如果您尚未定义成功量度，则您只会从下拉列表中看到两个选项：[!UICONTROL Campaign Entry]和[!UICONTROL Conversion]。
+>[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)只有在为活动配置后才可用。 如果您尚未定义成功量度，则只能从下拉列表中看到两个选项：[!UICONTROL 促销活动条目]和[!UICONTROL 转化]。
 
 
 ## 注意事项
@@ -48,11 +44,11 @@ ht-degree: 36%
 
 * 只有从应用受众的量度开始的成功量度才会显示按受众分段的报表数据
 * 受众所应用量度之前的成功量度不会按受众分段，而是显示所有访客数据
-* 将根据量度在活动定义中的顺序来考虑这些量度，[!UICONTROL Primary Goal]是最后一个量度。
+* 将根据量度在活动定义中的顺序来考虑这些量度，其中[!UICONTROL 主要目标]是最后一个目标。
 
 ## 在报表中查看分段
 
-要在报表中查看分段，请从活动报表的[!UICONTROL Audience]下拉列表中选择所需的受众。
+要在报表中查看分段，请从活动报表的[!UICONTROL 受众]下拉列表中选择所需的受众。
 
 ![reporting_audience_dropdown图像](assets/reporting_audience_dropdown.png)
 

@@ -5,8 +5,8 @@ hide: true
 exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 0%
+source-wordcount: '373'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->标记当前位于Beta中，可供Adobe Target客户使用。 请联系您的Adobe代表以请求获取访问权限。
+>标记当前位于Beta中，可供Adobe Target客户使用。 请与您的 Adobe 代表联系，请求访问权限。
 
 Adobe Target中的标记是一个受控发布系统，允许团队将功能部署到生产环境，同时精确控制可查看这些功能的人和时间。 一项功能可在生产环境中使用，最终用户不可见，然后针对目标受众逐步开启，而无需任何重新部署。
 

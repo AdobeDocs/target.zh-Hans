@@ -2,22 +2,17 @@
 keywords: 自动个性化；选件；报表；组；报表组；ap
 description: 了解如何在 [!DNL Adobe Target] [!UICONTROL Automated Personalization]活动中使用选件报表组。
 title: 我能否在[!UICONTROL Automated Personalization]活动中使用选件报表组？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 TQID: https://experienceleague.adobe.com/VW3zVGXb3IuQMDaRyidbkjsbUrojvwFsvwP3yRVeHp4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 827
-ht-degree: 15%
+source-wordcount: 875
+ht-degree: 20%
 
 ---
 
@@ -42,19 +37,19 @@ ht-degree: 15%
 
 ## 设置报表组
 
-1. 在AP活动的&#x200B;**[!UICONTROL Experiences]**&#x200B;页面上，单击&#x200B;**[!UICONTROL Manage Content]**&#x200B;图标（ ![管理内容图标](/help/main/assets/icons/Experience.svg)）
-1. 单击[!UICONTROL Manage Content]对话框顶部的&#x200B;**[!UICONTROL Offers]**&#x200B;选项卡。
-1. （视情况而定）单击所需选件的[!UICONTROL More Actions]图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg) ），然后单击&#x200B;**[!UICONTROL Reporting Group]**，将特定体验添加到报表组。
+1. 在AP活动的&#x200B;**[!UICONTROL 体验]**&#x200B;页面上，单击&#x200B;**[!UICONTROL 管理内容]**&#x200B;图标（![管理内容图标](/help/main/assets/icons/Experience.svg)）
+1. 单击“[!UICONTROL 管理内容]”对话框顶部的&#x200B;**[!UICONTROL 选件]**&#x200B;选项卡。
+1. （视情况而定）通过单击所需选件的[!UICONTROL 更多操作]图标（![更多操作图标](/help/main/assets/icons/MoreSmall.svg)）并单击&#x200B;**[!UICONTROL 报表组]**，将特定体验添加到报表组。
 
-1. （视情况而定）在报表组中批量添加体验，方法是选中相关体验的复选框，然后单击对话框底部的&#x200B;**[!UICONTROL Reporting Group]**。
+1. （视情况而定）在报表组中批量添加体验，方法是选中相关体验的复选框，然后单击对话框底部的&#x200B;**[!UICONTROL 报表组]**。
 
-1. 要将所选选件分配给现有报表组，请选择&#x200B;**[!UICONTROL Existing]**，从下拉列表中选择所需的报表组，然后单击&#x200B;**[!UICONTROL Confirm]**。
+1. 要将所选选件分配给现有报表组，请选择&#x200B;**[!UICONTROL 现有]**，从下拉列表中选择所需的报表组，然后单击&#x200B;**[!UICONTROL 确认]**。
 
    或
 
-   要创建要将选定选件分配到的报表组，请选择&#x200B;**[!UICONTROL New]**，命名新的报表组，然后单击&#x200B;**[!UICONTROL Confirm]**。
+   若要创建报表组以将所选选件分配到该报表组，请选择&#x200B;**[!UICONTROL 新建]**，为新报表组命名，然后单击&#x200B;**[!UICONTROL 确认]**。
 
-您可以使用[!UICONTROL Location]列表按位置筛选选件。 使用[!UICONTROL Report Group]列表按报表组筛选选件。 您还可以使用[!UICONTROL Report Group]列表过滤[!UICONTROL Unassigned Offers]，以便将报表组分配给当前未分配给任何报表组的选件。
+您可以使用[!UICONTROL 位置]列表按位置筛选选件。 使用[!UICONTROL 报表组]列表可按报表组筛选选件。 您还可以使用“[!UICONTROL 报表组]”来筛选“[!UICONTROL 未分配选件]”，以便将某个报表组分配给当前未分配给任何报表组的选件。
 
 有关将选件定位到特定受众的信息，请参阅[定位[!UICONTROL Automated Personalization]选件](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E)。
 
@@ -72,12 +67,12 @@ ht-degree: 15%
 
 ## 在报表组中查看选件
 
-1. 单击&#x200B;**[!UICONTROL Activities]**，从列表中单击所需的[!UICONTROL Automated Personalization]活动，然后单击&#x200B;**[!UICONTROL Reports]**&#x200B;选项卡以显示[选件级别](/help/main/c-reports/personalization-reports/reports-ap.md)报表。
+1. 单击&#x200B;**[!UICONTROL 活动]**，从列表中单击所需的[!UICONTROL Automated Personalization]活动，然后单击&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡以显示[选件级别](/help/main/c-reports/personalization-reports/reports-ap.md)报表。
 
-   如果您有许多活动，请单击[!UICONTROL Show Filters] (funnel)图标，然后选中[!UICONTROL Automated Personalization]复选框以筛选列表以仅显示[!UICONTROL Automated Personalization]个活动。
+   如果您有许多活动，请单击[!UICONTROL 显示筛选器] (funnel)图标，然后选中[!UICONTROL Automated Personalization]复选框以筛选列表以仅显示[!UICONTROL Automated Personalization]活动。
 
-1. 单击表格中的&#x200B;**[!UICONTROL Control]**&#x200B;或&#x200B;**[!UICONTROL Targeted]**&#x200B;以在报表组内显示未分组的选件和选件。
+1. 单击表中的&#x200B;**[!UICONTROL 控制]**&#x200B;或&#x200B;**[!UICONTROL 目标]**&#x200B;以在报表组内显示未分组的选件和选件。
 
    ![优惠组：控制和目标](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
-有关使用[!UICONTROL Automated Personalization]报告（包括[!UICONTROL Offer Level]报告）的信息，请参阅[Automated Personalization摘要报告](/help/main/c-reports/personalization-reports/reports-ap.md)。
+有关使用[!UICONTROL Automated Personalization]报告（包括[!UICONTROL 选件级别]报告）的信息，请参阅[Automated Personalization摘要报告](/help/main/c-reports/personalization-reports/reports-ap.md)。

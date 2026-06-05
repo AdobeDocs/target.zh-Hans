@@ -1,21 +1,17 @@
 ---
 keywords: A/B;活动量度;量度;设置量度;目标量度;活动设置;成功量度;转化;收入;参与度
-description: 了解如何在A/B活动中设置量度以确定访问成功，包括[!UICONTROL Conversion]、[!UICONTROL Revenue]和[!UICONTROL Engagement]。
+description: 了解如何在A/B活动中设置量度以确定访问成功，包括[!UICONTROL 转化]、[!UICONTROL 收入]和[!UICONTROL 参与度]。
 title: 如何在A/B活动中设置目标指标？
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
 TQID: https://experienceleague.adobe.com/WE27AidwrwYLn-ZlnpxKNfOG2jT07iPYztdrovRl0Qk
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 286
-ht-degree: 58%
+source-wordcount: 305
+ht-degree: 55%
 
 ---
 
@@ -25,13 +21,13 @@ ht-degree: 58%
 
 有关成功指标的详细信息，请参阅[成功指标](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
-1. 在&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;页面的&#x200B;**[!UICONTROL Reporting Settings]**&#x200B;部分中，选择[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
+1. 在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面的&#x200B;**[!UICONTROL 报表设置]**&#x200B;部分中，选择[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)。
 
-   [!UICONTROL Select Metrics]选项列出了可为活动选择的成功量度。 这些成功量度分为以下类别：
+   [!UICONTROL 选择量度]选项列出了可为活动选择的成功量度。 这些成功量度分为以下类别：
 
-   * [!UICONTROL Conversion]
-   * [!UICONTROL Revenue]
-   * [!UICONTROL Engagement]
+   * [!UICONTROL 转化]
+   * [!UICONTROL 收入]
+   * [!UICONTROL 参与]
 
    您可以选择任何预先构建的成功量度，或者也可创建自定义成功量度。 您还可以将某个成功量度标记为主量度。 如果设置了主量度，报表和 Experience Cloud 卡片默认将显示该主量度。
 
@@ -39,7 +35,7 @@ ht-degree: 58%
 
    可用的设置取决于您所使用的成功量度。
 
-   如果启用，[!UICONTROL Estimated Value of the Conversion]字段（不适用于[!UICONTROL Page Score]量度）会为您的目标提供一个值。 通过此值，[!DNL Target] 可以计算出预计收入提升。 此字段为可选字段；但是，如果没有该字段，便无法计算所有非收入量度的增量收入。 数据类型为货币。 当用户的操作满足您设置的目标后，该字段会逐渐显示积累的值。 请参阅[预计收入提升](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以了解更多信息。
+   如果启用，[!UICONTROL 转化的预计值]字段（不适用于[!UICONTROL 页面得分]量度）会为您的目标提供一个值。 通过此值，[!DNL Target] 可以计算出预计收入提升。 此字段为可选字段；但是，如果没有该字段，便无法计算所有非收入量度的增量收入。 数据类型为货币。 当用户的操作满足您设置的目标后，该字段会逐渐显示积累的值。 请参阅[预计收入提升](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以了解更多信息。
 
    正确配置成功量度对于确保获得您预期的数据至关重要。
 

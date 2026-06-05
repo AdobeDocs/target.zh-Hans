@@ -1,5 +1,5 @@
 ---
-title: 移动设备应用程序
+title: 移动应用程序
 description: 了解如何使用移动SDK将标记集成到移动应用程序中。
 hide: true
 exl-id: 27a43994-25e7-4a2c-b01c-ae98d089413d

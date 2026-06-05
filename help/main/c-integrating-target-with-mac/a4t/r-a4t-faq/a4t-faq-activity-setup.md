@@ -5,16 +5,12 @@ title: 可在何处找到有关A4T活动设置的常见问题解答？
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 TQID: https://experienceleague.adobe.com/y4pSMxqYoXPMyrkG7ZW9XuJP-R2iVaH2OqhcXn02Vs8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 10%
+source-wordcount: 642
+ht-degree: 14%
 
 ---
 
@@ -42,7 +38,7 @@ ht-degree: 10%
 ## 在配置目标量度时，为何无法访问高级设置？
 
 +++回答
-对于使用[!DNL Analytics]作为报表源(A4T)的活动，目标量度使用“[!UICONTROL Increment Count & Keep User in Activity]”和“[!UICONTROL On Every Impression]”设置。 这些设置是&#x200B;*不可配置的*。
+对于使用[!DNL Analytics]作为报表源(A4T)的活动，目标量度使用“[!UICONTROL 递增计数并保持用户处于活动中]”和“[!UICONTROL 每次展示]”设置。 这些设置是&#x200B;*不可配置的*。
 
 有关更多信息，请参阅配置目标指标时为何无法访问高级设置选项？ 在[量度定义中 — A4T常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)。
 
@@ -59,16 +55,16 @@ ht-degree: 10%
 ## 在创建活动时，为何无法选择Analytics作为报表源？ {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++回答
-您可以在[!UICONTROL Administration]中更改[!UICONTROL Reporting Settings]选项。
+您可以在[!UICONTROL 管理]中更改[!UICONTROL 报表设置]选项。
 
-1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL Administration]**。
-1. 在&#x200B;**[!UICONTROL Experience Cloud solution used for reporting]**&#x200B;下拉列表中，单击&#x200B;**[!UICONTROL Select per Activity]**。
+1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL 管理]**。
+1. 在&#x200B;**[!UICONTROL 用于报表的 Experience Cloud 解决方案]**&#x200B;下拉列表中，单击&#x200B;**[!UICONTROL 为每个活动选择]**。
 
 ![为每个活动选择图像](assets/select-per-activity.png)
 
-已在&#x200B;**[!UICONTROL Goal & Settings]**&#x200B;屏幕中启用&#x200B;**[!UICONTROL Reporting Source]**&#x200B;下拉列表以创建和编辑活动。
+随即会在&#x200B;**[!UICONTROL 目标和设置]**&#x200B;屏幕中启用&#x200B;**[!UICONTROL 报表源]**&#x200B;下拉列表，以用于创建和编辑活动。
 
-要始终使用[!DNL Analytics]作为报表源，请从[!UICONTROL Administration]的下拉列表中选择&#x200B;**[!UICONTROL Adobe Analytics]**。
+要始终使用[!DNL Analytics]作为报表源，请从[!UICONTROL 管理]的下拉列表中选择&#x200B;**[!UICONTROL Adobe Analytics]**。
 
 +++
 
@@ -86,9 +82,9 @@ ht-degree: 10%
 
 +++
 
-## 我能否将二项式[!DNL Analytics]量度与作为[!UICONTROL Auto-Allocate]活动中的优化目标的区段结合使用？ {#binomial}
+## 能否将二项式[!DNL Analytics]量度与作为[!UICONTROL 自动分配]活动中的优化目标的区段结合使用？ {#binomial}
 
 +++回答
-您不能将[!DNL Analytics]量度与作为[!UICONTROL Auto-Allocate]活动中的优化目标的区段结合使用。 作为解决方法，您可以定义一个实现相同目标的自定义事件，并将其用作优化目标量度。
+您不能在[!UICONTROL 自动分配]活动中将[!DNL Analytics]量度与作为优化目标的区段结合使用。 作为解决方法，您可以定义一个实现相同目标的自定义事件，并将其用作优化目标量度。
 
 +++

@@ -2,25 +2,25 @@
 keywords: 目录搜索；目录；搜索；排除项；收藏集；过滤器
 description: 了解如何使用推荐目录搜索来查找产品或内容、创建收藏集或排除项、从目录中删除项目等。
 title: 如何使用“推荐”目录搜索？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 22%
+source-wordcount: '1065'
+ht-degree: 20%
 
 ---
 
 # 目录搜索
 
-[!UICONTROL Catalog Search]中的[!DNL Adobe Recommendations]页面可帮助您在目录中查找产品或内容。 您可以在此页面上执行的最基本任务是搜索项目。 此外，您还可以更改环境、将搜索结果保存到收藏集或排除项、添加过滤器Facet以及修改表中的列、添加新的搜索Facet等。
+[!DNL Adobe Recommendations]中的[!UICONTROL 目录搜索]页面可帮助您在目录中查找产品或内容。 您可以在此页面上执行的最基本任务是搜索项目。 此外，您还可以更改环境、将搜索结果保存到收藏集或排除项、添加过滤器Facet以及修改表中的列、添加新的搜索Facet等。
 
-目录指代您的整个产品集（实体）。您的目录可以包含许多收藏集，这是一种在逻辑存储桶中组织产品的方法。
+目录指代您的整个产品集（实体）。 您的目录可以包含许多收藏集，这是一种在逻辑存储桶中组织产品的方法。
 
 ## 访问目录搜索
 
-要访问[!UICONTROL Catalog Search]页面，请单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**。
+要访问[!UICONTROL 目录搜索]页面，请单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 目录搜索]**。
 
 ![目录搜索页面](/help/main/c-recommendations/c-products/assets/catalog-search.png)
 
@@ -30,7 +30,7 @@ ht-degree: 22%
 
 ### 执行简单搜索
 
-1. 在&#x200B;**[!UICONTROL Search Products]**&#x200B;字段中键入搜索词。
+1. 在&#x200B;**[!UICONTROL 搜索产品]**&#x200B;字段中键入搜索词。
 
 1. （可选）您可以通过从选项菜单中选择搜索选项来优化搜索，单击搜索字段中的向下箭头时，会显示该选项菜单。
 
@@ -63,7 +63,7 @@ ht-degree: 22%
    >
    >目前，没有可让您更改属性类型的功能。 要作出改变，请[提出客户问题](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)，其中引用需要将类型从字符串变为数字的属性。
 
-1. 您还可以使用过滤器查找所需的产品。 在以下示例中，通过展开[!UICONTROL Collections]方面并选择“自行车工具”，目录中的所有自行车工具都会显示。
+1. 您还可以使用过滤器查找所需的产品。 在以下示例中，通过展开[!UICONTROL 收藏集]方面并选择“自行车工具”，目录中的所有自行车工具都会显示。
 
    ![自行车工具](/help/main/c-recommendations/c-products/assets/bike-results-3.png)
 
@@ -73,21 +73,21 @@ ht-degree: 22%
 
 ### 执行高级搜索 {#advanced-search}
 
-您可以使用[!UICONTROL Advanced Search]进一步优化搜索结果，或将搜索结果保存为[收藏集](/help/main/c-recommendations/c-products/collections.md)或[排除项](/help/main/c-recommendations/c-products/exclusions.md)。
+您可以使用[!UICONTROL 高级搜索]进一步优化搜索结果，或将搜索结果保存为[收藏集](/help/main/c-recommendations/c-products/collections.md)或[排除项](/help/main/c-recommendations/c-products/exclusions.md)。
 
-1. 单击&#x200B;**[!UICONTROL Advanced Search]**&#x200B;链接。
+1. 单击&#x200B;**[!UICONTROL 高级搜索]**&#x200B;链接。
 
    ![高级搜索页面](/help/main/c-recommendations/c-products/assets/advances-search.png)
 
 1. 使用下拉列表为搜索指定参数、运算符和值。
 
-1. （可选）单击&#x200B;**[!UICONTROL Add Rule]**&#x200B;以添加其他搜索规则。
+1. （可选）单击&#x200B;**[!UICONTROL 添加规则]**&#x200B;以添加其他搜索规则。
 
    每个额外的搜索规则都使用AND运算符进行连接。
 
-1. 单击 **[!UICONTROL Search]**。
+1. 单击&#x200B;**[!UICONTROL 搜索]**。
 
-1. （可选）单击&#x200B;**[!UICONTROL Save As]**，然后单击&#x200B;**[!UICONTROL Collection]**&#x200B;或&#x200B;**[!UICONTROL Exclusion]**。
+1. （可选）单击&#x200B;**[!UICONTROL 另存为]**，然后单击&#x200B;**[!UICONTROL 收藏集]**&#x200B;或&#x200B;**[!UICONTROL 排除项]**。
 
    ![另存为选项](/help/main/c-recommendations/c-products/assets/save-as.png)
 
@@ -105,7 +105,7 @@ ht-degree: 22%
 
 1. 单击搜索结果中的项目可查看其详细信息。
 
-1. 单击 **[!UICONTROL Remove from Catalog]**。
+1. 单击&#x200B;**[!UICONTROL 从目录]**&#x200B;中删除。
 
 1. 确认您要移除该项目。
 
@@ -115,21 +115,21 @@ ht-degree: 22%
 
 上传第一个信息源时，将自动创建目录索引，并根据[指定的计划](/help/main/c-recommendations/c-products/feeds.md#steps)刷新。
 
-通过信息源文件、API 或 mbox 更新接收更新时，目录将自动刷新。更新通常在一小时内完成。如果更新正在进行，则显示最近的更新开始时间。如果没有正在进行的更新，则显示最近的更新开始时间和结束时间。
+通过信息源文件、API 或 mbox 更新接收更新时，目录将自动刷新。 更新通常在一小时内完成。 如果更新正在进行，则显示最近的更新开始时间。 如果没有正在进行的更新，则显示最近的更新开始时间和结束时间。
 
 ## 基于高级搜索创建收藏集或排除项 {#save-as}
 
-您可以在[页面(](/help/main/c-recommendations/c-products/collections.md) > [&#x200B; > &#x200B;](/help/main/c-recommendations/c-products/exclusions.md))上使用[!UICONTROL Advanced Search]创建[!UICONTROL Catalog Search]收藏集[!UICONTROL Recommendations]或[!UICONTROL Catalog Search]排除项[!UICONTROL Advanced Search]。
+您可以在[!UICONTROL 目录搜索]页面（[!UICONTROL 推荐] > [!UICONTROL 目录搜索] > [!UICONTROL 高级搜索]）上使用[!UICONTROL 高级搜索]创建[收藏集](/help/main/c-recommendations/c-products/collections.md)或[排除项](/help/main/c-recommendations/c-products/exclusions.md)。
 
 1. 执行[高级搜索](#advanced-search)。
 
-1. 单击&#x200B;**[!UICONTROL Save As]**，然后单击&#x200B;**[!UICONTROL Collection]**&#x200B;或&#x200B;**[!UICONTROL Exclusion]**。
+1. 单击&#x200B;**[!UICONTROL 另存为]**，然后单击&#x200B;**[!UICONTROL 收藏集]**&#x200B;或&#x200B;**[!UICONTROL 排除项]**。
 
    ![另存为选项](/help/main/c-recommendations/c-products/assets/save-as.png)
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL Advanced Search]功能不区分大小写；但是，在投放时返回的产品基于区分大小写的搜索。 这种不匹配可能会导致产生混淆。在使用[!UICONTROL Advanced Search]功能根据结果创建集合或排除项时，请确保考虑区分大小写。 例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。如果您随后创建一个目录，以用于返回包含“holiday”的产品，则只会返回包含“holiday”的产品，而不会返回包含“Holiday”的产品。可以采用类似的方式处理排除项。
+   >[!UICONTROL 高级搜索]功能不区分大小写；但是，在交付时返回的产品基于区分大小写的搜索。 这种不匹配可能会导致产生混淆。 在使用[!UICONTROL 高级搜索]功能根据结果创建集合或排除项时，请确保考虑区分大小写。 例如，如果您搜索“Holiday”，初始搜索会列出包含“Holiday”和“holiday”的结果。 如果您随后创建一个目录，以用于返回包含“holiday”的产品，则只会返回包含“holiday”的产品， 而不会返回包含“Holiday”的产品。 可以采用类似的方式处理排除项。
 
 ## 更改环境
 
@@ -143,17 +143,17 @@ ht-degree: 22%
 
 ## 修改“目录搜索”页（过滤器和列）
 
-您可以在当前会话的[!UICONTROL Catalog Search]页面上临时修改可用的筛选器和列。
+您可以在当前会话的[!UICONTROL 目录搜索]页面上临时修改可用的筛选器和列。
 
 ### 修改筛选器
 
-您可以将其他筛选器Facet添加到[!UICONTROL Catalog Search]页面。
+您可以将其他筛选器Facet添加到[!UICONTROL 目录搜索]页面。
 
-1. 在&#x200B;**[!UICONTROL Filters]**&#x200B;面板中，单击&#x200B;**[!UICONTROL Modify]**。
+1. 在&#x200B;**[!UICONTROL 筛选器]**&#x200B;面板中，单击&#x200B;**[!UICONTROL 修改]**。
 
    ![修改筛选器链接](/help/main/c-recommendations/c-products/assets/modify-filters.png)
 
-1. 选择所需的搜索Facet（ID、名称、消息等），然后单击&#x200B;**[!UICONTROL Save]**。
+1. 选择所需的搜索Facet（ID、名称、消息等），然后单击&#x200B;**[!UICONTROL 保存]**。
 
    ![添加筛选器](/help/main/c-recommendations/c-products/assets/add-filters.png)
 
@@ -161,15 +161,15 @@ ht-degree: 22%
 
 ### 修改列
 
-您可以临时修改[!UICONTROL Catalog Search]页面上的活动列。
+您可以临时修改[!UICONTROL 目录搜索]页面上的活动列。
 
-1. 单击&#x200B;**[!UICONTROL Columns]**&#x200B;链接。
+1. 单击&#x200B;**[!UICONTROL 列]**&#x200B;链接。
 
    ![列选项](/help/main/c-recommendations/c-products/assets/columns.png)
 
-1. （视情况而定）要重新排序活动列的顺序，请按所需顺序拖放&#x200B;**[!UICONTROL Active Columns]**&#x200B;部分中的列。
+1. （视情况而定）要重新排序活动列的顺序，请按所需顺序拖放&#x200B;**[!UICONTROL 活动列]**&#x200B;节中的列。
 
-1. （视情况而定）根据需要将项目从&#x200B;**[!UICONTROL Active Columns]**&#x200B;拖放到&#x200B;**[!UICONTROL Inactive Columns]**（反之亦然）。
+1. （视情况而定）根据需要将项目从&#x200B;**[!UICONTROL 活动列]**&#x200B;拖放到&#x200B;**[!UICONTROL 非活动列]**（反之亦然）。
 
    您还可以单击要从活动区域移动到非活动区域的列旁边的删除图标( x )。
 

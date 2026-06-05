@@ -1,32 +1,24 @@
 ---
 keywords: 定位；可视化体验编辑器；白名单；允许列表；增强型可视化体验编辑器；VEC；可视化体验编辑器故障诊断；故障诊断；EEC；增强型体验编辑器；TLS；TLS 1.2
-description: 了解如何解决在某些情况下 [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)和[!UICONTROL Enhanced Experience Composer] (EEC)中有时出现的问题。
-title: 如何解决与[!UICONTROL Visual Experience Composer]和[!UICONTROL Enhanced Experience Composer]相关的问题？
+description: 了解如何解决在某些情况下 [!DNL Target] [!UICONTROL 可视化体验编辑器] (VEC)和[!UICONTROL 增强型体验编辑器] (EEC)中有时出现的问题。
+title: 如何解决与[!UICONTROL 可视化体验编辑器]和[!UICONTROL 增强型体验编辑器]相关的问题？
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 32%
+source-wordcount: 1271
+ht-degree: 31%
 
 ---
 
-# 与[!DNL Adobe Target] [!UICONTROL Visual Experience Composer]和[!UICONTROL Enhanced Experience Composer]相关的问题疑难解答
+# 与[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器]和[!UICONTROL 增强型体验编辑器]相关的问题疑难解答
 
-在某些情况下，[!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)和[!UICONTROL Enhanced Experience Composer] (EEC)中有时会出现显示问题和其他问题。
+在某些情况下，[!DNL Target] [!UICONTROL 可视化体验编辑器] (VEC)和[!UICONTROL 增强型体验编辑器] (EEC)有时会发生显示问题和其他问题。
 
 ## Google Chrome SameSite Cookie 强制执行政策对 VEC 和 EEC 有什么影响？ {#samesite}
 
@@ -37,7 +29,7 @@ ht-degree: 32%
 >
 >以下更改将影响下面列出的所有三次更新：
 >
-> * 如果[VEC Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)未安装并为受密码保护的网站页面启用，则&#x200B;*将*&#x200B;无法使用VEC。 您的网站登录Cookie被视为第三方Cookie，在[!UICONTROL Browse]模式下，不会与VEC编辑器中的登录请求一起发送。 唯一的例外是您的网站登录Cookie已设置`SameSite=None`和`Secure`属性。
+> * 如果[VEC Helper扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)未安装并为受密码保护的网站页面启用，则&#x200B;*将*&#x200B;无法使用VEC。 您的网站登录Cookie被视为第三方Cookie，在[!UICONTROL 浏览]模式下，不会与VEC编辑器中的登录请求一起发送。 唯一的例外是您的网站登录Cookie已设置`SameSite=None`和`Secure`属性。
 
 **Chrome 94（2021年9月21日）**：由于计划对Chrome 94版本（2021年9月21日）进行即将进行的更改，以下更改将影响具有Chrome 94+浏览器版本的所有用户：
 
@@ -60,12 +52,12 @@ ht-degree: 32%
 +++详细信息
 要确定由于SameSite Cookie实施策略而阻止哪些Cookie，请在[!DNL Chrome]中使用[!DNL Developer Tools]。
 
-1. 在[!DNL Chrome]中查看VEC时，要访问[!DNL Developer Tools]，请单击Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**&#x200B;右上角的&#x200B;**[!UICONTROL ellipsis]**&#x200B;图标。
-1. 单击&#x200B;**[!UICONTROL Network]**&#x200B;选项卡> ，然后查找阻止的Cookie。
+1. 在[!DNL Chrome]中查看VEC时，要访问[!DNL Developer Tools]，请单击Chrome > **[!UICONTROL 更多工具]** > **[!UICONTROL 开发人员工具]**&#x200B;右上角的&#x200B;**[!UICONTROL 省略号]**&#x200B;图标。
+1. 单击&#x200B;**[!UICONTROL 网络]**&#x200B;选项卡> ，然后查找被阻止的Cookie。
 
    >[!NOTE]
    >
-   >使用&#x200B;**[!UICONTROL Has blocked cookies]**&#x200B;复选框可更轻松地查找阻止的Cookie。
+   >使用&#x200B;**[!UICONTROL 已阻止Cookie]**&#x200B;复选框可更轻松地查找已阻止的Cookie。
 
 +++
 
@@ -81,7 +73,7 @@ ht-degree: 32%
 ## 我在尝试编辑页面时，看到的只是一个旋转图标而不是我的页面。 （VEC 和 EEC） {#section_313001039F79446DB28C70D932AF5F58}
 
 +++详细信息
-如果URL包含#字符，则可能会发生这种情况。 要解决此问题，请在VEC或EEC中切换到[!UICONTROL Browse]模式，然后切换回[!UICONTROL Compose]模式。 此时，旋转图标应当消失，页面应会加载。
+如果URL包含#字符，则可能会发生这种情况。 要解决此问题，请在VEC或EEC中切换到[!UICONTROL 浏览]模式，然后切换回[!UICONTROL 撰写]模式。 此时，旋转图标应当消失，页面应会加载。
 
 +++
 
@@ -134,7 +126,7 @@ ht-degree: 32%
 ## 我无法编辑防 iFrame 嵌套网站的体验。 （VEC 和 EEC） {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++详细信息
-通过启用[!UICONTROL Enhanced Experience Composer] (EEC)可以解决此问题。 单击&#x200B;**[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**，然后选中启用[!UICONTROL Enhanced Experience Composer]的复选框。 EEC使用[!DNL Adobe]管理的代理加载您的页面以进行编辑。 此代理允许在iFrame-busting网站上进行编辑，并允许在尚未添加[!DNL Adobe Target]代码的网站和页面上进行编辑。 在添加代码之前，活动不会向网站交付内容。 某些网站可能无法通过EEC加载，在这种情况下，您可以取消选中此选项以通过iFrame加载EEC。
+通过启用[!UICONTROL 增强型体验编辑器] (EEC)，可以解决此问题。 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]**，然后选中启用[!UICONTROL 增强型体验编辑器]的复选框。 EEC使用[!DNL Adobe]管理的代理加载您的页面以进行编辑。 此代理允许在iFrame-busting网站上进行编辑，并允许在尚未添加[!DNL Adobe Target]代码的网站和页面上进行编辑。 在添加代码之前，活动不会向网站交付内容。 某些网站可能无法通过EEC加载，在这种情况下，您可以取消选中此选项以通过iFrame加载EEC。
 
 >[!NOTE]
 >
@@ -149,14 +141,14 @@ ht-degree: 32%
 
 +++
 
-## 我的页面上不显示带有[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]或[!UICONTROL Change Text]/[!DNL Change HTML]的粗体和斜体文本样式。 有时，在应用这些样式更改后，文本会消失。 （VEC 和 EEC） {#section_7A71D6DF41084C58B34C18701E8774E5}
+## 我的页面上不显示带有[!UICONTROL 编辑文本]/[!UICONTROL 编辑HTML]或[!UICONTROL 更改文本]/[!DNL Change HTML]的粗体和斜体文本样式。 有时，在应用这些样式更改后，文本会消失。 （VEC 和 EEC） {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++详细信息
-如果您在VEC中为[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活动使用&#x200B;**[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]**，或者为[!UICONTROL Automated Personalization]或[!UICONTROL Multivariate Test]活动使用&#x200B;**[!UICONTROL Change Text]/[!UICONTROL Change HTML]**&#x200B;以使文本变为粗体或斜体，则这些样式可能无法在页面上应用，或者文本会从VEC中的页面中消失。 出现这种情况是因为富文本编辑器应用这些样式的方式可能会干扰网站标记。
+如果您在VEC中对[!UICONTROL A/B测试]、[!UICONTROL 体验定位]活动使用&#x200B;**[!UICONTROL 编辑文本]/[!UICONTROL 编辑HTML]**，或者对[!UICONTROL HTML]或[!UICONTROL Automated Personalization]活动使用&#x200B;**[!UICONTROL 更改文本]/[!UICONTROL 更改]**&#x200B;以使文本变为粗体或斜体，则这些样式可能不会在页面上应用，或者文本会从VEC的页面中消失。 出现这种情况是因为富文本编辑器应用这些样式的方式可能会干扰网站标记。
 
 如果您遇到此问题：
 
-1. 单击富文本编辑器中的&#x200B;**[!UICONTROL HTML]**&#x200B;按钮以进入源编辑模式。
+1. 单击富文本编辑器中的 **[!UICONTROL HTML]** 按钮以进入源编辑模式。
 1. 找到样式文本元素。
 
    * 对于粗体文本，请将 `<strong>` 元素更改为 `<b>`。

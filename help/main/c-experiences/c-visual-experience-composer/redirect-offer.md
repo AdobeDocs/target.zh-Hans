@@ -5,27 +5,22 @@ title: 能否将页面重定向到其他URL？
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 TQID: https://experienceleague.adobe.com/8Bh5z7SRWw3QqKQMHZck01GKVBtMufwLbw9JxLsSACU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 473
-ht-degree: 67%
+source-wordcount: 485
+ht-degree: 80%
 
 ---
 
 # 重定向到 URL
 
-如果要将访客发送到其他页面而不是在同一页面上显示内容，请在[!DNL Adobe Target]中使用[!UICONTROL Redirect to URL]选项。
+如果要将访客发送到其他页面而不是在同一页面上显示内容，请使用[!DNL Adobe Target]中的[!UICONTROL 重定向到URL]选项。
 
-您可能有两个完全不同的页面来进行测试，而非只更改页面中的部分内容。 在本例中，您的A/B测试要比较页面A与页面B。为此，需设置一个包含两个体验的A/B测试营销活动：一个体验指向默认页面A，另一个体验重定向到页面B。在“体验操作”菜单中（可通过单击体验的字母标签找到），选择&#x200B;**[!UICONTROL Redirect to URL]**&#x200B;并指定页面B的URL。该选件会配置为将访客重定向到其他页面。
+您可能有两个完全不同的页面来进行测试，而非只更改页面中的部分内容。 在此示例中，您的 A/B 测试要比较页面 A 与页面 B。为此，需设置一个包含两个体验的 A/B 测试营销活动：其中一个体验指向默认的页面 A，而另一个体验则重定向到页面 B。在“体验操作”菜单中（可通过单击体验所对应的字母标签找到此菜单），选择&#x200B;**[!UICONTROL 重定向到 URL]**，并指定页面 B 的 URL。该选件会配置为将访客重定向到其他页面。
 
 重定向产品建议执行 JavaScript 代码以重定向浏览器。 由于该产品建议使用了 `window.location.replace();` 方法，因此从中对访客进行重定向的页面不会存储到浏览器历史记录中。 这允许访客仍然使用浏览器中的返回键。
 
@@ -41,8 +36,8 @@ ht-degree: 67%
 要创建重定向产品建议，请执行以下操作：
 
 1. 创建一个体验。
-1. 在[!UICONTROL Experiences]框架中，单击所需体验的&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)）。
-1. 单击 **[!UICONTROL Redirect to URL]**。
+1. 在[!UICONTROL 体验]框架中，单击所需体验的&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)）。
+1. 单击&#x200B;**[!UICONTROL 重定向到URL]**。
 1. 在“重定向到URL”对话框中，键入URL。
 1. 如有需要，选择用于包括当前查询参数的选项。
 

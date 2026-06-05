@@ -5,21 +5,13 @@ title: 可在何处找到 Target 的资源和联系信息？
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 TQID: https://experienceleague.adobe.com/wwItoNoGUkLkNZED9frN7e5FE7O-iozDzMd2ekDdgfM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1313
+source-wordcount: 1326
 ht-degree: 78%
 
 ---
@@ -28,11 +20,11 @@ ht-degree: 78%
 
 此信息介绍了可帮助您了解 Target 功能以及在需要 Target 帮助时如何联系 Adobe 的其他资源。
 
-## [!UICONTROL Target Community Forum] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
+## [!UICONTROL Target 社区论坛] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
-发现[!UICONTROL Adobe Target Community]：您的见解和协作中心。
+发现[!UICONTROL Adobe Target社区]：您的见解和协作中心。
 
-[!UICONTROL Adobe Target Community Forum]是您[!DNL Adobe Targe]t所有内容的跳转目标。 无论您是刚刚入门还是经验丰富的从业者，该社区都提供了宝贵的机会，使您能够：
+[!UICONTROL Adobe Target社区论坛]是您[!DNL Adobe Targe]t所有内容的首选目标。 无论您是刚刚入门还是经验丰富的从业者，该社区都提供了宝贵的机会，使您能够：
 
 * **探索[!DNL Target]功能**：了解最佳实践并探索使用[!DNL Target]的新方法。
 * **连接和协作**：与同行和[!DNL Adobe]专家互动以共享见解并一起解决挑战。
@@ -40,12 +32,12 @@ ht-degree: 78%
 
 参与对话，贡献您的专业技能，获得您需要的答案 — 所有这些都在一个地方完成。
 
-访问 [Target 社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hans)以开始。
+访问 [Target 社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)以开始。
 
 ## Target 基础知识网络研讨会系列 {#concept_11902FAC95C64479AABE020557A7EEE4}
 
 +++查看详细信息
-探索[[Target基础知识系列网络研讨会]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}，这是[!UICONTROL Adobe Target Community]为您提供的客户成功计划。 访问即将举行的会议的注册详细信息并浏览以前网络研讨会的录像，以加深您对[!DNL Target]功能、最佳实践和实际用例的了解。
+探索[[Target基础知识系列网络研讨会]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}，这是[!UICONTROL Adobe Target社区]为您提供的客户成功计划。 访问即将举行的会议的注册详细信息并浏览以前网络研讨会的录像，以加深您对[!DNL Target]功能、最佳实践和实际用例的了解。
 
 +++
 
@@ -59,7 +51,7 @@ ht-degree: 78%
 
 | 主题 / 运行时长 / 录制日期 | 您将了解的内容 |
 |--- |--- |
-| [at.js提示和概述](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019年6月26日 | 您将会了解以下内容：<ul><li>使用 at.js 的优点</li><li>at.js 设置</li><li>处理闪烁的情况</li><li>调试 at.js</li><li>已知问题</li><li>常见问题解答</li></ul>有关更多信息，请参阅 [at.js 的工作方式](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank}。 |
+| [at.js提示和概述](https://helpx.adobe.com/cn/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019年6月26日 | 您将会了解以下内容：<ul><li>使用 at.js 的优点</li><li>at.js 设置</li><li>处理闪烁的情况</li><li>调试 at.js</li><li>已知问题</li><li>常见问题解答</li></ul>有关更多信息，请参阅 [at.js 的工作方式](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}。 |
 | [Target Premium工作区](https://helpx.adobe.com/cn/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>2018年9月4日 | 您将会了解以下内容：<ul><li>创建工作区（产品配置文件）</li><li>创建属性</li><li>添加用户</li><li>更新实现</li></ul>有关更多信息，请参阅[企业用户权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 | [可视化体验编辑器(VEC)](https://helpx.adobe.com/cn/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017年12月 | 您将会了解以下内容：<ul><li>VEC 如何工作</li><li>如何避免 VEC 中的常见问题</li><li>您可用于解决 VEC 问题的做法</li></ul>本指南中的详细信息，请参阅[体验](/help/main/c-experiences/experiences.md)。 |
 | [Adobe Target：Analytics/Target集成(A4T)](https://helpx.adobe.com/cn/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>2018年1月 | 您将会了解以下内容：<ul><li>如何设置集成并验证集成可正常工作 </li><li>集成的工作原理</li><li>了解要在 Analytics 中使用的理想报表</li><li>关于 A4T 的常见问题解答</li></ul>有关本指南中的更多信息，请参阅[Adobe Analytics作为Adobe Target (A4T)的报表Source](/help/main/c-integrating-target-with-mac/a4t/a4t.md)。 |
@@ -79,11 +71,11 @@ ht-degree: 78%
 
 如果您在使用 Target 时遇到问题或存在疑问，解决办法有以下几种：
 
-如有疑问，您可以咨询[Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hans){target=_blank}中的Adobe Target专家。
+如有疑问，您可以咨询[Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}中的Adobe Target专家。
 
 如果遇到技术问题或要记录错误，您可以联系客户关怀。 要通过电话联系客户关怀，请拨打 1-800-497-0335。 可在 [Adobe 数字营销客户服务各地区电话号码](https://helpx.adobe.com/cn/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)页面上找到美国境外的免费号码。 当要求您选择产品的选项时，请按 3 联系 Target 团队。
 
-联系[联系Adobe客户关怀](https://helpx.adobe.com/cn/contact.html){target=_blank}。
+联系[联系Adobe客户关怀](https://helpx.adobe.com/contact.html){target=_blank}。
 
 为了最快甄别您的问题，请在联系我们时准备好以下基本信息：
 
@@ -100,7 +92,7 @@ ht-degree: 78%
 
 ### 如果发生中断 {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-如果您怀疑发生了中断，请首先查看 [Experience Cloud 系统状态页面](https://status.adobe.com/zh-cn) ([!DNL https://status.adobe.com/zh-cn])。此页面记录了包括 Target 在内的各个 Experience Cloud 解决方案的所有中断、事故和维护信息，同时还包含我们技术运营团队进行的最新更新。 如果您仍然需要协助，请在联系客户关怀时，除了上面列出的信息，确保您还知道以下信息：
+如果您怀疑发生了中断，请首先查看 [Experience Cloud 系统状态页面](https://status.adobe.com) ([!DNL https://status.adobe.com])。此页面记录了包括 Target 在内的各个 Experience Cloud 解决方案的所有中断、事故和维护信息，同时还包含我们技术运营团队进行的最新更新。 如果您仍然需要协助，请在联系客户关怀时，除了上面列出的信息，确保您还知道以下信息：
 
 * 中断开始的时间
 * 发生情况的说明
@@ -116,9 +108,9 @@ ht-degree: 78%
 Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提供了大量的参与机制：
 
 * [查看 Experience Cloud 帮助页面，以获取建议、提示和常见问题解答](https://helpx.adobe.com/cn/marketing-cloud.html)
-* [提交工单以从支持人员获得帮助](https://experienceleague.adobe.com/zh-hans?support-solution=Target#support)
+* [提交工单以从支持人员获得帮助](https://experienceleague.adobe.com/?support-solution=Target#support)
 * [直接联系客户关怀团队](https://helpx.adobe.com/cn/marketing-cloud/contact-support.html)
-* [查看Experience Cloud解决方案的可用情况和状态](https://status.adobe.com/zh-cn/)
+* [查看Experience Cloud解决方案的可用情况和状态](https://status.adobe.com/)
 
 要收到有关即将推出的产品增强功能的高级通知，请注册 Adobe Priority Product Update（Adobe 优先产品更新）：
 
@@ -130,7 +122,7 @@ Adobe Experience Cloud 客户关怀团队在此为您提供帮助，同时还提
 
 ### 反馈 {#section_8154D6D712054220A90D85FA8E92933E}
 
-我们欢迎您提供有关此解决方案的任何建议或反馈。 可在 [Adobe Target Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=zh-Hans)提出关于增强的想法和建议。 单击[!UICONTROL Ideas]选项卡。
+我们欢迎您提供有关此解决方案的任何建议或反馈。 可在 [Adobe Target Experience League 社区](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)提出关于增强的想法和建议。 单击[!UICONTROL 想法]选项卡。
 
 ### 法律 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

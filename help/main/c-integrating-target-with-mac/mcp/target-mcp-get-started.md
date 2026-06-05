@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 打开MCP客户端设置并添加新的MCP服务器。
 1. 输入服务器URL： `https://targetmcp.adobe.io/mcp`
-1. 出现提示时，使用您的Adobe Experience Cloud凭据完成Adobe IMS OAuth登录。
+1. 出现提示时，请使用您的Adobe Experience Cloud凭据完成Adobe IMS OAuth登录。
 1. 一旦通过身份验证，所有工具即可立即使用。 尝试“列出所有活动的Target活动”以验证连接。
 
 **从克劳德代码连接：**

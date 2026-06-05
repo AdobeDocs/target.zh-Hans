@@ -1,19 +1,19 @@
 ---
 keywords: 活动；活动；分析仪表板
-description: '[!UICONTROL Adobe Target Dashboard]提供了贵组织如何随着时间的推移使用 [!DNL Target] 的高级视图、呈现的采用情况、活动量和实验使用情况。'
+description: '[!UICONTROL Adobe Target仪表板]提供了贵组织如何随着时间的推移使用 [!DNL Target] 的高级视图，显示采用情况、活动量和实验使用情况。'
 title: Adobe Target分析功能板
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
 source-git-commit: 346b54882d4082f14bbc16ede350758a362ee418
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 0%
+source-wordcount: '820'
+ht-degree: 1%
 
 ---
 
 # Adobe Target分析功能板
 
-[!UICONTROL Adobe Target Dashboard]提供了贵组织在一段时间内如何使用[!DNL Adobe Target]的高级视图。 它有助于团队一眼就了解采用情况、活动量和实验使用情况。
+[!UICONTROL Adobe Target仪表板]提供了贵组织如何逐渐使用[!DNL Adobe Target]的高级视图。 它有助于团队一眼就了解采用情况、活动量和实验使用情况。
 
 该仪表板专为希望快速了解[!DNL Target]使用情况的从业人员和利益相关者设计，无需深入了解各个活动报告。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * 因此，各指标的总数可能无法准确累加。 例如，可以在同一时间范围内开始和完成许多活动。
 
-您还可以通过从高级菜单中选择&#x200B;**[!UICONTROL Download as PNG]**&#x200B;导出仪表板的快照。
+您还可以通过从高级菜单中选择&#x200B;**[!UICONTROL 以PNG格式下载]**&#x200B;导出仪表板的快照。
 
 ![](assets/insights-3.png)
 
@@ -84,13 +84,13 @@ ht-degree: 0%
 
 ![](assets/insights-5.png)
 
-[!UICONTROL Activity Type]图表显示所选时间范围内按类型划分的实时活动分布，包括：
+[!UICONTROL 活动类型]图表显示所选时间范围内按类型列出的实时活动分布，包括：
 
-* [!UICONTROL A/B Test]
-* [!UICONTROL Experience Targeting]
-* [!UICONTROL Recommendations]
+* [!UICONTROL A/B 测试]
+* [!UICONTROL 体验定位]
+* [!UICONTROL 推荐]
 * [!UICONTROL Automated Personalization]
-* [!UICONTROL Multivariate Test]
+* [!UICONTROL 多变量测试]
 
 使用此图表可以识别贵组织最依赖的[!DNL Target]功能，并发现扩大您运行的活动类型组合的机会。
 
@@ -98,11 +98,11 @@ ht-degree: 0%
 
 ![](assets/insights-6.png){align="center"}
 
-本节重点介绍与&#x200B;**[!UICONTROL A/B Test]**&#x200B;活动具体相关的用法。
+本节重点介绍与&#x200B;**[!UICONTROL A/B测试]**&#x200B;活动具体相关的用法。
 
-**[!UICONTROL Total live A/B Test activities]**&#x200B;量度显示在所选时间范围内任何时间点上处于活动状态的&#x200B;**[!UICONTROL A/B Test]**&#x200B;活动的数量。
+**[!UICONTROL 实时A/B测试活动总数]**&#x200B;指标显示在所选时间范围内的任意时间点上线的&#x200B;**[!UICONTROL A/B测试]**&#x200B;活动数。
 
-**[!UICONTROL Total A/B Tests published]**&#x200B;显示在所选时间范围内发布的&#x200B;**[!UICONTROL A/B Test]**&#x200B;活动的数量。
+发布的&#x200B;**[!UICONTROL A/B测试总数]**&#x200B;显示在所选时间范围内发布的&#x200B;**[!UICONTROL A/B测试]**&#x200B;活动数。
 
 使用这些量度了解A/B测试的使用频率，并跟踪一段时间内的试验量和采用情况。
 
@@ -110,5 +110,5 @@ ht-degree: 0%
 
 ![](assets/insights-7.png){align="center"}
 
-**[!UICONTROL Activities Over Time]**&#x200B;图形可跟踪在选定时间范围内创建、修改和发布的活动数，从而轻松地在您的试验项目中发现趋势、峰值或静默期。
+**[!UICONTROL 随时间变化的活动]**&#x200B;图形可跟踪在选定时间范围内创建、修改和发布的活动数，从而轻松地在您的试验项目中发现趋势、峰值或安静时段。
 

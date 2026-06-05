@@ -5,16 +5,12 @@ title: 如何创建使用A4T的活动？
 feature: Analytics for Target (A4T)
 exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
 TQID: https://experienceleague.adobe.com/7fdf22c0HzpPYQbKgGjHEy23oJQsjQTJpfqy93mG1kI
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 652
+source-wordcount: 662
 ht-degree: 29%
 
 ---
@@ -29,7 +25,7 @@ ht-degree: 29%
 
 创建使用[!DNL Analytics]作为报表源的[!DNL Target]活动与设置常规[!DNL Target]活动类似，但存在一些重要差异。 例如，在创建活动时无法选择要报告的区段，因为可在查看报告时应用[!DNL Analytics]中所有可用的区段。
 
-1. 单击 **[!UICONTROL Create Activity]**。
+1. 单击&#x200B;**[!UICONTROL 创建活动]**。
 
    >[!NOTE]
    >
@@ -39,9 +35,9 @@ ht-degree: 29%
 
 1. 选择活动类型并开始设置活动。
 
-   如果要创建[!UICONTROL Auto-Allocate]或[!UICONTROL Auto-Target]活动，请参阅自动分配和自动定位活动支持[A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)以了解更多信息。
+   如果要创建[!UICONTROL 自动分配]或[!UICONTROL 自动定位]活动，请参阅自动分配和自动定位活动支持[A4T](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)以了解更多信息。
 
-1. 进入活动创建流程的&#x200B;**[!UICONTROL Settings]**&#x200B;部分时，请选择&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;并指定您的公司。
+1. 进入活动创建流程的&#x200B;**[!UICONTROL 设置]**&#x200B;部分时，请选择&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;并指定您的公司。
 1. 选择一个报表包。
 
    您可以在[!DNL Analytics]中选择任何可用的报表包。 报表包定义收集的数据在何处可用。 报表包列表中不包含虚拟报表包。
@@ -79,7 +75,7 @@ ht-degree: 29%
    >
    >在将[!DNL Analytics]设置为报表源后设置活动时，没有用于设置报表受众的选项。 [!DNL Analytics]区段在[!DNL Target]活动报表中可用。
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## A4T以及自动分配和自动定位活动
 

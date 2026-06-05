@@ -7,30 +7,13 @@ hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 TQID: https://experienceleague.adobe.com/jTTFaG0rC7XEmy7yzL3YSeCqEdMy-oH9mbCMvufT-FQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: 2199
 ht-degree: 95%
 
 ---
@@ -45,7 +28,7 @@ ht-degree: 95%
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123?profile.language=zh-Hans){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
 +++Details
 
@@ -55,9 +38,9 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 * How a non-technical user or marketer is in full control of configuring and managing the algorithms.
 * How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=zh-Hans){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=zh-Hans){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
 +++
 -->
@@ -82,13 +65,13 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   个性化成熟度的核心是人工智能和机器学习。 [!DNL Adobe Target] 利用这些技术了解用户行为、预测偏好并动态地定制内容。 通过利用 AI 和 ML 的强大功能，了解品牌如何超越静态 A/B 测试和基于规则的个性化以投放动态、与情境相关的体验。
 
-  [收听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=zh-Hans){target=_blank}
+  [收听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **高性能建议**
 
   了解推荐算法如何变革商业规则，从而提高参与度和收入。 从个性化产品建议到内容推荐，无缝引导用户完成整个历程的能力可直接有助于实现显著的业务增长。
 
-  [听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=zh-Hans#M3685){target=_blank}
+  [听录音。](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **发掘 AI 支持的个性化**
 
@@ -151,7 +134,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   在本次研讨会中，了解如何利用 [!DNL Adobe Target] 的新增功能来大幅提高转化率，并讨论：
 
-   * [!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动中的增强模型控件
+   * [!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动中的增强模型控件
    * 解锁从 [!DNL Adobe] 的 [!DNL Real-Time Customer Data Platform] 评估轮廓属性和高价值区段的能力
    * 各个品牌如何微调其 AI 支持的算法来加快速度和决策制定
    * 提供一对一个性化的独特用例
@@ -174,7 +157,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   课程图：
 
-   * [!UICONTROL A/B Test]、[!UICONTROL Multivariate Testing] (MVT)、(XT)以及自动测试和个性化
+   * [!UICONTROL A/B测试]、[!UICONTROL Multivariate Testing] (MVT)、(XT)以及自动测试和个性化
    * 活动设置的分步工作流
    * 批量体验预获取，实现移动设备的始终运行个性化
    * 用于跨客户体验进行测试和定位的生命周期量度
@@ -184,7 +167,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 ### 厨师的收藏集：个性化食谱（2022 年 8 月 30 日）
 
-加入 [!DNL Adobe Target] 团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 基于我们最新的电子书《Chef&#39;s Collection: Ideas for Personalization》。
+加入 [!DNL Adobe Target] [!DNL]团队，因为他们提供了关于如何从 Target 中获得最大价值的新想法。 基于我们最新的电子书《Chef&#39;s Collection: Ideas for Personalization》。
 
 * [录制链接](https://video.tv.adobe.com/v/346970/){target=_blank}
 

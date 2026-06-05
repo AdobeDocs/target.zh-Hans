@@ -2,20 +2,15 @@
 keywords: 优化；个性化；adobe journey optimizer；ajo；用例；方案；Web；基于代码
 description: 了解如何在Adobe Journey Optimizer中实施热门优化用例，以获得最大影响。
 title: ' [!DNL Adobe Journey Optimizer] - Web和基于代码的渠道中的最佳优化用例'
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
 feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: a00b4732-2740-4b35-a1c5-1ef2d78fecff
 TQID: https://experienceleague.adobe.com/-BmxtsKOxfRUkORIz2P-sWTDLCg323cu7FSbdt6SAa4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 198
@@ -31,7 +26,7 @@ ht-degree: 9%
 
 要执行以下用例，您需要满足以下条件：
 
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/get-started){target=_blank}。
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}。
 * 这些用例不需要[!DNL Adobe Target]许可证。 这些用例演示了如何使用[!DNL Journey Optimizer]在[!DNL Target]中执行熟悉的任务，允许您探索并与[!DNL Journey Optimizer]实现相同的结果。
 
 ## 用例

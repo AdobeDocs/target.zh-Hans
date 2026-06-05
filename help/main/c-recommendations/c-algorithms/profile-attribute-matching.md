@@ -2,17 +2,15 @@
 keywords: 包含规则；包含标准；推荐；促销活动；动态筛选；动态；配置文件属性匹配
 description: 了解如何通过比较项目（实体）与用户配置文件中的值在 [!DNL Target Recommendations] 中动态筛选。
 title: 如何在“推荐”活动中按配置文件属性匹配进行筛选？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 TQID: https://experienceleague.adobe.com/Gm91Mww5ylvNjUcmzp6KwxIG6LTibvI44LnW67KFzqk
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: 495
 ht-degree: 0%
 
 ---
@@ -21,24 +19,24 @@ ht-degree: 0%
 
 通过比较项目（实体）与用户配置文件中的值在[!DNL Adobe Target Recommendations]中动态筛选。
 
-当您想要显示与访客配置文件中存储的某个值（如大小或最喜爱的品牌）匹配的推荐时，请使用[!UICONTROL Profile Attribute Matching]。
+当您想要显示与访客配置文件中存储的值（如大小或最喜爱的品牌）匹配的推荐时，请使用[!UICONTROL 配置文件属性匹配]。
 
 >[!NOTE]
 >
->为标准和促销活动创建和使用包含规则[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的过程与用例和示例类似。
+>为标准和促销活动创建和使用包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的[过程与用例和示例类似。
 
-以下情形显示如何使用[!UICONTROL Profile Attribute Matching]：
+以下情形显示如何使用[!UICONTROL 配置文件属性匹配]：
 
 * 一家销售眼镜的公司将访客最喜欢的框架颜色存储为“核桃”。 对于该特定访客，推荐设置为仅返回颜色与“核桃”匹配的眼镜框。
 * 可以在访客浏览您公司的网站时为其服装尺寸（例如，小号、Medium或大号）定义配置文件参数。 可以设置推荐以匹配该配置文件参数，并仅返回特定于用户首选服装尺寸的产品。
 
 ## 配置文件属性匹配示例 {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL Profile Attribute Matching]允许您仅推荐与访客配置文件中某个属性匹配的项目，如以下示例所示。
+[!UICONTROL 配置文件属性匹配]允许您仅推荐与访客配置文件中某个属性匹配的项目，如以下示例所示。
 
 ### 推荐用户最喜爱的品牌中的项目
 
-例如，您可以使用[!UICONTROL Profile Attribute Matching]选项创建一个规则，仅在品牌等于`profile.favoritebrand`中存储的值或文本时推荐项目。 在此规则下，如果访客正在查看特定品牌的运动裤，则仅显示与该用户最喜爱的品牌（访客配置文件中`profile.favoritebrand`中存储的值）匹配的推荐。
+例如，您可以使用[!UICONTROL 配置文件属性匹配]选项创建一个规则，仅在品牌等于`profile.favoritebrand`中存储的值或文本时推荐项目。 在此规则下，如果访客正在查看特定品牌的运动裤，则仅显示与该用户最喜爱的品牌（访客配置文件中`profile.favoritebrand`中存储的值）匹配的推荐。
 
 ![最喜爱的品牌](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
 

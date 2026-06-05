@@ -5,14 +5,12 @@ title: 能否在推荐中使用多值属性？
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 TQID: https://experienceleague.adobe.com/FrjVxvYfGh2o-qomXRbVh6WS6f65Mja41gBMhejEPlE
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 9%
+source-wordcount: 470
+ht-degree: 8%
 
 ---
 
@@ -68,8 +66,8 @@ function targetPageParams() {
 
 以下运算符可用于多值实体、配置文件和mbox属性：
 
-* [!UICONTROL is contained in list]
-* [!UICONTROL is not contained in list]
+* [!UICONTROL 包含在列表]中
+* [!UICONTROL 不包含在列表]中
 
 ## 在包含规则中使用多值属性
 

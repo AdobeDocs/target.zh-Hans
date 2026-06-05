@@ -8,16 +8,16 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
+source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Target] MCP服务器 {#target-mcp}
 
-[!DNL Adobe Target] MCP集成允许您直接从AI助手检查和分析A/B测试和个性化活动。 将[!DNL Target]的试验数据和个性化数据转换为纯语言的工作流 — 审核您的试验组合、审查性能报告并浏览受众和选件，而无需导航UI或编写API调用。
+[!DNL Adobe Target] MCP集成允许您直接从AI助手检查、分析和管理A/B测试和个性化活动。 将[!DNL Target]的试验数据和个性化数据转换为纯语言的工作流 — 审核您的试验组合、审查性能报表、浏览受众和选件、创建活动并进行更新，而无需导航UI或编写API调用。
 
 >[!AVAILABILITY]
 >
@@ -41,20 +41,17 @@ ht-degree: 0%
 
 ## 主要功能 {#mcp-capabilities}
 
-[!DNL Adobe Target] MCP服务器提供对活动、受众、选件和实施配置的读取访问权限。 通过集成，您可以：
+[!DNL Adobe Target] MCP服务器提供对活动、受众、选件和实施配置的读写访问权限。 通过集成，您可以：
 
 * **检查和审核实验** — 获取任何活动的状态、性能、更改历史记录和QA预览链接，而无需浏览UI。
 * **分析结果** — 检索A/B、XT、AP和自动定位活动的性能、收入和A4T报表。
 * **浏览活动** — 列出、检查和分析A/B和XT活动。
-* **浏览受众和选件** — 列出和检查受众、HTML选件和JSON选件。
+* **创建和更新活动** — 创建新的A/B和体验定位活动、更新配置、管理流量拆分、添加或删除变体以及控制活动状态（激活、暂停、停用）。
+* **浏览和管理受众和选件** — 列出、检查、创建和更新受众、HTML选件和JSON选件。
 <!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
 * **审核实施** — 查看at.js设置、响应令牌和每个实体的修订历史记录。
 
->[!NOTE]
->
->写入工具（创建、更新、激活、停用）不通过&#x200B;**公共Beta**&#x200B;中的公共MCP目录公开。 所有当前可用的工具均为只读。 写入权限将在未来版本中提供。
-
-[!DNL Adobe Target] MCP服务器公开跨10个类别的23个只读工具 — 从活动检查和报告到受众探索和QA预览。 有关完整的参数引用，请参阅[MCP服务器工具引用](target-mcp-tools-reference.md)。
+[!DNL Adobe Target] MCP服务器公开跨10个类别的41个工具 — 从活动创建和报告到受众管理和QA预览。 有关完整的参数引用，请参阅[MCP服务器工具引用](target-mcp-tools-reference.md)。
 
 要了解您可以使用[!DNL Adobe Target] MCP服务器做什么 — 包括逐步提示演练 — 请参阅[用例和演练](target-mcp-use-cases.md)。
 
@@ -69,12 +66,12 @@ ht-degree: 0%
 
 +++我可以通过MCP访问哪些[!DNL Adobe Target]对象？
 
-您可以访问活动(A/B、XT、AP)、受众、选件、属性、mbox、响应令牌、at.js配置、A4T报表和实体修订历史记录。 当前可用的所有23种工具均为只读。
+您可以访问和管理活动(A/B、XT、AP)、受众、选件、属性、mbox、响应令牌、at.js配置、A4T报告和实体修订历史记录。 MCP服务器公开了41种工具，包括读取和写入操作。
 +++
 
 +++MCP服务器是否可以创建或修改活动？
 
-不在公开Beta中。 公共MCP目录目前公开23个只读工具。 尚未通过公共MCP服务器提供写入操作（创建、更新、激活、停用）。 写入权限将在未来版本中提供。
+是. MCP服务器支持写入操作，包括创建A/B活动和体验定位活动、更新活动配置、管理流量拆分、添加或删除变体、激活、暂停和停用活动。 写入操作需要编辑器角色或更高版本；激活和停用操作需要审批者角色。
 +++
 
 +++要使用MCP服务器，是否需要开发人员访问权限？
@@ -89,12 +86,12 @@ ht-degree: 0%
 
 +++写入操作能否对实时活动造成意外更改？
 
-无法通过公共Beta中的公共MCP目录使用写入工具 — 当前公开的所有23种工具均为只读。 在将来的版本中引入写入工具时，这些工具将包含安全注释和确认审核，这样，在没有明确用户确认的情况下，不会执行任何状态更改操作。
+编写工具包括安全注释和确认审核，这样无需明确的用户确认即不会执行任何状态更改操作。 Adobe建议先在沙盒环境中测试集成，然后再在生产中使用写入工具，并且在确认集成之前仔细查看所有MCP启动的操作。
 +++
 
 +++我需要在[!DNL Adobe Target]中拥有哪些权限？
 
-**观察者**&#x200B;角色或更高角色授予对公共Beta中可用的所有23个只读工具的访问权限。 写入工具尚未通过公共MCP目录公开，因此“编辑者”和“审批者”角色权限此时不会解锁其他MCP工具。 如果您不确定当前的访问级别，请联系您的[!DNL Adobe Target]管理员。
+**观察者**&#x200B;角色或更高角色授予对所有只读工具的访问权限。 写入工具（创建、更新）需要&#x200B;**编辑者**&#x200B;角色或更高版本。 状态更改工具（激活、停用）需要&#x200B;**审批者**&#x200B;角色。 如果您不确定当前的访问级别，请联系您的[!DNL Adobe Target]管理员。
 +++
 
 +++我是否可以在多个Target组织或属性中使用MCP服务器？

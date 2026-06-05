@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 68%
+source-wordcount: 507
+ht-degree: 69%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 68%
 
 您可以在[!DNL Adobe Target]中基于网络详细信息（如ISP、域名和连接速度）创建受众。
 
-1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 命名受众并添加可选描述。
-1. 将&#x200B;**[!UICONTROL Network]**&#x200B;拖放到受众生成器窗格中。
-1. 单击&#x200B;**[!UICONTROL Select]**，然后选择以下选项之一：
+1. 将&#x200B;**[!UICONTROL 网络]**&#x200B;拖放到受众生成器窗格中。
+1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
    * **ISP：** ISP 是指向订户提供 Internet 接入服务的组织，订户需按月或按年向该组织缴纳相应费用。 很多 ISP 还提供其他服务项目，例如 Web 托管或电子邮件服务。 “ISP”字段中填写的内容可以是一个商业 ISP（例如 Comcast 或 TimeWarner），也可以是其他实体（例如企业或教育机构）。
 
@@ -59,9 +59,9 @@ ht-degree: 68%
      此字段基于连接类型，而并非实际速度本身。 [!DNL Target] 无法确定各种连接方式的精确连接速度。 如果没有迹象显示使用了其他连接类型，则会使用宽带连接类型，因此无法选择特定的类型。
 
 1. （可选）为受众设置其他规则。
-1. 单击 **[!UICONTROL Done]**。
+1. 单击&#x200B;**[!UICONTROL 完成]**。
 
-下图显示了一个受众，它定位的是使用AT&amp;T且连接速度为[!UICONTROL Mobile]的访客。
+下图显示了一个受众，它定位的是使用AT&amp;T且连接速度为[!UICONTROL 移动设备]的访客。
 
 ![锁定网络](assets/target_network.png)
 

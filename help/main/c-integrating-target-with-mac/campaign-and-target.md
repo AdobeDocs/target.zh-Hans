@@ -14,8 +14,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 372
-ht-degree: 32%
+source-wordcount: 379
+ht-degree: 35%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 32%
 ## 在[!DNL Adobe Campaign]电子邮件中包含[!DNL Target]选件 {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. 在[!DNL Adobe Campaign]中创建电子邮件。
-1. 在电子邮件属性中，单击&#x200B;**[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**。
+1. 在电子邮件属性中，单击&#x200B;**[!UICONTROL 包含]** > **[!UICONTROL 由 Adobe Target 提供的动态图像]**。
 1. 从共享的资产中选择默认图像。
 1. 指定位置 (rawbox)。
 1. 添加任何其他决策参数，例如收件人的性别。

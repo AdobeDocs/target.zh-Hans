@@ -19,8 +19,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1168
-ht-degree: 19%
+source-wordcount: 1194
+ht-degree: 18%
 
 ---
 
@@ -50,9 +50,9 @@ ht-degree: 19%
 
 ### 步骤5：启用用于使用A4T的选项
 
-在[!DNL Target]用户界面中，单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**，然后选择&#x200B;**[!UICONTROL Select per activity]**&#x200B;或&#x200B;**[!UICONTROL Adobe Analytics]**。
+在[!DNL Target]用户界面中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 可视化体验编辑器]**，然后选择&#x200B;**[!UICONTROL 为每个活动选择]**&#x200B;或&#x200B;**[!UICONTROL Adobe Analytics]**。
 
-* 创建每个活动时，**[!UICONTROL Select per activity]**&#x200B;允许您在[!DNL Target]和[!DNL Analytics]之间进行选择。
+* 创建每个活动时，**[!UICONTROL 为每个活动选择]**&#x200B;允许您在[!DNL Target]和[!DNL Analytics]之间进行选择。
 * **[!UICONTROL Adobe Analytics]**&#x200B;将[!DNL Analytics]设置为您创建的所有活动的报表源。
 
 ## 适用于at.js实施的![at.js徽章](/help/main/assets/atjs.png)实施步骤{#section_73961BAD5BB4430A95E073DE5C026277}
@@ -71,7 +71,7 @@ ht-degree: 19%
 
 访客ID服务允许您跨[!DNL Adobe Experience Cloud]解决方案识别用户。 实施或迁移到所需版本的Experience Cloud访客ID。 有关更多信息，请参阅[实施之前](/help/main/c-integrating-target-with-mac/a4t/before-implement.md)中的“实施要求”。
 
-请参阅&#x200B;*Experience Cloud访客ID服务*&#x200B;文档中的[为Experience Cloud实施Target ID服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=zh-Hans)。
+请参阅&#x200B;*Experience Cloud访客ID服务*&#x200B;文档中的[为Target实施Experience Cloud ID服务](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=zh-Hans)。
 
 ### 步骤 4：更新 AppMeasurement for JavaScript 或 s_code
 
@@ -205,9 +205,9 @@ Adobe建议您删除之前的集成，以简化实施并免除解决系统间差
 
 ### 步骤 10：启用可将 Analytics 用作 Target 报表源的选项
 
-在[!DNL Target]中，单击&#x200B;**[!UICONTROL Administration > Reporting]**&#x200B;并选择&#x200B;**[!UICONTROL Select per activity]**&#x200B;或&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;以启用这些选项。
+在[!DNL Target]中，单击&#x200B;**[!UICONTROL 管理>报表]**，然后选择&#x200B;**[!UICONTROL 为每个活动选择]**&#x200B;或&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;以启用这些选项。
 
-* 创建每个活动时，**[!UICONTROL Select per activity]**&#x200B;允许您在[!DNL Target]和[!DNL Analytics]之间进行选择。
+* 创建每个活动时，**[!UICONTROL 为每个活动选择]**&#x200B;允许您在[!DNL Target]和[!DNL Analytics]之间进行选择。
 * **[!UICONTROL Adobe Analytics]**&#x200B;将[!DNL Analytics]设置为您创建的所有活动的报表源。
 
 

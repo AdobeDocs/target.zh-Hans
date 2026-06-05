@@ -1,6 +1,6 @@
 ---
 keywords: 定位;AP 报告;自动个性化报告;自动定位;自动定位报告;个性化;洞察;FAQ;常见问题解答;重要属性
-description: 了解如何使用[!UICONTROL Important Attributes]报表，该报表显示影响个性化模型的主要属性及其相对重要性。
+description: 了解如何使用[!UICONTROL 重要属性]报表，该报表显示影响个性化模型的主要属性及其相对重要性。
 title: 重要属性报表是什么？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Reports
@@ -22,14 +22,14 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1835
-ht-degree: 56%
+source-wordcount: 1937
+ht-degree: 61%
 
 ---
 
 # 重要属性报表
 
-有关[!UICONTROL Important Attributes]报表的信息，该报表是[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活动用户可以使用的两个专用报表之一。
+有关[!UICONTROL 重要属性]报表的信息，该报表是[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位] (AT)活动的用户可用的两个专用报表之一。
 
 >[!NOTE]
 >
@@ -39,42 +39,42 @@ ht-degree: 56%
 >
 >* [!UICONTROL Personalization Insights]报表仅适用于使用转化优化目标的AP和AT活动。 活动上线后将优化目标从收入更改为转化的活动也不受支持。
 >
->* 仅当从[!UICONTROL Report Metric]下拉列表中选择[!UICONTROL Primary Goal]时，[!UICONTROL Personalization Insights]报告才可用。
+>* 仅当从[!UICONTROL 报表量度]下拉列表中选择[!UICONTROL 主要目标]时，[!UICONTROL Personalization Insights]报表才可用。
 >
->* 仅[默认环境](/help/main/administrating-target/hosts.md)支持[!UICONTROL Personalization Insights]报告。
+>* 仅[默认环境](/help/main/administrating-target/hosts.md)支持[!UICONTROL Personalization Insights]报表。
 >
->* 仅为处于[!UICONTROL Live]状态并且已激活且接收流量至少15天的活动生成[!UICONTROL Personalization Insights]报告。
+>* [!UICONTROL Personalization Insights]报告仅针对[!UICONTROL 实时]状态且已激活且接收流量至少15天的活动生成。
 
 在不同的活动中，不同的属性对模型如何决定进行个性化的重要性也大小不一。 此报表可显示影响模型的排名靠前的属性及其相对重要性。
 
-## 访问[!UICONTROL Important Attributes]报告 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## 访问[!UICONTROL 重要属性]报告 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 单击&#x200B;**[!UICONTROL Activities]**，然后从列表中单击所需的[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)或[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活动。
+1. 单击&#x200B;**[!UICONTROL 活动]**，然后从列表中单击所需的[Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)或[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)活动。
 
-   如果您有许多活动，请单击“筛选器”（![筛选器图标](/help/main/assets/icons/Filter.svg)）图标以通过从[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]和[!UICONTROL Activity Source]下拉列表中选择选项来筛选列表。
+   如果您有许多活动，请单击“筛选器”（![筛选器图标](/help/main/assets/icons/Filter.svg)）图标以筛选列表，方法是从[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 报告Source]、[!UICONTROL 体验编辑器]、[!UICONTROL 量度类型]和[!UICONTROL 活动Source]下拉列表中选择相应的选项。
 
-1. 单击 **[!UICONTROL Reports]**。
+1. 单击&#x200B;**[!UICONTROL 报表]**。
 
-   将显示[Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md)或[自动定位摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)报告，其中提供了有关活动性能的信息，这些信息由第一个屏幕图标表示。 另外两个图标表示两个[!UICONTROL Personalization Insights]报表： **[!UICONTROL Automated Segments]** （![自动化区段报表](/help/main/assets/icons/AutomatedSegment.svg) ）和&#x200B;**[!UICONTROL Important Attributes]** （![重要属性图标](/help/main/assets/icons/ViewList.svg) ）。
+   将显示[Automated Personalization摘要](/help/main/c-reports/personalization-reports/reports-ap.md)或[自动定位摘要](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)报告，其中提供了有关活动性能的信息，这些信息由第一个屏幕图标表示。 另外两个图标表示两个[!UICONTROL Personalization Insights]报表： **[!UICONTROL 自动化区段]** （![自动化区段报表](/help/main/assets/icons/AutomatedSegment.svg)）和&#x200B;**[!UICONTROL 重要属性]** （![重要属性图标](/help/main/assets/icons/ViewList.svg)）。
 
 
-   请注意，[!UICONTROL Auto-Target]具有用于[!UICONTROL Summary]报告的图形视图的附加图形图标。
+   请注意，[!UICONTROL 自动定位]具有用于[!UICONTROL 摘要]报告的图形视图的附加图形图标。
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL Important Attributes]报表只有在您激活活动至少15天后才能使用。 在此初始期间，您将无法访问此报表或单击[!UICONTROL Important Attributes]图标。 15天过后，假定您的活动中有足够的个性化流量，即可使用[!UICONTROL Important Attributes]报表。
+   >[!UICONTROL 重要属性]报表只有在您激活活动至少15天后才能使用。 在此初始阶段，您将无法访问此报表，也无法单击“[!UICONTROL 重要属性]”图标。 15天过后，假定您的活动中有足够的个性化流量，即可使用[!UICONTROL 重要属性]报表。
 
-1. 激活活动15天后，单击&#x200B;**[!UICONTROL Important Attributes]** （ ![重要属性图标](/help/main/assets/icons/ViewList.svg) ）图标。
+1. 激活活动15天后，单击&#x200B;**[!UICONTROL 重要属性]** （![重要属性图标](/help/main/assets/icons/ViewList.svg) ）图标。
 
 1. 选择所需的日期范围。
 
-   与[!UICONTROL Summary]报表（性能报表）不同，包括[!UICONTROL Important Attributes]在内的[!UICONTROL Personalization Insights]仅适用于固定日期范围：15天、30天和60天。
+   与[!UICONTROL 摘要]报表（性能报表）不同，[!UICONTROL Personalization分析]（包括[!UICONTROL 重要属性]）仅适用于固定日期范围：15天、30天和60天。
 
-   这些固定的日期范围允许[!UICONTROL Personalization Insights]使用足够大的数据范围，以降低您从活动中的短期模式获取见解的可能性。 您可以决定日期范围的“结束日期”和“持续时间”。 您会注意到“开始”显示为灰色。 开始日期会根据您选择的结束日期和持续时间自动进行更改。
+   通过这些固定日期范围，“[!UICONTROL 个性化分析]”可以使用足够多的数据来降低您从活动中的短生存期模式获取分析的可能性。 您可以决定日期范围的“结束日期”和“持续时间”。 您会注意到“开始”显示为灰色。 开始日期会根据您选择的结束日期和持续时间自动进行更改。
 
-   您可以从[!UICONTROL Preset Date Range]下拉列表中访问可用的固定日期范围。
+   您可以从[!UICONTROL 预设日期范围]下拉列表中访问可用的固定日期范围。
 
-1. 查看[!UICONTROL Important Attributes]报表数据。
+1. 查看“[!UICONTROL 重要属性]”报表数据。
 
 1. （可选）单击“下载”（![下载图标](/help/main/assets/icons/Download.svg)）图标可[以CSV格式下载报表](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)，以便在Excel和其他工具中进行分析。
 
@@ -93,7 +93,7 @@ ht-degree: 56%
 
 ## 重要属性常见问题解答 {#section_740910A52FA646B4AC9452F98C2F5719}
 
-有关使用[!UICONTROL Important Attributes]报表的常见问题解答，请参阅以下常见问题解答。
+有关使用[!UICONTROL 重要属性]报表的常见问题解答，请参阅以下常见问题解答。
 
 ### 我的活动还无法使用Personalization Insights报表。 为什么？
 
@@ -101,7 +101,7 @@ ht-degree: 56%
 
 * 激活活动后不满 15 天。 在您启动活动至少 15 天后，自动化区段和重要属性报表才可用。 在此初始阶段，您将无法访问这些报表，也无法单击“自动化区段”和“重要属性”图标。
 * 您的活动在指定的时间范围内没有足够的流量。 15 天过后，如果您的活动中有[足够的个性化流量](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)来构建个性化模型，将可以使用自动化区段和重要属性报表。
-* 您的活动包含收入优化目标。 此时，[!UICONTROL Personalization Insights]仅适用于转化优化目标活动。 我们将在未来的版本中添加对收入优化目标活动的支持。
+* 您的活动包含收入优化目标。 目前，“[!UICONTROL 个性化分析]”仅适用于转化优化目标活动。 我们将在未来的版本中添加对收入优化目标活动的支持。
 
 ### 什么是属性？
 
@@ -111,25 +111,25 @@ ht-degree: 56%
 
 ### 我看到一个或多个我不希望模型用于训练的属性。 我可以从训练模型中移除这些属性吗？ {#models-api}
 
-[!UICONTROL Models API]（也称为API）允许用户查看和管理机器学习模型中用于[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活动的属性（也称为功能）列表。 如果要排除一个或多个属性不被模型用于AP或AT活动，可以使用模型API将这些属性添加到“”中。
+[!UICONTROL 模型API]（也称为API）允许用户查看和管理机器学习模型中用于[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位] (AT)活动的属性（也称为功能）列表。 如果要排除一个或多个属性不被模型用于AP或AT活动，可以使用模型API将这些属性添加到“”中。
 
 有关详细信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[模型API概述](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=zh-Hans){target=_blank}。 要使用API阻止属性，请参阅[模型API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=zh-Hans){target=_blank}。
 
-### [!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]报表中的信息是否与CSV下载中的信息相同？
+### [!UICONTROL 自动化区段]和[!UICONTROL 重要属性]报表中的信息是否与CSV下载中的信息相同？
 
 不相同，UI 报表包含选择的信息， 而以 CSV 格式下载的报表则包含其他详细信息。 下载的自动化区段分析报表除了包含 UI 中所包含的排名靠前的区段之外，还包含其他自动化区段，以及这些区段对您的选件或体验的性能表现。 重要属性报表包含排名靠前的 100 个访客属性及其相对重要性，而 UI 则仅包含排名靠前的 10 个访客属性。
 
 ### 我能否在自定义日期范围内查看Personalization Insights？
 
-Personalization分析报表（[!UICONTROL Automated Segments]和[!UICONTROL Important Attributes]）仅适用于固定日期范围：15天、30天、45天、60天和90天。 这些固定的日期范围允许[!UICONTROL Personalization Insights]使用足够大的数据范围，以降低您从活动中的短期模式获取见解的可能性。 您可以为任何结束日期（此时活动中有足够的数据来满足持续时间）选择这些持续时间。
+个性化分析报表（“[!UICONTROL 自动化区段]”和“[!UICONTROL 重要属性]”）仅适用于固定日期范围：15 天、30 天、45 天、60 天和 90 天。 通过这些固定日期范围，“[!UICONTROL 个性化分析]”可以使用足够多的数据来降低您从活动中的短生存期模式获取分析的可能性。 您可以为任何结束日期（此时活动中有足够的数据来满足持续时间）选择这些持续时间。
 
 ### [!UICONTROL Personalization Insights]是如何创建的？
 
-[!UICONTROL Personalization Insights]是使用名为MAGIX（与模型无关的全局可解释解释）的Adobe正在申请专利的技术创建的。 您可以在Adobe研究团队在[arXiv.org网站](https://arxiv.org/abs/1706.07160)上发表的论文中了解有关MAGIX的更多信息。
+[!UICONTROL 个性化分析是采用名为 MAGIX（与模型无关的全局可理解解释）的 Adobe 技术创建的，该技术正在申请专利。] 您可以在Adobe研究团队在[arXiv.org网站](https://arxiv.org/abs/1706.07160)上发表的论文中了解有关MAGIX的更多信息。
 
 ### [!UICONTROL Personalization Insights]是否可用于基于收入的建模目标/主要目标？
 
-此时，[!UICONTROL Personalization Insights]仅适用于转化优化目标活动。 我们将在未来的版本中添加对收入优化目标活动的支持。
+目前，“[!UICONTROL 个性化分析]”仅适用于转化优化目标活动。 我们将在未来的版本中添加对收入优化目标活动的支持。
 
 ### 重要属性报表中的属性重要性得分是什么？
 
@@ -161,4 +161,4 @@ Personalization分析报表（[!UICONTROL Automated Segments]和[!UICONTROL Impo
 
 [!DNL Target]工程团队当前正在调查以下问题。
 
-* [!DNL Adobe Experience Platform]区段名称未显示在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target] (AT)活动的[!UICONTROL Important Attributes]报表中。 (TOP-3813)
+* [!DNL Adobe Experience Platform]区段名称未显示在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位] (AT)活动的[!UICONTROL 重要属性]报告中。 (TOP-3813)

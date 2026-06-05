@@ -24,8 +24,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1043
-ht-degree: 16%
+source-wordcount: 1095
+ht-degree: 21%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 16%
 
 {{permissions-update}}
 
-要管理主机，请单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Hosts]**。
+若要管理主机，请单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 主机]**。
 
 ## 识别主机 {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
-要识别主机并将其添加到[!UICONTROL Hosts]列表，必须满足以下条件：
+要识别主机并将其添加到[!UICONTROL 主机]列表，必须满足以下条件：
 
 * 主机上必须至少存在一个[!DNL Target]请求
 * 主机上的页面必须具有以下属性：
@@ -55,48 +55,48 @@ ht-degree: 16%
 
 * 必须在浏览器中查看具有[!DNL Target]请求的页面
 
-查看页面后，该主机列在[!UICONTROL Hosts]列表中，允许您在环境中管理该主机，并预览和启动活动和测试。
+查看页面后，该主机将列在[!UICONTROL 主机]列表中，允许您在环境中管理该主机，并预览和启动活动和测试。
 
 >[!NOTE]
 >
 >其中包含所有个人开发服务器。
 
-将主机添加到[!UICONTROL Host]列表后，请确保该主机已被识别。
+将某个主机添加到“[!UICONTROL 主机]”列表后，请确保该主机已被识别。
 
-1. 单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Hosts]**。
+1. 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 主机]**。
 1. 如果您的主机不在列表中，请刷新浏览器。
 
-   默认情况下，新识别的主机将放在[!UICONTROL Production]环境中。 [!UICONTROL Production]环境是最安全的环境，因为它不允许从这些主机查看非活动的活动。
+   默认情况下，新识别的主机将放在[!UICONTROL 生产]环境中。 [!UICONTROL 生产]环境是最安全的环境，因为它不允许从这些主机查看非活动的活动。
 
-1. （视情况而定）单击&#x200B;**[!UICONTROL Move]**&#x200B;图标（![移动图标](/help/main/assets/icons/MoveTo.svg)）以将主机移入[!UICONTROL Development]、[!UICONTROL Staging]或其他环境。
+1. （视情况而定）单击&#x200B;**[!UICONTROL 移动]**&#x200B;图标（![移动图标](/help/main/assets/icons/MoveTo.svg)）以将主机移动到[!UICONTROL 开发]、[!UICONTROL 暂存]或其他环境中。
 
 >[!NOTE]
 >
->无法删除[!UICONTROL Production]环境，即使对其重命名也是如此。 我们假定在此环境中可以提供最终的活动和测试。 该环境默认不允许查看不活跃的营销活动。
+>无法删除[!UICONTROL 生产]环境，即使对其重命名也是如此。 我们假定在此环境中可以提供最终的活动和测试。 该环境默认不允许查看不活跃的营销活动。
 
 ## 对主机列表进行排序或搜索 {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-要对[!UICONTROL Hosts]列表进行排序，请单击任意列标题（[!UICONTROL Name]、[!UICONTROL Environment]或[!UICONTROL Last Requested]）以对列表进行升序或降序排序。
+要对[!UICONTROL 主机]列表进行排序，请单击任意列标题（[!UICONTROL 名称]、[!UICONTROL 环境]或[!UICONTROL 上次请求时间]）以对列表进行升序或降序排序。
 
-要搜索[!UICONTROL Hosts]列表，请在[!UICONTROL Search Hosts]框中键入搜索词。
+要搜索[!UICONTROL 主机]列表，请在[!UICONTROL 搜索主机]框中键入搜索词。
 
 ## 创建允许列表以指定有权向[!DNL Target]发送[!DNL Target]请求的主机。 {#allowlist}
 
-您可以创建一个允许列表，指定有权向[!DNL Target]发送[!DNL Target]请求的主机（域）。 所有其他生成请求的主机都会收到一个注释掉的授权错误响应。 默认情况下，任何包含[!DNL Target]请求的主机都会在[!UICONTROL Production]环境中向[!DNL Target]进行注册，它们有权访问所有活跃的已批准活动。 如果不希望使用此方法，您可以改为使用来记录有权发出[!DNL Target]请求并接收[!DNL Target]内容的特定主机。 所有主机继续显示在[!UICONTROL Hosts]列表中，并且环境仍可用于对这些主机进行分组，并为每个主机分配不同的级别，例如该主机是否可以看到活动和/或非活动的活动。
+您可以创建一个允许列表，指定有权向[!DNL Target]发送[!DNL Target]请求的主机（域）。 所有其他生成请求的主机都会收到一个注释掉的授权错误响应。 默认情况下，任何包含[!DNL Target]请求的主机都会在[!UICONTROL 生产]环境中向[!DNL Target]进行注册，它们有权访问所有活跃的已批准活动。 如果不希望使用此方法，您可以改为使用来记录有权发出[!DNL Target]请求并接收[!DNL Target]内容的特定主机。 所有主机继续显示在[!UICONTROL 主机]列表中，并且环境仍可用于对这些主机进行分组并为每个主机分配不同的级别，例如该主机是否可以看到活动和/或非活动的活动。
 
 要创建允许列表，请执行以下操作：
 
-1. 从[!UICONTROL Hosts]列表中，单击&#x200B;**[!UICONTROL Authorize Hosts]**。
-1. 启用&#x200B;**[!UICONTROL Enable Authorized Hosts for content delivery]**&#x200B;切换。
-1. 根据需要在&#x200B;**[!UICONTROL Host contains]**&#x200B;框中添加所需的主机。
+1. 从[!UICONTROL 主机]列表中，单击&#x200B;**[!UICONTROL 授权主机]**。
+1. 启用&#x200B;**[!UICONTROL 为内容交付启用授权的主机]**&#x200B;切换开关。
+1. 根据需要在&#x200B;**[!UICONTROL 主机包含]**&#x200B;框中添加所需的主机。
 
    可列出多个主机，每个主机单独占一行。
 
-1. 根据需要在&#x200B;**[!UICONTROL Host does not contains]**&#x200B;框中添加所需的主机。
+1. 在&#x200B;**[!UICONTROL Host does not contains]**&#x200B;框中添加所需的主机（如果需要）。
 
    可列出多个主机，每个主机单独占一行。
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 如果对未授权的主机发出[!DNL Target]请求，则该调用将做出响应： `/* no display - unauthorized mbox host */`。
 
@@ -108,20 +108,20 @@ ht-degree: 16%
 
 有时，您的环境中会显示来自其他网站的域。 如果某个域调用at.js，则该域会显示在列表中。 例如，如果某人将您的一个网页复制到其服务器，那么该域便会显示在您的环境中。 您也可以看到来自蜘蛛引擎、语言翻译网站或者本地磁盘驱动器的域名。
 
-如果 `mboxHost` 在 API 调用中进行传递，则会为传入的环境记录转化。 如果未传递任何环境，则调用中的主机默认为[!UICONTROL Production]。
+如果 `mboxHost` 在 API 调用中进行传递，则会为传入的环境记录转化。 如果未传递任何环境，则调用中的主机默认为[!UICONTROL 生产]。
 
 您还可以通过在[!UICONTROL Host Does Not Contain]框中添加所需的主机来创建一个阻止列表，以指定不能向[!DNL Target]发送[!DNL Target]请求的主机（域）。
 
 >[!NOTE]
 >
->[!UICONTROL Authorized Hosts]列表同时用于[!DNL Target]主机和默认重定向主机。 添加所有已批准使用[!DNL Adobe Target] JavaScript SDK (at.js) *和*&#x200B;所有在ubox默认重定向URL中使用的现有域。 将来，向允许列表中添加任何新的相似域。
+>[!UICONTROL 授权的主机]列表同时用于[!DNL Target]主机和默认重定向主机。 添加所有已批准使用[!DNL Adobe Target] JavaScript SDK (at.js) *和*&#x200B;所有在ubox默认重定向URL中使用的现有域。 将来，向允许列表中添加任何新的相似域。
 
 ## 删除主机 {#section_F56355BA4BC54B078A1A8179BC954632}
 
 如果您不再需要某个主机，您可以删除该主机。
 
-1. 从[!UICONTROL Hosts]列表中，单击&#x200B;**[!UICONTROL Delete]**&#x200B;图标（![删除图标](/help/main/assets/icons/DeleteOutline.svg) ）。
-1. 单击&#x200B;**[!UICONTROL Delete]**&#x200B;以确认删除。
+1. 从[!UICONTROL 主机]列表中，单击&#x200B;**[!UICONTROL 删除]**&#x200B;图标（![删除图标](/help/main/assets/icons/DeleteOutline.svg)）。
+1. 单击&#x200B;**[!UICONTROL 删除]**&#x200B;以确认删除。
 
 >[!NOTE]
 >
@@ -133,13 +133,13 @@ ht-degree: 16%
 
 **主机未出现在您帐户的列表中。**
 
-* 刷新浏览器中的[!UICONTROL Hosts]页面。
+* 在浏览器中刷新“[!UICONTROL 主机]”页面。
 * 确认[!DNL Target]请求正确，包括at.js引用。
 * 尝试浏览到主机上的[!DNL Target]请求之一。 主机上可能从未在浏览器中呈现任何[!DNL Target]请求。
 
-**随机域或未知域出现在[!UICONTROL Host]列表中。**
+**“[!UICONTROL 主机]”列表中出现随机或未知的域。**
 
-如果从某个域向[!DNL Target]发出请求，则该域会显示在此列表中。 您常常可以看到来自蜘蛛引擎、语言翻译网站或者本地磁盘驱动器的域。 如果列出的域不是您的团队使用的域，您可以单击[!UICONTROL Delete]将其删除。
+如果从某个域向[!DNL Target]发出请求，则该域会显示在此列表中。 您常常可以看到来自蜘蛛引擎、语言翻译网站或者本地磁盘驱动器的域。 如果列出的域不是您的团队所使用的域，则可以单击“[!UICONTROL 删除]”将其移除。
 
 **我的[!DNL Target]请求返回/&#42;无显示 — 未授权的mbox主机&#42;/.**
 

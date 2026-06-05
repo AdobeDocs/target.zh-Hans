@@ -11,14 +11,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 146
-ht-degree: 58%
+source-wordcount: 152
+ht-degree: 71%
 
 ---
 
 # 创建可以在可视化体验编辑器中工作的轮播效果
 
-此主题显示如何创建可以在[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)中编辑的轮播。
+此主题显示如何创建可以在[!DNL Adobe Target] [!UICONTROL 可视化体验编辑器] (VEC)中编辑的轮播效果。
 
 执行以下步骤时，[!DNL Target] 始终知道选定的幻灯片具有“选择器”，可选出正确的幻灯片，即使几秒钟后可视化体验编辑器中的幻灯片发生更改也是如此。
 
@@ -38,7 +38,7 @@ ht-degree: 58%
 
    >[!NOTE]
    >
-   >如果[!UICONTROL Render Using JavaScript]选项与自定义代码一起在可视化体验编辑器中使用，则当前不支持该选项。
+   >当前，不支持在可视化体验编辑器中将“[!UICONTROL 使用 JavaScript 渲染]”选项与自定义代码一起使用。
 
 1. 仅更新 classNames 以隐藏其他幻灯片，并使用计时器/动画显示下一张幻灯片。
 

@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: 949
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 在A/A测试中，目标为&#x200B;*不是*&#x200B;在您的测试达到所需的样本大小后看到具有统计意义的结果。
 
-[!UICONTROL Adobe Target Sample Size Calculator]是一个重要工具，可帮助您确定应瞄准的样本大小以及测试运行的时长。
+[!UICONTROL Adobe Target样本量计算器]是一个重要的工具，可帮助您确定应瞄准哪个样本量以及应运行测试的时间。
 
 * [Adobe Target大小计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
 

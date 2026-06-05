@@ -1,7 +1,7 @@
 ---
 keywords: MVT；多变量测试；选件；组合
-description: 了解如何在Adobe [!DNL Target] 中使用[!UICONTROL Visual Experience Composer] (VEC)来创建要包含在[!UICONTROL Multivariate Test] (MVT)中的选件。
-title: 如何在[!UICONTROL Multivariate Test] (MVT)中创建组合？
+description: 了解如何在Adobe [!DNL Target] 中使用[!UICONTROL 可视化体验编辑器] (VEC)来创建要包含在[!UICONTROL 多变量测试] (MVT)中的选件。
+title: 如何在[!UICONTROL 多变量测试] (MVT)中创建组合？
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 TQID: https://experienceleague.adobe.com/3vxuP07ZViE1etmmvBdYVHIOrtZqRZfL3nE5RMHo9rU
@@ -12,20 +12,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 469
-ht-degree: 58%
+source-wordcount: 498
+ht-degree: 55%
 
 ---
 
 # 创建组合
 
-使用[!DNL Adobe Target]中的[!UICONTROL Visual Experience Composer] (VEC)创建要包含在[!UICONTROL Multivariate Test] (MVT)中的选件。
+在[!DNL Adobe Target]中使用[!UICONTROL 可视化体验编辑器] (VEC)创建要包含在[!UICONTROL 多变量测试] (MVT)中的选件。
 
 有关使用 VEC 创建和编辑产品建议的更多信息，请参阅[可视化体验编辑器选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)。
 
 >[!NOTE]
 >
->在页面上选择对象时，您可以单击&#x200B;**[!UICONTROL Expand Selection]**&#x200B;以选择父元素，以及最初选择的元素。 选择任意父元素时，该元素的所有子元素均会自动选定。 您可以多次展开选定内容。
+>选择页面上的对象时，除了最初选定的元素之外，您还可以单击&#x200B;**[!UICONTROL 展开选定内容]**&#x200B;以选择父元素。 选择任意父元素时，该元素的所有子元素均会自动选定。 您可以多次展开选定内容。
 >
 >您还可以使用 [DOM 路径](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)导览元素。
 
@@ -33,9 +33,9 @@ ht-degree: 58%
 
 在一个位置内测试多个图像选件，以确定哪个图像最成功。
 
-1. 单击页面上的图像，然后选择&#x200B;**[!UICONTROL Change Image Offer]**。
+1. 单击页面上的图像，然后选择&#x200B;**[!UICONTROL 更改图像选件]**。
 
-1. 从[!UICONTROL Image Offer]对话框中，选择要包含在测试中的所有图像，然后单击&#x200B;**[!UICONTROL Add]**。
+1. 从[!UICONTROL 图像选件]对话框中，选择要包含在测试中的所有图像，然后单击&#x200B;**[!UICONTROL 添加]**。
 
 每个图像会成为该位置的独立体验。
 
@@ -43,13 +43,13 @@ ht-degree: 58%
 
 可在某个位置测试多个 HTML 选件，以确定哪个选件最为成功。
 
-1. 单击页面上的HTML选件，然后单击&#x200B;**[!UICONTROL Change HTML Offer]**。
+1. 单击页面上的HTML选件，然后单击&#x200B;**[!UICONTROL 更改HTML选件]**。
 
-1. 单击&#x200B;**[!UICONTROL Create Offer]**，单击&#x200B;**[!UICONTROL HTML Offer]**，命名选件，键入或粘贴HTML选件的代码，然后单击&#x200B;**[!UICONTROL Create]**。
+1. 单击&#x200B;**[!UICONTROL 创建选件]**，单击&#x200B;**[!UICONTROL HTML选件]**，命名选件，键入或粘贴HTML选件的代码，然后单击&#x200B;**[!UICONTROL 创建]**。
 
    重复执行上述步骤以添加任何其他要包含的 HTML 选件。
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 每个 HTML 选件会成为该位置的独立体验。
 

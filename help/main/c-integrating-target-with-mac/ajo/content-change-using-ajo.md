@@ -21,8 +21,8 @@ topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 906
-ht-degree: 2%
+source-wordcount: 954
+ht-degree: 1%
 
 ---
 
@@ -54,31 +54,31 @@ ht-degree: 2%
 
 要通过使用用户档案脚本测试各种图像并用用户的名字个性化消息来优化网页，请执行以下操作：
 
-1. 在[!DNL Journey Optimizer]中，单击左边栏中的&#x200B;**促销活动**&#x200B;以显示[!UICONTROL Campaigns]页面。
+1. 在[!DNL Journey Optimizer]中，单击左边栏中的&#x200B;**促销活动**&#x200B;以显示[!UICONTROL 促销活动]页面。
 
-1. 单击[!UICONTROL Campaigns]页面右上角的&#x200B;**[!UICONTROL Create Campaign]**。
+1. 单击[!UICONTROL 营销活动]页面右上角的&#x200B;**[!UICONTROL 创建营销活动]**。
 
-1. 选择&#x200B;**[!UICONTROL Scheduled - Marketing]**（默认），然后单击&#x200B;**创建**&#x200B;以显示[!UICONTROL Campaign]详细信息页面。
+1. 选择&#x200B;**[!UICONTROL 计划 — 营销]**（默认），然后单击&#x200B;**创建**&#x200B;以显示[!UICONTROL 营销活动]详细信息页面。
 
-1. 在&#x200B;**[!UICONTROL Properties]**&#x200B;部分中，为营销策划提供描述性名称和可选描述。
+1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，为营销活动提供描述性名称和可选描述。
 
-1. （视情况而定）在&#x200B;**[!UICONTROL Audience]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Select Audience]**&#x200B;并选择所需的受众。
+1. （视情况而定）在&#x200B;**[!UICONTROL 受众]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 选择受众]**，然后选择所需的受众。
 
-   对于此用例，您可以激活[!UICONTROL All Visitors]的营销活动（默认）。
+   对于此用例，您可以为[!UICONTROL 所有访客]（默认）激活营销活动。
 
-1. 在&#x200B;**[!UICONTROL Action]**&#x200B;部分中，从&#x200B;**[!UICONTROL Action]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Web]**，然后选择或创建新的Web配置。
+1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，从&#x200B;**[!UICONTROL 操作]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Web]**，然后选择或创建新的Web配置。
 
    Web配置或渠道界面是由系统管理员定义的配置。 Web配置包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。
 
    有关详细信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[设置渠道平面](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}。
 
-1. 在&#x200B;**[!UICONTROL Action]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Edit Content]**&#x200B;以在[!DNL Journey Optimizer] Web设计器中打开您的网站。
+1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以在[!DNL Journey Optimizer] Web设计器中打开您的网站。
 
    A/B测试需要两个或多个实验。 您可以使用现有主页作为第一个试验。 后续步骤将说明如何设置第二个试验。
 
    ![LUMA网站上的瑜伽登陆页面](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. 要创建试验以确定哪些内容表现更好，请单击&#x200B;**[!UICONTROL Create Experiment]**。
+1. 若要创建试验以确定哪些内容表现更好，请单击&#x200B;**[!UICONTROL 创建试验]**。
 
    通过内容试验，可更改消息内容、主题或发件人，以定义多种处理方式并确定适合受众的最佳组合。 有关详细信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[创建内容试验](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}。
 
@@ -86,35 +86,35 @@ ht-degree: 2%
 
    单击“帮助”图标可获取更多信息和相关文章的链接。
 
-1. 单击&#x200B;**[!UICONTROL Add Treatment]**，然后单击&#x200B;**[!UICONTROL Create]**。
+1. 单击&#x200B;**[!UICONTROL 添加待遇]**，然后单击&#x200B;**[!UICONTROL 创建]**。
 
    对于此用例，可将每个试验的分布保留为50%。
 
-1. 在[!UICONTROL Campaign]详细信息页面的&#x200B;**[!UICONTROL Action]**&#x200B;下，单击&#x200B;**[!UICONTROL Edit Content]**。
+1. 在[!UICONTROL 促销活动]详细信息页面的&#x200B;**[!UICONTROL 操作]**&#x200B;下，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
 1. 单击处理B下的Web。
 
-   对于此用例，请保持[!UICONTROL Treatment A]不变，以使用原始体验作为A/B测试中的第一个体验。
+   对于此用例，请保持[!UICONTROL 处理A]不变，以使用原始体验作为A/B测试中的第一个体验。
 
-1. 单击右边栏中的&#x200B;**[!UICONTROL Edit Web Page]**。
+1. 单击右边栏中的&#x200B;**[!UICONTROL 编辑网页]**。
 
    ![在瑜伽登陆页面上编辑内容页面](/help/main/c-integrating-target-with-mac/ajo/assets/edit-yoga-page.png)
 
-1. 要更改主页图像，请单击要更改的图像，然后单击&#x200B;**[!UICONTROL Choose Image]**&#x200B;按钮。
+1. 要更改主页图像，请单击要更改的图像，然后单击&#x200B;**[!UICONTROL 选择图像]**&#x200B;按钮。
 
    ![选择图像按钮](/help/main/c-integrating-target-with-mac/ajo/assets/choose-image.png)
 
-1. 浏览并选择所需的图像，然后单击&#x200B;**[!UICONTROL Use This Image]**。
+1. 浏览并选择所需的图像，然后单击&#x200B;**[!UICONTROL 使用此图像]**。
 
    ![瑜伽页面上的新英雄图像](/help/main/c-integrating-target-with-mac/ajo/assets/new-hero-image.png)
 
-1. 要使用配置文件属性以用户的名字个性化邮件，请单击要个性化的文本，然后单击“**[!UICONTROL Add Personalization]**”以显示“[!UICONTROL Add Personalization]”页面。
+1. 若要使用个人资料属性使用用户的名字将邮件个性化，请单击要个性化的文本，然后单击“添加Personalization”**[!UICONTROL 以显示“添加Personalization”[!UICONTROL 页]页。]**
 
    ![添加Personalization按钮。](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
    有关配置文件属性的更多信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[个性化编辑器入门](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}。
 
-1. 搜索并单击加号以添加“名字”配置文件属性，根据需要调整文本，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 搜索并单击加号以添加“名字”配置文件属性，根据需要调整文本，然后单击“保存”**&#x200B;**。
 
    ![为名称](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)添加配置文件属性
 
@@ -124,18 +124,18 @@ ht-degree: 2%
 
    ![后退箭头](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
-1. 单击&#x200B;**[!UICONTROL Review to Activate]**，确保一切按预期显示，然后单击&#x200B;**激活**。
+1. 单击&#x200B;**[!UICONTROL 查看以激活]**，确保一切按预期显示，然后单击&#x200B;**激活**。
 
 ## 查看报告
 
-单击[!UICONTROL Reports]按钮，然后单击所需的报告周期：
+单击[!UICONTROL 报表]按钮，然后单击所需的报告周期：
 
-* [!UICONTROL View all time report]
-* [!UICONTROL View last 24hrs report]
+* [!UICONTROL 查看所有时间报表]
+* [!UICONTROL 查看最近24小时的报告]
 
 有关详细信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[开始使用新的报表接口](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}。
 
 >[!MORELIKETHIS]
 >
->在&#x200B;*Journey Optimizer文档中[使用Web设计器](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}*
+>在&#x200B;*Journey Optimizer文档*&#x200B;中[使用Web设计器](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}
 >[在&#x200B;*Journey Optimizer教程*&#x200B;中创建营销活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}

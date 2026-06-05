@@ -24,7 +24,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
-source-wordcount: 2503
+source-wordcount: 2566
 ht-degree: 20%
 
 ---
@@ -52,14 +52,14 @@ ht-degree: 20%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
-| 1 月 17 日 | [[!UICONTROL Visual Editing Helper]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 添加了新章节：[!UICONTROL Visual Editing Helper]扩展的更改（2026年1月17日）。 |
+| 1 月 17 日 | [[!UICONTROL 可视化编辑帮助程序]扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 添加了新章节：对[!UICONTROL 可视化编辑帮助程序]扩展的更改（2026年1月17日）。 |
 |  | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 26.1.1版的发行说明。 |
 
 ### [!DNL Target Standard/Premium] 25.11.1（2025年11月10日）
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
-| 11 月 20 日 | [创建“推荐”活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) | 在步骤5下添加了以下注释： <ul><li>[!UICONTROL Recommendations]活动一次仅支持一个修改/推荐。 对于多个推荐，您可以创建多个[!DNL Recommendations]活动或使用A/B或XT测试。</li></ul> |
+| 11 月 20 日 | [创建“推荐”活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) | 在步骤5下添加了以下注释： <ul><li>[!UICONTROL 推荐]活动一次仅支持一个修改/推荐。 对于多个推荐，您可以创建多个[!DNL Recommendations]活动或使用A/B或XT测试。</li></ul> |
 | 11 月 14 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.11.2版的发行说明。 |
 | 11 月 12 日 | [[!DNL Adobe Target] [!DNL Bulk Profile Update API]](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/api/profile-apis/profile-bulk-api#benefits-of-the-bulk-profile-update-api){target=_blank} | 在“批处理文件”下删除了以下注释，因为它不再为true。 “你可以发送多个文件。 但是，您一天发送的所有文件的行总数不应超过每个客户端的100万。” |
 | 11 月 10 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.11.1版的发行说明。 |
@@ -97,11 +97,11 @@ ht-degree: 20%
 |--- |--- |--- |
 | 9 月 1 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.8.4版的发行说明。 |
 | 8 月 27 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 更新了[!DNL Target] 25.8.4版本的预发行说明。 发布日期、功能及其他信息如有更改，恕不另行通知。 本文中的信息会经常更新，尤其是在发布版本之前。 |
-|  | [可视化体验编辑器中使用的元素选择器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) | 添加了&quot;[!UICONTROL Use preferred selectors]&quot;选项。 |
+|  | [可视化体验编辑器中使用的元素选择器](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) | 添加了“[!UICONTROL 使用首选选择器]”选项。 |
 | 8 月 22 日 | *[!DNL Target]开发人员指南*&#x200B;中的[CNAME和 [!DNL Target]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} | 更新了整篇文章以改进工作流程。 |
-|  | 在&#x200B;*[!DNL Target]开发人员指南*&#x200B;中[计划和实施推荐](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/recommendations#set-up-your-recommendations-catalog){target=_blank} | 添加了通过[!DNL Target Delivery API]更新[!DNL Recommendations] [!UICONTROL Catalogs]时请务必谨慎的注释。 |
+|  | 在&#x200B;*[!DNL Target]开发人员指南*&#x200B;中[计划和实施推荐](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/recommendations#set-up-your-recommendations-catalog){target=_blank} | 添加了关于通过[!DNL Target Delivery API]更新[!DNL Recommendations] [!UICONTROL 目录]时请务必谨慎的注释。 |
 | 8 月 21 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.8.3版的发行说明。 |
-| 8 月 18 日 | *[!DNL Target]开发人员指南*&#x200B;中的[Analytics for Target (A4T)报告](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/server-side/integration/a4t-reporting){target=_blank} | 更新了以下部分：<ul><li>更新了GET请求代码片段。</li><li>更新了查询字符串参数和变量表。</li><li>更新了&#x200B;*示例A4T数据插入HTTP Get调用*&#x200B;部分。</li></ul> |
+| 8 月 18 日 | *[!DNL Target]开发人员指南*&#x200B;中的[Analytics for Target (A4T)报告](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/server-side/integration/a4t-reporting){target=_blank} | 更新了以下部分：<ul><li>更新了GET请求代码段。</li><li>更新了查询字符串参数和变量表。</li><li>更新了&#x200B;*示例A4T数据插入HTTP Get调用*&#x200B;部分。</li></ul> |
 |  | *[!DNL Target]开发人员指南*&#x200B;中的[Adobe Target批量配置文件更新API](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/api/profile-apis/profile-bulk-api){target=_blank} | 更新有关使用哪个API版本的注释。 |
 |  | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 更新了[!DNL Target] 25.8.3版（2025年8月21日）的预发行说明。 发布日期、功能及其他信息如有更改，恕不另行通知。 本文中的信息会经常更新，尤其是在发布版本之前。 |
 | 8 月 14 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.8.2版的发行说明。 |
@@ -118,14 +118,14 @@ ht-degree: 20%
 |  | [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md#options) | 添加了以下常见问题解答：“更新后的VEC如何处理重新排列、调整大小、移动、隐藏和删除选项，以及这些选项与旧版VEC有何不同？” |
 | 7 月 29 日 | [编辑活动](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6) | 使用工作区时，更新&#x200B;*复制/编辑活动下的受众和选件部分*。 |
 | 7 月 24 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.7.3版的发行说明。 |
-| 7 月 21 日 | [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md#collapse) | 添加了新常见问题解答：能否折叠[!UICONTROL Components]、[!UICONTROL Modifications]和[!UICONTROL Properties]边栏以放大[!UICONTROL Design]面板？ |
-|  | [[!UICONTROL Visual Experience Composer]更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | 添加了有关如何折叠[!UICONTROL Components]和[!UICONTROL Modifications]边栏以放大[!UICONTROL Design]面板的信息，这样可以更轻松地编辑。 |
+| 7 月 21 日 | [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md#collapse) | 添加了新常见问题解答：是否可以折叠[!UICONTROL 组件]、[!UICONTROL 修改]和[!UICONTROL 属性]边栏，以便放大[!UICONTROL 设计]面板？ |
+|  | [[!UICONTROL 可视化体验编辑器]更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | 添加了有关如何折叠[!UICONTROL 组件]和[!UICONTROL 修改]边栏以放大[!UICONTROL 设计]面板的信息，这样可以更轻松地编辑。 |
 |  | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.7.3版本的预发行说明。 |
 | 7 月 18 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.7.2版的发行说明。 |
-| 7 月 17 日 | [成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md) | 做出了以下更改：<ul><li>更新了[!UICONTROL Overview]下的[!UICONTROL Revenue]行。</li><li>添加了新章节：与[!UICONTROL Revenue]成功量度相关的UI更改。</li></ul> |
+| 7 月 17 日 | [成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md) | 做出了以下更改：<ul><li>已更新[!UICONTROL 概述]下的[!UICONTROL 收入]行。</li><li>添加了新章节：与[!UICONTROL 收入]成功量度相关的UI更改。</li></ul> |
 | 7 月 15 日 | [编辑活动](/help/main/c-activities/edit-activity.md#ection_45A92E1DD3934523B07E71EF90C4F8B6) | 更新了整个部分：*使用工作区时复制/编辑活动*。 |
-| 7 月 14 日 | [活动概述](/help/main/c-activities/activities.md#filters) | 添加了有关在更新的UI中弃用[!UICONTROL Save as Draft]和[!UICONTROL Syncing]状态的信息。 |
-|  | [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md) | 添加了有关在更新的UI中弃用[!UICONTROL Save as Draft]和[!UICONTROL Syncing]状态的信息。 |
+| 7 月 14 日 | [活动概述](/help/main/c-activities/activities.md#filters) | 添加了有关在更新的UI中弃用[!UICONTROL 另存为草稿]和[!UICONTROL 正在同步]状态的信息。 |
+|  | [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md) | 添加了有关在更新的UI中弃用[!UICONTROL 另存为草稿]和[!UICONTROL 正在同步]状态的信息。 |
 | 7 月 10 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.7.1版的发行说明。 |
 
 ### [!DNL Target Standard/Premium] 25.6.1（2025年6月6日）
@@ -143,14 +143,14 @@ ht-degree: 20%
 |  | [Adobe Target Cookie](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/data-collection/cookies/target){target=_blank} | 更新了文本以添加`sessionId`不能包含大括号( {} )。<P>文本现在显示为：会话ID可以是任何可打印的字符串，但空格、问号( ？ )、大括号( { } )或正斜杠( / )。 长度应为1至128个字符。 |
 |  | [Adobe Target交付API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} | 更新了文本以添加`sessionId`不能包含大括号( {} )。<P> 文本现在显示为：会话ID可以是任何可打印的字符串，但空格、问号( ？ )、大括号( { } )或正斜杠( / )。 长度应为1至128个字符。 |
 | 6 月 12 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.6.2版的发行说明。 |
-|  | [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md) | 新文章。<P>此常见问题解答解决了有关新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常见问题，包括导航更改、功能位置以及弃用临时UI版本切换。 无论您是营销人员、开发人员还是管理员，此常见问题解答都可以帮助您顺利过渡并充分利用更新后的UI。 |
+|  | [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md) | 新文章。<P>此常见问题解答解决了有关新的[!DNL Target] UI和[!UICONTROL 可视化体验编辑器] (VEC)的常见问题，包括导航更改、功能位置以及弃用临时UI版本切换。 无论您是营销人员、开发人员还是管理员，此常见问题解答都可以帮助您顺利过渡并充分利用更新后的UI。 |
 | 6 月 6 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.6.1版的发行说明。 |
 
 ### [!DNL Target Standard/Premium] 25.5.1（2025年5月5日）
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
-| 6 月 2 日 | [[!UICONTROL Visual Experience Composer]最佳实践和限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#ext) | 添加了以下限制：“正在处理VEC与Chrome扩展策略的兼容性。” |
+| 6 月 2 日 | [[!UICONTROL 可视化体验编辑器]最佳实践和限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#ext) | 添加了以下限制：“正在处理VEC与Chrome扩展策略的兼容性。” |
 | 5 月 29 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.5.4版的发行说明。 |
 | 5 月 23 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了即将弃用[!DNL Target] UI版本切换的发行说明。 |
 | 5 月 22 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.5.3版的发行说明。 |
@@ -173,8 +173,8 @@ ht-degree: 20%
 | 4 月 7 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为以下即将发布的版本添加了预发行说明：<UL><li>[!DNL Target Standard/Premium] 25.4.3（2025年4月10日）</li></ul> |
 | 4 月 4 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 更新了计划于2025年4月22日进行的[!DNL Target]权限更新的发行说明。 |
 |  | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 更新了计划于2025年4月22日进行的即将[!DNL Target]权限更新的预发行说明。 |
-|  | [管理员首要步骤](/help/main/administrating-target/start-target.md#admin-permissions) | 添加了新章节：“编辑[!UICONTROL Administration]设置所需的权限”。 |
-|  | [管理员 [!DNL Target] 概述](/help/main/administrating-target/administrating-target.md) | 添加了有关编辑[!UICONTROL Administration]设置所需权限的重要说明。<P>向[!UICONTROL Administration]部分中的所有文章添加了相同的注释。 |
+|  | [管理员首要步骤](/help/main/administrating-target/start-target.md#admin-permissions) | 添加了新章节：“编辑[!UICONTROL 管理]设置所需的权限”。 |
+|  | [管理员 [!DNL Target] 概述](/help/main/administrating-target/administrating-target.md) | 添加了有关编辑[!UICONTROL 管理]设置所需权限的重要说明。<P>向[!UICONTROL 管理]分区中的所有文章添加了相同的注释。 |
 | 4 月 2 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.4.1版的发行说明。 |
 
 ### [!DNL Target Standard/Premium] 25.3.1（2025年3月3日）
@@ -185,8 +185,8 @@ ht-degree: 20%
 | 3 月 26 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.3.7版的发行说明。 |
 |  | [“推荐”常见问题解答](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 更新了常见问题解答以指示通过API创建的[!DNL Recommendations]对象在[!DNL Target] UI中可用。 |
 |  | [收藏集](/help/main/c-recommendations/c-products/collections.md) | 添加了以下注释：收集规则适用于运行标准后生成的推荐项。 它们只影响输出中的实体推荐(ER)，而不影响键。 |
-| 3 月 19 日 | [与[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)相关的问题疑难解答 | 更新了IP地址以列入允许列表。 |
-| 3 月 18 日 | 对[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动的[A4T支持](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 在&#x200B;*支持的目标指标*&#x200B;部分添加了注释。 |
+| 3 月 19 日 | [与[!UICONTROL 增强型体验编辑器]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)相关的问题疑难解答 | 更新了IP地址以列入允许列表。 |
+| 3 月 18 日 | 对[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动的[A4T支持](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 在&#x200B;*支持的目标指标*&#x200B;部分添加了注释。 |
 | 3 月 14 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.3.6版的发行说明。 |
 | 3 月 13 日 | [支持的浏览器](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | 更新了支持的浏览器并添加了“可视化编辑要求”部分。 |
 | 3 月 11 日 | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Target Standard/Premium] 25.3.5版的发行说明。 |
@@ -212,6 +212,6 @@ ht-degree: 20%
 
 | 日期 | 主题 | 更改 |
 |--- |--- |--- |
-| 1 月 27 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为以下更新添加了预发行说明： <ul><li>[!UICONTROL Activities]用户界面更新（2025年2月6日）</li><li>[!DNL Recommendations]用户界面更新（2025年2月7日）</li></ul> |
-| 1 月 22 日 | [可视化编辑帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新[!UICONTROL Visual Editing Helper Extension]现在支持[!DNL Private Chrome Web Stores]。 删除了一个注释，指明使用[!DNL Private Chrome Web Stores]的客户继续使用旧版[!UICONTROL Visual Experience Composer helper extension]。 |
-| 1 月 7 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!UICONTROL Offers Library]用户界面更新（计划于2025年1月9日发布）的发行说明。 更新了所有选件文章以反映UI更改。 |
+| 1 月 27 日 | [[!DNL Target] 发行说明（预发行版本）](/help/main/r-release-notes/target-release-notes.md) | 为以下更新添加了预发行说明： <ul><li>[!UICONTROL 活动]用户界面更新（2025年2月6日）</li><li>[!DNL Recommendations]用户界面更新（2025年2月7日）</li></ul> |
+| 1 月 22 日 | [可视化编辑帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 新的[!UICONTROL 可视化编辑帮助程序扩展]现在支持[!DNL Private Chrome Web Stores]。 删除了一个注释，指明使用[!DNL Private Chrome Web Stores]的客户继续使用旧版[!UICONTROL 可视化体验编辑器助手扩展]。 |
+| 1 月 7 日 | [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!UICONTROL 选件库]用户界面更新（计划于2025年1月9日发布）的发行说明。 更新了所有选件文章以反映UI更改。 |

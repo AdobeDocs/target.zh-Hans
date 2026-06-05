@@ -1,6 +1,6 @@
 ---
 keywords: 故障诊断；常见问题解答；FAQ；自动个性化；控制；默认体验；最佳实践
-description: 浏览[!UICONTROL Adobe Target]中有关[!UICONTROL Automated Personalization] (AP)活动的常见问题(FAQ)和答案的列表。
+description: 在[!UICONTROL Adobe Target]中浏览有关[!UICONTROL Automated Personalization] (AP)活动的常见问题解答(FAQ)和答案列表。
 title: 如何查找有关[!UICONTROL Automated Personalization]活动的常见问题解答？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
@@ -19,8 +19,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 2166
-ht-degree: 19%
+source-wordcount: 2303
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 19%
 
 在使用[!DNL Adobe Target]中的[!UICONTROL Automated Personalization]活动时，可查阅以下常见问题和答案。
 
-## 我可以指定特定体验作为[!UICONTROL Automated Personalization]活动中的控制吗？
+## 能否指定特定体验以用作[!UICONTROL Automated Personalization]活动中的控制？
 
 +++查看详细信息
 
@@ -44,7 +44,7 @@ ht-degree: 19%
 
 +++查看详细信息
 
-没有将[!UICONTROL Automated Personalization]与默认体验进行比较的按键选项。 但是，作为解决方法，如果整个活动中存在默认选件或体验，要了解其基线性能，请单击报表中的“[!UICONTROL Control]”区段，然后在生成的选件级别报表中查找该特定选件。 此选件记录的转化率可用于与整个“随机林”区段的会话率进行比较。 这有助于将其运行情况与默认选件进行比较。
+没有将[!UICONTROL Automated Personalization]与默认体验进行比较的按键选项。 但是，作为解决方法，如果整个活动中存在默认选件或体验，要了解其基线性能，请单击报表中的“[!UICONTROL 控制]”区段，然后在生成的选件级别报表中查找该特定选件。 此选件记录的转化率可用于与整个“随机林”区段的会话率进行比较。 这有助于将其运行情况与默认选件进行比较。
 
 +++
 
@@ -53,9 +53,9 @@ ht-degree: 19%
 +++查看详细信息
 
 * 请密切关注&#x200B;*活动形状*（位置数×选件数），而不仅仅是体验总数。 位置和选件的笛卡尔组合比原始体验数更能提升创作时间性能。
-* 为获得最佳性能和可管理性，请将[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动限制为4-6个位置，每个位置提供4-6个选件。 不建议使用较大的配置，它们可能会导致[!UICONTROL Visual Experience Composer]中的加载或编辑速度缓慢，并且可能会在[!DNL Target] UI中受到限制。 在当前UI中，[!DNL Target]显示内联警告，或在配置超出支持的阈值时阻止保存活动。
-* 如果要个性化低流量页面，或者要对要个性化的体验进行结构性更改，请考虑使用[!UICONTROL Auto-Target]活动代替[!UICONTROL Automated Personalization]。 请参阅[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
-* 考虑在您计划于[!UICONTROL Automated Personalization]活动中使用的选件和位置之间完成一个[!UICONTROL A/B Test]活动，以确保位置和选件会对优化目标产生影响。 如果[!UICONTROL A/B Test]活动未能显示显着差异，[!UICONTROL Automated Personalization]可能也无法生成提升。
+* 为获得最佳性能和可管理性，请将[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动限制为4-6个位置，每个位置提供4-6个选件。 不建议使用较大的配置，它们可能会导致[!UICONTROL 可视化体验编辑器]中的加载或编辑速度缓慢，并且可能会在[!DNL Target] UI中受到限制。 在当前UI中，[!DNL Target]显示内联警告，或在配置超出支持的阈值时阻止保存活动。
+* 如果要个性化低流量页面，或者要对要个性化的体验进行结构性更改，请考虑使用[!UICONTROL 自动定位]活动代替[!UICONTROL Automated Personalization]。 请参阅[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。
+* 考虑在您计划于[!UICONTROL Automated Personalization]活动中使用的选件和位置之间完成一个[!UICONTROL A/B测试]活动，以确保位置和选件会对优化目标产生影响。 如果[!UICONTROL A/B测试]活动未能显示显着差异，则[!UICONTROL Automated Personalization]可能也无法生成提升。
 
    * 如果A/B...N测试显示体验之间没有统计学上的显着差异，则可能是以下一种或多种情况造成的：
 
@@ -68,7 +68,7 @@ ht-degree: 19%
 
   根据活动的目标和您选择的控制类型，可以考虑以下三种方案：
 
-   * **将随机体验作为控制，且活动目标是测试个性化算法的有效性**：如果您的目标是评估个性化算法，那么您希望更准确地了解提升度。 如果您仅进行了[!UICONTROL A/B Test]（随机提供的控制），则您还很可能希望比较体验或选件的转化率。 在这种情况下，建议向随机提供体验的控制分配 50% 的流量。
+   * **将随机体验作为控制，且活动目标是测试个性化算法的有效性**：如果您的目标是评估个性化算法，那么您希望更准确地了解提升度。 如果您仅进行了[!UICONTROL A/B测试]（随机提供的控制），则您还很可能希望比较体验或选件的转化率。 在这种情况下，建议向随机提供体验的控制分配 50% 的流量。
    * 将&#x200B;**“随机体验”作为控制，且活动目标是最大化个性化流量**：如果您习惯使用算法并希望最大化个性化流量，那么建议向控制分配10%到30%的流量。 这里做出的权衡是您在提升度信息中看到的准确性。 控制流量的置信区间更大，因为流向它们的流量更少。
    * **将特定体验作为控制，且采用任一目标类型**：如果您要将特定营销人员驱动的体验与个性化模型相比较，那么建议向控制分配 10% 到 30% 的流量。 仅选择一个体验作为控制时，该流量不会分布到活动中的每个选件或体验。
 
@@ -92,13 +92,13 @@ ht-degree: 19%
 
 [!DNL Target]具有30,000个体验的硬性限制，但在创建少于10,000个体验时它可以正常工作。
 
-即使活动启用了[!UICONTROL Disallow Duplicates]选项，也应用同样的限制。
+即使活动启用了[!UICONTROL 不允许重复项]选项，此限制也适用。
 
-虽然[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动可以支持大量体验，但创作性能在很大程度上取决于&#x200B;*活动形状*（位置数×选件数）。 某些配置会创建大型笛卡尔组合，这些组合会显着影响负载和编辑性能，即使低于记录的体验限制也是如此。
+虽然[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动可以支持大量体验，但创作性能在很大程度上取决于&#x200B;*活动形状*（位置数×选件数）。 某些配置会创建大型笛卡尔组合，这些组合会显着影响负载和编辑性能，即使低于记录的体验限制也是如此。
 
-为获得最佳性能和可管理性，请将[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动限制为4-6个位置，每个位置提供4-6个选件。 不建议使用较大的配置，并且可能限制在[!DNL Target] UI中。
+为获得最佳性能和可管理性，请将[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动限制为4-6个位置，每个位置提供4-6个选件。 不建议使用较大的配置，并且可能限制在[!DNL Target] UI中。
 
-在当前[!DNL Target] UI中，[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动直接在[!UICONTROL Experiences]步骤中配置。 当配置超出支持的阈值时，[!DNL Target]可能会显示内联警告或阻止保存活动，并重新验证[!UICONTROL Next]、[!UICONTROL Save]和[!UICONTROL Publish]上的活动形状。
+在当前[!DNL Target] UI中，[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动是直接在[!UICONTROL 体验]步骤中配置的。 当配置超出支持的阈值时，[!DNL Target]可能会显示内联警告或阻止保存活动，并在[!UICONTROL 下一个]、[!UICONTROL 保存]和[!UICONTROL 发布]上重新验证活动形状。
 
 有关影响[!DNL Target]中活动和其他元素的字符限制和其他限制（选件大小、受众、配置文件、值、参数等）的更多信息，请参阅[限制](/help/main/r-troubleshooting-target/target-limits.md)。
 
@@ -116,14 +116,14 @@ ht-degree: 19%
 
 +++查看详细信息
 
-[!UICONTROL Automated Personalization]活动需要四个因素才能产生提升：
+[!UICONTROL Automated Personalization]活动需要四个因素才能生成提升：
 
 * 每个位置中的选件必须足够不同，才能影响访客。
 * 这些位置必须位于对优化目标有所影响的位置。
 * 在活动中必须具有足够的流量和统计功效才能检测到提升。
 * 个性化算法必须运行良好。
 
-最佳的操作方法是首先使用简单的非个性化[!UICONTROL A/B Test]活动确保构成活动体验的内容和位置对整体响应率真正发挥了作用。 务必提前计算样本量，以确保有足够的样本以便看到合理的提升，并在一段固定的时间内运行 A/B 测试，且不要终止或对其进行任何更改。 如果A/B测试结果显示一个或多个体验在统计上显着提升，则个性化活动可能会成功。 即使这些体验的总体响应率没有差异，Personalization也可以正常工作。 通常，问题源于选件或位置对优化目标的影响不足以被检测出具有统计显着性的情况。
+最佳操作方法是首先使用简单的非个性化[!UICONTROL A/B测试]活动，确保构成活动体验的内容和位置对整体响应率真正发挥了作用。 务必提前计算样本量，以确保有足够的样本以便看到合理的提升，并在一段固定的时间内运行 A/B 测试，且不要终止或对其进行任何更改。 如果A/B测试结果显示一个或多个体验在统计上显着提升，则个性化活动可能会成功。 即使这些体验的总体响应率没有差异，Personalization也可以正常工作。 通常，问题源于选件或位置对优化目标的影响不足以被检测出具有统计显着性的情况。
 
 有关更多信息，请参阅[自动个性化故障诊断](/help/main/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA)。
 
@@ -135,7 +135,7 @@ ht-degree: 19%
 
 [!UICONTROL Automated Personalization]根据为每个模型构建的最新[随机林](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)模型，将访客路由到具有最高预测成功量度的体验。 这种预测是基于访客的具体信息和访问环境。
 
-例如，假设[!UICONTROL Automated Personalization]活动有两个位置，每个位置具有两个选件。 在第一个位置中，对于某位特定访客，选件 A 的预测转化率为 3%，而选件 B 的预测转化率为 1%。 在第二个位置中，对于同一访客，选件 C 的预测转化率为 2%，而选件 D 的预测转化率为 5%。 因此，[!UICONTROL Automated Personalization]通过选件A和选件D为该访客提供体验。
+例如，假设[!UICONTROL Automated Personalization]活动具有两个位置，每个位置具有两个选件。 在第一个位置中，对于某位特定访客，选件 A 的预测转化率为 3%，而选件 B 的预测转化率为 1%。 在第二个位置中，对于同一访客，选件 C 的预测转化率为 2%，而选件 D 的预测转化率为 5%。 因此，[!UICONTROL Automated Personalization]通过选件A和选件D为该访客提供体验。
 
 +++
 
@@ -143,7 +143,7 @@ ht-degree: 19%
 
 +++查看详细信息
 
-[!UICONTROL Automated Personalization]可用作“始终运行”且不断优化的个性化。 特别是对于一直使用的内容，无需停止[!UICONTROL Automated Personalization]活动。 如果您希望对内容进行重大更改，而这些更改与当前您[!UICONTROL Automated Personalization]活动中的选件不同，则最佳实践是开始一个新活动。 启动新活动有助于其他用户查看报表，以免将过去的结果与不同内容混淆或联系起来。
+[!UICONTROL Automated Personalization]可用作“始终运行”且不断优化的个性化设置。 特别是对于一直使用的内容，无需停止[!UICONTROL Automated Personalization]活动。 如果您希望对内容进行重大更改，而这些更改与当前您在[!UICONTROL Automated Personalization]活动中的选件不同，则最佳实践是开始一个新活动。 启动新活动有助于其他用户查看报表，以免将过去的结果与不同内容混淆或联系起来。
 
 +++
 
@@ -163,7 +163,7 @@ ht-degree: 19%
 
 +++
 
-## 何时可查看[!UICONTROL Automated Personalization]活动的结果？ {#section_05DB5ACAE6AD429C9510766A7268EE2C}
+## 何时可以查看[!UICONTROL Automated Personalization]活动的结果？ {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
 +++查看详细信息
 
@@ -188,7 +188,7 @@ ht-degree: 19%
 
 +++查看详细信息
 
-每个会话评估[!UICONTROL Automated Personalization]个活动。 如果存在符合特定体验条件的活动会话，且现在已有新选件添加到该会话，则访客将看到新内容以及之前显示的选件。 由于这些访客之前符合这些体验的资格，因此他们仍会在会话期间看到这些体验。 若要在每次访问页面时对此进行评估，您应该更改为[!UICONTROL Experience Targeting] (XT)活动类型。
+每个会话评估一次[!UICONTROL Automated Personalization]活动。 如果存在符合特定体验条件的活动会话，且现在已有新选件添加到该会话，则访客将看到新内容以及之前显示的选件。 由于这些访客之前符合这些体验的资格，因此他们仍会在会话期间看到这些体验。 若要在每次访问页面时对此进行评估，您应该更改为[!UICONTROL 体验定位] (XT)活动类型。
 
 +++
 
@@ -198,25 +198,25 @@ ht-degree: 19%
 
 [!DNL Adobe]不建议您在活动中途更改目标指标。 虽然可在活动期间使用 [!DNL Target] UI 更改目标指标，但总是应开始新的活动。 [!DNL Adobe]不保证如果在活动运行后更改其中的目标量度会发生什么情况。
 
-此推荐适用于使用[!DNL Target]或[!DNL Analytics] (A4T)作为报表源的[!UICONTROL Auto-Allocate]、[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动。
+此推荐适用于使用[!DNL Target]或[!DNL Analytics] (A4T)作为报表源的[!UICONTROL 自动分配]、[!UICONTROL 自动定位]和[!UICONTROL Automated Personalization]活动。
 
 +++
 
-## 运行[!UICONTROL Automated Personalization]活动时能否使用[!UICONTROL Reset Report Data]选项？
+## 运行[!UICONTROL Automated Personalization]活动时能否使用[!UICONTROL 重置报表数据]选项？
 
 +++查看详细信息
 
-[!DNL Adobe]不建议对[!UICONTROL Automated Personalization]活动使用[!UICONTROL Reset Report Data]选项。 虽然它删除可见的报表数据，但此选项并不从[!UICONTROL Automated Personalization]模型中删除所有训练记录。 不要对[!UICONTROL Automated Personalization]活动使用[!UICONTROL Reset Report Data]选项，请创建新活动并停用原始活动。 本指导还适用于[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动。
+[!DNL Adobe]不建议对[!UICONTROL Automated Personalization]活动使用[!UICONTROL 重置报表数据]选项。 虽然它删除可见的报表数据，但此选项并不从[!UICONTROL Automated Personalization]模型中删除所有训练记录。 不要对[!UICONTROL Automated Personalization]活动使用[!UICONTROL 重置报表数据]选项，请创建新活动并停用原始活动。 本指导还适用于[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动。
 
 +++
 
-## [!UICONTROL Automated Personalization]如何构建环境相关模型？
+## [!UICONTROL Automated Personalization]如何针对环境构建模型？
 
 +++查看详细信息
 
 我们构建了一个模型，用来识别个性化策略相对于随机提供流量的表现，以及如何将所有流量发送到整个入选体验。 此模型仅考虑默认环境中的点击和转化。
 
-为每个建模组([!UICONTROL Automated Personalization])或体验([!UICONTROL Auto-Target])生成来自第二组模型的流量。 对于这些模型中的每一个，都会考虑所有环境中的点击量和转化量。
+为每个建模组([!UICONTROL Automated Personalization])或体验（[!UICONTROL 自动定位]）生成第二组模型的流量。 对于这些模型中的每一个，都会考虑所有环境中的点击量和转化量。
 
 因此，无论环境如何，都将使用相同的模型为请求提供服务。 但是，多个流量应来自默认环境，以确保标识的整体入选体验与真实世界行为一致。
 

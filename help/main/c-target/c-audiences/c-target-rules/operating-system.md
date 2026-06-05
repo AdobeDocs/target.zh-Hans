@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 131
-ht-degree: 35%
+source-wordcount: 138
+ht-degree: 41%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 35%
 
 您可以定位使用使用特定操作系统的[!DNL Adobe Target]的访客。
 
-1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 命名受众并添加可选描述。
-1. 将&#x200B;**[!UICONTROL Operating System]**&#x200B;拖放到受众生成器窗格中。
-1. 单击&#x200B;**[!UICONTROL Select]**，然后选择以下选项之一：
+1. 将&#x200B;**[!UICONTROL 操作系统]**&#x200B;拖放到受众生成器窗格中。
+1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
    * Linux
    * Macintosh
    * Windows
 
 1. （可选）为受众设置其他规则。
-1. 单击 **[!UICONTROL Done]**。
+1. 单击&#x200B;**[!UICONTROL 完成]**。
 
 下图展示了一个受众，它定位的是使用Macintosh操作系统的访客。
 

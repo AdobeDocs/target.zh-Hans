@@ -13,12 +13,12 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1024
-ht-degree: 34%
+source-wordcount: 1116
+ht-degree: 35%
 
 ---
 
-# [!UICONTROL Browser]
+# [!UICONTROL 浏览器]
 
 您可以锁定使用特定浏览器或特定浏览器选项访问您的页面的用户。
 
@@ -39,7 +39,7 @@ ht-degree: 34%
 >
 >客户无需对此更新执行任何操作。 [!DNL Target] UI中的标签将来将更改，在进行这些更改时，将在[[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md)中公布。
 >
->有关解决方法设置，请参阅以下[!UICONTROL Browser]受众属性（2024年4月30日）[&#128279;](#updates)中的更新 [!DNL iPad] 和 [!DNL iPhone] 。
+>有关解决方法设置，请参阅以下[!UICONTROL 浏览器]受众属性（2024年4月30日）[&#128279;](#updates)中的更新 [!DNL iPad] 和 [!DNL iPhone] 。
 
 锁定浏览器的方式有两种：
 
@@ -53,20 +53,20 @@ ht-degree: 34%
 
 * **自定义浏览器受众规则：**&#x200B;自定义受众允许您定位多个浏览器，或者针对特定浏览器、浏览器版本或浏览器语言设置规则或排除项。 根据浏览器属性定位活动时，此功能可提供极大的灵活性。
 
-   1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+   1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
    1. 命名受众并添加可选描述。
-   1. 将&#x200B;**[!UICONTROL Browser]**&#x200B;拖放到受众生成器中。
+   1. 将&#x200B;**[!UICONTROL 浏览器]**&#x200B;拖放到受众生成器中。
 
       ![规则>浏览器](assets/target_browser.png)
 
-   1. 单击&#x200B;**[!UICONTROL Select]**，然后选择以下选项之一：
+   1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
       * **类型：**&#x200B;定位或排除特定浏览器。 请参阅[类型](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)。
       * **语言：**&#x200B;定位或排除设置为使用特定语言的特定浏览器。 请参阅[语言](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)。
       * **版本：**&#x200B;定位或排除特定浏览器版本。 请参阅[版本](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)。
 
    1. （可选）为受众设置其他规则。
-   1. 单击 **[!UICONTROL Done]**。
+   1. 单击&#x200B;**[!UICONTROL 完成]**。
 
   以下示例显示了一个受众，其中包含版本91或92上的[!DNL Microsoft Edge]用户：
 
@@ -78,12 +78,12 @@ ht-degree: 34%
 
 ### 类型 {#section_6ADC758F23F145B3A310151546D83D56}
 
-锁定或排除特定浏览器。
+定位或排除特定浏览器。
 
-选择&#x200B;**[!UICONTROL Type]**，然后选择等于或不等于。
+选择&#x200B;**[!UICONTROL 类型]**，然后选择“等于”或“不等于”。
 
-* [!UICONTROL Equals]：定位所选的浏览器。
-* [!UICONTROL Does not equal]：排除所选的浏览器。
+* [!UICONTROL 等于]：定位所选的浏览器。
+* [!UICONTROL 不等于]：排除所选的浏览器。
 
 选择一种或多种浏览器。 多个选项之间使用 OR 进行连接。
 
@@ -95,10 +95,10 @@ ht-degree: 34%
 
 在语言比位置更为重要的情况下，包含或排除浏览器语言与根据地域进行定位相比，前者可以实现更准确的访客定位。 例如，如果您提供的是一篇英语文章，您既可以定位讲英语的国家/地区，也可以定位设置为英语的浏览器。 不过，使用后者，您还可以将这篇文章提供给来自主要语言并不是英语的国家/地区、但却会讲英语的用户。
 
-选择&#x200B;**[!UICONTROL Language]**，然后选择等于或不等于。
+选择&#x200B;**[!UICONTROL 语言]**，然后选择“等于”或“不等于”。
 
-* [!UICONTROL Equals]：定位所选的浏览器语言。
-* [!UICONTROL Does not equal]：排除所选的浏览器语言。
+* [!UICONTROL 等于]：定位所选的浏览器语言。
+* [!UICONTROL 不等于]：排除所选的浏览器语言。
 
 选择一种或多种浏览器语言。 多个选项之间使用 OR 进行连接。
 
@@ -120,14 +120,14 @@ ht-degree: 34%
 
 例如，如果您的页面在[!DNL Internet Explorer]版本11或更早版本中无法正确显示，您可以创建排除这些版本的受众。 在这种情况下，您将设置一个浏览器类型等于[!DNL Internet Explorer]的规则，并添加第二个版本小于或等于11的规则。
 
-选择&#x200B;**[!UICONTROL Version]**，然后选择运算符：
+选择&#x200B;**[!UICONTROL 版本]**，然后选择运算符：
 
-* [!UICONTROL Equals]
-* [!UICONTROL Does not equal]
-* [!UICONTROL Is greater than]
+* [!UICONTROL 等于]
+* [!UICONTROL 不等于]
+* [!UICONTROL 大于]
 * 高于或等于
-* [!UICONTROL Is less than]
-* [!UICONTROL Is less than or equal to]
+* [!UICONTROL 小于]
+* [!UICONTROL 小于或等于]
 
 键入版本号。 在文本字段中只能输入主要版本。 指定的版本包括该版本的任何次要版本。 例如，如果您指定版本10，则还包括版本10.1上的访客。
 
@@ -142,7 +142,7 @@ ht-degree: 34%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## [!UICONTROL Browser]受众属性中[!DNL iPad]和[!DNL iPhone]的更新（2024年4月30日） {#updates}
+## [!UICONTROL 浏览器]受众属性中[!DNL iPad]和[!DNL iPhone]的更新（2024年4月30日） {#updates}
 
 [!DNL Adobe Target]允许您[定位多个类别属性中的任意一个](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括访问您的页面时使用特定浏览器或浏览器选项的用户。
 
@@ -158,29 +158,29 @@ JavaScript受众是使用[!DNL Target]表达式的旧版受众，已在[!DNL Tar
 
 以后可以使用以下设置：
 
-* **对于浏览器匹配[!DNL Apple]**： [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL matches] [!DNL Apple]
+* **对于浏览器匹配[!DNL Apple]**： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 匹配] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* **对于与平板电脑**&#x200B;匹配的浏览器： [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
+* **对于与平板电脑匹配的浏览器**： [!UICONTROL 移动设备] > [!UICONTROL 是平板电脑] > [!UICONTROL true]
 
   ![移动设备为平板电脑](/help/main/r-release-notes/assets/is-tablet.png)
 
-* **对于与iPad**&#x200B;匹配的浏览器： [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPad]，其包含的And容器为[!UICONTROL Mobile] > [!UICONTROL Is Tablet]为[!DNL true]
+* **对于与iPad**&#x200B;匹配的浏览器： [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPad]，其中的And容器为[!UICONTROL 移动设备] > [!UICONTROL 是平板电脑]是[!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* **对于与iPhone**&#x200B;匹配的浏览器： [!UICONTROL Mobile] > [!UICONTROL Device Marketing Name] [!UICONTROL matches] [!DNL iPhone]，其包含的And容器为[!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone]为[!DNL true]
+* **对于与iPhone**&#x200B;匹配的浏览器： [!UICONTROL 移动设备] > [!UICONTROL 设备营销名称] [!UICONTROL 匹配] [!DNL iPhone]，其中的And容器为[!UICONTROL 移动设备] > [!UICONTROL 是移动电话]是[!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 还可以使用许多其他可能的设置，例如，当条件被否定时。 否定条件的示例可能如下所示：
 
-* **对于浏览器与iPhone**&#x200B;不匹配： [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple]，其中的Or容器为[!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone]为[!UICONTROL false]
+* **对于浏览器与iPhone不匹配**： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 与具有带有[!UICONTROL 移动设备] > [!UICONTROL 是移动电话]的Or容器的] [!UICONTROL Apple]不匹配[!UICONTROL False]
 
   ![不是手机](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* **对于浏览器与iPad**&#x200B;不匹配： [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple]，其中的Or容器为[!UICONTROL Mobile] > [!UICONTROL Is Tablet]，是[!UICONTROL false]。
+* **对于浏览器与iPad不匹配**： [!UICONTROL 移动设备] > [!UICONTROL 设备供应商] [!UICONTROL 不匹配带有带有[!UICONTROL 移动设备] > [!UICONTROL 是平板电脑]的Or容器的] [!UICONTROL Apple]为[!UICONTROL false]。
 
   ![不是平板电脑](/help/main/r-release-notes/assets/tablet-false.png)
 

@@ -16,7 +16,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 804
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 将[!DNL Analytics]用作行为数据源可以充当有关用户行为的丰富信息源。 此信息可能包含来自仅与[!DNL Analytics]共享的第三方源或馈送的数据。
 
-在[!DNL Recommendations]中[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)时，有两个单选按钮可让您选择要使用的数据源： [!UICONTROL mboxes]或[!UICONTROL Analytics]。 要创建标准，请单击[!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]。 有关详细信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
+在[!DNL Recommendations]中[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)时，有两个单选按钮可让您选择要使用的数据源： [!UICONTROL mbox]或[!UICONTROL Analytics]。 要创建标准，请单击[!UICONTROL 推荐] > [!UICONTROL 标准] > [!UICONTROL 创建标准] > [!UICONTROL 创建标准]。 有关详细信息，请参阅[创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)。
 
 >[!NOTE]
 >
@@ -68,24 +68,24 @@ ht-degree: 0%
 
 ## 在[!DNL Target]中实施
 
-1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL Recommendations]**，然后单击&#x200B;**[!UICONTROL Feeds]**&#x200B;选项卡。
+1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL 推荐]**，然后单击&#x200B;**[!UICONTROL 信息源]**&#x200B;选项卡。
 
-1. 单击 **[!UICONTROL Create Feed]**。
+1. 单击&#x200B;**[!UICONTROL 创建信息源]**。
 
-1. 选择&#x200B;**[!UICONTROL Analytics Classifications]**，然后指定报表包。
+1. 选择&#x200B;**[!UICONTROL Analytics分类]**，然后指定报表包。
 
-1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;以前进到&#x200B;**[!UICONTROL Schedule]**&#x200B;设置，为信息源选择频率段：
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;前进到&#x200B;**[!UICONTROL 计划]**&#x200B;设置，为信息源选择频率段：
 
-   * [!UICONTROL Daily]
-   * [!UICONTROL Weekly]
-   * [!UICONTROL Every 2 weeks]
-   * [!UICONTROL Never]
+   * [!UICONTROL 每天]
+   * [!UICONTROL 每周]
+   * [!UICONTROL 每2周]
+   * [!UICONTROL 从不]
 
    您还可以选择一天中信息源要处理的时间。
 
-1. 单击&#x200B;**[!UICONTROL Next]**&#x200B;以前进到&#x200B;**[!UICONTROL Mapping]**&#x200B;设置，然后将字段列标题映射到相应的[!UICONTROL Recommendations]字段名称。
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;前进到&#x200B;**[!UICONTROL 映射]**&#x200B;设置，然后将字段列标题映射到适当的[!UICONTROL 推荐]字段名称。
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 常见问题解答
 

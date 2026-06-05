@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 131
+source-wordcount: 133
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 {{permissions-update}}
 
-要访问[!DNL Recommendations]设置选项，请在[!DNL Adobe Experience Cloud]中打开[!DNL Target]，然后单击[!UICONTROL Administration] > [!UICONTROL Recommendations]。
+要访问[!DNL Recommendations]设置选项，请在[!DNL Adobe Experience Cloud]中打开[!DNL Target]，然后单击[!UICONTROL 管理] > [!UICONTROL 推荐]。
 
 您可以配置以下设置：
 

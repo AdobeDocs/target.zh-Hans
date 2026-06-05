@@ -12,24 +12,24 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 305
-ht-degree: 83%
+source-wordcount: 319
+ht-degree: 79%
 
 ---
 
 # 系统状态更新和主动通知
 
-使用[!UICONTROL Adobe System Status]页面和主动通知可及时掌握[!DNL Adobe]产品和[!DNL Adobe Experience Cloud]解决方案的状态。 主动通知会提醒您出现停机事件和维护事件。
+使用[!UICONTROL Adobe系统状态]页面和主动通知可及时掌握[!DNL Adobe]产品和[!DNL Adobe Experience Cloud]解决方案的状态。 主动通知会提醒您出现停机事件和维护事件。
 
 ## 系统状态更新
 
-使用[!UICONTROL Adobe System Status]页面查看[!DNL Target]及其他[!DNL Adobe]产品和[!DNL Adobe Experience Cloud]解决方案的状态。 此页面可帮助您确定您遇到的问题是否因系统更新或日常维护所致。
+使用[!UICONTROL Adobe系统状态]页面查看[!DNL Target]及其他[!DNL Adobe]产品和[!DNL Adobe Experience Cloud]解决方案的状态。 此页面可帮助您确定您遇到的问题是否因系统更新或日常维护所致。
 
 >[!NOTE]
 >
 >每月发行 [!DNL Target] 版本时始终会显示产品内通知，但是有时可能会有一些次要更新，这些更新将列在此页面上。
 
-1. 访问[[!UICONTROL System Status]](https://status.adobe.com/zh-cn/){target=_blank}。
+1. 访问[[!UICONTROL 系统状态]](https://status.adobe.com/zh-cn/){target=_blank}。
 
 1. 要查看[!DNL Experience Cloud]解决方案（包括[!DNL Target]）的状态，请单击[!UICONTROL Experience Cloud]选项卡。
 
@@ -39,7 +39,7 @@ ht-degree: 83%
 
    在上图中，[!DNL Adobe Advertising]、[!DNL Adobe Analytics] 和 [!DNL Adobe Audience Manager] 以及其他解决方案最近已完成维护更新。 所有其他产品和解决方案均运行正常。 如果在使用 [!DNL Target] 时遇到问题，查看此页面始终都是最好的做法。
 
-1. （可选）按产品、地区或日期范围筛选列表。 单击[!UICONTROL Major]、[!UICONTROL Minor]、[!UICONTROL Potential]或[!UICONTROL Maintenance]链接以进一步筛选结果。
+1. （可选）按产品、地区或日期范围筛选列表。 单击[!UICONTROL 主要]、[!UICONTROL 次要]、[!UICONTROL 潜在]或[!UICONTROL 维护]链接以进一步筛选结果。
 
 ## 主动通知
 

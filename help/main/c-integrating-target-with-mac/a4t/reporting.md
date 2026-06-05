@@ -15,8 +15,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1269
-ht-degree: 38%
+source-wordcount: 1316
+ht-degree: 41%
 
 ---
 
@@ -47,21 +47,21 @@ ht-degree: 38%
 ### 维度
 
 * [!UICONTROL Analytics for Target] — 通过集成传入的父ID。 此维度的格式为`Activity ID:Experience ID:3rd ID`。 以下维度是此维度的分类。
-* [!UICONTROL Target Activities]
-* [!UICONTROL Target Experiences]
-* [!UICONTROL Target Activity] > [!UICONTROL Experience]
-* [!UICONTROL 3rd ID] — 可以忽略
+* [!UICONTROL 目标活动]
+* [!UICONTROL 目标体验]
+* [!UICONTROL Target活动] > [!UICONTROL 体验]
+* [!UICONTROL 第3个ID] — 可以忽略
 
 ### 量度
 
-* [!UICONTROL Activity Impressions] — 与[!DNL Target]报告中的[!UICONTROL Entrants]编号匹配。
-* [!UICONTROL Activity Conversions] — 与[!DNL Target]报告中的[!UICONTROL Custom Conversions]编号匹配。
+* [!UICONTROL 活动展示次数] — 与[!DNL Target]报表中的[!UICONTROL 参加者]数字匹配。
+* [!UICONTROL 活动转化] — 与[!DNL Target]报表中的[!UICONTROL 自定义转化]数字匹配。
 
 在[!DNL Analysis Workspace]中，使用[!UICONTROL Analytics for Target]面板以提升度和置信度分析您的[!DNL Target]活动和体验。 有关详细信息，请参阅&#x200B;*Analytics工具指南*&#x200B;中的[Analytics for Target (A4T)面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hans)。
 
 >[!IMPORTANT]
 >
->如果您在[!DNL Analytics]中的[!UICONTROL Target Activities]报表列出了“未指定”而不是您的活动，则需要更新您的设置帐户。 请联系客户关怀团队以解决此问题。
+>如果[!DNL Analytics]中的[!UICONTROL Target活动]报告列出“未指定”，而不是列出您的活动，则需要更新您的设置帐户。 请联系客户关怀团队以解决此问题。
 
 有关详细信息和示例，请打开由Adobe Experience League提供的[Analytics &amp; Target：Analysis最佳实践](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)教程。
 
@@ -69,8 +69,8 @@ ht-degree: 38%
 
 使用[!DNL Analytics]作为报表源时，[!DNL Target]中的报表显示从[!DNL Analytics]收集的数据。 此报表与其他[!DNL Target]报表略有不同：
 
-* [!UICONTROL Audiences]列表显示了您的[!DNL Analytics]报表包可用的受众。
-* [!UICONTROL Metric]列表显示通过[!DNL Analytics]可用的每个量度。
+* [!UICONTROL 受众]列表显示了您的[!DNL Analytics]报表包可用的受众。
+* [!UICONTROL 量度]列表显示通过[!DNL Analytics]可用的每个量度。
 
   每个量度都可用，包括[!DNL Analytics]中内置的任何自定义或计算量度。
 
@@ -82,7 +82,7 @@ ht-degree: 38%
 
 ## 活动创建 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
-在活动创建期间，必须在[!UICONTROL Settings]页面上指定活动的目标。 此目标将作为报表的默认量度并且在量度选择器中始终列为第一个选项。 您将无法像设置常规 Target 活动的报表那样选择报表的区段。 具有[!DNL Analytics]的测试使用[!DNL Adobe Analytics]区段，而不是[!DNL Target]受众。
+在活动创建期间，您必须在“[!UICONTROL 设置]”页面中指定活动的目标。 此目标将作为报表的默认量度并且在量度选择器中始终列为第一个选项。 您将无法像设置常规 Target 活动的报表那样选择报表的区段。 具有[!DNL Analytics]的测试使用[!DNL Adobe Analytics]区段，而不是[!DNL Target]受众。
 
 ## 为Analytics for Adobe Target (A4T)执行离线计算 {#section_B34BD016C8274C97AC9564F426B9607E}
 
@@ -95,8 +95,8 @@ ht-degree: 38%
 **使用 [!DNL Analytics] 数据导出功能执行此操作：**
 
 1. 登录到 [!DNL Adobe Analytics]。
-1. 单击&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**。
-1. 在&#x200B;**[!UICONTROL Data Warehouse Request]**&#x200B;选项卡上，填写字段。
+1. 单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]**。
+1. 在 **[!UICONTROL Data Warehouse 请求]**&#x200B;选项卡中，填写相应的字段。
 
    有关各个字段的更多信息，请参阅 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=zh-Hans) 中的“Data Warehouse 请求描述”。
 
@@ -108,13 +108,13 @@ ht-degree: 38%
    | 划分 | 选择所需的维度：“标准”维度是现成的(OOTB)，而“自定义”维度包含eVar和prop。 如果需要访客ID级别信息，建议您使用“访客ID”，而不是“Experience Cloud访客ID”。<ul><li>访客 ID 是 Analytics 使用的最终 ID。 访客 ID 将为 AID（如果客户是旧客户）或 MID（如果客户是新客户，或者清除了自 MC 访客 ID 服务启动以来的 Cookie）。</li><li>仅当客户是新客户，或者清除了自 MC 访客 ID 服务启动以来的 Cookie 时，才会为客户设置 Experience Cloud 访客 ID。</li></ul> |
    | 量度 | 选择所需的量度。 “标准”量度为开箱即用量度，而“自定义”量度包含自定义事件。 |
    | 报表预览 | 在计划报表之前查看您的设置。<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
-   | 计划提交 | 输入要向其传送文件的电子邮件地址，命名文件，然后选择[!UICONTROL Send Immediately]。<br>注意：可在[!UICONTROL Advanced Delivery Options]<br>![计划传送](/help/main/c-reports/assets/datawarehouse3.png)下通过FTP传送文件。 |
+   | 计划提交 | 输入要向其传送文件的电子邮件地址，命名文件，然后选择[!UICONTROL 立即发送]。<br>注意：可在[!UICONTROL 高级传送选项]<br>![计划传送](/help/main/c-reports/assets/datawarehouse3.png)下通过FTP传送文件。 |
 
-1. 单击 **[!UICONTROL Request this Report]**。
+1. 单击&#x200B;**[!UICONTROL 请求此报表]**。
 
-   根据请求的数据数量，文件提交最多可能需要 72 小时。 您可以随时通过单击[!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager]来查看请求进度。
+   根据请求的数据数量，文件提交最多可能需要 72 小时。 您可以随时查看请求的进度，方法是单击“[!UICONTROL 工具]”>“[!UICONTROL Data Warehouse]”>“[!UICONTROL 请求管理器]”。
 
-   如果您希望重新请求您过去请求的数据，则可以根据需要从[!UICONTROL Request Manager]中复制旧请求。
+   如果您希望重新请求您过去请求的数据，可以根据需要从[!UICONTROL 请求管理器]中复制旧请求。
 
 有关 [!DNL Data Warehouse] 的更多信息，请访问 [!DNL Analytics] 帮助文档中的以下链接：
 

@@ -17,7 +17,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1373
+source-wordcount: 1442
 ht-degree: 23%
 
 ---
@@ -36,21 +36,21 @@ ht-degree: 23%
 
 左侧的选项卡允许您访问[!DNL Target]的各种功能，稍后将对此进行讨论。 在讨论这些选项卡之前，我们先来讨论右侧的选项。
 
-### [!UICONTROL Organization]
+### [!UICONTROL 组织]
 
 *组织*&#x200B;是一个实体，管理员从中可配置组和用户，并控制 [!DNL Adobe Experience Cloud] 中的单点登录。 组织的作用类似于一个衔接所有 [!DNL Experience Cloud] 产品和解决方案的登录公司。 大多数情况下，组织即是您的公司名称。 但是，公司可以具有多个组织。
 
-如果您的公司有多个组织，请从[!UICONTROL Organization]下拉列表中选择所需的组织：
+如果您的公司有多个组织，请从[!UICONTROL 组织]下拉列表中选择所需的组织：
 
 ![“组织”下拉列表](/help/main/c-intro/assets/organizations.png)
 
-### [!UICONTROL Beta Feedback]
+### [!UICONTROL Beta反馈]
 
-（视情况而定）如果您是官方[!DNL Target] Beta项目的一部分，则可能会看到[!UICONTROL Beta Feedback]图标。
+（视情况而定）如果您是官方[!DNL Target] Beta计划的成员，则可能会看到[!UICONTROL Beta反馈]图标。
 
 ![Beta反馈图标](/help/main/c-intro/assets/beta-feedback.png)
 
-提供反馈的说明，包括适用的文件或屏幕截图，以及任何其他详细信息（如有必要），然后单击&#x200B;**[!UICONTROL Submit]**。
+提供反馈的说明，包括适用的文件或屏幕截图，以及任何其他详细信息（如有必要），然后单击&#x200B;**[!UICONTROL 提交]**。
 
 ### [!DNL AI Assistant]
 
@@ -60,27 +60,27 @@ ht-degree: 23%
 
 ### 帮助
 
-单击[!UICONTROL Help]图标（![帮助图标](/help/main/assets/icons/HelpOutline.svg) ）可访问信息、视频、博客等，以帮助您更有效地使用[!DNL Target]。 您可以创建支持工单、查找支持电话号码、通过Twitter提问或提供有关[!DNL Target]的反馈以使我们了解[!DNL Target]团队的情况。
+通过单击[!UICONTROL 帮助]图标（![帮助图标](/help/main/assets/icons/HelpOutline.svg)），您可以访问信息、视频、博客等以帮助您更有效地使用[!DNL Target]。 您可以创建支持工单、查找支持电话号码、通过Twitter提问或提供有关[!DNL Target]的反馈以使我们了解[!DNL Target]团队的情况。
 
 ![帮助](/help/main/c-intro/assets/help.png)
 
 ### 请求、通知和公告 {#notifications-announcements}
 
-[!UICONTROL Requests]、[!UICONTROL Notifications]和[!UICONTROL Announcements]面板帮助您及时了解[!DNL Adobe Target]的所有最新进展。 主动通知帮助您及时了解[!DNL Adobe Experience Cloud]解决方案和[!DNL Target]事件的状态。 主动公告提醒您发生断电事件和维护事件。
+[!UICONTROL 请求]、[!UICONTROL 通知]和[!UICONTROL 公告]面板帮助您及时了解[!DNL Adobe Target]的所有最新信息。 主动通知帮助您及时了解[!DNL Adobe Experience Cloud]解决方案和[!DNL Target]事件的状态。 主动公告提醒您发生断电事件和维护事件。
 
-单击标题中的[!UICONTROL Notifications]图标（![通知图标](/help/main/assets/icons/Bell.svg)）以查看通知：
+单击标题中的[!UICONTROL 通知]图标（![通知图标](/help/main/assets/icons/Bell.svg)）以查看通知：
 
-该面板包含[!UICONTROL Requests]、[!UICONTROL Notifications]和[!UICONTROL Announcements]的选项卡。
+该面板包含[!UICONTROL 请求]、[!UICONTROL 通知]和[!UICONTROL 公告]的选项卡。
 
 ![通知](assets/notifications.png)
 
 以下部分包含有关每个选项卡以及如何配置通知和公告的信息：
 
-#### [!UICONTROL Requests]
+#### [!UICONTROL 个请求]
 
-在[!UICONTROL Requests]面板中接收有关[!DNL Adobe]产品和解决方案、您与其他用户的协作以及其他相关更新的重要信息。
+在[!UICONTROL 请求]面板中接收有关[!DNL Adobe]产品和解决方案、您与其他用户的协作以及其他相关更新的重要信息。
 
-当有人向您发送批准对象或授予对象访问权限的请求时，该请求显示在[!UICONTROL Requests]面板中。
+当有人向您发送批准对象或授予对象访问权限的请求时，该请求显示在[!UICONTROL 请求]面板中。
 
 #### 通知 {#notifications}
 
@@ -116,9 +116,9 @@ ht-degree: 23%
    * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
-您可以将单个通知标记为已读，方法是将鼠标悬停在所需通知上，然后单击[!UICONTROL Mark as Read] （ ![标记为已读图标](/help/main/assets/icons/CheckmarkCircle.svg) ）图标。 您可以单击面板底部的[!UICONTROL Mark as Read]或[!UICONTROL View All]，将所有通知标记为已读或查看所有通知。
+您可以将单个通知标记为已读，方法是将鼠标悬停在所需通知上，然后单击[!UICONTROL 标记为已读] （ ![标记为已读图标](/help/main/assets/icons/CheckmarkCircle.svg) ）图标。 单击面板底部的[!UICONTROL 标记为已读]或[!UICONTROL 查看全部]，可将所有通知标记为已读或查看所有通知。
 
-您也可以将鼠标悬停在通知上并单击[!UICONTROL Snooze] （ ![暂停图标](/help/main/assets/icons/Clock.svg) ）图标，以再次设置要通知的提醒。 然后，您可以选择您希望收到通知的时间：5分钟、15分钟、1小时或明天。
+您也可以将鼠标悬停在通知上，单击[!UICONTROL 暂停] （![暂停图标](/help/main/assets/icons/Clock.svg) ）图标，以再次设置要接收通知的提醒。 然后，您可以选择您希望收到通知的时间：5分钟、15分钟、1小时或明天。
 
 #### 公告
 
@@ -130,18 +130,18 @@ ht-degree: 23%
 
 要编辑通知首选项，请执行以下操作：
 
-1. 单击[!UICONTROL Edit Preferences] （![编辑首选项图标](/help/main/assets/icons/Setting.svg) ）图标，然后单击左边栏中的&#x200B;**[!UICONTROL Notifications]**。
-1. 在&#x200B;**[!UICONTROL Target]**&#x200B;下，选择要如何接收通知：
+1. 单击[!UICONTROL 编辑首选项] （![编辑首选项图标](/help/main/assets/icons/Setting.svg) ）图标，然后单击左边栏中的&#x200B;**[!UICONTROL 通知]**。
+1. 在&#x200B;**[!UICONTROL Target]**&#x200B;下，选择通知方式：
 
-   * [!UICONTROL In-app]
-   * [!UICONTROL Email]
+   * [!UICONTROL 应用程序内]
+   * [!UICONTROL 电子邮件]
    * [!DNL Slack]
 
 1. 选择您希望视为高优先级的类别。
 
    >[!NOTE]
    >
-   >“[!UICONTROL New releases]”和“[!UICONTROL Updates on content]”是仅适用于[!DNL Target]的通知类别。 其他类别适用于其他[!DNL Adobe]解决方案。
+   >[!UICONTROL 新版本]和内容的更新是唯一适用于[!DNL Target]的通知类别。 其他类别适用于其他[!DNL Adobe]解决方案。
 
 1. 选择您希望在浏览器中显示警报的通知。
 
@@ -149,10 +149,10 @@ ht-degree: 23%
 
 1. 选择您希望接收通知电子邮件的频率：
 
-   * [!UICONTROL Don't send emails]
-   * [!UICONTROL Instant notifications]
-   * [!UICONTROL Daily digest]
-   * [!UICONTROL Weekly digest]
+   * [!UICONTROL 不发送电子邮件]
+   * [!UICONTROL 即时通知]
+   * [!UICONTROL 每日摘要]
+   * [!UICONTROL 每周摘要]
 
 1. 为工作区配置Slack通知。
 
@@ -172,43 +172,43 @@ ht-degree: 23%
 
 ## 活动
 
-打开[!DNL Target]时，**[!UICONTROL Activities]**&#x200B;列表是默认视图。 您可以从此页面创建活动并管理现有活动。
+打开[!DNL Target]时，**[!UICONTROL 活动]**&#x200B;列表是默认视图。 您可以从此页面创建活动并管理现有活动。
 
-有关[!DNL Target]中可用的活动类型的深入信息以及要详细了解[!UICONTROL Activity]列表的用户界面，请参阅[活动](/help/main/c-activities/activities.md)。
+有关[!DNL Target]中可用的活动类型的深入信息以及要详细了解[!UICONTROL 活动]列表的用户界面，请参阅[活动](/help/main/c-activities/activities.md)。
 
 ## 受众
 
-单击“**[!UICONTROL Audiences]**”选项卡以显示[!UICONTROL Audiences]列表，从中可创建受众和管理现有受众。
+单击&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡以显示[!UICONTROL 受众]列表，您可以在其中创建受众和管理现有受众。
 
-受众是指一组看到定位活动的相似活动参加者。 受众是具有相同特征的一组人员，例如新访客、回访访客或来自中西部的回访访客。 通过[!UICONTROL Audience]功能，可将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化您的数字营销。 如果将访客视为目标受众的一部分，则 [!DNL Target] 根据在活动创建期间定义的标准决定要显示何种体验。
+受众是指一组看到定位活动的相似活动参加者。 受众是具有相同特征的一组人员，例如新访客、回访访客或来自中西部的回访访客。 通过[!UICONTROL 受众]功能，您可以将不同的内容和体验定位到特定的受众，即在适当的时间向适当的人员展示恰当的信息，从而优化您的数字营销。 如果将访客视为目标受众的一部分，则 [!DNL Target] 根据在活动创建期间定义的标准决定要显示何种体验。
 
-有关[!DNL Target]中受众类型的深入信息以及要详细了解[!UICONTROL Audience]列表的用户界面，请参阅[创建受众](/help/main/c-target/c-audiences/create-audience.md)。
+有关[!DNL Target]中受众类型的深入信息以及要详细了解[!UICONTROL 受众]列表的用户界面，请参阅[创建受众](/help/main/c-target/c-audiences/create-audience.md)。
 
 ## 产品建议
 
-单击“**[!UICONTROL Offers]**”选项卡以显示[!UICONTROL Offers]列表，从中可创建体验和选件以及管理现有体验和选件。
+单击&#x200B;**[!UICONTROL 选件]**&#x200B;选项卡以显示[!UICONTROL 选件]列表，从中可创建体验和选件以及管理现有体验和选件。
 
 体验可以是一个页面、整个网页、可能形成购买漏斗的一组页面或一些其他逻辑序列的页面上的一个产品建议、图像、文本、按钮、视频，以及这些不同元素的组合。 它还可以是语音助手的回复、客户服务脚本，甚至是饮料机中提供的独特口味。 您可以在 [!DNL Target] 活动中测试或个性化体验。
 
-有关[!DNL Target]中选件类型的深入信息以及要详细了解[!UICONTROL Offer]列表的用户界面，请参阅[选件](/help/main/c-experiences/c-manage-content/manage-content.md)。
+有关[!DNL Target]中选件类型的深入信息以及要详细了解[!UICONTROL 选件]列表的用户界面，请参阅[选件](/help/main/c-experiences/c-manage-content/manage-content.md)。
 
 ## 推荐
 
-单击&#x200B;**[!UICONTROL Recommendations]**&#x200B;选项卡以访问[!DNL Target Recommendations]。
+单击&#x200B;**[!UICONTROL 推荐]**&#x200B;选项卡以访问[!DNL Target Recommendations]。
 
 >[!NOTE]
 >
->[!UICONTROL Recommendations] 活动作为 [!DNL Target Premium] 解决方案的一部分提供。 在没有[!DNL Target Premium]许可证的[!DNL Target Standard]中，[!UICONTROL Recommendations]活动不可用。 有关详细信息，请参阅“Target 简介”**&#x200B;中的 [Target Premium](/help/main/c-intro/intro.md#premium)。
+>[!UICONTROL 推荐]活动作为[!DNL Target Premium]解决方案的一部分提供。 在没有[!DNL Target Premium]许可证的[!DNL Target Standard]中，[!UICONTROL 推荐]活动不可用。 有关详细信息，请参阅“Target 简介”**&#x200B;中的 [Target Premium](/help/main/c-intro/intro.md#premium)。
 
-[!UICONTROL Recommendations]活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。 “推荐”有助于引导客户查看在其他情况下他们可能不知道的相关项目。
+“[!UICONTROL 推荐]”活动可根据以往用户活动或其他算法自动显示客户可能感兴趣的产品或内容。 “推荐”有助于引导客户查看在其他情况下他们可能不知道的相关项目。
 
-有关[!DNL Target]中有关[!UICONTROL Recommendations]的深入信息以及要详细了解[!UICONTROL Recommendations]用户界面的，请参阅[推荐](/help/main/c-recommendations/recommendations.md)。
+有关[!DNL Target]中[!UICONTROL 推荐]的深入信息以及有关[!UICONTROL 推荐]用户界面的详细信息，请参阅[推荐](/help/main/c-recommendations/recommendations.md)。
 
 ## 管理
 
-单击&#x200B;**[!UICONTROL Administration]**&#x200B;选项卡以访问[!UICONTROL Administration]页面。
+单击&#x200B;**[!UICONTROL 管理]**&#x200B;选项卡以访问[!UICONTROL 管理]页面。
 
-通过[!UICONTROL Administration]页面可管理[!DNL Target]，包括[!UICONTROL Visual Experience Composer] (VEC)、报表、[!DNL Scene7]配置、实现、主机、环境、响应令牌、用户和推荐的配置设置。
+通过[!UICONTROL 管理]页面可管理[!DNL Target]，包括[!UICONTROL 可视化体验编辑器] (VEC)、报表、[!DNL Scene7]配置、实现、主机、环境、响应令牌、用户和推荐的配置设置。
 
 有关更深入的信息以及要详细了解用户界面的，请参阅[管理 Target 概述](/help/main/administrating-target/administrating-target.md)。
 

@@ -13,14 +13,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: 612
 ht-degree: 51%
 
 ---
 
 # A/B 测试中的多个体验受众
 
-您可以在[!DNL Adobe Target] A/B活动中将同一体验的版本定位到不同的受众。 您可以在[!UICONTROL Visual Experience Composer] (VEC)或基于表单的体验编辑器中为一个体验设置多个受众。
+您可以在[!DNL Adobe Target] A/B活动中将同一体验的版本定位到不同的受众。 您可以在[!UICONTROL 可视化体验编辑器] (VEC)或基于表单的体验编辑器中为某个体验设置多个受众。
 
 当访客的配置文件发生更改时，访客可在体验受众之间切换。 在活动的生命周期内，访客不会卡在同一个体验中。
 
@@ -40,9 +40,9 @@ ht-degree: 51%
 
    配置具有多个版本的体验时，请按照以下步骤所示，为每个版本选择相应的受众。
 
-1. 选择体验，然后单击&#x200B;**[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**。
+1. 选择体验，然后单击&#x200B;**[!UICONTROL 配置]** > **[!UICONTROL 多个受众]**。
 
-1. 单击[!UICONTROL Experience Audiences]窗格中的&#x200B;**[!UICONTROL Add Audience]**&#x200B;图标（![添加图标](/help/main/assets/icons/Add.svg)），然后选择要定位的第一个受众。 对每个受众重复执行上述步骤。
+1. 单击[!UICONTROL 体验受众]窗格中的&#x200B;**[!UICONTROL 添加受众]**&#x200B;图标（![添加图标](/help/main/assets/icons/Add.svg)），然后选择要定位的第一个受众。 对每个受众重复执行上述步骤。
 
    如果受众尚不存在，请单击[创建受众](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)，然后对其进行设置。
 

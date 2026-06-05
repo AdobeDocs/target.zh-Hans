@@ -1,7 +1,7 @@
 ---
 keywords: 多变量测试；mvt；全因子；mvt或a/b；多变量a/b；流量估算器；何时使用mvt；mvt注意事项；多变量；部分因子；部分因子；全因子
-description: 了解如何使用 [!DNL Adobe Target] 中的[!UICONTROL Multivariate Test] (MVT)来比较页面上元素中的选件组合，以确定哪个组合效果最佳。
-title: 什么是[!UICONTROL Multivariate Test]？
+description: 了解如何使用 [!DNL Adobe Target] 中的[!UICONTROL 多变量测试] (MVT)来比较页面上元素中的选件组合，以确定哪个组合效果最佳。
+title: 什么是[!UICONTROL 多变量测试]？
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
@@ -14,28 +14,28 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1453
+source-wordcount: 1473
 ht-degree: 46%
 
 ---
 
-# [!UICONTROL Multivariate Test] 概述
+# [!UICONTROL 多变量测试]概述
 
-[!DNL Adobe Target]中的[!UICONTROL Multivariate Test] (MVT)活动比较页面上各元素中选件的不同组合以确定哪个组合对特定受众的表现最好。 [!UICONTROL Multivariate Test]活动还有助于确定哪个元素对活动取得成功影响最大。
+[!DNL Adobe Target]中的[!UICONTROL 多变量测试] (MVT)活动比较页面上元素中的选件组合，以确定哪个组合对特定受众的表现最好。 [!UICONTROL 多变量测试]活动还有助于确定哪个元素对活动取得成功影响最大。
 
 多变量测试可帮助您发现特定元素与页面上的其他元素相比，对转化具有的相对影响。 多变量测试还可以帮助您优化已证明有效的元素组合。
 
-与A/B测试相比，[!UICONTROL Multivariate Test]提供的一项优势是能够显示页面上的哪些元素对转化具有最大影响。 这一优势也被称为“主效应”。 例如，此信息可帮助您确定要将最受关注的内容放在何处。
+与A/B测试相比，[!UICONTROL 多变量测试]提供的一项优势是，能够显示页面上的哪些元素对转化具有最大影响。 这一优势也被称为“主效应”。 例如，此信息可帮助您确定要将最受关注的内容放在何处。
 
-[!UICONTROL Multivariate Test]活动还可帮助您在页面上找到两个或多个元素之间的复合效果。 例如，与特定横幅或主题图像结合使用时，特定广告可能会产生更多转化。 这也被称为“交互效应”。
+[!UICONTROL 多变量测试]活动还可帮助您在页面上找到两个或多个元素之间的复合效果。 例如，与特定横幅或主题图像结合使用时，特定广告可能会产生更多转化。 这也被称为“交互效应”。
 
 [!DNL Target] 使用全因子多变量测试来帮助您优化内容。 全因子多变量测试以相同概率检查内容的所有可能组合。 例如，如果您有两个页面元素，每个页面元素包含三个选件，则共有九种可能的组合 (3x3)。 如果您有三个元素，其中两个包含三个可能的选件，另一个包含两个选件，则共有 18 个选项 (3x3x2)。
 
-在[!DNL Target]中，每个组合都是一个体验。 [!UICONTROL Multivariate Test]比较每个体验，以便您了解哪些组合最成功。 同时，系统会收集和分析数据以了解每个位置和选件对成功量度的影响如何。
+在[!DNL Target]中，每个组合都是一个体验。 [!UICONTROL 多变量测试]比较每个体验，以便您了解哪些组合最成功。 同时，系统会收集和分析数据以了解每个位置和选件对成功量度的影响如何。
 
 ![多变量图像](assets/multivariate.png)
 
-由于可生成的组合数量，[!UICONTROL Multivariate Test]比A/B测试需要更多时间和流量。 页面必须获得足够的流量才能为每个体验产生具有统计意义的结果。 要获得有用的结果，您必须了解页面接收的流量量，并在适当的时间段内测试最佳组合数量以获得所需的结果。
+由于可生成的组合数量，[!UICONTROL 多变量测试]比A/B测试需要更多时间和流量。 页面必须获得足够的流量才能为每个体验产生具有统计意义的结果。 要获得有用的结果，您必须了解页面接收的流量量，并在适当的时间段内测试最佳组合数量以获得所需的结果。
 
 Target的[流量估算器](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)可以帮助您设计适用于您的流量的测试。 在使用流量估算器之前，您应已拥有合适的统计数据，该数据可显示您的网站通常会收到的展示次数和转化次数。 思考一下您每天的流量级别。 活动中的体验越多，活动必须包含的流量越多，或活动必须运行的时间越长。 如果流量量不高，则应该测试一些组合；否则，生成有意义的测试结果所需的时间可能太长而无法使用。
 
@@ -53,7 +53,7 @@ Target的[流量估算器](/help/main/c-activities/c-multivariate-testing/t-crea
 
 **位置：**&#x200B;页面上的特定内容区域，通常包含在单个 DOM 元素内。 在 MVT 方法中，有时将内容称为“因子”**。 全因子多变量测试会比较您的位置中所有可能的选件组合。
 
-## 何时使用[!UICONTROL Multivariate Test]与A/B {#section_3D2B966B6671406C861A1843EA41D28C}
+## 何时使用[!UICONTROL 多变量测试]与A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
 多变量测试可与 A/B 测试结合使用以优化您的页面。 您可以将它们结合使用的示例包括：
 

@@ -12,8 +12,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 28%
+source-wordcount: 755
+ht-degree: 27%
 
 ---
 
@@ -33,31 +33,31 @@ ht-degree: 28%
 
 包含标准与收藏集的功能类似，通过包含标准可以执行类似的操作，但不同的是您每次创建活动时都必须设置包含标准。 收藏集允许您一次性创建一组项目，然后可以在适合时使用该收藏集，而无需再次设置。
 
-创建或编辑[!DNL Recommendations]活动时，收藏集名称会显示在活动图上的[!UICONTROL Criteria]标签旁边。
+创建或编辑[!DNL Recommendations]活动时，收藏集名称会显示在活动图上的[!UICONTROL 标准]标签旁边。
 
 >[!NOTE]
 >
 >* 收集规则适用于运行标准后生成的推荐项。 它们只影响输出中的实体推荐(ER)，而不影响键。
 >
->* 使用[!UICONTROL Recently Viewed Items]推荐键时不会应用收藏集。
+>* 使用[!UICONTROL 最近查看的项目]推荐键时，不会应用收藏集。
 
 ## 创建收藏集 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
 可创建收藏集以组织要在推荐中显示的产品或内容。
 
-1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Collections]**&#x200B;以显示现有收藏集列表。
+1. 单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 收藏集]**&#x200B;以显示现有收藏集列表。
 
-   [!UICONTROL Collections]页面显示现有收藏集的列表。 单击[!UICONTROL Create Collection]按钮可创建新收藏集。 您还可以编辑、复制和删除现有收藏集，方法是单击所需收藏集旁边的“更多操作”图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击所需选项。
+   [!UICONTROL 收藏集]页面显示现有收藏集的列表。 您可以通过单击[!UICONTROL 创建收藏集]按钮来创建新收藏集。 您还可以编辑、复制和删除现有收藏集，方法是单击所需收藏集旁边的“更多操作”图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击所需选项。
 
-   [!UICONTROL Collections]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}以更改默认主机组。
+   [!UICONTROL 收藏集]列表视图中为每个收藏集报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该收藏集的规则相匹配的产品数。 请参阅[设置](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}以更改默认主机组。
 
-1. 单击 **[!UICONTROL Create Collection]**。
+1. 单击&#x200B;**[!UICONTROL 创建收藏集]**。
 
-1. 为集合键入&#x200B;**[!UICONTROL Name]**。
+1. 键入集合的&#x200B;**[!UICONTROL 名称]**。
 
-   您还可以输入可选的&#x200B;**[!UICONTROL Description]**。
+   您还可以输入可选&#x200B;**[!UICONTROL 描述]**。
 
-1. （视情况而定）在创建（或更新）收藏集时从&#x200B;**[!UICONTROL Environment]**&#x200B;筛选器中选择[环境](/help/main/administrating-target/environments.md)，以预览该环境中收藏集的内容。 默认情况下，会显示默认主机组的结果。
+1. （视情况而定）在创建（或更新）收藏集时从&#x200B;**[!UICONTROL 环境]**&#x200B;筛选器中选择[环境](/help/main/administrating-target/environments.md)以预览该环境中收藏集的内容。 默认情况下，会显示默认主机组的结果。
 
 1. 设置用于构建收藏集的规则。
 
@@ -65,7 +65,7 @@ ht-degree: 28%
 
    您可以添加规则，以使用多个参数来定义收藏集。 使用AND运算符连接多个规则。 必须匹配指定的所有规则，才能应用收藏集。
 
-1. 单击 **[!UICONTROL Create]**。
+1. 单击&#x200B;**[!UICONTROL 创建]**。
 
 <!--
 ## Create a collection using [!UICONTROL Advanced Search]
@@ -83,7 +83,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 编辑、复制或删除收藏集
 
-单击列表中所需集合旁边的（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击相应的图标： [!UICONTROL Edit]、[!UICONTROL Copy]或[!DNL Delete]。
+单击列表中所需集合旁边的（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击相应的图标： [!UICONTROL 编辑]、[!UICONTROL 复制]或[!DNL Delete]。
 
 您可以复制现有收藏集以创建重复的收藏集，然后对其进行修改。 这样，您就可以用更少的工作量创建类似的收藏集。
 
@@ -93,8 +93,8 @@ After creating a search using "id > contains," for example, you can then click [
 
 1. 使用上述方法之一创建收藏集。
 
-1. 单击&#x200B;**[!UICONTROL Activities]**&#x200B;并[创建新的推荐](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)活动或编辑现有活动。
+1. 单击&#x200B;**[!UICONTROL 活动]**&#x200B;和[新建推荐](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)活动或编辑现有活动。
 
-1. 选择标准和设计后，将显示[!UICONTROL Options]页面，您可以在其中选择所需的集合。
+1. 选择标准和设计后，将显示[!UICONTROL 选项]页面，您可以在其中选择所需的集合。
 
-1. （视情况而定）要更改现有的收藏集设置，请在&#x200B;**[!UICONTROL Experiences]**&#x200B;页面（三步引导式工作流的步骤1）中单击放置推荐的位置，单击&#x200B;**[!UICONTROL Change Collection]**，然后选择所需的收藏集。
+1. （视情况而定）要更改现有的收藏集设置，请在&#x200B;**[!UICONTROL 体验]**&#x200B;页面（三步引导式工作流的步骤1）中单击放置推荐的位置，单击&#x200B;**[!UICONTROL 更改收藏集]**，然后选择所需的收藏集。

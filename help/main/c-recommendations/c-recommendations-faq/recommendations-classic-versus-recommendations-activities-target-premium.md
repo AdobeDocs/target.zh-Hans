@@ -18,8 +18,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 665
-ht-degree: 86%
+source-wordcount: 692
+ht-degree: 83%
 
 ---
 
@@ -41,16 +41,16 @@ ht-degree: 86%
 
 ## “推荐”作为产品建议
 
-您可以在[!UICONTROL A/B Test]（包括[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]）和[!UICONTROL Experience Targeting] (XT)活动中包含推荐。
+您可以在[!UICONTROL A/B测试]（包括[!UICONTROL 自动分配]和[!UICONTROL 自动定位]）和[!UICONTROL 体验定位] (XT)活动中包含推荐。
 
 此功能提供了几项全新的功能，例如：
 
 * 可在同一活动中测试和锁定推荐和非推荐内容。
 * 可轻松尝试在页面上放置推荐内容，包括为多个推荐排序。
-* 使用[!UICONTROL Auto-Allocate]自动将流量推送到性能最佳的推荐体验。
-* 使用[!UICONTROL Auto-Target]根据访客的配置文件动态地为他们分配量身定制的推荐体验。
+* 使用[!UICONTROL 自动分配]自动将流量推送到性能最佳的推荐体验。
+* 使用[!UICONTROL 自动定位]，根据访客的配置文件动态地为他们分配量身定制的推荐体验。
 
-若要开始，请使用[!UICONTROL Visual Experience Composer]创建一个[!UICONTROL A/B Test]或[!UICONTROL Experience Targeting]活动，然后使用[!UICONTROL Insert Before]、[!UICONTROL Insert After]或[!UICONTROL Replace With]操作向体验添加推荐。
+若要开始，请使用[!UICONTROL 可视化体验编辑器]创建一个[!UICONTROL A/B测试]或[!UICONTROL 体验定位]活动，然后执行[!UICONTROL 此项前插入]、[!UICONTROL 此项后插入]或[!UICONTROL 替换为]操作以向体验添加推荐。
 
 有关更多信息，请参阅[将推荐作为产品建议](/help/main/c-recommendations/recommendations-as-an-offer.md)。
 

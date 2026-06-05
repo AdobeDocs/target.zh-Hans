@@ -19,7 +19,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: 701
 ht-degree: 79%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 79%
 
 ## 资源链接
 
-* **设置Adobe Target**：帮助您管理[!DNL Adobe Target]的信息，包括[!UICONTROL Visual Experience Composer] (VEC)、报表、[!DNL Scene7]配置、实现、主机、环境、响应令牌和用户的配置设置。 请参阅[管理 Target 概述](/help/main/administrating-target/administrating-target.md)。
+* **设置Adobe Target**：帮助您管理[!DNL Adobe Target]的信息，包括[!UICONTROL 可视化体验编辑器] (VEC)、报表、[!DNL Scene7]配置、实现、主机、环境、响应令牌和用户的配置设置。 请参阅[管理 Target 概述](/help/main/administrating-target/administrating-target.md)。
 * **Adobe Target 产品文档**：关于 Adobe Target 所需了解的一切。 请参阅 [Adobe Target 产品文档](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=zh-Hans)。
 * **Adobe Target API 和 SDK 文档**：了解如何对客户端应用程序、服务器端应用程序、移动应用程序、物联网等上实现 [!DNL Target]。 此外，还可了解如何与第三方解决方案交换您的 [!DNL Target] 数据。 请参阅 [Adobe Target API 概述](/help/main/api/api-overview.md)。
 * **Adobe Target 活动指南**：对于可在 [!DNL Target] 中使用的各种活动的简介。 请参阅 [Target 活动类型](/help/main/c-activities/target-activities-guide.md)。

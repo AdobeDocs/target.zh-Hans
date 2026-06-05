@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 181
-ht-degree: 12%
+source-wordcount: 184
+ht-degree: 11%
 
 ---
 
@@ -35,6 +35,6 @@ ht-degree: 12%
 >
 >[!DNL Adobe Experience Platform]中的标记是实施[!DNL Target]的首选方法。 [!DNL Adobe Experience Platform]中的标记是来自[!DNL Adobe]的下一代标记管理功能。 标记为客户提供了一种简单的方式来部署和管理用来加强相关客户体验的分析、营销和广告标记。 有关详细信息，请参阅[使用 [!DNL Adobe Experience Platform]实施 [!DNL Target] &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}。
 
-1. 要访问[!UICONTROL Implementation]页面，请单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**。
+1. 要访问[!UICONTROL 实现]页面，请单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实现]**。
 
 1. 有关适用于此页面上的设置的信息，请参阅[不使用标签管理器实施Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}。

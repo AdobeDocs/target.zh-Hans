@@ -1,7 +1,7 @@
 ---
 keywords: Experience Cloud 受众;受众
-description: 了解Adobe Experience Cloud受众如何使Experience Cloud应用程序能够与其他Adobe应用程序传输和共享有关网站访客的信息。
-title: 如何在Target中使用Adobe Experience Cloud Audiences？
+description: 了解Adobe Experience Cloud受众如何让Experience Cloud应用程序与其他Adobe应用程序传输和共享有关网站访客的信息。
+title: 如何在Target中使用Adobe Experience Cloud受众？
 feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af
 TQID: https://experienceleague.adobe.com/p56TdIW44Ben1VdjbBBJptKai9pHhPx4ptc8IzmbtiE

@@ -5,8 +5,8 @@ hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '934'
+ht-degree: 7%
 
 ---
 
@@ -173,7 +173,7 @@ public class MainApplication extends Application {
 
 ### 注册Application类 {#register-application}
 
-在`Application`中注册您的`AndroidManifest.xml`类：
+在`AndroidManifest.xml`中注册您的`Application`类：
 
 ```xml
 <application
@@ -189,7 +189,7 @@ public class MainApplication extends Application {
 | 方法 | 必需 | 描述 |
 |---|---|---|
 | `withIdentity(namespace, id)` | 否 | 第一个参数：身份命名空间（请参阅[Adobe身份命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)）。 第二个参数：标识值。 当您希望该命名空间和ID在Analytics中用于此评估时，请包括此项。 如果未提供，则Analytics默认使用ECID。 这不会用于制定功能启用决策。 |
-| `withAttributes(map)` | 否 | `Map<String, List<String>>`。键值是转出规则使用的上下文属性名称（例如`locale`、`platform`、`appVersion`、`deviceType`）。 值是当前用户/会话的该键的候选属性值列表（例如`["en_US"]`或`["phone"]`）。 |
+| `withAttributes(map)` | 否 | `Map<String, List<String>>`. 键值是转出规则使用的上下文属性名称（例如`locale`、`platform`、`appVersion`、`deviceType`）。 值是当前用户/会话的该键的候选属性值列表（例如`["en_US"]`或`["phone"]`）。 |
 
 **Kotlin**
 
@@ -465,8 +465,8 @@ String version = Rollout.extensionVersion();
 
 | API | 返回值 |
 |---|---|
-| `isFeatureEnabled(featureKey, evaluationContext, callback)`。`FeatureEvaluationContext`携带规则的定位属性和analytics的可选标识。 请参阅[功能评估](#is-feature-enabled)。 | 通过回调的布尔值 |
-| `getFeature(featureKey, evaluationContext, callback)`。返回给定上下文的已评估功能有效负载。 请参阅[getFeature](#get-feature)。 | 通过回调的FeatureEvaluationResult |
+| `isFeatureEnabled(featureKey, evaluationContext, callback)`. `FeatureEvaluationContext`携带规则的定位属性和analytics的可选标识。 请参阅[功能评估](#is-feature-enabled)。 | 通过回调的布尔值 |
+| `getFeature(featureKey, evaluationContext, callback)`. 返回给定上下文的已评估功能有效负载。 请参阅[getFeature](#get-feature)。 | 通过回调的FeatureEvaluationResult |
 | `refreshCache()` | 空白 |
 | `extensionVersion()` | 字符串 |
 

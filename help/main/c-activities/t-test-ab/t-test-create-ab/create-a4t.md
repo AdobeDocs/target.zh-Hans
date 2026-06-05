@@ -14,8 +14,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 482
-ht-degree: 16%
+source-wordcount: 492
+ht-degree: 19%
 
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 16%
 
 选择[!DNL Analytics]作为[!DNL Target]的报告源时，请选择一个[!DNL Analytics]报告包来接收[!DNL Target]活动数据。 要指定报表源，请先从您的帐户绑定的[!DNL Analytics]家公司中选择任意，然后为活动选择合适的报表包。 只有配置为连接到[!DNL Adobe Target]的报表包才可供选择。 如果您没有看到预期的报表包，请先尝试注销并重新登录到[!DNL Adobe Experience Cloud]以重试。 如果列表中仍缺少报表包，请联系客户关怀团队。
 
-[!UICONTROL Analytics for Target] (A4T)需要跟踪服务器才能正确报告结果。 [!UICONTROL Tracking Server]字段中将显示默认跟踪服务器。 如果使用多个跟踪服务器，请确保在此字段中包含正确的跟踪服务器。 有关详细信息，请参阅[使用Analytics跟踪服务器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
+[!UICONTROL Analytics for Target] (A4T)需要跟踪服务器才能正确报告结果。 默认跟踪服务器显示在[!UICONTROL 跟踪服务器]字段中。 如果使用多个跟踪服务器，请确保在此字段中包含正确的跟踪服务器。 有关详细信息，请参阅[使用Analytics跟踪服务器](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)。
 
 >[!NOTE]
 >
->如果您使用[!DNL Adobe Analytics]作为活动的报表源，并且使用的是at.js版本0.9.1（或更高版本），则无需在活动创建期间指定跟踪服务器。 at.js 库自动将跟踪服务器值发送到 [!DNL Target]。 在活动创建期间，您可以将[!UICONTROL Goals & Settings]页面上的[!UICONTROL Tracking Server]字段留空。
+>如果您使用[!DNL Adobe Analytics]作为活动的报表源，并且使用的是at.js版本0.9.1（或更高版本），则无需在活动创建期间指定跟踪服务器。 at.js 库自动将跟踪服务器值发送到 [!DNL Target]。 在活动创建期间，您可以将“[!UICONTROL 目标和设置]”页面上的“[!UICONTROL 跟踪服务器]”字段留空。
 
-在将[!DNL Analytics]设置为报表源后设置活动时，没有用于设置报表受众的选项。 [!DNL Analytics]区段在[!DNL Target] [!UICONTROL Activities]报表中可用。
+在将[!DNL Analytics]设置为报表源后设置活动时，没有用于设置报表受众的选项。 [!DNL Analytics]区段在[!DNL Target] [!UICONTROL 活动]报表中可用。
 
 您必须选择一个成功量度以用作每个活动的目标。 您的活动目标是表示活动取得成功的转化活动。 如果没有设定目标来以某种特定方式做出改进，最好不要运行测试。 您可以选择[!DNL Analytics]量度选择器中可用的任何[!DNL Analytics]量度。
 

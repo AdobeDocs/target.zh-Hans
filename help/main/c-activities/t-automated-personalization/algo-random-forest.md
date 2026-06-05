@@ -1,6 +1,6 @@
 ---
 keywords: 随机林；决策树；ap；Automated Personalization
-description: 了解 [!DNL Adobe Target] 如何在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]活动中使用随机林算法。
+description: 了解 [!DNL Adobe Target] 如何在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位]活动中使用随机林算法。
 title: ' [!DNL Target] 如何使用随机林算法？'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Automated Personalization
@@ -13,18 +13,18 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: 1458
 ht-degree: 40%
 
 ---
 
 # 随机林算法
 
-在(AP)和[!DNL Auto-Target]活动中使用的主要个性化算法是随机林。 集成方法（如随机森林）使用多种学习算法以获得比任何组成学习算法都更好的预测性能。 [!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]中的随机林算法是一种分类或回归方法，它通过训练时构造大量决策树来运行。
+在(AP)和[!DNL Auto-Target]活动中使用的主要个性化算法是随机林。 集成方法（如随机森林）使用多种学习算法以获得比任何组成学习算法都更好的预测性能。 [!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]中的随机林算法是一种分类或回归方法，它通过在训练时构造大量决策树来运行。
 
 提到统计数据时，您可能会想到使用单个回归分析模型来预测结果。 最新的数据科学研究显示，与基于单个模型进行预测相比较，“组合方法”（基于同一数据集创建多个模型，然后对这些模型进行智能合并）可产生更好的结果。
 
-随机林算法是在[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]活动中使用的关键基本个性化算法。 随机森林将数百棵决策树合并在一起，得出比一棵树单独做出更好的预测。
+随机林算法是在[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]活动中使用的关键基本个性化算法。 随机森林将数百棵决策树合并在一起，得出比一棵树单独做出更好的预测。
 
 ## 什么是决策树？ {#section_7F5865D8064447F4856FED426243FDAC}
 
@@ -57,7 +57,7 @@ ht-degree: 40%
 
 ### 如何构建模型
 
-下图总结了如何为[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动构建模型：
+下图概述了如何为[!UICONTROL 自动定位]和[!UICONTROL Automated Personalization]活动构建模型：
 
 ![random_forest_flow图像](assets/random_forest_flow.png){width="650" zoomable="yes"}
 
@@ -67,7 +67,7 @@ ht-degree: 40%
 1. [!DNL Target]检查模型是否满足阈值质量分数
 1. [!DNL Target]将模型推送到生产环境以个性化未来的流量
 
-[!DNL Target]使用它自动收集的数据以及您提供的自定义数据构建其个性化算法。 这些模型可预测要向访客显示的最佳体验或选件。 通常，每个体验（如果为[!UICONTROL Auto-Target]活动）或每个选件（如果为[!UICONTROL Automated Personalization]活动）会生成一个模型。 然后，[!DNL Target]显示产生最高预测成功量度的体验或选件（例如，转化率）。 这些模型在用于进行预测之前，必须针对随机提供的访问进行训练。 因此，在活动最初开始时，甚至会向个性化组内的访客随机显示不同的体验或选件，这种情况会一直持续到个性化算法准备就绪为止。
+[!DNL Target]使用它自动收集的数据以及您提供的自定义数据构建其个性化算法。 这些模型可预测要向访客显示的最佳体验或选件。 通常，为每个体验（如果是[!UICONTROL 自动定位]活动）或每个选件（如果是[!UICONTROL Automated Personalization]活动）构建一个模型。 然后，[!DNL Target]显示产生最高预测成功量度的体验或选件（例如，转化率）。 这些模型在用于进行预测之前，必须针对随机提供的访问进行训练。 因此，在活动最初开始时，甚至会向个性化组内的访客随机显示不同的体验或选件，这种情况会一直持续到个性化算法准备就绪为止。
 
 必须验证每个模型，以确保其在将应用于活动之前能够很好地预测访客的行为。 根据模型的“曲线下面积”(AUC)验证模型。 由于需要进行验证，因此模型开始提供个性化体验的确切时间取决于数据的详细信息。 实际上，出于流量规划目的，在每个模型生效之前，模型所使用的转化次数通常远高于最小转化次数。
 

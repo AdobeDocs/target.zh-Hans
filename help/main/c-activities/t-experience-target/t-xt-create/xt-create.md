@@ -1,7 +1,7 @@
 ---
 keywords: 体验定位；XT；创建
-description: 了解如何在 [!DNL Adobe Target] 中使用[!UICONTROL Visual Experience Composer] (VEC)来创建[!UICONTROL Experience Targeting] (XT)活动。
-title: 如何创建[!UICONTROL Experience Targeting]活动？
+description: 了解如何在 [!DNL Adobe Target] 中使用[!UICONTROL 可视化体验编辑器] (VEC)来创建[!UICONTROL 体验定位] (XT)活动。
+title: 如何创建[!UICONTROL 体验定位]活动？
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
 TQID: https://experienceleague.adobe.com/RKSF7zTO3lb4hs1VaJuTUR9v8AnOlCjHkp-whqBIcKo
@@ -15,24 +15,24 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 401
-ht-degree: 33%
+source-wordcount: 443
+ht-degree: 30%
 
 ---
 
-# 创建[!UICONTROL Experience Targeting] (XT)活动
+# 创建[!UICONTROL 体验定位] (XT)活动
 
-使用[!UICONTROL Visual Experience Composer] (VEC)在启用了[!DNL Target]的页面上创建[!UICONTROL Experience Targeting] (XT)活动，并在[!DNL Adobe Target]内修改页面的各个部分。
+使用[!UICONTROL 可视化体验编辑器] (VEC)在启用了[!DNL Target]的页面上创建[!UICONTROL 体验定位] (XT)活动，并在[!DNL Adobe Target]内修改页面的各个部分。
 
-[!UICONTROL Experience Targeting] (XT)根据一组营销人员定义的规则和条件向特定受众提供内容。
+[!UICONTROL 体验定位] (XT)根据一组营销人员定义的规则和条件向特定受众提供内容。
 
-[!UICONTROL Experience Targeting]（包括[地理定位](/help/main/c-target/c-audiences/c-target-rules/geo.md)）对于定义规则以将特定体验或内容定位到特定受众非常有用。 可以在活动中定义多个规则，以将不同的内容变体交付到不同的受众。
+[!UICONTROL 体验定位]（包括[地理定位](/help/main/c-target/c-audiences/c-target-rules/geo.md)）对于定义规则以将特定体验或内容定位到特定受众非常有用。 可以在活动中定义多个规则，以将不同的内容变体交付到不同的受众。
 
-有关[!UICONTROL Experience Targeting]、用例情景和培训视频的更多信息，请参阅[体验定位](/help/main/c-activities/t-experience-target/experience-target.md)。
+有关[!UICONTROL 体验定位]、用例情景和培训视频的更多信息，请参阅[体验定位](/help/main/c-activities/t-experience-target/experience-target.md)。
 
-**要创建[!UICONTROL Experience Targeting]活动：**
+**创建[!UICONTROL 体验定位]活动：**
 
-1. 从[!UICONTROL Activities]列表中，单击&#x200B;**[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**。
+1. 从[!UICONTROL 活动]列表中，单击&#x200B;**[!UICONTROL 创建活动]** > **[!UICONTROL 体验定位]**。
 
    >[!NOTE]
    >
@@ -42,25 +42,25 @@ ht-degree: 33%
 
 1. 根据需要选择&#x200B;**[!UICONTROL Visual]**。
 
-   如果您希望使用[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)，请选择[!UICONTROL Form]。
+   如果您希望使用[基于表单的体验编辑器](/help/main/c-experiences/form-experience-composer.md)，请选择[!UICONTROL 表单]。
 
    >[!NOTE]
    >
-   >除了VEC和[!UICONTROL Form-Based Experience Composer]之外，[!DNL Target]还提供单页应用程序VEC。 有关各种编辑器的更多信息，请参阅[体验和产品建议](/help/main/c-experiences/experiences.md)。
+   >除了VEC和[!UICONTROL 基于表单的体验编辑器]之外，[!DNL Target]还提供单页应用程序VEC。 有关各种编辑器的更多信息，请参阅[体验和产品建议](/help/main/c-experiences/experiences.md)。
    >
    >有关VEC的故障诊断信息，请参阅[可视化体验编辑器故障诊断](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)。
 
 1. （视情况而定）如果您是[!DNL Target Premium]客户，请[选择一个工作区](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。
 
-   [!UICONTROL Choose Workplace]选项是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您看不到此选项，则表明贵组织具有[!DNL Target Standard]许可证。
+   [!UICONTROL 选择工作区]选项是[Target Premium](/help/main/c-intro/intro.md)功能。 如果您看不到此选项，则表明贵组织具有[!DNL Target Standard]许可证。
 
-1. 指定您的[活动URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然后单击&#x200B;**[!UICONTROL Create]**。
+1. 指定您的[活动URL](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)，然后单击&#x200B;**[!UICONTROL 创建]**。
 
    如果您的帐户[配置了默认 URL](/help/main/administrating-target/visual-experience-composer-set-up.md)，则默认情况下将显示该 URL。 您可以根据需要将默认 URL 更改为其他 URL。
 
    此时会打开 VEC，其中显示了在 URL 中指定的页面。
 
-1. 要命名活动，请单击“[!UICONTROL Untitled Activity]”旁边的&#x200B;**[!UICONTROL Edit]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)），为活动指定描述性名称，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 要命名该活动，请单击“[!UICONTROL 无标题的活动]”旁边的&#x200B;**[!UICONTROL 编辑]**&#x200B;图标（![编辑图标](/help/main/assets/icons/Edit.svg)），指定该活动的描述性名称，然后单击&#x200B;**[!UICONTROL 保存]**。
 
    活动名称不能以下列任何字符开头：
 

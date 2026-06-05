@@ -6,8 +6,8 @@ feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 64%
+source-wordcount: '436'
+ht-degree: 68%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->除了选择现有受众之外，您还可以合并多个受众来创建临时组合受众，而不是创建新受众。有关更多信息，请参阅[合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
+>除了选择现有受众之外，您还可以合并多个受众来创建临时组合受众，而不是创建新受众。 有关更多信息，请参阅[合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)。
 
-1. 在[!UICONTROL Audience]框中，单击&#x200B;**[!UICONTROL Edit]**&#x200B;图标（垂直省略号），然后单击&#x200B;**[!UICONTROL Replace Audience]**。
+1. 在[!UICONTROL 受众]框中，单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标（垂直省略号），然后单击&#x200B;**[!UICONTROL 替换受众]**。
 
    ![“替换受众”选项](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-   默认情况下，所有访客都是您的受众。但是，您可以更改受众。您可以从受众库中选择受众，也可以创建仅限该活动的受众。受众库中包含以前定义的受众，其中包括作为[!DNL Target]的一部分预先构建的一些常用受众。
+   默认情况下，所有访客都是您的受众。 但是，您可以更改受众。 您可以从受众库中选择受众，也可以创建仅限该活动的受众。 受众库中包含以前定义的受众，其中包括作为 [!DNL Target] 的一部分预先构建的一些常用受众。
 
 1. 选择或创建所需受众：
 
@@ -32,15 +32,15 @@ ht-degree: 64%
    * [创建新受众](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
    * [创建仅限该活动的受众](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)。
 
-   对于没有特定受众定位的A/B测试，请选择默认值[!UICONTROL All Visitors]。
+   对于没有特定受众定位的A/B测试，请选择默认值[!UICONTROL 所有访客]。
 
-   您还可以通过在[!UICONTROL Add Audience]对话框中将鼠标悬停在所需受众上来编辑或复制受众，如下所示。
+   您还可以通过在[!UICONTROL 添加受众]对话框中将鼠标悬停在所需受众上来编辑或复制受众，如下所示。
 
-   如果您想要创建一个与现有受众类似的受众，则复制受众很有用。您可以制作受众的副本，对其进行编辑，然后将其另存为新受众。其他类型的活动中也提供了这一鼠标悬停功能。
+   如果您想要创建一个与现有受众类似的受众，则复制受众很有用。 您可以制作受众的副本，对其进行编辑，然后将其另存为新受众。 其他类型的活动中也提供了这一鼠标悬停功能。
 
    ![受众悬停](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
-   在创建受众时，您可以选择一个位置 (mbox) 并指定该位置的参数。在[!UICONTROL Custom Parameters]下，选择mbox，然后指定所需的参数。
+   在创建受众时，您可以选择一个位置 (mbox) 并指定该位置的参数。 在[!UICONTROL 自定义参数]下，选择mbox，然后指定所需的参数。
 
    >[!NOTE]
    >

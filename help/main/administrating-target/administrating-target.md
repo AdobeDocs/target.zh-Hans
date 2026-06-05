@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: 94
+source-wordcount: 96
 ht-degree: 12%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 12%
 
 {{permissions-update}}
 
-要访问[!UICONTROL Administration]菜单项，请单击顶部菜单栏中的&#x200B;**[!UICONTROL Administration]**，然后单击左侧的所需选项卡：
+要访问[!UICONTROL 管理]菜单项，请单击顶部菜单栏中的&#x200B;**[!UICONTROL 管理]**，然后单击左侧的所需选项卡：
 
 * [可视化体验编辑器](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [报表](/help/main/administrating-target/reporting.md)

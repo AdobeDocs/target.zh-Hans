@@ -13,19 +13,19 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 180
+source-wordcount: 190
 ht-degree: 12%
 
 ---
 
 # 活动更改日志
 
-[!DNL Adobe Target] [!UICONTROL Change Log]记录活动操作，包括更改的内容、更改者以及更改发生的时间。 已填充[!UICONTROL Change Log]页面以进行实时分析。
+[!DNL Adobe Target] [!UICONTROL 更改日志]记录活动操作，包括更改内容、更改人员和更改时间。 已填充[!UICONTROL 更改日志]页面以进行实时分析。
 
-要访问[!UICONTROL Change Log]页面，请执行以下操作：
+要访问[!UICONTROL 更改日志]页，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL Activities]** >从列表中单击所需的活动。
-1. 单击左边栏中的&#x200B;**[!UICONTROL Change Log]**。
+1. 单击&#x200B;**[!UICONTROL 活动]** >从列表中单击所需的活动。
+1. 单击左边栏中的&#x200B;**[!UICONTROL 更改日志]**。
 
 每次创建、更新、激活或停用活动时，都会列出执行的操作、执行操作的日期以及执行操作的用户。 此外，还会列出对活动中使用的自定义目标和选件所做的更改。
 

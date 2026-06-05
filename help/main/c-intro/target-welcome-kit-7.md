@@ -16,8 +16,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 71%
+source-wordcount: 1742
+ht-degree: 70%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 71%
 
 需要将一定数量的访客放入测试群体，才能从测试得出具有统计学意义的结论。 试想，如果只有两个人参与您的测试，您对于结果是否还有把握？
 
-[!DNL Target] 依靠统计学原理确定测试结果在统计学上有效。 [!DNL Adobe Target] [样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)可帮助您根据对结果的置信度确定运行测试的时间长度。 单击此框中的[!UICONTROL Learn More]链接以打开并使用计算器。
+[!DNL Target] 依靠统计学原理确定测试结果在统计学上有效。 [!DNL Adobe Target] [样本量计算器](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)可帮助您根据对结果的置信度确定运行测试的时间长度。 单击此框中的[!UICONTROL 了解更多]链接以打开并使用计算器。
 
 ### 此活动有多重要？
 
@@ -117,4 +117,4 @@ ht-degree: 71%
 
 ## 打开 [!DNL Target]，然后创建并启动您的活动
 
-您已填写Activity Planner。 现在，您应该进入解决方案并构建您的活动。 [!DNL Target]使得在[!UICONTROL Visual Experience Composer]中修改网页变得非常简单。
+您已填写Activity Planner。 现在，您应该进入解决方案并构建您的活动。 [!DNL Target]使得在[!UICONTROL 可视化体验编辑器]中修改网页变得非常简单。

@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
 workflow-type: tm+mt
-source-wordcount: 446
-ht-degree: 60%
+source-wordcount: 459
+ht-degree: 58%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 60%
 
 ## [!DNL Target Standard/Premium] 26.5.3（2026年5月21日）
 
-**[!UICONTROL What's new]页**
+**[!UICONTROL 新增功能]页面**
 
 +++查看详细信息
 
-* **新[!UICONTROL What's new]页面。** 在[!DNL Adobe Target] UI中添加了一个新的&#x200B;**[!UICONTROL What's new]**&#x200B;页面，可帮助您在不离开产品的情况下发现最新功能、增强功能和更新。 (TGT-55137)
+* **新[!UICONTROL 新增功能]页面。** 在[!DNL Adobe Target] UI中添加了一个新的&#x200B;**[!UICONTROL 新增功能]**&#x200B;页面，可帮助您在不离开产品的情况下发现最新功能、增强功能和更新。 (TGT-55137)
 
 +++
 
@@ -45,7 +45,7 @@ ht-degree: 60%
 
 +++查看详细信息
 
-* **在[!UICONTROL Automated Personalization]活动中编辑定位时选择了错误的体验。** 修复了在[!UICONTROL Automated Personalization] (AP)活动中编辑&#x200B;**[!UICONTROL Targeting]**&#x200B;步骤时可能选择错误体验的问题。 (TGT-55176)
+* **在[!UICONTROL Automated Personalization]活动中编辑定位时选择了错误的体验。** 修复了在[!UICONTROL Automated Personalization] (AP)活动中编辑&#x200B;**[!UICONTROL 定位]**&#x200B;步骤时可能选择错误体验的问题。 (TGT-55176)
 
 * **关闭计划活动时的较早日期。** 修复了导致无法选择较早日期关闭计划活动的问题。 (TGT-55163)
 

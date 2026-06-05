@@ -18,7 +18,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 633
+source-wordcount: 637
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 2%
 
   在指定时段后，[!DNL Journey Optimizer]中的自定义操作会调用[!DNL Target Recommendations]，以确定每个访客使用每个访客的[!DNL Adobe Experience Cloud Identifier] (EDID)、访客的[!DNL Target]配置文件和基于用户的[算法，查看了哪些项目。 &#x200B;](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) [!DNL Adobe Journey Optimizer]随后向符合条件的受众的每个成员发送一封个性化电子邮件，其中包含每个访客查看项目的图像和链接，以便让访客返回并进行购买。
 
-  在此方案中，[!UICONTROL Experience Cloud Visitor ID] (ECID)和每个访客的[!DNL Target]配置文件的内容用于根据最近查看的算法生成推荐。
+  在此方案中，[!UICONTROL Experience Cloud访客ID] (ECID)和每个访客的[!DNL Target]配置文件的内容用于根据最近查看的算法生成推荐。
 
   例如，假设一位访客访问了一个零售网站并查看了一些手表。 此访客的[!DNL Target]配置文件已更新，其中包含已查看监视项目的列表。 使用ECID和访客的[!DNL Target]配置文件，[!DNL Target]将推荐发送至[!DNL Journey Optimizer]。 [!DNL Journey Optimizer]然后发送一封电子邮件，其中包含该访客使用最近查看的算法查看的监视项目的图像和链接。 另一个访客会收到一封个性化电子邮件，其中包含该访客所查看项目的图像和链接。 对于每个访客，每个电子邮件都会进行个性化设置。
 

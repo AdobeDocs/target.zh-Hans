@@ -28,7 +28,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1476
+source-wordcount: 1509
 ht-degree: 55%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 55%
 
 对于在[!DNL Adobe Admin Console for Enterprise]中执行的那些任务，请按以下步骤访问该控制台：
 
-1. 在Adobe Target中，单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Assign Properties to Workspaces]**。
+1. 在Adobe Target中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 属性]** > **[!UICONTROL 将属性分配给工作区]**。
 
    或
 
@@ -65,9 +65,9 @@ ht-degree: 55%
 
 ## 步骤 1. 添加用户（可选） {#section_A92AF0F921B743FEB9E9033433BD816A}
 
-当您开始使用新的[!UICONTROL Properties]功能时，必须在[!DNL Adobe Admin Console for Enterprise]中执行所有用户管理。 但是，[!DNL Target] 中的所有现有用户都将从 [!DNL Target] 迁移到 [!DNL Admin Console for Enterprise]。
+当您开始使用新的[!UICONTROL 属性]功能时，必须在[!DNL Adobe Admin Console for Enterprise]中执行所有用户管理。 但是，[!DNL Target] 中的所有现有用户都将从 [!DNL Target] 迁移到 [!DNL Admin Console for Enterprise]。
 
-1. [在Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)中，单击页面顶部的&#x200B;**[!UICONTROL Users]**&#x200B;选项卡> **[!UICONTROL Add Users]**&#x200B;以创建新用户或编辑现有用户。
+1. [在Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE)中，单击页面顶部的&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡> **[!UICONTROL 添加用户]**&#x200B;以创建新用户或编辑现有用户。
 1. 按照企业用户指南&#x200B;**&#x200B;的[在 Experience Cloud 中管理用户和组](https://helpx.adobe.com/cn/enterprise/help/users.html)中的说明进行操作。
 
 ## 步骤 2. 创建工作区（产品配置文件） {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -80,7 +80,7 @@ ht-degree: 55%
 
 用户可以包含在多个工作区中，甚至可以在每个工作区拥有不同的角色。
 
-1. 在[!DNL Admin Console]中，单击&#x200B;**[!UICONTROL Products]**，然后选择所需产品的名称。
+1. 在[!DNL Admin Console]中，单击&#x200B;**[!UICONTROL 产品]**，然后选择所需产品的名称。
 
    ![工作区](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -106,7 +106,7 @@ ht-degree: 55%
 
 您需要传递工作区 ID 才能使用 [Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank} 中的企业权限。
 
-1. 在[Adobe Admin Console](https://adminconsole.adobe.com)中，单击[!UICONTROL Products]选项卡，然后单击左侧菜单中的产品以显示PLC（工作区）列表。
+1. 在[Adobe Admin Console](https://adminconsole.adobe.com)中，单击[!UICONTROL 产品]选项卡，然后单击左侧菜单中的产品以显示PLC（工作区）列表。
 1. 单击所需的 PLC（工作区），然后在 URL 中找到“轮廓”ID，如下所示。
 
    ![workspaceID](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
@@ -115,7 +115,7 @@ ht-degree: 55%
 
 您可以创建用户组（例如开发人员、分析师、营销人员、管理人员等），然后为其分配多个 Adobe 产品和工作区中的相应权限。 为新团队成员分配不同 Adobe 产品中的所有相应权限的过程就像将他们添加到某个特定用户组一样简单。
 
-1. 在Admin Console中，单击页面顶部的&#x200B;**[!UICONTROL Users]**&#x200B;选项卡> **[!UICONTROL User Groups]**&#x200B;以创建新用户组或编辑现有用户组。
+1. 在Admin Console中，单击页面顶部的&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡> **[!UICONTROL 用户组]**&#x200B;以创建新用户组或编辑现有用户组。
 1. 按照《企业用户指南》**&#x200B;的[管理产品配置的用户和组](https://helpx.adobe.com/cn/enterprise/help/manage-products-and-configurations.html)中的说明进行操作。
 
 ## 步骤 4. 创建属性 {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
@@ -126,7 +126,7 @@ ht-degree: 55%
 
 **提示**：请观看下方的视频，以了解有关如何创建属性的更多信息。
 
-1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Properties]**&#x200B;以显示[!UICONTROL Properties]列表。
+1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 属性]**&#x200B;以显示[!UICONTROL 属性]列表。
 1. 单击&#x200B;**创建属性**。
 
    填写以下字段：
@@ -135,8 +135,8 @@ ht-degree: 55%
    * **描述：**&#x200B;为属性指定可选描述。
    * **渠道：**&#x200B;为属性选择所需的渠道：Web、移动设备应用程序、电子邮件或其他/API（例如机顶盒或 PlayStation 游戏机）。
 
-1. 单击&#x200B;**[!UICONTROL Copy]**&#x200B;将代码复制到剪贴板，在执行[5：更新您的实现以包含at_property参数](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)中的步骤时将使用该代码。
-1. 完成后单击&#x200B;**[!UICONTROL Save]**。
+1. 单击&#x200B;**[!UICONTROL 复制]**&#x200B;以将代码复制到剪贴板，在[5：更新您的实现以包含at_property参数](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)中执行步骤时将使用该代码。
+1. 完成后单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!NOTE]
 >请观看下面的视频，以了解有关创建属性的更多信息。
@@ -151,9 +151,9 @@ ht-degree: 55%
 
    或
 
-   在[!DNL Target]中，单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Properties]**&#x200B;以显示[!UICONTROL Properties]列表。
+   在[!DNL Target]中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 属性]**&#x200B;以显示[!UICONTROL 属性]列表。
 
-   1. 将鼠标指针悬停在要显示的所需属性的[!UICONTROL Last Updated]列上，然后单击[!UICONTROL Code]图标（ ![代码图标](/help/main/assets/icons/Code.svg) ）。
+   1. 将鼠标指针悬停在要显示的所需属性的[!UICONTROL 上次更新时间]列上，然后单击[!UICONTROL 代码]图标（![代码图标](/help/main/assets/icons/Code.svg)）。
 
       ![属性悬停代码](/help/main/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
@@ -183,7 +183,7 @@ ht-degree: 55%
 
 ## 步骤6：指定角色和权限 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
-1. 在Admin Console中，单击&#x200B;**[!UICONTROL Products]**，然后选择所需产品的名称。
+1. 在 Admin Console 中，单击&#x200B;**[!UICONTROL 产品]**，然后选择所需产品的名称。
 
    ![工作区](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
@@ -191,13 +191,13 @@ ht-degree: 55%
 
    ![默认工作区](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
-1. 单击 **[!UICONTROL Users]**。
+1. 单击&#x200B;**[!UICONTROL 用户]**。
 
-   [!UICONTROL Users]选项卡会显示该工作区中的所有用户。
+   [!UICONTROL 用户]选项卡显示该工作区中的所有用户。
 
    ![配置用户](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. 使用[!UICONTROL Product Role]列中每个用户的下拉列表选择所需的权限角色（审批者、编辑者、观察者或发布者）。
+1. 使用[!UICONTROL 产品角色]列中每个用户的下拉列表选择所需的权限角色（审批者、编辑者、观察者或发布者）。
 
    ![“产品角色”下拉列表](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
@@ -216,7 +216,7 @@ ht-degree: 55%
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL Administration]菜单UI（以前为[!UICONTROL Setup]）已重新设计，以提供更好的性能、缩短发布新功能时所需的维护时间并改善整个产品的用户体验。 以下视频中的信息通常正确；但是，选项可能位于不同的位置。 更新后的视频很快就会发布。
+>[!DNL Target] [!UICONTROL 管理]菜单UI（以前称为[!UICONTROL 安装程序]）已重新设计，以提供改进的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。 以下视频中的信息通常正确；但是，选项可能位于不同的位置。 更新后的视频很快就会发布。
 
 ### 如何配置Adobe Target工作区(6:55) ![教程徽章](/help/main/assets/tutorial.png)
 

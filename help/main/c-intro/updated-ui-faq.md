@@ -21,14 +21,14 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1904
+source-wordcount: 2013
 ht-degree: 1%
 
 ---
 
 # [!DNL Target]用户界面更新常见问题解答
 
-[!DNL Adobe Target]用户界面重新设计于2025年推出，可为所有用户提供更清晰、更直观的体验。 此常见问题解答涵盖[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的关键更新，包括导航更改、功能放置和移除临时UI切换。 无论您是营销人员、开发人员还是管理员，它都是您实现平稳过渡和智能工作流的指南。
+[!DNL Adobe Target]用户界面重新设计于2025年推出，可为所有用户提供更清晰、更直观的体验。 此常见问题解答涵盖对[!DNL Target] UI和[!UICONTROL 可视化体验编辑器] (VEC)的关键更新，包括导航更改、功能放置和移除临时UI切换。 无论您是营销人员、开发人员还是管理员，它都是您实现平稳过渡和智能工作流的指南。
 
 ## 是否更新了弃用Target UI版本切换的时间表？
 
@@ -71,12 +71,12 @@ ht-degree: 1%
 
 ### 更多资源以了解更新的UI
 
-* [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)：此常见问题解答关于新[!DNL Target] UI和[!UICONTROL Visual Experience Composer] (VEC)的常见问题，包括导航更改、功能位置以及弃用临时UI版本切换。 无论您是营销人员、开发人员还是管理员，此常见问题解答都可以帮助您顺利过渡并充分利用更新后的UI。
-* [[!DNL Target Standard/Premium] 25.2.1（2025年2月17日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!DNL Target]中[!UICONTROL Activities]、[!UICONTROL Recommendations]和[!UICONTROL Visual Experience Composer] (VEC)的关键UI更改的摘要。
-* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!UICONTROL Offers Library]在[!DNL Target]中关键UI更改的摘要。
+* [[!DNL Target] UI更新常见问题解答](/help/main/c-intro/updated-ui-faq.md)：此常见问题解答是关于新的[!DNL Target] UI和[!UICONTROL 可视化体验编辑器] (VEC)的常见问题，包括导航更改、功能位置以及弃用临时UI版本切换。 无论您是营销人员、开发人员还是管理员，此常见问题解答都可以帮助您顺利过渡并充分利用更新后的UI。
+* [[!DNL Target Standard/Premium] 25.2.1（2025年2月17日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)：提供[!UICONTROL 活动]、[!UICONTROL 推荐]和[!UICONTROL 可视化体验编辑器] (VEC)在[!DNL Target]中的主要UI更改摘要。
+* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!UICONTROL 选件库]在[!DNL Target]中关键UI更改的摘要。
 * [了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供简要概述以帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
-* [[!UICONTROL Visual Experience Composer]更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)： [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）引入了更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文介绍VEC旧版本与更新版本之间的差异。
-* [[!UICONTROL Visual Experience Composer]选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文介绍更新的VEC UI及其选项。
+* [[!UICONTROL 可视化体验编辑器]更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)： [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）引入了更新的[!UICONTROL 可视化体验编辑器] (VEC)。 本文介绍VEC旧版本与更新版本之间的差异。
+* [[!UICONTROL 可视化体验编辑器]选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文介绍更新的VEC UI及其选项。
 
 +++
 
@@ -85,20 +85,20 @@ ht-degree: 1%
 +++详细信息
 以下资源提供了有关已更新[!DNL Target] UI的详细信息的信息：
 
-* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!UICONTROL Offers Library]在[!DNL Target]中关键UI更改的摘要。
+* [[!DNL Target Standard/Premium] 25.1.1（2025年1月9日）发行说明](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)：提供[!UICONTROL 选件库]在[!DNL Target]中关键UI更改的摘要。
 
 * [了解 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)：提供简要概述以帮助您熟悉[!DNL Target]，并提供更深入的信息和分步说明的链接。
 
-* [[!UICONTROL Visual Experience Composer]更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)： [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）引入了更新的[!UICONTROL Visual Experience Composer] (VEC)。 本文介绍VEC旧版本与更新版本之间的差异。
+* [[!UICONTROL 可视化体验编辑器]更改](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)： [!DNL Adobe Target Standard/Premium] 25.2.1版本（2015年2月17日）引入了更新的[!UICONTROL 可视化体验编辑器] (VEC)。 本文介绍VEC旧版本与更新版本之间的差异。
 
-* [[!UICONTROL Visual Experience Composer]选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文介绍更新的VEC UI及其选项。
+* [[!UICONTROL 可视化体验编辑器]选项](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)：本文介绍更新的VEC UI及其选项。
 
 +++
 
-## 更新的UI是否对所有当前[!DNL Target]客户（[!UICONTROL Standard]和[!UICONTROL Premium]）都可用？
+## 更新的UI是否对所有当前[!DNL Target]客户（[!UICONTROL Standard]和[!UICONTROL Premium]）可用？
 
 +++详细信息
-更新后的UI对所有[!DNL Target]客户[!UICONTROL Standard]和[!UICONTROL Premium]都可用。 无需升级许可证或SKU。
+更新的UI适用于所有[!DNL Target]客户，[!UICONTROL Standard]和[!UICONTROL Premium]。 无需升级许可证或SKU。
 
 有关转出和弃用临时UI版本切换的详细信息，请参阅[您需要了解的时间性更新](/help/main/r-release-notes/release-notes.md#time-sensitive)。
 
@@ -138,11 +138,11 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 ## 更新后的VEC如何处理重新排列、调整大小、移动、隐藏和删除选项，这些选项与旧版VEC有何不同？ {#options}
 
 +++详细信息
-**[!UICONTROL Rearrange*]*：在旧版VEC中，重新排列选项使用叠加来允许用户重新定位其同级组中的元素。 迁移仅限于更改同级元素之间的顺序。
+**[!UICONTROL 重新排列*]*：在旧版VEC中，重新排列选项使用覆盖来允许用户重新定位其同级组中的元素。 迁移仅限于更改同级元素之间的顺序。
 
 在更新的VEC中，此功能通过向前移动和向后移动操作进行了简化。 这些控件通过按栈叠顺序向前或向后移动元素来调整元素在布局中的位置（水平或垂直）。
 
-**调整大小**： [!UICONTROL Resize]功能位于[!UICONTROL Size]部分下的[!UICONTROL Properties]面板中。 用户可以直接调整元素的宽度和高度。 高级设置包括：
+**调整大小**： [!UICONTROL 调整大小]功能位于[!UICONTROL 大小]部分下的[!UICONTROL 属性]面板中。 用户可以直接调整元素的宽度和高度。 高级设置包括：
 
 * 最小/最大宽度和高度控件
 * 溢出行为设置。
@@ -150,48 +150,48 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 
 这些工具可精确控制元素维度和布局行为。
 
-**移动**：在[!UICONTROL Position]部分下的[!UICONTROL Properties]面板中找到[!UICONTROL Move]选项。 此选项使用户能够：
+**移动**：在[!UICONTROL 位置]部分下的[!UICONTROL 属性]面板中找到[!UICONTROL 移动]选项。 此选项使用户能够：
 
 * 设置元素的位置（例如，绝对、相对、固定）
 * 定义用于分层的z索引
 * 选择定位类型
 
-更新的[!UICONTROL Properties]边栏还支持自定义内联样式，在预设选项无法满足布局需求时提供灵活性。
+更新的[!UICONTROL 属性]边栏还支持自定义内联样式，在预设选项无法满足布局需求时提供灵活性。
 
-**[!UICONTROL Hide]**： [!UICONTROL Hide]功能位于[!UICONTROL Properties]面板中。 选择某个元素后，单击[!UICONTROL Hide Element]可将其从视图中删除而不将其删除。 这有助于在设计或预览期间管理可见性。
+**[!UICONTROL 隐藏]**： [!UICONTROL 隐藏]功能位于[!UICONTROL 属性]面板中。 选择某个元素后，单击[!UICONTROL 隐藏元素]以将其从视图中删除而不将其删除。 这有助于在设计或预览期间管理可见性。
 
-**[!UICONTROL Remove]**： [!UICONTROL Remove]功能可通过[!UICONTROL Properties]面板访问。 选择元素后，单击删除元素可从页面中删除该元素。 此操作将从布局中永久删除元素。
+**[!UICONTROL 删除]**： [!UICONTROL 删除]功能可通过[!UICONTROL 属性]面板访问。 选择元素后，单击删除元素可从页面中删除该元素。 此操作将从布局中永久删除元素。
 
 +++
 
-## 我可以折叠[!UICONTROL Components]、[!UICONTROL Modifications]和[!UICONTROL Properties]边栏以放大[!UICONTROL Design]面板吗？ {#collapse}
+## 我可以折叠[!UICONTROL 组件]、[!UICONTROL 修改]和[!UICONTROL 属性]边栏以便放大[!UICONTROL 设计]面板吗？ {#collapse}
 
 +++详细信息
 
-可以，您可以折叠这些边栏以允许您展开[!UICONTROL Design]画布以便于编辑。 以下是具体操作方法：
+可以，您可以折叠这些边栏以允许您展开[!UICONTROL 设计]画布以便于编辑。 以下是具体操作方法：
 
 >[!NOTE]
 >
->[!UICONTROL Show Components]图标（![显示组件图标](/help/main/assets/icons/Add.svg)）和[!UICONTROL Show Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg)）用作显示相应选项的切换。
+>[!UICONTROL 显示组件]图标（![显示组件图标](/help/main/assets/icons/Add.svg)）和[!UICONTROL 显示修改]图标（![显示修改边栏](/help/main/assets/icons/History.svg)）用作切换以显示相应的选项。
 
-**折叠[!UICONTROL Components]边栏**
+**折叠[!UICONTROL 组件]边栏**
 
-要折叠[!UICONTROL Components]边栏并放大[!UICONTROL Design]画布，请在[!UICONTROL Components]边栏打开时单击（![显示组件图标](/help/main/assets/icons/Add.svg) ）图标。
+要折叠[!UICONTROL 组件]边栏并放大[!UICONTROL 设计]画布，请在[!UICONTROL 组件]边栏打开时单击（![显示组件图标](/help/main/assets/icons/Add.svg) ）图标。
 
-**折叠[!UICONTROL Modifications]边栏**
+**折叠[!UICONTROL 修改]边栏**
 
-要在[!UICONTROL Modifications]边栏打开时折叠[!UICONTROL Modifications]边栏并放大[!UICONTROL Design]画布，请单击[!UICONTROL Show Modifications]图标（![显示修改边栏](/help/main/assets/icons/History.svg) ）图标。
+要折叠[!UICONTROL 修改]边栏并放大[!UICONTROL 设计]画布，同时打开[!UICONTROL 修改]边栏，请单击[!UICONTROL 显示修改]图标（![显示修改边栏](/help/main/assets/icons/History.svg)）图标。
 
-**折叠[!UICONTROL Properties]边栏**
+**折叠[!UICONTROL 属性]边栏**
 
-要折叠[!UICONTROL Properties]边栏并放大[!UICONTROL Design]画布，请单击边栏右侧的[!UICONTROL Show/Hide Properties]图标（![属性图标](/help/main/assets/icons/Propertie.svg)）以折叠或显示[!UICONTROL Properties]边栏。
+若要折叠[!UICONTROL 属性]边栏并放大[!UICONTROL 设计]画布，请单击边栏右侧的[!UICONTROL 显示/隐藏属性]图标（![属性图标](/help/main/assets/icons/Propertie.svg)）以折叠或显示[!UICONTROL 属性]边栏。
 
 +++
 
-## [!UICONTROL Save as Draft]和[!UICONTROL Syncing]状态是否仍然可用？
+## [!UICONTROL 另存为草稿]和[!UICONTROL 正在同步]状态是否仍然可用？
 
 +++详细信息
-随着用户界面的最新更新，[!UICONTROL Save as Draft]和[!UICONTROL Syncing]状态将不再可用。 有关详细信息，请参阅&#x200B;*[!UICONTROL Activities overview]*&#x200B;中[将筛选器应用到“活动”列表](/help/main/c-activities/activities.md#filters)下的状态。
+随着用户界面的最新更新，[!UICONTROL 另存为草稿]和[!UICONTROL 正在同步]状态将不再可用。 有关详细信息，请参阅&#x200B;*[!UICONTROL 活动概述]*&#x200B;中的[将筛选器应用到“活动”列表](/help/main/c-activities/activities.md#filters)下的状态。
 
 +++
 
@@ -205,21 +205,21 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 ## 在旧版中创建选件与更新的UI之间有何区别？ 是否需要其他属性？
 
 +++详细信息
-[!UICONTROL Offer Library] UI要求所有选件具有一致的属性定义。 创建仅限该活动（临时）的选件时，用户还必须指定选件名称。 此信息显示在[!UICONTROL Form-based Experience Composer]中，这样无需查看代码或内容即可更轻松地识别选件。
+[!UICONTROL 选件库] UI要求所有选件具有一致的属性定义。 创建仅限该活动（临时）的选件时，用户还必须指定选件名称。 此信息显示在[!UICONTROL 基于表单的体验编辑器]中，这样无需查看代码或内容即可更轻松地识别选件。
 
 +++
 
 ## 更新后的UI中的优惠预览链接发生了什么情况？
 
 +++详细信息
-[!UICONTROL Experience Fragment]预览链接在[!UICONTROL Quick Info]弹出框中可用，单击与所选片段对应的信息图标（ ![信息图标](/help/main/assets/icons/InfoOutline.svg)）时显示。
+[!UICONTROL 体验片段]预览链接在[!UICONTROL 快速信息]弹出框中可用，单击与所选片段对应的信息图标（![信息图标](/help/main/assets/icons/InfoOutline.svg)）时会显示该弹出框。
 
 +++
 
-## 使用更新的UI编辑现有活动时，必须禁用[!UICONTROL Enhanced Experience Composer]。 [!DNL Adobe]是否观察到与其他客户类似的行为？
+## 使用更新的UI编辑现有活动时，我必须禁用[!UICONTROL 增强型体验编辑器]。 [!DNL Adobe]是否观察到与其他客户类似的行为？
 
 +++详细信息
-是. 使用[!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension]时，您可能需要禁用[!UICONTROL Enhanced Experience Composer] (EEC) 。
+是. 使用[!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension]时，您可能需要禁用[!UICONTROL 增强型体验编辑器] (EEC) 。
 
 有关更多信息，请参阅[可视化编辑帮助程序扩展](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)。
 
@@ -231,14 +231,14 @@ UI版本切换是一项临时功能，允许您使用切换按钮在更新的[!D
 有关可以允许列表的IP地址的详细信息，请参阅以下文章：
 
 * **增强型体验编辑器(EEC)**：请参阅[在&#x200B;*解决与增强型体验编辑器相关的问题*&#x200B;中，EEC无法加载在公共IP上不可访问的内部QA URL](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)
-* **[!UICONTROL Recommendations]**：查看推荐信息源处理服务器使用的[IP地址](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)。
+* **[!UICONTROL 推荐]**：查看[推荐信息源处理服务器使用的IP地址](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)。
 
 +++
 
 ## 默认情况下，环境会在新的推荐UI上重置为暂存环境吗？
 
 +++详细信息
-环境现在默认为客户使用的最后一个环境。 要切换环境，请使用[!UICONTROL Catalog Search] UI右上角的[!UICONTROL Environment]选择器。
+环境现在默认为客户使用的最后一个环境。 要切换环境，请使用[!UICONTROL 目录搜索] UI右上角的[!UICONTROL 环境]选择器。
 
 ![环境开关](/help/main/c-intro/assets/environmnent.png)
 

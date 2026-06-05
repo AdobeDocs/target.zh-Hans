@@ -1,7 +1,7 @@
 ---
 keywords: 目录搜索；目录；搜索；排除项；收藏集；过滤器；推荐
-description: 了解如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]查找产品或内容、从目录中删除项目等。
-title: 如何使用 [!DNL Recommendations] [!UICONTROL Catalog Search]？
+description: 了解如何使用 [!DNL Recommendations] [!UICONTROL 目录搜索]来查找产品或内容，从目录中删除项目等等。
+title: 如何使用 [!DNL Recommendations] [!UICONTROL 目录搜索]？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
@@ -13,28 +13,28 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 519
-ht-degree: 22%
+source-wordcount: 552
+ht-degree: 21%
 
 ---
 
-# [!UICONTROL Catalog Search]
+# [!UICONTROL 目录搜索]
 
-[!DNL Adobe Recommendations]中的[!UICONTROL Catalog Search]页面可帮助您在目录中查找产品或内容。 您可以在此页面上执行的最基本任务是搜索项目。 此外，您还可以更改环境、筛选Facet、修改表中的列、添加新搜索Facet等。
+[!DNL Adobe Recommendations]中的[!UICONTROL 目录搜索]页面可帮助您在目录中查找产品或内容。 您可以在此页面上执行的最基本任务是搜索项目。 此外，您还可以更改环境、筛选Facet、修改表中的列、添加新搜索Facet等。
 
 目录指代您的整个产品集（实体）。 您的目录可以包含许多收藏集，这是一种在逻辑存储桶中组织产品的方法。
 
-## 访问[!UICONTROL Catalog Search]
+## 访问[!UICONTROL 目录搜索]
 
-1. 要访问[!UICONTROL Catalog Search]页面，请单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**。
+1. 要访问[!UICONTROL 目录搜索]页面，请单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 目录搜索]**。
 
-1. （可选）要将过滤器应用于搜索，请单击&#x200B;**[!UICONTROL Show Filters]**&#x200B;图标（ ![显示过滤器图标](/help/main/assets/icons/Filter.svg) ）。 您可以按[!UICONTROL Environment]、[!UICONTROL Collections]、[!UICONTROL Category]、[!UICONTROL Brand]、[!UICONTROL Inventory]和[!UICONTROL Value]进行筛选。
+1. （可选）要将筛选器应用于搜索，请单击&#x200B;**[!UICONTROL 显示筛选器]**&#x200B;图标（![显示筛选器图标](/help/main/assets/icons/Filter.svg)）。 您可以按[!UICONTROL 环境]、[!UICONTROL 收藏集]、[!UICONTROL 类别]、[!UICONTROL 品牌]、[!UICONTROL 库存]和[!UICONTROL 值]进行筛选。
 
 ## 执行简单搜索
 
-1. 在&#x200B;**[!UICONTROL Search In]**&#x200B;字段中键入搜索词。
+1. 在&#x200B;**[!UICONTROL 搜索范围]**&#x200B;字段中键入搜索词。
 
-1. （可选）您可以通过从单击[!UICONTROL Search In]字段中的向下箭头时显示的选项菜单中选择搜索选项来优化搜索。
+1. （可选）您可以优化搜索，方法是单击[!UICONTROL 搜索范围]字段中的向下箭头，然后从显示的选项菜单中选择搜索选项。
 
    搜索选项包括：
 
@@ -84,7 +84,7 @@ You can use [!UICONTROL Advanced Search] to further refine your search results o
 
 1. 单击搜索结果中的项目可查看其详细信息。
 
-1. 单击 **[!UICONTROL Remove from Catalog]**。
+1. 单击&#x200B;**[!UICONTROL 从目录]**&#x200B;中删除。
 
 1. 确认您要移除该项目。
 
@@ -118,7 +118,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 1. 单击“显示筛选器”图标（![显示筛选器图标](/help/main/assets/icons/Filter.svg)）。
 
-1. 从&#x200B;**[!UICONTROL Environment]**&#x200B;下拉列表中选择所需的环境。
+1. 从&#x200B;**[!UICONTROL 环境]**&#x200B;下拉列表中选择所需的环境。
 
 <!--
 ## Modify the Catalog Search page (filters and columns)
@@ -142,9 +142,9 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## 修改列
 
-您可以修改[!UICONTROL Catalog Search]页面上的活动列。
+您可以修改[!UICONTROL 目录搜索]页面上的活动列。
 
-1. 单击&#x200B;**[!UICONTROL Customize Table]**&#x200B;图标（![自定义表格图标](/help/main/assets/icons/ColumnSetting.svg)）。
+1. 单击&#x200B;**[!UICONTROL 自定义表]**&#x200B;图标（![自定义表图标](/help/main/assets/icons/ColumnSetting.svg)）。
 
 1. 选择或取消选择要显示或隐藏的所需列。
 

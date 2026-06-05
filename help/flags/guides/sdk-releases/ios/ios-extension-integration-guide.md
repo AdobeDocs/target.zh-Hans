@@ -4,8 +4,8 @@ description: 了解如何将Experience Rollout扩展与iOS上的Adobe Experience
 hide: true
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 6%
+source-wordcount: '929'
+ht-degree: 7%
 
 ---
 
@@ -187,7 +187,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 | 方法 | 必需 | 描述 |
 |---|---|---|
 | `withIdentity(namespace:id:)` | 否 | 第一个参数：身份命名空间（请参阅[Adobe身份命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)）。 第二个参数：标识值。 当您希望该命名空间和ID在Analytics中用于此评估时，请包括此项。 如果未提供，则Analytics默认使用ECID。 这不会用于制定功能启用决策。 |
-| `withAttributes(_:)` | 否 | `[String: [String]]`。键值是转出规则使用的上下文属性名称（例如`locale`、`platform`、`appVersion`、`deviceType`）。 值是当前用户/会话的该键的候选属性值列表（例如`["en_US"]`或`["phone"]`）。 |
+| `withAttributes(_:)` | 否 | `[String: [String]]`. 键值是转出规则使用的上下文属性名称（例如`locale`、`platform`、`appVersion`、`deviceType`）。 值是当前用户/会话的该键的候选属性值列表（例如`["en_US"]`或`["phone"]`）。 |
 
 **Swift**
 
@@ -435,8 +435,8 @@ NSString *version = [AEPMobileRollout extensionVersion];
 
 | API | 返回值 |
 |---|---|
-| `isFeatureEnabled(featureKey:evaluationContext:completion:)`。`FeatureEvaluationContext`携带规则的定位属性和analytics的可选标识。 请参阅[isFeatureEnabled](#is-feature-enabled)。 | 通过完成处理程序进行bool |
-| `getFeature(featureKey:evaluationContext:completion:)`。返回给定上下文的已评估功能有效负载。 请参阅[getFeature](#get-feature)。 | 功能评估结果？ 通过完成处理程序 |
+| `isFeatureEnabled(featureKey:evaluationContext:completion:)`. `FeatureEvaluationContext`携带规则的定位属性和analytics的可选标识。 请参阅[isFeatureEnabled](#is-feature-enabled)。 | 通过完成处理程序进行bool |
+| `getFeature(featureKey:evaluationContext:completion:)`. 返回给定上下文的已评估功能有效负载。 请参阅[getFeature](#get-feature)。 | 功能评估结果？ 通过完成处理程序 |
 | `refreshCache()` | 空白 |
 | `extensionVersion()` | 字符串 |
 

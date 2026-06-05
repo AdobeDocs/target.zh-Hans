@@ -15,14 +15,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 742
+source-wordcount: 764
 ht-degree: 30%
 
 ---
 
 # [!UICONTROL Automated Personalization]疑难解答
 
-有时候，活动没有按预期进行。 以下是您在使用[!UICONTROL Automated Personalization] (AP)时可能面临的一些潜在挑战，以及一些建议的解决方案。
+有时候，活动没有按预期进行。 以下是使用[!UICONTROL Automated Personalization] (AP)时可能会遇到的一些潜在挑战，以及一些建议的解决方案。
 
 ## 我的[!UICONTROL Automated Personalization]活动在构建模型时用时过长。 {#section_20028B204DBB4D77A324BA193434AEE2}
 
@@ -43,7 +43,7 @@ ht-degree: 30%
 
 +++查看详细信息
 
-[!UICONTROL Automated Personalization]活动需要多个因素才能产生提升：
+[!UICONTROL Automated Personalization]活动需要多个因素才能生成提升：
 
 * 选件必须足够不同，才能影响访客。
 * 选件必须位于对优化目标有所影响的位置。
@@ -58,7 +58,7 @@ ht-degree: 30%
 
 +++查看详细信息
 
-在[!UICONTROL Automated Personalization]中，将URL和模板测试规则添加到[!DNL Target]请求条目约束（例如，target-global-mbox），其中只评估一次。 用户符合活动资格后，不会重新评估Target请求级别的定位规则。 但是，定位受众会添加到位置定位规则中。
+在[!UICONTROL Automated Personalization]中，URL和模板测试规则将添加到[!DNL Target]请求条目约束（例如，target-global-mbox），其中仅评估一次。 用户符合活动资格后，不会重新评估Target请求级别的定位规则。 但是，定位受众会添加到位置定位规则中。
 
 **解决方案：**&#x200B;添加必要的模板规则作为活动的输入受众。 每次进行请求/调用时，都会进行受众评估。
 

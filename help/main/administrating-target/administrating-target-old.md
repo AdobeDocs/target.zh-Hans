@@ -7,7 +7,7 @@ role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '95'
 ht-degree: 11%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 此信息可帮助您管理[!DNL Adobe Target]，包括可视化体验编辑器(VEC)、报表、Scene7配置、实现、主机、环境、响应令牌和用户的配置设置。
 
-要访问[!UICONTROL Administration]菜单项，请单击顶部菜单栏中的&#x200B;**[!UICONTROL Administration]**，然后单击左侧的所需选项卡：
+要访问[!UICONTROL 管理]菜单项，请单击顶部菜单栏中的&#x200B;**[!UICONTROL 管理]**，然后单击左侧的所需选项卡：
 
 * [可视化体验编辑器](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [报表](/help/main/administrating-target/reporting.md)

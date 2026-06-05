@@ -15,35 +15,35 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 628
-ht-degree: 36%
+source-wordcount: 666
+ht-degree: 35%
 
 ---
 
-# [!UICONTROL Auto-Target Summary report]
+# [!UICONTROL 自动锁定摘要报表]
 
-有关如何解释[!DNL Adobe Target]中的[!UICONTROL Auto-Target Summary]报表的信息。
+有关如何在[!DNL Adobe Target]中解释[!UICONTROL 自动定位摘要]报表的信息。
 
 >[!NOTE]
 >
->[!UICONTROL Auto-Target]作为[!DNL Target Premium]解决方案的一部分提供。 在没有[Target Premium许可证](/help/main/c-intro/intro.md#premium)的[!DNL Target Standard]中不包括它。
+>[!UICONTROL 自动定位]作为[!DNL Target Premium]解决方案的一部分提供。 在没有[Target Premium许可证](/help/main/c-intro/intro.md#premium)的[!DNL Target Standard]中不包括它。
 
-要显示[!UICONTROL Auto-Target Summary]报告：
+要显示[!UICONTROL 自动定位摘要]报告：
 
-1. 从[!UICONTROL Activities]页面，单击所需的[!UICONTROL Auto-Target]活动。
+1. 从[!UICONTROL 活动]页面，单击所需的[!UICONTROL 自动定位]活动。
 
-   如果您有许多活动，请单击“筛选器”（![筛选器图标](/help/main/assets/icons/Filter.svg)）图标以通过从[!UICONTROL Type]、[!UICONTROL Status]、[!UICONTROL Reporting Source]、[!UICONTROL Experience Composer]、[!UICONTROL Metrics Type]和[!UICONTROL Activity Source]下拉列表中选择选项来筛选列表。
+   如果您有许多活动，请单击“筛选器”（![筛选器图标](/help/main/assets/icons/Filter.svg)）图标以筛选列表，方法是从[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 报告Source]、[!UICONTROL 体验编辑器]、[!UICONTROL 量度类型]和[!UICONTROL 活动Source]下拉列表中选择相应的选项。
 
-1. 单击&#x200B;**[!UICONTROL Reports]**&#x200B;选项卡，然后单击所需的图标：
+1. 单击&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡，然后单击所需的图标：
 
-   * **[!UICONTROL Table View]** （ ![表格视图图标](/help/main/assets/icons/Table.svg) ）
-   * **[!UICONTROL Graph View]** （ ![图形视图图标](/help/main/assets/icons/GraphTrend.svg) ）
-   * **[!UICONTROL Automated Segments]** （![自动化区段报表](/help/main/assets/icons/AutomatedSegment.svg) ）
-   * [!UICONTROL Important Attributes]** （![重要属性图标](/help/main/assets/icons/ViewList.svg) ）
+   * **[!UICONTROL 表格视图]** （![表格视图图标](/help/main/assets/icons/Table.svg) ）
+   * **[!UICONTROL 图形视图]** （![图形视图图标](/help/main/assets/icons/GraphTrend.svg) ）
+   * **[!UICONTROL 自动化区段]** （![自动化区段报表](/help/main/assets/icons/AutomatedSegment.svg) ）
+   * [!UICONTROL 重要属性]** （![重要属性图标](/help/main/assets/icons/ViewList.svg) ）
 
 ## 表格视图
 
-解释[!UICONTROL Auto-Target]报表时的一些提示和注意事项：
+解释[!UICONTROL 自动定位]报表时的一些提示和注意事项：
 
 * 表中的各行可帮助您了解活动表现。
 
@@ -56,7 +56,7 @@ ht-degree: 36%
    * 在这种情况下，要提高为所有体验构建模型的活动的速度，需将额外流量发送到未构建模型的体验。
    * 必须至少有两个具有已构建模型（绿色复选标记）的体验，才能开始个性化。
 
-* 将体验A的转化率与体验B的转化率进行比较在[!UICONTROL Auto-Target]中不是正确的比较。 问题在于，与随机提供体验 A 的方式相比（换言之，与控制体验相比），以智能方式提供体验 A 时，体验 A 的性能是否更好。 此外，营销人员还应谨慎解读个人体验的提升，因为个性化算法会尝试优化整个活动的成功量度，而不是针对每一个个人体验进行优化。
+* 将体验A的转化率与体验B的转化率进行比较在[!UICONTROL 自动定位]中不是正确的比较。 问题在于，与随机提供体验 A 的方式相比（换言之，与控制体验相比），以智能方式提供体验 A 时，体验 A 的性能是否更好。 此外，营销人员还应谨慎解读个人体验的提升，因为个性化算法会尝试优化整个活动的成功量度，而不是针对每一个个人体验进行优化。
 * 可以这样理解：具有最高提升度的体验在人群中具有最大的差异。 也就是说，算法发现了一个最喜爱该特定体验的区段。
 * 表中的各种列显示访问次数、转化率、平均提升度和置信水平以及置信度。 有关详细信息，请参阅[A/B测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)。
 

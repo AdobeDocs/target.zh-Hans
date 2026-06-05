@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1605
+source-wordcount: 1617
 ht-degree: 29%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 29%
 
 在处理客户属性和[!DNL Target]时请考虑以下信息：
 
-* 在使用[!DNL People]服务中的[!UICONTROL Customer Attributes]功能之前，必须满足一些先决条件要求。 有关详细信息，请参阅&#x200B;*Experience Cloud界面和管理*&#x200B;指南中的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans#section_BD38693AFBF34926BA28E964963B4EA0)中的“上传客户属性的先决条件”。
+* 在使用[!DNL People]服务中的[!UICONTROL 客户属性]功能之前，您必须满足一些先决条件要求。 有关详细信息，请参阅&#x200B;*Experience Cloud界面和管理*&#x200B;指南的[客户属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hans#section_BD38693AFBF34926BA28E964963B4EA0)中的“上传客户属性的先决条件”。
 * 请注意，如&#x200B;*Experience Cloud界面和管理*&#x200B;指南中的[客户属性数据文件和源](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=cn)中所述，有关文件上传的限制。 作为最佳实践：
 
    * 上载单个大型文件（在指定的[限制内](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=cn)）。 单个大文件优先于多个较小文件。
@@ -56,11 +56,11 @@ ht-degree: 29%
 
 ## 访问People服务中的客户属性
 
-1. 在[!DNL Experience Cloud]中，单击菜单图标（![菜单图标](/help/main/c-target/c-visitor-profile/assets/menu-icon.png)），然后单击&#x200B;**[!UICONTROL People]**。
+1. 在[!DNL Experience Cloud]中，单击菜单图标（![菜单图标](/help/main/c-target/c-visitor-profile/assets/menu-icon.png)），然后单击&#x200B;**[!UICONTROL 人员]**。
 
    ![人员](/help/main/c-target/c-visitor-profile/assets/people.png)
 
-1. 单击 **[!UICONTROL Customer Attributes]**。
+1. 单击&#x200B;**[!UICONTROL 客户属性]**。
 
    ![客户属性选项卡](/help/main/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
@@ -94,8 +94,8 @@ ht-degree: 29%
 
    您的数据文件必须符合文件上传要求，并且不得超过100 MB。 如果文件过大，或者您必须定期上传数据，则可以改用FTP传输文件。
 
-   * **HTTPS：**&#x200B;您可以拖放.csv数据文件或单击&#x200B;**[!UICONTROL Browse]**&#x200B;以从您的文件系统上传。
-   * **FTP：**&#x200B;单击FTP链接以[通过FTP上传文件](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=zh-Hans)。 第一步是为 Adobe 提供的 FTP 服务器提供密码。 指定密码，然后单击&#x200B;**[!UICONTROL Done]**。
+   * **HTTPS：**&#x200B;您可以拖放.csv数据文件或单击&#x200B;**[!UICONTROL 浏览]**&#x200B;以从您的文件系统上传。
+   * **FTP：**&#x200B;单击FTP链接以[通过FTP上传文件](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=zh-Hans)。 第一步是为 Adobe 提供的 FTP 服务器提供密码。 指定密码，然后单击&#x200B;**[!UICONTROL 完成]**。
 
    现在，将您的 CSV/ZIP/GZIP 文件传输到 FTP 服务器。 此文件传输成功后，请创建一个具有相同名称和`.fin`扩展名的文件。 将此空文件传输到服务器。 这表示传输结束，[!DNL Experience Cloud]开始处理数据文件。
 
@@ -103,7 +103,7 @@ ht-degree: 29%
 
    验证过程允许您将显示名称和描述映射到已上传的属性（字符串、整数、数字等等）。 将每个属性映射到其正确的数据类型、显示名称和描述。
 
-   架构验证完成后，单击&#x200B;**[!UICONTROL Save]**。 文件上传时间因其大小而异。
+   架构验证完成后，单击&#x200B;**[!UICONTROL 保存]**。 文件上传时间因其大小而异。
 
    ![验证架构](/help/main/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
@@ -111,7 +111,7 @@ ht-degree: 29%
 
 1. 配置订阅并激活属性来源。
 
-   单击&#x200B;**[!UICONTROL Add Subscription]**，然后选择解决方案以订阅这些属性。 [配置订阅](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=zh-Hans)设置[!DNL Experience Cloud]和解决方案之间的数据流。 激活属性来源允许数据流动到订阅的解决方案。 您上传的客户记录与您的网站或应用程序中的传入 ID 信号相匹配。
+   单击&#x200B;**[!UICONTROL 添加订阅]**，然后选择解决方案以订阅这些属性。 [配置订阅](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=zh-Hans)设置[!DNL Experience Cloud]和解决方案之间的数据流。 激活属性来源允许数据流动到订阅的解决方案。 您上传的客户记录与您的网站或应用程序中的传入 ID 信号相匹配。
 
    ![配置解决方案](/help/main/c-target/c-visitor-profile/assets/solution.png)
 
@@ -129,7 +129,7 @@ ht-degree: 29%
 
 ### 创建定位受众
 
-在[!DNL Target]中，您可以在创建受众时从[!UICONTROL Visitor Profile]部分中选择客户属性。 列表中的所有客户属性都有前缀 &lt; data_source_name >。 可根据需要，将这些属性与其他数据属性结合使用以构建受众。
+在[!DNL Target]中，您可以在创建受众时从[!UICONTROL 访客配置文件]区域选择一个客户属性。 列表中的所有客户属性都有前缀 &lt; data_source_name >。 可根据需要，将这些属性与其他数据属性结合使用以构建受众。
 
 ![Target 受众](/help/main/c-target/c-visitor-profile/assets/TargetAudience.png)
 

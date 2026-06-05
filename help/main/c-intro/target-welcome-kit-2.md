@@ -29,8 +29,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2558
-ht-degree: 73%
+source-wordcount: 2606
+ht-degree: 72%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 73%
 | 自动分配 | 在两个或更多个体验中找出表现最好的体验，并自动将更多流量重新分配给入选者以提高转化率，同时测试继续运行和学习。 其中使用由 [!DNL Adobe Adobe AI] 提供的人工智能。 [了解更多](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)。 |
 | Auto-Target<br>(Premium) | 利用[!DNL Target]中的Adobe AI，根据每位访客的个人客户配置文件和具有相似配置文件的先前访客的行为，确定若干体验中的最佳体验并提供给访客。 自动锁定可实现大规模自定义。 [了解更多](/help/main/c-activities/auto-target/auto-target-to-optimize.md)。 |
 | 自动个性化<br>(Premium) | 使用由 [!DNL Adobe Adobe AI] 提供的高级机器学习算法和自动化功能检查产品中的图像、文案和其他元素的各种组合，并根据哪种组合最能实现业务目标（如提高转化率或每位访客的收入）将最佳组合提供给每位访客。 [了解更多](/help/main/c-activities/t-automated-personalization/automated-personalization.md)。 |
-| 体验定位 (XT) | 根据用户定义的一组规则和标准将内容交付给特定受众。 当您认识到某个受众很重要，并且该受众很了解什么体验与其产生共鸣时，**[!UICONTROL Experience Targeting]**&#x200B;对于将特定体验或内容定位到特定受众可发挥很大作用。 [了解更多](/help/main/c-activities/t-experience-target/experience-target.md)。 |
+| 体验定位 (XT) | 根据用户定义的一组规则和标准将内容交付给特定受众。 当您认识到某个受众很重要，并且该受众很了解什么体验与其产生共鸣时，**[!UICONTROL 体验定位]**&#x200B;对于将特定体验或内容定位到特定受众非常有用。 [了解更多](/help/main/c-activities/t-experience-target/experience-target.md)。 |
 | 多变量测试 (MVT) | 比较您的页面或数字体验上元素变体所有可能的组合 - 例如三个不同的背景图像、两个文案变体以及两种不同的按钮颜色。 MVT 确定哪个组合对特定受众的表现最好以及哪些元素对结果影响最大。 [了解更多](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)。 |
 | 推荐<br>(Premium) | 使用Adobe AI可根据客户先前的活动和其他客户的活动，自动推荐可能让客户感兴趣的产品或内容。 [了解更多](/help/main/c-recommendations/recommendations.md)。 |
 
@@ -75,7 +75,7 @@ ht-degree: 73%
 
 | 实现类型 | 详细信息 |
 | --- | --- |
-| 客户端 | 对于 [!DNL Target] 的这种实现，[!DNL Target] 将与某个活动关联的体验直接提供给客户端浏览器。 浏览器将决定要显示的体验，然后显示该体验。 通过客户端，您可以使用WYSIWYG编辑器、**[!UICONTROL Visual Experience Composer]** (VEC)或非可视化界面&#x200B;**[!UICONTROL Form-based Experience Composer]**&#x200B;创建测试和个性化体验。 [了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank}。 |
+| 客户端 | 对于 [!DNL Target] 的这种实现，[!DNL Target] 将与某个活动关联的体验直接提供给客户端浏览器。 浏览器将决定要显示的体验，然后显示该体验。 对于客户端，您可以使用WYSIWYG编辑器、**[!UICONTROL 可视化体验编辑器]** (VEC)或非可视化界面（基于&#x200B;**[!UICONTROL 表单的体验编辑器]**）来创建测试和个性化体验。 [了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=zh-Hans){target=_blank}。 |
 | 服务器端 | 在此类型的 [!DNL Target] 实现中，客户端设备通过您的服务器提出体验请求，您的服务器将该请求发送给 [!DNL Target]，[!DNL Target] 将响应发回您的服务器，然后您的服务器决定将什么体验提供给客户端设备以供其呈现。 体验不一定显示在浏览器中；它能够以电子邮件或网亭形式显示，还可以通过语音助手或者其他一些非可视化体验或不基于浏览器的设备显示。 由于您的服务器位于客户端和 [!DNL Target] 之间，因此如果您需要更好地控制体验并提高其安全性，或者您希望在服务器上运行复杂的后端进程，则此类实施是最佳选择。 [了解更多](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hans){target=_blank}。 |
 | 混合实现 | 在此实现中，您选择最适合给定用例的实现方法。 例如，您可能会使用客户端实现对主页上巨型横幅中的产品建议进行 A/B 测试，但还可能会使用服务器端实现确定要在客户端浏览器上显示的内部搜索结果、要在智能汽车仪表板上显示的体验或要从语音助手发出的语音响应。 |
 
@@ -93,23 +93,23 @@ ht-degree: 73%
 
 ## 活动创建工具
 
-[!DNL Target]为您提供三种设置测试和个性化活动的主要方式：[!UICONTROL Visual Experience Composer] (VEC)、[!UICONTROL Form-based Experience Composer]和[!UICONTROL Single Page Application (SPA) Visual Experience Composer]。 两者都指导您在三步中完成活动设置过程 — 定义体验、选择或定义受众以及选择按其衡量活动结果的主要和次要成功量度。
+[!DNL Target]为您提供三种设置测试和个性化活动的主要方式：[!UICONTROL 可视化体验编辑器] (VEC)、[!UICONTROL 基于表单的体验编辑器]和[!UICONTROL 单页应用程序(SPA)可视化体验编辑器]。 两者都指导您在三步中完成活动设置过程 — 定义体验、选择或定义受众以及选择按其衡量活动结果的主要和次要成功量度。
 
 | 工具 | 详细信息 |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | 一个所见即所得界面，从中可轻松地在网站上下文中创建和测试个性化体验和产品建议。 可通过拖放、调换和修改网页（或产品建议）或移动网页的布局和内容，为 [!DNL Target] 活动创建体验和产品建议。 [了解更多](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)。 |
-| [!UICONTROL Form-based Experience Composer] | 一个非可视化体验和选件创建界面，当可视化体验编辑器不可用或不实用时，它有助于创建在A/B测试、体验定位、Automated Personalization和“推荐”活动中使用的体验。 例如，您可以使用基于表单的编辑器为电子邮件、网亭和语音助手中的交付创建体验和产品建议。 [了解更多](/help/main/c-experiences/form-experience-composer.md)。 |
-| [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | 使用 SPA VEC，营销人员能够以 DIY（自己动手）方式创建测试并对 SPA 上的内容进行个性化，而无需持续依赖开发。 VEC 可用于在常用框架（例如 React 和 Angular）上创建 A/B 测试和体验定位 (XT) 活动。 [了解更多](/help/main/c-experiences/spa-visual-experience-composer.md)。 |
+| [!UICONTROL 可视化体验编辑器] (VEC) | 一个所见即所得界面，从中可轻松地在网站上下文中创建和测试个性化体验和产品建议。 可通过拖放、调换和修改网页（或产品建议）或移动网页的布局和内容，为 [!DNL Target] 活动创建体验和产品建议。 [了解更多](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)。 |
+| [!UICONTROL 基于表单的体验编辑器] | 一个非可视化体验和选件创建界面，当可视化体验编辑器不可用或不实用时，它有助于创建在A/B测试、体验定位、Automated Personalization和“推荐”活动中使用的体验。 例如，您可以使用基于表单的编辑器为电子邮件、网亭和语音助手中的交付创建体验和产品建议。 [了解更多](/help/main/c-experiences/form-experience-composer.md)。 |
+| [!UICONTROL 单页应用程序(SPA)可视化体验编辑器] | 使用 SPA VEC，营销人员能够以 DIY（自己动手）方式创建测试并对 SPA 上的内容进行个性化，而无需持续依赖开发。 VEC 可用于在常用框架（例如 React 和 Angular）上创建 A/B 测试和体验定位 (XT) 活动。 [了解更多](/help/main/c-experiences/spa-visual-experience-composer.md)。 |
 
 ## 治理和控制
 
-为了将适当的角色和相关级别的 [!DNL Target] 访问和权限提供给适当的人，我们建立了一个管理控制台。 对于[!UICONTROL Target Premium]用户，我们提供更详细的治理和控制
-与[!UICONTROL Enterprise Permissions]。
+为了将适当的角色和相关级别的 [!DNL Target] 访问和权限提供给适当的人，我们建立了一个管理控制台。 对于[!UICONTROL Target Premium]用户，我们提供了更详细的治理和控制
+具有[!UICONTROL 企业权限]。
 
 | 工具 | 详细信息 |
 | --- | --- |
-| [!UICONTROL Adobe Admin Console for Enterprise] | 从 Adobe Admin Console 将用户添加到 Adobe Target 并分配权限。 [了解更多](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)。 |
-| [!UICONTROL Enterprise Permission]s<br>（高级） | 正式管理整个企业中用户访问 [!DNL Target] 的一种方法。 将用户添加到 [!DNL Target]、根据其角色分配权限、根据不同部门、全球地点、渠道和其他逻辑分组为团队创建工作区。 可为用户分配观察者、编辑者、发布者或审批者的角色。 [了解更多](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
+| [!UICONTROL 企业版 Adobe Admin Console] | 从 Adobe Admin Console 将用户添加到 Adobe Target 并分配权限。 [了解更多](/help/main/administrating-target/c-user-management/c-user-management/user-management.md)。 |
+| [!UICONTROL 企业权限]s<br>（高级） | 正式管理整个企业中用户访问 [!DNL Target] 的一种方法。 将用户添加到 [!DNL Target]、根据其角色分配权限、根据不同部门、全球地点、渠道和其他逻辑分组为团队创建工作区。 可为用户分配观察者、编辑者、发布者或审批者的角色。 [了解更多](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。 |
 
 ## 集成
 
@@ -119,7 +119,7 @@ ht-degree: 73%
 | 集成 | 详细信息 |
 | --- | --- |
 | Adobe Experience Cloud | [!DNL Target] 将多种功能嵌入其他 [!DNL Adobe Experience Cloud] 解决方案以大规模地使体验个性化。 可将 [!DNL Target] 的强大功能与 [Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md)、[Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)、[Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md)、[Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md) (AAM) 和 [Adobe Experience Manager](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) (AEM) 相结合。 |
-| Target API (Premium) | [!UICONTROL Target]提供了40多种API，可使用它们将Adobe Target与第一方、第二方和第三方系统集成。 [了解更多](/help/main/api/api-overview.md)。 |
+| Target API (Premium) | [!UICONTROL Target]提供40多种API，您可以使用它们将Adobe Target与第一方、第二方和第三方系统集成。 [了解更多](/help/main/api/api-overview.md)。 |
 
 ## 请牢记
 

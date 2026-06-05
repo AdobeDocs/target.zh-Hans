@@ -1,7 +1,7 @@
 ---
 keywords: 排除项
 description: 了解如何在 [!DNL Target Recommendations] 中创建排除项以防止向访客推荐产品或内容。
-title: 如何在[!UICONTROL Recommendations]活动中使用排除项？
+title: 如何在[!UICONTROL 推荐]活动中使用排除项？
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 TQID: https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o
@@ -12,8 +12,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 511
-ht-degree: 14%
+source-wordcount: 527
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 14%
 
 在[!DNL Adobe Target Recommendations]中创建排除项以阻止向访客推荐产品或内容。 排除项是不向访客推荐的产品或内容的子集。
 
-排除项可在整个帐户中使用。 与收藏集（在创建[!UICONTROL Recommendations]活动时为每个体验指定特定收藏集）不同，排除项适用于帐户中的所有活动。 在活动创建期间没有用于分配排除组的选项。
+排除项可在整个帐户中使用。 收藏集是在创建[!UICONTROL 推荐]活动时为每个体验指定特定的收藏集，与此类不同，排除项适用于整个帐户的所有活动。 在活动创建期间没有用于分配排除组的选项。
 
 您可以使用排除项的一些次数示例包括：
 
@@ -39,21 +39,21 @@ ht-degree: 14%
 
 ## 创建排除项
 
-1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**&#x200B;以显示现有排除项列表。
+1. 单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 排除项]**&#x200B;以显示现有排除项列表。
 
-   [!UICONTROL Exclusions]列表视图中为每个排除项报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 有关如何更改默认主机组的信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[计划和实施 [!DNL Recommendations]](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/recommendations){target=_blank}。
+   [!UICONTROL 排除项]列表视图中为每个排除项报告的“项目数”是指，在配置的默认“推荐”[主机组](/help/main/administrating-target/hosts.md)（环境）中与该排除项规则相匹配的产品数。 有关如何更改默认主机组的信息，请参阅&#x200B;*Adobe Target开发人员指南*&#x200B;中的[计划和实施 [!DNL Recommendations]](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/recommendations){target=_blank}。
 
-1. （视情况而定）单击&#x200B;**[!UICONTROL Show Filters]**&#x200B;图标（![显示过滤器图标](/help/main/assets/icons/Filter.svg)），然后在创建（或更新）排除项时从&#x200B;**[!UICONTROL Environment]**&#x200B;下拉列表中选择所需的[环境](/help/main/administrating-target/environments.md)，以预览该环境中排除项的内容。 默认情况下，会显示默认主机组的结果。
+1. （视情况而定）单击&#x200B;**[!UICONTROL 显示筛选器]**&#x200B;图标（![显示筛选器图标](/help/main/assets/icons/Filter.svg)），然后在创建（或更新）排除项时从&#x200B;**[!UICONTROL 环境]**&#x200B;下拉列表中选择所需的[环境](/help/main/administrating-target/environments.md)，以预览该环境中排除项的内容。 默认情况下，会显示默认主机组的结果。
 
-1. 单击 **[!UICONTROL Create Exclusion]**。
+1. 单击&#x200B;**[!UICONTROL 创建排除项]**。
 
-1. 键入排除项&#x200B;**[!UICONTROL Name]**&#x200B;并输入可选描述。
+1. 键入排除项&#x200B;**[!UICONTROL 名称]**&#x200B;并输入可选描述。
 
 1. 使用规则生成器创建排除项。
 
-   在[!UICONTROL Rules]列表中选择一个参数，选择一个运算符，然后输入一个或多个值以标识产品。 使用逗号分隔多个值。
+   在[!UICONTROL 规则]列表中选择一个参数，选择一个运算符，然后输入一个或多个值以标识产品。 使用逗号分隔多个值。
 
-1. 单击 **[!UICONTROL Create]**。
+1. 单击&#x200B;**[!UICONTROL 创建]**。
 
 <!--
 ## Create an exclusion using Advanced Search
@@ -71,7 +71,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 编辑、复制或删除排除项
 
-单击列表中所需排除项旁边的更多操作图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击相应的图标： [!UICONTROL Edit]、[!UICONTROL Copy]或[!UICONTROL Delete]。
+单击列表中所需排除项旁边的更多操作图标（![更多操作图标](/help/main/assets/icons/MoreSmallList.svg)），然后单击相应的图标： [!UICONTROL 编辑]、[!UICONTROL 复制]或[!UICONTROL 删除]。
 
 您可以复制现有排除项以创建重复排除项，然后对其进行修改。 利用此选项，您可以用更少的工作量创建类似的排除项。
 

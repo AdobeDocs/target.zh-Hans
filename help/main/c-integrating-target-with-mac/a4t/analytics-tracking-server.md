@@ -1,5 +1,5 @@
 ---
-keywords: Analytics跟踪服务器；A4T；Adobe Experience Cloud Debugger；Adobe Experience Platform Debugger；报表源；开发人员工具
+keywords: analytics跟踪服务器；A4T；Adobe Experience Cloud Debugger；Adobe Experience Platform Debugger；报表源；开发人员工具
 description: 了解如何为使用Analytics for [!DNL Target] (A4T)的活动指定Analytics跟踪服务器（如果您使用的是较低版本的at.js）。
 title: 如何使用Analytics跟踪服务器？
 feature: Analytics for Target (A4T)
@@ -17,8 +17,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 15%
+source-wordcount: 708
+ht-degree: 17%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->如果您使用 at.js 版本 0.9.1（或更高版本），则在活动创建期间无需指定跟踪服务器。 at.js 库自动将跟踪服务器值发送到 [!DNL Target]。 在活动创建期间，您可以将[!UICONTROL Goals & Settings]页面上的[!UICONTROL Tracking Server]字段留空。
+>如果您使用 at.js 版本 0.9.1（或更高版本），则在活动创建期间无需指定跟踪服务器。 at.js 库自动将跟踪服务器值发送到 [!DNL Target]。 在活动创建期间，您可以将“[!UICONTROL 目标和设置]”页面上的“[!UICONTROL 跟踪服务器]”字段留空。
 >
 >[!DNL Target]团队同时支持at.js 1.*x*&#x200B;和at.js 2.*x*。 升级到at.js任一主要版本的最新更新，以确保您运行的是受支持的版本。 有关更多信息，请参阅 [at.js 版本详细信息](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}。
 
@@ -46,7 +46,7 @@ ht-degree: 15%
 
    ![Screen_DebuggerTrackServ图像](assets/Screen_DebuggerTrackServ.png)
 
-   在调试器的[!UICONTROL Hostname]部分找到[!DNL Analytics]跟踪服务器。
+   在调试器的[!UICONTROL 主机名]部分找到[!DNL Analytics]跟踪服务器。
 
    * **第一方跟踪服务器**：如果请求的主机名与您所在的域匹配，则它是第一方跟踪服务器。 例如，如果您在`adobe.com`上，则`adobe.com`是第一方跟踪服务器。
    * **第三方跟踪服务器**：第三方跟踪服务器通常为`[company].sc.omtrdc.net`，其中公司是您公司的名称，但始终以`sc.omtrdc.net`结尾。
@@ -54,11 +54,11 @@ ht-degree: 15%
 
 1. 复制该字段的全部内容。
 
-1. 在活动的&#x200B;**[!UICONTROL Goal & Settings]**&#x200B;屏幕的&#x200B;**[!UICONTROL Reporting Settings]**&#x200B;部分中，将跟踪服务器信息粘贴到&#x200B;**[!UICONTROL Tracking Server]**&#x200B;字段中。
+1. 在活动的&#x200B;**[!UICONTROL 目标和设置]**&#x200B;屏幕的&#x200B;**[!UICONTROL 报表设置]**&#x200B;部分中，将跟踪服务器信息粘贴到&#x200B;**[!UICONTROL 跟踪服务器]**&#x200B;字段中。
 
    >[!NOTE]
    >
-   >为活动选择[!UICONTROL Analytics as the Reporting Source]以使[!UICONTROL Tracking Server]字段可用。
+   >选择[!UICONTROL Analytics作为您的活动的报表Source]，以使[!UICONTROL 跟踪服务器]字段可用。
 
 ## 使用浏览器的开发人员工具获取[!DNL Analytics]跟踪服务器
 
@@ -68,7 +68,7 @@ ht-degree: 15%
 
    ![Chrome开发人员工具](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
-1. 单击&#x200B;**[!UICONTROL Network]**&#x200B;选项卡。
+1. 单击&#x200B;**[!UICONTROL 网络]**&#x200B;选项卡。
 
 1. 筛选`/ss,`以显示[!DNL Analytics]请求。
 
@@ -82,8 +82,8 @@ ht-degree: 15%
 
 1. 复制该字段的全部内容。
 
-1. 在活动的&#x200B;**[!UICONTROL Goal & Settings]**&#x200B;屏幕的&#x200B;**[!UICONTROL Reporting Settings]**&#x200B;部分中，将跟踪服务器信息粘贴到&#x200B;**[!UICONTROL Tracking Server]**&#x200B;字段中。
+1. 在活动的&#x200B;**[!UICONTROL 目标和设置]**&#x200B;屏幕的&#x200B;**[!UICONTROL 报表设置]**&#x200B;部分中，将跟踪服务器信息粘贴到&#x200B;**[!UICONTROL 跟踪服务器]**&#x200B;字段中。
 
    >[!NOTE]
    >
-   >为活动选择[!UICONTROL Analytics as the Reporting Source]以使[!UICONTROL Tracking Server]字段可用。
+   >选择[!UICONTROL Analytics作为您的活动的报表Source]，以使[!UICONTROL 跟踪服务器]字段可用。

@@ -22,8 +22,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1761
-ht-degree: 74%
+source-wordcount: 1772
+ht-degree: 73%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 74%
 
 * 设计中可引用（无论是以硬编码方式引用还是通过循环引用）的最大实体数为 99。
 * 为获得最佳性能，建议的限制是在每个环境中使目录所含的项目数量少于一百万个，并使所有环境中的项目数量少于一千万个。
-* 最大限制是每个环境中一千万个项目，所有环境中 1 亿个项目。 如果您在每个环境中的项目数量介于一百万和一千万个之间，[!UICONTROL Catalog Search] UI的性能会受到影响。 但是，[!DNL Target Recommendations]会继续生成并提供推荐。
+* 最大限制是每个环境中一千万个项目，所有环境中 1 亿个项目。 如果您在每个环境中的项目数量介于一百万和一千万个之间，[!UICONTROL 目录搜索] UI的性能会受到影响。 但是，[!DNL Target Recommendations]会继续生成并提供推荐。
 
 ### 实体自定义属性
 
@@ -170,7 +170,7 @@ ht-degree: 74%
 
 ### 每个活动的体验数
 
-* **限制**：每个[!UICONTROL Experience Targeting] (XT)、[!UICONTROL A/B Test]、[!UICONTROL Multivariate Test] (MVT)和[!UICONTROL Auto-Target]活动2,000个体验。
+* **限制**：每个[!UICONTROL 体验定位] (XT)、[!UICONTROL A/B测试]、[!UICONTROL 多变量测试] (MVT)和[!UICONTROL 自动定位]活动有2,000个体验。
 
   每个自动个性化 (AP) 活动 30,000 个体验。
 

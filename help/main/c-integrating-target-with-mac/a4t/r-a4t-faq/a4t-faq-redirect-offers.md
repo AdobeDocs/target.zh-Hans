@@ -19,8 +19,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1455
-ht-degree: 51%
+source-wordcount: 1472
+ht-degree: 50%
 
 ---
 
@@ -49,10 +49,10 @@ ht-degree: 51%
 
 +++
 
-### 是否支持[!UICONTROL Visual Experience Composer] (VEC)和[!UICONTROL Form-Based Experience Composer]？
+### 是否支持[!UICONTROL 可视化体验编辑器] (VEC)和[!UICONTROL 基于表单的体验编辑器]？
 
 +++回答
-是，如果您使用内置的重定向选件，则支持[[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)。
+支持，如果您使用内置的重定向选件，则支持[[!UICONTROL 可视化体验编辑器]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC)和[[!UICONTROL 基于表单的体验编辑器]](/help/main/c-experiences/form-experience-composer.md)。
 
 +++
 

@@ -23,7 +23,7 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2960
+source-wordcount: 2891
 ht-degree: 73%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 73%
 
 有关分步说明，请参阅[组合多个受众](/help/main/c-target/combining-multiple-audiences.md)。
 
-**应了解的要点**：可自动在 [!DNL Target] 中找到 [!DNL Adobe Audience Manager] 受众。 但共享 [!DNL Adobe Analytics] 受众需要进行一些手动设置。 只需在[!DNL Analytics]的受众构建过程中勾选标有“使此项成为Experience Cloud受众”的框。 然后，从[!DNL Target]中单击“导入Experience Cloud受众”。
+**应了解的要点**：可自动在 [!DNL Target] 中找到 [!DNL Adobe Audience Manager] 受众。 但共享 [!DNL Adobe Analytics] 受众需要进行一些手动设置。 只需在[!DNL Analytics]中的受众构建过程中勾选标有“使此项成为Experience Cloud受众”的框。 然后，从[!DNL Target]中单击“导入Experience Cloud受众”。
 
 ## 提示 3：从 [!DNL Target] 导出数据以用于第三方工具。
 
@@ -168,8 +168,8 @@ ht-degree: 73%
 
 设置活动以使用 QA 参数的好处之一是，可与团队中的每个人分享这些链接。 您可以让更多人知道该活动，并确保他们在点击测试变体时不会认为网站没有正常运行。
 
-完成测试后，传达活动开展情况、测试结果以及尤其是经验教训，将有助于加强对测试结果的认知和兴趣。 与组织中的每个人分享结果还可避免重新测试某个假设、告诉每个人什么有效，并且帮助他们根据您发现的事实从根本上质疑他们自己关于什么有效的想法。 最好准备一个模板，每次都用它分享您的调查结果和关键经验教训。
-然后，考虑创建可分享的书籍或 Microsoft PowerPoint 幻灯片组，以逐渐积累这些经验教训。
+完成测试后，传达活动开展情况、测试结果以及尤其是经验教训，将有助于加强对测试结果的认知和兴趣。与组织中的每个人分享结果还可避免重新测试某个假设、告诉每个人什么有效，并且帮助他们根据您发现的事实从根本上质疑他们自己关于什么有效的想法。最好准备一个模板，每次都用它分享您的调查结果和关键经验教训。
+然后，考虑创建可分享的书籍或Microsoft PowerPoint资料夹，以逐渐积累这些经验教训。
 
 ## 提示 20：发掘移动功能以创建更多创新的移动活动。
 

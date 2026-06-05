@@ -24,8 +24,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1003
-ht-degree: 31%
+source-wordcount: 1051
+ht-degree: 29%
 
 ---
 
@@ -37,11 +37,11 @@ ht-degree: 31%
 >
 >[!UICONTROL Automated Personalization]作为[!DNL Target Premium]解决方案的一部分提供。 如果没有 [!DNL Target Premium] 许可证，则此功能在 [!DNL Target Standard] 中不可用。 有关此许可证提供的各项高级功能的更多信息，请参阅 [Target Premium](/help/main/c-intro/intro.md#premium)。
 
-与[!UICONTROL Auto-Target]类似，[!UICONTROL Automated Personalization]使用[随机林算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)（一种领先的数据科学组合方法）作为其主要个性化算法，来确定向访客显示的最佳体验。 [!UICONTROL Automated Personalization]在测试的发现阶段可能很有价值。 当定位各种不同的访客时，它也有助于机器学习确定最有效的内容。 随着时间的推移，该算法会学习预测最有效的内容并显示最有可能实现您的目标的内容。
+与[!UICONTROL 自动定位]类似，[!UICONTROL Automated Personalization]使用[随机林算法](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)（一种领先的数据科学组合方法）作为其主要个性化算法，来确定向访客显示的最佳体验。 [!UICONTROL Automated Personalization]在测试的发现阶段可能很有价值。 当定位各种不同的访客时，它也有助于机器学习确定最有效的内容。 随着时间的推移，该算法会学习预测最有效的内容并显示最有可能实现您的目标的内容。
 
-要查找有关[!UICONTROL Automated Personalization]与[!UICONTROL Auto-Target]不同之处的详细信息，请参阅[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)。
+要查找有关[!UICONTROL Automated Personalization]与[!UICONTROL 自动定位]不同之处的详细信息，请参阅[自动定位](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB)。
 
-营销人员在他们的网站上实施一个文件，使他们能够指向并单击任何内容，然后使用[!UICONTROL Visual Experience Composer] (VEC)为该区域直观地创建和选择其他内容选项。 之后，该算法会根据系统提供的有关每一位访客的所有行为数据自动确定向该访客提供的内容块，从而提供个性化体验。 由于[!UICONTROL Automated Personalization]可以适应访客行为的变化，因此它可以在没有设定结束日期的情况下运行，以提供持续的提升和个性化。 此模式有时称为“始终运行”。 营销人员不需要先运行测试、分析结果、交付入选者，然后再实现从优化中发现的提升，这是实施标准 A/B 活动结果的标准操作顺序。
+营销人员在他们的网站上实施一个文件，使他们能够指向并单击任何内容，然后使用[!UICONTROL 可视化体验编辑器] (VEC)为该区域直观地创建和选择其他内容选项。 之后，该算法会根据系统提供的有关每一位访客的所有行为数据自动确定向该访客提供的内容块，从而提供个性化体验。 由于[!UICONTROL Automated Personalization]可以适应访客行为的变化，因此它可以在没有设定结束日期的情况下运行，以提供持续的提升和个性化。 此模式有时称为“始终运行”。 营销人员不需要先运行测试、分析结果、交付入选者，然后再实现从优化中发现的提升，这是实施标准 A/B 活动结果的标准操作顺序。
 
 讨论[!UICONTROL Automated Personalization]时，以下术语很有用：
 
@@ -71,11 +71,11 @@ ht-degree: 31%
 
 ## 模型会不断优化单个目标量度
 
-* 此量度可以基于转化，也可以基于收入（具体而言，[!UICONTROL Revenue per Visitor]）。
+* 此量度可以基于转化，也可以基于收入（更具体地说，每位访客带来[!UICONTROL 收入]）。
 
 ## [!DNL Target]自动收集关于访客的信息以构建个性化模型
 
-* 有关[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]中使用的属性的更多信息，请参阅[Automated Personalization数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
+* 有关[!UICONTROL 自动定位]和[!UICONTROL Automated Personalization]中使用的属性的详细信息，请参阅[Automated Personalization数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 
 ## [!DNL Target]自动使用所有[!DNL Adobe Experience Cloud]共享受众来构建个性化模型
 
@@ -83,13 +83,13 @@ ht-degree: 31%
 
 ## 营销人员可以上传离线数据、倾向得分或其他自定义数据来构建个性化模型
 
-在构建个性化模型时，离线数据（如CRM信息或客户流失倾向分数）可能非常有价值。 有几种方法可在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Auto-Target]个性化算法中输入数据。
+在构建个性化模型时，离线数据（如CRM信息或客户流失倾向分数）可能非常有价值。 有几种方法可在[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 自动定位]个性化算法中输入数据。
 
 * [mbox 参数](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}
 * [轮廓参数](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}
 * [用于配置文件更新的服务器端API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=zh-Hans){target=_blank}
 
-有关[!UICONTROL Automated Personalization]和[!UICONTROL Auto-Target]个性化算法自动收集和使用的数据的信息，请参阅[Automated Personalization数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
+有关[!UICONTROL Automated Personalization]和[!UICONTROL 自动定位]个性化算法自动收集和使用的数据的信息，请参阅[Automated Personalization数据收集](/help/main/c-activities/t-automated-personalization/ap-data.md)。
 
 ## 培训视频：活动类型
 

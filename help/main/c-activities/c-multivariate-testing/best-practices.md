@@ -1,7 +1,7 @@
 ---
 keywords: MVT;多变量测试;多变量测试最佳实践;MVT 最佳实践;MVT 组合;MVT 报表
-description: 了解如何改进性能、避免问题以及更正在 [!DNL Adobe Target]中创建和运行[!UICONTROL Multivariate Test]活动时可能发生的已知问题。
-title: 有关[!UICONTROL Multivariate Test]活动的最佳实践是什么？
+description: 了解如何改进性能、避免问题以及更正在 [!DNL Adobe Target]中创建和运行[!UICONTROL 多变量测试]活动时可能发生的已知问题。
+title: '[!UICONTROL 多变量测试]活动的最佳实践是什么？'
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
 TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
@@ -11,14 +11,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 611
-ht-degree: 57%
+source-wordcount: 625
+ht-degree: 55%
 
 ---
 
-# [!UICONTROL Multivariate Test]最佳实践
+# [!UICONTROL 多变量测试]最佳实践
 
-以下提示可帮助您在[!DNL Adobe Target]中创建和运行[!UICONTROL Multivariate Test] (MVT)活动时提高性能、避免出现问题，并更正可能会出现的已知问题。
+以下提示可帮助您在[!DNL Adobe Target]中创建和运行[!UICONTROL 多变量测试] (MVT)活动时提高性能、避免出现问题，并更正可能会出现的已知问题。
 
 ## 规划 {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -52,9 +52,9 @@ ht-degree: 57%
 ## 分析 {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * 经常使用[位置贡献报表](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)来监视每个位置和选件的性能。
-* 在[体验性能报表](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)中，根据使用[!UICONTROL Best 5]和[!UICONTROL Worst 5]筛选器显示的数据做出决策。
+* 在[体验性能报表](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)中，根据使用[!UICONTROL 最佳5]和[!UICONTROL 最差5]筛选器显示的数据做出决策。
 
-  使用[!UICONTROL All]筛选器很难提取所需信息，而且并非所有体验都可以显示在图形中。 如果要查看的特定体验不在最佳或最差的5个体验之中，请使用[!UICONTROL All]筛选器。
+  使用[!UICONTROL 全部]筛选器时，很难提取所需信息，而且并非所有体验都可以显示在图形中。 如果您想要查看的特定体验不在最佳或最差的5个体验之中，请使用[!UICONTROL 全部]筛选器。
 
 ## 其他信息 {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 

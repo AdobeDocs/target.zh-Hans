@@ -17,7 +17,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 795
 ht-degree: 22%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 22%
 
 {{permissions-update}}
 
-要访问[!UICONTROL Reporting]配置页面，请单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Reporting]。**
+要访问[!UICONTROL 报告]配置页面，请单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 报告]。**
 
 您可以在此页上指定以下设置：
 
@@ -53,26 +53,26 @@ ht-degree: 22%
 
 选择报表源时，请考虑以下信息：
 
-* **[!DNL Adobe Target]**：如果将此处的报表源设置为&#x200B;**[!DNL Target]**，则将不允许创建或激活使用[!DNL Analytics]或[!DNL Customer Journey Analytics]作为报表源的活动。 必须将报表源更改为&#x200B;**[!UICONTROL Select per activity]**。
-* **[!DNL Adobe Analytics]**：如果将此处的报表源设置为&#x200B;**[!DNL Analytics]**，则将不允许创建或激活使用[!DNL Target]或[!DNL Customer Journey Analytics]作为报表源的活动。 必须将报表源更改为&#x200B;**[!UICONTROL Select per activity]**。
-* **[!DNL Adobe Customer Journey Analytics]**：如果将此处的报表源设置为&#x200B;**[!DNL Customer Journey Analytics]**，则将不允许创建或激活使用[!DNL Target]或[!DNL Analytics]作为报表源的活动。 必须将报表源更改为&#x200B;**[!UICONTROL Select per activity]**。
-* **为每个活动选择**：如果将此处的报表源设置为&#x200B;**[!UICONTROL Select per activity]**，则可以创建和激活所选报表源支持的活动。
+* **[!DNL Adobe Target]**：如果将此处的报表源设置为&#x200B;**[!DNL Target]**，则将不允许创建或激活使用[!DNL Analytics]或[!DNL Customer Journey Analytics]作为报表源的活动。 必须将报表源更改为&#x200B;**[!UICONTROL 为每个活动]**&#x200B;选择。
+* **[!DNL Adobe Analytics]**：如果将此处的报表源设置为&#x200B;**[!DNL Analytics]**，则将不允许创建或激活使用[!DNL Target]或[!DNL Customer Journey Analytics]作为报表源的活动。 必须将报表源更改为&#x200B;**[!UICONTROL 为每个活动]**&#x200B;选择。
+* **[!DNL Adobe Customer Journey Analytics]**：如果将此处的报表源设置为&#x200B;**[!DNL Customer Journey Analytics]**，则将不允许创建或激活使用[!DNL Target]或[!DNL Analytics]作为报表源的活动。 必须将报表源更改为&#x200B;**[!UICONTROL 为每个活动]**&#x200B;选择。
+* **为每个活动选择**：如果将此处的报表源设置为&#x200B;**[!UICONTROL 为每个活动选择]**，则可以创建和激活所选报表源支持的活动。
 
 在确定报表源时，请考虑以下信息：
 
 * **[!DNL Analytics]**：有关使用[!DNL Analytics]作为报表源(A4T)的支持活动的矩阵，请参阅&#x200B;*Adobe Analytics中的[支持的活动类型](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)作为Adobe Target (A4T)*&#x200B;的报表源。
 
-  无论选择何种报表源，都允许创建和激活[!UICONTROL Automated Personalization] (AP)活动。 当您选择[Adobe Analytics作为Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)的报表源时，[!UICONTROL Automated Personalization]活动不受支持。
+  无论选择何种报表源，都允许创建和激活[!UICONTROL Automated Personalization] (AP)活动。 当您选择[Automated Personalization作为Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)的报表源时，[!UICONTROL Adobe Analytics]活动不受支持。
 
   即使您指定[!DNL Analytics]作为报表源，[!DNL Target]也用作[!DNL Automated Personalization]活动的报表源。
 
 * **[!DNL Customer Journey Analytics]**：有关在[!DNL Customer Journey Analytics]中使用[!DNL Target]报表的受支持活动的矩阵，请参阅&#x200B;[!DNL Adobe Customer Journey Analytics]*中的*[!DNL Target]&#x200B;报表中的[受支持的活动类型](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities)。
 
-  无论选择什么报表源，[!UICONTROL Automated Personalization] (AP)、[!UICONTROL Auto-Allocate]和[!UICONTROL Auto-Target]活动都允许创建和激活。 选择[Adobe Customer Journey Analytics作为报表源](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)时，不支持这些活动。
+  无论选择何种报表源，[!UICONTROL Automated Personalization] (AP)、[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动均允许创建和激活。 选择[Adobe Customer Journey Analytics作为报表源](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)时，不支持这些活动。
 
   即使您指定[!DNL Customer Journey Analytics]作为报表源，[!DNL Target]也用作[!DNL Automated Personalization]活动的报表源。
 
-  如果将[!DNL Customer Journey Analytics]指定为[!UICONTROL Auto-Allocate]或[!UICONTROL Auto-Target]活动的报表源，则可以将[!DNL Target]或[!DNL Analytics]用作报表源。
+  如果将[!DNL Customer Journey Analytics]指定为[!UICONTROL 自动分配]或[!UICONTROL 自动定位]活动的报表源，则可以将[!DNL Target]或[!DNL Analytics]用作报表源。
 
 ## 用于报表的时区
 

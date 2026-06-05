@@ -15,8 +15,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 428
-ht-degree: 52%
+source-wordcount: 444
+ht-degree: 55%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->此功能仅适用于[[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)类别。
+>此功能仅适用于[[!UICONTROL 访客配置文件]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)类别。
 
 ## 概述 {#section_303CBC78194D49A2A004945D425441E1}
 
-受众由确定在 [!DNL Target] 活动中包含或排除哪些访客的规则来定义。 一个受众定义可以包含多个规则，而每个规则可以包含多个参数。 如果您包括的规则之一使用[!UICONTROL Visitor Profile]类别，则可以根据访客配置文件属性的特定值定义规则，或将该属性的值与另一个访客配置文件属性进行比较。
+受众由确定在 [!DNL Target] 活动中包含或排除哪些访客的规则来定义。 一个受众定义可以包含多个规则，而每个规则可以包含多个参数。 如果包含的规则之一使用[!UICONTROL 访客配置文件]类别，则可以根据访客配置文件属性的特定值定义规则，或将该属性的值与另一个访客配置文件属性进行比较。
 
 例如，假设您在一家家具公司工作，并将两个客户倾向得分上传到[!DNL Target]：
 
@@ -43,10 +43,10 @@ ht-degree: 52%
 
 ## 创建轮廓属性比较受众 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. 单击&#x200B;**[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**。
+1. 单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
 1. 命名受众并添加可选描述。
-1. 将&#x200B;**[!UICONTROL Visitor Profile]**&#x200B;拖放到受众生成器窗格中。
-1. 从&#x200B;**[!UICONTROL Visitor Profile]**&#x200B;下拉列表中选择一个属性：
+1. 将&#x200B;**[!UICONTROL 访客配置文件]**&#x200B;拖放到受众生成器窗格中。
+1. 从&#x200B;**[!UICONTROL 访客配置文件]**&#x200B;下拉列表中选择一个属性：
 
    ![倾向得分 1](assets/propensity_score_1.png)
 
@@ -54,7 +54,7 @@ ht-degree: 52%
 
    ![倾向得分 2](assets/propensity_score_2.png)
 
-1. 从&#x200B;**[!UICONTROL Choose Comparison Type]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Attribute]**。
+1. 从&#x200B;**[!UICONTROL 选择比较类型]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 属性]**。
 
    “静态值”比较类型允许您将访客配置文件属性与特定值进行比较。
 
@@ -68,7 +68,7 @@ ht-degree: 52%
 
    ![propensity_score_4图像](assets/propensity_score_4.png)
 
-1. 单击 **[!UICONTROL Done]**。
+1. 单击&#x200B;**[!UICONTROL 完成]**。
 
 ## 培训视频![概述徽章](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 

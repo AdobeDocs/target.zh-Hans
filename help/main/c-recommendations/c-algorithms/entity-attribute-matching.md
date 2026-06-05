@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 实体属性匹配示例
 
-[!UICONTROL Entity Attribute Matching]允许您仅推荐匹配的项目，例如：
+[!UICONTROL 实体属性匹配]允许您仅推荐匹配的项目，例如：
 
 * 用户当前正在查看的项目中的属性
 * 用户最近查看的项目

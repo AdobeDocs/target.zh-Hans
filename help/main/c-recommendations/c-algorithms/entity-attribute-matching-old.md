@@ -7,7 +7,7 @@ feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->为标准和促销活动创建和使用包含规则[的](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)过程与用例和示例类似。
+>为标准和促销活动创建和使用包含规则[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的过程与用例和示例类似。
 
 例如，只推荐与当前项目品牌相匹配的项目，如以下示例所示：
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 实体属性匹配示例
 
-[!UICONTROL Entity Attribute Matching]允许您仅推荐匹配的项目，例如：
+[!UICONTROL 实体属性匹配]允许您仅推荐匹配的项目，例如：
 
 * 用户当前正在查看的项目中的属性
 * 用户最近查看的项目

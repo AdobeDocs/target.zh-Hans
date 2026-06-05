@@ -12,8 +12,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 187
-ht-degree: 33%
+source-wordcount: 189
+ht-degree: 32%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 33%
 >
 >[!DNL Target]团队当前正在更新用于下载[!DNL Recommendations]源的NAT网关地址。 如果实施IP列入允许列表，请确保您允许列表以下新的AWS主机。 现有主机将于2024年6月30日停用。 为确保平稳过渡，请允许列表所有九个地址。 无需急迫删除现有地址。
 
-[!DNL Target] [!UICONTROL Recommendations]活动在访问客户的FTP服务器时使用以下AWS主机：
+[!DNL Target] [!UICONTROL 推荐]活动在访问客户的FTP服务器时使用以下AWS主机：
 
 **新主机**：
 
@@ -46,4 +46,4 @@ ht-degree: 33%
 | 俄勒冈 | `44.232.167.82` |
 | 俄勒冈 | `52.41.252.205` |
 
-[!DNL Target] [!UICONTROL Recommendations] API也使用相同的AWS主机。
+[!DNL Target] [!UICONTROL 推荐] API也使用相同的AWS主机。

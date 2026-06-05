@@ -19,7 +19,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 659
+source-wordcount: 687
 ht-degree: 2%
 
 ---
@@ -54,35 +54,35 @@ ht-degree: 2%
 
 执行以下步骤以添加组件或隐藏网页上的组件：
 
-1. 在[!DNL Adobe Journey Optimizer]中，单击左边栏中的&#x200B;**促销活动**&#x200B;以显示[!UICONTROL Campaigns]页面。
+1. 在[!DNL Adobe Journey Optimizer]中，单击左边栏中的&#x200B;**促销活动**&#x200B;以显示[!UICONTROL 促销活动]页面。
 
    ![突出显示了“营销活动”选项卡的Adobe Journey Optimizer登陆页面。](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
 
-1. 单击[!UICONTROL Campaigns]页面右上角的&#x200B;**[!UICONTROL Create Campaign]**。
+1. 单击[!UICONTROL 营销活动]页面右上角的&#x200B;**[!UICONTROL 创建营销活动]**。
 
-1. 选择&#x200B;**[!UICONTROL Scheduled - Marketing]**（默认），然后单击&#x200B;**创建**&#x200B;以显示[!UICONTROL Campaign]详细信息页面。
+1. 选择&#x200B;**[!UICONTROL 计划 — 营销]**（默认），然后单击&#x200B;**创建**&#x200B;以显示[!UICONTROL 营销活动]详细信息页面。
 
    Adobe Journey Optimizer中的![促销活动详细信息页面](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
-1. 在&#x200B;**[!UICONTROL Properties]**&#x200B;部分中，为营销策划提供描述性名称和可选描述。
+1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，为营销活动提供描述性名称和可选描述。
 
-1. （视情况而定）在&#x200B;**[!UICONTROL Audience]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Select Audience]**&#x200B;并选择所需的受众。
+1. （视情况而定）在&#x200B;**[!UICONTROL 受众]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 选择受众]**，然后选择所需的受众。
 
-   对于此用例，您可以激活[!UICONTROL All Visitors]的营销活动（默认）。
+   对于此用例，您可以为[!UICONTROL 所有访客]（默认）激活营销活动。
 
-1. 在&#x200B;**[!UICONTROL Action]**&#x200B;部分中，从&#x200B;**[!UICONTROL Action]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Web]**，然后选择或创建新的Web配置。
+1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，从&#x200B;**[!UICONTROL 操作]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Web]**，然后选择或创建新的Web配置。
 
    Web配置或渠道界面是由系统管理员定义的配置。 Web配置包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。
 
    有关详细信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[设置渠道平面](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}。
 
-1. 在&#x200B;**[!UICONTROL Action]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Edit Content]**&#x200B;以在[!DNL Journey Optimizer] Web设计器中打开您的网站。
+1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以在[!DNL Journey Optimizer] Web设计器中打开您的网站。
 
    ![LUMA网站上的瑜伽登陆页面](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. 要添加隐藏元素，请单击右边栏中的&#x200B;**[!UICONTROL Edit Web Page]**。
+1. 要添加隐藏元素，请单击右边栏中的&#x200B;**[!UICONTROL 编辑网页]**。
 
-1. 单击要隐藏的元素，然后单击右边栏中的[!UICONTROL Hide]按钮。
+1. 单击要隐藏的元素，然后单击右边栏中的[!UICONTROL 隐藏]按钮。
 
    右边栏显示您可以对选定元素执行的选项。 这些选项会因所选的元素而异。
 
@@ -92,18 +92,18 @@ ht-degree: 2%
 
    ![后退箭头](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
-1. 单击&#x200B;**[!UICONTROL Review to Activate]**，确保一切按预期显示，然后单击&#x200B;**激活**。
+1. 单击&#x200B;**[!UICONTROL 查看以激活]**，确保一切按预期显示，然后单击&#x200B;**激活**。
 
 ## 查看报告
 
-单击[!UICONTROL Reports]按钮，然后单击所需的报告周期：
+单击[!UICONTROL 报表]按钮，然后单击所需的报告周期：
 
-* [!UICONTROL View all time report]
-* [!UICONTROL View last 24hrs report]
+* [!UICONTROL 查看所有时间报表]
+* [!UICONTROL 查看最近24小时的报告]
 
 有关详细信息，请参阅&#x200B;*Journey Optimizer文档*&#x200B;中的[开始使用新的报表接口](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}。
 
 >[!MORELIKETHIS]
 >
->在&#x200B;*Journey Optimizer文档中[使用Web设计器](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}*
+>在&#x200B;*Journey Optimizer文档*&#x200B;中[使用Web设计器](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}
 >[在&#x200B;*Journey Optimizer教程*&#x200B;中创建营销活动](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}

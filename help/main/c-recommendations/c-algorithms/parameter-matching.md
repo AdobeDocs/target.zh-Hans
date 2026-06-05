@@ -12,12 +12,12 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 346
+source-wordcount: 350
 ht-degree: 10%
 
 ---
 
-# [!UICONTROL Parameter Matching]
+# [!UICONTROL 参数匹配]
 
 通过比较项目（实体）与请求中的值（API或mbox）来进行动态筛选。
 
@@ -37,7 +37,7 @@ ht-degree: 10%
 
 ## 参数匹配示例
 
-[!UICONTROL Parameter Matching]允许您推荐与页面参数或访客参数（如设备维度或地理位置）匹配的内容，如以下示例所示：
+[!UICONTROL 参数匹配]允许您推荐与页面参数或访客参数（如设备维度或地理位置）匹配的内容，如以下示例所示：
 
 [!DNL Recommendations]可以匹配[!DNL Target]调用中发送的参数值。 在此实例中，[!DNL Target]根据[!DNL Target]调用中发送的屏幕高度和宽度参数检测访客正在使用移动设备，并仅推荐属于移动设备的项目。
 

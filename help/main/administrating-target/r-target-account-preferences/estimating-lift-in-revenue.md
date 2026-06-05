@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 534
-ht-degree: 85%
+source-wordcount: 536
+ht-degree: 84%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->预计提升度目前不适用于[!UICONTROL Experience Targeting] (XT)活动。
+>目前，[!UICONTROL 体验定位] (XT)活动的预计提升不可用。
 
 默认情况下，预计提升功能处于关闭状态。 您可以在帐户首选项中启用此功能。 只有 Experience Cloud 管理员用户可以启用或禁用此功能。 如果禁用预计提升，则界面中不会显示相应的字段。 禁用此功能不会导致数据丢失，包括用于估算的数据。 无论是否启用了此功能，都会根据所收集的数据进行估算。
 

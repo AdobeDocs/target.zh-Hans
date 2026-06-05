@@ -6,8 +6,8 @@ feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 33%
+source-wordcount: '623'
+ht-degree: 32%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 33%
 
 1. 按照[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)中的说明创建或编辑活动。
 
-1. 要指定将显示体验的页面，请在[!UICONTROL Visual Experience Composer] (VEC)中单击齿轮图标，然后选择&#x200B;**[!UICONTROL Page Delivery]**。
+1. 要指定将显示体验的页面，请在[!UICONTROL 可视化体验编辑器] (VEC)中单击齿轮图标，然后选择&#x200B;**[!UICONTROL 页面交付]**。
 
    ![齿轮图标>页面交付](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
-1. 单击&#x200B;**[!UICONTROL Add Template Rule]**，然后为要将体验添加到的页面指定条件。
+1. 单击&#x200B;**[!UICONTROL 添加模板规则]**，然后为要将体验添加到的页面指定条件。
 
-1. 指定页面范围。页面范围可以是以下任一类型：
+1. 指定页面范围。 页面范围可以是以下任一类型：
 
    * URL （有关Target如何评估URL的详细信息，请参阅[目标和受众常见问题解答](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)。）
    * 域
@@ -49,7 +49,7 @@ ht-degree: 33%
 
 1. 选择运算符。
 
-   运算符可指定运算符后面的项目与页面范围之间的关系。可用的运算符包括：
+   运算符可指定运算符后面的项目与页面范围之间的关系。 可用的运算符包括：
 
    * 包含
    * 不包含
@@ -60,7 +60,7 @@ ht-degree: 33%
 
 1. 键入相应的字符串以定义要将体验添加到的位置，例如域或页面名称中包含的字符串。
 
-   例如，如果您选择&#x200B;**[!UICONTROL Domain]**&#x200B;和&#x200B;**[!UICONTROL Is (case sensitive)]**，请键入要将体验添加到的所有页面所在的域。
+   例如，如果您选择&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 是（区分大小写）]**，请键入要将体验添加到的所有页面所在的域。
 
    您可以包含多个项目。
 
@@ -68,9 +68,9 @@ ht-degree: 33%
    >
    >多个项目使用OR逻辑，这意味着列表中的任一项目均满足条件。
 
-1. 如有需要，单击&#x200B;**[!UICONTROL Add Template Rule]**&#x200B;并重复前一步骤中的操作过程，以输入其他条件。
+1. 如有需要，请单击&#x200B;**[!UICONTROL 添加模板规则]**&#x200B;并重复前面的步骤来输入其他条件。
 
-   多个标准会使用 AND 逻辑进行连接。[!DNL Target]将体验添加到符合指定条件的所有页面。
+   多个标准会使用 AND 逻辑进行连接。 [!DNL Target]将体验添加到符合指定条件的所有页面。
 
 >[!IMPORTANT]
 >
@@ -90,11 +90,11 @@ ht-degree: 33%
 
 1. 按照[活动](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)中的说明创建或编辑活动。
 
-1. 要指定将显示体验的域，请在可视化体验编辑器中单击齿轮图标，然后选择&#x200B;**[!UICONTROL Page Delivery]**。
+1. 要指定将显示体验的域，请在可视化体验编辑器中单击齿轮图标，然后选择&#x200B;**[!UICONTROL 页面交付]**。
 
-1. 单击&#x200B;**[!UICONTROL Add Template Rule]** > **[!UICONTROL Domain]**。
+1. 单击&#x200B;**[!UICONTROL 添加模板规则]** > **[!UICONTROL 域]**。
 
-1. 从&#x200B;**[!UICONTROL Choose evaluator]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL Contains]**，然后指定域。
+1. 从&#x200B;**[!UICONTROL 选择计算器]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 包含]**，然后指定域。
 
    ![域包含](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 

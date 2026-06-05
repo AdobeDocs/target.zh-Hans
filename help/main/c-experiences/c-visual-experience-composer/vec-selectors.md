@@ -13,7 +13,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 444
+source-wordcount: 455
 ht-degree: 29%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 29%
 
 您可以在&#x200B;*[!DNL Mozilla Developer Network]* (MDN)上的[选择器](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)文档中找到有关CSS选择器的基本信息。
 
-您可以设置要在帐户首选项中使用元素类还是元素 ID。 单击&#x200B;**[!UICONTROL Administration > Visual Experience Composer]**，然后选择首选的CSS选择器。
+您可以设置要在帐户首选项中使用元素类还是元素 ID。 单击&#x200B;**[!UICONTROL 管理>可视化体验编辑器]**，然后选择首选的CSS选择器。
 
 * **使用元素ID**：如果同一ID用于多个元素，或者元素ID在页面加载时可能发生更改，则禁用。
 * **使用元素类**：如果页面上的元素类可能发生更改，则禁用。
@@ -32,7 +32,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->元素类在[!UICONTROL A/B Test]、[!UICONTROL Automated Personalization]和[!UICONTROL &#x200B; Multivariate Test]活动中可用作选择器。
+>元素类在[!UICONTROL A/B测试]、[!UICONTROL Automated Personalization]和[!UICONTROL 多变量测试]活动中可用作选择器。
 
 有关何时使用 CSS 选择器以及何时使用唯一 ID 的信息，请参阅[可视化体验编辑器最佳实践和限制](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)。
 

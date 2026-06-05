@@ -1,6 +1,6 @@
 ---
 keywords: 受众;受众规则;创建受众
-description: 了解如何创建自定义受众并将它们保存到 [!DNL Adobe Target] [!UICONTROL Audiences]库以供在活动中使用。
+description: 了解如何创建自定义受众并将它们保存到 [!DNL Adobe Target] [!UICONTROL 受众]库以供在活动中使用。
 title: 如何构建受众？
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
@@ -13,14 +13,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 525
-ht-degree: 51%
+source-wordcount: 538
+ht-degree: 50%
 
 ---
 
 # 在[!DNL Target]中生成受众
 
-创建自定义受众并将它们保存到[!DNL Adobe Target] [!UICONTROL Audiences]库以供您的活动使用。 您还可以复制现有受众，然后对其进行编辑以创建类似受众并合并多个受众。
+创建自定义受众并将它们保存到[!DNL Adobe Target] [!UICONTROL 受众]库，以便在您的活动中使用。 您还可以复制现有受众，然后对其进行编辑以创建类似受众并合并多个受众。
 
 ## 受众概述
 
@@ -42,15 +42,15 @@ ht-degree: 51%
 
 ## 创建受众
 
-1. 单击顶部菜单栏中的&#x200B;**[!UICONTROL Audiences]**。
+1. 单击顶部菜单栏中的&#x200B;**[!UICONTROL 受众]**。
 
    ![audiences_list图像](assets/audiences_list.png)
 
-1. 从[!UICONTROL Audiences]列表中，单击&#x200B;**[!UICONTROL Create Audience]**。
+1. 从[!UICONTROL 受众]列表中，单击&#x200B;**[!UICONTROL 创建受众]**。
 
    或
 
-   要复制现有受众，请从[!UICONTROL Audiences]列表中单击要复制的受众的&#x200B;**[!UICONTROL More Actions]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallListVert.svg)），然后单击&#x200B;**[!UICONTROL Duplicate]**。 然后，您可以对受众进行编辑以创建一个类似的受众。
+   要复制现有受众，请从[!UICONTROL 受众]列表中单击要复制的受众的&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标（![更多操作图标](/help/main/assets/icons/MoreSmallListVert.svg)），然后单击&#x200B;**[!UICONTROL 复制]**。 然后，您可以对受众进行编辑以创建一个类似的受众。
 
 1. 键入唯一的描述性受众名称和可选描述。
 
@@ -62,7 +62,7 @@ ht-degree: 51%
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. 将所需属性从左侧的&#x200B;**[!UICONTROL Attributes]**&#x200B;列表中拖放到受众生成器窗格。
+1. 将所需属性从左侧的&#x200B;**[!UICONTROL 属性]**&#x200B;列表拖放到受众生成器窗格。
 
    ![拖放属性](assets/drag-attribute.png)
 
@@ -76,9 +76,9 @@ ht-degree: 51%
 
 1. （视情况而定）继续添加和定义所需属性。
 
-   要创建另一个容器，请单击&#x200B;**[!UICONTROL Add container]**，或者只需将另一个属性拖入受众生成器窗格。 然后，您可以使用下拉列表调整运算符（AND或OR）。
+   若要创建另一个容器，请单击“添加容器”**&#x200B;**，或者只需将另一个属性拖入“受众生成器”窗格。 然后，您可以使用下拉列表调整运算符（AND或OR）。
 
-1. 单击 **[!UICONTROL Done]**。
+1. 单击&#x200B;**[!UICONTROL 完成]**。
 
    新创建的受众需经过几秒钟的处理后才会显示在列表中。 如果受众未立即显示在列表中，请尝试搜索该受众或刷新列表。
 

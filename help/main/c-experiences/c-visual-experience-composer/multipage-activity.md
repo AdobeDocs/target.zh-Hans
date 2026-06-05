@@ -12,8 +12,8 @@ topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 55%
+source-wordcount: 353
+ht-degree: 54%
 
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 55%
 
 要将页面添加到测试，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL Configure]**&#x200B;图标（![配置图标](/help/main/assets/icons/Setting.svg) ）。
-1. 单击 **[!UICONTROL Add Additional Pages]**。
+1. 单击&#x200B;**[!UICONTROL 配置]**&#x200B;图标（![配置图标](/help/main/assets/icons/Setting.svg)）。
+1. 单击&#x200B;**[!UICONTROL 添加其他页面]**。
 
-   屏幕左侧显示一个[!UICONTROL Pages]窗格。
+   屏幕左侧显示一个[!UICONTROL 页面]窗格。
 
 1. 指定页面并设置默认页面。
 
-   单击&#x200B;**[!UICONTROL Add Page]** （![添加图标](/help/main/assets/icons/Add.svg) ）以添加其他页面，指定页面名称和URL，然后单击&#x200B;**[!UICONTROL Save]**。
+   单击&#x200B;**[!UICONTROL 添加页面]** （![添加图标](/help/main/assets/icons/Add.svg) ）以添加其他页面，指定页面名称和URL，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-1. 使用[!UICONTROL Visual Experience Composer]设计选件在每个页面上的外观。
+1. 使用[!UICONTROL 可视化体验编辑器]设计选件在每个页面上的外观。

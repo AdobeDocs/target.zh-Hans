@@ -11,8 +11,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 355
-ht-degree: 50%
+source-wordcount: 367
+ht-degree: 49%
 
 ---
 
@@ -24,25 +24,25 @@ ht-degree: 50%
 
 1. 登录到 [Adobe Experience Cloud](https://experience.adobe.com/)。
 
-1. 单击导航栏中的&#x200B;**[!UICONTROL App icon]**，然后单击&#x200B;**[!UICONTROL Target]**。
+1. 单击导航栏中的&#x200B;**[!UICONTROL 应用图标]**，然后单击&#x200B;**[!UICONTROL 目标]**。
 
    也可单击主窗口中的 [!DNL Target] 面板以访问 [!DNL Target]（或任何您有权访问的其他 [!DNL Adobe Experience Cloud] 解决方案）。
 
    ![应用程序图标](/help/main/c-intro/assets/appmenu-new.png)
 
-1. （可选）若要在登录到[!DNL Experience Cloud]时设置默认组织，请在您的个人资料头像下单击&#x200B;**[!UICONTROL Preferences]**，然后设置您的默认组织。
+1. （可选）若要在登录到[!DNL Experience Cloud]时设置默认组织，请在个人资料头像下单击&#x200B;**[!UICONTROL 首选项]**，然后设置默认组织。
 
    ![登陆页面](/help/main/c-intro/assets/pagepref-new.png)
 
 ## 更改[!DNL Target] UI的默认语言 {#language}
 
-1. 登录[!DNL Adobe Experience Cloud]或[!DNL Target]后，单击您的个人资料头像，然后单击&#x200B;**[!UICONTROL Preferences]**。
+1. 登录[!DNL Adobe Experience Cloud]或[!DNL Target]后，单击您的个人资料头像，然后单击&#x200B;**[!UICONTROL 首选项]**。
 
-1. 单击&#x200B;**[!UICONTROL Adobe Account]**&#x200B;以访问您的[!DNL Adobe]配置文件。
+1. 单击&#x200B;**[!UICONTROL Adobe帐户]**&#x200B;以访问您的[!DNL Adobe]配置文件。
 
    ![Adobe 帐户](/help/main/c-intro/assets/adobe-account.png)
 
-1. 在[!UICONTROL Account]页上的&#x200B;**[!UICONTROL Preferred languages]**&#x200B;部分中，**[!UICONTROL Add]**。
+1. 在[!UICONTROL 帐户]页面上的&#x200B;**[!UICONTROL 首选语言]**&#x200B;部分中，**[!UICONTROL 添加]**。
 
    此文本指示，这是您希望在Adobe与您联系时[!DNL Adobe]使用的语言。 这也是在[!DNL Target]和其他[!DNL Adobe Experience Cloud]解决方案的UI中使用的语言。 您可以选择多种语言。
 
@@ -61,7 +61,7 @@ ht-degree: 50%
    * 繁体中文
    * 韩语
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 1. 从 [!DNL Adobe Experience Cloud] 或 [!DNL Target] 注销，然后重新登录以使更改生效。
 

@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 621
+source-wordcount: 696
 ht-degree: 32%
 
 ---
@@ -21,35 +21,35 @@ ht-degree: 32%
 
 上传CSV文件以在[!DNL Adobe Target]中自定义您的推荐。
 
-可通过多种方式访问[!UICONTROL Create New Criteria]屏幕。 某些屏幕选项会根据您访问该屏幕的方式而有所不同。
+可通过多种方式来访问“[!UICONTROL 创建新标准]”屏幕。 某些屏幕选项会根据您访问该屏幕的方式而有所不同。
 
-* 在&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;库屏幕上，单击&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**。 您在此处创建的标准会自动设置为可用于所有 [!DNL Recommendations] 活动。
-* 使用[!UICONTROL Visual Experience Composer] (VEC)创建[!DNL Recommendations]活动时，在页面上选择一个元素并单击[!UICONTROL Replace w/ Recommendations]、[!UICONTROL Insert Recommendations Before]或[!UICONTROL Insert Recommendations After]后，您会立即转到[!UICONTROL Select Criteria]屏幕。 然后，您可以选择可用的标准，也可以单击&#x200B;**[!UICONTROL Create Criteria]**。 如果创建新标准，则可以保存标准以供其他[!DNL Recommendations]活动使用。 有关详细信息，请参阅[创建推荐活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
-* 编辑[!DNL Recommendations]活动时，单击页面上的[!UICONTROL Recommendations Location]框并选择&#x200B;**[!UICONTROL Change Criteria]**。 在[!UICONTROL Select Criteria]屏幕上单击&#x200B;**[!UICONTROL Create Criteria]**。 您可以保存新建的标准，以供在其他[!DNL Recommendations]活动中使用。
+* 在&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 标准]**&#x200B;库屏幕上，单击&#x200B;**[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准]**。 您在此处创建的标准会自动设置为可用于所有 [!DNL Recommendations] 活动。
+* 使用[!UICONTROL 可视化体验编辑器] (VEC)创建[!DNL Recommendations]活动时，在页面上选择一个元素并单击[!UICONTROL 替换为推荐]、[!UICONTROL 在之前插入推荐]或[!UICONTROL 在之后插入推荐]后，您会立即转到[!UICONTROL 选择标准]屏幕。 然后，您可以选择可用的标准，也可以单击&#x200B;**[!UICONTROL 创建标准]**。 如果创建新标准，则可以保存标准以供其他[!DNL Recommendations]活动使用。 有关详细信息，请参阅[创建推荐活动](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)。
+* 编辑[!DNL Recommendations]活动时，在页面上的[!UICONTROL 推荐位置]框中单击，然后选择&#x200B;**[!UICONTROL 更改标准]**。 在[!UICONTROL 选择标准]屏幕上，单击&#x200B;**[!UICONTROL 创建标准]**。 您可以保存新建的标准，以供在其他[!DNL Recommendations]活动中使用。
 
-以下步骤假定您使用第一个方法访问[!UICONTROL Create New Criteria]屏幕： **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**&#x200B;库屏幕。
+以下步骤假定您使用第一个方法访问[!UICONTROL 创建新标准]屏幕：**[!UICONTROL 推荐]** > **[!UICONTROL 标准]**&#x200B;库屏幕。
 
-1. 单击&#x200B;**[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**。
+1. 单击&#x200B;**[!UICONTROL 推荐]** > **[!UICONTROL 标准]**。
 
-1. 单击&#x200B;**[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**。
+1. 单击&#x200B;**[!UICONTROL 创建标准]** > **[!UICONTROL 创建标准]**。
 
 1. 在[基本信息](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)部分中填写信息。
 
-1. 从&#x200B;**[!UICONTROL Select Algorithm Type]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Custom Criteria]**。
+1. 从&#x200B;**[!UICONTROL 选择算法类型]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 自定义标准]**。
 
-1. 从&#x200B;**[!UICONTROL Algorithm]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Custom Algorithm]**。
+1. 从&#x200B;**[!UICONTROL 算法]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 自定义算法]**。
 
    >[!NOTE]
    >
-   >上述步骤导致[!UICONTROL Upload CSV]部分显示在[!UICONTROL Create Criteria]对话框的底部。
+   >上述步骤导致[!UICONTROL 上传CSV]部分显示在[!UICONTROL 创建标准]对话框的底部。
 
 1. （视情况而定）在[备份内容](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)部分中填写信息。
 
 1. （视情况而定）在[包含规则](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)部分中填写信息。
 
-1. 在&#x200B;**[!UICONTROL Upload CSV]**&#x200B;部分中，选择CSV文件的&#x200B;**[!UICONTROL Location]**。
+1. 在&#x200B;**[!UICONTROL 上传CSV]**&#x200B;部分中，选择CSV文件的&#x200B;**[!UICONTROL 位置]**。
 
-   要成功上传，CSV 文件的格式设置必须正确。 单击&#x200B;**[!UICONTROL Download the CSV template]**&#x200B;可获取格式正确的CSV文件。
+   要成功上传，CSV 文件的格式设置必须正确。 单击&#x200B;**[!UICONTROL 下载 CSV 模板]**，可获取格式正确的 CSV 文件。
 
    您可以选择以下两个位置：
 
@@ -57,7 +57,7 @@ ht-degree: 32%
 
    * **URL：**&#x200B;要通过URL上传CSV文件，请选择&#x200B;**[!UICONTROL URL]**，然后输入信息源URL。
 
-1. 单击 **[!UICONTROL Create]**。
+1. 单击&#x200B;**[!UICONTROL 创建]**。
 
 ## 注意事项
 
@@ -69,9 +69,9 @@ ht-degree: 32%
 
 * 自定义标准信息源每 24 小时更新一次。
 
-  您可以在[!UICONTROL Recommendations] > [!UICONTROL Criteria]页面上看到每个条件的自定义条件上传的上传和同步状态。 编辑自定义标准时，您还可以在[!UICONTROL Edit]对话框中查看状态。
+  您可以在[!UICONTROL 推荐] > [!UICONTROL 标准]页面上查看每个标准的自定义标准上传和同步状态。 编辑自定义条件时，您还可以在[!UICONTROL 编辑]对话框中查看状态。
 
-* 无错误上载的流程应为[!UICONTROL Scheduled] > [!UICONTROL Downloading Feed File] > [!UICONTROL Importing] > [!UICONTROL Successful]。
+* 无错误上载的流程应为[!UICONTROL 已计划] > [!UICONTROL 正在下载信息源文件] > [!UICONTROL 正在导入] > [!UICONTROL 成功]。
 
 * 如果[!DNL Target]在上传时遇到问题，您可能会收到以下错误消息：
 

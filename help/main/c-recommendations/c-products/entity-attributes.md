@@ -18,7 +18,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1122
+source-wordcount: 1125
 ht-degree: 45%
 
 ---
@@ -112,7 +112,7 @@ mboxCreate('productPage',
 
 >[!NOTE]
 >
->要基于[!UICONTROL Category]页面中的类别显示推荐，则只有一个`categoryId`可以传递到用于显示该特定推荐的mbox中。 `categoryId`的值必须与[!UICONTROL Product Detail]页面上传递的`entity.categoryId`的值完全匹配。
+>要基于[!UICONTROL 类别]页面中的类别显示推荐，则只有一个`categoryId`可以传递到用于显示该特定推荐的mbox中。 `categoryId`的值必须与[!UICONTROL 产品详细信息]页面上传递的`entity.categoryId`的值完全匹配。
 
 示例：
 

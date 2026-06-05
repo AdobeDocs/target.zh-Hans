@@ -15,7 +15,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: 476
 ht-degree: 61%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 61%
 +++回答
 您需要具有一个 Analytics 用户帐户和一个 Target 用户帐户，才能在定义 Analytics 活动时选择报表包。 必须按照相应文档中的所述来配置您的用户帐户。 请参阅[用户权限要求](/help/main/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)。
 
-如果您所在的一个或多个Experience Cloud组拥有Analytics和Target访问权限，并且您自己也有权访问所有报表包，则您应会在&#x200B;**[!UICONTROL Create Activity]**&#x200B;下看到用于使用Analytics创建A/B测试的选项。
+如果您所在的一个或多个Experience Cloud组拥有Analytics和Target访问权限，并且您自己也有权访问所有报表包，则您应会在&#x200B;**[!UICONTROL 创建活动]**&#x200B;下看到用于使用Analytics创建A/B测试的选项。
 
 如果出现配置问题，请检查是否对 A4T 进行了正确配置。
 

@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1663
-ht-degree: 86%
+source-wordcount: 1689
+ht-degree: 85%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 86%
 
 您必须具有以下用户权限之一才能生成身份验证令牌：
 
-* 至少[!UICONTROL Editor]权限（或[!UICONTROL Approver]）
+* 至少[!UICONTROL 编辑者]权限（或[!UICONTROL 审批者]）
 
   有关 [!DNL Target Standard] 客户的详细信息，请在“用户”**&#x200B;中参阅[指定角色和权限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。 有关 [!DNL Target Premium] 客户的详细信息，请参阅[配置企业权限](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)。
 
@@ -53,8 +53,8 @@ ht-degree: 86%
 
 要检索授权令牌，请执行以下操作：
 
-1. 单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**。
-1. 在“调试器工具”部分中，单击&#x200B;**[!UICONTROL Generate New Authentication Token]**。
+1. 单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 实现]**。
+1. 在“调试器工具”部分中，单击&#x200B;**[!UICONTROL 生成新的身份验证令牌]**。
 
    ![生成新的身份验证令牌](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -167,11 +167,11 @@ Target 不再支持 IE 8。
 
 ## 确保 [!DNL Target] 活动正确处理包含查询字符串参数的 URL。 {#query-strings}
 
-[!UICONTROL Activity URL]确定授予访客参加活动资格并向用户呈现活动体验的页面。 在活动创建期间出现提示时，键入完整的 URL 并不总是能确保在该网站页面上提供内容，尤其是当 URL 包含查询字符串参数时。
+[!UICONTROL 活动URL]确定授予访客参加活动资格并向用户呈现活动体验的页面。 在活动创建期间出现提示时，键入完整的 URL 并不总是能确保在该网站页面上提供内容，尤其是当 URL 包含查询字符串参数时。
 
-默认情况下，[!UICONTROL Visual Experience Composer] (VEC)会打开[可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的页面。 您也可以在活动创建期间指定不同页面。
+默认情况下，[!UICONTROL 可视化体验编辑器] (VEC)会打开[可视化体验编辑器设置](/help/main/administrating-target/visual-experience-composer-set-up.md)中指定的页面。 您也可以在活动创建期间指定不同页面。
 
-要在VEC打开后显示其他页面，请单击&#x200B;**[!UICONTROL Configure gear icon]** >选择&#x200B;**[!UICONTROL Page Delivery]** >然后在[!UICONTROL Activity URL]字段中指定所需URL。
+要在VEC打开后显示其他页面，请单击&#x200B;**[!UICONTROL 配置齿轮图标]** >选择&#x200B;**[!UICONTROL 页面交付]** >然后在[!UICONTROL 活动URL]字段中指定所需URL。
 
 ![配置页面传递设置 UI](assets/configure-page-delivery.png)
 
@@ -197,7 +197,7 @@ Target 不再支持 IE 8。
 
 ### 选项 3：不定向到完整 URL，而是利用 URL 的特定部分。
 
-在此方案中，URL是`https://shopping.mycart.com?type=Summers%20Offers`，额外的模板规则使用[!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers指定[!UICONTROL Query]，以OR分隔符分隔：
+在此方案中，URL是`https://shopping.mycart.com?type=Summers%20Offers`，额外的模板规则指定具有[!UICONTROL type] > [!UICONTROL 的[!UICONTROL 查询]是（区分大小写）] > type=Summers%20Offers，以OR分隔符分隔：
 
 ![模板规则利用 URL 的特定部分](assets/option3.png)
 

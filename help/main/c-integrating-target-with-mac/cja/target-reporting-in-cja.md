@@ -24,8 +24,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 1417
-ht-degree: 35%
+source-wordcount: 1488
+ht-degree: 34%
 
 ---
 
@@ -45,10 +45,10 @@ ht-degree: 35%
 
 >[!IMPORTANT]
 >
->此集成与[[!UICONTROL Adobe Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)不同。 实施与支持的活动类型不同。 在将此集成用于[!DNL Target]活动之前，请确保仔细阅读本文。
+>此集成与Target[&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)的Adobe Analytics不同。 实施与支持的活动类型不同。 在将此集成用于[!DNL Target]活动之前，请确保仔细阅读本文。
 
 * 要使用 [!DNL Customer Journey Analytics] 作为 [!DNL Target] 的报表源，您和您的公司必须均可以访问 [!DNL Customer Journey Analytics] 和 [!DNL Target]。 如果您需要任一解决方案的访问权限，请联系组织的管理员或客户代表。
-* 若要创建具有[!DNL Customer Journey Analytics]报告的[!DNL Target]活动，您必须在[!DNL Target]中具有“[!UICONTROL Approver]”或“[!UICONTROL Editor]”角色。
+* 若要创建具有[!DNL Customer Journey Analytics]报告的[!DNL Target]活动，您必须在[!DNL Target]中具有“[!UICONTROL 审批者]”或“[!UICONTROL 编辑者]”角色。
    * 如果您有一个 [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) 帐户，请参阅&#x200B;*用户*&#x200B;中的[指定角色和权限](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)。
    * 如果您有一个 [Target Premium](/help/main/c-intro/intro.md#premium) 帐户，请参阅&#x200B;*企业用户权限*&#x200B;中的[角色和权限](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions)。
 
@@ -89,10 +89,10 @@ ht-degree: 35%
 
 >[!TIP]
 >
->您还可以指定[!DNL Target]在[!DNL Customer Journey Analytics]中对帐户中创建的所有活动(**[!UICONTROL Administration]** > **[!UICONTROL Reporting]** > **[!UICONTROL Reporting Experience Cloud Solution]**)使用报告。 有关详细信息，请参阅[在 [!DNL Target]](/help/main/administrating-target/reporting.md#solution)中配置报表中的&#x200B;*报表云解决方案*。
+>您还可以指定[!DNL Target]在[!DNL Customer Journey Analytics]中对帐户中创建的所有活动使用报告（**[!UICONTROL 管理]** > **[!UICONTROL 报告]** > **[!UICONTROL 报告Experience Cloud解决方案]**）。 有关详细信息，请参阅[在 [!DNL Target]](/help/main/administrating-target/reporting.md#solution)中配置报表中的&#x200B;*报表云解决方案*。
 
-1. 从&#x200B;**[!UICONTROL Activities]**&#x200B;列表中，单击&#x200B;**[!UICONTROL Create Activity]**，然后选择活动类型（根据上述[支持的活动图表](#supported-activities)）并开始设置活动。
-1. 在三部分活动创建工作流的&#x200B;**[!UICONTROL Goals & Settings]**&#x200B;页面上，选择&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;作为报表源。
+1. 从&#x200B;**[!UICONTROL 活动]**&#x200B;列表中，单击&#x200B;**[!UICONTROL 创建活动]**，然后选择活动类型（根据上述[支持的活动图表](#supported-activities)）并开始设置活动。
+1. 在三步活动创建工作流的&#x200B;**[!UICONTROL 目标和设置]**&#x200B;页面上，选择&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;作为报表源。
 
    ![“Customer Journey Analytics 作为报表源”选项](/help/main/c-integrating-target-with-mac/cja/assets/cja-as-reporting-source.png)
 
@@ -112,19 +112,19 @@ ht-degree: 35%
 
    ![使用“目标量度”下的 Customer Journey Analytics 量度选项](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 
-1. 单击 **[!UICONTROL Save & Close]**。
+1. 单击&#x200B;**[!UICONTROL 保存并关闭]**。
 
 ## 设置 [!DNL Customer Journey Analytics] 连接
 
 在创建了 [!DNL Target] 活动之后，您必须在 [!DNL Customer Journey Analytics] 中创建连接。 如果您已设置连接，则可以使用现有连接并跳至下面的步骤 4。 该连接允许 [!DNL Customer Journey Analytics] 开始从数据集内提取数据用于报表。
 
-1. 在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL Connections]**&#x200B;页面上，单击&#x200B;**[!UICONTROL Create a new connection]**。
+1. 在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL 连接]**&#x200B;页面上，单击&#x200B;**[!UICONTROL 新建连接]**。
 
    ![在[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/assets/create-connection.png)中创建新连接链接
 
 1. 使用正确的信息配置您的[连接和数据设置](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/overview){target=_blank}。
 1. 添加您在配置数据流时使用的事件数据集。
-1. 添加&#x200B;**[!UICONTROL Adobe Target Classification Events]**&#x200B;查找数据集，然后单击&#x200B;**[!UICONTROL Next]**。
+1. 添加&#x200B;**[!UICONTROL Adobe Target分类事件]**&#x200B;查找数据集，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
    ![Customer Journey Analytics 中的“添加数据集”对话框](/help/main/c-integrating-target-with-mac/cja/assets/add-datasets.png)
 
@@ -132,7 +132,7 @@ ht-degree: 35%
 
    有关详细信息，请参阅&#x200B;*[!DNL Adobe Customer Journey Analytics]指南*&#x200B;中的&#x200B;*创建连接*&#x200B;中的[添加和配置数据集](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-connections/create-connection#add-dataset){target=_blank}。
 
-1. 将[!UICONTROL Key]字段配置为“key”，并将[!UICONTROL Matching]键字段配置为以下路径：
+1. 使用[!UICONTROL Key]字段作为“key”配置查找数据集，并使用[!UICONTROL 匹配]键字段的以下路径进行配置：
 
    ```
    _experience.decisioning.propositions.scopeDetails.correlationID
@@ -140,7 +140,7 @@ ht-degree: 35%
 
    ![Customer Journey Analytics 中的“Adobe Target 分类事件”对话框](/help/main/c-integrating-target-with-mac/cja/assets/classifications-events.png)
 
-1. 单击&#x200B;**[!UICONTROL Add datasets]**，然后在下一个屏幕上单击&#x200B;**[!UICONTROL Save]**&#x200B;以完成连接。
+1. 单击&#x200B;**[!UICONTROL 添加数据集]**，然后在下一个屏幕上单击&#x200B;**[!UICONTROL 保存]**&#x200B;以完成连接。
 
 ## 设置数据视图
 
@@ -152,39 +152,39 @@ ht-degree: 35%
 
 1. 为了正确查看 [!DNL Customer Journey Analytics] 中的 [!DNL Target] 数据，您必须从查询数据集内添加以下字段作为维度：
 
-   * [!UICONTROL Experience Name]
-   * [!UICONTROL Experience ID]
-   * [!UICONTROL Activity Name]
-   * [!UICONTROL Activity ID]
+   * [!UICONTROL 体验名称]
+   * [!UICONTROL 体验ID]
+   * [!UICONTROL 活动名称]
+   * [!UICONTROL 活动ID]
 
    ![Customer Journey Analytics 中的名称和 ID 选项](/help/main/c-integrating-target-with-mac/cja/assets/names-and-ids.png){width="600" zoomable="yes"}
 
-1. 要在[!UICONTROL Experimentation]面板中使用[!DNL Target]维度，请设置以下上下文标签：
+1. 要在[!UICONTROL 试验]面板中使用[!DNL Target]维度，请设置以下上下文标签：
 
-   * 对于[!UICONTROL Activity Name]，请使用“试验性试验”。
-   * [!UICONTROL Experience Name]，使用“试验变体”。
+   * 对于[!UICONTROL 活动名称]，请使用“试验性试验”。
+   * [!UICONTROL 体验名称]，使用“试验变体”。
 
    ![“试验”面板中的上下文标签](/help/main/c-integrating-target-with-mac/cja/assets/context-labels.png){width="600" zoomable="yes"}
 
-1. 完成设置任何其他字段，完成后单击&#x200B;**[!UICONTROL Save and continue]**。
+1. 完成设置任何其他字段，然后在完成时单击&#x200B;**[!UICONTROL 保存并继续]**。
 
 ## 在[!DNL Customer Journey Analytics]中创建和查看活动报告
 
-完成设置后，通过[!DNL Adobe Experience Cloud]或活动在[!DNL Target]中的[!UICONTROL Reports]选项卡执行[!DNL Customer Journey Analytics]。
+完成设置后，通过[!DNL Adobe Experience Cloud]或活动在[!DNL Target]中的[!UICONTROL 报告]选项卡执行[!DNL Customer Journey Analytics]。
 
-“报表”选项卡具有&#x200B;**[!UICONTROL View in Customer Journey Analytics]**&#x200B;链接。 目前，此链接会将您重定向到[!DNL Customer Journey Analytics]主页登陆页面。
+“报表”选项卡具有Customer Journey Analytics **链接中的**&#x200B;视图。 目前，此链接会将您重定向到[!DNL Customer Journey Analytics]主页登陆页面。
 
 ![CJA报表链接](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
 
 >[!NOTE]
 >
->此集成与[!UICONTROL Adobe Analytics for Target] (A4T)不同。
+>此集成与Target (A4T)的Adobe Analytics不同。
 >
 >* [!DNL Target]/[!DNL Customer Journey Analytics]集成不包括预建报表，如A4T。 必须在[!DNL Customer Journey Analytics]中生成活动报告。
 >
->* 如果选择[!UICONTROL Use a CJA Metric]作为活动的目标量度，则此选项可以灵活地确定何时必须定义特定的成功量度。 在配置[!UICONTROL Experimentation]面板时选择成功量度。 提升度和置信度通过所选的CJA指标进行计算。
+>* 如果选择[!UICONTROL 使用CJA指标]作为活动的目标指标，则此选项可以灵活地定义特定成功指标。 在配置[!UICONTROL 试验]面板时选择成功量度。 提升度和置信度通过所选的CJA指标进行计算。
 
-1. 在[!DNL Customer Journey Analytics]中，创建一个试验面板，然后从&#x200B;**[!UICONTROL Experiment]**&#x200B;下拉菜单中选择该活动。
+1. 在[!DNL Customer Journey Analytics]中，创建一个试验面板，然后从&#x200B;**[!UICONTROL 试验]**&#x200B;下拉菜单中选择该活动。
 
    有关详细信息，请参阅&#x200B;*[!DNL Customer Journey Analytics]*&#x200B;指南中&#x200B;*试验面板*&#x200B;下的[试验面板](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}。
 
@@ -192,10 +192,10 @@ ht-degree: 35%
 
    >[!IMPORTANT]
    >
-   >如果该活动未出现在[!UICONTROL Experiment]下拉列表中，请验证是否选择了正确的数据视图，以及[!DNL Target]维度是否包含所需的上下文标签（请参阅[设置数据视图](https://experienceleague.adobe.com/zh-hans/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}中的步骤3）。
+   >如果该活动未出现在[!UICONTROL 试验]下拉列表中，请验证是否选择了正确的数据视图，以及[!DNL Target]维度是否包含所需的上下文标签（请参阅[设置数据视图](https://experienceleague.adobe.com/zh-hans/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}中的步骤3）。
 
-1. 单击 **[!UICONTROL Build]**。
+1. 单击&#x200B;**[!UICONTROL 生成]**。
 
-   [!UICONTROL Experimentation]面板会返回丰富的数据和可视化图表，以帮助您更好地了解实验的执行情况。 有关详细信息，请参阅&#x200B;*[!DNL Customer Journey Analytics]*&#x200B;指南中&#x200B;*试验面板*&#x200B;下的[[!UICONTROL Panel output]](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank}。
+   [!UICONTROL 试验]面板返回丰富的数据和可视化图表，帮助您更好地了解试验的执行情况。 有关详细信息，请参阅&#x200B;*[!DNL Customer Journey Analytics]*&#x200B;指南中&#x200B;*试验面板*&#x200B;下的[[!UICONTROL 面板输出]](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank}。
 
    ![正在试验](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)

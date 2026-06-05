@@ -17,7 +17,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2624
+source-wordcount: 2699
 ht-degree: 27%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 27%
 +++回答
 您可以使用[!DNL Analysis Workspace]来分析您的[!DNL Target]活动和体验。 通过[Analytics for Target面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hans)，最多可查看三个成功量度的提升度和置信度。 您还可以使用表格和可视化图表深入了解。
 
-有关详细信息和示例，请打开由[!UICONTROL Adobe Experience League]提供的[Analytics &amp; Target：分析最佳实践教程](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
+有关详细信息和示例，请打开由[!UICONTROL Adobe Experience League]提供的[Analytics &amp; Target： Analysis最佳实践教程](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)。
 
 +++
 
@@ -60,10 +60,10 @@ ht-degree: 27%
 
 +++
 
-## 在配置我的[!UICONTROL Goal Metrics]时，为何无法访问[!UICONTROL Advanced Settings]？
+## 在配置我的[!UICONTROL 目标指标]时，为何无法访问[!UICONTROL 高级设置]？
 
 +++回答
-对于使用[!DNL Analytics]作为报表源(A4T)的活动，目标量度使用“[!UICONTROL Increment Count & Keep User in Activity]”和“[!UICONTROL On Every Impression]”设置。 这些设置是&#x200B;*不可配置的*。
+对于使用[!DNL Analytics]作为报表源(A4T)的活动，目标量度使用“[!UICONTROL 递增计数并保持用户处于活动中]”和“[!UICONTROL 每次展示]”设置。 这些设置是&#x200B;*不可配置的*。
 
 有关更多信息，请参阅配置目标指标时为何无法访问高级设置选项？ 在[量度定义中 — A4T常见问题解答](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)。
 
@@ -83,18 +83,18 @@ ht-degree: 27%
 请考虑以下事项：
 
 * 当用户符合活动条件并从[!DNL Target]返回内容时，上述量度会触发。 这并不一定意味着用户查看了该产品建议。 如果活动体验未显示且用户未向下滚动页面，则表示该产品建议由 [!DNL Target] 提供，但用户并未查看。
-* [!UICONTROL Activity Impressions] （由[!DNL Target]测量）和[!UICONTROL Instances] （由[!DNL Analytics]测量）相等，除非同一活动中的同一页面同时有多个mbox调用。 这会导致多个[!UICONTROL Activity Impressions]被计数，但只有一个[!UICONTROL Instance]。
+* [!UICONTROL 活动展示次数]（由[!DNL Target]测量）与[!UICONTROL 实例]（由[!DNL Analytics]测量）相等，除非同一活动的同一页面上有多个mbox调用。 这会导致“[!UICONTROL 活动展示次数]”被计入多次，而“[!UICONTROL 实例]”只被计入一次。
 
 有关详细信息，请参阅&#x200B;*Analysis Workspace教程*&#x200B;中的[如何在Adobe Target中为自动定位活动设置A4T报告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hans)。
 
 +++
 
-## 为什么[!DNL Analysis Workspace]中的“活动展示次数”和“活动转化次数”高于[!UICONTROL Reports & Analytics]？ {#sametouch}
+## 为什么[!DNL Analysis Workspace]中的“活动展示次数”和“活动转化次数”高于[!UICONTROL Reports &amp; Analytics]？ {#sametouch}
 
 +++回答
 [!DNL Reports & Analytics]将同接触归因模型应用于“活动展示次数”和“活动转化次数”，而[!DNL Analysis Workspace]显示原始量度，由于[!DNL Target]维度的持久性，这些量度可能会虚增。
 
-要评估[!DNL Analysis Workspace]中的准确[!UICONTROL Activity Impressions]和[!UICONTROL Activity Conversions]量度，请确保这两个量度都应用了[!UICONTROL Same Touch]归因模型。 可以通过单击列设置齿轮，启用[!UICONTROL Non-default attribution models]，然后选择[!UICONTROL Same Touch]来应用模型。 在&#x200B;*Analytics工具指南*&#x200B;的[Attributes IQ概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=zh-Hans)中了解有关归因的更多信息。
+要计算[!DNL Analysis Workspace]中准确的[!UICONTROL 活动展示次数]和[!UICONTROL 活动转化次数]量度，请确保这两个量度都应用了[!UICONTROL 同一接触]归因模型。 可以通过单击列设置齿轮，启用[!UICONTROL 非默认归因模型]，然后选择[!UICONTROL 同一联系]来应用模型。 在&#x200B;*Analytics工具指南*&#x200B;的[Attributes IQ概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=zh-Hans)中了解有关归因的更多信息。
 
 +++
 
@@ -123,7 +123,7 @@ ht-degree: 27%
 
 您可能会看到在过期后发送到[!DNL Analytics]的[!DNL Target]变量，因为过期时间为90天，但前提是该用户从未看到其他启用A4T的[!DNL Target]活动。 如果用户在第 45 天返回网站并查看了另一个活动，则整个 A4T eVar 值会将其计数器重置为 90 天。 这意味着从第 1 天开始的第一个营销活动可能会持续存在 45 + 90 = 135 天。 如果用户不断返回，您可能会看到报表中的指标从较旧的活动发送到[!DNL Analytics]。 当用户删除Cookie且不再返回网站时，该活动中的数字会下降，但您仍然可以看到它们。
 
-这意味着在活动结束后（对于在活动处于活动状态时成为活动一部分的访客），活动将继续获取页面查看次数、访问次数等，时间可长达90天。 但是，如果查看[!UICONTROL Activity Impressions]量度，则不应在活动结束之后看到任何展示次数。
+这意味着在活动结束后（对于在活动处于活动状态时成为活动一部分的访客），活动将继续获取页面查看次数、访问次数等，时间可长达90天。 不过，如果您查看的是“[!UICONTROL 活动展示次数]”量度，则在活动结束后您不会看到任何展示次数。
 
 这是正常的预期行为。 A4T 变量的运作与其他任何 eVar 相同 - 该值会与用户相关联，直到它到达过期期限（90 天）。 因此，如果某个活动仅在2周内处于活动状态，则该值在至少接下来的90天内仍与用户相关联。
 
@@ -171,14 +171,14 @@ A4T活动报表在停用后的展示次数来源可以是QA模式流量。 Targe
 
 +++
 
-## 为什么[!DNL Analytics]和[!UICONTROL Analytics for Adobe Target] (A4T)计算[!UICONTROL Unique Visitors]量度的数字不同？ {#section_0C3B648AB54041F9A2AA839D51791883}
+## 为什么[!DNL Analytics]和[!UICONTROL Analytics for Adobe Target] (A4T)计算[!UICONTROL 独特访客]指标的数字不同？ {#section_0C3B648AB54041F9A2AA839D51791883}
 
 +++回答
 运行A/B测试(使用[Welch的t检验](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}（置信度量度）来选择测试的入选者)时，其中一个假设是存在固定的时间范围。 除非您查看固定样本量，否则测试在统计上无效。
 
-仅当您查看的时段短于实际测试的时段时，[!UICONTROL Unique Visitors]量度在[!DNL Analytics]和[!DNL Target]中不同。 如果尚未达到样本量，测试就不那么可靠。 有关详细信息，请参阅 [Evan Miller 的网站](https://www.evanmiller.org/index.html)上的[如何正确运行 A/B 测试](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
+仅当您查看的时段短于实际测试的时段时，[!UICONTROL 独特访客]量度在[!DNL Analytics]和[!DNL Target]中不同。 如果尚未达到样本量，测试就不那么可靠。 有关详细信息，请参阅 [Evan Miller 的网站](https://www.evanmiller.org/index.html)上的[如何正确运行 A/B 测试](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)。
 
-[!UICONTROL Unique Visitors]量度显示了在指定时间段内接触过测试并访问过网站的人数。 这些人是测试的一部分，应该被计入。 如果您只想查看一周内接触过该测试的人数，则可以创建一个具有活动展示次数的访客区段并将其应用于报表。
+[!UICONTROL 独特访客]指标显示在指定时间段内接触过测试并访问过网站的人数。 这些人是测试的一部分，应该被计入。 如果您只想查看一周内接触过该测试的人数，则可以创建一个具有活动展示次数的访客区段并将其应用于报表。
 
 您可以缩短[!DNL Target]变量持续保留到会话的时间；但是，对于转化事件不太可能在同一会话中发生的测试而言，这会产生问题。
 
@@ -198,7 +198,7 @@ A4T活动报表在停用后的展示次数来源可以是QA模式流量。 Targe
 ## A4T 是否支持虚拟报表包？ {#virtual}
 
 +++回答
-尽管虚拟报表包未包含在[!UICONTROL Report Suite]列表中，但与链接到[!DNL Analytics]中虚拟报表包的报表包共享的任何A4T数据都可以访问该数据。 请注意，任何从虚拟报表包创建的受众都不能共享回[!DNL Target]。
+虽然虚拟报表包未包含在[!UICONTROL 报表包]列表中，但与链接到[!DNL Analytics]中虚拟报表包的报表包共享的任何A4T数据都可以访问该数据。 请注意，任何从虚拟报表包创建的受众都不能共享回[!DNL Target]。
 
 +++
 
@@ -211,7 +211,7 @@ A4T活动报表在停用后的展示次数来源可以是QA模式流量。 Targe
 
 +++
 
-## 在使用A4T的[!UICONTROL Auto-Target]活动中，访问次数如何计入[!DNL Analytics]，转化功劳如何分配？
+## 在使用A4T的[!UICONTROL 自动定位]活动中，访问次数如何计入[!DNL Analytics]，转化功劳如何分配？
 
 +++回答
 当访客在A4T活动中符合、查看内容或转化时，[!DNL Target]将事件数据发送到[!DNL Analytics]。 此事件数据允许[!DNL Analytics]将页面上发生的转化事件和其他点击流事件归因于相关的[!DNL Target]活动和体验。
@@ -220,8 +220,8 @@ A4T活动报表在停用后的展示次数来源可以是QA模式流量。 Targe
 
 * 通常，作为最佳实践，您的报告窗口应从活动的开始日期开始。
 * 如果转换发生在报表窗口之外，则该转换在[!DNL Analytics]中不可见。
-* 当处于[!UICONTROL Auto-Target]活动流量的“目标”部分时，访客可能会在不同会话间看到不同的体验。 例如，如果他们的配置文件或上下文已更改，[!DNL Target]的机器学习算法决定他们更有可能在新体验上转化。 随着访客从体验移至体验，所看到的每个体验的访问计数都会增加。 这不同于常规的A/B测试活动，这些活动中的体验跨访问对访客来说是粘性的。
-* 如果访客在多次访问中看到多个体验，则任何转化始终会归因于访客看到的最后一次体验。 如前所述，访客看到的每个体验的访问计数都会递增。 在[!DNL Adobe Analytics]报表的“[!UICONTROL Targeted]”维度下查看体验时，这可能会人为降低每个体验的转化率。
+* 当处于[!UICONTROL 自动定位]活动的“目标”流量部分时，访客可能会在不同会话间看到不同的体验。 例如，如果他们的配置文件或上下文已更改，[!DNL Target]的机器学习算法决定他们更有可能在新体验上转化。 随着访客从体验移至体验，所看到的每个体验的访问计数都会增加。 这不同于常规的A/B测试活动，这些活动中的体验跨访问对访客来说是粘性的。
+* 如果访客在多次访问中看到多个体验，则任何转化始终会归因于访客看到的最后一次体验。 如前所述，访客看到的每个体验的访问计数都会递增。 在[!DNL Adobe Analytics]报表的“[!UICONTROL 目标]”维度下查看体验时，这可能会人为降低每个体验的转化率。
 
 +++
 
@@ -231,10 +231,10 @@ A4T活动报表在停用后的展示次数来源可以是QA模式流量。 Targe
 
 要在[!DNL Analysis Workspace]中查看活动展示次数，请执行以下操作：
 
-1. 在[!DNL Target]用户界面中，单击&#x200B;**[!UICONTROL View in Analytics]**。
-1. 将&#x200B;**[!UICONTROL Activity Impressions]**&#x200B;列添加到[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans){target=_blank}报表。
-1. 在&#x200B;**[!UICONTROL Activity Impressions]**&#x200B;列上，单击[!UICONTROL Gear]图标。
-1. 单击 **[!UICONTROL Use non-default attribution model]**。
-1. 选择&#x200B;**[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]**。
+1. 在[!DNL Target] UI中，单击&#x200B;**[!UICONTROL 在Analytics中查看]**。
+1. 将&#x200B;**[!UICONTROL 活动展示次数]**&#x200B;列添加到[[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans){target=_blank}报表。
+1. 在&#x200B;**[!UICONTROL 活动展示次数]**&#x200B;列上，单击[!UICONTROL 齿轮]图标。
+1. 单击&#x200B;**[!UICONTROL 使用非默认归因模型]**。
+1. 选择&#x200B;**[!UICONTROL 同一联系模型]** > **[!UICONTROL 应用]**。
 
 +++

@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 56%
+source-wordcount: 880
+ht-degree: 57%
 
 ---
 
@@ -111,15 +111,15 @@ ht-degree: 56%
 
 ### 创建要使用类别亲和度的受众 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. 从&#x200B;**[!UICONTROL Audiences]**&#x200B;列表中，单击&#x200B;**[!UICONTROL Create Audience]**。
+1. 从&#x200B;**[!UICONTROL 受众]**&#x200B;列表中，单击&#x200B;**[!UICONTROL 创建受众]**。
 
    或
 
    在受众列表中，将鼠标悬停在所需受众上，然后单击复制图标，以复制现有受众。 然后，您可以对受众进行编辑以创建一个类似的受众。
 
 1. 键入描述性受众名称。
-1. 单击&#x200B;**[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**。
-1. 从&#x200B;**[!UICONTROL Visitor Profile]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL Category Affinity]**。
+1. 单击 **[!UICONTROL + 添加规则]** > **[!UICONTROL 访客配置文件]**。
+1. 从&#x200B;**[!UICONTROL 访客配置文件]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 类别亲和度]**。
 
    ![“访客轮廓”>“类别亲和度”](assets/affinity.png)
 
@@ -145,7 +145,7 @@ ht-degree: 56%
    * 等于
 
 1. 在单独的行中指定每个新值（例如，“鞋子”）。
-1. 单击 **[!UICONTROL Save]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ### 在活动中使用类别亲和度受众 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 

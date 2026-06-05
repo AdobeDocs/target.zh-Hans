@@ -15,8 +15,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 56%
+source-wordcount: 903
+ht-degree: 58%
 
 ---
 
@@ -30,36 +30,36 @@ ht-degree: 56%
 
 ## 设置点击跟踪 {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. 在[!UICONTROL Goals & Settings]页面上为活动设置目标时，选择&#x200B;**[!UICONTROL Conversion]**&#x200B;成功量度。
-1. 对于操作，请选择&#x200B;**[!UICONTROL Clicked an element]**，然后单击&#x200B;**[!UICONTROL Select elements]**。
+1. 在“[!UICONTROL 目标和设置]”页面上为活动设置目标时，选择&#x200B;**[!UICONTROL 转化]**&#x200B;成功量度。
+1. 对于操作，选择&#x200B;**[!UICONTROL 已单击元素]**，然后单击&#x200B;**[!UICONTROL 选择元素]**。
 
-   您的页面将在[!UICONTROL Visual Experience Composer] (VEC)中打开。
+   随即会在[!UICONTROL 可视化体验编辑器] (VEC) 中打开您的页面。
 
 1. 选择要跟踪的任何元素。
 
    有关选择元素的提示，请参阅下面的&#x200B;*注意事项*&#x200B;部分。
 
-1. 单击屏幕顶部的&#x200B;**[!UICONTROL Done]**&#x200B;以保存您的选择。
+1. 单击屏幕顶部的&#x200B;**[!UICONTROL 完成]**&#x200B;以保存您的选择。
 
 当活动参加者点击某个选定元素时，该点击即会被计为一次转化。
 
 ## “选定的元素”面板 {#selected-elements}
 
-对于[!UICONTROL A/B Test]、[!UICONTROL Experience Targeting] (XT)、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL Multivariate Test] (MVT)活动，[!UICONTROL Selected Elements]面板在左侧列出了为点击跟踪选择的元素。
+对于[!UICONTROL A/B测试]、[!UICONTROL 体验定位] (XT)、[!UICONTROL Automated Personalization] (AP)和[!UICONTROL 多变量测试] (MVT)活动，[!UICONTROL 选定元素]面板会在左侧列出为点击跟踪选定的元素。
 
 ![“选定的元素”面板](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-单击[!UICONTROL Tracked Components]面板中的某个元素时，可以应用一些操作。 下表介绍了可对元素执行的各项操作：
+单击[!UICONTROL 跟踪的组件]面板中的某个元素时，可以应用一些操作。 下表介绍了可对元素执行的各项操作：
 
 | 操作 | 描述 |
 | --- | --- |
-| [!UICONTROL Tracked actions] | 显示元素操作。 |
-| [!UICONTROL CSS selector] | 允许您编辑 CSS 选择器。 |
+| [!UICONTROL 跟踪的操作] | 显示元素操作。 |
+| [!UICONTROL CSS选择器] | 允许您编辑 CSS 选择器。 |
 | [!DNL Delete] | 删除元素。 |
 
 ### 添加元素
 
-如果您已经知道选择器的DOM路径，则可以通过单击面板顶部的[!UICONTROL Add Component]图标手动添加该路径。
+如果您已经知道选择器的DOM路径，则可以通过单击面板顶部的[!UICONTROL 添加组件]图标来手动添加该路径。
 
 ## 注意事项 {#considerations}
 
@@ -75,7 +75,7 @@ ht-degree: 56%
 * 如果您选择了多个元素，则当参加者点击任一选定元素时，即会被计为一次点击。 要单独对每个项目进行计数，需为每个元素分别设置成功量度。 要通过单击页面上的多个元素而计算一项，请编辑CSS元素选择器以匹配多个元素。
 * 务必选择要跟踪的元素的级别。 例如，指定按钮时，请务必选择链接，而不要选择按钮文本。
 * 点击事件会在发生点击的同一页面上发送到 [!DNL Target]。
-* 如果点击跟踪量度是[!UICONTROL Analytics for Target] (A4T)活动的目标量度，则访客必须在页面加载后的60秒内单击此元素，才能跟踪该量度。
+* 如果点击跟踪量度是[!UICONTROL Analytics for Target] (A4T)活动的目标量度，则访客必须在页面加载后60秒内单击此元素，才能跟踪该量度。
 * 如果元素的选择器中包含转义字符（包括以下字符），则无法对这些元素执行点击跟踪：
 
   | 字符 | 描述 |
@@ -116,7 +116,7 @@ ht-degree: 56%
 以下视频包含有关创建点击跟踪成功量度的信息。
 
 * 了解“目标”量度
-* 了解并生成[!UICONTROL Conversion]、[!UICONTROL Revenue]和[!UICONTROL Engagement]量度
+* 了解并生成[!UICONTROL 转化]、[!UICONTROL 收入]和[!UICONTROL 参与度]量度
 * 构建点击跟踪量度
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

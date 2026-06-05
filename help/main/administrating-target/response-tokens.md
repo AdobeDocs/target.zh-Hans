@@ -29,7 +29,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1749
+source-wordcount: 1767
 ht-degree: 22%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 22%
 
 响应令牌允许您自动将特定于[!DNL Adobe Target]的信息输出到品牌网页。 此信息可以包括有关活动、选件、体验、用户配置文件、地理信息等的详细信息。 这些详细信息提供了额外的响应数据，可用于与内部或第三方工具共享或用于调试。
 
-响应令牌允许您选择要使用的变量（在键值对中），然后启用它们作为[!DNL Target]响应的一部分发送。 您使用开关启用一个变量，该变量将随[!DNL Target]响应一起发送，这可以在网络调用中验证。 响应令牌也可在[!UICONTROL Preview]模式下使用。
+响应令牌允许您选择要使用的变量（在键值对中），然后启用它们作为[!DNL Target]响应的一部分发送。 您使用开关启用一个变量，该变量将随[!DNL Target]响应一起发送，这可以在网络调用中验证。 响应令牌也可在[!UICONTROL 预览]模式下使用。
 
 插件和响应令牌之间的主要区别在于，插件可以将JavaScript交付到在交付时执行的页面。 但是，响应令牌会传递一个对象，然后可以使用事件侦听器读取该对象并对其执行操作。 响应令牌方法更安全，并且允许更轻松地开发和维护第三方集成。
 
@@ -62,7 +62,7 @@ ht-degree: 22%
    * **Platform Web SDK**：请参阅&#x200B;*Platform Web SDK概述*&#x200B;指南中的[安装SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans)。
    * **at.js**：请参阅[下载at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}。
 
-1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**。
+1. 在[!DNL Target]中，单击&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 响应令牌]**。
 
 1. 激活所需的响应令牌，如`activity.id`和`offer.id`。
 
@@ -81,7 +81,7 @@ ht-degree: 22%
    |  | `profile.categoryAffinities` | 将该访客排名前 5 的类别的数组作为字符串返回。 |
    | 活动 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 当前活动的详细信息。<br> 请注意，选件参数的值在体验级别进行评估。 |
    | 地域 | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 请参阅[地域](/help/main/c-target/c-audiences/c-target-rules/geo.md)以了解在活动中使用地域定位的详细信息。 |
-   | 流量分配方法<br>（仅适用于[!UICONTROL Auto-Target]和[!UICONTROL Automated Personalization]活动。） | `experience.trafficAllocationId` | 如果访客因处于“control”流量中而获得体验，则返回0；如果访客从“targeted”流量分配获得体验，则返回1。 |
+   | 流量分配方法<br>（仅适用于[!UICONTROL 自动定位]和[!UICONTROL Automated Personalization]活动。） | `experience.trafficAllocationId` | 如果访客因处于“control”流量中而获得体验，则返回0；如果访客从“targeted”流量分配获得体验，则返回1。 |
    |  | `experience.trafficAllocationType` | 返回“control”或“targeted”。 |
 
    用户轮廓属性和客户属性也会显示在列表中。
@@ -90,9 +90,9 @@ ht-degree: 22%
    >
    >包含特殊字符的参数不会显示在列表中。 只支持字母数字字符和下划线。
 
-1. （视情况而定）要将配置文件参数用作响应令牌，但该参数尚未通过[!DNL Target]请求传递，因此尚未加载到[!DNL Target] UI中，您可以使用[!UICONTROL Add Response Token]按钮将该配置文件添加到UI。
+1. （视情况而定）要将配置文件参数用作响应令牌，但该参数尚未通过[!DNL Target]请求传递，因此尚未加载到[!DNL Target] UI中，您可以使用[!UICONTROL 添加响应令牌]按钮将该配置文件添加到UI中。
 
-   单击&#x200B;**[!UICONTROL Add Response Token]**，提供令牌名称，然后单击&#x200B;**[!UICONTROL Activate]**。
+   单击&#x200B;**[!UICONTROL 添加响应令牌]**，提供令牌名称，然后单击&#x200B;**[!UICONTROL 激活]**。
 
 1. 创建一个活动。
 
@@ -194,7 +194,7 @@ ht-degree: 22%
 
 **激活或停用响应令牌需要使用哪个角色？**
 
-响应令牌只能由具有[!DNL Target] [!UICONTROL Administrator]角色的用户激活或停用。
+响应令牌只能由具有[!DNL Target] [!UICONTROL 管理员]角色的用户激活或停用。
 
 **如果我运行的是[!DNL Platform Web SDK] 2.6.0（或更早版本），会发生什么情况？**
 
@@ -444,7 +444,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL Administration]菜单UI（以前为[!UICONTROL Setup]）已重新设计，以提供更好的性能、缩短发布新功能时所需的维护时间并改善整个产品的用户体验。 以下视频中的信息正确；但是，选项的位置略有不同。
+>[!DNL Target] [!UICONTROL 管理]菜单UI（以前称为[!UICONTROL 安装程序]）已重新设计，以提供改进的性能、减少发布新功能时所需的维护时间并改善整个产品的用户体验。 以下视频中的信息正确；但是，选项的位置略有不同。
 >
 >视频提及了`option.name`和`option.id`，它们已分别替换为`offer.name`和`offer.id`。
 

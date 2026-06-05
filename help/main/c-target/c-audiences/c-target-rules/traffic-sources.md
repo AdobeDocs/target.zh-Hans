@@ -5,9 +5,12 @@ title: 我可以根据搜索引擎或反向链接网站定位访客吗？
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 TQID: https://experienceleague.adobe.com/rRGb2gG1f43Y3lapuZlQMdVYx7cc-fe1IMCjLS2km5I
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 267
@@ -24,7 +27,7 @@ ht-degree: 51%
 您可以组合多个流量源来创建一个复杂的目标规则。
 
 1. 在[!DNL Target]界面中，单击&#x200B;**[!UICONTROL 受众]** > **[!UICONTROL 创建受众]**。
-1. 
+1. &#x200B;
    1. 命名受众并添加可选描述。
 1. 将&#x200B;**[!UICONTROL 流量源]**&#x200B;拖放到受众生成器窗格中。
 
@@ -32,10 +35,10 @@ ht-degree: 51%
 
 1. 单击&#x200B;**[!UICONTROL 选择]**，然后选择以下选项之一：
 
-   * 来自百度&#x200B;****
-   * 来自Bing ]**的**[!UICONTROL 
-   * 来自Google ]**的**[!UICONTROL 
-   * 来自Yahoo ]**的**[!UICONTROL 
+   * 来自百度&#x200B;**&#x200B;**
+   * 来自Bing **的**
+   * 来自Google **的**
+   * 来自Yahoo **的**
    * **[!UICONTROL 引荐登陆页面： URL]**
    * **[!UICONTROL 反向链接登陆页面：域]**
    * **[!UICONTROL 引用登录页面：查询]**

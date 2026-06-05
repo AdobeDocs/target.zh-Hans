@@ -8,8 +8,12 @@ hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
 TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 825
@@ -23,7 +27,7 @@ ht-degree: 2%
 
 ## 先决条件
 
-1. 确保您已在 [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)的[启用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先决任务。
+1. 确保您已在 [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)的启用 [!DNL Adobe Experience Platform] [!DNL AI Assistant]中完成先决任务。
 
    * 贵组织必须首先同意法律条款。 有关更多信息，请与您的Adobe客户团队联系。
    * 您的管理员必须授予您访问[!DNL AI Assistant]的足够权限。

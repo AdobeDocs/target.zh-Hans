@@ -5,8 +5,11 @@ title: 可在何处查看 [!DNL Target] 和其他 [!DNL Adobe] 产品的状态�
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 TQID: https://experienceleague.adobe.com/FVxxay-rE3sqbBriUJcqsXsc4WkzsGPQHha0G0Fxt2A
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 319

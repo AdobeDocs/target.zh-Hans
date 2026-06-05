@@ -5,8 +5,11 @@ title: 如何了解[!UICONTROL A/B测试]活动中使用的统计计算？
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
 TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1202
@@ -22,7 +25,7 @@ ht-degree: 2%
 >
 >本文中的信息取代了用于A/B测试的&#x200B;*Adobe Target计算* pdf文件，以前可在此站点上下载。
 
-显示A/B测试活动的[!UICONTROL 转化率]、[!UICONTROL 平均提升度和置信区间]以及[!UICONTROL 置信度]的目标报告。](/help/main/c-reports/statistical-methodology/img/target_report.png)![
+显示A/B测试活动的[!UICONTROL 转化率]、[!UICONTROL 平均提升度和置信区间]以及[!UICONTROL 置信度]的目标报告。![&#128279;](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## 平均性能
 
@@ -48,7 +51,7 @@ ht-degree: 2%
    * 如果将&#x200B;*[!UICONTROL 访问次数]*&#x200B;用作计数方法，则每个单位都是唯一访问，它在[!DNL Target]会话（具有唯一的`sessionId`）期间定义为体验中的唯一参与者。 当`sessionId`发生更改或访客完成转化步骤时，即会计为新访问。
    * 如果将&#x200B;*[!UICONTROL 活动展示次数]*&#x200B;用作计数方法，则每个单位都是定义为每次访客加载活动的任何页面时的唯一展示次数。
 
-## 平均]/[!UICONTROL 转化率的[!UICONTROL 置信区间]
+## 平均/转化率的[!UICONTROL 置信区间]
 
 转换率的置信区间被直观地定义为与基础数据一致的可能转换率的范围。
 
@@ -102,7 +105,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-此计算使用“Delta”方法，并在本文档](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了[
+此计算使用“Delta”方法，并在本文档[&#128279;](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了
 
 ## [!UICONTROL 置信度]
 

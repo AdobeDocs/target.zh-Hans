@@ -5,9 +5,12 @@ title: 如何在[!UICONTROL 体验定位]活动中创建体验？
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 TQID: https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 975
@@ -33,7 +36,7 @@ ht-degree: 21%
    >
    >默认情况下，VEC 不允许更改包含 JavaScript 的元素，如旋转横幅。 您可以禁用JavaScript以使用VEC更改这些元素。
 
-1. 若要创建其他体验，请单击“添加”****（![“添加”按钮](/help/main/assets/icons/Add.svg)）。
+1. 若要创建其他体验，请单击“添加”**&#x200B;**（![“添加”按钮](/help/main/assets/icons/Add.svg)）。
 
    此时会显示[!UICONTROL 添加受众]对话框。 要将体验定位到某个受众，请在添加体验之前选择该受众。
 

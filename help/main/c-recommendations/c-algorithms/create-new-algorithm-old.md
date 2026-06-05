@@ -88,7 +88,7 @@ ht-degree: 48%
 
 1. 根据需要，选择要匹配的&#x200B;**项目属性**&#x200B;和&#x200B;**配置文件属性**、**推荐键**、**筛选键**&#x200B;和/或&#x200B;**Analytics量度**&#x200B;以配置算法。
 
-其余的算法配置选项因所选算法而异。 要完成算法配置，请选择[!UICONTROL 推荐键]、[!UICONTROL 筛选键]、[!UICONTROL 共同发生基础]、[!UICONTROL Analytics量度]和/或[!UICONTROL 项目属性]和要匹配的配置文件属性]。[!UICONTROL 
+其余的算法配置选项因所选算法而异。 要完成算法配置，请选择[!UICONTROL 推荐键]、[!UICONTROL 筛选键]、[!UICONTROL 共同发生基础]、[!UICONTROL Analytics量度]和/或[!UICONTROL 项目属性]和要匹配的配置文件属性。
 
 有关选择[!UICONTROL 推荐键]的详细信息，请参阅[使推荐基于推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 

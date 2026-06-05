@@ -5,9 +5,14 @@ title: 如何使用[!UICONTROL 可视化体验编辑器] (VEC)选项？
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 TQID: https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 2249
@@ -149,7 +154,7 @@ VEC中的![撤消图标](/help/main/c-experiences/c-visual-experience-composer/a
 
 >[!NOTE]
 >
->可用选项取决于要创建或编辑的活动类型和元素。 有关在[!UICONTROL A/B测试]活动中编辑图像和选件的更多信息，请参阅以下[使用设计]画布](#design)编辑元素。[!UICONTROL 
+>可用选项取决于要创建或编辑的活动类型和元素。 有关在[!UICONTROL A/B测试]活动中编辑图像和选件的更多信息，请参阅以下[使用设计]画布(#design)编辑元素。
 
 ### [!UICONTROL 属性]边栏
 

@@ -20,7 +20,7 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->其他信息包含在创建标准](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)主题的[内容部分中，其中包括一个矩阵，该矩阵说明了当同时或单独使用[!UICONTROL 局部设计渲染]和[!UICONTROL 显示备份推荐]选项时将观察到的结果。
+>其他信息包含在创建标准[&#128279;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)主题的内容部分中，其中包括一个矩阵，该矩阵说明了当同时或单独使用[!UICONTROL 局部设计渲染]和[!UICONTROL 显示备份推荐]选项时将观察到的结果。
 
 备用推荐功能始终采用网站查看最多的项目来填充算法数据被使用后的剩余位置。 例如，您的模板配置为显示 5 个推荐项目，并且您使用的是“*购买相关性*”算法。 然而，您仅有足够的数据来填充 5 个位置中的两个，那么备用推荐功能就会使用查看最多的项目来填充其它 3 个位置。
 

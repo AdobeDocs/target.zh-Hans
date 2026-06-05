@@ -5,9 +5,12 @@ title: 什么是类别亲和度？
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 TQID: https://experienceleague.adobe.com/B5H-MhD005gmDbRErDOmfifwk-WIsOubWUYpQagRKgU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 880
@@ -29,7 +32,7 @@ ht-degree: 57%
 
 根据对您的产品类别进行访问的频率和近期情况，会记录用户所具有的类别亲和度（如果有）。 类别亲和度可用于为活动定位访客群体。
 
-您可以在配置文件脚本中使用`user.categoryAffinities[]`以返回访客填充的一组喜好。 有关详细信息，请参阅配置文件属性](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects)中的对象和方法下的[user.categoryAffinities。
+您可以在配置文件脚本中使用`user.categoryAffinities[]`以返回访客填充的一组喜好。 有关详细信息，请参阅配置文件属性[&#128279;](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects)中的对象和方法下的user.categoryAffinities。
 
 >[!IMPORTANT]
 >

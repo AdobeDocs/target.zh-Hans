@@ -5,10 +5,17 @@ title: 如何创建JSON选件？
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
 TQID: https://experienceleague.adobe.com/BI7N44iK4Ce2xOiz1vgh4O9efGZFAvK83RsL1368ItU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 506
@@ -45,7 +52,7 @@ JSON选件可用于基于表单的活动，以启用以下用例：需要通过[
 
 ## JSON示例 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-仅在使用基于表单的体验编辑器[创建的活动中支持JSON选件。 ](/help/main/c-experiences/form-experience-composer.md)目前，能够使用JSON选件的唯一方法是通过直接API/SDK调用。
+仅在使用基于表单的体验编辑器[创建的活动中支持JSON选件。 &#x200B;](/help/main/c-experiences/form-experience-composer.md)目前，能够使用JSON选件的唯一方法是通过直接API/SDK调用。
 
 示例如下：
 

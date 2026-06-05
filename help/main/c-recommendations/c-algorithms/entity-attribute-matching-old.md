@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->为标准和促销活动创建和使用包含规则](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的[过程与用例和示例类似。
+>为标准和促销活动创建和使用包含规则[&#128279;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)的过程与用例和示例类似。
 
 例如，只推荐与当前项目品牌相匹配的项目，如以下示例所示：
 

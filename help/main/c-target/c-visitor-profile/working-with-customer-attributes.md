@@ -5,9 +5,18 @@ title: 什么是客户属性以及如何使用它们？
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 TQID: https://experienceleague.adobe.com/Ahg5FSw4ugzcnpccVs6s5r5JMe37Oet4lEbC8CS21u4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1617
@@ -186,7 +195,7 @@ ht-degree: 29%
 
 如果在Target中找不到客户属性数据，请确保导入过程在最近&#x200B;*x*&#x200B;天内完成，其中的&#x200B;*x*&#x200B;是Target [访客配置文件生命周期](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md)值（默认为14天）。
 
-## 培训视频：使用客户属性![教程徽章](/help/main/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}上传离线数据
+## 培训视频：使用客户属性![教程徽章](/help/main/assets/tutorial.png)上传离线数据 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
 
 此视频介绍如何将离线CRM、技术支持、销售点和其他营销数据导入[!DNL Experience Cloud People]服务，并使用访客已知ID将其与访客关联。
 

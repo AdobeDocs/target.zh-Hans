@@ -5,10 +5,27 @@ title: ' [!DNL Target] 的工作原理'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 TQID: https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2421
@@ -40,12 +57,12 @@ Target使用[!DNL Experience Platform Web SDK]或at.js与网站集成：
 >
 >mbox.js库是[!DNL Target]的旧版实施，在2021年3月31日之后不再受支持。 升级到[!UICONTROL Experience Platform Web SDK]（首选）或最新版本的at.js。
 
-请在您网站的每个页面上引用[!UICONTROL Experience Platform Web SDK]或at.js。 例如，将其中一个库添加到您的全局标头。 或者，使用Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}中的[标记实现[!DNL Target]。
+请在您网站的每个页面上引用[!UICONTROL Experience Platform Web SDK]或at.js。 例如，将其中一个库添加到您的全局标头。 或者，使用Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}中的标记实现[!DNL Target]。
 
 以下资源包含帮助您实施 [!DNL Experience Platform Web SDK] 或 at.js 的详细信息：
 
 * [[!DNL Adobe Experience Platform Web SDK]扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* [使用 [!DNL Adobe Experience Platform]实施 [!DNL Target] ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [使用 [!DNL Adobe Experience Platform]实施 [!DNL Target] &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 每次访客请求访问针对[!DNL Target]进行优化的页面时，系统都会向定位系统发送实时请求，以确定要提供的内容。 每次加载页面时都会提出并完成此请求，受营销人员控制的活动和体验的约束。 内容针对个别网站访客，可最大限度地提高响应率、客户获取率和收入。 个性化内容有助于确保访客做出响应、与之互动或进行购买。
 

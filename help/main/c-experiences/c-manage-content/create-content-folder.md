@@ -5,8 +5,10 @@ title: 了解如何在[!UICONTROL 选件]库中创建文件夹以保存代码和
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
 TQID: https://experienceleague.adobe.com/Z-iggfiOB-GEAhHr-J-IpK6qD9T-TGoASkVwcVMP3oY
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 291
@@ -48,7 +50,7 @@ ht-degree: 6%
 
 1. （可选）指定描述性&#x200B;**[!UICONTROL 名称]**。
 1. （可选）选择&#x200B;**[!UICONTROL 私有]**&#x200B;以指定该文件夹为私有，以便只有您可以查看它及其内容。
-1. （可选）在列表视图&#x200B;]**中选择**[!UICONTROL &#x200B;可重新排序，以指定您和其他人可重新排序文件夹在[!UICONTROL 列表视图]中的位置。
+1. （可选）在列表视图&#x200B;**中选择**&#x200B;可重新排序，以指定您和其他人可重新排序文件夹在[!UICONTROL 列表视图]中的位置。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 

@@ -7,21 +7,14 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 58%
+source-wordcount: 652
+ht-degree: 41%
 
 ---
 
@@ -31,23 +24,51 @@ ht-degree: 58%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target Standard/Premium] 26.5.3（2026年5月21日）
-
-**[!UICONTROL 新增功能]页面**
-
-+++查看详细信息
-
-* **新[!UICONTROL 新增功能]页面。** 在[!DNL Adobe Target] UI中添加了一个新的&#x200B;**[!UICONTROL 新增功能]**&#x200B;页面，可帮助您在不离开产品的情况下发现最新功能、增强功能和更新。 (TGT-55137)
-
-+++
+## [!DNL Target Standard/Premium] 26.6.1（2026年6月4日）
 
 **活动**
 
 +++查看详细信息
 
-* **在[!UICONTROL Automated Personalization]活动中编辑定位时选择了错误的体验。** 修复了在[!UICONTROL Automated Personalization] (AP)活动中编辑&#x200B;**[!UICONTROL 定位]**&#x200B;步骤时可能选择错误体验的问题。 (TGT-55176)
+* [!UICONTROL 活动概述].**上的**&#x200B;不完整的活动URL 修复了[!UICONTROL 活动概述]未显示活动的完整URL的问题。 (TGT-54029)
 
-* **关闭计划活动时的较早日期。** 修复了导致无法选择较早日期关闭计划活动的问题。 (TGT-55163)
+* **活动报表中存在未本地化的日期格式。** 修复了从&#x200B;**[!UICONTROL 预设日期范围]**&#x200B;下拉列表中选择&#x200B;**最近X天**&#x200B;选项时，**[!UICONTROL 报表]**&#x200B;选项卡上未本地化日期格式的问题。 (TGT-51637)
+
+* **无法在[!UICONTROL 位置].**&#x200B;保存具有某些GB18030字符的基于表单的活动 修复了当&#x200B;**[!UICONTROL 位置]**&#x200B;字段包含特定GB18030字符时无法保存基于表单的活动的问题。 (TGT-46980)
+
++++
+
+**[!UICONTROL 受众]**
+
++++查看详细信息
+
+* 创建简体中文和繁体中文受众流中的&#x200B;**未本地化的日历。** 修复了在创建受众流期间，**[!UICONTROL 时间范围]**&#x200B;属性的&#x200B;**[!UICONTROL 开始]**&#x200B;和&#x200B;**[!UICONTROL 结束]**&#x200B;字段中的日历未以简体中文(CHS)和繁体中文(CHT)区域设置进行本地化的问题。 (TGT-50619)
+
++++
+
+**[!UICONTROL 可视化体验编辑器] (VEC)**
+
++++查看详细信息
+
+* 更新后的活动生成器中的&#x200B;**未本地化的工具提示。** 修复了在更新的[!UICONTROL 可视化体验编辑器]活动生成器中&#x200B;**[!UICONTROL 细化]**&#x200B;和&#x200B;**[!UICONTROL 内容]**&#x200B;信息工具提示未本地化的本地化问题。 (TGT-53721)
+
+* [!UICONTROL 体验受众].**中的**&#x200B;未本地化的[!UICONTROL 所有访客] 修复了左边栏中&#x200B;**[!UICONTROL 体验受众]**&#x200B;的&#x200B;**[!UICONTROL 所有访客]**&#x200B;字符串未在[!UICONTROL 可视化体验编辑器]中本地化的问题。 (TGT-50086)
+
++++
+
+**[!UICONTROL 报表]**
+
++++查看详细信息
+
+* [!UICONTROL 创建预设]窗口中的&#x200B;**未本地化的日期格式。** 修复了&#x200B;**[!UICONTROL 创建预设]**&#x200B;窗口的&#x200B;**[!UICONTROL 日期范围]**&#x200B;字段中的日期格式未本地化的问题。 (TGT-49239)
+
++++
+
+**本地化**
+
++++查看详细信息
+
+* 在多个区域显示&#x200B;**GB18030字符。** 修复了某些专用使用区域字符在&#x200B;**[!UICONTROL 受众]** UI、**[!UICONTROL 管理]** > **[!UICONTROL 属性]**、移动视区配置和Toast通知中错误显示为字母的问题。 （TGT-49622、TGT-49623、TGT-49624和TGT-49625）
 
 +++
 

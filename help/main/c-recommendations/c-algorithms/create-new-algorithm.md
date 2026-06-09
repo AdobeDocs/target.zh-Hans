@@ -15,9 +15,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
 workflow-type: tm+mt
-source-wordcount: 2889
+source-wordcount: 2900
 ht-degree: 45%
 
 ---
@@ -75,6 +75,11 @@ ht-degree: 45%
    垂直行业和页面类型可一起帮助您对保存的标准进行分类，使其更易于在其他[!DNL Recommendations]活动中重复使用。
 
 ## [!UICONTROL 推荐算法] {#rec-algo}
+
+>[!CONTEXTUALHELP]
+>id="target_recommendations_profile_attribute"
+>title="配置文件属性"
+>abstract="您可以使用配置文件脚本创建配置文件属性。"
 
 1. 选择&#x200B;**[!UICONTROL 算法类型]**&#x200B;和&#x200B;**[!UICONTROL 算法]**：
 

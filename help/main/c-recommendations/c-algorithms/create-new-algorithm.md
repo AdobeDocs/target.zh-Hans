@@ -2,23 +2,17 @@
 keywords: 标准；算法；垂直行业；页面类型；推荐键；推荐逻辑；数据范围；回顾窗口；行为数据源；部分设计；备用推荐；包含规则；属性权重；当前类别；自定义属性；上次购买的项目；上次查看的项目；查看次数最多的项目；最喜爱的类别；热门程度；最近查看的项目；上次购买；上次查看；最喜爱的项目；最近查看的项目；最近查看的项目；最近查看的项目
 description: 了解如何创建条件来控制 [!DNL Recommendations] 活动的内容，以显示最适合您的活动的推荐。
 title: 如何在 [!DNL Recommendations]中创建[!UICONTROL 标准]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
 workflow-type: tm+mt
 source-wordcount: 2900
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -78,8 +72,8 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
->title="配置文件属性"
->abstract="您可以使用配置文件脚本创建配置文件属性。"
+>title="轮廓属性"
+>abstract="您可以使用轮廓脚本创建轮廓属性。"
 
 1. 选择&#x200B;**[!UICONTROL 算法类型]**&#x200B;和&#x200B;**[!UICONTROL 算法]**：
 
@@ -99,7 +93,7 @@ ht-degree: 45%
 
 1. 根据需要，选择要匹配的&#x200B;**项目属性**&#x200B;和&#x200B;**配置文件属性**、**推荐键**、**筛选键**&#x200B;和/或&#x200B;**Analytics量度**&#x200B;以配置算法。
 
-其余的算法配置选项因所选算法而异。 要完成算法配置，请选择[!UICONTROL 推荐键]、[!UICONTROL 筛选键]、[!UICONTROL 共同发生基础]、[!UICONTROL Analytics量度]和/或[!UICONTROL 项目属性]和要匹配的配置文件属性。
+其余的算法配置选项因所选算法而异。 要完成算法配置，请选择[!UICONTROL 推荐键]、[!UICONTROL 筛选键]、[!UICONTROL 共同发生基础]、[!UICONTROL Analytics量度]和/或[!UICONTROL 项目属性]和要匹配的配置文件属性]。[!UICONTROL 
 
 有关选择[!UICONTROL 推荐键]的详细信息，请参阅[使推荐基于推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 

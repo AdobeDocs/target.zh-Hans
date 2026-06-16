@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
 workflow-type: tm+mt
 source-wordcount: 2900
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -78,8 +78,8 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
->title="配置文件属性"
->abstract="您可以使用配置文件脚本创建配置文件属性。"
+>title="轮廓属性"
+>abstract="您可以使用轮廓脚本创建轮廓属性。"
 
 1. 选择&#x200B;**[!UICONTROL 算法类型]**&#x200B;和&#x200B;**[!UICONTROL 算法]**：
 

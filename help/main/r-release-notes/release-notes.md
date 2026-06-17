@@ -7,21 +7,14 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
 workflow-type: tm+mt
-source-wordcount: 467
-ht-degree: 57%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,17 +24,35 @@ ht-degree: 57%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target Standard/Premium] 26.6.3（2026年6月11日）
+## [!DNL Target Standard/Premium] 26.6.4（2026年6月16日）
+
+**活动**
+
++++查看详细信息
+
+* 在更新的[!DNL Target] UI中&#x200B;**[!UICONTROL 保存并关闭]。** 已在更新的[!DNL Target] UI中恢复&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;选项。 (TGT-55152)
+
+* 更新的[!DNL Target] UI中的&#x200B;**QA URL。** 修复了QA URL在更新的[!DNL Target] UI中无法正常工作的问题。 ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
 
 **本地化**
 
 +++查看详细信息
 
-* 在活动创建期间，**受众日历模式中一周的第一天未本地化。** 修复了在活动创建期间的&#x200B;**[!UICONTROL 创建]**、**[!UICONTROL 编辑]**&#x200B;和&#x200B;**[!UICONTROL 重复的受众]**&#x200B;模式中，星期的第一天未在日历中进行本地化的问题。 (TGT-50510)
+* **活动概述图形报表中存在未本地化的百分比格式。** 修复了百分比格式在&#x200B;**[!UICONTROL 活动概述]**&#x200B;页面的&#x200B;**[!UICONTROL 报告]**&#x200B;选项卡上的&#x200B;**[!UICONTROL 图形视图]**&#x200B;的图表中未本地化的问题。 (TGT-50100)
 
-* **活动概述报表中存在未本地化的百分比格式。** 修复了百分比格式在&#x200B;**[!UICONTROL 活动概述]**&#x200B;页面的&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡上的表中未本地化的问题。 (TGT-50094)
+* 活动URL中有&#x200B;**个日语字符。** 修复了在保存活动后，活动URL中的&#x200B;**[!UICONTROL 活动概述]**&#x200B;页面和活动列表中的日语字符出现损坏的问题。 (TGT-53459)
 
-* **[!UICONTROL 创建标准]对话框中的数字格式未本地化。** 修复了在&#x200B;**[!UICONTROL 推荐]**&#x200B;的&#x200B;**[!UICONTROL 创建标准]**&#x200B;对话框中，数字格式未本地化的问题。 (TGT-52250)
+* 默认活动名称中有&#x200B;**未本地化的时间戳。** 修复了在活动创建期间保留默认活动名称时，活动标题中时间戳未本地化的问题。 (TGT-53273)
+
++++
+
+**[!UICONTROL 推荐]**
+
++++查看详细信息
+
+* 创建馈送后URL中的&#x200B;**多字节字符。** 修复了在创建馈送后URL中的多字节字符似乎已损坏的问题。 (TGT-54793)
 
 +++
 

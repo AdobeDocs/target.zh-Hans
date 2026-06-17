@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
 workflow-type: tm+mt
-source-wordcount: 70774
+source-wordcount: 71005
 ht-degree: 49%
 
 ---
@@ -57,6 +57,20 @@ ht-degree: 49%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 — 2026
+
+## [!DNL Target Standard/Premium] 26.6.3（2026年6月11日）
+
+**本地化**
+
++++查看详细信息
+
+* 在活动创建期间，**受众日历模式中一周的第一天未本地化。** 修复了在活动创建期间的&#x200B;**[!UICONTROL 创建]**、**[!UICONTROL 编辑]**&#x200B;和&#x200B;**[!UICONTROL 重复的受众]**&#x200B;模式中，星期的第一天未在日历中进行本地化的问题。 (TGT-50510)
+
+* **活动概述报表中存在未本地化的百分比格式。** 修复了百分比格式在&#x200B;**[!UICONTROL 活动概述]**&#x200B;页面的&#x200B;**[!UICONTROL 报表]**&#x200B;选项卡上的表中未本地化的问题。 (TGT-50094)
+
+* **[!UICONTROL 创建标准]对话框中的数字格式未本地化。** 修复了在&#x200B;**[!UICONTROL 推荐]**&#x200B;的&#x200B;**[!UICONTROL 创建标准]**&#x200B;对话框中，数字格式未本地化的问题。 (TGT-52250)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.1（2026年6月4日）
 
@@ -329,7 +343,7 @@ ht-degree: 49%
 
 +++查看详细信息
 
-* **受众界面中的受众源标签准确性。** 修复了以下问题：来自Adobe Experience Platform中Adobe Target v2目标的受众可能显示为&#x200B;**Adobe Experience Cloud**&#x200B;而不是&#x200B;**Adobe Experience Platform**&#x200B;作为源。 此更新改进了筛选和查看受众时的源标签一致性。 (TGT-54802)
+* **受众界面中的受众源标签准确性。** 修复了以下问题：在Adobe Experience Platform中，来自Adobe Target v2目标的受众可能会显示为将&#x200B;**Adobe Experience Cloud**&#x200B;作为源，而不是&#x200B;**Adobe Experience Platform**。 此更新改进了筛选和查看受众时的源标签一致性。 (TGT-54802)
 
 +++
 

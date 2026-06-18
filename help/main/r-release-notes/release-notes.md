@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
+source-git-commit: 3fc6930bcff97685e6f3f6dab1a32db05fbfed8a
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 49%
+source-wordcount: 612
+ht-degree: 44%
 
 ---
 
@@ -30,6 +30,24 @@ ht-degree: 49%
 浏览[!DNL Adobe Target]中的最新功能、增强功能和修复。 这些发行说明还涵盖了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台组件（如果适用）的更新。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 26.6.5（2026年6月17日）
+
+**活动**
+
++++查看详细信息
+
+* **活动使用在源中删除的受众时出错。** 修复了以下问题：当活动使用一个或多个已从来源中删除的受众时，可能会显示错误。 (TGT-55272)
+
++++
+
+**[!UICONTROL Analytics for Target] (A4T)**
+
++++查看详细信息
+
+* **A4T报告不可见。** 修复了[!UICONTROL Analytics for Target] (A4T)报表不显示的问题。 (TGT-55432)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.4（2026年6月16日）
 

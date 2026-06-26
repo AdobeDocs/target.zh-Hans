@@ -22,10 +22,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 28043bff2987da0280091df9c935a4644309b1c0
 workflow-type: tm+mt
-source-wordcount: 1488
-ht-degree: 34%
+source-wordcount: 1580
+ht-degree: 32%
 
 ---
 
@@ -158,6 +158,12 @@ ht-degree: 34%
    * [!UICONTROL 活动ID]
 
    ![Customer Journey Analytics 中的名称和 ID 选项](/help/main/c-integrating-target-with-mac/cja/assets/names-and-ids.png){width="600" zoomable="yes"}
+
+1. 要确保[!DNL Customer Journey Analytics]在访客历程中将量度归因于正确的[!DNL Target]体验，请为[!UICONTROL 活动名称]和[!UICONTROL 活动ID]维度配置持久性。
+
+   如果未配置持久性，[!DNL Customer Journey Analytics]仅链接与[!DNL Target]体验在同一事件中发生的量度。 例如，如果访客在主页上看到Target体验，则该访客在以后页面购买所产生的收入量度不会归因于Target活动。
+
+   有关持久性的详细信息，请参阅[Adobe Customer Journey Analytics文档](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}。
 
 1. 要在[!UICONTROL 试验]面板中使用[!DNL Target]维度，请设置以下上下文标签：
 

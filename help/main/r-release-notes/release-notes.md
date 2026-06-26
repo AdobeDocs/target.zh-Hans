@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3fc6930bcff97685e6f3f6dab1a32db05fbfed8a
+source-git-commit: aab659046a6583aeedaf8ec34803b0751bebe3c6
 workflow-type: tm+mt
-source-wordcount: 612
-ht-degree: 44%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,33 +31,15 @@ ht-degree: 44%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target Standard/Premium] 26.6.5（2026年6月17日）
+## [!DNL Target Standard/Premium] 26.6.8（2026年6月24日）
 
 **活动**
 
 +++查看详细信息
 
-* **活动使用在源中删除的受众时出错。** 修复了以下问题：当活动使用一个或多个已从来源中删除的受众时，可能会显示错误。 (TGT-55272)
+* 针对API和MCP已创建资源的&#x200B;**Source筛选器。** 修复了按[!UICONTROL Adobe Target API]或[!UICONTROL Adobe Target MCP]进行筛选在活动、受众和优惠列表页面上不起作用的问题。 (TGT-55236)
 
-+++
-
-**[!UICONTROL Analytics for Target] (A4T)**
-
-+++查看详细信息
-
-* **A4T报告不可见。** 修复了[!UICONTROL Analytics for Target] (A4T)报表不显示的问题。 (TGT-55432)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4（2026年6月16日）
-
-**活动**
-
-+++查看详细信息
-
-* 在更新的[!DNL Target] UI中&#x200B;**[!UICONTROL 保存并关闭]。** 已在更新的[!DNL Target] UI中恢复&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;选项。 (TGT-55152)
-
-* 更新的[!DNL Target] UI中的&#x200B;**QA URL。** 修复了QA URL在更新的[!DNL Target] UI中无法正常工作的问题。 ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+* **活动源筛选器值。** 修复了[!UICONTROL Adobe Target API]或[!UICONTROL Adobe Target MCP]源筛选器未显示新API创建的受众的问题。 (TGT-55237)
 
 +++
 
@@ -65,33 +47,15 @@ ht-degree: 44%
 
 +++查看详细信息
 
-* **活动概述图形报表中存在未本地化的百分比格式。** 修复了百分比格式在&#x200B;**[!UICONTROL 活动概述]**&#x200B;页面的&#x200B;**[!UICONTROL 报告]**&#x200B;选项卡上的&#x200B;**[!UICONTROL 图形视图]**&#x200B;的图表中未本地化的问题。 (TGT-50100)
+* **[!UICONTROL 创建JSON选件]模式中的未本地化字符串。** 修复了在活动创建期间未本地化[!UICONTROL 创建JSON选件]模式中的字符串（包括[!UICONTROL Name]和[!UICONTROL Workspace]）的问题。 (TGT-50084)
 
-* 活动URL中有&#x200B;**个日语字符。** 修复了在保存活动后，活动URL中的&#x200B;**[!UICONTROL 活动概述]**&#x200B;页面和活动列表中的日语字符出现损坏的问题。 (TGT-53459)
+* **在[!UICONTROL 推荐]活动中未本地化的Toast消息。** 修复了在基于表单的[!UICONTROL 推荐]活动中添加推荐时出现未本地化的toast消息的问题。 (TGT-50463)
 
-* 默认活动名称中有&#x200B;**未本地化的时间戳。** 修复了在活动创建期间保留默认活动名称时，活动标题中时间戳未本地化的问题。 (TGT-53273)
+* [!UICONTROL 收藏集]和[!UICONTROL 排除项]对话框中的&#x200B;**未本地化的字符串。** 修复了“项目有效负载”字符串在[!UICONTROL 推荐]中的[!UICONTROL 收藏集]和[!UICONTROL 排除项]对话框中未本地化的问题。 (TGT-51542)
 
-+++
-
-**[!UICONTROL 推荐]**
-
-+++查看详细信息
-
-* 创建馈送后URL中的&#x200B;**多字节字符。** 修复了在创建馈送后URL中的多字节字符似乎已损坏的问题。 (TGT-54793)
+* [!UICONTROL 受众]选项卡中的&#x200B;**未本地化的“审批者”字符串。** 修复了“[!UICONTROL 受众库]”页面上的[!UICONTROL Workspace]列中的“审批者”字符串未本地化的问题。 (TGT-51751)
 
 +++
-
-<!--
-* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++See details
-
-* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
-
-+++
--->
 
 ## 您需要了解的时间性更新 {#time-sensitive}
 

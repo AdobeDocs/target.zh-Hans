@@ -39,10 +39,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
+source-git-commit: 7c0425e7e8b3fd71f87b36da74af16d64da32bfa
 workflow-type: tm+mt
-source-wordcount: 71005
-ht-degree: 49%
+source-wordcount: 71133
+ht-degree: 48%
 
 ---
 
@@ -57,6 +57,68 @@ ht-degree: 49%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 — 2026
+
+## [!DNL Target Standard/Premium] 26.6.5（2026年6月17日）
+
+**活动**
+
++++查看详细信息
+
+* **活动使用在源中删除的受众时出错。** 修复了以下问题：当活动使用一个或多个已从来源中删除的受众时，可能会显示错误。 (TGT-55272)
+
++++
+
+**[!UICONTROL Analytics for Target] (A4T)**
+
++++查看详细信息
+
+* **A4T报告不可见。** 修复了[!UICONTROL Analytics for Target] (A4T)报表不显示的问题。 (TGT-55432)
+
++++ 
+
+## [!DNL Target Standard/Premium] 26.6.4（2026年6月16日）
+
+**活动**
+
++++查看详细信息
+
+* 在更新的[!DNL Target] UI中&#x200B;**[!UICONTROL 保存并关闭]。** 已在更新的[!DNL Target] UI中恢复&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;选项。 (TGT-55152)
+
+* 更新的[!DNL Target] UI中的&#x200B;**QA URL。** 修复了QA URL在更新的[!DNL Target] UI中无法正常工作的问题。 ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
+
+**本地化**
+
++++查看详细信息
+
+* **活动概述图形报表中存在未本地化的百分比格式。** 修复了百分比格式在&#x200B;**[!UICONTROL 活动概述]**&#x200B;页面的&#x200B;**[!UICONTROL 报告]**&#x200B;选项卡上的&#x200B;**[!UICONTROL 图形视图]**&#x200B;的图表中未本地化的问题。 (TGT-50100)
+
+* 活动URL中有&#x200B;**个日语字符。** 修复了在保存活动后，活动URL中的&#x200B;**[!UICONTROL 活动概述]**&#x200B;页面和活动列表中的日语字符出现损坏的问题。 (TGT-53459)
+
+* 默认活动名称中有&#x200B;**未本地化的时间戳。** 修复了在活动创建期间保留默认活动名称时，活动标题中时间戳未本地化的问题。 (TGT-53273)
+
++++
+
+**[!UICONTROL 推荐]**
+
++++查看详细信息
+
+* 创建馈送后URL中的&#x200B;**多字节字符。** 修复了在创建馈送后URL中的多字节字符似乎已损坏的问题。 (TGT-54793)
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
 
 ## [!DNL Target Standard/Premium] 26.6.3（2026年6月11日）
 

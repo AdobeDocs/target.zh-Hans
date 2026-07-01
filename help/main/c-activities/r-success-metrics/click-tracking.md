@@ -13,10 +13,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
 workflow-type: tm+mt
-source-wordcount: 903
-ht-degree: 58%
+source-wordcount: 942
+ht-degree: 55%
 
 ---
 
@@ -110,6 +110,8 @@ ht-degree: 58%
 * 如果有必要限制点击跟踪量度的范围，则使用受众。
 
 * 多个活动可以为同一个选择器定义一个点击跟踪量度。 如果是这样，当访客符合这些活动中的某个活动的资格并单击该选择器时，访客符合资格的所有相关活动的点击跟踪量度都会增加。
+
+* 对于单页应用程序(SPA)上的[!UICONTROL Automated Personalization] (AP)和自动定位活动，您可以选择属于特定[!DNL Target]视图的点击跟踪元素。 有关视图的详细信息，请参阅[Adobe Target视图和单页应用程序](/help/main/c-experiences/spa-visual-experience-composer.md)。
 
 ## 培训视频 {#section_36607204DAE146E3B8E2C609D244EDB1}
 

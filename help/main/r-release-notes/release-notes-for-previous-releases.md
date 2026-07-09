@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 7c0425e7e8b3fd71f87b36da74af16d64da32bfa
+source-git-commit: 1175d9840a6607f7fea5e5ac6f768d12cdf52c8d
 workflow-type: tm+mt
-source-wordcount: 71133
+source-wordcount: 71521
 ht-degree: 48%
 
 ---
@@ -57,6 +57,32 @@ ht-degree: 48%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 — 2026
+
+## [!DNL Target Standard/Premium] 26.6.8（2026年6月24日）
+
+**活动**
+
++++查看详细信息
+
+* 针对API和MCP已创建资源的&#x200B;**Source筛选器。** 修复了按[!UICONTROL Adobe Target API]或[!UICONTROL Adobe Target MCP]进行筛选在活动、受众和优惠列表页面上不起作用的问题。 (TGT-55236)
+
+* **活动源筛选器值。** 修复了[!UICONTROL Adobe Target API]或[!UICONTROL Adobe Target MCP]源筛选器未显示新API创建的受众的问题。 (TGT-55237)
+
++++
+
+**本地化**
+
++++查看详细信息
+
+* **[!UICONTROL 创建JSON选件]模式中的未本地化字符串。** 修复了在活动创建期间未本地化[!UICONTROL 创建JSON选件]模式中的字符串（包括[!UICONTROL Name]和[!UICONTROL Workspace]）的问题。 (TGT-50084)
+
+* **在[!UICONTROL 推荐]活动中未本地化的Toast消息。** 修复了在基于表单的[!UICONTROL 推荐]活动中添加推荐时出现未本地化的toast消息的问题。 (TGT-50463)
+
+* [!UICONTROL 收藏集]和[!UICONTROL 排除项]对话框中的&#x200B;**未本地化的字符串。** 修复了“项目有效负载”字符串在[!UICONTROL 推荐]中的[!UICONTROL 收藏集]和[!UICONTROL 排除项]对话框中未本地化的问题。 (TGT-51542)
+
+* [!UICONTROL 受众]选项卡中的&#x200B;**未本地化的“审批者”字符串。** 修复了“[!UICONTROL 受众库]”页面上的[!UICONTROL Workspace]列中的“审批者”字符串未本地化的问题。 (TGT-51751)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.5（2026年6月17日）
 
@@ -781,8 +807,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 * **在活动创建UI中恢复了创作稳定性。** 解决了VEC UI中的一个间歇性问题，该问题会导致创作失败，并且链接变得意外可点击，从而将用户重定向到离开页面的位置。 (TGT-53153)
 * **在活动创建UI中为保存的活动编辑已还原。** 解决了阻止用户在保存修改后编辑活动的问题。 受影响的活动在“[!UICONTROL 应用初始修改]”中仍然卡住，阻止进一步更新并隐藏[!UICONTROL 取消]按钮。 (TGT-53631)
 * **VEC不再在“[!UICONTROL 应用初始修改]”上停止。“**” 解决了VEC中的一个性能问题，该问题在加载具有大量修改的体验时会导致长时间延迟。 受影响的用户看到UI卡在“[!UICONTROL 应用初始修改]”上达数分钟，特别是在体验B场景中。 (TGT-53727)
-* **VEC现在加载修改时没有根元素。**
-解决了VEC中的一个问题，在加载缺少明确根元素的修改时，该问题会导致体验停滞。这些修改以前导致UI无限期地在“A[!UICONTROL 应用初始修改]”上挂起。(TGT-53799)
+* **VEC现在加载修改时不含根元素。解决了VEC中的一个问题，在加载缺少明确根元素的修改时，该问题会导致体验停滞。 这些修改以前导致UI无限期地在“A[!UICONTROL 应用初始修改]”上挂起。 (TGT-53799)
 * **在活动中保存更改现在按预期工作。** 解决了新建创建UI中与权限相关的问题，该问题阻止用户在编辑活动中的目标和高级设置时保存更改。 尽管具有适当的访问权限，受影响用户仍看到红色错误功能区和“Forbidden.Resource”消息。 (TGT-53816)
 * **VEC UI现在保留跨视图的体验修改。** 解决了更新后的VEC中影响体验开发的多个问题。 修改无法正确持久保留，尤其是在使用HTML选件或在视图之间切换时。 (TGT-53825)
 * **现在，当修改跨越多个体验时，所有视图均可正确显示。** 解决了在活动创建UI中，当修改跨多个视图应用时，仅显示一个视图的问题。 即使正确应用了修改，悬停工具提示仍无法列出所有关联的视图。 (TGT-53827)
@@ -811,8 +836,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 
 +++本地化
 
-* **修复了“完整详细信息视图”的简体中文翻译中的术语不一致问题。**
-以前，术语“Details”在简体中文(zh_CN)区域设置中被错误地翻译为“详情”，这违反了既定的术语指南。已将此更正为“详细信息”，以确保与术语库一致。(TGT-53741)
+* **修复了“完整详细信息视图”的简体中文翻译中的术语不一致问题。以前，术语“Details”在简体中文(zh_CN)区域设置中被错误地翻译为“详情”，这违反了既定的术语指南。 已将此更正为“详细信息”，以确保与术语库一致。 (TGT-53741)
 
 +++
 
@@ -829,8 +853,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 
 * **在A[!UICONTROL 自动的Personalization]活动中生成临时选件会导致报表不一致。** 在[!UICONTROL Automated Personalization] (AP)活动中使用“生成临时选件”功能导致报告不准确。 具体而言，选件ID在各个位置中重用，导致报表数据被错误归因或覆盖。 现在，每个位置生成的临时选件具有不同的标识符，从而确保所有配置的体验都能够准确跟踪和生成报表。 (TGT-53757)
 * 由于JavaScript错误，**无法加载活动报表。** 客户在访问特定活动的[!UICONTROL 报告]选项卡时遇到“出现错误”消息。 该错误由JavaScript异常引起：无法读取在`getAnalyticsReportSummary` GraphQL调用期间触发的未定义的属性（读取“indexOf”）。 现在，报告可正确加载，并且错误处理已得到改进，以防止在更新的活动创建工作流中发生类似故障。 (TGT-53797)
-* **报告在与滚动条交互后崩溃。**&#x200B;单击[!UICONTROL 报告]选项卡中的滚动条导致页面崩溃，并伴有JavaScript错误：
-  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.`报告现在可以正确加载和滚动，而不会触发错误或崩溃。 (TGT-53828)
+* **报告与滚动条交互后崩溃。** 单击[!UICONTROL 报告]选项卡中的滚动条导致页面崩溃，并出现JavaScript错误：  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.`报告现在可以正确加载和滚动，而不会触发错误或崩溃。 (TGT-53828)
 * **报告未显示主要指标。** 活动报表中缺少使用mbox配置为转化量度的主要量度。 按量度名称或mbox名称搜索未产生任何结果，从而无法查看关键性能数据。 现在，主要指标可在[!UICONTROL 报表]选项卡中正确显示，从而确保准确跟踪和分析营销活动效果。 (TGT-53773)
 * **与水平滚动条交互时，更新的UI中的[!UICONTROL 报告]选项卡崩溃。** 使用水平滚动条访问视图外的量度时，[!UICONTROL 报表]视图间歇性地崩溃，并出现“出现错误”错误。 现在，滚动条可以可靠地工作，允许客户查看和分析所有量度，而无需采取变通方法，例如缩小或使用按住Shift键滚动鼠标。 (TGT-53824)
 
@@ -838,8 +861,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 
 +++[!UICONTROL 可视化体验编辑器] (VEC)
 
-* **在VEC中单击痕迹导航无法一致地显示编辑菜单。**
-通过(VEC)中的痕迹导航选择HTML元素时，编辑菜单会间歇性地无法出现或快速消失，从而导致元素选择不可靠。现在，通过痕迹导航导航时，会一致地显示编辑菜单，从而改进更新后的活动创建流程中的元素选择工作流。(TGT-52873)
+* **在VEC中单击痕迹导航时，无法一致地显示编辑菜单。通过(VEC)中的痕迹导航选择HTML元素时，编辑菜单会间歇性地无法出现或快速消失，从而导致元素选择不可靠。 现在，通过痕迹导航导航时，会一致地显示编辑菜单，从而改进更新后的活动创建流程中的元素选择工作流。 (TGT-52873)
 * **上下文菜单间歇性地无法在VEC中显示。** 单击元素时，更新后的VEC UI中的上下文菜单显示不一致，导致难以访问编辑选项。 现在，上下文菜单在元素选择时可靠地显示，从而改进了编辑工作流以及更新后的活动创建过程中的整体可用性。 (TGT-53015)
 * **VEC中某些元素的上下文菜单无法显示。** 在更新的VEC中选择特定元素时，未显示上下文菜单，因此难以应用修改。 现在，所有受支持的元素都会一致显示上下文菜单，从而提高更新后的活动创建工作流中编辑体验的可靠性和可用性。 (TGT-53248)
 * 在VEC中使用痕迹导航时，**上下文菜单在第一次单击时消失。** 通过VEC中的痕迹导航选择父元素会导致上下文菜单短暂出现然后消失，从而难以访问编辑选项。 现在，在浏览痕迹导航元素时，上下文菜单保持可见且功能正常，这提高了更新后的活动创建流程中元素选择工作流的可靠性。 (TGT-53424)
@@ -1613,8 +1635,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 
 * 修复了复制现有活动并将报表源更改为[!DNL Adobe Analytics] (A4T)会导致“用户输入无效”错误的问题。 当某些与[!DNL Analytics]报表不兼容的度量操作（如`restart_same_experience`、`restart_random_experience`和`restart_new_experience`）从原始活动中保留时触发了该错误。 (TGT-52900)
 * 修复了一个问题，在[!UICONTROL 目标和设置]步骤中选择[!DNL Adobe Analytics] (A4T)作为报表源时，该问题阻止客户创建或保存活动。 选择[!UICONTROL 自定义事件]量度（例如，“自定义事件16”）时出现特定问题，从而导致以下错误：“用户输入无效。” (TGT-52910)
-* 修复了单击“在Analytics中查看”链接会将用户重定向到主页而不是预期的[!DNL Analytics]仪表板的问题。（TGT-53092和TGT-53093）
-  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
+* 修复了单击“在Analytics中查看”链接会将用户重定向到主页而不是预期的[!DNL Analytics]仪表板的问题。 （TGT-53092 和 TGT-53093）  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
 * 修复了在更新的[!UICONTROL 概述] UI中查看[!DNL Recommendations]活动时，选择[!DNL Adobe Analytics] (A4T)作为报表源时，[!UICONTROL 目标和设置]部分无法加载的问题。 显示以下错误消息：“出现错误。 我们无法完成您的请求。 如果问题仍然存在，请联系 Adobe 客户关怀部门。“ (TGT-52999)
 
 +++
@@ -4792,8 +4813,7 @@ target/r_release-notes-2018.xml
 * 现在，量度名称可在“[!UICONTROL 目标和设置]”页面上显示，这样用户就无需展开每个量度来查看完整的量度名称。 这项改进可提高用户编辑量度的速度和效率。 (TGT-21276)
 * 现在，您可以将 [!DNL Recommendations] 包含规则应用到自定义标准（已通过 CSV 上传），操作方法与应用到任何其他标准一样。 (TGT-21896)
 * 改进了“[!UICONTROL 选件]”页面的用户界面和易用性，特别是在创建或管理文件夹以及创建选件时的易用性。 （TGT-22509 和 TGT-22187）
-* 改进了在选择要隐藏的项目时[!UICONTROL 可视化体验编辑器] (VEC)中的用户体验。
-(TGT-22224)
+* 改善了在[!UICONTROL 可视化体验编辑器] (VEC) 中选择要隐藏的项目时的用户体验。(TGT-22224)
 * 改善了使用[!UICONTROL 基于表单的体验编辑器]创建活动时的用户体验。 选择 mbox 位置时，在单击“[!UICONTROL 下一个]”之后，验证边框会保持高亮显示状态。 (TGT-22221)
 * 增强了下载的报表，使其将活跃选件和已删除的选件区分开。 (TGT-22449)
 * 修复了无法在 Experience Cloud Assets 核心服务用户界面的无限可滚动资产列表中显示较旧资产的问题。 (TGT-19733)
@@ -5772,7 +5792,8 @@ target/r_release-notes-2015.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 创建和编辑配置文件脚本 </td> 
-   <td colname="col2"> <p>配置文件脚本会针对每个 mbox 请求运行配置文件属性“捕捉器”。 当收到 mbox 请求时，Target 会运行所有相关的配置文件脚本、确定应该运行哪个活动，并显示适合该活动和该体验的内容，然后跟踪活动的成功情况。 这样，您可以跟踪有关访问的信息，例如访客的位置、时间、该访客访问网站的次数以及他们之前是否购买过商品等。 然后，将这些信息添加到访客的轮廓，以使您可更好地跟踪该访客在您网站上的活动。 </p> <p>请参阅<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">轮廓属性</a>。<!--(Copy help from Classic)--> </p> </td> 
+   <td colname="col2"> <p>配置文件脚本会针对每个 mbox 请求运行配置文件属性“捕捉器”。 当收到 mbox 请求时，Target 会运行所有相关的配置文件脚本、确定应该运行哪个活动，并显示适合该活动和该体验的内容，然后跟踪活动的成功情况。 这样，您可以跟踪有关访问的信息，例如访客的位置、时间、该访客访问网站的次数以及他们之前是否购买过商品等。 然后，将这些信息添加到访客的轮廓，以使您可更好地跟踪该访客在您网站上的活动。 </p> <p>查看<a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">配置文件属性</a>。 
+      </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 二进制量度的置信区间 </td> 

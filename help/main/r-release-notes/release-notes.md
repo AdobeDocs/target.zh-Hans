@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 327891a5a9112dfacfca1c049adaef54b218676e
+source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 37%
+source-wordcount: 465
+ht-degree: 58%
 
 ---
 
@@ -31,62 +31,31 @@ ht-degree: 37%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target Standard/Premium] 26.6.8（2026年6月24日）
+## [!DNL Target Standard/Premium] 26.7.1（2026年7月9日）
 
 **活动**
 
 +++查看详细信息
 
-* 针对API和MCP已创建资源的&#x200B;**Source筛选器。** 修复了按[!UICONTROL Adobe Target API]或[!UICONTROL Adobe Target MCP]进行筛选在活动、受众和优惠列表页面上不起作用的问题。 (TGT-55236)
+* **在[!UICONTROL 活动]、[!UICONTROL 受众]和[!UICONTROL 选件]页面中显示源不一致。** 修复了源在[!UICONTROL 活动]、[!UICONTROL 受众]和[!UICONTROL 选件]页面中显示不一致的问题。 (TGT-55247)
+
+* 通过UI编辑时&#x200B;**活动源更改。** 修复了通过UI编辑活动会更改原始活动源的问题。 (TGT-55248)
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**受众**
 
 +++查看详细信息
 
-* **A4T报告不可见。** 修复了[!UICONTROL Analytics for Target] (A4T)报表不显示的问题。 (TGT-55432)
+* **编辑受众时默认工作区不正确。** 修复了在编辑受众后默认工作区不正确的问题。 (TGT-55510)
 
 +++
 
-**[!DNL Adobe Target]MCP服务器**
+**报表**
 
 +++查看详细信息
 
-* **整合的活动工具。** 已合并[!DNL Adobe Target] MCP服务器活动工具，以减少工具选择开销，并将读取和报告范围扩展到所有活动类型。 6种每种类型的工具已由4种统一工具取代：
-
-   * `get_activity`替换`get_ab_activity`、`get_xt_activity`和`get_abt_activity`。 检索所有类型的完整活动详细信息：A/B测试、体验定位、Automated Personalization、自动分配、多变量测试(MVT)和建议。 将从ID自动检测该活动类型。
-   * `update_activity`替换`update_ab_activity`、`update_xt_activity`和`update_abt_activity`。 支持A/B测试、体验定位和Automated Personalization活动；自动分配、MVT和推荐活动均为只读。
-   * `get_activity_performance_report`替换了`get_ab_performance_report`和`get_xt_performance_report`。 检索所有活动类型的转化、提升和置信度量度。
-   * `get_activity_orders_report`替换了`get_ab_orders_report`和`get_xt_orders_report`。 检索所有活动类型的订单和收入量度。
-
-  有关详细信息，请参阅[[!DNL Adobe Target] MCP服务器工具引用](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)。
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4（2026年6月16日）
-
-**活动**
-
-+++查看详细信息
-
-* 在更新的[!DNL Target] UI中&#x200B;**[!UICONTROL 保存并关闭]。** 已在更新的[!DNL Target] UI中恢复&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;选项。 (TGT-55152)
-
-* 更新的[!DNL Target] UI中的&#x200B;**QA URL。** 修复了QA URL在更新的[!DNL Target] UI中无法正常工作的问题。 ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
-
-+++
-
-**本地化**
-
-+++查看详细信息
-
-* **[!UICONTROL 创建JSON选件]模式中的未本地化字符串。** 修复了在活动创建期间未本地化[!UICONTROL 创建JSON选件]模式中的字符串（包括[!UICONTROL Name]和[!UICONTROL Workspace]）的问题。 (TGT-50084)
-
-* **在[!UICONTROL 推荐]活动中未本地化的Toast消息。** 修复了在基于表单的[!UICONTROL 推荐]活动中添加推荐时出现未本地化的toast消息的问题。 (TGT-50463)
-
-* [!UICONTROL 收藏集]和[!UICONTROL 排除项]对话框中的&#x200B;**未本地化的字符串。** 修复了“项目有效负载”字符串在[!UICONTROL 推荐]中的[!UICONTROL 收藏集]和[!UICONTROL 排除项]对话框中未本地化的问题。 (TGT-51542)
-
-* [!UICONTROL 受众]选项卡中的&#x200B;**未本地化的“审批者”字符串。** 修复了“[!UICONTROL 受众库]”页面上的[!UICONTROL Workspace]列中的“审批者”字符串未本地化的问题。 (TGT-51751)
+* 5月报告的&#x200B;**CSV下载失败。** 修复了下载5的CSV报表失败的问题。 (TGT-55524)
 
 +++
 

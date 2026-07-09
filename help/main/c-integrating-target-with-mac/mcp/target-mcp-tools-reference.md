@@ -8,10 +8,10 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
 workflow-type: tm+mt
-source-wordcount: '3195'
-ht-degree: 13%
+source-wordcount: '3046'
+ht-degree: 14%
 
 ---
 
@@ -43,6 +43,21 @@ ht-degree: 13%
 
 ## 活动工具 {#tools-activities}
 
+>[!NOTE]
+>
+>读取和写入操作具有不同的范围。 `get_activity`检索所有类型的活动（A/B测试、体验定位、Automated Personalization、自动分配、多变量测试、推荐）。 `update_activity`支持A/B测试、体验定位和Automated Personalization；自动分配、多变量测试和推荐活动通过MCP服务器为只读。
+
+| 功能 | A/B 测试 | 体验定位 | 自动个性化 | 自动分配 | 多变量测试 | 推荐 |
+|---|---|---|---|---|---|---|
+| `get_activity` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `list_target_activities` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_performance_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_orders_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `update_activity` | ✓ | ✓ | ✓ | — | — | — |
+| 生命周期编辑（状态、优先级、名称、计划） | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 变量和流量编辑 | ✓ | ✓ | ✓ | — | — | — |
+| 创建 | ✓ | ✓ | — | — | — | — |
+
 +++列出活动
 
 **工具：** `list_target_activities`
@@ -57,7 +72,7 @@ ht-degree: 13%
 | `offset` | 整数 | 否 | 为分页而跳过的活动数 |
 | `sort_by` | 字符串 | 否 | 要作为排序依据的字段。 前缀为`-`表示降序（例如，`-modifiedAt`）。 选项： `id`、`name`、`state`、`priority`、`startsAt`、`endsAt`、`lifetimeStart`、`lifetimeEnd`、`createdAt`、`createdBy`、`modifiedAt`、`modifiedBy`、`type`、`thirdPartyId` |
 | `state` | 字符串 | 否 | 按活动状态筛选： `approved` （实时/活动）、`deactivated` （非活动）、`paused`、`saved` （草稿） |
-| `activity_type` | 字符串 | 否 | 按类型筛选： `ab` （A/B测试）、`xt` （体验定位）、`abt` (Automated Personalization) |
+| `activity_type` | 字符串 | 否 | 按类型筛选： `ab` （A/B测试）、`xt` （体验定位）、`abt` (Automated Personalization)、`auto_allocate` （自动分配）、`mvt` （多变量测试）、`recs` （推荐） |
 | `name_contains` | 字符串 | 否 | 筛选名称包含此字符串（不区分大小写）的活动 |
 | `starts_after` | 字符串 | 否 | ISO 8601日期 — 在此日期之后开始的活动 |
 | `starts_before` | 字符串 | 否 | ISO 8601日期 — 在此日期之前开始的活动 |
@@ -78,55 +93,21 @@ ht-degree: 13%
 
 +++
 
-+++获取A/B活动
++++获取活动
 
-**工具：** `get_ab_activity`
+**工具：** `get_activity`
 
-获取有关A/B活动的详细信息。
+获取有关任何类型活动的详细信息。
 
-检索特定A/B测试的完整配置，包括体验、位置、量度和定位规则。
+检索特定活动的完整配置，自动检测该活动类型。 支持A/B测试、体验定位、Automated Personalization、自动分配、多变量测试和推荐活动。
 
 | 参数 | 类型 | 必需 | 描述 |
 |---|---|---|---|
-| `activity_id` | 整数 | 是 | A/B活动的唯一标识符 |
+| `activity_id` | 整数 | 是 | 活动的唯一标识符 |
 
 **返回：**&#x200B;完整的活动详细信息，包括元数据（名称、状态、优先级、日期）、体验、位置和选件、目标和量度，以及定位规则。
 
-**示例提示：**“获取A/B活动12345的详细信息”。
-
-+++
-
-+++获取体验定位活动
-
-**工具：** `get_xt_activity`
-
-获取有关体验定位(XT)活动的详细信息。
-
-检索特定XT活动的完整配置，包括受众体验映射、位置和量度。
-
-| 参数 | 类型 | 必需 | 描述 |
-|---|---|---|---|
-| `activity_id` | 整数 | 是 | XT活动的唯一标识符 |
-
-**返回：**&#x200B;完整的活动详细信息，包括元数据、具有受众映射的体验、位置和选件以及目标和量度。
-
-**示例提示：**“获取体验定位活动12345的详细信息”。
-
-+++
-
-+++获取Automated Personalization活动
-
-**工具：** `get_abt_activity`
-
-获取有关Automated Personalization (AP)活动的详细信息。
-
-| 参数 | 类型 | 必需 | 描述 |
-|---|---|---|---|
-| `activity_id` | 整数 | 是 | AP活动的唯一标识符 |
-
-**返回：**&#x200B;完整的活动详细信息，包括元数据、体验、位置和算法设置。
-
-**示例提示：**“获取自动Personalization活动12345的详细信息”。
+**示例提示：**“获取活动12345的详细信息”。
 
 +++
 
@@ -183,13 +164,13 @@ ht-degree: 13%
 
 +++
 
-+++更新A/B活动
++++更新活动
 
-**工具：** `update_ab_activity`
+**工具：** `update_activity`
 
-更新现有A/B活动。
+更新现有的A/B测试、体验定位或Automated Personalization活动。
 
-使用读 — 修改 — 写模式：获取当前状态，合并更改，验证并发送更新。
+使用读 — 修改 — 写模式：获取当前状态，合并更改，验证并发送更新。 支持A/B测试、体验定位和Automated Personalization活动；自动分配、多变量测试和推荐活动均为只读。 A/B测试和体验定位仅支持结构化`goal`、`audience_ids`和`additional_metrics`参数；Automated Personalization活动接受纯字段合并更新。
 
 | 参数 | 类型 | 必需 | 描述 |
 |---|---|---|---|
@@ -199,44 +180,6 @@ ht-degree: 13%
 **返回：**&#x200B;更新的活动对象。
 
 **示例提示：**“更新活动12345以将流量分配更改为70/30。”
-
-+++
-
-+++更新体验定位活动
-
-**工具：** `update_xt_activity`
-
-更新现有的体验定位活动。
-
-使用读 — 修改 — 写模式。
-
-| 参数 | 类型 | 必需 | 描述 |
-|---|---|---|---|
-| `activity_id` | 整数 | 是 | 要更新的XT活动的唯一标识符 |
-| `activity` | 对象 | 是 | 要更新的字段 |
-
-**返回：**&#x200B;更新的活动对象。
-
-**示例提示：**“更新XT活动12345以为移动访客添加新体验”。
-
-+++
-
-+++更新Automated Personalization活动
-
-**工具：** `update_abt_activity`
-
-更新现有的Automated Personalization活动。
-
-使用读 — 修改 — 写模式。
-
-| 参数 | 类型 | 必需 | 描述 |
-|---|---|---|---|
-| `activity_id` | 整数 | 是 | 要更新的AP活动的唯一标识符 |
-| `activity` | 对象 | 是 | 要更新的字段 |
-
-**返回：**&#x200B;更新的活动对象。
-
-**示例提示：**“更新自动Personalization活动12345以更改优化目标”。
 
 +++
 
@@ -251,7 +194,6 @@ ht-degree: 13%
 | 参数 | 类型 | 必需 | 描述 |
 |---|---|---|---|
 | `activity_id` | 整数 | 是 | 活动的唯一标识符 |
-| `activity_type` | 字符串 | 是 | 活动类型： `ab`、`xt`或`abt` |
 | `starts_at` | 字符串 | 否 | 新的开始日期(ISO 8601) |
 | `ends_at` | 字符串 | 否 | 新结束日期(ISO 8601) |
 
@@ -624,73 +566,41 @@ ht-degree: 13%
 
 ## 报告工具 {#tools-reporting}
 
-+++获取A/B性能报表
++++获取活动性能报表
 
-**工具：** `get_ab_performance_report`
+**工具：** `get_activity_performance_report`
 
-获取A/B活动的性能报表。
+获取任何类型活动的性能报表。
 
-检索转化率、提升度和置信度级别。
+检索转化率、提升度和置信度级别。 支持A/B测试、体验定位、Automated Personalization、自动分配、多变量测试和推荐活动。
 
 | 参数 | 类型 | 必需 | 描述 |
 |---|---|---|---|
-| `activity_id` | 整数 | 是 | A/B活动的唯一标识符 |
+| `activity_id` | 整数 | 是 | 活动的唯一标识符 |
 | `report_interval` | 字符串 | 否 | 报告的时段（例如`last7days`、`last30days`或自定义日期范围） |
 
 **返回：**&#x200B;体验级别的量度（访客数、转化率、转化率）、提升度计算、统计置信水平和收入量度（如果已配置）。
 
-**示例提示：**“显示过去30天的A/B测试12345性能报告。”
+**示例提示：**“给我显示过去30天内活动12345的性能报告。”
 
 +++
 
-+++获取A/B订单报表
++++获取活动订单报表
 
-**工具：** `get_ab_orders_report`
+**工具：** `get_activity_orders_report`
 
-获取A/B活动的订单/收入报表。
+获取任何类型活动的订单/收入报表。
+
+支持A/B测试、体验定位、Automated Personalization、自动分配、多变量测试和推荐活动。
 
 | 参数 | 类型 | 必需 | 描述 |
 |---|---|---|---|
-| `activity_id` | 整数 | 是 | A/B活动的唯一标识符 |
+| `activity_id` | 整数 | 是 | 活动的唯一标识符 |
 | `report_interval` | 字符串 | 否 | 报告的时间段 |
 
 **返回：**&#x200B;订单计数、收入和平均订单值（按体验）。
 
 **示例提示：**“获取活动12345的订单报告”。
-
-+++
-
-+++获取体验定位性能报表
-
-**工具：** `get_xt_performance_report`
-
-获取体验定位活动的性能报表。
-
-| 参数 | 类型 | 必需 | 描述 |
-|---|---|---|---|
-| `activity_id` | 整数 | 是 | XT活动的唯一标识符 |
-| `report_interval` | 字符串 | 否 | 报告的时间段 |
-
-**返回：**&#x200B;体验级别的绩效指标。
-
-**示例提示：**“显示我的体验定位活动54321的性能”。
-
-+++
-
-+++获取体验定位订单报表
-
-**工具：** `get_xt_orders_report`
-
-获取体验定位活动的订单/收入报表。
-
-| 参数 | 类型 | 必需 | 描述 |
-|---|---|---|---|
-| `activity_id` | 整数 | 是 | XT活动的唯一标识符 |
-| `report_interval` | 字符串 | 否 | 报告的时间段 |
-
-**返回：**&#x200B;按体验排序的量度。
-
-**示例提示：**“获取XT活动54321的订单数据”。
 
 +++
 
@@ -849,17 +759,18 @@ ht-degree: 13%
 
 | 类别 | 计数 | 工具 |
 |---|---|---|
-| 活动 | 17 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `create_ab_activity`, `create_xt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
+| 活动 | 13 | `list_target_activities`, `get_activity`, `create_ab_activity`, `create_xt_activity`, `update_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
 | 产品建议 | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
-| 受众 | 3 | `list_target_audiences`, `get_target_audience`, `create_target_audience` |
+| 受众 | 4 | `list_target_audiences`, `get_target_audience`, `create_target_audience`, `update_target_audience` |
 | Mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | 属性 | 1 | `list_target_properties` |
-| 报表 | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
+| 报表 | 4 | `get_activity_performance_report`, `get_activity_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | 预览 | 1 | `preview_activity` |
 | 响应令牌 | 2 | `list_target_response_tokens`, `create_target_response_token` |
 | 修订 | 2 | `get_target_revisions`, `get_target_entity_revisions` |
+| at.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | 模板 | 1 | `list_target_templates` |
-| **合计** | **41** | |
+| **合计** | **38** | |
 
 ## 相关资源 {#tools-related}
 

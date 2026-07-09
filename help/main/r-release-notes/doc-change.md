@@ -22,10 +22,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
+source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
 workflow-type: tm+mt
-source-wordcount: 2566
-ht-degree: 20%
+source-wordcount: 2647
+ht-degree: 19%
 
 ---
 
@@ -34,6 +34,13 @@ ht-degree: 20%
 此页面列出对 [!DNL Adobe Target] 产品文档作出的重大变更。
 
 ## 更新
+
+### [!DNL Target Standard/Premium] 26.6.5（2026年6月17日）
+
+| 日期 | 主题 | 更改 |
+|--- |--- |--- |
+| 6月18日 | [[!DNL Adobe Target] MCP服务器工具引用](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) | 更新以反映活动工具合并：用四个统一工具(`get_activity`、`update_activity`、`get_activity_performance_report`、`get_activity_orders_report`)替换了六个每种类型的工具(`get_ab_activity`、`get_xt_activity`、`get_abt_activity`、`update_ab_activity`、`update_xt_activity`、`update_abt_activity`)和四个每种类型的报告工具。 更新了`list_target_activities`和`update_activity_schedule`以列出所有六种支持的活动类型。 添加了范围注释，阐明`update_activity`支持A/B测试、体验定位和Automated Personalization活动；自动分配、多变量测试和推荐活动为只读。 |
+|  | [[!DNL Target] 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md) | 添加了[!DNL Adobe Target] MCP服务器活动工具合并的发行说明。 |
 
 ### [!DNL Target Standard/Premium] 26.5.1（2026年5月7日）
 

@@ -3,10 +3,10 @@ audience: user
 user-guide-title: 标志
 user-guide-description: 了解如何使用Adobe Target中的标记来管理应用程序中的功能标记、控制转出以及定向发布。
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 8%
+source-wordcount: '169'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 8%
    + [逐步转出](concepts/gradual-rollout.md)
 + 控制台入门 {#console}
    + [登录到标志](guides/console/log-in-to-the-console.md)
-   + [选择您的沙盒](guides/console/environments-overview.md)
+   + [环境概述](guides/console/environments-overview.md)
    + [请求访问](guides/console/request-access.md)
 + 应用程序 {#applications}
    + [管理应用程序](guides/applications/manage-applications.md)
@@ -46,7 +46,7 @@ ht-degree: 8%
    + [创建功能组](guides/feature-flags/create-a-feature-group.md)
    + [设置功能组以逐步推出](guides/feature-flags/set-feature-group-gradual-rollout.md)
    + [使用功能标记进行A/B测试](guides/feature-flags/a-b-testing.md)
-   + [Analytics](guides/feature-flags/analytics.md)
+   + [报表](guides/feature-flags/analytics.md)
 + 受众条件 {#audience}
    + [功能标志和功能组中的受众](guides/audience/audience-in-feature-flags-and-feature-groups.md)
    + [在受众规则中使用上下文](guides/audience/using-context-in-audience-rules.md)

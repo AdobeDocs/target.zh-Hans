@@ -3,10 +3,10 @@ title: 使用功能标记进行A/B测试
 description: 了解如何通过为一组功能标记配置多个变体来使用标记中的功能组运行A/B测试。
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '420'
+ht-degree: 0%
 
 ---
 
@@ -24,10 +24,14 @@ ht-degree: 1%
 ## 步骤1：创建具有多个变体的功能组 {#create}
 
 1. 导航到&#x200B;**功能测试>功能组**&#x200B;并选择&#x200B;**新建功能组**。
-2. 在&#x200B;**基本详细信息**&#x200B;中，提供标题、键和描述。
-3. 设置&#x200B;**百分比转出**&#x200B;以定义受众参与测试的百分比。
-4. 将&#x200B;**变量**&#x200B;设置为大于1的值（例如，经典A/B测试的两个变量）。
-5. 请参阅[将功能组设置为逐步推出](set-feature-group-gradual-rollout.md)，以了解曝光百分比在变体之间的分布方式。
+1. 在&#x200B;**基本详细信息**&#x200B;中，提供标题、键和描述。
+1. 设置&#x200B;**百分比转出**&#x200B;以定义受众参与测试的百分比。
+1. 将&#x200B;**变量**&#x200B;设置为大于1的值（例如，经典A/B测试的两个变量）。 您最多可以定义&#x200B;**3个变体加上控制组**。
+1. 请参阅[将功能组设置为逐步推出](set-feature-group-gradual-rollout.md)，以了解曝光百分比在变体之间的分布方式。
+
+>[!NOTE]
+>
+>曝光在变体之间平均拆分&#x200B;**&#x200B;**，例如，两个变体为50/50。 不支持自定义拆分，如60/40。 单个功能标志可添加到&#x200B;**多个变体**。 受众为每个功能组&#x200B;**设置一次**，而不是为每个变体设置一次。
 
 ## 步骤2：设置受众 {#audience}
 
@@ -53,6 +57,6 @@ ht-degree: 1%
 
 * [创建功能组](create-a-feature-group.md)
 * [设置功能组以逐步推出](set-feature-group-gradual-rollout.md)
-* [Analytics](analytics.md)
+* [报告](analytics.md)
 
 <!-- -->

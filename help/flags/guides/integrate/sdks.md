@@ -3,9 +3,9 @@ title: SDK
 description: 了解Flags中的SDK架构以及可用的AEP Web SDK和AEP Mobile SDK扩展。
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
@@ -20,14 +20,18 @@ ht-degree: 3%
 
 * **初始化** — SDK在启动时配置，并使用Flags服务注册。
 * **功能检索** — SDK检索功能标志数据并在本地评估标志。
-* **正在缓存** — SDK将缓存功能标志数据，并在可配置的轮询间隔(TTL)上刷新该数据。
+* **缓存** — SDK将缓存功能标志数据，并按可配置的轮询间隔刷新该数据。
 * **错误处理** — 如果该服务不可用，则SDK将继续从本地缓存为功能标志评估提供服务。
 
 ## 可用SDK {#available-sdks}
 
 ### AEP Web SDK {#web-sdk}
 
-Web的Flags扩展与Adobe Experience Platform Web SDK集成，从而支持在Web应用程序中评估标记。
+Web的Flags扩展与Adobe Experience Platform Web SDK集成。
+
+>[!NOTE]
+>
+>即将提供Web SDK支持。 有关抢先体验的指导，请联系您的Adobe代表。
 
 ### Android扩展 {#android-extension}
 

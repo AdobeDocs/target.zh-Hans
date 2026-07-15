@@ -1,16 +1,16 @@
 ---
-title: 选择您的沙盒
+title: 环境概述
 description: 了解如何在使用Flags时选择正确的Adobe Experience Platform沙盒。
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 2%
+source-wordcount: '88'
+ht-degree: 6%
 
 ---
 
-# 选择您的沙盒 {#sandbox}
+# 环境概述 {#environments-overview}
 
 标记构建于Adobe Experience Platform之上。 在使用功能标记之前，请选择与当前环境对应的沙盒，就像在任何其他Adobe Experience Platform应用程序中一样。
 

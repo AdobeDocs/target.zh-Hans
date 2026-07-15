@@ -1,42 +1,47 @@
 ---
-title: Analytics
-description: 了解如何在标记中启用并使用内置的分析功能板来跟踪功能标记性能并衡量转出影响。
+title: 报告
+description: 了解如何使用Customer Journey Analytics在Flags中查看功能标记报告。
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '269'
 ht-degree: 1%
 
 ---
 
-# Analytics {#analytics}
+# 报表 {#reporting}
 
-标记为功能标记、功能组、跨团队功能组和版本提供内置分析。 使用Analytics功能板了解有多少用户参与您的转出，以及变体和对照组之间的比较情况。 您还可以将标记数据导出到首选报表环境，以便与其他Adobe数据一起进行分析。
+标记通过&#x200B;**Customer Journey Analytics (CJA)**&#x200B;提供报表。 控制台内没有“结果”或“报告”选项卡 — 相反，每个功能标志或功能组上的&#x200B;**报告**&#x200B;按钮会为该项目打开一个限定范围的CJA仪表板。
 
-## 启用分析 {#enable}
+## 先决条件 {#prerequisites}
 
-Analytics必须在两个级别启用：
+在查看报表之前，请确保：
 
-1. **应用程序级别** — 联系标志支持可为您的应用程序启用分析。
-2. **功能标志级别** — 为您的应用程序启用分析后，在要跟踪的每个功能标志的&#x200B;**基本详细信息**&#x200B;选项卡上选中&#x200B;**启用分析**&#x200B;复选框。
+1. 已为您的应用程序设置报表 — 请参阅[使用Customer Journey Analytics设置报表](#setup)。
+1. 您的功能标志或功能组处于活动状态并具有累积数据。
 
->[!NOTE]
->
->默认情况下，每个应用程序最多可以启用20个功能标志的Analytics。 如果您需要提高此限制，请联系支持人员。
+## 查看报表 {#view-report}
 
-## 查看Analytics功能板 {#dashboard}
+要打开功能标志或功能组的报表，请执行以下操作：
 
-启用Analytics后，应用程序的所有功能标记、功能组和版本都将开始跟踪数据。 在要分析的功能标志、功能组或版本上选择&#x200B;**结果**，访问仪表板。
+1. 导航到控制台中的功能标志或功能组。
+1. 选择&#x200B;**报告**。
 
-此时将显示仪表板：
+此时将打开一个限定范围的Customer Journey Analytics功能板，其中显示该标记或功能组的数据。 仪表板包括：
 
 * **参与者** — 符合该功能资格的用户总数（变体+控制组组合）
 * **控制组** — 分配给控制组的用户数（收到默认体验的用户）
-* **天级别图** — 显示一段时间内变量和控制组中的注册情况的每日折线图；标记指示功能标志配置的更新时间
-* **变体级别分析** — 已注册控制组和每个变体的用户累计计数
+* **变体细分** — 已注册每个变体和对照组的用户的累计计数
+* **每日注册** — 显示一段时间内每个变体和对照组的注册情况的日级别图表
 
-对于功能组和版本，请选择&#x200B;**结果**&#x200B;下拉列表以选择应用程序并查看该应用程序的分析。 Analytics仅适用于启用了它的应用程序。
+## 使用Customer Journey Analytics设置报表 {#setup}
+
+报表要求将Customer Journey Analytics数据集连接到您的Flags应用程序。 请联系Flags支持或您的Adobe代表以启用应用程序的报表。
+
+>[!NOTE]
+>
+>在功能请求中传递的标识无需链接到配置文件。 评估在运行时进行，并且事件会发送到Customer Journey Analytics。
 
 ## 另请参阅 {#see-also}
 

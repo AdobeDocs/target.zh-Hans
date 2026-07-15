@@ -3,10 +3,10 @@ title: 集成步骤
 description: 按照应用程序类型的集成步骤，使用可用的SDK将标记连接到Web服务、Web或移动应用程序或桌面应用程序。
 hide: true
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 4%
+source-wordcount: '167'
+ht-degree: 6%
 
 ---
 
@@ -22,13 +22,20 @@ ht-degree: 4%
 >
 >服务器端SDK文档目前正在准备中，即将推出。 有关抢先体验的指导，请联系您的Adobe代表。
 
-## Web和移动应用程序 {#web-mobile}
+## 移动设备应用程序 {#mobile}
 
-Web和移动应用程序分别通过Web SDK和移动SDK进行集成。
+移动设备应用程序通过AEP Mobile SDK扩展进行集成：
+
+* [Android扩展集成指南](../sdk-releases/android/android-extension-integration-guide.md)
+* [iOS扩展集成指南](../sdk-releases/ios/ios-extension-integration-guide.md)
+
+## Web 应用程序 {#web}
+
+即将提供Web应用程序支持。
 
 >[!NOTE]
 >
->Web SDK和移动SDK文档目前正在准备中，即将推出。 有关抢先体验的指导，请联系您的Adobe代表。
+>Web SDK文档目前正在准备中，即将推出。 有关抢先体验的指导，请联系您的Adobe代表。
 
 ## 桌面应用程序 {#desktop}
 

@@ -2,10 +2,10 @@
 title: 适用于iOS集成指南的Experience Rollout扩展
 description: 了解如何将Experience Rollout扩展与iOS上的Adobe Experience Platform Mobile SDK集成。
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 7%
+source-wordcount: '1116'
+ht-degree: 6%
 
 ---
 
@@ -53,13 +53,17 @@ Experience Rollout扩展需要以下Adobe Experience Platform扩展：
    | 数据集 ID | 分析事件数据的Adobe Experience Platform数据集ID |
 
 1. 选择&#x200B;**保存**。
-1. 按照[发布流程](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/overview)更新您的配置。
+1. 按照[发布流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)更新您的配置。
 
 ### 获取环境文件ID {#environment-file-id}
 
 1. 在移动资产中，导航到&#x200B;**环境**。
 1. 为您的环境选择&#x200B;**Install**&#x200B;列下的框图标。
 1. 在&#x200B;**移动设备安装说明**&#x200B;对话框中，复制&#x200B;**环境文件ID**。
+
+>[!IMPORTANT]
+>
+>在&#x200B;**暂存**&#x200B;环境中，为环境文件ID添加前缀`staging/` — 即，使用`staging/<environmentId>`。 在&#x200B;**生产**&#x200B;中，直接使用环境文件ID。
 
 ## 将Experience Rollout扩展添加到应用程序 {#add-to-app}
 
@@ -231,6 +235,15 @@ AEPFeatureEvaluationContext *ctx = [[[AEPFeatureEvaluationContextBuilder builder
 | `platform` | 平台标识符 | `["IOS"]` |
 | `appVersion` | 应用程序版本 | `["3.0.0"]` |
 | `deviceType` | 设备类型 | `["phone"]`, `["tablet"]` |
+
+## 特征评估的关键概念 {#key-concepts}
+
+在应用程序中实施功能审核时，请牢记以下事项：
+
+* **传递属性值，但不显示标签。** 上下文属性值区分大小写&#x200B;****。 传递您的应用程序或网站发送的原始值（例如`"en_US"`或`"IOS"`），而不是控制台中显示的标签。
+* **在功能（标志）级别进行评估。** 即使标记属于功能组，也始终使用单个&#x200B;**功能键**&#x200B;调用API。 没有组级别评估。 响应将返回用户所属的变量。
+* **身份不需要链接到配置文件。** 评估在运行时进行。 无论身份是否链接到已知配置文件，都会将评估事件发送到Customer Journey Analytics。
+* **每个新标记都需要更改代码。** 为代码中的每个标志键添加一个关口。 使用`isFeatureEnabled()`检查布尔打开/关闭状态，或使用`getFeature()`检索包含变体的完整功能有效负载。
 
 ## API 引用 {#api-reference}
 

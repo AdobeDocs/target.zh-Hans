@@ -3,9 +3,9 @@ title: 在应用程序中集成标志
 description: 了解如何将标记集成到您的应用程序中，无论该应用程序是Web服务、Web资产、移动应用程序还是桌面应用程序。
 hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,10 @@ ht-degree: 0%
 ## 应用程序类型概览 {#overview}
 
 | 应用程序类型 | 推荐的集成 |
-|---|---|
+| --- | --- |
 | **Web服务/后端** | Java SDK或Node.js SDK |
 | **Web应用程序** | Web SDK（即将推出） |
-| **移动应用程序** | Mobile SDK（即将推出） |
+| **移动应用程序** | AEP Mobile SDK — 请参阅[Android](../sdk-releases/android/android-extension-integration-guide.md)和[iOS](../sdk-releases/ios/ios-extension-integration-guide.md)指南 |
 | **桌面应用程序** | SDK（即将推出） |
 
 <!-- -->

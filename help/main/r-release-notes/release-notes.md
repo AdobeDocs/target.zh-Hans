@@ -7,21 +7,14 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
 workflow-type: tm+mt
-source-wordcount: 465
-ht-degree: 58%
+source-wordcount: 573
+ht-degree: 47%
 
 ---
 
@@ -30,6 +23,34 @@ ht-degree: 58%
 浏览[!DNL Adobe Target]中的最新功能、增强功能和修复。 这些发行说明还涵盖了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台组件（如果适用）的更新。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 26.7.2（2026年7月16日）
+
+**活动**
+
++++查看详细信息
+
+* **[!UICONTROL 活动概述]页面上的目标信息不正确。** 修复了[!DNL Automated Personalization]活动的[!UICONTROL 活动概述]页面显示其他目标而非优化目标的问题。 (TGT-55553)
+
+* 在[!UICONTROL 浏览]模式下导航页面时，**屏幕无响应。** 修复了在[!UICONTROL 浏览]模式下的页面之间导航时，屏幕无响应的问题。 (TGT-55565)
+
++++
+
+**主页**
+
++++查看详细信息
+
+* [!UICONTROL 最佳执行者]和[!UICONTROL 保存]的&#x200B;**UI更改。** 更新了表现最好的UI并保存体验。 (TGT-54975)
+
++++
+
+**受众**
+
++++查看详细信息
+
+* **在[!UICONTROL 创建配置文件脚本]对话框中未本地化的字符串。** 修复了[!UICONTROL 创建配置文件脚本]对话框中的字符串未本地化的问题。 (TGT-51527)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.1（2026年7月9日）
 

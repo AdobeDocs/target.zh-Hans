@@ -3,9 +3,9 @@ title: 在应用程序中集成标志
 description: 了解如何将标记集成到您的应用程序中，无论该应用程序是Web服务、Web资产、移动应用程序还是桌面应用程序。
 hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -19,20 +19,14 @@ ht-degree: 0%
 选择与您的应用程序类型匹配的指南：
 
 1. [启动指南](startup-guide.md) — 从此处开始，大致了解所有集成步骤
-2. [桌面应用程序](desktop-applications.md) — 桌面应用程序的SDK集成
-3. [移动应用程序](mobile-applications.md) — 适用于移动应用程序的SDK集成
-4. [Web应用程序](web-applications.md) — Web资产的SDK集成
-5. [Web服务](web-services.md) — 后端服务的服务器端SDK集成
-6. [SDK](sdks.md) — SDK架构、先决条件和可用SDK
-7. [集成步骤](integration-steps.md) — 详细的分步集成说明
+1. [移动应用程序](mobile-applications.md) — 适用于移动应用程序的SDK集成
+1. [Web应用程序](web-applications.md) — Web资产的SDK集成
 
 ## 应用程序类型概览 {#overview}
 
 | 应用程序类型 | 推荐的集成 |
 | --- | --- |
-| **Web服务/后端** | Java SDK或Node.js SDK |
-| **Web应用程序** | Web SDK（即将推出） |
 | **移动应用程序** | AEP Mobile SDK — 请参阅[Android](../sdk-releases/android/android-extension-integration-guide.md)和[iOS](../sdk-releases/ios/ios-extension-integration-guide.md)指南 |
-| **桌面应用程序** | SDK（即将推出） |
+| **Web应用程序** | Web SDK — 请参阅[Web集成指南](../sdk-releases/web/web-extension-integration-guide.md) |
 
 <!-- -->

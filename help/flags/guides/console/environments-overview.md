@@ -3,9 +3,9 @@ title: 环境概述
 description: 了解如何在使用Flags时选择正确的Adobe Experience Platform沙盒。
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '94'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 6%
 ## 如何选择沙盒 {#how-to}
 
 使用标志控制台顶部导航栏中的沙盒切换器，在创建或修改功能标志之前选择正确的沙盒。
+
+在Flags控制台中![沙盒切换器](assets/sandbox-selection.png)
 
 ## 另请参阅 {#see-also}
 

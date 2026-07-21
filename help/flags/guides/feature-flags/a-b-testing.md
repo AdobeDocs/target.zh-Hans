@@ -3,10 +3,10 @@ title: 使用功能标记进行A/B测试
 description: 了解如何通过为一组功能标记配置多个变体来使用标记中的功能组运行A/B测试。
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 您有权访问控制台 — 请参阅[登录到控制台](../console/log-in-to-the-console.md)
 * 您属于某个团队，您的应用程序已载入
-* 您具有&#x200B;**开发人员**&#x200B;或&#x200B;**产品版本所有者**&#x200B;角色
+* 您具有&#x200B;**产品版本所有者**&#x200B;角色
 * 您已创建要测试的功能标志 — 请参阅[创建您的第一个功能标志](create-your-first-feature-flag.md)
 
 ## 步骤1：创建具有多个变体的功能组 {#create}
@@ -31,15 +31,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->曝光在变体之间平均拆分&#x200B;**&#x200B;**，例如，两个变体为50/50。 不支持自定义拆分，如60/40。 单个功能标志可添加到&#x200B;**多个变体**。 受众为每个功能组&#x200B;**设置一次**，而不是为每个变体设置一次。
+>曝光在变体之间平均拆分&#x200B;****，例如，两个变体为50/50。 不支持自定义拆分，如60/40。 单个功能标志可添加到&#x200B;**多个变体**。 受众为每个功能组&#x200B;**设置一次**，而不是为每个变体设置一次。
 
 ## 步骤2：设置受众 {#audience}
 
 在&#x200B;**受众**&#x200B;选项卡上，添加受众条件并选择要包含的应用程序。 功能组可以跨同一团队中的多个应用程序。
-
->[!NOTE]
->
->若要在A/B测试中定位外部用户，您必须具有&#x200B;**产品版本所有者**&#x200B;角色。 开发人员角色是沙盒式的，并且仅限于专用测试。
 
 ## 步骤3：为每个变体添加功能 {#features}
 
@@ -57,6 +53,6 @@ ht-degree: 0%
 
 * [创建功能组](create-a-feature-group.md)
 * [设置功能组以逐步推出](set-feature-group-gradual-rollout.md)
-* [报告](analytics.md)
+* [报告](reporting.md)
 
 <!-- -->

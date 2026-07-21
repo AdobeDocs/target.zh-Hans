@@ -3,9 +3,9 @@ title: 启动指南
 description: 按照以下步骤将您的应用程序与标志集成：从请求访问权限到创建第一个功能标志。
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: 9a4e16418c93fa163d821409a0eecb251f2a9929
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '352'
 ht-degree: 1%
 
 ---
@@ -27,31 +27,25 @@ ht-degree: 1%
 | 要求 | 详细信息 |
 |---|---|
 | **应用程序ID** | 调用标志API时使用的唯一客户端标识符。 在可用的情况下，使用应用程序的现有客户端ID。 |
-| **服务器端客户端** | 如果与服务器端SDK集成，则需要具有适当权限的管理客户端ID。 |
-| **桌面客户端** | 可以使用产品代码和产品版本代替客户端ID。 |
 
-## 步骤3：获取您的凭据 {#step-3-credentials}
+## 步骤3：获取环境文件ID {#step-3-credentials}
 
-所需的凭据取决于您的集成路径：
+您需要的环境文件ID取决于您的集成路径：
 
 * **Web和移动设备（基于标记）：**&#x200B;使用已发布标记属性中的&#x200B;**环境文件ID**。 有关如何获取此信息，请参阅步骤4a 。
-* **服务器端SDK：**&#x200B;请求一个&#x200B;**服务令牌客户端ID**&#x200B;并让标志支持在从SDK进行API调用之前列入允许列表它。
-* **桌面：**&#x200B;可以使用产品代码和产品版本代替客户端ID。
 
 ## 步骤4：使用SDK集成 {#step-4-integrate}
 
-对您的应用程序类型执行[集成步骤](integration-steps.md)。 选择适合您的栈栈的路径：
+按照集成指南了解您的应用程序类型。 选择适合您的栈栈的路径：
 
-* **Web服务** → Java SDK或Node.js SDK
-* AEP Mobile SDK→的&#x200B;**Web和移动应用程序** — 请参阅[Android](../sdk-releases/android/android-extension-integration-guide.md)和[iOS](../sdk-releases/ios/ios-extension-integration-guide.md)指南
-* **桌面应用程序** → SDK（即将推出）
+* **Web和移动应用** — 请参阅集成指南部分中的[Android](../sdk-releases/android/android-extension-integration-guide.md)、[iOS](../sdk-releases/ios/ios-extension-integration-guide.md)和[Web](../sdk-releases/web/web-extension-integration-guide.md)指南
 
 ## 步骤4a：设置数据收集并发布您的配置 {#step-4a-data-collection}
 
 如果通过基于标记的方法（Web或移动设备）进行集成，请在初始化SDK之前配置标记属性：
 
 1. 在[Adobe Experience Platform数据收集](https://experience.adobe.com/#/data-collection)中，打开您的移动或Web属性。
-1. 依次安装&#x200B;**Edge Network**&#x200B;扩展和&#x200B;**Experience Rollout**&#x200B;扩展（按顺序）。
+1. 依次安装&#x200B;**Edge Network**&#x200B;扩展和&#x200B;**Flags**&#x200B;扩展（按顺序）。
 1. 选择您的&#x200B;**数据流**（必须包括Customer Journey Analytics数据集）和边缘域。
 1. 通过&#x200B;**Dev → Staging → Production**&#x200B;发布配置。
 1. 从&#x200B;**环境**&#x200B;选项卡复制&#x200B;**环境文件ID** — 您将使用此项初始化SDK。
@@ -69,7 +63,6 @@ ht-degree: 1%
 ## 另请参阅 {#see-also}
 
 * [在应用程序中集成标志](integrating-in-your-app.md)
-* [集成步骤](integration-steps.md)
 * [SDK](sdks.md)
 
 <!-- -->

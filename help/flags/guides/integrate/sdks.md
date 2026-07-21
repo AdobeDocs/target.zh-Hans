@@ -3,10 +3,10 @@ title: SDK
 description: 了解Flags中的SDK架构以及可用的AEP Web SDK和AEP Mobile SDK扩展。
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 3%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -48,7 +48,7 @@ iOS的Flags扩展可与Adobe Experience Platform Mobile SDK集成。
 ## 另请参阅 {#see-also}
 
 * [Android扩展集成指南](../sdk-releases/android/android-extension-integration-guide.md)
-* [Web 服务](web-services.md)
-* [集成步骤](integration-steps.md)
+* [iOS扩展集成指南](../sdk-releases/ios/ios-extension-integration-guide.md)
+* [Web扩展集成指南](../sdk-releases/web/web-extension-integration-guide.md)
 
 <!-- -->

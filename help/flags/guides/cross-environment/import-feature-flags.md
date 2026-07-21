@@ -3,9 +3,9 @@ title: 导入功能标志
 description: 了解如何在标记中将功能标记从一个沙盒导入另一个沙盒中，以避免手动重新创建标记配置。
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 ## 步骤1：转到目标沙盒和应用程序 {#step-1}
 
-登录到&#x200B;**目标**&#x200B;沙盒的控制台 — 您要将标志&#x200B;*导入到*&#x200B;中的沙盒。 从“功能标志”页上的应用程序下拉列表中选择要将标志导入到的应用程序。
+登录到控制台，以获取&#x200B;**目标**&#x200B;沙盒 — 要将标记导入其中的沙盒。 单击&#x200B;**导入功能标志**，然后从应用程序下拉列表中选择要将标志导入到的应用程序。
+
+功能标志页面上的![导入功能标志按钮](assets/import-feature-flags.png)
 
 >[!IMPORTANT]
 >

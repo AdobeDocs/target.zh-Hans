@@ -3,9 +3,9 @@ title: 为何使用标志
 description: 了解Adobe Target中标记的主要用例，从选择性功能测试到协调的多应用程序发布。
 hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 逐步分阶段推出以避免后端服务上突然出现流量尖峰，而不是一次让所有用户看到新功能。
 
 **协调的多应用程序发布**
-为一组特定用户同时跨多个应用程序和团队启用一项功能。 标记可确保整个发行版表面的一致性。
+为一组特定用户同时跨多个应用程序启用一项功能。 标记可确保整个发行版表面的一致性。
 
 **延迟的版本**
 提前将代码部署到生产环境，然后在某个确切的时间点（例如，在产品启动事件开始时）激活该功能，而不用在最后一刻更改任何代码。

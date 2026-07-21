@@ -4,7 +4,7 @@ description: 了解如何使用Adobe Target中的标记通过受控转出、功�
 hide: true
 index: false
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 3%
@@ -39,14 +39,10 @@ Adobe Target中的标记使产品团队能够逐步、安全地交付新功能�
 
 1. **创建并发布标志** — 按照[创建您的第一个功能标志](guides/feature-flags/create-your-first-feature-flag.md)指南来定义标志、设置初始受众并将其发布到环境。
 
-1. **与您的应用程序集成** — 使用AEP Web SDK或AEP Mobile SDK连接您的应用程序，以便它能够在运行时检索并应用标志。 从应用程序类型的[集成步骤](guides/integrate/integration-steps.md)开始。
+1. **与您的应用程序集成** — 使用AEP Web SDK或AEP Mobile SDK连接您的应用程序，以便它能够在运行时检索并应用标志。 从适用于您的应用程序类型的[集成指南](guides/integrate/sdks.md)开始。
 
 一旦您的第一个标志启用，您就可以优化其受众、配置逐步转出，并将其从保存提升为完全转出。
 
 ## 需要帮助？
 
 如果某些组件的行为与预期不符，请联系您的Adobe代表寻求支持。
-
-<!-- 
-Bob was here. Again.
--->

@@ -2,23 +2,17 @@
 keywords: 标准；算法；垂直行业；页面类型；推荐键；推荐逻辑；数据范围；回顾窗口；行为数据源；部分设计；备用推荐；包含规则；属性权重；当前类别；自定义属性；上次购买的项目；上次查看的项目；查看次数最多的项目；最喜爱的类别；热门程度；最近查看的项目；上次购买；上次查看；最喜爱的项目；最近查看的项目；最近查看的项目；最近查看的项目
 description: 了解如何创建条件来控制 [!DNL Recommendations] 活动的内容，以显示最适合您的活动的推荐。
 title: 如何在 [!DNL Recommendations]中创建[!UICONTROL 标准]？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="查看Target Premium中包含的内容。"
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 2900
-ht-degree: 46%
+source-wordcount: 2984
+ht-degree: 44%
 
 ---
 
@@ -79,7 +73,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="轮廓属性"
->abstract="您可以使用轮廓脚本创建轮廓属性。"
+>abstract="您可以使用配置文件脚本创建配置文件属性。"
 
 1. 选择&#x200B;**[!UICONTROL 算法类型]**&#x200B;和&#x200B;**[!UICONTROL 算法]**：
 
@@ -88,7 +82,7 @@ ht-degree: 46%
    | 算法类型 | 何时使用/可用算法 |
    | --- | --- |
    | [!UICONTROL 基于购物车] | 根据用户的购物车内容提供推荐。 <ul><li>[!UICONTROL 查看过这些项目，也查看过这些项目的人] </li><li>[!UICONTROL 查看了这些商品的人们也购买了]</li><li>[!UICONTROL 购买了这些商品的人，也购买了]</li></ul> |
-   | [!UICONTROL 基于热门程度] | 根据项目在整个网站中的整体受欢迎程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目受欢迎程度提供推荐。 <ul><li>整个网站查看的次数最多</li><li>按类别查看的次数最多</li><li>[!UICONTROL 按项目属性查看的次数最多]</li><li>[!UICONTROL 网站上的最畅销商品]</li><li>[!UICONTROL 按类别划分的最畅销商品]</li><li>按项目属性[!UICONTROL 最畅销商品]</li><li>[!UICONTROL 按Analytics指标排名]</li></ul> |
+   | [!UICONTROL 基于热门程度] | 根据项目在整个网站中的整体受欢迎程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目受欢迎程度提供推荐。 <ul><li>整个网站查看的次数最多</li><li>按类别查看的次数最多</li><li>[!UICONTROL 按项目属性查看的次数最多]</li><li>[!UICONTROL 个人资料属性查看次数最多]</li><li>[!UICONTROL 网站上的最畅销商品]</li><li>[!UICONTROL 按类别划分的最畅销商品]</li><li>按项目属性[!UICONTROL 最畅销商品]</li><li>[!UICONTROL 按配置文件属性排列的畅销商品排名]</li><li>[!UICONTROL 按Analytics指标排名]</li></ul> |
    | [!UICONTROL 基于项目] | 根据查找的用户当前正在查看或最近查看过的项目的相似项目提供推荐。 <ul><li>[!UICONTROL 查看了这个项目，也查看了那个项目的人]</li><li>[!UICONTROL 查看了这个项目，但购买了那个项目的人]</li><li>[!UICONTROL 购买了这个项目，也购买了那个项目的人]</li><li>[!UICONTROL 具有相似属性的项目]</li></ul> |
    | [!UICONTROL 基于用户] | 根据用户的行为提供推荐。<ul><li>[!UICONTROL 最近查看的项目]</li><li>[!UICONTROL 为您推荐]</li></ul> |
    | [!UICONTROL 自定义标准] | 根据您上传的自定义文件提出推荐。<ul><li>自定义算法</li></ul> |
@@ -99,7 +93,9 @@ ht-degree: 46%
 
 1. 根据需要，选择要匹配的&#x200B;**项目属性**&#x200B;和&#x200B;**配置文件属性**、**推荐键**、**筛选键**&#x200B;和/或&#x200B;**Analytics量度**&#x200B;以配置算法。
 
-其余的算法配置选项因所选算法而异。 要完成算法配置，请选择[!UICONTROL 推荐键]、[!UICONTROL 筛选键]、[!UICONTROL 共同发生基础]、[!UICONTROL Analytics量度]和/或[!UICONTROL 项目属性]和要匹配的配置文件属性。
+其余的算法配置选项因所选算法而异。 要完成算法配置，请选择[!UICONTROL 推荐键]、[!UICONTROL 筛选键]、[!UICONTROL 共同发生基础]、[!UICONTROL Analytics量度]和/或[!UICONTROL 项目属性]和要匹配的配置文件属性]。[!UICONTROL 
+
+当您选择[!UICONTROL 按配置文件属性查看的次数最多]或[!UICONTROL 按配置文件属性查看的畅销商品]时，请选择一个&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;作为交互数据分组依据。 配置文件属性来自捕获访客特征的配置文件脚本，例如区域或国家/地区，并且脚本名称必须包含`recsAttribute`前缀，因此该前缀将存储为`user.recsAttribute<Name>`，例如`user.recsAttributeRegion`。 在交付时，[!DNL Target]向每位访客提供与其自身属性值对应的排名列表。
 
 有关选择[!UICONTROL 推荐键]的详细信息，请参阅[使推荐基于推荐键](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)。
 

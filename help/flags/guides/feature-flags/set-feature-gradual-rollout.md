@@ -1,12 +1,13 @@
 ---
 title: 设置功能以逐步推出
 description: 了解如何在Flags中为功能标志配置基于百分比的逐步转出。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 2%
+source-wordcount: '172'
+ht-degree: 3%
 
 ---
 

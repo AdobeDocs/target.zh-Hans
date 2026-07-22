@@ -3,9 +3,9 @@ audience: user
 user-guide-title: 标志
 user-guide-description: 了解如何使用Adobe Target中的标记来管理应用程序中的功能标记、控制转出以及定向发布。
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 56c59c705d33c1e9edf336c03c2627654869ef81
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 9%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 9%
   + [设置功能组以逐步推出](guides/feature-flags/set-feature-group-gradual-rollout.md)
   + [使用功能标记进行A/B测试](guides/feature-flags/a-b-testing.md)
   + [报表](guides/feature-flags/reporting.md)
+  + [设置CJA以生成功能标记报表](guides/feature-flags/set-up-cja-reporting.md)
 + 受众条件 {#audience}
   + [功能标志和功能组中的受众](guides/audience/audience-in-feature-flags-and-feature-groups.md)
   + [在受众规则中使用上下文](guides/audience/using-context-in-audience-rules.md)

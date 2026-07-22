@@ -1,12 +1,13 @@
 ---
 title: 设置功能组以逐步推出
 description: 了解如何在Flags中为功能组配置基于百分比的逐步转出。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 2%
+source-wordcount: '191'
+ht-degree: 3%
 
 ---
 

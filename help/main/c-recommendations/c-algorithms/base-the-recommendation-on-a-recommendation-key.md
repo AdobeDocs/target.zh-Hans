@@ -15,10 +15,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: f741cd1f80d85c1a16088e6892b916567b3cd37f
 workflow-type: tm+mt
-source-wordcount: 4049
-ht-degree: 27%
+source-wordcount: 4434
+ht-degree: 25%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 27%
 | 算法类型 | 何时使用/可用算法 |
 | --- | --- |
 | [!UICONTROL 基于购物车] | 根据用户的购物车内容提供推荐。<ul><li>[!UICONTROL 查看过这些项目，也查看过这些项目的人]</li><li>[!UICONTROL 查看了这些商品的人们也购买了]</li><li>[!UICONTROL 购买了这些商品的人，也购买了]</li></ul> |
-| [!UICONTROL 基于热门程度] | 根据项目在整个网站中的整体受欢迎程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目受欢迎程度提供推荐。 <ul><li>整个网站查看的次数最多</li><li>按类别查看的次数最多</li><li>[!UICONTROL 按项目属性查看的次数最多]</li><li>[!UICONTROL 网站上的最畅销商品]</li><li>[!UICONTROL 按类别划分的最畅销商品]</li><li>按项目属性[!UICONTROL 最畅销商品]</li><li>[!UICONTROL 按Analytics指标排名]</li></ul> |
+| [!UICONTROL 基于热门程度] | 根据项目在整个网站中的整体受欢迎程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目受欢迎程度提供推荐。 <ul><li>整个网站查看的次数最多</li><li>按类别查看的次数最多</li><li>[!UICONTROL 按项目属性查看的次数最多]</li><li>[!UICONTROL 个人资料属性查看次数最多]</li><li>[!UICONTROL 网站上的最畅销商品]</li><li>[!UICONTROL 按类别划分的最畅销商品]</li><li>按项目属性[!UICONTROL 最畅销商品]</li><li>[!UICONTROL 按配置文件属性排列的畅销商品排名]</li><li>[!UICONTROL 按Analytics指标排名]</li></ul> |
 | [!UICONTROL 基于项目] | 根据查找的用户当前正在查看或最近查看过的项目的相似项目提供推荐。 <ul><li>[!UICONTROL 查看了这个项目，也查看了那个项目的人]</li><li>[!UICONTROL 查看了这个项目，但购买了那个项目的人]</li><li>[!UICONTROL 购买了这个项目，也购买了那个项目的人]</li><li>[!UICONTROL 具有相似属性的项目]</li></ul> |
 | [!UICONTROL 基于用户] | 根据用户的行为提供推荐。 <ul><li>[!UICONTROL 最近查看的项目]</li><li>[!UICONTROL 为您推荐]</li></ul> |
 | [!UICONTROL 自定义标准] | 根据您上传的自定义文件提出推荐。 <ul><li>自定义算法</li></ul> |
@@ -179,6 +179,43 @@ ht-degree: 27%
 通过此算法，您可以选择推荐所基于的项目属性，例如“名称”或“品牌”。
 
 然后，选择访客配置文件中存储哪些配置文件属性进行匹配，例如“最喜爱的品牌”、“上一个添加到购物车的项目”或“查看次数最多的节目”。
+
+### [!UICONTROL 个人资料属性查看次数最多]
+
+>[!CONTEXTUALHELP]
+>id="target_recommendations_profile_attribute"
+>title="轮廓属性"
+>abstract="您可以使用配置文件脚本创建配置文件属性。 创建并激活配置文件脚本后，可以使用此算法使用其对应的配置文件属性。"
+
+建议按访客配置文件属性而不是按项目信息分组查看次数最多的项目，例如[!UICONTROL 按类别查看次数最多]和[!UICONTROL 按项目属性查看次数最多]。 [!DNL Target]为每个属性值保留一个单独的排名列表，并在交付时向每位访客显示与其自身存储值匹配的列表。
+
+此算法依赖于配置文件脚本来填充属性，脚本名称必须以`recsAttribute`前缀开头，因此[!DNL Target]将其存储为`user.recsAttribute<Name>`。 您可以为与用例相关的任何访客特征编写脚本。
+
+在[此页面](https://experienceleague.adobe.com/zh-hans/docs/target/using/audiences/visitor-profiles/profile-parameters)中了解有关使用配置文件脚本设置配置文件属性的更多信息。
+
+例如，基于访客区域的推荐的名为`recsAttributeRegion`的脚本可能如下所示：
+
+```
+var region = mbox.param('userRegion');
+if (region) return region;
+```
+
+创建并激活脚本后，相应的[!UICONTROL 区域]条目将在创建条件窗口的配置文件属性下拉列表中变得可用。 请注意，`recsAttribute`前缀本身未显示在下拉列表中。
+
+### [!UICONTROL 按配置文件属性排列的畅销商品排名]
+
+建议按访客配置文件属性而不是项目信息分组的最畅销商品，如[!UICONTROL 按类别最畅销商品]和[!UICONTROL 按项目属性最畅销商品]那样。 [!DNL Target]为每个属性值保留一个单独的畅销商品列表，并在交付时向每位访客显示与其自身存储值匹配的列表。
+
+与配置文件属性查看次数最多的一样，此算法依赖配置文件脚本来填充该属性，脚本名称必须以`recsAttribute`前缀开头，因此[!DNL Target]将其存储为`user.recsAttribute<Name>`。 您可以为与用例相关的任何访客特征编写脚本。 在[此页面](https://experienceleague.adobe.com/zh-hans/docs/target/using/audiences/visitor-profiles/profile-parameters)中了解有关使用配置文件脚本设置配置文件属性的更多信息。
+
+例如，基于访客忠诚度级别的推荐的名为`recsAttributeLoyaltyTier`的脚本可能如下所示：
+
+```
+var tier = mbox.param('visitorLoyaltyTier');
+if (tier) return tier;
+```
+
+创建并激活脚本后，相应的[!UICONTROL 忠诚度级别]条目将在创建标准窗口的配置文件属性下拉列表中变得可用。 请注意，`recsAttribute`前缀本身未显示在下拉列表中。
 
 ### [!UICONTROL 按Analytics指标排名]
 

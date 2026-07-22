@@ -1,10 +1,11 @@
 ---
 title: 创建上下文属性
 description: 了解如何在标记中创建和组织上下文属性和上下文组，以便在受众标准中使用它们。
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '500'
 ht-degree: 5%
 
 ---

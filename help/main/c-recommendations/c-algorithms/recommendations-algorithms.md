@@ -7,9 +7,17 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
 TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
 source-wordcount: 3045
@@ -55,13 +63,13 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
 
 对于“已查看/购买此项目的用户也已查看/购买这些项目”算法，目标是计算所有项目对之间的相似度(A，B)。 对于给定的项目A，排名最前的推荐按照其相似度s(A，B)排序。
 
-此类相似性的一个示例是项目之间的共存：购买两个项目的用户数量的简单计数。 虽然这种量度是直观的，但因为偏向于推荐热门项目，所以这种量度是天真的。 例如，如果在retailer杂货店大多数人购买面包，则面包会与所有物品具有高共现率，但这不一定是很好的推荐。 [!DNL Target]改为使用更复杂的相似性量度，称为对数似然比(LLR)。 当两个项目A和B同时发生的概率与它们不同时发生的概率差别很大时，该数量就很大。 具体来说，请考虑查看了这个项目，但购买了该]算法的[!UICONTROL 用户的情况。 当购买B的概率为&#x200B;*而非*&#x200B;时，LLR相似性很大，这与某人是否查看A无关。
+此类相似性的一个示例是项目之间的共存：购买两个项目的用户数量的简单计数。 虽然这种量度是直观的，但因为偏向于推荐热门项目，所以这种量度是天真的。 例如，如果在retailer杂货店大多数人购买面包，则面包会与所有物品具有高共现率，但这不一定是很好的推荐。 [!DNL Target]改为使用更复杂的相似性量度，称为对数似然比(LLR)。 当两个项目A和B同时发生的概率与它们不同时发生的概率差别很大时，该数量就很大。 具体来说，请考虑查看了这个项目，但购买了该算法的用户的情况。 当购买B的概率为&#x200B;*而非*&#x200B;时，LLR相似性很大，这与某人是否查看A无关。
 
 例如，如果
 
 已查看/已购买算法的![公式](assets/formula.png)
 
-则不应将项目B与项目A一起推荐。此PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了[此对数似然比相似度计算的完整详细信息。
+则不应将项目B与项目A一起推荐。此PDF[&#128279;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)中提供了此对数似然比相似度计算的完整详细信息。
 
 实际算法实现的逻辑流程如下图所示：
 
@@ -139,7 +147,7 @@ Item-Item协同过滤推荐算法基于这样一个思想，即应该使用许�
   * **训练测试拆分**：为每个用户执行使用情况的按时间顺序拆分，将其使用情况的前80%分配给训练数据，其余20%分配给测试数据。
   * **项目相似度模型训练**：对于[!UICONTROL 为您推荐]和基于Cart的算法，核心项目相似度计算在构建候选项目向量方面有所不同。 对于[!UICONTROL 为您推荐]，项目矢量具有维度NUsers，其中每个条目表示该项目用户的隐式评级之和 — 购买项目的权重是该项目查看次数的2倍。 对于基于购物车的推荐，项目矢量具有二进制条目；如果只考虑会话内行为，则每个会话都有一个新条目。 否则，每个访客在此项目矢量中都有一个条目。
 
-  训练步骤计算几种类型的向量相似度：这里讨论的LLR相似度([](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf))、余弦相似度（以前定义）和规范化的L2相似度(定义为：
+  训练步骤计算几种类型的向量相似度：这里讨论的LLR相似度([&#128279;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf))、余弦相似度（以前定义）和规范化的L2相似度(定义为：
 
   ![显示训练计算的公式](assets/formula4.png)
 

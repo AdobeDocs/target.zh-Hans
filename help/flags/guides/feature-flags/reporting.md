@@ -63,7 +63,7 @@ ht-degree: 1%
 
 ![试验面板，带有试验、控制变量和量度选择器](assets/experimentation-selection.png)
 
-有关如何计算这些量度的更多详细信息，请参阅[试验面板文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation)。
+有关如何计算这些量度的更多详细信息，请参阅[试验面板文档](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/experimentation)。
 
 ![按变量显示提升度、置信度和转化率的试验结果](assets/experimentation.png)
 

@@ -45,8 +45,8 @@ ht-degree: 1%
 
 如果通过基于标记的方法（Web或移动设备）进行集成，请在初始化SDK之前配置标记属性：
 
-1. 在[Adobe Experience Platform数据收集](https://experience.adobe.com/#/data-collection)中，创建[标记属性](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)（如果尚未创建），或使用现有的标记属性。
-1. 打开移动或Web标记属性，然后转到[扩展](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)。
+1. 在[Adobe Experience Platform数据收集](https://experience.adobe.com/#/data-collection)中，创建[标记属性](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/get-started/quick-start)（如果尚未创建），或使用现有的标记属性。
+1. 打开移动或Web标记属性，然后转到[扩展](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/ui/extensions/overview)。
 1. 安装和配置&#x200B;**Edge Network**&#x200B;扩展。 然后安装&#x200B;**Flags**&#x200B;扩展。
 1. 选择&#x200B;**数据流**（它必须包括Customer Journey Analytics数据集）并配置Edge域。
 1. 通过&#x200B;**Dev → Staging → Production**&#x200B;发布配置。

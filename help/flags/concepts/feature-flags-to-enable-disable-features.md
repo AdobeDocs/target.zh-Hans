@@ -1,11 +1,12 @@
 ---
 title: 用于启用和禁用功能的功能标记
 description: 了解标记中的功能标记如何让您控制功能可用性、管理依赖项并降低部署风险。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---

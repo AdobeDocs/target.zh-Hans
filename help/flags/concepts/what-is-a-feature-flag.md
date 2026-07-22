@@ -1,11 +1,12 @@
 ---
 title: 什么是功能标记
 description: 了解功能标志是什么，以及它们如何让您在运行时打开或关闭应用程序功能，而无需重新部署。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: c4ed4ab5-0d73-4697-b05c-476d6e4010ce
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---

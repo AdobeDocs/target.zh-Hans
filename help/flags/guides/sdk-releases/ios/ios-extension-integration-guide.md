@@ -1,10 +1,11 @@
 ---
 title: iOS集成指南的Flags扩展
 description: 了解如何将Flags扩展与iOS上的Adobe Experience Platform Mobile SDK集成。
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1036'
 ht-degree: 5%
 
 ---
@@ -50,7 +51,7 @@ Flags扩展需要以下Adobe Experience Platform扩展：
    | 应用程序 ID | 标记中应用程序的唯一标识符 |
 
 1. 选择&#x200B;**保存**。
-1. 按照[发布流程](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/tags/publish/overview)更新您的配置。
+1. 按照[发布流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)更新您的配置。
 
 ### 获取环境文件ID {#environment-file-id}
 

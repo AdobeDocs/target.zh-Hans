@@ -1,12 +1,13 @@
 ---
 title: 报表
 description: 了解如何使用Customer Journey Analytics在Flags中查看功能标记报告。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 在查看报表之前，请确保：
 
-1. 已为您的应用程序设置报表 — 请参阅[使用Customer Journey Analytics设置报表](#setup)。
+1. 已为您的应用程序设置报表 — 请参阅[为功能标志报表设置CJA](set-up-cja-reporting.md)。
 1. 您的功能标志或功能组处于活动状态并具有累积数据。
 
 ## 查看报表 {#view-report}
@@ -62,32 +63,13 @@ ht-degree: 0%
 
 ![试验面板，带有试验、控制变量和量度选择器](assets/experimentation-selection.png)
 
-有关如何计算这些量度的更多详细信息，请参阅[试验面板文档](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/experimentation)。
+有关如何计算这些量度的更多详细信息，请参阅[试验面板文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation)。
 
 ![按变量显示提升度、置信度和转化率的试验结果](assets/experimentation.png)
 
-### 在CJA中分析（可选） {#analyze-in-cja}
-
-加载报告后，“报告”选项卡的右上角会显示一个&#x200B;**在CJA中分析**&#x200B;按钮。 选择它将在新的浏览器选项卡中打开Customer Journey Analytics中的相同完整报表，您可以在其中获得完整的CJA工具集，以进行更深入的Ad Hoc分析。
-
-在Customer Journey Analytics工作区中打开了![标记概述报告](assets/cja-workspace.png)
-
->[!IMPORTANT]
->
->报告将作为临时的、未保存的项目打开。 如果您在CJA中对其进行自定义（添加量度、更改面板、调整筛选器等）并想要保留这些更改，请使用&#x200B;**项目>另存为模板**&#x200B;来保存它。 否则，您所做的编辑将在关闭报表时丢失。
-
-![突出显示了“另存为模板”的“项目”菜单](assets/save-as-template.png)
-
-## 使用Customer Journey Analytics设置报表 {#setup}
-
-报表要求将Customer Journey Analytics数据集连接到您的Flags应用程序。 请联系Flags支持或您的Adobe代表以启用应用程序的报表。
-
->[!NOTE]
->
->在功能请求中传递的标识无需链接到配置文件。 评估在运行时进行，并且事件会发送到Customer Journey Analytics。
-
 ## 另请参阅 {#see-also}
 
+* [设置CJA以生成功能标记报表](set-up-cja-reporting.md)
 * [创建您的第一个功能标记](create-your-first-feature-flag.md)
 * [使用功能标记进行A/B测试](a-b-testing.md)
 * [创建功能组](create-a-feature-group.md)

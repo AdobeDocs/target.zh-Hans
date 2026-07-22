@@ -1,11 +1,12 @@
 ---
 title: 创建功能组
 description: 了解如何在标记中创建功能组，以作为一个单元管理团队中跨应用程序的多个功能标记。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ ht-degree: 0%
 
 1. 提供标题、键、描述和（可选）标记。
 2. 为功能组设置&#x200B;**百分比转出**。
-3. 如果要运行A/B测试，请选择多个变体。 否则，将其保留在一个变体中。 有关详细信息，请参阅带有功能标志[&#128279;](a-b-testing.md)的A/B测试。
+3. 如果要运行A/B测试，请选择多个变体。 否则，将其保留在一个变体中。 有关详细信息，请参阅带有功能标志](a-b-testing.md)的[A/B测试。
 
 ## 步骤3：受众 {#audience}
 

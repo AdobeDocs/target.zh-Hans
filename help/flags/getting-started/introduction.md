@@ -1,11 +1,12 @@
 ---
 title: 标记简介
 description: 了解Adobe Target中的标记如何提供受控发布系统，用于将功能逐步部署到目标受众。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 2%
 
 ---

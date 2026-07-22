@@ -1,11 +1,12 @@
 ---
 title: 使用功能标记进行A/B测试
 description: 了解如何通过为一组功能标记配置多个变体来使用标记中的功能组运行A/B测试。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -31,7 +32,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->曝光在变体之间平均拆分&#x200B;**&#x200B;**，例如，两个变体为50/50。 不支持自定义拆分，如60/40。 单个功能标志可添加到&#x200B;**多个变体**。 受众为每个功能组&#x200B;**设置一次**，而不是为每个变体设置一次。
+>曝光在变体之间平均拆分&#x200B;****，例如，两个变体为50/50。 不支持自定义拆分，如60/40。 单个功能标志可添加到&#x200B;**多个变体**。 受众为每个功能组&#x200B;**设置一次**，而不是为每个变体设置一次。
 
 ## 步骤2：设置受众 {#audience}
 

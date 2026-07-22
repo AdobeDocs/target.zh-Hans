@@ -1,11 +1,12 @@
 ---
 title: 在应用程序中集成标志
 description: 了解如何将标记集成到您的应用程序中，无论该应用程序是Web服务、Web资产、移动应用程序还是桌面应用程序。
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---

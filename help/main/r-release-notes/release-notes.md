@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
+source-git-commit: c74d8b09fba181fcded2f982d99a03f1e7f3a07a
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 47%
+source-wordcount: 927
+ht-degree: 29%
 
 ---
 
@@ -30,6 +30,60 @@ ht-degree: 47%
 浏览[!DNL Adobe Target]中的最新功能、增强功能和修复。 这些发行说明还涵盖了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台组件（如果适用）的更新。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 26.7.4（2026年7月23日）
+
+**报表**
+
++++查看详细信息
+
+* **转化率图表不适用于特定的移动受众。** 修复了[!UICONTROL 转化率]图形未针对某些移动设备受众呈现的问题。 (TGT-55611)
+
+* 从下拉列表中选择&#x200B;**时，“已查看mbox”转化目标不起作用。** 修复了从[!UICONTROL 目标和设置]中下拉列表为“已查看mbox”转化目标选择mbox时无法正确保存mbox名称，从而无法记录转化的问题。 (TGT-55588)
+
++++
+
+**受众**
+
++++查看详细信息
+
+* 受众库页面上的&#x200B;**布局问题。** 修复了在侧面导航折叠时在[!UICONTROL 受众库]页面上启用过滤器时发生的布局问题。 (TGT-55502)
+
++++
+
+**[!UICONTROL 可视化体验编辑器] (VEC)**
+
++++查看详细信息
+
+* **移动设备版本未正确加载。** 修复了[!UICONTROL 可视化体验编辑器]未提供刷新方式，导致移动设备视图无法正确加载的问题。 (TGT-54408)
+
+* **编辑或删除修改操作不起作用。** 修复了无法从[!UICONTROL 编辑体验]视图编辑或删除修改的问题。 (TGT-55250)
+
+* **活动加载后，浏览模式无响应。** 修复了以下问题：[!UICONTROL 浏览]模式对包含修改的体验无响应，从而阻止进一步的导航和创作。 (TGT-55306)
+
+* **无法选择Salesforce LWC （影子DOM）中的元素。** 修复了[!UICONTROL 可视化体验编辑器]无法选择使用影子DOM嵌套在Salesforce Lightning Web组件中的元素的问题，从而导致“未找到选择器”错误。 (TGT-54956)
+
+* **在[!UICONTROL 可视化体验编辑器]中出现重复的选件。** 修复了在活动创作UI中修改和选件间歇性重复显示的问题。 (TGT-55685)
+
++++
+
+**管理**
+
++++查看详细信息
+
+* **已将内容生成助理重命名为[!UICONTROL 生成内容]。** 已将“AI助手”内容生成功能重命名为[!UICONTROL 跨[!DNL Target]用户界面表面]生成内容。 (TGT-55689)
+
++++
+
+**推荐**
+
++++查看详细信息
+
+* **使用配置文件属性的基于热门程度的推荐。** [!DNL Target]现在支持按访客个人资料属性（如国家/地区、首选语言或成员级别）动态地对热门程度推荐、“查看次数最多”和“最畅销商品”进行分组。 (TAPER-7614)
+
+* **推荐集合在[!UICONTROL 集合]和活动配置之间不匹配。** 修复了与[!UICONTROL 推荐] > [!UICONTROL 收藏集]视图相比，从活动配置查看时，[!UICONTROL 推荐]收藏集返回了额外的不符合条件的实体的问题。 (TGT-55554)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.2（2026年7月16日）
 

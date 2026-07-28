@@ -6,15 +6,9 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f741cd1f80d85c1a16088e6892b916567b3cd37f
 workflow-type: tm+mt
 source-wordcount: 4434
@@ -31,7 +25,7 @@ ht-degree: 25%
 | 算法类型 | 何时使用/可用算法 |
 | --- | --- |
 | [!UICONTROL 基于购物车] | 根据用户的购物车内容提供推荐。<ul><li>[!UICONTROL 查看过这些项目，也查看过这些项目的人]</li><li>[!UICONTROL 查看了这些商品的人们也购买了]</li><li>[!UICONTROL 购买了这些商品的人，也购买了]</li></ul> |
-| [!UICONTROL 基于热门程度] | 根据项目在整个网站中的整体受欢迎程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目受欢迎程度提供推荐。 <ul><li>整个网站查看的次数最多</li><li>按类别查看的次数最多</li><li>[!UICONTROL 按项目属性查看的次数最多]</li><li>[!UICONTROL 个人资料属性查看次数最多]</li><li>[!UICONTROL 网站上的最畅销商品]</li><li>[!UICONTROL 按类别划分的最畅销商品]</li><li>按项目属性[!UICONTROL 最畅销商品]</li><li>[!UICONTROL 按配置文件属性排列的畅销商品排名]</li><li>[!UICONTROL 按Analytics指标排名]</li></ul> |
+| [!UICONTROL 基于热门程度] | 根据项目在整个网站中的整体受欢迎程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目受欢迎程度提供推荐。 <ul><li>整个网站查看的次数最多</li><li>按类别查看的次数最多</li><li>[!UICONTROL 按项目属性查看的次数最多]</li><li>[!UICONTROL 按轮廓属性划分的最多浏览量]</li><li>[!UICONTROL 网站上的最畅销商品]</li><li>[!UICONTROL 按类别划分的最畅销商品]</li><li>按项目属性[!UICONTROL 最畅销商品]</li><li>[!UICONTROL 按配置文件属性排列的畅销商品排名]</li><li>[!UICONTROL 按Analytics指标排名]</li></ul> |
 | [!UICONTROL 基于项目] | 根据查找的用户当前正在查看或最近查看过的项目的相似项目提供推荐。 <ul><li>[!UICONTROL 查看了这个项目，也查看了那个项目的人]</li><li>[!UICONTROL 查看了这个项目，但购买了那个项目的人]</li><li>[!UICONTROL 购买了这个项目，也购买了那个项目的人]</li><li>[!UICONTROL 具有相似属性的项目]</li></ul> |
 | [!UICONTROL 基于用户] | 根据用户的行为提供推荐。 <ul><li>[!UICONTROL 最近查看的项目]</li><li>[!UICONTROL 为您推荐]</li></ul> |
 | [!UICONTROL 自定义标准] | 根据您上传的自定义文件提出推荐。 <ul><li>自定义算法</li></ul> |
@@ -44,7 +38,7 @@ ht-degree: 25%
 
 ## 基于购物车 {#cart-based}
 
-[!UICONTROL 基于购物车的]算法类型允许根据访客当前购物车的内容推荐项目。 推荐键是通过逗号分隔值的[mbox参数`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=zh-Hans){target=_blank}提供的。 仅考虑前 10 个值。
+[!UICONTROL 基于购物车的]算法类型允许根据访客当前购物车的内容推荐项目。 推荐键是通过逗号分隔值的[mbox参数`cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}提供的。 仅考虑前 10 个值。
 
 基于购物车的推荐逻辑类似于“[!UICONTROL 为您推荐]”基于用户的算法，以及“[!UICONTROL 查看这些项目、购买那些]”的人和“[!UICONTROL 购买这些项目、购买那些]”基于项目的算法。
 
@@ -144,7 +138,7 @@ ht-degree: 25%
 
 如果您选择了“按类别查看次数最多”算法，则可以选择以下推荐键：
 
-* [!UICONTROL 当前类别 &#x200B;]
+* [!UICONTROL 当前类别 ]
 * [!UICONTROL 最喜爱类别]
 
 ### [!UICONTROL 按项目属性查看的次数最多]
@@ -169,7 +163,7 @@ ht-degree: 25%
 
 如果选择[!UICONTROL 按类别查看的次数最多]算法，则可以选择以下[!UICONTROL 推荐键]：
 
-* [!UICONTROL 当前类别 &#x200B;]
+* [!UICONTROL 当前类别 ]
 * [!UICONTROL 最喜爱类别]
 
 ### 按项目属性[!UICONTROL 最畅销商品]
@@ -180,18 +174,18 @@ ht-degree: 25%
 
 然后，选择访客配置文件中存储哪些配置文件属性进行匹配，例如“最喜爱的品牌”、“上一个添加到购物车的项目”或“查看次数最多的节目”。
 
-### [!UICONTROL 个人资料属性查看次数最多]
+### [!UICONTROL 按轮廓属性划分的最多浏览量]
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="轮廓属性"
->abstract="您可以使用配置文件脚本创建配置文件属性。 创建并激活配置文件脚本后，可以使用此算法使用其对应的配置文件属性。"
+>abstract="您可以使用轮廓脚本创建轮廓属性。 创建并激活一个轮廓脚本后，就可以与这个算法一起使用与该脚本对应的轮廓属性。"
 
 建议按访客配置文件属性而不是按项目信息分组查看次数最多的项目，例如[!UICONTROL 按类别查看次数最多]和[!UICONTROL 按项目属性查看次数最多]。 [!DNL Target]为每个属性值保留一个单独的排名列表，并在交付时向每位访客显示与其自身存储值匹配的列表。
 
 此算法依赖于配置文件脚本来填充属性，脚本名称必须以`recsAttribute`前缀开头，因此[!DNL Target]将其存储为`user.recsAttribute<Name>`。 您可以为与用例相关的任何访客特征编写脚本。
 
-在[此页面](https://experienceleague.adobe.com/zh-hans/docs/target/using/audiences/visitor-profiles/profile-parameters)中了解有关使用配置文件脚本设置配置文件属性的更多信息。
+在[此页面](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)中了解有关使用配置文件脚本设置配置文件属性的更多信息。
 
 例如，基于访客区域的推荐的名为`recsAttributeRegion`的脚本可能如下所示：
 
@@ -206,7 +200,7 @@ if (region) return region;
 
 建议按访客配置文件属性而不是项目信息分组的最畅销商品，如[!UICONTROL 按类别最畅销商品]和[!UICONTROL 按项目属性最畅销商品]那样。 [!DNL Target]为每个属性值保留一个单独的畅销商品列表，并在交付时向每位访客显示与其自身存储值匹配的列表。
 
-与配置文件属性查看次数最多的一样，此算法依赖配置文件脚本来填充该属性，脚本名称必须以`recsAttribute`前缀开头，因此[!DNL Target]将其存储为`user.recsAttribute<Name>`。 您可以为与用例相关的任何访客特征编写脚本。 在[此页面](https://experienceleague.adobe.com/zh-hans/docs/target/using/audiences/visitor-profiles/profile-parameters)中了解有关使用配置文件脚本设置配置文件属性的更多信息。
+与配置文件属性]查看次数最多的[!UICONTROL 一样，此算法依赖配置文件脚本来填充该属性，脚本名称必须以`recsAttribute`前缀开头，因此[!DNL Target]将其存储为`user.recsAttribute<Name>`。 您可以为与用例相关的任何访客特征编写脚本。 在[此页面](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters)中了解有关使用配置文件脚本设置配置文件属性的更多信息。
 
 例如，基于访客忠诚度级别的推荐的名为`recsAttributeLoyaltyTier`的脚本可能如下所示：
 
@@ -451,7 +445,7 @@ if (tier) return tier;
 * [!UICONTROL 查看了这个项目，但购买了那个项目的人]
 * [!UICONTROL 购买了这个项目，也购买了那个项目的人]
 
-### [!UICONTROL 当前类别 &#x200B;] {#current-category}
+### [!UICONTROL 当前类别 ] {#current-category}
 
 推荐由访客当前正在查看的产品类别决定。
 

@@ -79,7 +79,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="轮廓属性"
->abstract="您可以使用配置文件脚本创建配置文件属性。"
+>abstract="您可以使用轮廓脚本创建轮廓属性。"
 
 1. 选择&#x200B;**[!UICONTROL 算法类型]**&#x200B;和&#x200B;**[!UICONTROL 算法]**：
 
@@ -88,7 +88,7 @@ ht-degree: 44%
    | 算法类型 | 何时使用/可用算法 |
    | --- | --- |
    | [!UICONTROL 基于购物车] | 根据用户的购物车内容提供推荐。 <ul><li>[!UICONTROL 查看过这些项目，也查看过这些项目的人] </li><li>[!UICONTROL 查看了这些商品的人们也购买了]</li><li>[!UICONTROL 购买了这些商品的人，也购买了]</li></ul> |
-   | [!UICONTROL 基于热门程度] | 根据项目在整个网站中的整体受欢迎程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目受欢迎程度提供推荐。 <ul><li>整个网站查看的次数最多</li><li>按类别查看的次数最多</li><li>[!UICONTROL 按项目属性查看的次数最多]</li><li>[!UICONTROL 个人资料属性查看次数最多]</li><li>[!UICONTROL 网站上的最畅销商品]</li><li>[!UICONTROL 按类别划分的最畅销商品]</li><li>按项目属性[!UICONTROL 最畅销商品]</li><li>[!UICONTROL 按配置文件属性排列的畅销商品排名]</li><li>[!UICONTROL 按Analytics指标排名]</li></ul> |
+   | [!UICONTROL 基于热门程度] | 根据项目在整个网站中的整体受欢迎程度或用户最喜爱或查看次数最多的类别、品牌、流派等中的项目受欢迎程度提供推荐。 <ul><li>整个网站查看的次数最多</li><li>按类别查看的次数最多</li><li>[!UICONTROL 按项目属性查看的次数最多]</li><li>[!UICONTROL 按轮廓属性划分的最多浏览量]</li><li>[!UICONTROL 网站上的最畅销商品]</li><li>[!UICONTROL 按类别划分的最畅销商品]</li><li>按项目属性[!UICONTROL 最畅销商品]</li><li>[!UICONTROL 按配置文件属性排列的畅销商品排名]</li><li>[!UICONTROL 按Analytics指标排名]</li></ul> |
    | [!UICONTROL 基于项目] | 根据查找的用户当前正在查看或最近查看过的项目的相似项目提供推荐。 <ul><li>[!UICONTROL 查看了这个项目，也查看了那个项目的人]</li><li>[!UICONTROL 查看了这个项目，但购买了那个项目的人]</li><li>[!UICONTROL 购买了这个项目，也购买了那个项目的人]</li><li>[!UICONTROL 具有相似属性的项目]</li></ul> |
    | [!UICONTROL 基于用户] | 根据用户的行为提供推荐。<ul><li>[!UICONTROL 最近查看的项目]</li><li>[!UICONTROL 为您推荐]</li></ul> |
    | [!UICONTROL 自定义标准] | 根据您上传的自定义文件提出推荐。<ul><li>自定义算法</li></ul> |

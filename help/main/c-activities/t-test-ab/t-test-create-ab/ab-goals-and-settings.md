@@ -14,10 +14,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: d0846dd933f267d990069a95532a8643bb4bf792
 workflow-type: tm+mt
-source-wordcount: 1292
-ht-degree: 33%
+source-wordcount: 1546
+ht-degree: 29%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 33%
 |--- |--- |
 | [!UICONTROL 目标] | 键入一个可选目的。 目标可以是任何有助于您和您的团队成员识别活动的信息。 |
 | [!UICONTROL 优先级] | 根据您的设置，[!UICONTROL 优先级]的[!DNL Target] UI和选项会有所不同。 您可以使用[!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]的旧设置，也可以启用0到999的细粒度优先级。<P>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。 如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。<P>如果未在[!UICONTROL 管理]中启用此选项（默认值），请指定优先级： [!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]。<P>要启用[细粒度优先级](/help/main/administrating-target/reporting.md)，请单击[!UICONTROL 管理] > [!UICONTROL 报告]，然后将[!UICONTROL 启用细粒度优先级]选项切换到“开”位置。 <P>如果已启用此选项，请指定从0到999的值： 0 = [!UICONTROL 低]和999 = [!UICONTROL 高]。 <P>对于在以前版本的[!DNL Target]中创建的活动，[!UICONTROL 低]优先级已转换为0，[!UICONTROL Medium]已转换为5，[!UICONTROL 高]已转换为10。 您可以根据需要调整这些值。<P>注意：在使用细粒度优先级后，您可以禁用此选项，但在此之前，必须将所有优先级重新设置为0、5、10。 |
-| [!UICONTROL 持续时间] | 活动可以在获得批准时开始，或者您也可以设置特定的日期和时间。 同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。 时间选择器使用24小时时钟，00:00为午夜。 时区设置为在浏览器中配置的时区。 要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。 |
+| [!UICONTROL 持续时间] | 活动可以在获得批准时开始，或者您也可以设置特定的日期和时间。 同样，活动可以在停用时结束，或者您也可以设置特定的日期和时间。 时间选择器使用的是 24 小时制时钟，其中 00:00 表示午夜。 时区设置为在浏览器中配置的时区。 要使用不同的时区，请将浏览器设置为其他时区并重新启动浏览器。 |
 
 ## [!UICONTROL 报表设置] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -43,10 +43,13 @@ ht-degree: 33%
 
 | 设置 | 描述 |
 |--- |--- |
-| [!UICONTROL 报告Source] | 指定从以下来源收集解决方案数据：<ul><li>[!DNL Adobe Target]</li><li>[!DNL Adobe Analytics]</li><li>[!DNL Adobe Customer Journey Analytics]</li></ul>如果在[帐户设置](/help/main/administrating-target/reporting.md)中指定了报表源，则会使用指定的报表源，并且此设置不可见。<P>在活动启动后，为保持报表一致，您不能更改报表源。<P>**Adobe Analytics**：请参阅[Adobe Analytics作为Target的报表Source](/help/main/c-integrating-target-with-mac/a4t/a4t.md)，了解报表解决方案之间的差异和各自的优势。 选择[!DNL Analytics]作为[!DNL Target]的报告源时，请选择一个[!DNL Analytics]报告包来接收[!DNL Target]活动数据。<P>要指定报表源，请先从您的帐户绑定的[!DNL Analytics]家公司中选择任意，然后为活动选择合适的报表包。 只有配置为连接到[!DNL Adobe Target]的报表包才可供选择。 如果您没有看到预期的报表包，请先尝试注销并重新登录到[!DNL Adobe Experience Cloud]以重试。 如果列表中仍缺少报表包，请联系客户关怀团队。<P><P>**Adobe Customer Journey Analytics**：有关[!DNL Adobe Customer Journey Analytics]与[!DNL Target]之间集成的详细信息，请参阅[[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中报告。<P>使用手动流量拆分的A/B活动支持[!DNL Customer Journey Analytics]中的[!DNL Target]报表。 [!UICONTROL 自动定位]和[!UICONTROL 自动分配] A/B活动不能在[!DNL Customer Journey Analytics]中使用[!DNL Target]报表。 |
+| [!UICONTROL 报告Source] | 指定从以下来源收集解决方案数据：<ul><li>[!DNL Adobe Target]</li><li>[!DNL Adobe Analytics]</li><li>[!DNL Adobe Customer Journey Analytics]</li></ul>如果在[帐户设置](/help/main/administrating-target/reporting.md)中指定了报表源，则会使用指定的报表源，并且此设置不可见。<P>在活动启动后，为保持报表一致，您不能更改报表源。<P>**Adobe Analytics**：请参阅[Adobe Analytics作为Target的报表Source](/help/main/c-integrating-target-with-mac/a4t/a4t.md)，了解报表解决方案之间的差异和各自的优势。 选择[!DNL Analytics]作为[!DNL Target]的报告源时，请选择一个[!DNL Analytics]报告包来接收[!DNL Target]活动数据。<P>要指定报表源，请先从您的帐户绑定的[!DNL Analytics]家公司中选择任意，然后为活动选择合适的报表包。 只有配置为连接到[!DNL Adobe Target]的报表包才可供选择。 如果您没有看到预期的报表包，请先尝试注销并重新登录到[!DNL Adobe Experience Cloud]以重试。 如果列表中仍缺少报表包，请联系客户关怀团队。<P><P>**Adobe Customer Journey Analytics**：请参阅[[!DNL Target] 在 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)中报告[!DNL Customer Journey Analytics]中支持的活动类型、沙盒和数据视图选择、目标量度和报告设置。 |
 | [!UICONTROL 目标量度] | 选择访客为实现目标而执行的操作。 例如，选择一个[!UICONTROL 转化]量度，然后设置用于确定何时获得成功的参数。 有关设置量度的更多信息，请参阅[设置量度](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)。<P>注意：如果将报表解决方案设置为[!DNL Analytics]，则唯一可用的目标量度是[!UICONTROL 转化]。 无法选择[!DNL Analytics]指标作为目标。 选择成功量度后，会显示一个选择器。 使用此选择器，可选择成功量度的具体信息。<P>如果启用，[!UICONTROL 转化的预计值]字段（不适用于[!UICONTROL 页面得分]量度）会为您的目标提供一个值，但此值不适用于其他量度。 通过此值，[!DNL Target] 可以计算出预计收入提升。 此字段为可选字段；但是，如果没有该字段，便无法计算所有非收入量度的增量收入。 对于所有收入量度（[!UICONTROL 每位访客带来的收入]、[!UICONTROL 平均订单值]、[!UICONTROL 总销售额]和[!UICONTROL 订单数]），估计将使用[!UICONTROL 每位访客带来的收入]。 数据类型为货币。<P>实现活动目标后，访客可继续查看活动内容，除非该访客有资格参加更高优先级的活动。 如果访客再次实现目标，则会计为另一次转化。 这不同于[!DNL Target Classic]中的默认行为，如果访客再次看到该活动，则将其计为新访客。 |
 | [!UICONTROL 其他量度] | 创建其他成功量度。 如果报表解决方案设置为[!DNL Analytics]，则此设置不可用。 在这种情况下，将应用为[!DNL Analytics]报表包定义的量度。 |
 | [!UICONTROL 报表受众] | 默认情况下，报表会显示所有符合条件的访客的结果信息。 您可以添加报表受众，以仅显示与特定受众相关的信息。 如果选择[!DNL Analytics]作为报表解决方案，则此设置不可用。 将应用为[!DNL Analytics]报表包定义的受众。 |
+| [!UICONTROL 统计方法] | 选择分析实验结果的方式。 此选项确定用于此活动的[!UICONTROL 转化]目标量度的统计框架、结果量度和决策标准：<ul><li>**[!UICONTROL Bayesian]**：基于概率的决策，可在数据到达时更新信念，并支持持续监控和较小的样本量。 结果表示为一个变体优于另一个变体的概率，例如“92%的概率变体B胜过控制”。 [!UICONTROL Bayesian]最适合较小样本量、持续监控、偏好概率的相关人员，或者您先前已掌握要应用的测试知识。 如果您需要严格的法规或合规性签发，或者需要传统的p值，则它并不理想。 报告显示了[!UICONTROL 击败控制项]的机会和一个可靠的间隔而不是频率最高的[!UICONTROL 置信度]列。</li><li>**[!UICONTROL Welch的t检验(Frequentist)]**：现有的传统假设检验方法。 使用p值，并需要固定的样本大小。 报表显示[!UICONTROL 置信度]百分比和置信区间。</li></ul>此设置仅适用于主要目标指标为[!UICONTROL 转化]的活动，具有[!UICONTROL 收入]或[!UICONTROL 参与]主要目标的活动始终使用[!UICONTROL 韦尔奇的t检验]。 有关每个方法的计算和报告方式的更多信息，请参阅[A/Bn测试中的统计计算](/help/main/c-reports/statistical-methodology/statistical-calculations.md)。 |
+| [!UICONTROL 贝叶斯配置] | 仅在选择[!UICONTROL Bayesian]作为[!UICONTROL 统计方法]时显示。 配置以下选项：<ul><li>[!UICONTROL 可信间隔]：设置实际效果预计会下降的范围。</li><li>[!UICONTROL 决策阈值]：设置变量在宣布入选者之前必须达到的最小概率（相对于[!UICONTROL 控制]）。 </li><li>[!UICONTROL 是否使用过去测试的先验知识？]：打开此选项以提供过去性能的先验知识，以通知[!UICONTROL Bayesian]计算。</li></ul> |
+
 
 ## 高级设置 {#section_E2FE441AFB324E498793ABB025ED9974}
 

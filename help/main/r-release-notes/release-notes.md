@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c74d8b09fba181fcded2f982d99a03f1e7f3a07a
+source-git-commit: 4111bfa406259af6fb0877170fd7d80b11c22482
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 29%
+source-wordcount: 1046
+ht-degree: 26%
 
 ---
 
@@ -30,6 +30,26 @@ ht-degree: 29%
 浏览[!DNL Adobe Target]中的最新功能、增强功能和修复。 这些发行说明还涵盖了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台组件（如果适用）的更新。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 26.7.5（2026年7月30日）
+
+**活动**
+
++++查看详细信息
+
+* **针对[!DNL A/B Test (Manual)]活动的贝叶斯统计信息** [!DNL A/B Test (Manual)]活动现在支持贝叶斯统计信息作为Welch的t测试的替代方法。 在[!UICONTROL 目标和设置]中选择统计方法：贝叶斯活动的报表显示基于概率的决策量度（如[!UICONTROL 成功控制的机会]）和可信区间而不是频率置信区间。 [了解详情](../c-reports/statistical-methodology/statistical-calculations.md)
+
+* **[!DNL Customer Journey Analytics]报告[!DNL Auto-Allocate]活动。** 除[!DNL Target]和[!DNL Adobe Analytics] (A4T)之外，[!DNL Auto-Allocate]活动现在还可以使用[!DNL Customer Journey Analytics]作为其报表源。 [了解详情](../c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
+
++++
+
+**[!UICONTROL 可视化体验编辑器] (VEC)**
+
++++查看详细信息
+
+* **无法选择或修改活动中的HTML选件。** 修复了向活动添加某些HTML或体验片段选件会导致[!UICONTROL 可视化体验编辑器]崩溃，从而阻止选择或修改选件的问题。 (TGT-55732)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.4（2026年7月23日）
 

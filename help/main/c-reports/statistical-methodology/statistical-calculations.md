@@ -5,35 +5,36 @@ title: 如何了解[!UICONTROL A/B测试]活动中使用的统计计算？
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
 TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 224dafac8d5d0ba17baa4ee998ca7dd89b73b898
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 2%
+source-wordcount: 1506
+ht-degree: 1%
 
 ---
 
 # A/Bn测试中的统计计算
 
-本文记录了[!DNL Adobe Target]中手动A/Bn测试中使用的详细统计计算。 提供了[!UICONTROL 转化率]、[!UICONTROL 转化率的置信区间]、[!UICONTROL 提升度]、[!UICONTROL 提升度的置信区间]和[!UICONTROL 置信度]的定义。
+本文记录了[!DNL Adobe Target]中手动A/Bn测试中使用的详细统计计算。 提供了&#x200B;**[!UICONTROL 转化率]**、**[!UICONTROL 转化率的置信区间]**、**[!UICONTROL 提升度]**、**[!UICONTROL 提升度的置信区间]**、**[!UICONTROL 置信度]**&#x200B;和&#x200B;**[!UICONTROL 贝叶斯]**&#x200B;决策度量的定义。
 
->[!NOTE]
->
->本文中的信息取代了用于A/B测试的&#x200B;*Adobe Target计算* pdf文件，以前可在此站点上下载。
+**[!UICONTROL A/B测试]**（手动）活动支持[目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)中为每个活动选择的两种统计方法：
 
-显示A/B测试活动的[!UICONTROL 转化率]、[!UICONTROL 平均提升度和置信区间]以及[!UICONTROL 置信度]的目标报告。![&#128279;](/help/main/c-reports/statistical-methodology/img/target_report.png)
+* [Welch的t检验](#welchs-t-test)：一种频率方法，它基于固定样本大小的假设检验报告&#x200B;**[!UICONTROL 置信度]**&#x200B;百分比和置信区间。 用于具有&#x200B;**[!UICONTROL 收入]**&#x200B;或&#x200B;**[!UICONTROL 参与]**&#x200B;主要目标的活动。
 
-## 平均性能
+* [Bayesian](#bayesian-statistics)：将结果报告为概率，如&#x200B;**[!UICONTROL 击败控制的机会]**&#x200B;和根据每个体验的目标量度的完整后验分布计算的可信间隔。 此设置仅适用于主要目标指标为&#x200B;**[!UICONTROL 转化]**&#x200B;的活动。
 
-下节将说明上图中使用的计算。
+## 韦尔奇t检验
 
-### 转化率和每位访客带来的收入(RPV)促销活动
+### 平均性能
 
-下图显示了[!DNL Target]报表中的[!UICONTROL 转化率]、[!UICONTROL 转化率的置信区间]和[!UICONTROL 转化]的数量。 例如，第一行显示对于体验A：[!UICONTROL 转化率]为25.81%，[!UICONTROL 置信区间]为±7.7%，共记录了32次转化。 考虑到有124位访客查看了此体验，则相当于32/124 = 25.81%。
+下节将说明下图中使用的计算。
+
+显示A/B测试活动的[!UICONTROL 转化率]、[!UICONTROL 平均提升度和置信区间]以及[!UICONTROL 置信度]的目标报告。](/help/main/c-reports/statistical-methodology/img/target_report.png)![
+
+#### 转化率和每位访客带来的收入(RPV)促销活动
+
+下图显示了[!DNL Target]报表中的&#x200B;**[!UICONTROL 转化率]**、**[!UICONTROL 转化率的置信区间]**&#x200B;和&#x200B;**[!UICONTROL 转化]**&#x200B;的数量。 例如，第一行显示对于体验A：**[!UICONTROL 转化率]**&#x200B;为25.81%，**[!UICONTROL 置信区间]**&#x200B;为±7.7%，共记录了32次转化。 考虑到有124位访客查看了此体验，则相当于32/124 = 25.81%。
 
 <p style="text-align:center;"><img width="25%" src="img/conv_rate.png"></p>
 
@@ -47,17 +48,17 @@ ht-degree: 2%
 
 * 单位&#x200B;*i*&#x200B;的总和取决于计数方法的选择。
 
-   * 如果将&#x200B;*[!UICONTROL 访客]*&#x200B;用作计数方法，则每个单位都是一个独特访客，该访客被定义为活动生命周期中的独特参与者。
-   * 如果将&#x200B;*[!UICONTROL 访问次数]*&#x200B;用作计数方法，则每个单位都是唯一访问，它在[!DNL Target]会话（具有唯一的`sessionId`）期间定义为体验中的唯一参与者。 当`sessionId`发生更改或访客完成转化步骤时，即会计为新访问。
-   * 如果将&#x200B;*[!UICONTROL 活动展示次数]*&#x200B;用作计数方法，则每个单位都是定义为每次访客加载活动的任何页面时的唯一展示次数。
+  * 如果将&#x200B;**[!UICONTROL 访客]**&#x200B;用作计数方法，则每个单位都是一个独特访客，该访客被定义为活动生命周期中的独特参与者。
+  * 如果将&#x200B;**[!UICONTROL 访问次数]**&#x200B;用作计数方法，则每个单位都是唯一访问，它在[!DNL Target]会话（具有唯一的`sessionId`）期间定义为体验中的唯一参与者。 当`sessionId`发生更改或访客完成转化步骤时，即会计为新访问。
+  * 如果将&#x200B;**[!UICONTROL 活动展示次数]**&#x200B;用作计数方法，则每个单位都是定义为每次访客加载活动的任何页面时的唯一展示次数。
 
-## 平均/转化率的[!UICONTROL 置信区间]
+### 平均]/[!UICONTROL 转化率的[!UICONTROL 置信区间]
 
 转换率的置信区间被直观地定义为与基础数据一致的可能转换率的范围。
 
 运行实验时，给定体验的转化率是“真”转化率的&#x200B;*估计*。 为了量化此估计中的不确定性，[!DNL Target]使用置信区间。 [!DNL Target]始终报告95%的置信区间，这意味着最终，95%的置信区间计算中包含体验的真实转化率。
 
-当前领先或入选的体验旁边也会报告“置信度”数字。 此数字仅报告到领先体验的[!UICONTROL 置信度]达到至少60%为止。 如果活动中存在两个体验，则此数字表示该体验表现优于其他体验的置信水平。 如果活动中存在两个以上的体验，则该数字表示体验表现优于定义的“控制”体验的置信水平。 如果“控制”体验获胜，则不会报告“置信度”数字。
+当前领先或入选的体验旁边也会报告“置信度”数字。 此数字仅报告到领先体验的&#x200B;**[!UICONTROL 置信度]**&#x200B;达到至少60%为止。 如果活动中存在两个体验，则此数字表示该体验表现优于其他体验的置信水平。 如果活动中存在两个以上的体验，则该数字表示体验表现优于定义的“控制”体验的置信水平。 如果“控制”体验获胜，则不会报告“置信度”数字。
 
 转化率&#x200B;*μ<sub>ν</sub>*&#x200B;的95%置信区间定义为值的范围：
 
@@ -75,9 +76,9 @@ ht-degree: 2%
 
 <p style="text-align:center;"><img width="150px" src="img/se_conv.png"></p>
 
-## 提升度
+### 提升度
 
-下图显示了[!DNL Target]报表中的[!UICONTROL 提升]和[!UICONTROL 提升]的置信区间。 数字表示提升度范围的平均值，箭头反映提升度是正还是负。 箭头以灰色显示，直到置信度超过95%。 置信度超过阈值后，箭头会根据提升度为正值或负值显示为绿色或红色。
+下图显示了[!DNL Target]报表中的&#x200B;**[!UICONTROL 提升]**&#x200B;和&#x200B;**[!UICONTROL 提升]**&#x200B;的置信区间。 数字表示提升度范围的平均值，箭头反映提升度是正还是负。 箭头以灰色显示，直到置信度超过95%。 置信度超过阈值后，箭头会根据提升度为正值或负值显示为绿色或红色。
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
@@ -93,9 +94,9 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 如果控制体验&#x200B;*ν<sub>0</sub>*&#x200B;的转化率为0，则没有提升。
 
-## [!DNL Confidence Interval of Lift]
+### [!DNL Confidence Interval of Lift]
 
-[!UICONTROL 平均提升度和置信区间]列中的箱形图图形表示提升度的平均值和95% [!UICONTROL 置信区间]。 当给定非控制体验的置信区间与控制体验的置信区间存在任何重叠时，箱形图呈灰色。 当给定体验的置信区间范围高于或低于控制体验的置信区间时，箱形图呈绿色或红色。
+**[!UICONTROL 平均提升度和置信区间]**&#x200B;列中的箱形图图形表示提升度的平均值和95% **[!UICONTROL 置信区间]**。 当给定非控制体验的置信区间与控制体验的置信区间存在任何重叠时，箱形图呈灰色。 当给定体验的置信区间范围高于或低于控制体验的置信区间时，箱形图呈绿色或红色。
 
 体验&#x200B;*ν*&#x200B;与控制体验&#x200B;*ν<sub>0</sub>*&#x200B;之间提升度的标准误差定义为：
 
@@ -105,9 +106,9 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-此计算使用“Delta”方法，并在本文档[&#128279;](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了
+此计算使用“Delta”方法，并在本文档](/help/main/assets/confidence_interval_lift.pdf)中详细介绍了[
 
-## [!UICONTROL 置信度]
+### [!UICONTROL 置信度]
 
 最后一列显示[!DNL Target]报表中的置信度。 在空假设为真的情况下，体验的置信度是获得极端结果的概率（用百分比表示），就像观察到的结果一样。 就p值而言，显示的置信度为&#x200B;*1 - p值*。 直觉上，较高的置信度意味着控制体验和非控制体验具有相等转化率的可能性较小。
 
@@ -142,6 +143,32 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 最后，[!DNL Target]中报告的置信度定义为：
 
 <p style="text-align:center;"><img width="20%" src="img/confidence.png"></p>
+
+## 贝叶斯统计
+
+**[!UICONTROL Bayesian]**&#x200B;活动的报告不是根据近似分布计算p值，而是将结果表示为概率，由每个体验的目标量度的完整后验分布计算。 这使得连续监视&#x200B;**[!UICONTROL Bayesian]**&#x200B;报告是安全的，因为在达到固定样本大小之前检查结果时没有统计惩罚，并且它可以在比&#x200B;**[!UICONTROL Welch的t检验]**&#x200B;更小的样本上更快地收敛。
+
+**[!UICONTROL Bayesian]**&#x200B;方法还允许营销人员根据过去试验和控制变体的结果引入假设。
+
+**[!UICONTROL Bayesian]**&#x200B;方法仅适用于主要目标指标为&#x200B;**[!UICONTROL 转化]**&#x200B;的活动，具有&#x200B;**[!UICONTROL 收入]**&#x200B;或&#x200B;**[!UICONTROL 参与]**&#x200B;主要目标的活动始终使用&#x200B;**[!UICONTROL Welch的t检验]**。 有关选择方法的详细信息，请参阅[目标和设置](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)。
+
+### 平均提升度和可信区间
+
+<p style="text-align:center;"><img width="35%" src="img/bayesian_1.png"></p>
+
+在&#x200B;**[!UICONTROL Bayesian]**&#x200B;活动中，平均提升度和可信区间一起衡量性能改进及其不确定性。 平均提升度是处理方法和控制之间的平均百分比变化，而可信区间定义了真实提升度以指定概率下降的范围。
+
+### [!UICONTROL 击败控制项的机会]
+
+<p style="text-align:center;"><img width="35%" src="img/bayesian_2.png"></p>
+
+**[!UICONTROL 击败控制体验的机会]**&#x200B;是体验的目标量度优于&#x200B;**[!UICONTROL 控制体验]**&#x200B;的概率，例如，“92%的机会B击败A”。 这是&#x200B;**[!UICONTROL Bayesian]**&#x200B;活动的主要决策量度：挑战者体验是当&#x200B;**[!UICONTROL Control]**&#x200B;的&#x200B;**[!UICONTROL 胜出机会]**&#x200B;达到该活动的决策阈值时替换该体验的候选体验。
+
+<!--
+### [!UICONTROL Probability to be Best]
+
+[!UICONTROL Probability to be Best] is the probability that an experience is the single best of all experiences in the activity. Use this decision metric to pick which winner to ship in a test with more than one challenger experience.
+-->
 
 ## 脱机执行计算
 

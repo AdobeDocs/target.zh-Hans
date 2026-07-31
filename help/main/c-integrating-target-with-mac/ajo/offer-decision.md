@@ -4,22 +4,15 @@ description: 了解如何将在 [!DNL Adobe Journey Optimizer] 中创建的优�
 title: 如何使用优惠决策？
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+badge: label="旧版" type="Informative"
 TQID: https://experienceleague.adobe.com/xEae4As4rNbPv-an3Iu8PCMzxftSAmN4iu0PEq6VDFQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 7ececdaa52eb07e65f62723a09961f1471921e1a
 workflow-type: tm+mt
-source-wordcount: 1017
+source-wordcount: 1018
 ht-degree: 3%
 
 ---
@@ -32,7 +25,7 @@ ht-degree: 3%
 
 有关[!DNL Adobe Journey Optimizer]和优惠决策的详细信息，请参阅&#x200B;*[!DNL Journey Optimizer]*&#x200B;文档中的以下主题：
 
-* [Journey Optimizer入门](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=zh-Hans)
+* [Journey Optimizer入门](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
 * [关于决策管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans)
 
@@ -40,7 +33,7 @@ ht-degree: 3%
 
 要在[!DNL Target]中使用优惠决策，您需要以下各项：
 
-* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}实现的[!DNL Adobe Target Standard]或[!DNL Adobe Target Premium]。
+* 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}实现的[!DNL Adobe Target Standard]或[!DNL Adobe Target Premium]。
 
   在使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时，该功能不可用。
 
@@ -85,7 +78,7 @@ ht-degree: 3%
 
 1. 在VEC右侧的&#x200B;**[!UICONTROL 添加优惠决策]**&#x200B;边栏中，选择所需的沙盒，然后单击选择优惠决策.placement。
 
-   [!DNL Adobe Experience Platform]中的[沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=zh-Hans){target=_blank}允许您将实例分区到虚拟环境中。 例如，您可能有一个生产环境和一个暂存环境。 [!DNL Adobe Journey Optimizer]中的[版面](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=zh-Hans){target=_blank}有助于确保在正确的位置显示正确的选件内容。
+   [!DNL Adobe Experience Platform]中的[沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank}允许您将实例分区到虚拟环境中。 例如，您可能有一个生产环境和一个暂存环境。 [!DNL Adobe Journey Optimizer]中的[版面](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank}有助于确保在正确的位置显示正确的选件内容。
 
    ![添加优惠决策对话框中的沙盒和投放位置下拉列表](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -109,7 +102,7 @@ ht-degree: 3%
 
 处理优惠决策时，请考虑以下信息：
 
-* offer decisioning集成适用于基于[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}的[!DNL Target]实施。 在使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时，此功能不可用。
+* offer decisioning集成适用于基于[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}的[!DNL Target]实施。 在使用at.js或其他[!DNL Target] SDK实施[!DNL Target]时，此功能不可用。
 
 * [!DNL Target]/[!DNL Adobe Journey Optimizer]集成仅支持[手动[!UICONTROL A/B测试]](/help/main/c-activities/t-test-ab/test-ab.md#types)和[[!UICONTROL 体验定位]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)活动。 此功能不适用于其他活动类型。
 

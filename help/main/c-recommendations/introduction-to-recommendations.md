@@ -20,7 +20,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2109
+source-wordcount: 2110
 ht-degree: 83%
 
 ---
@@ -206,4 +206,4 @@ ht-degree: 83%
 
 ## Demo
 
-完成上述推荐漏斗中所述的任务后，您将获得最终的推荐。 要在[!DNL Target]中观看产品内演示，该演示在&#x200B;*Adobe Target基础知识网络研讨会*&#x200B;中的21:00处开始，其链接如下。
+完成上述推荐漏斗中所述的任务后，您将获得最终的推荐。 要在[!DNL Target]中观看产品内演示，该演示在&#x200B;*Adobe Target基础知识网络研讨会*&#x200B;中的21:00分钟处开始，其链接如下。

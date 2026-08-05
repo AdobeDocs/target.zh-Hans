@@ -138,7 +138,7 @@ Real-Time CDP 轮廓属性可以共享给 [!DNL Target]，用于 HTML 产品建�
 
 有关详细信息，请参阅&#x200B;*Platform教程*&#x200B;指南中的[使用Real-Time CDP和Adobe Target进行下一次点击个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=zh-Hans){target=_blank}。
 
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342975?captions=chi_hans&quality=12&learn=on)
 
 ### 视频：配置 [!DNL Real-Time Customer Data Platform] 中的 [!DNL Adobe Target] 目标
 

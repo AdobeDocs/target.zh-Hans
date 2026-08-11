@@ -5,10 +5,40 @@ title: 早期版本中包括什么功能？
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 TQID: https://experienceleague.adobe.com/cjheajZKokzwCNspfQckh6PHh5ecetdj7vZrrq9IqXw
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0aid: fff07a91-d479-45f4-ae95-9762e79b1b7c
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e6ff21d3-dec6-4298-8590-7c749fffaf78id: e9001ce2-5245-4a8e-8601-dd958009072fid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 3573ace9c7f19f1c04dbe92b50c37109a7a502e6
 workflow-type: tm+mt
 source-wordcount: 72205
@@ -807,7 +837,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 
 * **具有实体属性匹配的按属性列出的促销活动在活动保存后无法加载推荐键。** 修复了在保存活动后进行编辑时，类型为[!UICONTROL 按属性促销]、规则类型为[!UICONTROL 实体属性匹配]的促销未加载推荐键的问题。 问题是由未通过GraphQL请求`customKeyId`导致的。 现在，推荐键可在编辑促销活动期间正确加载。 (TGT-53117)
 * 从ExpB切换到ExpA时，**推荐会以可视方式持续存在。** 解决了在体验B中插入推荐，然后切换到体验A以使推荐选件框可见的问题。 这只是视觉上的不一致；现在，在体验之间切换时，修改可正确呈现，从而确保准确的UI行为。 (TGT-53911)
-* **推荐键未加载[!UICONTROL Promotion by Attribute]，其中[!UICONTROL 实体属性]匹配。** 解决了规则类型为[!UICONTROL 实体属性匹配]的“按属性]促销”类型的促销活动在保存活动后进行编辑时无法加载推荐键的问题。 [!UICONTROL 现在，可通过GraphQL正确检索推荐键，从而确保促销活动按预期显示和运行。 (TGT-53917)
+* **推荐键未加载[!UICONTROL Promotion by Attribute]，其中[!UICONTROL 实体属性]匹配。** 解决了规则类型为[!UICONTROL 实体属性匹配]的“按属性促销”类型的促销活动在保存活动后进行编辑时无法加载推荐键的问题。 现在，可通过GraphQL正确检索推荐键，从而确保促销活动按预期显示和运行。 (TGT-53917)
 * **编辑有关隐藏的HTML元素的推荐在更新的UI中不起作用。** 解决了[!UICONTROL 新建创建]和VEC UI中无法编辑应用于隐藏HTML元素的推荐活动的问题。 此功能现在可按预期工作，从而恢复与旧版UI的等同性，并确保无论元素可见性如何，推荐都可以修改。 (TGT-53953)
 * **无法在更新的UI中编辑隐藏HTML元素的推荐活动。** 解决了在更新的UI中，无法编辑应用于隐藏HTML元素的推荐活动的问题。 此功能现在可按预期工作，从而恢复与旧版UI的等同性，并确保无论元素可见性如何，推荐都可以修改。 (TGT-53951)
 * **推荐目录在更新的UI中间歇性地缺少属性值。** 解决了在更新的[!UICONTROL 推荐] UI中，目录搜索列表间歇性地无法显示某些属性值（例如，消息）的问题，即使该值存在于产品信息源中也是如此。 现在，搜索结果中的属性值加载一致，无需重新配置列，提高了目录管理的可靠性和效率。 (TGT-52769)
@@ -1790,7 +1820,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 
 +++查看详细信息
 
-* 修复了从[!UICONTROL 报表]页面选择“将订单详细信息导出到CSV]”导致下载空文件的问题。 [!UICONTROL 即使活动中存在有效的订单数据，也会发生此问题。 (TGT-52225)
+* 修复了从[!UICONTROL 报表]页面选择“将订单详细信息导出到CSV”导致下载空文件的问题。 即使活动中存在有效的订单数据，也会发生此问题。 (TGT-52225)
 * 修复了在创建和分配新报表受众后尝试保存活动时的问题。 返回的错误消息为：“访问被拒绝。 要执行此操作，需要以下所有权限： [编辑器]。” 尽管用户具有审批者级别的访问权限，但还是出现了此问题。 (TGT-53103)
 
 +++
@@ -2377,7 +2407,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 
 | 更新 | 详细信息 |
 |--- |--- |
-| [!UICONTROL 浏览器:iPad]和[!UICONTROL 浏览器:iPhone]已在创建受众时使用的[浏览器属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)中更新。 | [!DNL Adobe Target]允许您[定位多个类别属性中的任意一个](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括访问您的页面时使用特定[浏览器或浏览器选项](/help/main/c-target/c-audiences/c-target-rules/browser.md)的访客。<P>从[!DNL Target] Standard/Premium 24.3.1（2024年3月4日至6日）开始，将更新使用Target UI创建的内置受众，例如`Browser:iPad`和`Browser:iPhone`，以使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`为[!DNL iPad]和[!DNL iPhone]执行正确的定位。<P>客户无需对此更新执行任何操作。<p><B>重要信息</b>：若要让客户在配置文件脚本（和JavaScript区段）中对[!DNL iPad]和[!DNL iPhone]执行正确的定位，客户必须在&#x200B;**2024年4月30日**&#x200B;之前手动进行更改。 有关必须手动更改的备用设置示例，请参阅[!UICONTROL 浏览器]受众属性](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates)中的[更新 [!DNL iPad] 和 [!DNL iPhone] 。 |
+| [!UICONTROL 浏览器:iPad]和[!UICONTROL 浏览器:iPhone]已在创建受众时使用的[浏览器属性](/help/main/c-target/c-audiences/c-target-rules/browser.md)中更新。 | [!DNL Adobe Target]允许您[定位多个类别属性中的任意一个](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)，包括访问您的页面时使用特定[浏览器或浏览器选项](/help/main/c-target/c-audiences/c-target-rules/browser.md)的访客。<P>从[!DNL Target] Standard/Premium 24.3.1（2024年3月4日至6日）开始，将更新使用Target UI创建的内置受众，例如`Browser:iPad`和`Browser:iPhone`，以使用`profile.mobile.deviceVendor`、`profile.mobile.isMobilePhone`和`profile.mobile.isTablet`为[!DNL iPad]和[!DNL iPhone]执行正确的定位。<P>客户无需对此更新执行任何操作。<p><B>重要信息</b>：若要让客户在配置文件脚本（和JavaScript区段）中对[!DNL iPad]和[!DNL iPhone]执行正确的定位，客户必须在&#x200B;**2024年4月30日**&#x200B;之前手动进行更改。 有关必须手动更改的备用设置示例，请参阅[!UICONTROL 浏览器]受众属性[&#128279;](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates)中的更新 [!DNL iPad] 和 [!DNL iPhone] 。 |
 
 ### [!UICONTROL 可视化编辑帮助程序]扩展（2024年3月14日）
 
@@ -2418,7 +2448,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 
 此版本包含以下增强和修复：
 
-* 增强了[活动QA](/help/main/c-activities/c-activity-qa/activity-qa.md)功能，以支持[!UICONTROL Automated Personalization]活动中的体验不允许重复的选件](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)。 [(TGT-46627)
+* 增强了[活动QA](/help/main/c-activities/c-activity-qa/activity-qa.md)功能，以支持[!UICONTROL Automated Personalization]活动中的体验不允许重复的选件[&#128279;](/help/main/c-activities/t-automated-personalization/managing-exclusions.md)。 (TGT-46627)
 * 在 [!DNL Target] UI 中添加了一个工具提示，以帮助客户理解如果没有为控制体验分配流量，为什么活动报告中可能会没有可用的数据。 工具提示中包含指向更多信息的链接： [为什么我的活动报告没有可用数据？](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B)。 (TGT-46610)
 * 修复了一个问题，该问题阻止少数客户的[!UICONTROL 活动]页面上正确显示活动。 (TGT-46830)
 * 修复了以下问题，这些问题会影响使用[[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)作为报表源的活动：
@@ -2560,7 +2590,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 
 | 功能 | 详细信息 |
 |--- |--- |
-| 已为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]优化A4T指标<p>（发布日期：2023 年 3 月 30 日） | 在为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动使用[!UICONTROL A4T]时，[!DNL Target]允许您选择基于二项式事件的量度或基于连续事件的量度。<P>请注意，在支持的指标中发生了以下变化：<ul><li>[!DNL Target] 保留现有活动以前的行为直至 2023 年 9 月 9 日。 在此日期之后，将不再继续执行使用不支持的指标的活动，以强制现有活动采用新行为。</li></ul>有关详细信息，请参阅[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)的[A4T支持中的“支持的目标量度”。<br>以下教程已随此功能一并更新：<ul><li>[在 [!DNL Analysis Workspace] 中为[!UICONTROL 自动分配]活动设置A4T报告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hans){target=_blank}</li><li>[在 [!DNL Analysis Workspace] 中为[!UICONTROL 自动定位]活动设置A4T报告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hans){target=_blank}</li></ul> |
+| 已为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]优化A4T指标<p>（发布日期：2023 年 3 月 30 日） | 在为[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动使用[!UICONTROL A4T]时，[!DNL Target]允许您选择基于二项式事件的量度或基于连续事件的量度。<P>请注意，在支持的指标中发生了以下变化：<ul><li>[!DNL Target] 保留现有活动以前的行为直至 2023 年 9 月 9 日。 在此日期之后，将不再继续执行使用不支持的指标的活动，以强制现有活动采用新行为。</li></ul>有关详细信息，请参阅[!UICONTROL 自动分配]和[!UICONTROL 自动定位]活动[&#128279;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)的A4T支持中的“支持的目标量度”。<br>以下教程已随此功能一并更新：<ul><li>[在 [!DNL Analysis Workspace] 中为[!UICONTROL 自动分配]活动设置A4T报告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=zh-Hans){target=_blank}</li><li>[在 [!DNL Analysis Workspace] 中为[!UICONTROL 自动定位]活动设置A4T报告](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=zh-Hans){target=_blank}</li></ul> |
 
 * 增强了受众和活动同步，以便在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Audience Manager] 中创建的项目可更快地在 [!DNL Target] UI 中可用。 (TGT-44568)
 * 增强了UI，允许用户在[!UICONTROL 管理] > [!UICONTROL 可视化体验编辑器] > [!UICONTROL 默认URL]下删除[!UICONTROL 默认URL]。 此更改允许客户将默认 URL 更改回空字符串，这在以前的初始配置后是不可能实现的。 (TGT-44577)
@@ -2643,7 +2673,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 
 | 功能 | 详细信息 |
 | --- | --- |
-| [JSON ](/help/main/c-experiences/c-manage-content/create-json-offer.md)在 Automated Personalization (AP) 中提供支持 | 使用基于表单的体验编辑器在[!UICONTROL Automated Personalization] (AP)活动中添加了对JSON选件的支持。 (TGT-41460) |
+| [JSON &#x200B;](/help/main/c-experiences/c-manage-content/create-json-offer.md)在 Automated Personalization (AP) 中提供支持 | 使用基于表单的体验编辑器在[!UICONTROL Automated Personalization] (AP)活动中添加了对JSON选件的支持。 (TGT-41460) |
 | [AEM 体验片段](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 添加了区分导出到 [!DNL Target] 的 [!DNL Adobe Experience Manager] 片段 (AEM XF) 类型的功能。 [!DNL Target] 现在允许您按“HTML XF”和“JSON XF”过滤和搜索，而不是“体验片段”选项。 (TGT-44132) |
 
 * 修复了在[!UICONTROL A/B测试]和包含推荐的[!UICONTROL 体验定位] (XT)活动中导致“500错误”的问题。 当 [!DNL Target] 无法从 [!DNL Target] UI 和 [!DNL Recommendations] 后端正确删除不再使用的条件对象时，会导致此问题。 (TGT-44383)
@@ -2860,7 +2890,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 
 * 修复了在编辑活动时，导致为合并的受众禁用[!UICONTROL 包括]和[!UICONTROL 排除]选项的问题。 (TGT-43422)
 * 修复了一个问题，该问题使得某些客户在编辑活动时看不到可用受众列表。 (TGT-43404)
-* 修复了一个问题，该问题阻止某些客户从[!UICONTROL 管理] > [!UICONTROL 报告]中的[!DNL Target]报告数据]列表中排除的[!UICONTROL IP中删除IP地址。 (TGT-43384)
+* 修复了一个问题，该问题阻止某些客户从[!UICONTROL 管理] > [!UICONTROL 报告]中的[!DNL Target]报告数据列表中排除的IP中删除IP地址。 (TGT-43384)
 * 修复了一个问题，该问题使得在检查任何变量“大于”、“大于或等于”、“小于”或“小于或等于”的受众标准中无法使用负数。 (TGT-43367)
 * 修复了一个问题，该问题阻止客户在创建合并受众时看到[!UICONTROL 受众详细信息]卡。 (TGT-43303)
 
@@ -3013,7 +3043,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 
 | 功能 | 详细信息 |
 | --- | --- |
-| ![高级徽章](/help/main/assets/premium.png) [!DNL Recommendations] [!UICONTROL 目录搜索] API | 通过 API 以编程方式搜索您的 [!DNL Recommendations] 产品和内容目录，以识别符合搜索条件的项并简化目录管理。<br>**限制和注释**：<ul><li>超过 2,000,000 个项的环境不支持通过 API 进行目录搜索。</li><li>通过 API 获得的目录搜索结果比通过 [!DNL Target] UI 获得的目录搜索结果更新得更快。 [!DNL Target] UI 中的目录搜索可能需要额外的时间来反映最新结果。</li></ul>有关更多信息，请参阅 *[!DNL Adobe Target][!DNL Recommendations] API* 指南中的[搜索实体](https://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)。 |
+| ![高级徽章](/help/main/assets/premium.png) [!DNL Recommendations] [!UICONTROL 目录搜索] API | 通过 API 以编程方式搜索您的 [!DNL Recommendations] 产品和内容目录，以识别符合搜索条件的项并简化目录管理。<br>**限制和注释**：<ul><li>超过 2,000,000 个项的环境不支持通过 API 进行目录搜索。</li><li>通过 API 获得的目录搜索结果比通过 [!DNL Target] UI 获得的目录搜索结果更新得更快。 [!DNL Target] UI 中的目录搜索可能需要额外的时间来反映最新结果。</li></ul>有关更多信息，请参阅 *[!DNL Adobe Target]&#x200B;[!DNL Recommendations] API* 指南中的[搜索实体](https://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)。 |
 
 此维护版本包含以下修复。
 
@@ -3096,7 +3126,7 @@ Adobe Target现在包含一个新的见解仪表板，可让您从较高的层�
 * 生成了使用A4T和[!DNL Analytics]转化指标的[!UICONTROL 自动定位]活动的[!UICONTROL 自动化区段]和[!UICONTROL 重要属性]报告，这些报告看上去与使用[!DNL Target]作为报告源时相同。 (TGT-38931)
 * 已将环境筛选选项添加到[!UICONTROL 推荐] [!UICONTROL 收藏集]列表。 (TGT-38353)
 * 修复了导致在[!UICONTROL 推荐]收藏集中显示的产品数量有误的问题。 (TGT-39162)
-* 已将[!UICONTROL 上次更新]筛选器添加到[!UICONTROL 推荐][!UICONTROL 目录搜索]。 (TGT-38340)
+* 已将[!UICONTROL 上次更新]筛选器添加到[!UICONTROL 推荐]&#x200B;[!UICONTROL 目录搜索]。 (TGT-38340)
 * 修复了[!UICONTROL 推荐]中在更改行业垂直领域后导致[!UICONTROL 创建序列]页面挂起的问题。 (TGT-38160)
 * 修复了阻止用户从[!UICONTROL Automated Personalization] (AP)活动中的选件删除受众的问题。 (TGT-39058)
 * 修复了一个问题，该问题导致在某些客户的[!UICONTROL 受众信息]卡片中显示的时间范围（开始和结束日期）有误。 (TGT-39150)
@@ -5427,7 +5457,7 @@ Adobe Target Standard/Premium 16.5.1（2016 年 5 月 19 日）版本包括以�
    <td colname="col1" class="premium"> 推荐 CSV 下载 </td> 
    <td colname="col2"> <p>现在，下载的CSV有一行表示所有环境，包括没有实体推荐的那些环境(例如： 
      <code>
-       # environment: 1724 
+       &#x200B;# environment: 1724 
      </code>). </p> </td> 
   </tr> 
  </tbody> 

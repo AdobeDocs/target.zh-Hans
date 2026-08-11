@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 1175d9840a6607f7fea5e5ac6f768d12cdf52c8d
+source-git-commit: 3573ace9c7f19f1c04dbe92b50c37109a7a502e6
 workflow-type: tm+mt
-source-wordcount: 71469
+source-wordcount: 72205
 ht-degree: 48%
 
 ---
@@ -57,6 +57,136 @@ ht-degree: 48%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 — 2026
+
+## [!DNL Target Standard/Premium] 26.7.5（2026年7月30日）
+
+**活动**
+
++++查看详细信息
+
+* **针对[!DNL A/B Test (Manual)]活动的贝叶斯统计信息** [!DNL A/B Test (Manual)]活动现在支持贝叶斯统计信息作为Welch的t测试的替代方法。 在[!UICONTROL 目标和设置]中选择统计方法：贝叶斯活动的报表显示基于概率的决策量度（如[!UICONTROL 成功控制的机会]）和可信区间而不是频率置信区间。
+
+* **[!DNL Customer Journey Analytics]报告[!DNL Auto-Allocate]活动。** 除[!DNL Target]和[!DNL Adobe Analytics] (A4T)之外，[!DNL Auto-Allocate]活动现在还可以使用[!DNL Customer Journey Analytics]作为其报表源。
+
++++
+
+**[!UICONTROL 可视化体验编辑器] (VEC)**
+
++++查看详细信息
+
+* **无法选择或修改活动中的HTML选件。** 修复了向活动添加某些HTML或体验片段选件会导致[!UICONTROL 可视化体验编辑器]崩溃，从而阻止选择或修改选件的问题。 (TGT-55732)
+
++++
+
+## [!DNL Target Standard/Premium] 26.7.4（2026年7月23日）
+
+**报表**
+
++++查看详细信息
+
+* **转化率图表不适用于特定的移动受众。** 修复了[!UICONTROL 转化率]图形未针对某些移动设备受众呈现的问题。 (TGT-55611)
+
+* 从下拉列表中选择&#x200B;**时，“已查看mbox”转化目标不起作用。** 修复了从[!UICONTROL 目标和设置]中下拉列表为“已查看mbox”转化目标选择mbox时无法正确保存mbox名称，从而无法记录转化的问题。 (TGT-55588)
+
++++
+
+**受众**
+
++++查看详细信息
+
+* 受众库页面上的&#x200B;**布局问题。** 修复了在侧面导航折叠时在[!UICONTROL 受众库]页面上启用过滤器时发生的布局问题。 (TGT-55502)
+
++++
+
+**[!UICONTROL 可视化体验编辑器] (VEC)**
+
++++查看详细信息
+
+* **移动设备版本未正确加载。** 修复了[!UICONTROL 可视化体验编辑器]未提供刷新方式，导致移动设备视图无法正确加载的问题。 (TGT-54408)
+
+* **编辑或删除修改操作不起作用。** 修复了无法从[!UICONTROL 编辑体验]视图编辑或删除修改的问题。 (TGT-55250)
+
+* **活动加载后，浏览模式无响应。** 修复了以下问题：[!UICONTROL 浏览]模式对包含修改的体验无响应，从而阻止进一步的导航和创作。 (TGT-55306)
+
+* **无法选择Salesforce LWC （影子DOM）中的元素。** 修复了[!UICONTROL 可视化体验编辑器]无法选择使用影子DOM嵌套在Salesforce Lightning Web组件中的元素的问题，从而导致“未找到选择器”错误。 (TGT-54956)
+
+* **在[!UICONTROL 可视化体验编辑器]中出现重复的选件。** 修复了在活动创作UI中修改和选件间歇性重复显示的问题。 (TGT-55685)
+
++++
+
+**管理**
+
++++查看详细信息
+
+* **已将内容生成助理重命名为[!UICONTROL 生成内容]。** 已将“AI助手”内容生成功能重命名为[!UICONTROL 跨[!DNL Target]用户界面表面]生成内容。 (TGT-55689)
+
++++
+
+**推荐**
+
++++查看详细信息
+
+* **使用配置文件属性的基于热门程度的推荐。** [!DNL Target]现在支持按访客个人资料属性（如国家/地区、首选语言或成员级别）动态地对热门程度推荐、“查看次数最多”和“最畅销商品”进行分组。 (TAPER-7614)
+
+* **推荐集合在[!UICONTROL 集合]和活动配置之间不匹配。** 修复了与[!UICONTROL 推荐] > [!UICONTROL 收藏集]视图相比，从活动配置查看时，[!UICONTROL 推荐]收藏集返回了额外的不符合条件的实体的问题。 (TGT-55554)
+
++++
+
+## [!DNL Target Standard/Premium] 26.7.2（2026年7月16日）
+
+**活动**
+
++++查看详细信息
+
+* **[!UICONTROL 活动概述]页面上的目标信息不正确。** 修复了[!DNL Automated Personalization]活动的[!UICONTROL 活动概述]页面显示其他目标而非优化目标的问题。 (TGT-55553)
+
+* 在[!UICONTROL 浏览]模式下导航页面时，**屏幕无响应。** 修复了在[!UICONTROL 浏览]模式下的页面之间导航时，屏幕无响应的问题。 (TGT-55565)
+
++++
+
+**主页**
+
++++查看详细信息
+
+* [!UICONTROL 最佳执行者]和[!UICONTROL 保存]的&#x200B;**UI更改。** 更新了表现最好的UI并保存体验。 (TGT-54975)
+
++++
+
+**受众**
+
++++查看详细信息
+
+* **在[!UICONTROL 创建配置文件脚本]对话框中未本地化的字符串。** 修复了[!UICONTROL 创建配置文件脚本]对话框中的字符串未本地化的问题。 (TGT-51527)
+
++++
+
+## [!DNL Target Standard/Premium] 26.7.1（2026年7月9日）
+
+**活动**
+
++++查看详细信息
+
+* **在[!UICONTROL 活动]、[!UICONTROL 受众]和[!UICONTROL 选件]页面中显示源不一致。** 修复了源在[!UICONTROL 活动]、[!UICONTROL 受众]和[!UICONTROL 选件]页面中显示不一致的问题。 (TGT-55247)
+
+* 通过UI编辑时&#x200B;**活动源更改。** 修复了通过UI编辑活动会更改原始活动源的问题。 (TGT-55248)
+
++++
+
+**受众**
+
++++查看详细信息
+
+* **编辑受众时默认工作区不正确。** 修复了在编辑受众后默认工作区不正确的问题。 (TGT-55510)
+
++++
+
+**报表**
+
++++查看详细信息
+
+* 5月报告的&#x200B;**CSV下载失败。** 修复了下载5的CSV报表失败的问题。 (TGT-55524)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.8（2026年6月24日）
 

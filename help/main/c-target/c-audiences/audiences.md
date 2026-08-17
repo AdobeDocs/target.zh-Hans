@@ -5,19 +5,13 @@ title: 如何使用受众列表？
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 TQID: https://experienceleague.adobe.com/nILXQc8jdwte7CL1S0v7NDmyeh72N8yeI-gwBP2wz8g
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 28%
+source-wordcount: 844
+ht-degree: 27%
 
 ---
 
@@ -31,7 +25,7 @@ ht-degree: 28%
 * [创建特定于活动的受众](/help/main/c-target/creating-activity-only-audience.md)并定位它
 * [合并多个受众](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)以创建临时受众
 
-您还可以在[!DNL Target]和其他[!DNL Adobe Experience Cloud]应用程序中将[!DNL Adobe Analytics]收集的受众数据用于实时定位和个性化。 请参阅&#x200B;*Experience Cloud中央界面组件*&#x200B;指南中的[Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hans&?lang=zh-Hans)。
+您还可以在[!DNL Target]和其他[!DNL Adobe Experience Cloud]应用程序中将[!DNL Adobe Analytics]收集的受众数据用于实时定位和个性化。 请参阅&#x200B;*Experience Cloud中央界面组件*&#x200B;指南中的[Experience Cloud受众](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html??lang=zh-Hans)。
 
 [!DNL Target]中有两种类型的受众：
 
@@ -46,16 +40,18 @@ ht-degree: 28%
 
 ![[!UICONTROL 受众]列表](assets/audiences_list.png)
 
-[!UICONTROL 受众]列表包含您可以在活动中使用的受众。 使用[!UICONTROL 受众]列表创建、编辑、复制、复制或合并受众。 此列表还会显示创建受众的源位置：
+[!UICONTROL 受众]列表包含您可以在活动中使用的受众。 使用[!UICONTROL 受众]列表创建、编辑、复制、复制或合并受众。 可以编辑任何受众，包括通过[!DNL Adobe Target] API或[[!DNL Adobe Target] MCP服务器](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)创建的受众。 此列表还会显示创建受众的源位置：
 
 * [!DNL Adobe Target]
+* [!DNL Adobe Target] API
+* [!DNL Adobe Target] MCP服务器
 * [!DNL Adobe Target Classic]
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
 
   >[!NOTE]
   >
-  >使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=zh-Hans){target=_blank}的所有[!DNL Target]客户都可以使用[!DNL Adobe Experience Platform]源。 [!DNL Adobe Experience Platform]中可用的受众可以按原样使用，也可以将[与现有受众结合使用](/help/main/c-target/combining-multiple-audiences.md)。
+  >使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}的所有[!DNL Target]客户都可以使用[!DNL Adobe Experience Platform]源。 [!DNL Adobe Experience Platform]中可用的受众可以按原样使用，也可以将[与现有受众结合使用](/help/main/c-target/combining-multiple-audiences.md)。
   >
   >用户在[!DNL Target]中必须具有[!UICONTROL 审批者]或更高状态才能在AEP/RTCDP ([!DNL Real-time Customer Data Platform])中配置[!DNL Target] [!UICONTROL 目标]卡。
   >
@@ -133,4 +129,4 @@ Keep the following points in mind as you work with imported audiences:
 * 将活动定位到受众
 * 在活动中使用受众进行被动报告
 
->[!VIDEO](https://video.tv.adobe.com/v/30336?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

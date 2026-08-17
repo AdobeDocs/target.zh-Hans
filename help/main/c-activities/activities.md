@@ -5,21 +5,12 @@ title: 如何使用 [!DNL Target]个性化内容和测试页面设计？
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 TQID: https://experienceleague.adobe.com/q3-Z8r2eEWTISBkZBBJTJ8XarLi-lTa2qsqj961hhEQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 2633
+source-wordcount: 2648
 ht-degree: 25%
 
 ---
@@ -47,7 +38,7 @@ ht-degree: 25%
 | [!UICONTROL 显示筛选器]图标<P>![显示筛选器图标](/help/main/assets/icons/Filter.svg) | 通过单击列表顶部附近的&#x200B;**[!UICONTROL 显示筛选器]**&#x200B;图标访问筛选器，以按[!UICONTROL 类型]、[!UICONTROL 状态]、[!UICONTROL 报告Source]、[!UICONTROL 体验编辑器]、[!UICONTROL 量度类型]、[!UICONTROL 决策Source]、[!UICONTROL 活动Source]和[!UICONTROL 属性]筛选活动。<P>您配置的过滤器在当前会话中是持久性的。<P>有关详细信息，请参阅下面的[将筛选器应用到下面的[!UICONTROL 活动]列表](#filters)。 |
 | 搜索字段 | 快速查找活动或减少[!UICONTROL 活动]列表中显示的活动数。 您可以使用下拉列表按[!UICONTROL 活动名称]、[!UICONTROL URL]或[!UICONTROL ID]进行搜索。<P>您配置的搜索选项在当前会话中是永久性的。 |
 | [!UICONTROL 创建活动] | 创建一个活动。<P>有关创建各种活动类型的详细信息，请参阅： <ul><li>[创建[!UICONTROL A/B测试]活动](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[创建[!UICONTROL 自动分配]活动](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[创建[!UICONTROL 自动定位]活动](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[创建[!UICONTROL Automated Personalization]活动](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[创建[!UICONTROL 体验定位]活动](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[创建活动](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[创建[!UICONTROL 推荐]活动](/help/main/c-recommendations/recommendations.md)</li></ul>有关每种类型的详细信息，请参阅下面的[活动类型](#types)。 |
-| [!UICONTROL 创建移动设备预览链接]<P>![更多操作菜单](/help/main/assets/icons/MoreVertical.svg) | 使用[移动设备预览链接](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/mobile-apps/target-mobile-preview)为移动设备应用程序活动执行简单的端到端QA。<P>单击&#x200B;**更多选项**&#x200B;图标，选择&#x200B;**创建移动设备预览链接**，然后选择要测试在移动设备上的活动。 |
+| [!UICONTROL 创建移动设备预览链接]<P>![更多操作菜单](/help/main/assets/icons/MoreVertical.svg) | 使用[移动设备预览链接](https://experienceleague.adobe.com/en/docs/target-dev/developer/mobile-apps/target-mobile-preview)为移动设备应用程序活动执行简单的端到端QA。<P>单击&#x200B;**更多选项**&#x200B;图标，选择&#x200B;**创建移动设备预览链接**，然后选择要测试在移动设备上的活动。 |
 | 自定义表<P>![自定义表格图标](/help/main/assets/icons/ColumnSetting.svg) | 通过单击页面右上角的&#x200B;**[!UICONTROL 自定义表]**&#x200B;图标，然后选择或取消选择所需的列，更改[!UICONTROL 活动]列表中显示的列。<P>更改将应用于您的帐户，并在您注销[!DNL Target]后保持活动状态。 |
 | “批量操作”复选框<P>![批量操作图标](/help/main/assets/icons/Rectangle.svg) | 对所有活动或选定活动执行批量操作。<P>有关可用操作的列表（取决于您的权限和活动状态），请参阅下面的[执行快速操作](#quick-actions)。 |
 | [!UICONTROL 类型] | 活动类型。 [!UICONTROL 类型]列允许您按类型快速识别每个活动。 <ul><li>**AB-M**：手动[!UICONTROL A/B测试]</li><li>**AB-AA**： [!UICONTROL 自动分配]</li><li>**AB-AT**： [!UICONTROL 自动定位]</li><li>**AP**： [!UICONTROL Automated Personalization]</li><li>**XT**： [!UICONTROL 体验定位]</li><li>**MVT**： [!UICONTROL 多变量测试]</li><li>**REC**： [!UICONTROL 推荐]</li></ul>有关每种类型的详细信息，请参阅下面的[活动类型](#types)。 |
@@ -57,9 +48,9 @@ ht-degree: 25%
 | [!UICONTROL 优先级] | 活动的优先级。<P>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。 如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。<P>根据您的[设置](/help/main/administrating-target/reporting.md)，[!UICONTROL 优先级]的[!DNL Target] UI和选项会有所不同。 您可以使用[!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]的旧设置，也可以启用0到999的细粒度优先级。<P>有关优先级设置的详细信息，请参阅&#x200B;*目标和设置*&#x200B;中&#x200B;*活动设置*&#x200B;下的[优先级](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)。 |
 | [!UICONTROL 属性] | 显示活动的[属性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。<P>企业用户权限是[Target Premium](/help/main/c-intro/intro.md#premium)功能。 |
 | [!UICONTROL 预计收入提升] | 如果 100% 的受众都看到了入选体验，则显示预计会有多少收入上的增长。<P>使用以下公式计算：<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>如果以简写的形式表示数字，且小数点前只有一个数字，则该数字将四舍五入至小数点后一位，保留最大值。 例如：$1.6M、$60K、$900、$8.5K、$205K<P>此列显示“---”时，表示该活动没有足够的数据来确定入选者，或者没有成本估算。<P>请参阅[预计收入提升](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以了解更多信息。 |
-| [!UICONTROL 来源] | 显示创建该活动的位置： [!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/overview)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hans)或[Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/)。 |
+| [!UICONTROL 来源] | 显示创建该活动的位置： [!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview)、[[!DNL Adobe Target] MCP服务器](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)或[Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/)。 |
 | [!UICONTROL 作者] | 创建活动的人员的姓名。 |
-| [!UICONTROL 决策方法] | 每个活动中使用的决策方法： [服务器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=zh-Hans)或[客户端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)。 |
+| [!UICONTROL 决策方法] | 每个活动中使用的决策方法： [服务器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html)或[客户端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)。 |
 
 <!--|[!UICONTROL Location]|The URL for the activity identifies where the activity is displayed. This column helps you quickly identify an activity and determine whether a particular page already has an activity running on it.<P>If an activity runs on multiple URLs, a link shows how many more URLs are used. Click the link to view the complete list of URLs for that activity.<P>You can search based on the URL. Use the drop-down list next to the search box and select [!UICONTROL URL].|-->
 
@@ -90,8 +81,8 @@ ht-degree: 25%
 | [!UICONTROL 报告Source] | 按报表源筛选。<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)：显示使用[!UICONTROL Analytics for Target] (A4T)作为报表源的活动。</li><li>[[!DNL Target]](/help/main/c-reports/reports.md)：显示使用[!DNL Target]作为报表源的活动。</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)：显示使用[!DNL Adobe Customer Analytics]作为报表源的活动。</li></ul> |
 | [!UICONTROL 体验编辑器] | 活动创建期间使用体验编辑器的筛选条件：<ul><li>[可视化](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)：显示使用[!UICONTROL 可视化体验编辑器] (VEC)创建的活动。</li><li>[基于表单](/help/main/c-experiences/form-experience-composer.md)：显示使用基于表单的体验编辑器[!UICONTROL 创建的活动]。</li></ul> |
 | [!UICONTROL 量度类型] | 用于在活动创建期间选择[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md)的筛选器。<ul><li>[!UICONTROL 转化]</li><li>[!UICONTROL 收入]</li><li>[!UICONTROL 参与]</li><li>[!UICONTROL 使用Analytics量度]</lI></ul> |
-| [!UICONTROL 决策方法] | 按每个活动中使用的决策方法进行筛选。<ul><li>[服务器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=zh-Hans)：显示使用服务器端决策的活动。</li><li>[客户端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)：显示使用客户端决策的活动。</li></ul> |
-| [!UICONTROL 活动Source] | 按用于创建每个活动的活动源进行筛选。<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hans)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
+| [!UICONTROL 决策方法] | 按每个活动中使用的决策方法进行筛选。<ul><li>[服务器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html)：显示使用服务器端决策的活动。</li><li>[客户端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)：显示使用客户端决策的活动。</li></ul> |
+| [!UICONTROL 活动Source] | 按用于创建每个活动的活动源进行筛选。<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans)</li><li>[[!DNL Adobe Target] MCP服务器](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
 | [!UICONTROL 属性] | 按创建该活动的[属性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)筛选。 |
 
 
@@ -111,7 +102,7 @@ ht-degree: 25%
 
 | 操作 | 描述 |
 | --- | --- |
-| [!UICONTROL 编辑] | 更改活动。 任何活动都可以编辑。<P>有关各种活动编辑方式的更多信息，请参阅[编辑活动或另存为草稿](/help/main/c-activities/edit-activity.md)。 |
+| [!UICONTROL 编辑] | 更改活动。 任何活动都可以编辑，包括通过[!DNL Adobe Target] API或[!DNL Adobe Target] MCP服务器创建的活动。<P>有关各种活动编辑方式的更多信息，请参阅[编辑活动或另存为草稿](/help/main/c-activities/edit-activity.md)。 |
 | [!UICONTROL 停用] | 停止实时或计划的活动。 可以重新激活或存档已停用的活动。<P>如果您停用活动或将活动存档，稍后又重新激活它，并且在停用活动或将活动存档之前有访客处于活动中，则该访客在重新激活活动后将继续成为该活动的一部分。 在这两个事件之间的时段内记录的任何转化量度不会归因于该活动。 |
 | [!UICONTROL 激活] | 启动不活动的活动或准备激活的活动。 |
 | [!UICONTROL 存档] | 将活动发送到存档中。 默认情况下，已存档的活动不再出现在[!UICONTROL 活动]列表中。 更改[!UICONTROL 活动]列表的筛选器以包含已存档的活动以查看它们。 您可以激活已存档的活动以便再次使用。<P>如果您停用活动或将活动存档，稍后又重新激活它，并且在停用活动或将活动存档之前有访客处于活动中，则该访客在重新激活活动后将继续成为该活动的一部分。 在这两个事件之间的时段内记录的任何转化量度不会归因于该活动。 |
@@ -127,11 +118,11 @@ ht-degree: 25%
 * 除[!UICONTROL Automated Personalization] (AP)、[!UICONTROL 自动分配]和[!UICONTROL 自动定位]之外的所有活动类型均允许您选择使用[!DNL Target]或[!DNL Adobe Analytics]作为数据源。 [!UICONTROL Automated Personalization]、[!UICONTROL 自动分配]和[!UICONTROL 自动定位] *始终*&#x200B;使用[!DNL Target]数据。
 * 活动可用于多个渠道：
 
-   * Web 和移动设备网站
-   * 连接到 Internet 的屏幕和设备，包括自助服务终端和 ATM
-   * 电子邮件和其他客户获取渠道或合作伙伴网站
-   * 移动设备应用程序
-   * 其他任何您可以交付已标记内容的地方
+  * Web 和移动设备网站
+  * 连接到 Internet 的屏幕和设备，包括自助服务终端和 ATM
+  * 电子邮件和其他客户获取渠道或合作伙伴网站
+  * 移动设备应用程序
+  * 其他任何您可以交付已标记内容的地方
 
 ## 限制 {#section_049D4684403A4E07B998067EB8E9BE56}
 

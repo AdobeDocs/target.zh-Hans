@@ -14,10 +14,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 28%
+source-wordcount: 844
+ht-degree: 27%
 
 ---
 
@@ -46,9 +46,11 @@ ht-degree: 28%
 
 ![[!UICONTROL 受众]列表](assets/audiences_list.png)
 
-[!UICONTROL 受众]列表包含您可以在活动中使用的受众。 使用[!UICONTROL 受众]列表创建、编辑、复制、复制或合并受众。 此列表还会显示创建受众的源位置：
+[!UICONTROL 受众]列表包含您可以在活动中使用的受众。 使用[!UICONTROL 受众]列表创建、编辑、复制、复制或合并受众。 可以编辑任何受众，包括通过[!DNL Adobe Target] API或[[!DNL Adobe Target] MCP服务器](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)创建的受众。 此列表还会显示创建受众的源位置：
 
 * [!DNL Adobe Target]
+* [!DNL Adobe Target] API
+* [!DNL Adobe Target] MCP服务器
 * [!DNL Adobe Target Classic]
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]

@@ -17,9 +17,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 2633
+source-wordcount: 2648
 ht-degree: 25%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 25%
 | [!UICONTROL 优先级] | 活动的优先级。<P>如果将具有相同受众的多个活动分配到同一个位置，则需使用优先级。 如果将两个或更多活动分配到同一个位置，则会显示具有最高优先级的活动。<P>根据您的[设置](/help/main/administrating-target/reporting.md)，[!UICONTROL 优先级]的[!DNL Target] UI和选项会有所不同。 您可以使用[!UICONTROL 低]、[!UICONTROL Medium]或[!UICONTROL 高]的旧设置，也可以启用0到999的细粒度优先级。<P>有关优先级设置的详细信息，请参阅&#x200B;*目标和设置*&#x200B;中&#x200B;*活动设置*&#x200B;下的[优先级](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)。 |
 | [!UICONTROL 属性] | 显示活动的[属性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)。<P>企业用户权限是[Target Premium](/help/main/c-intro/intro.md#premium)功能。 |
 | [!UICONTROL 预计收入提升] | 如果 100% 的受众都看到了入选体验，则显示预计会有多少收入上的增长。<P>使用以下公式计算：<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>如果以简写的形式表示数字，且小数点前只有一个数字，则该数字将四舍五入至小数点后一位，保留最大值。 例如：$1.6M、$60K、$900、$8.5K、$205K<P>此列显示“---”时，表示该活动没有足够的数据来确定入选者，或者没有成本估算。<P>请参阅[预计收入提升](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)以了解更多信息。 |
-| [!UICONTROL 来源] | 显示创建该活动的位置： [!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/overview)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hans)或[Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/)。 |
+| [!UICONTROL 来源] | 显示创建该活动的位置： [!DNL Adobe Target]、[Adobe Target API](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/overview)、[[!DNL Adobe Target] MCP服务器](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hans)或[Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/)。 |
 | [!UICONTROL 作者] | 创建活动的人员的姓名。 |
 | [!UICONTROL 决策方法] | 每个活动中使用的决策方法： [服务器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=zh-Hans)或[客户端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)。 |
 
@@ -91,7 +91,7 @@ ht-degree: 25%
 | [!UICONTROL 体验编辑器] | 活动创建期间使用体验编辑器的筛选条件：<ul><li>[可视化](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)：显示使用[!UICONTROL 可视化体验编辑器] (VEC)创建的活动。</li><li>[基于表单](/help/main/c-experiences/form-experience-composer.md)：显示使用基于表单的体验编辑器[!UICONTROL 创建的活动]。</li></ul> |
 | [!UICONTROL 量度类型] | 用于在活动创建期间选择[成功量度](/help/main/c-activities/r-success-metrics/success-metrics.md)的筛选器。<ul><li>[!UICONTROL 转化]</li><li>[!UICONTROL 收入]</li><li>[!UICONTROL 参与]</li><li>[!UICONTROL 使用Analytics量度]</lI></ul> |
 | [!UICONTROL 决策方法] | 按每个活动中使用的决策方法进行筛选。<ul><li>[服务器端](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=zh-Hans)：显示使用服务器端决策的活动。</li><li>[客户端](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html)：显示使用客户端决策的活动。</li></ul> |
-| [!UICONTROL 活动Source] | 按用于创建每个活动的活动源进行筛选。<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hans)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
+| [!UICONTROL 活动Source] | 按用于创建每个活动的活动源进行筛选。<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hans)</li><li>[[!DNL Adobe Target] MCP服务器](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hans)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hans)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
 | [!UICONTROL 属性] | 按创建该活动的[属性](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)筛选。 |
 
 
@@ -111,7 +111,7 @@ ht-degree: 25%
 
 | 操作 | 描述 |
 | --- | --- |
-| [!UICONTROL 编辑] | 更改活动。 任何活动都可以编辑。<P>有关各种活动编辑方式的更多信息，请参阅[编辑活动或另存为草稿](/help/main/c-activities/edit-activity.md)。 |
+| [!UICONTROL 编辑] | 更改活动。 任何活动都可以编辑，包括通过[!DNL Adobe Target] API或[!DNL Adobe Target] MCP服务器创建的活动。<P>有关各种活动编辑方式的更多信息，请参阅[编辑活动或另存为草稿](/help/main/c-activities/edit-activity.md)。 |
 | [!UICONTROL 停用] | 停止实时或计划的活动。 可以重新激活或存档已停用的活动。<P>如果您停用活动或将活动存档，稍后又重新激活它，并且在停用活动或将活动存档之前有访客处于活动中，则该访客在重新激活活动后将继续成为该活动的一部分。 在这两个事件之间的时段内记录的任何转化量度不会归因于该活动。 |
 | [!UICONTROL 激活] | 启动不活动的活动或准备激活的活动。 |
 | [!UICONTROL 存档] | 将活动发送到存档中。 默认情况下，已存档的活动不再出现在[!UICONTROL 活动]列表中。 更改[!UICONTROL 活动]列表的筛选器以包含已存档的活动以查看它们。 您可以激活已存档的活动以便再次使用。<P>如果您停用活动或将活动存档，稍后又重新激活它，并且在停用活动或将活动存档之前有访客处于活动中，则该访客在重新激活活动后将继续成为该活动的一部分。 在这两个事件之间的时段内记录的任何转化量度不会归因于该活动。 |
@@ -127,11 +127,11 @@ ht-degree: 25%
 * 除[!UICONTROL Automated Personalization] (AP)、[!UICONTROL 自动分配]和[!UICONTROL 自动定位]之外的所有活动类型均允许您选择使用[!DNL Target]或[!DNL Adobe Analytics]作为数据源。 [!UICONTROL Automated Personalization]、[!UICONTROL 自动分配]和[!UICONTROL 自动定位] *始终*&#x200B;使用[!DNL Target]数据。
 * 活动可用于多个渠道：
 
-   * Web 和移动设备网站
-   * 连接到 Internet 的屏幕和设备，包括自助服务终端和 ATM
-   * 电子邮件和其他客户获取渠道或合作伙伴网站
-   * 移动设备应用程序
-   * 其他任何您可以交付已标记内容的地方
+  * Web 和移动设备网站
+  * 连接到 Internet 的屏幕和设备，包括自助服务终端和 ATM
+  * 电子邮件和其他客户获取渠道或合作伙伴网站
+  * 移动设备应用程序
+  * 其他任何您可以交付已标记内容的地方
 
 ## 限制 {#section_049D4684403A4E07B998067EB8E9BE56}
 

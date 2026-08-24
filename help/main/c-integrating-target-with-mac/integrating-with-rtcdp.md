@@ -5,25 +5,14 @@ title: 如何将 [!DNL Target] 与 [!DNL Real-Time Customer Data Platform] 集�
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 TQID: https://experienceleague.adobe.com/0Zw98ulFxHFH-PdV8tmocpOXYCKR2ciKtqFKwD44iiM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6d72a6d0a1de27d8cd0286c799e61028d6419761
 workflow-type: tm+mt
-source-wordcount: 1173
-ht-degree: 71%
+source-wordcount: 1239
+ht-degree: 67%
 
 ---
 
@@ -32,6 +21,10 @@ ht-degree: 71%
 基于 [!DNL Adobe Experience Platform]，[!DNL Real-Time Customer Data Platform] (RTCDP) 可帮助公司汇集来自多个企业来源的已知和匿名数据。 RTCDP 允许您创建轮廓，这些轮廓可用于在所有渠道和设备中实时提供个性化的客户体验。
 
 有关RTCDP的更多信息，请参阅[Real-Time Customer Data Platform概述](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hans){target=_blank}。
+
+>[!NOTE]
+>
+>本文重点介绍[!DNL Target]/RTCDP集成。 自2026年8月起，Experience Platform目标目录中的基础&#x200B;**[!UICONTROL Adobe Target]**&#x200B;目标也可供具有[!DNL Adobe Journey Optimizer]且没有Real-Time CDP的组织使用。 有关每种权利类型可用的功能的详细信息，请参阅&#x200B;*Adobe Target连接*&#x200B;指南中的[权利](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html#entitlement){target=_blank}。
 
 ## 主要功能
 
@@ -122,11 +115,11 @@ Real-Time CDP 轮廓属性可以共享给 [!DNL Target]，用于 HTML 产品建�
 有关更多信息，请参阅以下主题：
 
 * *Adobe Experience Platform发行说明中的[目标发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans#destinations){target=_blank}*
-* 在&#x200B;*目标概述*&#x200B;指南中[为同一页面和下一页面个性化配置个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=zh-Hans){target=_blank}。
-* *目标概述*&#x200B;指南中的[Adobe Target连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=zh-Hans){target=_blank}
+* 在&#x200B;*目标概述*&#x200B;指南中[为同一页面和下一页面个性化配置个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}。
+* *目标概述*&#x200B;指南中的[Adobe Target连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}
 * *目标概述*&#x200B;指南中的[映射属性](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=zh-Hans#map-attributes){target=_blank}。
-* 在&#x200B;*目标概述*&#x200B;指南中[将受众激活到边缘个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=zh-Hans){target=_blank}。
-* 通过&#x200B;*目标概述*&#x200B;指南中“常见问题”下的 [!DNL Adobe Target] 和自定义Personalization目标[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=zh-Hans#same-next-page-personalization){target=_blank}进行同一页面和下一页面个性化。
+* 在&#x200B;*目标概述*&#x200B;指南中[将受众激活到边缘个性化目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank}。
+* 通过&#x200B;*目标概述*&#x200B;指南中“常见问题”下的 [!DNL Adobe Target] 和自定义Personalization目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank}进行同一页面和下一页面个性化。[
 
 ## 视频和博客帖子 {#videos-blogs}
 
@@ -136,33 +129,33 @@ Real-Time CDP 轮廓属性可以共享给 [!DNL Target]，用于 HTML 产品建�
 
 了解如何使用 [!DNL Real-Time Customer Data Platform] 和 [!DNL Adobe Target] 对下一次点击进行个性化。 [!DNL Real-Time CDP] 中的 [!DNL Adobe Target] 目标允许您使用 [!DNL Adobe Target] 中的 [!DNL Experience Platform] 片段进行相同页面个性化和下一页面个性化，同时提供数据治理和隐私支持。
 
-有关详细信息，请参阅&#x200B;*Platform教程*&#x200B;指南中的[使用Real-Time CDP和Adobe Target进行下一次点击个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=zh-Hans){target=_blank}。
+有关详细信息，请参阅&#x200B;*Platform教程*&#x200B;指南中的[使用Real-Time CDP和Adobe Target进行下一次点击个性化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank}。
 
->[!VIDEO](https://video.tv.adobe.com/v/342975?captions=chi_hans&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
 ### 视频：配置 [!DNL Real-Time Customer Data Platform] 中的 [!DNL Adobe Target] 目标
 
 了解如何配置 [!DNL Real-Time Customer Data Platform] 中的 [!DNL Adobe Target] 目标以开始从 [!DNL Real-Time CDP] 到 [!DNL Target] 发送区段和轮廓属性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449803/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
 
 ### 视频：激活区段和轮廓属性
 
 了解如何从 [!DNL Adobe Real-Time Customer Data Platform] 到 [!DNL Adobe Target] 激活区段和轮廓属性，以在您的网站、移动应用程序和其他数字资产中显示实时个性化内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447365/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
 
 ### 视频：在 [!DNL Target] 中使用 [!DNL Real-Time CDP] 区段
 
 了解如何在 [!DNL Adobe Target] 中使用 [!DNL Real-Time Customer Data Platform] 区段，以在您的网站和移动应用程序上提供个性化体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446837/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
 
 ### 视频：在 [!DNL Adobe Target] 中使用 [!DNL Real-Time CDP] 轮廓属性
 
 了解如何在 [!DNL Adobe Target] 中使用 [!DNL Adobe Real-Time Customer Data Platform] 轮廓属性，以在您的网站和移动应用程序上提供个性化体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451903/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 ### [!DNL Adobe Target]博文和视频：同一页面增强的个性化
 

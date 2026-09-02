@@ -7,21 +7,14 @@ title: 当前版本中包括什么功能？
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 47%
+source-wordcount: 411
+ht-degree: 65%
 
 ---
 
@@ -31,43 +24,13 @@ ht-degree: 47%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
-## [!DNL Target Standard/Premium] 26.8.3（2026年8月13日）
+## [!DNL Target Standard/Premium] 26.9.1（2026年9月1日）
 
-**活动和受众**
-
-+++查看详细信息
-
-* **为由API/MCP创建的活动和受众启用了“编辑”功能。** 通过[!DNL Adobe Target]管理员API和[!DNL Target] MCP创建的活动和受众现在可以在[!DNL Target] UI中进行编辑。
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.2（2026年8月11日）
-
-**受众**
+**[!UICONTROL 受众]**
 
 +++查看详细信息
 
-* **无法在使用仅限该活动的受众的活动中复制和保存自定义代码修改。** 修复了在添加自定义代码修改后，复制使用仅限该活动的受众的活动时无法保存并出现“无效受众ID”错误的问题。 (TGT-55785)
-
-+++
-
-**本地化**
-
-+++查看详细信息
-
-* **活动URL中的损坏的多字节字符。** 修复了活动URL中的多字节字符在[!UICONTROL 可视化体验编辑器]中和&#x200B;**[!UICONTROL 冲突]**&#x200B;选项卡上显示已损坏的问题。 (TGT-55708)
-
-* **打开已删除的设计时出现未本地化的错误消息。** 修复了在尝试打开已被其他用户删除的设计时，找不到&#x200B;**[!UICONTROL 请求的资源]**&#x200B;错误消息未本地化的问题。 (TGT-50902)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.1（2026年8月4日）
-
-**[!UICONTROL 可视化体验编辑器] (VEC)**
-
-+++查看详细信息
-
-* **在[!UICONTROL 体验受众]面板中截断的图标。** 修复了在活动创建期间&#x200B;**[!UICONTROL 体验受众]**&#x200B;面板中隐藏或截断&#x200B;**[!UICONTROL 添加]**&#x200B;和展开/折叠图标的问题。 (TGT-55372)
+* **复制仅包含活动受众的活动无法保存**。 当A/B活动使用仅活动（本地范围）受众规则和自定义代码修改时，复制它并保存副本会失败并出现“受众ID无效”错误。 (TGT-55785)
 
 +++
 

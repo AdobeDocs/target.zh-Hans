@@ -39,10 +39,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3573ace9c7f19f1c04dbe92b50c37109a7a502e6
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 72205
-ht-degree: 48%
+source-wordcount: 72534
+ht-degree: 47%
 
 ---
 
@@ -57,6 +57,66 @@ ht-degree: 48%
 >请参阅 [Target 发行说明（当前版本）](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)，以了解有关当月 Target 发行版本（平台和 Target Standard/Premium）的信息。
 
 ## 发行说明 — 2026
+
+## [!DNL Target Standard/Premium] 26.8.5（2026年8月18日）
+
+**推荐**
+
++++查看详细信息
+
+* 排除项和集合的&#x200B;**Null值筛选器。** 在[!DNL Recommendations]中定义排除规则和集合筛选器时，您现在可以使用&#x200B;**Value present**&#x200B;和&#x200B;**Value not present**&#x200B;运算符。 (TGT-55790)
+
++++
+
+**[!UICONTROL 可视化体验编辑器] (VEC)**
+
++++查看详细信息
+
+* **保存活动后，单击VEC编辑器中未显示的量度元素。** 修复了以下问题：当您在[!UICONTROL 可视化体验编辑器]中编辑活动的目标和量度时，即使继续在活动报表中正确跟踪量度，先前配置的点击量度仍不会显示。 (TGT-55826)
+
+* **VEC中间歇性的“无修改”消息。** 修复了&#x200B;**[!UICONTROL 修改]**&#x200B;面板对活动体验定位活动中的现有修改间歇性显示“无修改”的问题。 (TGT-55842)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.3（2026年8月13日）
+
+**活动和受众**
+
++++查看详细信息
+
+* **为由API/MCP创建的活动和受众启用了“编辑”功能。** 通过[!DNL Adobe Target]管理员API和[!DNL Target] MCP创建的活动和受众现在可以在[!DNL Target] UI中进行编辑。
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.2（2026年8月11日）
+
+**受众**
+
++++查看详细信息
+
+* **无法在使用仅限该活动的受众的活动中复制和保存自定义代码修改。** 修复了在添加自定义代码修改后，复制使用仅限该活动的受众的活动时无法保存并出现“无效受众ID”错误的问题。 (TGT-55785)
+
++++
+
+**本地化**
+
++++查看详细信息
+
+* **活动URL中的损坏的多字节字符。** 修复了活动URL中的多字节字符在[!UICONTROL 可视化体验编辑器]中和&#x200B;**[!UICONTROL 冲突]**&#x200B;选项卡上显示已损坏的问题。 (TGT-55708)
+
+* **打开已删除的设计时出现未本地化的错误消息。** 修复了在尝试打开已被其他用户删除的设计时，找不到&#x200B;**[!UICONTROL 请求的资源]**&#x200B;错误消息未本地化的问题。 (TGT-50902)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.1（2026年8月4日）
+
+**[!UICONTROL 可视化体验编辑器] (VEC)**
+
++++查看详细信息
+
+* **在[!UICONTROL 体验受众]面板中截断的图标。** 修复了在活动创建期间&#x200B;**[!UICONTROL 体验受众]**&#x200B;面板中隐藏或截断&#x200B;**[!UICONTROL 添加]**&#x200B;和展开/折叠图标的问题。 (TGT-55372)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.5（2026年7月30日）
 
@@ -4499,7 +4559,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>移动设备批量和预取交付 </p> </td> 
-   <td colname="col2"> <p><b>更新日期：2017 年 10 月 12 日</b> </p> <p> 可以在单个调用中预取多个 mbox 的内容，并将其缓存在设备本地，而无需担心最终用户将如何、何时以及是否会看到这些内容。 </p> <p>此功能要求您下载并安装相应的 Adobe Mobile SDK 4.14（或更高）版本。 </p> <p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=zh-Hans" format="dita" scope="local">预取选件内容</a>。 </p> </td> 
+   <td colname="col2"> <p><b>更新日期：2017 年 10 月 12 日</b> </p> <p> 可以在单个调用中预取多个 mbox 的内容，并将其缓存在设备本地，而无需担心最终用户将如何、何时以及是否会看到这些内容。 </p> <p>此功能要求您下载并安装相应的 Adobe Mobile SDK 4.14（或更高）版本。 </p> <p>有关详细信息，请参阅<a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local">预取选件内容</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>活动 </p> </td> 

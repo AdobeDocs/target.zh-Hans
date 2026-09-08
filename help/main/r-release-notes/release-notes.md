@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
+source-git-commit: 35d7254f67314c1c89050379b0a7850a8db8b5e9
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 65%
+source-wordcount: 495
+ht-degree: 54%
 
 ---
 
@@ -30,6 +30,25 @@ ht-degree: 65%
 浏览[!DNL Adobe Target]中的最新功能、增强功能和修复。 这些发行说明还涵盖了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台组件（如果适用）的更新。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 26.9.2（2026年9月8日）
+
+
+**[!UICONTROL 推荐]**
+
++++查看详细信息
+
+* **[!DNL New]用户界面对信息源URL的编码不正确**。 从新[!DNL Target]界面中的URL创建推荐信息源时，信息源URL编码不正确，导致信息源创建失败，出现未知错误。 (TGT-56084)
+
++++
+
+**[!UICONTROL 报表]**
+
++++查看详细信息
+
+* **自动化区段报表无法一致地显示属性值**。 自动化区段报表显示[!DNL Automated Personalization]和[!DNL Auto-Target]活动的属性值和范围不一致。 某些自动化区段仅显示属性名称，而不是关联的值或范围。 (TGT-55855)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.1（2026年9月1日）
 

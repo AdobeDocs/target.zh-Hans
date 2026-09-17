@@ -128,7 +128,7 @@ AP是完全自动化的，以最少的人工分析持续学习。 它构建各�
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"

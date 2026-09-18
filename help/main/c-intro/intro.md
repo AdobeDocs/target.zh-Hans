@@ -26,12 +26,103 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 9a55efe5570867a822e4f6c0494a505e456bd536
+source-git-commit: 2cecb1f8ae52fd6c47e543710bb14e00503c06ef
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 33%
 ---
 # [!DNL Target]简介
+
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_ab_daily_traffic"
+>title="每日流量"
+>abstract="每天有多少用户进入您的试验。 如果您不知道自己的每日流量，请选择上面的“流量”，计算机将使用您的其他输入值来为您求解。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_setup"
+>title="设置测试"
+>abstract="这些字段定义了A/B测试、您预期看到的内容以及您在结果中需要有多大的信心。 绑定到上面所选内容的字段将自动解析。 其余部分填入您的预期值。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_number_experiences"
+>title="体验数量"
+>abstract="试验中的变体数量，包括对照组。 A/B测试有两只手臂。 五个变量加上一个控制等于6。 为了维持统计能力，更多的武器需要相应更多的运输量。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_duration"
+>title="A/B测试持续时间"
+>abstract="您的试验将运行多少天。 较长的持续时间可让您的试验有更多的时间收集数据，从而可靠地检测更小的影响。 较短的持续时间需要较大的效果或更多的每日流量才能获得可靠的结果。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_minimum_detectable_effect"
+>title="最小可检测效果"
+>abstract="值得检测的最小改进，即您可以执行操作的最小量度变化。 这是提升度的大小，以百分比点表示，而不是相对于基线的百分比变化。 例如，如果您的基线是5%，并且提升1个百分点很重要，请输入1。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_expected_improvement"
+>title="预期改进"
+>abstract="您预期试验将产生的改进。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_variance"
+>title="变量"
+>abstract="您的量度值是如何分布的，而不是其平均值。 点击率等量度（大多为0和1）具有低方差，而像每用户收入这样的量度（少数高消费者，许多低消费者）可能会具有高得多的方差。 如果不确定，则保留默认值1。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_confidence_level"
+>title="置信度"
+>abstract="你在多大程度上需要相信，结果在称之为真实之前并非只是随机的，这是统计显着性的临界值。 95%的置信水平意味着误报的概率至多为5%。 值越高，误报率越低，但需要的数据越多。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_statistical_power"
+>title="统计功效"
+>abstract="如果确实存在一种效应，则检测这种效应的概率，实验灵敏度。 80%的功率意味着有80%的机会发现实际效果。 较高的功率可减少误报，但需要更多的流量或较长的运行时间。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_traffic_mode"
+>title="流量模式"
+>abstract="用户如何进入您的试验。 连续：在实验持续时间内，用户每天进入。 当结果出现时，流量会自动转向性能更好的变体。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_metric_type"
+>title="量度类型"
+>abstract="您正在测量哪种量度。 百分比：将此用于单击或转化等二进制结果，其中每个用户既可以执行操作也可以不执行操作。 数字：将此用于收入或页面查看次数等量度，这些量度的值会因用户而有很大的差异。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_auto_daily_traffic"
+>title="每日流量"
+>abstract="每天有多少用户进入您的试验。 用于持续运行多天的连续实验，随着结果的传入，流量会自动转向性能更好的变量。"
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_baseline_metric_rate"
+>title="基线度量速率"
+>abstract="在试验开始前您当前的性能，控制臂平均值。 始终是必需的。 对于百分比量度，输入百分比：如果5%的访客点击了今天购买，请输入5。 对于计数量度，输入原始小数值。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="主要量度"
+>abstract="主要指标将自动从报表设置中提取。 要进行更改，请修改目标和设置下的目标量度。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="假设验证"
+>abstract="假设是您定义的声明，它解释了试验的预期结果。 包括所更改的内容和位置的描述，然后指明预计更改哪个量度以及如何更改。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_insights"
+>title="分析"
+>abstract="试验洞察是 AI 在试验数据达到统计显著性后得出的学习结果。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="机会"
+>abstract="实验机会是人工智能建议的治疗想法，基于在您的实验屏幕截图和结果中找到的模式AI。"
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="处理详细信息"
+>abstract="处理详细信息显示了用户符合某个处理条件时该处理条件的图像。 您可以查看这些图像以进行所有实验。 某些实验可能会要求您确认图像，或者在需要时替换图像。"
 
 作为[!DNL Adobe Experience Cloud]的一部分，[!DNL Adobe Target]提供全面的工具，以个性化跨Web、移动站点、应用程序、社交媒体和其他数字渠道的客户体验。
 
@@ -128,94 +219,6 @@ AP是完全自动化的，以最少的人工分析持续学习。 它构建各�
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
->[!CONTEXTUALHELP]
->id="target_sample_size_ab_daily_traffic"
->title="每日流量"
->abstract="每天有多少用户进入您的试验。 如果您不知道自己的每日流量，请选择上面的“流量”，计算机将使用您的其他输入值来为您求解。"
 
->[!CONTEXTUALHELP]
->id="target_sample_size_setup"
->title="设置测试"
->abstract="这些字段定义了A/B测试、您预期看到的内容以及您在结果中需要有多大的信心。 绑定到上面所选内容的字段将自动解析。 其余部分填入您的预期值。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_number_experiences"
->title="体验数量"
->abstract="试验中的变体数量，包括对照组。 A/B测试有两只手臂。 五个变量加上一个控制等于6。 为了维持统计能力，更多的武器需要相应更多的运输量。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_duration"
->title="A/B测试持续时间"
->abstract="您的试验将运行多少天。 较长的持续时间可让您的试验有更多的时间收集数据，从而可靠地检测更小的影响。 较短的持续时间需要较大的效果或更多的每日流量才能获得可靠的结果。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_minimum_detectable_effect"
->title="最小可检测效果"
->abstract="值得检测的最小改进，即您可以执行操作的最小量度变化。 这是提升度的大小，以百分比点表示，而不是相对于基线的百分比变化。 例如，如果您的基线是5%，并且提升1个百分点很重要，请输入1。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_expected_improvement"
->title="预期改进"
->abstract="您预期试验将产生的改进。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_variance"
->title="变量"
->abstract="您的量度值是如何分布的，而不是其平均值。 点击率等量度（大多为0和1）具有低方差，而像每用户收入这样的量度（少数高消费者，许多低消费者）可能会具有高得多的方差。 如果不确定，则保留默认值1。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_confidence_level"
->title="置信度"
->abstract="你在多大程度上需要相信，结果在称之为真实之前并非只是随机的，这是统计显着性的临界值。 95%的置信水平意味着误报的概率至多为5%。 值越高，误报率越低，但需要的数据越多。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_statistical_power"
->title="统计功效"
->abstract="如果确实存在一种效应，则检测这种效应的概率，实验灵敏度。 80%的功率意味着有80%的机会发现实际效果。 较高的功率可减少误报，但需要更多的流量或较长的运行时间。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_traffic_mode"
->title="流量模式"
->abstract="用户如何进入您的试验。 连续：在实验持续时间内，用户每天进入。 当结果出现时，流量会自动转向性能更好的变体。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_metric_type"
->title="量度类型"
->abstract="您正在测量哪种量度。 百分比：将此用于单击或转化等二进制结果，其中每个用户既可以执行操作也可以不执行操作。 数字：将此用于收入或页面查看次数等量度，这些量度的值会因用户而有很大的差异。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_auto_daily_traffic"
->title="每日流量"
->abstract="每天有多少用户进入您的试验。 用于持续运行多天的连续实验，随着结果的传入，流量会自动转向性能更好的变量。"
-
->[!CONTEXTUALHELP]
->id="target_sample_size_baseline_metric_rate"
->title="基线度量速率"
->abstract="在试验开始前您当前的性能，控制臂平均值。 始终是必需的。 对于百分比量度，输入百分比：如果5%的访客点击了今天购买，请输入5。 对于计数量度，输入原始小数值。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="主要量度"
->abstract="主要指标将自动从报表设置中提取。 要进行更改，请修改目标和设置下的目标量度。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="假设验证"
->abstract="假设是您定义的声明，它解释了试验的预期结果。 包括所更改的内容和位置的描述，然后指明预计更改哪个量度以及如何更改。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="分析"
->abstract="试验洞察是 AI 在试验数据达到统计显著性后得出的学习结果。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="机会"
->abstract="实验机会是人工智能建议的治疗想法，基于在您的实验屏幕截图和结果中找到的模式AI。"
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="处理详细信息"
->abstract="处理详细信息显示了用户符合某个处理条件时该处理条件的图像。 您可以查看这些图像以进行所有实验。 某些实验可能会要求您确认图像，或者在需要时替换图像。"

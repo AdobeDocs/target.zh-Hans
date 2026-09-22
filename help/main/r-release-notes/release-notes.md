@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 674308a558a90154b171fe9a17d2642120c07923
+source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 40%
+source-wordcount: '744'
+ht-degree: 36%
 ---
 # [!DNL Target]发行说明（当前版本）
 
@@ -52,7 +52,7 @@ ht-degree: 40%
 
 +++查看详细信息
 
-* 在最顶部的页面元素&#x200B;**上的[!DNL Experience Fragments]无法访问**&#x200B;[!UICONTROL &#x200B;此项前插入]控件。 在可视化体验编辑器中，选择页面上最顶部的元素将页面向上滚动，导致&#x200B;**[!UICONTROL 此项前插入]**&#x200B;控件在无法选择该控件的可见视区上方渲染。 (TGT-55829)
+* 在最顶部的页面元素&#x200B;**上的[!DNL Experience Fragments]无法访问**[!UICONTROL &#x200B;此项前插入]控件。 在可视化体验编辑器中，选择页面上最顶部的元素将页面向上滚动，导致&#x200B;**[!UICONTROL 此项前插入]**&#x200B;控件在无法选择该控件的可见视区上方渲染。 (TGT-55829)
 
 +++
 
@@ -100,6 +100,18 @@ ht-degree: 40%
 +++查看详细信息
 
 * **复制仅包含活动受众的活动无法保存**。 当A/B活动使用仅活动（本地范围）受众规则和自定义代码修改时，复制它并保存副本会失败并出现“受众ID无效”错误。 (TGT-55785)
+
++++
+
+**[!DNL Adobe Target]MCP服务器 — 推荐工具（公共Beta）**
+
++++查看详细信息
+
+[!DNL Adobe Target] MCP服务器现在公开推荐工具，允许您列出、检查、创建和更新标准、收藏集、设计、促销和排除项，并直接从AI助手搜索产品目录。
+
+此功能需要具有&#x200B;**Target Premium**&#x200B;且启用了Recommendations的租户；此功能在非Premium帐户上不可用。
+
+有关详细信息，请参阅[MCP服务器工具引用](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)。
 
 +++
 

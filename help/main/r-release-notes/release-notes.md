@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6774b85f9515dd093d4e54492be54f7be3e92073
+source-git-commit: 674308a558a90154b171fe9a17d2642120c07923
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 42%
+source-wordcount: '680'
+ht-degree: 40%
 ---
 # [!DNL Target]发行说明（当前版本）
 
@@ -36,13 +36,23 @@ ht-degree: 42%
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
+## [!DNL Target Standard/Premium] 26.9.5（2026年9月21日）
+
+**[!UICONTROL 目标分析]**
+
++++查看详细信息
+
+* **A4T报告链接未在[!DNL Target] UI**&#x200B;中生成。 对于[!DNL A4T]活动，未在&#x200B;**[!UICONTROL 报表]**&#x200B;分区中生成报表链接，即使基础报表数据在[!DNL Target] UI和[!DNL Adobe Analytics] UI中均可见。 (TGT-56247)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.9.4（2026年9月17日）
 
 **[!UICONTROL 可视化体验编辑器] (VEC)**
 
 +++查看详细信息
 
-* 在最顶部的页面元素&#x200B;**上的[!DNL Experience Fragments]无法访问**&#x200B;[!UICONTROL &#x200B;此项前插入]控件。 在可视化体验编辑器中，选择页面上最顶部的元素将页面向上滚动，导致&#x200B;**[!UICONTROL 此项前插入]**&#x200B;控件在无法选择该控件的可见视区上方渲染。 (TGT-55829)
+* 在最顶部的页面元素&#x200B;**上的[!DNL Experience Fragments]无法访问**[!UICONTROL &#x200B;此项前插入]控件。 在可视化体验编辑器中，选择页面上最顶部的元素将页面向上滚动，导致&#x200B;**[!UICONTROL 此项前插入]**&#x200B;控件在无法选择该控件的可见视区上方渲染。 (TGT-55829)
 
 +++
 

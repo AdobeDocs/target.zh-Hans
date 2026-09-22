@@ -8,13 +8,11 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1039'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Target] MCP服务器 {#target-mcp}
 
 [!DNL Adobe Target] MCP集成允许您直接从AI助手检查、分析和管理A/B测试和个性化活动。 将[!DNL Target]的试验数据和个性化数据转换为纯语言的工作流 — 审核您的试验组合、审查性能报表、浏览受众和选件、创建活动并进行更新，而无需导航UI或编写API调用。
@@ -48,10 +46,10 @@ ht-degree: 0%
 * **浏览活动** — 列出、检查和分析A/B和XT活动。
 * **创建和更新活动** — 创建新的A/B和体验定位活动、更新配置、管理流量拆分、添加或删除变体以及控制活动状态（激活、暂停、停用）。
 * **浏览和管理受众和选件** — 列出、检查、创建和更新受众、HTML选件和JSON选件。
-<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
+* **管理推荐** — 列出、检查、创建和更新标准、收藏集、设计、促销和排除项，并搜索产品目录。 需要Target Premium权利。
 * **审核实施** — 查看at.js设置、响应令牌和每个实体的修订历史记录。
 
-[!DNL Adobe Target] MCP服务器公开跨10个类别的41个工具 — 从活动创建和报告到受众管理和QA预览。 有关完整的参数引用，请参阅[MCP服务器工具引用](target-mcp-tools-reference.md)。
+[!DNL Adobe Target] MCP服务器公开跨11个类别的62个工具 — 从活动创建和报告到受众管理、QA预览和推荐配置。 有关完整的参数引用，请参阅[MCP服务器工具引用](target-mcp-tools-reference.md)。
 
 要了解您可以使用[!DNL Adobe Target] MCP服务器做什么 — 包括逐步提示演练 — 请参阅[用例和演练](target-mcp-use-cases.md)。
 
@@ -66,7 +64,7 @@ ht-degree: 0%
 
 +++我可以通过MCP访问哪些[!DNL Adobe Target]对象？
 
-您可以访问和管理活动(A/B、XT、AP)、受众、选件、属性、mbox、响应令牌、at.js配置、A4T报告和实体修订历史记录。 MCP服务器公开了41种工具，包括读取和写入操作。
+您可以访问和管理活动(A/B、XT、AP)、受众、选件、属性、mbox、响应令牌、at.js配置、A4T报表、实体修订历史记录和推荐配置（标准、收藏集、设计、促销、排除和目录搜索）。 MCP服务器公开了62种工具，包括读取和写入操作。 推荐工具需要Target Premium授权，但在非Premium帐户中不可用。
 +++
 
 +++MCP服务器是否可以创建或修改活动？

@@ -8,13 +8,11 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '3046'
+source-wordcount: '3804'
 ht-degree: 14%
-
 ---
-
 # [!DNL Adobe Target] MCP服务器工具参考 {#target-mcp-tools-reference}
 
 >[!AVAILABILITY]
@@ -755,6 +753,143 @@ ht-degree: 14%
 
 +++
 
+## 推荐工具 {#tools-recommendations}
+
+>[!NOTE]
+>
+>* 推荐工具需要一个启用了Recommendations且具有&#x200B;**Target Premium**&#x200B;的租户。 在非Premium帐户上，这些工具不会显示在客户端的工具列表中，基础API返回403错误。
+>* 这些工具支持对标准、收藏集、设计、促销和排除项执行列表、获取、创建和更新操作。 删除操作不会通过MCP服务器公开。
+
++++标准
+
+**工具：** `list_target_criteria`，`get_target_criteria`，`list_target_criteria_by_type`，`get_target_criteria_by_type`，`create_target_criteria`，`update_target_criteria`
+
+标准即规则，可根据预先确定的一组访客行为来确定要推荐的项目。 条件被分组到9个类型化系列： `category`、`custom`、`item`、`cart`、`popularity`、`profileattribute`、`recent`、`sequence`、`userhistory`。
+
+| 参数 | 类型 | 必需 | 描述 |
+|---|---|---|---|
+| `criteria_id` | 整数 | 用于获取/更新 | 条件的唯一标识符 |
+| `criteria_type` | 字符串 | 对于键入的操作 | 9个标准家庭之一 |
+| `limit` / `offset` | 整数 | 否 | 分页 |
+| `name` | 字符串 | 是（创建） | 条件的唯一名称 |
+| `criteriaTitle` | 字符串 | 否 | 通过`$criteria.title`显示设计中使用的标题 |
+| `description` | 字符串 | 否 | 条件的描述 |
+| `key` | 字符串 | 是（创建/更新，大多数类型） | 推荐键（例如`CURRENT`、`LAST_VIEWED`、`LAST_PURCHASED`、`MOST_VIEWED`、`PROFILE_ATTRIBUTE`） |
+| `type` | 字符串 | 是（创建/更新，大多数类型） | 推荐逻辑（例如`VIEWED_BOUGHT`、`BOUGHT_CF`、`VIEWED_CF`、`SITE_AFFINITY`、`SIMILARITY`） |
+| `configuration` | 对象 | 是（创建/更新） | 包含规则、属性权重、价格筛选器和其他特定于家庭的设置 |
+| `daysCount` | 字符串 | 不同 | 考虑的历史时间范围（例如`ONE_DAY`到`TWO_MONTHS`） |
+
+`list_target_criteria`和`get_target_criteria`返回最小的跨系列标准元数据(`id`、`name`、`criteriaTitle`、`criteriaGroup`)。 将`list_target_criteria_by_type` / `get_target_criteria_by_type`（或`create_target_criteria` / `update_target_criteria`）与`criteria_type`结合使用，以使用完整、特定于类型的配置。 每个系列的字段要求不同 — 请参阅[!DNL Adobe] [推荐API引用](https://developer.adobe.com/target/administer/recommendations-api/){target="_blank"}以了解完整的每种类型架构。
+
+**返回：**&#x200B;条件对象或带有`offset`、`limit`、`total`和`list`的分页列表。
+
+**示例提示：**“列出此帐户中配置的所有推荐标准并总结正在使用的算法类型。”
+
++++
+
++++收藏集
+
+**工具：** `list_target_collections`，`get_target_collection`，`create_target_collection`，`update_target_collection`
+
+收藏集通过匹配规则对目录实体进行分组，以用于标准和促销活动。
+
+| 参数 | 类型 | 必需 | 描述 |
+|---|---|---|---|
+| `collection_id` | 整数 | 用于获取/更新 | 集合的唯一标识符 |
+| `limit` / `offset` | 整数 | 否 | 分页 |
+| `name` | 字符串 | 是 | 收藏集的唯一名称（最多250个字符） |
+| `description` | 字符串 | 否 | 收藏集描述（最多1000个字符） |
+| `rules` | 数组 | 是 | 1-1000个用于确定目录成员资格的规则（`attribute` +运算符/操作数） |
+
+**返回：**&#x200B;集合对象，包括`id`、`name`、`description`、`rules`和上次修改的元数据。
+
+**示例提示：**“我有哪些收藏集，它们过滤了哪些目录属性？”
+
++++
+
++++设计
+
+**工具：** `list_target_designs`，`get_target_design`，`create_target_design`，`update_target_design`
+
+设计是Velocity或HTML模板，用于控制推荐实体的呈现方式。
+
+| 参数 | 类型 | 必需 | 描述 |
+|---|---|---|---|
+| `design_id` | 整数 | 用于获取/更新 | 设计的唯一标识符 |
+| `limit` / `offset` | 整数 | 否 | 分页 |
+| `includeScript` | 布尔值 | 否 | 是否包括设计的模板内容 |
+| `name` | 字符串 | 是 | 设计的唯一名称（最多250个字符） |
+| `script` | 字符串 | 是 | 引用至少一个实体对象的Velocity模板（最多65,000个字符） |
+| `type` | 字符串 | 否 | 脚本的内容类型： `HTML`、`JSON`或`OTHER`（默认） |
+
+**返回：**&#x200B;设计对象，包括`id`、`name`、`script`和`type`。
+
+**示例提示：**“我为Recommendations配置了哪些设计和收藏集？”
+
++++
+
++++促销活动
+
+**工具：** `list_target_promotions`，`get_target_promotion`，`create_target_promotion`，`update_target_promotion`
+
+促销活动强制特定实体执行推荐结果，其优先顺序高于标准和备用推荐。
+
+| 参数 | 类型 | 必需 | 描述 |
+|---|---|---|---|
+| `promotion_id` | 整数 | 用于获取/更新 | 促销的唯一标识符 |
+| `limit` / `offset` | 整数 | 否 | 分页 |
+| `name` | 字符串 | 是 | 促销活动的唯一名称（最多250个字符） |
+| `type` | 字符串 | 是 | 当前仅支持`EXTERNAL` |
+| `key` | 字符串 | 否 | 促销密钥： `CURRENT`、`LAST_VIEWED`、`LAST_PURCHASED`、`MOST_VIEWED`或`PROFILE_ATTRIBUTE` |
+| `attribute` | 字符串 | 否 | 配置文件属性名称，适用于`key`为`PROFILE_ATTRIBUTE`的情况 |
+| `schedule` | 对象 | 否 | 促销应用的开始/结束时间窗口 |
+| `order` | 对象 | 否 | 提升实体的排序配置 |
+| `configuration` | 对象 | 否 | 提升项的收藏集引用（在`rules`为空时使用） |
+| `rules` | 数组 | 否 | 确定要提升哪些实体的包含规则 |
+
+**返回：**&#x200B;提升对象。
+
+**示例提示：**“创建外部促销活动，该促销活动包含到8月底的‘背包帐篷’集合。”
+
++++
+
++++排除项
+
+**工具：** `list_target_exclusions`，`get_target_exclusion`，`create_target_exclusion`，`update_target_exclusion`
+
+排除项会从推荐结果中删除匹配的实体。 排除项适用于整个帐户，并涵盖所有标准和活动。
+
+| 参数 | 类型 | 必需 | 描述 |
+|---|---|---|---|
+| `exclusion_id` | 整数 | 用于获取/更新 | 排除项的唯一标识符 |
+| `name` | 字符串 | 是 | 排除项的唯一名称（最多250个字符） |
+| `description` | 字符串 | 否 | 排除项的描述（最多1000个字符） |
+| `rule` | 对象 | 否 | 标识要排除的实体的单个规则（`attribute` +运算符/操作数） |
+
+**返回：**&#x200B;排除对象。
+
+**示例提示：**“当前是否配置了任何帐户范围的排除项，以及它们过滤了哪些内容？”
+
++++
+
++++目录
+
+**工具：** `get_target_entity`，`search_target_catalog`
+
+用于检查推荐产品/内容目录的只读工具。 没有通过MCP服务器为目录实体创建、更新或删除工具。
+
+| 参数 | 类型 | 必需 | 描述 |
+|---|---|---|---|
+| `catalog_entity_id` | 字符串 | 是（获取） | 目录实体ID（例如SKU） |
+| `environment_id` | 字符串 | 否 | 要在其中查找实体的环境 |
+| `query` | 对象 | 是（搜索） | `meta`块（需要`environmentId`，可选`displayFields`）加上`query`块（`simple`或`compound`）；简单查询使用`queryFields`、`operator` (`eq`、`lt`、`gt`、`le`、`ge`、`contains`)和`matchValue` |
+
+**返回：** `get_target_entity`返回实体的目录属性。 `search_target_catalog`在`entities`数组中返回匹配项。 `query`中的字段名称必须是为该租户配置的真实目录属性。
+
+**示例提示：**“在目录中搜索库存低于1000的产品。”
+
++++
+
 ## 工具摘要 {#tools-summary}
 
 | 类别 | 计数 | 工具 |
@@ -770,7 +905,8 @@ ht-degree: 14%
 | 修订 | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | at.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | 模板 | 1 | `list_target_templates` |
-| **合计** | **38** | |
+| 推荐 | 24 | `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`, `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`, `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`, `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`, `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`, `get_target_entity`, `search_target_catalog` |
+| **合计** | **62** | |
 
 ## 相关资源 {#tools-related}
 

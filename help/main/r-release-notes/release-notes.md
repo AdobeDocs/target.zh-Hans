@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6774b85f9515dd093d4e54492be54f7be3e92073
+source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 42%
+source-wordcount: '744'
+ht-degree: 36%
 ---
 # [!DNL Target]发行说明（当前版本）
 
 浏览[!DNL Adobe Target]中的最新功能、增强功能和修复。 这些发行说明还涵盖了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台组件（如果适用）的更新。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 26.9.5（2026年9月21日）
+
+**[!UICONTROL 目标分析]**
+
++++查看详细信息
+
+* **A4T报告链接未在[!DNL Target] UI**&#x200B;中生成。 对于[!DNL A4T]活动，未在&#x200B;**[!UICONTROL 报表]**&#x200B;分区中生成报表链接，即使基础报表数据在[!DNL Target] UI和[!DNL Adobe Analytics] UI中均可见。 (TGT-56247)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.4（2026年9月17日）
 
@@ -90,6 +100,18 @@ ht-degree: 42%
 +++查看详细信息
 
 * **复制仅包含活动受众的活动无法保存**。 当A/B活动使用仅活动（本地范围）受众规则和自定义代码修改时，复制它并保存副本会失败并出现“受众ID无效”错误。 (TGT-55785)
+
++++
+
+**[!DNL Adobe Target]MCP服务器 — 推荐工具（公共Beta）**
+
++++查看详细信息
+
+[!DNL Adobe Target] MCP服务器现在公开推荐工具，允许您列出、检查、创建和更新标准、收藏集、设计、促销和排除项，并直接从AI助手搜索产品目录。
+
+此功能需要具有&#x200B;**Target Premium**&#x200B;且启用了Recommendations的租户；此功能在非Premium帐户上不可用。
+
+有关详细信息，请参阅[MCP服务器工具引用](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)。
 
 +++
 

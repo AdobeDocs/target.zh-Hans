@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
+source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 36%
+source-wordcount: '816'
+ht-degree: 34%
 ---
 # [!DNL Target]发行说明（当前版本）
 
@@ -37,6 +37,27 @@ ht-degree: 36%
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
 
 ## [!DNL Target Standard/Premium] 26.9.5（2026年9月21日）
+
+### 功能
+
+<table>
+<thead>
+<tr>
+<th><strong>内容预隐藏</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>内容预隐藏仅隐藏Adobe Target个性化即将更改的部分，从而有助于减少页面闪烁，在内容加载时可提供更顺畅的体验。 此方法可避免隐藏整个页面，并有助于在启动新活动时最大限度地减少实施工作。</p>
+<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。</p>
+<p>有关更多信息，请参阅此<a href="../administrating-target/content-pre-hiding.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进功能
 
 **[!UICONTROL 目标分析]**
 
@@ -52,7 +73,7 @@ ht-degree: 36%
 
 +++查看详细信息
 
-* 在最顶部的页面元素&#x200B;**上的[!DNL Experience Fragments]无法访问**&#x200B;[!UICONTROL &#x200B;此项前插入]控件。 在可视化体验编辑器中，选择页面上最顶部的元素将页面向上滚动，导致&#x200B;**[!UICONTROL 此项前插入]**&#x200B;控件在无法选择该控件的可见视区上方渲染。 (TGT-55829)
+* 在最顶部的页面元素&#x200B;**上的[!DNL Experience Fragments]无法访问**[!UICONTROL &#x200B;此项前插入]控件。 在可视化体验编辑器中，选择页面上最顶部的元素将页面向上滚动，导致&#x200B;**[!UICONTROL 此项前插入]**&#x200B;控件在无法选择该控件的可见视区上方渲染。 (TGT-55829)
 
 +++
 

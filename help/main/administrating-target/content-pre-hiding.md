@@ -4,20 +4,12 @@ description: 了解内容预隐藏如何通过使用帐户级别设置、轻量�
 title: 用于个性化体验的内容预隐藏
 feature: Administration & Configuration
 role: Admin
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hans#beta newtab=true" tooltip=" [!DNL Adobe Target] 中有哪些 Beta 功能。"
-hide: true
-source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
+source-git-commit: a002b0a3549c0e47734849fce0df63b0df9cdee0
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 3%
-
+source-wordcount: '596'
+ht-degree: 1%
 ---
-
 # 用于个性化体验的内容预隐藏
-
->[!AVAILABILITY]
->
->个性化内容的内容预隐藏可用作&#x200B;**测试版**&#x200B;功能。
 
 当访客加载页面时，默认内容可能会短暂出现，然后由[!DNL Adobe Target]中的个性化内容替换。 该可见开关通常称为&#x200B;**闪烁**，这是个性化项目常见的体验问题。
 
@@ -55,7 +47,7 @@ ht-degree: 3%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。 这会将闪烁管理设置应用于您的实例。
 
-1. 启用后，单击&#x200B;**[!UICONTROL 下载]**，然后将该文件添加到页面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前加载。 有关完整的实施说明，请参阅[内容预隐藏SDK](https://experienceleague.adobe.com/zh-hans/docs/target-dev/developer/client-side/prehide-sdk)。
+1. 启用后，单击&#x200B;**[!UICONTROL 下载]**，然后将该文件添加到页面`<head>`，使其在[!DNL at.js]或[!DNL Web SDK]之前加载。 有关完整的实施说明，请参阅[内容预隐藏SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk)。
 
    ![](assets/content-pre-hiding-2.png)
 

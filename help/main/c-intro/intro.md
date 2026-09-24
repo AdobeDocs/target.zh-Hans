@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 2cecb1f8ae52fd6c47e543710bb14e00503c06ef
 workflow-type: tm+mt
 source-wordcount: '1644'
-ht-degree: 33%
+ht-degree: 70%
 ---
 # [!DNL Target]简介
 
@@ -37,92 +37,92 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
 >title="每日流量"
->abstract="每天有多少用户进入您的试验。 如果您不知道自己的每日流量，请选择上面的“流量”，计算机将使用您的其他输入值来为您求解。"
+>abstract="每天参与试验的用户数量。 如果您不清楚每日流量，请在上方选择“流量”，计算器将根据您输入的其他值自动计算每日流量。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup"
 >title="设置测试"
->abstract="这些字段定义了A/B测试、您预期看到的内容以及您在结果中需要有多大的信心。 绑定到上面所选内容的字段将自动解析。 其余部分填入您的预期值。"
+>abstract="这些字段用于定义 A/B 测试、预期结果以及所需的结果置信度。 系统将自动计算与您在上方所选项目对应的字段值。 请在其余字段中填写预期值。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_experiences"
 >title="体验数量"
->abstract="试验中的变体数量，包括对照组。 A/B测试有两只手臂。 五个变量加上一个控制等于6。 为了维持统计能力，更多的武器需要相应更多的运输量。"
+>abstract="试验中的变体数量，包括对照组。 A/B 测试包含 2 个试验组。 5 个变体加上 1 个对照组，共计 6 个试验组。 试验组越多，所需流量也越大，且需按比例增加，以维持统计功效。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_duration"
->title="A/B测试持续时间"
->abstract="您的试验将运行多少天。 较长的持续时间可让您的试验有更多的时间收集数据，从而可靠地检测更小的影响。 较短的持续时间需要较大的效果或更多的每日流量才能获得可靠的结果。"
+>title="A/B 测试持续时间"
+>abstract="试验将运行的天数。 持续时间越长，试验收集数据的时间就越充足，从而能够可靠地检测出更小的效应。 持续时间较短时，需要更大的效应或更多的每日流量，才能得出可靠的结果。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_minimum_detectable_effect"
->title="最小可检测效果"
->abstract="值得检测的最小改进，即您可以执行操作的最小量度变化。 这是提升度的大小，以百分比点表示，而不是相对于基线的百分比变化。 例如，如果您的基线是5%，并且提升1个百分点很重要，请输入1。"
+>title="最小可检测效应"
+>abstract="值得检测的最小提升幅度，即足以促使您采取行动的最小量度变化幅度。 此处指以百分点表示的提升幅度，而非相对于基准值的百分比变化。 例如，如果基准值为 5%，且提升 1 个百分点就有实际意义，请输入 1。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_expected_improvement"
->title="预期改进"
->abstract="您预期试验将产生的改进。"
+>title="预期提升幅度"
+>abstract="您预期试验带来的提升幅度。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_variance"
 >title="变量"
->abstract="您的量度值是如何分布的，而不是其平均值。 点击率等量度（大多为0和1）具有低方差，而像每用户收入这样的量度（少数高消费者，许多低消费者）可能会具有高得多的方差。 如果不确定，则保留默认值1。"
+>abstract="量度值的离散程度，而非其平均值。 点进率这类量度（取值主要为 0 和 1）的变量较小，而每用户收入这类量度（少数用户消费金额高，多数用户消费金额低）的变量则可能大得多。 如果不确定，请保留默认值 1。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="置信度"
->abstract="你在多大程度上需要相信，结果在称之为真实之前并非只是随机的，这是统计显着性的临界值。 95%的置信水平意味着误报的概率至多为5%。 值越高，误报率越低，但需要的数据越多。"
+>abstract="在认定结果反映真实效应之前，您需要多大程度的把握来确认该结果并非偶然产生，即统计显著性的判定阈值。 95% 的置信度意味着出现假阳性结果的概率不超过 5%。 置信度越高，出现假阳性结果的概率就越低，但所需的数据也越多。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
 >title="统计功效"
->abstract="如果确实存在一种效应，则检测这种效应的概率，实验灵敏度。 80%的功率意味着有80%的机会发现实际效果。 较高的功率可减少误报，但需要更多的流量或较长的运行时间。"
+>abstract="当效应确实存在时检测出该效应的概率，即试验的灵敏度。 80% 的统计功效意味着有 80% 的概率检测出真实存在的效应。 统计功效越高，出现假阴性结果的概率就越低，但需要更多流量或更长的运行时间。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_traffic_mode"
 >title="流量模式"
->abstract="用户如何进入您的试验。 连续：在实验持续时间内，用户每天进入。 当结果出现时，流量会自动转向性能更好的变体。"
+>abstract="用户参与试验的方式。 持续：在试验运行期间，每天都有用户参与试验。 随着试验结果不断产生，流量会自动向表现更好的变体倾斜。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_metric_type"
 >title="量度类型"
->abstract="您正在测量哪种量度。 百分比：将此用于单击或转化等二进制结果，其中每个用户既可以执行操作也可以不执行操作。 数字：将此用于收入或页面查看次数等量度，这些量度的值会因用户而有很大的差异。"
+>abstract="您要衡量的量度类型。 百分比：适用于点击或转化等二元结果，即每位用户只有执行或未执行某项操作两种情况。 数值：适用于收入或页面浏览量等量度，这类量度的值可能因用户而异，差异较大。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_auto_daily_traffic"
 >title="每日流量"
->abstract="每天有多少用户进入您的试验。 用于持续运行多天的连续实验，随着结果的传入，流量会自动转向性能更好的变量。"
+>abstract="每天参与试验的用户数量。 适用于持续运行多天的试验。在此类试验中，随着试验结果不断产生，流量会自动向表现更好的变体倾斜。"
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_baseline_metric_rate"
->title="基线度量速率"
->abstract="在试验开始前您当前的性能，控制臂平均值。 始终是必需的。 对于百分比量度，输入百分比：如果5%的访客点击了今天购买，请输入5。 对于计数量度，输入原始小数值。"
+>title="基准量度值"
+>abstract="试验开始前的当前表现，即对照组的平均值。 此字段始终为必填项。 对于百分比量度，请输入百分数：例如，如果目前有 5% 的访客点击“立即购买”，请输入 5。 对于计数量度，请直接输入原始数值（可含小数）。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
 >title="主要量度"
->abstract="主要指标将自动从报表设置中提取。 要进行更改，请修改目标和设置下的目标量度。"
+>abstract="主要量度会自动从报表设置中获取。 如需更改，请修改“目标和设置”中的目标量度。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_hypothesis"
 >title="假设验证"
->abstract="假设是您定义的声明，它解释了试验的预期结果。 包括所更改的内容和位置的描述，然后指明预计更改哪个量度以及如何更改。"
+>abstract="假设是您定义的一项陈述，用于说明试验的预期结果。 请描述要更改的内容及其位置，然后说明您预期哪个量度会发生变化，以及具体如何变化。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="分析"
->abstract="试验洞察是 AI 在试验数据达到统计显著性后得出的学习结果。"
+>abstract="试验洞察是指在试验数据达到统计显著性后，AI 从中发现的有价值的信息。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="机会"
->abstract="实验机会是人工智能建议的治疗想法，基于在您的实验屏幕截图和结果中找到的模式AI。"
+>abstract="试验机会是指 AI 根据在试验屏幕截图和结果中发现的规律，提出的试验处理方案构想。"
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
->title="处理详细信息"
->abstract="处理详细信息显示了用户符合某个处理条件时该处理条件的图像。 您可以查看这些图像以进行所有实验。 某些实验可能会要求您确认图像，或者在需要时替换图像。"
+>title="试验处理方案详情"
+>abstract="试验处理方案详情通过图像展示用户符合方案适用条件时所看到的实际效果。 您可以查看所有试验的这些图像。 某些试验可能会要求您确认图像，或在必要时进行替换。"
 
 作为[!DNL Adobe Experience Cloud]的一部分，[!DNL Adobe Target]提供全面的工具，以个性化跨Web、移动站点、应用程序、社交媒体和其他数字渠道的客户体验。
 
@@ -219,6 +219,6 @@ AP是完全自动化的，以最少的人工分析持续学习。 它构建各�
 * 选择相应的活动类型以实现目标
 * 介绍适用于所有活动类型的三步引导式工作流
 
->[!VIDEO](https://video.tv.adobe.com/v/30323?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 

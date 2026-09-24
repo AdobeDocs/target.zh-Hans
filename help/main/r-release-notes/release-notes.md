@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
+source-git-commit: 4d083419d76b0287c3c254a0fc382abc7444cc75
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 34%
+source-wordcount: '874'
+ht-degree: 32%
 ---
 # [!DNL Target]发行说明（当前版本）
 
 浏览[!DNL Adobe Target]中的最新功能、增强功能和修复。 这些发行说明还涵盖了[!DNL Target] API、SDK、[!DNL Adobe Experience Platform Web SDK]、at.js和其他平台组件（如果适用）的更新。
 
 （括号中的问题编号供 [!DNL Adobe] 内部使用。）
+
+## [!DNL Target Standard/Premium] 26.9.6（2026年9月24日）
+
+**[!UICONTROL 可视化体验编辑器] (VEC)**
+
++++查看详细信息
+
+* 通过可视化体验编辑器&#x200B;**访问经SSO验证的页面时，出现**&#x200B;无尽的重定向循环。 当加载到可视化体验编辑器的页面URL经历SSO/登录重定向流程时，可视化体验编辑器进入无限重定向循环，从未到达预期页面。 (TGT-56233)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.5（2026年9月21日）
 
@@ -73,7 +83,7 @@ ht-degree: 34%
 
 +++查看详细信息
 
-* 在最顶部的页面元素&#x200B;**上的[!DNL Experience Fragments]无法访问**&#x200B;[!UICONTROL &#x200B;此项前插入]控件。 在可视化体验编辑器中，选择页面上最顶部的元素将页面向上滚动，导致&#x200B;**[!UICONTROL 此项前插入]**&#x200B;控件在无法选择该控件的可见视区上方渲染。 (TGT-55829)
+* 在最顶部的页面元素&#x200B;**上的[!DNL Experience Fragments]无法访问**[!UICONTROL &#x200B;此项前插入]控件。 在可视化体验编辑器中，选择页面上最顶部的元素将页面向上滚动，导致&#x200B;**[!UICONTROL 此项前插入]**&#x200B;控件在无法选择该控件的可见视区上方渲染。 (TGT-55829)
 
 +++
 
